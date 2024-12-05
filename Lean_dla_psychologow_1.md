@@ -806,9 +806,9 @@ podłodze". Z czasem, gdy gra się trochę dłużej, stopniowo pojawia się cora
 coraz dłużej świadomość własnego położenia na mapie jako całości. To trochę tak, jakby jednocześnie
 patrząc przez "niby-własne" oczy patrzyło się również, ale mentalnie, na swoje działania z lotu
 ptaka, albo jakby się było jednocześnie we własnym ciele i w pewnym sensie ponad nim. To samo dzieje
-się, gdy nabiera się praktyki w używaniu narzędzi formalnych. I tego Ci życzę, bo zdarza się, że
-taki widok z lotu ptaka na wyrafinowane i bywa, że wręcz ekstremalnie abstrakcyjne konstrukcje
-formalne czasami dostarcza poczucia ogromnej intelektualnej mocy.
+się, gdy nabiera się praktyki w używaniu narzędzi formalnych. I tego Ci życzę, bo zdarza się czasem,
+że taki widok z lotu ptaka na wyrafinowane i bywa, że wręcz ekstremalnie abstrakcyjne konstrukcje
+formalne dostarcza poczucia ogromnej intelektualnej mocy.
 
 **Ostatni (dez)orientator**: Z wnętrza ciała każdej funkcji widać jej parametry, na przykład z
 wnętrza ciała naszej funkcji `suma` widać parametry `n` i `m` o typie `Nat`, ale z wnętrza ciała
