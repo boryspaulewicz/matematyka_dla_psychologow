@@ -817,15 +817,15 @@ funkcji. Na przykład, w ciele funkcji `dodaj2` używaliśmy symbolu `2` i symbo
 zdefiniowane w automatycznie ładowanej bibliotece Lean'a, na zewnątrz definicji funkcji `dodaj2`.
 
 Jeżeli teraz przyjmiemy *aksjomatycznie*, czyli bo tak, że `p` jest (jakimś) zdaniem i że istnieje
-term `dp`, który jest dowodem zdania `p`:
+term `dp`, który jest (jakimś) dowodem zdania `p`:
 
 ```lean
 axiom p : Prop
 axiom dp : p
 ```
 
-to *w tym kontekście*, albo *w ramach tej formalnej mini-teorii* będziemy mogli udowodnić takie oto
-twierdzenie:
+to *w tym kontekście*, albo *w ramach tej formalnej (mini-)teorii* będziemy mogli udowodnić takie
+oto twierdzenie:
 
 ```lean
 theorem t3 (a : Prop) : a → p := fun (h : a) => dp
@@ -838,9 +838,9 @@ Dla każdego (zdania) `a`, jeżeli `a` (jest prawdą = ma dowód), to `p` (jest 
 
 Albo:
 
-Dla każdego zdania `a`, można zrobić term typu `a → p`, a ponieważ `a → p` jest zdaniem (= termem
-typu `Prop`), to znaczy, że można zrobić dowód zdania `a → p`, czyli, mówiąc krótko, dla każdego
-zdania `a`, jeżeli `a`, to `p`.
+Dla każdego zdania `a`, w ten oto sposób (podany po symbolu definicji `:=`) można zrobić term typu
+`a → p`. A ponieważ `a → p` jest zdaniem (= termem typu `Prop`), to znaczy, że można zrobić dowód
+zdania `a → p`, czyli, mówiąc krótko, dla każdego zdania `a`, jeżeli `a`, to `p`.
 
 Faktycznie, z każdego dowodu zdania `a` możemy w tym momencie zrobić dowód zdania `p`, po prostu
 *ignorując* dowód zdania `a` i przytaczając dowód `dp` zdania `p`, który w tym momencie (lepiej - w
