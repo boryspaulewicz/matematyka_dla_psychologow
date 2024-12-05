@@ -782,7 +782,7 @@ nawiasach):
 #check t1 (a → a)
 ```
 
-albo do zdania `a → (a ∧ a)` [Czytaj: *a* implikuje koniunkcję zdań *a* i *a*]
+albo do zdania `a → (a ∧ a)` [Czytaj: `a` implikuje koniunkcję zdań `a` i `a`]
 
 ```lean
 #check t1 (a → (a ∧ a))
@@ -792,9 +792,8 @@ albo do zdania `a → (a ∧ a)` [Czytaj: *a* implikuje koniunkcję zdań *a* i 
 
 1. Zdaniami matematycznymi połączonymi z dowodami tych zdań.
 
-2. Termami pewnego typu, konkretnie (tak zwanego zależnego, ale nie przejmuj się tym) typu:
-
-funkcja obliczająca/konstruująca z dowolnego zdania `a` dowód zdania `a → a`
+2. Termami pewnego typu, konkretnie (tak zwanego zależnego, ale nie przejmuj się tym) typu: Funkcja
+   obliczająca/konstruująca z dowolnego zdania `a` dowód zdania `a → a`.
 
 W ten oto sposób *znika różnica między uprawianiem matematyki teoretycznej i programowaniem*.
 
@@ -811,11 +810,11 @@ się, gdy nabiera się praktyki w używaniu narzędzi formalnych. I tego Ci życ
 taki widok z lotu ptaka na wyrafinowane i bywa, że wręcz ekstremalnie abstrakcyjne konstrukcje
 formalne czasami dostarcza poczucia ogromnej intelektualnej mocy.
 
-**Ostatni dezorientator**: Z wnętrza ciała każdej funkcji widać jej parametry, na przykład z wnętrza
-ciała naszej funkcji `suma` widać parametry `n` i `m` o typie `Nat`, ale z wnętrza ciała każdej
-funkcji widać też zmienne, które zostały zdefiniowane wcześniej *na zewnątrz* definicji funkcji. Na
-przykład, w ciele funkcji `dodaj2` używaliśmy symbolu `2` i symbolu `+`, które są zdefiniowane w
-automatycznie ładowanej bibliotece Lean'a, na zewnątrz definicji funkcji `dodaj2`. 
+**Ostatni (dez)orientator**: Z wnętrza ciała każdej funkcji widać jej parametry, na przykład z
+wnętrza ciała naszej funkcji `suma` widać parametry `n` i `m` o typie `Nat`, ale z wnętrza ciała
+każdej funkcji widać też zmienne, które zostały zdefiniowane wcześniej *na zewnątrz* definicji
+funkcji. Na przykład, w ciele funkcji `dodaj2` używaliśmy symbolu `2` i symbolu `+`, które są
+zdefiniowane w automatycznie ładowanej bibliotece Lean'a, na zewnątrz definicji funkcji `dodaj2`.
 
 Jeżeli teraz przyjmiemy *aksjomatycznie*, czyli bo tak, że `p` jest (jakimś) zdaniem i że istnieje
 term `dp`, który jest dowodem zdania `p`:
@@ -839,18 +838,20 @@ Dla każdego (zdania) `a`, jeżeli `a` (jest prawdą = ma dowód), to `p` (jest 
 
 Albo:
 
-Dla każdego zdania `a`, można zrobić term typu `a → p`, czyli dowód zdania `a → p`, czyli, mówiąc
-krótko, dla każdego zdania `a`, jeżeli `a`, to `p`. I można to zrobić w ten oto sposób ...
+Dla każdego zdania `a`, można zrobić term typu `a → p`, a ponieważ `a → p` jest zdaniem (= termem
+typu `Prop`), to znaczy, że można zrobić dowód zdania `a → p`, czyli, mówiąc krótko, dla każdego
+zdania `a`, jeżeli `a`, to `p`.
 
-Faktycznie z każdego dowodu zdania `a` możemy w tym momencie zrobić dowód zdania `p`, po prostu
-*ignorując* dowód zdania `a` i przytaczając dowód `dp` zdania `p`, który w tym momencie istnieje
-aksjomatycznie, czyli bo tak, i jest widoczny wewnątrz ciała definicji `t3`.
+Faktycznie, z każdego dowodu zdania `a` możemy w tym momencie zrobić dowód zdania `p`, po prostu
+*ignorując* dowód zdania `a` i przytaczając dowód `dp` zdania `p`, który w tym momencie (lepiej - w
+tym kontekście) istnieje aksjomatycznie, czyli bo tak, i jest widoczny wewnątrz ciała definicji
+`t3`.
 
 W pierwszej chwili to się może wydawać dziwne, ale przecież, jeżeli na przykład *wiemy już*, że
 jutro będzie sobota (i ta wiedza spełnia rolę aktualnego aksjomatu), to przyjmując obowiązującą w
-logice interpretację implikacji, prawdą jest na przykład, że *jeżeli dzisiaj pada deszcz, to jutro
-będzie sobota*, chociaż między dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W
-tej sytuacji* (czyli w tym *kontekście*) prawdą jest, że *jeżeli dzisiaj pada deszcz, to jutro
-będzie sobota*, po prostu dlatego, że ... jutro będzie sobota (i to jest część rozważanej sytuacji
-albo kontekstu). Rozpoznajemy tu podobny sam schemat rozumowania jak w przypadku dowodu twierdzenia
+logice interpretację implikacji, prawdą jest, że *jeżeli dzisiaj pada deszcz, to jutro będzie
+sobota*, chociaż między dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W tej
+sytuacji* (czyli w tym *kontekście*) prawdą jest, że *jeżeli dzisiaj pada deszcz, to jutro będzie
+sobota*, po prostu dlatego, że ... jutro będzie sobota (i to jest część rozważanej sytuacji albo
+kontekstu). Rozpoznajemy tu więc podobny schemat rozumowania jak w przypadku dowodu twierdzenia
 `t3`.
