@@ -1,0 +1,1 @@
+To jest repozytorium skryptów, których używam między innymi w ramach prowadzonych przez siebie zajęć z psychologii poznawczej (dla studentów studiów magisterskich) i wnioskowania przyczynowego i bayesowskiego (dla doktorantów).
