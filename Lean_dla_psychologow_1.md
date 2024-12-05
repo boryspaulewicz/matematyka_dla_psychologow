@@ -96,7 +96,7 @@ ciała funkcji "mówić" o jej argumencie.
 ```
 
 W prawym oknie widać teraz typ termu - `dodaj2 : Nat → Nat`. W Lean wyrażenia o postaci `A → B`
-oznaczają typ (ale *tylko* sam typ, nie żaden konkretny term czy obiekt tego typu!):
+oznaczają typ (ale *tylko* sam typ, nie żaden konkretny term czy obiekt *tego* typu!):
 
 > Funkcja przekształcająca termy typu `A` w termy typu `B` (interpretacja wyrażenia o postaci `A →
 > B`)
