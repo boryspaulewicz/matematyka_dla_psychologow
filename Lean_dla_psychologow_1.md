@@ -837,15 +837,20 @@ To, co "mówi" twierdzenie zapisane w Lean można odczytać z kodu po jego nazwi
 
 Dla każdego (zdania) `a`, jeżeli `a` (jest prawdą = ma dowód), to `p` (jest prawdą = ma dowód).
 
-I to jest teraz zdanie prawdziwe, czyli ma dowód, bo z każdego dowodu zdania `a` możemy w tym
-momencie zrobić dowód zdania `p`, *ignorując* dowód zdania `a` i przytaczając dowód `dp` zdania `p`,
-który istnieje aksjomatycznie i jest widoczny również wewnątrz ciała definicji `t3`.  
+Albo:
+
+Dla każdego zdania `a`, można zrobić term typu `a → p`, czyli dowód zdania `a → p`, czyli, mówiąc
+krótko, dla każdego zdania `a`, jeżeli `a`, to `p`. I można to zrobić w ten oto sposób ...
+
+Faktycznie z każdego dowodu zdania `a` możemy w tym momencie zrobić dowód zdania `p`, po prostu
+*ignorując* dowód zdania `a` i przytaczając dowód `dp` zdania `p`, który w tym momencie istnieje
+aksjomatycznie, czyli bo tak, i jest widoczny wewnątrz ciała definicji `t3`.
 
 W pierwszej chwili to się może wydawać dziwne, ale przecież, jeżeli na przykład *wiemy już*, że
 jutro będzie sobota (i ta wiedza spełnia rolę aktualnego aksjomatu), to przyjmując obowiązującą w
 logice interpretację implikacji, prawdą jest na przykład, że *jeżeli dzisiaj pada deszcz, to jutro
 będzie sobota*, chociaż między dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W
 tej sytuacji* (czyli w tym *kontekście*) prawdą jest, że *jeżeli dzisiaj pada deszcz, to jutro
-będzie sobota*, po prostu dlatego, że ... jutro będzie sobota (to jest część rozważanej sytuacji
-albo kontekstu). Rozpoznajemy tu dokładnie taki sam schemat rozumowania jak w przypadku dowodu
-twierdzenia `t3`.
+będzie sobota*, po prostu dlatego, że ... jutro będzie sobota (i to jest część rozważanej sytuacji
+albo kontekstu). Rozpoznajemy tu podobny sam schemat rozumowania jak w przypadku dowodu twierdzenia
+`t3`.
