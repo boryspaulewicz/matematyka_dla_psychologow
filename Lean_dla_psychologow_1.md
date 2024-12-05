@@ -263,7 +263,7 @@ te symbole: *nic się nie kryje* pod tymi symbolami i te symbole to jedyne dane 
 `dwie`. Moglibyśmy zbudować całą teorię logiki dwuwartościowej posługując się tymi symbolami (i
 paroma innymi konstrukcjami) i to by była *ta sama teoria formalna, tylko inaczej zapisana*.
 
-# Bardziej o samej logice w Lean
+# Więcej o logice w Lean
 
 **Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym odróżnianiem (i przełączaniem
 się czasem między odpowiadającymi tym różnicom punktami widzenia):
@@ -831,7 +831,7 @@ oto twierdzenie:
 theorem t3 (a : Prop) : a → p := fun (h : a) => dp
 ```
 
-To, co "mówi" twierdzenie zapisane w Lean można odczytać z kodu po jego nazwie i przed symbolem
+To, co "mówi" twierdzenie zapisane w Lean można odczytać z kodu po jego nazwie a przed symbolem
 `:=`. Być może jesteś już teraz w stanie sam/a zobaczyć, że twierdzenie `t3` mówi dosłownie:
 
 Dla każdego (zdania) `a`, jeżeli `a` (jest prawdą = ma dowód), to `p` (jest prawdą = ma dowód).
