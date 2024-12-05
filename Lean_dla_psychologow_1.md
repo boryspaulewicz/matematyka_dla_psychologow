@@ -31,7 +31,8 @@ https://live.lean-lang.org
 
 Rozpoczniesz w ten sposób interaktywną sesję z asystentem dowodzenia Lean. Będziesz pisać w oknie po
 lewej i czasem zaglądać do okna po prawej. Żeby stworzyć w Lean proces dodający dwie liczby
-naturalne możemy napisać tak (**Polecenie**: wklej poniższy kod do lewego okna Leana):
+naturalne możemy napisać tak (**Polecenie**: wklej poniższy kod do lewego okna Leana - wystarczy
+kliknąć w ikonę kopiowania widoczną poniżej z prawej strony):
 
 ```lean
 def suma (n : Nat) (m : Nat) : Nat := n + m
@@ -39,11 +40,11 @@ def suma (n : Nat) (m : Nat) : Nat := n + m
 
 **Czytamy to**: definiuję (`def`) wartość / znaczenie symbolu suma (`suma`) jako term o typie:
 
-> Funkcja dwóch parametrów typu Nat, czyli typu liczba naturalna (`(n : Nat) (m : Nat)`), której
-> rezultat też jest typu Nat (`: Nat`).
+> Funkcja dwóch parametrów typu `Nat`, czyli typu liczba naturalna (`(n : Nat) (m : Nat)`), której
+> rezultat też jest typu `Nat` (`: Nat`).
 
-A więc wszystko między słowem suma a symbolem definiowania `:=` to określenie *typu*, a nie treści,
-tej definicji.
+A więc wszystko między symbolem `suma` a symbolem definiowania `:=` to określenie *typu*, a nie
+treści, tej definicji.
 
 **Czytamy dalej**: Ten term konstruuję albo definiuję jego wartość jako (`:=`) zastosowanie funkcji
 dodawania (bo to też jest pewna funkcja!) do pierwszego i drugiego parametru, które to parametry
@@ -64,9 +65,8 @@ w Lean nie możemy dowolnie re-definiować symboli).
 definicji, chyba, że najpierw *usuniemy* poprzednią definicję.
 
 **Polecenie**: Zastosuj funkcję `suma` do dwóch liczb naturalnych wklejając poniższy kod. Taką
-konstrukcję nazywamy *aplikacją* funkcji do termu lub termów. Umieść kursor nad komendą `eval` i
-odnajdź rezultat ewaluacji tego wyrażenia w prawym oknie. Zwróć uwagę, że komendę `eval` trzeba
-poprzedzić znakiem `#`.
+konstrukcję nazywamy *aplikacją* funkcji do termu lub termów. Umieść kursor nad komendą `#eval` i
+odnajdź rezultat ewaluacji tego wyrażenia w prawym oknie.
 
 ```lean
 #eval suma 1 2
@@ -89,7 +89,7 @@ ciała funkcji "mówić" o jej argumencie.
 
 **Polecenie**: Wklej *powyższy* kod, albo jeszcze lepiej, spróbuj go najpierw przepisać z pamięci,
 żeby struktura takich definicji zaczęła Ci się lepiej utrwalać i żebyś ją szybciej mentalnie
-"parsował/a". Następnie wpisz poniższą komendę i najedź kursorem na słowo `check`:
+"parsował/a". Następnie wpisz poniższą komendę i najedź kursorem na słowo `#check`:
 
 ```lean
 #check @dodaj2
@@ -98,20 +98,21 @@ ciała funkcji "mówić" o jej argumencie.
 W prawym oknie widać teraz typ termu - `dodaj2 : Nat → Nat`. W Lean wyrażenia o postaci `A → B`
 oznaczają typ (ale *tylko* sam typ, nie żaden konkretny term czy obiekt tego typu!):
 
-> Funkcja przekształcająca termy typu A w termy typu B (interpretacja wyrażenia o postaci A → B)
+> Funkcja przekształcająca termy typu `A` w termy typu `B` (interpretacja wyrażenia o postaci `A →
+> B`)
 
 No więc widzimy, że `dodaj2` przekształca termy typu `Nat` w termy typu `Nat`, co już
-wiedzieliśmy. **Polecenie**: Przepisz poniższy kod i najedź kursorem na słowo `check`:
+wiedzieliśmy. **Polecenie**: Przepisz poniższy kod i najedź kursorem na słowo `#check`:
 
 ```lean
 #check dodaj2
 ```
 
-Teraz w prawym oknie widać tą samą informację co wcześniej, tylko pokazaną w innym (może bardziej
-czytelnym?) stylu, bo symbol `dodaj2` nie jest poprzedzony znakiem `@`.
+Teraz w prawym oknie widać tą samą informację co wcześniej, tylko pokazaną w innym stylu, bo symbol
+`dodaj2` nie jest poprzedzony znakiem `@`.
 
 **Polecenie**: Napisz w Lean w nowej linijce kod, który oznacza ewaluację aplikacji funkcji `dodaj2`
-do liczby `2`. Najedź kursorem na słowo eval i popatrz na prawe okno.
+do liczby `2`. Najedź kursorem na `#eval` i popatrz na prawe okno.
 
 **Co tu się stało, krok po kroku**: Zanim Lean obliczy (mówimy raczej dokona *ewaluacji*, bo to
 ogólniejsze pojęcie) wartość zastosowania (mówimy raczej aplikacji, żeby podkreślić, że chodzi nam o
@@ -129,7 +130,7 @@ ewaluuje argument.
 2. Lean podstawia rezultat ewaluacji pod (tak zwane *wolne*, ale o tym może kiedy indziej) zmienne,
 będące *parametrami funkcji*, w *ciele funkcji*. Tutaj podstawia "znaczenie" symbolu `2`, czyli
 `Nat.succ (Nat.succ Nat.zero)`, pod symbol `a` w ciele funkcji `dodaj2`. Wychodzi z tego oczywiście
-`2 + 2`.
+`2 + 2` (posługując się notacją cyfrową).
 
 3. Następnie Lean ewaluuje uzyskaną w ten sposób wersję ciała funkcji (tego wątku nie będę rozwijał,
 powiem tylko, że dodawanie liczb naturalnych ma w Lean piękną definicję rekurencyjną).
@@ -147,21 +148,22 @@ błąd, ponieważ `n` i `m` to w tym momencie *tylko* formalne parametry funkcji
 czerwoną falką. W ten sposób Lean sygnalizuje, że nie ma pojęcia, o czym mówisz. Usuń ten błędny
 kod.
 
-**Potencjalnie przydatna metafora - funkcja jako pudełko z mechanizmem w środku*: Możemy myśleć o
-funkcji suma jako o pudełku, które ma dwa wejścia, jedno oznaczone literą *n*, a drugie literą *m*,
-i które ma też jedno wyjście, a w środku ma "mechanizm dodający" obiekty pojawiające się na
+**Potencjalnie przydatna metafora - funkcja jako pudełko z mechanizmem w środku**: Możemy myśleć o
+funkcji `suma` jako o pudełku, które ma dwa wejścia, jedno oznaczone literą *n*, a drugie literą
+*m*, i które ma jedno wyjście, a w środku zawiera "mechanizm dodający" obiekty pojawiające się na
 wejściach. Jeżeli wyobrazimy sobie, że ten wewnętrzny mechanizm jest "przyklejony" do wejść, to
 stanie się jasne, że nazwy wejść nie mają tutaj znaczenia i istnieją tylko dla wygody użytkownika.
 
-Za to *typy* wejść i wyjścia (funkcja ma zawsze tylko jedno wyjście) jak najbardziej mają
-znaczenie. Nie możemy podawać na wejściu funkcji dodającej liczby czegokolwiek - to muszą być
-wyrażenia typu liczba (tutaj akurat wymagamy liczb naturalnych), i tak też mówi nasza
-definicja. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to na wyjściu pojawi się
-liczba naturalna. To będzie wynik dodawania wejść, bo tak jest skonstruowana zawartość pudełka o
-nazwie *suma*.
+Za to *typy* wejść i *typ* wyjścia (funkcja ma zawsze tylko jedno wyjście) jak *mają* znaczenie. Nie
+możemy podawać na wejściu funkcji dodającej liczby czegokolwiek - to muszą być wyrażenia typu liczba
+(tutaj akurat wymagamy liczb naturalnych), i tak też mówi nasza definicja. Jeżeli podamy na wejściu
+dwa wyrażenia typu liczba naturalna, to na wyjściu pojawi się liczba naturalna. To będzie wynik
+dodawania wejść, bo tak jest skonstruowana zawartość pudełka o nazwie *suma*.
 
-**Bardziej skomplikowany przykład ewaluacji aplikacji do termów**: Myślę, że domyślasz się już,
-dlaczego jest poprawny i jak jest ewaluowany poniższy (dziwaczny, wiem) fragment kodu:
+**Bardziej skomplikowany przykład ewaluacji aplikacji funkcji**: Myślę, że domyślasz się już,
+dlaczego jest poprawny i jak jest ewaluowany poniższy (dziwaczny, wiem) fragment kodu (przypominam,
+że `Nat.succ` to funkcja następnika, która dla każdej liczby naturalnej daje następną liczbę
+naturalną, a `Nat.zero` to liczba naturalna zero):
 
 ```lean
 #eval suma (Nat.succ (Nat.succ 3)) (6 - (2 + Nat.zero))
@@ -171,18 +173,18 @@ Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji argumentów, które 
 czasem aplikacjami pewnych funkcji (`Nat.succ` i `-`) do rezultatów aplikacji pewnych funkcji
 (`Nat.succ` aplikowane do rezultatu aplikacji `Nat.succ` do termu `3` i funkcja `-` aplikowana do
 termu `6` i rezultatu aplikacji funkcji `+`). Zwracam uwagę, że w tym kontekście `+` i `-` też
-oznaczają pewne - dwuargumnetowe - funkcje, tylko zapisane w *notacji infiksowej*:
+oznaczają pewne - dwuarguentowe - funkcje, tylko zapisane w *notacji infiksowej*:
 
-`argument1 funkcja argument2`
+`argument1 funkcja argument2`, na przykład `1 + 2`
 
 zamiast w *notacji prefiksowej*:
 
-`funkcja argument1 argument2`
+`funkcja argument1 argument2`, na przykład `suma 1 2`
 
 bo tak się zwykle zapisuje dodawanie i odejmowanie. Każdą taką ewaluację Lean zaczyna od ewaluacji
 najbardziej "wewnętrznych" aplikacji (jeżeli w ogóle jakieś są).
 
-**Co jest czego czym w aplikacjach**: Jesteś w stanie domyślić się na czym polega błąd w kodzie
+**Co jest czego czym w aplikacjach**: Jesteś w stanie domyślić się, na czym polega błąd w kodzie
 poniżej?
 
 ```lean
@@ -206,20 +208,24 @@ parametru tej drugiej. Może przeczytaj to jeszcze raz. Taki sposób definiowani
 jednoargumentowych nazywa się Curryingiem, od nazwiska pewnego wybitnego matematyka.
 
 **Polecenie**: Napisz kod pozwalający zobaczyć typ (uwaga: *typ*, a nie *rezultat ewaluacji*, a więc
-nie masz teraz używać komendy `eval`) aplikacji `funkcji` suma do *tylko jednego* argumentu
+nie masz teraz używać komendy `#eval`) aplikacji funkcji `suma` do *tylko jednego* argumentu
 `10`. Jak Ci się uda, zobaczysz w prawym oknie komunikat:
 
 ```lean
 suma 10 : Nat → Nat
 ```
 
-Czytamy to: aplikacja funkcji `suma` do termu `10` sama jest (złożonym) termem typu `Nat → Nat`,
-czyli jest funkcją (W Lean jest funkcją znaczy jest termem typu funkcja) przekształcającą liczby
-naturalne w liczby naturalne. Jaka to jest funkcja? Znamy definicję symbolu `suma`, więc wiemy, że
-to jest jednoargumentowa funkcja, która dodaje do dowolnej liczby naturalnej `10` (dodam, że dodaje
-`10` "od przodu", bo "robi" `10 + m`).
+**Czytamy to**: aplikacja funkcji `suma` do termu `10` ma typ `Nat → Nat`, czyli jest funkcją (W
+Lean *jest funkcją* znaczy *jest termem typu funkcja*) przekształcającą liczby naturalne w liczby
+naturalne. Jaka to jest funkcja? Znamy definicję symbolu `suma`, więc wiemy, że `suma 10` to
+wyrażenie, które jakby "czeka na brakujący argument" - jest to więc jednoargumentowa funkcja, która
+dodaje do dowolnej liczby naturalnej `10` (dodaje `10` "od przodu", bo "robi" `10 + m`).
 
-# Trochę o logice i pewnych typach danych w Lean
+**Polecenie**: Sprawdź typ (a nie ewaluuj) termu `suma`, ale poprzedzonego znakiem `@`, żeby się
+przekonać, że `suma` to tak naprawdę funkcja, która przekształca dowolną liczbę naturalną w funkcję,
+która z kolei przekształca kolejną dowolną liczbę naturalną w liczbę naturalną. *Uff*.
+
+# Trochę mniej o programowaniu i trochę więcej o logice i pewnych typach danych w Lean
 
 **Definiowanie indukcyjnych typów danych**: W logice dwuwartościowej mamy dokładnie dwie wartości
 logiczne, *prawdę* i *fałsz*. Gdy używamy logiki w sposób czysto formalny, czyli "beztreściowy",
@@ -227,7 +233,7 @@ prawda i fałsz są tylko jakimiś dwiema różnymi wartościami albo obiektami,
 się tylko to, że te obiekty są dwa i że są różne. Cały "logiczny sens" tych obiektów czy wyrażeń
 sprowadza się do tego, w jakie relacje wchodzą z innymi wyrażeniami, a nie "czym naprawdę są", bo,
 jeszcze raz, z formalnego punktu widzenia nie są niczym więcej niż jakimiś dwiema różnymi
-wartościami / dwoma obiektami / dwoma wyrażeniami.
+wartościami / dwoma różnymi obiektami / dwoma różnymi wyrażeniami.
 
 W Lean możemy zdefiniować nowy typ danych który ma dokładnie dwie wartości w taki oto sposób
 (**Polecenie**: wklej poniższy kod do Leana):
@@ -243,21 +249,21 @@ to nic innego jak *jakieś* dwie różne wartości. Słowo kluczowe `inductive` 
 zaczynamy definicję indukcyjną. Nie będę w tym momencie objaśniał szczegółowo co to znaczy, powiem
 tylko jak się czyta tą akurat definicję:
 
-**Czytamy kod**: Symbol `dwie` oznaczał będzie odtąd typ danych, gdzie wartość typu `dwie` to taka,
-która jest:
+**Czytamy kod**: Symbol `dwie` oznaczał będzie odtąd indukcyjny (`inductive`) typ danych, gdzie
+(`where`) wartość (term) tego typu to taka, która jest albo:
 
-albo symbolem (słowem) `jedna`
+- Symbolem `jedna`, albo
 
-albo symbolem (słowem) `druga`
+- symbolem `druga`
 
-i to są różne wartości i nie ma innych danych typu `dwie`. Koniec czytania.
+i to są *różne wartości* i *nie ma innych danych typu* `dwie`.
 
-Dana typu `dwie` to zatem jeden z dwóch różnych symboli, `jedna` lub `druga`, i nic więcej. *Nic się
-nie kryje* pod tymi symbolami i te symbole to jedyne dane typu `dwie`. Moglibyśmy zbudować całą
-teorię logiki dwuwartościowej posługując się tymi symbolami (i paroma innymi konstrukcjami) i to by
-była *ta sama teoria formalna, tylko inaczej zapisana*.
+Dana typu `dwie` to zatem jeden z dwóch różnych symboli, `jedna` lub `druga`, i nic więcej, to *są*
+te symbole: *nic się nie kryje* pod tymi symbolami i te symbole to jedyne dane typu
+`dwie`. Moglibyśmy zbudować całą teorię logiki dwuwartościowej posługując się tymi symbolami (i
+paroma innymi konstrukcjami) i to by była *ta sama teoria formalna, tylko inaczej zapisana*.
 
-# Już bardziej o samej logice w Lean
+# Bardziej o samej logice w Lean
 
 **Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym odróżnianiem (i przełączaniem
 się czasem między odpowiadającymi tym różnicom punktami widzenia):
@@ -279,9 +285,9 @@ mnie fragmentów.
 **O czym to będzie**: Zajmiemy się *implikacją*. Implikacja jest chyba najważniejszym spójnikiem w
 całej logice. Mówiąc na razie luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*.
 
-gdzie *A* i *B* to *dowolne* zdania, proste lub żłożone (i tylko same zdania, a nie ich prawdziwość
+gdzie *A* i *B* to *dowolne* zdania, proste lub złożone (i tylko same zdania, a nie ich prawdziwość
 czy fałszywość, albo fakt bycia dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację
-za pomocą strzałki skierowanej w prawo `→`.
+za pomocą strzałki skierowanej w prawo →.
 
 Jeżeli *A* i *B* to zdania (i tylko wtedy!), to formalnie, czyli w oficjalnym, jednoznacznym języku
 matematyki, implikację *Jeżeli A, to B* zapisujemy więc zwykle jako *A → B*. Czy przypomina Ci to
@@ -329,10 +335,10 @@ Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcji przekształcających termy typu `A` w termy
 typu `B`*.
 
-**Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią jest, ale
-to byłaby wieloznaczność problematyczna i nie zamierzona tylko gdybyśmy sprawili, że nie jest
-całkiem jasne, którą interpretację stosujemy, i ta różnica w dopuszczalnych interpretacjach miałaby
-znaczenie dla poprawności czy sensu wniosków, jakie wyciągamy.
+**Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią
+jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili, że nie jest całkiem
+jasne, którą interpretację stosujemy i gdyby jednocześnie ta różnica w dopuszczalnych
+interpretacjach miała znaczenie dla poprawności czy sensu wniosków, które wyciągamy.
 
 **Terminologia ogólna**: W matematyce *unikalne* znaczy zwykle *dokładnie jedno danego rodzaju*, a
 *nie* dokładnie jedno *tak w ogóle*. Na przykład, w przypadku implikacji dostajemy dokładnie jedno
@@ -417,12 +423,12 @@ bardzo prosty, ale i tak zdążysz się co najmniej raz poczuć zagubiony/a. Mus
 coś na temat tego, jak logika działa w języku Lean.
 
 **Uwagi o logice klasycznej i konstruktywnej**: Być może miałe/aś już do czynienia z elementami
-logiki zdań. Jeśli tak, to może to być teraz do pewnego stopnia *przeszkoda*. Logika zdań
-najczęściej jest wykładana w wersji tak zwanej *klasycznej*, w której prawdą jest, że:
+logiki zdań. Jeśli tak, to może to być teraz do pewnego stopnia *przeszkoda*. Logika zdań jest
+najczęściej wykładana w wersji tak zwanej *klasycznej*, w której prawdą jest, że:
 
 *Każde zdanie jest albo prawdziwe, albo fałszywe.* (zdanie prawdziwe w logice klasycznej)
 
-W Lean domyślnie (można to zmienić, ale nie będziemy tego robić) używamy logiki *konstruktywnej*
+W Lean domyślnie (można to zmienić, ale nie będziemy tego robić) używamy logiki *konstruktywnej*,
 inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest w pewnym sensie "ostrożniejsza". W
 logice konstruktywnej można przyjąć, że:
 
@@ -430,8 +436,8 @@ logice konstruktywnej można przyjąć, że:
 konstruktywnej)
 
 Co za różnica? Jeżeli postanowimy intepretować słowo "prawdziwe" jako równoznaczne z "ma dowód", to
-*nie możemy* zaakceptować jako uniwersalnie prawdziwego zdania - Każde zdanie jest albo prawdziwe,
-albo fałszywe - bo wiemy (mamy takie twierdzenie), że w matematyce da się skonstruować zdania
+*nie możemy* zaakceptować jako uniwersalnie prawdziwego zdania *Każde zdanie jest albo prawdziwe,
+albo fałszywe* bo wiemy (mamy takie twierdzenie), że w matematyce da się skonstruować zdania
 prawdziwe, których nie da się udowodnić.
 
 Wracając do naszego trywialnego zdania *a → a*. W logice konstruktywnej, żeby udowodnić implikację
@@ -446,16 +452,17 @@ będziesz czuć, że ta interpretacja jest dla Ciebie dziwna.
 theorem t1 (a : Prop) : a → a := by
 ```
 
-**Objaśnienie kodu**: Wyrażenie `a : Prop` czytamy jako: `a` jest wyrażeniem (oficjalna nazwa na
-takie coś to "term") typu `Prop`, a ponieważ `Prop` to typ zdań (od angielskiego "*Proposition*"
-oznaczającego sąd), znaczy to, że `a` jest *jakimś, niekoniecznie prawdziwym albo udowodnionym (!)
-zdaniem*, inaczej sądem. Cały ten krótki fragment kodu czytamy jako:
+**Objaśnienie kodu**: Wyrażenie `a : Prop` czytamy jako: `a` jest wyrażeniem (przypominam, że
+oficjalna nazwa na takie coś to "term") typu `Prop`, a ponieważ `Prop` to typ zdań (od angielskiego
+"*Proposition*" oznaczającego sąd), znaczy to, że `a` jest *jakimś, niekoniecznie prawdziwym albo
+udowodnionym (!)  zdaniem*, inaczej sądem. Cały ten krótki fragment kodu czytamy jako:
 
-Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu t1 (`t1`), a które z
-jednego argumentu `a` (nazwa *a* też była wybrana bo tak) typu `Prop` (`(a : Prop)`) robi dowód
-zdania `a → a` (`: a → a`), można skonstruować albo (w Lean to jest to samo) zdefiniować (`:=`) za
-pomocą trybu interaktywnego (`by`) w taki oto sposób... i tu będziemy niebawem konstruować dowód. To
-było długie zdanie z licznymi wtrąceniami. Może warto przeczytać je jeszcze raz.
+Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu *t1* (`t1`), a które z
+jednego argumentu `a` (nazwa *a* też była wybrana bo tak) typu `Prop` (`(a : Prop)`) robi term typu
+`a → a`, czyli dowód zdania `a → a` (`: a → a`), można skonstruować albo (w Lean to jest to samo)
+zdefiniować (`:=`) za pomocą trybu interaktywnego (`by`) w taki oto sposób... i tu będziemy niebawem
+konstruować dowód. To było długie zdanie z licznymi wtrąceniami. Może warto przeczytać je jeszcze
+raz.
 
 **Uwaga o równości definicyjnej i równości jako zdaniu**: Gdy w Lean piszemy na przykład:
 
@@ -463,22 +470,22 @@ było długie zdanie z licznymi wtrąceniami. Może warto przeczytać je jeszcze
 def n : Nat := 10
 ```
 
-(nie przejmuj się słowem kluczowym `def`, to tylko przykład) to *definiujemy raz na zawsze* zmienną
-`n`, o typie liczba naturalna (`Nat`), *powiadamiając* Lean, że *postanowiliśmy*, bo tak, że `n`
-znaczy `10`. Symbol `:=` oznacza więc w Lean *operację definiowania*. Jeżeli natomiast piszemy (nie
-pisz tego w Lean) na przykład `n = 10`, to *tworzymy zdanie*, którego *treścią* jest "*n jest równe
-10*", i to zdanie może być w danym kontekście prawdziwe (a więc da się je udowodnić), fałszywe (co w
-logice konstruktywnej znaczy: da się udowodnić jego negację), albo może mieć nieokreślony status pod
-względem prawdziwości. Nawet, jeżeli zdefiniowaliśmy już `n` jako zmienną o wartości `10`, to zdanie
-`n = 10` wymaga w Lean udowodnienia, żeby było uznane przez Lean za prawdziwe! Ten dowód jest bardzo
-prosty, bo polega jedynie na tak zwanym *rozpakowaniu* albo *zastosowaniu definicji* zmiennej `n`,
-ale nadal jest to dowód.
+to *definiujemy raz na zawsze* zmienną `n`, o typie liczba naturalna (`Nat`), *powiadamiając* Lean,
+że *postanowiliśmy*, bo tak, że `n` znaczy `10`. Symbol `:=` oznacza więc w Lean *operację
+definiowania*. Jeżeli natomiast piszemy (nie pisz tego w Lean) na przykład `n = 10`, to *tworzymy
+zdanie*, którego *treścią* jest "*n jest równe 10*", i to zdanie może być w danym kontekście
+prawdziwe (w logice konstruktywnej: udowodnione albo udowadnialne), fałszywe (w logice
+konstruktywnej: da się udowodnić jego negację), albo może mieć nieokreślony status pod względem
+prawdziwości. Nawet, jeżeli zdefiniowaliśmy już `n` jako zmienną o wartości `10`, to zdanie `n = 10`
+wymaga w Lean udowodnienia, żeby było uznane przez Lean za prawdziwe! Ten dowód jest bardzo prosty,
+bo polega jedynie na tak zwanym *rozpakowaniu* albo *zastosowaniu definicji* zmiennej `n`, ale nadal
+jest to dowód.
 
 **Wracając do konstruowanego przez nas teraz dowodu twierdzenia `t1`**: Słowo kluczowe `by` jest
 teraz podkreślone czerwoną falką, bo dowód jest rozpoczęty, ale nie jest jeszcze
 zakończony. Ponieważ pisząc `by` weszliśmy w *tryb dowodzenia interaktywnego*, gdy kursor znajduje
-się *za* słowem `by` to w prawym oknie widzimy *aktualny stan* konstruowanego w trybie interaktywnym
-dowodu. Pod zakładką Tactic state w tym oknie widzimy teraz:
+się *za* słowem `by`, to w prawym oknie widzimy *aktualny stan* konstruowanego w trybie
+interaktywnym dowodu. Pod zakładką *Tactic state* w prawym oknie widzimy teraz:
 
 ```lean
 1 goal
@@ -489,12 +496,14 @@ a : Prop
 Czytamy to jako: Został jeden cel do udowodnienia (`1 goal`), inaczej term albo program (sic!) do
 skonstruowania, który mamy zrealizować czy skonstruować posługując się (tutaj akurat tylko jednym)
 założeniem, że `a` jest (niekoniecznie prawdziwym albo udowodnionym) zdaniem (`a : Prop`). Ten cel
-to implikacja `a → a` (`⊢ a → a`). Stworzenie dowodu tego celu/zdania w Lean jest równoznaczne ze
+to implikacja `a → a` (`⊢ a → a`). Stworzenie dowodu tego zdania w Lean jest równoznaczne ze
 stworzeniem termu (można myśleć programu albo kodu) o typie `a → a`, albo programu zwracającego
-dowód zdania `a → a`. A taki program musi udowadniać prawdziwość następnika zakładając poprzednik,
-co w logice konstruktywnej znaczy:
+dowód zdania `a → a`.
 
-*Przerabiać dowolny dowód zdania a w dowód zdania a.*
+Jak mamy skonstruować taki dowód/program? Taki program musi udowadniać prawdziwość następnika
+zakładając poprzednik, co w logice konstruktywnej znaczy:
+
+*Przerabiać dowolny dowód zdania `a` w dowód zdania `a`.*
 
 Może przeczytaj powyższy akapit co najmniej jeszcze raz. A potem spróbuj zobaczyć chociaż trochę
 sensu w tym krótkim podsumowaniu:
@@ -509,7 +518,17 @@ całym skrypcie.
 (różnie można na to patrzeć, więc też różnie można ten symbol nazywać).
 
 **Terminologia**: Zdanie *A* w implikacji *A → B* nazywamy *poprzednikiem*, a dokładnie
-poprzednikiem implikacji *A → B(, a zdanie *B* jej *następnikiem*.
+poprzednikiem implikacji *A → B*, a zdanie *B* jej *następnikiem*.
+
+**Dezorientator**: Pokażę Ci teraz naprostszy sposób skonstruowania dowodu tego twiedzenia. Nie
+kopiuj tego kodu, tylko może zastanów się nad nim przez chwilę:
+
+```lean
+theorem najprosciej (a : Prop) : a → a := fun (x : a) => x
+```
+
+**Wspaniała wiadomość**: Zrobimy w zasadzie to samo konstruując niebawem dowód `t1`, ale w znacznie
+bardziej skomplikowany sposób.
 
 **Implikacja w praktyce dowodzenia**: Żeby udowodnić w Lean zdanie `p → q`, trzeba udowodnić, że
 zdanie `q` (następnik) jest prawdziwe, *zakładając*, że zdanie `p` (poprzednik) jest prawdziwe,
@@ -606,16 +625,48 @@ zapisać w telefonie albo na karteczce). Być może będą pod wrażeniem (a pro
 żartów, jeżeli brałe/aś udział w moich zajęciach, to pewnie już wiesz, że żenada jest moim
 zdaniem wartościowym środkiem dydaktycznym {podobnie jak głęboka, dojmująca dezorientacja}).
 
-ZADANIE DO SAMODZIELNEGO ROZWIĄZANIA: Spróbuj teraz samodzielnie dokończyć dowód następującego
+**(Re czy Dez?)orientator**: Dowód, który właśnie skonstruowaliśmy za pomocą taktyk w trybie
+interaktywnym, jest *taki sam*, jak ten, który możemy skonstruować wprost pisząc kod:
+
+```lean
+theorem t1 (a : Prop) : a → a := fun (h : a) => h
+```
+
+W jakim sensie to jest dowód zdania `a → a`? Implikacja `p → q` oznacza, że jeśli *p*, to
+*q*. Inaczej mówiąc, jeśli *p* jest prawdą, to *q* jest prawdą. A z perspektywy logiki
+konstruktywnej, która wymaga dowodu, żeby można było mówić o prawdziwości, jeśli *p* ma dowód, to
+*q* ma dowód. No ale jeżeli *a* ma dowód, to z tego dowodu możemy zawsze zrobić przecież ... dowód
+*a*, po prostu go przekazując dalej. W ten sposób, konstruując funkcję, która zamienia dowód *a* w
+dowód *a* w tym sensie, że pobiera dowód *a* jako argument i nic nie robi, tylko zwraca ten
+argument, pokazujemy, że:
+
+Mając dowód *a* zawsze można zrobić dowód *a*. 
+
+No a w takim razie jeśli *a*, to *a*, nie może być inaczej.
+
+Domyślasz się już trochę, co "tak naprawdę" robią taktyki `intro` i `exact`? Gdy użyliśmy taktyki
+`intro`, żeby wprowadzić jako założenie `h` hipotetyczny, ale *bliżej nieokreślony* dowód zdania
+`a`, to tak jakbyśmy powiedzieli "dla każdego dowodu zdania *a*". A gdy potem użyliśmy taktyki
+`exact h`, to tak jak byśmy powiedzieli "zwracam", albo "podaję ten dowód", gdzie zaimek "ten"
+spełnia tą samą rolę, co symbol `h`, i *tylko* tą rolę - pozwala mówić o tym samym dowodzie
+(hipotetycznym dowodzie zdania *a*) w obu wyrażeniach. To samo wyraża anonimowa funkcja:
+
+```lean
+fun (h : a) => h
+```
+
+Można to przeczytać tak: Dla każdego dowodu *h* zdania *a*, zracam/mam/można stworzyć/istnieje dowód
+*a*, i jest nim *h*.
+
+**Zadanie do samodzielnego rozwiązania**: Spróbuj teraz samodzielnie dokończyć dowód następującego
 twierdzenia, kopiując najpierw poniższy fragment kodu. Gdy poczujesz się zagubiona/y, zaglądaj
-czasem do okna po prawej, albo do wcześniejszych fragmentów tego skryptu. Albo weź głęboki
-oddech, albo zrób sobie krótką albo dłuższą przerwę. To są sprawy wielkiej wagi, a w sprawach
-wielkiej wagi zwykle nie należy się spieszyć. Najpierw spróbuj bez podpowiedzi, a jak poczujesz,
-że to jednak za trudne (co by mnie wcale nie zdziwiło), zerknij poniżej, znajdziesz tam
-pomoc. Jeżeli chcesz skorzystać z podpowiedzi, za każdym razem spróbuj "wygrać w tą grę"
-zaglądając tylko do jednej podpowiedzi, z której jeszcze nie skorzytałe/aś.
-theorem t2 (p : Prop) (q : Prop) : p → q → p := by
-  sorry -- nie kopiuj tej linijki
+czasem do okna po prawej, albo do wcześniejszych fragmentów tego skryptu. Albo weź głęboki oddech,
+albo zrób sobie krótką albo dłuższą przerwę. To są sprawy wielkiej wagi, a w sprawach wielkiej wagi
+zwykle nie należy się spieszyć. Najpierw spróbuj bez podpowiedzi, a jak poczujesz, że to jednak za
+trudne (co by mnie wcale nie zdziwiło), zerknij poniżej, znajdziesz tam pomoc. Jeżeli chcesz
+skorzystać z podpowiedzi, za każdym razem spróbuj "wygrać w tą grę" zaglądając tylko do jednej
+podpowiedzi, z której jeszcze nie skorzytałe/aś.  theorem t2 (p : Prop) (q : Prop) : p → q → p := by
+sorry -- nie kopiuj tej linijki
 
 **Podpowiedź**: Trzeba dwa razy użyć taktyki intro, w dodatku jeden raz jakby niepotrzebnie. Trzeba
 też uważać z nazwami podanymi jako argumenty dla intro (nie mogą się powtarzać w ramach tej samej
@@ -758,4 +809,40 @@ patrząc przez "niby-własne" oczy patrzyło się również, ale mentalnie, na s
 ptaka, albo jakby się było jednocześnie we własnym ciele i w pewnym sensie ponad nim. To samo dzieje
 się, gdy nabiera się praktyki w używaniu narzędzi formalnych. I tego Ci życzę, bo zdarza się, że
 taki widok z lotu ptaka na wyrafinowane i bywa, że wręcz ekstremalnie abstrakcyjne konstrukcje
-formalne czasami wręcz zapiera dech w piersiach i dostarcza poczucia ogromnej intelektualnej mocy.
+formalne czasami dostarcza poczucia ogromnej intelektualnej mocy.
+
+**Ostatni dezorientator**: Z wnętrza ciała każdej funkcji widać jej parametry, na przykład z wnętrza
+ciała naszej funkcji `suma` widać parametry `n` i `m` o typie `Nat`, ale z wnętrza ciała każdej
+funkcji widać też zmienne, które zostały zdefiniowane wcześniej *na zewnątrz* definicji funkcji. Na
+przykład, w ciele funkcji `dodaj2` używaliśmy symbolu `2` i symbolu `+`, które są zdefiniowane w
+automatycznie ładowanej bibliotece Lean'a, na zewnątrz definicji funkcji `dodaj2`. 
+
+Jeżeli teraz przyjmiemy *aksjomatycznie*, czyli bo tak, że `p` jest (jakimś) zdaniem i że istnieje
+term `dp`, który jest dowodem zdania `p`:
+
+```lean
+axiom p : Prop
+axiom dp : p
+```
+
+to *w tym kontekście*, albo *w ramach tej formalnej mini-teorii* będziemy mogli udowodnić takie oto
+twierdzenie:
+
+```lean
+theorem t3 (a : Prop) : a → p := fun (h : a) => dp
+```
+
+To, co "mówi" twierdzenie zapisane w Lean można odczytać z kodu po jego nazwie i przed symbolem
+`:=`. Być może jesteś już teraz w stanie sam/a zobaczyć, że twierdzenie `t3` mówi dosłownie:
+
+Dla każdego zdania `a`, jeżeli `a`, to `p`.
+
+I to jest teraz prawda, bo z każdego dowodu zdania `a` możemy w tym momencie zrobić dowód zdania
+`p`, *ignorując* dowód zdania `a` i przytaczając dowód `dp` zdania `p`, który istnieje
+aksjomatycznie i jest widoczny również wewnątrz ciała definicji `t3`. W pierwszej chwili to się może
+wydawać absurdalne, ale przecież, jeżeli na przykład *wiemy już*, że jutro będzie sobota (i ta
+wiedza spełnia rolę aktualnego aksjomatu), to przyjmując obowiązującą w logice interpretację
+implikacji, prawdą jest, że *jeżeli dzisiaj pada deszcz, to jutro będzie sobota*, chociaż między
+dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. Prawdą jest, że *jeżeli dzisiaj
+pada deszcz, to jutro będzie sobota*, po prostu dlatego, że ... jutro będzie sobota. To jest
+dokładnie taki sam schemat rozumowania jak ten, który stanowi dowód twierdzenia `t3`.
