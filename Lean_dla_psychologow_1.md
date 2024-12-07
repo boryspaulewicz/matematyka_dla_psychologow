@@ -29,7 +29,7 @@ Matematyczny analfabetyzm ogromnej większości psychologów jest łatwym do zao
 analfabetyzm, a raczej jego ekstremalny poziom, ma tylko jedną przyczynę - *nikt*, włączając w to
 osoby prowadzące zajęcia ze statystyki, nie wymaga od psychologów znajomości matematyki, a mało kto
 systematycznie uczy się matematyki z własnej woli. W mojej ocenie to jest jednocześnie śmieszne,
-żałosne, nieakceptowalne, i nie widzę, żeby ktokolwiek próbował go zmienić.
+żałosne, nieakceptowalne, i nie widzę, żeby ktokolwiek próbował to zmienić.
 
 To jest eksperyment pedagogiczny oparty na założeniu, że (przynajmniej Ci młodsi) psychologowie
 często mniej boją się programowania niż matematyki, a poza tym z programowaniem mogą się oswajać w
