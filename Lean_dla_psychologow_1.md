@@ -1,3 +1,5 @@
+# Ogólne uwagi o skrypcie
+
 **Ten skrypt ma dwie wersje**: To jest przegadana wersja skryptu, odpowiednia dla całkiem
 początkujących. Jeżeli miałeś już przez jakiś czas kontakt z tą wersją, może przyda Ci się zerknąć
 czasem do [wersji zwięzłej](./Lean_dla_psychologow_1z.md), zwłaszcza na etapie powtarzania
@@ -13,33 +15,37 @@ utytuowanych pracowników naukowych z bogatym "dorobkiem" - z jednej strony pole
 na matematyce (na przykład, używając wnioskowania statystycznego, ale nie tylko wtedy) i próbuje
 zrozumieć bardzo złożone i trudne do wyjaśnienia zjawiska (takie jak zachowania ludzi czy strukturę
 i przebieg procesów umysłowych), a z drugiej nie ma najczęściej o matematyce bladego pojęcia. Tacy
-(niestety liczni) matematyczni analfabeci nagminnie wyciągają z własnych i cudzych badań
-nieuzasadnione (czytaj: błędne, co nie znaczy, że na pewno fałszywe) wnioski, popełniając przy tym
-często najprostsze nawet błędy w rozumowaniu (dobrym przykładem jest powszechne wnioskowanie o braku
-efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego). Mimo to, tym
-matematycznym analfabetom udaje się publikować swoje prace w wysokopunktowanych czasopismach, bo te
-prace są najczęściej oceniane przez innych matematycznych analfabetów. 
+(niestety w psychologii liczni) matematyczni analfabeci nagminnie wyciągają z własnych i cudzych
+badań nieuzasadnione (czytaj: błędne, co nie znaczy, że na pewno fałszywe) wnioski, popełniając przy
+tym często najprostsze nawet błędy. Dobrymi przykładami są wnioskowanie o braku efektu na podstawie
+samego tylko nieistotnego wyniku testu statystycznego, albo wnioskowanie o wpływie czy innych
+własnościach przyczynowych bez wprowadzenia i uzasadnienia koniecznych założeń (nadal nie wszyscy
+psychologowie wiedzą, że [przyczynowość została
+zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)). Matematycznym analfabetom udaje
+się publikować swoje prace w wysokopunktowanych czasopismach, bo te prace są najczęściej oceniane
+przez innych matematycznych analfabetów.
 
-Matematyczny analfabetyzm ogromnej większości psychologów jest łatwym do zaobserwowania faktem. Jego
-konsekwencje są poważne i raczej oczywiste. Ten analfabetyzm ma tylko jedną przyczynę - nikt nie
-wymaga od psychologów znajomości matematyki. W mojej ocenie to jest jednocześnie
-śmieszne, żałosne, nieakceptowalne, i nie widzę, żeby ktokolwiek próbował go zmienić.
+Matematyczny analfabetyzm ogromnej większości psychologów jest łatwym do zaobserwowania faktem. Ten
+analfabetyzm, a raczej jego ekstremalny poziom, ma tylko jedną przyczynę - *nikt*, włączając w to
+osoby prowadzące zajęcia ze statystyki, nie wymaga od psychologów znajomości matematyki, a mało kto
+systematycznie uczy się matematyki z własnej woli. W mojej ocenie to jest jednocześnie śmieszne,
+żałosne, nieakceptowalne, i nie widzę, żeby ktokolwiek próbował go zmienić.
 
-To jest eksperyment pedagogiczny, oparty na założeniu, że (przynajmniej Ci młodsi) psychologowie
+To jest eksperyment pedagogiczny oparty na założeniu, że (przynajmniej Ci młodsi) psychologowie
 często mniej boją się programowania niż matematyki, a poza tym z programowaniem mogą się oswajać w
-interakcji z komputerem, dostarczym natychmiastowej informacji zwrotnej. Ten eksperyment
+interakcji z komputerem dostarczającym natychmiastowej informacji zwrotnej. Ten eksperyment
 pedagogiczny ma pomóc w oswajaniu się z matematyką studentom na kierunku psychologia i pracownikom
-akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi spróbować oswoić się z nowym
-(pięknym i wyjątkowo ekspresyjnym) językiem programowania.
+akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi spróbować oswoić się z
+nowym, pięknym, i bardzo ekspresyjnym językiem programowania.
 
 Ten skrypt *może zawierać błędy we fragmentach napisanych w języku naturalnym*, czyli w tych
 częściach, w których mniej lub bardziej po swojemu objaśniam kod lub zapędzam się w dygresje. Gdybyś
 znalazł/a błąd, byłoby mi bardzo miło, gdybyś mi o tym napisał/a (borys.paulewicz@gmail.com).
 
-Ten skrypt *nie zawiera błędów w częściach formalnych*, to jest zakodowanych w pewnej wersji języka
-teorii typów zależnych zaimplementowanej w asystencie dowodzenia Lean, bo te zostały sprawdzone
-przez niezawodny algorytm (którego używa Lean {a Lean spełnia [kryterium de
-Bruijna](https://www.pls-lab.org/en/de_Bruijn_criterion)}).
+Ten skrypt *prawie na pewno nie zawiera błędów w częściach formalnych*, to jest zakodowanych w
+pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia Lean. Ponieważ
+te części zostały sprawdzone przez algorytm, którego używa [Lean](https://lean-lang.org/), mało
+czego można być tak pewnym jak tego, że są bezbłędne.
 
 **Ostrzeżenie**: Nawet jeżeli przeczytasz ten skrypt do końca i uda Ci się zrobić poprawnie zadania,
 których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
@@ -60,6 +66,69 @@ jednak trudne. Polecam znaleźć kartkę i coś do pisania, włączyć minutnik 
 minutach zrobić około 5 minutową (nie za długą) przerwę, w trakcie której nie będziesz robić nic
 wciągającego, a potem znowu pracować przez 30 minut. Po dwóch takich jednostkach trzeba sobie zrobić
 dłuższą przerwę, ja w każdym razie tego wtedy potrzebuję.
+
+## Zachęta i jednocześnie ćwiczenie wskazane nawet dla osób nie całkiem początkujących
+
+**Polecenie**: Myślę, że już w podstawówce stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B =
+C*, to "A = C", niezależnie od tego, czym są *A*, *B* i *C*. Na pewno też jako znajomy rozpoznasz
+taki oto fragment "matematycznej prozy":
+
+> Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
+
+I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m*:
+
+- Konkretną liczbę naturalną
+
+- Zmienną, o której wcześniej założyłeś, że oznacza (jakąś) liczbę naturalną
+
+- Wyrażenie, które po obliczeniu daje liczbę naturalną
+
+o ile tylko to podstawianie jest konsekwentne, to znaczy, za *n* jest wszędzie podstawione to samo i
+za *m* jest wszędzie podstawione to samo (i to nie muszą być dwie różne rzeczy). Na przykład,
+zgodnie z przytoczonym fragmentem, *2 + 3 = 3 + 2*, jak również, jeżeli *a* i *b* to liczby
+naturalne, *a + b = b + a*, *a + 10 = 10 + a*, *b + b = b + b*, *(2 + 3 + a) + b = b + (2 + 3 + a)*,
+bo *2 + 3 + a* oznacza w tym kontekście jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się
+ze mną, że tego rodzaju formalne operacje większość dzieci opanowuje w szkole podstawowej.
+
+Spróbuj potraktowac chwilowo takie formalne reguły jako *reguły gry, która nie musi mieć żadnego
+sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie będzie Ci tylko
+przeszkadzać. Obiecuję, że sens się pojawi, tylko trochę później. Zdolność do tymczasowego
+stłumienia w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce
+matematyki.
+
+Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które będziemy chwilowo
+rozumieć jako *aksjomaty*, czyli reguły gry na które umawiamy się bez uzasadnienia:
+
+1. Istnieją tak zwane *zdarzenia*.
+
+2. Istnieje funkcja *p*, która zdarzeniom lub ich skończonym sekwencjom przypisuje liczby.
+
+3. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
+
+Pewnie przyszła Ci do głowy pewna interpretacja symboli *zdarzenie* i *p*. Spróbuj proszę ją
+ignorować, na ile tylko jesteś w stanie.
+
+Będziemy jeszcze potrzebować *definicji* symbolu |:
+
+Jeżeli *x* i *y* to zdarzenia, to *p(x|y) * p(y) = p(x, y)*.
+
+Zapisz teraz nową wersję definicji pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
+oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Uzyskasz w ten
+sposób dwie wersje zdania będącego treścią tej definicji - oryginalną i tą, która powstała przez
+podstawienie.
+
+Skorzystaj z aksjomatu 3 w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu wersji
+definicji są równe. Zapisz tą równość.
+
+Podziel obie strony przez *p(y)*, zakładając oczywiście, że ta wartość jest niezerowa. Uprość jedyną
+stronę równania, która daje się uprościć. 
+
+Jeżeli wykonała/eś wszystkie te trywialne, mechaniczne operacje zgodnie z instrukcjami, to udało Ci
+się właśnie udowodniłć twierdzenie Bayesa. Moim studentom nie zajmuje to zwykle więcej niż 15
+minut. Twierdzenie Bayesa odgrywa ważną rolę w psychologii poznawczej i w rozważaniach na temat nauk
+empirycznych w ogóle, jednak to nas nie będzie tutaj interesowało.
+
+Będziemy robić tego typu rzeczy, ale nie na kartce.
 
 # Funkcje, programy, i implikacja
 
