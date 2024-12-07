@@ -1,3 +1,8 @@
+**Ten skrypt ma dwie wersje**: To jest przegadana wersja skryptu, odpowiednia dla całkiem
+początkujących. Jeżeli miałeś już przez jakiś czas kontakt z tą wersją, może przyda Ci się zerknąć
+czasem do [wersji zwięzłej](./Lean_dla_psychologow_1z.md), zwłaszcza na etapie powtarzania
+materiału.
+
 **Dwa powody, dla których to napisałem**: Żeby dobrze zrozumieć status i rolę teorii normatywnych
 czy analizy racjonalnej w psychologii, trzeba się trochę oswoić z matematycznymi teoriami
 rozumowania (na przykład z logiką), wydawania sądów (rachunek prawdopodobieństwa i wnioskowanie
