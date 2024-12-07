@@ -9,7 +9,7 @@ def suma (n : Nat) (m : Nat) : Nat := n + m
 ```
 
 Intuicyjnie, nazwy parametrów nie mają znaczenia. To jest ta sama funkcja (inaczej nazwana, bo w
-Lean definicje są ostatecznne):
+Lean definicje są ostateczne):
 
 ```lean
 def suma' (Adam : Nat) (Ewa : Nat) : Nat := Adam + Ewa
@@ -36,7 +36,7 @@ kod powyżej (pomijając konieczność rozpakowania definicji stałej `suma`):
 #eval (fun (n : Nat) (m : Nat) => n + m) 10 20
 ```
 
-**Currying**: Wszystkie funkcje w Lean są jednoargumentowe. Tak naprawdę `suma` to funkcja `jednej`
+**Currying**: Wszystkie funkcje w Lean są jednoargumentowe. Tak naprawdę `suma` to funkcja *jednej*
 liczby naturalnej (`n`), zwracająca funkcję jednej liczby naturalnej (`m`), która zwraca liczbę
 naturalną (rezultat ewaluacji `n + m`). Zatem `suma 1 2` to wyrażenie typu liczba naturalna, ale
 `suma 1` to (wyrażenie typu) *funkcja*, w tym wypadku jest to funkcja dodająca `1` do swojego
@@ -73,8 +73,8 @@ Wyszłoby na to samo:
 
 **Trochę o hierarchii typów**: Liczba `2` to term, który można by nazwać "elementarnym", albo
 "konkretnym", bo nie może istnieć term, którego typem jest `2`. W Lean istnieją też termy innego
-rodzaju (mówimy "sortu"). Na przykład, `2` jest termem typu `Nat`, gdzie `Nat` jest typem, ale jest
-też termem typu `Type`:
+rodzaju (mówimy raczej *sortu*). Na przykład, `2` jest termem typu `Nat`, gdzie `Nat` jest typem i
+jednocześnie termem (ogólniejszego albo wyższego) typu `Type`:
 
 ```lean
 #check Nat -- Nat : Type
@@ -109,7 +109,7 @@ powiedzenia tego samego: Dla każdego zdania `a`, zdanie `a → a` ma dowód, cz
 zdania `a` można zrobić dowód zdania `a`. Jeżeli mam dowód zdania `a`, to mam dowód zdania
 `a`. Jeżeli `a` jest prawdziwe, to `a` jest prawdziwe. Jeżeli `a`, to `a`. Z perspektywy teorii
 typów zależnych, izomorfizmu Curry'ego-Howarda, i logiki konstruktywnej, to jest wszystko to samo,
-tylko inaczej interpretowane przez nas, użytkownika/obserwatora.
+tylko inaczej interpretowane przez każdego z nas, to jest przez użytkownika lub obserwatora.
 
 Oto nazwany (`t1`) dowód zdania (`a → a`), czyli twierdzenie:
 
@@ -117,7 +117,7 @@ Oto nazwany (`t1`) dowód zdania (`a → a`), czyli twierdzenie:
 theorem t1 (a : Prop) : a → a := fun (h : a) => h
 ```
 
-Poza punktem widzenia i sposobem zapisu, nie ma różnicy między twierdzeniem `t1` a tą
+Poza punktem widzenia i sposobem zapisu, nie ma różnicy między twierdzeniem `t1` a poniższą
 funkcją. Dowodzenie jest programowaniem:
 
 ```lean
@@ -144,8 +144,8 @@ axiom p : Prop
 **Naturalność formalizacji w języku teorii typów zależnych**: Matematyk mógłby *powiedzieć w języku
 naturalnym*: 
 
-> Dla każdych dwóch liczb naturalnych *n* i *m* zachodzi przemienność dodawania, to jest
-> *n + m = m + n*.
+> Dla każdych dwóch liczb naturalnych *n* i *m*, zachodzi przemienność dodawania, to jest *n + m =
+> m + n*.
 
 Rozumiemy wtedy, że możemy podstawić pod *n* dowolną konkretną liczbę naturalną, na przykład *2*,
 lub dowolne wyrażenie, które oznacza liczbę naturalną, na przykład zmienną *a*, jeżeli tylko
@@ -154,8 +154,8 @@ zastępując każde *n* tym samym wyrażeniem. To samo dotyczy drugiego "paramet
 
 Rozpoznajemy, że taka pół-formalna wypowiedź jest *funkcją dwóch zmiennych - n i m - o typie liczba
 naturalna*. Możemy napisać to samo w języku Lean i możemy też to zdanie udowodnić i nazwać, tworząc
-w ten sposób twierdzenie o przemienności dodawania (tutaj "oszukujemy", bo korzystamy z twierdzenia
-o tej samej treści skonstruowanego już w biblitece Lean'a):
+w ten sposób twierdzenie o przemienności dodawania (tutaj niemal "oszukujemy", bo korzystamy z
+twierdzenia `Nat.add_comm` o tej samej treści, zdefiniowanego w biblitece Lean'a):
 
 ```lean
 theorem przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = n + m := Nat.add_comm n m
