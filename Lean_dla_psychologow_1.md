@@ -133,8 +133,18 @@ przytaczając ani nie odnosząc się do żadnych konkretnych *zdarzeń*, ani nie
 wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży stopień ogólności, chodzi
 w takich twierdzeniach?
 
+Muszę zaznaczyć, że wersja twierdzenia Bayesa, którą udało Ci się udowodnić, jest mocno
+uproszczona. Prawdopodobieństwa nie mogą być mniejsze niż *0* ani większe niż *1*, a nasze
+prawdopodobieństwa to dowolne liczby, nie wiadomo nawet jakie, czy na przykład rzeczywiste, czy
+wymierne. Tak się jednak składa, że nie potrzebowaliśmy korzystać z tych własności
+prawdopodobieństwa. Wypadałoby wprowadzić pojęcie *zmiennnej losowej*, a zamiast o *zdarzeniach*
+powinniśmy mówić o (dyskretnych) *zdarzeniach elementarnych*, albo o zdarzeniach zdefiniowanych
+ogólniej. Niemniej, jako narzędzie stworzone dla pewnych skromnych celów dydaktycznych i w rękach
+kogoś, kto zna i ma na uwadze wspomniane ograniczenia, ta zabawkowa wersja jest moim zdaniem
+znacznie lepsza, niż nic.
+
 Twierdzenie Bayesa odgrywa ważną rolę w psychologii - poznawczej i nie tylko - jak również w
-rozważaniach na temat nauk empirycznych w ogóle, jednak nie będzie nas ono na razie
+ogólnych rozważaniach na temat oceny hipotez empirycznych, jednak nie będzie nas ono na razie
 interesowało. Będziemy robić podobne rzeczy, ale nie na kartce.
 
 # Funkcje, programy, i implikacja
