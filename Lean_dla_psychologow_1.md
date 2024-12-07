@@ -372,21 +372,24 @@ kursor będzie nad `#check` zobaczysz po prawej to, co jest zapisane jako koment
 Te typy wyższych rzędów są potrzebne tylko z (dość nudnych) powodów technicznych (może słyszała/eś o
 paradoksie Russella? Chodzi o coś zbliżonego). 
 
-Lean ma również wbudowany typ, który będzie odtąd dla nas ważny - typ `Prop`, będący skrótem od
-angielskiego słowa *Proposition*, oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
-konsekwentnie interpretować jako zdania. To może być na początku dezorientujące:
+Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny, będący skrótem od
+angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
+konsekwentnie interpretować jako zdania. Będziemy więc mówić po prostu, że termy typu `Prop` to
+zdania. To może być na początku dezorientujące:
 
-Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop`), to jeżeli `h : a` (czytaj `h` ma typ `a`),
-to możemy konsekwentnie interpretować `h` jako *dowód zdania `a`*.
+Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop` albo `a` jest zdaniem), to jeżeli `h : a`
+(czytaj `h` ma typ `a` albo `h` jest termem typu `a`), to możemy konsekwentnie interpretować `h`
+jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem `a`.
 
 To, że możemy w ten sposób konsekwentnie interpretować termy typu `Prop` i termy, których te termy
 są typami (nie zgubiła/eś się?) wynika z [izomorfizmu
 Curry'ego-Howarda](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), czyli z
 identyczności strukturalnej (bo tym jest izomorfizm) zachodzącej między (pewną) przestrzenią
 programów komputerowych i przestrzenią dowodów. Inne określenie na to samo to *Propositions As
-Types*, czyli *sądy jako typy*, o takim skrócie - *PAT* - jak jeszcze inne określenie na to samo,
-*Proofs As Terms*, czyli *dowody jako termy*. Jeżeli te uwagi budzą Twój niepokój, nie przejmuj się
-nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy się mu szczegółowo przyglądać.
+Types*, czyli *sądy jako typy*, o takim samym skrócie - *PAT* - co jeszcze inne określenie na to
+samo, *Proofs As Terms*, czyli *dowody jako termy*. Jeżeli te uwagi budzą Twój niepokój, nie
+przejmuj się nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy się mu szczegółowo
+przyglądać.
 
 W praktyce izomorfizm Curry'ego-Howarda oznacza, że możemy kodować, to jest zapisywać w języku
 teorii typów w sposób dający się konsekwentnie interpretować w zamierzony sposób, matematyczne
@@ -551,15 +554,18 @@ Moim zdaniem szybko oswoisz się z tą notacją. Litera *Z* jest powszechnie prz
 oznaczającym liczby całkowite (od niemieckiego słowa "*Zahlen*"), o czym wspominam bo czuję, że
 wypada, chociaż nie będziemy korzystać z typu `Z`.
 
-**Zadanie**: Na początek udowodnimy takie oto zdanie:
+## Pierwsze zadanie z logiki
+
+Niebawem udowodnimy takie oto zdanie:
 
 *Jeżeli a, to a.*
 
 To zdanie jest trywialne i trywialnie prawdziwe, ale w matematyce nawet trywialne prawdy wymagają
-(zwykle) dowodu. Nadamy naszemu dowodowi nazwę i ten nazwany dowód razem z nazwą i zdaniem, którego
-dowodzi, stanie się prawdziwym matematycznym twierdzeniem. Uprzedzam jednnak, że chociaż zdanie
-*Jeżeli a, to a* jest w oczywisty sposób zawsze prawdziwe, a jego dowód jest bardzo prosty, to i tak
-prawdopodobnie zdążysz się co najmniej raz poczuć zagubiony/a. 
+(zwykle) dowodu. Nadamy naszemu dowodowi nazwę i ten nazwany dowód razem z jego nazwą i zdaniem,
+którego dowodzi, staną się jedną strukturą - matematycznym twierdzeniem. Uprzedzam, że chociaż
+zdanie *Jeżeli a, to a* jest w oczywisty sposób zawsze prawdziwe, a jego dowód jest bardzo prosty,
+to i tak wykonując to zadanie po raz pierwszy prawdopodobnie zdążysz się co najmniej raz poczuć
+zagubiony/a.
 
 Musimy sobie teraz wyjaśnić coś na temat logiki w Lean.
 
@@ -569,20 +575,28 @@ najczęściej wykładana w wersji tak zwanej *klasycznej*, w której prawdą jes
 
 *Każde zdanie jest albo prawdziwe, albo fałszywe.* (zdanie prawdziwe w logice klasycznej)
 
+Jak również:
+
+Dla każdego zdania *p*, jeżeli nieprawda, że nieprawda, że *p*, to *p* (inne zdanie prawdziwe w logice klasycznej)
+
 W Lean domyślnie (można to zmienić, ale nie będziemy tego na razie robić) używamy logiki
-*konstruktywnej*, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest w pewnym sensie
-"ostrożniejsza" - wszystko, co jest prawdą w logice konstruktywnej jest też prawdą w logice
-klasycznej, ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
+*konstruktywnej*, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w
+tym sensie, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice klasycznej
+(mówimy, że jest *słabsza*), ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
 
 *Zdanie prawdziwe znaczy to samo co zdanie udowodnione.* (dopuszczalna interpretacja prawdy w logice
 konstruktywnej)
 
 Co za różnica? Jeżeli postanowimy intepretować słowo "prawdziwe" jako równoznaczne z "udowodnione",
-to *nie możemy* zaakceptować jako uniwersalnie prawdziwego zdania *Każde zdanie jest albo prawdziwe,
-albo fałszywe*, bo wiemy (istnieje twierdzenie, które to mówi), że w matematyce da się skonstruować
-zdania prawdziwe, których nie da się udowodnić.
+to *nie możemy* zaakceptować jako prawdziwego zdania *Każde zdanie jest albo prawdziwe, albo
+fałszywe* (nazywanego m.in. zasadą wyłączonego środka), bo wiemy (istnieje twierdzenie, które to
+mówi), że w matematyce da się skonstruować zdania prawdziwe, których nie da się udowodnić. Nie
+możemy więc też zaakceptować zasady podwójnej negacji (jeżeli nieprawda, że nieprawda, że *p*, to
+*p*), bo zasada wyłączonego środka z niej wynika (i vice versa). Jeśli Cię to niepokoi, to
+zapewniam, że ta różnica nieprędko będzie dla nas ważna, a gdy już to nastąpi, będziesz na to
+gotowa/y.
 
-Wracająmy do zdania *a → a*. W logice konstruktywnej, żeby udowodnić implikację *A → B*, gdzie *A* i
+Wracamy do zdania *a → a*. W logice konstruktywnej, żeby udowodnić implikację *A → B*, gdzie *A* i
 *B* to dowolne zdania, trzeba *skontruować procedurę*, która dowolny dowód zdania *A* przekształca w
 dowód zdania *B*. Niebawem rozwiążesz zadanie opierając się na tej interpretacji prawdziwości
 implikacji, a mimo to zgaduję, że i tak możesz przez pewien czas po tym sukcesie czuć, że ta
@@ -597,14 +611,14 @@ theorem t1 (a : Prop) : a → a := by
 **Objaśnienie kodu**: Wyrażenie `a : Prop` czytamy jako: `a` jest wyrażeniem (przypominam, że
 oficjalna nazwa na takie coś to "term") typu `Prop`, a ponieważ `Prop` to typ zdań (od angielskiego
 "*Proposition*" oznaczającego sąd), znaczy to, że `a` jest jakimś, niekoniecznie prawdziwym albo
-udowodnionym zdaniem, inaczej sądem. Cały ten krótki fragment kodu czytamy jako:
+udowodnionym zdaniem, inaczej sądem.
 
-Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu *t1* (`t1`), a które z
-jednego argumentu `a` (nazwa *a* też była wybrana arbitralnie) typu `Prop` (`(a : Prop)`) robi term
-typu `a → a`, czyli dowód zdania `a → a` (`: a → a`), można skonstruować albo (w Lean to jest to
-samo) zdefiniować (`:=`) za pomocą trybu interaktywnego (`by`) w taki oto sposób... i tu będziemy
-niebawem konstruować dowód. To było długie zdanie z licznymi wtrąceniami. Może warto przeczytać je
-jeszcze raz.
+**Czytamy kod**: Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu *t1*
+(`t1`), a które z jednego argumentu `a` (nazwa *a* też była wybrana arbitralnie) typu `Prop` (`(a :
+Prop)`) robi term typu `a → a`, czyli dowód zdania `a → a` (`: a → a`), bo `a` jest zdaniem, można
+skonstruować albo (w Lean to jest to samo) zdefiniować (`:=`) za pomocą trybu interaktywnego (`by`)
+w taki oto sposób... i tu będziemy niebawem konstruować dowód. To było długie zdanie z licznymi
+wtrąceniami. Może warto przeczytać je jeszcze raz.
 
 **Uwaga o równości definicyjnej i równości jako zdaniu**: Gdy w Lean piszemy na przykład:
 
@@ -612,16 +626,16 @@ jeszcze raz.
 def n : Nat := 10
 ```
 
-to *definiujemy raz na zawsze* zmienną `n`, o typie liczba naturalna (`Nat`), *powiadamiając* Lean,
-że *postanowiliśmy*, że `n` znaczy `10`. Symbol `:=` oznacza więc w Lean *operację definiowania*,
-która jest *naszym wyborem*. Jeżeli natomiast piszemy (nie pisz tego w Lean) na przykład `n = 10`,
-to *tworzymy zdanie*, którego *treścią* jest "*n jest równe 10*", i to zdanie może być w danym
-kontekście prawdziwe (w logice konstruktywnej: udowodnione albo udowadnialne), fałszywe (w logice
-konstruktywnej: da się udowodnić jego negację), albo może mieć nieokreślony status pod względem
-prawdziwości. Nawet, gdy zdefiniujemy `n` jako stałą o wartości `10`, to zdanie `n = 10` będzie
-wymagało w Lean udowodnienia, żeby można je było uznać za prawdziwe! Ten dowód jest bardzo prosty,
-bo polega jedynie na tak zwanym *rozpakowaniu* albo *zastosowaniu definicji* zmiennej `n`, ale nadal
-jest to dowód.
+to *definiujemy raz na zawsze* stałą `n` o typie `Nat` *powiadamiając* Lean, że *postanowiliśmy*, że
+`n` znaczy `10`. Symbol `:=` oznacza więc w Lean *operację definiowania*, która jest niczym innym
+jak naszym *wyborem językowym*. Jeżeli natomiast piszemy (nie pisz tego w Lean) na przykład `n =
+10`, gdzie znak `=` występuje bez poprzedzającego dwukropka, to *tworzymy zdanie*, którego *treścią*
+jest "*n jest równe 10*", i to zdanie może być w danym kontekście prawdziwe (w logice
+konstruktywnej: udowodnione), fałszywe (w logice konstruktywnej: istnieje dowód jego negacji), albo
+może mieć nieokreślony status pod względem prawdziwości. Nawet, gdy zdefiniujemy `n` jako stałą o
+wartości `10`, to zdanie `n = 10` będzie wymagało w Lean udowodnienia, żeby można je było uznać za
+prawdziwe! Ten dowód jest bardzo prosty, bo polega jedynie na tak zwanym *rozpakowaniu* albo
+*zastosowaniu definicji* zmiennej `n`, ale nadal jest to dowód.
 
 **Wracamy do twierdzenia `t1`**: Słowo kluczowe `by` jest teraz podkreślone czerwoną falką, bo dowód
 jest rozpoczęty, ale nie jest jeszcze zakończony. Ponieważ pisząc `by` weszliśmy w *tryb dowodzenia
@@ -638,19 +652,24 @@ a : Prop
 Czytamy to jako: Został jeden cel do udowodnienia (`1 goal`), inaczej term albo program (sic!) do
 skonstruowania, który mamy zrealizować czy skonstruować posługując się (tutaj akurat tylko jednym)
 założeniem, że `a` jest (niekoniecznie prawdziwym albo udowodnionym) zdaniem (`a : Prop`). Ten cel
-to implikacja `a → a` (`⊢ a → a`). Stworzenie dowodu zdania `a → a` w Lean jest równoznaczne ze
-stworzeniem termu (można myśleć programu albo kodu) o typie `a → a`.
+to implikacja `a → a` (`⊢ a → a`). 
 
-Jak mamy skonstruować taki dowód / program? Taki program musi udowadniać prawdziwość następnika
-zakładając poprzednik, co w logice konstruktywnej znaczy:
+Jak już wiesz, stworzenie dowodu zdania `a → a` w Lean jest tym samym co stworzenie termu (można
+myśleć programu albo kodu) o typie `a → a`. Jak mamy skonstruować taki term / dowód / program? Musi
+on udowadniać następnik zakładając poprzednik, co w logice konstruktywnej znaczy:
 
 *Przekształcać dowolny dowód zdania `a` w dowód zdania `a`*.
 
-To jest najważniejszy moment w całym skrypcie. Spróbuj zobaczyć chociaż trochę sensu w tym krótkim
-podsumowaniu:
+A mówiąc ogólniej o dowodzeniu implikacji w logice konstruktywnej:
 
 *Jeżeli A i B to zdania, to w logice konstruktywnej dowód zdania A → B to każda funkcja, która w
 jakikolwiek sposób przekształca dowolny dowód zdania A w dowód zdania B.*
+
+Być może czytając powyższe zdanie wyobrażała/eś sobie, że ta funkcja / dowód przekształca dowód
+zdania *A* w jakiś sposób "zaglądając do środka" tego dowodu, albo w jakimś sensie polegając na
+własnościach struktury tego dowodu, na przykład rozbiera go na części, albo wykrywa coś w jego
+wnętrzu. Nie o to chodzi - ta funkcja / dowód ma dostarczyć dowód *B* korzystając z *bliżej
+nieokreślonego* dowodu *A*, a więc w zasadzie z *samego faktu istnienia* dowodu *A*.
 
 **Dygresja terminologiczna**: Symbol `⊢` to symbol derywacji albo wnioskowania albo konstruowania
 (różnie można na to patrzeć, więc też różnie można ten symbol nazywać).
@@ -665,28 +684,42 @@ kopiuj tego kodu, tylko może zastanów się nad nim przez chwilę:
 theorem najprosciej (a : Prop) : a → a := fun (x : a) => x
 ```
 
-A teraz jeszcze inny, ale podobny sposób, który może Ci na początku mocno namieszać w głowie:
+A teraz jeszcze inny, ale podobny sposób, który może Ci na początku namieszać w głowie:
 
 ```lean
 theorem najprosciej_ale_inaczej : (a : Prop) → a → a := fun (a : Prop) => fun (x : a) => x
 ```
 
-To twierdzenie jest funkcją przekształcającą dowolne zdanie, które można nazwać *a*, w term typu `a
-→ a`, czyli w dowód zdania *a → a*, który to dowód jest funkcją przekształcającą dowolny dowód
-zdania *a* w ten sposób, że nic z nim nie robi, tylko go zwraca. Zauważ, że musimy najpierw "mieć"
-`a` typu `Prop`, czyli jakieś zdanie `a`, żeby w ogóle móc mówić / pisać w języku teorii typów
-zależnych o zdaniu `a → a` (to jest właśnie przykład typu zależnego - `a → a` jest typem, który
-zależy od argumentu `a`), albo o dowodzie zdania `a` jako argumencie funkcji anonimowej (`(x :
-a)`). Gdyby nie wcześniejsza informacja, że `a : Prop`, wyrażenia `(x : a)` i `a → a` nic by nie
-znaczyły.
+To twierdzenie jest funkcją przekształcającą dowolne zdanie, które dla wygody nazwamy `a`, w term
+typu `a → a`, czyli w dowód zdania `a → a`, który to dowód sam jest funkcją, tyle, że
+przekształcającą dowolny dowód zdania `a` w ten sposób, że nic z nim nie robi, tylko go zwraca.
 
-Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem stanie się nie tylko jasne, ale
-również naturalne, o ile będziesz cierpliwy/a. Może jednak to Ci chociaż trochę pomoże zrozumieć już
-teraz, o co tu chodzi: Przytoczony na początku tego skryptu fragment prozy matematycznej można
-traktować jako funkcję, która z dowolnych dwóch liczb naturalnych, które można nazwać *m* i *n*,
-tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie jako po prostu prawdziwe, to jest bez
-dowodu. Powiedziałem przypuszczalnie, bo ten fragment prozy był wyrwany z kontekstu (a tak naprawdę
-wymyślony przeze mnie).
+Zauważ, że musimy najpierw "mieć" `a` typu `Prop`, czyli jakieś zdanie `a`, żeby w ogóle móc mówić /
+pisać w języku teorii typów zależnych o zdaniu `a → a`, albo o dowodzie zdania `a` jako argumencie
+funkcji anonimowej (`(x : a)`). Gdyby nie wcześniejsza informacja, że `a : Prop`, *nie byłoby
+wiadomo, czym są* wyrażenia `(x : a)` i `a → a` (bo `a` byłoby tak zwaną zmienną wolną). `a → a` to
+przykład *typu zależnego* - `a → a` jest *typem, który zależy od / jest skonstruowany z / jest
+funkcją* argumentu `a`. Czegoś takiego nie można wyrazić wprost w językach takich jak *C* albo *R*.
+
+Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem posługiwanie się typami zależnymi
+stanie się nie tylko jasne, ale wręcz naturalne, o ile będziesz cierpliwy/a. Może jednak to Ci choć
+trochę pomoże dostrzec naturalność typów zależnych: Przytoczony na początku tego skryptu fragment
+prozy matematycznej można traktować jako funkcję, która z dowolnych dwóch liczb naturalnych, które
+można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie jako po prostu
+prawdziwe, to jest bez dowodu. Powiedziałem przypuszczalnie, bo ten fragment prozy był wyrwany z
+kontekstu (a tak naprawdę wymyślony przeze mnie). Pomijając kwestię statusu czy sensu zdania *n + m
+= m + n* w tym fragmencie, jest oczywiste, że to zdanie ma sens tylko w kontekście, w którym *n* i
+*m* oznaczają jakieś liczby. Gdybyśmy chcieli częściowo (o kodowaniu operacji takich jak "+" dowiemy
+się później) formalnie zakodować ten fragment w stylu teorii typów, moglibyśmy napisać:
+
+```
+m : Liczba
+n : Liczba
+jakiś_dowód : m + n = n + m
+```
+
+Myślę, że widzisz teraz wyraźnie konieczność wcześniejszego zadeklarowania typów zmiennych *n* i
+*m*, zanim napisze się *m + n = n + m*.
 
 **Implikacja w praktyce dowodzenia**: Żeby udowodnić w Lean zdanie `p → q`, trzeba udowodnić, że
 zdanie `q` (następnik) jest prawdziwe, *zakładając*, że zdanie `p` (poprzednik) jest prawdziwe,
