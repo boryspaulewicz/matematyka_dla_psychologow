@@ -8,8 +8,8 @@ Tak można zdefiniować funkcję dodającą dwie liczby naturalne i zwracającą
 def suma (n : Nat) (m : Nat) : Nat := n + m
 ```
 
-Nazwy parametrów nie mają znaczenia. To jest ta sama funkcja (inaczej nazwana, bo w Lean definicje
-są ostatecznne):
+Intuicyjnie, nazwy parametrów nie mają znaczenia. To jest ta sama funkcja (inaczej nazwana, bo w
+Lean definicje są ostatecznne):
 
 ```lean
 def suma' (Adam : Nat) (Ewa : Nat) : Nat := Adam + Ewa
@@ -22,14 +22,14 @@ Tak można stworzyć *anonimową* funkcję robiącą to samo (wpisanie *tylko* t
 fun (n : Nat) (m : Nat) => n + m
 ```
 
-To jest *aplikacja* funkcji `suma` do termów `10` i `20` (gdy kursor jest nad `#eval` to w oknie po
-prawej widać wynik):
+To jest *ewaluacja aplikacji* funkcji `suma` do termów `10` i `20` (gdy kursor jest nad `#eval` to w
+oknie po prawej widać wynik):
 
 ```lean
 #eval suma 10 20
 ```
 
-To jest *ewaluacja aplikacji* anonimowej wersji tej samej funkcji, działająca w ten sam sposób jak
+A to jest *ewaluacja aplikacji* anonimowej wersji tej samej funkcji, działająca w ten sam sposób jak
 kod powyżej (pomijając konieczność rozpakowania definicji stałej `suma`):
 
 ```lean
@@ -48,6 +48,8 @@ jedynego argumentu (`#check @wyrażenie` pokazuje typ wyrażenia):
 #check @suma 1 -- suma 1 : Nat → Nat
 
 #check @suma 1 2 -- suma 1 1 : Nat
+
+#eval (suma 1) 2 -- Currying sprawia, że to ma sens
 ```
 
 Równie dobrze moglibyśmy zdefiniować tą funkcję tak (każda definiowana poniżej funkcja jest
@@ -69,8 +71,29 @@ Wyszłoby na to samo:
 #check @suma' 1 2 -- suma' 1 1 : Nat
 ```
 
-**Izomorfizm Curry'ego-Howarda**: Termy typu `Prop` to *zdania jako takie*. Jeżeli `p` jest termem
-typu `Prop`, to `p` jest zarazem zdaniem i *typem*, a *termy typu `p`* są *dowodami zdania `p`*.
+**Trochę o hierarchii typów**: Liczba `2` to term, który można by nazwać "elementarnym", albo
+"konkretnym", bo nie może istnieć term, którego typem jest `2`. W Lean istnieją też termy innego
+rodzaju (mówimy "sortu"). Na przykład, `2` jest termem typu `Nat`, gdzie `Nat` jest typem, ale jest
+też termem typu `Type`:
+
+```lean
+#check Nat -- Nat : Type
+```
+
+A więc w Lean każdy typ jest też termem (jakiegoś ogólniejszego albo wyższego typu), ale nie każdy
+term jest typem. Na przykład (`Type 1` to typ rzędu wyższego o 1 niż rząd typu `Type`):
+
+```lean
+#check Type -- Type : Type 1
+```
+
+**Izomorfizm Curry'ego-Howarda**: Lean ma "wbudowany" typ `Prop`. Termy typu `Prop` można
+konsekwentnie interpretować jako *zdania*. 
+
+Odtąd będę często mówił "jest" zamiast "może być konsekwentnie interpretowany jako".  
+
+Jeżeli `p` jest termem typu `Prop`, to `p` jest zarazem zdaniem i *typem*, a *termy typu `p`* są
+*dowodami zdania `p`*.
 
 Na przykład, jeżeli `a` jest zdaniem, to `a → a` też jest zdaniem, a konkretnie implikacją *Jeżeli
 `a`, to `a`*, i zarazem typem, którego termy są *jednocześnie funkcjami* typu `a → a` i *dowodami*
@@ -127,16 +150,17 @@ naturalnym*:
 Rozumiemy wtedy, że możemy podstawić pod *n* dowolną konkretną liczbę naturalną, na przykład *2*,
 lub dowolne wyrażenie, które oznacza liczbę naturalną, na przykład zmienną *a*, jeżeli tylko
 wcześniej ogłosiliśmy, że to jest liczba naturalna. Musimy jednak *podstawiać konsekwentnie*,
-zastępując każde *n* tym samym wyrażeniem.
+zastępując każde *n* tym samym wyrażeniem. To samo dotyczy drugiego "parametru" tego tekstu - *m*.
 
-Rozpoznajemy, że taka wypowiedź pół-formalna jest *funkcją dwóch zmiennych - n i m - o typie liczba
-naturalna*. Możemy napisać to samo w języku Lean i możemy też to zdanie udowodnić (tutaj
-"oszukujemy", bo korzystamy z twierdzenia o tej samej treści skonstruowanego już w biblitece
-Lean'a):
+Rozpoznajemy, że taka pół-formalna wypowiedź jest *funkcją dwóch zmiennych - n i m - o typie liczba
+naturalna*. Możemy napisać to samo w języku Lean i możemy też to zdanie udowodnić i nazwać, tworząc
+w ten sposób twierdzenie o przemienności dodawania (tutaj "oszukujemy", bo korzystamy z twierdzenia
+o tej samej treści skonstruowanego już w biblitece Lean'a):
 
 ```lean
 theorem przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = n + m := Nat.add_comm n m
 ```
 
-Widzimy, że formalizacja matematyki w języku teorii typów zależnych może być naturalna i wiernie
-oddawać strukturę i sens pół-formalnego tekstu.
+Widzimy, że formalizacja matematyki w języku teorii typów zależnych może być w przynajmniej jednym
+przypadku naturalna i wiernie oddawać strukturę i sens pół-formalnego tekstu. Domyślamy się, że to
+nie jest wyjątek.
