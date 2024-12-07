@@ -3,26 +3,26 @@ czy analizy racjonalnej w psychologii, trzeba się trochę oswoić z matematyczn
 rozumowania (na przykład z logiką), wydawania sądów (rachunek prawdopodobieństwa i wnioskowanie
 bayesowskie), i podejmowania decyzji (na przykład teoria wyboru racjonalnego). To jest jeden powód.
 
-Drugi powód, to że w mojej ocenie zdecydowana większość psychologów, i mam tu na myśli również
-utytuowanych pracowników naukowych z bogatym "dorobkiem" zajmujących się psychologią, z jednej
-strony polega w ogromnym stopniu na matematyce (na przykład, używając wnioskowania statystycznego,
-ale nie tylko wtedy) i próbuje zrozumieć bardzo złożone i trudne do wyjaśnienia zjawiska (takie jak
-zachowania ludzi, czy strukturę i przebieg procesów umysłowych), a z drugiej najczęściej nie ma
-*bladego* pojęcia o matematyce. Tacy (niestety liczni) matematyczni analfabeci nagminnie wyciągają z
-własnych i cudzych badań nieuzasadnione (czytaj: błędne, co nie znaczy, że na pewno fałszywe)
-wnioski, popełniając przy tym często najprostsze nawet błędy w rozumowaniu (dobrym przykładem jest
-powszechne wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu
-statystycznego). Mimo to, tym matematycznym analfabetom udaje się publikować swoje prace, bo te
-prace są najczęściej oceniane przez innych metamatycznych analfabetów. W mojej ocenie ten stan
+Drugi powód, to że w mojej ocenie zdecydowana większość psychologów - mam tu na myśli również
+utytuowanych pracowników naukowych z bogatym "dorobkiem" - z jednej strony polega w ogromnym stopniu
+na matematyce (na przykład, używając wnioskowania statystycznego, ale nie tylko wtedy) i próbuje
+zrozumieć bardzo złożone i trudne do wyjaśnienia zjawiska (takie jak zachowania ludzi czy strukturę
+i przebieg procesów umysłowych), a z drugiej najczęściej nie ma *bladego* pojęcia o matematyce. Tacy
+(niestety liczni) matematyczni analfabeci nagminnie wyciągają z własnych i cudzych badań
+nieuzasadnione (czytaj: błędne, co nie znaczy, że na pewno fałszywe) wnioski, popełniając przy tym
+często najprostsze nawet błędy w rozumowaniu (dobrym przykładem jest powszechne wnioskowanie o braku
+efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego). Mimo to, takim
+matematycznym analfabetom udaje się publikować swoje prace w wysokopunktowanych czasopismach, bo te
+prace są najczęściej oceniane przez innych matematycznych analfabetów. W mojej ocenie ten stan
 rzeczy jest jednocześnie śmieszny, żałosny, nieakceptowalny, i nie widzę, żeby ktokolwiek próbował
 go zmienić.
 
 To jest eksperyment pedagogiczny, oparty na założeniu, że (przynajmniej Ci młodsi) psychologowie
-często mniej boją się programowania niż matematyki, a poza tym z programowaniem mogą się oswajać
-przez interakcję z komputerem, który dostarczy im od razu informacji zwrotnej. Ten eksperyment
+często mniej boją się programowania niż matematyki, a poza tym z programowaniem mogą się oswajać w
+interakcji z komputerem, dostarczym natychmiastowej informacji zwrotnej. Ten eksperyment
 pedagogiczny ma pomóc w oswajaniu się z matematyką studentom na kierunku psychologia i pracownikom
 akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi spróbować oswoić się z nowym
-językiem programowania.
+(pięknym i wyjątkowo ekspresyjnym!) językiem programowania.
 
 Ten skrypt *może zawierać błędy we fragmentach napisanych w języku naturalnym*, czyli w tych
 częściach, w których objaśniam kod lub zapędzam się w dygresje. Gdybyś znalazł/a błąd, byłoby mi
@@ -30,8 +30,8 @@ bardzo miło, gdybyś mi o tym napisał/a (borys.paulewicz@gmail.com).
 
 Ten skrypt *nie zawiera błędów w częściach formalnych*, to jest zakodowanych w pewnej wersji języka
 teorii typów zależnych, zaimplementowanej w asystencie dowodzenia Lean, bo te zostały sprawdzone
-przez niezawodny algorytm (którego używa Lean {a o którym wiemy, że jest niezawodny, bo spełnia
-[kryterium de Bruijna](https://www.pls-lab.org/en/de_Bruijn_criterion)}).
+przez niezawodny algorytm (którego używa Lean {a Lean spełnia [kryterium de
+Bruijna](https://www.pls-lab.org/en/de_Bruijn_criterion)}).
 
 **Ostrzeżenie**: Nawet jeżeli przeczytasz ten skrypt do końca i uda Ci się zrobić poprawnie zadania,
 których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
