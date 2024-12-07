@@ -92,10 +92,9 @@ jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że
 operacje większość dzieci opanowuje w szkole podstawowej.
 
 Spróbuj chwilowo potraktować takie formalne reguły jako *reguły gry, która nie musi mieć żadnego
-sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie będzie Ci tylko
-przeszkadzać. Obiecuję, że sens się pojawi, tylko trochę później. Zdolność do tymczasowego
-stłumienia w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce
-matematyki.
+sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie może Ci
+przeszkadzać. Obiecuję, że sens się pojawi, tylko kiedy indziej. Zdolność do tymczasowego stłumienia
+w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce matematyki.
 
 Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które będziemy chwilowo
 rozumieć jako *aksjomaty*, czyli reguły gry na które umawiamy się bez uzasadnienia:
@@ -109,11 +108,12 @@ rozumieć jako *aksjomaty*, czyli reguły gry na które umawiamy się bez uzasad
 Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, *skończona sekwencja* i
 *liczba*, traktujemy tutaj jako część wspólnej wiedzy zastanej. 
 
-Pewnie przyszła Ci do głowy pewna interpretacja symboli *zdarzenie* i *p*. Spróbuj ją proszę
-ignorować, na ile tylko jesteś w stanie. Poza aksjomatami będziemy jeszcze potrzebować *definicji*
-symbolu |:
+Pewnie przyszła Ci do głowy narzucająca się interpretacja symboli *zdarzenie* i *p*. Spróbuj ją
+proszę ignorować, na ile tylko jesteś w stanie. 
 
-Jeżeli *x* i *y* to zdarzenia, to *p(x|y) * p(y) = p(x, y)*.
+Poza aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
+
+4. Jeżeli *x* i *y* to zdarzenia, to *p(x|y) * p(y) = p(x, y)*.
 
 Zapisz teraz nową wersję definicji pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
 oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Uzyskasz w ten
@@ -127,9 +127,10 @@ Podziel obie strony przez *p(y)* (zakładając oczywiście, że ta wartość jes
 jedyną stronę równania, którą da się w tym momencie uprościć.
 
 Jeżeli wykonała/eś wszystkie te trywialne, mechaniczne operacje zgodnie z instrukcjami, to udało Ci
-się właśnie udowodnić twierdzenie Bayesa. Moim studentom nie zajmuje to zwykle więcej niż 15
-minut. Twierdzenie Bayesa odgrywa ważną rolę w psychologii nie tylko poznawczej, jak również w
-rozważaniach na temat nauk empirycznych w ogóle, jednak nie będzie nas ono tutaj interesowało.
+się właśnie udowodnić twierdzenie Bayesa. Moim studentom, gdy robią to po raz pierwszy w życiu, nie
+zajmuje to zwykle więcej niż 15 minut. Twierdzenie Bayesa odgrywa ważną rolę w psychologii,
+poznawczej i nie tylko, jak również w rozważaniach na temat nauk empirycznych w ogóle, jednak nie
+będzie nas ono na razie interesowało.
 
 Będziemy robić tego typu rzeczy, ale nie na kartce.
 
