@@ -113,7 +113,7 @@ proszę ignorować, na ile tylko jesteś w stanie.
 
 Poza aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
 
-4. Jeżeli *x* i *y* to zdarzenia, to *p(x|y) * p(y) = p(x, y)*.
+4. Jeżeli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
 
 Zapisz teraz nową wersję definicji pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
 oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Uzyskasz w ten
@@ -128,9 +128,13 @@ jedyną stronę równania, którą da się w tym momencie uprościć.
 
 Jeżeli wykonała/eś wszystkie te trywialne, mechaniczne operacje zgodnie z instrukcjami, to udało Ci
 się właśnie udowodnić twierdzenie Bayesa. Moim studentom, gdy robią to po raz pierwszy w życiu, nie
-zajmuje to zwykle więcej niż 15 minut. Twierdzenie Bayesa odgrywa ważną rolę w psychologii,
-poznawczej i nie tylko, jak również w rozważaniach na temat nauk empirycznych w ogóle, jednak nie
-będzie nas ono na razie interesowało.
+zajmuje to zwykle więcej niż 15 minut. Zwróć uwagę, że udowodniła/eś to twierdzenie ani nie
+przytaczając ani nie odnosząc się do żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych
+wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży stopień ogólności, chodzi
+w takich twierdzeniach?
+
+Twierdzenie Bayesa odgrywa ważną rolę w psychologii - poznawczej i nie tylko - jak również w
+rozważaniach na temat nauk empirycznych w ogóle, jednak nie będzie nas ono na razie interesowało.
 
 Będziemy robić tego typu rzeczy, ale nie na kartce.
 
@@ -349,7 +353,58 @@ m`).
 przekonać, że `suma` to tak naprawdę funkcja, która przekształca dowolną liczbę naturalną w funkcję,
 która z kolei przekształca dowolną liczbę naturalną w liczbę naturalną.
 
-# O logice w Lean
+## Typy to też termy, a zdania to jednocześnie termy typu `Prop` i typy, których termy są ich dowodami
+
+Stała `2` jest termem typu `Nat`. `Nat` jest tylko zapisem albo etykietą, niczym więcej, którą
+możemy konsekwentnie interpretować jako oznaczającą typ liczb naturalnych, ponieważ Lean dostarcza
+taką a nie inną funkcjonalność dla termów typu `Nat`. W teorii typów której używamy w Lean każdy typ
+jest również termem, ale typu ogólnijszego, i tak w nieskończoność (jak skopiujesz ten kod, to gdy
+kursor będzie nad `#check` zobaczysz po prawej to, co jest zapisane jako komentarz po znakach `--`):
+
+```lean
+#check 2 -- 2 : Nat
+
+#check Nat -- Nat : Type
+
+#check Type -- Type : Type 1
+```
+
+Te typy wyższych rzędów są potrzebne tylko z (dość nudnych) powodów technicznych (może słyszała/eś o
+paradoksie Russella? Chodzi o coś zbliżonego). 
+
+Lean ma również wbudowany typ, który będzie odtąd dla nas ważny - typ `Prop`, będący skrótem od
+angielskiego słowa *Proposition*, oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
+konsekwentnie interpretować jako zdania. To może być na początku dezorientujące:
+
+Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop`), to jeżeli `h : a` (czytaj `h` ma typ `a`),
+to możemy konsekwentnie interpretować `h` jako *dowód zdania `a`*.
+
+To, że możemy w ten sposób konsekwentnie interpretować termy typu `Prop` i termy, których te termy
+są typami (nie zgubiła/eś się?) wynika z [izomorfizmu
+Curry'ego-Howarda](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), czyli z
+identyczności strukturalnej (bo tym jest izomorfizm) zachodzącej między (pewną) przestrzenią
+programów komputerowych i przestrzenią dowodów. Inne określenie na to samo to *Propositions As
+Types*, czyli *sądy jako typy*, o takim skrócie - *PAT* - jak jeszcze inne określenie na to samo,
+*Proofs As Terms*, czyli *dowody jako termy*. Jeżeli te uwagi budzą Twój niepokój, nie przejmuj się
+nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy się mu szczegółowo przyglądać.
+
+W praktyce izomorfizm Curry'ego-Howarda oznacza, że możemy kodować, to jest zapisywać w języku
+teorii typów w sposób dający się konsekwentnie interpretować w zamierzony sposób, matematyczne
+pojęcia, struktury i zdania jako *typy*, i że termy typów zdaniowych możemy konsekwentnie traktować
+jak dowody. Dzięki temu zaciera się, a czasem znika, różnica między matematyką i programowaniem.
+
+**(De)Motywator**: Że dowód jest termem o typie, który jest zdaniem, którego to zdania ten term
+dowodzi (*uff*), to jest jedna z tych początkowo dezorientujących konwencji, do których trzeba się
+po prostu stopniowo przyzwyczaić. Gdy to już do pewnego stopnia nastąpi, ta akurat konwencja pozwoli
+Ci zobaczyć *całą* matematykę w nowy sposób.
+
+Jedną z wielu zalet tego punktu widzenia jest i ta, że można wtedy uprawiać matematykę albo tylko
+uczyć się jej w interakcji z programem wspomagającym konstruowanie pojęć, teorii i dowodów
+matematycznych, czyli z asystentem dowodzenia, takim jak Lean. Można mieć wtedy nie tylko pewność,
+że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale też można korzystać
+z rozmaitych ułatwień, jakie oferuje dany asystent.
+
+## O logice w Lean
 
 **Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym odróżnianiem (i przełączaniem
 się czasem między odpowiadającymi tym różnicom punktami widzenia):
@@ -669,37 +724,7 @@ fragment jeszcze raz.
 
 **Uwaga na temat taktyk**: `intro` jest tak zwaną *taktyką*, to znaczy operacją, której możemy
 używać *tylko* w trybie interaktywnym (ogólnie, do interaktywnego konstruowania dowolnych termów
-określonego typu),
-
-OSOBLIWA MAGIA IZOMORFIZMU CURRY'EGO-HOWARDA: Mówiąc ogólnie, jeżeli p to zdanie, czyli jeżeli:
-
-p : Prop
-
-to wtedy:
-
-h : p
-
-jest *termem typu p*, co w języku Lean (a ogólnie w każdym języku teorii typów zależnych) może być
-konsekwentnie rozumiane (na mocy izomorfimu Curry'ego-Howarda) jako:
-
-h jest *dowodem* zdania p!
-
-(DE)MOTYWATOR / UWAGI Z META-POZIOMU: Że dowód jest termem o typie, który jest zdaniem, którego
-to zdania ten term dowodzi, to jest jedna z tych początkowo dziwnych konwencji (bo to jest
-jednocześnie tylko konwencja, i aż bardzo ważna konwencja, która uniwersalnie "działa" i ma
-potężne praktyczne konsekwencje), do których trzeba się po prostu stopniowo przyzwyczaić. Gdy to
-już (do pewnego stopnia) nastąpi, ta akurat konwencja pozwala zobaczyć *całą* matematykę w
-zupełnie nowy sposób. Nie przesadzam - ten nowy sposób patrzenia na matematykę polega na tym, że
-*znika* różnica między uprawianiem czy stosowaniem matematyki i *programowaniem*, z którym w
-mojej ocenie wielu studentów czuje się bardziej komfortowo niż z tradycyjnym dowodzeniem
-matematycznym.
-
-Jedną z zalet tego punktu widzenia jest i ta, że można wtedy uprawiać matematykę albo tylko uczyć
-się jej w interakcji z programem wspomagającym konstruowanie pojęć, teorii i dowodów
-matematycznych, czyli z asystentem dowodzenia, takim jak Lean. Można mieć wtedy *zawsze pewność*
-(dzięki temu, że Lean spełnia tak zwane kryterium albo warunek de Bruijna), że to, co się
-napisało / skonstruowało, jest poprawne, albo, że jest błędne, a także można korzystać z
-rozmaitych ułatwień, jakie oferuje dany asystent.
+określonego typu).
 
 POWRÓT DO ZADANIA: Wprowadzając a jako założenie, a dokładniej zakładając, że a ma *jakiś* dowód
 i to *posiadanie jakiegoś dowodu* przyjmując jako założenie, które nazwaliśmy h, sprawiliśmy, że
