@@ -707,10 +707,12 @@ trochę pomoże dostrzec naturalność typów zależnych: Przytoczony na począt
 prozy matematycznej można traktować jako funkcję, która z dowolnych dwóch liczb naturalnych, które
 można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie jako po prostu
 prawdziwe, to jest bez dowodu. Powiedziałem przypuszczalnie, bo ten fragment prozy był wyrwany z
-kontekstu (a tak naprawdę wymyślony przeze mnie). Pomijając kwestię statusu czy sensu zdania *n + m
-= m + n* w tym fragmencie, jest oczywiste, że to zdanie ma sens tylko w kontekście, w którym *n* i
-*m* oznaczają jakieś liczby. Gdybyśmy chcieli częściowo (o kodowaniu operacji takich jak "+" dowiemy
-się później) formalnie zakodować ten fragment w stylu teorii typów, moglibyśmy napisać:
+kontekstu (a tak naprawdę wymyślony przeze mnie). 
+
+Pomijając kwestię statusu czy sensu zdania *n + m = m + n* w tym fragmencie, jest oczywiste, że to
+zdanie ma sens tylko w kontekście, w którym *n* i *m* oznaczają jakieś liczby. Gdybyśmy chcieli
+częściowo (o kodowaniu relacji równości i operacji takich jak dodawanie będziemy mówić kiedy
+indziej) formalnie zakodować ten fragment w stylu teorii typów, moglibyśmy napisać:
 
 ```
 m : Liczba
