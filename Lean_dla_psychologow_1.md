@@ -35,8 +35,8 @@ To jest eksperyment pedagogiczny oparty na założeniu, że (przynajmniej Ci mł
 często mniej boją się programowania niż matematyki, a poza tym z programowaniem mogą się oswajać w
 interakcji z komputerem dostarczającym natychmiastowej informacji zwrotnej. Ten eksperyment
 pedagogiczny ma pomóc w oswajaniu się z matematyką studentom na kierunku psychologia i pracownikom
-akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi spróbować oswoić się z
-nowym, pięknym, i bardzo ekspresyjnym językiem programowania.
+akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi podjąć próbę poznania
+nowego, pięknego, i bardzo ekspresyjnego języka programowania.
 
 Ten skrypt *może zawierać błędy we fragmentach napisanych w języku naturalnym*, czyli w tych
 częściach, w których mniej lub bardziej po swojemu objaśniam kod lub zapędzam się w dygresje. Gdybyś
