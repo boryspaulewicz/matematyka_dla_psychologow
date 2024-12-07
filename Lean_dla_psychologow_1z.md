@@ -90,7 +90,7 @@ term jest typem. Na przykład (`Type 1` to typ rzędu wyższego o 1 niż rząd t
 **Izomorfizm Curry'ego-Howarda**: Lean ma "wbudowany" typ `Prop`. Termy typu `Prop` można
 konsekwentnie interpretować jako *zdania*. 
 
-Odtąd będę często mówił "jest" zamiast "może być konsekwentnie interpretowany jako".  
+Odtąd będę często mówił "jest" zamiast "może być konsekwentnie interpretowane jako".
 
 Jeżeli `p` jest termem typu `Prop`, to `p` jest zarazem zdaniem i *typem*, a *termy typu `p`* są
 *dowodami zdania `p`*.
