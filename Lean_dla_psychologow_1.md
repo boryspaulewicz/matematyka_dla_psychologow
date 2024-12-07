@@ -70,7 +70,7 @@ dłuższą przerwę, ja w każdym razie tego wtedy potrzebuję.
 ## Zachęta i jednocześnie ćwiczenie wskazane nawet dla osób nie całkiem początkujących
 
 **Polecenie**: Myślę, że już w podstawówce stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B =
-C*, to "A = C", niezależnie od tego, czym są *A*, *B* i *C*. Na pewno też jako znajomy rozpoznasz
+C*, to *A = C*, niezależnie od tego, czym są *A*, *B* i *C*. Na pewno też jako znajomy rozpoznasz
 taki oto fragment "matematycznej prozy":
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
@@ -83,14 +83,15 @@ I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiają
 
 - Wyrażenie, które po obliczeniu daje liczbę naturalną
 
-o ile tylko to podstawianie jest konsekwentne, to znaczy, za *n* jest wszędzie podstawione to samo i
-za *m* jest wszędzie podstawione to samo (i to nie muszą być dwie różne rzeczy). Na przykład,
-zgodnie z przytoczonym fragmentem, *2 + 3 = 3 + 2*, jak również, jeżeli *a* i *b* to liczby
-naturalne, *a + b = b + a*, *a + 10 = 10 + a*, *b + b = b + b*, *(2 + 3 + a) + b = b + (2 + 3 + a)*,
-bo *2 + 3 + a* oznacza w tym kontekście jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się
-ze mną, że tego rodzaju formalne operacje większość dzieci opanowuje w szkole podstawowej.
+Trzeba tylko pamiętać, żeby podstawianie było konsekwentne, to znaczy, za *n* powinno być wszędzie
+podstawione to samo i za *m* wszędzie to samo, i to nie muszą być dwie różne rzeczy. Na przykład,
+zgodnie z przytoczonym fragmentem *2 + 3 = 3 + 2*, jak również, jeżeli *a* i *b* to liczby naturalne
+(i tylko wtedy!), to *a + b = b + a*, *a + 10 = 10 + a*, *b + b = b + b*, *(2 + 3 + a) + b = b +
+(2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst: *a* jest liczbą naturalną)
+jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że tego rodzaju formalne
+operacje większość dzieci opanowuje w szkole podstawowej.
 
-Spróbuj potraktowac chwilowo takie formalne reguły jako *reguły gry, która nie musi mieć żadnego
+Spróbuj chwilowo potraktować takie formalne reguły jako *reguły gry, która nie musi mieć żadnego
 sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie będzie Ci tylko
 przeszkadzać. Obiecuję, że sens się pojawi, tylko trochę później. Zdolność do tymczasowego
 stłumienia w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce
@@ -101,14 +102,16 @@ rozumieć jako *aksjomaty*, czyli reguły gry na które umawiamy się bez uzasad
 
 1. Istnieją tak zwane *zdarzenia*.
 
-2. Istnieje funkcja *p*, która zdarzeniom lub ich skończonym sekwencjom przypisuje liczby.
+2. Istnieje funkcja *p*, która *zdarzeniom* lub ich *skończonym sekwencjom* przypisuje *liczby*.
 
-3. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
+3. Jeżeli *x* i *y* to *zdarzenia*, to *p(x, y) = p(y, x)*.
 
-Pewnie przyszła Ci do głowy pewna interpretacja symboli *zdarzenie* i *p*. Spróbuj proszę ją
-ignorować, na ile tylko jesteś w stanie.
+Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, *skończona sekwencja* i
+*liczba*, traktujemy tutaj jako część wspólnej wiedzy zastanej. 
 
-Będziemy jeszcze potrzebować *definicji* symbolu |:
+Pewnie przyszła Ci do głowy pewna interpretacja symboli *zdarzenie* i *p*. Spróbuj ją proszę
+ignorować, na ile tylko jesteś w stanie. Poza aksjomatami będziemy jeszcze potrzebować *definicji*
+symbolu |:
 
 Jeżeli *x* i *y* to zdarzenia, to *p(x|y) * p(y) = p(x, y)*.
 
@@ -120,13 +123,13 @@ podstawienie.
 Skorzystaj z aksjomatu 3 w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu wersji
 definicji są równe. Zapisz tą równość.
 
-Podziel obie strony przez *p(y)*, zakładając oczywiście, że ta wartość jest niezerowa. Uprość jedyną
-stronę równania, która daje się uprościć. 
+Podziel obie strony przez *p(y)* (zakładając oczywiście, że ta wartość jest niezerowa). Uprość
+jedyną stronę równania, którą da się w tym momencie uprościć.
 
 Jeżeli wykonała/eś wszystkie te trywialne, mechaniczne operacje zgodnie z instrukcjami, to udało Ci
-się właśnie udowodniłć twierdzenie Bayesa. Moim studentom nie zajmuje to zwykle więcej niż 15
-minut. Twierdzenie Bayesa odgrywa ważną rolę w psychologii poznawczej i w rozważaniach na temat nauk
-empirycznych w ogóle, jednak to nas nie będzie tutaj interesowało.
+się właśnie udowodnić twierdzenie Bayesa. Moim studentom nie zajmuje to zwykle więcej niż 15
+minut. Twierdzenie Bayesa odgrywa ważną rolę w psychologii nie tylko poznawczej, jak również w
+rozważaniach na temat nauk empirycznych w ogóle, jednak nie będzie nas ono tutaj interesowało.
 
 Będziemy robić tego typu rzeczy, ale nie na kartce.
 
