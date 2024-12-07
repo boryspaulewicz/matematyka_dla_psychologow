@@ -39,29 +39,40 @@ akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi podj
 nowego, pięknego, i bardzo ekspresyjnego języka programowania.
 
 Ten skrypt *może zawierać błędy we fragmentach napisanych w języku naturalnym*, czyli w tych
-częściach, w których mniej lub bardziej po swojemu objaśniam kod lub zapędzam się w dygresje. Gdybyś
-znalazł/a błąd, byłoby mi bardzo miło, gdybyś mi o tym napisał/a (borys.paulewicz@gmail.com).
+częściach, w których mniej lub bardziej po swojemu objaśniam kod lub zapędzam się w dygresje. Ryzyko
+pojawienia się błędu w tych fragmentach skryptu nie jest małe, bo jestem tylko matematycznym
+amatorem. Gdybyś znalazł/a błąd, byłoby mi bardzo miło, gdybyś mi o tym napisał/a
+(borys.paulewicz@gmail.com).
 
 Ten skrypt *prawie na pewno nie zawiera błędów w częściach formalnych*, to jest zakodowanych w
 pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia Lean. Ponieważ
 te części zostały sprawdzone przez algorytm, którego używa [Lean](https://lean-lang.org/), mało
 czego można być tak pewnym jak tego, że są bezbłędne.
 
-**Ostrzeżenie**: Nawet jeżeli przeczytasz ten skrypt do końca i uda Ci się zrobić poprawnie zadania,
-których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
+**Ostrzeżenie**: Nawet jeżeli przeczytasz tą część skryptu do końca i uda Ci się zrobić poprawnie
+zadania, których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
 dezorientacji lub braku poczucia sensu. Będziemy się zajmować bardzo abstrakcyjnymi pojęciami,
 dlatego takie poczucie jest na początku prawdopodobne. Ja też się podobnie czułem, gdy po raz
 pierwszy miałem kontakt z tymi treściami. To poczucie może się stopniowo zmienić w coraz głębsze
 zrozumienie, ale to wymaga *cierpliwości*. Oto moja rada: Naukowcem z prawdziwego zdarzenia nie
 zostaje się z dnia na dzień. Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i pogódź się
 z tym, że dobre opanowanie tego rodzaju materiału wymaga czasem wielokrotnego aktywnego czytania
-tych samych fragmentów.
+tych samych fragmentów. 
 
-**Praktyczna wskazówka**: Ten skrypt nie jest długi. Przeczytanie go i wykonanie poleceń powinno Ci
-zająć nie więcej niż półtorej godziny. Jest też samowystarczalny w tym znaczeniu, że nie zakłada
-żadnej specjalnej wcześniejszej wiedzy ani instalacji oprogramowania - wszystko jest wyjaśnione od
-podstaw, a jedyny program, którego potrzebujemy, jest dostępny za darmo w przeglądarce. Treści będą
-jednak trudne. Polecam znaleźć kartkę i coś do pisania, włączyć minutnik na 30 minut, i robić
+**Praktyczna wskazówka**: Gdy pojawi się frustracja, a całkiem możliwe, że się pojawi, poczekaj albo
+wróć do tego, co wydaje Ci się, że już dobrze zrozumiała/eś. Poczucie zrozumienia bywa
+zwodnicze. Kilka razy w życiu zdarzyło mi się uczyć trudnego materiału wykonując coraz odleglejsze w
+czasie generatywne powtórki. Prawie za każdym razem gdy powtarzałem w ten sposób materiał
+przekonywałem się, że moje wcześniejsze poczucie zrozumienia było częściowo złudne. Szczerze mówiąc,
+jestem zdania, że rozumienie to jest coś, do czego można stale *dążyć*, ale co rzadko, o ile w ogóle
+kiedykolwiek, można naprawdę *osiągnąć*. Tym bardziej, że nawet na najprostsze sprawy można próbować
+patrzeć z nowego punktu widzenia.
+
+Ten skrypt nie jest długi. Przeczytanie go i wykonanie poleceń powinno Ci zająć nie
+więcej niż półtorej godziny. Jest też samowystarczalny w tym znaczeniu, że nie zakłada żadnej
+specjalnej wcześniejszej wiedzy ani instalacji oprogramowania - wszystko jest wyjaśnione od podstaw,
+a jedyny program, którego potrzebujemy, jest dostępny za darmo w przeglądarce. Treści będą jednak
+trudne. Polecam znaleźć kartkę i coś do pisania, włączyć minutnik na 30 minut, i robić
 *jakiekolwiek* notatki (na przykład, zapisywać wątpliwości, albo pomysły czy skojarzenia). Po 30
 minutach zrobić około 5 minutową (nie za długą) przerwę, w trakcie której nie będziesz robić nic
 wciągającego, a potem znowu pracować przez 30 minut. Po dwóch takich jednostkach trzeba sobie zrobić
