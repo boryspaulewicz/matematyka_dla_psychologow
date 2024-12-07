@@ -85,11 +85,11 @@ I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiają
 
 Trzeba tylko pamiętać, żeby podstawianie było konsekwentne, to znaczy, za *n* powinno być wszędzie
 podstawione to samo i za *m* wszędzie to samo, i to nie muszą być dwie różne rzeczy. Na przykład,
-zgodnie z przytoczonym fragmentem *2 + 3 = 3 + 2*, jak również, jeżeli *a* i *b* to liczby naturalne
-(i tylko wtedy!), to *a + b = b + a*, *a + 10 = 10 + a*, *b + b = b + b*, *(2 + 3 + a) + b = b +
-(2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst: *a* jest liczbą naturalną)
-jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że tego rodzaju formalne
-operacje większość dzieci opanowuje w szkole podstawowej.
+zgodnie z przytoczonym fragmentem *2 + 3 = 3 + 2*, jak również, jeżeli *a* i *b* to liczby
+naturalne, to *a + b = b + a*, *a + 10 = 10 + a*, *b + b = b + b*, *(2 + 3 + a) + b = b + (2 + 3 +
+a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst: *a* jest liczbą naturalną) jakąś
+liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że tego rodzaju formalne operacje
+większość dzieci opanowuje w szkole podstawowej.
 
 Spróbuj chwilowo potraktować takie formalne reguły jako *reguły gry, która nie musi mieć żadnego
 sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie może Ci
@@ -97,7 +97,7 @@ przeszkadzać. Obiecuję, że sens się pojawi, tylko kiedy indziej. Zdolność 
 w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce matematyki.
 
 Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które będziemy chwilowo
-rozumieć jako *aksjomaty*, czyli reguły gry na które umawiamy się bez uzasadnienia:
+rozumieć jako *aksjomaty*, czyli reguły gry, na które umawiamy się bez uzasadnienia:
 
 1. Istnieją tak zwane *zdarzenia*.
 
@@ -201,7 +201,7 @@ w Lean nie możemy dowolnie re-definiować symboli).
 
 **Ostateczność definicji w Lean**: Gdy raz zdefiniujemy jakiś symbol, tutaj symbole `suma` i
 `suma'`, nie możemy już więcej (w tym samym kontekście, ale o tym kiedy indziej) zmienić jego
-definicji, chyba, że najpierw usuniemy poprzednią definicję.
+definicji, chyba, że najpierw usuniemy poprzednią definicję. Dlatego nazywamy te symbole *stałymi*.
 
 **Polecenie**: Zastosuj funkcję `suma` do dwóch liczb naturalnych wklejając poniższy kod. Taką
 konstrukcję nazywamy *aplikacją* funkcji do termu lub termów. Mówiąc dokładniej, poniższy kod
@@ -220,7 +220,7 @@ def dodaj2 (a : Nat) : Nat := a + 2
 
 **Polecenie**: Spróbuj odczytać samodzielnie sens tej defincji opierając się na fragmencie, w którym
 objaśniłem jak się czyta poprzednią definicję. Najlepiej zrób to na głos, dzięki temu upewnisz się,
-czy każdy aspekt sposobu czytania takiego kodu jest dla Ciebie jasny.
+czy właściwy sposób czytania tego rodzaju kodu jest dla Ciebie jasny.
 
 Myślę, że od razu widzisz, jak ta funkcja działa, nawet jeśli przed chwilą nie wiedziałe/aś nawet,
 że język Lean istnieje. Myślę też, że jest już dla Ciebie oczywiste, że nazwa parametru (tutaj `a`)
@@ -229,7 +229,7 @@ ciała funkcji (całe ciało funkcji `dodaj2` to `a + 2`) "mówić" o jej argume
 
 **Polecenie**: Wklej *powyższy* kod, albo jeszcze lepiej, spróbuj go najpierw przepisać z pamięci,
 żeby struktura takich definicji zaczęła Ci się lepiej utrwalać i żebyś ją szybciej mentalnie
-"parsował/a". Następnie wpisz poniższą komendę i najedź kursorem na słowo `#check`:
+"parsował/a". Następnie wpisz poniższą komendę i umieść kursor nad słowem `#check`:
 
 ```lean
 #check @dodaj2
@@ -311,7 +311,7 @@ Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji argumentów, które 
 czasem aplikacjami pewnych funkcji (`Nat.succ` i `-`) do rezultatów aplikacji pewnych funkcji
 (`Nat.succ` aplikowane do rezultatu aplikacji `Nat.succ` do termu `3` i funkcja `-` aplikowana do
 termu `6` i rezultatu aplikacji funkcji `+`). Zwracam uwagę, że w tym kontekście `+` i `-` też
-oznaczają pewne - dwuarguentowe - funkcje, tylko zapisane w *notacji infiksowej*:
+oznaczają pewne (dwuarguentowe) funkcje, tylko zapisane w *notacji infiksowej*:
 
 `argument1 funkcja argument2`, na przykład `1 + 2`
 
@@ -330,8 +330,8 @@ poniżej?
 ```
 
 Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest tutaj jednak *funkcją*
-(`Nat.succ`), a nie liczbą naturalną. Żeby ten kod był poprawny trzeba otoczyć fragment `Nat.succ 2`
-nawiasami:
+(`Nat.succ`), a nie liczbą naturalną. Żeby ten kod był poprawny, trzeba otoczyć fragment `Nat.succ
+2` nawiasami:
 
 ```lean
 #eval suma (Nat.succ 2) 3
