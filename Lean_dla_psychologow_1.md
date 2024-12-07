@@ -621,14 +621,17 @@ To twierdzenie jest funkcją przekształcającą dowolne zdanie, które można n
 zdania *a* w ten sposób, że nic z nim nie robi, tylko go zwraca. Zauważ, że musimy najpierw "mieć"
 `a` typu `Prop`, czyli jakieś zdanie `a`, żeby w ogóle móc mówić / pisać w języku teorii typów
 zależnych o zdaniu `a → a` (to jest właśnie przykład typu zależnego - `a → a` jest typem, który
-zależy od argumentu `a`), inaczej `a → a` nic by nie znaczyło.
+zależy od argumentu `a`), albo o dowodzie zdania `a` jako argumencie funkcji anonimowej (`(x :
+a)`). Gdyby nie wcześniejsza informacja, że `a : Prop`, wyrażenia `(x : a)` i `a → a` nic by nie
+znaczyły.
 
-Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem stanie się jasne, o ile będziesz
-cierpliwy/a. Może jednak to Ci chociaż trochę pomoże zrozumieć, o co tu chodzi: Przytoczony na
-początku tego skryptu fragment prozy matematycznej można traktować jako funkcję, która z dowolnych
-dwóch liczb naturalnych, które można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane
-przypuszczalnie jako po prostu prawdziwe, to jest bez dowodu. Powiedziałem przypuszczalnie, bo ten
-fragment prozy był wyrwany z kontekstu (a tak naprawdę wymyślony przeze mnie).
+Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem stanie się nie tylko jasne, ale
+również naturalne, o ile będziesz cierpliwy/a. Może jednak to Ci chociaż trochę pomoże zrozumieć już
+teraz, o co tu chodzi: Przytoczony na początku tego skryptu fragment prozy matematycznej można
+traktować jako funkcję, która z dowolnych dwóch liczb naturalnych, które można nazwać *m* i *n*,
+tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie jako po prostu prawdziwe, to jest bez
+dowodu. Powiedziałem przypuszczalnie, bo ten fragment prozy był wyrwany z kontekstu (a tak naprawdę
+wymyślony przeze mnie).
 
 **Implikacja w praktyce dowodzenia**: Żeby udowodnić w Lean zdanie `p → q`, trzeba udowodnić, że
 zdanie `q` (następnik) jest prawdziwe, *zakładając*, że zdanie `p` (poprzednik) jest prawdziwe,
