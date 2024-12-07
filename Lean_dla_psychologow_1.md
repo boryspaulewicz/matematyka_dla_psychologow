@@ -623,20 +623,21 @@ zdania *a* w ten sposób, że nic z nim nie robi, tylko go zwraca. Zauważ, że 
 zależnych o zdaniu `a → a` (to jest właśnie przykład typu zależnego - `a → a` jest typem, który
 zależy od argumentu `a`), inaczej `a → a` nic by nie znaczyło.
 
-Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem stanie się jasne, jeśli będziesz
-cierpliwy/a. Może jednak to Ci pomoże zrozumieć, o co tu chodzi: Przytoczony na początku tego
-skryptu fragment prozy matematycznej można traktować jako funkcję, która z dowolnych dwóch liczb
-naturalnych, które można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie
-jako po prostu prawdziwe (bez dowodu).
+Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem stanie się jasne, o ile będziesz
+cierpliwy/a. Może jednak to Ci chociaż trochę pomoże zrozumieć, o co tu chodzi: Przytoczony na
+początku tego skryptu fragment prozy matematycznej można traktować jako funkcję, która z dowolnych
+dwóch liczb naturalnych, które można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane
+przypuszczalnie jako po prostu prawdziwe, to jest bez dowodu. Powiedziałem przypuszczalnie, bo ten
+fragment prozy był wyrwany z kontekstu (a tak naprawdę wymyślony przeze mnie).
 
 **Implikacja w praktyce dowodzenia**: Żeby udowodnić w Lean zdanie `p → q`, trzeba udowodnić, że
 zdanie `q` (następnik) jest prawdziwe, *zakładając*, że zdanie `p` (poprzednik) jest prawdziwe,
-czyli w hipotetycznej sytuacji, w której `p` jest prawdziwe. No a w logice konstruktywnej to znaczy:
+czyli w hipotetycznej sytuacji, w której `p` jest prawdziwe. W logice konstruktywnej to znaczy:
 
 > Udowodnić zdanie *p → q* to znaczy podać sposób skonstruowania dowodu *q*, *zakładając*, że *p* ma
 > *jakiś* dowód.
 
-**Polecenie**: Napisz teraz w następnej linijce, pod skopiowanym wcześniej do Leana kodem
+**Polecenie**: Napisz teraz w następnej linijce, zaraz pod skopiowanym wcześniej do Leana kodem
 zaczynającym się od `theorem ...` a kończącym na `by`, komendę:
 
 `intro h`
@@ -651,16 +652,20 @@ h : a
 ⊢ a
 ```
 
-Mówiąc ogólnie, jeżeli aktualnym celem jest udowodnienie zdania o postaci *P → Q* (tutaj akurat `a → a`, 
-ale *P* i *Q* mogą być dowolnie złożonymi poprawnymi zdaniami), to instrukcja `intro` z
-argumentem `h` powoduje, że *wprowadzamy jako założenie hipotetyczny dowód* poprzednika implikacji
-*P → Q*, czyli wprowadzamy jako założenie hipotetyczny dowód zdania *P* (tutaj akurat dowód zdania
-"atomowego", czyli nie-złożonego, `a`), i oznaczamy ten hipotetyczny dowód wybranym do tego symbolem
-`h`, bo tak nam się podoba. Może przeczytaj ten fragment jeszcze raz.
+W ten sposób Lean pokazuje nam, co jeszcze musimy zrobić, żeby zakończyć dowód, a co już
+mamy. 
+
+Mówiąc ogólnie, jeżeli aktualnym celem w trybie interaktywnym jest udowodnienie zdania o postaci *P
+→ Q* (tutaj akurat `a → a`, ale *P* i *Q* mogą być dowolnie złożonymi poprawnymi zdaniami), to
+`intro` z argumentem `h` powoduje, że *wprowadzamy jako założenie hipotetyczny dowód* poprzednika
+implikacji *P → Q*, czyli wprowadzamy jako założenie hipotetyczny dowód zdania *P* (tutaj akurat
+dowód zdania "atomowego", czyli nie-złożonego, `a`), i oznaczamy ten hipotetyczny dowód wybranym do
+tego symbolem `h`, bo tak nam się podoba. Jeżeli coś, co mamy, już ma nazę *h*, to musimy wybrać
+inną. Może przeczytaj ten fragment jeszcze raz.
 
 **Uwaga na temat taktyk**: `intro` jest tak zwaną *taktyką*, to znaczy operacją, której możemy
-używać *tylko* w trybie dowodzenia interaktywnego (a ogólniej interaktywnego konstruowania dowolnych
-termów określonego typu),
+używać *tylko* w trybie interaktywnym (ogólnie, do interaktywnego konstruowania dowolnych termów
+określonego typu),
 
 OSOBLIWA MAGIA IZOMORFIZMU CURRY'EGO-HOWARDA: Mówiąc ogólnie, jeżeli p to zdanie, czyli jeżeli:
 
