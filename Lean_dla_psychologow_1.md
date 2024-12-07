@@ -317,7 +317,7 @@ najbardziej "wewnętrznych" aplikacji (jeżeli w ogóle jakieś są).
 poniżej?
 
 ```lean
-suma Nat.succ 2 3
+#eval suma Nat.succ 2 3
 ```
 
 Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest tutaj jednak *funkcją*
