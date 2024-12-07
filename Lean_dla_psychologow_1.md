@@ -663,8 +663,9 @@ Mówiąc ogólnie, jeżeli aktualnym celem w trybie interaktywnym jest udowodnie
 `intro` z argumentem `h` powoduje, że *wprowadzamy jako założenie hipotetyczny dowód* poprzednika
 implikacji *P → Q*, czyli wprowadzamy jako założenie hipotetyczny dowód zdania *P* (tutaj akurat
 dowód zdania "atomowego", czyli nie-złożonego, `a`), i oznaczamy ten hipotetyczny dowód wybranym do
-tego symbolem `h`, bo tak nam się podoba. Jeżeli coś, co mamy, już ma nazę *h*, to musimy wybrać
-inną. Może przeczytaj ten fragment jeszcze raz.
+tego symbolem `h` (bo tak nam się podoba). Jeżeli coś, co mamy, już ma tą samą nazwę, to musimy
+wybrać inną, bo nazwy zmiennych występujących w kontekście muszą być unikalne. Może przeczytaj ten
+fragment jeszcze raz.
 
 **Uwaga na temat taktyk**: `intro` jest tak zwaną *taktyką*, to znaczy operacją, której możemy
 używać *tylko* w trybie interaktywnym (ogólnie, do interaktywnego konstruowania dowolnych termów
