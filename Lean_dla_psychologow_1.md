@@ -134,9 +134,8 @@ wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży s
 w takich twierdzeniach?
 
 Twierdzenie Bayesa odgrywa ważną rolę w psychologii - poznawczej i nie tylko - jak również w
-rozważaniach na temat nauk empirycznych w ogóle, jednak nie będzie nas ono na razie interesowało.
-
-Będziemy robić tego typu rzeczy, ale nie na kartce.
+rozważaniach na temat nauk empirycznych w ogóle, jednak nie będzie nas ono na razie
+interesowało. Będziemy robić podobne rzeczy, ale nie na kartce.
 
 # Funkcje, programy, i implikacja
 
