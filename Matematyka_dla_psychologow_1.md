@@ -371,7 +371,7 @@ to jedno, a
 
 to co innego, zresztą 
 
-*Myślę, że jeżeli dzisiaj pada deszcz, to jutro nie będzie występował opad atmosferyczny"
+*Myślę, że jeżeli dzisiaj pada deszcz, to jutro nie będzie występował opad atmosferyczny*
 
 też może znaczyć, przynajmniej w niektórych sytuacjach, jeszcze co innego. W szczególności, ludzie,
 którzy jeszcze nie słyszeli wyrażenia "opad atmosferyczny" i sami go nie zdążyli wymyślić *nie są w
