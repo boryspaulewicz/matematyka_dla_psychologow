@@ -557,6 +557,6 @@ rozmaitych definicjach i rozumowaniach rozbierając je na części.
 I jeszcze taka niespodzianka, że mieliśmy od początku duży kwantyfikator, tylko nam się to nie dość
 mocno rzucało w oczy.
 
-I taka bardzo cenna lekcja: *Dowody*, a w ogóle *jakiekolwiek rozumowania*, czasem warto
+I taka bardzo cenna lekcja: *Dowody*, a ogólnie *jakiekolwiek rozumowania*, czasem warto
 *konstruować* lub *analizować* od *końca*, czyli zaczynając od *wniosku* (albo celu). Bywa, że
 oszczędza się w ten sposób sporo czasu.
