@@ -12,3 +12,5 @@ powtórek.
 [Matematyka dla psychologów 1 - wersja przegadana](./Lean_dla_psychologow_1.md)
 
 [Matematyka dla psychologów 1 - wersja zwięzła](./Lean_dla_psychologow_1z.md)
+
+[Predykaty, relacja i dowód na istnienie Boga](./Matematyka_dla_psychologow_1.md)
