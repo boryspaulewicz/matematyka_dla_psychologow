@@ -13,4 +13,4 @@ powtórek.
 
 [Matematyka dla psychologów 1 - wersja zwięzła](./Lean_dla_psychologow_1z.md)
 
-[Predykaty, relacje i dowód na istnienie Boga](./Matematyka_dla_psychologow_1.md)
+[Predykaty, relacje, duży kwantyfikator i dowód na istnienie Boga](./Matematyka_dla_psychologow_1.md)
