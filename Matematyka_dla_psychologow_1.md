@@ -519,7 +519,7 @@ theorem Anzelm (c1 : Cos) ...
 
 Widzisz, jak *dla każdego* odpowiada naturalnie argumentom typów nie-zdaniowych, tutaj akurat `c1` i
 `c2`, gdzie oba mają typ `Cos`, a *jeżeli ...*  odpowiada argumentom typów zdaniowych (tutaj akurat
-`Zmyslone c1` i `Zmyslone c2`)? Fajnie, ale mamy inny problem. Żeby posługiwać się pojęciem
+`Realne c1` i `Zmyslone c2`)? Fajnie, ale mamy inny problem. Żeby posługiwać się pojęciem
 sprzeczności potrzebujemy pojęcia *negacji*. O tym będzie w następnym odcinku.
 
 **Co jeszcze by tu można**: Fragmenty dowodu Anzelma można by próbować zakodować używając bogatszego
