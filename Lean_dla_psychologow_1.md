@@ -165,16 +165,16 @@ Twierdzenie Bayesa odgrywa ważną rolę w psychologii - poznawczej i nie tylko 
 ogólnych rozważaniach na temat oceny hipotez empirycznych, jednak nie będzie nas ono na razie
 interesowało. Będziemy robić podobne rzeczy, ale nie na kartce.
 
-# Funkcje, programy, i implikacja
+# Funkcje, programy i implikacja
 
 W tej części mówię dużo o funkcjach rozumianych jako efektywne procedury obliczeniowe (albo po
 prostu programy, procedury, czy algorytmy) i o implikacji (w logice). Mam powody, żeby od tego
 zacząć, ale trudno mi je dobrze wyjaśnić już teraz, bo nie mogę zakładać, że wiesz o pewnych
-sprawach, bez znajomości których moje wyjaśnienia byłyby pewnie niezrozumiałe, nieprzekonywujące, a
-może nawet onieśmielające (cel jest ambitny).
+sprawach, bez znajomości których moje wyjaśnienia byłyby pewnie niezrozumiałe, nieprzekonujące, a
+może nawet onieśmielające (cel jest dość ambitny).
 
 Może powiem tak: Istnieje sposób, żeby jednocześnie uczyć się podstaw matematyki, programowania,
-formalizowania treści wyrażonych w języku naturalnym, i konstruowania dowodów matematycznych, a
+formalizowania treści wyrażonych w języku naturalnym i konstruowania dowodów matematycznych, a
 wszystko to w interakcji z programem, który w tym pomaga. Żeby skorzystać z tego sposobu, trzeba się
 *cierpliwie przyzwyczajać* do *nowego sposobu myślenia*, polegającego na patrzeniu na funkcje,
 programy i implikacje jako na jedno i to samo.
@@ -187,7 +187,7 @@ https://live.lean-lang.org
 
 Rozpoczniesz w ten sposób interaktywną sesję z asystentem dowodzenia Lean. Będziesz pisać w oknie po
 lewej i czasem zaglądać do okna po prawej. Żeby stworzyć w Lean proces dodający dwie liczby
-naturalne możemy napisać tak (**Polecenie**: wklej poniższy kod do lewego okna Leana - wystarczy
+naturalne możemy napisać tak (**Polecenie**: wklej poniższy kod do lewego okna Lean'a - wystarczy
 kliknąć w ikonę kopiowania widoczną poniżej z prawej strony):
 
 ```lean
@@ -201,10 +201,10 @@ typie:
 > rezultat też jest typu `Nat` (`: Nat`).
 
 A więc wszystko między symbolem `suma` a symbolem definiowania `:=` to określenie *typu*, a nie
-treści, definicji stałej `suma`.
+treści, jeszcze lepiej *ciała*, definicji stałej `suma`.
 
-**Czytamy dalej**: Ten term konstruuję / definiuję jako (`:=`) zastosowanie funkcji dodawania (bo to
-też jest pewna funkcja!) do pierwszego i drugiego parametru, które to parametry nazwałem/am `n` i
+**Czytamy dalej**: Ten term konstruuję / definiuję jako (`:=`) zastosowanie funkcji dodawania - bo
+to też jest pewna funkcja - do pierwszego i drugiego parametru, które to parametry nazwałem/am `n` i
 `m`, bo tak mi się podobało.
 
 Nazwy parametrów funkcji nie mają znaczenia w tym sensie, że na przykład taka oto alternatywna
@@ -312,9 +312,10 @@ znaczenia i istnieją tylko dla wygody użytkownika.
 
 Za to *typy* wejść i *typ* wyjścia (funkcja ma zawsze tylko jedno wyjście) *mają* znaczenie. Nie
 możemy podawać na wejściu funkcji dodającej liczby czegokolwiek - to muszą być wyrażenia typu liczba
-(tutaj akurat wymagamy liczb naturalnych), i tak też mówi nasza definicja. Jeżeli podamy na wejściu
-dwa wyrażenia typu liczba naturalna, to na wyjściu pojawi się liczba naturalna. To będzie wynik
-dodawania wejść, bo tak jest skonstruowana zawartość pudełka o nazwie *suma*.
+(tutaj akurat wymagamy liczb naturalnych) i tak też mówi nasza definicja. Jeżeli podamy na wejściu
+dwa wyrażenia typu liczba naturalna, to na wyjściu pojawi się (gdy wymusimy ewaluację) liczba
+naturalna. To będzie wynik dodawania wejść, bo tak jest skonstruowana zawartość pudełka o nazwie
+*suma*.
 
 **Bardziej skomplikowany przykład ewaluacji aplikacji**: Myślę, że domyślasz się już, dlaczego jest
 poprawny i jak jest ewaluowany poniższy (dziwaczny, wiem) fragment kodu. Przypominam, że `Nat.succ`
@@ -325,11 +326,11 @@ to funkcja następnika. Ta funkcja dla każdej liczby naturalnej daje następną
 #eval suma (Nat.succ (Nat.succ 3)) (6 - (2 + Nat.zero))
 ```
 
-Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji argumentów, które same są aplikacjami, i to
-czasem aplikacjami pewnych funkcji (`Nat.succ` i `-`) do rezultatów aplikacji pewnych funkcji
-(`Nat.succ` aplikowane do rezultatu aplikacji `Nat.succ` do termu `3` i funkcja `-` aplikowana do
-termu `6` i rezultatu aplikacji funkcji `+`). Zwracam uwagę, że w tym kontekście `+` i `-` też
-oznaczają pewne (dwuarguentowe) funkcje, tylko zapisane w *notacji infiksowej*:
+Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji argumentów, które same są aplikacjami, w
+dodatku czasem aplikacjami pewnych funkcji (`Nat.succ` i `-`) *do rezultatów aplikacji* pewnych
+funkcji (`Nat.succ` aplikowane do rezultatu aplikacji `Nat.succ` do termu `3` i funkcja `-`
+aplikowana do termu `6` i rezultatu aplikacji funkcji `+`). Zwracam uwagę, że w tym kontekście `+` i
+`-` też oznaczają pewne (dwuarguentowe) funkcje, tylko zapisane w *notacji infiksowej*:
 
 `argument1 funkcja argument2`, na przykład `1 + 2`
 
@@ -380,13 +381,14 @@ m`).
 przekonać, że `suma` to tak naprawdę funkcja, która przekształca dowolną liczbę naturalną w funkcję,
 która z kolei przekształca dowolną liczbę naturalną w liczbę naturalną.
 
-## Typy to też termy, a zdania to jednocześnie termy typu `Prop` i typy, których termy są ich dowodami
+## Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami
 
 Stała `2` jest termem typu `Nat`. `Nat` jest tylko zapisem albo etykietą, niczym więcej, którą
 możemy konsekwentnie interpretować jako oznaczającą typ liczb naturalnych, ponieważ Lean dostarcza
 taką a nie inną funkcjonalność dla termów typu `Nat`. W teorii typów której używamy w Lean każdy typ
-jest również termem, ale typu ogólnijszego, i tak w nieskończoność (jak skopiujesz ten kod, to gdy
-kursor będzie nad `#check` zobaczysz po prawej to, co jest zapisane jako komentarz po znakach `--`):
+jest również termem, ale typu ogólniejszego, i tak w nieskończoność (jak skopiujesz ten kod, to gdy
+kursor będzie nad `#check`, zobaczysz po prawej to, co jest zapisane jako komentarz po znakach
+`--`):
 
 ```lean
 #check 2 -- 2 : Nat
@@ -394,10 +396,12 @@ kursor będzie nad `#check` zobaczysz po prawej to, co jest zapisane jako koment
 #check Nat -- Nat : Type
 
 #check Type -- Type : Type 1
+
+#check Type 1 -- Type 1 : Type 2
 ```
 
-Te typy wyższych rzędów są potrzebne tylko z (dość nudnych) powodów technicznych (może słyszała/eś o
-paradoksie Russella? Chodzi o coś zbliżonego). 
+i tak dalej... Te typy wyższych rzędów są potrzebne tylko z pewnych (dość nudnych) powodów
+technicznych (może słyszała/eś o paradoksie Russella? Chodzi o coś zbliżonego).
 
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny, będący skrótem od
 angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
@@ -420,8 +424,9 @@ przyglądać.
 
 W praktyce izomorfizm Curry'ego-Howarda oznacza, że możemy kodować, to jest zapisywać w języku
 teorii typów w sposób dający się konsekwentnie interpretować w zamierzony sposób, matematyczne
-pojęcia, struktury i zdania jako *typy*, i że termy typów zdaniowych możemy konsekwentnie traktować
-jak dowody. Dzięki temu zaciera się, a czasem znika, różnica między matematyką i programowaniem.
+pojęcia, struktury i zdania jako *typy* i że termy typów zdaniowych możemy konsekwentnie traktować
+jak dowody. Dzięki temu zaciera się, a czasem całkiem znika, różnica między matematyką i
+programowaniem.
 
 **(De)Motywator**: Że dowód jest termem o typie, który jest zdaniem, którego to zdania ten term
 dowodzi (*uff*), to jest jedna z tych początkowo dezorientujących konwencji, do których trzeba się
@@ -429,15 +434,15 @@ po prostu stopniowo przyzwyczaić. Gdy to już do pewnego stopnia nastąpi, ta a
 Ci zobaczyć *całą* matematykę w nowy sposób.
 
 Jedną z wielu zalet tego punktu widzenia jest i ta, że można wtedy uprawiać matematykę albo tylko
-uczyć się jej w interakcji z programem wspomagającym konstruowanie pojęć, teorii i dowodów
-matematycznych, czyli z asystentem dowodzenia, takim jak Lean. Można mieć wtedy nie tylko pewność,
-że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale też można korzystać
-z rozmaitych ułatwień, jakie oferuje dany asystent.
+uczyć się jej w interakcji z programem wspomagającym konstruowanie pojęć, teorii, własnej notacji i
+dowodów matematycznych, czyli z asystentem dowodzenia, takim jak Lean. Można mieć wtedy nie tylko
+pewność, że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale też można
+korzystać z rozmaitych ułatwień, jakie oferuje dany asystent.
 
 ## O logice w Lean
 
-**Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym odróżnianiem (i przełączaniem
-się czasem między odpowiadającymi tym różnicom punktami widzenia):
+**Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym *odróżnianiem* (i elastycznym
+*przełączaniem* się między odpowiadającymi następującym różnicom punktami widzenia):
 
 1. Dowolnych zdań *jako takich*, a więc niekoniecznie prawdziwych, od...
 
@@ -474,8 +479,9 @@ Co więc wyróżnia język matematyki, poza *relatywną sztucznością*, która 
 Nie jestem pewien, ale gdybym miał zgadywać, powiedziałbym, że jest to *jednoznaczność i sztywność
 reguł użycia*. I jeszcze to, że chociaż pojęcia matematyczne często mają genezę w pojęciach często
 używanych w języku naturalnym, to zwykle stanowią ich wersję bardzo uproszczoną do kilku dobrze
-określonych własności. Te własności są wyrażane na przykład jako aksjomaty, czyli konwencje
-dotyczące dopuszczalnych sposobów używania pojęć.
+określonych właściwości. Te są wyrażane czasem jako aksjomaty, czyli podawane bez uzasadnienia
+formalnego (za to zwykle z uzasadnieniem w języku naturalnym) konwencje dotyczące dopuszczalnych
+sposobów używania pojęć.
 
 W ten sposób - odzierając pojęcia (na przykład, pojęcia zdania, prawdy i fałszu) ze zbędnych dla
 dobrze określonych celów znaczeń (na przykład, dla celu analizy w pewien techniczny sposób
@@ -507,11 +513,12 @@ jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili
 jasne, którą interpretację stosujemy i gdyby *jednocześnie* ta różnica w dopuszczalnych
 interpretacjach miała znaczenie dla poprawności wniosków.
 
-**Terminologia ogólna**: W matematyce *unikalne* znaczy zwykle *dokładnie jedno danego rodzaju*, a
-*nie* dokładnie jedno *tak w ogóle*. Na przykład, w przypadku implikacji dostajemy dokładnie jedno
-zdanie powstające w taki a nie inny sposób z każdej określonej pary zdań. Podobnie dodawanie (*+*)
-to operacja na liczbach, która z dwóch dowolnych, niekoniecznie różnych liczb, na przykład *2* i
-*2*, robi jedną unikalną liczbę, w tym wypadku *4*. Możemy też powiedzieć, że zdanie w postaci
+**Terminologia ogólna**: W matematyce *unikalne* znaczy zwykle *dokładnie jedno danego rodzaju*. I
+tak, w przypadku implikacji otrzymujemy unikalne zdanie powstające w taki a nie inny sposób z każdej
+określonej pary zdań. Podobnie dodawanie (*+*) to operacja na liczbach, która z dwóch dowolnych,
+niekoniecznie różnych liczb, na przykład *2* i *2*, robi unikalną liczbę, w tym wypadku *4*. Ten
+wynik jest w przyjętym znaczeniu unikalny, chociaż dodawanie nieskończenie wielu innych par liczb
+(na przykład całkowitych) daje taki sam rezultat. Możemy też powiedzieć, że zdanie w postaci
 implikacji jest *funkcją* uporządkowanej (bo liczy się, które zdanie będzie traktowane jako
 poprzednik, a które jako następnik implikacji) pary zdań.
 
@@ -527,14 +534,15 @@ matematyki: ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych j
 
 Coś takiego będziemy właśnie robić, to znaczy, będziemy grać w grę polegającą na konstruowaniu
 dowodów, bo będziemy *całkowicie* formalizować każdy problem. Będziemy więc używać matematyki w
-sposób *bardziej formalny* niż ma to zwykle miejsce nawet w najbardziej zaawansowanych podręcznikach
+sposób *bardziej* formalny niż ma to zwykle miejsce nawet w najbardziej zaawansowanych podręcznikach
 do matematyki. Matematycy tak zwykle *nie* postępują, bo im się nie chce i (zwykle) nie muszą;
 zamiast tego polegają na domyślności kompetentnego odbiorcy. My nie chcemy się musieć niczego
-domyślać, bo nie jesteśmy tak kompetentni jak zawodowi matematycy. 
+domyślać, bo nie jesteśmy tak kompetentni jak zawodowi matematycy. Jesteśmy tylko, i aż,
+psychologami.
 
 Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam czasem (jednak nie
 oszukujmy się, nie zawsze) *łatwiej*. Przede wszystkim zaś wszystko, co napiszemy, będzie
-*sprawdzone przez algorytm, który zawsze da nam odpowiedź, czy wszystko, co napisaliśmy, jest
+*sprawdzone przez algorytm, który zawsze da nam odpowiedź, czy to, co napisaliśmy, jest
 matematycznie poprawne*. Będziemy więc w pewnym sensie "zawsze bezpieczni" w swoich
 (sformalizowanych) rozważaniach.
 
@@ -568,7 +576,7 @@ int x;
 *C* jest wspaniałym językiem, do pewnych zastosowań sprawdza się znakomicie, ale w porównaniu do
 Lean'a *C* jest językiem dosyć prymitywnym i mało ekspresyjnym. Siła ekspresji języka Lean jest tak
 duża, że można w nim zakodować we względnie naturalny sposób wszelkiego rodzaju treści matematyczne!
-Chcę przez to powiedziec, że moim zdaniem jesteś wart/a Leana.
+Chcę przez to powiedziec, że moim zdaniem jesteś wart/a Lean'a.
 
 W języku Lean możemy wyrazić (prawie) to samo, co `int x` wyraża w języku *C*, czyli, że zmienna `x`
 jest (jakąś) liczbą całkowitą, pisząc (ale nie pisz tego teraz w Lean, to tylko przykład):
@@ -589,7 +597,7 @@ Niebawem udowodnimy takie oto zdanie:
 
 To zdanie jest trywialne i trywialnie prawdziwe, ale w matematyce nawet trywialne prawdy wymagają
 (zwykle) dowodu. Nadamy naszemu dowodowi nazwę i ten nazwany dowód razem z jego nazwą i zdaniem,
-którego dowodzi, staną się jedną strukturą - matematycznym twierdzeniem. Uprzedzam, że chociaż
+którego dowodzi, staną się jedną strukturą - matematycznym *twierdzeniem*. Uprzedzam, że chociaż
 zdanie *Jeżeli a, to a* jest w oczywisty sposób zawsze prawdziwe, a jego dowód jest bardzo prosty,
 to i tak wykonując to zadanie po raz pierwszy prawdopodobnie zdążysz się co najmniej raz poczuć
 zagubiony/a.
@@ -604,12 +612,14 @@ najczęściej wykładana w wersji tak zwanej *klasycznej*, w której prawdą jes
 
 Jak również:
 
-Dla każdego zdania *p*, jeżeli nieprawda, że nieprawda, że *p*, to *p* (inne zdanie prawdziwe w logice klasycznej)
+*Dla każdego zdania *p*, jeżeli nieprawda, że nieprawda, że *p*, to *p* * (inne zdanie prawdziwe w
+logice klasycznej)
 
-W Lean domyślnie (można to zmienić, ale nie będziemy tego na razie robić) używamy logiki
+W Lean domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
 *konstruktywnej*, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w
 tym sensie, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice klasycznej
-(mówimy, że jest *słabsza*), ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
+(o ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że są *słabsze*),
+ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
 
 *Zdanie prawdziwe znaczy to samo co zdanie udowodnione.* (dopuszczalna interpretacja prawdy w logice
 konstruktywnej)
@@ -657,12 +667,14 @@ to *definiujemy raz na zawsze* stałą `n` o typie `Nat` *powiadamiając* Lean, 
 `n` znaczy `10`. Symbol `:=` oznacza więc w Lean *operację definiowania*, która jest niczym innym
 jak naszym *wyborem językowym*. Jeżeli natomiast piszemy (nie pisz tego w Lean) na przykład `n =
 10`, gdzie znak `=` występuje bez poprzedzającego dwukropka, to *tworzymy zdanie*, którego *treścią*
-jest "*n jest równe 10*", i to zdanie może być w danym kontekście prawdziwe (w logice
-konstruktywnej: udowodnione), fałszywe (w logice konstruktywnej: istnieje dowód jego negacji), albo
-może mieć nieokreślony status pod względem prawdziwości. Nawet, gdy zdefiniujemy `n` jako stałą o
-wartości `10`, to zdanie `n = 10` będzie wymagało w Lean udowodnienia, żeby można je było uznać za
-prawdziwe! Ten dowód jest bardzo prosty, bo polega jedynie na tak zwanym *rozpakowaniu* albo
-*zastosowaniu definicji* zmiennej `n`, ale nadal jest to dowód.
+jest "*n jest równe 10*" i to zdanie może być w danym kontekście prawdziwe (w logice konstruktywnej:
+udowodnione), fałszywe (w logice konstruktywnej: istnieje dowód jego negacji), albo może mieć
+nieokreślony status pod względem prawdziwości. 
+
+Nawet, gdy zdefiniujemy `n` jako stałą o wartości `10`, to zdanie `n = 10` będzie wymagało w Lean
+udowodnienia, żeby można je było uznać za prawdziwe!  Ten dowód jest bardzo prosty, bo polega
+jedynie na tak zwanym *rozpakowaniu* albo *zastosowaniu definicji* zmiennej `n`, ale nadal jest to
+dowód.
 
 **Wracamy do twierdzenia `t1`**: Słowo kluczowe `by` jest teraz podkreślone czerwoną falką, bo dowód
 jest rozpoczęty, ale nie jest jeszcze zakończony. Ponieważ pisząc `by` weszliśmy w *tryb dowodzenia
@@ -695,8 +707,8 @@ jakikolwiek sposób przekształca dowolny dowód zdania A w dowód zdania B.*
 Być może czytając powyższe zdanie wyobrażała/eś sobie, że ta funkcja / dowód przekształca dowód
 zdania *A* w jakiś sposób "zaglądając do środka" tego dowodu, albo w jakimś sensie polegając na
 własnościach struktury tego dowodu, na przykład rozbiera go na części, albo wykrywa coś w jego
-wnętrzu. Nie o to chodzi - ta funkcja / dowód ma dostarczyć dowód *B* korzystając z *bliżej
-nieokreślonego* dowodu *A*, a więc w zasadzie z *samego faktu istnienia* dowodu *A*.
+wnętrzu. Nie o to chodzi. Ta funkcja / dowód ma dostarczyć dowód *B* korzystając z *bliżej
+nieokreślonego* dowodu *A*, a więc z samego *faktu istnienia* dowodu *A*.
 
 **Dygresja terminologiczna**: Symbol `⊢` to symbol derywacji albo wnioskowania albo konstruowania
 (różnie można na to patrzeć, więc też różnie można ten symbol nazywać).
@@ -711,7 +723,7 @@ kopiuj tego kodu, tylko może zastanów się nad nim przez chwilę:
 theorem najprosciej (a : Prop) : a → a := fun (x : a) => x
 ```
 
-A teraz jeszcze inny, ale podobny sposób, który może Ci na początku namieszać w głowie:
+A teraz jeszcze inny, ale podobny sposób, który może Ci na początku namieszać trochę w głowie:
 
 ```lean
 theorem najprosciej_ale_inaczej : (a : Prop) → a → a := fun (a : Prop) => fun (x : a) => x
@@ -728,13 +740,13 @@ wiadomo, czym są* wyrażenia `(x : a)` i `a → a` (bo `a` byłoby tak zwaną z
 przykład *typu zależnego* - `a → a` jest *typem, który zależy od / jest skonstruowany z / jest
 funkcją* argumentu `a`. Czegoś takiego nie można wyrazić wprost w językach takich jak *C* albo *R*.
 
-Jeżeli to jest niejasne, nie przejmuj się tym teraz - z czasem posługiwanie się typami zależnymi
-stanie się nie tylko jasne, ale wręcz naturalne, o ile będziesz cierpliwy/a. Może jednak to Ci choć
-trochę pomoże dostrzec naturalność typów zależnych: Przytoczony na początku tego skryptu fragment
-prozy matematycznej można traktować jako funkcję, która z dowolnych dwóch liczb naturalnych, które
-można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie jako po prostu
-prawdziwe, to jest bez dowodu. Powiedziałem przypuszczalnie, bo ten fragment prozy był wyrwany z
-kontekstu (a tak naprawdę wymyślony przeze mnie). 
+Jeżeli to jest niejasne, nie przejmuj się tym teraz. Z czasem posługiwanie się typami zależnymi
+stanie się nie tylko jasne, ale wręcz całkiem naturalne, o ile będziesz dość cierpliwy/a. Może
+jednak to Ci choć trochę pomoże dostrzec naturalność typów zależnych: Przytoczony na początku tego
+skryptu fragment prozy matematycznej można traktować jako funkcję, która z dowolnych dwóch liczb
+naturalnych, które można nazwać *m* i *n*, tworzy zdanie *n + m = m + n*, traktowane przypuszczalnie
+jako po prostu prawdziwe, to jest bez dowodu. Powiedziałem przypuszczalnie, bo ten fragment prozy
+był wyrwany z kontekstu (a tak naprawdę wymyślony przeze mnie).
 
 Pomijając kwestię statusu czy sensu zdania *n + m = m + n* w tym fragmencie, jest oczywiste, że to
 zdanie ma sens tylko w kontekście, w którym *n* i *m* oznaczają jakieś liczby. Gdybyśmy chcieli
@@ -762,16 +774,16 @@ się *m + n = n + m*.
 zdanie `q` (następnik) jest prawdziwe, *zakładając*, że zdanie `p` (poprzednik) jest prawdziwe,
 czyli w hipotetycznej sytuacji, w której `p` jest prawdziwe. W logice konstruktywnej to znaczy:
 
-> Udowodnić zdanie *p → q* to znaczy podać sposób skonstruowania dowodu *q*, *zakładając*, że *p* ma
-> *jakiś* dowód.
+*Udowodnić zdanie *p → q* to podać sposób skonstruowania dowodu *q*, *zakładając*, że *p* ma *jakiś*
+dowód*.
 
-**Polecenie**: Napisz teraz w następnej linijce, zaraz pod skopiowanym wcześniej do Leana kodem
-zaczynającym się od `theorem ...` a kończącym na `by`, komendę:
+**Polecenie**: Napisz teraz w następnej linijce, zaraz pod skopiowanym wcześniej do Lean'a kodem
+zaczynającym się od `theorem ...`, a kończącym na `by`, komendę:
 
 `intro h`
 
 Jeżeli przesuniesz kursor *za* wpisaną właśnie komendę `intro h`, to w prawym oknie zobaczysz, że
-*stan dowodu uległ zmianie* i wygląda teraz tak:
+*stan dowodu uległ zmianie*:
 
 ```lean
 1 goal
@@ -780,7 +792,8 @@ h : a
 ⊢ a
 ```
 
-W ten sposób Lean pokazuje nam, co już mamy, a co jeszcze musimy zrobić, żeby zakończyć dowód.
+W ten sposób Lean pokazuje nam, co *mamy* (nad symbolem `⊢`) i jeszcze musimy *zrobić* (za tym
+symbolem), żeby zakończyć dowód.
 
 Mówiąc ogólnie, jeżeli aktualnym celem w trybie interaktywnym jest udowodnienie zdania o postaci *P
 → Q* (tutaj akurat `a → a`, ale *P* i *Q* mogą być dowolnie złożonymi poprawnymi zdaniami), to
@@ -795,11 +808,11 @@ właśnie kontekst) muszą być unikalne. Może przeczytaj cały ten fragment je
 używać *tylko* w trybie interaktywnym (ogólnie, do interaktywnego konstruowania dowolnych termów
 określonego typu, ale tutaj akurat konstruujemy dowód zdania).
 
-Wprowadzając a jako założenie, a dokładniej zakładając, że a ma *jakiś* dowód i to *posiadanie
+Wprowadzając `a` jako założenie, a dokładniej zakładając, że `a` ma *jakiś* dowód i to *posiadanie
 jakiegoś dowodu* przyjmując jako założenie `h`, sprawiliśmy, że poprzednik implikacji `a → a`, a
 ściślej (hipotetyczny) dowód tego poprzednika, "wskoczył na górę" jako coś, co zakładamy, że mamy, a
-przez to to, co mamy skonstruować, czyli cel, *uprościł się* do samego następnika (tutaj `a`). Mamy
-więc teraz prostszy cel i więcej środków, żeby go udowodnić!
+przez to to, co mamy skonstruować, czyli cel, *uprościło się* do samego następnika (tutaj `a`). Mamy
+więc prostszy cel i więcej środków, żeby go udowodnić!
 
 **Polecenie**: Ten dowód możesz zakończyć natychmiast, używając wprost dostępnego w tym momencie
 (hipotetycznego) dowodu zdania `a`, bo *to zdanie jest takie samo jak jedyny cel*. Żeby to osiągnąć,
@@ -812,29 +825,31 @@ oknie powinien wyglądać tak:
 
 `No goals`
 
-Mówimy czasem w takich sytuacjach, że cel został "usunięty", albo "zniszczony", albo
-"zanihilowany", albo "unicestwiony", i to jest moim zdaniem piękne (jak również "formalne" w
-swojej mechanicznej wymowie). 
+Mówimy czasem w takich sytuacjach, że cel został "usunięty", albo "zniszczony", albo "zanihilowany",
+albo "unicestwiony" i to jest moim zdaniem piękne (jak również "formalne" w swojej mechanicznej
+wymowie).
 
 Udało Ci się właśnie udowodnić, dla arbitralnego, czyli dowolnego zdania `a`, twierdzenie `a → a` o
 nazwie `t1`, używając jednocześnie logiki konstruktywnej (inaczej intuicjonistycznej), teorii typów
-zależnych, izomorfizmu Curry'ego-Howarda, i prawdopodobnie nie znanego Ci w ogóle wcześniej języka
+zależnych, izomorfizmu Curry'ego-Howarda i prawdopodobnie nie znanego Ci w ogóle wcześniej języka
 programowania Lean. Możesz się pochwalić znajomym, rodzinie, czy przypadkowo spotkanym osobom.
 
-Jeszcze raz, ale inaczej, objaśnie, co się właśnie stało: Pisząc `by` weszłaś/wszedłeś w tryb
+**Jeszcze raz, ale inaczej, objaśnie, co się właśnie stało**: Pisząc `by` weszłaś/wszedłeś w tryb
 interaktywny konstruowania termu. Ponieważ typem konstruowanego termu był `a → a`, gdzie `a` było
 zdaniem, zacząłeś/aś w ten sposób konstruować dowód zdania `a → a`. Wpisując komendę `intro h`
 przyjąłeś/aś założenie, że `a` ma jakiś dowód (`h`) i zakładając to udowodniła/eś `a` w najprostszy
 możliwy sposób - przytaczając ten dowód (`exact h`, czyli dokładnie `h` jest rozwiązaniem / dowodem
-/ termem typu, który jest celem). 
+/ termem typu, który jest celem).
 
-Ale przecież dowodzenie jest programowaniem! Można również powiedzieć, że skutkiem komendy `intro h`
-było *rozpoczęcie konstruowania anonimowej funkcji* (tak zwanej λ-abstrakcji) - `fun (h : a) =>`
-... - a skutkiem komendy `exact h` było zdefiniowanie ciała tej funkcji jako "dokładnie" albo "po
-prostu" `h`, czyli ostatecznie dowód polegał na interaktywnej konstrukcji anonimowej funkcji `fun
-(h : a) => h`. Co robi ta funkcja? Pobiera dowolny dowód `a` i go zwraca. Istnienie tej funkcji jest
-jakby "ucieleśnieniem" (trywialnego) "faktu", że jeśli `a` ma dowód, to `a` na dowód. W logice
-konstruktywnej to właśnie znaczy Jeżeli *a*, to *a*.
+Ale przecież dowodzenie jest programowaniem! Dlatego można też powiedzieć, że skutkiem komendy
+`intro h` było *rozpoczęcie konstruowania anonimowej funkcji* (tak zwanej *λ-abstrakcji*) - `fun
+(h : a) =>` ... - a skutkiem komendy `exact h` było zdefiniowanie ciała tej funkcji jako "dokładnie"
+albo "po prostu" `h`, czyli ostatecznie dowód polegał na interaktywnej konstrukcji anonimowej
+funkcji `fun (h : a) => h`. 
+
+Co robi ta funkcja? Pobiera dowolny dowód `a` i go zwraca. Istnienie tej funkcji jest jakby
+"ucieleśnieniem" (trywialnego) faktu, że jeśli `a` ma dowód, to `a` na dowód. W logice
+konstruktywnej to właśnie znaczy *Jeżeli *a*, to *a*.*
 
 Dowód, który skonstruowaliśmy za pomocą taktyk w trybie interaktywnym jest więc taki sam, jak ten,
 który możemy zdefiniować wprost pisząc:
@@ -844,18 +859,18 @@ theorem t1 (a : Prop) : a → a := fun (h : a) => h
 ```
 
 Można to przeczytać również tak: dla każdego dowodu `h` zdania `a`, zracam / mam / można stworzyć /
-istnieje dowód `a`, i jest nim `h`.
+istnieje dowód `a` i jest nim `h`.
 
 **Zadanie do samodzielnego rozwiązania**: Spróbuj teraz samodzielnie dokończyć dowód następującego
 twierdzenia, kopiując najpierw poniższy fragment kodu. Gdy poczujesz się zagubiona/y, zaglądaj
 czasem do okna po prawej, albo do wcześniejszych fragmentów tego skryptu. Albo weź głęboki oddech,
 albo zrób sobie krótką albo dłuższą przerwę. To są sprawy wielkiej wagi, a w sprawach wielkiej wagi
-zwykle nie należy się spieszyć. 
+zwykle nie należy się spieszyć.
 
 Najpierw spróbuj bez podpowiedzi, a jak poczujesz, że to jednak za trudne (co by mnie wcale nie
 zdziwiło), zerknij poniżej, znajdziesz tam pomoc. Jeżeli chcesz skorzystać z podpowiedzi, za każdym
 razem spróbuj "wygrać w tą grę" zaglądając tylko do jednej podpowiedzi, z której jeszcze nie
-skorzytałe/aś. 
+skorzystałaś/eś.
 
 ```lean
 theorem t2 (p : Prop) (q : Prop) : p → q → p := by
@@ -864,13 +879,13 @@ theorem t2 (p : Prop) (q : Prop) : p → q → p := by
 **Podpowiedź**: Trzeba dwa razy użyć taktyki `intro`, w dodatku jeden raz "jakby
 niepotrzebnie". Trzeba też uważać z nazwami podanymi jako argumenty dla `intro`, bo nie mogą się
 powtarzać w tym samym kontekście (przypominam, w trybie interaktywnym kontekst widać jako listę
-deklaracji nad znakiem `⊢`). Skutek zastosowania taktyki zobaczysz z prawej tylko jeżeli kursor
-będzie się znajdował za końcem komendy użycia tej taktyki.
+deklaracji nad znakiem `⊢`). Skutek zastosowania taktyki zobaczysz z prawej jeżeli kursor będzie się
+znajdował za końcem komendy użycia tej taktyki.
 
 **Podpowiedź**: Taktyki `intro` trzeba użyć za każdym razem w nowej linijce, albo w tej samej, ale
 oddzielając oba użycia symbolem `;`. W ramach tego samego dowodu trzeba zwykle wybierać inną nazwę
 dla każdego nowego wprowadzanego (`intro` to skrót od *introduction*) założenia, na przykład
-najpierw nazwę `h1`, a następnie nazwę `h2`, albo najpierw nazwę `jas`, a potem `malgosia`. Dobrze
+najpierw nazwę `h1`, a następnie nazwę `h2`, albo najpierw nazwę `Jas`, a potem `Malgosia`. Dobrze
 jest stosować jakąś prostą, spójną konwencję w wymyślaniu nazw.
 
 **Podpowiedź**: Na końcu trzeba będzie użyć taktyki `exact` z odpowiednim argumentem. Nie podpowiem
@@ -882,13 +897,14 @@ unicestwienia (jeżeli wprowadziłeś oba założenia tej podwójnej implikacji)
 **Nie czytaj, jeżeli jeszcze nie rozwiązałeś ostatniego zadania**: Co tu się stało? Nie powiedziałem
 tego wcześniej, ale `p → q → p` to tak naprawdę `p → (q → p)`. Nawiasy muszą tu być, nawet, gdy są
 niejawne, bo `→` jest operatorem dwuargumentowym, więc bez przyjęcia jakiejś konwencji dotyczącej
-nawiasów `p → q → p` jest niejednoznaczne. No więc celem jest `p → (q → p)`. Jeżeli celem jest
-implikacja, a `p → (q → p)` jest implikacją z poprzednikiem `p` i następnikiem `(q → p)`, to
-odowodnienie jej polega na skonstruowaniu dowodu następnika, czyli `(q → p)`, zakładając dowód
-poprzednika, czyli dowód `p`. Zakładamy, że mamy `h1 : p` i od tego momentu mamy nowy, prostszy
-cel - `(q → p)`. Żeby osiągnąć ten cel zakładamy `h2 : q` i próbujemy udowodnić / unicestwić nowy
-cel `p`. Ale to już mamy jako `h1 : p`, a więc z tego korzystamy przytaczając ten dowód `p`
-dosłownie. Teraz nie ma już więcej celów, czyli dowód jest zakończony.
+nawiasów `p → q → p` jest wyrażeniem w sposób problematyczny niejednoznacznym. 
+
+No więc celem jest `p → (q → p)`. Jeżeli celem jest implikacja, a `p → (q → p)` jest implikacją z
+poprzednikiem `p` i następnikiem `(q → p)`, to odowodnienie jej polega na skonstruowaniu dowodu
+następnika, czyli `(q → p)`, zakładając dowód poprzednika, czyli dowód `p`. Zakładamy, że mamy `h1 :
+p` i od tego momentu mamy nowy, prostszy cel, `(q → p)`. Żeby osiągnąć ten cel zakładamy `h2 : q` i
+próbujemy udowodnić / unicestwić nowy cel `p`. Ale to już mamy jako `h1 : p`, a więc przytaczamy
+dowód `h1` dosłownie (`exact h1`). Nie ma więcej celów, czyli dowód jest skonstruowany / zakończony.
 
 Ten sam dowód moglibyśmy zdefiniować wprost w ten sposób:
 
@@ -897,7 +913,7 @@ theorem t2 (p : Prop) (q : Prop) : p → q → p := fun (h1 : p) => fun (h2 : q)
 ```
 
 Czy widzisz, że pozornie zbędne wprowadzenie założenia / abstrahowanie od dowodu `q` było konieczne,
-żeby typ konstruowanego dowodu / termu zgadzał się z celem / typem `p → q → p` jako zdaniem?
+żeby typ konstruowanego dowodu / termu zgadzał się z celem / zdaniem / typem `p → q → p`?
 
 **Polecenie**: Po udanym wykonaniu tego zadania spróbuj je zrobić od początku jeszcze raz, ale
 tłumacząc przy tym, jaka jest przyjęta przez nas interpretacja tego, co robisz. Jak się pogubisz w
@@ -915,17 +931,17 @@ int suma(int a, int b){
 }
 ```
 
-to definicja funkcji albo procedury dodającej dwie liczby typu `int`. Dokładniej, ta funkcja `suma`
-napisana w *C* z dwóch dowolnych argumentów typu `int` (liczb całkowitych), które z perspektywy kodu
-"w środku" funkcji suma (czyli jej ciała) nazywają się `a` i `b`, robi liczbę całkowitą wyliczoną
-przez ich dodawanie i zwraca tą liczbę jako rezultat. 
+to definicja funkcji albo procedury dodającej dwie liczby typu `int`. Dokładniej, ta napisana w *C*
+funkcja z dwóch dowolnych argumentów typu `int` (liczb całkowitych), które z perspektywy kodu "w
+środku" funkcji suma (czyli z perspektywy jej ciała) nazywają się `a` i `b`, robi liczbę całkowitą
+wyliczoną przez ich dodawanie i zwraca tą liczbę jako rezultat.
 
 W *C* typ rezultatu funkcji piszemy najpierw (`int` na początku pierwszej linijki), potem piszemy
 nazwę definiowanej funkcji (tutaj znowu `suma`), potem w nawiasach wyliczamy jej parametry podając
 najpierw ich typy i oddzielając je przecinkiem, a na końcu definiujemy ciało funkcji, otaczając je
 nawiasami klamrowymi. Średnik sygnalizuje koniec instrukcji, przy czym tutaj mamy tylko jedną
-instrukcję w ciele - `return a + b`. Tak zdefiniowaną funkcję możemy potem w języku C *zastosować*
-do dwóch argumentów całkowitoliczbowych, na przykład tak:
+instrukcję w ciele, `return a + b`. Tak zdefiniowaną funkcję możemy potem w języku C *zastosować* do
+dwóch argumentów całkowitoliczbowych, na przykład tak:
 
 ```C
 int wynik = suma(1, 20);
@@ -937,10 +953,14 @@ przypisaliśmy jej, będącą wynikiem zastosowania funkcji `suma` do argumentó
 
 **Trochę się obawiam o tym pisać, ale muszę**: Mamy tu znowu znak równości i znowu ten symbol znaczy
 coś innego! Tym razem to nie jest (ostateczna) definicja, ani nie jest to równość jako zdanie, tylko
-*operacja przypisania wartości do zmiennej*. Różnica polega na tym, że raz przypisaną do zmiennej
-wartość można później *zmienić*, natomiast definicje są *ostateczne*.
+*operacja przypisania wartości do zmiennej*. Operacja przypisania stanie się dla nas niezwykle ważna
+gdy będziemy mówić o *formalnej teorii przyczynowości*. Różnica między przypisaniem i definicją
+polega na tym, że raz przypisaną do zmiennej wartość można później *zmienić*, natomiast definicje są
+*ostateczne*. Zmienne, którym przypisujemy wartości są więc jak pudełka, które mają modyfikowalną
+wartość. Z kolei raz zdefniowane stałe są nieodwołalnymi konwencjami językowymi.
 
-Definicja analogicznej funkcji w języku *R* wygląda podobnie, ale prościej:
+Definicja, a tak naprawdę *przypisanie* (w ten sposób *R* interpretuje znak `=`) do zmiennej `suma`
+analogicznej funkcji w języku *R* wygląda podobnie, ale prościej:
 
 ```R
 suma = function(a, b){
@@ -948,9 +968,9 @@ suma = function(a, b){
 }
 ```
 
-Język *R* również traktuje wszystkie zmienne jako obiekty, które mają określony typ, i w *R* tak jak
-w *C* równość oznacza przypisanie wartości do zmiennej, ale w *R* nie musimy zwykle jawnie
-deklarować typu, bo na ogół *R* sam się tego domyśla.
+Język *R* również traktuje wszystkie zmienne jako obiekty, które mają określony typ i w *R*, tak jak
+w *C*, równość oznacza przypisanie wartości do zmiennej, ale w *R* nie musimy zwykle jawnie
+deklarować typu, bo na ogół sam się tego "domyśla".
 
 W takim zwykłym języku programowania jak *C* jawne typowanie służy zmniejszeniu ryzyka błędu: Jeżeli
 na przykład spróbujemy zastosować mnożenie do dwóch zmiennych tekstowych, a nie liczbowych, to
@@ -958,9 +978,10 @@ program nie zostanie skompilowany do wersji, którą możemy uruchomić, bo bez 
 kodu mnożenie nie działa w *C* dla zmiennych tekstowych. Dzięki wykryciu błędu na tym wczesnym
 etapie, to jest przed uruchomieniem programu, unikamy (potencjalnie trudnych do wykrycia) problemów
 po uruchomieniu. W Lean typowanie ma również i takie zastosowanie, ale służy też do znacznie
-ciekawszych rzeczy, takich jak formalizacja treści matematycznych.
+ciekawszych rzeczy, takich jak formalizacja i automatyczne sprawdzanie poprawności treści
+matematycznych.
 
-Twierdzenie w języku Lean zapisaliśmy używając składni języka Lean, a nie składni języka *C* czy
+Twierdzenia w języku Lean zapisaliśmy używając składni języka Lean, a nie składni języka *C* czy
 *R*, bo Lean to nie *C* ani *R*, ale ogólna struktura kodu definiującego twierdzenie jest taka sama
 ("modulo notacja"), jak na przykład struktura definicji funkcji w *C*:
 
@@ -968,28 +989,29 @@ Twierdzenie w języku Lean zapisaliśmy używając składni języka Lean, a nie 
 
 Nazwę funkcji podaliśmy po słowie kluczowym `theorem`, typ rezultatu podaliśmy po znaku `:`, od razu
 widać też, gdzie są parametry twierdzenia-jako-funkcji `t2` i jakie mają typy, wreszcie ciało tej
-funkcji zdefiniowaliśmy za pomocą kodu występującego po znaku `:=`. 
+funkcji zdefiniowaliśmy za pomocą kodu występującego po znaku `:=`.
 
-Jeżeli teraz *zadeklarujemy*, że mamy (jakieś) zdanie `a`, używając w Lean słowa kluczowego
-`variable`:
+Jeżeli teraz na przykład *zadeklarujemy* (to akurat nie jest definicja, tylko deklaracja, która
+obowiązuje tylko w tych fragmentach kodu, w których `a` jest zarazem widoczne i używane), że mamy
+(jakieś) zdanie `a`, używając w Lean słowa kluczowego `variable`:
 
 ```lean
 variable (a : Prop)
 ```
 
-to będziemy mogli zastosować twierdzenie `t1` tak samo, jak stosowaliśmy funkcję `suma`, albo
-`dodaj2`, i tak samo, jak stosuje się funkcję w *C* czy w *R*, tylko pisząc to trochę inaczej, bo
-składnia jest inna:
+to będziemy mogli zastosować twierdzenie `t1` tak samo, jak stosowaliśmy funkcje `suma` czy `dodaj2`
+i tak samo, jak stosuje się funkcje w *C* czy w *R*, tylko pisząc to trochę inaczej, bo składnia
+jest inna. 
 
-Polecenie: Wklej ten fragment do Leana i umieść kursor nad komendą `#check`, powinieneś/aś zobaczyć
-po prawej to, co zapisałem poniżej jako komentarz.
+**Polecenie**: Wklej ten fragment do Lean'a i umieść kursor nad komendą `#check`, powinieneś/aś
+zobaczyć po prawej to, co zapisałem poniżej jako komentarz.
 
 ```lean
 #check t1 a -- t1 : a → a
 ```
 
-W ten oto sposób możemy stosować nasze twierdzenie `t1` do dowolnego zdania, na przykład do jakiegoś
-zdania bardziej złożonego, takiego jak `a → a` (musi być tutaj w nawiasach):
+W ten oto sposób możemy *stosować twierdzenie* `t1` do dowolnego zdania, na przykład do jakiegoś
+zdania bardziej złożonego, takiego jak `a → a`:
 
 ```lean
 #check t1 (a → a)
@@ -1015,7 +1037,7 @@ Stąd już bardzo blisko do:
 Przemienność dodawania (n : Liczba naturalna) (m : Liczba naturalna) : n + m = m + n
 ```
 
-co możemy wyrazić w Lean w ten sposób:
+co możemy wyrazić w Lean w ten sposób (jako aksjomat, czyli *definicję bez ciała* {sic!}):
 
 ```lean
 axiom przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = m + n
@@ -1026,23 +1048,24 @@ istniejący, chociaż bliżej nieokreślony, term typu `n + m = m + n`, czyli bl
 zdania `n + m = m + n`. Jeżeli to nie jest naturalna i dosłowna formalizacja naszego fragmentu prozy
 matematycznej wyrażonej w języku naturalnym, to nie wiem, co mogłoby nią być.
 
-Taki aksjomat stosujemy tak, jakby był twierdzeniem:
+Aksjomat możemy zastosować tak, jakby był twierdzeniem:
 
 ```lean
 #check przemiennosc_dodawania 1 2 -- przemiennosc_dodawania 1 2 : 1 + 2 = 2 + 1
 ```
 
-Dokładnie w ten sposób "stosujemy" fragmenty prozy matematycznej takie jak ten dotyczący
-przemienności dodawania.
+Wydaje się, że w ten sam sposób "stosujemy" fragmenty prozy matematycznej, takie jak ten dotyczący
+przemienności dodawania, tylko że czasem robimy to "w głowie".
 
 ## Widok z lotu ptaka
 
 Nasze twierdzenia zakodowane w Lean są więc jednocześnie:
 
-1. Zdaniami matematycznymi połączonymi z dowodami tych zdań i unikalną w danym kontekście nazwą.
+1. Zdaniami matematycznymi połączonymi z dowodami tych zdań i unikalną w danym kontekście (lepiej -
+   *środowisku*) nazwą.
 
-2. Termami pewnego typu, konkretnie tak zwanego zależnego typu: funkcja obliczająca / konstruująca z
-   dowolnego zdania `a` term typu / dowód zdania `a → a`.
+2. Termami pewnego typu, konkretnie tak zwanego zależnego typu: *funkcja obliczająca / konstruująca
+   z dowolnego zdania `a` term typu / dowód zdania `a → a`*.
 
 W ten oto sposób *znika różnica między uprawianiem matematyki teoretycznej i programowaniem*.
 
@@ -1092,7 +1115,7 @@ znaczy, że można zrobić dowód zdania `a → p`, czyli, mówiąc krótko, dla
 
 Faktycznie, z każdego dowodu zdania `a` możemy w tym momencie zrobić dowód zdania `p`, *ignorując*
 dowód zdania `a` i przytaczając dowód `dp` zdania `p`, który teraz (w aktualnym *środowisku*)
-istnieje aksjomatycznie, czyli na mocy naszego wyboru, i jest widoczny również wewnątrz ciała
+istnieje aksjomatycznie, czyli na mocy naszego wyboru i jest widoczny również wewnątrz ciała
 definicji `t3`.
 
 W pierwszej chwili to się może wydawać dziwne, ale przecież, jeżeli na przykład *wiemy już*, że
