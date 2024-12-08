@@ -16,14 +16,14 @@ na matematyce (na przykład, używając wnioskowania statystycznego, ale nie tyl
 zrozumieć bardzo złożone i trudne do wyjaśnienia zjawiska (takie jak zachowania ludzi czy strukturę
 i przebieg procesów umysłowych), a z drugiej nie ma najczęściej o matematyce bladego pojęcia. Tacy
 (niestety w psychologii liczni) matematyczni analfabeci nagminnie wyciągają z własnych i cudzych
-badań nieuzasadnione (czytaj: błędne, co nie znaczy, że na pewno fałszywe) wnioski, popełniając przy
-tym często najprostsze nawet błędy. Dobrymi przykładami są wnioskowanie o braku efektu na podstawie
-samego tylko nieistotnego wyniku testu statystycznego, albo wnioskowanie o wpływie czy innych
-własnościach przyczynowych bez wprowadzenia i uzasadnienia koniecznych założeń (nadal nie wszyscy
-psychologowie wiedzą, że [przyczynowość została
+badań nieuzasadnione (czytaj: wyssane z palca, co nie znaczy, że na pewno fałszywe) wnioski,
+popełniając przy tym często najprostsze nawet błędy. Dobrymi przykładami są powszechne wnioskowanie
+o braku efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego, albo wnioskowanie
+o wpływie czy innych własnościach przyczynowych bez wprowadzenia i uzasadnienia koniecznych założeń
+(nadal nie wszyscy psychologowie wiedzą, że [przyczynowość została
 zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)). Matematycznym analfabetom udaje
-się publikować swoje prace w wysokopunktowanych czasopismach, bo te prace są najczęściej oceniane
-przez innych matematycznych analfabetów.
+się publikować swoje prace w wysokopunktowanych czasopismach, bo te prace są zwykle oceniane przez
+innych matematycznych analfabetów, pełniących funkcje redaktorów czasopism i recenzentów.
 
 Matematyczny analfabetyzm ogromnej większości psychologów jest łatwym do zaobserwowania
 faktem. Równie łatwo można wskazać jedną z głównych przyczyn tego faktu - *nikt*, włączając w to
@@ -38,16 +38,18 @@ pedagogiczny ma pomóc w oswajaniu się z matematyką studentom na kierunku psyc
 akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi podjąć próbę poznania
 nowego, pięknego, i bardzo ekspresyjnego języka programowania.
 
-Ten skrypt *może zawierać błędy we fragmentach napisanych w języku naturalnym*, czyli w tych
-częściach, w których mniej lub bardziej po swojemu objaśniam kod lub zapędzam się w dygresje. Ryzyko
-pojawienia się błędu w tych fragmentach skryptu nie jest małe, bo jestem tylko matematycznym
-amatorem. Gdybyś znalazł/a błąd, byłoby mi bardzo miło, gdybyś mi o tym napisał/a
-(borys.paulewicz@gmail.com).
+Ten skrypt *może zawierać i prawie na pewno zawiera błędy we fragmentach napisanych w języku
+naturalnym*, czyli w tych częściach, w których mniej lub bardziej po swojemu objaśniam kod lub
+zapędzam się w dygresje. Ryzyko pojawienia się błędu w tych fragmentach skryptu nie jest małe, bo
+jestem tylko matematycznym amatorem. Gdybyś znalazł/a błąd, byłoby mi bardzo miło, gdybyś mi o tym
+napisał/a (borys.paulewicz@gmail.com).
 
 Ten skrypt *prawie na pewno nie zawiera błędów w częściach formalnych*, to jest zakodowanych w
-pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia Lean. Ponieważ
-te części zostały sprawdzone przez algorytm, którego używa [Lean](https://lean-lang.org/), mało
-czego można być tak pewnym jak tego, że są bezbłędne.
+pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia Lean. To jest
+o ile te części sprawdziłem przed posłaniem zmian do repozytorium. Jeżeli tak właśnie akurat
+zrobiłem, to znaczy, że wszystkie części całkowicie formalne zostały sprawdzone przez algorytm,
+którego używa [Lean](https://lean-lang.org/). Wtedy mało czego można być tak pewnym jak tego, że są
+bezbłędne.
 
 **Ostrzeżenie**: Nawet jeżeli przeczytasz tą część skryptu do końca i uda Ci się zrobić poprawnie
 zadania, których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
@@ -60,7 +62,7 @@ W związku z tym, oto moja rada: Naukowcem z prawdziwego zdarzenia nie zostaje s
 dzień. Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i pogódź się z tym, że dobre
 opanowanie tego rodzaju materiału wymaga czasem wielokrotnego aktywnego czytania tych samych
 fragmentów. O ile nie zabraknie wytrwałości, to prędzej czy później może stać się to, co dzieje się,
-gdy przez dłuższy czas idziemy dokadś, niekoniecznie dążąc stale do jednego celu, a powietrze jest
+gdy przez dłuższy czas idziemy dokądś, niekoniecznie dążąc stale do jednego celu, a powietrze jest
 bardzo wilgotne. Chociaż nie ma wyraźnego momentu, kiedy zachodzi jakościowa zmiana, odkrywamy w
 końcu, że choć nie padał deszcz, jesteśmy przemoczeni[^1].
 
@@ -95,7 +97,7 @@ I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiają
 
 - Konkretną liczbę naturalną
 
-- Zmienną, o której wcześniej założyłeś, że oznacza (jakąś) liczbę naturalną
+- Zmienną, o której wcześniej założyłeś/aś, że oznacza (jakąś) liczbę naturalną
 
 - Wyrażenie, które po obliczeniu daje liczbę naturalną
 
@@ -103,11 +105,11 @@ Trzeba tylko pamiętać, żeby podstawianie było konsekwentne, to znaczy, za *n
 podstawione to samo i za *m* wszędzie to samo, i to nie muszą być dwie różne rzeczy. Na przykład,
 zgodnie z przytoczonym fragmentem *2 + 3 = 3 + 2*, jak również, jeżeli *a* i *b* to liczby
 naturalne, to *a + b = b + a*, *a + 10 = 10 + a*, *b + b = b + b*, *(2 + 3 + a) + b = b + (2 + 3 +
-a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst: *a* jest liczbą naturalną) jakąś
-liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że tego rodzaju formalne operacje
-większość dzieci opanowuje w szkole podstawowej.
+a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst: *a* i *b* są liczbami naturalnymi)
+jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że tego rodzaju formalne
+operacje większość dzieci opanowuje w szkole podstawowej.
 
-Spróbuj chwilowo potraktować takie formalne reguły jako *reguły gry, która nie musi mieć żadnego
+Spróbuj chwilowo potraktować takie formalne reguły jak *reguły gry, która nie musi mieć żadnego
 sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie może Ci
 przeszkadzać. Obiecuję, że sens się pojawi, tylko kiedy indziej. Zdolność do tymczasowego stłumienia
 w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce matematyki.
@@ -143,11 +145,11 @@ Podziel obie strony przez *p(y)* (zakładając oczywiście, że ta wartość jes
 jedyną stronę równania, którą da się w tym momencie uprościć.
 
 Jeżeli wykonała/eś wszystkie te trywialne, mechaniczne operacje zgodnie z instrukcjami, to udało Ci
-się właśnie udowodnić twierdzenie Bayesa. Moim studentom, gdy robią to po raz pierwszy w życiu, nie
-zajmuje to zwykle więcej niż 15 minut. Zwróć uwagę, że udowodniła/eś to twierdzenie ani nie
-przytaczając ani nie odnosząc się do żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych
-wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży stopień ogólności, chodzi
-w takich twierdzeniach?
+się udowodnić twierdzenie Bayesa, a właściwie jego uproszczoną wersję. Moim studentom, gdy robią to
+po raz pierwszy w życiu, nie zajmuje to zwykle więcej niż 15 minut. Zwróć uwagę, że udowodniła/eś to
+twierdzenie ani nie przytaczając ani nie odnosząc się do żadnych konkretnych *zdarzeń*, ani nie
+obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży
+stopień ogólności, chodzi w takich twierdzeniach?
 
 Muszę zaznaczyć, że wersja twierdzenia Bayesa, którą udało Ci się udowodnić, jest mocno
 uproszczona. Prawdopodobieństwa nie mogą być mniejsze niż *0* ani większe niż *1*, a nasze
