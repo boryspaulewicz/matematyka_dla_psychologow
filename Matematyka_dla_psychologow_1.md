@@ -220,12 +220,13 @@ axiom Niewierzacy : Czlowiek → Prop
 axiom mocna_teza : Glupi → Niewierzacy
 ```
 
-Ale nie całkiem. `mocna_teza` to tutaj ewidentnie aksjomat, bo jest podany bez uzasadnienia. Ale
-dokonałem poważnych uproszczeń. Mówić coś to nie to samo, co w coś wierzyć i głupie są też inne
-zwierzęta, nie tylko ludzie. Ale nie tak jak rośliny. Rośliny są najgłupsze. I ryby. Rośliny i
-ryby. To jest jednak znowu tak zwana wiedza zastana, więc nie ma o czym wspominać. Jeżeli
-identyfikujesz się z jakąś rośliną albo rybą, to przepraszam, ale nie przepraszam. No więc wracając,
-nie ma pewności, że Anzelmowi chodziło o *każdy głupi* i *zawsze mówi*.
+Ale nie całkiem. `mocna_teza` to tutaj ewidentnie aksjomat, bo jest podany bez
+uzasadnienia. Pozwoliłem sobie na ryzykowne uproszczenia. Mówić coś to nie to samo, co w coś wierzyć
+i głupie są też inne zwierzęta, nie tylko ludzie. Ale nie tak jak rośliny. Rośliny są najgłupsze. I
+ryby. Rośliny i ryby. To jest jednak znowu tak zwana wiedza zastana, więc nie ma o czym
+wspominać. Jeżeli identyfikujesz się z jakąś rośliną albo rybą, to przepraszam, ale nie
+przepraszam. No więc wracając, nie ma pewności, że Anzelmowi chodziło o *każdy głupi* i *zawsze
+mówi*.
 
 Co dalej? 
 
