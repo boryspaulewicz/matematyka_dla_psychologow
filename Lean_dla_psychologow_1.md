@@ -62,7 +62,7 @@ opanowanie tego rodzaju materiału wymaga czasem wielokrotnego aktywnego czytani
 fragmentów. O ile nie zabraknie wytrwałości, to prędzej czy później może stać się to, co dzieje się,
 gdy przez dłuższy czas idziemy dokadś, niekoniecznie dążąc stale do jednego celu, a powietrze jest
 bardzo wilgotne. Chociaż nie ma wyraźnego momentu, kiedy zachodzi jakościowa zmiana, odkrywamy w
-końcu, że choć nie padał deszcz, jesteśmy przemoczeni.
+końcu, że choć nie padał deszcz, jesteśmy przemoczeni[^1].
 
 **Praktyczna wskazówka**: Gdy pojawi się frustracja, a całkiem możliwe, że się pojawi, poczekaj albo
 wróć do tego, co wydaje Ci się, że już dobrze zrozumiała/eś. Poczucie zrozumienia bywa
@@ -1100,3 +1100,7 @@ sobota*, niezależnie od tego, czy dzisiaj pada deszcz, czy nie i niezależnie o
 dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W tej sytuacji* prawdą jest, że
 *jeżeli dzisiaj pada deszcz, to jutro będzie sobota*, po prostu dlatego, że ... jutro będzie
 sobota.
+
+### Przypisy
+
+[^1]: To jest luźna parafraza cytatu, ale nie pamiętam czyjego. Chyba jakiegoś buddysty.
