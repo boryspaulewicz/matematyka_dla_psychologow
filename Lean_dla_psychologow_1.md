@@ -54,10 +54,15 @@ zadania, których jest zresztą niewiele, jest możliwe, że po wszystkim będzi
 dezorientacji lub braku poczucia sensu. Będziemy się zajmować bardzo abstrakcyjnymi pojęciami,
 dlatego takie poczucie jest na początku prawdopodobne. Ja też się podobnie czułem, gdy po raz
 pierwszy miałem kontakt z tymi treściami. To poczucie może się stopniowo zmienić w coraz głębsze
-zrozumienie, ale to wymaga *cierpliwości*. Oto moja rada: Naukowcem z prawdziwego zdarzenia nie
-zostaje się z dnia na dzień. Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i pogódź się
-z tym, że dobre opanowanie tego rodzaju materiału wymaga czasem wielokrotnego aktywnego czytania
-tych samych fragmentów. 
+zrozumienie, ale to wymaga *cierpliwości*. 
+
+W związku z tym, oto moja rada: Naukowcem z prawdziwego zdarzenia nie zostaje się z dnia na
+dzień. Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i pogódź się z tym, że dobre
+opanowanie tego rodzaju materiału wymaga czasem wielokrotnego aktywnego czytania tych samych
+fragmentów. O ile nie zabraknie wytrwałości, to prędzej czy później może stać się to, co dzieje się,
+gdy przez dłuższy czas idziemy dokadś, niekoniecznie dążąc stale do jednego celu, a powietrze jest
+bardzo wilgotne. Chociaż nie ma wyraźnego momentu, kiedy zachodzi jakościowa zmiana, odkrywamy w
+końcu, że choć nie padał deszcz, jesteśmy przemoczeni.
 
 **Praktyczna wskazówka**: Gdy pojawi się frustracja, a całkiem możliwe, że się pojawi, poczekaj albo
 wróć do tego, co wydaje Ci się, że już dobrze zrozumiała/eś. Poczucie zrozumienia bywa
