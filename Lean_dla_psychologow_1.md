@@ -383,12 +383,16 @@ która z kolei przekształca dowolną liczbę naturalną w liczbę naturalną.
 
 ## Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami
 
-Stała `2` jest termem typu `Nat`. `Nat` jest tylko zapisem albo etykietą, niczym więcej, którą
-możemy konsekwentnie interpretować jako oznaczającą typ liczb naturalnych, ponieważ Lean dostarcza
-taką a nie inną funkcjonalność dla termów typu `Nat`. W teorii typów której używamy w Lean każdy typ
-jest również termem, ale typu ogólniejszego, i tak w nieskończoność (jak skopiujesz ten kod, to gdy
-kursor będzie nad `#check`, zobaczysz po prawej to, co jest zapisane jako komentarz po znakach
-`--`):
+Stała `2` jest termem typu `Nat`. `Nat` jest tylko pewną stałą / pewnym symbolem, czyli zapisem,
+etykietą, niczym więcej, którą możemy konsekwentnie interpretować jako oznaczającą typ liczb
+naturalnych. W szczególności, `Nat` *nie* jest *zbiorem liczb naturalnych*, chociaż w dużym stopniu
+możemy go używać dość podobnie. Termy typu `Nat` są liczbami naturalnymi, ponieważ Lean dostarcza
+dla nich taką a nie inną funkcjonalność. Mówimy, że te termy *zamieszkują* typ `Nat`, a nie, że są
+jego *elementami*, bo ta terminologia jest zarezerwowana dla elementów należących do zbiorów.
+
+W teorii typów której używamy w Lean każdy typ jest również termem, ale typu ogólniejszego, i tak w
+nieskończoność (jak skopiujesz ten kod, to gdy kursor będzie nad `#check`, zobaczysz po prawej to,
+co jest zapisane jako komentarz po znakach `--`):
 
 ```lean
 #check 2 -- 2 : Nat
