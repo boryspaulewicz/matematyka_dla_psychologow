@@ -42,7 +42,7 @@ Nie jestem autorem tej obserwacji, [Hume
 jest](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem). Nawiasem mówiąc, na tej stronie
 Wikipedii, w sekcji *Responses* (odpowiedzi czy może reakcje) znajdziesz (2024-12-08) jako pierwszą
 pod-sekcję *Oughts and goals*, czyli *powinności / normy i cele*. Wydaje mi się, że z powodu
-bliskiego związku między pojęciami *zachowania* i *celu*, to może być dla psychologa
+bliskiego związku między pojęciami *zachowania* i *celu*, to może być dla nas, psychologów,
 interesujące. Jeszcze do tego wrócimy.
 
 Tak czy siak, jeżeli się w tym nie zgadzamy, to oczywiście możemy o tym porozmawiać, ale wydaje mi
