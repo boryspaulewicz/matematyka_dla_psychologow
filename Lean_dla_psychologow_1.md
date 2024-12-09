@@ -45,11 +45,11 @@ jestem tylko matematycznym amatorem. Gdybyś znalazł/a błąd, byłoby mi bardz
 napisał/a (borys.paulewicz@gmail.com).
 
 Ten skrypt *prawie na pewno nie zawiera błędów w częściach formalnych*, to jest zakodowanych w
-pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia Lean. To jest
-o ile te części sprawdziłem przed posłaniem zmian do repozytorium. Jeżeli tak właśnie akurat
-zrobiłem, to znaczy, że wszystkie części całkowicie formalne zostały sprawdzone przez algorytm,
-którego używa [Lean](https://lean-lang.org/). Wtedy mało czego można być tak pewnym jak tego, że są
-bezbłędne.
+pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia
+[Lean](https://lean-lang.org/). To jest o ile te części sprawdziłem przed posłaniem zmian do
+repozytorium. Jeżeli tak właśnie akurat zrobiłem, to znaczy, że wszystkie części całkowicie formalne
+zostały sprawdzone przez algorytm, którego używa. Wtedy mało czego można być tak pewnym jak tego, że
+są bezbłędne.
 
 **Ostrzeżenie**: Nawet jeżeli przeczytasz tą część skryptu do końca i uda Ci się zrobić poprawnie
 zadania, których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
@@ -75,11 +75,11 @@ jestem zdania, że rozumienie to jest coś, do czego można stale *dążyć*, al
 kiedykolwiek, można naprawdę *osiągnąć*. Tym bardziej, że nawet na najprostsze sprawy można próbować
 patrzeć z nowego punktu widzenia.
 
-Ten skrypt nie jest długi. Przeczytanie go i wykonanie poleceń powinno Ci zająć nie
-więcej niż półtorej godziny. Jest też samowystarczalny w tym znaczeniu, że nie zakłada żadnej
-specjalnej wcześniejszej wiedzy ani instalacji oprogramowania - wszystko jest wyjaśnione od podstaw,
-a jedyny program, którego potrzebujemy, jest dostępny za darmo w przeglądarce. Treści będą jednak
-trudne. Polecam znaleźć kartkę i coś do pisania, włączyć minutnik na 30 minut, i robić
+**Przepis na sukces**: Ten skrypt nie jest długi. Przeczytanie go i wykonanie poleceń powinno Ci
+zająć nie więcej niż półtorej godziny. Jest też samowystarczalny w tym znaczeniu, że nie zakłada
+żadnej specjalnej wcześniejszej wiedzy ani instalacji oprogramowania - wszystko jest wyjaśnione od
+podstaw, a jedyny program, którego potrzebujemy, jest dostępny za darmo w przeglądarce. Treści będą
+jednak trudne. Polecam znaleźć kartkę i coś do pisania, włączyć minutnik na 30 minut, i robić
 *jakiekolwiek* notatki (na przykład, zapisywać wątpliwości, albo pomysły czy skojarzenia). Po 30
 minutach zrobić około 5 minutową (nie za długą) przerwę, w trakcie której nie będziesz robić nic
 wciągającego, a potem znowu pracować przez 30 minut. Po dwóch takich jednostkach trzeba sobie zrobić
@@ -109,10 +109,18 @@ a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst: *a* i *b* są
 jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że tego rodzaju formalne
 operacje większość dzieci opanowuje w szkole podstawowej.
 
-Spróbuj chwilowo potraktować takie formalne reguły jak *reguły gry, która nie musi mieć żadnego
-sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba sensu na tym etapie może Ci
-przeszkadzać. Obiecuję, że sens się pojawi, tylko kiedy indziej. Zdolność do tymczasowego stłumienia
-w sobie potrzeby sensu bywa bardzo korzystna, a czasem wręcz nieodzowna w nauce matematyki.
+Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest jak przepis,
+który stosując możemy wyprodukować nieskończenie wiele prawdziwych zdań na temat liczb
+naturalnych. Albo jak coś w rodzaju maszyny albo mechanizmu, który działa dzięki temu, że używamy go
+w określony sposób, to jest konsekwentnie podstawiając w miejsca zmiennych wyrażenia odpowiedniego
+typu (typu liczbowego). W tej części skryptu to jest nas punkt wyjścia i - jak się przekonasz - to
+będzie również nasz punkt dojścia.
+
+Spróbuj chwilowo potraktować takie formalne reguły jak te wyrażone w przytoczonym fragmencie jako
+*reguły gry, która nie musi mieć żadnego sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba
+sensu na tym etapie może Ci przeszkadzać. Obiecuję, że sens się pojawi, tylko kiedy
+indziej. Zdolność do tymczasowego stłumienia w sobie potrzeby sensu bywa bardzo korzystna, a czasem
+wręcz nieodzowna w nauce matematyki.
 
 Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które będziemy chwilowo
 rozumieć jako *aksjomaty*, czyli reguły gry, na które umawiamy się bez uzasadnienia:
@@ -134,9 +142,10 @@ Poza aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
 4. Jeżeli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
 
 Zapisz teraz nową wersję definicji pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
-oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Uzyskasz w ten
-sposób dwie wersje zdania będącego treścią tej definicji - oryginalną i tą, która powstała przez
-podstawienie.
+oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Czyli
+traktując tą definicję jak przepis, dokładnie tak samo jak wcześniej traktowaliśmy inny fragment
+matematycznej prozy. Uzyskasz w ten sposób dwie wersje zdania będącego (parametryczną) treścią
+definicji - oryginalną i tą, która powstała przez podstawienie.
 
 Skorzystaj z aksjomatu 3 w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu wersji
 definicji są równe. Zapisz tą równość.
@@ -201,7 +210,7 @@ typie:
 > rezultat też jest typu `Nat` (`: Nat`).
 
 A więc wszystko między symbolem `suma` a symbolem definiowania `:=` to określenie *typu*, a nie
-treści, jeszcze lepiej *ciała*, definicji stałej `suma`.
+treści (lepiej: *ciała*) definicji stałej `suma`.
 
 **Czytamy dalej**: Ten term konstruuję / definiuję jako (`:=`) zastosowanie funkcji dodawania - bo
 to też jest pewna funkcja - do pierwszego i drugiego parametru, które to parametry nazwałem/am `n` i
@@ -214,8 +223,8 @@ definicja (z apostrofem w nazwie):
 def suma' (a : Nat) (b : Nat) : Nat := a + b
 ```
 
-jest w łatwym do uchwycenia sensie *tą samą* tylko *inaczej zapisaną funkcją* (i inaczej nazwaną, bo
-w Lean nie możemy dowolnie re-definiować symboli).
+jest w łatwym do uchwycenia sensie *tą samą* tylko *inaczej zapisaną funkcją*. Jest też inaczej
+nazwana, bo w Lean nie możemy dowolnie re-definiować symboli.
 
 **Ostateczność definicji w Lean**: Gdy raz zdefiniujemy jakiś symbol, tutaj symbole `suma` i
 `suma'`, nie możemy już więcej (w tym samym kontekście, ale o tym kiedy indziej) zmienić jego
@@ -230,7 +239,7 @@ komendą `#eval` i odnajdź rezultat ewaluacji (liczbę *3*) w prawym oknie.
 #eval suma 1 2
 ```
 
-Zanim wyjaśnię, co się dzieje, gdy Lean ewaluuje taką aplikację, popatrzymy na prostszą funkcję:
+Zanim wyjaśnię, co się dzieje, gdy Lean ewaluuje taką aplikację, rozważymy prostszą funkcję:
 
 ```lean
 def dodaj2 (a : Nat) : Nat := a + 2
@@ -238,7 +247,7 @@ def dodaj2 (a : Nat) : Nat := a + 2
 
 **Polecenie**: Spróbuj odczytać samodzielnie sens tej defincji opierając się na fragmencie, w którym
 objaśniłem jak się czyta poprzednią definicję. Najlepiej zrób to na głos, dzięki temu upewnisz się,
-czy właściwy sposób czytania tego rodzaju kodu jest dla Ciebie jasny.
+czy właściwy sposób czytania jest dla Ciebie jasny.
 
 Myślę, że od razu widzisz, jak ta funkcja działa, nawet jeśli przed chwilą nie wiedziałe/aś nawet,
 że język Lean istnieje. Myślę też, że jest już dla Ciebie oczywiste, że nazwa parametru (tutaj `a`)
@@ -253,7 +262,7 @@ ciała funkcji (całe ciało funkcji `dodaj2` to `a + 2`) "mówić" o jej argume
 #check @dodaj2
 ```
 
-W prawym oknie widać teraz typ termu - `dodaj2 : Nat → Nat`. W Lean wyrażenie o postaci `A → B`
+W prawym oknie widać teraz typ termu: `dodaj2 : Nat → Nat`. W Lean wyrażenie o postaci `A → B`
 oznacza *typ*: *funkcja przekształcająca termy typu `A` w termy typu `B`*.
 
 W widocznym po najechaniu kursorem na słowo `#check` komunikacie `dodaj2 : Nat → Nat` rozpoznajemy
@@ -272,10 +281,9 @@ Teraz w prawym oknie widać tą samą informację co wcześniej, tylko pokazaną
 do liczby `2`. Najedź kursorem na `#eval` i popatrz na prawe okno. Upewnij się, że widzisz tam
 poprawny wynik, czyli liczbę *4*.
 
-**Ewaluacja aplikacji krok po kroku**: Zanim Lean obliczy (mówimy raczej dokona *ewaluacji*, bo to
-ogólniejsze pojęcie) rezultat zastosowania (mówimy raczej aplikacji, żeby podkreślić, że chodzi nam
-o samo *zestawienie* funkcji z argumentem, jeszcze bez żadnej ewaluacji) funkcji `dodaj2` do
-argumentu `2`:
+**Ewaluacja aplikacji krok po kroku**: Zanim Lean obliczy (lepiej: dokona *ewaluacji*) rezultat
+zastosowania (mówimy raczej aplikacji, żeby podkreślić, że chodzi nam o samo *zestawienie* funkcji z
+argumentem, jeszcze bez żadnej ewaluacji) funkcji `dodaj2` do argumentu `2`:
 
 1. Ewaluuje, czyli redukuje do prostszej postaci argument aplikacji. Tutaj jest tylko jeden
 argument, `2`, a `2` jest tak naprawdę zdefiniowane jako `Nat.succ (Nat.succ Nat.zero)`, czyli jako
@@ -295,6 +303,21 @@ rozwijał, powiem tylko, że dodawanie liczb naturalnych ma w Lean piękną defi
 Wydaje mi się, że dokładnie czegoś takiego się spodziewałe/aś, może pomijając to, jak są
 zdefiniowane liczby naturalne i dodawanie. Jeżeli chcesz się dowiedzieć czegoś więcej o tej
 definicji liczb naturalnych, poszukaj samodzielnie informacji na temat aksjomatów Peano.
+
+**Parametry i argumenty**: Symbol `a` jest *parametrem* funkcji `dodaj2`. Gdy aplikujemy `dodaj2` na
+przykład do liczby `10`, to wtedy (i tylko wtedy) `10` staje się *argumentem* tej funkcji. Parametr
+funkcji jest więc jej stałą częścią, a konkretnie nazwanym "wejściem" i ta nazwa jest widoczna dla
+kodu w ciele funkcji, natomiast argument jest termem, który w danym fragmencie kodu jest przypisany
+do parametru:
+
+```lean
+def minus2 (a : Nat) : Nat := 
+    a - 2 -- To jest ciało funkcji, tylko zapisane w następnej linijce. Widać tu zmienną a, będącą parametrem tej funkcji
+
+#check minus2 3 -- Tutaj 3 jest argumentem funkcji minus2, ale nie zachodzi ewaluacja, sprawdzamy tylko typ aplikacji
+
+#eval minus2 3 -- A tu wymuszamy ewaluację aplikacji, czyli podstawianie argumentu 3 za parametr a w ciele minus2
+```
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleił/a do Lean'a kod `#eval n`, to zobaczył/abyś
 błąd, ponieważ `n` i `m` to w tym momencie *tylko* formalne parametry funkcji `suma`, które są
