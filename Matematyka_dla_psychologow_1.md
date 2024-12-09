@@ -231,6 +231,21 @@ wspominać. Jeżeli identyfikujesz się z jakąś rośliną albo rybą, to przep
 przepraszam. No więc wracając, nie ma pewności, że Anzelmowi chodziło o *każdy głupi* i *zawsze
 mówi*.
 
+Coś tu nie gra. Nie mogło Anzelmowi chodzić o to, że jeżeli ktoś jest głupi, w jakikolwiek sposób,
+to automatycznie jest niewierzący. To by wykluczało możliwość istnienia ludzi zarazem głupich i
+wierzących, a z tym Anzelm by się na pewno nie zgodził. Chodziło mu raczej o implikację *w drugą
+stronę*:
+
+```lean
+axiom mocna_teza': Niewierzacy → Glupi
+```
+
+Możemy *zostawić* obie *interpretacje* i wrócić do nich później, gdy będziemy mieli więcej
+danych. Czy widzisz, jak w trakcie takiej formalizacji trzeba formułować *hipotezy empiryczne* na
+temat autora wypowiedzi i oceniać je w świetle wiedzy zastanej i innych wypowiedzi tego samego
+autora? Wydaje się, że powinniśmy brać pod uwagę *każdą interpretację*, która jest jednocześnie
+*spójna wewnętrznie* i *spójna z tym, co wiemy*, prawda?
+
 Co dalej? 
 
 > Ale nawet ten, co tak mówi, musi rozumieć o co chodzi, gdy ktoś mówi: „coś, ponad co nic większego
