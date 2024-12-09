@@ -539,7 +539,9 @@ Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcji przekształcających termy typu `A` w termy
 typu `B`*.
 
-*Ponieważ w teorii typów każde zdanie jest typem, to każda implikacja jest funkcją*.
+**Polecenie**: Spróbuj zaakceptować tą konsekwencję nie szukając w tym na razie sensu (nie musisz
+tego teraz zapamiętać): *Ponieważ w teorii typów każde zdanie jest typem, to każda implikacja jest
+funkcją*.
 
 **Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią
 jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili, że nie jest całkiem
