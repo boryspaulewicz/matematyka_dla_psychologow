@@ -1018,18 +1018,25 @@ W ten oto sposób możemy *stosować twierdzenie* `t1` do dowolnego zdania, na p
 zdania bardziej złożonego, takiego jak `a → a`:
 
 ```lean
-#check t1 (a → a)
+#check t1 (a → a) -- t1 (a → a) : (a → a) → (a → a)
 ```
 
 albo do zdania `a → (a ∧ a)` [Czytaj: `a` implikuje koniunkcję zdań `a` i `a`]
 
 ```lean
-#check t1 (a → (a ∧ a))
+#check t1 (a → (a ∧ a)) -- t1 (a → (a ∧ a)) : (a → (a ∧ a)) → (a → (a ∧ a))
 ```
 
+**Typy zależne**: Słowo `theorem` istnieje głównie dla wygody urzytkownika. Moglibyśmy równie dobrze
+zastąpić je tutaj słowem `def`, bo `t1` jest zarazem *twierdzeniem* i *funkcją*. Różni się ona
+jednak pod ważnym względem od na przykład funkcji `suma`. Funkcja `suma` zwraca liczby naturalne,
+czyli termy typu `Nat` i tylko tego typu. Funkcja `t1` zwraca jednak dowody *różnych* zdań, czyli
+*różnych typów*, zależnie od tego, jakie zdanie dostanie jako argument. To jest przykład *typu
+zależnego*.
+
 Czy widzisz, jak dobrze to traktowanie twierdzeń jako parametrycznych funkcji pasuje do sposobu, w
-jaki posługujemy się tym, co można odczytać ze zwykłej "prozy matematycznej"? Przypomnimy sobie
-jeszcze raz ten sam fragment, tylko nadamu mu nazwę:
+jaki posługujemy się tym, co można odczytać ze zwykłej "prozy matematycznej"?  Żeby to jeszcze raz
+zilustrować, przypomnimy sobie znowu ten sam fragment, tylko nadamy mu nazwę:
 
 ```
 Przemienność dodawania: Jeżeli n i m to liczby naturalne, to n + m = m + n
