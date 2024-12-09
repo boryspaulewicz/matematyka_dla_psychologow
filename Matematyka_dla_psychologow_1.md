@@ -577,8 +577,9 @@ która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
 
 Otóż to, burden of proof. Gdy bierzesz udział w moich zajęciach, jesteś pod presją publicznej
-instytucji, w której pracuję, zmuszono tymczasowo traktować mnie jak autorytet. To oznacza pewne
-zobowiązania z *obydwu* stron. W szczególnoścci, the burden of proof jest wtedy on *me*.
+instytucji w której pracuję zmuszono tymczasowo traktować mnie jak autorytet. To oznacza pewne
+zobowiązania z *obydwu* stron, Twojej i mojej. W szczególnoścci, the burden of proof jest wtedy on
+*me*.
 
 Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
