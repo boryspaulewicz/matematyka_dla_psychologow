@@ -628,7 +628,8 @@ wypada, chociaż nie będziemy korzystać z typu `Z`.
 pierwszego parametru dodaje drugi i odejmuje trzeci i której wszystkie parametry i rezultat są typu
 `Nat`. Używając komendy `#check` sprawdź typ samej tej funkcji, jak również aplikacji tej funkcji do
 jednej, dwóch i trzech liczb naturalnych, wszystko jedno jakich. Ewaluuj za pomocą komendy `#eval`
-aplikację tej funkcji do trzech liczb naturalnych i sprawdź, czy wynik się zgadza.
+aplikację tej funkcji do trzech liczb naturalnych i sprawdź, czy wynik się zgadza. Jeżeli ten wynik
+miałby być mniejszy od zera, to Lean poda zero, ponieważ ujemne liczby naturalne nie istnieją.
 
 [Do następnej części](./Lean_dla_psychologow_2.md)
 
