@@ -218,12 +218,12 @@ Wracając do zdania o głupich, czyli między innymi o mnie, zdaje mi się, że 
 ```lean
 axiom Czlowiek : Type
 axiom Glupi : Czlowiek → Prop
-axiom Niewierzacy : Czlowiek → Prop
+    axiom Niewierzacy : Czlowiek → Prop
 axiom mocna_teza : Glupi → Niewierzacy
 ```
 
 Ale nie całkiem. `mocna_teza` to tutaj ewidentnie aksjomat, bo jest podany bez
-uzasadnienia. Pozwoliłem sobie na ryzykowne uproszczenia. Mówić coś to nie to samo, co w coś wierzyć
+uzasadnienia. Pozwoliłem sobie na ryzykowne uproszczenia: Mówić coś to nie to samo, co w coś wierzyć
 i głupie są też inne zwierzęta, nie tylko ludzie. Ale nie tak jak rośliny. Rośliny są najgłupsze. I
 ryby. Rośliny i ryby. To jest jednak znowu tak zwana wiedza zastana, więc nie ma o czym
 wspominać. Jeżeli identyfikujesz się z jakąś rośliną albo rybą, to przepraszam, ale nie
@@ -273,10 +273,10 @@ abbrev MM := MentalMax
 axiom A1 : MM Bog
 ```
 
-Trochę ta formalizacja jedzie wódą, przez co rozumiem, że nie wygląda elegancko, ale trudno, to
-dopiero pierwsza próba. Wypadałoby objaśnić. Przyjmujemy, że term `Bog` ma typ `MozeIstniejace`, bo
-staramy się życzliwie interpretować Anzelma, który przecież nie dowodziłby czegoś, co od samego
-początku wprost założył (że Bóg istnieje). Kto byłby *tak* głupi? Ja, niestety, na pewno czasami.
+Trochę ta formalizacja jedzie wódą (czytaj: nie wygląda elegancko), ale trudno, to dopiero pierwsza
+próba. Wypadałoby objaśnić. Przyjmujemy, że term `Bog` ma typ `MozeIstniejace`, bo staramy się
+życzliwie interpretować Anzelma, który przecież nie dowodziłby czegoś, co od samego początku wprost
+założył (że Bóg istnieje). Kto byłby *tak* głupi? Ja, niestety, na pewno czasami.
 
 `MozeIstniejace` jest za długie, więc wprowadzamy *zapis skrótowy* `MI` za pomocą słowa kluczowego
 `abbrev`. To samo robimy z `MentalMax`, wprowadzając skrót `MM`. Jeżeli się okaże, że coś tu nie
