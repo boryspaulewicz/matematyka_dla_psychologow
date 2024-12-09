@@ -312,11 +312,14 @@ do parametru:
 
 ```lean
 def minus2 (a : Nat) : Nat := 
-    a - 2 -- To jest ciało funkcji, tylko zapisane w następnej linijce. Widać tu zmienną a, będącą parametrem tej funkcji
+    -- To jest ciało funkcji, tylko zapisane w następnej linijce. Widać tu zmienną a, będącą parametrem tej funkcji:
+    a - 2
 
-#check minus2 3 -- Tutaj 3 jest argumentem funkcji minus2, ale nie zachodzi ewaluacja, sprawdzamy tylko typ aplikacji
+-- Tutaj 3 jest argumentem funkcji minus2, ale nie zachodzi ewaluacja, sprawdzamy tylko typ aplikacji:
+#check minus2 3
 
-#eval minus2 3 -- A tu wymuszamy ewaluację aplikacji, czyli podstawianie argumentu 3 za parametr a w ciele minus2
+-- A tu wymuszamy ewaluację aplikacji, czyli podstawienie argumentu 3 za parametr a w ciele minus2:
+#eval minus2 3
 ```
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleił/a do Lean'a kod `#eval n`, to zobaczył/abyś
