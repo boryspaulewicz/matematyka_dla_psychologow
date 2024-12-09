@@ -191,8 +191,9 @@ Czytamy dalej:
 
 To jest ewidentnie *rada*. Też ciekawy *typ*, jakby blisko *normy*, ale jednak coś innego. Zwracam
 uwagę, że czasem sam akt wstępnego typowania (fragmentów) tekstu napisanego w języku naturalnym może
-działaś jak odsłonięcie rano zasłon. W każdym razie rad nie lubię. Zwłaszcza sugerujących wyrzucanie
-czegoś z izdebki własnego umysłu. *Powody* to co innego, chętnie uważnie wysłucham. Co dalej?
+działaś jak odsłonięcie rano zasłon. W każdym razie rad nie lubię. Zwłaszcza rad sugerujących
+wyrzucanie czegoś z izdebki własnego umysłu. *Powody* to co innego, chętnie uważnie wysłucham. Co
+dalej?
 
 > Wyjaśnia też swoje intencje. Zastrzega, że nie chce przeniknąć głębi Boga, ponieważ wtedy
 > popełniałby grzech pychy. Chce tylko do pewnego stopnia zrozumieć prawdę, w którą wierzy. Nie
