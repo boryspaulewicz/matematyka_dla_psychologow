@@ -576,7 +576,9 @@ która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
 
-Otóż to, burden of proof. *Proof*.
+Otóż to, burden of proof. Gdy bierzesz udział w moich zajęciach, jesteś przeze mnie i przez
+publiczną instytucję, w której pracuję, zmuszono tymczasowo traktować mnie jak autorytet. The burden
+of proof jest wtedy on *me*.
 
 Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
