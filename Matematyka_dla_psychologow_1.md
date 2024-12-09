@@ -66,7 +66,7 @@ jej w jakiś sposób sprzeciwić. Nie mogę pozostać wobec tej presji obojętny
 uważam, że to drobiazg - ponieważ muszę teraz wybrać między mogłabyś, mógłbyś, mógłbyś/abyś,
 mogłabyś/mógłbyś, albo czymś innym, jeżeli mam pisać dalej o tym, o czym chcę pisać.
 
-## Fakty jako aksjomaty
+## Fakty empiryczne jako aksjomaty
 
 No więc może wpadłbym na taką geometryczną interpretację rachunku logicznego. Gdybym ją
 zakomunikował Tobie, z Twojej perspektywy byłby to *aksjomat*, ponieważ nie mogłobyś (ach,

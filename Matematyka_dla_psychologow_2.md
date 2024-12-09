@@ -100,7 +100,7 @@ Negacja jest operatorem jednoargumentowym, który z każdego zdania `p` tworzy n
 Każde zdanie postaci `¬p` jest *potencjalnym granatem odłamkowym*, a `¬` jest jego
 [*dźwignią*](https://pl.wikipedia.org/wiki/Granat_od%C5%82amkowy). Każdy *term typu `¬p`* (dowód
 typu / zdania `¬p`) jest *realnym* granatem odłamkowym. W przypadku wystąpienia *aplikacji termu
-typu `¬p` do termu typu `p`* ten granat `¬p` zostaje *uruchomiony* przez *mechanizm asprzeczności*:
+typu `¬p` do termu typu `p`* ten granat `¬p` zostaje *uruchomiony* przez *mechanizm sprzeczności*:
 każda taka aplikacja jest *dowodem fałszu* albo *absurdu*. Aplikując tą aplikację (sic!) do
 dowolnego *zdania `q`* (nie mylić z dowodem / termem typu zdaniowego `q`) wywołujemy *wybuch*
 granatu i jako *odłamek* tego wybuchu uzyskujemy *term typu `q`* czyli *dowód zdania `q`*.
