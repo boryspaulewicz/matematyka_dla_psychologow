@@ -1028,11 +1028,11 @@ albo do zdania `a → (a ∧ a)` [Czytaj: `a` implikuje koniunkcję zdań `a` i 
 ```
 
 **Typy zależne**: Słowo `theorem` istnieje głównie dla wygody urzytkownika. Moglibyśmy równie dobrze
-zastąpić je tutaj słowem `def`, bo `t1` jest zarazem *twierdzeniem* i *funkcją*. Różni się ona
-jednak pod ważnym względem od na przykład funkcji `suma`. Funkcja `suma` zwraca liczby naturalne,
-czyli termy typu `Nat` i tylko tego typu. Funkcja `t1` zwraca jednak dowody *różnych* zdań, czyli
-*różnych typów*, zależnie od tego, jakie zdanie dostanie jako argument. To jest przykład *typu
-zależnego*.
+zastąpić je tutaj słowem `def`, bo `t1` jest zarazem *twierdzeniem* i *funkcją*. Różni się jednak
+pod ważnym względem od na przykład funkcji `suma`. Funkcja `suma` zwraca liczby naturalne, czyli
+termy typu `Nat` *i tylko tego typu*. Funkcja `t1` zwraca za to dowody *różnych* zdań, czyli *termy
+różnych typów*, zależnie od tego, jakie zdanie dostanie jako argument. To jest przykład *typu
+zależnego*. Tego też nie możemy zrobić wprost w językach takich jak *C* czy *R*.
 
 Czy widzisz, jak dobrze to traktowanie twierdzeń jako parametrycznych funkcji pasuje do sposobu, w
 jaki posługujemy się tym, co można odczytać ze zwykłej "prozy matematycznej"?  Żeby to jeszcze raz
