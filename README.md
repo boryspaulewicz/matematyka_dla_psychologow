@@ -9,9 +9,11 @@ powtórek.
 
 **UWAGA**: Każda z wersji zawiera treści, które nie są omawiane w drugiej.
 
-[Matematyka dla psychologów 1 - wersja przegadana](./Lean_dla_psychologow_1.md)
+[Funkcje w Lean: pierwsze kroki - wersja przegadana](./Lean_dla_psychologow_1.md)
 
-[Matematyka dla psychologów 1 - wersja zwięzła](./Lean_dla_psychologow_1z.md)
+[Logika w Lean: pierwsze kroki - wersja przegadana](./Lean_dla_psychologow_2.md)
+
+[Lean: pierwsze kroki - wersja zwięzła](./Lean_dla_psychologow_1z.md)
 
 [Predykaty, relacje, duży kwantyfikator i dowód na istnienie Boga](./Matematyka_dla_psychologow_1.md)
 
