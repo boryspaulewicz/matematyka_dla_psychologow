@@ -208,10 +208,10 @@ Pierwsze zdanie w zakładce *Przesłanka* to:
 > Głupi mówi, nie ma Boga. 
 
 To jeszcze nie jest fragment potencjalnego dowodu, ale przyda się jako ćwiczenie. Ja na przykład
-jestem głupi, czasem wręcz bezdennie, jak stodoła, albo jak kartofel, a czasem jest tak źle, że
-jestem niemal tak głupi, jak współczesny system publikacji recenzowanych. Moim zdaniem bywam
-bezdennie tępy po prostu dlatego, że jestem człowiekiem. Widziałoś kiedyś, co ludzie robili lub
-robią, studento psychologii?
+jestem głupi, czasem wręcz bezdennie, jak stodoła, albo jak kartofel, a czasem nawet, gdy jest już
+bardzo źle, jestem niemal tak głupi, jak współczesny system publikacji recenzowanych. Moim zdaniem
+bywam bezdennie tępy po prostu dlatego, że jestem człowiekiem. Widziałoś kiedyś, co ludzie robili
+lub robią, studento psychologii?
 
 Wracając do zdania o głupich, czyli między innymi o mnie, zdaje mi się, że chodzi o coś w stylu:
 
