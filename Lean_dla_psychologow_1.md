@@ -706,10 +706,10 @@ jest "*n jest równe 10*" i to zdanie może być w danym kontekście prawdziwe (
 udowodnione), fałszywe (w logice konstruktywnej: istnieje dowód jego negacji), albo może mieć
 nieokreślony status pod względem prawdziwości. 
 
-Nawet, gdy zdefiniujemy `n` jako stałą o wartości `10`, to zdanie `n = 10` będzie wymagało w Lean
-udowodnienia, żeby można je było uznać za prawdziwe!  Ten dowód jest bardzo prosty, bo polega
-jedynie na tak zwanym *rozpakowaniu* albo *zastosowaniu definicji* zmiennej `n`, ale nadal jest to
-dowód.
+Nawet, gdy zdefiniujemy `n` jako stałą o wartości `10`, to zdanie `n = 10` (tu jest symbol `=`, a
+nie `:=`) będzie wymagało w Lean udowodnienia, żeby można je było uznać za prawdziwe!  Ten dowód
+jest bardzo prosty, bo polega jedynie na tak zwanym *rozpakowaniu* albo *zastosowaniu definicji*
+zmiennej `n`, ale nadal jest to dowód.
 
 **Wracamy do twierdzenia `t1`**: Słowo kluczowe `by` jest teraz podkreślone czerwoną falką, bo dowód
 jest rozpoczęty, ale nie jest jeszcze zakończony. Ponieważ pisząc `by` weszliśmy w *tryb dowodzenia
