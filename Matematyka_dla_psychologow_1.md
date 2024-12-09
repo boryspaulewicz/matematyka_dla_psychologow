@@ -560,8 +560,8 @@ własnych pojęciowych wglądów.
 
 Udawałem tu trochę głupszego, niż faktycznie jestem, bo wydaje mi się, że wiem, w jaki sposób można
 wiernie i prosto sformalizować ten rzekomy dowód, jednoznacznie wskazując centralny błąd Anzelma,
-przyjmując przy tym *życzliwą interpretację* (czyli w pewnym sensie dając Anzelmowi maksymalne
-szanse powodzenia) i *wszystkie* jego aksjomaty. 
+przyjmując przy tym *życzliwą interpretację* - czyli dając Anzelmowi maksymalne szanse powodzenia -
+i *wszystkie* jego aksjomaty.
 
 Nawet jednak gdy nie udaję głupszego, niż jestem, nie oczekuję, że będziesz wierzyło w to, co
 mówię. Wręcz przeciwnie, byłoby wspaniale, gdybyś przyjęło wobec tego, co mówię, postawę
