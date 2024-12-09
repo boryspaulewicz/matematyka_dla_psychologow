@@ -14,3 +14,5 @@ powtórek.
 [Matematyka dla psychologów 1 - wersja zwięzła](./Lean_dla_psychologow_1z.md)
 
 [Predykaty, relacje, duży kwantyfikator i dowód na istnienie Boga](./Matematyka_dla_psychologow_1.md)
+
+[Negacja, absurd, fałsz, sprzeczność i eksplozja](./Matematyka_dla_psychologow_2.md)
