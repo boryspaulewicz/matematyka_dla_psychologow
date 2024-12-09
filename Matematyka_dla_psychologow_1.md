@@ -419,7 +419,7 @@ wspólnego z wielkością fizyczną. Możemy spróbować jeszcze tak: Jeżeli ch
 wyobrażenia sobie w sensie zwizualizowania, to aksjomat jest nieakceptowalny. Musiało mu więc
 chodzić o "możliwość pomyślenia" w innym, bardziej abstrakcyjnym sensie. No ale na przykład
 *zdefiniować* jako coś większego niż Bóg możemy cokolwiek i ani kartka nam od tego nie zapłonie,
-jeśli zrobimy to na kartce, ani komputer nie wysiądzie, jeśli na komputerze.
+jeśli zrobimy to na kartce, ani nam komputer nie wybuchnie, jeśli zrobimy to na komputerze.
 
 Gdybym miał powiedzieć w tym momencie szczerze, co jak sądzę w tym dowodzie przede wszystkim nie
 gra, wskazałbym na niejawne przejście z *Obiekt x istnieje tylko w umyśle jako idea* do *Można
