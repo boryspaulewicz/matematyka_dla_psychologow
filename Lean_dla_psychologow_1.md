@@ -647,7 +647,7 @@ najczęściej wykładana w wersji tak zwanej *klasycznej*, w której prawdą jes
 
 Jak również:
 
-*Dla każdego zdania *p*, jeżeli nieprawda, że nieprawda, że *p*, to *p* * (inne zdanie prawdziwe w
+*Dla każdego zdania* p *, jeżeli nieprawda, że nieprawda, że* p *, to* p. (inne zdanie prawdziwe w
 logice klasycznej)
 
 W Lean domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
