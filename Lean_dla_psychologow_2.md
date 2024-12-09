@@ -542,6 +542,4 @@ dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W tej sytuac
 *jeżeli dzisiaj pada deszcz, to jutro będzie sobota*, po prostu dlatego, że ... jutro będzie
 sobota.
 
-### Przypisy
-
-[^1]: To jest luźna parafraza cytatu, ale nie pamiętam czyjego. Chyba jakiegoś buddysty.
+[Do następnej części](./Matematyka_dla_psychologow_1.md)

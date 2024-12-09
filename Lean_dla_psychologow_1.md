@@ -630,6 +630,8 @@ pierwszego parametru dodaje drugi i odejmuje trzeci i której wszystkie parametr
 jednej, dwóch i trzech liczb naturalnych, wszystko jedno jakich. Ewaluuj za pomocą komendy `#eval`
 aplikację tej funkcji do trzech liczb naturalnych i sprawdź, czy wynik się zgadza.
 
+[Do następnej części](./Lean_dla_psychologow_2.md)
+
 ### Przypisy
 
 [^1]: To jest luźna parafraza cytatu, ale nie pamiętam czyjego. Chyba jakiegoś buddysty.

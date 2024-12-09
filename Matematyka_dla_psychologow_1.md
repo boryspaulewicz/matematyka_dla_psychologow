@@ -624,3 +624,5 @@ mocno rzucało w oczy.
 I taka bardzo cenna lekcja: *Dowody*, a tak naprawdę *jakiekolwiek rozumowania*, często warto
 *konstruować* lub *re-konstruować*, czyli analizować, od *końca*, zaczynając od *wniosku*
 (celu). Bywa, że oszczędzamy w ten sposób sporo czasu.
+
+[Do następnej części](./Matematyka_dla_psychologow_2.md)
