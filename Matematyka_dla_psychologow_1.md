@@ -108,8 +108,10 @@ obawę a nie szantaż, bo tak twierdzę, też jest z Twojej perspektywy aksjomat
 więcej mam na myśli mówiąc w tym kontekście generalnie) o zdania i ich "wartości logiczne". Ale nie
 tylko. Bardzo ważną role odgrywa zarówno w matematyce jak i w filozofii logika *predykatów*. Z
 polskiej [strony Wikipedii](https://pl.wikipedia.org/wiki/Predykat) dowiadujemy się (2024-12-08), że
-predykat to "wieloznaczny termin mogący oznaczać: funktor zdaniotwórczy od argumentów x nazwowych,
-funkcję zdaniową argumentów nazwowych, albo wyrażenie opisujące pewne włsności i relacje". 
+predykat to
+
+> wieloznaczny termin mogący oznaczać: funktor zdaniotwórczy od argumentów x nazwowych, funkcję
+> zdaniową argumentów nazwowych, albo wyrażenie opisujące pewne włsności i relacje.
 
 *No więc* termin jest najwyraźniej wieloznaczny. Dopóki jednak trzymamy się sztywnych i jasnych
 reguł i pamiętamy o tej wieloznaczności w sytuacjach budzących wątpliwości, nie szkodzi, że jest

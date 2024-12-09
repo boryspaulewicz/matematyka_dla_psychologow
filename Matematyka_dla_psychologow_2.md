@@ -23,9 +23,10 @@ nazwanego a*) tworzy term tego zdania*.
 Jak każde zdanie, nie jest ono ani prawdziwe (udowodnione), ani fałszywe (nie jest udowodniona jego
 negacja), ale *gdybyśmy znaleźli* (w jakimś kontekście) *dowód tego zdania*, to otrzymalibyśmy term
 o typie: *funkcja, która z każdego zdania tworzy term tego zdania*, czyli *funkcja, która z każdego
-zdania tworzy dowód tego zdania*. Można to zdanie nazwać również *Fałsz*.
+zdania tworzy dowód tego zdania*.
 
 *Ex falso quodlibet*
 
 *Z Fałszu wynika wszystko*
 
+Inna nazwa na absurd to *Fałsz*.
