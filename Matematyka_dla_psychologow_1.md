@@ -246,6 +246,13 @@ temat autora wypowiedzi i oceniać je w świetle wiedzy zastanej i innych wypowi
 autora? Wydaje się, że powinniśmy brać pod uwagę *każdą interpretację*, która jest jednocześnie
 *spójna wewnętrznie* i *spójna z tym, co wiemy*, prawda?
 
+Ten ostatni fragment, zaczynający się od "Coś tu nie gra", napisałem *znacznie* później niż ten,
+który go poprzedza i zawiera błędną interpretację. Jak mówiłem, jedyne, czego można być pewnym, to
+formalne części tego skryptu, a interpretacja nie jest formalna. Piszę to, żeby nakłonić Cię do
+postawy sceptycznej. Nie wierz mi w nic "na słowo". Być może nawet celowo umieściłem jakieś błędy,
+żeby zmusić Cię do krytycznej lektury i samodzielnego myślenia. W każdym razie podoba mi się ten
+pomysł!
+
 Co dalej? 
 
 > Ale nawet ten, co tak mówi, musi rozumieć o co chodzi, gdy ktoś mówi: „coś, ponad co nic większego
