@@ -170,8 +170,8 @@ Mamy oto implikacje i predykaty. Możemy się teraz śmiało zmierzyć z kwesti�
 
 ## Formalizacja dowodu na istnienie Boga Anzelma z Cantenbury
 
-*PSA*: Żeby było jasne, nie mam nic przeciwko ludziom wierzącym i nie uważam, żeby ludzie wierzący,
-mówiąc ogólnie, byli wyraźnie głupsi niż ludzie niewierzący. Mój najlepszy przyjaciel jest
+**PSA**: Żeby było jasne, nie mam nic przeciwko ludziom wierzącym i nie uważam, żeby ludzie
+wierzący, mówiąc ogólnie, byli wyraźnie głupsi niż ludzie niewierzący. Mój najlepszy przyjaciel jest
 wierzący. Jeżeli jesteś osobą wierzącą i poczujesz, że coś, co napisałem poniżej Cię obraża, to
 przykro mi, ale nic na to nie poradzę.
 
