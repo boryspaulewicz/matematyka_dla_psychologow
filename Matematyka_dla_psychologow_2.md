@@ -36,21 +36,21 @@ pojęciowy*, który możemy wyrazić poprawnie w języku teorii typów zależnyc
 coś, na co musimy się wspólnie umówić, żeby nasza dalsza komunikacja miała sens.
 
 Zwracam uwagę, że `Absurd` *nie* ma struktury predykatu. Moglibyśmy na przykład aksjomatycznie
-zdefiniować jako oznaczającą "generyczny" typ stałą `Zniwiaz`, a stałą `Ponury` jako predykat
-dotyczący żniwiaży. `Ponury` byłby wtedy typem funkcyjnym z typu `Zniwiaz` do *typu zdaniowego
-`Prop`*, a *nie* funkcją z typu `Zniwiaz` do *termów typu `Prop`*. 
+zdefiniować jako oznaczającą "generyczny" typ stałą `Zniwiarz`, a stałą `Ponury` jako predykat
+dotyczący żniwiarzy. `Ponury` byłby wtedy typem funkcyjnym z typu `Zniwiarz` do *typu zdaniowego
+`Prop`*, a *nie* funkcją z typu `Zniwiarz` do *termów typu `Prop`*.
 
 Aplikacja *predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*. Aplikacja *absurdu*
 do *zdania* jest *dowodem tego zdania*.
 
 ```lean
-axiom Zniwiaz : Type
-axiom Krystian : Zniwiaz
-axiom Ponury : Zniwiaz → Prop
+axiom Zniwiarz : Type
+axiom Krystian : Zniwiarz
+axiom Ponury : Zniwiarz → Prop
 #check Ponury Krystian -- Ponury Krystian : Prop
 ```
 
-Zdanie `Ponury Krystian` mówi, że Krystian jest ponury(m żniwiażem), ale to tylko zdanie, a nie jego
+Zdanie `Ponury Krystian` mówi, że Krystian jest ponury(m żniwiarzem), ale to tylko zdanie, a nie jego
 *asercja*; na tym etapie nie wiemy jeszcze, czy Krystian jest faktycznie ponury. Można powiedzieć,
 że tylko "rozważamy" albo wyrażamy formalnie taką "ewentualność". Nie da się *aplikować absurdu* do
 tego zdania, bo nasz absurd jest *typem funkcyjnym*, a nie *funkcją*.
@@ -76,7 +76,7 @@ end strefa_komfortu
 ```
 
 Jeżeli skopiujesz wszystkie dotychczasowe fragmenty kodu Lean'a, to po umieszczeniu kursora na
-komendzie `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że hipotetyczny żniwiaż
+komendzie `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że hipotetyczny żniwiarz
 Krystian jest ponury. Powinno być dla Ciebie jasne, że tak samo możemy uzyskać dowód dowolnego
 innego zdania. Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
