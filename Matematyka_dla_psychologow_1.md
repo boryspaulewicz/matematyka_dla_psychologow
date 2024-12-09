@@ -578,7 +578,7 @@ która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 
 Otóż to, burden of proof. *Proof*.
 
-Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe zagadki pojęciowe moglibyśmy
+Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
 wpływowych psychologicznych teorii i modeli. Przekonamy się o tym w stosownym momencie.
 
