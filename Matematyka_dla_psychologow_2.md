@@ -83,7 +83,7 @@ innego zdania. Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować 
 bo skorzystaliśmy z hipotetycznego dowodu absurdu, a *z absurdu wynika wszystko*. Stanęliśmy oto w
 obliczu *eksplozji dedukcyjnej*.
 
-Niechaj wszystkie istoty, żywe lub martwe, pokłonią się przed potęgą typów zależnych.
+Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych.
 
 *Ex falso quodlibet.*
 
