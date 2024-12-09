@@ -586,8 +586,8 @@ wpływowych psychologicznych teorii i modeli. Przekonamy się o tym w stosownym 
 
 Jak już się ma typy zależne, to ze strzałkami można zrobić wiele. Na przykład, predykaty można
 zrobić, i relacje można zrobić, a raczej zakodować, czyli właściwie *stworzyć, poprzez akt zapisu
-formalnego, model predykatu lub relacji*. Wydaje się przy tym, że nasze relacje są jakby, albo są po
-prostu, uogólnionymi predykatami.
+formalnego, model predykatu lub relacji*. Wydaje się przy tym, że te nasze relacje są jakby, albo po
+prostu są, uogólnionymi predykatami.
 
 Już w tym momencie, dysponując dosyć skromnym zbiorem narzędzi, możemy dociekać o co chodzi w
 rozmaitych definicjach i rozumowaniach rozbierając je na części.
@@ -595,6 +595,6 @@ rozmaitych definicjach i rozumowaniach rozbierając je na części.
 I jeszcze taka niespodzianka, że mieliśmy od początku duży kwantyfikator, tylko nam się to nie dość
 mocno rzucało w oczy.
 
-I taka bardzo cenna lekcja: *Dowody*, a ogólnie *jakiekolwiek rozumowania*, czasem warto
-*konstruować* lub *analizować* od *końca*, czyli zaczynając od *wniosku* (albo celu). Bywa, że
-oszczędza się w ten sposób sporo czasu.
+I taka bardzo cenna lekcja: *Dowody*, a tak naprawdę *jakiekolwiek rozumowania*, często warto
+*konstruować* lub *re-konstruować*, czyli analizować, od *końca*, zaczynając od *wniosku*
+(celu). Bywa, że oszczędzamy w ten sposób sporo czasu.
