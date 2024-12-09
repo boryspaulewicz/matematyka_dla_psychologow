@@ -384,9 +384,9 @@ Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest t
 
 **W Lean nie ma funkcji "prawdziwie" dwuargumentowych**: Funkcja `suma` *wygląda* jak funkcja
 dwuargumentowa, ale tak naprawdę nie jest dwuargumentowa. Jest funkcją jednoargumentową, *która
-zwraca funkcję jednoargumentową*, która dopiero dodaje parametr tej pierwszej funkcji do parametru
-tej drugiej. Może przeczytaj to jeszcze raz. Taki sposób definiowania funkcji więcej niż
-jednoargumentowych nazywa się Curryingiem, od nazwiska pewnego wybitnego matematyka.
+zwraca funkcję jednoargumentową*, która dopiero dodaje parametr tej pierwszej funkcji do swojego
+jedynego parametru. Może przeczytaj to jeszcze raz. Taki sposób definiowania funkcji więcej niż
+jednoargumentowych nazywa się *Curryingiem*, od nazwiska pewnego wybitnego matematyka.
 
 **Polecenie**: Napisz kod pozwalający zobaczyć typ (uwaga: *typ*, a nie *rezultat ewaluacji*, a więc
 nie masz teraz używać komendy `#eval`) aplikacji funkcji `suma` do *tylko jednego* argumentu
@@ -433,14 +433,14 @@ co jest zapisane jako komentarz po znakach `--`):
 i tak dalej... Te typy wyższych rzędów są potrzebne tylko z pewnych (dość nudnych) powodów
 technicznych (może słyszała/eś o paradoksie Russella? Chodzi o coś zbliżonego).
 
-Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny, będący skrótem od
-angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
+Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. Nazwa tego typu jest skrótem
+od angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
 konsekwentnie interpretować jako zdania. Będziemy więc mówić po prostu, że termy typu `Prop` to
 zdania. To może być na początku dezorientujące:
 
 Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop` albo `a` jest zdaniem), to jeżeli `h : a`
-(czytaj `h` ma typ `a` albo `h` jest termem typu `a`), to możemy konsekwentnie interpretować `h`
-jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem `a`.
+(czytaj: `h` ma typ `a` albo `h` jest termem typu `a`), to możemy konsekwentnie interpretować `h`
+jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem `a`:
 
 To, że możemy w ten sposób konsekwentnie interpretować termy typu `Prop` i termy, których te termy
 są typami (nie zgubiła/eś się?) wynika z [izomorfizmu
@@ -472,7 +472,7 @@ korzystać z rozmaitych ułatwień, jakie oferuje dany asystent.
 ## O logice w Lean
 
 **Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym *odróżnianiem* (i elastycznym
-*przełączaniem* się między odpowiadającymi następującym różnicom punktami widzenia):
+*przełączaniem się* między odpowiadającymi następującym różnicom punktami widzenia):
 
 1. Dowolnych zdań *jako takich*, a więc niekoniecznie prawdziwych, od...
 
@@ -492,11 +492,11 @@ mnie fragmentów.
 w logice. Mówiąc luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to
 *dowolne* zdania, proste lub złożone (i tylko same zdania, a nie ich prawdziwość czy fałszywość,
 albo fakt bycia dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację za pomocą
-strzałki skierowanej w prawo →.
+strzałki skierowanej w prawo: →.
 
-Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w oficjalnym, jednoznacznym języku
-matematyki, implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Czy przypomina Ci to coś, o
-czym mówiliśmy już wcześniej?
+Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
+implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Czy przypomina Ci to coś, o czym
+mówiliśmy już wcześniej?
 
 **Dygresja**: Niektórzy mówią, że język matematyki jest *precyzyjny*, jednak w matematyce mówimy
 czasem *celowo nieprecyzyjnie*. Na przykład, możemy wyrazić wprost w matematyce zdanie, że jakaś
@@ -507,11 +507,12 @@ zacierać różnice między funkcjami i implikacjami.
 
 Co więc wyróżnia język matematyki, poza *relatywną sztucznością*, która nie wydaje się taka istotna?
 Nie jestem pewien, ale gdybym miał zgadywać, powiedziałbym, że jest to *jednoznaczność i sztywność
-reguł użycia*. I jeszcze to, że chociaż pojęcia matematyczne często mają genezę w pojęciach często
-używanych w języku naturalnym, to zwykle stanowią ich wersję bardzo uproszczoną do kilku dobrze
-określonych właściwości. Te są wyrażane czasem jako aksjomaty, czyli podawane bez uzasadnienia
-formalnego (za to zwykle z uzasadnieniem w języku naturalnym) konwencje dotyczące dopuszczalnych
-sposobów używania pojęć.
+reguł użycia*, ale tylko *formalnego*, czyli mechanicznego. I jeszcze to, że chociaż pojęcia
+matematyczne często mają genezę w pojęciach często używanych w języku naturalnym, to zwykle stanowią
+ich wersję bardzo uproszczoną do kilku dobrze określonych właściwości. Te są wyrażane czasem jako
+*aksjomaty*, czyli podawane bez uzasadnienia formalnego, a więc *bez dowodu* (za to zwykle z
+uzasadnieniem w języku naturalnym) *konwencje dotyczące dopuszczalnych sposobów używania pojęć*
+(czyli pewne formalne reguły gry).
 
 W ten sposób - odzierając pojęcia (na przykład, pojęcia zdania, prawdy i fałszu) ze zbędnych dla
 dobrze określonych celów znaczeń (na przykład, dla celu analizy w pewien techniczny sposób
@@ -537,6 +538,8 @@ Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 
 Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcji przekształcających termy typu `A` w termy
 typu `B`*.
+
+*Ponieważ w teorii typów każde zdanie jest typem, to każda implikacja jest funkcją*.
 
 **Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią
 jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili, że nie jest całkiem
