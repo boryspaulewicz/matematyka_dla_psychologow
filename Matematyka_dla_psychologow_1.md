@@ -564,14 +564,14 @@ przyjmując przy tym *życzliwą interpretację* - czyli dając Anzelmowi maksym
 i *wszystkie* jego aksjomaty.
 
 Nawet jednak gdy nie udaję głupszego, niż jestem, nie oczekuję, że będziesz wierzyło w to, co
-mówię. Wręcz przeciwnie, byłoby wspaniale, gdybyś przyjęło wobec tego, co mówię, postawę
-*sceptyczną*. A to dlatego, że *próbuję dobrze odgrywać rolę naukowca* i tego oczekuję też od
-Ciebie. Jestem głupi, więc odgrywanie dobrze roli naukowca to wszystko, na co mnie stać, gdy mam
+mówię. Wręcz przeciwnie, byłoby moim zdaniem wspaniale, gdybyś przyjęło wobec tego, co mówię,
+postawę *sceptyczną*. A to dlatego, że *próbuję dobrze odgrywać rolę naukowca* i tego oczekuję też
+od Ciebie. Jestem głupi, więc odgrywanie dobrze roli naukowca to wszystko, na co mnie stać, gdy mam
 dobry dzień. Według mnie, to właśnie, między innymi, oznacza bycie naukowcem. Co jeszcze, według
-mnie, poza czymś w rodzaju racjonalności, oznacza bycie naukowcem? Między innymi *wolność*. Pod tym
-względem zgadzam się z Noamem Chomskim, który uważa się za *anarchistę*. To słowo brzmi może
-niepokojąco, ale chodzi tak naprawdę o postawę, która w mojej ocenie nie jest wcale ekscentryczna
-ani ekstremalna:
+mnie, poza czymś w rodzaju racjonalności, oznacza bycie naukowcem? Dziękuję, że pytasz! Między
+innymi *wolność*. Pod tym względem (jak i wieloma innymi) zgadzam się z genialnym Noamem Chomskim,
+który uważa się za *anarchistę*. To słowo brzmi może niepokojąco, ale chodzi tak naprawdę o postawę,
+która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
