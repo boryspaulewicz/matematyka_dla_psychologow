@@ -166,7 +166,7 @@ może być, na przykład, ale obecny poziom ogólności nam wystarczy.
 
 **Definicja predykatu**: *Predykatem* będzie więc każda *funkcja z jakiegoś typu do typu zdań*.
 
-Mamy oto implikacje i predykaty. Możemy się teraz śmiało zmierzyć z kwestią istnienia Boga.
+Mamy oto implikacje i predykaty, a to już dużo. Możemy się teraz zmierzyć z kwestią istnienia Boga.
 
 ## Formalizacja dowodu na istnienie Boga Anzelma z Cantenbury
 
