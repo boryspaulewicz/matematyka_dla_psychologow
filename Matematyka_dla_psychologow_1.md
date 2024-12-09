@@ -296,6 +296,21 @@ abbrev II := IstniejeTylkoJakoIdea
 theorem T1 : ¬ (II Bog) := by ... ?
 ```
 
+Daleko nam jeszcze do zadowalającej formalizacji całości tego być może dowodu, ale możemy już w tym
+momencie powiedzieć o nim kilka ważnych rzeczy. Na przykład, struktura kodu powyżej pozwala łatwo
+zauważyć, że to jest tak zwany dowód [*nie
+wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost). Może najbardziej deskryptywna nazwa
+na ten typ dowodu to *zaprzeczenie przeciwieństwa*.
+
+**Struktura dowodu nie wprost**: Jeżeli chcemy (w danym kontekście) udowodnić zdanie *P*, możemy
+próbować założyć jego negację - *¬P* (czytaj *nie P*) - a potem próbować wyprowadzić z tego
+założenia *sprzeczność* (albo *fałsz*). Gdyby nam się to udało, to *korzystając z zasady podwójnej
+negacji*, zgodnie z którą z *¬¬P* (czytaj: *nieprawda, że nieprawda, że P*) wynika *P*, moglibyśmy
+wyprowadzić wniosek *P*.
+
+Zasada podwójnej negacji obowiązuje w logice *klasycznej*, ale *nie* obowiązuje w logice
+*konstruktywnej*, której tu na razie używamy. Anzelm próbował więc korzystać z logiki klasycznej.
+
 # Relacje
 
 I co teraz? Chcielibyśmy móc napisać coś w stylu:
