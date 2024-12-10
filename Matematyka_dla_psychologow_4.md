@@ -39,17 +39,20 @@ konfliktu interesów. Mam na myśli konflikt interesów, który jest zarazem pow
 ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków jest zwykle odpowiedzialny za
 zbieranie lub analizę danych*. Dlatego tak zwane wątpliwe praktyki badawcze (ang. *questionable
 research practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami,
-takimi jak rozliczanie pracowników z *ilości* publikacji i *ilości* grantów, ta możliwość musi
-często prowadzić do wątpliwych praktyk, ponieważ naukę, na moje między innymi szczęście, uprawiają
-*zwykli ludzie*, tacy jak Ty czy ja.
+takimi jak rozliczanie pracowników niemal wyłącznie z *ilości* publikacji, *ilości* punktów
+publikacyjnych i *ilości* grantów, ta możliwość musi często prowadzić do wątpliwych praktyk,
+ponieważ naukę, na moje między innymi szczęście, uprawiają *zwykli ludzie*, tacy jak Ty czy
+ja. Jestem durniem i wielu rzeczy nie rozumiem, ale gdybym miał zgadywać, powiedziałbym, że sedno
+tego problemu polega na tym, że w obecnym systemie wątpliwe praktyki badawcze są po prostu *łatwe*.
 
-Zwróć proszę uwagę, że gdyby istniał taki sposób uprawiania nauki, nie miałoby znaczenia, czy
-autorem "artykułu" jestem ja, pracownik zatrudniony na uczelni, czy Ty, albo dajmy na to Twoja
-babcia. Bo czemu miałoby to mieć wtedy jakiekolwiek znaczenie? Gdyby okazałoby się, że Twoja babcia
-ma coś ważnego do powiedzenia na interesujący z naukowego punktu widzenia temat, to chyba wypadałoby
-potraktować Ją poważnie. Gdyby potrafiła dobrze uzasadnić swoje wnioski, to te wnioski powinny być
-traktowane tak samo jak uzasadnione wnioski pracownika naukowego. Wydaje mi się, że się z tym
-zgodzisz, bo nie potrafię dostrzec nawet tylko zarysu sensownej alternatywy.
+Zwróć proszę uwagę, że gdyby istniał ten alternatywny sposób uprawiania nauki, o którym wspominałem,
+nie miałoby znaczenia, czy autorem "artykułu" jestem ja, pracownik zatrudniony na uczelni, czy Ty,
+albo dajmy na to Twoja babcia. Bo czemu miałoby to mieć *jakiekolwiek* znaczenie? Gdyby okazałoby
+się, że Twoja babcia ma coś ważnego do powiedzenia na interesujący z naukowego punktu widzenia
+temat, to chyba wypadałoby potraktować Ją poważnie. Ja tak w każdym razie sądzę. Gdyby Twoja (albo
+niestety już nieżyjąca moja) babcia potrafiła dobrze uzasadnić swoje wnioski, to te wnioski powinny
+być traktowane tak samo jak uzasadnione wnioski pracownika naukowego. Wydaje mi się, że się z tym
+zgodzisz, bo nie potrafię dostrzec nawet tylko zarysu jakiegoś sensownego kontrargumentu.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia dość zaskakującej, ale bardzo prostej definicji - definicji pojęcia *zadania*. Dzięki
