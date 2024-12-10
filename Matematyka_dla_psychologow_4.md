@@ -76,18 +76,38 @@ Stąd będzie wynikał między innymi taki oto dziwny wniosek:
 *Bycie takim a nie innym zachowaniem jest stopniowalne i może być jedynie przybliżane przez
 rzeczywiste procesy fizyczne*.
 
-Nie tylko ten wniosek będzie zresztą dziwny. Ale wybiegam już za bardzo w przyszłość.
+W ten sposób rozwiążemy, a raczej *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
+
+Nie tylko ten wniosek będzie zresztą dziwny. Zobaczymy w całkiem nowym świetle sens pomiaru
+psychologicznego. Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni,
+zobaczyć to, co niewidzialne, ekstremalnie złożone, idiosynkratyczne, zmienne i w ogromnym stopniu
+zależne od całej historii interakcji organizmu z jego środowiskiem, to jest strukturę umysłu i
+przebieg procesów umysłowych, albo zamiast skupiać się na czysto przyczynowych relacjach między
+fizycznie rozumianymi bodźcami i reakcjami, jak to mają w zwyczaju behawioryści, nagle bardzo
+zainteresujemy się czymś jakby "z drugiej strony" - *środowiskiem*. 
+
+Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa*, i zawsze
+pozostanie - będzie to układ powiązanych zadań. Wielką zaletą tak rozumianego środowiska jako
+przedmiotu badań będzie jego ... bezpośrednia obserwowalność i względnie łatwa modyfikowalność. A
+także to, że wszystko, co na temat tak rozumianego środowiska ustalimy, będzie miało automatycznie
+znaczenie jednocześnie teoretyczne i aplikacyjne. Nabierzemy wręcz ochoty, żeby zacząć powolutku
+konstruować coś na kształt ogólnej teori środowiska rozumianego właśnie jako układu powiązanych
+zadań. Funkcje poznawcze, takie jak percepcja, pamięć czy uwaga, okażą się wtedy dosłownie
+własnościami zadań. No będzie się działo, ale zdaje się, że zanadto już wybiegam w przyszłość.
 
 Osiągniemy to wszystko, mam nadzieję, nie korzystając z żadnej niemal wiedzy psychologicznej, bo też
 nie mam poczucia, żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych
 rzeczy bardzo się przydaje to, co wiemy, ale nie oszukujmy się, psychologia naukowa jest ciągle na
 etapie powstawania.
 
-Będziemy korzystać przede wszystkim z tej niezwykłej *meta-matematyki stosowanej*, której próbuję tu
-używać jako *systematycznej metody badania meta-teoretycznego*, jaką jest teoria typów zależnych, a
-której autorem jest wybitny szwedzki matematyk i filozof [Per
+Będziemy przy tym korzystać przede wszystkim z tej niezwykłej *meta-matematyki stosowanej*, której
+próbuję tu używać jako *systematycznej metody badania meta-teoretycznego*, jaką jest teoria typów
+zależnych, a której autorem jest wybitny szwedzki matematyk i filozof [Per
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f). A może filozof i matematyk? Nie
-wiem, co by wolał. Wciąż jest z nami, więc może jeszcze zdążę go o to zapytać.
+wiem, co by wolał. Wciąż jest z nami, więc może jeszcze zdążę go o to zapytać. Może nawet na pewnym
+etapie pojawi się teoria kategorii, bo ta nadaje się znakomicie do formalizacji, czyli tego, co
+nazwałem już - dopiero co uzasadniając i ilustrując ten terminologiczny wybór! - "matematyczną
+konkretyzacją", relacji między różnymi punktami widzenia na to samo.
 
 A gdyby udało nam się zrealizować niektóre z tych ambitnych celów, nawet tylko jeden, to kto wie,
 może kiedyś nadarzy się okazja, żebyś Ty lub ja, przytaczając słowa innej wybitnej postaci,
