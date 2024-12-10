@@ -599,15 +599,15 @@ która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
 
-Otóż to, burden of proof. Gdy bierzesz udział w moich zajęciach, jesteś pod presją publicznej
-instytucji w której pracuję zmuszono tymczasowo traktować mnie jak autorytet. To oznacza pewne
-zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of proof jest wtedy on
-*me*.
+Otóż to, burden of proof. Bardzo odpowiada mi ten rodzaj wolności. Gdy bierzesz udział w moich
+zajęciach, jesteś pod presją publicznej instytucji w której pracuję zmuszono tymczasowo traktować
+mnie jak autorytet. To oznacza pewne zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności,
+the burden of proof jest wtedy on *me*. 
 
-Bardzo odpowiada mi ten rodzaj wolności. Oboje mamy też jednak pewne zobowiązania, bo jesteśmy
-częścią wspólnoty, dzięki której możemy między innymi robić to, co właśnie robimy. Ja pracuję na
-uczelni za publiczne pieniądze, a Ty studiujesz za pieniądze publiczne i być może też pieniądze
-Twoich rodziców. Dlatego mamy wobec siebie nawzajem pewne oczekiwania.
+Oboje mamy więc pewne zobowiązania, bo jesteśmy częścią wspólnoty, dzięki której możemy między
+innymi robić to, co właśnie robimy. To jest koszt wolności, o której mówię. Ja pracuję na uczelni za
+publiczne pieniądze, a Ty studiujesz za pieniądze publiczne i być może też pieniądze Twoich
+rodziców. Dlatego mamy wobec siebie nawzajem pewne oczekiwania.
 
 Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzając dużej ilości czasu na
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
