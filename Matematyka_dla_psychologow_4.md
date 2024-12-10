@@ -27,12 +27,12 @@ zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
 Ponieważ taki sformalizowany artykuł naukowy będzie pewnym programem komputerowym z dokumentacją,
 wyrażającym w języku teorii typów zależnych rozumowanie, które obecnie komunikujemy posługując się
-tylko językiem formalnym, to te artykuły będzie można *składać* w większe programy. Nietrudno
-wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów mogłaby tworzyć
-biblitekę wiedzy naukowej, składającej się ze strumieni wnioskowania z danych. Praca teoretyczna
-polegałaby wtedy na odkrywaniu nowych sposobów łączenia danych z wnioskami i odkrywania nowych
-wniosków, a więc na przekierowywaniu dedukcyjnych strumieni empirycznych. Praca empiryczna polegała
-by zaś na dostarczaniu danych w taki sposób, żeby zminimalizować konflikt interesów.
+prawie wyłącznie językiem naturalnym, to te artykuły będzie można *składać* w większe
+programy. Nietrudno wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów
+mogłaby tworzyć biblitekę wiedzy naukowej, składającej się ze strumieni wnioskowania z danych. Praca
+teoretyczna polegałaby wtedy na odkrywaniu nowych sposobów łączenia danych z wnioskami i odkrywania
+nowych wniosków, a więc na przekierowywaniu dedukcyjnych strumieni empirycznych. Praca empiryczna
+polegała by zaś na dostarczaniu danych w taki sposób, żeby zminimalizować konflikt interesów.
 
 W tym momencie każdy artykuł empiryczny powinien w zasadzie zawierać adnotację o występowaniu
 konfliktu interesów. Mam na myśli konflikt interesów, który jest zarazem powszechny i o którym, o
