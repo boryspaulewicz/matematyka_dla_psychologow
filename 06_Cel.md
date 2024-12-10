@@ -1,4 +1,4 @@
-# Cel
+# Celem jest cel celu
 
 Jeżeli dotarła/eś do tego momentu, to chyba mogę Ci wyjawić prawdziwy cel naszej podróży. Zamierzam
 wytłumaczyć Ci między innymi, na czym polega istota wnioskowania statystycznego, w wersji
@@ -78,6 +78,10 @@ małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw
 *Cel, zadanie, wartość i norma są jednym i tym samym - preferencją hipotetycznego zewnętrznego
 obserwatora*.
 
+Zwracam uwagę, że cel jest zgodnie z tą (jeszcze nieformalną) definicją własnością hipotetycznego
+zewnętrznego obsewatora, a nie na przykład człowieka czy innego zwierzęcia, którego zachowanie "jest
+obserwowane"!
+
 *Zachowanie, ten centralny przedmiot zainteresowania psychologii, to nic innego jak działanie celowe
 w przyjętym znaczeniu pojęcia cel*.
 
@@ -92,30 +96,30 @@ Nie tylko ten wniosek będzie zresztą dziwny. Zobaczymy w nowym świetle sens p
 psychologicznego. Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni,
 zobaczyć to, co:
 
-niewidzialne
+*niewidzialne*
 
-ekstremalnie złożone
+ekstremalnie *złożone*
 
-idiosynkratyczne
+*idiosynkratyczne*
 
-zmienne i 
+*zmienne* i 
 
-w ogromnym stopniu zależne od całej, w zasadzie nieobserwowalnej historii interakcji organizmu z
-jego środowiskiem
+w ogromnym stopniu *zależne* od całej, w zasadzie nieobserwowalnej *historii interakcji organizmu z
+jego środowiskiem*
 
 to jest strukturę umysłu i przebieg procesów umysłowych, albo zamiast skupiać się na czysto
 przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak to mają w zwyczaju
-behawioryści, nagle bardzo zainteresujemy się czymś jakby kompletnie "z drugiej strony" - *ś r o d o
-w i s k i e m*.
+behawioryści, nagle bardzo zainteresujemy się czymś jakby kompletnie "z drugiej strony", to jest *ś
+r o d o w i s k i e m*.
 
 Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa* i czym zawsze
-pozostanie - będzie to *układ powiązanych zadań*. Wielką zaletą tak rozumianego środowiska jako
-przedmiotu badań będzie jego ... bezpośrednia obserwowalność i względnie łatwa modyfikowalność. A
-także to, że wszystko, co na temat tak rozumianego środowiska ustalimy, będzie miało automatycznie
-znaczenie jednocześnie teoretyczne i aplikacyjne. Nabierzemy wręcz ochoty, żeby zacząć powolutku
-konstruować coś na kształt ogólnej teori środowiska rozumianego właśnie w taki sposób. *Funkcje
-poznawcze*, takie jak percepcja, pamięć, czy uwaga, okażą się wtedy dosłownie *własnościami
-zadań*. No będzie się działo, ale zdaje się, że zanadto już wybiegam w przyszłość.
+pozostanie - będzie to *układ* albo *konstelacja powiązanych zadań*. Wielką zaletą tak rozumianego
+środowiska jako przedmiotu badań będzie jego ... bezpośrednia obserwowalność i względnie łatwa
+modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska ustalimy, będzie
+miało automatycznie znaczenie jednocześnie teoretyczne i aplikacyjne. Nabierzemy wręcz ochoty, żeby
+zacząć powolutku konstruować coś na kształt ogólnej teori środowiska rozumianego właśnie w taki
+sposób. *Funkcje poznawcze*, takie jak percepcja, pamięć, czy uwaga, okażą się wtedy dosłownie
+*własnościami zadań*. No będzie się działo, ale zdaje się, że zanadto już wybiegam w przyszłość.
 
 Osiągniemy to wszystko, mam nadzieję, nie korzystając z żadnej niemal wiedzy psychologicznej, bo też
 nie mam poczucia, żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych
