@@ -118,16 +118,16 @@ absurdu*. Aplikując tą aplikację (sic!) do dowolnego *zdania `q`* wywołujemy
 *odłamek* tego wybuchu uzyskujemy *term typu `q`* czyli *dowód zdania `q`*[^1].
 
 **Definicja negacji w logice konstruktywnej**: Negacja zdania `p` to funkcja / implikacja, która
-jest zdaniem / typem, które możemy konsekwentnie interpretować jako zdanie *z `p` wynika absurd /
+jest zdaniem / typem, dającym się konsekwentnie interpretować jako zdanie *z `p` wynika absurd /
 fałsz*, albo *gdyby `p` było prawdą, nastąpiłaby apokalipsa*:
 
 ```lean
 def nie (p : Prop) : Prop := p → Absurd
 ```
 
-Symbol `¬` działa w Lean tak jak zdefiniowana właśnie stała `nie`.
+Symbol `¬` działa w Lean podobnie (ale nie całkiem tak samo) jak zdefiniowana właśnie stała `nie`.
 
-**Polecenie**: Aby uzyskać w Lean symbol negacji `¬` wpisz `\neg`, po czym usuń ten symbol.
+**Polecenie**: Aby uzyskać w Lean symbol negacji `¬`, wpisz `\neg`, po czym usuń ten symbol.
 
 Z powodów technicznych, które nie będą nas interesować, definicja absurdu w Lean ma inny sens i jest
 też bardziej skomplikowana:
@@ -155,7 +155,108 @@ myśleć w całkiem nowy sposób.
 
 ## Negacja w praktyce dowodzenia
 
-cdn
+Myślę, że jesteś już gotowa/y, żeby poćwiczyć dowodzenie zdań zawierających negację. Ale muszę się
+zastanowić, jakie zadanie Ci zaproponować. Wiemy, że negacja to szczególny rodzaj
+implikacji. Zadanie może polegać na *uzyskaniu* dowodu negacji wewnątrz jakiejś formuły logicznej,
+albo na jej *użyciu*. Zacznijmy od użycia. Żeby skonstruować takie zadanie, muszę stworzyć zdanie, w
+którym negacja będzie odgrywała rolę przesłanki. Może takie `¬p → q`? No nie, z tym nic się nie da
+zrobić, bo są tylko dwa zdania, a żeby użyć (dowodu) `¬p` trzeba mieć również (dowód) `p`. To może
+tak: `¬p → q → p`? Też bez sensu. Przecież z `¬p` i `q` nie może wynikać `p`. Zaraz, ze sprzeczności
+wynika każde zdanie, a więc też zdanie `q`. Już wiem.
+
+**Zadanie**: Udowodnij twierdzenie `¬p → p → q`. To zdanie składa się z dwóch różnych zdań
+atomowych, `p` i `q`, więc Lean musi wiedzieć, lokalnie, to znaczy *wewnątrz dowodu*, że to są
+zdania. Jednocześnie to mają być *zmienne*, za które chcemy móc podstawiać dowolne zdania w
+przyszłości, stosując konstruowane twierdzenie. W takim razie "zdaniowość" nazw `p` i `q` musi być
+zapisana jako argumenty twierdzenia jako funkcji:
+
+```lean
+theorem t1 (p : Prop) (q : Prop) : ¬p → p → q := by
+-- Gdy kursor będzie w następnej linijce po tym komentarzu, znajdziesz się w trybie
+-- dowodzenia interaktywnego.
+```
+
+Mamy do udowodnienia implikację, której następnik jest implikacją. Pamiętasz konwencję dotyczącą
+nawiasów w takich implikacjach? Zdania `¬p → p → q` i `¬p → (p → q)` są tym samym zdaniem, bo
+strzałka wiąże z prawej. Poprzednikiem tej implikacji jest `¬p`, a jej następnikiem jest `(p → q)`.
+
+Wiesz już, że udowodnienie tej implikacji polega na udowodnieniu następnika `(p → q)` zakładając
+poprzednik `¬p`. Wiesz też, że gdy założysz ten poprzednik, używając komendy `intro` z wybraną przez
+siebie nazwą na hipotetyczny dowód `¬p`, to zostanie jako cel do udowodnienia prostsze zdanie `(p →
+q)`. A żeby udowodnić to prostsze zdanie trzeba znowu założyć poprzednik, w ten sam sposób, tylko
+używając innej nazwy. Wtedy zostanie tylko zdanie `q`. Jedynym sposobem, żeby udowodnić to ostatnie
+zdanie, będzie skorzystanie z tego, co już w tym momencie będziesz miał/a, czyli z hipotetycznych
+dowodów zdań `¬p` i `p`. Byłbym zapomniał - masz przecież jeszcze coś w kontekście: zdania jako
+takie (a nie ich dowody), `p` i `q`, które są parametrami twierdzenia-funkcji `t1`, a więc muszą być
+wewnątrz tego twierdzenia dostępne. Pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym
+momencie muszę objaśnić różnicę, między moją definicją absurdu i definicją Leana.
+
+**Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
+Leanie można zastosować `absurd`, który jest zawsze dostępny, do dwóch termów, dowodu tego samego
+zdania w wersji "pozytywnej" i "negatywnej" (dowodu negacji tego zdania), *w tej
+kolejności*. Kolejność jest myląca, bo przecież jeśli negacja `p` jest implikacją z `p` do fałszu,
+to powinniśmy stosować dowód negacji `p` do dowodu `p`, a wtedy kolejność jest odwrotna. No trudno,
+taka konwencja (jest też głębszy powód, ale go pominiemy).
+
+Gdy jesteś w trybie dowodzenia interaktywnego, to Lean "zakłada" (Lean nie jest działającym celowo
+agentem, więc właście nigdy nic nie "robi", ale możemy chyba tak powiedzieć), że chcesz udowodnić
+cel, więc jeśli tylko wpiszesz `exact absurd` z dwoma argumentami, tym samym zdaniem w wersji
+"pozytywnej" i "negatywnej" (jeszcze raz - w tej kolejności), to nie trzeba będzie już dodawać
+zdania-celu jako trzeciego argumentu. Od razu nastąpi eksplozja dedukcyjna i to, cokolwiek, co było
+w tym momencie do udowodnienia, będzie udowodnione.
+
+Jeśli masz odwagę, możesz spróbować skonstruować ten sam dowód w trybie nieinteraktywnym,
+konstruując funkcję dowodu `¬p`, zwracającą funkcję dowodu `p`, zwracającą dowód `q`:
+
+```lean
+theorem t1' (p : Prop) (q : Prop) : ¬p → p → q := 
+    fun (h1 : ¬p) => 
+        fun (h2 : p) => 
+            -- W linijce poniżej trzeba wpisać term, który jest w tym miejscu dowodem zdania q
+```
+
+Widzisz jednoznaczny związek z tym, w jaki spośób konstruowała/eś przed chwilą ten sam dowód w
+trybie interaktywnym? W trybie nieinteraktywnym nie zadziała komenda `exact`, ani `intro`, ani żadna
+inna taktyka. Możesz wejść w dowolnym miejscu w tryb interaktywny pisząc `by` i zakończyć dowód
+używając `exact` tak jak wcześniej. Albo możesz nauczyć się czegoś nowego: jeżeli otoczysz aplikację
+`h1` do `h2` (znana nam, "naturalna" metoda wywoływania eksplozji dedukcyjnej) nawiasami, to gdy
+dopiszesz zaraz za prawym nawiasem kropkę i napiszesz `elim` (od angielskiego *elimination*, czyli
+eliminacji, co w logice oznacza *użycie* albo *wykorzystanie* danego termu), to uzyskasz (przez
+*odrywanie*, czyli *modus ponens*, czyli zastosowanie {dowodu} implikacji do {dowodu} jej
+poprzednika, czyli zastosowanie funkcji do odpowiedniego dla niej argumentu) fałsz, który od razu
+zakończy dowód, tak jak w trybie interaktywnym natychmiast zakończyło dowód zastosowanie taktyki
+`absurd`. Najlepiej spróbuj obydwu sposobów.
+
+Teraz muszę jeszcze wymyślić jakieś proste zadanie, które będzie polegało na *uzyskaniu* negacji. No
+ale negacja to szczególny rodzaj implikacji (funkcji), której następnikiem jest absurd / fałsz
+(która zwraca dowód absurdu / fałszu). Żeby taka funkcja mogła zwrócić dowód fałszu, ten fałsz musi
+się skądś wziąć, nie mogą w tym zadaniu występować same zdania "pozytywne". Nie możemy też po prostu
+w tym zdaniu-zadaniu założyć dowodu *samego fałszu*, a raczej możemy, ale to byłoby trywialne, bo
+wtedy dało by się udowodni *każde* zdanie. A więc musimy w początkowej części zdania założyć jakaś
+negację, żeby uzyskać z niej (inną, żeby nie było już całkiem trywialnie) negację.
+
+Może tak: `¬q → p ̀→ ¬p`? No nie, z `¬q` i `p` w żaden sposób nie uzyskamy `¬p`, bo `¬q` i `p` nie
+wejdą ze sobą (bez dodatkowych przesłanek) w żadną "interakcję". A z `q` i `¬q`?  Zakładając
+(dowody) tych dwóch zdań uzyskamy dowód każdego zdania, a to jest już moim zdaniem dla Ciebie zbyt
+łatwe. Okazuje się, że muszę albo wprowadzić zasadę wyłączonego środka (a więc logikę klasyczną),
+albo coś innego, czego jeszcze Ci nie wytłumaczyłem. No to może z tym jeszcze poczekam. Zamiast tego
+zaproponuję Ci zadanie w zasadzie takie samo jak ostatnie, jednak zamiast zdań atomowych będą zdania
+złożone z predykatów. I jeszcze może niech te predykaty dotyczą liczb naturalnych, czemu nie? Być
+może trzeba będzie otoczyć niektóre aplikacje predykatów do parametru twierdzenia `n` nawiasami.
+
+**Zadanie**: Udowodnij poniższe twierdzenie.
+
+```lean
+theorem t2 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : `¬ P n → (P n → Q n)` := by
+```
+
+Zwróć uwagę, że musieliśmy dodać parametr `n` typu `Nat`, bo inaczej nie byłoby żadnych zdań. Sam
+predykat, na przykład, samo `Ponury`, nie jest zdaniem, dopiero, dajmy na to, `Ponury Krystian`
+jest. Wewnątrz dowodu twierdzenia `t2` od samego początku są więc trzy elementy: (jakieś) dwa
+predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba naturalna `n`.
+
+Na koniec powiem Ci jeszcze, że w Lean zdanie `¬p` to tak naprawdę zdanie `p → False`. Trochę
+namieszałem, wiem, ale mam dobre powody (w każdym razie tak będę sobie dalej mówił).
 
 ### Przypisy
 
