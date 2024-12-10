@@ -142,10 +142,12 @@ na granie według reguł gry, które obowiązują mnie, moich kolegów i moje ko
 piszemy manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład
 pisać w stylu, który obecnie obowiązuje w tego typu publikacjach. Brzydzę się tym stylem, zresztą
 nie tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu problemów, za
-to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. Musiałbym też po raz
-kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i
-realnej władzy, rzadko podając powody, dla których oczekują takich a nie innych zmian. Jak wiesz,
-moim zdaniem taka postawa jest wręcz *anty*naukowa.
+to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. Bardzo dobrze umiem
+stwarzać tego rodzaju pozory, bo posługuję się swobodnie technicznym językiem stastycznym i
+przyczynowym, ale nie chcę tego robić. Musiałbym też po raz kolejny znosić to, że redaktorzy i
+recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i realnej władzy, rzadko podając
+powody, dla których oczekują takich a nie innych zmian. Jak wiesz, moim zdaniem taka postawa jest
+wręcz *anty*naukowa.
 
 W następnej części zapoznamy się z rachunkiem predykatów wyższego rzędu. Pokazałem Ci już, jak można
 używać skromnego fragmentu tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy
