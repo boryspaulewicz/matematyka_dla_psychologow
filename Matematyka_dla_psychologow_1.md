@@ -601,15 +601,15 @@ która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 
 Otóż to, burden of proof. Gdy bierzesz udział w moich zajęciach, jesteś pod presją publicznej
 instytucji w której pracuję zmuszono tymczasowo traktować mnie jak autorytet. To oznacza pewne
-zobowiązania z *obydwu* stron, Twojej i mojej. W szczególnoścci, the burden of proof jest wtedy on
+zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of proof jest wtedy on
 *me*.
 
 Bardzo odpowiada mi ten rodzaj wolności. Oboje mamy też jednak pewne zobowiązania, bo jesteśmy
 częścią wspólnoty, dzięki której możemy między innymi robić to, co właśnie robimy. Ja pracuję na
 uczelni za publiczne pieniądze, a Ty studiujesz za pieniądze publiczne i być może też pieniądze
-Twoich rodziców. Dlatego mamy wobec siebie pewne oczekiwania.
+Twoich rodziców. Dlatego mamy wobec siebie nawzajem pewne oczekiwania.
 
-Matematycy często mówią, że nie da się zrozumieć matematyki nie spędzając dużej ilości czasu na
+Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzając dużej ilości czasu na
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
 często nie chce im się wszystkiego tłumaczyć tak szczegółowo, powoli i jasno, żeby nie trzeba było
 wykonywać bardzo wielu zadań, aby to zrozumieć. Dlatego jestem zdania, że spoczywa na mnie jeszcze
