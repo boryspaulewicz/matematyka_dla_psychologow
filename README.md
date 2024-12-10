@@ -20,3 +20,5 @@ powtórek.
 [Modus ponens, dwa wymiary teorii typów zależnych i nieważność dowodu](./Matematyka_dla_psychologow_2.md)
 
 [Negacja, absurd, fałsz, sprzeczność i eksplozja](./Matematyka_dla_psychologow_3.md)
+
+[Cel](./Matematyka_dla_psychologow_4.md)
