@@ -251,9 +251,10 @@ theorem t2 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : `¬ P n → (P n �
 ```
 
 Zwróć uwagę, że musieliśmy dodać parametr `n` typu `Nat`, bo inaczej nie byłoby żadnych zdań. Sam
-predykat, na przykład, samo `Ponury`, nie jest zdaniem, dopiero, dajmy na to, `Ponury Krystian`
-jest. Wewnątrz dowodu twierdzenia `t2` od samego początku są więc trzy elementy: (jakieś) dwa
-predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba naturalna `n`.
+predykat, na przykład, samo `Ponury`, nie jest zdaniem. Dopiero, dajmy na to, `Ponury Krystian`
+jest. Wewnątrz (w lokalnym kontekście) dowodu twierdzenia `t2` od samego początku są więc trzy termy
+(parametry twierdzenia): (jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba
+naturalna `n`.
 
 Na koniec powiem Ci jeszcze, że w Lean zdanie `¬p` to tak naprawdę zdanie `p → False`. Trochę
 namieszałem, wiem, ale mam dobre powody (w każdym razie tak będę sobie dalej mówił).
