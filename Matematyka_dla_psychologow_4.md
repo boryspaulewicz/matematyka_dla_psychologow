@@ -25,16 +25,44 @@ testowanie hipotez, czy nawet proces recenzji. Bo też jaką rolę może odegra�
 gdy *całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod względem poprawności? Wyrazić
 zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
-Następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały wprowadzenia dość
-zaskakującej, ale bardzo prostej definicji - definicji pojęcia *zadania*. Dzięki temu będziemy mogli
-całkowicie zakodować w języku teorii typów zależnych artykuł naukowy dotyczący zjawiska swoiście
-*psychologicznego*. Zobaczymy również z nowej perspektywy *całą* psychologię.
+Ponieważ taki sformalizowany artykuł naukowy będzie pewnym programem komputerowym z dokumentacją,
+wyrażającym w języku teorii typów zależnych rozumowanie, które obecnie komunikujemy posługując się
+tylko językiem formalnym, to te artykuły będzie można *składać* w większe programy. Nietrudno
+wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów mogłaby tworzyć
+biblitekę wiedzy naukowej, składającej się ze strumieni wnioskowania z danych. Praca teoretyczna
+polegałaby wtedy na odkrywaniu nowych sposobów łączenia danych z wnioskami i odkrywania nowych
+wniosków, a więc na przekierowywaniu dedukcyjnych strumieni empirycznych. Praca empiryczna polegała
+by zaś na dostarczaniu danych w taki sposób, żeby zminimalizować konflikt interesów.
+
+W tym momencie każdy artykuł empiryczny powinien w zasadzie zawierać adnotację o występowaniu
+konfliktu interesów. Mam na myśli konflikt interesów, który jest zarazem powszechny i o którym, o
+ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków jest zwykle odpowiedzialny za
+zbieranie lub analizę danych*. Dlatego tak zwane wątpliwe praktyki badawcze (ang. *questionable
+research practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami,
+takimi jak rozliczanie pracowników z *ilości* publikacji i *ilości* grantów, ta możliwość musi
+często prowadzić do wątpliwych praktyk, ponieważ naukę, na moje między innymi szczęście, uprawiają
+*zwykli ludzie*, tacy jak Ty czy ja.
+
+Zwróć proszę uwagę, że gdyby istniał taki sposób uprawiania nauki, nie miałoby znaczenia, czy
+autorem "artykułu" jestem ja, pracownik zatrudniony na uczelni, czy Ty, albo dajmy na to Twoja
+babcia. Bo czemu miałoby to mieć wtedy jakiekolwiek znaczenie? Gdyby okazałoby się, że Twoja babcia
+ma coś ważnego do powiedzenia na interesujący z naukowego punktu widzenia temat, to chyba wypadałoby
+potraktować Ją poważnie. Gdyby potrafiła dobrze uzasadnić swoje wnioski, to te wnioski powinny być
+traktowane tak samo jak uzasadnione wnioski pracownika naukowego. Wydaje mi się, że się z tym
+zgodzisz, bo nie potrafię dostrzec nawet tylko zarysu sensownej alternatywy.
+
+Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
+wprowadzenia dość zaskakującej, ale bardzo prostej definicji - definicji pojęcia *zadania*. Dzięki
+tej jednej abstrakcyjnej definicji będziemy mogli całkowicie zakodować w języku teorii typów
+zależnych artykuł naukowy dotyczący pewnego prostego zjawiska swoiście *psychologicznego*. Zaczniemy
+się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak już zaczęliśmy się
+przyglądać z nowej perspektywy matematyce.
 
 Wprowadzenie formalnej wersji tej definicji będzie umotywowane następującym wglądem. Ten dziwny
 wgląd przytrafił mi się w końcu po ponad dwudziestu latach uczenia się i myślenia wciąż o jednym
-małym zbiorze kilku ściśle ze sobą powiązanych zagadek meta-teoretycznych dotyczących psychologii:
+małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii:
 
-*Cel, zadanie, wartość, użyteczność i norma są jednym i tym samym - preferencją zewnętrznego
+*Cel, zadanie, wartość i norma są jednym i tym samym - preferencją hipotetycznego zewnętrznego
 obserwatora*.
 
 *Zachowanie, ten centralny przedmiot zainteresowania psychologii, to nic innego jak działanie
@@ -47,38 +75,41 @@ rzeczywiste procesy fizyczne*.
 
 Nie tylko ten wniosek będzie zresztą dziwny. Ale wybiegam już za bardzo w przyszłość.
 
-Osiągniemy to wszystko, mam nadzieję, nie korzystając niemal z żadnej wiedzy psychologicznej, bo ja
-akurat nie mam poczucia, żebym sporo takiej wiedzy zastał. Coś tam wiadomo i do niektórych rzeczy
-bardzo się przydaje to, co już wiadomo, ale nie oszukujmy się, psychologia naukowa jest wciąż na
+Osiągniemy to wszystko, mam nadzieję, nie korzystając z żadnej niemal wiedzy psychologicznej, bo też
+nie mam poczucia, żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych
+rzeczy bardzo się przydaje to, co wiemy, ale nie oszukujmy się, psychologia naukowa jest ciągle na
 etapie powstawania.
 
-Będziemy korzystać przede wszystkim z tej niezwykłej *meta-matematyki stosowanej* jaką jest teoria
-typów zależnych, a której autorem jest wybitny szwedzki matematyk i filozof [Per
+Będziemy korzystać przede wszystkim z tej niezwykłej *meta-matematyki stosowanej*, której próbuję tu
+używać jako *systematycznej metody badania meta-teoretycznego*, jaką jest teoria typów zależnych, a
+której autorem jest wybitny szwedzki matematyk i filozof [Per
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f). A może filozof i matematyk? Nie
 wiem, co by wolał. Wciąż jest z nami, więc może jeszcze zdążę go o to zapytać.
 
-A gdyby udało nam się zrealizować tylko niektóre z tych ambitnych celów, nawet tylko jeden, to kto
-wie, może kiedyś nadarzy się okazja, żeby przytaczając słowa innej wybitnej postaci, matematyka i
-informatyka teoretycznego [Hala Abelsona](https://www.youtube.com/watch?v=2Op3QLzMgSY), zażartować:
-*If I have not seen as far as others, it is because giants were standing on my shoulders*.
+A gdyby udało nam się zrealizować niektóre z tych ambitnych celów, nawet tylko jeden, to kto wie,
+może kiedyś nadarzy się okazja, żebyś Ty lub ja, przytaczając słowa innej wybitnej postaci,
+matematyka i informatyka teoretycznego [Hala Abelsona](https://www.youtube.com/watch?v=2Op3QLzMgSY),
+zażartowała, mówiąc: *If I have not seen as far as others, it is because giants were standing on my
+shoulders*.
 
 Wiem, że te cele są bardzo ambitne, mogą się nawet wydawać szalone i w jakimś sensie może takie są,
 więc na tym etapie mówię tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej
-skorzystałem, to znaczy, skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę
+skorzystałem. To znaczy, skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę
 albo czytelnika.
 
 Gdybym próbował napisać to, co staram się teraz napisać, jako artykuł naukowy, musiałbym się zgodzić
 na granie według reguł gry, które obowiązują mnie, moich kolegów i moje koleżanki z pracy kiedy
 piszemy manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład
-pisać w stylu, który obecnie obowiązuje w tego typu publikacjach, a brzydzę się tym stylem, bo
-uważam, że nie służy wyjaśnianiu zjawisk i rozwiązywaniu problemów, tylko stwarzaniu *pozorów*, że
-się coś takiego robi. Musiałbym też po raz kolejny znosić to, że redaktorzy i recenzenci zwykle
-swoje wymagania wyrażają z pozycji autorytetu, rzadko podając powody, dla których oczekują takich a
-nie innych zmian. Jak wiesz, moim zdaniem taka postawa jest wręcz *anty*-naukowa.
+pisać w stylu, który obecnie obowiązuje w tego typu publikacjach. Brzydzę się tym stylem, zresztą
+nie tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu problemów, za
+to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. Musiałbym też po raz
+kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i
+realnej władzy, rzadko podając powody, dla których oczekują takich a nie innych zmian. Jak wiesz,
+moim zdaniem taka postawa jest wręcz *anty*-naukowa.
 
 W następnej części zapoznamy się z rachunkiem predykatów wyższego rzędu. Pokazałem Ci już, jak można
 używać skromnego fragmentu tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy
-poznamy większą część, to wtedy to samo, tylko znacznie lepiej, będziemy mogli zrobić z
-rozumowaniami formułowanymi przez psychologów. Jeżeli moje szczere wyznanie nie zmotywowało Cię,
-żeby mi nadal towarzyszyć, to trudno, rozumiem, ale i tak będę sobie wyobrażał, że piszę to wszystko
-dla Ciebie, bo tak jest mi po prostu łatwiej.
+poznamy większą część, to wtedy dokładnie to samo, tylko znacznie lepiej, będziemy mogli zrobić z
+rozumowaniami formułowanymi przez autorów psychologicznych badań i teorii. Jeżeli moje wyznanie nie
+zmotywowało Cię, żeby mi nadal towarzyszyć, to trudno, rozumiem, ale i tak będę sobie wyobrażał, że
+piszę to wszystko dla Ciebie, bo tak jest mi po prostu łatwiej.
