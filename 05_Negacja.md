@@ -192,18 +192,18 @@ wewnątrz tego twierdzenia dostępne. Pozostanie Ci użyć komendy `exact` z odp
 momencie muszę objaśnić różnicę, między moją definicją absurdu i definicją Leana.
 
 **Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
-Leanie można zastosować `absurd`, który jest zawsze dostępny, do dwóch termów, dowodu tego samego
-zdania w wersji "pozytywnej" i "negatywnej" (dowodu negacji tego zdania), *w tej
-kolejności*. Kolejność jest myląca, bo przecież jeśli negacja `p` jest implikacją z `p` do fałszu,
-to powinniśmy stosować dowód negacji `p` do dowodu `p`, a wtedy kolejność jest odwrotna. No trudno,
-taka konwencja (jest też głębszy powód, ale go pominiemy).
+Leanie, można zastosować taktykę `absurd`. Stosujemy ją do dwóch (być może złożonych) termów,
+jakiegoś dowodu tego samego zdania w wersjach "pozytywnej" i "negatywnej" (dowodu negacji tego
+zdania), *w tej kolejności*. Kolejność jest myląca, bo przecież jeśli negacja `p` jest implikacją z
+`p` do fałszu, to powinniśmy stosować dowód negacji `p` do dowodu `p`, a wtedy kolejność jest
+odwrotna. No trudno, taka konwencja (jest też głębszy powód, ale go pominiemy).
 
 Gdy jesteś w trybie dowodzenia interaktywnego, to Lean "zakłada" (Lean nie jest działającym celowo
 agentem, więc właście nigdy nic nie "robi", ale możemy chyba tak powiedzieć), że chcesz udowodnić
-cel, więc jeśli tylko wpiszesz `exact absurd` z dwoma argumentami, tym samym zdaniem w wersji
-"pozytywnej" i "negatywnej" (jeszcze raz - w tej kolejności), to nie trzeba będzie już dodawać
-zdania-celu jako trzeciego argumentu. Od razu nastąpi eksplozja dedukcyjna i to, cokolwiek, co było
-w tym momencie do udowodnienia, będzie udowodnione.
+cel, więc jeśli tylko wpiszesz `exact absurd` z dwoma (być może złożonymi) argumentami, to jest
+dowodem tego samego zdaniem w wersjach "pozytywnej" i "negatywnej" (jeszcze raz - w tej kolejności),
+to nie będzie trzeba już dodawać zdania-celu jako trzeciego argumentu. Od razu nastąpi eksplozja
+dedukcyjna i cokolwiek, co było w tym momencie do udowodnienia, zostanie udowodnione.
 
 Jeśli masz odwagę, możesz spróbować skonstruować ten sam dowód w trybie nieinteraktywnym,
 konstruując funkcję dowodu `¬p`, zwracającą funkcję dowodu `p`, zwracającą dowód `q`:
