@@ -25,75 +25,92 @@ testowanie hipotez, czy nawet proces recenzji. Bo też jaką rolę może odegra�
 gdy *całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod względem poprawności? Wyrazić
 zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
-Ponieważ taki sformalizowany artykuł naukowy będzie pewnym programem komputerowym z dokumentacją,
-wyrażającym w języku teorii typów zależnych rozumowanie, które obecnie komunikujemy posługując się
-prawie wyłącznie językiem naturalnym, to te artykuły będzie można *składać* w większe
+Ponieważ taki sformalizowany artykuł naukowy będzie pewnym programem komputerowym wraz z
+dokumentacją, wyrażającym w języku teorii typów zależnych rozumowanie, które obecnie komunikujemy
+posługując się prawie wyłącznie językiem naturalnym, to te artykuły będzie można *składać* w większe
 programy. Nietrudno wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów
-mogłaby tworzyć biblitekę wiedzy naukowej, składającej się ze strumieni wnioskowania z danych. Praca
-teoretyczna polegałaby wtedy na odkrywaniu nowych sposobów łączenia danych z wnioskami i odkrywania
-nowych wniosków, a więc na przekierowywaniu dedukcyjnych strumieni empirycznych. Praca empiryczna
-polegała by zaś na dostarczaniu danych w taki sposób, żeby zminimalizować konflikt interesów.
+mogłaby tworzyć biblitekę wiedzy naukowej, złożonej dosłownie ze *strumieni wnioskowania z
+danych*. Praca teoretyczna polegałaby wtedy na odkrywaniu nowych sposobów łączenia danych z
+wnioskami i odkrywania nowych wniosków, a więc na *przekierowywaniu* dedukcyjnych strumieni
+empirycznych albo "zasilających wnioski". Praca *czysto empiryczna* polegała by zaś na dostarczaniu
+danych w taki sposób, żeby zminimalizować konflikt interesów.
 
-W tym momencie każdy artykuł empiryczny powinien w zasadzie zawierać adnotację o występowaniu
-konfliktu interesów. Mam na myśli konflikt interesów, który jest zarazem powszechny i o którym, o
-ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków jest zwykle odpowiedzialny za
-zbieranie lub analizę danych*. Dlatego tak zwane wątpliwe praktyki badawcze (ang. *questionable
-research practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami,
-takimi jak rozliczanie pracowników niemal wyłącznie z *ilości* publikacji, *ilości* punktów
-publikacyjnych i *ilości* grantów, ta możliwość musi często prowadzić do wątpliwych praktyk,
-ponieważ naukę, na moje między innymi szczęście, uprawiają *zwykli ludzie*, tacy jak Ty czy
-ja. Jestem durniem i wielu rzeczy nie rozumiem, ale gdybym miał zgadywać, powiedziałbym, że sedno
-tego problemu polega na tym, że w obecnym systemie wątpliwe praktyki badawcze są po prostu *łatwe*.
+Czemu mówię o konflikcie interesów? W tym momencie każdy artykuł empiryczny powinien w zasadzie
+zawierać adnotację o występowaniu takiego konfliktu. Mam na myśli konflikt interesów, który jest
+zarazem powszechny i o którym, o ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków
+jest zwykle odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane wątpliwe praktyki
+badawcze (ang. *questionable research practices*) są w ogóle *możliwe*. W połączeniu z silnie i
+stale oddziałującymi zachętami, takimi jak rozliczanie pracowników niemal wyłącznie z *ilości*
+publikacji, *ilości* punktów publikacyjnych i *ilości* grantów, ta możliwość musi często prowadzić
+do wątpliwych praktyk, ponieważ naukę, na moje między innymi szczęście, uprawiają *zwykli ludzie*,
+tacy jak Ty czy ja. Jestem durniem i wielu rzeczy nie rozumiem, ale gdybym miał zgadywać,
+powiedziałbym, że sedno tego problemu polega na tym, że w obecnym systemie wątpliwe praktyki
+badawcze są *bardzo opłacalne* i jednocześnie *łatwe*.
 
-Zwróć proszę uwagę, że gdyby istniał ten alternatywny sposób uprawiania nauki, o którym wspominałem,
-nie miałoby znaczenia, czy autorem "artykułu" jestem ja, pracownik zatrudniony na uczelni, czy Ty,
-albo dajmy na to Twoja babcia. Bo czemu miałoby to mieć *jakiekolwiek* znaczenie? Gdyby okazałoby
-się, że Twoja babcia ma coś ważnego do powiedzenia na interesujący z naukowego punktu widzenia
-temat, to chyba wypadałoby potraktować Ją poważnie. Ja tak w każdym razie sądzę. Gdyby Twoja (albo
-niestety już nieżyjąca moja) babcia potrafiła dobrze uzasadnić swoje wnioski, to te wnioski powinny
-być traktowane tak samo jak uzasadnione wnioski pracownika naukowego. Wydaje mi się, że się z tym
-zgodzisz, bo nie potrafię dostrzec nawet tylko zarysu jakiegoś sensownego kontrargumentu.
+Zwróć proszę uwagę, że gdyby istniał ten alternatywny sposób uprawiania nauki, który teraz sobie
+wyobrażamy, nie miałoby znaczenia, czy autorem "artykułu" jestem ja, pracownik zatrudniony na
+uczelni, czy Ty, albo dajmy na to Twoja babcia. Bo czemu miałoby to mieć *jakiekolwiek* znaczenie?
+Gdyby okazałoby się, że Twoja babcia ma coś ważnego do powiedzenia na interesujący z naukowego
+punktu widzenia temat, to chyba wypadałoby potraktować Ją poważnie. Ja tak w każdym razie
+sądzę. Gdyby Twoja (albo niestety już nieżyjąca moja) babcia potrafiła dobrze uzasadnić swoje
+wnioski, to te wnioski powinny być traktowane tak samo jak uzasadnione wnioski pracownika
+naukowego. Wydaje mi się, że się z tym zgodzisz, bo nie potrafię dostrzec nawet tylko zarysu
+jakiegoś sensownego kontrargumentu.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia dość zaskakującej, ale bardzo prostej definicji - definicji pojęcia *zadania*. Dzięki
 tej jednej abstrakcyjnej definicji będziemy mogli całkowicie zakodować w języku teorii typów
 zależnych artykuł naukowy dotyczący pewnego prostego zjawiska swoiście *psychologicznego*. Zaczniemy
 się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak już zaczęliśmy się
-przyglądać z nowej perspektywy matematyce.
+przyglądać z nowej perspektywy matematyce. Z matematyką robiliśmy to mówiąć *tylko* o implikacji i z
+psychologią zrobimy to samo mówiąc *tylko* o jednym prostym psychologicznym badaniu
+eksperymentalnym. W dodatku tam też będziemy wręcz zmuszeni, żeby wprowadzić symbol *strzałki*.
 
-Wprowadzenie formalnej wersji tej definicji będzie umotywowane następującym wglądem. Ten dziwny
+Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
 wgląd przytrafił mi się w końcu po ponad dwudziestu latach uczenia się i myślenia wciąż o jednym
 małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii:
 
 *Cel, zadanie, wartość i norma są jednym i tym samym - preferencją hipotetycznego zewnętrznego
 obserwatora*.
 
-*Zachowanie, ten centralny przedmiot zainteresowania psychologii, to nic innego jak działanie
-celowe*.
+*Zachowanie, ten centralny przedmiot zainteresowania psychologii, to nic innego jak działanie celowe
+w przyjętym znaczeniu pojęcia cel*.
 
 Stąd będzie wynikał między innymi taki oto dziwny wniosek:
 
 *Bycie takim a nie innym zachowaniem jest stopniowalne i może być jedynie przybliżane przez
 rzeczywiste procesy fizyczne*.
 
-W ten sposób rozwiążemy, a raczej *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
+W ten sposób rozwiążemy, a raczej *unieważnimy*, zagadkę (nie)racjonalności zachowania zwierząt.
 
-Nie tylko ten wniosek będzie zresztą dziwny. Zobaczymy w całkiem nowym świetle sens pomiaru
+Nie tylko ten wniosek będzie zresztą dziwny. Zobaczymy w nowym świetle sens pomiaru
 psychologicznego. Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni,
-zobaczyć to, co niewidzialne, ekstremalnie złożone, idiosynkratyczne, zmienne i w ogromnym stopniu
-zależne od całej historii interakcji organizmu z jego środowiskiem, to jest strukturę umysłu i
-przebieg procesów umysłowych, albo zamiast skupiać się na czysto przyczynowych relacjach między
-fizycznie rozumianymi bodźcami i reakcjami, jak to mają w zwyczaju behawioryści, nagle bardzo
-zainteresujemy się czymś jakby "z drugiej strony" - *środowiskiem*. 
+zobaczyć to, co:
 
-Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa*, i zawsze
-pozostanie - będzie to układ powiązanych zadań. Wielką zaletą tak rozumianego środowiska jako
+niewidzialne
+
+ekstremalnie złożone
+
+idiosynkratyczne
+
+zmienne i 
+
+w ogromnym stopniu zależne od całej, w zasadzie nieobserwowalnej historii interakcji organizmu z
+jego środowiskiem
+
+to jest strukturę umysłu i przebieg procesów umysłowych, albo zamiast skupiać się na czysto
+przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak to mają w zwyczaju
+behawioryści, nagle bardzo zainteresujemy się czymś jakby kompletnie "z drugiej strony" - *ś r o d o
+w i s k i e m*.
+
+Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa* i czym zawsze
+pozostanie - będzie to *układ powiązanych zadań*. Wielką zaletą tak rozumianego środowiska jako
 przedmiotu badań będzie jego ... bezpośrednia obserwowalność i względnie łatwa modyfikowalność. A
 także to, że wszystko, co na temat tak rozumianego środowiska ustalimy, będzie miało automatycznie
 znaczenie jednocześnie teoretyczne i aplikacyjne. Nabierzemy wręcz ochoty, żeby zacząć powolutku
-konstruować coś na kształt ogólnej teori środowiska rozumianego właśnie jako układu powiązanych
-zadań. Funkcje poznawcze, takie jak percepcja, pamięć czy uwaga, okażą się wtedy dosłownie
-własnościami zadań. No będzie się działo, ale zdaje się, że zanadto już wybiegam w przyszłość.
+konstruować coś na kształt ogólnej teori środowiska rozumianego właśnie w taki sposób. *Funkcje
+poznawcze*, takie jak percepcja, pamięć, czy uwaga, okażą się wtedy dosłownie *własnościami
+zadań*. No będzie się działo, ale zdaje się, że zanadto już wybiegam w przyszłość.
 
 Osiągniemy to wszystko, mam nadzieję, nie korzystając z żadnej niemal wiedzy psychologicznej, bo też
 nie mam poczucia, żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych
@@ -104,15 +121,15 @@ Będziemy przy tym korzystać przede wszystkim z tej niezwykłej *meta-matematyk
 próbuję tu używać jako *systematycznej metody badania meta-teoretycznego*, jaką jest teoria typów
 zależnych, a której autorem jest wybitny szwedzki matematyk i filozof [Per
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f). A może filozof i matematyk? Nie
-wiem, co by wolał. Wciąż jest z nami, więc może jeszcze zdążę go o to zapytać. Może nawet na pewnym
-etapie pojawi się teoria kategorii, bo ta nadaje się znakomicie do formalizacji, czyli tego, co
-nazwałem już - dopiero co uzasadniając i ilustrując ten terminologiczny wybór! - "matematyczną
-konkretyzacją", relacji między różnymi punktami widzenia na to samo.
+wiem, co by wolał. Wciąż jest z nami, więc może jeszcze zdążę go o to zapytać. Kto wie, nawet na
+pewnym etapie może się nawet pojawić teoria kategorii, bo ta nadaje się znakomicie do formalizacji,
+czyli tego, co nazwałem już - dopiero co uzasadniając i ilustrując ten terminologiczny wybór -
+"matematyczną konkretyzacją", relacji między różnymi punktami widzenia na to samo.
 
-A gdyby udało nam się zrealizować niektóre z tych ambitnych celów, nawet tylko jeden, to kto wie,
-może kiedyś nadarzy się okazja, żebyś Ty lub ja, przytaczając słowa innej wybitnej postaci,
+A gdyby udało nam się zrealizować niektóre z tych ambitnych celów, nawet tylko jeden, to
+niewykluczone, że nadarzy się okazja, aby któreś z nas, przytaczając słowa innej wybitnej postaci,
 matematyka i informatyka teoretycznego [Hala Abelsona](https://www.youtube.com/watch?v=2Op3QLzMgSY),
-zażartowała, mówiąc: *If I have not seen as far as others, it is because giants were standing on my
+zażartowało, mówiąc: *If I have not seen as far as others, it is because giants were standing on my
 shoulders*.
 
 Wiem, że te cele są bardzo ambitne, mogą się nawet wydawać szalone i w jakimś sensie pewnie takie
