@@ -604,6 +604,19 @@ instytucji w której pracuję zmuszono tymczasowo traktować mnie jak autorytet.
 zobowiązania z *obydwu* stron, Twojej i mojej. W szczególnoścci, the burden of proof jest wtedy on
 *me*.
 
+Bardzo odpowiada mi ten rodzaj wolności. Oboje mamy też jednak pewne zobowiązania, bo jesteśmy
+częścią wspólnoty, dzięki której możemy między innymi robić to, co właśnie robimy. Ja pracuję na
+uczelni za publiczne pieniądze, a Ty studiujesz za pieniądze publiczne i być może też pieniądze
+Twoich rodziców. Dlatego mamy wobec siebie pewne oczekiwania.
+
+Matematycy często mówią, że nie da się zrozumieć matematyki nie spędzając dużej ilości czasu na
+wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
+często nie chce im się wszystkiego tłumaczyć tak szczegółowo, powoli i jasno, żeby nie trzeba było
+wykonywać bardzo wielu zadań, aby to zrozumieć. Dlatego jestem zdania, że spoczywa na mnie jeszcze
+inny obowiązek - obowiązek dobrego tłumaczenia tego, o czym mówię. A na Tobie, ponieważ zajmujesz
+miejsce, które mógłby zająć ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia, o czym
+mówię. I to są obowiązki, ale też szansa na coś wspaniałego.
+
 Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
 wpływowych psychologicznych teorii i modeli. Przekonamy się o tym w stosownym momencie.

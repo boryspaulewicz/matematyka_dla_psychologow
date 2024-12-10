@@ -26,9 +26,9 @@ logice klasycznej)
 
 W Lean domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
 *konstruktywnej*, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w
-tym sensie, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice klasycznej
-(o ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że są *słabsze*),
-ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
+tym znaczeniu, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice
+klasycznej (o ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że są
+*słabsze*), ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
 
 *Zdanie prawdziwe znaczy to samo co zdanie udowodnione.* (dopuszczalna interpretacja prawdy w logice
 konstruktywnej)
@@ -55,8 +55,8 @@ theorem t1 (a : Prop) : a → a := by
 ```
 
 **Objaśnienie kodu**: Wyrażenie `a : Prop` czytamy jako: `a` jest wyrażeniem (przypominam, że
-oficjalna nazwa na takie coś to "term") typu `Prop`, a ponieważ `Prop` to typ zdań (od angielskiego
-"*Proposition*" oznaczającego sąd), znaczy to, że `a` jest jakimś, niekoniecznie prawdziwym albo
+oficjalna nazwa na takie coś to *term*) typu `Prop`, a ponieważ `Prop` to typ zdań (od angielskiego
+*Proposition* oznaczającego sąd), znaczy to, że `a` jest jakimś, niekoniecznie prawdziwym albo
 udowodnionym zdaniem, inaczej sądem.
 
 **Czytamy kod**: Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu *t1*
