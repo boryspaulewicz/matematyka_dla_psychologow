@@ -115,20 +115,20 @@ matematyka i informatyka teoretycznego [Hala Abelsona](https://www.youtube.com/w
 zażartowała, mówiąc: *If I have not seen as far as others, it is because giants were standing on my
 shoulders*.
 
-Wiem, że te cele są bardzo ambitne, mogą się nawet wydawać szalone i w jakimś sensie może takie są,
-więc na tym etapie mówię tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej
-skorzystałem. To znaczy, skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę
-albo czytelnika.
+Wiem, że te cele są bardzo ambitne, mogą się nawet wydawać szalone i w jakimś sensie pewnie takie
+są, więc na tym etapie mówię tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z
+niej skorzystałem. To znaczy, skorzystałem już z samego faktu, że postrzegam Ciebie jako
+czytelniczkę albo czytelnika.
 
 Gdybym próbował napisać to, co staram się teraz napisać, jako artykuł naukowy, musiałbym się zgodzić
-na granie według reguł gry, które obowiązują mnie, moich kolegów i moje koleżanki z pracy kiedy
+na granie według reguł gry, które obowiązują mnie, moich kolegów i moje koleżanki z pracy, kiedy
 piszemy manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład
 pisać w stylu, który obecnie obowiązuje w tego typu publikacjach. Brzydzę się tym stylem, zresztą
 nie tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu problemów, za
 to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. Musiałbym też po raz
 kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i
 realnej władzy, rzadko podając powody, dla których oczekują takich a nie innych zmian. Jak wiesz,
-moim zdaniem taka postawa jest wręcz *anty*-naukowa.
+moim zdaniem taka postawa jest wręcz *anty*naukowa.
 
 W następnej części zapoznamy się z rachunkiem predykatów wyższego rzędu. Pokazałem Ci już, jak można
 używać skromnego fragmentu tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy
