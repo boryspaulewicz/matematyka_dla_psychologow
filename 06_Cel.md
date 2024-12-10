@@ -43,9 +43,14 @@ badawcze (ang. *questionable research practices*) są w ogóle *możliwe*. W po�
 stale oddziałującymi zachętami, takimi jak rozliczanie pracowników niemal wyłącznie z *ilości*
 publikacji, *ilości* punktów publikacyjnych i *ilości* grantów, ta możliwość musi często prowadzić
 do wątpliwych praktyk, ponieważ naukę, na moje między innymi szczęście, uprawiają *zwykli ludzie*,
-tacy jak Ty czy ja. Jestem durniem i wielu rzeczy nie rozumiem, ale gdybym miał zgadywać,
-powiedziałbym, że sedno tego problemu polega na tym, że w obecnym systemie wątpliwe praktyki
-badawcze są *bardzo opłacalne* i jednocześnie *łatwe*.
+tacy jak Ty czy ja. 
+
+Jestem durniem i wielu rzeczy nie rozumiem, ale gdybym miał zgadywać, powiedziałbym, że sedno tego
+problemu polega na tym, że w obecnym systemie wątpliwe praktyki badawcze są *bardzo opłacalne* i
+jednocześnie *łatwe*. W dodatku - i to wcale nie wynika *logicznie* z tej ostatniej tezy - uczciwe
+uprawianie pracy naukowej i unikanie marnowania publicznych pieniędzy czy zaśmiecania literatury
+kosztownym i szkodliwym szumem jest *nieopłacalne* i *trudne* z powodów *niezwiązanych z
+trudnościami w dociekaniu prawdy o przedmiocie własnych badań*.
 
 Zwróć proszę uwagę, że gdyby istniał ten alternatywny sposób uprawiania nauki, który teraz sobie
 wyobrażamy, nie miałoby znaczenia, czy autorem "artykułu" jestem ja, pracownik zatrudniony na
