@@ -150,8 +150,8 @@ powody, dla których oczekują takich a nie innych zmian. Jak wiesz, moim zdanie
 wręcz *anty*naukowa.
 
 W następnej części zapoznamy się z rachunkiem predykatów wyższego rzędu. Pokazałem Ci już, jak można
-używać skromnego fragmentu tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy
-poznamy większą część, to wtedy dokładnie to samo, tylko znacznie lepiej, będziemy mogli zrobić z
+używać bladego cienia tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy go
+trochę bardziej poznamy, wtedy dokładnie to samo, tylko znacznie lepiej, będziemy mogli zrobić z
 rozumowaniami formułowanymi przez autorów psychologicznych badań i teorii. Jeżeli moje wyznanie nie
 zmotywowało Cię, żeby mi nadal towarzyszyć, to trudno, rozumiem, ale i tak będę sobie wyobrażał, że
 piszę to wszystko dla Ciebie, bo tak jest mi po prostu łatwiej.
