@@ -60,17 +60,18 @@ axiom Ponury : Zniwiarz → Prop
 #check Ponury Krystian -- Ponury Krystian : Prop
 ```
 
-Zdanie `Ponury Krystian` mówi, że Krystian jest ponury(m żniwiażem), ale to tylko zdanie, a nie jego
-*asercja*; na tym etapie nie wiemy jeszcze, czy Krystian jest faktycznie ponury. Można powiedzieć,
-że tylko "rozważamy" albo wyrażamy formalnie taką "ewentualność". Nie da się *aplikować absurdu* do
-tego zdania, bo nasz absurd jest *typem funkcyjnym*, a nie *funkcją*.
+Zdanie `Ponury Krystian`, będące pewną aplikacją mówi, że Krystian jest ponury(m żniwiażem), ale to
+tylko zdanie, a nie jego *asercja*; na tym etapie nie wiemy jeszcze, czy Krystian jest faktycznie
+ponury. Można powiedzieć, że tylko "rozważamy" albo "wyrażamy taką "ewentualność". Nie da się
+*aplikować absurdu* do tego zdania, bo nasz absurd jest *typem funkcyjnym*, a nie *funkcją*. Możemy
+"aplikować absurd" tylko pośrednio, gdy go już "uzbroimy w dowód".
 
 Wejdziemy teraz do strefy bezpiecznych eksperymentów logicznych (za pomocą instrukcji `section`) i w
 tej strefie *zadeklarujemy* (za pomocą instrukcji `variable`), że mamy *dowód absurdu*, czyli *term
-typu `Absurd`*. Ponieważ termy typu `Absurd` *są* funkcjami, możemy je *aplikować*. Użyjemy więc
-tego termu / dowodu, na mocy definicji stałej `Absurd` będącego termem typu funkcyjnego, czyli
-funkcją, do *samego zdania* `Ponury Krystian` *jako takiego*. W ten sposób *lokalnie udowodnimy* to
-zdanie:
+typu `Absurd`*. Ponieważ termy typu `Absurd` *są* funkcjami, możemy je aplikować. Użyjemy więc tego
+termu / dowodu, na mocy definicji stałej `Absurd` będącego termem typu funkcyjnego, czyli funkcją,
+do samego zdania `Ponury Krystian` jako takiego. W ten sposób *lokalnie* (bo w sekcji) *udowodnimy*
+to zdanie:
 
 
 ```lean
@@ -86,14 +87,15 @@ end strefa_komfortu
 ```
 
 Jeżeli skopiujesz wszystkie dotychczasowe fragmenty kodu Lean'a, to po umieszczeniu kursora na
-komendzie `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że hipotetyczny żniwiarz
-Krystian jest ponury. Powinno być dla Ciebie jasne, że tak samo możemy uzyskać dowód dowolnego
-innego zdania. 
+komendzie `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód zdania, że hipotetyczny
+żniwiarz Krystian jest ponury. Powinno być dla Ciebie jasne, że tak samo możemy uzyskać dowód
+dowolnego innego zdania.
 
-Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* i w tym *lokalnym*
-kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*, bo
-skorzystaliśmy z hipotetycznego dowodu absurdu, a *z absurdu wynika wszystko*. Stanęliśmy oto w
-obliczu *eksplozji dedukcyjnej*.
+Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
+*lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
+bo skorzystaliśmy z hipotetycznego dowodu absurdu, którego - na szczęście, proszę nie rób tego
+nigdy! - nie zadeklarowaliśmy poza lokalnym kontekstem. Stanęliśmy oto w obliczu *eksplozji
+dedukcyjnej*.
 
 Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych.
 
