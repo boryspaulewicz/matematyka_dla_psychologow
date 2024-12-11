@@ -1,0 +1,2 @@
+# Rachunek predykatów pierwszego rzędu
+

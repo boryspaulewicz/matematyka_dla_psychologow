@@ -1,0 +1,21 @@
+O konspektach jako najkrótszej notatce, która pozwala pracowaæ z tekstem bez koniecznoœci zagl¹dania
+do tekstsu
+
+Negacja - (h : p -> q) : not p -> not q
+
+Najpierw ¿e termostat jest g³upi, najg³upszy, ale jako regulator temperatury, a potem, ¿e jest
+m¹drzejszy od nas, jako nieobci¹¿ony klasyfikator binarny.
+
+Fa³sz, prawda, negacja, koniunkcja i alternatywa wprowadzone przez teoriê kategorii! A ta
+wprowadzona jako domain-specific language (to te¿ objaœniæ, bo z tego bêdê korzysta³) jeszcze przed
+rachunkiem predykatów jako Zdmuchacz umys³u (z koœlawym t³umaczeniem z angielskiego treœci s³owa
+mindblower).
+
+X Formalizacja dowodu na istnienie Boga Anzelma.
+
+? Przed wprowadzeniem wizji przysz³oœci napisaæ coœ w stylu Teraz czas na sen itd
+
+Do innych pracowników - mo¿e warto by³o siê zaj¹æ g³ównie uczeniem *siê* przez staranne uczenie
+innych, a nie pchaniem makulatury i zdobywaniem publicznych pieniêdzy.
+
+X Mój burden of explanation bez nadmiernej iloœci zadañ.
