@@ -392,13 +392,14 @@ w miarę systematycznie uczyłem się wielu trudnych rzeczy. Pracuję na uczelni
 pierwszym albo drugim roku psychologii z podręcznika Andersona, z którego korzystaliśmy czasem na
 zajęciach z psychologii poznawczej, dowiedziałem się, jak się uczyć, a ze znakomitej książki
 [Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie tłumaczenie jest
-*tragicznie złe*) dowiedziałem się, jak sobie radzić z ekstremalną prokrastynacją. Skoro już mówię o
-takich sprawach, to wypada mi tutaj podkreślić, że nie pracowałbym na uczelni, gdyby nie wsparcie,
-życzliwość i wyrozumiałość - moich przyjaciół, niezrównanego Michała Wierzchonia i uczciwej,
-skromnej i mądrej Marty Siedleckiej, która od dłuższego już czasu dostarcza mi sensownych zajęć - a
-także Kasi Popiołek, która była dla mnie wprost wymarzoną szefową przez 10 lat, gdy pracowałem na
-SWPSie w Katowicach. Wygląda więc na to, że trzeba czasu, być może jakiegoś sposobu na siebie i
-dobrych przyjaciół; wtedy można zrozumieć, co tylko się chce. What one fool can do, another can.
+*tragicznie złe*) dowiedziałem się z kolei, jak sobie radzić z ekstremalną prokrastynacją. Skoro już
+mówię o takich sprawach, to wypada mi tutaj podkreślić, że nie pracowałbym na uczelni, gdyby nie
+wsparcie, życzliwość i wyrozumiałość - moich przyjaciół, niezrównanego Michała Wierzchonia i
+uczciwej, skromnej i mądrej Marty Siedleckiej, która od dłuższego już czasu dostarcza mi sensownych
+zajęć - a także Kasi Popiołek, która była dla mnie szefową wprost wymarzoną przez 10 lat, gdy
+pracowałem na SWPSie w Katowicach. Wygląda więc na to, że trzeba czasu, być może jakiegoś sposobu na
+siebie i dobrych przyjaciół; wtedy można zrozumieć, co tylko się chce. What one fool can do, another
+can.
 
 **Zadanie**: No to udowodnij teraz albo kiedy indziej albo wcale twierdzenie `cp` (to skrót od
 [*contraposition*](https://en.wikipedia.org/wiki/Contraposition)). Użyłem tu krótszego zapisu dla
