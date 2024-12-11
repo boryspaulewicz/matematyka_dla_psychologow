@@ -520,10 +520,11 @@ Zmyslone : Cos → Prop
 Wieksze : Cos → Cos → Prop
 
 theorem Anzelm (c1 : Cos) (h1 : Realne c1) (c2 : Cos) (h2 : Zmyslone c2) : Wieksze c1 c2 := 
-    by ...
+    by 
+    --- co dalej?
 ```
 
-*Dla każdego x typu S* to u nas po prostu argument funkcji, który to argument jest typu *S*. No to
+*Dla każdego x typu S* to u nas po prostu parametr funkcji, który to parametr jest typu *S*. No to
 od początku:
 
 *Dla każdego czegoś1* ...
@@ -582,20 +583,21 @@ imiona i nazwiska swoich studentów profesor Jan Kiełbasa wydawał się z tej p
 zadowolony. Zostawiam Cię więc z tą rozgrzebaną wersją, żeby nie odbierać Ci szansy na satysfakcję z
 własnych pojęciowych wglądów.
 
-Udawałem tu trochę głupszego, niż faktycznie jestem, bo wydaje mi się, że wiem, w jaki sposób można
-wiernie i prosto sformalizować ten rzekomy dowód, jednoznacznie wskazując centralny błąd Anzelma,
-przyjmując przy tym *życzliwą interpretację* - czyli dając Anzelmowi maksymalne szanse powodzenia -
-i *wszystkie* jego aksjomaty.
+Muszę się przyznać, że udawałem tu trochę głupszego, niż faktycznie jestem. Wydaje mi się, że wiem,
+w jaki sposób można wiernie i prosto sformalizować ten rzekomy dowód, jednoznacznie wskazując
+centralny błąd Anzelma, przyjmując przy tym *życzliwą interpretację* - czyli dając Anzelmowi
+maksymalne szanse powodzenia - i przyjmując *wszystkie* jego aksjomaty.
 
 Nawet jednak gdy nie udaję głupszego, niż jestem, nie oczekuję, że będziesz wierzyło w to, co
 mówię. Wręcz przeciwnie, byłoby moim zdaniem wspaniale, gdybyś przyjęło wobec tego, co mówię,
 postawę *sceptyczną*. A to dlatego, że *próbuję dobrze odgrywać rolę naukowca* i tego oczekuję też
 od Ciebie. Jestem głupi, więc odgrywanie dobrze roli naukowca to wszystko, na co mnie stać, gdy mam
-dobry dzień. Według mnie, to właśnie, między innymi, oznacza bycie naukowcem. Co jeszcze, według
-mnie, poza czymś w rodzaju racjonalności, oznacza bycie naukowcem? Dziękuję, że pytasz! Między
-innymi *wolność*. Pod tym względem (jak i wieloma innymi) zgadzam się z genialnym Noamem Chomskim,
-który uważa się za *anarchistę*. To słowo brzmi może niepokojąco, ale chodzi tak naprawdę o postawę,
-która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
+dobry dzień. Według mnie, to właśnie, między innymi, oznacza bycie naukowcem. 
+
+Co jeszcze, według mnie, poza czymś w rodzaju racjonalności, oznacza bycie naukowcem? Dziękuję, że
+pytasz! Między innymi *wolność*. Pod tym względem (jak i wieloma innymi) zgadzam się z genialnym
+Noamem Chomskim, który uważa się za *anarchistę*. To słowo brzmi może niepokojąco, ale chodzi tak
+naprawdę o postawę, która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
@@ -616,7 +618,7 @@ często nie chce im się wszystkiego tłumaczyć tak szczegółowo, powoli i jas
 wykonywać bardzo wielu zadań, aby to zrozumieć. Dlatego jestem zdania, że spoczywa na mnie jeszcze
 inny obowiązek - obowiązek dobrego tłumaczenia tego, o czym mówię. A na Tobie, ponieważ zajmujesz
 miejsce, które mógłby zająć ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia, o czym
-mówię. I to są obowiązki, ale też szansa na coś wspaniałego.
+mówię. I to są obowiązki, ale również szansa na coś wspaniałego.
 
 Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
@@ -625,7 +627,7 @@ wpływowych psychologicznych teorii i modeli. Przekonamy się o tym w stosownym 
 # Podsumowanie
 
 Jak już się ma typy zależne, to ze strzałkami można zrobić wiele. Na przykład, predykaty można
-zrobić, i relacje można zrobić, a raczej zakodować, czyli właściwie *stworzyć, poprzez akt zapisu
+zrobić i relacje można zrobić, a raczej zakodować, czyli właściwie *stworzyć, poprzez akt zapisu
 formalnego, model predykatu lub relacji*. Wydaje się przy tym, że te nasze relacje są jakby, albo po
 prostu są, uogólnionymi predykatami.
 
