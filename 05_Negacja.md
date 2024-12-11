@@ -47,11 +47,11 @@ dalsza komunikacja miała sens.
 
 Zwracam uwagę, że `Absurd` *nie* ma struktury predykatu. Moglibyśmy na przykład aksjomatycznie
 zdefiniować jako oznaczającą "generyczny" typ stałą `Zniwiarz`, a stałą `Ponury` jako predykat
-dotyczący żniwiarzy. `Ponury` byłby wtedy typem funkcyjnym z typu `Zniwiarz` do *typu zdaniowego
-`Prop`*, a *nie*, jak `Absurd`, funkcją z typu `Zniwiarz` do *termów typu `Prop`*.
+dotyczący żniwiarzy. `Ponury` byłby wtedy *funkcją* (z typu `Zniwiarz` do *typu zdaniowego `Prop`*),
+a *nie*, jak `Absurd`, *typem funkcji*.
 
-Aplikacja *predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*. Aplikacja *absurdu*
-do *zdania* jest *dowodem tego zdania*.
+Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*. Aplikacja
+*dowodu absurdu* do *zdania* jest *dowodem tego zdania*.
 
 ```lean
 axiom Zniwiarz : Type
