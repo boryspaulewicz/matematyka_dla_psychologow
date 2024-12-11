@@ -31,7 +31,9 @@ W teorii typów ta reguła jest *wbudowana w język*:
 
 Czy widzisz, że w przypadku aplikacji "zwykłych" funkcji takich jak `dodaj2` do jakiś termów
 interesuje nas *wynik*, a nie jego *typ*, natomiast w przypadku aplikacji dowodów implikacji, które
-to dowody też są funkcjami, interesuje nas *typ* rezultatu aplikacji, a *nie* rezultat?
+to dowody też są funkcjami, interesuje nas *typ* rezultatu aplikacji, a *nie* rezultat? Jeżeli tego
+nie widzisz, to może przeczytaj poprzedni fragment jeszcze raz - prędzej czy później nie będziesz w
+stanie tam tego nie zobaczyć.
 
 # Dowody są nieważne
 
