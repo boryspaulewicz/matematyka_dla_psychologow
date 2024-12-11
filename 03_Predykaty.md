@@ -248,10 +248,10 @@ autora? Wydaje się, że powinniśmy brać pod uwagę *każdą interpretację*, 
 
 Ten ostatni fragment, zaczynający się od "Coś tu nie gra", napisałem *znacznie* później niż ten,
 który go poprzedza i zawiera błędną interpretację. Jak mówiłem, jedyne, czego można być pewnym, to
-formalne części tego skryptu, a interpretacja nie jest formalna. Piszę to, żeby nakłonić Cię do
-postawy sceptycznej. Nie wierz mi w nic "na słowo". Być może nawet celowo umieściłem jakieś błędy,
-żeby zmusić Cię do krytycznej lektury i samodzielnego myślenia. W każdym razie podoba mi się ten
-pomysł!
+formalne części tego skryptu, a taka interpretacja jak ta nie jest czymś formalnym. Piszę to, żeby
+nakłonić Cię do postawy sceptycznej. Nie wierz mi w nic "na słowo". Być może nawet celowo umieściłem
+jakieś błędy, żeby zmusić Cię do krytycznej lektury i samodzielnego myślenia. W każdym razie podoba
+mi się ten pomysł!
 
 Co dalej? 
 
@@ -284,8 +284,9 @@ Skąd? Dokąd?! Czytamy!!
    wbrew założeniu (2) istnieje nie tylko w umyśle, lecz także w rzeczywistości.
 
 Widać wyraźnie, że Anzelm traktuje pojęcie wprowadzone w punkcie pierwszym jako coś, co nie wymaga
-dalszego definiowania, czym zmusza nas do traktowania go jako istniejącego aksjomatycznie. Jako kodu
-oznaczającego *coś ponad co nic większego nie można pomyśleć* użyjemy bez powodu skrótu *MentalMax*:
+dalszego definiowania, czym zmusza nas do traktowania tego pojęcia jako istniejącego
+aksjomatycznie. Jako kodu oznaczającego *coś ponad co nic większego nie można pomyśleć* użyjemy bez
+powodu skrótu *MentalMax*:
 
 ```lean
 axiom MozeIstniejace : Type
@@ -296,18 +297,18 @@ abbrev MM := MentalMax
 axiom A1 : MM Bog
 ```
 
-Trochę ta formalizacja jedzie wódą (czytaj: nie wygląda elegancko), ale trudno, to dopiero pierwsza
+Trochę ta formalizacja jedzie wódą (czytaj: nie wygląda elegancko), ale co tam, to dopiero pierwsza
 próba. Wypadałoby objaśnić. Przyjmujemy, że term `Bog` ma typ `MozeIstniejace`, bo staramy się
 życzliwie interpretować Anzelma, który przecież nie dowodziłby czegoś, co od samego początku wprost
-założył (że Bóg istnieje). Kto byłby *tak* głupi? Ja, niestety, na pewno czasami.
+założył (że Bóg istnieje). Kto byłby aż *tak* głupi? Ja, niestety, na pewno czasami.
 
 `MozeIstniejace` jest za długie, więc wprowadzamy *zapis skrótowy* `MI` za pomocą słowa kluczowego
 `abbrev`. To samo robimy z `MentalMax`, wprowadzając skrót `MM`. Jeżeli się okaże, że coś tu nie
-pasuje do treści pozostałych 4 punktów, to zawsze będziemy mogli zmienić te aksjomaty, albo zacząć
-od zera.
+pasuje do treści pozostałych 4 punktów, to zawsze będziemy mogli zmienić aksjomaty, albo zacząć
+całkiem od zera.
 
 Drugi punkt to już nie aksjomat, tylko założenie dowodu polegającego na wyprowadzeniu z przesłanki
-sprzeczności, co w logice konstruktywnej jest tym samy, co udowodnienie negacji tej przesłanki:
+sprzeczności, co w logice konstruktywnej jest tym samym, co udowodnienie negacji tej przesłanki:
 
 *Udowodnić negację zdania* P *to to samo, co udowodnić zdanie fałszywe zakładając* P.
 
@@ -355,28 +356,28 @@ Mamy tu coś, czego jeszcze nie było: *relację* `WiekszeNiz`. Zwracam uwagę, 
 nas aplikacja funkcji do termu i ta aplikacja, czyli zestawienie tych dwóch termów obok siebie, jest
 zdaniem jako takim (ma typ `Prop`). Możemy próbować udowodnić z innych definicji i założeń, że to
 zdanie jest prawdziwe, albo zdecydować aksjomatycznie, że ma (bliżej nieokreślony) dowód, ale
-aplikacja `Pyszna kawa` to tylko zdanie. Ta aplikacja jest zdaniem dzięki temu, że `Pyszna` jest
-funkcją z napojów do zdań. Bycie większym-niż jest trochę jak bycie pysznym, ale dotyczy
-*uporządkowanej pary* termów, a nie pojedynczego termu.
+aplikacja `Pyszna kawa` to tylko zdanie. Ta aplikacja jest zdaniem dlatego, że `Pyszna` jest funkcją
+z napojów do zdań, a `kawa` jest napojem. Bycie większym niż jest trochę jak bycie pysznym, ale
+dotyczy *uporządkowanej pary* termów, a nie pojedynczego termu.
 
-**Definicja relacji dwuargumentowej**: *Relacja dwuargumentowa* to w takim razie *dwuargumentowa
-funkcja zwracająca zdanie*. 
+**Definicja relacji dwuargumentowej**: *Relacja dwuargumentowa* to *dwuargumentowa funkcja
+zwracająca zdanie*.
 
 W Lean nie ma funkcji naprawdę dwuargumentowych i całe szczęście, bo dzięki temu wystarczy nam nasza
-strzałka, której używamy zarówno na oznaczenie dowolnie złożonych implikacji i dowolnie złożonych
-funkcji.
+strzałka, której używamy do konstruowania zarówno dowolnie złożonych implikacji jak i dowolnie
+złożonych funkcji.
 
-Punkt 4 wydaje się kluczowy. W tym momencie ma się rzekomo pojawiać sprzeczność, a jeśli faktycznie
-się wtedy pojawia, to cel jest już w zasadzie osiągnięty. W punkcie 5 pojawia się jedynie ogłoszenie
-tej rzekomej sprzeczności. Ewidentnie czegoś nam brakuje i dotyczasowy kod jakoś nie "iskrzy naszej
-radości" (ang. *spark joy*).
+Punkt 4 tego być może dowodu wydaje się kluczowy. W tym momencie ma się rzekomo pojawiać
+sprzeczność, a jeśli faktycznie się wtedy pojawia, to cel jest już w zasadzie osiągnięty. W punkcie
+5 pojawia się jedynie ogłoszenie tej rzekomej sprzeczności. Ewidentnie czegoś nam brakuje i
+dotyczasowy kod jakoś nie "iskrzy naszej radości" (ang. *spark joy*).
 
 Psze pana, a przecież w trybie interaktywnym było dowodzenie jakby od końca. To może też tak zróbmy?
-Żeby bawić się z Anzelem w jego grę musimy przyjąć aksjomat, że nie da się pomyśleć czegoś większego
-od Boga. Żeby ten aksjomat generował sprzeczność musimy z jakiś innych przesłanek wywnioskować, że
-da się pomyśleć coś, co jest większe od Boga. Wtedy będziemy mieli sprzeczność. Jeżeli ta
-sprzeczność będzie wynikała z założenia o nieistnieniu Boga, to dowodząc sprzeczności udowodnimy
-negację tego założenia. 
+Znakomity pomysł, gratuluję. Żeby bawić się z Anzelem w jego grę musimy przyjąć aksjomat, że nie da
+się pomyśleć czegoś większego od Boga. Żeby ten aksjomat generował sprzeczność musimy z jakiś innych
+przesłanek wywnioskować, że da się pomyśleć coś, co jest większe od Boga. Wtedy będziemy mieli
+sprzeczność. Jeżeli ta sprzeczność będzie wynikała z założenia o nieistnieniu Boga, to dowodząc
+sprzeczności udowodnimy negację tego założenia.
 
 Może to być wszystko dla nas dziwne, bo niektórzy z nas akurat potrafią pomyśleć coś, co jest w
 jakimś sensie większe od Boga. Niektórym z nas wydaje się to wręcz przychodzić łatwo, w ogóle
@@ -387,7 +388,8 @@ przesłanki / aksjomatu Anzelma. Pozostaje nam się wtedy tylko ewentualnie zgod
 
 Ale wracając. Skąd Anzelm próbuje "wyprowadzić" wniosek o możliwości pomyślenia czegoś, co jest
 większe od Boga?  To jest akurat proste - z założenia, które próbuje zakwestionować, że Bóg istnieje
-tylko w umyśle. Nie ma nic innego "w kontekście". Wydaje się więc że to są dwa centralne zdania:
+tylko w umyśle. Anzelm nie ma nic innego "w kontekście". Wydaje się więc, że to są dwa centralne
+zdania:
 
 *Nie można pomyśleć niczego większego od Boga.*
 
@@ -396,12 +398,12 @@ tylko w umyśle. Nie ma nic innego "w kontekście". Wydaje się więc że to są
 Nie wiem, czy od razu widać, że między tymi dwoma zdaniami nie ma żadnej prostej relacji
 logicznej. Mamy tu do czynienia ze zmianą kontekstu z intensjonalnego na (chyba?) ekstensjonalny.
 
-**Uwagi o kontekstach ekstensjonalnych i intensjonalnych**: Gdy jest się śpiącym albo nic się nie
-słyszy ani nie widzi subtelna różnica między zdaniami typu *Myślę, że jeżeli A, to B* i *Jeżeli A,
-to B* może być łatwa do przeoczenia. W tym drugim przypadku, jeśli za zdanie *A* lub za zdanie *B*
-podstawimy jakieś *zdanie równoważne* (to znaczy, podstawimy na przykład za *A* zdanie *C*,
-prawdziwe wtedy i tylko wtedy, gdy *A*), to oryginalne zdanie pozostanie prawdziwe lub fałszywe, to
-jest jego status prawdziwościowy się nie zmieni. Ale
+**Uwagi o kontekstach ekstensjonalnych i intensjonalnych**: Gdy jest się śpiącym albo nieprzytomnym
+albo z innych powodów niczego się nie widzi i nie słyszy subtelna różnica między zdaniami typu
+*Myślę, że jeżeli A, to B* i *Jeżeli A, to B* może być łatwa do przeoczenia. W tym przypadku *Jeżeli
+A, to B*, jeśli za zdanie *A* lub za zdanie *B* podstawimy jakieś *zdanie równoważne* (to znaczy,
+podstawimy na przykład za *A* zdanie *C*, prawdziwe wtedy i tylko wtedy, gdy *A*), to oryginalne
+zdanie pozostanie prawdziwe lub fałszywe, to jest jego status prawdziwościowy się nie zmieni. Ale
 
 *Myślę, że jeżeli dzisiaj pada deszcz, to jutro nie będzie padało*
 
@@ -418,7 +420,7 @@ którzy jeszcze nie słyszeli wyrażenia "opad atmosferyczny" i sami go nie zdą
 stanie* pomyśleć, że coś takiego jak *opad atmosferyczny* występuje. Widzimy tu różnicę między tak
 zwanym *kontekstem ekstensjonalnym* (z grubsza: "podstawianie nic nie zmienia") i *intensjonalnym*
 (z grubsza: liczy się sens albo treść w ten sposób, że podstawianie może coś ważnego zmienić), ale o
-tym kiedy indziej.
+tym może kiedy indziej.
 
 **Uwaga o logikach modalnych**: Istnieją rozmaite tak zwane logiki modalne, które powstały, żeby
 operować według sztywnych i możliwie niezawodnych reguł za pomocą takich pojęć jak możliwość,
@@ -427,15 +429,15 @@ konieczność, albo powinność. *Jeżeli *A* jest prawdą, to *A* jest możliwe
 W dowodzie Anzelma pojawia się pojęcie *sposobu istnienia*. To wygląda na pierwszy rzut oka jak coś,
 do czego nadawałaby się może jakaś logika modalna. Chcę przez to powiedzieć, że być może jakaś
 trudna do zauważenia subtelność nam umyka dlatego, że nie rozumiemy dość dobrze różnic między
-istnieniem realnym a istnieniem "w umyśle".
+istnieniem realnym a istnieniem "w umyśle". Kto wie, może?
 
-**Powrót do Anzelma**: Zgodzimy się chyba wszyscy, że jednorożce istnieją tylko w
-wyobraźni. Najprawdopodobniej. A konie, takie zwykłe, bez rogów, istnieją zarówno w wyobraźni jak i
-realnie. W terminologii Anzelma konie są "większe" niż jednorożce, bo konie jakby "istnieją
-bardziej", czy też "istnieją podwójnie". No nie wiem, zależy które konie od których jednorożców,
-wiek też ma tu znaczenie, przecież nie będziemy porównywać źrebaka z dorosłym jednorożcem, chyba, że
-karłowatym, wtedy przynajmniej szanse są być może wyrównane. Ale na pewno widziałem na Disney + co
-najmniej jednego jednorożca, który jest większy od jednego konia, którego widziałem.
+**Powrót do Anzelma**: Zgodzimy się chyba wszyscy, że jednorożce istnieją tylko w wyobraźni. A
+konie, takie zwykłe, bez rogów, istnieją zarówno w wyobraźni jak i realnie. W terminologii Anzelma
+konie są "większe" niż jednorożce, bo konie jakby "istnieją bardziej", czy też "istnieją
+podwójnie". No nie wiem, zależy które konie od których jednorożców, wiek też ma tu znaczenie,
+przecież nie będziemy porównywać źrebaka z dorosłym jednorożcem, chyba, że karłowatym, wtedy
+przynajmniej szanse są być może wyrównane. Ale na pewno widziałem na Disney + co najmniej jednego
+jednorożca, który jest większy od jednego konia, którego widziałem.
 
 Jest jasne, że Anzelmowi chodzi o jakąś *tajemniczą* relację bycia większym niż, która nie ma nic
 wspólnego z wielkością fizyczną. Możemy spróbować jeszcze tak: Jeżeli chodziło Anzelmowi o możliwość
@@ -444,11 +446,10 @@ chodzić o "możliwość pomyślenia" w innym, bardziej abstrakcyjnym sensie. No
 *zdefiniować* jako coś większego niż Bóg możemy cokolwiek i ani kartka nam od tego nie zapłonie,
 jeśli zrobimy to na kartce, ani nam komputer nie wybuchnie, jeśli zrobimy to na komputerze.
 
-Gdybym miał powiedzieć w tym momencie szczerze, co jak sądzę w tym dowodzie przede wszystkim nie
-gra, wskazałbym na niejawne przejście z *Obiekt x istnieje tylko w umyśle jako idea* do *Można
-pomyśleć coś większego, niż x*, bo stąd, że coś *istnieje* tylko w umyśle nie wynika jeszcze
-*logicznie*, że *wiemy lub możemy pomyśleć*, że to coś jest takie a nie inne. Tak tylko na razie
-strzelam.
+Gdybym miał powiedzieć w tym momencie, co jak sądzę w tym dowodzie przede wszystkim nie gra,
+wskazałbym na niejawne przejście z *Obiekt x istnieje tylko w umyśle jako idea* do *Można pomyśleć
+coś większego, niż x*, bo stąd, że coś *istnieje* tylko w umyśle nie wynika jeszcze *logicznie*, że
+*wiemy lub możemy pomyśleć*, że to coś jest takie a nie inne. Tak tylko na razie strzelam.
 
 W ogóle między różnymi *myślami*, a raczej *treściami myśli*, mogą chyba zachodzić relacje
 *przyczynowe* czy *statystyczne*, ale czy mogą *logiczne*? Chyba mogą? Anzelm potrzebował pewnie
@@ -503,13 +504,13 @@ arbitralnego zdania `a`*. Widać to jeszcze wyraźniej, gdy zdefiniujemy to samo
 przestawiając argument za dwukropek (zawsze tak można):
 
 ```lean
-theorem t1' : Prop → a → a := fun (a : Prop) => fun (h : a) => h
+theorem t1' : (a : Prop) → a → a := fun (a : Prop) => fun (h : a) => h
 ```
 
 Twierdzenia `t1` i `t1'` (z apostrofem) to te same funkcje / twierdzenia, tylko inaczej zapisane. I
 rozpoznajemy w obydwu obecność dużego kwantyfikatora. No to próbujemy tak:
 
-*Dla każdego czegoś1, jeżeli coś1 istnieje, to dla każdego czegoś2, jeżeli coś2 jest zmyśleniem,  to
+*Dla każdego czegoś1, jeżeli coś1 istnieje, to dla każdego czegoś2, jeżeli coś2 jest zmyśleniem, to
 coś1 > coś2*.
 
 ```lean
