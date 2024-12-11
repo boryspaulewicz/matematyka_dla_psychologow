@@ -9,7 +9,7 @@ m¹drzejszy od nas, jako nieobci¹¿ony klasyfikator binarny.
 Fa³sz, prawda, negacja, koniunkcja i alternatywa wprowadzone przez teoriê kategorii! A ta
 wprowadzona jako domain-specific language (to te¿ objaœniæ, bo z tego bêdê korzysta³) jeszcze przed
 rachunkiem predykatów jako Zdmuchacz umys³u (z koœlawym t³umaczeniem z angielskiego treœci s³owa
-mindblower).
+mindblower). To siê przyda: https://leanprover.github.io/theorem_proving_in_lean/inductive_types.html
 
 X Formalizacja dowodu na istnienie Boga Anzelma.
 

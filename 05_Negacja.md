@@ -153,7 +153,7 @@ zdaniami i typami, albo termami typów zdaniowych i ich dowodami, ale z innego p
 żebyś poczuł/a, że te różnice można zwykle spokojnie zignorować i żebyś dzięki temu nauczył/a się
 myśleć w całkiem nowy sposób.
 
-## Negacja w praktyce dowodzenia
+# Negacja w praktyce dowodzenia
 
 Myślę, że jesteś już gotowa/y, żeby poćwiczyć dowodzenie zdań zawierających negację. Ale muszę się
 zastanowić, jakie zadanie Ci zaproponować. Wiemy, że negacja to szczególny rodzaj
@@ -229,20 +229,66 @@ zakończy dowód, tak jak w trybie interaktywnym natychmiast zakończyło dowód
 
 Teraz muszę jeszcze wymyślić jakieś proste zadanie, które będzie polegało na *uzyskaniu* negacji. No
 ale negacja to szczególny rodzaj implikacji (funkcji), której następnikiem jest absurd / fałsz
-(która zwraca dowód absurdu / fałszu). Żeby taka funkcja mogła zwrócić dowód fałszu, ten fałsz musi
-się skądś wziąć, nie mogą w tym zadaniu występować same zdania "pozytywne". Nie możemy też po prostu
-w tym zdaniu-zadaniu założyć dowodu *samego fałszu*, a raczej możemy, ale to byłoby trywialne, bo
-wtedy dało by się udowodni *każde* zdanie. A więc musimy w początkowej części zdania założyć jakaś
-negację, żeby uzyskać z niej (inną, żeby nie było już całkiem trywialnie) negację.
+(funkcji która zwraca dowód absurdu / fałszu). Żeby taka funkcja mogła zwrócić dowód fałszu, ten
+fałsz musi się skądś wziąć, nie mogą w tym zadaniu występować same zdania "pozytywne". Nie możemy
+też po prostu w tym zdaniu-zadaniu założyć dowodu *samego fałszu*, a raczej możemy, ale to byłoby
+trywialne, bo wtedy dało by się udowodni *każde* zdanie. 
 
 Może tak: `¬q → p ̀→ ¬p`? No nie, z `¬q` i `p` w żaden sposób nie uzyskamy `¬p`, bo `¬q` i `p` nie
 wejdą ze sobą (bez dodatkowych przesłanek) w żadną "interakcję". A z `q` i `¬q`?  Zakładając
-(dowody) tych dwóch zdań uzyskamy dowód każdego zdania, a to jest już moim zdaniem dla Ciebie zbyt
-łatwe. Okazuje się, że muszę albo wprowadzić zasadę wyłączonego środka (a więc logikę klasyczną),
-albo coś innego, czego jeszcze Ci nie wytłumaczyłem. No to może z tym jeszcze poczekam. Zamiast tego
-zaproponuję Ci zadanie w zasadzie takie samo jak ostatnie, jednak zamiast zdań atomowych będą zdania
-złożone z predykatów. I jeszcze może niech te predykaty dotyczą liczb naturalnych, czemu nie? Być
-może trzeba będzie otoczyć niektóre aplikacje predykatów do parametru twierdzenia `n` nawiasami.
+(dowody) tych dwóch zdań uzyskamy dowód każdego zdania, a więc także negacji dowolnego zdania, ale
+to jest już moim zdaniem dla Ciebie zbyt łatwe. Wydaje mi się, że muszę albo wprowadzić zasadę
+wyłączonego środka (a więc logikę klasyczną), albo coś innego, czego jeszcze Ci nie
+wytłumaczyłem. No to może z tym jeszcze poczekam?
+
+Następnego dnia po napisaniu tego ostatniego fragmentu obudziłem się rano (true story) i od razu
+wpadłem na pomysł, jak ugryźć problem tego zadania. Zaproponuję Ci nie jedno, a dwa zadania na ten
+temat. Oba będą ważne.
+
+W Lean zdanie `¬p` to tak naprawdę zdanie `p → False`. Podobne do naszego, bo też `False` spełnia tą
+samą rolę co nasz `Absurd`, jednak trzeba napisać trochę coś innego, żeby użyć `False` niż my
+piszemy, żeby użyć naszego `Absurd`. Trochę namieszałem, wiem, ale miałem dobry powód (w każdym
+razie tak będę sobie wmawiał). Tak więc "z *fałszu* wynika wszystko"? Może nie masz już co do tego
+wątpliwości, jeśli przez fałsz rozumiemy nasz `Absurd`, ale żeby z jakiegoś "fałszu samego" wynikało
+wszystko? Co by to miało w ogóle znaczyć?
+
+W innej części tego skryptu (który, teraz sobie myślę, może będzie kiedyś niby-książką) przekonamy
+się, czym *w istocie* jest fałsz w logice, *z pewnego* bardzo dziwnego *punktu widzenia* (widzisz
+napięcie, a może nawet coś w rodzaju sprzeczności, między trzema fragmentami napisanymi w tym zdaniu
+pismem pochyłym?). No więc w jaki sposób niby z fałszu ma wynikać wszystko? Następne zadanie to nie
+*odpowiedź* na to pytanie, to tylko *ilustracja*, ale ilustracja to już coś:
+
+**Zadanie**: Każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`. Gdy mamy jakiś
+dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując `False.elim` do tego dowodu,
+co możemy zapisać również krócej, jako nazwę dowodu, zaraz potem (bez spacji) kropkę i zaraz potem
+`elim`. Dla Lean te dwa sposoby zapisu znaczą to samo. Udowodnij poniższe twierdzenie, najpierw
+korzystając z trybu interaktywnego, a potem konstruując kod dowodu podobnie, jak to do tej pory
+robiliśmy (wtedy nie może się pojawić w kodzie konstrukcji ciała twierdzenia komenda `by`).
+
+```lean
+theorem ex_falso_quodlibet (p : Prop) : False → p := by
+```
+
+Jeżeli skonstruowałe/aś kod dowodu powyższego twierdzenia nieinteraktywnie, to musiała/eś skorzystać
+z faktu, że `False` jest *typem* (typem argumentu funkcji, którą skonstruowała/eś), poza tym fałsz
+jest poprzednikiem implikacji. Wygląda więc na to, że fałsz jest *zdaniem fałszywym*. Widzisz, że
+coś tu nie gra?  Przecież zdanie jako takie nie może być ani prawdziwe, ani fałszywe. Może to *nie*
+jest *zdanie fałszywe*, tylko jakiś "fałsz jako taki"? Zawsze możemy o takie rzeczy zapytać Leana:
+
+```lean
+#check False -- False : Prop
+```
+
+Jednak zdanie. Ciekawe? Moim zdaniem bardzo. Wrócimy do tego.
+
+Mam nadzieję, że już niemal *widzisz*, że w początkowej części udowadnianego zdania, albo gdzieś
+"wcześniej", a może "wyżej", przed dowodzonym zdaniem, na przykład jako (globalny) aksjomat, *musimy
+założyć lub uzyskać dowód negacji albo fałszu, żeby w dowodzonym zdaniu uzyskać negację*.
+
+Zaproponuję Ci jeszcze zadanie w zasadzie takie samo poprzednie, jednak zamiast zdań atomowych będą
+zdania złożone z predykatów. I jeszcze może niech te predykaty dotyczą liczb naturalnych, bo ten tym
+już trochę znasz.  Być może trzeba będzie otoczyć niektóre aplikacje predykatów (jakiejś, bo to
+parametr twierdzenia-funkcji `t2`) liczby naturalnej `n` nawiasami.
 
 **Zadanie**: Udowodnij poniższe twierdzenie.
 
@@ -251,14 +297,128 @@ theorem t2 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : `¬ P n → (P n �
 ```
 
 Zwróć uwagę, że musieliśmy dodać parametr `n` typu `Nat`, bo inaczej nie byłoby żadnych zdań. Sam
-predykat, na przykład, samo `Ponury`, nie jest zdaniem. Dopiero, dajmy na to, `Ponury Krystian`
-jest. Wewnątrz (w lokalnym kontekście) dowodu twierdzenia `t2` od samego początku są więc trzy termy
-(parametry twierdzenia): (jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba
-naturalna `n`.
+predykat, na przykład, samo `Ponury`, nie jest zdaniem (jest predykatem, a więc pewną funkcją {nie
+*typem* funkcyjnym}). Dopiero, dajmy na to, `Ponury Krystian` jest zdaniem. Wewnątrz (w lokalnym
+kontekście) dowodu twierdzenia `t2` od samego początku są więc trzy termy (parametry twierdzenia):
+(jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba naturalna `n`. Z tego możemy
+zawsze korzystać wewnątrz dowodu. Poza tym mamy implikację, której następnikiem jest implikacja i
+której poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę implikacja). Te
+elementy musimy "rozłączać" wprowadzając (do kontekstu) przesłanki jako hipotetyczne dowody.
 
-Na koniec powiem Ci jeszcze, że w Lean zdanie `¬p` to tak naprawdę zdanie `p → False`. Trochę
-namieszałem, wiem, ale mam dobre powody (w każdym razie tak będę sobie dalej mówił).
+## Implikacja przeciwna
+
+Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli `¬q` (powstrzymałem się przed napisaniem "zdanie
+`¬q` jest prawdziwe", ale nadal obawiam się, czy jesteś już w stanie domyślić się od razu z
+kontekstu, czy chodzi o zdanie, czy o dowód zdania), to nie może być prawdą, że `p`. Gdyby *wtedy*
+`p` było prawdą, to moglibyśmy użyć implikacji `p → q` do uzyskania `q`, co razem z `¬q` dawałoby
+sprzeczność. Można to też objaśnić tak: Jeżeli `p → q`, to zawsze, gdy `p`, to `q`, a więc jeśli
+`¬q`, to `¬p`.
+
+Następne zadanie jest chyba wyraźnie trudniejsze niż wszystkie poprzednie zadania. Jeżeli utkniesz,
+nie zrażaj się. Jeżeli utkniesz, będziesz próbować znowu i nadal Ci się nie uda, nie przejmuj się
+tym i czytaj dalej. Zrozumienie, że ucząc się matematyki *nie trzeba rozwiązywać wszystkich zadań* i
+że upieranie się przy tym może bardzo przeszkadzać w nauce zajęło mi naprawdę dużo czasu, o wiele za
+dużo. Żałuję, że nikt mi tego nie tłukł już dawno temu do głowy (albo jeszcze lepiej, cierpliwie
+wytłumaczył). Proszę nie popełniaj tego błędu.
+
+**Rada/Motywator/Life hack**: Żeby Cię przekonać do uczenia się matematyki na luzie, opowiem Ci, jak
+zmiana nastawienia do matematyki zmieniła moje życie. W trakcie wakacji 2023 roku zacząłem się
+systematycznie uczyć, rojąc sobie, że może jakiś cudem będę miał szansę to kiedyś wykorzystać, z
+cudownej książki, napisanej przez Geuversa i Nederpelta, pod tytułem [Type Theory and Formal
+Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C). Ta
+książka jest napisana w bardzo jasny sposób. Czytając ją czuje się, że autorzy starają się wszystko
+objaśnić najlepiej jak tylko potrafią. W mojej ocenie to jest też wybitna *literatura* w tym
+znaczeniu, że styl jest jednocześnie wyjątkowo elegancki i lekki.
+
+Niektórzy wybitni matematycy piszą tak dobrze. A że temat jest czasem abstrakcyjny, złożony i pełen
+klarownych i głębokich niespodzianek, rezultatem bywa porażające połączenie treści i formy. Coś
+takiego jest chyba osiągalne tylko wtedy, gdy autor(zy) ma(ją) dużo do powiedzenia i dobrze
+rozumie(ją) to, co chce/ą powiedzieć i to, jakie trudności mogą wystąpić u odbiorcy. No więc to
+jest, w mojej ocenie, tego rodzaju książka. W dodatku treść jest całkowicie samowystarczalna - poza
+dobrą znajomością języka angielskiego, autorzy nie zakładają żadnej wcześniejszej wiedzy
+czytelnika. Mimo to, uczenie się o teorii typów zależnych nie było dla mnie ani trochę łatwe.
+
+Przez dłuższy czas zaczynałem każdy dzień od 30 minutowej jednostki (tak to sobie nazywam),
+polegającej albo na czytaniu po raz kolejny tego samego *krótkiego* fragmentu, albo na robieniu
+notatek czy zaplanowanych powtórek. Później tego samego dnia zdarzało się, że jeszcze do tego
+wracałem, ale nie zawsze. Na początku rozwiązywałem też wszystkie zadania. I to był bardzo powolny
+proces. 
+
+Któregoś dnia z czystej ciekawości zacząłem swobodnie czytać dalej, a potem wróciłem do miejsca, na
+którym wcześniej skończyłem. W ten sposób miałem pewną przerwę między momentem, w którym pierwszy
+raz przeczytałem późniejszy fragment, ale nie robiłem żadnych pojawiających się tam zadań, a
+momentem, kiedy znowu zacząłem go czytać. Okazało się, że rozumiem ten fragment znacznie
+lepiej. Postanowiłem więc, tylko na próbę, *w ogóle nie robić zadań gdy nie mam na to ochoty* (co
+Tobie akurat odradzam, bo w tym skrypcie zadań jest bardzo mało i stanowią integralną część tekstu).
+
+Robiłem notatki i zaplanowane, generatywne powtórki, ale nie robiłem żadnych zadań, które mnie nie
+zainteresowały. Z czasem zacząłem też *zauważać błędy*. Czytając zawsze szukam błędów, po prostu tak
+mam i moje doświadczenie wskazuje, że w większych tekstach napisanych w języku naturalnym zawsze są
+błędy. Ponieważ byłem pewny, że mam rację, napisałem do Roba Nederpelta, który potraktował mnie
+niezwykle życzliwie i poważnie. Jednym z efektów tej przygody jest to, że moje nazwisko pojawiło się
+w oficjalnej erracie do tej książki, jako nazwisko jednej z osób, której autorzy dziękują. A mi
+akurat dziękują za wskazanie (w tym momencie, to jest 2024-12-11) około *połowy* wszystkich
+wymienionych tam błędów. Z niewielu rzeczy jestem tak dumny jak z tego, dlatego często się tym
+chwalę. Nie pomyślałbym nawet o napisaniu czegoś choćby tylko odlegle zbliżonego do tego skryptu,
+gdyby nie ta wspaniała książka i kontakt z tym wspaniałym człowiekiem. No więc nie przesadzaj z
+ambicją, moim zdaniem najważniejszy jest czas.
+
+Coś innego, co też na zawsze zmieniło moje życie, a co jest z tym związane, przytrafiło mi się w
+szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego przedmiotu, Pani Płucienniczak, którą
+bardzo dobrze wspominam (jednak moją ulubioną nauczycielką na zawsze pozostanie Pani Wójcik, która
+uczyła mnie matematyki), tłumaczyła coś na tablicy i kiedy zrozumiałem, o czym mówiła, zrozumiałem
+też jednocześnie coś ważniejszego (ważniejszego, niż fizyka!): *wszystko, co da się zrozumieć, ja
+też mogę zrozumieć, o ile tylko będę miał dość informacji i czasu*. Uważam, że Ty też możesz
+zrozumieć *wszystko*, co da się zrozumieć. Jak to ujął Silvanus Thompson w swoim popularnym i
+dostępnym za darmo [podręczniku do rachunku różniczkowo-całkowego](https://calculusmadeeasy.org/),
+*What one fool can do, another can*. Thompson podaje, że to jest "Ancient Simian Proverb", ale to
+żart (guglnij "Simian" jeśli chcesz się dowiedzieć więcej).
+
+Zawsze byłem chudy, dobry z matematyki i z programowania, bo taki się urodziłem. Był nawet taki
+moment, kiedy dawałem korepetycje kolegom ze starszych klas, ale z pewnością nie byłem ani nie
+jestem geniuszem. Po prostu w szkole podstawowej nie potrafiłem nie myśleć często o matematyce. Mój
+przyjaciel, wybitny teoretyk prawa i filozof Wojtek Załuski jest zdaje mi się prawdziwym
+geniuszem. Inny mój przyjaciel, filozof matematyczny (jeśli wolno mi "to" tak nazwać) Szymon
+Szymczak też jak sądzę jest. To też oczywiście głuptasy, jak my wszyscy, ale to są akurat głuptasy w
+pewnych (zbyt licznych) obszarach genialne. Dzięki nim wiem, jaki ze mnie dureń. *W pierwszej klasie
+szkoły podstawowej* nie zapisałem prawie nic w zeszycie i mój szkolny "poziom wykonania" był tak
+niski, że, jak się później dowiedziałem, nauczyciele poważnie zastanawiali się, czy nie powinienem
+zostać w niej na drugi rok. Z powodu licznych nieobecności (których co prawda sporą część spędziłem
+w bibliotece) i bardzo słabych ocen o mało co nie powtarzałem też roku w liceum.
+
+Na studia z psychologii jest tylu chętnych, że niektórzy z Was z pewnością przerastają mnie wrodzoną
+"mocą obliczeniową", a poza tym nie jestem już taki młody. Tak się jednak składa, że przez wiele lat
+w miarę systematycznie uczyłem się wielu trudnych rzeczy. Pracuję na uczelni dzięki temu, że na
+pierwszym albo drugim roku psychologii z podręcznika Andersona, z którego korzystaliśmy czasem na
+zajęciach z psychologii poznawczej, dowiedziałem się, jak się uczyć, a ze znakomitej książki
+[Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie tłumaczenie jest
+*tragicznie złe*) dowiedziałem się, jak sobie radzić z ekstremalną prokrastynacją. Skoro już mówię o
+takich sprawach, to wypada mi tutaj podkreślić, że nie pracowałbym na uczelni, gdyby nie wsparcie,
+życzliwość i wyrozumiałość - moich przyjaciół, niezrównanego Michała Wierzchonia i uczciwej,
+skromnej i mądrej Marty Siedleckiej, która od dłuższego już czasu dostarcza mi sensownych zajęć - a
+także Kasi Popiołek, która była dla mnie wprost wymarzoną szefową przez 10 lat, gdy pracowałem na
+SWPSie w Katowicach. Wygląda więc na to, że trzeba czasu, być może jakiegoś sposobu na siebie i
+dobrych przyjaciół; wtedy można zrozumieć, co tylko się chce. What one fool can do, another can.
+
+**Zadanie**: No to udowodnij teraz albo kiedy indziej albo wcale twierdzenie `cp` (to skrót od
+[*contraposition*](https://en.wikipedia.org/wiki/Contraposition)). Użyłem tu krótszego zapisu dla
+dwóch parametrów, to jest napisałem `(p q : Prop)` zamiast `(p : Prop) (q : Prop)`. Dla Leana to
+znaczy to samo, ale pozwala na taki skrót tylko wtedy, gdy sąsiadujące parametry mają ten sam typ.
+
+```lean
+theorem cp (p q : Prop) (h : p → q) : ¬q → ¬p :=
+    -- Nie będę się tym razem upierał przy sposobie konstruowania dowodu. Może być interaktywnie,
+    -- albo nie, albo możesz spróbować na oba sposoby, jak wolisz.
+```
+
+W tym dowodzie masz zawsze do dyspozycji jakieś dwa zdania (`p` i `q`), ale z tego akurat będziesz
+korzystać tylko "w tle". Ważniejszy jest jakiś dowód `h `implikacji `p → q`, którego możesz używać
+*bez* wprowadzania tego dowodu do kontekstu, bo jest parametrem twierdzenia `cp`. Jeżeli czujesz się
+niepewnie, to podpowiadam, że zdanie do udowodnienia jest tak naprawdę implikacją, której
+poprzednikiem i następnikiem też są implikacje.
 
 ### Przypisy
 
 [^1]: Terminologia "granatowa" to tutaj oczywiście żart.
+
+[^2]: To jest porzekadło 

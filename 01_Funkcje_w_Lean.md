@@ -1,4 +1,4 @@
-# Ogólne uwagi o skryptach
+# Wprowadzenie
 
 **Ten skrypt ma dwie wersje**: To jest przegadana wersja skryptu, odpowiednia dla całkiem
 początkujących. Jeżeli miałeś już przez jakiś czas kontakt z tą wersją, może przyda Ci się zerknąć
@@ -26,17 +26,17 @@ się publikować swoje prace w wysokopunktowanych czasopismach, bo te prace są 
 innych matematycznych analfabetów, pełniących funkcje redaktorów czasopism i recenzentów.
 
 Matematyczny analfabetyzm ogromnej większości psychologów jest łatwym do zaobserwowania
-faktem. Równie łatwo można wskazać jedną z głównych przyczyn tego faktu - *nikt*, włączając w to
+faktem. Równie łatwo można wskazać jedną z głównych przyczyn tego faktu: *nikt*, włączając w to
 osoby prowadzące zajęcia ze statystyki, nie wymaga od psychologów znajomości matematyki, a mało kto
 systematycznie uczy się matematyki z własnej woli. W mojej ocenie to jest jednocześnie śmieszne,
-groteskowe, nieakceptowalne, i nie widzę, żeby ktokolwiek próbował to zmienić.
+groteskowe, nieakceptowalne i nie widzę, żeby ktokolwiek próbował to zmienić.
 
-To jest eksperyment pedagogiczny oparty na założeniu, że (przynajmniej Ci młodsi) psychologowie
+Ten eksperyment pedagogiczny jest oparty na założeniu, że (przynajmniej Ci młodsi) psychologowie
 często mniej boją się programowania niż matematyki, a poza tym z programowaniem mogą się oswajać w
-interakcji z komputerem dostarczającym natychmiastowej informacji zwrotnej. Ten eksperyment
-pedagogiczny ma pomóc w oswajaniu się z matematyką studentom na kierunku psychologia i pracownikom
-akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi podjąć próbę poznania
-nowego, pięknego, i bardzo ekspresyjnego języka programowania.
+interakcji z komputerem dostarczającym natychmiastowej informacji zwrotnej. Skrypt ma pomóc w
+oswajaniu się z matematyką studentom na kierunku psychologia i pracownikom akademickim zajmującym
+się badaniami psychologicznymi, którzy są gotowi podjąć próbę poznania nowego, pięknego, i bardzo
+ekspresyjnego języka programowania.
 
 Ten skrypt *może zawierać i prawie na pewno zawiera błędy we fragmentach napisanych w języku
 naturalnym*, czyli w tych częściach, w których mniej lub bardziej po swojemu objaśniam kod lub
@@ -45,11 +45,11 @@ jestem tylko matematycznym amatorem. Gdybyś znalazł/a błąd, byłoby mi bardz
 napisał/a (borys.paulewicz@gmail.com).
 
 Ten skrypt *prawie na pewno nie zawiera błędów w częściach formalnych*, to jest zakodowanych w
-pewnej wersji języka teorii typów zależnych zaimplementowanej w asystencie dowodzenia
+pewnej wersji języka teorii typów zależnych, z której korzysta asystent dowodzenia
 [Lean](https://lean-lang.org/). To jest o ile te części sprawdziłem przed posłaniem zmian do
 repozytorium. Jeżeli tak właśnie akurat zrobiłem, to znaczy, że wszystkie części całkowicie formalne
-zostały sprawdzone przez algorytm, którego używa. Wtedy mało czego można być tak pewnym jak tego, że
-są bezbłędne.
+zostały sprawdzone przez algorytm, którego używa do tego Lean. Wtedy mało czego można być tak pewnym
+jak tego, że są bezbłędne.
 
 **Ostrzeżenie**: Nawet jeżeli przeczytasz tą część skryptu do końca i uda Ci się zrobić poprawnie
 zadania, których jest zresztą niewiele, jest możliwe, że po wszystkim będziesz czuć coś w rodzaju
@@ -58,12 +58,12 @@ dlatego takie poczucie jest na początku prawdopodobne. Ja też się podobnie cz
 pierwszy miałem kontakt z tymi treściami. To poczucie może się stopniowo zmienić w coraz głębsze
 zrozumienie, ale to wymaga *cierpliwości*. 
 
-W związku z tym, oto moja rada: Naukowcem z prawdziwego zdarzenia nie zostaje się z dnia na
+W związku z tym, oto moja sugestia: Naukowcem z prawdziwego zdarzenia nie zostaje się z dnia na
 dzień. Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i pogódź się z tym, że dobre
 opanowanie tego rodzaju materiału wymaga czasem wielokrotnego aktywnego czytania tych samych
 fragmentów. O ile nie zabraknie wytrwałości, to prędzej czy później może stać się to, co dzieje się,
 gdy przez dłuższy czas idziemy dokądś, niekoniecznie dążąc stale do jednego celu, a powietrze jest
-bardzo wilgotne. Chociaż nie ma wyraźnego momentu, kiedy zachodzi jakościowa zmiana, odkrywamy w
+bardzo wilgotne. Nie ma wyraźnego momentu, kiedy zachodzi ta jakościowa zmiana, odkrywamy jednak w
 końcu, że choć nie padał deszcz, jesteśmy przemoczeni[^1].
 
 **Praktyczna wskazówka**: Gdy pojawi się frustracja, a całkiem możliwe, że się pojawi, poczekaj albo
@@ -88,8 +88,8 @@ dłuższą przerwę, ja w każdym razie tego wtedy potrzebuję.
 ## Zachęta i jednocześnie ćwiczenie wskazane nawet dla osób nie całkiem początkujących
 
 **Polecenie**: Myślę, że już w podstawówce stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B =
-C*, to *A = C*, niezależnie od tego, czym są *A*, *B* i *C*. Na pewno też jako znajomy rozpoznasz
-taki oto fragment "matematycznej prozy":
+C*, to *A = C*, niezależnie od tego, czym są *A*, *B* i *C*. Na pewno znajomy wyda Ci się taki oto
+fragment matematycznej prozy:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
@@ -110,13 +110,13 @@ jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze mną, że
 operacje większość dzieci opanowuje w szkole podstawowej.
 
 Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest jak przepis,
-który stosując możemy wyprodukować nieskończenie wiele prawdziwych zdań na temat liczb
-naturalnych. Albo jak coś w rodzaju maszyny albo mechanizmu, który działa dzięki temu, że używamy go
-w określony sposób, to jest konsekwentnie podstawiając w miejsca zmiennych wyrażenia odpowiedniego
-typu (typu liczbowego). W tej części skryptu to jest nas punkt wyjścia i - jak się przekonasz - to
-będzie również nasz punkt dojścia.
+który stosując da się wyprodukować nieskończenie wiele prawdziwych zdań na temat liczb
+naturalnych. Albo możemy na niego popatrzeć jak na coś w rodzaju maszyny albo mechanizmu, który
+działa dzięki temu, że używamy go w określony sposób, to jest konsekwentnie podstawiając w miejsca
+zmiennych wyrażenia odpowiedniego typu (typu liczbowego). W tej części skryptu to jest nasz punkt
+wyjścia i - jak się przekonasz - to będzie również nasz punkt dojścia.
 
-Spróbuj chwilowo potraktować takie formalne reguły jak te wyrażone w przytoczonym fragmencie jako
+Spróbuj chwilowo potraktować takie formalne reguły jak te wyrażone w przytoczonym fragmencie jak
 *reguły gry, która nie musi mieć żadnego sensu*. Uwierz mi, bo sprawdzałem to wielokrotnie, potrzeba
 sensu na tym etapie może Ci przeszkadzać. Obiecuję, że sens się pojawi, tylko kiedy
 indziej. Zdolność do tymczasowego stłumienia w sobie potrzeby sensu bywa bardzo korzystna, a czasem
@@ -127,15 +127,15 @@ rozumieć jako *aksjomaty*, czyli reguły gry, na które umawiamy się bez uzasa
 
 1. Istnieją tak zwane *zdarzenia*.
 
-2. Istnieje funkcja *p*, która *zdarzeniom* lub ich *skończonym sekwencjom* przypisuje *liczby*.
+2. Istnieje funkcja *p*, która *zdarzeniom* lub ich parom przypisuje *liczby*.
 
 3. Jeżeli *x* i *y* to *zdarzenia*, to *p(x, y) = p(y, x)*.
 
-Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, *skończona sekwencja* i
-*liczba*, traktujemy tutaj jako część wspólnej wiedzy zastanej. 
+Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, i *liczba* traktujemy
+tutaj jako część wspólnej wiedzy zastanej.
 
 Pewnie przyszła Ci do głowy narzucająca się interpretacja symboli *zdarzenie* i *p*. Spróbuj ją
-proszę ignorować, na ile tylko jesteś w stanie. 
+proszę zignorować, na ile tylko jesteś w stanie.
 
 Poza aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
 
@@ -144,8 +144,8 @@ Poza aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
 Zapisz teraz nową wersję definicji pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
 oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Czyli
 traktując tą definicję jak przepis, dokładnie tak samo jak wcześniej traktowaliśmy inny fragment
-matematycznej prozy. Uzyskasz w ten sposób dwie wersje zdania będącego (parametryczną) treścią
-definicji - oryginalną i tą, która powstała przez podstawienie.
+matematycznej prozy. Uzyskasz w ten sposób dwie wersje zdania będącego treścią definicji -
+oryginalną i tą, która powstała przez podstawianie.
 
 Skorzystaj z aksjomatu 3 w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu wersji
 definicji są równe. Zapisz tą równość.
@@ -160,7 +160,7 @@ twierdzenie ani nie przytaczając ani nie odnosząc się do żadnych konkretnych
 obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży
 stopień ogólności, chodzi w takich twierdzeniach?
 
-Muszę zaznaczyć, że wersja twierdzenia Bayesa, którą udało Ci się udowodnić, jest mocno
+Muszę podkreślić, że wersja twierdzenia Bayesa, którą udało Ci się udowodnić, jest mocno
 uproszczona. Prawdopodobieństwa nie mogą być mniejsze niż *0* ani większe niż *1*, a nasze
 prawdopodobieństwa to dowolne liczby, nie wiadomo nawet jakie, czy na przykład rzeczywiste, czy
 wymierne. Tak się jednak składa, że nie potrzebowaliśmy korzystać z tych własności
@@ -190,13 +190,13 @@ programy i implikacje jako na jedno i to samo.
 
 ## Funkcje w Lean
 
-**Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę
+**Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
 https://live.lean-lang.org
 
 Rozpoczniesz w ten sposób interaktywną sesję z asystentem dowodzenia Lean. Będziesz pisać w oknie po
 lewej i czasem zaglądać do okna po prawej. Żeby stworzyć w Lean proces dodający dwie liczby
-naturalne możemy napisać tak (**Polecenie**: wklej poniższy kod do lewego okna Lean'a - wystarczy
+naturalne możemy napisać tak (**Polecenie**: wklej poniższy kod do lewego okna Lean'a. Wystarczy
 kliknąć w ikonę kopiowania widoczną poniżej z prawej strony):
 
 ```lean
