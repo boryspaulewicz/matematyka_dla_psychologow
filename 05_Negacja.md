@@ -342,68 +342,86 @@ fałszu, po prostu mówisz Leanowi, że chcesz go zastosować do skonstruowania 
 danym miejscu "czeka na bycie udowodnionym". Byłoby najlepiej, gdybyś spróbował/a zakończyć dowód
 twierdzenia `t1` używając każdego z wymienionych sposobów.
 
-Teraz muszę jeszcze wymyślić jakieś proste zadanie, które będzie polegało na *uzyskaniu*
-negacji. Negacja to szczególny rodzaj implikacji, której następnikiem jest fałsz. Żeby taka funkcja
-mogła zwrócić dowód fałszu, ten fałsz musi się skądś wziąć, nie mogą w tym zadaniu występować same
-zdania "pozytywne". Nie możemy też po prostu w tym zdaniu-zadaniu założyć dowodu *samego fałszu*, a
-raczej możemy, ale to byłoby trywialne, bo wtedy dało by się udowodnić każde zdanie, a więc dałoby
-się wtedy też uzyskać dowód negacji każdego zdania.
+No dobrze, teraz muszę jeszcze wymyślić jakieś w miarę proste zadanie, które będzie polegało na
+*uzyskaniu* negacji. Negacja to szczególny rodzaj implikacji, której następnikiem jest fałsz. Żeby
+taka funkcja mogła zwrócić dowód fałszu, ten fałsz musi się skądś wziąć, nie mogą w tym zadaniu
+występować same zdania "pozytywne". Nie możemy też po prostu w tym zdaniu-zadaniu założyć dowodu
+*samego fałszu*, a raczej możemy, ale to byłoby trywialne, bo wtedy dało by się udowodnić każde
+zdanie, a więc dałoby się wtedy też uzyskać dowód negacji każdego zdania.
 
 Może tak: `¬q → p ̀→ ¬p`? No nie, z `¬q` i `p` w żaden sposób nie uzyskamy `¬p`, bo `¬q` i `p` nie
 wejdą ze sobą (bez dodatkowych przesłanek) w żadną "interakcję". A z `q` i `¬q`?  Zakładając dowody
-tych dwóch zdań uzyskamy dowód każdego zdania, a więc także negacji dowolnego zdania, ale to jest
-już moim zdaniem dla Ciebie zbyt łatwe. Wydawało mi się w tym momencie, że muszę albo wprowadzić
-zasadę wyłączonego środka (a więc logikę klasyczną), albo coś innego, czego jeszcze Ci nie
-tłumaczyłem. No to może z tym jeszcze poczekam?
+tych dwóch zdań uzyskamy dowód każdego zdania za pomocą eksplozji dedukcyjnej, a więc także negacji
+dowolnego zdania, ale to jest już moim zdaniem dla Ciebie zbyt łatwe. Wydawało mi się w tym
+momencie, że muszę albo wprowadzić zasadę wyłączonego środka (a więc logikę klasyczną), albo coś
+innego, czego jeszcze Ci nie tłumaczyłem. No to może z tym jeszcze poczekam?
 
 Następnego dnia po napisaniu tego ostatniego fragmentu obudziłem się rano i od razu wiedziałem,
-jakie to ma być zadanie. Właściwie zaproponuję Ci nie jedno, a dwa zadania na ten temat. Oba będą
+jakie to ma być zadanie. Właściwie zaproponuję Ci nie jedno, a trzy zadania na ten temat. Oba będą
 ważne.
 
 W Lean zdanie `¬p` to tak naprawdę zdanie `p → False`. Podobne do naszego, bo też `False` spełnia tą
-samą rolę co nasz `Absurd`, jednak trzeba napisać trochę coś innego, żeby użyć `False` niż my
+samą rolę co nasz `Absurd`, jednak żeby użyć `False`, trzeba napisać trochę coś innego, niż my
 piszemy, żeby użyć naszego `Absurd`. Trochę namieszałem, wiem, ale miałem dobry powód (w każdym
-razie tak będę sobie wmawiał). Tak więc "z *fałszu* wynika wszystko"? Może nie masz już co do tego
+razie tak mi się wydaje). Tak więc "z *fałszu* wynika wszystko"? Może nie masz już co do tego
 wątpliwości, jeśli przez fałsz rozumiemy nasz `Absurd`, ale żeby z jakiegoś "fałszu samego" wynikało
 wszystko? Co by to miało w ogóle znaczyć?
 
 W innej części tego skryptu (który, teraz sobie myślę, może będzie kiedyś niby-książką) przekonamy
 się, czym *w istocie* jest fałsz w logice, *z pewnego* bardzo dziwnego *punktu widzenia* (widzisz
 napięcie, a może nawet coś w rodzaju sprzeczności, między trzema fragmentami napisanymi w tym zdaniu
-pismem pochyłym?). No więc w jaki sposób niby z fałszu ma wynikać wszystko? Następne zadanie to nie
-*odpowiedź* na to pytanie, to tylko *ilustracja*, ale ilustracja to już coś:
+pismem pochyłym? Czy "w istocie" pasuje do "z pewnego punktu widzenia"?). No więc w jaki sposób niby
+z fałszu ma wynikać wszystko? Następne zadanie to nie *odpowiedź* na to pytanie, to tylko
+*ilustracja*, ale ilustracja to już coś:
 
 **Zadanie**: Każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`. Gdy mamy jakiś
-dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując `False.elim` do tego dowodu,
-co możemy zapisać również krócej, jako nazwę dowodu, zaraz potem (bez spacji) kropkę i zaraz potem
-`elim`. Dla Lean te dwa sposoby zapisu znaczą to samo. Udowodnij poniższe twierdzenie, najpierw
-korzystając z trybu interaktywnego, a potem konstruując kod dowodu podobnie, jak to do tej pory
-robiliśmy (wtedy nie może się pojawić w kodzie konstrukcji ciała twierdzenia komenda `by`).
+dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując dostępną do tego dowodu w
+Leanie funkcję `False.elim`. To samo możemy zapisać również krócej, jako nazwę dowodu, zaraz potem
+(bez spacji) kropkę i zaraz potem `elim`. Jeżeli dowód fałszu to jakiś term złożony, na przykład
+aplikacja, to musimy cały ten term otoczyć wtedy nawiasami i zapisać prawy nawias jako `).elim`
+zaraz. Czyli poniższe trzy sposoby zapisu:
+
+```lean
+False.elim jakis_dowod_falszu
+
+jakiś_dowod_falszu.elim
+
+(jaki zlozony term bedacy dowodem falszu).elim
+```
+
+dają w Leanie ten sam efekt. 
+
+Udowodnij poniższe twierdzenie, najpierw korzystając z trybu interaktywnego, a potem konstruując kod
+dowodu podobnie, jak to do tej pory robiliśmy (wtedy nie możesz napisać w kodzie definiującym ciało
+twierdzenia komendy `by`). Niewiele tu trzeba zrobić. Wystarczy wprowadzić poprzednik implikacji
+jako założenie i użyć tego hipotetycznego dowodu fałszu wybierając jeden ze sposobów, które właśnie
+objaśniłem.
 
 ```lean
 theorem ex_falso_quodlibet (p : Prop) : False → p := by
 ```
 
 Jeżeli skonstruowałe/aś kod dowodu powyższego twierdzenia nieinteraktywnie, to musiała/eś skorzystać
-z faktu, że `False` jest *typem* (typem argumentu funkcji, którą skonstruowała/eś), poza tym fałsz
-jest poprzednikiem implikacji. Wygląda więc na to, że fałsz jest *zdaniem fałszywym*. Widzisz, że
-coś tu nie gra?  Przecież zdanie jako takie nie może być ani prawdziwe, ani fałszywe. Może to *nie*
-jest *zdanie fałszywe*, tylko jakiś "fałsz jako taki"? Zawsze możemy o takie rzeczy zapytać Leana:
+z faktu, że `False` jest *typem* (typem swojego dowodu i jednocześnie typem argumentu funkcji, którą
+musiała/eś skonstruowałać w trybie nieinteraktywnym). Wygląda więc na to, że fałsz jest *zdaniem
+fałszywym*. Widzisz, że coś tu nie gra?  Przecież zdanie jako takie nie może być ani prawdziwe, ani
+fałszywe. Może to *nie* jest *zdanie fałszywe*, tylko jakiś "fałsz jako taki"? Zawsze możemy o takie
+rzeczy zapytać Leana:
 
 ```lean
 #check False -- False : Prop
 ```
 
-Jednak zdanie. Ciekawe? Moim zdaniem bardzo. Wrócimy do tego.
+Jednak zdanie. Ciekawe? Moim zdaniem bardzo. Wrócimy do tego kiedy indziej.
 
 Mam nadzieję, że już niemal *widzisz*, że w początkowej części udowadnianego zdania, albo gdzieś
 "wcześniej", a może "wyżej", przed dowodzonym zdaniem, na przykład jako (globalny) aksjomat, *musimy
-założyć lub uzyskać dowód negacji albo fałszu, żeby w dowodzonym zdaniu uzyskać negację*.
+założyć lub uzyskać dowód negacji albo fałszu, żeby uzyskać dowód jakiejś negacji albo fałszu*.
 
-Zaproponuję Ci jeszcze zadanie w zasadzie takie samo poprzednie, jednak zamiast zdań atomowych będą
-zdania złożone z predykatów. I jeszcze może niech te predykaty dotyczą liczb naturalnych, bo ten tym
-już trochę znasz.  Być może trzeba będzie otoczyć niektóre aplikacje predykatów (jakiejś, bo to
-parametr twierdzenia-funkcji `t2`) liczby naturalnej `n` nawiasami.
+Zaproponuję Ci jeszcze zadanie w zasadzie takie samo jak poprzednie, jednak zamiast zdań atomowych
+będą zdania złożone z predykatów. Może niech te predykaty dotyczą liczb naturalnych, bo ten typ już
+trochę znasz. Być może trzeba będzie otoczyć niektóre aplikacje predykatów (jakiejś, bo to parametr
+twierdzenia-funkcji `t2`) liczby naturalnej `n` nawiasami.
 
 **Zadanie**: Udowodnij poniższe twierdzenie.
 
@@ -411,30 +429,36 @@ parametr twierdzenia-funkcji `t2`) liczby naturalnej `n` nawiasami.
 theorem t2 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : `¬ P n → (P n → Q n)` := by
 ```
 
-Zwróć uwagę, że musieliśmy dodać parametr `n` typu `Nat`, bo inaczej nie byłoby żadnych zdań. Sam
+Zwróć uwagę, że musieliśmy dodać parametr typu `Nat`, bo inaczej nie moglibyśmy pisać zdań złożonych
+z predykatów dotyczących liczb(y) naturalnych w sposób, który byłby dla Leana "zrozumiały": Sam
 predykat, na przykład, samo `Ponury`, nie jest zdaniem (jest predykatem, a więc pewną funkcją {nie
-*typem* funkcyjnym}). Dopiero, dajmy na to, `Ponury Krystian` jest zdaniem. Wewnątrz (w lokalnym
-kontekście) dowodu twierdzenia `t2` od samego początku są więc trzy termy (parametry twierdzenia):
-(jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba naturalna `n`. Z tego możemy
-zawsze korzystać wewnątrz dowodu. Poza tym mamy implikację, której następnikiem jest implikacja i
-której poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę implikacja). Te
-elementy musimy "rozłączać" wprowadzając (do kontekstu) przesłanki jako hipotetyczne dowody.
+*typem* funkcyjnym}). Dopiero, dajmy na to, `Ponury Krystian` jest zdaniem. Analogicznie, sam
+predykat `P` dotyczący liczb naturalnych nie jest jeszcze zdaniem, dopiero aplikacja `P` do liczby
+naturalnej jest. Skoro więc mamy dowodzić zdania na temat (jakiś) własności (tutaj `P` i `Q`) liczb
+naturalnych, to musimy "mieć" jakaś liczbę naturalną, której te własności mogą przysługiwać albo
+nie.
+
+Wewnątrz (w lokalnym kontekście) dowodu twierdzenia `t2` od samego początku są więc *trzy* termy
+(parametry twierdzenia): (jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i (jakaś) liczba
+naturalna `n`. Wewnątrz dowodu zawsze możemy korzystać z parametrów dowodzonego twierdzenia, bo
+twierdzenie to tak naprawdę funkcja, a wewnątrz każdej funkcji możemy zawsze korzystać z jej
+parametrów (o ile ich lokalnie nie "przysłonimy" tworząc "wewnętrzny kontekst" i tam nadając nazwom
+parametrów nowe znaczenie). 
+
+Mamy implikację, której następnikiem jest implikacja i której poprzednikiem też jest (szczególna)
+implikacja (bo negacja to tak naprawdę implikacja). Te elementy musimy kolejno "rozłączać",
+wprowadzając (do kontekstu) jako lokalne hipotezy poprzedniki obu implikacji, a raczej ich
+hipotetyczne dowody.
 
 ## Implikacja przeciwna
 
-Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli `¬q` (powstrzymałem się przed napisaniem "zdanie
-`¬q` jest prawdziwe", ale nadal obawiam się, czy jesteś już w stanie domyślić się od razu z
-kontekstu, czy chodzi o zdanie, czy o dowód zdania), to nie może być prawdą, że `p`. Gdyby *wtedy*
-`p` było prawdą, to moglibyśmy użyć implikacji `p → q` do uzyskania `q`, co razem z `¬q` dawałoby
-sprzeczność. Można to też objaśnić tak: Jeżeli `p → q`, to zawsze, gdy `p`, to `q`, a więc jeśli
-`¬q`, to `¬p`.
-
 Następne zadanie jest chyba wyraźnie trudniejsze niż wszystkie poprzednie zadania. Jeżeli utkniesz,
-nie zrażaj się. Jeżeli utkniesz, będziesz próbować znowu i nadal Ci się nie uda, nie przejmuj się
-tym i czytaj dalej. Zrozumienie, że ucząc się matematyki *nie trzeba rozwiązywać wszystkich zadań* i
-że upieranie się przy tym może bardzo przeszkadzać w nauce zajęło mi naprawdę dużo czasu, o wiele za
-dużo. Żałuję, że nikt mi tego nie tłukł już dawno temu do głowy (albo jeszcze lepiej, cierpliwie
-wytłumaczył). Proszę nie popełniaj tego błędu.
+nie zrażaj się proszę. A jeżeli utkniesz, będziesz próbować znowu i nadal Ci się nie uda, po prostu
+się tym nie przejmuj i czytaj dalej, o ile tylko ciekawi Cię, co będzie dalej. Zrozumienie, że ucząc
+się matematyki *nie trzeba rozwiązywać wszystkich zadań* i że upieranie się przy tym może bardzo
+przeszkadzać w nauce zajęło mi naprawdę dużo czasu, o wiele za dużo. Żałuję, że nikt mi tego nie
+tłukł już dawno temu do głowy (albo jeszcze lepiej, cierpliwie wytłumaczył). Proszę nie popełniaj
+tego błędu.
 
 **Rada/Motywator/Life hack**: Żeby Cię przekonać do uczenia się matematyki na luzie, opowiem Ci, jak
 zmiana nastawienia do matematyki zmieniła moje życie. W trakcie wakacji 2023 roku zacząłem się
@@ -516,7 +540,35 @@ pracowałem na SWPSie w Katowicach. Wygląda więc na to, że trzeba czasu, być
 siebie i dobrych przyjaciół; wtedy można zrozumieć, co tylko się chce. What one fool can do, another
 can.
 
-**Zadanie**: No to udowodnij teraz albo kiedy indziej albo wcale twierdzenie `cp` (to skrót od
+## Szkielet dowodu `¬q → ¬p` zakładając `p → q`
+
+Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli `¬q`, to nie może być prawdą, że `p`. Gdyby bowiem
+*wtedy* `p` było prawdą, to moglibyśmy użyć `p → q` do uzyskania `q`, co razem z `¬q` dawałoby nam
+sprzeczność.
+
+Można to objaśnić również tak (dla uproszczenia pomijam poniżej znajdujące się cały czas w
+kontekście deklaracje `p : Prop` i `q : Prop`):
+
+Jeżeli `p → q`  
+(kontekst: `h1 : p → q`)
+
+to jeżeli `¬q`  
+(kontekst: `h1 : p → q`, `h2 : ¬q`)
+
+to jeżeli `p`  
+(kontekst: `h1 : p → q`, `h2 : ¬q`, `h3 : p`)
+
+to z `¬q`, `p → q` i`p` wynika fałsz  
+(term: `h2 (h1 h3) : False`)
+
+Czyli: zakładając `p → q`, to zakładając `¬q` z założenia `p` możemy wyprowadzić dowód fałszu: `p ->
+False`.
+
+Czyli: zakładając `p → q` i `¬q` możemy wyprowadzić dowód `¬p`.
+
+Czyli: zakładając `p → q`, `¬q → ¬p`.
+
+**Zadanie**: No to udowodnij teraz, albo kiedy indziej, albo wcale twierdzenie `cp` (to skrót od
 [*contraposition*](https://en.wikipedia.org/wiki/Contraposition)). Użyłem tu krótszego zapisu dla
 dwóch parametrów, to jest napisałem `(p q : Prop)` zamiast `(p : Prop) (q : Prop)`. Dla Leana to
 znaczy to samo, ale pozwala na taki skrót tylko wtedy, gdy sąsiadujące parametry mają ten sam typ.
@@ -524,14 +576,14 @@ znaczy to samo, ale pozwala na taki skrót tylko wtedy, gdy sąsiadujące parame
 ```lean
 theorem cp (p q : Prop) (h : p → q) : ¬q → ¬p :=
     -- Nie będę się tym razem upierał przy sposobie konstruowania dowodu. Może być interaktywnie,
-    -- albo nie, albo możesz spróbować na oba sposoby, jak wolisz.
+    -- albo nie, albo możesz spróbować na oba sposoby. Jak wolisz.
 ```
 
 W tym dowodzie masz zawsze do dyspozycji jakieś dwa zdania (`p` i `q`), ale z tego akurat będziesz
 korzystać tylko "w tle". Ważniejszy jest jakiś dowód `h `implikacji `p → q`, którego możesz używać
 *bez* wprowadzania tego dowodu do kontekstu, bo jest parametrem twierdzenia `cp`. Jeżeli czujesz się
-niepewnie, to podpowiadam, że zdanie do udowodnienia jest tak naprawdę implikacją, której
-poprzednikiem i następnikiem też są implikacje.
+niepewnie, to podpowiadam raz jeszcze, że zdanie do udowodnienia jest tak naprawdę implikacją,
+której poprzednikiem i następnikiem też są implikacje.
 
 ### Przypisy
 

@@ -1,3 +1,25 @@
+Objaœniæ pojêcie zdania atomowego.
+
+This is my attempt to motivate you at this stage: If you look at this first line of code that starts
+with the word "theorem" and that I kindly ask you to just paste to the Lean server, Lean will color
+the syntax slightly, and it will be even easier for you to notice that the syntax is quite intuitive
+and vaguely familiar. All you have to do to begin to understand why it is so familiar is to accept
+the notion that it is just a definition of a *function* that does not differ from how a definition
+of a function looks like in e.g. R or C, and this function actually *works* much like an R or a C
+functions work. A theorem, or a typical definition, is always a kind of (parametric) function (under
+the Curry-Howard isomorphism). This fact can be explained in under 5 minutes, but it takes some time
+to really get used to.
+
+Wyjaœniæ, jak dzia³a rachunek przyczynowy w teorii typów na toy example u¿ywaj¹c jednego aksjomatu
+rachunku interwencyjnego na przyk³adzie rzutu monet¹ w dwóch arbitralnie nazwanych randomizowanych
+warunkach.
+
+Podziêkowaæ Adasiowi Chuderskiemu za Lispa.
+
+Czemu TTZ jest w pewnym sensie idealnym jêzykiem programowania - podstawowa sk³adnia wyra¿a wprost
+to i tylko to, co jest kluczowe dla formalnego teoretyzowania na temat obliczalnoœci, a w
+programowaniu chodzi o obliczalnoœæ.
+
 Namiesza³em z Absurdem i False w rozdziale o negacji. Trzeba bêdzie poprzestawiaæ to i owo (co
 najmniej).
 
