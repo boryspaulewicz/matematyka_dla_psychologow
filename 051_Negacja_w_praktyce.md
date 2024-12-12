@@ -389,4 +389,4 @@ której poprzednikiem i następnikiem też są implikacje.
 
 ### Przypisy
 
-[^1] Popatrz Marta, dopisałem, zgodnie z prawdą, że jesteś dowcipna.
+[^1] Popatrz Marta, dopisałem, zgodnie z prawdą, że jesteś dowcipna ;-)
