@@ -255,10 +255,10 @@ dostępne. Pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym mo
 różnicę między moją definicją absurdu i tą, której używamy w Leanie.
 
 **Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
-Leanie można zastosować *taktykę* `absurd`. Stosujemy ją do dwóch (być może złożonych) termów,
+Leanie można zastosować funkcję `absurd`. Stosujemy ją do dwóch (być może złożonych) termów,
 jakiegoś dowodu tego samego zdania w wersjach "pozytywnej" i "negatywnej" (dowodu negacji tego
 zdania), *w tej kolejności*. Kolejność jest myląca, bo przecież jeśli `¬p` jest implikacją z `p` do
-fałszu, to powinniśmy aplikować dowód `¬p` do dowodu `p`, a kiedy stosujemy taktykę `absurd`
+fałszu, to powinniśmy aplikować dowód `¬p` do dowodu `p`, a kiedy stosujemy funkcję `absurd`
 kolejność termów jest odwrotna. No trudno, taka konwencja (jest też głębszy powód, ale go
 pominiemy).
 
@@ -271,8 +271,8 @@ chyba tak nadal mówić), że chcesz udowodnić aktualny cel i sam "decyduje", �
 ma być wykorzystana na rzecz tego celu.
 
 Jeśli masz odwagę, możesz spróbować skonstruować ten sam dowód w trybie nieinteraktywnym (a więc bez
-użycia taktyk `intro`, `exact` czy `absurd`), konstruując funkcję dowodu `¬p`, zwracającą funkcję
-dowodu `p`, zwracającą dowód `q`:
+użycia taktyk `intro` czy `exact`), konstruując funkcję dowodu `¬p`, zwracającą funkcję dowodu `p`,
+zwracającą dowód `q`:
 
 ```lean
 theorem t1' (p : Prop) (q : Prop) : ¬p → p → q := 
@@ -281,18 +281,66 @@ theorem t1' (p : Prop) (q : Prop) : ¬p → p → q :=
 ```
 
 Widzisz jednoznaczny związek z tym, w jaki spośób konstruowała/eś przed chwilą ten sam dowód w
-trybie interaktywnym? Przypominam, że w trybie nieinteraktywnym nie zadziała komenda `exact` ani
-`intro` ani żadna inna taktyka. Możesz wejść w dowolnym miejscu w tryb interaktywny pisząc `by` i
-zakończyć dowód używając taktyk, tak jak wcześniej. Albo możesz nauczyć się czegoś nowego: jeżeli
-otoczysz aplikację `h1` do `h2` (znana nam, "naturalna" metoda wywoływania eksplozji dedukcyjnej
-przez aplikację) nawiasami, to gdy dopiszesz zaraz za prawym nawiasem (bez spacji) `.elim`, z kropką
-na początku (ta nazwa to skrót od angielskiego *elimination*, czyli eliminacji, co w logice oznacza
-*użycie* albo *wykorzystanie* założenia), to uzyskasz fałsz, który od razu zakończy dowód, tak jak w
-trybie interaktywnym natychmiast zakończyło dowód zastosowanie taktyki `absurd`. Używając takiej
-eliminacji dowodzisz fałszu przez *odrywanie*, czyli za pomocą reguły *modus ponens*, czyli przez
-zastosowanie (dowodu) implikacji `p → False` do (dowodu) jej poprzednika `p`, czyli zastosowanie
-funkcji typu `p → False` do odpowiedniego dla niej argumentu. Wszystko to już wiesz, ale na wszelki
-wypadek przypominam. Najlepiej spróbuj obydwu sposobów.
+trybie interaktywnym? 
+
+Przypominam, że w trybie nieinteraktywnym nie zadziała komenda `exact`, `intro`, czy jakakolwiek
+inna taktyka. Możesz jednak zawsze w dowolnym miejscu wejść w tryb interaktywny pisząc `by` i
+zakończyć dowód lub tylko jego fragment używając taktyk. Albo możesz nauczyć się czegoś nowego,
+kodując dowód nieinteraktywne: Możemy użyć eksplozji dedkukcyjnej w trybie nieinteraktywnym na co
+najmniej dwa sposoby. Jeden polega na tym, że stosujemy funkcję `absurd`, ale to już
+objaśniłem. Drugi, równoważny, tylko inaczej zapisany, polega na jawnym zastosowaniu reguły
+eliminaji fałszu. 
+
+Jeżeli w rozpoczętym wyżej dowodzie otoczysz aplikację `h1` do `h2` (znana nam, "naturalna" metoda
+wywoływania eksplozji dedukcyjnej przez aplikację) nawiasami, to gdy dopiszesz zaraz za prawym
+nawiasem (bez spacji) `.elim`, z kropką na początku, to uzyskasz fałsz, który od razu zakończy
+dowód, tak jak w trybie interaktywnym natychmiast zakończyło dowód zastosowanie taktyki `exact`
+funkcji `absurd`. Nazwa `elim` to skrót od angielskiego *elimination*, czyli eliminacji, co w logice
+oznacza *użycie* albo *wykorzystanie* jakiegoś założenia lub założeń.
+
+Może to też warto omówić krok po kroku. Jeżeli (nie kopiuj tego kodu)
+
+`h1 : ¬p
+h2 : p`
+
+to ponieważ (rozpakowując definicję negacji) `h1 : p → False`, to
+
+`#check h1 h2 -- h1 h2 : False`
+
+A reguła eliminacji fałszu mówi, że dla dowolnego zdania, jeśli mamy dowód / akceptujemy / fałsz, to
+mamy dowód / akceptujemy to zdanie (zwykle w tym stylu zapisujemy reguły dedukcji):
+
+*Fałsz*
+------
+*A*
+
+
+To nie jest fragment Leana ani "wypowiedź" w teorii typów zależnych, tylko fragment prozy
+matematycznej dotyczącej dedukcji naturalnej. Czy widzisz, że chociaż z komentarzem ("A reguła
+eliminacji...") zapis z poziomą kreską jest dość zrozumały, to bez komentarza, który pozwala
+domyślić się, czym jest *A*, jest niezrozumiały? 
+
+Regułę dedukcji *z fałszu wynika wszystko* stosujemy w Lean aplikując funkcję `elim` do termu typu
+`False`. Jeżeli zastanawiasz się, czym to się różni od stosowania dowodu `Absurd`u albo od
+aplikowania funkcji `absurd`, to odpowiadam - w zasadzie niczym. To są tylko różne konwencje
+wyrażenia tej samej operacji. Gdybyś chciał/a skorzystać z aplikacji funkcji `elim` do dowodu
+fałszu, to możesz to zrobić albo tak:
+
+`jakis_dowod_falszu.elim`
+
+albo tak:
+
+`False.elim jakis_dowod_falszu`
+
+Dla Leana to są dwa sposoby zapisu tego samego. 
+
+Podsumowując, gdy masz ochotę użyć w ten sposób jawnie reguły eliminacji dla fałszu, musisz najpierw
+mieć jakiś dowód fałszu, albo udowodnić fałsz przez *odrywanie*, czyli za pomocą reguły *modus
+ponens*, czyli przez zastosowanie (dowodu) implikacji `p → False` do (dowodu) jej poprzednika `p`,
+czyli zastosowanie funkcji typu `p → False` do odpowiedniego dla niej argumentu. Gdy już masz dowód
+fałszu, po prostu mówisz Leanowi, że chcesz go zastosować do skonstruowania dowodu zdania, które w
+danym miejscu "czeka na bycie udowodnionym". Byłoby najlepiej, gdybyś spróbował/a zakończyć dowód
+twierdzenia `t1` używając każdego z wymienionych sposobów.
 
 Teraz muszę jeszcze wymyślić jakieś proste zadanie, które będzie polegało na *uzyskaniu*
 negacji. Negacja to szczególny rodzaj implikacji, której następnikiem jest fałsz. Żeby taka funkcja
