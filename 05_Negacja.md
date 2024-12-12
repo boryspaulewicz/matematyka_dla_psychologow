@@ -158,7 +158,7 @@ Inna nazwa na absurd to *fałsz*.
 
 ## Negacja w logice konstruktywnej
 
-Negacja jest operatorem jednoargumentowym, który z każdego zdania `p` tworzy negację tego zdania,
+Negacja jest operatorem jednoargumentowym, który z dowolnego zdania `p` tworzy negację tego zdania,
 `¬p`, która też jest zdaniem. Możemy to zdanie / typ konsekwentnie interpretować jako *nieprawda, że
 `p`*.
 
@@ -180,7 +180,7 @@ def nie (p : Prop) : Prop := p → Absurd
 
 Symbol `¬` działa w Lean podobnie (ale nie całkiem tak samo) jak zdefiniowana właśnie stała `nie`.
 
-**Polecenie**: Aby uzyskać w Lean symbol negacji `¬`, wpisz `\neg`, po czym usuń ten symbol.
+**Polecenie**: Aby uzyskać w Lean symbol negacji `¬` wpisz `\neg`, po czym usuń ten symbol.
 
 Z powodów technicznych, które nie będą nas interesować, definicja absurdu w Lean ma inny sens i jest
 też bardziej skomplikowana:
@@ -191,9 +191,9 @@ też bardziej skomplikowana:
 -- fun {a} {b} h₁ h₂ => False.rec (fun x => b) ⋯
 ```
 
-Różnica wynika stąd, że ta definicja nie wyraża przyjętej przez nas treści pojęcia, tylko korzysta z
-tego pojęcia, żeby można go było wygodnie używać w dowodach. Jeszcze raz podkreślam, że szczegóły
-tej definicji nie będą nas interesować.
+Różnica wynika stąd, że ta definicja nie wyraża przyjętej przez nas treści pojęcia absurd, tylko
+korzysta z tego pojęcia, żeby można go było wygodnie używać w dowodach. Uspokajam - szczegóły tej
+definicji nie będą nas interesować.
 
 **Ostrzeżenie**: Ponieważ zależy mi, żebyś nauczył/a się posługiwać tymi pojęciami bez pomocy, odtąd
 będę rzadziej przypominał o różnicach między zdaniem jako takim, istnieniem dowodu zdania,
@@ -209,22 +209,24 @@ myśleć w całkiem nowy sposób.
 # Negacja w praktyce dowodzenia
 
 Myślę, że jesteś już gotowa/y, żeby poćwiczyć dowodzenie zdań zawierających negację. Ale jeszcze nie
-wiem, jakie zadanie Ci zaproponować. Wiemy, że negacja to szczególny rodzaj implikacji. Zadanie może
-polegać na *uzyskaniu* dowodu negacji wewnątrz jakiejś formuły logicznej, albo na jej
-*użyciu*. Zacznijmy od użycia. 
+wiem, jakie zadanie Ci zaproponować. Zadanie może polegać na *uzyskaniu* dowodu negacji wewnątrz
+jakiejś formuły logicznej, albo na jej *użyciu*. Może zaczniemy od użycia.
 
 Żeby skonstruować takie zadanie, muszę stworzyć zdanie, w którym negacja będzie odgrywała rolę
-przesłanki. Może takie `¬p → q`? No nie, z tym nic się nie da zrobić, bo są tylko dwa zdania, a żeby
-użyć (dowodu) `¬p` trzeba mieć również (dowód) `p`; w żaden sposób nie uzyskam z dowodu `q` dowodu
-`p`, bo to są różne zdania atomowe, bez żadnej wewnętrznej struktury. To może tak: `¬p → q → p`? Też
-bez sensu. Przecież z `¬p` i `q` nie może wynikać `p`. Zaraz, ze sprzeczności wynika każde zdanie, a
-więc też zdanie `q`. Już wiem.
+przesłanki. Może `¬p → q`? No nie, z tym nic się nie da zrobić, bo są tylko dwa zdania, a żeby użyć
+(dowodu) `¬p` trzeba mieć również (dowód) `p`; w żaden sposób nie uzyskam z dowodu `q` dowodu `p`,
+bo to są różne zdania atomowe, bez żadnej wewnętrznej struktury. Gdy nie ma żadnych przesłanek,
+które wiązałyby dwa różne zdania atomowe ze sobą (takich jak `p → q`, albo jakiś bardziej
+skomplikowanych), to dwa zdania są *logicznie niezależne*.
 
-**Zadanie**: Udowodnij twierdzenie `¬p → p → q`. To zdanie składa się z dwóch różnych zdań
-atomowych, `p` i `q`, więc Lean musi wiedzieć - lokalnie, to znaczy *wewnątrz dowodu* - że `p` i `q`
-to *zdania*. Jednocześnie `p` i `q` mają być *zmiennymi*, za które chcemy móc podstawiać dowolne
-zdania w przyszłości, stosując to twierdzenie. W takim razie "zdaniowość" nazw `p` i `q` musi być
-zapisana jako argumenty twierdzenia jako funkcji:
+To może `¬p → q → p`? Też bez sensu. Przecież z `¬p` i `q` nie może wynikać `p`. Zaraz, ze
+sprzeczności wynika każde zdanie, a więc też zdanie `q`. Już wiem.
+
+**Zadanie**: Udowodnij twierdzenie `¬p → p → q`. To zdanie zawiera dwa różne zdania atomowe, `p` i
+`q`, więc Lean musi wiedzieć - lokalnie, to znaczy *wewnątrz dowodu* - że `p` i `q` to
+*zdania*. Jednocześnie `p` i `q` mają być *zmiennymi*, za które chcemy móc podstawiać dowolne zdania
+w przyszłości stosując to twierdzenie. W takim razie "zdaniowość" nazw `p` i `q` musi być zapisana
+jako parametry tego twierdzenia / funkcji:
 
 ```lean
 theorem t1 (p : Prop) (q : Prop) : ¬p → p → q := by
@@ -235,7 +237,7 @@ theorem t1 (p : Prop) (q : Prop) : ¬p → p → q := by
 Mamy do udowodnienia implikację, której następnik jest implikacją. Nie wiem, czy to od razu
 zauważyła/eś, więc na wszelki wypadek jeszcze raz wytłumaczę. Pamiętasz konwencję dotyczącą nawiasów
 w takich implikacjach? Zdania `¬p → p → q` i `¬p → (p → q)` są tym samym zdaniem, bo *strzałka wiąże
-z prawej* (tak się o tym mówi). Mamy więc, jakby na najwyższym poziomie struktury tego zdania
+z prawej* (tak się o tym mówi). Mamy więc, jakby na najwyższym poziomie struktury tego zdania,
 implikację, której poprzednikiem jest `¬p` a następnikiem `(p → q)`.
 
 Wiesz już, że udowodnienie tej implikacji polega na udowodnieniu następnika `(p → q)` zakładając
@@ -250,21 +252,23 @@ momencie będziesz miał/a, czyli z hipotetycznych dowodów zdań `¬p` i `p`. B
 teraz będzie ważne - masz przecież jeszcze coś w kontekście: zdania jako takie (a nie ich dowody),
 `p` i `q`, które są parametrami twierdzenia-funkcji `t1`, a więc muszą być wewnątrz tego twierdzenia
 dostępne. Pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym momencie muszę objaśnić
-różnicę, między moją definicją absurdu i tą, której używamy w Leanie.
+różnicę między moją definicją absurdu i tą, której używamy w Leanie.
 
 **Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
 Leanie można zastosować *taktykę* `absurd`. Stosujemy ją do dwóch (być może złożonych) termów,
 jakiegoś dowodu tego samego zdania w wersjach "pozytywnej" i "negatywnej" (dowodu negacji tego
 zdania), *w tej kolejności*. Kolejność jest myląca, bo przecież jeśli `¬p` jest implikacją z `p` do
-fałszu, to powinniśmy aplikować dowód `¬p` do dowodu `p`, a gdy stosujemy taktykę `absurd` kolejność
-jest odwrotna. No trudno, taka konwencja (jest też głębszy powód, ale go pominiemy).
+fałszu, to powinniśmy aplikować dowód `¬p` do dowodu `p`, a kiedy stosujemy taktykę `absurd`
+kolejność termów jest odwrotna. No trudno, taka konwencja (jest też głębszy powód, ale go
+pominiemy).
 
-Jeśli tylko wpiszesz `exact absurd` z dwoma (być może złożonymi) argumentami, to jest jakimś dowodem
-jakiegoś zdania i jakimś dowodem negacji tego samego zdania (jeszcze raz - w tej kolejności), to nie
-będzie trzeba już dodawać zdania-celu jako trzeciego argumentu. Nie będzie trzeba tego robić, bo gdy
-jesteś w trybie dowodzenia interaktywnego, Lean "zakłada" (Lean nie jest działającym celowo agentem,
-więc właście nigdy nic nie "robi", ale możemy chyba tak nadal mówić), że chcesz udowodnić aktualny
-cel i sam "decyduje", że eksplozja dedukcyjna ma być wykorzystana na rzecz tego celu.
+Jeśli w trybie dowodzenia interaktywnego napiszesz `exact absurd` z dwoma (być może złożonymi)
+argumentami, to jest jakimś dowodem jakiegoś zdania i jakimś dowodem negacji tego samego zdania
+(jeszcze raz - w tej kolejności), to nie będzie trzeba już dodawać zdania-celu jako trzeciego
+argumentu. Nie będzie trzeba tego robić, bo gdy jesteś w trybie dowodzenia interaktywnego, Lean
+"zakłada" (Lean nie jest działającym celowo agentem, więc właście nigdy nic nie "robi", ale możemy
+chyba tak nadal mówić), że chcesz udowodnić aktualny cel i sam "decyduje", że eksplozja dedukcyjna
+ma być wykorzystana na rzecz tego celu.
 
 Jeśli masz odwagę, możesz spróbować skonstruować ten sam dowód w trybie nieinteraktywnym (a więc bez
 użycia taktyk `intro`, `exact` czy `absurd`), konstruując funkcję dowodu `¬p`, zwracającą funkcję
@@ -273,8 +277,7 @@ dowodu `p`, zwracającą dowód `q`:
 ```lean
 theorem t1' (p : Prop) (q : Prop) : ¬p → p → q := 
     fun (h1 : ¬p) => 
-        fun (h2 : p) => 
-            -- W linijce poniżej trzeba wpisać term, który jest w tym miejscu dowodem zdania q
+            -- Więcej tutaj nie podpowiem
 ```
 
 Widzisz jednoznaczny związek z tym, w jaki spośób konstruowała/eś przed chwilą ten sam dowód w

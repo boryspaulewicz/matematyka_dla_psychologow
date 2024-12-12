@@ -18,11 +18,10 @@ wprowadzona jako domain-specific language (to te¿ objaœniæ, bo z tego bêdê korzy
 rachunkiem predykatów jako Zdmuchacz umys³u (z koœlawym t³umaczeniem z angielskiego treœci s³owa
 mindblower). To siê przyda: https://leanprover.github.io/theorem_proving_in_lean/inductive_types.html
 
-X Formalizacja dowodu na istnienie Boga Anzelma.
-
 ? Przed wprowadzeniem wizji przysz³oœci napisaæ coœ w stylu Teraz czas na sen itd
 
 Do innych pracowników - mo¿e warto by³o siê zaj¹æ g³ównie uczeniem *siê* przez staranne uczenie
 innych, a nie pchaniem makulatury i zdobywaniem publicznych pieniêdzy.
 
-X Mój burden of explanation bez nadmiernej iloœci zadañ.
+Nauka jako profesjonalne programowanie i profesjonalne zbieranie danych (nawi¹zanie do postu
+McElreatha o amatorskim programowaniu)
