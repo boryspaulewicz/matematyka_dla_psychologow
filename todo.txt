@@ -1,3 +1,10 @@
+Wyjaœniæ, czemu wolê acknowledgments w œrodku.
+
+Rodzaj gramatyczny: wersja ¿eñska pierwsza, bo jest wiêcej kobiet. Poza tym to siê mo¿e przydaæ
+kobietom.
+
+Najpierw mo¿e przyk³ady, a potem d³u¿sze objaœnienia?
+
 Objaœniæ pojêcie zdania atomowego.
 
 This is my attempt to motivate you at this stage: If you look at this first line of code that starts

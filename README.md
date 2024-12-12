@@ -21,4 +21,6 @@ powtórek.
 
 [Negacja, absurd, fałsz, sprzeczność i eksplozja](./05_Negacja.md)
 
+[Negacja w praktyce dowodzenia](./051_Negacja_w_praktyce.md)
+
 [Cel](./06_Cel.md)
