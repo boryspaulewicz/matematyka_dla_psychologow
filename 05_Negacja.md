@@ -18,25 +18,73 @@ Przyjmujemy taką oto definicję *absurdu*:
 def Absurd : Prop := (a : Prop) → a
 ```
 
-`Absurd` jest pewnym *zdaniem*, jak bowiem widać z definicji ma typ zdaniowy `Prop`. Wynika to stąd,
-że wszystkie typy funkcyjne postaci `A → B → ... → Q`, gdzie `Q` ma typ `Prop`, *same mają typ
-`Prop`*. Powód przyjęcia w Lean tej konwencji nie będzie nas teraz interesował, ale musimy oswoić
-się z tym, że `Absurd` jest *zdaniem, które na poziomie typów przyjmuje dowolne zdania jako
-argumenty*, czyli *typem / zdaniem parametrycznym*.
+Czy widzisz, jak w tej definicji słowa `Prop` i `a` występują od początku do końca na przemian, a
+gdybyśmy zmrużyli oczy i nie widzieli dobrze różnicy między strzałką i symbolem definiowania, to na
+przemian występowałyby też symbole `:` i `→` / `:=`? Może to wygląda jak przypadek, ale czy w
+matematyce mogą występować "prawdziwe przypadki"?
+
+Zgodnie z definicją (`Absurd : Prop`), `Absurd` jest pewnym *zdaniem*. Wynika to stąd, że wszystkie
+typy funkcyjne (nie funkcje) postaci `A → B → ... → Q`, gdzie `Q` ma typ `Prop`, *same mają typ
+`Prop`*:
+
+```lean
+variable (p : Prop) -- deklarujemy, że mamy zdanie p, żeby Lean "wiedział" o czym będziemy "mówić"
+
+#check Type → p -- Type → p : Prop
+#check Type → Type → p -- Type → Type → p : Prop
+#check (Type → Type) → p -- (Type → Type) → p : Prop
+#check Prop → p -- Prop → p : Prop
+#check p → p -- p → p : Prop
+-- i tak dalej
+```
+
+Powód przyjęcia w Lean tej konwencji nie będzie nas teraz interesował, ale musimy oswoić się z tym,
+że `Absurd` jest *zdaniem*, które *na poziomie typów* przyjmuje dowolne zdania jako argumenty, czyli
+*typem / zdaniem parametrycznym*.
 
 Napisałem, że `Absurd` przyjmuje zdania jako argumenty, ale chyba rozumiesz już trochę, że to nie
 całkiem prawda. `Absurd` *nie* jest *funkcją*, tylko *typem*, nie możemy go więc do niczego
-aplikować. Mimo to jednak `Absurd` ma coś z funkcji, bo zawiera fragment kodu. Nie mamy jeszcze
-żadnego termu typu `Absurd`, ale gdybyśmy mieli, to *aplikując ten term*, a nie *aplikując typ
-`Absurd`*, do zdania, uzyskalibyśmy dowód tego zdania.
+aplikować. Mimo to jednak `Absurd` *ma coś z funkcji*, bo *zawiera fragment kodu*. Nie mamy jeszcze
+żadnego termu typu `Absurd`, ale gdybyśmy mieli, to *aplikując ten term* (a nie *aplikując typ
+`Absurd`*) do zdania, uzyskalibyśmy dowód tego zdania. Wiem, że to jest dezorientujące. Ta
+dezorientacja to sygnał, że uczysz się czegoś *nowego*.
 
-Na przykład, mając `d : Absurd` i `p : Prop` moglibyśmy zapisać aplikację `d p`. Żeby ustalić, jaki
-byłby typ tej aplikacji, musimy podstawić zdanie `p` pod *parametr typu* (a *nie* żadnej funkcji)
-`a`. Funkcje typu `Absurd` z termów typu `Prop`, które są jednocześnie typami i zdaniami, robią
-termy tych typów, czyli dowody tych zdań. W ten sposób sam akt aplikacji "wywołuje automatyczne
-obliczanie" na poziomie typu. Korzystała/eś z tego już wcześniej wykonując polecenia, na przykład
-dowodząc i używając twierdzenia `t1`, ale nie rzucało Ci się to w oczy, bo w praktyce to jest bardzo
-naturalny proces.
+Wyobraźmy sobie, że mamy `d : Absurd` i `p : Prop` i możemy zapisać aplikację `d p`. Wystarczy
+rozpakować definicję stałej `Absurd`, żeby zobaczyć, że:
+
+`d : (a : Prop) → a`
+
+Czyli `d` jest jakąś funkcją, która *z dowolnego zdania `a` robi dowód zdania `a`*. To znaczy
+dokładnie to samo, co z dowolnego zdania robi dowód *tego* zdania. Widzisz, że `a` jest tutaj tylko
+nazwą parametru, a nazwy parametrów służą wyłącznie do tego, żeby można było mówić o ich wartościach
+w ten taki sam sposób, w jaki właśnie użyliśmy zaimka *tego*, tylko za pomocą symboli?
+
+`(a : Prop) → a`
+
+*Typ funkcji, które z dowolnego zdania (termu `a` typu `Prop` - `(a : Prop)`) robią dowód tego
+zdania (term typu `a`)*.
+
+W przypadku zwykłych funkcji, takich jak `dodaj2`, ustalenie typu ich aplikacji jest trywialne. Na
+przykład, typ aplikacji `dodaj2` do termu `10` to `Nat`, bo jeżeli funkcja typu `Nat → Nat`
+"dostanie" argument typu `Nat`, to zwróci typ `Nat`. W tym przypadku typ aplikacji możemy ustalić
+przez "oderwanie" typu parametru `Nat` występującego jako pierwszy w typie tej funkcji, czyli w `Nat
+→ Nat`. Jeżeli na przykład coś, co przerabia liczby w liczby, dostanie liczbę, to rezultatem będzie
+liczba, co wiemy z góry (już na etapie samej aplikacji), nie obliczając jeszcze tego
+rezultatu. Oczywiste, prawda?
+
+Żeby ustalić, jaki byłby typ aplikacji termu (i jednocześnie funkcji) `d` typu `(a : Prop) → a` do
+zdania `p`, czyli typ `d p`, musimy nie tylko "oderwać" fragment `(a : Prop)`, który określa typ
+argumentu termu / funkcji `d`, ale również podstawić zdanie `p` pod parametr typu `a`. W ten sposób
+fragment kodu (`(a : Prop) → a`) zapisany w definicji typu `Absurd` "działa" już w momencie
+wystąpienia samej aplikacji. Czy dostrzegasz już, że takie "obliczenie" musi "zadziałać" w momencie
+aplikacji? Gdyby nie zaszło automatyczne podstawianie na poziomie typu, to aplikacja `d p` miałaby
+typ `a`, co dla Leana *nie miałoby sensu*, ponieważ *nie byłoby nigdzie informacji, czym jest `a`*.
+
+Mówiąc krótko, termy / funkcje typu `Absurd` z termów typu `Prop`, które są jednocześnie typami i
+zdaniami, robią termy tych typów, czyli dowody tych zdań. W ten sposób sam akt aplikacji "wywołuje
+automatyczne obliczanie" na poziomie typu. Korzystała/eś z tego już wcześniej wykonując polecenia,
+na przykład dowodząc i używając twierdzenia `t1`, ale może to Ci się nie rzucało w oczy, bo w
+praktyce to jest bardzo naturalny proces.
 
 **Motywator**: Jeżeli czujesz w tym momencie, że nie jesteś w stanie tego wszystkiego zrozumieć,
 proszę, nie zrażaj się. Ucząc się tych treści możesz naprawdę daleko zajść koncentrując się na
@@ -45,13 +93,14 @@ rosła, trzeba tylko czasu.
 
 Na wszelki wypadek podkreślam, że przyjęta przez nas właśnie definicja to nie żadna prawda objawiona
 na temat "istoty absurdu"; to jest tylko *wybór terminologiczny i pojęciowy*, który możemy wyrazić
-poprawnie w języku teorii typów zależnych. To jest coś, na co musimy się wspólnie umówić, żeby nasza
-dalsza komunikacja miała sens.
+poprawnie w języku teorii typów zależnych. To jest więc coś, na co musimy się wspólnie umówić, żeby
+nasza dalsza komunikacja miała sens.
 
 Zwracam uwagę, że `Absurd` *nie* ma struktury predykatu. Moglibyśmy na przykład aksjomatycznie
 zdefiniować jako oznaczającą "generyczny" typ stałą `Zniwiarz`, a stałą `Ponury` jako predykat
 dotyczący żniwiarzy. `Ponury` byłby wtedy *funkcją* (z typu `Zniwiarz` do *typu zdaniowego `Prop`*),
-a *nie*, jak `Absurd`, *typem funkcji*.
+a *nie*, jak `Absurd`, *typem funkcji*. `Ponury` moglibyśmy aplikować (do termów typu `Zniwiarz`), a
+`Absurd`u nie możemy aplikować, możemy aplikować tylko termy typu `Absurd`.
 
 Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*. Aplikacja
 *dowodu absurdu* do *zdania* jest *dowodem tego zdania*.
@@ -63,18 +112,18 @@ axiom Ponury : Zniwiarz → Prop
 #check Ponury Krystian -- Ponury Krystian : Prop
 ```
 
-Zdanie `Ponury Krystian`, będące pewną aplikacją mówi, że Krystian jest ponury(m żniwiażem), ale to
-tylko zdanie, a nie jego *asercja*; na tym etapie nie wiemy jeszcze, czy Krystian jest faktycznie
-ponury. Można powiedzieć, że tylko "rozważamy" albo "wyrażamy taką "ewentualność". Nie da się
-*aplikować absurdu* do tego zdania, bo nasz absurd jest *typem funkcyjnym*, a nie *funkcją*. Możemy
-"aplikować absurd" tylko pośrednio, gdy go już "uzbroimy w dowód".
+Zdanie `Ponury Krystian`, będące pewną aplikacją, mówi, że Krystian jest ponury(m żniwiażem). To
+jest tylko zdanie, a nie jego *asercja* (nie zapis jego dowodu). Na tym etapie nie wiemy jeszcze,
+czy Krystian jest faktycznie ponury. Można powiedzieć, że tylko "rozważamy" albo "wyrażamy taką
+"ewentualność". Mamy (ja w każdym razie mam) ochotę udowodnić to zdanie korzystając z absurdu, ale
+nie da się aplikować absurdu do tego zdania, bo nasz absurd jest typem funkcyjnym, a nie
+funkcją. Możemy "aplikować absurd" tylko pośrednio, gdy go już "uzbroimy w dowód".
 
 Wejdziemy teraz do strefy bezpiecznych eksperymentów logicznych (za pomocą instrukcji `section`) i w
-tej strefie *zadeklarujemy* (za pomocą instrukcji `variable`), że mamy *dowód absurdu*, czyli *term
-typu `Absurd`*. Ponieważ termy typu `Absurd` *są* funkcjami, możemy je aplikować. Użyjemy więc tego
-termu / dowodu, na mocy definicji stałej `Absurd` będącego termem typu funkcyjnego, czyli funkcją,
-do samego zdania `Ponury Krystian` jako takiego. W ten sposób *lokalnie* (bo w sekcji) *udowodnimy*
-to zdanie:
+tej strefie *zadeklarujemy* (za pomocą instrukcji `variable`), że mamy dowód absurdu, czyli term
+typu `Absurd`. Ponieważ termy typu `Absurd` *są* funkcjami, możemy je aplikować. Użyjemy więc tego
+termu / dowodu / funkcji do zdania `Ponury Krystian`. W ten sposób *lokalnie* (bo tylko w utworzonej
+sekcji) udowodnimy to zdanie:
 
 
 ```lean
@@ -82,6 +131,7 @@ section strefa_komfortu
 
     variable (jadro_ciemnosci : Absurd)
 
+    -- jadro_ciemnosci (Ponury Krystian) jest dowodem prawdziwości zdania Ponury Krystian
     #check jadro_ciemnosci (Ponury Krystian) -- jadro_ciemnosci (Ponury Krystian) : Ponury Krystian
 
 end strefa_komfortu
@@ -89,18 +139,16 @@ end strefa_komfortu
 #check jadro_ciemnosci -- Lean sygnalizuje tutaj błąd, a więc poza strefą komfortu jeteśmy bezpieczni
 ```
 
-Jeżeli skopiujesz wszystkie dotychczasowe fragmenty kodu Lean'a, to po umieszczeniu kursora na
+Jeżeli skopiujesz wszystkie dotychczasowe fragmenty kodu Leana, to po umieszczeniu kursora na
 komendzie `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód zdania, że hipotetyczny
 żniwiarz Krystian jest ponury. Powinno być dla Ciebie jasne, że tak samo możemy uzyskać dowód
 dowolnego innego zdania.
 
 Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
-bo skorzystaliśmy z hipotetycznego dowodu absurdu, którego - na szczęście, proszę nie rób tego
-nigdy! - nie zadeklarowaliśmy poza lokalnym kontekstem. Stanęliśmy oto w obliczu *eksplozji
-dedukcyjnej*.
-
-Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych.
+bo skorzystaliśmy z hipotetycznego dowodu absurdu, którego na szczęście - proszę nie rób tego
+nigdy! - nie zadeklarowaliśmy poza lokalnym kontekstem. Mieliśmy właśnie do czynienia z *eksplozją
+dedukcyjną*.
 
 *Ex falso quodlibet.*
 

@@ -637,8 +637,11 @@ rozmaitych definicjach i rozumowaniach rozbierając je na części.
 I jeszcze taka niespodzianka, że mieliśmy od początku duży kwantyfikator, tylko nam się to nie dość
 mocno rzucało w oczy.
 
-I taka bardzo cenna lekcja: *Dowody*, a tak naprawdę *jakiekolwiek rozumowania*, często warto
-*konstruować* lub *re-konstruować*, czyli analizować, od *końca*, zaczynając od *wniosku*
-(celu). Bywa, że oszczędzamy w ten sposób sporo czasu.
+I taka bardzo cenna lekcja: *Dowody*, a właściwie *jakiekolwiek rozumowania*, warto *konstruować*
+lub *re-konstruować*, czyli analizować, od *końca*. Wtedy *zaczynamy od wniosku* (celu) i próbujemy
+ustalić, skąd w ogóle taki wniosek mógłby się wziąć. Zadajemy sobie wtedy pytania: jakie założenia
+czy kroki mogłyby nas do niego doprowadzić, a więc jakie założenia byłyby *wystarczające*, albo
+jakie założenia są *konieczne*, żeby można było mieć nadzieję na jego uzasadnienie. Bywa, że
+oszczędzamy w ten sposób sporo czasu.
 
 [Do następnej części](./Matematyka_dla_psychologow_2.md)
