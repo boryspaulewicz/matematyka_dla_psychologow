@@ -104,8 +104,7 @@ Wiesz już, że reguła eliminacji / (z)użycia fałszu mówi, że dla dowolnego
 akceptujemy fałsz, to mamy dowód / akceptujemy to zdanie. Gdy matematycy nie krzystają z teorii
 typów, zapisują tą regułę często w takim stylu:
 
-*Fałsz*
-------
+<ins>*Fałsz*</ins>  
 *A*
 
 
