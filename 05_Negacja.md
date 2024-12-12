@@ -194,7 +194,7 @@ Negacja jest operatorem jednoargumentowym, który z dowolnego zdania `p` tworzy 
 `¬p`, która też jest, oczywiście, zdaniem. Możemy to zdanie / typ konsekwentnie interpretować jako
 *nieprawda, że `p`*.
 
-Każde zdanie postaci `¬p` jest [*potencjalnym granatem
+Każde zdanie postaci `¬p` jest *potencjalnym* [*granatem
 odłamkowym*](https://pl.wikipedia.org/wiki/Granat_od%C5%82amkowy), a `¬` jest jego *dźwignią*. Każdy
 *term typu `¬p`* (dowód typu / zdania `¬p`) jest *realnym* granatem odłamkowym. W przypadku
 wystąpienia *aplikacji termu typu `¬p` do termu typu `p`* granat `¬p` zostaje *uruchomiony* przez
