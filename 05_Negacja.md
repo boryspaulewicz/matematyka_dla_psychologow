@@ -1,8 +1,5 @@
 # Negacja, absurd, fałsz, sprzeczność i eksplozja
 
-UWAGA Napisałem ten rozdział zbyt szybko. Sporo tu niejasności, dopiero co znalazłem grubsze błędy i
-pewnie jeszcze jakieś znajdę.
-
 Podaję za
 [Wikipedią](https://en-m-wikipedia-org.translate.goog/wiki/Principle_of_explosion?_x_tr_sl=en&_x_tr_tl=pl&_x_tr_hl=pl&_x_tr_pto=rq)
 (2024-12-08):
