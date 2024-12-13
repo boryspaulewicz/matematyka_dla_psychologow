@@ -99,7 +99,7 @@ możemy zapisać aplikację `d p`. Wystarczy rozpakować definicję stałej `Abs
 d : Absurd
 -- oznacza to samo, co
 d : (a : Prop) → a
--- bo tak mówi definicja typu Absurd
+-- bo tak mówi definicja typu Absurd.
 ```
 
 Czyli `d` jest jakąś funkcją (bo ma w swoim typie strzałkę), która *z dowolnego zdania `a` robi
