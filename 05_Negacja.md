@@ -94,10 +94,12 @@ jest, to sygnał, że uczysz się czegoś *nowego*.
 Wyobraźmy sobie, że mamy `d : Absurd` (term typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy
 możemy zapisać aplikację `d p`. Wystarczy rozpakować definicję stałej `Absurd`, żeby zobaczyć, że:
 
-`-- Wersja z nierozpakowaną definicją typu Absurd
-d : Absurd`
-`-- oznacza to samo, co
-d : (a : Prop) → a`
+```lean
+-- Wersja z nierozpakowaną definicją typu Absurd
+d : Absurd
+-- oznacza to samo, co
+d : (a : Prop) → a
+```
 
 Czyli `d` jest jakąś funkcją (bo ma w swoim typie strzałkę), która *z dowolnego zdania `a` robi
 dowód zdania `a`*. To znaczy dokładnie to samo, co: z dowolnego zdania robi dowód *tego*
