@@ -241,4 +241,4 @@ myśleć w całkiem nowy sposób.
 
 ### Przypisy
 
-[^1]: Terminologia "granatowa" to tutaj oczywiście żart.
+[^1]: Terminologia "granatowa" to oczywiście żart.
