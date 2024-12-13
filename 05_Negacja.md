@@ -52,7 +52,7 @@ Inna nazwa na absurd to *fałsz*.
 
 ## O co chodzi z tym Absurdem?
 
-Raz jeszcze przypominam definicję:
+Przypominam definicję:
 
 ```lean
 def Absurd : Prop := (a : Prop) → a
