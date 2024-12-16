@@ -164,15 +164,15 @@ tekstu, ale oczywi¶cie mo¿na je omin±æ, o ile tylko pó¼niejsze tre¶ci bêd± nadal
 Robi³em wiêc dalej notatki i zaplanowane, generatywne powtórki, ale nie robi³em ¿adnych zadañ, które
 mnie nie zainteresowa³y i które nie wydawa³y mi sie wa¿ne. Z czasem zacz±³em te¿ zauwa¿aæ
 b³êdy. Czytaj±c zawsze szukam b³êdów, po prostu tak mam i moje do¶wiadczenie wskazuje, ¿e w
-d³u¿szych tekstach napisanych w jêzyku naturalnym jakie¶ b³êdy zawsze zostaj±. W moich d³u¿szych
-tekstach s± z pewno¶ci±. Poniewa¿ czu³em, ¿e mam racjê, napisa³em do Roba Nederpelta, który
-potraktowa³ mnie niezwykle ¿yczliwie i powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje
-nazwisko pojawi³o siê w oficjalnej erracie do tej ksi±¿ki, jako nazwisko jednej z osób, której
-autorzy dziêkuj±. A mi akurat dziêkuj± za wskazanie (w tym momencie, to jest 2024-12-11) oko³o
-*po³owy* wszystkich wymienionych b³êdów. Z niewielu rzeczy jestem tak dumny jak z tego, dlatego
-czêsto siê tym chwalê. Nie wpad³bym na pomys³ napisania czego¶ choæby tylko odlegle zbli¿onego do
-tego dziwnego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania³a ksi±¿ka i kontakt z
-tym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ, moim zdaniem, jak ju¿ chyba wspomina³em,
+d³u¿szych tekstach napisanych w jêzyku naturalnym jakie¶ b³êdy zawsze s±. W moich d³u¿szych tekstach
+s± z pewno¶ci±. Poniewa¿ czu³em, ¿e mam racjê, napisa³em do Roba Nederpelta, który potraktowa³ mnie
+niezwykle ¿yczliwie i powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje nazwisko pojawi³o siê
+w oficjalnej erracie do tej ksi±¿ki, jako nazwisko jednej z osób, której autorzy dziêkuj±. A mi
+akurat dziêkuj± za wskazanie (w tym momencie, to jest 2024-12-11) oko³o *po³owy* wszystkich
+wymienionych b³êdów. Z niewielu rzeczy jestem tak dumny jak z tego, dlatego czêsto siê tym
+chwalê. Nie wpad³bym na pomys³ napisania czego¶ choæby tylko odlegle zbli¿onego do tego dziwnego
+tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania³a ksi±¿ka i kontakt z tym
+cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ, moim zdaniem, jak ju¿ chyba wspomina³em,
 najwa¿niejszy jest czas.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
