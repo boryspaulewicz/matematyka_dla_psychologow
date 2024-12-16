@@ -2,7 +2,7 @@ Ta książka jest skierowana przede wszystkim do studentów starszych lat na kie
 również do badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To między innymi
 teoretyczne i praktyczne wprowadzenie do programowania, (meta-)matematyki, teorii typów zależnych,
 wnioskowania statystycznego i przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
-uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojżenia na
+uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
 psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
 rozwinięciem wątków, z jakimi zmagałem się pisząc pracę doktorską, a którymi zacząłem się zajmować
 jeszcze na etapie pisania pracy magisterskiej z psychologii, a nawet nieco wcześniej.
