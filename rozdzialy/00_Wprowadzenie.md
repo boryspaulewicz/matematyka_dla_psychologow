@@ -225,7 +225,7 @@ przygodê z Lispem, która na zawsze zmieni³a mój sposób my¶lenia o programowaniu.
 mnie, gdy bêd±c jeszcze na studiach magisterskich pisa³em w C++ jak±¶ procedurê do
 eksperymetu. Zapyta³, w jakim jêzyku piszê, na co odpowiedzia³em, ¿e w C++, a On wtedy powiedzia³,
 ¿artuj±c, ¿e gdyby jego koledzy dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em,
-nie zra¿ony, w czym On pisze, na co powiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co
+niezra¿ony, w czym On pisze, na co powiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co
 to Lisp, a nied³ugo pó¼niej to by³ mój ulubiony jêzyk i zreszt± na d³ugo nim pozosta³. W³a¶nie
 dlatego piszê t± ksi±¿kê w Emacsie, z którym jestem od dawana tak mocno zro¶niêty, ¿e czasem wrêcz
 zapominam, ¿e go u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu, byæ mo¿e jakiego¶ sposobu na siebie i
