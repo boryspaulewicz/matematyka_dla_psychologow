@@ -116,11 +116,11 @@ w nowym świetle *sens* pomiaru psychologicznego.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
 wygląda to, co *niewidzialne*, ekstremalnie *złożone*, *idiosynkratyczne*, *zmienne* i w ogromnym
-stopniu zależne od całej, w zasadzie *nieobserwowalnej historii interakcji ze jego środowiskiem*, to
-jest jak wygląda struktura mojego albo Twojego umysłu, albo przebieg naszych procesów umysłowych,
-albo zamiast skupiać się na czysto przyczynowych relacjach między fizycznie rozumianymi bodźcami i
-reakcjami, jak to mają w zwyczaju behawioryści, zajmiemy się czymś jakby kompletnie z drugiej
-strony, to jest *środowiskiem*.
+stopniu zależne od całej, w zasadzie *nieobserwowalnej historii interakcji organizmu z jego
+środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu, albo przebieg naszych
+procesów umysłowych, albo zamiast skupiać się na czysto przyczynowych relacjach między fizycznie
+rozumianymi bodźcami i reakcjami, jak to mają w zwyczaju behawioryści, zajmiemy się czymś jakby
+kompletnie z drugiej strony, to jest *środowiskiem*.
 
 Będzie to środowisko jako coś, czym jak sądze zawsze było dla psychologa *jako psychologa*, a czym
 nie jest na przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to
