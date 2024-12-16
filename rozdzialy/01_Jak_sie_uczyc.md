@@ -52,9 +52,9 @@ pisz±c na kartce, próbujê dos³ownie *opowiedzieæ* to, co mam powtórzyæ. Zaraz po
 siêgam do tych wszystkich materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w ten
 sposób powtórzyæ.
 
-Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie do niczego potrzebne. Z powodu wrodzonych wad mojego
-charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który wymy¶li³em
-czytaj±c Rachlina (a mo¿e wrêcz od niego skopiowa³em?). 
+Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie do niczego potrzebne. Z powodu wrodzonych wad
+swojego charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który
+wymy¶li³em czytaj±c Rachlina (a mo¿e wrêcz od niego skopiowa³em?).
 
 Kiedy zale¿y mi, ¿eby uczyæ siê systematycznie d³u¿ej, robiê takie ma³e kartki-kalendarze, z
 naniesionymi niechlujnie liniami, na których widaæ, jak mi idzie. Jest tam 7 kolumn, ka¿da nazwana
