@@ -6,8 +6,8 @@ bêdziemy omawiaæ jaki¶ mój bli¿ej nieokre¶lony "skrypt w³asny". Korzystaj±c z te
 postanowi³em przeprowadziæ eksperyment dydaktyczny, polegaj±cy na próbie przekonania studentów, ¿e
 przy odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
 zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt sta³ siê seri±
-komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami, wymagaj±cymi
-dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
+komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi dowodzenia
+tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Sz³o mu powoli, wiêc wprowadzi³em pewne zmiany i poprawion± wersjê
