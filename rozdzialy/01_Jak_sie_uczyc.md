@@ -30,12 +30,12 @@ jest to, ¿e te powtórki mog± siê wydawaæ niepotrzebne. Przecie¿ jeszcze tego sam
 zrobili¶my notatki i nie zaniedbali¶my przy tym przerw, bêdziemy pamiêtaæ wiêkszo¶æ tre¶ci dosyæ
 dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i w pewnym sensie o to w³a¶nie
 chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ trochê d³u¿ej, nawet
-tylko do dnia nastêpnego, ju¿ by tak ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci
-postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala
-siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej *³atwej* powtórki, która jeszcze
-bardziej utrwala zapis i w ten sposób ka¿da kolejna powtórka daje coraz wiêkszy wzrost trwa³o¶ci
-zapisu. Dzieje siê wtedy jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak jakby
-powi±zane reprezentacje pamiêciowe stawa³y siê coraz bardziej hierarchicznie ustrukturyzowane.
+tylko do dnia nastêpnego, ju¿ by taka nie by³a, bo utrada dostêpu do informacji w pamiêci postêpuje
+pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala siê na tyle,
+¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej *³atwej* powtórki, która jeszcze bardziej utrwala
+zapis i w ten sposób ka¿da kolejna powtórka daje coraz wiêkszy wzrost trwa³o¶ci zapisu. Dzieje siê
+wtedy jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak jakby powi±zane reprezentacje
+pamiêciowe stawa³y siê coraz bardziej hierarchicznie ustrukturyzowane.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od
