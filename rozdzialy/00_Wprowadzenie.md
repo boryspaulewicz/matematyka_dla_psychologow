@@ -78,7 +78,7 @@ asystent dowodzenia Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zm
 Zwykle tak robiê, ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli
 akurat sprawdzi³em kod po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y
 sprawdzone przez algorytm, którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak
-tego, ¿e s± [bezb³êdne](https://www.pls-lab.org/en/de_Bruijn_criterion).
+tego, ¿e s± [bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
 
 Muszê Ciê ostrzec, ¿e nawet je¿eli przeczytasz pierwszy rozdzia³ albo dwa do koñca i uda Ci siê
 zrobiæ poprawnie zadania, których w tych rozdzia³ach zreszt± nie ma wiele, jest mo¿liwe, ¿e
