@@ -89,7 +89,7 @@ rozumiałem:
 > wyraża i określa coś, co dla wygody nazywamy celem. Gdziekolwiek pojawia się taki zbiór faktów (a
 > gdzie, z wyjątkiem najprostszych i najbardziej sztywnych tropizmów i odruchów, nie pojawia się
 > on?), tam mamy obiektywnie wyrażone i określone to, co dogodnie jest nazwać celem. - Tolman,
-> Zachowanie celowe u zwierząt i ludzi.
+> *Zachowanie celowe u zwierząt i ludzi*, s. 32.
 
 Wersję tej obserwacji, którą będę w dalszej części uzasadniał i na której będę się potem opierał,
 można wyrazić tak:
