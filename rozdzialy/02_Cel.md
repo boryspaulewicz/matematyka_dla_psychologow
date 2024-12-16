@@ -7,8 +7,8 @@ twierdzeniami i niektóre pojęcia, które są w nich definiowane za pomocą poj
 elementarnych, wprowadzę aksjomatycznie.
 
 Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie, bo *struktura* dowodu, gdy się go już raz
-znajdzie, jest zwykle nieważna, liczy się tylko *istnienie* dowodu. A definicje mogą być dowolne, są
-wyborami językowymi i ich wartość sprowadza się do użyteczności i formalnej poprawności.
+znajdzie, jest zwykle nieważna, liczy się tylko *istnienie* dowodu. A definicje mogą być dowolne, bo
+są wyborami językowymi i ich wartość sprowadza się do użyteczności i formalnej poprawności.
 
 Omówimy następnie podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o
 co chodzi w badaniach obserwacyjnych i eksperymentalnych, a także o co chodzi w pomiarze, *o ile*
