@@ -155,6 +155,6 @@ Umiem stwarzać tego rodzaju pozory, bo jak na psychologa dosyć sprawnie posłu
 terminami wnioskowania statystycznego i przyczynowego, ale nie chcę tego robić. Musiałbym też po raz
 kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i
 realnej władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według
-mnie taka postawa jest *anty*naukowa.
+mnie taka postawa jest po prostu *anty*naukowa.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od początku.
