@@ -20,8 +20,8 @@ i rozwijaj±c to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie 
 przyczynowego dla psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171)
 (wersja w jêzyku angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma
 lepszego sposobu, ¿eby upewniæ siê, czy co¶ siê dobrze rozumie. Ten artyku³ zamówi³ u mnie Arek
-Bia³ek, za co mu tu serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat
-tego, czym jest rachunek przyczynowy i bêdê z tego korzysta³ w dalszej czê¶ci tej ksi±¿ki.
+Bia³ek, za co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat
+tego, czym jest lub mo¿e byæ rachunek przyczynowy, z czego skorzystam w dalszej czê¶ci ksi±¿ki.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
