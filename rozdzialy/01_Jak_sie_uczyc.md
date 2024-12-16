@@ -66,7 +66,7 @@ notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearn
 ¶wiat³a na stronie. Prawie zawsze zapisujê te¿ pytania, w±tpliwo¶ci i pomys³y, zreszt± niekoniecznie
 zwi±zane w jaki¶ oczywisty sposób z g³ówn± tre¶ci±. A powtarzam nie zagl±daj±c pocz±tkowo do
 notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez rozpoznawanie nie ma sensu. Zamiast tego,
-na g³os, w my¶lach, lub pisz±c na kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. Dziêki temu
+na g³os, w my¶lach, lub pisz±c na kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. W ten sposób
 natychmiast zauwa¿am, czego albo dobrze nie pamiêtam, albo czego nie rozumiem w stopniu, który by mi
 to pozwala³ w miarê jasno komu¶ wyt³umaczyæ. Zaraz potem oczywi¶cie siêgam do notatek lub ¼ród³owych
 materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w ten sposób powtórzyæ. Mo¿na by
