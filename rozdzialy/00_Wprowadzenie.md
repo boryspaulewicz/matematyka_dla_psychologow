@@ -217,7 +217,7 @@ Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pra
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
 i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
 sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
-kiedy pracowa³em na SWPSie w Katowicach. A [doktoratu](./rozdzialy/praca_doktorska.pdf), napisanego
+kiedy pracowa³em na SWPSie w Katowicach. A [doktoratu](./praca_doktorska.pdf), napisanego
 najpierw pod kierunkiem bardzo dla mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej
 prof. Edwarda Nêcki, byæ mo¿e wcale bym nie skoñczy³, gdybym nie liczne rozmowy z dodaj±cym mi stale
 odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam
