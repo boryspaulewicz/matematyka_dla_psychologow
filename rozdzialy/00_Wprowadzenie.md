@@ -220,8 +220,8 @@ sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± 
 kiedy pracowa³em na SWPSie w Katowicach. A [doktoratu](./rozdzialy/praca_doktorska.pdf), napisanego
 najpierw pod kierunkiem bardzo dla mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej
 prof. Edwarda Nêcki, byæ mo¿e wcale bym nie skoñczy³, gdybym nie liczne rozmowy z dodaj±cym mi stale
-odwagi odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem, któremu akurat
-zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
+odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam
+znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z Lispem, która na zawsze zmieni³a mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do
