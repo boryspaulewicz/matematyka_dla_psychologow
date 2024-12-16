@@ -136,7 +136,7 @@ Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640
 napisanej przez Geuversa i Nederpelta. Ta ksi±¿ka jest napisana w bardzo jasny sposób. Czytaj±c j±
 czuje siê, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak tylko potrafi±. W mojej ocenie
 to jest te¿ wybitna *literatura* w tym znaczeniu, ¿e styl jest jednocze¶nie wyj±tkowo elegancki,
-lekki, a czêsto nawet ciep³y.
+lekki, a ton wydaje mi siê czasami wrêcz ciep³y.
 
 Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat jest czasem abstrakcyjny, z³o¿ony i
 pe³en g³êbokich niespodzianek, rezultatem bywa pora¿aj±ce po³±czenie tre¶ci i formy. Taki efekt jest
