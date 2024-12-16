@@ -643,7 +643,3 @@ do dowolnej liczby naturalnej dodaje `10` (dodaje `10` "od przodu", bo "robi" `1
 `suma` ma typ, w którym występują *dwie strzałki*, bo to tak naprawdę funkcja, która przekształca
 dowolną liczbę naturalną w funkcję, która to funkcja z kolei przekształca dowolną liczbę naturalną w
 liczbę naturalną.
-
-### Przypisy
-
-[^1]: To jest luźna parafraza cytatu, ale nie pamiętam czyjego. Chyba jakiegoś buddysty.

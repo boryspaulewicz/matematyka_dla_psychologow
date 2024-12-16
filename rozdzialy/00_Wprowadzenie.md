@@ -75,7 +75,7 @@ napiszesz. Najchêtniej korzystam ze skrzynki mailowej borys.paulewicz@gmail.com.
 To powiedziawszy mogê Ciê zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach
 formalnych*, to jest zakodowanych w pewnej wersji jêzyka teorii typów zale¿nych, z której korzysta
 asystent dowodzenia Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do repozytorium.
-Zwykle tak robiê, ale zdarza mi siê o tym zapomninaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli
+Zwykle tak robiê, ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli
 akurat sprawdzi³em kod po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y
 sprawdzone przez algorytm, którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak
 tego, ¿e s± bezb³êdne.
@@ -214,7 +214,7 @@ robiæ to zarazem regularnie i przez d³u¿szy czas.
 
 Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni,
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
-i uczciwej, skromnej, m±drej (i dowcipnej!)[^1] Marty Siedleckiej, która od dawna dostarcza mi
+i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
 sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
 kiedy pracowa³em na SWPSie w Katowicach. A doktoratu bym byæ mo¿e wcale nie napisa³, gdybym nie
 liczne rozmowy z Tomkiem Grzegorkiem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶
@@ -230,3 +230,9 @@ to Lisp, a nied³ugo pó¼niej to by³ mój ulubiony jêzyk i zreszt± na d³ugo nim poz
 dlatego piszê t± ksi±¿kê w Emacsie, z którym jestem od dawana tak mocno zro¶niêty, ¿e czasem wrêcz
 zapominam, ¿e go u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu, byæ mo¿e jakiego¶ sposobu na siebie i
 dobrych przyjació³; wtedy mo¿na zrozumieæ, co tylko siê chce. What one fool can do, another can.
+
+### Przypisy
+
+[^1]: To jest lu¼na parafraza cytatu, ale nie pamiêtam czyjego. Chyba jakiego¶ buddysty.
+
+[^2]: Brane by³y pod uwagê równie¿ takie, zasugerowane mi przez nie powiem kogo epitety jak bezkompromisowa i przezabawna, niez³omna i wiekopomna, czy m±dra i krn±bra. Epitety te zosta³y przez moj± osobê autorsk± uznane za trafne i jako takie trafi³y do tego przypisu.
