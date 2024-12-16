@@ -26,12 +26,13 @@ potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), i tak dalej.
 Stosowanie takiego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e najwiêksz± przeszkod±
 jest to, ¿e powtórki mog± siê wydawaæ niepotrzebne. Przecie¿ jeszcze tego samego dnia, w którym
 zrobili¶my notatki i nie zaniedbali¶my przy tym przerw, bêdziemy pamiêtaæ wiêkszo¶æ tre¶ci dosyæ
-dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna, i w pewnym sensie o to w³a¶nie
+dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i w pewnym sensie o to w³a¶nie
 chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ trochê d³u¿ej, nawet
-tylko do jutra, ju¿ by taka ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci postêpuje
-pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala siê na tyle,
-¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej jeszcze bardziej utrwalaj±cej zapis *³atwej*
-powtórki, i tak dalej.
+tylko do dnia nastêpnego, ju¿ by taka ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci
+postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala
+siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej *³atwej* powtórki, która jeszcze
+bardziej utrwali zapis, i ten proces mo¿e teoretycznie trwaæ co najmniej do momentu, gdy w koñcu
+spoczujemy s³odki u¶cisk ¶mierci.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od
