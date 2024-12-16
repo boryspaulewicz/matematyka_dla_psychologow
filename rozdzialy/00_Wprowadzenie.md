@@ -149,8 +149,8 @@ dla mnie ani trochê ³atwe.
 Przez d³u¿szy czas zaczyna³em prawie ka¿dy dzieñ od 30 minutowej jednostki (tak to sobie nazywam),
 polegaj±cej albo na czytaniu *po raz kolejny* tego samego *krótkiego* fragmentu, albo na robieniu
 notatek czy zaplanowanych powtórek. Pó¼niej tego samego dnia zdarza³o siê, ¿e jeszcze do tego
-wraca³em, ale nie zawsze. Na pocz±tku rozwi±zywa³em te¿ wszystkie zadania. I to by³ naprawdê bardzo
-wolny proces.
+wraca³em, ale nie zawsze. Na pocz±tku rozwi±zywa³em te¿ wszystkie zadania. To by³ bardzo wolny
+proces.
 
 Którego¶ dnia, z czystej ciekawo¶ci, zacz±³em swobodnie czytaæ dalej, a potem wróci³em do fragmentu,
 na którym wcze¶niej skoñczy³em. W ten sposób mia³em pewn± przerwê miêdzy momentem, w którym pierwszy
