@@ -209,8 +209,8 @@ zajêciach z psychologii poznawczej, dowiedzia³em siê, jak siê uczyæ, a ze znakom
 [Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, jak sobie radziæ z ekstremaln± prokrastynacj±. Dlatego
 ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i jako¶ odwdziêczyæ siê tym dwóm autorom, w
-nastêpnym rozdziale powiem Ci krótko, jak siê uczy³em i czasem nadal to robiê i jak uda³o mi siê
-robiæ to zarazem regularnie i przez d³u¿szy czas.
+nastêpnym rozdziale powiem Ci krótko, jak siê uczy³em i jak czasem nadal to robiê, a tak¿e jak uda³o
+mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
 
 Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni,
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
