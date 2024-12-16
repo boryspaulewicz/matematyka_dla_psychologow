@@ -1,13 +1,17 @@
-To jest repozytorium skryptów, których używam między innymi w ramach prowadzonych przez siebie zajęć
-z psychologii poznawczej (dla studentóqw studiów magisterskich) i wnioskowania przyczynowego i
-bayesowskiego (dla doktorantów).
+Ta książka jest skierowana przede wszystkim do studentów starszych lat na kierunku psychologia, jak
+również do badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To między innymi
+teoretyczne i praktyczne wprowadzenie do programowania, (meta-)matematyki, teorii typów zależnych,
+wnioskowania statystycznego i przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
+uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojżenia na
+psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
+rozwinięciem wątków, z jakimi zmagałem się pisząc pracę doktorską, a którymi zacząłem się zajmować
+jeszcze na etapie pisania pracy magisterskiej z psychologii, a nawet nieco wcześniej.
 
-Każda cześć ma wersję z licznymi objaśnieniami, dygresjami i próbami rozbawienia czytelnika - to
-jest tak zwana wersja przegadana. Na pewnych etapach czytania i uczenia się rozwlekłe komentarze są
-moim zdaniem przeszkodą. Ten problem ma rozwiązać wersja zwięzła, która jest też chyba lepsza do
-powtórek.
-
-**UWAGA**: Każda z wersji zawiera treści, które nie są omawiane w drugiej.
+Niektóre rozdziały mają dwie wersje. Jedna wersja zawiera liczne objaśnienia, dygresje, a czasem
+próby rozbawienia czytelnika - to jest tak zwana wersja przegadana. Na pewnych etapach czytania i
+uczenia się rozwlekłe komentarze są moim zdaniem przeszkodą. Ten problem ma rozwiązać wersja
+zwięzła, która jest też chyba lepsza do powtórek. Uwaga - treści obydwu wersji mogą się uzupełniać,
+warto więc przeczytać obie.
 
 [Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
