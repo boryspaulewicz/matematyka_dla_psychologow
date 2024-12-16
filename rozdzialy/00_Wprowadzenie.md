@@ -104,16 +104,17 @@ ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. Nie spotka³em jednak 
 które dorównywa³yby wiêkszo¶ci mê¿czyzn pewno¶ci± siebie i ³atwo¶ci± wypowiadania stanowczych
 opinii. Wiem, o czym mówiê, bo sam jestem znany z aroganckich wypowiedzi. A swoj± drog±, gdy
 zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi do g³owy, ¿e ewentualny
-brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie udowodniæ*, i bardzo
+brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie udowodniæ* i bardzo
 spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n± ¶wiadomo¶ci±, ¿e poniewa¿ te
 s± ju¿ *udowodnione*, w gruncie rzeczy nie bardzo jest z czym dyskutowaæ.
 
 Wracaj±c do przerwanego w±tku - poczucie zrozumienia bywa zwodnicze. Wiele razy uczy³em siê trudnego
-materia³u wykonuj±c liczne, coraz odleglejsze w czasie tak zwane generatywne powtórki. Prawie za
-ka¿dym razem przekonywa³em siê, ¿e moje wcze¶niejsze poczucie zrozumienia by³o z³udne. Mo¿e to
-truizm, ale taki, o którym ³atwo jest zapomnieæ: Poniewa¿ nawet na najprostsze sprawy mo¿na
-popatrzeæ z nowego punktu widzenia, rozumienie to co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko,
-o ile w ogóle kiedykolwiek, mo¿na naprawdê *osi±gn±æ*.
+materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawet lat, coraz odleglejsze w czasie,
+generatywne powtórki. Wiele razy w trakcie takiego powtarzania przekonywa³em siê, ¿e moje
+wcze¶niejsze poczucie zrozumienia by³o z³udne. Mo¿e to truizm, ale taki, o którym ³atwo jest
+zapomnieæ: Poniewa¿ nawet na najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie
+to co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko, o ile w ogóle kiedykolwiek, mo¿na naprawdê
+*osi±gn±æ*.
 
 Pierwszy rozdzia³ nie jest d³ugi. Przeczytanie go i wykonanie poleceñ powinno Ci zaj±æ nie wiêcej
 ni¿ pó³torej godziny. Poza tym ta ksi±¿ka jest ca³kowicie samowystarczalna w tym znaczeniu, ¿e nie
