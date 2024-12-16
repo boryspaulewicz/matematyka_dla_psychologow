@@ -97,7 +97,7 @@ w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 Gdy pojawi siê frustracja, a ca³kiem mo¿liwe, ¿e siê pojawi, poczekaj, albo wróæ do tego, co wydaje
 Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ zdecydowana
 wiêkszo¶æ studentów psychologii to nie studenci, tylko studentki, bêdê zwraca³ siê do Ciebie w
-formie ¿eñskiej. Zreszt± to nie jedyny powód. 
+formie ¿eñskiej. Jest te¿ inny dobry moim zdaniem powód.
 
 Pozna³em wiele kobiet zajmuj±cych siê psychologi±, które w mojej ocenie maj± wiêcej oleju w g³owie,
 ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. Nie spotka³em jednak *¿adnych* kobiet,
