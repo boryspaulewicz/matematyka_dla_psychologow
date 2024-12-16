@@ -227,9 +227,10 @@ eksperymetu. Zapyta³, w jakim jêzyku piszê, na co odpowiedzia³em, ¿e w C++, a On
 ¿artuj±c, ¿e gdyby jego koledzy dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em,
 niezra¿ony, w czym On pisze, na co powiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co
 to Lisp, a nied³ugo pó¼niej to by³ mój ulubiony jêzyk i na d³ugo nim pozosta³. W³a¶nie dlatego piszê
-t± ksi±¿kê w Emacsie, z którym jestem od dawana tak mocno zro¶niêty, ¿e czasem wrêcz zapominam, ¿e
-go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu, byæ mo¿e jakiego¶ sposobu na siebie i
-dobrych przyjació³; wtedy mo¿na zrozumieæ, co tylko siê chce. What one fool can do, another can.
+t± ksi±¿kê w [Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawana tak
+mocno zro¶niêty, ¿e czasem wrêcz zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba
+czasu, byæ mo¿e jakiego¶ sposobu na siebie i dobrych przyjació³; wtedy mo¿na zrozumieæ, co tylko siê
+chce. What one fool can do, another can.
 
 ### Przypisy
 
