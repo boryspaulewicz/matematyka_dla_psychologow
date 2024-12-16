@@ -75,7 +75,7 @@ a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie 
 psychologicznym badaniu eksperymentalnym.
 
 Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
-wgląd przytrafił mi się w końcu po ponad dwudziestu latach uczenia się i myślenia wciąż o jednym
+wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
 małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii. W dodatku w
 pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo ten wgląd to nic
 innego jak wyciągnięcie kosekwencji z nieco zmodyfikowanej wersji następującej meta-teoretycznej
