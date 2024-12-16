@@ -54,9 +54,9 @@ oczywi¶cie siêgam do notatek lub ¼ród³owych materia³ów i upewniam siê, ile tre¶c
 mi siê w ten sposób powtórzyæ. Mo¿na w³a¶ciwie powiedzieæ, ¿e to s± nie tyle zwyczajne powtórki, ile
 raczej systematyczny trening u¿ywania nabywanej wiedzy.
 
-Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie do niczego potrzebne. Z powodu wrodzonych wad
-swojego charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który
-wymy¶li³em czytaj±c Rachlina (a mo¿e wrêcz od niego skopiowa³em?).
+Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
+charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który wymy¶li³em
+czytaj±c Rachlina, a mo¿e wrêcz od niego skopiowa³em.
 
 Kiedy zale¿y mi, ¿eby uczyæ siê systematycznie d³u¿ej, robiê takie ma³e kartki-kalendarze, z
 naniesionymi niechlujnie liniami, na których widaæ, jak mi idzie. Jest tam 7 kolumn, ka¿da nazwana
