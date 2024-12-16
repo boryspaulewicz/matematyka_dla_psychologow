@@ -64,5 +64,6 @@ jednym dniem tygodnia, i jest tyle rzêdów, ile akurat rzeczy chcê monitorowaæ. Z
 o nazwie N (jak Nauka), w którym stawiam kropkê za ka¿de 30 minut pracy umys³owej. Nie chodzi w tym
 o to, ¿eby siê nagradzaæ, albo ¿eby czuæ siê winnym, gdy kropek jest ma³o, tylko ¿eby *zwiêkszyæ
 ¶wiadomo¶æ tego, jak ró¿ne codzienne decyzje wp³ywaj± na to, ile siê uczê i kiedy*. Bez tej protezy
-nie mia³bym o tym prawie w ogóle pojêcia i mimo szczerych chêci, ¿eby co¶ osi±gn±æ, dryfowa³bym
-tylko gnany wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
+nie mia³bym o tym prawie w ogóle pojêcia i mimo szczerych chêci, ¿eby co¶ warto¶ciowego zdzia³aæ,
+dryfowa³bym tylko gnany wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o
+YouTube'a.
