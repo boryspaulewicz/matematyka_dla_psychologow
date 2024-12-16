@@ -72,16 +72,16 @@ amatorem. Co prawda co¶ tam mogê pokazaæ jako "dowód", ¿e matematyka nie jest dl
 ale nie ma tego wiele. Gdyby¶ wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym
 napiszesz. Najchêtniej korzystam ze skrzynki mailowej borys.paulewicz@gmail.com.
 
-To powiedziawszy mogê Ciê zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach
+To powiedziawszy, mogê Ciê zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach
 formalnych*, to jest zakodowanych w pewnej wersji jêzyka teorii typów zale¿nych, z której korzysta
 asystent dowodzenia Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do repozytorium.
 Zwykle tak robiê, ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli
 akurat sprawdzi³em kod po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y
 sprawdzone przez algorytm, którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak
-tego, ¿e s± bezb³êdne.
+tego, ¿e s± [bezb³êdne](https://www.pls-lab.org/en/de_Bruijn_criterion).
 
 Muszê Ciê ostrzec, ¿e nawet je¿eli przeczytasz pierwszy rozdzia³ albo dwa do koñca i uda Ci siê
-zrobiæ poprawnie zadania, których jest w tych rozdzia³ach zreszt± niezbyt wiele, jest mo¿liwe, ¿e
+zrobiæ poprawnie zadania, których w tych rozdzia³ach zreszt± nie ma wiele, jest mo¿liwe, ¿e
 poczujesz co¶ w rodzaju dezorientacji. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego
 takie poczucie jest na pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy po raz pierwszy
 mia³em kontakt z teori± typów zale¿nych. To poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze
