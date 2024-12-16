@@ -126,10 +126,11 @@ Będzie to środowisko jako coś, czym jak sądze zawsze było dla psychologa *j
 nie jest na przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to
 mianowicie środowisko postrzegane jako *układ* albo *konstelacja powiązanych zadań*. Zaletą tak
 rozumianego środowiska jako przedmiotu badań jest jego obserwowalność i względnie łatwa
-modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska da się ustalić, ma
-automatycznie znaczenie jednocześnie teoretyczne i aplikacyjne. Z tej nowej, środowisko- i
-zadanio-centrycznej perspektywy *funkcje poznawcze*, takie jak percepcja, pamięć, czy uwaga, okażą
-się *własności zadań*, a nie własnościami czy częściami umysłu albo rodzajami procesów umysłowych.
+modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska uda się ustalić,
+będzie miało automatycznie znaczenie jednocześnie teoretyczne i aplikacyjne. Z tej nowej,
+środowisko- i zadanio-centrycznej perspektywy *funkcje poznawcze*, takie jak percepcja, pamięć, czy
+uwaga, okażą się *własności zadań*, a nie własnościami czy częściami umysłu albo rodzajami procesów
+umysłowych.
 
 Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo też nie mam poczucia,
 żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych rzeczy bardzo się
