@@ -51,11 +51,11 @@ rozczarowuj±ca gra pozorów.
 Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
 ³atwo jest wskazaæ jedn± z g³ównych przyczyn tego stanu rzeczy: Praktycznie *nikt*, w³±czaj±c w to
 osoby prowadz±ce zajêcia ze statystyki, nie wymaga od psychologów znajomo¶ci nawet tylko tej
-odrobiny matematyki, któr± trzeba poznaæ, ¿eby trochê g³êbiej zrozumieæ o co chodzi na przyk³ad w
-testowaniu istotno¶ci albo w poprawnym uzasadnianiu wniosków przyczynowych. A to s± przecie¿ dwa
-rodzaje rozumowañ, które odgrywaj± centraln± rolê w niemal ka¿dym artykule empirycznym. Co
-ambitniejsi studenci uzupe³niaj± co prawda samodzielnie braki w wiedzy, ale niestety matematyki ma³o
-kto uczy siê systematycznie z w³asnej woli.
+odrobiny matematyki, któr± trzeba poznaæ, ¿eby trochê g³êbiej zrozumieæ o co tak naprawdê chodzi
+miêdzy innymi w testowaniu istotno¶ci albo w poprawnym uzasadnianiu wniosków przyczynowych. A
+przecie¿ te dwa rodzaje rozumowañ odgrywaj± centraln± rolê w niemal ka¿dym artykule empirycznym. Co
+ambitniejsi studenci uzupe³niaj± samodzielnie braki w wiedzy, ale akurat matematyki ma³o kto uczy
+siê systematycznie z w³asnej woli.
 
 Mam powody s±dziæ, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mniej boj± siê
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z
