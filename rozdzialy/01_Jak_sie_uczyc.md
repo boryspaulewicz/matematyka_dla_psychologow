@@ -33,19 +33,23 @@ chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ troch
 tylko do dnia nastêpnego, ju¿ by taka nie by³a, bo utrada dostêpu do informacji w pamiêci postêpuje
 pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala siê na tyle,
 ¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej *³atwej* powtórki, która jeszcze bardziej utrwala
-zapis i w ten sposób ka¿da kolejna powtórka daje coraz wiêkszy wzrost trwa³o¶ci zapisu. Dzieje siê
-wtedy jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak jakby powi±zane reprezentacje
-pamiêciowe stawa³y siê coraz bardziej hierarchicznie ustrukturyzowane.
+zapis i w ten sposób ka¿da kolejna powtórka daje coraz lepszy skutek. Dzieje siê wtedy, zdaje mi
+siê, jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak jakby liczne powi±zane ze sob±
+reprezentacje pamiêciowe zaczyna³y w coraz wiêkszym stopniu tworzyæ jedn±, zwart±, hierarchiczn±
+strukturê, u³atwiaj±c± szybkie odnajdywanie tego, co jest w danym kontek¶cie najwa¿niejsze.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od
 ostatniej powtórki i przekona³em siê wtedy, ¿e ta metoda dzia³a, przynajmniej na mnie, jak czary. To
 by³a [znakomita
 ksi±¿ka](https://www.cin.ufpe.br/~jrsl/Books/Linear%20Algebra%20Done%20Right%20-%20Sheldon%20Axler.pdf),
-ale nie u³atwia³a powtarzania, bo dotyczy³a algebry liniowej i w dodatku w tym czasie w zasadzie do
-niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak przeciêtnej pamiêci jak ja mo¿e usi±¶æ
-przed pust± kartk± papieru i po roku przerwy "z g³owy" zapisaæ definicje, twierdzenia i dowody, to
-co¶ w tej metodzie musi byæ. 
+ale nie u³atwia³a powtarzania, bo dotyczy maksymalnie abstrakcyjnie, w³a¶ciwie niemal
+["kategorialnie"](https://pl.wikipedia.org/wiki/Teoria_kategorii) rozumianej algebry liniowej, w
+dodatku w owym czasie w zasadzie do niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak
+przeciêtnej pamiêci jak ja mo¿e usi±¶æ przed kilkoma czystymi kartkami papieru i po roku przerwy "z
+g³owy" zapisaæ poprawnie prawie wszystkie definicje, twierdzenia i dowody, które mo¿na znale¼æ na
+oko³o stu stronach podrêcznika napisanego dla studentów starszych lat matematyki, to co¶ w tej
+metodzie musi byæ.
 
 Regularne i coraz bardziej roz³o¿one w czasie powtarzanie ma te¿ pewien inny skutek, którego trzeba
 do¶wiadczyæ, ¿eby siê przekonaæ, w jak niezwyk³y sposób dzia³a. Maj±c przez d³u¿szy czas w ka¿dej
