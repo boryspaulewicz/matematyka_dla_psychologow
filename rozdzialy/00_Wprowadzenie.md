@@ -217,9 +217,11 @@ Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pra
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
 i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
 sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
-kiedy pracowa³em na SWPSie w Katowicach. A doktoratu bym byæ mo¿e wcale nie napisa³, gdybym nie
-liczne rozmowy z Tomkiem Grzegorkiem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶
-pracujê.
+kiedy pracowa³em na SWPSie w Katowicach. A [doktoratu](./rozdzialy/praca_doktorska.pdf), napisanego
+najpierw pod kierunkiem bardzo dla mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej
+prof. Edwarda Nêcki, byæ mo¿e wcale bym nie skoñczy³, gdybym nie liczne rozmowy z dodaj±cym mi stale
+odwagi odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem, któremu akurat
+zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z Lispem, która na zawsze zmieni³a mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do
