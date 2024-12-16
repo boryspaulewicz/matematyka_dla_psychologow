@@ -21,7 +21,7 @@ notatki. O ile mi wiadomo, nie ma przekonuj±cych dowodów na przewagê metody powt
 wiêkszym odroczeniem nad innymi rozk³adami powtórek, o ile tylko odstêpy miêdzy powtórkami s± do¶æ
 d³ugie. Tak siê jednak sk³ada, ¿e lubiê metodê rosn±cych interwa³ów. Gdy mi naprawdê zale¿y, ¿eby
 siê czego¶ nauczyæ, pierwsz± powtórkê robiê tego samego dnia (+0d), potem nastêpnego dnia (+1d),
-potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d) i tak dalej. 
+potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), i tak dalej. 
 
 Stosowanie takiego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e najwiêksz± przeszkod±
 jest to, ¿e powtórki mog± siê wydawaæ niepotrzebne. Przecie¿ jeszcze tego samego dnia, w którym
