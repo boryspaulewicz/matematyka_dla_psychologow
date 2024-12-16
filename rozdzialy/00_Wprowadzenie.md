@@ -138,8 +138,8 @@ czuje siê, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak tylko potra
 to jest te¿ wybitna *literatura* w tym znaczeniu, ¿e styl jest jednocze¶nie wyj±tkowo elegancki,
 lekki, a ton wydaje mi siê czasami wrêcz ciep³y.
 
-Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat jest czasem abstrakcyjny, z³o¿ony i
-pe³en g³êbokich niespodzianek, rezultatem bywa pora¿aj±ce po³±czenie tre¶ci i formy. Taki efekt jest
+Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat bywa abstrakcyjny, z³o¿ony i pe³en
+g³êbokich niespodzianek, rezultatem mo¿e byæ pora¿aj±ce po³±czenie tre¶ci z form±. Taki efekt jest
 osi±galny chyba tylko wtedy, gdy autorzy maj± rzeczywi¶cie co¶ do powiedzenia i nie tylko dobrze
 rozumiej± to, co chc± powiedzieæ, ale tak¿e to, jakie trudno¶ci mog± siê pojawiæ u odbiorcy. No wiêc
 to jest, w mojej ocenie, tego rodzaju ksi±¿ka. W dodatku poza dobr± znajomo¶ci± jêzyka angielskiego
