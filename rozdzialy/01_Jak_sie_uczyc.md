@@ -40,19 +40,29 @@ ostatniej powtórki i przekona³em siê wtedy, ¿e ta metoda dzia³a, przynajmniej na
 by³a [znakomita
 ksi±¿ka](https://www.cin.ufpe.br/~jrsl/Books/Linear%20Algebra%20Done%20Right%20-%20Sheldon%20Axler.pdf),
 ale nie u³atwia³a powtarzania, bo dotyczy³a algebry liniowej i w dodatku w tym czasie w zasadzie do
-niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak przeciêtnej pamiêci jak ja mo¿e usi±¶æ
-przed pust± kartk± papieru i po roku przerwy "z g³owy" zapisaæ definicje, twierdzenia i dowody, to
-co¶ w tej metodzie musi byæ.
+niczego mi siê ta wiedza nie przyda³a. W pierwszej chwili mo¿e siê wydawaæ, ¿e to by³a tylko sztuka
+dla sztuki, ale ta intuicja jest bardzo nietrafna. Je¿eli wiêc kto¶ o tak przeciêtnej pamiêci jak ja
+mo¿e usi±¶æ przed pust± kartk± papieru i po roku przerwy "z g³owy" zapisaæ definicje, twierdzenia i
+dowody, to co¶ w tej metodzie musi byæ. 
 
-Zostaje jeszcze kwestia notatek i powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê notatki
-skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearne" i z du¿± ilo¶ci± ¶wiat³a
-na stronie. A powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo
-powtarzanie przez rozpoznawanie nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na
-kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. Dziêki temu natychmiast zauwa¿am, czego albo
-dobrze nie pamiêtam, albo czego nie rozumiem wcale a¿ tak dobrze, jak mi siê zdawa³o. Zaraz potem
-oczywi¶cie siêgam do notatek lub ¼ród³owych materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o
-mi siê w ten sposób powtórzyæ. Mo¿na w³a¶ciwie powiedzieæ, ¿e to s± nie tyle zwyczajne powtórki, ile
-raczej systematyczny trening u¿ywania nabywanej wiedzy.
+Regularne i coraz bardziej roz³o¿one powtarzanie ma te¿ pewien skutek, którego trzeba do¶wiadczyæ,
+¿eby siê przekonaæ, w jak niezwyk³y sposób dzia³a. Maj±c przez rok albo d³u¿ej w ka¿dej chwili ³atwy
+dostêp do licznych powi±zanych i wielokrotnie przemy¶lanych tre¶ci, zaczyna siê mimowolnie
+dostrzegaæ zwi±zki miêdzy tymi tre¶ciami a tym, co siê napotyka albo o czym nawet tylko przez chwilê
+siê my¶li. Dziêki temu nieuchronnie pojawiaj± siê ró¿ne twórcze skojarzenia i zrozumienie pog³êbia
+siê niejako samo z siebie.
+
+Zostaje jeszcze kwestia notatek i sposobu powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê
+notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearne" i z du¿± ilo¶ci±
+¶wiat³a na stronie. Prawie zawsze zapisujê te¿ pytania, w±tpliwo¶ci i pomys³y, zreszt± niekoniecznie
+zwi±zane w jaki¶ oczywisty sposób z g³ówn± tre¶ci±. A powtarzam nie zagl±daj±c pocz±tkowo do
+notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez rozpoznawanie nie ma sensu. Zamiast tego,
+na g³os, w my¶lach, lub pisz±c na kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. Dziêki temu
+natychmiast zauwa¿am, czego albo dobrze nie pamiêtam, albo czego nie rozumiem w stopniu, który by mi
+to pozwala³ w miarê jasno komu¶ wyt³umaczyæ. Zaraz potem oczywi¶cie siêgam do notatek lub ¼ród³owych
+materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w ten sposób powtórzyæ. Mo¿na by
+wiêc powiedzieæ, ¿e to nie powtórki, tylko trening u¿ywania nabywanej wiedzy, gdyby nie to, ¿e
+przecie¿ nic innego nie mo¿e byæ celem sensownego powtarzania.
 
 Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
 charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który wymy¶li³em
@@ -63,7 +73,7 @@ naniesionymi niechlujnie liniami, na których widaæ, jak mi idzie. Jest tam 7 kol
 jednym dniem tygodnia, i jest tyle rzêdów, ile akurat rzeczy chcê monitorowaæ. Zwykle jest tam rz±d
 o nazwie N (jak Nauka), w którym stawiam kropkê za ka¿de 30 minut pracy umys³owej. Nie chodzi w tym
 o to, ¿eby siê nagradzaæ, albo ¿eby czuæ siê winnym, gdy kropek jest ma³o, tylko ¿eby *zwiêkszyæ
-¶wiadomo¶æ tego, jak ró¿ne codzienne decyzje wp³ywaj± na to, ile siê uczê i kiedy*. Bez tej protezy
-nie mia³bym o tym prawie w ogóle pojêcia i mimo szczerych chêci, ¿eby co¶ warto¶ciowego zdzia³aæ,
-dryfowa³bym tylko gnany wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o
-YouTube'a.
+¶wiadomo¶æ tego, jak ró¿ne codzienne decyzje wp³ywaj± na to, ile siê uczê i kiedy*. Bez tej
+niezwykle skutecznej i gwa³townie zmieniaj±cej nawyki protezy nie mia³bym o tym prawie w ogóle
+pojêcia i mimo szczerych chêci, ¿eby zdzia³aæ co¶ warto¶ciowego, dryfowa³bym tylko gnany wiatrem
+namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.

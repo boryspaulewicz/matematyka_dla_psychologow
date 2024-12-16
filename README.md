@@ -15,7 +15,7 @@ zwięzła, która jest też chyba lepsza do powtórek. Uwaga - treści obydwu we
 warto więc przeczytać obie.
 
 Gdyby ta książka zaczęła Cię nudzić, może zamiast tego, o czym tutaj piszę, zaciekawią Cię niektóre
-moje stare (nieprzycięte)
+moje w większości dość stare, ale za to nieprzycięte
 [zdjęcia](https://www.dropbox.com/scl/fo/xup62948bbrropjdz0phk/AMfkFdVX0WA0vziZ3lt3Xfo?rlkey=ks43vvthysqgclyashp16kxbt&st=lw3vnxqy&dl=0).
 
 [Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
