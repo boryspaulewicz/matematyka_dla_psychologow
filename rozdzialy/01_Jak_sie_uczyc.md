@@ -48,8 +48,11 @@ Zostaje jeszcze kwestia notatek i powtarzania. *Je¿eli u¿ywam ich do powtarzania
 skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearne" i z du¿± ilo¶ci± ¶wiat³a
 na stronie. A powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo
 powtarzanie przez rozpoznawanie nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na
-kartce, próbujê dos³ownie *opowiedzieæ* to, co mam powtórzyæ. Zaraz potem oczywi¶cie siêgam do tych
-wszystkich materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w ten sposób powtórzyæ.
+kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. Dziêki temu natychmiast zauwa¿am, czego albo
+dobrze nie pamiêtam, albo czego nie rozumiem wcale a¿ tak dobrze, jak mi siê zdawa³o. Zaraz potem
+oczywi¶cie siêgam do notatek lub ¼ród³owych materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o
+mi siê w ten sposób powtórzyæ. Mo¿na w³a¶ciwie powiedzieæ, ¿e to s± nie tyle zwyczajne powtórki, ile
+raczej systematyczny trening u¿ywania nabywanej wiedzy.
 
 Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie do niczego potrzebne. Z powodu wrodzonych wad
 swojego charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który
