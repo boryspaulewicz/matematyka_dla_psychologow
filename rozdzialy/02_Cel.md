@@ -111,8 +111,8 @@ Jak również do takiego:
 *Bycie takim a nie innym zachowaniem jest stopniowalne i może być jedynie przybliżane przez
 rzeczywiste procesy fizyczne*.
 
-W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt. Przy okazji zobaczymy też
-w nowym świetle *sens* pomiaru psychologicznego.
+W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt. Przy okazji zobaczymy w
+nowym świetle *sens* pomiaru psychologicznego.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
 wygląda to, co *niewidzialne*, ekstremalnie *złożone*, *idiosynkratyczne*, *zmienne* i w ogromnym
