@@ -137,8 +137,8 @@ Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo 
 przydaje to, co wiemy, ale psychologia naukowa jest ciągle na etapie powstawania. Będziemy za to
 intensywnie korzystać z tej niezwykłej *meta-matematyki stosowanej*, którą tu objaśniam i której
 później będę używał jako metody badania meta-teoretycznego, jaką jest teoria typów zależnych, a
-której autorem jest wybitny szwedzki matematyk i filozof [Per
-Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f). A może filozof i matematyk?
+której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
+Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
 
 Wiem, że te cele mogą się wydawać szalone i w jakimś sensie pewnie takie są, więc na tym etapie
 mówię tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej skorzystałem. To
