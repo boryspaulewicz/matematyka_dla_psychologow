@@ -26,7 +26,7 @@ szóstej powtórce mam ³atwy dostêp do wiêkszo¶ci powtarzanych tre¶ci co najmniej 
 miesi±c.
 
 Stosowanie takiego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e najwiêksz± przeszkod±
-jest to, ¿e powtórki mog± siê wydawaæ niepotrzebne. Przecie¿ jeszcze tego samego dnia, w którym
+jest to, ¿e te powtórki mog± siê wydawaæ niepotrzebne. Przecie¿ jeszcze tego samego dnia, w którym
 zrobili¶my notatki i nie zaniedbali¶my przy tym przerw, bêdziemy pamiêtaæ wiêkszo¶æ tre¶ci dosyæ
 dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i w pewnym sensie o to w³a¶nie
 chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ trochê d³u¿ej, nawet
