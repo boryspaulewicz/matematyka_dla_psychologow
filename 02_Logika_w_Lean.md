@@ -1,3 +1,219 @@
+# Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami
+
+Stała `2` jest termem typu `Nat`. `Nat` też jest pewną stałą. W teorii typów, której używamy w Lean,
+każdy typ jest również termem, ale typu ogólniejszego, i tak w nieskończoność:
+
+```lean
+#check 2 -- 2 : Nat
+
+#check Nat -- Nat : Type
+
+#check Type -- Type : Type 1
+
+#check Type 1 -- Type 1 : Type 2
+```
+
+i tak dalej... Te typy wyższych rzędów są potrzebne tylko z pewnych (dość nudnych) powodów
+technicznych (może słyszała/eś o paradoksie Russella? Chodzi o coś zbliżonego).
+
+Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. Nazwa tego typu jest skrótem
+od angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
+konsekwentnie interpretować jako zdania. Będziemy więc mówić po prostu, że termy typu `Prop` to
+zdania. To może być na początku dezorientujące:
+
+Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop` albo `a` jest zdaniem), to jeżeli `h : a`
+(czytaj: `h` ma typ `a` albo `h` jest termem typu `a`), to możemy konsekwentnie interpretować `h`
+jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem `a`:
+
+To, że możemy w ten sposób konsekwentnie interpretować termy typu `Prop` i termy, których te termy
+są typami (nie zgubiła/eś się?) wynika z [izomorfizmu
+Curry'ego-Howarda](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), czyli z
+identyczności strukturalnej (bo tym jest izomorfizm) zachodzącej między (pewną) przestrzenią
+programów komputerowych i przestrzenią dowodów. Inne określenie na to samo to *Propositions As
+Types*, czyli *sądy jako typy*, o takim samym skrócie - *PAT* - co jeszcze inne określenie na to
+samo, *Proofs As Terms*, czyli *dowody jako termy*. Jeżeli te uwagi budzą Twój niepokój, nie
+przejmuj się nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy się mu szczegółowo
+przyglądać.
+
+W praktyce izomorfizm Curry'ego-Howarda oznacza, że możemy kodować, to jest zapisywać w języku
+teorii typów w sposób dający się konsekwentnie interpretować w zamierzony sposób, matematyczne
+pojęcia, struktury i zdania jako *typy* i że termy typów zdaniowych możemy konsekwentnie traktować
+jak dowody. Dzięki temu zaciera się, a czasem całkiem znika, różnica między matematyką i
+programowaniem.
+
+**(De)Motywator**: Że dowód jest termem o typie, który jest zdaniem, którego to zdania ten term
+dowodzi (*uff*), to jest jedna z tych początkowo dezorientujących konwencji, do których trzeba się
+po prostu stopniowo przyzwyczaić. Gdy to już do pewnego stopnia nastąpi, ta akurat konwencja pozwoli
+Ci zobaczyć *całą* matematykę w nowy sposób.
+
+Jedną z wielu zalet tego punktu widzenia jest i ta, że można wtedy uprawiać matematykę albo tylko
+uczyć się jej w interakcji z programem wspomagającym konstruowanie pojęć, teorii, własnej notacji i
+dowodów matematycznych, czyli z asystentem dowodzenia, takim jak Lean. Można mieć wtedy nie tylko
+pewność, że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale też można
+korzystać z rozmaitych ułatwień, jakie oferuje dany asystent.
+
+## O logice w Lean
+
+**Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym *odróżnianiem* (i elastycznym
+*przełączaniem się* między odpowiadającymi następującym różnicom punktami widzenia):
+
+1. Dowolnych zdań *jako takich*, a więc niekoniecznie prawdziwych, od...
+
+2. *Prawdziwości lub fałszywości* dowolnych zdań, a tego z kolei od...
+
+3. Ewentualnego *faktu*, że jakieś zdanie (albo jego negacja) *ma dowód*, wreszcie...
+
+4. *Założenia*, że zdanie ma *jakiś* dowód, od faktu, że taki dowód został *skonstruowany*.
+
+W tym momencie to, że to nie są te same rzeczy czy fakty, może Ci się wydawać wręcz oczywiste i nie
+warte objaśniania, ale przekonasz się, że te fundamentalne rozróżnienia będą Ci sprawiać trudności
+nawet w stosunkowo prostych sytuacjach. Jeszcze raz - cierpliwości. Gdybym ja czytał tekst taki jak
+ten, nie znając wcześniej tematu, na pewno wracałbym wielokrotnie do niektórych mniej jasnych dla
+mnie fragmentów.
+
+**O czym to będzie**: Zajmiemy się *implikacją*. Implikacja jest być może najważniejszym spójnikiem
+w logice. Mówiąc luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to
+*dowolne* zdania, proste lub złożone (i tylko same zdania, a nie ich prawdziwość czy fałszywość,
+albo fakt bycia dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację za pomocą
+strzałki skierowanej w prawo: →.
+
+Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
+implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Czy przypomina Ci to coś, o czym
+mówiliśmy już wcześniej?
+
+**Dygresja**: Niektórzy mówią, że język matematyki jest *precyzyjny*, jednak w matematyce mówimy
+czasem *celowo nieprecyzyjnie*. Na przykład, możemy wyrazić wprost w matematyce zdanie, że jakaś
+wielkość znajduje się w jakimś szerokim interwale, albo że jest mniej lub bardziej prawdopodobna.
+
+W matematyce mówimy też czasem *celowo wieloznacznie*. Na przykład, my niebawem będziemy stopniowo
+zacierać różnice między funkcjami i implikacjami.
+
+Co więc wyróżnia język matematyki, poza *relatywną sztucznością*, która nie wydaje się taka istotna?
+Nie jestem pewien, ale gdybym miał zgadywać, powiedziałbym, że jest to *jednoznaczność i sztywność
+reguł użycia*, ale tylko *formalnego*, czyli mechanicznego. I jeszcze to, że chociaż pojęcia
+matematyczne często mają genezę w pojęciach często używanych w języku naturalnym, to zwykle stanowią
+ich wersję bardzo uproszczoną do kilku dobrze określonych właściwości. Te są wyrażane czasem jako
+*aksjomaty*, czyli podawane bez uzasadnienia formalnego, a więc *bez dowodu* (za to zwykle z
+uzasadnieniem w języku naturalnym) *konwencje dotyczące dopuszczalnych sposobów używania pojęć*
+(czyli pewne formalne reguły gry).
+
+W ten sposób - odzierając pojęcia (na przykład, pojęcia zdania, prawdy i fałszu) ze zbędnych dla
+dobrze określonych celów znaczeń (na przykład, dla celu analizy w pewien techniczny sposób
+rozumianej poprawności rozumowań), uzyskujemy całkowitą sztywność reguł użycia i wysoki poziom
+abstrakcji. Sztywność reguł pozwala na mechaniczną weryfikację wyrażeń (w tym poprawności dowodów),
+a abstrakcyjność daje ogólność zastosowań.
+
+**Oswojenie z terminologią logiczną**: Zawsze, gdy mamy jakieś dwa, niekoniecznie różne zdania *A* i
+*B*, możemy napisać *A → B* i to będzie poprawne wyrażenie (poprawna formuła logiczna), które
+interpretujemy jako (niekoniecznie prawdziwe, a tym bardziej udowodnione) zdanie *Jeżeli A, to
+B*. Mówimy też, że *→* to w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na
+zdaniach, które to działanie z dwóch *zdań jako takich* (niekoniecznie udowodnionych czy
+prawdziwych) robi jedno (niekoniecznie udowodnione czy prawdziwe) unikalne zdanie złożone, dające
+się konsekwentnie interpretować jako *Jeżeli A, to B*. 
+
+Może przyda Ci się wyobrażenie sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego,
+a jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, jeśli ten dowód
+istnieje i umiemy na to zdanie popatrzeć tak, żeby ten prześwit zobaczyć.
+
+**Analogia między implikacją i typem funkcyjnym**:
+
+Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
+
+Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcji przekształcających termy typu `A` w termy
+typu `B`*.
+
+**Polecenie**: Spróbuj zaakceptować tą konsekwencję nie szukając w tym na razie sensu (nie musisz
+tego teraz zapamiętać): *Ponieważ w teorii typów każde zdanie jest typem, to każda implikacja jest
+funkcją*.
+
+**Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią
+jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili, że nie jest całkiem
+jasne, którą interpretację stosujemy i gdyby *jednocześnie* ta różnica w dopuszczalnych
+interpretacjach miała znaczenie dla poprawności wniosków.
+
+**Terminologia ogólna**: W matematyce *unikalne* znaczy zwykle *dokładnie jedno danego rodzaju*. I
+tak, w przypadku implikacji otrzymujemy unikalne zdanie powstające w taki a nie inny sposób z każdej
+określonej pary zdań. Podobnie dodawanie (*+*) to operacja na liczbach, która z dwóch dowolnych,
+niekoniecznie różnych liczb, na przykład *2* i *2*, robi unikalną liczbę, w tym wypadku *4*. Ten
+wynik jest w przyjętym znaczeniu unikalny, chociaż dodawanie nieskończenie wielu innych par liczb
+(na przykład całkowitych) daje taki sam rezultat. Możemy też powiedzieć, że zdanie w postaci
+implikacji jest *funkcją* uporządkowanej (bo liczy się, które zdanie będzie traktowane jako
+poprzednik, a które jako następnik implikacji) pary zdań.
+
+**Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
+przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
+posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy łatwiej zapanować
+nad strukturą rozumowania w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo
+pogubić. Logika pozwala nam *w kontrolowany sposób ignorować treść* zdań *bez szkody dla
+poprawności* wnioskowania. To też, to jest "beztreściowość", mamy na myśli mówiąc o "formalności"
+zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co jest ogromną siłą
+matematyki: ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów
+*mechanicznie*, jakbyśmy układali puzzle, albo grali w grę.
+
+Coś takiego będziemy właśnie robić, to znaczy, będziemy grać w grę polegającą na konstruowaniu
+dowodów, bo będziemy *całkowicie* formalizować każdy problem. Będziemy więc używać matematyki w
+sposób *bardziej* formalny niż ma to zwykle miejsce nawet w najbardziej zaawansowanych podręcznikach
+do matematyki. Matematycy tak zwykle *nie* postępują, bo im się nie chce i (zwykle) nie muszą;
+zamiast tego polegają na domyślności kompetentnego odbiorcy. My nie chcemy się musieć niczego
+domyślać, bo nie jesteśmy tak kompetentni jak zawodowi matematycy. Jesteśmy tylko, i aż,
+psychologami.
+
+Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam czasem (jednak nie
+oszukujmy się, nie zawsze) *łatwiej*. Przede wszystkim zaś wszystko, co napiszemy, będzie
+*sprawdzone przez algorytm, który zawsze da nam odpowiedź, czy to, co napisaliśmy, jest
+matematycznie poprawne*. Będziemy więc w pewnym sensie "zawsze bezpieczni" w swoich
+(sformalizowanych) rozważaniach.
+
+**(De?)motywator**: Koszt, który musimy ponieść, żeby to osiągnąć, to częściowe oswojenie się z co
+prawda mniej złożonym niż język polski, ale obcym, sztucznym, i bezlitośnie sztywnym językiem, jakim
+jest formalny język matematyki. Tak jak to ma miejsce w przypadku nauki każdego nowego języka,
+trzeba się uzbroić w cierpliwość (jeszcze chyba wspomnę o tej cierpliwości później). 
+
+Jest jak sądzę wiele prawdy w stwierdzeniu, którego autorem jest genialny polski matematyk Jerzy von
+Neumann (https://en.wikipedia.org/wiki/John_von_Neumann), że często matematykę się nie tyle rozumie,
+ile raczej się do niej *przyzwyczaja*. Dodam od siebie, że gdy się już trochę do niej przyzwyczai
+(co wymaga czasu), to zadziwiająco często okazuje się, że jej pojęcia, twierdzenia i teorie wyrażają
+coś, co rozumiało się dobrze od samego początku, tylko nie umiało się o tym dostatecznie
+konsekwetnie *mówić*, a więc również konsekwentnie albo spójnie *myśleć*.
+
+**Polecenie**: Możemy zapisać symbol implikacji w Leanie pisząc `\to` i naciskając spację. Wpisz
+teraz w Leanie `\to` i naciśnij spację, a następnie ulegnij olśnieniu na widok powstającej
+strzałki. Jak już ochłoniesz, usuń ten symbol, bo `→` w izolacji nie jest poprawnie skonstruowanym
+wyrażeniem języka Lean, co Lean sygnalizuje podkreślając je czerwoną falką.
+
+**Analogia dla osób, które już programowały**: Być może znasz jakiś inny język programowania, na
+przykład *C*. Jeżeli nie, to te uwagi być może nie będą dla Ciebie pomocne, ale nie zaszkodzi
+spróbować. W języku *C* możemy *zadeklarować*, albo "ogłosić" - jeszcze zanim przypiszemy jej
+jakąkolwiek wartość - że zmienna `x` ma być liczbą całkowitą, pisząc (nie pisz tego w Lean, Lean Cię
+nie zrozumie):
+
+```C
+int x;
+```
+
+*C* jest wspaniałym językiem, do pewnych zastosowań sprawdza się znakomicie, ale w porównaniu do
+Lean'a *C* jest językiem dosyć prymitywnym i mało ekspresyjnym. Siła ekspresji języka Lean jest tak
+duża, że można w nim zakodować we względnie naturalny sposób wszelkiego rodzaju treści matematyczne!
+Chcę przez to powiedziec, że moim zdaniem jesteś wart/a Lean'a.
+
+W języku Lean możemy wyrazić (prawie) to samo, co `int x` wyraża w języku *C*, czyli, że zmienna `x`
+jest (jakąś) liczbą całkowitą, pisząc (ale nie pisz tego teraz w Lean, to tylko przykład):
+
+```lean
+x : Z
+```
+
+Moim zdaniem szybko oswoisz się z tą notacją. Litera *Z* jest powszechnie przyjętym symbolem
+oznaczającym liczby całkowite (od niemieckiego słowa "*Zahlen*"), o czym wspominam bo czuję, że
+wypada, chociaż nie będziemy korzystać z typu `Z`.
+
+**Polecenie**: Napisz samodzielnie definicję funkcji o nazwie `plus_i_minus`, która do swojego
+pierwszego parametru dodaje drugi i odejmuje trzeci i której wszystkie parametry i rezultat są typu
+`Nat`. Używając komendy `#check` sprawdź typ samej tej funkcji, jak również aplikacji tej funkcji do
+jednej, dwóch i trzech liczb naturalnych, wszystko jedno jakich. Ewaluuj za pomocą komendy `#eval`
+aplikację tej funkcji do trzech liczb naturalnych i sprawdź, czy wynik się zgadza. Jeżeli ten wynik
+miałby być mniejszy od zera, to Lean poda zero, ponieważ ujemne liczby naturalne nie istnieją.
+
 # Pierwsze zadanie z logiki
 
 Niebawem udowodnimy takie oto zdanie:

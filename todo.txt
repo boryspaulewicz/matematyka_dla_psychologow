@@ -1,3 +1,43 @@
+Spoj¿enie na *oficialnn¹ aktywnoœæ* badacza psychologa i zadanie pytania o spójn¹ interpretacjê z
+zewn¹trz tej aktywnoœci, ¿eby odkryæ *cele*
+
+Powtarzanie tego samego pytania z testu samoopisowego, ¿eby ustaliæ minimaln¹ spójnoœæ
+odpowiedzi. Powtarzanie tego samego pytania z ka¿d¹ mo¿liw¹ par¹ odpowiedzi na skali Likertowskiej,
+¿eby sprawdziæ spójnoœæ odpowiadania na tej skali. Zadaæ to samo pytanie na wiele sposobób, ¿eby
+sprawdziæ spójnoœæ treœciow¹ odpowiedzi. To pomiary powtarzane z jednym *rdzeniem* pytania i
+wariacjami - czas, klucz odpowiedzi, powierzchnia pytania.
+
+Kropki monitoringuj¹ce jako *uwaga jako taka*, bo to celowe wybieranie informacji jako relewantnej?
+
+Formalizacja zjawiska regresji do œredniej wymaga chyba przyczynowoœci.
+
+Na wszelki wypadek porównaæ terminologiê z wikipedi¹ i polskimi Ÿród³ami.
+
+Wprowadziæ terminologiê zamieszkiwania przy okazji omawiania definicji liczb naturalnych.
+
+Test inteligencji jako granica kategorialna. W ogóle zadania jako korelaty wykonania w innych
+zadaniach, gdzie wszystko jest rozumiane kategorialnie.
+
+Interferencja jako wzorzec wykonania wskazuj¹cy na stopieñ niezale¿noœci "wymiarów tego samego
+zadania"
+
+O tym, ¿e lubiê studentów i za co. O improwizowanym charakterze zajêæ.
+
+O szukaniu drogi na skróty do matematyki i teorii kategorii
+
+Biografia i rady na pocz¹tek.
+
+Objaœnienie typów zale¿nych przy okazji identycznoœci w stylu: wyobraŸ sobie, ¿e argumenty "wchodz¹"
+po kolei.
+
+Pochwa³a pozornie niepotrzebnych powtórek.
+
+Zacz¹æ od identycznoœci i identycznoœci parametrycznej!
+
+Po trzy podobne dowody, bo "trzeba powtórzyæ trzy razy".
+
+Dowód zdania z predykatami przed dowodem zdania z predykatami i negacj¹.
+
 Wyjaœniæ, czemu wolê acknowledgments w œrodku.
 
 Rodzaj gramatyczny: wersja ¿eñska pierwsza, bo jest wiêcej kobiet. Poza tym to siê mo¿e przydaæ

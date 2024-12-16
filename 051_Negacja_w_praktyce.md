@@ -241,105 +241,7 @@ hipotetyczne dowody. Wszystko to już raz zrobiła/eś.
 
 ## Implikacja przeciwna
 
-Następne zadanie jest trochę trudniejsze niż wszystkie poprzednie zadania. Jeżeli utkniesz, nie
-zrażaj się proszę. A jeżeli utkniesz, będziesz próbować znowu i nadal Ci się nie uda, po prostu się
-tym nie przejmuj i czytaj dalej, jeśli ciekawi Cię, co będzie dalej. Zrozumienie, że ucząc się
-matematyki *nie trzeba rozwiązywać wszystkich zadań* i że upieranie się przy tym może bardzo
-przeszkadzać w nauce zajęło mi naprawdę dużo czasu, o wiele za dużo. Żałuję, że nikt mi tego nie
-tłukł już dawno do głowy (albo jeszcze lepiej, cierpliwie wytłumaczył). Proszę nie popełniaj tego
-błędu.
-
-**Rada/Motywator/Life hack**: Żeby Cię przekonać do uczenia się matematyki na luzie, opowiem Ci, jak
-zmiana nastawienia do matematyki zmieniła moje życie. W trakcie wakacji 2023 roku zacząłem się
-systematycznie uczyć - rojąc sobie, że może jakimś cudem będę miał szansę to kiedyś wykorzystać - z
-cudownej książki, napisanej przez Geuversa i Nederpelta, pod tytułem [Type Theory and Formal
-Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C). Ta
-książka jest napisana w bardzo jasny sposób. Czytając ją czuje się, że autorzy starają się wszystko
-objaśnić najlepiej jak tylko potrafią. W mojej ocenie to jest też wybitna *literatura* w tym
-znaczeniu, że styl jest jednocześnie wyjątkowo elegancki i lekki.
-
-Niektórzy wybitni matematycy potrafią tak dobrze pisać. A że temat jest czasem abstrakcyjny, złożony
-i pełen klarownych i głębokich niespodzianek, rezultatem bywa porażające połączenie treści i
-formy. Coś takiego jest chyba osiągalne tylko wtedy, gdy autor(zy) ma(ją) dużo do powiedzenia i
-dobrze rozumie(ją) to, co chce/ą powiedzieć i to, jakie trudności mogą się pojawić u odbiorcy. No
-więc to jest, w mojej ocenie, tego rodzaju książka. W dodatku treść jest całkowicie
-samowystarczalna - poza dobrą znajomością języka angielskiego, autorzy nie zakładają żadnej
-wcześniejszej wiedzy czytelnika. Mimo to, uczenie się z niej nie było dla mnie ani trochę łatwe.
-
-Przez dłuższy czas zaczynałem każdy dzień od 30 minutowej jednostki (tak to sobie nazywam),
-polegającej albo na czytaniu *po raz kolejny* tego samego *krótkiego* fragmentu, albo na robieniu
-notatek czy zaplanowanych powtórek. Później tego samego dnia zdarzało się, że jeszcze do tego
-wracałem, ale nie zawsze. Na początku rozwiązywałem też wszystkie zadania. To był naprawdę bardzo
-powolny proces.
-
-Któregoś dnia, z czystej ciekawości, zacząłem swobodnie czytać dalej, a potem wróciłem do fragmentu,
-na którym wcześniej skończyłem. W ten sposób miałem pewną przerwę między momentem, w którym pierwszy
-raz przeczytałem późniejszy fragment, ale nie robiłem żadnych pojawiających się tam zadań, a
-momentem, kiedy znowu zacząłem go czytać. Okazało się, że rozumiem ten fragment znacznie
-lepiej. Postanowiłem więc, tylko na próbę, *w ogóle nie robić zadań gdy nie mam na to ochoty* (co
-Tobie akurat odradzam, bo w tym skrypcie zadań jest bardzo mało i stanowią integralną część tekstu).
-
-Robiłem notatki i zaplanowane, generatywne powtórki, ale nie robiłem żadnych zadań, które mnie nie
-zainteresowały. Z czasem zacząłem też *zauważać błędy*. Czytając zawsze szukam błędów, po prostu tak
-mam i moje doświadczenie wskazuje, że w większych tekstach napisanych w języku naturalnym zawsze są
-błędy. Ponieważ byłem pewny, że mam rację, napisałem do Roba Nederpelta, który potraktował mnie
-niezwykle życzliwie i poważnie. Jednym z efektów tej przygody jest to, że moje nazwisko pojawiło się
-w oficjalnej erracie do tej książki, jako nazwisko jednej z osób, której autorzy dziękują. A mi
-akurat dziękują za wskazanie (w tym momencie, to jest 2024-12-11) około *połowy* wszystkich
-wymienionych tam błędów. Z niewielu rzeczy jestem tak dumny jak z tego, dlatego często się tym
-chwalę. Nie pomyślałbym nawet o napisaniu czegoś choćby tylko odlegle zbliżonego do tego skryptu,
-gdyby nie ta wspaniała książka i kontakt z tym wspaniałym człowiekiem. No więc nie przesadzaj z
-ambicją, moim zdaniem, jak już chyba wspominałem, najważniejszy jest czas.
-
-Coś innego, co też na zawsze zmieniło moje życie, a co jest z tym związane, przytrafiło mi się w
-szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego przedmiotu, Pani Płucienniczak, którą
-bardzo dobrze wspominam (jednak moją ulubioną nauczycielką na zawsze pozostanie Pani Wójcik, która
-uczyła mnie matematyki), tłumaczyła coś na tablicy i kiedy zrozumiałem, o czym mówiła, zrozumiałem
-też jednocześnie coś ważniejszego (ważniejszego, niż fizyka!): *Wszystko, co da się zrozumieć, ja
-też mogę zrozumieć, o ile tylko będę miał dość informacji i czasu*. Uważam, że Ty też możesz
-zrozumieć *wszystko*, co da się zrozumieć. Jak to ujął Silvanus Thompson w swoim popularnym i
-dostępnym za darmo [podręczniku do rachunku różniczkowo-całkowego](https://calculusmadeeasy.org/),
-*What one fool can do, another can*. Thompson podaje, że to jest "Ancient Simian Proverb", ale to
-żart (guglnij "Simian" jeśli chcesz się dowiedzieć więcej).
-
-Zawsze byłem chudy, dobry z matematyki i dobry z programowania, bo taki się urodziłem. Był nawet
-taki moment, kiedy dawałem korepetycje kolegom ze starszych klas, ale z pewnością nie byłem ani nie
-jestem geniuszem. Po prostu w szkole podstawowej nie potrafiłem nie myśleć często o matematyce. Mój
-przyjaciel, wybitny teoretyk prawa i filozof Wojtek Załuski jest zdaje mi się prawdziwym
-geniuszem. Inny mój przyjaciel, filozof matematyczny (jeśli wolno mi "to" tak nazwać) Szymon
-Szymczak też jak sądzę jest. To też oczywiście głuptasy, jak my wszyscy, ale to są akurat głuptasy w
-pewnych (zbyt licznych) obszarach genialne. Dzięki nim wiem, jaki ze mnie dureń. *W pierwszej klasie
-szkoły podstawowej* nie zapisałem prawie nic w zeszycie i mój szkolny "poziom wykonania" był tak
-niski, że, jak się później dowiedziałem, nauczyciele poważnie zastanawiali się, czy nie powinienem
-zostać w niej na drugi rok. Z powodu licznych nieobecności (których co prawda sporą część spędziłem
-w bibliotece) i bardzo słabych ocen o mało co nie powtarzałem też klasy w liceum.
-
-Na studia z psychologii jest tylu chętnych, że niektórzy z Was z pewnością przerastają mnie wrodzoną
-"mocą obliczeniową", a poza tym nie jestem już młody. Tak się jednak składa, że przez wiele lat w
-miarę systematycznie uczyłem się wielu trudnych rzeczy. Pracuję na uczelni dzięki temu, że na
-pierwszym albo drugim roku psychologii z podręcznika Andersona, z którego korzystaliśmy czasem na
-zajęciach z psychologii poznawczej, dowiedziałem się, jak się uczyć, a ze znakomitej książki
-[Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie tłumaczenie jest
-*tragicznie złe*) dowiedziałem się z kolei, jak sobie radzić z ekstremalną prokrastynacją. 
-
-Gdy pierwszy raz napisałem ten fragment, miałem wątpliwości, czy powinien się tu
-znaleźć. Podziękowania pisze się przecież zwykle na początku. Wtedy jednak chyba mało kto je czyta,
-a więc wolę tu. Skoro już mówię o takich sprawach, to wypada mi tutajpodkreślić, że nie zostałbym
-pracownikiem uczelni, gdyby nie wsparcie, życzliwość i wyrozumiałość - moich przyjaciół,
-niezrównanego Michała Wierzchonia i uczciwej, skromnej, mądrej (i dowcipnej!)[^1] Marty Siedleckiej,
-która od wielu lat dostarcza mi sensownych zajęć - a także Kasi Popiołek, która była dla mnie
-wymarzoną szefową przez te 10 lat, kiedy pracowałem na SWPSie w Katowicach. 
-
-Adasiowi Chuderskiemu, który jest teraz szefem zakładu kognitywistyki w Krakowie, zawdzięczam z
-kolei przygodę z Lispem, która na zawsze zmieniła mój sposób myślenia o programowaniu. Podszedł
-kiedyś do mnie, gdy będąc jeszcze na studiach magisterskich rzeźbiłem w C++ jakąś procedurę do
-eksperymetu, zapytał, w jakim języku piszę, na co odpowiedziałem, że w C++, a On wtedy powiedział,
-żartując, że gdyby koledzy dowiedzieli się, że pisze w C++, to by go wyśmiali. No to zapytałem, w
-czym On pisze, na co powiedział, że w Lispie. Wtedy nie miałem zielonego pojęcia, co to Lisp, a
-niedługo później to był już mój ulubiony język i na długo nim pozostał. Wygląda więc na to, że
-trzeba czasu, być może jakiegoś sposobu na siebie, i dobrych przyjaciół; wtedy można zrozumieć, co
-tylko się chce. What one fool can do, another can.
-
+Następne zadanie jest trochę trudniejsze niż wszystkie poprzednie zadania. 
 ## Szkielet dowodu `¬q → ¬p` zakładając `p → q`
 
 Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli `¬q`, to nie może być prawdą, że `p`. Gdyby bowiem
@@ -388,4 +290,6 @@ której poprzednikiem i następnikiem też są implikacje.
 
 ### Przypisy
 
-[^1] Popatrz Marta, dopisałem, zgodnie z prawdą, że jesteś dowcipna ;-)
+[^1] Idąc za sugestią pewnej osoby, której nazwiska tutaj nie wymienię, rozważałem również takie
+epitety jak: bezkompromisowa i przezabawna, niezłomna i wiekopomna, czy mądra i krnąbrna. Po tych
+rozważaniach doszedłem do wniosku, że wszystkie pasują.

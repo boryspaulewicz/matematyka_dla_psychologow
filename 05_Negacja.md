@@ -242,6 +242,13 @@ zdaniami i typami, albo termami typów zdaniowych i ich dowodami, ale z innego p
 żebyś poczuł/a, że te różnice można zwykle spokojnie zignorować i żebyś dzięki temu nauczył/a się
 myśleć w całkiem nowy sposób.
 
+W następnej części zapoznamy się z rachunkiem predykatów wyższego rzędu. Pokazałem Ci już, jak można
+używać bladego cienia tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy go
+trochę bardziej poznamy, wtedy dokładnie to samo, tylko znacznie lepiej, będziemy mogli zrobić z
+rozumowaniami formułowanymi przez autorów psychologicznych badań i teorii. Jeżeli moje wyznanie nie
+zmotywowało Cię, żeby mi nadal towarzyszyć, to trudno, rozumiem, ale i tak będę sobie wyobrażał, że
+piszę to wszystko dla Ciebie, bo tak jest mi po prostu łatwiej.
+
 ### Przypisy
 
 [^1]: Terminologia "granatowa" to oczywiście żart.

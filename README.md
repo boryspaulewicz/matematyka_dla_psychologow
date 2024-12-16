@@ -9,7 +9,13 @@ powtórek.
 
 **UWAGA**: Każda z wersji zawiera treści, które nie są omawiane w drugiej.
 
-[Funkcje w Lean: pierwsze kroki - wersja przegadana](./01_Funkcje_w_Lean.md)
+[Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
+
+[Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
+
+[Do czego autor zmierza?](./rozdzialy/02_Cel.md)
+
+Teraz tu dużo zmieniam: [Funkcje w Lean: pierwsze kroki - wersja przegadana](./rozdzialy/03_Funkcje_w_Lean.md)
 
 [Logika w Lean: pierwsze kroki - wersja przegadana](./02_Logika_w_Lean.md)
 
@@ -22,5 +28,3 @@ powtórek.
 [Negacja, absurd, fałsz, sprzeczność i eksplozja](./05_Negacja.md)
 
 [Negacja w praktyce dowodzenia](./051_Negacja_w_praktyce.md)
-
-[Cel](./06_Cel.md)
