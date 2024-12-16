@@ -6,7 +6,7 @@ uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycj�
 psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
 rozwinięciem wątków, z którymi zmagałem się pisząc [pracę
 doktorską](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej z psychologii, a niektórtmi nawet nieco wcześniej.
+pisania pracy magisterskiej z psychologii.
 
 Niektóre rozdziały mają dwie wersje. Jedna wersja zawiera liczne objaśnienia, dygresje, a czasem
 próby rozbawienia czytelnika - to jest tak zwana wersja przegadana. Na pewnych etapach czytania i
