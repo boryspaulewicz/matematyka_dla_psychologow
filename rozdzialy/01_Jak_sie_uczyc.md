@@ -21,18 +21,21 @@ notatki. O ile mi wiadomo, nie ma przekonuj±cych dowodów na przewagê metody powt
 wiêkszym odroczeniem nad innymi rozk³adami powtórek, o ile tylko odstêpy miêdzy powtórkami s± do¶æ
 d³ugie. Tak siê jednak sk³ada, ¿e lubiê metodê rosn±cych interwa³ów. Gdy mi naprawdê zale¿y, ¿eby
 siê czego¶ nauczyæ, pierwsz± powtórkê robiê tego samego dnia (+0d), potem nastêpnego dnia (+1d),
-potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), i tak dalej. 
+potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), i tak dalej. W ten sposób ju¿ po
+szóstej powtórce mam ³atwy dostêp do wiêkszo¶ci powtarzanych tre¶ci co najmniej przez nastêpny
+miesi±c.
 
 Stosowanie takiego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e najwiêksz± przeszkod±
 jest to, ¿e powtórki mog± siê wydawaæ niepotrzebne. Przecie¿ jeszcze tego samego dnia, w którym
 zrobili¶my notatki i nie zaniedbali¶my przy tym przerw, bêdziemy pamiêtaæ wiêkszo¶æ tre¶ci dosyæ
 dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i w pewnym sensie o to w³a¶nie
 chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ trochê d³u¿ej, nawet
-tylko do dnia nastêpnego, ju¿ by taka ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci
+tylko do dnia nastêpnego, ju¿ by tak ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci
 postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala
 siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej *³atwej* powtórki, która jeszcze
-bardziej utrwali zapis, i ten proces mo¿e teoretycznie trwaæ co najmniej do momentu, kiedy w koñcu
-poczujemy s³odki u¶cisk ¶mierci.
+bardziej utrwala zapis i w ten sposób ka¿da kolejna powtórka daje coraz wiêkszy wzrost trwa³o¶ci
+zapisu. Dzieje siê wtedy jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak jakby
+powi±zane reprezentacje pamiêciowe stawa³y siê coraz bardziej hierarchicznie ustrukturyzowane.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od
@@ -40,17 +43,19 @@ ostatniej powtórki i przekona³em siê wtedy, ¿e ta metoda dzia³a, przynajmniej na
 by³a [znakomita
 ksi±¿ka](https://www.cin.ufpe.br/~jrsl/Books/Linear%20Algebra%20Done%20Right%20-%20Sheldon%20Axler.pdf),
 ale nie u³atwia³a powtarzania, bo dotyczy³a algebry liniowej i w dodatku w tym czasie w zasadzie do
-niczego mi siê ta wiedza nie przyda³a. W pierwszej chwili mo¿e siê wydawaæ, ¿e to by³a tylko sztuka
-dla sztuki, ale ta intuicja jest bardzo nietrafna. Je¿eli wiêc kto¶ o tak przeciêtnej pamiêci jak ja
-mo¿e usi±¶æ przed pust± kartk± papieru i po roku przerwy "z g³owy" zapisaæ definicje, twierdzenia i
-dowody, to co¶ w tej metodzie musi byæ. 
+niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak przeciêtnej pamiêci jak ja mo¿e usi±¶æ
+przed pust± kartk± papieru i po roku przerwy "z g³owy" zapisaæ definicje, twierdzenia i dowody, to
+co¶ w tej metodzie musi byæ. 
 
-Regularne i coraz bardziej roz³o¿one powtarzanie ma te¿ pewien skutek, którego trzeba do¶wiadczyæ,
-¿eby siê przekonaæ, w jak niezwyk³y sposób dzia³a. Maj±c przez rok albo d³u¿ej w ka¿dej chwili ³atwy
-dostêp do licznych powi±zanych i wielokrotnie przemy¶lanych tre¶ci, zaczyna siê mimowolnie
-dostrzegaæ zwi±zki miêdzy tymi tre¶ciami a tym, co siê napotyka albo o czym nawet tylko przez chwilê
-siê my¶li. Dziêki temu nieuchronnie pojawiaj± siê ró¿ne twórcze skojarzenia i zrozumienie pog³êbia
-siê niejako samo z siebie.
+Regularne i coraz bardziej roz³o¿one w czasie powtarzanie ma te¿ pewien inny skutek, którego trzeba
+do¶wiadczyæ, ¿eby siê przekonaæ, w jak niezwyk³y sposób dzia³a. Maj±c przez d³u¿szy czas w ka¿dej
+chwili ³atwy dostêp do licznych powi±zanych i wielokrotnie przemy¶lanych tre¶ci, zaczyna siê coraz
+czê¶ciej mimowolnie dostrzegaæ zwi±zki miêdzy tymi tre¶ciami a tym, co siê napotyka albo o czym
+nawet tylko przez chwilê siê my¶li. W ten sposób szybko ro¶nie poczucie skuteczno¶ci. Nieuchronnie
+pojawiaj± siê te¿ twórcze skojarzenia i zrozumienie pog³êbia siê niejako samo z siebie. Dziêki temu
+utrwalane tre¶ci wydaj± siê automatycznie coraz ciekawsze i coraz ciekawsze zaczyna siê wydawaæ
+niemal wszystko, co siê z nimi "wi±¿e". Tego rodzaju uczenie jest wiêc ca³kiem dos³ownie procesem
+g³êbokiej wewnêtrznej przemiany.
 
 Zostaje jeszcze kwestia notatek i sposobu powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê
 notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearne" i z du¿± ilo¶ci±
