@@ -31,8 +31,8 @@ chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ troch
 tylko do dnia nastêpnego, ju¿ by taka ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci
 postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu tej *³atwej* powtórki zapis pamiêciowy utrwala
 siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do nastêpnej *³atwej* powtórki, która jeszcze
-bardziej utrwali zapis, i ten proces mo¿e teoretycznie trwaæ co najmniej do momentu, gdy w koñcu
-spoczujemy s³odki u¶cisk ¶mierci.
+bardziej utrwali zapis, i ten proces mo¿e teoretycznie trwaæ co najmniej do momentu, kiedy w koñcu
+poczujemy s³odki u¶cisk ¶mierci.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od
