@@ -44,7 +44,7 @@ ostatniej powtórki i przekona³em siê wtedy, ¿e ta metoda dzia³a, przynajmniej na
 by³a [znakomita
 ksi±¿ka](https://www.cin.ufpe.br/~jrsl/Books/Linear%20Algebra%20Done%20Right%20-%20Sheldon%20Axler.pdf),
 ale nie u³atwia³a powtarzania, bo dotyczy maksymalnie abstrakcyjnie, w³a¶ciwie niemal
-["kategorialnie"](https://pl.wikipedia.org/wiki/Teoria_kategorii) rozumianej algebry liniowej, w
+[kategoryjnie](https://pl.wikipedia.org/wiki/Teoria_kategorii) rozumianej algebry liniowej, w
 dodatku w owym czasie do niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak przeciêtnej
 pamiêci jak ja mo¿e usi±¶æ przed kilkoma czystymi kartkami papieru i po roku przerwy "z g³owy"
 zapisaæ poprawnie prawie wszystkie definicje, twierdzenia i dowody, które mo¿na znale¼æ na oko³o stu
