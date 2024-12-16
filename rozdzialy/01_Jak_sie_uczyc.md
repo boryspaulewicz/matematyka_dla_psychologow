@@ -11,10 +11,10 @@ sprawdzaæ tak dawno, ¿e u¿ywa³em nawet do tego zegarka z tak zwan± ró¿± wiatrów 
 
 Po oko³o 25-30 minutach dobrze na mnie dzia³a krótka przerwa. Najlepiej, gdy to jest oko³o 5 minut
 nie robienia niczego wci±gaj±cego ani poznawczo (na przyk³ad, czytanie odpada, podobnie jak
-interesuj±ce rozmowy) ani motywacyjnie (nie ma mowy o w³±czaniu powiedzmy YouTube'a). Potem znowu
-jestem w stanie skutecznie pracowaæ przez 30 minut, ale nastêpna przerwa musi byæ ju¿
-d³u¿sza. My¶l±c realistycznie, je¿eli danego dnia mam relatywnie ma³o zajêæ, mogê liczyæ najwy¿ej na
-oko³o 4 godziny czystej pracy umys³owej, nie uwzglêdniaj±c przerw.
+interesuj±ce rozmowy) ani motywacyjnie (nie ma mowy o wchodzeniu na YouTube'a). Potem znowu jestem w
+stanie skutecznie pracowaæ przez 30 minut, ale nastêpna przerwa musi byæ ju¿ d³u¿sza. My¶l±c
+realistycznie, je¿eli danego dnia mam relatywnie ma³o zajêæ, mogê liczyæ najwy¿ej na oko³o 4 godziny
+czystej pracy umys³owej, nie uwzglêdniaj±c przerw.
 
 Niewiele by z tej pracy wynika³o, gdybym nie *powtarza³* tego, co przeczyta³em i z czego zrobi³em
 notatki. O ile mi wiadomo, nie ma przekonuj±cych dowodów na przewagê metody powtarzania z coraz
