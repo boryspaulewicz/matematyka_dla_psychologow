@@ -172,7 +172,7 @@ akurat dziêkuj± za wskazanie (w tym momencie, to jest 2024-12-11) oko³o *po³owy*
 wymienionych b³êdów. Z niewielu rzeczy jestem tak dumny jak z tego, dlatego czêsto siê tym
 chwalê. Nie wpad³bym na pomys³ napisania czego¶ choæby tylko odlegle zbli¿onego do tego dziwnego
 tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania³a ksi±¿ka i kontakt z tym
-cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim zdaniem, jak ju¿ chyba wspomina³em,
+cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim zdaniem, jak ju¿ wspomina³em,
 najwa¿niejszy jest czas.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
@@ -187,7 +187,7 @@ rachunku ró¿niczkowo-ca³kowego](https://calculusmadeeasy.org/), *What one fool c
 can*. Thompson podaje, ¿e to jest *Ancient Simian Proverb*, ale to ¿art (sprawd¼, co znaczy
 "Simian". je¶li chcesz siê dowiedzieæ wiêcej).
 
-Zawsze by³em chudy, dobry z matematyki, i dobry z programowania, bo taki siê urodzi³em. Z pewno¶ci±
+Zawsze by³em chudy, dobry z matematyki i dobry z programowania, bo taki siê urodzi³em. Z pewno¶ci±
 nie by³em jednak nigdy ani tym bardziej nie jestem geniuszem. Po prostu w szkole podstawowej nie
 potrafi³em nie my¶leæ czêsto o matematyce. Mój przyjaciel, wybitny teoretyk prawa i filozof Wojtek
 Za³uski jest zdaje mi siê prawdziwym geniuszem. Inny mój przyjaciel, filozof matematyczny (je¶li
@@ -195,13 +195,13 @@ wolno mi tak nazwaæ to, czym siê zajmuje) Szymon Szymczak te¿ jak s±dzê jest. To
 g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w pewnych (zbyt licznych) obszarach
 genialne. Dziêki nim wiem, jaki ze mnie dureñ.
 
-My¶lisz, ¿e mo¿e przesadzam? W *pierwszej klasie szko³y podstawowej* nie zapisa³em prawie nic w
-zeszycie i mój szkolny "poziom wykonania" by³ tak niski, ¿e, jak siê pó¼niej dowiedzia³em,
-nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi rok. Z powodu
-licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo s³abych ocen z
-kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum. Na studia z psychologii jest tylu
-chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj± mnie wrodzon± moc± obliczeniow±, a poza tym nie
-jestem ju¿ m³ody. 
+My¶lisz, ¿e mo¿e z tym "durniem" przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em
+prawie nic w zeszycie i mój szkolny "poziom wykonania" by³ tak niski, ¿e, jak siê pó¼niej
+dowiedzia³em, nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi
+rok. Z powodu licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo
+s³abych ocen z kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum. Na studia z
+psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj± mnie wrodzon± moc±
+obliczeniow±, a poza tym nie jestem ju¿ m³ody.
 
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
 robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
