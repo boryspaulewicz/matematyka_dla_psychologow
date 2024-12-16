@@ -47,10 +47,9 @@ co¶ w tej metodzie musi byæ.
 Zostaje jeszcze kwestia notatek i powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê notatki
 skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearne" i z du¿± ilo¶ci± ¶wiat³a
 na stronie. A powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo
-powtarzanie przez rozpoznawanie jest po prostu bez sensu. Zamiast tego, na g³os, w my¶lach, lub
-pisz±c na kartce, próbujê dos³ownie *opowiedzieæ* to, co mam powtórzyæ. Zaraz potem oczywi¶cie
-siêgam do tych wszystkich materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w ten
-sposób powtórzyæ.
+powtarzanie przez rozpoznawanie nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na
+kartce, próbujê dos³ownie *opowiedzieæ* to, co mam powtórzyæ. Zaraz potem oczywi¶cie siêgam do tych
+wszystkich materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w ten sposób powtórzyæ.
 
 Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie do niczego potrzebne. Z powodu wrodzonych wad
 swojego charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który
