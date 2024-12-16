@@ -61,9 +61,9 @@ Mam powody s±dziæ, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêst
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z
 dostarczaj±cym natychmiastowej informacji zwrotnej komputerem. Dziêki temu obecno¶æ nauczyciela nie
 jest a¿ tak potrzebna. Ta ksi±¿ka ma miêdzy innymi pomóc w oswajaniu siê z matematyk± przede
-wszystkim w³a¶nie studentom na kierunku psychologia i pracownikom akademickim zajmuj±cym siê
-badaniami psychologicznymi, którzy s± gotowi w tym celu podj±æ próbê poznania nowego, piêknego, i
-bardzo ekspresyjnego jêzyka programowania.
+wszystkim w³a¶nie zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i
+pracownikom akademickim zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w tym celu
+podj±æ próbê poznania nowego, piêknego, i bardzo ekspresyjnego jêzyka programowania.
 
 Uprzedzam, ¿e ta ksi±¿ka *mo¿e zawieraæ i prawie na pewno zawiera b³êdy we fragmentach napisanych w
 jêzyku naturalnym*, czyli w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod
