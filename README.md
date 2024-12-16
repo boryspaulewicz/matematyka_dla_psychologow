@@ -4,7 +4,7 @@ teoretyczne i praktyczne wprowadzenie do programowania, (meta-)matematyki, teori
 wnioskowania statystycznego i przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
 uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
 psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
-rozwinięciem wątków, z jakimi zmagałem się pisząc pracę doktorską, a którymi zacząłem się zajmować
+rozwinięciem wątków, z którymi zmagałem się pisząc pracę doktorską, a którymi zacząłem się zajmować
 jeszcze na etapie pisania pracy magisterskiej z psychologii, a nawet nieco wcześniej.
 
 Niektóre rozdziały mają dwie wersje. Jedna wersja zawiera liczne objaśnienia, dygresje, a czasem
