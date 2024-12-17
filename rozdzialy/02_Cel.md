@@ -6,7 +6,7 @@ sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które w 
 twierdzeniami i niektóre pojęcia, które są w nich definiowane za pomocą pojęć bardziej
 elementarnych, wprowadzę aksjomatycznie.
 
-Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie, bo *struktura* dowodu, gdy się go już raz
+Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie, bo *struktura* dowodu, gdy się go już
 znajdzie, jest zwykle nieważna, liczy się tylko *istnienie* dowodu. A definicje mogą być dowolne, bo
 są wyborami językowymi i ich wartość sprowadza się do użyteczności i formalnej poprawności.
 
