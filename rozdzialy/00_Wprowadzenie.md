@@ -191,7 +191,7 @@ czym pisa³em do nich maila, w którym zwykle wyra¿a³em szczery podziw i g³êbok± w
 okazji zwraca³em te¿ uwagê na znalezione tam problematyczne miejsca. A te zawsze mo¿na by³o
 znale¼æ. Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. W ten sposób rozpocz±³em bardzo przyjemn± korespondencjê miêdzy innymi
-z samym [Saulem Sternbergiem](https://en.wikipedia.org/wiki/Saul_Sternberg), psychologiem
+z samym [Saulem Sternbergiem](https://en.wikipedia.org/wiki/Saul_Sternberg), wybitnym psychologiem
 matematycznym [Jamesem Townsendem](https://en.wikipedia.org/wiki/James_Townsend_(psychologist)), i
 innymi, których wymieniam w podziêkowaniach na pocz±tku doktoratu.
 
