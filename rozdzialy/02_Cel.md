@@ -39,7 +39,7 @@ turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego
 Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
 teoretycznego. Okaże się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł
-empiryczny musii zawierać fragment rozumowania teoretycznego, a każdy artykuł teoretyczny służy
+empiryczny musi zawierać fragment rozumowania teoretycznego, a każdy artykuł teoretyczny służy
 ostatecznie do zmiany sposobu wnioskowania z wyników empirycznych badań.
 
 Dzięki temu dostrzeżemy możliwość istnienia alternatywnego sposobu uprawiania nauki (wiem, jak to
