@@ -1,3 +1,8 @@
+Ten rozdział napisałem zanim jeszcze zdecydowałem się zwracać do czytelnika w formie żeńskiej (tak
+wiem). Ponieważ żal mi usuwać te wszystkie wzbudzające mam nadzieję skrępowanie zabawy językowe,
+które się tu w związku z płcią odbiorcy pojawiają i które połączyłem w pewien sposób z innymi
+wątkami, postanowiłem na razie tego tu nie zmieniać.
+
 # Predykaty
 
 Myślę, że pojęcia: implikacji, implikacji jako funkcji i funkcji jako programu są Ci już trochę
@@ -595,17 +600,19 @@ od Ciebie. Jestem głupi, więc odgrywanie dobrze roli naukowca to wszystko, na 
 dobry dzień. Według mnie, to właśnie, między innymi, oznacza bycie naukowcem. 
 
 Co jeszcze, według mnie, poza czymś w rodzaju racjonalności, oznacza bycie naukowcem? Dziękuję, że
-pytasz! Między innymi *wolność*. Pod tym względem (jak i wieloma innymi) zgadzam się z genialnym
-Noamem Chomskim, który uważa się za *anarchistę*. To słowo brzmi może niepokojąco, ale chodzi tak
-naprawdę o postawę, która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
+pytasz! Między innymi *wolność*. Pod tym względem (jak i wieloma innymi) zgadzam się (zgadzam się
+jest chyba za mocno powiedziane - raczej mu ufam) z genialnym Noamem Chomskim, który uważa się za
+*anarchistę*. Brzmi może niepokojąco, ale chodzi tak naprawdę o postawę, która w mojej ocenie nie
+jest wcale ekscentryczna ani ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
 
-Otóż to, burden of proof. Bardzo odpowiada mi ten rodzaj wolności. Gdy bierzesz udział w moich
+Otóż to, *burden of proof*. Bardzo odpowiada mi ten rodzaj wolności. Gdy bierzesz udział w moich
 zajęciach, jesteś pod presją publicznej instytucji w której pracuję zmuszono tymczasowo traktować
-mnie jak autorytet. To oznacza pewne zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności,
-the burden of proof jest wtedy on *me*. 
+mnie jak autorytet nawet gdybym nie dał Ci powodów, żebyś mnie tak traktowało. To oznacza pewne
+zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of proof jest wtedy on
+*me*.
 
 Oboje mamy więc pewne zobowiązania, bo jesteśmy częścią wspólnoty, dzięki której możemy między
 innymi robić to, co właśnie robimy. To jest koszt wolności, o której mówię. Ja pracuję na uczelni za
@@ -643,5 +650,3 @@ ustalić, skąd w ogóle taki wniosek mógłby się wziąć. Zadajemy sobie wted
 czy kroki mogłyby nas do niego doprowadzić, a więc jakie założenia byłyby *wystarczające*, albo
 jakie założenia są *konieczne*, żeby można było mieć nadzieję na jego uzasadnienie. Bywa, że
 oszczędzamy w ten sposób sporo czasu.
-
-[Do następnej części](./Matematyka_dla_psychologow_2.md)
