@@ -119,10 +119,11 @@ można wyrazić tak:
 zewnętrznego obserwatora*.
 
 Zwracam uwagę, że cel jest zgodnie z tym punktem widzenia własnością *pary* złożonej z obserwatora,
-w dodatku hipotetycznego, i przedmiotu jego obserwacji, a nie na przykład własnością człowieka czy
-innego zwierzęcia, którego zachowanie jest obserwowane. To znaczy, że cel będę traktował jako
-własność *względną*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia, ale w formalnej
-definicji zadania pozostanie nadal jego cień. Dojdziemy również do takiego wniosku:
+w dodatku hipotetycznego, a także przedmiotu jego obserwacji, a nie na przykład własnością samego
+zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obserwowane. To znaczy, że
+cel będę traktował jako własność *względną*. Zewnętrzny obserwator ostatecznie zniknie nam z pola
+widzenia, ale w formalnej definicji zadania pozostanie nadal jego cień. Dojdziemy również do takiego
+wniosku:
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
