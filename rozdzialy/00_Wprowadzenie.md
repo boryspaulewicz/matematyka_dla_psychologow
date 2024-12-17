@@ -10,7 +10,7 @@ komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wym
 tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
-siedemnastoletni wtedy Tymek. Sz³o mu powoli, wiêc wprowadzi³em pewne zmiany i poprawion± wersjê
+siedemnastoletni wtedy Tymek. Sz³o mu powoli, wiêc wprowadzi³em pewne zmiany i zmienion± wersjê
 da³em doktorantom, którzy chodzili wtedy na mój kurs dotycz±cy wnioskowania bayesowskiego i
 przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) poprawi³em skrypt na tyle, ¿e czê¶æ studentów
 wykona³a poprawnie zadanie, a kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
