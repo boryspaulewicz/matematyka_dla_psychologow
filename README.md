@@ -24,13 +24,18 @@ moje w większości dość stare, ale za to nieprzycięte
 
 [Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
-Teraz tu dużo zmieniam: [Funkcje w Lean: pierwsze kroki - wersja przegadana](./rozdzialy/03_Funkcje_w_Lean.md)
+[Pierwszy spacerek po łączce matematyki](./rozdzialy/Pierwszy_spacerek.md)
 
-[Logika w Lean: pierwsze kroki - wersja przegadana](./02_Logika_w_Lean.md)
+[Polacy czytają na potęgę! Spacerek po Leanie, wersja pierwsza! Plus top ten łatwych sposobów na zgubienie kluczy do
+mieszkania (!)](./rozdzialy/Spacerek_po_Leanie_1.md)
 
-[Lean: pierwsze kroki - wersja zwięzła](./01z_Funkcje_i_Logika_w_Lean.md)
+[Stare: Spacerek po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
-[Predykaty, relacje, duży kwantyfikator i dowód na istnienie Boga](./03_Predykaty.md)
+[Logika w Lean: pierwsze kroki](./02_Logika_w_Lean.md)
+
+[Stare: Lean dla początkujących - wersja zwięzła](./01z_Funkcje_i_Logika_w_Lean.md)
+
+[Predykaty, relacje, duży kwantyfikator i dowód na istnienie Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
 [Modus ponens, dwa wymiary teorii typów zależnych i nieważność dowodu](./04_Modus_Ponens_Niewaznosc_Dowodu.md)
 
