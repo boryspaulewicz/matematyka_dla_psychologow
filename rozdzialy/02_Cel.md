@@ -91,9 +91,9 @@ typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psycho
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać całej matematyce, patrząc na nią z tej niezwykłej perspektywy, jakiej
-dostarczy nam teoria typów zależnych. Z matematyką zrobimy to na początku mówiąć *tylko* o funkcjach
-i implikacji, a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie
-najprostym możliwym psychologicznym badaniu eksperymentalnym.
+dostarczy nam teoria typów zależnych. Z matematyką zrobimy to na początku mówiąć *tylko* o
+funkcjach, a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym
+możliwym psychologicznym badaniu eksperymentalnym.
 
 Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
