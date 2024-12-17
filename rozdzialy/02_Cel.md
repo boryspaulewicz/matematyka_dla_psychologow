@@ -1,4 +1,4 @@
-# Do czego autor zmierza?
+# Do czego autor zmierza?!
 
 Po omówieniu potrzebnych do tego podstaw zamierzam wytłumaczyć Ci między innymi, na czym polega
 istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Będę przy tym w pewnym
@@ -27,11 +27,20 @@ zaszczyt figurować w przypisie, wymieniony obok samego Borsbooma, jako niezale�
 istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, ale przede
 wszystkim żeby przekonać Cię, że mogę mieć na ten temat coś do powiedzenia.
 
-Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
-"obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
+Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
+wiedzy, żeby ocenić, jakie szkody wyrządzili i nadal polskiej psychologii wyrządzają autorzy takich
+podręczników jak [Metodologia badań
+psychologicznych](https://ksiegarnia.pwn.pl/Metodologia-badan-psychologicznych,782124221,p.html?srsltid=AfmBOopxlOtS5MLgoUGzo8_9QB7yo-2aWyZQPM4FEqkuIvYzWXHyBbvQ),
+[Statystyczny
+drogowskaz](https://www.gwp.pl/statystyczny-drogowskaz-1-praktyczne-wprowadzenie-do-wnioskowania-statystycznego.html),
+czy niedawno wydanego podręcznika pod tytułem [Metodologia i statystyka. Przewodnik statystycznego
+turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego-turysty-Tom-1,1007521920,p.html?srsltid=AfmBOooMqGVHILuAsFPTJQ6v1iAEhd5Kiwwvogdmsco1Lp9FyuqwBM91).
+
+Mając do dyspozycji te wszystkie narzędzia, podejmiemy następnie próbę *pełnej formalizacji* dwóch
+rodzajów "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
 teoretycznego. Okaże się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł
-empiryczny zawiera teoretyczny fragment, a każdy artykuł teoretyczny służy ostatecznie do zmiany
-sposobu wnioskowania z wyników empirycznych badań.
+empiryczny musii zawierać fragment rozumowania teoretycznego, a każdy artykuł teoretyczny służy
+ostatecznie do zmiany sposobu wnioskowania z wyników empirycznych badań.
 
 Dzięki temu dostrzeżemy możliwość istnienia alternatywnego sposobu uprawiania nauki (wiem, jak to
 brzmi), z perspektywy którego zdają się tracić na znaczeniu takie praktyki jak na przykład
@@ -164,9 +173,9 @@ zresztą nie tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zja
 problemów, za to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. 
 
 Umiem stwarzać tego rodzaju pozory, bo jak na psychologa dosyć sprawnie operuję technicznymi
-terminami wnioskowania statystycznego i przyczynowego, ale nie chcę tego robić. Musiałbym też po raz
-kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i
-realnej władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według
-mnie taka postawa jest po prostu *anty*naukowa.
+terminami wnioskowania statystycznego i przyczynowego, ale nie lubię tego robić. Musiałbym też po
+raz kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji
+autorytetu i realnej władzy, rzadko podając *powody*, dla których oczekują takich a nie innych
+zmian, a według mnie taka postawa jest po prostu *anty*naukowa.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od początku.
