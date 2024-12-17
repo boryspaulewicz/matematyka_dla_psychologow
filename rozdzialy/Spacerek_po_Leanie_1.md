@@ -462,7 +462,7 @@ def dodaj3 : Nat → Nat := plus 3
 #eval dodaj3 3 -- 6
 
 -- Typ tej funkcji już znasz, jest zresztą zapisany wprost w jej definicji, ale i tak
--- przypomnę Ci, jak możesz go zawsze sprawdzić:
+-- przypomnę Ci, jak możesz go sprawdzić:
 #check dodaj3 -- dodaj3 : Nat → Nat, czyli dodaj3 to funkcja z typu Nat do typu Nat
 ```
 
@@ -475,12 +475,17 @@ skorzystać, żeby ten błąd usunąć. Jeżeli to polecenie okażę się za tru
 odrobinie wytrwałości w końcu stanie się dziecinnie łatwe.
 
 **Polecenie na piątkę z plusem**: Zdefiniuj i zastosuj funkcję, która pobiera dwa argumenty:
-*funkcję* typu `Nat → Nat`, na przykład dodającą `2` do swojego parametru, albo jakąkolwiek inną
-tego typu i term typu `Nat`. Ta funkcja, którą masz zdefiniować, ma w swoim ciele stosować swój
-pierwszy parametr (funkcję) do drugiego parametru (termu typu `Nat`). Sprawdź typ zdefiniowanej w
-ten sposób funkcji i oblicz rezultat zastosowania jej do jakiejś zapisanej przez siebie (w
-nawiasach) anonimowej lub wcześniej już zdefiniowanej (na przykład `dodaj2`) funkcji typu `Nat →
-Nat` i jakiejś liczby naturalnej. W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na
-definiowanie funkcji, które tworzą funkcje (czyli programów, które tworzą programy), ale również na
-definiowanie funkcji, które stosują do czegoś funkcje podane jako argumenty aplikacji (czyli
-programów, które przetwarzają inne programy).
+
+1. *Funkcję* typu `Nat → Nat`, na przykład dodającą `2` do swojego parametru, albo jakąkolwiek inną
+tego typu
+
+2. Term typu `Nat`
+
+Definiowana przez Ciebie funkcja ma w swoim ciele stosować swój pierwszy parametr (funkcję) do
+drugiego parametru (termu typu `Nat`). Sprawdź typ zdefiniowanej w ten sposób funkcji i oblicz
+rezultat zastosowania jej do jakiejś zapisanej przez siebie (w nawiasach) anonimowej lub jakiejś
+wcześniej już zdefiniowanej (na przykład `dodaj2`) funkcji typu `Nat → Nat` i jakiejś liczby
+naturalnej. W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na definiowanie funkcji,
+które tworzą funkcje (czyli programów, które tworzą programy), ale również na definiowanie funkcji,
+które stosują do czegoś funkcje podane jako argumenty aplikacji (czyli programów, które przetwarzają
+inne programy).
