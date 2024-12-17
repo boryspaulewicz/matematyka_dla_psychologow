@@ -1,5 +1,5 @@
-*Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki, ta książka nie
-zakłada żadnej wcześniejszej wiedzy u czytelnika albo czytelniczki*.
+**Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki, ta książka nie
+zakłada żadnej wcześniejszej wiedzy**.
 
 Piszę ją w tym momencie przede wszystkim dla studentów starszych lat na kierunku psychologia, ale
 także dla badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To między innymi
