@@ -362,7 +362,7 @@ jakichkolwiek funkcji, które przekształcają *funkcje* typu `Nat → Nat` w li
 (Nat → Nat)` to typ jakichkolwiek funkcji, które przekształcają liczby naturalne w funkcje typu
 `(Nat → Nat)`.
 
-To, że w Leanie strzałka wiąże z prawej, znaczy, że dla dowolnych typów `A`, `B` i `C`, `A → B → C`
+To, że w Leanie strzałka wiąże z prawej znaczy, że dla dowolnych typów `A`, `B` i `C`, `A → B → C`
 jest interpretowane jako `A → (B → C)`, a więc `Nat → Nat → Nat` jest interpretowane jako `Nat →
 (Nat → Nat)`. Zapisałem to wprost, nie polegając na tej konwencji i zamiast tego używając nawiasów,
 żebyś nie musiała się tego od razu domyślać.
