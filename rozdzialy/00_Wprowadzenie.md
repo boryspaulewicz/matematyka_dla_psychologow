@@ -19,12 +19,16 @@ Poniewa¿ sam zacz±³em siê ca³kiem niedawno uczyæ Leana, postanowi³em uczyæ siê g
 i rozwijaj±c to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania
 przyczynowego dla psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171)
 (wersja w jêzyku angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma
-lepszego sposobu, ¿eby upewniæ siê, czy co¶ siê dobrze rozumie. Ten artyku³ zamówi³ u mnie Arek
-Bia³ek, za co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat
-tego, czym jest lub mo¿e byæ rachunek przyczynowy, z czego bêdê korzysta³ w dalszej czê¶ci tej
-ksi±¿ki. Nie jest to chyba mój najgorszy tekst, skoro [sposoba³
-siê](https://x.com/yudapearl/status/1737769250511843448) nawet samemu Pearlowi, który raczej nie
-jest sk³onny prawienia komplementów na temat tego typu artyku³ów.
+lepszego sposobu, ¿eby upewniæ siê, czy siê co¶ rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za
+co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat tego, czym
+jest lub mo¿e byæ rachunek przyczynowy, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja
+*Przegl±du psychologicznego* okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em
+ca³o¶æ o ponad po³owê, wcze¶niej pisz±c kilka ró¿nych równie d³ugich wersji, ostatecznie pozwolono
+mi przekroczyæ limit znaków o, jak by to powiedzieæ, bardzo wiele znaków. Nie jest to chyba mój
+najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448) nawet
+Pearlowi, który raczej nie jest sk³onny do prawienia komplementów na temat tego typu artyku³ów. Czy
+teraz bym w tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje
+siê, ¿e odbiegam od tematu.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
