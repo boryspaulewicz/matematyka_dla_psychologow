@@ -49,9 +49,9 @@ recenzent czy redaktor, gdy *całe* rozumowanie jest sformalizowane i sprawdzone
 względem poprawności? Wyrazić zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
 Ponieważ takie sformalizowane artykuły naukowe będą *jednocześnie* programami komputerowymi i
-zakodowanymi w języku teorii typów zależnych rozumowaniami (sic!), to te artykuły będzie można
-*składać* w większe artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz,
-łącząc ze sobą różne prostsze funkcje.
+zakodowanymi w języku teorii typów zależnych rozumowaniami, to te artykuły będzie można *składać* w
+większe artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz, łącząc ze
+sobą różne prostsze funkcje.
 
 Nietrudno wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów mogłaby
 tworzyć coś w rodzaju programistycznej bibliteki żywej wiedzy naukowej, złożonej z czegoś, co można
