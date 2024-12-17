@@ -28,8 +28,7 @@ istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się po
 wszystkim żeby przekonać Cię, że mogę mieć na ten temat coś do powiedzenia.
 
 Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
-wiedzy, żeby ocenić, jakie szkody wyrządzili i nadal polskiej psychologii wyrządzają autorzy takich
-podręczników jak [Metodologia badań
+wiedzy, żeby ocenić zawartość takich podręczników jak [Metodologia badań
 psychologicznych](https://ksiegarnia.pwn.pl/Metodologia-badan-psychologicznych,782124221,p.html?srsltid=AfmBOopxlOtS5MLgoUGzo8_9QB7yo-2aWyZQPM4FEqkuIvYzWXHyBbvQ),
 [Statystyczny
 drogowskaz](https://www.gwp.pl/statystyczny-drogowskaz-1-praktyczne-wprowadzenie-do-wnioskowania-statystycznego.html),
