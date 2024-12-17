@@ -1,4 +1,4 @@
-# Do czego autor zmierza?!
+# Do *czego* autor zmierza?!
 
 Po omówieniu potrzebnych do tego podstaw zamierzam wytłumaczyć Ci między innymi, na czym polega
 istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Będę przy tym w pewnym

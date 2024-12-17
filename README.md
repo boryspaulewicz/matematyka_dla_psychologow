@@ -24,7 +24,7 @@ moje, w większości dość stare, ale za to nieprzycięte
 
 [Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
 
-[Do czego autor zmierza?!](./rozdzialy/02_Cel.md)
+[Do *czego* autor zmierza?!](./rozdzialy/02_Cel.md)
 
 [Pierwszy spacerek po łączce matematyki (poradzenie sobie z tym zajęło moim studentom około 15 minut)](./rozdzialy/Pierwszy_spacerek.md)
 
