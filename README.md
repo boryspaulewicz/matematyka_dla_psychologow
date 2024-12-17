@@ -1,15 +1,14 @@
-*Ta książka nie zakłada żadnej wcześniejszej wiedzy u czytelnika albo czytelniczki, poza znajomością
-języka polskiego i umiejętnością korzystania z przeglądarki*. 
+*Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki, ta książka nie
+zakłada żadnej wcześniejszej wiedzy u czytelnika albo czytelniczki*.
 
 Piszę ją w tym momencie przede wszystkim dla studentów starszych lat na kierunku psychologia, ale
 także dla badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To między innymi
-teoretyczne i praktyczne wprowadzenie do programowania, (meta-)matematyki, teorii typów zależnych,
-wnioskowania statystycznego i przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
-uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
-psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
-rozwinięciem wątków, z którymi zmagałem się pisząc [pracę
-doktorską](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej.
+wprowadzenie do programowania, (meta-)matematyki, teorii typów zależnych, wnioskowania
+statystycznego i przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam uzasadnić,
+objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
+szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i rozwinięciem wątków,
+z którymi zmagałem się pisząc [pracę doktorską](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem
+się zajmować jeszcze na etapie pisania pracy magisterskiej.
 
 (NIEAKTUALNE) Niektóre rozdziały mają więcej niż jedną wersję. Jedna zawiera liczne objaśnienia,
 dygresje, a czasem próby rozbawienia czytelnika - to jest tak zwana wersja przegadana. Na pewnych

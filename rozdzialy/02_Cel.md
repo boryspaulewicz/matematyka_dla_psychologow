@@ -12,13 +12,26 @@ są wyborami językowymi i ich wartość sprowadza się do użyteczności i form
 
 Omówimy następnie podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o
 co chodzi w badaniach obserwacyjnych i eksperymentalnych, a także o co chodzi w pomiarze, *o ile*
-pomiar interpretujemy wyłącznie przyczynowo.
+pomiar interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
+definicji. Jedną z nich będziez wpływowa teoretyczno-przyczynowa definicja trafności pomiaru, którą
+w pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
+[artykyle](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
+Denny Borsboom. Drugą będzie, również teoretyczno-przyczynowa, definicja niezmienności pomiaru
+(objaśniona na s. 14 w tym [preprincie](https://osf.io/preprints/psyarxiv/e7a3x)), na której trop,
+jak się najpierw dowiedziałem od piszącej pożyteczne teksty, czarującej Julii Rohrer, a potem od
+samego już Borsbooma, ten wpadł dziesięć lat przede mną, ale tego pomysłu nigdy nie rozwinął i
+dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Julia napisała na ten
+temat na poczytnym blogu [The 100%
+CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
+zaszczyt figurować w przypisie, wymieniony obok samego Borsbooma, jako niezależny odkrywca tej
+istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, ale przede
+wszystkim żeby przekonać Cię, że mogę mieć na ten temat coś do powiedzenia.
 
 Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
-"obiektów prozaicznych" - prostego artykułu empirycznego i prostego artykułu teoretycznego. Okaże
-się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł empiryczny zawiera teoretyczny
-fragment, a każdy artykuł teoretyczny służy ostatecznie do zmiany sposobu wnioskowania z wyników
-empirycznych badań.
+"obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
+teoretycznego. Okaże się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł
+empiryczny zawiera teoretyczny fragment, a każdy artykuł teoretyczny służy ostatecznie do zmiany
+sposobu wnioskowania z wyników empirycznych badań.
 
 Dzięki temu dostrzeżemy możliwość istnienia alternatywnego sposobu uprawiania nauki (wiem, jak to
 brzmi), z perspektywy którego zdają się tracić na znaczeniu takie praktyki jak na przykład
@@ -26,34 +39,33 @@ prerejestracja badań, testowanie hipotez, czy proces recenzji. Bo też jaką ro
 recenzent czy redaktor, gdy *całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod
 względem poprawności? Wyrazić zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
-Ponieważ takie sformalizowane artykuły naukowe będą jednocześnie programami komputerowymi (sic!) i
-zakodowanymi w języku teorii typów zależnych rozumowaniami, to te artykuły będzie można *składać* w
-większe artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz, łącząc ze
-sobą różne prostsze funkcje.
+Ponieważ takie sformalizowane artykuły naukowe będą *jednocześnie* programami komputerowymi i
+zakodowanymi w języku teorii typów zależnych rozumowaniami (sic!), to te artykuły będzie można
+*składać* w większe artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz,
+łącząc ze sobą różne prostsze funkcje.
 
 Nietrudno wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów mogłaby
 tworzyć coś w rodzaju programistycznej bibliteki żywej wiedzy naukowej, złożonej z czegoś, co można
 by nazwać *strumieniami wnioskowania z danych*. Praca teoretyczna polegałaby wtedy na odkrywaniu
 nowych sposobów łączenia źródeł danych z wnioskami i odkrywania nowych wniosków, a więc na
 *przekierowywaniu dedukcyjnych strumieni empirycznych*. Praca *czysto* empiryczna polegałaby z kolei
-na samym dostarczaniu danych w taki sposób, żeby zminimalizować konflikt interesów.
+na samym dostarczaniu danych w taki sposób, żeby minimalizować konflikt interesów.
 
 Czemu wspominam o konflikcie interesów? Moim zdaniem w tym momencie niemal każdy artykuł empiryczny
-powinien w zasadzie zawierać adnotację o występowaniu takiego konfliktu. Mam na myśli konflikt
-interesów, który jest zarazem powszechny i o którym, o ile mi wiadomo, w ogóle się nie mówi - *autor
-artykułu i wniosków jest zwykle odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane
-wątpliwe praktyki badawcze (ang. *questionable research practices*) są w ogóle *możliwe*. W
-połączeniu z silnie i stale oddziałującymi zachętami, takimi jak rozliczanie pracowników niemal
-wyłącznie z *ilości* publikacji, *ilości* punktów publikacyjnych i *ilości* grantów, ta możliwość
-musi często prowadzić do wątpliwych praktyk, ponieważ naukę uprawiają *zwykli ludzie*, tacy jak Ty
-czy ja.
+powinien w zasadzie zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest
+zarazem powszechny i o którym, o ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków
+jest zwykle odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane wątpliwe praktyki
+badawcze (ang. *questionable research practices*) są w ogóle *możliwe*. W połączeniu z silnie i
+stale oddziałującymi zachętami, takimi jak rozliczanie pracowników niemal wyłącznie z *ilości*
+publikacji, *ilości* punktów publikacyjnych i *ilości* grantów, ta możliwość musi często prowadzić
+do wątpliwych praktyk, ponieważ naukę uprawiają *zwykli ludzie*, tacy jak Ty czy ja.
 
 Gdybym miał zgadywać, powiedziałbym, że sedno tego problemu polega na tym, że w obecnym systemie
 wątpliwe praktyki badawcze są *bardzo opłacalne* i jednocześnie *łatwe*. W dodatku - i to wcale nie
 wynika *logicznie* z tej ostatniej tezy - uczciwe uprawianie pracy naukowej i unikanie marnowania
-publicznych pieniędzy czy zaśmiecania literatury kosztownym i szkodliwym szumem jest *nieopłacalne*
-i *trudne* z powodów *niezwiązanych z trudnościami w dociekaniu prawdy o przedmiocie własnych
-badań*.
+publicznych pieniędzy, czy zaśmiecania literatury kosztownym i szkodliwym szumem, jest często
+*nieopłacalne* i *trudne* z powodów *niezwiązanych z trudnościami w dociekaniu prawdy o przedmiocie
+własnych badań*.
 
 Zwróć proszę uwagę, że gdyby istniał ten alternatywny sposób uprawiania nauki, o którym dopiero co
 fantazjowałem, nie miałoby znaczenia, czy autorem jestem ja, pracownik zatrudniony na uczelni, czy
@@ -69,10 +81,10 @@ pojęcia *zadania*. Dzięki tej jednej definicji będziemy mogli całkowicie zak
 typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. 
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
-będziemy się długo przyglądać całej matematyce, patrząc na nią z perspektywy, jakiej dostarcza
-teoria typów zależnych. Z matematyką zrobimy to na początku mówiąć *tylko* o funkcjach i implikacji,
-a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym możliwym
-psychologicznym badaniu eksperymentalnym.
+będziemy się długo przyglądać całej matematyce, patrząc na nią z tej niezwykłej perspektywy, jakiej
+dostarcza teoria typów zależnych. Z matematyką zrobimy to na początku mówiąć *tylko* o funkcjach i
+implikacji, a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym
+możliwym psychologicznym badaniu eksperymentalnym.
 
 Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
@@ -97,13 +109,13 @@ można wyrazić tak:
 *Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako preferencję hipotetycznego
 zewnętrznego obserwatora*.
 
-Zwracam uwagę, że cel jest zgodnie z tym punktem widzenia własnością *pary* złożonej z obserwatora i
-przedmiotu jego obserwacji, a nie na przykład własnością człowieka czy innego zwierzęcia, którego
-zachowanie jest obserwowane. To znaczy, że będę traktował cel jako własność *względną*. Zewnętrzny
-obserwator ostatecznie zniknie nam z pola widzenia, ale w formalnej definicji zadania pozostanie
-jego cień. Dojdziemy również do takiego wniosku:
+Zwracam uwagę, że cel jest zgodnie z tym punktem widzenia własnością *pary* złożonej z obserwatora,
+w dodatku hipotetycznego, i przedmiotu jego obserwacji, a nie na przykład własnością człowieka czy
+innego zwierzęcia, którego zachowanie jest obserwowane. To znaczy, że cel będę traktował jako
+własność *względną*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia, ale w formalnej
+definicji zadania pozostanie nadal jego cień. Dojdziemy również do takiego wniosku:
 
-*Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to działanie celowe w przyjętym
+*Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
 
 Jak również do takiego:
@@ -112,7 +124,7 @@ Jak również do takiego:
 rzeczywiste procesy fizyczne*.
 
 W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt. Przy okazji zobaczymy w
-nowym świetle *sens* pomiaru psychologicznego.
+nowym i zaskakującym świetle *sens* pomiaru psychologicznego.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
 wygląda to, co *niewidzialne*, ekstremalnie *złożone*, *idiosynkratyczne*, *zmienne* i w ogromnym
@@ -134,9 +146,9 @@ umysłowych.
 
 Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo też nie mam poczucia,
 żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych rzeczy bardzo się
-przydaje to, co wiemy, ale psychologia naukowa jest ciągle na etapie powstawania. Będziemy za to
+przydaje to, co wiemy, ale psychologia naukowa wciąż jest na etapie powstawania. Będziemy za to
 intensywnie korzystać z tej niezwykłej *meta-matematyki stosowanej*, którą tu objaśniam i której
-będę używał jako uniwersalnego narzędzia służącego do badań meta-teoretycznych, jaką jest teoria
+będę używał jako uniwersalnego narzędzia służącego do meta-teoretycznych badań, jaką jest teoria
 typów zależnych, a której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
 
@@ -151,7 +163,7 @@ pisać w stylu, który obecnie obowiązuje w tego typu publikacjach. Nie przepad
 zresztą nie tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu
 problemów, za to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. 
 
-Umiem stwarzać tego rodzaju pozory, bo jak na psychologa dosyć sprawnie posługuję się technicznymi
+Umiem stwarzać tego rodzaju pozory, bo jak na psychologa dosyć sprawnie operuję technicznymi
 terminami wnioskowania statystycznego i przyczynowego, ale nie chcę tego robić. Musiałbym też po raz
 kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i
 realnej władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według
