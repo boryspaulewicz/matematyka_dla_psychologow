@@ -179,6 +179,22 @@ napisania czego¶ choæby tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶
 gdyby nie ta wspania³a ksi±¿ka i kontakt z tym cz³owiekiem. No wiêc z ambicjami lepiej nie
 przesadzaæ; moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
+A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który wymy¶li³em
+podczas pisania doktoratu. Poniewa¿ jedn± z wiêkszych przyjemno¶ci zwi±zanych z tym procesem by³a
+dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub bardziej skomplikowanymi narzêdziami
+teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e nie by³o w okolicy ¿adnych
+specjalistów, którzy mogliby mi w tym czasem pomóc. Gdy czu³em, ¿e muszê siê w czym¶ szybko
+podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem zdobywa³em,
+nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego jeszcze wtedy serwisu
+AvaxHome) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze 10 do 20 stron szukaj±c b³êdów, po
+czym pisa³em do nich maila, w którym zwykle wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, a przy
+okazji zwraca³em te¿ uwagê na znalezione tam problematyczne miejsca. A te zawsze mo¿na by³o
+znale¼æ. Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
+wyczerpuj±co mi odpowiadali. W ten sposób rozpocz±³em bardzo przyjemn± korespondencjê miêdzy innymi
+z samym [Saulem Sternbergiem](https://en.wikipedia.org/wiki/Saul_Sternberg), psychologiem
+matematycznym [Jamesem Townsendem](https://en.wikipedia.org/wiki/James_Townsend_(psychologist)), i
+innymi, których wymieniam w podziêkowaniach na pocz±tku doktoratu.
+
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
 pisa³em, przytrafi³o mi siê w szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego
 przedmiotu, Pani P³ucienniczak, któr± bardzo dobrze wspominam (jednak moj± ulubion± nauczycielk± na

@@ -1,29 +1,29 @@
 # Spacerek po Leanie, wersja druga
 
 Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
-do technicznych znaczeń niektórych słów. Tylko w ten sposób będziesz miała *szansę* dobrze
-zrozumieć, o czym mówię. Z niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od
-dzisiaj) metodą mimowolnego oswojenia, bo nie będę ich od razu dokładnie objaśniał, tylko najpierw
-pokażę Ci, jak ich używam.
+do technicznych znaczeń niektórych słów. Tylko w ten sposób będziesz miała szansę dobrze zrozumieć,
+o czym mówię. Z niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą
+mimowolnego oswojenia, bo nie będę ich od razu dokładnie objaśniał, tylko najpierw pokażę Ci, jak
+ich używam.
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach nie wymagają instalacji Leana, ale
 jeżeli dotarłaś do tego momentu, to możliwe, że przynajmniej brałaś już to pod uwagę. Warto go
-zainstalować, na przykład w połączeniu z darmowym edytorem VS Code. Proste instrukcje jak
-zainstalować oba te narzędzia znajdziesz [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
+zainstalować, na przykład w połączeniu z darmowym edytorem VS Code. Proste instrukcje, jak
+zainstalować oba te narzędzia, znajdziesz [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
 
 **Polecenie**: Jeżeli nie używasz edytora VS Code, a w pierwszych rozdziałach zakładam, że raczej
 nie, to skopiuj na początek do lewego okna taki fragment kodu:
 
 ```lean
--- Tekst zaczynający się od -- to komentarz. Komentarze są przez Leana ignorowane. Dzięki temu
--- możemy napisać na przykład to:
+-- Tekst zaczynający się od -- to komentarz. Komentarze są przez Leana ignorowane. Dzięki temu możemy napisać
+-- na przykład to:
 --
 -- Lean jest głupi
 --
 -- i *nic* się nie stanie.
 
--- Ta fascynująca funkcja pobiera jeden argument typu Nat, czyli liczbę naturalną, i nic 
--- z nią nie robi, to jest poza tym, że ją zwraca (w Leanie każda funkcja musi coś zwracać):
+-- Ta fascynująca funkcja pobiera jeden argument typu Nat, czyli liczbę naturalną, i nic z nią nie robi, to jest
+-- poza tym, że ją zwraca (w Leanie każda funkcja musi coś zwracać):
 def nic_nie_robie (n : Nat) : Nat := n
 ```
 
@@ -33,13 +33,13 @@ Definiuję (`def`)
 
 funkcję (funkcję, bo ma parametr) `nic_nie_robie`
 
-która ma parametr `n` typu `Nat` (`(n : Nat)`) 
+która ma jeden parametr `n` typu `Nat` (`(n : Nat)`) 
 
 i zwraca (tak czytamy symbol `:` pojawiający się po specyfikacji ostatniego parametru funkcji) term
 typu `Nat`.
 
 *Ciałem* tej funkcji jest samotne, samiuteńkie wyrażenie `n`. Właściwie to jest raczej ciałko niż
-ciało. Czy widzisz, że składnia Leana jest względnie intuicyjna?  Nawet, jeżeli tego jeszcze nie
+ciało. Czy nie sądzisz, że składnia Leana jest dość intuicyjna?  Nawet, jeżeli tego jeszcze nie
 widzisz, wklej poniżej dopiero co wstawionej do Leana definicji następny fragment kodu i umieść
 kursor na komendzie `#eval`. Zobaczysz wtedy po prawej rezultat *ewaluacji* aplikacji funkcji
 `nic_nie_robie` do termu `1`. To będzie `1`, bo funkcja `nic_nie_robie` nic nie robi (tylko zwraca
