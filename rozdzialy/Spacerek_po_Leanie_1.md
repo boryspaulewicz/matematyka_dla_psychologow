@@ -315,8 +315,8 @@ Ewaluacja aplikacji anonimowej wersji funkcji `plus` do liczb *1* i *2*:
 *(λ x . (λ y . x + y)) 1 2*
 
 też polega na takim samym odczepieniu ciała i podstawieniu argumentu pod zmienną *x*, będącą
-(jedynym) parametrem tej λ-abstrakcji. W ten sposób z ciała najbardziej zewnętrznej λ-abstrakcji
-powstaje nowa wersja funkcji *(λ y . x + y)*, w której zamiast *x* jest *1*:
+(jedynym) parametrem tej λ-abstrakcji. W ten sposób z ciała zewnętrznej λ-abstrakcji powstaje nowa
+wersja funkcji *(λ y . x + y)*, w której zamiast *x* jest *1*:
 
 *(λ y . 1 + y) 2*
 
