@@ -24,7 +24,7 @@ Bia³ek, za co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szyc
 tego, czym jest lub mo¿e byæ rachunek przyczynowy, z czego bêdê korzysta³ w dalszej czê¶ci tej
 ksi±¿ki. Nie jest to chyba mój najgorszy tekst, skoro [sposoba³
 siê](https://x.com/yudapearl/status/1737769250511843448) nawet samemu Pearlowi, który raczej nie
-jest sk³onny prawienia komplementów na temat tego rodzaju artyku³ów.
+jest sk³onny prawienia komplementów na temat tego typu artyku³ów.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
