@@ -58,8 +58,8 @@ czê¶ciej mimowolnie dostrzegaæ zwi±zki miêdzy tymi tre¶ciami a tym, co siê napot
 nawet tylko przez chwilê siê my¶li. W ten sposób szybko ro¶nie poczucie skuteczno¶ci. Nieuchronnie
 pojawiaj± siê te¿ twórcze skojarzenia i zrozumienie pog³êbia siê niejako samo z siebie. Dziêki temu
 utrwalane tre¶ci wydaj± siê automatycznie coraz ciekawsze i coraz ciekawsze zaczyna siê wydawaæ
-niemal wszystko, co siê z nimi "wi±¿e". Tego rodzaju uczenie jest wiêc ca³kiem dos³ownie procesem
-g³êbokiej wewnêtrznej przemiany.
+niemal wszystko, co siê z nimi "wi±¿e". Tego rodzaju uczenie siê jest wiêc ca³kiem dos³ownie
+procesem g³êbokiej wewnêtrznej przemiany.
 
 Zostaje jeszcze kwestia notatek i sposobu powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê
 notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearne" i z du¿± ilo¶ci±
