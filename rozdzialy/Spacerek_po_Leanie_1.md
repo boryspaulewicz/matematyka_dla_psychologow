@@ -200,7 +200,7 @@ właśnie takim termem.
 Zdefiniujemy teraz funkcję, która będzie dodawała *dwie* dowolne liczby naturalne. Zrobimy to w
 sposób, który pozwoli zobaczyć, że takie funkcje w Leanie są tak naprawdę
 *jedno*argumentowe. Uprzedzam, *to będzie najtrudniejsza część tego rozdziału*. Dlatego spróbuję
-wyjaśnić, jak to działa, na kilka sposobów.
+wyjaśnić jak to działa na kilka sposobów.
 
 ```lean
 def plus : Nat → (Nat → Nat) := 
