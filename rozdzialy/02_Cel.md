@@ -36,8 +36,8 @@ drogowskaz](https://www.gwp.pl/statystyczny-drogowskaz-1-praktyczne-wprowadzenie
 czy niedawno wydanego podręcznika pod tytułem [Metodologia i statystyka. Przewodnik statystycznego
 turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego-turysty-Tom-1,1007521920,p.html?srsltid=AfmBOooMqGVHILuAsFPTJQ6v1iAEhd5Kiwwvogdmsco1Lp9FyuqwBM91).
 
-Mając do dyspozycji te wszystkie narzędzia, podejmiemy następnie próbę *pełnej formalizacji* dwóch
-rodzajów "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
+Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
+"obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
 teoretycznego. Okaże się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł
 empiryczny musii zawierać fragment rozumowania teoretycznego, a każdy artykuł teoretyczny służy
 ostatecznie do zmiany sposobu wnioskowania z wyników empirycznych badań.
