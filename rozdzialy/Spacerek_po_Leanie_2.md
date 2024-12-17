@@ -3,25 +3,27 @@
 Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
 do technicznych znaczeń niektórych słów. Tylko w ten sposób będziesz miała *szansę* dobrze
 zrozumieć, o czym mówię. Z niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od
-dzisiaj) metodą mimowolnego oswojenia, bo nie będę ich dokładnie objaśniał, tylko pokażę Ci, jak ich
-używam.
+dzisiaj) metodą mimowolnego oswojenia, bo nie będę ich od razu dokładnie objaśniał, tylko najpierw
+pokażę Ci, jak ich używam.
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach nie wymagają instalacji Leana, ale
-jeżeli dotyczałaś do tego momentu, to możliwe, że przynajmniej brałaś już to pod uwagę. Polecam
-zainstalować, na przykład w połączeniu z darmowym edytorem VS Code. Instrukcje, jak szybko
+jeżeli dotarłaś do tego momentu, to możliwe, że przynajmniej brałaś już to pod uwagę. Warto go
+zainstalować, na przykład w połączeniu z darmowym edytorem VS Code. Proste instrukcje jak
 zainstalować oba te narzędzia znajdziesz [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
 
-**Polecenie**: Jeżeli nie używasz edytora VS Code, a w pierwszych rozdziałach zakładam, że nie, to
-Skopiuj na początek do lewego okna taki fragment kodu:
+**Polecenie**: Jeżeli nie używasz edytora VS Code, a w pierwszych rozdziałach zakładam, że raczej
+nie, to skopiuj na początek do lewego okna taki fragment kodu:
 
 ```lean
 -- Tekst zaczynający się od -- to komentarz. Komentarze są przez Leana ignorowane. Dzięki temu
 -- możemy napisać na przykład to:
 --
 -- Lean jest głupi
+--
+-- i *nic* się nie stanie.
 
 -- Ta fascynująca funkcja pobiera jeden argument typu Nat, czyli liczbę naturalną, i nic 
--- z nią nie robi, poza tym, że ją zwraca
+-- z nią nie robi, to jest poza tym, że ją zwraca (w Leanie każda funkcja musi coś zwracać):
 def nic_nie_robie (n : Nat) : Nat := n
 ```
 
@@ -33,13 +35,15 @@ funkcję (funkcję, bo ma parametr) `nic_nie_robie`
 
 która ma parametr `n` typu `Nat` (`(n : Nat)`) 
 
-i zwraca (tak czytamy symbol `:` po specyfikacji ostatniego parametru funkcji) term typu `Nat`. 
+i zwraca (tak czytamy symbol `:` pojawiający się po specyfikacji ostatniego parametru funkcji) term
+typu `Nat`.
 
-*Ciałem* tej funkcji jest wyrażenie `n`. Właściwie to jest raczej ciałko niż ciało. Czy widzisz, że
-składania Leana jest dość intuicyjna?  Nawet, jeżeli tego jeszcze nie widzisz, wklej poniżej
-następny fragment kodu i umieść kursor na komendzie `#eval`. Zobaczysz wtedy po prawej rezultat
-*ewaluacji* aplikacji funkcji `nic_nie_robie` do termu `1`. To będzie `1`, bo funkcja
-`nic_nie_robie` nic nie robi, tylko zwraca swój argument.
+*Ciałem* tej funkcji jest samotne, samiuteńkie wyrażenie `n`. Właściwie to jest raczej ciałko niż
+ciało. Czy widzisz, że składnia Leana jest względnie intuicyjna?  Nawet, jeżeli tego jeszcze nie
+widzisz, wklej poniżej dopiero co wstawionej do Leana definicji następny fragment kodu i umieść
+kursor na komendzie `#eval`. Zobaczysz wtedy po prawej rezultat *ewaluacji* aplikacji funkcji
+`nic_nie_robie` do termu `1`. To będzie `1`, bo funkcja `nic_nie_robie` nic nie robi (tylko zwraca
+swój argument).
 
 ```lean
 #eval nic_nie_robie 1
@@ -58,7 +62,7 @@ Gdy umieścisz kursor nad *pierwszym* wystąpieniem słowa `#check`, zobaczysz p
 
 `nic_nie_robie : Nat → Nat`
 
-`Nat` to typ oznaczający właśnie liczby naturalne. Myślę, że zaczęłaś się już trochę oswajać z tym,
+`Nat` to typ oznaczający liczby naturalne. Myślę, że zaczęłaś się już trochę oswajać z tym,
 że w Leanie wyrażenie o postaci `M : N`, gdzie `M` i `N` to jakieś wyrażenia, oznacza, że `M` ma typ
 `N`. Gdy `M` to zmienna, na przykład `x`, `M : N` jest *deklaracją* (typu tej zmiennej), na
 przykład, `x : N` jest deklaracją, że `x` ma typ `N`. Brzmi strasznie? No to popatrz na to (ale nie
@@ -69,7 +73,7 @@ wklejaj tego do Leana):
 To jest deklaracja, że `10` ma typ `Nat`, czyli, że `10` jest liczbą naturalną. A zawsze, gdy po
 stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, to masz do czynienia z *typem
 funkcyjnym*. Na przykład `nic_nie_robie` jest funkcją, bo ma w typie strzałkę. Komunikat, który
-widzisz po prawej, gdy sprawdzasz typ tej stałej:
+widzisz po prawej, gdy sprawdzasz typ tej stałej, to jest komunikat:
 
 `nic_nie_robie : Nat → Nat`
 
@@ -79,7 +83,7 @@ możesz więc odczytać tak:
 
 Jeżeli umieścisz kursor nad drugim wystąpieniem komendy `#check`, tym, któremu nie towarzyszy symbol
 `@`, to zobaczysz *tą samą informację*, tylko *przedstawioną w inny sposób* (zgodny z tym, jak ta
-funkcja była zdefiniowana):
+funkcja została zdefiniowana):
 
 `nic_nie_robie (n : Nat) : Nat`
 
@@ -94,16 +98,16 @@ Gdy teraz skopiujesz do Leana jeszcze to:
 #check nic_nie_robie 1 : Nat
 ```
 
-i umieścisz kursor nad trzecim nad komendą `#check`, to zobaczysz po prawej komunikat:
+i umieścisz kursor nad komendą `#check`, to zobaczysz po prawej komunikat:
 
 `nic_nie_robie 1 : Nat`
 
-W tym komunikacie po lewej od `:` widzimy tym razem *dwa* termy, które razem są jednym *termem
-złożonym*, oznaczającym *aplikację* (funkcji do termu), czyli w tym wypadku zastosowanie funkcji
-`nic_nie_robie` do `1`. Pierwszy z tych termów jest funkcją, a drugi to liczba `1`. Pierwszy i
-jedyny parametr funkcji `nic_nie_robie` ma typ `Nat` i `1` też ma typ `Nat`, a zatem `1` jest termem
-typu, którego ta funkcja wymaga. Dlatego aplikacja funkcji `nic_nie_robie` do termu `1` jest
-poprawna.
+W tym komunikacie po lewej od `:` mamy teraz *dwa* termy, które razem tworzą jeden *term złożony*,
+oznaczający *aplikację* (aplikacja jest zawsze aplikacją jakiejś funkcji do jakiegoś termu), czyli w
+tym wypadku aplikację funkcji `nic_nie_robie` do `1`. Pierwszy z tych termów jest funkcją, a drugi
+to liczba `1`. Pierwszy i jedyny parametr funkcji `nic_nie_robie` ma typ `Nat` i `1` też ma typ
+`Nat`, a zatem `1` jest termem typu, którego ta funkcja wymaga. Dlatego aplikacja funkcji
+`nic_nie_robie` do termu `1` jest poprawna.
 
 **Definicja aplikacji**: Samo *zestawienie* funkcji i termu nazywamy *aplikacją funkcji do termu*,
 albo krócej *aplikacją*.
@@ -112,19 +116,22 @@ W Lean wszystkie termy, w tym również złożone, muszą mieć jakiś typ. Ale 
 typ. Można skonstruować termy, których nie da się typować. Dla Leana takie termy są
 "bezsensowne". Jeżeli w tym momencie obawiasz się, że napiszesz jakieś termy bezsensowne, to
 niepotrzebnie. Prawie na pewno napiszesz wiele termów bezsensownych. Im więcej piszesz, tym więcej
-bzdur napiszesz, jak zauważył chyba Gombrowicz. To jest może zła wiadomość, chociaż nie jestem
+bzdur napiszesz, jak zauważył zdaje się Gombrowicz. To jest może zła wiadomość, chociaż nie jestem
 pewien. Na pewno dobra wiadomość jest taka, że Lean Ci wtedy o tym powie.
 
 Zgaduję, że od razu rzuca Ci się w oczy, że z termem `1 nic_nie_robie` jest coś nie tak. W końcu `1`
 nie jest funkcją, a więc nie da się do niczego aplikować termu `1`. Myślę, że nie potrzebujesz
 wsparcia Leana, żeby zauważyć, że to wyrażenie nie ma za bardzo sensu, prawda? To, że aplikacja
-`nic_nie_robie 1` ma typ `Nat` też jest już dla Ciebie mam nadzieję w miarę oczywiste. Przecież
-`nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę naturalną.
+`nic_nie_robie 1` ma typ `Nat` też jest już dla Ciebie mam nadzieję w miarę oczywiste. W końcu
+`nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę
+naturalną. Podobnie *1 + 2* jest jednocześnie złożonym wyrażeniem, aplikacją dodawania do dwóch
+argumentów i liczbą naturalną, bo *oznacza* liczbę naturalną. Wszędzie, gdzie może się pojawić
+dowolna liczba naturalna, *1 + 2* również może się pojawić.
 
-Czy to nie był sparecek po łączce? Nie? To może jeszcze jeden. Funkcja, którą zdefiniowaliśmy, to
-identyczność albo inaczej funkcja identycznościowa. Ta funkcja wydaje się wręcz zbędna, ale tak jak
-liczba zero, czasami nie można się bez niej obejść. Na przykład wtedy, gdy taka funkcja okazuje się
-jedynym *rozwiązaniem problemu*. 
+Czy to nie był sparecek po łączce, a nie po linie? Nie? To może jeszcze jeden. Funkcja, którą
+zdefiniowaliśmy, to *identyczność* albo inaczej funkcja identycznościowa. Ta funkcja wydaje się
+wręcz zbędna, ale tak jak liczba zero, czasami nie można się bez niej obejść. Na przykład wtedy, gdy
+taka funkcja okazuje się jedynym *rozwiązaniem problemu*.
 
 Wiele problemów w matematyce można wyrazić jako zbiór relacji między jakimiś funkcjami, z których co
 najmniej jedna funkcja jest nieznana i trzeba ją znaleźć. Dokładnie tak, jak problem dotyczący liczb
@@ -133,8 +140,10 @@ reprezentowanymi przez zmienne i chcemy znaleźć wszystkie wartości tych zmien
 równania. Okazuje się wtedy czasem, że przynajmniej jedna niewiadoma może przyjąć wartość zero i
 wtedy zero bardzo się przydaje.
 
+## Potęga typów zależnych
+
 Nasza funkcja identycznościowa jest ograniczona w tym znaczeniu, że dotyczy tylko liczb naturalnych,
-a przecież pojęcie uniwersalnej funkcji identycznościowej, która zwraca bez zmian termy dowolnego
+a przecież pojęcie *uniwersalnej* funkcji identycznościowej, która zwraca bez zmian termy dowolnego
 stypu, wydaje się całkiem sensowne. Żeby uzyskać taką ogólniejszą wersję identyczności, napiszemy
 tak:
 
@@ -146,8 +155,8 @@ Ta funkcja ma dwa parametry, a nie jeden, bo chociaż jest uniwersalną identycz
 wiedzieć, o co chodzi". Dlatego wymaga podania typu parametru, który ma zwrócić bez zmian. Żeby
 zastosować tą funkcję do liczby naturalnej `1`, musimy ją najpierw poinformować, że zaraz dostanie
 liczbę naturalną. Musimy więc podać typ `Nat` jako pierwszy argument aplikacji. Gdy po skopiowaniu
-również poniższego kodu umieścisz kursor nad słowem `#eval` to zobaczysz, że gdy ta funkcja jest
-odpowiednio poinformowana co dostanie jako drugi argument, to go zwraca:
+również poniższego kodu umieścisz kursor nad słowem `#eval`, to zobaczysz, że gdy ta funkcja jest
+odpowiednio poinformowana co dostanie jako drugi argument, to zwraca ten drugi argument:
 
 ```lean
 #eval identycznosc Nat 1
@@ -163,10 +172,10 @@ tego rodzaju typów.
 to term, do którego ta funkcja jest aplikowana:
 
 ```lean
--- n jest tutaj *parametrem*. Nie kopiuj tego kodu, jeżeli wprowadziła/eś już definicję tej funkcji
+-- n jest tutaj *parametrem*. Nie kopiuj tego kodu, jeżeli wprowadziłaś już definicję tej funkcji
 def nic_nie_robie (n : Nat) : Nat := 
-    -- To jest całe (małe) ciało tej funkcji, tylko zapisane w następnej linijce
-    -- Widać tu *zmienną* n, będącą parametrem tej funkcji
+    -- To jest całe (małe) ciało tej funkcji, tylko zapisane w następnej linijce. Mamy tu tylko 
+    -- *zmienną* n, będącą parametrem tej funkcji
     n
 
 -- Tutaj 1 jest *argumentem* (aplikacji funkcji nic_nie_robie), ale to tylko aplikacja,
@@ -181,15 +190,18 @@ def nic_nie_robie (n : Nat) : Nat :=
 ## Obliczenia w dwóch wymiarach
 
 Zarówno funkcja `identycznosc` jak i jej głupsza siostra `nic_nie_robie` pozwalają zaobserwować, że
-w Leanie zachodzą dwa rodzaje "obliczeń". Funkcja `nic_nie_robie` ma typ `Nat → Nat`. Gdy aplikujemy
-ją do termu `1`, żadne obliczenie "wewnątrz" czy za pomocą tej funkcji jeszcze nie zachodzi, bo
-stakie obliczenie wymaga ewaluacji. Zachodzi jednak *zmiana typu* z `Nat → Nat` na `Nat`, a to też
-jest pewnego rodzaju obliczenie (tekst zaczynający się od `--` jest komentarzem i jako taki jest
-zawsze ignorowany przez Leana):
+w Leanie zachodzą dwa rodzaje "obliczeń". 
+
+Funkcja `nic_nie_robie` ma typ `Nat → Nat`. Gdy aplikujemy ją do termu `1`, żadne obliczenie
+"wewnątrz" czy za pomocą tej funkcji jeszcze nie zachodzi, bo stakie obliczenie wymaga
+ewaluacji. Zachodzi jednak *zmiana typu* z `Nat → Nat` na `Nat`, a to też jest pewnego rodzaju
+obliczenie:
 
 ```lean
 #check @nic_nie_robie -- nic_nie_robie : Nat → Nat
 
+-- Przed chwilą było Nat → Nat, a na skutek aplikacji pojawia się już tylko samo Nat.
+-- To też można traktować jako pewnego rodzaju obliczenie.
 #check nic_nie_robie 1 -- nic_nie_robie 1 : Nat
 ```
 
@@ -200,7 +212,7 @@ jest jakimś sposobem zapisania liczby naturalnej. Wszędzie, gdzie możemy pods
 liczbę naturalną, możemy podstawić też całe wyrażenie *1 + 2*. Widzimy więc konieczność zajścia w
 ramach aplikacji pewnego rodzaju obliczenia "na poziomie typu" albo "w wymiarze typów".
 
-W przypadku aplikacji funkcji `id` tego rodzaju obliczenie jest bardziej złożone, ale nadal
+W przypadku aplikacji funkcji `identycznosc` tego rodzaju obliczenie jest bardziej złożone, ale nadal
 zrozumiałe:
 
 ```lean
@@ -210,22 +222,23 @@ zrozumiałe:
 ```
 
 To obliczenie jest bardziej złożone, bo poza "oderwaniem się" typów odpowiadających dwóm podanym
-argumentom następuje również *podstawianie na poziomie typu*. Możemy ten proces rozpisać na
-kroki. Skoro argument `Nat` stał się wartością parametru `typ`, to następny argument i rezultat
-aplikacji też muszą mieć ten typ:
+argumentom następuje również *podstawianie na poziomie typu*. Warto chociaż raz rozpisać ten proces
+na kroki. 
+
+Skoro argument `Nat` stał się *wartością parametru* `typ`, to następny argument i rezultat aplikacji
+też muszą mieć ten typ:
 
 ```lean
 identycznosc Nat : Nat → Nat
 ```
 
 Widzimy w tym fragmencie kodu rezultat aplikacji do pierwszego argumentu. W Leanie możemy to zapisać
-i ten term będzie poprawny (typowalny), ponieważ Lean pozwala na takie *częściowe aplikacje*. Typ
-funkcji `identycznosc` jest więc czymś w rodzaju funkcji z jednym parametrem `typ`. To *nie* jest
-funkcja, bo typu nie możemy do niczego aplikować, ale na etapie aplikacji ten typ działa, jakby był
-funkcją i jakby ta funkcja była aplikowana do argumentu `Nat`. Nie przejmuj się, jeżeli mimo moich
-zapewnień, że to naturalny proces, wydaje Ci się to zbyt trudne; szybko się do tego przyzwyczaisz.
-
-# Funkcje, programy i implikacja
+i ten term będzie poprawny (typowalny), ponieważ Lean pozwala na takie *częściowe aplikacje*. *Typ*
+funkcji `identycznosc` jest więc *czymś w rodzaju funkcji* (jeszcze raz: sam typ jest tutaj czymś w
+rodzaju funkcji) z jednym parametrem `typ`. To *nie* jest funkcja, bo typu nie możemy do niczego
+aplikować, ale na etapie aplikacji ten typ działa tak, jakby był funkcją i jakby ta funkcja była
+aplikowana do argumentu `Nat`. Nie przejmuj się, jeżeli mimo moich zapewnień, że to naturalny
+proces, wydaje Ci się to zbyt trudne; szybko się do tego przyzwyczaisz.
 
 Na początku będę mówił o funkcjach rozumianych jako efektywne procedury obliczeniowe, albo po prostu
 programy, procedury, czy algorytmy. Niedługo zacznę też mówić o implikacji. Mam powody, żeby od tego
@@ -234,19 +247,21 @@ sprawach, bez znajomości których moje wyjaśnienia byłyby pewnie niezrozumia�
 może nawet onieśmielające (cel jest dość ambitny).
 
 Może powiem tak: Istnieje sposób, żeby jednocześnie uczyć się podstaw matematyki, programowania,
-formalizowania treści wyrażonych w języku naturalnym i konstruowania dowodów matematycznych, a
-wszystko to w interakcji z programem, który w tym pomaga, takim jak Lean. Postaram się, żeby ta
-nauka była dla Ciebie możliwie łatwa, przyjemna i porzyteczna, a jeśli w którymś miejscu mi się to
-nie uda, proszę, żebyś mi o tym powiedział/a, żebym miał szansę zrobić to lepiej. 
+formalizowania treści wyrażonych w języku naturalnym, konstruowania dowodów matematycznych i podstaw
+metodologii badań, a wszystko to w interakcji z programem, który w tym pomaga, takim jak
+Lean. Postaram się, żeby ta nauka była dla Ciebie możliwie łatwa, przyjemna i porzyteczna, a jeśli w
+którymś miejscu mi się to nie uda, proszę, żebyś mi o tym powiedziała, żebym miał szansę zrobić to
+lepiej (borys.paulewicz@gmail.com).
 
-Żeby skorzystać z tego "sposobu na matematykę" (i metodologię badań i w ogóle całą psychologię),
-trzeba się *cierpliwie przyzwyczajać* do *nowego sposobu myślenia*, polegającego między innymi na
-patrzeniu na funkcje, programy i implikacje jako na jedno i to samo.
+Żeby skorzystać z tego "sposobu na matematykę" (i metodologię badań, a może nawet na całą
+psychologię, albo chociaż pewną jej znaczącą część), trzeba się *cierpliwie przyzwyczajać* do
+*nowego sposobu myślenia*, polegającego między innymi na patrzeniu na funkcje, programy, a niebawem
+też na implikacje jako na jedno i to samo.
 
 ## Funkcje w Lean
 
-**Polecenie**: Ppopatrz na ten fragment kodu, spróbuj go odczytać i przepisz go z pamięci. Jeżeli na
-tym etapie to za trudne, to go skopiuj:
+**Polecenie**: Popatrz na ten fragment kodu, spróbuj go odczytać i przepisz go z pamięci. Jeżeli na
+tym etapie to za trudne, to może go po prostu skopiuj, albo spróbuj jeszcze raz po przerwie:
 
 ```lean
 def suma (n : Nat) (m : Nat) : Nat := n + m
@@ -260,32 +275,31 @@ A więc wszystko między symbolem `suma` a symbolem definiowania `:=` to określ
 treści (lepiej: *ciała*) definicji stałej `suma`.
 
 **Czytamy dalej**: Ten term konstruuję albo definiuję jako (`:=`) zastosowanie funkcji dodawania -
-bo to też jest pewna funkcja - do pierwszego i drugiego parametru, które to parametry nazwałem/am
-`n` i `m`, bo tak mi się podobało, a poza tym zauważyła/em, że inni matematycy często stosują tą
-konwencję, gdy mówią o liczbach naturalnych.
+bo to też jest pewna funkcja - do pierwszego i drugiego parametru, które to parametry nazwałam `n` i
+`m`, bo tak mi się podobało, a poza tym zauważyłam, że inni matematycy często stosują tą konwencję,
+gdy mówią o liczbach naturalnych.
 
-*Nazwy parametrów funkcji nie mają znaczenia* w tym sensie, że na przykład taka oto alternatywna
-definicja (z apostrofem w nazwie):
+**Nazwy parametrów funkcji nie mają znaczenia** w tym znaczeniu, że na przykład taka oto
+alternatywna definicja (z apostrofem w nazwie):
 
 ```lean
 def suma' (a : Nat) (b : Nat) : Nat := a + b
 ```
 
-jest w łatwym do uchwycenia sensie *tą samą* tylko *inaczej zapisaną funkcją*. Jest też inaczej
+jest w łatwym do uchwycenia sensie *tą samą*, tylko *inaczej zapisaną funkcją*. Jest też inaczej
 nazwana, bo w Lean nie możemy dowolnie re-definiować symboli.
 
-**Ostateczność definicji w Lean**: Gdy raz zdefiniujemy jakiś symbol, tutaj symbole
-`suma` i `suma'`, nie możemy już więcej (w tym samym kontekście, ale o tym później) zmienić jego
-definicji, chyba, że najpierw usuniemy poprzednią definicję. Dlatego takie symbole nazywamy
-*stałymi*.
+**Ostateczność definicji w Lean**: Gdy raz zdefiniujemy jakiś symbol, tutaj symbole `suma` i
+`suma'`, nie możemy już więcej (w tym samym kontekście, ale o tym później) zmienić jego definicji,
+chyba, że najpierw usuniemy poprzednią definicję. Dlatego takie symbole nazywamy *stałymi*.
 
 **Zmienne są zmienne**: Nazwy parametrów funkcji nie są stałymi, tylko *zmiennymi*, bo możemy
 przypisywać im, czy raczej podstawiać pod nie, dowolne argumenty wymaganego przez definicję funkcji
-typu. Na przykład, możemy zastosować funkcję `suma` do termów `2` i `2` i wtedy te termy "wskoczą"
+typu. Na przykład, możemy zastosować funkcję `suma` do termów `3` i `5` i wtedy te termy "wskoczą"
 na miejsce pierwszego i drugiego parametru. Możemy potem zastosować tą funkcję jeszcze raz, ale do
-innych liczb i wtedy (i w tym miejscu) te liczby wskoczą w miejsce tych samych parametrów. Parametry
-funkcji są więc zmiennymi, bo te same parametry tej samej funkcji mogą przyjmować różne wartości w
-różnych fragmentach kodu.
+innych liczb i wtedy (i w tym miejscu) te inne liczby wskoczą w miejsce tych samych
+parametrów. Parametry funkcji są więc zmiennymi, bo te same parametry tej samej funkcji mogą
+przyjmować różne wartości w różnych fragmentach kodu.
 
 **Polecenie**: Sprawdź typ aplikacji funkcji `suma` do dwóch liczb naturalnych, wszystko jedno
 jakich, a następnie ewaluuj tą aplikację. Upewnij się, czy rozumiesz komunikaty pojawiające się w
@@ -301,10 +315,10 @@ def dodaj2 (a : Nat) : Nat := a + 2
 objaśniłem, jak się czyta takie definicje. Może nawet zrób to na głos? Dzięki temu upewnisz się, czy
 właściwy sposób czytania jest dla Ciebie jasny.
 
-Myślę, że teraz już od razu widzisz, jak ta funkcja działa, nawet jeśli przed chwilą nie
-wiedziałe/aś nawet, że język Lean istnieje. Myślę też, że jest już dla Ciebie oczywiste, że nazwa
-parametru (tutaj `a`) nie ma znaczenia dla "sensu" tej funkcji: ta nazwa służy *tylko* do tego, żeby
-można było wewnątrz ciała funkcji (całe ciało funkcji `dodaj2` to `a + 2`) "mówić" o ewentualnym
+Myślę, że teraz już od razu widzisz, jak ta funkcja działa, nawet jeśli przed chwilą nie wiedziałaś
+nawet, że język Lean istnieje. Myślę też, że jest już dla Ciebie oczywiste, że nazwa parametru
+(tutaj `a`) nie ma znaczenia dla "sensu" tej funkcji: ta nazwa służy *tylko* do tego, żeby można
+było wewnątrz ciała funkcji (całe ciało funkcji `dodaj2` to `a + 2`) "mówić" o ewentualnym
 argumencie.
 
 **Polecenie**: Spróbuj przepisać definicję stałej `dodaj2` z pamięci, żeby struktura takich
@@ -315,13 +329,13 @@ w przyswajaniu dalszych treści. Gdy już Ci się uda, sprawdź typ stałej `dod
 symbolem `@`, a raz nie. Sprawdź też typ aplikacji tej stałej do wybranej liczby naturalnej. Na
 koniec ewaluuj tą aplikację. Za każdym razem popatrz na rezultat w panelu po prawej.
 
-**Ewaluacja aplikacji krok po kroku**: Gdy umieścisz kursor nad komendą `#eval` w instrukcji `#eval
-sdodaj2 2` wtedy Lean:
+**Ewaluacja aplikacji krok po kroku**: Mówiąc w pewnym uproszczeniu, gdy umieścisz kursor nad
+komendą `#eval` w instrukcji `#eval dodaj2 2` wtedy Lean:
 
 1. Ewaluuje, czyli redukuje do najprostszej postaci argument tej aplikacji. Tutaj jest tylko jeden
 argument - `2` - i ten argument też *może* być zredukowany, ale o tym za chwilę.
 
-2. Podstawia rezultat tej redukcji pod zmienną `a` w ciele funkcji, bo ta jest (tutaj jedynym)
+2. Podstawia rezultat tej redukcji pod zmienną `a` w ciele funkcji, bo `a` jest (tutaj jedynym)
 parametrem funkcji `dodaj2`. W ten sposób powstaje `2 + 2` (posługując się dalej znaną Ci notacją
 cyfrową).
 
@@ -333,23 +347,23 @@ Wydaje mi się, że mniej więcej czegoś takiego się spodziewałe/aś, może p
 zdefiniowane liczby naturalne (a także dodawanie liczb naturalnych, o którym jeszcze nie mówiłem, a
 które ma w Leanie piękną definicję rekurencyjną). Jeżeli chcesz się dowiedzieć czegoś więcej o
 definicji liczb naturalnych, jaką stosuje Lean, poszukaj samodzielnie informacji na temat aksjomatów
-Peano. Ja wyjaśnię tylko tyle:
+Peano. Ja wyjaśnię teraz tylko tyle:
 
-Liczba naturalna *0* w Lean jest tak naprawdę zakodowana jako stała `Nat.zero`. Nie panikuj, *to
-jest tylko pewien napis i nic więcej*. Zwykle zapisujemy ją jako `0`, ale ten zapis istnieje tylko
-dla naszej wygody. Liczba naturalna *1* jest zapisana jako *sama aplikacja funkcji następnika do
-stałej `zero`*, to jest jako `Nat.succ Nat.zero`. Czytamy to: Następna (stąd "następnik") liczba
-naturalna po liczbie zero. Ta aplikacja jest już *nieredukowalna* - gdy pojawia się w trakcie
-ewaluacji jako rezultat, to ewaluacja na niej się zakończy. Innymy słowy, ta aplikacja istnieje
-tylko po to, żeby można było ją *zapisać* i na przykład podać jako argument, albo zwrócić jako
-rezultat.
+Liczba naturalna *0* w Lean jest tak naprawdę zakodowana jako stała `Nat.zero`. Podkreślam, że *to
+jest tylko pewien napis i nic więcej*. Zwykle zapisujemy ją w Leanie jako `0`, ale ten zapis
+istnieje tylko dla naszej wygody. Liczba naturalna *1* jest zapisana jako *sama aplikacja funkcji
+następnika do stałej `zero`*, to jest jako `Nat.succ Nat.zero`. Czytamy to: Następna (stąd
+"następnik") liczba naturalna po liczbie zero. Ta aplikacja jest już *nieredukowalna* - gdy pojawia
+się w trakcie ewaluacji jako rezultat, to ewaluacja na niej się zakończy. Innymy słowy, ta aplikacja
+istnieje tylko po to, żeby można było ją *zapisać* i na przykład podać jako argument, albo zwrócić
+jako rezultat, bo *sama aplikacja `Nat.succ Nat.zero` jest dla Leana liczbą 1*.
 
-Zastanawiasz się może, o co w tym chodzi? Tak czy inaczej, spróbuję wyjaśnić: Gdyby przedstawiciele
-jakiejś innej cywilizacji wymyślili "obiekty abstrakcyjne", których używaliby dokładnie tak, jak my
-używamy liczb naturalnych, ale zapisywaliby i nazywali je inaczej, powiedzielibyśmy, że to są te
-same "obiekty abstrakcyjne", albo, że mają "ten sam sens", tylko są inaczej nazywane, prawda?
-Jesteśmy co prawda bardzo przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sam sposób zapisu
-nie decyduje o znaczeniu, o tym decyduje sposób użycia tego zapisu. 
+Zastanawiasz się może, o co w tym chodzi? Spróbuję to wyjaśnić: Gdyby przedstawiciele jakiejś innej
+cywilizacji wymyślili "obiekty abstrakcyjne", których używaliby dokładnie tak, jak my używamy liczb
+naturalnych, ale zapisywaliby i nazywali je inaczej, powiedzielibyśmy, że to są te same "obiekty
+abstrakcyjne", albo, że mają "ten sam sens", tylko są inaczej nazywane, prawda?  Jesteśmy co prawda
+bardzo przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sam sposób zapisu nie decyduje o
+znaczeniu, o tym decyduje sposób *użycia* tego, co w ten sposób zapisujemy.
 
 Stała `zero` i aplikacje takie jak `Nat.succ Nat.zero` całkiem dosłownie *są* liczbami
 naturalnymi. Możemy tak powiedzieć, ponieważ wszystkie operacje, jakie możemy wykonywać na liczbach
@@ -357,19 +371,20 @@ naturalnych, możemy wykonywać na tych wyrażeniach, uzyskując przy tym wyniki
 interpretacją: *0* to `zero`, *1* to `Nat.succ Nat.zero`, i tak dalej. Zapis nie ma tu znaczenia,
 poza tym, że może być mniej lub bardziej wygodny dla osoby, która się nim posługuje.
 
-Mówiąc dokładniej, sam *fragment kodu* albo *zapis* `Nat.succ Nat.zero` *jest* liczbą *1*. Nie wiem,
-czy to Cię zaskakuje, ale sądzę, że może zaskakiwać. Kiedy się o tym uczyłem, to spodziewałem się na
-początku, że coś, co wygląda jak aplikacja będzie "kryło pod sobą" jakąś funkcję i jakaś liczbę jako
-argument, których będzie można użyć, żeby coś obliczyć. Wydaje się przecież, że skoro `Nat.succ
-Nat.zero` coś *znaczy*, to powinno być jakby "coś pod spodem" `Nat.succ Nat.zero` i tym czymś
-powinna być albo para złożona z funkcji i liczby, albo jakaś liczba *1* jako taka. 
+Mówiąc dokładniej, jak już wspominałem, sam *fragment kodu* albo *zapis* `Nat.succ Nat.zero` *jest*
+liczbą *1*. Nie wiem, czy to Cię zaskakuje, ale sądzę, że może zaskakiwać. Kiedy się o tym uczyłem,
+to spodziewałem się na początku, że coś, co wygląda jak aplikacja będzie "kryło pod sobą" jakąś
+"prawdziwą" funkcję i jakąś "prawdziwą" liczbę jako argument, i że tych "prawdziwych rzeczy" będzie
+można użyć, żeby coś obliczyć. Wydaje się przecież, że skoro `Nat.succ Nat.zero` coś *znaczy*, to
+powinno być jakby "coś pod spodem" `Nat.succ Nat.zero` i tym czymś powinna być albo para złożona z
+funkcji i liczby, albo jakaś liczba *1* "jako taka".
 
 To, że nic tam nie ma, to jednak w pewnym sensie dobra wiadomość, bo oznacza, że *nie ma tu żadnych
 tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. Można
 powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy tylko pominiemy jej
-*interpretację*, którą zresztą możemy zmieniać na dowolną inną, jeśli tylko będzie spójna.
+*interpretację*, którą zresztą możemy zmieniać na dowolną inną, to jest jeśli tylko będzie spójna.
 
-**Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleił/a do Lean'a kod `#eval n`, to zobaczył/abyś
+**Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Lean'a kod `#eval n`, to zobaczyłabyś
 błąd, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są *widoczne
 tylko z wnętrza ciała* funkcji `suma` (które to ciało składa się tylko z wyrażenia `n + m`).
 
@@ -380,9 +395,9 @@ nazw.
 
 **Funkcja jako pudełko z mechanizmem**: Możemy myśleć o funkcji takiej jak `suma` jako o pudełku,
 które ma dwa wejścia, jedno oznaczone literą *n*, a drugie literą *m*, i które ma jedno wyjście, a w
-środku zawiera "mechanizm dodający" obiekty pojawiające się na wejściach. Jeżeli wyobrazimy sobie,
-że ten wewnętrzny mechanizm jest "przyklejony" do wejść, to stanie się jasne, że nazwy wejść nie
-mają znaczenia i istnieją tylko dla wygody użytkownika.
+środku ma "mechanizm dodający" obiekty pojawiające się na wejściach. Jeżeli wyobrazimy sobie, że ten
+wewnętrzny mechanizm jest "przyklejony" do wejść, to stanie się jasne, że nazwy wejść nie mają
+znaczenia i istnieją tylko dla wygody użytkownika.
 
 Za to *typy* wejść i *typ* wyjścia (funkcja ma zawsze tylko jedno wyjście) *mają* znaczenie. Nie
 możemy podawać na wejściu funkcji dodającej liczby czegokolwiek - to muszą być wyrażenia typu liczba
@@ -396,12 +411,10 @@ rezultatu aplikacji funkcji polega tak naprawdę na ewaluacji argumentów, nast�
 ich zredukowanych postaci pod odpowiednie zmienne w ciele funkcji i na ewaluacji (czyli redukcji)
 ciała funkcji. "Mechanizm obliczający" jest więc "na zewnątrz" definicji funkcji. To taki
 "uniwersalny ewaluator", albo "uniwersalny reduktor", który na etapie ewaluacji używa definicji
-stałych, które napotyka i w odpowiedniej kolejności je rozpakowuje.
+stałych, które napotyka, rozpakowuje je i redukuje napotkane aplikacje.
 
 A oto bardziej skomplikowany przykład ewaluacji aplikacji. Myślę, że domyślasz się już, dlaczego ten
-(wiem, że dziwny) fragment kodu jest poprawny i jak "działa". Przypominam, że `Nat.succ` to funkcja
-następnika, której aplikacja do dowolnej liczby naturalnej *sama jest* następną liczbą naturalną (a
-*nie* zwraca następną liczbę naturalną).
+(wiem, że dziwny) fragment kodu jest poprawny i jak "działa".
 
 ```lean
 #eval suma (Nat.succ (Nat.succ 3)) (6 - (2 + Nat.zero))
@@ -413,20 +426,18 @@ kopiuj tego kodu, to tylko objaśnienie):
 ```lean
 #eval suma (Nat.succ (Nat.succ 3)) (6 - (2 + Nat.zero))
 
-    -- Pierwszy krok ewaluacji (redukcji)
-    suma (Nat.succ 4) (6 - 2)
+suma (Nat.succ 4) (6 - 2)
 
-    -- Drugi krok ewaluacji (redukcji)
-    suma 5 4
+suma 5 4
 
-    -- Ponieważ argumenty są postaci normalnej, w tym momencie następuje rozpakowanie 
-    -- definicji stałej suma, 
-    n + m
+-- Ponieważ argumenty są postaci normalnej, w tym momencie następuje rozpakowanie 
+-- definicji stałej suma:
+n + m
 
-    -- A ponieważ 5 ma być podstawione za zmienną n (pierwszy parametr) a 4 za zmienną
-    -- m (drugi parametr) to uzyskujemy taką wersję ciała
-    5 + 4
-    -- W tym momencie w taki sam sposób ewaluowana jest aplikacja funkcji + do liczb 5 i 4
+-- A ponieważ 5 ma być podstawione za zmienną n (pierwszy parametr) a 4 za zmienną
+-- m (drugi parametr) to uzyskujemy taką wersję ciała:
+5 + 4
+-- W ten sam ogólny sposób przebiega ewaluacja aplikacji funkcji + do liczb 5 i 4.
 ```
 
 Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji najbardziej wewnętrznych albo
@@ -447,16 +458,16 @@ bo tak się zwykle zapisuje dodawanie i odejmowanie. Można łatwo "nauczyć" Le
 taki zapis dla samodzielnie zdefiniowanych funkcji, takich jak na przykład `suma`, ale nie będziemy
 tego teraz robić.
 
-**Uwaga na nawiasy w aplikacjach funkcji do aplikacji**: Jesteś w stanie domyślić się, na czym
-polega błąd w kodzie poniżej?
+**Aplikacje wieloargumentowe**: Jesteś w stanie domyślić się, na czym polega (wynikający z
+niejednoznaczności zapisu) błąd w kodzie poniżej?
 
 ```lean
 #eval suma Nat.succ 2 3
 ```
 
 Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest tutaj jednak *funkcją*
-(`Nat.succ`), a nie liczbą naturalną. Żeby ten kod był poprawny, trzeba otoczyć fragment `Nat.succ
-2` nawiasami:
+(`Nat.succ`), a nie liczbą naturalną. Żeby ten kod był poprawny, trzeba tylko otoczyć fragment
+`Nat.succ 2` nawiasami:
 
 ```lean
 #eval suma (Nat.succ 2) 3
@@ -464,19 +475,18 @@ Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest t
 
 ## Curry(ing)
 
-TODO Jest ok, ale wolę napisać to inaczej, bardziej od podstaw, używając najprostszych przykładów i
-rozpisując wszystko na kroki.
-
 **W Lean nie ma funkcji "prawdziwie" dwuargumentowych**: Funkcja `suma` *wygląda* jak funkcja
 dwuargumentowa, ale tak naprawdę *nie* jest dwuargumentowa. Jest funkcją jednoargumentową, *która
 zwraca funkcję jednoargumentową*, która dopiero dodaje parametr tej pierwszej funkcji do swojego
-jedynego parametru. Może przeczytaj to jeszcze raz. 
+jedynego parametru. Nie wiem, jak to brzmi, ale jeśli to brzmi, tak jak mi się zdaje, to może
+przeczytaj to rzekome "wyjaśnienie" jeszcze raz.
 
 Taki sposób definiowania funkcji więcej niż jednoargumentowych nazywa się *Curryingiem*, od nazwiska
-pewnego wybitnego matematyka, który pojawi się tu jeszcze w znacznie poważniejszej roli.
+pewnego wybitnego [matematyka](https://en.wikipedia.org/wiki/Haskell_Curry), który pojawi się tu
+jeszcze w znacznie poważniejszej roli.
 
 **Polecenie**: Napisz kod pozwalający zobaczyć typ aplikacji funkcji `suma` do *tylko jednego*
-argumentu `10`. Jak Ci się uda, zobaczysz w prawym oknie komunikat:
+argumentu `10`. Jak Ci się to uda, to w prawym panelu zobaczysz komunikat:
 
 ```lean
 suma 10 : Nat → Nat
@@ -487,12 +497,19 @@ aplikacji, tylko, że wtedy używaliśmy dwuargumentowej funkcji `identycznosc`,
 jednego termu - do typu `Nat`.
 
 **Czytamy to**: Aplikacja funkcji `suma` do termu `10` ma typ `Nat → Nat`. Typ `Nat → Nat` mówi nam,
-że cała ta częściowa aplikacja (`suma 10`) jest funkcją przekształcającą liczby naturalne w liczby
-naturalne. Jaka to jest funkcja? Znamy definicję stałej `suma`, więc domyślamy się, że `suma 10` to
-wyrażenie, które jakby "czeka na brakujący argument". Jest to więc jednoargumentowa funkcja, która
-do dowolnej liczby naturalnej dodaje `10` (dodaje `10` "od przodu", bo "robi" `10 + m`).
+że cała ta częściowa aplikacja (`suma 10`) jest pełnowartociową funkcją, przekształcającą liczby
+naturalne w liczby naturalne. Jaka to jest funkcja? Znamy definicję stałej `suma`, więc domyślamy
+się, że `suma 10` to wyrażenie, które jakby "czeka na brakujący argument". Jest to zatem funkcja
+jednoargumentowa, która do dowolnej liczby naturalnej dodaje `10` (dodaje `10` "od przodu", bo
+"robi" `10 + m`).
 
 **Polecenie**: Sprawdź typ stałej `suma`, ale poprzedzonej znakiem `@`, żeby się przekonać, że
 `suma` ma typ, w którym występują *dwie strzałki*, bo to tak naprawdę funkcja, która przekształca
 dowolną liczbę naturalną w funkcję, która to funkcja z kolei przekształca dowolną liczbę naturalną w
 liczbę naturalną.
+
+**Do rozważenia**: Po przeczytaniu tego rozdziału i ewentualnym podjęciu prób wykonania niektórych
+lub wszystkich poleceń warto może wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
+sprawach, ale w inny sposób. Wydaje mi się, że dość szybko treści obydwu tych pierwszych rozdziałów
+staną się dla Ciebie w miarę jasne. Wtedy możesz śmiało przejść do rozdziału następnego, w którym
+zaczniemy się uczyć o *logice* i *dowodzeniu twierdzeń*.
