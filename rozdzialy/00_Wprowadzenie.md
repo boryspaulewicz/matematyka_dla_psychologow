@@ -180,20 +180,21 @@ gdyby nie ta wspania³a ksi±¿ka i kontakt z tym cz³owiekiem. No wiêc z ambicjami 
 przesadzaæ; moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
 A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który wymy¶li³em
-podczas pisania doktoratu. Poniewa¿ jedn± z wiêkszych przyjemno¶ci zwi±zanych z tym procesem by³a
-dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub bardziej skomplikowanymi narzêdziami
-teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e nie by³o w okolicy ¿adnych
-specjalistów, którzy mogliby mi w tym czasem pomóc. Gdy czu³em, ¿e muszê siê w czym¶ szybko
-podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem zdobywa³em,
-nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego jeszcze wtedy serwisu
-AvaxHome) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze 10 do 20 stron szukaj±c b³êdów, po
-czym pisa³em do nich maila, w którym zwykle wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, a przy
-okazji zwraca³em te¿ uwagê na znalezione tam problematyczne miejsca. A te zawsze mo¿na by³o
-znale¼æ. Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
-wyczerpuj±co mi odpowiadali. W ten sposób rozpocz±³em bardzo przyjemn± korespondencjê miêdzy innymi
-z samym [Saulem Sternbergiem](https://en.wikipedia.org/wiki/Saul_Sternberg), wybitnym psychologiem
-matematycznym [Jamesem Townsendem](https://en.wikipedia.org/wiki/James_Townsend_(psychologist)), i
-innymi, których wymieniam w podziêkowaniach na pocz±tku doktoratu.
+podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych przyjemno¶ci
+zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub bardziej
+skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
+nie by³o w okolicy ¿adnych specjalistów, którzy mogliby mi w tym czasem pomóc. Gdy czu³em, ¿e muszê
+siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem,
+potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego jeszcze
+wtedy serwisu AvaxHome) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze 10 do 20 stron
+szukaj±c b³êdów, po czym pisa³em do nich maile. W tych mailach zwykle wyra¿a³em szczery podziw i
+g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji zwraca³em ostro¿nie uwagê na znalezione
+tam problematyczne miejsca. A te zawsze mo¿na by³o znale¼æ. Zwykle im *bardziej* wybitni i uznani
+byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i wyczerpuj±co mi odpowiadali. W ten sposób
+rozpocz±³em bardzo przyjemn± korespondencjê miêdzy innymi z samym [Saulem
+Sternbergiem](https://en.wikipedia.org/wiki/Saul_Sternberg), wybitnym psychologiem matematycznym
+[Jamesem Townsendem](https://en.wikipedia.org/wiki/James_Townsend_(psychologist)), i innymi, których
+wymieniam w podziêkowaniach na pocz±tku doktoratu.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
 pisa³em, przytrafi³o mi siê w szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego
@@ -237,11 +238,11 @@ Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pra
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
 i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
 sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
-kiedy pracowa³em na SWPSie w Katowicach. A [doktoratu](./praca_doktorska.pdf), napisanego najpierw
-pod kierunkiem bardzo dla mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej prof. Edwarda
-Nêcki, byæ mo¿e wcale bym nie skoñczy³, gdybym nie liczne rozmowy z dodaj±cym mi stale odwagi
-Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam znacznie
-wiêcej ni¿ to, gdzie dzi¶ pracujê.
+kiedy pracowa³em na SWPSie w Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla
+mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej prof. Edwarda Nêcki, byæ mo¿e wcale bym nie
+skoñczy³, gdybym nie liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim
+najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶
+pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z Lispem, która zmieni³a na zawsze mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do
