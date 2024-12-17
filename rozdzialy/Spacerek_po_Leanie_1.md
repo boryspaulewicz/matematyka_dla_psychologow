@@ -332,8 +332,9 @@ oczywisty - odczepiamy ciało *1 + y* i podstawiamy za zmienną-parametr *y* arg
 Rozumiesz już, że możemy w ten sposób definiować funkcje, które zachowują się jak funkcje
 dwuargumentowe, posługując się tylko funkcjami jednoargumentowymi? Ten sposób to tak zwany
 *Currying*, od nazwiska wybitnego matematyka [Haskella
-Curry'ego](https://en.wikipedia.org/wiki/Haskell_Curry), który go wymyślił, którego imię jest - na
-jego cześć - nazwą pewnego języka programowania i którego jeszcze niebawem spotkamy.
+Curry'ego](https://en.wikipedia.org/wiki/Haskell_Curry), który go wymyślił, którego imię lub
+nazwisko jest - na jego cześć - nazwą *trzech* języków programowania i którego jeszcze niebawem
+spotkamy.
 
 Pozostaje mi objaśnić *zapis typu* tej dwuargumentowej funkcji, która jak już wiesz jest tak
 snaprawdę funkcją jednoargumentową - nazwałem ją tylko dla wygody funkcją "zewnętrzną" - pobierającą
