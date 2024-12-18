@@ -23,10 +23,10 @@ samego już Borsbooma, ten wpadł dziesięć lat przede mną, ale tego pomysłu 
 dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Julia napisała na ten
 temat na poczytnym blogu [The 100%
 CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
-zaszczyt figurować w dwóch przypisach, wymieniony obok samego Borsbooma jako niezależny odkrywca
-tej istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, chociaż
-oczywiście po to też, ale przede wszystkim żeby przekonać Cię, że mogę mieć w tych sprawach coś do
-powiedzenia.
+zaszczyt figurować w dwóch przypisach, wymieniony obok samego Borsbooma jako niezależny odkrywca tej
+istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, chociaż
+oczywiście po to też, ale przede wszystkim żeby przekonać Cię, że mogę mieć o tego typu sprawach coś
+do powiedzenia.
 
 Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
 wiedzy, żeby ocenić zawartość takich popularnych podręczników jak [Metodologia badań
