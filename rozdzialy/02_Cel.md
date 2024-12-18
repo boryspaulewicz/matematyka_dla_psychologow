@@ -176,21 +176,21 @@ będę używał jako uniwersalnego narzędzia służącego do meta-teoretycznych
 typów zależnych, a której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
 
-Wiem, że te cele mogą się wydawać szalone i w jakimś sensie pewnie takie są, więc na tym etapie
-mówię tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej skorzystałem. To
-znaczy, skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę (albo czytelnika).
+Wiem, że te cele mogą się wydać szalone i w jakimś sensie pewnie takie są, więc na tym etapie mówię
+tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej skorzystałem. To znaczy,
+skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę (albo czytelnika).
 
-Gdybym próbował napisać to, co staram się teraz napisać, jako artykuł naukowy, musiałbym się zgodzić
-na granie według reguł gry, które obowiązują mnie, moich kolegów i moje koleżanki z pracy, kiedy
-piszemy manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład
-pisać w stylu, który obecnie obowiązuje w tego typu publikacjach. Nie przepadam za tym stylem,
-zresztą nie tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu
-problemów, za to nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. 
+Gdybym próbował napisać to, co staram się teraz napisać, jako artykuł naukowy, musiałbym się znowu
+zgodzić na zasady, które obowiązują mnie, moich kolegów i moje koleżanki z pracy kiedy piszemy
+manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład pisać w
+stylu, który obecnie obowiązuje w tego typu publikacjach. Nie przepadam za tym stylem, zresztą nie
+tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu problemów, za to
+nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi.
 
-Umiem stwarzać tego rodzaju pozory, bo jak na psychologa dosyć sprawnie operuję technicznymi
-terminami wnioskowania statystycznego i przyczynowego, ale nie lubię tego robić. Musiałbym też po
-raz kolejny znosić to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji
-autorytetu i realnej władzy, rzadko podając *powody*, dla których oczekują takich a nie innych
-zmian, a według mnie taka postawa jest po prostu *anty*naukowa.
+Umiem stwarzać te pozory, bo jak na psychologa dosyć sprawnie operuję technicznymi terminami
+wnioskowania statystycznego i przyczynowego, ale nie lubię tego robić. Musiałbym też znowu znosić
+to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i realnej
+władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według mnie taka
+postawa jest po prostu *anty*naukowa.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od początku.
