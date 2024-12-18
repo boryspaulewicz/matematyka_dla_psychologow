@@ -24,8 +24,7 @@ się uzupełniać, warto więc przeczytać obie.
 
 [Pierwszy spacerek po łączce matematyki (poradzenie sobie z tym zajęło moim studentom około 15 minut)](./rozdzialy/Pierwszy_spacerek.md)
 
-[Polacy czytają na potęgę! Spacerek po Leanie, wersja pierwsza! Plus top ten łatwych sposobów na zgubienie kluczy do
-mieszkania (!)](./rozdzialy/Spacerek_po_Leanie_1.md)
+[Polacy czytają na potęgę: Spacerek po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 
 [Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
