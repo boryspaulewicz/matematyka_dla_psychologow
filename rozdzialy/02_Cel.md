@@ -24,11 +24,12 @@ dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Ju
 temat na poczytnym blogu [The 100%
 CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
 zaszczyt figurować w przypisie, wymieniony obok samego Borsbooma, jako niezależny odkrywca tej
-istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, ale przede
-wszystkim żeby przekonać Cię, że mogę mieć na ten temat coś do powiedzenia.
+istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, chociaż
+oczywiście po to też, ale przede wszystkim żeby przekonać Cię, że mogę mieć w tych sprawach coś do
+powiedzenia.
 
 Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
-wiedzy, żeby ocenić zawartość takich podręczników jak [Metodologia badań
+wiedzy, żeby ocenić zawartość takich popularnych podręczników jak [Metodologia badań
 psychologicznych](https://ksiegarnia.pwn.pl/Metodologia-badan-psychologicznych,782124221,p.html?srsltid=AfmBOopxlOtS5MLgoUGzo8_9QB7yo-2aWyZQPM4FEqkuIvYzWXHyBbvQ),
 [Statystyczny
 drogowskaz](https://www.gwp.pl/statystyczny-drogowskaz-1-praktyczne-wprowadzenie-do-wnioskowania-statystycznego.html),
@@ -89,10 +90,18 @@ pojęcia *zadania*. Dzięki tej jednej definicji będziemy mogli całkowicie zak
 typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. 
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
-będziemy się długo przyglądać całej matematyce, patrząc na nią z tej niezwykłej perspektywy, jakiej
-dostarczy nam teoria typów zależnych. Z matematyką zrobimy to na początku mówiąć *tylko* o
-funkcjach, a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym
-możliwym psychologicznym badaniu eksperymentalnym.
+będziemy się długo przyglądać *całej* matematyce, patrząc na nią z tej niezwykłej perspektywy,
+jakiej dostarczy nam teoria typów. Z matematyką zrobimy to na początku mówiąć *tylko* o funkcjach, a
+z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym możliwym
+psychologicznym badaniu eksperymentalnym. Ten minimalny psychologiczny eksperyment będzie naszym
+odpowiednikiem [masy punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w
+próżni, by użyć analogii do fizyki. Osiągniemy to nie proponując żadnego psychologicznego modelu czy
+teorii, tylko zamiast tego zapisując za pomocą symboli coś, bez czego nie można się obejść i czego
+nie da się zakwestionować zawsze gdy mówimy o zjawiskach stanowiących przedmiotem zainteresowania
+psychologii naukowej. Będzie to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek
+zachowania*, dzięki któremu na pytania, które wcześniej wydawały się niejasne albo nawet mętne,
+będziemy mogli sformułować w taki sposób, że poszukiwanie odpowiedzi stanie się częściowo kwestią
+mechanicznych operacji.
 
 Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
@@ -132,26 +141,31 @@ Jak również do takiego:
 *Bycie takim a nie innym zachowaniem jest stopniowalne i może być jedynie przybliżane przez
 rzeczywiste procesy fizyczne*.
 
+i takiego:
+
+*Rodzaj zachowania nie jest, bo nie może być, własnością unikalną*.
+
 W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt. Przy okazji zobaczymy w
 nowym i zaskakującym świetle *sens* pomiaru psychologicznego.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
-wygląda to, co *niewidzialne*, ekstremalnie *złożone*, *idiosynkratyczne*, *zmienne* i w ogromnym
-stopniu zależne od całej, w zasadzie *nieobserwowalnej historii interakcji organizmu z jego
-środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu, albo przebieg naszych
-procesów umysłowych, albo zamiast skupiać się na czysto przyczynowych relacjach między fizycznie
-rozumianymi bodźcami i reakcjami, jak to mają w zwyczaju behawioryści, zajmiemy się czymś jakby
-kompletnie z drugiej strony, to jest *środowiskiem*.
+wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
+*zmienne* i w ogromnym stopniu zależne od całej, niemal całkiem *nieobserwowalnej historii
+interakcji organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu
+i przebieg naszych procesów umysłowych, albo w jaki sposób nasze zachowanie reguluje mózg, i zamiast
+skupiać się na czysto przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak
+to mają w zwyczaju psychologowie o behawioralnej orientacji, zajmiemy się czymś jakby kompletnie z
+drugiej strony, to jest *środowiskiem*.
 
 Będzie to środowisko jako coś, czym jak sądze zawsze było dla psychologa *jako psychologa*, a czym
 nie jest na przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to
-mianowicie środowisko postrzegane jako *układ* albo *konstelacja powiązanych zadań*. Zaletą tak
-rozumianego środowiska jako przedmiotu badań jest jego obserwowalność i względnie łatwa
-modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska uda się ustalić,
-będzie miało automatycznie znaczenie jednocześnie teoretyczne i aplikacyjne. Z tej nowej,
-środowisko- i zadanio-centrycznej perspektywy *funkcje poznawcze*, takie jak percepcja, pamięć, czy
-uwaga, okażą się *własnościami zadań*, a nie własnościami czy częściami umysłu albo rodzajami
-procesów umysłowych.
+mianowicie środowisko postrzegane jako *nieunikalny układ* albo *konstelacja powiązanych
+zadań*. Zaletą tak rozumianego środowiska jako przedmiotu badań jest jego obserwowalność i względnie
+łatwa modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska uda się
+ustalić, będzie jednocześnie i automatycznie ważne pod względem teoretycznym i aplikacyjnym. Z tej
+nowej, środowisko- i zadanio-centrycznej perspektywy *funkcje poznawcze*, takie jak percepcja,
+pamięć, czy uwaga, okażą się *własnościami zadań*, a nie własnościami czy częściami umysłu albo
+rodzajami procesów umysłowych.
 
 Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo też nie mam poczucia,
 żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych rzeczy bardzo się
