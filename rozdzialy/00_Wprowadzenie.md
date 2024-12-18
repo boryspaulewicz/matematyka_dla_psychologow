@@ -192,13 +192,18 @@ siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj
 potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego jeszcze
 wtedy serwisu AvaxHome) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze 10 do 20 stron
 szukaj±c b³êdów, po czym pisa³em do nich maile. W tych mailach zwykle wyra¿a³em szczery podziw i
-g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji zwraca³em ostro¿nie uwagê na znalezione
-tam problematyczne miejsca. A te zawsze mo¿na by³o znale¼æ. Zwykle im *bardziej* wybitni i uznani
-byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i wyczerpuj±co mi odpowiadali. W ten sposób
-rozpocz±³em bardzo przyjemn± korespondencjê miêdzy innymi z samym [Saulem
-Sternbergiem](https://en.wikipedia.org/wiki/Saul_Sternberg), wybitnym psychologiem matematycznym
-[Jamesem Townsendem](https://en.wikipedia.org/wiki/James_Townsend_(psychologist)), i innymi, których
-wymieniam w podziêkowaniach na pocz±tku doktoratu.
+g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em tak ostro¿nie, jak tylko
+umia³em (czyli pewnie niezbyt) o znalezionych wcze¶niej b³êdach. A te zawsze mo¿na by³o znale¼æ.
+
+Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
+wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
+odpowiedzi, jak± otrzyma³em wtedy od [Saula
+Sternberga](https://en.wikipedia.org/wiki/Saul_Sternberg). Napisa³em mu wyra¼nie, ¿e to kwestia
+drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³ym zrobiæ po swojemu analizê wyników klasycznego ju¿
+eksperymentu, który przeprowadzi³ w latach 60tych. Jak siê potem dowiedzia³em, pomiar czasu reakcji
+polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej wokó³ obracaj±cego siê w równym
+tempie bêbna. Pisz±c w odpowiedzi, zreszt± o ile pamiêtam do¶æ szybkiej, Saul zaproponowa³, ¿e
+*zleci digitalizacjê swojej sekretarce*. Zawstydzony napisa³em wtedy, ¿e nie trzeba.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
 pisa³em, przytrafi³o mi siê w szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego

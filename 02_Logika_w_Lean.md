@@ -1,51 +1,135 @@
-# Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami. Co?
+# Twierdzenia to funkcje
 
-Stała `2` jest termem typu `Nat`. `Nat` też jest pewną stałą. W teorii typów, której używamy w Lean,
-każdy typ jest również termem, ale typu ogólniejszego, i tak w nieskończoność:
+**Polecenie**: Żeby było łatwiej, zaczniemy od niezrozumiałego na tym etapie zadania. Pamiętasz
+naszą uogólnioną identyczność zdefiniowaną przy pomocy zapisu skrótowego?
 
 ```lean
-#check 2 -- 2 : Nat
-
-#check Nat -- Nat : Type
-
-#check Type -- Type : Type 1
-
-#check Type 1 -- Type 1 : Type 2
+def identycznosc (typ : Type) (a : typ) : typ := a
 ```
 
-i tak dalej... Te typy wyższych rzędów są potrzebne tylko z pewnych nudnawych powodów
-technicznych. Może słyszałaś o paradoksie Russella? Chodzi o coś zbliżonego. Nie słyszałaś?
-Zazdroszczę.
+A czy pamiętasz, że pod takim skrótowym zapisem ukrywa się zawsze jakaś funkcja jednoargumentowa, bo
+w Leanie tak naprawdę mamy tylko takie funkcje?
+
+```lean
+def identycznosc' (jakis_typ : Type) : jakis_typ → jakis_typ := fun (jakis_argument : jakis_typ) => jakis_argument
+```
+
+Może jednak taka, krócej zapisana wersja będzie łatwiejsza do czytania (nie wiem, którą wolisz):
+
+```lean
+def identycznosc' (t : Type) : t → t := fun (a : t) => a
+```
+
+Jeżeli w tym momencie masz wrażenie, że tylko trochę to rozumiesz, ale czujesz się niepewnie, bo
+takie przesuwanie dwukropka (znajdował się za drugim parametrem `(a : typ)`, a teraz znajduje się za
+pierwszym parametrem - w pierwszej wersji `(typ : Type)` a w drugiej `(t : Type)`) to za wiele, to
+moim zdaniem to może wystarczyć, żeby czytać dalej. Jeżeli jednak czujesz, że na razie to zbyt
+trudne, to może warto wrócić do dwóch pierwszych, uzupełniających się rozdziałów.
+
+**Czytamy to**: Funkcja `identycznosc'` z dowolnego typu (to jest jedyny parametr tej funkcji)
+tworzy funkcję, która pobiera dowolny argument tego typu i zwraca go bez zmian.
+
+Obie te definicje są równoważne, bo w Leanie tak naprawdę wszystkie funkcje są jednoargumentowe:
+
+```lean
+-- Mimo różnic w sposobie zapisania definicji, obie funkcje mają ten sam typ
+#check @identycznosc  -- identycznosc  : (typ : Type) → typ → typ
+#check @identycznosc' -- identycznosc' : (typ : Type) → typ → typ
+-- i działają też tak samo
+#eval identycznosc  Nat 1 -- 1
+#eval identycznosc' Nat 1 -- 1
+```
+
+To teraz spróbuj zobaczyć, że to, co widać niżej, to prawie to samo, co widać wyżej, w definicji
+stałej `identycznosc'`, tylko:
+
+- Zamiast słowa kluczowego `def` pojawia się `theorem`, czyli *twierdzenie* (które dla Leana oznacza
+prawie to samo co `def`)
+
+- Nazwa parametru, która jak wiesz nie jest ważna, jest tu inna (`jakies_zdanie` zamiast
+`jakis_argument`)
+
+- Zamiast typu `Type` pojawia się typ `Prop`. 
+
+Twoim zadaniem jest teraz dokończyć tą definicję twierdzenia / funkcji `tautologia` tak, żeby była
+poprawna, w najprostszy możliwy sposób. Podpowiadam, że nie ma prostszej funkcji o podobnym typie
+niż funkcja `identycznosc'`:
+
+```lean
+-- Dokończ definicję korzystając z definicji funkcji identycznosc' jako wzorca:
+theorem tautologia (jakies_zdanie : Prop) : jakies_zdanie → jakies_zdanie :=
+```
+
+Jeżeli Ci się to udało, to całkiem możliwe, że udało Ci się dzięki temu, że nie próbowałaś za bardzo
+"utrzymać świadomego rozumienia" tego, co robiłaś wykonując polecenie. A może jednak nie? Mogę to
+tylko zgadywać. Tak czy inaczej, nie wiedząc o tym jeszcze (chyba, że czytasz to ponownie), właśnie
+stworzyłaś w Leanie swój pierwszy *dowód twierdzenia matematycznego*. Już wyjaśniam.
+
+## Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami. Co?
+
+Najpierw muszę Ci powiedzieć o *hierarchii typów*. Jak wiesz, stała `2` jest termem typu
+`Nat`. Zapis `2 : Nat` ma dla Leana sens, bo `Nat` jest również pewną, znaną od razu Leanowi
+stałą. W teorii typów, której używamy w Leanie, *każdy typ* (na przykład typy `Nat` i `Type`) *jest
+również termem*, ale *typu ogólniejszego* inaczej *wyższego* (na przykład `Type : Type 1`), i tak w
+nieskończoność:
+
+```lean
+-- 2 to "zwykły" term, to jest taki, który nie jest typem. Ja sobie wyobrażam, że takie termy "są na dnie":
+#check 2 -- 2 : Nat
+
+-- Nat to typ i jednocześnie term ogólniejszego typu, który nazywa się Type. Chciałoby się zapisać:
+--  2 : Nat : Type
+-- ale niestety Lean nie pozwala na taką notację.
+#check Nat -- Nat : Type 
+
+-- Type to typ i jednocześnie term ogólniejszego typu, który nazywa się Type 1
+#check Type -- Type : Type 1
+
+-- Już mniej więcej wiesz, na czym polega ta hierarchia typów, prawda?
+#check Type 1 -- Type 1 : Type 2
+
+-- A więc pisząc w sposób, którego Lean nie lubi - 2 : Nat : Type 1 : Type 2 : Type 3 : ...
+```
+
+i tak dalej... Typy wyższych rzędów są potrzebne *tylko* z pewnych nudnawych powodów technicznych i
+rzadko, o ile w ogóle, będą nas interesować. Może słyszałaś o paradoksie albo [antynomii
+Russella](https://pl.wikipedia.org/wiki/Antynomia_Russella)? Fryzjer, który goli tych i tylko tych
+mieszkańców, którzy akurat stoją na jednej nodze, ale niekoniecznie swojej, dlatego musi być bardzo
+ostrożny, gdy używa brzytwy, bo jak ich goli, to... Może pomińmy szczegóły. Chodzi w każdym razie o
+coś zbliżonego. Nie słyszałaś? To zazdroszczę.
 
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. Nazwa tego typu jest skrótem
-od angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
-konsekwentnie interpretować jako zdania. Będziemy więc mówić po prostu, że termy typu `Prop` to
-zdania. To może być na początku dezorientujące:
+od angielskiego *Proposition* oznaczającego *zdanie* albo *sąd*. Oto, dlaczego ten typ będzie dla
+nas ważny:
+
+*Termy typu `Prop` można konsekwentnie interpretować jako zdania*.
+
+Będziemy więc mówić po prostu, że termy typu `Prop` to zdania. To może być na początku
+dezorientujące:
 
 Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop` albo `a` jest zdaniem), to jeżeli `h : a`
 (czytaj: `h` ma typ `a` albo `h` jest termem typu `a`), to możemy konsekwentnie interpretować `h`
-jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem
-`a`. Mamy tutaj do czynienia z dwoma poziomami, na których występują typy (to ilustracja):
+jako *dowód* albo *świadectwo zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h`
+jest dowodem `a`. Mamy tutaj do czynienia z dwoma poziomami, na których występują typy (to tylko
+ilustracja):
 
 ```lean
--- jakis_dowod to tylko term, nie typ, ale jakies_zdanie to typ, ale również term, bo każdy typ to term, 
--- którego typem jest Prop. Wiem wiem, ale pamiętaj proszę, że wszystko mija.
+-- jakis_dowod to tylko term, nie typ, ale jakies_zdanie to typ, ale również term, bo każdy typ to term.
+-- Typem typu / termu jakies_zdanie jest typ Prop. Wiem wiem, ale pamiętaj proszę, że przecież wszystko mija.
 jakis_dowod : jakies_zdanie : Prop
 ```
 
-To, że możemy w ten sposób konsekwentnie interpretować termy typu `Prop` i termy, których te termy
-są typami (nie zgubiła/eś się?) wynika z [izomorfizmu
+**Komentarz dla nazbyt dociekliwych**: To, że możemy w ten sposób konsekwentnie interpretować termy
+typu `Prop` i termy, których te termy są typami (nie zgubiłaś się?) wynika z [izomorfizmu
 Curry'ego-Howarda](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), czyli z
 identyczności strukturalnej (bo tym jest izomorfizm) zachodzącej między (pewną) przestrzenią
 programów komputerowych i przestrzenią dowodów. Inne określenie na to samo to *Propositions As
 Types*, czyli *sądy jako typy*, o takim samym skrócie - *PAT* - co jeszcze inne określenie na to
 samo, *Proofs As Terms*, czyli *dowody jako termy*. Jeżeli te uwagi budzą Twój niepokój, nie
-przejmuj się nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy się mu szczegółowo
-przyglądać.
+przejmuj się nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy go oglądać z bliska, bo
+nie ma takiej potrzeby.
 
-Spróbuję jednak wytłumaczyć, jak umiem najlepiej, o co w tym właściwie chodzi.
-
-W praktyce izomorfizm Curry'ego-Howarda oznacza, że możemy kodować, to jest zapisywać w języku
+Izomorfizm Curry'ego-Howarda oznacza w praktyce, że możemy kodować, to jest zapisywać w języku
 teorii typów w sposób dający się konsekwentnie interpretować w zamierzony sposób, matematyczne
 pojęcia, struktury i zdania jako *typy* i że termy typów zdaniowych możemy konsekwentnie traktować
 jak dowody. Dzięki temu zaciera się, a czasem całkiem znika, różnica między matematyką i
@@ -53,19 +137,19 @@ programowaniem.
 
 **(De)Motywator**: Że dowód jest termem o typie, który jest zdaniem, którego to zdania ten term
 dowodzi (*uff*), to jest jedna z tych początkowo dezorientujących konwencji, do których trzeba się
-po prostu stopniowo przyzwyczaić. Gdy to już do pewnego stopnia nastąpi, ta akurat konwencja pozwoli
-Ci zobaczyć *całą* matematykę w nowy sposób.
+po prostu stopniowo przyzwyczaić. Gdy do pewnego stopnia to nastąpi, ta akurat konwencja pozwoli Ci
+zobaczyć *całą* matematykę w nowy sposób.
 
 Jedną z wielu zalet tego punktu widzenia jest i ta, że można wtedy uprawiać matematykę albo tylko
-uczyć się jej w interakcji z programem wspomagającym konstruowanie pojęć, teorii, własnej notacji i
-dowodów matematycznych, czyli z asystentem dowodzenia, takim jak Lean. Można mieć wtedy nie tylko
-pewność, że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale też można
-korzystać z rozmaitych ułatwień, jakie oferuje dany asystent.
+się uczyć jej w interakcji z programem komputerowym, który wspomaga konstruowanie pojęć, teorii,
+własnej notacji i dowodów matematycznych, czyli z [asystentem
+dowodzenia](https://en.wikipedia.org/wiki/Proof_assistant), takim jak Lean. Można mieć wtedy nie
+tylko pewność, że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale
+można też korzystać z rozmaitych udogodnień, które oferuje ten asystent.
 
 ## O logice w Lean
 
-**Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym *odróżnianiem* (i elastycznym
-*przełączaniem się* między odpowiadającymi następującym różnicom punktami widzenia):
+**Ostrzeżenie**: Będzie trzeba się stopniowo oswoić z konsekwentnym *odróżnianiem*:
 
 1. Dowolnych zdań *jako takich*, a więc niekoniecznie prawdziwych, od...
 
@@ -77,41 +161,43 @@ korzystać z rozmaitych ułatwień, jakie oferuje dany asystent.
 
 W tym momencie to, że to nie są te same rzeczy czy fakty, może Ci się wydawać wręcz oczywiste i nie
 warte objaśniania, ale przekonasz się, że te fundamentalne rozróżnienia będą Ci sprawiać trudności
-nawet w stosunkowo prostych sytuacjach. Jeszcze raz - cierpliwości. Gdybym ja czytał tekst taki jak
-ten, nie znając wcześniej tematu, na pewno wracałbym wielokrotnie do niektórych mniej jasnych dla
-mnie fragmentów.
+nawet w stosunkowo prostych sytuacjach. Problem będzie polegał między innymi albo może nawet głównie
+na tym, że trzeba się będzie dosyć elastycznie przełączać między tymi czterema punktami
+widzenia. Jeszcze raz - cierpliwości. Gdybym ja czytał tekst taki jak ten, nie znając wcześniej
+tematu, na pewno wracałbym wielokrotnie do niektórych mniej jasnych dla mnie fragmentów i wiele razy
+czułbym, że się gubię.
 
-**O czym to będzie**: Zajmiemy się *implikacją*. Implikacja jest być może najważniejszym spójnikiem
-w logice. Mówiąc luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to
-*dowolne* zdania, proste lub złożone (i tylko same zdania, a nie ich prawdziwość czy fałszywość,
-albo fakt bycia dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację za pomocą
-strzałki skierowanej w prawo: →.
+**O czym to będzie**: Zajmiemy się teraz *implikacją*. Implikacja jest być może najważniejszym
+spójnikiem w logice. Mówiąc luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*, gdzie
+*A* i *B* to *dowolne* zdania, proste lub złożone (i tylko same zdania, a nie ich prawdziwość czy
+fałszywość, albo fakt bycia dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację za
+pomocą strzałki skierowanej w prawo: →. Wygląda znajomo?
 
 Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
-implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Czy przypomina Ci to coś, o czym
-mówiliśmy już wcześniej?
+implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Nic? Żadnych skojarzeń?
 
 **Dygresja**: Niektórzy mówią, że język matematyki jest *precyzyjny*, jednak w matematyce mówimy
 czasem *celowo nieprecyzyjnie*. Na przykład, możemy wyrazić wprost w matematyce zdanie, że jakaś
-wielkość znajduje się w jakimś szerokim interwale, albo że jest mniej lub bardziej prawdopodobna.
+wielkość znajduje się w jakimś szerokim interwale, albo że jest bardziej lub mniej prawdopodobna.
 
 W matematyce mówimy też czasem *celowo wieloznacznie*. Na przykład, my niebawem będziemy stopniowo
 zacierać różnice między funkcjami i implikacjami.
 
 Co więc wyróżnia język matematyki, poza *relatywną sztucznością*, która nie wydaje się taka istotna?
 Nie jestem pewien, ale gdybym miał zgadywać, powiedziałbym, że jest to *jednoznaczność i sztywność
-reguł użycia*, ale tylko *formalnego*, czyli mechanicznego. I jeszcze to, że chociaż pojęcia
-matematyczne często mają genezę w pojęciach często używanych w języku naturalnym, to zwykle stanowią
-ich wersję bardzo uproszczoną do kilku dobrze określonych właściwości. Te są wyrażane czasem jako
-*aksjomaty*, czyli podawane bez uzasadnienia formalnego, a więc *bez dowodu* (za to zwykle z
-uzasadnieniem w języku naturalnym) *konwencje dotyczące dopuszczalnych sposobów używania pojęć*
-(czyli pewne formalne reguły gry).
+reguł użycia*, ale tylko *formalnego*, czyli takiego mechanicznego albo nawet "bezmyślnego". I
+jeszcze to, że chociaż pojęcia matematyczne często mają genezę w pojęciach często używanych w języku
+naturalnym, to zwykle stanowią ich wersję bardzo uproszczoną do kilku dobrze określonych
+właściwości. Te są wyrażane czasem jako *aksjomaty*, czyli podawane bez uzasadnienia formalnego, a
+więc *bez dowodu* (za to zwykle z uzasadnieniem w języku naturalnym) *konwencje dotyczące
+dopuszczalnych sposobów używania pojęć*.
 
-W ten sposób - odzierając pojęcia (na przykład, pojęcia zdania, prawdy i fałszu) ze zbędnych dla
-dobrze określonych celów znaczeń (na przykład, dla celu analizy w pewien techniczny sposób
-rozumianej poprawności rozumowań), uzyskujemy całkowitą sztywność reguł użycia i wysoki poziom
-abstrakcji. Sztywność reguł pozwala na mechaniczną weryfikację wyrażeń (w tym poprawności dowodów),
-a abstrakcyjność daje ogólność zastosowań.
+W ten sposób - odzierając pojęcia (na przykład, pojęcia zdania, prawdy i fałszu, albo pojęcie
+prawdopodobieństwa, czy pojęcie przyczynowej relacji wpływu) ze zbędnych dla dobrze określonych
+celów znaczeń (w przypadku pojęć zdania, prawdy i fałszu - dla celu analizy w pewien techniczny
+sposób rozumianej poprawności rozumowań), uzyskujemy całkowitą sztywność reguł użycia i wysoki
+poziom abstrakcji. Sztywność reguł pozwala na mechaniczną weryfikację wyrażeń, w tym poprawności
+dowodów, a abstrakcyjność daje ogólność zastosowań.
 
 **Oswojenie z terminologią logiczną**: Zawsze, gdy mamy jakieś dwa, niekoniecznie różne zdania *A* i
 *B*, możemy napisać *A → B* i to będzie poprawne wyrażenie (poprawna formuła logiczna), które
@@ -123,18 +209,18 @@ się konsekwentnie interpretować jako *Jeżeli A, to B*.
 
 Może przyda Ci się wyobrażenie sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego,
 a jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, jeśli ten dowód
-istnieje i umiemy na to zdanie popatrzeć tak, żeby ten prześwit zobaczyć.
+istnieje i umiemy na to zdanie popatrzeć tak, żeby ten prześwit zobaczyć. Ja czasem tak o tym myślę.
 
-**Analogia między implikacją i typem funkcyjnym**:
+**Analogia między implikacjami i typami funkcyjnymi**:
 
 Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 
 Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcji przekształcających termy typu `A` w termy
 typu `B`*.
 
-**Polecenie**: Spróbuj zaakceptować tą konsekwencję nie szukając w tym na razie sensu (nie musisz
-tego teraz zapamiętać): *Ponieważ w teorii typów każde zdanie jest typem, to każda implikacja jest
-funkcją*.
+**Polecenie**: Nie proszę Cię, żebyś ją zapamiętała, ale proszę, żebyś nie szukając w niej na siłę
+sensu spróbowała zaakceptować następującą konsekwencję: *Ponieważ w teorii typów każde zdanie jest
+typem, to każda implikacja jest funkcją*.
 
 **Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią
 jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili, że nie jest całkiem

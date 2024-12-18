@@ -29,6 +29,10 @@ mieszkania (!)](./rozdzialy/Spacerek_po_Leanie_1.md)
 
 [Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
+[Tytuł nie zachęca, ale za to zawartość również nie zachęca: Być może nie wiesz, że już wiesz, czym
+jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm
+Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
+
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
 zmienią.
 
