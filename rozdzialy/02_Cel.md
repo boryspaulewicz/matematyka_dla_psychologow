@@ -90,26 +90,28 @@ pojęcia *zadania*. Dzięki tej jednej definicji będziemy mogli całkowicie zak
 typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. 
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
-będziemy się długo przyglądać *całej* matematyce, patrząc na nią z tej niezwykłej perspektywy,
-jakiej dostarczy nam teoria typów. Z matematyką zrobimy to na początku mówiąć *tylko* o funkcjach, a
-z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym możliwym
-psychologicznym badaniu eksperymentalnym. Ten minimalny psychologiczny eksperyment będzie naszym
-odpowiednikiem [masy punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w
-próżni, by użyć analogii do fizyki. Osiągniemy to nie proponując żadnego psychologicznego modelu czy
-teorii, tylko zamiast tego zapisując za pomocą symboli coś, bez czego nie można się obejść i czego
-nie da się zakwestionować zawsze gdy mówimy o zjawiskach stanowiących przedmiotem zainteresowania
-psychologii naukowej. Będzie to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek
-zachowania*, dzięki któremu na pytania, które wcześniej wydawały się niejasne albo nawet mętne,
-będziemy mogli sformułować w taki sposób, że poszukiwanie odpowiedzi stanie się częściowo kwestią
-mechanicznych operacji.
+będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tej niezwykłej
+perspektywy, jakiej dostarczy nam teoria typów. Z matematyką zrobimy to na początku mówiąć *tylko* o
+funkcjach, a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym
+możliwym psychologicznym badaniu eksperymentalnym. 
+
+Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną rolę jaką pojęcie [masy
+punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w próżni kiedyś odegrało w
+fizyce teoretycznej. Osiągniemy to nie proponując żadnego psychologicznego modelu czy teorii, tylko
+zamiast tego zapisując za pomocą symboli coś, bez czego nie można się obejść i czego nie da się
+zakwestionować zawsze gdy mówimy o zjawiskach stanowiących przedmiotem zainteresowania psychologii
+naukowej. Będzie to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek zachowania*,
+dzięki któremu pytania, które wcześniej wydawały się niejasne albo nawet mętne dadzą się formułować
+w taki sposób, że poszukiwanie na nie odpowiedzi stanie się częściowo kwestią mechanicznych
+operacji.
 
 Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
 małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii. W dodatku w
-pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo ten wgląd to nic
-innego jak wyciągnięcie kosekwencji z nieco zmodyfikowanej wersji następującej meta-teoretycznej
-uwagi Tolmana, którą w całości zacytowałem w swojej pracy doktorskiej, a którą bardzo długo błędnie
-rozumiałem:
+pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
+wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
+[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą w całości zacytowałem w doktoracie,
+a którą bardzo długo błędnie rozumiałem:
 
 > Koncepcja, za którą się tu opowiadamy, głosi, ujmując rzecz pokrótce, że zawsze, gdy jakąś reakcję
 > cechuje wyuczalność w odniesieniu do pewnego końcowego rezultatu - gdy reakcja ta ma skłonność do:
@@ -120,8 +122,8 @@ rozumiałem:
 > on?), tam mamy obiektywnie wyrażone i określone to, co dogodnie jest nazwać celem. - Tolman,
 > *Zachowanie celowe u zwierząt i ludzi*, s. 32.
 
-Wersję tej obserwacji, którą będę w dalszej części uzasadniał i na której będę się potem opierał,
-można wyrazić tak:
+Proponowaną przeze mnie wersję tej uwagi, którą będę w dalszej części uzasadniał i której
+użyteczność będę później ilustrował przykładami, można wyrazić krótko w następujący sposób:
 
 *Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako preferencję hipotetycznego
 zewnętrznego obserwatora*.
