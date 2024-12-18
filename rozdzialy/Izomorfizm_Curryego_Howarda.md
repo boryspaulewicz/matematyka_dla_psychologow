@@ -51,9 +51,9 @@ rzeczywistych odpowiada unikalny punkt. Dziêki temu problemy o charakterze *czys
 (choæ nie zawsze) ³atwiej je rozwi±zaæ albo lepiej zrozumieæ. Co wiêcej, pewne problemy liczbowe,
 które mog³yby siê nam wcale pocz±tkowo nie kojarzyæ z geometri±, mog± siê okazaæ wiernie
 przet³umaczalne na problemy geometryczne i mo¿e siê równie¿ okazaæ, ¿e w tej wersji s± dla nas
-³atwiejsze albo bardziej zrozumia³e. A czasem dzieje siê i tak, ¿e *odkrywamy* a mo¿e *znajdujemy*
-obiekty geometryczne, które najpewniej nie przysz³y by nam w ogóle do g³owy, gdyby¶my nie dotarli do
-nich po¶rednio, najpierw rozwa¿aj±c jakie¶ problemy o charakterze liczbowym.
+³atwiejsze albo bardziej zrozumia³e. A czasem dzieje siê i tak, ¿e *odkrywamy* czy raczej
+*znajdujemy* pewne obiekty geometryczne, które najpewniej nie przysz³y by nam w ogóle do g³owy,
+gdyby¶my nie dotarli do nich po¶rednio, najpierw rozwa¿aj±c jakie¶ problemy o charakterze liczbowym.
 
 W [artykule](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) na temat
 przyczynowo¶ci, który napisa³em g³ównie z my¶l± o odbiorcach próbuj±cych uprawiaæ psychologiê
