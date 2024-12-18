@@ -29,12 +29,14 @@ oczywiście po to też, ale przede wszystkim żeby przekonać Cię, że mogę mi
 do powiedzenia.
 
 Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
-wiedzy, żeby ocenić zawartość takich popularnych podręczników jak [Metodologia badań
+wiedzy, żeby ocenić zawartość takich skierowanych do psychologów podręczników jak [Metodologia badań
 psychologicznych](https://ksiegarnia.pwn.pl/Metodologia-badan-psychologicznych,782124221,p.html?srsltid=AfmBOopxlOtS5MLgoUGzo8_9QB7yo-2aWyZQPM4FEqkuIvYzWXHyBbvQ),
 [Statystyczny
 drogowskaz](https://www.gwp.pl/statystyczny-drogowskaz-1-praktyczne-wprowadzenie-do-wnioskowania-statystycznego.html),
-czy niedawno wydanego podręcznika pod tytułem [Metodologia i statystyka. Przewodnik statystycznego
-turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego-turysty-Tom-1,1007521920,p.html?srsltid=AfmBOooMqGVHILuAsFPTJQ6v1iAEhd5Kiwwvogdmsco1Lp9FyuqwBM91).
+czy [Metodologia i statystyka. Przewodnik statystycznego
+turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego-turysty-Tom-1,1007521920,p.html?srsltid=AfmBOooMqGVHILuAsFPTJQ6v1iAEhd5Kiwwvogdmsco1Lp9FyuqwBM91),
+który to podręcznik ukazał się niedawno, podobnie jak ten pierwszy, nakładem Wydawnictwa Naukowego
+PWN.
 
 Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
