@@ -137,9 +137,9 @@ du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej,
 t³umaczy³).
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
-zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
-to niebawem wykorzystaæ, zacz±³em uczyæ siê systematycznie z cudownej ksi±¿ki [Type Theory and
-Formal
+szmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³
+szansê to niebawem wykorzystaæ, zacz±³em uczyæ siê systematycznie z cudownej ksi±¿ki [Type Theory
+and Formal
 Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C),
 napisanej przez Geuversa i Nederpelta. Ta ksi±¿ka jest napisana w bardzo jasny sposób. Czytaj±c j±
 czuje siê, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak tylko potrafi±. W mojej ocenie
