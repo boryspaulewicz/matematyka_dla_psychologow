@@ -26,7 +26,7 @@ charakteru liczbowego.
 
 [Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której byæ mo¿e ju¿
 s³ysza³a¶, jest (pierwszym w historii) dobrym przyk³adem aksjomatycznej teorii tego typu struktur.
-Otó¿ liczby nie odgrywaj± w tej teorii *¿adnej* roli. W
+Byæ mo¿e jednak nie wiedzia³a¶ dot±d, ¿e liczby nie odgrywaj± w tej teorii *¿adnej* roli. W
 [Elementach](http://aleph0.clarku.edu/~djoyce/java/elements/toc.html) Euklidesa znajdziemy tylko
 *rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyra¿one w jêzyku naturalnym
 definicje i aksjomaty, które te obiekty maj± spe³niaæ, a tak¿e rozumowania polegaj±ce na
