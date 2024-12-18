@@ -2,7 +2,7 @@
 
 Za chwilê zaczniemy korzystaæ z izomorfizmu Curry'ego-Howarda (tak, tego Curry'ego, który ju¿
 wcze¶niej siê pojawi³). ¯eby obja¶niæ, na czym to bêdzie polega³o, najpierw powiem jak± w ogóle rolê
-izomorfizmy ogrywaj± w matematyce.
+izomorfizmy odgrywaj± w matematyce.
 
 W szkole podstawowej zaczê³a¶ korzystaæ z [uk³adu wspó³rzêdnych
 kartezjañskich](https://pl.wikipedia.org/wiki/Uk%C5%82ad_wsp%C3%B3%C5%82rz%C4%99dnych_kartezja%C5%84skich)
