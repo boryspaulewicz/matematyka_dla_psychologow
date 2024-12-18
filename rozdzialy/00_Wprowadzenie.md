@@ -231,8 +231,8 @@ obliczeniow±, a poza tym nie jestem ju¿ m³ody.
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
 robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
 na pierwszym albo drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam
-na zajêciach, dowiedzia³em siê, jak siê uczyæ, a ze znakomitej ksi±¿ki
-[Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
+na zajêciach, dowiedzia³em siê, jak siê uczyæ, a ze znakomitej [ksi±¿ki
+Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, w jaki sposóbq sobie radziæ z ekstremaln± wrêcz
 prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i jako¶ odwdziêczyæ siê
 tym dwóm autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿
@@ -243,10 +243,10 @@ gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego
 i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
 sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
 kiedy pracowa³em na SWPSie w Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla
-mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej prof. Edwarda Nêcki, byæ mo¿e wcale bym nie
-skoñczy³, gdybym nie liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim
-najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶
-pracujê.
+mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej prof. Edwarda Nêcki, któremu zawdziêczam
+swobodê zajmowania siê w nim czym tylko chcia³em, byæ mo¿e wcale bym nie skoñczy³, gdybym nie liczne
+rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem,
+któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z Lispem, która zmieni³a na zawsze mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do
