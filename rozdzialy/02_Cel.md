@@ -121,8 +121,8 @@ którą bardzo długo błędnie rozumiałem:
 > on?), tam mamy obiektywnie wyrażone i określone to, co dogodnie jest nazwać celem. - Tolman,
 > *Zachowanie celowe u zwierząt i ludzi*, s. 32.
 
-Proponowaną przeze mnie wersję tej uwagi, którą będę w dalszej części uzasadniał i której
-użyteczność będę później ilustrował przykładami, można wyrazić krótko w następujący sposób:
+Wersję tej uwagi, którą będę w dalszej części uzasadniał i której użyteczność będę później
+ilustrował przykładami, można wyrazić krótko w następujący sposób:
 
 *Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako preferencję hipotetycznego
 zewnętrznego obserwatora*.
