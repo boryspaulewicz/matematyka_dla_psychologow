@@ -1,5 +1,3 @@
-Mo¿e od razu zacz¹æ od funkcji anonimowych!
-
 Spoj¿enie na *oficialnn¹ aktywnoœæ* badacza psychologa i zadanie pytania o spójn¹ interpretacjê z
 zewn¹trz tej aktywnoœci, ¿eby odkryæ *cele*
 
@@ -13,7 +11,7 @@ Kropki monitoringuj¹ce jako *uwaga jako taka*, bo to celowe wybieranie informacj
 
 Formalizacja zjawiska regresji do œredniej wymaga chyba przyczynowoœci.
 
-Na wszelki wypadek porównaæ terminologiê z wikipedi¹ i polskimi Ÿród³ami.
+Na wszelki wypadek porównaæ terminologiê teorio-typow¹ z wikipedi¹ i polskimi Ÿród³ami.
 
 Wprowadziæ terminologiê zamieszkiwania przy okazji omawiania definicji liczb naturalnych.
 
@@ -23,24 +21,16 @@ zadaniach, gdzie wszystko jest rozumiane kategorialnie.
 Interferencja jako wzorzec wykonania wskazuj¹cy na stopieñ niezale¿noœci "wymiarów tego samego
 zadania"
 
-O tym, ¿e lubiê studentów i za co. O improwizowanym charakterze zajêæ.
+Mo¿e napisaæ o tym, ¿e lubiê studentów i za co. Mo¿e o improwizowanym charakterze zajêæ?
 
 O szukaniu drogi na skróty do matematyki i teorii kategorii
-
-Biografia i rady na pocz¹tek.
 
 Objaœnienie typów zale¿nych przy okazji identycznoœci w stylu: wyobraŸ sobie, ¿e argumenty "wchodz¹"
 po kolei.
 
-Pochwa³a pozornie niepotrzebnych powtórek.
-
-Zacz¹æ od identycznoœci i identycznoœci parametrycznej!
-
 Po trzy podobne dowody, bo "trzeba powtórzyæ trzy razy".
 
 Dowód zdania z predykatami przed dowodem zdania z predykatami i negacj¹.
-
-Wyjaœniæ, czemu wolê acknowledgments w œrodku.
 
 Rodzaj gramatyczny: wersja ¿eñska pierwsza, bo jest wiêcej kobiet. Poza tym to siê mo¿e przydaæ
 kobietom.
@@ -63,18 +53,14 @@ Wyjaœniæ, jak dzia³a rachunek przyczynowy w teorii typów na toy example u¿ywaj¹c
 rachunku interwencyjnego na przyk³adzie rzutu monet¹ w dwóch arbitralnie nazwanych randomizowanych
 warunkach.
 
-Podziêkowaæ Adasiowi Chuderskiemu za Lispa.
-
 Czemu TTZ jest w pewnym sensie idealnym jêzykiem programowania - podstawowa sk³adnia wyra¿a wprost
 to i tylko to, co jest kluczowe dla formalnego teoretyzowania na temat obliczalnoœci, a w
 programowaniu chodzi o obliczalnoœæ.
 
-Namiesza³em z Absurdem i False w rozdziale o negacji. Trzeba bêdzie poprzestawiaæ to i owo (co
+Zbyt chaotycznie o Absurdzie i False w rozdziale o negacji. Trzeba bêdzie poprzestawiaæ to i owo (co
 najmniej).
 
-O sensie nazwy "odrywanie" dla modus ponens
-
-Mo¿e regularnie pisaæ o tym, co zak³adam, ¿e osoba wie.
+Mo¿e regularnie pisaæ o tym, co zak³adam, ¿e osoba wie?
 
 O konspektach jako najkrótszej notatce, która pozwala pracowaæ z tekstem bez koniecznoœci zagl¹dania
 do tekstsu
@@ -91,8 +77,9 @@ mindblower). To siê przyda: https://leanprover.github.io/theorem_proving_in_lean
 
 ? Przed wprowadzeniem wizji przysz³oœci napisaæ coœ w stylu Teraz czas na sen itd
 
-Do innych pracowników - mo¿e warto by³o siê zaj¹æ g³ównie uczeniem *siê* przez staranne uczenie
-innych, a nie pchaniem makulatury i zdobywaniem publicznych pieniêdzy.
-
 Nauka jako profesjonalne programowanie i profesjonalne zbieranie danych (nawi¹zanie do postu
 McElreatha o amatorskim programowaniu)
+
+USUNIÊTE Gdyby ta ksi¹¿ka zaczê³a Ciê nudziæ, mo¿e zamiast tego, o czym tutaj piszê, zaciekawi¹ Ciê
+niektóre moje, w wiêkszoœci doœæ stare, ale za to nieprzyciête
+[zdjêcia](https://www.dropbox.com/scl/fo/xup62948bbrropjdz0phk/AMfkFdVX0WA0vziZ3lt3Xfo?rlkey=ks43vvthysqgclyashp16kxbt&st=lw3vnxqy&dl=0).

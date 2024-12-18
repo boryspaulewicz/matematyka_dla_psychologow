@@ -1,4 +1,4 @@
-# Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami
+# Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami. Co?
 
 Stała `2` jest termem typu `Nat`. `Nat` też jest pewną stałą. W teorii typów, której używamy w Lean,
 każdy typ jest również termem, ale typu ogólniejszego, i tak w nieskończoność:
@@ -13,8 +13,9 @@ każdy typ jest również termem, ale typu ogólniejszego, i tak w nieskończono
 #check Type 1 -- Type 1 : Type 2
 ```
 
-i tak dalej... Te typy wyższych rzędów są potrzebne tylko z pewnych (dość nudnych) powodów
-technicznych (może słyszała/eś o paradoksie Russella? Chodzi o coś zbliżonego).
+i tak dalej... Te typy wyższych rzędów są potrzebne tylko z pewnych nudnawych powodów
+technicznych. Może słyszałaś o paradoksie Russella? Chodzi o coś zbliżonego. Nie słyszałaś?
+Zazdroszczę.
 
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. Nazwa tego typu jest skrótem
 od angielskiego słowa *Proposition* oznaczającego *zdanie* albo *sąd*. Termy typu `Prop` można
@@ -23,7 +24,14 @@ zdania. To może być na początku dezorientujące:
 
 Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop` albo `a` jest zdaniem), to jeżeli `h : a`
 (czytaj: `h` ma typ `a` albo `h` jest termem typu `a`), to możemy konsekwentnie interpretować `h`
-jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem `a`:
+jako *dowód zdania `a`*. Dlatego będziemy w takich sytuacjach mówić krótko, że `h` jest dowodem
+`a`. Mamy tutaj do czynienia z dwoma poziomami, na których występują typy (to ilustracja):
+
+```lean
+-- jakis_dowod to tylko term, nie typ, ale jakies_zdanie to typ, ale również term, bo każdy typ to term, 
+-- którego typem jest Prop. Wiem wiem, ale pamiętaj proszę, że wszystko mija.
+jakis_dowod : jakies_zdanie : Prop
+```
 
 To, że możemy w ten sposób konsekwentnie interpretować termy typu `Prop` i termy, których te termy
 są typami (nie zgubiła/eś się?) wynika z [izomorfizmu
@@ -34,6 +42,8 @@ Types*, czyli *sądy jako typy*, o takim samym skrócie - *PAT* - co jeszcze inn
 samo, *Proofs As Terms*, czyli *dowody jako termy*. Jeżeli te uwagi budzą Twój niepokój, nie
 przejmuj się nimi, będziemy korzystać z tego izomorfizmu, ale nie będziemy się mu szczegółowo
 przyglądać.
+
+Spróbuję jednak wytłumaczyć, jak umiem najlepiej, o co w tym właściwie chodzi.
 
 W praktyce izomorfizm Curry'ego-Howarda oznacza, że możemy kodować, to jest zapisywać w języku
 teorii typów w sposób dający się konsekwentnie interpretować w zamierzony sposób, matematyczne
