@@ -1,131 +1,171 @@
 # Izomorfizm Curry'ego-Howarda
 
-Za chwilê zaczniemy korzystaæ z izomorfizmu Curry'ego-Howarda (tak, tego Curry'ego, który ju¿
-wcze¶niej siê pojawi³). ¯eby obja¶niæ, na czym to bêdzie polega³o, najpierw powiem jak± w ogóle rolê
-izomorfizmy odgrywaj± w matematyce.
+Ten rozdziaÅ‚ ma CiÄ™ przygotowaÄ‡ do nowego tematu, ktÃ³ry pojawi siÄ™ w rozdziale nastÄ™pnym. Nie ma tu
+Å¼adnych zadaÅ„, sÄ… tylko moje prÃ³by przekonania CiÄ™, Å¼eby siÄ™ nie poddawaÄ‡. Za chwilÄ™ zaczniemy
+korzystaÄ‡ z izomorfizmu Curry'ego-Howarda (tak, tego Curry'ego, ktÃ³ry juÅ¼ wczeÅ›niej siÄ™ pojawiÅ‚). Ta
+nazwa moÅ¼e i brzmi groÅºnie, ale gdy zrozumiesz, w jaki sposÃ³b bÄ™dziemy go traktowaÄ‡, bÄ™dzie dla
+Ciebie jasne, Å¼e to nic strasznego. Na poczÄ…tek powiem Ci coÅ› moim zdaniem ciekawego o izomorfizmach
+w ogÃ³le.
 
-W szkole podstawowej zaczê³a¶ korzystaæ z [uk³adu wspó³rzêdnych
-kartezjañskich](https://pl.wikipedia.org/wiki/Uk%C5%82ad_wsp%C3%B3%C5%82rz%C4%99dnych_kartezja%C5%84skich)
-i przypuszczam, ¿e z czasem sta³o siê to dla Ciebie tak bardzo naturalne, ¿e mo¿e nawet nie
-zastanawia³a¶ siê, na czym to w³a¶ciwie polega. Jak pewnie wiesz, ten uk³ad wprowadzi³ do matematyki
-jeszcze w 17 wieku francuski matematyk, filozof i fizyk [René
-Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). Pomys³ Kartezjusza, bo tak te¿ o nim
-mówimy, by³ prawdziw± rewolucj±, dlatego ¿e pozwala *wiernie przet³umaczyæ* dowolny problem
-geometryczny na odpowiadaj±cy mu problem liczbowy. To jest wierne t³umacznie w tym znaczeniu, ¿e nie
-tracimy wtedy ani nie zniekszta³camy ¿adnych w³asno¶ci problemu geometrycznego. Takie sposoby
-wiernego t³umaczenia *w obie strony* nazywamy w matematyce (zachowuj±cymi strukturê)
-*izomorfizmami*.
+W szkole podstawowej zaczÄ™Å‚aÅ› korzystaÄ‡ z [ukÅ‚adu wspÃ³Å‚rzÄ™dnych
+kartezjaÅ„skich](https://pl.wikipedia.org/wiki/Uk%C5%82ad_wsp%C3%B3%C5%82rz%C4%99dnych_kartezja%C5%84skich),
+czyli z dwÃ³ch osi z podziaÅ‚kami, na ktÃ³re byÅ‚y naniesione liczby. Przypuszczam, Å¼e z czasem staÅ‚o
+siÄ™ to dla Ciebie na tyle naturalne, Å¼e moÅ¼e nawet nie zastanawiaÅ‚aÅ› siÄ™ juÅ¼ pÃ³Åºniej, jakÄ… dokÅ‚adnie
+rolÄ™ speÅ‚niajÄ… te dwie osie.
 
-Uk³adu wspó³rzêdnych kartezjañskich u¿ywamy w taki oto sposób: Punktem wyj¶cia jest *abstrakcyjnie
-rozumiana p³aszczyzna*. Nie chodzi tu o ¿adn± konkretn± p³aszczyznê fizyczn±, tylko o co¶ w rodzaju
-idealnie p³askiej powierzchni bez ¿adnych granic; takiej powierzchni, o której chêtnie my¶l±
-matematycy. Bez dodatkowych za³o¿eñ ta p³aszczyzna jako taka *nie* ma charakteru liczbowego, tylko
-czysto geometryczny. Podobnie na przyk³ad jaki¶ konkretny okr±g na tej p³aszczy¼nie jako taki, który
-mogliby¶my sobie wyobraziæ i który mogliby¶my próbowaæ systematycznie analizowaæ, *nie* ma jeszcze
-charakteru liczbowego.
+Jak byÄ‡ moÅ¼e wiesz, ten ukÅ‚ad wspÃ³Å‚rzÄ™dnych wprowadziÅ‚ do matematyki jeszcze w 17 wieku francuski
+matematyk, filozof i fizyk [RenÃ©
+Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). PomysÅ‚ Kartezjusza byÅ‚ wtedy
+prawdziwÄ… rewolucjÄ…, dlatego Å¼e pozwala *wiernie przetÅ‚umaczyÄ‡* dowolny problem geometryczny na
+odpowiadajÄ…cy mu problem liczbowy czy analityczny. To jest wierne tÅ‚umacznie w tym znaczeniu, Å¼e nie
+tracimy wtedy ani nie znieksztaÅ‚camy Å¼adnych wÅ‚asnoÅ›ci problemu geometrycznego. WÅ‚aÅ›nie tego rodzaju
+sposoby wiernego tÅ‚umaczenia *w obie strony* nazywamy w matematyce (zachowujÄ…cymi strukturÄ™)
+*izomorfizmami*. To sÅ‚owo jest poÅ‚Ä…czeniem dwÃ³ch starogreckich sÅ‚Ã³w, á¼´ÏƒÎ¿Ï‚ czyli taki sam i Î¼Î¿ÏÏ†Î®
+czyli ksztaÅ‚t lub forma. Nawiasem mÃ³wiÄ…c, starogrecki to wspaniaÅ‚y jÄ™zyk; ma piÄ™kny alfabet, kilka
+rÃ³Å¼nych rodzajÃ³w akcentÃ³w i liczbÄ™ podwÃ³jnÄ…. Na wÅ‚anÄ… rÄ™kÄ™ uczyÅ‚em siÄ™ go kiedyÅ› przez rok w liceum,
+to wiem (tak, byÅ‚em wtedy straszliwie pretensjonalny).
 
-[Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której byæ mo¿e ju¿
-s³ysza³a¶, jest (pierwszym w historii) dobrym przyk³adem aksjomatycznej teorii tego typu struktur.
-Byæ mo¿e jednak nie wiedzia³a¶ dot±d, ¿e liczby nie odgrywaj± w tej teorii *¿adnej* roli. W
+UkÅ‚adu wspÃ³Å‚rzÄ™dnych kartezjaÅ„skich uÅ¼ywamy w taki oto sposÃ³b: Punktem wyjÅ›cia jest *abstrakcyjnie
+rozumiana pÅ‚aszczyzna*. Nie zdziwiÅ‚bym siÄ™, gdybyÅ› na hasÅ‚o "pÅ‚aszczyzna" od razu automatycznie
+pomyÅ›laÅ‚a o ukÅ‚adzie wspÃ³Å‚rzÄ™dnych, albo o czymÅ›, co moÅ¼e siÄ™ Å‚atwo kojarzyÄ‡ z liczbami. I tu mamy
+problem - caÅ‚kiem moÅ¼liwe, Å¼e *zbyt dobrze* przyzwyczaiÅ‚aÅ› siÄ™ do izomorfizmu opartego na ukÅ‚adzie
+wspÃ³Å‚rzÄ™dnych kartezjaÅ„skich. ProszÄ™ CiÄ™, Å¼ebyÅ› teraz wyobraziÅ‚a sobie pÅ‚aszczyznÄ™ caÅ‚kiem
+nieliczbowÄ…, jeÅ›li moÅ¼na tak powiedzieÄ‡. TakÄ… pÅ‚aszczyznÄ™, ktÃ³rÄ… mogÅ‚oby sobie wyobraziÄ‡ dziecko,
+ktÃ³re jeszcze nie poznaÅ‚o pojÄ™cia liczby.
+
+Nie chodzi tu o Å¼adnÄ… konkretnÄ… pÅ‚aszczyznÄ™ *fizycznÄ…*, tylko o coÅ› w rodzaju idealnie pÅ‚askiej
+powierzchni bez Å¼adnych granic; takiej powierzchni, ktÃ³rÄ… moÅ¼na sobie tylko wyobraziÄ‡ albo opisaÄ‡,
+ale ktÃ³ra nie moÅ¼e istnieÄ‡ realnie. TakÄ…, o ktÃ³rej chÄ™tnie myÅ›lÄ… matematycy albo filozofowie. Bez
+dodatkowych zaÅ‚oÅ¼eÅ„ ta pÅ‚aszczyzna jako taka *nie* ma charakteru liczbowego, tylko czysto
+geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykÅ‚ad jakiÅ› konkretny okrÄ…g na
+tej pÅ‚aszczyÅºnie *jako taki*, ktÃ³ry moglibyÅ›my sobie wyobraziÄ‡ i ktÃ³ry moglibyÅ›my prÃ³bowaÄ‡
+systematycznie analizowaÄ‡, *nie* ma jeszcze charakteru liczbowego.
+
+[Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o ktÃ³rej byÄ‡ moÅ¼e juÅ¼
+sÅ‚yszaÅ‚aÅ›, jest (pierwszym w historii) przykÅ‚adem aksjomatycznej teorii tego typu struktur. ByÄ‡ moÅ¼e
+jednak nie wiedziaÅ‚aÅ› dotÄ…d, Å¼e liczby nie odgrywajÄ… w tej teorii *Å¼adnej* roli. W
 [Elementach](http://aleph0.clarku.edu/~djoyce/java/elements/toc.html) Euklidesa znajdziemy tylko
-*rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyra¿one w jêzyku naturalnym
-definicje i aksjomaty, które te obiekty maj± spe³niaæ, a tak¿e rozumowania polegaj±ce na
-wyprowadzaniu z tych definicji i aksjomatów ró¿nych twierdzeñ.
+*rysunkowe reprezentacje* wyidealizowanych obiektÃ³w geometrycznych i wyraÅ¼one w jÄ™zyku naturalnym
+definicje i aksjomaty, ktÃ³re te obiekty majÄ… speÅ‚niaÄ‡, a takÅ¼e rozumowania polegajÄ…ce na
+wyprowadzaniu z tych definicji i aksjomatÃ³w rÃ³Å¼nych twierdzeÅ„. Na przykÅ‚ad, znajduje siÄ™ tam
+aksjomat, ktÃ³ry mÃ³wi, Å¼e wszystkie kÄ…ty proste sÄ… sobie rÃ³wne. Ty pewnie od razu myÅ›lisz o kÄ…tach
+prostych jako takich, ktÃ³re wynoszÄ… 90 stopni, ale to jest przecieÅ¼ liczba. Dla Euklidesa to nie
+byÅ‚y liczby. MÃ³gÅ‚ pisaÄ‡ o wielkoÅ›ciach kÄ…tÃ³w, na przykÅ‚ad o tym, Å¼e jeden kÄ…t jest wiÄ™kszy od
+drugiego, w takim samym znaczeniu, w jakim ktoÅ›, kto na przykÅ‚ad nie miaÅ‚by "oÅ›rodka liczbowego" w
+mÃ³zgu mÃ³gÅ‚by bez trudu oceniÄ‡, ktÃ³re spodnie ma krÃ³tsze a ktÃ³re ma dÅ‚uÅ¼sze. Do pewnych operacji tego
+rodzaju w ogÃ³le nie potrzeba liczb.
 
-Pewne problemy geometryczne daj± siê w ten sposób analizowaæ wzglêdnie wygodnie czy ³atwo, ale nie
-wszystkie. Je¿eli teraz przyjmiemy, ¿e na przyk³ad na naszej wyidealizowanej p³aszczyznie znajduj±
-siê dwie linie przecinaj±ce siê pod k±tem prostym *i* naniesiemy na jedn± z nich, ale nie w miejscu
-przeciêcia, jaki¶ punkt albo kreskê, oznaczaj±c j± przy tym liczb± *1*, to uzyskamy w ten sposób
-*uk³ad wspó³rzêdnych kartezjañskich*. Wystarczy nam ten jeden, definiuj±cy jednostkê punkt i od razu
-bêdziemy mieli jednoznacznie okre¶lon± "podzia³kê", która ka¿demu punktowi na ka¿dej z tych dwóch
-linii albo *osi* przyporz±dkowuje unikaln± liczbê rzeczywist± i odwrotnie, ka¿dej liczbie
-rzeczywistej przyporz±dkowuje na ka¿dej z osi unikalny punkt.
+Pewne problemy geometryczne dajÄ… siÄ™ w taki czysto geometryczny sposÃ³b analizowaÄ‡ wzglÄ™dnie wygodnie
+czy Å‚atwo, ale zdecydowanie nie wszystkie. JeÅ¼eli teraz przyjmiemy, Å¼e na naszej wyidealizowanej
+pÅ‚aszczyznie znajdujÄ… siÄ™ dwie linie przecinajÄ…ce siÄ™ pod kÄ…tem prostym *i* naniesiemy na jednÄ… z
+nich, ale nie w miejscu przeciÄ™cia, jakiÅ› punkt a moÅ¼e kreskÄ™, ktÃ³rÄ… oznaczymy liczbÄ… *1*, to
+uzyskamy w ten sposÃ³b *ukÅ‚ad wspÃ³Å‚rzÄ™dnych kartezjaÅ„skich*. Wystarczy nam ten jeden, definiujÄ…cy
+jednostkÄ™ odlegÅ‚oÅ›ci punkt i od razu bÄ™dziemy mieli jednoznacznie okreÅ›lonÄ… "podziaÅ‚kÄ™" na obydwu
+osiach. DziÄ™ki poÅ‚Ä…czeniu tych wszystkich elementÃ³w, to jest dwÃ³ch przecinajÄ…cych siÄ™ osi i
+podziaÅ‚ki na obu, nasz ukÅ‚ad wspÃ³Å‚rzÄ™dnych dziaÅ‚a wÅ‚aÅ›nie jak tÅ‚umacz. Ten tÅ‚umacz kaÅ¼demu punktowi
+na kaÅ¼dej z tych dwÃ³ch osi przyporzÄ…dkowuje unikalnÄ… liczbÄ™ rzeczywistÄ… i odwrotnie, kaÅ¼dej liczbie
+rzeczywistej przyporzÄ…dkowuje na kaÅ¼dej z osi unikalny punkt.
 
-W ten sposób uzyskujemy metodê wiernego t³umaczenia w obie strony miêdzy obiektami czysto
-geometrycznymi, to jest punktami na ka¿dej z osi traktowanej z osobna, a liczbami rzeczywistymi, a
-ka¿da taka metoda to pewien izomorfizm. Uzyskujemy od razu te¿ co¶ wiêcej - ka¿demu *punktowi na
-p³aszczy¼nie*, który sam z siebie nie ma jeszcze charakteru liczbowego, odpowiada odt±d unikalna
-*para liczb*, to jest wspó³rzêdne kartezjañskie tego punktu i odwrotnie, ka¿dej parze liczb
-rzeczywistych odpowiada unikalny punkt. Dziêki temu problemy o charakterze *czysto geometrycznym*
-(na p³aszczy¼nie) mo¿emy wiernie przet³umaczyæ na problemy *liczbowe*, a z kolei dziêki temu czêsto
-(choæ nie zawsze) ³atwiej je rozwi±zaæ albo lepiej zrozumieæ. Co wiêcej, pewne problemy liczbowe,
-które mog³yby siê nam wcale pocz±tkowo nie kojarzyæ z geometri±, mog± siê okazaæ wiernie
-przet³umaczalne na problemy geometryczne i mo¿e siê równie¿ okazaæ, ¿e w tej wersji s± dla nas
-³atwiejsze albo bardziej zrozumia³e. A czasem dzieje siê i tak, ¿e *odkrywamy* czy raczej
-*znajdujemy* pewne obiekty geometryczne, które najpewniej nie przysz³y by nam w ogóle do g³owy,
-gdyby¶my nie dotarli do nich po¶rednio, najpierw rozwa¿aj±c jakie¶ problemy o charakterze liczbowym.
+W ten sposÃ³b uzyskujemy metodÄ™ wiernego tÅ‚umaczenia w obie strony miÄ™dzy pewnymi obiektami czysto
+geometrycznymi, to jest punktami na kaÅ¼dej z osi traktowanej z osobna, a liczbami rzeczywistymi, a
+kaÅ¼da taka metoda to pewien izomorfizm. Uzyskujemy od razu teÅ¼ coÅ› wiÄ™cej - kaÅ¼demu punktowi *na
+pÅ‚aszczyÅºnie*, a wiÄ™c niekoniecznie na ktÃ³rejÅ› z dwÃ³ch osi, ktÃ³ry sam z siebie nie ma jeszcze
+charakteru liczbowego, odpowiada odtÄ…d unikalna *para liczb* i to sÄ… wÅ‚aÅ›nie wspÃ³Å‚rzÄ™dne
+kartezjaÅ„skie tego punktu. Ta odpowiednioÅ›Ä‡ dziaÅ‚a w obie strony, a wiÄ™c rÃ³wnieÅ¼ kaÅ¼dej parze liczb
+rzeczywistych odpowiada unikalny punkt.
+
+DziÄ™ki temu problemy o charakterze *czysto geometrycznym* (na pÅ‚aszczyÅºnie) moÅ¼emy wiernie
+przetÅ‚umaczyÄ‡ na problemy *liczbowe*, a z kolei dziÄ™ki temu czÄ™sto (choÄ‡ nie zawsze) Å‚atwiej jest
+nam je rozwiÄ…zaÄ‡ albo zrozumieÄ‡. Co wiÄ™cej, pewne problemy liczbowe, ktÃ³re mogÅ‚yby siÄ™ nam wcale
+poczÄ…tkowo nie kojarzyÄ‡ z geometriÄ…, mogÄ… siÄ™ okazaÄ‡ wiernie przetÅ‚umaczalne na problemy
+geometryczne i moÅ¼e siÄ™ rÃ³wnieÅ¼ okazaÄ‡, Å¼e w tej wersji sÄ… dla nas Å‚atwiejsze albo bardziej
+zrozumiaÅ‚e. A czasem dzieje siÄ™ i tak, Å¼e *odkrywamy* czy raczej *znajdujemy* pewne obiekty
+geometryczne, ktÃ³re najpewniej nie przyszÅ‚yby nam w ogÃ³le do gÅ‚owy, gdybyÅ›my nie dotarli do nich
+poÅ›rednio, najpierw rozwaÅ¼ajÄ…c jakieÅ› problemy o charakterze liczbowym.
 
 W [artykule](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) na temat
-przyczynowo¶ci, który napisa³em g³ównie z my¶l± o odbiorcach próbuj±cych uprawiaæ psychologiê
-naukow± i o którym wspomina³em ju¿ we wstêpie, równie¿ korzystam z pewnego izomorfizmu, w dodatku z
-izomorfizmu, którego jedn± stron± s± programy komputerowe. Dziêki temu mog³em tam ilustrowaæ
-abstrakcyjne zagadnienia i pojêcia teorii wnioskowania przyczynowego za pomoc± bardzo prostych
-symulacji, maj±c przy tym pewno¶æ, ¿e da siê w ten sposób *wiernie*, to jest bez zniekszta³ceñ,
-*zrealizowaæ* modele przyczynowe jako komputerowe programy. Mam wra¿enie, ¿e takie podej¶cie pozwala
-lepiej poczuæ realno¶æ modeli przyczynowych, a ju¿ na pewno pozwala uczyæ siê ich w³a¶ciwo¶ci
-poprzez interakcjê na przyk³ad z jêzykiem
-[R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu psychologów mo¿e byæ
-znacznie ³atwiejsze, tym bardziej, ¿e czê¶æ ju¿ ten jêzyk chocia¿ trochê zna, ni¿ rozwi±zywanie
-problemów rachunkowych, których rozwi±zania wnioskowanie przyczynowe jako takie czasami wymaga.
+przyczynowoÅ›ci, ktÃ³ry napisaÅ‚em gÅ‚Ã³wnie z myÅ›lÄ… o odbiorcach prÃ³bujÄ…cych uprawiaÄ‡ psychologiÄ™
+naukowÄ… i o ktÃ³rym wspominaÅ‚em juÅ¼ we wstÄ™pie, rÃ³wnieÅ¼ korzystam z pewnego izomorfizmu, w dodatku z
+izomorfizmu, ktÃ³rego jednÄ… stronÄ… sÄ… programy komputerowe. DziÄ™ki temu mogÅ‚em tam ilustrowaÄ‡
+abstrakcyjne zagadnienia i pojÄ™cia teorii wnioskowania przyczynowego za pomocÄ… bardzo prostych
+symulacji, majÄ…c przy tym pewnoÅ›Ä‡, Å¼e da siÄ™ w ten sposÃ³b *wiernie*, to jest bez znieksztaÅ‚ceÅ„,
+*zrealizowaÄ‡* modele przyczynowe jako komputerowe programy. Mam wraÅ¼enie, Å¼e takie podejÅ›cie pozwala
+lepiej poczuÄ‡ realnoÅ›Ä‡ modeli przyczynowych, a juÅ¼ na pewno pozwala uczyÄ‡ siÄ™ ich wÅ‚aÅ›ciwoÅ›ci
+poprzez interakcjÄ™ na przykÅ‚ad z jÄ™zykiem
+[R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu psychologÃ³w moÅ¼e byÄ‡
+znacznie Å‚atwiejsze niÅ¼ rozwiÄ…zywanie problemÃ³w rachunkowych.
 
-Zwróæ proszê uwagê, ¿e chocia¿ prawie na pewno na pocz±tku to by³o dla Ciebie dosyæ trudne, bo to
-jest prawie dla wszystkich pocz±tkowo trudne, a ju¿ na pewno takie by³o pocz±tkowo dla mnie, to
-jednak oswojenie siê z izomorfizmem miêdzy na przyk³ad kszta³tami trójk±tów z jednej strony i
-liczbowymi wielko¶ciami ich wewnêtrznych katów i d³ugo¶ciami ich boków sta³o siê dla Ciebie z czasem
-dosyæ naturalne. Za³o¿ê siê, ¿e czasami, a mo¿e i przez wiêkszo¶æ czasu, nie zdawa³a¶ sobie nawet
-sprawy z tego, ¿e k±ty i d³ugo¶ci odcinków po prostu *s±* dla Ciebie liczbami *dziêki temu*, ¿e
-jawnie albo w tle zawsze wtedy by³ obecny jaki¶ ustalony uk³ad kartezjañski. Ta ogromna *swoboda w
-prze³±czaniu siê miêdzy dwoma ró¿nymi punktami widzenia* - geometrycznym i liczbowym - na w istocie
-*ten sam* problem, a tak¿e mo¿liwo¶æ skutecznego korzystania z tej swobody, by³yby nieosi±galne,
-gdyby nie opiera³y siê na idealnej odpowiednio¶ci miêdzy dwoma, dobrze okre¶lonymi rodzajami
-abstrakcyjnych struktur.
+ZwrÃ³Ä‡ proszÄ™ uwagÄ™, Å¼e chociaÅ¼ prawie na pewno na poczÄ…tku to byÅ‚o dla Ciebie dosyÄ‡ trudne, bo to
+jest prawie dla wszystkich poczÄ…tkowo trudne, a juÅ¼ na pewno takie byÅ‚o poczÄ…tkowo dla mnie, to
+jednak oswojenie siÄ™ z izomorfizmem miÄ™dzy na przykÅ‚ad ksztaÅ‚tami trÃ³jkÄ…tÃ³w z jednej strony i
+liczbowymi wielkoÅ›ciami ich wewnÄ™trznych katÃ³w i dÅ‚ugoÅ›ciami ich bokÃ³w z drugiej staÅ‚o siÄ™ dla
+Ciebie z czasem dosyÄ‡ naturalne. ZaÅ‚oÅ¼Ä™ siÄ™, Å¼e czasami, a moÅ¼e i przez wiÄ™kszoÅ›Ä‡ czasu, nie
+zdawaÅ‚aÅ› sobie nawet sprawy z tego, Å¼e kÄ…ty i dÅ‚ugoÅ›ci odcinkÃ³w po prostu *sÄ…* dla Ciebie liczbami
+*dziÄ™ki temu*, Å¼e jawnie albo w tle zawsze wtedy byÅ‚ obecny jakiÅ› ustalony ukÅ‚ad
+kartezjaÅ„ski. 
 
-Izomorfizm, który zachowuje strukturê obydwu przestrzeni (takie obiekty jak zbiór liczb
-rzeczywistych matematycy równie¿ nazywaj± przestrzeniami), czyli jest, mówi±c kolokwialnie, wiernym
-t³umaczeniem w obie strony, to zatem potê¿ne narzêdzie *rozwi±zywania* rozmaitych problemów, jak
-równie¿ potê¿ne narzêdzie s³u¿±ce do lepszego ich *zrozumienia*. Swoj± si³ê zawdziêcza tak naprawdê
-temu, ¿e pozwala nam przekroczyæ pewne ograniczenia o charakterze *psychologicznym*. Dla nas, ludzi,
-to, czy dany problem bêdzie ³atwy czy trudny do rozwi±zania albo zrozumienia czêsto w *ogromnym*
-stopniu zale¿y od przyjêtego *punktu widzenia* na ten problem. Dlatego miêdzy innymi tak chêtnie
-korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowuj±cy strukturê izomorfizm to
-w³a¶nie pewien rodzaj doskona³ej analogii.
+WÅ‚aÅ›ciwie zaÅ‚oÅ¼Ä™ siÄ™ nawet, Å¼e podobnie jak ja, nie jesteÅ› w stanie sobie dobrze wyobraziÄ‡ jak to
+byÅ‚o nie myÅ›leÄ‡ o obiektach geometrycznych w taki sposÃ³b. A przecieÅ¼ byÅ‚ kiedyÅ› taki czas, gdy ten
+sposÃ³b byÅ‚ Ci caÅ‚kiem obcy i wszystkie ksztaÅ‚ty byÅ‚y tylko ksztaÅ‚tami. W pewnym momencie stopniowo i
+z pewnym wysiÅ‚kiem zaczÄ™Å‚aÅ› uczyÄ‡ siÄ™ jak moÅ¼na systematycznie przypisywaÄ‡ na przykÅ‚ad kÄ…tom i
+odcinkom liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjaÅ„ski
+byÅ‚y dla Ciebie odrÄ™bne, ale znaÅ‚aÅ› juÅ¼ oba. A Å¼e musiaÅ‚aÅ› siÄ™ czÄ™sto miÄ™dzy nimi przeÅ‚Ä…czaÄ‡,
+robiÅ‚aÅ› to dÅ‚ugo, i oba tak dobrze do siebie pasowaÅ‚y, to z czasem dwa punkty widzenia zÅ‚Ä…czyÅ‚y siÄ™
+w jeden. I ja teraz muszÄ™ przez kilka akapitÃ³w prÃ³bowaÄ‡ Ci uÅ‚atwiÄ‡ ich ponowne oddzielenie. 
 
-Izomorfizm Curry'ego-Howarda pozwala osi±gn±æ co¶ podobnego do tego, co umo¿liwia uk³ad
-kartezjañski, tylko na znacznie wy¿szym, mo¿na powiedzieæ ¿e wrêcz zapieraj±cym dech w piersiach
-poziomie ogólno¶ci. ¯eby zacz±æ przygodê z tym izomorfizmem, trzeba tylko æwiczyæ prze³±czanie siê
-miêdzy dwoma, dobrze okre¶lonymi, ale pocz±tkowo z konieczno¶ci trochê obcymi sposobami patrzenia na
-*typy*.
+Czy to nie ciekawe, jak bardzo taki z pozoru niewinny izomorfizm potrafi zmieniÄ‡ nasz sposÃ³b
+myÅ›lenia? Ta ogromna *swoboda w przeÅ‚Ä…czaniu siÄ™ miÄ™dzy dwoma rÃ³Å¼nymi punktami widzenia* -
+geometrycznym i liczbowym - na w istocie *ten sam* problem, a takÅ¼e moÅ¼liwoÅ›Ä‡ *skutecznego
+korzystania* z tej swobody, byÅ‚yby nieosiÄ…galne, gdyby nie opieraÅ‚y siÄ™ na idealnej odpowiednioÅ›ci
+miÄ™dzy dwoma, dobrze okreÅ›lonymi rodzajami abstrakcyjnych struktur.
 
-Byæ mo¿e jedn± z g³ównych trudno¶ci pojawiaj±cych siê pocz±tkowo podczas uczenia siê tego podej¶cia
-jest to, ¿e matematyka "rozgrywa siê" wtedy czy mo¿e "istnieje" w³a¶nie g³ównie na poziomie
-typów. Gdy ju¿ jednak zd±¿ysz siê z tym choæ trochê oswoiæ, Twoja zdolno¶æ do rozumienia tre¶ci
-matematycznych albo "matematyzacji" problemów czy pojêæ, które same z siebie nie maj± jeszcze
-matematycznego charakteru, zacznie siê rozwijaæ znacznie szybciej, ni¿ gdyby¶ próbowa³a j± rozwijaæ
-w bardziej tradycyjny sposób.
+Izomorfizm, ktÃ³ry zachowuje strukturÄ™ obydwu przestrzeni (takie obiekty jak zbiÃ³r liczb
+rzeczywistych matematycy rÃ³wnieÅ¼ nazywajÄ… przestrzeniami), czyli jest, mÃ³wiÄ…c kolokwialnie, wiernym
+tÅ‚umaczeniem w obie strony, to zatem potÄ™Å¼ne narzÄ™dzie *rozwiÄ…zywania* rozmaitych problemÃ³w, jak
+rÃ³wnieÅ¼ potÄ™Å¼ne narzÄ™dzie sÅ‚uÅ¼Ä…ce do lepszego ich *zrozumienia*. SwojÄ… siÅ‚Ä™ zawdziÄ™cza miÄ™dzy innymi
+temu, Å¼e pozwala nam przekroczyÄ‡ pewne ograniczenia o charakterze *psychologicznym*. Dla nas, ludzi,
+to, czy dany problem bÄ™dzie Å‚atwy czy trudny do rozwiÄ…zania albo zrozumienia czÄ™sto w *ogromnym*
+stopniu zaleÅ¼y od przyjÄ™tego *punktu widzenia* na ten problem. Dlatego miÄ™dzy innymi tak chÄ™tnie
+korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowujÄ…cy strukturÄ™ izomorfizm to
+wÅ‚aÅ›nie pewien rodzaj doskonaÅ‚ej analogii.
 
-Próbuj±c zrozumieæ, o czym jest nastêpny rozdzia³, uruchomisz proces zasadniczo taki sam, jak ten
-dziêki któremu by³a¶ w stanie rozwi±zywaæ problemy geometryczne, które czasem wydawa³y Ci siê
-proste, ale które bez wcze¶niejszego przyzwyczajenia siê do patrzenia na nie jako na problemy
-liczbowe by³yby tak trudne, ¿e byæ mo¿e nawet nierozwi±zywalne. W dodatku uczenie siê matematyki
-*metod± prób i b³êdów*, to jest w ramach mniej lub bardziej swobodnej *eksploracji*, bêdzie mia³o
-znacznie wiêkszy sens, poniewa¿ wszystko, czego by¶ nie spróbowa³a, bêdzie natychmiast sprawdzone
-pod wzglêdem poprawno¶ci przez praktycznie niezawodny program. Pojawi siê dziêki temu mo¿liwo¶æ
-u¿ywania matematyki, oczywi¶cie w granicach wyznaczonych czê¶ciowo przez aktualny poziom Twojego
-zrozumienia i wiedzy, w sposób w pewnym sensie maksymalnie *twórczy*.
+Izomorfizm Curry'ego-Howarda pozwala osiÄ…gnÄ…Ä‡ coÅ› podobnego do tego, co umoÅ¼liwia ukÅ‚ad
+kartezjaÅ„ski, tylko na znacznie wyÅ¼szym poziomie ogÃ³lnoÅ›ci. Å»eby zaczÄ…Ä‡ przygodÄ™ z tym izomorfizmem,
+trzeba tylko Ä‡wiczyÄ‡ przeÅ‚Ä…czanie siÄ™ miÄ™dzy dwoma, dobrze okreÅ›lonymi, ale poczÄ…tkowo z
+koniecznoÅ›ci trochÄ™ obcymi sposobami patrzenia na *typy*. ByÄ‡ moÅ¼e jednÄ… z gÅ‚Ã³wnych trudnoÅ›ci
+pojawiajÄ…cych siÄ™ poczÄ…tkowo podczas uczenia siÄ™ tego podejÅ›cia jest to, Å¼e matematyka "rozgrywa
+siÄ™" wtedy czy moÅ¼e "istnieje" wÅ‚aÅ›nie gÅ‚Ã³wnie na poziomie typÃ³w. Gdy juÅ¼ jednak zdÄ…Å¼ysz siÄ™ z tym
+choÄ‡ trochÄ™ oswoiÄ‡, Twoja zdolnoÅ›Ä‡ do rozumienia treÅ›ci matematycznych albo "matematyzacji"
+problemÃ³w czy pojÄ™Ä‡, ktÃ³re same z siebie nie majÄ… jeszcze matematycznego charakteru, zacznie siÄ™
+moim zdaniem rozwijaÄ‡ znacznie szybciej, niÅ¼ gdybyÅ› prÃ³bowaÅ‚a jÄ… rozwijaÄ‡ w bardziej tradycyjny
+sposÃ³b.
 
-Curry i Howard odkryli, ¿e istnieje pewien zachowuj±cy strukturê izomorfizm miêdzy systemami logiki
-formalnej, takimi jak logika konstruktywna, nazywana równie¿ logik± intuicjonistyczn±, i systemami
-s³u¿±cymi do badania miêdzy innymi zagadnieñ zwi±zanych z obliczalno¶ci±, takimi jak rachunek lambda
-z typami. Je¿eli masz ju¿ w tym momencie takie w±tpliwo¶ci, to od razu Ciê zapewniê, ¿e korzystaj±c
-z tego izomorfizmu nie bêdziemy wcale ograniczeni do jakiej¶ konkretnej logiki, takiej jak na
-przyk³ad logika konstruktywna.
+PrÃ³bujÄ…c zrozumieÄ‡, o czym jest nastÄ™pny rozdziaÅ‚, uruchomisz proces zasadniczo taki sam, jak ten
+dziÄ™ki ktÃ³remu byÅ‚aÅ› w stanie rozwiÄ…zywaÄ‡ problemy geometryczne, ktÃ³re czasem wydawaÅ‚y Ci siÄ™
+proste, ale ktÃ³re bez wczeÅ›niejszego przyzwyczajenia siÄ™ do patrzenia na nie jako na problemy
+liczbowe byÅ‚yby tak trudne, Å¼e byÄ‡ moÅ¼e nawet nierozwiÄ…zywalne. W dodatku uczenie siÄ™ matematyki
+*metodÄ… prÃ³b i bÅ‚Ä™dÃ³w*, to jest w ramach mniej lub bardziej swobodnej *eksploracji*, bÄ™dzie miaÅ‚o
+znacznie wiÄ™kszy sens, poniewaÅ¼ wszystko, czego byÅ› nie sprÃ³bowaÅ‚a, bÄ™dzie natychmiast sprawdzone
+pod wzglÄ™dem poprawnoÅ›ci przez praktycznie niezawodny program. A Å¼e nie bÄ™dzie obok Å¼adnego
+nauczyciela, to teÅ¼ nikt CiÄ™ nie bÄ™dzie oceniaÅ‚. Pojawi siÄ™ dziÄ™ki temu moÅ¼liwoÅ›Ä‡ uÅ¼ywania
+matematyki, oczywiÅ›cie w granicach wyznaczonych czÄ™Å›ciowo przez aktualny poziom Twojego zrozumienia
+i wiedzy, w sposÃ³b w pewnym sensie maksymalnie *twÃ³rczy*.
 
-Dla naszych potrzeb to, ¿e izomorfizm Curry'ego-Howarda istnieje, oznacza tyle, ¿e *ka¿dy* problem
-matematyczny mo¿emy dziêki niemu postrzegaæ jako problem dotycz±cy *programowania* i próbowaæ go
-rozwi±zaæ jako taki, tak samo jak dziêki uk³adowi kartezjañskiemu ka¿dy problem geometryczny mo¿emy
-próbowaæ zamieniæ na odpowiadaj±cy mu problem analityczny (liczbowy) i próbowaæ go rozwi±zaæ albo
-tylko inaczej zrozumieæ pos³uguj±c siê na przyk³ad operacjami algebraicznymi, takimi jak dodawanie
-czy mno¿enie liczb. Jedyn± rzecz±, której bêdziemy potrzebowaæ, poza cierpliwo¶ci± w uczeniu siê
-tego podej¶cia, ¿eby uprawiaæ matematykê - a pó¼niej równie¿ ogólniej rozumiane badania o
-meta-teoretycznym charakterze - jako programowanie, bêdzie zarazem sztywny i wystarczaj±co
-ekspresyjny jêzyk. Ten, na którym oparty jest Lean, jest w³a¶nie jednym z takich jêzyków.
+Curry i Howard odkryli, Å¼e istnieje pewien zachowujÄ…cy strukturÄ™ izomorfizm miÄ™dzy systemami logiki
+formalnej, takimi jak logika konstruktywna, nazywana rÃ³wnieÅ¼ logikÄ… intuicjonistycznÄ…, i systemami
+sÅ‚uÅ¼Ä…cymi do badania miÄ™dzy innymi zagadnieÅ„ zwiÄ…zanych z obliczalnoÅ›ciÄ…, takimi jak rachunek lambda
+z typami. JeÅ¼eli masz juÅ¼ w tym momencie takie wÄ…tpliwoÅ›ci, to od razu CiÄ™ zapewniÄ™, Å¼e korzystajÄ…c
+z tego izomorfizmu nie bÄ™dziemy wcale ograniczeni do jakiejÅ› konkretnej logiki, takiej jak na
+przykÅ‚ad logika konstruktywna.
+
+Dla naszych potrzeb to, Å¼e izomorfizm Curry'ego-Howarda istnieje, oznacza tyle, Å¼e *kaÅ¼dy* problem
+matematyczny moÅ¼emy dziÄ™ki niemu postrzegaÄ‡ jako problem dotyczÄ…cy *programowania* i prÃ³bowaÄ‡ go
+rozwiÄ…zaÄ‡ jako taki. Tak samo jak dziÄ™ki ukÅ‚adowi kartezjaÅ„skiemu kaÅ¼dy problem geometryczny moÅ¼emy
+prÃ³bowaÄ‡ zamieniÄ‡ na odpowiadajÄ…cy mu problem analityczny (liczbowy) i prÃ³bowaÄ‡ go rozwiÄ…zaÄ‡ albo
+tylko inaczej zrozumieÄ‡ posÅ‚ugujÄ…c siÄ™ na przykÅ‚ad operacjami algebraicznymi, takimi jak dodawanie
+czy mnoÅ¼enie. JedynÄ… rzeczÄ…, ktÃ³rej bÄ™dziemy potrzebowaÄ‡, Å¼eby uprawiaÄ‡ matematykÄ™ - a pÃ³Åºniej
+rÃ³wnieÅ¼ ogÃ³lniej rozumiane badania o meta-teoretycznym charakterze - jako programowanie, bÄ™dzie
+zarazem sztywny i wystarczajÄ…co ekspresyjny jÄ™zyk. Ten, na ktÃ³rym oparty jest Lean, jest wÅ‚aÅ›nie
+jednym z takich jÄ™zykÃ³w. A tym, co przede wszystkim sprawia, Å¼e jest tak bardzo ekspresyjny, Å¼e
+pozwala zakodowaÄ‡ formalnie caÅ‚Ä… matematykÄ™, a wiÄ™c teÅ¼ wszystko, co tylko da siÄ™ zmatematyzowaÄ‡,
+czyli powiedzieÄ‡ lub wyraziÄ‡ jasno, sÄ… *typy zaleÅ¼ne*.
