@@ -75,7 +75,7 @@ liczbowymi wielko¶ciami ich wewnêtrznych katów i d³ugo¶ciami ich boków sta³o siê
 dosyæ naturalne. Za³o¿ê siê, ¿e czasami, a mo¿e i przez wiêkszo¶æ czasu, nie zdawa³a¶ sobie nawet
 sprawy z tego, ¿e k±ty i d³ugo¶ci odcinków po prostu *s±* dla Ciebie liczbami *dziêki temu*, ¿e
 jawnie albo w tle zawsze wtedy by³ obecny jaki¶ ustalony uk³ad kartezjañski. Ta ogromna *swoboda w
-prze³±czaniu siê miêdzy dwoma ró¿nymi punktami widzenia* - geometrycznym i liczbowym - na w isto¶cie
+prze³±czaniu siê miêdzy dwoma ró¿nymi punktami widzenia* - geometrycznym i liczbowym - na w istocie
 *ten sam* problem, a tak¿e mo¿liwo¶æ skutecznego korzystania z tej swobody, by³yby nieosi±galne,
 gdyby nie opiera³y siê na idealnej odpowiednio¶ci miêdzy dwoma, dobrze okre¶lonymi rodzajami
 abstrakcyjnych struktur.
