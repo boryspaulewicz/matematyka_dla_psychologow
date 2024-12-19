@@ -125,6 +125,21 @@ monitoring ma i t± zaskakuj±c± cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a,
 jakiego¶ tajemniczego powodu nawet Ci, którzy na nim najbardziej korzystaj±, pêdzej czy pó¼niej
 przestaj± go stosowaæ.
 
+Nawiasem mówi±c, odkry³em wtedy co¶ niepokoj±cego. Zorientowa³em siê mianowicie, ¿e *pracownicy
+naukowi rzadko siê czego¶ ucz±*. Owszem, czêsto czytaj± artyku³y i ksi±¿ki dotycz±ce tego, czym siê
+zajmuj±, ale nie spotka³em dot±d *¿adnego* pracownika naukowego, który by co¶ systematycznie
+powtarza³. Ciekawe, prawda? Jednym z powodów jest pewnie brak czasu, ale bior±c pod uwagê charakter
+tej pracy, to jest, mówi±c delikatnie, ma³o przekonuj±ca wymówka. Za to wiêkszo¶æ stara siê du¿o
+*pisaæ*, co mi akurat wychodzi przeciêtnie, bo rzadko mi siê zdaje, ¿e mam co¶ zarazem nowego i
+warto¶ciowego do powiedzenia. W³a¶ciwie raz na kilka lat mi siê tak zdaje. Je¿eli wiêc chodzi Ci po
+g³owie (w Polsce czêsto marnie op³acana, ale za to wakacje s± d³ugie) tak zwana kariera akademicka i
+studia doktorskie (które za moich czasów pozostawia³y chyba znacznie wiêcej czasu na rozwijanie siê
+w wybranym przez *siebie* kierunku), to moim zdaniem mo¿esz wielu z nas szybko prze¶cign±æ w
+wybranym przez siebie obszarze w³a¶nie dziêki temu. A jak dodasz mniej lub bardziej regularne
+*æwiczenia z czytania ze zrozumieniem* (do których skutecznie zmusi³y mnie trzy lata studiowania w
+Krakowie filozofii), to Twoja postawa wobec tego, co mo¿na znale¼æ w publikacjach recenzowanych,
+stanie siê tak krytyczna, ¿e nie zabraknie Ci uzasadnionej pewno¶ci, ¿e mo¿esz co¶ wa¿nego zdzia³aæ.
+
 Na koniec zasugerujê Ci co¶, o czym sam muszê sobie stale przypominaæ: Je¿eli chcesz co¶ zrobiæ, ale
 nie mo¿esz siê do tego zabraæ, zrób *jakikolwiek pierwszy krok*. Na przyk³ad, je¿eli chcesz zacz±æ
 siê uczyæ z jakiej¶ ksi±¿ki, otwórz t± ksi±¿kê, albo tylko po³ó¿ j± w widocznym miejscu. A je¿eli
