@@ -774,8 +774,10 @@ W ten oto sposób *znika różnica między uprawianiem matematyki teoretycznej i
 programowaniem*. Zobaczysz, przyjdzie taki moment, o ile już nie nastąpił, że będzie Ci *trudno*
 oddzielić te dwa punkty widzenia, tak jak od dawna trudno Ci oddzielić dwa sposoby myślenia - czysto
 geometryczny i liczbowy - na przykład wtedy, gdy myślisz o trójkątach, i tego Ci z całego serca
-życzę. A teraz zerknij może ponownie [tutaj](), bo wydaje mi się, że zobaczysz ten fragment w
-całkiem nowym świetle.
+życzę. A teraz zerknij może ponownie
+[tutaj](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
+bo wydaje mi się, że zobaczysz ten pojawiający się na początku książki fragment w całkiem nowym
+świetle.
 
 **Ostatni motywator**: Jak wspominałem, mam powody sądzić, że nawet jeżeli dotarłaś do tego momentu
 i udało Ci się wykonać poprawnie wszystkie polecenia, możesz nadal mieć poczucie dezorientacji albo
