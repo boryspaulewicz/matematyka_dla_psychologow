@@ -134,11 +134,12 @@ tej pracy, to jest, mówi±c delikatnie, ma³o przekonuj±ca wymówka. Za to wiêkszo¶
 warto¶ciowego do powiedzenia. W³a¶ciwie raz na kilka lat mi siê tak zdaje. Je¿eli wiêc chodzi Ci po
 g³owie (w Polsce czêsto marnie op³acana, ale za to wakacje s± d³ugie) tak zwana kariera akademicka i
 studia doktorskie (które za moich czasów pozostawia³y chyba znacznie wiêcej czasu na rozwijanie siê
-w wybranym przez *siebie* kierunku), to moim zdaniem mo¿esz wielu z nas szybko prze¶cign±æ w
-wybranym przez siebie obszarze w³a¶nie dziêki temu. A jak dodasz mniej lub bardziej regularne
-*æwiczenia z czytania ze zrozumieniem* (do których skutecznie zmusi³y mnie trzy lata studiowania w
-Krakowie filozofii), to Twoja postawa wobec tego, co mo¿na znale¼æ w publikacjach recenzowanych,
-stanie siê tak krytyczna, ¿e nie zabraknie Ci uzasadnionej pewno¶ci, ¿e mo¿esz co¶ wa¿nego zdzia³aæ.
+w kierunku zgodnym z *w³asnymi* zainteresowaniami), to moim zdaniem mo¿esz wielu z nas szybko
+prze¶cign±æ w wybranym przez siebie obszarze w³a¶nie dziêki temu. A jak do tego dodasz jeszcze mniej
+lub bardziej regularne *æwiczenia z czytania ze zrozumieniem* (do których skutecznie zmusi³y mnie
+trzy lata studiowania w Krakowie filozofii), to Twoja postawa wobec tego, co mo¿na znale¼æ w
+publikacjach recenzowanych, stanie siê tak krytyczna, ¿e nie zabraknie Ci uzasadnionej pewno¶ci, ¿e
+mo¿e kiedy¶ co¶ wa¿nego zdzia³asz.
 
 Na koniec zasugerujê Ci co¶, o czym sam muszê sobie stale przypominaæ: Je¿eli chcesz co¶ zrobiæ, ale
 nie mo¿esz siê do tego zabraæ, zrób *jakikolwiek pierwszy krok*. Na przyk³ad, je¿eli chcesz zacz±æ
