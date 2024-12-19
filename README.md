@@ -5,14 +5,14 @@ za pomocą algorytmu.*
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki, ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
 psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To
-między innymi wprowadzenie -
-[jednocześnie](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) i od podstaw - do
-programowania, matematyki i meta-matematyki, teorii typów, wnioskowania statystycznego w wersji
-bayesowskiej i częstościowej, do wnioskowania przyczynowego, ale nie tylko. W późniejszych
-rozdziałach zamierzam uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją
-nowego spojrzenia na psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest
-kontynuacją i rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem
-się zajmować jeszcze na etapie pisania pracy magisterskiej.
+między innymi wprowadzenie - od podstaw i niemal
+[jednocześnie](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) - do programowania,
+matematyki i meta-matematyki, teorii typów, wnioskowania statystycznego w wersji bayesowskiej i
+częstościowej, do wnioskowania przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
+uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
+psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
+rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem się zajmować
+jeszcze na etapie pisania pracy magisterskiej.
 
 Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć, bo są tam nie tylko oparte na wynikach
