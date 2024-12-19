@@ -78,7 +78,7 @@ Najpierw muszę Ci powiedzieć o *hierarchii typów*. Jak wiesz, stała `2` jest
 `Nat`. Zapis `2 : Nat` ma dla Leana sens, bo `Nat` jest również pewną, znaną od razu Leanowi
 stałą. W teorii typów, której używamy w Leanie, *każdy typ* (na przykład typy `Nat` i `Type`) *jest
 również termem*, ale *typu ogólniejszego* inaczej *wyższego* (na przykład `Type : Type 1`), i tak w
-nieskończoność:
+nieskończoność[^1]:
 
 ```lean
 -- 2 to "zwykły" term, to jest taki, który nie jest typem. Ja sobie wyobrażam, że takie termy "są na dnie":
@@ -101,7 +101,7 @@ nieskończoność:
 
 -- A więc pisząc w sposób, którego Lean nie lubi:
 -- 2 : Nat : Type 1 : Type 2 : Type 3 : Type 4 : i tak dalej ...
-```[^1]
+```
 
 Typy wyższych rzędów są potrzebne *tylko* z pewnych nudnawych powodów technicznych i rzadko, o ile w
 ogóle, będą nas interesować. Może słyszałaś o paradoksie albo [antynomii
