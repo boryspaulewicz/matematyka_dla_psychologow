@@ -881,6 +881,6 @@ sobota.
 
 [^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
     [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
-    Zaporożec wykonywali utwory z płyty П'ятниця, której wtedy lubiłem czasem posłuchać. W pewnym
-    momencie któryś z wykonawców wziął butelką i wtedy usłyszał z sali krzyk "Nie pij tej
-    wody!". Uważam, że to było bardzo śmieszne.
+    Zaporożec wykonywali utwory z płyty [П'ятниця](https://www.youtube.com/watch?v=nnWMrmTWonI),
+    której wtedy lubiłem czasem posłuchać. W pewnym momencie któryś z wykonawców wziął butelką i
+    wtedy usłyszał z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
