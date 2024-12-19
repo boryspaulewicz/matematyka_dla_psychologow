@@ -108,11 +108,27 @@ niezwykle skutecznej i gwa³townie zmieniaj±cej nawyki protezy nie mia³bym o tym 
 pojêcia i mimo szczerych chêci, ¿eby zdzia³aæ co¶ warto¶ciowego, dryfowa³bym gdzie¶ pewnie gnany
 wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
 
+W przypadku niektórych rodzajów zachowañ, ale na pewno nie wszystkich, taki monitoring mo¿e byæ
+niezwykle skuteczny i nie trzeba d³ugo czekaæ, ¿eby siê o tym przekonaæ, warto jednak pamiêtaæ, ¿eby
+stosowaæ go z umiarem. Gdy bêd±c studentem psychologii zacz±³em stosowaæ te moje papierowe
+kalendarze, dosz³o do tego, ¿e przez oko³o dwa lata, *ka¿dego dnia*, ³±cznie z weekendami, spêdza³em
+od 4 do 6 godzin, nie licz±c przerw, na systematycznej pracy umys³owej. Poniewa¿ stosowa³em wtedy
+wszystkie te sposoby notowania i uczenia siê, o których przed chwil± pisa³em, moja g³owa by³a
+wype³niona po brzegi psychologi± poznawcz±, statystyk±, metodologi± badañ, jêzykami programowania,
+elementami matematyki i ró¿nymi innymi rzeczami, które akurat wtedy mnie interesowa³y (mia³em bardzo
+wiele, czasem do¶æ kosztownych zainteresowañ). A poniewa¿ moja g³owa by³a tego rodzaju sprawami
+wype³niona stale, to te¿ czêsto o nich mówi³em, nie zawsze zwracaj±c uwagê, czy rozmówca by³ tym
+zainteresowany. Wydaje mi siê, a w³a¶ciwie jestem prawie pewny, ¿e dla mojej ówczesnej partnetki to
+by³o spore wyzwanie. Pó¼niej ju¿ nigdy w nic siê tak nie zanurzy³em i staram siê raczej stosowaæ do
+rady Rachlina, zgodnie z któr± trzeba byæ lekkim jak ptak, ale nie jak piórko. Zreszt± monitoring ma
+i t± zaskakuj±c± cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a, to jednak z jakiego¶ tajemniczego
+powodu nawet Ci, którzy na nim najbardziej korzystaj±, pêdzej czy pó¼niej przestaj± go stosowaæ.
+
 Na koniec zasugerujê Ci co¶, o czym sam muszê sobie stale przypominaæ: Je¿eli chcesz co¶ zrobiæ, ale
 nie mo¿esz siê do tego zabraæ, zrób *jakikolwiek pierwszy krok*. Na przyk³ad, je¿eli chcesz zacz±æ
 siê uczyæ z jakiej¶ ksi±¿ki, otwórz t± ksi±¿kê, albo tylko po³ó¿ j± w widocznym miejscu. A je¿eli
-trudno Ci siê zmusiæ i do tego, to mo¿esz spróbowaæ ... zrobiæ pierwszy krok *w kierunku zrobienia
-pierwszego kroku*, na przyk³ad tylko wspomnieæ komu¶, co "chcia³aby¶ chcieæ" zrobiæ[^1], na mnie to
+trudno Ci siê zmusiæ i do tego, to mo¿esz spróbowaæ zrobiæ pierwszy krok *w kierunku zrobienia
+pierwszego kroku*, na przyk³ad tylko wspomnieæ komu¶, co "chcia³aby¶ chcieæ" zrobiæ[^1]. Na mnie to
 czasami dzia³a. To nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje
 szanse[^2].
 
