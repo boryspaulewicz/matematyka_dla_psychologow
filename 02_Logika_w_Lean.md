@@ -97,11 +97,11 @@ nieskończoność:
 
 --- ...
 
-#check Type 665 -- Nie umieszczaj nigdy kursora na tej linii! I nie pij tej wody!![^1]
+#check Type 665 -- Nie umieszczaj nigdy kursora na tej linii! I nie pij tej wody!!
 
 -- A więc pisząc w sposób, którego Lean nie lubi:
 -- 2 : Nat : Type 1 : Type 2 : Type 3 : Type 4 : i tak dalej ...
-```
+```[^1]
 
 Typy wyższych rzędów są potrzebne *tylko* z pewnych nudnawych powodów technicznych i rzadko, o ile w
 ogóle, będą nas interesować. Może słyszałaś o paradoksie albo [antynomii
