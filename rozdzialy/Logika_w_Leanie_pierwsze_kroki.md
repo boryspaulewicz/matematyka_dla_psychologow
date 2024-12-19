@@ -1,4 +1,4 @@
-# Twierdzenia to funkcje
+# Logika na Leanie, pierwsze kroki
 
 **Polecenie**: Żeby było łatwiej, zaczniemy od niezrozumiałego na tym etapie zadania. Pamiętasz
 naszą uogólnioną identyczność zdefiniowaną przy pomocy zapisu skrótowego?
