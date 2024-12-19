@@ -1,10 +1,10 @@
 **(De)Motywator**: Gdy już objaśnię ogólną strukturę i sposób działania funkcji w Leanie, pokażę Ci,
 że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik logiczny ∀,
 który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice konstruktywnej
-działa *implikacja* (chodzi o symbol →, który czytamy *jeżeli, to*), bo ta jest w tej logice tylko
-pewnego rodzaju funkcją. Pozostałe standardowe *spójniki logiczne* (∧, ∨ i ∃), za wyjątkiem
-*negacji* (¬), można również zdefiniować za pomocą funkcji / implikacji, a żeby z kolei zdefiniować
-negację, wystarczy użyć czegoś, co w pewnym sensie również zachowuje się jak funkcja.
+działa *implikacja* (chodzi o symbol →, który czytamy *jeżeli, to*), bo ta jest w logice
+konstruktywnej tylko pewnego rodzaju funkcją. Pozostałe standardowe *spójniki logiczne* (∧, ∨ i ∃),
+za wyjątkiem *negacji* (¬), można również zdefiniować za pomocą funkcji / implikacji, a żeby z kolei
+zdefiniować negację, wystarczy użyć czegoś, co w pewnym sensie zachowuje się jak funkcja.
 
 Ponieważ predykaty (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz
 później, również funkcje, ucząc się w ten sposób jednocześnie - zarazem na skróty i od podstaw -
