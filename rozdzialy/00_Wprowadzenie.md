@@ -190,11 +190,12 @@ zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub
 skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
 nie by³o w okolicy ¿adnych specjalistów, którzy mogliby mi w tym czasem pomóc. Gdy czu³em, ¿e muszê
 siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem,
-potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego jeszcze
-wtedy serwisu AvaxHome) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze 10 do 20 stron
-szukaj±c b³êdów, po czym pisa³em do nich maile. W tych mailach zwykle wyra¿a³em szczery podziw i
-g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em tak ostro¿nie, jak tylko
-umia³em (czyli pewnie niezbyt) o znalezionych wcze¶niej b³êdach. A te zawsze mo¿na by³o znale¼æ.
+potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
+serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez
+pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do nich maile. W tych mailach zwykle
+wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em
+tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych wcze¶niej b³êdach. A te
+zawsze mo¿na by³o znale¼æ.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
