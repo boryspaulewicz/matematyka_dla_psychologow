@@ -43,6 +43,8 @@ Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 [R8 Rozdział, w którym autor ulega kilkukrotnie nadmiernej ekscytacji: Logika na Leanie, pierwsze
 kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
 
+[R9 Nareszcie niedobór nadmiaru tekstu: Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
+
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
 zmienią.
 
