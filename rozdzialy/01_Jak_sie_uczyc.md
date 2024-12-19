@@ -119,4 +119,4 @@ szanse[^2].
 
 [^1]: [Rekurencj±](https://pl.wikipedia.org/wiki/Rekurencja) albo inaczej rekursj± zajmiemy siê w jednym z pó¼niejszych rozdzia³ów.
 
-[^2]: Mo¿e wtedy zadzia³aæ co¶, co za Rachlinem nazwa³bym chêtnie wstêpnym zaanga¿owaniem, gdyby nie to, ¿e ten termin jest ju¿ zajêty. Mo¿na powiedzieæ, ¿e próbuj±c zastosowaæ t± metod± sami wobec siebie stosujemy technikê [stopy w drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
+[^2]: Mo¿e wtedy zadzia³aæ co¶, co za Rachlinem nazwa³bym chêtnie wstêpnym zaanga¿owaniem, gdyby nie to, ¿e ten termin jest zajêty. Mo¿na powiedzieæ, ¿e próbuj±c zastosowaæ t± metod± sami wobec siebie stosujemy technikê [stopy w drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
