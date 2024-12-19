@@ -172,8 +172,9 @@ oczywi¶cie mo¿na je omin±æ, o ile tylko pó¼niejsze tre¶ci bêd± nadal zrozumia³e.
 Dalej robi³em wiêc notatki i zaplanowane, generatywne powtórki, ale nie robi³em ¿adnych zadañ, które
 mnie nie zainteresowa³y i które nie wydawa³y mi sie wa¿ne. Z czasem zacz±³em te¿ zauwa¿aæ
 b³êdy. Czytaj±c zawsze szukam b³êdów, po prostu tak mam i moje do¶wiadczenie wskazuje, ¿e w
-d³u¿szych tekstach napisanych w jêzyku naturalnym jakie¶ b³êdy zawsze s±. W moich d³u¿szych tekstach
-s± z pewno¶ci±. Poniewa¿ czu³em, ¿e mam racjê, napisa³em do [Roba
+d³u¿szych tekstach napisanych w jêzyku naturalnym jakie¶
+[b³êdy](https://www.youtube.com/watch?v=6LqnBrBSFyU) zawsze s±. W moich d³u¿szych tekstach s± z
+pewno¶ci±. Poniewa¿ czu³em, ¿e mam racjê, napisa³em do [Roba
 Nederpelta](https://wsinrpn.win.tue.nl/), który potraktowa³ mnie niezwykle ¿yczliwie i
 powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje nazwisko pojawi³o siê w oficjalnej erracie
 do tej ksi±¿ki, jako nazwisko jednej z osób, której autorzy dziêkuj±. A mi akurat dziêkuj± za
