@@ -45,13 +45,11 @@ kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
 
 [R9 Nareszcie niedobór nadmiaru tekstu: Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
 
+[R10 Predykaty, relacje, duży kwantyfikator i dowód na istnienie
+Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
+
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
 zmienią.
-
-[STARE: Lean dla początkujących - wersja zwięzła](./01z_Funkcje_i_Logika_w_Lean.md)
-
-[Predykaty, relacje, duży kwantyfikator i dowód na istnienie
-Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
 [Modus ponens, dwa wymiary teorii typów zależnych i nieważność
 dowodu](./04_Modus_Ponens_Niewaznosc_Dowodu.md)
