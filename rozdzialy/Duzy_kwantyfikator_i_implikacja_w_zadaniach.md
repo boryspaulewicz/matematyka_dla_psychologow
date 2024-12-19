@@ -1,7 +1,7 @@
-Żeby wprowadzić symbol dużego kwantyfikatora należy napisać `\forall`. Dla nasz duży kwantyfikator
-to nic innego jak zapisanie parametru po drugiej stronie dwukropka. Zwracam uwagę, że po zmiennej
-zmiennej związanej kwantyfikatorem musi się pojawić przecinek, a po ostatnim takim przecinku nie ma
-już dwukropka. Zrób proszę tyle dowodów i w taki sposób, w jaki tylko masz ochotę.
+Żeby wprowadzić symbol dużego kwantyfikatora należy napisać `\forall`. Dla nas duży kwantyfikator to
+nic innego jak zapisanie parametru po drugiej stronie dwukropka. Zwracam uwagę, że po zmiennej
+związanej takim kwantyfikatorem musi się pojawić przecinek, a po ostatnim takim przecinku nie ma już
+dwukropka. Zrób proszę tyle dowodów i w taki sposób, w jaki tylko masz ochotę, ale nie więcej.
 
 ```lean
 theorem t1a : ∀ p : Prop, p → p :=
