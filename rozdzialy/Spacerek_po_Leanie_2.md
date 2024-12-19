@@ -1,5 +1,24 @@
 # Spacerek po Leanie, wersja druga
 
+**(De)Motywator**: Gdy w miarę dobrze zrozumiesz ogólną strukturę i sposób działania funkcji w
+Leanie, pokażę Ci, że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o
+spójnik logiczny ∀, który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w
+logice konstruktywnej działa *implikacja* (chodzi o symbol →, który czytamy *jeżeli, to*), bo ta
+jest w tej logice tylko pewnego rodzaju funkcją. Pozostałe standardowe *spójniki logiczne* (∧, ∨ i
+∃), za wyjątkiem *negacji* (¬), można również zdefiniować za pomocą funkcji / implikacji, a żeby z
+kolei zdefiniować negację, wystarczy użyć czegoś, co w pewnym sensie również zachowuje się jak
+funkcja.
+
+Ponieważ predykaty (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz
+później, również funkcje, ucząc się w ten sposób jednocześnie - zarazem na skróty i od podstaw -
+matematyki i programowania, stosunkowo szybko opanujesz elementy logiki predykatów. To narzędzie
+pozwoli Ci prześlwietlać logiczną strukturę nie tylko dowodów, ale również wielu rozumowań
+zapisanych w języku naturalnym, na przykład (rzekomych) uzasadnień głównych wniosków w artykułach
+empirycznych. Będziesz mogła wtedy z nieosiągalną inaczej precyzją wskazywać, gdzie dokładnie w tych
+rozumowaniach znajdują się dziury, o ile oczywiście jakieś będą. Interesujący, mam nadzieję, że
+zabawny i celowo niedokończony przykład takiej analizy znajdziesz [w jednym z późniejszych
+rozdziałów](./Predykaty_dowod_Anzelma.md).
+
 Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
 do technicznych znaczeń niektórych słów. Tylko w ten sposób będziesz miała szansę dobrze zrozumieć,
 o czym mówię. Z niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą
@@ -251,7 +270,7 @@ formalizowania treści wyrażonych w języku naturalnym, konstruowania dowodów 
 metodologii badań, a wszystko to w interakcji z programem, który w tym pomaga, takim jak
 Lean. Postaram się, żeby ta nauka była dla Ciebie możliwie łatwa, przyjemna i porzyteczna, a jeśli w
 którymś miejscu mi się to nie uda, proszę, żebyś mi o tym powiedziała, żebym miał szansę zrobić to
-lepiej (borys.paulewicz@gmail.com).
+lepiej (boryslaw.paulewicz@uj.edu.pl).
 
 Żeby skorzystać z tego "sposobu na matematykę" (i metodologię badań, a może nawet na całą
 psychologię, albo chociaż pewną jej znaczącą część), trzeba się *cierpliwie przyzwyczajać* do
