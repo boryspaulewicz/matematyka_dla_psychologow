@@ -48,6 +48,8 @@ kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
 [R10 Predykaty, relacje, duży kwantyfikator i dowód na istnienie
 Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
+[R11 Jakiś żart przed dwukropkiem: Duży kwantyfikator i implikacja w zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
+
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
 zmienią.
 
