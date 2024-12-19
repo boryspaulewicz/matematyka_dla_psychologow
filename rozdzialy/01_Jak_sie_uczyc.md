@@ -68,14 +68,30 @@ notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt "linearn
 ¶wiat³a na stronie. Robiê tak, bo takie notatki mog± ostatecznie s³u¿yæ jako pomoc w powtarzaniu,
 nie zmieniaj±c za bardzo tego *powtarzania* w niemal bezwarto¶ciowe jako forma uczenia siê
 *rozpoznawanie*. Prawie zawsze zapisujê te¿ pytania, w±tpliwo¶ci i pomys³y, zreszt± niekoniecznie
-zwi±zane w jaki¶ oczywisty sposób z g³ówn± tre¶ci±. A powtarzam nie zagl±daj±c pocz±tkowo do
-notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez rozpoznawanie, jak wspomnia³em, nie ma
-sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na kartce, próbujê *opowiedzieæ* to, co mam
-powtórzyæ. W ten sposób natychmiast zauwa¿am, czego albo dobrze nie pamiêtam, albo czego nie
-rozumiem w stopniu, który by mi to pozwala³ w miarê jasno komu¶ wyt³umaczyæ. Zaraz potem oczywi¶cie
-siêgam do notatek lub ¼ród³owych materia³ów i upewniam siê, ile tre¶ci i jak dobrze uda³o mi siê w
-ten sposób powtórzyæ. Mo¿na by powiedzieæ, ¿e to wcale nie powtórki, tylko trening u¿ywania
-nabywanej wiedzy, gdyby nie to, ¿e nic innego nie jest celem sensownego powtarzania.
+zwi±zane w jaki¶ oczywisty sposób z g³ówn± tre¶ci±. 
+
+Skoro ju¿ o tym mowa, to powiem jeszcze, jak± rolê w moim ¿yciu odegra³o zapisywanie (na kartkach!)
+spostrze¿eñ, pomys³ów i pytañ. Poniewa¿ jeste¶my wszyscy istotami skoñczonymi, nawet Ci najbardziej
+twórczy spo¶ród nas w ci±gu swojego ¿ycia mog± wpa¶æ na skoñczon± liczbê dobrych pomys³ów. Te
+przychodz± nam do g³owy czasem same, a czasem jako rezultat zmagania siê z jakim¶ problemem czy
+uczenia siê. Psychologowie zajmuj±cy siê twórczo¶ci± czêsto mówi±, ¿e pomys³y, których siê w ¿aden
+sposób nie "wyjê³o z g³owy", czy to mówi±c o nich na g³os, czy to zapisuj±c, maj± tendencjê do
+zalegania, a przez to zdaj± siê zajmowaæ nasz± "mentaln± przestrzeñ", w której - gdyby w niej by³o
+trochê wiêcej miejsca - mog³oby siê mo¿e pojawiæ co¶ nowego. To jest jeden dobry powód do
+zapisywania, ale nie jedyny. Jest te¿ taki, ¿e gdy co¶ zapiszemy, to co¶ staje siê czym¶ od nas
+odrêbnym i w pewnym sensie nabiera przez to pewnej autonomii. Taki zapisany pomys³, w±tpliwo¶æ albo
+obserwacja mo¿e czasem dzia³aæ jak zanurzone w roztworze soli drobne cia³o sta³e, taki zal±¿ek
+przysz³ego kryszta³u, wokó³ którego samoistnie zaczyna tworzyæ siê struktura z³o¿ona z nowych
+pomys³ów, obserwacji i pytañ.
+
+A powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez
+rozpoznawanie, jak wspomnia³em, nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na
+kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. W ten sposób natychmiast zauwa¿am, czego albo
+dobrze nie pamiêtam, albo czego nie rozumiem w stopniu, który by mi to pozwala³ w miarê jasno komu¶
+wyt³umaczyæ. Zaraz potem oczywi¶cie siêgam do notatek lub ¼ród³owych materia³ów i upewniam siê, ile
+tre¶ci i jak dobrze uda³o mi siê w ten sposób powtórzyæ. Mo¿na by powiedzieæ, ¿e to wcale nie
+powtórki, tylko trening u¿ywania nabywanej wiedzy, gdyby nie to, ¿e nic innego nie jest celem
+sensownego powtarzania.
 
 Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
 charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który wymy¶li³em
@@ -93,5 +109,14 @@ wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
 
 Na koniec zasugerujê Ci co¶, o czym sam muszê sobie stale przypominaæ: Je¿eli chcesz co¶ zrobiæ, ale
 nie mo¿esz siê do tego zabraæ, zrób *jakikolwiek pierwszy krok*. Na przyk³ad, je¿eli chcesz zacz±æ
-siê uczyæ z jakiej¶ ksi±¿ki, otwórz t± ksi±¿kê, albo tylko po³ó¿ j± w widocznym miejscu. To nie da
-gwarancji sukcesu, ale zwiêkszy Twoje szanse dziêki efektowi wstêpnego zaanga¿owania.
+siê uczyæ z jakiej¶ ksi±¿ki, otwórz t± ksi±¿kê, albo tylko po³ó¿ j± w widocznym miejscu. A je¿eli
+trudno Ci siê zmusiæ i do tego, to mo¿esz spróbowaæ ... zrobiæ pierwszy krok *w kierunku zrobienia
+pierwszego kroku*, na przyk³ad tylko wspomnieæ komu¶, co "chcia³aby¶ chcieæ" zrobiæ[^1], na mnie to
+czasami dzia³a. To nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje
+szanse[^2].
+
+### Przypisy
+
+[^1]: [Rekurencj±](https://pl.wikipedia.org/wiki/Rekurencja) albo inaczej rekursj± zajmiemy siê w jednym z pó¼niejszych rozdzia³ów.
+
+[^2]: Mo¿e wtedy zadzia³aæ co¶, co za Rachlinem nazwa³bym chêtnie wstêpnym zaanga¿owaniem, gdyby nie to, ¿e ten termin jest ju¿ zajêty. Mo¿na powiedzieæ, ¿e próbuj±c zastosowaæ t± metod± sami wobec siebie stosujemy technikê [stopy w drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)

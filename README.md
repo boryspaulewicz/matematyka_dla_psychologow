@@ -1,15 +1,24 @@
-*Wszystko, co da się powiedzieć jasno, można zapisać w teorii typów*
+*Wszystko, co można zrozumieć, da się powiedzieć jasno. Wszystko, co da się powiedzieć jasno, można
+zapisać w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów, można sprawdzić
+za pomocą algorytmu.*
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki, ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
-starszych lat na kierunku psychologia, ale także dla badaczy i teoretyków zajmujących się
-uprawianiem psychologii naukowej. To między innymi wprowadzenie do programowania, (meta-)matematyki,
-teorii typów zależnych, wnioskowania statystycznego i przyczynowego, ale nie tylko. W późniejszych
-rozdziałach zamierzam uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją
-nowego spojrzenia na psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest
-kontynuacją i rozwinięciem wątków, z którymi zmagałem się pisząc [pracę
-doktorską](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej.
+psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To
+między innymi wprowadzenie - jednocześnie i od podstaw - do programowania, matematyki i
+meta-matematyki, teorii typów, wnioskowania statystycznego w wersji bayesowskiej i częstościowej, do
+wnioskowania przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam uzasadnić, objaśnić
+i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
+szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i rozwinięciem wątków,
+z którymi zmagałem się pisząc [pracę doktorską](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem
+się zajmować jeszcze na etapie pisania pracy magisterskiej.
+
+Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
+kodu ani żadnych zadań, to polecam je przynajmniej przejżeć, bo są tam nie tylko oparte na wynikach
+badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyczące tego, jak warto podchodzić
+do nauki *jakichkolwiek* treści, ale również uwagi dotyczące właściwego moim zdaniem *nastawienia*,
+które może znacząco zwiększyć szansę na sukces w zmaganiach z jak na książkę skierowaną do
+psychologów dość *nietypowymi tematami*, które później najlepiej jak umiem objaśniam.
 
 (NIEAKTUALNE) Niektóre rozdziały mają więcej niż jedną wersję. Jedna zawiera liczne objaśnienia,
 dygresje, a czasem próby rozbawienia czytelnika - to jest tak zwana wersja przegadana. Na pewnych

@@ -117,7 +117,7 @@ usuń tą strzałkę, bo sama strzałka nie jest jeszcze poprawnym fragmentem ko
 
 Nawet najprostsze fragmenty kodu możemy zapisać w Leanie na wiele sposobów, w tym również skrótowo,
 pomijając informacje, których Lean może się sam domyślić. Ta elastyczność ma służyć użytkownikowi,
-ale na razie nie będziemy z tego korzystać, bo naszym celem jest dobre opanowanie podstaw, a nie jak
+ale na razie nie będziemy z niej korzystać, bo naszym celem jest dobre opanowanie podstaw, a nie jak
 najszybsze korzystanie z udogodnień.
 
 Będę odtąd używał *komentarzy*. Komentarzem jest tekst zaczynający się od znaków `--`. Lean ignoruje
