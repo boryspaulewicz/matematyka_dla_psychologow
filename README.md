@@ -42,10 +42,10 @@ się uzupełniać, warto więc przeczytać obie.
 jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm
 Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
+[Logika w Leanie: pierwsze kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
+
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
 zmienią.
-
-[WORK IN PROGRESS: Logika w Lean: pierwsze kroki](./02_Logika_w_Lean.md)
 
 [STARE: Lean dla początkujących - wersja zwięzła](./01z_Funkcje_i_Logika_w_Lean.md)
 
