@@ -375,7 +375,8 @@ złożonych funkcji.
 Punkt 4 tego być może dowodu wydaje się kluczowy. W tym momencie ma się rzekomo pojawiać
 sprzeczność, a jeśli faktycznie się wtedy pojawia, to cel jest już w zasadzie osiągnięty. W punkcie
 5 pojawia się jedynie ogłoszenie tej rzekomej sprzeczności. Ewidentnie czegoś nam brakuje i
-dotyczasowy kod jakoś nie "iskrzy naszej radości" (ang. *spark joy*).
+dotyczasowy kod jakoś nie "iskrzy naszej radości" (ang. [*spark
+joy*](https://www.netflix.com/title/80209379)).
 
 Psze pana, a przecież w trybie interaktywnym było dowodzenie jakby od końca. To może też tak zróbmy?
 Znakomity pomysł, gratuluję. Żeby bawić się z Anzelem w jego grę musimy przyjąć aksjomat, że nie da
@@ -600,10 +601,10 @@ od Ciebie. Jestem głupi, więc odgrywanie dobrze roli naukowca to wszystko, na 
 dobry dzień. Według mnie, to właśnie, między innymi, oznacza bycie naukowcem. 
 
 Co jeszcze, według mnie, poza czymś w rodzaju racjonalności, oznacza bycie naukowcem? Dziękuję, że
-pytasz! Między innymi *wolność*. Pod tym względem (jak i wieloma innymi) zgadzam się (zgadzam się
-jest chyba za mocno powiedziane - raczej mu ufam) z genialnym Noamem Chomskim, który uważa się za
-*anarchistę*. Brzmi może niepokojąco, ale chodzi tak naprawdę o postawę, która w mojej ocenie nie
-jest wcale ekscentryczna ani ekstremalna:
+pytasz! Między innymi [*wolność*](https://www.youtube.com/watch?v=diYAc7gB-0A). Pod tym względem
+(jak i wieloma innymi) zgadzam się (zgadzam się jest chyba za mocno powiedziane - raczej mu ufam) z
+genialnym Noamem Chomskim, który uważa się za *anarchistę*. Brzmi może niepokojąco, ale chodzi tak
+naprawdę o postawę, która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky

@@ -77,7 +77,7 @@ jêzyku naturalnym*, czyli w tych czê¶ciach, w których mniej lub bardziej po swoj
 lub zapêdzam siê w dygresje. To ryzyko nie jest wcale ma³e, bo jestem tylko matematycznym
 amatorem. Co prawda co¶ tam mogê pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca,
 ale nie ma tego wiele. Gdyby¶ wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym
-napiszesz. Najchêtniej korzystam ze skrzynki mailowej borys.paulewicz@gmail.com.
+napiszesz (boryslaw.paulewicz@uj.edu.pl).
 
 Mogê Ciê za to zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach formalnych*,
 to jest zakodowanych w pewnej wersji jêzyka teorii typów zale¿nych, z której korzysta asystent
@@ -204,7 +204,7 @@ drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³ym zrobiæ po swojemu analizê wynik
 eksperymentu, który przeprowadzi³ w latach 60tych. Jak siê potem dowiedzia³em, pomiar czasu reakcji
 polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej wokó³ obracaj±cego siê w równym
 tempie bêbna. Pisz±c w odpowiedzi, zreszt± o ile pamiêtam do¶æ szybkiej, Saul zaproponowa³, ¿e
-*zleci digitalizacjê swojej sekretarce*. Zawstydzony napisa³em wtedy, ¿e nie trzeba.
+*zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie trzeba.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
 pisa³em, przytrafi³o mi siê w szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego
@@ -255,16 +255,17 @@ rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chy
 któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
-przygodê z Lispem, która zmieni³a na zawsze mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do
-mnie, gdy bêd±c jeszcze na studiach magisterskich pisa³em w C++ jak±¶ procedurê do
-eksperymetu. Zapyta³, w jakim jêzyku piszê, na co odpowiedzia³em, ¿e w C++. On wtedy powiedzia³,
-¿artuj±c, ¿e gdyby jego koledzy dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em,
-niezra¿ony, w czym On pisze, na co powiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co
-to Lisp, a nied³ugo pó¼niej to by³ ju¿ mój ulubiony jêzyk i na d³ugo nim pozosta³. W³a¶nie dlatego
-piszê t± ksi±¿kê w [Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od
-dawana tak mocno zro¶niêty, ¿e czasem wrêcz zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e
-trzeba czasu, byæ mo¿e jakiego¶ sposobu na siebie i dobrych przyjació³; wtedy mo¿na zrozumieæ, co
-tylko siê chce. What one fool can do, another can.
+przygodê z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
+zmieni³a na zawsze mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do mnie, gdy bêd±c jeszcze
+na studiach magisterskich pisa³em w C++ jak±¶ procedurê do eksperymetu. Zapyta³, w jakim jêzyku
+piszê, na co odpowiedzia³em, ¿e w C++. On wtedy powiedzia³, ¿artuj±c, ¿e gdyby jego koledzy
+dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em, niezra¿ony, w czym On pisze, na
+co powiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co to Lisp, a nied³ugo pó¼niej to
+by³ ju¿ mój ulubiony jêzyk i na d³ugo nim pozosta³. W³a¶nie dlatego piszê t± ksi±¿kê w
+[Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawana tak mocno
+zro¶niêty, ¿e czasem wrêcz zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu, byæ
+mo¿e jakiego¶ sposobu na siebie i dobrych przyjació³; wtedy mo¿na zrozumieæ, co tylko siê chce. What
+one fool can do, another can.
 
 ### Przypisy
 

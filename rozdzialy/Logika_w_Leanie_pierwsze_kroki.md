@@ -773,7 +773,9 @@ Nasze twierdzenia zakodowane w Leanie są więc *jednocześnie*:
 W ten oto sposób *znika różnica między uprawianiem matematyki teoretycznej i
 programowaniem*. Zobaczysz, przyjdzie taki moment, o ile już nie nastąpił, że będzie Ci *trudno*
 oddzielić te dwa punkty widzenia, tak jak od dawna trudno Ci oddzielić dwa sposoby myślenia - czysto
-geometryczny i liczbowy - na przykład o trójkątach, i tego Ci z całego serca życzę.
+geometryczny i liczbowy - na przykład wtedy, gdy myślisz o trójkątach, i tego Ci z całego serca
+życzę. A teraz zerknij może ponownie [tutaj](), bo wydaje mi się, że zobaczysz ten fragment w
+całkiem nowym świetle.
 
 **Ostatni motywator**: Jak wspominałem, mam powody sądzić, że nawet jeżeli dotarłaś do tego momentu
 i udało Ci się wykonać poprawnie wszystkie polecenia, możesz nadal mieć poczucie dezorientacji albo

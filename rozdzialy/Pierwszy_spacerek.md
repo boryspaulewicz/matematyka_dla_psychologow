@@ -32,6 +32,8 @@ i *(2 + 3 + a) + b = b + (2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontek¶cie (
 *a* i *b* s± liczbami naturalnymi) jak±¶ liczbê naturaln±, i tak dalej. My¶lê, ¿e zgodzisz siê ze
 mn±, ¿e tego rodzaju formalne operacje wiele dzieci opanowuje nie¼le w szkole podstawowej.
 
+## Ten tytu³ jest tylko po to, ¿eby do niego pó¼niej wróciæ
+
 Mo¿emy popatrzeæ na to wszystko równie¿ tak: Ten fragment matematycznej prozy jest jak *przepis*,
 który *stosuj±c* da siê wyprodukowaæ *nieskoñczenie wiele prawdziwych zdañ* na temat liczb
 naturalnych. Mo¿emy nawet na niego popatrzeæ jak na co¶ w rodzaju maszyny albo mechanizmu, który
@@ -42,12 +44,28 @@ punkt wyj¶cia i - jak siê przekonasz - w pewnym momencie to bêdzie równie¿ nasz 
 Spróbuj chwilowo potraktowaæ takie formalne regu³y jak te wyra¿one w przytoczonym fragmencie jakby
 to by³y regu³y gry, która nie musi mieæ ¿adnego sensu. Uwierz mi, bo sprawdza³em to wielokrotnie, na
 tym etapie potrzeba sensu mo¿e Ci przeszkadzaæ. Obiecujê, ¿e sens siê sam pojawi, tylko mo¿e kiedy
-indziej. Naprawdê uwa¿am, ¿e zdolno¶æ do tymczasowego st³umienia w sobie potrzeby sensu bywa bardzo
-korzystna, a czasem wrêcz nieodzowna w nauce matematyki.
+indziej. 
+
+Naprawdê uwa¿am, ¿e zdolno¶æ do tymczasowego st³umienia w sobie potrzeby sensu bywa bardzo
+korzystna, a czasem wrêcz nieodzowna w nauce matematyki. Od kilku lat prowadzê na Uniwersytecie
+Jagielloñskim dwusemestralny kurs dla doktorantów dotycz±cy wnioskowania przyczynowego i
+bayesowskiego. Bez przesady mogê powiedzieæ, ¿e na ten kurs trafiaj± nieodmiennie wymarzeni wprost
+studenci, tacy, którzy wydaj± mi siê czêsto autentycznie zainteresowane poszerzaniem swojej
+wiedzy. Prêdzej czy pó¼niej zaczynam na tym kursie mówiæ o twierdzeniu Bayesa, ale od niedawna robiê
+to inaczej. 
+
+Przedtem poprzedza³em wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiada³em
+uczestnikom, ¿e zaraz bêd± sami go dowodziæ, zauwa¿a³em u wielu z nich objawy lekkiej
+paniki. Podobn± panikê widzia³em zreszt± w oczach pracowników naukowych, którzy byli obecni na moim
+otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawi³ siê symbol *sumy indeksowanej*. W tym
+roku po po raz pierwszy spróbowa³em wprowadziæ twierdzenie Bayesa bez ¿adnego wstêpu, na pierwszych
+albo drugich zajêciach, i postara³em siê nak³oniæ wszystkich, ¿eby skupili siê tylko na bardzo
+prostych w tym wypadku operacjach formalnych. Ró¿nica w wykonaniu tego zadania by³a natychmiast
+oczywista.
 
 **Polecenie**: Znajd¼ czyst± kartkê papieru i co¶ do pisania. Napisz na niej trzy zdania, które
-bêdziemy chwilowo rozumieæ jako *aksjomaty*, czyli *regu³y gry*, albo lepiej *regu³y jêzykowe* czy
-wrêcz *komunikacyjne*, na które umawiamy siê bez uzasadnienia:
+bêdziemy chwilowo rozumieæ jako *aksjomaty*, czyli *regu³y gry*, albo jeszcze lepiej *regu³y
+jêzykowe* czy wrêcz *regu³y komunikacyjne*, na które umawiamy siê bez uzasadnienia:
 
 1. Istniej± tak zwane *zdarzenia*.
 
@@ -90,7 +108,7 @@ To fakt, ¿e wersja twierdzenia Bayesa, któr± uda³o Ci siê udowodniæ, jest wersj±
 uproszczon±. Prawdopodobieñstwa nie mog± byæ mniejsze ni¿ *0* ani wiêksze ni¿ *1*, a nasze
 prawdopodobieñstwa to dowolne liczby, nie wiadomo nawet jakie, czy na przyk³ad rzeczywiste, czy
 wymierne. Tak siê jednak sk³ada, ¿e nie potrzebowali¶my korzystaæ z tych w³asno¶ci
-prawdopodobieñstwa, nasz aksjomat nie by³ a wiêc wcale *niezgodny* z rachunkiem prawdopodobieñstwa,
+prawdopodobieñstwa, nasz aksjomat nie by³ wiêc wcale *niezgodny* z rachunkiem prawdopodobieñstwa,
 by³ tylko *s³abszy*.
 
 Wypada³oby poza tym wprowadziæ pojêcie *zmiennnej losowej*, a zamiast o *zdarzeniach* powinni¶my

@@ -11,39 +11,36 @@ matematyki i meta-matematyki, teorii typów, wnioskowania statystycznego w wersj
 częstościowej, do wnioskowania przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
 uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
 psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
-rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf), a którymi zacząłem się zajmować
-jeszcze na etapie pisania pracy magisterskiej.
+rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zresztą zacząłem się
+zajmować jeszcze na etapie pisania pracy magisterskiej.
 
 Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
-kodu ani żadnych zadań, to polecam je przynajmniej przejżeć, bo są tam nie tylko oparte na wynikach
-badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyczące tego, jak warto podchodzić
-do nauki *jakichkolwiek* treści, ale również uwagi dotyczące właściwego moim zdaniem *nastawienia*,
-które może znacząco zwiększyć szansę na sukces w zmaganiach z jak na książkę skierowaną do
-psychologów dość *nietypowymi tematami*, które później najlepiej jak umiem objaśniam.
+kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
+wynikach badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyczące tego, jak warto
+podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące właściwego moim zdaniem
+*nastawienia*, które może znacząco zwiększyć szansę na sukces w zmaganiach z jak na książkę
+skierowaną do psychologów dość nietypowymi tematami, które później najlepiej jak umiem objaśniam.
 
-(NIEAKTUALNE) Niektóre rozdziały mają więcej niż jedną wersję. Jedna zawiera liczne objaśnienia,
-dygresje, a czasem próby rozbawienia czytelnika - to jest tak zwana wersja przegadana. Na pewnych
-etapach czytania i uczenia się rozwlekłe komentarze są moim zdaniem przeszkodą. Ten problem ma
-rozwiązać wersja zwięzła, która jest też chyba lepsza do powtórek. Uwaga - treści obydwu wersji mogą
-się uzupełniać, warto więc przeczytać obie.
+[R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
-[Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
+[R2 Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
 
-[Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
+[R3 Do *czego* autor zmierza?!](./rozdzialy/02_Cel.md)
 
-[Do *czego* autor zmierza?!](./rozdzialy/02_Cel.md)
+[R4 Pierwszy spacerek po łączce matematyki (poradzenie sobie z tym zajęło moim studentom około 15
+minut)](./rozdzialy/Pierwszy_spacerek.md)
 
-[Pierwszy spacerek po łączce matematyki (poradzenie sobie z tym zajęło moim studentom około 15 minut)](./rozdzialy/Pierwszy_spacerek.md)
+[R5 Polacy czytają na potęgę: Spacerek po Leanie, wersja
+pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 
-[Polacy czytają na potęgę: Spacerek po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
+[R6 Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja
+druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
-[Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
-
-[Tytuł nie zachęca, ale za to zawartość również nie zachęca: Być może nie wiesz, że już wiesz, czym
-jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm
+[R7 Tytuł nie zachęca, ale za to zawartość również nie zachęca: Być może nie wiesz, że już wiesz,
+czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm
 Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
-[Rozdział, w którym autor ulega kilkukrotnie nadmiernej ekscytacji: Logika na Leanie, pierwsze
+[R8 Rozdział, w którym autor ulega kilkukrotnie nadmiernej ekscytacji: Logika na Leanie, pierwsze
 kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
 
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
@@ -51,9 +48,11 @@ zmienią.
 
 [STARE: Lean dla początkujących - wersja zwięzła](./01z_Funkcje_i_Logika_w_Lean.md)
 
-[Predykaty, relacje, duży kwantyfikator i dowód na istnienie Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
+[Predykaty, relacje, duży kwantyfikator i dowód na istnienie
+Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
-[Modus ponens, dwa wymiary teorii typów zależnych i nieważność dowodu](./04_Modus_Ponens_Niewaznosc_Dowodu.md)
+[Modus ponens, dwa wymiary teorii typów zależnych i nieważność
+dowodu](./04_Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [Negacja, absurd, fałsz, sprzeczność i eksplozja](./05_Negacja.md)
 

@@ -37,7 +37,7 @@ powtórki zapis pamiêciowy utrwala siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej
 coraz lepszy skutek. Dzieje siê wtedy, mam wra¿enie, jeszcze co¶ innego - tre¶æ zdaje siê
 subiektywnie *kurczyæ*, tak jakby liczne powi±zane ze sob± reprezentacje pamiêciowe zaczyna³y w
 coraz wiêkszym stopniu tworzyæ jedn±, zwart±, hierarchiczn± strukturê, u³atwiaj±c± szybkie
-odnajdywanie tego, co jest w danym kontek¶cie najwa¿niejsze.
+odnajdywanie tego, co w danym kontek¶cie najwa¿niejsze.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od
@@ -110,8 +110,8 @@ wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
 
 W przypadku niektórych rodzajów zachowañ, ale na pewno nie wszystkich, taki monitoring mo¿e byæ
 niezwykle skuteczny i nie trzeba d³ugo czekaæ, ¿eby siê o tym przekonaæ, warto jednak pamiêtaæ, ¿eby
-stosowaæ go z umiarem. Gdy bêd±c studentem psychologii zacz±³em stosowaæ te moje papierowe
-kalendarze, dosz³o do tego, ¿e przez oko³o *dwa lata*, *ka¿dego dnia*, ³±cznie z weekendami,
+stosowaæ go z umiarem. Gdy bêd±c studentem psychologii zacz±³em u¿ywaæ tych papierowych kalendarzy,
+w pewnym momencie dosz³o do tego, ¿e przez oko³o *dwa lata*, *ka¿dego dnia*, ³±cznie z weekendami,
 spêdza³em od 4 do 6 godzin, *nie licz±c przerw*, na systematycznej pracy umys³owej. Poniewa¿
 stosowa³em wtedy wszystkie te sposoby notowania i uczenia siê, o których przed chwil± pisa³em, moja
 g³owa by³a wype³niona po brzegi psychologi± poznawcz±, statystyk±, metodologi± badañ, jêzykami

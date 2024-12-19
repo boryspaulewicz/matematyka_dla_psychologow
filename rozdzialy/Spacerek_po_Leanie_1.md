@@ -32,7 +32,8 @@ Rozpoczniesz w ten sposób interaktywną sesję z asystentem dowodzenia Lean. Ni
 widzisz to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po lewej
 i czasem zaglądać do panelu po prawej.
 
-Błędy będą się pojawiać, ponieważ jesteś (zgaduję) człowiekiem. Gdy pojawi się błąd, Lean Cię o tym
+Błędy będą się pojawiać, ponieważ jesteś (zgaduję)
+[człowiekiem](https://www.youtube.com/watch?v=UVL186zzOXo). Gdy pojawi się błąd, Lean Cię o tym
 powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie literówka. Czasem
 samo miejsce, w którym pojawi się czerwona falka, powie Ci, co należy zmienić, ale nie zawsze. W
 razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po prawej i spróbuj
