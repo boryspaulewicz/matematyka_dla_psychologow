@@ -80,10 +80,10 @@ z g³owy", czy to mówi±c o nich na g³os, czy to zapisuj±c, maj± tendencjê do zale
 zdaj± siê zajmowaæ nasz± "mentaln± przestrzeñ", w której - gdyby w niej by³o trochê wiêcej miejsca -
 mog³oby siê mo¿e pojawiæ co¶ nowego. To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest
 te¿ taki, ¿e gdy co¶ zapiszemy, to co¶ staje siê czym¶ od nas odrêbnym i w pewnym sensie nabiera
-przez to pewnej autonomii. Taki zapisany pomys³, w±tpliwo¶æ albo obserwacja mo¿e czasem dzia³aæ jak
+przez to pewnej autonomii. Taki zapisany pomys³, w±tpliwo¶æ albo obserwacja mo¿e zacz±æ dzia³aæ jak
 zanurzone w roztworze soli drobne cia³o sta³e, taki zal±¿ek przysz³ego kryszta³u, wokó³ którego
-samoistnie zaczynaj± powstawaæ rosn±æ nowe pomys³y, obserwacje i pytania. Dlatego na przyk³ad
-ostatnio prawie zawsze mam przy sobie ma³y notes i d³ugopis.
+samoistnie powstaj± i rosn± kolejne pomys³y, obserwacje i pytania. Dlatego na przyk³ad ostatnio
+prawie zawsze mam przy sobie ma³y notes i d³ugopis.
 
 A powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez
 rozpoznawanie, jak wspomnia³em, nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na
