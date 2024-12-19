@@ -1,5 +1,3 @@
-# Spacerek po Leanie, wersja druga
-
 **(De)Motywator**: Gdy już objaśnię ogólną strukturę i sposób działania funkcji w Leanie, pokażę Ci,
 że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik logiczny ∀,
 który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice konstruktywnej
@@ -17,6 +15,8 @@ empirycznych. Będziesz mogła wtedy z nieosiągalną inaczej precyzją wskazywa
 tych rozumowaniach znajdują się ewentualne dziury. Interesujący, mam nadzieję, że zabawny i celowo
 niedokończony przykład takiej analizy znajdziesz [w jednym z następnych
 rozdziałów](./Predykaty_dowod_Anzelma.md).
+
+# Spacerek po Leanie, wersja druga
 
 Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
 do technicznych znaczeń niektórych słów. Dzięki temu będzie Ci łatwiej zrozumieć, o czym mówię. Z
