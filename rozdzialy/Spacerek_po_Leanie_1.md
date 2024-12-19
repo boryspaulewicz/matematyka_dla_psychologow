@@ -1,8 +1,11 @@
+*Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie dość głęboko zapuszcza
+korzenie. Cała ziemia jest jego. - Fryderyk Hebbel*
+
 # Spacerek po Leanie, wersja pierwsza
 
 Ponieważ są tak ważne, treści, o których będziesz się uczyła w tym rozdziale, omówię jeszcze raz,
 tylko inaczej, w rozdziale następnym. Dzięki temu mam nadzieję ułatwić Ci aktywne powtarzanie
-materiału. Jeżeli czytając ten rozdział i wykonując polecenia poczujesz, że utknęłaś, być może
+materiału. Gdy więc czytając ten rozdział i wykonując polecenia poczujesz, że utknęłaś, być może
 znajdziesz poprawne rozwiązanie, albo zaczniesz lepiej rozumieć, jak je znaleźć, w trakcie czytania
 tej następnej części.
 

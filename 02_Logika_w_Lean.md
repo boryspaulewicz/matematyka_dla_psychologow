@@ -97,7 +97,7 @@ nieskończoność:
 
 --- ...
 
-#check Type 665 -- Nie umieszczaj nigdy kursora na tej linii! I nie pij tej wody!!
+#check Type 665 -- Nie umieszczaj nigdy kursora na tej linii! I nie pij tej wody!![^1]
 
 -- A więc pisząc w sposób, którego Lean nie lubi:
 -- 2 : Nat : Type 1 : Type 2 : Type 3 : Type 4 : i tak dalej ...
@@ -220,13 +220,13 @@ fałszu - dla celu analizy w pewien techniczny sposób rozumianej poprawności r
 całkowitą sztywność reguł użycia i wysoki poziom abstrakcji. Sztywność reguł pozwala na mechaniczną
 weryfikację wyrażeń, w tym poprawności dowodów, a abstrakcyjność daje ogólność zastosowań.
 
-**Oswojenie z terminologią logiczną**: Zawsze, gdy mamy jakieś dwa, niekoniecznie różne zdania *A* i
-*B*, możemy napisać *A → B* i to będzie poprawne wyrażenie (poprawna formuła logiczna), które
+TODO **Oswojenie z terminologią logiczną**: Zawsze, gdy mamy jakieś dwa, niekoniecznie różne zdania
+*A* i *B*, możemy napisać *A → B* i to będzie poprawne wyrażenie (poprawna formuła logiczna), które
 interpretujemy jako (niekoniecznie prawdziwe, a tym bardziej udowodnione) zdanie *Jeżeli A, to
 B*. Mówimy też, że *→* to w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na
 zdaniach, które to działanie z dwóch *zdań jako takich* (niekoniecznie udowodnionych czy
 prawdziwych) robi jedno (niekoniecznie udowodnione czy prawdziwe) unikalne zdanie złożone, dające
-się konsekwentnie interpretować jako *Jeżeli A, to B*. 
+się konsekwentnie interpretować jako *Jeżeli A, to B*.
 
 Może przyda Ci się wyobrażenie sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego,
 a jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, jeśli ten dowód
@@ -876,3 +876,11 @@ dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W tej sytuac
 sobota.
 
 [Do następnej części](./Matematyka_dla_psychologow_1.md)
+
+## Przypisy
+
+[^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
+    [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
+    Zaporożec wykonywali utwory z płyty П'ятниця, której wtedy lubiłem czasem posłuchać. W pewnym
+    momencie któryś z wykonawców wziął butelką i wtedy usłyszał z sali krzyk "Nie pij tej
+    wody!". Uważam, że to było bardzo śmieszne.
