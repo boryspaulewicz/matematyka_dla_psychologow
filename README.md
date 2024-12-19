@@ -1,4 +1,4 @@
-    *Wszystko, co da się powiedzieć jasno, można zapisać w teorii typów*
+*Wszystko, co da się powiedzieć jasno, można zapisać w teorii typów*
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki, ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
