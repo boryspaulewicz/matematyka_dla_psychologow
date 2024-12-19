@@ -99,7 +99,7 @@ siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do p
 fragmentów. O ile nie zabraknie wytrwa³o¶ci, mo¿e w koñcu stanie siê to, co dzieje siê wtedy, kiedy
 przez d³u¿szy czas dok±d¶ idziemy, niekoniecznie d±¿±c stale do jednego celu, a powietrze jest
 bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, kiedy zachodzi jako¶ciowa zmiana, odkrywamy jednak
-w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my mokrzy[^1].
+w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 
 Gdy pojawi siê frustracja, a ca³kiem mo¿liwe, ¿e siê pojawi, poczekaj, albo wróæ do tego, co wydaje
 Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ studentów

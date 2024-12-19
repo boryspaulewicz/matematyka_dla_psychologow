@@ -90,3 +90,8 @@ o to, ¿eby siê nagradzaæ, albo ¿eby czuæ siê winnym, gdy kropek jest ma³o, tylko
 niezwykle skutecznej i gwa³townie zmieniaj±cej nawyki protezy nie mia³bym o tym prawie w ogóle
 pojêcia i mimo szczerych chêci, ¿eby zdzia³aæ co¶ warto¶ciowego, dryfowa³bym gdzie¶ pewnie gnany
 wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
+
+Na koniec zasugerujê Ci co¶, o czym sam muszê sobie stale przypominaæ: Je¿eli chcesz co¶ zrobiæ, ale
+nie mo¿esz siê do tego zabraæ, zrób *jakikolwiek pierwszy krok*. Na przyk³ad, je¿eli chcesz zacz±æ
+siê uczyæ z jakiej¶ ksi±¿ki, otwórz t± ksi±¿kê, albo tylko po³ó¿ j± w widocznym miejscu. To nie da
+gwarancji sukcesu, ale zwiêkszy Twoje szanse dziêki efektowi wstêpnego zaanga¿owania.
