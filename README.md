@@ -21,7 +21,8 @@ wynikach badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyc
 moim zdaniem podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*,
 które może znacząco zwiększyć szansę na sukces w zmaganiach z - jak na książkę skierowaną do
 psychologów - dość nietypowymi tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem
-tego robić lepiej, niż umiem (o takich jak ta tautologiach piszę w rozdziale ósmym).
+tego robić lepiej, niż umiem (o takich jak ta tautologiach piszę w [rozdziale
+ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)).
 
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
