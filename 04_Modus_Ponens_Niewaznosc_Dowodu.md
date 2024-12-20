@@ -23,9 +23,9 @@ Używałaś już tej reguły wiele razy, ponieważ w teorii typów ta reguła je
 
 1. *Jeżeli mamy dowód zdania `p → q`, ...*
 
-*Gdy już mamy funkcję `dodaj2`, która ma typ `Nat → Nat`, ...*
+    - *Gdy już mamy funkcję `dodaj2`, która ma typ `Nat → Nat`, ...*
 
-*Gdy już mamy twierdzenie `t1` o type `p → q`, ...*
+    - *Gdy już mamy twierdzenie `t1` o type `p → q`, ...*
 
 2. *to jeżeli mamy też dowód zdania `p`, ...*
 
