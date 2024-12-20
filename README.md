@@ -75,4 +75,4 @@ zmienią.
 
 [Negacja w praktyce dowodzenia](./051_Negacja_w_praktyce.md)
 
-[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będzie w innym rozdziale.
+[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
