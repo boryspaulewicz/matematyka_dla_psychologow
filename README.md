@@ -24,7 +24,7 @@ psychologów - dość nietypowymi tematami. Staram się je objaśnić najlepiej 
 tego robić lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
 ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
 
-[*Radosna działalność*](https://www.youtube.com/watch?v=cCFA7YqzLwg&t=37s) (ang. *fun activity*):
+[*Radosna działalność*](https://www.youtube.com/watch?v=cCFA7YqzLwg) (ang. *fun activity*):
 Żeby zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko
 związane z omawianymi treściami. W przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za co.
 
