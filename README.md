@@ -1,6 +1,6 @@
 *Wszystko, co można zrozumieć, da się powiedzieć jasno. Wszystko, co da się powiedzieć jasno, można
-zapisać w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów, można sprawdzić
-xza pomocą algorytmu.*
+zapisać w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów, można
+sprawdzić za pomocą algorytmu.*
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
