@@ -9,13 +9,14 @@ zdefiniować negację, wystarczy użyć czegoś, co w pewnym sensie zachowuje si
 Ponieważ predykaty (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz
 później, również funkcje, ucząc się w ten sposób jednocześnie - zarazem na skróty i od podstaw -
 matematyki i programowania, stosunkowo szybko opanujesz podstawy logiki predykatów. To narzędzie
-pozwoli Ci prześlwietlać logiczną strukturę nie tylko dowodów, ale również rozumowań zapisanych w
-języku naturalnym. Będziesz mogła później stosować to narzędzie do głównego rozumowania zawartego w
-pracy semestralnej, pracy magisterskiej, doktoracie albo artykule, lub do analizy uzasadnień
-głównych wniosków w artykułach empirycznych. Często już sama tylko próba przeprowadzenia takiej
-formalizacji pozwoli Ci z nieosiągalną inaczej precyzją wskazać, gdzie *dokładnie* w tych
-rozumowaniach znajdują się ewentualne dziury. Interesujący i celowo niedokończony przykład tego
-rodzaju zabawy znajdziesz [w jednym z następnych rozdziałów](./Predykaty_dowod_Anzelma.md).
+pozwoli Ci [prześlwietlać](https://www.youtube.com/watch?v=0pYyzolIN3I) logiczną strukturę nie tylko
+dowodów, ale również rozumowań zapisanych w języku naturalnym. Będziesz mogła później stosować to
+narzędzie do głównego rozumowania zawartego w pracy semestralnej, pracy magisterskiej, doktoracie
+albo artykule, lub do analizy uzasadnień głównych wniosków w artykułach empirycznych. Często już
+sama tylko próba przeprowadzenia takiej formalizacji pozwoli Ci z nieosiągalną inaczej precyzją
+wskazać, gdzie *dokładnie* w tych rozumowaniach znajdują się ewentualne dziury. Interesujący i
+celowo niedokończony przykład tego rodzaju zabawy znajdziesz [w jednym z następnych
+rozdziałów](./Predykaty_dowod_Anzelma.md).
 
 # Spacerek po Leanie, wersja druga
 
