@@ -10,9 +10,10 @@ między innymi wprowadzenie - od podstaw i niemal
 matematyki i meta-matematyki, teorii typów, wnioskowania statystycznego w wersji bayesowskiej i
 częstościowej, do wnioskowania przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
 uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
-psychologię w szczególności i nauki empiryczne w ogólności. Ta propozycja jest kontynuacją i
-rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zresztą zacząłem się
-zajmować jeszcze na etapie pisania pracy magisterskiej.
+psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
+[tutaj](./rozdzialy/02_Cel.md)). Ta propozycja jest kontynuacją i rozwinięciem wątków z
+[doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
+pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
 Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
