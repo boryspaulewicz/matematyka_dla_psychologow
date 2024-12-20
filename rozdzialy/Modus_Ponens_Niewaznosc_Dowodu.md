@@ -11,8 +11,9 @@ regułą dedukcji (schematem wnioskowania dedukcyjnego). Reguła ta mówi:
 Na przykład, stąd, że *jeżeli padało, to trawa jest mokra* wynika, że *jeżeli padało*, to *trawa
 jest mokra*. Brzmi jak masło maślane, prawda? To dlatego, że ta reguła jest niczym innym jak
 odzwierciedleniem sensu implikacji w mechanicznej (czyli formalnej, czyli takiej jakby bezmyślnej)
-regule jej stosowania. Inaczej mówiąc, ta reguła jest tak oczywistym sposobem używania implikacji
-jak to tylko możliwe. Moim zdaniem brzmi to wszystko lepiej w takiej oto wersji:
+regule jej stosowania. Wydaje się wręcz, że ta reguła jest tak oczywistym sposobem używania
+implikacji jak to tylko możliwe. Moim zdaniem brzmi to wszystko lepiej w takiej oto wersji, bo
+akcentujemy w niej wyraźnie różnicę między zdaniami jako takimi i ich statusem prawdziwościowym:
 
 *Jeżeli akceptujemy implikację `p → q` i jej poprzednik `p`, to akceptujemy również jej następnik
 `q`*.
@@ -29,12 +30,12 @@ hp : q`. To nic innego jak nasze najbardziej podstawowe obliczenie na poziomie t
 zawsze w ramach aplikacji funkcji do argumentu. 
 
 **Przydatna konwencja**: Przy okazji, lubię czasem stosować konwencję, zgodnie z którą nazwa dowodu
-zdania na przykład `q` to `hq`, bo to skrót od "hipotezy q". Dzięki temu jest mi czasem łatwiej
-odróżniać zdania od ich dowodów.
+zdania na przykład `q` to `hq`, bo to skrót od "hipoteza q". Dzięki temu jest mi czasem łatwiej
+odróżniać zdania od ich dowodów, bo od razu widać to w notacji.
 
 Przyjżymy się teraz różnicy między aplikacją dowodu implikacji i aplikacją funkcji, która nie jest
 dowodem. Jak widać poniżej, to jest zarazem to samo i nie to samo, ponieważ chociaż formalnie to
-jest ten sam proces, to *nas, użytkowników* interesuje w nim co innego i dlatego o nim inaczej
+jest ten sam proces, to *nas, użytkowników* interesuje w nim coś innego i dlatego o nim inaczej
 mówimy, inaczej myślimy i inaczej go używamy:
 
 1. *Jeżeli mamy dowód zdania `p → q`, ...*
@@ -65,17 +66,18 @@ Gdy konstruujemy dowód, albo używamy dowodu już istniejącego - czy jakiegoś
 jako parametru twierdzenia - do konstrukcji innych dowodów, obchodzi nas przede wszystkim
 *istnienie* dowodu, a nie jego *struktura*. To dobra wiadomość, bo oznacza, że w momencie
 udowodnienia twierdzenia możemy zwykle *zapomnieć* o jego dowodzie i traktować twierdzenie jak
-"prawdę objawioną", co zmniejsza obciążenie poznawcze. W psychologii to się prawie w ogóle nie
-zdarza, bo psychologia jest nauką empiryczną, a więc żadnego problemu psychologicznego nie możemy
-nigdy ostatecznie rozwiązać, zawsze pozostanie jakaś wątpliwość. Dlatego też poczucie, że się jakiś
-problem całkowicie rozwiązało, którego możemy doświadczać regularnie uprawiając matematykę, może być
-moim zdaniem dla psychologa czymś orzeźwiającym, dla mnie w każdym razie jest. 
+"niepodważalną prawdę objawioną", co zmniejsza obciążenie poznawcze. W psychologii to się prawie w
+ogóle nie zdarza, bo psychologia jest nauką empiryczną, a więc żadnego problemu psychologicznego nie
+możemy nigdy ostatecznie rozwiązać, zawsze pozostanie jakaś wątpliwość. Dlatego też poczucie, że się
+jakiś problem całkowicie rozwiązało, którego możemy doświadczać regularnie uprawiając matematykę,
+może być moim zdaniem dla psychologa czymś orzeźwiającym, dla mnie w każdym razie jest.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
-nie musi być w żaden prosty sposób związane z jego treścią i często nie jest. Dowody po prostu nie
-służą do *ujawniania treści* zdań, tylko do ostatecznego *rozstrzygania o ich prawdziwości*, przez
-co struktura dowodu jest na ogół pouczająca tylko jako *wskazówka, jak można dowodzić danego typu
-zdań* i niewiele mówi nam o tym, co te zdania *znaczą*.
+nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
+tym dowody są prawie zawsze znacznie dłuższe niż zdania, których dowodzą. Dowody po prostu nie służą
+do *ujawniania treści* zdań, tylko do ostatecznego *rozstrzygania o ich prawdziwości*, przez co
+struktura dowodu jest na ogół pouczająca tylko jako *wskazówka, jak można dowodzić danego typu zdań*
+i niewiele mówi nam o tym, co te zdania *znaczą*.
 
 Względną nieważność struktury dowodu po prostu *widać*, gdy rozpiszemy analogię między implikacjami
 i funkcjami w sposób taki jak zrobiłem to wyżej. W Leanie punkt widzenia, zgodnie z którym liczy się
@@ -96,7 +98,7 @@ variable (q : Prop) -- Deklarujemy, że mamy zdanie q, żeby mieć do czego stos
 
 -- ... natomiast twierdzenie t1 ma fragment wykonywalnego kodu *w swoim typie*, to jest ma typ zależny, a więc
 -- mniej trywialny:
-#check t1 -- t1 (a : Prop) : a → a
+#check @t1 -- (a : Prop) → a → a
 
 -- Tutaj interesuje nas *wynik* aplikacji, czyli w tym wypadku wynik dodawania, a nie jego typ. Obliczenie, które nas
 -- interesuje, zachodzi jakby na poziomie "konkretnym", albo "wewnątrz" funkcji dodaj2:
@@ -110,25 +112,27 @@ variable (q : Prop) -- Deklarujemy, że mamy zdanie q, żeby mieć do czego stos
 
 W zwykłych funkcjach czy programach chodzi o tak lub inaczej rozumiane obliczenie jakiegoś
 rezultatu, na przykład o obliczenie wyniku dodawania, i chodzi też, a raczej przede wszystkim, o
-wynik; w twierdzeniach chodzi jedynie o to, że typ twierdzenia, który jest jego treścią, ma *jakiś*
-dowód.
+wynik; w twierdzeniach chodzi jedynie o to, że typ twierdzenia, czyli zdanie, które jest treścią
+tego twierdzenia, ma *jakiś* dowód, czyli istnieje jakiś term tego typu. Jest mi coraz trudniej
+pisać o tych sprawach bez używania terminologii "mieszkaniowej", więc może ją teraz wprowadzę.
 
 **Typy są trochę jak zbiory, ale to nie zbiory**: Gdy zaczynałem się uczyć o teorii typów, zajęło mi
 chwilę, zanim przyzwyczaiłem się do odróżniania typów od zbiorów. Zbiory odgrywają ważną rolę w
 matematyce, między innymi dlatego, że pewna teoria mnogości, to jest [teoria
 Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla), która jest niczym innym
 jak ogólnym językiem formalnym służącym do mówienia o zbiorach i ich elementach i rozwiązywania
-problemów dotyczących zbiorow, jest od dawna traktowana jako podstawowy język całej matematyki.
+problemów dotyczących zbiorow, jest od dawna traktowana jako podstawowy język całej matematyki (co
+nie znaczy, że to jest jedyny taki język, na przykład, teoria typów jest również takim językiem).
 
 W teorii ZF (albo ZFC, jeśli chcemy zaakcentować obecność aksjomatu wyboru) używamy notacji *x ∈ X*,
-która oznacza zdanie *x jest elementem zbioru X*. Typowanie zapisujemy w odwrotnej kolejności, na
-przykład piszemy `n : Nat`, ale i tak może się bardzo kojarzyć z relacją należenia elementu do
-zbioru. Różnica polega na tym, że zbiory są pewnymi *strukturami*, do których różne obiekty mogą
-należeć albo nie jako ich elementy, a typy są tylko *stałymi*, bez żadnej wewnętrznej
-struktury. Dlatego o posiadaniu przez term jakiegoś typu mówimy inaczej, niż o należeniu elementu do
-jakiegoś zbioru. Konkretnie, mówimy, że jakiś term *zamieszkuje* albo nie jakiś typ i raczej unikamy
-mówienia, że do niego należy. Mówimy też, że jakiś typ jest, albo nie jest zamieszkany, a nie, że
-jest albo nie jest niepusty.
+która oznacza zdanie *x jest elementem zbioru X*. Typowanie zapisujemy co prawda w odwrotnej
+kolejności, na przykład piszemy `n : Nat`, ale i tak może się bardzo kojarzyć z relacją należenia
+elementu do zbioru. Różnica polega na tym, że zbiory są pewnymi *strukturami*, do których różne
+obiekty mogą należeć albo nie jako ich elementy, a typy są tylko *stałymi*, bez żadnej wewnętrznej
+struktury - `Nat` to tylko symbol `Nat`, nic więcej. Dlatego o posiadaniu przez term jakiegoś typu
+mówimy inaczej, niż o należeniu elementu do jakiegoś zbioru. Konkretnie, mówimy, że jakiś term
+*zamieszkuje* albo nie jakiś typ i raczej unikamy mówienia, że do niego należy. Mówimy też, że jakiś
+typ jest, albo nie jest zamieszkany, a nie, że jest albo nie jest (nie)pusty.
 
 Jak już wiesz, w teorii typów obliczenia zachodzą w *dwóch wymiarach*: w wymiarze typów i w
 wymiarze, który można nazwać konkretnym. Na poziomie konkretnym "działa" matematyka konkretna albo
@@ -137,27 +141,30 @@ liczbami i interesują nas wyniki zastosowania do nich operacji dodawania. To je
 najczęściej w ogóle nie wychodzą uczniowie szkoły podstawowej, bo na tym etapie edukacji nie uczy
 się dowodzenia twierdzeń. Natomiast na poziomie typów "istnieje" i "działa" matematyka teoretyczna.
 
-Nie wiem, czy na Tobie to zrobi takie wrażenie, jak zrobiło na mnie, gdy sobie to uświadomiłem, w
-każdym razie na mnie zrobiło spore: Wszystkie polecenia, które do tej pory wykonywałaś, polegały na
-operowaniu *jednocześnie* na poziomie konkretnym i teoretycznym matematyki, po prostu dlatego, że
-nie było (bo na pewnym poziomie ogólności nie ma) różnicy między matematyką i programowaniem, a
-ponadto *każdy term miał typ, a każdy typ był termem*:
+Nie wiem, czy na Tobie to zrobi takie wrażenie, jakie zrobiło na mnie, gdy sobie to pomyślałem, ale
+na mnie zrobiło spore i nadal gdy zdarza mi się to pomyśleć nawiedza mnie czasem coś w rodzaju
+[mysterium fascinosum](https://encyklopedia.pwn.pl/haslo/mysterium-fascinosum;3944914.html):
+Wszystkie polecenia, które do tej pory wykonywałaś i wszystkie obliczenia, które wtedy zachodziły, w
+obydwu wymiarach, zachodziły właściwie *jednocześnie* na poziomie konkretnym i teoretycznym
+matematyki, po prostu dlatego, że *każdy term miał typ, a każdy typ był termem*:
 
 ```lean
 #check @dodaj2 -- dodaj2 : Nat → Nat
 
--- Można powiedzieć, że również ta "zwykła" aplikacja ma jednocześnie wymiar konkretny, na którym zachodzi dodawanie
--- i powstaje wynik
+-- Można powiedzieć, że ta "zwykła" aplikacja ma jednocześnie wymiar konkretny, na którym zachodzi dodawanie i powstaje
+-- wynik
 #eval dodaj2 2 -- 4
 -- i wymiar teoretyczny, na którym zachodzi "oderwanie poprzednika" typu Nat → Nat
 #check dodaj2 2 -- dodaj2 2 : Nat
+-- ale można też powiedzieć, że oba wymiary są konkretne, bo Nat → Nat jest nie tylko typem, ale również termem (typu
+-- Type), który na skutek występienia aplikacji zamienia się w term Nat.
 
 -- Co prawda struktura dowodu nie ma znaczenia dla prawdziwości twierdzeń, dlatego na przykład Lean sygnalizuje tutaj 
 -- błąd: cannot evaluate, proofs are not computationally relevant
-s#eval t1 q
-
--- Niemniej samo zestawienie t1 i q jest już jednak jakimś obliczaniem na poziomie *w pewnym sensie* konkretnym, tylko, 
--- że w typach. Można powiedzieć, że ta aplikacja jest "konkretyzacją" albo "realizacją" albo "ucieleśnieniem" matematyki
--- teoretycznej, bo jest matematyką teoretyczną jako programowaniem.
+#eval t1 q
+-- ale *samo zestawienie* t1 i q, pomijając to, co dzieje się w typie, jest już jednak jakimś obliczaniem na poziomie
+-- *w pewnym sensie* konkretnym, bo wykonanym przez nas, a ponadto towarzyszy temu zestawieniu obliczenie na poziomie 
+-- termów, tylko, że te termy są tutaj akurat typami. W pewnym sensie ta aplikacja jest więc "konkretyzacją" albo 
+-- "realizacją" albo "ucieleśnieniem" matematyki teoretycznej:
 #check t1 q -- t1 q : q → q
 ```
