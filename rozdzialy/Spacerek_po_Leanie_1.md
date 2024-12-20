@@ -98,13 +98,13 @@ Po prawej zobaczysz wtedy komunikat, że stała `dziesiec` ma typ `Nat` (jest li
 
 **Polecenie**: Za pomocą komendy `#check` sprawdź typ którejś ze zdefiniowanych dotąd stałych.
 
-**Wbrew pozorom przydatne ćwiczenie**: Jeśli masz ochotę, stwórz własną zmienną tekstową o jakiej
-chcesz wartości. Nawet, jeżeli wydaje Ci się to zbyt proste, może warto to zrobić, bo dzięki temu
-Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu będziesz lepiej "czuć". To
-jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej więcej na temat, nawet gdy
-wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje, wpływa na to, co
-później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie reagujemy. A
-jeżeli ta czynność wydaje się tak łatwa, że aż zbędna, to w pewnym sensie tym lepiej.
+**Wbrew pozorom przydatne ćwiczenie**: Jeśli masz ochotę, stwórz własną zmienną tekstową, o jakiej
+tylko chcesz wartości. Nawet, jeżeli wydaje Ci się to zbyt proste, może warto to zrobić, bo dzięki
+temu Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu będziesz lepiej
+"czuć". To jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej więcej na temat,
+nawet gdy wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje, wpływa na
+to, co później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie
+reagujemy. A jeżeli ta czynność wydaje się tak łatwa, że aż zbędna, to w pewnym sensie tym lepiej.
 
 ## Funkcje w Leanie
 
