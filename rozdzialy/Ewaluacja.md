@@ -29,8 +29,8 @@ def identycznosc (typ : Type) (argument : typ) : typ := argument
 ```
 
 Jak widać na tym przykładzie, ewaluacja to proces redukcji aplikacji funkcji do termów typu
-pasującego do parametrów tych funkcji. Polega na przekształcaniu do skutku, to jest do postaci, w
-której nie ma już żadnych redukowalnych aplikacji:
+pasującego do parametrów tych funkcji. Polega na wykonywaniu do skutku, to jest do postaci, w której
+nie ma już żadnych redukowalnych aplikacji:
 
 1. Rozwijania definicji
 
@@ -42,7 +42,7 @@ To proces, który na podstawie omówionych przeze mnie do tej pory przykładów 
 dość cierpliwa, niebawem w pełni zrozumieć, o ile to się już nie stało, bo ten proces polega tylko
 na tym, co już Ci pokazałem.
 
-O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu, ewaluacja musi się zakończyć
+O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu ewaluacja musi się zakończyć
 i ten wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drodze aplikacji.
 
 Funkcje mogą przekształcać termy dowolnego typu, w tym również dowolne typy, w termy dowolnego typu,
@@ -50,8 +50,8 @@ w tym również dowolne typy. Typy pojawiające się później w specyfikacji ty
 parametru, który pojawił się wcześniej, tak jak to ma miejsce w przypadku typu funkcji
 `identycznosc`.
 
-Na tej podstawie można zbudować całą matematykę, a więc można również za pomocą tego języka zapisać
-wszystko, co tylko da się zmatematyzować.
+Na tej podstawie można zbudować całą matematykę i za pomocą tego języka można zapisać w stosunkowo
+naturalny sposób matematyczne teorie.
 
 Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno. Wszystko, co da się powiedzieć
 jasno, można zapisać w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów,
