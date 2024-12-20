@@ -137,9 +137,9 @@ du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej,
 t³umaczy³).
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
-szmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³
-szansê to niebawem wykorzystaæ, zacz±³em uczyæ siê systematycznie z cudownej ksi±¿ki [Type Theory
-and Formal
+zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
+to niebawem wykorzystaæ, zacz±³em uczyæ siê systematycznie z cudownej ksi±¿ki [Type Theory and
+Formal
 Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C),
 napisanej przez Geuversa i Nederpelta. Ta ksi±¿ka jest napisana w bardzo jasny sposób. Czytaj±c j±
 czuje siê, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak tylko potrafi±. W mojej ocenie
@@ -238,7 +238,7 @@ przerastaj± mnie wrodzon± moc± obliczeniow±, a poza tym nie jestem ju¿ m³ody.
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
 robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
 na pierwszym albo drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam
-na zajêciach, dowiedzia³em siê, jak siê uczyæ, a ze znakomitej [ksi±¿ki
+na zajêciach, dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
 Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, w jaki sposóbq sobie radziæ z ekstremaln± wrêcz
 prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i jako¶ odwdziêczyæ siê
@@ -261,12 +261,12 @@ zmieni³a na zawsze mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do mnie,
 na studiach magisterskich pisa³em w C++ jak±¶ procedurê do eksperymetu. Zapyta³, w jakim jêzyku
 piszê, na co odpowiedzia³em, ¿e w C++. On wtedy powiedzia³, ¿artuj±c, ¿e gdyby jego koledzy
 dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em, niezra¿ony, w czym On pisze, na
-co powiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co to Lisp, a nied³ugo pó¼niej to
+co odpowiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co to Lisp, a nied³ugo pó¼niej to
 by³ ju¿ mój ulubiony jêzyk i na d³ugo nim pozosta³. W³a¶nie dlatego piszê t± ksi±¿kê w
 [Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawana tak mocno
 zro¶niêty, ¿e czasem wrêcz zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu, byæ
-mo¿e jakiego¶ sposobu na siebie i dobrych przyjació³; wtedy mo¿na zrozumieæ, co tylko siê chce. What
-one fool can do, another can.
+mo¿e jakiego¶ sposobu na siebie i jednego czy dwóch dobrych przyjació³; wtedy mo¿na zrozumieæ, co
+tylko siê chce. What one fool can do, another can.
 
 ### Przypisy
 

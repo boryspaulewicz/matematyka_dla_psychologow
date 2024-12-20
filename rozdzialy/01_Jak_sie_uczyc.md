@@ -110,7 +110,7 @@ pojêcia i mimo szczerych chêci, ¿eby zdzia³aæ co¶ warto¶ciowego, dryfowa³bym gdz
 wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
 
 W przypadku niektórych rodzajów zachowañ, ale na pewno nie wszystkich, taki monitoring mo¿e byæ
-niezwykle skuteczny i nie trzeba d³ugo czekaæ, ¿eby siê o tym przekonaæ, warto jednak pamiêtaæ, ¿eby
+niezwykle skuteczny i nie trzeba d³ugo czekaæ, ¿eby siê o tym przekonaæ. Warto jednak pamiêtaæ, ¿eby
 stosowaæ go z umiarem. Gdy bêd±c studentem psychologii zacz±³em u¿ywaæ tych papierowych kalendarzy,
 w pewnym momencie dosz³o do tego, ¿e przez oko³o *dwa lata*, *ka¿dego dnia*, ³±cznie z weekendami,
 spêdza³em od 4 do 6 godzin, *nie licz±c przerw*, na systematycznej pracy umys³owej. Poniewa¿
@@ -120,19 +120,18 @@ programowania, elementami matematyki i ró¿nymi innymi rzeczami, które akurat wte
 (a mia³em wiele, czasem do¶æ kosztownych zainteresowañ). A poniewa¿ moja g³owa by³a tego rodzaju
 sprawami wype³niona stale, to te¿ czêsto o nich mówi³em, nie zawsze zwracaj±c uwagê, czy rozmówca
 by³ tym zainteresowany. Wydaje mi siê, a w³a¶ciwie jestem prawie pewny, ¿e dla mojej ówczesnej
-partnetki to by³o spore wyzwanie. Pó¼niej ju¿ nigdy w nic siê tak nie zanurzy³em i staram siê raczej
-stosowaæ do rady Rachlina, zgodnie z któr± trzeba byæ lekkim jak ptak, ale nie jak piórko. Zreszt±
-monitoring ma i t± zaskakuj±c± cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a, to jednak z
-jakiego¶ tajemniczego powodu nawet Ci, którzy na nim najbardziej korzystaj±, pêdzej czy pó¼niej
-przestaj± go stosowaæ.
+partnetki to by³o spore wyzwanie. Pó¼niej ju¿ nigdy w nic siê tak nie zanurzy³em i staram siê, za
+rad± Rachlina, byæ lekkim jak ptak, ale nie jak piórko. Zreszt± monitoring ma i t± zaskakuj±c±
+cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a, to jednak z jakiego¶ tajemniczego powodu nawet Ci,
+którzy na nim najbardziej korzystaj±, pêdzej czy pó¼niej przestaj± go stosowaæ.
 
 Nawiasem mówi±c, odkry³em wtedy co¶ niepokoj±cego. Zorientowa³em siê mianowicie, ¿e *pracownicy
 naukowi rzadko siê czego¶ ucz±*. Owszem, czêsto czytaj± artyku³y i ksi±¿ki dotycz±ce tego, czym siê
 zajmuj±, ale nie spotka³em dot±d *¿adnego* pracownika naukowego, który by co¶ systematycznie
 powtarza³. Ciekawe, prawda? Jednym z powodów jest pewnie brak czasu, ale bior±c pod uwagê charakter
 tej pracy, to jest, mówi±c delikatnie, ma³o przekonuj±ca wymówka. Za to wiêkszo¶æ stara siê du¿o
-*pisaæ*, co mi akurat wychodzi przeciêtnie, bo rzadko mi siê zdaje, ¿e mam co¶ zarazem nowego i
-warto¶ciowego do powiedzenia. W³a¶ciwie raz na kilka lat mi siê tak zdaje. Je¿eli wiêc chodzi Ci po
+*publikowaæ*, co mi akurat wychodzi przeciêtnie, bo rzadko mi siê zdaje, ¿e mam co¶ zarazem nowego i
+warto¶ciowego do opowiedzenia. W³a¶ciwie raz na kilka lat mi siê tak zdaje. Je¿eli wiêc chodzi Ci po
 g³owie (w Polsce czêsto marnie op³acana, ale za to wakacje s± d³ugie) tak zwana kariera akademicka i
 studia doktorskie (które za moich czasów pozostawia³y chyba znacznie wiêcej czasu na rozwijanie siê
 w kierunku zgodnym z *w³asnymi* zainteresowaniami), to moim zdaniem mo¿esz wielu z nas szybko

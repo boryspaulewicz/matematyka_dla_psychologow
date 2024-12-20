@@ -46,7 +46,7 @@ mówimy, inaczej myślimy i inaczej go używamy:
 
     - *to jeżeli mamy term typu `Nat`, na przykład `10`, ...*
 
-3.  *to aplikując dowód zdania `p → q` do dowodu zdania `q`, ...*
+3.  *to aplikując dowód zdania `p → q` do dowodu zdania `p`, ...*
 
     - *to aplikując funkcję `dodaj2` do termu `10` ...*
 
@@ -62,21 +62,20 @@ później nie będziesz w stanie tam tego nie zobaczyć.
 
 # Dowody są zwykle nieważne
 
-Gdy konstruujemy dowód, albo używamy dowodu już istniejącego - czy jakiegoś bliżej nieokreślonego,
-jako parametru twierdzenia - do konstrukcji innych dowodów, obchodzi nas przede wszystkim
-*istnienie* dowodu, a nie jego *struktura*. To dobra wiadomość, bo oznacza, że w momencie
-udowodnienia twierdzenia możemy zwykle *zapomnieć* o jego dowodzie i traktować twierdzenie jak
-"niepodważalną prawdę objawioną", co zmniejsza obciążenie poznawcze. 
+Gdy używamy dowodu już istniejącego do stworzenia nowego, a nawet gdy konstruujemy jakiś dowód,
+obchodzi nas przede wszystkim *istnienie* dowodu, a nie jego *struktura*. To dobra wiadomość, bo
+oznacza, że w momencie udowodnienia twierdzenia możemy zwykle *zapomnieć* o jego dowodzie i
+traktować twierdzenie jak "prawdę objawioną", co zmniejsza obciążenie poznawcze.
 
-W psychologii to się właściwie w ogóle nie zdarza, bo psychologia jest nauką empiryczną, a więc
-żadnego problemu psychologicznego nie możemy nigdy rozwiązać ostatecznie, bo zawsze pozostanie jakaś
-wątpliwość. W dodatku my, psychologowie, nie bardzo rozumiemy co właściwie robimy próbując wyjaśnić
-zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam ocenić,
-czy zrobiliśmy w badaniach znaczące postępy. Dlatego doświadczenie całkowitego i ostatecznego
-rozwiązania jakiegoś problemu, które pojawia się gdy zajmujemy się samą matematyką, albo gdy
-stosujemy ją do formułowania i rozwiązywania teoretycznych problemów w psychologii, może być moim
-zdaniem dla każdego z nas czymś niezwykle orzeźwiającym; dla mnie w każdym razie jest i dlatego
-nadal szukam kolejnych takich doświadczeń.
+W psychologii to się właściwie w ogóle nie zdarza, bo psychologia jest nauką empiryczną. Nawet,
+gdybyśmy odkryli jakąś prawdziwą własność świata (a może już takie własności znamy?), zawsze jakaś
+wątpliwość pozostanie. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy, gdy próbujemy
+wyjaśnić zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam
+ocenić, czy i w jakim obszarze naszych badań zrobiliśmy jakieś postępy. Dlatego doświadczenie
+całkowitego i ostatecznego rozwiązania jakiegoś problemu, które pojawia się gdy zajmujemy się samą
+matematyką, albo gdy stosujemy ją do formułowania i rozwiązywania teoretycznych problemów w
+psychologii, może być moim zdaniem dla każdego z nas czymś orzeźwiającym; dla mnie w każdym razie
+jest, gdy coś takiego mi się zdarza i dlatego wciąż szukam takich doświadczeń.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
@@ -150,9 +149,9 @@ się dowodzenia twierdzeń. Natomiast na poziomie typów "istnieje" i "działa" 
 Nie wiem, czy na Tobie to zrobi takie wrażenie, jakie zrobiło na mnie, gdy sobie to pomyślałem, ale
 na mnie zrobiło spore i nadal gdy zdarza mi się to pomyśleć nawiedza mnie czasem coś w rodzaju
 [mysterium fascinosum](https://encyklopedia.pwn.pl/haslo/mysterium-fascinosum;3944914.html):
-Wszystkie polecenia, które do tej pory wykonywałaś i wszystkie obliczenia, które wtedy zachodziły, w
-obydwu wymiarach, zachodziły właściwie *jednocześnie* na poziomie konkretnym i teoretycznym
-matematyki, *po prostu dlatego, że każdy term miał typ, a każdy typ był termem*:
+*Wszystkie* obliczenia, które zachodziły, gdy wykonywałaś polecenia, zachodziły właściwie
+*jednocześnie* na poziomie konkretnym i teoretycznym, *po prostu dlatego, że każdy term miał typ, a
+każdy typ był termem*:
 
 ```lean
 #check @dodaj2 -- dodaj2 : Nat → Nat

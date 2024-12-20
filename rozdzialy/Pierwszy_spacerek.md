@@ -58,7 +58,7 @@ Przedtem poprzedza³em wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy z
 uczestnikom, ¿e zaraz bêd± sami go dowodziæ, zauwa¿a³em u wielu z nich objawy lekkiej
 paniki. Podobn± panikê widzia³em zreszt± w oczach pracowników naukowych, którzy byli obecni na moim
 otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawi³ siê symbol *sumy indeksowanej*. W tym
-roku po po raz pierwszy spróbowa³em wprowadziæ twierdzenie Bayesa bez ¿adnego wstêpu, na pierwszych
+roku po raz pierwszy spróbowa³em wprowadziæ twierdzenie Bayesa bez ¿adnego wstêpu, na pierwszych
 albo drugich zajêciach, i postara³em siê nak³oniæ wszystkich, ¿eby skupili siê tylko na bardzo
 prostych w tym wypadku operacjach formalnych. Ró¿nica w wykonaniu tego zadania by³a natychmiast
 oczywista.
@@ -97,7 +97,7 @@ Podziel obie strony przez *p(y)*, zak³adaj±c oczywi¶cie, ¿e ta warto¶æ jest ró¿n
 dzielenia przez zero jest niezdefiniowany). Upro¶æ jedyn± stronê równania, któr± da siê w tym
 momencie upro¶ciæ.
 
-Je¿eli wykona³a/e¶ wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to uda³o
+Je¿eli wykona³a¶ wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to uda³o
 Ci siê udowodniæ nieznacznie uproszczon± wersjê twierdzenie Bayesa. Moim studentom, gdy robi± to po
 raz pierwszy w ¿yciu, nie zajmuje to zwykle wiêcej ni¿ 15 minut. Zwróæ uwagê, ¿e udowodni³a¶ to
 twierdzenie ani nie przytaczaj±c, ani nie odnosz±c siê do ¿adnych konkretnych *zdarzeñ*, ani nie

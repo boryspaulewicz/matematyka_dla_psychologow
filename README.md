@@ -1,6 +1,6 @@
 *Wszystko, co można zrozumieć, da się powiedzieć jasno. Wszystko, co da się powiedzieć jasno, można
 zapisać w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów, można sprawdzić
-za pomocą algorytmu.*
+xza pomocą algorytmu.*
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
@@ -48,6 +48,8 @@ pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 
 [R6 Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja
 druga](./rozdzialy/Spacerek_po_Leanie_2.md)
+
+[R0](./rozdzialy/Ewaluacja.md)
 
 [R7 Tytuł nie zachęca, ale za to zawartość również nie zachęca: Być może nie wiesz, że już wiesz,
 czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm

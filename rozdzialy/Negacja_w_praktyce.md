@@ -1,80 +1,82 @@
 # Negacja w praktyce dowodzenia
 
-Myślę, że jesteś już gotowa/y, żeby poćwiczyć dowodzenie zdań z negacją. Nie wiem tylko jeszcze,
-jakie zadanie Ci zaproponować. Takie zadanie może polegać albo na *uzyskaniu* dowodu negacji
-wewnątrz jakiejś formuły logicznej, albo na jej *użyciu*. Może zaczniemy od użycia, będzie mi
-łatwiej.
+Myślę, że jesteś już gotowa, żeby poćwiczyć dowodzenie zdań zawierających negację. Nie wiem tylko
+jeszcze, jakie zadanie Ci zaproponować. Takie zadanie może polegać albo na *uzyskaniu* dowodu
+negacji wewnątrz jakiejś formuły logicznej, albo na jej *użyciu*. Może zaczniemy od użycia, bo tak
+będzie mi chyba łatwiej.
 
 Żeby skonstruować takie zadanie, muszę stworzyć zdanie, w którym negacja będzie odgrywała rolę
-przesłanki. Może `¬p → q`? No nie, z tym nic się nie da zrobić, bo są tylko dwa zdania, a żeby użyć
-`¬p`, trzeba mieć również `p`; w żaden sposób nie uzyskam z dowodu `q` dowodu `p`, bo to są różne
-zdania atomowe, bez żadnej wewnętrznej struktury. Gdy nie ma dodatkowych przesłanek, które wiązałyby
-ze sobą, pośrednio lub bezpośrednio, dwa różne zdania atomowe, wtedy takie dwa zdania są *logicznie
-niezależne*.
+*przesłanki*. Może `¬p → q`? No nie, z tym nic się nie da zrobić, bo tu są tylko dwa zdania, a żeby
+użyć `¬p`, trzeba mieć również `p`. Przecież w żaden sposób nie uzyskam z dowodu `q` dowodu `p`, bo
+to są różne zdania *atomowe*, czyli bez żadnej wewnętrznej struktury. Gdy nie ma dodatkowych
+przesłanek, które wiązałyby ze sobą - bezpośrednio lub jakoś pośrednio - dwa różne zdania atomowe,
+wtedy mówimy, że takie dwa zdania są *logicznie niezależne*.
 
 To może `¬p → q → p`? Też bez sensu. Przecież z `¬p` i `q` nie może wynikać `p`. Zaraz, ze
 sprzeczności wynika każde zdanie, a więc też zdanie `q`. Już wiem.
 
-**Zadanie**: Udowodnij twierdzenie `¬p → p → q`. To zdanie zawiera dwa różne zdania atomowe, `p` i
+**Polecenie**: Udowodnij twierdzenie `¬p → p → q`. To zdanie zawiera dwa różne zdania atomowe, `p` i
 `q`, więc Lean musi wiedzieć - lokalnie, to znaczy *wewnątrz dowodu* - że `p` i `q` to *zdania*,
-inaczej Lean nie będzie wiedział, czym jest `¬p → p → q`. Jednocześnie `p` i `q` mają być
-*zmiennymi*, za które chcemy móc podstawiać dowolne zdania stosując to twierdzenie w przyszłości. W
-takim razie "zmienno-zdaniowość" albo "zmiennościowość i zdaniowość" nazw `p` i `q` musi być
-zakodowana poprzez to, że `p` i `q` odgrywają rolę parametrów dowodzonego twierdzenia:
+inaczej nie będzie wiedział, czym jest `¬p → p → q`. Jednocześnie `p` i `q` mają być *zmiennymi*, za
+które chcemy móc podstawiać dowolne zdania stosując to twierdzenie w przyszłości. W takim razie
+"zmienno-zdaniowość" albo "zmiennościowość i zdaniowość" nazw `p` i `q` musi być zakodowana poprzez
+to, że `p` i `q` odgrywają rolę parametrów dowodzonego twierdzenia (przed drukropkiem albo za, jak
+kto woli):
 
 ```lean
-theorem t1 (p : Prop) (q : Prop) : ¬p → p → q := by
--- Gdy kursor będzie w następnej linijce po tym komentarzu, będziesz w trybie
--- dowodzenia interaktywnego.
+-- Dokończ dowód w trybie interaktywnym lub nieinteraktywnym lub w obydwu tych trybach. Jeżeli bez dodatkowych wyjaśnień
+-- to dla Ciebie w tym momencie jest zbyt trudne, to moje próby wyjaśninia znajdziesz poniżej.
+theorem tn1 (p : Prop) (q : Prop) : ¬p → p → q := by
 ```
 
 Mamy do udowodnienia implikację, której następnik jest również implikacją. Nie wiem, czy to od razu
-zauważyła/eś, więc na wszelki wypadek jeszcze raz tłumaczę: Pamiętasz konwencję dotyczącą nawiasów
-w takich implikacjach? Zdania `¬p → p → q` i `¬p → (p → q)` są tym samym zdaniem, bo *strzałka wiąże
-z prawej* (tak się o tym mówi). Mamy więc, jakby na najwyższym poziomie struktury tego zdania,
-implikację, której poprzednikiem jest `¬p` a następnikiem `(p → q)`.
+zauważyłaś, więc na wszelki wypadek jeszcze raz tłumaczę: Pamiętasz konwencję dotyczącą nawiasów i
+strzałek? Zdania `¬p → p → q` i `¬p → (p → q)` są tym samym zdaniem, bo strzałka wiąże z
+prawej. Mamy więc, na najwyższym poziomie struktury tego zdania, implikację, której
+poprzednikiem jest `¬p` a następnikiem `(p → q)`.
 
 Wiesz już, że udowodnienie tej implikacji polega na udowodnieniu następnika `(p → q)` zakładając
-poprzednik `¬p`. Wiesz też, że gdy założysz ten poprzednik, używając komendy `intro` z wybraną przez
-siebie nazwą dla hipotetycznego dowodu `¬p`, to zostanie jako cel do udowodnienia prostsze zdanie
-`(p → q)`. A żeby z kolei udowodnić to zdanie trzeba znowu założyć poprzednik, w ten sam sposób co
-wcześniej, tylko używając innej nazwy. Wtedy zostanie tylko zdanie `q`.
+poprzednik `¬p`. Wiesz też, że gdy będąc w trybie interaktywnym założysz ten poprzednik, używając
+komendy `intro` z wybraną przez siebie nazwą dla hipotetycznego dowodu `¬p`, to zostanie jako cel do
+udowodnienia prostsze zdanie `(p → q)`. A żeby z kolei udowodnić to zdanie trzeba znowu założyć
+poprzednik, w ten sam sposób co wcześniej, tylko używając innej nazwy. Wtedy zostanie tylko zdanie
+`q`.
 
 Jedynym sposobem, żeby udowodnić to ostatnie zdanie, będzie skorzystanie z tego, co już w tym
-momencie będziesz miał/a, czyli z hipotetycznych dowodów zdań `¬p` i `p`. Byłbym zapomniał, a to
+momencie będziesz miała, czyli z hipotetycznych dowodów zdań `¬p` i `p`. Byłbym zapomniał, a to
 teraz będzie ważne - masz przecież jeszcze coś w kontekście: zdania jako takie (a nie ich dowody),
-`p` i `q`. Te zmienne są parametrami twierdzenia-funkcji `t1`, a więc muszą być wewnątrz tego
-twierdzenia dostępne. Pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym momencie
-muszę objaśnić różnicę między moją definicją absurdu i tą, której używamy w Leanie.
+`p` i `q`. Te zmienne są parametrami twierdzenia `tn1`, a więc muszą być wewnątrz tego twierdzenia
+dostępne. Pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym momencie muszę objaśnić
+różnicę między moją definicją absurdu i tą, której używamy w Leanie.
 
 **Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
 Leanie można zastosować *funkcję* `absurd`. Stosujemy ją do dwóch (być może złożonych, a jeśli
 złożonych, to otoczonych nawiasami) termów, jakiegoś dowodu tego samego zdania w wersjach
 "pozytywnej" i "negatywnej" (dowodu negacji tego zdania), *w tej kolejności*. Kolejność jest myląca,
 bo przecież jeśli `¬p` jest implikacją z `p` do fałszu, to powinniśmy aplikować dowód `¬p` do dowodu
-`p`, a kiedy stosujemy funkcję `absurd` kolejność termów jest odwrotna. No trudno, taka konwencja
-(jest też głębszy powód, ale go pominę).
+`p`, ale kiedy stosujemy funkcję `absurd` kolejność termów jest odwrotna. No trudno, taka konwencja
+(jest też głębszy powód, ale go teraz pominę).
 
 Jeśli w trybie dowodzenia interaktywnego napiszesz `exact absurd` z dwoma (być może złożonymi)
 argumentami, to jest jakimś dowodem jakiegoś zdania i jakimś dowodem negacji tego samego zdania
 (jeszcze raz - w tej kolejności), to nie będzie trzeba już dodawać zdania-celu jako trzeciego
 argumentu. Nie będzie trzeba tego robić, bo gdy jesteś w trybie dowodzenia interaktywnego, Lean
 "zakłada" (Lean nie jest działającym celowo agentem, więc właście nigdy nic nie "robi", ale możemy
-chyba tak nadal mówić), że chcesz udowodnić aktualny cel i sam "decyduje", że eksplozja dedukcyjna
-ma być wykorzystana właśnie na rzecz tego celu.
+chyba tak nadal mówić, nawet bez cydzysłowów), że chcesz udowodnić aktualny cel i sam decyduje, że
+eksplozja dedukcyjna ma być wykorzystana właśnie na rzecz tego celu.
 
 Możesz spróbować skonstruować dowód w trybie nieinteraktywnym (a więc bez użycia taktyk `intro` czy
 `exact`), konstruując funkcję dowodu `¬p` zwracającą funkcję dowodu (inaczej nazwanego) `p`, która z
 kolei będzie zwracać dowód `q`:
 
 ```lean
-theorem t1' (p : Prop) (q : Prop) : ¬p → p → q := 
+theorem tn1' (p : Prop) (q : Prop) : ¬p → (p → q) := 
     fun (h1 : ¬p) => 
             -- Więcej tutaj nie podpowiem
 ```
 
-Widzisz jednoznaczny związek z tym, w jaki spośób konstruowała/eś przed chwilą ten sam dowód w
-trybie interaktywnym? 
+Widzisz jednoznaczny związek z tym, w jaki sposób konstruowałaś przed chwilą ten sam dowód w trybie
+interaktywnym?
 
 Przypominam, że w trybie nieinteraktywnym nie zadziała komenda `exact`, `intro`, czy jakakolwiek
 inna taktyka. Możesz jednak zawsze *w dowolnym miejscu* wejść w tryb interaktywny pisząc `by` i
@@ -82,21 +84,23 @@ zakończyć dowód lub tylko jego fragment używając taktyk. Albo możesz naucz
 kodując dowód nieinteraktywne: Możemy użyć eksplozji dedkukcyjnej w trybie nieinteraktywnym na co
 najmniej dwa sposoby. Jeden polega na tym, że stosujemy funkcję `absurd`, ale to już
 objaśniłem. Drugi, równoważny, tylko inaczej zapisany, polega na jawnym zastosowaniu reguły
-eliminaji (czyli użycia) fałszu.
+*eliminacji* (tak nazywamy w logice reguły użycia przesłanek danego rodzaju) fałszu.
 
-Jeżeli w rozpoczętym wyżej dowodzie otoczysz aplikację `h1` do `h2` (znana nam, "naturalna" metoda
-wywoływania eksplozji dedukcyjnej przez aplikację) nawiasami, to gdy dopiszesz zaraz za prawym
-nawiasem (bez spacji) `.elim`, z kropką na początku, to uzyskasz fałsz, który od razu zakończy
-dowód, tak jak w trybie interaktywnym natychmiast zakończyło dowód zastosowanie taktyki `exact` do
-aplikacji funkcji `absurd`. Nazwa `elim` to skrót od angielskiego *elimination*, czyli eliminacji,
-co w logice oznacza *użycie* albo *wykorzystanie* (czyli jakby "zużycie") założenia.
+Jeżeli w rozpoczętym wyżej dowodzie otoczysz nawiasami aplikację `h1` (o typie `¬p`) do `h2` (o
+typie `p`), czyli używając znanej Ci już, "naturalnej" metody wywoływania eksplozji dedukcyjnej
+przez aplikację, to gdy dopiszesz zaraz za prawym nawiasem (bez spacji) `.elim`, z kropką na
+początku, to uzyskasz fałsz, który od razu zakończy dowód. To zadziała dokładnie tak samo jak
+zastosowanie taktyki `exact` do aplikacji funkcji `absurd` w trybie interaktywnym i w ten sposób
+natychmiast zakończysz dowód. Jeszcze tylko przypomnę, że nazwa `elim` to skrót od angielskiego
+*elimination*, czyli eliminacji, co w logice oznacza *użycie* albo *wykorzystanie* (czyli jakby
+"zużycie") założenia (danego rodzaju).
 
-Może potrzebujesz, żebym to też omówił krok po kroku: Jeżeli (nie kopiuj tego kodu)
+Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja):
 
 `h1 : ¬p
 h2 : p`
 
-to ponieważ (rozpakowując definicję negacji) `h1 : p → False`, to
+to ponieważ (rozpakowując definicję negacji) `h1 : ¬p` znaczy to samo, co `h1 : p → False`, to
 
 `#check h1 h2 -- h1 h2 : False`
 
@@ -108,19 +112,20 @@ typów, zapisują tą regułę często w takim stylu:
 *A*
 
 
-To nie jest fragment Leana ani "wypowiedź" w teorii typów zależnych, tylko fragment *prozy
-matematycznej* dotyczącej dedukcji naturalnej. Nazywam to prozą matematyczną, bo ten fragment wymaga
-komentarza w języku naturalnym, nie jest więc w pełni sformalizowany. Czy widzisz, że chociaż z
-komentarzem ("A reguła eliminacji...") zapis z poziomą kreską jest zrozumały, to bez komentarza,
-który pozwala domyślić się, czym jest *A*, albo nie jest zrozumiały, albo jest zrozumiały tylko dla
-kogoś, kto domyśla się brakującej informacji? Widzimy więc, że formalizacja służy między innymi
-całkowitej eliminacji konieczności domyślania się, o co chodzi.
+To nie jest fragment Leana ani poprawna "wypowiedź" w języku teorii typów, tylko fragment *prozy
+matematycznej* dotyczącej dedukcji naturalnej. Nazywam to prozą matematyczną, bo ten fragment
+*wymaga komentarza w języku naturalnym*, nie jest więc w pełni sformalizowany. Czy widzisz, że
+chociaż z komentarzem ("A reguła eliminacji...") zapis z poziomą kreską jest zrozumały, to bez
+komentarza, który pozwala domyślić się, czym jest *A*, albo nie jest zrozumiały, albo jest
+zrozumiały tylko dla kogoś, kto domyśla się brakującej informacji? Widzimy więc, że formalizacja
+służy między innymi całkowitemu usunięciu potrzeby domyślania się, o co chodzi.
 
-Regułę dedukcji *z fałszu wynika wszystko* możemy zastosować w Lean aplikując funkcję `elim` do
-termu typu `False`. Jeżeli zastanawiasz się, czym to się różni od stosowania dowodu naszego
-`Absurd`u albo od aplikowania funkcji `absurd`, która jest od razu dostępna w Leanie, to wyjaśniam,
-że w zasadzie niczym. To są tylko różne *konwencje* wyrażenia tej samej operacji. Gdybyś chciał/a
-skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to zrobić albo tak:
+Regułę dedukcji *z fałszu wynika wszystko* możemy zastosować w Leanie aplikując funkcję `elim` do
+termu typu `False`. Jeżeli nadal zastanawiasz się, czym to się różni od stosowania dowodu naszego
+`Absurd`u albo od aplikowania funkcji `absurd`, która jest od razu dostępna w Leanie, to wyjaśniam
+jeszcze raz, że w zasadzie niczym. To są tylko różne *konwencje* wyrażenia tej samej
+operacji. Gdybyś chciała skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to
+zrobić albo tak:
 
 `jakis_dowod_falszu_byc_moze_w_nawiasach.elim`
 
@@ -128,7 +133,7 @@ albo tak:
 
 `False.elim jakis_dowod_falszu_byc_moze_w_nawiasach`
 
-Leanowi będzie wszystko jedno, te dwie konwencje istnieją tylko dla Twojej wygody.
+Leanowi będzie wszystko jedno, mamy tu dwie konwencje zamiast jednej tylko dla Twojej wygody.
 
 Podsumowując, gdy masz ochotę użyć jawnie reguły eliminacji dla fałszu, musisz mieć jakiś dowód
 fałszu. Jeżeli nie masz "fałszywego założenia" (np. `h : False`), a raczej nie będziesz go mieć, bo
@@ -138,8 +143,10 @@ poprzednika `P`, czyli przez zastosowanie funkcji typu `P → False` do odpowied
 argumentu. Użyłem tu dużej litery `P`, żeby zasygnalizować, że to może być jakieś zdanie złożone, a
 nie atomowe, na przykład jakaś implikacja.  Gdy już masz dowód fałszu, po prostu mówisz Leanowi, że
 chcesz go zastosować do skonstruowania dowodu zdania, które w danym miejscu "czeka na bycie
-udowodnionym". Byłoby najlepiej, gdybyś spróbował/a zakończyć dowód twierdzenia `t1` używając
-każdego z wymienionych sposobów.
+udowodnionym". Byłoby najlepiej, gdybyś spróbowała zakończyć dowód twierdzenia `tn1` używając więcej
+niż jednego z wymienionych sposobów, ale nie będę się przy tym upierał.
+
+TODO zadanie z negacją ciekawszego zdania
 
 No dobrze, teraz muszę jeszcze wymyślić jakieś w miarę proste zadanie, które będzie polegało na
 *uzyskaniu* negacji. Negacja to szczególny rodzaj implikacji, której następnikiem jest fałsz. Żeby

@@ -101,8 +101,8 @@ eksperymentalnym.
 Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną rolę jaką pojęcie [masy
 punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w próżni odegrało kiedyś w
 fizyce. Osiągniemy to nie proponując żadnego psychologicznego modelu czy teorii, zamiast tego
-zapisując za pomocą symboli to, bez czego nie można się obejść i czego nie da się zakwestionować
-zawsze gdy mówimy o zjawiskach należących do przedmiotu zainteresowań psychologii naukowej. Będzie
+zapiszemy za pomocą symboli to, bez czego nie można się obejść i czego nie da się zakwestionować
+zawsze, gdy mówimy o zjawiskach należących do przedmiotu zainteresowań psychologii naukowej. Będzie
 to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek zachowania*, dzięki któremu
 pytania, które wcześniej wydawały się niejasne albo nawet mętne będzie można formułować w taki
 sposób, że poszukiwanie na nie odpowiedzi stanie się częściowo kwestią mechanicznych operacji.

@@ -78,18 +78,19 @@ mają typ `Prop`*:
 variable (p : Prop) -- deklarujemy, że mamy zdanie p, żeby Lean "wiedział", o czym będziemy "mówić"
 
 #check Type → p -- Type → p : Prop
-#check Type → Type → p -- Type → Type → p : Prop
-#check (Type → Type) → p -- (Type → Type) → p : Prop
+#check Type → Type 1 → p -- Type → Type 1 → p : Prop
+#check (Type 4 → Type) → p -- (Type 4 → Type) → p : Prop
 #check Prop → p -- Prop → p : Prop
+#check Nat → p -- Nat → p : Prop
 #check p → p -- p → p : Prop
 -- i tak dalej
 ```
 
-Powód przyjęcia w Lean tej konwencji nie będzie nas teraz interesował, wystarczy nam, że ta
+Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował, wystarczy nam, że ta
 konwencja działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem*, a
 nie funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, czyli jest *typem
 / zdaniem parametrycznym*. Właściwie już się z tym oswajaliśmy, ale oswoić się z kilkoma przypadkami
-szczególnymi to co innego, niż oswoić się z wszystkimi możliwymi. 
+szczególnymi to co innego, niż oswoić się z wszystkimi możliwymi.
 
 `Absurd` jest więc przykładem *typu zależnego*. Ponieważ to właśnie między innymi dzięki typom
 zależnym możemy naturalnie formalizować dowolne treści matematyczne, zależy mi, żebyś zrozumiała,
@@ -184,7 +185,7 @@ typu `Zniwiarz` do typu `Prop`. `Absurd` jest *typem funkcji*. Predykat `Ponury`
 Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*. Aplikacja
 *dowodu absurdu* - a nie *samego absurdu* - do *zdania* jest *dowodem tego zdania*.
 
-Zdanie `Ponury Krystian`, będące pewną aplikacją, mówi, że Krystian jest ponury(m żniwiażem). To
+Zdanie `Ponury Krystian`, będące pewną aplikacją, mówi, że Krystian jest ponury(m żniwiarzem). To
 jest tylko zdanie, a nie jego *asercja* (nie zapis jego dowodu). Na tym etapie nie wiemy jeszcze,
 czy Krystian jest faktycznie ponury. Można powiedzieć, że tylko "rozważamy" albo "wyrażamy taką
 "ewentualność", a najlepiej powiedzieć po prostu zgodnie z prawdą, że to jest tylko zapisane w
@@ -252,10 +253,10 @@ zdaniami i typami, albo termami typów zdaniowych i ich dowodami, ale z innego p
 myśleć w całkiem nowy sposób.
 
 W następnej części zapoznamy się z rachunkiem predykatów wyższego rzędu. Pokazałem Ci już, jak można
-używać bladego cienia tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy go (go,
-nie [Go](https://pl.wikipedia.org/wiki/Go)) trochę lepiej poznasz, wtedy dokładnie to samo, tylko
-znacznie lepiej, będziesz mogła zrobić z rozumowaniami formułowanymi przez autorów psychologicznych
-badań i teorii.
+używać bladego cienia tej teorii, żeby prześwietlać zawiłości dowodów na istnienie Boga. Gdy go
+(*go*, nie [Go](https://pl.wikipedia.org/wiki/Go)) trochę lepiej poznasz, wtedy dokładnie to samo,
+tylko znacznie lepiej, będziesz mogła zrobić z rozumowaniami formułowanymi przez autorów
+psychologicznych badań i teorii.
 
 ### Przypisy
 
