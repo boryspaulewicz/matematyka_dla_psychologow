@@ -55,6 +55,8 @@ kontekstem. Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
 *Z Fałszu wynika wszystko.*
 
+Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych.
+
 Inna nazwa na absurd to *fałsz*.
 
 ## O co chodzi z tym Absurdem?
