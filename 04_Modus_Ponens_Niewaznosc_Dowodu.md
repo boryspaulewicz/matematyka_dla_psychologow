@@ -6,26 +6,36 @@ regułą dedukcji (schematem wnioskowania dedukcyjnego). Reguła ta mówi:
 
 *Jeżeli `p → q`, to jeżeli `p`, to `q`*.
 
+Na przykład, stąd, że *jeżeli padało, to trawa jest mokra* wynika, że *jeżeli padało*, to *trawa
+jest mokra*. Brzmi jak masło maślane, prawda? To dlatego, że ta reguła jest niczym innym jak
+odzwierciedleniem sensu implikacji w mechanicznej (czyli formalnej, czyli takiej jakby bezmyślnej)
+regule jej stosowania. Inaczej mówiąc, ta reguła jest tak oczywistym sposobem używania implikacji
+jak to tylko możliwe. Moim zdaniem brzmi to wszystko lepiej w takiej oto wersji:
+
 *Jeżeli akceptujemy implikację `p → q` i jej poprzednik `p`, to akceptujemy również jej następnik
 `q`*.
 
+albo takiej:
+
 *Jeżeli `p → q` ma dowód i jej poprzednik `p` ma dowód, to `q` ma dowód*.
 
-W teorii typów ta reguła jest *wbudowana w język*: 
+Używałaś już tej reguły wiele razy, ponieważ w teorii typów ta reguła jest *wbudowana w język*:
 
-*Jeżeli mamy dowód zdania `p → q`, ...*
+1. *Jeżeli mamy dowód zdania `p → q`, ...*
 
 *Gdy już mamy funkcję `dodaj2`, która ma typ `Nat → Nat`, ...*
 
-*to jeżeli mamy też dowód zdania `p`, ...*
+*Gdy już mamy twierdzenie `t1` o type `p → q`, ...*
+
+2. *to jeżeli mamy też dowód zdania `p`, ...*
 
 *to jeżeli mamy term typu `Nat`, na przykład `10`, ...*
 
-*to aplikując dowód zdania `p → q` do dowodu zdania `q`, ...*
+3.  *to aplikując dowód zdania `p → q` do dowodu zdania `q`, ...*
 
 *to aplikując funkcję `dodaj2` do termu `10` ...*
 
-*uzyskujemy dowód zdania `q`, czyli term typu `q`*.
+4.  *uzyskujemy dowód zdania `q`, czyli term typu `q`*.
 
 *uzyskujemy liczbę `12`, która jest termem typu `Nat`*.
 
