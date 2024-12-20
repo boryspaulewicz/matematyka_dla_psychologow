@@ -41,10 +41,10 @@ end strefa_komfortu
 #check jadro_ciemnosci -- Lean sygnalizuje tutaj błąd, a więc poza strefą komfortu jeteśmy bezpieczni
 ```
 
-Jeżeli skopiujesz wszystkie dotychczasowe fragmenty kodu do Leana, to po umieszczeniu kursora na
-komendzie `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód zdania, że hipotetyczny
-żniwiarz Krystian jest ponury. Przypuszczam, że jest dla Ciebie jasne, że w ten sam sposób możemy
-uzyskać dowód dowolnego zdania.
+Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora na komendzie `#check`
+<zobaczysz, że uzyskujemy w ten sposób lokalny dowód zdania, że hipotetyczny żniwiarz Krystian jest
+ponury. Przypuszczam, że jest dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód dowolnego
+zdania.
 
 Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
@@ -55,7 +55,7 @@ kontekstem. Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
 *Z Fałszu wynika wszystko.*
 
-Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych.
+[Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych](https://www.youtube.com/watch?v=Nrz250ryvr8).
 
 Inna nazwa na absurd to *fałsz*.
 
