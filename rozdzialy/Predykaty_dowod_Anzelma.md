@@ -706,4 +706,5 @@ uzasadnienie. Bywa, że oszczędzamy w ten sposób sporo czasu.
     książkę", a nie, jak zalecają wydawnictwa normatywne, "tę książkę". Praktycznie *nikt tak nie
     mówi* i, o ile mi wiadomo, nie ma innego *uzasadnienia*, żeby się przy tej formie upierać, niż
     "bo tak się robi". A przecież *tak się robi* to w istocie nie *uzasadnienie*, tylko *luźne
-    stwierdzenie na temat relatywnej częstości występowania* (ach, typowanie języka naturalnego!).
+    stwierdzenie na temat relatywnej częstości występowania* (ach, jak ja lubię typować wypowiedzi w
+    języku naturalnym!).
