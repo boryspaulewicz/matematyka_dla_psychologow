@@ -26,7 +26,7 @@ tego robić lepiej, niż umiem (to niekoniecznie tautologia, za to te, które om
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
-omawianymi treściami. W przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za co.
+tematem. I w przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za co.
 
 Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym w jakikolwiek sposób poprawić, chętnie
 korzystam z oficialnej
