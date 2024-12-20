@@ -108,7 +108,7 @@ Właściwie założę się nawet, że podobnie jak ja, nie jesteś w stanie sobi
 było nie myśleć o obiektach geometrycznych w taki sposób. A przecież był kiedyś taki czas, gdy ten
 sposób był Ci całkiem obcy i wszystkie kształty były tylko kształtami. W pewnym momencie stopniowo i
 z pewnym wysiłkiem zaczęłaś uczyć się jak można systematycznie przypisywać na przykład kątom i
-odcinkom liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański
+odcinkom liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański,
 były dla Ciebie odrębne, ale znałaś już oba. A że musiałaś się często między nimi przełączać,
 robiłaś to długo, i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się
 w jeden. I ja teraz muszę przez kilka akapitów próbować Ci (i jednocześnie sobie!) ułatwić ich
@@ -117,7 +117,7 @@ ponowne oddzielenie.
 Czy to nie ciekawe, jak bardzo taki z pozoru niewinny izomorfizm potrafi zmienić nasz sposób
 myślenia? Ta ogromna *swoboda w przełączaniu się między dwoma różnymi punktami widzenia* -
 geometrycznym i liczbowym - na w istocie *ten sam* problem, a także możliwość *skutecznego
-korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie opierały się na idealnej odpowiedniości
+korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie opierała się na idealnej odpowiedniości
 między dwoma, dobrze określonymi rodzajami abstrakcyjnych struktur.
 
 Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie obiekty jak zbiór liczb

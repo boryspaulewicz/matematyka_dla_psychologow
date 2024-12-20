@@ -94,8 +94,9 @@ typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psycho
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tej niezwykłej
 perspektywy, jakiej dostarczy nam teoria typów. Z matematyką zrobimy to na początku mówiąć *tylko* o
-funkcjach, a z psychologią zrobimy to mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym
-możliwym psychologicznym badaniu eksperymentalnym. 
+[funkcjach](https://youtu.be/zHU1xH6Ogs4?si=6dEXhDwOJ01KVw8W&t=42), a z psychologią zrobimy to
+mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym możliwym psychologicznym badaniu
+eksperymentalnym.
 
 Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną rolę jaką pojęcie [masy
 punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w próżni odegrało kiedyś w

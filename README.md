@@ -24,6 +24,12 @@ psychologów - dość nietypowymi tematami. Staram się je objaśnić najlepiej 
 tego robić lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
 ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
 
+Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym w jakikolwiek sposób poprawić, chętnie
+korzystam z oficialnej
+[aplikacji](https://play.google.com/store/apps/details?id=com.github.android&hl=en) do przeglądania
+repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie można wtedy wygodnie używać Leana,
+ale jako sposób na czytanie na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
+
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
 [R2 Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
