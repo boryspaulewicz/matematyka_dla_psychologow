@@ -22,7 +22,7 @@ moim zdaniem podchodzić do nauki *jakichkolwiek* treści, ale również uwagi d
 które może znacząco zwiększyć szansę na sukces w zmaganiach z - jak na książkę skierowaną do
 psychologów - dość nietypowymi tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem
 tego robić lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
-ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md) są nimi z pewnością).
+ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
 
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
