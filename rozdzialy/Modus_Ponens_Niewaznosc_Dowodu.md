@@ -66,11 +66,17 @@ Gdy konstruujemy dowód, albo używamy dowodu już istniejącego - czy jakiegoś
 jako parametru twierdzenia - do konstrukcji innych dowodów, obchodzi nas przede wszystkim
 *istnienie* dowodu, a nie jego *struktura*. To dobra wiadomość, bo oznacza, że w momencie
 udowodnienia twierdzenia możemy zwykle *zapomnieć* o jego dowodzie i traktować twierdzenie jak
-"niepodważalną prawdę objawioną", co zmniejsza obciążenie poznawcze. W psychologii to się prawie w
-ogóle nie zdarza, bo psychologia jest nauką empiryczną, a więc żadnego problemu psychologicznego nie
-możemy nigdy ostatecznie rozwiązać, zawsze pozostanie jakaś wątpliwość. Dlatego też poczucie, że się
-jakiś problem całkowicie rozwiązało, którego możemy doświadczać regularnie uprawiając matematykę,
-może być moim zdaniem dla psychologa czymś orzeźwiającym, dla mnie w każdym razie jest.
+"niepodważalną prawdę objawioną", co zmniejsza obciążenie poznawcze. 
+
+W psychologii to się właściwie w ogóle nie zdarza, bo psychologia jest nauką empiryczną, a więc
+żadnego problemu psychologicznego nie możemy nigdy rozwiązać ostatecznie, bo zawsze pozostanie jakaś
+wątpliwość. W dodatku my, psychologowie, nie bardzo rozumiemy co właściwie robimy próbując wyjaśnić
+zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam ocenić,
+czy zrobiliśmy w badaniach znaczące postępy. Dlatego doświadczenie całkowitego i ostatecznego
+rozwiązania jakiegoś problemu, które pojawia się gdy zajmujemy się samą matematyką, albo gdy
+stosujemy ją do formułowania i rozwiązywania teoretycznych problemów w psychologii, może być moim
+zdaniem dla każdego z nas czymś niezwykle orzeźwiającym; dla mnie w każdym razie jest i dlatego
+nadal szukam kolejnych takich doświadczeń.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza

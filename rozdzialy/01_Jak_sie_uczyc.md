@@ -72,18 +72,19 @@ zwi±zane w jaki¶ oczywisty sposób z g³ówn± tre¶ci±.
 
 Skoro ju¿ o tym mowa, to powiem jeszcze, jak± rolê w moim ¿yciu odegra³o zapisywanie (na kartkach!)
 spostrze¿eñ, pomys³ów i pytañ. Poniewa¿ jeste¶my wszyscy istotami skoñczonymi, nawet Ci najbardziej
-twórczy spo¶ród nas w ci±gu swojego ¿ycia mog± wpa¶æ tylko na skoñczon± liczbê dobrych i
-oryginalnych pomys³ów. Te przychodz± nam do g³owy czasem same, a czasem jako rezultat zmagania siê z
-jakim¶ problemem czy uczenia siê czego¶. Psychologowie zajmuj±cy siê twórczo¶ci± czêsto twierdz±, i
-moje do¶wiadczenia wskazuj±, ¿e maj± w tym racjê, ¿e pomys³y, których siê w ¿aden sposób nie "wyjê³o
-z g³owy", czy to mówi±c o nich na g³os, czy to zapisuj±c, maj± tendencjê do zalegania, a przez to
-zdaj± siê zajmowaæ nasz± "mentaln± przestrzeñ", w której - gdyby w niej by³o trochê wiêcej miejsca -
-mog³oby siê mo¿e pojawiæ co¶ nowego. To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest
-te¿ taki, ¿e gdy co¶ zapiszemy, to co¶ staje siê czym¶ od nas odrêbnym i w pewnym sensie nabiera
-przez to pewnej autonomii. Taki zapisany pomys³, w±tpliwo¶æ albo obserwacja mo¿e zacz±æ dzia³aæ jak
-zanurzone w roztworze soli drobne cia³o sta³e, taki zal±¿ek przysz³ego kryszta³u, wokó³ którego
-samoistnie powstaj± i rosn± kolejne pomys³y, obserwacje i pytania. Dlatego na przyk³ad ostatnio
-prawie zawsze mam przy sobie ma³y notes i d³ugopis.
+twórczy spo¶ród nas mog± wpa¶æ tylko na skoñczon± liczbê dobrych i oryginalnych pomys³ów. Te
+przychodz± nam do g³owy czasem same, a czasem jako rezultat zmagania siê z jakim¶ problemem czy
+uczenia siê czego¶. Psychologowie zajmuj±cy siê twórczo¶ci± twierdz±, i moje do¶wiadczenia wskazuj±,
+¿e maj± w tym racjê, ¿e pomys³y, których siê w ¿aden sposób nie "wyjê³o z g³owy", czy to mówi±c o
+nich na g³os, czy to zapisuj±c, maj± tendencjê do zalegania, a przez to zdaj± siê zajmowaæ nasz±
+"mentaln± przestrzeñ", w której - gdyby w niej by³o trochê wiêcej miejsca - mog³oby siê mo¿e pojawiæ
+co¶ innego. To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest te¿ taki, ¿e gdy co¶
+zapiszemy, to co¶ staje siê czym¶ od nas odrêbnym i w pewnym sensie nabiera przez to pewnej
+autonomii. Taki zapisany pomys³, w±tpliwo¶æ albo obserwacja mo¿e zacz±æ dzia³aæ jak zanurzone w
+roztworze soli drobne cia³o sta³e, taki zal±¿ek przysz³ego kryszta³u, wokó³ którego samoistnie
+powstaj± i rosn± kolejne pomys³y, obserwacje i pytania. Dlatego na przyk³ad ostatnio prawie zawsze
+mam przy sobie ma³y notes i d³ugopis. A poza tym teraz, gdy moja pamiêæ nie dzia³a ju¿ tak dobrze
+jak wcze¶niej, wiele, o ile nie wiêkszo¶æ pomys³ów po prostu bym zapomnia³, gdybym ich nie zapisa³.
 
 A powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez
 rozpoznawanie, jak wspomnia³em, nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na

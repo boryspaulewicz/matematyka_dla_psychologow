@@ -1,7 +1,11 @@
 # Kilka zadań, które mają pomóc
 
-Być może zaglądając do wcześniejszych rozdziałów żeby zobaczyć, jak to się robi, dokończ dowody raz
-definiując funkcje ręcznie, a raz za pomocą trybu interaktywnego:
+Być może zaglądając do wcześniejszych rozdziałów, żeby zobaczyć, jak to się robi, dokończ dowody raz
+definiując funkcje ręcznie, a raz za pomocą trybu interaktywnego. 
+
+Moim zdaniem warto czasem rozwiązywanie tego typu prostych zadań powtarzać, z przerwami, do momentu,
+gdy będzie to tak łatwe, że stanie się przez to wyraźnie przyjemne; jak granie w grę, którą się tak
+dobrze już opanowało, że staje się sposobem na odprężenie.
 
 ```lean
 theorem t1a (p : Prop) : p → p :=
@@ -9,7 +13,7 @@ theorem t1a (p : Prop) : p → p :=
 -- W trybie nieinteraktywnym trzeba tutaj stworzyć funkcję, która tworzy funkcję, która tworzy funkcję. W trybie 
 -- interaktywnym trzeba dwa razy użyć taktyki intro. Taktyka intro służy do (λ-)abstrachowania od termów dowolnego typu,
 -- nie tylko zdaniowego. Nie wiem, który tryb będzie dla Ciebie na początku łatwiejszy, więc jeśli jeden z nich będzie
--- trudny, spróbuj drugiego.
+-- się wydawał trudny, to spróbuj drugiego.
 theorem t1b : (p : Prop) → p → p :=
 
 -- To zadanie jest najprostsze, ale może właśnie dlatego w trybie nieinteraktywnym może być szczególnie dezorientujące. 

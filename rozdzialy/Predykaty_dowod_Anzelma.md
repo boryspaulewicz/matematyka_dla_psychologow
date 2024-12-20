@@ -667,9 +667,12 @@ Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzaj�
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
 często nie chce im się wszystkiego tłumaczyć tak szczegółowo, powoli i jasno, żeby nie trzeba było
 wykonywać bardzo wielu zadań, aby to zrozumieć. Dlatego jestem zdania, że spoczywa na mnie jeszcze
-inny obowiązek - obowiązek dobrego tłumaczenia tego, o czym mówię. A na Tobie, ponieważ zajmujesz
-miejsce, które mógłby zająć ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia, o czym
-mówię. I to są obowiązki, ale również szansa na coś wspaniałego.
+inny obowiązek, poza gotowością do uzasadniania tego, o czym mówię, w miarę regularnym uzupełnianiem
+braków w wiedzy i wskazywaniem na błędy w tekstach, z których korzystamy na zajęciach. Mam na myśli
+obowiązek dobrego tłumaczenia. A na Tobie, ponieważ zajmujesz miejsce, które mógłby zająć przecież
+ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia tego, co staram Ci się
+wytłumaczyć. Chodzi mi tylko o próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to są
+bez wątpienia obowiązki, ale również szansa na coś wspaniałego.
 
 Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
@@ -699,4 +702,8 @@ uzasadnienie. Bywa, że oszczędzamy w ten sposób sporo czasu.
 ### Przypisy
 
 [^1]: Tą zabawę w zaczynanie zdań od "no więc" traktuję tutaj jako formę ekspresji liberalnego
-    podejścia do kwestii obyczajowych. Bo mogę.
+    podejścia do kwestii obyczajowych. Bo mogę. Z tego samego powodu używam formy na przykład "tą
+    książkę", a nie, jak zalecają wydawnictwa normatywne, "tę książkę". Praktycznie *nikt tak nie
+    mówi* i, o ile mi wiadomo, nie ma innego *uzasadnienia*, żeby się przy tej formie upierać, niż
+    "bo tak się robi". A przecież *tak się robi* to w istocie nie *uzasadnienie*, tylko *luźne
+    stwierdzenie na temat relatywnej częstości występowania* (ach, typowanie języka naturalnego!).

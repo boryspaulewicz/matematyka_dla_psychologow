@@ -111,7 +111,8 @@ z pewnym wysiłkiem zaczęłaś uczyć się jak można systematycznie przypisywa
 odcinkom liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański
 były dla Ciebie odrębne, ale znałaś już oba. A że musiałaś się często między nimi przełączać,
 robiłaś to długo, i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się
-w jeden. I ja teraz muszę przez kilka akapitów próbować Ci ułatwić ich ponowne oddzielenie. 
+w jeden. I ja teraz muszę przez kilka akapitów próbować Ci (i jednocześnie sobie!) ułatwić ich
+ponowne oddzielenie.
 
 Czy to nie ciekawe, jak bardzo taki z pozoru niewinny izomorfizm potrafi zmienić nasz sposób
 myślenia? Ta ogromna *swoboda w przełączaniu się między dwoma różnymi punktami widzenia* -
