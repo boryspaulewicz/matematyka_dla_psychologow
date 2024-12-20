@@ -1,6 +1,6 @@
 *W tym rozdziale nie ma żadnych zadań.*
 
-# Modus ponens i dwa wymiary teorii typów zależnych
+# Modus ponens i obliczenia w dwóch wymiarach
 
 Jeżeli implikacja jest najważniejszym spójnikiem, to *modus ponens*, albo *modus ponendo ponens* (z
 łacińskiego *sposób potwierdzający potwierdzeniem*), albo *reguła odrywania*, jest najważniejszą

@@ -53,7 +53,7 @@ Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
 [R11 Jakiś żart przed dwukropkiem: Duży kwantyfikator i implikacja w zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
 
-[R12 Modus ponens, dwa wymiary teorii typów zależnych i nieważność
+[R12 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
