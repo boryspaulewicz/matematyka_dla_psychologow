@@ -231,9 +231,9 @@ My¶lisz, ¿e z tym "durniem" przesadzi³em? W *pierwszej klasie szko³y podstawowej
 prawie nic w zeszycie i mój szkolny "poziom wykonania" by³ tak niski, ¿e, jak siê pó¼niej
 dowiedzia³em, nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi
 rok. Z powodu licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo
-s³abych ocen z kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum. Na studia z
-psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj± mnie wrodzon± moc±
-obliczeniow±, a poza tym nie jestem ju¿ m³ody.
+s³abych ocen z kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum (uratowa³a mnie
+olimpiada z filozofii). Na studia z psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci±
+przerastaj± mnie wrodzon± moc± obliczeniow±, a poza tym nie jestem ju¿ m³ody.
 
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
 robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
