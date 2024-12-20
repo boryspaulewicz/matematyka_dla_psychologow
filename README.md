@@ -46,14 +46,16 @@ Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 [R8 Rozdział, w którym autor ulega kilkukrotnie nadmiernej ekscytacji: Logika na Leanie, pierwsze
 kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
 
-[R9 Nareszcie niedobór nadmiaru tekstu: Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
+[R9 Nareszcie niedobór nadmiaru tekstu: Implikacja w
+zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
 
-[R10 Predykaty, relacje, duży kwantyfikator i dowód na istnienie
+[R10 Coś do poduszki: Predykaty, relacje, duży kwantyfikator i dowód na istnienie
 Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
-[R11 Jakiś żart przed dwukropkiem: Duży kwantyfikator i implikacja w zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
+[R11 Jakiś żart przed dwukropkiem: Duży kwantyfikator i implikacja w
+zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
 
-[R12 Modus ponens, obliczenia w dwóch wymiarach i nieważność
+[R12 Lubię to: Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
