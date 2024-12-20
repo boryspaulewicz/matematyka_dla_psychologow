@@ -72,9 +72,6 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R12 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
-Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
-zmienią.
-
-[Negacja w praktyce dowodzenia](./051_Negacja_w_praktyce.md)
+[TERAZ ZMIENIAM: Negacja w praktyce dowodzenia](./051_Negacja_w_praktyce.md)
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
