@@ -18,8 +18,9 @@ Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie z
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
 wynikach badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyczące tego, jak warto
 podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące właściwego moim zdaniem
-*nastawienia*, które może znacząco zwiększyć szansę na sukces w zmaganiach z jak na książkę
-skierowaną do psychologów dość nietypowymi tematami, które później najlepiej jak umiem objaśniam.
+*nastawienia*, które może znacząco zwiększyć szansę na sukces w zmaganiach z - jak na książkę
+skierowaną do psychologów - dość nietypowymi tematami. Staram się je objaśnić najlepiej jak umiem,
+ale nie umiem tego robić lepiej, niż umiem (o takich jak ta tautologiach piszę w rozdziale ósmym).
 
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
