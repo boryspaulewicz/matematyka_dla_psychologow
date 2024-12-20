@@ -30,8 +30,8 @@ hp : q`. To nic innego jak nasze najbardziej podstawowe obliczenie na poziomie t
 zawsze w ramach aplikacji funkcji do argumentu. 
 
 **Przydatna konwencja**: Przy okazji, lubię czasem stosować konwencję, zgodnie z którą nazwa dowodu
-zdania na przykład `q` to `hq`, bo to skrót od "hipoteza q". Dzięki temu jest mi czasem łatwiej
-odróżniać zdania od ich dowodów, bo od razu widać to w notacji.
+zdania na przykład `q` to `hq`, bo to skrót od "hipoteza q". Dzięki temu jest mi łatwiej odróżniać
+zdania od ich dowodów, bo od razu widać to w notacji.
 
 Przyjżymy się teraz różnicy między aplikacją dowodu implikacji i aplikacją funkcji, która nie jest
 dowodem. Jak widać poniżej, to jest zarazem to samo i nie to samo, ponieważ chociaż formalnie to
