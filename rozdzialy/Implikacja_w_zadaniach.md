@@ -1,11 +1,13 @@
-# Kilka zadań, które mają pomóc
+# Kilka zadań z dowodzenia implikacji
 
 Być może zaglądając do wcześniejszych rozdziałów, żeby zobaczyć, jak to się robi, dokończ dowody raz
-definiując funkcje ręcznie, a raz za pomocą trybu interaktywnego. 
+definiując funkcje ręcznie, a raz za pomocą trybu interaktywnego. Nie bój się eksperymentować! Błędy
+są po to, żeby je robić coraz rzadziej robiąc je na początku często! Wszystko mija!
 
 Moim zdaniem warto czasem rozwiązywanie tego typu prostych zadań powtarzać, z przerwami, do momentu,
-gdy będzie to tak łatwe, że stanie się przez to wyraźnie przyjemne; jak granie w grę, którą się tak
-dobrze już opanowało, że staje się sposobem na odprężenie.
+gdy będzie to tak łatwe, że stanie się przez to wyraźnie przyjemne; jak granie na jakimś
+instrumencie utworu, który się tak dobrze już opanowało, że staje się to dobrym sposobem na
+odprężenie.
 
 ```lean
 theorem t1a (p : Prop) : p → p :=
@@ -40,6 +42,3 @@ def t4 (p q : Prop) : q → p → p :=
 axiom r : Prop
 theorem t5 (p : Prop) : p → r :=
 ```
-
-Gdy uda Ci się rozwiązać wszystkie te zadania, albo tylko połowę, i powiesz mi o tym
-(boryslaw.paulewicz@uj.edu.pl), będę przez chwilę jeszcze bardziej szczęśliwy, niż zazwyczaj jestem.
