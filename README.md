@@ -68,9 +68,11 @@ zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
 [R12 Lubię to: Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
+[R12 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+
 Te rozdziały da się chyba czytać już teraz, ale właśnie nad nimi pracuję, więc pewnie się niebawem
 zmienią.
 
-[Negacja, absurd, fałsz, sprzeczność i eksplozja](./05_Negacja.md)
-
 [Negacja w praktyce dowodzenia](./051_Negacja_w_praktyce.md)
+
+[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będzie w innym rozdziale.
