@@ -41,7 +41,9 @@ to nie jest zwykły fakt, z którego ta różnica wynika logicznie. Jeżeli ta r
 występuje, to powodem, albo może sednem tej różnicy jest *szczególny* rodzaj faktu - inaczej coś
 *oceniamy*. Żaden znany mi, akceptowalny dla mnie rachunek logiczny nie pozwala, bez jakiś
 dodatkowych składników, z sądów *nieocennych*, czyli takich zwykłych sądów opisowych, *wywnioskować*
-sąd *ocenny*.
+sąd *ocenny*. I nie ma w tym chyba nic dziwnego, skoro każdy fakt - w izolacji - łącznie z faktami
+polegającymi na tym, że ktoś w jakiś sposób coś ocenia, może być oceniany na każdy możliwy sposób
+bez popadania w sprzeczność.
 
 Nie jestem autorem tej obserwacji, [Hume](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem)
 jest. Nawiasem mówiąc, na tej stronie Wikipedii, w sekcji *Responses* (odpowiedzi czy może reakcje)
