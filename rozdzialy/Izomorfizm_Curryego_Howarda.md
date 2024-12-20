@@ -47,13 +47,13 @@ jednak nie wiedziałaś dotąd, że liczby nie odgrywają w tej teorii *żadnej*
 [Elementach](http://aleph0.clarku.edu/~djoyce/java/elements/toc.html) Euklidesa znajdziemy tylko
 *rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyrażone w języku naturalnym
 definicje i aksjomaty, które te obiekty mają spełniać, a także rozumowania polegające na
-wyprowadzaniu z tych definicji i aksjomatów różnych twierdzeń. Na przykład, znajduje się tam
-aksjomat, który mówi, że wszystkie kąty proste są sobie równe. Ty pewnie od razu myślisz o kątach
-prostych jako takich, które wynoszą 90 stopni, ale to jest przecież liczba. Dla Euklidesa to nie
-były liczby. Mógł pisać o wielkościach kątów, na przykład o tym, że jeden kąt jest większy od
-drugiego, w takim samym znaczeniu, w jakim ktoś, kto na przykład nie miałby "ośrodka liczbowego" w
-mózgu mógłby bez trudu ocenić, które spodnie ma krótsze a które ma dłuższe. Do pewnych operacji tego
-rodzaju w ogóle nie potrzeba liczb.
+wyprowadzaniu z tych definicji i aksjomatów różnych twierdzeń. Na przykład, jest tam aksjomat, który
+mówi, że wszystkie kąty proste są sobie równe. Ty pewnie od razu myślisz o kątach prostych jako
+takich, które mają 90 stopni, ale to jest przecież liczba. Dla Euklidesa to nie były liczby. Mógł
+pisać o wielkościach kątów, na przykład o tym, że jeden kąt jest większy od drugiego, w takim samym
+znaczeniu, w jakim ktoś, kto na przykład nie miałby "ośrodka liczbowego" w mózgu mógłby bez trudu
+ocenić, które spodnie ma krótsze a które ma dłuższe. Do pewnych operacji tego rodzaju w ogóle nie
+potrzeba liczb.
 
 Pewne problemy geometryczne dają się w taki czysto geometryczny sposób analizować względnie wygodnie
 czy łatwo, ale zdecydowanie nie wszystkie. Jeżeli teraz przyjmiemy, że na naszej wyidealizowanej
@@ -117,7 +117,7 @@ ponowne oddzielenie.
 Czy to nie ciekawe, jak bardzo taki z pozoru niewinny izomorfizm potrafi zmienić nasz sposób
 myślenia? Ta ogromna *swoboda w przełączaniu się między dwoma różnymi punktami widzenia* -
 geometrycznym i liczbowym - na w istocie *ten sam* problem, a także możliwość *skutecznego
-korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie opierała się na idealnej odpowiedniości
+korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie opierały się na idealnej odpowiedniości
 między dwoma, dobrze określonymi rodzajami abstrakcyjnych struktur.
 
 Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie obiekty jak zbiór liczb
@@ -169,4 +169,4 @@ również ogólniej rozumiane badania o meta-teoretycznym charakterze - jako pro
 zarazem sztywny i wystarczająco ekspresyjny język. Ten, na którym oparty jest Lean, jest właśnie
 jednym z takich języków. A tym, co przede wszystkim sprawia, że jest tak bardzo ekspresyjny, że
 pozwala zakodować formalnie całą matematykę, a więc też wszystko, co tylko da się zmatematyzować,
-czyli powiedzieć lub wyrazić jasno, są *typy zależne*.
+czyli powiedzieć lub wyrazić jasno, są typy zależne.

@@ -16,12 +16,13 @@ pomiar interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie 
 definicji. Jedną z nich będziez wpływowa teoretyczno-przyczynowa definicja trafności pomiaru, którą
 w pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
 [artykyle](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
-Denny Borsboom. Drugą będzie, również teoretyczno-przyczynowa, definicja niezmienności pomiaru
-(objaśniona na s. 14 w tym [preprincie](https://osf.io/preprints/psyarxiv/e7a3x)), na której trop,
-jak się najpierw dowiedziałem od piszącej pożyteczne teksty, czarującej Julii Rohrer, a potem od
-samego już Borsbooma, ten wpadł dziesięć lat przede mną, ale tego pomysłu nigdy nie rozwinął i
-dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Julia napisała na ten
-temat na poczytnym blogu [The 100%
+[Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
+teoretyczno-przyczynowa, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
+[preprincie](https://osf.io/preprints/psyarxiv/e7a3x)), na której trop, jak się najpierw
+dowiedziałem od piszącej pożyteczne teksty, czarującej [Julii Rohrer](https://juliarohrer.com/), a
+potem od samego już Borsbooma, ten wpadł dziesięć lat przede mną, ale tego pomysłu nigdy nie
+rozwinął i dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Julia napisała
+na ten temat na poczytnym blogu [The 100%
 CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
 zaszczyt figurować w dwóch przypisach, wymieniony obok samego Borsbooma jako niezależny odkrywca tej
 istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, chociaż

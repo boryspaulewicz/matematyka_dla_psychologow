@@ -20,10 +20,13 @@ def identycznosc (typ : Type) (argument : typ) : typ := argument
 #check @identycznosc Nat 1 -- identycznosc Nat 1 : Nat
 
 #eval identycznosc Nat 1
+
 -->
 (fun (typ : Type) => fun (argument : typ) => argument) Nat 1 -- ... : Nat
+
 -->
 (fun (argument : Nat) => argument) 1                         -- ... : Nat
+
 -->
 1                                                            -- ... : Nat
 ```
@@ -43,7 +46,7 @@ dość cierpliwa, niebawem w pełni zrozumieć, o ile to się już nie stało, b
 na tym, co już Ci pokazałem.
 
 O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu ewaluacja musi się zakończyć
-i ten wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drodze aplikacji.
+i wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drodze aplikacji.
 
 Funkcje mogą przekształcać termy dowolnego typu, w tym również dowolne typy, w termy dowolnego typu,
 w tym również dowolne typy. Typy pojawiające się później w specyfikacji typu funkcji mogą zależeć od
