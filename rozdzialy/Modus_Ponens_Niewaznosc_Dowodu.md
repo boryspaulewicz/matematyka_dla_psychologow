@@ -146,7 +146,7 @@ na mnie zrobiło spore i nadal gdy zdarza mi się to pomyśleć nawiedza mnie cz
 [mysterium fascinosum](https://encyklopedia.pwn.pl/haslo/mysterium-fascinosum;3944914.html):
 Wszystkie polecenia, które do tej pory wykonywałaś i wszystkie obliczenia, które wtedy zachodziły, w
 obydwu wymiarach, zachodziły właściwie *jednocześnie* na poziomie konkretnym i teoretycznym
-matematyki, po prostu dlatego, że *każdy term miał typ, a każdy typ był termem*:
+matematyki, *po prostu dlatego, że każdy term miał typ, a każdy typ był termem*:
 
 ```lean
 #check @dodaj2 -- dodaj2 : Nat → Nat
