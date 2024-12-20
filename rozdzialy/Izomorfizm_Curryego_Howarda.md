@@ -33,18 +33,18 @@ współrzędnych kartezjańskich. Proszę Cię, żebyś teraz wyobraziła sobie 
 nieliczbową, jeśli można tak powiedzieć. Taką płaszczyznę, którą mogłoby sobie wyobrazić dziecko,
 które jeszcze nie poznało pojęcia liczby.
 
-Nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju idealnie płaskiej
-powierzchni bez żadnych granic; takiej powierzchni, którą można sobie tylko wyobrazić albo opisać,
-ale która nie może istnieć realnie. Taką, o której chętnie myślą matematycy albo filozofowie. Bez
-dodatkowych założeń ta płaszczyzna jako taka *nie* ma charakteru liczbowego, tylko czysto
-geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykład jakiś konkretny okrąg na
-tej płaszczyźnie *jako taki*, który moglibyśmy sobie wyobrazić i który moglibyśmy próbować
-systematycznie analizować, *nie* ma jeszcze charakteru liczbowego.
+Jak pewnie wiesz, nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju
+idealnie płaskiej powierzchni bez żadnych granic; takiej powierzchni, którą można sobie tylko
+wyobrazić albo opisać, ale która nie może istnieć realnie. Taką, o której chętnie myślą matematycy
+albo filozofowie. Bez dodatkowych założeń ta płaszczyzna jako taka *nie* ma charakteru liczbowego,
+tylko czysto geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykład jakiś
+konkretny okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy sobie wyobrazić i który moglibyśmy
+próbować systematycznie analizować, *nie* ma jeszcze charakteru liczbowego.
 
 [Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której być może już
 słyszałaś, jest (pierwszym w historii) przykładem aksjomatycznej teorii tego typu struktur. Być może
 jednak nie wiedziałaś dotąd, że liczby nie odgrywają w tej teorii *żadnej* roli. W
-[Elementach](http://aleph0.clarku.edu/~djoyce/java/elements/toc.html) Euklidesa znajdziemy tylko
+[*Elementach*](http://aleph0.clarku.edu/~djoyce/java/elements/toc.html) Euklidesa znajdziemy tylko
 *rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyrażone w języku naturalnym
 definicje i aksjomaty, które te obiekty mają spełniać, a także rozumowania polegające na
 wyprowadzaniu z tych definicji i aksjomatów różnych twierdzeń. Na przykład, jest tam aksjomat, który
@@ -52,8 +52,12 @@ mówi, że wszystkie kąty proste są sobie równe. Ty pewnie od razu myślisz o
 takich, które mają 90 stopni, ale to jest przecież liczba. Dla Euklidesa to nie były liczby. Mógł
 pisać o wielkościach kątów, na przykład o tym, że jeden kąt jest większy od drugiego, w takim samym
 znaczeniu, w jakim ktoś, kto na przykład nie miałby "ośrodka liczbowego" w mózgu mógłby bez trudu
-ocenić, które spodnie ma krótsze a które ma dłuższe. Do pewnych operacji tego rodzaju w ogóle nie
-potrzeba liczb.
+ocenić, które spodnie ma krótsze a które ma dłuższe. 
+
+Możemy konsekwentnie mówić o relacji *większe niż* bez posługiwania się żadnymi liczbami, już to
+zresztą robiliśmy, rozważając tego rodzaju relację gdy przyglądaliśmy się dowodowi na istnienie
+Boga. Do niektórych operacji, które mogą się nam kojarzyć z liczbami, takich jak właśnie
+porównywanie wielkości, wbrew pozorom w ogóle nie potrzeba liczb.
 
 Pewne problemy geometryczne dają się w taki czysto geometryczny sposób analizować względnie wygodnie
 czy łatwo, ale zdecydowanie nie wszystkie. Jeżeli teraz przyjmiemy, że na naszej wyidealizowanej
@@ -62,9 +66,9 @@ nich, ale nie w miejscu przecięcia, jakiś punkt a może kreskę, którą oznac
 uzyskamy w ten sposób *układ współrzędnych kartezjańskich*. Wystarczy nam ten jeden, definiujący
 jednostkę odległości punkt i od razu będziemy mieli jednoznacznie określoną "podziałkę" na obydwu
 osiach. Dzięki połączeniu tych wszystkich elementów, to jest dwóch przecinających się osi i
-podziałki na obu, nasz układ współrzędnych działa właśnie jak tłumacz. Ten tłumacz każdemu punktowi
-na każdej z tych dwóch osi przyporządkowuje unikalną liczbę rzeczywistą i odwrotnie, każdej liczbie
-rzeczywistej przyporządkowuje na każdej z osi unikalny punkt.
+podziałki na obu, nasz układ współrzędnych działa właśnie jak doskonały tłumacz. Ten tłumacz każdemu
+punktowi na każdej z tych dwóch osi przyporządkowuje unikalną liczbę rzeczywistą i odwrotnie, każdej
+liczbie rzeczywistej przyporządkowuje na każdej z osi unikalny punkt.
 
 W ten sposób uzyskujemy metodę wiernego tłumaczenia w obie strony między pewnymi obiektami czysto
 geometrycznymi, to jest punktami na każdej z osi traktowanej z osobna, a liczbami rzeczywistymi, a
@@ -72,7 +76,9 @@ każda taka metoda to pewien izomorfizm. Uzyskujemy od razu też coś więcej - 
 płaszczyźnie*, a więc niekoniecznie na którejś z dwóch osi, który sam z siebie nie ma jeszcze
 charakteru liczbowego, odpowiada odtąd unikalna *para liczb* i to są właśnie współrzędne
 kartezjańskie tego punktu. Ta odpowiedniość działa w obie strony, a więc również każdej parze liczb
-rzeczywistych odpowiada unikalny punkt.
+rzeczywistych odpowiada unikalny punkt. A ponieważ każdy obiekt geometryczny na płaszczyźnie możemy
+rozumieć jako pewien zbiór punktów, to każdy taki obiekt odpowiada teraz pewnemu unikalnemu zbiorowi
+uporządkowanych par liczb.
 
 Dzięki temu problemy o charakterze *czysto geometrycznym* (na płaszczyźnie) możemy wiernie
 przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć nie zawsze) łatwiej jest
