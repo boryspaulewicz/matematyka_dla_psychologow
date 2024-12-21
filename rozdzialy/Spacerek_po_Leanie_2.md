@@ -281,7 +281,7 @@ psychologię, albo chociaż pewną jej znaczącą część), trzeba się *cierpl
 *nowego sposobu myślenia*, polegającego między innymi na patrzeniu na funkcje, programy, a niebawem
 też na implikacje jako na jedno i to samo.
 
-## Funkcje w Lean
+## Funkcje
 
 **Polecenie**: Popatrz na ten fragment kodu, spróbuj go odczytać i przepisz go z pamięci. Jeżeli na
 tym etapie to za trudne, to albo go po prostu skopiuj, albo spróbuj kiedy indziej, gdy poczujesz, że

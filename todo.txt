@@ -1,3 +1,8 @@
+ZACZ¥Æ od anonimowych funkcji?
+
+Mo¿e jednak zacz¹æ prawie bez s³ów? Tylko nabywanie wprawy w programowaniu za pomoc¹ rozpoznawania
+wzorców?
+
 Zasiêg nazw - ¿e bez koniecznej konwencji pojawi³aby siê dwuznacznoœ. Wczeœniej o aksjomatach, ¿eby
 by³o co przys³aniaæ.
 
