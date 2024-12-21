@@ -56,6 +56,6 @@ parametru, który pojawił się wcześniej, tak jak to ma miejsce w przypadku ty
 Na tej podstawie można zbudować całą matematykę i za pomocą tego języka można zapisać w stosunkowo
 naturalny sposób matematyczne teorie.
 
-Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno. Wszystko, co da się powiedzieć
-jasno, można zapisać w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów,
-można sprawdzić za pomocą algorytmu.
+Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i wszystko, co da się powiedzieć
+jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co zostało zapisane w języku
+teorii typów, można sprawdzić za pomocą algorytmu.
