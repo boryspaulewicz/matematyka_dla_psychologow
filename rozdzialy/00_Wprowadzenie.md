@@ -10,25 +10,25 @@ komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wym
 tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
-siedemnastoletni wtedy Tymek. Sz³o mu powoli, wiêc wprowadzi³em pewne zmiany i zmienion± wersjê
+siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, wiêc wprowadzi³em kilka zmian a now± wersjê
 da³em doktorantom, którzy chodzili wtedy na mój kurs dotycz±cy wnioskowania bayesowskiego i
-przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) poprawi³em skrypt na tyle, ¿e czê¶æ studentów
-wykona³a poprawnie zadanie, a kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
+przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) czê¶æ studentów wykona³a poprawnie zadanie, a
+kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
 
-Poniewa¿ sam zacz±³em siê ca³kiem niedawno uczyæ Leana, postanowi³em uczyæ siê go nadal poprawiaj±c
-i rozwijaj±c to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania
-przyczynowego dla psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171)
-(wersja w jêzyku angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma
-lepszego sposobu, ¿eby upewniæ siê, czy siê co¶ rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za
-co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat tego, czym
-jest lub mo¿e byæ rachunek przyczynowy, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja
-*Przegl±du psychologicznego* okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em
-ca³o¶æ o ponad po³owê, wcze¶niej pisz±c kilka ró¿nych równie d³ugich wersji, ostatecznie pozwolono
-mi przekroczyæ limit znaków o, jak by to powiedzieæ, bardzo wiele znaków. Nie jest to chyba mój
-najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448) nawet
-Pearlowi, który raczej nie jest sk³onny do prawienia komplementów na temat tego typu artyku³ów. Czy
-teraz bym w tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje
-siê, ¿e odbiegam od tematu.
+Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal poprawiaj±c i rozwijaj±c
+to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania przyczynowego dla
+psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) (wersja w jêzyku
+angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma lepszego sposobu,
+¿eby upewniæ siê, czy siê co¶ rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu tutaj
+serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
+przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
+okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê,
+wcze¶niej pisz±c kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie
+pozwolono mi przekroczyæ limit znaków o, jak by to powiedzieæ, bardzo wiele znaków. Nie jest to
+chyba mój najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448)
+nawet Pearlowi, który raczej nie jest sk³onny do prawienia komplementów na temat tego typu
+artyku³ów. Czy teraz bym w tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka
+razy. Ale zdaje siê, ¿e odbiegam od tematu.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
@@ -47,8 +47,8 @@ pope³niaj±c przy tym czasem najprostsze nawet b³êdy.
 Dobrymi przyk³adami powa¿nych b³êdów wynikaj±cych z niezrozumienia matematycznej nieuchronno¶ci
 kilku prostych zasad s± powszechne wnioskowanie o braku efektu na podstawie samego tylko
 nieistotnego wyniku testu statystycznego, albo wnioskowanie o wp³ywie czy innych w³asno¶ciach
-przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ (nadal nie wszyscy psychologowie
-wiedz±, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e [przyczynowo¶æ zosta³a
+przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ (wielu psychologów wci±¿ nie zdaje
+sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e [przyczynowo¶æ zosta³a
 zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)). Takim byæ mo¿e poza tym ca³kiem
 kompetentnym, ale nadal jednak matematycznym pó³-analfabetom udaje siê publikowaæ w
 wysokopunktowanych czasopismach, bo ich manuskrypty s± zwykle recenzowane i dopuszczane do druku
@@ -56,13 +56,13 @@ przez innych matematycznych pó³-analfabetów. Rezultatem jest powszechna w psycho
 rozczarowuj±ca gra pozorów.
 
 Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
-³atwo jest wskazaæ jedn± z g³ównych przyczyn tego stanu rzeczy: Praktycznie *nikt*, w³±czaj±c w to
-osoby prowadz±ce zajêcia ze statystyki, nie wymaga od psychologów znajomo¶ci nawet tylko tej
-odrobiny matematyki, któr± trzeba poznaæ, ¿eby trochê g³êbiej zrozumieæ o co tak naprawdê chodzi
-miêdzy innymi w testowaniu istotno¶ci albo w poprawnym uzasadnianiu wniosków przyczynowych. A
-przecie¿ te dwa rodzaje rozumowañ odgrywaj± centraln± rolê w niemal ka¿dym artykule empirycznym. Co
-ambitniejsi studenci uzupe³niaj± samodzielnie braki w wiedzy, ale akurat matematyki ma³o kto uczy
-siê systematycznie z w³asnej woli.
+³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie przyczynê najwa¿niejsz±, tego stanu rzeczy:
+Praktycznie *nikt*, w³±czaj±c w to osoby prowadz±ce zajêcia ze statystyki, nie wymaga od psychologów
+znajomo¶ci nawet tylko tej odrobiny matematyki, któr± trzeba poznaæ, ¿eby trochê g³êbiej zrozumieæ o
+co tak naprawdê chodzi miêdzy innymi w testowaniu istotno¶ci albo w poprawnym uzasadnianiu wniosków
+przyczynowych. A przecie¿ te dwa rodzaje rozumowañ odgrywaj± *centraln±* rolê w *niemal ka¿dym*
+artykule empirycznym. Co ambitniejsi studenci uzupe³niaj± samodzielnie braki w wiedzy, ale akurat
+matematyki ma³o kto uczy siê systematycznie z w³asnej woli.
 
 Mam powody s±dziæ, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mniej boj± siê
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z
@@ -72,12 +72,11 @@ w³a¶nie zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i
 akademickim zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w tym celu podj±æ próbê
 poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
 
-Uprzedzam, ¿e ta ksi±¿ka *mo¿e zawieraæ i prawie na pewno zawiera b³êdy we fragmentach napisanych w
-jêzyku naturalnym*, czyli w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod
-lub zapêdzam siê w dygresje. To ryzyko nie jest wcale ma³e, bo jestem tylko matematycznym
-amatorem. Co prawda co¶ tam mogê pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca,
-ale nie ma tego wiele. Gdyby¶ wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym
-napiszesz (boryslaw.paulewicz@uj.edu.pl).
+Uprzedzam, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*, czyli
+w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod lub zapêdzam siê w
+dygresje. To ryzyko nie jest znikome, bo jestem matematycznym amatorem. Co prawda co¶ tam mogê
+pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca, ale nie ma tego wiele. Gdyby¶
+wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
 
 Mogê Ciê za to zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach formalnych*,
 to jest zakodowanych w pewnej wersji jêzyka teorii typów zale¿nych, z której korzysta asystent
@@ -85,7 +84,7 @@ dowodzenia Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do re
 tak robiê, ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli akurat
 sprawdzi³em kod po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzone
 przez algorytm, którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
-[formalnie bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
+[bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
 
 Muszê Ciê ostrzec, ¿e nawet je¿eli przeczytasz pierwszy rozdzia³ albo dwa do koñca i uda Ci siê
 zrobiæ poprawnie zadania, których w tych rozdzia³ach zreszt± nie ma wiele, jest mo¿liwe, ¿e
