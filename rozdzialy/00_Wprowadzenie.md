@@ -86,7 +86,7 @@ po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzon
 którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
 [bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
 
-Muszê Ciê ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
+Muszê Ciê te¿ ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
 zadania, których do tego momentu nie ma zreszt± wiele, jest mo¿liwe, ¿e poczujesz co¶ w rodzaju
 zagubienia. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego takie poczucie jest na
 pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy zaczyna³em siê uczyæ o teorii typów. To
