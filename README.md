@@ -12,7 +12,7 @@ zaś do wnioskowania przyczynowego i statystycznego (w *tej* kolejności), w wer
 częstościowej, ale nie tylko. W drugiej części zamierzam uzasadnić, objaśnić i zilustrować
 przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w szczególności i nauki
 empiryczne w ogólności (więcej na ten temat znajdziesz [tutaj](./rozdzialy/02_Cel.md)). Ta
-propozycja jest kontynuacją i rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf),
+propozycja będzie kontynuacją i rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf),
 którymi zacząłem się zajmować jeszcze na etapie pisania pracy magisterskiej, a niektórymi nawet
 wcześniej.
 
@@ -33,7 +33,7 @@ Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym w jakikolwiek 
 korzystam z oficialnej
 [aplikacji](https://play.google.com/store/apps/details?id=com.github.android&hl=en) do przeglądania
 repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie można wtedy wygodnie używać Leana,
-ale jako sposób na czytanie na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
+ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
