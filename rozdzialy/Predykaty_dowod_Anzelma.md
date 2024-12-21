@@ -416,10 +416,10 @@ nieprawda, że Bóg istnieje, wyprowadzimy za pomocą zasady podwójnej negacji 
 
 Może to być wszystko dla nas dziwne, bo niektórzy z nas akurat potrafią pomyśleć coś, co jest w
 jakimś sensie większe od Boga. Niektórym z nas wydaje się to wręcz przychodzić łatwo, w ogóle
-manipulacja rozmiarami bytów w wyobraźni to jest coś, w czym jesteśmy, niechwaląc się, całkiem
-nieźli. I to jest w zasadzie koniec zabawy dla tych z nas, którzy nie mają problemu z odrzuceniem
-głównej przesłanki / aksjomatu Anzelma. Pozostaje nam się wtedy tylko ewentualnie zgodzić z
-określeniem "głupi".
+manipulacja rozmiarami bytów w wyobraźni to jest coś, w czym jesteśmy, niechwaląc się, nieźli. I to
+jest w zasadzie koniec zabawy dla tych z nas, którzy nie mają problemu z odrzuceniem głównej
+przesłanki / aksjomatu Anzelma. Pozostaje nam się wtedy tylko ewentualnie zgodzić z określeniem
+"głupi".
 
 Ale wracając. Skąd Anzelm próbuje "wyprowadzić" wniosek o możliwości pomyślenia czegoś, co jest
 większe od Boga?  To jest akurat proste - z założenia, które próbuje zakwestionować, że Bóg istnieje
