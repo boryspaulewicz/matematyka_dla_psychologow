@@ -23,7 +23,7 @@ wynikach badań i moim wieloletnim doświadczeniu *wskazówki praktyczne* dotycz
 moim zdaniem podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*,
 które może znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę
 skierowaną do psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego
-robić lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
+robić lepiej niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
 ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
