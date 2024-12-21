@@ -375,14 +375,24 @@ oficjalna nazwa na takie coś to *term*) typu `Prop`, a ponieważ `Prop` to typ 
 *Proposition* oznaczającego sąd), znaczy to, że `a` jest jakimś, niekoniecznie prawdziwym albo
 udowodnionym zdaniem, inaczej sądem.
 
-**Czytamy kod**: Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu *t1*
+**Czytamy to**: Twierdzenie (`theorem`), które nazwaliśmy bez żadnego specjalnego powodu *t1*
 (`t1`), a które z jednego argumentu `a` (nazwa *a* też była wybrana arbitralnie) typu `Prop` (`(a :
 Prop)`) robi term typu `a → a`, czyli *dowód zdania* `a → a` (`: a → a`) - bo `a` jest zdaniem, a
 więc `a → a` też jest - można skonstruować albo (w Lean to jest to samo) zdefiniować (`:=`) za
 pomocą trybu interaktywnego (`by`) w taki oto sposób... i tu będziemy niebawem konstruować dowód. To
 było długie zdanie z licznymi wtrąceniami. Może warto przeczytać je jeszcze raz.
 
-**Uwaga o równości definicyjnej i równości jako zdaniu**: Gdy w Lean piszemy na przykład:
+**Tryb interaktywny jest Twoim przyjacielem**: Zanim przejdziemy dalej, chcę zwrócić Twoją uwagę, że
+w trybie interaktywnym Lean będzie Ci cały czas pokazywał, co masz zrobić (jakiego typu term masz
+skonstruować) i co masz do dyspozycji w kontekście (jakimi lokalnymi stałymi możesz się
+posługiwać). Nie pokaże Ci co prawda stałych zdefiniowanych globalnie, takich jak aksjomaty, albo
+liczne funkcje dostępne w bibliotece Leana, bo to nie są parametry dowodu, a więc nie należą do
+kontekstu ciała dowodu, ale zwykle nie będziemy ich używać. Ponieważ Lean będzie Ci w ten sposób
+pokazywał, co masz zrobić i z czego, będziesz mogła łatwo sprawdzić, czy sposób, który przychodzi Ci
+do głowy, odnosi zamierzony skutek. Nie powstrzymuj się więc proszę od swobodnej eksploracji i
+eksperymentowania.
+
+**O równości definicyjnej i równości jako zdaniu**: Gdy w Lean piszemy na przykład:
 
 ```lean
 def n : Nat := 10
@@ -429,6 +439,10 @@ A mówiąc ogólniej o dowodzeniu implikacji w logice konstruktywnej:
 
 *Jeżeli A i B to zdania, to w logice konstruktywnej dowód zdania A → B to każda funkcja, która w
 jakikolwiek sposób przekształca dowolny dowód zdania A w dowód zdania B.*
+
+Dlaczego można to uznać za pełnowartościowy dowód implikacji? Po prostu dlatego, że to oznacza, że
+zawsze, gdy mamy dowód poprzednika *A*, możemy skonstruować dowód następnika *B*, a więc zawsze, gdy
+poprzednik jest prawdziwy, następnik również jest prawdziwy. Mówiąc najkrócej, jeżeli *A*, to *B*.
 
 **Polecenie**: Zanim pójdziemy dalej, spróbuj proszę samodzielnie skonstruować taki dowód korzytając
 tylko z tego, czego już się nauczyłaś. Jedyne, co musisz zrobić, to:
