@@ -60,7 +60,7 @@ to dowody też są w naszym języku funkcjami, interesuje nas *typ* rezultatu ap
 rezultat? Jeżeli tego nie widzisz, to może przeczytaj poprzedni fragment jeszcze raz - prędzej czy
 później nie będziesz w stanie tam tego nie zobaczyć.
 
-# Dowody są zwykle nieważne
+## Dowody są zwykle nieważne
 
 Gdy używamy dowodu już istniejącego do stworzenia nowego, a nawet gdy konstruujemy jakiś dowód,
 obchodzi nas przede wszystkim *istnienie* dowodu, a nie jego *struktura*. To dobra wiadomość, bo
