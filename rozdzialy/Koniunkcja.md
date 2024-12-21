@@ -41,7 +41,7 @@ typu `T₁` i termu typu `T₂`*, w tej kolejności.
 
 -- Żeby uzyskać symbol ⟨ (⟩) wpisz \< (\>)
 
--- Tak możemy zdefiniować stałą będącą parą uporządkowaną złożoną z dwóch liczb naturalnych:
+-- Tak możemy zdefiniować stałą będącą parą uporządkowaną złożoną z liczb naturalnych 1 i 2:
 def moja_para_liczb : Nat × Nat := ⟨1, 2⟩
 
 #check moja_para_liczb -- moja_para_liczb : Nat × Nat
