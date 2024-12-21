@@ -72,10 +72,10 @@ gdybyśmy odkryli jakąś prawdziwą własność świata (a może już takie wł
 wątpliwość pozostanie. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy, gdy próbujemy
 wyjaśnić zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam
 ocenić, czy i w jakim obszarze naszych badań zrobiliśmy faktycznie postępy. Dlatego doświadczenie
-całkowitego i ostatecznego rozwiązania jakiegoś problemu, które pojawia się gdy zajmujemy się samą
-matematyką, albo gdy stosujemy ją do formułowania i rozwiązywania teoretycznych problemów w
-psychologii, może być moim zdaniem dla każdego z nas czymś orzeźwiającym; dla mnie w każdym razie
-jest, gdy coś takiego mi się zdarza i dlatego wciąż szukam takich doświadczeń.
+całkowitego i ostatecznego rozwiązania jakiegoś problemu, które pojawia się, gdy zajmujemy się
+matematyką, albo gdy stosujemy ją do formułowania i rozwiązywania na przykład teoretycznych
+problemów w psychologii, może być moim zdaniem dla każdego z nas czymś orzeźwiającym; dla mnie w
+każdym razie jest i dlatego wciąż szukam podobnych doświadczeń.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
