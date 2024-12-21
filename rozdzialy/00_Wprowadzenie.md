@@ -24,10 +24,10 @@ tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na te
 przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
 okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê,
 wcze¶niej pisz±c kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie
-pozwolono mi przekroczyæ limit znaków o, jak by to powiedzieæ, bardzo wiele znaków. Nie jest to
-chyba mój najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448)
-nawet Pearlowi, który raczej nie prawi chêtnie komplementów na temat tego typu artyku³ów. Czy teraz
-bym w tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje siê, ¿e
+pozwolono mi przekroczyæ limit znaków o, jak by to uj±æ, bardzo wiele znaków. Nie jest to chyba mój
+najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448) nawet
+Pearlowi, który raczej nie prawi chêtnie komplementów na temat tego typu artyku³ów. Czy teraz bym w
+tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje siê, ¿e
 odbiegam od tematu.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
