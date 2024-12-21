@@ -5,9 +5,9 @@ psychologia poznawcza zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii 
 bêdziemy omawiaæ jaki¶ bli¿ej nieokre¶lony mój "skrypt w³asny". Korzystaj±c z tej okazji,
 postanowi³em przeprowadziæ eksperyment dydaktyczny. Polega³ on na próbie przekonania studentów, ¿e
 przy odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
-zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt sta³ siê seri±
-komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi dowodzenia
-tautologii w jêzyku [Lean](https://lean-lang.org/).
+zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Ten skrypt sta³ siê
+seri± komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi
+dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, wiêc wprowadzi³em kilka zmian i poprawion±
