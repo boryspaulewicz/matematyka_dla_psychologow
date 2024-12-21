@@ -540,7 +540,7 @@ theorem t1 (a : Prop) : a → a := fun (h : a) => h
 ```
 
 Przecież `t1` działa *dla każdego* zdania `a`. A działa dla każdego zdania `a`, bo to jest *funkcja
-arbitralnego zdania `a`*. Widać to jeszcze wyraźniej, gdy zdefiniujemy to samo twierdzenie
+arbitralnego zdania `a`*. Widać to może wyraźniej, gdy zdefiniujemy to samo twierdzenie
 przestawiając parametr za dwukropek:
 
 ```lean
@@ -549,7 +549,7 @@ theorem t1' : (a : Prop) → a → a := fun (a : Prop) => fun (h : a) => h
 
 Jak już wiesz, twierdzenia `t1` i `t1'` (to drugie z apostrofem) to te same funkcje / twierdzenia,
 tylko inaczej zapisane. I rozpoznajemy w obydwu obecność dużego kwantyfikatora. Jeżeli masz ochotę,
-możesz użyć symbolu ** i to też będzie *to samo*:
+możesz użyć symbolu *∀* i to też będzie *to samo*:
 
 ```lean
 theorem t1'': ∀ a : Prop, a → a := fun (a : Prop) => fun (h : a) => h
@@ -621,20 +621,21 @@ repertuaru środków formalnych. Na przykład, można by przynajmniej próbować
 między zdaniami typu *Istnieje takie x, że P x* (*P* to tutaj predykat) i zdaniami typu *Istnieje
 Bóg*, gdzie *Bóg* jest traktowany jako *nazwa własna*. Do obydwu zdań moglibyśmy użyć tak zwanego
 kwantyfikatora egyzstencjalnego (*∃*, czytaj *istnieje*), a do drugiego zdania być może na przykład
-tak zwanego deskryptora iota (*ι*), który jest pewną formalizacją pojęcia nazwy własnej (więcej na
+tak zwanego *deskryptora iota* (*ι*), który jest pewną formalizacją pojęcia nazwy własnej (więcej na
 ten ciekawy temat można poczytać na początek
 [tutaj](https://en.wikipedia.org/wiki/Definite_description)).
 
 Trudno powiedzieć, gdzie by to nas zaprowadziło, bo:
 
-*Formalizacja jest procesem twórczym, a więc chaotycznym i zawodnym*!
+*Formalizacja jest procesem twórczym, a więc chaotycznym i zawodnym*.
 
 Gdy studiowałem filozofię, napisałem na zaliczenie z ćwiczeń pracę na temat chyba właśnie tego
 dowodu, używając do tego rachunku predykatów. To było jednak bardzo dawno temu i nie pamiętam
 dokładnie, co tam napisałem, ale pamiętam, że podobnie jak ja, przemiły i doskonale pamiętający
-imiona i nazwiska swoich studentów profesor Jan Kiełbasa wydawał się z tej pracy zadowolony
-(podobnie zadowolony, nie podobnie przemiły). Zostawiam Cię więc z tą rozgrzebaną wersją, żeby nie
-odbierać Ci szansy na satysfakcję z własnych pojęciowych wglądów.
+imiona i nazwiska swoich studentów profesor [Jan
+Kiełbasa](https://pl.wikipedia.org/wiki/Jan_Kie%C5%82basa_(filozof)) wydawał się z tej pracy
+zadowolony (podobnie zadowolony, nie podobnie przemiły). Zostawiam Cię więc z tą rozgrzebaną wersją,
+żeby nie odbierać Ci szansy na satysfakcję z własnych pojęciowych wglądów.
 
 Muszę się przyznać, że udawałem tu trochę głupszego, niż faktycznie jestem. Wydaje mi się, że wiem,
 w jaki sposób można wiernie i prosto sformalizować ten rzekomy dowód, jednoznacznie wskazując
@@ -671,12 +672,12 @@ Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzaj�
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
 często nie chce im się wszystkiego tłumaczyć tak szczegółowo, powoli i jasno, żeby nie trzeba było
 wykonywać bardzo wielu zadań, aby to zrozumieć. Dlatego jestem zdania, że spoczywa na mnie jeszcze
-inny obowiązek, poza gotowością do uzasadniania tego, o czym mówię, w miarę regularnym uzupełnianiem
-braków w wiedzy i wskazywaniem na błędy w tekstach, z których korzystamy na zajęciach. Mam na myśli
-obowiązek dobrego tłumaczenia. A na Tobie, ponieważ zajmujesz miejsce, które mógłby zająć przecież
-ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia tego, co staram Ci się
-wytłumaczyć. Chodzi mi tylko o próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to są
-bez wątpienia obowiązki, ale również szansa na coś wspaniałego.
+inny obowiązek, poza gotowością do uzasadniania tego, o czym mówię, poza w miarę regularnym
+uzupełnianiem braków w wiedzy i poza wskazywaniem błędów w tekstach, z których korzystamy na
+zajęciach. Mam na myśli obowiązek dobrego tłumaczenia. A na Tobie, ponieważ zajmujesz miejsce, które
+mógłby zająć przecież ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia tego, co staram Ci
+się wytłumaczyć. Chodzi mi tylko o próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to
+są bez wątpienia obowiązki, ale również szansa na coś wspaniałego.
 
 Swoją drogą, ciekawe, jakie mniej lub bardziej kłopotliwe manewry pojęciowe i logiczne moglibyśmy
 zidentyfikować stosując to samo podejście do analizy rozumowań uchodzących za wybitnych autorów
