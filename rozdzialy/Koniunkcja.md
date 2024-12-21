@@ -103,5 +103,6 @@ theorem t2snd'' (p q : Prop) : p ∧ q → q :=
     fun (⟨hp, hq⟩) => hq
 ```
 
-Jeżeli widzisz i rozumiesz wszystkie te regularności, to wiesz czym jest koniunkcja w logice
-konstruktywnej.
+Ten kod wyraża dosłownie sens koniunkcji w logice konstruktywnej, nie kryje się za nim żadna głębsza
+prawda. Jeżeli widzisz i rozumiesz wszystkie te regularności, to wiesz czym w tej logice jest
+koniunkcja.
