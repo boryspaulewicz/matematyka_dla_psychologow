@@ -30,8 +30,7 @@ robić lepiej niż umiem (to niekoniecznie tautologia, za to te, które omawiam 
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
 tematem. I w przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za co.
 
-Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym w jakikolwiek sposób poprawić, chętnie
-korzystam z oficialnej
+Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym poprawić, chętnie korzystam z oficialnej
 [aplikacji](https://play.google.com/store/apps/details?id=com.github.android&hl=en) do przeglądania
 repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie można wtedy wygodnie używać Leana,
 ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
