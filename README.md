@@ -21,7 +21,7 @@ Pierwsze trzy rozdziały mają charakter ogólnowprowadzający i chociaż nie za
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
 wynikach badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyczące tego, jak warto
 moim zdaniem podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*,
-które może znacząco zwiększyć szansę na sukces w zmaganiach z dość nietypowymi jak na książkę
+które może znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę
 skierowaną do psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego
 robić lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
 ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
