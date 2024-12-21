@@ -16,8 +16,8 @@ Podobnie jak implikacja i negacja, koninunkcja jest *zdaniem złożonym*, bo pow
 zastosowanie *spójnika logicznego*.
 
 Dowodem zdania `p ∧ q` jest *uporządkowana para* dowodów złożona z dowodu zdania `p` i dowodu zdania
-`q`, w tej kolejności. Dowód zdania `p ∧ q` (czyli term typu `p ∧ q`) można stworzyć *tylko w jeden
-sposób* - aplikując funkcję `And.intro` do dowodu `p` i dowodu `q`:
+`q`, w tej kolejności. Dowód zdania `p ∧ q` można stworzyć *tylko w jeden sposób* - jawnie lub
+niejawnie aplikując funkcję `And.intro` do dowodu `p` i dowodu `q`:
 
 ```lean
 -- Jeżeli mamy jakieś dowody zdań p i q ...
