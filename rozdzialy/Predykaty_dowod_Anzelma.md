@@ -13,16 +13,15 @@ sobie i lepiej zrozumiesz te pojęcia używając ich do rozwiązywania innego ro
 Zgaduję, że wielu ludziom matematyka kojarzy się przede wszystkim z liczbami, a w drugiej kolejności
 z geometrią. My zajmowaliśmy się do tej pory głównie logiką, w której nie chodzi ani o liczby ani o
 obiekty geometryczne. A raczej, interpretowaliśmy formalny rachunek logiczny w kategoriach zdań, a
-nie liczb albo figur geomerycznych. Może da się ten rachunek konsekwentnie interpretować w
-kategoriach liczbowych lub geometrycznych, a może nie, nie wiemy tego jeszcze (jak najbardziej się
-da, ale nie mamy na to czasu).
+nie liczb albo figur. Może da się ten rachunek konsekwentnie interpretować w kategoriach liczbowych
+lub geometrycznych, a może nie, nie wiemy tego jeszcze (da się, ale nie mamy na to czasu).
 
 Nie możemy odpowiedzieć teraz przekonująco na pytanie o istnienie tego rodzaju spójnych
 alternatywnych interpretacji, bo żeby udzielić takiej odpowiedzi, musielibyśmy najpierw wykonywać
 *eksperymenty na sobie*. Na przykład, ja mógłbym się dłużej zastanowić i może wpadłbym na pomysł
 systematycznego sposobu przypisywania zdaniom i spójnikom logicznym obiektów lub własności czy
-relacji geometrycznych. Może wyszło by mi z tego coś, co wydawałoby sensownie. To moje "wydawanie"
-to byłby wtedy *znany mi fakt empiryczny* dotyczący mnie, ale jeszcze nie żaden dowód.
+relacji geometrycznych. Może wyszło by mi z tego coś, co by mi się wydawało sensowne. To moje
+"wydawanie" to byłby wtedy *znany mi fakt empiryczny* dotyczący mnie, ale jeszcze nie żaden dowód.
 
 ## Logika, aksjomaty, wybory, postawy i wolność
 
