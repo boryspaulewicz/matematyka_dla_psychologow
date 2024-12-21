@@ -76,7 +76,7 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R13 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R13 ∧](./rozdzialy/Koniunkcja.md)
+[R14 ∧](./rozdzialy/Koniunkcja.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
