@@ -3,15 +3,15 @@
 Ta ksi±¿ka by³a najpierw krótkim skryptem dla studentów. Planuj±c æwiczenia do kursu neuronauka i
 psychologia poznawcza zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii normatywnych
 bêdziemy omawiaæ jaki¶ bli¿ej nieokre¶lony mój "skrypt w³asny". Korzystaj±c z tej okazji,
-postanowi³em przeprowadziæ eksperyment dydaktyczny, polegaj±cy na próbie przekonania studentów, ¿e
+postanowi³em przeprowadziæ eksperyment dydaktyczny. Polega³ on na próbie przekonania studentów, ¿e
 przy odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
 zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt sta³ siê seri±
 komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi dowodzenia
 tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
-siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, wiêc wprowadzi³em kilka zmian a now± wersjê
-da³em doktorantom, którzy chodzili wtedy na mój kurs dotycz±cy wnioskowania bayesowskiego i
+siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, wiêc wprowadzi³em kilka zmian i poprawion±
+wersjê da³em doktorantom, którzy chodzili wtedy na mój kurs dotycz±cy wnioskowania bayesowskiego i
 przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) czê¶æ studentów wykona³a poprawnie zadanie, a
 kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
 
@@ -19,41 +19,40 @@ Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal popr
 to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania przyczynowego dla
 psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) (wersja w jêzyku
 angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma lepszego sposobu,
-¿eby upewniæ siê, czy siê co¶ rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu tutaj
-serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
+aby przekonaæ siê, w jakim stopniu co¶ siê rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu
+tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
 przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
 okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê,
 wcze¶niej pisz±c kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie
 pozwolono mi przekroczyæ limit znaków o, jak by to powiedzieæ, bardzo wiele znaków. Nie jest to
 chyba mój najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448)
-nawet Pearlowi, który raczej nie jest sk³onny do prawienia komplementów na temat tego typu
-artyku³ów. Czy teraz bym w tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka
-razy. Ale zdaje siê, ¿e odbiegam od tematu.
+nawet Pearlowi, który raczej nie prawi chêtnie komplementów na temat tego typu artyku³ów. Czy teraz
+bym w tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje siê, ¿e
+odbiegam od tematu.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
 wygl±daæ jak taka jakby trochê mo¿e ksi±¿ka. W dodatku ksi±¿ka, któr± - po dopracowaniu jej przez
 autora (czyli w tym wypadku mnie) - sam chcia³bym przeczytaæ, zanim jeszcze zacz±³em siê tych tre¶ci
-uczyæ. Przy okazji odkry³em te¿ inny cel tego pisania.
+uczyæ. Przy okazji odkry³em ta¿e inny cel.
 
 Wiêkszo¶æ psychologów - mam tu na my¶li równie¿ utytuowanych pracowników naukowych z bogatym
-dorobkiem - z jednej strony polega w ogromnym stopniu na matematyce (na przyk³ad, u¿ywaj±c
-wnioskowania statystycznego, ale nie tylko wtedy) i próbuje zrozumieæ z³o¿one i trudne do
-wyja¶nienia zjawiska (takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych), a z
-drugiej nie ma najczê¶ciej o matematyce za bardzo pojêcia. Tacy, niestety w psychologii liczni,
-matematyczni pó³-analfabeci nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski,
-pope³niaj±c przy tym czasem najprostsze nawet b³êdy. 
+dorobkiem - polega w ogromnym stopniu na matematyce (na przyk³ad, u¿ywaj±c wnioskowania
+statystycznego, ale nie tylko wtedy) i próbuje zrozumieæ z³o¿one i trudne do wyja¶nienia zjawiska
+(takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych), jednak wielu z nich nie
+ma najczê¶ciej o matematyce za bardzo pojêcia. Dobrymi przyk³adami powa¿nych b³êdów, wynikaj±cych z
+niezrozumienia matematycznej nieuchronno¶ci kilku prostych zasad, s± powszechne wnioskowanie o braku
+efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego, albo wnioskowanie o
+wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ
+(wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e
+[przyczynowo¶æ zosta³a zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
-Dobrymi przyk³adami powa¿nych b³êdów wynikaj±cych z niezrozumienia matematycznej nieuchronno¶ci
-kilku prostych zasad s± powszechne wnioskowanie o braku efektu na podstawie samego tylko
-nieistotnego wyniku testu statystycznego, albo wnioskowanie o wp³ywie czy innych w³asno¶ciach
-przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ (wielu psychologów wci±¿ nie zdaje
-sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e [przyczynowo¶æ zosta³a
-zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)). Takim byæ mo¿e poza tym ca³kiem
-kompetentnym, ale nadal jednak matematycznym pó³-analfabetom udaje siê publikowaæ w
-wysokopunktowanych czasopismach, bo ich manuskrypty s± zwykle recenzowane i dopuszczane do druku
-przez innych matematycznych pó³-analfabetów. Rezultatem jest powszechna w psychologii ju¿ od dawna
-rozczarowuj±ca gra pozorów.
+Nic wiêc dziwnego, ¿e tacy, niestety w psychologii dosyæ liczni, matematyczni pó³-analfabeci
+nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj±c przy tym czasem
+najprostsze nawet b³êdy. Mimo to udaje im siê publikowaæ w wysokopunktowanych czasopismach, bo
+wysy³ane przez nich manuskrypty s± zwykle recenzowane i dopuszczane do druku przez innych
+matematycznych pó³-analfabetów. Rezultatem jest powszechna w psychologii ju¿ od dawna rozczarowuj±ca
+gra pozorów.
 
 Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
 ³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie przyczynê najwa¿niejsz±, tego stanu rzeczy:
@@ -74,24 +73,24 @@ poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
 
 Uprzedzam, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*, czyli
 w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod lub zapêdzam siê w
-dygresje. To ryzyko nie jest znikome, bo jestem matematycznym amatorem. Co prawda co¶ tam mogê
-pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca, ale nie ma tego wiele. Gdyby¶
-wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
+dygresje. To ryzyko nie wydaje mi siê pomijalnie ma³e, bo jestem matematycznym amatorem. Co prawda
+co¶ tam mogê pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca, ale nie ma tego
+wiele. Gdyby¶ wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz
+(boryslaw.paulewicz@uj.edu.pl).
 
 Mogê Ciê za to zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach formalnych*,
-to jest zakodowanych w pewnej wersji jêzyka teorii typów zale¿nych, z której korzysta asystent
-dowodzenia Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do repozytorium. Zwykle
-tak robiê, ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli akurat
-sprawdzi³em kod po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzone
-przez algorytm, którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
+to jest zakodowanych w pewnej wersji jêzyka teorii typów, z której korzysta asystent dowodzenia
+Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do repozytorium. Zwykle tak robiê,
+ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli akurat sprawdzi³em kod
+po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzone przez algorytm,
+którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
 [bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
 
-Muszê Ciê ostrzec, ¿e nawet je¿eli przeczytasz pierwszy rozdzia³ albo dwa do koñca i uda Ci siê
-zrobiæ poprawnie zadania, których w tych rozdzia³ach zreszt± nie ma wiele, jest mo¿liwe, ¿e
-poczujesz co¶ w rodzaju zagubienia. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego
-takie poczucie jest na pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy po raz pierwszy
-mia³em kontakt z teori± typów zale¿nych. To poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze
-zrozumienie, ale to wymaga *cierpliwo¶ci*.
+Muszê Ciê ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
+zadania, których do tego momentu nie ma zreszt± wiele, jest mo¿liwe, ¿e poczujesz co¶ w rodzaju
+zagubienia. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego takie poczucie jest na
+pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy zaczyna³em siê uczyæ o teorii typów. To
+poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze zrozumienie, ale to wymaga *cierpliwo¶ci*.
 
 W zwi±zku z tym, oto moja sugestia: Daj sobie czas, ¿eby wszystko zd±¿y³o siê trochê ule¿eæ i pogód¼
 siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do przeczytanych ju¿
@@ -100,38 +99,38 @@ przez d³u¿szy czas dok±d¶ idziemy, niekoniecznie d±¿±c stale do jednego celu, a 
 bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, kiedy zachodzi jako¶ciowa zmiana, odkrywamy jednak
 w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 
-Gdy pojawi siê frustracja, a ca³kiem mo¿liwe, ¿e siê pojawi, poczekaj, albo wróæ do tego, co wydaje
-Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ studentów
-psychologii to nie studenci, tylko studentki, bêdê zwraca³ siê do Ciebie w formie ¿eñskiej. Jest te¿
-inny dobry moim zdaniem powód.
+Gdy pojawi siê frustracja, a prawie na pewno czasem siê pojawi, poczekaj, albo wróæ do tego, co
+wydaje Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ
+studentów psychologii to nie studenci, tylko studentki, bêdê zwraca³ siê do Ciebie w formie
+¿eñskiej. Jest te¿ inny dobry moim zdaniem powód.
 
 Pozna³em wiele kobiet zajmuj±cych siê psychologi±, które w mojej ocenie maj± wiêcej oleju w g³owie,
 ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. Nie spotka³em jednak chyba *¿adnych*
 kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pewno¶ci± siebie i ³atwo¶ci± wypowiadania
-stanowczych opinii. Wiem, o czym mówiê, bo sam jestem znany z aroganckich wypowiedzi. A poza tym,
-gdy zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi do g³owy, ¿e ewentualny
+stanowczych opinii. Wiem, co mówiê, bo jestem znany z aroganckich wypowiedzi. A poza tym, gdy
+zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi do g³owy, ¿e ewentualny
 brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie udowodniæ* i bardzo
 spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n± ¶wiadomo¶ci±, ¿e poniewa¿ te
-s± ju¿ *udowodnione* (zak³adaj±c wiarygodno¶æ ¼ród³a danych), w gruncie rzeczy nie bardzo jest z
-czym dyskutowaæ.
+s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), w gruncie rzeczy *nie da siê* tych
+wniosków skutecznie podwa¿yæ.
 
 Wracaj±c do przerwanego w±tku - poczucie zrozumienia bywa zwodnicze. Wiele razy uczy³em siê trudnego
 materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawet kilka lat, coraz odleglejsze w czasie,
-generatywne powtórki. Wiele razy w trakcie takiego powtarzania przekonywa³em siê, ¿e moje
-wcze¶niejsze poczucie zrozumienia by³o z³udne. Mo¿e to truizm, ale taki, o którym ³atwo jest
-zapomnieæ: Poniewa¿ nawet na najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie
-to co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko, o ile w ogóle kiedykolwiek, mo¿na naprawdê
-*osi±gn±æ*.
+generatywne powtórki. I wiele razy w trakcie powtarzania zauwa¿a³em, ¿e moje wcze¶niejsze poczucie
+zrozumienia by³o z³udne. Mo¿e to truizm, ale taki, o którym ³atwo jest zapomnieæ: Poniewa¿ nawet na
+najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie to co¶, do czego mo¿na stale
+*d±¿yæ*, ale co rzadko, o ile w ogóle kiedykolwiek, mo¿na naprawdê *osi±gn±æ*.
 
-Pierwsze dwa rozdzia³y nie s± d³ugie. Przeczytanie ich i wykonanie poleceñ powinno Ci zaj±æ nie
-wiêcej ni¿ pó³torej albo dwie godziny. Poza tym ta ksi±¿ka jest ca³kowicie samowystarczalna w tym
-znaczeniu, ¿e nie zak³ada ¿adnej specjalnej wiedzy - *wszystko* jest wyja¶nione od podstaw, a jedyny
-program, którego potrzebujemy, jest dostêpny za darmo i mo¿na go u¿ywaæ równie¿ w przegl±darce.
+Rozdzia³y od czwartego do szóstego nie s± d³ugie. Przeczytanie ich i wykonanie poleceñ powinno Ci
+zaj±æ nie wiêcej ni¿ pó³torej albo dwie godziny. Poza tym ta ksi±¿ka jest ca³kowicie
+samowystarczalna w tym znaczeniu, ¿e nie zak³ada specjalistycznej wiedzy - *wszystko* jest
+wyja¶nione od podstaw, a jedyny program, którego potrzebujemy, jest dostêpny za darmo i mo¿na go
+u¿ywaæ równie¿ w przegl±darce.
 
 Je¿eli utkniesz, nie zra¿aj siê proszê. A je¿eli utkniesz, bêdziesz próbowaæ znowu i nadal Ci siê
 nie uda, po prostu siê tym nie przejmuj i czytaj dalej, zak³adaj±c oczywi¶cie, ¿e ciekawi Ciê, co
 bêdzie dalej. Zrozumienie, ¿e ucz±c siê matematyki *nie trzeba rozwi±zywaæ wszystkich zadañ* i ¿e
-upieranie siê przy tym mo¿e bardzo przeszkadzaæ w nauce zajê³o mi naprawdê du¿o czasu, o wiele za
+upieranie siê przy tym mo¿e przeszkadzaæ w nauce zajê³o mi naprawdê du¿o czasu, o wiele za
 du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej, cierpliwie
 t³umaczy³).
 
@@ -140,16 +139,16 @@ zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cu
 to niebawem wykorzystaæ, zacz±³em uczyæ siê systematycznie z cudownej ksi±¿ki [Type Theory and
 Formal
 Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C),
-napisanej przez Geuversa i Nederpelta. Ta ksi±¿ka jest napisana w bardzo jasny sposób. Czytaj±c j±
-czuje siê, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak tylko potrafi±. W mojej ocenie
-to jest te¿ wybitna *literatura* w tym znaczeniu, ¿e styl jest jednocze¶nie wyj±tkowo elegancki,
+napisanej przez Geuversa i Nederpelta. Ta ksi±¿ka jest napisana w bardzo jasny sposób. Na ka¿dej
+niemal stronie widaæ, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak potrafi±. W mojej
+ocenie to jest te¿ wybitna *literatura* w tym znaczeniu, ¿e styl jest jednocze¶nie elegancki i
 lekki, a ton wydaje mi siê czasami wrêcz ciep³y.
 
 Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat bywa abstrakcyjny, z³o¿ony i pe³en
 g³êbokich niespodzianek, rezultatem mo¿e byæ pora¿aj±ce po³±czenie tre¶ci z form±. Taki efekt jest
 osi±galny chyba tylko wtedy, gdy autorzy maj± rzeczywi¶cie co¶ do powiedzenia i nie tylko dobrze
 rozumiej± to, co chc± powiedzieæ, ale tak¿e to, jakie trudno¶ci mog± siê pojawiæ u odbiorcy. No wiêc
-to jest, moim zdaniem, taka ksi±¿ka. W dodatku poza dobr± znajomo¶ci± jêzyka angielskiego autorzy
+to jest, moim zdaniem, w³a¶nie taka ksi±¿ka. W dodatku poza dobr± znajomo¶ci± angielskiego autorzy
 nie zak³adaj± ¿adnej wcze¶niejszej wiedzy czytelnika. Mimo to, uczenie siê z niej nie by³o dla mnie
 ani trochê ³atwe.
 
@@ -161,12 +160,12 @@ proces.
 
 Którego¶ dnia, z czystej ciekawo¶ci, zacz±³em swobodnie czytaæ dalej, a potem wróci³em do fragmentu
 na którym wcze¶niej skoñczy³em. W ten sposób mia³em pewn± przerwê miêdzy momentem, w którym pierwszy
-raz przeczyta³em pó¼niejszy fragment, ale nie robi³em ¿adnych pojawiaj±cych siê tam zadañ, a
+raz przeczyta³em ten pó¼niejszy fragment, ale nie robi³em ¿adnych pojawiaj±cych siê tam zadañ, a
 momentem, kiedy znowu zacz±³em go czytaæ. Okaza³o siê, ¿e rozumiem ten fragment znacznie
 lepiej. Postanowi³em wiêc, po raz pierwszy w ¿yciu i tylko na próbê, *w ogóle nie robiæ zadañ, gdy
 nie mam na to ochoty, albo gdy nie czujê, ¿e muszê je zrobiæ, ¿eby zrozumieæ chocia¿ trochê, o co
-chodzi*. A tak przy okazji - niektóre z zadañ w ksi±¿ce, któr± w³a¶nie czytasz, s± integraln±
-czê¶ci± tekstu, ale oczywi¶cie mo¿na je omin±æ, o ile tylko pó¼niejsze tre¶ci bêd± nadal zrozumia³e.
+chodzi*. A tak przy okazji, niektóre z zadañ w ksi±¿ce, któr± w³a¶nie czytasz, s± integraln± czê¶ci±
+tekstu, ale oczywi¶cie mo¿na je omin±æ, o ile tylko pó¼niejsze tre¶ci bêd± nadal zrozumia³e.
 
 Dalej robi³em wiêc notatki i zaplanowane, generatywne powtórki, ale nie robi³em ¿adnych zadañ, które
 mnie nie zainteresowa³y i które nie wydawa³y mi sie wa¿ne. Z czasem zacz±³em te¿ zauwa¿aæ
@@ -177,13 +176,13 @@ pewno¶ci±. Poniewa¿ czu³em, ¿e mam racjê, napisa³em do [Roba
 Nederpelta](https://wsinrpn.win.tue.nl/), który potraktowa³ mnie niezwykle ¿yczliwie i
 powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje nazwisko pojawi³o siê w oficjalnej erracie
 do tej ksi±¿ki, jako nazwisko jednej z osób, której autorzy dziêkuj±. A mi akurat dziêkuj± za
-wskazanie (w tym momencie, to jest 2024-12-11) oko³o *po³owy* wszystkich wymienionych b³êdów. Z
+wskazanie (w tym momencie, to jest 2024-12-11) oko³o po³owy wszystkich wymienionych b³êdów. Z
 niewielu rzeczy jestem tak dumny jak z tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³
 napisania czego¶ choæby tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami,
 gdyby nie ta wspania³a ksi±¿ka i kontakt z tym cz³owiekiem. No wiêc z ambicjami lepiej nie
 przesadzaæ; moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
-A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który wymy¶li³em
+A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który stosowa³em
 podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych przyjemno¶ci
 zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub bardziej
 skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
@@ -191,10 +190,10 @@ nie by³o w okolicy ¿adnych specjalistów, którzy mogliby mi w tym czasem pomóc. G
 siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem,
 potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
 serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez
-pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do nich maile. W tych mailach zwykle
+pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach zwykle
 wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em
-tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych wcze¶niej b³êdach. A te
-zawsze mo¿na by³o znale¼æ.
+tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te zawsze mo¿na
+by³o znale¼æ.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
@@ -202,8 +201,8 @@ odpowiedzi, jak± otrzyma³em wtedy od [Saula
 Sternberga](https://en.wikipedia.org/wiki/Saul_Sternberg). Napisa³em mu wyra¼nie, ¿e to kwestia
 drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³ym zrobiæ po swojemu analizê wyników klasycznego ju¿
 eksperymentu, który przeprowadzi³ w latach 60tych. Jak siê potem dowiedzia³em, pomiar czasu reakcji
-polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej wokó³ obracaj±cego siê w równym
-tempie bêbna. Pisz±c w odpowiedzi, zreszt± o ile pamiêtam do¶æ szybkiej, Saul zaproponowa³, ¿e
+polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej bodaj wokó³ obracaj±cego siê w
+miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam do¶æ szybkiej, Saul zaproponowa³, ¿e
 *zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie trzeba.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
@@ -226,23 +225,25 @@ przyjaciel, filozof matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje
 te¿ jak s±dzê jest. To oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w pewnych
 (zbyt licznych) obszarach genialne. Dziêki nim wiem, jaki ze mnie dureñ.
 
-My¶lisz, ¿e z tym "durniem" przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em
-prawie nic w zeszycie i mój szkolny "poziom wykonania" by³ tak niski, ¿e, jak siê pó¼niej
-dowiedzia³em, nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi
-rok. Z powodu licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo
-s³abych ocen z kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum (uratowa³a mnie
-olimpiada z filozofii). Na studia z psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci±
-przerastaj± mnie wrodzon± moc± obliczeniow±, a poza tym nie jestem ju¿ m³ody.
+My¶lisz, ¿e z tym durniem przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em prawie
+nic w zeszycie i mój szkolny poziom wykonania by³ tak niski, ¿e, jak siê pó¼niej dowiedzia³em,
+nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi rok. Z powodu
+licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo s³abych ocen z
+kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum (uratowa³a mnie olimpiada z
+filozofii). Na studia z psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj±
+mnie wrodzon± moc± procesora, a poza tym nie jestem ju¿ m³ody.
 
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
 robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
-na pierwszym albo drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam
-na zajêciach, dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
+najpierw z popularnej ksi±¿ki Tonego Buzana [Rusz
+g³ow±](https://lubimyczytac.pl/ksiazka/3822524/rusz-glowa), a potem jeszcze na pierwszym albo drugim
+roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam na zajêciach,
+dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
 Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, w jaki sposóbq sobie radziæ z ekstremaln± wrêcz
 prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i jako¶ odwdziêczyæ siê
-tym dwóm autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿
-to robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
+tym autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to
+robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
 
 Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni,
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
@@ -257,7 +258,7 @@ któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
 zmieni³a na zawsze mój sposób my¶lenia o programowaniu. Podszed³ kiedy¶ do mnie, gdy bêd±c jeszcze
-na studiach magisterskich pisa³em w C++ jak±¶ procedurê do eksperymetu. Zapyta³, w jakim jêzyku
+na studiach magisterskich pisa³em w C++ jak±¶ procedurê do eksperymetu. Zapyta³, w jakim jêzyku j±
 piszê, na co odpowiedzia³em, ¿e w C++. On wtedy powiedzia³, ¿artuj±c, ¿e gdyby jego koledzy
 dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em, niezra¿ony, w czym On pisze, na
 co odpowiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co to Lisp, a nied³ugo pó¼niej to
@@ -271,4 +272,6 @@ tylko siê chce. What one fool can do, another can.
 
 [^1]: To jest lu¼na parafraza cytatu, ale nie pamiêtam czyjego. Chyba jakiego¶ buddysty.
 
-[^2]: Brane by³y pod uwagê równie¿ takie, zasugerowane mi przez nie powiem kogo epitety jak bezkompromisowa i przezabawna, niez³omna i wiekopomna, czy m±dra i krn±bra. Epitety te zosta³y przez moj± osobê autorsk± uznane za trafne i jako takie trafi³y do tego przypisu.
+[^2]: Brane by³y pod uwagê równie¿ takie, zasugerowane mi przez nie powiem kogo epitety jak
+    bezkompromisowa i przezabawna, niez³omna i wiekopomna, czy m±dra i krn±bra. Epitety te zosta³y
+    przez moj± osobê autorsk± uznane za trafne i jako takie trafi³y do tego przypisu.
