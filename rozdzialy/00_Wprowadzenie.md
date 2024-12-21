@@ -10,7 +10,7 @@ seri± komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadania
 dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
-siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, wiêc wprowadzi³em kilka zmian i poprawion±
+siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, dlatego wprowadzi³em kilka zmian i poprawion±
 wersjê da³em doktorantom, którzy chodzili wtedy na mój kurs dotycz±cy wnioskowania bayesowskiego i
 przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) czê¶æ studentów wykona³a poprawnie zadanie, a
 kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
@@ -19,7 +19,7 @@ Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal popr
 to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania przyczynowego dla
 psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) (wersja w jêzyku
 angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma lepszego sposobu,
-aby przekonaæ siê, w jakim stopniu co¶ siê umie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu
+aby przekonaæ siê, w jakim stopniu siê co¶ umie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu
 tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
 przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
 okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê,
@@ -34,7 +34,7 @@ Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w 
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
 wygl±daæ jak taka jakby trochê mo¿e ksi±¿ka. W dodatku ksi±¿ka, któr± - po dopracowaniu jej przez
 autora (czyli w tym wypadku mnie) - sam chcia³bym przeczytaæ, zanim jeszcze zacz±³em siê tych tre¶ci
-uczyæ. Przy okazji odkry³em ta¿e inny cel.
+uczyæ. Przy okazji odkry³em tak¿e inny cel.
 
 Wiêkszo¶æ psychologów - mam tu na my¶li równie¿ utytuowanych pracowników naukowych z bogatym
 dorobkiem - polega w ogromnym stopniu na matematyce (na przyk³ad, u¿ywaj±c wnioskowania
@@ -186,9 +186,9 @@ A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, kt
 podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych przyjemno¶ci
 zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub bardziej
 skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
-nie by³o w okolicy ¿adnych specjalistów, którzy mogliby mi w tym czasem pomóc. Gdy czu³em, ¿e muszê
-siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem,
-potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
+nie by³o w okolicy ¿adnych specjalistów, których mog³bym poprosiæ o pomoc. Gdy czu³em, ¿e muszê siê
+w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem
+zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
 serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez
 pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach zwykle
 wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em
@@ -199,7 +199,7 @@ Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿y
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
 odpowiedzi, jak± otrzyma³em wtedy od [Saula
 Sternberga](https://en.wikipedia.org/wiki/Saul_Sternberg). Napisa³em mu wyra¼nie, ¿e to kwestia
-drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³ym zrobiæ po swojemu analizê wyników klasycznego ju¿
+drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³bym zrobiæ po swojemu analizê wyników klasycznego ju¿
 eksperymentu, który przeprowadzi³ w latach 60tych. Jak siê potem dowiedzia³em, pomiar czasu reakcji
 polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej bodaj wokó³ obracaj±cego siê w
 miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam do¶æ szybkiej, Saul zaproponowa³, ¿e
@@ -217,13 +217,13 @@ rachunku ró¿niczkowo-ca³kowego](https://calculusmadeeasy.org/), *What one fool c
 can*. Thompson podaje, ¿e to jest *Ancient Simian Proverb*, ale to ¿art (sprawd¼, co znaczy
 "Simian". je¶li chcesz siê dowiedzieæ wiêcej).
 
-Zawsze by³em chudy, dobry z matematyki i dobry z programowania, bo taki siê urodzi³em. Z pewno¶ci±
-nie by³em jednak nigdy ani tym bardziej nie jestem geniuszem. Po prostu w szkole podstawowej nie
-potrafi³em nie my¶leæ czêsto o matematyce. Mój przyjaciel z licealnej szkolnej ³awki, wybitny
-teoretyk prawa i filozof Wojtek Za³uski, jest zdaje mi siê prawdziwym geniuszem. Inny mój
-przyjaciel, filozof matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje) Szymon Szymczak
-te¿ jak s±dzê jest. To oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w pewnych
-(zbyt licznych) obszarach genialne. Dziêki nim wiem, jaki ze mnie dureñ.
+Zawsze by³em chudy[^3], dobry z matematyki i dobry z programowania, bo taki siê urodzi³em. Z
+pewno¶ci± nie by³em jednak nigdy ani tym bardziej nie jestem geniuszem. Po prostu w szkole
+podstawowej nie potrafi³em nie my¶leæ czêsto o matematyce. Mój przyjaciel z licealnej szkolnej
+³awki, wybitny teoretyk prawa i filozof Wojtek Za³uski, jest zdaje mi siê prawdziwym geniuszem. Inny
+mój przyjaciel, filozof matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje) Szymon
+Szymczak te¿ jak s±dzê jest. To oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w
+pewnych (zbyt licznych) obszarach genialne. Dziêki nim wiem, jaki ze mnie dureñ.
 
 My¶lisz, ¿e z tym durniem przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em prawie
 nic w zeszycie i mój szkolny poziom wykonania by³ tak niski, ¿e, jak siê pó¼niej dowiedzia³em,
@@ -235,12 +235,12 @@ mnie wrodzon± moc± procesora, a poza tym nie jestem ju¿ m³ody.
 
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
 robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
-najpierw z popularnej ksi±¿ki Tonego Buzana [Rusz
-g³ow±](https://lubimyczytac.pl/ksiazka/3822524/rusz-glowa), a potem jeszcze na pierwszym albo drugim
-roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam na zajêciach,
+najpierw z popularnej ksi±¿ki Tonego Buzana [*Rusz
+g³ow±*](https://lubimyczytac.pl/ksiazka/3822524/rusz-glowa), a potem jeszcze na pierwszym albo
+drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam na zajêciach,
 dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
 Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
-jest optymalne") dowiedzia³em siê z kolei, w jaki sposóbq sobie radziæ z ekstremaln± wrêcz
+jest optymalne") dowiedzia³em siê z kolei, w jaki sposób sobie radziæ z ekstremaln± wrêcz
 prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i jako¶ odwdziêczyæ siê
 tym autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to
 robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
@@ -251,7 +251,7 @@ i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawn
 sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
 kiedy pracowa³em na SWPSie w Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla
 mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej prof. Edwarda Nêcki, któremu zawdziêczam
-swobodê zajmowania siê w nim czym tylko chcia³em, byæ mo¿e wcale bym nie skoñczy³, gdybym nie liczne
+swobodê zajmowania siê w nim czym tylko chcia³em, byæ mo¿e wcale bym nie skoñczy³, gdyby nie liczne
 rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem,
 któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 
@@ -275,3 +275,5 @@ tylko siê chce. What one fool can do, another can.
 [^2]: Brane by³y pod uwagê równie¿ takie, zasugerowane mi przez nie powiem kogo epitety jak
     bezkompromisowa i przezabawna, niez³omna i wiekopomna, czy m±dra i krn±bra. Epitety te zosta³y
     przez moj± osobê autorsk± uznane za trafne i jako takie trafi³y do tego przypisu.
+
+[^3]: ang. [*lean*](https://en.wikipedia.org/wiki/Lean_(proof_assistant)).
