@@ -70,7 +70,7 @@ def dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' : Nat × Nat → Nat :=
 #eval dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' moja_para_liczb -- 3
 ```
 
-Matematyka to programowanie:
+Matematyka to programowanie.
 
 ```lean
 -- Można tak ...
