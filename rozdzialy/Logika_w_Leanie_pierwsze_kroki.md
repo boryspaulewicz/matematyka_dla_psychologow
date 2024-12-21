@@ -171,7 +171,7 @@ dowodzenia](https://en.wikipedia.org/wiki/Proof_assistant), takim jak Lean. Moż
 tylko pewność, że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale
 można też korzystać z rozmaitych udogodnień, które taki asystent oferuje.
 
-## O logice w Lean
+## Ogólne uwagi na temat logiki w Leanie
 
 **Ostrzeżenie i zarazem wyzwanie**: Będzie trzeba *stopniowo* opanować sztukę *w miarę*
 konsekwentnego *odróżniania*:
