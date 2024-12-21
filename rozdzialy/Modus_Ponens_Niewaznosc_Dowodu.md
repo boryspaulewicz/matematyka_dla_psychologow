@@ -118,33 +118,36 @@ variable (q : Prop) -- Deklarujemy, że mamy zdanie q, żeby mieć do czego stos
 W zwykłych funkcjach czy programach chodzi o tak lub inaczej rozumiane obliczenie jakiegoś
 rezultatu, na przykład o obliczenie wyniku dodawania, i chodzi też, a raczej przede wszystkim, o
 wynik; w twierdzeniach chodzi jedynie o to, że typ twierdzenia, czyli zdanie, które jest treścią
-tego twierdzenia, ma *jakiś* dowód, czyli istnieje jakiś term tego typu. Jest mi coraz trudniej
+tego twierdzenia, ma *jakiś* dowód, czyli istnieje jakiś term danego typu. Jest mi coraz trudniej
 pisać o tych sprawach bez używania terminologii "mieszkaniowej", więc może ją teraz wprowadzę.
 
 **Typy są trochę jak zbiory, ale to nie zbiory**: Gdy zaczynałem się uczyć o teorii typów, zajęło mi
 chwilę, zanim przyzwyczaiłem się do odróżniania typów od zbiorów. Zbiory odgrywają ważną rolę w
 matematyce, między innymi dlatego, że pewna teoria mnogości, to jest [teoria
 Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla), która jest niczym innym
-jak ogólnym językiem formalnym służącym do mówienia o zbiorach i ich elementach i rozwiązywania
-problemów dotyczących zbiorow, jest od dawna traktowana jako podstawowy język całej matematyki (co
-nie znaczy, że to jest jedyny taki język, na przykład, teoria typów jest również takim językiem).
+jak ogólnym językiem formalnym służącym do mówienia o zbiorach i ich elementach, a także do
+rozwiązywania problemów dotyczących zbiorow, jest od dawna traktowana jako podstawowy język całej
+matematyki (co nie znaczy, że to jest jedyny taki język, na przykład, teoria typów również jest
+takim językiem).
 
-W teorii ZF (albo ZFC, jeśli chcemy zaakcentować obecność aksjomatu wyboru) używamy notacji *x ∈ X*,
-która oznacza zdanie *x jest elementem zbioru X*. Typowanie zapisujemy co prawda w odwrotnej
-kolejności, na przykład piszemy `n : Nat`, ale i tak może się bardzo kojarzyć z relacją należenia
-elementu do zbioru. Różnica polega na tym, że zbiory są pewnymi *strukturami*, do których różne
-obiekty mogą należeć albo nie jako ich elementy, a typy są tylko *stałymi*, bez żadnej wewnętrznej
-struktury - `Nat` to tylko symbol `Nat`, nic więcej. Dlatego o posiadaniu przez term jakiegoś typu
-mówimy inaczej, niż o należeniu elementu do jakiegoś zbioru. Konkretnie, mówimy, że jakiś term
+W teorii *ZF* (albo *ZFC*, jeśli chcemy zaakcentować obecność aksjomatu wyboru, and. [*axiom of
+choice*](https://en.wikipedia.org/wiki/Axiom_of_choice)) używamy notacji *x ∈ X*, która oznacza
+zdanie *x jest elementem zbioru X*. Typowanie zapisujemy co prawda w odwrotnej kolejności, na
+przykład piszemy `n : Nat`, ale i tak może się bardzo kojarzyć z relacją należenia elementu do
+zbioru. Różnica polega na tym, że zbiory są pewnymi *strukturami*, do których różne obiekty mogą
+należeć albo nie jako ich elementy, a typy są tylko *stałymi*, bez żadnej wewnętrznej struktury -
+`Nat` to tylko symbol `Nat`, nic więcej. Dlatego o posiadaniu przez term jakiegoś typu mówimy
+inaczej, niż o należeniu elementu do jakiegoś zbioru. Konkretnie, mówimy, że jakiś term
 *zamieszkuje* albo nie jakiś typ i raczej unikamy mówienia, że do niego należy. Mówimy też, że jakiś
 typ jest, albo nie jest zamieszkany, a nie, że jest albo nie jest (nie)pusty.
 
 Jak już wiesz, w teorii typów obliczenia zachodzą w *dwóch wymiarach*: w wymiarze typów i w
-wymiarze, który można nazwać konkretnym. Na poziomie konkretnym "działa" matematyka konkretna albo
-*stosowana*, jak również zwykłe programowanie - na tym poziomie operujemy na przykład konkretnymi
-liczbami i interesują nas wyniki zastosowania do nich operacji dodawania. To jest poziom, poza który
-najczęściej w ogóle nie wychodzą uczniowie szkoły podstawowej, bo na tym etapie edukacji nie uczy
-się dowodzenia twierdzeń. Natomiast na poziomie typów "istnieje" i "działa" matematyka teoretyczna.
+wymiarze, który można by nazwać konkretnym. Na poziomie konkretnym "działa" matematyka konkretna
+albo *stosowana*, jak również zwykłe programowanie - na tym poziomie operujemy na przykład
+konkretnymi liczbami i interesują nas wyniki zastosowania do nich operacji dodawania. To jest
+poziom, poza który najczęściej w ogóle nie wychodzą uczniowie szkoły podstawowej, bo na tym etapie
+edukacji nie uczy się dowodzenia twierdzeń. Natomiast na poziomie typów "istnieje" i "działa"
+matematyka teoretyczna.
 
 Nie wiem, czy na Tobie to zrobi takie wrażenie, jakie zrobiło na mnie, gdy sobie to pomyślałem, ale
 na mnie zrobiło spore i nadal gdy zdarza mi się to pomyśleć nawiedza mnie czasem coś w rodzaju
