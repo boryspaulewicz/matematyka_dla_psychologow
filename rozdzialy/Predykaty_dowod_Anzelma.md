@@ -388,17 +388,17 @@ axiom A2 (Cos1 : MI) (Cos2 : MI) : IR Cos1 → II Cos2 → WiekszeNiz Cos1 Cos2
 
 Mamy tu coś, czego jeszcze nie było - *relację* `WiekszeNiz`. Zwracam uwagę, że `Pyszna kawa` to u
 nas aplikacja funkcji do termu i ta aplikacja, czyli zestawienie tych dwóch termów obok siebie, jest
-zdaniem jako takim (ma typ `Prop`). Możemy próbować udowodnić z innych definicji i założeń, że to
-zdanie jest prawdziwe, albo zdecydować aksjomatycznie, że ma (bliżej nieokreślony) dowód, ale
-aplikacja `Pyszna kawa` to tylko zdanie. Ta aplikacja jest zdaniem dlatego, że `Pyszna` jest funkcją
-z napojów do zdań, a `kawa` jest napojem. Bycie większym niż jest trochę jak bycie pysznym, ale
-dotyczy *uporządkowanej pary* termów, a nie pojedynczego termu.
+zdaniem jako takim (ma typ `Prop`). Możemy próbować udowodnić, korzystając z innych definicji i
+założeń, że to zdanie jest prawdziwe, albo zdecydować aksjomatycznie, że ma (bliżej nieokreślony)
+dowód, ale aplikacja `Pyszna kawa` to tylko zdanie. Ta aplikacja jest zdaniem dlatego, że `Pyszna`
+jest funkcją z napojów do zdań, a `kawa` jest napojem. Bycie większym niż jest trochę jak bycie
+pysznym, ale dotyczy *uporządkowanej pary* termów, a nie pojedynczego termu.
 
 **Definicja relacji dwuargumentowej**: *Relacja dwuargumentowa* to *dwuargumentowa funkcja
 zwracająca zdanie*.
 
 W Lean nie ma funkcji naprawdę dwuargumentowych i całe szczęście, bo dzięki temu wystarczy nam nasza
-strzałka, której używamy do konstruowania zarówno typów dowolnie złożonych implikacji jak i dowolnie
+strzałka, której używamy do konstruowania typów zarówno dowolnie złożonych implikacji jak i dowolnie
 złożonych funkcji.
 
 Punkt 4 tego być może dowodu wydaje się kluczowy. W tym momencie ma się rzekomo pojawiać
