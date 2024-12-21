@@ -10,12 +10,12 @@ między innymi wprowadzenie, niemal
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
 zaś do wnioskowania przyczynowego i statystycznego (w *tej* kolejności), w wersji bayesowskiej i
 częstościowej. Korzystając z tych narzędzi zamierzam omówić wybrane zagadnienia z obszaru szeroko
-rozumianej metodologii badań psychologicznych. W drugiej części planuję uzasadnić, objaśnić i
-zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w szczególności
-i nauki empiryczne w ogólności (więcej na ten temat znajdziesz [tutaj](./rozdzialy/02_Cel.md)). Ta
-propozycja będzie kontynuacją i rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf),
-którymi zacząłem się zajmować jeszcze na etapie pisania pracy magisterskiej, a niektórymi nawet
-wcześniej.
+rozumianej metodologii badań psychologicznych. W drugiej części planuję z kolei uzasadnić, objaśnić
+i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
+szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
+[tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
+[doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
+pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
 Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
