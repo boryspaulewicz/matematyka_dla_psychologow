@@ -837,7 +837,7 @@ sobota*, niezależnie od tego, czy dzisiaj pada deszcz, czy nie i niezależnie o
 dzisiejszym deszczem a jutrzejszym dniem tygodnia nie ma związku. *W tej sytuacji* prawdą jest, że
 *jeżeli dzisiaj pada deszcz, to jutro będzie sobota*, po prostu dlatego, że ... jutro będzie sobota.
 
-## Przypisy
+### Przypisy
 
 [^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
     [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
