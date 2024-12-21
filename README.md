@@ -17,7 +17,7 @@ szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdzies
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
-Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
+Pierwsze trzy rozdziały mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
 wynikach badań i moim wieloletnim doświadczeniu *wskazówki praktyczne*, dotyczące tego, jak warto
 moim zdaniem podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*,
