@@ -55,9 +55,9 @@ się całkiem możliwe, że żadne z nas nie będzie w stanie przekonać drugiej
 za pomocą racjonalnych argumentów, nawet zakładając całkowitą otwartość na takie argumenty i
 całkowitą racjonalność po obydwu stronach, cokolwiek by to miało znaczyć. Wydaje mi się, że to by
 było trochę tak, jakby jedna osoba próbowała przekonać drugą, że dynia jest pyszna, kiedy tej
-drugiej dynia nie smakuje (ja akurat nie przepadam za dyniami). Fakty zdają się tu nie mieć nic do
-rzeczy, bo chodzi o jakieś postawy czy preferencje, które pod względem sztywności przypominające
-preferencje smakowe.
+drugiej dynia nie smakuje (ja akurat nie lubię). Fakty zdają się tu nie mieć nic do rzeczy, bo
+chodzi o jakieś postawy czy preferencje, które pod względem sztywności przypominające preferencje
+smakowe.
 
 Muszę więc dokonać wyboru. A ponieważ bardzo cenię sobie swoją wolność - w granicach częściowo
 wyznaczonych przez to, jak rozumiem normę niekrzywdzenia - w tym również wolność ekspresji,
@@ -76,16 +76,17 @@ mógłbyś, mógłbyś/abyś, mogłabyś/mógłbyś, albo czymś innym.
 
 No więc może wpadłbym na taką geometryczną interpretację rachunku logicznego. Gdybym ją
 zakomunikował Tobie, z Twojej perspektywy byłby to *aksjomat*, ponieważ nie mogłobyś (ach,
-wspaniałe!) wtedy zrobić z tym nic innego jak *przyjąć albo nie przyjąć do wiadomości* fakt, że ta
-właśnie interpretacja *wydaje mi się* spójna i sensowna. To byłby z Twojej perspektywy *potencjalny
+wspaniałe!) wtedy zrobić z tym nic innego jak *przyjąć albo nie przyjąć do wiadomości*, że ta
+właśnie interpretacja wydaje *mi* się spójna i sensowna. To byłby z Twojej perspektywy *potencjalny
 empiryczny fakt*, którego *nie mogłobyś sprawdzić*. Z powodu odległości fizycznej, odległości w
 czasie, albo z powodu subiektywnego charakteru danych, zwykle tak się sprawy mają:
 
 *Mój fakt to jakby Twój aksjomat, a Twój fakt to jakby mój aksjomat*.
 
-Gdy na przykład powiesz mi, że nie możesz być na zajęciach, bo jesteś choro, to dla mnie to jest jak
-aksjomat, bo przecież nie będę tego tak naprawdę sprawdzał. Czy to nie ciekawe, że z perspektywy
-kogoś, kto nie był ich świadkiem ani nie może ich sprawdzić, fakty empiryczne są jak aksjomaty?
+Gdy na przykład powiesz mi, że nie możesz być na moich zajęciach, bo jesteś choro, to dla mnie to
+będzie jak aksjomat, bo przecież nie będę tego tak naprawdę sprawdzał. Czy to nie ciekawe, że z
+perspektywy kogoś, kto nie był ich świadkiem ani nie może ich sprawdzić, fakty empiryczne są jak
+aksjomaty?
 
 Możesz się zgodzić na dalszą grę komunikacyjną według reguły *taki a taki fakt wystąpił* - bo ja tak
 powiedziałem - i to będzie tak zwany kredyt zaufania, albo możesz się nie zgodzić, ale nie ma tu
@@ -93,7 +94,7 @@ realnej możliwości skutecznej *intersubiektywnej weryfikacji* tego faktu lub n
 razie możesz spędzić trochę czasu na kosztownym, pod wzlględem czasu, wysiłku, a może i pieniądzy,
 badaniu świadectw pośrednich, czyli poszlak.
 
-Ja na przykład zachowuję się czasem, jakbym coś tam wiedział o ogólnie rozumianych zyskach i
+Ja na przykład zachowuję się czasami, jakbym coś tam wiedział o ogólnie rozumianych zyskach i
 stratach wynikających z powszechnych szczepień, których jestem zwolennikiem. Ale prawda jest taka,
 że nie mam za bardzo pojęcia o tym obszarze badań i polegam prawie całkowicie na skąpych i bardzo
 pośrednich informacjach pochodzących od ludzi, którym ufam. To są więc takie moje aksjomaty.
@@ -120,14 +121,14 @@ predykat to
 > wieloznaczny termin mogący oznaczać: funktor zdaniotwórczy od argumentów x nazwowych, funkcję
 > zdaniową argumentów nazwowych, albo wyrażenie opisujące pewne włsności i relacje.
 
-*No więc* termin jest najwyraźniej wieloznaczny. Na szczęście już wiesz, że dopóki trzymamy się
-sztywnych i jasnych reguł i pamiętamy o tej wieloznaczności w sytuacjach budzących wątpliwości, nie
-szkodzi, że jest wieloznaczny.
+*No więc* termin *predykat* jest najwyraźniej terminem wieloznacznym. Na szczęście już wiesz, że
+dopóki trzymamy się sztywnych i jasnych reguł i pamiętamy o tej wieloznaczności w sytuacjach
+budzących wątpliwości, nie szkodzi, że jest wieloznaczny.
 
 ## Kawusia była pyszna
 
 Zdanie *Kawusia była pyszna* możemy zapisać formalnie na różne sposoby i to, który sposób
-wybierzemy, będzie zależało od naszych celów. Możemy je na przykład zakodować jako stałą `k` typu
+wybierzemy, będzie zależało od przyjętych celów. Możemy je na przykład zakodować jako stałą `k` typu
 `Prop`. Wtedy jedyną własnością tego zdania, którą będziemy mogli poddać formalnej analizie, będzie
 jego prawdziwość lub fałszywość, co dla nas w tym momencie znaczy dowiedlność czy udowadnialność
 (tego zdania lub jego negacji).
@@ -136,8 +137,8 @@ Moglibyśmy jednak spróbować zakodować również *strukturę* tego zdania. Wt
 do niego wszystkie dostępne operacje na zdaniach, bo pozostałoby zdaniem. Moglibyśmy na przykład
 napisać `K → a`, jeśli `a` też byłoby zdaniem (duże `K` sygnalizuje tutaj, że byłoby to jakieś
 wyrażenie bardziej złożone niż pojedynczy symbol) i to byłaby poprawna implikacja. Ale poza tym, że
-to wciąż byłoby zdanie, może pojawiłyby się również jakieś inne sensowne operacje, wymagające
-większej "rozdzielczości formalizacji" języka naturalnego, dzięki której można "formalnie rozpoznać"
+to wciąż byłoby zdanie, może pojawiłyby się również jakieś inne operacje, wymagające większej
+"rozdzielczości formalizacji" języka naturalnego, dzięki której można "formalnie rozpoznać"
 strukturę podmiot-orzeczenie.
 
 Musimy zadać sobie pytanie, czy (w przyszłości) ważny będzie dla nas czas przeszły, bo ta kawusia
@@ -171,8 +172,8 @@ axiom kawa : Napoj
 ```
 
 W konstruowanym właśnie języku `Pyszna kawa` to odtąd poprawne zdanie. Po polsku i wystarczająco
-blisko dla naszych celów. Nie tylko napoje mogą być pyszne, zabawa też może być, na przykład, ale
-obecny poziom ogólności nam wystarczy.
+blisko dla naszych ograniczonych celów. Nie tylko napoje mogą być pyszne, zabawa też może być, na
+przykład, ale obecny poziom ogólności nam wystarczy.
 
 **Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*.
 
@@ -202,7 +203,7 @@ Czytamy dalej:
 To jest ewidentnie *rada*. Też ciekawy *typ*, jakby blisko *normy*, ale jednak coś innego. Zwracam
 uwagę, że czasem sam akt *wstępnego typowania* (fragmentów) tekstu napisanego w języku *naturalnym*
 (tutaj samo rozpoznanie, że mamy do czynienia z ogólnym typem *rada*) może działaś jak odsłonięcie
-rano zasłon. W każdym razie rad nie lubię, chyba, że towrzyszą im uzasadnienia. Zwłaszcza rad
+rano zasłon. W każdym razie rad nie lubię, chyba, że towarzyszą im uzasadnienia. Zwłaszcza rad
 sugerujących wyrzucanie czegoś z izdebki własnego umysłu. *Powody* to co innego, chętnie uważnie
 wysłucham. Co dalej?
 
@@ -212,7 +213,7 @@ wysłucham. Co dalej?
 > uwierzy, to nie zrozumie.
 
 A tutaj mamy sporo *aksjomatów* (zaskoczono, jak ten wątek nagle wrócił?). Można się domyślić, że
-nie będą odgrywały ważnej roli, a ponieważ nie mam pojęcia, co to wszystko znaczy, nie
+nie będą odgrywały ważnej roli, a ponieważ nie mam bladego pojęcia, co to wszystko znaczy, nie
 przyjmuję. Gdyby trzeba było do nich wrócić, to wrócimy.
 
 Pierwsze zdanie w zakładce *Przesłanka* to:
