@@ -76,6 +76,8 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R13 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
+[R13 ∧](./rozdzialy/Koniunkcja.md)
+
 W planach: Sekcja zwłok, studium przypadku
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
