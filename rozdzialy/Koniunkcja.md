@@ -1,7 +1,7 @@
 # Koniunkcja zdań
 
 Wszystko w tym rozdziale można zrozumieć opierając się tylko na wiedzy z wcześniejszych
-rozdziałów. Jeżeli to jest na razie zbyt trudne, oparte na różnych punktach widzenia, szczegółowe
+rozdziałów. Jeżeli to jest na razie zbyt trudne, to oparte na różnych punktach widzenia, szczegółowe
 wyjaśnienia znajdziesz w następnych dwóch rozdziałach.
 
 ```lean
