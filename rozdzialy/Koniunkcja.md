@@ -60,7 +60,7 @@ def dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb : Nat × Nat → Nat :=
 
 Ponieważ istnieje *tylko jeden* sposób skonstruowania dowodu koniunkcji (a ogólnie termu będącego
 taką a nie inną parą uporządkowaną), gdy parametr ma typ taka a nie inna para uporządkowana możemy
-przechwycić pierwszy i drugi element korzystając z *dopasowania wzorców*:
+przechwycić pierwszy i drugi element korzystając z *dopasowania wzorców w miejscu parametru*:
 
 ```lean
 def dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' : Nat × Nat → Nat :=
