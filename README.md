@@ -5,15 +5,16 @@ sprawdzić za pomocą algorytmu.*
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
 psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To
-między innymi wprowadzenie - od podstaw i niemal
-[jednocześnie](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) - do programowania,
-matematyki i meta-matematyki, teorii typów, a później do wnioskowania przyczynowego i statystycznego
-(w *tej* kolejności), w wersji bayesowskiej i częstościowej, ale nie tylko. W drugiej części
-zamierzam uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego
-spojrzenia na psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat
-znajdziesz [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja jest kontynuacją i rozwinięciem wątków z
-[doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej, a niektórymi nawet wcześniej.
+między innymi wprowadzenie, niemal
+[równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
+teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
+zaś do wnioskowania przyczynowego i statystycznego (w *tej* kolejności), w wersji bayesowskiej i
+częstościowej, ale nie tylko. W drugiej części zamierzam uzasadnić, objaśnić i zilustrować
+przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w szczególności i nauki
+empiryczne w ogólności (więcej na ten temat znajdziesz [tutaj](./rozdzialy/02_Cel.md)). Ta
+propozycja jest kontynuacją i rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf),
+którymi zacząłem się zajmować jeszcze na etapie pisania pracy magisterskiej, a niektórymi nawet
+wcześniej.
 
 Pierwsze trzy rozdziały mają charakter ogólno-wprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
