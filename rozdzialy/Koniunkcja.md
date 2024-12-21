@@ -12,8 +12,8 @@ variable (p q : Prop)
 #check p ∧ q -- p ∧ q : Prop
 ```
 
-Podobnie jak implikacja i negacja, koninunkcja jest *zdaniem złożonym*, bo powstaje przez
-zastosowanie *spójnika logicznego*.
+Podobnie jak implikacja i negacja, koniunkcja jest *zdaniem złożonym*, bo powstaje przez
+zastosowanie *spójnika logicznego* (w tym wypadku spójnika *∧*).
 
 Dowodem zdania `p ∧ q` jest *uporządkowana para* dowodów złożona z dowodu zdania `p` i dowodu zdania
 `q`, w tej kolejności. Dowód zdania `p ∧ q` można stworzyć *tylko w jeden sposób* - jawnie lub
