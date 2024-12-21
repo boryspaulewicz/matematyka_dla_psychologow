@@ -7,11 +7,11 @@ zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszys
 psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To
 między innymi wprowadzenie - od podstaw i niemal
 [jednocześnie](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) - do programowania,
-matematyki i meta-matematyki, teorii typów, wnioskowania statystycznego w wersji bayesowskiej i
-częstościowej, do wnioskowania przyczynowego, ale nie tylko. W późniejszych rozdziałach zamierzam
-uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
-psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
-[tutaj](./rozdzialy/02_Cel.md)). Ta propozycja jest kontynuacją i rozwinięciem wątków z
+matematyki i meta-matematyki, teorii typów, a później do wnioskowania przyczynowego i statystycznego
+(w *tej* kolejności), w wersji bayesowskiej i częstościowej, ale nie tylko. W drugiej części
+zamierzam uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego
+spojrzenia na psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat
+znajdziesz [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja jest kontynuacją i rozwinięciem wątków z
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
