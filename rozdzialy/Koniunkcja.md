@@ -27,8 +27,8 @@ variable (hp : p) (hq : q)
 #check And.intro hp hq -- ⟨hp, hq⟩ : p ∧ q
 ```
 
-Jeżeli `T₁` i `T₂` to jakieś typy, to `T₁ × T₂` jest typem *para uporządkowana złożona z termu typu
-`T₁` i termu typu `T₂`*, w tej kolejności.
+Jeżeli `T₁` i `T₂` to jakieś typy, to `T₁ × T₂` jest typem *par uporządkowanych złożonych z termu
+typu `T₁` i termu typu `T₂`*, w tej kolejności.
 
 ```lean
 -- Żeby uzyskać symbol × wpisz \x
