@@ -51,7 +51,7 @@ pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 [R6 Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja
 druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
-[R6+](./rozdzialy/Ewaluacja.md)
+[R6 = R0](./rozdzialy/Ewaluacja.md)
 
 [R7 Tytuł nie zachęca, ale za to zawartość również nie zachęca: Być może nie wiesz, że już wiesz,
 czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm
