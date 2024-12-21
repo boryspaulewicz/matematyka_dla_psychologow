@@ -20,7 +20,7 @@ rzeczy. Na przyk³ad, zgodnie z przytoczonym fragmentem:
 
 *2 + 3 = 3 + 2*
 
-A je¿eli *a* i *b* to liczby naturalne, to na przyk³ad:
+A je¿eli *a* i *b* to jakie¶ liczby naturalne, to na przyk³ad:
 
 *a + b = b + a*
 

@@ -23,28 +23,31 @@ utworzonej sekcji, udowodnimy to zdanie:
 
 
 ```lean
+-- Odtąd istnieją żniwiarze ...
 axiom Zniwiarz : Type
 
+-- ... i Krystian jest jednym z nich.
 axiom Krystian : Zniwiarz
 
+-- Żniwiarze bywają ponurzy.
 axiom Ponury : Zniwiarz → Prop
 
 section strefa_komfortu
 
     variable (jadro_ciemnosci : Absurd)
 
-    -- jadro_ciemnosci (Ponury Krystian) jest dowodem prawdziwości zdania Ponury Krystian
+    -- jadro_ciemnosci (Ponury Krystian) jest dowodem zdania Ponury Krystian
     #check jadro_ciemnosci (Ponury Krystian) -- jadro_ciemnosci (Ponury Krystian) : Ponury Krystian
 
 end strefa_komfortu
 
-#check jadro_ciemnosci -- Lean sygnalizuje tutaj błąd, a więc poza strefą komfortu jeteśmy bezpieczni
+-- Lean sygnalizuje tutaj błąd, a więc poza strefą komfortu jeteśmy bezpieczni.
+#check jadro_ciemnosci
 ```
 
 Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora na komendzie `#check`
-<zobaczysz, że uzyskujemy w ten sposób lokalny dowód zdania, że hipotetyczny żniwiarz Krystian jest
-ponury. Przypuszczam, że jest dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód dowolnego
-zdania.
+zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że żniwiarz Krystian jest ponury. Przypuszczam,
+że jest dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód dowolnego zdania.
 
 Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
@@ -55,9 +58,10 @@ kontekstem. Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
 *Z Fałszu wynika wszystko.*
 
-[Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów zależnych](https://www.youtube.com/watch?v=Nrz250ryvr8).
-
 Inna nazwa na absurd to *fałsz*.
+
+[Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów
+zależnych](https://www.youtube.com/watch?v=Nrz250ryvr8).
 
 ## O co chodzi z tym Absurdem?
 
@@ -97,7 +101,7 @@ szczególnymi to co innego, niż oswoić się z wszystkimi możliwymi.
 `Absurd` jest więc przykładem *typu zależnego*. Ponieważ to właśnie między innymi dzięki typom
 zależnym możemy naturalnie formalizować dowolne treści matematyczne, zależy mi, żebyś zrozumiała,
 jak takie typy działają. Wyjaśniałem to wcześniej, ale sam musiałem sobie o tym na początku
-wielokrotnie przypominać, więc wyjaśnię jeszcze raz.
+wielokrotnie przypominać, a więc wyjaśnię jeszcze raz.
 
 Napisałem, że `Absurd` przyjmuje zdania jako argumenty, ale chyba rozumiesz już trochę, że to nie
 całkiem prawda. `Absurd` *nie* jest *funkcją*, tylko *typem*, nie możemy go więc do niczego

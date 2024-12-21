@@ -74,7 +74,7 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R12 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
-[R13 Negacja w praktyce dowodzenia](./Negacja_w_praktyce.md)
+[R13 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
