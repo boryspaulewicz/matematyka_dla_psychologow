@@ -3,6 +3,8 @@ w formie żeńskiej (tak wiem). Ponieważ żal mi usuwać te wszystkie wzbudzaj�
 skrępowanie zabawy językowe, które się tu w związku z płcią odbiorcy pojawiają i które połączyłem w
 pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać*.
 
+Formalizacja jest procesem *twórczym*.
+
 # Predykaty
 
 Myślę, że pojęcia: implikacji, implikacji jako funkcji i funkcji jako programu są Ci już trochę
