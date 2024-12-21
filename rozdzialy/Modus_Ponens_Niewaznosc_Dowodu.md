@@ -71,7 +71,7 @@ W psychologii to się właściwie w ogóle nie zdarza, bo psychologia jest nauk�
 gdybyśmy odkryli jakąś prawdziwą własność świata (a może już takie własności znamy?), zawsze jakaś
 wątpliwość pozostanie. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy, gdy próbujemy
 wyjaśnić zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam
-ocenić, czy i w jakim obszarze naszych badań zrobiliśmy jakieś postępy. Dlatego doświadczenie
+ocenić, czy i w jakim obszarze naszych badań zrobiliśmy faktycznie postępy. Dlatego doświadczenie
 całkowitego i ostatecznego rozwiązania jakiegoś problemu, które pojawia się gdy zajmujemy się samą
 matematyką, albo gdy stosujemy ją do formułowania i rozwiązywania teoretycznych problemów w
 psychologii, może być moim zdaniem dla każdego z nas czymś orzeźwiającym; dla mnie w każdym razie
