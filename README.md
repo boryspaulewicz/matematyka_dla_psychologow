@@ -8,7 +8,7 @@ psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem 
 między innymi wprowadzenie, niemal
 [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
-zaś do wnioskowania przyczynowego i statystycznego (w *tej* kolejności), w wersji bayesowskiej i
+zaś do wnioskowania przyczynowego i statystycznego (w tej kolejności), w wersji bayesowskiej i
 częstościowej. Korzystając z tych narzędzi zamierzam omówić wybrane zagadnienia z obszaru szeroko
 rozumianej metodologii badań psychologicznych. W drugiej części planuję z kolei uzasadnić, objaśnić
 i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
