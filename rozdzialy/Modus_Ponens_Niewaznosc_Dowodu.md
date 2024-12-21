@@ -81,8 +81,8 @@ Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląd
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
 tym dowody są prawie zawsze znacznie dłuższe niż zdania, których dowodzą. Dowody po prostu nie służą
 do *ujawniania treści* zdań, tylko do ostatecznego *rozstrzygania o ich prawdziwości*, przez co
-struktura dowodu jest na ogół pouczająca tylko jako *wskazówka, jak można dowodzić danego typu zdań*
-i niewiele mówi nam o tym, co te zdania *znaczą*.
+struktura dowodu jest na ogół pouczająca tylko jako *wskazówka, jak można dowodzić zdania
+określonego typu* i niewiele mówi nam o tym, co te zdania *znaczą*.
 
 Względną nieważność struktury dowodu po prostu *widać*, gdy rozpiszemy analogię między implikacjami
 i funkcjami w sposób taki jak zrobiłem to wyżej. W Leanie punkt widzenia, zgodnie z którym liczy się
