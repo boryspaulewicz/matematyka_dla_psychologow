@@ -413,10 +413,11 @@ a : Prop
 ⊢ a → a
 ```
 
-Czytamy to jako: Został jeden cel do udowodnienia (`1 goal`), inaczej term albo program (sic!) do
+**Czytamy to**: Został jeden cel do udowodnienia (`1 goal`), inaczej term albo program (sic!) do
 skonstruowania, który mamy zrealizować czy skonstruować posługując się (tutaj akurat tylko jednym)
 założeniem, że `a` jest (niekoniecznie prawdziwym albo udowodnionym) zdaniem (`a : Prop`). Ten cel
-to implikacja `a → a` (`⊢ a → a`). 
+to implikacja `a → a` (`⊢ a → a`). Mówiąc krótko, mając do dyspozycji tylko jakieś zdanie `a`,
+musimy skonstruować term typu `a → a`.
 
 Jak już wiesz, stworzenie dowodu zdania `a → a` w Lean jest tym samym co stworzenie termu (można
 myśleć programu albo kodu) o typie `a → a`. Jak mamy skonstruować taki term / dowód / program? Musi
