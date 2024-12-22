@@ -1,7 +1,7 @@
 *Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie dość głęboko zapuszcza
 korzenie. Cała ziemia jest jego. - Fryderyk Hebbel*
 
-# Spacerek po Leanie, wersja pierwsza
+# Pierwszy spacer po Leanie, wersja pierwsza
 
 Ponieważ są tak ważne, treści, o których będziesz się uczyła w tym rozdziale, omówię jeszcze raz,
 tylko inaczej, w rozdziale następnym. Dzięki temu mam nadzieję ułatwić Ci aktywne powtarzanie

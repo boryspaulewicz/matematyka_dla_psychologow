@@ -18,7 +18,7 @@ wskazać, gdzie *dokładnie* w tych rozumowaniach znajdują się ewentualne dziu
 celowo niedokończony przykład tego rodzaju zabawy znajdziesz [w jednym z następnych
 rozdziałów](./Predykaty_dowod_Anzelma.md).
 
-# Spacerek po Leanie, wersja druga
+# Pierwszy spacer po Leanie, wersja druga
 
 Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
 do technicznych znaczeń niektórych słów. Dzięki temu będzie Ci łatwiej zrozumieć, o czym mówię. Z

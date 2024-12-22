@@ -55,11 +55,11 @@ ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
-[R4 Pierwszy spacerek po łączce matematyki](./rozdzialy/Pierwszy_spacerek.md)
+[R4 Kilka trywialnych i mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
 
-[R5 Spacerek po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
+[R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 
-[R6 Spacerek po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
+[R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
 [R6 = R0](./rozdzialy/Ewaluacja.md)
 
