@@ -38,8 +38,8 @@ to samo, co `(t : Type) → (t → t)`.
 Jeżeli w tym momencie masz wrażenie, że już trochę to rozumiesz, ale czujesz się niepewnie, bo takie
 przesuwanie dwukropka to na razie dla Ciebie trochę zbyt wiele, to moim zdaniem to może w zupełności
 wystarczyć, żeby czytać dalej. Jeżeli jednak nie jesteś jeszcze gotowa, żeby traktować przykłady
-takie jak te wyżej jako punkt wyjścia do dalszej nauki, to pewnie warto wrócić do dwóch poprzednich
-rozdziałów.
+takie, jak te wyżej, jako punkt wyjścia do dalszej nauki, to pewnie warto wrócić do dwóch
+poprzednich rozdziałów.
 
 Wybierzemy teraz arbitralnie jedną z wersji definicji i skupimy się tylko na niej:
 
