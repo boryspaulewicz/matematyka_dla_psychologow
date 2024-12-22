@@ -29,7 +29,7 @@ Stosowanie okre¶lonego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e 
 przeszkod± jest to, ¿e te powtórki mog± siê wydawaæ *niepotrzebne*. Przecie¿ jeszcze tego samego
 dnia, w którym zrobili¶my notatki i nie zaniedbali¶my przy tym przerw, bêdziemy pamiêtaæ wiêkszo¶æ
 tre¶ci dosyæ dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i w pewnym sensie o to
-w³a¶nie chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczeæ trochê d³u¿ej,
+w³a¶nie chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*, ale gdyby poczekaæ trochê d³u¿ej,
 nawet tylko do dnia nastêpnego, ju¿ by tak ³atwa nie by³a, bo utrada dostêpu do informacji w pamiêci
 postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w miarê
 *³atwej* powtórki zapis pamiêciowy utrwala siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do
