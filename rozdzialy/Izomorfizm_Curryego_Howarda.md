@@ -139,12 +139,12 @@ gdzieś szybko dotrzeć, omijając Cię, ponieważ stoisz jej na drodze*. Skąd 
 bardzo Twoim zdaniem mogłabyś się w takiej sytuacji mylić?
 
 Byłabyś w stanie zobaczyć ten proces powstrzymując się od patrzenia na niego w kategoriach celu,
-możliwych sposobów osiągania go i przeszkód w jego osiągnięciu?  Bez nawykowego interpretowania
+możliwych sposobów osiągania go i przeszkód w jego osiągnięciu? Bez nawykowego interpretowania
 ruchów myszy jako skutków informacji docierającej do jej zmysłów i tego, do czego ta mysz dąży? Czy
-jesteś w stanie popatrzeć na mysz tak jak patrzysz na przykład na, dajmy na to, ciemną esencję
-herbaty rozpuszczającą się w gorącej wodzie? Jak myślisz, co by Ci mogło ułatwić patrzenie w ten
-sposób na proces rozmowy, albo na, powiedzmy, rozgrywający się przez dłuższy czas akt pisania
-jakiejś ksiażki?
+jesteś w stanie popatrzeć na taką poruszającą się w bardzo regularny sposób mysz tak jak patrzysz na
+przykład na ciemną esencję herbaty rozpuszczającą się w gorącej wodzie? Jak myślisz, co by Ci mogło
+umożliwić patrzenie w ten sposób na proces rozmowy, albo na przykład na rozgrywający się dłużej akt
+pisania ksiażki?
 
 Ale wracając do głównego wątku. Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie
 obiekty jak zbiór liczb rzeczywistych matematycy również nazywają przestrzeniami), czyli jest,
