@@ -32,9 +32,9 @@ razem z historią zachodzących zmian, może być ilustracją sposobu, w jaki za
 zachowaniu myśleć. Akt pisania książki jest jednym długim, ale jednak w pewnym sensie pojedynczym
 aktem zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego
 procesu. Jest w dodatku aktem *w ramach którego*, dzięki stałej autorefleksji, zachodzi proces
-*uczenia się*, choć trudno powiedzieć czego i zachodzi proces *odkrywania* czy raczej ustalania się
-być może *dominującego*, ale nadal z konieczności *nieunikalnego celu*. Można więc powiedzieć, że w
-trakcie pisania *wyłania się* pewne (nieunikalne) zachowanie. Byłoby wskazane, gdyby ten proces
+*uczenia się*, choć trudno powiedzieć czego i zachodzi też proces *odkrywania* czy raczej ustalania
+się być może *dominującego*, ale wciąż z konieczności *nieunikalnego celu*. Można więc powiedzieć,
+że w trakcie pisania *wyłania się* pewne (nieunikalne) zachowanie. Byłoby wskazane, gdyby ten proces
 zaczął być regulowany przez informacje zwrotne pochodzące od czytelników, bo zachowania ludzi są
 zwykle w mniejszym lub większym stopniu czymś, co tworzy się w ramach tego rodzaju społecznych
 interakcji i co nabiera dzięki takim interakcjom (również nieunikalnego) sensu, ale nad tym mam
