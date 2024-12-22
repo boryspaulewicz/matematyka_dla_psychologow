@@ -127,15 +127,34 @@ korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie było tej idealnej 
 dwoma, dobrze określonymi rodzajami abstrakcyjnych struktur, którą w matematyce nazywamy
 izomorfizmem.
 
-Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie obiekty jak zbiór liczb
-rzeczywistych matematycy również nazywają przestrzeniami), czyli jest, mówiąc kolokwialnie, wiernym
-tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania* rozmaitych problemów, jak
-również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją siłę zawdzięcza między innymi
-temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze *psychologicznym*. Dla nas, ludzi,
-to, czy dany problem będzie łatwy czy trudny do rozwiązania albo zrozumienia często w *ogromnym*
-stopniu zależy od przyjętego *punktu widzenia* na ten problem. Dlatego między innymi tak chętnie
-korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowujący strukturę izomorfizm to
-właśnie pewien rodzaj doskonałej analogii.
+To może jeszcze wyobraź sobie, że układ współrzędnych gdzieś znika a ta płaszczyzna łamie się i
+zamyka wokół Ciebie w sześcian jasnego pokoju. A na podłodze pojawia się mysz. Biegnie w Twoją
+stronę i zarazem nie całkiem w Twoją stronę, tak jakby chciała szybko dotrzeć do czegoś, co znajduje
+się za Tobą i jednocześnie bała się do Ciebie zbliżyć. To wszystko jesteś w stanie niemal
+natychmiast zobaczyć tylko na podstawie kilkusekundowego ruchu myszy na podłodze, prawda? I masz
+wtedy *niemal całkowitą pewność*, że ta mysz to właśnie *robi*. Nie rozmawialiście wcześniej (o ile
+Ci wiadomo) i nie wiesz, skąd się wzięła, na pewno też nie masz żadnych informacji na temat
+złożonych procesów sterujących jej ruchami, a jednak wiesz, prawie na pewno, że ta mysz *stara się
+gdzieś szybko dotrzeć, omijając Cię, ponieważ stoisz jej na drodze*. Skąd to wszystko wiesz? I jak
+bardzo Twoim zdaniem mogłabyś się w takiej sytuacji mylić?
+
+Byłabyś w stanie zobaczyć ten proces powstrzymując się od patrzenia na niego w kategoriach celu,
+możliwych sposobów osiągania go i przeszkód w jego osiągnięciu?  Bez nawykowego interpretowania
+ruchów myszy jako skutków informacji docierającej do jej zmysłów i tego, do czego ta mysz dąży? Czy
+jesteś w stanie popatrzeć na mysz tak jak patrzysz na przykład na, dajmy na to, ciemną esencję
+herbaty rozpuszczającą się w gorącej wodzie? Jak myślisz, co by Ci mogło ułatwić patrzenie w ten
+sposób na proces rozmowy, albo na, powiedzmy, rozgrywający się przez dłuższy czas akt pisania
+jakiejś ksiażki?
+
+Ale wracając do głównego wątku. Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie
+obiekty jak zbiór liczb rzeczywistych matematycy również nazywają przestrzeniami), czyli jest,
+mówiąc kolokwialnie, wiernym tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania*
+rozmaitych problemów, jak również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją
+siłę zawdzięcza między innymi temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze
+*psychologicznym*. Dla nas, ludzi, to, czy dany problem będzie łatwy czy trudny do rozwiązania albo
+zrozumienia często w *ogromnym* stopniu zależy od przyjętego *punktu widzenia* na ten
+problem. Dlatego między innymi tak chętnie korzystamy z analogii i metafor i tak bardzo je sobie
+cenimy. A zachowujący strukturę izomorfizm to właśnie pewien rodzaj doskonałej analogii.
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
 kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
