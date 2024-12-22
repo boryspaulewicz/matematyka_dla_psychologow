@@ -2,7 +2,8 @@
 
 Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji zawartych w rozdziałach
 wcześniejszych. Jeżeli to jest na razie zbyt trudne, to oparte na różnych punktach widzenia,
-szczegółowe wyjaśnienia znajdziesz w następnych dwóch rozdziałach, ale najpierw spróbuj *zobaczyć*.
+szczegółowe wyjaśnienia znajdziesz w następnych dwóch rozdziałach. Ale najpierw spróbuj proszę
+*zobaczyć*.
 
 ```lean
 -- Jeżeli p i q to jakieś zdania ...
