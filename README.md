@@ -26,18 +26,19 @@ do psychologów, tematami. Staram się je objaśnić najlepiej jak umiem, ale ni
 lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
 ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
 
-Piszę tą książkę w taki a nie inny sposób, to jest posyłając czasem mniejsze a czasem większe zmiany
-i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka, razem z
-całą historią zachodzących zmian, może być ilustracją sposobu, w jaki zacząłem ostatnio o zachowaniu
-myśleć. Akt pisania książki jest jednym długim, ale jednak w pewnym sensie pojedynczym aktem
-zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego
+Piszę tą książkę w taki a nie inny sposób, to jest posyłając czasem mniejsze a czasami większe
+zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka,
+razem z historią zachodzących zmian, może być ilustracją sposobu, w jaki zacząłem ostatnio o
+zachowaniu myśleć. Akt pisania książki jest jednym długim, ale jednak w pewnym sensie pojedynczym
+aktem zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego
 procesu. Jest w dodatku aktem *w ramach którego*, dzięki stałej autorefleksji, zachodzi proces
-*uczenia się* trudno powiedzieć czego i zarazem *odkrywania* albo ustalania się być może
-*dominującego*, ale nadal z konieczności *nieunikalnego celu*. W trakcie pisania *wyłania się* więc
-pewne (nieunikalne) zachowanie. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez
-informacje zwrotne pochodzące od jej czytelników, bo zachowania ludzi są zwykle w mniejszym lub
-większym stopniu czymś, co tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera
-dzięki takim interakcjom (również nieunikalnego) sensu, ale nad tym mam dosyć ograniczoną kontrolę.
+*uczenia się*, choć trudno powiedzieć czego i zachodzi proces *odkrywania* czy raczej ustalania się
+być może *dominującego*, ale nadal z konieczności *nieunikalnego celu*. Można więc powiedzieć, że w
+trakcie pisania *wyłania się* pewne (nieunikalne) zachowanie. Byłoby wskazane, gdyby ten proces
+zaczął być regulowany przez informacje zwrotne pochodzące od czytelników, bo zachowania ludzi są
+zwykle w mniejszym lub większym stopniu czymś, co tworzy się w ramach tego rodzaju społecznych
+interakcji i co nabiera dzięki takim interakcjom (również nieunikalnego) sensu, ale nad tym mam
+dosyć ograniczoną kontrolę.
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
