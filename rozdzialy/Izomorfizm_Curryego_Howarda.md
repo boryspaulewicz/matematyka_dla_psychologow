@@ -121,7 +121,7 @@ w jeden. I ja teraz muszę przez kilka akapitów próbować Ci (i jednocześnie 
 ponowne oddzielenie.
 
 Czy to nie ciekawe, jak bardzo taki z pozoru niewinny izomorfizm potrafi zmienić nasz sposób
-myślenia? Ta ogromna *swoboda w przełączaniu się między dwoma różnymi punktami widzenia* -
+myślenia? Ogromna *swoboda w przełączaniu się między dwoma różnymi punktami widzenia* -
 geometrycznym i liczbowym - na w istocie *ten sam* problem, a także możliwość *skutecznego
 korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie było tej idealnej odpowiedniości między
 dwoma, dobrze określonymi rodzajami abstrakcyjnych struktur, którą w matematyce nazywamy
