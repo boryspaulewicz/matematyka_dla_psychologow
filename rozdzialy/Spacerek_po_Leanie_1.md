@@ -62,7 +62,7 @@ sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu
 interpretacja będzie wynikała z kontekstu.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`. Musisz tylko skorzystać
-z `dziesiec` jako z przykładu, zamieniając dwa elementy tej definicji - nazwę stałej i jej
+z `dziesiec` jako z przykładu, zamieniając dwa elementy tej definicji, to jest nazwę stałej i jej
 wartość. Jeżeli napiszesz coś niezgodnie z wymaganiami Leana, zobaczysz fragment podkreślony
 czerwoną falką. Wiesz, co wtedy robić.
 
@@ -72,8 +72,9 @@ ortograficzny. Umieść kursor na słowie `tszy` i odczytaj komunikat o błędzi
 prawej. Powinnaś wtedy zobaczyć *unknown identifier 'tszy'*, co oznacza, że Lean nie wie, czym jest
 `tszy`. Jak widzisz, błędy to tylko okazja, żeby Lean mógł się wykazać.
 
-W Leanie można tworzyć stałe różnych typów, nie tylko liczbowe. Poniższy kod tworzy stałą o typie
-tekstowym (`String`). Zwróć uwagę, że wartości zmiennych tekstowych muszą być otoczone cudzysłowami.
+W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
+stałą o typie tekstowym (`String`). Zwróć uwagę, że wartości zmiennych tekstowych muszą być otoczone
+cudzysłowami.
 
 **Polecenie**: Skopiuj do Leana lub przepisz z pamięci:
 
@@ -110,7 +111,7 @@ temu Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu b
 "czuć". To jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej więcej na temat,
 nawet gdy wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje, wpływa na
 to, co później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie
-reagujemy. A jeżeli ta czynność wydaje się tak łatwa, że aż zbędna, to w pewnym sensie tym lepiej.
+reagujemy. A jeżeli ta czynność wydaje się taka łatwa, że aż zbędna, to być może nawet lepiej.
 
 ## Funkcje w Leanie
 
@@ -145,7 +146,7 @@ def dodaj2 : Nat → Nat :=
 
 Lean wie, że te dwie (a licząc z komentarzem cztery) linijki to definicja jednej i tej samej
 funkcji, bo bez fragmentu zaczynającego się od `fun` ten kod byłby niekompletny. Nie trzeba
-zapisywać tej definicji w dwóch linijkach; ja tak zrobiłem z powodów estetycznych. YMMV.
+zapisywać tej definicji w dwóch linijkach; zrobiłem tak tylko z powodów estetycznych.
 
 **Czytamy to**: Definiuję (`def`) stałą `dodaj2` typu funkcja przekształcająca liczby naturalne w
 liczby naturalne (`: Nat → Nat`) jako (`:=`) funkcję (`fun`), która jakikolwiek `moj_parametr` typu
@@ -267,13 +268,13 @@ ciała:
 3
 ```
 
-Czy widzisz, jak kolejne argumenty "wskakują" na właściwe miejsca w "najbardziej wewnętrznym" ciele
-`pierwsza + druga`? Mogę chyba już teraz wyjaśnić, że `1 + 2` jest rozpakowywane do aplikacji
-`Nat.add 1 2`, bo w tym kontekście `+` to tylko inny sposób zapisu od razu dostępnej w Leanie
-funkcji `Nat.add`, która "obsługuje" dodawanie liczb naturalnych.
+Czy widzisz, jak kolejne argumenty "wskakują" na właściwe miejsca w ciele funkcji? Mogę chyba już
+teraz wyjaśnić, że `1 + 2` jest rozpakowywane do aplikacji `Nat.add 1 2`, bo w tym kontekście `+` to
+tylko inny sposób zapisania od razu dostępnej w Leanie funkcji `Nat.add`, która obsługuje dodawanie
+liczb naturalnych.
 
 Pokażę Ci jeszcze raz to samo, ale używając notacji, którą chętnie stosują matematycy. Dla
-uproszczenia pominę przy tym typy parametrów. 
+uproszczenia pominę przy tym typy parametrów.
 
 Anonimowe funkcje, takie jak `fun (moj_parametr : Nat) => moj_parametr + 2`, nazywamy również
 *λ-abstrakcjami*. Lean wie o tej konwencji i pozwala zamiast `fun` napisać `λ`. Jeżeli chcesz używać
@@ -301,18 +302,19 @@ też polega na takim samym odczepieniu ciała:
 
 *(λ y . x + y)*
 
-i podstawieniu argumentu pod zmienną *x*, będącą (jedynym) parametrem zewnętrznej λ-abstrakcji. W
-ten sposób z ciała zewnętrznej λ-abstrakcji powstaje nowa wersja funkcji *(λ y . x + y)*, w której
-zamiast *x* jest *1* i cała początkowa aplikacja zostaje zredukowana do postaci:
+i podstawieniu argumentu pod zmienną *x*, będącą parametrem zewnętrznej λ-abstrakcji. W ten sposób z
+ciała zewnętrznej λ-abstrakcji powstaje nowa wersja funkcji *(λ y . x + y)*, w której zamiast *x*
+jest *1* i cała początkowa aplikacja zostaje zredukowana do postaci:
 
 *(λ y . 1 + y) 2*
 
-Ewaluacja jeszcze nie jest zakończona, bo jest co do czego aplikować (matematycy mówią, że jest tu
-jeszcze jakiś *redex*, czyli *reducible expression*). Znowu odczepiamy ciało:
+Ewaluacja jeszcze nie jest zakończona, bo jest co do czego aplikować. Matematycy mówią w takiej
+sytuacji, że jest tu jeszcze jakiś *redex* (to skrót od *reducible expression*). A więc znowu
+odczepiamy ciało:
 
 *1 + y* 
 
-i podstawiamy za zmienną-parametr *y* argument *2*:
+i jednocześnie podstawiamy za zmienną *y* argument *2*:
 
 *2 + 2*
 
@@ -324,7 +326,7 @@ nazwisko jest - na jego cześć - nazwą aż trzech różnych języków programo
 niebawem spotkamy.
 
 Pozostaje mi objaśnić *zapis typu* tej funkcji. Funkcja `plus` dobrze udaje zwyklą funkcję
-dwuargumentową dzięki temu, że ciało funkcji wewnętrznej jest przez (zewnętrzną) funkcję `plus`
+dwuargumentową dzięki temu, że ciało funkcji "wewnętrznej" jest przez "zewnętrzną" funkcję `plus`
 konstruowane z tego, co ta dostaje jako argument. To znowu tylko ilustracja:
 
 ```lean
@@ -397,11 +399,12 @@ def plus (pierwsza) (druga) := pierwsza + druga
 
 Skrótowy zapis jest bardzo wygodny i często właśnie takiego zapisu będziemy używać, ale na tym
 etapie jest ważne, żebyś wiedziała, co takie skróty oznaczają. Nie musisz sobie o tym przypominać za
-każdym razem, gdy definiujesz stałe albo ich używasz, ale w pewnych sytuacjach ta wiedza będzie
+każdym razem, gdy definiujesz stałe albo ich używasz, ale w pewnych sytuacjach ta wiedza będzie Ci
 potrzebna.
 
-Pokażę Ci jeszcze jak działa podawanie parametrów funkcji przed typem jej rezultatu. Na prywatny
-użytek nazywam to "przestawialnością dwukropka" w definicjach funkcji (ilustracja):
+Pokażę Ci jeszcze Lean interpretuje podawanie parametrów funkcji przed typem jej rezultatu, czyli
+przed "głównym" drukropkiem. Na prywatny użytek nazywam to "przestawialnością dwukropka" w
+definicjach funkcji (ilustracja):
 
 ```lean
 -- Ta definicja:
@@ -410,12 +413,12 @@ def plus (pierwsza : Nat) (druga : Nat) : Nat := pierwsza + druga
 def plus (pierwsza : Nat) : Nat → Nat := fun (druga : Nat) => pierwsza + druga
 -- i to samo, co ta:
 def plus : Nat → (Nat → Nat) := fun (pierwsza : Nat) => (fun (druga : Nat) => pierwsza + druga)
--- To tylko trzy różne sposoby zapisania definicji tej samej funkcji.
+-- To tylko trzy różne sposoby zapisania tej samej definicji.
 ```
 
 **Polecenie**: Stosując wygodny *skrótowy* zapis definicji funkcji, zdefiniuj funkcję `plusplus`,
-pobierającą *trzy* argumenty typu `Nat`, każdy o innej nazwie (muszą mieć inne nazwy) i dodającą je
-do siebie. Sprawdź typ zdefiniowanej w ten sposób stałej `plusplus` za pomocą komendy
+pobierającą *trzy* argumenty typu `Nat` - każdy o innej nazwie (muszą mieć inne nazwy) - i dodającą
+je do siebie. Sprawdź typ zdefiniowanej w ten sposób stałej `plusplus` za pomocą komendy
 `#check`. Zobaczysz wtedy po prawej jeszcze bardziej skrótowy sposób zapisu parametrów. Można tu
 użyć tego jeszcze bardziej skrótowego zapisu, bo sąsiadujące parametry funkcji `plusplus` mają ten
 sam typ i Lean może wywnioskować, o co chodzi, gdy tak to zapiszemy. Usuń więc definicję, którą
@@ -433,7 +436,7 @@ liczbę naturalną, tylko funkcję jednoargumentową, która do dowolnej liczby 
 ```lean
 -- To:
 plus 3
--- zgodnie z definicją plus jest tym samym co:
+-- zgodnie z definicją stałej plus jest tym samym co:
 (fun (pierwsza : Nat) => fun (druga : Nat) => pierwsza + druga) 3
 -- a plus 3 redukuje się (a więc też dla Leana *tym jest*) do:
 (fun (druga : Nat) => 3 + druga)
@@ -464,9 +467,9 @@ def dodaj3 : Nat → Nat := plus 3
 spróbuj zrobić coś podobnego jak to, co zrobiłem z częściową aplikacja funkcji `plus`, ale użyj do
 tego zdefiniowanej wcześniej przez siebie funkcji `plusplus`. Można to zrobić na wiele różnych
 sposobów, więc nie szukaj jakiegoś *jedynego* dobrego rozwiązania, bo takiego nie ma. Gdyby pojawił
-się błąd, przeczytaj komunikat i sprawdź, czy nie dostarcza Ci wskazówki, z której możesz
-skorzystać, żeby ten błąd usunąć. Jeżeli to polecenie okażę się za trudne, nie przejmuj się, przy
-odrobinie wytrwałości w końcu stanie się dziecinnie łatwe.
+się błąd, przeczytaj komunikat i sprawdź, czy nie dostarcza Ci wskazówki, dzięki której mogłabyś ten
+błąd usunąć. Jeżeli to polecenie okażę się za trudne, nie przejmuj się, po pewnym czasie stanie się
+dziecinnie łatwe.
 
 **Polecenie dla nadmiernie ambitnych**: Zdefiniuj i zastosuj funkcję, która pobiera dwa argumenty:
 
