@@ -53,36 +53,30 @@ ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
 [R2 Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
 
-[R3 Do *czego* autor zmierza?!](./rozdzialy/02_Cel.md)
+[R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
-[R4 Pierwszy spacerek po łączce matematyki (poradzenie sobie z tym zajęło moim studentom około 15
-minut)](./rozdzialy/Pierwszy_spacerek.md)
+[R4 Pierwszy spacerek po łączce matematyki](./rozdzialy/Pierwszy_spacerek.md)
 
-[R5 Polacy czytają na potęgę: Spacerek po Leanie, wersja
-pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
+[R5 Spacerek po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 
-[R6 Niektórzy mówią (a konkretnie nikt tak nie mówi), że to banger: Spacerek po Leanie, wersja
-druga](./rozdzialy/Spacerek_po_Leanie_2.md)
+[R6 Spacerek po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
 [R6 = R0](./rozdzialy/Ewaluacja.md)
 
-[R7 Tytuł nie zachęca, ale za to zawartość również nie zachęca: Być może nie wiesz, że już wiesz,
-czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym jest izomorfizm
-Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
+[R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
+jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
-[R8 Rozdział, w którym autor ulega kilkukrotnie nadmiernej ekscytacji: Logika na Leanie, pierwsze
-kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
+[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
 
-[R9 Nareszcie niedobór nadmiaru tekstu: Implikacja w
-zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
+[R9 Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
 
-[R10 Coś do poduszki: Predykaty, relacje, duży kwantyfikator i dowód na istnienie
+[R10 Predykaty, relacje, duży kwantyfikator i dowód na istnienie
 Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
-[R11 Jakiś żart przed dwukropkiem: Duży kwantyfikator i implikacja w
+[R11 Duży kwantyfikator i implikacja w
 zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
 
-[R12 Lubię to: Modus ponens, obliczenia w dwóch wymiarach i nieważność
+[R12 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R12 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
