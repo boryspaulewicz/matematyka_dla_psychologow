@@ -34,7 +34,7 @@ i czasem zaglądać do panelu po prawej.
 
 Błędy będą się pojawiać, ponieważ jesteś (zgaduję)
 [człowiekiem](https://www.youtube.com/watch?v=UVL186zzOXo). Gdy pojawi się błąd, Lean Cię o tym
-powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie literówka. Czasem
+powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie literówka. Czasami
 samo miejsce, w którym pojawi się czerwona falka, powie Ci, co należy zmienić, ale nie zawsze. W
 razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po prawej i spróbuj
 ustalić w czym problem.
@@ -54,6 +54,12 @@ To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=
 stała `dziesiec`. Każda stała ma jakiś *typ*. Stała dziesięć ma typ `Nat` (`: Nat`), czyli jest
 *liczbą naturalną*. *Ciało* tej definicji, czyli jej wartość albo treść, to liczba (a właściwie
 *term*) `10`.
+
+Będę czasem pisał tak, jakby fragment kodu taki jak `dziesiec : Nat` pełnił rolę *rzeczownika* - na
+przykład "stała `dziesiec : Nat` jest ..." to będzie inny sposób, żeby powiedzieć "stała `dziesiec`
+o typie `Nat` jest ..." - albo *zdania*, na przykład "Jeżeli `dziesiec : Nat` ..."  to będzie inny
+sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu przypadkach właściwa
+interpretacja będzie wynikała z kontekstu.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`. Musisz tylko skorzystać
 z `dziesiec` jako z przykładu, zamieniając dwa elementy tej definicji - nazwę stałej i jej
