@@ -77,6 +77,8 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R14 ∧](./rozdzialy/Koniunkcja.md)
 
+[R15 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
+
 W planach: Sekcja zwłok, studium przypadku
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
