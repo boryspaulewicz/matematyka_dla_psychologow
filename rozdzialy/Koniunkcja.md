@@ -1,4 +1,4 @@
-# Koniunkcja zdań
+# ∧
 
 Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji zawartych w rozdziałach
 wcześniejszych. Jeżeli to jest na razie zbyt trudne, to oparte na różnych punktach widzenia,
