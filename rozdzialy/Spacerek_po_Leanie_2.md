@@ -497,7 +497,7 @@ nawiasami:
 
 ## Curry(ing)
 
-**W Lean nie ma funkcji "prawdziwie" dwuargumentowych**: Funkcja `suma` *wygląda* jak funkcja
+**W Leanie nie ma funkcji "prawdziwie" dwuargumentowych**: Funkcja `suma` *wygląda* jak funkcja
 dwuargumentowa, ale tak naprawdę *nie* jest dwuargumentowa. Jest funkcją jednoargumentową, *która
 zwraca funkcję jednoargumentową*, która dopiero dodaje parametr tej pierwszej funkcji do swojego
 jedynego parametru. Nie wiem, jak to brzmi, ale jeśli to brzmi, tak jak mi się zdaje, to może
