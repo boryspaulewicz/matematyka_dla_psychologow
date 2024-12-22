@@ -20,7 +20,7 @@ prawdziwą rewolucją, dlatego że pozwala *wiernie przetłumaczyć* dowolny pro
 odpowiadający mu problem liczbowy czy analityczny. To jest wierne tłumacznie w tym znaczeniu, że nie
 tracimy wtedy ani nie zniekształcamy żadnych własności problemu geometrycznego. Takie sposoby
 wiernego tłumaczenia *w obie strony* nazywamy w matematyce właśnie (zachowującymi strukturę)
-*izomorfizmami*. To słowo jest połączeniem dwóch starogreckich słów, ἴσος czyli taki sam i μορφή
+*izomorfizmami*. To słowo jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki sam i *μορφή*
 czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny alfabet, kilka
 różnych rodzajów akcentów i liczbę podwójną. Na właną rękę uczyłem się go kiedyś przez rok w liceum,
 to wiem (tak, bywałem wtedy do bólu pretensjonalny).
