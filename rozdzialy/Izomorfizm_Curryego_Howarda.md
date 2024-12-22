@@ -138,15 +138,15 @@ korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowujący str
 właśnie pewien rodzaj doskonałej analogii.
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
-kartezjański, tylko na znacznie wyższym poziomie ogólności. Żeby zacząć przygodę z tym izomorfizmem,
-trzeba tylko ćwiczyć przełączanie się między dwoma, dobrze określonymi, ale początkowo z
-konieczności trochę obcymi sposobami patrzenia na *typy*. Być może jedną z głównych trudności
-pojawiających się początkowo podczas uczenia się tego podejścia jest to, że matematyka "rozgrywa
-się" wtedy czy może "istnieje" właśnie głównie na poziomie typów. Gdy już jednak zdążysz się z tym
-choć trochę oswoić, Twoja zdolność do rozumienia treści matematycznych albo "matematyzacji"
-problemów czy pojęć, które same z siebie nie mają jeszcze matematycznego charakteru, zacznie się
-moim zdaniem rozwijać znacznie szybciej, niż gdybyś próbowała ją rozwijać w bardziej tradycyjny
-sposób.
+kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
+meta-matematycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko ćwiczyć przełączanie się
+między dwoma, dobrze określonymi, ale początkowo z konieczności trochę obcymi sposobami patrzenia na
+*typy*. Być może jedną z głównych trudności pojawiających się początkowo podczas uczenia się tego
+podejścia jest to, że matematyka "rozgrywa się" wtedy czy może "istnieje" właśnie głównie na
+poziomie typów. Gdy już jednak zdążysz się z tym choć trochę oswoić, Twoja zdolność do rozumienia
+treści matematycznych albo "matematyzacji" problemów czy pojęć, które same z siebie nie mają jeszcze
+matematycznego charakteru, zacznie się moim zdaniem rozwijać znacznie szybciej, niż gdybyś próbowała
+ją rozwijać w bardziej tradycyjny sposób.
 
 Próbując zrozumieć, o czym jest następny rozdział, uruchomisz proces zasadniczo taki sam, jak ten
 dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem wydawały Ci się
