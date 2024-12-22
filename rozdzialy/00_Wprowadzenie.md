@@ -11,8 +11,8 @@ dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, dlatego wprowadzi³em kilka zmian i poprawion±
-wersjê da³em doktorantom, którzy chodzili wtedy na mój kurs dotycz±cy wnioskowania bayesowskiego i
-przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) czê¶æ studentów wykona³a poprawnie zadanie, a
+wersjê da³em doktorantom, którzy chodzili wtedy na moje zajêcia dotycz±ce wnioskowania bayesowskiego
+i przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) czê¶æ studentów wykona³a poprawnie zadanie, a
 kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
 
 Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal poprawiaj±c i rozwijaj±c
@@ -22,13 +22,13 @@ angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma
 aby przekonaæ siê, w jakim stopniu siê co¶ umie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu
 tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
 przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
-okaza³a siê wtedy dla mnie do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê,
-wcze¶niej pisz±c kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie
-pozwolono mi przekroczyæ limit znaków o, jak by to uj±æ, bardzo wiele znaków. Nie jest to chyba mój
-najgorszy tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448) nawet
-Pearlowi, który raczej nie prawi chêtnie komplementów na temat tego typu artyku³ów. Czy teraz bym w
-tym artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje siê, ¿e
-odbiegam od tematu.
+okaza³a siê wtedy do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê, wcze¶niej pisz±c
+kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie pozwolono mi
+przekroczyæ limit znaków o, jak by to uj±æ, bardzo wiele znaków. Nie jest to chyba mój najgorszy
+tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448) nawet Pearlowi,
+który raczej nie prawi chêtnie komplementów na temat tego typu artyku³ów. Czy teraz bym w tym
+artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje siê, ¿e odbiegam od
+tematu.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o

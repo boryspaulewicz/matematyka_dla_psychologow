@@ -50,9 +50,9 @@ Naprawdê uwa¿am, ¿e zdolno¶æ do tymczasowego st³umienia w sobie potrzeby sensu b
 korzystna, a czasem wrêcz nieodzowna w nauce matematyki. Od kilku lat prowadzê na Uniwersytecie
 Jagielloñskim dwusemestralny kurs dla doktorantów dotycz±cy wnioskowania przyczynowego i
 bayesowskiego. Bez przesady mogê powiedzieæ, ¿e na ten kurs trafiaj± nieodmiennie wymarzeni wprost
-studenci, tacy, którzy wydaj± mi siê czêsto autentycznie zainteresowane poszerzaniem swojej
+studenci, tacy, którzy wydaj± mi siê czêsto autentycznie zainteresowani poszerzaniem swojej
 wiedzy. Prêdzej czy pó¼niej zaczynam na tym kursie mówiæ o twierdzeniu Bayesa, ale od niedawna robiê
-to inaczej. 
+to inaczej.
 
 Przedtem poprzedza³em wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiada³em
 uczestnikom, ¿e zaraz bêd± sami go dowodziæ, zauwa¿a³em u wielu z nich objawy lekkiej
