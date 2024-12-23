@@ -47,7 +47,8 @@ do końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprze
 następnie to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad
 *zewnętrznymi* źródłami tego rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a
 szkoda, bo przecież im więcej punktów widzenia bierze udział w tego rodzaju procesie i im bardziej
-te punkty widzenia są różne, tym większa jest szansa na przybliżenie czegoś uniwersalnie dobrego.
+te punkty widzenia są różne, tym większa jest szansa na przybliżenie czegoś uniwersalnie
+dobrego.
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
