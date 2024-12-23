@@ -40,11 +40,14 @@ W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem ksi�
 tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje zwrotne
 pochodzące od czytelników, bo zachowania ludzi są zwykle w mniejszym lub większym stopniu czymś, co
 tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera dzięki takim interakcjom
-(również nieunikalnego) sensu. Na przykład, to konkretne zdanie powstało jako rezultat interakcji
-wielu bardzo sobie bliskich, mających bardzo wiele wspólnych cech, ale jednak różnych osób, bo
-różnych wersji tej samej osoby, z których każda istniała tylko przez chwilę i wniosła coś do
-końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje). Nad
-zewnętrznymi źródłami informacji zwrotnych mam jednak bardzo ograniczoną kontrolę.
+(również nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji
+wielu bardzo sobie bliskich, mających wiele wspólnych cech, ale jednak nieco *różnych* osób, bo
+*różnych wersji* tej samej osoby, z których każda istniała tylko przez chwilę i wniosła coś do
+końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje) i to, co w
+ten sposób powstało lub uległo przekształceniu przekazując dalej. Nad *zewnętrznymi* źródłami tego
+rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież im więcej
+punktów widzenia bierze udział w tego rodzaju procesie i im bardziej te punkty widzenia są różne,
+tym większa jest szansa na przybliżenie czegoś uniwersalnie dobrego.
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
