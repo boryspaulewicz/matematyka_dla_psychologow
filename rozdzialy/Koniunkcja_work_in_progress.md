@@ -32,8 +32,8 @@ bezpośrednio lub wprost wyrażonych tam asercji.
 
 Jeżeli każdy taki fragment prozy to punkt, a strzałka od punktu `A` do punktu `B` oznacza, że z `A`
 wynika (jakoś) `B`, to z każdego fragmentu prozy, który wyraża bezpośrednio lub pośrednio asercje
-`p` i `q` będą wychodziły strzałki do punktów `p` i `q`, czyli fragmentów prozy złożonych z samych
-wyrażonych wprost asercji zdań *jest wtorek* i *pada deszcz* odpowiednio.
+`p` i `q` będą wychodziły strzałki do punktów `p` i `q`, czyli do fragmentów prozy złożonych z
+samych (albo "czystych") wyrażonych wprost asercji zdań *jest wtorek* i *pada deszcz* odpowiednio.
 
 Fragment prozy *Jest wtorek i pada deszcz* będzie wtedy "najczystszym fragmentem prozy wyrażającym
 łącznie asercje `p` i `q`". Samo to jest oczywiste i nie widać od razu, po co w tak zawiły sposób o tym
@@ -53,12 +53,13 @@ diagramu i to już jest fajne, ale można też z tym zrobić coś jeszcze fajnie
 zobaczyć (przynajmniej oczyma wyobraźni, bo nie planuję tu na razie robić interaktywnych
 wizualizacji 3d), że *kolejność ramion*, a więc też *kolejność zdań w koniunkcji nie ma tak naprawdę
 znaczenia* i wynika tylko z tego, że "mówimy" o koniunkcjach za pomocą szeregów symboli, czyli
-pisząc w standardowy sposób ("linearny") *tekst* w języku naturalnym albo formalnym. Przecież gdy
-uniesiemy całą strukturę - fragmentów prozy lub zdań (jako punktów) i połączeń kierunkowych
-wyrażających relację wynikania - do przestrzeni trójwymiarowej, a potem zaczniemy tą strukturą
-dowolnie obracać, to to będzie cały czas *ta sama struktura*. A więc kolejność członów koniunkcji
-czy kolejność członów dowolnego produktu to w pewnym sensie artefakt wynikający z ograniczeń sposobu
-zapisu.
+pisząc w standardowy sposób ("linearny") *tekst* w języku naturalnym albo formalnym *na
+płaszczyźnie*. Przecież gdy uniesiemy całą strukturę - fragmentów prozy lub zdań (jako punktów) i
+połączeń kierunkowych wyrażających relację wynikania - do przestrzeni trójwymiarowej, a potem
+zaczniemy tą strukturą dowolnie obracać, to to będzie cały czas *ta sama struktura*, ale wtedy już
+*nie będzie się dało zobaczyć żadnej uprzywilejowanej kolejności ramion / członów koniunkcji*. A
+więc kolejność członów koniunkcji czy kolejność członów dowolnego produktu to w pewnym sensie
+*artefakt wynikający z ograniczeń sposobu zapisu*.
 
 To bycie najlepszym rozwidielniem danego rodzaju jest pojęciem teorio-kategorialnym (czy
 kategoryjnym) - to jest po prostu kategoryjny produkt. Łatwo wykazać, że koniunkcja `p ∧ q`, czyli,
