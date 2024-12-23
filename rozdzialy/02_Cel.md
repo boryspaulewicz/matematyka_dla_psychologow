@@ -137,7 +137,7 @@ zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obs
 cel będę traktował jako własność *względną*. Brzmi to może abstrakcyjnie, ale chodzi tu w istocie o
 tak przyziemne sprawy jak fakt, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
 "tak nie wolno" albo "nie wypada", nieuchronnie odnosimy się do takiej preferencji, niekoniecznie
-traktując ją wtedy jak swoją (albo tylko swoją). A tak przy okazji, załóżmy, że właśnie pada
+traktując ją wtedy jak swoją (albo tylko swoją). A tak przy okazji, załóżmy, że w tej chwili pada
 deszcz. Co byś mogła *zrobić*, żeby nie padało?
 
 Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
