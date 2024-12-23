@@ -18,7 +18,7 @@ szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdzies
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
 Pierwsze trzy rozdziały mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów
-kodu ani żadnych zadań, to polecam je przynajmniej przejżeć. Można tam znaleźć nie tylko oparte na
+kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na
 wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto moim zdaniem
 podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*, które może
 znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi, jak na książkę skierowaną
