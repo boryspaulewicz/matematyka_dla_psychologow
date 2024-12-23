@@ -40,7 +40,22 @@ razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panel
 ustalić w czym problem.
 
 Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że warto, żebyś przed czytaniem
-szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań.
+szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak spróbuję najpierw
+czegoś trochę innego.
+
+**Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest zaprojektowanie
+nowego języka, który pozwalałby w jednoznaczny, zwięzły i zarazem możliwie czytelny sposób zapisywać
+dowolne definicje. Zależałoby Ci przy tym na ujawnianiu informacji, które pozwalałyby jednoznacznie
+określić, jakie operacje z użyciem definiowanej stałej mają, a jakie nie mają sensu. I jeszcze
+zależało by Ci, żeby nie używać do tego symbolu równości (*=*), bo ten musi być zarezerwowany do
+całkiem innych celów.
+
+Przydałoby się wtedy jakieś zarezerwowane, krótkie *słowo kluczowe*, na przykład `def`, bo takie
+słowo kluczowe od razu kojarzy się ze słowem *definicja*. Niezbędne byłoby też oznaczenie rodzaju
+albo typu stałej, który sygnalizowałby, że pewne operacje na tej stałej mają lub nie mają sensu i
+nie byłoby chyba źle, gdyby taki zapis kojarzył się z naklejeniem na coś w sklepie
+etykietki. Wreszcie byłoby wskazane, gdyby symbol oznaczający bycie treścią albo ciałem definicji
+przypominał ten, którego używa się w tym celu w matematyce albo informatyce.
 
 **Polecenie**: Wklej do Leana poniższy fragment kodu. Możesz wkleić go do schowka klikając na dwa
 małe kwadraty, które widać po prawej stronie.
@@ -121,7 +136,32 @@ procedury obliczeniowe, które już "coś zrobić" mogą. Żeby stworzyć defini
 podawać ich typ (inaczej jawnie typować), tak jak wcześniej wprost napisaliśmy, że stała `dziesiec`
 ma typ `Nat` (`dziesiec : Nat`).
 
-Typ funkcyjny (inaczej typ funkcji) poznasz po tym, że ma co najmniej jedną *strzałkę*.
+**Uczenie się przez wcielenie się w rolę**: Wyobraź sobie, że masz zaprojektować również składnię,
+która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji* rozumianych jako
+efektywne procedury obliczeniowe albo po prostu programy. Skoro definicje zapisujemy za pomocą słowa
+kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa kluczowego `fun`. Funkcje rozumiane
+jako programy mają być, cóż, jak programy, ale chcemy również, żeby przypominały również funkcje
+rozumiane tak, jak się je rozumie w matematyce. "Funkcje matematyczne" są najczęściej rozumiane jako
+coś, co każdemu elementowi zbioru nazywanego dziedziną funkcji przyporządkowują dokładnie jeden
+element zbioru nazywanego przeciwdziedziną. Na przykład, (matematyczna) funkcja kwadratowa ze zbioru
+liczb rzeczywistych (będącego jej dziedziną) do zbioru liczb rzeczywistych (jak również jej
+przeciwdziedziną) każdej liczbie *x* przyporządkowuje (dokładnie jedną) wartość *x \* x*.
+
+Ponieważ to ma być jednak funkcja rozumiana jako program, chciałabyś też pewnie, żeby sposób jej
+zapisu kojarzył się łatwo z *procesem przekształcania* i chciałabyś też, żeby dało się w tym zapisie
+wyrazić (odpowiadający pojęciu dziedziny) wymagany typ jej argumentu. Co byś wtedy powiedziała na
+to?:
+
+```lean
+-- Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
+fun (n : Nat) => n * n
+```
+
+Jeżeli taki fragment kodu ma być w projektowanym przez Ciebie języku poprawny, to pozostaje jeszcze
+kwestia sposobu zapisywania typów tego rodzaju wyrażeń czy struktur. Zgodzisz się chyba, że
+naturalnie byłoby oznaczać takie typy w sposób, który mówi o tym, jaki jest typ argumentu i o tym,
+jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania albo
+przyporządkowywania.
 
 **Polecenie**: Żeby wpisać w Leanie strzałkę napisz `\to` i ulegnij olśnieniu. Gdy już ochłoniesz,
 usuń tą strzałkę, bo sama strzałka nie jest jeszcze poprawnym fragmentem kodu.

@@ -34,11 +34,17 @@ aktem zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskaza�
 procesu. Jest w dodatku aktem *w ramach którego*, dzięki stałej autorefleksji, zachodzi proces
 *uczenia się*, choć trudno powiedzieć czego, a także proces *odkrywania* czy raczej ustalania się
 być może jakiegoś *dominującego*, ale nadal z konieczności *nieunikalnego celu*. Można więc
-powiedzieć krótko, że w trakcie pisania wyłania się nieunikalne zachowanie. Byłoby wskazane, gdyby
-ten proces zaczął być regulowany przez informacje zwrotne pochodzące od czytelników, bo zachowania
-ludzi są zwykle w mniejszym lub większym stopniu czymś, co tworzy się w ramach tego rodzaju
-społecznych interakcji i co nabiera dzięki takim interakcjom (również nieunikalnego) sensu, ale nad
-tym mam dosyć ograniczoną kontrolę.
+powiedzieć krótko, że w trakcie pisania wyłania się nieunikalne zachowanie. 
+
+W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem książki a napisaniem tylko
+tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje zwrotne
+pochodzące od czytelników, bo zachowania ludzi są zwykle w mniejszym lub większym stopniu czymś, co
+tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera dzięki takim interakcjom
+(również nieunikalnego) sensu. Na przykład, to konkretne zdanie powstało jako rezultat interakcji
+wielu bardzo sobie bliskich, mających bardzo wiele wspólnych cech, ale jednak różnych osób, bo
+różnych wersji tej samej osoby, z których każda istniała tylko przez chwilę i wniosła coś do
+końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje). Nad
+zewnętrznymi źródłami takich informacji zwrotnych mam jednak bardzo ograniczoną kontrolę.
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
