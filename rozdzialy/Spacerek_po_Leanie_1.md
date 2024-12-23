@@ -45,17 +45,16 @@ czegoś trochę innego.
 
 **Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest zaprojektowanie
 nowego języka, który pozwalałby w jednoznaczny, zwięzły i zarazem możliwie czytelny sposób zapisywać
-dowolne definicje. Zależałoby Ci przy tym na ujawnianiu informacji, które pozwalałyby jednoznacznie
-określić, jakie operacje z użyciem definiowanej stałej mają, a jakie nie mają sensu. I jeszcze
-zależało by Ci, żeby nie używać do tego symbolu równości (*=*), bo ten musi być zarezerwowany do
-całkiem innych celów.
+różne definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu w jakiś sposób informacji, która
+pozwalałaby jednoznacznie określić, jakie operacje z użyciem definiowanych stałych mają sens. Byłoby
+też wskazane, żeby nie używać do tego symbolu równości (*=*), bo ten mógłby się jeszcze później
+przydać do całkiem innych celów.
 
-Przydałoby się wtedy jakieś zarezerwowane, krótkie *słowo kluczowe*, na przykład `def`, bo takie
-słowo kluczowe od razu kojarzy się ze słowem *definicja*. Niezbędne byłoby też oznaczenie rodzaju
-albo typu stałej, który sygnalizowałby, że pewne operacje na tej stałej mają lub nie mają sensu i
-nie byłoby chyba źle, gdyby taki zapis kojarzył się z naklejeniem na coś w sklepie
-etykietki. Wreszcie byłoby wskazane, gdyby symbol oznaczający bycie treścią albo ciałem definicji
-przypominał ten, którego używa się w tym celu w matematyce albo informatyce.
+Przydałoby się zatem jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
+takie kojarzy się od razu ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
+operacjach, które można wykonywać z użyciem danej stałej kojarzył się z naklejeniem na coś w sklepie
+etykietki. A najlepiej, żeby symbol oznaczający bycie treścią albo ciałem definicji przypominał
+taki, którego często używa się w tym celu w matematyce albo w informatyce.
 
 **Polecenie**: Wklej do Leana poniższy fragment kodu. Możesz wkleić go do schowka klikając na dwa
 małe kwadraty, które widać po prawej stronie.
@@ -141,25 +140,25 @@ składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać 
 rozumianych jako efektywne procedury obliczeniowe albo po prostu programy. Skoro definicje
 zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa kluczowego
 `fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również, żeby
-przypominały funkcje rozumiane tak, jak się je rozumie w matematyce. "Funkcje matematyczne" są
-często rozumiane jako coś, co każdemu elementowi zbioru nazywanego *dziedziną funkcji*
-przyporządkowują dokładnie jeden element zbioru nazywanego jej *przeciwdziedziną*. Na przykład,
-(matematyczna) funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do
-zbioru liczb rzeczywistych (... jak również jej przeciwdziedziną) każdej liczbie *x*
-przyporządkowuje (dokładnie jedną) wartość *x \* x*.
+przypominały funkcje rozumiane tak, jak się je rozumie w matematyce. 
+
+"Funkcje matematyczne" są często rozumiane jako "obiekty", które każdemu elementowi zbioru
+nazywanego *dziedziną funkcji* przyporządkowują dokładnie jeden element zbioru nazywanego jej
+*przeciwdziedziną*. Na przykład, (matematyczna) funkcja kwadratowa ze zbioru liczb rzeczywistych
+(będącego jej dziedziną ...) do zbioru liczb rzeczywistych (... jak również jej przeciwdziedziną)
+każdej liczbie *x* przyporządkowuje (dokładnie jedną) wartość daną przez wyrażenie *x \* x*.
 
 Ponieważ to ma być jednak funkcja rozumiana jako program, chciałabyś też pewnie, żeby sposób jej
 zapisu kojarzył się łatwo z *procesem przekształcania* i chciałabyś też może, żeby dało się w tym
-zapisie wyrazić (odpowiadający pojęciu dziedziny) wymagany typ jej argumentu. Co byś wtedy
-powiedziała na to?:
+zapisie wyrazić (odpowiadający pojęciu dziedziny) wymagany typ jej argumentu. No to co byś wtedy
+powiedziała na to? (bo ja byłbym skłonny nawet stwierdzić, że nie da się tego zrobić lepiej):
 
 ```lean
 -- Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
 fun (n : Nat) => n * n
 ```
 
-Jeżeli taki fragment kodu ma być w projektowanym przez Ciebie języku poprawny, to pozostaje jeszcze
-kwestia sposobu zapisywania typów tego rodzaju wyrażeń czy struktur. Zgodzisz się chyba, że
+Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń. Zgodzisz się chyba, że
 naturalnie byłoby oznaczać takie typy w sposób, który mówi o tym, jaki jest typ argumentu i o tym,
 jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania i
 przyporządkowywania.

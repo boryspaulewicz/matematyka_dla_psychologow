@@ -50,6 +50,12 @@ szkoda, bo przecież im więcej punktów widzenia bierze udział w tego rodzaju 
 te punkty widzenia są różne, tym większa jest szansa na przybliżenie czegoś uniwersalnie
 dobrego.
 
+Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
+jestem Tobą, ale niezależnie od tego, czy tak dla Ciebie brzmią, czy nie, na zachętę zostawię tu na
+razie w postaci dyndającej (ang. *dangling*) następujące pytanie: Jak by to wszystko brzmiało, gdyby
+się okazało, że da się tego rodzaju obserwacje zapisać bez znaczącej utraty ich treści w języku
+formalnym i dzięki temu przekonać się, że są właściwie *płytkie*?
+
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
 tematem. I w przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za co.
