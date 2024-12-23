@@ -50,8 +50,7 @@ i wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drod
 
 Funkcje mogą przekształcać termy dowolnego typu, w tym również dowolne typy, w termy dowolnego typu,
 w tym również dowolne typy. Typy pojawiające się później w specyfikacji typu funkcji mogą zależeć od
-parametru, który pojawił się wcześniej, tak jak to ma miejsce w przypadku typu funkcji
-`identycznosc`.
+parametru, który pojawił się wcześniej, tak jak w przypadku typu funkcji `identycznosc`.
 
 Na tej podstawie można zbudować całą matematykę i za pomocą tego języka można zapisać w stosunkowo
 naturalny sposób matematyczne teorie.
