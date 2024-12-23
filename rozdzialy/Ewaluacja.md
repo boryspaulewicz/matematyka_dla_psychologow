@@ -57,4 +57,5 @@ naturalny sposób matematyczne teorie.
 
 Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i wszystko, co da się powiedzieć
 jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co zostało zapisane w języku
-teorii typów, można sprawdzić za pomocą algorytmu.
+teorii typów, można sprawdzić za pomocą algorytmu i jeśli zapis jest poprawny, zredukować do
+najprostszej możliwej i zarazem unikalnej takiej postaci.
