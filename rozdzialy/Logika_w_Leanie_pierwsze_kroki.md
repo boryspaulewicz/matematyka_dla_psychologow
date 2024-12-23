@@ -230,16 +230,17 @@ Co więc wyróżnia język matematyki, poza *relatywną sztucznością*, która 
 Nie jestem pewien, ale gdybym miał zgadywać, powiedziałbym, że jest to *jednoznaczność i sztywność
 reguł użycia*, ale tylko *formalnego*, czyli takiego mechanicznego albo nawet "bezmyślnego". I
 jeszcze to, że chociaż pojęcia matematyczne często mają genezę w pojęciach często używanych w języku
-naturalnym, to zwykle stanowią ich wersję bardzo uproszczoną do kilku dobrze określonych
-właściwości. Te są wyrażane czasem jako *aksjomaty*, czyli podawane bez uzasadnienia formalnego, a
-więc *bez dowodu* (za to zwykle z uzasadnieniem w języku naturalnym) *konwencje dotyczące
-dopuszczalnych sposobów używania pojęć*.
+naturalnym, to zwykle stanowią ich wersję "usztywnioną" i zwykle uproszczoną do kilku dobrze
+określonych właściwości. Te są wyrażane czasem jako *aksjomaty*, czyli podawane bez uzasadnienia
+formalnego, a więc *bez dowodu* (za to zwykle z uzasadnieniem w języku naturalnym) *konwencje
+określające dopuszczalne sposoby używania pewnych słów albo wyrażeń*.
 
 W ten sposób - odzierając pojęcia (na przykład, pojęcie zdania, prawdy, fałszu, prawdopodobieństwa,
-czy wpływu) ze zbędnych dla dobrze określonych celów znaczeń (w przypadku pojęć zdania, prawdy i
-fałszu - dla celu analizy w pewien techniczny sposób rozumianej poprawności rozumowań), uzyskujemy
-całkowitą sztywność reguł użycia i wysoki poziom abstrakcji. Sztywność reguł pozwala na mechaniczną
-weryfikację wyrażeń, w tym poprawności dowodów, a abstrakcyjność daje ogólność zastosowań.
+czy wpływu) ze zbędnej dla dobrze określonych celów elastyczności użycia (w przypadku pojęć zdania,
+prawdy i fałszu - dla celu analizy w pewien techniczny sposób rozumianej poprawności rozumowań),
+uzyskujemy całkowitą sztywność reguł i wysoki poziom abstrakcji. Sztywność reguł pozwala na
+mechaniczną weryfikację wyrażeń, w tym poprawności dowodów, a abstrakcyjność daje ogólność
+zastosowań.
 
 **Terminologia logiczna**: Mówiąc krótko, jeżeli *A* i *B* to zdania, to *A → B* to zdanie, które
 czytamy jako *Jeżeli A, to B*. A teraz nie całkiem krótko: Zawsze, gdy mamy jakieś dwa,
