@@ -28,26 +28,26 @@ lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [roz
 
 Piszę tą książkę w taki a nie inny sposób, to jest posyłając czasem mniejsze a czasami większe
 zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka,
-razem z historią zachodzących zmian, może być ilustracją sposobu, w jaki zacząłem ostatnio o
-zachowaniu myśleć. Akt pisania książki jest jednym długim, ale jednak w pewnym sensie pojedynczym
-aktem zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego
-procesu. Jest w dodatku aktem *w ramach którego*, dzięki stałej autorefleksji, zachodzi proces
-*uczenia się*, choć trudno powiedzieć czego, a także proces *odkrywania* czy raczej ustalania się
-być może jakiegoś *dominującego*, ale nadal z konieczności *nieunikalnego celu*. Można więc
-powiedzieć krótko, że w trakcie pisania wyłania się nieunikalne zachowanie. 
+razem z historią zachodzących zmian, może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
+tym czym jest zachowanie. Akt pisania książki jest przecież co prawda długim, ale jednak w pewnym
+sensie pojedynczym aktem zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskazać
+początek i koniec tego procesu. Jest w dodatku aktem *w ramach którego*, dzięki stałej
+autorefleksji, zachodzi proces *uczenia się*, choć nie da się powiedzieć jednoznacznie czego, a
+także procesem *odkrywania* czy raczej ustalania się być może jakiegoś *dominującego*, ale nadal z
+konieczności *nieunikalnego celu*.
 
-W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem książki a napisaniem tylko
-tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje zwrotne
-pochodzące od czytelników, bo zachowania ludzi są zwykle w mniejszym lub większym stopniu czymś, co
-tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera dzięki takim interakcjom
-(również nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji
-wielu bardzo sobie bliskich, mających wiele wspólnych cech, ale jednak nieco *różnych* osób, bo
-*różnych wersji* tej samej osoby, z których każda istniała tylko przez chwilę i wniosła coś do
-końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje) i to, co w
-ten sposób powstało lub uległo przekształceniu przekazując dalej. Nad *zewnętrznymi* źródłami tego
-rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież im więcej
-punktów widzenia bierze udział w tego rodzaju procesie i im bardziej te punkty widzenia są różne,
-tym większa jest szansa na przybliżenie czegoś uniwersalnie dobrego.
+W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem książki a napisaniem na
+przykład tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje
+zwrotne pochodzące od czytelników, bo zachowania ludzi są zwykle w mniejszym lub większym stopniu
+czymś, co tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera dzięki takim
+interakcjom (również nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat
+interakcji wielu bardzo sobie bliskich, bo mających wiele wspólnych cech, ale jednak nieco *różnych*
+osób, bo *różnych wersji tej samej osoby*, z których każda istniała tylko przez chwilę i wniosła coś
+do końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a
+następnie to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad
+*zewnętrznymi* źródłami tego rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a
+szkoda, bo przecież im więcej punktów widzenia bierze udział w tego rodzaju procesie i im bardziej
+te punkty widzenia są różne, tym większa jest szansa na przybliżenie czegoś uniwersalnie dobrego.
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
