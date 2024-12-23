@@ -134,10 +134,15 @@ zewnętrznego obserwatora*.
 Podkreślam, że cel jest zgodnie z tym punktem widzenia własnością *pary* złożonej z obserwatora, w
 dodatku hipotetycznego, a także przedmiotu jego obserwacji, a nie na przykład własnością samego
 zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obserwowane. To znaczy, że
-cel będę traktował jako własność *względną*. Od niedawna nazywam ten punkt widzenia *funkcjonalizmem
-zewnętrznym* albo - z pozoru paradoksalnie - *funkcjonalizmem obiektywnym*. Zewnętrzny obserwator
-ostatecznie zniknie nam z pola widzenia, ale w formalnej definicji zadania pozostanie nadal jego
-cień. Dojdziemy również do takiego wniosku:
+cel będę traktował jako własność *względną*. Brzmi to może abstrakcyjnie, ale chodzi tu w istocie o
+tak przyziemne sprawy jak fakt, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
+"tak nie wolno" albo "nie wypada", nieuchronnie odnosimy się do takiej preferencji, niekoniecznie
+traktując ją wtedy jak swoją (albo tylko swoją). A tak przy okazji, załóżmy, że właśnie pada
+deszcz. Co byś mogła *zrobić*, żeby nie padało?
+
+Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
+*funkcjonalizmem obiektywnym*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia, ale w
+formalnej definicji zadania pozostanie nadal jego cień. Dojdziemy również do takiego wniosku:
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
