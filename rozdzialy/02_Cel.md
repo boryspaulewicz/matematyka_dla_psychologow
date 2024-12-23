@@ -166,7 +166,7 @@ Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *se
 psychologicznego. Na przykład, często używana w psychometrii α Cronbacha jest zwykle interpretowana
 jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko jednej zmiennej
 nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią wnioskwania przyczynowego
-można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna. Ten wskaźnik ma jednak
+można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna. Ten sam wskaźnik ma jednak
 zarazem oczywisty sens z perspektywy zadanio-centrycznej - ponieważ α Cronbacha to nic innego, jak
 miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są ze sobą skorelowane, to ponieważ
 pozycje testowe są zawsze blisko związane treściowo, można tą miarę interpretować jako pewien
