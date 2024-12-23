@@ -48,10 +48,10 @@ def identycznosc (typ : Type) (a : typ) : typ := a
 ```
 
 **Czytamy to**: Funkcja `identycznosc` dla dowolnego typu (`(typ : Type)`) i dowolnego argumentu
-*tego* typu (`(a : typ)`) zwraca ten argument.
+*tego* typu (`(a : typ)`) zwraca *ten* argument.
 
 Spróbuj teraz zobaczyć, że to, co widać niżej, to prawie to samo, co widać wyżej, w definicji stałej
-`identycznosc'`, tylko:
+`identycznosc'`, tylko że:
 
 - Zamiast słowa kluczowego `def` pojawia się `theorem`, czyli *twierdzenie*, które dla Leana oznacza
 *prawie* to samo, co `def`.
@@ -70,14 +70,14 @@ theorem tautologia (jakies_zdanie : Prop) : jakies_zdanie → jakies_zdanie :=
 Jeżeli Ci się to udało, to całkiem możliwe, że udało Ci się dzięki temu, że nie próbowałaś za bardzo
 "utrzymać świadomego rozumienia" tego, co robiłaś wykonując polecenie. A może jednak nie? Mogę tylko
 zgadywać. Tak czy inaczej, nie wiedząc o tym jeszcze (chyba, że czytasz to ponownie), właśnie
-stworzyłaś w Leanie swój pierwszy *dowód twierdzenia matematycznego*. Już wyjaśniam.
+stworzyłaś w Leanie swój pierwszy *dowód twierdzenia matematycznego*.
 
 ## Typy to też termy, a zdania to jednocześnie termy typu Prop i typy, których termy są ich dowodami. Co?
 
-Najpierw muszę Ci powiedzieć o *hierarchii typów*. Jak wiesz, stała `2` jest termem typu
-`Nat`. Zapis `2 : Nat` ma dla Leana sens, bo `Nat` jest również pewną, znaną od razu Leanowi
-stałą. W teorii typów, której używamy w Leanie, *każdy typ* (na przykład typy `Nat` i `Type`) *jest
-również termem*, ale *typu ogólniejszego* inaczej *wyższego* (na przykład `Type : Type 1`), i tak w
+Muszę Ci teraz powiedzieć o *hierarchii typów*. Jak wiesz, stała `2` jest termem typu `Nat`. Zapis
+`2 : Nat` ma dla Leana sens, bo `Nat` jest również pewną, znaną od razu Leanowi stałą. W teorii
+typów, której używamy w Leanie, *każdy typ* (na przykład typy `Nat` i `Type`) *jest również termem*,
+ale *typu ogólniejszego* inaczej *wyższego* (na przykład `Type : Type 1`), i tak w
 nieskończoność[^1]:
 
 ```lean
@@ -86,7 +86,8 @@ nieskończoność[^1]:
 
 -- Nat to typ i jednocześnie term ogólniejszego typu, który nazywa się Type. Chciałoby się zapisać:
 --  2 : Nat : Type
--- ale Lean nie pozwala na taką notację.
+-- ale Lean nie pozwala na taką notację. Type to tak naprawdę Type 0, ale ponieważ typ Type 0 pojawia się bardzo często,
+-- Lean pozwala zapisać go w ten skrótowy sposób.
 #check Nat -- Nat : Type, a tak naprawdę Nat : Type 0
 
 -- Type (czyli Type 0) to typ i jednocześnie term ogólniejszego typu Type 1
@@ -114,14 +115,31 @@ razie o coś zbliżonego. Nie słyszałaś? To zazdroszczę.
 
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. To jest typ wyższego rzędu,
 podobnie jak na przykład `Type 1`, to znaczy, termy typu `Prop` same są typami, ale typ `Prop`
-zachowuje się trochę inaczej niż typy `Type n` (gdzie *n* to liczba naturalna). Jego nazwa jest
-skrótem od angielskiego *Proposition* oznaczającego *zdanie* albo *sąd*. Oto, dlaczego ten typ
-będzie dla nas odtąd ważny (chodzi o izomorfizm Curry'ego-Howarda):
+zachowuje się trochę inaczej niż typy `Type n` (gdzie *n* to liczba naturalna). Pokażę Ci teraz, że
+typ `Prop` jest jakby odnogą hierarchii typów:
+
+```lean
+#check Prop -- Prop : Type
+
+-- Komenda variable służy do deklarowania, że mamy jakiś term danego typu.
+variable (cos_pod_typem_Prop : Prop)
+
+-- cos_pod_typem_Prop jest jednocześnie termem (typu Prop) i typem.
+variable (jakis_term : cos_pod_typem_Prop)
+
+#check Nat -- Nat : Type
+
+-- 2 nie jest typem, to tylko term
+#check 2 -- 2 : Nat
+```
+
+Nazwa typu `Prop` jest skrótem od angielskiego *Proposition* oznaczającego *zdanie* albo *sąd*. Oto,
+dlaczego ten typ będzie dla nas odtąd ważny (chodzi o izomorfizm Curry'ego-Howarda):
 
 *Termy typu `Prop` można konsekwentnie interpretować jako zdania*.
 
-A ponieważ `Prop` jest typem wyższego rzędu, *zdania są typami*. Dlatego często je nazywać *typami
-zdaniowymi*.
+A ponieważ `Prop` jest typem wyższego rzędu, *zdania są typami*, dlatego często będziemy je nazywać
+*typami zdaniowymi*.
 
 *Termy typu zdaniowego można konsekwentnie interpretować jako dowody tego zdania (tego typu zdaniowego)*.
 
@@ -130,8 +148,9 @@ To może być na początku dezorientujące, więc jeszcze raz, tylko inaczej:
 Jeżeli `a : Prop` (czytaj: `a` jest termem typu `Prop` albo `a` jest zdaniem), to jeżeli `h : a`
 (czytaj: `h` ma typ `a` albo `h` jest termem typu `a` albo `h` jest termem typu zdaniowego `a`), to
 możemy konsekwentnie interpretować `h` jako *dowód* albo *świadectwo prawdziwości zdania
-`a`*. Zwykle będziemy w takich sytuacjach mówić krótko, że *`h` jest dowodem `a`*. Mamy tutaj do
-czynienia z dwoma poziomami, na których występują typy (to tylko ilustracja):
+`a`*. Ponieważ będziemy intensywnie korzystać z możliwości takiej spójnej interpretacji, zwykle
+będziemy w takich sytuacjach mówić po prostu, że *`h` jest dowodem `a`*. Mamy tu do czynienia z
+dwoma poziomami, na których występują typy (to tylko ilustracja):
 
 ```lean
 -- jakis_dowod to tylko term, nie typ
@@ -157,24 +176,26 @@ matematyczne pojęcia, struktury i zdania jako *typy* i że termy typów zdaniow
 konsekwentnie traktować jak dowody. Dzięki temu zaciera się, a czasem całkiem znika, różnica między
 matematyką i programowaniem.
 
-**(De)Motywator**: Że dowód jest termem o typie, który jest zdaniem, którego to zdania ten term
-dowodzi (*uff*), to jest jedna z tych początkowo dezorientujących konwencji, do których trzeba się
-po prostu stopniowo przyzwyczaić. Gdy do pewnego stopnia to nastąpi, ta akurat konwencja pozwoli Ci
-zobaczyć *całą* matematykę w nowy sposób. Wydaje mi się czasami, że im bardziej próbuję to wyjaśnić,
-tym może być gorzej i niewykluczone, że najlepiej w tym wypadku działa metoda mimowolnego (i
-relatywnie bezmyślnego) oswojenia.
+**Motywator**: Że dowód jest termem o typie, który jest zdaniem, którego to zdania ten term dowodzi
+(*uff*), to jest jedna z tych początkowo dezorientujących konwencji, do których trzeba się po prostu
+stopniowo przyzwyczaić. Gdy do pewnego stopnia to nastąpi, ta akurat konwencja pozwoli Ci zobaczyć
+*całą* matematykę w nowy sposób. Wydaje mi się czasami, że im bardziej próbuję to wyjaśnić, tym może
+być gorzej i niewykluczone, że najlepiej w tym wypadku działa metoda mimowolnego i stosunkowo
+bezmyślnego oswojenia.
 
 Jedną z wielu zalet tego punktu widzenia jest i ta, że można wtedy uprawiać matematykę albo tylko
 się uczyć jej w interakcji z programem komputerowym, który wspomaga konstruowanie pojęć, teorii,
 własnej notacji i dowodów matematycznych, czyli z [asystentem
 dowodzenia](https://en.wikipedia.org/wiki/Proof_assistant), takim jak Lean. Można mieć wtedy nie
 tylko pewność, że to, co się napisało czy skonstruowało jest poprawne, albo że jest błędne, ale
-można też korzystać z rozmaitych udogodnień, które taki asystent oferuje.
+można też korzystać z rozmaitych udogodnień, które taki asystent oferuje. Dzięki temu możesz
+korzystać z pełnej swobody uczenia się matematyki bez oceniającego Cię nauczyciela, w ramach
+interaktywnej eksploracji, to jest metodą prób i błędów, od razu widząc rezultaty swoich działań.
 
 ## Ogólne uwagi na temat logiki w Leanie
 
-**Ostrzeżenie i zarazem wyzwanie**: Będzie trzeba *stopniowo* opanować sztukę *w miarę*
-konsekwentnego *odróżniania*:
+**Ostrzeżenie i wyzwanie**: Będzie trzeba *stopniowo* opanować sztukę *w miarę* konsekwentnego
+*odróżniania*:
 
 1. Dowolnych zdań *jako takich*, a więc niekoniecznie prawdziwych, od...
 
@@ -182,19 +203,19 @@ konsekwentnego *odróżniania*:
 
 3. Ewentualnego *faktu*, że jakieś zdanie (albo jego negacja) *ma dowód*, wreszcie...
 
-4. *Założenia, że* zdanie ma *jakiś* dowód, od kodu czy *konstrukcji* takiego dowodu.
+4. *Założenia, że* zdanie ma *jakiś* dowód, od *konkretnego kodu* albo *konstrukcji* takiego dowodu.
 
 W tym momencie samo to, że to nie są te same rzeczy czy fakty, może Ci się wydawać zrozumiałe i może
-wręcz nie warte objaśniania, ale przekonasz się, że te fundamentalne rozróżnienia będą Ci sprawiać
-trudności nawet w stosunkowo prostych sytuacjach. Jeszcze raz - cierpliwości. Gdybym ja czytał tekst
-taki jak ten, nie znając wcześniej tematu, na pewno wracałbym wielokrotnie do niektórych mniej
-jasnych dla mnie fragmentów i wiele razy czułbym, że się gubię.
+wręcz nie warte objaśniania, ale przekonasz się, że te fundamentalne rozróżnienia będą Ci na
+początku sprawiały trudności nawet w stosunkowo prostych sytuacjach. Jeszcze raz -
+cierpliwości. Gdybym czytał tekst taki jak ten, nie znając wcześniej tematu, na pewno wracałbym
+wielokrotnie do niektórych mniej jasnych dla mnie fragmentów i czułbym wiele razy, że się gubię.
 
-Zajmiemy się najpierw *implikacją*. Implikacja jest być może najważniejszym spójnikiem w
-logice. Mówiąc luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to
-*dowolne* zdania, proste lub złożone (i tylko same zdania, a nie ich prawdziwość czy fałszywość,
-albo fakt bycia dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację za pomocą
-strzałki skierowanej w prawo: →. Wygląda znajomo?
+Zajmiemy się teraz *implikacją*. Implikacja jest być może najważniejszym spójnikiem w logice. Mówiąc
+luźno, implikacjami nazywamy zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to *dowolne* zdania,
+proste lub złożone (i tylko same zdania, a nie ich prawdziwość czy fałszywość, albo fakt bycia
+dowiedzionym, albo ich dowody). Powszechnie zapisuje się implikację za pomocą strzałki skierowanej w
+prawo: →. Wygląda znajomo?
 
 Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
 implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Nic? Żadnych skojarzeń?
