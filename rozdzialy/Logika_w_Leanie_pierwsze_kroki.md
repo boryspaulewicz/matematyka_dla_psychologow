@@ -310,12 +310,12 @@ prawda mniej złożonym niż język polski, ale obcym, sztucznym, i bezlitośnie
 jest formalny język matematyki. Tak jak to ma miejsce w przypadku nauki każdego nowego języka,
 trzeba się uzbroić w cierpliwość (jeszcze chyba wspomnę o tej cierpliwości później). 
 
-Jest jak sądzę wiele prawdy w stwierdzeniu, którego autorem jest genialny polski matematyk Jerzy von
-Neumann (https://en.wikipedia.org/wiki/John_von_Neumann), że często matematykę się nie tyle rozumie,
-ile raczej się do niej *przyzwyczaja*. Dodam od siebie, że gdy się już trochę do niej przyzwyczai
-(co wymaga czasu), to zadziwiająco często okazuje się, że jej pojęcia, twierdzenia i teorie wyrażają
-coś, co rozumiało się dobrze od samego początku, tylko nie umiało się o tym dostatecznie
-konsekwetnie *mówić*, a więc również konsekwentnie albo spójnie *myśleć*.
+Jest jak sądzę wiele prawdy w stwierdzeniu, którego autorem jest genialny polski matematyk [Jerzy
+von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), że często matematykę się nie tyle
+rozumie, ile raczej się do niej *przyzwyczaja*. Dodam od siebie, że gdy się już trochę do niej
+przyzwyczai (co wymaga czasu), to zadziwiająco często okazuje się, że jej pojęcia, twierdzenia i
+teorie wyrażają coś, co rozumiało się dobrze od samego początku, tylko nie umiało się o tym
+dostatecznie konsekwetnie *mówić*, a więc również konsekwentnie albo spójnie *myśleć*.
 
 **Polecenie**: W ramach powtórki napisz proszę samodzielnie definicję funkcji o nazwie
 `plus_i_minus`, albo krótszej nazwie `pim`, która do swojego pierwszego parametru dodaje drugi i
@@ -675,6 +675,13 @@ już którym, ale podpowiem, że o ile wszystko do tej pory poszło dobrze, to n
 argumentu dla taktyki `exact` znajdziesz w tym, co masz lokalnie do dyspozycji, czyli w oknie po
 prawej powyżej symbolu `⊢`, czyli w kontekście. W ten sposób unicestwisz jedyny cel, jaki będzie do
 unicestwienia (jeżeli wprowadziłeś oba założenia tej podwójnej implikacji).
+
+**Ostrzeżenia na temat stylu**: Jeżeli rozwiązałaś poprzednie zadanie w trybie nieinteraktywnym, to
+musiałaś na pewnym etapie zakodować funkcję, której argumentem był dowód zdania `q`. Ten dowód nie
+był wewnątrz ciała tej funkcji do niczego potrzebny, bo ostatecznie trzeba tylko skądś wziąć dowód
+`p`, dlatego Lean wyświetlił ten parametr na szaro. To tylko ostrzeżenie o stylu, a nie błąd i jako
+takie można je spokojnie zignorować. Takie ostrzeżenie sygnalizuje, że dany parametr nie jest
+później nigdzie używany, co może być czasem przydatne, ale w tym wypadku akurat raczej nie jest.
 
 **Nie czytaj, jeżeli jeszcze nie rozwiązałeś ostatniego zadania**: Co tu się stało? Nie powiedziałem
 tego wcześniej, ale `p → q → p` to tak naprawdę `p → (q → p)`. Nawiasy muszą tu być, nawet, gdy są
