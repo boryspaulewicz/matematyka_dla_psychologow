@@ -91,15 +91,14 @@ pośrednio, najpierw rozważając jakieś problemy o charakterze liczbowym.
 
 W [artykule](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) na temat
 przyczynowości, który napisałem głównie z myślą o odbiorcach próbujących uprawiać psychologię
-naukową i o którym wspominałem już we wstępie, również korzystam z pewnego izomorfizmu, w dodatku z
-izomorfizmu, którego jedną stroną są programy komputerowe. Dzięki temu mogłem tam ilustrować
-abstrakcyjne zagadnienia i pojęcia teorii wnioskowania przyczynowego za pomocą bardzo prostych
-symulacji, mając przy tym pewność, że da się w ten sposób *wiernie*, to jest bez zniekształceń,
-*zrealizować* modele przyczynowe jako komputerowe programy. Mam wrażenie, że takie podejście pozwala
-lepiej poczuć realność modeli przyczynowych, a już na pewno pozwala uczyć się ich właściwości
-poprzez interakcję na przykład z językiem
-[R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu psychologów może być
-znacznie łatwiejsze niż rozwiązywanie problemów rachunkowych.
+naukową i o którym wspominałem już we wstępie, również korzystam z pewnego izomorfizmu, w dodatku
+takiego, którego jedną stroną są programy komputerowe. Dzięki temu mogłem ilustrować abstrakcyjne
+zagadnienia i pojęcia teorii wnioskowania przyczynowego za pomocą bardzo prostych symulacji, mając
+przy tym pewność, że da się w ten sposób *wiernie*, to jest bez zniekształceń, *zrealizować* modele
+przyczynowe jako komputerowe programy. Mam wrażenie, że takie podejście pozwala lepiej poczuć
+realność modeli przyczynowych, a już na pewno pozwala uczyć się ich właściwości poprzez interakcję
+na przykład z językiem [R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu
+psychologów może być znacznie łatwiejsze niż rozwiązywanie problemów rachunkowych.
 
 Zwróć proszę uwagę, że chociaż prawie na pewno na początku to było dla Ciebie dosyć trudne, bo to
 jest prawie dla wszystkich początkowo trudne, a już na pewno takie było początkowo dla mnie, to
@@ -127,8 +126,8 @@ korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie było tej idealnej 
 dwoma, dobrze określonymi rodzajami abstrakcyjnych struktur, którą w matematyce nazywamy
 izomorfizmem.
 
-To może jeszcze wyobraź sobie, że układ współrzędnych gdzieś znika a ta płaszczyzna łamie się i
-zamyka wokół Ciebie w sześcian jasnego pokoju. A na podłodze pojawia się mysz. Biegnie w Twoją
+To może jeszcze wyobraź sobie teraz, że układ współrzędnych gdzieś znika i ta płaszczyzna łamie się
+i zamyka wokół Ciebie w sześcian jasnego pokoju. A na podłodze pojawia się mysz. Biegnie w Twoją
 stronę i zarazem nie całkiem w Twoją stronę, tak jakby chciała szybko dotrzeć do czegoś, co znajduje
 się za Tobą i jednocześnie bała się do Ciebie zbliżyć. To wszystko jesteś w stanie niemal
 natychmiast zobaczyć tylko na podstawie kilkusekundowego ruchu myszy na podłodze, prawda? I masz
@@ -146,15 +145,22 @@ przykład na esencję herbaty rozpuszczającą się w gorącej wodzie? A jak my�
 umożliwić patrzenie w ten sposób na proces rozmowy, albo na przykład na rozgrywający się dłużej akt
 pisania ksiażki?
 
-Ale wracając do głównego wątku. Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie
-obiekty jak zbiór liczb rzeczywistych matematycy również nazywają przestrzeniami), czyli jest,
-mówiąc kolokwialnie, wiernym tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania*
-rozmaitych problemów, jak również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją
-siłę zawdzięcza między innymi temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze
-*psychologicznym*. Dla nas, ludzi, to, czy dany problem będzie łatwy czy trudny do rozwiązania albo
-zrozumienia często w *ogromnym* stopniu zależy od przyjętego *punktu widzenia* na ten
-problem. Dlatego między innymi tak chętnie korzystamy z analogii i metafor i tak bardzo je sobie
-cenimy. A zachowujący strukturę izomorfizm to właśnie pewien rodzaj doskonałej analogii.
+To teraz wyobraź sobie jeszcze, że Twoja interakcja z myszą biegnącą po podłodze została nagrana
+przez kamerę, o której wcześniej nie wiedziałać. Odkryłaś później to nagranie, a razem z nich wiele
+innych takich nagrań, pochodzących z takiego samego pokoju jak ten, w którym niedawno byłaś. I
+odkryłaś też wtedy coś jeszcze - na wszystkich tych nagraniach, za wyjątkiem tego, na którym widać
+Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się dokładnie w ten sam sposób. Ale
+może wróćmy już do głównego wątku, bo na ten jest jeszcze za wcześnie.
+
+Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie obiekty jak zbiór liczb
+rzeczywistych matematycy również nazywają przestrzeniami), czyli jest, mówiąc kolokwialnie, wiernym
+tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania* rozmaitych problemów, jak
+również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją siłę zawdzięcza między innymi
+temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze *psychologicznym*. Dla nas, ludzi,
+to, czy dany problem będzie łatwy czy trudny do rozwiązania albo zrozumienia często w *ogromnym*
+stopniu zależy od przyjętego *punktu widzenia* na ten problem. Dlatego między innymi tak chętnie
+korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowujący strukturę izomorfizm to
+właśnie pewien rodzaj doskonałej analogii.
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
 kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
