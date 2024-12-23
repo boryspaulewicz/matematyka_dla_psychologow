@@ -795,7 +795,7 @@ aksjomatyczność):
 Wręcz widać, że w ten sam sposób "stosujemy" fragmenty prozy matematycznej, takie jak ten dotyczący
 przemienności dodawania, tylko że robimy to zwykle "w głowie", prawda?
 
-# Widok z lotu ptaka
+## Widok z lotu ptaka
 
 Nasze twierdzenia zakodowane w Leanie są więc *jednocześnie*:
 
