@@ -156,8 +156,8 @@ i takiego:
 
 *Rodzaj zachowania nie jest, bo nie może być, własnością unikalną*.
 
-W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt. Przy okazji zobaczymy w
-nowym i zaskakującym świetle *sens* pomiaru psychologicznego.
+W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt. Przy okazji zobaczymy z
+jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru psychologicznego.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
 wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,

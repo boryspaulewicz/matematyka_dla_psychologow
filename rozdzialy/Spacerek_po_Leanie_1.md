@@ -21,7 +21,7 @@ studentów, dlatego będę wdzięczny za informacje o pojawiających się trudno
 zwracaj się wtedy do mnie per Panie Doktorze. Wiem, że studenci tak robią z dobrej woli i że
 pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w dyscyplinach takich jak
 psychologia, te tytuły są śmieszne i mogą utrudniać przyjęcie krytycznej postawy przez rozmówcę albo
-czytelnika. Albo może tak: Jeżeli do mnie napiszesz i będę miał powody sądzić, że czytałaś ten
+czytelnika. Albo może tak: Jeżeli do mnie napiszesz i będę miał powody sądzić, że czytałaś już ten
 fragment, to Pana Doktora potraktuję jako żart. I to też będzie ok.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
@@ -77,7 +77,7 @@ sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu
 interpretacja będzie wynikała z kontekstu.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`. Musisz tylko skorzystać
-z `dziesiec` jako z przykładu, zamieniając dwa elementy tej definicji, to jest nazwę stałej i jej
+z `dziesiec` jako przykładu, zamieniając dwa elementy tej definicji, to jest nazwę stałej i jej
 wartość. Jeżeli napiszesz coś niezgodnie z wymaganiami Leana, zobaczysz fragment podkreślony
 czerwoną falką. Wiesz, co wtedy robić.
 
@@ -443,9 +443,9 @@ etapie jest ważne, żebyś wiedziała, co takie skróty oznaczają. Nie musisz 
 każdym razem, gdy definiujesz stałe albo ich używasz, ale w pewnych sytuacjach ta wiedza będzie Ci
 potrzebna.
 
-Pokażę Ci jeszcze Lean interpretuje podawanie parametrów funkcji przed typem jej rezultatu, czyli
-przed "głównym" drukropkiem. Na prywatny użytek nazywam to "przestawialnością dwukropka" w
-definicjach funkcji (ilustracja):
+Pokażę Ci jeszcze w jaki sposób Lean interpretuje podawanie parametrów funkcji przed typem jej
+rezultatu, czyli przed "głównym" drukropkiem. Na prywatny użytek nazywam to "przestawialnością
+dwukropka" w definicjach funkcji (ilustracja):
 
 ```lean
 -- Ta definicja:
