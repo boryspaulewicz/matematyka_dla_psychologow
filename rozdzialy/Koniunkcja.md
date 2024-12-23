@@ -3,7 +3,7 @@
 Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji zawartych w rozdziałach
 wcześniejszych. Jeżeli to jest na razie zbyt trudne, to oparte na różnych punktach widzenia,
 szczegółowe wyjaśnienia znajdziesz w następnych dwóch rozdziałach. Ale najpierw spróbuj może
-zobaczyć w kodzie jakiekolwiek wzorce.
+zobaczyć w zawartym tu kodzie jakiekolwiek regularności czy wzorce.
 
 ```lean
 -- Jeżeli p i q to jakieś zdania ...
@@ -14,11 +14,12 @@ variable (p q : Prop)
 ```
 
 Podobnie jak implikacja i negacja, koniunkcja jest *zdaniem złożonym*, bo powstaje przez
-zastosowanie *spójnika logicznego* (w tym wypadku spójnika *∧*).
+zastosowanie *spójnika logicznego*, w tym wypadku spójnika *∧*, który uzyskujemy w Leanie wpisując
+`\and`.
 
 Dowodem zdania `p ∧ q` jest *uporządkowana para* dowodów złożona z dowodu zdania `p` i dowodu zdania
 `q`, w tej kolejności. Dowód zdania `p ∧ q` można stworzyć *tylko w jeden sposób* - jawnie lub
-niejawnie aplikując funkcję `And.intro` do dowodu `p` i dowodu `q`:
+niejawnie (o czym później) aplikując funkcję `And.intro` do dowodu `p` i dowodu `q`:
 
 ```lean
 -- Jeżeli mamy jakieś dowody zdań p i q ...
@@ -29,19 +30,19 @@ variable (hp : p) (hq : q)
 ```
 
 Jeżeli `T₁` i `T₂` to jakieś typy, to `T₁ × T₂` jest typem *par uporządkowanych złożonych z termu
-typu `T₁` i termu typu `T₂`*, w tej kolejności.
+typu `T₁` i termu typu `T₂`*, w tej kolejności. Żeby uzyskać w Leanie symbol `×` wpisz `\x`.
 
 ```lean
--- Żeby uzyskać symbol × wpisz \x
-
 -- Na przykład, tak zapisujemy typ: para uporządkowana złożona z termu typu Nat i termu typu Nat ...
 #check Nat × Nat -- Nat × Nat : Type
 
 -- ... a tak zapisujemy typ: para uporządkowana złożona z termu typu Nat i termu typu String.
 #check Nat × String -- Nat × String : Type
+```
 
--- Żeby uzyskać symbol ⟨ (⟩) wpisz \< (\>)
+Żeby uzyskać symbol `⟨` (`⟩`) wpisz `\<` (`\>`).
 
+```lean
 -- Tak możemy zdefiniować stałą będącą parą uporządkowaną złożoną z liczb naturalnych 1 i 2:
 def moja_para_liczb : Nat × Nat := ⟨1, 2⟩
 
@@ -65,13 +66,14 @@ przechwycić pierwszy i drugi element korzystając z *dopasowania wzorców w mie
 
 ```lean
 def dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' : Nat × Nat → Nat :=
-    -- Ponieważ istnieje tylko jeden sposób skonstruowania termu typu Nat × Nat, argument może być "zdekonstruowany"
+    -- Ponieważ istnieje tylko jeden sposób skonstruowania termu typu Nat × Nat, argument może być
+    -- "zdekonstruowany w parametrze".
     fun (⟨pierwszy, drugi⟩) => pierwszy + drugi
 
 #eval dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' moja_para_liczb -- 3
 ```
 
-Matematyka to programowanie.
+Matematyka to programowanie:
 
 ```lean
 -- Można tak ...
@@ -90,7 +92,7 @@ theorem t2fst (p q : Prop) : p ∧ q → p :=
 theorem t2fst' (p q : Prop) : p ∧ q → p :=
     fun (h : p ∧ q) => h.left
 
---- ... i tak, na jedno wychodzi (to, że hq jest na szaro nie oznacza błędu).
+--- ... i tak, na jedno wychodzi (to, że w oknie Leana hq wyświetla się na szaro nie oznacza błędu).
 theorem t2fst'' (p q : Prop) : p ∧ q → p :=
     fun (⟨hp, hq⟩) => hp
 
