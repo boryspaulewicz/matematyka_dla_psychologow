@@ -65,7 +65,7 @@ ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
-[R4 Kilka trywialnych i mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
+[R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
 
