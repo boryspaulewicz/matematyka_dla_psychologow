@@ -23,7 +23,8 @@ alternatywnych interpretacji, bo żeby udzielić takiej odpowiedzi, musielibyśm
 *eksperymenty na sobie*. Na przykład, ja mógłbym się dłużej zastanowić i może wpadłbym na pomysł
 systematycznego sposobu przypisywania zdaniom i spójnikom logicznym obiektów lub własności czy
 relacji geometrycznych. Może wyszło by mi z tego coś, co by mi się wydawało sensowne. To moje
-"wydawanie" to byłby wtedy *znany mi fakt empiryczny* dotyczący mnie, ale jeszcze nie żaden dowód.
+"wydawanie" to byłby wtedy *znany mi fakt empiryczny* dotyczący mnie, ale nie byłby to jeszcze żaden
+dowód.
 
 ## Logika, aksjomaty, wybory, postawy i wolność
 
@@ -32,8 +33,8 @@ Właśnie teraz muszę rozwiązać inny problem. Najpierw chciałem napisać zda
 to mi się wydało bardzo nieudane. Poczułem irytację z powodu faktu, że poświęcam takiemu moim
 zdaniem drobiazgowi tyle uwagi. Moje postawy polityczne są niejasne, bo nie lubię polityki i
 większości polityków, ale pewnie znajomi powiedzieliby, że te poglądy są lewicowe w kwestiach
-ekonomicznych i liberalne w obyczajowych. Nie bardzo wiem, co to właściwie znaczy, ani nie bardzo
-mnie to obchodzi, ale to ma chyba ostatnio jakiś związek z rodzajem gramatycznym.
+ekonomicznych i liberalne w kwestiach obyczajowych. Nie bardzo wiem, co to właściwie znaczy, ani nie
+bardzo mnie to obchodzi, ale to ma chyba ostatnio jakiś związek z rodzajem gramatycznym.
 
 Uważam, że kwestia "odpowiedniego" rodzaju gramatycznego słowa, o którym wspomniałem, to drobiazg i
 jeżeli się ze mną nie zgadzasz, to jest to fakt, przed którym razem stoimy, ale z którym sądzę, że
@@ -42,13 +43,13 @@ to nie jest zwykły fakt, z którego ta różnica wynika logicznie. Jeżeli ta r
 występuje, to powodem, albo może sednem tej różnicy jest *szczególny* rodzaj faktu - inaczej coś
 *oceniamy*. Żaden znany mi, akceptowalny dla mnie rachunek logiczny nie pozwala, bez jakiś
 dodatkowych składników, z sądów *nieocennych*, czyli takich zwykłych sądów opisowych, *wywnioskować*
-sąd *ocenny*. I nie ma w tym chyba nic dziwnego, skoro każdy fakt - w izolacji - łącznie z faktami
-polegającymi na tym, że ktoś w jakiś sposób coś ocenia, może być oceniany na każdy możliwy sposób
-bez popadania w sprzeczność.
+sąd *ocenny*. I nie ma w tym chyba nic dziwnego, skoro *każdy fakt* - w izolacji - łącznie z faktami
+polegającymi na tym, że ktoś w jakiś sposób coś ocenia, *może być oceniany na każdy możliwy sposób
+bez popadania w sprzeczność*.
 
 Nie jestem autorem tej obserwacji, [Hume](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem)
 jest. Nawiasem mówiąc, na tej stronie Wikipedii, w sekcji *Responses* (odpowiedzi czy może reakcje)
-znajdziesz (2024-12-08) jako pierwszą pod-sekcję *Oughts and goals*, czyli *powinności / normy i
+znajdziesz (2024-12-08) jako pierwszą sekcję *Oughts and goals*, czyli *powinności / normy i
 cele*. Wydaje mi się, że z powodu bliskiego związku między pojęciami *zachowania* i *celu*, to może
 być dla nas, psychologów, interesujące. Jeszcze do tego wrócimy.
 
@@ -59,9 +60,9 @@ całkowitą racjonalność po obydwu stronach, cokolwiek by to miało znaczyć. 
 było trochę tak, jakby jedna osoba próbowała przekonać drugą, że dynia jest pyszna, kiedy tej
 drugiej dynia nie smakuje (ja akurat nie lubię). Fakty zdają się tu nie mieć nic do rzeczy, bo
 chodzi o jakieś postawy czy preferencje, które pod względem sztywności przypominające preferencje
-smakowe.
+smakowe. Pozostaje więc tylko *perswazja*.
 
-Muszę więc dokonać wyboru. A ponieważ bardzo cenię sobie swoją wolność - w granicach częściowo
+Muszę więc dokonać wyboru, a ponieważ bardzo cenię sobie swoją wolność - w granicach częściowo
 wyznaczonych przez to, jak rozumiem normę niekrzywdzenia - w tym również wolność ekspresji,
 postanowiłem w tym rozdziale stosować konwencję, która może być irytująca zarówno dla osób
 "nieprzebudzonych" jak i ["przebudzonych"](https://pl.wikipedia.org/wiki/Woke). Będę się posługiwał
@@ -79,9 +80,9 @@ mógłbyś, mógłbyś/abyś, mogłabyś/mógłbyś, albo czymś innym.
 No więc może wpadłbym na taką geometryczną interpretację rachunku logicznego. Gdybym ją
 zakomunikował Tobie, z Twojej perspektywy byłby to *aksjomat*, ponieważ nie mogłobyś (ach,
 wspaniałe!) wtedy zrobić z tym nic innego jak *przyjąć albo nie przyjąć do wiadomości*, że ta
-właśnie interpretacja wydaje *mi* się spójna i sensowna. To byłby z Twojej perspektywy *potencjalny
-empiryczny fakt*, którego *nie mogłobyś sprawdzić*. Z powodu odległości fizycznej, odległości w
-czasie, albo z powodu subiektywnego charakteru danych, zwykle tak się sprawy mają:
+właśnie interpretacja wydaje *mi* się spójna i sensowna. Z Twojej perspektywy byłby to zatem
+*potencjalny empiryczny fakt*, którego *nie mogłobyś sprawdzić*. Z powodu odległości fizycznej,
+odległości w czasie, albo z powodu subiektywnego charakteru danych, zwykle jest więc tak, że:
 
 *Mój fakt to jakby Twój aksjomat, a Twój fakt to jakby mój aksjomat*.
 
@@ -97,9 +98,10 @@ razie możesz spędzić trochę czasu na kosztownym, pod wzlględem czasu, wysi�
 badaniu świadectw pośrednich, czyli poszlak.
 
 Ja na przykład zachowuję się czasami, jakbym coś tam wiedział o ogólnie rozumianych zyskach i
-stratach wynikających z powszechnych szczepień, których jestem zwolennikiem. Ale prawda jest taka,
-że nie mam za bardzo pojęcia o tym obszarze badań i polegam prawie całkowicie na skąpych i bardzo
-pośrednich informacjach pochodzących od ludzi, którym ufam. To są więc takie moje aksjomaty.
+stratach wynikających z powszechnych szczepień, których zresztą jestem zwolennikiem. Ale prawda jest
+taka, że nie mam za bardzo pojęcia o tym obszarze badań i polegam prawie całkowicie na skąpych i
+pośrednich informacjach pochodzących od ludzi, którym w takich sprawach ufam. To są więc takie moje
+aksjomaty.
 
 Jeśli coś wygląda jak aksjomat, chodzi jak aksjomat i kwacze jak aksjomat, to ponieważ bycie
 aksjomatem sprowadza się do pewnej *roli*, to coś *jest* aksjomatem. Dokąd to wszystko zmierza?
@@ -114,18 +116,17 @@ zakomunikować, przestałoby do Ciebie docierać. Na wszelki wypadek wyjaśniam:
 strony szantaż ani groźba, tylko *obawa*. I to, że wyraziłem właśnie obawę a nie szantaż, bo tak
 twierdzę, też jest z Twojej perspektywy aksjomatem i musi nim pozostać.
 
-**Już na dobre wracając do tematu**: *No więc* w logice chodzi generalnie (teraz już wiesz, co mniej
-więcej mam na myśli mówiąc w tym kontekście generalnie) o zdania i ich "wartości logiczne". Ale nie
-tylko. Bardzo ważną role odgrywa zarówno w matematyce jak i w filozofii logika *predykatów*. Z
-polskiej [strony Wikipedii](https://pl.wikipedia.org/wiki/Predykat) dowiadujemy się (2024-12-08), że
-predykat to
+**Już na dobre wracając do tematu**: *No więc* w logice chodzi generalnie o zdania i ich "wartości
+logiczne". Ale nie tylko. Bardzo ważną role odgrywa zarówno w matematyce jak i w filozofii logika
+*predykatów*. Z polskiej [strony Wikipedii](https://pl.wikipedia.org/wiki/Predykat) możemy się
+dowiedzieć (2024-12-08), że predykat to
 
 > wieloznaczny termin mogący oznaczać: funktor zdaniotwórczy od argumentów x nazwowych, funkcję
 > zdaniową argumentów nazwowych, albo wyrażenie opisujące pewne włsności i relacje.
 
 *No więc* termin *predykat* jest najwyraźniej terminem wieloznacznym. Na szczęście już wiesz, że
 dopóki trzymamy się sztywnych i jasnych reguł i pamiętamy o tej wieloznaczności w sytuacjach
-budzących wątpliwości, nie szkodzi, że jest wieloznaczny.
+budzących wątpliwości, nic nie szkodzi, że jest wieloznaczny.
 
 ## Kawusia była pyszna
 
@@ -152,14 +153,14 @@ razem.
 *Kawusia* to pewna *rzecz*, a *była pyszna* to własność przypisywana tej rzeczy przez zdanie
 *Kawusia była pyszna*. To zdanie ma sens, bo kawa to napój, a własność bycia pysznym może
 przysługiwać albo nie między innymi napojom. W tle tego zdania istnieje więc typ *napój*, który
-ujawnimy w formalizacji. Jeśli chcemy mówić o kawie w języku teorii typów, a w tym języku każdy term
-musi mieć typ, to aksjomatycznie wprowadzamy nowy typ:
+ujawnimy wprost w formalizacji. Ponieważ w teorii typów każdy term musi mieć typ, to jeśli chcemy
+mówić o ewentualnej pyszności kawy posługując się językiem tej teorio, musimy wprowadzić aksjomat:
 
 ```lean
 axiom Napoj : Type
 ```
 
-I odtąd w naszym języku *są napoje*. Jak teraz sformalizować predykat *była pyszna*? Jeżeli, ze
+Odtąd w naszym języku *są napoje*. Jak teraz sformalizować predykat *była pyszna*? Jeżeli, ze
 względu na cel tej zabawy ignorując czas przeszły, zrobimy tak:
 
 ```lean
@@ -170,16 +171,19 @@ to będziemy mogli napisać tak:
 
 ```lean
 axiom kawa : Napoj
+
+-- Pyszna kawa jest teraz zdaniem
 #check Pyszna kawa -- Pyszna kawa : Prop
 ```
 
-W konstruowanym właśnie języku `Pyszna kawa` to odtąd poprawne zdanie. Po polsku i wystarczająco
-blisko dla naszych ograniczonych celów. Nie tylko napoje mogą być pyszne, zabawa też może być, na
-przykład, ale obecny poziom ogólności nam wystarczy.
+W konstruowanym właśnie języku `Pyszna kawa` to odtąd poprawne zdanie. W dodatku zapisane po polsku
+i - ze względu na nasze ograniczone cele - wystarczająco blisko oryginału. Oczywiście nie tylko
+napoje mogą być pyszne, ale obecny poziom ekspresyjności nam całkowicie wystarczy.
 
 **Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*.
 
-Mamy oto implikacje i predykaty, a to już dużo. Możemy się teraz zmierzyć z kwestią istnienia Boga.
+Mamy oto implikacje i predykaty, a to już dużo. Możemy się już śmiało zmierzyć z kwestią istnienia
+Boga.
 
 ## Formalizacja dowodu na istnienie Boga Anzelma z Cantenbury
 
@@ -193,7 +197,7 @@ Z polskiej [strony Wikipedii](https://pl.wikipedia.org/wiki/Dow%C3%B3d_ontologic
 
 > sprowadza się on do pokazania, że w samym pojęciu Boga zawiera się konieczność jego istnienia.
 
-Brzmi niezbyt obiecująco, co sugeruje, że to może być zarazem pouczające i zabawne.
+Punkt wyjścia nie brzmi zbyt obiecująco, co sugeruje, że to może być zarazem pouczające i zabawne.
 
 Czytamy dalej: 
 
@@ -202,12 +206,12 @@ Czytamy dalej:
 > do izdebki” własnego umysłu i wyrzucić z niego wszystko oprócz Boga i tego, co wspomaga w jego
 > poszukiwaniu.
 
-To jest ewidentnie *rada*. Też ciekawy *typ*, jakby blisko *normy*, ale jednak coś innego. Zwracam
-uwagę, że czasem sam akt *wstępnego typowania* (fragmentów) tekstu napisanego w języku *naturalnym*
-(tutaj samo rozpoznanie, że mamy do czynienia z ogólnym typem *rada*) może działaś jak odsłonięcie
-rano zasłon. W każdym razie rad nie lubię, chyba, że towarzyszą im uzasadnienia. Zwłaszcza rad
-sugerujących wyrzucanie czegoś z izdebki własnego umysłu. *Powody* to co innego, chętnie uważnie
-wysłucham. Co dalej?
+To jest z kolei ewidentnie *rada*. Też ciekawy *typ*, jakby blisko *normy*, ale jednak coś
+innego. Zwracam uwagę, że czasem sam akt *wstępnego typowania* (fragmentów) tekstu napisanego w
+języku *naturalnym* (tutaj samo rozpoznanie, że mamy do czynienia z ogólnym typem *rada*) może
+działaś jak odsłonięcie rano zasłon. W każdym razie rad nie lubię, chyba, że towarzyszą im
+uzasadnienia. Zwłaszcza zaś rad sugerujących wyrzucanie czegoś z izdebki własnego umysłu. *Powody*
+to co innego, chętnie uważnie wysłucham. Co dalej?
 
 > Wyjaśnia też swoje intencje. Zastrzega, że nie chce przeniknąć głębi Boga, ponieważ wtedy
 > popełniałby grzech pychy. Chce tylko do pewnego stopnia zrozumieć prawdę, w którą wierzy. Nie
@@ -215,7 +219,7 @@ wysłucham. Co dalej?
 > uwierzy, to nie zrozumie.
 
 A tutaj mamy sporo *aksjomatów* (zaskoczono, jak ten wątek nagle wrócił?). Można się domyślić, że
-nie będą odgrywały ważnej roli, a ponieważ nie mam bladego pojęcia, co to wszystko znaczy, nie
+nie będą odgrywały ważnej roli, a ponieważ nie mam pojęcia, co to wszystko znaczy, nie
 przyjmuję. Gdyby trzeba było do nich wrócić, to wrócimy.
 
 Pierwsze zdanie w zakładce *Przesłanka* to:
@@ -226,33 +230,38 @@ To jeszcze nie jest fragment potencjalnego dowodu, ale przyda się jako ćwiczen
 jestem głupi, czasem wręcz bezdennie, jak stodoła, albo jak kartofel, a gdy jest już bardzo źle,
 bywam niemal tak głupi, jak współczesny system publikacji recenzowanych. Moim zdaniem nawiedza mnie
 czasem bezdenna wręcz głupota po prostu dlatego, że jestem człowiekiem. Ludzie się
-wspaniali. Wszyscy moi przyjaciele to ludzie. Po prostu lubię ludzi. I szczerze szanuję. Ale czy
-widziałoś kiedyś, co ludzie robili lub robią, studento psychologii?
+wspaniali. Wszyscy moi przyjaciele, a nawet koleżanki i koledzy to ludzie. Po prostu lubię ludzi. I
+szczerze szanuję. Ale czy widziałoś kiedyś, co ludzie robili lub robią, studento psychologii?
 
 Wracając do zdania o głupich, czyli między innymi o mnie, zdaje mi się, może chodzi o coś w stylu:
 
 ```lean
-axiom Czlowiek : Type -- I tak oto powstali ludzie
+-- Odtąd możemy "mówić formalnie" o ludziach ...
+axiom Czlowiek : Type
 
-axiom Glupi : Czlowiek → Prop -- A to predykat
+-- ... jak również o ich możliwościach intelektualnych ...
+axiom Glupi : Czlowiek → Prop
 
-axiom Niewierzacy : Czlowiek → Prop -- I to też predykat
+-- ... i pewnych przekonaniach czy postawach.
+axiom Niewierzacy : Czlowiek → Prop
 
-axiom mocna_teza : Glupi → Niewierzacy -- A to jest założenie aksjomatyczne w postaci implikacji
+-- A to jest założenie aksjomatyczne w postaci implikacji.
+axiom mocna_teza : Glupi → Niewierzacy
 ```
 
 Ale nie całkiem. `mocna_teza` to tutaj ewidentnie aksjomat, bo jest podany bez
 uzasadnienia. Pozwoliłem sobie na ryzykowne uproszczenia: Mówić coś to nie to samo, co w coś wierzyć
-i głupie są też inne zwierzęta, nie tylko ludzie. Ale nie tak jak rośliny. Bardzo lubię rośliny, co
-roku uprawiam pomidory, ale to mi nie zaciemnia obrazu sytuacji. Obiektywnie rośliny są
-najgłupsze. I ryby. Rośliny i ryby. To jest jednak znowu tak zwana wiedza zastana, więc nie ma o
-czym wspominać. No więc wracając, nie ma pewności, że Anzelmowi chodziło o *każdy głupi* i *zawsze
-mówi*.
+i głupie są też inne zwierzęta, nie tylko ludzie. Ale nie tak jak rośliny. Bardzo lubię rośliny,
+między innymi dlatego prawie każdego roku
+([hydroponicznie](https://pl.wikipedia.org/wiki/Hydroponika)) uprawiam rdzenne odmiany pomidorów,
+ale to mi nie zaciemnia obrazu sytuacji. Rośliny są obiektywnie najgłupsze. I ryby. Rośliny i
+ryby. To jest jednak znowu tak zwana wiedza zastana, więc nie ma o czym wspominać. No więc wracając,
+nie ma pewności, że Anzelmowi chodziło o *każdy głupi* i *zawsze mówi*.
 
-Nadal coś tu nie gra. Nie mogło Anzelmowi chodzić o to, że jeżeli ktoś jest głupi, w jakikolwiek
-sposób, to automatycznie jest niewierzący. To by wykluczało możliwość istnienia ludzi zarazem
-głupich i wierzących, a z tym Anzelm by się na pewno nie zgodził. Chodziło mu raczej o implikację *w
-drugą stronę*:
+Nadal jednak coś tu nie gra. Nie mogło Anzelmowi chodzić o to, że jeżeli ktoś jest głupi, w
+jakikolwiek sposób, to automatycznie jest niewierzący. To by wykluczało możliwość istnienia ludzi
+zarazem głupich i wierzących, a z tym Anzelm by się na pewno nie zgodził. Chodziło mu raczej o
+implikację *w drugą stronę*:
 
 ```lean
 axiom mocna_teza': Niewierzacy → Glupi
@@ -262,7 +271,7 @@ Nie od razu to widać, prawda? To zastanów się przez chwilę proszę, jak wiel
 umykać, gdy czytamy artykuły naukowe, w których główny tok rozumowania jest praktycznie zawsze mniej
 lub bardziej pomieszany z całą masą innych wątków.
 
-Możemy *zostawić* obie *interpretacje* i wrócić do nich później, gdy będziemy mieli więcej
+Możemy teraz *zostawić* obie *interpretacje* i wrócić do nich później, gdy będziemy mieli więcej
 danych. Czy widzisz, jak w trakcie takiej formalizacji trzeba formułować *hipotezy empiryczne* na
 temat autora wypowiedzi i oceniać je w świetle wiedzy zastanej, a przede wszystkim innych wypowiedzi
 tego samego autora? Wydaje się, że powinniśmy brać pod uwagę *każdą interpretację*, która jest
@@ -329,15 +338,16 @@ ta formalizacja jedzie wódą (czytaj: nie wygląda elegancko), ale co tam, to d
 próba. Wypadałoby objaśnić. Przyjmujemy, że term `Bog` ma typ `MozeIstniejace`, bo staramy się
 życzliwie interpretować Anzelma, który przecież nie dowodziłby czegoś, co od samego początku wprost
 założył, to jest że Bóg istnieje. Kto byłby aż *tak* głupi? Ja, niestety, na pewno czasami. Ale
-chyba nie Anzelm, nie w tym przypadku.
+chyba nie Anzelm, w każdym razie nie w tym konkretnym przypadku.
 
 `MozeIstniejace` jest za długie, więc wprowadzamy *zapis skrótowy* `MI` za pomocą słowa kluczowego
 `abbrev`. To samo robimy z `MentalMax`, wprowadzając skrót `MM`. Jeżeli się okaże, że coś tu nie
 pasuje do treści pozostałych czterech punktów, to zawsze będziemy mogli zmienić aksjomaty, albo
 zacząć całkiem od zera.
 
-Drugi punkt to już nie aksjomat, tylko założenie dowodu polegającego na wyprowadzeniu z przesłanki
-sprzeczności, co w logice konstruktywnej jest tym samym, co udowodnienie negacji tej przesłanki:
+Drugi punkt to nie aksjomat, tylko założenie dowodu polegającego na wyprowadzeniu z przesłanki
+sprzeczności, co w logice konstruktywnej jest tym samym, co udowodnienie negacji tej przesłanki
+(będę o tym pisał w jednym z następnych rozdziałów):
 
 *Udowodnić negację zdania* P *to to samo, co udowodnić zdanie fałszywe zakładając* P.
 
@@ -352,10 +362,9 @@ theorem T1 : ¬ (II Bog) := by ... ?
 ```
 
 Daleko nam jeszcze do zadowalającej formalizacji całości tego być może dowodu, ale możemy już w tym
-momencie powiedzieć o nim kilka ważnych rzeczy. Na przykład, struktura kodu powyżej pozwala łatwo
-zauważyć, że to jest tak zwany dowód [*nie
-wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost). Może najbardziej deskryptywna nazwa
-na ten typ dowodu to *zaprzeczenie przeciwieństwa*.
+momencie powiedzieć o nim kilka ważnych rzeczy. Na przykład, struktura kodu pozwala łatwo zauważyć,
+że to jest tak zwany dowód [*nie wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost). Może
+najbardziej deskryptywna nazwa na ten typ dowodu to *zaprzeczenie przeciwieństwa*.
 
 **Struktura dowodu nie wprost**: Jeżeli chcemy (w danym kontekście) udowodnić zdanie *P*, możemy
 próbować założyć jego negację - *¬P* (czytaj *nie P*) - a potem próbować wyprowadzić z tego
@@ -392,9 +401,9 @@ Mamy tu coś, czego jeszcze nie było - *relację* `WiekszeNiz`. Zwracam uwagę,
 nas aplikacja funkcji do termu i ta aplikacja, czyli zestawienie tych dwóch termów obok siebie, jest
 zdaniem jako takim (ma typ `Prop`). Możemy próbować udowodnić, korzystając z innych definicji i
 założeń, że to zdanie jest prawdziwe, albo zdecydować aksjomatycznie, że ma (bliżej nieokreślony)
-dowód, ale aplikacja `Pyszna kawa` to tylko zdanie. Ta aplikacja jest zdaniem dlatego, że `Pyszna`
-jest funkcją z napojów do zdań, a `kawa` jest napojem. Bycie większym niż jest trochę jak bycie
-pysznym, ale dotyczy *uporządkowanej pary* termów, a nie pojedynczego termu.
+dowód, ale aplikacja `Pyszna kawa` to tylko zdanie. Ta aplikacja jest dlatego zdaniem poprawnym, że
+`Pyszna` jest funkcją z napojów do zdań, a `kawa` jest napojem. Bycie większym niż jest trochę jak
+bycie pysznym, ale dotyczy *uporządkowanej pary* termów, a nie pojedynczego termu.
 
 **Definicja relacji dwuargumentowej**: *Relacja dwuargumentowa* to *dwuargumentowa funkcja
 zwracająca zdanie*.
@@ -416,8 +425,8 @@ sprzeczność. Jeżeli ta sprzeczność będzie wynikała z założenia o nieist
 ten sposób sprzeczności udowodnimy negację tego założenia. A z podwójnej negacji nieprawda, że
 nieprawda, że Bóg istnieje, wyprowadzimy za pomocą zasady podwójnej negacji dowód, że Bóg istnieje.
 
-Może to być wszystko dla nas dziwne, bo niektórzy z nas akurat potrafią pomyśleć coś, co jest w
-jakimś sensie większe od Boga. Niektórym z nas wydaje się to wręcz przychodzić łatwo, w ogóle
+To wszystko może nam się wydawać dosyć dziwne, bo niektórzy z nas akurat potrafią pomyśleć coś, co
+jest w jakimś sensie większe od Boga. Niektórym z nas wydaje się to wręcz przychodzić łatwo, w ogóle
 manipulacja rozmiarami bytów w wyobraźni to jest coś, w czym jesteśmy, niechwaląc się, nieźli. I to
 jest w zasadzie koniec zabawy dla tych z nas, którzy nie mają problemu z odrzuceniem głównej
 przesłanki / aksjomatu Anzelma. Pozostaje nam się wtedy tylko ewentualnie zgodzić z określeniem
@@ -440,29 +449,29 @@ albo z innych powodów niczego się nie widzi i nie słyszy subtelna różnica m
 *Myślę, że jeżeli A, to B* i *Jeżeli A, to B* może być łatwa do przeoczenia. W przypadku zdania
 złożonego *Jeżeli A, to B*, jeśli za zdanie *A* lub za zdanie *B* podstawimy jakieś *zdanie
 równoważne* (to znaczy, podstawimy na przykład za *A* zdanie *C*, prawdziwe wtedy i tylko wtedy, gdy
-*A*), to oryginalne zdanie pozostanie prawdziwe lub fałszywe, to jest jego status prawdziwościowy
-się nie zmieni. Ale
+*A* jest prawdziwe), to oryginalne zdanie pozostanie prawdziwe lub fałszywe, to jest jego status
+prawdziwościowy się nie zmieni. Ale ...
 
 *Myślę, że jeżeli dzisiaj pada deszcz, to jutro nie będzie padało*
 
-to jedno, a
+... to jedno, a ...
 
 *Myślę, że jeżeli dzisiaj występuje opad atmosferyczny, to jutro nie będzie występował*
 
-to co innego, zresztą 
+... to co innego, zresztą ...
 
 *Myślę, że jeżeli dzisiaj pada deszcz, to jutro nie będzie występował opad atmosferyczny*
 
-też może znaczyć, przynajmniej w niektórych sytuacjach, jeszcze co innego. W szczególności, ludzie,
-którzy jeszcze nie słyszeli wyrażenia "opad atmosferyczny" i sami go nie zdążyli wymyślić *nie są w
-stanie pomyśleć*, że coś takiego jak *opad atmosferyczny* występuje. Widzimy tu różnicę między tak
-zwanym *kontekstem ekstensjonalnym* (z grubsza: "podstawianie nic nie zmienia") i *intensjonalnym*
-(z grubsza: liczy się sens albo treść w ten sposób, że podstawianie może coś ważnego zmienić), ale o
-tym może kiedy indziej.
+... też może znaczyć, przynajmniej w niektórych sytuacjach, jeszcze co innego. W szczególności,
+ludzie, którzy jeszcze nie poznali wyrażenia "opad atmosferyczny" i sami go nie zdążyli wymyślić
+*nie są w stanie pomyśleć*, że coś takiego jak *opad atmosferyczny* występuje. Widzimy tu różnicę
+między tak zwanym *kontekstem ekstensjonalnym* (z grubsza: "podstawianie nic nie zmienia") i
+*intensjonalnym* (z grubsza: liczy się sens albo treść w ten sposób, że podstawianie może coś
+ważnego zmienić), ale o tym może kiedy indziej.
 
 **Uwaga o logikach modalnych**: Istnieją rozmaite tak zwane logiki modalne, które powstały, żeby
 operować według sztywnych i możliwie niezawodnych reguł za pomocą takich pojęć jak możliwość,
-konieczność, albo powinność. *Jeżeli *A* jest prawdą, to *A* jest możliwe*. Tego typu reguły.
+konieczność, czy powinność. *Jeżeli *A* jest prawdą, to *A* jest możliwe*. Tego typu reguły.
 
 W dowodzie Anzelma pojawia się pojęcie *sposobu istnienia*. To wygląda na pierwszy rzut oka jak coś,
 do czego nadawałaby się może jakaś logika modalna. Chcę przez to powiedzieć, że być może jakaś
@@ -495,7 +504,7 @@ mówić o myślach, bo jakby zaczął mówić o tym, co się da zapisać, to by 
 że wiemy lub możemy pomyśleć, że coś istnieje tylko w umyśle, nie wynika jeszcze *logicznie* bez
 dodatkowych mocnych przesłanek, że możemy pomyśleć, że jest coś większego od tego czegoś, bo
 możliwość lub brak możliwości pomyślenia czegoś to pewien *hipotetyczny fakt* (psychologiczny). W
-ogóle mocne poleganie na niejasnej i *empirycznej* (typowanie języka naturalnego!) kategorii "można
+ogóle poleganie na niejasnej i *empirycznej* (typowanie języka naturalnego!) kategorii "można
 pomyśleć" jest moim zdaniem słabe, ale to tylko moja ocena. A właściwie szczerze mówiąc, to mam
 wrażenie, że nic w tym dowodzie nie gra i wszystko w nim trzeba łatać aksjomatami. No i komu by się
 coś takiego chciało porządnie formalizować? Po prostu kręcę się w kółko i nie wiem co dalej, stąd te
@@ -549,13 +558,13 @@ theorem t1' : (a : Prop) → a → a := fun (a : Prop) => fun (h : a) => h
 
 Jak już wiesz, twierdzenia `t1` i `t1'` (to drugie z apostrofem) to te same funkcje / twierdzenia,
 tylko inaczej zapisane. I rozpoznajemy w obydwu obecność dużego kwantyfikatora. Jeżeli masz ochotę,
-możesz użyć symbolu *∀* i to też będzie *to samo*:
+możesz użyć symbolu *∀* (wpisując `\forall`) i to też będzie *to samo*:
 
 ```lean
 theorem t1'': ∀ a : Prop, a → a := fun (a : Prop) => fun (h : a) => h
 ```
 
-**Czytamy to**: `t1''` jest dowodem zdania: dla każdego zdania `a`, jeżeli `a` to `a`.
+**Czytamy to**: `t1''` jest dowodem zdania *Dla każdego zdania `a`, jeżeli `a` to `a`*.
 
 No to próbujemy tak:
 
@@ -614,7 +623,7 @@ theorem Anzelm (c1 : Cos) ...
 Widzisz, jak *dla każdego* odpowiada naturalnie parametrom typów nie-zdaniowych, tutaj akurat `c1` i
 `c2`, gdzie oba mają typ `Cos`, a *jeżeli ...*  odpowiada parametrom typów zdaniowych (tutaj akurat
 `Realne c1` i `Zmyslone c2`)? Fajnie, ale mamy inny problem. Żeby posługiwać się pojęciem
-sprzeczności potrzebujemy pojęcia *negacji*. A o tym będziemy mówić dopiero w następnym rozdziale.
+sprzeczności potrzebujemy pojęcia *negacji*, a o tym będziemy mówić w późniejszym rozdziale.
 
 **Co jeszcze by tu można**: Fragmenty dowodu Anzelma można by próbować zakodować używając bogatszego
 repertuaru środków formalnych. Na przykład, można by przynajmniej próbować wyrazić formalnie różnicę
@@ -630,15 +639,15 @@ Trudno powiedzieć, gdzie by to nas zaprowadziło, bo:
 *Formalizacja jest procesem twórczym, a więc chaotycznym i zawodnym*.
 
 Gdy studiowałem filozofię, napisałem na zaliczenie z ćwiczeń pracę na temat chyba właśnie tego
-dowodu, używając do tego rachunku predykatów. To było jednak bardzo dawno temu i nie pamiętam
-dokładnie, co tam napisałem, ale pamiętam, że podobnie jak ja, przemiły i doskonale pamiętający
-imiona i nazwiska swoich studentów profesor [Jan
+dowodu i wtedy też użyłem do tego rachunku predykatów. To było jednak bardzo dawno temu i nie
+pamiętam dokładnie, co tam napisałem, ale pamiętam, że podobnie jak ja, przemiły i doskonale
+pamiętający imiona i nazwiska swoich studentów profesor [Jan
 Kiełbasa](https://pl.wikipedia.org/wiki/Jan_Kie%C5%82basa_(filozof)) wydawał się z tej pracy
 zadowolony (podobnie zadowolony, nie podobnie przemiły). Zostawiam Cię więc z tą rozgrzebaną wersją,
 żeby nie odbierać Ci szansy na satysfakcję z własnych pojęciowych wglądów.
 
-Muszę się przyznać, że udawałem tu trochę głupszego, niż faktycznie jestem. Wydaje mi się, że wiem,
-w jaki sposób można wiernie i prosto sformalizować ten rzekomy dowód, jednoznacznie wskazując
+Muszę się też przyznać, że udawałem tu trochę głupszego, niż faktycznie jestem. Wydaje mi się, że
+wiem, w jaki sposób można wiernie i prosto sformalizować ten rzekomy dowód, jednoznacznie wskazując
 centralny błąd Anzelma, przyjmując przy tym *życzliwą interpretację* - czyli dając Anzelmowi
 maksymalne szanse powodzenia - i przyjmując *wszystkie* jego aksjomaty.
 
@@ -664,9 +673,9 @@ zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of
 *me*.
 
 Oboje mamy więc pewne zobowiązania, bo jesteśmy częścią wspólnoty, dzięki której możemy między
-innymi robić to, co właśnie robimy. To jest koszt wolności, o której mówię. Ja pracuję na uczelni za
-publiczne pieniądze, a Ty studiujesz za pieniądze publiczne i być może też pieniądze Twoich
-rodziców. Między innymi dlatego mamy wobec siebie pewne oczekiwania.
+innymi robić to, co właśnie robimy. To jest koszt tej wolności, o której teraz mówię. Ja pracuję na
+uczelni za publiczne pieniądze, a Ty studiujesz za pieniądze publiczne i być może też pieniądze
+Twoich rodziców. Między innymi dlatego mamy wobec siebie pewne oczekiwania.
 
 Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzając dużej ilości czasu na
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
@@ -693,14 +702,14 @@ po prostu są, uogólnionymi predykatami.
 Już w tym momencie, dysponując dosyć skromnym zbiorem narzędzi, możemy dociekać o co chodzi w
 rozmaitych definicjach i rozumowaniach rozbierając je na części.
 
-I jeszcze taka niespodzianka, że mieliśmy od początku duży kwantyfikator, tylko nam się to nie dość
+I jeszcze taka niespodzianka, że od początku mieliśmy duży kwantyfikator, tylko nam się to nie dość
 mocno rzucało w oczy.
 
 I taka bardzo cenna lekcja: *Dowody*, a właściwie *jakiekolwiek rozumowania*, w tym również, a może
 nawet szczególnie *własne*, warto *konstruować* lub *re-konstruować*, czyli analizować, *od
 końca*. Wtedy *zaczynamy od wniosku* (celu) i próbujemy ustalić, skąd w ogóle taki wniosek mógłby
-się wziąć. Od razu wtedy widać, co jest całkiem niepotrzebne. Zadajemy sobie wtedy pytania: jakie
-założenia czy kroki mogłyby nas do danego wniosku doprowadzić, a więc jakie założenia byłyby
+być wyprowadzony. Od razu wtedy widać, co jest całkiem niepotrzebne. Zadajemy sobie wtedy pytania:
+jakie założenia czy kroki mogłyby nas do danego wniosku doprowadzić, a więc jakie założenia byłyby
 *wystarczające*, albo pytamy, jakie założenia są *konieczne*, żeby można było mieć nadzieję na jego
 uzasadnienie. Bywa, że oszczędzamy w ten sposób sporo czasu.
 
@@ -711,5 +720,6 @@ uzasadnienie. Bywa, że oszczędzamy w ten sposób sporo czasu.
     książkę", a nie, jak zalecają wydawnictwa normatywne, "tę książkę". Praktycznie *nikt tak nie
     mówi* i, o ile mi wiadomo, nie ma innego *uzasadnienia*, żeby się przy tej formie upierać, niż
     "bo tak się robi". A przecież *tak się robi* to w istocie nie *uzasadnienie*, tylko *luźne
-    stwierdzenie na temat relatywnej częstości występowania* (ach, jak ja lubię typować wypowiedzi w
-    języku naturalnym!).
+    stwierdzenie na temat relatywnej częstości występowania pewnej postawy* (ach, jak ja lubię
+    typować wypowiedzi w języku naturalnym!), czyli właściwie czysta perswazja, o ile wręcz nie
+    *groźba* ([linczu](https://en.wikipedia.org/wiki/David_Lynch)).
