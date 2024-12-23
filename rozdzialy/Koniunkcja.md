@@ -14,8 +14,7 @@ variable (p q : Prop)
 ```
 
 Podobnie jak implikacja i negacja, koniunkcja jest *zdaniem złożonym*, bo powstaje przez
-zastosowanie *spójnika logicznego*, w tym wypadku spójnika *∧*, który uzyskujemy w Leanie wpisując
-`\and`.
+zastosowanie *spójnika logicznego*, w tym wypadku spójnika *∧*, który uzyskujemy wpisując `\and`.
 
 Dowodem zdania `p ∧ q` jest *uporządkowana para* dowodów złożona z dowodu zdania `p` i dowodu zdania
 `q`, w tej kolejności. Dowód zdania `p ∧ q` można stworzyć *tylko w jeden sposób* - jawnie lub
@@ -30,7 +29,7 @@ variable (hp : p) (hq : q)
 ```
 
 Jeżeli `T₁` i `T₂` to jakieś typy, to `T₁ × T₂` jest typem *par uporządkowanych złożonych z termu
-typu `T₁` i termu typu `T₂`*, w tej kolejności. Żeby uzyskać w Leanie symbol `×` wpisz `\x`.
+typu `T₁` i termu typu `T₂`*, w tej kolejności. Żeby uzyskać symbol `×` wpisz `\x`.
 
 ```lean
 -- Na przykład, tak zapisujemy typ: para uporządkowana złożona z termu typu Nat i termu typu Nat ...
