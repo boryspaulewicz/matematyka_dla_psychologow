@@ -136,21 +136,22 @@ procedury obliczeniowe, które już "coś zrobić" mogą. Żeby stworzyć defini
 podawać ich typ (inaczej jawnie typować), tak jak wcześniej wprost napisaliśmy, że stała `dziesiec`
 ma typ `Nat` (`dziesiec : Nat`).
 
-**Uczenie się przez wcielenie się w rolę**: Wyobraź sobie, że masz zaprojektować również składnię,
-która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji* rozumianych jako
-efektywne procedury obliczeniowe albo po prostu programy. Skoro definicje zapisujemy za pomocą słowa
-kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa kluczowego `fun`. Funkcje rozumiane
-jako programy mają być, cóż, jak programy, ale chcemy również, żeby przypominały również funkcje
-rozumiane tak, jak się je rozumie w matematyce. "Funkcje matematyczne" są najczęściej rozumiane jako
-coś, co każdemu elementowi zbioru nazywanego dziedziną funkcji przyporządkowują dokładnie jeden
-element zbioru nazywanego przeciwdziedziną. Na przykład, (matematyczna) funkcja kwadratowa ze zbioru
-liczb rzeczywistych (będącego jej dziedziną) do zbioru liczb rzeczywistych (jak również jej
-przeciwdziedziną) każdej liczbie *x* przyporządkowuje (dokładnie jedną) wartość *x \* x*.
+**Uczenie się przez wcielenie się w rolę**: Wyobraź sobie teraz, że masz zaprojektować również
+składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji*
+rozumianych jako efektywne procedury obliczeniowe albo po prostu programy. Skoro definicje
+zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa kluczowego
+`fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również, żeby
+przypominały funkcje rozumiane tak, jak się je rozumie w matematyce. "Funkcje matematyczne" są
+często rozumiane jako coś, co każdemu elementowi zbioru nazywanego *dziedziną funkcji*
+przyporządkowują dokładnie jeden element zbioru nazywanego jej *przeciwdziedziną*. Na przykład,
+(matematyczna) funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do
+zbioru liczb rzeczywistych (... jak również jej przeciwdziedziną) każdej liczbie *x*
+przyporządkowuje (dokładnie jedną) wartość *x \* x*.
 
 Ponieważ to ma być jednak funkcja rozumiana jako program, chciałabyś też pewnie, żeby sposób jej
-zapisu kojarzył się łatwo z *procesem przekształcania* i chciałabyś też, żeby dało się w tym zapisie
-wyrazić (odpowiadający pojęciu dziedziny) wymagany typ jej argumentu. Co byś wtedy powiedziała na
-to?:
+zapisu kojarzył się łatwo z *procesem przekształcania* i chciałabyś też może, żeby dało się w tym
+zapisie wyrazić (odpowiadający pojęciu dziedziny) wymagany typ jej argumentu. Co byś wtedy
+powiedziała na to?:
 
 ```lean
 -- Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
@@ -160,7 +161,7 @@ fun (n : Nat) => n * n
 Jeżeli taki fragment kodu ma być w projektowanym przez Ciebie języku poprawny, to pozostaje jeszcze
 kwestia sposobu zapisywania typów tego rodzaju wyrażeń czy struktur. Zgodzisz się chyba, że
 naturalnie byłoby oznaczać takie typy w sposób, który mówi o tym, jaki jest typ argumentu i o tym,
-jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania albo
+jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania i
 przyporządkowywania.
 
 **Polecenie**: Żeby wpisać w Leanie strzałkę napisz `\to` i ulegnij olśnieniu. Gdy już ochłoniesz,
