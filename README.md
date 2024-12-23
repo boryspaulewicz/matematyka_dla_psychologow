@@ -44,7 +44,7 @@ tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera dzięki t
 wielu bardzo sobie bliskich, mających bardzo wiele wspólnych cech, ale jednak różnych osób, bo
 różnych wersji tej samej osoby, z których każda istniała tylko przez chwilę i wniosła coś do
 końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje). Nad
-zewnętrznymi źródłami takich informacji zwrotnych mam jednak bardzo ograniczoną kontrolę.
+zewnętrznymi źródłami informacji zwrotnych mam jednak bardzo ograniczoną kontrolę.
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
