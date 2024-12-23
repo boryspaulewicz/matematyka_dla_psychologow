@@ -53,8 +53,8 @@ dobrego.
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak dla Ciebie brzmią, czy nie, na zachętę zostawię tu na
 razie w postaci dyndającej (ang. *dangling*) następujące pytanie: Jak by to wszystko brzmiało, gdyby
-się okazało, że da się tego rodzaju obserwacje zapisać bez znaczącej utraty ich treści w języku
-formalnym i dzięki temu przekonać się, że są właściwie *płytkie*?
+się okazało, że da się tego rodzaju obserwacje zapisać bez znaczącej utraty treści w języku
+formalnym i przekonać się w ten sposób, że są właściwie *płytkie*?
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
