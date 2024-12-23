@@ -2,8 +2,8 @@
 
 Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji zawartych w rozdziałach
 wcześniejszych. Jeżeli to jest na razie zbyt trudne, to oparte na różnych punktach widzenia,
-szczegółowe wyjaśnienia znajdziesz w następnych dwóch rozdziałach. Ale najpierw spróbuj proszę
-*zobaczyć*.
+szczegółowe wyjaśnienia znajdziesz w następnych dwóch rozdziałach. Ale najpierw spróbuj może
+zobaczyć w kodzie jakiekolwiek wzorce.
 
 ```lean
 -- Jeżeli p i q to jakieś zdania ...
