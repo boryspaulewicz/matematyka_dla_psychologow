@@ -81,7 +81,8 @@ ale *typu ogólniejszego* inaczej *wyższego* (na przykład `Type : Type 1`), i 
 nieskończoność[^1]:
 
 ```lean
--- 2 to "zwykły" term, to jest taki, który nie jest typem. Ja sobie wyobrażam, że takie termy "są na dnie":
+-- 2 to "zwykły" term, albo inaczej *term atomowy*, to jest taki, który nie jest typem. Wyobrażam sobie czasem, że takie 
+-- termy "są na dnie":
 #check 2 -- 2 : Nat
 
 -- Nat to typ i jednocześnie term ogólniejszego typu, który nazywa się Type. Chciałoby się zapisać:
@@ -114,7 +115,7 @@ razie o coś zbliżonego. Nie słyszałaś? To zazdroszczę.
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. To jest typ wyższego rzędu,
 podobnie jak na przykład `Type 1`, to znaczy, termy typu `Prop` same są typami, ale typ `Prop`
 zachowuje się trochę inaczej niż typy `Type n` (gdzie *n* to liczba naturalna). Pokażę Ci teraz, że
-typ `Prop` jest jakby odnogą hierarchii typów:
+typ `Prop` jest jakby odnogą albo odgałęzieniem hierarchii typów:
 
 ```lean
 #check Prop -- Prop : Type
@@ -127,7 +128,7 @@ variable (jakis_term : cos_pod_typem_Prop)
 
 #check Nat -- Nat : Type
 
--- 2 nie jest typem, to tylko term
+-- 2 nie jest typem, to tylko term, inaczej *term atomowy*.
 #check 2 -- 2 : Nat
 ```
 
@@ -136,8 +137,8 @@ dlaczego ten typ będzie dla nas odtąd ważny (chodzi o izomorfizm Curry'ego-Ho
 
 *Termy typu `Prop` można konsekwentnie interpretować jako zdania*.
 
-A ponieważ `Prop` jest typem wyższego rzędu, *zdania są typami*, dlatego często będziemy je nazywać
-*typami zdaniowymi*.
+A ponieważ `Prop` jest typem wyższego rzędu, *zdania są typami*, dlatego też będziemy je również
+nazywać *typami zdaniowymi*.
 
 *Termy typu zdaniowego można konsekwentnie interpretować jako dowody tego zdania (tego typu zdaniowego)*.
 
@@ -151,7 +152,7 @@ będziemy w takich sytuacjach mówić po prostu, że *`h` jest dowodem `a`*. Mam
 dwoma poziomami, na których występują typy (to tylko ilustracja):
 
 ```lean
--- jakis_dowod to tylko term, nie typ
+-- jakis_dowod to tylko term, nie typ, inaczej term atomowy
 -- jakies_zdanie to typ, ale również term, bo każdy typ to również term
 -- Typem termu (i zarazem typu) jakies_zdanie jest Prop. Wiem wiem, ale pamiętaj proszę, że przecież wszystko mija.
 jakis_dowod : jakies_zdanie : Prop
