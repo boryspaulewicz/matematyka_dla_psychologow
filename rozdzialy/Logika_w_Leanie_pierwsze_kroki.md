@@ -111,8 +111,6 @@ mieszkańców, którzy akurat stoją na jednej nodze, ale niekoniecznie swojej, 
 bardziej ostrożny, gdy używa brzytwy, bo jak ich goli, to... Może pomińmy szczegóły. Chodzi w każdym
 razie o coś zbliżonego. Nie słyszałaś? To zazdroszczę.
 
-**Typy są trochę jak zbiory, ale nie całkiem**: 
-
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. To jest typ wyższego rzędu,
 podobnie jak na przykład `Type 1`, to znaczy, termy typu `Prop` same są typami, ale typ `Prop`
 zachowuje się trochę inaczej niż typy `Type n` (gdzie *n* to liczba naturalna). Pokażę Ci teraz, że
