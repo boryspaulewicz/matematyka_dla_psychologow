@@ -142,7 +142,7 @@ Byłabyś w stanie zobaczyć ten proces powstrzymując się od patrzenia na nieg
 możliwych sposobów osiągania go i przeszkód w jego osiągnięciu? Bez nawykowego interpretowania
 ruchów myszy jako skutków informacji docierającej do jej zmysłów i tego, do czego ta mysz dąży? Czy
 jesteś w stanie popatrzeć na taką poruszającą się w bardzo regularny sposób mysz tak jak patrzysz na
-przykład na ciemną esencję herbaty rozpuszczającą się w gorącej wodzie? Jak myślisz, co by Ci mogło
+przykład na esencję herbaty rozpuszczającą się w gorącej wodzie? A jak myślisz, co by Ci mogło
 umożliwić patrzenie w ten sposób na proces rozmowy, albo na przykład na rozgrywający się dłużej akt
 pisania ksiażki?
 
