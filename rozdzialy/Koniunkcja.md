@@ -65,11 +65,11 @@ przechwycić pierwszy i drugi element korzystając z *dopasowania wzorców w mie
 
 ```lean
 def dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' : Nat × Nat → Nat :=
-    -- Ponieważ Lean może wywnioskować typ parametru z pozostałych informacji, dla uproszczenia nie stosuję tu jawnego
-    -- typowania.
+    -- Ponieważ Lean może wywnioskować typ parametru z pozostałych informacji, dla uproszczenia nie stosuję tu 
+    -- jawnego typowania.
     -- Ponieważ istnieje tylko jeden sposób skonstruowania termu typu Nat × Nat, argument można 
-    -- "zdekonstruować w parametrze". Polega to na tym, że zmienne pierwszy i drugi "przechwytują" elementy uporządkowanej
-    -- pary, bez konieczności wybodywania ich za pomocą funkcji fst i snd.
+    -- "zdekonstruować w parametrze". Polega to na tym, że zmienne pierwszy i drugi "przechwytują" elementy 
+    -- uporządkowanej pary, bez konieczności wybodywania ich za pomocą funkcji fst i snd.
     fun (⟨pierwszy, drugi⟩) => pierwszy + drugi
 
 #eval dodaje_do_siebie_elementy_pary_uporzadkowanej_liczb' moja_para_liczb -- 3
