@@ -38,9 +38,9 @@ Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą przedstawił w
 polski można znaleźć [tutaj](file:///home/borys/Principia%2015%20Russell%20Logika.pdf). Wreszcie
 akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym momencie
 dość gwałtownie i w dodatku sprawdził się już znakomicie jako narzędzie
-[dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024) (a
-[tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) można znaleźć zaimplementowaną w
-Leanie *grę*, polegająca na dowodzeniu twierdzeń o liczbach naturalnych).
+[dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024)
+([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) można znaleźć zaimplementowaną w
+Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
 
 Pierwsze trzy rozdziały mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na
