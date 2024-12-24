@@ -552,7 +552,5 @@ liczbę naturalną.
 
 **Do rozważenia**: Po przeczytaniu tego rozdziału i ewentualnym podjęciu prób wykonania niektórych
 lub wszystkich poleceń warto może wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
-sprawach, ale w inny sposób. Wydaje mi się, że dość szybko treści obydwu tych pierwszych rozdziałów
-staną się dla Ciebie w miarę jasne. Wtedy możesz już śmiało przejść do rozdziału, w którym zaczniemy
-się uczyć o *logice* i *dowodzeniu twierdzeń*, ale przedtem powiem parę rzeczy na temat izomorfizmu
-Curry'ego-Howarda.
+sprawach, ale w inny sposób. Wydaje mi się, że w ten sposób dość szybko treści obydwu tych
+pierwszych rozdziałów staną się dla Ciebie w miarę jasne.
