@@ -38,7 +38,8 @@ psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie 
 publikacjach. A teoria typów wyposażona w typy zależne jest zdaje mi się czymś najbliższym, co
 obecnie mamy, do realizacji wizji[^2] [Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell),
 którą przedstawił w wykładzie pod tytułem *Logika jako istota filozofii* w 1914 roku w Londynie, a
-który w wersji przetłumaczonej na język polski można znaleźć [tutaj](file:///home/borys/Principia%2015%20Russell%20Logika.pdf). 
+który w wersji przetłumaczonej na język polski można znaleźć
+[tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
 Wreszcie akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym
 momencie dość gwałtownie i w dodatku sprawdził się już znakomicie jako narzędzie
 [dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024)
