@@ -83,9 +83,10 @@ większa jest szansa na zbliżenie się do czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę zostawię tu na razie w
-postaci dyndającej (ang. *dangling*) następujące pytanie: Jak sądzisz, jak by to wszystko
-zabrzmiało, gdyby miało się okazać, że da się takie jak te wyżej obserwacje zapisać bez znaczącej
-utraty ich treści w języku formalnym i przekonać się w ten sposób, że są właściwie *płytkie*?
+postaci dyndającej (ang. [*dangling*](https://en.wikipedia.org/wiki/Dangling_modifier)) następujące
+pytanie: Jak sądzisz, jak by to wszystko zabrzmiało, gdyby miało się okazać, że da się takie jak te
+wyżej obserwacje zapisać bez znaczącej utraty ich treści w języku formalnym i przekonać się w ten
+sposób, że są właściwie *płytkie*?
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
