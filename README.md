@@ -61,7 +61,7 @@ lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [roz
 zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka,
 razem z publicznie dostępną historią zachodzących zmian, może być ilustracją sposobu, w jaki
 zacząłem ostatnio myśleć o tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Akt pisania książki
-jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania choćby
+jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania chociażby
 dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku
 aktem *w ramach którego*, dzięki stałej autorefleksji jak również dzięki informacjom zwrotnym
 pochodzącym od jej czytelników, zachodzi proces *uczenia się*, choć nie da się powiedzieć
