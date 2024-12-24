@@ -12,7 +12,7 @@ które zaczyna się szybko intuicyjnie czuć używając tej teorii i programują
 czuje gramatykę języka ojczystego, i moim zdaniem tłumaczenie tego bardziej szczegółowo
 niekoniecznie w czymkolwiek znacząco pomaga.
 
-<br>
+<hr>
 
 # Modus ponens i obliczenia w dwóch wymiarach
 

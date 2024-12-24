@@ -9,7 +9,7 @@ Nazwa może i brzmi groźnie, ale gdy zrozumiesz, w jaki sposób będziemy ten i
 stanie się dla Ciebie jasne, że to nic strasznego. Na początek powiem Ci coś moim zdaniem ciekawego
 o izomorfizmach w ogóle.
 
-<br>
+<hr>
 
 # Izomorfizm Curry'ego-Howarda
 

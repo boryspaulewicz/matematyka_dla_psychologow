@@ -3,7 +3,7 @@
 Nie bardzo wiem, co tu napisać. Zadania jak zadania. Z dowodzenia implikacji w trybie interaktywnym
 i poprzez pisanie wprost kodu.
 
-<br>
+<hr>
 
 # Kilka zadań z dowodzenia implikacji
 

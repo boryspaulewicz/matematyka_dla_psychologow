@@ -3,7 +3,7 @@
 Już poprzednie sekcje *O czym teraz będzie* były ewidentnie napisane lewą nogą z wanny, więc nie
 będę dalej oszukiwał Ciebie ani siebie i na razie sobie je daruję.
 
-<br>
+<hr>
 
 # Negacja w praktyce dowodzenia, pierwsze kroki
 

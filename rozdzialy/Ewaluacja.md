@@ -3,7 +3,7 @@
 Ten rozdział jest tylko po to, żeby zwrócić Twoją uwagę na głębsze znaczenie tego, z czym właśnie
 się zetknęłaś.
 
-<br/>
+<hr>
 
 Najważniejsze, co robi Lean, to ewaluacja (inaczej redukcja) aplikacji i sprawdzanie poprawności
 kodu. Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, wystarczy, jeżeli

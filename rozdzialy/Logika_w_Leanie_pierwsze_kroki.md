@@ -7,7 +7,7 @@ robić, będzie miało szczególny *sens* albo *interpretację*. Dlatego najwię
 lektury tego rozdziału będzie przyzwyczajnie się do subtelności o charakterze *pojęciowym*; na
 poziomie praktycznym programowania to będzie właściwie bułka z masłem.
 
-<br>
+<hr>
 
 # Logika na Leanie, pierwsze kroki
 

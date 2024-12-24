@@ -3,7 +3,7 @@
 No tutaj to chyba akurat zdecydowanie *ja* bawię się najlepiej. Może choć trochę i Tobie się
 udzieli. A rozdział dotyczy negacji i sprzeczności w logice konstruktywnej.
 
-<br>
+<hr>
 
 # Negacja, absurd, fałsz, sprzeczność i eksplozja
 

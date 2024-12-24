@@ -6,7 +6,7 @@ zrozumienia rozdziały kolejne, będzie zależało w znacznym stopniu od tego, j
 wytłumaczyć Ci najważniejsze kwestie omawiane właśnie tutaj. Dlatego jest możliwe, że przyda się
 przynajmniej zerknąć do poprzedniej wersji po tym jak przeczytasz tą.
 
-<br>
+<hr>
 
 **Motywator**: Gdy już objaśnię ogólną strukturę i sposób działania funkcji w Leanie, pokażę Ci, że
 będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik logiczny ∀, który
