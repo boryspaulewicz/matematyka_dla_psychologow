@@ -3,7 +3,11 @@ w formie żeńskiej (tak wiem). Ponieważ żal mi usuwać te wszystkie wzbudzaj�
 skrępowanie zabawy językowe, które się tu w związku z płcią odbiorcy pojawiają i które połączyłem w
 pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać*.
 
-Formalizacja jest procesem *twórczym*.
+<br/>
+
+<div style="text-align: right"> Formalizacja jest procesem *twórczym*. </div>
+
+<br/>
 
 # Predykaty
 

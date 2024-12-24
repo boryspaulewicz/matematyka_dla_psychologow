@@ -119,8 +119,8 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
 [R9 Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
 
-[R10 Predykaty, relacje, duży kwantyfikator i dowód na istnienie
-Boga](./rozdzialy/Predykaty_dowod_Anzelma.md)
+[R10 Predykaty, relacje, duży kwantyfikator, dowód na istnienie Boga i chaotyczna natura
+formalizacji](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
 [R11 Duży kwantyfikator i implikacja w
 zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
