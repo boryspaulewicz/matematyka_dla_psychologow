@@ -149,5 +149,5 @@ W planach: Sekcja zwłok, studium przypadku
     dłuższy czas nie może być lekka, bo dotyczy podobnych zastosowań, tyle, że jednocześnie
     [*homotopijnej* teorii typów](https://homotopytypetheory.org/book/) i [teorii
     kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii), którą nawet zawodowi matematycy
-    określają czasami (czule!) jako [*abstract
+    określają czasem (czule!) jako [*abstract
     nonsense*](https://en.wikipedia.org/wiki/Abstract_nonsense).
