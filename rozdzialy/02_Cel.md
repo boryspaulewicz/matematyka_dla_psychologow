@@ -113,8 +113,8 @@ wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i m
 małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii. W dodatku w
 pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
 wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
-[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w swoim doktoracie, a
-którą bardzo długo błędnie rozumiałem:
+[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w swoim
+[doktoracie](./rozdzialy/praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
 
 > Koncepcja, za którą się tu opowiadamy, głosi, ujmując rzecz pokrótce, że zawsze, gdy jakąś reakcję
 > cechuje wyuczalność w odniesieniu do pewnego końcowego rezultatu - gdy reakcja ta ma skłonność do:
