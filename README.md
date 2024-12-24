@@ -32,10 +32,10 @@ wnioskowanie przyczynowe czy formalizacja jakiś wyrażonych w języku naturalny
 psychologicznych w postaci modeli matematycznych rozmaitych zjawisk, tylko *formalizacja rozumowań*,
 jakie psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w
 publikacjach. A teoria typów wyposażona w typy zależne jest zdaje mi się czymś najbliższym, co
-obecnie mamy, do realizacji wizji [Bertranda
+obecnie mamy, do realizacji wizji[^2] [Bertranda
 Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą przedstawił w wykładzie pod tytułem
 *Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji przetłumaczonej na język
-polski można znaleźć [tutaj][^2](file:///home/borys/Principia%2015%20Russell%20Logika.pdf). Wreszcie
+polski można znaleźć [tutaj](file:///home/borys/Principia%2015%20Russell%20Logika.pdf). Wreszcie
 akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym momencie
 dość gwałtownie i w dodatku sprawdził się już znakomicie jako narzędzie
 [dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024).
@@ -133,7 +133,7 @@ W planach: Sekcja zwłok, studium przypadku
 [^2]: Więcej na ten fascynujący temat można poczytać w
     [tej](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404?cc=it&lang=en&)
     interesującej książce, ale niestety nie jest to lektura lekka, łatwa i przyjemna, to znaczy może
-    stać się w końcu względnie łatwa i przyjemna, ale żeby tak się stało, to przez dłuższy czas musi
+    stać się w końcu względnie łatwa i przyjemna, ale żeby się tak stało, to przez dłuższy czas musi
     nie być lekka, bo dotyczy podobnych zastosowań, tyle, że jednocześnie [*homotopijnej* teorii
     typów](https://homotopytypetheory.org/book/) i [teorii
     kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii).
