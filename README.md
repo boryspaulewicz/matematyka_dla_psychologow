@@ -21,23 +21,23 @@ pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
 rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software))?** Teoria typów dlatego, że pozwala
-sformalizować w pełni i we względnie naturalny sposób dowolne treści matematyczne i jest przy tym
-jednocześnie pełnowartościowym ([funkcyjnym i
+sformalizować w pełni i we względnie naturalny sposób niemal dowolne treści o ogólnie rozumianym
+matematycznym charakterze i jest przy tym jednocześnie pełnowartościowym ([funkcyjnym i
 czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)) językiem programowania. W dodatku
 to nie jest jakiś tam kolejny taki język, tylko taki, którego składnia powstawała stopniowo jako
-rezultat badań wielu wybitnych matematyków i filozofów przeszłości zajmujących się podstawami
-matematyki. Ale teoria typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem
-matematyki w psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani
-wnioskowanie przyczynowe czy formalizacja jakiś wyrażonych w języku naturalnym teorii lub modeli
-psychologicznych w postaci modeli matematycznych rozmaitych zjawisk, tylko *formalizacja rozumowań*,
-jakie psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w swoich
+rezultat badań wielu wybitnych matematyków i filozofów zajmujących się podstawami matematyki. Ale
+teoria typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem matematyki w
+psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani wnioskowanie
+przyczynowe czy formalizacja jakiś wyrażonych w języku naturalnym teorii lub modeli psychologicznych
+w postaci modeli matematycznych rozmaitych zjawisk, tylko *formalizacja rozumowań*, jakie
+psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w swoich
 publikacjach. A teoria typów wyposażona w typy zależne jest zdaje mi się czymś najbliższym, co
-obecnie mamy, do realizacji wizji[^2] [Bertranda
-Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą przedstawił w wykładzie pod tytułem
-*Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji przetłumaczonej na język
-polski można znaleźć [tutaj](file:///home/borys/Principia%2015%20Russell%20Logika.pdf). Wreszcie
-akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym momencie
-dość gwałtownie i w dodatku sprawdził się już znakomicie jako narzędzie
+obecnie mamy, do realizacji wizji[^2] [Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell),
+którą przedstawił w wykładzie pod tytułem *Logika jako istota filozofii* w 1914 roku w Londynie, a
+który w wersji przetłumaczonej na język polski można znaleźć
+[tutaj](file:///home/borys/Principia%2015%20Russell%20Logika.pdf). Wreszcie akurat Lean dlatego, że
+ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym momencie dość gwałtownie i w
+dodatku sprawdził się już znakomicie jako narzędzie
 [dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024)
 ([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) na przykład można znaleźć
 zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
