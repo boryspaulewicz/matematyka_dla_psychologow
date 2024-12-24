@@ -1,4 +1,4 @@
-## O czym to będzie
+## O czym teraz będzie
 
 Nie bardzo wiem, co tu napisać. Zadania jak zadania. Z dowodzenia implikacji w trybie interaktywnym
 i poprzez pisanie wprost kodu.

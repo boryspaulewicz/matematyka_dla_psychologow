@@ -1,4 +1,4 @@
-## O czym to będzie
+## O czym teraz będzie
 
 W tym rozdziale będziesz mogła nareszcie zacząć robić gwałtowne postępy w uczeniu się matematyki, a
 konkretnie zaczniesz ćwiczyć dowodzenie twierdzeń. W gruncie rzeczy, poza pierwszym kontaktem z

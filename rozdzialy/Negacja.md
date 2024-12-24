@@ -1,4 +1,4 @@
-## O czym to będzie
+## O czym teraz będzie
 
 No tutaj to chyba akurat zdecydowanie *ja* bawię się najlepiej. Może choć trochę i Tobie się
 udzieli. A rozdział dotyczy negacji i sprzeczności w logice konstruktywnej.

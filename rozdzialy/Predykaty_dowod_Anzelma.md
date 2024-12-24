@@ -1,4 +1,4 @@
-## O czym to będzie
+## O czym teraz będzie
 
 Ten celowo dosyć chaotyczny rozdział napisałem zanim jeszcze zdecydowałem się zwracać do czytelnika
 w formie żeńskiej (tak wiem). Ponieważ żal mi usuwać te wszystkie wzbudzające mam nadzieję
