@@ -19,7 +19,7 @@ szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdzies
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
 **Dlaczego teoria typów i dlaczego akurat
-[Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)) a nie na przykład znacznie dłużej
+[Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
 rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software))?** Teoria typów dlatego, że pozwala
 sformalizować w pełni i we względnie naturalny sposób dowolne treści matematyczne i jest przy tym
 jednocześnie pełnowartościowym ([funkcyjnym i
