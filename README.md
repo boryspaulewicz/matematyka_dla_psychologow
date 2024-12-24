@@ -52,12 +52,12 @@ lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [roz
 Piszę tą książkę w taki a nie inny sposób, to jest posyłając czasem mniejsze a czasami większe
 zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka,
 razem z historią zachodzących zmian, może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
-tym czym jest zachowanie. Akt pisania książki jest przecież co prawda długim, ale jednak w pewnym
-sensie pojedynczym aktem zachowania choćby dlatego, że da się przynajmniej orientacyjnie wskazać
-początek i koniec tego procesu. Jest w dodatku aktem *w ramach którego*, dzięki stałej
-autorefleksji, zachodzi proces *uczenia się*, choć nie da się powiedzieć jednoznacznie czego, a
-także procesem *odkrywania* czy raczej ustalania się być może jakiegoś *dominującego*, ale nadal z
-konieczności *nieunikalnego celu*.
+tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Akt pisania książki jest przecież co prawda
+długim, ale jednak w pewnym sensie pojedynczym aktem zachowania choćby dlatego, że da się
+przynajmniej orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem *w ramach
+którego*, dzięki stałej autorefleksji, zachodzi proces *uczenia się*, choć nie da się powiedzieć
+jednoznacznie czego, a także procesem *odkrywania* czy raczej ustalania się być może jakiegoś
+*dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem książki a napisaniem na
 przykład tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje
