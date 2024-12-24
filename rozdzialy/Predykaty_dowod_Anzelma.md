@@ -5,7 +5,7 @@ pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać*.
 
 <br/>
 
-<div style="text-align: justify"> Formalizacja jest procesem <em>twórczym</em>. </div>
+<div align="right"> Formalizacja jest procesem <em>twórczym</em>. </div>
 
 <br/>
 
