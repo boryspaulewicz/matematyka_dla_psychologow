@@ -42,44 +42,45 @@ dość gwałtownie i w dodatku sprawdził się już znakomicie jako narzędzie
 ([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) można znaleźć zaimplementowaną w
 Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
 
-Pierwsze trzy rozdziały mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów
-kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na
-wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto moim zdaniem
+**Pierwsze trzy rozdziały**, za wyjątkiem wybiegającej nieco w przyszłość części rozdziału
+trzeciego, mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów kodu ani
+żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na wynikach
+badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto moim zdaniem
 podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*, które może
 znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi, jak na książkę skierowaną
 do psychologów, tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić
 lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
 ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
 
-Piszę tą książkę w taki a nie inny sposób, to jest posyłając czasem mniejsze a czasami większe
+**Piszę tą książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami większe
 zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka,
-razem z historią zachodzących zmian, może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
-tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Akt pisania książki jest przecież co prawda
-długim, ale jednak w pewnym sensie pojedynczym aktem zachowania choćby dlatego, że da się
-przynajmniej orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem *w ramach
-którego*, dzięki stałej autorefleksji, zachodzi proces *uczenia się*, choć nie da się powiedzieć
+razem z publicznie dostępną historią zachodzących zmian, może być ilustracją sposobu, w jaki
+zacząłem ostatnio myśleć o tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Akt pisania książki
+jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania choćby
+dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku
+aktem *w ramach którego*, dzięki stałej autorefleksji jak również dzięki informacjom zwrotnym
+pochodzącym od jej czytelników, zachodzi proces *uczenia się*, choć nie da się powiedzieć
 jednoznacznie czego, a także procesem *odkrywania* czy raczej ustalania się być może jakiegoś
 *dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem książki a napisaniem na
 przykład tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje
-zwrotne pochodzące od czytelników, bo zachowania ludzi są zwykle w mniejszym lub większym stopniu
-czymś, co tworzy się w ramach tego rodzaju społecznych interakcji i co nabiera dzięki takim
-interakcjom (również nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat
-interakcji wielu bardzo sobie bliskich, bo mających wiele wspólnych cech, ale jednak nieco *różnych*
-osób, bo *różnych wersji tej samej osoby*, z których każda istniała tylko przez chwilę i wniosła coś
-do końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a
-następnie to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad
-*zewnętrznymi* źródłami tego rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a
-szkoda, bo przecież im więcej punktów widzenia bierze udział w tego rodzaju procesie i im bardziej
-te punkty widzenia są różne, tym większa jest szansa na przybliżenie czegoś uniwersalnie
-dobrego.
+zwrotne "z zewnątrz", bo zachowania ludzi są prawie zawsze w mniejszym lub większym stopniu czymś,
+co tworzy się w ramach społecznych interakcji i co nabiera dzięki takim interakcjom (również
+nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji wielu
+bardzo sobie bliskich, bo mających wiele wspólnych cech, ale jednak nieco *różnych* osób, bo
+*różnych wersji tej samej osoby*, z których każda istniała tylko przez chwilę i wniosła coś do
+końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a następnie
+to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad *zewnętrznymi*
+źródłami tego rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a szkoda, bo
+przecież im więcej punktów widzenia bierze udział w tego rodzaju procesie i im bardziej te punkty
+widzenia są różne, tym większa jest szansa na zbliżenie się do czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
-jestem Tobą, ale niezależnie od tego, czy tak dla Ciebie brzmią, czy nie, na zachętę zostawię tu na
-razie w postaci dyndającej (ang. *dangling*) następujące pytanie: Jak by to wszystko brzmiało, gdyby
-się okazało, że da się tego rodzaju obserwacje zapisać bez żadnej znaczącej utraty ich treści w
-języku formalnym i przekonać się w ten sposób, że są właściwie *płytkie*?
+jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę zostawię tu na razie w
+postaci dyndającej (ang. *dangling*) następujące pytanie: Jak sądzisz, jak by to wszystko
+zabrzmiało, gdyby miało się okazać, że da się takie jak te wyżej obserwacje zapisać bez znaczącej
+utraty ich treści w języku formalnym i przekonać się w ten sposób, że są właściwie *płytkie*?
 
 [*Radosna działalność*](https://www.youtube.com/watch?v=AZzcE04ssoQ) (ang. *fun activity*): Żeby
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
