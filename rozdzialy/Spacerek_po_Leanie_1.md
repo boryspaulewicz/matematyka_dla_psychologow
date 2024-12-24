@@ -1,7 +1,7 @@
 <br/>
 
 <div align="right"><em>Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie
-dość głęboko zapuszcza korzenie. Cała ziemia jest jego<em/>. - Fryderyk Hebbel</div>
+dość głęboko zapuszcza korzenie. Cała ziemia jest jego<em/>.<br/>Fryderyk Hebbel</div>
 
 <br/> 
 <br/> 
