@@ -1,4 +1,4 @@
-# Kilka trywialnych i mechanicznych operacji
+# Kilka trywialnych mechanicznych operacji
 
 Przypuszczam, ¿e ju¿ w podstawówce sta³o siê dla Ciebie oczywiste, ¿e je¿eli *A = B* i *B = C*, to
 *A = C*, niezale¿nie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci siê równie¿
