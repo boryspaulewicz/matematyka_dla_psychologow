@@ -35,7 +35,8 @@ psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani 
 przyczynowe czy formalizacja jakiś wyrażonych w języku naturalnym teorii lub modeli psychologicznych
 w postaci modeli matematycznych rozmaitych zjawisk, tylko *formalizacja rozumowań*, jakie
 psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w swoich
-publikacjach. A teoria typów wyposażona w typy zależne jest zdaje mi się czymś najbliższym, co
+publikacjach. A teoria typów wyposażona w [typy
+zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się czymś najbliższym, co
 obecnie mamy, do realizacji wizji[^2] [Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell),
 którą przedstawił w wykładzie pod tytułem *Logika jako istota filozofii* w 1914 roku w Londynie, a
 który w wersji przetłumaczonej na język polski można znaleźć
