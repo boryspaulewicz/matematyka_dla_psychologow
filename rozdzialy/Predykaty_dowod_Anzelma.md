@@ -1,4 +1,4 @@
-Ten celowo dosyć chaotyczny rozdział napisałem zanim jeszcze zdecydowałem się zwracać do czytelnika
+*Ten celowo dosyć chaotyczny rozdział napisałem zanim jeszcze zdecydowałem się zwracać do czytelnika
 w formie żeńskiej (tak wiem). Ponieważ żal mi usuwać te wszystkie wzbudzające mam nadzieję
 skrępowanie zabawy językowe, które się tu w związku z płcią odbiorcy pojawiają i które połączyłem w
 pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać*.
