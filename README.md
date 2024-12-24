@@ -65,7 +65,7 @@ jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem z
 dlatego, że da się przynajmniej orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku
 aktem *w ramach którego*, dzięki stałej autorefleksji jak również dzięki informacjom zwrotnym
 pochodzącym od jej czytelników, zachodzi proces *uczenia się*, choć nie da się powiedzieć
-jednoznacznie czego, a także procesem *odkrywania* czy raczej ustalania się być może jakiegoś
+jednoznacznie czego, jak również proces *odkrywania* czy raczej ustalania się być może jakiegoś
 *dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
