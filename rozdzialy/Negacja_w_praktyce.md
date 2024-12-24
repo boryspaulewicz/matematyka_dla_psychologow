@@ -1,3 +1,10 @@
+## Co teraz będzie
+
+Już poprzednie sekcje *Co teraz będzie* były ewidentnie napisane lewą nogą z wanny, więc nie będę
+dalej oszukiwał Ciebie ani siebie i na razie sobie je daruję.
+
+<br>
+
 # Negacja w praktyce dowodzenia, pierwsze kroki
 
 Myślę, że jesteś już gotowa, żeby poćwiczyć dowodzenie zdań zawierających negację. Nie wiem tylko

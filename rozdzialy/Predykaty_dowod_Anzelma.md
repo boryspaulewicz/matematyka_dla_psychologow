@@ -1,7 +1,24 @@
-*Ten celowo dosyć chaotyczny rozdział napisałem zanim jeszcze zdecydowałem się zwracać do czytelnika
+## O czym to będzie
+
+Ten celowo dosyć chaotyczny rozdział napisałem zanim jeszcze zdecydowałem się zwracać do czytelnika
 w formie żeńskiej (tak wiem). Ponieważ żal mi usuwać te wszystkie wzbudzające mam nadzieję
 skrępowanie zabawy językowe, które się tu w związku z płcią odbiorcy pojawiają i które połączyłem w
-pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać*.
+pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać.
+
+Dużo tu się dzieje i nie bardzo wiem, jak to wszystko podsumować. Może spróbuję w ten sposób: Logika
+oferuje bogaty repertuar narzędzi, których można próbować używać, żeby tak jakby wyciągać z tekstu
+sam szkielet głównego rozmuwania. Tak to sobie w każdym razie czasem wyobrażam. 
+
+Wiążę z tym spore nadzieje, bo jestem przekonany, że to się może szczególnie przydać psychologom. A
+jestem o tym przekonany, bo gdy po tym, jak przez trzy lata studiowałem filozofię (w której niemal
+od początku interesowała mnie głównie analiza pojęciowa i logiczna) rozpocząłem studia
+psychologiczne, zacząłem czytać te wszystkie podręczniki, monografie i artykuły recenzowane i, jak
+by to ująć, rzadko byłem zachwycony poziomem intelektualnym tego, na co tam trafiałem. Przypuszczam,
+że miałaś czasem podobnie, ale może pamiętasz to już teraz mgliście, bo ten proces prania mózgu i
+oduczania krytycznego myślenia, na którym do pewnego stopnia muszą polegać studia magisterskie z
+psychologii, posunął się już trochę za daleko. Jeżeli tak, to spróbuję coś na to zaradzić.
+
+<hr>
 
 <br/>
 

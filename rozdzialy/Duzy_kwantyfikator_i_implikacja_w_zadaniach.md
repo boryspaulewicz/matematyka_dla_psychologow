@@ -1,3 +1,9 @@
+## O czym teraz będzie
+
+Znowu zadania. No to ten.
+
+<br>
+
 Żeby wprowadzić symbol dużego kwantyfikatora należy napisać `\forall`. Dla nas duży kwantyfikator to
 nic innego jak zapisanie parametru po prawej od dwukropka. Zwracam uwagę, że po zmiennej związanej
 takim kwantyfikatorem musi się pojawić przecinek, a po ostatnim takim przecinku dwukropka już nie

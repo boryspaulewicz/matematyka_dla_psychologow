@@ -1,3 +1,10 @@
+## O czym to będzie
+
+Nie bardzo wiem, co tu napisać. Zadania jak zadania. Z dowodzenia implikacji w trybie interaktywnym
+i poprzez pisanie wprost kodu.
+
+<br>
+
 # Kilka zadań z dowodzenia implikacji
 
 Niedawno napisał do mnie Tomek Smoleń, który pracuje teraz na Krakowskiej kognitywistycee i z którym

@@ -1,3 +1,10 @@
+## O czym to będzie
+
+No tutaj to chyba akurat zdecydowanie *ja* bawię się najlepiej. Może choć trochę i Tobie się
+udzieli. A rozdział dotyczy negacji i sprzeczności w logice konstruktywnej.
+
+<br>
+
 # Negacja, absurd, fałsz, sprzeczność i eksplozja
 
 Podaję za
