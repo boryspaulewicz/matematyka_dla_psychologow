@@ -94,8 +94,8 @@ tematem. I w przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za c
 
 Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym poprawić, chętnie korzystam z oficialnej
 [aplikacji](https://play.google.com/store/apps/details?id=com.github.android&hl=en) do przeglądania
-repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie można wtedy wygodnie używać Leana,
-ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
+repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie da się wtedy co prawda wygodnie
+przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
