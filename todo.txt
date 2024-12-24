@@ -1,3 +1,7 @@
+Dlaczego teoria typów i dlaczego Lean w README
+
+O kurczeniu siê reprezentacji.
+
 ZACZ¥Æ od anonimowych funkcji?
 
 Mo¿e jednak zacz¹æ prawie bez s³ów? Tylko nabywanie wprawy w programowaniu za pomoc¹ rozpoznawania

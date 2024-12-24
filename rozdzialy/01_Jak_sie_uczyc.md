@@ -34,10 +34,17 @@ nawet tylko do dnia nastêpnego, ju¿ by tak ³atwa nie by³a, bo utrada dostêpu do 
 postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w miarê
 *³atwej* powtórki zapis pamiêciowy utrwala siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do
 nastêpnej *³atwej* powtórki, która jeszcze bardziej utrwala zapis i w ten sposób ka¿da kolejna
-powtórka daje coraz lepszy skutek. Dzieje siê wtedy, mam wra¿enie, jeszcze co¶ innego - tre¶æ zdaje
-siê subiektywnie *kurczyæ*, tak jakby liczne powi±zane ze sob± reprezentacje pamiêciowe zaczyna³y w
-coraz wiêkszym stopniu tworzyæ jedn±, zwart±, hierarchiczn± strukturê, u³atwiaj±c± szybkie
-odnajdywanie tego, co jest w danej sytuacji najwa¿niejsze.
+powtórka daje coraz lepszy skutek. 
+
+Dzieje siê wtedy, mam wra¿enie, jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak
+jakby liczne powi±zane ze sob± reprezentacje pamiêciowe zaczyna³y w coraz wiêkszym stopniu tworzyæ
+jedn±, zwart±, hierarchiczn± strukturê, u³atwiaj±c± szybkie odnajdywanie tego, co jest w danej
+sytuacji najwa¿niejsze. A mówi±c o tym zjawisku z perspektywy stanowiska meta-teoretycznego, które
+wprowadzê w drugiej czê¶ci ksi±¿ki, a z którego mogê ju¿ teraz skorzystaæ, bo nawet bez
+wcze¶niejszego t³umaczenia o co w nim dok³adnie chodzi, da siê go jak s±dzê u¿ywaæ nie ryzykuj±c, ¿e
+bêdzie siê ca³kiem niezrozumianym, mo¿na by powiedzieæ tak: Na skutek takiego powtarzania tre¶æ
+zdaje siê subiektywnie kurczyæ, *co znaczy, ¿e coraz szybciej udaje siê zwykle odnale¼æ informacje,
+które s± w danej sytuacji najwa¿niejsze*.
 
 Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, kiedy powtarza³em tre¶ci z ksi±¿ki po *roku* od

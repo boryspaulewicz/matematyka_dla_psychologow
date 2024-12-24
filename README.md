@@ -18,6 +18,27 @@ szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdzies
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
+Dlaczego teoria typów i dlaczego akurat [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant))
+a nie na przykład znacznie dłużej rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software))?
+
+Teoria typów dlatego, że pozwala sformalizować w pełni i we względnie naturalny sposób dowolne
+treści matematyczne i jest przy tym jednocześnie pełnowartościowym ([funkcyjnym i
+czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)) językiem programowania. W dodatku
+to nie jest jakiś tam kolejny taki język, tylko taki, którego składnia powstawała stopniowo jako
+rezultat badań wielu wybitnych matematyków i filozofów przeszłości zajmujących się podstawami
+matematyki. Ale teoria typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem
+matematyki w psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani
+wnioskowanie przyczynowe czy formalizacja jakiś teorii lub modeli psychologicznych w postaci modeli
+matematycznych rozmaitych zjawisk, tylko *formalizacja rozumowań*, jakie psychologowie wyrażają,
+czasami bardziej, ale zwykle niestety mniej czytelnie w publikacjach. A teoria typów wyposażona w
+typy zależne jest czymś najbliższym, co obecnie mamy, do realizacji wizji [Bertranda
+Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą przedstawił w wykładzie pod tytułem
+*Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji przetłumaczonej na język
+polski można znaleźć [tutaj](file:///home/borys/Principia%2015%20Russell%20Logika.pdf)[^2]. Wreszcie
+akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym momencie
+dość gwałtownie i w dodatku sprawdził się już znakomicie jako narzędzie
+[dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024).
+
 Pierwsze trzy rozdziały mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów
 kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na
 wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto moim zdaniem
@@ -107,3 +128,11 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 W planach: Sekcja zwłok, studium przypadku
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
+
+[^2]: Więcej na ten fascynujący temat można poczytać w
+    [tej](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404?cc=it&lang=en&)
+    interesującej książce, ale niestety nie jest to lektura lekka, łatwa i przyjemna, to znaczy może
+    stać się w końcu względnie łatwa i przyjemna, ale żeby tak się stało, to przez dłuższy czas musi
+    nie być lekka, bo dotyczy podobnych zastosowań, tyle, że jednocześnie [*homotopijnej* teorii
+    typów](https://homotopytypetheory.org/book/) i [teorii
+    kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii).
