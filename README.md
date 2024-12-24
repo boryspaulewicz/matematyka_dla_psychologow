@@ -48,7 +48,7 @@ momencie dość gwałtownie, a w dodatku sprawdził się już znakomicie jako na
 ([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) na przykład można znaleźć
 zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
 
-**Pierwsze trzy rozdziały**, za wyjątkiem **wybiegającej nieco w przyszłość części rozdziału
+**Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających nieco w przyszłość części rozdziału
 trzeciego**, mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów kodu ani
 żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na wynikach
 badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto moim zdaniem
