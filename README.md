@@ -55,8 +55,9 @@ badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak war
 podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*, które może
 znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi, jak na książkę skierowaną
 do psychologów, tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić
-lepiej, niż umiem (to niekoniecznie tautologia, za to te, które omawiam w [rozdziale
-ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi z pewnością).
+lepiej, niż umiem (to niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)),
+za to te, które omawiam w [rozdziale ósmym](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md), są nimi
+z pewnością).
 
 **Piszę tą książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami większe
 zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta książka,
