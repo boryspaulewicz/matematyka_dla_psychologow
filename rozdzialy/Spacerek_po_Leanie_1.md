@@ -1,5 +1,11 @@
-*Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie dość głęboko zapuszcza
-korzenie. Cała ziemia jest jego. - Fryderyk Hebbel*
+<br/>
+
+<div align="right">*Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie dość
+głęboko zapuszcza korzenie. Cała ziemia jest jego*. - Fryderyk Hebbel</div>
+
+<br/> 
+<br/> 
+<br/>
 
 # Pierwszy spacer po Leanie, wersja pierwsza
 
