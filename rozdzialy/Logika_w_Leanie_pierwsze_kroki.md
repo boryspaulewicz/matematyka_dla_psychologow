@@ -4,8 +4,8 @@ W tym rozdziale będziesz mogła nareszcie zacząć robić gwałtowne postępy w
 konkretnie zaczniesz ćwiczyć dowodzenie twierdzeń. W gruncie rzeczy, poza pierwszym kontaktem z
 trybem interaktywnym i z typem zdaniowym `Prop`, nie pojawia się tu nic nowego, ale to, co będziemy
 robić, będzie miało szczególny *sens* albo *interpretację*. Dlatego największym wyzwaniem podczas
-lektury tego rozdziału będzie przyzwyczajnie się do subtelności o charakterze *pojęciowym*; na
-poziomie praktycznym programowania to będzie właściwie bułka z masłem.
+lektury tego rozdziału będzie przyzwyczajnie się do subtelności o charakterze *pojęciowym*; pod
+względem praktyki programowania to będzie właściwie bułka z masłem.
 
 <hr>
 
