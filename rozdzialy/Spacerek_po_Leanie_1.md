@@ -7,6 +7,27 @@ dość głęboko zapuszcza korzenie. Cała ziemia jest jego</em>.<br/>Fryderyk H
 <br/> 
 <br/>
 
+## O czym teraz będzie
+
+W tym i następnym rozdziale wprowadzę Cię, w trochę innej kolejności i akcentując trochę inne
+rzeczy, do dwóch najważniejszych rodzajów definicji w Leanie, to jest do definicji stałych i funkcji
+(albo inaczej programów). Spróbuję Ci pokazać naturalność i elegancję składni tego języka, a także
+wyjaśnię Ci sporo na temat roli, jaką w w Leanie odgrywają typy.
+
+Wydaje mi się, że najtrudniejszą częścią obydwu rozdziałów jest ta, która dotyczy sposobu, w jaki
+funkcje więcej niż jednoargumentowe są zaimplementowane za pomocą tak zwanego Curryingu, to jest
+ograniczając się wyłącznie do funkcji jednoargumentowych. Kilka omówionych szczegółowo przykładów i
+mam nadzieję dopasowanych do Twojego poziomu poleceń ma Ci pomóc przyzwyczaić się do tej ważnej
+cechy języków programowania opartych na teorii typów.
+
+W obydwu rozdziałach poświęcam też sporo miejsca omawiając krok po kroku proces ewaluacji wyrażeń (a
+dokładniej tak zwanych aplikacji), który można rozumieć jako proces redukowania wyrażeń w pewnym
+intuicyjnym sensie redukowalnych do najprostszej możliwej (ze względu na przyjęte definicje)
+postaci. To pozwoli Ci zrozumieć lepiej mechanikę działania teorii typów, a dzięki temu czuć się
+bardziej pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
+
+<hr>
+
 # Pierwszy spacer po Leanie, wersja pierwsza
 
 Ponieważ są tak ważne, treści, o których będziesz się uczyła w tym rozdziale, omówię jeszcze raz,

@@ -1,6 +1,16 @@
-**(De)Motywator**: Gdy już objaśnię ogólną strukturę i sposób działania funkcji w Leanie, pokażę Ci,
-że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik logiczny ∀,
-który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice konstruktywnej
+## O czym teraz będzie
+
+Przypominam, że to jest tak naprawdę druga, czy może raczej alternatywna wersja *tego samego
+rozdziału*. Zdecydowałem się napisać dwie różne wersje, ponieważ to, jak łatwe będą dla Ciebie do
+zrozumienia rozdziały kolejne, będzie zależało w znacznym stopniu od tego, jak dobrze uda mi się
+wytłumaczyć Ci najważniejsze kwestie omawiane właśnie tutaj. Dlatego jest możliwe, że przyda się
+przynajmniej zerknąć do poprzedniej wersji po tym jak przeczytasz tą.
+
+<br>
+
+**Motywator**: Gdy już objaśnię ogólną strukturę i sposób działania funkcji w Leanie, pokażę Ci, że
+będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik logiczny ∀, który
+czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice konstruktywnej
 działa *implikacja* (chodzi o symbol →, który czytamy *jeżeli, to*), bo ta jest w logice
 konstruktywnej tylko pewnego rodzaju funkcją. Pozostałe standardowe *spójniki logiczne* (∧, ∨ i ∃),
 za wyjątkiem *negacji* (¬), można również zdefiniować za pomocą funkcji / implikacji, a żeby z kolei

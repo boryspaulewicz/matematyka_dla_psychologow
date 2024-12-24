@@ -1,11 +1,17 @@
-# Izomorfizm Curry'ego-Howarda
+## O czym teraz będzie
 
 Ten rozdział ma Cię przygotować do nowego tematu, który pojawi się w rozdziale następnym. Nie ma tu
 żadnych zadań, są za to próby przekonania Cię, żeby się nie poddawać i jest też coś, co myślę, że Ci
 się potem przyda. Za chwilę zaczniemy korzystać z izomorfizmu Curry'ego-Howarda (tego Curry'ego,
-który już wcześniej się pojawił). Ta nazwa może i brzmi groźnie, ale gdy zrozumiesz, w jaki sposób
-będziemy ten izomorfizm traktować, stanie się dla Ciebie jasne, że to nic strasznego. Na początek
-powiem Ci coś moim zdaniem ciekawego o izomorfizmach w ogóle.
+który już wcześniej się pojawił).
+
+Ta nazwa może i brzmi groźnie, ale gdy zrozumiesz, w jaki sposób będziemy ten izomorfizm traktować,
+stanie się dla Ciebie jasne, że to nic strasznego. Na początek powiem Ci coś moim zdaniem ciekawego
+o izomorfizmach w ogóle.
+
+<br>
+
+# Izomorfizm Curry'ego-Howarda
 
 W szkole podstawowej zaczęłaś korzystać z [układu współrzędnych
 kartezjańskich](https://pl.wikipedia.org/wiki/Uk%C5%82ad_wsp%C3%B3%C5%82rz%C4%99dnych_kartezja%C5%84skich),

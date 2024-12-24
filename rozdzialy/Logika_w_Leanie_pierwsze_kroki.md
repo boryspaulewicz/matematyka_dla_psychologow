@@ -1,7 +1,18 @@
+## O czym to będzie
+
+W tym rozdziale będziesz mogła nareszcie zacząć robić gwałtowne postępy w uczeniu się matematyki, a
+konkretnie zaczniesz ćwiczyć dowodzenie twierdzeń. W gruncie rzeczy, poza pierwszym kontaktem z
+trybem interaktywnym i z typem zdaniowym `Prop`, nie pojawia się tu nic nowego, ale to, co będziemy
+robić, będzie miało szczególny *sens* albo *interpretację*. Dlatego największym wyzwaniem podczas
+lektury tego rozdziału będzie przyzwyczajnie się do subtelności o charakterze *pojęciowym*; na
+poziomie praktycznym programowania to będzie właściwie bułka z masłem.
+
+<br>
+
 # Logika na Leanie, pierwsze kroki
 
-**Polecenie**: Żeby było łatwiej, zaczniemy od niezrozumiałego na tym etapie zadania. Pamiętasz
-naszą uogólnioną identyczność zdefiniowaną przy pomocy zapisu skrótowego?
+**Polecenie**: Żeby było *łatwiej*, zaczniemy od mam nadzieję *niezrozumiałego* na tym etapie
+zadania. Pamiętasz naszą uogólnioną identyczność zdefiniowaną przy pomocy zapisu skrótowego?
 
 ```lean
 def identycznosc (typ : Type) (a : typ) : typ :=
