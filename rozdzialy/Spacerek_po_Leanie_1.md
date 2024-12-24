@@ -9,22 +9,21 @@ dość głęboko zapuszcza korzenie. Cała ziemia jest jego</em>.<br/>Fryderyk H
 
 ## O czym teraz będzie
 
-W tym i następnym rozdziale wprowadzę Cię, w trochę innej kolejności i akcentując trochę inne
-rzeczy, do dwóch najważniejszych rodzajów definicji w Leanie, to jest do definicji stałych i funkcji
-(albo inaczej programów). Spróbuję Ci pokazać naturalność i elegancję składni tego języka, a także
-wyjaśnię Ci sporo na temat roli, jaką w w Leanie odgrywają typy.
+W tym i następnym rozdziale wprowadzę Cię, w trochę innej kolejności, akcentując trochę inne rzeczy
+i wprowadzając czasem nieco inne tematy, do sposobu, w jakim w Leanie definiujemy stałe i zapisujemy
+funkcje anonimowe. Spróbuję Ci pokazać naturalność i elegancję składni tego języka, a także powiem
+trochę o roli, jaką w w Leanie odgrywają typy.
 
-Wydaje mi się, że najtrudniejszą częścią obydwu rozdziałów jest ta, która dotyczy sposobu, w jaki
-funkcje więcej niż jednoargumentowe są zaimplementowane za pomocą tak zwanego Curryingu, to jest
-ograniczając się wyłącznie do funkcji jednoargumentowych. Kilka omówionych szczegółowo przykładów i
-mam nadzieję dopasowanych do Twojego poziomu poleceń ma Ci pomóc przyzwyczaić się do tej ważnej
-cechy języków programowania opartych na teorii typów.
+Wydaje mi się, że najtrudniejsza część obydwu rozdziałów dotyczy curryingu, to jest sposobu, w jaki
+funkcje jednoargumentowe mogą w pewnym sensie udawać funkcje więcej niż jednoargumentowe. Żeby
+wprowadzić ten temat w możliwie bezbolesny sposób omawiam szczegółowo kilka relatywnie prostych
+przykładów i proponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na tym etapie
+zadań.
 
-W obydwu rozdziałach poświęcam też sporo miejsca omawiając krok po kroku proces ewaluacji wyrażeń (a
-dokładniej tak zwanych aplikacji), który można rozumieć jako proces redukowania wyrażeń w pewnym
-intuicyjnym sensie redukowalnych do najprostszej możliwej (ze względu na przyjęte definicje)
-postaci. To pozwoli Ci zrozumieć lepiej mechanikę działania teorii typów, a dzięki temu czuć się
-bardziej pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
+W obydwu rozdziałach omawiam też krok po kroku proces ewaluacji (a dokładniej ewaluacji aplikacji),
+który trudno mi teraz opisać w jakiś intuicyjny sposób w skrócie. Mam nadzieję, że kilkukrotne i
+szczegółowe omówienie tego procesu pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a
+dzięki temu czuć się bardziej pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
 
 <hr>
 

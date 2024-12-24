@@ -3,7 +3,7 @@
 Przypominam, że to jest tak naprawdę druga, czy może raczej alternatywna wersja *tego samego
 rozdziału*. Zdecydowałem się napisać dwie różne wersje, ponieważ to, jak łatwe będą dla Ciebie do
 zrozumienia rozdziały kolejne, będzie zależało w znacznym stopniu od tego, jak dobrze uda mi się
-wytłumaczyć Ci najważniejsze kwestie omawiane właśnie tutaj. Dlatego jest możliwe, że przyda się
+wytłumaczyć Ci najważniejsze kwestie omawiane właśnie tutaj. Dlatego być może przyda się
 przynajmniej zerknąć do poprzedniej wersji po tym jak przeczytasz tą.
 
 <hr>
