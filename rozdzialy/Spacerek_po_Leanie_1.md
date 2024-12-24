@@ -9,21 +9,20 @@ dość głęboko zapuszcza korzenie. Cała ziemia jest jego</em>.<br/>Fryderyk H
 
 ## O czym teraz będzie
 
-W tym i następnym rozdziale wprowadzę Cię, w trochę innej kolejności, akcentując trochę inne rzeczy
-i wprowadzając czasem nieco inne tematy, do sposobu, w jakim w Leanie definiujemy stałe i zapisujemy
-funkcje anonimowe. Spróbuję Ci pokazać naturalność i elegancję składni tego języka, a także powiem
+W tym i następnym rozdziale pokażę Ci - w trochę innej kolejności, akcentując trochę inne rzeczy i
+wprowadzając czasem nieco inne tematy - w jaki sposób w Leanie definiujemy stałe i zapisujemy
+funkcje anonimowe. Zwrócę Twoją uwagę na naturalność i prosotę składni tego języka, a także powiem
 trochę o roli, jaką w w Leanie odgrywają typy.
 
 Wydaje mi się, że najtrudniejsza część obydwu rozdziałów dotyczy curryingu, to jest sposobu, w jaki
-funkcje jednoargumentowe mogą w pewnym sensie udawać funkcje więcej niż jednoargumentowe. Żeby
-wprowadzić ten temat w możliwie bezbolesny sposób omawiam szczegółowo kilka relatywnie prostych
-przykładów i proponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na tym etapie
-zadań.
+funkcje jednoargumentowe mogą udawać funkcje więcej niż jednoargumentowe. Żeby wprowadzić ten temat
+w możliwie bezbolesny sposób omówię szczegółowo kilka relatywnie prostych przykładów funkcji i
+zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na tym etapie zadań.
 
-W obydwu rozdziałach omawiam też krok po kroku proces ewaluacji (a dokładniej ewaluacji aplikacji),
-który trudno mi teraz opisać w jakiś intuicyjny sposób w skrócie. Mam nadzieję, że kilkukrotne i
-szczegółowe omówienie tego procesu pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a
-dzięki temu czuć się bardziej pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
+W obydwu rozdziałach omówię też krok po kroku proces ewaluacji, a dokładniej ewaluacji
+aplikacji. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten proces przebiega krok
+po kroku, pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a dzięki temu czuć się
+bardziej pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
 
 <hr>
 
