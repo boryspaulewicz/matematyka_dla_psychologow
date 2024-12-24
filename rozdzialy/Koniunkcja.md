@@ -1,6 +1,6 @@
 # ∧
 
-Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji zawartych w rozdziałach
+Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji podanych w rozdziałach
 wcześniejszych. Jeżeli to jest na razie zbyt trudne, to oparte na różnych punktach widzenia,
 szczegółowe wyjaśnienia znajdziesz w następnych dwóch rozdziałach. Ale najpierw spróbuj może
 zobaczyć w zawartym tu kodzie jakiekolwiek regularności czy wzorce.
