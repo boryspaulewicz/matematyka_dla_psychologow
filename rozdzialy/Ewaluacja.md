@@ -6,9 +6,9 @@ się zetknęłaś.
 <hr>
 
 Najważniejsze, co robi Lean, to ewaluacja (inaczej redukcja) aplikacji i sprawdzanie poprawności
-kodu. Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, wystarczy, jeżeli
-zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne przykłady będą
-wariacjami na ten temat.
+kodu. Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, na razie w zupełności
+wystarczy, jeżeli zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne
+przykłady będą wariacjami na ten temat.
 
 ```lean
 def identycznosc (typ : Type) (argument : typ) : typ := argument
@@ -54,7 +54,7 @@ i wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drod
 
 Funkcje mogą przekształcać termy dowolnego typu, w tym również dowolne typy, w termy dowolnego typu,
 w tym również dowolne typy. Typy pojawiające się później w specyfikacji typu funkcji mogą zależeć od
-parametru, który pojawił się wcześniej, tak jak w przypadku typu funkcji `identycznosc`.
+parametrów, które pojawiły się wcześniej, tak jak w przypadku typu funkcji `identycznosc`.
 
 Na tej podstawie można zbudować całą matematykę i za pomocą tego języka można zapisać w stosunkowo
 naturalny sposób matematyczne teorie.
