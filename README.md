@@ -43,7 +43,7 @@ którą ten przedstawił w wykładzie zatytułowanym *Logika jako istota filozof
 Londynie, a który w wersji przetłumaczonej na język polski można znaleźć
 [tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
 Wreszcie akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się w tym
-momencie dość gwałtownie a w dodatku sprawdził się już znakomicie jako narzędzie
+momencie dość gwałtownie, a w dodatku sprawdził się już znakomicie jako narzędzie
 [dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024)
 ([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) na przykład można znaleźć
 zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
