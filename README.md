@@ -85,7 +85,7 @@ procesie i im bardziej te punkty widzenia są różne, tym większa jest szansa 
 czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
-jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tu na w wersji
+jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tutaj w wersji
 dyndającej (ang. [*dangling*](https://en.wikipedia.org/wiki/Dangling_modifier)) następujące pytanie:
 Jak sądzisz, jak by to wszystko zabrzmiało, gdyby miało się okazać, że da się takie jak te wyżej
 obserwacje zapisać bez znaczącej utraty ich treści w języku formalnym i przekonać się w ten sposób,
