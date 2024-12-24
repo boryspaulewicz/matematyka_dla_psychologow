@@ -69,17 +69,18 @@ jednoznacznie czego, a także procesem *odkrywania* czy raczej ustalania się by
 *dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
-tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany przez informacje zwrotne
-"z zewnątrz", bo zachowania ludzi są prawie zawsze w mniejszym lub większym stopniu czymś, co tworzy
-się w ramach społecznych interakcji i co nabiera dzięki takim interakcjom (również nieunikalnego)
-sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji wielu bardzo sobie
-bliskich, bo mających wiele wspólnych cech, ale jednak nieco *różnych* osób, bo *różnych wersji tej
-samej osoby*, z których każda istniała tylko przez chwilę i wniosła coś do końcowego rezultatu
-rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a następnie to, co w ten sposób
-powstało lub uległo przekształceniu, przekazując dalej. Nad *zewnętrznymi* źródłami tego rodzaju
-informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież im więcej punktów
-widzenia bierze udział w tego rodzaju procesie i im bardziej te punkty widzenia są różne, tym
-większa jest szansa na zbliżenie się do czegoś dobrego.
+tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma jak
+dotąd miejsce stopniu na podstawie informacji zwrotnych pochodzących "z zewnątrz", bo zachowania
+ludzi są prawie zawsze w jakimś stopniu czymś, co tworzy się w ramach społecznych interakcji i co
+nabiera dzięki takim interakcjom (również nieunikalnego) sensu. Na przykład, *to konkretne zdanie*
+powstało jako rezultat interakcji wielu bardzo sobie bliskich, bo mających wiele wspólnych cech, ale
+jednak nieco *różnych* osób, bo *różnych wersji tej samej osoby*, z których każda istniała tylko
+przez chwilę i wniosła coś do końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te
+poprzednie (wersje), a następnie to, co w ten sposób powstało lub uległo przekształceniu,
+przekazując dalej. Nad *zewnętrznymi* źródłami tego rodzaju informacji zwrotnych mam jednak bardzo
+ograniczoną kontrolę, a szkoda, bo przecież im więcej punktów widzenia bierze udział w tego rodzaju
+procesie i im bardziej te punkty widzenia są różne, tym większa jest szansa na zbliżenie się do
+czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę zostawię tu na razie w
