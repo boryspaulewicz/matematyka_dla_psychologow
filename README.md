@@ -30,7 +30,7 @@ matematyki. Ale teoria typów także dlatego, że być może najciekawszym i naj
 matematyki w psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani
 wnioskowanie przyczynowe czy formalizacja jakiś wyrażonych w języku naturalnym teorii lub modeli
 psychologicznych w postaci modeli matematycznych rozmaitych zjawisk, tylko *formalizacja rozumowań*,
-jakie psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w
+jakie psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w swoich
 publikacjach. A teoria typów wyposażona w typy zależne jest zdaje mi się czymś najbliższym, co
 obecnie mamy, do realizacji wizji[^2] [Bertranda
 Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą przedstawił w wykładzie pod tytułem
