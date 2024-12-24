@@ -3,9 +3,9 @@ zapisać w języku [teorii typów](https://en.wikipedia.org/wiki/Type_theory). A
 zapisane w języku teorii typów, można sprawdzić za pomocą algorytmu i zredukować do najprostszej
 możliwej postaci.*
 
-\ 
-\ 
-\ 
+<br\>
+<br\>
+<br\>
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie
 zakłada żadnej wcześniejszej wiedzy**. Piszę ją w tym momencie przede wszystkim dla studentów
