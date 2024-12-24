@@ -22,14 +22,14 @@ rolę spełniają te dwie osie.
 Jak być może wiesz, ten układ współrzędnych wprowadził do matematyki jeszcze w 17 wieku francuski
 matematyk, filozof i fizyk [René
 Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). Pomysł Kartezjusza był wtedy
-prawdziwą rewolucją, dlatego że pozwala *wiernie przetłumaczyć* dowolny problem geometryczny na
-odpowiadający mu problem liczbowy czy analityczny. To jest wierne tłumacznie w tym znaczeniu, że nie
-tracimy wtedy ani nie zniekształcamy żadnych własności problemu geometrycznego. Takie sposoby
+prawdziwą rewolucją, dlatego że pozwala *wiernie przetłumaczyć* problemy geometryczne na
+odpowiadające im problemy liczbowe czy analityczne. To jest wierne tłumacznie w tym znaczeniu, że
+nie tracimy wtedy ani nie zniekształcamy żadnych własności problemu geometrycznego. Takie sposoby
 wiernego tłumaczenia *w obie strony* nazywamy w matematyce właśnie (zachowującymi strukturę)
 *izomorfizmami*. To słowo jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki sam i *μορφή*
 czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny alfabet, kilka
 różnych rodzajów akcentów i liczbę podwójną. Na właną rękę uczyłem się go kiedyś przez rok w liceum,
-to wiem (tak, bywałem wtedy do bólu pretensjonalny).
+to wiem (tak, byłem wtedy bardzo pretensjonalny).
 
 Układu współrzędnych kartezjańskich używamy w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" od razu automatycznie
@@ -40,12 +40,12 @@ nieliczbową, jeśli można tak powiedzieć. Taką płaszczyznę, którą mogło
 które jeszcze nie poznało pojęcia liczby.
 
 Jak pewnie wiesz, nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju
-idealnie płaskiej powierzchni bez żadnych granic; takiej powierzchni, którą można sobie tylko
-wyobrazić albo opisać, ale która nie może istnieć realnie. Taką, o której chętnie myślą matematycy
+idealnie płaskiej powierzchni bez granic; takiej powierzchni, którą można sobie tylko wyobrazić albo
+opisać, ale która nie może istnieć jako obiekt fizyczny. Taką, o której chętnie myślą matematycy
 albo filozofowie. Bez dodatkowych założeń ta płaszczyzna jako taka *nie* ma charakteru liczbowego,
 tylko czysto geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykład jakiś
 konkretny okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy sobie wyobrazić i który moglibyśmy
-próbować systematycznie analizować, *nie* ma jeszcze charakteru liczbowego.
+próbować systematycznie opisać lub analizować, *nie* ma jeszcze charakteru liczbowego.
 
 [Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której być może już
 słyszałaś, jest (pierwszym w historii) przykładem aksjomatycznej teorii tego typu struktur. Być może
@@ -54,16 +54,11 @@ jednak nie wiedziałaś dotąd, że liczby nie odgrywają w tej teorii *żadnej*
 *rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyrażone w języku naturalnym
 definicje i aksjomaty, które te obiekty mają spełniać, a także rozumowania polegające na
 wyprowadzaniu z tych definicji i aksjomatów różnych twierdzeń. Na przykład, jest tam aksjomat, który
-mówi, że wszystkie kąty proste są sobie równe. Ty pewnie od razu myślisz o kątach prostych jako
+mówi, że wszystkie kąty proste są sobie równe. Być może od razu myślisz o kątach prostych jako
 takich, które mają 90 stopni, ale to jest przecież liczba. Dla Euklidesa to nie były liczby. Mógł
 pisać o wielkościach kątów, na przykład o tym, że jeden kąt jest większy od drugiego, w takim samym
-znaczeniu, w jakim ktoś, kto na przykład nie miałby "ośrodka liczbowego" w mózgu mógłby bez trudu
-ocenić, które spodnie ma krótsze a które ma dłuższe. 
-
-Możemy konsekwentnie mówić o relacji *większe niż* bez posługiwania się żadnymi liczbami, już to
-zresztą robiliśmy, rozważając tego rodzaju relację gdy przyglądaliśmy się dowodowi na istnienie
-Boga. Do niektórych operacji, które mogą się nam kojarzyć z liczbami, takich jak właśnie
-porównywanie wielkości, wbrew pozorom w ogóle nie potrzeba liczb.
+znaczeniu, w jakim ktoś, kto byłby pozbawiony "ośrodka liczbowego" w mózgu mógłby bez trudu ocenić,
+które spodnie ma krótsze a które ma dłuższe.
 
 Pewne problemy geometryczne dają się w taki czysto geometryczny sposób analizować względnie wygodnie
 czy łatwo, ale zdecydowanie nie wszystkie. Jeżeli teraz przyjmiemy, że na naszej wyidealizowanej
@@ -83,7 +78,7 @@ płaszczyźnie*, a więc niekoniecznie na którejś z dwóch osi, który sam z s
 charakteru liczbowego, odpowiada odtąd unikalna *para liczb* i to są właśnie współrzędne
 kartezjańskie tego punktu. Ta odpowiedniość działa w obie strony, a więc również każdej parze liczb
 rzeczywistych odpowiada unikalny punkt. A ponieważ każdy obiekt geometryczny na płaszczyźnie możemy
-rozumieć jako pewien zbiór punktów, to każdy taki obiekt odpowiada teraz pewnemu unikalnemu zbiorowi
+rozumieć jako pewien zbiór punktów, to każdy taki obiekt odpowiada odtąd pewnemu unikalnemu zbiorowi
 uporządkowanych par liczb.
 
 Dzięki temu problemy o charakterze *czysto geometrycznym* (na płaszczyźnie) możemy wiernie
@@ -110,20 +105,19 @@ Zwróć proszę uwagę, że chociaż prawie na pewno na początku to było dla C
 jest prawie dla wszystkich początkowo trudne, a już na pewno takie było początkowo dla mnie, to
 jednak oswojenie się z izomorfizmem między na przykład kształtami trójkątów z jednej strony i
 liczbowymi wielkościami ich wewnętrznych katów i długościami ich boków z drugiej stało się dla
-Ciebie z czasem dosyć naturalne. Założę się, że czasami, a może i przez większość czasu, nie
-zdawałaś sobie nawet sprawy z tego, że kąty i długości odcinków po prostu *są* dla Ciebie liczbami
-*dzięki temu*, że jawnie albo w tle zawsze wtedy był obecny jakiś ustalony układ
-kartezjański. 
+Ciebie z czasem dosyć naturalne. Założę się nawet, że czasami, a może i przez większość czasu, nie
+zdawałaś sobie sprawy z tego, że kąty i długości odcinków po prostu *są* dla Ciebie liczbami *dzięki
+temu*, że jawnie albo w tle zawsze wtedy był obecny jakiś ustalony układ kartezjański.
 
-Właściwie założę się nawet, że podobnie jak ja, nie jesteś w stanie sobie dobrze wyobrazić jak to
-było nie myśleć o obiektach geometrycznych w taki sposób. A przecież był kiedyś taki czas, gdy ten
-sposób był Ci całkiem obcy i wszystkie kształty były tylko kształtami. W pewnym momencie stopniowo i
-z pewnym wysiłkiem zaczęłaś uczyć się jak można systematycznie przypisywać na przykład kątom i
-odcinkom liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański,
-były dla Ciebie odrębne, ale znałaś już oba. A że musiałaś się często między nimi przełączać,
-robiłaś to długo, i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się
-w jeden. I ja teraz muszę przez kilka akapitów próbować Ci (i jednocześnie sobie!) ułatwić ich
-ponowne oddzielenie.
+Przypuszczam, że podobnie jak ja, nie jesteś w stanie sobie dobrze wyobrazić jak to było nie myśleć
+o obiektach geometrycznych w taki sposób. A przecież był kiedyś taki czas, gdy ten sposób był Ci
+całkiem obcy i wszystkie kształty były tylko kształtami. W pewnym momencie stopniowo i z pewnym
+wysiłkiem zaczęłaś uczyć się jak można systematycznie przypisywać na przykład kątom i odcinkom
+liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański, były dla
+Ciebie odrębne, ale znałaś już oba. A że musiałaś się często między nimi przełączać, robiłaś to
+długo, i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się w jeden. I
+ja teraz muszę przez kilka akapitów próbować Ci (i jednocześnie sobie!) ułatwić ich ponowne
+oddzielenie.
 
 Czy to nie ciekawe, jak bardzo taki z pozoru niewinny izomorfizm potrafi zmienić nasz sposób
 myślenia? Ogromna *swoboda w przełączaniu się między dwoma różnymi punktami widzenia* -
@@ -152,7 +146,7 @@ umożliwić patrzenie w ten sposób na proces rozmowy, albo na przykład na rozg
 pisania ksiażki?
 
 To teraz wyobraź sobie jeszcze, że Twoja interakcja z myszą biegnącą po podłodze została nagrana
-przez kamerę, o której wcześniej nie wiedziałać. Odkryłaś później to nagranie, a razem z nich wiele
+przez kamerę, o której wcześniej nie wiedziałać. Odkryłaś później to nagranie, a razem z nim wiele
 innych takich nagrań, pochodzących z takiego samego pokoju jak ten, w którym niedawno byłaś. I
 odkryłaś też wtedy coś jeszcze - na wszystkich tych nagraniach, za wyjątkiem tego, na którym widać
 Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się dokładnie w ten sam sposób. Ale
@@ -199,12 +193,12 @@ przykład logika konstruktywna.
 
 Dla naszych potrzeb to, że izomorfizm Curry'ego-Howarda istnieje, oznacza tyle, że *każdy* problem
 matematyczny możemy dzięki niemu postrzegać jako problem dotyczący *programowania* i próbować go
-rozwiązać jako taki. Tak samo jak dzięki układowi kartezjańskiemu każdy problem geometryczny możemy
-próbować zamienić na odpowiadający mu problem analityczny (liczbowy) i próbować go rozwiązać albo
-tylko inaczej zrozumieć posługując się na przykład operacjami algebraicznymi, takimi jak dodawanie
-czy mnożenie. Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać matematykę - a później
-również ogólniej rozumiane badania o meta-teoretycznym charakterze - jako programowanie, będzie
-zarazem sztywny i wystarczająco ekspresyjny język. Ten, na którym oparty jest Lean, jest właśnie
-jednym z takich języków. A tym, co przede wszystkim sprawia, że jest tak bardzo ekspresyjny, że
-pozwala zakodować formalnie całą matematykę, a więc też wszystko, co tylko da się zmatematyzować,
-czyli powiedzieć lub wyrazić jasno, są typy zależne.
+rozwiązać jako taki. Tak samo jak dzięki układowi kartezjańskiemu każdy problem geometryczny (na
+płaszczyźnie) możemy próbować zamienić na odpowiadający mu problem analityczny (liczbowy) i próbować
+go rozwiązać albo tylko inaczej zrozumieć posługując się na przykład operacjami algebraicznymi,
+takimi jak dodawanie czy mnożenie. Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać
+matematykę - a później również ogólniej rozumiane badania o meta-teoretycznym charakterze - jako
+programowanie, będzie zarazem sztywny i wystarczająco ekspresyjny język. Ten, na którym oparty jest
+Lean, jest właśnie jednym z takich języków. A tym, co przede wszystkim sprawia, że jest tak bardzo
+ekspresyjny, że pozwala zakodować formalnie całą matematykę, a więc też wszystko, co tylko da się
+zmatematyzować, czyli powiedzieć lub wyrazić jasno, są typy zależne.
