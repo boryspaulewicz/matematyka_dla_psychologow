@@ -5,7 +5,7 @@ Ten rozdział ma Cię przygotować do nowego tematu, który pojawi się w rozdzi
 się potem przyda. Za chwilę zaczniemy korzystać z izomorfizmu Curry'ego-Howarda (tego Curry'ego,
 który już wcześniej się pojawił).
 
-Ta nazwa może i brzmi groźnie, ale gdy zrozumiesz, w jaki sposób będziemy ten izomorfizm traktować,
+Nazwa może i brzmi groźnie, ale gdy zrozumiesz, w jaki sposób będziemy ten izomorfizm traktować,
 stanie się dla Ciebie jasne, że to nic strasznego. Na początek powiem Ci coś moim zdaniem ciekawego
 o izomorfizmach w ogóle.
 
