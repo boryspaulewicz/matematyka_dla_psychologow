@@ -5,7 +5,8 @@ pewien sposób z innymi wątkami, postanowiłem na razie tego nie zmieniać*.
 
 <br/>
 
-<div align="right"> Formalizacja jest procesem <em>twórczym</em>. </div>
+<div align="right"> Formalizacja, być może nawet bardziej niż poszukiwanie dowodu, jest procesem
+<em>twórczym</em>. </div>
 
 <br/>
 
