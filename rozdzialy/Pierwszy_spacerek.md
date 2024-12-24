@@ -1,3 +1,18 @@
+## O czym teraz bêdzie
+
+Moim celem w tym rozdziale jest zapoznaæ Ciê z pewnym sposobem patrzenia na matematykê. Nie chodzi
+mi tutaj o ka¿dy aspekt matematyki czy sposoby jej uparwiania albo stosowania, ani o ka¿d± jej czê¶æ
+czy postaæ, tylko o wybrane rodzaje czynno¶ci, które czêsto wykonujemy, kiedy siê ni±
+pos³ugujemy. Zobaczysz mam nadziejê, ¿e te wybrane, wa¿ne i czêsto pojawiaj±ce siê czynno¶ci
+polegaj± tak naprawdê na bardzo prostych mechanicznych operacjach, które opanowa³a¶ dobrze jeszcze
+na etapie szko³y podstawowej.
+
+Jednocze¶nie zamierzam Ciê ju¿ w tym rozdziale wstêpnie przygotowaæ do przyjêcia pó¼niej punktu
+widzenia, zgodnie z którym matematyka w ogóle faktycznie *ma* charakter w pewnym dobrze okre¶lonym
+sensie mechaniczny.
+
+<hr>
+
 # Kilka trywialnych mechanicznych operacji
 
 Przypuszczam, ¿e ju¿ w podstawówce sta³o siê dla Ciebie oczywiste, ¿e je¿eli *A = B* i *B = C*, to
