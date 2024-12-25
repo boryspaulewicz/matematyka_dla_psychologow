@@ -117,7 +117,7 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 [R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
-[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_w_Leanie_pierwsze_kroki.md)
+[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
 
 [R9 Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
 
