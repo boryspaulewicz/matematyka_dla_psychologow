@@ -478,7 +478,7 @@ Jeżeli *A* i *B* to zdania, to:
 .  
 *B*  
 <spam style="text-decoration:overline"><em>A → B</em></spam>  
-$\overline{A → B}$
+<ins>A → B</ins>
 
 TODO
 
