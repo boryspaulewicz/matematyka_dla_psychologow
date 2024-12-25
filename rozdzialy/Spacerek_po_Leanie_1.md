@@ -68,13 +68,13 @@ Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że warto, �
 szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak spróbuję najpierw
 czegoś innego.
 
-**Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest zaprojektowanie
-nowego języka, który pozwalałby w jednoznaczny, zwięzły i zarazem możliwie czytelny sposób zapisywać
-różne definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu w jakiś sposób informacji, która
-pozwalałaby jednoznacznie określić, jakie operacje z użyciem definiowanych stałych mają sens. Byłoby
-też wskazane, żeby nie używać do tego symbolu równości (*=*), bo ten mógłby się jeszcze później
-przydać do całkiem innych celów (to jest do oznaczania relacji równości, a nie relacji bycia
-wartością jakiejś stałej z definicji).
+**Uczenie się poprzez wcielenie się w rolę autora albo projektanta**: Wyobraź sobie, że Twoim
+zadaniem jest zaprojektowanie nowego języka, który pozwalałby w jednoznaczny, zwięzły i zarazem
+możliwie czytelny sposób zapisywać różne definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu
+w jakiś sposób informacji, która pozwalałaby jednoznacznie określić, jakie operacje z użyciem
+definiowanych stałych mają sens. Byłoby też wskazane, żeby nie używać do tego symbolu równości
+(*=*), bo ten mógłby się jeszcze później przydać do całkiem innych celów (to jest do oznaczania
+relacji równości, a nie relacji bycia wartością jakiejś stałej z definicji).
 
 Przydałoby się zatem jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
 takie kojarzy się od razu ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
@@ -162,12 +162,12 @@ procedury obliczeniowe, które już coś zrobić mogą. Żeby stworzyć definicj
 podawać ich typ (inaczej jawnie typować), tak jak wcześniej wprost napisaliśmy, że stała `dziesiec`
 ma typ `Nat` (`dziesiec : Nat`).
 
-**Uczenie się przez wcielenie się w rolę**: Wyobraź sobie teraz, że masz zaprojektować również
-składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji*
-rozumianych jako efektywne procedury obliczeniowe albo po prostu programy. Skoro definicje
-zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa kluczowego
-`fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również, żeby
-przypominały funkcje rozumiane tak, jak się je rozumie w matematyce. 
+**Uczenie się przez wcielenie się w rolę autora albo projektanta**: Wyobraź sobie teraz, że masz
+zaprojektować również składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać
+*strukturę funkcji* rozumianych jako efektywne procedury obliczeniowe albo po prostu programy. Skoro
+definicje zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa
+kluczowego `fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również,
+żeby przypominały funkcje rozumiane tak, jak się je rozumie w matematyce.
 
 "Funkcje matematyczne" są często rozumiane jako "obiekty", które każdemu elementowi zbioru
 nazywanego *dziedziną funkcji* przyporządkowują dokładnie jeden element zbioru nazywanego jej

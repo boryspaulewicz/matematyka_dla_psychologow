@@ -19,8 +19,8 @@ Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal popr
 to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania przyczynowego dla
 psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) (wersja w jêzyku
 angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma lepszego sposobu,
-aby przekonaæ siê, w jakim stopniu siê co¶ umie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu
-tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
+aby upewniæ siê, jak dobrze co¶ siê rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu tutaj
+serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
 przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
 okaza³a siê wtedy do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê, wcze¶niej pisz±c
 kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie pozwolono mi
@@ -41,18 +41,19 @@ dorobkiem - polega w ogromnym stopniu na matematyce (na przyk³ad, u¿ywaj±c wnios
 statystycznego, ale nie tylko wtedy) i próbuje zrozumieæ z³o¿one i trudne do wyja¶nienia zjawiska
 (takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych), jednak wielu z nich nie
 ma najczê¶ciej o matematyce za bardzo pojêcia. Dobrymi przyk³adami powa¿nych b³êdów, wynikaj±cych z
-niezrozumienia matematycznej nieuchronno¶ci kilku prostych zasad, s± powszechne wnioskowanie o braku
-efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego, albo wnioskowanie o
-wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ
-(wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e
-[przyczynowo¶æ zosta³a zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
+niezrozumienia matematycznej nieuchronno¶ci kilku do¶æ *prostych* przecie¿ zasad, s± powszechne
+wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego, albo
+wnioskowanie o wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia
+koniecznych za³o¿eñ (wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje
+wynikaj± z faktu, ¿e [przyczynowo¶æ zosta³a
+zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
 Nic wiêc dziwnego, ¿e tacy, niestety w psychologii dosyæ liczni, matematyczni pó³-analfabeci
 nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj±c przy tym czasem
 najprostsze nawet b³êdy. Mimo to udaje im siê publikowaæ w wysokopunktowanych czasopismach, bo
 wysy³ane przez nich manuskrypty s± zwykle recenzowane i dopuszczane do druku przez innych
-matematycznych pó³-analfabetów. Rezultatem jest powszechna w psychologii ju¿ od dawna rozczarowuj±ca
-gra pozorów.
+matematycznych pó³-analfabetów. Rezultatem tej zabawy w chowanego jest powszechna w psychologii ju¿
+od dawna rozczarowuj±ca gra pozorów.
 
 Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
 ³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie przyczynê najwa¿niejsz±, tego stanu rzeczy:
@@ -176,11 +177,12 @@ pewno¶ci±. Poniewa¿ czu³em, ¿e mam racjê, napisa³em do [Roba
 Nederpelta](https://wsinrpn.win.tue.nl/), który potraktowa³ mnie niezwykle ¿yczliwie i
 powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje nazwisko pojawi³o siê w oficjalnej erracie
 do tej ksi±¿ki, jako nazwisko jednej z osób, której autorzy dziêkuj±. A mi akurat dziêkuj± za
-wskazanie (w tym momencie, to jest 2024-12-11) oko³o po³owy wszystkich wymienionych b³êdów. Z
-niewielu rzeczy jestem tak dumny jak z tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³
-napisania czego¶ choæby tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami,
-gdyby nie ta wspania³a ksi±¿ka i kontakt z tym cz³owiekiem. No wiêc z ambicjami lepiej nie
-przesadzaæ; moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
+wskazanie (w tym momencie, to jest 2024-12-11) oko³o po³owy wszystkich wymienionych b³êdów i nie
+chodzi tu wcale o jakie¶ literówki, tylko o b³êdy rzeczowe. Z niewielu rzeczy jestem tak dumny jak z
+tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³ napisania czego¶ choæby tylko odlegle
+zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania³a ksi±¿ka i kontakt
+z tym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim zdaniem, jak ju¿ wspomina³em,
+najwa¿niejszy jest czas.
 
 A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który stosowa³em
 podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych przyjemno¶ci
@@ -206,7 +208,7 @@ miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam do¶æ szybkiej, Saul z
 *zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie trzeba.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
-pisa³em, przytrafi³o mi siê w szokle podstawowej na lekcji fizyki. Moja nauczycielka z tego
+pisa³em, przytrafi³o mi siê w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego
 przedmiotu, Pani P³ucienniczak, któr± bardzo dobrze wspominam (jednak moj± ulubion± nauczycielk± na
 zawsze pozostanie Pani Wójcik, która uczy³a mnie matematyki), t³umaczy³a co¶ na tablicy i kiedy
 zrozumia³em (ale czy na pewno?), o czym mówi³a, zrozumia³em te¿ jednocze¶nie co¶ wa¿niejszego od
@@ -241,9 +243,9 @@ drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzysta
 dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
 Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, w jaki sposób sobie radziæ z ekstremaln± wrêcz
-prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i jako¶ odwdziêczyæ siê
-tym autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to
-robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
+prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i odwdziêczyæ siê tym
+autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to robiê,
+a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
 
 Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni,
 gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia

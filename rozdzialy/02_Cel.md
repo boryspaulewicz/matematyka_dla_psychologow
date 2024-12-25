@@ -13,8 +13,8 @@ są językowymi wyborami i ich wartość sprowadza się do użyteczności i form
 Omówimy następnie podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o
 co chodzi w badaniach obserwacyjnych i eksperymentalnych, a także o co chodzi w pomiarze, *o ile*
 pomiar interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
-definicji. Jedną z nich będziez wpływowa teoretyczno-przyczynowa definicja trafności pomiaru, którą
-w pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
+definicji. Jedną z nich będzie wpływowa teoretyczno-przyczynowa definicja trafności pomiaru, którą w
+pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
 [artykyle](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
 [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
 teoretyczno-przyczynowa, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
@@ -108,13 +108,19 @@ to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek zachowa
 pytania, które wcześniej wydawały się niejasne albo nawet mętne będzie można formułować w taki
 sposób, że poszukiwanie na nie odpowiedzi stanie się częściowo kwestią mechanicznych operacji.
 
-Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
-wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
-małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii. W dodatku w
-pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
-wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
-[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w swoim
-[doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
+Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Żeby dobrze
+wyjaśnić, czego ten wgląd dotyczy, będę teraz musiał wspomnieć o sprawach, które mogą nie być dobrze
+znane osobom, które nie zajmowały się przez pewien czas prowadzeniem badań i nie próbowały zrozumieć
+na wyższym poziomie abstrakcji, na czym tak naprawdę polegają badania dotyczące zachowania
+zwierząt. Dlatego jeżeli coś wyda Ci się odtąd niezrozumiałe, pamiętaj, że nie musisz dokładnie
+wiedzieć, o czym będę mówił. W rozdziale czwartym i tak zaczniemy niemal od absolutnego zera.
+
+Ten osobliwy wgląd, o którym przed chwilą wspomniałem, przytrafił mi się w końcu, po ponad piętnastu
+latach uczenia się i myślenia wciąż o jednym małym zbiorze kilku ściśle ze sobą powiązanych zagadek
+dotyczących podstaw psychologii. W dodatku w pewnym sensie sedno sprawy miałem przez prawie cały ten
+czas przed oczami, bo to nic innego jak wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej
+wersji pewnej uwagi [Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w
+swoim [doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
 
 > Koncepcja, za którą się tu opowiadamy, głosi, ujmując rzecz pokrótce, że zawsze, gdy jakąś reakcję
 > cechuje wyuczalność w odniesieniu do pewnego końcowego rezultatu - gdy reakcja ta ma skłonność do:
@@ -125,8 +131,8 @@ wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
 > on?), tam mamy obiektywnie wyrażone i określone to, co dogodnie jest nazwać celem. - Tolman,
 > *Zachowanie celowe u zwierząt i ludzi*, s. 32.
 
-Wersję tej uwagi, którą będę w dalszej części uzasadniał i której użyteczność będę później
-ilustrował przykładami, można wyrazić krótko w taki oto sposób:
+Wersję tej uwagi, którą będę w dalszej części tej książki uzasadniał i której użyteczność będę
+później ilustrował przykładami, można wyrazić krótko w taki oto sposób:
 
 *Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako preferencję hipotetycznego
 zewnętrznego obserwatora*.
