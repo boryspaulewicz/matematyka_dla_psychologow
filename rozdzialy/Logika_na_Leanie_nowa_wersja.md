@@ -476,8 +476,8 @@ Jeżeli *A* i *B* to zdania, to:
 .  
 .  
 .  
-<ins>*B*</ins>  
-*A → B*
+*B*  
+<span style="text-decoration:overline"><em>A → B</em></span>
 
 TODO
 
