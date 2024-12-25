@@ -336,38 +336,15 @@ znajomo?
 Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
 implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Nic? Żadnych skojarzeń?
 
-Korzystając z okazji pozwolę sobie teraz na dłuższą (z pozoru) dygresję. Niektórzy mówią, że język
-matematyki jest *precyzyjny*, jednak w matematyce mówimy czasem *celowo nieprecyzyjnie*, tyle, że ta
-nieprecyzyjność jest jakby pod kontrolą. Na przykład, możemy wyrazić wprost w matematyce zdanie, że
-jakaś wielkość znajduje się w jakimś szerokim interwale, albo że jest bardziej lub mniej
-prawdopodobna. W matematyce mówimy też czasem *celowo wieloznacznie*. Na przykład, będziemy teraz
-stopniowo zacierać różnice między funkcjami i implikacjami.
-
-Co zatem wyróżnia język matematyki, poza *relatywną sztucznością*, która nie wydaje się taka
-istotna? Sam do końca nie wiem, ale gdybym miał zgadywać, powiedziałbym, że jest to *jednoznaczność
-i sztywność reguł użycia*, ale tylko *formalnego*, czyli takiego mechanicznego albo nawet
-"bezmyślnego". I jeszcze to, że chociaż pojęcia matematyczne często powstają jako wyspecjalizowane
-wersje pojęć używanych w języku naturalnym, to zwykle stanowią ich wersję "usztywnioną" i zarazem
-uproszczoną czy zredukowaną do kilku dobrze określonych właściwości. Te są wyrażane czasem jako
-*aksjomaty*, czyli podawane bez uzasadnienia formalnego, a więc *bez dowodu* (za to zwykle z
-uzasadnieniem w języku naturalnym) *konwencje określające dopuszczalne sposoby używania pewnych słów
-albo wyrażeń*.
-
-W ten sposób - odzierając pojęcia (na przykład, pojęcie zdania, prawdy, fałszu, prawdopodobieństwa,
-czy wpływu) ze zbędnej dla dobrze określonych celów elastyczności użycia (w przypadku pojęć zdania,
-prawdy i fałszu - na potrzeby analizy w pewien techniczny sposób rozumianej poprawności rozumowań),
-uzyskujemy całkowitą sztywność reguł i wysoki poziom abstrakcji. Sztywność reguł pozwala na
-mechaniczną weryfikację wyrażeń, w tym poprawności dowodów, a abstrakcyjność daje ogólność
-zastosowań.
-
 **Terminologia logiczna**: Mówiąc krótko, jeżeli *A* i *B* to zdania, to *A → B* to zdanie, które
 czytamy jako *Jeżeli A, to B*. A mówiąc trochę dłużej: Zawsze, gdy mamy jakieś dwa, niekoniecznie
-różne zdania *A* i *B*, możemy napisać *A → B* i to będzie poprawna *formuła logiczna*, którą
-interpretujemy jako (niekoniecznie prawdziwe, a tym bardziej udowodnione) zdanie *Jeżeli A, to
-B*. Mówimy też, że *→* to w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na
-zdaniach, które to działanie z dwóch *zdań jako takich* (niekoniecznie udowodnionych czy
-prawdziwych) robi jedno (niekoniecznie udowodnione czy prawdziwe) unikalne zdanie złożone, dające
-się konsekwentnie interpretować jako *Jeżeli A, to B*.
+różne zdania *A* i *B*, możemy napisać *A → B* i to będzie [*formuła
+logiczna*](https://pl.wikipedia.org/wiki/Formu%C5%82a_logiczna), którą interpretujemy jako
+(niekoniecznie prawdziwe, a tym bardziej udowodnione) zdanie *Jeżeli A, to B*. Mówimy też, że *→* to
+w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na zdaniach, które to działanie z
+dwóch *zdań jako takich* (niekoniecznie udowodnionych czy prawdziwych) robi jedno (niekoniecznie
+udowodnione czy prawdziwe) unikalne zdanie złożone, dające się konsekwentnie interpretować jako
+*Jeżeli A, to B*. A krócej: Implikacja to działanie albo operacja binarna na zdaniach.
 
 Może przyda Ci się wyobrazić sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego, a
 jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, jeśli ten dowód
@@ -380,25 +357,27 @@ Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcyjnym*.
 
 **Polecenie**: Nie proszę Cię, żebyś ją zapamiętała, ale proszę, żebyś nie szukając w niej na siłę
-sensu spróbowała zaakceptować na razie bez głębszego uzasadnienia następującą konsekwencję:
-*Ponieważ w teorii typów każde zdanie jest typem, to każda implikacja jest funkcją*.
+sensu spróbowała zaakceptować na razie bez głębszego uzasadnienia następującą konwencję: *Ponieważ w
+teorii typów każde zdanie jest typem, to każda implikacja jest funkcją*.
 
-**Przy okazji**: Powyższa analogia może wygląda jak wieloznaczność i w pewnym sensie nią
-jest. Jednak to byłaby wieloznaczność problematyczna tylko gdybyśmy sprawili, że nie jest całkiem
-jasne, którą interpretację stosujemy i gdyby *jednocześnie* ta różnica w dopuszczalnych
-interpretacjach miała znaczenie dla poprawności wniosków. Używając układu współrzędnych też
-korzystałaś z wieloznaczności i wyszło Ci to, jak sądzę, na dobre, prawda?
+Analogia a raczej doskonałe dopasowanie jakie występuje między zdaniami i (pewnymi) typami może
+wyglądać jak wieloznaczność i w pewnym sensie nią jest. Jednak to byłaby wieloznaczność
+problematyczna tylko gdybyśmy sprawili, że nie jest całkiem jasne, którą interpretację stosujemy i
+gdyby *jednocześnie* ta różnica w dopuszczalnych interpretacjach miała znaczenie dla poprawności
+wniosków. Używając układu współrzędnych też korzystałaś z wieloznaczności i wyszło Ci to, jak sądzę,
+na dobre, prawda?
 
 **Terminologia ogólna**: W matematyce *unikalne* znaczy zwykle *dokładnie jedno danego rodzaju*. I
 tak, w przypadku implikacji otrzymujemy unikalne zdanie powstające w taki a nie inny sposób z każdej
 określonej pary zdań: Jeżeli *A* i *B* to zdania, to *A → B* jest unikalną implikacją *powstającą z
-tych dwóch zdań w tej kolejności*, czyli jest unikalnym obiektem *tego rodzaju*. Podobnie dodawanie
-(*+*) to operacja na liczbach, która z dwóch dowolnych, niekoniecznie różnych liczb, na przykład *2*
-i *2*, robi unikalną liczbę, w tym wypadku *4*. Ten wynik jest w przyjętym znaczeniu unikalny,
-chociaż dodawanie nieskończenie wielu innych par liczb (na przykład całkowitych) daje taki sam
-rezultat. Możemy też powiedzieć, że zdanie w postaci implikacji jest *funkcją* uporządkowanej (bo
-liczy się, które zdanie będzie traktowane jako poprzednik, a które jako następnik implikacji) pary
-zdań.
+tych dwóch zdań w tej kolejności*, czyli jest unikalnym obiektem *tego rodzaju*. Chodzi po prostu o
+to, że jak już mamy jakieś dwa określone zdania *A* i *B*, to możemy z nich zrobić tylko jedną
+implikację o postaci *A → B*. Podobnie dodawanie (*+*) to operacja na liczbach, która z dwóch
+dowolnych, niekoniecznie różnych liczb, na przykład *2* i *2*, robi unikalną liczbę, w tym wypadku
+*4*. Ten wynik jest w przyjętym znaczeniu unikalny, chociaż dodawanie nieskończenie wielu innych par
+liczb (na przykład całkowitych) daje taki sam rezultat. Możemy też powiedzieć, że zdanie w postaci
+implikacji jest *funkcją* uporządkowanej pary zdań. Uporządkowanej, bo liczy się, które zdanie
+będzie traktowane jako poprzednik, a które jako następnik implikacji.
 
 **Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
 przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
@@ -408,7 +387,7 @@ pogubić. Logika pozwala nam w ten sposób *w kontrolowany sposób ignorować tr
 poprawności*. To też, to jest pewnego rodzaju "beztreściowość", mamy na myśli mówiąc o "formalności"
 zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co jest ogromną siłą
 matematyki - ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów
-*mechanicznie*, jakbyśmy układali puzzle, albo grali w grę.
+*mechanicznie*, jakbyśmy układali puzzle albo grali w jakąś inną grę.
 
 Coś takiego będziemy właśnie robić, w właściwie już zaczęliśmy to robić. Będziemy odtąd grać w grę
 polegającą na konstruowaniu dowodów, bo będziemy *całkowicie* formalizować każdy problem. Będziemy
@@ -419,11 +398,10 @@ chcemy się musieć niczego domyślać, bo nie jesteśmy tak kompetentni jak zaw
 matematycy. Jesteśmy za to psychologami, a więc zarówno sami matematycy jak i wszystko, co robią,
 należy do *przedmiotu naszych badań*.
 
-Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam czasem (jednak nie
-oszukujmy się, nie zawsze) *łatwiej*. Przede wszystkim zaś wszystko, co napiszemy, będzie
-*sprawdzone przez algorytm, który zawsze da nam odpowiedź, czy to, co napisaliśmy, jest
-matematycznie poprawne*. Będziemy więc w pewnym sensie "zawsze bezpieczni" w swoich
-(sformalizowanych) rozważaniach i mniej lub bardziej swobodnych formalnych eksperymentach.
+Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam często *łatwiej*. Przede
+wszystkim zaś wszystko, co napiszemy, będzie *sprawdzone przez algorytm, który zawsze da nam
+odpowiedź, czy to, co napisaliśmy, jest matematycznie poprawne*. Będziemy więc w pewnym sensie
+"zawsze bezpieczni" w swoich sformalizowanych rozumowaniach i innych matematycznych eksperymentach.
 
 Koszt, który musimy ponieść, żeby to osiągnąć, to częściowe oswojenie się z co prawda mniej złożonym
 niż język polski, ale obcym, sztucznym, i bezlitośnie sztywnym językiem, jakim jest formalny język
@@ -434,24 +412,24 @@ Jest jak sądzę wiele prawdy w stwierdzeniu, którego autorem jest genialny pol
 von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), że często matematykę się nie tyle
 rozumie, ile raczej się do niej stopniowo *przyzwyczaja*. Dodam od siebie, że gdy się już trochę do
 niej przyzwyczai (co wymaga czasu), to zadziwiająco często okazuje się, że jej pojęcia, twierdzenia
-i teorie wyrażają coś, co rozumiało się dobrze od samego początku, tylko nie umiało się o tym
-dostatecznie konsekwetnie *mówić*, a więc również konsekwentnie albo spójnie *myśleć*.
+i teorie wyrażają coś, co rozumiało się dobrze już wcześniej, tylko nie umiało się o tym
+dostatecznie *konsekwetnie* albo *spójnie mówić*, a więc również dostatecznie *jasno myśleć*.
 
 ## Pojęcie prawdy w logice konstruktywnej
 
-Musimy sobie teraz wyjaśnić coś na temat dwóch najważniejszych logik, to jest konstruktywnej i
-klasycznej. Być może miałaś już do czynienia z elementami logiki zdań. Jeśli tak, to może to być
-teraz do pewnego stopnia *przeszkodą*, ponieważ logika zdań jest najczęściej wykładana w wersji tak
-zwanej *klasycznej*, w której prawdą jest, że:
+Na koniec tego rozdziału wyjaśnię Ci jeszcze coś na temat dwóch najważniejszych dla nas logik, to
+jest logiki konstruktywnej i klasycznej. Być może miałaś już do czynienia z elementami logiki
+zdań. Jeżeli tak, to może to być teraz do pewnego stopnia *przeszkodą*, ponieważ logika zdań jest
+najczęściej wykładana w wersji tak zwanej *klasycznej*, w której prawdą jest, że:
 
-*Każde zdanie jest albo prawdziwe, albo fałszywe.* (zdanie prawdziwe w logice klasycznej)
+*Każde zdanie jest albo prawdziwe, albo fałszywe.*<br/>(zdanie prawdziwe w logice klasycznej)
 
 Jak również:
 
-*Dla każdego zdania* p *, jeżeli nieprawda, że nieprawda, że* p *, to* p. (inne zdanie prawdziwe w
+*Dla każdego zdania P, jeżeli nieprawda, że nieprawda, że P, to P*. <br/>(inne zdanie prawdziwe w
 logice klasycznej)
 
-W Lean domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
+W Leanie domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
 *konstruktywnej*, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w
 tym znaczeniu, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice
 klasycznej (o ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że są
