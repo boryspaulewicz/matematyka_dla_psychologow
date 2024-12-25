@@ -510,17 +510,26 @@ def tautologia (A : Prop) : A → A := fun (h : A) => h
 
 ... jest dowodem tautologii *A → A* (jeżeli *A*, to *A*) dla każdego zdania *A*.
 
-Jeszcze jedna uwaga na temat częstych, ale rzadko objaśnianych konwencji: Gdy matematycy nagle
-zmieniają notację i wydaje się, że bez wyraźnego powodu na to samo zamiast małych liter używają
-dużych, często chcą w ten sposób zasugerować, że mają na myśli dowolnie złożone obiekty danego
-rodzaju. Tutaj zacząłem w pewnem momencie oznaczać arbitralne zdania dużymi literami właśnie w tym
-celu - żeby zasygnalizować, że może chodzić o jakieś zdania dowolnie złożone.
+Sam fakt, że da się skonstruować funkcję o typie `(A : Prop) → A → A` oznacza, że wiedząc tylko
+tyle, że *A* jest jakimś zdaniem, można z dowolnego dowodu *A* zrobić dowód *A*. Jeżeli *A* to
+zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda? 
+
+Jeżeli tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię
+do interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się dla Ciebie
+irytujące, ponieważ to wszystko będzie prawie natychmiast oczywiste.
+
+Jeszcze jedna uwaga na temat często stosowanych, ale rzadko objaśnianych konwencji: Gdy matematycy
+nagle zmieniają notację i wydaje się, że bez wyraźnego powodu na to samo zamiast małych liter
+używają dużych, często chcą w ten sposób zasugerować, że mają na myśli dowolnie złożone obiekty
+danego rodzaju. Tutaj zacząłem w pewnem momencie oznaczać arbitralne zdania dużymi literami właśnie
+w tym celu - żeby zasygnalizować, że może chodzić o jakieś zdania dowolnie złożone.
 
 Przypominam na koniec fragment prozy matematycznej, który pojawił się w trzecim rozdziale:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-Czy widzisz, że to samo można by zapisać w dosyć naturalny i czytelny sposób tak? (ilustracja) ...
+Czy widzisz, że *dokładnie to samo* możemy zapisać w dosyć *naturalny, zwięzły i czytelny sposób* w
+naszym języku jako (ilustracja) ...
 
 ```lean
 def przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = m + n := ...
@@ -530,8 +539,8 @@ def przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = m + n := ...
 dostępne jako wartość stałej `Nat.add_comm` (*comm* to skrót od angielskiego *commutativity*
 oznaczającego przemienność).
 
-Ponieważ matematyka to dla nas programowanie, to twierdzenia to funkcje, które możemy stosować tak
-samo jak wszystkie inne funkcje:
+Ponieważ matematyka to dla nas programowanie a twierdzenia to dla nas funkcje, możemy je stosować
+tak samo jak wszystkie inne funkcje:
 
 ```lean
 -- Nad.add_comm to twierdzenie i jednocześnie funkcja dwuargumentowa, która z podanych argumentów tworzy dowód
