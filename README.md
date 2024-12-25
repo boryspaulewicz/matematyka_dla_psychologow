@@ -155,4 +155,4 @@ W planach: Sekcja zwłok, studium przypadku
     określają czasem (czule!) jako [*abstract
     nonsense*](https://en.wikipedia.org/wiki/Abstract_nonsense).
 
-[^3]: Napisałem co myślę o tej konwencji w przypisie do jednego z rozdziałów.
+[^3]: Napisałem, co myślę o tej konwencji, w przypisie do jednego z rozdziałów.
