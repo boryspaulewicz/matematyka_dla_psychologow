@@ -473,13 +473,10 @@ Oto ogólna reguła dedukcji mówiąca o tym, w jaki sposób można *udowodnić 
 Jeżeli *A* i *B* to zdania, to:
 
 *A*
-.<br>
-.<br>
-.<br>
-*B*
-
----
-
+.  
+.  
+.  
+<ins>*B*</ins>  
 *A → B*
 
 TODO
