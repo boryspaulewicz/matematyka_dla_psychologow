@@ -21,9 +21,9 @@ w³a¶ciwo¶ci. Te s± wyra¿ane czasem jako *aksjomaty*, czyli podawane bez uzasadni
 wiêc *bez dowodu* (za to zwykle z uzasadnieniem w jêzyku naturalnym) *konwencje okre¶laj±ce
 dopuszczalne sposoby u¿ywania pewnych s³ów albo wyra¿eñ*.
 
-W ten sposób - odzieraj±c pojêcia (na przyk³ad, pojêcie zdania, prawdy, fa³szu, prawdopodobieñstwa,
+W ten sposób - odzieraj±c pojêcia (na przyk³ad pojêcia zdania, prawdy, fa³szu, prawdopodobieñstwa,
 czy wp³ywu) ze zbêdnej dla dobrze okre¶lonych celów elastyczno¶ci u¿ycia (w przypadku pojêæ zdania,
 prawdy i fa³szu - na potrzeby analizy w pewien techniczny sposób rozumianej poprawno¶ci rozumowañ),
 uzyskujemy pewien rodzaju niezawodno¶ci i mo¿emy siê szybko wznosiæ na dowolnie wysokie poziomy
 abstrakcji. Sztywno¶æ regu³ pozwala na mechaniczn± weryfikacjê wyra¿eñ, w tym poprawno¶ci dowodów, a
-abstrakcyjno¶æ daje ogólno¶æ zastosowañ.
+abstrakcyjno¶æ zwiêksza ogólno¶æ zastosowañ.
