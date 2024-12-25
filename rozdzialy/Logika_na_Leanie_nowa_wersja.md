@@ -476,7 +476,7 @@ Jeżeli *A* i *B* to zdania, to:
 .  
 .  
 .  
-<ins><em>B</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ins>  
+<ins><em>B</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ins>  
 *A → B*
 
 TODO
