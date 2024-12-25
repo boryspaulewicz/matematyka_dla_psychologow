@@ -113,7 +113,7 @@ polecam.
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
-[R6 = R0](./rozdzialy/Ewaluacja.md)
+[R6,5 = R0](./rozdzialy/Ewaluacja.md)
 
 [R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
