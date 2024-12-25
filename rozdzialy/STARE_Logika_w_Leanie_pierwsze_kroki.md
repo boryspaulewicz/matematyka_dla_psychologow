@@ -1,15 +1,17 @@
 ## O czym teraz będzie
 
-W tym rozdziale będziesz mogła nareszcie zacząć robić gwałtowne postępy w uczeniu się matematyki, a
-konkretnie zaczniesz ćwiczyć dowodzenie twierdzeń. W gruncie rzeczy, poza pierwszym kontaktem z
-trybem interaktywnym i z typem zdaniowym `Prop`, nie pojawia się tu nic nowego, ale to, co będziemy
-robić, będzie miało szczególny *sens* albo *interpretację*. Dlatego największym wyzwaniem podczas
-lektury tego rozdziału będzie przyzwyczajnie się do subtelności o charakterze *pojęciowym*; pod
-względem praktyki programowania to będzie właściwie bułka z masłem.
+Zakładam, że nabrałaś już nieco wprawy w posługiwaniu się funkcjami, w których występują typy
+zależne. W tym rozdziale będziesz mogła nareszcie zacząć robić gwałtowne postępy w uczeniu się
+matematyki, a konkretnie zaczniesz ćwiczyć dowodzenie twierdzeń. W gruncie rzeczy, poza pierwszym
+kontaktem z trybem interaktywnym, typem zdaniowym `Prop` i hierarchią typów nie pojawia się tu nic
+nowego, ale to, co będziemy robić, będzie miało szczególny *sens* albo *interpretację*. Dlatego
+największym wyzwaniem podczas lektury tego rozdziału będzie przyzwyczajnie się do subtelności o
+charakterze *pojęciowym*; pod względem praktyki programowania to powinna być dla Ciebie w tym
+momencie tak zwana bułka z tak zwanym masłem.
 
-Dlatego - jeżeli oczywiście nie zaczęłaś tego robić wcześniej - proponuję spróbować zacząć robić
-*jakiekolwiek* notatki, a może nawet zaplanować jakaś (pierwszą?) generatywną powtórkę. W ten sposób
-znacznie lepiej wykorzystasz czas i wysiłek, który wkładasz w czytanie tej książki.
+Jeżeli nie zaczęłaś tego jeszcze robić, to proponuję teraz spróbować zacząć robić *jakiekolwiek*
+notatki, a może nawet zaplanować jakaś (pierwszą?) generatywną powtórkę. W ten sposób znacznie
+lepiej wykorzystasz czas i wysiłek, który wkładasz w czytanie tej książki.
 
 <hr>
 
