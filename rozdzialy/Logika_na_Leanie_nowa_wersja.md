@@ -2,13 +2,11 @@
 
 W tym rozdziale skorzystamy z tego, co już wiesz, żeby płynnie przejść z programowania do dowodzenia
 twierdzeń. Rozdziały *R6* i *R7* napisałem w taki a nie inny sposób, to jest tłumacząc każde kolejne
-zagadnienie więcej niż raz i omawiając szczegółowo proces ewaluacji wyrażeń, ponieważ próbowałem Cię
+zagadnienie więcej niż raz i omawiając szczegółowo proces ewaluacji wyrażeń, ponieważ próbowałem
 zastąpić Cię w roli kogoś, kto aktywnie powtarza przyswajany materiał. Odtąd jednak będę już pisał
-inaczej.
-
-Wyręczając Cię do pewnego stopnia w roli kogoś, kto sam stara się aktywnie uczyć, utrudniłem Ci
-zmianę postawy, a wydaje mi się, że zmiana postawy z relatywnie biernej na bardziej aktywną przyda
-Ci się później.
+inaczej, ponieważ wyręczając Cię do pewnego stopnia w roli kogoś, kto sam stara się aktywnie uczyć,
+utrudniłem Ci zmianę postawy, a wydaje mi się, że zmiana postawy z relatywnie biernej na bardziej
+aktywną przyda Ci się później.
 
 <hr>
 
