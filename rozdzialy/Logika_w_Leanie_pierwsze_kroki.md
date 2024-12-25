@@ -7,6 +7,10 @@ robić, będzie miało szczególny *sens* albo *interpretację*. Dlatego najwię
 lektury tego rozdziału będzie przyzwyczajnie się do subtelności o charakterze *pojęciowym*; pod
 względem praktyki programowania to będzie właściwie bułka z masłem.
 
+Dlatego - jeżeli oczywiście nie zaczęłaś tego robić wcześniej - proponuję spróbować zacząć robić
+*jakiekolwiek* notatki, a może nawet zaplanować jakaś (pierwszą?) generatywną powtórkę. W ten sposób
+znacznie lepiej wykorzystasz czas i wysiłek, który wkładasz w czytanie tej książki.
+
 <hr>
 
 # Logika na Leanie, pierwsze kroki
