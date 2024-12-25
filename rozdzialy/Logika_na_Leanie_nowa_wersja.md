@@ -1,12 +1,12 @@
 ## O czym teraz będzie
 
-W tym rozdziale skorzystamy z tego, co już wiesz, żeby płynnie przejść z programowania do dowodzenia
-twierdzeń. Rozdziały *R6* i *R7* napisałem w taki a nie inny sposób, to jest tłumacząc każde kolejne
-zagadnienie więcej niż raz i omawiając szczegółowo proces ewaluacji wyrażeń, ponieważ próbowałem
-zastąpić Cię w roli kogoś, kto aktywnie powtarza przyswajany materiał. Odtąd jednak będę już pisał
-inaczej, ponieważ wyręczając Cię do pewnego stopnia w roli kogoś, kto sam stara się aktywnie uczyć,
-utrudniłem Ci zmianę postawy, a wydaje mi się, że zmiana postawy z relatywnie biernej na bardziej
-aktywną przyda Ci się później.
+W tym rozdziale skorzystamy z tego, co już wiesz, żeby przejść możliwie płynnie z programowania do
+dowodzenia twierdzeń. Rozdziały *R6* i *R7* napisałem w taki a nie inny sposób, to jest tłumacząc
+każde kolejne zagadnienie więcej niż raz i omawiając szczegółowo proces ewaluacji wyrażeń, ponieważ
+próbowałem zastąpić Cię w roli kogoś, kto aktywnie powtarza przyswajany materiał. Odtąd jednak będę
+już pisał inaczej, ponieważ wyręczając Cię do pewnego stopnia w roli kogoś, kto sam stara się
+aktywnie uczyć, utrudniłem Ci zmianę postawy, a wydaje mi się, że zmiana postawy z relatywnie
+biernej na bardziej aktywną później Ci się przyda.
 
 <hr>
 
@@ -24,13 +24,17 @@ funkcji tak naprawdę skrywa dwie λ-abstrakcje:
 
 ```lean
 --- To ...
-def identycznosc (typ : Type) (argument : typ) : typ := argument
+def identycznosc (typ : Type) (argument : typ) : typ :=
+    argument
 
 --- ... jest tym samym, co to ...
-def identycznosc' (typ : Type) : (argument : typ) → typ := fun (argument : typ) => argument
+def identycznosc' (typ : Type) : typ → typ :=
+    fun (argument : typ) => argument
 
 -- ... i tym samym, co to ...
-def identycznosc'' : (typ : Type) → (argument : typ) → typ := fun (typ : Type) => fun (argument : typ) => argument
+def identycznosc'' : (typ : Type) → typ → typ :=
+    fun (typ : Type) =>
+        fun (argument : typ) => argument
 
 -- To są wszystko te same funkcje (albo to jest jedna i ta sama funkcja).
 #check @identycznosc   -- identycznosc   : (typ : Type) → typ → typ
@@ -44,12 +48,13 @@ def identycznosc'' : (typ : Type) → (argument : typ) → typ := fun (typ : Typ
 
 Żeby utworzyć definicję dowolnego termu o z góry określonym typie w trybie interaktywnym, w miejscu,
 w którym ma powstać ten term wpisujemy słowo kluczowe `by` (czyli *za pomocą* albo *na sposób*). W
-trybie interaktywnym i tylko w tym trybie możemy korzystać z tak zwanych *taktyk*. Wracając do
-prostszej identyczności, która działa tylko dla liczb naturalnych, poznamy teraz dwie taktyki -
+trybie interaktywnym i tylko w tym trybie możemy korzystać z tak zwanych *taktyk*. Wrócimy teraz do
+prostszej identyczności, która działa tylko dla liczb naturalnych i poznamy dwie ważne taktyki -
 `intro` i `exact`.
 
-Taktyka `intro` tworzy początek λ-abstrakcji. Jeżeli skopiujesz poniższy fragment kodu i umieścisz
-kursor w linii zaznaczonej za pomocą komentarza ...
+Taktyka `intro` tworzy (w tle) sam *początek* λ-abstrakcji, czyli samą część `fun (jakis_parametr :
+jakis_typ) =>`. Jeżeli skopiujesz poniższy fragment kodu i umieścisz kursor w linii zaznaczonej za
+pomocą komentarza ...
 
 ```lean
 def nic_nie_robie : Nat → Nat := by
@@ -64,37 +69,52 @@ trybie interaktywnym ...
 ⊢ Nat → Nat
 ```
 
-... a `by` będzie podkreślone czerwoną falką i zobaczysz też czerwoną falkę za komentarzem, bo
-definicja nie jest jeszcze zakończona. Można więc powiedzieć, że to nie jest błąd, tylko sygnał, że
-masz jeszcze coś do zrobienia.
+... a `by` będzie podkreślone czerwoną falką i zobaczysz też czerwoną falkę pod linią z komentarzem,
+bo definicja nie jest jeszcze zakończona. Można więc powiedzieć, że to nie jest błąd, tylko sygnał,
+że masz coś do zrobienia.
 
 **Czytamy to**: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie
 termu typu `Nat → Nat`. Powyżej symbolu derywacji `⊢` a poniżej komunikatu `1 goal` widać aktualny
 *kontekst*. W tym momencie jeszcze nic tam nie ma.
 
 Jak wiesz, `fun (n : Nat) => n` jest przykładem termu typu `Nat → Nat`, ponieważ jest (w tym wypadku
-trywialną) funkcją posyłającą liczby naturalne w liczby naturalne. Wpisując teraz poniżej komentarza
-`intro n` i nasikając klawisz Enter sprawisz, że zmieni się kontekst z pustego na taki, w którym
-masz do dyspozycji jakąś (czyli arbitralną) liczbę naturalną o nazwie `n`, czyli `n : Nat`.
+trywialną, bo identycznościową) funkcją posyłającą liczby naturalne w liczby naturalne. Wpisując
+teraz poniżej komentarza `intro n` i nasikając klawisz Enter sprawisz, że zmieni się kontekst z
+pustego na taki, w którym masz do dyspozycji jakąś (czyli arbitralną) liczbę naturalną o nazwie `n`,
+czyli `n : Nat`. To daje taki sam efekt jak dołożenie parametru `(n : Nat)` do definiowanej
+funkcji - gdy definiowana funkcja ma taki parametr, wewnątrz jej ciała widać `n : Nat` właśnie jako
+element kontekstu, czyli jedną z dostępnych lokalnie deklaracji zmiennych.
 
-To jest tym samym, co rozpoczęcie tworzenia kodu funkcji anonimowej `fun (n : Nat) => ...` i
-umieszczenie kursora w miejscu trzech kropek, to jest w miejscu, w którym należy stworzyć ciało tej
-funkcji. Rezultat zastosowania w ten sposób taktyki `intro` można również interpretować tak: Niech
-`n` będzie termem typu `Nat`, albo krócej - niech `n : Nat`. Albo tak: Wprowadzam (`intro` to skrót
-od *introduction*) do kontekstu `n` (typu `Nat`, bo taki jest "typ początkowy" w typie-celu).
+Zastosowanie taktyki `intro` jest więc tym samym, co rozpoczęcie tworzenia kodu funkcji anonimowej
+`fun (n : Nat) => ...` i umieszczenie kursora w miejscu trzech kropek, to jest w miejscu, w którym
+należy stworzyć ciało tej funkcji. Rezultat zastosowania w ten sposób taktyki `intro` można również
+opisać tak: Niech `n` będzie termem typu `Nat`, albo krócej - niech `n : Nat`. Albo tak: Wprowadzam
+(`intro` to skrót od *introduction*) do kontekstu `n` (typu `Nat`, bo taki jest "typ początkowy" w
+typie-celu).
 
 Ponieważ część termu, który miałaś skonstruować, już powstała, cel uległ zmianie. Teraz po prawej
-widać, że celem jest skonstruowanie termu typu `Nat`, a nie jak wcześniej `Nat → Nat`.
+widać, że celem jest skonstruowanie prostszego termu typu `Nat`, a nie jak wcześniej `Nat →
+Nat`. Jak się być może domyślasz, ta zmiana celu nastąpiła, ponieważ stosując taktykę `intro` tak
+jakby oderwałaś początkową część typu `Nat → Nat` i wprowadziłaś ją do kontekstu, czyli nadałaś jej
+status parametru konstruowanej funkcji.
 
-W tym momencie możesz skorzystać z taktyki `exact`, która służy do konstrukcji termu-celu
-wprost. Żeby użyć tej taktyki, jako jej argument musisz podać term, który ma taki sam typ, jak
-cel. W tym momencie dysponujesz właśnie takim termem, jest nim przecież `n : Nat`. Wystarczy więc
-napisać w następnej linijce poniżej `intro n` komendę `exact n` i nacisnąć Enter.
+W tym momencie możesz skorzystać z taktyki `exact`, która służy do *konstrukcji* termu o docelowym
+typie *wprost*. Żeby użyć tej taktyki, jako jej argument musisz podać (prosty lub złożony) term,
+który ma taki sam typ, jak cel. W tym momencie dysponujesz właśnie takim termem - jest nim przecież
+`n : Nat`, który masz w kontekście. Wystarczy więc napisać w następnej linijce poniżej `intro n`
+komendę `exact n` i nacisnąć Enter.
 
 Teraz już nie ma żadnych celów do zrealizowania, co można rozpoznać po tym, że gdy kursor znajduje
 się w następnej linijce za komendą `exact n`, to po prawej widać stan `No goals`. A więc proces
-interaktywnej konstrukcji termu o podanym typie (`Nat → Nat`) zakończył się sukcesem. To wszystko
-może się w tym momencie wydawać niepotrzebnie skomplikowane, ale później okaże się przydatne.
+interaktywnej konstrukcji termu o podanym typie (`Nat → Nat`) zakończył się sukcesem. 
+
+To wszystko może się w tym momencie wydawać niepotrzebnie skomplikowane, ale później okaże się
+przydatne. Zwróć proszę uwagę, że w trybie interaktywnym Lean dostarcza Ci *w trakcie* konstrukcji
+termu (na przykład funkcji albo programu, a później dowodu) informacje na temat tego, co jeszcze
+zostało do skonstruowania i czym w danym miejscu w kodzie dysponujesz. W przypadku definiowania
+prostych funkcji to się może wydawać rozpraszające i zbędne, ale w przypadku konstruowania termów
+bardziej złożonych, na przykład nie całkiem trywialnych dowodów, taka pomoc bardzo się przydaje, a
+poza tym sprawia, że uprawianie matematyki jeszcze bardziej przypomina grę.
 
 **Polecenie**: Próbując zastosować taki sam ogólny schemat postępowania jak ten, który własnie
 opisałem, spróbuj stworzyć w trybie interaktywnym definicję uogólnionej identyczności uzupełniając
@@ -448,7 +468,19 @@ gotowa.
 *skontruować procedurę* (napisać program, albo stworzyć funkcję), która dowolny dowód zdania *A*
 przekształca w dowód zdania *B*. 
 
-TODO Spróbuję zrobić tutaj płynne przejście z reguły dedukcji do definicji funkcji / twierdzenia.
+Oto ogólna reguła dedukcji mówiąca o tym, w jaki sposób można *udowodnić implikację*:
+
+Jeżeli *A* i *B* to zdania, to:
+
+*A*
+.\
+.\
+.\
+<h1><em>B<em/></h1>
+<hr> 
+*A → B*
+
+TODO
 
 Jeszcze jedna uwaga na temat częstych, ale rzadko objaśnianych konwencji: Gdy matematycy nagle
 zmieniają notację i wydaje się, że na to samo zamiast małych liter używają dużych, często chcą w ten

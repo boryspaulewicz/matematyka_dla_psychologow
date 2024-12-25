@@ -1,6 +1,8 @@
 UNIKAÆ czêstych zmian rejestru / stylu / tonu. Dygresje, obrazowe porównania i ¿arty dzia³aj¹
 najlepiej, gdy pojawiaj¹ siê tylko czasem, na tle rzeczowego, spokojnego i ¿yczliwego wywodu.
 
+Zaraz po wprowadzeniu trybu interaktywnego podkreœliæ, jaki jest pomocny.
+
 Mo¿e jednak zacz¹æ prawie bez s³ów? Tylko nabywanie wprawy w programowaniu za pomoc¹ rozpoznawania
 wzorców?
 
