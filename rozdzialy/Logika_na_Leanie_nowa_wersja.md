@@ -57,12 +57,16 @@ def nic_nie_robie : Nat → Nat := by
 ```
 
 ... to po prawej, pod zakładaką *Tactic state*, zobaczysz aktualny stan procesu konstrukcji termu w
-trybie interaktywnym:
+trybie interaktywnym ...
 
 ```lean
 1 goal
 ⊢ Nat → Nat
 ```
+
+... a `by` będzie podkreślone czerwoną falką i zobaczysz też czerwoną falkę za komentarzem, bo
+definicja nie jest jeszcze zakończona. Można więc powiedzieć, że to nie jest błąd, tylko sygnał, że
+masz jeszcze coś do zrobienia.
 
 **Czytamy to**: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie
 termu typu `Nat → Nat`. Powyżej symbolu derywacji `⊢` a poniżej komunikatu `1 goal` widać aktualny
@@ -137,17 +141,56 @@ def identycznosc'' : (typ : Type) → (argument : typ) → typ := by
     -- Umieść kursor w następnej linii.
 ```
 
-Muszę teraz wyjaśnić Ci coś na temat *hierarchii typów*.
+**Polecenie**: Używając trybu interaktywnego dokończ poniższą definicję. Zwróć uwagę, że Twoim celem
+jest skontruowanie termu typu `Nat`, a nie termu typu funkcyjnego, nie masz więc tworzyć
+λ-abstrakcji. Jedyna trudność, jaka może się pojawić u Ciebie w tym zadaniu, to przywiązanie do
+określonego sposobu stosowania taktyki `exact`. Ta taktyka jest dość elastyczna w tym znaczeniu, że
+jej argumentem nie musi być pojedyncza stała - to może być dowolne złożone wyrażenie, o ile typ tego
+wyrażenia zgadza się z celem.
+
+```lean
+-- Dokończ definicję w trybie interaktywnym.
+def dodaj2 (n : Nat) : Nat := by
+```
+
+**Polecenie**: A teraz dokończ definicję tej samej funkcji, ale nie korzystając z udogodnienia
+wynikającego z tego, że podanie parametru przed głównym dwukropkiem wyręcza Cię w konstruowaniu
+λ-abstrakcji:
+
+```lean
+-- Dokończ definicję w trybie interaktywnym.
+def dodaj2' : Nat → Nat := by
+```
+
+**Polecenie**: Teraz będziesz robić to samo, ale konstruowana funkcja będzie dwuargumentowa.
+
+```lean
+-- Dokończ definicję w trybie interaktywnym.
+def suma (n : Nat) (m : Nat) : Nat := by
+```
+
+```lean
+-- Dokończ definicję w trybie interaktywnym. Ponieważ w tym wypadku trzeba samodzielnie stworzyć λ-abstrakcję,
+-- konieczne będzie zastosowanie taktyki intro.
+def suma' (n : Nat) : Nat → Nat := by
+```
+
+```lean
+-- Dokończ definicję w trybie interaktywnym.
+def suma'' : Nat → Nat → Nat := by
+```
+
+W tym momencie muszę Ci wytłumaczyć na czym w Leanie polega *hierarchia typów*.
 
 ## Hierarchia typów w Leanie
 
 W teorii typów, której używamy w Leanie, *każdy typ*, na przykład typy `Nat` i `Type`, *jest również
-termem*, ale *typu ogólniejszego* inaczej *wyższego*, na przykład typ `Type` ma typ `Type 1` i tak w
-nieskończoność[^1]:
+termem*, ale *typu ogólniejszego* inaczej *wyższego*, na przykład typ `Type` ma typ `Type 1`, `Type
+1` jest typem, ale również termem, który ma typ `Type 2`, i tak w nieskończoność[^1]:
 
 ```lean
--- 2 to "zwykły" term, inaczej *term atomowy*, to jest taki, który nie jest typem. Wyobrażam sobie czasem, że takie 
--- termy "są na dnie", albo, że są "zwarte":
+-- 2 to tylko "zwykły" term, to jest taki, który nie jest typem. Czasami myślę o takich termach, że "są na dnie",
+-- albo że są "zwarte" czy "konkretne":
 #check 2 -- 2 : Nat
 
 -- Nat to typ i jednocześnie term ogólniejszego typu, który nazywa się Type. Chciałoby się zapisać:
@@ -166,6 +209,14 @@ nieskończoność[^1]:
 
 -- A więc pisząc w sposób, którego Lean nie lubi:
 -- 2 : Nat : Type 1 : Type 2 : Type 3 : Type 4 : i tak dalej ...
+```
+
+Jedyne, co potrzebujesz w tym momencie wiedzieć o typach wyższego rzędu to że po prostu gdzieś tam
+sobie *są*. A przy okazji:
+
+```lean
+-- W ten sposób możemy zapytać - czy dobrze mi się wydaje, że term Type 1 ma typ Type 2?
+#check (Type 1 : Type 2) -- Odpowiedź Leana - Type 1 : Type 2 - czytamy: Tak, dobrze Ci się wydaje.
 ```
 
 Typy wyższych rzędów są potrzebne *tylko* z pewnych nudnawych powodów technicznych i rzadko, o ile w
@@ -188,62 +239,69 @@ teraz, że typ `Prop` jest jakby odnogą albo odgałęzieniem hierarchii typów:
 -- Komenda variable służy do deklarowania, że mamy ("skądś") jakiś term danego typu.
 variable (cos_pod_typem_Prop : Prop)
 
--- cos_pod_typem_Prop jest jednocześnie termem (typu Prop) i typem, więc możemy napisać też taką deklarację:
+-- cos_pod_typem_Prop jest jednocześnie termem (typu Prop) i typem, dlatego możemy napisać taką deklarację:
 variable (jakis_term : cos_pod_typem_Prop)
 
 #check Nat -- Nat : Type
 
--- 2 nie jest typem, to tylko term, czyli 2 to pewien *term atomowy*.
+-- 2 nie jest typem, to tylko term. Nie istnieją termy typu 2.
 #check 2 -- 2 : Nat
 ```
 
 A więc "zaraz pod" typem `Type` (a tak naprawdę `Type 0`) mamy na przykład typ `Nat` (i wiele
-innych), a pod nim już tylko termy atomowe. Chociaż typ `Prop` też jest pod typem `Type`, to jednak
-"ma pod sobą" również typy. Piszę o tym już teraz, ale to nie będzie na razie wcale ważne.
+innych), a "pod" typem `Nat` mamy już tylko termy. Chociaż typ `Prop` też jest pod tym samym typem
+`Type`, to jednak "ma pod sobą" również typy (zamieszkują go typy). Piszę o tym już teraz, ale to
+nie będzie na razie takie ważne.
 
 Nazwa typu `Prop` jest skrótem od angielskiego *Proposition* oznaczającego *zdanie* albo *sąd*. Oto,
-dlaczego ten typ będzie dla nas odtąd ważny (chodzi o izomorfizm Curry'ego-Howarda):
+dlaczego ten typ będzie dla nas odtąd ważny - tak jak dowolne pary liczb rzeczywistych można dzięki
+układowi współrzędnych konsekwentnie interpretować jako punkty na płaszczyźnie, tak też dzięki
+izomorfizmowi Curry'ego-Howarda termy typu `Prop` można konsekwentnie interpretować jako
+*zdania*:
 
 *Termy typu `Prop` można konsekwentnie interpretować jako zdania*.
 
-A ponieważ `Prop` jest typem wyższego rzędu, w naszym języku *zdania są typami*, dlatego zdania
-będziemy nazywać czasem dla wygody *typami zdaniowymi*.
+Dlatego takie termy będę odtąd często nazywał po prostu zdaniami. Ponieważ `Prop` jest typem
+wyższego rzędu, to w naszym języku *zdania są typami*, dlatego zdania będziemy nazywać też czasem
+*typami zdaniowymi*. Będziesz się również stopniowo przyzwyczajać do tego, że:
 
 *Termy typu zdaniowego można konsekwentnie interpretować jako dowody tego zdania (tego typu
 zdaniowego)*.
 
-To jest coś, do czego trzeba się po prostu stopniowo przyzwyczaić. Wydaje mi się, że będzie
-najlepiej, jeżeli będziesz się do tego przyzwyczajać grając w grę polegającą na dowodzeniu
-twierdzeń.
+Wydaje mi się, że będzie może najlepiej, jeżeli będziesz się do tego przyzwyczajać grając w grę
+polegającą na dowodzeniu twierdzeń.
 
 ## Pierwsze twierdzenie jako zwykła funkcja
 
 **Polecenie**: Dokończ poniższą definicję w trybie interaktywnym tak jak to robiłaś wcześniej,
-używając taktyk `intro` i `exact`:
+używając taktyk `intro` i `exact`. Jedyna trudność, jaka może się tutaj pojawić, to fakt, że
+pierwszy raz używasz typu `Prop`. W tym przypadku jedyne, co się liczy, to fakt, że to jest pewien
+typ (a `zdanie` jest pewnym parametrem funkcji `twierdzenie`):
 
 ```lean
 def twierdzenie (zdanie : Prop) : zdanie → zdanie := by
-    -- Umieść kursor w następnej linii.
 ```
 
 **Polecenie**: Dokończ tą samą definicję jeszcze raz, ale tym razem nie używając trybu
 interaktywnego. Trzeba będzie usunąć kod, który przed chwilą napisałaś i trzeba będzie usunać też
 słowo kluczowe `by`. Potraktuj `Prop` jak jakiś typ, taki jak inne i dokończ definicję tak, jakby to
-była funkcja identycznościowa (działająca tylko dla termów typu `Prop`).
+była funkcja identycznościowa (działająca tylko dla termów typu `Prop`). Przypuszczam, że to będzie
+dla Ciebie w tym momencie łatwe.
 
-Jeżeli Ci się udało, to właśnie na dwa sposoby udowodniłaś pewne twierdzenie matematyczne, a
-dokładniej tautologię o postaci *Jeżeli A, to A*, gdzie *A* to jakieś zdanie.
+Jeżeli Ci się udało wykonać ostatnie polecenie, to właśnie na dwa sposoby udowodniłaś pewne
+twierdzenie matematyczne, a dokładniej tautologię o postaci *Jeżeli A, to A*, gdzie *A* to jakieś
+zdanie.
 
 # Pojęciowy zawrót głowy
 
 Pamiętasz moje uwagi na temat układu kartezjańskiego i innych izomorfizmów? Tego rodzaju izomorfizmy
 mogą się na spoczątku wydawać obce, ale przełączając się przez pewien czas się regularnie między
 punktami widzenia, które odpowiadają ich "stronom", możemy zacząć postrzegać pewne rzeczy w nowy
-sposób, a dzięki temu inaczej o nich myśleć i czasem znacznie lepiej radzić sobie z rozwiązywaniem
-pewnego rodzaju problemów?
+sposób. Dzięki temu możemy zacząć w całkiem nowy sposób myśleć, a dzięki temu czasem lepiej sobie
+radzić z rozwiązywaniem pewnego rodzaju problemów.
 
-Żeby "zanurzyć się" w izomorfizmie Curry'ego-Howarda trzeba trzeba *stopniowo* opanować sztukę *w
-miarę* konsekwentnego *odróżniania*:
+Żeby "zanurzyć się" w izomorfizmie Curry'ego-Howarda trzeba *stopniowo* opanować sztukę *w miarę*
+konsekwentnego *odróżniania*:
 
 1. Dowolnych zdań *jako takich*, a więc niekoniecznie prawdziwych, od...
 
@@ -258,12 +316,22 @@ wręcz nie warte objaśniania, ale możliwe, że te fundamentalne rozróżnienia
 sprawiały trudności nawet w stosunkowo prostych sytuacjach. Dlatego przypominam jeszcze raz -
 cierpliwości. 
 
+Oswajanie się z nieznanymi wcześniej fragmentami matematyki może przypominać ... wykształcanie się
+[skrzel](https://pl.wikipedia.org/wiki/Skrzela_(anatomia)). Na początku czujemy, że zanurzamy się w
+jakimś nowym, obcym (pojęciowym) środowisku, w którym nie jesteśmy w stanie przebywać zbyt długo i
+szybko się męczymy; to jest więc trochę tak, jakbyśmy znaleźli się pod powierzchnią wody. Jednak z
+czasem, jeżeli tylko będziemy nadal wracać do tego nowego środowiska, stanie się ono dla nas coraz
+bardziej naturalne, aż w końcu wykształcimy coś w rodzaju mentalnego organu, którego wcześniej nie
+było. W ten sposób opanowujemy nowe wyspecjalizowane języki a wraz z nimi nowe sposoby myślenia,
+które oferuje współczesna matematyka.
+
 ## Implikacje jako funkcje
 
 Implikacja jest być może najważniejszym spójnikiem w logice. Mówiąc luźno, implikacjami nazywamy
 zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to *dowolne* zdania, proste lub złożone (i tylko
 same zdania, a nie ich prawdziwość czy fałszywość, albo fakt bycia dowiedzionym, albo ich
-dowody). Implikacje zapisujemy formalnie za pomocą strzałki skierowanej w prawo: →. Wygląda znajomo?
+dowody). Implikacje zapisujemy formalnie za pomocą strzałki skierowanej w prawo: *→*. Wygląda
+znajomo?
 
 Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
 implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Nic? Żadnych skojarzeń?
@@ -369,7 +437,7 @@ niej przyzwyczai (co wymaga czasu), to zadziwiająco często okazuje się, że j
 i teorie wyrażają coś, co rozumiało się dobrze od samego początku, tylko nie umiało się o tym
 dostatecznie konsekwetnie *mówić*, a więc również konsekwentnie albo spójnie *myśleć*.
 
-## Pojęcie prawy w logice konstruktywnej
+## Pojęcie prawdy w logice konstruktywnej
 
 Musimy sobie teraz wyjaśnić coś na temat dwóch najważniejszych logik, to jest konstruktywnej i
 klasycznej. Być może miałaś już do czynienia z elementami logiki zdań. Jeśli tak, to może to być
