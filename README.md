@@ -119,7 +119,7 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
 [R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
 
-[R9 Kilka uwag na temat języków formalnych](./rozdzialy/Język_matematyki.md)
+[R9 Kilka uwag na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
 
 [R10 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
 
