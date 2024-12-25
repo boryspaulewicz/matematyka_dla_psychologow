@@ -344,7 +344,7 @@ logiczna*](https://pl.wikipedia.org/wiki/Formu%C5%82a_logiczna), którą interpr
 w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na zdaniach, które to działanie z
 dwóch *zdań jako takich* (niekoniecznie udowodnionych czy prawdziwych) robi jedno (niekoniecznie
 udowodnione czy prawdziwe) unikalne zdanie złożone, dające się konsekwentnie interpretować jako
-*Jeżeli A, to B*. A krócej: Implikacja to działanie albo operacja binarna na zdaniach.
+*Jeżeli A, to B*. Mówiąc najkrócej, implikacja to operacja binarna na zdaniach.
 
 Może przyda Ci się wyobrazić sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego, a
 jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, jeśli ten dowód
@@ -356,16 +356,12 @@ Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 
 Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcyjnym*.
 
-**Polecenie**: Nie proszę Cię, żebyś ją zapamiętała, ale proszę, żebyś nie szukając w niej na siłę
-sensu spróbowała zaakceptować na razie bez głębszego uzasadnienia następującą konwencję: *Ponieważ w
-teorii typów każde zdanie jest typem, to każda implikacja jest funkcją*.
-
-Analogia a raczej doskonałe dopasowanie jakie występuje między zdaniami i (pewnymi) typami może
+Analogia, a raczej doskonałe dopasowanie jakie występuje między zdaniami i (pewnymi) typami może
 wyglądać jak wieloznaczność i w pewnym sensie nią jest. Jednak to byłaby wieloznaczność
 problematyczna tylko gdybyśmy sprawili, że nie jest całkiem jasne, którą interpretację stosujemy i
 gdyby *jednocześnie* ta różnica w dopuszczalnych interpretacjach miała znaczenie dla poprawności
-wniosków. Używając układu współrzędnych też korzystałaś z wieloznaczności i wyszło Ci to, jak sądzę,
-na dobre, prawda?
+wniosków. Używając układu współrzędnych też korzystałaś z pewnej podwójności interpretacji, a więc
+pewnej wieloznaczności i wyszło Ci to, jak sądzę, na dobre, prawda?
 
 **Terminologia ogólna**: W matematyce *unikalne* znaczy zwykle *dokładnie jedno danego rodzaju*. I
 tak, w przypadku implikacji otrzymujemy unikalne zdanie powstające w taki a nie inny sposób z każdej
@@ -435,28 +431,30 @@ tym znaczeniu, że wszystko, co jest prawdą w logice konstruktywnej, jest też 
 klasycznej (o ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że są
 *słabsze*), ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
 
-*Zdanie prawdziwe to to samo co zdanie udowodnione.* (dopuszczalna interpretacja prawdy w logice
+*Zdanie prawdziwe to to samo co zdanie udowodnione.*<br/>(dopuszczalna interpretacja prawdy w logice
 konstruktywnej)
 
 Co za różnica? Jeżeli postanowimy intepretować słowo "prawdziwe" jako równoznaczne z "udowodnione",
 to *nie możemy* zaakceptować jako prawdziwego zdania *Każde zdanie jest albo prawdziwe, albo
 fałszywe* (nazywanego m.in. [zasadą wyłączonego
-środka](https://en.wikipedia.org/wiki/Law_of_excluded_middle)). Wiemy (istnieje twierdzenie, które
-to mówi), że w matematyce da się skonstruować zdania prawdziwe, których nie da się udowodnić. Nie
+środka](https://en.wikipedia.org/wiki/Law_of_excluded_middle)). Wiemy (istnieje twierdzenie, które o
+tym mówi), że w matematyce da się skonstruować zdania prawdziwe, których nie da się udowodnić. Nie
 możemy więc też zaakceptować zasady podwójnej negacji (jeżeli nieprawda, że nieprawda, że *p*, to
-*p*), bo zasada wyłączonego środka z niej wynika (i vice versa). Jeśli Cię to niepokoi, to
-zapewniam, że ta różnica nieprędko będzie dla nas ważna, a gdy już to nastąpi, będziesz na to
+*p*), bo zasada wyłączonego środka z niej wynika (i vice versa). Jeżeli Cię to niepokoi, to
+zapewniam, że logika klasyczna nieprędko będzie dla nas ważna, a gdy się taka stanie, będziesz na to
 gotowa.
 
-Żeby udowodnić implikację *A → B*, gdzie *A* i *B* to dowolne zdania, w logice konstruktywnej,
-trzeba *skontruować procedurę*, która dowolny dowód zdania *A* przekształca w dowód zdania
-*B*. Jeszcze jedna uwaga na temat często stosowanych konwencji: Gdy matematycy nagle zmieniają
-notację i wydaje się, że na to samo zamiast małych liter używają dużych, często chcą w ten sposób
-zasugerować, że mają na myśli dowolnie złożone obiekty danego typu. Tutaj nagle zacząłem oznaczać
-arbitralne zdania dużymi literami właśnie w tym celu - żeby zasygnalizować, że może chodzić o jakieś
-zdania dowolnie złożone.
+Żeby udowodnić w logice konstruktywnej implikację *A → B*, gdzie *A* i *B* to dowolne zdania, trzeba
+*skontruować procedurę* (napisać program, albo stworzyć funkcję), która dowolny dowód zdania *A*
+przekształca w dowód zdania *B*. 
 
-TODO
+TODO Spróbuję zrobić tutaj płynne przejście z reguły dedukcji do definicji funkcji / twierdzenia.
+
+Jeszcze jedna uwaga na temat częstych, ale rzadko objaśnianych konwencji: Gdy matematycy nagle
+zmieniają notację i wydaje się, że na to samo zamiast małych liter używają dużych, często chcą w ten
+sposób zasugerować, że mają na myśli dowolnie złożone obiekty danego rodzaju. Tutaj zacząłem
+oznaczać arbitralne zdania dużymi literami właśnie w tym celu - żeby zasygnalizować, że może chodzić
+o jakieś zdania dowolnie złożone.
 
 ### Przypisy
 

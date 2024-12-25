@@ -1,20 +1,17 @@
-Dlaczego teoria typów i dlaczego Lean w README
-
-O kurczeniu siê reprezentacji.
-
-ZACZ¥Æ od anonimowych funkcji?
+UNIKAÆ czêstych zmian rejestru / stylu / tonu. Dygresje, obrazowe porównania i ¿arty dzia³aj¹
+najlepiej, gdy pojawiaj¹ siê tylko czasem, na tle rzeczowego, spokojnego i ¿yczliwego wywodu.
 
 Mo¿e jednak zacz¹æ prawie bez s³ów? Tylko nabywanie wprawy w programowaniu za pomoc¹ rozpoznawania
 wzorców?
 
-Zasiêg nazw - ¿e bez koniecznej konwencji pojawi³aby siê dwuznacznoœ. Wczeœniej o aksjomatach, ¿eby
+Zasiêg nazw - ¿e bez koniecznej konwencji pojawi³aby siê dwuznacznoœæ. Wczeœniej o aksjomatach, ¿eby
 by³o co przys³aniaæ.
 
 Wspomnieæ o Marcie £ukowskiej
 
 Odezwaæ siê do Julii, a potem wys³aæ jej robocze t³umaczenie.
 
-Spoj¿enie na *oficialn¹ aktywnoœæ* badacza psychologa i zadanie pytania o spójn¹ interpretacjê z
+Rzut oka na *oficialn¹ aktywnoœæ* badacza psychologa i zadanie pytania o spójn¹ interpretacjê z
 zewn¹trz tej aktywnoœci, ¿eby odkryæ *cele*
 
 Powtarzanie tego samego pytania z testu samoopisowego, ¿eby ustaliæ minimaln¹ spójnoœæ
@@ -27,9 +24,8 @@ Kropki monitoringuj¹ce jako *uwaga jako taka*, bo to celowe wybieranie informacj
 
 Formalizacja zjawiska regresji do œredniej wymaga chyba przyczynowoœci.
 
-Na wszelki wypadek porównaæ terminologiê teorio-typow¹ z wikipedi¹ i polskimi Ÿród³ami.
-
-Wprowadziæ terminologiê zamieszkiwania przy okazji omawiania definicji liczb naturalnych.
+Na wszelki wypadek porównaæ terminologiê teorio-typow¹, któr¹ naby³em nie zawsze wiem kiedy i jak, z
+wikipedi¹ i w ogóle polskimi Ÿród³ami.
 
 Test inteligencji jako granica kategorialna. W ogóle zadania jako korelaty wykonania w innych
 zadaniach, gdzie wszystko jest rozumiane kategorialnie.
@@ -37,23 +33,18 @@ zadaniach, gdzie wszystko jest rozumiane kategorialnie.
 Interferencja jako wzorzec wykonania wskazuj¹cy na stopieñ niezale¿noœci "wymiarów tego samego
 zadania"
 
-Mo¿e napisaæ o tym, ¿e lubiê studentów i za co. Mo¿e o improwizowanym charakterze zajêæ?
+Mo¿e napisaæ o tym, ¿e lubiê studentów i czemu (jak s¹dzê) ich lubiê. Mo¿e o improwizowanym
+charakterze zajêæ?
 
-O szukaniu drogi na skróty do matematyki i teorii kategorii
+O moim wczeœniejszym szukaniu drogi na skróty do matematyki i teorii kategorii?
 
-Objaœnienie typów zale¿nych przy okazji identycznoœci w stylu: wyobraŸ sobie, ¿e argumenty "wchodz¹"
-po kolei.
-
-Po trzy podobne dowody, bo "trzeba powtórzyæ trzy razy".
+Po trzy podobne dowody, bo "trzeba powtórzyæ trzy razy"? Anegdota na ten temat.
 
 Dowód zdania z predykatami przed dowodem zdania z predykatami i negacj¹.
 
-Rodzaj gramatyczny: wersja ¿eñska pierwsza, bo jest wiêcej kobiet. Poza tym to siê mo¿e przydaæ
-kobietom.
+Z zasady najpierw mo¿e przyk³ady (rym), a potem d³u¿sze objaœnienia?
 
-Najpierw mo¿e przyk³ady, a potem d³u¿sze objaœnienia?
-
-Objaœniæ pojêcie zdania atomowego.
+Objaœniæ pojêcie zdania atomowego. Chyba sobie.
 
 This is my attempt to motivate you at this stage: If you look at this first line of code that starts
 with the word "theorem" and that I kindly ask you to just paste to the Lean server, Lean will color
@@ -69,10 +60,6 @@ Wyjaœniæ, jak dzia³a rachunek przyczynowy w teorii typów na toy example u¿ywaj¹c
 rachunku interwencyjnego na przyk³adzie rzutu monet¹ w dwóch arbitralnie nazwanych randomizowanych
 warunkach.
 
-Czemu TTZ jest w pewnym sensie idealnym jêzykiem programowania - podstawowa sk³adnia wyra¿a wprost
-to i tylko to, co jest kluczowe dla formalnego teoretyzowania na temat obliczalnoœci, a w
-programowaniu chodzi o obliczalnoœæ.
-
 Zbyt chaotycznie o Absurdzie i False w rozdziale o negacji. Trzeba bêdzie poprzestawiaæ to i owo (co
 najmniej).
 
@@ -83,8 +70,8 @@ do tekstsu
 
 Negacja - (h : p -> q) : not p -> not q
 
-Najpierw ¿e termostat jest g³upi, najg³upszy, ale jako regulator temperatury, a potem, ¿e jest
-m¹drzejszy od nas, jako nieobci¹¿ony klasyfikator binarny.
+Najpierw ¿e termostat jest g³upi, najg³upszy, ale jako regulator temperatury, a potem, ¿e jest od
+nas m¹drzejszy jako nieobci¹¿ony klasyfikator binarny.
 
 Fa³sz, prawda, negacja, koniunkcja i alternatywa wprowadzone przez teoriê kategorii! A ta
 wprowadzona jako domain-specific language (to te¿ objaœniæ, bo z tego bêdê korzysta³) jeszcze przed
@@ -95,7 +82,3 @@ mindblower). To siê przyda: https://leanprover.github.io/theorem_proving_in_lean
 
 Nauka jako profesjonalne programowanie i profesjonalne zbieranie danych (nawi¹zanie do postu
 McElreatha o amatorskim programowaniu)
-
-USUNIÊTE Gdyby ta ksi¹¿ka zaczê³a Ciê nudziæ, mo¿e zamiast tego, o czym tutaj piszê, zaciekawi¹ Ciê
-niektóre moje, w wiêkszoœci doœæ stare, ale za to nieprzyciête
-[zdjêcia](https://www.dropbox.com/scl/fo/xup62948bbrropjdz0phk/AMfkFdVX0WA0vziZ3lt3Xfo?rlkey=ks43vvthysqgclyashp16kxbt&st=lw3vnxqy&dl=0).
