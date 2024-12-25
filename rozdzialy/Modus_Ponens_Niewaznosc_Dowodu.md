@@ -3,14 +3,15 @@
 A to jest kolejny rozdział, w którym nie ma żadnych zadań. Muszę powiedzieć, że jestem z niego nawet
 zadowolony. Tylko nie pamiętam dokładnie o czym tu pisałem, tak więc potrzebuję chwili. No tak, mamy
 tu objaśnienie terminologii mieszkaniowej, z pozoru kontrowersyjną część na temat nieważności dowodu
-i po raz kolejny, tylko trochę inaczej, objaśnione dwa rodzaje "obliczeń" występujących w teorii typów.
+i po raz kolejny, tylko trochę inaczej, objaśnione dwa rodzaje obliczeń występujących w teorii
+typów.
 
 Nawiasem mówiąc, tych rodzajów obliczeń w teorii typów jest więcej. Mamy na przykład *α-redukcję*
-(nazwy parametrów są nieważne), *β-redukcję* (czyli podstawianie argumentów pod zmienne
-odpowiadające parametrom funkcji), *δ-redukcję* (rozwijanie definicji), i inne, ale to są sprawy,
-które zaczyna się szybko intuicyjnie czuć używając tej teorii i programując w niej, tak jak się
-czuje gramatykę języka ojczystego, i moim zdaniem tłumaczenie tego bardziej szczegółowo
-niekoniecznie w czymkolwiek znacząco pomaga.
+(nazwy parametrów są nieważne), *β-redukcję* (podstawianie argumentów pod zmienne odpowiadające
+parametrom funkcji), *δ-redukcję* (rozwijanie definicji), i inne, ale to są sprawy, które zaczyna
+się szybko intuicyjnie czuć używając tej teorii i programując w niej, tak jak się czuje gramatykę
+języka ojczystego i moim zdaniem tłumaczenie tego bardziej szczegółowo niekoniecznie w czymkolwiek
+znacząco pomaga.
 
 <hr>
 
@@ -18,9 +19,13 @@ niekoniecznie w czymkolwiek znacząco pomaga.
 
 Jeżeli implikacja jest najważniejszym spójnikiem, to *modus ponens*, albo *modus ponendo ponens* (z
 łacińskiego *sposób potwierdzający potwierdzeniem*), albo *reguła odrywania*, jest najważniejszą
-regułą dedukcji (schematem wnioskowania dedukcyjnego). Reguła ta mówi:
+regułą dedukcji (schematem wnioskowania dedukcyjnego). I tu od razu mam dla Ciebie dobrą wiadomość -
+*znasz już tą regułę*. Reguła ta mówi:
 
 *Jeżeli `p → q`, to jeżeli `p`, to `q`*.
+
+Czy rozpoznajesz znane Ci odrywanie się typu na początku strzałki, które zachodzi w ramach
+aplikacji?
 
 Na przykład, stąd, że *jeżeli padało, to trawa jest mokra* wynika, że *jeżeli padało*, to *trawa
 jest mokra*. Brzmi jak masło maślane, prawda? To dlatego, że ta reguła jest niczym innym jak
@@ -36,21 +41,22 @@ albo takiej:
 
 *Jeżeli `p → q` ma dowód i jej poprzednik `p` ma dowód, to `q` ma dowód*.
 
-Używałaś już tej reguły wiele razy, ponieważ w teorii typów ta reguła jest *wbudowana w język* (a
-dokładniej możemy powiedzieć że jest wbudowana w język teorii typów patrząc na niego z perspektywy
-izomorfizmu Curry'ego-Howarda): Jeżeli mamy `h : p → q`, czyli dowód `h` zdania `p → q`, to jeżeli
-mamy też `hp : p`, czyli dowód `hp` zdania `p`, to mamy też dowód zdania `q` i jest nim aplikacja `h
-hp : q`. To nic innego jak nasze najbardziej podstawowe obliczenie na poziomie typów, które zachodzi
-zawsze w ramach aplikacji funkcji do argumentu. 
+Używałaś już tej reguły wiele razy, ponieważ w teorii typów ta reguła dedukcji jest *wbudowana w
+język*. A dokładniej, możemy powiedzieć, że jest wbudowana w język teorii typów, patrząc na ten
+język z perspektywy izomorfizmu Curry'ego-Howarda: Jeżeli mamy `h : p → q`, czyli dowód `h` zdania
+`p → q`, to jeżeli mamy też `hp : p`, czyli dowód `hp` zdania `p`, to mamy też dowód zdania `q` i
+jest nim po prostu aplikacja `h hp : q`. To zatem nic innego jak nasze najbardziej podstawowe
+obliczenie na poziomie typów, które zachodzi zawsze w ramach aplikacji funkcji do argumentu.
 
 **Przydatna konwencja**: Przy okazji, lubię czasem stosować konwencję, zgodnie z którą nazwa dowodu
-zdania na przykład `q` to `hq`, bo to skrót od "hipoteza q". Dzięki temu jest mi łatwiej odróżniać
-zdania od ich dowodów, bo od razu widać to w notacji.
+zdania na przykład `q` to `hq`, bo to skrót od *hipoteza q*. Dzięki temu jest mi łatwiej odróżniać
+zdania od ich dowodów, bo od razu widać to w notacji i nie muszę się za bardzo starać, żeby
+zapamiętać sens tak nazwanych zmiennych.
 
 Przyjżymy się teraz różnicy między aplikacją dowodu implikacji i aplikacją funkcji, która nie jest
 dowodem. Jak widać poniżej, to jest zarazem to samo i nie to samo, ponieważ chociaż formalnie to
-jest ten sam proces, to *nas, użytkowników* interesuje w nim coś innego i dlatego o nim inaczej
-mówimy, inaczej myślimy i inaczej go używamy:
+jest ten sam proces, to *nas*, użytkowników *interesuje w nim coś innego* i dlatego o nim inaczej
+mówimy, inaczej myślimy i do pewnego stopnia inaczej go używamy:
 
 1. *Jeżeli mamy dowód zdania `p → q`, ...*
 
@@ -69,10 +75,11 @@ mówimy, inaczej myślimy i inaczej go używamy:
     - *uzyskujemy liczbę `12`, która jest termem typu `Nat`*.
 
 Czy widzisz, że w przypadku aplikacji "zwykłych" funkcji takich jak `dodaj2` do jakiś termów
-interesuje nas *wynik*, a nie jego *typ*, natomiast w przypadku aplikacji dowodów implikacji, które
-to dowody też są w naszym języku funkcjami, interesuje nas *typ* rezultatu aplikacji, a *nie*
-rezultat? Jeżeli tego nie widzisz, to może przeczytaj poprzedni fragment jeszcze raz - prędzej czy
-później nie będziesz w stanie tam tego nie zobaczyć.
+interesuje nas *wynik* (tutaj `12`), a nie jego *typ*, natomiast w przypadku aplikacji dowodów
+implikacji, które to dowody też są w naszym języku funkcjami, interesuje nas *typ* rezultatu
+aplikacji (tutaj `q`), a *nie* rezultat (tutaj konkretna postać jaką przybiera dowód `q`, to jest
+pewna aplikacja)? Jeżeli tego nie widzisz, to może przeczytaj poprzedni fragment jeszcze raz -
+prędzej czy później nie będziesz w stanie tam tego nie zobaczyć.
 
 ## Dowody są zwykle nieważne
 
@@ -82,8 +89,8 @@ oznacza, że w momencie udowodnienia twierdzenia możemy zwykle *zapomnieć* o j
 traktować twierdzenie jak "prawdę objawioną", co zmniejsza obciążenie poznawcze.
 
 W psychologii to się właściwie w ogóle nie zdarza, bo psychologia jest nauką empiryczną. Nawet,
-gdybyśmy odkryli jakąś prawdziwą własność świata (a może już takie własności znamy?), zawsze jakaś
-wątpliwość pozostanie. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy, gdy próbujemy
+gdybyśmy odkryli jakąś prawdziwą własność świata (a może już takie własności znamy?), wątpliwości
+zawsze pozostaną. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy, gdy próbujemy
 wyjaśnić zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam
 ocenić, czy i w jakim obszarze naszych badań zrobiliśmy faktycznie postępy. Dlatego doświadczenie
 całkowitego i ostatecznego rozwiązania jakiegoś problemu, które pojawia się, gdy zajmujemy się
@@ -93,16 +100,17 @@ każdym razie jest i dlatego wciąż szukam podobnych doświadczeń.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
-tym dowody są prawie zawsze znacznie dłuższe niż zdania, których dowodzą. Dowody po prostu nie służą
-do *ujawniania treści* zdań, tylko do ostatecznego *rozstrzygania o ich prawdziwości*, przez co
-struktura dowodu jest na ogół pouczająca tylko jako *wskazówka, jak można dowodzić zdania
-określonego typu* i niewiele mówi nam o tym, co te zdania *znaczą*.
+tym dowody są prawie zawsze dłuższe, często znacznie, niż zdania, których dowodzą. Dowody po prostu
+nie służą do *ujawniania treści* zdań, tylko do ostatecznego *rozstrzygania o ich prawdziwości*, a
+to nie jest to samo. Dlatego struktura dowodu jest na ogół pouczająca tylko jako wskazówka, jak
+można *dowodzić innych podobnych pod jakimś względem zdań* i niewiele mówi nam o tym, co te zdania
+*znaczą*, albo co można z nimi *zrobić*.
 
 Względną nieważność struktury dowodu po prostu *widać*, gdy rozpiszemy analogię między implikacjami
 i funkcjami w sposób taki jak zrobiłem to wyżej. W Leanie punkt widzenia, zgodnie z którym liczy się
 fakt istnienia dowodu, a nie jego struktura, obowiązuje jako *zasada*, która nosi nazwę *proof
 irrelevance*. Dlatego funkcje zdefiniowane z użyciem słowa kluczowego `theorem` są traktowane
-inaczej niż zwykłe funkcje, czyli zwykłe programy komputerowe czy algorytmy, które definiujemy
+inaczej niż zwykłe funkcje, czyli zwykłe programy komputerowe albo algorytmy, które definiujemy
 używając słowa `def`. W szczególności, Lean *nie rozpakowuje definicji twierdzeń*, bo *nie ma takiej
 potrzeby*:
 
@@ -110,7 +118,8 @@ potrzeby*:
 def dodaj2 (a : Nat) : Nat := a + 2
 theorem t1 (a : Prop) : a → a := fun (h : a) => h
 
-variable (q : Prop) -- Deklarujemy, że mamy zdanie q, żeby mieć do czego stosować t1
+-- Deklarujemy, że mamy zdanie q, żeby mieć do czego stosować funkcję / twierdzenie t1.
+variable (q : Prop)
 
 -- Typ funkcji dodaj2 jest *trywialny* ...
 #check @dodaj2 -- dodaj2 : Nat → Nat
@@ -132,8 +141,9 @@ variable (q : Prop) -- Deklarujemy, że mamy zdanie q, żeby mieć do czego stos
 W zwykłych funkcjach czy programach chodzi o tak lub inaczej rozumiane obliczenie jakiegoś
 rezultatu, na przykład o obliczenie wyniku dodawania, i chodzi też, a raczej przede wszystkim, o
 wynik; w twierdzeniach chodzi jedynie o to, że typ twierdzenia, czyli zdanie, które jest treścią
-tego twierdzenia, ma *jakiś* dowód, czyli istnieje jakiś term danego typu. Jest mi coraz trudniej
-pisać o tych sprawach bez używania terminologii "mieszkaniowej", więc może ją teraz wprowadzę.
+tego twierdzenia, ma *jakiś* dowód, czyli istnieje jakiś term danego typu zdaniowego. Jest mi coraz
+trudniej pisać o tych sprawach bez używania terminologii "mieszkaniowej", więc może ją teraz
+wprowadzę.
 
 **Typy są trochę jak zbiory, ale to nie zbiory**: Gdy zaczynałem się uczyć o teorii typów, zajęło mi
 chwilę, zanim przyzwyczaiłem się do odróżniania typów od zbiorów. Zbiory odgrywają ważną rolę w
@@ -149,19 +159,20 @@ choice*](https://en.wikipedia.org/wiki/Axiom_of_choice)) używamy notacji *x ∈
 zdanie *x jest elementem zbioru X*. Typowanie zapisujemy co prawda w odwrotnej kolejności, na
 przykład piszemy `n : Nat`, ale i tak może się bardzo kojarzyć z relacją należenia elementu do
 zbioru. Różnica polega na tym, że zbiory są pewnymi *strukturami*, do których różne obiekty mogą
-należeć albo nie jako ich elementy, a typy są tylko *stałymi*, bez żadnej wewnętrznej struktury -
-`Nat` to tylko symbol `Nat`, nic więcej. Dlatego o posiadaniu przez term jakiegoś typu mówimy
-inaczej, niż o należeniu elementu do jakiegoś zbioru. Konkretnie, mówimy, że jakiś term
-*zamieszkuje* albo nie jakiś typ i raczej unikamy mówienia, że do niego należy. Mówimy też, że jakiś
-typ jest, albo nie jest zamieszkany, a nie, że jest albo nie jest (nie)pusty.
+należeć albo nie jako ich elementy, a *typy są tylko stałymi* i niczym więcej, to jest *nie mają
+wewnętrznej struktury*, na przykład `Nat` to tylko symbol `Nat`, nic więcej. Dlatego moim zdaniem
+dobrze jest myśleć o typach jak o etykietach. Z wymienionych powodów o posiadaniu przez term
+jakiegoś typu mówimy inaczej, niż o należeniu elementu do jakiegoś zbioru. Konkretnie, mówimy, że
+jakiś term *zamieszkuje* albo nie jakiś typ i raczej unikamy mówienia, że do niego należy. Mówimy
+też, że jakiś typ jest, albo nie jest zamieszkany, a nie, że jest albo nie jest (nie)pusty.
 
-Jak już wiesz, w teorii typów obliczenia zachodzą w *dwóch wymiarach*: w wymiarze typów i w
+Jak już wiesz, w teorii typów obliczenia zachodzą jakby w *dwóch wymiarach*: w wymiarze typów i w
 wymiarze, który można by nazwać konkretnym. Na poziomie konkretnym "działa" matematyka konkretna
 albo *stosowana*, jak również zwykłe programowanie - na tym poziomie operujemy na przykład
 konkretnymi liczbami i interesują nas wyniki zastosowania do nich operacji dodawania. To jest
 poziom, poza który najczęściej w ogóle nie wychodzą uczniowie szkoły podstawowej, bo na tym etapie
-edukacji nie uczy się dowodzenia twierdzeń. Natomiast na poziomie typów "istnieje" i "działa"
-matematyka teoretyczna.
+edukacji nie uczy się dowodzenia twierdzeń. Natomiast (dzięki izomorfizmowi CH) na poziomie typów
+"istnieje" i "działa" matematyka teoretyczna.
 
 Nie wiem, czy na Tobie to zrobi takie wrażenie, jakie zrobiło na mnie, gdy sobie to pomyślałem, ale
 na mnie zrobiło spore i nadal gdy zdarza mi się to pomyśleć nawiedza mnie czasem coś w rodzaju
@@ -190,3 +201,6 @@ każdy typ był termem*:
 -- "realizacją" albo "ucieleśnieniem" matematyki teoretycznej:
 #check t1 q -- t1 q : q → q
 ```
+
+Uprzedzam tylko, że te ostatnie uwagi to tylko moje amatorskie próby wyjaśnienia sobie, o co w tym
+wszystkim tak naprawdę chodzi.
