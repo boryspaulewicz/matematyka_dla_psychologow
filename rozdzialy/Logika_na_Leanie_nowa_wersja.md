@@ -514,9 +514,11 @@ Sam fakt, że da się skonstruować funkcję o typie `(A : Prop) → A → A` oz
 tyle, że *A* jest jakimś zdaniem, można z dowolnego dowodu *A* zrobić dowód *A*. Jeżeli *A* to
 zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda? 
 
-Jeżeli tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię
-do interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się dla Ciebie
-irytujące, ponieważ to wszystko będzie prawie natychmiast oczywiste.
+O ile tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię do
+interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się dla Ciebie irytujące,
+ponieważ to wszystko będzie prawie natychmiast oczywiste. Będziesz wtedy nawet wolała się nad tym za
+bardzo nie zastanawiać, podobnie jak ktoś, kto nauczył się w miarę płynnie grać pewien utwór na
+fortepianie woli nie myśleć o nazwach kolejno granych akordów czy nut.
 
 Jeszcze jedna uwaga na temat często stosowanych, ale rzadko objaśnianych konwencji: Gdy matematycy
 nagle zmieniają notację i wydaje się, że bez wyraźnego powodu na to samo zamiast małych liter
@@ -550,6 +552,11 @@ tak samo jak wszystkie inne funkcje:
 -- Widzimy poniżej, że aplikacja Nad.add_comm 2 3 jest dowodem zdania 2 + 3 = 3 + 2:
 #check Nat.add_comm 2 3 -- Nat.add_comm 2 3 : 2 + 3 = 3 + 2
 ```
+
+Jeżeli masz ochotę, to może zerknij znowu na [tą część rozdziału
+czwartego](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87)
+i zobacz, jak bardzo zmienił się sposób, w jaki teraz postrzegasz w zasadzie wszystko, o czym tam
+pisałem.
 
 ### Przypisy
 
