@@ -234,7 +234,7 @@ była funkcja identycznościowa (działająca tylko dla termów typu `Prop`).
 Jeżeli Ci się udało, to właśnie na dwa sposoby udowodniłaś pewne twierdzenie matematyczne, a
 dokładniej tautologię o postaci *Jeżeli A, to A*, gdzie *A* to jakieś zdanie.
 
-## Pojęciowy zawrót głowy
+# Pojęciowy zawrót głowy
 
 Pamiętasz moje uwagi na temat układu kartezjańskiego i innych izomorfizmów? Tego rodzaju izomorfizmy
 mogą się na spoczątku wydawać obce, ale przełączając się przez pewien czas się regularnie między
