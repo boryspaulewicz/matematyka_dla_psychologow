@@ -294,15 +294,15 @@ rezultat. Możemy też powiedzieć, że zdanie w postaci implikacji jest *funkcj
 liczy się, które zdanie będzie traktowane jako poprzednik, a które jako następnik implikacji) pary
 zdań.
 
-**Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
-przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
-posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy łatwiej zapanować
-nad strukturą rozumowania w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo
-pogubić. Logika pozwala nam w ten sposób *w kontrolowany sposób ignorować treść*, *bez szkody dla
-poprawności*. To też, to jest pewnego rodzaju "beztreściowość", mamy na myśli mówiąc o "formalności"
-zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co jest ogromną siłą
-matematyki: ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów
-*mechanicznie*, jakbyśmy układali puzzle, albo grali w grę.
+**Zalety (i wady) maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak
+chociaż przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu,
+że posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy łatwiej
+zapanować nad strukturą rozumowania w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy
+się łatwo pogubić. Logika pozwala nam w ten sposób *w kontrolowany sposób ignorować treść*, *bez
+szkody dla poprawności*. To też, to jest pewnego rodzaju "beztreściowość", mamy na myśli mówiąc o
+"formalności" zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co jest
+ogromną siłą matematyki: ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i
+złożonych problemów *mechanicznie*, jakbyśmy układali puzzle, albo grali w grę.
 
 Coś takiego będziemy właśnie robić, to znaczy, będziemy grać w grę polegającą na konstruowaniu
 dowodów, bo będziemy *całkowicie* formalizować każdy problem. Będziemy więc używać matematyki w
