@@ -119,24 +119,26 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
 [R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
 
-[R9 Implikacja w zadaniach](./rozdzialy/Implikacja_w_zadaniach.md)
+[R9 Kilka uwag na temat języków formalnych](./rozdzialy/Język_matematyki.md)
 
-[R10 Predykaty, relacje, duży kwantyfikator, dowód na istnienie Boga i chaotyczna natura
+[R10 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
+
+[R11 Predykaty, relacje, duży kwantyfikator, dowód na istnienie Boga i chaotyczna natura
 formalizacji](./rozdzialy/Predykaty_dowod_Anzelma.md)
 
-[R11 Duży kwantyfikator i implikacja w
+[R12 Duży kwantyfikator i implikacja w
 zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
 
-[R12 Modus ponens, obliczenia w dwóch wymiarach i nieważność
+[R13 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
-[R12 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+[R14 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
-[R13 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
+[R15 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R14 ∧](./rozdzialy/Koniunkcja.md)
+[R16 ∧](./rozdzialy/Koniunkcja.md)
 
-[R15 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
+[R17 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
