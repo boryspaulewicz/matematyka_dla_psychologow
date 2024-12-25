@@ -10,9 +10,7 @@ aktywną przyda Ci się później.
 
 <hr>
 
-# Logika na Leanie, pierwsze kroki
-
-## Konstruowanie termów w trybie interaktywnym
+# Konstruowanie termów w trybie interaktywnym
 
 Przypominam znaną Ci już funkcję `identycznosc` (ilustracja):
 
@@ -21,8 +19,8 @@ def identycznosc (typ : Type) (argument : typ) := argument
 ```
 
 Funkcja `identycznosc` jest prostym programem komputerowym, który dla dowolnego typu i argumentu o
-typ typie zwraca ten argument. Jak wiesz, widoczny wyżej wygodny sposób zapisywania parametrów tej
-funkcji tak naprawdę skrywa λ-abstrakcje:
+tym typie zwraca ten argument. Jak wiesz, widoczny wyżej wygodny sposób zapisywania parametrów tej
+funkcji tak naprawdę skrywa dwie λ-abstrakcje:
 
 ```lean
 --- To ...
@@ -34,6 +32,7 @@ def identycznosc' (typ : Type) : (argument : typ) → typ := fun (argument : typ
 -- ... i tym samym, co to ...
 def identycznosc'' : (typ : Type) → (argument : typ) → typ := fun (typ : Type) => fun (argument : typ) => argument
 
+-- To są wszystko te same funkcje (albo to jest jedna i ta sama funkcja).
 #check @identycznosc   -- identycznosc   : (typ : Type) → typ → typ
 #check @identycznosc'  -- identycznosc'  : (typ : Type) → typ → typ
 #check @identycznosc'' -- identycznosc'' : (typ : Type) → typ → typ
@@ -65,13 +64,14 @@ trybie interaktywnym:
 ⊢ Nat → Nat
 ```
 
-Czytamy to: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie termu
-typu `Nat → Nat`.
+**Czytamy to**: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie
+termu typu `Nat → Nat`. Powyżej symbolu derywacji `⊢` a poniżej komunikatu `1 goal` widać aktualny
+*kontekst*. W tym momencie jeszcze nic tam nie ma.
 
 Jak wiesz, `fun (n : Nat) => n` jest przykładem termu typu `Nat → Nat`, ponieważ jest (w tym wypadku
 trywialną) funkcją posyłającą liczby naturalne w liczby naturalne. Wpisując teraz poniżej komentarza
 `intro n` i nasikając klawisz Enter sprawisz, że zmieni się kontekst z pustego na taki, w którym
-masz do dyspozycji jakąś (albo arbitralną) liczbę naturalną o nazwie `n`, czyli `n : Nat`.
+masz do dyspozycji jakąś (czyli arbitralną) liczbę naturalną o nazwie `n`, czyli `n : Nat`.
 
 To jest tym samym, co rozpoczęcie tworzenia kodu funkcji anonimowej `fun (n : Nat) => ...` i
 umieszczenie kursora w miejscu trzech kropek, to jest w miejscu, w którym należy stworzyć ciało tej
@@ -83,14 +83,14 @@ Ponieważ część termu, który miałaś skonstruować, już powstała, cel ule
 widać, że celem jest skonstruowanie termu typu `Nat`, a nie jak wcześniej `Nat → Nat`.
 
 W tym momencie możesz skorzystać z taktyki `exact`, która służy do konstrukcji termu-celu
-wprost. Żeby użyć tej taktyki, jako jej argument musisz podać term, który ma taki typ, jak cel. W
-tym momencie dysponujesz właśnie takim termem, jest nim przecież `n : Nat`. Wystarczy więc napisać w
-następnej linijce poniżej `intro n` komendę `exact n` i nacisnąć Enter.
+wprost. Żeby użyć tej taktyki, jako jej argument musisz podać term, który ma taki sam typ, jak
+cel. W tym momencie dysponujesz właśnie takim termem, jest nim przecież `n : Nat`. Wystarczy więc
+napisać w następnej linijce poniżej `intro n` komendę `exact n` i nacisnąć Enter.
 
 Teraz już nie ma żadnych celów do zrealizowania, co można rozpoznać po tym, że gdy kursor znajduje
 się w następnej linijce za komendą `exact n`, to po prawej widać stan `No goals`. A więc proces
 interaktywnej konstrukcji termu o podanym typie (`Nat → Nat`) zakończył się sukcesem. To wszystko
-może się w tym momencie wydawać niepotrzebnie skomplikowane, ale okaże się przydatne później.
+może się w tym momencie wydawać niepotrzebnie skomplikowane, ale później okaże się przydatne.
 
 **Polecenie**: Próbując zastosować taki sam ogólny schemat postępowania jak ten, który własnie
 opisałem, spróbuj stworzyć w trybie interaktywnym definicję uogólnionej identyczności uzupełniając
