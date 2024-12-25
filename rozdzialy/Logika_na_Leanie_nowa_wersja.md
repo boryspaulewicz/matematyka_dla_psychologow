@@ -318,12 +318,12 @@ cierpliwości.
 
 Oswajanie się z nieznanymi wcześniej fragmentami matematyki może przypominać ... wykształcanie się
 [skrzel](https://pl.wikipedia.org/wiki/Skrzela_(anatomia)). Na początku czujemy, że zanurzamy się w
-jakimś nowym, obcym (pojęciowym) środowisku, w którym nie jesteśmy w stanie przebywać zbyt długo i
-szybko się męczymy; to jest więc trochę tak, jakbyśmy znaleźli się pod powierzchnią wody. Jednak z
-czasem, jeżeli tylko będziemy nadal wracać do tego nowego środowiska, stanie się ono dla nas coraz
-bardziej naturalne, aż w końcu wykształcimy coś w rodzaju mentalnego organu, którego wcześniej nie
-było. W ten sposób opanowujemy nowe wyspecjalizowane języki a wraz z nimi nowe sposoby myślenia,
-które oferuje współczesna matematyka.
+nowym, obcym (pojęciowym) środowisku, w którym nie jesteśmy w stanie przebywać zbyt długo i szybko
+się męczymy; to jest więc trochę tak, jakbyśmy się znaleźli pod powierzchnią wody. Jednak z czasem,
+jeżeli tylko będziemy nadal wracać do tego początkowo nowego dla nas środowiska, będzie się ono dla
+nas stawało coraz bardziej znajome i przez to naturalne, aż w końcu wykształcimy coś w rodzaju
+mentalnego organu, którego wcześniej nie było. W ten sposób opanowujemy nowe wyspecjalizowane języki
+a wraz z nimi nowe sposoby myślenia, które oferuje współczesna matematyka.
 
 ## Implikacje jako funkcje
 
