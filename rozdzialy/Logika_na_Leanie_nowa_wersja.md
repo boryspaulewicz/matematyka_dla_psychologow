@@ -479,13 +479,65 @@ Jeżeli *A* i *B* to zdania, to:
 <ins><em>B</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ins>  
 *A → B*
 
-TODO
+**Czytamy to**: W taki właśnie sposób często zapisujemy reguły dedukcji. Reguły dedukcji mówią,
+jakie nowe kroki możemy wprowadzić do naszego dowodu w jakich warunkach. Ta reguła (wprowadzenia
+implikacji) mówi, że jeżeli zakładając *A* (i być może przyjmując wcześniej inne założenia) uda Ci
+się wyprowawadzić w jakikolwiek sposób (to oznaczają te kropki jedna pod drugą) *B*, to możesz
+wprowadzić albo zaakceptować albo uznać za prawdziwe (na mocy wszystkich wcześniejszych założeń)
+zdanie *A → B*. Mówiąc krótko: Jeżeli z *A* da się wyprowadzić *B*, to można zaapceptować zdanie *A
+→ B*. Albo najkrócej po polsku: Jeżeli z *A* wynika *B*, to *A → B*.
+
+W logice konstruktywnej *prawdziwe* znaczy to samo, co *ma (jakiś) dowód*. Dlatego ta reguła
+dedukcji ma w tej logice taką a nie inną *interpretację*: *Jeżeli z dowod A można zrobić (w danym
+kontekście) dowód B, to ten sposób jest dowodem A → B*.
+
+Albo: Dowód *A → B* to dowolny sposób uzyskania dowodu *B* z dowolnego dowodu *A*.
+
+Czy widzisz, że to jest ciągle ta sama reguła dedukcji, ale wydaje się zmieniać, bo zmieniamy
+sposób, w jaki interpretujemy pojęcie prawdy (albo akceptacji zdania w dowodzie)?
+
+Jeszcze raz: Dowód *A → B* to dowolny sposób uzyskania dowodu *B* z dowolnego dowodu *A*.
+
+A przecież: Jeżeli `A` jest zdaniem, czyli termem typu `Prop`, to term typu `A` jest dowodem tego
+zdania.
+
+Wobec tego ...
+
+```lean
+def tautologia (A : Prop) : A → A := fun (h : A) => h
+```
+
+... jest dowodem tautologii *A → A* (jeżeli *A*, to *A*) dla każdego zdania *A*.
 
 Jeszcze jedna uwaga na temat częstych, ale rzadko objaśnianych konwencji: Gdy matematycy nagle
 zmieniają notację i wydaje się, że na to samo zamiast małych liter używają dużych, często chcą w ten
-sposób zasugerować, że mają na myśli dowolnie złożone obiekty danego rodzaju. Tutaj zacząłem
-oznaczać arbitralne zdania dużymi literami właśnie w tym celu - żeby zasygnalizować, że może chodzić
-o jakieś zdania dowolnie złożone.
+sposób zasugerować, że mają na myśli dowolnie złożone obiekty danego rodzaju. Tutaj zacząłem w
+pewnem momencie oznaczać arbitralne zdania dużymi literami właśnie w tym celu - żeby zasygnalizować,
+że może chodzić o jakieś zdania dowolnie złożone.
+
+Przypominam na koniec fragment prozy matematycznej, który pojawił się w trzecim rozdziale:
+
+> Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
+
+Czy widzisz, to samo można by zapisać w dosyć naturalny i czytelny sposób tak? (ilustracja) ...
+
+```lean
+def przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = m + n := ...
+```
+
+... gdzie `n + m = m + n` to *zdanie parametryczne*? W Leanie to zdefiniowane już twierdzenie jest
+dostępne jako wartość stałej `Nat.add_comm` (*comm* to skrót od angielskiego *commutativity*
+oznaczającego przemienność).
+
+Ponieważ matematyka to dla nas programowanie, to twierdzenia to funkcje, które możemy stosować tak
+samo jak wszystkie inne funkcje:
+
+```lean
+-- Nad.add_comm to twierdzenie i jednocześnie funkcja dwuargumentowa, która z podanych argumentów tworzy dowód
+-- szczególnej wersji zdania n + m = m + n, gdzie n i m to parametry. Widzimy poniżej, że aplikacja
+-- Nad.add_comm 2 3 jest dowodem zdania 2 + 3 = 3 + 2:
+#check Nat.add_comm 2 3 -- Nat.add_comm 2 3 : 2 + 3 = 3 + 2
+```
 
 ### Przypisy
 
