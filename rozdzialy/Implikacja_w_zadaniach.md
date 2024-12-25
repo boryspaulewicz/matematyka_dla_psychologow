@@ -36,12 +36,12 @@ tylko ostrzeżenie na temat *stylu*, które możesz spokojnie zignorować[^1]. �
 grymasić, możesz usunąć to ostrzeżenie na przykład wpisując zamiast nazwy zbędnego parametru symbol
 podkreślenia `_`. Wtedy Lean będzie wiedział, że Ty wiesz, że nie używasz nigdzie tego parametru.
 
-Stosuję tutaj konwencję nazywania twierdzeń w sposób, który sygnalizuje, że niektóre z nich są do
-siebie podobne, albo wręcz że są tym samym twierdzeniem, tylko inaczej zapisanym.
+Stosuję tutaj konwencję nazywania twierdzeń w takim stylu, żeby zasygnalizować, że niektóre z nich
+są do siebie podobne, albo wręcz że są tym samym twierdzeniem, tylko inaczej zapisanym.
 
-Zacząłem tu również stosować słowo kluczowe `theorem`, które oznacza prawie to samo co `def`, ale
-mówi Leanowi, że danej definicji funkcji nie będzie trzeba rozpakowywać. Powód, dla którego tak
-zwykle definiujemy twierdzenia podam jednak trochę później.
+Zacząłem tu również stosować słowo kluczowe `theorem`, które oznacza to samo co `def`, ale mówi
+Leanowi, że danej definicji funkcji nie trzeba rozpakowywać. Powód, dla którego tak właśnie na ogół
+definiujemy twierdzenia podam jednak trochę później.
 
 ```lean
 -- To tylko rozgrzewka, bo jest to samo twierdzenie, które udowodniłaś już wcześniej, zmieniła się tylko nazwa tego
