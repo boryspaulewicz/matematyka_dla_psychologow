@@ -279,15 +279,15 @@ czasem sam akt wstępnego typowania fragmentów tekstu napisanego w języku natu
 rozpoznanie, że mamy do czynienia z ogólnym typem rada) może działać jak odsłonięcie rano
 zasłon. Sformułowanie rady *zakłada* pewien *cel*, a ponieważ naszym (deklarowanym!)  celem nie jest
 w tym momencie przekonanie za wszelką cenę samych siebie o prawdziwości wniosku, ten fragment
-również możemy pominąć, tym bardziej, że "wyrzucanie" czegokolwiek z "izdebki umysłu" nie pomoże w
-ocenie sytuacji. Co dalej?
+również możemy pominąć, tym bardziej, że "wyrzucanie" czegokolwiek z "izdebki umysłu" nie pomoże nam
+w ocenie sytuacji. Co dalej?
 
 > Wyjaśnia też swoje intencje. Zastrzega, że nie cahce przeniknąć głębi Boga, ponieważ wtedy
 > popełniałby grzech pychy. Chce tylko do pewnego stopnia zrozumieć prawdę, w którą wierzy. Nie
 > stara się bowiem zrozumieć, aby wierzyć, ale wierzy, by zrozumieć. A i w to wierzy, że jeśli nie
 > uwierzy, to nie zrozumie.
 
-Tutaj z kolei mamy informacje na temat nieobserwowalnego stanu, a ściślej intencji, przekonań i
+Tutaj z kolei mamy informacje na temat nieobserwowalnego stanu, a dokładnie intencji, przekonań i
 postaw Anzelma, których nie możemy w żaden sposób sprawdzić, bo ani nie możemy się cofnąć w czasie
 ani w Niego wcielić. Zresztą, nawet, gdyby to było możliwe, nadal byłyby to tylko hipotezy, bo
 ludzie nie mają niezawodnego dostępu do własnych prawdziwych postaw i przekonań. Dlatego z naszej
