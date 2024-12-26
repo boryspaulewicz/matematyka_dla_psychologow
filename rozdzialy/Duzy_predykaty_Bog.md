@@ -1,17 +1,15 @@
 ## O czym teraz będzie
 
-Niebawem będziemy się przyglądać z bliska dowodowi na istnienie Boga Anzelma z Canterbury. Żeby
-jednak zrobić z nim coś ciekawego, będziemy potrzebować predykatów i (później) relacji, a także (co
-najmniej) dużego kwantyfikatora. Okaże się teraz, że duży kwantyfikator już mamy, tylko się dotąd
-ukrywał.
+Niebawem będziemy się przyglądać dowodowi na istnienie Boga Anzelma z Canterbury. Żeby zrobić z nim
+coś ciekawego, potrzebujemy co najmniej predykatów i później relacji binarnych, a także dużego
+kwantyfikatora. Okaże się teraz, że duży kwantyfikator już mamy, tylko się dotąd ukrywał.
 
-Na wszelki wypadek przypominam o notatkach, planowanych powtórkach i w ogóle aktywnym podejściu do
-uczenia się, bo inaczej sporo pary idzie w gwizdek. I jednocześnie podkreślam, że to tylko taka
-sugestia.
+Na wszelki wypadek przypominam o notatkach, planowanych powtórkach i aktywnym podejściu do nauki, bo
+inaczej sporo pary idzie w gwizdek. I jednocześnie podkreślam, że to tylko sugestia.
 
 <hr>
 
-# Duży kwantyfikator i predykaty jako funkcje
+# Duży kwantyfikator i predykaty (jako funkcje)
 
 Zaczniemy od dużego kwantyfikatora, bo z tym będzie najłatwiej.
 
@@ -23,17 +21,17 @@ Przypominam głupszą siostrę uogólnionej identyczności:
 def nic_nie_robie (n : Nat) := n
 ```
 
-Co robi ta funkcja? Dla każdego `n : Nat` zwraca `n` (`: Nat`). Jeszcze raz, ale z akcentem: *Dla
-każdego* `n : Nat` zwraca `n` (`: Nat`). Symbol *∀*, który uzyskasz w Leanie wpisując `\forall`
-czytamy właśnie jako *dla każdego*. Po tym symbolu zawsze (jawnie lub niejawnie) obecna jest jeszcze
-część oznaczająca *coś spełniające taki a taki warunek*, a potem część będąca zdaniem, zwykle
-dotyczącym tego arbitralnego czegoś, co dany warunek spełnia. Na przykład, matematyk mógłby napisać
-...
+Co robi ta funkcja? Dla każdego `n : Nat` zwraca `n` (`: Nat`). Jeszcze raz, ale tym razem z
+akcentem: *Dla każdego* `n : Nat` zwraca `n` (`: Nat`). Symbol *∀*, który uzyskasz w Leanie wpisując
+`\forall`, czytamy właśnie jako *dla każdego*. Po tym symbolu zawsze (jawnie lub niejawnie) obecna
+jest jeszcze część oznaczająca *coś spełniające taki a taki warunek*, a potem część będąca zdaniem,
+zwykle dotyczącym tego arbitralnego czegoś, co ten warunek spełnia. Matematycy używają zwykle tego
+symbolu w taki oto sposób: ...
 
 *∀ n ∈ ℕ, ∀ m ∈ ℕ, n + m = m + n*
 
-... oznaczając za pomocą fikuśnie napisanej litery *ℕ* zbiór liczb naturalnych. Jak już wiesz, dla
-nas to jest to samo, co `Nat.add_comm`:
+... oznaczając za pomocą fikuśnie napisanej litery *ℕ* zbiór liczb naturalnych. Jak wiesz, dla nas
+to to samo co `Nat.add_comm`:
 
 ```lean
 #check Nat.add_comm -- Nat.add_comm (n m : Nat) : n + m = m + n
@@ -55,15 +53,15 @@ theorem przemiennosc_nat' : ∀ n : Nat, ∀ m : Nat, n + m = m + n :=
 
 Zwracam uwagę, że po (tutaj typowanych) zmiennych
 [*związanych*](https://pl.wikipedia.org/wiki/Operator_(logika)) dużym kwantyfikatorem (tak się o tym
-mówi) piszemy *przecinek*, a nie strzałkę. Ta konwencja wynika między innymi stąd, że dzięki temu
-zapis za pomocą symbolu `∀` bardziej przypomina coś, co można by znaleźć w typowych książkach
-pisanych przez matematyków.
+mówi) piszemy *przecinek*, a nie strzałkę. Ta konwencja wynika między innymi stąd, że taki zapis za
+pomocą symbolu `∀` bardziej przypomina coś, co można by znaleźć w typowych książkach napisanych
+przez matematyków.
 
-To jeszcze pokażę Ci, jak wygląda dowód tego samego twierdzenia zapisany z użyciem taktyk. Tym razem
-zapisałem wszystkie taktyki w jednej linii i trochę je przesunąłem, żeby było wyraźnie widać, jakim
-częściom zdania / specyfikacji te taktyki odpowiadają (albo które z tych części "obsługują"). Jeżeli
-będziesz chciała użyć więcej niż jednej taktyki w tej samej linii, trzeba będzie oddzielić je
-średnikiem.
+Pokażę Ci teraz, jak wygląda dowód tego samego twierdzenia skonstruowany za pomocą taktyk, a więc w
+trybie interaktywnym. Tym razem zapisałem wszystkie taktyki w jednej linii i trochę je przesunąłem,
+żeby było wyraźnie widać, jakim częściom zdania / specyfikacji te taktyki odpowiadają (albo które z
+tych części "obsługują"). Jeżeli będziesz chciała użyć więcej niż jednej taktyki w tej samej linii,
+będziesz musiała, tak jak zrobiłem to tutaj, oddzielić je średnikiem.
 
 ```lean
 -- ∀ to tylko alternatywny sposób zapisania λ-abstrakcji, czyli "rozpoczęcia" kodu opisującego funkcję.
@@ -71,10 +69,10 @@ theorem przemiennosc_nat'' : ∀ n : N, ∀ m : N, n + m = m + n :=
  by                          intro n; intro m; exact Nat.add_comm n m
 ```
 
-Ponieważ parametrami naszych funkcji / twierdzeń mogą być zmienne dowolnych typów, w tym również
-typów zdaniowych, nasz odpowiednik dużego kwantyfikatora działa dla każdego typu. Możemy na przykład
-kwantyfikować po zdaniach. Robiliśmy to już wcześniej, tylko nie sygnalizowaliśmy tego za pomocą
-symbolu dużego kwantyfikatora:
+Ponieważ parametrami naszych funkcji / twierdzeń mogą być zmienne dowolnego typu, w tym również
+typów zdaniowych, nasz odpowiednik dużego kwantyfikatora działa dla każdego typu. To znaczy, że
+możemy na przykład kwantyfikować po zdaniach. Właściwie robiliśmy to już wcześniej, tylko nie
+sygnalizowaliśmy tego wyraźnie za pomocą odpowiedniego symbolu:
 
 ```lean
 -- To ...
@@ -93,23 +91,23 @@ prawdziwość lub fałszywość, co dla nas w tym momencie znaczy dowiedlność 
 zdania lub jego negacji).
 
 Moglibyśmy jednak spróbować zakodować również *strukturę* tego zdania. Wtedy nadal stosowałyby się
-do niego wszystkie dostępne operacje na zdaniach, bo pozostałoby zdaniem. Ale poza tym, że to wciąż
-byłoby zdanie, może pojawiłyby się również jakieś inne operacje, wymagające większej "rozdzielczości
+do niego wszystkie dostępne operacje na zdaniach, bo pozostałoby zdaniem, ale poza tym, że to wciąż
+byłoby zdanie, pojawiłyby się również pewne nowe operacje, wymagające większej "rozdzielczości
 formalizacji" języka naturalnego, dzięki której można "formalnie rozpoznać" strukturę
 podmiot-orzeczenie.
 
-Musimy zadać sobie pytanie, czy (w przyszłości) ważny będzie dla nas czas przeszły, bo ta kawusia
-przecież *była* pyszna. Jeżeli przyjmiemy, że nie, to naturalne będzie rozbicie tego zdania na
-*dwie* części, podmiot *Kawusia* i orzeczenie *była pyszna*, bo co innego możemy z nim zrobić, poza
-ewentualną próbą uchwycenia jakiejś własności czasu przeszłego? Formalizować operację zdrabniania?
-Brzmi kusząco, ale nie tym razem.
+Zanim podejmiemy próbę formalizacji, musimy zadać sobie pytanie, czy (w przyszłości) ważny będzie
+dla nas czas przeszły, bo ta kawusia przecież *była* pyszna. Jeżeli przyjmiemy, że nie, to naturalne
+będzie rozbicie zdania na *dwie* części, podmiot *Kawusia* i orzeczenie *była pyszna*, bo co innego
+możemy z nim zrobić, poza ewentualną próbą uchwycenia jakiejś własności czasu przeszłego?
+Formalizować operację zdrabniania?  Brzmi kusząco, ale nie tym razem.
 
 *Kawusia* to pewna *rzecz*, a *była pyszna* to własność przypisywana tej rzeczy przez zdanie
 *Kawusia była pyszna*. To zdanie ma sens, bo kawa to napój, a własność bycia pysznym może
 przysługiwać albo nie między innymi napojom. W tle tego zdania istnieje więc typ *napój*, który
 ujawnimy wprost w formalizacji. Ponieważ w teorii typów każdy term musi mieć typ, to jeśli chcemy
-mówić o ewentualnej pyszności kawy posługując się językiem tej teorii, musimy najpierw wprowadzić
-aksjomat:
+mówić o ewentualnej pyszności kawy jako napoju posługując się językiem tej teorii, musimy najpierw
+wprowadzić aksjomat:
 
 ```lean
 axiom Napoj : Type
@@ -129,18 +127,18 @@ to będziemy mogli napisać tak:
 -- Kawa jest napojem.
 axiom kawa : Napoj
 
--- Pyszna kawa jest poprawnym zdaniem konstruowanego języka.
+-- Pyszna kawa jest odtąd poprawnym zdaniem konstruowanego języka.
 #check Pyszna kawa -- Pyszna kawa : Prop
 ```
 
 W konstruowanym właśnie języku `Pyszna kawa` to odtąd poprawne zdanie. W dodatku zapisane po polsku
 i - ze względu na nasze ograniczone cele - wystarczająco blisko oryginału. Oczywiście nie tylko
-napoje mogą być pyszne, ale obecny poziom ekspresyjności nam całkowicie wystarczy. Wprowadzę teraz
-jeszcze jedną kosmetyczną zmianę, bo przyda mi się ona później, gdy będę mówił o bardziej
-skomplikowanych syntaktycznie *relacjach binarnych*.
+napoje mogą być pyszne, ale obecny poziom ekspresyjności powinien nam wystarczyć. Wprowadzę teraz
+jeszcze jedną kosmetyczną zmianę, bo przyda mi się później, gdy będę mówił o bardziej
+skomplikowanych składniowo *relacjach binarnych*.
 
-Do tej pory definiowaliśmy funkcje, które zwracały wyłącznie termy nie będące typami. Język, którego
-używamy nie narzuca jednak wcale takiego ograniczenia. W szczególności, możemy na przykład
+Do tej pory definiowaliśmy funkcje, które zwracały wyłącznie termy nie będące typami, ale język,
+którego używamy nie narzuca wcale takiego ograniczenia. W szczególności, możemy w tym języku
 zdefiniować funkcję, która *tworzy typ* będący predykatem i dzięki temu jeszcze bardziej zbliżyć
 zapis formalny do zapisu w języku naturalnym (ilustracja):
 
@@ -166,12 +164,13 @@ axiom Pyszna : Napoj → Prop
 #check Pyszna kawa -- Pyszna kawa : Prop
 ```
 
-Rozwiązania takie jak to, które zastosowałem żeby w mam nadzieję nieco bardziej czytelny sposób
-oznaczać własność bycia predykatem nazywamy w programowaniu [*lukrem
+Rozwiązania takie jak to, które zastosowałem, żeby w mam nadzieję nieco bardziej czytelny sposób
+oznaczać własność bycia predykatem, nazywamy w programowaniu [*lukrem
 składniowym*](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy) (albo lukrem syntaktycznym albo
 cukrem składniowym). Dobrym przykładem tego rodzaju funkcjonalności jest znana Ci już możliwość
-zapisywania dodawania w notacji infiksowej. Lukier składniowy nie jest konieczny, ale gdy stosujemy
-go z wyczuciem, może znacząco poprawić czytelność kodu.
+zapisywania dodawania w notacji infiksowej (`1 + 2` to tylko alternatywna forma zapisu `Nat.add 1
+2`). Lukier składniowy nie jest konieczny, ale gdy stosujemy go z wyczuciem, może znacząco poprawić
+czytelność kodu.
 
 **Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*.
 
@@ -180,13 +179,13 @@ go z wyczuciem, może znacząco poprawić czytelność kodu.
 Próbując sformalizować rozumowanie ukryte w tekście zapisanym w języku naturalnym również warto
 zacząć od czegoś w rodzaju typowania. Mam tu na myśli podział fragmentów tekstu na kategorie
 określające role, jakie te fragmenty odgrywają w uzasadnieniu wniosku. Dzięki takiej kategoryzacji
-zwykle szybko odkrywamy, że większość fragmentów tekstu, na przykład niemal wszystko, co autorzy
-artykułu empirycznego napisali we wprowadzeniu i dyskusji wyników, możemy spokojnie zignorować bez
-żadnej szkody dla poprawności analizy.
+zwykle szybko odkrywamy, że większość fragmentów, na przykład niemal wszystko, co autorzy artykułu
+empirycznego napisali we wprowadzeniu i dyskusji wyników, możemy spokojnie zignorować bez żadnej
+szkody dla poprawności analizy.
 
 Spośród wielu form, jakie mogą przybierać [argumenty](https://pl.wikipedia.org/wiki/Argumentacja)
 czy środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka) najbardziej, poza samym *wnioskiem*,
-będą nas teraz interesować *przesłanki*, *kroki*[^1] (pośrednie) i *definicje*. Na przykład w tym
+będą nas teraz interesować *przesłanki*, *kroki*[^1] (pośrednie) i *definicje*. Na przykład, w tym
 wyrwanym z kontekstu (a tak naprawdę przeze mnie wymyślone) zdaniu, które możemy potraktować zarówno
 jako przesłankę, krok lub wniosek, zależnie od tego, co nas w danym momencie interesuje ...
 
@@ -208,33 +207,33 @@ jednej z *przesłanek* (liczba mnoga).
 Mamy tu do czynienia z częstym w artykułach "naukowych" pisanych przez psychologów *pominięciem
 kroków* uważanych być może za względnie oczywiste i niekontrowersyjne, z *niejawnym* zastąpieniem
 terminów [*operacyjnych*](https://pl.wikipedia.org/wiki/Operacjonalizacja), to jest takich, które
-dotyczącą sposobów dokonywania pomiarów lub faktycznie zastosowanych interwencji przez ich
+dotyczącą sposobów dokonywania pomiarów lub faktycznie zastosowanych interwencji, przez ich
 *teoretyczne interpretacje*, z wprowadzoniem nieuzasadnionej [*interpretacji
 przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z
-*asekuracyjnym* sformułowaniem *może oznaczać*, które gdyby odczytać je dosłownie, sugerowałoby, że
-całe to zdanie nic nie znaczy, bo przecież dosłownie wszystko *może* oznaczać cokolwiek tylko chcemy
-zależnie od kontekstu. Wiemy również z góry, bo takie wady mają niemal wszystkie "naukowe" artykuły
-pisane przez psychologów, że zabraknie jawnej analizy ograniczeń wynikających z [*obciążenia
-próby*](https://pl.wikipedia.org/wiki/Obci%C4%85%C5%BCenie_pr%C3%B3by), że wnioski będą sformułowane
-zdecydowanie zbyt ogólnienie, przypuszczalnie z powodu braku zrozumienia różnicy między
-(nieistniejącą) "reprezentatywnością próby" i [*reprezentatywnością* **procesu** *pobierania
-próby*](https://pl.wikipedia.org/wiki/Dob%C3%B3r_pr%C3%B3by), a także dlatego, że gdyby autorzy
-poważnie podeszli do kwestii braku wiedzy na temat [*przyczynowych*
+*asekuracyjnym* sformułowaniem *może oznaczać*, które gdyby odczytać to sformułowaniee dosłownie,
+sugerowałoby, że całe to zdanie nic nie znaczy, bo przecież dosłownie wszystko *może* oznaczać
+cokolwiek tylko chcemy zależnie od kontekstu. Wiemy również z góry, bo takie wady mają niemal
+wszystkie "naukowe" artykuły pisane przez psychologów, że zabraknie jawnej analizy ograniczeń
+wynikających z [*obciążenia próby*](https://pl.wikipedia.org/wiki/Obci%C4%85%C5%BCenie_pr%C3%B3by),
+że wnioski będą sformułowane zdecydowanie zbyt ogólnienie, przypuszczalnie z powodu braku
+zrozumienia różnicy między (nieistniejącą) "reprezentatywnością próby" i [*reprezentatywnością*
+**procesu** *pobierania próby*](https://pl.wikipedia.org/wiki/Dob%C3%B3r_pr%C3%B3by), a także
+dlatego, że gdyby autorzy poważnie podeszli do kwestii braku wiedzy na temat [*przyczynowych*
 różnic](https://en.wikipedia.org/wiki/External_validity) między sytuacją odpowiadającą badaniu a
 szerokim zakresem sytuacji, o których wyniki tego badania mają rzekomo coś mówić, to wnioski
 brzmiałyby tak trywialnie, że najpewniej nie byłoby szans na publikację w wysokopunktowanym
 czasopiśmie.
 
-To, że na przykład interpretacja przyczynowa *nie może* być w tym wypadku uzasadniona możemy ustalić
-natychmiast nie czytając reszty tego hipotetycznego artykułu, ponieważ niezależnie od przyjętych
-definicji efektu Stroopa i ekstrawersji, z góry wiadomo, że z powodów technicznych i etycznych
-ekstrawersja nie była w tym badaniu rezultatem zewnętrznej interwencji i istnieje wiele, być może
-bliżej nieokreślonych a z pewnością nie występujących w danych, odgrywających niepomijalną rolę
-potencjalnych [*wspólnych przyczyn*](https://en.wikipedia.org/wiki/Confounding) tych dwóch zmiennych
-(zakładając, że ekstrawersja rozumiana tak, jak rozumieją ją autorzy w ogóle istnieje).
+To, że na przykład interpretacja przyczynowa *nie może* być w tym wypadku uzasadniona, możemy
+ustalić natychmiast nie czytając reszty tego hipotetycznego artykułu, ponieważ niemal niezależnie od
+przyjętych definicji efektu Stroopa i ekstrawersji, z góry wiadomo, że z powodów technicznych i
+etycznych ekstrawersja nie była w tym badaniu rezultatem zewnętrznej interwencji i istnieje wiele,
+być może bliżej nieokreślonych a z pewnością nie występujących w danych, odgrywających potencjalnie
+niepomijalną rolę [*wspólnych przyczyn*](https://en.wikipedia.org/wiki/Confounding) tych dwóch
+zmiennych (zakładając, że ekstrawersja rozumiana tak, jak rozumieją ją autorzy w ogóle istnieje).
 
-Tym razem zajmiemy się przykładem rozumowania, które możemy poddać analizie bez wprowadzania pojęć z
-zakresu metodologii badań, bo na to jest jeszcze za wcześnie. Z polskiej [strony
+Tym razem zajmiemy się jednak przykładem rozumowania, które możemy poddać analizie bez wprowadzania
+pojęć z zakresu metodologii badań, bo na to jest jeszcze za wcześnie. Z polskiej [strony
 Wikipedii](https://pl.wikipedia.org/wiki/Dow%C3%B3d_ontologiczny) poświęconej "dowodowi" na
 istnienie Boga autorstwa Anzelma z Cantenbury dowiadujemy się (2024-12-08), że:
 
