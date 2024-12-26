@@ -1,8 +1,9 @@
 ## O czym teraz będzie
 
 Niebawem będziemy się przyglądać dowodowi na istnienie Boga Anzelma z Canterbury. Żeby zrobić z nim
-coś ciekawego, potrzebujemy co najmniej predykatów i później relacji binarnych, a także dużego
-kwantyfikatora. Okaże się teraz, że duży kwantyfikator już mamy, tylko się dotąd ukrywał.
+coś ciekawego, potrzebujemy co najmniej predykatów i później relacji binarnych, a także negacji i
+dużego i małego kwantyfikatora. Okaże się teraz, że duży kwantyfikator już mamy, tylko się dotąd
+ukrywał.
 
 Na wszelki wypadek przypominam o notatkach, planowanych powtórkach i aktywnym podejściu do nauki, bo
 inaczej sporo pary idzie w gwizdek. I jednocześnie podkreślam, że to tylko sugestia.
@@ -23,10 +24,10 @@ def nic_nie_robie (n : Nat) := n
 
 Co robi ta funkcja? Dla każdego `n : Nat` zwraca `n` (`: Nat`). Jeszcze raz, ale tym razem z
 akcentem: *Dla każdego* `n : Nat` zwraca `n` (`: Nat`). Symbol *∀*, który uzyskasz w Leanie wpisując
-`\forall`, czytamy właśnie jako *dla każdego*. Po tym symbolu zawsze (jawnie lub niejawnie) obecna
-jest jeszcze część oznaczająca *coś spełniające taki a taki warunek*, a potem część będąca zdaniem,
-zwykle dotyczącym tego arbitralnego czegoś, co ten warunek spełnia. Matematycy używają zwykle tego
-symbolu w taki oto sposób: ...
+`\forall`, czytamy właśnie jako *dla każdego*. Po tym symbolu zawsze (jawnie lub niejawnie)
+występuje jeszcze część oznaczająca *coś spełniające taki a taki warunek*, a potem część będąca
+*zdaniem*, zwykle dotyczącym tego arbitralnego czegoś. Matematycy używają najczęściej tego symbolu w
+taki oto sposób: ...
 
 *∀ n ∈ ℕ, ∀ m ∈ ℕ, n + m = m + n*
 
@@ -42,8 +43,8 @@ Gdy mamy na to ochotę, możemy ujawnić to podobieństwo w Leanie stosując sym
 ```lean
 -- To ...
 theorem przemiennosc_nat : (n : Nat) → (m : Nat) → n + m = m + n :=
-    -- Ponieważ Nat.add_comm jest już dowodem tego twierdzenia, to zamiast tworzyć swoją wersję dowodu, korzystam
-    -- tutaj z tej stałej.
+    -- Ponieważ Nat.add_comm jest już dowodem tego twierdzenia, zamiast tworzyć tu kolejną wersję, korzystam
+    -- z tej stałej.
     fun (n : Nat) => fun (m : Nat) => Nat.add_comm n m
 
 -- ... jest tym samym, co to ...
@@ -53,14 +54,13 @@ theorem przemiennosc_nat' : ∀ n : Nat, ∀ m : Nat, n + m = m + n :=
 
 Zwracam uwagę, że po (tutaj typowanych) zmiennych
 [*związanych*](https://pl.wikipedia.org/wiki/Operator_(logika)) dużym kwantyfikatorem (tak się o tym
-mówi) piszemy *przecinek*, a nie strzałkę. Ta konwencja wynika między innymi stąd, że taki zapis za
-pomocą symbolu `∀` bardziej przypomina coś, co można by znaleźć w typowych książkach napisanych
-przez matematyków.
+mówi) piszemy *przecinek*, a nie strzałkę. Ta konwencja wynika między innymi stąd, że taki zapis
+przypomina coś, co można by znaleźć w typowych książkach napisanych przez matematyków.
 
 Pokażę Ci teraz, jak wygląda dowód tego samego twierdzenia skonstruowany za pomocą taktyk, a więc w
 trybie interaktywnym. Tym razem zapisałem wszystkie taktyki w jednej linii i trochę je przesunąłem,
-żeby było wyraźnie widać, jakim częściom zdania / specyfikacji te taktyki odpowiadają (albo które z
-tych części "obsługują"). Jeżeli będziesz chciała użyć więcej niż jednej taktyki w tej samej linii,
+żeby było widać, jakim częściom zdania (specyfikacji) te taktyki odpowiadają (albo które z tych
+części "obsługują"). Jeżeli będziesz chciała użyć więcej niż jednej taktyki w tej samej linii,
 będziesz musiała, tak jak zrobiłem to tutaj, oddzielić je średnikiem.
 
 ```lean
@@ -72,7 +72,7 @@ theorem przemiennosc_nat'' : ∀ n : N, ∀ m : N, n + m = m + n :=
 Ponieważ parametrami naszych funkcji / twierdzeń mogą być zmienne dowolnego typu, w tym również
 typów zdaniowych, nasz odpowiednik dużego kwantyfikatora działa dla każdego typu. To znaczy, że
 możemy na przykład kwantyfikować po zdaniach. Właściwie robiliśmy to już wcześniej, tylko nie
-sygnalizowaliśmy tego wyraźnie za pomocą odpowiedniego symbolu:
+sygnalizowaliśmy tego wyraźnie za pomocą tego symbolu:
 
 ```lean
 -- To ...
@@ -85,8 +85,8 @@ theorem tautologia' : ∀ p : Prop,  p → p := fun (p : Prop) => fun (h : p) =>
 ## Predykat to funkcja z dowolnego typu do typu Prop
 
 Zdanie *Kawusia była pyszna* możemy zapisać formalnie na różne sposoby i to, który sposób
-wybierzemy, będzie zależało od przyjętych celów. Możemy je na przykład zakodować jako stałą `k` typu
-`Prop`. Wtedy jedyną własnością tego zdania, którą będziemy mogli poddać analizie, będzie jego
+wybierzemy, będzie zależało od przyjętych celów. Możemy je na przykład zakodować jako stałą `k` o
+typie `Prop`. Wtedy jedyną własnością tego zdania, którą będziemy mogli poddać analizie, będzie jego
 prawdziwość lub fałszywość, co dla nas w tym momencie znaczy dowiedlność czy udowadnialność (tego
 zdania lub jego negacji).
 
@@ -96,11 +96,11 @@ byłoby zdanie, pojawiłyby się również pewne nowe operacje, wymagające wię
 formalizacji" języka naturalnego, dzięki której można "formalnie rozpoznać" strukturę
 podmiot-orzeczenie.
 
-Zanim podejmiemy próbę formalizacji, musimy zadać sobie pytanie, czy (w przyszłości) ważny będzie
-dla nas czas przeszły, bo ta kawusia przecież *była* pyszna. Jeżeli przyjmiemy, że nie, to naturalne
-będzie rozbicie zdania na *dwie* części, podmiot *Kawusia* i orzeczenie *była pyszna*, bo co innego
-możemy z nim zrobić, poza ewentualną próbą uchwycenia jakiejś własności czasu przeszłego?
-Formalizować operację zdrabniania?  Brzmi kusząco, ale nie tym razem.
+Zanim podejmiemy próbę tego rodzaju formalizacji, musimy zadać sobie pytanie, czy (w przyszłości)
+ważny będzie dla nas czas przeszły, bo ta kawusia przecież *była* pyszna. Jeżeli przyjmiemy, że nie,
+to naturalne będzie rozbicie zdania na *dwie* części, podmiot *Kawusia* i orzeczenie *była pyszna*,
+bo co innego możemy z nim zrobić, poza ewentualną próbą uchwycenia jakiejś własności czasu
+przeszłego?  Formalizować operację zdrabniania?  Brzmi kusząco, ale nie tym razem.
 
 *Kawusia* to pewna *rzecz*, a *była pyszna* to własność przypisywana tej rzeczy przez zdanie
 *Kawusia była pyszna*. To zdanie ma sens, bo kawa to napój, a własność bycia pysznym może
@@ -117,7 +117,7 @@ Odtąd w naszym języku *są* (jakieś) *napoje*. Jak teraz zapisać formalnie p
 Jeżeli, ze względu na cel tej zabawy ignorując czas przeszły, zrobimy tak:
 
 ```lean
--- O napojach (typ argumentu) można twierdzić (a więc rezultat musi mieć typ Prop), że są pyszne.
+-- O napojach (typ parametru) można twierdzić (a więc rezultat musi mieć typ Prop), że są pyszne.
 axiom Pyszna : Napoj → Prop
 ```
 
@@ -132,10 +132,10 @@ axiom kawa : Napoj
 ```
 
 W konstruowanym właśnie języku `Pyszna kawa` to odtąd poprawne zdanie. W dodatku zapisane po polsku
-i - ze względu na nasze ograniczone cele - wystarczająco blisko oryginału. Oczywiście nie tylko
-napoje mogą być pyszne, ale obecny poziom ekspresyjności powinien nam wystarczyć. Wprowadzę teraz
-jeszcze jedną kosmetyczną zmianę, bo przyda mi się później, gdy będę mówił o bardziej
-skomplikowanych składniowo *relacjach binarnych*.
+i - ze względu na przyjęte cele - wystarczająco blisko oryginału. Oczywiście nie tylko napoje mogą
+być pyszne, ale obecny poziom ekspresyjności powinien nam wystarczyć. Wprowadzę teraz jeszcze jedną
+kosmetyczną zmianę, bo przyda mi się później, gdy będę mówił o bardziej skomplikowanych składniowo
+*relacjach binarnych*.
 
 Do tej pory definiowaliśmy funkcje, które zwracały wyłącznie termy nie będące typami, ale język,
 którego używamy nie narzuca wcale takiego ograniczenia. W szczególności, możemy w tym języku
@@ -164,8 +164,8 @@ axiom Pyszna : Napoj → Prop
 #check Pyszna kawa -- Pyszna kawa : Prop
 ```
 
-Rozwiązania takie jak to, które zastosowałem, żeby w mam nadzieję nieco bardziej czytelny sposób
-oznaczać własność bycia predykatem, nazywamy w programowaniu [*lukrem
+Rozwiązania takie jak to, które zastosowałem, żeby w bardziej widoczny sposób oznaczać własność
+bycia predykatem, nazywamy w programowaniu [*lukrem
 składniowym*](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy) (albo lukrem syntaktycznym albo
 cukrem składniowym). Dobrym przykładem tego rodzaju funkcjonalności jest znana Ci już możliwość
 zapisywania dodawania w notacji infiksowej (`1 + 2` to tylko alternatywna forma zapisu `Nat.add 1
@@ -177,17 +177,17 @@ czytelność kodu.
 ## Przykładowa próba formalizacji dowodu na istnienie Boga Anzelma z Cantenbury
 
 Próbując sformalizować rozumowanie ukryte w tekście zapisanym w języku naturalnym również warto
-zacząć od czegoś w rodzaju typowania. Mam tu na myśli podział fragmentów tekstu na kategorie
+zacząć od czegoś przypominającego typowanie. Mam tu na myśli podział fragmentów tekstu na kategorie
 określające role, jakie te fragmenty odgrywają w uzasadnieniu wniosku. Dzięki takiej kategoryzacji
 zwykle szybko odkrywamy, że większość fragmentów, na przykład niemal wszystko, co autorzy artykułu
-empirycznego napisali we wprowadzeniu i dyskusji wyników, możemy spokojnie zignorować bez żadnej
-szkody dla poprawności analizy.
+empirycznego napisali we wprowadzeniu i dyskusji wyników, możemy spokojnie zignorować bez szkody dla
+poprawności analizy.
 
 Spośród wielu form, jakie mogą przybierać [argumenty](https://pl.wikipedia.org/wiki/Argumentacja)
 czy środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka) najbardziej, poza samym *wnioskiem*,
 będą nas teraz interesować *przesłanki*, *kroki*[^1] (pośrednie) i *definicje*. Na przykład, w tym
 wyrwanym z kontekstu (a tak naprawdę przeze mnie wymyślone) zdaniu, które możemy potraktować zarówno
-jako przesłankę, krok lub wniosek, zależnie od tego, co nas w danym momencie interesuje ...
+jako przesłankę, krok lub wniosek, zależnie od tego, co nas akurat interesuje ...
 
 > Efekt Stroopa był istotnie mniejszy u osób z niższym poziomem ekstrawersji.
 
@@ -205,35 +205,36 @@ znać. Jeżeli teraz następne zdanie w tej hipotetycznej dyskusji wyników to .
 jednej z *przesłanek* (liczba mnoga). 
 
 Mamy tu do czynienia z częstym w artykułach "naukowych" pisanych przez psychologów *pominięciem
-kroków* uważanych być może za względnie oczywiste i niekontrowersyjne, z *niejawnym* zastąpieniem
+kroków* uznanych być może za względnie oczywiste czy niekontrowersyjne, z *niejawnym* zastąpieniem
 terminów [*operacyjnych*](https://pl.wikipedia.org/wiki/Operacjonalizacja), to jest takich, które
 dotyczącą sposobów dokonywania pomiarów lub faktycznie zastosowanych interwencji, przez ich
 *teoretyczne interpretacje*, z wprowadzoniem nieuzasadnionej [*interpretacji
 przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z
-*asekuracyjnym* sformułowaniem *może oznaczać*, które gdyby odczytać to sformułowanie dosłownie,
+*asekuracyjnym* sformułowaniem *może oznaczać*, które - gdyby odczytać to sformułowanie dosłownie -
 sugerowałoby, że całe to zdanie nic nie znaczy, bo przecież dosłownie wszystko *może* oznaczać
 cokolwiek tylko chcemy zależnie od kontekstu. Wiemy również z góry, bo takie wady mają niemal
 wszystkie "naukowe" artykuły pisane przez psychologów, że zabraknie jawnej analizy ograniczeń
 wynikających z [*obciążenia próby*](https://pl.wikipedia.org/wiki/Obci%C4%85%C5%BCenie_pr%C3%B3by),
-że wnioski będą sformułowane zdecydowanie zbyt ogólnienie, przypuszczalnie z powodu braku
+że wnioski będą sformułowane zdecydowanie zbyt ogólnienie i za mocno, przypuszczalnie z powodu braku
 zrozumienia różnicy między (nieistniejącą) "reprezentatywnością próby" i [*reprezentatywnością*
 **procesu** *pobierania próby*](https://pl.wikipedia.org/wiki/Dob%C3%B3r_pr%C3%B3by), a także
 dlatego, że gdyby autorzy poważnie podeszli do kwestii braku wiedzy na temat [*przyczynowych*
 różnic](https://en.wikipedia.org/wiki/External_validity) między sytuacją odpowiadającą badaniu a
-szerokim zakresem sytuacji, o których wyniki tego badania mają rzekomo coś mówić, to wnioski
-brzmiałyby tak trywialnie, że najpewniej nie byłoby szans na publikację w wysokopunktowanym
-czasopiśmie.
+bliżej nieokreślonym, ale ewidentnie szerokim zakresem sytuacji, o których wyniki tego badania mają
+rzekomo coś mówić, to wnioski brzmiałyby tak trywialnie, że najpewniej nie byłoby szans na
+publikację w wysokopunktowanym czasopiśmie.
 
 To, że na przykład interpretacja przyczynowa *nie może* być w tym wypadku uzasadniona, możemy
 ustalić natychmiast nie czytając reszty tego hipotetycznego artykułu, ponieważ niemal niezależnie od
 przyjętych definicji efektu Stroopa i ekstrawersji, z góry wiadomo, że z powodów technicznych i
-etycznych ekstrawersja nie była w tym badaniu rezultatem zewnętrznej interwencji i istnieje wiele,
-być może bliżej nieokreślonych, a z pewnością nie występujących w danych, odgrywających potencjalnie
-niepomijalną rolę [*wspólnych przyczyn*](https://en.wikipedia.org/wiki/Confounding) tych dwóch
-zmiennych (zakładając, że ekstrawersja rozumiana tak, jak rozumieją ją autorzy w ogóle istnieje).
+etycznych ekstrawersja nie była w tym badaniu rezultatem zewnętrznej interwencji. A wobec tego
+istnieje wiele, być może bliżej nieokreślonych, a z pewnością nie występujących w danych,
+odgrywających potencjalnie niepomijalną rolę [*wspólnych
+przyczyn*](https://en.wikipedia.org/wiki/Confounding) tych dwóch zmiennych (zakładając, że
+ekstrawersja rozumiana tak, jak rozumieją ją autorzy w ogóle istnieje).
 
 Tym razem zajmiemy się jednak przykładem rozumowania, które możemy poddać analizie bez wprowadzania
-pojęć z zakresu metodologii badań, bo na to jest jeszcze za wcześnie. Z polskiej [strony
+pojęć z obszaru metodologii badań, bo na to jest jeszcze za wcześnie. Z polskiej [strony
 Wikipedii](https://pl.wikipedia.org/wiki/Dow%C3%B3d_ontologiczny) poświęconej "dowodowi" na
 istnienie Boga autorstwa Anzelma z Cantenbury dowiadujemy się (2024-12-08), że:
 
