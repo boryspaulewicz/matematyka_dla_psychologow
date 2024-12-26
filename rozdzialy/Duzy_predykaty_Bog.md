@@ -210,7 +210,7 @@ terminów [*operacyjnych*](https://pl.wikipedia.org/wiki/Operacjonalizacja), to 
 dotyczącą sposobów dokonywania pomiarów lub faktycznie zastosowanych interwencji, przez ich
 *teoretyczne interpretacje*, z wprowadzoniem nieuzasadnionej [*interpretacji
 przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z
-*asekuracyjnym* sformułowaniem *może oznaczać*, które gdyby odczytać to sformułowaniee dosłownie,
+*asekuracyjnym* sformułowaniem *może oznaczać*, które gdyby odczytać to sformułowanie dosłownie,
 sugerowałoby, że całe to zdanie nic nie znaczy, bo przecież dosłownie wszystko *może* oznaczać
 cokolwiek tylko chcemy zależnie od kontekstu. Wiemy również z góry, bo takie wady mają niemal
 wszystkie "naukowe" artykuły pisane przez psychologów, że zabraknie jawnej analizy ograniczeń
