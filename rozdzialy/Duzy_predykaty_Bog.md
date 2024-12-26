@@ -389,4 +389,4 @@ Zaczynasz już lepiej dostrzegać, dokąd to wszystko zmierza?
 ### Przypisy
 
 [^1]: Słowo krok (w rozumowaniu lub argumentacji) nie jest o ile mi wiadomo terminem technicznym w
-    przyjętym tutaj przeze mnie rozumieniu. Wprowadziłem go tylko dlatego, że mi się podoba.
+    przyjętym tutaj przeze mnie rozumieniu. Wprowadziłem je tylko dlatego, że mi się podoba.
