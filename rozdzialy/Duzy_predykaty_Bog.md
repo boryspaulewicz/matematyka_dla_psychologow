@@ -338,17 +338,18 @@ zobaczyć, jakie dokładnie możliwości wzięliśmy pod uwagę. Co dalej?
 > nie może być pomyślane”. Nawet ten głupi rozumie to, co słyszy, a to co rozumie, znajduje się w
 > jego intelekcie.
 
-W mojej *subiektywnej ocenie*, a właściwie po prostu w ocenie, bo nie ma ocen innych niż
-subiektywne, mamy tutaj do czynienia niemal z [*bełkotem*](https://sjp.pwn.pl/sjp/;2443481), co
-według mnie sugeruje, że zanim napisał te słowa Anzelm mógł nieco przesadzić z wyrzucaniem tego i
-owego z izdebki własnego umysłu. Wypowiedzi zbliżone do bełkotu mogą co prawda skrywać jakieś mniej
-lub bardziej sensowne treści, ale musimy zdecydować, jak szczegółowo i wyczerpująco będziemy badać
-wypowiedzi autora i każda taka decyzja musi być oparta do pewnego stopnia na (subiektywnej)
-ocenie. Na przykład, klasyfikację zacytowanego tutaj fragmentu jako bełkotu przedstawiłem bez
-uzasadnienia, a więc to nie tylko *moja ocena*, ale to również *tylko ocena*, a więc z *Twojej*
-perspektywy to jest aksjomat. Zrobiłem tak, ponieważ jestem (również subiektywnie) przekonany, że
-prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się zdaje, to jest do jawnego lub
-niejawnego *zawężenia kręgu odbiorców*, sprowadza się rola tego rodzaju decyzji.
+W mojej *subiektywnej ocenie*, a właściwie po prostu w mojej ocenie, bo nie ma ocen innych niż
+subiektywne, mamy tutaj do czynienia niemal z [*bełkotem*](https://sjp.pwn.pl/sjp/;2443481), co może
+świadczyć o tym, że zanim napisał te słowa Anzelm mógł nieco przesadzić z wyrzucaniem tego i owego z
+izdebki własnego umysłu. Wypowiedzi zbliżone do bełkotu mogą co prawda skrywać jakieś mniej lub
+bardziej sensowne albo ważne ze względu na wniosek treści, ale musimy zdecydować, jak szczegółowo i
+wyczerpująco będziemy badać wypowiedzi autora i każda taka decyzja musi być oparta do pewnego
+stopnia na (subiektywnej) ocenie. Na przykład, klasyfikację zacytowanego tutaj fragmentu jako
+bełkotu przedstawiłem bez uzasadnienia, a więc to nie tylko *moja ocena*, ale to również *tylko
+ocena*, a więc z *Twojej* perspektywy to jest aksjomat. Zrobiłem tak, ponieważ jestem (również
+subiektywnie) przekonany, że prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się
+zdaje, to jest do jawnego lub niejawnego *zawężenia kręgu odbiorców* sprowadza się główna rola tego
+rodzaju decyzji.
 
 Następna zakładka nosi szumną nazwę "Wyprowadzenie dowodu".
 
@@ -366,7 +367,7 @@ Następna zakładka nosi szumną nazwę "Wyprowadzenie dowodu".
    co nic większego nie możemy pomyśleć”.  Zatem „coś ponad co nic większego nie można pomyśleć” –
    wbrew założeniu (2) istnieje nie tylko w umyśle, lecz także w rzeczywistości.
 
-Nietrudno rozpoznać, że punkt 1 zawiera *definicję*, punkt 2 to *założenie dowodu [nie
+Nietrudno rozpoznać, że punkt 1 zawiera *definicję*, punkt 2 to *założenie* [*dowodu nie
 wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost), punkt 3 to *aksjomat* dotyczący
 relacji między dwoma *predykatami* - *istnieje w rzeczywistości* i *istnieje w samym umyśle* - i
 dosyć tajemniczą relacją *bycia większym niż*, wreszcie punkty 4 i 5 zawierają skrótową
