@@ -127,19 +127,18 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
-Analiza dowodu na istnienie Boga Anzelma z Canterbury, do której odsyłał widoczny tutaj wcześniej
-link, pojawi się niebawem w innej wersji.
+[R12 Duży kwantyfikator, predykaty i dowód na istnienie Boga](./rozdzialy/Duzy_predykaty_Bog.md)
 
-[R12 Duży kwantyfikator i implikacja w
+[R13 Duży kwantyfikator i implikacja w
 zadaniach](./rozdzialy/Duzy_kwantyfikator_i_implikacja_w_zadaniach.md)
 
-[R13 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+[R14 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
-[R14 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
+[R15 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R15 ∧](./rozdzialy/Koniunkcja.md)
+[R16 ∧](./rozdzialy/Koniunkcja.md)
 
-[R16 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
+[R17 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
