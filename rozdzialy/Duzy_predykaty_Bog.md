@@ -415,8 +415,6 @@ wytworu* w postaci tego tekstu *jako rezultatu pewnego zachowania*, a więc jako
 udanego *rozwiązania pewnego zadania*, polega *nasze deklarowane zadanie* (czyli "nasze
 zachowanie").
 
-Zaczynasz już lepiej dostrzegać, dokąd to wszystko zmierza?
-
 ### Przypisy
 
 [^1]: Słowo krok (w rozumowaniu lub argumentacji) nie jest o ile mi wiadomo terminem technicznym w
