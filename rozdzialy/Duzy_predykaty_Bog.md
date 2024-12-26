@@ -228,7 +228,7 @@ To, że na przykład interpretacja przyczynowa *nie może* być w tym wypadku uz
 ustalić natychmiast nie czytając reszty tego hipotetycznego artykułu, ponieważ niemal niezależnie od
 przyjętych definicji efektu Stroopa i ekstrawersji, z góry wiadomo, że z powodów technicznych i
 etycznych ekstrawersja nie była w tym badaniu rezultatem zewnętrznej interwencji i istnieje wiele,
-być może bliżej nieokreślonych a z pewnością nie występujących w danych, odgrywających potencjalnie
+być może bliżej nieokreślonych, a z pewnością nie występujących w danych, odgrywających potencjalnie
 niepomijalną rolę [*wspólnych przyczyn*](https://en.wikipedia.org/wiki/Confounding) tych dwóch
 zmiennych (zakładając, że ekstrawersja rozumiana tak, jak rozumieją ją autorzy w ogóle istnieje).
 
