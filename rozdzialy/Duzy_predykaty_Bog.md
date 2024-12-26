@@ -206,21 +206,22 @@ powinniśmy już znać. Jeżeli teraz następne zdanie w tej hipotetycznej dysku
 jednej z *przesłanek* (liczba mnoga). 
 
 Mamy tu do czynienia z częstym w artykułach
-["naukowych"](https://pl.wikipedia.org/wiki/Nauka_spod_znaku_kultu_cargo) pisanych przez psychologów
+["naukowych"](https://pl.wikipedia.org/wiki/Nauka_spod_znaku_kultu_cargo) pisanych przez
+psychologów:
 
-1. *Pominięciem kroków* uznanych być może za względnie oczywiste czy niekontrowersyjne
+1. *Pominięciem kroków* uznanych być może za względnie oczywiste lub niekontrowersyjne.
 
 2. *Niejawnym* zastąpieniem terminów
 [*operacyjnych*](https://pl.wikipedia.org/wiki/Operacjonalizacja), to jest takich, które dotyczącą
 sposobów dokonywania pomiarów lub faktycznie zastosowanych interwencji, przez ich *teoretyczne
-interpretacje*
+interpretacje*.
 
 3. Wprowadzoniem nieuzasadnionej [*interpretacji
-przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z
+przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z ...
 
-4. *Asekuracyjnym* sformułowaniem *może oznaczać*, które - gdyby odczytać to sformułowanie
-dosłownie - sugerowałoby, że całe to zdanie nic nie znaczy, bo przecież dosłownie wszystko *może*
-oznaczać cokolwiek tylko chcemy zależnie od kontekstu.
+4. ... *asekuracyjnym* sformułowaniem *może oznaczać*, które - gdyby odczytać je dosłownie -
+sugerowałoby, że całe to zdanie nic nie znaczy, bo przecież wszystko *może* oznaczać cokolwiek tylko
+chcemy zależnie od kontekstu.
 
 Wiemy również z góry, bo takie wady mają niemal wszystkie "naukowe" artykuły pisane przez
 psychologów, że:
