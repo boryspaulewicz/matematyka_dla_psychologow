@@ -9,10 +9,6 @@ nic innego jak zapisanie parametru po prawej od głównego dwukropka w definicji
 dowolnej funkcji). Zwracam uwagę, że po zmiennej związanej takim kwantyfikatorem musi się pojawić
 przecinek i po ostatnim takim przecinku dwukropka już nie piszemy.
 
-Zrób proszę tyle dowodów i w taki sposób, w jaki tylko masz ochotę, ale nie więcej. Albo, jeśli masz
-ochotę zrobić więcej, niż masz ochotę zrobić, to zrób właśnie tyle. Wybór, jak zawsze, należy do
-Ciebie.
-
 ```lean
 -- Gdy po prawej od głównego dwukropka, czyli w typie twierdzenia, jest na przykład ∀ (p : Prop), to wpisując w trybie
 -- interaktywnym intro p sprawisz, że stan dowodu będzie wyglądał tak, jakby (p : Prop) było parametrem twierdzenia.
@@ -65,5 +61,3 @@ theorem t7' (P : Predykat Nat) : ∀ Q : (Predykat Nat), ∀ n : Nat, (P n → Q
 
 theorem t7'' (P Q : Predykat Nat) (n : Nat) : (P n → Q n) → P n → Q n :=
 ```
-
-Trzymam kciuki.
