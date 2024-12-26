@@ -342,7 +342,7 @@ wypadku akceptowalna. Gdyby miało się później okazać, że to zmniejsza szan
 się z tego wycofać i spróbować zrobić to inaczej.
 
 Przyjęcie aksjomatu `mocna_teza` w jego obecnej postaci wyklucza istnienie ludzi zarazem *głupich* i
-*wierzących*, z czym Anzelm by się pewnie nie zgodził, a więc jeśli to ma być implikacja, to chodzi
+*wierzących*, z czym Anzelm by się zapewne nie zgodził, a więc jeśli to ma być implikacja, to chodzi
 raczej o to:
 
 ```lean
