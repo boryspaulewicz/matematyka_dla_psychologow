@@ -242,18 +242,18 @@ rzekomo coś mówić, (poprawnie uzasadnione!) wnioski brzmiałyby tak trywialni
 byłoby szans na publikację w wysokopunktowanym czasopiśmie.
 
 To, że na przykład interpretacja przyczynowa *nie może* być w tym wypadku uzasadniona, możemy
-ustalić natychmiast nie czytając reszty tego hipotetycznego artykułu, ponieważ niemal niezależnie od
-przyjętych definicji stałych efekt Stroopa i ekstrawersja, z góry wiadomo, że z powodów technicznych
-i etycznych ekstrawersja nie była w tym badaniu rezultatem zewnętrznej interwencji. A wobec tego
-istnieje wiele, być może bliżej nieokreślonych, za to z pewnością nie występujących w danych,
-odgrywających potencjalnie niepomijalną rolę [*wspólnych
+ustalić natychmiast, nie czytając reszty tego hipotetycznego artykułu, ponieważ niemal niezależnie
+od przyjętych definicji stałych *efekt Stroopa* i *ekstrawersja*, z góry wiadomo, że z powodów
+technicznych i etycznych ta druga nie była w tym badaniu pod bezpośrednim wpływem zewnętrznej
+interwencji. A wobec tego istnieje wiele, być może bliżej nieokreślonych, za to z pewnością nie
+występujących w danych, odgrywających potencjalnie niepomijalną rolę [*wspólnych
 przyczyn*](https://en.wikipedia.org/wiki/Confounding) tych dwóch zmiennych (zakładając, że
 ekstrawersja rozumiana tak, jak rozumieją ją autorzy w ogóle istnieje).
 
 Jeżeli nabrałaś ochoty, żeby lepiej opanować sztukę przeprowadzania tego rodzaju analiz, to
 zapewniam, że elementy logiki, które poznasz w następnych rozdziałach, będą się do tego świetnie
-nadawać. Tym razem zajmiemy się przykładem rozumowania, które możemy poddać analizie bez
-wprowadzania pojęć z obszaru metodologii badań, bo na to jest jeszcze za wcześnie. 
+nadawać. Tym razem zajmiemy się jednak przykładem rozumowania, które możemy poddać analizie bez
+wprowadzania pojęć z obszaru metodologii badań, bo na to jest jeszcze za wcześnie.
 
 Z polskiej [strony Wikipedii](https://pl.wikipedia.org/wiki/Dow%C3%B3d_ontologiczny) poświęconej
 "dowodowi" na istnienie Boga autorstwa Anzelma z Cantenbury dowiadujemy się (2024-12-08), że:
