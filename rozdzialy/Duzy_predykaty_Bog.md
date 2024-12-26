@@ -255,11 +255,11 @@ na przykład jednorożców czy wróżek, z tego prostego powodu, że definicje p
 I znowu z pomocą przyjdzie nam (nieformalne) typowanie. Mamy tu do czynienia z *radą*. To też
 ciekawy typ, jakby blisko [*normy*](https://en.wikipedia.org/wiki/Normativity), ale jednak coś
 innego. Zwracam uwagę, że czasem sam akt wstępnego typowania fragmentów tekstu napisanego w języku
-naturalnym (tutaj samo rozpoznanie, że mamy do czynienia z ogólnym typem rada) może działaś jak
-odsłonięcie rano zasłon. Sformułowanie rady zakłada pewien *cel*, a ponieważ naszym (deklarowanym!)
-celem nie jest w tym momencie przekonanie za wszelką cenę samych siebie o prawdziwości wniosku, ten
-fragment również możemy pominąć, tym bardziej, że "wyrzucanie" czegokolwiek z "izdebki umysłu"
-raczej nam nie pomoże w poprawnej ocenie sytuacji. Co dalej?
+naturalnym (tutaj samo rozpoznanie, że mamy do czynienia z ogólnym typem rada) może działać jak
+odsłonięcie rano zasłon. Sformułowanie rady *zakłada* pewien *cel*, a ponieważ naszym
+(deklarowanym!)  celem nie jest w tym momencie przekonanie za wszelką cenę samych siebie o
+prawdziwości wniosku, ten fragment również możemy pominąć, tym bardziej, że "wyrzucanie"
+czegokolwiek z "izdebki umysłu" raczej nam nie pomoże w poprawnej ocenie sytuacji. Co dalej?
 
 > Wyjaśnia też swoje intencje. Zastrzega, że nie cahce przeniknąć głębi Boga, ponieważ wtedy
 > popełniałby grzech pychy. Chce tylko do pewnego stopnia zrozumieć prawdę, w którą wierzy. Nie
@@ -268,11 +268,11 @@ raczej nam nie pomoże w poprawnej ocenie sytuacji. Co dalej?
 
 Tutaj z kolei mamy informacje na temat nieobserwowalnego stanu, a ściślej intencji, przekonań i
 postaw autora, których nie możemy w żaden sposób zweryfikować, bo nie możemy się cofnąć w czasie i
-wcielić w Anzelma. Zresztą nawet, gdyby to było możliwe, nadal byłyby to tylko nasze domysły, bo
-ludzie nie mają doskonałego dostępu do własnych prawdziwych postaw i przekonań, czymkolwiek miałyby
-one być. Dlatego z naszej perspektywy, czy raczej z perspektywy autora analizy, którego rolę tutaj
-odgrywamy, te stwierdzenia muszą pełnić rolę *aksjomatów*. Widzimy też od razu, że nie mogą pełnić
-żadnej ważnej roli w uzasadnieniu, a więc ten fragment również możemy spokojnie pominąć.
+wcielić w Anzelma. Zresztą, nawet, gdyby to było możliwe, nadal byłyby to tylko nasze domysły, bo
+ludzie nie mają doskonałego dostępu do własnych prawdziwych postaw i przekonań. Dlatego z naszej
+perspektywy, czy raczej z perspektywy autora analizy, w którego się tutaj wcielamy, te stwierdzenia
+muszą pełnić rolę *aksjomatów*. Widzimy też od razu, że nie mogą pełnić żadnej ważnej roli w
+uzasadnieniu, a więc ten fragment również możemy spokojnie pominąć.
 
 Pierwsze zdanie w zakładce *Przesłanka* to:
 
@@ -294,12 +294,12 @@ axiom Glupi : Predykat Człowiek
 axiom Niewierzacy : Predykat Człowiek
 ```
 
-Pozwoliłem sobie tutaj na ryzykowne *uproszczenie* polegające na *wyborze* pewnej
+Pozwoliłem sobie tutaj na ryzykowne *uproszczenie*, polegające na *wyborze* pewnej
 *interpretacji*. Założyłem (niejawnie, ale teraz to zmieniam), że *mówić*, że nie ma Boga znaczyło w
 tym kontekście dla Anzelma to samo, co *nie wierzyć* w Boga. Widzimy dzięki temu, że formalizacja
 rozumowań zapisanych w języku naturalnym może wymagać i często wymaga formułowania *hipotez
 empirycznych* na temat przyjętych przez autora znaczeń. Ponieważ te możemy tylko lepiej lub gorzej
-*odgadywać*, wypada nam przyjąć zasadę *życzliwej interpretacji*. Zgodnie z tą zasadą powinniśmy
+*odgadywać*, wypada nam przyjąć zasadę *życzliwej interpretacji*. Zgodnie z tą zasadą, powinniśmy
 próbować zidentyfikować *wszystkie* takie interpretacje wypowiedzi autora, które są *spójne* z
 dostępną *wiedzą zastaną* na temat autora i z *całością tekstu*, skupiając się przy tym na takich,
 które zdają się dawać autorowi *największe szanse powodzenia* w uzasadnianiu wniosku.
@@ -320,15 +320,15 @@ wypadku akceptowalna. Gdyby miało się później okazać, że to zmniejsza szan
 się z tego wycofać i spróbować inaczej.
 
 Przyjęcie aksjomatu `mocna_teza` w jego obecnej postaci wyklucza istnienie ludzi zarazem głupich i
-*wierzących*, z czym Anzelm z pewnością by się nie zgodził, a więc jeżeli to ma być implikacja, to
-chodzi prawdopodobnie raczej o to:
+*wierzących*, z czym Anzelm by się pewnie nie zgodził, a więc jeżeli to ma być implikacja, to chodzi
+prawdopodobnie raczej o to:
 
 ```lean
 axiom mocna_teza' : Niewierzacy → Glupi
 ```
 
-Stosujemy tutaj kryterium spójności z wiedzą zastaną, przy okazji potwierdzając, że gdybym miał
-okazję poznać Anzelma osobiście, nie zrobiłbym na nim dobrego wrażenia. Nie ma powodu, żeby usuwać
+Stosujemy tutaj kryterium spójności z wiedzą zastaną, przy okazji odkrywając, że gdybym miał okazję
+poznać Anzelma osobiście, nie zrobiłbym na nim dobrego wrażenia. Nie ma powodu, żeby usuwać
 poprzednią interpretację, choćby dlatego, że nie mamy jeszcze pewności, czy jest faktycznie błędna,
 a poza tym ta pierwsza interpretacja jest pełnowartościowym fragmentem *dokumentacji* pozwalającej
 zobaczyć, jakie dokładnie możliwości wzięliśmy pod uwagę. Co dalej?
@@ -338,19 +338,19 @@ zobaczyć, jakie dokładnie możliwości wzięliśmy pod uwagę. Co dalej?
 > jego intelekcie.
 
 W mojej *subiektywnej ocenie*, a właściwie po prostu w mojej ocenie, bo nie ma ocen innych niż
-subiektywne, mamy tutaj do czynienia niemal z [*bełkotem*](https://sjp.pwn.pl/sjp/;2443481), co może
-świadczyć o tym, że zanim napisał te słowa Anzelm mógł nieco przesadzić z wyrzucaniem tego i owego z
-izdebki własnego umysłu. Wypowiedzi zbliżone do bełkotu mogą co prawda skrywać jakieś mniej lub
-bardziej sensowne albo ważne ze względu na wniosek treści, ale musimy zdecydować, jak szczegółowo i
-wyczerpująco będziemy badać wypowiedzi autora i każda taka decyzja musi być oparta do pewnego
-stopnia na (subiektywnej) ocenie. Na przykład, klasyfikację zacytowanego tutaj fragmentu jako
-bełkotu przedstawiłem bez uzasadnienia, a więc to nie tylko *moja ocena*, ale to również *tylko
-ocena*, a więc z *Twojej* perspektywy to jest aksjomat. Zrobiłem tak, ponieważ jestem (również
-subiektywnie) przekonany, że prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się
-zdaje, to jest do jawnego lub niejawnego *zawężenia kręgu odbiorców* sprowadza się główna rola tego
-rodzaju decyzji.
+subiektywne (ani tak naprawdę "moje", ale o tym kiedy indziej), mamy tutaj do czynienia niemal z
+[*bełkotem*](https://sjp.pwn.pl/sjp/;2443481), co może świadczyć o tym, że zanim napisał te słowa,
+Anzelm mógł nieco przesadzić z wyrzucaniem tego i owego z izdebki własnego umysłu. Wypowiedzi
+zbliżone do bełkotu mogą co prawda skrywać jakieś mniej lub bardziej sensowne albo ważne ze względu
+na wniosek treści, ale musimy zdecydować, jak szczegółowo i wyczerpująco będziemy badać wypowiedzi
+autora i każda taka decyzja musi być oparta do pewnego stopnia na (subiektywnej) ocenie. Na
+przykład, klasyfikację zacytowanego tutaj fragmentu jako bełkotu przedstawiłem bez uzasadnienia, a
+więc to nie tylko *moja ocena*, ale to również *tylko ocena*, a więc z *Twojej* perspektywy to jest
+aksjomat. Zrobiłem tak, ponieważ jestem (również subiektywnie) przekonany, że prawdopodobnie
+podzielasz moje zdanie. I właśnie do tego, jak mi się zdaje, to jest do jawnego lub niejawnego
+*zawężenia kręgu odbiorców* sprowadza się główna rola tego rodzaju decyzji.
 
-Następna zakładka nosi szumną nazwę "Wyprowadzenie dowodu".
+Następna zakładka nosi szumną nazwę "*Wyprowadzenie dowodu*".
 
 1. Niech „coś, ponad co nic większego nie można pomyśleć” będzie określeniem Boga, które mniej lub
    bardziej rozumieją wszyscy ludzie.
@@ -369,7 +369,7 @@ Następna zakładka nosi szumną nazwę "Wyprowadzenie dowodu".
 Nietrudno rozpoznać, że punkt 1 zawiera *definicję*, punkt 2 to *założenie* [*dowodu nie
 wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost), punkt 3 to *aksjomat* dotyczący
 relacji między dwoma *predykatami* - *istnieje w rzeczywistości* i *istnieje w samym umyśle* - i
-dosyć tajemniczą relacją *bycia większym niż*, wreszcie punkty 4 i 5 zawierają skrótową
+dosyć tajemniczą binarną relacją *bycia większym niż*, wreszcie punkty 4 i 5 zawierają skrótową
 charakterystykę jakiś *logicznych operacji*, które mają rzekomo prowadzić do *sprzeczności*, a
 dzięki temu, za pomocą zasady podwójnej negacji, do wniosku o istnieniu Boga. A więc widzimy też, że
 Anzelm próbował tutaj (być może o tym nie wiedząc) skorzystać z logiki *klasycznej*.
@@ -378,10 +378,10 @@ Punkty 4 i 5 możemy potraktować jako niezobowiązujące *wskazówki*, bo gdy j
 części książki dysponować pozostałymi potrzebnymi do tego celu narzędziami, może za wyjątkiem
 ewentualnych [*spójników modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna), to jest
 *relacjami*, *negacją*, *kwantyfikatorem egzystencjalnym* i *zasadą wyłączonego środka* (równoważną
-zasadzie podwójnej negacji), wtedy sami ocenimy, jak to wszystko działa, bo przecież na tym, to jest
-na ocenie poprawności opartej na *subiektywnej interpretacji wytworu* w postaci tego tekstu *jako
-rezultatu pewnego zachowania*, a więc jako mniej lub bardziej udanego *rozwiązania pewnego zadania*,
-polega *nasze deklarowane zadanie*.
+zasadzie podwójnej negacji), wtedy sami ocenimy, jak to wszystko działa. Wszak właśnie na tym, to
+jest na ocenie poprawności opartej na *subiektywnej interpretacji wytworu* w postaci tego tekstu
+*jako rezultatu pewnego zachowania*, a więc jako mniej lub bardziej udanego *rozwiązania pewnego
+zadania*, polega *nasze deklarowane zadanie* (czyli "nasze zachowanie").
 
 Zaczynasz już lepiej dostrzegać, dokąd to wszystko zmierza?
 
