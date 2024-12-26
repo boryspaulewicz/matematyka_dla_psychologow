@@ -240,13 +240,13 @@ istnienie Boga autorstwa Anzelma z Cantenbury dowiadujemy się (2024-12-08), że
 
 > sprowadza się on do pokazania, że w samym pojęciu Boga zawiera się konieczność jego istnienia.
 
-To nie jest co prawda ani przesłanka, ani definicja, ani krok czy wniosek, ale ta jedna uwaga, o ile
-zawarta w niej charakterystyka dowodu Anzelma jest trafna, może być bardzo użyteczna. Jeżeli
-faktycznie rzekomy dowód Anzelma na tym właśnie polega, to możemy w tym momencie zakończyć badanie,
-ponieważ uzasadnienie tezy o istnieniu desygnatu odgrywającej tutaj rolę terminu technicznego stałej
-`Bóg` w oparciu o jego definicję pozwala "uzasadnić" wniosek o istnieniu każdego możliwego "bytu",
-na przykład jednorożców czy wróżek, z tego prostego powodu, że definicje pojęć czy stałych są
-(językowymi) *wyborami*. Z czystej ciekawości czytamy jednak dalej.
+Nie jest to co prawda ani przesłanka, ani definicja, ani krok czy wniosek, ale ta jedna uwaga, o ile
+jest trafna, może być bardzo użyteczna. Jeżeli faktycznie rzekomy dowód Anzelma na tym właśnie
+polega, to możemy w tym momencie zakończyć badanie, ponieważ uzasadnienie tezy o istnieniu desygnatu
+odgrywającej tutaj rolę terminu technicznego stałej `Bóg` w oparciu o definicję tego terminu pozwala
+"uzasadnić" wniosek o istnieniu każdego możliwego "bytu", na przykład jednorożców czy wróżek, z tego
+prostego powodu, że definicje pojęć czy stałych są (językowymi) *wyborami*. Z czystej ciekawości
+czytamy jednak dalej.
 
 > Przed przeprowadzeniem dowodu we własnym zakresie Anzelm zaleca specyficzne przygotowanie
 > duchowe. Należy odrzucić niepokoje i odłożyć na później swoje codzienne troski. Następnie „wejść
