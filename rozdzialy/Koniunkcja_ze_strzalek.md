@@ -13,26 +13,39 @@ czasem formułę złożoną).
 
 Implikacja jako typ funkcyjny albo po prostu strzałka jest w naszym języku pojęciem pierwotnym. Jak
 pisałem w jednym z rozdziałów wprowadzających, (prawie) wszystko, czego będziemy potrzebować,
-skonstruujemy właśnie ze strzałek. Dotyczy to również *definicji koniunkcji*.
+skonstruujemy właśnie ze strzałek. Dotyczy to również *definicji koniunkcji*. Zaczniemy jednak od
+zapisanych w dosyć typowy sposób *reguł dedukcji* dla koniunkcji, to jest od reguły *wprowadzenia*
+(czyli sposobu uzyskania w dowodach) i *dwóch* reguł *eliminacji* (czyli sposobu użycia albo
+"zużycia" w dowodach). Reguła wprowadzenia jest mam nadzieję oczywista:
+
+TODO
+
+A oto reguły eliminacji, które też jak sądzę nie wymagają komentarza:
+
+TODO
 
 Jak powinna wyglądać taka definicja? Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to
 *sensem* zdania `p ∧ q` są wszystkie konsekwencje wynikające z *łącznej* prawdziwości zdań `p` i
-`q`. Albo inaczej, jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to wszystko, co
-wynika z prawdziwości zdania `p` *i* prawdziwości zdania `q` też jest zdaniem prawdziwym i
-odwrotnie, jeżeli każde zdaniem, które wynika stąd, że `p` jest zdaniem prawdziwym *i* `q` jest
-zdaniem prawdziwym jest również zdaniem prawdziwym, to `p ∧ q` jest zdaniem prawdziwym. Zapiszemy to
-korzystając ze znanego Ci już symbolu oznaczającego duży kwantyfikator.
+`q`. Albo inaczej, jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to każde zdanie
+`r`, które wynika z *łącznej* prawdziwości zdania `p` *i* prawdziwości zdania `q` też jest zdaniem
+prawdziwym i odwrotnie, jeżeli każde zdanie `r`, które wynika stąd, że `p` jest zdaniem prawdziwym
+*i jednocześnie* `q` jest zdaniem prawdziwym jest również zdaniem prawdziwym, to `p ∧ q` jest
+zdaniem prawdziwym. Zapiszemy to korzystając ze znanego Ci już symbolu oznaczającego duży
+kwantyfikator.
 
 ```lean
+-- Każda koniunkcja (and p q, gdzie p : Prop i q : Prop) jest zdaniem (: Prop), którego dla każdego 
+-- zdania (r : Prop) pozwala uzyskać dowód tego zdania (... → r) z dowodu, że to zdanie wynika z
+-- łącznej prawdziwości zdań będących członami tej koniunkcji ((p → q → r)):
 def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
 ```
 
 Będzie chyba najlepiej, jeśli zapoznasz się z "mechaniką" działania tej definicji w praktyce. Nie
-będę na razie stosował oficjalnego symbolu koniunkcji, żebyś mogła się przyzwyczaić do tego, co
-konkretnie będzie on oznaczał. Na razie więc będę pisał `and p q`, a nie `p ∧ q`.
+będę na razie stosował oficjalnego symbolu koniunkcji, to jest na razie będę pisał `and p q`, a nie
+`p ∧ q`, żeby nie wprowadzać języka makr, który pozwala na takie zmiany w notacji.
 
 ```lean
---- Niech k będzie dowodem koniunkcji zdań a i b
+--- Niech dowod_koniunkcji_ab będzie dowodem koniunkcji zdań a i b:
 variable (a b : Prop)
 variable (dowod_koniunkcji_ab : and a b)
 ```
