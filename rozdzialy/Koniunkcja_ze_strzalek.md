@@ -29,8 +29,8 @@ wprowadzenia jest mam nadzieję oczywista.
 
 Jeżeli *A* i *B* to zdania, to:
 
-*A*, *B*  
-<ins><em>A ∧ B</em></ins>
+<ins><em>A, B</em><ins>  
+*A ∧ B*
 
 Odczytujemy tą regułę tak: Jeżeli w trakcie wyprowadzania dowodu akceptujemy zdanie *A* i zdanie *B*
 (dla nas to znaczy: jeżeli mamy dowody tych dwóch zdań), to akceptujemy zdanie *A ∧ B* (to możemy
@@ -40,10 +40,10 @@ A oto dwie reguły eliminacji, które jak sądzę nie wymagają komentarza.
 
 Jeżeli *A* i *B* to zdania, to:
 
-*A ∧ B*  
+<ins><em>A ∧ B</em></ins>  
 *A*
 
-*A ∧ B*  
+<ins><em>A ∧ B</em></ins>  
 *B*
 
 Jak mogłaby wyglądać definicja koniunkcji w logice konstruktywnej skonstruowana tylko za pomocą
