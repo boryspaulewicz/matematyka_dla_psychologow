@@ -146,7 +146,8 @@ Zwracam uwagę, że nie po raz pierwszy spotykamy się tutaj z typem zapisanym w
 odpowiedniego typu). Również nie po raz pierwszy mamy do czynienia z typem zapisanym jako aplikacja,
 *którą można zredukować* (albo ewaluować), bo przecież w podobny sposób używaliśmy pełniącej rolę
 cukierniczą (albo "lukracyjną") funkcji `Predykat`, aplikując ją do odpowiednich termów i dzięki
-temu uzyskując odpowiednie typy (a konkretnie predykaty) jako rezultaty tych aplikacji. Kontynuując:
+temu uzyskując odpowiednie typy (a konkretnie zdania o strukturze orzeczenie-podmiot) jako rezultaty
+tych aplikacji. Kontynuując:
 
 ```lean
 -- Wobec tego to ...
