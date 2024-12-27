@@ -116,7 +116,7 @@ def dodaje_elementy_pary : Nat × Nat → Nat :=
 
 I to tyle, nie potrzebujesz na razie wiedzieć nic więcej na temat par uporządkowanych. Być może w
 przyszłości nadarzy się okazja, żeby zapoznać się z parami *zależnymi*, to jest takimi, że *typ*
-drugiego elementu *zależy* od pierwszego elementu, ale na razie nie ma takiej potrzeby. 
+drugiego elementu *zależy* od pierwszego *elementu*, ale na razie nie ma takiej potrzeby.
 
 Ponieważ koniunkcja w Leanie jest zaimplementowana po prostu jako uporządkowana para, a dokładniej
 dowód koniunkcji to uporządkowana para dowodów zdań będących członami tej koniunkcji, to wiesz już
