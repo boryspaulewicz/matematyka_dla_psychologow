@@ -48,7 +48,7 @@ koniecznych za³o¿eñ (wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne
 wynikaj± z faktu, ¿e [przyczynowo¶æ zosta³a
 zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
-Nic wiêc dziwnego, ¿e tacy, niestety w psychologii dosyæ liczni, matematyczni pó³-analfabeci
+Nic wiêc dziwnego, ¿e tacy, niestety w psychologii do¶æ liczni, matematyczni pó³-analfabeci
 nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj±c przy tym czasem
 najprostsze nawet b³êdy. Mimo to udaje im siê publikowaæ w wysokopunktowanych czasopismach, bo
 wysy³ane przez nich manuskrypty s± zwykle recenzowane i dopuszczane do druku przez innych
@@ -73,7 +73,7 @@ akademickim zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w tym ce
 poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
 
 Uprzedzam, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*, czyli
-w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod lub zapêdzam siê w
+w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod albo zapêdzam siê w
 dygresje. To ryzyko nie wydaje mi siê pomijalnie ma³e, bo jestem matematycznym amatorem. Co prawda
 co¶ tam mogê pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca, ale nie ma tego
 wiele. Gdyby¶ wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz
@@ -97,12 +97,12 @@ W zwi±zku z tym, oto moja sugestia: Daj sobie czas, ¿eby wszystko zd±¿y³o siê tr
 siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do przeczytanych ju¿
 fragmentów. O ile nie zabraknie wytrwa³o¶ci, mo¿e w koñcu stanie siê to, co dzieje siê wtedy, kiedy
 przez d³u¿szy czas dok±d¶ idziemy, niekoniecznie d±¿±c stale do jednego celu, a powietrze jest
-bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, kiedy zachodzi jako¶ciowa zmiana, odkrywamy jednak
-w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
+bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, gdy zachodzi jako¶ciowa zmiana, odkrywamy jednak w
+koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 
 Gdy pojawi siê frustracja, a prawie na pewno czasem siê pojawi, poczekaj, albo wróæ do tego, co
 wydaje Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ
-studentów psychologii to nie studenci, tylko studentki, bêdê zwraca³ siê do Ciebie w formie
+studentów psychologii to wcale nie studenci, tylko studentki, bêdê zwraca³ siê do Ciebie w formie
 ¿eñskiej. Jest te¿ inny dobry moim zdaniem powód.
 
 Pozna³em wiele kobiet zajmuj±cych siê psychologi±, które w mojej ocenie maj± wiêcej oleju w g³owie,
@@ -184,18 +184,18 @@ zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania
 z tym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim zdaniem, jak ju¿ wspomina³em,
 najwa¿niejszy jest czas.
 
-A propos po¿ytków p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który stosowa³em
-podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych przyjemno¶ci
-zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub bardziej
-skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
-nie by³o w okolicy ¿adnych specjalistów, których mog³bym poprosiæ o pomoc. Gdy czu³em, ¿e muszê siê
-w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem
-zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
-serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez
-pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach zwykle
-wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em
-tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te zawsze mo¿na
-by³o znale¼æ.
+Skoro ju¿ mówimy o po¿ytkach p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który
+stosowa³em podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych
+przyjemno¶ci zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub
+bardziej skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na
+tym, ¿e nie by³o w okolicy ¿adnych specjalistów, których móg³bym poprosiæ o pomoc. Gdy czu³em, ¿e
+muszê siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê
+tematem, potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego
+ju¿ wtedy serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê
+przez pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach
+zwykle wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji
+wspomina³em tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te
+zawsze mo¿na by³o znale¼æ.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
@@ -217,7 +217,7 @@ i czasu*. Uwa¿am, ¿e je¿eli siêgnê³a¶ po t± ksia¿kê, to Ty te¿ mo¿esz zrozumieæ 
 siê zrozumieæ. Jak to uj±³ Silvanus Thompson w swoim popularnym i dostêpnym za darmo [podrêczniku do
 rachunku ró¿niczkowo-ca³kowego](https://calculusmadeeasy.org/), *What one fool can do, another
 can*. Thompson podaje, ¿e to jest *Ancient Simian Proverb*, ale to ¿art (sprawd¼, co znaczy
-"Simian". je¶li chcesz siê dowiedzieæ wiêcej).
+"Simian", je¶li chcesz siê dowiedzieæ wiêcej).
 
 Zawsze by³em chudy[^3], dobry z matematyki i dobry z programowania, bo taki siê urodzi³em. Z
 pewno¶ci± nie by³em jednak nigdy ani tym bardziej nie jestem geniuszem. Po prostu w szkole
@@ -225,13 +225,13 @@ podstawowej nie potrafi³em nie my¶leæ czêsto o matematyce. Mój przyjaciel z lice
 ³awki, wybitny teoretyk prawa i filozof Wojtek Za³uski, jest zdaje mi siê prawdziwym geniuszem. Inny
 mój przyjaciel, filozof matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje) Szymon
 Szymczak te¿ jak s±dzê jest. To oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w
-pewnych (zbyt licznych) obszarach genialne. Dziêki nim wiem, jaki ze mnie dureñ.
+pewnych (zbyt licznych) obszarach genialne. Dziêki nim wiem doskonale, jaki ze mnie dureñ.
 
 My¶lisz, ¿e z tym durniem przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em prawie
 nic w zeszycie i mój szkolny poziom wykonania by³ tak niski, ¿e, jak siê pó¼niej dowiedzia³em,
 nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi rok. Z powodu
 licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo s³abych ocen z
-kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum (uratowa³a mnie olimpiada z
+kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum (uratowa³a mnie wtedy olimpiada z
 filozofii). Na studia z psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj±
 mnie wrodzon± moc± procesora, a poza tym nie jestem ju¿ m³ody.
 
@@ -243,7 +243,7 @@ drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzysta
 dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
 Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, w jaki sposób sobie radziæ z ekstremaln± wrêcz
-prokrastynacj±. Dlatego ¿eby jednocze¶nie zachêciæ Ciê do dalszej lektury i odwdziêczyæ siê tym
+prokrastynacj±. Dlatego, ¿eby zachêciæ Ciê do dalszej lektury i odwdziêczyæ siê w jaki¶ sposób tym
 autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to robiê,
 a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
 
@@ -266,9 +266,9 @@ dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em, niezra¿ony,
 co odpowiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co to Lisp, a nied³ugo pó¼niej to
 by³ ju¿ mój ulubiony jêzyk i na d³ugo nim pozosta³. W³a¶nie dlatego piszê t± ksi±¿kê w
 [Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawana tak mocno
-zro¶niêty, ¿e czasem wrêcz zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu, byæ
-mo¿e jakiego¶ sposobu na siebie i jednego czy dwóch dobrych przyjació³; wtedy mo¿na zrozumieæ, co
-tylko siê chce. What one fool can do, another can.
+zro¶niêty, ¿e czasami nawet zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu,
+byæ mo¿e jakiego¶ sposobu na siebie i jednego czy dwóch dobrych przyjació³; wtedy mo¿na zrozumieæ,
+co tylko siê chce. What one fool can do, another can.
 
 ### Przypisy
 

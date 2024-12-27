@@ -36,12 +36,12 @@ psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani 
 przyczynowe. Według mnie nie jest nim nawet formalizacja wyrażonych w języku naturalnym teorii lub
 modeli psychologicznych w postaci modeli matematycznych rozmaitych zjawisk. Być może najważniejszym
 zastosowaniem matematyki we współczesnej psychologii jest w mojej ocenie *formalizacja rozumowań*,
-które psychologowie wyrażają, czasami bardziej, ale zwykle niestety mniej czytelnie w swoich
-publikacjach. A teoria typów wyposażona w [typy
-zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się czymś najbliższym, co
-obecnie mamy, do realizacji wizji[^2] [Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell),
-którą ten przedstawił w wykładzie zatytułowanym *Logika jako istota filozofii* w 1914 roku w
-Londynie, a który w wersji przetłumaczonej na język polski można znaleźć
+które psychologowie wyrażają często dosyć nieczytelnie i niejasno w swoich publikacjach. A teoria
+typów wyposażona w [typy zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się
+czymś najbliższym, co obecnie mamy, do realizacji wizji[^2]
+[Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą ten przedstawił w wykładzie
+zatytułowanym *Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji
+przetłumaczonej na język polski można znaleźć
 [tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
 Wreszcie akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się
 ostatnio dość gwałtownie, a w dodatku sprawdził się już znakomicie jako narzędzie
@@ -49,15 +49,15 @@ ostatnio dość gwałtownie, a w dodatku sprawdził się już znakomicie jako na
 ([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) na przykład można znaleźć
 zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
 
-**Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających nieco w przyszłość części rozdziału
-trzeciego**, mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów kodu ani
-żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na wynikach
-badań i moich doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto moim zdaniem
-podchodzić do nauki *jakichkolwiek* treści, ale również uwagi dotyczące *nastawienia*, które może
-znacząco zwiększyć szanse na sukces w zmaganiach z tymi - jak na książkę skierowaną do psychologów -
-dość nietypowymi tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić
-lepiej, niż umiem (to niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)),
-za to te, z którymi zapoznasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
+**Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających w przyszłość części rozdziału trzeciego**,
+mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów kodu ani żadnych zadań, to
+polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na wynikach badań i moich
+doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto podchodzić do nauki *jakichkolwiek*
+treści, ale również uwagi dotyczące *nastawienia*, które może znacząco zwiększyć szanse na sukces w
+zmaganiach z tymi - jak na książkę skierowaną do psychologów - dość nietypowymi tematami. Staram się
+je objaśnić najlepiej jak umiem, ale nie umiem tego robić lepiej, niż umiem (to niekoniecznie
+[tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)), za to te, z którymi zapoznasz się w
+[rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
 [dziesiątym](./rozdzialy/Implikacja_w_zadaniach.md) są nimi z pewnością).
 
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
@@ -73,16 +73,16 @@ konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
 tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma
-dotąd miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi są zwykle
-w jakimś stopniu czymś, co tworzy się w ramach społecznych interakcji i co nabiera dzięki takim
+dotąd miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi są do
+pewnego stopnia czymś, co tworzy się w ramach społecznych interakcji i co nabiera dzięki takim
 interakcjom (również nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat
 interakcji wielu bardzo sobie bliskich, bo mających wiele wspólnych cech, ale jednak *różnych* osób,
 bo *różnych wersji tej samej osoby*, z których każda istniała tylko przez chwilę i wniosła coś do
 końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a następnie
 to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad *zewnętrznymi*
-źródłami tego rodzaju informacji zwrotnych mam jednak bardzo ograniczoną kontrolę, a szkoda, bo
-przecież im więcej punktów widzenia bierze udział w tym procesie i im bardziej te punkty widzenia są
-różne, tym większa jest szansa na zbliżenie się do czegoś dobrego.
+źródłami takich informacji mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież im więcej
+punktów widzenia bierze udział w tym procesie i im bardziej te punkty widzenia są różne, tym większa
+jest szansa na zbliżenie się do czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tutaj w wersji
