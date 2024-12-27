@@ -136,9 +136,12 @@ zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 
 [R15 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R16 ∧](./rozdzialy/Koniunkcja.md)
+[R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
+wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
-[R17 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
+[R17 ∧](./rozdzialy/Koniunkcja.md)
+
+[R18 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
