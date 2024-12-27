@@ -67,7 +67,7 @@ jaki zacząłem ostatnio myśleć o tym [czym jest zachowanie](./rozdzialy/02_Ce
 książki jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
 *w ramach którego*, dzięki stałej autorefleksji i informacjom zwrotnym pochodzącym od jej
-czytelników, zachodzi proces *uczenia się*, choć nie da się powiedzieć jednoznacznie czego, jak
+czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego - jak
 również proces odkrywania czy raczej *ustalania się* być może jakiegoś *dominującego*, ale nadal z
 konieczności *nieunikalnego celu*.
 
