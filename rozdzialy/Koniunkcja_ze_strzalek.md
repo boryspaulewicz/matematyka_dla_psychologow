@@ -3,11 +3,11 @@
 Czytając ten rozdział pamiętaj proszę, że jeżeli to, o czym będę tu mówił wyda Ci się na razie zbyt
 skomplikowane, to nie masz się czym przejmować, bo to, w jaki dokładnie sposób *implementujemy*
 koniunkcję *nie ma znaczenia*; ważne jest tylko to, jak koniunkcja *działa*. To znaczy, ostatecznie
-liczy się tylko to, jak możemy *używać* koniunkcji w dowodach, a to, jak możemy jej używać w
-dowodach zrozumiałaś już jak sądzę całkiem dobrze czytając poprzedni rozdział.
+liczy się tylko to, jak możemy *używać* koniunkcji w dowodach, co już jak sądzę całkiem dobrze
+zrozumiałaś czytając poprzedni rozdział.
 
-Wywiązuję się tutaj z obietnicy, że wszystko w matematyce można zrobić ze strzałek (albo funkcji),
-jak również przybliżam pewien szczególny sposób myślenia o koniunkcji, który stanie się ważny w
+Wywiązuję się tutaj z obietnicy, że wszystko w matematyce można zrobić ze strzałek (albo funkcji) i
+jednocześnie przybliżam pewien szczególny sposób myślenia o koniunkcji, który stanie się ważny w
 rozdziale następnym.
 
 <hr>
