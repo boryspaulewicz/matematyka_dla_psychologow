@@ -2,11 +2,11 @@
 
 Wątki, które poruszam w tym rozdziale pojawiły się wcześniej w jednej z poprzednich wersji rozdziału
 o predykatach i dowodzie na istnienie Boga Anzelma z Canterbury. Uznałem jednak, że tego wszystkiego
-było za dużo jak na jeden rozdział, a poza tym to nie są tylko jakieś tam moje luźne dygresje, tylko
-próba wstępnego przygotowania Cię na to, o czym będę mówił później, gdy już zaczniemy formalizować
-artykuły empiryczne i teoretyczne dotyczące zachowania. Jak się niebawem przekonasz, napisałem to
-wszystko zanim postanowiłem zwracać się do czytelnika w formie żeńskiej (tam wiem), ale nie chcę
-tego zmieniać, bo mi żal, a poza tym ten akurat wątek łączy się tutaj z innymi.
+było za dużo jak na jeden rozdział, a poza tym to nie są tylko jakieś tam moje luźne dygresje, ale
+raczej próba wstępnego przygotowania Cię na to, o czym będę mówił później, gdy już zaczniemy
+formalizować artykuły empiryczne i teoretyczne dotyczące zachowania. Jak się niebawem przekonasz,
+napisałem to wszystko zanim postanowiłem zwracać się do czytelnika w formie żeńskiej (tam wiem), ale
+nie chcę tego zmieniać, bo mi żal, a poza tym ten akurat wątek łączy się tutaj z innymi.
 
 <hr>
 
