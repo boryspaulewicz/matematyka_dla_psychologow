@@ -143,8 +143,10 @@ dowod_koniunkcji_ab : ∀ r : Prop, (a → b → r) → r
 
 Zwracam uwagę, że nie po raz pierwszy spotykamy się tutaj z typem zapisanym w postaci aplikacji
 (tutaj `and a b`). Typami (zdaniowymi) są przecież również wszelkie aplikacje predykatów (do termów
-odpowiedniego typu). W tym wypadku jednak po raz pierwszy mamy do czynienia z typem zapisanym jako
-aplikacja, *którą można zredukować* (albo ewaluować), co też wyżej zrobiliśmy. Kontynuując:
+odpowiedniego typu). Również nie po raz pierwszy mamy do czynienia z typem zapisanym jako aplikacja,
+*którą można zredukować* (albo ewaluować), bo przecież w podobny sposób używaliśmy pełniącej rolę
+cukierniczą (albo "lukracyjną") funkcji `Predykat`, aplikując ją do odpowiednich termów i dzięki
+temu uzyskując odpowiednie typy (a konkretnie predykaty) jako rezultaty tych aplikacji. Kontynuując:
 
 ```lean
 -- Wobec tego to ...
