@@ -495,7 +495,7 @@ Albo: Dowód *A → B* to dowolny sposób uzyskania dowodu *B* z dowolnego dowod
 
 Czy widzisz, że to jest ciągle ta sama reguła dedukcji, ale wydaje się zmieniać, bo zmieniamy
 sposób, w jaki *my* o niej mówimy, to jest w jaki interpretujemy pojęcie prawdy (albo akceptacji
-szdania w dowodzie)?
+zdania w dowodzie)?
 
 Jeszcze raz: Dowód *A → B* to dowolny sposób uzyskania dowodu *B* z dowolnego dowodu *A*.
 
@@ -517,8 +517,8 @@ zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda?
 O ile tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię do
 interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się dla Ciebie irytujące,
 ponieważ to wszystko będzie prawie natychmiast oczywiste. Będziesz wtedy nawet wolała się nad tym za
-bardzo nie zastanawiać, podobnie jak ktoś, kto nauczył się w miarę płynnie grać pewien utwór na
-fortepianie woli nie myśleć o nazwach kolejno granych akordów czy nut.
+bardzo nie zastanawiać, podobnie jak ktoś, kto nauczył się w miarę płynnie grać utwór na pianinie
+woli nie myśleć o nazwach kolejno granych akordów czy nut.
 
 Jeszcze jedna uwaga na temat często stosowanych, ale rzadko objaśnianych konwencji: Gdy matematycy
 nagle zmieniają notację i wydaje się, że bez wyraźnego powodu na to samo zamiast małych liter
@@ -563,5 +563,5 @@ pisałem.
 [^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
     [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
     Zaporożec wykonywali utwory z płyty [П'ятниця](https://www.youtube.com/watch?v=nnWMrmTWonI),
-    której wtedy lubiłem czasem posłuchać. W pewnym momencie któryś z wykonawców wziął butelką i
-    wtedy usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
+    której wtedy lubiłem czasem posłuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką
+    i wtedy usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
