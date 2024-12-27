@@ -3,14 +3,15 @@
 Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji podanych w rozdziałach
 wcześniejszych. Jeżeli to jest na razie zbyt trudne, to oparte na innych punktach widzenia,
 szczegółowe wyjaśnienia znajdziesz również w następnych dwóch rozdziałach. Wydaje mi się jednak, że
-będzie lepiej, jeżeli Twój pierwszy kontakt z koniunkcją będzie oparty na tej implementacji tego
-pojęcia, którą omawiam właśnie tutaj, ponieważ ten punkt widzenia nie tylko pozwala dosyć szybko
-przejść do praktyki, ale jest też, jak sądzę, dość intuicyjny. Przekonasz się szybko, że używanie
+będzie lepiej, jeżeli Twój pierwszy kontakt z koniunkcją będzie oparty na omawianej tu
+implementacji, ponieważ odpowiadający jej punkt widzenia nie tylko pozwala szybko przejść do
+praktyki, ale jest też dzięki swojej "konkretności" dość intuicyjny. Jeżeli tylko ucząc się treści
+zawartych w tym rozdziale przyjmiesz postawę aktywną, przekonasz się niebawem, że używanie
 koniunkcji w dowodach nie będzie Ci sprawiać szczególnych trudności.
 
 W następnym rozdziale spełnię (po raz kolejny) obietnicę złożoną w jednym z rozdziałów
-wprowadzających, zgodnie z którą wszystko w matematyce będziemy w pewnym sensie konstruować ze
-*strzałek*, a dokładnie z *funkcji*.
+wprowadzających, zgodnie z którą wszystko w matematyce będziemy konstruować ze *strzałek*, a
+dokładnie z *funkcji*.
 
 # ∧ 1
 
@@ -25,11 +26,11 @@ variable (p q : Prop)
 Podobnie jak implikacja i negacja, koniunkcja jest *zdaniem złożonym*, bo powstaje przez
 zastosowanie *spójnika logicznego*, w tym wypadku spójnika `∧`, który uzyskasz wpisując `\and`.
 
-Dowodem zdania `p ∧ q` jest *uporządkowana para* dowodów złożona z dowodu zdania `p` i dowodu zdania
-`q`, w tej kolejności. A mówiąc krócej, dowód `p ∧ q` to tak naprawdę dwa dowody, dowód `p` i dowód
-`q`. Ze względu na to, jak koniunkcja jest zaimplementowana w Leanie, dowód zdania `p ∧ q` można
-stworzyć *tylko w jeden sposób* - jawnie lub niejawnie (o czym później) aplikując funkcję
-`And.intro` do dowodu `p` i dowodu `q`:
+W Leanie dowodem zdania `p ∧ q` jest *uporządkowana para* dowodów złożona z dowodu zdania `p` i
+dowodu zdania `q`, w tej kolejności. A mówiąc krócej, dowód `p ∧ q` to tak naprawdę dwa dowody,
+dowód `p` i dowód `q`. Ze względu na to, jak koniunkcja jest zaimplementowana w Leanie, dowód zdania
+`p ∧ q` można stworzyć *tylko w jeden sposób* - jawnie lub niejawnie (o czym później) aplikując
+funkcję `And.intro` do dowodu `p` i dowodu `q`:
 
 ```lean
 -- Jeżeli mamy jakieś dowody zdań p i q ...
@@ -44,10 +45,10 @@ jeszcze nie mówiłem, to jest `⟨` i `⟩`. Wyrażenie `⟨hp, hq⟩` to tylko
 parę uporządkowaną, w tym wypadku parę uporządkowaną składającą się z dowodu `hq` zdania `q` i
 dowodu `hp` zdania `p`. Żeby uzyskać symbol `⟨` wpisz `\<`, a żeby uzyskać symbol `⟩` wpisz `\>`.
 
-Muszę teraz wyjaśnić, jak w teorii typów zapisujemy i w jaki sposób używamy tego rodzaju
-struktur. Pojęcie pary uporządkowanej jeszcze nam się przyda, ponieważ odgrywa bardzo ważną rolę w
-różnych matematycznych teoriach. Zresztą wspominałem o nim już wcześniej mówiąc o układzie
-kartezjańskim.
+Muszę teraz wyjaśnić, w jaki sposób w Leanie używamy tego rodzaju struktur. Pojęcie pary
+uporządkowanej jeszcze nam się przyda, ponieważ odgrywa bardzo ważną rolę w różnych matematycznych
+teoriach. Być może zresztą przypominasz sobie, że wspominałem o nim już wcześniej gdy mówiłem o
+układzie kartezjańskim.
 
 ## Typ par uporządkowanych
 
@@ -71,7 +72,7 @@ def para1jeden : Nat × String := ⟨1, "jeden"⟩
 #check para1jeden -- para1jeden : Nat × String
 ```
 
-Skoro wiesz już, jak możesz zapisywać takie typy i tworzyć termy takich typów, to teraz pokażę Ci, w
+Skoro już wiesz, jak możesz zapisywać takie typy i tworzyć termy takich typów, to teraz pokażę Ci, w
 jaki sposób możesz wydobywać z par ich elementy.
 
 ```lean
@@ -99,12 +100,12 @@ dowodów. Ponieważ istnieje *tylko jeden* sposób skonstruowania dowodu koniunk
 będącego taką a nie inną parą uporządkowaną), gdy parametr ma typ taka-a-taka-para-uporządkowana,
 możemy *przechwycić w miejscu parametru* pierwszy i drugi element korzystając z [*dopasowania do
 wzorca*](https://pl.wikipedia.org/wiki/Dopasowanie_do_wzorca). Wybrałem tutaj krótszą nazwę dla
-definiowanej funkcji, bo wbrew pozorom jestem dość rozsądny.
+definiowanej funkcji, ponieważ wbrew pozorom jestem dość rozsądny.
 
 ```lean
 def dodaje_elementy_pary : Nat × Nat → Nat :=
     -- Ponieważ Lean może wywnioskować typ parametru z pozostałych informacji, dla uproszczenia nie stosuję tu 
-    -- jawnego typowania w miejscu parametru i Tobie też to odradzam, za dużo zbędnego pisania.
+    -- jawnego typowania w miejscu parametru i również Tobie to odradzam, za dużo zbędnego pisania.
     -- Ponieważ istnieje tylko jeden sposób skonstruowania termu typu Nat × Nat, argument można 
     -- "zdekonstruować w parametrze". Polega to na tym, że zmienne pierwszy i drugi "przechwytują" elementy 
     -- uporządkowanej pary, bez konieczności wybodywania ich za pomocą funkcji fst i snd. Trzeba tylko
@@ -114,19 +115,17 @@ def dodaje_elementy_pary : Nat × Nat → Nat :=
 #eval dodaje_elementy_pary para12 -- 3
 ```
 
-I to tyle, nie potrzebujesz na razie wiedzieć nic więcej na temat par uporządkowanych. Być może w
-przyszłości nadarzy się okazja, żeby zapoznać się z parami *zależnymi*, to jest takimi, że *typ*
-drugiego elementu *zależy* od pierwszego *elementu*, ale na razie nie ma takiej potrzeby.
+I to tyle, na razie to wszystko, co musisz wiedzieć o parach uporządkowanych. Być może w przyszłości
+nadarzy się okazja, żeby zapoznać się z parami *zależnymi*, to jest takimi, że *typ* drugiego
+elementu *zależy* od pierwszego *elementu*, ale na razie nie ma takiej potrzeby.
 
 Ponieważ koniunkcja w Leanie jest zaimplementowana po prostu jako uporządkowana para, a dokładniej
 dowód koniunkcji to uporządkowana para dowodów zdań będących członami tej koniunkcji, to wiesz już
-wszystko, co potrzebujesz wiedzieć, żeby dowodzić twierdzeń, w których pojawiają się koniunkcje (za
-wyjątkiem tego, że funkcje wydobywające elementy pary w przypadku dowodów koniunkcji nazywają się
-inaczej).
+wszystko, co potrzebujesz wiedzieć, żeby dowodzić twierdzeń, w których pojawiają się koniunkcje.
 
 ## Koniunkcja w praktyce dowodzenia
 
-Najpierw pokażę Ci przykłady dowodów prostych twierdzeń, w których występują koniunkcje, a potem
+Najpierw pokażę Ci przykłady dowodów prostych twierdzeń w których występują koniunkcje, a potem
 spróbuję Ci wyjaśnić, krok po kroku, jak takie dowody powstają. Sugeruję, żebyś najpierw spróbowała
 zauważyć poniżej pewne wzorce czy regularności, nie przejmując się za bardzo tym, czy lub w jakim
 stopniu je rozumiesz. Chodzi jedynie o wstępne oswojenie się z ogólną strukturą tego rodzaju dowodów
@@ -164,13 +163,13 @@ theorem t2snd'' (p q : Prop) : p ∧ q → q :=
     fun (⟨hp, hq⟩) => hq
 ```
 
-Można powiedzieć, że ten kod wyraża (w pewien sposób, ale nie jedyny możliwy sposób) *sens*
+Można powiedzieć, że ten kod wyraża (w pewien sposób, ale to nie jest jedyny możliwy sposób) *sens*
 koniunkcji w logice konstruktywnej. Za tym kodem (na całe szczęście) nie kryje się żadna głębsza
 prawda; jeżeli widzisz występujące tu regularności i dostrzegasz, jaką rolę odgrywają widoczne tutaj
 trzy, stosunkowo proste operacje na uporządkowanych parach (tutaj akurat dowodów), to już w zasadzie
 wiesz, czym w logice konstruktywnej jest koniunkcja.
 
-Teraz omówię szczegółowo niektóre z tych dowodów. Zaczniemy od tego:
+Teraz omówię niektóre z tych dowodów. Zaczniemy od tego:
 
 ```lean
 theorem t1 (p q : Prop) : p → q → p ∧ q :=
@@ -198,9 +197,9 @@ skonstruować dowód zdania `(q → p ∧ q)`, ponieważ dysponując już dowode
 **Polecenie**: Starając się możliwie rzadko zaglądać do tego rozdziału, a może nawet w ogóle do
 niego nie zaglądając, udowodnij twierdzenie `t1` w trybie interaktywnym i pisząc kod wprost. Zrób to
 raz stosując funkcję `And.intro`, a raz zapisując wprost parę uporządkowną dowodów za pomocą symboli
-`⟨`, `⟩`. Pamiętaj, że między elementami pary zapisanej w ten sposób musi być przecinek. Jeżeli na
-początku to będzie trudne, nie bój się eksperymentować i korzystaj z informacji widocznych w trybie
-interaktywnym!
+`⟨` i `⟩`. Pamiętaj, że między elementami pary zapisanej w ten sposób musi być przecinek. Jeżeli na
+początku to będzie się wydawać trudne, nie bój się eksperymentować i korzystaj z informacji
+widocznych w trybie interaktywnym.
 
 ```lean
 theorem t1 (p q : Prop) : p → (q → p ∧ q) :=
@@ -215,11 +214,11 @@ theorem t2 (p q : Prop) : p ∧ q → p :=
 ```
 
 Treścią tego twierdzenia jest zdanie o postaci implikacji, której poprzednikiem jest koniunkcja. Jak
-wiesz, żeby udowodnić implikację trzeba stworzyć funkcję, która dowolny dowód jej poprzednika
-przekształca w jakiś sposób w dowód jej następnika. Wobec tego w tym wypadku trzeba zrobić coś z
-dowodem zdania `p ∧ q`, a ponieważ taki dowód to "tak naprawdę" nic innego jak para uporządkowana
-dowodów zdań `p` i `q`, z której to pary należy w jakiś sposób zrobić dowód zdania `p`, to nie
-pozostaje nic innego, jak wydobyć pierwszy element tej pary. 
+wiesz, żeby udowodnić implikację trzeba stworzyć funkcję, która dowolny dowód poprzednika
+przekształca w jakiś sposób w dowód następnika. Wobec tego w tym wypadku trzeba zrobić coś z dowodem
+zdania `p ∧ q`, a ponieważ taki dowód to "tak naprawdę" nic innego jak para uporządkowana dowodów
+zdań `p` i `q`, z której to pary należy w jakiś sposób zrobić dowód zdania `p`, to nie pozostaje nic
+innego, jak wydobyć pierwszy element tej pary.
 
 Można to zrobić na dwa sposoby. Pierwszy to dopisanie do termu oznaczającego dowód koniunkcji kropki
 i stałej `left`, bez spacji, a drugi to zastosowanie do tego dowodu funkcji `And.left`. Te dwa
@@ -228,13 +227,15 @@ sposoby różnią się tylko zapisem. Jeżeli zastanawiasz się, czemu nie możn
 odpowiedzieć, poza tym, że tak to akurat w Leanie działa.
 
 **Polecenie**: Starając się jak najrzadziej zaglądać do tego rozdziału, udowodnij obydwa twierdzenia
-w trybie interaktywnym i pisząc kod wprost. Jeżeli tylko masz ochotę zrobić to stosując oba sposoby
-użycia funkcji `left` (a później `right`), to się nie krępuj. Dowód drugiego twierdzenia różni się
-tylko tym, że trzeba wydobyć drugi element pary, a nie pierwszy, a więc należy zastosować funkcję
-`right` (lub `And.right`).
+w trybie interaktywnym i pisząc kod wprost. Jeżeli tylko masz ochotę zrobić to stosując obydwa
+sposoby użycia funkcji `left` (a później `right`), to się nie krępuj. Dowód drugiego twierdzenia
+różni się tylko tym, że trzeba wydobyć drugi element pary, a nie pierwszy, a więc należy zastosować
+(dopisując ją po kropce) funkcję `right` (lub `And.right`).
 
 ```lean
 theorem t2 (p q : Prop) : p ∧ q → p :=
+
+theorem t2' (p q : Prop) : p ∧ q → q :=
 ```
 
 Teraz już wiesz, jak możesz używać koniunkcji w dowodach. Żeby utrwalić te umiejętności i zacząć
@@ -245,7 +246,7 @@ rozpoczętych poniżej dowodów i w taki sposób, w jaki tylko masz ochotę.
 -- Tutaj przyda się funkcja absurd.
 theorem t3 (p q : Prop) : p ∧ ¬ p → q :=
 
--- Fakt, że pojawiają się tutaj predykaty, nie odgrywa prawie żadnej roli w tym dowodzie, poza tym,
+-- Fakt, że pojawiają się tu predykaty, nie odgrywa prawie żadnej roli w tym dowodzie, poza tym,
 -- że trzeba jakoś obsłużyć (później nieużywaną, a więc wyświetli się na szero) zmienną n.
 theorem t4 (P Q : Nat → Prop) : ∀ n : Nat, P n → Q n → P n ∧ Q n :=
 
