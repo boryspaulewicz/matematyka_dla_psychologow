@@ -26,12 +26,12 @@ TODO
 
 Jak powinna wyglądać taka definicja? Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to
 *sensem* zdania `p ∧ q` są wszystkie konsekwencje wynikające z *łącznej* prawdziwości zdań `p` i
-`q`. Albo inaczej, jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to każde zdanie
+`q`. Albo inaczej, jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to *każde* zdanie
 `r`, które wynika z *łącznej* prawdziwości zdania `p` *i* prawdziwości zdania `q` też jest zdaniem
-prawdziwym i odwrotnie, jeżeli każde zdanie `r`, które wynika stąd, że `p` jest zdaniem prawdziwym
+prawdziwym i odwrotnie, jeżeli *każde* zdanie `r`, które wynika stąd, że `p` jest zdaniem prawdziwym
 *i jednocześnie* `q` jest zdaniem prawdziwym jest również zdaniem prawdziwym, to `p ∧ q` jest
-zdaniem prawdziwym. Zapiszemy to korzystając ze znanego Ci już symbolu oznaczającego duży
-kwantyfikator.
+zdaniem prawdziwym. Zakodujemy tą nieformalną definicję korzystając ze znanego Ci już symbolu
+oznaczającego duży kwantyfikator.
 
 ```lean
 -- Każda koniunkcja (and p q, gdzie p : Prop i q : Prop) jest zdaniem (: Prop), którego dla każdego 
