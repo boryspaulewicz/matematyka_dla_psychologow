@@ -204,4 +204,4 @@ Jak łatwo sprawdzić, funkcja `intro` z dowodów `hp` i `hq` zdań `p` i `q` od
 Widzimy więc, że da się to wszystko "zrobić ze strzałek", ale jak dotąd nie jest jasne, czy warto
 się przy tym upierać. W następnym rozdziale przekonamy się jednak, że taki "czysto-strzałkowy" punkt
 widzenia ma pewne szczególne zalety, ponieważ pozwala mówić językami nie tylko ludzi, ale i
-... aniołów.
+... *aniołów*.
