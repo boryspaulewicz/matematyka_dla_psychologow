@@ -62,11 +62,11 @@ czy preferencje, które pod względem sztywności przypominają na przykład pre
 smakowe. Pozostaje więc tylko *perswazja*, czyli taka albo inna forma użycia *siły*.
 
 Muszę więc dokonać wyboru, a ponieważ bardzo cenię sobie wolność - w granicach częściowo
-wyznaczonych przez to, jak rozumiem normę niekrzywdzenia - w tym również wolność ekspresji,
-postanowiłem w tym rozdziale stosować konwencję, która może być irytująca zarówno dla osób
-"nieprzebudzonych" jak i ["przebudzonych"](https://pl.wikipedia.org/wiki/Woke). Będę się mianowicie
-posługiwał formą "mogłobyś" i innymi podobnymi, bo takie cudownie dla mnie żenująco brzmiące
-rozwiązanie dostarcza język polski, jeśli się go potraktuje trochę przemocowo.
+wyznaczonych przez to, jak rozumiem, w właściwie *czuję* normę niekrzywdzenia - w tym również
+wolność ekspresji, postanowiłem w tym rozdziale stosować konwencję, która może być irytująca zarówno
+dla osób "nieprzebudzonych" jak i ["przebudzonych"](https://pl.wikipedia.org/wiki/Woke). Będę się
+mianowicie posługiwał formą "mogłobyś" i innymi podobnymi, bo takie cudownie dla mnie żenująco
+brzmiące rozwiązanie dostarcza język polski, jeśli się go potraktuje trochę przemocowo.
 
 To będzie mój sposób wyrażenia sprzeciwu wobec odczuwanej presji, jeśli już nie *o*presji, a
 właściwie przemocy (żartuję), z którą nie mogę zrobić nic innego, jak albo się jej poddać, albo się
