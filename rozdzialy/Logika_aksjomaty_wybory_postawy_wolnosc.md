@@ -58,10 +58,10 @@ pomocą racjonalnych argumentów, nawet zakładając całkowitą otwartość na 
 racjonalność po obydwu stronach, cokolwiek by to miało znaczyć. Wydaje mi się, że to by było trochę
 tak, jakby jedna osoba próbowała przekonać drugą, że dynia jest pyszna, kiedy tej drugiej dynia nie
 smakuje (ja akurat nie lubię). Fakty zdają się tu nie mieć nic do rzeczy, bo chodzi o jakieś postawy
-czy preferencje, które pod względem sztywności przypominające preferencje smakowe. Pozostaje więc
-tylko *perswazja*, a więc jakaś forma użycia *siły* zamiast rzeczowych argumentów.
+czy preferencje, które pod względem sztywności przypominają na przykład preferencje
+smakowe. Pozostaje więc tylko *perswazja*, czyli taka albo inna forma użycia *siły*.
 
-Muszę więc dokonać wyboru, a ponieważ bardzo cenię sobie swoją wolność - w granicach częściowo
+Muszę więc dokonać wyboru, a ponieważ bardzo cenię sobie wolność - w granicach częściowo
 wyznaczonych przez to, jak rozumiem normę niekrzywdzenia - w tym również wolność ekspresji,
 postanowiłem w tym rozdziale stosować konwencję, która może być irytująca zarówno dla osób
 "nieprzebudzonych" jak i ["przebudzonych"](https://pl.wikipedia.org/wiki/Woke). Będę się mianowicie
@@ -71,17 +71,17 @@ rozwiązanie dostarcza język polski, jeśli się go potraktuje trochę przemoco
 To będzie mój sposób wyrażenia sprzeciwu wobec odczuwanej presji, jeśli już nie *o*presji, a
 właściwie przemocy (żartuję), z którą nie mogę zrobić nic innego, jak albo się jej poddać, albo się
 jej w jakiś sposób przeciwstawić. Nie mogę pozostać wobec tej presji obojętny, chciaż chciałbym - bo
-uważam, że to drobiazg - ponieważ jeżeli mam pisać dalej, muszę teraz wybrać między mogłabyś,
-mógłbyś, mógłbyś/abyś, mogłabyś/mógłbyś, albo czymś innym.
+uważam, że to drobiazg - bo żeby pisać dalej muszę teraz wybrać między mogłabyś, mógłbyś,
+mógłbyś/abyś, mogłabyś/mógłbyś, albo czymś innym.
 
 ## Fakty empiryczne są trochę jak aksjomaty
 
 No więc może wpadłbym na taką geometryczną interpretację rachunku logicznego. Gdybym ją
 zakomunikował Tobie, z Twojej perspektywy byłby to *aksjomat*, ponieważ nie mogłobyś (ach,
 wspaniałe!) wtedy zrobić z tym nic innego jak *przyjąć albo nie przyjąć do wiadomości*, że ta
-właśnie interpretacja wydaje *mi* się spójna i sensowna. Z Twojej perspektywy byłby to zatem
-*potencjalny empiryczny fakt*, którego *nie mogłobyś sprawdzić*. Z powodu odległości fizycznej,
-odległości w czasie, albo z powodu subiektywnego charakteru danych, zwykle jest więc tak, że:
+właśnie interpretacja wydaje *mi* się spójna i sensowna. Z *Twojej* perspektywy byłby to zatem
+*potencjalny* fakt, którego *nie mogłobyś sprawdzić*. Z powodu odległości fizycznej, odległości w
+czasie, albo z powodu subiektywnego charakteru danych, zwykle jest więc tak, że:
 
 *Mój fakt to jakby Twój aksjomat, a Twój fakt to jakby mój aksjomat*.
 
@@ -119,7 +119,7 @@ też jest z Twojej perspektywy aksjomatem i musi nim pozostać.
 ## Na czym według mnie polega bycie naukowcem
 
 Zauważyłoś już na pewno, że zdarza mi się w tej książce udawać trochę głupszego, niż faktycznie
-jestem. Nawet jednak gdy nie udaję głupszego, niż jestem, nie oczekuję, że będziesz wierzyło w to,
+jestem. Nawet jednak gdy nie udaję głupszego, niż jestem, *nie* oczekuję, że będziesz wierzyło w to,
 co mówię. Wręcz przeciwnie, byłoby moim zdaniem wspaniale, gdybyś przyjęło wobec tego, co mówię,
 postawę sceptyczną. A to dlatego, że *próbuję dobrze odgrywać rolę naukowca* i tego oczekuję też od
 *Ciebie*. Jestem głupi, ponieważ jestem człowiekiem, a więc odgrywanie dobrze roli naukowca to
