@@ -30,7 +30,7 @@ wprowadzenia jest mam nadzieję oczywista.
 Jeżeli *A* i *B* to zdania, to:
 
 <ins><em>A, B</em><ins>  
-*A ∧ B*
+*A* *∧* *B*
 
 Odczytujemy tą regułę tak: Jeżeli w trakcie wyprowadzania dowodu akceptujemy zdanie *A* i zdanie *B*
 (dla nas to znaczy: jeżeli mamy dowody tych dwóch zdań), to akceptujemy zdanie *A ∧ B* (to możemy
