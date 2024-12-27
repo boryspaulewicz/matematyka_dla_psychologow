@@ -230,7 +230,7 @@ odpowiedzieć, poza tym, że tak to akurat w Leanie działa.
 w trybie interaktywnym i pisząc kod wprost. Jeżeli tylko masz ochotę zrobić to stosując obydwa
 sposoby użycia funkcji `left` (a później `right`), to się nie krępuj. Dowód drugiego twierdzenia
 różni się tylko tym, że trzeba wydobyć drugi element pary, a nie pierwszy, a więc należy zastosować
-(dopisując ją po kropce) funkcję `right` (lub `And.right`).
+funkcję `And.right`, być może dopisując tylko słowo `right` po kropce.
 
 ```lean
 theorem t2 (p q : Prop) : p ∧ q → p :=
