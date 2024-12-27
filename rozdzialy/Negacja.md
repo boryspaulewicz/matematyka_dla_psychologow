@@ -1,6 +1,6 @@
 ## O czym teraz będzie
 
-No tutaj to chyba akurat *ja* bawię się najlepiej. Może i Tobie się udzieli. A rozdział dotyczy
+No tutaj to chyba akurat ja bawię się najlepiej. Może i Tobie się udzieli. A rozdział dotyczy
 negacji i sprzeczności w logice konstruktywnej.
 
 <hr>
@@ -17,16 +17,17 @@ Podaję za
 > tym jego negację); zjawisko to nazywa się eksplozją dedukcyjną.
 
 Na początek przyjmiemy taką oto definicję *absurdu*. Zwracam uwagę, że ponieważ `Prop` to typ
-wyższego rzędu, poniższa definicja jest definicją *typu* (i zarazem zdania):
+wyższego rzędu, to jest definicja *typu* (i zarazem zdania):
 
 ```lean
 def Absurd : Prop := (a : Prop) → a
 ```
-Za pomocą instrukcji `section` wejdziemy teraz do strefy bezpiecznych eksperymentów logicznych i w
-tej strefie za pomocą instrukcji `variable` zadeklarujemy, że mamy dowód absurdu, czyli term typu
-`Absurd`. Ponieważ *termy typu* `Absurd` są funkcjami, możemy je aplikować. Użyjemy więc tego termu
-/ dowodu / funkcji do zdania `Ponury Krystian`. W ten sposób *lokalnie*, bo tylko wewnątrz
-utworzonej sekcji, udowodnimy to zdanie:
+
+Za pomocą instrukcji `section` wejdziemy do strefy bezpiecznych eksperymentów logicznych i tam za
+pomocą instrukcji `variable` zadeklarujemy, że mamy dowód absurdu, czyli term typu
+`Absurd`. Ponieważ *termy typu* `Absurd` są funkcjami, możemy je aplikować. Użyjemy tego termu /
+dowodu / funkcji do zdania `Ponury Krystian` i w ten sposób *lokalnie*, bo tylko wewnątrz utworzonej
+sekcji, udowodnimy to zdanie:
 
 
 ```lean
@@ -52,8 +53,8 @@ end strefa_komfortu
 #check jadro_ciemnosci
 ```
 
-Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora na pierwszym
-wystąpieniu komendy `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że żniwiarz
+Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora nad pierwszym
+wystąpieniem komendy `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że żniwiarz
 Krystian jest ponury. Być może jest już dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód
 dowolnego innego zdania.
 
@@ -62,7 +63,7 @@ Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekś
 bo skorzystaliśmy z hipotetycznego dowodu absurdu, którego nie zadeklarowaliśmy poza lokalnym
 kontekstem. Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
-*Ex falso quodlibet.*
+[*Ex falso quodlibet*](https://xkcd.com/704/).
 
 *Z Fałszu wynika wszystko.*
 
@@ -89,7 +90,8 @@ wszystkie typy funkcyjne (nie funkcje) o postaci `A → B → ... → Q`, gdzie 
 mają typ `Prop`*:
 
 ```lean
-variable (p : Prop) -- deklarujemy, że mamy zdanie p, żeby Lean "wiedział", o czym będziemy "mówić"
+-- Deklarujemy, że mamy zdanie p, żeby Lean "wiedział", o czym będziemy "mówić"
+variable (p : Prop)
 
 #check Type → p -- Type → p : Prop
 #check Type → Type 1 → p -- Type → Type 1 → p : Prop
@@ -100,10 +102,10 @@ variable (p : Prop) -- deklarujemy, że mamy zdanie p, żeby Lean "wiedział", o
 -- i tak dalej
 ```
 
-Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował, wystarczy nam, że ta
-konwencja działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem*, a
-nie funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, czyli jest *typem
-/ zdaniem parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
+Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta ona
+działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem* a nie
+funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, czyli jest *typem /
+zdaniem parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
 
 Wyobraźmy sobie, że mamy `d : Absurd` (term typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy
 aplikacja `d p` będzie poprawna. Żeby zobaczyć, jak ta aplikacja działa, musimy tylko prześledzić
@@ -112,22 +114,22 @@ kolejne kroki jej ewaluacji (ilustracja):
 ```lean
 -- Wersja z nierozpakowaną definicją typu Absurd ...
 d : Absurd
--- ... oznacza to samo, co ...
+-- ... oznacza to samo, co wersja z rozpakowaną definicją ...
 d : (a : Prop) → a
--- ... a ponieważ aplikacja takiej funkcji o typie zależnym wymaga jednocześnie oderwania części (a : Prop) i
--- podstawienia argumentu za parametr a w specyfikacji typu, to aplikacja d p ma typ p, czyli jest dowodem
+-- ... a ponieważ aplikacja takiej funkcji o typie zależnym wymaga jednocześnie oderwania części (a : Prop)
+-- i podstawienia argumentu za parametr a w specyfikacji typu, to aplikacja d p ma typ p, czyli jest dowodem
 -- zdania p:
 d p : p
 ```
 
-Czyli `d` jest tutaj jednocześnie dowodem zdania *Absurd* i pewną funkcją (bo ma w swoim typie
-strzałkę), która *z dowolnego zdania robi term tego typu, czyli dowód tego zdania*.
+Czyli `d` jest tutaj jednocześnie dowodem zdania `Absurd` i pewną funkcją (bo ma w swoim typie
+strzałkę), która z dowolnego zdania robi term tego typu, czyli dowód tego zdania.
 
 Na wszelki wypadek podkreślam, że przyjęta przez nas definicja absurdu to nie żadna prawda objawiona
-na temat "istoty absurdu"; to jest tylko *wybór terminologiczny i pojęciowy*, który możemy wyrazić
-poprawnie w języku teorii typów. To jest więc coś, o czym wiemy, że (w jakiś sposób) działa i na co
-musimy się wspólnie *umówić*, żeby nasza dalsza komunikacja miała sens, ale z czym żadne z nas nie
-musi się wcale *zgadzać*.
+na temat "istoty absurdu"; to tylko pewien *wybór terminologiczny* albo *pojęciowy*, który możemy
+wyrazić poprawnie w języku teorii typów. Jest to więc coś, o czym wiemy, że (w jakiś sposób) działa
+i na co musimy się wspólnie *umówić*, żeby nasza dalsza komunikacja miała sens, ale z czym żadne z
+nas nie musi się wcale *zgadzać*.
 
 Zwracam też uwagę, że `Absurd` *nie* ma struktury predykatu, po prostu dlatego, że nie jest funkcją,
 a każdy predykat jest funkcją (do typu `Prop`). `Ponury` jest predykatem, a konkretnie funkcją z
@@ -135,14 +137,14 @@ typu `Zniwiarz` do typu `Prop`. `Absurd` jest *typem funkcji*. Predykat `Ponury`
 (do termów typu `Zniwiarz`), a `Absurd`u nie możemy aplikować, możemy aplikować tylko termy typu
 `Absurd`:
 
-Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*. Aplikacja
+Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*.<br>Aplikacja
 *dowodu absurdu* - a nie *samego absurdu* - do *zdania* jest *dowodem tego zdania*.
 
 ## Negacja w logice konstruktywnej
 
 Negacja jest operatorem jednoargumentowym, który z dowolnego zdania `p` tworzy negację tego zdania,
-`¬p`, która też jest, oczywiście, zdaniem. Dzięki izomorfizmowi Curry'ego-Howarda możemy to zdanie /
-ten typ konsekwentnie interpretować jako *nieprawda, że `p`*.
+`¬p`, która też jest, oczywiście, zdaniem. Dzięki izomorfizmowi Curry'ego-Howarda możemy ten ten typ
+konsekwentnie interpretować jako zdanie o treści *nieprawda, że `p`*.
 
 Każde zdanie postaci `¬p` jest *potencjalnym* [*granatem
 odłamkowym*](https://pl.wikipedia.org/wiki/Granat_od%C5%82amkowy), a `¬` jest jego *dźwignią*.
@@ -150,17 +152,18 @@ odłamkowym*](https://pl.wikipedia.org/wiki/Granat_od%C5%82amkowy), a `¬` jest 
 Każdy *term typu `¬p`* (dowód typu / zdania `¬p`) jest *realnym* granatem odłamkowym. 
 
 W przypadku wystąpienia *aplikacji termu typu `¬p` do termu typu `p`*, granat `¬p` zostaje
-*uruchomiony* przez *mechanizm sprzeczności*: każda taka aplikacja jest *dowodem fałszu* albo
-*dowodem absurdu*. 
+*uruchomiony* przez *mechanizm sprzeczności*, ponieważ każda taka aplikacja jest *dowodem fałszu*
+albo *dowodem absurdu*.
 
-Aplikując tą aplikację (sic!) do *dowolnego* zdania `q` wywołujemy *wybuch* granatu i jako *odłamek*
-tego wybuchu uzyskujemy *term typu `q`* czyli *dowód zdania `q`*[^1].
+Aplikując tą aplikację (sic!) do *dowolnego* zdania `q` jako takiego wywołujemy *wybuch* granatu i
+jako *odłamek* tego wybuchu uzyskujemy *term typu `q`* czyli *dowód zdania `q`*[^1].
 
 **Definicja negacji w logice konstruktywnej**: Negacja zdania `p` to funkcja / implikacja, która
 jest zdaniem / typem, dającym się konsekwentnie interpretować jako zdanie *Z `p` wynika absurd /
 fałsz*, albo *Gdyby `p` było zdaniem prawdziwym, nastąpiłaby apokalipsa*:
 
 ```lean
+-- Definicja negacji:
 def nie (p : Prop) : Prop := p → Absurd
 
 -- Deklarujemy, że p jest jakimś zdaniem.
@@ -168,18 +171,18 @@ variable (p : Prop)
 
 #check nie p -- nie p : Prop, a więc nie p jest zdaniem
 
--- Gdybyśmy mieli dowody zdań p i nie p ...
+-- Mając dowody zdań p i nie p ...
 variable (hp : p) (np : nie p)
-
--- ... to dla dowolnego innego zdania q ...
-variable (q : Prop)
-
--- ... moglibyśmy zrobić tak ...
-#check np hp q -- 
 
 -- ... ponieważ ze sprzeczności wynika absurd / fałsz ...
 #check np hp -- np hp : Absurd
--- ... a (zgodnie z definicją) z absurdu / fałszu wynika wszystko.
+-- ... a (zgodnie z definicją) z absurdu / fałszu wynika wszystko ...
+
+-- ... dla dowolnego innego zdania q ...
+variable (q : Prop)
+
+-- ... możemy udowodnić q ...
+#check np hp q -- np hp q : q
 ```
 
 Symbol `¬` działa w Leanie *podobnie*, ale nie całkiem tak samo, jak zdefiniowana właśnie stała
@@ -188,8 +191,8 @@ Symbol `¬` działa w Leanie *podobnie*, ale nie całkiem tak samo, jak zdefinio
 **Polecenie**: Aby uzyskać symbol negacji `¬` wpisz `\neg`, po czym usuń ten symbol.
 
 Z powodów technicznych, które nie będą nas interesować, definicja stałej `absurd` (z małej litery)
-ma w Leanie inny sens i jest bardziej skomplikowana (tylko ją tu pokazuję, może lepiej nie próbuj
-jej zrozumieć, jeżeli dopiero zaczynasz się uczyć):
+ma w Leanie jest bardziej skomplikowana (tylko ją tu pokazuję, może lepiej nie próbuj jej zrozumieć,
+jeżeli dopiero zaczynasz się uczyć):
 
 ```lean
 #print absurd
@@ -198,19 +201,18 @@ jej zrozumieć, jeżeli dopiero zaczynasz się uczyć):
 ```
 
 Różnica wynika stąd, że ta definicja nie wyraża przyjętej przez nas treści pojęcia absurd, tylko
-korzysta z tego pojęcia, żeby można go było wygodnie używać w dowodach, ale poza tym chodzi o to
-samo.
+korzysta z tego pojęcia, żeby można go było wygodnie używać w dowodach. Poza tym chodzi o to samo.
 
-**Ostrzeżenie**: Ponieważ zależy mi, żebyś nauczyła się posługiwać tymi pojęciami bez pomocy, odtąd
-będę rzadziej przypominał o różnicach między zdaniem jako takim, istnieniem dowodu zdania,
+**Ostrzeżenie**: Ponieważ zależy mi, żebyś nauczyła się posługiwać tymi pojęciami bez mojej pomocy,
+odtąd będę rzadziej przypominał o różnicach między zdaniem jako takim, istnieniem dowodu zdania albo
 arbitralnym dowodem zdania i konstrukcją czy definicją dowodu zdania. Zresztą być może już teraz Ci
 to pomoże, bo ludzie na ogół nie są w stanie jednocześnie świadomie rozwiązywać problemów w więcej
 niż jednym wymiarze pojęciowym czy teoretycznym. Ja na pewno tego nie potrafię.
 
 Będę też rzadziej przypominał o różnicy między kodem i jego interpretacją, a więc na przykład między
 zdaniami i typami, albo termami typów zdaniowych i ich dowodami, ale z innego powodu - zależy mi,
-żebyś poczuła, że te różnice można zwykle spokojnie zignorować i żebyś dzięki temu nauczyła się
-myśleć w całkiem nowy sposób.
+żebyś poczuła, że te różnice można zwykle zignorować i żebyś dzięki temu nauczyła się myśleć w
+całkiem nowy sposób.
 
 ### Przypisy
 
