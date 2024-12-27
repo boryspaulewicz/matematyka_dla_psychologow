@@ -139,9 +139,9 @@ zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
-[R17 Koniunkcja ze strzałek](./rozdzialy/Koniunkcja_ze_strzalek.md)
+[R17 ∧ 1](./rozdzialy/Koniunkcja_jako_para.md)
 
-[R18 ∧](./rozdzialy/Koniunkcja.md)
+[R18 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
 [R19 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
 

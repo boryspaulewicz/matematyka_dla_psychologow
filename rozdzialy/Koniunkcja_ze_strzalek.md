@@ -4,12 +4,12 @@ TODO
 
 <hr>
 
-# Koniunkcja ze strzałek
+# ∧ 2
 
 Jeżeli `p` i `q` to zdania, to `p ∧ q` jest również zdaniem, które odczytujemy jako `p` i
 `q`. Symbol koniunkcji uzyskasz wpisując `\and`. Podobnie jak implikacja, koniunkcja jest więc
 operatorem dwuargumentowym, który z dwóch dowolnych zdań tworzy pewne zdanie złożone (mówimy też
-czasem formułę złożoną).
+czasem, że tworzy pewną złożoną formułę logiczną).
 
 Implikacja jako typ funkcyjny albo po prostu strzałka jest w naszym języku pojęciem pierwotnym. Jak
 pisałem w jednym z rozdziałów wprowadzających, (prawie) wszystko, czego będziemy potrzebować,
