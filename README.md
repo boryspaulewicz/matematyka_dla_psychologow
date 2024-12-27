@@ -139,9 +139,11 @@ zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
-[R17 ∧](./rozdzialy/Koniunkcja.md)
+[R17 Koniunkcja ze strzałek](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
-[R18 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
+[R18 ∧](./rozdzialy/Koniunkcja.md)
+
+[R19 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
