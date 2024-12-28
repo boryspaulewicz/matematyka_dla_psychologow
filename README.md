@@ -12,6 +12,9 @@ First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie c
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
 feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life).
 
+Ostatnio właściwie codziennie sporo tu zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na temat
+aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
+
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a mówiąc dokładniej, powinna być jak sądzę zrozumiała dla
 *licealistów*. Piszę ją w tym momencie przede wszystkim dla studentów psychologii, ale także dla
@@ -173,12 +176,14 @@ wykluwać z postaci jajowej i początkowo, co dopiero teraz widzę, również tr
 
 Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
 
-Tomekowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
+Tomkowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
 wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
 szaro.
 
-Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo na głównej stronie
-książki, jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
+Kubie Szewczykowi za dodającą odwagi, rzeczową i przemyślaną reakcję.
+
+Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo tu na głównej stronie,
+jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
 
 ### Przypisy
 
