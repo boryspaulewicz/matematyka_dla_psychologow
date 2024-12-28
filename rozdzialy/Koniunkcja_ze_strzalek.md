@@ -137,10 +137,10 @@ konwencji która obowiązuje w Leanie nazwiemy je `left` i `right`.
 def left (p q : Prop) (k : and p q) : p :=
   k p (fun (hp : p) => fun (hq : q) => hp)
 
--- Oto jak działa funkcja left. Ponieważ dowod_koniunkcji_ab ma typ ...
+-- (ilustracja) Oto jak działa funkcja left. Ponieważ dowod_koniunkcji_ab ma typ ...
 and a b
 
--- ... to ma też typ (rozpakowujemy stałą and) ...
+-- ... to ma też typ (rozpakowujemy stałą and):
 (fun (p : Prop) => fun (q : Prop) => ∀ r : Prop, (p → q → r) → r) a b
 
 -- Odczepiamy ciało i podstawiamy a:
@@ -156,10 +156,10 @@ dowod_koniunkcji_ab : ∀ r : Prop, (a → b → r) → r
 Zwracam uwagę, że nie po raz pierwszy spotykamy się tutaj z typem zapisanym w postaci aplikacji
 (tutaj `and a b`). Typami (zdaniowymi) są przecież również wszelkie aplikacje predykatów (do termów
 odpowiedniego typu). Również nie po raz pierwszy mamy do czynienia z typem zapisanym jako aplikacja,
-*którą można zredukować* (albo ewaluować), bo przecież w podobny sposób używaliśmy pełniącej rolę
+*którą można zredukować* (ewaluując), bo przecież w podobny sposób używaliśmy pełniącej rolę
 cukierniczą (albo "lukracyjną") funkcji `Predykat`, aplikując ją do odpowiednich termów i dzięki
-temu uzyskując odpowiednie typy (a konkretnie zdania o strukturze orzeczenie-podmiot) jako rezultaty
-tych aplikacji. Kontynuując:
+temu uzyskując odpowiednie typy (a konkretnie zdania będące naszym modelem struktury
+orzeczenie-podmiot) jako rezultaty tych aplikacji. Kontynuując:
 
 ```lean
 -- Wobec tego to ...
@@ -180,13 +180,13 @@ left a b dowod_koniunkcji_ab
 -- znaczy to samo, co to (odczepienie ciala i podstawienie dowod_koniunkcji_ab) ...
 dowod_koniunkcji_ab a (fun (hp : a) => fun (hq : b) => hp)
 
--- ... a ponieważ (obliczenie na poziomie typu dowod_koniunkcji_ab) ...
+-- ... a ponieważ (obliczenie na poziomie typu aplikacji dowod_koniunkcji_ab a) ...
 dowod_koniunkcji_ab a : (a → b → a) → a
 
--- ... i ...
+-- ... jak również ...
 (fun (hp : a) => fun (hq : b) => hp) : (a → b → a)
 
--- ... to ten term ma typ a, czyli jest dowodem a:
+-- ... to ten term ma typ a, czyli jest dowodem zdania a:
 dowod_koniunkcji_ab a (fun (hp : a) => fun (hq : b) => hp) : a
 ```
 
@@ -198,11 +198,11 @@ def right (p q : Prop) (k : and p q) : q :=
 ```
 
 To może jeszcze tak: Gdy mamy dowód `k` zdania `p ∧ q`, czyli typu `∀ r : Prop, (p → q → r) → r`, to
-aplikacja `k p` - którą możemy zrobić, bo `k` by nie mogło istnieć, gdyby `p` nie było zdaniem - ma
-typ `(p → q → p) → p` (obliczenie zachodzące w typie `k p`), a ponieważ zawsze możemy skonstruować
-term typu `p → q → p`, bo to jest tautologia, bo możemy taki dowód skonstruować jako funkcję `fun
-(hp : p) => fun (hq : q) => hp`, to aplikując funkcję `k p` do tego dowodu możemy skonstruować dowód
-`p`. Wyjaśnienie dla funkcji `right` jest podobne.
+aplikacja `k p` - którą możemy zrobić, bo `k` nie mogłoby być poprawnym termem, gdyby `p` nie było
+zdaniem - ma typ `(p → q → p) → p` (obliczenie zachodzące w typie aplikacji `k p`), a ponieważ
+zawsze możemy skonstruować term typu `p → q → p`, bo to jest tautologia, bo możemy taki dowód
+skonstruować po prostu jako funkcję `fun (hp : p) => fun (hq : q) => hp`, to aplikując funkcję `k p`
+do tego dowodu możemy skonstruować dowód `p`. Wyjaśnienie dla funkcji `right` jest podobne.
 
 Pozostaje nam jeszcze funkcja `intro` dla koniunkcji, która jest implementacją reguły wprowadzenia
 dla koniunkcji:
