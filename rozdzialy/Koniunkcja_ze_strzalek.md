@@ -271,46 +271,45 @@ ten sposób usuwając ostrzeżenia na temat stylu.
 -- istniejącymi w Leanie definicjami tych samych stałych.
 namespace Logika
 
--- W Leanie w zasadzie tą samą *rolę* odgrywa stała False, jednak *implementacja* tej roli jest
--- inna, bo w Leanie nie trzeba wszystkiego budować ze strzałek i funkcji.
-def Absurd : Prop := (a : Prop) → a
+  -- W Leanie w zasadzie tą samą *rolę* odgrywa stała False, jednak *implementacja* tej roli jest
+  -- inna, bo w Leanie nie trzeba wszystkiego budować ze strzałek i funkcji.
+  def Absurd : Prop := (a : Prop) → a
 
--- Negacja jest w Leanie również zdefiniowana trochę inaczej, a konkretnie jako p → False.
-def Not (p : Prop) : Prop := p → Absurd
-notation:max "¬" p:40 => not p
+  -- Negacja jest w Leanie również zdefiniowana trochę inaczej, a konkretnie jako p → False.
+  def Not (p : Prop) : Prop := p → Absurd
+  notation:max "¬" p:40 => not p
 
--- And to w Leanie typ par uporządkowanych zdań, a więc pewna *struktura* (o strukturach będę mówił
--- później). Dlatego również stałe And.left, And.right i And.intro, chociaż dostarczają zasadniczo
--- tą samą funkcjonalność, różnią się szczególami implementacji.
-def And (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
-infixr:35 " ∧ " => And
+  -- And to w Leanie typ par uporządkowanych zdań, a więc pewna *struktura* (o strukturach będę mówił
+  -- później). Dlatego również stałe And.left, And.right i And.intro, chociaż dostarczają zasadniczo
+  -- tą samą funkcjonalność, różnią się szczególami implementacji.
+  def And (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
+  infixr:35 " ∧ " => And
 
-def And.intro {p q : Prop} (hp : p) (hq : q) :=
-    fun (r : Prop) => fun (h : p → q → r) => h hp hq
+  def And.intro {p q : Prop} (hp : p) (hq : q) :=
+      fun (r : Prop) => fun (h : p → q → r) => h hp hq
 
-def And.left {p q : Prop} (k : And p q) : p :=
-  k p (fun (hp : p) => fun (_ : q) => hp)
+  def And.left {p q : Prop} (k : And p q) : p :=
+    k p (fun (hp : p) => fun (_ : q) => hp)
 
-def And.right {p q : Prop} (k : And p q) : q :=
-    k q (fun (_ : p) => fun (hq : q) => hq)
+  def And.right {p q : Prop} (k : And p q) : q :=
+      k q (fun (_ : p) => fun (hq : q) => hq)
 
-variable (p q : Prop)
--- Gdy kursor znajduje się nad komendą #check Lean sygnalizuje *błąd*, ponieważ za bardzo zbliżyłem się tutaj
--- do tego, jak Lean obsługuje notację logiczną:
---
--- ambiguous, possible interpretations 
---   p ∧ q : Prop
---
---   p ∧ q : Prop
-#check p ∧ q
-
+  variable (p q : Prop)
+  -- Gdy kursor znajduje się nad komendą #check Lean sygnalizuje *błąd*, ponieważ za bardzo zbliżyłem się tutaj
+  -- do tego, jak Lean obsługuje notację logiczną:
+  --
+  -- ambiguous, possible interpretations 
+  --   p ∧ q : Prop
+  --
+  --   p ∧ q : Prop
+  #check p ∧ q
+  
 end Logika
 ```
 
-Widzimy więc, że wszystko możemy "zrobić ze strzałek", chociaż jak dotąd nie jest może wcale jasne,
-czy warto się przy tym upierać. W następnym rozdziale przekonamy się jednak, że taki
-"czysto-strzałkowy" punkt widzenia ma pewne szczególne zalety, ponieważ pozwala mówić językami nie
-tylko ludzi, ale i
+Widzimy więc, że wszystko możemy "zrobić ze strzałek", chociaż jak dotąd nie jest może jasne, czy
+warto się przy tym upierać. W następnym rozdziale przekonamy się jednak, że taki "czysto-strzałkowy"
+punkt widzenia ma pewne wyjątkowe zalety, ponieważ pozwala mówić językami nie tylko ludzi, ale i
 [*aniołów*](https://www.christianity.com/wiki/angels-and-demons/what-do-angels-look-like.html).
 
 ### Przypisy
