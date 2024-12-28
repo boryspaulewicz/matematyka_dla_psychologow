@@ -14,8 +14,8 @@ podstawy skupimy się wtedy na być może najprostszym z powszechnie stosowanych
 to jest na rozkładzie dwumianowym, i prześledzimy dokładnie całą logikę testowania istotności,
 *widząc* dzięki temu, jaką rolę odgrywa tam pojęcie [rozkładu z
 próby](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_pr%C3%B3bkowania), a jaką sama *decyzja* o
-odrzuceniu bądź nieodrzuceniu testowanej hipotezy. Następnie popatrzymy z bliska wszystkie ważne
-kroki wnioskowania z danych za pomocą bayesowskiej wersji tego samego modelu. 
+odrzuceniu bądź nieodrzuceniu testowanej hipotezy. Następnie popatrzymy z bliska na wszystkie ważne
+kroki wnioskowania z danych za pomocą bayesowskiej wersji tego samego modelu.
 
 Będę wtedy czasem w pewnym sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które
 są raczej twierdzeniami i niektóre pojęcia, które zwykle są definiowane za pomocą pojęć bardziej
@@ -27,8 +27,8 @@ się do użyteczności i formalnej poprawności.
 Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o co
 chodzi w *badaniach obserwacyjnych* i *eksperymentalnych*, a także w *pomiarze*, *o ile* pomiar
 interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
-sdefinicji. Jedną z nich będzie wpływowa przyczynowo-teoretyczna definicja trafności pomiaru, którą
-w pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
+definicji. Jedną z nich będzie wpływowa przyczynowo-teoretyczna definicja trafności pomiaru, którą w
+pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
 [artykyle](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
 [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
 przyczynowo-teoretyczna, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
@@ -66,9 +66,9 @@ recenzent czy redaktor, gdy *całe* rozumowanie jest sformalizowane i sprawdzone
 względem poprawności? Wyrazić zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
 Ponieważ takie sformalizowane artykuły naukowe będą *jednocześnie* programami komputerowymi i
-zakodowanymi w języku teorii typów zależnych rozumowaniami, to te artykuły będzie można *składać* w
-większe artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz, łącząc ze
-sobą różne prostsze funkcje.
+zakodowanymi w języku teorii typów rozumowaniami, to te artykuły będzie można *składać* w większe
+artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz, łącząc ze sobą
+różne prostsze funkcje.
 
 Nietrudno wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów mogłaby
 tworzyć coś w rodzaju programistycznej bibliteki żywej wiedzy naukowej, złożonej z czegoś, co można
@@ -157,7 +157,7 @@ zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obs
 cel będę traktował jako własność *względną*. Brzmi to może abstrakcyjnie, ale chodzi tu w istocie o
 tak przyziemne sprawy jak fakt, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
 "tak nie wolno" albo "nie wypada", czy nawet "muszę się w tej chwili napić kawy", nieuchronnie
-odnosimy się do takiej preferencji, *niekoniecznie* traktując ją wtedy jak *swoją* (albo tylko
+odnosimy się do takiej preferencji, *niekoniecznie* traktując ją wtedy jak *swoją* (albo *tylko*
 swoją).
 
 Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
@@ -195,12 +195,12 @@ strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH))
 teoria wnioskwania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich bez
 wyjątku tak zwanych modeli strukturalnych. Ten sam wskaźnik ma jednak zarazem oczywisty sens z
-perspektywy zadanio-centrycznej - ponieważ, jak łatwo się przekonać przyglądając się *formalnej
-definicji*, α Cronbacha to nic innego jak pewna miara stopnia, w jakim odpowiedzi na wszystkie
-pozycje testowe są ze sobą skorelowane, to ponieważ pozycje testowe są zawsze blisko związane
-treściowo, można tą miarę interpretować jako co prawda niedoskonały, ale jednak teoretycznie
-uzasadniony wskaźnik *stopnia, w jakim osoba badana wykonała zadanie udzielenia odpowiedzi na
-pozycje testowe*.
+perspektywy zadanio-centrycznej: Ponieważ, jak łatwo się przekonać przyglądając się [*formalnej
+definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to nic innego jak pewna
+miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to ponieważ pozycje
+testowe są *zawsze blisko związane treściowo*, można tą miarę interpretować jako co prawda
+niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoba badana wykonała
+zadanie udzielenia odpowiedzi na pozycje testowe*.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
 wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
