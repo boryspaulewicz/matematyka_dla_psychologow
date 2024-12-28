@@ -112,8 +112,11 @@ polecam.
 
 [R2 Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
 
+Ten rozdział napisałem głównie z myślą o psychologach i omawiam w nim przede wszystkim to, o czym
+będę pisał w planowanej *drugiej* części tej ksiażki.  
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
+Czytając ten rozdział zaczniesz się uczyć, w dosyć nietypowy sposób i niemal od zera, podstaw samej matematyki .  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)

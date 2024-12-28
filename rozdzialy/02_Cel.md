@@ -1,32 +1,46 @@
 # Do *czego* autor zmierza?!
 
-Po omówieniu potrzebnych do tego podstaw zamierzam wytłumaczyć Ci między innymi, na czym polega
-istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Będę przy tym w pewnym
-sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które w tych teoriach są
-twierdzeniami i niektóre pojęcia, które są w nich definiowane za pomocą pojęć bardziej
-elementarnych, wprowadzę aksjomatycznie.
+Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w planowanej *drugiej*
+części. Wydaje mi się, że większość tematów, o których tu mówię, może nie być zrozumiała dla osób,
+które nie studiowały przynajmniej przez kilka lat na przykład psychologii, dlatego takim czytelnikom
+sugeruję, żeby najwyżej tu zerknąć i przejść zaraz do rozdziału czwartego, od którego zaczyna się
+interaktywna nauka podstaw samej matematyki. Co prawda w pierwszej części pojawiają się czasami
+wątki związane z psychologią, ale te pełnią tam rolę przykładów, które można pominąć bez żadnej
+szkody dla zrozumienia głównej treści.
 
-Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie, bo *struktura* dowodu, gdy się go już
-znajdzie, jest zwykle nieważna, liczy się tylko *istnienie* dowodu. A definicje mogą być dowolne, bo
-są językowymi wyborami i ich wartość sprowadza się do użyteczności i formalnej poprawności.
+Po omówieniu potrzebnych do tego podstaw, zamierzam wytłumaczyć Ci między innymi, na czym polega
+istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Żeby dobrze objaśnić
+podstawy skupimy się wtedy na być może najprostszym z powszechnie stosowanych modeli statystycznych,
+to jest na rozkładzie dwumianowym, i prześledzimy dokładnie całą logikę testowania istotności,
+*widząc* dzięki temu, jaką rolę odgrywa tam pojęcie [rozkładu z
+próby](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_pr%C3%B3bkowania), a jaką sama *decyzja* o
+odrzuceniu bądź nieodrzuceniu testowanej hipotezy. Następnie popatrzymy z bliska wszystkie ważne
+kroki wnioskowania z danych za pomocą bayesowskiej wersji tego samego modelu. 
 
-Omówimy następnie podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o
-co chodzi w badaniach obserwacyjnych i eksperymentalnych, a także o co chodzi w pomiarze, *o ile*
-pomiar interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
-definicji. Jedną z nich będzie wpływowa teoretyczno-przyczynowa definicja trafności pomiaru, którą w
-pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
+Będę wtedy czasem w pewnym sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które
+są raczej twierdzeniami i niektóre pojęcia, które zwykle są definiowane za pomocą pojęć bardziej
+elementarnych, wprowadzę aksjomatycznie. Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie,
+bo *struktura* dowodu, gdy się go już znajdzie, jest zwykle nieważna, liczy się przede wszystkim
+*istnienie* dowodu. A definicje mogą być dowolne, bo są językowymi wyborami i ich wartość sprowadza
+się do użyteczności i formalnej poprawności.
+
+Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o co
+chodzi w *badaniach obserwacyjnych* i *eksperymentalnych*, a także w *pomiarze*, *o ile* pomiar
+interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
+sdefinicji. Jedną z nich będzie wpływowa przyczynowo-teoretyczna definicja trafności pomiaru, którą
+w pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
 [artykyle](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
 [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
-teoretyczno-przyczynowa, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
+przyczynowo-teoretyczna, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
 [preprincie](https://osf.io/preprints/psyarxiv/e7a3x)), na której trop, jak się najpierw
 dowiedziałem od piszącej pożyteczne teksty, czarującej [Julii Rohrer](https://juliarohrer.com/), a
 potem od samego już Borsbooma, ten wpadł dziesięć lat przede mną, ale tego pomysłu nigdy nie
 rozwinął i dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Julia napisała
-na ten temat na poczytnym blogu [The 100%
+potem na ten temat na poczytnym blogu [The 100%
 CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
 zaszczyt figurować w dwóch przypisach, wymieniony obok samego Borsbooma jako niezależny odkrywca tej
-istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko, żeby się pochwalić, chociaż
-oczywiście po to też, ale przede wszystkim żeby przekonać Cię, że mogę mieć o tego typu sprawach coś
+istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko po to, żeby się pochwalić, chociaż
+oczywiście po to też, ale przede wszystkim żeby Cię przekonać, że mogę mieć o tego typu sprawach coś
 do powiedzenia.
 
 Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
@@ -61,21 +75,25 @@ tworzyć coś w rodzaju programistycznej bibliteki żywej wiedzy naukowej, zło�
 by nazwać *strumieniami wnioskowania z danych*. Praca teoretyczna polegałaby wtedy na odkrywaniu
 nowych sposobów łączenia źródeł danych z wnioskami i odkrywania nowych wniosków, a więc na
 *przekierowywaniu dedukcyjnych strumieni empirycznych*. Praca *czysto* empiryczna polegałaby z kolei
-na samym dostarczaniu danych w taki sposób, żeby minimalizować konflikt interesów.
+na samym dostarczaniu danych w taki sposób, żeby minimalizować konflikt interesów. No i czym byłaby
+wtedy "decyzja o odrzuceniu" jakiejś hipotezy empirycznej jak nie tylko pustym gestem? Przecież
+żaden empiryczny test nigdy nie da nam pewności, a zapisane w repozytorium teorii hipotezy można by
+tam po prostu *zostawić*, bo w takiej postaci *nie zajmowałyby miejsca w publikacjach*.
 
 Czemu wspominam o konflikcie interesów? Moim zdaniem w tym momencie niemal każdy artykuł empiryczny
 powinien w zasadzie zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest
 zarazem powszechny i o którym, o ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków
-jest zwykle odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane wątpliwe praktyki
-badawcze (ang. *questionable research practices*) są w ogóle *możliwe*. W połączeniu z silnie i
-stale oddziałującymi zachętami, takimi jak rozliczanie pracowników niemal wyłącznie z *ilości*
-publikacji, *ilości* punktów publikacyjnych i *ilości* grantów, ta możliwość musi często prowadzić
-do wątpliwych praktyk, ponieważ naukę uprawiają *zwykli ludzie*, tacy jak Ty czy ja.
+jest zwykle odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane [wątpliwe praktyki
+badawcze](https://en.wikipedia.org/wiki/Scientific_misconduct) (ang. *questionable research
+practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami, takimi jak
+rozliczanie pracowników przede wszystkim z *ilości* publikacji, *ilości* punktów publikacyjnych i
+*ilości* grantów, ta możliwość musi często prowadzić do wątpliwych praktyk, ponieważ naukę uprawiają
+*zwykli ludzie*, tacy jak Ty czy ja.
 
 Gdybym miał zgadywać, powiedziałbym, że sedno tego problemu polega na tym, że w obecnym systemie
 wątpliwe praktyki badawcze są *bardzo opłacalne* i jednocześnie *łatwe*. W dodatku - i to wcale nie
-wynika *logicznie* z tej ostatniej tezy - uczciwe uprawianie pracy naukowej i unikanie marnowania
-publicznych pieniędzy, czy zaśmiecania literatury kosztownym i szkodliwym szumem, jest często
+wynika *logicznie* z tej ostatniej tezy - uczciwe wykonywanie pracy naukowej i unikanie marnowania
+publicznych pieniędzy albo zaśmiecania literatury kosztownym i szkodliwym szumem jest często
 *nieopłacalne* i *trudne* z powodów *niezwiązanych z trudnościami w dociekaniu prawdy o przedmiocie
 własnych badań*.
 
@@ -94,7 +112,8 @@ typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psycho
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tej niezwykłej
-perspektywy, jakiej dostarczy nam teoria typów. Z matematyką zrobimy to na początku mówiąć *tylko* o
+perspektywy, jakiej dostarczy nam teoria typów (a później jeszcze teoria kategorii). Z matematyką
+zrobimy to na początku mówiąć *tylko* o
 [funkcjach](https://youtu.be/zHU1xH6Ogs4?si=6dEXhDwOJ01KVw8W&t=42), a z psychologią zrobimy to
 mówiąc najpierw *tylko* o jednym, w pewnym sensie najprostym możliwym psychologicznym badaniu
 eksperymentalnym.
@@ -103,24 +122,19 @@ Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną ro
 punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w próżni odegrało kiedyś w
 fizyce. Osiągniemy to nie proponując żadnego psychologicznego modelu czy teorii, zamiast tego
 zapiszemy za pomocą symboli to, bez czego nie można się obejść i czego nie da się zakwestionować
-zawsze, gdy mówimy o zjawiskach należących do przedmiotu zainteresowań psychologii naukowej. Będzie
-to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek zachowania*, dzięki któremu
-pytania, które wcześniej wydawały się niejasne albo nawet mętne będzie można formułować w taki
-sposób, że poszukiwanie na nie odpowiedzi stanie się częściowo kwestią mechanicznych operacji.
+zawsze wtedy, gdy mówimy o zjawiskach należących do przedmiotu zainteresowań psychologii
+naukowej. Będzie to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek zachowania*,
+dzięki któremu pytania, które wcześniej wydawały się niejasne albo nawet mętne będzie można
+formułować w taki sposób, że poszukiwanie na nie odpowiedzi stanie się, przynajmniej częściowo,
+kwestią mechanicznych operacji.
 
-Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Żeby dobrze
-wyjaśnić, czego ten wgląd dotyczy, będę teraz musiał wspomnieć o sprawach, które mogą nie być dobrze
-znane osobom, które nie zajmowały się przez pewien czas prowadzeniem badań i nie próbowały zrozumieć
-na wyższym poziomie abstrakcji, na czym tak naprawdę polegają badania dotyczące zachowania
-zwierząt. Dlatego jeżeli coś wyda Ci się odtąd niezrozumiałe, pamiętaj, że nie musisz dokładnie
-wiedzieć, o czym będę mówił. W rozdziale czwartym i tak zaczniemy niemal od absolutnego zera.
-
-Ten osobliwy wgląd, o którym przed chwilą wspomniałem, przytrafił mi się w końcu, po ponad piętnastu
-latach uczenia się i myślenia wciąż o jednym małym zbiorze kilku ściśle ze sobą powiązanych zagadek
-dotyczących podstaw psychologii. W dodatku w pewnym sensie sedno sprawy miałem przez prawie cały ten
-czas przed oczami, bo to nic innego jak wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej
-wersji pewnej uwagi [Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w
-swoim [doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
+Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
+wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
+małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii. W dodatku w
+pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
+wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
+[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w swoim
+[doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
 
 > Koncepcja, za którą się tu opowiadamy, głosi, ujmując rzecz pokrótce, że zawsze, gdy jakąś reakcję
 > cechuje wyuczalność w odniesieniu do pewnego końcowego rezultatu - gdy reakcja ta ma skłonność do:
@@ -131,8 +145,8 @@ swoim [doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie roz
 > on?), tam mamy obiektywnie wyrażone i określone to, co dogodnie jest nazwać celem. - Tolman,
 > *Zachowanie celowe u zwierząt i ludzi*, s. 32.
 
-Wersję tej uwagi, którą będę w dalszej części tej książki uzasadniał i której użyteczność będę
-później ilustrował przykładami, można wyrazić krótko w taki oto sposób:
+Wersję tej uwagi, którą będę w dalszej części uzasadniał i której użyteczność będę później
+ilustrował przykładami, można wyrazić krótko w taki oto sposób:
 
 *Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako preferencję hipotetycznego
 zewnętrznego obserwatora*.
@@ -143,12 +157,15 @@ zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obs
 cel będę traktował jako własność *względną*. Brzmi to może abstrakcyjnie, ale chodzi tu w istocie o
 tak przyziemne sprawy jak fakt, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
 "tak nie wolno" albo "nie wypada", czy nawet "muszę się w tej chwili napić kawy", nieuchronnie
-odnosimy się do takiej preferencji, niekoniecznie traktując ją wtedy jak swoją (albo tylko swoją). A
-tak przy okazji, załóżmy, że w tej chwili pada deszcz. Co byś mogła *zrobić*, żeby nie padało?
+odnosimy się do takiej preferencji, *niekoniecznie* traktując ją wtedy jak *swoją* (albo tylko
+swoją).
 
 Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
-*funkcjonalizmem obiektywnym*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia, ale w
-formalnej definicji zadania pozostanie nadal jego cień. Dojdziemy również do takiego wniosku:
+*funkcjonalizmem obiektywnym*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia,
+dokładnie tak samo jak "ten, który powtarza eksperyment" szybko znika nam z pola widzenia gdy
+poznajemy rachunek prawdopodobieństwa, a "ten, który dokonuje zewnętrznej interwencji" szybko się
+ulatnia gdy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie nadal
+"jego" cień. Dojdziemy również do takiego wniosku:
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
