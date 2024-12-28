@@ -182,14 +182,14 @@ wspania³a ksi±¿ka i kontakt z tym niezwyk³ym cz³owiekiem. No wiêc z ambicjami le
 moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
 Skoro ju¿ mówimy o po¿ytkach p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który
-stosowa³em podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych
-przyjemno¶ci zwi±zanych z tym procesem by³a dla mnie mo¿liwo¶æ bawienia siê ró¿nymi mniej lub
-bardziej skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na
-tym, ¿e nie by³o w okolicy ¿adnych specjalistów, których móg³bym poprosiæ o pomoc. Gdy czu³em, ¿e
-muszê siê w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê
-tematem, potem zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego
-ju¿ wtedy serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê
-przez pierwsze 10 do 20 stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach
+odkry³em podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych
+przyjemno¶ci zwi±zanych z tym procesem by³a dla mnie zabawa ró¿nymi mniej lub bardziej
+skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
+nie by³o w okolicy ¿adnych specjalistów, których móg³bym poprosiæ o pomoc. Gdy czu³em, ¿e muszê siê
+w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem
+zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
+serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez
+pierwsze kilkadziesi±t stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach
 zwykle wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji
 wspomina³em tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te
 zawsze mo¿na by³o znale¼æ.
@@ -201,20 +201,21 @@ Sternberga](https://en.wikipedia.org/wiki/Saul_Sternberg). Napisa³em mu wyra¼nie
 drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³bym zrobiæ po swojemu analizê wyników klasycznego ju¿
 eksperymentu, który przeprowadzi³ w latach 60tych. Jak siê potem dowiedzia³em, pomiar czasu reakcji
 polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej bodaj wokó³ obracaj±cego siê w
-miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam do¶æ szybkiej, Saul zaproponowa³, ¿e
-*zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie trzeba.
+miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam zreszt± dosyæ szybkiej, Saul
+zaproponowa³, ¿e *zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie
+trzeba.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
-pisa³em, przytrafi³o mi siê w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego
+mówi³em, przytrafi³o mi siê w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego
 przedmiotu, Pani P³ucienniczak, któr± bardzo dobrze wspominam (jednak moj± ulubion± nauczycielk± na
-zawsze pozostanie Pani Wójcik, która uczy³a mnie matematyki), t³umaczy³a co¶ na tablicy i kiedy
-zrozumia³em (ale czy na pewno?), o czym mówi³a, zrozumia³em te¿ jednocze¶nie co¶ wa¿niejszego od
-fizyki: *Wszystko, co da siê zrozumieæ, ja te¿ mogê zrozumieæ, o ile tylko bêdê mia³ do¶æ informacji
-i czasu*. Uwa¿am, ¿e je¿eli siêgnê³a¶ po t± ksia¿kê, to Ty te¿ mo¿esz zrozumieæ *wszystko*, co da
-siê zrozumieæ. Jak to uj±³ Silvanus Thompson w swoim popularnym i dostêpnym za darmo [podrêczniku do
-rachunku ró¿niczkowo-ca³kowego](https://calculusmadeeasy.org/), *What one fool can do, another
-can*. Thompson podaje, ¿e to jest *Ancient Simian Proverb*, ale to ¿art (sprawd¼, co znaczy
-"Simian", je¶li chcesz siê dowiedzieæ wiêcej).
+zawsze pozostanie Pani Wójcik, która uczy³a mnie matematyki), t³umaczy³a w³a¶nie co¶ na tablicy i
+kiedy zrozumia³em (ale czy na pewno?), o czym wtedy mówi³a, zrozumia³em te¿ jednocze¶nie co¶
+wa¿niejszego od fizyki: *Wszystko, co da siê zrozumieæ, ja te¿ mogê zrozumieæ, o ile tylko bêdê mia³
+do¶æ informacji i czasu*. Uwa¿am, ¿e je¿eli siêgnê³a¶ po t± ksia¿kê, to Ty te¿ mo¿esz zrozumieæ
+*wszystko*, co da siê zrozumieæ. Jak to uj±³ Silvanus Thompson w swoim popularnym i dostêpnym za
+darmo [podrêczniku do rachunku ró¿niczkowo-ca³kowego](https://calculusmadeeasy.org/), *What one fool
+can do, another can*. Thompson podaje tam, ¿e to jest *Ancient Simian Proverb*, ale to ¿art
+(sprawd¼, co znaczy "Simian", je¶li chcesz siê dowiedzieæ wiêcej).
 
 Zawsze by³em chudy[^3], dobry z matematyki i dobry z programowania, bo taki siê urodzi³em. Z
 pewno¶ci± nie by³em jednak nigdy ani tym bardziej nie jestem geniuszem. Po prostu w szkole
@@ -222,37 +223,38 @@ podstawowej nie potrafi³em nie my¶leæ czêsto o matematyce. Mój przyjaciel z lice
 ³awki, wybitny teoretyk prawa i filozof Wojtek Za³uski, jest zdaje mi siê prawdziwym geniuszem. Inny
 mój przyjaciel, filozof matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje) Szymon
 Szymczak te¿ jak s±dzê jest. To oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w
-pewnych (zbyt licznych) obszarach genialne. Dziêki nim wiem doskonale, jaki ze mnie dureñ.
+pewnych, zbyt licznych, obszarach genialne. Dziêki nim wiem doskonale, jaki ze mnie dureñ.
 
 My¶lisz, ¿e z tym durniem przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em prawie
 nic w zeszycie i mój szkolny poziom wykonania by³ tak niski, ¿e, jak siê pó¼niej dowiedzia³em,
 nauczyciele powa¿nie zastanawiali siê, czy nie powinienem zostaæ w niej na drugi rok. Z powodu
 licznych nieobecno¶ci (których co prawda spor± czê¶æ spêdzi³em w bibliotece) i bardzo s³abych ocen z
-kilku przedmiotów o ma³o co nie powtarza³em te¿ klasy w liceum (uratowa³a mnie wtedy olimpiada z
-filozofii). Na studia z psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj±
+kilku przedmiotów, o ma³o co nie powtarza³em te¿ klasy w liceum; uratowa³a mnie wtedy olimpiada z
+filozofii. Na studia z psychologii jest tylu chêtnych, ¿e niektórzy z Was z pewno¶ci± przerastaj±
 mnie wrodzon± moc± procesora, a poza tym nie jestem ju¿ m³ody.
 
 No to sk±d siê tu w ogóle wzi±³em? Uczy³em siê d³ugo i systematycznie ró¿nych trudnych rzeczy, a
-robi³em to, bo znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki temu, ¿e
-najpierw z popularnej ksi±¿ki Tonego Buzana [*Rusz
+robi³em to, poniewa¿ znalaz³em na siebie pewien sposób. Pracujê na uczelni miêdzy innymi dziêki
+temu, ¿e najpierw z popularnej ksi±¿ki Tony'ego Buzana [*Rusz
 g³ow±*](https://lubimyczytac.pl/ksiazka/3822524/rusz-glowa), a potem jeszcze na pierwszym albo
-drugim roku psychologii z podrêcznika Andersona, z którego nadal czasem korzystam na zajêciach,
-dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
+drugim roku psychologii z podrêcznika Johna Andersona, z którego nadal czasem korzystam na
+zajêciach, dowiedzia³em siê, jak siê skuteczniej uczyæ, a ze znakomitej [ksi±¿ki
 Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie t³umaczenie "nie
 jest optymalne") dowiedzia³em siê z kolei, w jaki sposób sobie radziæ z ekstremaln± wrêcz
 prokrastynacj±. Dlatego, ¿eby zachêciæ Ciê do dalszej lektury i odwdziêczyæ siê w jaki¶ sposób tym
-autorom, w nastêpnym rozdziale powiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to robiê,
-a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
+autorom, w nastêpnym rozdziale opowiem Ci krótko, w jaki sposób siê uczy³em i czasami wci±¿ to
+robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
 
-Skoro ju¿ mówiê o takich sprawach, to wypada mi podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni,
-gdyby nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia
-i uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
-sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± szefow± przez te 10 lat,
-kiedy pracowa³em na SWPSie w Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla
-mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego a pó¼niej prof. Edwarda Nêcki, któremu zawdziêczam
-swobodê zajmowania siê w nim czym tylko chcia³em, byæ mo¿e wcale bym nie skoñczy³, gdyby nie liczne
-rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba przyjacielem,
-któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
+Skoro ju¿ mówiê o takich sprawach, to muszê podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni, gdyby
+nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia i
+uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
+sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± wprost szefow± przez te 10
+lat, kiedy pracowa³em na SWPSie w Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo
+dla mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego, a pó¼niej prof. Edwarda Nêcki, któremu
+zawdziêczam swobodê zajmowania siê w owym czasie czym tylko mia³em ochotê siê zajmowaæ, byæ mo¿e
+wcale bym nie skoñczy³, gdyby nie liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem,
+moim najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie
+dzi¶ pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
@@ -262,7 +264,7 @@ piszê, na co odpowiedzia³em, ¿e w C++. On wtedy powiedzia³, ¿artuj±c, ¿e gdyby j
 dowiedzieli siê, ¿e pisze w C++, to by go wy¶miali. No to zapyta³em, niezra¿ony, w czym On pisze, na
 co odpowiedzia³, ¿e w Lispie. Wtedy nie mia³em zielonego pojêcia, co to Lisp, a nied³ugo pó¼niej to
 by³ ju¿ mój ulubiony jêzyk i na d³ugo nim pozosta³. W³a¶nie dlatego piszê t± ksi±¿kê w
-[Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawana tak mocno
+[Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawna tak mocno
 zro¶niêty, ¿e czasami nawet zapominam, ¿e go w ogóle u¿ywam. Wygl±da wiêc na to, ¿e trzeba czasu,
 byæ mo¿e jakiego¶ sposobu na siebie i jednego czy dwóch dobrych przyjació³; wtedy mo¿na zrozumieæ,
 co tylko siê chce. What one fool can do, another can.
