@@ -51,9 +51,11 @@ Jeżeli *A* i *B* to zdania, to:
 
 Jak mogłaby wyglądać definicja koniunkcji w naszej logice skonstruowana tylko za pomocą strzałek i
 funkcji? Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to *sensem* zdania `p ∧ q` są
-*dokładnie te zdania, które wynikają z łącznej prawdziwości zdań `p` i `q`* (a więc w tym *sensie*
-zawierałoby się również samo zdanie `p ∧ q`). Zacznę krótko, a potem będę to na różne sposoby
-(dosłownie) rozwijał i (również dosłownie) przybliżał.
+*dokładnie te zdania, które wynikają z łącznej prawdziwości zdań `p` i `q`*. Do tego *sensu*,
+rozumianego jako pewnego rodzaju zbiór (albo typ), należałyby więc (zamieszkiwałyby go) przynajmniej
+zdania `p`, `q`, jak również zdanie `p ∧ q`, bo przecież każde zdanie wynika z siebie samego jako
+przesłanki. Zacznę krótko, a potem będę to na różne sposoby (dosłownie) rozwijał i (również
+dosłownie) przybliżał.
 
 ```lean
 def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
