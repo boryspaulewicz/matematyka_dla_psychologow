@@ -170,7 +170,7 @@ Tomek Smoleń, za jakże mi miłe słowa zachęty i wykrycie wady polegającej n
 wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
 szaro.
 
-Maja Strypling za wskazanie błędu ortograficznego, który był dość długo wcześniej obecny na głównej
+Maja Strypling, za wskazanie błędu ortograficznego, który był dość długo wcześniej obecny na głównej
 stronie książki, jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
 
 ### Przypisy
