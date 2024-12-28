@@ -225,12 +225,12 @@ Podaję za [Wikipedią](https://pl.wikipedia.org/wiki/J%C4%99zyk_dziedzinowy) (2
 > określonej dziedziny problemów, określonej reprezentacji problemu lub określonej techniki ich
 > rozwiązywania
 
-Docelowo stworzymy taki język dziedzinowy, wraz z dobrze określonym towarzyszącym mu aparatem
-pojęciowym opisanym w języku naturalnym, który będzie przystosowany do rozwiązywania problemów
-dotyczących *zachowania*. Teraz jednak zajmiemy się tylko negacją i koniunkcją. Sugeruję, żebyś
-potraktowała ten fragment tak, jakbyś była turystką i zwiedzała nieznane Ci wcześniej miejsca,
-przyglądając się dłużej temu na co tylko masz ochotę i nie starając się za wszelką cenę wszystkiego
-dobrze poznać, zapamiętać albo zrozumieć.
+Docelowo stworzymy pewien formalny język dziedzinowy, wraz z dobrze określonym, towarzyszącym mu
+aparatem pojęciowym opisanym w języku naturalnym, który to język będzie przystosowany do formalnego
+definiowania pojęć, stawiania pytań i rozwiązywania problemów dotyczących *zachowania*. Teraz jednak
+zajmiemy się tylko negacją i koniunkcją. Sugeruję, żebyś potraktowała ten fragment tak, jakbyś była
+turystką[^1] i zwiedzała nieznane Ci wcześniej miejsca, przyglądając się dłużej temu na co tylko
+masz ochotę i nie starając się za wszelką cenę wszystkiego dobrze poznać, zapamiętać albo zrozumieć.
 
 Poniższy kod zawiera elementy, o których wcześniej nie pisałem i nie będę z nich prędko korzystał,
 dlatego możesz potraktować to wszystko jako sugestywną ilustrację. Chcę Ci w ten sposób pokazać, jak
@@ -312,3 +312,12 @@ czy warto się przy tym upierać. W następnym rozdziale przekonamy się jednak,
 "czysto-strzałkowy" punkt widzenia ma pewne szczególne zalety, ponieważ pozwala mówić językami nie
 tylko ludzi, ale i
 [*aniołów*](https://www.christianity.com/wiki/angels-and-demons/what-do-angels-look-like.html).
+
+### Przypisy
+
+[^1]: Pomysł, żeby w stosunku do treści o charakterze metematycznym albo ogólnie technicznym
+    zasugerować przyjęcie postawy turystki zaczerpnąłem z zachwycającej książki [*The Joy of
+    Abstraction*](https://www.cambridge.org/core/books/joy-of-abstraction/00D9AFD3046A406CB85D1AFF5450E657),
+    napisanej przez specjalizującą się w [teorii
+    kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii) popularyzatorkę matematyki [Eugenię
+    Cheng](https://eugeniacheng.com/).
