@@ -20,9 +20,9 @@ w możliwie bezbolesny sposób omówię szczegółowo kilka relatywnie prostych 
 zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na tym etapie zadań.
 
 W obydwu rozdziałach omówię też krok po kroku proces ewaluacji, a dokładniej ewaluacji
-aplikacji. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten proces przebiega krok
-po kroku, pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a dzięki temu czuć się
-bardziej pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
+aplikacji. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten proces przebiega,
+pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a dzięki temu czuć się bardziej
+pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
 
 <hr>
 
@@ -91,7 +91,7 @@ def dziesiec : Nat := 10
 
 To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=` możemy czytać jako
 *niech będzie* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku to
-jest stała `dziesiec`. Każda stała ma jakiś *typ*. Na przykład, stała dziesięć ma typ `Nat` (`:
+jest stała `dziesiec`. Każda stała ma jakiś *typ*. Na przykład, stała `dziesięć` ma typ `Nat` (`:
 Nat`), czyli ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść, to
 liczba (a właściwie *term*) `10`.
 

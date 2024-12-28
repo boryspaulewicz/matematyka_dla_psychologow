@@ -1,6 +1,6 @@
 ## O czym teraz bêdzie
 
-Moim celem w tym rozdziale jest zapoznaæ Ciê z pewnym sposobem patrzenia na matematykê. Nie chodzi
+Moim celem w tym rozdziale jest zapoznanie Ciê z pewnym sposobem patrzenia na matematykê. Nie chodzi
 mi tutaj o ka¿dy aspekt matematyki czy sposoby jej uparwiania albo stosowania, ani o ka¿d± jej czê¶æ
 lub postaæ, tylko o wybrane rodzaje czynno¶ci, które czêsto wykonujemy, kiedy siê ni±
 pos³ugujemy. Zobaczysz mam nadziejê, ¿e te wybrane, wa¿ne i czêsto pojawiaj±ce siê czynno¶ci
