@@ -166,6 +166,11 @@ Nienazwanym (niestety) studentom biorącym udział w kursie [Psychologia i neuro
 II](https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=WFz.IPs-N-A33b),
 którzy wyrazili zainteresowanie dalszym ciągiem.
 
+Renate Rutiku, między innymi za otwartość, zainteresowanie, przenikliwe obserwacje i zaraźliwy
+entuzjam z jakim cierpliwie słuchała moich brzmiących pewnie niezbyt wiarygodnie opowieści o tej
+książce, którymi raczyłem Ją gdy ta (książka, nie Renate) dopiero zaczynała się wykluwać z postaci
+jajowej i początkowo, co dopiero teraz widzę, również trochę zbyt jajcarskiej.
+
 Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
 
 Tomekowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
