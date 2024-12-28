@@ -186,8 +186,8 @@ fun (n : Nat) => n * n
 ```
 
 Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń. Zgodzisz się chyba, że
-naturalnie byłoby oznaczać takie typy w sposób, który mówi o tym, jaki jest typ argumentu i o tym,
-jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania i
+naturalnie byłoby oznaczać takie typy w sposób, który mówi o tym, jaki jest typ argumentu jak i o
+tym, jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania i
 przyporządkowywania.
 
 **Polecenie**: Żeby wpisać w Leanie strzałkę napisz `\to` i ulegnij olśnieniu. Gdy już ochłoniesz,
@@ -207,8 +207,8 @@ zwiększoną o *2*:
 ```lean
 -- Nat → Nat oznacza typ funkcji, które pobierają argumenty typu Nat i zwracają rezultat typu Nat
 def dodaj2 : Nat → Nat := 
-    -- fun to słowo kluczowe i jednocześnie skrót od *function*. W Lean oznacza *funkcję anonimową*, inaczej 
-    -- *λ-abstrakcję*
+    -- fun to słowo kluczowe i jednocześnie skrót od *function*. W Leanie oznacza *funkcję anonimową*,
+    -- inaczej *λ-abstrakcję* (to tylko inna nazwa na to samo).
     fun (moj_parametr : Nat) => moj_parametr + 2
 ```
 
@@ -219,15 +219,15 @@ trzeba zapisywać tej definicji w dwóch linijkach; zrobiłem tak tylko z powod�
 **Czytamy to**: Definiuję (`def`) stałą `dodaj2` typu funkcja przekształcająca liczby naturalne w
 liczby naturalne (`: Nat → Nat`) jako (`:=`) funkcję (`fun`), która jakikolwiek `moj_parametr` typu
 `Nat` (`(moj_parametr : Nat)`) przekształca (`=>`) w `moj_parametr + 2`. Nie wiem, czy to dobrze
-widać, ale parametry pełnią rolę zaimków - gdyby ta funkcja umiała mówić, co robi, mogłaby to
-powiedzieć tak: *Do tego co mi dasz, a co musi być typu `Nat`, dodaję `2`*.
+widać, ale parametry pełnią rolę tu zaimków - gdyby ta funkcja umiała powiedzieć, co robi, mogłaby
+to powiedzieć tak: *Do tego co mi dasz, a co musi być typu `Nat`, dodaję `2`*.
 
-**Polecenie**: Zamiast ją kopiować, spróbuj tym razem napisać definicję funkcji `dodaj2`. Własny kod
-po krótkim czasie może nie być od razu zrozumiały, dlatego warto dodawać komentarze, a poza tym
-pisząc je lepiej zapamiętasz, na czym to polega. Dzięki temu ćwiczeniu ogólna struktura tego rodzaju
-definicji lepiej Ci się utrwali. Możesz oczywiście wracać do tego fragmentu książki ile razy tylko
-będzie trzeba, albo żeby lepiej zapamiętać strukturę definicji, albo żeby sprawdzić, gdzie dokładnie
-pojawił się ewentualny błąd.
+**Polecenie**: Zamiast ją kopiować, spróbuj tym razem napisać definicję funkcji `dodaj2`. Nawet
+napisany przez siebie kod po krótkim czasie może nie być od razu zrozumiały, dlatego warto dodawać
+komentarze, a poza tym pisząc je lepiej zapamiętasz, na czym to wszystko polega. Dzięki temu
+ćwiczeniu ogólna struktura tego rodzaju definicji lepiej Ci się utrwali. Możesz oczywiście wracać do
+tego fragmentu książki ile razy tylko będzie trzeba, albo żeby lepiej zapamiętać strukturę
+definicji, albo żeby sprawdzić, gdzie dokładnie pojawił się ewentualny błąd.
 
 **Polecenie**: Funkcję `dodaj2` można zastosować do dowolnej liczby naturalnej, w tym również do
 stałej `dziesiec`, bo ta stała ma taki sam typ, jak parametr funkcji `dodaj2`. Żeby to zrobić i
