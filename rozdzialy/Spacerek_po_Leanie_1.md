@@ -212,22 +212,6 @@ def dodaj2 : Nat → Nat :=
     fun (moj_parametr : Nat) => moj_parametr + 2
 ```
 
-Lean wie, że te dwie (a licząc z komentarzem cztery) linijki to definicja jednej i tej samej funkcji
-o nazwie `dodaj2`, bo bez fragmentu zaczynającego się od `fun` ten kod byłby niekompletny. Nie
-trzeba zapisywać tej definicji w dwóch linijkach; zrobiłem tak tylko z powodów estetycznych.
-
-**Czytamy to**: Definiuję (`def`) stałą `dodaj2` typu funkcja przekształcająca liczby naturalne w
-liczby naturalne (`: Nat → Nat`) jako (`:=`) funkcję (`fun`), która jakikolwiek `moj_parametr` typu
-`Nat` (`(moj_parametr : Nat)`) przekształca (`=>`) w `moj_parametr + 2`. Nie wiem, czy to dobrze
-widać, ale parametry pełnią rolę tu zaimków - gdyby ta funkcja umiała powiedzieć, co robi, mogłaby
-to powiedzieć tak: *Do tego co mi dasz, a co musi być typu `Nat`, dodaję `2`*.
-
-**Polecenie**: Zamiast ją kopiować, spróbuj tym razem napisać definicję funkcji `dodaj2`. Nawet
-napisany przez siebie kod po krótkim czasie może nie być od razu zrozumiały, dlatego warto dodawać
-komentarze, a poza tym pisząc je lepiej zapamiętasz, na czym to wszystko polega. Dzięki temu
-ćwiczeniu ogólna struktura tego rodzaju definicji lepiej Ci się utrwali. Możesz oczywiście wracać do
-tego fragmentu książki ile razy tylko będzie trzeba, albo żeby lepiej zapamiętać strukturę
-definicji, albo żeby sprawdzić, gdzie dokładnie pojawił się ewentualny błąd.
 
 **Polecenie**: Funkcję `dodaj2` można zastosować do dowolnej liczby naturalnej, w tym również do
 stałej `dziesiec`, bo ta stała ma taki sam typ, jak parametr funkcji `dodaj2`. Żeby to zrobić i
@@ -262,14 +246,14 @@ kodu, to tylko ilustracja.
 
 ```lean
 -- Żeby ewaluować tą aplikację, Lean ewaluuje, czyli redukuje do najprostszej postaci, argument aplikacji. 
--- Cyfra 2 może być zredukowana do czegoś bardziej podstawowego, ale o tym powiem innym razem. Na razie będziemy
--- udawać, że pod cyfrą 2 nie kryje się nic więcej.
+-- Cyfra 2 może być zredukowana do czegoś bardziej podstawowego, ale o tym powiem innym razem. Na razie 
+-- będziemy udawać, że pod cyfrą 2 nie kryje się nic więcej.
 #eval dodaj2 2
 
--- Lean rozpakowuje również definicję stałej funkcyjnej, czyli tutaj stałej dodaj2. W rezultacie w miejscu dodaj2
--- pojawia się *funkcję anonimową*, bo już bez nazwy "dodaj2", to jest 
+-- Lean rozpakowuje również definicję stałej funkcyjnej, czyli tutaj stałej dodaj2. W rezultacie w miejscu
+-- dodaj2 pojawia się *funkcja anonimowa*, bo już bez nazwy "dodaj2", to jest:
 -- fun (moj_parametr : Nat) => moj_parametr + 2
--- Poniżej otoczyłem tą funkcję nawiasami, żeby zapis był jednoznaczny.
+-- Żeby zapis był jednoznaczny poniżej otoczyłem tą funkcję nawiasami.
 (fun (moj_parametr : Nat) => moj_parametr + 2) 2
 
 -- Lean odczepia część przed symbolem =>, zostawiając tylko ciało funkcji:
@@ -283,8 +267,8 @@ moj_parametr + 2
 -- (czyli na 2)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym mówić w sposób 
 -- zrozumiały.
 
--- + to także funkcja, tylko taka, której apliację możemy zapisać w *notacji infiksowej*, czyli w stylu 
--- argument1 funkcja argument2
+-- + to także funkcja, tylko taka, której apliację możemy zapisać w *notacji infiksowej*, czyli w stylu:
+-- argument1 funkcja argument2, na przykład pisząc 2 + 3.
 -- Lean na to pozwala, jeśli mu wytłumaczymy, co to znaczy. Akurat w przypadku funkcji + wie to z góry.
 
 -- W końcu Lean rozpakowuje definicję funkcji + i stosuje ją do obydwu argumentów. Ten proces trwa aż do momentu,
@@ -396,7 +380,7 @@ niebawem spotkamy.
 
 Pozostaje mi objaśnić *zapis typu* tej funkcji. Funkcja `plus` dobrze udaje zwykłą funkcję
 dwuargumentową dzięki temu, że ciało funkcji wewnętrznej jest przez zewnętrzną funkcję `plus`
-konstruowane z tego, co ta dostaje jako argument. To znowu tylko ilustracja:
+konstruowane z tego, co ta ostatnia dostaje jako argument. To znowu tylko ilustracja:
 
 ```lean
 def plus : Nat → (Nat → Nat) := 
@@ -485,7 +469,7 @@ def plus : Nat → (Nat → Nat) := fun (pierwsza : Nat) => (fun (druga : Nat) =
 ```
 
 Czy widzisz, jak zapisywanie parametrów w nawiasach zaraz po nazwie definiowanej funkcji to tylko
-pewien wygodny sposób zapisania λ-abstrakcji?
+pewien wygodny, skrótowy sposób zapisania λ-abstrakcji?
 
 **Polecenie**: Stosując wygodny *skrótowy* zapis definicji funkcji, zdefiniuj funkcję `plusplus`,
 pobierającą *trzy* argumenty typu `Nat` - każdy o innej nazwie (muszą mieć inne nazwy) - i dodającą
@@ -507,11 +491,11 @@ liczbę naturalną, tylko funkcję jednoargumentową, która do dowolnej liczby 
 ```lean
 -- To ...
 plus 3
--- ... zgodnie z definicją stałej plus jest tym samym co ...
+-- ... zgodnie z definicją stałej plus jest tym samym, co to ...
 (fun (pierwsza : Nat) => fun (druga : Nat) => pierwsza + druga) 3
--- ... a plus 3 redukuje się (a więc też *tym jest*) do:
+-- ... a to redukuje się (a więc też *tym jest*) do:
 (fun (druga : Nat) => 3 + druga)
--- ... a więc do pewnej (anonimowej) funkcji.
+-- ... a więc do (anonimowej) funkcji, która do dowolnej liczby naturalnej dodaje 3.
 ```
 
 Nie możemy *ewaluować* takiej częściowej aplikacji, bo Lean nie potrafi bez naszej pomocy
@@ -556,5 +540,5 @@ siebie (w nawiasach) funkcji anonimowej lub jakiejś wcześniej już zdefiniowan
 `dodaj2`) funkcji typu `Nat → Nat` jako pierwszego argumentu, a także jakiejś liczby naturalnej jako
 drugiego. W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na definiowanie funkcji, które
 tworzą funkcje, czyli *programów, które tworzą programy*, ale również na definiowanie funkcji, które
-stosują do czegoś funkcje podane jako argumenty aplikacji, czyli *programów, które przetwarzają inne
+stosują do czegoś funkcje podane jako ich argumenty, czyli *programów, które przetwarzają inne
 programy*.
