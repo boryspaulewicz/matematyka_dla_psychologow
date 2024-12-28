@@ -3,8 +3,8 @@
 Przypominam, że to jest tak naprawdę druga, czy może raczej alternatywna wersja *tego samego
 rozdziału*. Zdecydowałem się napisać dwie wersje, ponieważ to, jak łatwe będą dla Ciebie do
 zrozumienia rozdziały kolejne, będzie zależało w znacznym stopniu od tego, jak dobrze uda mi się
-wytłumaczyć Ci najważniejsze kwestie omawiane właśnie tutaj. Dlatego być może przyda się
-przynajmniej zerknąć do poprzedniej wersji po tym jak przeczytasz tą.
+wytłumaczyć najważniejsze kwestie omawiane właśnie tutaj. Dlatego być może przyda się przynajmniej
+zerknąć do poprzedniej wersji po tym jak przeczytasz tą.
 
 <hr>
 
@@ -27,7 +27,7 @@ doktoracie albo artykule, lub do analizy uzasadnień głównych wniosków w arty
 Często już sama tylko próba przeprowadzenia takiej formalizacji pozwoli Ci z nieosiągalną inaczej
 precyzją wskazać, gdzie *dokładnie* w tych rozumowaniach znajdują się ewentualne błędy. Celowo
 niedokończony i wydaje mi się, że interesujący przykład tego rodzaju zabawy znajdziesz [w jednym z
-następnych rozdziałów](./Predykaty_dowod_Anzelma.md).
+następnych rozdziałów](./Duzy_predykaty_Bog.md).
 
 # Pierwszy spacer po Leanie, wersja druga
 
