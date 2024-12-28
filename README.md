@@ -118,7 +118,7 @@ będę pisał w planowanej *drugiej* części tej ksiażki.
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej (ale
-nie dużo dalej)), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
+nie *dużo* dalej)), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
