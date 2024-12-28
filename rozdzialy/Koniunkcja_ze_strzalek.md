@@ -263,8 +263,8 @@ argument funkcji `And.intro` musi być koniunkcją, a ta *musi* zawierać inform
 jakich konkretnie zdań jest zbudowana, Lean może na tej podstawie sam wywnioskować wartość dwóch
 pierwszych parametrów. Dzięki temu, jeżeli w danym miejscu w kodzie `k : p ∧ q`, wystarczy napisać
 `And.intro k` zamiast dłuższego i redundantnego (czyli "niepotrzebnie przegadanego") `And.intro p q
-k`. Oznaczyłem też za pomocą symbolu `_` te parametry λ-abstrakcji, które nie są nigdzie używane i
-usunąłem w ten sposób ostrzeżenia na temat stylu.
+k`. Oznaczyłem też za pomocą symbolu `_` te parametry λ-abstrakcji, które nie są nigdzie używane, w
+ten sposób usuwając ostrzeżenia na temat stylu.
 
 ```lean
 -- Zapisując poniższe definicje w przestrzeni nazw którą nazwałem Logika nie generuję konfliktów z
