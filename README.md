@@ -16,16 +16,17 @@ Ostatnio właściwie codziennie sporo tu zmieniam. Jeżeli chcesz otrzymywać po
 aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
-specjalnego przygotowania**, a mówiąc dokładniej, powinna być jak sądzę zrozumiała dla
-*licealistów*. Piszę ją w tym momencie przede wszystkim dla studentów psychologii, ale także dla
-badaczy i teoretyków zajmujących się uprawianiem psychologii naukowej. To między innymi
-wprowadzenie, niemal [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once),
-do programowania i teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i
-meta-matematyki, później zaś do wnioskowania przyczynowego i statystycznego (w tej kolejności), w
-wersji bayesowskiej i częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka wybranych
-zagadnień z obszaru szeroko rozumianej metodologii badań psychologicznych. W drugiej części planuję
-z kolei uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia
-na psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
+specjalnego przygotowania**, a mówiąc dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w
+górę* powinny być jak sądzę zrozumiałe dla *licealistów*. Piszę ją w tym momencie przede wszystkim
+dla studentów psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem
+psychologii naukowej. To między innymi wprowadzenie, niemal
+[równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
+teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
+zaś do wnioskowania przyczynowego i statystycznego (w tej kolejności), w wersji bayesowskiej i
+częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka wybranych zagadnień z obszaru
+szeroko rozumianej metodologii badań psychologicznych. W drugiej części planuję z kolei uzasadnić,
+objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
+szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
 [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
