@@ -152,27 +152,27 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 W planach: Sekcja zwłok, studium przypadku
 
 <a name="podziekowania"></a>
-### Podziękowania
+### Podziękowania należą się między innymi
 
 *Wymieniam tu z nazwiska tylko te osoby, które wyraziły na to zgodę*.
 
-Tymoteusz Paulewicz, za pierwsze informacje zwrotne na temat skryptu.
+Tymoteuszowi Paulewiczowi, za pierwsze informacje zwrotne na temat skryptu.
 
-Uczestnicy kursu [Introduction to causal inference with elements of Bayesian data
+Uczestnikom kursu [Introduction to causal inference with elements of Bayesian data
 analysis](https://www.usosweb.uj.edu.pl/kontroler.php%3F_action%3Dkatalog2%252Fprzedmioty%252FpokazPrzedmiot%26prz_kod%3DSDS-E901-DItc%26callback%3Dg_1d86a895%26lang%3Den),
 za informacje zwrotne na temat poprawionej wersji skryptu.
 
-Nienazwani (niestety) studenci, biorący udział w kursie [Psychologia i neuronauka poznawcza
+Nienazwanym (niestety) studentom biorącym udział w kursie [Psychologia i neuronauka poznawcza
 II](https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=WFz.IPs-N-A33b),
 którzy wyrazili zainteresowanie dalszym ciągiem.
 
-Autorzy maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
+Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
 
-Tomek Smoleń, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
+Tomekowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
 wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
 szaro.
 
-Maja Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo na głównej stronie
+Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo na głównej stronie
 książki, jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
 
 ### Przypisy
