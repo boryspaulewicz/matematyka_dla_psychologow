@@ -146,7 +146,7 @@ Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat bywa abstrakcyjny, z
 g³êbokich niespodzianek, rezultatem mo¿e byæ pora¿aj±ce po³±czenie tre¶ci z form±. Taki efekt jest
 osi±galny chyba tylko wtedy, gdy autorzy maj± rzeczywi¶cie co¶ do powiedzenia i nie tylko dobrze
 rozumiej± to, co chc± powiedzieæ, ale tak¿e to, jakie trudno¶ci mog± siê pojawiæ u odbiorcy. No wiêc
-to jest, moim zdaniem, w³a¶nie taka ksi±¿ka. W dodatku poza dobr± znajomo¶ci± angielskiego autorzy
+to jest, moim zdaniem, w³a¶nie taka ksi±¿ka. W dodatku poza dobr± znajomo¶ci± angielskiego, autorzy
 nie zak³adaj± ¿adnej wcze¶niejszej wiedzy czytelnika. Mimo to, uczenie siê z niej nie by³o dla mnie
 ani trochê ³atwe.
 
@@ -156,7 +156,7 @@ notatek czy zaplanowanych powtórek. Pó¼niej tego samego dnia zdarza³o siê, ¿e je
 wraca³em, ale nie zawsze. Na pocz±tku rozwi±zywa³em te¿ wszystkie zadania. I to by³ bardzo wolny
 proces.
 
-Którego¶ dnia, z czystej ciekawo¶ci, zacz±³em swobodnie czytaæ dalej, a potem wróci³em do fragmentu
+Którego¶ dnia, z czystej ciekawo¶ci, zacz±³em swobodnie czytaæ dalej, a potem wróci³em do fragmentu,
 na którym wcze¶niej skoñczy³em. W ten sposób mia³em pewn± przerwê miêdzy momentem, w którym pierwszy
 raz przeczyta³em ten pó¼niejszy fragment, ale nie robi³em ¿adnych pojawiaj±cych siê tam zadañ, a
 momentem, kiedy znowu zacz±³em go czytaæ. Okaza³o siê, ¿e rozumiem ten fragment znacznie
@@ -175,11 +175,11 @@ Nederpelta](https://wsinrpn.win.tue.nl/), który potraktowa³ mnie niezwykle ¿yczl
 powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje nazwisko pojawi³o siê w oficjalnej erracie
 do tej ksi±¿ki, jako nazwisko jednej z osób, której autorzy dziêkuj±. A mi akurat dziêkuj± za
 wskazanie (w tym momencie, to jest 2024-12-11) oko³o po³owy wszystkich wymienionych b³êdów i nie
-chodzi tu wcale o jakie¶ literówki, tylko o b³êdy rzeczowe. Z niewielu rzeczy jestem tak dumny jak z
-tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³ napisania czego¶ choæby tylko odlegle
-zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania³a ksi±¿ka i kontakt
-z tym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim zdaniem, jak ju¿ wspomina³em,
-najwa¿niejszy jest czas.
+chodzi tu wcale o literówki czy inne tego rodzaju drobiazgi, a o b³êdy rzeczowe. Z niewielu rzeczy
+jestem tak dumny jak z tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³ napisania czego¶
+choæby tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta
+wspania³a ksi±¿ka i kontakt z tym niezwyk³ym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ;
+moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
 Skoro ju¿ mówimy o po¿ytkach p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który
 stosowa³em podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych
