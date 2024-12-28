@@ -179,6 +179,10 @@ wykluwać z postaci jajowej i początkowo, co dopiero teraz widzę, również tr
 
 Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
 
+Emilowi Chammasowi, za bardzo pozytywną reakcję i zaangażowanie - o którym zresztą dowiedziałem się
+częściowo pośrednio, a przecież nie ma lepszej reklamy niż marketing szeptany - i to jeszcze na
+etapie, kiedy to wszystko wyglądało znacznie bardziej podejrzanie niż teraz.
+
 Tomkowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
 wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
 szaro.
