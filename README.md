@@ -179,7 +179,7 @@ zaraźliwy entuzjam, z jakim cierpliwie słuchała moich brzmiących pewnie niez
 opowieści o tej książce, którymi raczyłem Ją gdy ta (książka, nie Renate) dopiero zaczynała się
 wykluwać z postaci jajowej i początkowo, co dopiero teraz widzę, również trochę zbyt jajcarskiej.
 
-Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
+Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji.
 
 Emilowi Chammasowi, za bardzo pozytywną reakcję i zaangażowanie - o którym zresztą dowiedziałem się
 częściowo pośrednio, a przecież nie ma lepszej reklamy niż marketing szeptany - i to jeszcze na
@@ -189,7 +189,7 @@ Tomkowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegają
 wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
 szaro.
 
-Kubie Szewczykowi za dodającą odwagi, rzeczową i przemyślaną reakcję.
+Kubie Szewczykowi, za dodającą odwagi, rzeczową i przemyślaną reakcję.
 
 Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo tu na głównej stronie,
 jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
