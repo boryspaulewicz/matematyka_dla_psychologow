@@ -109,8 +109,8 @@ komunikat o błędzie.
 **Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną* zastępując `3` przez słowo
 `tszy` (bez cudzysłowów). Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
 ortograficzny. Umieść kursor na słowie `tszy` i odczytaj komunikat o błędzie widoczny po
-prawej. Powinnaś wtedy zobaczyć *unknown identifier 'tszy'*, co oznacza, że Lean nie wie, czym jest
-`tszy`. Jak widzisz, błędy to tylko okazja, żeby Lean mógł się wykazać.
+prawej. Powinnaś wtedy zobaczyć komunikat *unknown identifier 'tszy'*, co oznacza, że Lean nie wie,
+czym jest `tszy`. Jak widzisz, błędy to tylko okazja, żeby Lean mógł się wykazać.
 
 W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
 stałą o typie tekstowym (`String`). Zwróć uwagę, że wartości zmiennych tekstowych muszą być otoczone
@@ -128,11 +128,11 @@ def gwiazda_wieczorna : String := "Rihanna"
 #eval dziesiec
 ```
 
-**Polecenie**: Napisz teraz w nowej linijce `#eval gwia`, tylko tyle. Zobaczysz, że Lean zaoferuje
-Ci możliwość szybkiego wpisania pełnej nazwy. Żeby z tego skorzystać, naciśnij klawisz Tab, kiedy
-Lean podświetli właściwą kontynuację, lub wskaż ją za pomocą myszki lub klawiszy strzałek. Ponieważ
-kursor będzie się wtedy znajdował w linijce, która zaczyna się od komendy `#eval`, po prawej
-zobaczysz wartość wpisywanej stałej.
+**Polecenie**: Napisz teraz w nowej linii `#eval gwia`, tylko tyle. Zobaczysz, że Lean zaoferuje Ci
+możliwość szybkiego wpisania pełnej nazwy. Żeby z tego skorzystać, naciśnij klawisz Tab, kiedy Lean
+podświetli właściwą kontynuację, lub wskaż ją za pomocą myszki lub klawiszy strzałek. Ponieważ
+kursor będzie się wtedy znajdował w linii, która zaczyna się od komendy `#eval`, po prawej zobaczysz
+wartość wpisywanej stałej.
 
 Typ każdego poprawnego wyrażenia, w tym każdej zdefiniowanej wcześniej stałej, możemy sprawdzić za
 pomocą komendy `#check`:
