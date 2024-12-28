@@ -8,6 +8,8 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
+First things first, podziękowania są [tutaj](#podziekowania).
+
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a mówiąc dokładniej, powinna być jak sądzę zrozumiała dla
 *licealistów*. Piszę ją w tym momencie przede wszystkim dla studentów psychologii, ale także dla
@@ -147,6 +149,8 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
+### Przypisy
+
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
 
 [^2]: Więcej na ten fascynujący temat można poczytać w
@@ -160,3 +164,29 @@ W planach: Sekcja zwłok, studium przypadku
     nonsense*](https://en.wikipedia.org/wiki/Abstract_nonsense).
 
 [^3]: Napisałem, co myślę o tej konwencji, w przypisie do jednego z rozdziałów.
+
+<a name="podziekowania"></a>
+### Podziękowania
+
+*Wymieniam tu z nazwiska tylko te osoby, które wyraziły na to zgodę*.
+
+Tymoteusz Paulewicz, za pierwsze informacje zwrotne na temat skryptu.
+
+Uczestnicy kursu [Introduction to causal inference with elements of Bayesian data
+analysis](https://www.usosweb.uj.edu.pl/kontroler.php%3F_action%3Dkatalog2%252Fprzedmioty%252FpokazPrzedmiot%26prz_kod%3DSDS-E901-DItc%26callback%3Dg_1d86a895%26lang%3Den),
+za informacje zwrotne na temat poprawionej wersji skryptu.
+
+Nienazwani (niestety) studenci, biorący udział w kursie [Psychologia i neuronauka poznawcza
+II](https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=WFz.IPs-N-A33b),
+którzy wyrazili zainteresowanie dalszym ciągiem.
+
+Autorzy maili zawierających zachęcające opinie na temat wcześniejszych wersji książki.
+
+Tomek Smoleń, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
+wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
+szaro.
+
+Maja Strypling za wskazanie błędu ortograficznego, który był dość długo wcześniej obecny na głównej
+stronie książki, jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
+
+
