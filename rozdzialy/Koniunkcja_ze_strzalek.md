@@ -226,7 +226,7 @@ Podaję za [Wikipedią](https://pl.wikipedia.org/wiki/J%C4%99zyk_dziedzinowy) (2
 > rozwiązywania
 
 Docelowo stworzymy pewien formalny język dziedzinowy, wraz z dobrze określonym, towarzyszącym mu
-aparatem pojęciowym opisanym w języku naturalnym, który to język będzie przystosowany do formalnego
+aparatem pojęciowym opisanym w języku naturalnym, który będzie przystosowany do formalnego
 definiowania pojęć, stawiania pytań i rozwiązywania problemów dotyczących *zachowania*. Teraz jednak
 zajmiemy się tylko negacją i koniunkcją. Sugeruję, żebyś potraktowała ten fragment tak, jakbyś była
 turystką[^1] i zwiedzała nieznane Ci wcześniej miejsca, przyglądając się dłużej temu na co tylko
@@ -234,10 +234,10 @@ masz ochotę i nie starając się za wszelką cenę wszystkiego dobrze poznać, 
 
 Poniższy kod zawiera elementy, o których wcześniej nie pisałem i nie będę z nich prędko korzystał,
 dlatego możesz potraktować to wszystko jako sugestywną ilustrację. Chcę Ci w ten sposób pokazać, jak
-bardzo można zbliżyć zapis w Leanie do rozmaitych wyspecjalizowanych języków, czyli języków
+bardzo można zbliżyć zapis w Leanie do rozmaitych wyspecjalizowanych języków, czyli właśnie języków
 dziedzinowych, takich jak standardarowy język formalny logiki (mówiąc w uproszczeniu, bo nie ma
 jednego ogólnie przyjętego sposobu zapisu symboli logicznych). Gdyby miało Cię to już teraz
-zainteresować, na wszelki wypadek wyjaśnię, co się tutaj dzieje. 
+zainteresować, na wszelki wypadek wyjaśnię, co się tutaj dzieje.
 
 Korzystam z przestrzeni nazw (`namespace`), dzięki czemu definiując stałe `Not`, `And`, `And.left`,
 `And.right` i `And.intro` nie generuję konfliktów z tym, jak te symbole są zdefiniowane w
