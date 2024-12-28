@@ -180,29 +180,36 @@ i takiego:
 *Rodzaj zachowania nie jest, bo nie może być, własnością unikalną*.
 
 Można to samo wyrazić w być może bardziej zrozumiały sposób również tak: Jeżeli coś *może* pełnić w
-jakimś stopniu pewną funkcję (rozumianą jako rozwiązanie jakiegoś zdania), to po prostu *pełni* tą
+jakimś stopniu pewną funkcję, rozumianą jako rozwiązanie jakiegoś zdania, to po prostu *pełni* tą
 funkcję w tym stopniu. Wszystko pełni jednocześnie nieskończenie wiele funkcji w różnym stopniu i
-nic nie pełni w stopniu doskonałym tylko jednej funkcji (rozumianej jako rozwiązanie jakiegoś
-zadania). W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
+nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwiązanie jakiegoś
+zadania. W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
 Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru
 psychologicznego. Na przykład, często używana w psychometrii α Cronbacha jest zwykle interpretowana
 jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko jednej zmiennej
 nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią wnioskwania przyczynowego
-można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna. Ten sam wskaźnik ma jednak
-zarazem oczywisty sens z perspektywy zadanio-centrycznej - ponieważ α Cronbacha to nic innego, jak
-miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są ze sobą skorelowane, to ponieważ
-pozycje testowe są zawsze blisko związane treściowo, można tą miarę interpretować jako pewien
-wskaźnik *stopnia, w jakim osoba badana wykonała zadanie udzielenia odpowiedzi na pozycje testowe*.
+można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o czym zresztą wspominają
+jakby mimochodem autorzy niektórych współczesnych podręczników dotyczących modelowania równań
+strukturalnych, bo w tych nowszych podręcznikach (na przykład w
+[tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH))
+teoria wnioskwania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich bez
+wyjątku tak zwanych modeli strukturalnych. Ten sam wskaźnik ma jednak zarazem oczywisty sens z
+perspektywy zadanio-centrycznej - ponieważ, jak łatwo się przekonać przyglądając się *formalnej
+definicji*, α Cronbacha to nic innego jak pewna miara stopnia, w jakim odpowiedzi na wszystkie
+pozycje testowe są ze sobą skorelowane, to ponieważ pozycje testowe są zawsze blisko związane
+treściowo, można tą miarę interpretować jako co prawda niedoskonały, ale jednak teoretycznie
+uzasadniony wskaźnik *stopnia, w jakim osoba badana wykonała zadanie udzielenia odpowiedzi na
+pozycje testowe*.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
 wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
 *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji
 organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg
 naszych procesów umysłowych, albo w jaki sposób nasze zachowanie reguluje mózg, i zamiast skupiać
-się na czysto przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak to mają
-w zwyczaju psychologowie o behawioralnej orientacji, zajmiemy się czymś jakby kompletnie z drugiej
-strony, to jest *środowiskiem*.
+się, przynajmniej jawnie, na przyczynowych relacjach między fizycznie rozumianymi bodźcami i
+reakcjami, jak to mają w zwyczaju psychologowie o behawioralnej orientacji, zajmiemy się czymś jakby
+kompletnie z drugiej strony, to jest *środowiskiem*.
 
 Będzie to środowisko jako coś, czym jak sądze zawsze było dla psychologa *jako psychologa*, a czym
 nie jest na przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to
@@ -219,7 +226,7 @@ Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo 
 przydaje to, co wiemy, ale psychologia naukowa wciąż jest na etapie powstawania. Będziemy za to
 intensywnie korzystać z tej niezwykłej *meta-matematyki stosowanej*, którą tu objaśniam i której
 będę używał jako uniwersalnego narzędzia służącego do meta-teoretycznych badań, jaką jest teoria
-typów zależnych, a której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
+typów, a której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
 
 Wiem, że te cele mogą się wydać szalone i w jakimś sensie pewnie takie są, więc na tym etapie mówię
