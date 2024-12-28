@@ -26,20 +26,20 @@ Implikacja jako typ funkcyjny albo po prostu strzałka jest w naszym języku poj
 pisałem w jednym z rozdziałów wprowadzających, (prawie) wszystko, czego będziemy potrzebować,
 skonstruujemy właśnie ze strzałek, a w tym wypadku strzałek jako funkcji. Dotyczy to również
 *definicji koniunkcji*. Zaczniemy jednak od zapisanych w dosyć typowy sposób *reguł dedukcji* dla
-koniunkcji, to jest od reguły *wprowadzenia* (czyli sposobu uzyskania w dowodach) i *dwóch* reguł
-*eliminacji* koniunkcji (czyli sposobu użycia albo "zużycia" koniunkcji w dowodach). Reguła
-wprowadzenia jest mam nadzieję oczywista.
+koniunkcji, to jest od reguły *wprowadzenia* koniunkcji (czyli sposobu uzyskania jej w dowodach) i
+*dwóch* reguł *eliminacji* koniunkcji (czyli sposobu użycia albo "zużycia" koniunkcji w
+dowodach). Reguła wprowadzenia jest mam nadzieję oczywista.
 
 Jeżeli *A* i *B* to zdania, to:
 
 <ins><em>A, B</em></ins>  
 *A ∧ B*
 
-Odczytujemy tą regułę tak: Jeżeli w trakcie wyprowadzania dowodu akceptujemy zdanie *A* i zdanie *B*
-(dla nas to znaczy: jeżeli mamy dowody tych dwóch zdań), to akceptujemy zdanie *A ∧ B* (to możemy
-uzyskać dowód zdania *A ∧ B*).
+**Czytamy to**: Jeżeli w trakcie wyprowadzania dowodu akceptujemy zdanie *A* i zdanie *B* (dla nas
+to znaczy: jeżeli mamy dowody tych dwóch zdań), to akceptujemy zdanie *A ∧ B* (to możemy uzyskać
+dowód zdania *A ∧ B*).
 
-A oto dwie reguły eliminacji, które jak sądzę nie wymagają komentarza.
+A oto dwie reguły eliminacji, które nie wymagają chyba komentarza.
 
 Jeżeli *A* i *B* to zdania, to:
 
