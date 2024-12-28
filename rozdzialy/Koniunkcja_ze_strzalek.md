@@ -315,7 +315,7 @@ tylko ludzi, ale i
 
 ### Przypisy
 
-[^1]: Pomysł, żeby w stosunku do treści o charakterze metematycznym albo ogólnie technicznym
+[^1]: Pomysł, żeby w stosunku do treści o charakterze metematycznym albo ogólnie mówiąc technicznym
     zasugerować przyjęcie postawy turystki zaczerpnąłem z zachwycającej książki [*The Joy of
     Abstraction*](https://www.cambridge.org/core/books/joy-of-abstraction/00D9AFD3046A406CB85D1AFF5450E657),
     napisanej przez specjalizującą się w [teorii
