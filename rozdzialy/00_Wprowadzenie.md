@@ -3,32 +3,29 @@
 Ta ksi±¿ka by³a najpierw krótkim skryptem dla studentów. Planuj±c æwiczenia do kursu neuronauka i
 psychologia poznawcza zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii normatywnych
 bêdziemy omawiaæ jaki¶ bli¿ej nieokre¶lony mój "skrypt w³asny". Korzystaj±c z tej okazji,
-postanowi³em przeprowadziæ eksperyment dydaktyczny. Polega³ on na próbie przekonania studentów, ¿e
-przy odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
-zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Ten skrypt sta³ siê
-seri± komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi
-dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
+postanowi³em przeprowadziæ pewien eksperyment dydaktyczny. Polega³ on na próbie przekonania
+studentów, ¿e przy odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu
+trochê lepiej zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt
+sta³ siê seri± komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami
+wymagaj±cymi dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, dlatego wprowadzi³em kilka zmian i poprawion±
 wersjê da³em doktorantom, którzy chodzili wtedy na moje zajêcia dotycz±ce wnioskowania bayesowskiego
-i przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) czê¶æ studentów wykona³a poprawnie zadanie, a
-kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
+i przyczynowego. Dziêki temu (jeszcze raz dziêkujê!) spora czê¶æ studentów wykona³a poprawnie
+zadanie, a kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
 
-Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal poprawiaj±c i rozwijaj±c
-to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania przyczynowego dla
-psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) (wersja w jêzyku
-angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma lepszego sposobu,
-aby upewniæ siê, jak dobrze co¶ siê rozumie. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu tutaj
-serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
-przyczynowego, z czego skorzystam w dalszej czê¶ci ksi±¿ki. Redakcja *Przegl±du psychologicznego*
-okaza³a siê wtedy do¶æ wyrozumia³a, bo po tym, jak skróci³em ca³o¶æ o ponad po³owê, wcze¶niej pisz±c
-kilka ró¿nych równie d³ugich, to jest ponad dwa razy za d³ugich wersji, ostatecznie pozwolono mi
-przekroczyæ limit znaków o, jak by to uj±æ, bardzo wiele znaków. Nie jest to chyba mój najgorszy
-tekst, skoro [spodoba³ siê](https://x.com/yudapearl/status/1737769250511843448) nawet Pearlowi,
-który raczej nie prawi chêtnie komplementów na temat tego typu artyku³ów. Czy teraz bym w tym
-artykule chcia³ co¶ zmieniæ? Prawie wszystko, przynajmniej kilka razy. Ale zdaje siê, ¿e odbiegam od
-tematu.
+Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal, poprawiaj±c i
+rozwijaj±c to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania
+przyczynowego dla psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171)
+(wersja w jêzyku angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma
+lepszego sposobu, aby upewniæ siê, jak dobrze co¶ siê rozumie. Ten artyku³ zamówi³ u mnie Arek
+Bia³ek, za co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat
+rachunku przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro [spodoba³
+siê](https://x.com/yudapearl/status/1737769250511843448) samemu
+[Pearlowi](https://en.wikipedia.org/wiki/Judea_Pearl), który raczej nie prawi chêtnie komplementów
+na temat tego typu artyku³ów, dlatego zamierzam bezwstydznie skorzystaæ z niego (artyku³u, nie
+Pearla) w dalszej czê¶ci ksi±¿ki.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
@@ -37,16 +34,16 @@ autora (czyli w tym wypadku mnie) - sam chcia³bym przeczytaæ, zanim jeszcze zacz
 uczyæ. Przy okazji odkry³em tak¿e inny cel.
 
 Wiêkszo¶æ psychologów - mam tu na my¶li równie¿ utytuowanych pracowników naukowych z bogatym
-dorobkiem - polega w ogromnym stopniu na matematyce (na przyk³ad, u¿ywaj±c wnioskowania
-statystycznego, ale nie tylko wtedy) i próbuje zrozumieæ z³o¿one i trudne do wyja¶nienia zjawiska
-(takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych), jednak wielu z nich nie
-ma najczê¶ciej o matematyce za bardzo pojêcia. Dobrymi przyk³adami powa¿nych b³êdów, wynikaj±cych z
+dorobkiem - polega w ogromnym stopniu na matematyce, na przyk³ad u¿ywaj±c wnioskowania
+statystycznego, ale nie tylko wtedy, i próbuje zrozumieæ z³o¿one i trudne do wyja¶nienia zjawiska,
+takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych, jednak wielu z nich nie ma
+najczê¶ciej o matematyce za bardzo pojêcia. Dobrymi przyk³adami powa¿nych b³êdów, wynikaj±cych z
 niezrozumienia matematycznej nieuchronno¶ci kilku do¶æ *prostych* przecie¿ zasad, s± powszechne
-wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu statystycznego, albo
-wnioskowanie o wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia
-koniecznych za³o¿eñ (wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje
-wynikaj± z faktu, ¿e [przyczynowo¶æ zosta³a
-zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
+[wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu
+statystycznego](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors), albo wnioskowanie o
+wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ
+(wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e
+[przyczynowo¶æ zosta³a skutecznie zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
 Nic wiêc dziwnego, ¿e tacy, niestety w psychologii do¶æ liczni, matematyczni pó³-analfabeci
 nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj±c przy tym czasem
@@ -95,10 +92,10 @@ poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze zrozumienie, ale to wymaga *
 
 W zwi±zku z tym, oto moja sugestia: Daj sobie czas, ¿eby wszystko zd±¿y³o siê trochê ule¿eæ i pogód¼
 siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do przeczytanych ju¿
-fragmentów. O ile nie zabraknie wytrwa³o¶ci, mo¿e w koñcu stanie siê to, co dzieje siê wtedy, kiedy
-przez d³u¿szy czas dok±d¶ idziemy, niekoniecznie d±¿±c stale do jednego celu, a powietrze jest
-bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, gdy zachodzi jako¶ciowa zmiana, odkrywamy jednak w
-koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
+wcze¶niej fragmentów. O ile nie zabraknie wytrwa³o¶ci, mo¿e w koñcu stanie siê to, co dzieje siê
+wtedy, kiedy przez d³u¿szy czas dok±d¶ idziemy, niekoniecznie d±¿±c stale do jednego celu, a
+powietrze jest bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, gdy zachodzi jako¶ciowa zmiana,
+odkrywamy jednak w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 
 Gdy pojawi siê frustracja, a prawie na pewno czasem siê pojawi, poczekaj, albo wróæ do tego, co
 wydaje Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ
@@ -106,14 +103,14 @@ studentów psychologii to wcale nie studenci, tylko studentki, bêdê zwraca³ siê d
 ¿eñskiej. Jest te¿ inny dobry moim zdaniem powód.
 
 Pozna³em wiele kobiet zajmuj±cych siê psychologi±, które w mojej ocenie maj± wiêcej oleju w g³owie,
-ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. Nie spotka³em jednak chyba *¿adnych*
-kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pewno¶ci± siebie i ³atwo¶ci± wypowiadania
-stanowczych opinii. Wiem, co mówiê, bo jestem znany z aroganckich wypowiedzi. A poza tym, gdy
-zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi do g³owy, ¿e ewentualny
-brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie udowodniæ* i bardzo
-spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n± ¶wiadomo¶ci±, ¿e poniewa¿ te
-s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), w gruncie rzeczy *nie da siê* tych
-wniosków skutecznie podwa¿yæ.
+ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. W¶ród pracowników akademickich nie
+spotka³em chyba jednak *¿adnych* kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pewno¶ci± siebie i
+³atwo¶ci± wypowiadania stanowczych opinii. Wiem, co mówiê, bo sam jestem znany z aroganckich
+wypowiedzi. A poza tym, gdy zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi
+do g³owy, ¿e ewentualny brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie
+udowodniæ*, i bardzo spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n±
+¶wiadomo¶ci±, ¿e poniewa¿ te s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), w gruncie
+rzeczy *nie da siê* ich skutecznie podwa¿yæ.
 
 Wracaj±c do przerwanego w±tku - poczucie zrozumienia bywa zwodnicze. Wiele razy uczy³em siê trudnego
 materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawet kilka lat, coraz odleglejsze w czasie,
@@ -124,16 +121,16 @@ najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie to co¶, 
 
 Rozdzia³y od czwartego do szóstego nie s± d³ugie. Przeczytanie ich i wykonanie poleceñ powinno Ci
 zaj±æ nie wiêcej ni¿ pó³torej albo dwie godziny. Poza tym ta ksi±¿ka jest ca³kowicie
-samowystarczalna w tym znaczeniu, ¿e nie zak³ada specjalistycznej wiedzy - *wszystko* jest
+samowystarczalna w tym znaczeniu, ¿e nie zak³ada ¿adnej specjalistycznej wiedzy; *wszystko* jest
 wyja¶nione od podstaw, a jedyny program, którego potrzebujemy, jest dostêpny za darmo i mo¿na go
 u¿ywaæ równie¿ w przegl±darce.
 
 Je¿eli utkniesz, nie zra¿aj siê proszê. A je¿eli utkniesz, bêdziesz próbowaæ znowu i nadal Ci siê
-nie uda, po prostu siê tym nie przejmuj i czytaj dalej, zak³adaj±c oczywi¶cie, ¿e ciekawi Ciê, co
-bêdzie dalej. Zrozumienie, ¿e ucz±c siê matematyki *nie trzeba rozwi±zywaæ wszystkich zadañ* i ¿e
-upieranie siê przy tym mo¿e przeszkadzaæ w nauce zajê³o mi naprawdê du¿o czasu, o wiele za
-du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej, cierpliwie
-t³umaczy³).
+nie uda, po prostu siê tym nie przejmuj i czytaj dalej, zak³adaj±c oczywi¶cie, ¿e bêdziesz nadal
+zainteresowana tym, co bêdzie dalej. Zrozumienie, ¿e ucz±c siê matematyki *nie trzeba rozwi±zywaæ
+wszystkich zadañ* i ¿e upieranie siê przy tym mo¿e przeszkadzaæ w nauce zajê³o mi naprawdê du¿o
+czasu, o wiele za du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej,
+cierpliwie t³umaczy³).
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
 zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
