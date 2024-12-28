@@ -149,22 +149,6 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 W planach: Sekcja zwłok, studium przypadku
 
-### Przypisy
-
-[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
-
-[^2]: Więcej na ten fascynujący temat można poczytać w
-    [tej](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404?cc=it&lang=en&)
-    interesującej i wartościowej książce, ale niestety nie jest to lektura lekka, łatwa i przyjemna,
-    to znaczy może stać się w końcu względnie łatwa i przyjemna, ale żeby tak się stało, to przez
-    dłuższy czas nie może być lekka, bo dotyczy podobnych zastosowań, tyle, że jednocześnie
-    [*homotopijnej* teorii typów](https://homotopytypetheory.org/book/) i [teorii
-    kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii), którą nawet zawodowi matematycy
-    określają czasem (czule!) jako [*abstract
-    nonsense*](https://en.wikipedia.org/wiki/Abstract_nonsense).
-
-[^3]: Napisałem, co myślę o tej konwencji, w przypisie do jednego z rozdziałów.
-
 <a name="podziekowania"></a>
 ### Podziękowania
 
@@ -189,4 +173,18 @@ szaro.
 Maja Strypling za wskazanie błędu ortograficznego, który był dość długo wcześniej obecny na głównej
 stronie książki, jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
 
+### Przypisy
 
+[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
+
+[^2]: Więcej na ten fascynujący temat można poczytać w
+    [tej](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404?cc=it&lang=en&)
+    interesującej i wartościowej książce, ale niestety nie jest to lektura lekka, łatwa i przyjemna,
+    to znaczy może stać się w końcu względnie łatwa i przyjemna, ale żeby tak się stało, to przez
+    dłuższy czas nie może być lekka, bo dotyczy podobnych zastosowań, tyle, że jednocześnie
+    [*homotopijnej* teorii typów](https://homotopytypetheory.org/book/) i [teorii
+    kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii), którą nawet zawodowi matematycy
+    określają czasem (czule!) jako [*abstract
+    nonsense*](https://en.wikipedia.org/wiki/Abstract_nonsense).
+
+[^3]: Napisałem, co myślę o tej konwencji, w przypisie do jednego z rozdziałów.
