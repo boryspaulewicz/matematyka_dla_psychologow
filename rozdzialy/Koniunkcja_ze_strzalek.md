@@ -1,14 +1,17 @@
 ## O czym teraz będzie
 
-Czytając ten rozdział pamiętaj proszę, że jeżeli to, o czym będę tu mówił wyda Ci się na razie zbyt
-skomplikowane, to nie masz się czym przejmować, bo to, w jaki dokładnie sposób *implementujemy*
-koniunkcję *nie ma znaczenia*; ważne jest tylko to, jak koniunkcja *działa*. To znaczy, ostatecznie
-liczy się tylko to, jak możemy *używać* koniunkcji w dowodach, co już jak sądzę całkiem dobrze
-zrozumiałaś czytając poprzedni rozdział.
+Czytając ten rozdział pamiętaj proszę, że jeżeli to, o czym będę tu mówił, wyda Ci się na razie zbyt
+skomplikowane, to nie masz się czym przejmować. To w jaki sposób *implementujemy* koniunkcję *nie ma
+znaczenia*; ważne jest tylko to, jak koniunkcja *działa*. A mówiąc dokładniej, ostatecznie liczy się
+tylko to, jak możemy *używać* koniunkcji w dowodach, co już jak sądzę całkiem dobrze zrozumiałaś
+czytając rozdział poprzedni.
 
 Wywiązuję się tutaj z obietnicy, że wszystko w matematyce można zrobić ze strzałek (albo funkcji) i
-jednocześnie przybliżam pewien szczególny sposób myślenia o koniunkcji, który stanie się ważny w
-rozdziale następnym.
+jednocześnie przybliżam pewien szczególny sposób myślenia na temat koniunkcji, który stanie się
+ważny w rozdziale następnym. Pod koniec zaglębiam się również w szczegóły implementacji, które
+pozwalają modyfikować składnię, umożliwiając tym samym między innymi stosowanie standardowych
+symboli logicznych zgodnie z powszechnie przyjętymi konwencjami, takimi jak na przykład infiksowy
+(inaczej *wzrostkowy*) zapis koniunkcji czy prefiksowy (inaczej *przedrostkowy*) zapis negacji.
 
 <hr>
 
@@ -46,15 +49,23 @@ Jeżeli *A* i *B* to zdania, to:
 <ins><em>A ∧ B</em></ins>  
 *B*
 
-Jak mogłaby wyglądać definicja koniunkcji w logice konstruktywnej skonstruowana tylko za pomocą
-strzałek i funkcji? Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to *sensem* zdania `p ∧
-q` są *dokładnie te zdania, które wynikają z łącznej prawdziwości zdań `p` i `q`*.
+Jak mogłaby wyglądać definicja koniunkcji w naszej logice skonstruowana tylko za pomocą strzałek i
+funkcji? Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to *sensem* zdania `p ∧ q` są
+*dokładnie te zdania, które wynikają z łącznej prawdziwości zdań `p` i `q`* (a więc w tym *sensie*
+zawiera się również samo zdanie `p ∧ q`). Zacznę krótko, a potem będę to na różne sposoby rozwijał i
+przybliżał.
 
-Albo inaczej: koniunkcja zdań `p` i `q` to takie zdanie, a więc taki typ, że dowód tego zdania, a
-więc term tego typu, dostarcza dowód dokładnie takich zdań, które wynikają ze zdania `p` i ze zdania
-`q`.
+```lean
+def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
+```
 
-Albo inaczej: Jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to *każde* zdanie `r`,
+**Czytamy to**: Koniunkcja zdań `p` i `q` jest zdaniem (`: Prop`), którego dowód pozwala uzyskać
+dowód każdego zdania (`∀ r : Prop, ... → r`) które wynika łącznie ze zdań `p` i `q` (`(p → q → r)`).
+
+Albo tak: koniunkcja zdań `p` i `q` to takie zdanie, a więc taki typ, że dowód tego zdania, a więc
+term tego typu, dostarcza dowód dokładnie takich zdań, które wynikają ze zdania `p` i ze zdania `q`.
+
+Albo tak: Jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to *każde* zdanie `r`,
 które wynika z *łącznej* prawdziwości zdania `p` *i* prawdziwości zdania `q` też jest zdaniem
 prawdziwym i odwrotnie, jeżeli *każde* zdanie `r`, które wynika stąd, że `p` jest zdaniem prawdziwym
 *i jednocześnie* `q` jest zdaniem prawdziwym jest również zdaniem prawdziwym, to `p ∧ q` jest
@@ -96,8 +107,8 @@ k : ∀ r : Prop, (p → q → r)
 k : ∀ r : Prop, (p → q → r) → r
 ```
 
-I tak oto znaleźliśm "strzałkową" definicję koniunkcji. Jeszcze trochę inaczej, zapisując już
-oficjalną definicję koniunkcji jako zdania / typu:
+I tak oto znaleźliśm (ponownie) "strzałkową" definicję koniunkcji. Jeszcze trochę inaczej, po raz
+kolejny zapisując naszą definicję koniunkcji jako zdania / typu:
 
 ```lean
 -- Każda koniunkcja (and p q, gdzie p : Prop i q : Prop) jest zdaniem (: Prop), którego dowód (a więc funkcja) 
@@ -108,7 +119,8 @@ def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
 
 Będzie chyba najlepiej, jeśli zapoznasz się z "mechaniką" działania tej definicji w praktyce. Nie
 będę w tym rozdziale stosował oficjalnego symbolu koniunkcji, to jest będę pisał `and p q` zamiast
-`p ∧ q`, żeby nie wprowadzać języka makr, który pozwala na takie zmiany w notacji.
+`p ∧ q`, żeby nie wprowadzać za wcześnie tych elementów języka, które na takie zmiany w notacji
+pozwalają.
 
 ```lean
 --- Niech dowod_koniunkcji_ab będzie dowodem koniunkcji zdań a i b:
@@ -119,7 +131,7 @@ variable (dowod_koniunkcji_ab : and a b)
 Żeby się przekonać, że nasza definicja *działa* zgodnie z oczekiwaniami, zdefiniujemy najpierw dwie
 funkcje, które każdy dowód koniunkcji przekształcają odpowiednio w dowód pierwszego i drugiego
 członu tej koniunkcji, czyli implementują obie reguły eliminacji dla koniunkcji. Trzymając się
-konwencji, która obowiązuje w Leanie, nazwiemy je `left` i `right`.
+konwencji która obowiązuje w Leanie nazwiemy je `left` i `right`.
 
 ```lean
 def left (p q : Prop) (k : and p q) : p :=
@@ -131,10 +143,10 @@ and a b
 -- ... to ma też typ (rozpakowujemy stałą and) ...
 (fun (p : Prop) => fun (q : Prop) => ∀ r : Prop, (p → q → r) → r) a b
 
--- odczepiamy ciało i podstawiamy a:
+-- Odczepiamy ciało i podstawiamy a:
 (fun (q : Prop) => ∀ r : Prop, (a → q → r) → r) b
 
--- odczepiamy ciało i podstawiamy b:
+-- Odczepiamy ciało i podstawiamy b:
 ∀ r : Prop, (a → b → r) → r
 
 -- A więc:
@@ -181,7 +193,7 @@ dowod_koniunkcji_ab a (fun (hp : a) => fun (hq : b) => hp) : a
 Naprawdę nie wiem, czy pomogłem. Funkcja `right` działa podobnie:
 
 ```lean
-def right (p q : Prop) (k : p ∧ q) : q :=
+def right (p q : Prop) (k : and p q) : q :=
     k q (fun (hp : p) => fun (hq : q) => hq)
 ```
 
@@ -204,7 +216,99 @@ Jak łatwo sprawdzić, funkcja `intro` z dowodów `hp` i `hq` zdań `p` i `q` od
 że to są zdania) tworzy funkcję `fun (r : Prop) => fun (h : p → q → r) => h hp hq`, a więc term typu
 `∀ r : Prop, (p → q → r) → r` , a więc, zgodnie z definicją stałej `and`, term typu `and p q`.
 
-Widzimy więc, że da się to wszystko "zrobić ze strzałek", ale jak dotąd nie jest jasne, czy warto
-się przy tym upierać. W następnym rozdziale przekonamy się jednak, że taki "czysto-strzałkowy" punkt
-widzenia ma pewne szczególne zalety, ponieważ pozwala mówić językami nie tylko ludzi, ale i
-*aniołów*.
+## Języki dziedzinowe
+
+Podaję za [Wikipedią](https://pl.wikipedia.org/wiki/J%C4%99zyk_dziedzinowy) (2024-12-28):
+
+> Język dziedzinowy, także język dedykowany, język specjalizowany, mini język[1]
+> (ang. domain-specific language, DSL) – język programowania przystosowany do rozwiązywania
+> określonej dziedziny problemów, określonej reprezentacji problemu lub określonej techniki ich
+> rozwiązywania
+
+Docelowo stworzymy taki język dziedzinowy, wraz z dobrze określonym towarzyszącym mu aparatem
+pojęciowym opisanym w języku naturalnym, który będzie przystosowany do rozwiązywania problemów
+dotyczących *zachowania*. Teraz jednak zajmiemy się tylko negacją i koniunkcją. Sugeruję, żebyś
+potraktowała ten fragment tak, jakbyś była turystką i zwiedzała nieznane Ci wcześniej miejsca,
+przyglądając się dłużej temu na co tylko masz ochotę i nie starając się za wszelką cenę wszystkiego
+dobrze poznać, zapamiętać albo zrozumieć.
+
+Poniższy kod zawiera elementy, o których wcześniej nie pisałem i nie będę z nich prędko korzystał,
+dlatego możesz potraktować to wszystko jako sugestywną ilustrację. Chcę Ci w ten sposób pokazać, jak
+bardzo można zbliżyć zapis w Leanie do rozmaitych wyspecjalizowanych języków, czyli języków
+dziedzinowych, takich jak standardarowy język formalny logiki (mówiąc w uproszczeniu, bo nie ma
+jednego ogólnie przyjętego sposobu zapisu symboli logicznych). Gdyby miało Cię to już teraz
+zainteresować, na wszelki wypadek wyjaśnię, co się tutaj dzieje. 
+
+Korzystam z przestrzeni nazw (`namespace`), dzięki czemu definiując stałe `Not`, `And`, `And.left`,
+`And.right` i `And.intro` nie generuję konfliktów z tym, jak te symbole są zdefiniowane w
+Leanie. Komenda `infixr` służy do wprowadzania konwencji zapisu infiksowego dla operatorów binarnych
+które wiążą z prawej, takich jak dobrze Ci już znana strzałka, stąd na końcu w nazwie litera *r* (od
+*right*). 
+
+Ponieważ w przestrzeni nazw `Logika` mówię Leanowi, że ma interpretować `∧` jako infiksową wersję
+funkcji `And` i stosować wiązanie z prawej, to na przykład `p ∧ q ∧ r` będzie w tej przestrzeni nazw
+oznaczało `p ∧ (q ∧ r)`, a to z kolei będzie interpretowane jako `And p (And q r)`. Liczba `35`,
+która pojawia się za dwukropkiem obok makra `infixr`, określa *stopień pierwszeństwa* operatora i
+służy do tego, żeby Lean mógł rozstrzygnąć o kolejności wykonywania działań (a dokładnie aplikacji)
+gdy brak nawiasów powoduje, że ta nie jest jednoznaczna. Na przykład, dla Ciebie *a + b \* c* znaczy
+*a + (b \* c)* a nie *(a + b) \* c*, bo wiesz, że mnożenie ma wyższy priorytet niż dodawanie, czyli
+mocniej wiąże. Ponieważ w Leanie korzystamy z wielu różnych operatorów binarnych i unarnych (takich
+jak `¬`), priorytet musi być zapisany liczbowo. W przypadku negacji ta liczba jest zapisana jako
+`max`, co Lean interpretuje jako `1024`, co znaczy, że symbol negacji wiąże najmocniej.
+
+Pozwoliłem sobie tutaj również skorzystać z tak zwanych *parametrów opcjonalnych*, co widać między
+innymi w definicji funkcji `And.intro`. W tej definicji zamiast zwykłych nawiasów, jak w `(p q :
+Prop)`, pierwsze dwa parametry są otoczone nawiasami *klamrowymi* (`{p q : Prop}`). Ponieważ trzeci
+argument funkcji `And.intro` musi być koniunkcją, a ta *musi* zawierać informacje na temat tego, z
+jakich konkretnie zdań jest zbudowana, Lean może na tej podstawie sam wywnioskować wartość dwóch
+pierwszych parametrów. Dzięki temu, jeżeli w danym miejscu w kodzie `k : p ∧ q`, wystarczy napisać
+`And.intro k` zamiast dłuższego i redundantnego (czyli "niepotrzebnie przegadanego") `And.intro p q
+k`. Oznaczyłem też za pomocą symbolu `_` te parametry λ-abstrakcji, które nie są nigdzie używane i
+usunąłem w ten sposób ostrzeżenia na temat stylu.
+
+```lean
+-- Zapisując poniższe definicje w przestrzeni nazw którą nazwałem Logika nie generuję konfliktów z
+-- istniejącymi w Leanie definicjami tych samych stałych.
+namespace Logika
+
+-- W Leanie w zasadzie tą samą *rolę* odgrywa stała False, jednak *implementacja* tej roli jest
+-- inna, bo w Leanie nie trzeba wszystkiego budować ze strzałek i funkcji.
+def Absurd : Prop := (a : Prop) → a
+
+-- Negacja jest w Leanie również zdefiniowana trochę inaczej, a konkretnie jako p → False.
+def Not (p : Prop) : Prop := p → Absurd
+notation:max "¬" p:40 => not p
+
+-- And to w Leanie typ par uporządkowanych zdań, a więc pewna *struktura* (o strukturach będę mówił
+-- później). Dlatego również stałe And.left, And.right i And.intro, chociaż dostarczają zasadniczo
+-- tą samą funkcjonalność, różnią się szczególami implementacji.
+def And (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
+infixr:35 " ∧ " => And
+
+def And.intro {p q : Prop} (hp : p) (hq : q) :=
+    fun (r : Prop) => fun (h : p → q → r) => h hp hq
+
+def And.left {p q : Prop} (k : And p q) : p :=
+  k p (fun (hp : p) => fun (_ : q) => hp)
+
+def And.right {p q : Prop} (k : And p q) : q :=
+    k q (fun (_ : p) => fun (hq : q) => hq)
+
+variable (p q : Prop)
+-- Gdy kursor znajduje się nad komendą #check Lean sygnalizuje *błąd*, ponieważ za bardzo zbliżyłem się tutaj
+-- do tego, jak Lean obsługuje notację logiczną:
+--
+-- ambiguous, possible interpretations 
+--   p ∧ q : Prop
+--
+--   p ∧ q : Prop
+#check p ∧ q
+
+end Logika
+```
+
+Widzimy więc, że wszystko możemy "zrobić ze strzałek", chociaż jak dotąd nie jest może wcale jasne,
+czy warto się przy tym upierać. W następnym rozdziale przekonamy się jednak, że taki
+"czysto-strzałkowy" punkt widzenia ma pewne szczególne zalety, ponieważ pozwala mówić językami nie
+tylko ludzi, ale i
+[*aniołów*](https://www.christianity.com/wiki/angels-and-demons/what-do-angels-look-like.html).
