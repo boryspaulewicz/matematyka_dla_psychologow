@@ -19,7 +19,7 @@ To, że teoria *ZF* ma status jednej z teorii podstawowych w matematyce oznacza 
 Jerzy von Neumann wpadł na następujący pomysł jak w ten sposób "zakodować" liczby naturalne ($∅$ to
 symbol oznaczający zbiór pusty, czyli ${}$):
 
-$0 := \{\} = ∅$
+$0 := \left{\} = ∅$
 
 $1 := \{0\} = \{∅\}$
 
