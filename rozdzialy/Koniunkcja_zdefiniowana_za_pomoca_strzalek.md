@@ -13,15 +13,15 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni cytat z
 > inne szeroko używane obiekty jak liczby, funkcje oraz inne relacje; teoria mnogości stała się tak
 > źródłem modeli różnych teorii formalnych.
 
-Nie będziemy się teraz przyglądać tym aksjomatom, ponieważ my akurat *zrobimy* sobie - ze strzałek i
-funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
-skorzystam tutaj z teorii *ZF* jako ważnego przykładu.
+Nie będziemy się teraz przyglądać aksjomatom tej teorii, ponieważ my akurat *zrobimy* sobie - ze
+strzałek i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to
+nastąpi, skorzystam tutaj z teorii *ZF* jako ważnego przykładu.
 
 To, że teoria *ZF* ma status jednej z teorii podstawowych w matematyce oznacza między innymi, że
 można skonstruować rozmaite obiekty matematyczne posługując się tylko zbiorami. Zbiory *skończone*
 możemy zapisać *dosłownie*, na przykład tak:
 
-$\set{1, 20, \*, ~, -3.4}$
+$\set{1, 20, \*, \~, -3.4}$
 
 Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, bo zapisane dosłownie nie
 zmieściłyby się na żadnej stronie. Wymyślając ten przykład chciałem od razu zasugerować, że w
