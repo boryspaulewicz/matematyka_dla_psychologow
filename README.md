@@ -192,11 +192,11 @@ szaro.
 I jeszcze raz Tomkowi Smoleniowi, za znalezienie w rozdziale *Negacja w praktyce dowodzenia* błędu w
 kodzie zadania `tn3`. Zapisując to zadani musiałem przekleić z otaczającego tekstu wyrażnie `¬ P n →
 (P n → Q n)`, sformatowane tak, żeby wyświetlało się jako fragment kodu, a więc jako fragment tekstu
-otoczony grawisami (ang. *backtick*): \`¬ P n → (P n → Q n)\`. Tak to się robi w plikach zapisanych
-w formacie [*Markdown*](https://en.wikipedia.org/wiki/Markdown), którego tutaj używam. Dzięki temu
-[TIL](https://en.wiktionary.org/wiki/TIL), że to się nazywa
-[*grawis*](https://pl.wikipedia.org/wiki/Grawis). Note to self: Borek, sprawdzaj częściej kod, bo
-nie masz w głowie Leana.
+otoczony *grawisami* (ang. *backtick*): \`¬ P n → (P n → Q n)\`. Tak to się robi w plikach
+zapisanych w formacie [Markdown](https://en.wikipedia.org/wiki/Markdown), którego tutaj
+używam. Dzięki temu [TIL](https://en.wiktionary.org/wiki/TIL), że to się nazywa
+[grawis](https://pl.wikipedia.org/wiki/Grawis). Note to self: Borek, sprawdzaj częściej kod, bo nie
+masz w głowie Leana.
 
 Kubie Szewczykowi, za dodającą odwagi, rzeczową i przemyślaną reakcję.
 
