@@ -121,18 +121,19 @@ też jest z Twojej perspektywy aksjomatem i musi nim pozostać.
 ## Na czym według mnie polega bycie naukowcem
 
 Zauważyłoś już na pewno, że zdarza mi się w tej książce udawać trochę głupszego, niż faktycznie
-jestem. Nawet jednak gdy nie udaję głupszego, niż jestem, *nie* oczekuję, że będziesz wierzyło w to,
-co mówię. Wręcz przeciwnie, byłoby moim zdaniem wspaniale, gdybyś przyjęło wobec tego, co mówię,
-postawę sceptyczną. A to dlatego, że *próbuję dobrze odgrywać rolę naukowca* i tego oczekuję też od
-*Ciebie*. Jestem głupi, ponieważ jestem człowiekiem, a więc odgrywanie dobrze roli naukowca to
-wszystko, na co mnie stać, gdy mam dobry dzień. Właśnie to, między innymi, według mnie oznacza bycie
-naukowcem.
+jestem. Nawet jednak gdy nie udaję głupszego niż jestem, *nie* oczekuję, że będziesz wierzyło w to,
+co mówię. Wręcz przeciwnie, byłoby moim zdaniem wspaniale, gdybyś przyjęło wobec *wszystkiego* co
+mówię postawę *sceptyczną*. A to dlatego, że *próbuję dobrze odgrywać rolę naukowca* i tego oczekuję
+też od *Ciebie*. Jestem głupi, ponieważ jestem człowiekiem, a więc odgrywanie dobrze roli naukowca
+to wszystko, na co mnie stać, gdy mam dobry dzień. Właśnie to, między innymi, według mnie oznacza
+bycie naukowcem.
 
 Co jeszcze, poza czymś w rodzaju racjonalności, oznacza moim zdaniem bycie naukowcem? Dziękuję, że
 pytasz! Między innymi [*wolność*](https://www.youtube.com/watch?v=diYAc7gB-0A). Pod tym względem
-(jak i wieloma innymi) zgadzam się (zgadzam się jest chyba za mocno powiedziane - raczej mu ufam) z
-genialnym Noamem Chomskim, który uważa się za *anarchistę*. Brzmi może niepokojąco, ale chodzi tak
-naprawdę o postawę, która w mojej ocenie nie jest wcale ekscentryczna ani ekstremalna:
+(jak i wieloma innymi) zgadzam się (zgadzam się to za mocno powiedziane - raczej mu ufam) z
+genialnym [Noamem Chomskim](https://chomsky.info/20110408/), który uważa się za *anarchistę*. Brzmi
+może niepokojąco, ale chodzi tak naprawdę o postawę, która w mojej ocenie nie jest wcale
+ekscentryczna ani ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
@@ -144,10 +145,10 @@ zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of
 *me*.
 
 Oboje mamy więc pewne zobowiązania, bo jesteśmy częścią wspólnoty, dzięki której możemy między
-innymi robić to, co właśnie robimy. To jest koszt tej wolności, o której teraz mówię. Ja pracuję na
-uczelni i co miesiąc dostaję pensję pochodzącą z publicznych pieniądzy, a Ty studiujesz za pieniądze
-publiczne i być może też pieniądze Twoich rodziców. Między innymi dlatego mamy wobec siebie pewne
-oczekiwania.
+innymi robić to, co właśnie robimy. Jest to więc pewien rodzaj kosztu tej wolności, o której właśnie
+teraz mówię. Ja pracuję na uczelni i co miesiąc dostaję pensję pochodzącą z publicznych pieniądzy, a
+Ty studiujesz za pieniądze publiczne i być może też pieniądze Twoich rodziców. Między innymi
+dlatego, ale nie tylko dlatego, mamy wobec siebie takie a nie inne oczekiwania.
 
 Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzając dużej ilości czasu na
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
@@ -157,9 +158,9 @@ inny obowiązek, poza gotowością do uzasadniania tego, o czym mówię, poza w 
 uzupełnianiem braków w wiedzy i poza wskazywaniem błędów w tekstach, z których korzystamy na
 zajęciach (co akurat bardzo lubię robić). Mam na myśli obowiązek dobrego tłumaczenia. A na Tobie,
 ponieważ zajmujesz miejsce, które mógłby zająć przecież ktoś inny, spoczywa obowiązek podejmowania
-prób zrozumienia tego, co staram Ci się wytłumaczyć. Chodzi mi tylko o próby, bo na dłuższą metę
-tylko to się moim zdaniem liczy. I to są bez wątpienia obowiązki, ale również szansa na coś
-wspaniałego.
+prób zrozumienia tego, co staram Ci się wytłumaczyć, jak również wskazywania mi, kiedy kiepsko coś
+tłumaczę. Chodzi mi tylko o próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to są bez
+wątpienia obowiązki, ale również szansa na coś wspaniałego.
 
 ### Przypisy
 
