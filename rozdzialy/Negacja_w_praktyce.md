@@ -38,7 +38,7 @@ variable (np : ¬p)
    każde zdanie stosując tak zwaną zasadę eksplozji dedukcyjnej. Ta zasada mówi, że *ze
    sprzeczności* (albo *z fałszu*) *wynika wszystko*. Mając takie dowody zdań sprzecznych, możesz
    zastosować zasadę eksplozji dedukcyjnej albo używając funkcji `absurd`, albo funkcji
-   `False.elim`, wybór należy do Ciebie:
+   `False.elim`, wybór należy do Ciebie (ilustracja):
 
 ```lean
 -- Dla dowolnego zdania q ...
@@ -54,7 +54,7 @@ variable (q : Prop)
 -- sprzeczności, a właściwie z fałszu.
 ```
 
-W tym kodzie pojawiły się nieznane Ci jeszcze aspekty Leana, to jest jawne podanie wartości
+W tym kodzie pojawiła się nieznana Ci jeszcze funkcjonalność Leana, to jest jawne podanie wartości
 parametru opcjonalnego (`(b := q)` i `(C := q)`), ale ani rozwiązując zadania w tym rozdziale, ani
 czytając rozdział następny, nie będziesz musiała korzystać z tej funkcjonalności.
 
