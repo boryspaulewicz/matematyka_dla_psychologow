@@ -557,4 +557,4 @@ programy*.
     jedynym miejscem, w którym poczuł się przez chwilę nieco przytłoczony nadmiarem informacji, był
     właśnie ten fragment, dotyczący funkcji `plus`. Gdy jednak Szymon doczytał trochę dalej,
     wszystko się rozjaśniło i reszta poszła mu już, o ile mi wiadomo, jak z płatka. Na Jego cześć
-    dodałem to ostrzeżenie (i słowa zachęty).
+    dodałem więc to ostrzeżenie (i słowa zachęty).
