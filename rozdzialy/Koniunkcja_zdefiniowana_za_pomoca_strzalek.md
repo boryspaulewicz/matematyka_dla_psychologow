@@ -69,6 +69,6 @@ naturalnych von Neumanna)
 Widzimy tutaj przykładowy *skutek uboczny* tej definicji, polegający na tym, że *liczba naturalna 1
 jest elementem zbioru liczba naturalna 2*. Ten skutek uboczny wynika stąd, że te liczby są
 *zaimplementowane* za pomocą zbiorów, a zbiory mają różne właściwości, których *nie mają* liczby
-naturalne *jako takie*. W zasadzie nic nie szkodzi, ale jednak ta definicja wydaje się troszeczkę
-*zbyt wegańska*, prawda?
+naturalne *jako takie*. W zasadzie nic nie szkodzi, jesteśmy przecież tolerancyjni, ale jednak
+definicja von Neumanna jest troszeczkę *zbyt wegańska*, prawda?
 
