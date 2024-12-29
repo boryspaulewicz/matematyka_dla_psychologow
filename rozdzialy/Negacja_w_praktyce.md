@@ -30,7 +30,7 @@ variable (hp : p)
 -- ... i dowód np jego negacji.
 variable (np : ¬p)
 
--- Ponieważ hp : ¬p, czyli, zgodnie z definicją negacji, hp : p → False, to:
+-- Ponieważ np : ¬p, czyli, zgodnie z definicją negacji, hp : p → False, to:
 #check np hp -- np hp : False
 ```
 
