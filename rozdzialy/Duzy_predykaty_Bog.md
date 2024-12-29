@@ -192,7 +192,7 @@ potraktować zarówno jako przesłankę, krok lub wniosek, zależnie od tego, co
 
 > Efekt Stroopa był istotnie mniejszy u osób z niższym poziomem ekstrawersji.
 
-... widzimy trzy *terminy techniczne*: [*efekt
+... widzimy trzy [*terminy techniczne*](https://en.wikipedia.org/wiki/Technical_definition): [*efekt
 Stroopa*](https://pl.wikipedia.org/wiki/Efekt_Stroopa), [*istotność
 statyczną*](https://pl.wikipedia.org/wiki/Poziom_istotno%C5%9Bci) i **wynik** *w [teście
 ekstrawersji](https://pl.wikipedia.org/wiki/Wielka_pi%C4%85tka)*. Możemy się spodziewać, że
