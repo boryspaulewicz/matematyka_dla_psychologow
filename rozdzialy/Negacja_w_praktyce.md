@@ -14,8 +14,8 @@ rozdziału poznasz często używaną implikacją przeciwną.
 
 Najpierw krótko i od razu przechodząc do rzeczy.
 
-Symbol negacji `¬` uzyskasz wpisując `\neg`. Oto w zasadzie wszystko, co musisz wiedzieć o negacji,
-żeby dowodzić twierdzeń w których występuje:
+Symbol negacji `¬` uzyskasz wpisując `\neg`. Oto w zasadzie wszystko, co musisz wiedzieć o negacji w
+praktyce dowodzenia:
 
 1. W logice konstruktywnej negacja zdania jest tak naprawdę pewną implikacją, a dokładniej jeśli `p`
    to jakieś zdanie, to `¬p` znaczy to samo, co `p → False`. Dowód negacji zdania jest więc funkcją,
