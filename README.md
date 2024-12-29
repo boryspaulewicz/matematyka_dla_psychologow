@@ -204,6 +204,13 @@ Kubie Szewczykowi, za dodającą odwagi, rzeczową i przemyślaną reakcję.
 Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo tu na głównej stronie,
 jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
 
+Szymonowi Stryplingowi, który jak dotąd jest najmłodszym (czternastoletnim!) znanym mi czytelnikiem
+tej książki i któremu opanowanie treści zawartych i wykonanie poleceń zawartych w rozdziale piątym
+zajęło, jak się dowiedziałem, około pół godziny. Z tej okazji, na Jego cześć, przed fragmentem,
+którego zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani trochę mnie nie
+dziwi, bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale najtrudniejszy -
+dodałem dłuższe ostrzeżenie i zachętę.
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
