@@ -205,11 +205,11 @@ Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo
 jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
 
 Szymonowi Stryplingowi, który jak dotąd jest najmłodszym (czternastoletnim!) znanym mi czytelnikiem
-tej książki i któremu opanowanie treści zawartych i wykonanie poleceń zawartych w rozdziale piątym
-zajęło, jak się dowiedziałem, około pół godziny. Z tej okazji, na Jego cześć, przed fragmentem,
-którego zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani trochę mnie nie
-dziwi, bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale najtrudniejszy -
-dodałem dłuższe ostrzeżenie i zachętę.
+tej książki i któremu opanowanie treści i wykonanie poleceń zawartych w rozdziale piątym zajęło, jak
+się dowiedziałem, około pół godziny. Z tej okazji, na Jego cześć, przed fragmentem, którego
+zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani trochę mnie nie dziwi,
+bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale najtrudniejszy - dodałem
+dłuższe ostrzeżenie i zachętę.
 
 ### Przypisy
 
