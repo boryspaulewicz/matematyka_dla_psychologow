@@ -157,8 +157,10 @@ albo *wykorzystanie* (czyli jakby "zużycie") założenia (danego rodzaju).
 
 Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja):
 
-`h1 : ¬p  
+```lean
+h1 : ¬p
 h2 : p`
+```
 
 to ponieważ (rozpakowując definicję negacji) `h1 : ¬p` znaczy to samo, co `h1 : p → False`, to
 
