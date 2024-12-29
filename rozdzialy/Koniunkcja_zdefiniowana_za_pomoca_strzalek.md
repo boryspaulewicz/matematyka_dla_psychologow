@@ -19,13 +19,13 @@ To, że teoria *ZF* ma status jednej z teorii podstawowych w matematyce oznacza 
 Jerzy von Neumann wpadł na następujący pomysł jak w ten sposób "zakodować" liczby naturalne ($∅$ to
 symbol oznaczający zbiór pusty, czyli ${}$):
 
-$0 := {} = ∅$
+$0 := \{\} = ∅$
 
-$1 := {0} = {∅}$
+$1 := \{0\} = \{∅\}$
 
-$2 := {0, 1} = {∅, {∅}}$ 
+$2 := \{0, 1\} = \{∅, \{∅\}\}$ 
 
-$3 := {0, 1, 2} = {∅, {∅}, {∅, {∅}}}$
+$3 := \{0, 1, 2\} = \{∅, \{∅\}, \{∅, \{∅\}\}\}$
 
 I tak dalej. Wygląda to dziwnie, bo to *jest* dziwne, ale w matematyce ostatecznie liczy się tylko
 to, czy coś *działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc *są* liczbami
