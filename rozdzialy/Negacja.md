@@ -1,7 +1,7 @@
 ## O czym teraz będzie
 
-No tutaj to chyba akurat ja bawię się najlepiej. Może i Tobie się udzieli. A rozdział dotyczy
-negacji i sprzeczności w logice konstruktywnej.
+No tutaj to chyba akurat ja bawię się najlepiej. Może i Tobie się udzieli. A rozdział zawiera
+teoretyczne rozważania na temat negacji i sprzeczności w logice konstruktywnej.
 
 <hr>
 
@@ -16,8 +16,9 @@ Podaję za
 > sprzeczności. Oznacza to, że na podstawie sprzeczności można wywnioskować dowolne twierdzenie (w
 > tym jego negację); zjawisko to nazywa się eksplozją dedukcyjną.
 
-Na początek przyjmiemy taką oto definicję *absurdu*. Zwracam uwagę, że ponieważ `Prop` to typ
-wyższego rzędu, to jest definicja *typu* (i zarazem zdania):
+Na początek przyjmiemy taką oto definicję *absurdu* (z dużej litery, żeby nie wchodzić w konflikt z
+definicją Leana). Zwracam uwagę, że ponieważ `Prop` to typ wyższego rzędu, to jest definicja *typu*
+(i zarazem zdania):
 
 ```lean
 def Absurd : Prop := (a : Prop) → a
@@ -61,7 +62,9 @@ dowolnego innego zdania.
 Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
 bo skorzystaliśmy z hipotetycznego dowodu absurdu, którego nie zadeklarowaliśmy poza lokalnym
-kontekstem. Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
+kontekstem. 
+
+Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
 [*Ex falso quodlibet*](https://xkcd.com/704/).
 
@@ -102,7 +105,7 @@ variable (p : Prop)
 -- i tak dalej
 ```
 
-Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta ona
+Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta konwencja
 działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem* a nie
 funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, czyli jest *typem /
 zdaniem parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
@@ -143,7 +146,7 @@ Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zd
 ## Negacja w logice konstruktywnej
 
 Negacja jest operatorem jednoargumentowym, który z dowolnego zdania `p` tworzy negację tego zdania,
-`¬p`, która też jest, oczywiście, zdaniem. Dzięki izomorfizmowi Curry'ego-Howarda możemy ten ten typ
+`¬p`, która też jest, oczywiście, zdaniem. Dzięki izomorfizmowi Curry'ego-Howarda możemy ten typ
 konsekwentnie interpretować jako zdanie o treści *nieprawda, że `p`*.
 
 Każde zdanie postaci `¬p` jest *potencjalnym* [*granatem
@@ -163,7 +166,7 @@ jest zdaniem / typem, dającym się konsekwentnie interpretować jako zdanie *Z 
 fałsz*, albo *Gdyby `p` było zdaniem prawdziwym, nastąpiłaby apokalipsa*:
 
 ```lean
--- Definicja negacji:
+-- A to *nasza* wersja definicji negacji:
 def nie (p : Prop) : Prop := p → Absurd
 
 -- Deklarujemy, że p jest jakimś zdaniem.
@@ -186,13 +189,9 @@ variable (q : Prop)
 ```
 
 Symbol `¬` działa w Leanie *podobnie*, ale nie całkiem tak samo, jak zdefiniowana właśnie stała
-`nie`.
-
-**Polecenie**: Aby uzyskać symbol negacji `¬` wpisz `\neg`, po czym usuń ten symbol.
-
-Z powodów technicznych, które nie będą nas interesować, definicja stałej `absurd` (z małej litery)
-ma w Leanie jest bardziej skomplikowana (tylko ją tu pokazuję, może lepiej nie próbuj jej zrozumieć,
-jeżeli dopiero zaczynasz się uczyć):
+`nie`. Ponadto z powodów technicznych, które nie będą nas interesować, definicja stałej `absurd` (z
+małej litery) w Leanie jest bardziej skomplikowana (tylko ją tu pokazuję, może lepiej nie próbuj jej
+zrozumieć, jeżeli dopiero zaczynasz się uczyć):
 
 ```lean
 #print absurd
@@ -201,7 +200,8 @@ jeżeli dopiero zaczynasz się uczyć):
 ```
 
 Różnica wynika stąd, że ta definicja nie wyraża przyjętej przez nas treści pojęcia absurd, tylko
-korzysta z tego pojęcia, żeby można go było wygodnie używać w dowodach. Poza tym chodzi o to samo.
+korzysta z tego pojęcia, żeby można go było wygodnie używać w dowodach. Poza tym jednak chodzi o to
+samo.
 
 **Ostrzeżenie**: Ponieważ zależy mi, żebyś nauczyła się posługiwać tymi pojęciami bez mojej pomocy,
 odtąd będę rzadziej przypominał o różnicach między zdaniem jako takim, istnieniem dowodu zdania albo

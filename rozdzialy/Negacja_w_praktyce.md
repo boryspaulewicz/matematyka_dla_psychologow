@@ -12,6 +12,53 @@ rozdziału poznasz często używaną implikacją przeciwną.
 
 # Negacja w praktyce dowodzenia, pierwsze kroki
 
+Najpierw krótko i od razu przechodząc do rzeczy.
+
+Symbol negacji `¬` uzyskasz wpisując `\neg`. Oto w zasadzie wszystko, co musisz wiedzieć o negacji,
+żeby dowodzić twierdzeń w których występuje:
+
+1. W logice konstruktywnej negacja zdania jest tak naprawdę pewną implikacją, a dokładniej jeśli `p`
+   to jakieś zdanie, to `¬p` znaczy to samo, co `p → False`. Dowód negacji zdania jest więc funkcją,
+   która każdy dowód tego zdania przekształca w dowód fałszu. A ponadto *aplikacja dowodu negacji
+   zdania do dowodu tego zdania* jest dowodem *fałszu*:
+   
+```lean
+-- Deklarujemy, że mamy jakieś zdanie P, ...
+variable (p : Prop)
+-- ... dowód hp tego zdania ...
+variable (hp : p)
+-- ... i dowód np jego negacji.
+variable (np : ¬p)
+
+-- Ponieważ hp : ¬p, czyli, zgodnie z definicją negacji, hp : p → False, to:
+#check np hp -- np hp : False
+```
+
+2. Zawsze gdy masz dowód `hp` jakiegoś zdania `p` i dowód `np` jego negacji `¬p`, możesz udowodnić
+   każde zdanie stosując tak zwaną zasadę eksplozji dedukcyjnej. Ta zasada mówi, że *ze
+   sprzeczności* (albo *z fałszu*) *wynika wszystko*. Mając takie dowody zdań sprzecznych, możesz
+   zastosować zasadę eksplozji dedukcyjnej albo używając funkcji `absurd`, albo funkcji
+   `False.elim`, wybór należy do Ciebie:
+
+```lean
+-- Dla dowolnego zdania q ...
+variable (q : Prop) 
+
+-- ... możemy zrobić tak ...
+#check absurd (b := q) hp np -- absurd hp np : q
+
+-- ... albo tak:
+#check False.elim (C := q) (np hp) -- False.elim (hp np) : q
+
+-- To tylko dwa różne sposoby zapisania tej samej operacji, to jest udowodnienia dowolnego zdania ze 
+-- sprzeczności, a właściwie z fałszu.
+```
+
+W tym kodzie pojawiły się nieznane Ci jeszcze aspekty Leana, to jest jawne podanie wartości
+parametru opcjonalnego (`(b := q)` i `(C := q)`) i korzystanie z faktu, ale ani rozwiązując zadania
+w tym rozdziale, ani czytając rozdział następny, nie będziesz musiała korzystać z tej
+funkcjonalności.
+
 Myślę, że jesteś już gotowa, żeby poćwiczyć dowodzenie zdań zawierających negację. Nie wiem tylko
 jeszcze, jakie zadania Ci zaproponować. Takie zadanie może polegać albo na *uzyskaniu* dowodu
 negacji wewnątrz jakiejś formuły logicznej, albo na jej *użyciu*. Może zaczniemy od użycia, bo tak
@@ -20,12 +67,13 @@ będzie mi chyba łatwiej.
 Żeby skonstruować takie zadanie, muszę stworzyć zdanie, w którym negacja będzie odgrywała rolę
 *przesłanki*. Może `¬p → q`? No nie, z tym nic się nie da zrobić, bo tu są tylko dwa zdania, a żeby
 użyć `¬p`, trzeba mieć również `p`. Przecież w żaden sposób nie uzyskam z dowodu `q` dowodu `p`, bo
-to są różne zdania *atomowe*, czyli bez żadnej wewnętrznej struktury. Gdy nie ma dodatkowych
-przesłanek, które wiązałyby ze sobą - bezpośrednio lub jakoś pośrednio - dwa zdania, mówimy, że te
-zdania są *logicznie niezależne*.
+to są różne zdania *atomowe*, czyli bez żadnej wewnętrznej struktury. Nawiasem mówiąc, gdy nie ma
+dodatkowych przesłanek, które wiązałyby ze sobą - bezpośrednio lub jakoś pośrednio - dwa zdania,
+mówimy, że te zdania są *logicznie niezależne*.
 
 To może `¬p → q → p`? Też bez sensu. Przecież z `¬p` i `q` nie może wynikać `p`. Zaraz, ze
-sprzeczności wynika każde zdanie. Już wiem. Zaczniemy od najprostszego możliwego zadania tego typu.
+sprzeczności wynika każde zdanie... Już wiem. Zaczniemy od najprostszego możliwego zadania tego
+typu.
 
 **Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
 Leanie można zastosować *funkcję* `absurd` (z małej litery). Stosujemy ją do dwóch (być może
@@ -56,27 +104,27 @@ poprzednik `¬p`. Wiesz też, że gdy będąc w trybie interaktywnym założysz 
 komendy `intro` (z wybraną przez siebie nazwą dla hipotetycznego dowodu `¬p`), to zostanie jako cel
 do udowodnienia prostsze zdanie `(p → q)`. A żeby z kolei udowodnić to zdanie trzeba znowu założyć
 poprzednik, w ten sam sposób co wcześniej, tylko używając innej nazwy, bo to też jest
-implikacja. Wtedy zostanie tylko zdanie `q`.
+implikacja. Wtedy zostanie do udowodnienia tylko zdanie `q`.
 
 Jedynym sposobem, żeby udowodnić to ostatnie zdanie, będzie skorzystanie z tego, co już w tym
 momencie będziesz miała, czyli z hipotetycznych dowodów zdań `¬p` i `p`. Byłbym zapomniał, a to
 teraz będzie ważne - masz przecież jeszcze coś w kontekście: zdania jako takie (a nie ich dowody),
 `p` i `q`. Te zmienne są parametrami twierdzenia `tn1`, a więc muszą być wewnątrz tego twierdzenia
 dostępne. W trybie interaktywnym pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym
-powinienem chyba jeszcze raz objaśnić różnicę między moją definicją absurdu i tą, z której korzysta
-Lean.
+powinienem chyba jeszcze raz objaśnić definicję absurdu z której korzysta Lean.
 
 Jeśli w trybie dowodzenia interaktywnego napiszesz `exact absurd` z dwoma (być może złożonymi)
 argumentami, to jest jakimś dowodem jakiegoś zdania i jakimś dowodem negacji tego samego zdania
-(jeszcze raz - w tej kolejności), to nie będzie trzeba już dodawać zdania-celu jako trzeciego
-argumentu. Nie będzie trzeba tego robić, bo gdy jesteś w trybie dowodzenia interaktywnego, Lean
-"zakłada" (Lean nie jest działającym celowo agentem, więc właście nigdy nic nie "robi", ale możemy
-chyba nadal tak mówić), że chcesz udowodnić aktualny cel i sam decyduje, że eksplozja dedukcyjna ma
-być wykorzystana właśnie na rzecz tego celu.
+(jeszcze raz - w tej kolejności), to nie będzie trzeba już dodawać zdania-celu jako trzeciego (w tym
+wypadku opcjonalnego) argumentu. Nie będzie trzeba tego robić, bo gdy jesteś w trybie dowodzenia
+(niekoniecznie interaktywnego), Lean "zakłada" (Lean nie jest działającym celowo agentem, więc
+właście nigdy nic nie "robi", ale możemy chyba nadal tak mówić), że chcesz udowodnić aktualny cel i
+sam decyduje, że eksplozja dedukcyjna ma być wykorzystana właśnie na rzecz tego celu.
 
 Możesz spróbować skonstruować dowód w trybie nieinteraktywnym (a więc bez użycia taktyk `intro` czy
 `exact`), konstruując funkcję dowodu `¬p` zwracającą funkcję dowodu (inaczej nazwanego) `p`, która z
-kolei będzie zwracać dowód `q`:
+kolei będzie zwracać dowód `q` w postaci dowodu fałszu, który uzyskasz aplikując funkcję `absurd` do
+odpowiednich argumentów:
 
 ```lean
 theorem tn1' (p : Prop) (q : Prop) : ¬p → (p → q) := 
@@ -95,9 +143,9 @@ interaktywny pisząc `by` i zakończyć dowód lub tylko jego fragment używają
 
 Albo możesz nauczyć się czegoś nowego kodując dowód nieinteraktywne, a konkretnie użyć eksplozji
 dedkukcyjnej w trybie nieinteraktywnym na co najmniej dwa sposoby. Jeden polega na tym, że stosujemy
-funkcję `absurd` (nie poprzedzając jej wtedy komendą `exact`), ale to już objaśniłem. Drugi,
-równoważny, tylko inaczej zapisany, polega na jawnym zastosowaniu tak zwanej reguły *eliminacji*
-(tak nazywamy w logice reguły użycia przesłanek danego rodzaju) fałszu.
+funkcję `absurd` (w trybie nieinteraktywnym nie poprzedzamy jej komendą `exact`), ale to już
+objaśniłem. Drugi, równoważny, tylko inaczej zapisany, polega na jawnym zastosowaniu tak zwanej
+reguły *eliminacji* (tak nazywamy w logice reguły użycia przesłanek danego rodzaju) fałszu.
 
 Jeżeli w rozpoczętym wyżej dowodzie *otoczysz nawiasami* aplikację `h1` (o typie `¬p`) do `h2` (o
 typie `p`), czyli używając znanej Ci już, "naturalnej" metody wywoływania eksplozji dedukcyjnej
@@ -117,8 +165,8 @@ to ponieważ (rozpakowując definicję negacji) `h1 : ¬p` znaczy to samo, co `h
 `#check h1 h2 -- h1 h2 : False`
 
 Wiesz już, że reguła eliminacji / (z)użycia fałszu mówi, że dla dowolnego zdania, jeśli mamy dowód
-fałszu / akceptujemy fałsz, to mamy dowód / akceptujemy to zdanie. Gdy matematycy nie krzystają z
-teorii typów, zapisują tą regułę często w takim zwięzłym stylu:
+fałszu / akceptujemy fałsz, to mamy dowód / akceptujemy to zdanie. Matematycy zapisują tą regułę
+często w takim zwięzłym stylu:
 
 <ins><em>Fałsz</em></ins>  
 *A*
@@ -137,12 +185,7 @@ zrozumiały tylko dla kogoś, kto domyśla się tej brakującej wtedy informacji
 formalizacja służy między innymi całkowitemu usunięciu potrzeby domyślania się, o co właściwie
 chodzi.
 
-Regułę dedukcji *z fałszu wynika wszystko* możemy zastosować w Leanie aplikując funkcję `elim` do
-termu typu `False`. Jeżeli nadal zastanawiasz się, czym to się różni od stosowania dowodu naszego
-`Absurd`-u albo od aplikowania funkcji `absurd`, która jest od razu dostępna w Leanie, to wyjaśniam
-jeszcze raz, że w zasadzie niczym. To są tylko różne *konwencje* wyrażenia *tej samej
-operacji*. Gdybyś chciała skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to
-zrobić albo tak:
+Gdybyś chciała skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to zrobić albo tak:
 
 `jakis_dowod_falszu_byc_moze_w_nawiasach.elim`
 
@@ -186,27 +229,10 @@ Chcę żeby "na końcu strzałek" była negacja jakiegoś zdania. To może tak: 
 `¬q` i `p` w żaden sposób nie uzyskamy `¬p`, bo bez dodatkowych przesłanek `¬q` i `p` nie wejdą ze
 sobą w żadną interakcję. A z `q` i `¬q`?  Zakładając dowody tych dwóch zdań uzyskamy dowód każdego
 zdania za pomocą eksplozji dedukcyjnej, a więc także negacji dowolnego zdania, ale to jest już moim
-zdaniem dla Ciebie zbyt łatwe. Wydawało mi się w tym momencie, że muszę albo wprowadzić zasadę
-wyłączonego środka (a więc logikę klasyczną), albo coś innego, czego jeszcze Ci nie tłumaczyłem, bo
-byłem już zmęczony tym pisaniem.
+zdaniem dla Ciebie zbyt łatwe. 
 
-Gdy obudziłem się następnego dnia rano, od razu wiedziałem, jakie to ma być zadanie. Właściwie
-zaproponuję Ci nie jedno, a trzy zadania na ten temat.
-
-Zacznę od wprowadzających rozważań o charakterze ogólnym. W Lean zdanie `¬p` to tak naprawdę zdanie
-`p → False`, to już wiesz. Podobne do naszego `nie p`, bo też `False` spełnia tą samą rolę co nasz
-`Absurd`, jednak żeby użyć `False` trzeba napisać trochę coś innego niż my piszemy, żeby użyć
-naszego `Absurd`. Trochę namieszałem, wiem, ale miałem dobry powód (w każdym razie tak mi się
-wydaje). Tak więc "z *fałszu* wynika wszystko"? Może nie masz już co do tego wątpliwości, jeśli
-przez fałsz rozumiemy nasz `Absurd`, ale żeby z jakiegoś "fałszu samego" wynikało wszystko? Co by to
-miało w ogóle znaczyć?
-
-W późniejszej części tej książki przekonamy się, czym *w istocie* jest fałsz w logice, *z pewnego*
-bardzo abstrakcyjnego *punktu widzenia*.  Widzisz napięcie, a może nawet coś w rodzaju sprzeczności,
-między trzema fragmentami napisanymi w tym zdaniu pismem pochyłym? Czy "w istocie" pasuje do "z
-pewnego punktu widzenia"? (to tylko dygresja). No więc dlaczego właściwie z fałszu ma wynikać
-wszystko? Czy to jest *tylko* jakaś arbitralna konwencja?  Następne zadanie to nie *odpowiedź* na to
-pytanie, to tylko *ilustracja*, ale ilustracja to już coś:
+Chyba wiem co zrobić. Właściwie zaproponuję Ci nie jedno, a trzy zadania na ten temat. Zacznę od
+wprowadzających rozważań o charakterze ogólnym. 
 
 **Zadanie**: Wiesz już, że każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`. Gdy
 mamy jakiś dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując do tego dowodu
@@ -224,11 +250,11 @@ theorem ex_falso_quodlibet (p : Prop) : False → p := by
 ```
 
 Wcześniej obawiałem się, że takie zadanie będzie dla Ciebie trywialne, ale uświadomiłem sobie w
-końcu, że chociaż zadanie jest może trywialne, to jego sens już niekoniecznie. Udowadniając to
-twierdzenia zobaczyłaś tak wyraźnie, jak tylko się da, *że* z fałszu wynika wszystko. Ale *dlaczego*
-z fałszu wynika wszystko? Wygląda na to, że fałsz jest *zdaniem fałszywym*. Widzisz, że coś tu nie
-gra?  Przecież zdanie jako takie nie może być ani prawdziwe, ani fałszywe. Może to *nie* jest
-*zdanie fałszywe*, tylko jakiś "fałsz jako taki"? Zawsze możemy o takie rzeczy spytać Leana:
+końcu, że chociaż samo *zadanie* jest może trywialne, to jego *sens* już niekoniecznie. Udowadniając
+to twierdzenia zobaczyłaś tak wyraźnie, jak tylko się da, *że* z fałszu wynika wszystko. Ale
+*dlaczego* z fałszu wynika wszystko? Wygląda na to, że fałsz jest *zdaniem fałszywym*. Widzisz, że
+coś tu nie gra?  Przecież zdanie jako takie nie może być ani prawdziwe, ani fałszywe. Może to *nie*
+jest *zdanie fałszywe*, tylko jakiś "fałsz jako taki"? Zawsze możemy o to spytać Leana:
 
 ```lean
 #check False -- False : Prop
@@ -240,7 +266,7 @@ Mam nadzieję, że już niemal *widzisz*, że w początkowej części udowadnian
 "wcześniej", a może "wyżej", przed dowodzonym zdaniem, na przykład jako (globalny) aksjomat, *musimy
 założyć lub uzyskać dowód negacji albo fałszu, żeby uzyskać dowód jakiejś negacji albo fałszu*. A
 właściwie samej negacji, bo jakikolwiek od razu dostępny dowód fałszu pozwoliłby nam natychmiast
-swszystko udowodnić.
+udowodnić co tylko chcemy.
 
 Zaproponuję Ci jeszcze zadanie w zasadzie takie samo jak poprzednie, jednak zamiast zdań atomowych
 będą tam zdania *złożone*, będące *aplikacjami predykatów*. Te predykaty będą dotyczyć liczb
@@ -248,8 +274,7 @@ naturalnych, bo ten typ już znasz. Być może trzeba będzie otoczyć niektóre
 zmiennej `n` nawiasami.
 
 **Zadanie**: Udowodnij poniższe twierdzenie. To twierdzenie tylko wygląda na bardziej skomplikowane;
-w dowodzie nie będziesz korzystać z faktu, że zdania mają strukturę podmiot-orzeczenie (a raczej
-orzeczenie-podmiot).
+w dowodzie nie będziesz korzystać z faktu, że te zdania mają strukturę podmiot-orzeczenie.
 
 ```lean
 theorem tn3 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : ¬ P n → (P n → Q n) := by
@@ -263,8 +288,8 @@ dotyczyć jakiś predykatów `P` i `Q` i jakiejś liczby naturalnej `n`. To jest
 nic ciekawego, tylko taka taka [nudna
 księgowość](https://www.google.com/search?q=ksi%C4%99gowo%C5%9B%C4%87+nie+jest+nudna).
 
-No dobrze, a co ze zdaniem do udowodnienia? Przecież tam są tylko trzy zdania, z których dwa to
-właściwie to samo zdanie plus jego negacja. Spróbuj może znowu zacząć od trybu interaktywnego i
+No dobrze, a co ze zdaniem do udowodnienia? Przecież tam są tylko *trzy* zdania, z których dwa to
+właściwie *to samo* zdanie plus jego negacja. Spróbuj może znowu zacząć od trybu interaktywnego i
 swobodnie poeksperymentować ze znanymi Ci taktykami i funkcją `absurd`. Jak zawsze zobaczysz co się
 będzie wtedy działo ze stanem dowodu w panelu po prawej.
 
@@ -286,14 +311,15 @@ twierdzenia, bo twierdzenie to tak naprawdę funkcja, a wewnątrz każdej funkcj
 korzystać z jej parametrów (o ile ich lokalnie nie "przysłonimy" tworząc "wewnętrzny kontekst" i
 nadając tam nazwom parametrów nowe znaczenie, ale o tym kiedy indziej).
 
-Tak naprawdę mamy tu po prostu implikację, której następnikiem jest implikacja i której
-poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę implikacja). Te elementy
-musimy kolejno "rozłączać", wprowadzając (do kontekstu) jako lokalne hipotezy poprzedniki obu
-implikacji, a raczej ich hipotetyczne dowody.
+To wszystko komplikuje strukturę *typu* twierdzenia `tn3`, ale w tym wypadku nie ma znaczenia dla
+jego *dowodu*. Tak naprawdę mamy tu po prostu implikację, której następnikiem jest implikacja i
+której poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę implikacja). Te
+elementy musimy kolejno "rozłączać", wprowadzając (do kontekstu) jako lokalne hipotezy poprzedniki
+obu implikacji, a raczej ich hipotetyczne dowody.
 
 ## Implikacja przeciwna
 
-Następne zadanie jest trochę trudniejsze niż wszystkie poprzednie zadania. 
+Następne zadanie jest trochę trudniejsze niż wszystkie poprzednie.
 
 **Szkielet dowodu `¬q → ¬p` zakładając `p → q`**: Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli
 `¬q`, to nie może być prawdą, że `p`. Gdyby bowiem *wtedy* `p` było prawdą, to moglibyśmy użyć `p →
@@ -311,7 +337,7 @@ Jeżeli `p → q` ...
 ... to jeżeli `p` ...  
 (kontekst: `h1 : p → q`, `h2 : ¬q`, `h3 : p`)
 
-... to z `¬q`, `p → q` i`p` wynika fałsz  
+... to z `h2 : ¬q`, `h1 : p → q` i`h3 : p` wynika fałsz  
 (term kończący dowód: `h2 (h1 h3) : False`)
 
 Czyli: Zakładając `p → q`, to zakładając `¬q`, z założenia `p` możemy wyprowadzić dowód fałszu: `p

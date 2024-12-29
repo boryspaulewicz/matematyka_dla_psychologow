@@ -144,9 +144,9 @@ dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 [R13 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 
-[R14 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+[R14 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R15 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
+[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
