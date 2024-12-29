@@ -52,8 +52,8 @@ układzie kartezjańskim.
 
 ## Typ par uporządkowanych
 
-Jeżeli `T₁` i `T₂` to jakieś typy, to `T₁ × T₂` jest typem *par uporządkowanych złożonych z termu
-typu `T₁` i termu typu `T₂`*, w tej kolejności. Żeby uzyskać symbol `×` wpisz `\x`.
+Jeżeli `A` i `B` to jakieś typy, to `A × B` jest typem *par uporządkowanych złożonych z termu typu
+`A` i termu typu `B`*, w tej kolejności. Żeby uzyskać symbol `×` wpisz `\x`.
 
 ```lean
 -- Na przykład, tak zapisujemy *typ*: para uporządkowana złożona z termu typu Nat i termu typu Nat ...
