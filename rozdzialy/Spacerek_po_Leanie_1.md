@@ -238,7 +238,7 @@ działa na kilka sposobów.
 będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i dzięki temu łatwiej Ci będzie
 układać je "w głowie". Dlatego trzeba się liczyć z koniecznością czytania tych samych fragmentów
 więcej niż raz, być może po pewnej przerwie. Tego procesu poprawiania się dostępności pamięciowej
-nie da się chyba za bardzo przyspieszyć, ale i tak to tylko kwestia* **czasu**.[]
+nie da się chyba za bardzo przyspieszyć, ale i tak to tylko kwestia* **czasu**[^1].
 
 ```lean
 def plus : Nat → (Nat → Nat) := 
