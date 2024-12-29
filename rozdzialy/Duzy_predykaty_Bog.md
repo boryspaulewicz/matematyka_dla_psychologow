@@ -412,7 +412,7 @@ do czegoś przydać - to jest *relacjami*, *negacją*, *kwantyfikatorem egzysten
 wyłączonego środka* (równoważną zasadzie podwójnej negacji), wtedy sami ocenimy, jak to wszystko
 działa. Wszak właśnie na tym, to jest na ocenie poprawności opartej na *subiektywnej interpretacji
 wytworu* w postaci tego tekstu *jako rezultatu pewnego zachowania*, a więc jako mniej lub bardziej
-udanego *rozwiązania pewnego zadania*, polega *nasze deklarowane zadanie* (czyli "nasze
+udanego *rozwiązania pewnego zadania*, polega nasze *deklarowane zadanie* (czyli "nasze
 zachowanie").
 
 ### Przypisy
