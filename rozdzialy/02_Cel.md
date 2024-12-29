@@ -189,7 +189,7 @@ Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *se
 psychologicznego. Na przykład, często używana w psychometrii α Cronbacha jest zwykle interpretowana
 jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko jednej zmiennej
 nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią wnioskwania przyczynowego
-można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o czym zresztą wspominają
+można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o czym zresztą wspominają[^1]
 jakby mimochodem autorzy niektórych współczesnych podręczników dotyczących modelowania równań
 strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH))
@@ -199,7 +199,7 @@ perspektywy zadanio-centrycznej: Ponieważ, jak łatwo się przekonać przygląd
 definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to nic innego jak pewna
 miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to ponieważ pozycje
 testowe są *zawsze blisko związane treściowo*, można tą miarę interpretować jako co prawda
-niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoba badana wykonała
+niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
 zadanie udzielenia odpowiedzi na pozycje testowe*.
 
 Zamiast próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się jak
@@ -247,3 +247,15 @@ władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zm
 postawa jest po prostu *anty*naukowa.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od początku.
+
+### Przypisy
+
+[^1]: A dokładniej, autorzy tych nowszych podręczników dotyczących modelowania równań strukturalnych
+    wspominają o tym, że modele pomiarowe, takie jak na przykład model jednoczynnikowy, bez założeń
+    ilościowych - które w takich modelach, gdy te są stosowane w psychologii, nie są nawet znośnymi
+    *przybliżeniami* jakiegokolwiek teoretycznie akceptowalnego procesu generowania odpowiedzi - są
+    *nietestowalne*. Jeżeli ten temat Cię interesuje, może przyda Ci się rzucić okiem na przykład na
+    to, na jakie pojęciowe akrobacje pozwolił sobie
+    [Kline](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH),
+    próbując napisać coś przynajmniej na oko spójnego na temat pomiaru w psychologii z perspektywy
+    przyczynowej.
