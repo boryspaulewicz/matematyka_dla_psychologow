@@ -21,11 +21,11 @@ symbol oznaczający zbiór pusty, czyli ${}$):
 
 $0 := \set{} = ∅$
 
-$1 := \{0\} = \{∅\}$
+$1 := \set{0} = \set{∅}$
 
-$2 := \{0, 1\} = \{∅, \{∅\}\}$ 
+$2 := \set{0, 1} = \set{∅, \set{∅}}$ 
 
-$3 := \{0, 1, 2\} = \{∅, \{∅\}, \{∅, \{∅\}\}\}$
+$3 := \set{0, 1, 2} = \set{∅, \set{∅}, \set{∅, \set{∅}}}$
 
 I tak dalej. Wygląda to dziwnie, bo to *jest* dziwne, ale w matematyce ostatecznie liczy się tylko
 to, czy coś *działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc *są* liczbami
