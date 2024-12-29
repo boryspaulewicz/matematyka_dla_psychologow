@@ -72,19 +72,19 @@ inductive Nat where
     | succ (n : Nat) : Nat
 ```
 
-Wydaje mi się, że się zgodzisz, że ta definicja wygląda znacznie mniej sztucznie i jest bardziej
-czytelna. Można nawet powiedzieć, że ta definicja *jest* aksjomatami Peano zapisanymi niemal
+Wydaje mi się, że się zgodzisz, że ta definicja wygląda znacznie bardziej naturalnie (pun
+intended). Można nawet powiedzieć, że ta definicja *jest* aksjomatami Peano zapisanymi niemal
 dosłownie, w dosyć elegancki sposób, w postaci [*definicji
 indukcyjnej*](https://pl.wikipedia.org/wiki/Indukcja_matematyczna), a dokładnie w postaci definicji
 *indukcyjnego typu danych*.
 
-**Czytamy to**: Liczby naturalne (termy o typie `Nat`) to *dokładnie* termy, które powstają według
-następujących reguł:
+**Czytamy to**: Liczby naturalne (termy o typie `Nat`) to *dokładnie* takie termy, które powstają
+według następujących reguł:
 
 1. `zero` jest termem typu `Nat`
 
-2. Jeżeli `n` jest dowolnym termem typu `Nat`, to *sama nieredukowalna* aplikacja `succ n` jest
-również termem typu `Nat`.
+2. Jeżeli `n` jest dowolnym termem typu `Nat`, to sama *nieredukowalna* aplikacja `succ n` jest
+   również termem typu `Nat`.
 
 Gdy nie posługujemy się wygodnym zapisem cyfrowym, to zapisujemy te liczby zwykle w stylu
 `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej, a nie `zero`, `succ
@@ -102,18 +102,27 @@ open Nat
 #check succ (succ zero) -- zero.succ.succ : Nat
 ```
 
-Mówiąc już całkiem po polsku, liczby naturalne w Leanie to wedłu definicji *dokładnie* liczba zero i
-każda taka liczba, która jest liczbą następną po jakiejś liczbie naturalnej. Mamy tu do czynienia z
-[*definicją rekurencyjną*](https://pl.wikipedia.org/wiki/Rekurencja), ponieważ ogólne *pojęcie*
-liczby naturalnej jest *zdefiniowane w kategoriach liczb naturalnych* i chociaż może się wydawać, że
-taka definicja musi być błędna, bo występuje w niej pozornie jakieś [błędne
+Aplikacje takie jak `succ zero` czy `succ (succ zero)` są *nieredukowalne* po prostu dlatego, że
+funkcja `succ` istnieje *aksjomatycznie*, a więc definicja stałej `succ` jest *pozbawiona
+ciała*. Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie kryje*. Przyjmujemy po prostu, że
+liczba naturalna $0$ *jest* (nieredukowalną) stałą `zero`, liczba naturalna $1$ *jest*
+nieredukowalną aplikacją `succ zero`, i tak dalej.
+
+Mówiąc już całkiem po polsku i możliwie krótko, liczby naturalne w Leanie to wedłu definicji
+*dokładnie* liczba zero i każda taka liczba, która jest liczbą następną po jakiejś liczbie
+naturalnej. Mamy tu do czynienia z [*definicją
+rekurencyjną*](https://pl.wikipedia.org/wiki/Rekurencja), ponieważ ogólne pojęcie liczby naturalnej
+jest (formalnie) *zdefiniowane w kategoriach liczb naturalnych* i chociaż może się wydawać, że taka
+definicja musi być błędna, bo występuje w niej pozornie jakieś [błędne
 koło](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu), to jednak *nie ma w
 tym nic złego*, ale o tym będę mówił kiedy indziej.
 
-O definicji liczb naturalnych zaproponowanej przez von Neumanna można by powiedzieć, że jest
-wegańska, bo te liczby są sklecone niemal z niczego (to jest *z samych zbiorów*) i w dodatku
-wyglądają dziwnie, ale to jeszcze pół biedy. Gorzej, że posługując się nią możemy zapisać jako
-poprawne i prawdziwe między innymi takie oto dosyć bezsensowne zdanie:
+O definicji liczb naturalnych zaproponowanej przez von Neumanna ktoś złośliwy (nie ja!) mógłby na
+przykład powiedzieć, że jest wegańska, bo te liczby rzekomo "naturalne" von Neumanna są sklecone
+niemal z niczego (to jest *z samych zbiorów*) i w dodatku wyglądają dziwnie, jak jakieś wegańskie
+ciasteczka (jeszcze raz podkreślam, to nie moje słowa!), ale to jeszcze pół biedy (to znaczy, pół
+biedy, że różni złośliwi i ograniczeni ludzie tak czasami mówią). Gorzej, że posługując się tą
+definicją możemy zapisać jako poprawne i prawdziwe między innymi takie oto dosyć bezsensowne zdanie:
 
 $1 ∈ 2$  
 (Zdanie prawdziwe, a więc również poprawne, w każdej teorii, w której obowiązuje definicja liczb
@@ -125,7 +134,9 @@ $1$ jest elementem zbioru liczba naturalna $2$*. Ten skutek uboczny wynika stąd
 naturalne *jako takie*. W zasadzie nic nie szkodzi, jesteśmy przecież tolerancyjni, ale jednak
 definicja von Neumanna jest troszeczkę *zbyt wegańska*, prawda?
 
-To teraz uważaj, bo zaraz zaczniemy się przełączać na język kosmitów, albo aniołów, jak kto woli.
+To teraz uważaj, bo teraz zaczniemy się przełączać na [*język
+kosmitów*](https://en.wikipedia.org/wiki/Alien_language) (albo
+[aniołów](https://biblehub.com/text/1_corinthians/13-1.htm), jak kto woli).
 
 ## Liczby naturalne z perspektywy kategoryjnej
 
