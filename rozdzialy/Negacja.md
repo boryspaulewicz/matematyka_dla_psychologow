@@ -1,8 +1,9 @@
 ## O czym teraz będzie
 
 No tutaj to chyba akurat ja bawię się najlepiej. Może i Tobie się udzieli. A rozdział zawiera
-teoretyczne rozważania na temat negacji i sprzeczności w logice konstruktywnej. Jeżeli poradziłaś
-sobie z zadaniami w rozdziale poprzednim, to ten rozdział możesz potraktować jako ciekawostkę.
+teoretyczne rozważania na temat negacji i sprzeczności w logice konstruktywnej, w ramach których
+pokazuję Ci, jak *możemy sobie sami zdefiniować negację*. Jeżeli poradziłaś sobie z zadaniami w
+rozdziale poprzednim, to ten rozdział możesz potraktować jako ciekawostkę.
 
 <hr>
 
