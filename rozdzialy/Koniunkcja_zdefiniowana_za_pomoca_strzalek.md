@@ -111,8 +111,9 @@ indukcyjnej*](https://pl.wikipedia.org/wiki/Indukcja_matematyczna), a dokładnie
 Gdy nie posługujemy się wygodnym zapisem cyfrowym, to zapisujemy te liczby zwykle w stylu
 `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej, a nie `zero`, `succ
 zero`, `succ (succ zero)`, i tak dalej, ponieważ stałe `zero` i `succ` są tutaj elementami
-*przestrzeni nazw* `Nat`, która powstaje automatycznie w ramach każdej definicji indukcyjnej. Możemy
-tą przestrzeń jednak zawsze *otworzyć* i pisać bez prefiksu `Nat.`:
+*przestrzeni nazw* `Nat`, która powstaje automatycznie w ramach każdej definicji indukcyjnego typu
+danych. Jeśli jednak mamy ochotę, zawsze możemy tą przestrzeń nazw *otworzyć* i pisać bez prefiksu
+`Nat.`:
 
 ```lean
 -- Otwarcie przestrzeni nazw Nat umożliwia krótszy zapis dosłowny liczb naturalnych:
@@ -126,10 +127,10 @@ open Nat
 ```
 
 Aplikacje takie jak `succ zero` czy `succ (succ zero)` są *nieredukowalne* po prostu dlatego, że
-funkcja `succ` istnieje *aksjomatycznie*, a więc definicja stałej `succ` jest *pozbawiona
-ciała*. Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie kryje*. Przyjmujemy po prostu, że
-liczba naturalna $0$ *jest* (nieredukowalną) stałą `zero`, liczba naturalna $1$ *jest*
-nieredukowalną aplikacją `succ zero`, i tak dalej.
+funkcja `succ` istnieje *aksjomatycznie*, a więc definicja stałej `succ` jest *pozbawiona ciała*
+(nie ma tu nic do rozpakowania). Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie
+kryje*. Przyjmujemy po prostu, że liczba naturalna $0$ *jest* (nieredukowalną) stałą `zero`, liczba
+naturalna $1$ *jest* nieredukowalną aplikacją `succ zero`, i tak dalej.
 
 **Jak to działa?**: Dla uproszczenia zamiast `zero` będę pisał $0$ a zamiast `succ` będę pisał $+$ i
 nie będę pisał nawiasów, w ten sposób: $0, +0, ++0, +++1$, i tak dalej, gdzie $+0$ to następna
