@@ -159,7 +159,7 @@ Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja):
 
 ```lean
 h1 : ¬p
-h2 : p`
+h2 : p
 ```
 
 to ponieważ (rozpakowując definicję negacji) `h1 : ¬p` znaczy to samo, co `h1 : p → False`, to
