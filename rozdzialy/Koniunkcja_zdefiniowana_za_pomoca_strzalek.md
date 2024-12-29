@@ -51,7 +51,7 @@ zbioru pustego) i mamy pewną *regułę konstrukcji* pozostałych liczb naturaln
 w taki oto sposób (który zaraz krok po kroku zilustruję):
 
 *Jeżeli* n *jest liczbą naturalną (zbudowaną już w pewien sposób z samych zbiorów), to zbiór
-powstający z* n *jako zbioru przez dołożenie do* n *zbioru* n *jako elementu jest następnikiem* n
+powstający z* n *jako zbioru, przez dołożenie do* n *zbioru* n *jako elementu, jest następnikiem* n
 *jako liczby naturalnej*.
 
 A więc: 
