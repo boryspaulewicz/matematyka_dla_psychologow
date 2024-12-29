@@ -68,11 +68,11 @@ która ma jeden parametr `n` typu `Nat` (`(n : Nat)`)
 i zwraca (tak czytamy symbol `:` pojawiający się po specyfikacji ostatniego parametru funkcji) term
 typu `Nat`.
 
-*Ciałem* tej funkcji jest samotne, samiuteńkie wyrażenie `n`. Właściwie to jest raczej ciałko niż
-ciało. Czy nie sądzisz, że składnia Leana jest dość intuicyjna?  Nawet, jeżeli tego jeszcze nie
-widzisz, wklej poniżej zapisanej właśnie definicji następny fragment kodu i umieść kursor na
-komendzie `#eval`. Zobaczysz wtedy po prawej rezultat *ewaluacji* aplikacji funkcji `nic_nie_robie`
-do termu `1`. To będzie `1`, bo funkcja `nic_nie_robie` nic nie robi (tylko zwraca swój argument).
+*Ciałem* tej funkcji jest samotne wyrażenie `n`. Czy nie wydaje Ci się, że składnia Leana jest dość
+intuicyjna? Nawet, jeżeli tego jeszcze nie widzisz, wklej poniżej zapisanej właśnie definicji
+następny fragment kodu i umieść kursor na komendzie `#eval`. Zobaczysz wtedy po prawej rezultat
+*ewaluacji* aplikacji funkcji `nic_nie_robie` do termu `1`. To będzie `1`, bo funkcja
+`nic_nie_robie` nic nie robi (tylko zwraca swój argument).
 
 ```lean
 #eval nic_nie_robie 1
@@ -119,7 +119,7 @@ funkcja została zapisana):
 Wydaje mi się, że już rozumiesz, jak to odczytujemy, ale na wszelki wypadek jeszcze raz
 wyjaśniam. Stąd, że obok stałej `nic_nie_robie` mamy fragment `(n : Nat)` możemy wywnioskować, że
 `nic_nie_robie` jest funkcją, która wymaga jako argumentu liczby naturalnej. Nawiasem mówiąc,
-nazwałm ten parametr `n`, ponieważ to pierwsza litera w słowie *naturalna*.
+nazwałem ten parametr `n`, ponieważ to pierwsza litera w słowie *naturalna*.
 
 Gdy teraz skopiujesz do Leana jeszcze to:
 
@@ -141,27 +141,26 @@ funkcja wymaga. Dlatego aplikacja funkcji `nic_nie_robie` do termu `1` jest popr
 **Definicja aplikacji**: Samo *zestawienie* funkcji i termu nazywamy *aplikacją funkcji do termu*,
 albo krócej *aplikacją*.
 
-W Lean wszystkie termy, w tym również złożone, muszą mieć jakiś typ. Ale uwaga, nie każdy term *ma*
-typ. Można skonstruować termy błędne, to jest takie, których nie da się typować. Dla Leana takie
-termy są po prostu bezsensowne. Jeżeli w tym momencie obawiasz się, że napiszesz jakieś termy
-bezsensowne, to niepotrzebnie. Prawie na pewno napiszesz wiele termów bezsensownych. Im więcej
+W Leanie wszystkie termy, w tym również złożone, *muszą* mieć jakiś typ. Ale uwaga, nie każdy term
+*ma* typ, ponieważ można skonstruować termy *błędne*, to jest takie, których nie da się typować. Dla
+Leana takie termy są po prostu bezsensowne. Jeżeli w tym momencie obawiasz się, że napiszesz jakieś
+termy bezsensowne, to niepotrzebnie. Prawie na pewno napiszesz wiele termów bezsensownych. Im więcej
 piszesz, tym więcej bzdur napiszesz, jak zauważył zdaje się Gombrowicz. To jest może zła wiadomość,
 chociaż nie jestem tego całkiem pewien. Na pewno dobra wiadomość jest taka, że Lean Ci wtedy o tym
 powie.
 
 Mam nadzieję, że od razu rzuca Ci się w oczy, że z termem `1 nic_nie_robie` jest coś nie tak. W
 końcu `1` nie jest funkcją, a więc nie da się do niczego aplikować termu `1`. Myślę, że nie
-potrzebujesz wsparcia Leana, żeby zauważyć, że to wyrażenie nie ma sensu, prawda? To, że aplikacja
+potrzebujesz wsparcia Leana, żeby zauważyć, że to wyrażenie nie ma sensu. To, że aplikacja
 `nic_nie_robie 1` ma typ `Nat` też jest już dla Ciebie mam nadzieję oczywiste. W końcu
 `nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę
 naturalną. Podobnie *1 + 2* jest jednocześnie złożonym wyrażeniem, aplikacją dodawania do dwóch
 argumentów i jest też pewną *liczbą naturalną*, bo to wyrażenie *oznacza* liczbę naturalną -
 wszędzie, gdzie może się pojawić dowolna liczba naturalna, *1 + 2* również może się pojawić.
 
-Czy to nie był sparecek po łączce, a nie po linie? Nie? To może jeszcze jeden. Funkcja, którą
-zdefiniowaliśmy, to *identyczność* albo inaczej funkcja identycznościowa. Ta funkcja wydaje się
-wręcz zbędna, ale tak jak liczba zero, czasami nie można się bez niej obejść. Na przykład wtedy, gdy
-taka funkcja okazuje się jedynym *rozwiązaniem problemu*.
+Funkcja, którą zdefiniowaliśmy, to *identyczność* albo inaczej funkcja identycznościowa. Ta funkcja
+wydaje się wręcz zbędna, ale tak jak liczba zero, czasami nie można się bez niej obejść. Na przykład
+wtedy, gdy taka funkcja okazuje się jedynym *rozwiązaniem problemu*.
 
 **Potencjalnie dezorientująca dygresja**: Wiele problemów w matematyce można wyrazić jako zbiór
 relacji między jakimiś funkcjami, z których co najmniej jedna funkcja jest nieznana i trzeba ją
