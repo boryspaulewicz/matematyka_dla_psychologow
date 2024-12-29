@@ -56,10 +56,11 @@ powstający z* n *jako zbioru, przez dołożenie do* n *zbioru* n *jako elementu
 
 A więc: 
 
-$\set{}$ jest zbiorem, który postanawiamy oznaczyć jako $0$.
+$\set{}$ jest zbiorem, który postanawiamy traktować jako liczbę $0$.
 
-Dokładając do liczby naturalnej $0$, będącej zbiorem $\set{}$, ten sam zbiór jako element uzyskujemy
-$\set{\set{}}$, to jest następnik liczby naturalnej $0$, który oznaczamy jako $1$.
+TODO POSTANAWIAMY TRAKTOWAĆ: Dokładając do liczby naturalnej $0$, będącej zbiorem $\set{}$, ten sam
+zbiór jako element uzyskujemy $\set{\set{}}$, to jest następnik liczby naturalnej $0$, który
+oznaczamy jako $1$.
 
 Dokładając do liczby naturalnej $1$, będącej zbiorem $\set{\set{}}$, ten sam zbiór jako element
 uzyskujemy $\set{\set{}, \set{\set{}}}$, który oznaczamy jako $2$.

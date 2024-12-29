@@ -41,15 +41,15 @@ to nie jest jakiś tam kolejny taki język, tylko taki, którego składnia kszta
 jako rezultat badań wybitnych matematyków i filozofów zajmujących się podstawami matematyki. Ale
 teoria typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem matematyki w
 psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani wnioskowanie
-przyczynowe. Według mnie nie jest nim nawet formalizacja wyrażonych w języku naturalnym teorii lub
-modeli psychologicznych w postaci modeli matematycznych rozmaitych zjawisk. Być może najważniejszym
-zastosowaniem matematyki we współczesnej psychologii jest w mojej ocenie *formalizacja rozumowań*,
-które psychologowie wyrażają często dosyć nieczytelnie i niejasno w swoich publikacjach. A teoria
-typów wyposażona w [typy zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się
-czymś najbliższym, co obecnie mamy, do realizacji wizji[^2]
-[Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell), którą ten przedstawił w wykładzie
-zatytułowanym *Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji
-przetłumaczonej na język polski można znaleźć
+przyczynowe. Według mnie *nie* jest nim również formalizacja wyrażonych w języku naturalnym teorii
+lub modeli psychologicznych w postaci modeli matematycznych rozmaitych zjawisk. Być może
+najważniejszym zastosowaniem matematyki we współczesnej psychologii jest w mojej ocenie
+*formalizacja rozumowań*, które psychologowie wyrażają często dosyć nieczytelnie i niejasno w swoich
+publikacjach. A teoria typów wyposażona w [typy
+zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się czymś najbliższym, co
+obecnie mamy, do realizacji wizji[^2] [Russela](https://pl.wikipedia.org/wiki/Bertrand_Russell),
+którą ten przedstawił w wykładzie zatytułowanym *Logika jako istota filozofii* w 1914 roku w
+Londynie, a który w wersji przetłumaczonej na język polski można znaleźć
 [tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
 Wreszcie akurat Lean dlatego, że ma znacznie mniej od Coq'a "przegadaną" składnię, rozwija się
 ostatnio dość gwałtownie, a w dodatku sprawdził się już znakomicie jako narzędzie
