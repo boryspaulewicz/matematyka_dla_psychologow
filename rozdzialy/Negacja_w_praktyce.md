@@ -103,7 +103,7 @@ Wiesz już, że udowodnienie tej implikacji polega na udowodnieniu następnika `
 poprzednik `¬p`. Wiesz też, że gdy będąc w trybie interaktywnym założysz ten poprzednik używając
 komendy `intro` (z wybraną przez siebie nazwą dla hipotetycznego dowodu `¬p`), to zostanie jako cel
 do udowodnienia prostsze zdanie `(p → q)`. A żeby z kolei udowodnić to zdanie trzeba znowu założyć
-poprzednik, w ten sam sposób co wcześniej, tylko używając innej nazwy, bo to też jest
+poprzednik, w ten sam sposób co wcześniej (tylko używając innej nazwy), bo to też jest
 implikacja. Wtedy zostanie do udowodnienia tylko zdanie `q`.
 
 Jedynym sposobem, żeby udowodnić to ostatnie zdanie, będzie skorzystanie z tego, co już w tym
@@ -111,7 +111,7 @@ momencie będziesz miała, czyli z hipotetycznych dowodów zdań `¬p` i `p`. By
 teraz będzie ważne - masz przecież jeszcze coś w kontekście: zdania jako takie (a nie ich dowody),
 `p` i `q`. Te zmienne są parametrami twierdzenia `tn1`, a więc muszą być wewnątrz tego twierdzenia
 dostępne. W trybie interaktywnym pozostanie Ci użyć komendy `exact` z odpowiednim termem. I w tym
-powinienem chyba jeszcze raz objaśnić definicję absurdu z której korzysta Lean.
+momencie powinienem chyba jeszcze raz objaśnić definicję absurdu z której korzysta Lean.
 
 Jeśli w trybie dowodzenia interaktywnego napiszesz `exact absurd` z dwoma (być może złożonymi)
 argumentami, to jest jakimś dowodem jakiegoś zdania i jakimś dowodem negacji tego samego zdania
@@ -122,9 +122,9 @@ właście nigdy nic nie "robi", ale możemy chyba nadal tak mówić), że chcesz
 sam decyduje, że eksplozja dedukcyjna ma być wykorzystana właśnie na rzecz tego celu.
 
 Możesz spróbować skonstruować dowód w trybie nieinteraktywnym (a więc bez użycia taktyk `intro` czy
-`exact`), konstruując funkcję dowodu `¬p` zwracającą funkcję dowodu (inaczej nazwanego) `p`, która z
-kolei będzie zwracać dowód `q` w postaci dowodu fałszu, który uzyskasz aplikując funkcję `absurd` do
-odpowiednich argumentów:
+`exact`), konstruując funkcję dowodu `¬p`, zwracającą funkcję dowodu (inaczej nazwanego) `p`, która
+z kolei będzie zwracać dowód `q` w postaci dowodu fałszu, który uzyskasz aplikując funkcję `absurd`
+do odpowiednich argumentów:
 
 ```lean
 theorem tn1' (p : Prop) (q : Prop) : ¬p → (p → q) := 
@@ -157,7 +157,7 @@ albo *wykorzystanie* (czyli jakby "zużycie") założenia (danego rodzaju).
 
 Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja):
 
-`h1 : ¬p
+`h1 : ¬p  
 h2 : p`
 
 to ponieważ (rozpakowując definicję negacji) `h1 : ¬p` znaczy to samo, co `h1 : p → False`, to
