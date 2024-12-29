@@ -231,10 +231,8 @@ Chcę żeby "na końcu strzałek" była negacja jakiegoś zdania. To może tak: 
 `¬q` i `p` w żaden sposób nie uzyskamy `¬p`, bo bez dodatkowych przesłanek `¬q` i `p` nie wejdą ze
 sobą w żadną interakcję. A z `q` i `¬q`?  Zakładając dowody tych dwóch zdań uzyskamy dowód każdego
 zdania za pomocą eksplozji dedukcyjnej, a więc także negacji dowolnego zdania, ale to jest już moim
-zdaniem dla Ciebie zbyt łatwe. 
-
-Chyba wiem co zrobić. Właściwie zaproponuję Ci nie jedno, a trzy zadania na ten temat. Zacznę od
-wprowadzających rozważań o charakterze ogólnym. 
+zdaniem dla Ciebie zbyt łatwe. Chyba wiem co zrobić. Właściwie zaproponuję Ci nie jedno, a trzy
+zadania na ten temat.
 
 **Zadanie**: Wiesz już, że każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`. Gdy
 mamy jakiś dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując do tego dowodu
