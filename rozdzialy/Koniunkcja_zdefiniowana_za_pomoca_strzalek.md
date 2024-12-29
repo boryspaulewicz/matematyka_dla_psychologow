@@ -17,7 +17,7 @@ przykładu.
 To, że teoria *ZF* ma status jednej z teorii podstawowych w matematyce oznacza więc między innymi,
 że można skonstruować rozmaite obiekty matematyczne posługując się tylko zbiorami. Na przykład,
 Jerzy von Neumann wpadł na następujący pomysł jak w ten sposób "zakodować" liczby naturalne ($∅$ to
-symbol oznaczający zbiór pusty, czyli ${}$):
+symbol oznaczający zbiór pusty, czyli $\set{}$):
 
 $0 := \set{} = ∅$
 
