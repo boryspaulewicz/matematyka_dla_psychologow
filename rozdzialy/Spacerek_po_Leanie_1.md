@@ -230,8 +230,15 @@ jako argumentu dowolnego termu typu `Nat`, a stała `dziesiec` jest właśnie ta
 
 Zdefiniujemy teraz funkcję, która będzie dodawała *dwie* dowolne liczby naturalne. Zrobimy to w
 sposób, który pozwoli Ci zobaczyć, że takie funkcje w Leanie są tak naprawdę
-*jedno*argumentowe. Ponieważ to będzie najtrudniejsza część tego rozdziału, wyjaśnię jak to działa
-na kilka sposobów.
+*jedno*argumentowe. Ponieważ to będzie **najtrudniejsza** część tego rozdziału, wyjaśnię jak to
+działa na kilka sposobów. 
+
+*Zalecam teraz uzbroić się w cierpliwość i czytać dalej, nawet jeżeli będziesz miała poczucie, że
+"tego wszystkiego" jest na raz za dużo. To wszystko stanie się w miarę zrozumiałe dopiero wtedy, gdy
+będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i dzięki temu łatwiej Ci będzie
+układać je "w głowie". Dlatego trzeba się liczyć z koniecznością czytania tych samych fragmentów
+więcej niż raz, być może po pewnej przerwie. Tego procesu poprawiania się dostępności pamięciowej
+nie da się chyba za bardzo przyspieszyć, ale i tak to tylko kwestia* **czasu**.
 
 ```lean
 def plus : Nat → (Nat → Nat) := 

@@ -32,19 +32,19 @@ Wybitny matematyk polskiego pochodzenia, Jerzy von Neumann, o którym już zresz
 na następujący pomysł jak można za pomocą *samych zbiorów* "zakodować" liczby naturalne ($∅$ to
 symbol oznaczający zbiór pusty, czyli $\set{}$):
 
-$0 := \set{} = ∅$
+$0 := \set{}$
 
-$1 := \set{0} = \set{∅}$
+$1 := \set{0} = \set{\set{}}$
 
-$2 := \set{0, 1} = \set{∅, \set{∅}}$ 
+$2 := \set{0, 1} = \set{\set{}, \set{\set{}}}$ 
 
-$3 := \set{0, 1, 2} = \set{∅, \set{∅}, \set{∅, \set{∅}}}$
+$3 := \set{0, 1, 2} = \set{\set{}, \set{\set{}}, \set{\set{}, \set{\set{}}}}$
 
 I tak dalej. Mamy tutaj oczywisty odpowiednik albo implementację liczby *0* (jako zbiór pusty) i
-mamy regułę konstrukcji pozostałych liczb naturalnych, którą można zapisać w ten sposób:
+mamy *regułę konstrukcji* pozostałych liczb naturalnych, którą można zapisać w ten sposób:
 
 *Jeżeli $n$ jest liczbą naturalną (zbudowaną już w pewien sposób z samych zbiorów), to zbiór
-powstający z $n$ jako zbioru przez dołożenie do $n$ zbioru $\set{n}$ jako elementu jest następnikiem
+powstający z $n$ jako zbioru przez dołożenie do $n$ zbioru $n$ jako elementu jest następnikiem
 $n$ jako liczby naturalnej*.
 
 A więc: 
@@ -61,8 +61,30 @@ uzyskujemy $\set{\set{}, \set{\set{}}}$, który postanawiamy oznaczyć jako $2$.
 I tak dalej.
 
 Wygląda to dziwnie, bo to *jest* dziwne, ale w matematyce ostatecznie liczy się tylko to, czy coś
-*działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc *są* liczbami naturalnymi, tak
-samo jak nasze `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej. 
+*działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc można na nich zdefiniować
+wszystkie sensowne operacje na liczbach naturalnych i te operacje będą się zachowywały zgodnie z
+naszymi oczekiwaniami, a więc te dziwne konstrukcje *są* liczbami naturalnymi, tak samo jak nasze
+`Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej.
+
+**Jak to działa?**: Dodawanie, na przykład liczby $2$ do liczby $1$, to $2$ krotne zastosowanie
+operacji następnika do liczby $1$, a więc:
+
+$2 + 1 = ...$
+
+Rozpakowujemy definicję stałej $1$ ...  
+$2 + \set{0} = ...$
+
+... i kontynuujemy rozpakowywanie definicji po prawej od symbolu +:  
+$2 + \set{\set{}} = ...$
+
+Stosujemy funkcję następnika po raz pierwszy ...  
+$1 + \set{\set{}, \set{\set{}}} = ...$
+
+... i po raz drugi i ostatni, bo dodawanie jest tak zdefiniowane, że dodanie $0$ nic nie zmienia ...  
+$= \set{\set{}, \set{\set{}}, \set{\set{}, \set{\set{}}}}$
+
+... wreszcie "pakując" definicję odkrywamy, że:  
+$2 + 1 = 3$
 
 Porównajmy tą teoriomnogościową definicję z definicją liczb naturalnych w Leanie:
 
@@ -72,27 +94,28 @@ inductive Nat where
     | succ (n : Nat) : Nat
 ```
 
-Wydaje mi się, że się zgodzisz, że ta definicja wygląda znacznie bardziej naturalnie (pun
-intended). Można nawet powiedzieć, że ta definicja *jest* aksjomatami Peano zapisanymi niemal
-dosłownie, w dosyć elegancki sposób, w postaci [*definicji
+Orzeźwiające? Wydaje mi się, że się zgodzisz, że ta definicja wygląda znacznie bardziej
+naturalnie[^1]. Można by wręcz powiedzieć, że ta definicja *jest* aksjomatami Peano zapisanymi
+niemal dosłownie, w dosyć elegancki sposób, w postaci [*definicji
 indukcyjnej*](https://pl.wikipedia.org/wiki/Indukcja_matematyczna), a dokładnie w postaci definicji
 *indukcyjnego typu danych*.
 
-**Czytamy to**: Liczby naturalne (termy o typie `Nat`) to *dokładnie* takie termy, które powstają
-według następujących reguł:
+**Czytamy to**: Indukcyjnie zdefiniowany typ danych (`inductive`) liczba naturalna (`Nat`) to
+*dokładnie wszystkie* takie termy, że (`where`):
 
-1. `zero` jest termem typu `Nat`
+1. `zero` jest termem typu `Nat` (`| zero : Nat`).
 
-2. Jeżeli `n` jest dowolnym termem typu `Nat`, to sama *nieredukowalna* aplikacja `succ n` jest
-   również termem typu `Nat`.
+2. Jeżeli `n` jest termem typu `Nat`, to sama *nieredukowalna* aplikacja `succ n` jest również
+   termem typu `Nat` (`| succ (n : Nat) : Nat`).
 
 Gdy nie posługujemy się wygodnym zapisem cyfrowym, to zapisujemy te liczby zwykle w stylu
 `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej, a nie `zero`, `succ
 zero`, `succ (succ zero)`, i tak dalej, ponieważ stałe `zero` i `succ` są tutaj elementami
 *przestrzeni nazw* `Nat`, która powstaje automatycznie w ramach każdej definicji indukcyjnej. Możemy
-tą przestrzeń jednak zawsze *otworzyć* gdy mamy ochotę i pisać bez prefiksu `Nat.`:
+tą przestrzeń jednak zawsze *otworzyć* i pisać bez prefiksu `Nat.`:
 
 ```lean
+-- Otwarcie przestrzeni nazw Nat umożliwia krótszy zapis dosłowny liczb naturalnych:
 open Nat
 
 #check zero             -- Nat.zero : Nat
@@ -107,6 +130,49 @@ funkcja `succ` istnieje *aksjomatycznie*, a więc definicja stałej `succ` jest 
 ciała*. Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie kryje*. Przyjmujemy po prostu, że
 liczba naturalna $0$ *jest* (nieredukowalną) stałą `zero`, liczba naturalna $1$ *jest*
 nieredukowalną aplikacją `succ zero`, i tak dalej.
+
+**Jak to działa?**: Dla uproszczenia zamiast `zero` będę pisał $0$ a zamiast `succ` będę pisał $+$ i
+nie będę pisał nawiasów, w ten sposób: $0, +0, ++0, +++1$, i tak dalej, gdzie $+0$ to następna
+liczba naturalna po liczbie $0$, a więc $1$, $++0$ to $2$, $+++0$ to $3$, i tak dalej. Dodawanie
+działa wtedy tak (rozpakowując i na końcu pakując definicje stałych w oczywisty sposób): 
+
+$2 + 1 = 2 + +0 = 1 + ++0 = 0 + +++0 = +++0 = 3$.
+
+W Leanie operację dodawania liczb naturalnych można zdefiniować rekurencyjnie używając dopasowania
+wzorca w następujący sposób (ilustracja):
+
+```lean
+-- Nie przejmuj się, jeżeli ten kod wydaje Ci się w tym momencie zbyt skomplikowany, to tylko
+-- ilustracja.
+def add (m : Nat) (n : Nat) : Nat :=
+    match m with
+    -- Jeżeli m to Nat.zero, to zwróć m, bo 0 + m to m:
+    | Nat.zero => n
+    -- Jeżeli m to następna liczba naturalna po liczbie l (a więc n nie może być równe 0), to 
+    -- zwróć następnik rezultatu zastosowania funkcji add do liczb l i n:
+    | Nat.succ l => Nat.succ (add l n)
+
+#eval add 2 1 -- 3
+
+-- Ponieważ (ilustracja):
+add 2 1
+--> Drugi warunek dopasowania wzorca, bo 2 jest różne od 0:
+Nat.succ (add 1 1)
+--> Drugi warunek dopasowania wzorca, bo 1 jest różne od 0:
+Nat.succ (Nat.succ (add 0 1))
+--> Pierwszy warunek dopasowania wzorca, bo pierwszy argument aplikacji add to 0:
+Nat.succ (Nat.succ 1)
+--> Rozpakowując definicję 1 ...
+Nat.succ (Nat.succ (Nat.succ Nat.zero))
+--> ... i pakując to wyrażenie "w definicję" widzimy, że rezultatem aplikacji add 2 1 jest:
+3
+```
+
+Mając definicję dodawania - jako iteracyjnego stosowania funkcji następnika - możemy w takim sam
+sposób rekurencyjnie zdefiniować mnożenie - jako iteracyjne dodawanie - na przykład, $3 * 2$ to $2 +
+2 + 2$, a mając definicję mnożenia możemy rekurencyjnie zdefiniować potęgowanie - jako iteracyjne
+mnożenie - na przykład, $2^3$ to $2 * 2 * 2$. Przyzwyczajenie się do rekurencji wymaga czasu (za to
+potem pisanie takich programów może być bardzo satysfakcjonujące).
 
 Mówiąc już całkiem po polsku i możliwie krótko, liczby naturalne w Leanie to wedłu definicji
 *dokładnie* liczba zero i każda taka liczba, która jest liczbą następną po jakiejś liczbie
@@ -140,10 +206,10 @@ kosmitów*](https://en.wikipedia.org/wiki/Alien_language) (albo
 
 ## Liczby naturalne z perspektywy kategoryjnej
 
-K1. Niech (aksjomatycznie) istnieją jakieś *obiekty*.
+K1. Niech (aksjomatycznie) istnieją *być może* jakieś *obiekty*.
 
-K2. Niech każdy obiekt $O$ będzie wyposażony w *strzałkę* z tego obiektu do niego samego, którą
-będziemy czasem zapisywać jako $Id_O$.
+K2. Niech (aksjomatycznie) każdy obiekt $O$ będzie wyposażony w *strzałkę* z tego obiektu do niego
+samego, którą będziemy czasem zapisywać jako $Id_O$.
 
 K3. Niech poza tym *być może* istnieją jakieś inne strzałki i niech każda strzałka *wychodzi* z
 jakiegoś konkretnego obiektu i *wchodzi* do jakiegoś konkretnego obiektu. Fakt, że jakaś konkretna
@@ -156,37 +222,42 @@ gdzie $f$ to wybrana przez nas arbitralnie nazwa strzałki, a $S$ i $T$ to wybra
 również tak, żeby się kojarzyły ze słowami *source* (po polsku *źródło*) i *target* (po polsku
 *cel*) nazwy obiektu, z którego $f$ wychodzi i do którego wchodzi odpowiednio.
 
-Spróbuj się powstrzymać od myślenia o *tych* strzałkach jako o funkcjach. To *nie* są żadne funkcje
-(chociaż to *mogą* być funkcje).
+Spróbuj się nie przywiązywać za bardzo od myślenia o *tych* strzałkach jako o funkcjach. To *nie* są
+funkcje, chociaż to *mogą* być funkcje. To *są* tylko strzałki o wymienionych właściwościach.
 
-To są na razie *atomowe* "klocki" naszej językowej gry. Potrzebujemy jeszcze dodać aksjomaty, które
-będą nam mówiły, jak się nimi można *bawić*.
+To są na razie *atomowe* "klocki" naszej nowej językowej gry. Potrzebujemy jeszcze dodać aksjomaty,
+które będą nam mówiły, jak można się tymi klockami *bawić* (stosując jakieś aksjomatycznie
+wprowadzone operacje).
 
 K4. Jeżeli $A$, $B$ i $C$ są (niekoniecznie różnymi) obiektami, a $f$ i $g$ są (niekoniecznie
-różnymi) strzałkami takimi, że są w następującym sensie *kompatybilne*: 
+różnymi) strzałkami, w dodatku takimi, że są w następującym sensie *kompatybilne*:
 
 $f : A → B$ i $g : B → C$
 
-to istnieje unikalna strzałka będąca *złożeniem* tych dwóch strzałek, to jest:
+czyli druga wychodzi z obiektu, do którego wchodzi pierwsza, to istnieje *unikalna* strzałka będąca
+*złożeniem* tych dwóch strzałek, a dokładnie:
 
 $g ∘ f : A → C$
 
-Jeżeli strzałki nie są w ten sposób kompatybilne, to nie da się ich tak złożyć.
+gdzie $∘$ oznacza binarną operację składania strzałek. Jeżeli strzałki nie są w ten sposób
+kompatybilne, to nie da się ich tak złożyć.
 
-K5. Składanie strzałek jest *łączne*, to znaczy, że jeżeli:
+K5. Składanie strzałek jest *łączne*, to znaczy, że jeżeli mamy taką kompatybilność:
 
 $f : A → B$, $g : B → C$ i $h : C → D$
 
-to:
+to zachodzi taka równość (a więc wymienialność takich wyrażeń):
 
-$h ∘ (g ∘ f) = (h ∘ g) * f$
+$h ∘ (g ∘ f) = (h ∘ g) ∘ f$
 
-K6. Strzałki typu $Id_A$ są elementami neutralnymi ze względu na operację składania, to znaczy
-zachowują się jak zero w dodawaniu. Zakładając kompatybilność $f$ i $Id_A$:
+K6. Strzałki typu $Id$ są elementami neutralnymi ze względu na operację składania, co znaczy, że
+zachowują się jak zero w dodawaniu. Zakładając kompatybilność $Id_A$ i $f$, a także $f$ i $Id_B$ (co
+sprowadza się do $f : A → B$, bo z definicji $Id_A : A → A$ i $Id_B : B → B$):
 
-$Id_A ∘ f = f$
+$Id_B ∘ f = f = f ∘ Id_A$
 
-a zakładając kompatybilność $Id_A$ i $g$:
+Oto jest sześć aksjomatów [*kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
 
-$g ∘ Id_A = g$
+### Przypisy
 
+[^1]: Pun intended.
