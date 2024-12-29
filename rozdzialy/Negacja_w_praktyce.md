@@ -93,8 +93,9 @@ twierdzenia. Możemy te parametry umieścić przed drukropkiem albo za, a jeżel
 je za pomocą symbolu `∀`, jak nam się podoba:
 
 ```lean
--- Dokończ dowód w trybie interaktywnym lub nieinteraktywnym lub w obydwu tych trybach. Jeżeli bez dodatkowych
--- wyjaśnień to dla Ciebie w tym momencie jest zbyt trudne, to moje próby ułatwienia Ci tego znajdziesz poniżej.
+-- Dokończ dowód w trybie interaktywnym lub nieinteraktywnym lub w obydwu tych trybach. Jeżeli bez
+-- dodatkowych wyjaśnień to dla Ciebie w tym momencie jest zbyt trudne, to moje próby ułatwienia Ci 
+-- tego zadania znajdziesz poniżej.
 theorem tn1 (p : Prop) (q : Prop) : ¬p → p → q := by
 ```
 
