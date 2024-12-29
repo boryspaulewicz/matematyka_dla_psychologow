@@ -108,7 +108,7 @@ uzasadnione wnioski pracownika naukowego. Ja tak w każdym razie sądzę.
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
 pojęcia *zadania*. Dzięki tej jednej definicji będziemy mogli całkowicie zakodować w języku teorii
-typów zależnych artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. 
+typów artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*.
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tej niezwykłej
