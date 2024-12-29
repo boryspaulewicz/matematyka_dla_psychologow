@@ -238,7 +238,7 @@ działa na kilka sposobów.
 będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i dzięki temu łatwiej Ci będzie
 układać je "w głowie". Dlatego trzeba się liczyć z koniecznością czytania tych samych fragmentów
 więcej niż raz, być może po pewnej przerwie. Tego procesu poprawiania się dostępności pamięciowej
-nie da się chyba za bardzo przyspieszyć, ale i tak to tylko kwestia* **czasu**.
+nie da się chyba za bardzo przyspieszyć, ale i tak to tylko kwestia* **czasu**.[]
 
 ```lean
 def plus : Nat → (Nat → Nat) := 
@@ -549,3 +549,12 @@ drugiego. W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na defin
 tworzą funkcje, czyli *programów, które tworzą programy*, ale również na definiowanie funkcji, które
 stosują do czegoś funkcje podane jako ich argumenty, czyli *programów, które przetwarzają inne
 programy*.
+
+### Przypisy
+
+[^1] Pierwszym znanym mi tak młodym, bo czternastoletnim (sic!) czytelnikiem tej książki był Szymon
+Strypling, który przyswoił sobie treści zawarte w tym rozdziale w ciągu około 30 minut, a jedynym
+miejscem, w którym poczuł się przez chwilę nieco przytłoczony nadmiarem informacji, był właśnie ten
+fragment, dotyczący funkcji `plus`. Gdy jednak Szymon doczytał trochę dalej, wszystko się rozjaśniło
+i reszta poszła mu już, o ile mi wiadomo, jak z płatka. Na Jego cześć dodałem to ostrzeżenie (i
+słowa zachęty).
