@@ -552,7 +552,7 @@ programy*.
 
 ### Przypisy
 
-[^1] Pierwszym znanym mi tak młodym, bo czternastoletnim (sic!) czytelnikiem tej książki był Szymon
+[^1]: Pierwszym znanym mi tak młodym, bo czternastoletnim (sic!) czytelnikiem tej książki był Szymon
 Strypling, który przyswoił sobie treści zawarte w tym rozdziale w ciągu około 30 minut, a jedynym
 miejscem, w którym poczuł się przez chwilę nieco przytłoczony nadmiarem informacji, był właśnie ten
 fragment, dotyczący funkcji `plus`. Gdy jednak Szymon doczytał trochę dalej, wszystko się rozjaśniło
