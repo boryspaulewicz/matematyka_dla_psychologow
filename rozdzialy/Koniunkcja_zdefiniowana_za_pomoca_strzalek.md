@@ -24,13 +24,18 @@ możemy zapisać *dosłownie*, na przykład tak:
 $\set{1, 20, \*, X, -3.4}$
 
 Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, bo zapisane dosłownie nie
-zmieściłyby się na żadnej stronie. Wymyślając ten przykład chciałem od razu zasugerować, że w
-typowych teoriach mnogości zbiory mogą zawierać dowolne elementy, na przykład takie, które nie
-należą do jednego rodzaju albo typu. Na przykład, 
+zmieściłyby się na żadnej stronie. Wymyślając ten przykład chciałem od razu zasugerować, że (zgodnie
+z dominującym w matematyce zwyczajem) zbiory mogą zawierać dowolne elementy, na przykład takie,
+które nie należą do żadnego dającego się łatwo zidentyfikować rodzaju albo typu.
 
-Wybitny matematyk polskiego pochodzenia, Jerzy von Neumann, o którym już zresztą wspominałem, wpadł
-na następujący pomysł jak można za pomocą *samych zbiorów* "zakodować" liczby naturalne ($∅$ to
-symbol oznaczający zbiór pusty, czyli $\set{}$):
+Będę teraz mówił o jednym z możliwych sposobów skonstruowania liczb naturalnych z samych
+zbiorów. Nie oczekuję, że to wszystko dobrze zapamiętasz i nie zdziwiłbym się wcale, gdyby Ci się to
+nie sposobało. Piszę o tym tylko w celach ilustracyjnych, dlatego zalecam przyjęcie wspomnianej już
+wcześniej postawy turystki, która ogląda dłużej to, na co tylko ma ochotę i nie stara się za wszelką
+cenę wszystkiego dogłębnie zrozumieć.
+
+Oto jak wygląda jeden ze sposobów "zakodowania" czy raczej "skontruowania" obiektów, których można
+używać tak jak używamy liczb naturalnych ($∅$ to symbol oznaczający zbiór pusty, czyli $\set{}$):
 
 $0 := \set{}$
 
@@ -40,8 +45,10 @@ $2 := \set{0, 1} = \set{\set{}, \set{\set{}}}$
 
 $3 := \set{0, 1, 2} = \set{\set{}, \set{\set{}}, \set{\set{}, \set{\set{}}}}$
 
-I tak dalej. Mamy tutaj oczywisty odpowiednik albo implementację liczby *0* (jako zbiór pusty) i
-mamy *regułę konstrukcji* pozostałych liczb naturalnych, którą można zapisać w ten sposób:
+I tak dalej. Autorem tego pomysłu jest wybitny matematyk polskiego pochodzenia, Jerzy von Neumann, o
+którym już zresztą wspominałem. Mamy tutaj oczywisty odpowiednik albo implementację liczby *0* (jako
+zbioru pustego) i mamy pewną *regułę konstrukcji* pozostałych liczb naturalnych, którą można zapisać
+w taki oto sposób (który zaraz krok po kroku zilustruję):
 
 *Jeżeli $n$ jest liczbą naturalną (zbudowaną już w pewien sposób z samych zbiorów), to zbiór
 powstający z $n$ jako zbioru przez dołożenie do $n$ zbioru $n$ jako elementu jest następnikiem
@@ -51,11 +58,10 @@ A więc:
 
 $\set{}$ jest zbiorem, który postanawiamy oznaczyć jako $0$.
 
-Dokładając do liczby naturalnej $0$, będącej zbiorem $\set{}$, ten sam zbiór jako jego element
-uzyskujemy $\set{\set{}}$, to jest następnik liczby naturalnej $0$, który postanawiamy oznaczyć jako
-$1$.
+Dokładając do liczby naturalnej $0$, będącej zbiorem $\set{}$, ten sam zbiór jako element uzyskujemy
+$\set{\set{}}$, to jest następnik liczby naturalnej $0$, który postanawiamy oznaczyć jako $1$.
 
-Dokładając do liczby naturalnej $1$, będącej zbiorem $\set{\set{}}$, ten sam zbiór jako jego element
+Dokładając do liczby naturalnej $1$, będącej zbiorem $\set{\set{}}$, ten sam zbiór jako element
 uzyskujemy $\set{\set{}, \set{\set{}}}$, który postanawiamy oznaczyć jako $2$.
 
 I tak dalej.
@@ -63,10 +69,10 @@ I tak dalej.
 Wygląda to dziwnie, bo to *jest* dziwne, ale w matematyce ostatecznie liczy się tylko to, czy coś
 *działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc można na nich zdefiniować
 wszystkie sensowne operacje na liczbach naturalnych i te operacje będą się zachowywały zgodnie z
-naszymi oczekiwaniami, a więc te dziwne konstrukcje *są* liczbami naturalnymi, tak samo jak nasze
-`Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej.
+naszymi oczekiwaniami. Wobec tego te dziwne konstrukcje *są* liczbami naturalnymi, tak samo jak są
+nimi nasze `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej.
 
-**Jak to działa?**: Dodawanie, na przykład liczby $2$ do liczby $1$, to $2$ krotne zastosowanie
+**Jak to działa?**: Dodawanie, na przykład liczby $2$ do liczby $1$, to $2$-krotne zastosowanie
 operacji następnika do liczby $1$, a więc:
 
 $2 + 1 = ...$
@@ -80,13 +86,14 @@ $2 + \set{\set{}} = ...$
 Stosujemy funkcję następnika po raz pierwszy ...  
 $1 + \set{\set{}, \set{\set{}}} = ...$
 
-... i po raz drugi i ostatni, bo dodawanie jest tak zdefiniowane, że dodanie $0$ nic nie zmienia ...  
+... i po raz drugi i ostatni, bo dodawanie jest (aksjomatycznie) tak zdefiniowane, że dodanie $0$ nic 
+    nie zmienia:  
 $= \set{\set{}, \set{\set{}}, \set{\set{}, \set{\set{}}}}$
 
-... wreszcie "pakując" definicję odkrywamy, że:  
+Wreszcie "pakując" definicję uzyskanego w ten sposób rezultatu odkrywamy, że:  
 $2 + 1 = 3$
 
-Porównajmy tą teoriomnogościową definicję z definicją liczb naturalnych w Leanie:
+Porównajmy teraz tą teoriomnogościową definicję z definicją liczb naturalnych w Leanie:
 
 ```lean
 inductive Nat where
@@ -98,7 +105,7 @@ Orzeźwiające? Wydaje mi się, że się zgodzisz, że ta definicja wygląda zna
 naturalnie[^1]. Można by wręcz powiedzieć, że ta definicja *jest* aksjomatami Peano zapisanymi
 niemal dosłownie, w dosyć elegancki sposób, w postaci [*definicji
 indukcyjnej*](https://pl.wikipedia.org/wiki/Indukcja_matematyczna), a dokładnie w postaci definicji
-*indukcyjnego typu danych*.
+tak zwanego *indukcyjnego typu danych*.
 
 **Czytamy to**: Indukcyjnie zdefiniowany typ danych (`inductive`) liczba naturalna (`Nat`) to
 *dokładnie wszystkie* takie termy, że (`where`):
@@ -112,8 +119,8 @@ Gdy nie posługujemy się wygodnym zapisem cyfrowym, to zapisujemy te liczby zwy
 `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej, a nie `zero`, `succ
 zero`, `succ (succ zero)`, i tak dalej, ponieważ stałe `zero` i `succ` są tutaj elementami
 *przestrzeni nazw* `Nat`, która powstaje automatycznie w ramach każdej definicji indukcyjnego typu
-danych. Jeśli jednak mamy ochotę, zawsze możemy tą przestrzeń nazw *otworzyć* i pisać bez prefiksu
-`Nat.`:
+danych. Jeśli jednak mamy ochotę, zawsze możemy taką przestrzeń nazw *otworzyć* i dzięki temu pisać
+bez prefiksu:
 
 ```lean
 -- Otwarcie przestrzeni nazw Nat umożliwia krótszy zapis dosłowny liczb naturalnych:
@@ -129,33 +136,37 @@ open Nat
 Aplikacje takie jak `succ zero` czy `succ (succ zero)` są *nieredukowalne* po prostu dlatego, że
 funkcja `succ` istnieje *aksjomatycznie*, a więc definicja stałej `succ` jest *pozbawiona ciała*
 (nie ma tu nic do rozpakowania). Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie
-kryje*. Przyjmujemy po prostu, że liczba naturalna $0$ *jest* (nieredukowalną) stałą `zero`, liczba
-naturalna $1$ *jest* nieredukowalną aplikacją `succ zero`, i tak dalej.
+kryje*. Przyjmujemy tu po prostu konwencję, zgodnie z którą liczba naturalna $0$ *jest*
+(nieredukowalną) stałą `zero`, liczba naturalna $1$ *jest* nieredukowalną aplikacją `succ zero`, i
+tak dalej.
 
 **Jak to działa?**: Dla uproszczenia zamiast `zero` będę pisał $0$ a zamiast `succ` będę pisał $+$ i
-nie będę pisał nawiasów, w ten sposób: $0, +0, ++0, +++1$, i tak dalej, gdzie $+0$ to następna
-liczba naturalna po liczbie $0$, a więc $1$, $++0$ to $2$, $+++0$ to $3$, i tak dalej. Dodawanie
-działa wtedy tak (rozpakowując i na końcu pakując definicje stałych w oczywisty sposób): 
+nie będę też pisał nawiasów, a więc: $0, +0, ++0, +++0$, i tak dalej, gdzie $+0$ to następna liczba
+naturalna po liczbie $0$, a więc $1$, $++0$ to $2$, $+++0$ to $3$, i tak dalej. Dodawanie działa
+wtedy tak (rozpakowując i na końcu pakując definicje stałych w oczywisty sposób):
 
 $2 + 1 = 2 + +0 = 1 + ++0 = 0 + +++0 = +++0 = 3$.
 
-W Leanie operację dodawania liczb naturalnych można zdefiniować rekurencyjnie używając dopasowania
-wzorca w następujący sposób (ilustracja):
+Operację dodawania liczb naturalnych można w Leanie zdefiniować rekurencyjnie używając dopasowania
+wzorca (ilustracja):
 
 ```lean
 -- Nie przejmuj się, jeżeli ten kod wydaje Ci się w tym momencie zbyt skomplikowany, to tylko
 -- ilustracja.
 def add (m : Nat) (n : Nat) : Nat :=
+    -- Wykonaj operację pasującą do postaci zmiennej m:
     match m with
-    -- Jeżeli m to Nat.zero, to zwróć m, bo 0 + m to m:
+    -- Jeżeli m to Nat.zero, to zwróć n, bo 0 + n to n:
     | Nat.zero => n
-    -- Jeżeli m to następna liczba naturalna po liczbie l (a więc n nie może być równe 0), to 
-    -- zwróć następnik rezultatu zastosowania funkcji add do liczb l i n:
+    -- Jeżeli m to następna liczba naturalna po jakiejś liczbie l (a więc n może tu być dowolną
+    -- liczbą różną od 0), to zwróć następnik rezultatu zastosowania funkcji add do liczb l i n:
     | Nat.succ l => Nat.succ (add l n)
 
-#eval add 2 1 -- 3
+-- Widzimy na tych przykładach, że tak zdefiniowane dodawanie działa zgodnie z oczekiwaniami:
+#eval add 2 1    -- 3
+#eval add 100 99 -- 199
 
--- Ponieważ (ilustracja):
+-- A tak przebiega ewaluacja tego rodzaju aplikacji (ilustracja):
 add 2 1
 --> Drugi warunek dopasowania wzorca, bo 2 jest różne od 0:
 Nat.succ (add 1 1)
@@ -169,40 +180,43 @@ Nat.succ (Nat.succ (Nat.succ Nat.zero))
 3
 ```
 
-Mając definicję dodawania - jako iteracyjnego stosowania funkcji następnika - możemy w takim sam
-sposób rekurencyjnie zdefiniować mnożenie - jako iteracyjne dodawanie - na przykład, $3 * 2$ to $2 +
-2 + 2$, a mając definicję mnożenia możemy rekurencyjnie zdefiniować potęgowanie - jako iteracyjne
-mnożenie - na przykład, $2^3$ to $2 * 2 * 2$. Przyzwyczajenie się do rekurencji wymaga czasu (za to
-potem pisanie takich programów może być bardzo satysfakcjonujące).
+Mając definicję *dodawania* - jako iteracyjnego stosowania funkcji następnika, na przykład $2 + 2$
+to $1 + 1 + 2$ - możemy w ten sam sposób (rekurencyjnie) zdefiniować *mnożenie* - jako iteracyjne
+dodawanie - na przykład, $3 * 2$ to $2 + 2 + 2$, a mając definicję mnożenia możemy (również
+rekurencyjnie) zdefiniować *potęgowanie* - jako iteracyjne mnożenie - na przykład, $2^3$ to $2 * 2 *
+2$. Przyzwyczajenie się do rekurencji wymaga jednak trochę czasu (za to potem pisanie takich
+programów może być moim zdaniem bardzo satysfakcjonujące).
 
 Mówiąc już całkiem po polsku i możliwie krótko, liczby naturalne w Leanie to wedłu definicji
 *dokładnie* liczba zero i każda taka liczba, która jest liczbą następną po jakiejś liczbie
 naturalnej. Mamy tu do czynienia z [*definicją
-rekurencyjną*](https://pl.wikipedia.org/wiki/Rekurencja), ponieważ ogólne pojęcie liczby naturalnej
-jest (formalnie) *zdefiniowane w kategoriach liczb naturalnych* i chociaż może się wydawać, że taka
+rekurencyjną*](https://pl.wikipedia.org/wiki/Rekurencja), ponieważ pojęcie liczby naturalnej jest
+(formalnie) *zdefiniowane w kategoriach liczb naturalnych* i chociaż może się wydawać, że taka
 definicja musi być błędna, bo występuje w niej pozornie jakieś [błędne
-koło](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu), to jednak *nie ma w
-tym nic złego*, ale o tym będę mówił kiedy indziej.
+koło](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu), to jednak *nie ma tu
+żadnego błędu*, ale o tym będę mówił kiedy indziej.
 
-O definicji liczb naturalnych zaproponowanej przez von Neumanna ktoś złośliwy (nie ja!) mógłby na
-przykład powiedzieć, że jest wegańska, bo te liczby rzekomo "naturalne" von Neumanna są sklecone
-niemal z niczego (to jest *z samych zbiorów*) i w dodatku wyglądają dziwnie, jak jakieś wegańskie
-ciasteczka (jeszcze raz podkreślam, to nie moje słowa!), ale to jeszcze pół biedy (to znaczy, pół
-biedy, że różni złośliwi i ograniczeni ludzie tak czasami mówią). Gorzej, że posługując się tą
-definicją możemy zapisać jako poprawne i prawdziwe między innymi takie oto dosyć bezsensowne zdanie:
+O definicji liczb naturalnych zaproponowanej przez von Neumanna ktoś złośliwy (nie ja!) mógłby nawet
+powiedzieć, że jest wegańska, bo przecież te rzekomo "naturalne" liczby von Neumanna są sklecone
+niemal z niczego (to jest *z samych zbiorów*), a w dodatku wyglądają dosyć dziwnie, jak jakieś, nie
+przymierzając wegańskie ciasteczka (jeszcze raz podkreślam, to nie moje słowa!), ale to jeszcze pół
+biedy (to znaczy, pół biedy, że różni złośliwi i ograniczeni ludzie tak czasami mówią). Gorzej, że
+posługując się tą definicją możemy zapisać jako *poprawne* i zarazem *prawdziwe* między innymi takie
+dosyć *bezsensowne* zdanie:
 
 $1 ∈ 2$  
 (Zdanie prawdziwe, a więc również poprawne, w każdej teorii, w której obowiązuje definicja liczb
 naturalnych zaproponowana przez von Neumanna)
 
-Widzimy tutaj przykładowy *skutek uboczny* tej definicji, polegający na tym, że *liczba naturalna
-$1$ jest elementem zbioru liczba naturalna $2$*. Ten skutek uboczny wynika stąd, że te liczby są
-*zaimplementowane* za pomocą zbiorów, a zbiory mają różne właściwości, których *nie mają* liczby
-naturalne *jako takie*. W zasadzie nic nie szkodzi, jesteśmy przecież tolerancyjni, ale jednak
-definicja von Neumanna jest troszeczkę *zbyt wegańska*, prawda?
+Widzimy tutaj przykładowy *skutek uboczny* definicji von Neumanna, polegający na tym, że *liczba
+naturalna $1$ jest elementem zbioru liczba naturalna $2$*. Ten skutek uboczny wynika stąd, że te
+liczby są *zaimplementowane* za pomocą zbiorów, a zbiory mają różne właściwości, których *nie mają*
+liczby naturalne *jako takie*. W zasadzie nic nie szkodzi, jesteśmy przecież tolerancyjni, niemniej
+wydaje się, że nawet ktoś tylko umiarkowanie złośliwy i ograniczony mógłby powiedzieć, że definicja
+von Neumanna jest troszeczkę *zbyt* wegańska.
 
-To teraz uważaj, bo teraz zaczniemy się przełączać na [*język
-kosmitów*](https://en.wikipedia.org/wiki/Alien_language) (albo
+No to teraz uważaj, bo zaczniemy się przełączać na [*język
+kosmitów*](https://en.wikipedia.org/wiki/Alien_language) (lub
 [aniołów](https://biblehub.com/text/1_corinthians/13-1.htm), jak kto woli).
 
 ## Liczby naturalne z perspektywy kategoryjnej
