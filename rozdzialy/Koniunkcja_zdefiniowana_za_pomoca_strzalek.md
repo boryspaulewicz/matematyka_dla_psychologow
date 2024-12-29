@@ -50,29 +50,29 @@ którym już zresztą wspominałem. Mamy tutaj oczywisty odpowiednik albo implem
 zbioru pustego) i mamy pewną *regułę konstrukcji* pozostałych liczb naturalnych, którą można zapisać
 w taki oto sposób (który zaraz krok po kroku zilustruję):
 
-*Jeżeli $n$ jest liczbą naturalną (zbudowaną już w pewien sposób z samych zbiorów), to zbiór
-powstający z $n$ jako zbioru przez dołożenie do $n$ zbioru $n$ jako elementu jest następnikiem
-$n$ jako liczby naturalnej*.
+*Jeżeli* n *jest liczbą naturalną (zbudowaną już w pewien sposób z samych zbiorów), to zbiór
+powstający z* n *jako zbioru przez dołożenie do* n *zbioru* n *jako elementu jest następnikiem* n
+*jako liczby naturalnej*.
 
 A więc: 
 
 $\set{}$ jest zbiorem, który postanawiamy oznaczyć jako $0$.
 
 Dokładając do liczby naturalnej $0$, będącej zbiorem $\set{}$, ten sam zbiór jako element uzyskujemy
-$\set{\set{}}$, to jest następnik liczby naturalnej $0$, który postanawiamy oznaczyć jako $1$.
+$\set{\set{}}$, to jest następnik liczby naturalnej $0$, który oznaczamy jako $1$.
 
 Dokładając do liczby naturalnej $1$, będącej zbiorem $\set{\set{}}$, ten sam zbiór jako element
-uzyskujemy $\set{\set{}, \set{\set{}}}$, który postanawiamy oznaczyć jako $2$.
+uzyskujemy $\set{\set{}, \set{\set{}}}$, który oznaczamy jako $2$.
 
 I tak dalej.
 
-Wygląda to dziwnie, bo to *jest* dziwne, ale w matematyce ostatecznie liczy się tylko to, czy coś
-*działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc można na nich zdefiniować
-wszystkie sensowne operacje na liczbach naturalnych i te operacje będą się zachowywały zgodnie z
-naszymi oczekiwaniami. Wobec tego te dziwne konstrukcje *są* liczbami naturalnymi, tak samo jak są
-nimi nasze `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej.
+Wygląda to dziwnie, bo to *jest* dziwne, ale w matematyce ostatecznie liczy się tylko to, czy
+konstrukcja *działa*, a tego rodzaju obiekty spełniają aksjomaty Peano, a więc można na nich
+zdefiniować wszystkie sensowne operacje na liczbach naturalnych i te operacje będą się zachowywały
+zgodnie z naszymi oczekiwaniami. Wobec tego, te dziwne konstrukcje *są* liczbami naturalnymi, tak
+samo jak są nimi nasze `Nat.zero`, `Nat.succ Nat.zero`, `Nat.succ (Nat.succ Nat.zero)`, i tak dalej.
 
-**Jak to działa?**: Dodawanie, na przykład liczby $2$ do liczby $1$, to $2$-krotne zastosowanie
+**Jak to działa?**: Dodawanie na przykład liczby $2$ do liczby $1$ to $2$-krotne zastosowanie
 operacji następnika do liczby $1$, a więc:
 
 $2 + 1 = ...$
