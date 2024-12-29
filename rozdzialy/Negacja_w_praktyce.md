@@ -158,13 +158,13 @@ albo *wykorzystanie* (czyli jakby "zużycie") założenia (danego rodzaju).
 Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja):
 
 ```lean
-h1 : ¬p
-h2 : p
+np : ¬p
+hp : p
 ```
 
-to ponieważ (rozpakowując definicję negacji) `h1 : ¬p` znaczy to samo, co `h1 : p → False`, to
+to ponieważ (rozpakowując definicję negacji) `np : ¬p` znaczy to samo, co `np : p → False`, to
 
-`#check h1 h2 -- h1 h2 : False`
+`#check np hp -- np hp : False`
 
 Wiesz już, że reguła eliminacji / (z)użycia fałszu mówi, że dla dowolnego zdania, jeśli mamy dowód
 fałszu / akceptujemy fałsz, to mamy dowód / akceptujemy to zdanie. Matematycy zapisują tą regułę
