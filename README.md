@@ -213,7 +213,8 @@ dłuższe ostrzeżenie i zachętę.
 
 ### Przypisy
 
-[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę pisał w innym rozdziale.
+[^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę
+    pisał w innym rozdziale.
 
 [^2]: Więcej na ten fascynujący temat można poczytać w
     [tej](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404?cc=it&lang=en&)
