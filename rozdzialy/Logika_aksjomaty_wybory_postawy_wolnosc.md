@@ -27,11 +27,11 @@ geometrycznych. Może wyszło by mi z tego coś, co wydawało by mi się sensown
 byłby wtedy *znany mi fakt empiryczny* dotyczący mnie, ale nie byłby to jeszcze żaden dowód.
 
 Właśnie teraz muszę rozwiązać inny problem. Najpierw chciałem napisać zdanie zawierające słowo
-"mógłbyś", a potem się zreflektowałem (podoba mi się ten osobliwy zwrot, chyba go później do czegoś
-wykorzystam), że odbiorcą może być kobieta. Napisałem więc mógła/byś, ale to mi się wydało bardzo
-nieudane. Poczułem irytację z powodu faktu, że poświęcam takiemu moim zdaniem drobiazgowi tyle
-uwagi. Moje postawy polityczne są niejasne, bo nie lubię polityki i większości polityków, ale moi
-znajomi pewnie powiedzieliby, że te poglądy są lewicowe w kwestiach ekonomicznych i liberalne w
+"mógłbyś", a potem się zreflektowałem (*zreflektować się* - podoba mi się ten osobliwy zwrot, chyba
+go później do czegoś wykorzystam), że odbiorcą może być kobieta. Napisałem więc mógła/byś, ale to mi
+się wydało bardzo nieudane i poczułem irytację, że poświęcam takiemu moim zdaniem drobiazgowi aż
+tyle uwagi. Moje postawy polityczne są niejasne, bo nie lubię polityki i większości polityków, ale
+moi znajomi pewnie powiedzieliby, że te poglądy są lewicowe w kwestiach ekonomicznych i liberalne w
 kwestiach obyczajowych. Nie bardzo wiem, co to właściwie znaczy, ani nie bardzo mnie to obchodzi,
 ale to ma chyba ostatnio jakiś związek z rodzajem gramatycznym.
 
@@ -62,11 +62,12 @@ czy preferencje, które pod względem sztywności przypominają na przykład pre
 smakowe. Pozostaje więc tylko *perswazja*, czyli taka albo inna forma użycia *siły*.
 
 Muszę więc dokonać wyboru, a ponieważ bardzo cenię sobie wolność - w granicach częściowo
-wyznaczonych przez to, jak rozumiem, w właściwie *czuję* normę niekrzywdzenia - w tym również
+wyznaczonych przez to, jak rozumiem, a właściwie *czuję* normę niekrzywdzenia - w tym również
 wolność ekspresji, postanowiłem w tym rozdziale stosować konwencję, która może być irytująca zarówno
-dla osób "nieprzebudzonych" jak i ["przebudzonych"](https://pl.wikipedia.org/wiki/Woke). Będę się
-mianowicie posługiwał formą "mogłobyś" i innymi podobnymi, bo takie cudownie dla mnie żenująco
-brzmiące rozwiązanie dostarcza język polski, jeśli się go potraktuje trochę przemocowo.
+dla osób ["nieprzebudzonych"](https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)) jak i
+["przebudzonych"](https://pl.wikipedia.org/wiki/Woke). Będę się mianowicie posługiwał formą
+"mogłobyś" i innymi podobnymi, bo takie cudownie dla mnie żenujące rozwiązanie dostarcza język
+polski, jeśli się go potraktuje trochę przemocowo.
 
 To będzie mój sposób wyrażenia sprzeciwu wobec odczuwanej presji, jeśli już nie *o*presji, a
 właściwie przemocy (żartuję), z którą nie mogę zrobić nic innego, jak albo się jej poddać, albo się
