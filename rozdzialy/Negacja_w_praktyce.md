@@ -55,9 +55,8 @@ variable (q : Prop)
 ```
 
 W tym kodzie pojawiły się nieznane Ci jeszcze aspekty Leana, to jest jawne podanie wartości
-parametru opcjonalnego (`(b := q)` i `(C := q)`) i korzystanie z faktu, ale ani rozwiązując zadania
-w tym rozdziale, ani czytając rozdział następny, nie będziesz musiała korzystać z tej
-funkcjonalności.
+parametru opcjonalnego (`(b := q)` i `(C := q)`), ale ani rozwiązując zadania w tym rozdziale, ani
+czytając rozdział następny, nie będziesz musiała korzystać z tej funkcjonalności.
 
 Myślę, że jesteś już gotowa, żeby poćwiczyć dowodzenie zdań zawierających negację. Nie wiem tylko
 jeszcze, jakie zadania Ci zaproponować. Takie zadanie może polegać albo na *uzyskaniu* dowodu
