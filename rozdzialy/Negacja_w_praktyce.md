@@ -182,10 +182,10 @@ To nie jest fragment Leana ani poprawna "wypowiedź" w języku teorii typów, ty
 matematycznej* dotyczącej dedukcji naturalnej. Nazywam to prozą matematyczną, bo ten fragment
 *wymaga komentarza w języku naturalnym*, nie jest więc w *pełni* sformalizowany[^1]. Czy widzisz, że
 chociaż z komentarzem ("A reguła eliminacji...") zapis z poziomą kreską jest zrozumały, to bez
-komentarza, który pozwala domyślić się, czym jest *A*, albo nie jest zrozumiały, albo jest
-zrozumiały tylko dla kogoś, kto domyśla się tej brakującej wtedy informacji? Widzimy więc, że
-formalizacja służy między innymi całkowitemu usunięciu potrzeby domyślania się, o co właściwie
-chodzi.
+komentarza, który pozwala domyślić się, czym jest *A* i co oznacza pozioma kreska, albo nie jest
+zrozumiały, albo jest zrozumiały tylko dla kogoś, kto domyśla się tych brakujących informacji?
+Widzimy więc, że formalizacja służy między innymi usuwaniu powodów, dla których trzeba się domyślać,
+o co właściwie chodzi.
 
 Gdybyś chciała skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to zrobić albo tak:
 
