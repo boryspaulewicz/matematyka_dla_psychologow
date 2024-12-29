@@ -21,7 +21,7 @@ To, że teoria *ZF* ma status jednej z teorii podstawowych w matematyce oznacza 
 można skonstruować rozmaite obiekty matematyczne posługując się tylko zbiorami. Zbiory *skończone*
 możemy zapisać *dosłownie*, na przykład tak:
 
-$\set{1, 20, \*, \~, -3.4}$
+$\set{1, 20, \*, X, -3.4}$
 
 Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, bo zapisane dosłownie nie
 zmieściłyby się na żadnej stronie. Wymyślając ten przykład chciałem od razu zasugerować, że w
