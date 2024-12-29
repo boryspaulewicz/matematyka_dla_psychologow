@@ -234,12 +234,12 @@ zdania za pomocą eksplozji dedukcyjnej, a więc także negacji dowolnego zdania
 zdaniem dla Ciebie zbyt łatwe. Chyba wiem co zrobić. Właściwie zaproponuję Ci nie jedno, a trzy
 zadania na ten temat.
 
-**Zadanie**: Wiesz już, że każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`. Gdy
-mamy jakiś dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując do tego dowodu
-dostępną w Leanie funkcję `False.elim`. To samo możemy zapisać również krócej, jako dowód, zaraz
-potem (bez spacji) kropkę i zaraz potem `elim`. Jeżeli dowód fałszu to jakiś term złożony, na
-przykład aplikacja, to musimy cały ten term otoczyć wtedy nawiasami i zapisać prawy nawias jako
-`).elim`. Wiem, że już o tym mówiłem, teraz tylko przypominam.
+**Zadanie**: Wiesz już, że każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`, a
+dokładniej, gdy mamy jakiś dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując
+do tego dowodu dostępną w Leanie funkcję `False.elim`. To samo możemy zapisać również krócej, jako
+dowód, zaraz potem (bez spacji) kropkę i zaraz potem `elim`. Jeżeli dowód fałszu to jakiś term
+złożony, na przykład aplikacja, to musimy cały ten term otoczyć wtedy nawiasami i zapisać prawy
+nawias jako `).elim`. Wiem, że już o tym mówiłem, teraz tylko przypominam.
 
 Udowodnij poniższe twierdzenie, najpierw korzystając z trybu interaktywnego, a potem już bez użycia
 komendy `by`. Wystarczy wprowadzić poprzednik implikacji jako założenie i użyć tego hipotetycznego
@@ -266,7 +266,7 @@ Mam nadzieję, że już niemal *widzisz*, że w początkowej części udowadnian
 "wcześniej", a może "wyżej", przed dowodzonym zdaniem, na przykład jako (globalny) aksjomat, *musimy
 założyć lub uzyskać dowód negacji albo fałszu, żeby uzyskać dowód jakiejś negacji albo fałszu*. A
 właściwie samej negacji, bo jakikolwiek od razu dostępny dowód fałszu pozwoliłby nam natychmiast
-udowodnić co tylko chcemy.
+udowodnić wszystko, co tylko byśmy chcieli.
 
 Zaproponuję Ci jeszcze zadanie w zasadzie takie samo jak poprzednie, jednak zamiast zdań atomowych
 będą tam zdania *złożone*, będące *aplikacjami predykatów*. Te predykaty będą dotyczyć liczb
@@ -285,24 +285,24 @@ zawierają tylko informacje o tym, co *znaczą* poszczególne symbole lub nazwy,
 parametry tylko rzucić okiem, żeby się zorientować, *o czym jest mowa*. W tym wypadku twierdzenie ma
 dotyczyć jakiś predykatów `P` i `Q` i jakiejś liczby naturalnej `n`. To jest odpowiednik części
 *Jeżeli* n *i* m *to liczby naturalne...*, z którą spotkałaś się w rozdziale czwartym. Właściwie to
-nic ciekawego, tylko taka taka [nudna
+nic ciekawego, tylko jakby taka [nudna
 księgowość](https://www.google.com/search?q=ksi%C4%99gowo%C5%9B%C4%87+nie+jest+nudna).
 
-No dobrze, a co ze zdaniem do udowodnienia? Przecież tam są tylko *trzy* zdania, z których dwa to
-właściwie *to samo* zdanie plus jego negacja. Spróbuj może znowu zacząć od trybu interaktywnego i
-swobodnie poeksperymentować ze znanymi Ci taktykami i funkcją `absurd`. Jak zawsze zobaczysz co się
-będzie wtedy działo ze stanem dowodu w panelu po prawej.
+No dobrze, a co ze zdaniem do udowodnienia? Przecież tam są tylko *trzy* połączone strzałkami
+zdania, z których dwa to właściwie *to samo* zdanie plus jego negacja. Spróbuj może znowu zacząć od
+trybu interaktywnego i swobodnie poeksperymentować ze znanymi Ci taktykami i funkcją `absurd`. Jak
+zawsze zobaczysz co się będzie wtedy działo ze stanem dowodu w panelu po prawej.
 
 Może męczy Cię to moje powtarzanie, ale nie mogę zakładać, że każda czytelniczka i każdy czytelnik
 na tym etapie już to złapał: Przypominam, że zapisując początek twierdzenia `tn3` musieliśmy wstawić
 parametr typu `Nat`, bo inaczej nie moglibyśmy pisać zdań złożonych z predykatów dotyczących liczb
 naturalnych w sposób, który byłby dla Leana "zrozumiały". Sam predykat, na przykład samo `Ponury`,
 nie jest zdaniem (jest predykatem, a więc pewną funkcją {nie *typem* funkcyjnym}). Dopiero, dajmy na
-to, `Ponury Krystian` jest zdaniem. Analogicznie, sam predykat `P` dotyczący liczb naturalnych nie
-jest jeszcze zdaniem, dopiero aplikacja `P` do liczby naturalnej jest. Skoro więc mamy dowodzić
-zdania na temat (jakiś) własności (tutaj `P` i `Q`) liczb naturalnych, to musimy mieć do dyspozycji
-co najmniej jedną, bliżej nieokreśloną (lepiej: arbitralną) liczbę naturalną, której te własności
-mogą przysługiwać albo nie.
+to, `Ponury Krystian` jest zdaniem. Analogicznie, sam predykat `P : Nat → Prop`, dotyczący liczb
+naturalnych, nie jest jeszcze zdaniem, dopiero aplikacja `P` do liczby naturalnej jest. Skoro więc
+mamy dowodzić zdania na temat (jakiś) własności (tutaj `P` i `Q`) liczb naturalnych, to musimy mieć
+do dyspozycji co najmniej jedną, bliżej nieokreśloną (lepiej: *arbitralną*[^2]) liczbę naturalną,
+której te własności mogą przysługiwać albo nie.
 
 Wewnątrz (w lokalnym kontekście) dowodu twierdzenia `tn3` od samego początku są więc *trzy* termy
 (to są właśnie parametry tego twierdzenia): (jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i
@@ -311,15 +311,16 @@ twierdzenia, bo twierdzenie to tak naprawdę funkcja, a wewnątrz każdej funkcj
 korzystać z jej parametrów (o ile ich lokalnie nie "przysłonimy" tworząc "wewnętrzny kontekst" i
 nadając tam nazwom parametrów nowe znaczenie, ale o tym kiedy indziej).
 
-To wszystko komplikuje strukturę *typu* twierdzenia `tn3`, ale w tym wypadku nie ma znaczenia dla
-jego *dowodu*. Tak naprawdę mamy tu po prostu implikację, której następnikiem jest implikacja i
-której poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę implikacja). Te
-elementy musimy kolejno "rozłączać", wprowadzając (do kontekstu) jako lokalne hipotezy poprzedniki
-obu implikacji, a raczej ich hipotetyczne dowody.
+To wszystko komplikuje strukturę *typu stałej* `tn3`, ale w tym wypadku nie ma znaczenia dla
+*dowodu* tego twierdzenia. Tak naprawdę mamy tu po prostu implikację, której następnikiem jest
+implikacja i której poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę
+implikacja). Te elementy musimy kolejno "rozłączać" (za wyjątkiem negacji jako implikacji, którą
+musimy tylko, jawnie lub niejawnie, aplikować), wprowadzając (do kontekstu) jako lokalne hipotezy
+poprzedniki obu implikacji, a raczej ich hipotetyczne dowody.
 
 ## Implikacja przeciwna
 
-Następne zadanie jest trochę trudniejsze niż wszystkie poprzednie.
+Następne zadanie jest znacznie trudniejsze niż wszystkie poprzednie.
 
 **Szkielet dowodu `¬q → ¬p` zakładając `p → q`**: Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli
 `¬q`, to nie może być prawdą, że `p`. Gdyby bowiem *wtedy* `p` było prawdą, to moglibyśmy użyć `p →
@@ -366,3 +367,9 @@ udowodnienia jest tak naprawdę implikacją, której poprzednikiem i następniki
 ### Przypisy
 
 [^1]: W pełni sformalizowany fragment prozy matematycznej wypada mi więc nazwać matematyczną poezją.
+
+[^2]: Co ciekawe, słownik języka polskiego [nie pomaga](https://sjp.pwn.pl/slowniki/arbitralny.html)
+    w zrozumieniu sposobu, w jaki słowo *arbitralny* jest często używane przez matematyków,
+    filozofów, czy w ogóle ludzi zajmujących się nauką (to jest w znaczeniu *dowolny*, albo *jakiś*,
+    albo *jakikolwiek danego rodzaju*).
+    
