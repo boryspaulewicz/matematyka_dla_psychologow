@@ -252,7 +252,7 @@ w dowodzie nie będziesz korzystać z faktu, że zdania mają strukturę podmiot
 orzeczenie-podmiot).
 
 ```lean
-theorem tn3 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : `¬ P n → (P n → Q n)` := by
+theorem tn3 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : ¬ P n → (P n → Q n) := by
 ```
 
 Co by tu napisać, żeby zminimalizować ryzyko paniki... Może tak: Często parametry twierdzeń
