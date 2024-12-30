@@ -219,7 +219,7 @@ wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *i
 organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg
 naszych procesów umysłowych, albo w jaki sposób nasze zachowanie reguluje mózg, i zamiast skupiać
 się, przynajmniej *pozornie*, na przyczynowych relacjach między fizycznie rozumianymi bodźcami i
-reakcjami, jak to mają w zwyczaju psychologowie o behawioralnej orientacji, zajmiemy się czymś jakby
+reakcjami, jak to mają w zwyczaju psychologowie o orientacji behawioralnej, zajmiemy się czymś jakby
 kompletnie z drugiej strony, to jest *środowiskiem*.
 
 Będzie to środowisko jako coś, czym jak sądze zawsze było dla psychologa *jako psychologa*, a czym
