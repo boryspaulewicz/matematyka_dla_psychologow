@@ -154,18 +154,18 @@ axiom Pyszna : Predykat Napoj
 
 -- Ewaluacja wyrażenia po stronie typu tej aksjomatycznej stałej pozwala zobaczyć, jak działa funkcja 
 -- Predykat (ilustracja):
-axiom Pyszna : Predykat Napoj
+#check (Pyszna : Predykat Napoj)
 
 --> Najpierw zachodzi rozpakowanie stałej Predykat ...
-axiom Pyszna : (fun (typ : Type) => typ → Prop) Napoj
+#check (Pyszna : (fun (typ : Type) => typ → Prop) Napoj)       -- Lean nie sygnalizuje błędu
 
 --> ... a następnie odczepienie ciała i podstawienie pod zmienną, które w tym wypadku kończy proces
 -- redukcji.
-axiom Pyszna : Napoj → Prop
+#check (Pyszna : Napoj → Prop)                                 -- Lean nie sygnalizuje błędu
 
 -- Pyszna kawa jest poprawnym zdaniem, ponieważ jest aplikacją predykatu (czyli pewnej funkcji) do termu
 -- o typie, którego wymaga ten predykat (ta funkcja):
-#check Pyszna kawa -- Pyszna kawa : Prop
+#check Pyszna kawa                                             -- Pyszna kawa : Prop
 ```
 
 Rozwiązania takie jak to, które zastosowałem, żeby w bardziej widoczny sposób oznaczyć własność
