@@ -42,15 +42,15 @@ na przykład w połączeniu z darmowym edytorem VS Code. Proste instrukcje, jak 
 skopiuj na początek do lewego okna taki fragment kodu:
 
 ```lean
--- Tekst zaczynający się od -- to komentarz. Komentarze są przez Leana ignorowane. Dzięki temu możemy napisać
--- na przykład to:
+-- Tekst zaczynający się od -- to komentarz. Komentarze są przez Leana ignorowane. Dzięki temu możemy 
+-- napisać na przykład to:
 --
 -- Lean jest głupi
 --
 -- i nic się nie stanie.
 
--- Ta fascynująca funkcja pobiera jeden argument typu Nat, czyli liczbę naturalną, i nic z nią nie robi, tylko
--- ją zwraca (każda funkcja musi coś zwracać):
+-- Ta fascynująca funkcja pobiera jeden argument typu Nat, czyli liczbę naturalną, i nic z nią nie robi,
+-- tylko ją zwraca (każda funkcja musi coś zwracać):
 def nic_nie_robie (n : Nat) : Nat := n
 ```
 
@@ -75,7 +75,7 @@ następny fragment kodu i umieść kursor na komendzie `#eval`. Zobaczysz wtedy 
 #eval nic_nie_robie 1
 ```
 
-Teraz będziemy *sprawdzać typ termu* `nic_nie_robie`. W tym celu wklej ten fragment:
+Teraz będziemy *sprawdzać typ termu* `nic_nie_robie`. W tym celu wklej lub przepisz z pamięci to:
 
 ```lean
 #check @nic_nie_robie
@@ -88,13 +88,15 @@ Gdy umieścisz kursor nad *pierwszym* wystąpieniem słowa `#check`, zobaczysz p
 
 `nic_nie_robie : Nat → Nat`
 
-`Nat` to typ oznaczający liczby naturalne. Myślę, że zaczęłaś się już trochę oswajać z tym, że w
-Leanie wyrażenie o postaci `M : N`, gdzie `M` i `N` to jakieś wyrażenia, oznacza, że `M` ma typ
-`N`. Gdy `M` to zmienna, na przykład `x`, takie wyrażenie nazywamy *deklaracją* (typu danej
-zmiennej), na przykład, `x : N`, gdzie `N` to jakieś wyrażenie oznaczające typ, jest deklaracją, że
-`x` ma typ `N`. Skomplikowane? To popatrz na to (ale nie wklejaj tego do Leana):
+`Nat` to typ oznaczający liczby naturalne. Myślę, że zaczęłaś się już oswajać z tym, że w Leanie
+wyrażenie o postaci `M : N`, gdzie `M` i `N` to jakieś wyrażenia, oznacza, że `M` ma typ `N`. Gdy
+`M` to *zmienna*, na przykład `x`, takie wyrażenie nazywamy *deklaracją* (typu tej zmiennej), na
+przykład, `x : N`, gdzie `N` to jakieś wyrażenie oznaczające typ, jest deklaracją, że `x` ma typ
+`N`. Skomplikowane? To popatrz na to (ale nie wklejaj tego do Leana):
 
-`10 : Nat`
+```lean
+10 : Nat
+```
 
 To jest deklaracja, że `10` ma typ `Nat`, czyli, że `10` jest liczbą naturalną. A zawsze, gdy po
 stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, masz do czynienia z *typem
@@ -105,11 +107,12 @@ strzałkę. Komunikat, który widzisz po prawej, gdy sprawdzasz typ tej stałej,
 
 możesz więc odczytać tak:
 
-*`nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę naturalną*.
+*`nic_nie_robie` jest pewną funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę
+naturalną*.
 
 Jeżeli umieścisz kursor nad drugim wystąpieniem komendy `#check`, tym, któremu nie towarzyszy symbol
-`@`, to zobaczysz *tą samą informację*, tylko *przedstawioną w inny sposób* (zgodny z tym, jak ta
-funkcja została zapisana):
+`@`, to zobaczysz *tą samą informację*, tylko *przedstawioną w inny sposób* (zgodny z tym, jak
+zapisałem definicję tej funkcji):
 
 `nic_nie_robie (n : Nat) : Nat`
 
@@ -132,19 +135,19 @@ W tym komunikacie po lewej od `:` mamy teraz *dwa* termy, które razem tworzą j
 będący *aplikacją* (aplikacja jest zawsze zestawieniem wyrażenia oznaczającego jakąś funkcję i
 jakiegoś innego wyrażenia), czyli w tym wypadku aplikację funkcji `nic_nie_robie` do `1`. Pierwszy z
 tych termów jest funkcją, a drugi to liczba `1`. Pierwszy i jedyny parametr (`n`) funkcji
-`nic_nie_robie` ma typ `Nat` i `1` też ma typ `Nat`, a zatem `1` jest termem typu, którego ta
+`nic_nie_robie` ma typ `Nat` i `1` również ma typ `Nat`, a zatem `1` jest termem typu, którego ta
 funkcja wymaga. Dlatego aplikacja funkcji `nic_nie_robie` do termu `1` jest poprawna.
 
-**Definicja aplikacji**: Samo *zestawienie* funkcji i termu nazywamy *aplikacją funkcji do termu*,
-albo krócej *aplikacją*.
+**Definicja aplikacji**: Samo *zestawienie* funkcji i jakiegoś termu nazywamy *aplikacją funkcji do
+tego termu*, albo krócej *aplikacją*.
 
 W Leanie wszystkie termy, w tym również złożone, *muszą* mieć jakiś typ. Ale uwaga, nie każdy term
 *ma* typ, ponieważ można skonstruować termy *błędne*, to jest takie, których nie da się typować. Dla
 Leana takie termy są po prostu bezsensowne. Jeżeli w tym momencie obawiasz się, że napiszesz jakieś
-termy bezsensowne, to niepotrzebnie. Prawie na pewno napiszesz wiele termów bezsensownych. Im więcej
-piszesz, tym więcej bzdur napiszesz, jak zauważył zdaje się Gombrowicz. To jest może zła wiadomość,
-chociaż nie jestem tego całkiem pewien. Na pewno dobra wiadomość jest taka, że Lean Ci wtedy o tym
-powie.
+termy bezsensowne, to niepotrzebnie się tego obawiasz, bo prawie na pewno napiszesz wiele termów
+bezsensownych. Im więcej piszesz, tym więcej bzdur napiszesz, jak zauważył zdaje się Gombrowicz. To
+jest może zła wiadomość, chociaż nie jestem tego całkiem pewien. Na pewno dobra wiadomość jest taka,
+że Lean Ci wtedy o tym powie.
 
 Mam nadzieję, że od razu rzuca Ci się w oczy, że z termem `1 nic_nie_robie` jest coś nie tak. W
 końcu `1` nie jest funkcją, a więc nie da się do niczego aplikować termu `1`. Myślę, że nie
@@ -152,21 +155,21 @@ potrzebujesz wsparcia Leana, żeby zauważyć, że to wyrażenie nie ma sensu. T
 `nic_nie_robie 1` ma typ `Nat` też jest już dla Ciebie mam nadzieję oczywiste. W końcu
 `nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę
 naturalną. Podobnie *1 + 2* jest jednocześnie złożonym wyrażeniem, aplikacją dodawania do dwóch
-argumentów i jest też pewną *liczbą naturalną*, bo to wyrażenie *oznacza* liczbę naturalną -
+argumentów jak również pewną *liczbą naturalną*, bo to wyrażenie *oznacza* liczbę naturalną -
 wszędzie, gdzie może się pojawić dowolna liczba naturalna, *1 + 2* również może się pojawić.
 
 Funkcja, którą zdefiniowaliśmy, to *identyczność* albo inaczej funkcja identycznościowa. Ta funkcja
-wydaje się wręcz zbędna, ale tak jak liczba zero, czasami nie można się bez niej obejść. Na przykład
-wtedy, gdy taka funkcja okazuje się jedynym *rozwiązaniem problemu*.
+wydaje się wręcz zbędna, ale tak jak liczba zero, czasami nie możemy się bez niej obejść. Na
+przykład wtedy, gdy taka funkcja okazuje się jedynym *rozwiązaniem problemu*.
 
 **Potencjalnie dezorientująca dygresja**: Wiele problemów w matematyce można wyrazić jako zbiór
 relacji między jakimiś funkcjami, z których co najmniej jedna funkcja jest nieznana i trzeba ją
 znaleźć. Dokładnie tak, jak problem dotyczący liczb może polegać na tym, że mamy na przykład jakiś
 układ równań z jedną lub wieloma niewiadomymi reprezentowanymi przez zmienne i chcemy znaleźć
 wszystkie wartości tych zmiennych spełniające te równania. Okazuje się wtedy czasem, że przynajmniej
-jedna niewiadoma może przyjąć wartość zero i wtedy zero bardzo się przydaje. Gdy problem polega na
-szukaniu funkcji spełniających pewne wymagania, może się okazać, że jednym z rozwiązań jest funkcja,
-która nic nie robi. Między innymi dlatego takie funkcje są niezbędne.
+jedna niewiadoma może przyjąć wartość zero i między innymi wtedy zero bardzo się przydaje. Gdy
+problem polega na szukaniu funkcji spełniających pewne wymagania, może się okazać, że jednym z
+rozwiązań jest funkcja, która nic nie robi. Między innymi dlatego takie funkcje są niezbędne.
 
 ## Potęga typów zależnych
 
@@ -178,18 +181,19 @@ typu*, wydaje się całkiem sensowne. Żeby uzyskać taką ogólniejszą funkcj�
 def identycznosc (typ : Type) (a : typ) : typ := a
 ```
 
-Ta funkcja ma dwa parametry, a nie jeden, bo chociaż jest uniwersalną identycznością, to nadal "musi
-wiedzieć, o co chodzi". Dlatego wymaga najpierw podania typu parametru, który ma potem zwrócić bez
-zmian. Żeby zastosować tą funkcję do liczby naturalnej `1`, musimy ją najpierw poinformować, że
-zaraz dostanie liczbę naturalną. Jako pierwszy argument aplikacji musimy zatem podać typ `Nat`. Gdy
-po skopiowaniu również poniższego kodu umieścisz kursor nad słowem `#eval`, to zobaczysz, że gdy ta
-funkcja jest odpowiednio poinformowana co dostanie jako drugi argument, to zwraca ten argument:
+Ta funkcja ma *dwa* parametry, a nie jeden, bo chociaż jest uniwersalną identycznością, to nadal
+"musi wiedzieć, o co chodzi". Dlatego wymaga najpierw podania typu parametru, który ma potem zwrócić
+bez zmian. Żeby zastosować tą funkcję do liczby naturalnej `1`, musimy ją najpierw poinformować, że
+dostanie liczbę naturalną. Jako pierwszy argument aplikacji musimy zatem podać typ `Nat`. Gdy po
+skopiowaniu również poniższego kodu umieścisz kursor nad słowem `#eval`, to zobaczysz, że gdy ta
+funkcja jest odpowiednio poinformowana co dostanie jako swój *drugi* argument, to zwraca ten
+argument:
 
 ```lean
 #eval identycznosc Nat 1
 ```
 
-Żeby zilustrować ogólność tej funkcji zastosujemy ją jeszcze do termu typu String:
+Żeby zilustrować ogólność tej funkcji zastosujemy ją jeszcze do termu typu `String`:
 
 ```lean
 #eval identycznosc String "jakis tekst"
@@ -198,9 +202,9 @@ funkcja jest odpowiednio poinformowana co dostanie jako drugi argument, to zwrac
 Uprzedzam, że będę teraz objaśniał *najtrudniejsze pojęcie w tym rozdziale*. 
 
 Nowa wersja funkcji identycznościowej *działa dla dowolnego typu* dzięki temu, że *typ drugiego
-argumentu* i zarazem - docelowo - jej *rezultatu* jest jej *pierwszym parametrem*. Mamy tutaj
-przykład *typu zależnego*. Język, którego używamy pisząc w Leanie (albo innych podobnych asystentach
-dowodzenia) swoją ekspresyjność zawdzięcza przede wszystkim obecności takich typów.
+argumentu* i zarazem jej *rezultatu* jest jej *pierwszym parametrem*. Mamy tutaj przykład *typu
+zależnego*. Język, którego używamy pisząc w Leanie (albo innych podobnych asystentach dowodzenia)
+swoją ekspresyjność zawdzięcza przede wszystkim obecności takich typów.
 
 **Parametry i argumenty**: *Parametr* jest częścią definicji funkcji, natomiast *argument funkcji*
 to term, do którego ta funkcja jest aplikowana (ilustracja):
@@ -208,17 +212,17 @@ to term, do którego ta funkcja jest aplikowana (ilustracja):
 ```lean
 -- n jest tutaj *parametrem*. Nie kopiuj tego kodu, jeżeli wprowadziłaś już definicję tej funkcji.
 def nic_nie_robie (n : Nat) : Nat := 
-    -- To jest ciało tej funkcji, tylko zapisane w następnej linijce. Mamy tu *zmienną* n, będącą parametrem
-    -- tej funkcji:
+    -- To jest ciało tej funkcji, tylko zapisane w następnej linijce. Mamy tu *zmienną* n,
+    -- będącą jednocześnie *parametrem* tej funkcji:
     n
 
--- Tutaj 1 jest *argumentem* (aplikacji funkcji nic_nie_robie), ale to tylko aplikacja,
--- bo sprawdzajac typ nie wymuszamy jeszcze ewaluacji. Wszystkie obliczenia, które muszą zajść, żeby ustalić
--- typ takiej aplikacji, rozgrywają się tylko po stronie typu:
+-- Tutaj 1 jest *argumentem* (aplikacji funkcji nic_nie_robie), ale to tylko aplikacja, bo sprawdzajac
+-- typ nie wymuszamy jeszcze ewaluacji aplikowanej funkcji. Wszystkie obliczenia, które muszą zajść, 
+-- żeby ustalić typ takiej aplikacji, rozgrywają się tylko *po stronie typu*:
 #check nic_nie_robie 1
 
--- Gdy wymuszamy ewaluację, otrzymamy *rezultat* tej aplikacji, czyli najprostszą postać termu,
--- (tak zwaną postać normalną), do której to wyrażenie da się zredukować.
+-- Gdy wymuszamy ewaluację, otrzymujemy *rezultat* tej aplikacji, czyli najprostszą postać termu,
+-- (tak zwaną postać normalną), do której to wyrażenie da się zredukować:
 #eval nic_nie_robie 1 -- 1
 ```
 
@@ -229,8 +233,8 @@ w Leanie zachodzą dwa rodzaje "obliczeń".
 
 Funkcja `nic_nie_robie` ma typ `Nat → Nat`. Gdy aplikujemy ją do termu `1`, żadne obliczenie
 "wewnątrz" czy za pomocą tej funkcji jeszcze nie zachodzi, bo takie obliczenie wymaga ewaluacji. W
-ramach samej aplikacji `nic_nie_robie 1` zachodzi jednak *zmiana typu* z `Nat → Nat` na `Nat`, a to
-też jest pewnego rodzaju obliczenie:
+ramach samej aplikacji `nic_nie_robie 1` zachodzi jednak *przekształcenie typu* z `Nat → Nat` do
+`Nat`, co też jest pewnego rodzaju obliczeniem:
 
 ```lean
 #check @nic_nie_robie -- nic_nie_robie : Nat → Nat
@@ -257,48 +261,50 @@ nadal zrozumiałe:
 #check @identycznosc Nat 1 -- @identycznosc Nat 1 : Nat
 ```
 
-To obliczenie jest bardziej złożone, bo poza oderwaniem się typów odpowiadających dwóm podanym
+To obliczenie jest bardziej złożone, bo poza oderwaniem typów odpowiadających dwóm podanym
 argumentom następuje również *podstawianie na poziomie typu*. Warto chociaż raz rozpisać ten proces
 na kroki.
 
-Skoro argument `Nat` stał się *wartością parametru* `typ`, to zgodnie z definicją następny argument
-i rezultat aplikacji też muszą mieć ten typ:
+Skoro argument `Nat` stał się *wartością parametru* `typ`, a słowo `typ` występuje później w
+specyfikacji typu stałej `identycznosc` w roli *zmiennej*, to następny argument i rezultat aplikacji
+też muszą mieć ten typ:
 
 ```lean
 identycznosc Nat : Nat → Nat
 ```
 
-Widzimy w tym fragmencie kodu typ aplikacji do pierwszego argumentu. Jak już wiesz, ten term jest
-poprawny (typowalny), ponieważ Lean pozwala na częściowe aplikacje. *Typ* funkcji `identycznosc`
-jest więc *czymś w rodzaju funkcji* (jeszcze raz: sam typ jest tutaj czymś w rodzaju funkcji) z
-jednym parametrem `typ`. To *nie* jest funkcja, bo typu nie możemy do niczego aplikować, ale na
-etapie aplikacji ten typ działa tak, jakby był funkcją i jakby ta funkcja była aplikowana do
-argumentu `Nat`. Nie przejmuj się, jeżeli mimo moich zapewnień, że to naturalny proces, wydaje Ci
-się to zbyt trudne; z czasem się do tego przyzwyczaisz.
+To jest zatem typ (częściowej) aplikacji do samego tylko argumentu `Nat`. Jak już wiesz, ten term
+jest poprawny (typowalny), ponieważ Lean pozwala na częściowe aplikacje. *Typ* funkcji
+`identycznosc` jest więc *czymś w rodzaju funkcji* (jeszcze raz: sam typ jest tutaj czymś w rodzaju
+funkcji) której parametr nosi nazwę `typ`. To *nie* jest funkcja, bo *typu* nie możemy do niczego
+aplikować, ale *na etapie aplikacji* ten typ działa tak, jakby był funkcją i jakby ta funkcja była
+aplikowana do argumentu `Nat`. Nie przejmuj się, jeżeli mimo moich zapewnień, że to naturalny
+proces, wydaje Ci się to zbyt trudne; z czasem się do tego przyzwyczaisz.
 
-Na początku będę mówił o funkcjach rozumianych jako efektywne procedury obliczeniowe, albo po prostu
-programy, procedury, czy algorytmy. Niedługo zacznę też mówić o implikacji. Mam powody, żeby zacząć
-od funkcji, a potem mówić o implikacjach, ale trudno mi je dobrze wyjaśnić już teraz, bo nie mogę
-zakładać, że wiesz o pewnych sprawach, bez znajomości których moje wyjaśnienia byłyby pewnie
-niezrozumiałe, nieprzekonujące, a może nawet mogłyby budzić niepokój (cel jest dość ambitny).
+Do pewnego momentu będę mówił o funkcjach rozumianych tylko jako efektywne procedury obliczeniowe,
+albo po prostu programy, procedury, czy algorytmy. Potem zacznę też mówić o *implikacji*. Mam
+powody, żeby zacząć od funkcji, a potem mówić o implikacjach, ale trudno mi je dobrze wyjaśnić już
+teraz, bo nie mogę zakładać, że wiesz o pewnych sprawach, bez znajomości których moje wyjaśnienia
+byłyby pewnie niezrozumiałe, nieprzekonujące, a może nawet mogłyby budzić niepokój (cel jest dość
+ambitny).
 
 Na razie powiem tylko tyle: Istnieje sposób, żeby jednocześnie uczyć się podstaw matematyki,
 programowania, formalizowania treści wyrażonych w języku naturalnym, konstruowania dowodów
-matematycznych i podstaw metodologii badań, a wszystko to w interakcji z programem, który w tym
-pomaga, takim jak Lean. Postaram się, żeby ta nauka była dla Ciebie możliwie łatwa, przyjemna i
+matematycznych, a później podstaw metodologii badań, a wszystko to w interakcji z programem, który w
+tym pomaga, takim jak Lean. Postaram się, żeby ta nauka była dla Ciebie możliwie łatwa, przyjemna i
 pożyteczna, a jeśli w którymś miejscu mi się to nie uda, proszę, żebyś mi o tym powiedziała, dzięki
 temu będę miał szansę zrobić to lepiej (boryslaw.paulewicz@uj.edu.pl).
 
 Żeby skorzystać z tego "sposobu na matematykę" (i metodologię badań, a może nawet na całą
-psychologię, albo chociaż pewną jej znaczącą część), trzeba się *cierpliwie przyzwyczajać* do
-*nowego sposobu myślenia*, polegającego między innymi na patrzeniu na funkcje, programy, a niebawem
-też na implikacje jako na jedno i to samo.
+psychologię, albo chociaż pewną jej ważną część), trzeba się *cierpliwie przyzwyczajać* do *nowego
+sposobu myślenia*, polegającego między innymi na patrzeniu na funkcje, programy, a niebawem też na
+implikacje jako na jedno i to samo.
 
 ## Funkcje
 
 **Polecenie**: Popatrz na ten fragment kodu, spróbuj go odczytać i przepisz go z pamięci. Jeżeli na
 tym etapie to za trudne, to albo go po prostu skopiuj, albo spróbuj kiedy indziej, gdy poczujesz, że
-jesteś gotowa spróbować:
+jesteś gotowa znowu spróbować:
 
 ```lean
 def suma (n : Nat) (m : Nat) : Nat := n + m
