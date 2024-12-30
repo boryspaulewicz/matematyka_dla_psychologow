@@ -45,11 +45,11 @@ def identycznosc'' : (typ : Type) → typ → typ :=
 #eval identycznosc'' Nat 1 -- 1
 ```
 
-Żeby utworzyć definicję dowolnego termu o z góry określonym typie w trybie interaktywnym, w miejscu,
-w którym ma powstać ten term wpisujemy słowo kluczowe `by` (czyli *za pomocą* albo *na sposób*). W
-trybie interaktywnym i tylko w tym trybie możemy korzystać z tak zwanych *taktyk*. Wrócimy teraz do
-prostszej identyczności, która działa tylko dla liczb naturalnych i poznamy dwie ważne taktyki -
-`intro` i `exact`.
+Żeby utworzyć definicję dowolnego termu o z góry określonym typie w trybie *interaktywnym*, w
+miejscu, w którym ma powstać ten term wpisujemy słowo kluczowe `by` (czyli *za pomocą* albo *na
+sposób*). W trybie interaktywnym i tylko w tym trybie możemy korzystać z tak zwanych
+*taktyk*. Wrócimy teraz do prostszej identyczności, która działa tylko dla liczb naturalnych i
+poznamy dwie ważne taktyki - `intro` i `exact`.
 
 Taktyka `intro` tworzy (w tle) sam *początek* λ-abstrakcji, czyli samą część `fun (jakis_parametr :
 jakis_typ) =>`. Jeżeli skopiujesz poniższy fragment kodu i umieścisz kursor w linii zaznaczonej za
