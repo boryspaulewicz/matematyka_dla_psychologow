@@ -225,7 +225,7 @@ psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha* j
 interpretowana jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko
 jednej zmiennej nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią
 wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o
-czym zresztą wspominają[^1] jakby mimochodem autorzy niektórych współczesnych podręczników
+czym zresztą wspominają[^1], jakby mimochodem, autorzy niektórych współczesnych podręczników
 dotyczących modelowania równań strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH))
 teoria wnioskwania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich bez
