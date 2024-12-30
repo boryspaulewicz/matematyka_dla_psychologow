@@ -84,7 +84,7 @@ uporządkowanych par liczb.
 
 Dzięki temu problemy o charakterze *czysto geometrycznym* (na płaszczyźnie) możemy wiernie
 przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć nie zawsze) łatwiej jest
-nam je rozwiązać albo zrozumieć. Co więcej, pewne problemy liczbowe, które mogłyby się nam wcale
+nam je rozwiązać lub zrozumieć. Co więcej, pewne problemy liczbowe, które mogłyby się nam wcale
 początkowo nie kojarzyć z geometrią, mogą się okazać wiernie przetłumaczalne na problemy
 geometryczne i może się również okazać, że w tej wersji są dla nas łatwiejsze albo bardziej
 zrozumiałe. A czasem dzieje się i tak, że *odkrywamy* czy raczej *znajdujemy* pewne obiekty
@@ -112,8 +112,8 @@ temu*, że jawnie albo w tle zawsze wtedy był obecny jakiś ustalony układ kar
 
 Przypuszczam, że podobnie jak ja, nie jesteś w stanie sobie dobrze wyobrazić jak to było nie myśleć
 o obiektach geometrycznych w taki sposób. A przecież był kiedyś taki czas, gdy ten sposób był Ci
-całkiem obcy i wszystkie kształty były tylko kształtami. W pewnym momencie stopniowo i z pewnym
-wysiłkiem zaczęłaś uczyć się jak można systematycznie przypisywać na przykład kątom i odcinkom
+całkiem obcy i wszystkie kształty były tylko kształtami. W pewnym momencie, stopniowo i z pewnym
+wysiłkiem, zaczęłaś się uczyć jak można systematycznie przypisywać na przykład kątom i odcinkom
 liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański, były dla
 Ciebie odrębne, ale znałaś już oba. A że musiałaś się często między nimi przełączać, robiłaś to
 długo, i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się w jeden. I
