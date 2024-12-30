@@ -49,9 +49,9 @@ jest nim po prostu aplikacja `h hp : q`. To zatem nic innego jak nasze najbardzi
 obliczenie na poziomie typów, które zachodzi zawsze w ramach aplikacji funkcji do argumentu.
 
 **Przydatna konwencja**: Przy okazji, lubię czasem stosować konwencję, zgodnie z którą nazwa dowodu
-zdania na przykład `q` to `hq`, bo to skrót od *hipoteza q*. Dzięki temu jest mi łatwiej odróżniać
-zdania od ich dowodów, bo od razu widać to w notacji i nie muszę się za bardzo starać, żeby
-zapamiętać sens tak nazwanych zmiennych.
+zdania na przykład `q` to `hq`, bo to skrót od *hipoteza q*, a nazwa dowodu *negacji* zdania `q`,
+czyli zdania `¬q`, to `nq`. Dzięki temu jest mi łatwiej odróżniać zdania od ich dowodów, bo od razu
+widać to w notacji, i nie muszę się za bardzo starać, żeby zapamiętać sens tak nazwanych zmiennych.
 
 Przyjżymy się teraz różnicy między aplikacją dowodu implikacji i aplikacją funkcji, która nie jest
 dowodem. Jak widać poniżej, to jest zarazem to samo i nie to samo, ponieważ chociaż formalnie to
@@ -74,14 +74,14 @@ mówimy, inaczej myślimy i do pewnego stopnia inaczej go używamy:
 
     - *uzyskujemy liczbę `12`, która jest termem typu `Nat`*.
 
-Czy widzisz, że w przypadku aplikacji "zwykłych" funkcji takich jak `dodaj2` do jakiś termów
+Czy widzisz, że w przypadku aplikacji "zwykłych" funkcji, takich jak `dodaj2`, do jakiś termów,
 interesuje nas *wynik* (tutaj `12`), a nie jego *typ*, natomiast w przypadku aplikacji dowodów
 implikacji, które to dowody też są w naszym języku funkcjami, interesuje nas *typ* rezultatu
-aplikacji (tutaj `q`), a *nie* rezultat (tutaj konkretna postać jaką przybiera dowód `q`, to jest
-pewna aplikacja)? Jeżeli tego nie widzisz, to może przeczytaj poprzedni fragment jeszcze raz -
-prędzej czy później nie będziesz w stanie tam tego nie zobaczyć.
+aplikacji (tutaj `q`), a *nie* rezultat (tutaj konkretna postać, jaką przybiera dowód `q`, to jest
+rezultat pewnej aplikacji)? Jeżeli tego nie widzisz, to może przeczytaj poprzedni fragment jeszcze
+raz; prędzej czy później nie będziesz w stanie tego nie zobaczyć.
 
-## Dowody są zwykle nieważne
+## Dowody są zwykle *nieważne*
 
 Gdy używamy dowodu już istniejącego do stworzenia nowego, a nawet gdy konstruujemy jakiś dowód,
 obchodzi nas przede wszystkim *istnienie* dowodu, a nie jego *struktura*. To dobra wiadomość, bo
@@ -90,13 +90,13 @@ traktować twierdzenie jak "prawdę objawioną", co zmniejsza obciążenie pozna
 
 W psychologii to się właściwie w ogóle nie zdarza, bo psychologia jest nauką empiryczną. Nawet,
 gdybyśmy odkryli jakąś prawdziwą własność świata (a może już takie własności znamy?), wątpliwości
-zawsze pozostaną. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy, gdy próbujemy
-wyjaśnić zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam
-ocenić, czy i w jakim obszarze naszych badań zrobiliśmy faktycznie postępy. Dlatego doświadczenie
+zawsze pozostaną. W dodatku my, psychologowie, nie bardzo rozumiemy co robimy gdy próbujemy wyjaśnić
+zachowania zwierząt i mimo ogromnej liczby publikowanych każdego roku artykułów, trudno nam ocenić,
+czy i w jakim obszarze naszych badań zrobiliśmy faktycznie postępy. Dlatego doświadczenie
 całkowitego i ostatecznego rozwiązania jakiegoś problemu, które pojawia się, gdy zajmujemy się
-matematyką, albo gdy stosujemy ją do formułowania i rozwiązywania na przykład teoretycznych
-problemów w psychologii, może być moim zdaniem dla każdego z nas czymś orzeźwiającym; dla mnie w
-każdym razie jest i dlatego wciąż szukam podobnych doświadczeń.
+matematyką, albo gdy stosujemy ją do formułowania i rozwiązywania *czysto teoretycznych* problemów w
+psychologii, może być moim zdaniem dla każdego z nas czymś orzeźwiającym; dla mnie w każdym razie
+jest i dlatego wciąż szukam podobnych doświadczeń.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
