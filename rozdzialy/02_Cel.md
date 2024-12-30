@@ -186,15 +186,21 @@ istniejące już formalne teorie, pozwalające mówić o tym ...
 3. Jak często zachodziło*by* $Y$, gdyby $X$ miało na skutek zewnętrznej interwencji wartość $x$ w
    sytuacji $S$.
 
-.. a [więc](https://causalai.net/r60.pdf) rachunek prawdopodobieństwa, rachunek interwencji i
-rachunek kontrfaktyczny, o możliwość wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w
-jakim stopniu można sprawić, żeby zachodziło Y*. W ten sposób uzupełnimy istniejące już jako języki
-formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i *ostatni*, dzieki któremu w całej swej
-okazałości ujawni się *zewnętrzny agent*. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako
-własności subiektywnego punktu widzenia albo sposoby opisu zjawisk z perspektywy *kogoś, kto
-właściwie nie istnieje*.
+.. a więc rachunek prawdopodobieństwa, rachunek interwencji i rachunek kontrfaktyczny, o możliwość
+wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w jakim stopniu można sprawić, żeby
+zachodziło Y*. W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne
+wymiary, o wymiar czwarty i *ostatni*, dzieki któremu w całej swej okazałości ujawni się *zewnętrzny
+agent*. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako własności subiektywnego punktu
+widzenia albo sposoby opisu zjawisk z perspektywy *kogoś, kto właściwie nie istnieje*.
 
-Dojdziemy również do takiego wniosku ...
+Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
+Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
+interwencyjnego, a ten z kolei jest nieredukowalny do probabilistycznego. W istocie ten wniosek
+wynika w dosyć prosty sposób z samej *definicji* tego, czym są te trzy, jakościowo różne poziomy
+opisu wszelkich zjawisk. Pozostaje jedynie dodać, również z definicji nieredukowalny do trzech
+pozostałych, poziom czwarty, na którym można wyrazić wprost *ocenę*, a więc również *cel*
+
+Dojdziemy dzięki temu do takiego wniosku ...
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
