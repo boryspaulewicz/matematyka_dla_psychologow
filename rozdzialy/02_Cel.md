@@ -176,6 +176,17 @@ najogólniejszą i najbardziej elastyczną postacią tego rodzaju założeń są
 probabilistycznych i przyczynowych - tego rodzaju założenia, możemy natychmiast zacząć mówić
 *wprost* o działaniach celowych, a więc o *zachowaniu*.
 
+Albo tak: Wprowadzając do języka formalnego preferencję zewnętrznego obserwatora, uzupełnimy
+istniejące już formalne teorie, pozwalające mówić o tym, *jak często zachodzi $Y$ gdy zachodzi $X$*,
+*jak często zachodzi $Y$ gdy $X$ jest poddane zewnętrznej interwencji* i *jak często zahodziłoby
+$Y$, gdyby $X$ miało na skutek zewnętrznej interwencji wartość $x$ w sytuacji $S$*, a więc rachunek
+prawdopodobieństwa, rachunek interwencji i rachunek kontrfaktyczny, o możliwość wyrażenia formalnie
+i wprost pytań dotyczących tego, *jak i w jakim stopniu można sprawić, żeby zachodziło Y*. W ten
+sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne wymiary, o wymiar
+czwarty i *ostatni*, dzieki któremu w całej swej okazałości ujawni się *zewnętrzny
+agent*. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako subiektywne punkty widzenia albo
+sposoby opisu zjawisk z perspektywy *kogoś, kto właściwie nie istnieje*.
+
 Dojdziemy również do takiego wniosku ...
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
