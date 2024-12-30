@@ -178,11 +178,11 @@ w niektórych sytuacjach zaczynają nagle zwracać się do siebie per Pan lub pe
 posługują się tytułami naukowymi, i wtedy ktoś, kto zawsze był i zawsze będzie po prostu Kamilem
 zmienia się nagle w Kamila - Pana Profesora. Myślę sobie, że chociaż istnieją co prawda różne dobre
 *powody*, żeby zachować tego rodzaju powagę, to jednak faktyczna *przyczyna*, dla której tak czasem
-ludzie robią, albo dla której ja tak czasem robię, może wcale nie być wcale dobra. Bo tą przyczyną
-może być i chyba często jest po prostu wstyd, czy może raczej lęk przed potencjalnym wstydem. A taki
-lęk utrudnia, o ile wręcz nie uniemożliwia, między innymi swobodną wymianę poglądów i racjonalną,
-krytyczną dyskusję, a tym samym utrudnia też autentyczną pracę naukową, ponieważ *każda* tego
-rodzaju dyskusja jest z konieczności procesem *twórczym*.
+robimy, może wcale nie być wcale dobra. Bo tą przyczyną może być i chyba często jest po prostu
+wstyd, czy może raczej lęk przed potencjalnym wstydem. A taki lęk utrudnia, o ile wręcz nie
+uniemożliwia, między innymi swobodną wymianę poglądów i racjonalną, krytyczną dyskusję, a tym samym
+utrudnia też autentyczną pracę naukową, ponieważ *każda* tego rodzaju dyskusja jest z konieczności
+procesem *twórczym*.
 
 ### Przypisy
 
