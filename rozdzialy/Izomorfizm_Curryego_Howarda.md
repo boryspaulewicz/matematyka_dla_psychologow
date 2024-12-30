@@ -55,9 +55,9 @@ jednak nie wiedziałaś dotąd, że liczby nie odgrywają w tej teorii *żadnej*
 *rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyrażone w języku naturalnym
 definicje i aksjomaty, które te obiekty mają spełniać, a także rozumowania polegające na
 wyprowadzaniu z tych definicji i aksjomatów różnych twierdzeń. Na przykład, jest tam aksjomat, który
-mówi, że wszystkie kąty proste są sobie równe. Być może od razu myślisz o kątach prostych jako
-takich, które mają 90 stopni, ale to jest przecież liczba. Dla Euklidesa to nie były liczby. Mógł
-pisać o wielkościach kątów, na przykład o tym, że jeden kąt jest większy od drugiego, w takim samym
+mówi, że wszystkie kąty proste są równe. Być może od razu myślisz o kątach prostych jako takich,
+które mają *90* stopni, ale to jest przecież *liczba*. Dla Euklidesa to nie były liczby. Mógł pisać
+o *wielkościach* kątów, na przykład o tym, że jeden kąt jest większy od drugiego, w takim samym
 znaczeniu, w jakim ktoś, kto byłby pozbawiony "ośrodka liczbowego" w mózgu mógłby bez trudu ocenić,
 które spodnie ma krótsze a które ma dłuższe.
 
