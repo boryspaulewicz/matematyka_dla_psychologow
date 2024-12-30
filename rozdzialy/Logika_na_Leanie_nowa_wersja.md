@@ -427,8 +427,8 @@ lub robią, należy do *przedmiotu naszych badań*.
 
 Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam często *łatwiej*. Przede
 wszystkim zaś wszystko, co napiszemy, będzie *sprawdzone przez algorytm, który zawsze da nam
-odpowiedź, czy to, co napisaliśmy, jest matematycznie poprawne*. Będziemy więc w pewnym sensie
-"zawsze bezpieczni" w swoich sformalizowanych rozumowaniach i innych matematycznych eksperymentach.
+odpowiedź, czy to, co napisaliśmy, jest poprawne*. Będziemy więc w pewnym sensie "zawsze bezpieczni"
+w swoich sformalizowanych rozumowaniach i innych matematycznych eksperymentach.
 
 Koszt, który musimy ponieść, żeby to osiągnąć, to częściowe oswojenie się z co prawda mniej złożonym
 niż język polski, ale obcym, sztucznym, i bezlitośnie sztywnym językiem, jakim jest formalny język
@@ -436,11 +436,12 @@ matematyki. Tak jak to ma miejsce w przypadku nauki każdego nowego języka, trz
 cierpliwość (jeszcze chyba wspomnę o tej cierpliwości później).
 
 Jest jak sądzę wiele prawdy w stwierdzeniu, którego autorem jest genialny polski matematyk [Jerzy
-von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), że często matematykę się nie tyle
-rozumie, ile raczej się do niej stopniowo *przyzwyczaja*. Dodam od siebie, że gdy się już trochę do
-niej przyzwyczai (co wymaga czasu), to zadziwiająco często okazuje się, że jej pojęcia, twierdzenia
-i teorie wyrażają coś, co rozumiało się dobrze już wcześniej, tylko nie umiało się o tym
-dostatecznie *konsekwetnie* albo *spójnie mówić*, a więc również dostatecznie *jasno myśleć*.
+von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), że często (co nie znaczy, że zawsze)
+matematykę się nie tyle *rozumie*, ile raczej się do niej stopniowo *przyzwyczaja*. Dodam do tego od
+siebie, że gdy się już trochę do niej przyzwyczai (co wymaga czasu), to zadziwiająco często okazuje
+się, że jej pojęcia, twierdzenia i teorie wyrażają coś, co rozumiało się dobrze już wcześniej, tylko
+nie umiało się o tym dostatecznie *konsekwetnie* albo *spójnie mówić*, a więc również dostatecznie
+*jasno myśleć*.
 
 ## Pojęcie prawdy w logice konstruktywnej
 
