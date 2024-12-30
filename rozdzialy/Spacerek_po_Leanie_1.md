@@ -217,7 +217,7 @@ jest na razie opanowanie podstaw, a nie korzystanie z udogodnień.
 Będę odtąd używał *komentarzy*. Komentarzem jest tekst zaczynający się od znaków `--`. Lean ignoruje
 wszystko, co jest napisane po tych znakach, taki tekst ma zatem służyć tylko Tobie.
 
-W ten sposób możemy zdefiniować funkcję, która przyjmuj argument typu `Nat` i zwraca jego wartość
+W ten sposób możemy zdefiniować funkcję, która przyjmuje argument typu `Nat` i zwraca jego wartość
 zwiększoną o *2*:
 
 ```lean
