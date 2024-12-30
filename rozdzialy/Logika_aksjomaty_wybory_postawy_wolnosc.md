@@ -176,13 +176,13 @@ Zdarza mi się obserwować podobną powagę u innych, gdy uczestniczę w mniej l
 zebraniach, ale widzę ją często również i u siebie, kiedu na przykład prowadzę zajęcia. Ta powaga
 przejawia się między innymi w ten sposób, że ludzie, którzy znają się od dawna i od dawna są na Ty,
 w niektórych sytuacjach zaczynają nagle zwracać się do siebie per Pan lub per Pani, albo nawet
-posługują się tytułami naukowymi, i wtedy ktoś, kto zawsze był i zawsze będzie po prostu Kamilem
+posługują się tytułami naukowymi, i wtedy ktoś, kto zawsze był i zawsze będzie po prostu Kamilem,
 zmienia się nagle w Kamila - Pana Profesora. Myślę sobie, że chociaż istnieją co prawda różne dobre
 *powody*, żeby zachować tego rodzaju powagę, to jednak faktyczna *przyczyna*, dla której tak czasem
-robimy, może wcale nie być wcale dobra. Bo tą przyczyną może być i chyba często jest po prostu
-wstyd, czy może raczej lęk przed potencjalnym wstydem. A taki lęk utrudnia, o ile wręcz nie
-uniemożliwia, między innymi swobodną wymianę poglądów i racjonalną, krytyczną dyskusję, a tym samym
-utrudnia też autentyczną pracę naukową, ponieważ *każda* tego rodzaju dyskusja jest z konieczności
+robimy, może wcale nie być dobra. Bo tą przyczyną może być i chyba często jest po prostu wstyd, czy
+może raczej lęk przed potencjalnym wstydem. A taki lęk utrudnia, o ile wręcz nie uniemożliwia,
+między innymi swobodną wymianę poglądów i racjonalną, krytyczną dyskusję, a tym samym utrudnia
+również autentyczną pracę naukową, ponieważ *każda* tego rodzaju dyskusja jest z konieczności
 procesem *twórczym*.
 
 ### Przypisy
