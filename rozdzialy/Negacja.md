@@ -47,8 +47,12 @@ section strefa_komfortu
 
     variable (jadro_ciemnosci : Absurd)
 
-    -- Ponieważ jadro_ciemnosci jest taką funkcją, którą możemy stosować do zdań (ilustracja), ...
-    jadro_ciemnosci : (a : Prop) → a
+    -- Ponieważ ...
+    #check jadro_ciemnosci -- jadro_ciemnosci : Absurd
+    
+    -- ... a zatem, zgodnie z definicją stałej Absurd, jadro_ciemnosci jest taką oto funkcją,
+    -- którą możemy stosować do zdań (Lean nie sygnalizuje błędu, więc typowanie jest poprawne), ...
+    #check (jadro_ciemnosci : (a : Prop) → a)
 
     -- ... że stosując znane Ci już podstawianie na poziomie typu ...
     #check jadro_ciemnosci (Ponury Krystian) -- jadro_ciemnosci (Ponury Krystian) : Ponury Krystian
