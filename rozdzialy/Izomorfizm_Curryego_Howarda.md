@@ -32,7 +32,7 @@ czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; m
 różnych rodzajów akcentów i liczbę podwójną. Na właną rękę uczyłem się go kiedyś przez rok w liceum,
 to wiem (tak, byłem wtedy dość pretensjonalny).
 
-Układu współrzędnych kartezjańskich używamy w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
+Układu współrzędnych kartezjańskich *używamy* w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" od razu automatycznie
 pomyślała o układzie współrzędnych, albo o czymś, co może się łatwo kojarzyć z liczbami. I tu mamy
 problem - całkiem możliwe, że *zbyt dobrze* przyzwyczaiłaś się do izomorfizmu opartego na układzie
@@ -40,13 +40,13 @@ współrzędnych kartezjańskich. Proszę Cię, żebyś teraz wyobraziła sobie 
 nieliczbową, jeśli można tak powiedzieć. Taką płaszczyznę, którą mogłoby sobie wyobrazić dziecko,
 które jeszcze nie poznało pojęcia liczby.
 
-Jak pewnie wiesz, nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju
-idealnie płaskiej powierzchni bez granic; takiej powierzchni, którą można sobie tylko wyobrazić albo
-opisać, ale która nie może istnieć jako obiekt fizyczny. Taką, o której chętnie myślą matematycy
-albo filozofowie. Bez dodatkowych założeń ta płaszczyzna jako taka *nie* ma charakteru liczbowego,
-tylko czysto geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykład jakiś
-konkretny okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy sobie wyobrazić i który moglibyśmy
-próbować systematycznie opisać lub analizować, *nie* ma jeszcze charakteru liczbowego.
+Jak wiesz, nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju idealnie
+płaskiej powierzchni bez granic; takiej powierzchni, którą można sobie tylko wyobrazić albo opisać,
+ale która nie może istnieć jako obiekt fizyczny. Taką, o której chętnie myślą matematycy albo
+filozofowie. Bez dodatkowych założeń ta płaszczyzna jako taka *nie* ma charakteru liczbowego, tylko
+czysto geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykład jakiś konkretny
+okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy sobie wyobrazić i który moglibyśmy próbować
+systematycznie opisać lub analizować, *nie* ma jeszcze charakteru liczbowego.
 
 [Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której być może już
 słyszałaś, jest (pierwszym w historii) przykładem aksjomatycznej teorii tego typu struktur. Być może
