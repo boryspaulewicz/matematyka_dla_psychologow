@@ -377,7 +377,7 @@ naszej ocenie. Na przykład, klasyfikację zacytowanego tutaj fragmentu jako be�
 uzasadnienia, a więc to nie tylko *ocena*, ale to również *tylko* ocena, a więc z *Twojej*
 perspektywy to *aksjomat*. Zrobiłem tak, ponieważ jestem (również subiektywnie) przekonany, że
 prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się zdaje, to jest do jawnego lub
-niejawnego *zawężenia kręgu odbiorców* sprowadza się główna rola tego rodzaju decyzji.
+niejawnego *zawężenia kręgu odbiorców* sprowadza się rola tego rodzaju decyzji.
 
 Następna zakładka nosi szumną nazwę *Wyprowadzenie dowodu*.
 
