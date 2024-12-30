@@ -93,10 +93,10 @@ def dziesiec : Nat := 10
 ```
 
 To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=` możemy czytać jako
-*niech będzie* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku to
-jest stała `dziesiec`. Każda stała ma jakiś *typ*. Na przykład, stała `dziesięć` ma typ `Nat` (`:
-Nat`), czyli ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść, to
-liczba (a właściwie *term*) `10`.
+*niech będzie* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku
+stałej o *nazwie* `dziesiec`. Każda stała ma jakiś *typ*. Na przykład, stała `dziesięć` ma typ `Nat`
+(`: Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść,
+to liczba (a właściwie *term*) `10`.
 
 Będę czasem pisał tak, jakby fragment kodu taki jak `dziesiec : Nat` pełnił rolę *rzeczownika* - na
 przykład "stała `dziesiec : Nat` jest ..." to będzie inny sposób, żeby powiedzieć "stała `dziesiec`
@@ -106,18 +106,20 @@ interpretacja będzie wynikała z kontekstu.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`. Musisz tylko skorzystać
 z `dziesiec` jako przykładu, zamieniając dwa elementy definicji - nazwę stałej i jej wartość. Jeżeli
-zobaczysz fragment podkreślony czerwoną falką, spróbuj wywnioskować na czym polega problem czytając
-komunikat o błędzie.
+zobaczysz fragment podkreślony czerwoną falką, spróbuj wywnioskować na czym polega problem z
+komunikatu o błędzie.
 
 **Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną* zastępując `3` przez słowo
 `tszy` (bez cudzysłowów). Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
 ortograficzny. Umieść kursor na słowie `tszy` i odczytaj komunikat o błędzie widoczny po
 prawej. Powinnaś wtedy zobaczyć komunikat *unknown identifier 'tszy'*, co oznacza, że Lean nie wie,
-czym jest `tszy`. Jak widzisz, błędy to tylko okazja, żeby Lean mógł się wykazać.
+czym jest `tszy`. Przekonasz się w ten sposób, że błędy to tylko okazja, żeby Lean mógł się wykazać.
 
 W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
-stałą o typie tekstowym (`String`). Zwróć uwagę, że wartości zmiennych tekstowych muszą być otoczone
-cudzysłowami.
+stałą o typie *tekstowym* (`String`), nazywanym przez informatyków typem *napisów*, *stałych
+łańcuchowych* lub [*literałów
+łańcuchowych*](https://pl.wikipedia.org/wiki/Litera%C5%82_%C5%82a%C5%84cuchowy) (to tylko różne
+nazwy na to samo). Zwróć uwagę, że wartości zmiennych tekstowych muszą być otoczone cudzysłowami.
 
 **Polecenie**: Skopiuj do Leana lub przepisz z pamięci:
 
@@ -125,7 +127,8 @@ cudzysłowami.
 def gwiazda_wieczorna : String := "Rihanna"
 ```
 
-Żeby zobaczyć wartość stałej trzeba użyć komendy `#eval` (od *evaluation*):
+Żeby zobaczyć wartość stałej trzeba użyć komendy `#eval` (to skrót od agielskiego słowa
+*evaluation*):
 
 ```lean
 #eval dziesiec
@@ -150,48 +153,52 @@ naturalną).
 **Polecenie**: Za pomocą komendy `#check` sprawdź typ którejś ze zdefiniowanych dotąd stałych.
 
 **Wbrew pozorom przydatne ćwiczenie**: Jeśli masz ochotę, stwórz własną zmienną tekstową, o jakiej
-chcesz wartości. Nawet, jeżeli wydaje Ci się to zbyt proste, może warto to zrobić, bo dzięki temu
-Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu będziesz lepiej "czuć". To
-jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej więcej na temat, nawet gdy
-wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje, wpływa na to, co
-później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie reagujemy. A
-jeżeli ta czynność wydaje się tak łatwa, że aż zbędna, to być może nawet lepiej.
+chcesz wartości. Nawet, jeżeli wydaje Ci się to zbyt proste, może warto to na tym etapie jednak
+zrobić, bo dzięki temu Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu
+będziesz lepiej "czuć". To jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej
+więcej na temat, nawet gdy wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy
+informacje, wpływa na to, co później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne
+treści i jak na nie reagujemy. A jeżeli ta czynność wydaje się tak łatwa, że aż zbędna, to być może
+nawet lepiej.
 
 ## Funkcje w Leanie
 
 Stałe, które do tej pory zdefiniowaliśmy, nie pozwalają nam za wiele zrobić. Najważniejszą częścią
 programów komputerowych nie są tego rodzaju stałe, tylko *funkcje*, to jest algorytmy albo efektywne
-procedury obliczeniowe, które już coś zrobić mogą. Żeby stworzyć definicje funkcji będziemy jawnie
+procedury obliczeniowe, które już "coś zrobić" mogą. Żeby stworzyć definicje funkcji będziemy jawnie
 podawać ich typ (inaczej jawnie typować), tak jak wcześniej wprost napisaliśmy, że stała `dziesiec`
 ma typ `Nat` (`dziesiec : Nat`).
 
-**Uczenie się przez wcielenie się w rolę autora albo projektanta**: Wyobraź sobie teraz, że masz
-zaprojektować również składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać
-*strukturę funkcji* rozumianych jako efektywne procedury obliczeniowe albo po prostu programy. Skoro
-definicje zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa
-kluczowego `fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również,
-żeby przypominały funkcje rozumiane tak, jak się je rozumie w matematyce.
+**Uczenie się przez wcielenie się w rolę**: Wyobraź sobie teraz, że masz zaprojektować również
+składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji*
+rozumianych jako efektywne procedury obliczeniowe albo po prostu programy. Skoro definicje
+zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby chyba użyć słowa kluczowego
+`fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również, żeby
+przypominały funkcje rozumiane tak, jak się je rozumie w matematyce.
 
-"Funkcje matematyczne" są często rozumiane jako "obiekty", które każdemu elementowi zbioru
-nazywanego *dziedziną funkcji* przyporządkowują dokładnie jeden element zbioru nazywanego jej
-*przeciwdziedziną*. Na przykład, (matematyczna) funkcja kwadratowa ze zbioru liczb rzeczywistych
-(będącego jej dziedziną ...) do zbioru liczb rzeczywistych (... jak również jej przeciwdziedziną)
-każdej liczbie *x* przyporządkowuje (dokładnie jedną) wartość daną przez wyrażenie *x \* x*.
+A "funkcje matematyczne" są często rozumiane jako "obiekty", które każdemu elementowi pewnego
+*zbioru*, nazywanego *dziedziną funkcji*, przyporządkowują dokładnie jeden element pewnego
+*niekoniecznie innego* zbioru, nazywanego jej *przeciwdziedziną*. Na przykład, ("matematyczna")
+funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do zbioru liczb
+rzeczywistych (... jak również jej przeciwdziedziną) *każdej* liczbie *x* należącej do tego zbioru
+przyporządkowuje (dokładnie jedną) wartość daną przez wyrażenie *x \* x*.
 
-Ponieważ to mają być jednak funkcje rozumiane jako programy, chciałabyś też pewnie, żeby sposób ich
+Ponieważ to mają być jednak funkcje rozumiane jako *programy* (albo
+[algorytmy](https://pl.wikipedia.org/wiki/Algorytm)), chciałabyś też pewnie, żeby sposób ich
 zapisywania kojarzył się łatwo z *procesem przekształcania* i chciałabyś też może, żeby dało się w
-tym zapisie wyrazić (odpowiadający pojęciu dziedziny) wymagany typ argumentu. No to co byś wtedy
-powiedziała na to? (bo mi się akurat wydaje, że trudno to zrobić lepiej):
+tym zapisie wyrazić (odpowiadający pojęciu dziedziny) wymagany *typ argumentu*. No to co byś wtedy
+spowiedziała na to? (bo mi się wydaje, że trudno to zrobić lepiej):
 
 ```lean
--- Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
+-- (anonimowa) Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
 fun (n : Nat) => n * n
 ```
 
-Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń. Zgodzisz się chyba, że
-naturalnie byłoby oznaczać takie typy w sposób, który mówi o tym, jaki jest typ argumentu jak i o
-tym, jaki jest typ rezultatu, a przy tym kojarzy się łatwo z pojęciami przekształcania i
-przyporządkowywania.
+Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń (a dokładnie *termów
+złożonych*). Zgodzisz się chyba, że naturalnie byłoby oznaczać je w sposób, który mówi jaki jest typ
+argumentu (odpowiadający dziedzinie), jak i jaki jest typ rezultatu (odpowiadający
+przeciwdziedzinie), a przy tym kojarzy się łatwo z pojęciami przekształcania i
+przyporządkowywania. To może tak?: `Nat → Nat`.
 
 **Polecenie**: Żeby wpisać w Leanie strzałkę napisz `\to` i ulegnij olśnieniu. Gdy już ochłoniesz,
 usuń tą strzałkę, bo sama strzałka nie jest jeszcze poprawnym fragmentem kodu.
@@ -199,7 +206,7 @@ usuń tą strzałkę, bo sama strzałka nie jest jeszcze poprawnym fragmentem ko
 Nawet najprostsze fragmenty kodu możemy zapisać w Leanie na wiele sposobów, w tym również skrótowo,
 to jest pomijając informacje, które da się wywnioskować z informacji podanych jawnie. Ta
 elastyczność ma służyć użytkownikowi, ale na razie nie będziemy z niej korzystać, bo naszym celem
-jest dobre opanowanie podstaw, a nie jak najszybsze korzystanie z udogodnień.
+jest na razie opanowanie podstaw, a nie korzystanie z udogodnień.
 
 Będę odtąd używał *komentarzy*. Komentarzem jest tekst zaczynający się od znaków `--`. Lean ignoruje
 wszystko, co jest napisane po tych znakach, taki tekst ma zatem służyć tylko Tobie.
@@ -218,8 +225,8 @@ def dodaj2 : Nat → Nat :=
 
 **Polecenie**: Funkcję `dodaj2` można zastosować do dowolnej liczby naturalnej, w tym również do
 stałej `dziesiec`, bo ta stała ma taki sam typ, jak parametr funkcji `dodaj2`. Żeby to zrobić i
-jednocześnie obliczyć wynik napisz Leanowi z pamięci, być może przyspieszając pisanie i jednocześnie
-zmniejszając ryzyko literówki za pomocą Taba:
+jednocześnie obliczyć wynik, być może przyspieszając pisanie i jednocześnie zmniejszając ryzyko
+literówki za pomocą Taba, napisz Leanowi *z pamięci*:
 
 ```lean
 #eval dodaj2 dziesiec
@@ -237,11 +244,11 @@ sposób, który pozwoli Ci zobaczyć, że takie funkcje w Leanie są tak naprawd
 działa na kilka sposobów. 
 
 *Zalecam teraz uzbroić się w cierpliwość i czytać dalej, nawet jeżeli będziesz miała poczucie, że
-"tego wszystkiego" jest na raz za dużo. To wszystko stanie się w miarę zrozumiałe dopiero wtedy, gdy
-będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i dzięki temu łatwiej Ci będzie
+"tego wszystkiego" jest na raz za dużo. "To wszystko" stanie się w miarę zrozumiałe dopiero wtedy,
+gdy będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i dzięki temu łatwiej Ci będzie
 układać je "w głowie". Dlatego trzeba się liczyć z koniecznością czytania tych samych fragmentów
-więcej niż raz, być może po pewnej przerwie. Tego procesu poprawiania się dostępności pamięciowej
-nie da się chyba za bardzo przyspieszyć, ale to tylko kwestia* **czasu**[^1].
+więcej niż raz, być może po pewnej przerwie. Procesu poprawiania się dostępności pamięciowej nie da
+się chyba za bardzo przyspieszyć, ale to tylko kwestia* **czasu**[^1].
 
 ```lean
 def plus : Nat → (Nat → Nat) := 
