@@ -29,7 +29,7 @@ chodzi w *badaniach obserwacyjnych* i *eksperymentalnych*, a także w *pomiarze*
 interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
 definicji. Jedną z nich będzie wpływowa przyczynowo-teoretyczna definicja trafności pomiaru, którą w
 pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
-[artykyle](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
+[artykule](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
 [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
 przyczynowo-teoretyczna, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
 [preprincie](https://osf.io/preprints/psyarxiv/e7a3x)), na której trop, jak się najpierw
