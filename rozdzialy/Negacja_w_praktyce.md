@@ -6,7 +6,7 @@ mówiąc, jak dotąd nie dostałem na temat tej metody żadnych informacji zwrot
 niektórych miejscach wyjaśniam tu po raz kolejny kwestie, o których już wcześniej mówiłem. Wiem, że
 ryzykuję w ten sposób, że zaczniesz się (jeszcze bardziej) nudzić, ale gdyby tak się stało, to
 przynajmniej dzięki temu będziesz wiedzieć, że pewne rzeczy już opanowałaś. A pod koniec tego
-rozdziału poznasz często używaną implikacją przeciwną.
+rozdziału poznasz często używaną *implikacją przeciwną*.
 
 <hr>
 
