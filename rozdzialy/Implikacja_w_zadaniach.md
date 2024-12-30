@@ -39,9 +39,9 @@ podkreślenia `_`. Wtedy Lean będzie wiedział, że Ty wiesz, że nie używasz 
 Stosuję tutaj konwencję nazywania twierdzeń w takim stylu, żeby zasygnalizować, że niektóre z nich
 są do siebie podobne, albo wręcz że są tym samym twierdzeniem, tylko inaczej zapisanym.
 
-Zacząłem tu również stosować słowo kluczowe `theorem`, które oznacza to samo co `def`, ale mówi
-Leanowi, że danej definicji funkcji nie trzeba rozpakowywać. Powód, dla którego tak właśnie na ogół
-definiujemy twierdzenia podam jednak trochę później.
+Zacząłem tu również konsekwentnie stosować słowo kluczowe `theorem`, które oznacza to samo co `def`,
+ale mówi Leanowi, że danej definicji nie trzeba rozpakowywać. Powód, dla którego tak właśnie na ogół
+definiujemy twierdzenia, podam jednak później.
 
 ```lean
 -- To tylko rozgrzewka, bo jest to samo twierdzenie, które udowodniłaś już wcześniej, zmieniła się tylko nazwa tego
