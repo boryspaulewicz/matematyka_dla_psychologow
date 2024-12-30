@@ -179,12 +179,12 @@ probabilistycznych i przyczynowych - tego rodzaju założenia, możemy natychmia
 Albo tak: Wprowadzając do języka formalnego preferencję zewnętrznego obserwatora, uzupełnimy
 istniejące już formalne teorie, pozwalające mówić o tym ...
 
-Jak często zachodzi $Y$ gdy zachodzi $X$.
+1. Jak często zachodzi $Y$ gdy zachodzi $X$.
 
-Jak często zachodzi $Y$ gdy $X$ jest poddane zewnętrznej interwencji* i
+2. Jak często zachodzi $Y$ gdy $X$ jest poddane zewnętrznej interwencji.
 
-Jak często zachodziło*by* $Y$, gdyby $X$ miało na skutek zewnętrznej interwencji wartość $x$ w
-sytuacji $S$*
+3. Jak często zachodziło*by* $Y$, gdyby $X$ miało na skutek zewnętrznej interwencji wartość $x$ w
+   sytuacji $S$.
 
 .. a [więc](https://causalai.net/r60.pdf) rachunek prawdopodobieństwa, rachunek interwencji i
 rachunek kontrfaktyczny, o możliwość wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w
