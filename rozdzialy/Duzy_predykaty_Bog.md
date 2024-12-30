@@ -227,8 +227,9 @@ przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwięks
 sugerowałoby, że całe to zdanie *nic* nie znaczy, bo przecież wszystko *może* oznaczać cokolwiek
 tylko chcemy zależnie od kontekstu.
 
-Wiemy również z góry, bo takie wady mają niemal wszystkie "naukowe" artykuły pisane przez
-psychologów, że:
+Wiemy również z góry, bo takie wady mają niemal wszystkie artykuły
+["naukowe"]((https://pl.wikipedia.org/wiki/Nauka_spod_znaku_kultu_cargo)) pisane przez psychologów,
+że:
 
 5. Zabraknie jawnej analizy ograniczeń wynikających z [*obciążenia
 próby*](https://pl.wikipedia.org/wiki/Obci%C4%85%C5%BCenie_pr%C3%B3by).
