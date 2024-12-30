@@ -222,15 +222,15 @@ się, przynajmniej *pozornie*, na przyczynowych relacjach między fizycznie rozu
 reakcjami, jak to mają w zwyczaju psychologowie o orientacji behawioralnej, zajmiemy się czymś jakby
 kompletnie z drugiej strony, to jest *środowiskiem*.
 
-Będzie to środowisko jako coś, czym jak sądze zawsze było dla psychologa *jako psychologa*, a czym
-nie jest na przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to
-mianowicie środowisko postrzegane jako *nieunikalny układ* albo *konstelacja powiązanych
-zadań*. Zaletą tak rozumianego środowiska jako przedmiotu badań jest jego obserwowalność i względnie
-łatwa modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska uda się
-ustalić, będzie jednocześnie i automatycznie ważne pod względem teoretycznym i aplikacyjnym. Z tej
-nowej, środowisko- i zadanio-centrycznej perspektywy *funkcje poznawcze*, takie jak percepcja,
-pamięć, czy uwaga, okażą się *własnościami zadań*, a nie własnościami czy częściami umysłu albo
-rodzajami procesów umysłowych.
+Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa*, a czym nie jest na
+przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to mianowicie
+środowisko postrzegane jako *nieunikalny układ* albo *konstelacja powiązanych zadań*. Zaletą tak
+rozumianego środowiska jako przedmiotu badań jest jego obserwowalność i względnie łatwa
+modyfikowalność. A także to, że wszystko, co na temat tak rozumianego środowiska uda się ustalić,
+będzie jednocześnie i automatycznie ważne pod względem teoretycznym i aplikacyjnym. Z tej nowej,
+środowisko- i zadanio-centrycznej perspektywy *funkcje poznawcze*, takie jak percepcja, pamięć, czy
+uwaga, okażą się *własnościami zadań*, a nie własnościami czy częściami umysłu albo rodzajami
+procesów umysłowych.
 
 Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo też nie mam poczucia,
 żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych rzeczy bardzo się
