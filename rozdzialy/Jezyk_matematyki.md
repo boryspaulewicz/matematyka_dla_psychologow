@@ -1,12 +1,12 @@
 ## Kilka uwag na temat jêzyków formalnych
 
 Pozwolê sobie teraz na d³u¿sz± dygresjê, która mo¿e moim zdaniem pomóc. Niektórzy mówi±, ¿e jêzyk
-matematyki jest *precyzyjny*, jednak w matematyce mówimy czasem *celowo nieprecyzyjnie*, tyle, ¿e ta
-nieprecyzyjno¶æ jest wtedy *pod kontrol±*. Na przyk³ad, mo¿emy wyraziæ wprost w matematyce zdanie,
-¿e jaka¶ wielko¶æ znajduje siê w jakim¶ szerokim interwale, albo ¿e jest bardziej lub mniej
-prawdopodobna. W matematyce mówimy te¿ czasem *celowo wieloznacznie*. My na przyk³ad od d³u¿szego
-ju¿ czasu celowo zacieramy ró¿nice miêdzy miêdzy programowaniem i matematyk±, a wiêc te¿ miêdzy
-funkcjami i implikacjami.
+matematyki jest *precyzyjny*, jednak w matematyce mówimy czasami równie¿ *celowo nieprecyzyjnie*,
+tyle, ¿e ta nieprecyzyjno¶æ jest wtedy *pod kontrol±*. Na przyk³ad, mo¿emy wyraziæ wprost w
+matematyce zdanie, ¿e jaka¶ wielko¶æ znajduje siê w jakim¶ szerokim interwale, albo ¿e jest bardziej
+lub mniej prawdopodobna. W matematyce mówimy te¿ czasem *celowo wieloznacznie*. My na przyk³ad od
+d³u¿szego ju¿ czasu celowo zacieramy ró¿nice miêdzy miêdzy miêdzy funkcjami i implikacjami, a
+ogólnie miêdzy programowaniem i matematyk±.
 
 Co zatem wyró¿nia jêzyk matematyki, poza *relatywn± sztuczno¶ci±*, która nie wydaje siê taka
 istotna? Sam do koñca nie wiem, ale gdybym mia³ zgadywaæ, powiedzia³bym, ¿e jest to przede wszystkim
@@ -23,7 +23,7 @@ dopuszczalne sposoby u¿ywania pewnych s³ów albo wyra¿eñ*.
 
 W ten sposób - odzieraj±c pojêcia (na przyk³ad pojêcia zdania, prawdy, fa³szu, prawdopodobieñstwa,
 czy wp³ywu) ze zbêdnej dla dobrze okre¶lonych celów elastyczno¶ci u¿ycia (w przypadku pojêæ zdania,
-prawdy i fa³szu - na potrzeby analizy w pewien techniczny sposób rozumianej poprawno¶ci rozumowañ),
+prawdy i fa³szu - na potrzeby analizy w dobrze okre¶lony sposób rozumianej poprawno¶ci rozumowañ),
 uzyskujemy pewien rodzaju niezawodno¶ci i mo¿emy siê szybko wznosiæ na dowolnie wysokie poziomy
 abstrakcji. Sztywno¶æ regu³ pozwala na mechaniczn± weryfikacjê wyra¿eñ, w tym poprawno¶ci dowodów, a
-abstrakcyjno¶æ zwiêksza ogólno¶æ zastosowañ.
+abstrakcyjno¶æ daje dowoln± ogólno¶æ zastosowañ.
