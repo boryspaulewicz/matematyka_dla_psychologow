@@ -19,30 +19,36 @@ praktyce dowodzenia:
 
 1. W logice konstruktywnej negacja zdania jest tak naprawdę pewną implikacją, a dokładniej jeśli `p`
    to jakieś zdanie, to `¬p` znaczy to samo, co `p → False`. Dowód negacji zdania jest więc funkcją,
-   która każdy dowód tego zdania przekształca w dowód fałszu. A ponadto *aplikacja dowodu negacji
+   która każdy dowód tego zdania przekształca w dowód fałszu. A więc *aplikacja dowodu negacji
    zdania do dowodu tego zdania* jest dowodem *fałszu*:
    
 ```lean
 -- Deklarujemy, że mamy jakieś zdanie P, ...
 variable (p : Prop)
+
 -- ... dowód hp tego zdania ...
 variable (hp : p)
+
 -- ... i dowód np jego negacji.
-variable (np : ¬p)
+variable (np :  ¬p)
 
 -- Ponieważ np : ¬p, czyli, zgodnie z definicją negacji, np : p → False, to:
 #check np hp -- np hp : False
 ```
 
 2. Zawsze gdy masz dowód `hp` jakiegoś zdania `p` i dowód `np` jego negacji `¬p`, możesz udowodnić
-   każde zdanie stosując tak zwaną zasadę eksplozji dedukcyjnej. Ta zasada mówi, że *ze
-   sprzeczności* (albo *z fałszu*) *wynika wszystko*. Mając takie dowody zdań sprzecznych, możesz
-   zastosować zasadę eksplozji dedukcyjnej albo używając funkcji `absurd`, albo funkcji
-   `False.elim`, wybór należy do Ciebie (ilustracja):
+   każde zdanie stosując zasadę eksplozji dedukcyjnej: *ze sprzeczności* (albo *z fałszu*) *wynika
+   wszystko*. Możesz zastosować tą zasadę albo używając funkcji `absurd`, albo funkcji `False.elim`,
+   wybór należy do Ciebie (ilustracja):
 
 ```lean
 -- Dla dowolnego zdania q ...
 variable (q : Prop) 
+
+-- .. i dowodów pewnego zdania i jego negacji ...
+variable (p : Prop)
+variable (hp : p)
+variable (np : ¬p)
 
 -- ... możemy zrobić tak ...
 #check absurd (b := q) hp np -- absurd hp np : q
@@ -51,7 +57,7 @@ variable (q : Prop)
 #check False.elim (C := q) (np hp) -- False.elim (hp np) : q
 
 -- To tylko dwa różne sposoby zapisania tej samej operacji, to jest udowodnienia dowolnego zdania ze 
--- sprzeczności, a właściwie z fałszu.
+-- sprzeczności, a właściwie z fałszu (inaczej absurdu).
 ```
 
 W tym kodzie pojawiła się nieznana Ci jeszcze funkcjonalność Leana, to jest jawne podanie wartości
