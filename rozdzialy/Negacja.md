@@ -147,16 +147,18 @@ identycznosc : (typ : Type) : typ → typ
 jadro_ciemnosci : (a : Prop) → a
 ```
 
-To może jeszcze raz o tym samym, tylko trochę inaczej. Wyobraźmy sobie zatem, że mamy `d : Absurd`
-(term typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy aplikacja `d p` będzie poprawna. Żeby
+To może jeszcze raz o tym samym, tylko trochę inaczej. Wyobraźmy sobie, że mamy `d : Absurd` (term
+typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy aplikacja `d p` będzie poprawna. Żeby
 zobaczyć, jak ta aplikacja działa, musimy tylko prześledzić kolejne kroki jej ewaluacji
 (ilustracja):
 
 ```lean
 -- Wersja z nierozpakowaną definicją typu Absurd ...
 d : Absurd
+
 -- ... oznacza to samo, co wersja z rozpakowaną definicją ...
 d : (a : Prop) → a
+
 -- ... a ponieważ aplikacja takiej funkcji o typie zależnym wymaga jednocześnie oderwania części (a : Prop)
 -- i podstawienia argumentu za parametr a w specyfikacji typu, to aplikacja d p ma typ p, czyli jest dowodem
 -- zdania p:
@@ -174,9 +176,9 @@ nas nie musi się wcale *zgadzać*.
 
 Zwracam też uwagę, że `Absurd` *nie* ma struktury predykatu, po prostu dlatego, że nie jest funkcją,
 a każdy predykat jest funkcją (do typu `Prop`). `Ponury` jest predykatem, a konkretnie funkcją z
-typu `Zniwiarz` do typu `Prop`. `Absurd` jest *typem funkcji*. Predykat `Ponury` możemy aplikować
-(do termów typu `Zniwiarz`), a `Absurd`u nie możemy aplikować, możemy aplikować tylko termy typu
-`Absurd`:
+typu `Zniwiarz` do typu `Prop`, `Absurd` jest natomiast *typem funkcji* inaczej *typem
+funkcyjnym*. Predykat `Ponury` możemy aplikować (do termów typu `Zniwiarz`), a `Absurd`-u nie możemy
+aplikować; możemy aplikować tylko termy typu `Absurd`:
 
 Aplikacja *samego predykatu* do *termu, którego ten predykat dotyczy*, jest *zdaniem*.<br>Aplikacja
 *dowodu absurdu* - a nie *samego absurdu* - do *zdania* jest *dowodem tego zdania*.
