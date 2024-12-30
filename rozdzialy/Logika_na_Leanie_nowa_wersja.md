@@ -73,16 +73,16 @@ bo definicja nie jest jeszcze zakończona. Można więc powiedzieć, że to wła
 tylko sygnał, że masz coś do zrobienia.
 
 **Czytamy to**: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie
-termu typu `Nat → Nat`. Powyżej symbolu derywacji `⊢` a poniżej komunikatu `1 goal` widać aktualny
-*kontekst*. W tym momencie jeszcze nic tam nie ma.
+termu *typu* `Nat → Nat`. Powyżej symbolu derywacji `⊢`, a poniżej komunikatu `1 goal`, widać
+aktualny *kontekst*, w którym w tym momencie jeszcze nic nie ma.
 
 Jak wiesz, `fun (n : Nat) => n` jest przykładem termu typu `Nat → Nat`, ponieważ jest (w tym wypadku
 trywialną, bo identycznościową) funkcją posyłającą liczby naturalne w liczby naturalne. Wpisując
-teraz poniżej komentarza `intro n` i nasikając klawisz Enter sprawisz, że zmieni się kontekst z
+teraz poniżej komentarza `intro n` i nasikając klawisz Enter sprawisz, że kontekst zmieni się z
 pustego na taki, w którym masz do dyspozycji jakąś (czyli arbitralną) liczbę naturalną o nazwie `n`,
 czyli `n : Nat`. To daje taki sam efekt jak dołożenie parametru `(n : Nat)` do definiowanej
 funkcji - gdy definiowana funkcja ma taki parametr, wewnątrz jej ciała widać `n : Nat` właśnie jako
-element kontekstu, czyli jedną z dostępnych lokalnie deklaracji zmiennych.
+element kontekstu, to jest jedną z dostępnych lokalnie deklaracji zmiennych.
 
 Zastosowanie taktyki `intro` jest więc tym samym, co rozpoczęcie tworzenia kodu funkcji anonimowej
 `fun (n : Nat) => ...` i umieszczenie kursora w miejscu trzech kropek, to jest w miejscu, w którym
@@ -93,9 +93,9 @@ typie-celu).
 
 Ponieważ część termu, który miałaś skonstruować, już powstała, cel uległ zmianie. Teraz po prawej
 widać, że celem jest skonstruowanie prostszego termu typu `Nat`, a nie jak wcześniej `Nat →
-Nat`. Jak się być może domyślasz, ta zmiana celu nastąpiła, ponieważ stosując taktykę `intro` tak
-jakby oderwałaś początkową część typu `Nat → Nat` i wprowadziłaś ją do kontekstu, czyli nadałaś jej
-status parametru konstruowanej funkcji.
+Nat`. Jak już teraz wiesz, ta zmiana celu nastąpiła, ponieważ stosując taktykę `intro` tak jakby
+oderwałaś początkową część typu `Nat → Nat` i wprowadziłaś ją do kontekstu, czyli nadałaś jej status
+parametru konstruowanej funkcji.
 
 W tym momencie możesz skorzystać z taktyki `exact`, która służy do *konstrukcji* termu o docelowym
 typie *wprost*. Żeby użyć tej taktyki, jako jej argument musisz podać (prosty lub złożony) term,
@@ -104,24 +104,26 @@ który ma taki sam typ, jak cel. W tym momencie dysponujesz właśnie takim term
 komendę `exact n` i nacisnąć Enter.
 
 Teraz już nie ma żadnych celów do zrealizowania, co można rozpoznać po tym, że gdy kursor znajduje
-się w następnej linijce za komendą `exact n`, to po prawej widać stan `No goals`. A więc proces
-interaktywnej konstrukcji termu o podanym typie (`Nat → Nat`) zakończył się sukcesem. 
+się za komendą `exact n`, to po prawej widać stan `No goals`. A więc proces interaktywnej
+konstrukcji termu o podanym typie (tutaj `Nat → Nat`) zakończył się sukcesem.
 
 To wszystko może się w tym momencie wydawać niepotrzebnie skomplikowane, ale później okaże się
-przydatne. Zwróć proszę uwagę, że w trybie interaktywnym Lean dostarcza Ci *w trakcie* konstrukcji
-termu (na przykład funkcji albo programu, a później dowodu) informacje na temat tego, co jeszcze
-zostało do skonstruowania i czym w danym miejscu w kodzie dysponujesz. W przypadku definiowania
-prostych funkcji to się może wydawać rozpraszające i zbędne, ale w przypadku konstruowania termów
-bardziej złożonych, na przykład nie całkiem trywialnych dowodów, taka pomoc bardzo się przydaje, a
-poza tym sprawia, że uprawianie matematyki jeszcze bardziej przypomina grę.
+czasami bardzo pomocne. Można powiedzieć, że tryb interaktywny to pewien wygodny sposób odciążenia
+Twojej [*pamięci operacyjnej*](https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_operacyjna), ponieważ
+w trybie interaktywnym Lean dostarcza Ci *w trakcie* konstrukcji termu (tutaj w trakcie konstrukcji
+funkcji albo programu, a później dowodu) jednoznaczne informacje na temat tego, co jeszcze zostało
+do skonstruowania i czym w danym miejscu w kodzie już dysponujesz. W przypadku definiowania prostych
+funkcji to się może wydawać rozpraszające i zbędne, ale w przypadku konstruowania termów bardziej
+złożonych, na przykład nie całkiem trywialnych dowodów, taka pomoc bardzo się przydaje, a poza tym
+sprawia, że uprawianie matematyki (również teoretycznej!) jeszcze bardziej przypomina grę.
 
 **Polecenie**: Próbując zastosować taki sam ogólny schemat postępowania jak ten, który własnie
 opisałem, spróbuj stworzyć w trybie interaktywnym definicję uogólnionej identyczności uzupełniając
 poniższy kod. Zwróć uwagę, że ponieważ ta definicja ma już dwa parametry - `(typ : Type)` i
-`(argument : typ)` - to obydwa są widoczne w kontekście, to jest powyżej symbolu derywacji `⊢`, jako
-coś, co od razu masz. Twoim celem jest w tym momencie stworzenie jakiegokolwiek termu typu `typ`, a
-ponieważ masz już taki term, wystarczy zastosować taktykę `exact` z odpowiednim argumentem i
-nacisnąć Enter. Wtedy zobaczysz, że nie ma już więcej celów, a więc konstrukcja definicji tej
+`(argument : typ)` - to obydwa są od razu widoczne w kontekście, to jest powyżej symbolu derywacji
+`⊢`, jako coś, co już masz. Twoim celem jest w tym momencie stworzenie jakiegokolwiek termu typu
+`typ`, a ponieważ masz już taki term, wystarczy zastosować taktykę `exact` z odpowiednim argumentem
+i nacisnąć Enter. Wtedy zobaczysz, że nie ma już więcej celów, a więc konstrukcja definicji tej
 funkcji zakończyła się sukcesem.
 
 ```lean
@@ -129,26 +131,29 @@ def identycznosc (typ : Type) (argument : typ) : typ := by
     -- Umieść kursor w następnej linii.
 ```
 
-Teraz skonstruujemy taką samą funkcję, ale będzie miała o jeden argument mniej, bo przestawimy
-główny dwukropek o jedno miejsce w lewo. Trzeba więc będzie samodzielnie stworzyć jedną λ-abstrakcję
-za pomocą taktyki `intro` z odpowiednim argumentem i trzeba będzie jeszcze zrealizować jedyny cel,
-który później pozostanie do zrealizowania.
+Teraz skonstruujemy taką samą (a więc też tą samą) funkcję, ale przestawimy główny dwukropek o jedno
+miejsce w lewo. Trzeba więc będzie najpierw stworzyć jedną λ-abstrakcję za pomocą taktyki `intro` z
+odpowiednim argumentem, a następnie zrealizować jedyny cel, który będzie wtedy do zrealizowania.
 
-**Polecenie**: Dokończ poniższą definicję w trybie interaktywnym podobnie opierając się na
-wyjaśnieniach, które podałem wcześniej:
+**Polecenie**: Opierając się na wyjaśnieniach, które podałem wcześniej, dokończ w trybie
+interaktywnym poniższą definicję :
 
 ```lean
 def identycznosc' (typ : Type) : (argument : typ) → typ := by
 ```
 
-Argument taktyki `intro`, czyli nazwa parametru konstruowanej λ-abstrakcji, mogła Ci się wydawać
-zbędna, skoro ta nazwa jest podana w specyfikacji typu konstruowanego termu. Niestety, samo wpisanie
-taktyki `intro`, bez podania jakiegokolwiek argumentu, nie byłoby w tym przypadku
-wystarczające. Mogłaś jednak wybrać inną nazwę dla parametru konstruowanej funkcji, na przykład
-jakąś nazwę krótszą niż ta, która pojawia się w specyfikacji typu. Jeżeli masz ochotę, usuń kod
-kończący definicję i zastosuj najpierw taktykę `intro` z innym argumentem, po czym zastosuj taktykę
-`exact` z jedynym argumentem, który biorąc pod uwagę, co będziesz mieć wtedy w kontekście, zakończy
-konstrukcję definicji.
+Argument taktyki `intro`, czyli nazwa parametru konstruowanej λ-abstrakcji, mógł Ci się wydawać
+zbędny, skoro ta nazwa jest już jawnie podana w specyfikacji typu konstruowanego termu jako
+`(argument : typ)` po głównym dwukropku. Niestety, samo wpisanie taktyki `intro`, bez podania
+jakiegokolwiek argumentu, nie byłoby w tym przypadku wystarczające. Mogłaś jednak wybrać inną nazwę
+dla parametru konstruowanej funkcji, na przykład jakąś nazwę krótszą niż ta, która występuje w
+specyfikacji typu. 
+
+Jeżeli masz ochotę, usuń kod kończący definicję i zastosuj najpierw taktykę `intro` z innym
+argumentem, po czym zastosuj taktykę `exact` z jedynym argumentem, który biorąc pod uwagę, co
+będziesz mieć wtedy w kontekście, zakończy konstrukcję definicji. Przekonasz się w ten sposób, że
+nie musisz używać dla parametru tej samej nazwy, która występuje w specyfikacji typu. A nie musisz,
+ponieważ nazwa parametru jest własnością *samej λ-abstrakcji*.
 
 **Polecenie**: Dokończ poniższą definicję w trybie interaktywnym używając kombinacji taktyk `intro`
 i `exact`. Nie bój się eksperymentować; każdej takiej próbie będą towarzyszyły informacje zwrotne w
