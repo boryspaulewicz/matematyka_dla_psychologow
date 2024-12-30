@@ -312,10 +312,9 @@ def suma (n : Nat) (m : Nat) : Nat := n + m
 
 **Czytamy to**: Definiuję (`def`) wartość / znaczenie / treść stałej suma (`suma`) jako term o typie
 funkcja dwóch parametrów typu `Nat`, czyli typu liczba naturalna (`(n : Nat) (m : Nat)`), której
-rezultat też jest typu `Nat` (`: Nat`), czyli też jest liczbą naturalną.
-
-A więc wszystko między symbolem `suma` a symbolem definiowania `:=` to określenie *typu*, a nie
-treści (lepiej: *ciała*) definicji stałej `suma`.
+rezultat też jest typu `Nat` (`: Nat`), czyli też jest liczbą naturalną. A więc wszystko między
+definiowanym symbolem (tutaj symbolem `suma`) a symbolem definiowania `:=` jest określeniem *typu*,
+a nie treści (lepiej: *ciała*) definicji.
 
 **Czytamy dalej**: Ten term konstruuję albo definiuję (`:=`) jako zastosowanie funkcji dodawania -
 bo to też jest pewna funkcja - do pierwszego i drugiego parametru, które to parametry nazwałam `n` i
@@ -333,14 +332,16 @@ jest ewidentnie *tą samą*, tylko *inaczej zapisaną funkcją*. Jest też inacz
 ponownie definiować tych samych symboli.
 
 **Ostateczność definicji**: Gdy raz zdefiniujemy jakiś symbol, tutaj symbole `suma` i `suma'`, nie
-możemy już więcej (w tym samym kontekście, ale o tym później) zmienić jego definicji, chyba, że
-najpierw usuniemy poprzednią definicję. Dlatego takie symbole nazywamy *stałymi*.
+możemy już więcej (w tej samej [*przestrzeni
+nazw*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_nazw), ale o tym później) zmienić jego
+definicji, chyba, że najpierw usuniemy poprzednią definicję. Dlatego właśnie takie symbole nazywamy
+*stałymi*.
 
-**Zmienne są zmienne**: Nazwy *parametrów funkcji* nie są stałymi, tylko *zmiennymi*, bo możemy
-przypisywać im, czy raczej podstawiać pod nie, dowolne argumenty typu wymaganego przez definicję
+**Zmienne są zmienne**: Nazwy *parametrów funkcji* nie są stałymi, tylko *zmiennymi*, bo możemy im
+przypisywać, a dokładniej pod nie *podstawiać*, dowolne argumenty typu wymaganego przez definicję
 danej funkcji. Na przykład, możemy zastosować funkcję `suma` do termów `3` i `5` i wtedy te termy
 "wskoczą" na miejsce pierwszego i drugiego parametru. Możemy potem zastosować tą samą funkcję
-jeszcze raz, ale do innych liczb i wtedy (i w tym miejscu) te inne liczby wskoczą w miejsce *tych
+jeszcze raz, ale do innych termów i wtedy (i w tym miejscu) te inne termy wskoczą w miejsce *tych
 samych* parametrów. Parametry funkcji są więc zmiennymi, bo te same parametry tej samej funkcji mogą
 przyjmować różne wartości w różnych "sytuacjach".
 
@@ -383,50 +384,50 @@ parametrem funkcji `dodaj2`. W ten sposób powstaje `2 + 2` (posługując się d
 cyfrową).
 
 3. Wreszcie ewaluuje uzyskaną w ten sposób wersję ciała funkcji, co może wymagać dalszych ewaluacji,
-i tak dalej, aż nie będzie się dało niczego więcej zredukować do prostszej postaci.
+aż nie będzie się dało niczego więcej zredukować do prostszej postaci.
 
 Wydaje mi się, że mniej więcej czegoś takiego się spodziewałaś, może pomijając to, jak są
 zdefiniowane liczby naturalne (a także dodawanie liczb naturalnych, o którym jeszcze nie mówiłem, a
 które ma w Leanie piękną definicję rekurencyjną). Jeżeli chcesz się dowiedzieć czegoś więcej o
-definicji liczb naturalnych, jaką stosuje Lean, poszukaj samodzielnie informacji na temat aksjomatów
-Peano. Ja wyjaśnię teraz tylko tyle:
+definicji liczb naturalnych, jaką stosuje Lean, możesz samodzielnie poszukać informacji na temat
+aksjomatów Peano. Ja wyjaśnię teraz tylko tyle:
 
 Liczba `0` jest przez Leana interpretowana jako stała `Nat.zero`. Podkreślam, że `Nat.zero` *to
-tylko pewien napis i nic więcej*. Zwykle zapisujemy to w Leanie jako `0`, ale zapis cyfrowy istnieje
+tylko pewien napis*, nic więcej. Zwykle zapisujemy tą liczbę jako `0`, ale zapis cyfrowy istnieje
 tylko dla naszej wygody. Liczba naturalna `1` odpowiada *samej aplikacji funkcji następnika do
-stałej `Nat.zero`*, to jest `Nat.succ Nat.zero`. Czytamy to: *Następna* (stąd "następnik") *liczba
-naturalna po liczbie zero*. Ta aplikacja jest *nieredukowalna* - gdy pojawia się w trakcie ewaluacji
-jako rezultat, to ewaluacja na niej się zakończy. Innymi słowy, ta aplikacja istnieje tylko po to,
-żeby można było ją *zapisać* i na przykład podać jako argument, albo zwrócić jako rezultat, bo *sama
-aplikacja `Nat.succ Nat.zero` jest dla Leana liczbą `1`*.
+stałej `Nat.zero`*, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd "następnik")
+*liczba naturalna po liczbie zero*. Ta aplikacja jest *nieredukowalna*, co znaczy, że gdy pojawi się
+w trakcie ewaluacji jako rezultat, ewaluacja na niej się zakończy. Innymi słowy, ta aplikacja
+istnieje tylko po to, żeby można było ją *zapisać* i na przykład podać jako argument, albo zwrócić
+jako rezultat, bo *sama aplikacja `Nat.succ Nat.zero` jest dla Leana liczbą `1`*.
 
 Zastanawiasz się może, o co w tym chodzi? Spróbuję to wyjaśnić: Gdyby przedstawiciele jakiejś innej
 cywilizacji wymyślili "obiekty abstrakcyjne", których używaliby dokładnie tak, jak my używamy liczb
 naturalnych, ale zapisywaliby i nazywali je inaczej, powiedzielibyśmy, że to są te same "obiekty
 abstrakcyjne", albo, że mają "ten sam sens", tylko są inaczej nazywane, prawda?  Jesteśmy co prawda
 przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sam sposób zapisu nie decyduje o znaczeniu, o
-tym decyduje sposób *użycia*.
+tym decyduje *tylko* sposób *użycia*.
 
-Stała `Nat.zero` i aplikacje takie jak `Nat.succ Nat.zero` całkiem dosłownie *są* liczbami
-naturalnymi tak samo jak `0` i `1` są liczbami naturalnymi. Możemy tak powiedzieć, ponieważ
+Stała `Nat.zero` i aplikacje takie jak `Nat.succ Nat.zero` całkiem dosłownie *są* więc liczbami
+naturalnymi, tak samo jak `0` i `1` *są* liczbami naturalnymi. Możemy tak powiedzieć, ponieważ
 wszystkie operacje, jakie możemy wykonywać na liczbach naturalnych, możemy wykonywać na tych
 wyrażeniach, uzyskując przy tym wyniki zgodne z interpretacją: `0` to `Nat.zero`, `1` to `Nat.succ
 Nat.zero`, `2` to `Nat.suc (Nat.succ Nat.zero)` i tak dalej. Zapis nie ma tu znaczenia, poza tym, że
 może być mniej lub bardziej wygodny dla osoby, która się nim posługuje.
 
 Już ostatni raz: Sam *fragment kodu* albo *zapis* `Nat.succ Nat.zero` *jest* liczbą `1`. Nie wiem,
-czy to Cię zaskakuje, ale sądzę, że może zaskakiwać. Kiedy się o tym uczyłem, to spodziewałem się na
-początku, że coś, co wygląda jak aplikacja będzie "kryło pod sobą" jakąś "prawdziwą" funkcję i jakąś
-"prawdziwą" liczbę jako argument, i że tych "prawdziwych rzeczy" będzie można użyć, żeby coś
-obliczyć. Wydaje się przecież, że skoro `Nat.succ Nat.zero` coś *znaczy*, to powinno być jakby "coś
-pod spodem" `Nat.succ Nat.zero` i tym czymś powinna być albo para złożona z funkcji i liczby, albo
-jakaś liczba *1* "jako taka" czy może "sama w sobie".
+czy to Cię zaskakuje, ale sądzę, że może zaskakiwać. Kiedy się o tym uczyłem, na początku
+spodziewałem się, że coś, co wygląda jak aplikacja, będzie "kryło pod sobą" jakąś "prawdziwą"
+funkcję i jakąś "prawdziwą" liczbę jako argument i że tych "prawdziwych rzeczy" będzie można użyć,
+żeby coś obliczyć. Wydaje się przecież, że skoro `Nat.succ Nat.zero` coś *znaczy*, to powinno być
+jakby "coś pod spodem" `Nat.succ Nat.zero` i tym czymś powinna być albo para złożona z funkcji i
+liczby, albo jakaś liczba *1* "jako taka", czy może "sama w sobie".
 
-To, że nic pod spodem nie ma, to jednak w pewnym sensie dobra wiadomość, bo oznacza, że *nie ma tu
-żadnych tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich
-przekształcania*. Można powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy
-tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na dowolną inną, jeśli tylko ta
-alternatywna interpretacja będzie spójna.
+To, że nic pod spodem nie ma, to jednak dobra wiadomość, bo oznacza, że *nie ma tu żadnych
+tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. Można
+powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy tylko pominiemy jej
+*interpretację*, którą zresztą możemy zmieniać na dowolną inną, jeśli tylko ta alternatywna
+interpretacja będzie spójna.
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są
@@ -447,19 +448,19 @@ znaczenia i istnieją tylko dla wygody użytkownika.
 Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście, a tak naprawdę również
 tylko jedno wejście) *mają* znaczenie. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
 to muszą być wyrażenia typu liczba (tutaj akurat wymagamy liczb naturalnych) i tak też mówi nasza
-definicja. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to na wyjściu pojawi się
-(gdy wymusimy ewaluację) liczba naturalna. To będzie wynik dodawania wejść, bo tak jest
-skonstruowana zawartość pudełka o nazwie `suma`.
+definicja. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko wymusimy
+ewaluację na wyjściu pojawi się liczba naturalna. To będzie wynik dodawania wejść, bo tak jest
+skonstruowana zawartość naszego pudełka o nazwie `suma`.
 
 Metafora funkcji jako mechanizmu w pudełku ma pewne ograniczenia. Jak już wiesz, wyliczenie
 rezultatu aplikacji funkcji polega tak naprawdę na ewaluacji argumentów, następnie na podstawieniu
 ich zredukowanych postaci pod odpowiednie zmienne w ciele funkcji i na ewaluacji (czyli redukcji)
 ciała funkcji, aż do skutku. Można więc powiedzieć, że "mechanizm obliczający" działa "na zewnątrz"
-sdefinicji funkcji. To taki "uniwersalny ewaluator", albo "uniwersalny reduktor", który na etapie
-ewaluacji używa definicji stałych, które napotyka, rozpakowuje je i redukuje napotkane aplikacje.
+definicji funkcji. To zatem taki "uniwersalny ewaluator", albo "uniwersalny reduktor", który na
+etapie używa definicji stałych, które napotyka, rozpakowuje je i redukuje napotkane aplikacje.
 
-A oto bardziej skomplikowany przykład ewaluacji aplikacji. Myślę, że domyślasz się już, dlaczego ten
-(wiem, że dziwny) fragment kodu jest poprawny i jak działa.
+A oto bardziej skomplikowany przykład ewaluacji aplikacji. Myślę, że domyślasz się już trochę,
+dlaczego ten (wiem, że dziwny) fragment kodu jest poprawny i jak działa:
 
 ```lean
 #eval suma (Nat.succ (Nat.succ 3)) (6 - (2 + Nat.zero))
@@ -482,8 +483,9 @@ n + m
 -- A ponieważ 5 ma być podstawione za zmienną n (pierwszy parametr) a 4 za zmienną m (drugi parametr)
 -- to uzyskujemy taką wersję ciała:
 5 + 4
--- W ten sam sposób przebiega ewaluacja aplikacji funkcji + do liczb 5 i 4, do momentu, gdy nic się nie będzie
--- dało zredukować do prostszej postaci.
+
+-- W ten sam sposób przebiega ewaluacja aplikacji funkcji + do liczb 5 i 4. Ewaluacja trwa do momentu, gdy
+-- nic więcej nie będzie się dało zredukować do prostszej postaci.
 ```
 
 Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji najbardziej wewnętrznych albo
@@ -523,8 +525,7 @@ nawiasami:
 **W Leanie nie ma funkcji "prawdziwie" dwuargumentowych**: Funkcja `suma` *wygląda* jak funkcja
 dwuargumentowa, ale tak naprawdę *nie* jest dwuargumentowa. Jest funkcją jednoargumentową, *która
 zwraca funkcję jednoargumentową*, która dopiero dodaje parametr tej pierwszej funkcji do swojego
-jedynego parametru. Nie wiem, jak to brzmi, ale jeśli to brzmi, tak jak mi się zdaje, to może
-przeczytaj to rzekome "wyjaśnienie" jeszcze raz.
+jedynego parametru.
 
 Taki sposób definiowania funkcji więcej niż jednoargumentowych nazywa się *curryingiem*, od nazwiska
 pewnego wybitnego [matematyka](https://en.wikipedia.org/wiki/Haskell_Curry), który pojawi się tu

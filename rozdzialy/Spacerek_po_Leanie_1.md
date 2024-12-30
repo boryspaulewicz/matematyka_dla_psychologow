@@ -52,9 +52,10 @@ studentów a nawet uczniów liceum, dlatego będę bardzo wdzięczny za informac
 trudnościach. Tylko proszę nie zwracaj się wtedy do mnie per Panie Doktorze. Wiem, że studenci tak
 robią z dobrej woli i że pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w
 dyscyplinach takich jak psychologia, takie tytuły są nie tylko dosyć śmieszne, ale w dodatku mogą
-utrudniać przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Albo może tak: Jeżeli do mnie
-napiszesz i będę miał powody sądzić, że czytałaś już ten fragment, to Pana Doktora potraktuję jako
-żart. I to też będzie ok.
+utrudniać przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Dlatego między innymi piszę
+tą książkę niemal "na żywo". Dzięki temu możesz się sama przekonać, jak pisząc ją sam się pewnych
+rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Próbuję też pisać ją tak, jakbym z
+Tobą *rozmawiał*.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
