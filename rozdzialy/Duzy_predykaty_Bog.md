@@ -295,10 +295,10 @@ w ocenie sytuacji. Co dalej?
 Tutaj z kolei mamy informacje na temat nieobserwowalnego stanu, a dokładnie intencji, przekonań i
 postaw Anzelma, których nie możemy w żaden sposób sprawdzić, bo ani nie możemy się cofnąć w czasie
 ani w Niego wcielić. Zresztą, nawet, gdyby to było możliwe, nadal byłyby to tylko *hipotezy
-empiryczne*, bo ludzie nie mają zawsze niezawodnego dostępu do własnych prawdziwych postaw i
-przekonań. Dlatego z *naszej* perspektywy, czy raczej z perspektywy autora analizy, w którego się
-tutaj wcielamy, te stwierdzenia muszą pełnić rolę *aksjomatów*. Widzimy też od razu, że nie mogą
-pełnić żadnej ważnej roli w badanym rozumowaniu, a więc ten fragment również możemy pominąć.
+empiryczne*, bo ludzie nie mają niezawodnego dostępu do własnych postaw i przekonań. Dlatego z
+*naszej* perspektywy, czy raczej z perspektywy *autora analizy, w którego się tutaj wcielamy*, te
+stwierdzenia muszą pełnić rolę *aksjomatów*. Widzimy też od razu, że nie mogą pełnić żadnej ważnej
+roli w badanym rozumowaniu, a więc ten fragment również możemy pominąć.
 
 Pierwsze zdanie w zakładce *Przesłanka* to:
 
