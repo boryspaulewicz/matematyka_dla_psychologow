@@ -2,8 +2,9 @@
 
 Ten rozdział ma Cię przygotować do nowego tematu, który pojawi się w rozdziale następnym. Nie ma tu
 żadnych zadań, są za to próby przekonania Cię, żeby się nie poddawać i jest też coś, co myślę, że Ci
-się potem przyda. Za chwilę zaczniemy korzystać z izomorfizmu Curry'ego-Howarda (tego Curry'ego,
-który już wcześniej się pojawił).
+się potem przyda. Za chwilę zaczniemy korzystać z [*izomorfizmu
+Curry'ego-Howarda*](https://pl.wikipedia.org/wiki/Izomorfizm_Curry%E2%80%99ego-Howarda) (tego
+Curry'ego, który już wcześniej się pojawił).
 
 Nazwa może i brzmi groźnie, ale gdy zrozumiesz, w jaki sposób będziemy ten izomorfizm traktować,
 stanie się dla Ciebie jasne, że to nic strasznego. Na początek powiem Ci coś moim zdaniem ciekawego
