@@ -192,14 +192,16 @@ z typami. Jeżeli masz już w tym momencie takie wątpliwości, to od razu Cię 
 z tego izomorfizmu nie będziemy wcale ograniczeni do jakiejś konkretnej logiki, takiej jak na
 przykład logika konstruktywna.
 
-Dla naszych potrzeb to, że izomorfizm Curry'ego-Howarda istnieje, oznacza tyle, że *każdy* problem
-matematyczny możemy dzięki niemu postrzegać jako problem dotyczący *programowania* i próbować go
-rozwiązać jako taki. Tak samo jak dzięki układowi kartezjańskiemu każdy problem geometryczny (na
-płaszczyźnie) możemy próbować zamienić na odpowiadający mu problem analityczny (liczbowy) i próbować
-go rozwiązać albo tylko inaczej zrozumieć posługując się na przykład operacjami algebraicznymi,
-takimi jak dodawanie czy mnożenie. Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać
-matematykę - a później również ogólniej rozumiane badania o meta-teoretycznym charakterze - jako
-programowanie, będzie zarazem sztywny i wystarczająco ekspresyjny język. Ten, na którym oparty jest
-Lean, jest właśnie jednym z takich języków. A tym, co przede wszystkim sprawia, że jest tak bardzo
-ekspresyjny, że pozwala zakodować formalnie całą matematykę, a więc też wszystko, co tylko da się
-zmatematyzować, czyli powiedzieć lub wyrazić jasno, są typy zależne.
+Dla naszych potrzeb to, że izomorfizm Curry'ego-Howarda istnieje, oznacza w zasadzie *tylko* tyle,
+że *każdy* problem matematyczny możemy dzięki niemu postrzegać jako problem dotyczący
+*programowania* i próbować go rozwiązać jako taki. Tak samo jak dzięki układowi kartezjańskiemu
+każdy problem geometryczny (na płaszczyźnie) możemy próbować zamienić na odpowiadający mu problem
+analityczny (liczbowy) i próbować go rozwiązać albo tylko inaczej zrozumieć posługując się na
+przykład operacjami algebraicznymi, takimi jak dodawanie czy mnożenie. 
+
+Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać matematykę - a później również ogólniej
+rozumiane badania o meta-teoretycznym charakterze - jako programowanie, będzie zarazem sztywny i
+wystarczająco ekspresyjny język. Ten, na którym oparty jest Lean, jest właśnie jednym z takich
+języków. A tym, co przede wszystkim sprawia, że jest tak bardzo ekspresyjny, że pozwala zakodować
+formalnie całą matematykę, a więc też wszystko, co tylko da się zmatematyzować, czyli powiedzieć lub
+wyrazić jasno, są typy zależne.
