@@ -201,12 +201,12 @@ funkcja jest odpowiednio poinformowana co dostanie jako drugi argument, to zwrac
 Uprzedzam, że będę teraz objaśniał *najtrudniejsze pojęcie w tym rozdziale*. 
 
 Nowa wersja funkcji identycznościowej *działa dla dowolnego typu* dzięki temu, że *typ drugiego
-argumentu* i zarazem *rezultatu* jest jej *pierwszym parametrem*. To jest przykład *typu
-zależnego*. Język, którego używamy pisząc w Leanie (albo innych podobnych asystentach dowodzenia)
-swoją ekspresyjność zawdzięcza przede wszystkim obecności takich typów.
+argumentu* i zarazem - docelowo - jej *rezultatu* jest jej *pierwszym parametrem*. Mamy tutaj
+przykład *typu zależnego*. Język, którego używamy pisząc w Leanie (albo innych podobnych asystentach
+dowodzenia) swoją ekspresyjność zawdzięcza przede wszystkim obecności takich typów.
 
 **Parametry i argumenty**: *Parametr* jest częścią definicji funkcji, natomiast *argument funkcji*
-to term, do którego ta funkcja jest aplikowana:
+to term, do którego ta funkcja jest aplikowana (ilustracja):
 
 ```lean
 -- n jest tutaj *parametrem*. Nie kopiuj tego kodu, jeżeli wprowadziłaś już definicję tej funkcji.
@@ -216,7 +216,8 @@ def nic_nie_robie (n : Nat) : Nat :=
     n
 
 -- Tutaj 1 jest *argumentem* (aplikacji funkcji nic_nie_robie), ale to tylko aplikacja,
--- bo sprawdzajac typ nie wymuszamy jeszcze ewaluacji:
+-- bo sprawdzajac typ nie wymuszamy jeszcze ewaluacji. Wszystkie obliczenia, które muszą zajść, żeby ustalić
+-- typ takiej aplikacji, rozgrywają się tylko po stronie typu:
 #check nic_nie_robie 1
 
 -- Gdy wymuszamy ewaluację, otrzymamy *rezultat* tej aplikacji, czyli najprostszą postać termu,

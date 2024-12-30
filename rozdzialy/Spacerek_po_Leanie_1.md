@@ -9,20 +9,21 @@ dość głęboko zapuszcza korzenie. Cała ziemia jest jego</em>.<br/>Fryderyk H
 
 ## O czym teraz będzie
 
-W tym i następnym rozdziale pokażę Ci - w trochę innej kolejności, akcentując trochę inne rzeczy i
-wprowadzając czasem nieco inne tematy - w jaki sposób w Leanie definiujemy stałe i zapisujemy
-funkcje anonimowe. Zwrócę Twoją uwagę na naturalność i prosotę składni tego języka, a także powiem
-trochę o roli, jaką w w Leanie odgrywają typy.
+W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
+wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i zapisujemy *funkcje
+anonimowe*. Zwrócę Twoją uwagę na *naturalność i prostotę składni* tego języka, a także powiem
+trochę o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku proces *ewaluacji*, a
+dokładnie *ewaluacji aplikacji*. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten
+proces przebiega, pozwoli Ci lepiej zrozumieć *mechanikę* działania teorii typów, a dzięki temu czuć
+się bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe
+rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między
+innymi dzięki temu, że będę się *do znudzenia* powtarzał.
 
-Wydaje mi się, że najtrudniejsza część obydwu rozdziałów dotyczy curryingu, to jest sposobu, w jaki
-funkcje jednoargumentowe mogą udawać funkcje więcej niż jednoargumentowe. Żeby wprowadzić ten temat
-w możliwie bezbolesny sposób omówię szczegółowo kilka relatywnie prostych przykładów funkcji i
-zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na tym etapie zadań.
-
-W obydwu rozdziałach omówię też krok po kroku proces ewaluacji, a dokładniej ewaluacji
-aplikacji. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten proces przebiega,
-pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a dzięki temu czuć się bardziej
-pewnie, gdy zaczniemy jej później używać do udowadniania twierdzeń.
+Ponieważ najtrudniejszymi częściami obydwu rozdziałów są fragmenty dotyczące *curryingu*, to jest
+sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, to żeby
+wprowadzić ten temat w możliwie bezbolesny sposób szczegółowo omówię kilka relatywnie prostych
+przykładów funkcji i zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na
+tym etapie zadań.
 
 <hr>
 
@@ -34,53 +35,55 @@ materiału. Gdy więc czytając ten rozdział i wykonując polecenia poczujesz, 
 znajdziesz poprawne rozwiązanie, albo zaczniesz lepiej rozumieć, jak je znaleźć, w trakcie czytania
 tej następnej części.
 
-Mówiąc ogólnie, w przypadku utknięcia sugeruję pozbyć się ambicji i czytać bez wstydu, albo zrobić
-sobie przerwę i spróbować później, albo wrócić do wcześniejszych wyjaśnień. A gdyby i to zawiodło,
-zawsze możesz zadać mi pytanie mailem (boryslaw.paulewicz@uj.edu.pl). Na pewno się ucieszę i jeśli
-tylko nie odłożę odpowiedzi z powodu braku czasu, przez co później o niej zapomnę (co mi się
-niestety zdaża), to spróbuję pomóc. Gdybym nie odpowiedział w ciągu kilku dni, to się wcale nie
+Mówiąc ogólnie, w przypadku utknięcia sugeruję chwilowo *pozbyć się ambicji i czytać bez wstydu*,
+albo zrobić sobie *przerwę* i spróbować później, albo *wrócić* do wcześniejszych wyjaśnień. A gdyby
+i to zawiodło, zawsze możesz zadać mi pytanie mailem (boryslaw.paulewicz@uj.edu.pl). Na pewno się
+ucieszę i jeśli tylko nie odłożę odpowiedzi z powodu braku czasu, przez co później o niej zapomnę
+(co mi się niestety zdaża), to spróbuję pomóc. Gdybym nie odpowiedział w ciągu kilku dni, to się nie
 obrażę, gdy napiszesz znowu.
 
 Zależy mi na tym, żeby zwłaszcza te pierwsze rozdziały były dopasowane do możliwości większości
-studentów, dlatego będę wdzięczny za informacje o pojawiających się trudnościach. Tylko proszę nie
-zwracaj się wtedy do mnie per Panie Doktorze. Wiem, że studenci tak robią z dobrej woli i że
-pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w dyscyplinach takich jak
-psychologia, takie tytuły, choć są w istocie zabawne, mogą utrudniać przyjęcie krytycznej postawy
-przez rozmówcę albo czytelnika. Albo może tak: Jeżeli do mnie napiszesz i będę miał powody sądzić,
-że czytałaś już ten fragment, to Pana Doktora potraktuję jako żart. I to też będzie ok.
+studentów a nawet uczniów liceum, dlatego będę bardzo wdzięczny za informacje o pojawiających się
+trudnościach. Tylko proszę nie zwracaj się wtedy do mnie per Panie Doktorze. Wiem, że studenci tak
+robią z dobrej woli i że pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w
+dyscyplinach takich jak psychologia, takie tytuły są nie tylko dosyć śmieszne, ale w dodatku mogą
+utrudniać przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Albo może tak: Jeżeli do mnie
+napiszesz i będę miał powody sądzić, że czytałaś już ten fragment, to Pana Doktora potraktuję jako
+żart. I to też będzie ok.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
 https://live.lean-lang.org
 
-Rozpoczniesz w ten sposób interaktywną sesję z asystentem dowodzenia Lean. Nie przejmuj się, jeżeli
-widzisz to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po lewej
-i czasem zaglądać do panelu po prawej.
+Rozpoczniesz w ten sposób interaktywną sesję z *asystentem dowodzenia* Lean. Nie przejmuj się,
+jeżeli widzisz to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po
+lewej i czasem zaglądać do panelu po prawej.
 
 Błędy będą się pojawiać, ponieważ jesteś (zgaduję)
 [człowiekiem](https://www.youtube.com/watch?v=UVL186zzOXo). Gdy pojawi się błąd, Lean Cię o tym
-powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie literówka. Czasami
-samo miejsce, w którym pojawi się czerwona falka, powie Ci, co należy zmienić, ale nie zawsze. W
-razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po prawej i spróbuj
-ustalić w czym problem.
+powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie jakaś
+literówka. Czasami samo miejsce, w którym pojawi się czerwona falka, powie Ci, co należy zmienić,
+ale nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po
+prawej i spróbuj ustalić w czym problem.
 
 Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że warto, żebyś przed czytaniem
 szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak spróbuję najpierw
-czegoś innego.
+czegoś innego (ale w pewnym sensie bardzo zbliżonego).
 
-**Uczenie się poprzez wcielenie się w rolę autora albo projektanta**: Wyobraź sobie, że Twoim
-zadaniem jest zaprojektowanie nowego języka, który pozwalałby w jednoznaczny, zwięzły i zarazem
-możliwie czytelny sposób zapisywać różne definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu
-w jakiś sposób informacji, która pozwalałaby jednoznacznie określić, jakie operacje z użyciem
-definiowanych stałych mają sens. Byłoby też wskazane, żeby nie używać do tego symbolu równości
-(*=*), bo ten mógłby się jeszcze później przydać do całkiem innych celów (to jest do oznaczania
-relacji równości, a nie relacji bycia wartością jakiejś stałej z definicji).
+**Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest zaprojektowanie
+nowego języka, który pozwalałby w jednoznaczny, zwięzły i zarazem możliwie czytelny sposób zapisywać
+różne definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu informacji, która pozwalałaby
+określić, jakie operacje z użyciem definiowanych stałych mają sens, a jakie go nie mają. Byłoby też
+wskazane, żeby nie używać do tego symbolu równości (*=*), bo ten odgrywa a matematyce bardzo ważną
+rolę i mógłby się jeszcze później przydać do całkiem innych celów (to jest do oznaczania relacji
+równości, a nie relacji bycia wartością jakiejś stałej z definicji).
 
 Przydałoby się zatem jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
-takie kojarzy się od razu ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
+takie kojarzy się ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
 operacjach, które można wykonywać z użyciem danej stałej, kojarzył się na przykład z naklejeniem na
 coś etykiety. A najlepiej, żeby symbol oznaczający bycie treścią albo ciałem definicji przypominał
-ten, którego używa się często w tym celu w informatyce.
+ten, którego używa się często w tym celu w informatyce. Co byś wtedy powiedziała na takie oto
+rozwiązanie?
 
 **Polecenie**: Skopiuj do Leana poniższy fragment kodu. Możesz wkleić go do schowka klikając na dwa
 małe kwadraty widoczne po prawej.
