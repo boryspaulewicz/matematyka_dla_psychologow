@@ -85,8 +85,13 @@ się]((https://www.youtube.com/watch?v=Nrz250ryvr8)) przed potęgą typów zale�
 Trochę mnie poniosło, ale sama chyba rozumiesz. Być może najprostszy punkt widzenia na to, czym jest
 tutaj typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala
 ekspresyjność języka teorii typów, a który jest tak skonstruowany, że - ze względu na interpretację
-typu `Prop` - pozwala zaimplentować zasadę eksplozji dedukcyjnej. Mówiąc krótko, typ `Absurd` jest
-skonstruowany w taki sposób, że *pełni* dokładnie rolę fałszu, a więc *jest* fałszem.
+typu `Prop` - pozwala zaimplentować zasadę eksplozji dedukcyjnej (ale nie zaimplementować *funkcję*
+typu `Absurd`, o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruowany w taki sposób, że
+*pełni* dokładnie *rolę fałszu*, a więc *jest fałszem* (tak jak go technicznie rozumiemy w logice).
+
+Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać* funkcja typu `Absurd`, to odpowiadam - nie
+mogłaby, bo taka funkcja może istnieć tylko jako (aksjomatyczne albo lokalne) *założenie*, którego
+nie da się *zaimplementować*. Gdyby się dało, *każde* zdanie byłoby natychmiast prawdziwe.
 
 ## O co chodzi z tym Absurdem?
 
