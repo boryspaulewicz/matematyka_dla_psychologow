@@ -53,7 +53,7 @@ section strefa_komfortu
     -- ... że stosując znane Ci już podstawianie na poziomie typu ...
     #check jadro_ciemnosci (Ponury Krystian) -- jadro_ciemnosci (Ponury Krystian) : Ponury Krystian
 
-    -- ... to jadro_ciemnosci (Ponury Krystian) jest dowodem zdania Ponury Krystian
+    -- ... to jadro_ciemnosci (Ponury Krystian) jest dowodem zdania Ponury Krystian.
 
 end strefa_komfortu
 
