@@ -24,21 +24,21 @@ def nic_nie_robie (n : Nat) := n
 
 Co robi ta funkcja? Dla każdego `n : Nat` zwraca `n : Nat`. Jeszcze raz, ale tym razem z akcentem:
 *Dla każdego* `n : Nat` zwraca `n : Nat`. Symbol *∀*, który uzyskasz w Leanie wpisując `\forall`,
-czytamy właśnie jako *dla każdego*. Po tym symbolu zawsze (jawnie lub niejawnie) występuje jeszcze
-część oznaczająca *coś spełniające taki a taki warunek*, na przykład `n` będące liczbą naturalną, a
-potem część będąca *zdaniem*, zwykle dotyczącym tego arbitralnego czegoś, na przykład `n` jest
-liczbą parzystą. Matematycy używają najczęściej tego symbolu pisząc zdania w takim stylu: ...
+czytamy właśnie jako *dla każdego*. Po tym symbolu zawsze występuje jeszcze część oznaczająca *coś
+spełniające taki a taki warunek*, na przykład `n` będące liczbą naturalną, a potem część będąca
+*zdaniem*, zwykle dotyczącym tego arbitralnego czegoś, na przykład zdanie *`n` jest liczbą
+parzystą*. Matematycy najczęściej używają tego symbolu pisząc zdania w takim stylu: ...
 
 *∀ n ∈ ℕ, ∀ m ∈ ℕ, n + m = m + n*
 
 ... gdzie [fikuśne](https://sjp.pwn.pl/sjp/fikusny;2458994.html) *ℕ* oznacza zbiór liczb
-naturalnych. Jak wiesz, dla nas to to samo co `Nat.add_comm`:
+naturalnych. Jak wiesz, dla nas to jest to samo, co `Nat.add_comm`:
 
 ```lean
 #check Nat.add_comm -- Nat.add_comm (n m : Nat) : n + m = m + n
 ```
 
-Gdy mamy na to ochotę, możemy ujawnić to podobieństwo w Leanie stosując symbol `∀`:
+Gdy mamy akurat na to ochotę, możemy ujawnić to podobieństwo w Leanie stosując symbol `∀`:
 
 ```lean
 -- To ...
@@ -113,15 +113,16 @@ wprowadzić aksjomat:
 axiom Napoj : Type
 ```
 
-Odtąd w naszym języku są (jakieś) napoje. Jak teraz zapisać formalnie predykat *była pyszna*?
-Jeżeli, ze względu na cel tej zabawy ignorując czas przeszły, zrobimy tak:
+Odtąd w naszym języku są (jakieś) napoje, *dokładnie* w tym znaczeniu, że *możemy o nich mówić*. Jak
+teraz zapisać formalnie predykat *była pyszna*?  Jeżeli, ze względu na cel tej zabawy ignorując czas
+przeszły, zrobimy tak ...
 
 ```lean
 -- O napojach (typ parametru) można twierdzić (a więc rezultat musi mieć typ Prop), że są pyszne.
 axiom Pyszna : Napoj → Prop
 ```
 
-to będziemy mogli napisać tak:
+... to będziemy mogli napisać tak:
 
 ```lean
 -- Kawa jest napojem.
@@ -147,30 +148,33 @@ zapis formalny do zapisu w języku naturalnym (ilustracja):
 -- argument tej funkcji:
 def Predykat (typ : Type) : Type := typ → Prop
 
--- Możemy teraz zapisać w sposób bardziej przypominający zapis w języku naturalnym, że Pyszna jest predykatem
--- dotyczącym napojów:
+-- Możemy teraz zapisać w sposób bardziej przypominający zapis w języku naturalnym, że Pyszna jest
+-- predykatem dotyczącym napojów:
 axiom Pyszna : Predykat Napoj
 
 -- Ewaluacja wyrażenia po stronie typu tej aksjomatycznej stałej pozwala zobaczyć, jak działa funkcja 
 -- Predykat (ilustracja):
 axiom Pyszna : Predykat Napoj
---> (rozpakowanie stałej Predykat)
+
+--> Najpierw zachodzi rozpakowanie stałej Predykat ...
 axiom Pyszna : (fun (typ : Type) => typ → Prop) Napoj
---> (odczepienie ciała i podstawienie pod zmienną kończy proces redukcji)
+
+--> ... a następnie odczepienie ciała i podstawienie pod zmienną, które w tym wypadku kończy proces
+-- redukcji.
 axiom Pyszna : Napoj → Prop
 
--- Pyszna kawa jest poprawnym zdaniem, ponieważ jest aplikacją predykatu (pewnej funkcji) do termu o typie,
--- którego wymaga ten predykat (ta funkcja):
+-- Pyszna kawa jest poprawnym zdaniem, ponieważ jest aplikacją predykatu (czyli pewnej funkcji) do termu
+-- o typie, którego wymaga ten predykat (ta funkcja):
 #check Pyszna kawa -- Pyszna kawa : Prop
 ```
 
 Rozwiązania takie jak to, które zastosowałem, żeby w bardziej widoczny sposób oznaczyć własność
 bycia predykatem, nazywamy w programowaniu [*lukrem
-składniowym*](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy) (albo lukrem syntaktycznym albo
-cukrem składniowym). Dobrym przykładem tego rodzaju funkcjonalności jest znana Ci już możliwość
-zapisywania dodawania w notacji infiksowej (`1 + 2` to tylko alternatywna forma zapisu `Nat.add 1
-2`). Lukier składniowy nie jest konieczny, ale gdy stosujemy go z wyczuciem, może znacząco poprawić
-czytelność kodu.
+składniowym*](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy) (albo *lukrem syntaktycznym*
+albo *cukrem składniowym*). Dobrym przykładem tego rodzaju funkcjonalności jest znana Ci już
+możliwość zapisywania dodawania w notacji infiksowej (`1 + 2` to tylko alternatywna forma zapisu
+`Nat.add 1 2`). Lukier składniowy nie jest konieczny, ale gdy stosujemy go z wyczuciem, może
+znacząco poprawić czytelność kodu.
 
 **Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*.
 
@@ -181,10 +185,10 @@ zacząć od czegoś przypominającego typowanie. Mam tu na myśli podział fragm
 określające *role*, jakie te fragmenty odgrywają w *uzasadnieniu wniosku*. Dzięki takiej
 kategoryzacji zwykle szybko odkrywamy, że większość fragmentów, na przykład niemal wszystko, co
 autorzy artykułu empirycznego napisali we wprowadzeniu i dyskusji wyników, możemy spokojnie
-zignorować bez szkody dla poprawności analizy.
+*zignorować*.
 
 Spośród wielu form, jakie mogą przybierać [argumenty](https://pl.wikipedia.org/wiki/Argumentacja)
-albo środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka) najbardziej, poza samym
+albo środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka), najbardziej, poza samym
 *wnioskiem*, będą nas teraz interesować *przesłanki*, *kroki*[^1] (pośrednie) i *definicje*. Na
 przykład, w tym wyrwanym z kontekstu (a tak naprawdę przeze mnie wymyślonym) zdaniu, które możemy
 potraktować zarówno jako przesłankę, krok lub wniosek, zależnie od tego, co nas akurat interesuje
@@ -202,8 +206,8 @@ powinniśmy już znać. Jeżeli teraz następne zdanie w tej hipotetycznej dysku
 
 > To może oznaczać, że introwersja zwiększa skuteczność selekcji uwagowej.
 
-... to możemy je zaklasyfikować jako *wniosek*, który ma rzekomo wynikać z poprzedniego zdania jako
-jednej z *przesłanek* (liczba mnoga). 
+... to możemy je zaklasyfikować jako *wniosek*, który ma rzekomo *wynikać* z poprzedniego zdania
+jako jednej z *przesłanek* (liczba mnoga).
 
 Mamy tu do czynienia z częstym w artykułach
 ["naukowych"](https://pl.wikipedia.org/wiki/Nauka_spod_znaku_kultu_cargo) pisanych przez
@@ -220,8 +224,8 @@ interpretacje*.
 przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z ...
 
 4. ... *asekuracyjnym* sformułowaniem *może oznaczać*, które - gdyby odczytać je dosłownie -
-sugerowałoby, że całe to zdanie nic nie znaczy, bo przecież wszystko *może* oznaczać cokolwiek tylko
-chcemy zależnie od kontekstu.
+sugerowałoby, że całe to zdanie *nic* nie znaczy, bo przecież wszystko *może* oznaczać cokolwiek
+tylko chcemy zależnie od kontekstu.
 
 Wiemy również z góry, bo takie wady mają niemal wszystkie "naukowe" artykuły pisane przez
 psychologów, że:
@@ -289,11 +293,11 @@ w ocenie sytuacji. Co dalej?
 
 Tutaj z kolei mamy informacje na temat nieobserwowalnego stanu, a dokładnie intencji, przekonań i
 postaw Anzelma, których nie możemy w żaden sposób sprawdzić, bo ani nie możemy się cofnąć w czasie
-ani w Niego wcielić. Zresztą, nawet, gdyby to było możliwe, nadal byłyby to tylko hipotezy, bo
-ludzie nie mają niezawodnego dostępu do własnych prawdziwych postaw i przekonań. Dlatego z naszej
-perspektywy, czy raczej z perspektywy autora analizy, w którego się tutaj wcielamy, te stwierdzenia
-muszą pełnić rolę *aksjomatów*. Widzimy też od razu, że nie mogą pełnić żadnej ważnej roli w badanym
-rozumowaniu, a więc ten fragment również możemy pominąć.
+ani w Niego wcielić. Zresztą, nawet, gdyby to było możliwe, nadal byłyby to tylko *hipotezy
+empiryczne*, bo ludzie nie mają zawsze niezawodnego dostępu do własnych prawdziwych postaw i
+przekonań. Dlatego z *naszej* perspektywy, czy raczej z perspektywy autora analizy, w którego się
+tutaj wcielamy, te stwierdzenia muszą pełnić rolę *aksjomatów*. Widzimy też od razu, że nie mogą
+pełnić żadnej ważnej roli w badanym rozumowaniu, a więc ten fragment również możemy pominąć.
 
 Pierwsze zdanie w zakładce *Przesłanka* to:
 
