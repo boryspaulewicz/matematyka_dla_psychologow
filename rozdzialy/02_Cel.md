@@ -176,17 +176,17 @@ najogólniejszą i najbardziej elastyczną postacią tego rodzaju założeń są
 probabilistycznych i przyczynowych - tego rodzaju założenia, możemy natychmiast zacząć mówić
 *wprost* o działaniach celowych, a więc o *zachowaniu*.
 
-Dojdziemy również do takiego wniosku:
+Dojdziemy również do takiego wniosku ...
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
 
-Jak również do takiego:
+... jak również do takiego ...
 
 *Bycie takim a nie innym zachowaniem jest stopniowalne i może być jedynie przybliżane przez
 rzeczywiste procesy fizyczne*.
 
-i takiego:
+... i takiego:
 
 *Rodzaj zachowania nie jest, bo nie może być, własnością unikalną*.
 
