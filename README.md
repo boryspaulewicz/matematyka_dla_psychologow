@@ -19,8 +19,7 @@ go for a run, go for a run, don’t look for company. sooner or later, on your f
 twentieth, like-minded people will find you themselves.” and only recently have i realized that this
 principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">December 29,
-2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"
-charset="utf-8"></script>
+2024</a></blockquote>
 
 Ostatnio właściwie codziennie sporo tu zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na temat
 aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
