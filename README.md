@@ -122,7 +122,8 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 [R2 Co można z tą książką zrobić?](./rozdzialy/01_Jak_sie_uczyc.md)
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
-będę pisał w planowanej *drugiej* części.  
+będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie tego, o czym
+tutaj piszę, może wymagać niemałych kompetencji filozoficznych i matematycznych.  
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
