@@ -9,13 +9,15 @@ nic innego jak zapisanie parametru po prawej od głównego dwukropka w definicji
 dowolnej funkcji). Zwracam uwagę, że po zmiennej związanej takim kwantyfikatorem musi się pojawić
 przecinek i po ostatnim takim przecinku dwukropka już nie piszemy.
 
+
+Gdy po prawej od głównego dwukropka, czyli w typie twierdzenia, jest na przykład `∀ (p : Prop)`, to
+wpisując w trybie interaktywnym `intro p` sprawisz, że stan dowodu będzie wyglądał tak, jakby `(p :
+Prop)` było parametrem twierdzenia. To znaczy, przyjmiesz założenie, że masz jakieś zdanie `p`. W
+ten sposób zaczniesz konstruować dowód *dla każdego `p` typu `Prop`*. Twój aktualny cel ulegnie
+wtedy uproszczeniu, bo poprzednik wskoczy do kontekstu. Zmienna związana przez duży kwantyfikator
+może mieć dowolny inny typ i konstruowanie dowodu będzie wtedy przebiegało tak samo.
+
 ```lean
--- Gdy po prawej od głównego dwukropka, czyli w typie twierdzenia, jest na przykład ∀ (p : Prop), to wpisując w trybie
--- interaktywnym intro p sprawisz, że stan dowodu będzie wyglądał tak, jakby (p : Prop) było parametrem twierdzenia.
--- To znaczy, przyjmiesz założenie, że masz jakieś zdanie p. W ten sposób zaczniesz konstruować dowód
--- *dla każdego p typu Prop*. Twój aktualny cel ulegnie wtedy uproszczeniu, bo poprzednik wskoczy do kontekstu. Zmienna
--- związana przez duży kwantyfikator może mieć dowolny inny typ i konstruowanie dowodu będzie wtedy przebiegało tak samo.
---
 -- To jest to samo, tylko jedna wersja jest zapisana z użyciem symbolu dużego kwantyfikatora:
 -- ...  t1a :  (p : Prop) → p → p :=
 theorem t1a : ∀ (p : Prop), p → p :=
