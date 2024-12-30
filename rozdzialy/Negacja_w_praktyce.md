@@ -384,7 +384,8 @@ odpowiednią funkcję ...
 
 ### Przypisy
 
-[^1]: W pełni sformalizowany fragment prozy matematycznej wypada mi więc nazwać matematyczną poezją.
+[^1]: W pełni sformalizowany fragment prozy matematycznej wypada mi więc nazwać *matematyczną
+    poezją*.
 
 [^2]: Co ciekawe, słownik języka polskiego [nie pomaga](https://sjp.pwn.pl/slowniki/arbitralny.html)
     w zrozumieniu sposobu, w jaki słowo *arbitralny* jest często używane przez matematyków,
