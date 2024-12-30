@@ -375,7 +375,7 @@ logiczna*](https://pl.wikipedia.org/wiki/Formu%C5%82a_logiczna), którą interpr
 w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na zdaniach, które to działanie z
 dwóch *zdań jako takich* (niekoniecznie udowodnionych czy prawdziwych) robi jedno (niekoniecznie
 udowodnione czy prawdziwe) unikalne zdanie złożone, dające się konsekwentnie interpretować jako
-*Jeżeli A, to B*. Mówiąc najkrócej, implikacja to operacja binarna na zdaniach.
+*Jeżeli A, to B*. Mówiąc najkrócej, implikacja to pewna operacja binarna na zdaniach.
 
 Może przyda Ci się wyobrazić sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego, a
 jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, jeśli ten dowód
@@ -398,13 +398,13 @@ pewnej wieloznaczności i wyszło Ci to, jak sądzę, na dobre, prawda?
 tak, w przypadku implikacji otrzymujemy unikalne zdanie powstające w taki a nie inny sposób z każdej
 określonej pary zdań: Jeżeli *A* i *B* to zdania, to *A → B* jest unikalną implikacją *powstającą z
 tych dwóch zdań w tej kolejności*, czyli jest unikalnym obiektem *tego rodzaju*. Chodzi po prostu o
-to, że jak już mamy jakieś dwa określone zdania *A* i *B*, to możemy z nich zrobić tylko jedną
-implikację o postaci *A → B*. Podobnie dodawanie (*+*) to operacja na liczbach, która z dwóch
-dowolnych, niekoniecznie różnych liczb, na przykład *2* i *2*, robi unikalną liczbę, w tym wypadku
-*4*. Ten wynik jest w przyjętym znaczeniu unikalny, chociaż dodawanie nieskończenie wielu innych par
-liczb (na przykład całkowitych) daje taki sam rezultat. Możemy też powiedzieć, że zdanie w postaci
-implikacji jest *funkcją* uporządkowanej pary zdań. Uporządkowanej, bo liczy się, które zdanie
-będzie traktowane jako poprzednik, a które jako następnik implikacji.
+to, że jak już mamy jakieś dwa określone zdania *A* i *B*, to możemy z nich zrobić *tylko jedną*
+implikację o postaci *A → B*. Podobnie dodawanie to operacja na liczbach, która z dwóch dowolnych,
+niekoniecznie różnych liczb, na przykład *2* i *2*, robi unikalną liczbę, w tym wypadku *4*. Ten
+wynik jest w przyjętym znaczeniu unikalny, chociaż dodawanie nieskończenie wielu innych par liczb
+(na przykład całkowitych) daje taki sam rezultat. Mówimy też, że zdanie w postaci implikacji jest
+*funkcją* uporządkowanej pary zdań. Uporządkowanej, bo liczy się, które zdanie będzie traktowane
+jako poprzednik, a które jako następnik implikacji.
 
 **Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
 przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
