@@ -157,8 +157,10 @@ ponieważ nazwa parametru jest własnością *samej λ-abstrakcji*.
 
 **Polecenie**: Dokończ poniższą definicję w trybie interaktywnym używając kombinacji taktyk `intro`
 i `exact`. Nie bój się eksperymentować; każdej takiej próbie będą towarzyszyły informacje zwrotne w
-panelu po prawej. Zwracaj uwagę na aktualny cel i pamiętaj, że `intro` z odpowiednim argumentem
-jakby "odrywa i wrzuca na górę" początkową część celu, gdy ten ma typ funkcyjny (strzałkowy).
+panelu po prawej, z których zawsze możesz korzystać jako ze wskazówek na temat tego, co powodują
+wprowadzane fragmenty kodu. Zwracaj uwagę na aktualny cel i pamiętaj, że `intro` z odpowiednim
+argumentem jakby "odrywa i wrzuca na górę" początkową część celu, gdy ten ma typ funkcyjny
+(strzałkowy).
 
 ```lean
 def identycznosc'' : (typ : Type) → (argument : typ) → typ := by
@@ -166,11 +168,11 @@ def identycznosc'' : (typ : Type) → (argument : typ) → typ := by
 ```
 
 **Polecenie**: Używając trybu interaktywnego dokończ poniższą definicję. Zwróć uwagę, że Twoim celem
-jest skontruowanie termu typu `Nat`, a nie termu typu funkcyjnego, nie masz więc tworzyć
+jest tym razem skontruowanie termu typu `Nat`, a nie termu typu funkcyjnego, nie masz więc tworzyć
 λ-abstrakcji. Jedyna trudność, jaka może się pojawić u Ciebie w tym zadaniu, to przywiązanie do
 określonego sposobu stosowania taktyki `exact`. Ta taktyka jest dość elastyczna w tym znaczeniu, że
-jej argumentem nie musi być pojedyncza stała - to może być dowolne złożone wyrażenie, o ile typ tego
-wyrażenia zgadza się z celem.
+jej argumentem nie musi być pojedyncza stała - to może być dowolne złożone wyrażenie, o ile tylko
+typ tego wyrażenia zgadza się z celem.
 
 ```lean
 -- Dokończ definicję w trybie interaktywnym.
@@ -204,13 +206,14 @@ def suma' (n : Nat) : Nat → Nat := by
 def suma'' : Nat → Nat → Nat := by
 ```
 
-W tym momencie muszę Ci wytłumaczyć na czym w Leanie polega *hierarchia typów*.
+W tym momencie muszę Ci wytłumaczyć, na czym w Leanie polega *hierarchia typów*.
 
 ## Hierarchia typów w Leanie
 
 W teorii typów, której używamy w Leanie, *każdy typ*, na przykład typy `Nat` i `Type`, *jest również
-termem*, ale *typu ogólniejszego* inaczej *wyższego*, na przykład typ `Type` ma typ `Type 1`, `Type
-1` jest typem, ale również termem, który ma typ `Type 2`, i tak w nieskończoność[^1]:
+termem*, ale *typu ogólniejszego* inaczej *wyższego*, na przykład typ `Type` ma typ `Type 1`, a więc
+jest również termem (wyższego) typu `Type 1`, tak samo `Type 1` jest typem, ale również termem,
+który ma typ `Type 2`, i tak w nieskończoność[^1]:
 
 ```lean
 -- 2 to tylko "zwykły" term, to jest taki, który nie jest typem. Czasami myślę o takich termach, że "są na dnie",
@@ -220,7 +223,7 @@ termem*, ale *typu ogólniejszego* inaczej *wyższego*, na przykład typ `Type` 
 -- Nat to typ i jednocześnie term ogólniejszego typu, który nazywa się Type. Chciałoby się zapisać:
 --  2 : Nat : Type
 -- ale Lean nie pozwala na taką notację. Type to tak naprawdę Type 0, ale ponieważ typ Type 0 bardzo często
--- się pojawia, to Lean pozwala zapisać go w ten skrótowy sposób i tak też go wyświetla.
+-- się pojawia, Lean pozwala zapisać go w ten skrótowy sposób i tak też go wyświetla.
 #check Nat -- Nat : Type, a tak naprawdę Nat : Type 0
 
 -- Type (czyli Type 0) to typ i jednocześnie term ogólniejszego albo wyższego typu Type 1
@@ -235,12 +238,16 @@ termem*, ale *typu ogólniejszego* inaczej *wyższego*, na przykład typ `Type` 
 -- 2 : Nat : Type 1 : Type 2 : Type 3 : Type 4 : i tak dalej ...
 ```
 
-Jedyne, co potrzebujesz w tym momencie wiedzieć o typach wyższego rzędu to że po prostu gdzieś tam
+Jedyne, co potrzebujesz w tym momencie wiedzieć o typach wyższego rzędu, to że po prostu gdzieś tam
 sobie *są*. A przy okazji:
 
 ```lean
--- W ten sposób możemy zapytać - czy dobrze mi się wydaje, że term Type 1 ma typ Type 2?
+-- W ten sposób możemy zapytać: czy dobrze mi się wydaje, że term Type 1 ma typ Type 2?
 #check (Type 1 : Type 2) -- Odpowiedź Leana - Type 1 : Type 2 - czytamy: Tak, dobrze Ci się wydaje.
+
+-- A czy 2 ma typ String?
+#check (2 : String) -- 2 nie ma typu String.
+-- Powyżej Lean podkreśla 2 na czerwono i podaje długi i trudny do zrozumienia komunikat o błędzie.
 ```
 
 Typy wyższych rzędów są potrzebne *tylko* z pewnych nudnawych powodów technicznych i rzadko, o ile w
@@ -268,32 +275,32 @@ variable (jakis_term : cos_pod_typem_Prop)
 
 #check Nat -- Nat : Type
 
--- 2 nie jest typem, to tylko term. Nie istnieją termy typu 2.
-#check 2 -- 2 : Nat
+-- Lean sygnalizuje tutaj błąd, ponieważ 2 nie jest typem, to tylko term. Nie istnieją termy typu 2.
+variable (cos_pod_2 : 2)
 ```
 
 A więc "zaraz pod" typem `Type` (a tak naprawdę `Type 0`) mamy na przykład typ `Nat` (i wiele
-innych), a "pod" typem `Nat` mamy już tylko termy. Chociaż typ `Prop` też jest pod tym samym typem
-`Type`, to jednak "ma pod sobą" również typy (zamieszkują go typy). Piszę o tym już teraz, ale to
-nie będzie na razie takie ważne.
+innych), ale "zaraz pod" typem `Nat` mamy już tylko termy. Chociaż typ `Prop` też jest pod tym samym
+typem `Type` co `Nat`, to jednak "ma pod sobą" również typy (oficialnie mówimy, że *zamieszkują* go
+typy). Piszę o tym już teraz, ale to nie będzie na razie takie ważne.
 
-Nazwa typu `Prop` jest skrótem od angielskiego *Proposition* oznaczającego *zdanie* albo *sąd*. Oto,
-dlaczego ten typ będzie dla nas odtąd ważny - tak jak dowolne pary liczb rzeczywistych można dzięki
-układowi współrzędnych konsekwentnie interpretować jako punkty na płaszczyźnie, tak też dzięki
-izomorfizmowi Curry'ego-Howarda termy typu `Prop` można konsekwentnie interpretować jako
+Nazwa typu `Prop` jest skrótem od angielskiego słowa *Proposition*, oznaczającego *zdanie* albo
+*sąd*. Oto, dlaczego ten typ będzie dla nas odtąd ważny - tak, jak dowolne pary liczb rzeczywistych
+można dzięki układowi współrzędnych konsekwentnie interpretować jako punkty na płaszczyźnie, tak
+dzięki izomorfizmowi Curry'ego-Howarda *termy typu `Prop`* można konsekwentnie interpretować jako
 *zdania*:
 
 *Termy typu `Prop` można konsekwentnie interpretować jako zdania*.
 
 Dlatego takie termy będę odtąd często nazywał po prostu zdaniami. Ponieważ `Prop` jest typem
-wyższego rzędu, to w naszym języku *zdania są typami*, dlatego zdania będziemy nazywać też czasem
+wyższego rzędu, to w naszym języku *zdania są typami*, dlatego zdania będę nazywał też czasem
 *typami zdaniowymi*. Będziesz się również stopniowo przyzwyczajać do tego, że:
 
 *Termy typu zdaniowego można konsekwentnie interpretować jako dowody tego zdania (tego typu
 zdaniowego)*.
 
-Wydaje mi się, że będzie może najlepiej, jeżeli będziesz się do tego przyzwyczajać grając w grę
-polegającą na dowodzeniu twierdzeń.
+Wydaje mi się, że będzie może najlepiej, jeżeli będziesz się do tego przyzwyczajać po prostu grając
+w grę polegającą na dowodzeniu twierdzeń.
 
 ## Pierwsze twierdzenie jako zwykła funkcja
 
