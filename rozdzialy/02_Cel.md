@@ -218,7 +218,7 @@ wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *i
 *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji
 organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg
 naszych procesów umysłowych, albo w jaki sposób nasze zachowanie reguluje mózg, i zamiast skupiać
-się, przynajmniej jawnie, na przyczynowych relacjach między fizycznie rozumianymi bodźcami i
+się, przynajmniej *pozornie*, na przyczynowych relacjach między fizycznie rozumianymi bodźcami i
 reakcjami, jak to mają w zwyczaju psychologowie o behawioralnej orientacji, zajmiemy się czymś jakby
 kompletnie z drugiej strony, to jest *środowiskiem*.
 
