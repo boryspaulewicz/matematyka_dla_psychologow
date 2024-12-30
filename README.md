@@ -10,7 +10,10 @@ najprostszej możliwej postaci.</em></div>
 
 First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie, co powiedziała [Julia
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
-feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life).
+feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life).  
+(Tylko proszę nie pisać o błędach ortograficznych albo innych takich drobiazgach, chyba, że pojawiły
+się tu na głównej stronie. Mam lekką dysgrafię, ale w tym momencie to już nie ma większego
+znaczenia.)
 
 No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
