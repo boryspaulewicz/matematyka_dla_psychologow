@@ -1,12 +1,11 @@
 ## O czym teraz będzie
 
 W tym rozdziale skorzystamy z tego, co już wiesz, żeby przejść możliwie płynnie z programowania do
-dowodzenia twierdzeń. Rozdziały *R6* i *R7* napisałem w taki a nie inny sposób, to jest tłumacząc
-każde kolejne zagadnienie więcej niż raz i omawiając szczegółowo proces ewaluacji wyrażeń, ponieważ
-próbowałem zastąpić Cię w roli kogoś, kto aktywnie powtarza przyswajany materiał. Odtąd jednak będę
-już pisał inaczej, ponieważ wyręczając Cię do pewnego stopnia w roli kogoś, kto sam stara się
-aktywnie uczyć, utrudniłem Ci zmianę postawy, a wydaje mi się, że zmiana postawy z relatywnie
-biernej na bardziej aktywną później Ci się przyda.
+dowodzenia twierdzeń. Poprzednie rozdziały napisałem w taki a nie inny sposób, to jest tłumacząc
+każde kolejne zagadnienie więcej niż raz i omawiając krok po kroku proces ewaluacji wyrażeń,
+ponieważ próbowałem do pewnego stopnia zastąpić Cię w roli kogoś, kto uczy się aktywnie
+przyswajanych treści. Odtąd jednak będę już pisał inaczej, ponieważ nadal wyręczając Cię w tej roli
+utrudniłbym Ci zmianę postawy na bardziej aktywną, a taka moim zdaniem bardzo Ci się później przyda.
 
 <hr>
 
