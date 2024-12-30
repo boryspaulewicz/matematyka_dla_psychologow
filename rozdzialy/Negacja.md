@@ -164,7 +164,7 @@ d : (a : Prop) → a
 d p : p
 ```
 
-Czyli `d` jest tutaj jednocześnie dowodem zdania `Absurd` i pewną funkcją (bo ma w swoim typie
+A więc `d` jest tutaj jednocześnie dowodem zdania `Absurd` i pewną funkcją (bo ma w swoim typie
 strzałkę), która z dowolnego zdania robi term tego typu, czyli dowód tego zdania.
 
 Na wszelki wypadek podkreślam, że przyjęta przez nas definicja absurdu to nie żadna prawda objawiona
@@ -191,7 +191,7 @@ konsekwentnie interpretować jako zdanie o treści *nieprawda, że `p`*.
 Każde zdanie postaci `¬p` jest *potencjalnym* [*granatem
 odłamkowym*](https://pl.wikipedia.org/wiki/Granat_od%C5%82amkowy), a `¬` jest jego *dźwignią*.
 
-Każdy *term typu `¬p`* (dowód typu / zdania `¬p`) jest *realnym* granatem odłamkowym. 
+Każdy *term typu `¬p`* (dowód zdania `¬p`) jest *realnym* granatem odłamkowym. 
 
 W przypadku wystąpienia *aplikacji termu typu `¬p` do termu typu `p`*, granat `¬p` zostaje
 *uruchomiony* przez *mechanizm sprzeczności*, ponieważ każda taka aplikacja jest *dowodem fałszu*
@@ -205,7 +205,7 @@ jest zdaniem / typem, dającym się konsekwentnie interpretować jako zdanie *Z 
 fałsz*, albo *Gdyby `p` było zdaniem prawdziwym, nastąpiłaby apokalipsa*:
 
 ```lean
--- A to *nasza* wersja definicji negacji:
+-- Oto więc nasza wersja definicji negacji:
 def nie (p : Prop) : Prop := p → Absurd
 
 -- Deklarujemy, że p jest jakimś zdaniem.
@@ -220,7 +220,7 @@ variable (hp : p) (np : nie p)
 #check np hp -- np hp : Absurd
 -- ... a (zgodnie z definicją) z absurdu / fałszu wynika wszystko ...
 
--- ... dla dowolnego innego zdania q ...
+-- ... to dla dowolnego innego zdania q ...
 variable (q : Prop)
 
 -- ... możemy udowodnić q ...
@@ -246,12 +246,12 @@ samo.
 odtąd będę rzadziej przypominał o różnicach między zdaniem jako takim, istnieniem dowodu zdania albo
 arbitralnym dowodem zdania i konstrukcją czy definicją dowodu zdania. Zresztą być może już teraz Ci
 to pomoże, bo ludzie na ogół nie są w stanie jednocześnie świadomie rozwiązywać problemów w więcej
-niż jednym wymiarze pojęciowym czy teoretycznym. Ja na pewno tego nie potrafię.
+niż jednym wymiarze pojęciowym czy teoretycznym. Ja w każdym razie na pewno tego nie potrafię.
 
-Będę też rzadziej przypominał o różnicy między kodem i jego interpretacją, a więc na przykład między
-zdaniami i typami, albo termami typów zdaniowych i ich dowodami, ale z innego powodu - zależy mi,
-żebyś poczuła, że te różnice można zwykle zignorować i żebyś dzięki temu nauczyła się myśleć w
-całkiem nowy sposób.
+Będę Ci też rzadziej przypominał o różnicy między kodem i jego interpretacją, a więc na przykład
+między (pewnymi) typami i zdaniami, albo termami typów zdaniowych i ich dowodami, ale z innego
+powodu - zależy mi, żebyś poczuła, że te różnice można zwykle zignorować i żebyś dzięki temu
+nauczyła się myśleć w całkiem nowy sposób.
 
 ### Przypisy
 
