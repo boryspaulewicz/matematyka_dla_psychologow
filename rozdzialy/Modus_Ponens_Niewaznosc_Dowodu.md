@@ -148,8 +148,8 @@ trudniej pisać o tych sprawach bez używania terminologii "mieszkaniowej", wię
 wprowadzę.
 
 **Typy są trochę jak zbiory, ale to nie zbiory**: Gdy zaczynałem się uczyć o teorii typów, zajęło mi
-chwilę, zanim przyzwyczaiłem się do odróżniania typów od zbiorów. Zbiory odgrywają ważną rolę w
-matematyce, między innymi dlatego, że pewna teoria mnogości, to jest [teoria
+chwilę, zanim przyzwyczaiłem się do konsekwentnego odróżniania typów od zbiorów. Zbiory odgrywają
+ważną rolę w matematyce, między innymi dlatego, że pewna teoria mnogości, to jest [teoria
 Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla), która jest niczym innym
 jak ogólnym językiem formalnym służącym do mówienia o zbiorach i ich elementach, a także do
 rozwiązywania problemów dotyczących zbiorow, jest od dawna traktowana jako podstawowy język całej
@@ -186,21 +186,23 @@ każdy typ był termem*:
 ```lean
 #check @dodaj2 -- dodaj2 : Nat → Nat
 
--- Można powiedzieć, że ta "zwykła" aplikacja ma jednocześnie wymiar konkretny, na którym zachodzi dodawanie i powstaje
--- wynik
+-- Można powiedzieć, że ta "zwykła" aplikacja ma jednocześnie wymiar konkretny, na którym zachodzi dodawanie
+-- i powstaje wynik ...
 #eval dodaj2 2 -- 4
--- i wymiar teoretyczny, na którym zachodzi "oderwanie poprzednika" typu Nat → Nat
-#check dodaj2 2 -- dodaj2 2 : Nat
--- ale można też powiedzieć, że oba wymiary są konkretne, bo Nat → Nat jest nie tylko typem, ale również termem (typu
--- Type), który na skutek występienia aplikacji zamienia się w term Nat.
 
--- Co prawda struktura dowodu nie ma znaczenia dla prawdziwości twierdzeń, dlatego na przykład Lean sygnalizuje tutaj 
--- błąd: cannot evaluate, proofs are not computationally relevant
+-- ... i wymiar teoretyczny, na którym zachodzi "oderwanie poprzednika" typu Nat → Nat, ...
+#check dodaj2 2 -- dodaj2 2 : Nat
+-- ... ale można też powiedzieć, że oba wymiary są konkretne, bo Nat → Nat jest nie tylko typem, ale również
+-- termem (typu Type), który na skutek występienia aplikacji ulega przekształceniu w term Nat.
+
+-- Co prawda struktura dowodu nie ma znaczenia dla prawdziwości twierdzeń, dlatego na przykład Lean sygnalizuje
+-- tutaj błąd: cannot evaluate, proofs are not computationally relevant ...
 #eval t1 q
--- ale *samo zestawienie* t1 i q, pomijając to, co dzieje się w typie, jest już jednak jakimś obliczaniem na poziomie
--- *w pewnym sensie* konkretnym, bo wykonanym przez nas, a ponadto towarzyszy temu zestawieniu obliczenie na poziomie 
--- termów, tylko, że te termy są tutaj akurat typami. W pewnym sensie ta aplikacja jest więc "konkretyzacją" albo 
--- "realizacją" albo "ucieleśnieniem" matematyki teoretycznej:
+
+-- .. ale *samo zestawienie* t1 i q, pomijając to, co dzieje się w typie, jest już jednak jakimś obliczaniem na
+-- poziomie *w pewnym sensie* konkretnym, bo *wykonanym przez nas*, a ponadto towarzyszy temu zestawieniu obliczenie
+-- na poziomie termów, tylko, że te termy są tutaj akurat typami. W pewnym sensie ta aplikacja jest więc "konkretyzacją"
+-- albo "realizacją" albo "ucieleśnieniem" matematyki teoretycznej:
 #check t1 q -- t1 q : q → q
 ```
 
