@@ -12,6 +12,16 @@ First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie c
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
 feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life).
 
+Znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">my father always told me: “if you want to
+go for a run, go for a run, don’t look for company. sooner or later, on your fifth run or your
+twentieth, like-minded people will find you themselves.” and only recently have i realized that this
+principle works everywhere.</p>&mdash; blue (@bluewmist) <a
+href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">December 29,
+2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
 Ostatnio właściwie codziennie sporo tu zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na temat
 aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
 
