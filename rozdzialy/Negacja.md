@@ -86,7 +86,7 @@ Inna nazwa na absurd to *fałsz*.
 Niechaj wszystkie istoty, żywe i martwe, [pokłonią się](https://www.youtube.com/watch?v=Nrz250ryvr8)
 przed potęgą typów zależnych!
 
-Trochę mnie poniosło, ale sama chyba rozumiesz. Być może najprostszy punkt widzenia na to, czym jest
+Trochę mnie poniosło, ale chyba mnie rozumiesz. Być może najprostszy punkt widzenia na to, czym jest
 tutaj typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala
 ekspresyjność języka teorii typów, a który jest tak skonstruowany, że - ze względu na interpretację
 typu `Prop` - pozwala zaimplentować zasadę eksplozji dedukcyjnej (ale nie zaimplementować *funkcję*
