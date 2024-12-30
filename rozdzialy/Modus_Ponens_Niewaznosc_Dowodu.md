@@ -100,11 +100,11 @@ jest i dlatego wciąż szukam podobnych doświadczeń.
 
 Zapominając o strukturze dowodu na ogół nie tracimy wiele, bo to, jak wygląda dowód jakiegoś zdania,
 nie musi być w żaden prosty sposób związane z jego treścią i często nie jest z nią związane. A poza
-tym dowody są prawie zawsze dłuższe, często znacznie, niż zdania, których dowodzą. Dowody po prostu
-nie służą do *ujawniania treści* zdań, tylko do ostatecznego *rozstrzygania o ich prawdziwości*, a
-to nie jest to samo. Dlatego struktura dowodu jest na ogół pouczająca tylko jako wskazówka, jak
-można *dowodzić innych podobnych pod jakimś względem zdań* i niewiele mówi nam o tym, co te zdania
-*znaczą*, albo co można z nimi *zrobić*.
+tym dowody są prawie zawsze dłuższe, często znacznie dłuższe, niż zdania, których są
+dowodami. Dowody po prostu nie służą do *ujawniania treści* zdań, tylko do ostatecznego
+*rozstrzygania o ich prawdziwości*, a to nie jest to samo. Dlatego struktura dowodu jest na ogół
+pouczająca tylko jako wskazówka, jak można *dowodzić innych podobnych pod jakimś względem zdań* i
+niewiele mówi nam o tym, co te zdania *znaczą*, albo co można z nimi *zrobić*.
 
 Względną nieważność struktury dowodu po prostu *widać*, gdy rozpiszemy analogię między implikacjami
 i funkcjami w sposób taki jak zrobiłem to wyżej. W Leanie punkt widzenia, zgodnie z którym liczy się
@@ -124,17 +124,19 @@ variable (q : Prop)
 -- Typ funkcji dodaj2 jest *trywialny* ...
 #check @dodaj2 -- dodaj2 : Nat → Nat
 
--- ... natomiast twierdzenie t1 ma fragment wykonywalnego kodu *w swoim typie*, to jest ma typ zależny, a więc
--- mniej trywialny:
+-- ... natomiast twierdzenie t1 ma fragment wykonywalnego kodu *w swoim typie*, to jest ma typ
+-- zależny, a więc mniej trywialny:
 #check @t1 -- (a : Prop) → a → a
 
--- Tutaj interesuje nas *wynik* aplikacji, czyli w tym wypadku wynik dodawania, a nie jego typ. Obliczenie, które nas
--- interesuje, zachodzi jakby na poziomie "konkretnym", albo "wewnątrz" funkcji dodaj2:
+-- Tutaj interesuje nas *wynik* aplikacji, czyli w tym wypadku wynik dodawania, a nie jego typ.
+-- Obliczenie, które nas interesuje, zachodzi jakby na poziomie "konkretnym", albo "wewnątrz" funkcji
+-- dodaj2:
 #eval dodaj2 2 -- 4
 
--- Tutaj interesuje nas *typ* aplikacji, a nie jej wynik. Chociaż nie wymuszamy ewaluacji aplikacji, to samo zestawienie
--- t1 i q wymusza pewnego rodzaju obliczenie. Sama aplikacja t1 q, a nie jej wynik, jest już dowodem zdania q → q.
--- Jedyne obliczenie, które nas tu interesuje, zachodzi więc na poziomie typów:
+-- Tutaj interesuje nas *typ* aplikacji, a nie jej wynik. Chociaż nie wymuszamy ewaluacji aplikacji,
+-- to samo zestawienie t1 i q wymusza pewnego rodzaju obliczenie. Sama aplikacja t1 q, a nie jej wynik,
+-- jest już dowodem zdania q → q. Jedyne obliczenie, które nas tu interesuje, zachodzi więc na poziomie
+-- typów:
 #check t1 q -- t1 q : q → q
 ```
 
