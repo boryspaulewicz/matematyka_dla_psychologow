@@ -167,9 +167,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R18 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
-[R19 Koniunkcja - plac budowy](./rozdzialy/Koniunkcja_work_in_progress.md)
-
-W planach: Sekcja zwłok, studium przypadku
+cdn
 
 <a name="podziekowania"></a>
 ### Podziękowania należą się między innymi
