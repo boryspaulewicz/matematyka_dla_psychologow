@@ -228,7 +228,7 @@ wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest zwyc
 czym zresztą wspominają[^1], jakby mimochodem, autorzy niektórych współczesnych podręczników
 dotyczących modelowania równań strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH))
-teoria wnioskwania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich bez
+teoria wnioskowania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich bez
 wyjątku tak zwanych modeli strukturalnych. Ten sam wskaźnik ma jednak zarazem oczywisty sens z
 perspektywy zadanio-centrycznej: Ponieważ, jak łatwo się przekonać przyglądając się [*formalnej
 definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to nic innego jak pewna
