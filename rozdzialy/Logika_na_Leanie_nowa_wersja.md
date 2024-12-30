@@ -408,7 +408,7 @@ jako poprzednik, a które jako następnik implikacji.
 
 **Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
 przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
-posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy łatwiej zapanować
+posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy lepiej zapanować
 nad strukturą rozumowania w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo
 pogubić. Logika pozwala nam w ten sposób *w kontrolowany sposób ignorować treść*, *bez szkody dla
 poprawności*. To też, to jest pewnego rodzaju "beztreściowość", mamy na myśli mówiąc o "formalności"
@@ -416,14 +416,14 @@ zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co je
 matematyki - ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów
 *mechanicznie*, jakbyśmy układali puzzle albo grali w jakąś inną grę.
 
-Coś takiego będziemy właśnie robić, w właściwie już zaczęliśmy to robić. Będziemy odtąd grać w grę
-polegającą na konstruowaniu dowodów, bo będziemy *całkowicie* formalizować każdy problem. Będziemy
-więc używać matematyki w sposób *bardziej* formalny niż ma to zwykle miejsce nawet w najbardziej
-zaawansowanych podręcznikach do matematyki. Matematycy tak zwykle *nie* postępują, bo im się nie
+Coś takiego będziemy właśnie robić, a właściwie już dawno zaczęliśmy to robić. To znaczy, będziemy
+dalej grać w grę polegającą na konstruowaniu dowodów *całkowicie* formalizując przy tym każdy
+problem. Będziemy więc używać matematyki w sposób *bardziej* formalny niż ma to zwykle miejsce nawet
+w zaawansowanych podręcznikach do matematyki. Matematycy tak zwykle *nie* postępują, bo im się nie
 chce i (zwykle) nie muszą; zamiast tego polegają na domyślności kompetentnego odbiorcy. My nie
 chcemy się musieć niczego domyślać, bo nie jesteśmy tak kompetentni jak zawodowi
-matematycy. Jesteśmy za to psychologami, a więc zarówno sami matematycy jak i wszystko, co robią,
-należy do *przedmiotu naszych badań*.
+matematycy. Jesteśmy za to psychologami, a więc zarówno sami matematycy, jak i wszystko, co zrobili
+lub robią, należy do *przedmiotu naszych badań*.
 
 Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam często *łatwiej*. Przede
 wszystkim zaś wszystko, co napiszemy, będzie *sprawdzone przez algorytm, który zawsze da nam
