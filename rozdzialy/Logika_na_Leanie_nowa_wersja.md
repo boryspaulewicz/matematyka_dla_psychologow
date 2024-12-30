@@ -69,8 +69,8 @@ trybie interaktywnym ...
 ```
 
 ... a `by` będzie podkreślone czerwoną falką. Zobaczysz też czerwoną falkę pod linią z komentarzem,
-bo definicja nie jest jeszcze zakończona. Można więc powiedzieć, że to nie jest błąd, tylko sygnał,
-że masz coś do zrobienia.
+bo definicja nie jest jeszcze zakończona. Można więc powiedzieć, że to właściwie nie jest błąd,
+tylko sygnał, że masz coś do zrobienia.
 
 **Czytamy to**: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie
 termu typu `Nat → Nat`. Powyżej symbolu derywacji `⊢` a poniżej komunikatu `1 goal` widać aktualny
