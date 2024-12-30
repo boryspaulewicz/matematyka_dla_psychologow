@@ -403,10 +403,10 @@ Nietrudno rozpoznać, że:
 wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost).
 
 3. Punkt 3 to *aksjomat* dotyczący relacji między dwoma *predykatami* - *istnieje w rzeczywistości*
-i *istnieje w samym umyśle* - i dosyć tajemniczą binarną relacją *bycia większym niż*, wreszcie
+i *istnieje w samym umyśle* - i dosyć tajemniczą binarną relacją *bycia większym niż*, wreszcie ...
 
-4. Punkty 4 i 5 zawierają skrótową charakterystykę jakiś *logicznych operacji*, które mają rzekomo
-prowadzić do *sprzeczności*, a dzięki temu, za pomocą zasady podwójnej negacji, do wniosku o
+4. ... punkty 4 i 5 zawierają skrótową charakterystykę jakiś *logicznych operacji*, które mają
+rzekomo prowadzić do *sprzeczności*, a dzięki temu, za pomocą zasady podwójnej negacji, do wniosku o
 istnieniu Boga.
 
 Widzimy więc, że Anzelm próbował tutaj (być może o tym nie wiedząc) skorzystać z logiki
