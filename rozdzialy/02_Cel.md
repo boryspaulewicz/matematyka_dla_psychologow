@@ -197,12 +197,12 @@ nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwi
 zadania. W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
 Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru
-psychologicznego. Na przykład, często używana w psychometrii α Cronbacha jest zwykle interpretowana
-jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko jednej zmiennej
-nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią wnioskwania przyczynowego
-można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o czym zresztą wspominają[^1]
-jakby mimochodem autorzy niektórych współczesnych podręczników dotyczących modelowania równań
-strukturalnych, bo w tych nowszych podręcznikach (na przykład w
+psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha* jest zwykle
+interpretowana jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko
+jednej zmiennej nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią
+wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o
+czym zresztą wspominają[^1] jakby mimochodem autorzy niektórych współczesnych podręczników
+dotyczących modelowania równań strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH))
 teoria wnioskwania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich bez
 wyjątku tak zwanych modeli strukturalnych. Ten sam wskaźnik ma jednak zarazem oczywisty sens z
