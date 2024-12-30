@@ -162,14 +162,14 @@ prób zrozumienia tego, co staram Ci się wytłumaczyć, jak również wskazywan
 tłumaczę. Chodzi mi tylko o próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to są bez
 wątpienia obowiązki, ale również szansa na coś wspaniałego.
 
-Korzystając z okazji chcę Ci powiedzieć coś jeszcze na temat wolności. Gdy byłem nastolatkiem, było
+Korzystając z okazji, chcę Ci powiedzieć coś jeszcze na temat wolności. Gdy byłem nastolatkiem, było
 mi trudno przełamać się, żeby na imprezach, na których tańczyli moi znajomi, również wejść na
 parkiet i tańczyć razem z nimi. Wydaje mi się, że Ci, którzy mają z tym problem i patrzą na
 tańczących z boku są często przekonani, że wyglądają wtedy *poważnie*. Jednocześnie z zewnątrz to
 chyba niekoniecznie tak wygląda. Można powiedzieć, że powaga jest jakby rewersem *wstydu*, a wstyd
 jest często niepotrzebną nikomu przeszkodą, która utrudnia między innymi robienie rzeczy
-nieszkodzliwych i przynajmniej potencjalnie wartościowych. Wstyd przeszkadza więc między innymi w
-*tworzeniu* czegoś *nowego*.
+nieszkodzliwych i - przynajmniej potencjalnie - wartościowych. W ten sposób wstyd przeszkadza więc
+między innymi w *tworzeniu* czegoś *nowego*.
 
 Zdarza mi się obserwować podobną powagę u innych, gdy uczestniczę w mniej lub bardziej oficjalnych
 zebraniach, ale widzę ją często również i u siebie, kiedu na przykład prowadzę zajęcia. Ta powaga
