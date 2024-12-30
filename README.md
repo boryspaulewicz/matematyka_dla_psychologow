@@ -112,11 +112,10 @@ obserwacje zapisać bez znaczącej utraty ich treści w języku formalnym i prze
 zachęcić do lektury, w różnych miejscach umieściłem linki do treści, które nie są blisko związane z
 tematem. I w przypisach też czasami zjeżdżam troszkę na pobocze. Nie ma za co.
 
-Ostatnio, gdy szukam błędów albo fragmentów, które mógłbym jakoś poprawić, chętnie korzystam z
-oficialnej [aplikacji](https://play.google.com/store/apps/details?id=com.github.android&hl=en) do
-przeglądania repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie da się wtedy co prawda
-wygodnie przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją
-polecam.
+Kiedy szukam błędów lub fragmentów, które mógłbym jakoś poprawić, chętnie korzystam z oficialnej
+[aplikacji](https://play.google.com/store/apps/details?id=com.github.android&hl=en) do przeglądania
+repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie da się wtedy co prawda wygodnie
+przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
 [R1 Skąd się ta książka wzięła?](./rozdzialy/00_Wprowadzenie.md)
 
