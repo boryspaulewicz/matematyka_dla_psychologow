@@ -171,10 +171,10 @@ Można to powiedzieć również tak: Tak samo, jak nie da się wyprowadzić wnio
 probabilistycznym nie przyjmując najpierw jakiś założeń probabilistycznych, i nie da się wyprowadzić
 wniosków przyczynowych nie przyjmując najpierw jakiś założeń przyczynowych, tak nie da się też
 wyprowadzić wniosków na temat *działań celowych* nie przyjmując żadnych założeń na temat celu. A
-najogólniejszą o najbardziej elastyczną postacią tego rodzaju założeń są założenia o charakterze
-*ocennym*, które można wyrazić formalnie jako pewne relacje *porządku*. Gdy tylko dodamy - do tych
+najogólniejszą i najbardziej elastyczną postacią tego rodzaju założeń są założenia o charakterze
+*ocennym*, które można wyrazić formalnie jako relacje *porządku*. Gdy tylko dodamy - do
 probabilistycznych i przyczynowych - tego rodzaju założenia, możemy natychmiast zacząć mówić
-*wprost* o działaniach celowych.
+*wprost* o działaniach celowych, a więc o *zachowaniu*.
 
 Dojdziemy również do takiego wniosku:
 
