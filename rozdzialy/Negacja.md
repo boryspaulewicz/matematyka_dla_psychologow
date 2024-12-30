@@ -128,14 +128,29 @@ variable (p : Prop)
 -- i tak dalej
 ```
 
-Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta konwencja
-działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem* a nie
-funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, czyli jest *typem /
-zdaniem parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
+Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta
+konwencja działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem* a
+nie funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, ponieważ jest
+typem / zdaniem *parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
 
-Wyobraźmy sobie, że mamy `d : Absurd` (term typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy
-aplikacja `d p` będzie poprawna. Żeby zobaczyć, jak ta aplikacja działa, musimy tylko prześledzić
-kolejne kroki jej ewaluacji (ilustracja):
+Być może `Absurd` kojarzy Ci się z typem znanej Ci już funkcji `identycznosc`, ale, poza tym, że
+`identycznosc` może przyjmować dowolne typy jako pierwszy argument, a będący z definicji funkcją
+term typu `Absurd` może przyjmować tylko typy będące zdaniami, to zachodzi między nimi jeszcze
+jedna, bardzo ważna różnica (ilustracja) ...
+
+```lean
+-- ... polegająca na tym, że identyczność tworzy term typu typ w ten sposób, że zwraca to,
+-- co dostała jako drugi argument, natomiast ...
+identycznosc : (typ : Type) : typ → typ
+
+-- ... jadro_ciemnosci tworzy term typu a *z niczego*:
+jadro_ciemnosci : (a : Prop) → a
+```
+
+To może jeszcze raz o tym samym, tylko trochę inaczej. Wyobraźmy sobie zatem, że mamy `d : Absurd`
+(term typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy aplikacja `d p` będzie poprawna. Żeby
+zobaczyć, jak ta aplikacja działa, musimy tylko prześledzić kolejne kroki jej ewaluacji
+(ilustracja):
 
 ```lean
 -- Wersja z nierozpakowaną definicją typu Absurd ...
