@@ -147,10 +147,9 @@ identycznosc : (typ : Type) : typ → typ
 jadro_ciemnosci : (a : Prop) → a
 ```
 
-To może jeszcze raz o tym samym, tylko trochę inaczej. Wyobraźmy sobie, że mamy `d : Absurd` (term
-typu `Absurd`) i `p : Prop` (jakieś zdanie `p`). Wtedy aplikacja `d p` będzie poprawna. Żeby
-zobaczyć, jak ta aplikacja działa, musimy tylko prześledzić kolejne kroki jej ewaluacji
-(ilustracja):
+To może jeszcze raz o tym samym, tylko trochę inaczej. Wyobraźmy sobie, że `d : Absurd` i `p :
+Prop`. Wtedy aplikacja `d p` będzie poprawna. Żeby zobaczyć, jak ta aplikacja działa, musimy tylko
+prześledzić kolejne kroki jej ewaluacji (ilustracja):
 
 ```lean
 -- Wersja z nierozpakowaną definicją typu Absurd ...
