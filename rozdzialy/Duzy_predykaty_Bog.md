@@ -322,11 +322,12 @@ axiom Niewierzacy : Predykat Człowiek
 ```
 
 Pozwoliłem sobie tutaj na ryzykowne *uproszczenie*, polegające na *wyborze* pewnej
-*interpretacji*. Założyłem (wcześniej niejawnie, ale teraz to zmieniam), że *mówić*, że nie ma Boga
-znaczyło w tym kontekście dla Anzelma to samo, co *nie wierzyć* w Boga. Widzimy dzięki temu, że
-formalizacja rozumowań zapisanych w języku naturalnym często wymaga formułowania *hipotez
-empirycznych* na temat przyjętych (niekoniecznie świadomie!) przez autora znaczeń. Ponieważ te
-możemy tylko lepiej lub gorzej *zgadywać*, wypada nam przyjąć zasadę *życzliwej
+*interpretacji*. Założyłem (wcześniej *niejawnie*, ale teraz to zmieniam), że *mówić*, że nie ma
+Boga znaczyło w tym kontekście dla Anzelma to samo, co *nie wierzyć* w Boga. 
+
+Widzimy dzięki temu, że formalizacja rozumowań zapisanych w języku naturalnym często wymaga
+formułowania *hipotez empirycznych* na temat przyjętych (niekoniecznie świadomie!) przez autora
+znaczeń. Ponieważ te możemy tylko lepiej lub gorzej *zgadywać*, wypada nam przyjąć zasadę *życzliwej
 interpretacji*. Zgodnie z tą zasadą, powinniśmy próbować zidentyfikować *wszystkie* takie
 interpretacje wypowiedzi autora, które są *spójne* z dostępną *wiedzą zastaną* (głównie na temat
 autora) i z *całością tekstu*, skupiając się przy tym na tych interpretacjach, które zdają się dawać
@@ -342,10 +343,10 @@ axiom mocna_teza : Glupi → Niewierzacy
 
 Ale nie jest wcale jasne, czy Anzelm zgodziłby się na zastosowanie tutaj dużego kwantyfikatora, a
 taki tu przecież niejawnie występuje, bo zgodnie z mechaniką działania teorii typów aksjomat
-`mocna_teza` odczytujemy jako **Dla każdego** *człowieka C, jeżeli C jest głupi, to C jest
+`mocna_teza` odczytujemy jako *Dla każdego człowieka C, jeżeli C jest głupi, to C jest
 niewierzący*. Na użytek dalszych rozważań przyjmiemy jednak, że taka interpretacja jest w tym
-wypadku akceptowalna. Gdyby miało się później okazać, że to zmniejsza szanse Anzelma, zawsze możemy
-się z tego wycofać i spróbować zrobić to inaczej.
+wypadku akceptowalna. Gdyby miało się później okazać, że to zmniejsza w jakiś sposób szanse Anzelma,
+zawsze możemy się z tego wycofać i spróbować zrobić to inaczej.
 
 Przyjęcie aksjomatu `mocna_teza` w jego obecnej postaci wyklucza istnienie ludzi zarazem *głupich* i
 *wierzących*, z czym Anzelm by się zapewne nie zgodził, a więc jeśli to ma być implikacja, to chodzi
