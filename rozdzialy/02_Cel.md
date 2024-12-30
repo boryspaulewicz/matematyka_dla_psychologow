@@ -43,7 +43,7 @@ istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko po to, żeby s
 oczywiście po to też, ale przede wszystkim żeby Cię przekonać, że mogę mieć o tego typu sprawach coś
 do powiedzenia.
 
-Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Krwawa łaźnia*, skorzystamy z już nabytej
+Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Nie jest dobrze*, skorzystamy z już nabytej
 wiedzy, żeby ocenić zawartość takich skierowanych do psychologów podręczników jak [Metodologia badań
 psychologicznych](https://ksiegarnia.pwn.pl/Metodologia-badan-psychologicznych,782124221,p.html?srsltid=AfmBOopxlOtS5MLgoUGzo8_9QB7yo-2aWyZQPM4FEqkuIvYzWXHyBbvQ),
 [Statystyczny
