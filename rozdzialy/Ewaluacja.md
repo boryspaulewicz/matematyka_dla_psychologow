@@ -10,9 +10,9 @@ kodu*. Oba te procesy są realizowane przez pewne *algorytmy*, co oznacza, że *
 może być w skończonym czasie sprawdzony pod względem poprawności i *każdy* poprawny fragment kodu
 może być w skończonym czasie zredukowany do najprostszej postaci.
 
-Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, wystarczy na razie w zupełności,
-jeżeli zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne przykłady będą
-tylko wariacjami na ten temat.
+Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, wystarczy na razie, jeżeli
+zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne przykłady będą tylko
+wariacjami na ten temat.
 
 ```lean
 def identycznosc (typ : Type) (argument : typ) : typ := argument
