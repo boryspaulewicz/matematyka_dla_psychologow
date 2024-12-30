@@ -403,8 +403,9 @@ Nietrudno rozpoznać, że:
 2. Punkt 2 to *założenie* [*dowodu nie
 wprost*](https://pl.wikipedia.org/wiki/Dow%C3%B3d_nie_wprost).
 
-3. Punkt 3 to *aksjomat* dotyczący relacji między dwoma *predykatami* - *istnieje w rzeczywistości*
-i *istnieje w samym umyśle* - i dosyć tajemniczą binarną relacją *bycia większym niż*, wreszcie ...
+3. Punkt 3 to *aksjomat* dotyczący relacji między dwoma być może[^2] *predykatami* - *istnieje w
+rzeczywistości* i *istnieje w samym umyśle* - i dosyć tajemniczą binarną relacją *bycia większym
+niż*, wreszcie ...
 
 4. ... punkty 4 i 5 zawierają skrótową charakterystykę jakiś *logicznych operacji*, które mają
 rzekomo prowadzić do *sprzeczności*, a dzięki temu, za pomocą zasady podwójnej negacji, do wniosku o
@@ -427,3 +428,9 @@ zachowanie").
 
 [^1]: Słowo krok (w rozumowaniu lub argumentacji) nie jest o ile mi wiadomo terminem technicznym w
     przyjętym tutaj przeze mnie rozumieniu. Wprowadziłem je tylko dlatego, że mi się podoba.
+
+[^2]: Słowo istnieje wypadałoby zakodować za pomocą [*kwantyfikatora
+    egzystencjalnego*](https://pl.wikipedia.org/wiki/Kwantyfikator_egzystencjalny), a *sposoby
+    istnienia* (tutaj *realny* i *w umyśle*) aż się proszą, żeby poszperać w [*logikach
+    modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna). Dla uproszczenia jednak na tym etapie
+    mówię o predykatach, bo to pojęcie już znasz.
