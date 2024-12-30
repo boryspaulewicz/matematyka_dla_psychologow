@@ -165,7 +165,16 @@ Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z p
 dokładnie tak samo jak "ten, który powtarza eksperyment" szybko znika nam z pola widzenia gdy
 poznajemy rachunek prawdopodobieństwa, a "ten, który dokonuje zewnętrznej interwencji" szybko się
 ulatnia gdy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie nadal
-"jego" cień. Dojdziemy również do takiego wniosku:
+"jego" cień. 
+
+Można to powiedzieć również tak: Tak samo, jak nie da się wyprowadzić wniosków o charakterze
+probabilistycznym nie przyjmując najpierw jakiś założeń probabilistycznych, i nie da się wyprowadzić
+wniosków przyczynowych nie przyjmując najpierw jakiś założeń przyczynowych, tak nie da się też
+wyprowadzić wniosków na temat *działań celowych* nie przyjmując żadnych założeń na temat celu. A
+najogólniejszą o najbardziej elastyczną postacią tego rodzaju założeń są założenia o charakterze
+*ocennym*, które można wyrazić formalnie jako pewne relacje *porządku*.
+
+Dojdziemy również do takiego wniosku:
 
 *Zachowanie*, ten centralny przedmiot zainteresowania psychologii, *to proces celowy w przyjętym
 znaczeniu pojęcia cel*.
