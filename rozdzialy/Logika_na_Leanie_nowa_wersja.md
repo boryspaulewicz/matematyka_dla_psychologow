@@ -446,7 +446,7 @@ nie umiało się o tym dostatecznie *konsekwetnie* albo *spójnie mówić*, a wi
 ## Pojęcie prawdy w logice konstruktywnej
 
 Na koniec tego rozdziału wyjaśnię Ci jeszcze coś na temat dwóch najważniejszych dla nas logik, to
-jest logiki konstruktywnej i klasycznej. Być może miałaś już do czynienia z elementami logiki
+jest logiki *konstruktywnej* i *klasycznej*. Być może miałaś już do czynienia z elementami logiki
 zdań. Jeżeli tak, to może to być teraz do pewnego stopnia *przeszkodą*, ponieważ logika zdań jest
 najczęściej wykładana w wersji tak zwanej *klasycznej*, w której prawdą jest, że:
 
@@ -458,29 +458,30 @@ Jak również:
 logice klasycznej)
 
 W Leanie domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
-*konstruktywnej*, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w
-tym znaczeniu, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice
-klasycznej (o ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że są
-*słabsze*), ale nie odwrotnie. W logice konstruktywnej można przyjąć, że:
+konstruktywnej, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w tym
+znaczeniu, że wszystko, co jest prawdą w logice konstruktywnej, jest też prawdą w logice klasycznej,
+ale nie odwrotnie. O ostrożniejszych założeniach lub teoriach i o ogólniejszych pojęciach mówimy, że
+są *słabsze*, w znaczeniu mniej *zobowiązujące*, albo - czasami - mniej *spekulatywne*. W logice
+konstruktywnej można przyjąć, że:
 
-*Zdanie prawdziwe to to samo co zdanie udowodnione.*<br/>(dopuszczalna interpretacja prawdy w logice
-konstruktywnej)
+*Zdanie prawdziwe to to samo, co zdanie udowodnione.*<br/>(dopuszczalna interpretacja prawdy w
+logice konstruktywnej)
 
 Co za różnica? Jeżeli postanowimy intepretować słowo "prawdziwe" jako równoznaczne z "udowodnione",
 to *nie możemy* zaakceptować jako prawdziwego zdania *Każde zdanie jest albo prawdziwe, albo
 fałszywe* (nazywanego m.in. [zasadą wyłączonego
-środka](https://en.wikipedia.org/wiki/Law_of_excluded_middle)). Wiemy (istnieje twierdzenie, które o
-tym mówi), że w matematyce da się skonstruować zdania prawdziwe, których nie da się udowodnić. Nie
-możemy więc też zaakceptować zasady podwójnej negacji (jeżeli nieprawda, że nieprawda, że *p*, to
-*p*), bo zasada wyłączonego środka z niej wynika (i vice versa). Jeżeli Cię to niepokoi, to
-zapewniam, że logika klasyczna nieprędko będzie dla nas ważna, a gdy się taka stanie, będziesz na to
-gotowa.
+środka](https://en.wikipedia.org/wiki/Law_of_excluded_middle)), ponieważ wiemy (istnieje
+twierdzenie, które o tym mówi), że w matematyce da się skonstruować zdania prawdziwe, których *nie
+da się* udowodnić. W logice konstruktywnej nie możemy więc również zaakceptować zasady podwójnej
+negacji (jeżeli nieprawda, że nieprawda, że *p*, to *p*), bo zasada wyłączonego środka z niej wynika
+(i vice versa). Jeżeli Cię to niepokoi, to zapewniam, że logika klasyczna nieprędko będzie dla nas
+ważna, a gdy to nastąpi, będziesz na to gotowa.
 
 Żeby udowodnić w logice konstruktywnej implikację *A → B*, gdzie *A* i *B* to dowolne zdania, trzeba
 *skontruować procedurę* (napisać program, albo stworzyć funkcję), która dowolny dowód zdania *A*
 przekształca w dowód zdania *B*. 
 
-Oto ogólna reguła dedukcji mówiąca o tym, w jaki sposób można *udowodnić implikację*:
+Oto *reguła dedukcji* mówiąca o tym, w jaki sposób można *udowodnić implikację*:
 
 Jeżeli *A* i *B* to zdania, to:
 
@@ -492,24 +493,22 @@ Jeżeli *A* i *B* to zdania, to:
 *A → B*
 
 W taki właśnie sposób często zapisujemy reguły dedukcji. Reguły dedukcji mówią, jakie nowe kroki
-możemy wprowadzić do naszego dowodu w jakich warunkach. Ta akurat reguła (reguła wprowadzenia
+możemy wprowadzić do naszego dowodu w jakich warunkach. Ta akurat reguła (reguła *wprowadzenia*
 implikacji) mówi, że jeżeli zakładając *A* (i być może przyjmując wcześniej inne założenia) uda Ci
-się wyprowawadzić w jakikolwiek sposób (to oznaczają te kropki jedna pod drugą) *B*, to możesz
-wprowadzić albo zaakceptować albo uznać za prawdziwe (na mocy wszystkich wcześniejszych założeń i
-kroków) zdanie *A → B*. Mówiąc krótko: Jeżeli z *A* da się wyprowadzić *B*, to można zaapceptować
-zdanie *A → B*. Albo najkrócej: Jeżeli z *A* wynika *B*, to *A → B*.
+się wyprowadzić w jakikolwiek sposób (to właśnie oznaczają te zapisane pionowo kropki) *B*, to
+możesz wprowadzić albo zaakceptować albo uznać za prawdziwe (na mocy wszystkich wcześniejszych
+założeń i kroków) zdanie *A → B*. Mówiąc krótko: Jeżeli z *A* da się wyprowadzić *B*, to można
+zaapceptować zdanie *A → B*. Albo najkrócej: Jeżeli z *A* wynika *B*, to *A → B*.
 
 W logice konstruktywnej *prawdziwe* znaczy to samo, co *ma (jakiś) dowód*. Dlatego ta reguła
-dedukcji ma w tej logice taką a nie inną *interpretację*: *Jeżeli z dowod A można zrobić (w danym
+dedukcji ma w tej logice taką a nie inną *interpretację*: *Jeżeli z dowodu A można zrobić (w danym
 kontekście) dowód B, to ten sposób jest dowodem A → B*.
 
-Albo: Dowód *A → B* to dowolny sposób uzyskania dowodu *B* z dowolnego dowodu *A*.
+Albo: Dowód *A → B* to każdy sposób uzyskania dowodu *B* z dowolnego dowodu *A*.
 
 Czy widzisz, że to jest ciągle ta sama reguła dedukcji, ale wydaje się zmieniać, bo zmieniamy
 sposób, w jaki *my* o niej mówimy, to jest w jaki interpretujemy pojęcie prawdy (albo akceptacji
 zdania w dowodzie)?
-
-Jeszcze raz: Dowód *A → B* to dowolny sposób uzyskania dowodu *B* z dowolnego dowodu *A*.
 
 A przecież: Jeżeli `A` jest zdaniem, czyli termem typu `Prop`, to term typu `A` jest dowodem tego
 zdania.
@@ -522,9 +521,9 @@ def tautologia (A : Prop) : A → A := fun (h : A) => h
 
 ... jest dowodem tautologii *A → A* (jeżeli *A*, to *A*) dla każdego zdania *A*.
 
-Sam fakt, że da się skonstruować funkcję o typie `(A : Prop) → A → A` oznacza, że wiedząc tylko
-tyle, że *A* jest jakimś zdaniem, można z dowolnego dowodu *A* zrobić dowód *A*. Jeżeli *A* to
-zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda? 
+Sam fakt, że da się skonstruować funkcję o typie `(A : Prop) → A → A` oznacza, że wiedząc *tylko
+tyle*, że *A* jest jakimś zdaniem, można z dowolnego dowodu *A* zrobić dowód *A*. Jeżeli *A* to
+zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda?
 
 O ile tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię do
 interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się dla Ciebie irytujące,
@@ -534,15 +533,15 @@ woli nie myśleć o nazwach kolejno granych akordów czy nut.
 
 Jeszcze jedna uwaga na temat często stosowanych, ale rzadko objaśnianych konwencji: Gdy matematycy
 nagle zmieniają notację i wydaje się, że bez wyraźnego powodu na to samo zamiast małych liter
-używają dużych, często chcą w ten sposób zasugerować, że mają na myśli dowolnie złożone obiekty
-danego rodzaju. Tutaj zacząłem w pewnem momencie oznaczać arbitralne zdania dużymi literami właśnie
-w tym celu - żeby zasygnalizować, że może chodzić o jakieś zdania dowolnie złożone.
+używają dużych, często chcą w ten sposób zasugerować, że mają na myśli również dowolnie *złożone*
+obiekty danego rodzaju. Tutaj zacząłem w pewnem momencie oznaczać arbitralne zdania dużymi literami
+właśnie w tym celu - żeby zasygnalizować, że chodzi również o zdania złożone.
 
 Przypominam na koniec fragment prozy matematycznej, który pojawił się w trzecim rozdziale:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-Czy widzisz, że *dokładnie to samo* możemy zapisać w dosyć *naturalny, zwięzły i czytelny sposób* w
+Czy widzisz, że *dokładnie to samo* możemy zapisać w dosyć *naturalny, zwięzły i czytelny* sposób w
 naszym języku jako (ilustracja) ...
 
 ```lean
@@ -550,11 +549,11 @@ def przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = m + n := ...
 ```
 
 ... gdzie `n + m = m + n` to *zdanie parametryczne*? W Leanie to zdefiniowane już twierdzenie jest
-dostępne jako wartość stałej `Nat.add_comm` (*comm* to skrót od angielskiego *commutativity*
-oznaczającego przemienność).
+dostępne jako wartość stałej `Nat.add_comm`, gdzie *comm* to skrót od angielskiego *commutativity*,
+oznaczającego przemienność.
 
-Ponieważ matematyka to dla nas programowanie a twierdzenia to dla nas funkcje, możemy je stosować
-tak samo jak wszystkie inne funkcje:
+Ponieważ matematyka to dla nas programowanie, a twierdzenia to dla nas funkcje, możemy *stosować
+twierdzenia* dokładnie tak samo jak stosujemy wszystkie inne funkcje:
 
 ```lean
 -- Nad.add_comm to twierdzenie i jednocześnie funkcja dwuargumentowa, która z podanych argumentów tworzy dowód
@@ -567,8 +566,7 @@ tak samo jak wszystkie inne funkcje:
 
 Jeżeli masz ochotę, to może zerknij znowu na [tą część rozdziału
 czwartego](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87)
-i zobacz, jak bardzo zmienił się sposób, w jaki teraz postrzegasz w zasadzie wszystko, o czym tam
-pisałem.
+i zobacz, jak bardzo zmienił się sposób, w jaki teraz postrzegasz wszystko, o czym tam pisałem.
 
 ### Przypisy
 
