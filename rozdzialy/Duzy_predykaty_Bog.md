@@ -414,12 +414,12 @@ Widzimy więc, że Anzelm próbował tutaj (być może o tym nie wiedząc) skorz
 
 Punkty 4 i 5 możemy potraktować jako niezobowiązujące *wskazówki*, bo gdy już będziemy w dalszej
 części książki dysponować pozostałymi potrzebnymi do tego celu narzędziami - za wyjątkiem
-[*spójników modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna), które być może mogłyby się tu
-do czegoś przydać - to jest *relacjami*, *negacją*, *kwantyfikatorem egzystencjalnym* i *zasadą
-wyłączonego środka* (równoważną zasadzie podwójnej negacji), wtedy sami ocenimy, jak to wszystko
-działa. Wszak właśnie na tym, to jest na ocenie poprawności opartej na *subiektywnej interpretacji
-wytworu* w postaci tego tekstu *jako rezultatu pewnego zachowania*, a więc jako mniej lub bardziej
-udanego *rozwiązania pewnego zadania*, polega nasze *deklarowane zadanie* (czyli "nasze
+[*spójników modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna), które być może mogłyby się
+tutaj do czegoś przydać - to jest *relacjami*, *negacją*, *kwantyfikatorem egzystencjalnym* i
+*zasadą wyłączonego środka* (równoważną zasadzie podwójnej negacji), wtedy sami ocenimy, jak to
+wszystko działa. Wszak właśnie na tym, to jest na ocenie poprawności opartej na *subiektywnej
+interpretacji wytworu* w postaci tego tekstu *jako rezultatu pewnego zachowania*, a więc jako mniej
+lub bardziej udanego *rozwiązania pewnego zadania*, polega nasze *deklarowane zadanie* (czyli "nasze
 zachowanie").
 
 ### Przypisy
