@@ -54,8 +54,8 @@ robią z dobrej woli i że pracownicy uczelni czasem tego oczekują, ale moim zd
 dyscyplinach takich jak psychologia, takie tytuły są nie tylko dosyć śmieszne, ale w dodatku mogą
 utrudniać przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Dlatego między innymi piszę
 tą książkę niemal "na żywo". Dzięki temu możesz się sama przekonać, jak pisząc ją sam się pewnych
-rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Próbuję też pisać ją tak, jakbym z
-Tobą *rozmawiał*.
+rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu próbuję tą
+książkę pisać tak, jakbym z Tobą *rozmawiał*.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
