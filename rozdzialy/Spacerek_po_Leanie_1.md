@@ -270,20 +270,22 @@ kodu, to tylko ilustracja.
 -- Lean rozpakowuje również definicję stałej funkcyjnej, czyli tutaj stałej dodaj2. W rezultacie w miejscu
 -- dodaj2 pojawia się *funkcja anonimowa*, bo już bez nazwy "dodaj2", to jest:
 -- fun (moj_parametr : Nat) => moj_parametr + 2
--- Żeby zapis był jednoznaczny poniżej otoczyłem tą funkcję nawiasami.
+-- Żeby zapis był jednoznaczny, poniżej otoczyłem tą funkcję nawiasami.
 (fun (moj_parametr : Nat) => moj_parametr + 2) 2
 
--- Lean odczepia część przed symbolem =>, zostawiając tylko ciało funkcji:
+-- Lean odczepia część przed symbolem =>, zostawiając tylko *ciało* funkcji:
 moj_parametr + 2
--- i *jednocześnie* podstawia zredukowaną wersję argumentu pod parametr funkcji w ciele funkcji, czyli w tym 
+-- i *jednocześnie podstawia* zredukowaną wersję argumentu pod parametr funkcji w ciele funkcji, czyli w tym 
 -- wypadku podstawia 2 pod zmienną moj_parametr:
 2 + 2
+```
 
--- Czy widzisz, że warto tutaj użyć innej nazwy - "parametr" - na to, co pojawia się po słowie fun
--- (czyli na moj_parametr) i innej - "argument" - na to, co pojawia się jako drugi term w tej aplikacji 
--- (czyli na 2)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym mówić w sposób 
--- zrozumiały.
+Czy widzisz, że warto tutaj użyć innej nazwy - *parametr* - na to, co pojawia się po słowie fun
+(czyli na moj_parametr) i innej - *argument* - na to, co pojawia się jako drugi term w tej aplikacji
+(czyli na 2)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym mówić w
+sposób zrozumiały.
 
+```lean
 -- + to także funkcja, tylko taka, której apliację możemy zapisać w *notacji infiksowej*, czyli w stylu:
 -- argument1 funkcja argument2, na przykład pisząc 2 + 3.
 -- Lean na to pozwala, jeśli mu wytłumaczymy, co to znaczy. Akurat w przypadku funkcji + wie to z góry.
@@ -295,9 +297,9 @@ moj_parametr + 2
 ```
 
 Przypuszczam, że tego właśnie się mniej więcej spodziewałaś, tylko może sens tej operacji nie jest
-dla Ciebie jeszcze całkiem oczywisty, bo częściowo przysłaniają go moje rozwlekłe objaśnienia. Teraz
-pokażę Ci, jak przebiega ewaluacja bardziej skomplikowanej funkcji `plus` do argumentów `1` i
-`2`. Ten kod to również tylko ilustracja:
+dla Ciebie jeszcze całkiem oczywisty, bo częściowo przysłaniają go moje (celowo!) rozwlekłe
+objaśnienia. Teraz pokażę Ci, w jaki sposób przebiega ewaluacja bardziej skomplikowanej funkcji
+`plus` do argumentów `1` i `2`. Ten kod to również tylko ilustracja:
 
 ```lean
 #eval plus 1 2
@@ -344,19 +346,19 @@ tylko inny sposób zapisania dostępnej w Leanie funkcji `Nat.add`, która obsł
 naturalnych.
 
 Pokażę Ci jeszcze raz to samo, ale używając notacji, którą chętnie stosują matematycy. Dla
-uproszczenia pominę przy tym typy parametrów.
+uproszczenia pominę jednak typy parametrów.
 
 Anonimowe funkcje, takie jak `fun (moj_parametr : Nat) => moj_parametr + 2`, nazywamy również
 *λ-abstrakcjami*. Lean wie o tej konwencji i pozwala zamiast `fun` napisać `λ`. Jeżeli chcesz używać
 tej konwencji, możesz uzyskać tą grecką literę pisząc `\la`.
 
 Jeżeli zastosujemy uproszczoną (bo bez typów) notację matematyczną, gdzie zamiast `fun` będziemy
-pisać λ, a zamiast `=>` będziemy pisać kropkę, to zobaczymy, że ewaluacja aplikacji anonimowej
+pisać *λ*, a zamiast `=>` będziemy pisać *kropkę*, to zobaczymy, że ewaluacja aplikacji anonimowej
 wersji (bo bez nazwy "dodaj2") funkcji `dodaj2`:
 
 *(λ x . x + 2) 2*
 
-polega w pierwszym kroku na odczepeniu ciała (części po kropce):
+polega w pierwszym kroku na odczepeniu ciała, czyli części po kropce:
 
 *x + 2*
 
@@ -379,8 +381,8 @@ jest *1* i cała początkowa aplikacja zostaje zredukowana do postaci:
 *(λ y . 1 + y) 2*
 
 Ewaluacja jeszcze nie jest zakończona, bo jest co do czego aplikować. Matematycy mówią w takiej
-sytuacji, że jest tu jeszcze jakiś *redex* (to skrót od *reducible expression*). A więc znowu
-odczepiamy ciało:
+sytuacji (po angielsku), że jest tu jeszcze jakiś *redex* (to skrót od *reducible expression*). A
+więc znowu odczepiamy ciało:
 
 *1 + y* 
 
@@ -416,7 +418,7 @@ dlatego właśnie typ stałej `plus` to `Nat → (Nat → Nat)`.
 Nawiasy w `Nat → (Nat → Nat)` nie są konieczne, bo w Leanie *strzałka wiąże z prawej*: Gdyby nie
 konwencja, którą stosuje Lean, zapis `Nat → Nat → Nat` byłby problematycznie wieloznaczny, ponieważ
 nie byłoby wiadomo, czy chodzi o `(Nat → Nat) → Nat` czy o `Nat → (Nat → Nat)`, a to *nie jest to
-samo*: `(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają *funkcje* typu `Nat
+samo*; `(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają *funkcje* typu `Nat
 → Nat` w liczby naturalne, a `Nat → (Nat → Nat)` to typ (jakichkolwiek) funkcji, które
 przekształcają *liczby naturalne* w funkcje typu `(Nat → Nat)`.
 
@@ -425,7 +427,8 @@ Mówiąc ogólnie, to, że w Leanie strzałka wiąże z prawej oznacza, że dla 
 `Nat → (Nat → Nat)`. Zapisałem to wprost, nie polegając na tej konwencji i zamiast tego używając
 nawiasów, żebyś nie musiała się tego od razu domyślać.
 
-Lean pozwala na zapis skrótowy między innymi w takim oto stylu:
+Lean pozwala na zapis skrótowy między innymi w takim oto stylu (to tylko alternatywne sposoby
+zapisania tej samej definicji):
 
 ```lean
 -- Nie kopiuj tego kodu do Leana, jeżeli nie usunęłaś wcześniej definicji funkcji plus. Lean nie pozwala 
@@ -455,12 +458,12 @@ albo w takim:
 def plus (pierwsza : Nat) (druga) := pierwsza + druga
 ```
 
-ale w takim już *nie*, bo symbol `+` ma w pewnym sensie wiele definicji (dla różnych typów
+ale w takim już *nie*, bo symbol `+` ma *w pewnym sensie* wiele definicji (dla różnych typów
 liczbowych, takich jak liczby naturalne, całkowite, wymierne i rzeczywiste) i widoczna poniżej, zbyt
 skrótowa wersja nie pozwala Leanowi wywnioskować, którą definicję wybrać:
 
 ```lean
--- Ta definicja jest zapisana zbyt skrótowo i dlatego błędna, bo nie pozwala Leanowi automatycznie wywnioskować
+-- Ta definicja jest zapisana zbyt skrótowo i dlatego *błędna*, bo nie pozwala Leanowi automatycznie wywnioskować
 -- typu parametrów jak i rezultatu, a przez to nie pozwala wywnioskować, jakiej wersji dodawania (na przykład, dla 
 -- liczb naturalnych czy może wymiernych) należy tu użyć:
 def plus (pierwsza) (druga) := pierwsza + druga
@@ -476,12 +479,15 @@ rezultatu, czyli przed "głównym" drukropkiem. Na prywatny użytek nazywam to "
 dwukropka" w definicjach funkcji (ilustracja):
 
 ```lean
--- Ta definicja:
+-- Ta definicja ...
 def plus (pierwsza : Nat) (druga : Nat) : Nat := pierwsza + druga
--- znaczy to samo, co ta:
+
+-- ... znaczy to samo, co ta ...
 def plus (pierwsza : Nat) : Nat → Nat := fun (druga : Nat) => pierwsza + druga
--- i to samo, co ta:
+
+-- ... i to samo, co ta ...
 def plus : Nat → (Nat → Nat) := fun (pierwsza : Nat) => (fun (druga : Nat) => pierwsza + druga)
+
 -- To tylko trzy różne sposoby zapisania tej samej definicji.
 ```
 
