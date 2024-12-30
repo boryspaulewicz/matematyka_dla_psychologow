@@ -253,12 +253,12 @@ procesów umysłowych.
 Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo też nie mam poczucia,
 żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych rzeczy bardzo się
 przydaje to, co wiemy, ale psychologia naukowa wciąż jest na etapie powstawania, jej sukcesy
-aplikacyjne są jak dotąd delikatnie mówiąc skromne, a zawartość wielu podręczników, o czym nietrudno
-się przekonać, zmieniła się tylko w niewielkim stopniu w ciągu ostatnich kilkudziesięciu
-lat. Będziemy za to intensywnie korzystać z tej niezwykłej *meta-matematyki stosowanej*, którą tu
-objaśniam i której będę używał jako uniwersalnego narzędzia służącego do meta-teoretycznych badań,
-jaką jest teoria typów, a której autorem jest wybitny szwedzki logik, filozof i statystyk
-matematyczny [Per Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
+aplikacyjne są jak dotąd delikatnie mówiąc skromne, a zawartość wielu podręczników, o czym łatwo się
+przekonać, zmieniła się tylko w niewielkim stopniu w ciągu ostatnich kilkudziesięciu lat. Będziemy
+za to intensywnie korzystać z tej niezwykłej *meta-matematyki stosowanej*, którą tu objaśniam i
+której będę używał jako uniwersalnego narzędzia służącego do meta-teoretycznych badań, jaką jest
+teoria typów, a której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
+Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
 
 Wiem, że te cele mogą się wydać szalone i w jakimś sensie pewnie takie są, więc na tym etapie mówię
 tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej skorzystałem. To znaczy,
