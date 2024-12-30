@@ -50,9 +50,8 @@ Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli
 kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, w którym powtarza³em co¶ po *roku* od ostatniej
 powtórki (pojawi³o siê wtedy powiadomienie z kalendarza Google'a, które mi o tym przypomnia³o) i
 przekona³em siê w ten sposób, ¿e ta metoda dzia³a, przynajmniej na mnie, jak czary. To by³a
-[znakomita
-ksi±¿ka](https://www.cin.ufpe.br/~jrsl/Books/Linear%20Algebra%20Done%20Right%20-%20Sheldon%20Axler.pdf),
-ale nie u³atwia³a powtarzania, bo dotyczy maksymalnie abstrakcyjnie, a w³a¶ciwie wrêcz
+[znakomita ksi±¿ka](https://link.springer.com/book/10.1007/978-3-031-41026-0)[^3], ale nie u³atwia³a
+powtarzania, bo dotyczy maksymalnie abstrakcyjnie, a w³a¶ciwie wrêcz
 [kategoryjnie](https://pl.wikipedia.org/wiki/Teoria_kategorii) rozumianej algebry liniowej, w
 dodatku w owym czasie do niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak przeciêtnej
 pamiêci jak ja mo¿e usi±¶æ przed kilkoma czystymi kartkami papieru i po roku przerwy zapisaæ
@@ -169,3 +168,6 @@ nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje s
     to, ¿e ten termin jest zajêty. Mo¿na powiedzieæ, ¿e próbuj±c zastosowaæ t± metod± sami wobec
     siebie stosujemy technikê [stopy w
     drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
+
+[^3]: To jest link do darmowej wersji ostatniego wydania, ale ja, z ró¿nych powodów, wolê akurat
+    wydanie drugie.
