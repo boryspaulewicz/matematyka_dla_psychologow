@@ -25,6 +25,11 @@ wprowadzić ten temat w możliwie bezbolesny sposób szczegółowo omówię kilk
 przykładów funkcji i zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na
 tym etapie zadań.
 
+Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
+do znaczeń terminów technicznych. Dzięki temu będzie Ci łatwiej zrozumieć, o czym mówię. Z
+niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą mimowolnego
+oswojenia, bo nie będę ich od razu objaśniał, tylko pokażę Ci, jak się ich używa.
+
 <hr>
 
 # Pierwszy spacer po Leanie, wersja pierwsza

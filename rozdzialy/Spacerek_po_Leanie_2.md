@@ -1,40 +1,37 @@
 ## O czym teraz będzie
 
-Przypominam, że to jest tak naprawdę druga, czy może raczej alternatywna wersja *tego samego
-rozdziału*. Zdecydowałem się napisać dwie wersje, ponieważ to, jak łatwe będą dla Ciebie do
-zrozumienia rozdziały kolejne, będzie zależało w znacznym stopniu od tego, jak dobrze uda mi się
-wytłumaczyć najważniejsze kwestie omawiane właśnie tutaj. Dlatego być może przyda się przynajmniej
-zerknąć do poprzedniej wersji po tym jak przeczytasz tą.
+Przypominam, że to jest alternatywna wersja *tego samego rozdziału*. Zdecydowałem się napisać dwie
+wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia rozdziały kolejne, będzie zależało w
+znacznym stopniu od tego, jak dobrze uda mi się wytłumaczyć najważniejsze kwestie omawiane właśnie
+tutaj. Dlatego być może dobrze będzie jeśli przynajmniej zerkniesz do poprzedniej wersji po tym jak
+przeczytasz tą.
 
-<hr>
+Po tym jak objaśnię ogólną strukturę i sposób działania funkcji w Leanie, w następnych rozdziałach
+pokażę Ci, że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik
+logiczny *∀*, który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice
+konstruktywnej działa *implikacja* (chodzi o symbol *→*, który czytamy *jeżeli, to*), bo ta jest w
+logice konstruktywnej tylko pewnego rodzaju funkcją. Pozostałe standardowe *spójniki logiczne* (*∧*,
+*∨* i *∃*), za wyjątkiem *negacji* (*¬*), można również zdefiniować za pomocą funkcji / implikacji,
+a żeby z kolei zdefiniować negację, wystarczy użyć czegoś, co w pewnym sensie zachowuje się jak
+funkcja.
 
-**Motywator**: Gdy objaśnię ogólną strukturę i sposób działania funkcji w Leanie, pokażę Ci, że
-będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik logiczny *∀*,
-który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice konstruktywnej
-działa *implikacja* (chodzi o symbol *→*, który czytamy *jeżeli, to*), bo ta jest w logice
-konstruktywnej tylko pewnego rodzaju funkcją. Pozostałe standardowe *spójniki logiczne* (*∧*, *∨* i
-*∃*), za wyjątkiem *negacji* (*¬*), można również zdefiniować za pomocą funkcji / implikacji, a żeby
-z kolei zdefiniować negację, wystarczy użyć czegoś, co w pewnym sensie zachowuje się jak funkcja.
-
-Ponieważ predykaty (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz
-później, również funkcje, ucząc się w ten sposób jednocześnie - zarazem na skróty i od podstaw -
-matematyki i programowania, stosunkowo szybko opanujesz podstawy logiki predykatów. To narzędzie
-pozwoli Ci [prześlwietlać](https://www.youtube.com/watch?v=0pYyzolIN3I) logiczną strukturę nie tylko
-dowodów, ale również rozumowań zapisanych w języku naturalnym. Rachunek predykatów będziesz mogła
-później stosować do głównego rozumowania zawartego w swojej pracy semestralnej, pracy magisterskiej,
-doktoracie albo artykule, lub do analizy uzasadnień głównych wniosków w artykułach naukowych.
+Ponieważ *predykaty* (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz,
+również funkcje, ucząc się w ten sposób jednocześnie - zarazem na skróty i od podstaw - matematyki i
+programowania, stosunkowo szybko opanujesz podstawy *logiki predykatów*. To narzędzie pozwoli Ci
+[prześlwietlać](https://www.youtube.com/watch?v=0pYyzolIN3I) logiczną strukturę nie tylko dowodów
+matematycznych, ale również dowolnych innych rozumowań zapisanych w języku naturalnym. Rachunek
+predykatów będziesz mogła później stosować do głównego rozumowania zawartego w swojej pracy
+semestralnej, pracy magisterskiej, doktoracie albo artykule, lub do analizy - nierzadko
+"dziurawych" - uzasadnień głównych wniosków w artykułach naukowych.
 
 Często już sama tylko próba przeprowadzenia takiej formalizacji pozwoli Ci z nieosiągalną inaczej
 precyzją wskazać, gdzie *dokładnie* w tych rozumowaniach znajdują się ewentualne błędy. Celowo
 niedokończony i wydaje mi się, że interesujący przykład tego rodzaju zabawy znajdziesz [w jednym z
 następnych rozdziałów](./Duzy_predykaty_Bog.md).
 
-# Pierwszy spacer po Leanie, wersja druga
+<hr>
 
-Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
-do znaczeń terminów technicznych. Dzięki temu będzie Ci łatwiej zrozumieć, o czym mówię. Z
-niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą mimowolnego
-oswojenia, bo nie będę ich od razu objaśniał, tylko najpierw pokażę Ci, jak ich używam.
+# Pierwszy spacer po Leanie, wersja druga
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach, nie wymagają instalacji Leana,
 ale jeżeli dotarłaś do tego momentu, to możliwe, że brałaś już to pod uwagę. Warto go zainstalować,
