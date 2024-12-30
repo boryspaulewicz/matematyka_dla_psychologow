@@ -93,9 +93,10 @@ typu `Prop` - pozwala zaimplentować zasadę eksplozji dedukcyjnej (ale nie zaim
 typu `Absurd`, o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruowany w taki sposób, że
 *pełni* dokładnie *rolę fałszu*, a więc *jest fałszem* (tak jak go technicznie rozumiemy w logice).
 
-Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać* funkcja typu `Absurd`, to odpowiadam - nie
+Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać funkcja typu `Absurd`*, to odpowiadam, że nie
 mogłaby, bo taka funkcja może istnieć tylko jako (aksjomatyczne albo lokalne) *założenie*, którego
-nie da się *zaimplementować*. Gdyby się dało, *każde* zdanie byłoby natychmiast prawdziwe.
+nie da się w żaden sposób *zaimplementować*. Gdyby się dało, *każde* zdanie byłoby natychmiast
+prawdziwe.
 
 ## O co chodzi z tym Absurdem?
 
