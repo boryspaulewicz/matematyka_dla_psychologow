@@ -198,7 +198,7 @@ Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukow
 interwencyjnego, a ten z kolei jest nieredukowalny do probabilistycznego. W istocie ten wniosek
 wynika w dosyć prosty sposób z samej *definicji* tego, czym są te trzy, jakościowo różne poziomy
 opisu wszelkich zjawisk. Pozostaje jedynie dodać, również z definicji nieredukowalny do trzech
-pozostałych, poziom czwarty, na którym można wyrazić wprost *ocenę*, a więc również *cel*
+pozostałych, poziom czwarty, na którym można wyrazić wprost *ocenę*, a więc również *cel*.
 
 Dojdziemy dzięki temu do takiego wniosku ...
 
