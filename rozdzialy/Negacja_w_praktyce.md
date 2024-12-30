@@ -71,13 +71,13 @@ będzie mi chyba łatwiej.
 
 Żeby skonstruować takie zadanie, muszę stworzyć zdanie, w którym negacja będzie odgrywała rolę
 *przesłanki*. Może `¬p → q`? No nie, z tym nic się nie da zrobić, bo tu są tylko dwa zdania, a żeby
-użyć `¬p`, trzeba mieć również `p`. Przecież w żaden sposób nie uzyskam z dowodu `q` dowodu `p`, bo
-to są różne zdania *atomowe*, czyli bez żadnej wewnętrznej struktury. Nawiasem mówiąc, gdy nie ma
-dodatkowych przesłanek, które wiązałyby ze sobą - bezpośrednio lub jakoś pośrednio - dwa zdania,
-mówimy, że te zdania są *logicznie niezależne*.
+skorzystać z dowodu `¬p`, trzeba mieć również jakiś dowód `p`. Przecież w żaden sposób nie uzyskam z
+dowodu `q` dowodu `p`, bo `p` i `q` to *różne zdania atomowe*, czyli różne zdania bez żadnej
+wewnętrznej struktury. Nawiasem mówiąc, gdy nie ma dodatkowych przesłanek, które wiązałyby ze sobą -
+bezpośrednio lub jakoś pośrednio - dwa zdania, mówimy, że takie zdania są *logicznie niezależne*.
 
 To może `¬p → q → p`? Też bez sensu. Przecież z `¬p` i `q` nie może wynikać `p`. Zaraz, ze
-sprzeczności wynika każde zdanie... Już wiem. Zaczniemy od najprostszego możliwego zadania tego
+sprzeczności wynika każde zdanie ... Już wiem. Zaczniemy od najprostszego możliwego zadania tego
 typu.
 
 **Absurd w Leanie**: Żeby skorzystać z eksplozji dedukcyjnej do udowodnienia dowolnego zdania w
@@ -89,8 +89,8 @@ kolejności*. Kolejność jest myląca, bo przecież jeśli - zgodnie z definicj
 `p`), ale kiedy stosujemy funkcję `absurd` kolejność termów jest odwrotna. No trudno, taka konwencja
 (jest też głębszy powód, ale go teraz pominę).
 
-**Polecenie**: Udowodnij twierdzenie `¬p → p → q`. To zdanie zawiera dwa różne zdania atomowe, `p` i
-`q`, więc Lean musi wiedzieć - przynajmniej lokalnie, to znaczy *wewnątrz dowodu* - że `p` i `q` to
+**Polecenie**: Udowodnij, że `¬p → p → q`. To zdanie zawiera dwa różne zdania atomowe, `p` i `q`,
+więc Lean musi wiedzieć - przynajmniej lokalnie, to znaczy *wewnątrz twierdzenia* - że `p` i `q` to
 *zdania*, inaczej nie będzie wiedział, czym jest `¬p → p → q`. Jednocześnie `p` i `q` mają być
 *zmiennymi*, za które chcemy móc podstawiać dowolne zdania stosując to twierdzenie w przyszłości jak
 każdą inną funkcję. W takim razie "zmienno-zdaniowość" albo "zmiennościowość i zdaniowość" nazw `p`
@@ -144,13 +144,14 @@ przykład, w trybie interaktywnym komenda `intro` z wybraną przez Ciebie nazwą
 tworzyć kod anonimowej funkcji o parametrze, który podałaś jako argument tej komendy.
 
 Jak już wspominałem, w trybie nieinteraktywnym nie zadziała komenda `exact`, `intro`, czy
-jakakolwiek inna taktyka. Możesz jednak zawsze *w dowolnym miejscu* dowolnej definicji wejść w tryb
-interaktywny pisząc `by` i zakończyć dowód lub tylko jego fragment używając taktyk. 
+jakakolwiek inna taktyka. Możesz jednak zawsze *w dowolnym miejscu dowolnej definicji* wejść w tryb
+interaktywny pisząc `by` i próbować zakończyć konstrukcję, a więc również jakikolwiek dowód lub
+tylko jego fragment, używając taktyk.
 
 Albo możesz nauczyć się czegoś nowego kodując dowód nieinteraktywne, a konkretnie użyć eksplozji
-dedkukcyjnej w trybie nieinteraktywnym na co najmniej dwa sposoby. Jeden polega na tym, że stosujemy
-funkcję `absurd` (w trybie nieinteraktywnym nie poprzedzamy jej komendą `exact`), ale to już
-objaśniłem. Drugi, równoważny, tylko inaczej zapisany, polega na jawnym zastosowaniu tak zwanej
+dedkukcyjnej w trybie nieinteraktywnym na co najmniej *dwa* sposoby. Jeden polega na tym, że
+stosujemy funkcję `absurd` (w trybie nieinteraktywnym nie poprzedzamy jej komendą `exact`), ale to
+już objaśniłem. Drugi, równoważny, tylko inaczej zapisany, polega na jawnym zastosowaniu tak zwanej
 reguły *eliminacji* (tak nazywamy w logice reguły użycia przesłanek danego rodzaju) fałszu.
 
 Jeżeli w rozpoczętym wyżej dowodzie *otoczysz nawiasami* aplikację `h1` (o typie `¬p`) do `h2` (o
@@ -161,14 +162,15 @@ taktyki `exact` do aplikacji funkcji `absurd` w trybie interaktywnym. Jeszcze ty
 nazwa `elim` to skrót od angielskiego *elimination*, czyli eliminacji, co w logice oznacza *użycie*
 albo *wykorzystanie* (czyli jakby "zużycie") założenia (danego rodzaju).
 
-Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja):
+Może potrzebujesz, żebym to też omówił krok po kroku? Jeżeli (ilustracja) ...
 
 ```lean
 np : ¬p
 hp : p
 ```
 
-to ponieważ (rozpakowując definicję negacji) `np : ¬p` znaczy to samo, co `np : p → False`, to
+... to ponieważ (rozpakowując definicję negacji) `np : ¬p` znaczy to samo, co `np : p → False`, to
+...
 
 `#check np hp -- np hp : False`
 
@@ -188,16 +190,16 @@ To nie jest fragment Leana ani poprawna "wypowiedź" w języku teorii typów, ty
 matematycznej* dotyczącej dedukcji naturalnej. Nazywam to prozą matematyczną, bo ten fragment
 *wymaga komentarza w języku naturalnym*, nie jest więc w *pełni* sformalizowany[^1]. Czy widzisz, że
 chociaż z komentarzem ("A reguła eliminacji...") zapis z poziomą kreską jest zrozumały, to bez
-komentarza, który pozwala domyślić się, czym jest *A* i co oznacza pozioma kreska, albo nie jest
+komentarza, który pozwala domyślić się, czym jest *A* i co oznacza ta pozioma kreska, albo nie jest
 zrozumiały, albo jest zrozumiały tylko dla kogoś, kto domyśla się tych brakujących informacji?
 Widzimy więc, że formalizacja służy między innymi usuwaniu powodów, dla których trzeba się domyślać,
 o co właściwie chodzi.
 
-Gdybyś chciała skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to zrobić albo tak:
+Gdybyś chciała skorzystać z aplikacji funkcji `elim` do dowodu fałszu, to możesz to zrobić albo tak ...
 
 `jakis_dowod_falszu_byc_moze_w_nawiasach.elim`
 
-albo tak:
+... albo tak ...
 
 `False.elim jakis_dowod_falszu_byc_moze_w_nawiasach`
 
@@ -222,7 +224,7 @@ komendami `intro`, `exact`, funkcją `absurd` i aplikacjami. Jak się pogubisz, 
 fragment kodu, albo cały kod, który zapisałaś.
 
 ```lean
-theorem tn2 (p : Prop) (q : Prop) : ¬ (p → q) → (p → q) → q :=
+theorem tn2 (p : Prop) (q : Prop) : ¬(p → q) → (p → q) → q :=
 ```
 
 No dobrze, teraz muszę jeszcze wymyślić jakieś zadanie, które będzie polegało na *uzyskaniu*
@@ -237,19 +239,20 @@ Chcę żeby "na końcu strzałek" była negacja jakiegoś zdania. To może tak: 
 `¬q` i `p` w żaden sposób nie uzyskamy `¬p`, bo bez dodatkowych przesłanek `¬q` i `p` nie wejdą ze
 sobą w żadną interakcję. A z `q` i `¬q`?  Zakładając dowody tych dwóch zdań uzyskamy dowód każdego
 zdania za pomocą eksplozji dedukcyjnej, a więc także negacji dowolnego zdania, ale to jest już moim
-zdaniem dla Ciebie zbyt łatwe. Chyba wiem co zrobić. Właściwie zaproponuję Ci nie jedno, a trzy
-zadania na ten temat.
+zdaniem dla Ciebie zbyt łatwe. 
 
-**Zadanie**: Wiesz już, że każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`, a
-dokładniej, gdy mamy jakiś dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania aplikując
-do tego dowodu dostępną w Leanie funkcję `False.elim`. To samo możemy zapisać również krócej, jako
-dowód, zaraz potem (bez spacji) kropkę i zaraz potem `elim`. Jeżeli dowód fałszu to jakiś term
-złożony, na przykład aplikacja, to musimy cały ten term otoczyć wtedy nawiasami i zapisać prawy
-nawias jako `).elim`. Wiem, że już o tym mówiłem, teraz tylko przypominam.
+Chyba już wiem co zrobić. Właściwie zaproponuję Ci nie jedno, a trzy zadania na ten temat.
 
-Udowodnij poniższe twierdzenie, najpierw korzystając z trybu interaktywnego, a potem już bez użycia
-komendy `by`. Wystarczy wprowadzić poprzednik implikacji jako założenie i użyć tego hipotetycznego
-dowodu fałszu wybierając jeden ze sposobów, które właśnie objaśniłem.
+**Polecenie**: Wiesz już, że każdy dowód fałszu jest "wyposażony" w sposób użycia o nazwie `elim`. A
+mówiąc dokładniej, gdy mamy jakiś dowód fałszu, możemy go użyć do udowodnienia dowolnego zdania,
+aplikując do tego dowodu dostępną w Leanie funkcję `False.elim`. To samo możemy zapisać również
+krócej, jako dowód, zaraz potem (bez spacji) kropkę i zaraz potem `elim`. Jeżeli dowód fałszu to
+jakiś term złożony, na przykład aplikacja, to musimy cały ten term otoczyć wtedy nawiasami i zapisać
+prawy nawias jako `).elim`. Wiem, że już o tym mówiłem, teraz tylko na wszelki wypadek przypominam.
+
+Udowodnij więc poniższe twierdzenie, najpierw korzystając z trybu interaktywnego, a potem już bez
+użycia komendy `by`. Wystarczy wprowadzić poprzednik implikacji jako założenie i użyć tego
+hipotetycznego dowodu fałszu wybierając jeden ze sposobów, które dotąd objaśniłem.
 
 ```lean
 theorem ex_falso_quodlibet (p : Prop) : False → p := by
@@ -266,7 +269,8 @@ jest *zdanie fałszywe*, tylko jakiś "fałsz jako taki"? Zawsze możemy o to sp
 #check False -- False : Prop
 ```
 
-Jednak zdanie. Ciekawe? Moim zdaniem bardzo. Wrócimy do tego kiedy indziej.
+Jednak zdanie. Ciekawe? Moim zdaniem bardzo. Wrócimy do tego kiedy indziej, gdy zaczniemy się już
+trochę posługiwać [językiem kosmitów](https://en.wikipedia.org/wiki/Category_theory).
 
 Mam nadzieję, że już niemal *widzisz*, że w początkowej części udowadnianego zdania, albo gdzieś
 "wcześniej", a może "wyżej", przed dowodzonym zdaniem, na przykład jako (globalny) aksjomat, *musimy
@@ -279,8 +283,9 @@ będą tam zdania *złożone*, będące *aplikacjami predykatów*. Te predykaty 
 naturalnych, bo ten typ już znasz. Być może trzeba będzie otoczyć niektóre aplikacje predykatów do
 zmiennej `n` nawiasami.
 
-**Zadanie**: Udowodnij poniższe twierdzenie. To twierdzenie tylko wygląda na bardziej skomplikowane;
-w dowodzie nie będziesz korzystać z faktu, że te zdania mają strukturę podmiot-orzeczenie.
+**Polecenie**: Udowodnij poniższe twierdzenie. To twierdzenie tylko wygląda na bardziej
+skomplikowane; przekonasz się, że w dowodzie nie będziesz korzystać wcale z faktu, że te zdania mają
+strukturę podmiot-orzeczenie.
 
 ```lean
 theorem tn3 (P : Nat → Prop) (Q : Nat → Prop) (n : Nat) : ¬ P n → (P n → Q n) := by
@@ -295,9 +300,9 @@ nic ciekawego, tylko jakby taka [nudna
 księgowość](https://www.google.com/search?q=ksi%C4%99gowo%C5%9B%C4%87+nie+jest+nudna).
 
 No dobrze, a co ze zdaniem do udowodnienia? Przecież tam są tylko *trzy* połączone strzałkami
-zdania, z których dwa to właściwie *to samo* zdanie plus jego negacja. Spróbuj może znowu zacząć od
+zdania, z których dwa to *to samo* zdanie, plus negacja tego zdania. Spróbuj może znowu zacząć od
 trybu interaktywnego i swobodnie poeksperymentować ze znanymi Ci taktykami i funkcją `absurd`. Jak
-zawsze zobaczysz co się będzie wtedy działo ze stanem dowodu w panelu po prawej.
+zawsze, zobaczysz co się będzie wtedy działo ze stanem dowodu w panelu po prawej.
 
 Może męczy Cię to moje powtarzanie, ale nie mogę zakładać, że każda czytelniczka i każdy czytelnik
 na tym etapie już to złapał: Przypominam, że zapisując początek twierdzenia `tn3` musieliśmy wstawić
@@ -314,19 +319,21 @@ Wewnątrz (w lokalnym kontekście) dowodu twierdzenia `tn3` od samego początku 
 (to są właśnie parametry tego twierdzenia): (jakieś) dwa predykaty dotyczące liczb - `P` i `Q` - i
 (jakaś) liczba naturalna `n`. Wewnątrz dowodu zawsze możemy korzystać z parametrów dowodzonego
 twierdzenia, bo twierdzenie to tak naprawdę funkcja, a wewnątrz każdej funkcji możemy zawsze
-korzystać z jej parametrów (o ile ich lokalnie nie "przysłonimy" tworząc "wewnętrzny kontekst" i
+korzystać z jej parametrów (o ile ich lokalnie nie przysłonimy tworząc jakby "wewnętrzny kontekst" i
 nadając tam nazwom parametrów nowe znaczenie, ale o tym kiedy indziej).
 
 To wszystko komplikuje strukturę *typu stałej* `tn3`, ale w tym wypadku nie ma znaczenia dla
 *dowodu* tego twierdzenia. Tak naprawdę mamy tu po prostu implikację, której następnikiem jest
-implikacja i której poprzednikiem też jest (szczególna) implikacja (bo negacja to tak naprawdę
-implikacja). Te elementy musimy kolejno "rozłączać" (za wyjątkiem negacji jako implikacji, którą
-musimy tylko, jawnie lub niejawnie, aplikować), wprowadzając (do kontekstu) jako lokalne hipotezy
-poprzedniki obu implikacji, a raczej ich hipotetyczne dowody.
+implikacja i której poprzednikiem co prawda też jest (szczególna) implikacja (bo negacja to tak
+naprawdę implikacja), ale tej negacji-implikacji nie musimy "rozbierać na części", bo pełni tutaj
+jedynie rolę przesłanki (to jest poprzednika). Obie "zwykłe" implikacje musimy kolejno "rozłączać",
+wprowadzając (do kontekstu) jako lokalne hipotezy poprzedniki obu implikacji, a raczej ich
+hipotetyczne dowody. Występującą tu negację-implikację musimy tylko - jawnie lub niejawnie -
+aplikować.
 
 ## Implikacja przeciwna
 
-Następne zadanie jest znacznie trudniejsze niż wszystkie poprzednie.
+Następne zadanie jest chyba trudniejsze niż te poprzednie.
 
 **Szkielet dowodu `¬q → ¬p` zakładając `p → q`**: Jeżeli zdanie `p → q` jest prawdziwe, to jeżeli
 `¬q`, to nie może być prawdą, że `p`. Gdyby bowiem *wtedy* `p` było prawdą, to moglibyśmy użyć `p →
@@ -347,14 +354,14 @@ Jeżeli `p → q` ...
 ... to z `h2 : ¬q`, `h1 : p → q` i`h3 : p` wynika fałsz  
 (term kończący dowód: `h2 (h1 h3) : False`)
 
-Czyli: Zakładając `p → q`, to zakładając `¬q`, z założenia `p` możemy wyprowadzić dowód fałszu: `p
--> False`.
+Czyli: Zakładając `p → q`, to zakładając `¬q`, z założenia `p` możemy wyprowadzić dowód fałszu: `p →
+False`.
 
 Czyli: Zakładając `p → q`, to zakładając `¬q` możemy wyprowadzić dowód `¬p`.
-
+    
 Czyli: Zakładając `p → q`, `¬q → ¬p`.
 
-**Zadanie**: No to udowodnij teraz, albo kiedy indziej, albo wcale, jak uważasz, twierdzenie `cp`
+**Polecenie**: No to udowodnij teraz, albo kiedy indziej, albo wcale, jak uważasz, twierdzenie `cp`
 (to skrót od [*contraposition*](https://en.wikipedia.org/wiki/Contraposition)). Użyłem tu krótszego
 zapisu dla dwóch parametrów, to jest napisałem `(p q : Prop)` zamiast `(p : Prop) (q : Prop)`. Jak
 już wiesz, dla Leana to znaczy to samo, ale pozwala na taki skrót tylko wtedy, gdy sąsiadujące
@@ -365,10 +372,15 @@ theorem cp (p q : Prop) (h : p → q) : ¬q → ¬p :=
 ```
 
 W tym dowodzie masz zawsze do dyspozycji jakieś dwa zdania (`p` i `q`), ale z tego akurat będziesz
-korzystać tylko "w tle". Ważniejszy jest jakiś dowód `h `implikacji `p → q`, którego też możesz
+korzystać tylko "w tle". Ważniejszy jest jakiś dowód `h `implikacji `p → q`, którego również możesz
 używać *bez* wprowadzania tego dowodu do kontekstu (za pomocą `intro`), bo jest parametrem
-twierdzenia `cp`. Jeżeli czujesz się niepewnie, to podpowiadam raz jeszcze, że zdanie do
-udowodnienia jest tak naprawdę implikacją, której poprzednikiem i następnikiem też są implikacje.
+twierdzenia `cp`. 
+
+Jeżeli czujesz się niepewnie, to raz jeszcze podpowiadam, że zdanie do udowodnienia jest tak
+naprawdę implikacją, której poprzednikiem i następnikiem też są implikacje, ale akurat poprzednika
+nie będziesz "dekonstruować". Przypuszczam, że największą trudność sprawi Ci ostatni krok, gdy celem
+będzie już tylko `¬p`. A ponieważ to jest tak naprawdę implikacja, to trzeba będzie wtedy stworzyć
+odpowiednią funkcję ...
 
 ### Przypisy
 
@@ -376,6 +388,6 @@ udowodnienia jest tak naprawdę implikacją, której poprzednikiem i następniki
 
 [^2]: Co ciekawe, słownik języka polskiego [nie pomaga](https://sjp.pwn.pl/slowniki/arbitralny.html)
     w zrozumieniu sposobu, w jaki słowo *arbitralny* jest często używane przez matematyków,
-    filozofów, czy w ogóle ludzi zajmujących się nauką (to jest w znaczeniu *dowolny*, albo *jakiś*,
-    albo *jakikolwiek danego rodzaju*).
+    filozofów, czy w ogóle ludzi zajmujących się nauką (to jest również w znaczeniu *dowolny*, albo
+    *jakiś*, albo *jakikolwiek danego rodzaju*).
     
