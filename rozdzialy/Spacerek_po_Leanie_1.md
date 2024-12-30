@@ -506,53 +506,55 @@ naturalnych.
 
 ## Częściowe aplikacje
 
-Ponieważ funkcja `plus` to tak naprawdę funkcja, która zwraca (tworzoną przez siebie) funkcję,
-możemy ją aplikować do *jednego* argumentu, na przykład do termu `3`. Uzyskamy w ten sposób nie
-liczbę naturalną, tylko funkcję jednoargumentową, która do dowolnej liczby naturalnej dodaje `3`
+Ponieważ funkcja `plus` to tak naprawdę funkcja, która zwraca (w tym wypadku tworzoną przez siebie)
+funkcję, możemy ją aplikować do *jednego* argumentu, na przykład do termu `3`. Uzyskamy w ten sposób
+nie liczbę naturalną, tylko funkcję jednoargumentową, która do dowolnej liczby naturalnej dodaje `3`
 (ilustracja):
 
 ```lean
 -- To ...
 plus 3
+
 -- ... zgodnie z definicją stałej plus jest tym samym, co to ...
 (fun (pierwsza : Nat) => fun (druga : Nat) => pierwsza + druga) 3
--- ... a to redukuje się (a więc też *tym jest*) do:
+
+-- ... a to redukuje się (a więc też *tym jest*) do tego ...
 (fun (druga : Nat) => 3 + druga)
+
 -- ... a więc do (anonimowej) funkcji, która do dowolnej liczby naturalnej dodaje 3.
 ```
 
 Nie możemy *ewaluować* takiej częściowej aplikacji, bo Lean nie potrafi bez naszej pomocy
 *wyświetlić* funkcji, która w ten sposób powstaje. Możemy jednak *zapisać* tą funkcję / rezultat
-częściowej aplikacji jako ciało definicji stałej, na przykład o nazwie `dodaj3`. Ta stała będzie
-miała typ `Nat → Nat` (już wiesz, dlaczego ta stała musi mieć ten typ, prawda?):
+częściowej aplikacji jako ciało definicji stałej, na przykład o nazwie `dodaj3`. Ta stała musi mieć
+wobec tego typ `Nat → Nat` (już wiesz, dlaczego ta stała musi mieć ten typ, prawda?):
 
 ```lean
 -- Ten kod możesz skopiować, bo jest poprawny, zakładając, że stała plus jest zdefiniowana zgodnie z wcześniejszym 
--- poleceniem. W ten sposób dodaj3 staje się funkcją, która powstaje z aplikacji funkcji plus do liczby 3.
+-- poleceniem. W ten sposób dodaj3 staje się *funkcją, która powstaje z aplikacji funkcji plus do liczby 3*.
 -- Ponieważ funkcja plus jest dwuargumentowa, aplikacja plus 3 "czeka" na drugi argument. Mówiąc ściślej,
 -- ta aplikacja jest funkcją powstającą przez podstawienie liczby 3 pod zmienną pierwsza w "wewnętrznej" funkcji
 -- fun (druga : Nat) => pierwsza + druga
--- czyli jest funkcją
+-- czyli jest po prostu funkcją
 -- fun (druga : Nat) => 3 + druga
 def dodaj3 : Nat → Nat := plus 3
 
--- Funkcję dodaj3 możemy zastosować tak, jak każdą inną:
+-- Funkcję dodaj3 możemy stosować tak samo, jak każdą inną:
 #eval dodaj3 3 -- 6
 #check dodaj3 -- dodaj3 : Nat → Nat
 ```
 
 **Polecenie dla ambitnych**: Jeżeli już na typ etapie czujesz, że możesz sobie z tym poradzić,
 spróbuj zrobić coś podobnego jak to, co zrobiłem z częściową aplikacja funkcji `plus`, ale użyj do
-tego zdefiniowanej wcześniej przez siebie funkcji `plusplus`. Można to zrobić na wiele różnych
-sposobów, więc nie szukaj jakiegoś *jedynego* dobrego rozwiązania, bo takiego nie ma. Gdyby pojawił
-się błąd, przeczytaj komunikat i sprawdź, czy nie dostarcza Ci wskazówki, dzięki której mogłabyś ten
-błąd usunąć. Jeżeli to polecenie okażę się za trudne, nie przejmuj się, po pewnym czasie stanie się
-dziecinnie łatwe.
+tego zdefiniowanej wcześniej funkcji `plusplus`. Można to zrobić na wiele sposobów, nie szukaj więc
+jakiegoś *jedynego* dobrego rozwiązania, bo takiego nie ma. Gdyby pojawił się błąd, przeczytaj
+komunikat i sprawdź, czy nie dostarcza Ci wskazówki, dzięki której mogłabyś ten błąd usunąć. Jeżeli
+to polecenie okażę się za trudne, to się nie przejmuj, po pewnym czasie stanie się dziecinnie łatwe.
 
 **Polecenie dla nadmiernie ambitnych**: Zdefiniuj i zastosuj funkcję, która pobiera dwa argumenty:
 
 1. *Funkcję* typu `Nat → Nat`, na przykład dodającą `2` do swojego parametru, albo jakąkolwiek inną
-tego typu.
+tego typu, anonimową lub będącą wartością jakiejś stałej.
 
 2. Term typu `Nat`.
 
@@ -561,8 +563,10 @@ funkcję odpowiedniego typu, do drugiego parametru, to jest do dowolnego termu t
 typ zdefiniowanej w ten sposób funkcji i oblicz rezultat zastosowania jej do jakiejś zapisanej przez
 siebie (w nawiasach) funkcji anonimowej lub jakiejś wcześniej już zdefiniowanej (na przykład
 `dodaj2`) funkcji typu `Nat → Nat` jako pierwszego argumentu, a także jakiejś liczby naturalnej jako
-drugiego. W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na definiowanie funkcji, które
-tworzą funkcje, czyli *programów, które tworzą programy*, ale również na definiowanie funkcji, które
+drugiego. 
+
+W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na definiowanie funkcji, które tworzą
+funkcje, czyli *programów, które tworzą programy*, ale również na definiowanie funkcji, które
 stosują do czegoś funkcje podane jako ich argumenty, czyli *programów, które przetwarzają inne
 programy*.
 
