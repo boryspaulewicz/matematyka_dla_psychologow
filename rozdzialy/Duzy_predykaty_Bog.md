@@ -305,8 +305,10 @@ Pierwsze zdanie w zakładce *Przesłanka* to:
 
 W tym momencie, jeżeli tylko mamy ochotę (a ja akurat mam) możemy zacząć formalizację, ponieważ nie
 jest jeszcze całkiem jasne, czy ten zabieg retoryczny, a konkretnie pewnego rodzaju
-[*perswazja*](https://pl.wikipedia.org/wiki/Perswazja), to jest argument polegający na użyciu *siły*
-(określenie *głupi* jest przecież *obraźliwe*), nie odegra później jakiejś ważnej roli.
+[*perswazja*](https://pl.wikipedia.org/wiki/Perswazja), to jest argument polegający na użyciu
+*siły* - określenie *głupi* jest przecież *obraźliwe*, a więc czytając to zdanie *czujemy* pewne,
+potencjalnie dość silne emocje, które mogą wpływać na nasz tok rozumowania - nie odegra później
+jakiejś ważnej roli.
 
 ```lean
 axiom Bog : Type
