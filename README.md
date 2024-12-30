@@ -220,6 +220,11 @@ zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani 
 bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale najtrudniejszy - dodałem
 dłuższe ostrzeżenie i zachętę.
 
+I jeszcze raz Szymonowi Stryplingowi, jak dotąd najmłodszemu znanemu mi czytelnikowi, któremu udało
+się (jeszcze szybciej niż przez piąty) przelecieć przez rozdział szósty i o którym to rozdziale
+powiedział, że był *prostszy*. Szymon rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym
+zadania, w tym również to, które sam określiłem jako skierowane do osób *nadmiernie ambitnych*.
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę
