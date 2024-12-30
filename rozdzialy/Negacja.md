@@ -47,8 +47,13 @@ section strefa_komfortu
 
     variable (jadro_ciemnosci : Absurd)
 
-    -- jadro_ciemnosci (Ponury Krystian) jest dowodem zdania Ponury Krystian
+    -- Ponieważ jadro_ciemnosci jest taką funkcją, którą możemy stosować do zdań (ilustracja), ...
+    jadro_ciemnosci : (a : Prop) → a
+
+    -- ... że stosując znane Ci już podstawianie na poziomie typu ...
     #check jadro_ciemnosci (Ponury Krystian) -- jadro_ciemnosci (Ponury Krystian) : Ponury Krystian
+
+    -- ... to jadro_ciemnosci (Ponury Krystian) jest dowodem zdania Ponury Krystian
 
 end strefa_komfortu
 
@@ -57,9 +62,9 @@ end strefa_komfortu
 ```
 
 Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora nad pierwszym
-wystąpieniem komendy `#check` zobaczysz, że uzyskujemy w ten sposób lokalny dowód, że żniwiarz
-Krystian jest ponury. Być może jest już dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód
-dowolnego innego zdania.
+wystąpieniem komendy `#check` zobaczysz, że uzyskujemy tam lokalny dowód, że żniwiarz Krystian jest
+ponury. Być może jest już dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód dowolnego
+innego zdania.
 
 Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
@@ -74,8 +79,14 @@ Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
 Inna nazwa na absurd to *fałsz*.
 
-[Niechaj wszystkie istoty, żywe i martwe, pokłonią się przed potęgą typów
-zależnych](https://www.youtube.com/watch?v=Nrz250ryvr8).
+Niechaj wszystkie istoty, żywe i martwe, [pokłonią
+się]((https://www.youtube.com/watch?v=Nrz250ryvr8)) przed potęgą typów zależnych!
+
+Trochę mnie poniosło, ale sama chyba rozumiesz. Być może najprostszy punkt widzenia na to, czym jest
+tutaj typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala
+ekspresyjność języka teorii typów, a który jest tak skonstruowany, że - ze względu na interpretację
+typu `Prop` - pozwala zaimplentować zasadę eksplozji dedukcyjnej. Mówiąc krótko, typ `Absurd` jest
+skonstruowany w taki sposób, że *pełni* dokładnie rolę fałszu, a więc *jest* fałszem.
 
 ## O co chodzi z tym Absurdem?
 
