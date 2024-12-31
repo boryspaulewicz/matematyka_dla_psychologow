@@ -230,9 +230,9 @@ przelecieć przez rozdział szósty i o którym to rozdziale powiedział, że by
 rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym zadania, w tym również to, które sam
 określiłem jako skierowane do osób *nadmiernie ambitnych*.
 
-Marcinowi Charlińskiemu, za bardzo miłe słowa, dotyczące zresztą chyba nie tylko tej książki, za
-wykrycie w rozdziale drugim wadliwego linku do dostępnej za darmo, znakomitej książki Sheldona
-Axlera [*Linear Algebra Done Right*](https://linear.axler.net/) (na początek polecam raczej *drugie*
+Marcinowi Charlińskiemu, za bardzo miłe słowa, dotyczące zresztą nie tylko tej książki, za wykrycie
+w rozdziale drugim wadliwego linku do dostępnej za darmo, znakomitej książki Sheldona Axlera
+[*Linear Algebra Done Right*](https://linear.axler.net/) (na początek polecam raczej *drugie*
 wydanie) i za wskazanie mi możliwości napisania czegoś lepiej.
 
 Jeszcze raz Tomkowi Smoleniowi, za dociekliwość, zaangażowanie i wykrycie potencjalnego źródła
