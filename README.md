@@ -28,8 +28,8 @@ href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Et
 
 > If you want to master something, teach it.
 
-Ostatnio właściwie codziennie sporo tu zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na temat
-aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
+Ostatnio właściwie codziennie sporo tutaj zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na
+temat aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a mówiąc dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w
