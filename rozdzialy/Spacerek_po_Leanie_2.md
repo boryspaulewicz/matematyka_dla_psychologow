@@ -558,3 +558,11 @@ liczbę naturalną.
 lub wszystkich poleceń warto może wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
 sprawach, ale w inny sposób. Wydaje mi się, że w ten sposób dość szybko treści obydwu tych
 pierwszych rozdziałów staną się dla Ciebie w miarę jasne.
+
+### Przypisy
+
+[^1]: Należy pamiętać, że *typ funkcyjny* znaczy to samo, co *typ funkcji*; to tylko inna nazwa na
+    to samo. W szczególności, typ funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa
+    typ funkcyjny brzmi po prostu lepiej, na przykład: *Funkcje to dokładnie takie termy, których
+    typem jest jakiś typ funkcyjny* brzmi chyba lepiej, niż *Funkcje to dokładnie takie termy,
+    których typem jest jakiś typ funkcji*.
