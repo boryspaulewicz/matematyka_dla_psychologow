@@ -221,10 +221,20 @@ zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani 
 bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale najtrudniejszy - dodałem
 dłuższe ostrzeżenie i zachętę.
 
-I jeszcze raz Szymonowi Stryplingowi, jak dotąd najmłodszemu znanemu mi czytelnikowi, któremu udało
-się (jeszcze szybciej niż przez piąty) przelecieć przez rozdział szósty i o którym to rozdziale
-powiedział, że był *prostszy*. Szymon rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym
-zadania, w tym również to, które sam określiłem jako skierowane do osób *nadmiernie ambitnych*.
+I jeszcze raz Szymonowi Stryplingowi, któremu udało się (jeszcze szybciej niż przez piąty)
+przelecieć przez rozdział szósty i o którym to rozdziale powiedział, że był *prostszy*. Szymon
+rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym zadania, w tym również to, które sam
+określiłem jako skierowane do osób *nadmiernie ambitnych*.
+
+Marcinowi Charlińskiemu, za bardzo miłe słowa, dotyczące zresztą chyba nie tylko tej książki, za
+wykrycie w rozdziale drugim wadliwego linku do dostępnej za darmo, znakomitej książki Sheldona
+Axlera [*Linear Algebra Done Right*](https://linear.axler.net/) (na początek polecam raczej *drugie*
+wydanie) i za wskazanie mi możliwości napisania czegoś lepiej.
+
+Jeszcze raz Tomkowi Smoleniowi, za dociekliwość, zaangażowanie i wykrycie potencjalnego źródła
+nieporozumień wynikającego z tego, że nie napisałem wyraźnie, że *typ funkcyjny* znaczy dokładnie to
+samo, co *typ funkcji* i za zainspirowanie mnie do mam nadzieję lepszego wytłumaczenia szczególnego
+charakteru typu `Absurd` w rozdziale o negacji.
 
 ### Przypisy
 
