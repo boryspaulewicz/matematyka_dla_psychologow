@@ -63,7 +63,6 @@ universe u
 
 def uidentycznosc (typ : Type u) (parametr : typ) : typ := parametr
 
--- Lean nie sygnalizuje tutaj błędu:
 #check (uidentycznosc : uidentycznosc (Type 1) ((typ : Type) → typ → typ))
 #check uidentycznosc ((typ : Type) → typ → typ) uidentycznosc
 #check uidentycznosc ((typ : Type) → typ → typ)
