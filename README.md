@@ -79,22 +79,21 @@ przygotowania części rozdziału trzeciego**, mają charakter ogólnowprowadzaj
 zawierają ani fragmentów kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam
 znaleźć nie tylko oparte na wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące
 tego, jak warto podchodzić do nauki jakichkolwiek treści, ale również uwagi dotyczące *nastawienia*,
-które może się przydać w zmaganiach z tymi dość nietypowymi jak na książkę skierowaną do psychologów
-tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić lepiej, niż umiem (to
-niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)), za to te, z którymi
-zapoznasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
+które może zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę skierowaną
+do psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić
+lepiej, niż umiem (to niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)),
+za to te, z którymi zapoznasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
 [dziesiątym](./rozdzialy/Implikacja_w_zadaniach.md) są nimi z pewnością).
 
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
-większe zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu sama ta
-książka, razem z publicznie dostępną historią zachodzących zmian, może być ilustracją sposobu, w
-jaki zacząłem ostatnio myśleć o tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Akt pisania
-książki jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
-choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
-*w ramach którego*, dzięki stałej autorefleksji i informacjom zwrotnym pochodzącym od jej
-czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego - i
-proces odkrywania czy raczej *ustalania się* być może jakiegoś *dominującego*, ale nadal z
-konieczności *nieunikalnego celu*.
+większe zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu publicznie
+dostępna historia zachodzących zmian może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
+tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Akt pisania książki jest przecież co prawda
+długim, ale jednak w pewnym sensie pojedynczym aktem zachowania, choćby dlatego, że można
+orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem *w ramach którego*,
+dzięki stałej autorefleksji i informacjom zwrotnym pochodzącym od jej czytelników, zachodzi proces
+*uczenia się* - choć nie da się powiedzieć jednoznacznie czego - i proces odkrywania czy raczej
+*ustalania się* być może jakiegoś *dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
 tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma
@@ -131,11 +130,11 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
 będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie tego, o czym
-tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych.  
+tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych. Ale zerknąć zawsze można.  
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
-nie *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
+wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
