@@ -15,7 +15,7 @@ feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-
 pojawiły się tu na głównej stronie. Mam lekką dysgrafię, ale w tym momencie to już nie ma większego
 znaczenia.)
 
-No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania:
+No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania ...
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">my father always told me: “if you want to
 go for a run, go for a run, don’t look for company. sooner or later, on your fifth run or your
@@ -23,6 +23,10 @@ twentieth, like-minded people will find you themselves.” and only recently hav
 principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">29 grudnia
 2024</a></blockquote>
+
+... i cytat, jak podają niektórzy rzekomo z Feynmana, który również bardzo mi pasuje:
+
+> If you want to master something, teach it.
 
 Ostatnio właściwie codziennie sporo tu zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na temat
 aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
