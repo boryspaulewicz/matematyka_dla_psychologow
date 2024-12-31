@@ -232,9 +232,9 @@ Axlera [*Linear Algebra Done Right*](https://linear.axler.net/) (na początek po
 wydanie) i za wskazanie mi możliwości napisania czegoś lepiej.
 
 Jeszcze raz Tomkowi Smoleniowi, za dociekliwość, zaangażowanie i wykrycie potencjalnego źródła
-nieporozumień wynikającego z tego, że nie napisałem wyraźnie, że *typ funkcyjny* znaczy dokładnie to
-samo, co *typ funkcji* i za zainspirowanie mnie do mam nadzieję lepszego wytłumaczenia szczególnego
-charakteru typu `Absurd` w rozdziale o negacji.
+nieporozumień polegającego na tym, że nie napisałem dość wcześnie i wystarczająco wyraźnie, że *typ
+funkcyjny* znaczy dokładnie to samo, co *typ funkcji*, a także za zainspirowanie mnie do mam
+nadzieję lepszego wytłumaczenia szczególnego charakteru typu `Absurd` w rozdziale o negacji.
 
 ### Przypisy
 
