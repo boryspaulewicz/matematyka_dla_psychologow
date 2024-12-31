@@ -53,6 +53,20 @@ To proces, który na podstawie omówionych przeze mnie do tej pory przykładów 
 dość cierpliwa, niebawem w pełni zrozumieć (o ile to się już nie stało), bo ten proces polega tylko
 na tym, co Ci do tej pory pokazałem.
 
+A żeby zwiększyć Twoją tolerancję dla [niewyjaśnionych
+tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie bardzo Ci
+się przyda, proponuję, żebyś wkleiła do Leana taki oto fragment poprawnego kodu, zawierający
+definicję jeszcze *uniwersalniejszej*[^1] identycznosci:
+
+```lean
+universe u
+
+def uidentycznosc (typ : Type u) (argument : typ) : typ := argument
+
+-- Lean nie sygnalizuje tutaj błędu:
+#check (uidentycznosc : uidentycznosc (Type 1) ((typ : Type) → typ → typ))
+```
+
 O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu ewaluacja musi się zakończyć
 i wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drodze aplikacji.
 
@@ -70,3 +84,7 @@ Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokaż
 się powiedzieć jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co zostało zapisane
 w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i zarazem unikalnej
 takiej postaci za pomocą algorytmu.
+
+### Przypisy
+
+[^1]: [Muß es sein? Es muß sein!](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven))

@@ -145,9 +145,9 @@ W Leanie wszystkie termy, w tym również złożone, *muszą* mieć jakiś typ. 
 *ma* typ, ponieważ można skonstruować termy *błędne*, to jest takie, których nie da się typować. Dla
 Leana takie termy są po prostu bezsensowne. Jeżeli w tym momencie obawiasz się, że napiszesz jakieś
 termy bezsensowne, to niepotrzebnie się tego obawiasz, bo prawie na pewno napiszesz wiele termów
-bezsensownych. Im więcej piszesz, tym więcej bzdur napiszesz, jak zauważył zdaje się Gombrowicz. To
-jest może zła wiadomość, chociaż nie jestem tego całkiem pewien. Na pewno dobra wiadomość jest taka,
-że Lean Ci wtedy o tym powie.
+bezsensownych. Im więcej piszesz, tym więcej bzdur napiszesz, jak zauważył zdaje się ten przenikliwy
+obserwator ludzkiej natury Gombrowicz. To jest może zła wiadomość, chociaż nie jestem tego całkiem
+pewien. Na pewno dobra wiadomość jest taka, że Lean Ci wtedy o tym powie.
 
 Mam nadzieję, że od razu rzuca Ci się w oczy, że z termem `1 nic_nie_robie` jest coś nie tak. W
 końcu `1` nie jest funkcją, a więc nie da się do niczego aplikować termu `1`. Myślę, że nie
