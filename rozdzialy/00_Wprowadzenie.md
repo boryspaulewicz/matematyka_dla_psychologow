@@ -3,11 +3,11 @@
 Ta ksi±¿ka by³a najpierw krótkim skryptem dla studentów. Planuj±c æwiczenia do kursu neuronauka i
 psychologia poznawcza zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii normatywnych
 bêdziemy omawiaæ jaki¶ bli¿ej nieokre¶lony mój "skrypt w³asny". Korzystaj±c z tej okazji,
-postanowi³em przeprowadziæ pewien eksperyment dydaktyczny. Polega³ on na próbie przekonania
-studentów, ¿e przy odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu
-trochê lepiej zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt
-sta³ siê seri± komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami
-wymagaj±cymi dowodzenia tautologii w jêzyku [Lean](https://lean-lang.org/).
+postanowi³em przeprowadziæ eksperyment, który polega³ on na próbie przekonania studentów, ¿e przy
+odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
+zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt sta³ siê seri±
+komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi dowodzenia
+tautologii w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, dlatego wprowadzi³em kilka zmian i poprawion±
@@ -24,7 +24,7 @@ Bia³ek, za co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szyc
 rachunku przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro [spodoba³
 siê](https://x.com/yudapearl/status/1737769250511843448) samemu
 [Pearlowi](https://en.wikipedia.org/wiki/Judea_Pearl), który raczej nie prawi chêtnie komplementów
-na temat tego typu artyku³ów, dlatego zamierzam bezwstydznie skorzystaæ z niego (artyku³u, nie
+na temat tego typu artyku³ów, dlatego zamierzam bezwstydznie skorzystaæ z niego (z artyku³u, nie z
 Pearla) w dalszej czê¶ci ksi±¿ki.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
@@ -36,16 +36,16 @@ uczyæ. Przy okazji odkry³em tak¿e inny cel.
 Wiêkszo¶æ psychologów - mam tu na my¶li równie¿ utytuowanych pracowników naukowych z bogatym
 dorobkiem - polega w ogromnym stopniu na matematyce, na przyk³ad u¿ywaj±c wnioskowania
 statystycznego, ale nie tylko wtedy, i próbuje zrozumieæ z³o¿one i trudne do wyja¶nienia zjawiska,
-takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych, jednak wielu z nich nie ma
+takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych. Jednak wielu z nich nie ma
 najczê¶ciej o matematyce za bardzo pojêcia. Dobrymi przyk³adami powa¿nych b³êdów, wynikaj±cych z
-niezrozumienia matematycznej nieuchronno¶ci kilku do¶æ *prostych* przecie¿ zasad, s± powszechne
+niezrozumienia matematycznej nieuchronno¶ci kilku dosyæ *prostych* przecie¿ zasad, s± powszechne
 [wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu
 statystycznego](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors), albo wnioskowanie o
 wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ
 (wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e
-[przyczynowo¶æ zosta³a skutecznie zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
+[przyczynowo¶æ zosta³a zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
-Nic wiêc dziwnego, ¿e tacy, niestety w psychologii do¶æ liczni, matematyczni pó³-analfabeci
+Nic wiêc dziwnego, ¿e tacy - niestety w psychologii do¶æ liczni - matematyczni pó³-analfabeci
 nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj±c przy tym czasem
 najprostsze nawet b³êdy. Mimo to udaje im siê publikowaæ w wysokopunktowanych czasopismach, bo
 wysy³ane przez nich manuskrypty s± zwykle recenzowane i dopuszczane do druku przez innych
@@ -53,7 +53,7 @@ matematycznych pó³-analfabetów. Rezultatem tej zabawy w chowanego jest powszechn
 od dawna rozczarowuj±ca gra pozorów.
 
 Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
-³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie przyczynê najwa¿niejsz±, tego stanu rzeczy:
+³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie t± najwa¿niejsz±, tego stanu rzeczy:
 Praktycznie *nikt*, w³±czaj±c w to osoby prowadz±ce zajêcia ze statystyki, nie wymaga od psychologów
 znajomo¶ci nawet tylko tej odrobiny matematyki, któr± trzeba poznaæ, ¿eby trochê g³êbiej zrozumieæ o
 co tak naprawdê chodzi miêdzy innymi w testowaniu istotno¶ci albo w poprawnym uzasadnianiu wniosków
@@ -61,27 +61,26 @@ przyczynowych. A przecie¿ te dwa rodzaje rozumowañ odgrywaj± *centraln±* rolê w 
 artykule empirycznym. Co ambitniejsi studenci uzupe³niaj± samodzielnie braki w wiedzy, ale akurat
 matematyki ma³o kto uczy siê systematycznie z w³asnej woli.
 
-Mam powody s±dziæ, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mniej boj± siê
+Mam wra¿enie, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mniej boj± siê
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z
-dostarczaj±cym natychmiastowej informacji zwrotnej komputerem. Wtedy obecno¶æ nauczyciela nie jest
-a¿ taka potrzebna. Ta ksi±¿ka ma miêdzy innymi pomóc w oswajaniu siê z matematyk± przede wszystkim
-w³a¶nie zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i pracownikom
-akademickim zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w tym celu podj±æ próbê
-poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
+dostarczaj±cym informacji zwrotnych komputerem. Wtedy obecno¶æ nauczyciela nie jest a¿ taka
+potrzebna. Ta ksi±¿ka ma miêdzy innymi pomóc w oswajaniu siê z matematyk± przede wszystkim w³a¶nie
+zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i pracownikom akademickim
+zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w tym celu podj±æ próbê poznania nowego,
+piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
 
-Uprzedzam, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*, czyli
-w tych czê¶ciach, w których mniej lub bardziej po swojemu obja¶niam kod albo zapêdzam siê w
-dygresje. To ryzyko nie wydaje mi siê pomijalnie ma³e, bo jestem matematycznym amatorem. Co prawda
-co¶ tam mogê pokazaæ jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca, ale nie ma tego
-wiele. Gdyby¶ wiêc znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz
-(boryslaw.paulewicz@uj.edu.pl).
+Uprzedzam jednak, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*,
+czyli tam, gdzie mniej lub bardziej po swojemu obja¶niam kod albo zapêdzam siê w dygresje. To ryzyko
+nie wydaje mi siê pomijalnie ma³e, bo jestem matematycznym amatorem. Co prawda co¶ tam mogê pokazaæ
+jako "dowód", ¿e matematyka nie jest dla mnie ca³kiem obca, ale nie ma tego wiele. Gdyby¶ wiêc
+znalaz³a b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
 
 Mogê Ciê za to zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach formalnych*,
 to jest zakodowanych w pewnej wersji jêzyka teorii typów, z której korzysta asystent dowodzenia
 Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do repozytorium. Zwykle tak robiê,
 ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli akurat sprawdzi³em kod
 po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzone przez algorytm,
-którego u¿ywa do tego Lean. Wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
+którego u¿ywa do tego Lean, a wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
 [bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
 
 Muszê Ciê te¿ ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
@@ -90,9 +89,9 @@ zagubienia. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego takie 
 pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy zaczyna³em siê uczyæ o teorii typów. To
 poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze zrozumienie, ale to wymaga *cierpliwo¶ci*.
 
-W zwi±zku z tym, oto moja sugestia: Daj sobie czas, ¿eby wszystko zd±¿y³o siê trochê ule¿eæ i pogód¼
-siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do przeczytanych ju¿
-wcze¶niej fragmentów. O ile nie zabraknie wytrwa³o¶ci, mo¿e w koñcu stanie siê to, co dzieje siê
+W zwi±zku z tym, oto moja sugestia: Daj sobie czas, ¿eby wszystko zd±¿y³o siê trochê "ule¿eæ" i
+pogód¼ siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do przeczytanych
+ju¿ wcze¶niej fragmentów. O ile nie zabraknie wytrwa³o¶ci, mo¿e w koñcu stanie siê to, co dzieje siê
 wtedy, kiedy przez d³u¿szy czas dok±d¶ idziemy, niekoniecznie d±¿±c stale do jednego celu, a
 powietrze jest bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, gdy zachodzi jako¶ciowa zmiana,
 odkrywamy jednak w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
@@ -112,32 +111,33 @@ udowodniæ*, i bardzo spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z bad
 ¶wiadomo¶ci±, ¿e poniewa¿ te s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), w gruncie
 rzeczy *nie da siê* ich skutecznie podwa¿yæ.
 
-Wracaj±c do przerwanego w±tku - poczucie zrozumienia bywa zwodnicze. Wiele razy uczy³em siê trudnego
-materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawet kilka lat, coraz odleglejsze w czasie,
-generatywne powtórki. I wiele razy w trakcie powtarzania zauwa¿a³em, ¿e moje wcze¶niejsze poczucie
-zrozumienia by³o z³udne. Mo¿e to truizm, ale taki, o którym ³atwo jest zapomnieæ: Poniewa¿ nawet na
-najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie to co¶, do czego mo¿na stale
-*d±¿yæ*, ale co rzadko, o ile w ogóle kiedykolwiek, mo¿na naprawdê *osi±gn±æ*.
+Ale wracaj±c ju¿ do przerwanego w±tku, poczucie zrozumienia czêsto jest zwodnicze. Wiele razy
+uczy³em siê trudnego materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawet kilka lat, coraz
+odleglejsze w czasie, generatywne powtórki. I wiele razy w trakcie powtarzania zauwa¿a³em, ¿e moje
+wcze¶niejsze poczucie zrozumienia by³o z³udne. Mo¿e to truizm, ale taki, o którym ³atwo jest
+zapomnieæ: Poniewa¿ nawet na najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie
+to jest co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko, o ile w ogóle kiedykolwiek, mo¿na naprawdê
+*osi±gn±æ*.
 
 Rozdzia³y od czwartego do szóstego nie s± d³ugie. Przeczytanie ich i wykonanie poleceñ powinno Ci
 zaj±æ nie wiêcej ni¿ pó³torej albo dwie godziny. Poza tym ta ksi±¿ka jest ca³kowicie
 samowystarczalna w tym znaczeniu, ¿e nie zak³ada ¿adnej specjalistycznej wiedzy; *wszystko* jest
-wyja¶nione od podstaw, a jedyny program, którego potrzebujemy, jest dostêpny za darmo i mo¿na go
-u¿ywaæ równie¿ w przegl±darce.
+wyja¶nione od podstaw, a jedyny program, którego bêdziesz potrzebowaæ, jest dostêpny za darmo i
+mo¿na go u¿ywaæ równie¿ w przegl±darce.
 
 Je¿eli utkniesz, nie zra¿aj siê proszê. A je¿eli utkniesz, bêdziesz próbowaæ znowu i nadal Ci siê
-nie uda, po prostu siê tym nie przejmuj i czytaj dalej, zak³adaj±c oczywi¶cie, ¿e bêdziesz nadal
+nie uda, po prostu siê tym nie przejmuj i **czytaj dalej**, zak³adaj±c oczywi¶cie, ¿e bêdziesz nadal
 zainteresowana tym, co bêdzie dalej. Zrozumienie, ¿e ucz±c siê matematyki *nie trzeba rozwi±zywaæ
 wszystkich zadañ* i ¿e upieranie siê przy tym mo¿e przeszkadzaæ w nauce zajê³o mi naprawdê du¿o
 czasu, o wiele za du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej,
-cierpliwie t³umaczy³). 
+cierpliwie t³umaczy³).
 
-Tylko z tego powodu wiele razy zdarza³o mi siê niepotrzebnie porzucaæ naukê bêd±c przekonanym, ¿e
-skoro nie przyswoi³em sobie dobrze czego¶ na danym etapie, to nie powinienem czytaæ dalej, a
-przecie¿ rozumienie w zasadzie nigdy nie rozwija siê w taki "liniowy" sposób. Wydaje mi siê, ¿e
-dobrze rozumiej± to informatycy, bo s± chyba przyzwyczajeni do traktowania bibliotek
-programistycznych i dokumentacji jak skrzynek z narzêdziami, które maj± przede wszystkim dzia³aæ i
-którym nie musz± siê przygl±daæ z bliska je¶li nie maj± ochoty.
+Tylko z tego powodu wiele razy zdarza³o mi siê niepotrzebnie porzucaæ naukê, bo my¶la³em, ¿e skoro
+nie przyswoi³em sobie dobrze czego¶ na danym etapie, to nie powinienem czytaæ dalej. A przecie¿
+rozumienie w zasadzie nigdy nie rozwija siê w taki "liniowy" sposób. Wydaje mi siê, ¿e dobrze wiedz±
+to informatycy, bo s± chyba przyzwyczajeni do traktowania bibliotek programistycznych i dokumentacji
+jak *skrzynek z narzêdziami*, które maj± przede wszystkim dzia³aæ i którym nie musz± siê przygl±daæ
+z bliska, czy analizowaæ jak s± zbudowane, je¶li nie maj± na to ochoty.
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
 zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
