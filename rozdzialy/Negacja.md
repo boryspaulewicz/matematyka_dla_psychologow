@@ -95,9 +95,9 @@ typu `Absurd`, o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruo
 
 Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać funkcja typu `Absurd`*, to odpowiadam, że nie
 mogłaby, bo taka funkcja może istnieć tylko jako (aksjomatyczne albo lokalne) *założenie*, którego
-nie da się w żaden sposób *zaimplementować*. Taka funkcja musiałaby tworzyć dowody zdań z niczego, a
-dokładniej, musiałaby tworzyć je "wiedząc" jedynie, jakie zdanie ma być udowodnione. Gdyby więc dało
-się ją zapisać, *każde* zdanie byłoby natychmiast prawdziwe.
+nie da się w żaden sposób *zaimplementować*. Taka funkcja musiałaby tworzyć dowody zdań z niczego,
+"wiedząc" jedynie, że dostała *jakieś* zdanie. Gdyby więc dało się ją zapisać, *każde* zdanie byłoby
+natychmiast prawdziwe.
 
 ## O co chodzi z tym Absurdem?
 
