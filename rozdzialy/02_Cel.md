@@ -173,8 +173,8 @@ wniosków przyczynowych nie przyjmując najpierw założeń przyczynowych, tak n
 wniosków na temat *działań celowych* nie przyjmując żadnych założeń na temat celu. A najogólniejszą
 i najbardziej elastyczną postacią tego rodzaju założeń są założenia o charakterze *ocennym*, które
 można wyrazić formalnie jako relacje *porządku*. Gdy tylko dodamy - do probabilistycznych i
-przyczynowych - tego rodzaju założenia, możemy natychmiast zacząć mówić *wprost* o działaniach
-*celowych*, a więc *zachowaniach*.
+przyczynowych - tego rodzaju założenia, będziemy mogli natychmiast zacząć mówić *wprost* o
+działaniach *celowych*, a więc *zachowaniach*.
 
 Albo tak: Wprowadzając do języka formalnego preferencję zewnętrznego obserwatora, uzupełnimy
 istniejące już formalne teorie, pozwalające mówić o tym ...
