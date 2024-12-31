@@ -94,10 +94,10 @@ typu `Absurd`, o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruo
 *pełni* dokładnie *rolę fałszu*, a więc *jest fałszem* (tak jak go technicznie rozumiemy w logice).
 
 Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać funkcja typu `Absurd`*, to odpowiadam, że nie
-mogłaby, bo taka funkcja może istnieć tylko jako (aksjomatyczne albo lokalne) *założenie*, którego
-nie da się w żaden sposób *zaimplementować*. Taka funkcja musiałaby tworzyć dowody zdań z niczego,
-"wiedząc" jedynie, że dostała *jakieś* zdanie. Gdyby więc dało się ją zapisać, *każde* zdanie byłoby
-natychmiast prawdziwe.
+mogłaby, bo taka funkcja może istnieć tylko "wirtualnie" jako (aksjomatyczne albo lokalne)
+*założenie*, którego nie da się w żaden sposób *zaimplementować*. Gdyby istniała, funkcja musiałaby
+tworzyć dowody zdań z niczego, "wiedząc" jedynie, że dostała *jakieś* zdanie, a wtedy *każde* zdanie
+byłoby natychmiast prawdziwe.
 
 ## O co chodzi z tym Absurdem?
 
