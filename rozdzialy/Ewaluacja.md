@@ -56,7 +56,7 @@ na tym, co Ci do tej pory pokazałem.
 A żeby zwiększyć Twoją tolerancję dla [niewyjaśnionych
 tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie bardzo Ci
 się przyda, proponuję, żebyś wkleiła do Leana taki oto fragment poprawnego kodu, zawierający
-definicję jeszcze *uniwersalniejszej*[^1] identycznosci:
+definicję jeszcze *uniwersalniejszej*[^1] identyczności:
 
 ```lean
 universe u
