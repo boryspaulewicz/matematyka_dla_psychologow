@@ -130,7 +130,9 @@ nie uda, po prostu siê tym nie przejmuj i czytaj dalej, zak³adaj±c oczywi¶cie, ¿
 zainteresowana tym, co bêdzie dalej. Zrozumienie, ¿e ucz±c siê matematyki *nie trzeba rozwi±zywaæ
 wszystkich zadañ* i ¿e upieranie siê przy tym mo¿e przeszkadzaæ w nauce zajê³o mi naprawdê du¿o
 czasu, o wiele za du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej,
-cierpliwie t³umaczy³).
+cierpliwie t³umaczy³). Tylko z tego powodu wiele razy zdarza³o mi siê niepotrzebnie porzucaæ naukê
+bêd±c przekonanym, ¿e skoro nie przyswoi³em sobie dobrze czego¶ na danym etapie, to nie powinienem
+czytaæ dalej, a przecie¿ rozumienie w zasadzie nigdy nie postêpuje w taki "liniowy" sposób.
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
 zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
