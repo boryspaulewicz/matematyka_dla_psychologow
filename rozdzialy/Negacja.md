@@ -83,8 +83,8 @@ Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
 
 Inna nazwa na absurd to *fałsz*.
 
-Niechaj wszystkie istoty, żywe i martwe, [pokłonią się](https://www.youtube.com/watch?v=Nrz250ryvr8)
-przed potęgą typów zależnych!
+*Niechaj wszystkie istoty, żywe i martwe, [pokłonią
+się](https://www.youtube.com/watch?v=Nrz250ryvr8) przed potęgą typów zależnych!*
 
 Trochę mnie poniosło, ale chyba mnie rozumiesz. Być może najprostszy punkt widzenia na to, czym jest
 tutaj typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala
