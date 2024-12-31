@@ -33,10 +33,10 @@ aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
-powinny być mam nadzieję zrozumiałe dla *licealistów*, a jak nie będą, to spróbuję zmienić je tak,
-żeby były. Tą książkę piszę w tym momencie przede wszystkim dla studentów psychologii, ale wydaje mi
-się, że mogliby z niej skorzystać również badacze i teoretycy (chociaż to rzadki gatunek) zajmujący
-się psychologią naukową. To między innymi wprowadzenie, niemal
+powinny być mam nadzieję zrozumiałe dla *licealistów*, a jeśli nie będą, to spróbuję sprawić, żeby
+były. Piszę tą książkę w tym momencie przede wszystkim dla studentów psychologii, ale wydaje mi się,
+że mogliby z niej skorzystać również badacze i teoretycy (chociaż to rzadki gatunek) zajmujący się
+psychologią naukową. To między innymi wprowadzenie, niemal
 [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
 zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersji bayesowskiej i
