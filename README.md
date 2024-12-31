@@ -79,11 +79,10 @@ przygotowania części rozdziału trzeciego**, mają charakter ogólnowprowadzaj
 zawierają ani fragmentów kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam
 znaleźć nie tylko oparte na wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące
 tego, jak warto podchodzić do nauki jakichkolwiek treści, ale również uwagi dotyczące *nastawienia*,
-które może znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę
-skierowaną do psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego
-robić lepiej, niż umiem (to niekoniecznie
-[tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)), za to te, z którymi zapoznasz się w
-[rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
+które może się przydać w zmaganiach z tymi dość nietypowymi jak na książkę skierowaną do psychologów
+tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić lepiej, niż umiem (to
+niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)), za to te, z którymi
+zapoznasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
 [dziesiątym](./rozdzialy/Implikacja_w_zadaniach.md) są nimi z pewnością).
 
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
