@@ -190,7 +190,7 @@ istniejące już formalne teorie, pozwalające mówić o tym ...
 wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w jakim stopniu można sprawić, żeby
 zachodziło Y*. W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne
 wymiary, o wymiar czwarty i *ostatni*, dzieki któremu w całej swej okazałości ujawni się *zewnętrzny
-agent*. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako własności subiektywnego punktu
+Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako własności subiektywnego punktu
 widzenia albo sposoby opisu zjawisk z perspektywy *kogoś, kto właściwie nie istnieje*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
@@ -298,3 +298,5 @@ Myślę, że najlepiej będzie, jeśli zaczniemy od początku.
     [Kline](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH),
     próbując napisać coś przynajmniej na oko spójnego na temat pomiaru w psychologii z perspektywy
     przyczynowej.
+
+[^2]: Albo Zewnętrzny Podmiot. Jeszcze nie wiem jak Go nazwać.
