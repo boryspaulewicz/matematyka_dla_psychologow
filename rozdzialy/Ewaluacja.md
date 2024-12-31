@@ -64,10 +64,13 @@ universe u
 def uidentycznosc (typ : Type u) (parametr : typ) : typ := parametr
 
 #check (uidentycznosc : uidentycznosc (Type 1) ((typ : Type) → typ → typ))
+
 #check uidentycznosc ((typ : Type) → typ → typ) uidentycznosc
+
 #check uidentycznosc ((typ : Type) → typ → typ)
     (uidentycznosc ((typ : Type) → typ → typ) uidentycznosc)
-#check uidentycznosc ((typ : Type) → typ → typ)
+
+#eval uidentycznosc ((typ : Type) → typ → typ)
     (uidentycznosc ((typ : Type) → typ → typ) uidentycznosc) Nat 1
 ```
 
