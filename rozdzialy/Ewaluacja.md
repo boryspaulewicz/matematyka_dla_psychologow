@@ -65,6 +65,11 @@ def uidentycznosc (typ : Type u) (parametr : typ) : typ := parametr
 
 -- Lean nie sygnalizuje tutaj błędu:
 #check (uidentycznosc : uidentycznosc (Type 1) ((typ : Type) → typ → typ))
+#check uidentycznosc ((typ : Type) → typ → typ) uidentycznosc
+#check uidentycznosc ((typ : Type) → typ → typ)
+    (uidentycznosc ((typ : Type) → typ → typ) uidentycznosc)
+#check uidentycznosc ((typ : Type) → typ → typ)
+    (uidentycznosc ((typ : Type) → typ → typ) uidentycznosc) Nat 1
 ```
 
 O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu ewaluacja musi się zakończyć
