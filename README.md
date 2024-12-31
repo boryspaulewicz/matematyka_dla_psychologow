@@ -216,7 +216,7 @@ masz w głowie Leana.
 Kubie Szewczykowi, za dodającą odwagi, rzeczową i przemyślaną reakcję.
 
 Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo tu na głównej stronie,
-jak również za cenne meta-refleksje i w ogóle zainteresowanie tematem.
+jak również za cenne meta-refleksje na temat terapii i w ogóle zainteresowanie tematem.
 
 Szymonowi Stryplingowi, który jak dotąd jest najmłodszym (czternastoletnim!) znanym mi czytelnikiem
 tej książki i któremu opanowanie treści i wykonanie poleceń zawartych w rozdziale piątym zajęło, jak
