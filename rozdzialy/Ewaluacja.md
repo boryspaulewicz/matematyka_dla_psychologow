@@ -15,7 +15,7 @@ zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne 
 wariacjami na ten temat.
 
 ```lean
-def identycznosc (typ : Type) (argument : typ) : typ := argument
+def identycznosc (typ : Type) (parametr : typ) : typ := parametr
 
 #check Nat -- Nat : Type
 
@@ -30,10 +30,10 @@ def identycznosc (typ : Type) (argument : typ) : typ := argument
 #eval identycznosc Nat 1
 
 -->
-(fun (typ : Type) => fun (argument : typ) => argument) Nat 1 -- ... : Nat
+(fun (typ : Type) => fun (parametr : typ) => parametr) Nat 1 -- ... : Nat
 
 -->
-(fun (argument : Nat) => argument) 1                         -- ... : Nat
+(fun (parametr : Nat) => parametr) 1                         -- ... : Nat
 
 -->
 1                                                            -- ... : Nat
@@ -61,7 +61,7 @@ definicję jeszcze *uniwersalniejszej*[^1] identycznosci:
 ```lean
 universe u
 
-def uidentycznosc (typ : Type u) (argument : typ) : typ := argument
+def uidentycznosc (typ : Type u) (parametr : typ) : typ := parametr
 
 -- Lean nie sygnalizuje tutaj błędu:
 #check (uidentycznosc : uidentycznosc (Type 1) ((typ : Type) → typ → typ))
