@@ -141,13 +141,12 @@ z bliska, czy analizowaæ jak s± zbudowane, je¶li nie maj± na to ochoty.
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
 zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
-to niebawem wykorzystaæ, zacz±³em uczyæ siê systematycznie z cudownej ksi±¿ki [Type Theory and
-Formal
-Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C),
-napisanej przez Geuversa i Nederpelta. Ta ksi±¿ka jest napisana w bardzo jasny sposób. Na ka¿dej
-niemal stronie widaæ, ¿e autorzy staraj± siê wszystko wyt³umaczyæ najlepiej jak potrafi±. W mojej
-ocenie to jest te¿ wybitna *literatura* w tym znaczeniu, ¿e styl jest jednocze¶nie elegancki i
-lekki, a ton wydaje mi siê czasami wrêcz ciep³y.
+to niebawem wykorzystaæ, zacz±³em uczyæ siê z cudownej ksi±¿ki Geuversa i Nederpelta [Type Theory
+and Formal
+Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C). Ta
+ksi±¿ka jest napisana w bardzo jasny sposób i na ka¿dej niemal stronie widaæ, ¿e autorzy staraj± siê
+wszystko wyt³umaczyæ najlepiej jak potrafi±. W mojej ocenie to jest te¿ wybitna *literatura*, w tym
+znaczeniu, ¿e styl jest jednocze¶nie elegancki i lekki, a ton wydaje mi siê czasami wrêcz ciep³y.
 
 Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat bywa abstrakcyjny, z³o¿ony i pe³en
 g³êbokich niespodzianek, rezultatem mo¿e byæ pora¿aj±ce po³±czenie tre¶ci z form±. Taki efekt jest
