@@ -24,7 +24,7 @@ principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">29 grudnia
 2024</a></blockquote>
 
-... i cytat, jak podają niektórzy rzekomo z Feynmana, który również bardzo mi pasuje:
+... i cytat, jak podają niektórzy pochodzący od Feynmana, który również bardzo mi pasuje:
 
 > If you want to master something, teach it.
 
