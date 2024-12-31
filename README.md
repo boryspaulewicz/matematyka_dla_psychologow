@@ -11,8 +11,8 @@ najprostszej możliwej postaci.</em></div>
 First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie, co powiedziała [Julia
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
 feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life).  
-(Tylko proszę nie pisać o błędach ortograficznych albo innych tego rodzaju drobiazgach, chyba, że
-pojawiły się tu na głównej stronie. Mam lekką dysgrafię, ale w tym momencie to już nie ma większego
+(Tylko proszę nie pisać o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba, że
+pojawiły się na głównej stronie. Mam lekką dysgrafię, ale w tym momencie to już nie ma większego
 znaczenia.)
 
 No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania ...
@@ -24,23 +24,24 @@ principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">29 grudnia
 2024</a></blockquote>
 
-... i cytat, jak podają niektórzy pochodzący od Feynmana, który również bardzo mi pasuje:
+... i cytat, jak podają niektórzy pochodzący od Feynmana, który również tu pasuje:
 
 > If you want to master something, teach it.
 
-Ostatnio właściwie codziennie sporo tutaj zmieniam. Jeżeli chcesz otrzymywać pocztą wiadomości na
-temat aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
+Ostatnio niemal codziennie sporo tutaj zmieniam. Jeżeli chcesz dostawać wiadomości na temat
+aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
-specjalnego przygotowania**, a mówiąc dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w
-górę* powinny być jak sądzę zrozumiałe dla *licealistów*. Piszę ją w tym momencie przede wszystkim
-dla studentów psychologii, ale także dla badaczy i teoretyków zajmujących się uprawianiem
-psychologii naukowej. To między innymi wprowadzenie, niemal
+specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
+powinny być mam nadzieję zrozumiałe dla *licealistów*, a jak nie będą, to spróbuję zmienić je tak,
+żeby były. Tą książkę piszę w tym momencie przede wszystkim dla studentów psychologii, ale wydaje mi
+się, że mogliby z niej skorzystać również badacze i teoretycy (chociaż to rzadki gatunek) zajmujący
+się psychologią naukową. To między innymi wprowadzenie, niemal
 [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
-zaś do wnioskowania przyczynowego i statystycznego (w tej kolejności), w wersji bayesowskiej i
-częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka wybranych zagadnień z obszaru
-szeroko rozumianej metodologii badań psychologicznych. W drugiej części planuję z kolei uzasadnić,
+zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersji bayesowskiej i
+częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka podstawowych zagadnień z obszaru
+szeroko rozumianej metodologii badań psychologicznych. W drugiej części zamierzam uzasadnić,
 objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
 szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
 [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
@@ -50,15 +51,15 @@ pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
 rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software))?** Teoria typów dlatego, że pozwala
-sformalizować w pełni i we względnie naturalny sposób niemal dowolne treści o ogólnie rozumianym
-matematycznym charakterze i jest przy tym jednocześnie pełnowartościowym ([funkcyjnym i
+sformalizować w pełni i we względnie naturalny sposób niemal dowolne treści o charakterze
+matematycznym i jest jednocześnie pełnowartościowym ([funkcyjnym i
 czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)) językiem programowania. W dodatku
 to nie jest jakiś tam kolejny taki język, tylko taki, którego składnia kształtowała się stopniowo
 jako rezultat badań wybitnych matematyków i filozofów zajmujących się podstawami matematyki. Ale
 teoria typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem matematyki w
 psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani wnioskowanie
 przyczynowe. Według mnie *nie* jest nim również formalizacja wyrażonych w języku naturalnym teorii
-lub modeli psychologicznych w postaci modeli matematycznych rozmaitych zjawisk. Być może
+lub modeli psychologicznych w postaci matematycznych modeli rozmaitych zjawisk. Być może
 najważniejszym zastosowaniem matematyki we współczesnej psychologii jest w mojej ocenie
 *formalizacja rozumowań*, które psychologowie wyrażają często dosyć nieczytelnie i niejasno w swoich
 publikacjach. A teoria typów wyposażona w [typy
@@ -73,13 +74,14 @@ ostatnio dość gwałtownie, a w dodatku sprawdził się już znakomicie jako na
 ([tutaj](https://adam.math.hhu.de/#/g/leanprover-community/nng4) na przykład można znaleźć
 zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych).
 
-**Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających w przyszłość części rozdziału trzeciego**,
-mają charakter ogólnowprowadzający i chociaż nie zawierają ani fragmentów kodu ani żadnych zadań, to
-polecam je przynajmniej przejrzeć. Można tam znaleźć nie tylko oparte na wynikach badań i moich
-doświadczeniach *wskazówki praktyczne* dotyczące tego, jak warto podchodzić do nauki *jakichkolwiek*
-treści, ale również uwagi dotyczące *nastawienia*, które może znacząco zwiększyć szanse na sukces w
-zmaganiach z tymi - jak na książkę skierowaną do psychologów - dość nietypowymi tematami. Staram się
-je objaśnić najlepiej jak umiem, ale nie umiem tego robić lepiej, niż umiem (to niekoniecznie
+**Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających w przyszłość i wymagających pewnego
+przygotowania części rozdziału trzeciego**, mają charakter ogólnowprowadzający i chociaż nie
+zawierają ani fragmentów kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam
+znaleźć nie tylko oparte na wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące
+tego, jak warto podchodzić do nauki jakichkolwiek treści, ale również uwagi dotyczące *nastawienia*,
+które może znacząco zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę
+skierowaną do psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego
+robić lepiej, niż umiem (to niekoniecznie
 [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)), za to te, z którymi zapoznasz się w
 [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
 [dziesiątym](./rozdzialy/Implikacja_w_zadaniach.md) są nimi z pewnością).
@@ -91,22 +93,22 @@ jaki zacząłem ostatnio myśleć o tym [czym jest zachowanie](./rozdzialy/02_Ce
 książki jest przecież co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
 *w ramach którego*, dzięki stałej autorefleksji i informacjom zwrotnym pochodzącym od jej
-czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego - jak
-również proces odkrywania czy raczej *ustalania się* być może jakiegoś *dominującego*, ale nadal z
+czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego - i
+proces odkrywania czy raczej *ustalania się* być może jakiegoś *dominującego*, ale nadal z
 konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
 tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma
-dotąd miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi są do
-pewnego stopnia czymś, co tworzy się w ramach społecznych interakcji i co nabiera dzięki takim
-interakcjom (również nieunikalnego) sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat
-interakcji wielu bardzo sobie bliskich, bo mających wiele wspólnych cech, ale jednak *różnych* osób,
-bo *różnych wersji tej samej osoby*, z których każda istniała tylko *wirtualnie* i tylko *przez
-chwilę* i wniosła coś do końcowego rezultatu, rozwijając albo kwestionując to, co zrobiły te
-poprzednie (wersje), a następnie to, co w ten sposób powstało lub uległo przekształceniu,
-przekazując dalej. Nad *zewnętrznymi* źródłami takich informacji mam jednak bardzo ograniczoną
-kontrolę, a szkoda, bo przecież im więcej punktów widzenia bierze udział w tym procesie i im
-bardziej te punkty widzenia są różne, tym większa jest szansa na zbliżenie się do czegoś dobrego.
+dotąd miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi powstają
+zwykle w ramach społecznych interakcji i nabierają dzięki takim interakcjom (również nieunikalnego)
+sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji wielu bardzo sobie
+bliskich, bo mających wiele wspólnych cech, ale jednak *różnych* osób, bo *różnych wersji tej samej
+osoby*, z których każda istniała tylko *wirtualnie* i tylko *przez chwilę* i wniosła coś do
+końcowego rezultatu, rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a następnie
+to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad *zewnętrznymi*
+źródłami takich informacji mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież im więcej
+punktów widzenia bierze udział w tym procesie i im bardziej te punkty widzenia są różne, tym większa
+jest szansa na zbliżenie się do czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tutaj w wersji
@@ -130,7 +132,7 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
 będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie tego, o czym
-tutaj piszę, może wymagać niemałych kompetencji filozoficznych i matematycznych.  
+tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych.  
 [R3 Do czego autor zmierza?](./rozdzialy/02_Cel.md)
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
@@ -173,6 +175,10 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 cdn
 
+Notatki robocze, do których można zaglądać:
+
+[R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
+
 <a name="podziekowania"></a>
 ### Podziękowania należą się między innymi
 
@@ -182,7 +188,7 @@ Tymoteuszowi Paulewiczowi, za pierwsze informacje zwrotne na temat skryptu.
 
 Uczestnikom kursu [Introduction to causal inference with elements of Bayesian data
 analysis](https://www.usosweb.uj.edu.pl/kontroler.php%3F_action%3Dkatalog2%252Fprzedmioty%252FpokazPrzedmiot%26prz_kod%3DSDS-E901-DItc%26callback%3Dg_1d86a895%26lang%3Den),
-za informacje zwrotne na temat poprawionej wersji skryptu.
+za uwagi i opinie na temat poprawionej wersji skryptu.
 
 Nienazwanym (niestety) studentom biorącym udział w kursie [Psychologia i neuronauka poznawcza
 II](https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&kod=WFz.IPs-N-A33b),
@@ -195,11 +201,11 @@ wykluwać z postaci jajowej i początkowo, co dopiero teraz widzę, również tr
 
 Autorom maili zawierających zachęcające opinie na temat wcześniejszych wersji.
 
-Emilowi Chammasowi, za bardzo pozytywną reakcję i zaangażowanie - o którym zresztą dowiedziałem się
+Emilowi Chammasowi, za pozytywną reakcję i zaangażowanie - o którym zresztą dowiedziałem się
 częściowo pośrednio, a przecież nie ma lepszej reklamy niż marketing szeptany - i to jeszcze na
-etapie, kiedy to wszystko wyglądało znacznie bardziej podejrzanie niż teraz.
+etapie, kiedy to wszystko wyglądało znacznie bardziej podejrzanie.
 
-Tomkowi Smoleniowi, za jakże mi miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
+Tomkowi Smoleniowi, za bardzo miłe słowa zachęty i wykrycie wady polegającej na tym, że nie dość
 wcześnie tłumaczyłem sens ostrzeżenia o stylu, widocznego jako podświetlenie nazwy parametru na
 szaro.
 
@@ -208,37 +214,38 @@ kodzie zadania `tn3`. Zapisując to zadanie musiałem pewnie przekleić z otacza
 `¬ P n → (P n → Q n)`, sformatowane tak, żeby wyświetlało się jako fragment kodu, a więc jako
 fragment tekstu otoczony *grawisami* (ang. *backtick*) - \`¬ P n → (P n → Q n)\` - i zapomniałem je
 usunąć. W ten sposób wyróżnia się w tekście fragmenty kodu w formacie
-[Markdown](https://en.wikipedia.org/wiki/Markdown), którego tutaj używam. Dzięki tej informacji
+[Markdown](https://en.wikipedia.org/wiki/Markdown), którego tu używam. Dzięki tej informacji
 zwrotnej [TIL](https://en.wiktionary.org/wiki/TIL), że to się nazywa
 [grawis](https://pl.wikipedia.org/wiki/Grawis). Note to self: Borek, sprawdzaj częściej kod, bo nie
 masz w głowie Leana.
 
-Kubie Szewczykowi, za dodającą odwagi, rzeczową i przemyślaną reakcję.
+Kubie Szewczykowi, za dodającą odwagi, pozytywną, rzeczową i przemyślaną reakcję.
 
-Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo tu na głównej stronie,
-jak również za cenne meta-refleksje na temat terapii i w ogóle zainteresowanie tematem.
+Mai Strypling, za wskazanie błędu ortograficznego, który wisiał sobie długo tu na głównej stronie i
+za cenne meta-refleksje na temat terapii i w ogóle zainteresowanie tematem.
 
-Szymonowi Stryplingowi, który jak dotąd jest najmłodszym (czternastoletnim!) znanym mi czytelnikiem
-tej książki i któremu opanowanie treści i wykonanie poleceń zawartych w rozdziale piątym zajęło, jak
-się dowiedziałem, około pół godziny. Z tej okazji, na Jego cześć, przed fragmentem, którego
-zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani trochę mnie nie dziwi,
-bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale najtrudniejszy - dodałem
-dłuższe ostrzeżenie i zachętę.
+Szymonowi Stryplingowi, który jak dotąd jest najmłodszym, bo *czternastoletnim*, znanym mi
+czytelnikiem tej książki i któremu opanowanie treści i wykonanie poleceń zawartych w rozdziale
+piątym zajęło, jak się dowiedziałem, około pół godziny. Z tej okazji, na Jego cześć, przed
+fragmentem, którego zrozumienie wymagało od Niego nieco więcej skupienia i wytrwałości - co ani
+trochę mnie nie dziwi, bo dokładnie o tym fragmencie napisałem wcześniej, że jest w tym rozdziale
+najtrudniejszy - dodałem dłuższe ostrzeżenie i zachętę.
 
 I jeszcze raz Szymonowi Stryplingowi, któremu udało się (jeszcze szybciej niż przez piąty)
 przelecieć przez rozdział szósty i o którym to rozdziale powiedział, że był *prostszy*. Szymon
 rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym zadania, w tym również to, które sam
-określiłem jako skierowane do osób *nadmiernie ambitnych*.
+określiłem jako przeznaczone dla osób *nadmiernie ambitnych*.
 
 Marcinowi Charlińskiemu, za bardzo miłe słowa, dotyczące zresztą nie tylko tej książki, za wykrycie
 w rozdziale drugim wadliwego linku do dostępnej za darmo, znakomitej książki Sheldona Axlera
 [*Linear Algebra Done Right*](https://linear.axler.net/) (na początek polecam raczej *drugie*
-wydanie) i za wskazanie mi możliwości napisania czegoś lepiej.
+wydanie, ale to tylko moja opinia) i za wskazanie mi możliwości napisania czegoś lepiej.
 
 Jeszcze raz Tomkowi Smoleniowi, za dociekliwość, zaangażowanie i wykrycie potencjalnego źródła
 nieporozumień polegającego na tym, że nie napisałem dość wcześnie i wystarczająco wyraźnie, że *typ
-funkcyjny* znaczy dokładnie to samo, co *typ funkcji*, a także za zainspirowanie mnie do mam
-nadzieję lepszego wytłumaczenia szczególnego charakteru typu `Absurd` w rozdziale o negacji.
+funkcyjny* znaczy dokładnie to samo, co *typ funkcji* (chyba, że mówimy na przykład *typ funkcji `f`
+to...*), a także za zainspirowanie mnie do mam nadzieję lepszego wytłumaczenia szczególnego
+charakteru typu `Absurd` w rozdziale o negacji.
 
 ### Przypisy
 
