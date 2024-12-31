@@ -237,14 +237,16 @@ testowe są *zawsze blisko związane treściowo*, można tą miarę interpretowa
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
 zadanie udzielenia odpowiedzi na pozycje testowe*.
 
-Zamiast próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się jak
-wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
-*zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji
-organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg
-naszych procesów umysłowych, albo w jaki sposób nasze zachowanie reguluje mózg, i zamiast skupiać
-się - przynajmniej *pozornie* - na przyczynowych relacjach między fizycznie rozumianymi bodźcami i
-reakcjami, jak to mają w zwyczaju psychologowie o orientacji behawioralnej, zajmiemy się czymś jakby
-xkompletnie z drugiej strony, to jest *środowiskiem*.
+Nie będziemy wtedy próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni -
+domyślać się, jak wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*,
+*idiosynkratyczne*, *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej
+historii interakcji organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo
+Twojego umysłu i przebieg naszych procesów umysłowych, ani *tym bardziej* nie będziemy się
+koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
+potwora](https://www.spaghettimonster.org/) którego nazywamy mózgiem. I nie będziemy się też
+skupiać na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
+przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego zajmiemy
+się czymś jakby kompletnie z drugiej strony, to jest *środowiskiem*.
 
 Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa*, a czym nie jest na
 przykład dla fizyka *jako fizyka* i czym zawsze dla psychologa pozostanie. Będzie to mianowicie
