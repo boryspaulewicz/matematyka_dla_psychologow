@@ -86,19 +86,20 @@ Inna nazwa na absurd to *fałsz*.
 *Niechaj wszystkie istoty, żywe i martwe, [pokłonią
 się](https://www.youtube.com/watch?v=Nrz250ryvr8) przed potęgą typów zależnych!*
 
-Trochę mnie poniosło, ale chyba mnie rozumiesz. Być może najprostszy punkt widzenia na to, czym jest
-tutaj typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala
-ekspresyjność języka teorii typów, a który jest tak skonstruowany, że - ze względu na interpretację
-typu `Prop` - pozwala zaimplentować zasadę eksplozji dedukcyjnej (ale nie zaimplementować *funkcję*
-typu `Absurd`, o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruowany w taki sposób, że
-*pełni* dokładnie *rolę fałszu*, a więc *jest fałszem* (tak jak go technicznie rozumiemy w logice).
+Trochę mnie poniosło, ale sama rozumiesz. Być może najprostszy punkt widzenia na to, czym jest tutaj
+typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala ekspresyjność
+języka teorii typów, a który jest tak skonstruowany, że - ze względu na interpretację typu `Prop` -
+pozwala zaimplentować zasadę eksplozji dedukcyjnej (ale nie *zaimplementować funkcję* typu `Absurd`,
+o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruowany w taki sposób, że *pełni*
+dokładnie *rolę fałszu*, a więc *jest fałszem* (tak jak go technicznie rozumiemy w logice).
 
-Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać funkcja typu `Absurd`*, to odpowiadam, że nie
-mogłaby, bo taka funkcja może istnieć tylko "wirtualnie" jako (aksjomatyczne albo lokalne)
-*założenie*, którego nie da się w żaden sposób *zaimplementować*. Gdyby istniała, musiałaby tworzyć
-dowody zdań z niczego, "wiedząc" jedynie, że dostała *jakieś* zdanie, a wtedy *każde* zdanie byłoby
-natychmiast prawdziwe. Funkcja typu `Absurd` jest więc czymś *o czym* możemy mówić, ale czego nie
-możemy *wypowiedzieć*.
+Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać* funkcja typu `Absurd`, to odpowiadam, że nie
+mogłaby, bo taka funkcja może istnieć tylko *wirtualnie* jako (aksjomatyczne albo lokalne)
+*założenie*, którego nie da się w żaden sposób *zaimplementować*. Gdyby taka funkcja istniała,
+musiałaby tworzyć dowody zdań z niczego, "wiedząc" jedynie, że dostała *jakieś* zdanie, a wtedy
+*każde* zdanie byłoby natychmiast prawdziwe. Jedynym sposobem, żeby to zrobić, byłoby *tworzenie
+aksjomatów*, a to jest akurat *nasza* rola. Z konieczności wirtualna funkcja typu `Absurd` jest więc
+czymś, *o czym* możemy mówić, ale czego nie możemy *wypowiedzieć*.
 
 ## O co chodzi z tym Absurdem?
 
