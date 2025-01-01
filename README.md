@@ -111,11 +111,7 @@ za to te, z którymi spotkasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Le
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
 większe zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu publicznie
 dostępna historia zachodzących zmian może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
-tym [czym jest zachowanie](./rozdzialy/02_Cel.md). Żeby całkiem dosłownie *zobaczyć*, o co chodzi w
-tym punkcie widzenia, możesz rzucić okiem na to, w jaki sposób kiedyś robiłem i czasami wciąż zdarza
-mi się próbować robić
-[zdjęcia](https://www.dropbox.com/scl/fo/xup62948bbrropjdz0phk/AMfkFdVX0WA0vziZ3lt3Xfo?rlkey=ks43vvthysqgclyashp16kxbt&st=mewu2g29&dl=0).
-Na bliższe wyjaśnienia będzie jednak trzeba trochę poczekać.
+tym [czym jest zachowanie](./rozdzialy/02_Cel.md). 
 
 Akt pisania książki jest co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
