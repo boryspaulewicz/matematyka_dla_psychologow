@@ -135,15 +135,15 @@ Co jeszcze, poza czymś w rodzaju racjonalności, oznacza moim zdaniem bycie nau
 pytasz! Między innymi [*wolność*](https://www.youtube.com/watch?v=diYAc7gB-0A). Pod tym względem
 (jak i wieloma innymi) zgadzam się (zgadzam się to za mocno powiedziane - raczej mu ufam) z
 genialnym [Noamem Chomskim](https://chomsky.info/20110408/), który uważa się za *anarchistę*. Brzmi
-może niepokojąco, ale chodzi tak naprawdę o postawę, która w mojej ocenie nie jest wcale
-ekscentryczna ani ekstremalna:
+może niepokojąco, ale chodzi tak naprawdę o postawę, która moim zdaniem nie jest wcale ekscentryczna
+ani ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
 
 Otóż to, *burden of proof*. Bardzo odpowiada mi ten rodzaj wolności. Gdy bierzesz udział w moich
 zajęciach, jesteś pod presją publicznej instytucji w której pracuję zmuszono tymczasowo traktować
-mnie jak autorytet nawet gdybym nie dał Ci powodów, żebyś mnie tak traktowało. A to oznacza pewne
+mnie jak autorytet, nawet gdybym nie dał Ci powodów, żebyś mnie tak traktowało. A to oznacza pewne
 zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of proof jest wtedy on
 *me*.
 
@@ -156,36 +156,36 @@ dlatego, ale nie tylko dlatego, mamy wobec siebie takie a nie inne oczekiwania.
 Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzając dużej ilości czasu na
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
 często nie chce im się wszystkiego tłumaczyć tak szczegółowo, powoli i jasno, żeby nie trzeba było
-wykonywać bardzo wielu zadań, aby to zrozumieć. Dlatego jestem zdania, że spoczywa na mnie jeszcze
-inny obowiązek, poza gotowością do uzasadniania tego, o czym mówię, poza w miarę regularnym
-uzupełnianiem braków w wiedzy i poza wskazywaniem błędów w tekstach, z których korzystamy na
-zajęciach (co akurat bardzo lubię robić). Mam na myśli obowiązek dobrego tłumaczenia. A na Tobie,
-ponieważ zajmujesz miejsce, które mógłby zająć przecież ktoś inny, spoczywa obowiązek podejmowania
-prób zrozumienia tego, co staram Ci się wytłumaczyć, jak również wskazywania mi, kiedy kiepsko coś
-tłumaczę. Chodzi mi tylko o próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to są bez
-wątpienia obowiązki, ale również szansa na coś wspaniałego.
+wykonywać bardzo wielu zadań. Dlatego jestem zdania, że spoczywa na mnie jeszcze inny obowiązek,
+poza gotowością do uzasadniania tego, o czym mówię, poza w miarę regularnym uzupełnianiem braków w
+wiedzy i poza wskazywaniem błędów w tekstach, z których korzystamy na zajęciach (co akurat bardzo
+lubię robić). Mam na myśli obowiązek dobrego tłumaczenia. A na Tobie, ponieważ zajmujesz miejsce,
+które mógłby zająć przecież ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia tego, co
+staram Ci się wytłumaczyć, jak również wskazywania mi, kiedy kiepsko coś tłumaczę. Chodzi mi tylko o
+próby, bo na dłuższą metę tylko to się moim zdaniem liczy. I to są bez wątpienia obowiązki, ale
+również szansa na coś wspaniałego.
 
 Korzystając z okazji, chcę Ci powiedzieć coś jeszcze na temat wolności. Gdy byłem nastolatkiem, było
 mi trudno przełamać się, żeby na imprezach, na których tańczyli moi znajomi, również wejść na
 parkiet i tańczyć razem z nimi. Wydaje mi się, że Ci, którzy mają z tym problem i patrzą na
-tańczących z boku są często przekonani, że wyglądają wtedy *poważnie*. Jednocześnie z zewnątrz to
+tańczących z boku, są często przekonani, że wyglądają wtedy *poważnie*. Jednocześnie z zewnątrz to
 jednak chyba niekoniecznie tak wygląda. Można powiedzieć, że powaga jest jakby rewersem albo drugą
 stroną *wstydu*, a wstyd jest często niepotrzebną nikomu przeszkodą, która utrudnia między innymi
 robienie rzeczy nieszkodzliwych i - przynajmniej potencjalnie - wartościowych. W ten sposób wstyd
 przeszkadza więc między innymi w *tworzeniu* czegoś *nowego*.
 
 Zdarza mi się obserwować podobną powagę u innych, gdy uczestniczę w mniej lub bardziej oficjalnych
-zebraniach, ale widzę ją często również i u siebie, kiedu na przykład prowadzę zajęcia. Ta powaga
-przejawia się między innymi w ten sposób, że ludzie, którzy znają się od dawna i od dawna są na Ty,
-w niektórych sytuacjach zaczynają nagle zwracać się do siebie per Pan lub per Pani, albo nawet
-posługują się tytułami naukowymi, i wtedy ktoś, kto zawsze był i zawsze będzie po prostu Kamilem,
-zmienia się nagle w Kamila - Pana Profesora. Myślę sobie, że chociaż istnieją co prawda różne dobre
-*powody*, żeby zachować tego rodzaju powagę, to jednak faktyczna *przyczyna*, dla której tak czasem
-robimy, może wcale nie być dobra. Bo tą przyczyną może być i chyba często jest po prostu wstyd, czy
-może raczej lęk przed potencjalnym wstydem. A taki lęk utrudnia, o ile wręcz nie uniemożliwia,
-między innymi swobodną wymianę poglądów i racjonalną, krytyczną dyskusję, a tym samym utrudnia
-również autentyczną pracę naukową, ponieważ *każda* tego rodzaju dyskusja jest z konieczności
-procesem *twórczym*.
+zebraniach, ale widzę ją często również i u siebie, kiedu na przykład prowadzę zajęcia albo pełnię
+inne oficjalne role. Ta powaga przejawia się między innymi w ten sposób, że ludzie, którzy znają się
+od dawna i od dawna są na Ty, w niektórych sytuacjach zaczynają nagle zwracać się do siebie per Pan
+lub per Pani, albo nawet posługują się jakimiś tytułami, i wtedy ktoś, kto zawsze był i zawsze
+będzie po prostu Kamilem, zmienia się nagle w Kamila - Pana Profesora. Myślę sobie, że chociaż
+istnieją co prawda różne dobre *powody*, żeby zachować tego rodzaju powagę, to jednak faktyczna
+*przyczyna*, dla której tak czasem robimy, może wcale nie być dobra. Bo tą przyczyną może być i
+chyba często jest po prostu wstyd, czy może raczej lęk przed potencjalnym wstydem. A taki lęk
+utrudnia, o ile wręcz nie uniemożliwia, między innymi swobodną wymianę poglądów i racjonalną,
+krytyczną dyskusję, a tym samym utrudnia również autentyczną pracę naukową, ponieważ *każda* tego
+rodzaju dyskusja jest z konieczności procesem *twórczym*.
 
 ### Przypisy
 
