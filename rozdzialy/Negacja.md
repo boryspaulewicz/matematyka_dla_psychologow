@@ -98,8 +98,8 @@ mogłaby, bo taka funkcja może istnieć tylko *wirtualnie* jako (aksjomatyczne 
 *założenie*, którego nie da się w żaden sposób *zaimplementować*. Gdyby taka funkcja istniała,
 musiałaby tworzyć dowody zdań z niczego, "wiedząc" jedynie, że dostała *jakieś* zdanie, a wtedy
 *każde* zdanie byłoby natychmiast prawdziwe. Jedynym sposobem, żeby to zrobić, byłoby *tworzenie
-aksjomatów*, a to jest akurat *nasza* rola. Z konieczności wirtualna funkcja typu `Absurd` jest więc
-czymś, *o czym* możemy mówić, ale czego nie możemy *wypowiedzieć*.
+aksjomatów*, a to jest akurat *nasza* rola. Z konieczności wirtualna, funkcja typu `Absurd` jest
+więc czymś, *o czym* możemy mówić, ale czego nie możemy *wypowiedzieć*.
 
 ## O co chodzi z tym Absurdem?
 
