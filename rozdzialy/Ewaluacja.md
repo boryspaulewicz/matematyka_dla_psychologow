@@ -56,9 +56,9 @@ na tym, co Ci do tej pory pokazałem.
 A żeby zwiększyć Twoją tolerancję dla [niewyjaśnionych
 tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie bardzo Ci
 się przyda, proponuję, żebyś wkleiła do Leana poniższy fragment poprawnego kodu, zawierający
-definicję jeszcze *uniwersalniejszej*[^1] identyczności. Mam nadzieję, że nic z tego nie rozumiesz,
-bo dodałem tu ten fragment tylko po to, żeby przyzwyczaić Cię do tego, że możesz pewnych rzeczy nie
-rozumieć a mimo to czytać dalej.
+definicję jeszcze *uniwersalniejszej*[^1] identyczności. Mam nadzieję, że *nic* z tego nie
+rozumiesz, bo dodałem tu ten fragment *tylko* po to, żeby przyzwyczaić Cię do tego, że możesz
+pewnych rzeczy nie rozumieć a mimo to czytać dalej.
 
 ```lean
 universe u
