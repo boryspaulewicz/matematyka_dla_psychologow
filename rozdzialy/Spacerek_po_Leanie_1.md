@@ -402,6 +402,13 @@ i jednocześnie podstawiamy za zmienną *y* argument *2*:
 
 *2 + 2*
 
+Jeszcze raz to samo, ale tym razem bez komentarzy:
+
+*(λ x . (λ y . x + y)) 1 2*  
+*(λ y . 1 + y) 2*  
+1 + 2  
+3
+
 Rozumiesz już, że możemy w ten sposób definiować funkcje, które zachowują się jak funkcje
 dwuargumentowe, posługując się tylko funkcjami jednoargumentowymi? Ten sposób to tak zwany
 *currying*, od nazwiska wybitnego matematyka [Haskella
