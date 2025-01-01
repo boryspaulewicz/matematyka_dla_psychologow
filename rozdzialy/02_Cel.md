@@ -267,7 +267,7 @@ Osiągniemy to wszystko nie korzystając za bardzo z wiedzy psychologicznej, bo 
 żebym sporo takiej wiedzy zastał. Coś tam mniej więcej wiadomo i do niektórych rzeczy bardzo się
 przydaje to, co wiemy, ale psychologia naukowa wciąż jest na etapie powstawania, jej sukcesy
 aplikacyjne są jak dotąd delikatnie mówiąc skromne, a zawartość wielu podręczników, o czym łatwo się
-przekonać, zmieniła się w niewielkim stopniu w ciągu ostatnich kilkudziesięciu lat. Będziemy za to
+przekonać, nie uległa jakiejś radykalnej zmianie w ciągu kilkudziesięciu lat. Będziemy za to
 intensywnie korzystać z tej niezwykłej *meta-matematyki stosowanej*, którą tu objaśniam i której
 będę używał jako uniwersalnego narzędzia służącego do meta-teoretycznych badań, jaką jest teoria
 typów, a której autorem jest wybitny szwedzki logik, filozof i statystyk matematyczny [Per
