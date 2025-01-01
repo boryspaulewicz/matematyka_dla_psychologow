@@ -210,7 +210,7 @@ wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się *zewnętrzny 
 jednocześnie wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy
 *Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością
 opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest
-procesem *społecznym*, w którym podmiotowość jest stale *re-konstruowana* w ramach uczenia się
+procesem *społecznym*, w którym podmiotowość jest nieustannie *re-konstruowana* w ramach uczenia się
 polegającego na abstrakcyjnie rozumianym, wewnątrz- lub między-jednostkowym *dialogu*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
@@ -266,9 +266,9 @@ domyślać się, jak wygląda to, co jest praktycznie *nieobserwowalne*, ekstrem
 *idiosynkratyczne*, *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej
 historii interakcji organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo
 Twojego umysłu i przebieg naszych procesów umysłowych, ani *tym bardziej* nie będziemy się
-koncentrować na tym, w jaki sposób zachowanie jest regulowane przez [wymiarowego
-potwora](https://www.spaghettimonster.org/) którego nazywamy mózgiem. I nie będziemy się też skupiać
-na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
+koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
+potwora](https://www.spaghettimonster.org/) którego nazywamy mózgiem. I nie będziemy się też
+skupiać na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
 przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego zajmiemy
 się czymś jakby kompletnie z drugiej strony, to jest *środowiskiem*.
 
