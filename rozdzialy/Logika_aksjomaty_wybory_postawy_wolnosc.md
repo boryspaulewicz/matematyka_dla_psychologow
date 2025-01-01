@@ -96,20 +96,21 @@ aksjomaty?
 Możesz się zgodzić na dalszą grę komunikacyjną według reguły *taki a taki fakt wystąpił* - bo ja tak
 powiedziałem - i to będzie tak zwany kredyt zaufania, albo możesz się nie zgodzić, ale nie ma tu w
 zasadzie możliwości *skutecznej intersubiektywnej weryfikacji* tego faktu lub nie-faktu. W
-najlepszym razie możesz spędzić trochę czasu na kosztownym, pod wzlględem czasu, wysiłku, a może i
-pieniądzy, badaniu świadectw pośrednich, czyli poszlak.
+najlepszym razie możesz spędzić trochę czasu na kosztownym i zawodnym badaniu świadectw pośrednich,
+czyli poszlak. Biorąc pod uwagę ile tego typu reguł musimy na codzień akceptować, w praktyce nikt
+nie może sobie na takie badania pozwolić.
 
 Ja na przykład zachowuję się czasami, jakbym coś tam wiedział o ogólnie rozumianych zyskach i
 stratach wynikających z powszechnych szczepień, których zresztą jestem zwolennikiem. Ale prawda jest
 taka, że nie mam za bardzo pojęcia o tym obszarze badań i polegam prawie całkowicie na skąpych i
-pośrednich informacjach pochodzących od ludzi, którym w takich sprawach ufam. To są więc takie moje
-aksjomaty.
+pośrednich informacjach pochodzących od tych, którym w takich sprawach ufam. A więc to są również
+takie moje aksjomaty.
 
 Jeśli coś wygląda jak aksjomat, chodzi jak aksjomat i kwacze jak aksjomat, to ponieważ bycie
-aksjomatem sprowadza się do pewnej *roli*, to coś *jest* aksjomatem. Dokąd to wszystko zmierza?
-Miało być przecież o matematyce. Na typ etapie ja też jeszcze nie wiem! A właściwie wiem, bo już
-widzę księżyc, tylko nie mam jeszcze [palca](https://en.wikipedia.org/wiki/Cringe), którym mógłbym
-Ci go wskazać.
+aksjomatem sprowadza się do pewnej *roli*, to coś *jest* po prostu aksjomatem. Dokąd to wszystko
+zmierza?  Miało być przecież o matematyce. Na typ etapie ja też jeszcze nie wiem! A właściwie wiem,
+bo już widzę księżyc, tylko nie mam jeszcze [palca](https://en.wikipedia.org/wiki/Cringe), którym
+mógłbym Ci go wskazać.
 
 *No więc[^1]* być może Tobie też ta hipotetyczna interpretacja rachunku logicznego w kategoriach
 geometrycznych wydałaby się spójna i sensowna. Wtedy dalszy ciąg komunikacji, nawet jeśli tylko
