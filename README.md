@@ -10,10 +10,24 @@ najprostszej możliwej postaci.</em></div>
 
 First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie, co powiedziała [Julia
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
-feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life).  
-(Tylko proszę nie pisać o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba, że
-pojawiły się na głównej stronie. Mam lekką dysgrafię, ale w tym momencie to już nie ma większego
-znaczenia.)
+feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life),
+a mówiąc bardziej rozwlekle:
+
+Moje pióro nie jest lekkie, ale gorzej, że często słabo zdaję sobie sprawę z tego, co odbiorca wie
+albo co może łatwo zrozumieć. Dlatego mam nadzieję, że widząc w historii zmian wszystkie moje błędy
+i niezgrabne sformułowania i widząc też, że staram się tego rodzaju wady usuwać, sprowokuję Cię do
+tego, żebyś*my* tą konkretną książkę napisali *razem*. Bo to nie jest ani "moja" książka - zresztą
+żadna książka nie jest tak naprawdę "czyjaś" - ani ona nie jest dla mnie. Zwłaszcza książka, która
+ma *służyć do nauki*, nie powinna moim zdaniem (pozornie) "należeć" do żadnej konkretnej osoby, ani
+nawet do kilku wybitnych autorów, bo wtedy *nie może* dobrze spełniać swojej roli. Żaden autor nie
+ma przecież uprzywilejowanego dostępu do trudności, jakie będą napotykać czytelnicy. Dlatego efekt
+końcowy musi być - i zawsze do pewnego stopnia jest - wynikiem *współpracy*. Jeżeli więc tylko
+interesuje Cię to, co mam tu do powiedzenia i chcesz to zrozumieć, to masz szansę, tak długo jak
+tylko będę w stanie to robić, pomóc sobie i innym do
+Ciebie podobnym odbiorcom *rozmawiając ze mną*.  
+(Tylko proszę nie pisz wtedy o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba,
+że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
+większego znaczenia.)
 
 No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania ...
 
