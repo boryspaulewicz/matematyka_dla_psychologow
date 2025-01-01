@@ -110,10 +110,10 @@ o typie `Nat` jest ..." - albo *zdania*, na przykład "Jeżeli `dziesiec : Nat` 
 sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu przypadkach właściwa
 interpretacja będzie wynikała z kontekstu.
 
-**Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`. Musisz tylko skorzystać
-z `dziesiec` jako przykładu, zamieniając dwa elementy definicji - nazwę stałej i jej wartość. Jeżeli
-zobaczysz fragment podkreślony czerwoną falką, spróbuj wywnioskować na czym polega problem z
-komunikatu o błędzie.
+**Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy` tak, żeby oznaczała
+liczbę `3`. Musisz tylko skorzystać z `dziesiec` jako przykładu, zamieniając dwa elementy
+definicji - nazwę stałej i jej wartość. Jeżeli zobaczysz fragment podkreślony czerwoną falką,
+spróbuj wywnioskować na czym polega problem z komunikatu o błędzie.
 
 **Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną* zastępując `3` przez słowo
 `tszy` (bez cudzysłowów). Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
