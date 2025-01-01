@@ -179,9 +179,9 @@ swoją).
 
 Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
 *funkcjonalizmem obiektywnym*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia,
-dokładnie tak samo jak "Ten, który powtarza doświadczenie" szybko znika nam z pola widzenia gdy
+dokładnie tak samo jak "Ten, który powtarza doświadczenie" szybko znika nam z pola widzenia, kiedy
 poznajemy rachunek prawdopodobieństwa, a "Ten, który dokonuje zewnętrznej interwencji" szybko się
-ulatnia, gdy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie nadal
+ulatnia, kiedy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie nadal
 "Jego" cień.
 
 Można to powiedzieć również tak: Tak samo, jak nie da się wyprowadzić wniosków o charakterze
@@ -191,7 +191,7 @@ wniosków na temat *działań celowych* nie przyjmując żadnych założeń na t
 i najbardziej elastyczną postacią tego rodzaju założeń są założenia o charakterze *ocennym*, które
 można wyrazić formalnie jako relacje *porządku*. Gdy tylko dodamy w odpowiedniej wersji - do
 probabilistycznych i przyczynowych - tego typu założenia, będziemy mogli natychmiast zacząć mówić
-*wprost* o *działaniach celowych*, a więc *zachowaniach*.
+*wprost* o *działaniach celowych*, a więc *zachowaniach*. 
 
 Albo tak: Wprowadzając do języka formalnego preferencję zewnętrznego obserwatora, uzupełnimy
 istniejące już formalne teorie, pozwalające mówić o tym ...
@@ -208,7 +208,8 @@ wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w jakim stopniu m
 zachodziło Z*. W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne
 wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się *zewnętrzny Agent*[^2]. Rozpoznamy
 jednocześnie wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy
-*Kogoś, kto właściwie nie istnieje*.
+*Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością
+opisywanego procesu.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
