@@ -366,7 +366,7 @@ tej konwencji, możesz uzyskać tą grecką literę pisząc `\la`.
 
 Jeżeli zastosujemy uproszczoną (bo bez typów) notację matematyczną, gdzie zamiast `fun` będziemy
 pisać *λ*, a zamiast `=>` będziemy pisać *kropkę*, to zobaczymy, że ewaluacja aplikacji anonimowej
-wersji (bo bez nazwy "dodaj2") funkcji `dodaj2`:
+(bo bez nazwy "dodaj2") wersji funkcji `dodaj2`:
 
 *(λ x . x + 2) 2*
 
