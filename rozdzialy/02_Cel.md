@@ -108,9 +108,9 @@ uzasadnione wnioski pracownika naukowego. Ja tak w każdym razie sądzę.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
-pojęcia *zadania*. Odkryjemy wtedy kluczową przyczynowo-zadaniową rolę *instrukcji* (w tym również
-*instrukcji zrandomizowanej*), którą psychologowie zdają się zwykle traktować jakby była co najwyżej
-drugorzędną częścią badań.
+pojęcia *zadania*. Odkryjemy również wtedy kluczową przyczynowo-zadaniową rolę *instrukcji* (w tym
+również *instrukcji zrandomizowanej*), którą psychologowie zdają się tak często bezmyślnie
+lekceważyć.
 
 Dzięki tej jednej definicji będziemy mogli całkowicie zakodować w języku teorii typów artykuł
 naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. Pomijają ewentualną dokumentację, z
