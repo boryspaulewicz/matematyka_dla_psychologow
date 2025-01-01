@@ -442,13 +442,23 @@ komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry fu
 **Polecenie**: Napisz w nowej linijce `#eval n`. Zobaczysz wtedy, że symbol `n` będzie podkreślony
 czerwoną falką. Usuń ten błędny kod. W ten sposób Lean sygnalizuje, że nie wie, o czym mówisz, a nie
 wie, bo symbol `n` jest widoczny tylko wewnątrz ciała funkcji `suma`. Tak właśnie działa zasięg
-nazw.
+nazw. 
 
-**Funkcja jako pudełko z mechanizmem**: Możemy myśleć o funkcji takiej jak `suma` jako o pudełku,
-które ma dwa wejścia, jedno oznaczone literą `n`, a drugie literą `m`, i które ma jedno wyjście, a w
-środku ma "mechanizm dodający" obiekty pojawiające się na wejściach. Jeżeli wyobrazimy sobie, że ten
-wewnętrzny mechanizm jest "przyklejony" do wejść, to stanie się jasne, że nazwy wejść nie mają
-znaczenia i istnieją tylko dla wygody użytkownika.
+Możesz sobie wyobrazić, że ciało funkcji to pewien mechanizm albo mały robot, który ma nad sobą
+otwory, przez które może dostawać różne obiekty będące argumentami aplikacji funkcji. Te obiekty są
+dla niego zawsze *opakowane* (*jakieś*), a więc nie wie, jak dokładnie wyglądają, wie tylko, że to
+są jakieś obiekty, które wpadły przez taki albo inny otwór. Jeżeli to jest robot prający wewnątrz
+funkcji `suma`, to gdy dostaje dwie liczby, dla niego to są tylko dwa opakowane obiekty, o których
+wie jedynie, że mają typ `Nat` i wie, który jest pierwszy, a który drugi, bo na opakowaniach widzi
+nazwy `n` i `m`. W przypadku funkcji suma, wszystko, co ten robot robi (ech) to aplikacja dodawania
+do tych dwóch obiektów.
+
+**Funkcja jako pudełko z mechanizmem**: Albo, nieco bardziej abstrakcyjnie, możemy myśleć o funkcji
+takiej jak `suma` jako o pudełku, które ma dwa wejścia, jedno oznaczone literą `n`, a drugie literą
+`m`, i które ma jedno wyjście, a w środku ma "mechanizm dodający" obiekty pojawiające się na
+wejściach. Jeżeli wyobrazimy sobie, że ten wewnętrzny mechanizm jest "przyklejony" do wejść, to
+stanie się jasne, że nazwy wejść nie mają znaczenia i istnieją tylko dla wygody użytkownika, czyli
+naszej.
 
 Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście, a tak naprawdę również
 tylko jedno wejście) *mają* znaczenie. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
