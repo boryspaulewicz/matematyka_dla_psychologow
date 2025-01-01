@@ -278,7 +278,7 @@ tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej 
 skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę (albo czytelnika).
 
 Gdybym próbował napisać to, co staram się teraz napisać, jako artykuł naukowy, musiałbym się znowu
-zgodzić na zasady, które obowiązują mnie, moich kolegów i moje koleżanki z pracy kiedy piszemy
+zgodzić na zasady, które obowiązują mnie, moich kolegów i moje koleżanki z pracy, kiedy piszemy
 manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład pisać w
 stylu, który obecnie obowiązuje w tego typu publikacjach. Nie przepadam za tym stylem, zresztą nie
 tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu problemów, za to
