@@ -44,8 +44,8 @@ cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu pasuj
 
 > If you want to master something, teach it.
 
-Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji, to wyślij mi maila, dopiszę Cię wtedy
-do listy adresatów.
+Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji i być może dodać coś od siebie, to
+wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
