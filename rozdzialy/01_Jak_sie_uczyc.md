@@ -137,8 +137,8 @@ przestaj± go stosowaæ.
 Nawiasem mówi±c, odkry³em wtedy co¶ niepokoj±cego. Zorientowa³em siê mianowicie, ¿e *pracownicy
 naukowi rzadko siê czego¶ ucz±*. Owszem, czêsto czytaj± artyku³y i ksi±¿ki dotycz±ce tego, czym siê
 akurat zajmuj±, ale nie spotka³em dot±d *¿adnego* pracownika naukowego, który by co¶ systematycznie
-powtarza³. Ciekawe, prawda? Jednym z powodów jest pewnie brak czasu, ale bior±c pod uwagê charakter
-tej pracy, to jest, mówi±c delikatnie, do¶æ s³aba wymówka. Za to wiêkszo¶æ stara siê du¿o
+powtarza³[^4]. Ciekawe, prawda? Jednym z powodów jest pewnie brak czasu, ale bior±c pod uwagê
+charakter tej pracy, to jest, mówi±c delikatnie, do¶æ s³aba wymówka. Za to wiêkszo¶æ stara siê du¿o
 *publikowaæ*, co mi akurat wychodzi przeciêtnie, bo rzadko mi siê zdaje, ¿e mam co¶ zarazem nowego i
 warto¶ciowego do opowiedzenia. W³a¶ciwie raz na kilka lat mi siê tak zdaje, a niema³ej czê¶ci
 publikacji, których jestem wspó³autorem, po prostu siê wstydzê. Je¿eli wiêc chodzi Ci po g³owie (w
