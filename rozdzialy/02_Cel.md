@@ -309,7 +309,7 @@ to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji auto
 władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według mnie taka
 postawa jest po prostu *anty*naukowa.
 
-Myślę, że najlepiej będzie, jeśli zaczniemy od podstaw.
+Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*.
 
 ### Przypisy
 
