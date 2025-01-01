@@ -92,16 +92,10 @@ Gdy umieścisz kursor nad *pierwszym* wystąpieniem słowa `#check`, zobaczysz p
 wyrażenie o postaci `M : N`, gdzie `M` i `N` to jakieś wyrażenia, oznacza, że `M` ma typ `N`. Gdy
 `M` to *zmienna*, na przykład `x`, takie wyrażenie nazywamy *deklaracją* (typu tej zmiennej), na
 przykład, `x : N`, gdzie `N` to jakieś wyrażenie oznaczające typ, jest deklaracją, że `x` ma typ
-`N`. Skomplikowane? To popatrz na to (ale nie wklejaj tego do Leana):
-
-```lean
-10 : Nat
-```
-
-To jest deklaracja, że `10` ma typ `Nat`, czyli, że `10` jest liczbą naturalną. A zawsze, gdy po
-stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, masz do czynienia z *typem
-funkcyjnym*. Na przykład `nic_nie_robie` jest termem typu funkcyjnego, czyli funkcją, bo ma w typie
-strzałkę. Komunikat, który widzisz po prawej, gdy sprawdzasz typ tej stałej, to jest komunikat:
+`N`. A zawsze, gdy po stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, masz do
+czynienia z *typem funkcyjnym*. Na przykład `nic_nie_robie` jest termem typu funkcyjnego, czyli
+funkcją, bo ma w typie strzałkę. Komunikat, który widzisz po prawej, gdy sprawdzasz typ tej stałej,
+to jest komunikat:
 
 `nic_nie_robie : Nat → Nat`
 
