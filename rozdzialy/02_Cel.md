@@ -189,10 +189,10 @@ istniejące już formalne teorie, pozwalające mówić o tym ...
 
 .. a więc rachunek prawdopodobieństwa, rachunek interwencji i rachunek kontrfaktyczny, o możliwość
 wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w jakim stopniu można sprawić, żeby
-zachodziło Y*. W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne
-wymiary, o wymiar czwarty i *ostatni*, dzieki któremu w całej swej okazałości ujawni się *zewnętrzny
-Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako własności subiektywnego punktu
-widzenia albo sposoby opisu zjawisk z perspektywy *kogoś, kto właściwie nie istnieje*.
+zachodziło Z*. W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne
+wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się *zewnętrzny Agent*[^2]. Rozpoznamy
+jednocześnie wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy
+*Kogoś, kto właściwie nie istnieje*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
