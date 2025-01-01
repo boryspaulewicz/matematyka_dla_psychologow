@@ -93,7 +93,7 @@ wyrażenie o postaci `M : N`, gdzie `M` i `N` to jakieś wyrażenia, oznacza, ż
 `M` to *zmienna*, na przykład `x`, takie wyrażenie nazywamy *deklaracją* (typu tej zmiennej), na
 przykład, `x : N`, gdzie `N` to jakieś wyrażenie oznaczające typ, jest deklaracją, że `x` ma typ
 `N`. A zawsze, gdy po stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, masz do
-czynienia z *typem funkcyjnym*. Na przykład `nic_nie_robie` jest termem typu funkcyjnego, czyli
+czynienia z *typem funkcyjnym*[^1]. Na przykład `nic_nie_robie` jest termem typu funkcyjnego, czyli
 funkcją, bo ma w typie strzałkę. Komunikat, który widzisz po prawej, gdy sprawdzasz typ tej stałej,
 to jest komunikat:
 
