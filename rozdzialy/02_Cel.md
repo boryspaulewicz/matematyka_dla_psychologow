@@ -88,8 +88,8 @@ zwykle odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane [wąt
 badawcze](https://en.wikipedia.org/wiki/Scientific_misconduct) (ang. *questionable research
 practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami, takimi jak
 rozliczanie pracowników przede wszystkim z *ilości* publikacji, *ilości* punktów publikacyjnych i
-*ilości* grantów, ta możliwość musi często prowadzić do wątpliwych praktyk, ponieważ naukę uprawiają
-*zwykli ludzie*, tacy jak Ty czy ja.
+*ilości* grantów, ta możliwość *musi* często prowadzić do wątpliwych praktyk, ponieważ naukę
+uprawiają *zwykli ludzie*, tacy jak Ty czy ja.
 
 Gdybym miał zgadywać, powiedziałbym, że sedno tego problemu polega na tym, że w obecnym systemie
 wątpliwe praktyki badawcze są *bardzo opłacalne* i jednocześnie *łatwe*. W dodatku - i to wcale nie
