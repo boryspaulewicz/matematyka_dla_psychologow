@@ -463,9 +463,10 @@ naszej.
 Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście, a tak naprawdę również
 tylko jedno wejście) *mają* znaczenie. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
 to muszą być wyrażenia typu liczba (tutaj akurat wymagamy liczb naturalnych) i tak też mówi nasza
-definicja. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko wymusimy
-ewaluację na wyjściu pojawi się liczba naturalna. To będzie wynik dodawania wejść, bo tak jest
-skonstruowana zawartość naszego pudełka o nazwie `suma`.
+definicja. Można więc powiedzieć, że funkcje w teorii typów są zawsze tak lub inaczej
+*wyspecjalizowane*. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko
+wymusimy ewaluację na wyjściu pojawi się liczba naturalna. To będzie wynik dodawania wejść, bo tak
+jest skonstruowana zawartość naszego pudełka o nazwie `suma`.
 
 Metafora funkcji jako mechanizmu w pudełku ma pewne ograniczenia. Jak już wiesz, wyliczenie
 rezultatu aplikacji funkcji polega tak naprawdę na ewaluacji argumentów, następnie na podstawieniu
