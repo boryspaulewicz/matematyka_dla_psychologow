@@ -125,7 +125,9 @@ był tylko *słabszy*.
 
 Wypadałoby niby poza tym wprowadzić pojęcie [*zmiennnej
 losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniśmy mówić
-o (dyskretnych) *zdarzeniach elementarnych*, albo o zdarzeniach zdefiniowanych
+o (dyskretnych) [*zdarzeniach
+elementarnych*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_zdarze%C5%84_elementarnych), albo o
+zdarzeniach zdefiniowanych
 [ogólniej](https://pl.wikipedia.org/wiki/Przestrze%C5%84_probabilistyczna). Jednak jako narzędzie
 stworzone dla pewnych celów dydaktycznych i w rękach kogoś, kto zna i ma na uwadze wszystkie te
 ograniczenia, ta wersja jest moim zdaniem znacznie lepsza, niż nic. Wystarcza na przykład do
