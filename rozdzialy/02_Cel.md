@@ -58,7 +58,7 @@ Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formal
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
 teoretycznego. Okaże się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł
 empiryczny musi zawierać fragment rozumowania teoretycznego, a każdy artykuł teoretyczny służy
-ostatecznie do zmiany sposobu wnioskowania z wyników empirycznych badań.
+ostatecznie do zmiany sposobu wnioskowania z danych.
 
 Dzięki temu dostrzeżemy możliwość istnienia alternatywnego sposobu uprawiania nauki (wiem, jak to
 brzmi), z perspektywy którego zdają się tracić na znaczeniu takie praktyki jak na przykład
