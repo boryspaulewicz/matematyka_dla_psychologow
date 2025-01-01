@@ -1,15 +1,9 @@
 ## O czym teraz bêdzie
 
-Moim celem w tym rozdziale jest zapoznanie Ciê z pewnym sposobem patrzenia na matematykê. Nie chodzi
-mi tutaj o ka¿dy aspekt matematyki czy sposoby jej uparwiania albo stosowania, ani o ka¿d± jej czê¶æ
-lub postaæ, tylko o wybrane rodzaje czynno¶ci, które czêsto wykonujemy, kiedy siê ni±
-pos³ugujemy. Zobaczysz mam nadziejê, ¿e te wybrane, wa¿ne i czêsto pojawiaj±ce siê czynno¶ci
-polegaj± tak naprawdê na bardzo prostych mechanicznych operacjach, które opanowa³a¶ dobrze jeszcze
-na etapie szko³y podstawowej.
-
-Jednocze¶nie zamierzam Ciê ju¿ w tym rozdziale wstêpnie przygotowaæ do przyjêcia pó¼niej punktu
-widzenia, zgodnie z którym matematyka w ogóle faktycznie *ma* charakter w pewnym dobrze okre¶lonym
-sensie mechaniczny.
+W tym rozdziale do¶wiadczysz pewnego sposobu zajmowania siê matematyk±. W³a¶ciwie ten sposób jest Ci
+ju¿ dobrze znany ze szko³y podstawowej, ale byæ mo¿e nie zastanawia³a¶ siê nigdy d³u¿ej nad tym, o
+co w nim tak naprawdê chodzi. Bêdziemy siê przygl±daæ z bliska wybranym, wa¿nym i czêsto wykonywanym
+w matematyce czynno¶ciom, polegaj±cym tak naprawdê na do¶æ prostych mechanicznych operacjach.
 
 <hr>
 
