@@ -56,7 +56,7 @@ niej skorzystać również badacze i teoretycy (chociaż teoretycy to w psycholo
 gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie, niemal
 [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
-zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersji bayesowskiej i
+zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersjach bayesowskiej i
 częstościowej. Korzystając z tych narzędzi omówię później kilka podstawowych zagadnień z obszaru
 szeroko rozumianej metodologii badań. Z kolei w planowanej drugiej części mam nadzieję uzasadnić,
 objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
