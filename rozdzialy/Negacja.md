@@ -213,25 +213,26 @@ jest zdaniem / typem, dającym się konsekwentnie interpretować jako zdanie *Z 
 fałsz*, albo *Gdyby `p` było zdaniem prawdziwym, nastąpiłaby apokalipsa*:
 
 ```lean
--- Oto więc nasza wersja definicji negacji:
+-- A to nasza wersja definicji negacji:
 def nie (p : Prop) : Prop := p → Absurd
 
 -- Deklarujemy, że p jest jakimś zdaniem.
 variable (p : Prop)
 
-#check nie p -- nie p : Prop, a więc nie p jest zdaniem
+-- nie p jest zdaniem, a więc ...
+#check nie p -- nie p : Prop
 
--- Mając dowody zdań p i nie p ...
+-- ... mając jakieś dowody zdań p i nie p ...
 variable (hp : p) (np : nie p)
 
 -- ... ponieważ ze sprzeczności wynika absurd / fałsz ...
 #check np hp -- np hp : Absurd
 -- ... a (zgodnie z definicją) z absurdu / fałszu wynika wszystko ...
 
--- ... to dla dowolnego innego zdania q ...
+-- ... to dla dowolnego zdania q ...
 variable (q : Prop)
 
--- ... możemy udowodnić q ...
+-- ... możemy udowodnić q:
 #check np hp q -- np hp q : q
 ```
 
