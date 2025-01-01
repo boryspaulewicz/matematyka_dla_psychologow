@@ -25,7 +25,7 @@ końcowy musi być - i zawsze do pewnego stopnia jest - wynikiem *współpracy*.
 interesuje Cię to, co mam tu do powiedzenia i chcesz to zrozumieć, to masz szansę, tak długo jak
 tylko będę w stanie to robić, pomóc sobie i innym do
 Ciebie podobnym odbiorcom *rozmawiając ze mną*.  
-(Tylko proszę nie pisz wtedy o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba,
+(Tylko proszę, nie pisz wtedy o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba,
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
