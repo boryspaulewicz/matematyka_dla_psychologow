@@ -204,7 +204,8 @@ naprawdę w dużym stopniu kwestia przyzwyczajenia, a przede wszystkim *pamięci
 Nowa wersja funkcji identycznościowej *działa dla dowolnego typu* dzięki temu, że *typ drugiego
 argumentu* i zarazem jej *rezultatu* jest jej *pierwszym parametrem*. Mamy tutaj przykład *typu
 zależnego*. Język, którego używamy pisząc w Leanie (albo innych podobnych asystentach dowodzenia)
-swoją ekspresyjność zawdzięcza przede wszystkim obecności takich typów.
+swoją ekspresyjność zawdzięcza przede wszystkim obecności takich typów. Jeszcze raz: *typ* drugiego
+parametru jest *wartością* pierwszego parametru.
 
 **Parametry i argumenty**: *Parametr* jest częścią definicji funkcji, natomiast *argument funkcji*
 to term, do którego ta funkcja jest aplikowana (ilustracja):
