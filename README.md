@@ -31,7 +31,7 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania:
+Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">my father always told me: “if you want to
 go for a run, go for a run, don’t look for company. sooner or later, on your fifth run or your
