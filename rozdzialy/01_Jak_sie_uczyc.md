@@ -70,6 +70,21 @@ niemal wszystko, co siê z nimi prawie namacalnie wi±¿e. Nie bêdzie wiêc chyba pr
 powiem, ¿e w moim odczuciu tego rodzaju uczenie siê jest ca³kiem dos³ownie procesem g³êbokiej
 wewnêtrznej przemiany.
 
+Skoro mowa o przemianach, to chcia³bym zwróciæ te¿ Twoj± uwagê na szczególn± rolê *informacji
+zwrotnych*. Moje pióro nie jest lekkie, co akurat nie jest chyba takie wa¿ne, ale gorzej, ¿e czêsto
+bardzo s³abo zdajê sobie sprawê z tego, co odbiorca wie albo co mo¿e ³atwo zrozumieæ. Dlatego mam
+nadziejê, ¿e widz±c w historii zmian wszystkie moje b³êdy i liczne niezgrabne sformu³owania i widz±c
+te¿ jednocze¶nie to, ¿e staram siê je na bierz±co poprawiaæ, sprowokujê Ciê do tego, ¿eby¶*my* t±
+konkretn± ksi±¿kê napisali *razem*. Bo to nie jest ani "moja" ksi±¿ka - zreszt± ¿adna ksi±¿ka nie
+jest tak naprawdê "czyja¶" - ani ona nie jest dla mnie. Zw³aszcza taka ksi±¿ka, która ma *s³u¿yæ do
+nauki*, nie powinna moim zdaniem (pozornie) "nale¿eæ" do ¿adnej konkretnej osoby, ani nawet do kilku
+wybitnych autorów, bo wtedy *nie mo¿e dobrze spe³niaæ swojej roli*. ¯aden autor ani nawet grupa
+wybitnych autorów nie ma przecie¿ uprzywilejowanego dostêpu do trudno¶ci, jakie bêd± napotykaæ
+czytelnicy. Dlatego efekt koñcowy musi byæ - i zawsze do pewnego stopnia jest - wynikiem
+*wspó³pracy*. Je¿eli wiêc interesuje Ciê to, co mam tu do powiedzenia i chcesz to zrozumieæ lepiej,
+to masz szansê, tak d³ugo jak tylko bêdê w stanie to robiæ, pomóc sobie i innym do Ciebie podobnym
+odbiorcom *rozmawiaj±c ze mn±*.
+
 Zostaje jeszcze kwestia notatek i sposobu powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê
 notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt linearne i z du¿± ilo¶ci±
 ¶wiat³a na stronie. Robiê tak, bo takie notatki mog± ostatecznie s³u¿yæ jako pomoc w powtarzaniu,
@@ -171,3 +186,7 @@ nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje s
 
 [^3]: To jest link do darmowej wersji ostatniego wydania, ale ja, z ró¿nych powodów, wolê akurat
     wydanie drugie.
+
+[^4]: Pracownicy naukowi zadziwiaj±co rzadko te¿ *notuj±*, kiedy s³uchaj± wyst±pieñ lub uczestnicz±
+    w naukowych dyskusjach, co moim zdaniem jest niepokoj±ce, bo przecie¿ mózg nie staje siê z
+    wiekiem coraz m³odszy.
