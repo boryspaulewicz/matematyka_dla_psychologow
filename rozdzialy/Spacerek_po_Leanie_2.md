@@ -254,7 +254,7 @@ możemy podstawić pod zmienną jakąś liczbę naturalną, możemy podstawić t
 typu" albo "w wymiarze typów".
 
 W przypadku aplikacji funkcji `identycznosc` tego rodzaju obliczenie jest bardziej złożone, ale
-nadal zrozumiałe:
+nadal (być może po pewnym czasie) zrozumiałe:
 
 ```lean
 #check @identycznosc -- identycznosc : (typ : Type) → typ → typ
@@ -275,19 +275,23 @@ identycznosc Nat : Nat → Nat
 ```
 
 To jest zatem typ (częściowej) aplikacji do samego tylko argumentu `Nat`. Jak już wiesz, ten term
-jest poprawny (typowalny), ponieważ Lean pozwala na częściowe aplikacje. *Typ* funkcji
-`identycznosc` jest więc *czymś w rodzaju funkcji* (jeszcze raz: sam typ jest tutaj czymś w rodzaju
-funkcji) której parametr nosi nazwę `typ`. To *nie* jest funkcja, bo *typu* nie możemy do niczego
-aplikować, ale *na etapie aplikacji* ten typ działa tak, jakby był funkcją i jakby ta funkcja była
-aplikowana do argumentu `Nat`. Nie przejmuj się, jeżeli mimo moich zapewnień, że to naturalny
-proces, wydaje Ci się to zbyt trudne; z czasem się do tego przyzwyczaisz.
+jest poprawny (typowalny), ponieważ Lean pozwala na częściowe aplikacje. A czym jest sama częściowa
+aplikacja `identycznosc Nat`? To przecież ta sama funkcja, co `nic_nie_robie`, czyli identyczność
+działająca (tylko) na liczbach naturalnych.
+
+*Typ* funkcji `identycznosc` (nie `identycznosc Nat`) jest więc *czymś w rodzaju funkcji* (jeszcze
+raz: sam typ jest tutaj czymś w rodzaju funkcji) której parametr nosi nazwę `typ`. To *nie* jest
+funkcja, bo *typu* nie możemy do niczego aplikować, ale *na etapie aplikacji* ten typ działa tak,
+jakby był funkcją i jakby ta funkcja była aplikowana do argumentu `Nat`. Nie przejmuj się, jeżeli
+mimo moich zapewnień, że to naturalny proces, wydaje Ci się to zbyt trudne; z czasem się do tego
+przyzwyczaisz.
 
 Do pewnego momentu będę mówił o funkcjach rozumianych tylko jako efektywne procedury obliczeniowe,
 albo po prostu programy, procedury, czy algorytmy. Potem zacznę też mówić o *implikacji*. Mam
 powody, żeby zacząć od funkcji, a potem mówić o implikacjach, ale trudno mi je dobrze wyjaśnić już
 teraz, bo nie mogę zakładać, że wiesz o pewnych sprawach, bez znajomości których moje wyjaśnienia
 byłyby pewnie niezrozumiałe, nieprzekonujące, a może nawet mogłyby budzić niepokój (cel jest dość
-ambitny).
+ambitny, ale bez obaw - dotrzemy do niego bez pośpiechu i zarazem relatywnie szybko).
 
 Na razie powiem tylko tyle: Istnieje sposób, żeby jednocześnie uczyć się podstaw matematyki,
 programowania, formalizowania treści wyrażonych w języku naturalnym, konstruowania dowodów
