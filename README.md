@@ -57,9 +57,9 @@ gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie, 
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
 zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersji bayesowskiej i
 częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka podstawowych zagadnień z obszaru
-szeroko rozumianej metodologii badań psychologicznych. Z kolei w planowanej drugiej części zamierzam
-uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na
-psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
+szeroko rozumianej metodologii badań. Z kolei w planowanej drugiej części mam nadzieję uzasadnić,
+objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
+szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
 [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
 pisania pracy magisterskiej, a niektórymi nawet wcześniej.
