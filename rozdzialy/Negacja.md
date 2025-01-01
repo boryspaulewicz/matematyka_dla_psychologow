@@ -257,10 +257,10 @@ arbitralnym dowodem zdania i konstrukcją czy definicją dowodu zdania. Zresztą
 to pomoże, bo ludzie na ogół nie są w stanie jednocześnie świadomie rozwiązywać problemów w więcej
 niż jednym wymiarze pojęciowym czy teoretycznym. Ja w każdym razie na pewno tego nie potrafię.
 
-Będę Ci też rzadziej przypominał o różnicy między kodem i jego interpretacją, a więc na przykład
-między (pewnymi) typami i zdaniami, albo termami typów zdaniowych i ich dowodami, ale z innego
-powodu - zależy mi, żebyś poczuła, że te różnice można zwykle zignorować i żebyś dzięki temu
-nauczyła się myśleć w całkiem nowy sposób.
+Będę Ci też rzadziej przypominał o różnicy między kodem i interpretacją, a więc na przykład między
+(pewnymi) typami i zdaniami, albo termami typów zdaniowych i ich dowodami, ale z innego powodu -
+zależy mi, żebyś poczuła, że te różnice można zwykle zignorować i żebyś dzięki temu nauczyła się
+myśleć w całkiem nowy sposób.
 
 ### Przypisy
 
