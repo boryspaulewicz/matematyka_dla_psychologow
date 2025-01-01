@@ -112,14 +112,15 @@ def Absurd : Prop := (a : Prop) → a
 Czy widzisz, jak w tej definicji słowa `Prop` i `a` występują od początku do końca na przemian, a
 gdybyśmy zmrużyli oczy i nie widzieli dobrze różnicy między strzałką i symbolem definiowania, to na
 przemian występowałyby też symbole `:` i `→`/`:=`? Może to wygląda jak przypadek, ale czy w
-matematyce mogą występować "prawdziwe przypadki"? To była tylko dygresja, myślałem ją pisząc.
+matematyce mogą występować "prawdziwe przypadki"? Czy w ogóle mogą gdziekolwiek występować? To była
+tylko dygresja, myślałem ją pisząc.
 
 Zgodnie z definicją (`Absurd : Prop ...`), `Absurd` jest pewnym *zdaniem*. Wynika to stąd, że
 wszystkie typy funkcyjne (nie funkcje) o postaci `A → B → ... → Q`, gdzie `Q` *ma* typ `Prop`, *same
 mają typ `Prop`*:
 
 ```lean
--- Deklarujemy, że mamy zdanie p, żeby Lean "wiedział", o czym będziemy "mówić"
+-- Deklarujemy, że mamy zdanie p, żeby Lean "wiedział", o czym będziemy mówić
 variable (p : Prop)
 
 #check Type → p -- Type → p : Prop
@@ -134,7 +135,7 @@ variable (p : Prop)
 Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta
 konwencja działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem* a
 nie funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, ponieważ jest
-typem / zdaniem *parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
+zdaniem *parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
 
 Być może `Absurd` kojarzy Ci się z typem znanej Ci już funkcji `identycznosc`, ale, poza tym, że
 `identycznosc` może przyjmować dowolne typy jako pierwszy argument, a będący z definicji funkcją
@@ -168,7 +169,11 @@ d p : p
 ```
 
 A więc `d` jest tutaj jednocześnie dowodem zdania `Absurd` i pewną funkcją (bo ma w swoim typie
-strzałkę), która z dowolnego zdania robi term tego typu, czyli dowód tego zdania.
+strzałkę), która z dowolnego zdania robi term tego typu, czyli dowód tego zdania. To jedyny sposób,
+w jaki taka aplikacja może działać, bo `d p` nie może zostać do niczego zredukowane; gdyby to
+wyrażenie było redukowalne, znaczyłoby to, że wartością stałej `d` jest jakaś konkretna funkcja, a
+wiemy już, że taka funkcja nie istnieje. Mamy tu więc znakomity przykład konieczności oddzielenia
+pojęcia (i operacji) samej aplikacji od ewaluacji.
 
 Na wszelki wypadek podkreślam, że przyjęta przez nas definicja absurdu to nie żadna prawda objawiona
 na temat "istoty absurdu"; to tylko pewien *wybór terminologiczny* albo *pojęciowy*, który możemy
