@@ -564,11 +564,12 @@ def dodaj3 : Nat → Nat := plus 3
 ```
 
 **Polecenie dla ambitnych**: Jeżeli już na typ etapie czujesz, że możesz sobie z tym poradzić,
-spróbuj zrobić coś podobnego jak to, co zrobiłem z częściową aplikacja funkcji `plus`, ale użyj do
+spróbuj zrobić coś podobnego jak to, co zrobiłem z częściową aplikacją funkcji `plus`, ale użyj do
 tego zdefiniowanej wcześniej funkcji `plusplus`. Można to zrobić na wiele sposobów, nie szukaj więc
 jakiegoś *jedynego* dobrego rozwiązania, bo takiego nie ma. Gdyby pojawił się błąd, przeczytaj
 komunikat i sprawdź, czy nie dostarcza Ci wskazówki, dzięki której mogłabyś ten błąd usunąć. Jeżeli
-to polecenie okażę się za trudne, to się nie przejmuj, po pewnym czasie stanie się dziecinnie łatwe.
+to polecenie okażę się za trudne, to się tym nie przejmuj, po pewnym czasie stanie się dziecinnie
+łatwe.
 
 **Polecenie dla nadmiernie ambitnych**: Zdefiniuj i zastosuj funkcję, która pobiera dwa argumenty:
 
