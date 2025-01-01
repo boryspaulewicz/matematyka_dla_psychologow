@@ -256,7 +256,7 @@ teoria wnioskowania przyczynowego jest (słusznie) traktowana jako *źródło se
 rodzaju modeli. Ten sam wskaźnik ma jednak zarazem oczywisty sens z perspektywy zadanio-centrycznej:
 Ponieważ, jak łatwo się przekonać przyglądając się [*formalnej
 definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to nic innego jak pewna
-miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to ponieważ pozycje
+miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to skoro pozycje
 testowe są *zawsze blisko związane treściowo*, można tą miarę interpretować jako co prawda
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
 zadanie udzielenia odpowiedzi na pozycje testowe*.
