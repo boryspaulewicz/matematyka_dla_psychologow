@@ -24,8 +24,8 @@ autor nie ma przecież uprzywilejowanego dostępu do trudności, jakie będą na
 czytelnicy. Dlatego efekt końcowy musi być - i zawsze do pewnego stopnia jest - wynikiem
 *współpracy*. Jeżeli więc tylko interesuje Cię to, co mam tu do powiedzenia i chcesz to zrozumieć,
 to masz szansę, tak długo jak tylko będę w stanie to robić, pomóc sobie i innym do Ciebie podobnym
-odbiorcom *rozmawiając ze mną*; w ten sposób możesz stać się w jakimś stopniu współautorem. W
-stwierdzeniu, że "dzieła" tworzą ludzie, liczba mnoga
+odbiorcom *rozmawiając ze mną*; w ten sposób możesz stać się w jakimś stopniu współautorką albo
+współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie, liczba mnoga
 jest przecież konieczna.  
 (Tylko proszę, nie pisz wtedy o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba,
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
