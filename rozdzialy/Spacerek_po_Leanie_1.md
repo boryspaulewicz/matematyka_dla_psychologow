@@ -243,9 +243,9 @@ literówki za pomocą Taba, napisz Leanowi *z pamięci*:
 #eval dodaj2 dziesiec
 ```
 
-**Definicja aplikacji**: Samo *zestawienie* obok siebie funkcji i jakiegokolwiek wyrażenia, również
-takie *błędne* zestawienie, bez obliczania wyniku, nazywamy *aplikacją*. Oddzielanie aplikacji od
-ewaluacji może się wydawać zbędne, ale okaże się potrzebne między innymi podczas dowodzenia
+**Definicja aplikacji**: Samo *zestawienie* obok siebie funkcji i jakiegokolwiek wyrażenia, bez
+obliczania wyniku, również takie *błędne* zestawienie, nazywamy *aplikacją*. Oddzielanie aplikacji
+od ewaluacji może się wydawać zbędne, ale okaże się potrzebne między innymi podczas dowodzenia
 twierdzeń. Na przykład, `dodaj2 dziesiec` jest aplikacją, w dodatku poprawną, bo `dodaj2` wymaga
 jako argumentu dowolnego termu typu `Nat`, a stała `dziesiec` jest właśnie takim termem.
 
