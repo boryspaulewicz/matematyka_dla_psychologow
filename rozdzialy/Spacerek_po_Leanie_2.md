@@ -410,8 +410,8 @@ Zastanawiasz się może, o co w tym chodzi? Spróbuję to wyjaśnić: Gdyby prze
 cywilizacji wymyślili "obiekty abstrakcyjne", których używaliby dokładnie tak, jak my używamy liczb
 naturalnych, ale zapisywaliby i nazywali je inaczej, powiedzielibyśmy, że to są te same "obiekty
 abstrakcyjne", albo, że mają "ten sam sens", tylko są inaczej nazywane, prawda?  Jesteśmy co prawda
-przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sam sposób zapisu nie decyduje o znaczeniu, o
-tym decyduje *tylko* sposób *użycia*.
+przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sam sposób zapisu nie decyduje o *znaczeniu*,
+o tym decyduje *tylko* sposób *użycia*.
 
 Stała `Nat.zero` i aplikacje takie jak `Nat.succ Nat.zero` całkiem dosłownie *są* więc liczbami
 naturalnymi, tak samo jak `0` i `1` *są* liczbami naturalnymi. Możemy tak powiedzieć, ponieważ
@@ -428,7 +428,7 @@ funkcję i jakąś "prawdziwą" liczbę jako argument i że tych "prawdziwych rz
 jakby "coś pod spodem" `Nat.succ Nat.zero` i tym czymś powinna być albo para złożona z funkcji i
 liczby, albo jakaś liczba *1* "jako taka", czy może "sama w sobie".
 
-To, że nic pod spodem nie ma, to jednak dobra wiadomość, bo oznacza, że *nie ma tu żadnych
+To, że *nic* pod spodem nie ma, to jednak dobra wiadomość, bo oznacza, że *nie ma tu żadnych
 tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. Można
 powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy tylko pominiemy jej
 *interpretację*, którą zresztą możemy zmieniać na dowolną inną, jeśli tylko ta alternatywna
