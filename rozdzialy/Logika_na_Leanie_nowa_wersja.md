@@ -1,11 +1,11 @@
 ## O czym teraz będzie
 
 W tym rozdziale skorzystamy z tego, co już wiesz, żeby przejść możliwie płynnie z programowania do
-dowodzenia twierdzeń. Poprzednie rozdziały napisałem w taki a nie inny sposób, to jest tłumacząc
-każde kolejne zagadnienie więcej niż raz i omawiając krok po kroku proces ewaluacji wyrażeń,
-ponieważ próbowałem do pewnego stopnia zastąpić Cię w roli kogoś, kto uczy się aktywnie
-przyswajanych treści. Odtąd jednak będę już pisał inaczej, ponieważ nadal wyręczając Cię w tej roli
-utrudniłbym Ci zmianę postawy na bardziej aktywną, a taka moim zdaniem bardzo Ci się później przyda.
+dowodzenia twierdzeń. Poprzednie rozdziały napisałem tłumacząc każde kolejne zagadnienie kilka razy
+na różne sposoby i omawiając krok po kroku proces ewaluacji, ponieważ próbowałem do pewnego stopnia
+zastąpić Cię w roli kogoś, kto uczy się aktywnie przyswajanych treści. Odtąd jednak będę już to
+robił rzadziej, ponieważ nadal wyręczając Cię w tej roli utrudniłbym Ci zmianę postawy na taką,
+która moim zdaniem bardzo Ci się później przyda.
 
 <hr>
 
@@ -17,9 +17,9 @@ Przypominam znaną Ci już funkcję `identycznosc` (ilustracja):
 def identycznosc (typ : Type) (argument : typ) := argument
 ```
 
-Funkcja `identycznosc` jest prostym programem komputerowym, który dla dowolnego typu i argumentu o
-tym typie zwraca ten argument. Jak wiesz, widoczny wyżej wygodny sposób zapisywania parametrów tej
-funkcji tak naprawdę skrywa dwie λ-abstrakcje:
+Ta funkcja jest prostym programem komputerowym, który dla dowolnego typu i argumentu o tym typie
+zwraca ten argument. Jak wiesz, widoczny wyżej wygodny sposób zapisywania parametrów tej funkcji tak
+naprawdę skrywa dwie λ-abstrakcje:
 
 ```lean
 --- To ...
