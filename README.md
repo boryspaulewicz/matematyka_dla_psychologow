@@ -14,8 +14,8 @@ feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-
 a mówiąc bardziej rozwlekle:
 
 Moje pióro nie jest lekkie, ale gorzej, że często słabo zdaję sobie sprawę z tego, co odbiorca wie
-albo co może łatwo zrozumieć. Dlatego mam nadzieję, że widząc w historii zmian wszystkie moje błędy
-i niezgrabne sformułowania i widząc też, że staram się tego rodzaju wady usuwać, sprowokuję Cię do
+albo co może zrozumieć. Dlatego mam nadzieję, że widząc w historii zmian wszystkie moje błędy i
+niezgrabne sformułowania i widząc też, że staram się tego rodzaju wady usuwać, sprowokuję Cię do
 tego, żebyś*my* tą konkretną książkę napisali *razem*. Bo to nie jest ani "moja" książka - zresztą
 żadna książka nie jest tak naprawdę "czyjaś" - ani ona nie jest dla mnie. Zwłaszcza książka, która
 ma *służyć do nauki*, nie powinna moim zdaniem (pozornie) "należeć" do żadnej konkretnej osoby, ani
