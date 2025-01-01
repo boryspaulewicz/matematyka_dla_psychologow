@@ -173,5 +173,4 @@ nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje s
     wydanie drugie.
 
 [^4]: Pracownicy naukowi zadziwiaj±co rzadko te¿ *notuj±*, kiedy s³uchaj± wyst±pieñ lub uczestnicz±
-    w naukowych dyskusjach, co moim zdaniem jest niepokoj±ce, bo przecie¿ mózg nie staje siê z
-    wiekiem coraz m³odszy.
+    w naukowych dyskusjach, a przecie¿ ¿aden mózg nie robi siê z wiekiem coraz m³odszy.
