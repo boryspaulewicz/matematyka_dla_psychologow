@@ -1,35 +1,35 @@
-## O czym teraz bêdzie
+## O czym teraz bÄ™dzie
 
-W tym rozdziale do¶wiadczysz pewnego sposobu zajmowania siê matematyk±. W³a¶ciwie ten sposób jest Ci
-ju¿ dobrze znany ze szko³y podstawowej, ale byæ mo¿e nie zastanawia³a¶ siê nigdy d³u¿ej nad tym, o
-co w nim tak naprawdê chodzi. Bêdziemy siê przygl±daæ z bliska wybranym, wa¿nym i czêsto wykonywanym
-w matematyce czynno¶ciom, polegaj±cym tak naprawdê na do¶æ prostych mechanicznych operacjach.
+W tym rozdziale doÅ›wiadczysz pewnego sposobu zajmowania siÄ™ matematykÄ…. WÅ‚aÅ›ciwie ten sposÃ³b jest Ci
+juÅ¼ dobrze znany ze szkoÅ‚y podstawowej, ale byÄ‡ moÅ¼e nie zastanawiaÅ‚aÅ› siÄ™ nigdy dÅ‚uÅ¼ej nad tym, o
+co w nim tak naprawdÄ™ chodzi. BÄ™dziemy siÄ™ przyglÄ…daÄ‡ z bliska wybranym, waÅ¼nym i czÄ™sto wykonywanym
+w matematyce czynnoÅ›ciom, polegajÄ…cym tak naprawdÄ™ na doÅ›Ä‡ prostych mechanicznych operacjach.
 
 <hr>
 
 # Kilka trywialnych mechanicznych operacji
 
-Przypuszczam, ¿e ju¿ w podstawówce sta³o siê dla Ciebie oczywiste, ¿e je¿eli *A = B* i *B = C*, to
-*A = C*, niezale¿nie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci siê równie¿
+Przypuszczam, Å¼e juÅ¼ w podstawÃ³wce staÅ‚o siÄ™ dla Ciebie oczywiste, Å¼e jeÅ¼eli *A = B* i *B = C*, to
+*A = C*, niezaleÅ¼nie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci siÄ™ rÃ³wnieÅ¼
 taki oto fragment matematycznej prozy:
 
-> Je¿eli *n* i *m* to liczby naturalne, to *n + m = m + n*.
+> JeÅ¼eli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-I z pewno¶ci± wiesz, ¿e mo¿esz *u¿ywaæ* takiego stwierdzenia *podstawiaj±c* pod *n* lub *m*:
+I z pewnoÅ›ciÄ… wiesz, Å¼e moÅ¼esz *uÅ¼ywaÄ‡* takiego stwierdzenia *podstawiajÄ…c* pod *n* lub *m*:
 
-Konkretn± *liczbê* naturaln±
+KonkretnÄ… *liczbÄ™* naturalnÄ…
 
-*Zmienn±*, o której wcze¶niej za³o¿y³a¶, ¿e oznacza (jak±¶) liczbê naturaln±
+*ZmiennÄ…*, na przykÅ‚ad zmiennÄ… *a*, o ktÃ³rej wczeÅ›niej zaÅ‚oÅ¼yÅ‚aÅ›, Å¼e oznacza (jakÄ…Å›) liczbÄ™ naturalnÄ…
 
-*Wyra¿enie*, które po obliczeniu daje liczbê naturaln±
+*WyraÅ¼enie*, ktÃ³re po obliczeniu daje liczbÄ™ naturalnÄ…, takie jak *10 - 1*
 
-Trzeba tylko pamiêtaæ, ¿eby podstawianie by³o konsekwentne, to znaczy, za *n* musi byæ wszêdzie
-podstawione to samo i za *m* wszêdzie to samo. Trzeba te¿ wiedzieæ, ¿e to nie musz± byæ dwie ró¿ne
-rzeczy. Na przyk³ad, zgodnie z przytoczonym fragmentem:
+Trzeba tylko pamiÄ™taÄ‡, Å¼eby podstawianie byÅ‚o konsekwentne, to znaczy, za *n* musi byÄ‡ wszÄ™dzie
+podstawione to samo i za *m* wszÄ™dzie to samo. Trzeba teÅ¼ wiedzieÄ‡, Å¼e to nie muszÄ… byÄ‡ dwie rÃ³Å¼ne
+rzeczy. Na przykÅ‚ad, zgodnie z przytoczonym fragmentem:
 
 *2 + 3 = 3 + 2*
 
-A je¿eli *a* i *b* to jakie¶ liczby naturalne, to na przyk³ad:
+A jeÅ¼eli *a* i *b* to jakieÅ› liczby naturalne, to na przykÅ‚ad:
 
 *a + b = b + a*
 
@@ -37,94 +37,98 @@ A je¿eli *a* i *b* to jakie¶ liczby naturalne, to na przyk³ad:
 
 *b + b = b + b*
 
-i *(2 + 3 + a) + b = b + (2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontek¶cie (oto ca³y kontekst:
-*a* i *b* s± liczbami naturalnymi) jak±¶ liczbê naturaln±, i tak dalej. My¶lê, ¿e zgodzisz siê ze
-mn±, ¿e tego rodzaju formalne operacje wiele dzieci opanowuje nie¼le w szkole podstawowej.
+i *(2 + 3 + a) + b = b + (2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontekÅ›cie (oto caÅ‚y kontekst:
+*a* i *b* to jakieÅ› liczby naturalne) jakÄ…Å› liczbÄ™ naturalnÄ…, i tak dalej. MyÅ›lÄ™, Å¼e zgodzisz siÄ™ ze
+mnÄ…, Å¼e tego rodzaju operacje wiele dzieci opanowuje caÅ‚kiem nieÅºle w szkole podstawowej.
 
-## Ten tytu³ jest tylko po to, ¿eby do niego pó¼niej wróciæ
+## Ten tytuÅ‚ jest tylko po to, Å¼eby do niego pÃ³Åºniej wrÃ³ciÄ‡
 
-Mo¿emy popatrzeæ na to wszystko równie¿ tak: Ten fragment matematycznej prozy jest jak *przepis*,
-który *stosuj±c* da siê wyprodukowaæ *nieskoñczenie wiele prawdziwych zdañ* na temat liczb
-naturalnych. Mo¿emy nawet na niego popatrzeæ jak na co¶ w rodzaju maszyny albo mechanizmu, który
-dzia³a dziêki temu, ¿e *my* go u¿ywamy w okre¶lony sposób, to jest konsekwentnie podstawiaj±c w
-miejsca zmiennych wyra¿enia w³a¶ciwego typu (typu liczbowego). W tej czê¶ci ksi±¿ki to jest nasz
-punkt wyj¶cia i - jak siê przekonasz - w pewnym momencie to bêdzie równie¿ nasz punkt doj¶cia.
+MoÅ¼emy popatrzeÄ‡ na to wszystko rÃ³wnieÅ¼ tak: Ten fragment matematycznej prozy jest jak *przepis*,
+ktÃ³ry *stosujÄ…c* da siÄ™ wyprodukowaÄ‡ *nieskoÅ„czenie wiele prawdziwych zdaÅ„* na temat liczb
+naturalnych. MoÅ¼emy nawet na niego popatrzeÄ‡ jak na coÅ› w rodzaju maszyny albo mechanizmu, ktÃ³ry
+dziaÅ‚a dziÄ™ki temu, Å¼e *my* go uÅ¼ywamy w okreÅ›lony sposÃ³b, to jest konsekwentnie podstawiajÄ…c w
+miejsca zmiennych wyraÅ¼enia wÅ‚aÅ›ciwego typu (typu liczbowego). W tej czÄ™Å›ci ksiÄ…Å¼ki to jest nasz
+punkt wyjÅ›cia i - jak siÄ™ przekonasz - w pewnym momencie ta wÅ‚aÅ›ciwie dziecinnie prosta zabawa
+symbolami bÄ™dzie rÃ³wnieÅ¼ naszym punktem dojÅ›cia.
 
-Spróbuj chwilowo potraktowaæ takie formalne regu³y jak te wyra¿one w przytoczonym fragmencie jakby
-to by³y regu³y gry, która nie musi mieæ ¿adnego sensu. Uwierz mi, bo sprawdza³em to wielokrotnie, na
-tym etapie potrzeba sensu mo¿e Ci przeszkadzaæ. Obiecujê, ¿e sens siê sam pojawi, tylko mo¿e kiedy
-indziej. 
+SprÃ³buj chwilowo potraktowaÄ‡ takie formalne reguÅ‚y jak te, ktÃ³re podaÅ‚em wyÅ¼ej, jakby byÅ‚y reguÅ‚ami
+gry, ktÃ³ra nie musi mieÄ‡ Å¼adnego sensu. Uwierz mi, bo sprawdzaÅ‚em to wielokrotnie, na tym etapie
+potrzeba sensu moÅ¼e Ci przeszkadzaÄ‡. ObiecujÄ™, Å¼e sens siÄ™ sam pojawi, tylko moÅ¼e kiedy indziej.
 
-Naprawdê uwa¿am, ¿e zdolno¶æ do tymczasowego st³umienia w sobie potrzeby sensu bywa bardzo
-korzystna, a czasem wrêcz nieodzowna w nauce matematyki. Od kilku lat prowadzê na Uniwersytecie
-Jagielloñskim dwusemestralny kurs dla doktorantów dotycz±cy wnioskowania przyczynowego i
-bayesowskiego. Bez przesady mogê powiedzieæ, ¿e na ten kurs trafiaj± nieodmiennie wymarzeni wprost
-studenci, tacy, którzy wydaj± mi siê czêsto autentycznie zainteresowani poszerzaniem swojej
-wiedzy. Prêdzej czy pó¼niej zaczynam na tym kursie mówiæ o twierdzeniu Bayesa, ale od niedawna robiê
-to inaczej.
+NaprawdÄ™ uwaÅ¼am, Å¼e zdolnoÅ›Ä‡ do tymczasowego stÅ‚umienia potrzeby sensu bywa bardzo korzystna, a
+czasami nawet nieodzowna w nauce matematyki. Od kilku lat prowadzÄ™ na Uniwersytecie JagielloÅ„skim
+dwusemestralny kurs dla doktorantÃ³w dotyczÄ…cy wnioskowania przyczynowego i bayesowskiego. Bez
+przesady mogÄ™ powiedzieÄ‡, Å¼e na ten kurs trafiajÄ… nieodmiennie wymarzeni wprost studenci, tacy,
+ktÃ³rzy wydajÄ… mi siÄ™ czÄ™sto autentycznie zainteresowani poszerzaniem swojej wiedzy. PrÄ™dzej czy
+pÃ³Åºniej zaczynam na tym kursie mÃ³wiÄ‡ o [twierdzeniu
+Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robiÄ™ to inaczej.
 
-Przedtem poprzedza³em wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiada³em
-uczestnikom, ¿e zaraz bêd± sami go dowodziæ, zauwa¿a³em u wielu z nich objawy lekkiej
-paniki. Podobn± panikê widzia³em zreszt± w oczach pracowników naukowych, którzy byli obecni na moim
-otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawi³ siê symbol *sumy indeksowanej*. W tym
-roku po raz pierwszy spróbowa³em wprowadziæ twierdzenie Bayesa bez ¿adnego wstêpu, na pierwszych
-albo drugich zajêciach, i postara³em siê nak³oniæ wszystkich, ¿eby skupili siê tylko na bardzo
-prostych w tym wypadku operacjach formalnych. Ró¿nica w wykonaniu tego zadania by³a natychmiast
-oczywista.
+Przedtem poprzedzaÅ‚em wyprowadzenie dowodu krÃ³tkim ogÃ³lnym wprowadzeniem i gdy zapowiadaÅ‚em
+uczestnikom, Å¼e zaraz bÄ™dÄ… sami go dowodziÄ‡, zauwaÅ¼aÅ‚em u wielu z nich objawy lekkiej
+paniki. PodobnÄ… panikÄ™ widziaÅ‚em zresztÄ… w oczach pracownikÃ³w naukowych, ktÃ³rzy byli obecni na moim
+otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawiÅ‚ siÄ™ symbol [*sumy
+indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana) (*âˆ‘*). W tym roku po raz pierwszy
+sprÃ³bowaÅ‚em wprowadziÄ‡ twierdzenie Bayesa bez Å¼adnego wstÄ™pu, na pierwszych albo drugich zajÄ™ciach,
+i postaraÅ‚em siÄ™ nakÅ‚oniÄ‡ wszystkich, Å¼eby skupili siÄ™ tylko na bardzo prostych w tym wypadku
+operacjach formalnych. RÃ³Å¼nica w wykonaniu tego zadania byÅ‚a natychmiast oczywista.
 
-**Polecenie**: Znajd¼ czyst± kartkê papieru i co¶ do pisania. Napisz na niej trzy zdania, które
-bêdziemy chwilowo rozumieæ jako *aksjomaty*, czyli *regu³y gry*, albo jeszcze lepiej *regu³y
-jêzykowe* czy wrêcz *regu³y komunikacyjne*, na które umawiamy siê bez uzasadnienia:
+**Polecenie**: ZnajdÅº czystÄ… kartkÄ™ papieru i coÅ› do pisania. Napisz na niej trzy zdania, ktÃ³re
+bÄ™dziemy chwilowo rozumieÄ‡ jako *aksjomaty*, czyli *reguÅ‚y gry*, albo jeszcze lepiej *reguÅ‚y
+jÄ™zykowe* albo *komunikacyjne*, na ktÃ³re umawiamy siÄ™ bez uzasadnienia:
 
-1. Istniej± tak zwane *zdarzenia*.
+1. IstniejÄ… tak zwane *zdarzenia*.
 
-2. Istnieje funkcja *p*, która *zdarzeniom* lub ich parom przypisuje *liczby*.
+2. Istnieje funkcja *p*, ktÃ³ra *zdarzeniom* lub ich parom przypisuje *liczby*.
 
-3. Je¿eli *x* i *y* to *zdarzenia*, to *p(x, y) = p(y, x)*.
+3. JeÅ¼eli *x* i *y* to *zdarzenia*, to *p(x, y) = p(y, x)*.
 
-Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, i *liczba* traktujemy
-tutaj jako czê¶æ wspólnej wiedzy zastanej.
+NiektÃ³re symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, i *liczba* traktujemy
+tutaj jako czÄ™Å›Ä‡ wspÃ³lnej wiedzy zastanej. WÅ‚aÅ›ciwie z pierwszych dwÃ³ch reguÅ‚ nie bÄ™dziemy tu
+korzystaÄ‡ jawnie, a wiÄ™c jeÅ›li chcesz, moÅ¼esz siÄ™ skupiÄ‡ tylko na regule trzeciej.
 
-Byæ mo¿e przysz³a Ci do g³owy narzucaj±ca siê interpretacja symboli *zdarzenie* i *p*. Je¿eli tak,
-to spróbuj j± proszê zignorowaæ, na ile tylko jeste¶ w stanie. Jeszcze raz podkre¶lam, to tylko
-gra.
+ByÄ‡ moÅ¼e przyszÅ‚a Ci do gÅ‚owy narzucajÄ…ca siÄ™ interpretacja symboli *zdarzenie* i *p*. JeÅ¼eli tak,
+to sprÃ³buj jÄ… proszÄ™ zignorowaÄ‡, na ile tylko jesteÅ› w stanie. Jeszcze raz podkreÅ›lam, *to tylko
+gra*.
 
-Poza aksjomatami bêdziemy jeszcze potrzebowaæ *definicji* symbolu |:
+Poza aksjomatami bÄ™dziemy jeszcze potrzebowaÄ‡ *definicji* symbolu |:
 
-4. Je¿eli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
+4. JeÅ¼eli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
 
-Zapisz teraz now± wersjê definicji tej pionowej kreski, ale wpisuj±c *y* wszêdzie tam, gdzie w
-oryginalnej wersji jest *x*, a *x* wszêdzie tam, gdzie w oryginalnej wersji jest *y*. Czyli
-potraktuj t± definicjê jak przepis, dok³adnie tak samo jak wcze¶niej potraktowali¶my inny fragment
-matematycznej prozy. Uzyskasz w ten sposób dwie wersje zdania bêd±cego tre¶ci± definicji -
-oryginaln± i t±, która powsta³a przez podstawianie.
+Zapisz teraz nowÄ… wersjÄ™ definicji tej pionowej kreski, ale wpisujÄ…c *y* wszÄ™dzie tam, gdzie w
+oryginalnej wersji jest *x*, a *x* wszÄ™dzie tam, gdzie w oryginalnej wersji jest *y*. Czyli
+potraktuj tÄ… definicjÄ™ jak przepis, dokÅ‚adnie tak samo jak wczeÅ›niej potraktowaliÅ›my inny fragment
+matematycznej prozy. Uzyskasz w ten sposÃ³b dwie wersje zdania bÄ™dÄ…cego treÅ›ciÄ… definicji -
+oryginalnÄ… i tÄ…, ktÃ³ra powstaÅ‚a przez podstawianie.
 
-Skorzystaj z aksjomatu *3* w jedyny sposób, w jaki mo¿esz, ¿eby ustaliæ, ¿e lewe strony obydwu
-wersji definicji s± równe. Zapisz t± równo¶æ.
+Skorzystaj z aksjomatu *3* w jedyny sposÃ³b, w jaki moÅ¼esz, Å¼eby ustaliÄ‡, Å¼e lewe strony obydwu
+wersji definicji sÄ… rÃ³wne i zapisz tÄ… rÃ³wnoÅ›Ä‡.
 
-Podziel obie strony przez *p(y)*, zak³adaj±c oczywi¶cie, ¿e ta warto¶æ jest ró¿na od zera (wynik
-dzielenia przez zero jest niezdefiniowany). Upro¶æ jedyn± stronê równania, któr± da siê w tym
-momencie upro¶ciæ.
+Podziel obie strony przez *p(y)*, zakÅ‚adajÄ…c oczywiÅ›cie, Å¼e ta wartoÅ›Ä‡ jest rÃ³Å¼na od zera (wynik
+dzielenia przez zero jest niezdefiniowany). MÃ³wiÄ…c, Å¼e masz to zaÅ‚oÅ¼yÄ‡, mam na myÅ›li tylko, Å¼ebyÅ›
+"miaÅ‚a tego Å›wiadomoÅ›Ä‡", tak na wszelki wypadek. UproÅ›Ä‡ jedynÄ… stronÄ™ rÃ³wnania, ktÃ³rÄ… da siÄ™ w tym
+momencie uproÅ›ciÄ‡.
 
-Je¿eli wykona³a¶ wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to uda³o
-Ci siê udowodniæ nieznacznie uproszczon± wersjê twierdzenie Bayesa. Moim studentom, gdy robi± to po
-raz pierwszy w ¿yciu, nie zajmuje to zwykle wiêcej ni¿ 15 minut. Zwróæ uwagê, ¿e udowodni³a¶ to
-twierdzenie ani nie przytaczaj±c, ani nie odnosz±c siê do ¿adnych konkretnych *zdarzeñ*, ani nie
-obliczaj±c ¿adnych warto¶ci funkcji *p*. Czy widzisz, ¿e o to miêdzy innymi, to znaczy o du¿y
-stopieñ ogólno¶ci, chodzi w takich twierdzeniach?
+JeÅ¼eli wykonaÅ‚aÅ› wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to udaÅ‚o
+Ci siÄ™ udowodniÄ‡ nieznacznie uproszczonÄ… wersjÄ™ twierdzenie Bayesa. Moim studentom, gdy robiÄ… to po
+raz pierwszy w Å¼yciu, nie zajmuje to zwykle wiÄ™cej niÅ¼ 15 minut. ZwrÃ³Ä‡ uwagÄ™, Å¼e udowodniÅ‚aÅ› to
+twierdzenie ani nie przytaczajÄ…c, ani nie odnoszÄ…c siÄ™ do Å¼adnych konkretnych *zdarzeÅ„*, ani nie
+obliczajÄ…c Å¼adnych wartoÅ›ci funkcji *p*. Czy widzisz, Å¼e o to miÄ™dzy innymi, to znaczy o duÅ¼y
+stopieÅ„ ogÃ³lnoÅ›ci, chodzi w tego rodzaju twierdzeniach?
 
-To fakt, ¿e wersja twierdzenia Bayesa, któr± uda³o Ci siê udowodniæ, jest wersj±
-uproszczon±. Prawdopodobieñstwa nie mog± byæ mniejsze ni¿ *0* ani wiêksze ni¿ *1*, a nasze
-prawdopodobieñstwa to dowolne liczby, nie wiadomo nawet jakie, czy na przyk³ad rzeczywiste, czy
-wymierne. Tak siê jednak sk³ada, ¿e nie potrzebowali¶my korzystaæ z tych w³asno¶ci
-prawdopodobieñstwa, nasz aksjomat nie by³ wiêc wcale *niezgodny* z rachunkiem prawdopodobieñstwa,
-by³ tylko *s³abszy*.
+To fakt, Å¼e ta wersja twierdzenia Bayesa, ktÃ³rÄ… udaÅ‚o Ci siÄ™ udowodniÄ‡, jest wersjÄ…
+uproszczonÄ…. PrawdopodobieÅ„stwa nie mogÄ… byÄ‡ mniejsze niÅ¼ *0* ani wiÄ™ksze niÅ¼ *1*, a nasze
+prawdopodobieÅ„stwa to dowolne liczby, nie wiadomo nawet jakie, czy na przykÅ‚ad rzeczywiste, czy
+wymierne. Tak siÄ™ jednak skÅ‚ada, Å¼e nie potrzebowaliÅ›my korzystaÄ‡ z tych wÅ‚asnoÅ›ci
+prawdopodobieÅ„stwa, nasz aksjomat nie byÅ‚ wiÄ™c wcale *niezgodny* z rachunkiem prawdopodobieÅ„stwa, on
+byÅ‚ tylko *sÅ‚abszy*.
 
-Wypada³oby poza tym wprowadziæ pojêcie *zmiennnej losowej*, a zamiast o *zdarzeniach* powinni¶my
-mówiæ o (dyskretnych) *zdarzeniach elementarnych*, albo o zdarzeniach zdefiniowanych
-ogólniej. Niemniej, jako narzêdzie stworzone dla pewnych celów dydaktycznych i w rêkach kogo¶, kto
-zna i ma na uwadze wszystkie te ograniczenia, ta wersja jest moim zdaniem znacznie lepsza, ni¿
-nic. Wystarcza na przyk³ad do zilustrowania wielu ciekawych zastosowañ tego twierdzenia w
-psychologii, albo do snucia ogólnych rozwa¿añ na temat oceny hipotez empirycznych.
+WypadaÅ‚oby niby poza tym wprowadziÄ‡ pojÄ™cie [*zmiennnej
+losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniÅ›my mÃ³wiÄ‡
+o (dyskretnych) *zdarzeniach elementarnych*, albo o zdarzeniach zdefiniowanych
+[ogÃ³lniej](https://pl.wikipedia.org/wiki/Przestrze%C5%84_probabilistyczna). Jednak jako narzÄ™dzie
+stworzone dla pewnych celÃ³w dydaktycznych i w rÄ™kach kogoÅ›, kto zna i ma na uwadze wszystkie te
+ograniczenia, ta wersja jest moim zdaniem znacznie lepsza, niÅ¼ nic. Wystarcza na przykÅ‚ad do
+zilustrowania wielu ciekawych zastosowaÅ„ tego twierdzenia w psychologii, albo do snucia ogÃ³lnych
+rozwaÅ¼aÅ„ na temat oceny hipotez empirycznych.
 
-Bêdziemy robiæ podobne rzeczy, ale nie na kartce.
+BÄ™dziemy robiÄ‡ podobne rzeczy, ale nie na kartce.
