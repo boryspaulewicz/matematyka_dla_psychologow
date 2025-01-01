@@ -119,8 +119,8 @@ proces odkrywania czy raczej *ustalania się* być może jakiegoś *chwilowo dom
 konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
-tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma
-dotąd miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi powstają
+tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma na
+razie miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi powstają
 zwykle w ramach społecznych interakcji i nabierają dzięki takim interakcjom (również nieunikalnego)
 sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji wielu bardzo sobie
 bliskich, bo mających wiele wspólnych cech, ale jednak *różnych* osób, bo *różnych wersji tej samej
