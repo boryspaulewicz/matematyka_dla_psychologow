@@ -23,13 +23,14 @@ nawet do kilku wybitnych autorów, bo wtedy *nie może* dobrze spełniać swojej
 ma przecież uprzywilejowanego dostępu do trudności, jakie będą napotykać czytelnicy. Dlatego efekt
 końcowy musi być - i zawsze do pewnego stopnia jest - wynikiem *współpracy*. Jeżeli więc tylko
 interesuje Cię to, co mam tu do powiedzenia i chcesz to zrozumieć, to masz szansę, tak długo jak
-tylko będę w stanie to robić, pomóc sobie i innym do
-Ciebie podobnym odbiorcom *rozmawiając ze mną*.  
+tylko będę w stanie to robić, pomóc sobie i innym do Ciebie podobnym odbiorcom *rozmawiając ze
+mną*. W stwierdzeniu, że "dzieła" tworzą ludzie, liczba mnoga
+jest przecież konieczna.  
 (Tylko proszę, nie pisz wtedy o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba,
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania ...
+No i proszę, znalazłem tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">my father always told me: “if you want to
 go for a run, go for a run, don’t look for company. sooner or later, on your fifth run or your
@@ -38,12 +39,13 @@ principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">29 grudnia
 2024</a></blockquote>
 
-... i cytat, jak podają niektórzy pochodzący od Feynmana, który również tu pasuje:
+Widząc tempo zachodzących zmian, możesz zobaczyć, że przynajmniej na razie gdzieś *biegnę*. I ten
+cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu pasuje:
 
 > If you want to master something, teach it.
 
-Ostatnio niemal codziennie sporo tutaj zmieniam. Jeżeli chcesz dostawać wiadomości na temat
-aktualizacji, to wyślij mi maila, dopiszę Cię wtedy do listy adresatów.
+Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji, to wyślij mi maila, dopiszę Cię wtedy
+do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
