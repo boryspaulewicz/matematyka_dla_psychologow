@@ -573,5 +573,5 @@ i zobacz, jak bardzo zmienił się sposób, w jaki teraz postrzegasz wszystko, o
 [^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
     [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
     Zaporożec wykonywali utwory z płyty [П'ятниця](https://www.youtube.com/watch?v=nnWMrmTWonI),
-    której wtedy lubiłem czasem posłuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką
+    której wtedy lubiłem czasami posłuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką
     i wtedy usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
