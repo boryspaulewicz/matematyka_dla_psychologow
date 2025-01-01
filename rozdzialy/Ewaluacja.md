@@ -12,7 +12,7 @@ może być w skończonym czasie zredukowany do najprostszej postaci.
 
 Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, wystarczy na razie, jeżeli
 zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne przykłady będą tylko
-wariacjami na ten temat.
+wariacjami na ten temat (ilustracja):
 
 ```lean
 def identycznosc (typ : Type) (parametr : typ) : typ := parametr
@@ -55,8 +55,10 @@ na tym, co Ci do tej pory pokazałem.
 
 A żeby zwiększyć Twoją tolerancję dla [niewyjaśnionych
 tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie bardzo Ci
-się przyda, proponuję, żebyś wkleiła do Leana taki oto fragment poprawnego kodu, zawierający
-definicję jeszcze *uniwersalniejszej*[^1] identyczności:
+się przyda, proponuję, żebyś wkleiła do Leana poniższy fragment poprawnego kodu, zawierający
+definicję jeszcze *uniwersalniejszej*[^1] identyczności. Mam nadzieję, że nic z tego nie rozumiesz,
+bo dodałem tu ten fragment tylko po to, żeby przyzwyczaić Cię do tego, że możesz pewnych rzeczy nie
+rozumieć a mimo to czytać dalej.
 
 ```lean
 universe u
