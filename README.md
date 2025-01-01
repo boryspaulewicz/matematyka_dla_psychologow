@@ -185,7 +185,7 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
 [R12 Duży kwantyfikator, predykaty, mały fragment całkowicie zmyślonego artykułu i dowód na
-istnienie Boga](./rozdzialy/Duzy_predykaty_Bog.md)
+istnienie Boga Anzelma z Canterbury](./rozdzialy/Duzy_predykaty_Bog.md)
 
 [R13 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
