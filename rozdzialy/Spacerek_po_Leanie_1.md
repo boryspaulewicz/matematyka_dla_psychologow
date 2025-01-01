@@ -315,7 +315,8 @@ objaśnienia. Teraz pokażę Ci, w jaki sposób przebiega ewaluacja bardziej sko
 ```lean
 #eval plus 1 2
 
--- Pierwszy krok ewaluacji to rozpakowanie definicji stałej plus:
+-- Ponieważ udajemy tutaj, że w przypadku 1 i 2 nie ma nic do rozpakowania, pierwszy krok ewaluacji 
+-- to rozpakowanie definicji stałej plus:
 (fun (pierwsza : Nat) => fun (druga : Nat) => pierwsza + druga) 1 2
 
 -- Drugi krok ewaluacji to odczepienie ciała:
