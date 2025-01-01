@@ -163,10 +163,10 @@ swoją).
 
 Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
 *funkcjonalizmem obiektywnym*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia,
-dokładnie tak samo jak "ten, który powtarza eksperyment" szybko znika nam z pola widzenia gdy
-poznajemy rachunek prawdopodobieństwa, a "ten, który dokonuje zewnętrznej interwencji" szybko się
+dokładnie tak samo jak "Ten, który powtarza doświadczenie" szybko znika nam z pola widzenia gdy
+poznajemy rachunek prawdopodobieństwa, a "Ten, który dokonuje zewnętrznej interwencji" szybko się
 ulatnia, gdy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie nadal
-"jego" cień.
+"Jego" cień.
 
 Można to powiedzieć również tak: Tak samo, jak nie da się wyprowadzić wniosków o charakterze
 probabilistycznym nie przyjmując najpierw założeń probabilistycznych, i nie da się wyprowadzić
