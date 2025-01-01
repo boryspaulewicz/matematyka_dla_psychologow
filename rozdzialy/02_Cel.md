@@ -215,7 +215,7 @@ rzeczywiste procesy fizyczne*.
 
 *Rodzaj zachowania nie jest, bo nie może być, własnością unikalną*.
 
-Można to samo wyrazić w być może bardziej zrozumiały sposób również tak, wyrażając ten punkt
+Można powiedzieć to samo w być może bardziej zrozumiały sposób również tak, wyrażając ten punkt
 widzenia jako coś w rodzaju odwrotności [fiksacji
 funkcjonalnej](https://pl.wikipedia.org/wiki/Fiksacja_funkcjonalna): Jeżeli coś *może* pełnić w
 jakimś stopniu pewną funkcję, rozumianą jako rozwiązanie jakiegoś zdania, to po prostu *pełni* tą
