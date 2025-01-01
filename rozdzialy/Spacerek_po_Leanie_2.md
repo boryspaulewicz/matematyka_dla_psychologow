@@ -150,7 +150,7 @@ potrzebujesz wsparcia Leana, żeby zauważyć, że to wyrażenie nie ma sensu. T
 `nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę
 naturalną. Podobnie *1 + 2* jest jednocześnie złożonym wyrażeniem, aplikacją dodawania do dwóch
 argumentów jak również pewną *liczbą naturalną*, bo to wyrażenie *oznacza* liczbę naturalną -
-wszędzie, gdzie może się pojawić dowolna liczba naturalna, *1 + 2* również może się pojawić.
+wszędzie, gdzie może się pojawić *dowolna* liczba naturalna, *1 + 2* również może się pojawić.
 
 Funkcja, którą zdefiniowaliśmy, to *identyczność* albo inaczej funkcja identycznościowa. Ta funkcja
 wydaje się wręcz zbędna, ale tak jak liczba zero, czasami nie możemy się bez niej obejść. Na
@@ -193,7 +193,13 @@ argument:
 #eval identycznosc String "jakis tekst"
 ```
 
-Uprzedzam, że będę teraz objaśniał *najtrudniejsze pojęcie w tym rozdziale*. 
+Uprzedzam, że będę teraz objaśniał **najtrudniejsze pojęcie w tym rozdziale**. Przypominam więc:
+Jeżeli będziesz czuła, że trudno Ci to zrozumieć, albo będą Cię dręczyć jakieś niejasne wątpliwości
+czy brak poczucia sensu, być może najlepszą strategią będzie albo czytać dalej albo wrócić po
+przerwie do poprzednich fragmentów i przede wszystkim *czekać*, aż wszystko będzie się [powoli
+stawało coraz bardziej
+jasne](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf). To jest
+naprawdę w dużym stopniu kwestia przyzwyczajenia, a przede wszystkim *pamięci*.
 
 Nowa wersja funkcji identycznościowej *działa dla dowolnego typu* dzięki temu, że *typ drugiego
 argumentu* i zarazem jej *rezultatu* jest jej *pierwszym parametrem*. Mamy tutaj przykład *typu
