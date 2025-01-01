@@ -108,8 +108,23 @@ uzasadnione wnioski pracownika naukowego. Ja tak w każdym razie sądzę.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
-pojęcia *zadania*. Dzięki tej jednej definicji będziemy mogli całkowicie zakodować w języku teorii
-typów artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*.
+pojęcia *zadania*. Odkryjemy wtedy kluczową przyczynowo-zadaniową rolę *instrukcji* (w tym również
+*instrukcji zrandomizowanej*), którą psychologowie zdają się zwykle traktować jakby była co najwyżej
+drugorzędną częścią badań.
+
+Dzięki tej jednej definicji będziemy mogli całkowicie zakodować w języku teorii typów artykuł
+naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. Pomijają ewentualną dokumentację, z
+perspektywy użytkownika ten artykuł będzie się składał z *dwóch łatwych do odczytania list* - listy
+założeń dotyczących danych i własności planu badawczego i być może jakiś definicji i założeń o
+charakterze teoretycznym, a także listy dedukcyjnych wniosków. Już teraz możemy to zrobić z
+wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania (z instrukcją)
+będziemy mogli zrobić to samo z wnioskami swoiście psychologicznymi. Z perspektywy użytkownika to
+będzie nic innego jak informacja, że określone *warunki badania* i *źródła pochodzenia danych*
+(które z powodów praktycznych taki użytkownik jest zmuszony traktować jako coś w rodzaju aksjomatów)
+*mają, ponad wszelką wątpliwość*, takie a nie inne właściwości *psychologiczne* czy
+*zachowaniowe*. W dodatku ta formalizacja będzie wręcz *zawstydzająco prosta*, tak samo jak
+zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa, wpływu i własności kontrfaktycznych
+są rachunki prawdopodobieństwa i przyczynowy dla zmiennych dyskretnych.
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tego niezwykłego punktu
