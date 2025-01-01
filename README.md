@@ -254,7 +254,7 @@ określiłem jako przeznaczone dla osób *nadmiernie ambitnych*.
 Marcinowi Charlińskiemu, za bardzo miłe słowa, dotyczące zresztą nie tylko tej książki, za wykrycie
 w rozdziale drugim wadliwego linku do dostępnej za darmo, znakomitej książki Sheldona Axlera
 [*Linear Algebra Done Right*](https://linear.axler.net/) (na początek polecam raczej *drugie*
-wydanie, ale to tylko moja opinia) i za wskazanie mi możliwości napisania czegoś lepiej.
+wydanie, ale to tylko moja opinia) i za wskazanie możliwości napisania czegoś lepiej.
 
 Jeszcze raz Tomkowi Smoleniowi, za dociekliwość, zaangażowanie i wykrycie potencjalnego źródła
 nieporozumień polegającego na tym, że nie napisałem dość wcześnie i wystarczająco wyraźnie, że *typ
