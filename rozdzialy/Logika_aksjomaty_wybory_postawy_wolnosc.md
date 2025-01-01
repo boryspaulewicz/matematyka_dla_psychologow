@@ -1,49 +1,50 @@
 ## O czym teraz będzie
 
-Wątki, które poruszam w tym rozdziale pojawiły się wcześniej w jednej z poprzednich wersji rozdziału
-o predykatach i formalizacji rzekomego dowodu na istnienie Boga Anzelma z Canterbury. Uznałem
-jednak, że tego wszystkiego było za dużo jak na jeden rozdział, a poza tym to nie są tylko jakieś
-tam moje luźne dygresje, ale raczej próba wstępnego przygotowania Cię na to, o czym będę mówił
-później, gdy już zaczniemy formalizować artykuły empiryczne i teoretyczne dotyczące zachowania. Jak
-się niebawem przekonasz, napisałem to wszystko zanim postanowiłem zwracać się do czytelnika w formie
-żeńskiej (tam wiem), ale nie chcę tego zmieniać, bo mi żal, a poza tym ten akurat wątek łączy się
-tutaj z innymi.
+Wątki, które poruszam w tym rozdziale, pojawiły się wcześniej w jednej z poprzednich wersji
+rozdziału o predykatach i formalizacji dowodu na istnienie Boga Anzelma z Canterbury. Uznałem
+jednak, że tego wszystkiego było tam za dużo, a poza tym to nie są tylko jakieś tam luźne dygresje,
+ale raczej próba wstępnego przygotowania Cię na to, o czym będę mówił później, gdy już zaczniemy
+formalizować artykuły empiryczne i teoretyczne dotyczące zachowania. Napisałem to wszystko zanim
+postanowiłem zwracać się do czytelnika w formie żeńskiej (tam wiem), ale nie chcę tego zmieniać, bo
+mi żal, a poza tym ten akurat wątek łączy się tutaj z innymi.
 
 <hr>
 
 # Logika, aksjomaty, fakty empiryczne, wybory, postawy i wolność
 
-Zgaduję, że wielu ludziom matematyka kojarzy się przede wszystkim z liczbami, a w drugiej kolejności
-z geometrią. My zajmowaliśmy się do tej pory głównie logiką, w której nie chodzi ani o liczby ani o
+Zgaduję, że wielu matematyka kojarzy się przede wszystkim z liczbami, a w drugiej kolejności z
+geometrią. My zajmowaliśmy się do tej pory głównie logiką, w której nie chodzi ani o liczby ani o
 obiekty geometryczne. A raczej, interpretowaliśmy formalny rachunek logiczny w kategoriach zdań i w
-pewien sposób rozumianej prawdy, a nie liczb albo figur. Może da się ten rachunek konsekwentnie
+pewien sposób rozumianej prawdy, a nie liczb lub figur. Może da się ten rachunek konsekwentnie
 interpretować w kategoriach liczbowych lub geometrycznych, a może nie, nie wiemy tego jeszcze (da
 się, ale nie mamy na to czasu).
 
-Nie możemy odpowiedzieć teraz przekonująco na pytanie o istnienie tego rodzaju spójnych
-alternatywnych interpretacji, bo żeby udzielić takiej odpowiedzi, musielibyśmy najpierw wykonywać
-*eksperymenty na sobie*. Na przykład, mógłbym się dłużej zastanowić i może wpadłbym na pomysł
-systematycznego sposobu przypisywania zdaniom i spójnikom logicznym obiektów lub własności
-geometrycznych. Może wyszło by mi z tego coś, co wydawało by mi się sensowne. To moje "wydawanie" to
-byłby wtedy *znany mi fakt empiryczny* dotyczący mnie, ale nie byłby to jeszcze żaden dowód.
+Nie możemy jeszcze odpowiedzieć na pytanie o istnienie tego rodzaju spójnych alternatywnych
+interpretacji, bo żeby udzielić takiej odpowiedzi, musielibyśmy najpierw wykonywać *eksperymenty na
+sobie*. Na przykład, mógłbym się dłużej zastanowić i może wpadłbym na pomysł systematycznego sposobu
+przypisywania zdaniom i spójnikom logicznym obiektów lub własności geometrycznych. Po serii prób i
+błędów może wyszło by mi z tego coś, co wydawało by mi się sensowne. To moje "wydawanie" to byłby
+wtedy *znany mi fakt empiryczny* dotyczący mnie, ale nie byłby to jeszcze żaden dowód.
 
 Właśnie teraz muszę rozwiązać inny problem. Najpierw chciałem napisać zdanie zawierające słowo
 "mógłbyś", a potem się zreflektowałem (*zreflektować się* - podoba mi się ten osobliwy zwrot, chyba
 go później do czegoś wykorzystam), że odbiorcą może być kobieta. Napisałem więc mógła/byś, ale to mi
 się wydało bardzo nieudane i poczułem irytację, że poświęcam takiemu moim zdaniem drobiazgowi aż
-tyle uwagi. Moje postawy polityczne są niejasne, bo nie lubię polityki i większości polityków, ale
-moi znajomi pewnie powiedzieliby, że te poglądy są lewicowe w kwestiach ekonomicznych i liberalne w
-kwestiach obyczajowych. Nie bardzo wiem, co to właściwie znaczy, ani nie bardzo mnie to obchodzi,
-ale to ma chyba ostatnio jakiś związek z rodzajem gramatycznym.
+tyle uwagi. Moje poglądy polityczne są niejasne, bo nie lubię polityki i większości polityków, ale
+moi znajomi pewnie powiedzieliby, że te poglądy są lewicowe w sprawach ekonomicznych i liberalne w
+obyczajowych. Nie bardzo wiem, co to właściwie znaczy, ani nie bardzo mnie to obchodzi, ale to ma
+chyba ostatnio jakiś związek z rodzajem gramatycznym.
 
 Uważam, że kwestia "odpowiedniego" rodzaju gramatycznego słowa, o którym wspomniałem, to drobiazg i
 jeżeli się ze mną nie zgadzasz, to jest to fakt, przed którym razem stoimy, ale z którym sądzę, że
 praktycznie nic nie mogę zrobić. Jeżeli nasze postawy się różnią, to się różnią i ostateczny powód
-tej różnicy to nie jest zwykły fakt, z którego ta różnica wynika logicznie. Jeżeli ta różnica między
-nami występuje, to powodem, albo może sednem tej różnicy jest *szczególny* rodzaj faktu - inaczej
-coś *oceniamy*. Żaden znany mi, akceptowalny dla mnie rachunek logiczny nie pozwala, bez jakiś
-specjalnych dodatkowych składników, z sądów *nieocennych*, czyli takich zwykłych sądów opisowych,
-*wywnioskować* sąd *ocenny*. I nie ma w tym chyba nic dziwnego, skoro *każdy fakt* - w izolacji -
+tej różnicy to nie jest zwykły fakt, z którego ta różnica wynika logicznie i co do którego
+moglibyśmy w jakiś sposób "uzgodnić zeznania". Jeżeli ta różnica między nami występuje, to powodem,
+albo może sednem tej różnicy jest *szczególny* rodzaj faktu - inaczej coś *oceniamy*. 
+
+Żaden znany mi, akceptowalny dla mnie rachunek logiczny nie pozwala, bez jakiś specjalnych
+dodatkowych składników, z sądów *nieocennych*, czyli takich zwykłych sądów opisowych, *wywnioskować*
+sąd *ocenny*. I nie ma w tym chyba nic dziwnego, skoro *każdy fakt* - rozpatrywany w izolacji -
 łącznie z faktami polegającymi na tym, że ktoś w jakiś sposób coś ocenia, *może być oceniany na
 każdy możliwy sposób bez popadania w sprzeczność*.
 
@@ -59,8 +60,8 @@ pomocą racjonalnych argumentów, nawet zakładając całkowitą otwartość na 
 racjonalność po obydwu stronach, cokolwiek by to miało znaczyć. Wydaje mi się, że to by było trochę
 tak, jakby jedna osoba próbowała przekonać drugą, że dynia jest pyszna, kiedy tej drugiej dynia nie
 smakuje (ja akurat nie lubię). Fakty zdają się tu nie mieć nic do rzeczy, bo chodzi o jakieś postawy
-czy preferencje, które pod względem sztywności przypominają na przykład preferencje
-smakowe. Pozostaje więc tylko *perswazja*, czyli taka albo inna forma użycia *siły*.
+albo preferencje, które pod względem sztywności przypominają na przykład preferencje
+smakowe[^2]. Pozostaje więc tylko *perswazja*, czyli taka albo inna forma użycia *siły*.
 
 Muszę więc dokonać wyboru, a ponieważ bardzo cenię sobie wolność - w granicach częściowo
 wyznaczonych przez to, jak rozumiem, a właściwie *czuję* normę niekrzywdzenia - w tym również
@@ -74,7 +75,7 @@ To będzie mój sposób wyrażenia sprzeciwu wobec odczuwanej presji, jeśli ju�
 właściwie przemocy (żartuję), z którą nie mogę zrobić nic innego, jak albo się jej poddać, albo się
 jej w jakiś sposób przeciwstawić. Nie mogę pozostać wobec tej presji obojętny, chciaż chciałbym - bo
 uważam, że to drobiazg - bo żeby pisać dalej muszę teraz wybrać między mogłabyś, mógłbyś,
-mógłbyś/abyś, mogłabyś/mógłbyś, albo czymś innym.
+mógłbyś/abyś, mogłabyś/mógłbyś, albo czymś jeszcze innym.
 
 ## Fakty empiryczne są trochę jak aksjomaty
 
@@ -195,3 +196,9 @@ procesem *twórczym*.
     stwierdzenie na temat relatywnej częstości występowania pewnej postawy* (ach, jak ja lubię
     typować wypowiedzi w języku naturalnym!), czyli właściwie czysta perswazja, o ile wręcz nie
     *groźba* ([linczu](https://en.wikipedia.org/wiki/David_Lynch)).
+
+[^2]: Tą analogię ukradłem albo [Haidtowi](https://en.wikipedia.org/wiki/The_Righteous_Mind), albo
+    [Wegnerowi i Greyowi](https://www.goodreads.com/book/show/25784102-the-mind-club), nie pamiętam
+    w tej chwili. W obydwu tych książkach można znaleźć moim zdaniem o wiele za daleko idące
+    interpretacje wyników badań, no ale to jest przecież psychologia. Poza tym fajnie się je czyta i
+    pamiętam, że były dla mnie bardzo inspirujące.
