@@ -112,11 +112,11 @@ pojęcia *zadania*. Dzięki tej jednej definicji będziemy mogli całkowicie zak
 typów artykuł naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*.
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
-będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tej niezwykłej
-perspektywy, jakiej dostarczy nam teoria typów (a później jeszcze teoria kategorii). Z matematyką
-zrobimy to na początku mówiąć *tylko* o
+będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tego niezwykłego punktu
+widzenia, którego dostarczy nam teoria typów (i izomorfizm Curry'ego-Howarda, a później również
+teoria kategorii). Z matematyką zrobimy to na początku mówiąć *tylko* o
 [funkcjach](https://youtu.be/zHU1xH6Ogs4?si=6dEXhDwOJ01KVw8W&t=42), a z psychologią zrobimy to
-mówiąc najpierw *tylko* o jednym, w pewnym technicznym już wtedy sensie najprostym możliwym
+mówiąc najpierw *tylko* o jednym, w pewnym już wtedy technicznym sensie najprostym możliwym
 psychologicznym badaniu eksperymentalnym.
 
 Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną rolę jaką pojęcie [masy
