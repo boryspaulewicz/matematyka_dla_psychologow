@@ -127,9 +127,9 @@ bliskich, bo mających wiele wspólnych cech, ale jednak *różnych* osób, bo *
 osoby*, z których każda istniała tylko *wirtualnie* i tylko *przez chwilę* i wniosła coś do
 końcowego rezultatu, rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), a następnie
 to, co w ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad *zewnętrznymi*
-źródłami takich informacji mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież im więcej
-punktów widzenia bierze udział w tym procesie i im bardziej te punkty widzenia są różne, tym większa
-jest szansa na zbliżenie się do czegoś dobrego.
+źródłami takich informacji mam jednak bardzo ograniczoną kontrolę, a szkoda, bo przecież, z (pewnej,
+którą poznasz później) definicji, im więcej punktów widzenia bierze udział w tym procesie i im
+bardziej te punkty widzenia są różne, tym większa jest szansa na zbliżenie się do czegoś dobrego.
 
 Trudno mi powiedziec, czy powyższe uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tutaj w wersji
