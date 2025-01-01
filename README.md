@@ -99,7 +99,7 @@ tego, jak warto podchodzić do nauki jakichkolwiek treści, ale również uwagi 
 które może zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę skierowaną
 do psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić
 lepiej, niż umiem (to niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)),
-za to te, z którymi zapoznasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
+za to te, z którymi spotkasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
 [dziesiątym](./rozdzialy/Implikacja_w_zadaniach.md) są nimi z pewnością).
 
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
