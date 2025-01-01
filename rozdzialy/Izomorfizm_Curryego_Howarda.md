@@ -87,9 +87,9 @@ przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć ni
 nam je rozwiązać lub zrozumieć. Co więcej, pewne problemy liczbowe, które mogłyby się nam wcale
 początkowo nie kojarzyć z geometrią, mogą się okazać wiernie przetłumaczalne na problemy
 geometryczne i może się również okazać, że w tej wersji są dla nas łatwiejsze albo bardziej
-zrozumiałe. A czasem dzieje się i tak, że *odkrywamy* czy raczej *znajdujemy* pewne obiekty
-geometryczne, które najpewniej nie przyszłyby nam w ogóle do głowy, gdybyśmy nie dotarli do nich
-pośrednio, najpierw rozważając jakieś problemy o charakterze liczbowym.
+zrozumiałe. A czasami dzieje się i tak, że *odkrywamy* albo *znajdujemy* pewne obiekty geometryczne,
+które najpewniej nie przyszłyby nam w ogóle do głowy, gdybyśmy nie dotarli do nich pośrednio,
+najpierw rozważając jakieś problemy o charakterze liczbowym.
 
 W [artykule](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) na temat
 przyczynowości, który napisałem głównie z myślą o odbiorcach próbujących uprawiać psychologię
@@ -136,7 +136,7 @@ wtedy *niemal całkowitą pewność*, że ta mysz to właśnie *robi*. Nie rozma
 Ci wiadomo) i nie wiesz, skąd się wzięła, na pewno też nie masz żadnych informacji na temat
 złożonych procesów sterujących jej ruchami, a jednak wiesz, prawie na pewno, że ta mysz *stara się
 gdzieś szybko dotrzeć, omijając Cię, ponieważ stoisz jej na drodze*. Skąd to wszystko wiesz? I jak
-bardzo Twoim zdaniem mogłabyś się w takiej sytuacji mylić?
+bardzo Twoim zdaniem mogłabyś się wtedy mylić?
 
 Byłabyś w stanie zobaczyć ten proces powstrzymując się od patrzenia na niego w kategoriach celu,
 możliwych sposobów osiągania go i przeszkód w jego osiągnięciu? Bez nawykowego interpretowania
@@ -147,7 +147,7 @@ umożliwić patrzenie w ten sposób na proces rozmowy, albo na przykład na rozg
 pisania ksiażki?
 
 To teraz wyobraź sobie jeszcze, że Twoja interakcja z myszą biegnącą po podłodze została nagrana
-przez kamerę, o której wcześniej nie wiedziałać. Odkryłaś później to nagranie, a razem z nim wiele
+przez kamerę, o której wcześniej nie wiedziałaś. Odkryłaś później to nagranie, a razem z nim wiele
 innych takich nagrań, pochodzących z takiego samego pokoju jak ten, w którym niedawno byłaś. I
 odkryłaś też wtedy coś jeszcze - na wszystkich tych nagraniach, za wyjątkiem tego, na którym widać
 Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się dokładnie w ten sam sposób. Ale
