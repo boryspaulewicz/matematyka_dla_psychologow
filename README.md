@@ -40,8 +40,8 @@ principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">29 grudnia
 2024</a></blockquote>
 
-Widząc tempo zachodzących zmian, możesz zobaczyć, że przynajmniej na razie dokądś *biegnę*. I ten
-cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu pasuje:
+Widząc tempo zachodzących zmian, możesz zobaczyć, że - przynajmniej na razie - dokądś *biegnę*. I
+ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu pasuje:
 
 > If you want to master something, teach it.
 
