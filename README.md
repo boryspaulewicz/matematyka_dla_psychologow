@@ -48,6 +48,11 @@ ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu p
 Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji i być może dodać coś od siebie, to
 wyślij mi wiadomość, dopiszę Cię wtedy do listy adresatów.
 
+**Ostatnie zmiany**: W rozdziale trzecim dodałem niedawno akapit (zaczynający się od "Wracając do
+celów", i chodzi właściwie o dwa akapity, bo wcześniejszy też się zmienił), w którym dosyć
+szczegółowo omawiam strukturę w pełni sformalizowanych artykułów empirycznych dotyczących
+zachowań. Poza tym, jak każdego dnia, sporo drobnych poprawek w różnych miejscach.
+
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
 powinny być zrozumiałe dla *licealistów*, a jeśli nie będą, to spróbuję sprawić, żeby były. Piszę tą
