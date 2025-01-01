@@ -32,11 +32,12 @@ pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
 [artykule](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
 [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
 przyczynowo-teoretyczna, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
-[preprincie](https://osf.io/preprints/psyarxiv/e7a3x)), na której trop, jak się najpierw
-dowiedziałem od piszącej pożyteczne teksty, czarującej [Julii Rohrer](https://juliarohrer.com/), a
-potem od samego już Borsbooma, ten wpadł dziesięć lat przede mną, ale tego pomysłu nigdy nie
-rozwinął i dlatego w korespondencji prywatnej wspaniałomyślnie przyznał mi autorstwo. Julia napisała
-potem na ten temat na poczytnym blogu [The 100%
+[preprincie](https://osf.io/preprints/psyarxiv/e7a3x) i niestety błędnie opisana na
+[tej](https://pl.wikipedia.org/wiki/R%C3%B3wnowa%C5%BCno%C5%9B%C4%87_pomiaru) stronie Wikipedii), na
+której trop, jak się najpierw dowiedziałem od piszącej pożyteczne teksty, czarującej [Julii
+Rohrer](https://juliarohrer.com/), a potem od samego już Borsbooma, ten wpadł dziesięć lat przede
+mną, ale tego pomysłu nigdy nie rozwinął i dlatego w korespondencji prywatnej wspaniałomyślnie
+przyznał mi autorstwo. Julia napisała potem na ten temat na poczytnym blogu [The 100%
 CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
 zaszczyt figurować w dwóch przypisach, wymieniony obok samego Borsbooma jako niezależny odkrywca tej
 istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko po to, żeby się pochwalić, chociaż
