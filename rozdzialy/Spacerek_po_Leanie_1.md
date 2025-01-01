@@ -219,8 +219,8 @@ to jest pomijając informacje, które da się wywnioskować z informacji podanyc
 elastyczność ma służyć użytkownikowi, ale na razie nie będziemy z niej korzystać, bo naszym celem
 jest na razie opanowanie podstaw, a nie korzystanie z udogodnień.
 
-Będę odtąd używał *komentarzy*. Komentarzem jest tekst zaczynający się od znaków `--`. Lean ignoruje
-wszystko, co jest napisane po tych znakach, taki tekst ma zatem służyć tylko Tobie.
+Będę odtąd częściej używał *komentarzy*. Komentarzem jest tekst zaczynający się od znaków `--`. Lean
+ignoruje wszystko, co jest napisane po tych znakach, taki tekst ma zatem służyć tylko Tobie.
 
 W ten sposób możemy zdefiniować funkcję, która przyjmuje argument typu `Nat` i zwraca jego wartość
 zwiększoną o *2*:
