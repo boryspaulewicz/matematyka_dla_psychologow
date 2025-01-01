@@ -115,7 +115,7 @@ Akt pisania książki jest co prawda długim, ale jednak w pewnym sensie pojedyn
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
 *w ramach którego*, dzięki stałej autorefleksji i informacjom zwrotnym pochodzącym od jej
 czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego - i
-proces odkrywania czy raczej *ustalania się* być może jakiegoś *dominującego*, ale nadal z
+proces odkrywania czy raczej *ustalania się* być może jakiegoś *chwilowo dominującego*, ale nadal z
 konieczności *nieunikalnego celu*.
 
 W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
