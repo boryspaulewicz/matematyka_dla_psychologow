@@ -209,7 +209,9 @@ zachodziło Z*. W ten sposób uzupełnimy istniejące już jako języki formalne
 wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się *zewnętrzny Agent*[^2]. Rozpoznamy
 jednocześnie wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy
 *Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością
-opisywanego procesu.
+opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest
+procesem *społecznym*, w którym podmiotowość jest stale *re-konstruowana* w ramach uczenia się
+polegającego na abstrakcyjnie rozumianym, wewnątrz- lub między-jednostkowym *dialogu*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
