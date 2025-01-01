@@ -214,11 +214,15 @@ rzeczywiste procesy fizyczne*.
 
 *Rodzaj zachowania nie jest, bo nie może być, własnością unikalną*.
 
-Można to samo wyrazić w być może bardziej zrozumiały sposób również tak: Jeżeli coś *może* pełnić w
+Można to samo wyrazić w być może bardziej zrozumiały sposób również tak, wyrażając ten punkt
+widzenia jako coś w rodzaju odwrotności [fiksacji
+funkcjonalnej](https://pl.wikipedia.org/wiki/Fiksacja_funkcjonalna): Jeżeli coś *może* pełnić w
 jakimś stopniu pewną funkcję, rozumianą jako rozwiązanie jakiegoś zdania, to po prostu *pełni* tą
 funkcję w tym stopniu. Wszystko pełni jednocześnie nieskończenie wiele funkcji w różnym stopniu i
 nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwiązanie jakiegoś
-zadania. W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
+zadania.
+
+W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
 Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru
 psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha* jest zwykle
