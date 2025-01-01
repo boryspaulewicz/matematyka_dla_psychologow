@@ -140,7 +140,7 @@ W Leanie wszystkie termy, w tym również złożone, *muszą* mieć jakiś typ. 
 Leana takie termy są po prostu bezsensowne. Jeżeli w tym momencie obawiasz się, że napiszesz jakieś
 termy bezsensowne, to niepotrzebnie się tego obawiasz, bo prawie na pewno napiszesz wiele termów
 bezsensownych. Im więcej piszesz, tym więcej bzdur napiszesz, jak zauważył zdaje się ten przenikliwy
-obserwator ludzkiej natury Gombrowicz. To jest może zła wiadomość, chociaż nie jestem tego
+obserwator ludzkiej natury Gombrowicz[^2]. To jest może zła wiadomość, chociaż nie jestem tego
 pewien. Na pewno dobra wiadomość jest taka, że Lean Ci wtedy o tym powie.
 
 Mam nadzieję, że od razu rzuca Ci się w oczy, że z termem `1 nic_nie_robie` jest coś nie tak. W
@@ -582,3 +582,12 @@ pierwszych rozdziałów staną się dla Ciebie w miarę jasne.
     typ funkcyjny brzmi po prostu lepiej, na przykład: *Funkcje to dokładnie takie termy, których
     typem jest jakiś typ funkcyjny* brzmi chyba lepiej, niż *Funkcje to dokładnie takie termy,
     których typem jest jakiś typ funkcji*.
+
+[^2]: ... który być może pojawi się tu jeszcze w drugiej części, bo do pewnych rzeczy pasuje jak
+    ulał, i którego większość książek przeczytałem jeszcze w późnej podstawówce, czego akurat nikomu
+    *nie* polecam, bo zbyt wczesny kontakt z Gombrowiczem raczej nie sprzyja socjalizacji. Jeżeli
+    więc czytają to jacyś aktualni lub przyszli rodzice, to sugeruję, żeby Gombrowicza dzieciom
+    stanowczo zakazać, przynajmniej dopóki nie zaczną częściej wychodzić na miasto. Zamiast tego
+    lepiej niech czytają o teorii typów (albo kategorii), bo dzięki temu z pewnością szybko staną
+    się [socjometrycznymi gwiazdami](https://pl.wikipedia.org/wiki/Gwiazda_socjometryczna). Nie ma
+    za co.
