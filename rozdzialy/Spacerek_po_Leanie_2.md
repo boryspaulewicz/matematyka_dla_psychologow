@@ -316,10 +316,10 @@ def suma (n : Nat) (m : Nat) : Nat := n + m
 ```
 
 **Czytamy to**: Definiuję (`def`) wartość / znaczenie / treść stałej suma (`suma`) jako term o typie
-funkcja dwóch parametrów typu `Nat`, czyli typu liczba naturalna (`(n : Nat) (m : Nat)`), której
-rezultat też jest typu `Nat` (`: Nat`), czyli też jest liczbą naturalną. A więc wszystko między
-definiowanym symbolem (tutaj symbolem `suma`) a symbolem definiowania `:=` jest określeniem *typu*,
-a nie treści (lepiej: *ciała*) definicji.
+funkcja dwóch parametrów typu liczba naturalna (`(n : Nat) (m : Nat)`), której rezultat też jest
+typu `Nat` (`: Nat`), czyli też jest liczbą naturalną. A więc wszystko między definiowanym symbolem
+(tutaj symbolem `suma`) a symbolem definiowania `:=` jest określeniem *typu*, a nie treści (lepiej:
+*ciała*) definicji.
 
 **Czytamy dalej**: Ten term konstruuję albo definiuję (`:=`) jako zastosowanie funkcji dodawania -
 bo to też jest pewna funkcja - do pierwszego i drugiego parametru, które to parametry nazwałam `n` i
