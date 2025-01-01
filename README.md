@@ -255,7 +255,7 @@ najtrudniejszy - dodałem dłuższe ostrzeżenie i zachętę.
 
 I jeszcze raz Szymonowi Stryplingowi, któremu udało się (jeszcze szybciej niż przez piąty)
 przelecieć przez rozdział szósty i o którym to rozdziale powiedział, że był *prostszy*. Szymon
-rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym zadania, w tym również to, które sam
+rozwiązał wszystkie zawarte w rozdziałach piątym i szóstym zadania, w tym również to, które
 określiłem jako przeznaczone dla osób *nadmiernie ambitnych*.
 
 Marcinowi Charlińskiemu, za bardzo miłe słowa, dotyczące zresztą nie tylko tej książki, za wykrycie
