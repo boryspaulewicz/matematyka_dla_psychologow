@@ -102,14 +102,14 @@ Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostał
 `Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te obiekty są dla
 Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
 
-*To jest więc teraz* **Twój kontekst** *albo* **kontekst Ciebie jako funkcji**. *To jest całkiem
-dosłownie* **Twój kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
+*To jest więc teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. *To jest całkiem
+dosłownie* **"Twój" kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
 *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną
-ścisłą i nieprzepuszczalną granicą, jest jednak dla Ciebie szczególnie ważną częścią środowiska, bo
-jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą", zależnie od punktu
-widzenia. Tą zawsze dla Ciebie łatwo dostępną i stosunkowo kontrolowalną część środowiska nazywasz*
-**"własnym" ciałem**. *A część Twojego ciała, która* **pełni teraz rolę kontekstu Ciebie jako pewnej
-funkcji** *nazywasz "Twoją"* **pamięcią**.
+ścisłą i nieprzepuszczalną granicą, jest jednak dla "Ciebie" szczególnie ważną częścią środowiska,
+bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą", zależnie od
+punktu widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część środowiska
+nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz rolę kontekstu
+"Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
 przeze mnie język opisu *sama* sprawiłaś, że to już się *stało*. I co Ty na to? Niby zwyczajna
@@ -310,11 +310,12 @@ open Nat
 
 Aplikacje takie jak `succ zero` czy `succ (succ zero)` są *nieredukowalne* po prostu dlatego, że
 funkcja `succ` istnieje *aksjomatycznie*, a więc definicja stałej `succ` jest *pozbawiona ciała*
-(nie ma tu nic do rozpakowania). Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie
-kryje*. Przyjmujemy tu konwencję, zgodnie z którą liczba naturalna $0$ *jest* (nieredukowalną) stałą
-`zero`, liczba naturalna $1$ *jest* nieredukowalną aplikacją `succ zero`, i tak dalej.
+(nie ma tu nic do rozpakowania). Inaczej mówiąc, *pod stałymi `zero` i `succ` nic się nie kryje*, to
+tylko pewne *sposoby wymawiania liczb naturalnych*. Przyjmujemy tu konwencję, zgodnie z którą liczba
+naturalna $0$ *jest* (nieredukowalną) stałą `zero`, liczba naturalna $1$ *jest* nieredukowalną
+aplikacją `succ zero`, i tak dalej.
 
-**Jak to działa?**: Dla uproszczenia zamiast `zero` będę pisał $z$ a zamiast `succ` będę pisał $z$ i
+**Jak to działa?**: Dla uproszczenia zamiast `zero` będę pisał $z$ a zamiast `succ` będę pisał $s$ i
 nie będę też pisał nawiasów ani spacji, a więc: $z, sz, ssz, sssz$, i tak dalej, gdzie $sz$ to
 następna liczba naturalna po liczbie $0$, a więc $1$, $ssz$ to $2$, $sssz$ to $3$, i tak
 dalej. Dodawanie działa wtedy tak (rozpakowując i na końcu pakując definicje stałych w oczywisty
