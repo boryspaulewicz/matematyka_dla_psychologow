@@ -198,7 +198,8 @@ serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebij
 pierwsze kilkadziesi±t stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach
 zwykle wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji
 wspomina³em tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te
-zawsze mo¿na by³o znale¼æ.
+zawsze mo¿na by³o znale¼æ. Listê autorów, którym "to zrobi³em" znajdziesz na dziewi±tej stronie
+mojego doktoratu.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
