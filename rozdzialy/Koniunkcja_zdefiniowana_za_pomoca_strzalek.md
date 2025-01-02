@@ -1,7 +1,8 @@
-## Nie ma to jak rysowanie
+# Nie ma to jak rysowanie
 
 W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam ważny powód,
-żeby ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat potrzebujemy rysunku.
+żeby ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
+właściwie kilku, a tak naprawdę będziemy potrzebowali kilku *diagramów*.
 
 **Polecenie**: Przygotuj czystą kartkę papieru i długopis albo cokolwiek innego do pisania. Może
 najlepiej kartkę formatu A4. Połóż ją przed sobą poziomo. Poproszę Cię teraz, żebyś coś
