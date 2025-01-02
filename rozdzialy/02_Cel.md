@@ -313,9 +313,15 @@ Umiem stwarzać te pozory, bo jak na psychologa dosyć sprawnie operuję technic
 wnioskowania statystycznego i przyczynowego, ale nie lubię tego robić. Musiałbym też znowu znosić
 to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i realnej
 władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według mnie taka
-postawa jest po prostu *anty*naukowa. Pisząc tą książkę publicznie i na żywo nie unikam przecież w
-żaden sposób niczyjej oceny. Jest wręcz odwrotnie, skoro *każdy*, kto tylko ma dostęp do internetu,
-może poddać krytyce *wszystko*, co tu piszę, po prostu odnosząc się do tego publicznie.
+postawa jest po prostu *anty*naukowa. 
+
+Pisząc tą książkę publicznie i na żywo nie unikam przecież w żaden sposób niczyjej oceny. Jest wręcz
+odwrotnie, skoro *każdy*, kto tylko ma dostęp do internetu, może poddać krytyce *wszystko*, co tu
+napisałem, łącznie z *całą historią zmian*. Tylko, że taka krytyka nie będzie wtedy polegała na
+czymś tak dziecinnym, jak naklejenie albo odklejenie etykiety naukowości z logiem dużego wydawnictwa
+na podstawie ocen trzech do czterech osób, które uznały, że tekst można publikować z nikomu
+nieznanych powodów. Ewentualna krytyka, do której z całego serca i szczerze zachęcam, będzie musiała
+mieć również charakter *publiczny*.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*.
 
