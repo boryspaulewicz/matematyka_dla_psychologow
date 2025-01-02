@@ -49,10 +49,10 @@ ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu p
 Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji i być może dodać coś od siebie, to
 wyślij mi wiadomość, dopiszę Cię wtedy do listy adresatów.
 
-**Ostatnie zmiany**: W rozdziale trzecim dodałem niedawno akapit (zaczynający się od "Wracając do
-celów", i chodzi właściwie o dwa akapity, bo wcześniejszy też się zmienił), w którym dosyć
-szczegółowo omawiam strukturę w pełni sformalizowanych artykułów empirycznych dotyczących
-zachowań. Poza tym, jak każdego dnia, sporo drobnych poprawek w różnych miejscach.
+**Aktualności**: (2 grudnia) Czytelniczki i czytelników, którzy mają już za sobą co najmniej
+rozdział 6, zapraszam do testowania i zgłaszania uwag na temat rozdziału 19. Jeżeli coś zabrzmi Ci
+niezrozumiale, albo znajdziesz jakiś błąd, albo w ogóle poczujesz, że coś tam nie gra, będę
+wdzięczny, jeśli mi o tym napiszesz.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
