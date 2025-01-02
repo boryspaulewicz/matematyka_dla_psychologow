@@ -136,8 +136,8 @@ Tylko z tego powodu wiele razy zdarza³o mi siê niepotrzebnie porzucaæ naukê, bo 
 nie przyswoi³em sobie dobrze czego¶ na danym etapie, to nie powinienem czytaæ dalej. A przecie¿
 rozumienie w zasadzie nigdy nie rozwija siê w taki "liniowy" sposób. Wydaje mi siê, ¿e dobrze wiedz±
 to informatycy, bo s± chyba przyzwyczajeni do traktowania bibliotek programistycznych i dokumentacji
-jak *skrzynek z narzêdziami*, które maj± przede wszystkim dzia³aæ i którym nie musz± siê przygl±daæ
-z bliska, czy analizowaæ jak s± zbudowane, je¶li nie maj± na to ochoty.
+jak *skrzynek z narzêdziami*, które maj± przede wszystkim *dzia³aæ* i którym nie musz± siê
+przygl±daæ z bliska, czy analizowaæ jak s± zbudowane, je¶li akurat nie maj± na to ochoty.
 
 ¯eby Ciê przekonaæ do uczenia siê ze mn± na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
 zmieni³a moje ¿ycie. W trakcie wakacji 2023 roku, roj±c sobie, ¿e mo¿e jakim¶ cudem bêdê mia³ szansê
