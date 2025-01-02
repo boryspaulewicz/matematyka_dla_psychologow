@@ -102,7 +102,7 @@ Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostał
 `Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te obiekty są dla
 Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
 
-*To jest więc teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. *To jest całkiem
+*To jest więc teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. *To całkiem
 dosłownie* **"Twój" kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
 *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną
 ścisłą i nieprzepuszczalną granicą, jest jednak dla "Ciebie" szczególnie ważną częścią środowiska,
@@ -112,14 +112,14 @@ nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni
 "Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
-przeze mnie język opisu *sama* sprawiłaś, że to już się *stało*. I co Ty na to? Niby zwyczajna
+przeze mnie język opisu *sama* sprawiłaś, że to się już *stało*. I co Ty na to? Niby zwyczajna
 (prawie) rozmowa, a jednocześnie nie taka całkiem zwyczajna, prawda? Właściwie nie różni się to
-niczym od wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc cały czas musiałem
-zakładać, że będziesz w określony sposób ze mną *współpracować*, a w każdym razie cały czas miałem
-taką nadzieję. Jeżeli tylko próbowałaś w jakikolwiek sposób zrozumieć to, o czym do Ciebie mówię, a
-skoro czytasz ten fragment, to mogę założyć, że tak, to przez cały ten czas działo się dokładnie to
-samo, teraz tylko szczegóły są nowe. Zgaduję jednak, że Twoje *wrażenie* na czym to polega może być
-tym razem w jakiś trudny do określenia sposób inne.
+niczym od wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać,
+że będziesz w określony sposób ze mną *współpracować*, a w każdym razie miałem przez cały ten czas
+taką nadzieję. Jeżeli więc tylko próbowałaś w jakikolwiek sposób zrozumieć to, o czym do Ciebie
+mówiłem, a skoro czytasz ten fragment, to mogę założyć, że tak, to przez cały ten czas działo się
+dokładnie to samo, teraz tylko szczegóły są nowe. Zgaduję jednak, że Twoje *wrażenie* na czym to
+polega może być tym razem w jakiś trudny do określenia sposób inne.
 
 Możemy teraz wrócić do pierwszego diagramu.
 
@@ -143,7 +143,9 @@ samego miejsca i dojechać do tego samego miejsca.
 
 To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się nim, jeżeli jeszcze Ci się dobrze nie
 "przykleja". Spokojna [tafla tego oceanu](https://ncatlab.org/nlab/show/The+Rising+Sea) będzie się i
-tak powoli unosić, o ile oczywiście zdecydujesz, żeby czytać dalej.
+tak powoli unosić, aż w końcu [rozłupiemy razem ten twardy orzech do
+zgryzienia](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf), o
+ile oczywiście zdecydujesz, żeby czytać dalej.
 
 Jeszcze bardziej przyda nam się odtąd term `Kompatybilne`. Jeżeli `f : Strzalka`, `g : Strzalka` i
 `h : Strzalka`, to jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a `Cel h` to `Cel g`, tak jak
