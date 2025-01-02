@@ -253,15 +253,16 @@ autorom, w nastêpnym rozdziale opowiem Ci krótko, w jaki sposób siê uczy³em i cz
 robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas.
 
 Skoro ju¿ mówiê o takich sprawach, to muszê podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni, gdyby
-nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia i
-uczciwej, skromnej, m±drej (i dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi
-sensownych zajêæ - a tak¿e Kasi Popio³ek, która by³a dla mnie wymarzon± wprost szefow± przez te 10
-lat, kiedy pracowa³em na SWPSie w Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo
-dla mnie wa¿nego dr hab. Krzysztofa Krzy¿ewskiego, a pó¼niej prof. Edwarda Nêcki, któremu
-zawdziêczam swobodê zajmowania siê w owym czasie czym tylko mia³em ochotê siê zajmowaæ, byæ mo¿e
-wcale bym nie skoñczy³, gdyby nie liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem,
-moim najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie
-dzi¶ pracujê.
+nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia, od
+którego dopiero niedawno (bo jestem a¿ taki g³upi) zacz±³em siê uczyæ, ¿e praca dopiero wtedy mo¿e
+byæ naprawdê satysfakcjonuj±ca, kiedy polega na *wspó³*pracy, i uczciwej, skromnej, m±drej (i
+dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi sensownych zajêæ - a tak¿e Kasi
+Popio³ek, która by³a dla mnie wymarzon± wprost szefow± przez te 10 lat, kiedy pracowa³em na SWPSie w
+Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla mnie wa¿nego dr
+hab. Krzysztofa Krzy¿ewskiego, a pó¼niej prof. Edwarda Nêcki, któremu zawdziêczam swobodê zajmowania
+siê w owym czasie czym tylko mia³em ochotê siê zajmowaæ, byæ mo¿e wcale bym nie skoñczy³, gdyby nie
+liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba
+przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
