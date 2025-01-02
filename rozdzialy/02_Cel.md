@@ -4,9 +4,9 @@ Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w pla
 części. Wydaje mi się, że większość tematów, o których tu mówię, może nie być zrozumiała dla osób,
 które nie studiowały przynajmniej przez kilka lat na przykład psychologii, dlatego takim czytelnikom
 sugeruję, żeby najwyżej tu zerknąć i przejść zaraz do rozdziału czwartego, od którego zaczyna się
-interaktywna nauka podstaw samej matematyki. Co prawda w pierwszej części pojawiają się czasami
-wątki związane z psychologią, ale te pełnią tam rolę przykładów, które można pominąć bez szkody dla
-zrozumienia głównej treści.
+*niemal od zera*, przebiegająca *bardzo stopniowo* interaktywna nauka podstaw samej matematyki. Co
+prawda w pierwszej części pojawią się czasami wątki związane z psychologią, ale te będą tam pełnić
+rolę przykładów, które można pominąć bez szkody dla zrozumienia głównej treści.
 
 Po omówieniu potrzebnych do tego podstaw, zamierzam wytłumaczyć Ci między innymi, na czym polega
 istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Żeby dobrze objaśnić
