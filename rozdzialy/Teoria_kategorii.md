@@ -215,7 +215,7 @@ i to byłby pełnowartościowy dowód, ponieważ wiemy, że relacja równości j
 zwięźle zapisanym "podwójnym" równaniu mamy wszystkie informacje potrzebne do tego, żeby stwierdzić,
 że $a = c$. Jakiś bardziej pedantyczny autor mógłby napisać też tak:
 
-$a = b$ (1)  
+$$a = b$$ (1)  
 $b = c$ (2)  
 $a = c$ przechodniość równości (1) (2)
 
