@@ -92,7 +92,7 @@ Byłbym zapomniał, a to jest przecież ważne. Wróćmy na chwilę do drugiego 
    są jednocześnie tylko* **reprezentacje** *i te punkty i strzałki mogą, ale nie muszą*
    **oznaczać** *te same obiekty* (odpowiedniego typu). *Punkty `X`, `Y` i `Z` pełnią tu więc role
    abstrakcyjnych* **reprezentacji** *czegoś, co spełnia pewne wymagania* (jak się okaże, będą to
-   wymagania kategorii), *to są więc takie* **rysunkowe zmienne** *i tak samo zmiennymi są też
+   wymagania kategorii), *to są więc takie* **rysunkowe zmienne** *i tak samo zmiennymi są również
    wszystkie strzałki* (chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli i
    staną się przez to *stałymi*).
 
