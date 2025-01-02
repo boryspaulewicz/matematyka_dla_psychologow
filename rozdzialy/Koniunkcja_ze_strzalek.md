@@ -61,6 +61,12 @@ dosłownie) przybliżał.
 def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
 ```
 
+Na wypadek, gdyby zaskoczyło Cię, że duży kwantyfikator pojawia się tutaj za symbolem
+definiowania[^2], wyjaśniam, że to jest definicja *typu*, który równie dobrze moglibyśmy zapisać
+tak: `(r : Prop) → (p → q → r) → r` i ten zapis oznaczałby to samo. Wybrałem taką a nie inną wersję
+tylko dlatego, że wydała mi się z wyglądu bardziej "matematyczna" i miałem po prostu ochotę tak to
+zapisać.
+
 **Czytamy to**: Koniunkcja zdań `p` i `q` jest zdaniem (`: Prop`), którego dowód pozwala uzyskać
 dowód każdego zdania (`∀ r : Prop, ... → r`) które wynika łącznie ze zdań `p` i `q` (`(p → q → r)
 ...`).
@@ -329,3 +335,7 @@ pozwala mówić językami nie tylko ludzi, ale i
     napisanej przez specjalizującą się w [teorii
     kategorii](https://pl.wikipedia.org/wiki/Teoria_kategorii) popularyzatorkę matematyki [Eugenię
     Cheng](https://eugeniacheng.com/).
+
+[^2]: Na to, że duży kwantyfikator pojawił się tutaj po raz pierwszy w tej książce za symbolem
+    definiowania zwrócił mi uwagę Tomek Smoleń. Kto wie ilu czytelnikom w ten sposób pomógł
+    zrozumieć ten fragment.
