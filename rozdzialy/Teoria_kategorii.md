@@ -24,7 +24,7 @@ najlepiej kartkę formatu A4. Połóż ją poziomo. Zaczniemy w lewym górnym ro
    wskazującym na punkt *B*. Może narysuj ją tak, żeby nie stykała się całkiem z punktami, ale to
    tylko sugestia. Ja robię to raz tak, a raz inaczej, i często się waham, którą wersję
    wybrać. Zgodnie z instrukcjami ta strzałka powinna być mniej więcej pozioma. Odtąd będę mówił
-   krócej, na przykład: jeżeli na karte `X : Punkt` i `Y : Punkt` (typowanie można czytać jak
+   krócej, na przykład: jeżeli na kartce `X : Punkt` i `Y : Punkt` (typowanie można czytać jak
    zdanie, pamiętasz?), to powiem *narysuj strzałkę z `X` do `Y`*, a właściwie powiem to nawet
    krócej (to tylko objaśnienie języka, jakim będę się w coraz większym stopniu posługiwał, nie
    instrukcja).
