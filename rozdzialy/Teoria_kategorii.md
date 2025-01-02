@@ -76,7 +76,7 @@ pojęcie okaże się później potrzebne, poproszę Cię teraz o narysowanie, po
    składalne. Zawsze, gdy mówimy o składalności strzałek, ważna jest* **kolejność** *w jakiej
    wymieniamy strzałki. W tym przypadku możemy powiedzieć, że składalne są strzałki `i` i `j`, ale*
    **nie** *możemy powiedzieć, że składalne są strzałki `j` i `i`, bo* **nie wiemy**, *czy `Cel j`
-   to `Zrodlo i` (niedługo wyjaśnię o co chodzi z tym nie wiemy)*
+   to `Zrodlo i`* (niedługo wyjaśnię o co chodzi z tym nie wiemy).
 
 Teraz, gdy mam nadzieję będziesz mogła trochę swobodniej operować formalnym pojęciem składalności,
 możemy wrócić do pierwszego diagramu.
