@@ -144,7 +144,7 @@ samego miejsca i dojechać do tego samego miejsca.
 
 To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się nim, jeżeli jeszcze Ci się dobrze nie
 "przykleja". Spokojna [tafla tego oceanu](https://ncatlab.org/nlab/show/The+Rising+Sea) będzie się i
-tak powoli unosić, o ile oczywiście zdecydujesz żeby czytać dalej.
+tak powoli unosić, o ile oczywiście zdecydujesz, żeby czytać dalej.
 
 Jeszcze bardziej przyda nam się odtąd term `Kompatybilne`. Jeżeli `f : Strzalka`, `g : Strzalka` i
 `h : Strzalka`, to jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a `Cel h` to `Cel g`, tak jak
