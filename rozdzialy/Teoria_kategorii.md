@@ -101,7 +101,7 @@ Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostał
 *niekoniecznie różne obiekty, które dla Ciebie są oznaczone* (albo *reprezentowane*) *przez `Punkt`
 `X`, `Y` i `Z` i* **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone jako
 `Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te obiekty są dla
-Ciebie "opakowane" i nie możesz otworzyć tych opakowań.
+Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
 
 To jest więc teraz* **Twój kontekst** *albo* **kontekst Ciebie jako funkcji**. *To jest całkiem
 dosłownie* **Twój kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
