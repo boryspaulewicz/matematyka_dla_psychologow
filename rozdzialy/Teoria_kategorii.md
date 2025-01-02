@@ -103,7 +103,7 @@ Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostał
 `Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te obiekty są dla
 Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
 
-To jest więc teraz* **Twój kontekst** *albo* **kontekst Ciebie jako funkcji**. *To jest całkiem
+*To jest więc teraz* **Twój kontekst** *albo* **kontekst Ciebie jako funkcji**. *To jest całkiem
 dosłownie* **Twój kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
 *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną
 ścisłą i nieprzepuszczalną granicą, jest jednak dla Ciebie szczególnie ważną częścią środowiska, bo
