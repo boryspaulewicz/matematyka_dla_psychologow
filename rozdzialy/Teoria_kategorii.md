@@ -155,11 +155,11 @@ Wprowadzimy teraz pewnego rodzaju *działanie na strzałkach*, czyli operację p
 dodawania, ale ta operacja nie będzie dotyczyła liczb, tylko naszych strzałek. Będziemy ją
 *zapisywać* tak, jak znaną Ci już *aplikację*: Jeżeli `f : Strzalka` i `g : Strzalka` i `Skladalne f
 g`, to `Zlozenie f g : Strzalka`. Działanie nazywa się tutaj `Zlozenie` i stwierdziliśmy właśnie o
-nim, że złożenie dwóch kompatybilnych strzałek `f` i `g` (w tej kolejności) jest również strzałką,
+nim, że złożenie dwóch kompatybilnych strzałek `f` i `g` (w tej kolejności) jest również `Strzalka`,
 analogicznie do tego, że suma dwóch liczb naturalnych jest również liczbą naturalną. Nasza operacja
-składania różni się jednak od dodawania między innymi w ten ważny sposób, że dodawanie ma sens dla
-*każdej* pary liczb, a składadnie strzałek ma sens *tylko* dla tych (uporządkowanych) par strzałek,
-które są `Kompatybilne`.
+`Zlozenie` różni się jednak od dodawania między innymi w ten ważny sposób, że dodawanie ma sens dla
+*każdej* pary liczb, a `Zlozenie` ma sens *tylko* dla tych (uporządkowanych) par `Strzalka`, które
+są `Kompatybilne`.
 
 Ponieważ `Skladalne f g`, to skoro `Zlozenie` ma być *działaniem* na takich (szczególnych) parach,
 *musi istnieć* `Strzalka`, która jest *unikalnym* `Zlozenie f g`, w tej kolejności. Mamy teraz do
