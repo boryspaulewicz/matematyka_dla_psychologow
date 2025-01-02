@@ -48,21 +48,22 @@ którego wychodzi `s`, a term `Cel s` będzie oznaczał `Punkt`, do którego wch
 
 Przyjmiemy teraz ważną *regułę* dotyczącą *strzałek*: Zawsze gdy mamy takie `f : Strzalka` i `g :
 Strzalka`, że `Skladalne f g`, musimy *dorysować* (na razie *anonimową*) strzałkę, albo przynajmniej
-*wiedzieć, że istnieje* strzałka, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Czyli w
+*przyjąć, że istnieje* strzałka, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Czyli w
 przypadku tego rysunku to byłaby pewna narysowana ukośnie `Strzalka A C`. Ale w tej chwili jeszcze
-nie będziemy tego robić. 
+nie będziemy jej rysować.
 
-`Skladalne` oznacza więc tylko, a właściwie będzie niebawem oznaczało po wprowadzeniu odpowiedniego
-aksjomatu, że da się zawsze zrobić taką (unikalną) strzałkę. Konsekwencje jeszcze nie wprowadzonych
+`Skladalne` oznacza więc tylko, a właściwie będzie niebawem oznaczało (po wprowadzeniu odpowiedniego
+aksjomatu), że da się zawsze zrobić taką (unikalną) strzałkę. Konsekwencje jeszcze nie wprowadzonych
 aksjomat*ów* (liczba mnoga), dotyczących operacji składania strzałek, można zapamiętać tak: *Dla
 każdej skierowanej ścieżki istnieje jednostrzałkowa droga na skróty równa złożeniu wszystkich
 strzałek należących do tej ścieżki* (czyli strzałka, której `Zrodlo` jest początkiem tej ścieżki, a
 `Cel` jest jej końcem). Jeżeli to w tym momencie za dużo, nie przejmuj się, będziemy się do tego
 bardzo stopniowo zbliżać.
 
-Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności jaką jest składalność, gdy to
+Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności, jaką jest składalność, gdy to
 pojęcie okaże się później potrzebne, poproszę Cię teraz o narysowanie, po prawej od *diagramu* (to
-*niejawna definicja*, zauważyłaś?), który już zaczęłaś rysować, pewien inny diagram z *komentarzem*.
+*niejawna definicja*, stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować, pewien inny
+diagram z *komentarzem*.
 
 6. Narysuj, po prawej od diagramu ze `Strzalka`-mi `f` i `g`, dwie poziome `Strzalka` oznaczone z
    góry literami `i` i `j`, tworzące *ścieżkę skierowaną* zaczynającą się w `Punkt X`, przebiegającą
@@ -75,7 +76,7 @@ pojęcie okaże się później potrzebne, poproszę Cię teraz o narysowanie, po
    składalne. Zawsze, gdy mówimy o składalności strzałek, ważna jest* **kolejność** *w jakiej
    wymieniamy strzałki. W tym przypadku możemy powiedzieć, że składalne są strzałki `i` i `j`, ale*
    **nie** *możemy powiedzieć, że składalne są strzałki `j` i `i`, bo* **nie wiemy**, *czy `Cel j`
-   to `Zrodlo i`* (niedługo wyjaśnię o co chodzi z tym nie wiemy).
+   to `Zrodlo i`* (niedługo wyjaśnię o co chodzi z tym "nie wiemy").
 
 Teraz, gdy mam nadzieję będziesz mogła trochę swobodniej operować formalnym pojęciem składalności,
 możemy wrócić do pierwszego diagramu.
@@ -193,6 +194,8 @@ sytuacjach).
 
 Dodamy jeszcze dwie reguły, ale najpierw musimy wprowadzić coś, czego do tej pory jeszcze nie
 definiowaliśmy, a co odgrywa w matematyce niezwykle ważną rolę.
+
+TODO
 
 ## Równość (Wolność i Braterstwo)
 
