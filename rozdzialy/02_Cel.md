@@ -304,13 +304,18 @@ zgodzić na zasady, które obowiązują mnie, moich kolegów i moje koleżanki z
 manuskrypty i wysyłamy je do redakcji czasopism wysokopunktowanych. Musiałbym na przykład pisać w
 stylu, który obecnie obowiązuje w tego typu publikacjach. Nie przepadam za tym stylem, zresztą nie
 tylko ja, bo uważam, że nie służy wcale dobrze wyjaśnianiu zjawisk i rozwiązywaniu problemów, za to
-nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi.
+nadaje się świetnie do stwarzania *pozorów*, że się coś takiego robi. W dodatku recenzenci i
+redaktorzy zdają się na ogół oczekiwać, że artykuł naukowy będzie dotyczył *jednego* względnie
+dobrze określonego problemu lub pytania, a na niektóre spośród najciekawszych i najgłębszych pytań
+*nie da się* odpowiedzieć inaczej, niż odpowiadając na kilka takich pytań *jednocześnie*.
 
 Umiem stwarzać te pozory, bo jak na psychologa dosyć sprawnie operuję technicznymi terminami
 wnioskowania statystycznego i przyczynowego, ale nie lubię tego robić. Musiałbym też znowu znosić
 to, że redaktorzy i recenzenci zwykle swoje wymagania wyrażają z pozycji autorytetu i realnej
 władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zmian, a według mnie taka
-postawa jest po prostu *anty*naukowa.
+postawa jest po prostu *anty*naukowa. Pisząc tą książkę publicznie i na żywo nie unikam przecież w
+żaden sposób niczyjej oceny. Jest wręcz odwrotnie, skoro *każdy*, kto tylko ma dostęp do internetu,
+może poddać krytyce *wszystko*, co tu piszę, po prostu odnosząc się do tego publicznie.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*.
 
