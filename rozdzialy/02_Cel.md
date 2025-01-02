@@ -119,13 +119,12 @@ założeń dotyczących danych i własności planu badawczego i być może jaki�
 charakterze teoretycznym, a także listy dedukcyjnych wniosków. Już teraz możemy to zrobić z
 wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania (z instrukcją)
 będziemy mogli zrobić to samo z wnioskami swoiście psychologicznymi. Z perspektywy użytkownika to
-będzie nic innego jak informacja, że określone *warunki badania* i *źródła pochodzenia danych*
-(które z powodów praktycznych taki użytkownik musi traktować jako coś w rodzaju aksjomatów) mają,
-*ponad wszelką wątpliwość* (zakładając *tylko* wiarygodność źródła danych), takie a nie inne
-właściwości *psychologiczne* czy *zachowaniowe*. W dodatku ta formalizacja będzie wręcz
-*zawstydzająco prosta*, tak samo jak zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa,
-wpływu i własności kontrfaktycznych są rachunki prawdopodobieństwa i przyczynowy dla zmiennych
-dyskretnych[^3].
+będzie po prostu informacja, że określone *warunki badania* i *źródła pochodzenia danych* - które z
+powodów praktycznych taki użytkownik musi traktować jako coś w rodzaju aksjomatów - mają, *ponad
+wszelką wątpliwość* (zakładając *tylko* wiarygodność źródła danych), takie a nie inne właściwości
+*psychologiczne* czy *zachowaniowe*. W dodatku ta formalizacja będzie wręcz *zawstydzająco prosta*,
+podobnie jak zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa, wpływu i własności
+kontrfaktycznych są rachunki prawdopodobieństwa i przyczynowy dla zmiennych dyskretnych[^3].
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tego niezwykłego punktu
@@ -196,22 +195,26 @@ probabilistycznych i przyczynowych - tego typu założenia, będziemy mogli naty
 Albo tak: Wprowadzając do języka formalnego preferencję zewnętrznego obserwatora, uzupełnimy
 istniejące już formalne teorie, pozwalające mówić o tym ...
 
-1. Jak często zachodzi $Y$ gdy zachodzi $X$.
+1. Jak często zachodzi $Y$, gdy zachodzi $X$.
 
-2. Jak często zachodzi $Y$ gdy $X$ jest poddane zewnętrznej interwencji.
+2. Jak często zachodzi $Y$, gdy $X$ jest poddane zewnętrznej interwencji.
 
 3. Jak często zachodziło*by* $Y$, gdyby $X$ miało na skutek zewnętrznej interwencji wartość $x$ w
    sytuacji $S$.
 
 .. a więc rachunek prawdopodobieństwa, rachunek interwencji i rachunek kontrfaktyczny, o możliwość
-wyrażenia formalnie i wprost pytań dotyczących tego, *jak i w jakim stopniu można sprawić, żeby
-zachodziło Z*. W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne
-wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się *zewnętrzny Agent*[^2]. Rozpoznamy
+wyrażenia formalnie i wprost pytań dotyczących tego,
+
+4. Jak i w jakim stopniu można sprawić, żeby zachodziło $Z$. 
+
+W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne wymiary, o
+wymiar czwarty i *ostatni*, dzieki któremu ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy
 jednocześnie wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy
 *Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością
-opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest
-procesem *społecznym*, w którym podmiotowość jest nieustannie *re-konstruowana* w ramach uczenia się
-polegającego na abstrakcyjnie rozumianym, wewnątrz- lub między-jednostkowym *dialogu*.
+opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne i fragmentaryczne *wcielenie
+się w podmiot* jest procesem *społecznym*, w którym podmiotowość jest nieustannie *re-kontruowana* w
+ramach *uczenia się* polegającego na abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym
+dialogu*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
