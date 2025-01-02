@@ -116,12 +116,14 @@ przeze mnie język opisu *sama* sprawiłaś, że to się już *stało*. I co Ty 
 (prawie) rozmowa, a jednocześnie nie taka całkiem zwyczajna, prawda? Właściwie nie różni się to
 niczym od wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać,
 że będziesz w określony sposób ze mną *współpracować*, a w każdym razie miałem przez cały ten czas
-taką nadzieję. Jeżeli więc tylko próbowałaś w jakikolwiek sposób zrozumieć to, o czym do Ciebie
-mówiłem, a skoro czytasz ten fragment, to mogę założyć, że tak, to przez cały ten czas działo się
-dokładnie to samo, teraz tylko szczegóły są nowe. Zgaduję jednak, że Twoje *wrażenie* na czym to
-polega może być tym razem w jakiś trudny do określenia sposób inne.
+taką nadzieję. Jeżeli więc tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz
+ten fragment, to mogę założyć, że tak, to przez cały ten czas działo się dokładnie to samo, teraz
+tylko szczegóły są nowe. A właściwie przecież już
+[wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
+niemal na samym początku, nawet szczegóły były dosyć podobne. Zgaduję jednak, że Twoje *wrażenie* na
+czym to polega może być tym razem w jakiś trudny do określenia sposób inne.
 
-Możemy teraz wrócić do pierwszego diagramu.
+Wróćmy już jednak do pierwszego diagramu.
 
 10. Narysuj, omijając z zewnątrz łukiem literę `h`, taką `i : Strzalka`, że `Rownolegle h i` i oznacz
     ją zapisując po zewnętrznej stronie literę `i`.
@@ -143,9 +145,9 @@ samego miejsca i dojechać do tego samego miejsca.
 
 To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się nim, jeżeli jeszcze Ci się dobrze nie
 "przykleja". Spokojna [tafla tego oceanu](https://ncatlab.org/nlab/show/The+Rising+Sea) będzie się i
-tak powoli unosić, aż w końcu [rozłupiemy razem ten twardy orzech do
-zgryzienia](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf), o
-ile oczywiście zdecydujesz, żeby czytać dalej.
+tak powoli unosić, aż w końcu niemal bez użycia siły [rozłupiemy razem ten twardy orzech do
+zgryzienia](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf),
+musimy tylko poczekać, żeby się trochę namoczył. O ile oczywiście zdecydujesz, żeby czytać dalej.
 
 Jeszcze bardziej przyda nam się odtąd term `Kompatybilne`. Jeżeli `f : Strzalka`, `g : Strzalka` i
 `h : Strzalka`, to jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a `Cel h` to `Cel g`, tak jak
@@ -154,20 +156,51 @@ trójki: `Kompatybilne f g h` i `Kompatybilne f g i`.
 
 Wprowadzimy teraz pewnego rodzaju *działanie na strzałkach*, czyli operację podobną na przykład do
 dodawania, ale ta operacja nie będzie dotyczyła liczb, tylko naszych strzałek. Będziemy ją
-*zapisywać* tak, jak znaną Ci już *aplikację*: Jeżeli `f : Strzalka` i `g : Strzalka` i `Skladalne f
-g`, to `Zlozenie f g : Strzalka`. Działanie nazywa się tutaj `Zlozenie` i stwierdziliśmy właśnie o
-nim, że złożenie dwóch kompatybilnych strzałek `f` i `g` (w tej kolejności) jest również `Strzalka`,
-analogicznie do tego, że suma dwóch liczb naturalnych jest również liczbą naturalną. Nasza operacja
-`Zlozenie` różni się jednak od dodawania między innymi w ten ważny sposób, że dodawanie ma sens dla
-*każdej* pary liczb, a `Zlozenie` ma sens *tylko* dla tych (uporządkowanych) par `Strzalka`, które
-są `Kompatybilne`.
+*zapisywać* tak, jak znaną Ci już *aplikację*, tylko jakby *w odrwotnej kolejności*: 
 
-Ponieważ `Skladalne f g`, to skoro `Zlozenie` ma być *działaniem* na takich (szczególnych) parach,
-*musi istnieć* `Strzalka`, która jest *unikalnym* `Zlozenie f g`, w tej kolejności. Mamy teraz do
-wyboru dwie strzałki
+Jeżeli `f : Strzalka` i `g : Strzalka` i `Skladalne f g`, to `Zlozenie f g : Strzalka`. Działanie
+nazywa się tutaj `Zlozenie` i stwierdziliśmy właśnie o nim, że złożenie dwóch kompatybilnych
+strzałek `f` i `g` (w tej kolejności) jest również `Strzalka`, analogicznie do tego, że suma dwóch
+liczb naturalnych jest również liczbą naturalną. Nasza operacja `Zlozenie` różni się jednak od
+dodawania między innymi w ten ważny sposób, że dodawanie ma sens dla *każdej* pary liczb, a
+`Zlozenie` ma sens *tylko* dla tych (uporządkowanych) par `Strzalka`, które są `Kompatybilne`. Można
+więc już całkiem nieformalnie powiedzieć, że `Zlozenie` jest działaniem *wybrednym*.
 
-TODO
+Umówiliśmy się więc, że gdy `Skladalne f g`, to *musi istnieć* `Strzalka`, która jest *unikalnym*
+`Zlozenie f g`, w tej kolejności. Mamy teraz do wyboru dwie strzałki, `h` i `i`. Wybierzemy `h`, bez
+żadnego powodu, i wobec tego proszę Cię jeszcze, żebyś wewnątrz tego diagramu-trójkąta zapisała
+symbol `✓`, który po polsku nazywamy [*fajką*](https://pl.wikipedia.org/wiki/Fajka_(znak_wyboru)),
+*ptaszkiem*, *haczykiem* lub *parafką*. Wybieram *ptaszka*. 
 
+Będziemy odtąd rozumieć, że *diagram*, wewnątrz którego znajduje się ptaszek, jest (z założenia,
+albo z jakiegoś powodu, wszystko jedno, po prostu jest) *przemienny*. Wydaje mi się, że w tym
+momencie najlepiej objaśnić to pojęcie skupiającc się tylko na Twoim diagramie. Ponieważ naniosłaś
+ptaszka, z Twojego rysunku możemy teraz odczytać, że `Zlozenie f g` *jest tym samym (czymś) co*
+`h`. *Gdybyś* dodała jeszcze *ptaszka* między `i` i `h`, znaczyłoby to, że `i` jest tym samym
+(czymś) co `h`, a skoro `h` jest już (na mocy samej naszej decyzji) tym samym czymś, co `Zlozenie f
+g`, to znaczyłoby to również, że `i` jest tym samym (czymś), co `Zlozenie f g`. Ale nie rób tego,
+chyba, że musisz.
+
+Może dam sobie już spokój z tą zabawą w pół-sformalizowany pół-dialog.
+
+Dużo tego było, ale można to wszystko podsumować dosyć krótko mówiąc, że rozważamy teraz *świat z
+samych strzałek i punktów, które zawsze* (o tym jeszcze nie mówiłem) *są źródłami albo celami jakiś
+strzałek*. Czyli w naszym świecie nie ma punktów które nie są w ogóle "strzałkowe". A nie ma w tym
+świecie żadnych punktów, które nie są ani źródłem ani celem jakiejś strzałki, bo *jedyne, do czego
+tutaj służą punkty*, to *ograniczanie działania relacji składania*. A więc te punkty są *tylko* po
+to, żeby można było elastycznie określać sposób, w jaki operacja składania jest wybredna (w różnych
+sytuacjach).
+
+Dodamy jeszcze dwie reguły, ale najpierw musimy wprowadzić coś, czego do tej pory jeszcze nie
+definiowaliśmy, a co odgrywa w matematyce niezwykle ważną rolę.
+
+## Równość (Wolność i Braterstwo)
+
+```lean
+Rowne (typ : Type) (x y : typ) := ∀ P : typ, P x → P y
+```
+
+To jest nieznacznie uproszczona *definicja* relacji *równości*.
 
 ## Liczby z niczego
 
