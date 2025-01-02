@@ -201,9 +201,7 @@ Plac budowy
 
 [R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
 
-cdn
-
-Notatki robocze, do których można zaglądać:
+Notatki całkiem już robocze, do których jednak można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
 
