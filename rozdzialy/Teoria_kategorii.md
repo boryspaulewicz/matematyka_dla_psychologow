@@ -142,7 +142,7 @@ mają ten sam *początek* i *koniec*, jak dwie (niekoniecznie różne \{zaczął
 potencjalnym *znaczeniu* tych symboli\}) jednokierunkowe ulice, którymi możemy wyjechać z tego
 samego miejsca i dojechać do tego samego miejsca. 
 
-To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się nim, jeśli jeszcze Ci się dobrze nie
+To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się nim, jeżeli jeszcze Ci się dobrze nie
 "przykleja". Spokojna [tafla tego oceanu](https://ncatlab.org/nlab/show/The+Rising+Sea) będzie się i
 tak powoli unosić, o ile oczywiście zdecydujesz żeby czytać dalej.
 
