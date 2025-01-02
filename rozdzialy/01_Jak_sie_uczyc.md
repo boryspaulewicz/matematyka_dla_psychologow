@@ -129,10 +129,11 @@ wiele ró¿nych, czasem do¶æ kosztownych zainteresowañ). A poniewa¿ moja g³owa by³
 sprawami wype³niona stale, to te¿ czêsto o nich mówi³em, nie zawsze zwracaj±c uwagê, czy rozmówca
 by³ tym zainteresowany. Wydaje mi siê, a w³a¶ciwie jestem prawie pewien, ¿e dla mojej ówczesnej
 partnetki to by³o spore wyzwanie. Pó¼niej ju¿ nigdy w nic siê tak nie zanurzy³em i staram siê
-stosowaæ do rady Rachlina, który pisze, ¿e trzeba byæ lekkim jak ptak, ale nie jak piórko. Zreszt±
-monitoring ma i t± zaskakuj±c± cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a, to jednak z
-jakiego¶ tajemniczego powodu nawet Ci, którzy na nim najbardziej korzystaj±, pêdzej czy pó¼niej
-przestaj± go stosowaæ.
+stosowaæ do rady Rachlina, który pisze, cytuj±c [Paula
+Valéry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry) ¿e trzeba byæ lekkim jak ptak, ale nie
+jak piórko. Zreszt± monitoring ma i t± zaskakuj±c± cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a,
+to jednak z jakiego¶ tajemniczego powodu nawet Ci, którzy na nim najbardziej korzystaj±, pêdzej czy
+pó¼niej przestaj± go stosowaæ.
 
 Nawiasem mówi±c, odkry³em wtedy co¶ niepokoj±cego. Zorientowa³em siê mianowicie, ¿e *pracownicy
 naukowi rzadko siê czego¶ ucz±*. Owszem, czêsto czytaj± artyku³y i ksi±¿ki dotycz±ce tego, czym siê

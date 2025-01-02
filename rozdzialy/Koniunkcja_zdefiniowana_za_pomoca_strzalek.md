@@ -7,58 +7,104 @@ W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakie
 najlepiej kartkę formatu A4. Połóż ją przed sobą poziomo. Poproszę Cię teraz, żebyś coś
 narysowała. Zaczniemy w lewym górnym rogu.
 
-1. Zapisz literę *a*, a zaraz po prawej od niej [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o) (nie
-   [okrąg](https://pl.wikipedia.org/wiki/Okr%C4%85g)), tak, jakbyś chciała zaznaczyć tylko pewien
-   *punkt* i oznaczyć go literą *A*.
+1. Zapisz literę *A*, a zaraz *po lewej* od niej małe
+   [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o) (nie
+   [okrąg](https://pl.wikipedia.org/wiki/Okr%C4%85g)), jakbyś chciała zaznaczyć tylko pewien *punkt*
+   i oznaczyć go literą *A*.
 
-2. Po prawej od ostatnio zaznaczonego punktu, w odległości równej powiedzmy mniej więcej połowie
-   długości Twojego palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugie koło, a po
-   prawej od tego koła zapisz literę *B*. Odtąd dla własnej wygody pisania i Twojej wygody czytania
-   będę nazywał tą odległość *krokiem*, a kiedy powiem, dla `X : Litera`, *oznacz ten punkt literą
-   `X` z prawej*, albo *z lewej*, albo *z góry*, albo *z dołu*, to będzie mi chodziło o to, żebyś
-   zapisała tą literę zaraz po prawej, albo zaraz z lewej, albo zaraz nad, albo zaraz pod danym
-   punktem odpowiednio.
+2. Po prawej od *punktu A*, w odległości równej powiedzmy mniej więcej połowie długości Twojego
+   palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugie koło, a *po prawej* od tego
+   koła zapisz literę *B*. Odtąd dla własnej wygody pisania i Twojej wygody czytania będę nazywał tą
+   odległość *krokiem*, a kiedy powiem, dla `X : Litera`, *oznacz* dany *punkt literą `X` z prawej*,
+   albo *z lewej*, albo *z góry*, albo *z dołu*, to będzie mi chodziło o to, żebyś zapisała tą
+   literę zaraz po prawej, albo zaraz z lewej, albo zaraz nad, albo zaraz pod tym punktem
+   odpowiednio.
 
 3. Narysuj strzałkę wychodzącą z punktu *A* i wchodzącą do punktu *B*, czyli taką z grotem
    wskazującym na punkt *B*. Może narysuj ją tak, żeby nie stykała się całkiem z kołami, ale to
    tylko sugestia. Ja robię to raz tak, a raz inaczej, i często się waham, którą wersję
-   wybrać. Zgodnie z instrukcjami ta strzałka powinna być pozioma. Odtąd będę mówił krócej, to
-   znaczy, jeżeli `X : Punkt` i `Y : Punkt` na kartce, to powiem *narysuj strzałkę z `X` do `Y`* (to
-   tylko objaśnienie języka, jakim się będę posługiwał, nie instrukcja).
+   wybrać. Zgodnie z instrukcjami ta strzałka powinna być mniej więcej pozioma. Odtąd będę mówił
+   krócej, na przykład: jeżeli `X : Punkt` i `Y : Punkt` (typowanie jako zdanie, pamiętasz?) na
+   kartce, to powiem *narysuj strzałkę z `X` do `Y`* (to tylko objaśnienie języka, jakim będę się w
+   coraz większym stopniu posługiwał, nie instrukcja).
 
-4. `Krok` poniżej `B : Punkt` narysuj `Punkt` i oznacz go z dołu literą `C`, a potem narysuj
-   `Strzalka B C`, czyli strzałkę z punktu `B` do punktu `C`.
+4. `Krok` poniżej `B : Punkt` narysuj `Punkt` i oznacz go z dołu literą `C`, a potem tak samo
+   narysuj `Strzalka B C`, czyli strzałkę z punktu `B` do punktu `C`.
 
 5. Zaraz nad `Strzalka A B` zapisz literę `f`, a zaraz po prawej od `Strzalka B C` zapisz literę
    `g`.
 
-Masz teraz dwie strzałki, o których, gdy wymienimy je w określonej kolejności, możemy powiedzieć, że
-są *składalne*, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`), z
-którego wychodzi druga (tutaj `g`). Możemy ten fakt zapisać jako zdanie `Skladalne f g`. Zwróć
-uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g f`, przecież
-strzałka `g` nie wchodzi do punktu, z którego wychodzi strzałka `f`.
+Masz teraz dwie strzałki, o których, gdy wymienimy je *w określonej kolejności*, możemy powiedzieć,
+że są *składalne*, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`),
+z którego wychodzi druga (tutaj `g`). Ten fakt możemy zapisać również jako zdanie `Skladalne f
+g`. Zwróć uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g f`,
+przecież strzałka `g` nie wchodzi do punktu, z którego wychodzi strzałka `f`.
 
-Przydadzą się nam jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka`, to `Zrodlo s` to `Punkt`, z
-którego wychodzi `s`, a `Cel s` to `Punkt`, do którego wchodzi `s`.
+Przydadzą nam się jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka` (na Twoim rysunku akurat
+`f : Strzalka` i `g : Strzalka`), to term `Zrodlo s` będzie oznaczał odtąd (zauważyłaś, że to jest
+pół-formalna *definicja*?) `Punkt`, z którego wychodzi `s`, a term `Cel s` będzie oznaczał `Punkt`,
+do którego wchodzi `s`.
 
 Przyjmiemy teraz ważną *regułę* dotyczącą *strzałek*: Zawsze gdy mamy takie `f : Strzalka` i `g :
 Strzalka`, że `Skladalne f g`, musimy *dorysować* (na razie *anonimową*) strzałkę, której `Zrodlo`
-to `Zrodlo f` i której `Cel` to `Cel g`.
+to `Zrodlo f` i której `Cel` to `Cel g`. Ale w tej chwili jeszcze nie będziemy tego robić.
 
-6. Narysuj `Strzalka`, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Oznacz tą strzałkę
+Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności jaką jest składalność, gdy to
+pojęcie okaże się później potrzebne, poproszę Cię teraz o narysowanie, po prawej od tego *diagramu*
+(to *niejawna definicja*, zauważyłaś?), który już zaczęłaś robić, pewien inny diagram z
+*komentarzem*.
+
+6. Narysuj, po prawej od `Strzalka` `f` i `g`, dwie poziome i `Kompatybilne` `Strzalka` oznaczone
+   literami `i` i `j`, tworzące *ścieżkę skierowaną* przebiegającą przez `Punkt` `X`, `Y` i
+   `Z`. Powiedziałem to tym razem bardzo skrótowo, ale wiesz, o co mi chodzi, prawda? Na tym
+   diagramie powinny być dwie poziome strzałki `i` i `j` takie, że `Zrodlo i` to `Punkt X`, `Cel i`
+   to `Punkt Y`, `Zrodlo j` to `Punkt Y` i wreszcie `Cel j` to `Punkt Z`.
+
+7. Otocz ten diagram prostokątem i napisz pod nim następujący komentarz: *Takie pary strzałek są
+   składalne. Zawsze, gdy mówimy o składalności strzałek, ważna jest* **kolejność** *w jakiej
+   wymieniamy strzałki. W tym przypadku możemy powiedzieć, że składalne są strzałki `i` i `j`, ale*
+   **nie** *możemy powiedzieć, że składalne są strzałki `j` i `i`, bo `i` nie wskazuje tu na `Zrodlo
+   j`.
+
+Teraz, gdy mam nadzieję będziesz mogła trochę swobodniej operować formalnym pojęciem składalności,
+możemy wrócić do pierwszego diagramu.
+
+8. Narysuj `Strzalka`, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Oznacz tą strzałkę
    zapisując po zewnętrznej stronie trójkąta, który w ten sposób powstał, literę `h`. Od tego
    momentu ta strzałka nie jest już anonimowa.
 
-Przyda nam się teraz term `Kompatybilne`. Jeżeli `f : Strzalka`, `g : Strzalka` i `h : Strzalka`, to
-jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f` i `Cel h` to `Cel g`, tak jak na Twoim rysunku, to
-`Kompatybilne f g h`.
+Byłbym zapomniał, a to jest przecież ważne. Wrócimy na chwilę do drugiego diagramu.
 
-Przyda nam się również term `Rownolegle`. Jeżeli `i : Strzalka` i `j : Strzalka` i jednocześnie
+9. Pod zapisanym już komentarzem dodaj jeszcze ten: **Trudne, ale ważne**: *Rysunek sugeruje tutaj,
+   że* X, Y *i* Z *to różne punkty i że* i *i* j *to różne strzałki, ale tak wcale nie musi być gdy
+   rysujemy w ten sposób punkty i strzałki.* X, Y *i* Z *to tutaj tylko nazwy* **jakiś**, *a więc
+   niekoniecznie różnych punktów, i tak samo* i *i* j *to tutaj nazwy* **jakiś**, *a więc
+   niekoniecznie różnych strzałek*.
+
+Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostała* **jakieś**,
+*niekoniecznie różne `Punkt` `X`, `Y` i `Z` i* **jakieś**, *niekoniecznie różne `Strzalka` `i` i
+`j`, o których wiesz tylko, że `Skladalne i j`*. Możemy teraz wrócić do pierwszego diagramu.
+
+10. Narysuj, omijając z zewnątrz łukiem literę `h`, taką `i : Strzalka`, że `Rownolegle h i` i oznacz
+    ją zapisując po zewnętrznej stronie literę `i`.
+
+Przypuszczam, że od razu domyśliłaś się, o co mi chodzi, ale na wszelki wypadek wyjaśniam. Odtąd
+czasem przyda nam się term `Rownolegle`. Jeżeli `i : Strzalka` i `j : Strzalka` i jednocześnie
 `Zrodlo i` to `Zrodlo j`, a `Cel i` to `Cel j`, czyli jeżeli strzałki `i` i `j` mają to samo
-`Zrodlo` i ten sam `Cel`, to możemy powiedzieć, że `Rownolegle i j`.
+`Zrodlo` i ten sam `Cel`, to możemy powiedzieć (bo te założenia pozwalają to zawsze udowodnić na
+mocy aksjomatycznej definicji), że `Rownolegle i j`.
 
-7. Narysuj omijając z zewnątrz łukiem literę taką `h` taką `i : Strzalka`, że `Rownolegle h i` i
-   oznacz ją zapisując po zewnętrznej stronie literę `i`.
+Myślę, że od razu widzisz, że strzałki `h` i `i` są w taki sam, ważny dla nas odtąd sposób związane
+ze strzałkami `f` i `g`. Można powiedzieć, że zarówno `h : Strzalka` jak i `i : Strzalka` są jakby
+brakującymi bokami trójkąta o bokach `f : Strzalka` i `g : Strzalka` *i jednocześnie* zachodzi
+między nimi coś w rodzaju *uogólnionej `Rownoleglosc`*, bo (dwustrzałkowe) *ścieżki* `f - g` i
+*jednostrzałkowe ścieżki* `h` i `i` są wszystkie *kierunkowe* i mają ten sam *początek* i *koniec*.
+
+Ponieważ ta relacja będzie dla nas bardzo ważna, przyda nam się odtąd term `Kompatybilne`. Jeżeli
+`f : Strzalka`, `g : Strzalka` i `h : Strzalka`, to jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo
+f`, a `Cel h` to `Cel g`, tak jak na pierwszym diagramie, to `Kompatybilne f g h`.
+
+TODO
 
 Wprowadzimy teraz pewnego rodzaju *działanie na strzałkach*, czyli operację podobną na przykład do
 dodawania, ale ta operacja nie będzie dotyczyła liczb, tylko naszych strzałek. Będziemy ją
