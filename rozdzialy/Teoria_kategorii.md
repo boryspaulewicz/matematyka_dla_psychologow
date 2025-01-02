@@ -108,7 +108,7 @@ dosłownie* **Twój kontekst** *ponieważ to jest teraz część* **fragmentu ś
 ścisłą i nieprzepuszczalną granicą, jest jednak dla Ciebie szczególnie ważną częścią środowiska, bo
 jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą", zależnie od punktu
 widzenia. Tą zawsze dla Ciebie łatwo dostępną i stosunkowo kontrolowalną część środowiska nazywasz*
-**własnym ciałem**. *A część Twojego ciała, która* **pełni teraz rolę kontekstu Ciebie jako pewnej
+**"własnym" ciałem**. *A część Twojego ciała, która* **pełni teraz rolę kontekstu Ciebie jako pewnej
 funkcji** *nazywasz "Twoją"* **pamięcią**.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
