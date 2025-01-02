@@ -1,3 +1,81 @@
+## Nie ma to jak rysowanie
+
+W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam ważny powód,
+żeby ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat potrzebujemy rysunku.
+
+**Polecenie**: Przygotuj czystą kartkę papieru i długopis albo cokolwiek innego do pisania. Może
+najlepiej kartkę formatu A4. Połóż ją przed sobą poziomo. Poproszę Cię teraz, żebyś coś
+narysowała. Zaczniemy w lewym górnym rogu.
+
+1. Zapisz literę *a*, a zaraz po prawej od niej [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o) (nie
+   [okrąg](https://pl.wikipedia.org/wiki/Okr%C4%85g)), tak, jakbyś chciała zaznaczyć tylko pewien
+   *punkt* i oznaczyć go literą *A*.
+
+2. Po prawej od ostatnio zaznaczonego punktu, w odległości równej powiedzmy mniej więcej połowie
+   długości Twojego palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugie koło, a po
+   prawej od tego koła zapisz literę *B*. Odtąd dla własnej wygody pisania i Twojej wygody czytania
+   będę nazywał tą odległość *krokiem*, a kiedy powiem, dla `X : Litera`, *oznacz ten punkt literą
+   `X` z prawej*, albo *z lewej*, albo *z góry*, albo *z dołu*, to będzie mi chodziło o to, żebyś
+   zapisała tą literę zaraz po prawej, albo zaraz z lewej, albo zaraz nad, albo zaraz pod danym
+   punktem odpowiednio.
+
+3. Narysuj strzałkę wychodzącą z punktu *A* i wchodzącą do punktu *B*, czyli taką z grotem
+   wskazującym na punkt *B*. Może narysuj ją tak, żeby nie stykała się całkiem z kołami, ale to
+   tylko sugestia. Ja robię to raz tak, a raz inaczej, i często się waham, którą wersję
+   wybrać. Zgodnie z instrukcjami ta strzałka powinna być pozioma. Odtąd będę mówił krócej, to
+   znaczy, jeżeli `X : Punkt` i `Y : Punkt` na kartce, to powiem *narysuj strzałkę z `X` do `Y`* (to
+   tylko objaśnienie języka, jakim się będę posługiwał, nie instrukcja).
+
+4. `Krok` poniżej `B : Punkt` narysuj `Punkt` i oznacz go z dołu literą `C`, a potem narysuj
+   `Strzalka B C`, czyli strzałkę z punktu `B` do punktu `C`.
+
+5. Zaraz nad `Strzalka A B` zapisz literę `f`, a zaraz po prawej od `Strzalka B C` zapisz literę
+   `g`.
+
+Masz teraz dwie strzałki, o których, gdy wymienimy je w określonej kolejności, możemy powiedzieć, że
+są *składalne*, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`), z
+którego wychodzi druga (tutaj `g`). Możemy ten fakt zapisać jako zdanie `Skladalne f g`. Zwróć
+uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g f`, przecież
+strzałka `g` nie wchodzi do punktu, z którego wychodzi strzałka `f`.
+
+Przydadzą się nam jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka`, to `Zrodlo s` to `Punkt`, z
+którego wychodzi `s`, a `Cel s` to `Punkt`, do którego wchodzi `s`.
+
+Przyjmiemy teraz ważną *regułę* dotyczącą *strzałek*: Zawsze gdy mamy takie `f : Strzalka` i `g :
+Strzalka`, że `Skladalne f g`, musimy *dorysować* (na razie *anonimową*) strzałkę, której `Zrodlo`
+to `Zrodlo f` i której `Cel` to `Cel g`.
+
+6. Narysuj `Strzalka`, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Oznacz tą strzałkę
+   zapisując po zewnętrznej stronie trójkąta, który w ten sposób powstał, literę `h`. Od tego
+   momentu ta strzałka nie jest już anonimowa.
+
+Przyda nam się teraz term `Kompatybilne`. Jeżeli `f : Strzalka`, `g : Strzalka` i `h : Strzalka`, to
+jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f` i `Cel h` to `Cel g`, tak jak na Twoim rysunku, to
+`Kompatybilne f g h`.
+
+Przyda nam się również term `Rownolegle`. Jeżeli `i : Strzalka` i `j : Strzalka` i jednocześnie
+`Zrodlo i` to `Zrodlo j`, a `Cel i` to `Cel j`, czyli jeżeli strzałki `i` i `j` mają to samo
+`Zrodlo` i ten sam `Cel`, to możemy powiedzieć, że `Rownolegle i j`.
+
+7. Narysuj omijając z zewnątrz łukiem literę taką `h` taką `i : Strzalka`, że `Rownolegle h i` i
+   oznacz ją zapisując po zewnętrznej stronie literę `i`.
+
+Wprowadzimy teraz pewnego rodzaju *działanie na strzałkach*, czyli operację podobną na przykład do
+dodawania, ale ta operacja nie będzie dotyczyła liczb, tylko naszych strzałek. Będziemy ją
+*zapisywać* tak, jak znaną Ci już *aplikację*: Jeżeli `f : Strzalka` i `g : Strzalka` i
+`Skladalne f g`, to `Zlozenie f g : Strzalka`. Działanie nazywa się tutaj `Zlozenie` i
+stwierdziliśmy właśnie o nim, że złożenie dwóch kompatybilnych (w tej kolejności) strzałek `f` i `g`
+jest również strzałką, analogicznie do faktu, że suma dwóch liczb naturalnych jest również liczbą
+naturalną. Nasza operacja składania różni się jednak od dodawania w między innymi w ten ważny
+sposób, że dodawanie ma sens dla *każdej* pary liczb, a składadnie strzałek ma sens *tylko* dla tych
+(uporządkowanych) par strzałek, które są kompatybilne.
+
+Ponieważ `Skladalne f g`, to skoro `Zlozenie` ma być działaniem na takich parach, musi istnieć
+`Strzalka`, która jest `Zlozenie`-m `f` i `g`, w tej kolejności. Mamy teraz do wyboru dwie strzałki
+
+
+## Liczby z niczego
+
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był
 język teorii mnogości, a konkretnie język teorii
 [Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla). Nawet, jeżeli to wiesz,

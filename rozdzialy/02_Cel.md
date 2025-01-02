@@ -120,8 +120,8 @@ charakterze teoretycznym, a także listy dedukcyjnych wniosków. Już teraz moż
 wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania (z instrukcją)
 będziemy mogli zrobić to samo z wnioskami swoiście psychologicznymi. Z perspektywy użytkownika to
 będzie nic innego jak informacja, że określone *warunki badania* i *źródła pochodzenia danych*
-(które z powodów praktycznych taki użytkownik zmuszony jest traktować jako coś w rodzaju aksjomatów)
-mają, *ponad wszelką wątpliwość* (zakładając *tylko* wiarygodność źródła danych), takie a nie inne
+(które z powodów praktycznych taki użytkownik musi traktować jako coś w rodzaju aksjomatów) mają,
+*ponad wszelką wątpliwość* (zakładając *tylko* wiarygodność źródła danych), takie a nie inne
 właściwości *psychologiczne* czy *zachowaniowe*. W dodatku ta formalizacja będzie wręcz
 *zawstydzająco prosta*, tak samo jak zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa,
 wpływu i własności kontrfaktycznych są rachunki prawdopodobieństwa i przyczynowy dla zmiennych
