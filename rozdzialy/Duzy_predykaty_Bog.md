@@ -210,7 +210,7 @@ powinniśmy już znać. Jeżeli teraz następne zdanie w tej hipotetycznej dysku
 jako jednej z *przesłanek* (liczba mnoga).
 
 Mamy tu do czynienia z częstym w artykułach
-["naukowych"](https://pl.wikipedia.org/wiki/Nauka_spod_znaku_kultu_cargo) pisanych przez
+["naukowych"](https://pl.wikipedia.org/wiki/Kulty_cargo) pisanych przez
 psychologów:
 
 1. *Pominięciem kroków* uznanych być może za względnie oczywiste lub niekontrowersyjne.
@@ -228,7 +228,7 @@ sugerowałoby, że całe to zdanie *nic* nie znaczy, bo przecież wszystko *moż
 tylko chcemy zależnie od kontekstu.
 
 Wiemy również z góry, bo takie wady mają niemal wszystkie artykuły
-["naukowe"]((https://pl.wikipedia.org/wiki/Nauka_spod_znaku_kultu_cargo)) pisane przez psychologów,
+["naukowe"](https://pl.wikipedia.org/wiki/Kulty_cargo) pisane przez psychologów,
 że:
 
 5. Zabraknie jawnej analizy ograniczeń wynikających z [*obciążenia

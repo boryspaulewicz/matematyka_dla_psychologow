@@ -50,7 +50,7 @@ nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj
 najprostsze nawet b³êdy. Mimo to udaje im siê publikowaæ w wysokopunktowanych czasopismach, bo
 wysy³ane przez nich manuskrypty s± zwykle recenzowane i dopuszczane do druku przez innych
 matematycznych pó³-analfabetów. Rezultatem tej zabawy w chowanego jest powszechna w psychologii ju¿
-od dawna rozczarowuj±ca gra pozorów.
+od dawna rozczarowuj±ca [gra pozorów](https://pl.wikipedia.org/wiki/Kulty_cargo).
 
 Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
 ³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie t± najwa¿niejsz±, tego stanu rzeczy:
