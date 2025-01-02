@@ -195,6 +195,8 @@ sytuacjach).
 Dodamy jeszcze dwie reguły, ale najpierw musimy wprowadzić coś, czego do tej pory jeszcze nie
 definiowaliśmy, a co odgrywa w matematyce niezwykle ważną rolę, to znaczy *relację równości*.
 
+TODO
+
 ## Równość (Wolność i Braterstwo)
 
 Nie wiem, czy to zauważyłaś, ale od dłuższego czasu w ogóle nie posługiwaliśmy się relacją równości
