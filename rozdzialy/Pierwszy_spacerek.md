@@ -116,7 +116,7 @@ twierdzenie ani nie przytaczając, ani nie odnosząc się do żadnych konkretnyc
 obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to między innymi, to znaczy o duży
 stopień ogólności, chodzi w tego rodzaju twierdzeniach?
 
-To fakt, że ta wersja twierdzenia Bayesa, którą udało Ci się udowodnić, jest wersją
+Wersja twierdzenia Bayesa, którą udało Ci się udowodnić, jest faktycznie wersją
 uproszczoną. Prawdopodobieństwa nie mogą być mniejsze niż *0* ani większe niż *1*, a nasze
 prawdopodobieństwa to dowolne liczby, nie wiadomo nawet jakie, czy na przykład rzeczywiste, czy
 wymierne. Tak się jednak składa, że nie potrzebowaliśmy korzystać z tych własności
