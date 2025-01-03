@@ -193,9 +193,9 @@ jakby czymś w rodzaju "wektora" albo ... palca, który przybliżając coś (a d
 pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że
 na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo
 Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. Niewątpliwie ma ten
-Podmiot coś z Logosu, a ponieważ jest z konieczności jakby wytworem wspólnoty i abstrakcyjnym
-ucieleśniem uniwersalnego pojęcie Oceny, to coś z Etosu (i
-[Patosu](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć. Może
+Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności wytworem wspólnoty i
+abstrakcyjnym ucieleśniem uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
+[Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć. Może
 więc Anzelm nie był wcale taki głupi, jak mi się zdawało ...
 
 Wracając do diagramu ...
