@@ -125,8 +125,9 @@ próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten fra
 tak, to przez cały ten czas działo się dokładnie to samo, teraz tylko szczegóły są nowe. A właściwie
 przecież już
 [wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
-niemal na samym początku, nawet szczegóły były dosyć podobne. Zgaduję jednak, że Twoje *wrażenie* na
-czym to polega może być tym razem w jakiś trudny do określenia sposób inne.
+niemal na samym początku, nawet szczegóły były podobne a może nawet w zasadzie takie same. Zgaduję
+jednak, że Twoje *wrażenie* na czym to polega może być tym razem w jakiś trudny do określenia sposób
+inne.
 
 Być może trudno Ci zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
