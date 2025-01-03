@@ -49,8 +49,8 @@ który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań
 naturalnych. Możemy nawet na niego popatrzeć jak na coś w rodzaju maszyny albo mechanizmu, który
 działa dzięki temu, że *my* go używamy w określony sposób, to jest konsekwentnie podstawiając w
 miejsca zmiennych wyrażenia właściwego typu (typu liczbowego). W tej części książki to jest nasz
-punkt wyjścia i - jak się przekonasz - w pewnym momencie ta właściwie dziecinnie prosta zabawa
-symbolami będzie również naszym punktem dojścia.
+punkt wyjścia i - jak się przekonasz - w pewnym momencie ta dziecinnie prosta zabawa symbolami
+będzie również naszym punktem dojścia.
 
 Spróbuj chwilowo potraktować takie formalne reguły jak te, które podałem wyżej, jakby były regułami
 gry, która nie musi mieć żadnego sensu. Uwierz mi, bo sprawdzałem to wielokrotnie, na tym etapie
