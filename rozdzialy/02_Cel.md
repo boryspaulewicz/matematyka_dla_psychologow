@@ -106,12 +106,13 @@ publicznych pieniędzy albo zaśmiecania literatury kosztownym i szkodliwym szum
 własnych badań*.
 
 Zwróć proszę uwagę, że gdyby istniał ten alternatywny sposób uprawiania nauki, o którym dopiero co
-fantazjowałem, nie miałoby znaczenia, czy autorem jestem ja, pracownik zatrudniony na uczelni, czy
-Ty, albo dajmy na to Twoja babcia. No bo też czemu miałoby to mieć znaczenie? Gdyby okazało się, że
-Twoja babcia ma coś ważnego do powiedzenia na interesujący z naukowego punktu widzenia temat, to
-chyba wypadałoby potraktować Ją poważnie. Gdyby Twoja (albo już niestety nieżyjąca moja) babcia
-potrafiła dobrze uzasadnić swoje wnioski, to te wnioski powinny być traktowane tak samo jak
-uzasadnione wnioski pracownika naukowego. Ja tak w każdym razie sądzę.
+[fantazjowałem](https://en.wikipedia.org/wiki/The_NeverEnding_Story_(film)), nie miałoby znaczenia,
+czy autorem jestem ja, pracownik zatrudniony na uczelni, czy Ty, albo dajmy na to Twoja babcia. No
+bo też czemu miałoby to mieć znaczenie? Gdyby okazało się, że Twoja babcia ma coś ważnego do
+powiedzenia na interesujący z naukowego punktu widzenia temat, to chyba wypadałoby potraktować Ją
+poważnie. Gdyby Twoja (albo już niestety nieżyjąca moja) babcia potrafiła dobrze uzasadnić swoje
+wnioski, to te wnioski powinny być traktowane tak samo jak uzasadnione wnioski pracownika
+naukowego. Ja tak w każdym razie sądzę.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
