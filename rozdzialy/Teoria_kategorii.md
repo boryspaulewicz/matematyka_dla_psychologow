@@ -320,7 +320,8 @@ to, żeby można było elastycznie określać sposób, w jaki operacja składani
 sytuacjach).
 
 Dodamy jeszcze dwie reguły, ale najpierw musimy wprowadzić coś, czego do tej pory jeszcze nie
-definiowaliśmy, a co odgrywa w matematyce niezwykle ważną rolę, to znaczy *relację równości*.
+definiowaliśmy, a co odgrywa w matematyce niezwykle ważną rolę, to znaczy wspomnianą już wcześniej
+*relację równości*.
 
 TODO
 
