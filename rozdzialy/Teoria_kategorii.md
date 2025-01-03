@@ -62,7 +62,7 @@ bardzo stopniowo zbliżać.
 
 Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności, jaką jest składalność, gdy to
 pojęcie okaże się później potrzebne, poproszę Cię teraz o narysowanie, po prawej od *diagramu* (to
-*niejawna definicja*, stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować, pewien inny
+*niejawna definicja* stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować, pewien inny
 diagram z *komentarzem*.
 
 6. Narysuj, po prawej od diagramu ze `Strzalka`-mi `f` i `g`, dwie poziome `Strzalka` oznaczone z
@@ -90,18 +90,24 @@ Byłbym zapomniał, a to jest przecież ważne. Wróćmy na chwilę do drugiego 
 9. Pod zapisanym już komentarzem dodaj jeszcze ten: **Trudne (więc wymaga czasu), ale ważne**:
    *Rysunek* **sugeruje** *tutaj, że `X`, `Y` i `Z` to* **różne** *punkty i że `i` i `j` to*
    **różne** *strzałki i to faktycznie* **są** *różne punkty i strzałki* **na tym rysunku**, *ale to
-   są jednocześnie tylko* **reprezentacje** *i te punkty i strzałki mogą, ale nie muszą*
-   **oznaczać** *te same obiekty* (odpowiedniego typu). *Punkty `X`, `Y` i `Z` pełnią tu więc role
-   abstrakcyjnych* **reprezentacji** *czegoś, co spełnia pewne wymagania* (jak się okaże, będą to
-   wymagania kategorii), *to są więc takie* **rysunkowe zmienne** *i tak samo zmiennymi są również
+   nie jest kod Leana, tylko pewne* **formalne reprezentacje** *i te punkty i strzałki nie muszą*
+   **oznaczać** *różnych obiektów* (odpowiedniego typu). *Punkty `X`, `Y` i `Z` pełnią tu więc role
+   abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania* (jak się okaże, będą to
+   wymagania kategorii), *to są więc takie* **rysunkowe zmienne**, *i tak samo zmiennymi są również
    wszystkie strzałki* (chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli i
    staną się przez to *stałymi*).
+
+Czyli te punkty i strzałki są jak litery *n* i *m* w wyrażeniu *n + m = m + n* zapisanym jako
+fragment prozy matematycznej. Chociaż to, że *litery* są różne zdaje się *sugerować*, że te litery
+oznaczają różne liczby, to wiesz już, że obie te litery oznaczają dowolne liczby, mogą więc oznaczać
+również te same liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy całe równanie przyjmie
+postać *1 + 1 = 1 + 1* (i nadal będzie prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
 
 Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostała* **jakieś**,
 *niekoniecznie różne obiekty, które dla Ciebie są oznaczone* (albo *reprezentowane*) *przez `Punkt`
 `X`, `Y` i `Z` i* **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone jako
-`Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te obiekty są dla
-Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
+`Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te* (bliżej
+nieokreślone) *obiekty są więc dla Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
 
 *To jest więc teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. *To całkiem
 dosłownie* **"Twój" kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
@@ -110,7 +116,12 @@ dosłownie* **"Twój" kontekst** *ponieważ to jest teraz część* **fragmentu 
 bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą", zależnie od
 punktu widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część środowiska
 nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz rolę kontekstu
-"Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**.
+"Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**. 
+
+*Tak się też przy okazji składa, że używasz lokalnego* (dla "Ciebie") *fragmentu środowiska
+zewnętrznego, żeby pomóc swojej pamięci korzystając z rysunku, ale ten rysunek ma dla "Ciebie"*
+**sens** *tylko dzięki temu, że* **pamiętasz, co oznacza**. *Rzeczywisty kontekst znajduje się więc
+w "Twoim" ciele, a rysunek to tylko "tymczasowa proteza" albo "zewnętrzne rusztowanie"*.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
 przeze mnie język opisu *sama* sprawiłaś, że to się już *stało*. I co Ty na to? Niby zwyczajna
