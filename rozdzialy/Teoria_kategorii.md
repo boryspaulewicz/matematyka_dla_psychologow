@@ -156,10 +156,10 @@ faktami, zaś matematyk genialny - analogie między analogiami." Nie bez przesad
 powiedzieć, że język teorii kategorii dostarcza *protezę matematycznej genialności*, której w
 dodatku możemy, oczywiście tylko do pewnego stopnia, używać *bezmyślnie*.
 
-Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że do pewnego stopnia trzeba się
-pogodzić z *niemożliwością jasnego zrozumienia co się w tym języku mówi*. Dlatego właśnie prywatnie
-i pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I nawet kiedy mówię o
-nim, że jest językiem aniołów, nie mówię tego wcale ironicznie. Nie jestem wierzący w żadnym prostym
+Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba się czasem pogodzić z
+*niemożliwością jasnego zrozumienia, co się w tym języku mówi*. Dlatego właśnie prywatnie i
+pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I kiedy mówię o nim, że
+jest jakby językiem aniołów, nie mówię tego wcale ironicznie. Nie jestem wierzący w żadnym prostym
 sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość dokładnie dzień i miejsce w którym to
 się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj nie istnieje, a to o czym ludzie
 mówią w Kościele, to tak naprawdę taki Święty Mikołaj dla dorosłych. To był, przynajmniej
