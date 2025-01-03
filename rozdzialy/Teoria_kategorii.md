@@ -90,7 +90,7 @@ Punkty `A`, `B` i `C` są różne *jako zmienne*, ale mogłabyś przecież dosta
 `A = C`, albo po prostu założyć taką hipotezę, i wtedy okazałoby się, że zmienna / paczka z etykietą
 `A` skrywała cały czas *taki sam obiekt* co zmienna / paczka z etykietą `C`, tylko wcześniej o tym
 nie wiedziałaś. Zwróć uwagę, że napisałem *taki sam*, a nie *ten sam*, a napisałem tak dlatego, że w
-matematyce równość *nie* oznacza "absolutnej identyczności", tylko **nierozróżnialność w danym
+matematyce równość *nie* oznacza "absolutnej identyczności" tylko **nierozróżnialność w danym
 języku** (albo z danego *punktu widzenia*). Na przykład, *1/2* to *ta sama liczba* co *2/4*, ale to
 jednocześnie również *inny ułamek*. Kiedy więc posługujemy się "językiem liczbowym" to jest to samo
 (a tak naprawdę takie samo), ale kiedy posługujemy się "językiem ułamkowym" to nie jest to samo (ani
