@@ -154,7 +154,7 @@ analogiami**. Genialny polski matematyk [Stefan Banach](https://pl.wikiquote.org
 powiedział kiedyś, że "dobry matematyk potrafi dostrzegać fakty, matematyk wybitny - analogie między
 faktami, zaś matematyk genialny - analogie między analogiami." Nie bez przesady można więc
 powiedzieć, że język teorii kategorii dostarcza *protezę matematycznej genialności*, której w
-dodatku możemy używać *bezmyślnie*.
+dodatku możemy, oczywiście tylko do pewnego stopnia, używać *bezmyślnie*.
 
 Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że do pewnego stopnia trzeba się
 pogodzić z *niemożliwością jasnego zrozumienia co się w tym języku mówi*. Dlatego właśnie prywatnie
