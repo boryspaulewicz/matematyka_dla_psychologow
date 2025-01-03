@@ -184,14 +184,15 @@ Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego"
 z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
 zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego programu, ponieważ jesteśmy
 *organizmami biologicznymi*. Nawet Lean tak naprawdę nie jest całkiem Leanem, bo działa przecież na
-fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest *niezawodne*. Ale jednocześnie to, w
-jaki sposób działam "ja", w jaki sposób działasz "Ty" i w jaki sposób działa Lean i jak działają
-*wszystkie narzędzia i inne [artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez*
-**wspólnotę** *ludzi*, jest jakby czymś w rodzaju "wektora" albo ... palca, który przybliżając coś
-(a dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na
-pewien *ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten
-Idaeł, albo Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek
-działania*. Może więc Anzelm nie był wcale taki głupi, jak mi się zdawało ...
+fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic* nie jest, *całkowicie
+niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty" i w jaki
+sposób działa Lean i jak działają *wszystkie narzędzia i inne
+[artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez* **wspólnotę** *ludzi*, jest
+jakby czymś w rodzaju "wektora" albo ... palca, który przybliżając coś (a dokładniej *rozwiązania*
+pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że
+na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo
+Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. Może więc Anzelm nie
+był wcale taki głupi, jak mi się zdawało ...
 
 Wracając do diagramu ...
 
