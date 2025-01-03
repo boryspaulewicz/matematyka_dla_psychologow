@@ -278,7 +278,7 @@ To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się nim, jeżeli je
 "przykleja". Spokojna [tafla tego oceanu](https://ncatlab.org/nlab/show/The+Rising+Sea) będzie się i
 tak powoli unosić, aż w końcu, niemal bez użycia siły, [rozłupiemy razem ten twardy orzech do
 zgryzienia](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf),
-musimy tylko poczekać, żeby się trochę namoczył.
+musimy tylko poczekać, żeby się trochę namoczył ;-)
 
 Jeszcze bardziej przyda nam się odtąd term `Kompatybilne`. Jeżeli `f : Strzalka`, `g : Strzalka` i
 `h : Strzalka`, to jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a `Cel h` to `Cel g`, tak jak
