@@ -52,7 +52,14 @@ drogowskaz](https://www.gwp.pl/statystyczny-drogowskaz-1-praktyczne-wprowadzenie
 czy [Metodologia i statystyka. Przewodnik statystycznego
 turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego-turysty-Tom-1,1007521920,p.html?srsltid=AfmBOooMqGVHILuAsFPTJQ6v1iAEhd5Kiwwvogdmsco1Lp9FyuqwBM91),
 który to podręcznik ukazał się niedawno, podobnie jak ten pierwszy, nakładem Wydawnictwa Naukowego
-PWN.
+PWN. Dotkniemy też kilka razy, posługując się w tym celu możliwie długim matematycznym kijem, bo to
+nie będzie najlepiej pachniało, [niezwykle
+wpływowy](https://scholar.google.com/scholar?cites=7187261083609918354&as_sdt=5,34&sciodt=0,34&hl=en)
+w psychologii [podręcznik
+Hayesa](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html)
+dotyczący [mediacji](https://link.springer.com/article/10.1007/s11121-011-0270-1), który wyrządził
+[ogromne szkody](https://journals.sagepub.com/doi/10.1177/25152459221095827) między innymi
+psychologii społecznej.
 
 Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
