@@ -70,7 +70,7 @@ fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. 
 były tam różne zdawało się *sugerować*, że te litery oznaczają różne liczby, to wiedziałaś, albo
 przypomniałaś sobie szybko, że obie te litery mogą oznaczać *dowolne* liczby naturalne, mogą więc
 oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy całe równanie
-przyjmie postać *1 + 1 = 1 + 1* (i nadal będzie prawdziwe, bo jest prawdziwe dla *każdej* pary
+przyjęłoby postać *1 + 1 = 1 + 1* (i nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary
 liczb).
 
 Kiedy czytając rozdział czwarty wyprowadzałaś według moich instrukcji dowód twierdzenia Bayesa, nie
