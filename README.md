@@ -33,6 +33,17 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
+**O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
+form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie poprawiało
+czytelności tekstu, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii
+to studentki, a nie studenci, będę się zwracał do czytelniczki. Mam jednak w związku z tym cały czas
+wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Na wypadek, gdybym sprawiał
+czasem niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w ten sposób (i o
+takich sprawach), kiedy jeszcze byłem studentem, tylko wtedy oczywiście odpowiadałaby mi bardziej
+forma męska, chociaż żeńska też by mi wcale nie przeszkadzała. A poza tym piszę tą książkę również w
+pewnym sensie do obecnej i przyszłej psychologii, która jest przecież (abstrakcyjną, ale jednak)
+kobietą.
+
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">my father always told me: “if you want to
