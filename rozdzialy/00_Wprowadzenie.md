@@ -255,7 +255,7 @@ robiê, a tak¿e jak uda³o mi siê robiæ to zarazem regularnie i przez d³u¿szy czas
 Skoro ju¿ mówiê o takich sprawach, to muszê podkre¶liæ, ¿e nie zosta³bym pracownikiem uczelni, gdyby
 nie wsparcie, ¿yczliwo¶æ i wyrozumia³o¶æ - moich przyjació³, niezrównanego Micha³a Wierzchonia, od
 którego dopiero niedawno (bo jestem a¿ taki g³upi) zacz±³em siê uczyæ, ¿e praca dopiero wtedy mo¿e
-byæ naprawdê satysfakcjonuj±ca, kiedy polega na *wspó³*pracy, i uczciwej, skromnej, m±drej (i
+byæ prawdziwie satysfakcjonuj±ca, kiedy polega na *wspó³*pracy, i uczciwej, skromnej, m±drej (i
 dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi sensownych zajêæ - a tak¿e Kasi
 Popio³ek, która by³a dla mnie wymarzon± wprost szefow± przez te 10 lat, kiedy pracowa³em na SWPSie w
 Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla mnie wa¿nego dr
