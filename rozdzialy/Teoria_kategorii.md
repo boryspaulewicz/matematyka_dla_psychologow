@@ -178,7 +178,7 @@ statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of 
 evidence of absence.
 
 Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, że "On" już tak po prostu
-ma, że wie a może raczej czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i
+ma, że wie, a może raczej *czuje*, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i
 czułem, co zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja"
 *to samo* czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na
 przykład smak soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć czasem ([niczym
