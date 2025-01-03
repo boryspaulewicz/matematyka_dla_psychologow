@@ -2,17 +2,17 @@
 
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką. Właściwie to znasz ten
 sposób dobrze jeszcze z czasów kiedy byłaś uczennicą szkoły podstawowej, ale być może nie
-zastanawiałaś się nigdy dłużej nad tym, o co w nim tak naprawdę chodzi. Będziemy się teraz
-przyglądać z bliska wybranym, ważnym i często wykonywanym w matematyce czynnościom, polegającym tak
-naprawdę na dość prostych mechanicznych operacjach.
+zastanawiałaś się nigdy dłużej, o co w nim właściwie chodzi. Będziemy się teraz przyglądać z bliska
+wybranym, ważnym i często wykonywanym w matematyce czynnościom, polegającym tak naprawdę na dosyć
+prostych mechanicznych operacjach.
 
 <hr>
 
 # Kilka trywialnych mechanicznych operacji
 
-Przypuszczam, że już w podstawówce stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B = C*, to
-*A = C*, niezależnie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci się również
-taki oto fragment matematycznej prozy:
+Przypuszczam, że już dawno stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B = C*, to *A = C*,
+niezależnie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci się również taki oto
+fragment matematycznej prozy:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
