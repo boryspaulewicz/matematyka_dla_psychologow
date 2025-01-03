@@ -65,13 +65,13 @@ zaczynam na tym kursie mówić o [twierdzeniu
 Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiadałem
-uczestnikom, że zaraz będą sami go dowodzić, zauważałem u wielu z nich objawy lekkiej
-paniki. Podobną panikę widziałem zresztą w oczach pracowników naukowych, którzy byli obecni na moim
-otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawił się symbol [*sumy
+uczestnikom, że zaraz będą sami go dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną
+panikę widziałem zresztą w oczach pracowników naukowych, którzy byli obecni na moim otwarciu
+przewodu, kiedy po raz pierwszy na slajdach pojawił się symbol [*sumy
 indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana) (*∑*). W tym roku po raz pierwszy
-spróbowałem wprowadzić twierdzenie Bayesa bez żadnego wstępu, na pierwszych albo drugich zajęciach,
-i postarałem się nakłonić wszystkich, żeby skupili się tylko na bardzo prostych w tym wypadku
-operacjach formalnych. Różnica w wykonaniu tego zadania była natychmiast oczywista.
+spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na pierwszych albo drugich zajęciach, i
+postarałem się nakłonić wszystkich, żeby skupili się tylko na bardzo prostych w tym wypadku
+operacjach formalnych. Różnica w wykonaniu była natychmiast oczywista.
 
 **Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które
 będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry*, albo jeszcze lepiej *reguły
