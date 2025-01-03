@@ -292,5 +292,5 @@ charakteru typu `Absurd` w rozdziale o negacji.
 
 [^4]: Tak naprawdę da się - pisanie ksiażki jest uczeniem *się* kolejnych, wirtualnych wersji
     "siebie", a więc procesem *iteracyjnego w y k s z t a ł c e n i a (się)* w *dialogu* z
-    poprzednimi i przyszłymi wirtualnymi wersjami "siebie" - ale *wyraźnie*, to znaczy formalnie
+    poprzednimi i przyszłymi wirtualnymi wersjami ("siebie") - ale *wyraźnie*, to znaczy formalnie
     powiemy sobie to najprawdopodobniej dopiero w drugiej części.
