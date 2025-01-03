@@ -211,8 +211,8 @@ zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego progra
 
 <div align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div>
 
-<div align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div>
-
+<div align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div>  
+  
 [Wspaniałych Małp](https://en.wikipedia.org/wiki/Simian). Nawet Lean tak naprawdę nie jest całkiem
 Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic*
 nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób
