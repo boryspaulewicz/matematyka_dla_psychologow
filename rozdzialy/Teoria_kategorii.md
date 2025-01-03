@@ -197,21 +197,21 @@ zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego progra
 *organizmami biologicznymi*, a dokładniej
 [*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta), w dodatku takimi, które raczej
 
-<div align="center">[nie](tego słowa )</div>
+<div align="center"><a href="https://pl.wikipedia.org/wiki/Zag%C5%82ada_%C5%BByd%C3%B3w">nie</a></div>
 
-<div align="center">[mają](https://pl.wikipedia.org/wiki/Globalne_ocieplenie)</div>
+<div align="center"><a href="https://pl.wikipedia.org/wiki/Globalne_ocieplenie">mają</a></div>
 
-<div align="center">[prawa](https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases)</div>
+<div align="center"><a href="https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases"> prawa</a></div>
 
-<div align="center">[twierdzić](https://en.wikipedia.org/wiki/Why_Most_Published_Research_Findings_Are_False)</div>
+<div align="center"><a href="https://en.wikipedia.org/wiki/Why_Most_Published_Research_Findings_Are_False">twierdzić</a></div>
 
-<div align="center">[że](https://en.wikipedia.org/wiki/Crusades)</div>
+<div align="center"><a href="https://en.wikipedia.org/wiki/Crusades">że</a></div>
 
-<div align="center">[są](https://en.wikipedia.org/wiki/List_of_genocides)</div>
+<div align="center"><a href="https://en.wikipedia.org/wiki/List_of_genocides">są</a></div>
 
-<div align="center">[lepsze](https://en.wikipedia.org/wiki/Donald_Trump)</div>
+<div align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div>
 
-<div align="center">[od](https://en.wikipedia.org/wiki/Gun_control)</div>
+<div align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div>
 
 [Wspaniałych Małp](https://en.wikipedia.org/wiki/Simian). Nawet Lean tak naprawdę nie jest całkiem
 Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic*
