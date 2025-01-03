@@ -133,11 +133,11 @@ Być może trudno Ci zaakceptować to, że równość w matematyce to "tylko" pe
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
 akurat ogromna *zaleta*. Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego
 tylko może się nadawać, musimy nauczyć się patrzeć na to coś na różne sposoby. A to oznacza, że
-musimy pogodzić się z pewnego rodzaju [nieszkodliwym
-relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
+musimy pogodzić się z pewnym rodzajem [nieszkodliwego
+relatywizmu](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
 zawsze inne, również spójne i sensowne punkty widzenia na to samo, i dopóki korzystamy z tych
-punktów widzenia w sposób konsekwentny, nie grozi nam ryzyko, że znajdziemy uzasadnienie albo dowód
-dla *każdego* możliwego zdania.
+punktów widzenia w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy uzasadnienie
+albo dowód dla *każdego* możliwego zdania.
 
 Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać i którego podstawy
 już częściowo opanowałaś, został stworzony właśnie po to, żeby formalnie, a więc w sposób
