@@ -318,10 +318,11 @@ postawa jest po prostu *anty*naukowa.
 Pisząc tą książkę publicznie i na żywo nie unikam przecież w żaden sposób niczyjej oceny. Jest wręcz
 odwrotnie, skoro *każdy*, kto tylko ma dostęp do internetu, może poddać krytyce *wszystko*, co tu
 napisałem, łącznie z *całą historią zmian*. Tylko, że taka krytyka nie będzie wtedy polegała na
-czymś tak dziecinnym, jak naklejenie albo odklejenie etykiety naukowości z logiem dużego wydawnictwa
-na podstawie ocen trzech do czterech osób, które uznały, że tekst można publikować z nikomu
-nieznanych powodów. Ewentualna krytyka, do której z całego serca i szczerze zachęcam, będzie musiała
-mieć również charakter *publiczny*.
+czymś tak dziecinnym, jak nieprzyznanie zaszczytnego przywileju naklejenia (albo, co niezwykle
+rzadkie, odklejenia) etykiety naukowości z logiem jakiegoś dużego, żerującego na głupocie naukowców
+wydawnictwa, na podstawie ocen trzech do czterech osób, które uznały, z nikomu nieznanych powodów,
+że tekst można opublikować. Ewentualna krytyka, do której szczerze zachęcam, będzie musiała mieć
+również charakter *publiczny*.
 
 Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*.
 
