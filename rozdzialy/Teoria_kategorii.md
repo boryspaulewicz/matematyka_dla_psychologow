@@ -171,10 +171,10 @@ evidence of absence.
 Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, że "On" tak po prostu ma,
 że wie albo czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i czułem, co
 zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja" *to samo*
-czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać smak soli. W
-drugiej części pokażę Ci nawet, jak można *sformalizować* to pojęcie "czegoś więcej" albo "ponad"
-jako pewien rodzaj uniwersalnej i abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować
-wyjaśnić, o co w tym będzie chodziło, bo to pojęcie nie jest wcale oderwane od codziennego
+czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na przykład smak
+soli. W drugiej części pokażę Ci nawet, jak można *sformalizować* to pojęcie "czegoś więcej" albo
+"ponad" jako pewien rodzaj uniwersalnej i abstrakcyjnie rozumianej *granicy*, ale już teraz mogę
+spróbować wyjaśnić, o co w tym będzie chodziło, bo to pojęcie nie jest wcale oderwane od codziennego
 doświadczenia.
 
 Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego" za-programowania, żadne
