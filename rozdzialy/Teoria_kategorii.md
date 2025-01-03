@@ -50,7 +50,7 @@ stwierdzić, że *nieprawda, że* `Skladalne g f` musimy dysponować *dowodem* `
 f)`. Mówiąc, że *nie jest prawdą, że* `Skladalne g f` miałem na myśli *tylko* to, że *póki co nie
 dysponujemy żadnym dowodem, że* `Skladalne g f`, ale *nie możemy wykluczyć*, że taki dowód się
 pojawi. Żeby to wykluczyć, musielibyśmy albo udowodnić, albo założyć, że punkty `A` i `C` są
-*różne*. Wtedy faktycznie nie mogłoby być prawdą, że `Skladalne g f`.
+*różne*. Wtedy faktycznie *nie mogłoby* być prawdą, że `Skladalne g f`.
 
 W tym momencie, albo już wcześniej, mogła Ci się pojawić wątpliwość, że przecież punkty `A` i `C`
 *nie nachodzą na siebie na rysunku*, a więc *nie może być tak*, że `A` i `C` są tym samym *punktem*,
