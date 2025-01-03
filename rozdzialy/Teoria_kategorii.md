@@ -107,8 +107,8 @@ kontrolowalną część środowiska nazywasz* **"własnym" ciałem**. *A częś�
 **pełni teraz rolę kontekstu "Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**.
 
 *Tak się też przy okazji składa, że używasz lokalnego* (dla "Ciebie") *fragmentu środowiska
-zewnętrznego* (to jest kartki w formacie A4), *żeby pomóc swojej pamięci korzystając z rysunku, ale
-ten rysunek ma dla "Ciebie"* **sens** *tylko dzięki temu, że* **pamiętasz, co oznacza**, *czyli
+zewnętrznego* (to jest kartki w formacie A4), *żeby pomóc "swojej" pamięci korzystając z rysunku,
+ale ten rysunek ma dla "Ciebie"* **sens** *tylko dzięki temu, że* **pamiętasz, co oznacza**, *czyli
 pamiętasz co można, a czego (zachowując sens) nie można z nim zrobić. Rzeczywisty kontekst znajduje
 się więc w "Twoim" ciele, a rysunek to tylko "tymczasowa proteza" albo "zewnętrzne rusztowanie"*.
 
