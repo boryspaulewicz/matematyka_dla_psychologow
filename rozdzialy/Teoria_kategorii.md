@@ -163,7 +163,7 @@ jest jakby językiem aniołów, nie mówię tego wcale ironicznie. Nie jestem wi
 sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość dokładnie dzień i miejsce w którym to
 się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj nie istnieje, a to, o czym ludzie
 mówią w Kościele, to tak naprawdę Święty Mikołaj dla dorosłych. To był, przynajmniej subiektywnie,
-taki nagły wgląd i od tego czasu nigdy nie miałem nawet *cienia* wątpliwości, że mam rację. Ale
+taki nagły wgląd i od tego czasu nigdy nie miałem nawet *cienia* wątpliwości, że "mam rację". Ale
 przecież, zwłaszcza w logice, której teraz używamy, tak samo jak w [testowaniu hipotez
 statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of evidence is *not*
 evidence of absence.
@@ -172,10 +172,13 @@ Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, 
 że wie albo czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i czułem, co
 zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja" *to samo*
 czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na przykład smak
-soli. W drugiej części pokażę Ci nawet, jak można *sformalizować* to pojęcie "czegoś więcej" albo
-"ponad" jako pewien rodzaj uniwersalnej i abstrakcyjnie rozumianej *granicy*, ale już teraz mogę
-spróbować wyjaśnić, o co w tym będzie chodziło, bo to pojęcie nie jest wcale oderwane od codziennego
-doświadczenia.
+soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć (niczym niezasłużoną) przewagę, ale w
+innych jestem ([bez własnej
+winy](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) bardziej *ułomny* niż
+ludzie, którzy są w tradycyjnym znaczeniu tego słowa wierzący. W drugiej części pokażę Ci nawet, jak
+można *sformalizować* to pojęcie "czegoś więcej" albo "ponad" jako pewien rodzaj uniwersalnej i
+abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować wyjaśnić, o co w tym będzie
+chodziło, bo to pojęcie nie jest wcale oderwane od codziennego doświadczenia.
 
 Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego" za-programowania, żadne
 z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
