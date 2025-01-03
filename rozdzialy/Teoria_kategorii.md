@@ -144,8 +144,7 @@ już częściowo opanowałaś, został stworzony właśnie po to, żeby formalni
 kontrolowany i mechanicznie sprawdzalny, operować najróżniejszymi pasującymi do siebie punktami
 widzenia. Do tej pory mówiłem wprost o tylko jednym, bardzo ważnym rodzaju takiego dopasowania, to
 jest o zachowujących strukturę izomorfizmach. A jak już wiesz, izomorfizmy to takie ścisłe analogie,
-ale przecież również *mniej* ścisłe analogie są czasem niezwykle, albo czasami nawet *bardziej*
-użyteczne.
+ale przecież również *mniej* ścisłe analogie bywają niezwykle użyteczne.
 
 Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **różnych rodzajach**
 *zgodności między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych
