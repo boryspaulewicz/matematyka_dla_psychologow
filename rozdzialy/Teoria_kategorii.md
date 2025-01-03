@@ -336,7 +336,8 @@ Umówiliśmy się więc, że gdy `Skladalne f g`, to *musi istnieć* `Strzalka`,
 `Zlozenie f g`, w tej kolejności. Mamy teraz do wyboru dwie strzałki, `h` i `i`. Wybierzemy `h`, bez
 żadnego powodu, i wobec tego proszę Cię jeszcze, żebyś wewnątrz tego diagramu-trójkąta zapisała
 symbol `✓`, który po polsku nazywamy [*fajką*](https://pl.wikipedia.org/wiki/Fajka_(znak_wyboru)),
-*ptaszkiem*, *haczykiem* lub *parafką*. Wybieram *ptaszka*. 
+*ptaszkiem*, *haczykiem* lub *parafką*. Wybieram
+[*ptaszka*](https://www.goodreads.com/quotes/97619-one-should-be-light-like-a-bird-and-not-like).
 
 Będziemy odtąd rozumieć, że *diagram*, wewnątrz którego znajduje się ptaszek, jest (z założenia,
 albo z jakiegoś powodu, wszystko jedno, po prostu jest) *przemienny*. Wydaje mi się, że w tym
