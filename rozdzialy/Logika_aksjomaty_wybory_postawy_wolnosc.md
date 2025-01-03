@@ -30,10 +30,11 @@ Właśnie teraz muszę rozwiązać inny problem. Najpierw chciałem napisać zda
 "mógłbyś", a potem się zreflektowałem (*zreflektować się* - podoba mi się ten osobliwy zwrot, chyba
 go później do czegoś wykorzystam), że odbiorcą może być kobieta. Napisałem więc mógła/byś, ale to mi
 się wydało bardzo nieudane i poczułem irytację, że poświęcam takiemu moim zdaniem drobiazgowi aż
-tyle uwagi. Moje poglądy polityczne są niejasne, bo nie lubię polityki i większości polityków, ale
-moi znajomi pewnie powiedzieliby, że te poglądy są lewicowe w sprawach ekonomicznych i liberalne w
-obyczajowych. Nie bardzo wiem, co to właściwie znaczy, ani nie bardzo mnie to obchodzi, ale to ma
-chyba ostatnio jakiś związek z rodzajem gramatycznym.
+tyle uwagi. Moje poglądy polityczne są niejasne, bo nie lubię polityki i większości
+[polityków](https://www.azquotes.com/quote/254908), ale moi znajomi pewnie powiedzieliby, że te
+poglądy są lewicowe w sprawach ekonomicznych i liberalne w obyczajowych. Nie bardzo wiem, co to
+właściwie znaczy, ani nie bardzo mnie to obchodzi, ale to ma chyba ostatnio jakiś związek z rodzajem
+gramatycznym.
 
 Uważam, że kwestia "odpowiedniego" rodzaju gramatycznego słowa, o którym wspomniałem, to drobiazg i
 jeżeli się ze mną nie zgadzasz, to jest to fakt, przed którym razem stoimy, ale z którym sądzę, że
