@@ -172,7 +172,8 @@ Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, 
 że wie albo czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i czułem, co
 zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja" *to samo*
 czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na przykład smak
-soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć (niczym niezasłużoną) przewagę, ale w
+soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć ([niczym
+niezasłużoną](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) przewagę, ale w
 innych, być może nawet najważniejszych sprawach jestem ([nie z własnej
 winy](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) bardziej *ułomny* niż
 ludzie, którzy są w tradycyjnym znaczeniu tego słowa wierzący. W drugiej części pokażę Ci nawet, jak
