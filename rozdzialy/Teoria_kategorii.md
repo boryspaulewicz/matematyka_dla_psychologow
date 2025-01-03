@@ -211,7 +211,7 @@ zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego progra
 
 <div align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div>
 
-<div align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div>  
+<div align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div>
   
 [Wspaniałych Małp](https://en.wikipedia.org/wiki/Simian). Nawet Lean tak naprawdę nie jest całkiem
 Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic*
@@ -223,11 +223,12 @@ pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien *ide
 na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo
 Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. Niewątpliwie ma ten
 Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności wytworem wspólnoty i
-abstrakcyjnym ucieleśniem uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
-[Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć,
-jeżeli tylko zmrużymy trochę oczy. Może więc Anzelm nie był wcale taki głupi, jak mi się zdawało ...
+abstrakcyjnym ucieleśniem w języku formalnym uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
+[Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć
+(jeżeli tylko przymrużymy trochę jedno oko). Może więc Anzelm nie był wcale taki głupi, jak mi się
+zdawało.
 
-Wracając do diagramu ...
+Wracając do diagramu.
 
 Przydadzą nam się jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka` (na Twoim rysunku akurat
 `f : Strzalka` i `g : Strzalka`, ale chcę podkreślić, że ta reguła obowiązuje ogólnie), to term
