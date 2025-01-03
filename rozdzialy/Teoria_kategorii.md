@@ -38,8 +38,159 @@ najlepiej kartkę formatu A4. Połóż ją poziomo. Zaczniemy w lewym górnym ro
 Masz teraz dwie strzałki, o których, gdy wymienimy je *w określonej kolejności*, możemy powiedzieć,
 że są `Skladalne`, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`),
 z którego wychodzi druga (tutaj `g`). Ten fakt możemy więc zapisać jako zdanie `Skladalne f
-g`. Zwróć uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g f`,
-przecież strzałka `g` nie wchodzi do punktu, z którego wychodzi strzałka `f`.
+g`. Zwróć uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g
+f`. I tutaj muszę zacząć pisać bardzo ostrożnie, a Ty być może będziesz musiała uzbroić się w
+cierpliwość czekając aż to co powiem stanie się w miarę jasne.
+
+## [Absence of evidence is not evidence of absence!](https://en.wikipedia.org/wiki/Evidence_of_absence)
+
+Napisałem, że *nie jest prawdą, że* `Skladalne g f`, ale *nie* miałem na myśli, że *jest nieprawdą,
+że* `Skladalne g f`. Wbrew pozorom to nie jest to samo, a w każdym razie niekoniecznie to samo. Żeby
+stwierdzić, że *nieprawda, że* `Skladalne g f` musimy dysponować *dowodem* `¬(Skladalne g
+f)`. Mówiąc, że *nie jest prawdą, że* `Skladalne g f` miałem na myśli *tylko* to, że *póki co nie
+dysponujemy żadnym dowodem, że* `Skladalne g f`, ale *nie możemy wykluczyć*, że taki dowód się
+pojawi. Żeby to wykluczyć, musielibyśmy albo udowodnić, albo założyć, że punkty `A` i `C` są
+*różne*. Wtedy faktycznie nie mogłoby być prawdą, że `Skladalne g f`.
+
+W tym momencie, albo już wcześniej, mogła Ci się pojawić wątpliwość, że przecież punkty `A` i `C`
+*nie nachodzą na siebie na rysunku*, a więc *nie może być tak*, że `A` i `C` są tym samym *punktem*,
+a więc to są *różne punkty*. I myśląc tak miałabyś rację!
+
+Rysunek *sugeruje* tutaj, że `A`, `B` i `C` to *różne punkty* i że `f` i `g` to *różne strzałki* i
+to faktycznie *są* różne punkty i różne strzałki *na tym rysunku*, ale *tym razem* **to nie jest kod
+Leana**, tylko pewne formalne *reprezentacje*, które w ogólnym przypadku mają coś *oznaczać*. Te
+punkty i strzałki mogą, ale nie muszą *oznaczać różnych obiektów* (odpowiedniego typu). Punkty `A`,
+`B` i `` pełnią tu więc role abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania (jak
+się okaże, będą to wymagania kategorii), to są więc takie **rysunkowe zmienne**, i tak samo
+zmiennymi są również wszystkie strzałki (chyba, że z jakiś powodów przyjmiemy określone *definicje*
+tych symboli i staną się przez to *stałymi*).
+
+Czyli te punkty i strzałki są tutaj jak litery *n* i *m* w wyrażeniu *n + m = m + n* zapisanym jako
+fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. Chociaż to, że *litery*
+były tam różne zdawało się *sugerować*, że te litery oznaczają różne liczby, to wiedziałaś, albo
+przypomniałaś sobie szybko, że obie te litery mogą oznaczać *dowolne* liczby naturalne, mogą więc
+oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy całe równanie
+przyjmie postać *1 + 1 = 1 + 1* (i nadal będzie prawdziwe, bo jest prawdziwe dla *każdej* pary
+liczb).
+
+Kiedy czytając rozdział czwarty wyprowadzałaś według moich instrukcji dowód twierdzenia Bayesa, nie
+używaliśmy jeszcze Leana, a więc to *Ty* musiałaś konsekwentnie podstawiać pewne wartości (wtedy
+zmienne *y* i *x*) za pewne zmienne (wtedy zmienne *x* i *y* *jako części definicji pionowej
+kreski*), a więc też musiałaś oczywiście *zrozumieć, co masz zrobić*.
+
+Wiesz, o co mi chodzi? Teraz, gdy na jakiś czas przestaliśmy polegać na Leanie i znowu sama
+*tworzysz kod* (rysując) a niebawem będziesz też sama *dokonywać ewaluacji*, to **Ty jesteś
+funkcją**, *która widzi, że dostała* **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są
+oznaczone* (albo *reprezentowane*) *przez `Punkt` `A`, `B` i `C` i* **jakieś**, *niekoniecznie różne
+obiekty, które dla Ciebie są oznaczone jako `Strzalka` `f` i `g`, o których to obiektach wiesz tylko
+tyle, że `Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są więc dla Ciebie "opakowane" i nie
+możesz otworzyć tych opakowań.*
+
+Punkty `A`, `B` i `C` są różne *jako zmienne*, ale mogłabyś przecież dostać w przyszłości dowód, że
+`A = C`, albo po prostu założyć taką hipotezę, i wtedy okazałoby się, że zmienna / paczka z etykietą
+`A` skrywała cały czas *taki sam obiekt* co zmienna / paczka z etykietą `C`, tylko wcześniej o tym
+nie wiedziałaś. Zwróć uwagę, że napisałem *taki sam*, a nie *ten sam*, a napisałem tak dlatego, że w
+matematyce równość *nie* oznacza "absolutnej identyczności", tylko **nierozróżnialność w danym
+języku** (albo z danego *punktu widzenia*). Na przykład, *1/2* to *ta sama liczba* co *2/4*, ale to
+jednocześnie również *inny ułamek*. Kiedy więc posługujemy się "językiem liczbowym" to jest to samo
+(a tak naprawdę takie samo), ale kiedy posługujemy się "językiem ułamkowym" to nie jest to samo (ani
+tym bardziej takie samo).
+
+A skoro teraz to *Ty* masz operować symbolami, podstawiać i dokonywać ewaluacji, odtąd to **"Ty"
+jesteś funkcją** *i to jest teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako
+funkcji**. *To całkiem dosłownie* **"Twój" kontekst**, *ponieważ to jest teraz część* **fragmentu
+środowiska fizycznego**, *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony
+od reszty świata żadną ścisłą i nieprzepuszczalną granicą, jest jednak dla "Ciebie" szczególnie
+ważną częścią środowiska, bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego
+stopnia - "Tobą", zależnie od punktu widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo
+kontrolowalną część środowiska nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która*
+**pełni teraz rolę kontekstu "Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**.
+
+*Tak się też przy okazji składa, że używasz lokalnego* (dla "Ciebie") *fragmentu środowiska
+zewnętrznego* (to jest kartki w formacie A4), *żeby pomóc swojej pamięci korzystając z rysunku, ale
+ten rysunek ma dla "Ciebie"* **sens** *tylko dzięki temu, że* **pamiętasz, co oznacza**, *czyli
+pamiętasz co można, a czego (zachowując sens) nie można z nim zrobić. Rzeczywisty kontekst znajduje
+się więc w "Twoim" ciele, a rysunek to tylko "tymczasowa proteza" albo "zewnętrzne rusztowanie"*.
+
+Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
+przeze mnie język opisu "*sama*" sprawiłaś, że to się już *stało*. A stało się to dzięki temu, że w
+ramach tej **naszej** jakby rozmowy pozwoliłaś "mi" "siebie" w pewien sposób *zaprogramować*. Nie
+obraź się proszę, to tylko tak brzmi.
+
+I co Ty na to? Niby zwyczajna (prawie) rozmowa, a jednocześnie nie taka całkiem zwyczajna, prawda?
+Właściwie nie różni się to *niczym* od *każdej innej rozmowy* ani od wszystkich moich wcześniejszych
+prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać, że będziesz w określony sposób ze mną
+*współpracować*, a w każdym razie miałem przez cały ten czas taką nadzieję. Jeżeli więc tylko
+próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten fragment, to mogę założyć, że
+tak, to przez cały ten czas działo się dokładnie to samo, teraz tylko szczegóły są nowe. A właściwie
+przecież już
+[wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
+niemal na samym początku, nawet szczegóły były dosyć podobne. Zgaduję jednak, że Twoje *wrażenie* na
+czym to polega może być tym razem w jakiś trudny do określenia sposób inne.
+
+Być może trudno Ci zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
+"subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
+akurat ogromna *zaleta*. Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego
+tylko może się nadawać, musimy nauczyć się patrzeć na to coś na różne sposoby. A to oznacza, że
+musimy pogodzić się z pewnego rodzaju [nieszkodliwym
+relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
+zawsze inne, również spójne i sensowne punkty widzenia na to samo, i dopóki korzystamy z tych
+punktów widzenia w sposób konsekwentny, nie grozi nam ryzyko, że znajdziemy uzasadnienie albo dowód
+dla *każdego* możliwego zdania.
+
+Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać i którego podstawy
+już częściowo opanowałaś, został stworzony właśnie po to, żeby formalnie, a więc w sposób
+kontrolowany i mechanicznie sprawdzalny, operować najróżniejszymi pasującymi do siebie punktami
+widzenia. Do tej pory mówiłem wprost o tylko jednym, bardzo ważnym rodzaju takiego dopasowania, to
+jest o zachowujących strukturę izomorfizmach. A jak już wiesz, izomorfizmy to takie ścisłe analogie,
+ale przecież również *mniej* ścisłe analogie są czasem niezwykle, albo czasami nawet *bardziej*
+użyteczne.
+
+Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **różnych rodzajach**
+*zgodności między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych
+albo bardziej elastycznych niż izomorfizmy rodzajach dopasowania między (formalnymi) językami albo
+opisami, można powiedzieć, że teoria kategorii to ogólna teoria **analogii między
+analogiami**. Genialny polski matematyk [Stefan Banach](https://pl.wikiquote.org/wiki/Stefan_Banach)
+powiedział kiedyś, że "dobry matematyk potrafi dostrzegać fakty, matematyk wybitny - analogie między
+faktami, zaś matematyk genialny - analogie między analogiami." Nie bez przesady można więc
+powiedzieć, że język teorii kategorii dostarcza *protezę matematycznej genialności*, której w
+dodatku możemy używać *bezmyślnie*.
+
+Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że do pewnego stopnia trzeba się
+pogodzić z *niemożliwością jasnego zrozumienia co się w tym języku mówi*. Dlatego właśnie prywatnie
+i pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I nawet kiedy mówię o
+nim, że jest językiem aniołów, nie mówię tego wcale ironicznie. Nie jestem wierzący w żadnym prostym
+sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość dokładnie dzień i miejsce w którym to
+się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj nie istnieje, a to o czym ludzie
+mówią w Kościele, to tak naprawdę taki Święty Mikołaj dla dorosłych. To był, przynajmniej
+subiektywnie, taki nagły wgląd i od tego czasu nigdy nie miałem nawet *cienia* wątpliwości, że mam
+rację. Ale przecież, zwłaszcza w logice, której teraz używamy, tak samo jak w [testowaniu hipotez
+statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of evidence is *not*
+evidence of absence.
+
+Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, że "On" tak po prostu ma,
+że wie albo czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i czułem, co
+zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja" *to samo*
+czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać smak soli. W
+drugiej części pokażę Ci nawet, jak można *sformalizować* to pojęcie "czegoś więcej" albo "ponad"
+jako pewien rodzaj uniwersalnej i abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować
+wyjaśnić, o co w tym będzie chodziło, bo to pojęcie nie jest wcale oderwane od codziennego
+doświadczenia.
+
+Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego" za-programowania, żadne
+z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
+zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego programu, ponieważ jesteśmy
+*organizmami biologicznymi*. Nawet Lean tak naprawdę nie jest całkiem Leanem, bo działa przecież na
+fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest *niezawodne*. Ale jednocześnie to, w
+jaki sposób działam "ja", w jaki sposób działasz "Ty" i w jaki sposób działa Lean i jak działają
+*wszystkie urządzenia i artefakty stworzone przez* **wspólnotę** *ludzi* jest jakby czymś w rodzaju
+"wektora" albo ... palca, który przybliżając coś (a dokładniej *rozwiązania* pewnych *abstrakcyjnych
+zadań*) wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że na ten ideał wskazuje,
+sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo Agent, jak Go czasami
+prywatnie nazywam, *istnieje jako kierunek działania*. Może więc Anzelm nie był wcale taki głupi,
+jak mi się zdawało ...
+
+Wracając do diagramu ...
 
 Przydadzą nam się jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka` (na Twoim rysunku akurat
 `f : Strzalka` i `g : Strzalka`, ale chcę podkreślić, że ta reguła obowiązuje ogólnie), to term
@@ -50,15 +201,17 @@ Przyjmiemy teraz ważną *regułę* dotyczącą *strzałek*: Zawsze gdy mamy tak
 Strzalka`, że `Skladalne f g`, musimy *dorysować* (na razie *anonimową*) strzałkę, albo przynajmniej
 *przyjąć, że istnieje* strzałka, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Czyli w
 przypadku tego rysunku to byłaby pewna narysowana ukośnie `Strzalka A C`. Ale w tej chwili jeszcze
-nie będziemy jej rysować.
+nie będziemy jej rysować. Można to zapamiętać tak: *Każdą dwustrzałkową drogę można przejść w jakiś
+konkretny sposób na skróty, a więc jednostrzałkowo*.
 
 `Skladalne` oznacza więc tylko, a właściwie będzie niebawem oznaczało (po wprowadzeniu odpowiedniego
 aksjomatu), że da się zawsze zrobić taką (unikalną) strzałkę. Konsekwencje jeszcze nie wprowadzonych
-aksjomat*ów* (liczba mnoga), dotyczących operacji składania strzałek, można zapamiętać tak: *Dla
-każdej skierowanej ścieżki istnieje jednostrzałkowa droga na skróty równa złożeniu wszystkich
-strzałek należących do tej ścieżki* (czyli strzałka, której `Zrodlo` jest początkiem tej ścieżki, a
-`Cel` jest jej końcem). Jeżeli to w tym momencie za dużo, nie przejmuj się, będziemy się do tego
-bardzo stopniowo zbliżać.
+aksjomat*ów* (liczba mnoga), dotyczących operacji składania strzałek, można zapamiętać ogólniej tak:
+*Dla każdej skierowanej ścieżki* (a więc nie tylko dla ścieżek skierowanych *dwustrzałkowych*)
+*istnieje jednostrzałkowa droga na skróty równa złożeniu wszystkich strzałek należących do tej
+ścieżki* (czyli strzałka, której `Zrodlo` jest początkiem tej ścieżki, a `Cel` jest jej
+końcem). Jeżeli to w tym momencie za dużo, nie przejmuj się, i tak będziemy się do tego powoli
+zbliżać.
 
 Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności, jaką jest składalność, gdy to
 pojęcie okaże się później potrzebne, poproszę Cię teraz o narysowanie, po prawej od *diagramu* (to
@@ -97,43 +250,6 @@ Byłbym zapomniał, a to jest przecież ważne. Wróćmy na chwilę do drugiego 
    wszystkie strzałki* (chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli i
    staną się przez to *stałymi*).
 
-Czyli te punkty i strzałki są jak litery *n* i *m* w wyrażeniu *n + m = m + n* zapisanym jako
-fragment prozy matematycznej. Chociaż to, że *litery* są różne zdaje się *sugerować*, że te litery
-oznaczają różne liczby, to wiesz już, że obie te litery oznaczają dowolne liczby, mogą więc oznaczać
-również te same liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy całe równanie przyjmie
-postać *1 + 1 = 1 + 1* (i nadal będzie prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
-
-Wiesz, o co mi chodzi? Teraz **Ty jesteś funkcją**, *która widzi, że dostała* **jakieś**,
-*niekoniecznie różne obiekty, które dla Ciebie są oznaczone* (albo *reprezentowane*) *przez `Punkt`
-`X`, `Y` i `Z` i* **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone jako
-`Strzalka` `i` i `j`, o których to obiektach wiesz tylko tyle, że `Skladalne i j`. Te* (bliżej
-nieokreślone) *obiekty są więc dla Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
-
-*To jest więc teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. *To całkiem
-dosłownie* **"Twój" kontekst** *ponieważ to jest teraz część* **fragmentu środowiska fizycznego**,
-*który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną
-ścisłą i nieprzepuszczalną granicą, jest jednak dla "Ciebie" szczególnie ważną częścią środowiska,
-bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą", zależnie od
-punktu widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część środowiska
-nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz rolę kontekstu
-"Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**. 
-
-*Tak się też przy okazji składa, że używasz lokalnego* (dla "Ciebie") *fragmentu środowiska
-zewnętrznego, żeby pomóc swojej pamięci korzystając z rysunku, ale ten rysunek ma dla "Ciebie"*
-**sens** *tylko dzięki temu, że* **pamiętasz, co oznacza**. *Rzeczywisty kontekst znajduje się więc
-w "Twoim" ciele, a rysunek to tylko "tymczasowa proteza" albo "zewnętrzne rusztowanie"*.
-
-Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
-przeze mnie język opisu *sama* sprawiłaś, że to się już *stało*. I co Ty na to? Niby zwyczajna
-(prawie) rozmowa, a jednocześnie nie taka całkiem zwyczajna, prawda? Właściwie nie różni się to
-niczym od wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać,
-że będziesz w określony sposób ze mną *współpracować*, a w każdym razie miałem przez cały ten czas
-taką nadzieję. Jeżeli więc tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz
-ten fragment, to mogę założyć, że tak, to przez cały ten czas działo się dokładnie to samo, teraz
-tylko szczegóły są nowe. A właściwie przecież już
-[wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
-niemal na samym początku, nawet szczegóły były dosyć podobne. Zgaduję jednak, że Twoje *wrażenie* na
-czym to polega może być tym razem w jakiś trudny do określenia sposób inne.
 
 Wróćmy już jednak do pierwszego diagramu.
 
