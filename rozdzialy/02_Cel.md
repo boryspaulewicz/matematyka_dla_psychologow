@@ -332,7 +332,8 @@ wydawnictwa, na podstawie ocen trzech do czterech osób, które uznały, z nikom
 że tekst można opublikować. Ewentualna krytyka, do której szczerze zachęcam, będzie musiała mieć
 również charakter *publiczny*.
 
-Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*.
+Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*. A mówiąc dokładniej, od matematyki na
+poziomie *szkoły podstawowej*.
 
 ### Przypisy
 
