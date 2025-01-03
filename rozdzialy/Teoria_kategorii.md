@@ -149,35 +149,45 @@ ale przecież również *mniej* ścisłe analogie bywają niezwykle użyteczne.
 Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **różnych rodzajach**
 *zgodności między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych
 albo bardziej elastycznych niż izomorfizmy rodzajach dopasowania między (formalnymi) językami albo
-opisami, można powiedzieć, że teoria kategorii to ogólna teoria **analogii między
-analogiami**. Genialny polski matematyk [Stefan Banach](https://pl.wikiquote.org/wiki/Stefan_Banach)
-powiedział kiedyś, że "dobry matematyk potrafi dostrzegać fakty, matematyk wybitny - analogie między
-faktami, zaś matematyk genialny - analogie między analogiami." Nie bez przesady można więc
-powiedzieć, że język teorii kategorii dostarcza *protezę matematycznej genialności*, której w
-dodatku możemy, oczywiście tylko do pewnego stopnia, używać *bezmyślnie*.
+opisami, można powiedzieć, że teoria kategorii to ogólna teoria **analogii między analogiami**. A
+teoria kategorii [*wyższego rzędu*](https://en.wikipedia.org/wiki/Higher_category_theory) to teoria
+analogii między analogiami między analogiami ... Genialny polski matematyk [Stefan
+Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział kiedyś, że "dobry matematyk potrafi
+dostrzegać fakty, matematyk wybitny - analogie między faktami, zaś matematyk genialny - analogie
+między analogiami." Nie bez przesady można więc powiedzieć, że język teorii kategorii dostarcza
+*protezę matematycznej genialności*, której w dodatku możemy, oczywiście tylko do pewnego stopnia,
+używać *bezmyślnie*.
 
 Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba się czasem pogodzić z
-*niemożliwością jasnego zrozumienia, co się w tym języku mówi*. Dlatego właśnie prywatnie i
+*niemożliwością jasnego zrozumienia, co się w tym języku mówi*. Tą cenę musimy do pewnego stopnia
+zapłacić być może dlatego, że chociaż teoria kategorii może być, i zwykle zresztą jest, rozumiana
+jako algebra [*funkcji matematycznych*](https://pl.wikipedia.org/wiki/Funkcja), to definicje pojęć,
+które można za jej pomocą wypowiedzieć, polegają często na charakteryzacji określonego rodzaju
+obiektów w kategoriach ich funkcji rozumianych jako *uniwersalne* albo w pewnym abstrakcyjnym sensie
+*najlepsze rozwiązywania pewnego rodzaju problemów*. Dlatego między innymi na własny użytek
 pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I kiedy mówię o nim, że
-jest jakby językiem aniołów, nie mówię tego wcale ironicznie. Nie jestem wierzący w żadnym prostym
-sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość dokładnie dzień i miejsce w którym to
-się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj nie istnieje, a to, o czym ludzie
-mówią w Kościele, to tak naprawdę Święty Mikołaj dla dorosłych. To był, przynajmniej subiektywnie,
-taki nagły wgląd i od tego czasu nigdy nie miałem nawet *cienia* wątpliwości, że "mam rację". Ale
-przecież, zwłaszcza w logice, której teraz używamy, tak samo jak w [testowaniu hipotez
+jest jakby językiem aniołów, nie mówię tego wcale ironicznie. 
+
+Nie jestem wierzący w żadnym prostym sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość
+dokładnie dzień i miejsce w którym to się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj
+nie istnieje, a to, o czym ludzie mówią w Kościele, to taki jakby [Święty
+Mikołaj](https://www.coca-colacompany.com/about-us/faq/did-coca-cola-invent-santa) dla
+"dorosłych". To był, przynajmniej subiektywnie, taki nagły wgląd i od tego czasu nigdy nie miałem
+nawet *cienia* wątpliwości, że "mam rację". Ale przecież, zwłaszcza w logice, której teraz używamy,
+tak samo jak w [testowaniu hipotez
 statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of evidence is *not*
 evidence of absence.
 
-Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, że "On" tak po prostu ma,
-że wie albo czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i czułem, co
-zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja" *to samo*
-czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na przykład smak
-soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć ([niczym
+Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, że "On" już tak po prostu
+ma, że wie a może raczej czuje, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i
+czułem, co zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja"
+*to samo* czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na
+przykład smak soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć czasem ([niczym
 niezasłużoną](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) przewagę, ale w
 innych, być może nawet najważniejszych sprawach jestem ([nie z własnej
 winy](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) bardziej *ułomny* niż
-ludzie, którzy są w tradycyjnym znaczeniu tego słowa wierzący. W drugiej części pokażę Ci nawet, jak
-można *sformalizować* to pojęcie "czegoś więcej" albo "ponad" jako pewien rodzaj uniwersalnej i
+ludzie, którzy są w tradycyjnym znaczeniu wierzący. W drugiej części pokażę Ci nawet, jak można
+*sformalizować* to pojęcie "czegoś więcej" albo "ponad" jako pewien rodzaj uniwersalnej i
 abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować wyjaśnić, o co w tym będzie
 chodziło, bo to pojęcie nie jest wcale oderwane od codziennego doświadczenia.
 
@@ -185,19 +195,37 @@ Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego"
 z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
 zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego programu, ponieważ jesteśmy
 *organizmami biologicznymi*, a dokładniej
-[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta). Nawet Lean tak naprawdę nie jest
-całkiem Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest,
-bo *nic* nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki
-sposób działasz "Ty" i w jaki sposób działa Lean i jak działają *wszystkie narzędzia i inne
+[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta), w dodatku takimi, które raczej
+
+<div align="center">[nie](tego słowa )</div>
+
+<div align="center">[mają](https://pl.wikipedia.org/wiki/Globalne_ocieplenie)</div>
+
+<div align="center">[prawa](https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases)</div>
+
+<div align="center">[twierdzić](https://en.wikipedia.org/wiki/Why_Most_Published_Research_Findings_Are_False)</div>
+
+<div align="center">[że](https://en.wikipedia.org/wiki/Crusades)</div>
+
+<div align="center">[są](https://en.wikipedia.org/wiki/List_of_genocides)</div>
+
+<div align="center">[lepsze](https://en.wikipedia.org/wiki/Donald_Trump)</div>
+
+<div align="center">[od](https://en.wikipedia.org/wiki/Gun_control)</div>
+
+[Wspaniałych Małp](https://en.wikipedia.org/wiki/Simian). Nawet Lean tak naprawdę nie jest całkiem
+Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic*
+nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób
+działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystkie narzędzia i inne
 [artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez* **wspólnotę** *ludzi*, jest
-jakby czymś w rodzaju "wektora" albo ... palca, który przybliżając coś (a dokładniej *rozwiązania*
+jakby czymś w rodzaju "wektora", albo ... palca, który przybliżając coś (a dokładniej *rozwiązania*
 pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że
 na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo
 Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. Niewątpliwie ma ten
 Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności wytworem wspólnoty i
 abstrakcyjnym ucieleśniem uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
-[Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć. Może
-więc Anzelm nie był wcale taki głupi, jak mi się zdawało ...
+[Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć,
+jeżeli tylko zmrużymy trochę oczy. Może więc Anzelm nie był wcale taki głupi, jak mi się zdawało ...
 
 Wracając do diagramu ...
 

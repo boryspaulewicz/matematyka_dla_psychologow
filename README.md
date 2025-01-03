@@ -116,7 +116,7 @@ tym [czym jest zachowanie](./rozdzialy/02_Cel.md).
 Akt pisania książki jest co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
 *w ramach którego*, dzięki stałej autorefleksji i informacjom zwrotnym pochodzącym od jej
-czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego - i
+czytelników, zachodzi proces *uczenia się* - choć nie da się powiedzieć jednoznacznie czego[^4] - i
 proces odkrywania czy raczej *ustalania się* być może jakiegoś *chwilowo dominującego*, ale nadal z
 konieczności *nieunikalnego celu*.
 
@@ -289,3 +289,8 @@ charakteru typu `Absurd` w rozdziale o negacji.
     nonsense*](https://en.wikipedia.org/wiki/Abstract_nonsense).
 
 [^3]: Napisałem, co myślę o tej konwencji, w przypisie do jednego z rozdziałów.
+
+[^4]: Tak naprawdę da się - pisanie ksiażki jest uczeniem *się* kolejnych, wirtualnych wersji
+    "siebie", a więc procesem *iteracyjnego w y k s z t a ł c e n i a (się)* w *dialogu* z
+    poprzednimi i przyszłymi wirtualnymi wersjami "siebie" - ale *wyraźnie*, to znaczy formalnie
+    powiemy sobie to najprawdopodobniej dopiero w drugiej części.
