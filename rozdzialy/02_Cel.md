@@ -59,7 +59,7 @@ w psychologii [podręcznika
 Hayesa](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html)
 dotyczącego [mediacji](https://link.springer.com/article/10.1007/s11121-011-0270-1), który wyrządził
 [ogromne szkody](https://journals.sagepub.com/doi/10.1177/25152459221095827) między innymi
-psychologii społecznej.
+[psychologii społecznej](https://pl.wikipedia.org/wiki/Psychologia_spo%C5%82eczna).
 
 Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
