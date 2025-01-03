@@ -40,9 +40,9 @@ to studentki, a nie studenci, będę się zwracał do czytelniczki. Mam jednak w
 wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Na wypadek, gdybym sprawiał
 czasem niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w ten sposób (i o
 takich sprawach), kiedy jeszcze byłem studentem, tylko wtedy oczywiście odpowiadałaby mi bardziej
-forma męska, chociaż żeńska też by mi wcale nie przeszkadzała. A poza tym piszę tą książkę również w
-pewnym sensie do obecnej i przyszłej psychologii, która jest przecież (abstrakcyjną, ale jednak)
-kobietą.
+forma męska, chociaż forma żeńska też by mi wcale nie przeszkadzała. A poza tym piszę tą książkę
+również w pewnym sensie do obecnej i przyszłej psychologii, która jest przecież (abstrakcyjną, ale
+jednak) kobietą.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
