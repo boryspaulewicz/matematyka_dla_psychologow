@@ -166,40 +166,40 @@ wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, pod
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
 
-[R6,5 = R0](./rozdzialy/Ewaluacja.md)
+[R6,5 = R00](./rozdzialy/Ewaluacja.md)
 
-[R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
+[R7 = R01 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
-[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
+[R8 = R02 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
 
-[R9 Kilka uwag na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
+[R9 = R03 Kilka uwag na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
 
-[R10 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
+[R10 = R04 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
 
-[R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
+[R11 = R05 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
-[R12 Duży kwantyfikator, predykaty, mały fragment całkowicie zmyślonego artykułu i dowód na
+[R12 = R06 Duży kwantyfikator, predykaty, mały fragment całkowicie zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/Duzy_predykaty_Bog.md)
 
-[R13 Duży kwantyfikator, predykaty i implikacja w
+[R13 = R07 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 
-[R14 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
+[R14 = R08 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+[R15 = R09 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
-[R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
+[R16 = R10 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
-[R17 ∧ 1](./rozdzialy/Koniunkcja_jako_para.md)
+[R17 = R11 ∧ 1](./rozdzialy/Koniunkcja_jako_para.md)
 
-[R18 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
+[R18 = R12 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
 Plac budowy
 
-[R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
+[R19 = R13 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
 
 Notatki całkiem już robocze, do których jednak można zaglądać:
 
