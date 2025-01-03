@@ -207,7 +207,7 @@ zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego progra
 
 <div align="center"><a href="https://en.wikipedia.org/wiki/Crusades">że</a></div>
 
-<div align="center"><a href="https://en.wikipedia.org/wiki/List_of_genocides">są</a></div>
+<div align="center"><a href="https://www.npr.org/2022/12/08/1141601301/the-myth-of-plastic-recycling">są</a></div>
 
 <div align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div>
 
