@@ -161,10 +161,10 @@ Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba s
 pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I kiedy mówię o nim, że
 jest jakby językiem aniołów, nie mówię tego wcale ironicznie. Nie jestem wierzący w żadnym prostym
 sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość dokładnie dzień i miejsce w którym to
-się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj nie istnieje, a to o czym ludzie
-mówią w Kościele, to tak naprawdę taki Święty Mikołaj dla dorosłych. To był, przynajmniej
-subiektywnie, taki nagły wgląd i od tego czasu nigdy nie miałem nawet *cienia* wątpliwości, że mam
-rację. Ale przecież, zwłaszcza w logice, której teraz używamy, tak samo jak w [testowaniu hipotez
+się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj nie istnieje, a to, o czym ludzie
+mówią w Kościele, to tak naprawdę Święty Mikołaj dla dorosłych. To był, przynajmniej subiektywnie,
+taki nagły wgląd i od tego czasu nigdy nie miałem nawet *cienia* wątpliwości, że mam rację. Ale
+przecież, zwłaszcza w logice, której teraz używamy, tak samo jak w [testowaniu hipotez
 statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of evidence is *not*
 evidence of absence.
 
