@@ -54,10 +54,10 @@ turysty](https://ksiegarnia.pwn.pl/Metodologia-i-statystyka-Przewodnik-naukowego
 który to podręcznik ukazał się niedawno, podobnie jak ten pierwszy, nakładem Wydawnictwa Naukowego
 PWN. Dotkniemy też kilka razy, posługując się w tym celu możliwie długim matematycznym kijem, bo to
 nie będzie najlepiej pachniało, [niezwykle
-wpływowy](https://scholar.google.com/scholar?cites=7187261083609918354&as_sdt=5,34&sciodt=0,34&hl=en)
-w psychologii [podręcznik
+wpływowego](https://scholar.google.com/scholar?cites=7187261083609918354&as_sdt=5,34&sciodt=0,34&hl=en)
+w psychologii [podręcznika
 Hayesa](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html)
-dotyczący [mediacji](https://link.springer.com/article/10.1007/s11121-011-0270-1), który wyrządził
+dotyczącego [mediacji](https://link.springer.com/article/10.1007/s11121-011-0270-1), który wyrządził
 [ogromne szkody](https://journals.sagepub.com/doi/10.1177/25152459221095827) między innymi
 psychologii społecznej.
 
