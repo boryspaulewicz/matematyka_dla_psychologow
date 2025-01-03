@@ -169,7 +169,7 @@ jest jakby językiem aniołów, nie mówię tego wcale ironicznie.
 
 Nie jestem wierzący w żadnym prostym sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość
 dokładnie dzień i miejsce w którym to się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj
-nie istnieje, a to, o czym ludzie mówią w Kościele, to taki jakby [Święty
+nie istnieje, a To, o czym ludzie mówią w Kościele, to taki jakby [Święty
 Mikołaj](https://www.coca-colacompany.com/about-us/faq/did-coca-cola-invent-santa) dla
 "dorosłych". To był, przynajmniej subiektywnie, taki nagły wgląd i od tego czasu nigdy nie miałem
 nawet *cienia* wątpliwości, że "mam rację". Ale przecież, zwłaszcza w logice, której teraz używamy,
