@@ -60,8 +60,8 @@ Naprawdę uważam, że zdolność do tymczasowego stłumienia potrzeby sensu byw
 czasami nawet nieodzowna w nauce matematyki. Od kilku lat prowadzę na Uniwersytecie Jagiellońskim
 dwusemestralny kurs dla doktorantów dotyczący wnioskowania przyczynowego i bayesowskiego. Bez
 przesady mogę powiedzieć, że na ten kurs trafiają nieodmiennie wymarzeni wprost studenci, tacy,
-którzy wydają mi się często autentycznie zainteresowani poszerzaniem swojej wiedzy. Prędzej czy
-później zaczynam na tym kursie mówić o [twierdzeniu
+którzy wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później
+zaczynam na tym kursie mówić o [twierdzeniu
 Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiadałem
