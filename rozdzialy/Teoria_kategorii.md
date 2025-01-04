@@ -233,12 +233,12 @@ tych zmianach *chodziło*. **Chodziło**, *czujesz*?
 A "Ty" czytając ten rozdział zaczęłaś w pewnym momencie przekształcać "siebie" w proces wykonujący
 (wystarczająco dobrze) zadanie rysowania według instrukcji i robiłaś też ze "sobą" różne inne rzeczy
 próbując jakoś "mnie" zrozumieć (za co "Ci" bardzo dziękuję). I to były też tego samego rodzaju
-kroki, polegające na tym, że zapisywałaś jakby w swojej *aktywnej pamięci* aplikacje "siebie", które
-to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco dobre przybliżenia pewnych
-funkcji, które coś *robiły*. Twój rysunek jest więc rezultatem kilku odległych fizycznie i fizycznie
-wyraźnie odrębnych, ale mimo tej odległości i fizycznej odrębności *funkcjonalnie splątanych
-procesów celowych*, bo przecież "ja" brałem w tym udział i "osoby", które odpowiedziały w
-międzyczasie na moje wezwanie też brały w tym
+kroki, polegające na tym, że zapisywałaś jakby w "swojej" *aktywnej pamięci* aplikacje "siebie",
+które to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco dobre przybliżenia
+pewnych funkcji, które coś *robiły*. (pozornie) "Twój" rysunek jest więc rezultatem kilku odległych
+fizycznie i fizycznie wyraźnie odrębnych, ale mimo tej odległości i fizycznej odrębności
+*funkcjonalnie splątanych procesów celowych*, bo przecież "ja" brałem w tym udział i "osoby", które
+odpowiedziały w międzyczasie na moje wezwanie też brały w tym
 ["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)), i to już było dosyć mocno
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle *nie sama*)
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
