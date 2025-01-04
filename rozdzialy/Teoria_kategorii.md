@@ -202,7 +202,7 @@ sposób działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystki
 jakby czymś w rodzaju "wektora", albo ... palca, który przybliżając coś (a dokładniej *rozwiązania*
 pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że
 na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo
-Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. 
+Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego działania*.
 
 Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
 wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
