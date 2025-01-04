@@ -8,8 +8,9 @@ W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakie
 żeby ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
 właściwie kilku, a tak naprawdę będziemy potrzebowali kilku *diagramów*.
 
-**Polecenie**: Przygotuj czystą kartkę papieru i długopis albo cokolwiek innego do pisania. Może
-najlepiej kartkę formatu A4. Połóż ją poziomo. Zaczniemy w lewym górnym rogu.
+**Polecenie**: Przygotuj czystą kartkę papieru i długopis, albo cokolwiek innego do pisania. Może
+najlepiej kartkę formatu *A4*, ale nie warto się przy tym upierać. Jeżeli masz kartkę formatu *A4*,
+to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
 
 1. Zapisz literę *A*, a zaraz *po prawej* od niej małe
    [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o) (nie
