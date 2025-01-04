@@ -501,8 +501,8 @@ niejawnie zmienne do kontekstu) tylko dwie hipotezy o postaci równości, to jes
 szybko znajdziesz rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach
 kwadratowych trzeba będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim
 argumentem, ale ten łatwo już wtedy znajdziesz. Zwróć proszę uwagę, że będziesz (znowu!) konstuować
-dowód jakby "od tyłu", albo od końca, *przekształcając cel* tak, żeby *zbliżył się do czegoś, co
-masz w kontekście*.
+dowód jakby "od tyłu", albo od końca, *przekształcając cel* tak, żeby *zbliżył się do czegoś, co już
+masz udowodnione albo założone* (tutaj akurat co masz w kontekście).
 
 **Sugestia**: Dokończ ten dowód w trybie interaktywnym używając najpierw (raz) taktyki `rw`, a potem
 (raz) taktyki `exact`.
