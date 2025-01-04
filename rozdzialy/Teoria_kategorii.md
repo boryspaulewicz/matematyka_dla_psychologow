@@ -194,7 +194,7 @@ Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego"
 z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
 zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego programu, ponieważ jesteśmy
 *organizmami biologicznymi*, a dokładniej
-[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta). Nawet Lean tak naprawdę nie jest
+[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nawet Lean tak naprawdę nie jest
 całkiem Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest,
 bo *nic* nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki
 sposób działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystkie narzędzia i inne
@@ -415,3 +415,20 @@ variable (h2 : c = d)
 example : a = d :=
     calc
 ```
+
+### Przypisy
+
+[^1]: A dokładaniej zwierzętami, które raczej <div align="center"><a
+    href="https://pl.wikipedia.org/wiki/Zag%C5%82ada_%C5%BByd%C3%B3w">nie</a></div><br><div
+    align="center"><a
+    href="https://pl.wikipedia.org/wiki/Globalne_ocieplenie">mają</a></div><br><div
+    align="center"><a href="https://en.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases">
+    prawa</a></div><br><div align="center"><a
+    href="https://en.wikipedia.org/wiki/Why_Most_Published_Research_Findings_Are_False">twierdzić</a></div><br><div
+    align="center"><a href="https://en.wikipedia.org/wiki/Crusades">że</a></div><br><div
+    align="center"><a
+    href="https://www.npr.org/2022/12/08/1141601301/the-myth-of-plastic-recycling">są</a></div><br><div
+    align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div><br><div
+    align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div><br> [Wspaniałych
+    Małp](https://en.wikipedia.org/wiki/Simian)
+
