@@ -1,3 +1,7 @@
+## O czym teraz będzie
+
+Akurat w tym wypadku nie chcę psuć ewentualnej niespodzianki.
+
 # Nie ma to jak rysowanie
 
 W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam ważny powód,
