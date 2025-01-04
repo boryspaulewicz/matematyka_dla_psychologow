@@ -487,9 +487,9 @@ example : a = d :=
 
 Teraz zrobimy jeszcze dowód tego samego zdania co poprzednio, korzystając z tych samych założeń, ale
 użyjemy *taktyki* `rw`. To skrót od angielskiego `rewrite`, czyli *przepisz*, co dla nas będzie
-znaczyło raczej *zastąp*, bo ja wolę w ten sposób ostatnio myśleć o równości. Taktyka `rw` jest
-dosyć elastyczna i pozwala na różnego rodzaju operacje polegające na zastępowaniu wyrażeń przez
-równe (czyli wzajemnie zastępowalne) wyrażenia, ale tym razem nie będziemy korzystać z tych bardziej
+znaczyło raczej *zastąp*, bo wolę w ten sposób ostatnio myśleć o równości. Taktyka `rw` jest dosyć
+elastyczna i pozwala na różnego rodzaju operacje, polegające na zastępowaniu wyrażeń przez równe
+(czyli wzajemnie zastępowalne) wyrażenia, ale tym razem nie będziemy korzystać z tych bardziej
 skomplikowanych wariantów.
 
 Instrukja `rw [nazwa_dowodu_rownosci]`, gdzie `nazwa_dowodu_rownosci` to jakaś globalna stała lub
