@@ -285,7 +285,7 @@ trzeciego](02_Cel.md), w którym mówiłem o tym, co będzie w planowanej drugie
 między innymi o rachunkach prawdopodobieństwa i przyczynowym. Rachunek przyczynowy, o którym tam
 mówię, to tak zwany [przyczynowy model strukturaly](https://en.wikipedia.org/wiki/Causal_model) (nie
 mylić z bardziej wyspecjalizowanym i niemal bezużytecznym [modelowaniem równań
-sstrukturalnych](https://en.wikipedia.org/wiki/Structural_equation_modeling)) Pearla (jest jeszcze
+strukturalnych](https://en.wikipedia.org/wiki/Structural_equation_modeling)) Pearla (jest jeszcze
 równoważna teorii Pearla teoria [Neymana-Rubina](https://en.wikipedia.org/wiki/Rubin_causal_model)
 \{tak, tego Jerzego von Neymana\}, ale z niej nie będziemy korzystać, bo moim i nie tylko moim
 zdaniem nie warto). W teorii Pearla założenia na temat relacji przyczynowych są wyrażone jako pewne
