@@ -300,11 +300,10 @@ zmienić wartość takiej zmiennej, która *nie pełni tylko roli zaimka* i zami
 rodzaju (nazwanego miejsca w) *pamięci*. Wystarczy jednak *dodać* do teorii typów operację
 przypisania, żeby natychmiast uzyskać ogólną teorię przyczynowości, która będzie wtedy jeszcze co
 prawda pozbawiona części stochastycznej albo probabilistycznej obecnej w teorii Pearla, ale ta część
-jest tylko ["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theory-of-causality/) do
-rachunków interwencyjnego i kontrfaktycznego ze względów *praktycznych*. Mówię tam zresztą również o
-Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których spróbuję Cię
-stopniowo przygotować).
-<hr>
+jest ["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theory-of-causality/) do
+rachunków interwencyjnego i kontrfaktycznego *tylko* ze względów *praktycznych*. Mówię tam zresztą
+również o Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których
+spróbuję Cię stopniowo przygotować).  <hr>
 
 Wracając do diagramu.
 
