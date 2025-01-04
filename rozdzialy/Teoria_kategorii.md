@@ -493,18 +493,19 @@ elastyczna i pozwala na różnego rodzaju operacje, polegające na zastępowaniu
 skomplikowanych wariantów.
 
 Instrukja `rw [nazwa_dowodu_rownosci]`, gdzie `nazwa_dowodu_rownosci` to jakaś globalna stała lub
-zmienna występująca w kontekście, będąca, cóż, nazwą dowodu jakiejś równości o postaci
+zmienna występująca w kontekście, będąca, cóż, nazwą dowodu jakiejś równości, o postaci
 `nazwa_dowodu_rownosci : lewe_wyrazenie = prawe_wyrazenie`, powoduje *zmianę celu*, polegającą na
-tym, że `lewe_wyrazenie` występujące w celu jest zastąpione przez `prawe_wyrazenie`. W tym przypadku
-będziesz mieć do wyboru w Twoim kontekście (a nie globalnie, bo `variable` dodaje niejawnie zmienne
-do kontekstu) tylko dwie hipotezy o postaci równości, to jest `h1` i `h2`, więc szybko znajdziesz
-rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach kwadratowych trzeba
-będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim argumentem, ale ten
-znajdziesz od razu bez trudu. Zwróć proszę uwagę, że tym razem konstruujesz dowód jakby "od tyłu",
-albo od końca, przekształcając cel tak, żeby zbliżył się do tego, co masz w kontekście.
+tym, że `lewe_wyrazenie` występujące *w celu* jest zastępowane przez `prawe_wyrazenie`. W tym
+przypadku będziesz mieć do wyboru w kontekście (a nie globalnie, bo `variable` tak naprawdę dodaje
+niejawnie zmienne do kontekstu) tylko dwie hipotezy o postaci równości, to jest `h1` i `h2`, więc
+szybko znajdziesz rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach
+kwadratowych trzeba będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim
+argumentem, ale ten łatwo już wtedy znajdziesz. Zwróć proszę uwagę, że będziesz (znowu!) konstuować
+dowód jakby "od tyłu", albo od końca, *przekształcając cel* tak, żeby *zbliżył się do czegoś, co
+masz w kontekście*.
 
-**Sugestia**: Dokończ ten dowód w trybie interaktywnym używając najpierw raz taktyki `rw`, a potem
-raz taktyki `exact`.
+**Sugestia**: Dokończ ten dowód w trybie interaktywnym używając najpierw (raz) taktyki `rw`, a potem
+(raz) taktyki `exact`.
 
 ```lean
 -- Jeżeli deklaracje tych zmiennych są już u Ciebie wklejone do Leana, to nie kopiuj tego
