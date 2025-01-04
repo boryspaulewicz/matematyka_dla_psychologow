@@ -310,4 +310,4 @@ formy żeńskiej.
 [^4]: Tak naprawdę da się - pisanie ksiażki jest uczeniem *się* kolejnych, wirtualnych wersji
     "siebie", a więc procesem *iteracyjnego wykształcenia (nomen omen \{się\})* w *dialogu* z
     poprzednimi i przyszłymi wirtualnymi wersjami ("siebie") - ale *wyraźnie*, to jest formalnie
-    powiemy sobie to najprawdopodobniej dopiero w drugiej części.
+    powiemy to najprawdopodobniej dopiero w drugiej części.
