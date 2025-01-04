@@ -225,7 +225,10 @@ zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne po�
 *krok za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając różne rzeczy,
 przerywając i robiąc coś innego, napisałem tyle, że zwróciłem się z prośbą do moich "subskrybentów",
 żeby spróbowali ten rozdział przetestować. Zresztą zanim napisałem *to* zdanie zdążyłem już dostać
-kilka wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, które poprzedzają ten akapit.
+kilka wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, takie które poprzedzają ten
+akapit i takie które następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie
+*pisałem do "siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami mówiącymi krótko o co
+w tych zmianach *chodziło*.
 
 A "Ty" czytając ten rozdział zaczęłaś w pewnym momencie przekształcać "siebie" w proces wykonujący
 (wystarczająco dobrze) zadanie rysowania według instrukcji i robiłaś też ze "sobą" różne inne rzeczy
@@ -299,7 +302,6 @@ Byłbym zapomniał, a to jest przecież ważne. Wróćmy na chwilę do drugiego 
    wymagania kategorii), *to są więc takie* **rysunkowe zmienne**, *i tak samo zmiennymi są również
    wszystkie strzałki* (chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli i
    staną się przez to *stałymi*).
-
 
 Wróćmy już jednak do pierwszego diagramu.
 
