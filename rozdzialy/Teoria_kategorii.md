@@ -206,7 +206,7 @@ Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego dzia
 
 Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
 wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
-uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
+uniwersalnego pojęcia Oceny, to coś z Ἠθος-u (i
 [Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć
 (jeżeli tylko przymrużymy trochę jedno
 [oko](https://www.goodreads.com/quotes/7169-the-eye-through-which-i-see-god-is-the-same)). Może więc
