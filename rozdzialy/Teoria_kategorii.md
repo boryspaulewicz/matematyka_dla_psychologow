@@ -540,8 +540,8 @@ tym wypadku nie musimy jednak podawać tego typu jawnie, ponieważ ...
 
 ```lean
 -- ... definicja Eq.trans korzysta z tak zwanych parametrów domyślnych albo niejawnych, które
--- poznajemy po tym, że są otoczone nawiasami klamrowymi. Lean sam się wywnioskowuje, jakie powinny
--- być wartości takich parametrów (kiedy może to wywnioskować).
+-- poznajemy po tym, że są otoczone nawiasami klamrowymi. Lean sam wywnioskowuje, jakie powinny
+-- być wartości takich parametrów (o ile będzie mógł to wywnioskować).
 --
 -- Jak widać poniżej, żeby uzyskać dowód, jawnie trzeba podać tylko dwie hipotezy. Uwaga - to
 -- *nie* muszą być hipotezy zdań a = b i b = c, bo *tutaj* a, b i c to *parametry*. To mogą więc
