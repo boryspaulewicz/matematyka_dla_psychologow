@@ -416,13 +416,12 @@ fałszywości). A mówiąc możliwie najkrócej:
 
 *To, co jest równe, jest wszędzie zastępowalne*.
 
-Będziesz miała teraz okazję *doświadczyć* teraz tej (jedynej) *roli* założeń o równości, konstruując
-proste dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich nazwy,
-skonstruujemy *dowód anonimowy*, używając do tego celu słowa kluczowego `example`, które działa tak
-samo jak `theorem`, ale nie służy do definiowania żadnej nowej stałej. Będziemy też korzystać z
-trzech, bliżej nieokreślonych liczb naturalnych, `a`, `b` i `c`, o których założymy, że `a = b` i `b
-= c`, i o których udowodnimy, że `a = c`. W zwykłej książce do matematyki taki dowód mógłby wyglądać
-tak ...
+Będziesz miała teraz okazję *doświadczyć* tej *jedynej roli* założeń o równości, konstruując proste
+dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich nazwy, skonstruujemy
+*dowód anonimowy*, używając do tego celu słowa kluczowego `example`, które działa tak samo jak
+`theorem`, ale nie służy do definiowania nowych stałych. Będziemy też korzystać z trzech, bliżej
+nieokreślonych liczb naturalnych, `a`, `b` i `c`, o których założymy, że `a = b` i `b = c`, i o
+których udowodnimy, że `a = c`. W zwykłej książce do matematyki taki dowód mógłby wyglądać tak ...
 
 $a = b = c$
 
