@@ -525,7 +525,7 @@ porozmawiamy kiedy indziej.
 Został nam jeszcze jeden ważny sposób skonstruowania tego samego dowodu. Ten dowód nie będzie
 *wyglądał* tak samo, ale dla Leana wszystkie dowody tego samego zdania są *takie same*, to jest
 wzajemnie zastępowalne, bo w Leanie obowiązuje zasada nieważności (struktury) dowodu, która nazywa
-się po angielsku proof irrelevance (i o której już wspominałem więcej niż raz, ale przecież
+się po angielsku *proof irrelevance* (i o której już wspominałem więcej niż raz, ale przecież
 [repetitio est mater studiorum](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(R))).
 
 Skorzystamy teraz ze stałej `Eq.trans`, która oznacza dowód *przechodniości* równości (*trans* to
