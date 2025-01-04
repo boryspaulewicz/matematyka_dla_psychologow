@@ -442,8 +442,8 @@ samych strzałek i punktów, które zawsze* (o tym jeszcze nie mówiłem) *są �
 strzałek*. Czyli w naszym świecie *nie ma* punktów które nie są w ogóle "strzałkowe". A nie ma w tym
 świecie żadnych punktów, które nie są ani źródłem ani celem żadnej strzałki, bo *jedyne*, do czego w
 tej teorii służą punkty, to *ograniczanie możliwości składania*. A więc te punkty są *tylko* po to,
-żeby można było elastycznie określać sposób, w jaki dokładnie operacja składania jest wybredna (w
-różnych sytuacjach).
+żeby można było elastycznie określać sposób, w jaki dokładnie sposób operacja składania jest
+wybredna (w różnych sytuacjach). Czyli to są *tylko* takie *punkty zaczepienia* (strzałek).
 
 ## Równość (Wolność i Braterstwo)
 
