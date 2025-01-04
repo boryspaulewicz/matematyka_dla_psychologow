@@ -134,10 +134,10 @@ tylko tak brzmi, chodzi mi o coś najzwyczajniejszego w świecie (ludzi).
 I co Ty na to? Właściwie dosyć zwyczajna (prawie) rozmowa, a jednocześnie nie taka całkiem
 zwyczajna, prawda?  Właściwie nie różni się to *niczym* od *każdej innej rozmowy*, ani od wszystkich
 moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać, że będziesz w
-określony sposób ze mną *współpracować*, a w każdym razie miałem przez cały ten czas taką
-nadzieję. Jeżeli więc tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten
-fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz
-tylko szczegóły są nowe. A właściwie przecież już
+określony sposób ze mną *współpracować*, a dokładniej *współ-działać*, a w każdym razie miałem przez
+cały ten czas taką nadzieję. Jeżeli więc tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a
+skoro czytasz ten fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy
+dokładnie to samo, teraz tylko szczegóły są nowe. A właściwie przecież już
 [wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
 niemal na samym początku, nawet szczegóły były w zasadzie takie same.
 
