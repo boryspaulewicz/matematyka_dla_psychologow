@@ -5,8 +5,8 @@ matematyki jest *precyzyjny*, jednak w matematyce mówimy czasami równie¿ *celowo
 tyle, ¿e ta nieprecyzyjno¶æ jest wtedy *pod kontrol±*. Na przyk³ad, mo¿emy wyraziæ wprost w
 matematyce zdanie, ¿e jaka¶ wielko¶æ znajduje siê w jakim¶ szerokim interwale, albo ¿e jest bardziej
 lub mniej prawdopodobna. W matematyce mówimy te¿ czasem *celowo wieloznacznie*. My na przyk³ad od
-d³u¿szego ju¿ czasu celowo zacieramy ró¿nice miêdzy miêdzy miêdzy funkcjami i implikacjami, a
-ogólnie miêdzy programowaniem i matematyk±.
+d³u¿szego ju¿ czasu celowo zacieramy ró¿nice miêdzy funkcjami i implikacjami, a ogólnie miêdzy
+programowaniem i matematyk±.
 
 Co zatem wyró¿nia jêzyk matematyki, poza *relatywn± sztuczno¶ci±*, która nie wydaje siê taka
 istotna? Sam do koñca nie wiem, ale gdybym mia³ zgadywaæ, powiedzia³bym, ¿e jest to przede wszystkim

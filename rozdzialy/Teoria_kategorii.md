@@ -96,26 +96,31 @@ jednocześnie również *inny ułamek*. Kiedy więc posługujemy się "językiem
 (a tak naprawdę takie samo), ale kiedy posługujemy się "językiem ułamkowym" to nie jest to samo (ani
 tym bardziej takie samo).
 
-A skoro teraz to *Ty* masz operować symbolami, podstawiać i dokonywać ewaluacji, odtąd to **"Ty"
-jesteś funkcją** *i to jest teraz* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako
-funkcji**. *To całkiem dosłownie* **"Twój" kontekst**, *ponieważ to jest teraz część* **fragmentu
-środowiska fizycznego**, *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony
-od reszty świata żadną ścisłą i nieprzepuszczalną granicą, jest jednak dla "Ciebie" szczególnie
-ważną częścią środowiska, bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego
-stopnia - "Tobą", zależnie od punktu widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo
-kontrolowalną część środowiska nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która*
-**pełni teraz rolę kontekstu "Ciebie" jako pewnej funkcji** *nazywasz "Twoją"* **pamięcią**.
+A skoro niebawem to *Ty* będziesz miała operować symbolami, podstawiając i dokonując ewaluacji, to
+**"Ty" będziesz funkcją**. Jeżeli chodzi o te symbole narysowane na kartce, to dopiero zaczynasz się
+przekształcać w funkcję, która będzie te symbole traktowała jak by były nazwami zmiennych. *To
+będzie wtedy* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. *To całkiem dosłownie,
+bo fizycznie* (i zarazem *funkcjonalnie*, ale w innym znaczeniu słowa "funkcja") *będzie* **"Twój"
+kontekst**, *ponieważ to będzie część* **fragmentu środowiska fizycznego**, *który, chociaż się
+nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną ścisłą i
+nieprzepuszczalną granicą, jest jednak dla "Ciebie" szczególnie ważną częścią środowiska, bo jest
+zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą", zależnie od punktu
+widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część środowiska
+nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz rolę kontekstu
+"Ciebie" jako pewnej** (jeszcze innej) **funkcji** *nazywasz "Twoją"* **pamięcią**.
 
 *Tak się też przy okazji składa, że używasz lokalnego* (dla "Ciebie") *fragmentu środowiska
 zewnętrznego* (to jest kartki w formacie A4), *żeby pomóc "swojej" pamięci korzystając z rysunku,
 ale ten rysunek ma dla "Ciebie"* **sens** *tylko dzięki temu, że* **pamiętasz, co oznacza**, *czyli
-pamiętasz co można, a czego (zachowując sens) nie można z nim zrobić. Rzeczywisty kontekst znajduje
-się więc w "Twoim" ciele, a rysunek to tylko "tymczasowa proteza" albo "zewnętrzne rusztowanie"*.
+przede wszystkim pamiętasz co można, a czego (zachowując sens) nie można z nim zrobić. Rzeczywisty
+kontekst znajduje się więc w "Twoim" ciele, a rysunek to tylko "tymczasowa proteza" albo "zewnętrzne
+rusztowanie"*.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo tworząc ten rysunek i stosując zaproponowany
-przeze mnie język opisu "*sama*" sprawiłaś, że to się już *stało*. A stało się to dzięki temu, że w
-ramach tej **naszej** jakby rozmowy pozwoliłaś "mi" "siebie" w pewien sposób *zaprogramować*. Nie
-obraź się proszę, to tylko tak brzmi.
+przeze mnie język opisu "*sama*" sprawiłaś, że to się już *wielokrotnie stało*. A stało się to
+dzięki temu, że w ramach tej **naszej** jakby rozmowy pozwoliłaś "mi" "siebie" w pewien sposób
+*zaprogramować*. Nie obraź się proszę, to tylko tak brzmi, chodzi mi o coś najzwyczajniejszego w
+świecie (ludzi).
 
 I co Ty na to? Niby zwyczajna (prawie) rozmowa, a jednocześnie nie taka całkiem zwyczajna, prawda?
 Właściwie nie różni się to *niczym* od *każdej innej rozmowy* ani od wszystkich moich wcześniejszych
@@ -143,7 +148,7 @@ już częściowo opanowałaś, został stworzony właśnie po to, żeby formalni
 kontrolowany i mechanicznie sprawdzalny, operować najróżniejszymi pasującymi do siebie punktami
 widzenia. Do tej pory mówiłem wprost o tylko jednym, bardzo ważnym rodzaju takiego dopasowania, to
 jest o zachowujących strukturę izomorfizmach. A jak już wiesz, izomorfizmy to takie ścisłe analogie,
-ale przecież również *mniej* ścisłe analogie bywają niezwykle użyteczne.
+ale przecież również *mniej* ścisłe analogie bywają, czasem nawet bardziej, użyteczne.
 
 Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **różnych rodzajach**
 *zgodności między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych
@@ -154,18 +159,18 @@ analogii między analogiami między analogiami ... Genialny polski matematyk [St
 Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział kiedyś, że "dobry matematyk potrafi
 dostrzegać fakty, matematyk wybitny - analogie między faktami, zaś matematyk genialny - analogie
 między analogiami." Nie bez przesady można więc powiedzieć, że język teorii kategorii dostarcza
-*protezę matematycznej genialności*, której w dodatku możemy, oczywiście tylko do pewnego stopnia,
-używać *bezmyślnie*.
+*protezę matematycznej genialności*, której w dodatku możemy, oczywiście tylko w pewnych sytuacjach,
+używać stosunkowo *bezmyślnie*.
 
 Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba się czasem pogodzić z
-*niemożliwością jasnego zrozumienia, co się w tym języku mówi*. Tą cenę musimy do pewnego stopnia
+*trudnościami w jasnym zrozumieniu, co się w tym języku mówi*. Tą cenę musimy do pewnego stopnia
 zapłacić być może dlatego, że chociaż teoria kategorii może być, i zwykle zresztą jest, rozumiana
 jako algebra [*funkcji matematycznych*](https://pl.wikipedia.org/wiki/Funkcja), to definicje pojęć,
 które można za jej pomocą wypowiedzieć, polegają często na charakteryzacji określonego rodzaju
 obiektów w kategoriach ich funkcji rozumianych jako *uniwersalne* albo w pewnym abstrakcyjnym sensie
 *najlepsze rozwiązywania pewnego rodzaju problemów*. Dlatego między innymi na własny użytek
 pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I kiedy mówię o nim, że
-jest jakby językiem aniołów, nie mówię tego wcale ironicznie. 
+jest jakby językiem aniołów, nie mówię tego wcale ironicznie.
 
 Nie jestem wierzący w żadnym prostym sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość
 dokładnie dzień i miejsce w którym to się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj
@@ -181,7 +186,7 @@ Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, 
 ma, że wie, a może raczej *czuje*, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i
 czułem, co zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja"
 *to samo* czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na
-przykład smak soli. A to by oznaczało, że w pewnych sytuacjach mogę mieć czasem ([niczym
+przykład smak soli. A to by oznaczało, że w pewnych sprawach mogę mieć ([niczym
 niezasłużoną](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) przewagę, ale w
 innych, być może nawet najważniejszych sprawach jestem ([nie z własnej
 winy](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) bardziej *ułomny* niż
@@ -218,7 +223,7 @@ właściwie powiedzieć, co *się* stało, tak: "Ja" wpadłem w pewnym momencie 
 fragment tego rozdziału jako serię instrukcji dotyczących rysowania i notatek. Stworzyłem aplikację
 "siebie" do pewnych argumentów, które zapisałem w "swojej" pamięci i poprzez ewaluację - będącą
 jakby przejściem między dwiema chwilowymi wersjami "siebie" - tej aplikacji przekształciłem "się"
-([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)) albo może raczej
+([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)), albo może raczej
 [*wykształciłem*](https://pl.wikipedia.org/wiki/Wykszta%C5%82cenie) w taką wersję "siebie", która
 [*wystarczająco dobrze*](https://en.wikipedia.org/wiki/Satisficing), bo skutecznie wykonała zadanie
 zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne pośrednie kroki) i tak
@@ -228,17 +233,23 @@ przerywając i robiąc coś innego, napisałem tyle, że zwróciłem się z pro�
 wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, takie które poprzedzają ten akapit i
 takie, które następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie *pisałem do
 "siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami, mówiącymi ("mi") krótko, o co w
-tych zmianach *chodziło*. **Chodziło**, *czujesz*?
+tych zmianach *chodziło*. **Chodziło**, *czujesz*? Wszyscy jesteśmy wspaniałymi, działającymi
+biologicznie, wielorako ze sobą splątanymi *prawie programami*, które nieustannie *prawie programują
+siebie samych i siebie nawzajem*, tworząc ciągle następne, nowe *wersje nas*.
 
-A "Ty", czytając ten rozdział, zaczęłaś w pewnym momencie przekształcać "siebie" w proces wykonujący
-(wystarczająco dobrze) zadanie rysowania według instrukcji i robiłaś też ze "sobą" różne inne
-rzeczy, próbując jakoś "mnie" zrozumieć (za co "Ci" bardzo dziękuję). I to były też tego samego
-rodzaju kroki, polegające na tym, że zapisywałaś jakby w "swojej" *aktywnej pamięci* aplikacje
-"siebie", które to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco dobre
-przybliżenia pewnych funkcji, które coś *robiły*. (pozornie) "Twój" rysunek jest więc rezultatem
-kilku odległych fizycznie i fizycznie wyraźnie odrębnych, ale mimo tej odległości i fizycznej
-odrębności *funkcjonalnie splątanych procesów celowych*, bo przecież "ja" brałem w tym udział i
-"osoby", które odpowiedziały w międzyczasie na moje wezwanie też brały w tym
+To taki wspólny spacer.
+
+Na przykład "Ty", czytając ten rozdział, zaczęłaś w pewnym momencie przekształcać "siebie" w proces
+wykonujący (wystarczająco dobrze) zadanie rysowania według "moich" instrukcji i robiłaś też ze
+"sobą" różne inne rzeczy, próbując jakoś "mnie" zrozumieć (za co "Ci" bardzo dziękuję). I to były
+też tego samego rodzaju kroki, polegające na tym, że zapisywałaś jakby w "swojej" *aktywnej pamięci*
+aplikacje "siebie", które to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco
+dobre przybliżenia pewnych funkcji, które coś *robiły*. Pozornie "Twój" rysunek jest więc rezultatem
+kilku odległych fizycznie i fizycznie wyraźnie odrębnych procesów, ale przecież te procesy nie były
+i nie są tak naprawdę fizycznie całkiem oddzielone, bo gdyby były, nie mogłabyś "mnie" czytać. Mimo
+odległości i częściowej fizycznej odrębności, ten rysunek jednak powstał i to było możliwe tylko
+dzięki licznym *funkcjonalnie splątanym procesom celowym*, bo przecież *między innymi* "ja" brałem w
+tym udział i "osoby", które odpowiedziały w międzyczasie na moje wezwanie, też brały w tym
 ["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)), i to już było dosyć mocno
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle *nie sama*)
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
