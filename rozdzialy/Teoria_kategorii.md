@@ -278,6 +278,33 @@ częściowej fizycznej odrębności, ten rysunek jednak powstał i to było moż
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle *nie sama*)
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
 
+### Ten wybiegający w przyszłość fragment jest przeznaczony raczej dla "prawie-ekspertów"
+
+Jeżeli masz ochotę, może warto teraz rzucić "nowym okiem" na zawartość [rozdziału
+trzeciego](02_Cel.md), w którym mówiłem o tym, co będzie w planowanej drugiej części. Wspominam tam
+między innymi o rachunkach prawdopodobieństwa i przyczynowym. Rachunek przyczynowy, o którym tam
+mówię, to tak zwany [przyczynowy model strukturaly](https://en.wikipedia.org/wiki/Causal_model) (nie
+mylić z bardziej wyspecjalizowanym i niemal bezużytecznym [modelowaniem równań
+sstrukturalnych](https://en.wikipedia.org/wiki/Structural_equation_modeling)) Pearla (jest jeszcze
+równoważna teorii Pearla teoria [Neymana-Rubina](https://en.wikipedia.org/wiki/Rubin_causal_model)
+\{tak, tego Jerzego von Neymana\}, ale z niej nie będziemy korzystać, bo moim i nie tylko moim
+zdaniem nie warto). W teorii Pearla założenia na temat relacji przyczynowych są wyrażone jako pewne
+*funkcje*, w dodatku takie, które mają być, przynajmniej potencjalnie, *zrealizowane przez* pewne
+*procesy fizyczne*. A to oznacza, że funkcje strukturalne w teorii Pearla muszą być [*funkcjami
+obliczalnymi*](https://pl.wikipedia.org/wiki/Funkcja_obliczalna)[^2].
+
+Tak się dobrze dla nas składa, że teoria typów jest *ogólną teorią funkcji obliczalnych*, jednak
+teoria typów jako taka *nie* jest jeszcze równoważna teorii Pearla, ponieważ w teorii typów *nie ma
+[operacji przypisania](https://pl.wikipedia.org/wiki/Przypisanie)*, to jest operacji, która może
+zmienić wartość takiej zmiennej, która *nie pełni tylko roli zaimka* i zamiast tego jest czymś w
+rodzaju (nazwanego miejsca w) *pamięci*. Wystarczy jednak *dodać* do teorii typów operację
+przypisania, żeby natychmiast uzyskać ogólną teorię przyczynowości, która będzie wtedy jeszcze co
+prawda pozbawiona części stochastycznej albo probabilistycznej obecnej w teorii Pearla, ale ta część
+jest tylko ["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theory-of-causality/) do
+rachunków interwencyjnego i kontrfaktycznego ze względów *praktycznych*. Mówię tam zresztą również o
+Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których spróbuję Cię
+stopniowo przygotować).
+
 Wracając do diagramu.
 
 Przydadzą nam się jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka` (na Twoim rysunku akurat
@@ -593,3 +620,5 @@ example : a = c :=
     align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div><br> [Wspaniałych
     Małp](https://en.wikipedia.org/wiki/Simian)
 
+[^2]: Nawiasem, albo raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
+    [tweeta](https://x.com/BRSLWP/status/1863200684859908573), którego zresztą Pearl szybko polubił.
