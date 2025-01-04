@@ -59,7 +59,7 @@ pojawi. Żeby to wykluczyć, musielibyśmy albo udowodnić, albo założyć, że
 
 W tym momencie, albo już wcześniej, mogła Ci się pojawić wątpliwość, że przecież punkty `A` i `C`
 *nie nachodzą na siebie na rysunku*, a więc *nie może być tak*, że `A` i `C` są tym samym *punktem*,
-a więc to są *różne punkty*. I myśląc tak miałabyś rację!
+a więc *to są różne punkty*. I myśląc tak miałabyś rację!
 
 Rysunek *sugeruje* tutaj, że `A`, `B` i `C` to *różne punkty* i że `f` i `g` to *różne strzałki* i
 to faktycznie *są* różne punkty i różne strzałki *na tym rysunku*, ale *tym razem* **to nie jest kod
