@@ -224,11 +224,11 @@ jakby przejściem między dwiema chwilowymi wersjami "siebie" - tej aplikacji pr
 zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne pośrednie kroki) i tak
 *krok za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając różne rzeczy,
 przerywając i robiąc coś innego, napisałem tyle, że zwróciłem się z prośbą do moich "subskrybentów",
-żeby spróbowali ten rozdział przetestować. Zanim napisałem *to* zdanie zdążyłem już dostać kilka
+żeby spróbowali ten rozdział przetestować. Zanim napisałem *to* zdanie, zdążyłem już dostać kilka
 wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, takie które poprzedzają ten akapit i
 takie, które następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie *pisałem do
-"siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami mówiącymi krótko o co w tych
-zmianach *chodziło*.
+"siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami, mówiącymi ("mi") krótko o co w
+tych zmianach *chodziło*.
 
 A "Ty" czytając ten rozdział zaczęłaś w pewnym momencie przekształcać "siebie" w proces wykonujący
 (wystarczająco dobrze) zadanie rysowania według instrukcji i robiłaś też ze "sobą" różne inne rzeczy
