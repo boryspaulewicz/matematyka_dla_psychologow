@@ -544,10 +544,10 @@ tym wypadku nie musimy jednak podawać tego typu jawnie, ponieważ ...
 -- być wartości takich parametrów (o ile będzie mógł to wywnioskować).
 --
 -- Jak widać poniżej, żeby uzyskać dowód, jawnie trzeba podać tylko dwie hipotezy. Uwaga - to
--- *nie* muszą być hipotezy zdań a = b i b = c, bo *tutaj* a, b i c to *parametry*. To mogą więc
--- być dowody jakichkolwiek dwóch równości takich, że prawa strona pierwszej równości jest równa
--- (tak wiem) lewej stronie drugiej. Nie przejmuj się tym, że typ tej stałej jest taki skomplikowany,
--- do wszystkiego, co będzie nam potrzebne, dojdziemy w swoim, a raczej w naszym tempie.
+-- *nie* muszą być hipotezy a = b i b = c, bo *tutaj* a, b i c to *parametry*. To mogą więc być
+-- dowody jakichkolwiek dwóch równości takich, że prawa strona pierwszej równości jest równa
+-- (tak wiem) lewej stronie drugiej. Nie przejmuj się tym, że typ tej stałej jest taki skomplikowany;
+-- do wszystkiego, co będzie nam potrzebne, dojdziemy w swoim, a raczej (mam nadzieję) w naszym tempie.
 #check Eq.trans -- Eq.trans.{u} {α : Sort u} {a b c : α} (h₁ : a = b) (h₂ : b = c) : a = c
 ```
 
