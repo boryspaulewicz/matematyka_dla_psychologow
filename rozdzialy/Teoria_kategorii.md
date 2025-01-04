@@ -227,8 +227,7 @@ z całą matematyką, jest jakby czymś w rodzaju "wektora", albo ... palca, kt�
 dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien
 *ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo
 Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego
-działania*. W tym sensie można więc powiedzieć, że On, ten Podmiot albo Agent, jest *w nas* i
-jednocześnie nie jest.
+działania*. W tym sensie można więc powiedzieć, że jest *w nas* pewien On i jednocześnie nie jest.
 
 Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
 wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
