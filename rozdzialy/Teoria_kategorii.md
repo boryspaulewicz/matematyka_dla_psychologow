@@ -482,7 +482,80 @@ example : a = d :=
     calc
 ```
 
-TODO
+Teraz zrobimy jeszcze dowód tego samego zdania, co poprzednio, korzystając z tych samych założeń,
+ale użyjemy *taktyki* `rw`. To skrót od angielskiego `rewrite`, czyli *przepisz*, co dla nas będzie
+znaczyło raczej *zastąp*. Taktyka `rw` jest dosyć elastyczna i pozwala na różnego rodzaju operacje
+polegające na zastępowaniu wyrażeń przez równe (czyli wzajemnie zastępowalne) wyrażenia, ale tym
+razem skorzystamy z niej tylko w najprostszy sposób, w jaki się da. 
+
+Instrukja `rw [nazwa_dowodu_rownosci]`, gdzie `nazwa_dowodu_rownosci` to jakaś globalna stała lub
+zmienna występująca w kontekście, będąca, cóż, nazwą dowodu jakiejś równości o postaci
+`nazwa_dowodu_rownosci : lewe_wyrazenie = prawe_wyrazenie`, powoduje *zmianę celu*, polegającą na
+tym, że `lewe_wyrazenie` występujące w celu jest zastąpione przez `prawe_wyrazenie`. W tym przypadku
+będziesz mieć do wyboru w Twoim kontekście (a nie globalnie, bo `variable` dodaje niejawnie zmienne
+do kontekstu) tylko dwie hipotezy o postaci równości, to jest `h1` i `h2`, więc szybko znajdziesz
+rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach kwadratowych trzeba
+będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim argumentem, ale ten
+znajdziesz od razu bez trudu. Zwróć proszę uwagę, że tym razem konstruujesz dowód jakby "od tyłu",
+albo od końca, przekształcając cel tak, żeby zbliżył się do tego, co masz w kontekście.
+
+**Sugestia**: Dokończ dowód w trybie interaktywnym używając najpierw raz taktyki `rw`, a potem raz
+taktyki `exact`.
+
+```lean
+-- Jeżeli deklaracje tych zmiennych są już u Ciebie wklejone do Leana, to nie kopiuj tego
+-- fragmentu.
+variable (a b c : Nat)
+variable (h1 : a = b)
+variable (h2 : b = c)
+
+example : a = c := by
+```
+
+Taktykę `rw` można stosować również do *założeń*, albo *w drugą stronę*, zastępując
+`prawe_wyrazenie` przez `lewe_wyrazenie` i można też kontrolować, które występienie lewego lub
+prawego wyrażenia ma być zastąpione, gdy to występuje więcej niż raz. Ale o tym porozmawiamy kiedy
+indziej.
+
+Został nam jeszcze jeden ważny sposób skonstruowania tego samego dowodu. Ten dowód nie będzie
+*wyglądał* tak samo, ale dla Leana wszystkie dowody tego samego zdania są *takie same*, to jest
+wzajemnie zastępowalne, bo w Leanie obowiązuje zasada nieważności (struktury) dowodu, która nazywa
+się po angielsku proof irrelevance (i o której już wspominałem więcej niż raz, ale przecież
+[repetitio est mater studiorum](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(R))).
+
+Skorzystamy teraz ze stałej `Eq.trans`, która oznacza dowód *przechodniości* równości (*trans* to
+skrót od angielskiego słowa *transitivity*, oznaczającego właśnie przechodniość), czyli dowód, dla
+dowolnych termów `X`, `Y` i `Z` *tego samego typu*, że jeżeli `X = Y`, to jeżeli `Y = Z`, to `X =
+Z`. Od tej zasady zaczęliśmy naszą naukę matematyki w rozdziale czwartym, pamiętasz?
+
+Upraszczając, można by powiedzieć, że ta stała ma typ `(h1 : X = Y) → (h2 : Y = Z) → (X = Z)`, czyli
+z dowodów zdań `X = Y` i `Y = Z` tworzy dowód zdania `X = Z`. Zauważyłaś, czemu to jest
+uproszczenie? Przecież brakuje tutaj informacji, jakiego typu termami są `X`, `Y` i `Z`. Nie musimy
+podawać tego typu jawnie, bo ...
+
+```lean
+-- ... definicja Eq.trans korzysta z tak zwanych parametrów domyślnych albo niejawnych, które
+-- poznajemy po tym, że są otoczone nawiasami klamrowymi. Lean sam się wywnioskowuje, jakie powinny
+-- być wartości takich parametrów (kiedy może to wywnioskować).
+--
+-- Jak widać poniżej, żeby uzyskać dowód, jawnie trzeba podać tylko dwie hipotezy. Uwaga - to
+-- *nie* muszą być hipotezy zdań a = b i b = c, bo *tutaj* a, b i c to *parametry*. To mogą więc
+-- być dowody jakichkolwiek dwóch równości takich, że prawa strona pierwszej równości jest równa
+-- (tak wiem) lewej stronie drugiej. Nie przejmuj się tym, że typ tej stałej jest taki skomplikowany,
+-- do wszystkiego, co będzie nam potrzebne, dojdziemy w swoim, a raczej w naszym tempie.
+#check Eq.trans -- Eq.trans.{u} {α : Sort u} {a b c : α} (h₁ : a = b) (h₂ : b = c) : a = c
+```
+
+**Sugestia**: Zakończ ten dowód używając twierdzenia o przechodniości relacji równości.
+
+```lean
+-- Zakładam tutaj, że masz wklejone do Leana wszystkie (wcześniejsze) deklaracje, które są potrzebne,
+-- żeby Lean "wiedział", o czym mówimy.
+example : a = c :=
+    -- W linii poniżej wpisz Eq.tr, tylko tyle, a potem wybierz z listy możliwych kontynuacji Eq.trans.
+    -- Jako argumenty podaj dwie hipotezy, które powinnaś mieć w kontekście i które pozwolą Ci zakończyć 
+    -- dowód.
+```
 
 ### Przypisy
 
