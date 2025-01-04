@@ -405,13 +405,14 @@ różnych sytuacjach).
 
 ## Równość (Wolność i Braterstwo)
 
-Do tej pory w ogóle nie *używaliśmy* w Leanie relacji równości, bo (w Leanie) pojawiała się tylko
-jako treść twiedzenia o przemienności dodawania liczb naturalnych. Jak już wiesz, w matematyce ta
-relacja oznacza *nierozróżnialność z danego punktu widzenia*. W *praktyce* to znaczy *tylko* tyle,
-że obiekty albo termy, które są (z założenia albo na mocy jakiegoś dowodu) równe, mogą się nawzajem
-*zastępować* w każdym (poprawnym) wyrażeniu (danego języka), nie zmieniając ani sensu albo treści,
-ani - jeżeli to wyrażenie jest zdaniem - statusu logicznego tego wyrażenia (to jest jego
-prawdziwości lub fałszywości). A mówiąc możliwie najkrócej:
+Do tej pory w ogóle nie *używaliśmy* w Leanie relacji równości, bo ta, gdy pisaliśmy w Leanie,
+pojawiała się tylko jako treść twiedzenia o przemienności dodawania liczb naturalnych, a tego
+twierdzenia nie używaliśmy (w Leanie) do niczego. Jak już wiesz, w matematyce ta relacja równości
+*nierozróżnialność z danego punktu widzenia*. W *praktyce* to znaczy *tylko* tyle, że obiekty albo
+termy, które są (z założenia albo na mocy jakiegoś dowodu) równe, mogą się nawzajem *zastępować* w
+każdym (poprawnym) wyrażeniu (danego języka), nie zmieniając ani sensu albo treści, ani - jeżeli to
+wyrażenie jest zdaniem - statusu logicznego tego wyrażenia (to jest jego prawdziwości lub
+fałszywości). A mówiąc możliwie najkrócej:
 
 *To, co jest równe, jest wszędzie zastępowalne*.
 
