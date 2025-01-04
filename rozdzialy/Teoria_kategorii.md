@@ -622,4 +622,9 @@ example : a = c :=
     Małp](https://en.wikipedia.org/wiki/Simian)
 
 [^2]: Nawiasem, albo raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
-    [tweeta](https://x.com/BRSLWP/status/1863200684859908573), którego zresztą Pearl szybko polubił.
+    [tweeta](https://x.com/BRSLWP/status/1863200684859908573), którego zresztą Pearl szybko polubił,
+    ale który poza tym nie wzbudził szerszego zainteresowania, co mnie wcale nie dziwi, bo trudno
+    spotkać ekspertów od przyczynowości, którzy by jednocześnie wiedzieli coś na temat teorii typów,
+    izomorfizmu między modelami przyczynowymi i pewnymi rodzajami programów komputerowych, i na
+    temat szczególnego statusu części probabilistycznej w teorii Pearla. Właściwie znam tylko jedną
+    taką osobę (i tak, już z tą osobą korspondowałem).
