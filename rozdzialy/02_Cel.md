@@ -363,6 +363,6 @@ poziomie *szkoły podstawowej*.
     jedenastym](Modus_Ponens_Niewaznosc_Dowodu.md)).
 
 [^5]: Może masz ochotę rzucić okiem na nienumerowaną stronę trzecią mojego
-    [doktoratu](praca_doktorska.pdf), na której żartuję sobie z psychologów przytaczając jako motto
-    cytat z pracy magisterskiej, której byłem chyba promotorem (ale nie pamiętam już, czy faktycznie
+    [doktoratu](praca_doktorska.pdf), na której żartuję sobie z psychologów, przytaczając jako motto
+    cytat z pracy magisterskiej, której byłem chyba promotorem (ale już nie pamiętam, czy faktycznie
     byłem)?
