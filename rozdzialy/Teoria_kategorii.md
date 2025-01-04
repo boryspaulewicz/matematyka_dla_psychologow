@@ -304,6 +304,7 @@ jest tylko ["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theo
 rachunków interwencyjnego i kontrfaktycznego ze względów *praktycznych*. Mówię tam zresztą również o
 Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których spróbuję Cię
 stopniowo przygotować).
+<hr>
 
 Wracając do diagramu.
 
