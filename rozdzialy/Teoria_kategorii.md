@@ -427,7 +427,8 @@ $a = b = c$
 
 ... i to byłby w zasadzie pełnowartościowy dowód, ponieważ wiemy, że relacja równości jest
 przechodnia, a więc w tym zwięźle zapisanym "podwójnym" równaniu mamy wszystkie informacje potrzebne
-do tego, żeby stwierdzić, że $a = c$. Jakiś bardziej pedantyczny autor mógłby napisać też tak ...
+do tego, żeby *samodzielnie* stwierdzić, że $a = c$. Jakiś bardziej pedantyczny autor mógłby napisać
+też tak ...
 
 $$a = b$$ (1)  
 $b = c$ (2)  
