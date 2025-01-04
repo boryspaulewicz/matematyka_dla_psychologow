@@ -210,8 +210,6 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R18 = R12 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
-Plac budowy
-
 [R19 = R13 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
 
 Notatki całkiem już robocze, do których jednak można zaglądać:
