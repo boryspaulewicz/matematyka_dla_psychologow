@@ -228,7 +228,7 @@ przerywając i robiąc coś innego, napisałem tyle, że zwróciłem się z pro�
 wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, takie które poprzedzają ten akapit i
 takie, które następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie *pisałem do
 "siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami, mówiącymi ("mi") krótko o co w
-tych zmianach *chodziło*.
+tych zmianach *chodziło*. **Chodziło**, czujesz?
 
 A "Ty" czytając ten rozdział zaczęłaś w pewnym momencie przekształcać "siebie" w proces wykonujący
 (wystarczająco dobrze) zadanie rysowania według instrukcji i robiłaś też ze "sobą" różne inne rzeczy
