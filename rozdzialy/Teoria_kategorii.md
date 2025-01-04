@@ -517,10 +517,10 @@ variable (h2 : b = c)
 example : a = c := by
 ```
 
-Taktykę `rw` można stosować również do *założeń*, albo *w drugą stronę*, zastępując
-`prawe_wyrazenie` przez `lewe_wyrazenie` i można też kontrolować, które występienie lewego lub
-prawego wyrażenia ma być zastąpione, gdy to występuje więcej niż raz. Ale o tym porozmawiamy kiedy
-indziej.
+Taktykę `rw` można stosować również do *przekształcania założeń*, albo *w drugą stronę*, to jest
+zastępując `prawe_wyrazenie` przez `lewe_wyrazenie`, i można też kontrolować, które występienie
+lewego lub prawego wyrażenia ma być zastąpione, gdy to wyrażenie występuje więcej niż raz. Ale o tym
+porozmawiamy kiedy indziej.
 
 Został nam jeszcze jeden ważny sposób skonstruowania tego samego dowodu. Ten dowód nie będzie
 *wyglądał* tak samo, ale dla Leana wszystkie dowody tego samego zdania są *takie same*, to jest
