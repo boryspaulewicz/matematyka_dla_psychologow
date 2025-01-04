@@ -477,7 +477,6 @@ wymagała zastosowania hipotezy, której nie było w poprzednim dowodzie.
 
 ```lean
 variable (a b c d : Nat)
-
 variable (h1 : a = b)
 variable (h2 : b = c)
 variable (h2 : c = d)
