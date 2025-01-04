@@ -157,9 +157,9 @@ zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszyst
 się nadawać, musimy nauczyć się patrzeć na to coś na różne sposoby. A to oznacza, że musimy pogodzić
 się z pewnym rodzajem [nieszkodliwego
 relatywizmu](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
-zawsze inne, również spójne i sensowne punkty widzenia na to samo, i dopóki korzystamy z tych
-punktów widzenia w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy uzasadnienie
-albo dowód dla *każdego* możliwego zdania.
+zawsze rozmaite alternatywne, spójne i sensowne punkty widzenia na to samo, i dopóki korzystamy z
+tych punktów widzenia w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy
+uzasadnienie albo dowód dla *każdego* możliwego zdania.
 
 Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać i którego podstawy
 już częściowo opanowałaś, został stworzony właśnie po to, żeby formalnie, a więc w sposób
