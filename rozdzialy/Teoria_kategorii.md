@@ -247,17 +247,18 @@ siebie samych i siebie nawzajem*, tworząc ciągle następne, nowe *wersje nas*.
 
 To taki wspólny spacer.
 
-Na przykład "Ty", czytając ten rozdział, zaczęłaś w pewnym momencie przekształcać "siebie" w proces
-wykonujący (wystarczająco dobrze) zadanie rysowania według "moich" instrukcji i robiłaś też ze
-"sobą" różne inne rzeczy, próbując jakoś "mnie" zrozumieć (za co "Ci" bardzo dziękuję). I to były
-też tego samego rodzaju kroki, polegające na tym, że zapisywałaś jakby w "swojej" *aktywnej pamięci*
-aplikacje "siebie", które to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco
-dobre przybliżenia pewnych funkcji, które coś *robiły*. Pozornie "Twój" rysunek jest więc rezultatem
-kilku odległych fizycznie i fizycznie wyraźnie odrębnych procesów, ale przecież te procesy nie były
-i nie są tak naprawdę fizycznie całkiem oddzielone, bo gdyby były, nie mogłabyś "mnie" czytać. Mimo
-odległości i częściowej fizycznej odrębności, ten rysunek jednak powstał i to było możliwe tylko
-dzięki licznym *funkcjonalnie splątanym procesom celowym*, bo przecież *między innymi* "ja" brałem w
-tym udział i "osoby", które odpowiedziały w międzyczasie na moje wezwanie, też brały w tym
+Na przykład "Ty", czytając ten rozdział, zaczęłaś w pewnym momencie [przekształcać "siebie" w
+proces](https://pl.wikipedia.org/wiki/Logo_(j%C4%99zyk_programowania)) wykonujący (wystarczająco
+dobrze) zadanie rysowania według "moich" instrukcji i robiłaś też ze "sobą" różne inne rzeczy,
+próbując jakoś "mnie" zrozumieć (za co "Ci" bardzo dziękuję). I to były też tego samego rodzaju
+kroki, polegające na tym, że zapisywałaś jakby w "swojej" *aktywnej pamięci* aplikacje "siebie",
+które to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco dobre przybliżenia
+pewnych funkcji, które coś *robiły*. Pozornie "Twój" rysunek jest więc rezultatem kilku odległych
+fizycznie i fizycznie wyraźnie odrębnych procesów, ale przecież te procesy nie były i nie są tak
+naprawdę fizycznie całkiem oddzielone, bo gdyby były, nie mogłabyś "mnie" czytać. Mimo odległości i
+częściowej fizycznej odrębności, ten rysunek jednak powstał i to było możliwe tylko dzięki licznym
+*funkcjonalnie splątanym procesom celowym*, bo przecież *między innymi* "ja" brałem w tym udział i
+"osoby", które odpowiedziały w międzyczasie na moje wezwanie, też brały w tym
 ["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)), i to już było dosyć mocno
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle *nie sama*)
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
