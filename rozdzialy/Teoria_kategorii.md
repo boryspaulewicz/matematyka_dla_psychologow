@@ -432,7 +432,7 @@ też tak ...
 
 $$a = b$$ (1)  
 $b = c$ (2)  
-$a = c$ przechodniość równości (1) (2)
+$a = c$ przechodniość
 
 ... albo tak ...
 
