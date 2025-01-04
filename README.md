@@ -40,10 +40,10 @@ to studentki, a nie studenci, będę się zwracał do czytelniczki. Mam jednak w
 wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Dlatego na wypadek, gdyby
 zdarzało mi się sprawiać niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w
 ten sposób (i o takich sprawach), kiedy jeszcze byłem studentem, tylko wtedy oczywiście
-odpowiadałaby mi bardziej forma męska, chociaż forma żeńska też by mi wcale nie przeszkadzała (i
-zdaje się, o dziwo, nie przeszkadzać czytelnikom). A poza tym piszę również w pewnym sensie do
-obecnej i (przede wszystkim) przyszłej psychologii, która jest przecież (abstrakcyjną, ale jednak)
-Kobietą.
+odpowiadałaby mi pewnie bardziej forma męska, chociaż forma żeńska też by mi wcale nie przeszkadzała
+(i zdaje się zresztą, o dziwo, że nie przeszkadza czytelnikom). A poza tym piszę również w pewnym
+sensie do obecnej i (przede wszystkim) przyszłej psychologii, która jest przecież (abstrakcyjną, ale
+jednak) Kobietą.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
