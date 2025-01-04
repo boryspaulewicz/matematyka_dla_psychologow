@@ -202,12 +202,43 @@ sposób działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystki
 jakby czymś w rodzaju "wektora", albo ... palca, który przybliżając coś (a dokładniej *rozwiązania*
 pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że
 na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo
-Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. Niewątpliwie ma ten
-Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności wytworem wspólnoty i
-abstrakcyjnym ucieleśniem w języku formalnym uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
+Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek działania*. 
+
+Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
+wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
+uniwersalnego pojęcie Oceny, to coś z Ἠθος-u (i
 [Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć
-(jeżeli tylko przymrużymy trochę jedno oko). Może więc Anzelm nie był wcale taki głupi, jak mi się
-zdawało.
+(jeżeli tylko przymrużymy trochę jedno
+[oko](https://www.goodreads.com/quotes/7169-the-eye-through-which-i-see-god-is-the-same)). Może więc
+Anzelm nie był wcale taki głupi, jak mi się zdawało.
+
+A skoro jesteśmy zwierzętami, które potrafią wykonywać bardzo wiele zadań, ale żadnego zadania nie
+potrafią wykonywać w sposób niezawodny albo doskonały, czy może raczej *czysty*, to należałoby
+właściwie powiedzieć, co *się* stało, tak: "Ja" wpadłem w pewnym momencie na pomysł, żeby napisać
+fragment tego rozdziału jako serię instrukcji dotyczących rysowania i notatek. Stworzyłem aplikację
+"siebie" do pewnych argumentów, które zapisałem w "swojej" pamięci i poprzez ewaluację - będącą
+jakby przejściem między dwiema chwilowymi wersjami "siebie" - tej aplikacji przekształciłem "się"
+([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)) albo może raczej
+[*wykształciłem*](https://pl.wikipedia.org/wiki/Wykszta%C5%82cenie) w taką wersję "siebie", która
+[*wystarczająco dobrze*](https://en.wikipedia.org/wiki/Satisficing), bo skutecznie wykonała zadanie
+zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne pośrednie kroki) i tak
+*krok za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając różne rzeczy,
+przerywając i robiąc coś innego, napisałem tyle, że zwróciłem się z prośbą do moich "subskrybentów",
+żeby spróbowali ten rozdział przetestować. Zresztą zanim napisałem *to* zdanie zdążyłem już dostać
+kilka wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, które poprzedzają ten akapit.
+
+A "Ty" czytając ten rozdział zaczęłaś w pewnym momencie przekształcać "siebie" w proces wykonujący
+(wystarczająco dobrze) zadanie rysowania według instrukcji i robiłaś też ze "sobą" różne inne rzeczy
+próbując jakoś "mnie" zrozumieć (za co "Ci" bardzo dziękuję). I to były też tego samego rodzaju
+kroki, polegające na tym, że zapisywałaś jakby w swojej *aktywnej pamięci* aplikacje "siebie", które
+to aplikacje były ewaluowane, to jest ucieleśniałaś "sobą" wystarczająco dobre przybliżenia pewnych
+funkcji, które coś *robiły*. Twój rysunek jest więc rezultatem kilku odległych fizycznie i fizycznie
+wyraźnie odrębnych, ale mimo tej odległości i fizycznej odrębności *funkcjonalnie splątanych
+procesów celowych*, bo przecież "ja" brałem w tym udział i "osoby", które odpowiedziały w
+międzyczasie na moje wezwanie też brały w tym
+["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)), i to już było dosyć mocno
+"poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle nie *sama*)
+[*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
 
 Wracając do diagramu.
 
