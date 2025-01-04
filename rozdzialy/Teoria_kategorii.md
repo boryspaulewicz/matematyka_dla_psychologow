@@ -152,9 +152,10 @@ mogłem Cię przecież *do niczego zmusić*.
 
 Być może trudno Ci zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
-akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem nagle temat. Żeby coś dobrze zrozumieć i móc
-tego czegoś używać do wszystkiego, do czego tylko może się nadawać, musimy nauczyć się patrzeć na to
-coś na różne sposoby. A to oznacza, że musimy pogodzić się z pewnym rodzajem [nieszkodliwego
+akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem nagle temat (i jednocześnie wcale nie
+zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego tylko może
+się nadawać, musimy nauczyć się patrzeć na to coś na różne sposoby. A to oznacza, że musimy pogodzić
+się z pewnym rodzajem [nieszkodliwego
 relatywizmu](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
 zawsze inne, również spójne i sensowne punkty widzenia na to samo, i dopóki korzystamy z tych
 punktów widzenia w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy uzasadnienie
