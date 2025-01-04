@@ -47,7 +47,7 @@ g`. Zwróć uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest 
 f`. I tutaj muszę zacząć pisać bardzo ostrożnie, a Ty być może będziesz musiała uzbroić się w
 cierpliwość czekając aż to co powiem stanie się w miarę jasne.
 
-## [Absence of evidence is not evidence of absence!](https://en.wikipedia.org/wiki/Evidence_of_absence)
+## [*Absence of evidence is not evidence of absence*](https://en.wikipedia.org/wiki/Evidence_of_absence)
 
 Napisałem, że *nie jest prawdą, że* `Skladalne g f`, ale *nie* miałem na myśli, że *jest nieprawdą,
 że* `Skladalne g f`. Wbrew pozorom to nie jest to samo, a w każdym razie niekoniecznie to samo. Żeby
