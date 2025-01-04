@@ -81,7 +81,9 @@ Lean. To jest o ile te czê¶ci sprawdzi³em przed pos³aniem zmian do repozytorium.
 ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli akurat sprawdzi³em kod
 po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzone przez algorytm,
 którego u¿ywa do tego Lean, a wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
-[bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650).
+[bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650). A gdyby¶ mia³a
+jakiekolwiek w±tpliwo¶ci, zawsze mo¿esz wkleiæ kod do Leana i przekonaæ siê sama, czy nie pojawia
+siê b³±d.
 
 Muszê Ciê te¿ ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
 zadania, których do tego momentu nie ma zreszt± wiele, jest mo¿liwe, ¿e poczujesz co¶ w rodzaju
