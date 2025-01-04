@@ -70,11 +70,11 @@ okaże, będą to wymagania kategorii), czyli to są **rysunkowe zmienne**, i ta
 również wszystkie strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli
 i staną się przez to *stałymi*.
 
-Czyli te punkty i strzałki są tutaj jak litery *n* i *m* w wyrażeniu *n + m = m + n* zapisanym jako
+Czyli te punkty i strzałki są tutaj jak litery *n* i *m* w wyrażeniu *n + m = m + n*, zapisanym jako
 fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. Chociaż to, że *litery*
-były tam różne zdawało się *sugerować*, że te litery oznaczają różne liczby, to wiedziałaś, albo
+były tam różne, zdawało się *sugerować*, że te litery oznaczają różne liczby, to wiedziałaś, albo
 przypomniałaś sobie szybko, że obie te litery mogą oznaczać *dowolne* liczby naturalne, mogą więc
-oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy całe równanie
+oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy to równanie
 przyjęłoby postać *1 + 1 = 1 + 1* (i nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary
 liczb).
 
