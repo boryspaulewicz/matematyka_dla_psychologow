@@ -471,7 +471,7 @@ automatycznie stosując własność przechodniości relacji równości, co zako�
 taki sposób jak wyżej znak `_`, Lean sam to sobie uzupełnia prawą stroną równania, które znajduje
 się w linii powyżej tego znaku.
 
-**Sugestia**: Dokończ dowód rachunkowy, posługując się poprzednim dowodem jako przykładem. Twój
+**Sugestia**: Dokończ ten dowód rachunkowy, posługując się poprzednim dowodem jako przykładem. Twój
 dowód będzie wyglądał podobnie, ale będzie miał o jedną linię więcej i ta dodatkowa linia będzie
 wymagała zastosowania hipotezy, której nie było w poprzednim dowodzie.
 
@@ -504,8 +504,8 @@ będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim arg
 znajdziesz od razu bez trudu. Zwróć proszę uwagę, że tym razem konstruujesz dowód jakby "od tyłu",
 albo od końca, przekształcając cel tak, żeby zbliżył się do tego, co masz w kontekście.
 
-**Sugestia**: Dokończ dowód w trybie interaktywnym używając najpierw raz taktyki `rw`, a potem raz
-taktyki `exact`.
+**Sugestia**: Dokończ ten dowód w trybie interaktywnym używając najpierw raz taktyki `rw`, a potem
+raz taktyki `exact`.
 
 ```lean
 -- Jeżeli deklaracje tych zmiennych są już u Ciebie wklejone do Leana, to nie kopiuj tego
