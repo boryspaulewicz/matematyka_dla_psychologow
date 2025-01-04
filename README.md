@@ -186,7 +186,7 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
 [R8 = R02 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
 
-[R9 = R03 Kilka naiwnych uwag na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
+[R9 = R03 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
 
 [R10 = R04 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
 
