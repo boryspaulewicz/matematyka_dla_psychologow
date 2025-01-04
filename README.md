@@ -37,12 +37,13 @@ większego znaczenia.)
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie poprawiało
 czytelności tekstu, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii
 to studentki, a nie studenci, będę się zwracał do czytelniczki. Mam jednak w związku z tym cały czas
-wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Na wypadek, gdybym sprawiał
-czasem niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w ten sposób (i o
-takich sprawach), kiedy jeszcze byłem studentem, tylko wtedy oczywiście odpowiadałaby mi bardziej
-forma męska, chociaż forma żeńska też by mi wcale nie przeszkadzała. A poza tym piszę tą książkę
-również w pewnym sensie do obecnej i przyszłej psychologii, która jest przecież (abstrakcyjną, ale
-jednak) kobietą.
+wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Dlatego na wypadek, gdyby
+zdarzało mi się sprawiać niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w
+ten sposób (i o takich sprawach), kiedy jeszcze byłem studentem, tylko wtedy oczywiście
+odpowiadałaby mi bardziej forma męska, chociaż forma żeńska też by mi wcale nie przeszkadzała (i
+zdaje się, o dziwo, nie przeszkadzać czytelnikom). A poza tym piszę również w pewnym sensie do
+obecnej i (przede wszystkim) przyszłej psychologii, która jest przecież (abstrakcyjną, ale jednak)
+Kobietą.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
@@ -284,6 +285,9 @@ nieporozumień polegającego na tym, że nie napisałem dość wcześnie i wysta
 funkcyjny* znaczy dokładnie to samo, co *typ funkcji* (chyba, że mówimy na przykład *typ funkcji `f`
 to...*), a także za zainspirowanie mnie do mam nadzieję lepszego wytłumaczenia szczególnego
 charakteru typu `Absurd` w rozdziale o negacji.
+
+Marynie Kołeczek, za wspaniałą, zachęcającą do dalszej pracy reakcję i rozwianie moich wątpliwości
+na temat formy żeńskiej.
 
 ### Przypisy
 
