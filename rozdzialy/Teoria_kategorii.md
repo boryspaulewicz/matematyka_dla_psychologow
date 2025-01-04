@@ -184,7 +184,7 @@ używać stosunkowo *bezmyślnie*, to jest mechanicznie.
 Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba się czasem pogodzić z
 *trudnościami w jasnym zrozumieniu tego, co się w tym języku mówi*. Tą cenę musimy do pewnego
 stopnia zapłacić być może dlatego, że chociaż teoria kategorii może być, i zwykle zresztą jest,
-rozumiana jako *algebra [funkcji matematycznych*](https://pl.wikipedia.org/wiki/Funkcja), to
+rozumiana jako *algebra [funkcji matematycznych](https://pl.wikipedia.org/wiki/Funkcja)*, to
 definicje pojęć, które można za jej pomocą wypowiedzieć, polegają często na charakteryzacji
 określonego rodzaju obiektów w kategoriach ich funkcji rozumianych jako *uniwersalne* albo w pewnym
 abstrakcyjnym sensie *najlepsze rozwiązywania pewnego rodzaju problemów a może nawet zadań*. Dlatego
