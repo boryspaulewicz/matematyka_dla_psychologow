@@ -442,8 +442,8 @@ $a = b$ (1)
 $\ = c$ (2)  
 $a = c$ przechodniość równości (1) (2)
 
-... albo jeszcze jakoś inaczej. Ponieważ w Leanie możliwości posługiwania się tego rodzaju
-*pół-formalnymi skrótami myślowymi* są ograniczone, musimy napisać więcej:
+... albo jeszcze jakoś inaczej. Ponieważ w Leanie możliwości posługiwania się (tutaj akurat
+pół-formalnymi) *skrótami myślowymi* są ograniczone, *my* musimy napisać trochę więcej:
 
 ```lean
 -- Niech a, b i c będą jakimiś liczbami naturalnymi ...
@@ -455,7 +455,8 @@ variable (h2 : b = c)
 
 -- Wtedy a = c:
 example : a = c :=
-    -- Konstruowanie *dowodu rachunkowego* rozpoczynamy za pomocą słowa kluczowego *calc*:
+    -- Konstruowanie *dowodu rachunkowego* rozpoczynamy za pomocą słowa kluczowego *calc*,
+    -- które jest skrótem od angielskiego *calculational*:
     calc
         a = b := h1
         _ = c := h2
@@ -465,8 +466,10 @@ Zwracam uwagę, że *każda linia* dowodu rachunkowego wymaga *osobnego dowodu* 
 definiowania `:=`) i że możemy uprościć zapis korzystając z symbolu podkreślenia `_` i od pewnego
 momentu podawać jawnie tylko prawe strony równań, tak jak tutaj podajemy tylko `c` w ostatnim
 równaniu. Leanowi to wystarczy, bo gdy tylko "zauważy", że zaczynając od `a` z lewej doszliśmy do
-`c` z prawej udowadniając każde równanie po drodze, to natychmiast "stwierdzi", że `a = c`, co
-zakończy dowód.
+`c` z prawej, udowadniając każde równanie po drodze, to natychmiast "stwierdzi", że `a = c`,
+automatycznie stosując własność przechodniości relacji równości, co zakończy dowód. Gdy stosujemy w
+taki sposób jak wyżej znak `_`, Lean sam to sobie uzupełnia prawą stroną równania, które znajduje
+się w linii powyżej tego znaku.
 
 **Sugestia**: Dokończ dowód rachunkowy, posługując się poprzednim dowodem jako przykładem. Twój
 dowód będzie wyglądał podobnie, ale będzie miał o jedną linię więcej i ta dodatkowa linia będzie
@@ -483,11 +486,12 @@ example : a = d :=
     calc
 ```
 
-Teraz zrobimy jeszcze dowód tego samego zdania, co poprzednio, korzystając z tych samych założeń,
-ale użyjemy *taktyki* `rw`. To skrót od angielskiego `rewrite`, czyli *przepisz*, co dla nas będzie
-znaczyło raczej *zastąp*. Taktyka `rw` jest dosyć elastyczna i pozwala na różnego rodzaju operacje
-polegające na zastępowaniu wyrażeń przez równe (czyli wzajemnie zastępowalne) wyrażenia, ale tym
-razem skorzystamy z niej tylko w najprostszy sposób, w jaki się da. 
+Teraz zrobimy jeszcze dowód tego samego zdania co poprzednio, korzystając z tych samych założeń, ale
+użyjemy *taktyki* `rw`. To skrót od angielskiego `rewrite`, czyli *przepisz*, co dla nas będzie
+znaczyło raczej *zastąp*, bo ja wolę w ten sposób ostatnio myśleć o równości. Taktyka `rw` jest
+dosyć elastyczna i pozwala na różnego rodzaju operacje polegające na zastępowaniu wyrażeń przez
+równe (czyli wzajemnie zastępowalne) wyrażenia, ale tym razem nie będziemy korzystać z tych bardziej
+skomplikowanych wariantów.
 
 Instrukja `rw [nazwa_dowodu_rownosci]`, gdzie `nazwa_dowodu_rownosci` to jakaś globalna stała lub
 zmienna występująca w kontekście, będąca, cóż, nazwą dowodu jakiejś równości o postaci
