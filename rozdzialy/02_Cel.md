@@ -20,8 +20,8 @@ kroki wnioskowania z danych za pomocą bayesowskiej wersji tego samego modelu.
 Będę wtedy czasem w pewnym sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które
 są raczej twierdzeniami i niektóre pojęcia, które zwykle są definiowane za pomocą pojęć bardziej
 elementarnych, wprowadzę aksjomatycznie. Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie,
-bo *struktura* dowodu, gdy się go już znajdzie, jest zwykle nieważna, liczy się przede wszystkim
-*istnienie* dowodu. A definicje mogą być dowolne, bo są językowymi *wyborami* i ich wartość
+bo *struktura* dowodu, gdy się go już znajdzie, jest zwykle nieważna[^4], liczy się przede wszystkim
+*istnienie* dowodu. A definicje mogą być dowolne, bo są językowymi *wyborami*[^5] i ich wartość
 sprowadza się do użyteczności i formalnej poprawności.
 
 Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o co
@@ -354,3 +354,15 @@ poziomie *szkoły podstawowej*.
     kategoriach wartości oczekiwanych zmiennych losowych) rachunku prawdopodobieństwa jest
     stosunkowo nietrywialna tylko dlatego, że dotyczy również przestrzeni ciągłych, co wymaga
     wprowadzenia pojęcia przestrzeni mierzalnej i pojęcia miary.
+
+[^4]: Ten tekst może być dla Ciebie w tej chwili zbyt trudny i za gęsty, ale możesz przynajmniej
+    zerknąć na stronę drugą [tego
+    artykułu](http://www.contrib.andrew.cmu.edu/~avigad/Papers/lean_system.pdf), gdzie autorzy mówią
+    o zasadzie *proof irrelevance* dla typu `Prop`, który poznasz w [rozdziale
+    ósmym](Logika_na_Leanie_nowa_wersja.md) (a o tej zasadzie powiem Ci coś więcej w [rozdziale
+    jedenastym](Modus_Ponens_Niewaznosc_Dowodu.md)).
+
+[^5]: Może masz ochotę rzucić okiem na nienumerowaną stronę trzecią mojego
+    [doktoratu](praca_doktorska.pdf), na której żartuję sobie z psychologów przytaczając jako motto
+    cytat z pracy magisterskiej, której byłem chyba promotorem (ale nie pamiętam już, czy faktycznie
+    byłem)?
