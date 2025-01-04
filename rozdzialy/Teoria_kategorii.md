@@ -64,11 +64,11 @@ a więc *to są różne punkty*. I myśląc tak miałabyś rację!
 Rysunek *sugeruje* tutaj, że `A`, `B` i `C` to *różne punkty* i że `f` i `g` to *różne strzałki* i
 to faktycznie *są* różne punkty i różne strzałki *na tym rysunku*, ale *tym razem* **to nie jest kod
 Leana**, tylko pewne formalne *reprezentacje*, które w ogólnym przypadku mają coś *oznaczać*. Te
-punkty i strzałki mogą, ale nie muszą *oznaczać różnych obiektów* (odpowiedniego typu). Punkty `A`,
-`B` i `C` pełnią tu więc role abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania (jak
-się okaże, będą to wymagania kategorii), to są więc takie **rysunkowe zmienne**, i tak samo
-zmiennymi są również wszystkie strzałki (chyba, że z jakiś powodów przyjmiemy określone *definicje*
-tych symboli i staną się przez to *stałymi*).
+punkty i strzałki mogą, ale nie muszą *oznaczać różne obiekty* (odpowiedniego typu). Punkty `A`, `B`
+i `C` pełnią tu więc role abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania (jak się
+okaże, będą to wymagania kategorii), czyli to są **rysunkowe zmienne**, i tak samo zmiennymi są
+również wszystkie strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli
+i staną się przez to *stałymi*.
 
 Czyli te punkty i strzałki są tutaj jak litery *n* i *m* w wyrażeniu *n + m = m + n* zapisanym jako
 fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. Chociaż to, że *litery*
