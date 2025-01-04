@@ -533,10 +533,10 @@ skrót od angielskiego słowa *transitivity*, oznaczającego właśnie przechodn
 dowolnych termów `X`, `Y` i `Z` *tego samego typu*, że jeżeli `X = Y`, to jeżeli `Y = Z`, to `X =
 Z`. Od tej zasady zaczęliśmy naszą naukę matematyki w rozdziale czwartym, pamiętasz?
 
-Upraszczając, można by powiedzieć, że ta stała ma typ `(h1 : X = Y) → (h2 : Y = Z) → (X = Z)`, czyli
-z dowodów zdań `X = Y` i `Y = Z` tworzy dowód zdania `X = Z`. Zauważyłaś, czemu to jest
-uproszczenie? Przecież brakuje tutaj informacji, jakiego typu termami są `X`, `Y` i `Z`. Nie musimy
-podawać tego typu jawnie, bo ...
+Upraszczając, można by powiedzieć, że stała `Eq.trans` ma typ `(h1 : X = Y) → (h2 : Y = Z) → (X =
+Z)`, czyli, że z dowodów zdań `X = Y` i `Y = Z` tworzy dowód zdania `X = Z`. Zauważyłaś, czemu to
+jest uproszczenie? Przecież *brakuje tutaj informacji*, jakiego typu termami są `X`, `Y` i `Z`. W
+tym wypadku nie musimy jednak podawać tego typu jawnie, ponieważ ...
 
 ```lean
 -- ... definicja Eq.trans korzysta z tak zwanych parametrów domyślnych albo niejawnych, które
