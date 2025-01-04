@@ -226,7 +226,7 @@ zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne po�
 przerywając i robiąc coś innego, napisałem tyle, że zwróciłem się z prośbą do moich "subskrybentów",
 żeby spróbowali ten rozdział przetestować. Zresztą zanim napisałem *to* zdanie zdążyłem już dostać
 kilka wiadomości i przerobiłem kilka razy fragmenty tego rozdziału, takie które poprzedzają ten
-akapit i takie które następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie
+akapit i takie, które następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie
 *pisałem do "siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami mówiącymi krótko o co
 w tych zmianach *chodziło*.
 
