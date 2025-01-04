@@ -290,7 +290,7 @@ równoważna teorii Pearla teoria [Neymana-Rubina](https://en.wikipedia.org/wiki
 \{tak, tego Jerzego von Neymana\}, ale z niej nie będziemy korzystać, bo moim i nie tylko moim
 zdaniem nie warto). W teorii Pearla założenia na temat relacji przyczynowych są wyrażone jako pewne
 *funkcje*, w dodatku takie, które mają być, przynajmniej potencjalnie, *zrealizowane przez* pewne
-*procesy fizyczne*. A to oznacza, że funkcje strukturalne w teorii Pearla muszą być [*funkcjami
+*procesy fizyczne*. A to oznacza, że funkcje strukturalne w teorii Pearla *muszą* być [*funkcjami
 obliczalnymi*](https://pl.wikipedia.org/wiki/Funkcja_obliczalna)[^2].
 
 Tak się dobrze dla nas składa, że teoria typów jest *ogólną teorią funkcji obliczalnych*, jednak
