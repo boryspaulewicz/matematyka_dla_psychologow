@@ -386,8 +386,7 @@ uważam, że *powinnaś znać moją postawę*. Chcę być jednocześnie wobec Ci
 wymaga czasem wypowiedzenia wprost czegoś, co dla drugiej strony może być trudne nawet tylko do
 przeczytania albo wysłuchania. Przekonasz się zresztą w jednym z następnych rozdziałów, jeżeli tylko
 zechcesz czytać dalej, że moja postawa wobec Anzelma, jego dowodu na istnienie Boga i w ogóle ludzi
-wierzących i praktyk, które wierzący stosują, nie jest ani szczególnie radykalna, ani szczególnie
-prosta.
+wierzących i praktyk, które wierzący stosują, nie jest ani radykalna, ani prosta.
 
 Następna zakładka nosi szumną nazwę *Wyprowadzenie dowodu*.
 
