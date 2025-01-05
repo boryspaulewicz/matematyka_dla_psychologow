@@ -429,10 +429,10 @@ jakby "coś pod spodem" `Nat.succ Nat.zero` i tym czymś powinna być albo para 
 liczby, albo jakaś liczba *1* "jako taka", czy może "sama w sobie".
 
 To, że *nic* pod spodem nie ma, to jednak dobra wiadomość, bo oznacza, że *nie ma tu żadnych
-tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. Można
-powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy tylko pominiemy jej
-*interpretację*, którą zresztą możemy zmieniać na dowolną inną, jeśli tylko ta alternatywna
-interpretacja będzie spójna.
+tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. To taka
+rozległa pustka, a w niej nic świętego[^3]. Można powiedzieć, że tym właśnie jest *matematyka
+formalna*, niczym więcej, gdy tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na
+dowolną inną, jeśli tylko ta alternatywna interpretacja będzie spójna.
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są
@@ -591,3 +591,5 @@ pierwszych rozdziałów staną się dla Ciebie w miarę jasne.
     lepiej niech czytają o teorii typów (albo kategorii), bo dzięki temu z pewnością szybko staną
     się [socjometrycznymi gwiazdami](https://pl.wikipedia.org/wiki/Gwiazda_socjometryczna). Nie ma
     za co.
+
+[3^]: གང་ལ་སྟོང་པ་ཉིད་སྲིད་པ། ། དེ་ལ་དོན་རྣམས་ཐམས་ཅད་སྲིད། ། གང་ལ་སྟོང་ཉིད་མི་སྲིད་པ། ། དེ་ལ་ཅི་ཡང་མི་སྲིད་དོ། །
