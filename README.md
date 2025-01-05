@@ -62,11 +62,6 @@ ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu p
 Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji i być może dodać coś od siebie, to
 wyślij mi wiadomość, dopiszę Cię wtedy do listy adresatów.
 
-**Aktualności**: (2 grudnia) Czytelniczki i czytelników, którzy mają już za sobą co najmniej
-rozdział 6, zapraszam do testowania i zgłaszania uwag na temat rozdziału 19. Jeżeli coś zabrzmi Ci
-niezrozumiale, albo znajdziesz jakiś błąd, albo w ogóle poczujesz, że coś tam nie gra, będę
-wdzięczny, jeśli mi o tym napiszesz.
-
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
 powinny być zrozumiałe dla *licealistów*, a jeśli nie będą, to spróbuję sprawić, żeby były. Piszę tą
@@ -287,6 +282,19 @@ charakteru typu `Absurd` w rozdziale o negacji.
 Marynie Kołeczek, mojej byłej, niezwykle przenikliwej i rozsądnej studentce, za wspaniałą,
 zachęcającą do dalszej pracy reakcję i - przynajmniej chwilowe - rozwianie wątpliwości dotyczących
 formy żeńskiej.
+
+Tomkowi Smoleniowi, Emilowi Chammasowi i Szymonowi Stryplingowi, za pomoc w napisaniu rozdziału
+dziewiętnastego-trzynastego. Tomek wykrył niespójności i wskazał mi niejasne fragmenty w jednej z
+wersji początkowych, Emil zmotywował mnie, żeby napisać więcej na pewien kluczowy dla tego rozdziału
+i całej książki temat, a Szymon dostarczył mi dowód (który dla mnie musi odgrywać rolę aksjomatu),
+że ten rozdział może w całości zrozumieć czternastolatek, o ile tylko ma za sobą rozdziały od
+czwartego do szóstego. Muszę jednak zaznaczyć, że nie polecam omijania wcześniejszych rozdziałów, bo
+bez przeczytania wcześniejszych rozdziałów rozdział dziewiętnasty-trzynasty może nie spełniać
+dostatecznie dobrze swojej roli. Szymon stwierdził nawet, że to był dla Niego jak dotąd rozdział
+*najprostszy*, a przecież zaczynam w nim (w rozdziale i w "czytelniku") wprowadzać język teorii
+kategorii, którą matematycy nazywają czasem [*abstrakcyjnym
+nonsensem*](https://en.wikipedia.org/wiki/Abstract_nonsense) (chociaż może [abstrakcyjny
+Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by pasowało).
 
 ### Przypisy
 
