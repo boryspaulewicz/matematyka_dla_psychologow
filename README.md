@@ -124,7 +124,7 @@ tym [czym jest zachowanie](./rozdzialy/02_Cel.md).
 
 Akt pisania książki jest co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
-*w ramach którego*, dzięki stałej autorefleksji (a może lepiej: *autor-refleksji*) i informacjom
+*w ramach którego*, dzięki stałej autorefleksji (a może lepiej: *autor-*re*fleksji*) i informacjom
 zwrotnym pochodzącym od jej czytelników, zachodzi proces uczenia *się* - choć nie da się powiedzieć
 jednoznacznie czego[^4] - i proces odkrywania czy raczej *ustalania się* być może jakiegoś *chwilowo
 dominującego*, ale nadal z konieczności *nieunikalnego celu*.
