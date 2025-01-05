@@ -625,7 +625,7 @@ example : a = c :=
     align="center">.</div><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
     Małp](https://en.wikipedia.org/wiki/Simian)
 
-[^2]: Nawiasem, albo raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
+[^2]: Nawiasem, a raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
     [tweeta](https://x.com/BRSLWP/status/1863200684859908573), którego zaraz polubił Pearl, ale
     który poza tym nie wzbudził szerszego zainteresowania, co mnie wcale nie dziwi, bo trudno
     spotkać ekspertów od przyczynowości, którzy by jednocześnie wiedzieli coś na temat teorii typów,
