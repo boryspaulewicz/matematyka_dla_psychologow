@@ -84,13 +84,17 @@ zmienne *y* i *x*) za pewne zmienne (wtedy za zmienne *x* i *y* *jako części d
 kreski*), a więc też musiałaś oczywiście *zrozumieć, co masz zrobić*.
 
 Wiesz, o co mi chodzi? Teraz, gdy na jakiś czas przestaliśmy polegać na Leanie i znowu sama
-*tworzysz kod* (rysując) a niebawem będziesz też sama *dokonywać ewaluacji*, to **Ty jesteś funkcją
-i jej ewaluatorką**, *która widzi, że dostała* **jakieś**, *niekoniecznie różne obiekty, które dla
-Ciebie są oznaczone* (albo *reprezentowane*) *przez `Punkt` `A`, `B` i `C`, jak również* **jakieś**,
-*niekoniecznie różne obiekty, które dla Ciebie są oznaczone jako `Strzalka` `f` i `g`, o których to
-obiektach wiesz tylko tyle, że `Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są więc dla
-Ciebie "opakowane" i nie możesz otworzyć tych opakowań.* W szczególności, nic nie jest
-"przyczepione" do tych elementów rysunku od spodu.
+*tworzysz kod* (rysując), a niebawem będziesz też sama *przekształcać wyrażenia zapisane w tym
+języku*, to **Ty jesteś funkcją** i jednocześnie to **Ty dokonujesz** (stale) **ewaluacji**. W
+szczególności, *jesteś funkcją, która widzi, że dostała* **jakieś**, *niekoniecznie różne obiekty,
+które dla Ciebie są oznaczone* (albo *reprezentowane*) *przez `Punkt` `A`, `B` i `C`, jak również*
+**jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone jako `Strzalka` `f` i `g`, o
+których to obiektach wiesz tylko tyle, że `Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są
+więc dla Ciebie "opakowane" i nie możesz otworzyć tych opakowań.* 
+
+Na razie nic nie jest "przyczepione" do tych elementów rysunku od spodu, i (zgaduję) nigdy nie
+będzie, ani nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi elementami *w Twojej
+głowie*. Ale może być i będzie, w następnym rozdziale.
 
 Punkty `A`, `B` i `C` są różne *jako zmienne*, ale mogłabyś przecież dostać w przyszłości dowód, że
 `A = C`, albo po prostu założyć taką hipotezę, i wtedy okazałoby się, że zmienna / paczka z etykietą
