@@ -292,7 +292,7 @@ i całej książki temat, a Szymon dostarczył mi dowód (który dla mnie musi o
 czwartego do szóstego. Muszę jednak zaznaczyć, że nie polecam omijania wcześniejszych rozdziałów, bo
 wtedy rozdział dziewiętnasty-trzynasty może nie spełniać dostatecznie dobrze swojej roli. Szymon
 stwierdził nawet, że to był dla Niego jak dotąd rozdział *najprostszy*, a przecież zaczynam w nim (w
-rozdziale i w "czytelniku") wprowadzać język teorii kategorii, którą matematycy nazywają czasem
+rozdziale i "w czytelniku") wprowadzać język teorii kategorii, którą matematycy nazywają czasem
 [*abstrakcyjnym nonsensem*](https://en.wikipedia.org/wiki/Abstract_nonsense) (chociaż może
 określenie [abstrakcyjny Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by
 pasowało).
