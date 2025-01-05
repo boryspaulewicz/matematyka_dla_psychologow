@@ -64,20 +64,21 @@ wyślij mi wiadomość, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
-powinny być zrozumiałe dla *licealistów*, a jeśli nie będą, to spróbuję sprawić, żeby były. Piszę tą
-książkę w tym momencie przede wszystkim dla studentów psychologii, ale wydaje mi się, że mogliby z
-niej skorzystać również badacze i teoretycy (chociaż teoretycy to w psychologii prawie nieistniejący
-gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie, niemal
+powinny być zrozumiałe dla *licealistów*. Informacje zwrotne, które otrzymałem do tej pory,
+wskazują, że jak dotąd faktycznie tak jest, a jeśli przestanie tak być, to spróbuję sprawić, żeby
+znowu było. Piszę tą książkę przede wszystkim dla studentów psychologii, ale wydaje mi się, że
+mogliby z niej skorzystać również badacze i teoretycy (chociaż teoretycy to w psychologii prawie
+nieistniejący gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie, niemal
 [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do programowania i
 teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i meta-matematyki, później
 zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersjach bayesowskiej i
-częstościowej. Korzystając z tych narzędzi omówię później kilka podstawowych zagadnień z obszaru
-szeroko rozumianej metodologii badań. Z kolei w planowanej drugiej części mam nadzieję uzasadnić,
-objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
-szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
-[tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
-[doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej, a niektórymi nawet wcześniej.
+częstościowej. Korzystając z tych narzędzi omówię kilka podstawowych zagadnień z obszaru szeroko
+rozumianej metodologii badań. Z kolei w planowanej drugiej części mam nadzieję uzasadnić, objaśnić i
+zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w szczególności
+i nauki empiryczne w ogólności (więcej na ten temat znajdziesz [tutaj](./rozdzialy/02_Cel.md)). Ta
+propozycja będzie kontynuacją i rozwinięciem wątków z [doktoratu](./rozdzialy/praca_doktorska.pdf),
+którymi zacząłem się zajmować jeszcze na etapie pisania pracy magisterskiej, a niektórymi nawet
+wcześniej.
 
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
