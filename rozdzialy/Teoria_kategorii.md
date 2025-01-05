@@ -620,8 +620,8 @@ example : a = c :=
     align="center"><a href="https://en.wikipedia.org/wiki/Crusades">że</a></div><br><div
     align="center"><a
     href="https://www.npr.org/2022/12/08/1141601301/the-myth-of-plastic-recycling">są</a></div><br><div
-    align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div><br><div
-    align="center"><a href="https://en.wikipedia.org/wiki/Gun_control">od</a></div><br> [Wspaniałych
+    align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div><br> <br>
+    [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
     Małp](https://en.wikipedia.org/wiki/Simian)
 
 [^2]: Nawiasem, albo raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
