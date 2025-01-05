@@ -293,7 +293,8 @@ wtedy rozdział dziewiętnasty-trzynasty może nie spełniać dostatecznie dobrz
 stwierdził nawet, że to był dla Niego jak dotąd rozdział *najprostszy*, a przecież zaczynam w nim (w
 rozdziale i w "czytelniku") wprowadzać język teorii kategorii, którą matematycy nazywają czasem
 [*abstrakcyjnym nonsensem*](https://en.wikipedia.org/wiki/Abstract_nonsense) (chociaż może
-[abstrakcyjny Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by pasowało).
+określenie [abstrakcyjny Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by
+pasowało).
 
 ### Przypisy
 
