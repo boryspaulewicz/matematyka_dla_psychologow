@@ -289,12 +289,11 @@ wersji początkowych, Emil zmotywował mnie, żeby napisać więcej na pewien kl
 i całej książki temat, a Szymon dostarczył mi dowód (który dla mnie musi odgrywać rolę aksjomatu),
 że ten rozdział może w całości zrozumieć czternastolatek, o ile tylko ma za sobą rozdziały od
 czwartego do szóstego. Muszę jednak zaznaczyć, że nie polecam omijania wcześniejszych rozdziałów, bo
-bez przeczytania wcześniejszych rozdziałów rozdział dziewiętnasty-trzynasty może nie spełniać
-dostatecznie dobrze swojej roli. Szymon stwierdził nawet, że to był dla Niego jak dotąd rozdział
-*najprostszy*, a przecież zaczynam w nim (w rozdziale i w "czytelniku") wprowadzać język teorii
-kategorii, którą matematycy nazywają czasem [*abstrakcyjnym
-nonsensem*](https://en.wikipedia.org/wiki/Abstract_nonsense) (chociaż może [abstrakcyjny
-Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by pasowało).
+wtedy rozdział dziewiętnasty-trzynasty może nie spełniać dostatecznie dobrze swojej roli. Szymon
+stwierdził nawet, że to był dla Niego jak dotąd rozdział *najprostszy*, a przecież zaczynam w nim (w
+rozdziale i w "czytelniku") wprowadzać język teorii kategorii, którą matematycy nazywają czasem
+[*abstrakcyjnym nonsensem*](https://en.wikipedia.org/wiki/Abstract_nonsense) (chociaż może
+[abstrakcyjny Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by pasowało).
 
 ### Przypisy
 
