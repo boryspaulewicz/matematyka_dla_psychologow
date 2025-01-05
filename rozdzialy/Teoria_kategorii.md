@@ -610,7 +610,7 @@ example : a = c :=
 
 ### Przypisy
 
-[^1]: A dokładniej zwierzętami, które raczej <br><div align="center">**∘**</div><br> <div
+[^1]: A dokładniej zwierzętami, które raczej <br><div align="center"><b>∘</b></div><br> <div
     align="center"><a
     href="https://pl.wikipedia.org/wiki/Zag%C5%82ada_%C5%BByd%C3%B3w">nie</a></div><br><div
     align="center"><a
@@ -622,7 +622,7 @@ example : a = c :=
     align="center"><a
     href="https://www.npr.org/2022/12/08/1141601301/the-myth-of-plastic-recycling">są</a></div><br><div
     align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div><br> <div
-    align="center">.</div><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
+    align="center"><b>∘</b></div><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
     Małp](https://en.wikipedia.org/wiki/Simian)
 
 [^2]: Nawiasem, a raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
