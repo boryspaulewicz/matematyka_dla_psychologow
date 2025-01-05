@@ -147,3 +147,9 @@ W ten sposób, że:
     
     4-2. `f ∘ (g ∘ h) = (f ∘ g) ∘ h`
 
+Zacząłem tutaj stosować "skróty myślowe" polegające na tym, że nie zaznaczyłem, że strzałki, o
+złożeniach któryś coś mówimy, muszą być składalne. Dlatego pominąłem tutaj *konieczny* warunek
+*Jeżeli `f`, `g` i `h` to takie strzałki, że* `Skladalne h g` *i* `Skladalne g f` *to ...*. Nie
+oznaczyłem też nazw punktów, do których są "przymocowane" strzałki identycznościowe. A zastosowałem
+te skróty myślowe, bo już wiesz, że w teorii kategorii operacja składania jest wybredna i często
+będzie nam obojgu wygodniej tylko o tym *pamiętać*.
