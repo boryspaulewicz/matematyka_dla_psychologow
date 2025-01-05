@@ -380,6 +380,15 @@ perspektywy to *aksjomat*. Zrobiłem tak, ponieważ jestem (również subiektywn
 prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się zdaje, to jest do jawnego lub
 niejawnego *zawężenia kręgu odbiorców* sprowadza się rola tego rodzaju decyzji.
 
+Jeżeli poczułaś się urażona tym mocnym, negatywnym określeniem, to zapewniam Cię, że byłoby mi z
+tego powodu przykro (gdybym się o tym dowiedział), ale mimo to napisałem to, co napisałem, ponieważ
+uważam, że *powinnaś znać moją postawę*. Chcę być jednocześnie wobec Ciebie i siebie *uczciwy*, a to
+wymaga czasem wypowiedzenia wprost czegoś, co dla drugiej strony może być trudne nawet tylko do
+przeczytania albo wysłuchania. Przekonasz się zresztą w jednym z następnych rozdziałów, jeżeli tylko
+zechcesz czytać dalej, że moja postawa wobec Anzelma, jego dowodu na istnienie Boga i w ogóle ludzi
+wierzących i praktyk, które wierzący stosują, nie jest ani szczególnie radykalna, ani szczególnie
+prosta.
+
 Następna zakładka nosi szumną nazwę *Wyprowadzenie dowodu*.
 
 1. Niech „coś, ponad co nic większego nie można pomyśleć” będzie określeniem Boga, które mniej lub
