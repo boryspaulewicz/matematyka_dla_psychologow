@@ -610,7 +610,8 @@ example : a = c :=
 
 ### Przypisy
 
-[^1]: A dokładaniej zwierzętami, które raczej <div align="center"><a
+[^1]: A dokładaniej zwierzętami, które raczej <br><div align="center">**.**</div><br> <div
+    align="center"><a
     href="https://pl.wikipedia.org/wiki/Zag%C5%82ada_%C5%BByd%C3%B3w">nie</a></div><br><div
     align="center"><a
     href="https://pl.wikipedia.org/wiki/Globalne_ocieplenie">mają</a></div><br><div
