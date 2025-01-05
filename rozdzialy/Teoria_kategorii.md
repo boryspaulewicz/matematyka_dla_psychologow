@@ -622,7 +622,7 @@ example : a = c :=
     align="center"><a
     href="https://www.npr.org/2022/12/08/1141601301/the-myth-of-plastic-recycling">są</a></div><br><div
     align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div><br> <div
-    align="center">.</a><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
+    align="center">.</div><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
     Małp](https://en.wikipedia.org/wiki/Simian)
 
 [^2]: Nawiasem, albo raczej przypisem mówiąc, ten wgląd zapisałem szybko jako
