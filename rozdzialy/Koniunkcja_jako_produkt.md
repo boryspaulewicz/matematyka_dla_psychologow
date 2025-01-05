@@ -23,7 +23,7 @@ pewna *kolekcja* (jakiś) elementów czy obiektów. To, że teoria *ZF* ma statu
 podstawowych w matematyce oznacza między innymi, że można skonstruować rozmaite obiekty matematyczne
 posługując się tylko zbiorami. Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
-$\set{1, 20, \*, X, -3.4}$
+`{1, 20, *, X, -3.4}`
 
 Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, bo zapisane dosłownie nie
 zmieściłyby się na żadnej stronie. Wymyślając ten przykład chciałem od razu zasugerować, że (zgodnie
