@@ -592,4 +592,4 @@ pierwszych rozdziałów staną się dla Ciebie w miarę jasne.
     się [socjometrycznymi gwiazdami](https://pl.wikipedia.org/wiki/Gwiazda_socjometryczna). Nie ma
     za co.
 
-[3^]: གང་ལ་སྟོང་པ་ཉིད་སྲིད་པ། ། དེ་ལ་དོན་རྣམས་ཐམས་ཅད་སྲིད། ། གང་ལ་སྟོང་ཉིད་མི་སྲིད་པ། ། དེ་ལ་ཅི་ཡང་མི་སྲིད་དོ། །
+[^3]: གང་ལ་སྟོང་པ་ཉིད་སྲིད་པ། ། དེ་ལ་དོན་རྣམས་ཐམས་ཅད་སྲིད། ། གང་ལ་སྟོང་ཉིད་མི་སྲིད་པ། ། དེ་ལ་ཅི་ཡང་མི་སྲིད་དོ། །
