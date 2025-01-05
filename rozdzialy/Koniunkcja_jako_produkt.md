@@ -31,32 +31,35 @@ z dominującym w matematyce zwyczajem) zbiory mogą zawierać dowolne elementy, 
 które nie należą do żadnego dającego się łatwo zidentyfikować rodzaju albo typu. A więc zbiory to
 takie dowolne kolekcje potencjalnie różnorodnych elementów.
 
-Jak już wiesz, można powiedzieć, że funkcja to pewien "obiekt", który przyporządkowuje każdemu
-elementowi swojej dziedziny dokładnie jeden element swojej przeciwdziedziny. Żeby mieć jasny obraz
-sytuacji, przygotuj proszę czystą kartkę i `Narysus okrag` o średnicy kroku. O krok w prawo od
-prawego brzegu tego okręgu również `Narysuj okrag`. W lewym okręgu `Narysuj Punkt x₁`, `Narysuj
-Punkt x₂` i `Narysuj Punkt x₃`, jeden nad drugim, oznaczając je indeksowanymi literami `x` (to
-znaczy oznaczając je jako `x₁`, `x₂` i `x₃`) z *lewej* strony. W prawym okręgu tak samo `Narysuj`
-punkty `y₁`, `y₂` i `y₃`, oznaczając je z *prawej*.
+**Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien "obiekt", który
+przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
+przeciwdziedziny. Żeby mieć jasny obraz sytuacji, przygotuj proszę czystą kartkę i z pewej strony
+`Narysus okrag` o średnicy kroku. O krok w prawo od prawego brzegu tego okręgu również `Narysuj
+okrag`. W lewym okręgu `Narysuj Punkt x₁`, `Narysuj Punkt x₂` i `Narysuj Punkt x₃`, jeden nad
+drugim, oznaczając je z *lewej* strony indeksowanymi literami `x`, czyli oznaczając je jako `x₁`,
+`x₂` i `x₃`. W prawym okręgu tak samo `Narysuj` punkty `y₁`, `y₂` i `y₃`, ale te oznacz z *prawej*.
 
-Mamy już (kandydata na) dziedzinę `X` i (kandydata na) przeciwdziedzinę `Y`. Stosujemy tutaj dosyć
-powszechną konwencję, zgodnie z którą duże litery oznaczają zbiory, a małe litery oznaczają
-elementy. Czasami nie sposób trzymać się tej konwencji konsekwentnie, ponieważ zdarza się, właściwie
-dość często, że elementami zbiorów są również zbiory, ale tym razem takie komplikacje nie wystąpią.
+Mamy już (kandydata na) dziedzinę `X` i (kandydata na) przeciwdziedzinę `Y`, a więc możemy (za
+pomocą rysunku) *zdefiniować* jakąś *funkcję*. Stosujemy tutaj dosyć powszechną konwencję, zgodnie z
+którą duże litery oznaczają zbiory, a małe litery oznaczają elementy. Czasami nie sposób trzymać się
+tej konwencji konsekwentnie, ponieważ elementami niektórych zbiorów są również zbiory, ale tym razem
+takie komplikacje nie wystąpią.
 
-Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są elementy zbioru *nie ma znaczenia*, tak
-samo jak nie ma znaczenia, czy ten sam element zapiszemy *więcej niż raz*. Na przykład, `{1, 2}` to
-*ten sam zbiór* co `{2, 1}` i *ten sam zbiór* co `{1, 1, 2}`, bo do wszystkich tych zbiorów *należą
-dokładnie te same elementy*, to jest `1` i `2`, a to, które elementy do danego zbioru należą, a
-które nie, *decyduje o tożsamości zbioru*. Celowo napisałem *ten sam zbiór*, a nie na przykład *ten
-sam obiekt*, bo takie *zapisy* można przecież *interpretować dowolnie* (interpretacja jest zawsze
-pewnym *wyborem*, pamiętasz?), a z pewnych punktów widzenia te trzy wyrażenia na pewno mogłyby
-oznaczać różne "rzeczy". A mówiąc to samo, ale inaczej: To, które elementy należą, a które nie
-należą do danego zbioru decyduje o tym, które zbiory są *równe*, czyli *nierozróżnialne jako
-zbiory*, czyli *wzajemnie zastępowalne jako zbiory*. Zastąpienie w dowolnym miejsu, w którym ma
-występować jakiś zbiór, na przykład zbioru `{1, 2}` przez zbiór `{2, 1, 1}` *nic nie zmieni*, to
-jest zdanie pozostanie prawdziwe albo fałszywe, jeżeli to było miejsce w jakimś zdaniu, i dany
-obiekt pozostanie tym samym obiektem, jeżeli to była część wyrażenia charakteryzującego jakiś
+**Tożsamość zbiorów**: Te liczbowe indeksy dolne mogą być mylące. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są
+elementy zbioru *nie ma znaczenia*, tak samo jak nie ma znaczenia, czy ten sam element zapiszemy
+*więcej niż raz*. Na przykład, `{1, 2}` to *ten sam zbiór* co `{2, 1}` i *ten sam zbiór* co `{1, 1,
+2}`, bo do wszystkich tych zbiorów *należą dokładnie te same elementy*, to jest `1` i `2`, a to,
+które elementy do danego zbioru należą, a które nie, *decyduje o tożsamości zbioru*. 
+
+Celowo napisałem *ten sam zbiór*, a nie na przykład *ten sam obiekt*, bo takie *zapisy* jak `{1, 1,
+2}` można przecież *interpretować dowolnie* (interpretacja jest zawsze pewnym *wyborem*,
+pamiętasz?), a z pewnych punktów widzenia te trzy wyrażenia na pewno mogłyby oznaczać różne
+"rzeczy". A mówiąc to samo, ale inaczej: To, które elementy należą, a które nie należą do danego
+zbioru decyduje o tym, które zbiory są *równe*, czyli *nierozróżnialne jako zbiory* (relacja
+równości jest zawsze typowana), czyli *wzajemnie zastępowalne jako zbiory*. Zastąpienie w dowolnym
+miejsu, *w którym ma być jakiś zbiór* na przykład zbioru `{1, 2}` przez zbiór `{2, 1, 1}` *nic nie
+zmieni*, to jest zdanie pozostanie prawdziwe albo fałszywe, jeżeli to było miejsce w jakimś zdaniu,
+i dany obiekt pozostanie tym samym obiektem, jeżeli to była część wyrażenia charakteryzującego jakiś
 obiekt.
 
 Można więc powiedzieć, że *każdy* zbiór jest *tym samym*, co pewna *kolekcja zdań* mówiących o tym,
@@ -67,44 +70,154 @@ zbioru *nie ulegnie zmianie*, gdy te zdania zapiszemy w innej kolejności, albo 
 zapiszemy więcej niż raz.
 
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
-y₂⟩`. Zgadza się, chcemy, żeby element `y₃` ["został na
+y₂⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₃` ["został na
 lodzie"](https://sjp.pwn.pl/ciekawostki/haslo/zostawic-kogos-na-lodzie;5391760.html). Oznacz ten
-rysunek od góry literą `f`, jak *funkcja*, bo to jest pewna funkcja: Każdemu elementowi zbioru `X`
-przyporządkowałaś właśnie dokładnie jeden element zbioru `Y`. To jest użyteczny *przykład
+rysunek od góry literą `f`, jak *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X`
+przyporządkowałaś właśnie *dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład
 reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy
 element przeciwdziedziny i często zdarza się, że niektóre elementy "trafiają" w ten sam element.
 
-Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa przykłady sposobów
-przyporządkowania element*om* (czyli to będą *źródła* strzałek) jakiegoś zbioru `X` (bo po co
-wymyślać dla kolejnych przykładów ciągle nowe nazwy) elementy (czyli to będą *cele*) jakiegoś zbioru
-`Y`, tak, żeby to *nie* były funkcje. "Zepsuć funkcyjność" można na dokładnie *dwa* sposoby - albo
-jakiś element z lewej będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś element z lewej *nie
-będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi charakterystykami pewnych *relacji*,
-ale nie funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już wyjaśniłem.
+**Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
+przykłady sposobów przyporządkowania element*om* (czyli to będą *źródła* strzałek) jakiegoś zbioru
+`X` (bo po co wymyślać dla kolejnych przykładów ciągle nowe nazwy) elementy (czyli to będą *cele*)
+jakiegoś zbioru `Y`, tak, żeby to *nie* były funkcje. A "zepsuć funkcyjność" można na dokładnie
+*dwa* sposoby - albo jakiś element z lewej będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś
+element z lewej *nie będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi definicjami
+*relacji*, ale nie funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już wyjaśniłem.
 
-Można więc myśleć o funkcjach jako o abstrakcyjnych własnościach pewnego rodzaju. Na przykład, można
-powiedzieć, że na Twoim pierwszym rysunku każdy element zbioru `X` ma określoną `f-`*własność*
-`Y`. Albo można o funkcjach myśleć jako o *doskonałych pomiarach* pewnych właściwości. Jak zawsze,
-warto o tym samym myśleć czasem na wiele różnych sposobów.
+**Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
+tym samym na kilka różnych sposobów: O tak rozumianych funkcjach można myśleć jako o abstrakcyjnych
+*własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym rysunku każdy
+element zbioru `X` ma określoną `f-`*własność* `Y`. Podobnie każdy ma dokładnie jedno pierwsze imię
+i dokładnie jedną datę urodzenia, a więc te własności to są takie *funkcje osób*. Albo można o
+funkcjach myśleć jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych* pewnych
+właściwości albo wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju
+*kompletnych oznaczeniach* w tym sensie, że *każdy* element dziedziny jest wykorzystany do
+*oznaczenia* jakiegoś *jednego* elementu przeciwdziedziny. Z tego punktu widzenia każdy `x`
+`f`-oznacza jakiś `y`. Dobrze jest czasem spróbować pomyśleć o takiej funkcji choć raz na każdy z
+tych sposobów, bo czasem trudno przewidzieć, który z tych punktów widzenia pozwoli zrozumieć jakiś
+problem w którym ważną rolę odgrywają funkcje lepiej.
 
 Odtąd ograniczymy nasze rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
-skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (albo *przestrzeń*) w
-którym istnieją tylko zbiory skończone, w którym występują dowolne takie zbiory, a także
-wszystkie możliwe funkcje między takimi zbiorami.
+skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (lepiej: *przestrzeń*)
+w którym istnieją tylko zbiory skończone, w którym występują dowolne takie zbiory, i w którym
+występują wszystkie możliwe funkcje między takimi zbiorami. Na początek omówimy kilka ważnych
+przykładów.
+
+**Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
+siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
+jedną kropkę. Czy widzisz, że istnieje tylko jedna funkcja ze zbioru lewego do prawego? Narysuj
+proszę tą funkcję.
+
+**Rysunek 3. Funkcje ze zbioru pustego**: A teraz `Narysuj` proszę obok siebie dwa zbiory, `X` i
+`Y`, ale takie, że w lewym *nic* nie będzie, a w prawym będą na przykład dwa elementy. Jak już
+wiesz, żeby "coś" było funkcją, musi przyporządkowywać każdemu elementowi dziedziny dokładnie jeden
+element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`? Wydawałoby się, że
+nie, prawda? A jednak istnieje! To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery
+w słowie *pusty*), że *gdybyś* wybrała dowolny element zbioru `X`, to dostarczyła*by* dokładnie
+jeden element ze zbioru `Y`. Ponieważ w `X` nie ma żadnych elementów, to ta funkcja *nie może* nic
+zwrócić. A zatem ta funkcja "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
+teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
+abstrakcyjna, bo w pewien sposób wirtualna, jak term(y) typu `Absurd`. Tyle, że ta funkcja
+*istnieje* (na mocy konwencji). Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie
+funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
+przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna funkcja ze zbioru
+pustego do niego samego. Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą `p`,
+a pod spodem zapisz komentarz: Dla każdego zbioru `Y`, istnieje dokładnie jedna funkcja ze zbioru
+pustego do `Y`. Może i trudno się z tym pogodzić, ale to tylko konwencja (która się sprawdza w
+praktyce).
+
+**Rysunek 4. Identyczność na dwa sposoby**: `Narysuj` teraz proszę trzyelementowy zbiór
+`X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) =
+x`. Zastanów się proszę przez chwilę jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś pomysł,
+albo się poddasz, przeczytaj moje objaśnienia [tutaj](/Rysunek_identycznosc.md). Jeżeli przyszedł Ci
+do głowy tylko jeden sposób, to również kliknij w ten link. Jak już narysujesz tą funkcję, podpisz
+ją proszę komentarzem *Przykład funkcji identycznościowej*.
+
+**Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
+trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
+nie posyła żadnych dwóch `x`-ów do tego samego `y`-ka. Takie funkcje nazywamy *injekcjami* albo
+funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie
+może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że każda injekcja to pewien *wybór*
+albo *wskazanie podzbioru* przeciwdziedziny?
+
+**Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję z trójelementowego zbioru `X` do
+dwuelementowego zbioru `Y`, ale taką, żeby każdy `y` "został trafiony". Takie funkcje nazywamy
+*surjekcjami* albo funkcjami *na*. Czy widzisz, że każda taka funkcja jest *podziałem całej
+dziedziny* na rozłączne kategorie (albo podzbiory)?
+
+**Rysunek 7. Przykład bijekcji**: *Bijekcjami* nazywamy takie funkcje, które są jednocześnie
+injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli takie, które nie
+sklejają żadnych elementów i trafiają we wszystkie elementy. `Narysuj` proszę bijekcję z
+czteroelementowego zbioru `X` do czteroelementowego zbioru `Y` i oznacz ją literą `f`. Czy wiesz,
+dlaczego nie może istnieć bijekcja, w dowolnym kierunku, między zbiorami które *różnią się
+wielkością*?
+
+Bijekcje są *przykładami* izomorfizmów, ale pojęcie izomorfizmu, jak się później przekonasz, jest
+ogólniejsze. Czy widzisz, że izomorfizm jest jak powiedzenie dokładnie tego samego, tylko innymi
+słowami albo symbolami? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie
+jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie
+zmienia. Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomorfizmów jest ich
+*odwracalność*. Dlatego proszę, żebyś narysowała jeszcze odwrotność funkcji `f`. To ma być taka
+funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, czyli: Jeżeli do dowolnego `x` zastosujesz
+`f`, to `f⁻¹(f(x)) = x`. 
+
+Czy widzisz, że gdy już masz jakąś funkcję `f`, to może istnieć co najwyżej jedna funkcja `f⁻¹`?
+Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś funkcji odwracalnej, czyli jakiejś
+bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dziedziny *musi* przyporządkować
+dokładnie ten element, który w niego "`f`-trafia".  Właśnie dlatego, że taka funkcja, jeżeli
+istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest *unikalna*, oznaczamy ją jako
+`f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *coś, co powstaje w pewien sposób z
+funkcji* `f`. Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka
+funkcja nie może być odwracalna.
+
+**Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
+zbiory, `X`, `Y` i `Z` takie, że pierwszy ma trzy elementy, drugi powiedzmy cztery i trzeci może też
+cztery. Zdefiniuj rysując strzałki jakąś funkcję `f : X → Y`, czyli funkcję ze zbioru `X` do zbioru
+`Y` i jakąś funkcję `g : Y → Z`. Pod spodem zapisz komentarz: Teoriomnogościowe złożenie funkcji `f`
+i `g` to taka funkcja `g ∘ f` (zapisujemy to w ten sposób w *tej* kolejności), że `(g ∘ f)(x) :=
+g(f(x))` (właśnie dlatego w tej kolejności). 
+
+Pod komentarzem `Narysuj` tą funkcję, to znaczy, najpierw skopiuj tylko zbiory `X` i `Y`, a
+następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
+można na Twoim rysunku dojść po strzałkach do tych `y`-ów "idąc funkcjami" `f` i `g`. Oznacz tą
+funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy widzisz, że
+ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w ten sposób
+zawsze uzyskamy dokładnie jedną funkcję?  Teoriomnogościowe składanie jest więc *szczególnym
+przypadkiem "działania wybrednego"*, które *zachowuje się tak samo, jak kategoryjne składanie
+strzałek*. O tym, w jakim sensie dokładnie tak samo powiem później.
+
+Czy rozumiesz, dlaczego, jeżeli `f : X → Y`, to jeżeli `Id_x : X → X` i `Id_y : Y → Y`, to `Id_y ∘ f
+= f = f ∘ Id_y`? Musiałem tutaj inaczej oznaczyć identyczności, bo Unicode nie pozwala na zapisanie
+na przykład litery `Y` jako indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym skontruowaniu dowodu
+i jednocześnie sprawdzeniu go w podobny sposób do tego, w jaki mógłby to zrobić Lean.
+
+O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
+co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
+funkcji, żeby upewnić się, że `Id_y ∘ f` oznacza funkcję, która ma taką samą dziedzinę i
+przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_y`, a więc te trzy funkcje *mogą* być tą samą
+funkcją. A czy są? Niech `x` będzie dowolnym elementem zbioru `X`. Wtedy (rozwijamy definicję
+składania teoriomnogościowego) `(Id_y ∘ f)(x) = Id_y(f(x))`, a ponieważ (stosujemy definicję funkcji
+identycznościowej) `Id_y(f(x)) = f(x)`, to (przechodniość relacji równości) `(Id_y ∘ f)(x) =
+f(x)`. Czyli dla każdego `x ∈ X` jest prawdą, że `(Id_y ∘ f)(x) = f(x)`, a więc `Id_y ∘ f` to ta
+sama funkcja, co `f`, czyli `Id_y ∘ f = f`. 
+
+**Sugestia**: Dokończ ten dowód w tym stylu dla drugiej równości, to jest dla `f = f ∘
+Id_y`. Przeprowadzając taki dowód warto chociaż raz powstrzymać się przed robieniem daleko idących
+skrótów myślowych.
 
 ## An arrow is an arrow is an arrow ...
 
-Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś mogła czuć w miarę
+Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś mogła czuć się w miarę
 bezpiecznie. Będziemy teraz [mówić jednocześnie w kilku
 językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych, języku
-teorii kategorii, języku teorii typów i języku naturalnym.
+teorii kategorii, (tak jakby) w języku teorii typów i w języku naturalnym.
 
-`∀ X : Zbior`, istnieje funkcja `Idₓ` taka, że `f(x) = x`. Poznajesz? To nic innego jak (w tym
-momencie teoriomnogościowa) identyczność działająca na elementach zbioru `X`. Poniżej najniższego
-rysunku `Narysuj Punkt X` i strzałkę o nazwie `Idₓ`, która zawija się w taki sposób, że `Zrodlo Idₓ`
-i `Cel Idₓ` to `Punkt X`. Zwróć uwagę, że ten rysunek to *wyrażenie w języku teorii kategorii*, a
-*nie* w języku teorii zbiorów. To znaczy, że właśnie *zmieniłaś język*, a więc również *punkt
-widzenia*.
+`∀ X : Zbior`, istnieje funkcja identycznościowa `Id_x`, to jest taka, że `Id_x(x) = x`. Poniżej
+najniższego rysunku `Narysuj Punkt X` i strzałkę o nazwie `Idₓ`, która zawija się w taki sposób, że
+`Zrodlo Idₓ` i `Cel Idₓ` to `Punkt X`. Zwróć uwagę, że ten rysunek to *wyrażenie w języku teorii
+kategorii*, a *nie* w języku teorii zbiorów. To znaczy, że właśnie *zmieniłaś język*, a więc również
+*punkt widzenia*.
 
 Na to, co wcześniej nazywałem punktami, zwykle używa się nazwy *obiekt* , jednak zależało mi, żebyś
 pamiętała, że *w teorii kategorii* obiekty to *tylko punkty zaczepienia strzałek*. Strzałki w tej
@@ -203,8 +316,8 @@ posłać każdy element swojej dziedziny (bo jest funkcją), a przeciwdziedzina 
 element. I odwrotnie, jeżeli zbiór $T$ ma taką własność, że dla każdego zbioru $S$ istnieje
 dokładnie jedna funkcja $f : S → T$, to zbiór $T$ musi być zbiorem jednoelementowym, bo gdyby $T$
 był zbiorem pustym, to na przykład $f : \set{1, 2, 3} → T$ nie mogłoby istnieć, a gdyby $T$ miało
-więcej niż jeden element, to dla każdego niepustego zbioru $S$ istniałyby różne funkcje, które
-posyłają $S$ w $T$.
+więcej niż jeden element, to dla każdego niepustego zbioru $S$ istniałyby różne funkcje posyłające
+$S$ w $T$.
 
 A to oznacza, że zbiory jednoelementowe to *dokładnie* takie *punkty*, do których wchodzi dokładnie
 jedna strzałka od każdego punktu.
