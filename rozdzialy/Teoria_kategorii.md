@@ -145,7 +145,7 @@ dzieje? Manifestuje się w zachowaniu drugiej osoby magiczna wolna wola i tak si
 tego się z definicji nie da stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o
 godzinę uruchamiasz w "drugim" człowieku pewien proces, o którym w takich sytuacjach z góry wiesz,
 że prawie na pewno zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową
-tendencję do współdziałania, której zresztą dosłownie prawie wszystko zawdzięczamy dosłownie każdego
+tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczamy dosłownie każdego
 dnia. Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój"
 zegarek* i że to *jest autonomiczny, zasługujący na szacunek człowiek*.
 
