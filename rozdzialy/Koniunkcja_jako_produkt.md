@@ -30,7 +30,7 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 
 `{0, 1, 2, 3, 4, ...}`
 
-albo tak ...
+lub tak ...
 
 `{n ∈ ℕ | Dodatnie n}`
 
