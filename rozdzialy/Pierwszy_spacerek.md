@@ -134,4 +134,4 @@ ograniczenia, ta wersja jest moim zdaniem znacznie lepsza, niż nic. Wystarcza n
 zilustrowania wielu ciekawych zastosowań tego twierdzenia w psychologii, albo do snucia ogólnych
 rozważań na temat oceny hipotez empirycznych.
 
-Będziemy robić podobne rzeczy, ale nie na kartce.
+Będziemy robić podobne rzeczy, ale do pewnego momentu nie będziemy ich robić na kartce.
