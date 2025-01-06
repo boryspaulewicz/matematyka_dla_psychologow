@@ -234,31 +234,43 @@ narysowało się najpierw dwa koła.
 
 Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
 następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
-można na Twoim rysunku dojść idąc po (dwóch) strzałkach do tych `y`-ów "idąc funkcjami" `f` i
-`g`. Oznacz tą funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy
+można na Twoim rysunku dojść, idąc po (dwóch) strzałkach, do tych `y`-ów, "idąc" w ten sposób
+"funkcjami" `f` i `g`. Czy widzisz, że niezależnie od tego, jakimi funkcjami są takie składalne
+funkcje `f` i `g`, gdy zaczniesz od dowolnego `x`-a i będziesz podążać za `f` i za `g`, to nie
+będziesz mieć nigdy żadnego wyboru i jednocześnie zawsze dojdziesz do jakiegoś `y`-a? 
+
+Oznacz tą funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy
 widzisz, że ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w
 ten sposób *zawsze* z dwóch składalnych funkcji uzyskamy dokładnie jedną funkcję?  Teoriomnogościowe
-składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które *zachowuje się tak samo,
-jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem później.
+składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które *zachowuje się tak samo
+jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem trochę więcej
+później.
 
-Czy rozumiesz, dlaczego jeżeli `f : X → Y`, to `Id_y ∘ f = f = f ∘ Id_y`? Musiałem tutaj inaczej
-oznaczyć identyczności, bo Unicode nie pozwala na zapisanie na przykład litery `Y` jako indeksu
-dolnego. Spróbuję Ci teraz pomóc w ręcznym skontruowaniu dowodu i jednocześnie sprawdzeniu go w
-podobny sposób do tego, w jaki mógłby to zrobić Lean.
+Czy rozumiesz, dlaczego jeżeli `f : X → Y`, to `Id_Y ∘ f = f = f ∘ Id_X`? Musiałem tutaj znowu
+inaczej oznaczyć identyczności, bo Unikod nie pozwala na zapisanie na przykład litery `Y` jako
+indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym skontruowaniu dowodu tych *dwóch* albo nawet
+*trzech zdań* (mamy tu dwie równości i jedną konsekwencję przechodniości relacji równości) i
+jednocześnie sprawdzeniu go w podobny sposób do tego, w jaki mógłby to zrobić Lean.
 
 O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
-funkcji, żeby upewnić się, że `Id_y ∘ f` oznacza funkcję, która ma taką samą dziedzinę i
-przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_y`, a więc te trzy funkcje *mogą* być tą samą
-funkcją. A czy są? Niech `x` będzie dowolnym elementem zbioru `X`. Wtedy (rozwijamy definicję
-składania teoriomnogościowego) `(Id_y ∘ f)(x) = Id_y(f(x))`, a ponieważ (stosujemy definicję funkcji
-identycznościowej) `Id_y(f(x)) = f(x)`, to (przechodniość relacji równości) `(Id_y ∘ f)(x) =
-f(x)`. Czyli dla każdego `x ∈ X` jest prawdą, że `(Id_y ∘ f)(x) = f(x)`, a więc `Id_y ∘ f` to ta
-sama funkcja, co `f`, czyli `Id_y ∘ f = f`. 
+funkcji, żeby upewnić się, że `Id_Y ∘ f` oznacza funkcję, która ma taką samą dziedzinę i
+przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje w ogóle *mogą* być
+tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny to byłyby automatycznie różnymi
+funkcjami). Ale czy są? Niech `x` będzie dowolnym elementem zbioru `X`. Wtedy (rozwijamy definicję
+składania teoriomnogościowego) `(Id_Y ∘ f)(x) = Id_Y(f(x))`, a ponieważ (stosujemy definicję funkcji
+identycznościowej) `Id_Y(f(x)) = f(x)`, to (stosujemy przechodniość relacji równości) `(Id_Y ∘ f)(x)
+= f(x)`. Czyli dla każdego `x ∈ X` jest prawdą, że `(Id_Y ∘ f)(x) = f(x)`, a więc (bo to oznacza, że
+kryterium równości funkcji jest dla tych dwóch funkcji spełnione) `Id_Y ∘ f` to ta sama funkcja,
+co `f`, czyli `Id_Y ∘ f = f`.
 
-**Sugestia**: Dokończ ten dowód w tym stylu dla drugiej równości, to jest dla `f = f ∘
-Id_y`. Przeprowadzając taki dowód warto chociaż raz powstrzymać się przed robieniem daleko idących
-skrótów myślowych.
+**Sugestia**: Dokończ ten dowód w tym stylu dla drugiej równości, to jest dla `f = f ∘ Id_y`, tylko
+może nie pisz aż tyle co ja. Przeprowadzając taki dowód warto jednak chociaż raz powstrzymać się
+przed robieniem daleko idących skrótów myślowych.
+
+## Iloczyn kartezjański zbiorów
+
+## Suma rozłączna zbiorów
 
 ## An arrow is an arrow is an arrow ...
 
