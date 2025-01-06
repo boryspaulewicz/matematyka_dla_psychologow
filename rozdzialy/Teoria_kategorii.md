@@ -149,23 +149,23 @@ tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczam
 dnia. Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój"
 zegarek* i że to *jest autonomiczny, zasługujący na szacunek człowiek*.
 
-Jeżeli tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten fragment, to
+Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz ten fragment, to
 mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
 szczegóły są nowe. A właściwie przecież już
 [wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
 niemal na samym początku, nawet szczegóły były w zasadzie takie same.
 
-Zgaduję jednak, a w każdym razie mam taką nadzieję, że Twoje *wrażenie*, na czym to polega, może być
-tym razem w jakiś trudny do określenia sposób inne. Czy nie chodzi przypadkiem o to, że wtedy,
+Zgaduję jednak, a w każdym razie mam taką nadzieję, że "Twoje" *wrażenie*, na czym to polega, może
+być tym razem w jakiś trudny do określenia sposób inne. Czy nie chodzi przypadkiem o to, że wtedy,
 udowadniając twierdzenie Bayesa, czułaś się być może nawet dumna, a w każdym razie chociaż trochę
 usatysfakcjonowana, że wszystkie elementy układanki trafiły na właściwe miejsce i "Tobie" wyszedł
 ten dowód, a teraz miałaś przynajmniej przez chwilę trochę wrażenie, że zostałaś w pewien sposób
 *zmanipulowana*? Czy faktycznie jest jakaś różnica? Nazywałem dotąd co prawda "zadania"
 "poleceniami", ale to była z konieczności za każdym razem *prośba*, bo za każdym razem musiałem
-liczyć na Twoją *dobrą wolę* i *współpracę*. Nie mogłem przecież, ani wcale nie chciałem, Cię do
+liczyć na "Twoją" *dobrą wolę* i *współpracę*. Nie mogłem przecież, ani wcale nie chciałem, Cię do
 niczego *zmusić*.
 
-Być może trudno Ci zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
+Być może trudno "Ci" zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
 akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem nagle temat (i jednocześnie wcale nie
 zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego tylko może
@@ -188,8 +188,8 @@ Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **r�
 *zgodności między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych,
 albo bardziej elastycznych niż izomorfizmy, rodzajach dopasowania między (formalnymi) językami albo
 opisami, można powiedzieć, że teoria kategorii to ogólna teoria **analogii między analogiami**. A
-teoria kategorii [*wyższego rzędu*](https://en.wikipedia.org/wiki/Higher_category_theory) to teoria
-analogii między analogiami między analogiami ... Genialny polski matematyk [Stefan
+teoria kategorii [*wyższego rzędu*](https://en.wikipedia.org/wiki/Higher_category_theory) to taka
+teoria analogii między analogiami między analogiami ... Genialny polski matematyk [Stefan
 Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział kiedyś, że "dobry matematyk potrafi
 dostrzegać fakty, matematyk wybitny - analogie między faktami, zaś matematyk genialny - analogie
 między analogiami." Nie bez przesady można więc powiedzieć, że język teorii kategorii dostarcza
@@ -198,7 +198,7 @@ używać stosunkowo *bezmyślnie*, to jest mechanicznie.
 
 Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba się czasem pogodzić z
 *trudnościami w jasnym zrozumieniu tego, co się w tym języku mówi*. Tą cenę musimy do pewnego
-stopnia zapłacić być może dlatego, że chociaż teoria kategorii może być, i zwykle zresztą jest,
+stopnia zapłacić być może dlatego, że chociaż teoria kategorii może być, i często zresztą jest,
 rozumiana jako *algebra [funkcji matematycznych](https://pl.wikipedia.org/wiki/Funkcja)*, to
 definicje pojęć, które można za jej pomocą wypowiedzieć, polegają często na charakteryzacji
 określonego rodzaju obiektów w kategoriach ich funkcji rozumianych jako *uniwersalne* albo w pewnym
@@ -223,22 +223,22 @@ czułem, co zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści s
 przykład smak soli (albo herbaty). A to by oznaczało, że w pewnych sprawach mogę mieć ([niczym
 niezasłużoną](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) przewagę, ale w
 innych, być może nawet ważniejszych sprawach jestem ([nie z własnej
-winy](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) bardziej *ułomny* niż
-ludzie, którzy są w tradycyjnym znaczeniu wierzący. W drugiej części pokażę Ci nawet, jak można
+winy](https://www.filmweb.pl/film/Bliscy+nieznajomi-2018-801813)) bardziej *ułomny* niż ludzie,
+którzy są w tradycyjnym znaczeniu wierzący. W drugiej części pokażę "Ci" nawet, jak można
 *sformalizować* to pojęcie "czegoś więcej" albo "ponad" jako pewien rodzaj uniwersalnej i
 abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować wyjaśnić, o co w tym będzie
 chodziło, bo to pojęcie nie jest wcale bardzo oderwane od codziennego doświadczenia.
 
 Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego" za-programowania, żadne
-z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
-zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego programu, ponieważ jesteśmy
+z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak *całkiem* nie
+zaprogramowałem, ani "Ty" nie wcieliłaś się *w pełni* w rolę żadnego programu, ponieważ jesteśmy
 *organizmami biologicznymi*, a dokładniej
 [*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nawet Lean tak naprawdę nie jest
-całkiem Leanem, bo działa przecież na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest,
-bo *nic* nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki
-sposób działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystkie narzędzia i inne
-[artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez* **wspólnotę** *ludzi*, łącznie
-z całą matematyką, jest jakby czymś w rodzaju "wektora", albo ... palca, który przybliżając coś (a
+całkiem Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic*
+nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób
+działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystkie narzędzia i inne
+[artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez wspólnotę ludzi*, łącznie z całą
+matematyką, jest jakby czymś w rodzaju "wektora", albo ... palca, który przybliżając coś (a
 dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien
 *ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo
 Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego
