@@ -1,3 +1,6 @@
+UWAGA Ten rozdział będę niebawem sprawdzał, bo wprowadziłem na raz wiele (drobnych i mniej drobnych)
+zmian.
+
 ## O czym teraz będzie
 
 Czytając ten rozdział pamiętaj proszę, że jeżeli to, o czym będę tu mówił, wyda Ci się na razie zbyt
