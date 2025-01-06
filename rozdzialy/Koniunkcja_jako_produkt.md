@@ -334,6 +334,54 @@ fragmentem.
 
 ## Suma rozłączna zbiorów
 
+Dla dowolnych zbiorów `X` i `Y`, [suma
+rozłączna](https://pl.wikipedia.org/wiki/Suma_roz%C5%82%C4%85czna) tych zbiorów to taki zbiór, który
+zawiera dokładnie wszystkie kopie, zapisane w jakikolwiek sposób jako *różne* elementy, elementów
+tych zbiorów. To znaczy, że niejako wewnątrz sumy rozłącznej *zachowujemy informację* o tym, z
+którego z dwóch zbiorów pochodzi każdy element.
+
+Na przykład, jeżeli tak jak wcześniej `X = {1, 2, 3}` i `Y = {a, b}`, to nie musimy w żaden sposób
+*oznaczać* elementów, bo żaden element nie należy jednocześnie do zbiorów `X` i `Y` i możemy po
+prostu stwierdzić, że `X ⨿ Y = {1, 2, 3, a, b}`. Suma rozłączna to również pewne (niewybredne)
+działanie na zbiorach, które akurat zapisujemy między innymi za pomocą symbolu `⨿`.
+
+**Rysunek 8**: Narysuj proszę te dwa zbiory a między nimi ich sumę rozłączną w taki sposób, żeby
+zarówno z każdego elementu zbioru `X` jak i z każdego elementu zbioru `Y` wychodziły strzałki do ich
+kopii w sumie rozłącznej. Otocz te dwie *części* zbioru `X ⨿ Y` liniami przerywanymi. Czy widzisz,
+że to zawsze (bo tego wymaga definicja) muszą być rozłączne części i że zawsze w takiej sytuacji
+istnieją dwie funkcje *injektywne* (bo to są dwie *wierne kopie*), w tym wypadku `i_X : X → X ⨿ Y` i
+`i_Y : Y → X ⨿ Y`, które jakby *wyrażają* te *inkluzje* (bo tak między innymi nazywamy te funkcje)?
+Podpisz proszę ten rysunek komentarzem, który Twoim zdaniem tu pasuje i który pozwoli Ci upewnić
+się, że przynajmniej w tym momencie pamiętasz lub potrafisz odnaleźć i zapisać po swojemu
+objaśnienia na temat wszystkich wymienionych właśnie właściwości tej konstrukcji.
+
+**Rysunek 9**: Gdy dwa zbiory zawierają choćby tylko jeden wspólny element, nie możemy ich po prostu
+"włożyć" do sumy rozłącznej bez żadnej modyfikacji, bo tak nie uzyskamy dwóch rozłącznych kopii. W
+takich sytuacjach musimy jakoś *oznaczyć* wszystkie kopie tak, żeby *elementy wspólne dla obydwu
+zbiorów* były reprezentowane przez *różne* kopie. Ponieważ suma rozłączna zbiorów jest działaniem
+binarnym w zasadzie jak każde inne, a dla takich działań ważna jest kolejność obiektów czy
+argumentów, na których wykonujemy działanie, to można przyjąć, że pisząc `X ⨿ Y` zdecydowaliśmy
+automatycznie, że `X` jest tutaj *pierwszym*, a `X` *drugim* członem tej sumy
+rozłącznej. *Spełniającą dokładnie tą samą rolę* sumę rozłączną `X ⨿ Y` możemy zatem skonstruować
+tak: `X ⨿ Y := {(1, 1), (2, 1), (3, 1), (a, 2), (b, 2)}`. Możemy więc w ten sposób *skorzystać z par
+uporządkowanych* i liczb naturalnych `1` i `1`, żeby *zaimplemntować* w ten sposób operację
+tworzenia sum rozłącznych z *dowolnych* par zbiorów. Ponieważ ten sposób jest *uniwersalny*, można
+zapomnieć o poprzednim i stosować tylko ten. Myślę, że wiesz, jak należy przedstawić tą konstrukcję
+za pomocą rysunku i jak, za pomocą strzałek od elementów zbioru `X` i od elementów zbioru `Y` do
+odpowiednich kopii w zbiorze `X ⨿ Y`, należy oznaczyć obydwie funkcje-inkluzje (albo
+injekcje-inkluzje), czyli po prostu obydwie inkluzje. Na koniec oznacz proszę te inkluzje jako `i_X`
+i `i_Y`, tylko może zamiast symbolu `_` zapisz wtedy litery `X` i `Y` jako indeksy dolne. Otocz
+kopie przerywanymi liniami i podpisz ten rysunek (ewentualnie wspomagając się tym tekstem)
+komentarzem sprawdzającym Twoją wiedzę na temat tej konstrukcji.
+
+Jeżeli masz już za sobą poprzedni dostępny poprzez link fragment "obowiązkowy", to zastanów się
+proszę, jak ta operacja na zbiorach, zakładając, że wszystkie zbiory są *skończone*, musi "działać"
+na parach zbiorów takich, że co najmniej jeden z nich jest zbiorem pustym, a jak na parach takich,
+że co najmniej jeden zbiór jest singletonem. Następnie zastanów się proszę, jak ta operacja na
+zbiorach skończonych ma się do (funkcji) mocy zbiorów i operacji dodawania liczb naturalnych. Gdy
+już uznasz, że wystarczy tych samodzielnych rozmyślań (i może też rysunków i notatek), zapoznaj się
+proszę z [drugim]() i ostatnim w tym rozdziale fragmentem "obowiązkowym".
+
 ## An arrow is an arrow is an arrow ...
 
 Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś mogła czuć się w miarę
