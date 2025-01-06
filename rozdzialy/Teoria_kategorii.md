@@ -268,8 +268,8 @@ skutecznie) zwróciłem się z prośbą do moich "subskrybentów", żeby spróbo
 przetestować. Zanim (prawie) napisałem *to* zdanie, zdążyłem już dostać kilka wiadomości i
 przerobiłem kilka razy fragmenty tego rozdziału - takie, które poprzedzają ten akapit i takie, które
 następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie (prawie) *pisałem do
-"siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami, (prawie) mówiącymi ("mi")
-krótko, o co w tych zmianach *chodziło*.
+"siebie"*, bo posyłałem zmiany do tego repozytorium z komentarzami, (prawie) mówiącymi (przyszłemu
+"mi") krótko, o co w tych zmianach *chodziło*.
 
 **Chodziło**, *czujesz*? Wszyscy jesteśmy wspaniałymi, działającymi biologicznie, wielorako ze sobą
 splątanymi *prawie programami*, które nieustannie *prawie programują siebie samych i siebie
