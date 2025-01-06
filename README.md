@@ -33,6 +33,11 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
+**Aktualności**: 6 stycznia. Znalazłem sporo zaniedbanych wcześniej fragmentów w rozdziale 19-13, na
+przykład takie, w których mówiłem o (wymyślonej przeze mnie) kompatybilności tam, gdzie powinienem
+był mówić o składalności. Wszystkie wady, które udało mi się tam do tej pory znaleźć, dzisiaj
+poprawiłem.
+
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
 czytelności, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii to
