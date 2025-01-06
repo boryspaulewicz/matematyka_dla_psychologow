@@ -67,7 +67,7 @@ Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robi�
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiadałem
 uczestnikom, że zaraz będą sami go dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną
 panikę widziałem zresztą w oczach niektórych pracowników naukowych, którzy byli obecni na moim
-otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawił się symbol [*sumy
+otwarciu przewodu, kiedy na slajdach pojawił się symbol [*sumy
 indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana) (*∑*). W tym roku po raz pierwszy
 spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na pierwszych albo drugich zajęciach, i
 postarałem się nakłonić wszystkich, żeby skupili się tylko na bardzo prostych w tym wypadku
