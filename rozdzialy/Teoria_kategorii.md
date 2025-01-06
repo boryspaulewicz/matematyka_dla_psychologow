@@ -141,25 +141,26 @@ I co "Ty" na to? Właściwie dosyć zwyczajna (prawie) rozmowa, a jednocześnie 
 zwyczajna, prawda?  W zasadzie nie różni się to *niczym* od *każdej innej rozmowy*, ani od
 wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać, że
 będziesz w określony sposób ze mną *współpracować*, a dokładniej *współ-działać*, a w każdym razie
-miałem przez cały ten czas taką nadzieję. Kiedy na przykład pytasz kogoś o godzinę, to niby co się
-dzieje? Manifestuje się w zachowaniu drugiej osoby magiczna wolna wola i tak się szczęśliwie składa,
-że - *prawie zawsze!* - zwrotnica wydarzeń przesuwa się na sprzyjający "Tobie" tor? *Być może*, bo
-tego się z definicji nie da stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o
-godzinę uruchamiasz w "drugim" człowieku pewien proces, o którym w takich sytuacjach z góry wiesz,
-że prawie na pewno zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową
-tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczamy dosłownie każdego
-dnia.
+miałem przez cały ten czas taką nadzieję. 
 
-I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak *celnie* wyraził [Thích Nhất
+Kiedy na przykład pytasz kogoś o godzinę, to niby co innego się dzieje? Manifestuje się w zachowaniu
+drugiej osoby magiczna wolna wola i tak się szczęśliwie składa, że - *prawie zawsze* - zwrotnica
+wydarzeń przesuwa się na sprzyjający "Tobie" tor? *Być może*, bo tego się z definicji nie da
+stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o godzinę uruchamiasz w "drugim"
+człowieku pewien proces, o którym w takich sytuacjach z góry wiesz, że prawie na pewno zadziała. A
+wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową tendencję do współdziałania,
+której dosłownie prawie wszystko zawdzięczamy dosłownie każdego dnia.
+
+I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak *celnie*[^3] wyraził [Thích Nhất
 Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
 style="color:gray">na wojnie każdy jest ofiarą</span>.
 
 Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój" zegarek*
 i że to jest *autonomiczny, zasługujący na szacunek człowiek*.
 
-Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz ten fragment, to
-mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
-szczegóły są nowe. A właściwie przecież już
+Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz teraz ten
+fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz
+tylko szczegóły są nowe. A właściwie przecież już
 [wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
 niemal na samym początku, nawet szczegóły były w zasadzie takie same.
 
@@ -167,11 +168,11 @@ Zgaduję jednak, a w każdym razie mam taką nadzieję, że "Twoje" *wrażenie*,
 być tym razem w jakiś trudny do określenia sposób inne. Czy nie chodzi przypadkiem o to, że wtedy,
 udowadniając twierdzenie Bayesa, czułaś się być może nawet dumna, a w każdym razie chociaż trochę
 usatysfakcjonowana, że wszystkie elementy układanki trafiły na właściwe miejsce i "Tobie" wyszedł
-ten dowód, a teraz miałaś przynajmniej przez chwilę trochę wrażenie, że zostałaś w pewien sposób
-*zmanipulowana*? Czy faktycznie jest jakaś różnica? Nazywałem dotąd co prawda "zadania"
+dowód, a teraz miałaś przynajmniej przez chwilę trochę wrażenie, że zostałaś w pewien sposób
+*zmanipulowana*? Czy faktycznie jest jakaś różnica? Nazywałem dotąd co prawda te "moje zadania"
 "poleceniami", ale to była z konieczności za każdym razem *prośba*, bo za każdym razem musiałem
-liczyć na "Twoją" *dobrą wolę* i *współpracę*. Nie mogłem przecież, ani wcale nie chciałem, Cię do
-niczego *zmusić*.
+liczyć na "Twoją" *dobrą wolę* i *współpracę*. Nie mogłem przecież, ani też wcale nie chciałem, Cię
+do niczego *zmusić*.
 
 Być może trudno "Ci" zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
@@ -189,7 +190,7 @@ już częściowo opanowałaś, został stworzony właśnie po to, żeby formalni
 kontrolowany i mechanicznie sprawdzalny, operować najróżniejszymi pasującymi do siebie punktami
 widzenia. Do tej pory mówiłem wprost o tylko jednym, bardzo ważnym rodzaju takiego dopasowania, to
 jest o zachowujących strukturę izomorfizmach. A jak już wiesz, izomorfizmy to takie *ścisłe* albo
-*doskonałe* analogie, ale przecież również *mniej* ścisłe analogie bywają, czasem nawet bardziej,
+*doskonałe* analogie, ale przecież również *mniej* ścisłe analogie bywają, czasami nawet bardziej,
 użyteczne.
 
 Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **różnych rodzajach**
@@ -202,7 +203,7 @@ Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział kiedyś, że "d
 dostrzegać fakty, matematyk wybitny - analogie między faktami, zaś matematyk genialny - analogie
 między analogiami." Nie bez przesady można więc powiedzieć, że język teorii kategorii dostarcza
 *protezę matematycznej genialności*, której w dodatku możemy, oczywiście tylko w pewnych sytuacjach,
-używać stosunkowo *bezmyślnie*, to jest mechanicznie.
+używać stosunkowo *bezmyślnie*, to znaczy mechanicznie.
 
 Musimy jednak ponieść wtedy pewną *cenę*, która polega na tym, że trzeba się czasem pogodzić z
 *trudnościami w jasnym zrozumieniu tego, co się w tym języku mówi*. Tą cenę musimy do pewnego
@@ -215,7 +216,7 @@ między innymi na własny użytek pół-żartem nazywam sobie ten język języki
 aniołów. I kiedy mówię o nim, że jest jakby językiem aniołów, nie mówię tego wcale ironicznie.
 
 Nie jestem wierzący w żadnym prostym sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość
-dokładnie dzień i miejsce w którym to się stało, kiedy będąc dzieckiem pomyślałem, że Święty Mikołaj
+dokładnie dzień i miejsce w którym to się stało, gdy będąc dzieckiem pomyślałem, że Święty Mikołaj
 nie istnieje, a To, o czym ludzie mówią w Kościele, to taki jakby [Święty
 Mikołaj](https://www.coca-colacompany.com/about-us/faq/did-coca-cola-invent-santa) dla
 "dorosłych". To był, przynajmniej subiektywnie, nagły i niespodziewany wgląd, i od tego czasu nigdy
@@ -238,7 +239,7 @@ abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować wyjaśnić,
 chodziło, bo to pojęcie nie jest wcale bardzo oderwane od codziennego doświadczenia.
 
 Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego" za-programowania, żadne
-z nas nie było *tak naprawdę* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak *całkiem* nie
+z nas nie było *tak naprawdę* żadnym abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak *całkiem* nie
 zaprogramowałem, ani "Ty" nie wcieliłaś się *w pełni* w rolę żadnego programu, ponieważ jesteśmy
 *organizmami biologicznymi*, a dokładniej
 [*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nawet Lean tak naprawdę nie jest
@@ -265,14 +266,15 @@ nie potrafią wykonywać w sposób *niezawodny* albo *doskonały*, czy może rac
 należałoby właściwie powiedzieć, co *się* stało, tak: "Ja" wpadłem w pewnym momencie na prawie
 pomysł, żeby napisać fragment tego rozdziału jako serię instrukcji dotyczących rysowania i
 notatek. Stworzyłem aplikację "siebie" do pewnych argumentów, które zapisałem w "swojej" pamięci i
-poprzez ewaluację - będącą jakby przejściem między dwiema chwilowymi wersjami "siebie" - tej
-aplikacji przekształciłem "się" ([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)), albo
-może raczej [*wykształciłem*](https://pl.wikipedia.org/wiki/Wykszta%C5%82cenie) w taką wersję
-"siebie", która [*wystarczająco dobrze*](https://en.wikipedia.org/wiki/Satisficing), bo skutecznie
-wykonała zadanie zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne
-pośrednie kroki) i tak *krok za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając
-różne rzeczy, przerywając i robiąc coś innego, napisałem tyle, że prawie (ale mimo to wystarczająco
-skutecznie) zwróciłem się z prośbą do moich "subskrybentów", żeby spróbowali ten rozdział (prawie)
+poprzez ewaluację - będącą jakby przejściem między dwiema chwilowymi, wirtualnymi wersjami
+"siebie" - tej aplikacji przekształciłem "się"
+([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)), albo może raczej
+[*wykształciłem*](https://pl.wikipedia.org/wiki/Wykszta%C5%82cenie) w taką wersję "siebie", która
+[*wystarczająco dobrze*](https://en.wikipedia.org/wiki/Satisficing), bo skutecznie wykonała zadanie
+zapisania pierwszego zdania tego rozdziału (oczywiście pomijam tutaj pewne pośrednie kroki) i tak
+*krok za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając różne rzeczy,
+przerywając i robiąc coś innego, napisałem tyle, że prawie (ale mimo to wystarczająco skutecznie)
+zwróciłem się z prośbą do moich "subskrybentów", żeby spróbowali ten rozdział (prawie)
 przetestować. Zanim (prawie) napisałem *to* zdanie, zdążyłem już dostać kilka wiadomości i
 przerobiłem kilka razy fragmenty tego rozdziału - takie, które poprzedzają ten akapit i takie, które
 następują po nim. Nawiasem mówiąc, dokonując tych zmian czasami dosłownie (prawie) *pisałem do
@@ -322,11 +324,13 @@ teoria typów jako taka *nie* jest jeszcze równoważna teorii Pearla, ponieważ
 zmienić wartość takiej zmiennej, która *nie pełni tylko roli zaimka* i zamiast tego jest czymś w
 rodzaju (nazwanego miejsca w) *pamięci*. Wystarczy jednak *dodać* do teorii typów operację
 przypisania, żeby natychmiast uzyskać ogólną teorię przyczynowości, która będzie wtedy jeszcze co
-prawda pozbawiona części stochastycznej albo probabilistycznej obecnej w teorii Pearla, ale ta część
-jest ["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theory-of-causality/) do
-rachunków interwencyjnego i kontrfaktycznego *tylko* ze względów *praktycznych*. Mówię tam zresztą
-również o Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których
-spróbuję Cię stopniowo przygotować).  <hr>
+prawda pozbawiona części stochastycznej albo probabilistycznej, ale ta część jest
+["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theory-of-causality/) do rachunków
+interwencyjnego i kontrfaktycznego *tylko* ze względów *praktycznych*. Mówię tam zresztą również o
+Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których spróbuję Cię
+stopniowo przygotować).
+
+<hr>
 
 Wracając do diagramu.
 
@@ -340,20 +344,20 @@ Strzalka`, że `Skladalne f g`, musimy *dorysować* (na razie *anonimową*) strz
 *przyjąć, że istnieje* strzałka, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Czyli w
 przypadku tego rysunku to byłaby pewna narysowana ukośnie `Strzalka A C`. Ale w tej chwili jeszcze
 nie będziemy jej rysować. Można to zapamiętać tak: *Każdą dwustrzałkową drogę można przejść w jakiś
-konkretny sposób na skróty, a więc jednostrzałkowo*.
+dokładnie jeden sposób na skróty, a więc jednostrzałkowo*.
 
 `Skladalne` oznacza więc tylko, a właściwie będzie niebawem oznaczało (po wprowadzeniu odpowiedniego
 aksjomatu), że da się zawsze zrobić taką (unikalną) strzałkę. Ogólne konsekwencje niektórych jeszcze
 nie wprowadzonych aksjomat*ów* (liczba mnoga), dotyczących operacji składania strzałek, można
 zapamiętać w ten sposób: *Dla każdej skierowanej ścieżki* (a więc nie tylko dla ścieżek skierowanych
-*dwustrzałkowych*) *istnieje jednostrzałkowa droga na skróty równa złożeniu wszystkich strzałek
-należących do tej ścieżki* (czyli strzałka, której `Zrodlo` jest początkiem tej skierowanej ścieżki,
-a `Cel` jest jej końcem). Jeżeli to w tym momencie za dużo, nie przejmuj się, i tak będziemy się do
-tego powoli zbliżać.
+*dwustrzałkowych*) *istnieje unikalna jednostrzałkowa droga na skróty równa złożeniu wszystkich
+strzałek należących do tej ścieżki* (czyli strzałka, której `Zrodlo` jest początkiem tej skierowanej
+ścieżki, a `Cel` jest jej końcem). Jeżeli to w tym momencie za dużo, nie przejmuj się, i tak
+będziemy się do tego powoli zbliżać.
 
-Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności, gdy to pojęcie okaże się później
+Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności gdy to pojęcie okaże się później
 potrzebne, poproszę Cię teraz o narysowanie, po prawej od *diagramu* (to cały czas *niejawna
-definicja* stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować, pewien inny diagram z
+definicja* stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować pewien inny diagram z
 *komentarzem*.
 
 6. Narysuj, po prawej od diagramu ze `Strzalka`-mi `f` i `g`, dwie poziome `Strzalka` oznaczone z
@@ -367,7 +371,8 @@ definicja* stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować,
    *Takie pary strzałek są składalne. Zawsze, gdy mówimy o składalności strzałek, ważna jest*
    **kolejność** *w jakiej wymieniamy strzałki. W tym przypadku możemy powiedzieć, że składalne są
    strzałki `i` i `j`, ale* **nie** *możemy powiedzieć, że składalne są strzałki `j` i `i`, bo*
-   **nie wiemy**, *czy `Cel j` to `Zrodlo i`* (niedługo wyjaśnię o co chodzi z tym "nie wiemy").
+   **nie wiemy**, *czy `Cel j` to `Zrodlo i`* (niedługo wyjaśnię jeszcze raz o co chodzi z tym "nie
+   wiemy").
 
 Teraz, gdy mam nadzieję będziesz mogła trochę swobodniej operować pojęciem składalności, możemy
 wrócić do pierwszego diagramu.
@@ -655,4 +660,4 @@ example : a = c :=
     absence of evidence is not evidence of absence!\]\}).
 
 [^3]: To zdanie też na zawsze zmieniło "moje" życie, niemal natychmiast po tym, jak je
-    przeczytałem. Może i "Tobie" na coś się przyda.
+    przeczytałem. Może i "Tobie" się do czegoś przyda.
