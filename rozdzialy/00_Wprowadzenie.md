@@ -262,10 +262,11 @@ byæ prawdziwie satysfakcjonuj±ca, kiedy polega na *wspó³*pracy, i uczciwej, skro
 dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi sensownych zajêæ - a tak¿e Kasi
 Popio³ek, która by³a dla mnie wymarzon± wprost szefow± przez te 10 lat, kiedy pracowa³em na SWPSie w
 Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla mnie wa¿nego dr
-hab. Krzysztofa Krzy¿ewskiego, a pó¼niej prof. Edwarda Nêcki, któremu zawdziêczam swobodê zajmowania
-siê w owym czasie czym tylko mia³em ochotê siê zajmowaæ, byæ mo¿e wcale bym nie skoñczy³, gdyby nie
-liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem, moim najwa¿niejszym chyba
-przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie dzi¶ pracujê.
+hab. Krzysztofa Krzy¿ewskiego, a pó¼niej prof. Edwarda Nêcki, któremu, podobnie jak temu Pierwszemu,
+zawdziêczam swobodê zajmowania siê w owym czasie czym tylko mia³em ochotê siê zajmowaæ, byæ mo¿e
+wcale bym nie skoñczy³, gdyby nie liczne rozmowy z dodaj±cym mi stale odwagi Tomkiem Grzegorkiem,
+moim najwa¿niejszym chyba przyjacielem, któremu akurat zawdziêczam znacznie wiêcej ni¿ to, gdzie
+dzisiaj pracujê.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdziêczam
 przygodê z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
