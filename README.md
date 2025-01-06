@@ -303,6 +303,9 @@ przecież przeze mnie było \{no tak, faktycznie\}), że aby stworzyć dowód ko
 `And.intro` wystarczy podać *jeden* argument, w dodatku to był *dowód koniunkcji*, czyli całkiem bez
 sensu. Trzeba oczywiście podać *dwa* argumenty, będące dowodami *członów* koniunkcji.
 
+Barłomiejowi Pankowi, za bardzo miłą i zachęcającą do dalszej zabawy reakcję na moją sugestię, żeby
+zapoznać się z tą książką.
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę

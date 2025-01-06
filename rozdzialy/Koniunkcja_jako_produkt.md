@@ -270,6 +270,55 @@ przed robieniem daleko idących skrótów myślowych.
 
 ## Iloczyn kartezjański zbiorów
 
+Pamiętasz, że dowód koniunkcji można zaimplementować jako uporządkowaną parę dowodów? A pamiętasz,
+jak pisałem, że typy co prawda nie są zbiorami, ale że mają coś ze zbiorów? Zresztą funkcje
+teoriotypowe też nie są "zwykłymi" funkcjami matematycznymi, ale coś z tych funkcji mają, właściwie
+nawet mają z nimi bardzo wiele wspólnego, bo pobierają tak naprawdę tylko jeden argument
+(określonego *typu* odpowiadającego teoriomnogościowej *dziedzinie*) i dla każdego argumentu
+zwracają dokładnie jeden argument (określonego *typu* odpowiadającego teoriomnogościowej
+*przeciwdziedzinie*). Pisałem zresztą, że funkcje teoriotypowe to takie funkcje matematyczne, tylko
+że obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zarazem w ten sposób
+*zrealizowane*). No więc typ par uporządkowanych to taki teoriotypowy odpowiednik, albo "cień",
+[*iloczynu kartezjańskiego zbiorów*](https://pl.wikipedia.org/wiki/Iloczyn_kartezja%C5%84ski).
+
+Iloczyn kartezjański pojawił się również w rozdziale 7-01, ponieważ mówiłem tam o *uporządkowanych
+parach liczb rzeczywistych*. Zbiór wszystkich takich par to dokładnie zbiór wszystkich punktów na
+płaszczyźnie, o ile z tą płaszczyzną jest związany układ współrzędnych kartezjańskich. Jeżeli na
+przykład ...
+
+`X = {1, 2, 3}` i `Y = {a, b}`
+
+... to ...
+
+`X × Y = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c), (3, a), (3, b), (3, c)}`
+
+Zapisywanie uporządkowanych par za pomocą zwyczajnych nawiasów to oczywiście tylko konwencja i
+równie dobrze moglibyśmy posługiwać się w tym celu notacją Leana i zamiast na przykład `(1, a)`
+pisać `⟨1, a⟩`. Nie muszę już chyba wyjaśniać, czemu to (akurat niewybredne) *działanie na zbiorach*
+(zauważyłaś, że to działanie na zbiorach?) jest w matematyce bardzo ważne, ale powiem Ci o pewnym
+przydatnym czasem sposobie myślenia o tego rodzaju zbiorach, jak również o dwóch nietypowych i
+ważnych przykładach.
+
+Dla dowolnych zbiorów `X` i `Y`, iloczyn kartezjański tych zbiorów, czyli `X × Y`, możemy rozumieć
+jako przestrzeń wszystkich *niezależnych wyborów* elementów należących do zbioru `X` i do zbioru
+`Y`, w tej kolejności. A niezależne wybory elementów należących do pewnych zbiorów, typów, albo
+kategorii (w potocznym znaczeniu tego słowa) pojawiają się niezwykle często. Na przykład, typowy
+obiad zamówiony w restauracji to czasem *logicznie* (ale nie *przyczynowo* albo *statystycznie*)
+niezależny *potrójny* wybór zupy, tak zwanego dania głównego i deseru, gdzie każda z tych kategorii
+dopuszcza dodatkowo wybór "pusty" (a więc zgodnie z tym punktem widzenia albo definicją można
+zamówić obiad składający się z *niczego*)[^2].
+
+**Rysunek 8**: Żeby utrwalić sobie to pojęcie i zacząć się przyzwyczajać do bardziej elastycznego
+myślenia o *wymiarach*, `Narysuj` proszę dwie prostopadłe osie, poziomą oznacz literą `X` a pionową
+literą `Y`, i nanieś na nie elementy tych zbiorów jakby były podziałkami, to jest, zaczynając od
+punktu przecięcia się osi, zaznacz "wysokości" za pomocą, w tym przypadku elementów, `1`, `2` i `3`
+i "szerokości" za pomocą elementów `a` i `b`. Następnie w odpowiednich miejscach uzyskanego w ten
+sposób wykresu nanieś wszystkie uporządkowane pary. Gdy już to zrobisz, podpisz ten rysunek
+komentarzem: *Przykład iloczynu kartezjańskiego zbiorów* `X = {1, 2, 3}` *i* `Y = {a, b}`. *Wartości
+oznaczone na osiach to tak zwane projekcje par uporządkowanych.*
+
+
+
 ## Suma rozłączna zbiorów
 
 ## An arrow is an arrow is an arrow ...
@@ -421,3 +470,14 @@ oznaczania* zbiorów skończonych, widzimy, że `h (g f) = (h g) f`.
     pisownia przez *j* przeważa i według mnie jest bliżej sposobu, w jaki te słowa wymawiamy, a poza
     tym nie lubię, gdy ktoś mi próbuje *narzucać* jakiekolwiek reguły *bez uzasadnenia* innego niż
     "bo tak *się* robi".
+
+[^2]: Ten przykład "ukradłem" wybitnemu, niestety nieżyjącemu już matematykowi [F. Williamowi
+    Lawverowi](https://en.wikipedia.org/wiki/William_Lawvere) i [Stephenowi H. Schnauelowi](),
+    którzy skorzystali z podobnego przykładu w dosyć niezwykłej, nawet jeżeli cokolwiek chaotycznej
+    (i kto to mówi) książce, którą czytałem, wielokrotnie, dawno, dawno, dawno temu i która była dla
+    mnie jedną z inspiracji podczas pisania tej (m.in. dlatego, że powstawała w interakcji z
+    licealistami), pod tytułem [Conceptual
+    Mathematics](https://www.cambridge.org/highereducation/books/conceptual-mathematics/00772F4CC3D4268200C5EC86B39D415A#contents). I
+    tak, z pierwszym z wymienionych [kosiarzy
+    umysłów](https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)) też kiedyś przez chwilę
+    korespondowałem.
