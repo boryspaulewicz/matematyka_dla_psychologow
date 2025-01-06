@@ -45,21 +45,21 @@ wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia ko
 (wielu psychologów wci±¿ nie zdaje sobie sprawy, jak powa¿ne konsekwencje wynikaj± z faktu, ¿e
 [przyczynowo¶æ zosta³a zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
-Nic wiêc dziwnego, ¿e tacy - niestety w psychologii do¶æ liczni - matematyczni pó³-analfabeci
+Nic wiêc dziwnego, ¿e tacy - niestety w psychologii do¶æ liczni - matematyczni pó³analfabeci
 nierzadko wyci±gaj± z w³asnych i cudzych badañ nieuzasadnione wnioski, pope³niaj±c przy tym czasem
 najprostsze nawet b³êdy. Mimo to udaje im siê publikowaæ w wysokopunktowanych czasopismach, bo
 wysy³ane przez nich manuskrypty s± zwykle recenzowane i dopuszczane do druku przez innych
-matematycznych pó³-analfabetów. Rezultatem tej zabawy w chowanego jest powszechna w psychologii ju¿
+matematycznych pó³analfabetów. Rezultatem tej zabawy w chowanego jest powszechna w psychologii ju¿
 od dawna rozczarowuj±ca [gra pozorów](https://pl.wikipedia.org/wiki/Kulty_cargo).
 
-Matematyczny pó³-analfabetyzm wiêkszo¶ci psychologów jest ³atwym do zaobserwowania faktem. Równie
-³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie t± najwa¿niejsz±, tego stanu rzeczy:
-Praktycznie *nikt*, w³±czaj±c w to osoby prowadz±ce zajêcia ze statystyki, nie wymaga od psychologów
-znajomo¶ci nawet tylko tej odrobiny matematyki, któr± trzeba poznaæ, ¿eby trochê g³êbiej zrozumieæ o
-co tak naprawdê chodzi miêdzy innymi w testowaniu istotno¶ci albo w poprawnym uzasadnianiu wniosków
-przyczynowych. A przecie¿ te dwa rodzaje rozumowañ odgrywaj± *centraln±* rolê w *niemal ka¿dym*
-artykule empirycznym. Co ambitniejsi studenci uzupe³niaj± samodzielnie braki w wiedzy, ale akurat
-matematyki ma³o kto uczy siê systematycznie z w³asnej woli.
+Matematyczny pó³analfabetyzm zdecydowanej wiêkszo¶ci psychologów jest ³atwym do zaobserwowania
+faktem. Równie ³atwo jest wskazaæ jedn± z g³ównych przyczyn, o ile nie przyczynê najwa¿niejsz±, tego
+smutnego stanu rzeczy: Praktycznie *nikt*, w³±czaj±c w to osoby prowadz±ce zajêcia ze statystyki,
+nie wymaga od psychologów znajomo¶ci nawet tylko tej odrobiny matematyki, któr± trzeba poznaæ, ¿eby
+trochê g³êbiej zrozumieæ o co tak naprawdê chodzi miêdzy innymi w testowaniu istotno¶ci albo w
+poprawnym uzasadnianiu wniosków przyczynowych. A przecie¿ te dwa rodzaje rozumowañ odgrywaj±
+*centraln±* rolê w *niemal ka¿dym* artykule empirycznym. Co ambitniejsi studenci uzupe³niaj±
+samodzielnie braki w wiedzy, ale akurat matematyki ma³o kto uczy siê systematycznie z w³asnej woli.
 
 Mam wra¿enie, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mniej boj± siê
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z

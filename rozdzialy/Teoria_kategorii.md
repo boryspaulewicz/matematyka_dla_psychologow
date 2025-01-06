@@ -147,7 +147,7 @@ godzinę uruchamiasz w "drugim" człowieku pewien proces, o którym w takich syt
 że prawie na pewno zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową
 tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczamy dosłownie każdego
 dnia. Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój"
-zegarek* i że to *jest autonomiczny, zasługujący na szacunek człowiek*.
+zegarek* i że to jest *autonomiczny, zasługujący na szacunek człowiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz ten fragment, to
 mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
@@ -172,9 +172,9 @@ zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszyst
 się nadawać, musimy nauczyć się patrzeć na to coś na różne sposoby. A to oznacza, że musimy pogodzić
 się z pewnym rodzajem [nieszkodliwego
 relatywizmu](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
-zawsze rozmaite alternatywne, spójne i sensowne punkty widzenia na to samo, i dopóki korzystamy z
-tych punktów widzenia w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy
-uzasadnienie albo dowód dla *każdego* możliwego zdania.
+zawsze rozmaite alternatywne, wewnętrznie niesprzeczne punkty widzenia na to samo i dopóki
+korzystamy z nich w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy uzasadnienie
+albo dowód dla *każdego* możliwego zdania.
 
 Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać i którego podstawy
 już częściowo opanowałaś, został stworzony właśnie po to, żeby formalnie, a więc w sposób
