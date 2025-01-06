@@ -307,6 +307,11 @@ Barłomiejowi Pankowi, za bardzo miłą i zachęcającą do dalszej zabawy reakc
 zapoznać się z tą książką i za podzielenie się obserwacjami, dzięki którym odkryłem, że myślimy
 bardzo podobnie o niektórych ważnych moim zdaniem sprawach.
 
+Piotrowi Wolskiemu, za błyskawiczne przeczytanie (w niedzielę wieczorem!) całego bodaj wprowadzenia
+niedługo po mojej wiadomości o tej książce, za bardzo miłe słowa zachęty, które potem padły, za
+podzielenie się cennymi refleksjami i za ujawnienie, zresztą nie po raz pierwszy i pewnie nie
+ostatni, jak podobnie myślimy o metodologii i o tym, jak się jej (niestety) zwykle uczy psychologów.
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę
