@@ -305,7 +305,7 @@ częściowej fizycznej odrębności, ten rysunek jednak powstał i to było moż
 
 ### Ten wybiegający w przyszłość fragment jest przeznaczony raczej dla "prawie-ekspertów"
 
-Jeżeli masz ochotę, może warto teraz rzucić "nowym okiem" na zawartość [rozdziału
+Jeżeli masz ochotę, może warto teraz popatrzeć "nowym okiem" na zawartość [rozdziału
 trzeciego](02_Cel.md), w którym mówiłem o tym, co będzie w planowanej drugiej części. Wspominam tam
 między innymi o rachunkach prawdopodobieństwa i przyczynowym. Rachunek przyczynowy, o którym tam
 mówię, to tak zwany [przyczynowy model strukturaly](https://en.wikipedia.org/wiki/Causal_model) (nie
