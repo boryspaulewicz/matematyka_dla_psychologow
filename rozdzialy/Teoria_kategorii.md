@@ -2,7 +2,7 @@
 
 Akurat w tym wypadku nie chcę psuć ewentualnej niespodzianki.
 
-# Nie ma to jak rysowanie
+# Nie ma to jak **_Rysowanie_**
 
 W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam ważny powód,
 żeby ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
@@ -148,7 +148,7 @@ godzinę uruchamiasz w "drugim" człowieku pewien proces, o którym w takich syt
 tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczamy dosłownie każdego
 dnia.
 
-I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak celnie wyraził [Thích Nhất
+I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak *celnie* wyraził [Thích Nhất
 Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
 style="color:gray">na wojnie każdy jest ofiarą</span>.
 
