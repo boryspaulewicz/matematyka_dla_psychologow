@@ -320,7 +320,7 @@ oznaczone na osiach to tak zwane projekcje par uporządkowanych.*
 A teraz będą dwa zapowiedziane przykłady. Zastanów się proszę przez chwilę, jak zgodnie z definicją
 (która mówi, że iloczyn kartezjański dwóch zbiorów to taki zbiór, którego elementami są dokładnie
 wszystkie uporządkowane pary elementów należących do pierwszego i drugiego zbioru) powinien wyglądać
-zbiór `∅ × X`, gdzie `∅` to zbiór pusty, czyli zbiór `{}` (tak i tak go oznaczamy, zależnie od tego,
+zbiór `∅ × X`, gdzie `∅` to zbiór pusty, czyli zbiór `{}` (oznaczamy go tak i tak, zależnie od tego,
 jak jest nam w danym kontekście wygodniej). Jak postanowisz, że już czas, kliknij w
 [ten](Iloczyn_zbioru_pustego_i_X.md) link żeby przeczytać moje wyjaśnienia.
 
