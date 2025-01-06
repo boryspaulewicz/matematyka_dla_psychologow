@@ -217,6 +217,8 @@ Notatki całkiem już robocze, do których jednak można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
 
+[Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
+
 <a name="podziekowania"></a>
 ### Podziękowania należą się między innymi
 
