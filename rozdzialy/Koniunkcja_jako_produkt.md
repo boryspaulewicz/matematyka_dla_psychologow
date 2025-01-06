@@ -149,7 +149,7 @@ poddasz, przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli 
 tylko jeden sposób, to również kliknij w ten link. Jak już narysujesz tą funkcję, podpisz ją proszę
 komentarzem *Przykład funkcji identycznościowej*.
 
-**Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
+**Rysunek 5. Przykład injekcji[^1]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
 nie posyła żadnych dwóch `x`-ów do tego samego `y`-a. Takie funkcje nazywamy *injekcjami* albo
 funkcjami
@@ -164,59 +164,67 @@ podzbioru* przeciwdziedziny (i niejako przy okazji oznaczenie elementów tego po
 dwuelementowego zbioru `Y`, ale taką, żeby każdy `y` "został trafiony". Takie funkcje nazywamy
 *surjekcjami* albo funkcjami *na*. Czy widzisz, że każda taka funkcja jest *podziałem całej
 dziedziny* na rozłączne kategorie albo podzbiory, których `f-`nazwami są `y`-i? Żeby to podkreślić,
-otocz proszę wyznaczone w ten sposób części `X` przerywanymi liniami.
+otocz proszę wyznaczone w ten sposób części `X` liniami przerywanymi.
 
-**Rysunek 7. Przykład bijekcji**: *Bijekcjami* nazywamy takie funkcje, które są jednocześnie
-injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli takie, które nie
-sklejają żadnych elementów i trafiają we wszystkie elementy. `Narysuj` proszę bijekcję z
-czteroelementowego zbioru `X` do czteroelementowego zbioru `Y` i oznacz ją literą `f`. Czy wiesz,
-dlaczego nie może istnieć bijekcja, w dowolnym kierunku, między zbiorami które *różnią się
-wielkością*?
+**Rysunek 7. Przykład bijekcji**:
+[*Bijekcjami*](https://pl.wikipedia.org/wiki/Funkcja_wzajemnie_jednoznaczna) nazywamy takie funkcje,
+które są jednocześnie injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli
+takie, które nie sklejają żadnych elementów swojej dziedziny i trafiają we wszystkie elementy swojej
+przeciwdziedziny. `Narysuj` proszę bijekcję z czteroelementowego zbioru `X` do czteroelementowego
+zbioru `Y` i oznacz ją literą `f`. Czy rozumiesz, dlaczego nie może istnieć bijekcja, w dowolnym
+kierunku, między zbiorami które *różnią się wielkością*?
 
-Bijekcje są *przykładami* izomorfizmów, ale pojęcie izomorfizmu, jak się później przekonasz, jest
-ogólniejsze. Czy widzisz, że izomorfizm jest jak powiedzenie dokładnie tego samego, tylko innymi
-słowami albo symbolami, czyli to taki jakby wierny tłumacz w obie strony? Dlatego nazywamy takie
-funkcje również funkcjami *wzajemnie jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na
-`y`-ki, ale poza tym nic się nie zmienia. Ważną własnością funkcji izomorficznych i w ogóle
-wszelkiego rodzaju izomorfizmów jest ich *odwracalność*. Dlatego proszę, żebyś narysowała jeszcze
-odwrotność funkcji `f`. To ma być taka funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, to
-znaczy: Jeżeli do dowolnego `x` zastosujesz `f`, gdy do rezultatu zastosujesz `f⁻¹`, to uzyskasz
-znowu ten `x`, czyli `f⁻¹(f(x)) = x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y))`. Można więc
-również powidzieć, że funkcje odwrotne są jakby swoimi lustrzanymi odbiciami.
+Bijekcje są *przykładami* [izomorfizmów](https://pl.wikipedia.org/wiki/Izomorfizm), ale pojęcie
+izomorfizmu jest, jak później się przekonasz, znacznie ogólniejsze. Czy widzisz, że izomorfizm jest
+jak powiedzenie dokładnie tego samego, tylko innymi słowami albo symbolami, czyli to taki jakby
+wierny tłumacz w obie strony? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie
+jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie
+zmienia. 
+
+Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomorfizmów jest ich
+*odwracalność*. Dlatego proszę, żebyś narysowała jeszcze odwrotność funkcji `f`. To ma być taka
+funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, to znaczy: Jeżeli do dowolnego `x`
+zastosujesz `f`, to gdy do rezultatu zastosujesz `f⁻¹`, uzyskasz znowu ten `x`, czyli `f⁻¹(f(x)) =
+x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y))`. Jak tylko to zrobisz, zobaczysz czemu w wyrażeniu
+`f(f⁻¹(y))` jest `y` a nie `x`. Można więc powidzieć, że funkcje odwrotne są *lustrzanymi odbiciami
+obrazów dwóch równolicznych zbiorów*.
 
 Czy widzisz, że gdy już masz jakąś funkcję `f`, to może istnieć co najwyżej jedna funkcja `f⁻¹`?
 Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś funkcji odwracalnej, czyli jakiejś
 bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dziedziny *musi* przyporządkować
 dokładnie ten element, który w niego "`f`-trafia".  Właśnie dlatego, że taka funkcja, jeżeli
 istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest *unikalna*, oznaczamy ją jako
-`f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *coś, co powstaje w pewien sposób z
-funkcji* `f`. 
+`f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *unikalne coś, co powstaje w pewien
+sposób z funkcji* `f`.
 
 Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
 odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
 trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *funkcja* `g` z
-przeciwdziedziny `f` do dziedziny `f` taka, że `g(f(x)) = x` *i jednocześnie* `g(f(x))`. 
+przeciwdziedziny `f` do dziedziny `f` taka, że `g(f(x)) = x` *i jednocześnie* `f(f(y))`.
 
 Byłoby wspaniale, gdybyś jeszcze spróbowała zdefiniować za pomocą rysunków dwie funkcje, nazwijmy je
-znowu `f` i `g`, takie, że `f` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy, istnieje
-funkcja `l_f` taka, że `l_f(f(x)) = x`, ale nie istnieje funkcja `p_f` taka, że `f(p_f(y)) = y`
-(tak, tu ma być `y`, a nie `x`)
+znowu `f` i `g`, takie, że `f : X → Y` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy,
+istnieje funkcja `l_f` taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że
+`f(p_f(y)) = y` (tak, tu ma być `y`, a nie `x`), a `g : X → Y` ma *tylko* prawą odwrotność, ale nie
+ma lewej, to znaczy, istnieje funkcja `p_g` taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja
+`l_g` taka, że `l_g(g(x)) = x`. Podpowiem Ci, że w tym zadaniu ważną rolę odgrywają własności bycia
+injekcją, ale nie surjekcją i bycia surjekcją, ale nie injekcją.
 
 **Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
 zbiory, `X`, `Y` i `Z` takie, że pierwszy ma trzy elementy, drugi powiedzmy cztery i trzeci może też
 cztery. Zdefiniuj rysując strzałki jakąś funkcję `f : X → Y`, czyli funkcję ze zbioru `X` do zbioru
-`Y` i jakąś funkcję `g : Y → Z`. Pod spodem zapisz komentarz: Teoriomnogościowe złożenie funkcji `f`
-i `g` to taka funkcja `g ∘ f` (zapisujemy to w ten sposób w *tej* kolejności), że `(g ∘ f)(x) :=
-g(f(x))` (właśnie dlatego w tej kolejności). 
+`Y` i jakąś funkcję `g : Y → Z`. Pod spodem zapisz komentarz: *Teoriomnogościowe złożenie funkcji*
+`f` *i* `g` *to taka funkcja* `g ∘ f` *(zapisujemy to w ten sposób w tej kolejności), że* `(g ∘
+f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).*
 
-Pod komentarzem `Narysuj` tą funkcję, to znaczy, najpierw skopiuj tylko zbiory `X` i `Y`, a
+Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
 następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
-można na Twoim rysunku dojść po strzałkach do tych `y`-ów "idąc funkcjami" `f` i `g`. Oznacz tą
-funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy widzisz, że
-ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w ten sposób
-zawsze uzyskamy dokładnie jedną funkcję?  Teoriomnogościowe składanie jest więc *szczególnym
-przypadkiem "działania wybrednego"*, które *zachowuje się tak samo, jak kategoryjne składanie
-strzałek*. O tym, w jakim sensie dokładnie tak samo powiem później.
+można na Twoim rysunku dojść idąc po (dwóch) strzałkach do tych `y`-ów "idąc funkcjami" `f` i
+`g`. Oznacz tą funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy
+widzisz, że ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w
+ten sposób *zawsze* z dwóch składalnych funkcji uzyskamy dokładnie jedną funkcję?  Teoriomnogościowe
+składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które *zachowuje się tak samo,
+jak kategoryjne składanie strzałek*. O tym, w jakim sensie tak samo, powiem później.
 
 Czy rozumiesz, dlaczego, jeżeli `f : X → Y`, to jeżeli `Id_x : X → X` i `Id_y : Y → Y`, to `Id_y ∘ f
 = f = f ∘ Id_y`? Musiałem tutaj inaczej oznaczyć identyczności, bo Unicode nie pozwala na zapisanie
@@ -379,3 +387,10 @@ więc dla wszystkich (składalnych w ten sposób) strzałek `f`, `g` i `h`, poni
 przestrzeni zbiorów skończonych jest *izomorfizmem*, a więc nasze strzałki są tylko *innym sposobem
 oznaczania* zbiorów skończonych, widzimy, że `h (g f) = (h g) f`.
 
+### Przypisy
+
+[^1]: Tak wiem, że [niby powinno *się* pisać iniekcja i
+    suriekcja](https://sjp.pwn.pl/poradnia/haslo/;8643.html), a nie injekcja i surjekcja, ale
+    pisownia przez *j* przeważa i według mnie jest bliżej sposobu, w jaki te słowa wymawiamy, a poza
+    tym nie lubię, gdy ktoś mi próbuje *narzucać* jakiekolwiek reguły *bez uzasadnenia* innego niż
+    "bo tak *się* robi".
