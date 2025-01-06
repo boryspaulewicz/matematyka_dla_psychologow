@@ -86,8 +86,8 @@ reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele funkcji
 element przeciwdziedziny i często zdarza się, że niektóre elementy "trafiają" w ten sam element.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
-przykłady sposobów przyporządkowania element*om* (czyli to będą *źródła* strzałek) jakiegoś zbioru
-`X` (bo po co wymyślać dla kolejnych przykładów ciągle nowe nazwy) elementy (czyli to będą *cele*)
+przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* strzałek) jakiegoś zbioru `X`
+(bo po co wymyślać dla kolejnych przykładów ciągle nowe nazwy) elementy (czyli to będą *cele*)
 jakiegoś zbioru `Y`, tak, żeby to *nie* były funkcje. A "zepsuć funkcyjność" można na dokładnie
 *dwa* sposoby - albo jakiś element z lewej będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś
 element z lewej *nie będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi definicjami
@@ -96,20 +96,21 @@ element z lewej *nie będzie wysyłał żadnej strzałki*. Takie rysunki będą 
 **Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
 tym samym na kilka różnych sposobów: O tak rozumianych funkcjach można myśleć jako o abstrakcyjnych
 *własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym rysunku każdy
-element zbioru `X` ma określoną `f-`*własność* `Y`. Podobnie każdy ma dokładnie jedno pierwsze imię
+element zbioru `X` ma określoną `f-`*własność* `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię
 i dokładnie jedną datę urodzenia, a więc te własności to są takie *funkcje osób*. Albo można o
 funkcjach myśleć jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych* pewnych
 właściwości albo wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju
-*kompletnych oznaczeniach* w tym sensie, że *każdy* element dziedziny jest wykorzystany do
-*oznaczenia* jakiegoś *jednego* elementu przeciwdziedziny. Z tego punktu widzenia każdy `x`
-`f`-oznacza jakiś `y`. Dobrze jest czasem spróbować pomyśleć o takiej funkcji choć raz na każdy z
-tych sposobów, bo czasem trudno przewidzieć, który z tych punktów widzenia pozwoli zrozumieć jakiś
-problem w którym ważną rolę odgrywają funkcje lepiej.
+*kompletnych oznaczeniach* albo *rozdaniach kart* w tym sensie, że *każdy* element dziedziny jest
+wykorzystany do *oznaczenia*, albo że jest *przydzielony* do jakiegoś elementu należącego do
+przeciwdziedziny. Z tego punktu widzenia każdy `x` `f`-oznacza jakiś `y`. Dobrze jest czasem
+spróbować pomyśleć o takiej funkcji choć raz na każdy z tych sposobów, bo czasem trudno przewidzieć,
+który z tych punktów widzenia pozwoli zrozumieć jakiś problem w którym ważną rolę odgrywają funkcje
+lepiej.
 
 Odtąd ograniczymy nasze rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
-skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (lepiej: *przestrzeń*)
-w którym istnieją tylko zbiory skończone, w którym występują dowolne takie zbiory, i w którym
-występują wszystkie możliwe funkcje między takimi zbiorami. Na początek omówimy kilka ważnych
+skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (a lepiej:
+*przestrzeń*) w którym istnieją tylko zbiory skończone, w którym występują dowolne takie zbiory i w
+którym występują wszystkie możliwe funkcje między takimi zbiorami. Na początek omówimy kilka ważnych
 przykładów.
 
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
@@ -132,15 +133,17 @@ funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, raz
 przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna funkcja ze zbioru
 pustego do niego samego. Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą `p`,
 a pod spodem zapisz komentarz: Dla każdego zbioru `Y`, istnieje dokładnie jedna funkcja ze zbioru
-pustego do `Y`. Może i trudno się z tym pogodzić, ale to tylko konwencja (która się sprawdza w
-praktyce).
+pustego do `Y`. Może i trudno się z tym pogodzić, ale to tylko konwencja, którą przyjmujemy,
+ponieważ sprawdza się w praktyce.
 
 **Rysunek 4. Identyczność na dwa sposoby**: `Narysuj` teraz proszę trzyelementowy zbiór
-`X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) =
-x`. Zastanów się proszę przez chwilę jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś pomysł,
-albo się poddasz, przeczytaj moje objaśnienia [tutaj](/Rysunek_identycznosc.md). Jeżeli przyszedł Ci
-do głowy tylko jeden sposób, to również kliknij w ten link. Jak już narysujesz tą funkcję, podpisz
-ją proszę komentarzem *Przykład funkcji identycznościowej*.
+`X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) = x`.
+Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo to jest *warunek*, który ta funkcja
+ma spełniać i to Ty ją zdefiniujesz. Zastanów się proszę przez chwilę jak mogłabyś to zrobić, a gdy
+już wpadniesz na jakiś pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia
+[tutaj](/Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko jeden sposób, to również
+kliknij w ten link. Jak już narysujesz tą funkcję, podpisz ją proszę komentarzem *Przykład funkcji
+identycznościowej*.
 
 **Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
