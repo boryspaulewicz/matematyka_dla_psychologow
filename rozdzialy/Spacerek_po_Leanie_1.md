@@ -61,9 +61,10 @@ próbuję też tą książkę pisać tak, jakbym z Tobą *rozmawiał*, bo to prz
 
 https://live.lean-lang.org
 
-Rozpoczniesz w ten sposób interaktywną sesję z *asystentem dowodzenia* Lean. Nie przejmuj się,
-jeżeli widzisz to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po
-lewej i czasami zaglądać do panelu po prawej.
+Rozpoczniesz w ten sposób interaktywną sesję z [*asystentem
+dowodzenia*](https://en.wikipedia.org/wiki/Proof_assistant) Lean. Nie przejmuj się, jeżeli widzisz
+to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po lewej i
+czasami zaglądać do panelu po prawej.
 
 Błędy będą się pojawiać, ponieważ jesteś (zgaduję)
 [człowiekiem](https://www.youtube.com/watch?v=UVL186zzOXo). Gdy pojawi się błąd, Lean Cię o tym
