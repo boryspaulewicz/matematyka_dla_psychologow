@@ -146,8 +146,14 @@ tego się z definicji nie da stwierdzić ani wykluczyć. *Na pewno* natomiast wy
 godzinę uruchamiasz w "drugim" człowieku pewien proces, o którym w takich sytuacjach z góry wiesz,
 że prawie na pewno zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową
 tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczamy dosłownie każdego
-dnia. Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój"
-zegarek* i że to jest *autonomiczny, zasługujący na szacunek człowiek*.
+dnia.
+
+I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak celnie wyraził [Thích Nhất
+Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
+style="color:gray">na wojnie każdy jest ofiarą</span>.
+
+Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój" zegarek*
+i że to jest *autonomiczny, zasługujący na szacunek człowiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz ten fragment, to
 mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
@@ -243,10 +249,6 @@ dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*) wystarczająco dobrz
 *ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo
 Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego
 działania*. W tym sensie można więc powiedzieć, że jest *w nas* pewien On i jednocześnie nie jest.
-
-I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak celnie wyraził [Thích Nhất
-Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
-style="color:gray">na wojnie każdy jest ofiarą</span>.
 
 Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
 wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
