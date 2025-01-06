@@ -185,9 +185,9 @@ Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomo
 *odwracalność*. Dlatego proszę, żebyś narysowała jeszcze odwrotność funkcji `f`. To ma być taka
 funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, to znaczy: Jeżeli do dowolnego `x`
 zastosujesz `f`, to gdy do rezultatu zastosujesz `f⁻¹`, uzyskasz znowu ten `x`, czyli `f⁻¹(f(x)) =
-x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y))`. Jak tylko to zrobisz, zobaczysz czemu w wyrażeniu
-`f(f⁻¹(y))` jest `y` a nie `x`. Można więc powidzieć, że funkcje odwrotne są *lustrzanymi odbiciami
-obrazów dwóch równolicznych zbiorów*.
+x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y)) = y`. Jak tylko to zrobisz, zobaczysz czemu w
+wyrażeniu `f(f⁻¹(y))` pojawia się `y` a nie `x`. Można więc powidzieć, że funkcje odwrotne są
+*lustrzanymi odbiciami wiernych obrazów dwóch* (z konieczności równolicznych) *zbiorów*.
 
 Czy widzisz, że gdy już masz jakąś funkcję `f`, to może istnieć co najwyżej jedna funkcja `f⁻¹`?
 Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś funkcji odwracalnej, czyli jakiejś
