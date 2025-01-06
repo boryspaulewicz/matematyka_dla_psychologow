@@ -1,4 +1,4 @@
-## Teoria mnogości w zarysie
+## Teoria mnogości w za-rysie
 
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był
 język teorii mnogości, a konkretnie język teorii
@@ -12,17 +12,16 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni cytat z
 > inne szeroko używane obiekty jak liczby, funkcje oraz inne relacje; teoria mnogości stała się tak
 > źródłem modeli różnych teorii formalnych.
 
-Wolałbym "w ten sposób" zamiast "tak" w ostatnim zdaniu, ale trudno, jest jak jest. Nie będziemy się
-teraz przyglądać aksjomatom tej teorii, ponieważ my sobie sami *zrobimy* - ze strzałek i funkcji -
-pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi, zacznę odtąd
-korzystać z teorii *ZF* jako źródła ważnych przykładów.
+Wolałbym chyba "w ten sposób" zamiast "tak" w tym ostatnim zdaniu, ale trudno, jest jak jest. Nie
+będziemy się teraz przyglądać aksjomatom tej teorii, ponieważ my sobie sami *zrobimy* - ze strzałek
+i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
+zacznę odtąd intensywnie *korzystać* z półformalnej teorii mnogości jako ze źródła ważnych
+przykładów.
 
 Pojęcie zbioru jako takiego jest interesujące przede wszystkim dla specjalistów zajmujących się
-teorią mnogości, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór
-to tylko pewna *kolekcja* (jakiś) elementów czy obiektów. To, że teoria *ZF* ma status jednej z
-teorii podstawowych w matematyce oznacza między innymi, że można skonstruować rozmaite obiekty
-matematyczne posługując się tylko zbiorami. Zbiory *skończone* możemy zapisać *dosłownie*, na
-przykład tak:
+... zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór to
+nic innego jak pewna *kolekcja* (jakiś) elementów czy obiektów. Zbiory *skończone* możemy zapisać
+*dosłownie*, na przykład tak:
 
 `{1, 20, *, X, -3.4}`
 
@@ -35,12 +34,13 @@ lub tak ...
 `{n ∈ ℕ | Dodatnie n}`
 
 ... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. Wymyślając pierwszy przykład
-chciałem od razu zasugerować, że (zgodnie z dominującym w matematyce zwyczajem) zbiory mogą zawierać
-dowolne elementy, na przykład takie, które nie należą do żadnego dającego się łatwo zidentyfikować
-rodzaju albo typu. A więc zbiory to takie dowolne kolekcje potencjalnie różnorodnych elementów.
+chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce zwyczajem - zbiory mogą
+zawierać dowolne elementy, na przykład takie, które nie należą do żadnego dającego się łatwo (albo
+nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory to takie dowolne kolekcje
+potencjalnie różnorodnych elementów.
 
-**Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien "obiekt", który
-przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
+**Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
+"obiekt", który przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
 przeciwdziedziny. Żeby mieć jasny obraz sytuacji, przygotuj proszę czystą kartkę i z pewej strony
 `Narysus okrag` o średnicy kroku. O krok w prawo od prawego brzegu tego okręgu również `Narysuj
 okrag`. W lewym okręgu `Narysuj Punkt x₁`, `Narysuj Punkt x₂` i `Narysuj Punkt x₃`, jeden nad
@@ -224,12 +224,12 @@ można na Twoim rysunku dojść idąc po (dwóch) strzałkach do tych `y`-ów "i
 widzisz, że ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w
 ten sposób *zawsze* z dwóch składalnych funkcji uzyskamy dokładnie jedną funkcję?  Teoriomnogościowe
 składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które *zachowuje się tak samo,
-jak kategoryjne składanie strzałek*. O tym, w jakim sensie tak samo, powiem później.
+jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem później.
 
-Czy rozumiesz, dlaczego, jeżeli `f : X → Y`, to jeżeli `Id_x : X → X` i `Id_y : Y → Y`, to `Id_y ∘ f
-= f = f ∘ Id_y`? Musiałem tutaj inaczej oznaczyć identyczności, bo Unicode nie pozwala na zapisanie
-na przykład litery `Y` jako indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym skontruowaniu dowodu
-i jednocześnie sprawdzeniu go w podobny sposób do tego, w jaki mógłby to zrobić Lean.
+Czy rozumiesz, dlaczego jeżeli `f : X → Y`, to `Id_y ∘ f = f = f ∘ Id_y`? Musiałem tutaj inaczej
+oznaczyć identyczności, bo Unicode nie pozwala na zapisanie na przykład litery `Y` jako indeksu
+dolnego. Spróbuję Ci teraz pomóc w ręcznym skontruowaniu dowodu i jednocześnie sprawdzeniu go w
+podobny sposób do tego, w jaki mógłby to zrobić Lean.
 
 O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
