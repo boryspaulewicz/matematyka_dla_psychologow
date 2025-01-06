@@ -36,7 +36,7 @@ większego znaczenia.)
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
 czytelności, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii to
-studentki, a nie studenci, będę się zwracał do czytelniczki. Mam jednak w związku z tym cały czas
+studentki, a nie studenci, będę się zwracał do czytelniczki. Miałem jednak w związku z tym długo
 wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Dlatego na wypadek, gdyby
 zdarzało mi się sprawiać niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w
 ten sposób (i o takich sprawach), kiedy jeszcze byłem studentem, tylko wtedy oczywiście
