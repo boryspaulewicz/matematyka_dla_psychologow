@@ -304,7 +304,8 @@ przecież przeze mnie było \{no tak, faktycznie\}), że aby stworzyć dowód ko
 sensu. Trzeba oczywiście podać *dwa* argumenty, będące dowodami *członów* koniunkcji.
 
 Barłomiejowi Pankowi, za bardzo miłą i zachęcającą do dalszej zabawy reakcję na moją sugestię, żeby
-zapoznać się z tą książką.
+zapoznać się z tą książką i za podzielenie się obserwacjami, dzięki którym odkryłem, że myślimy
+bardzo podobnie o niektórych ważnych moim zdaniem sprawach.
 
 ### Przypisy
 
