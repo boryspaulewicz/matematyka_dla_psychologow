@@ -275,10 +275,11 @@ innymi w definicji funkcji `And.intro`. W tej definicji zamiast zwykłych nawias
 Prop)`, pierwsze dwa parametry są otoczone nawiasami *klamrowymi* (`{p q : Prop}`). Ponieważ trzeci
 argument funkcji `And.intro` *musi* być koniunkcją, a ta *musi* zawierać informacje na temat tego, z
 jakich zdań jest zbudowana, Lean może na tej podstawie sam wywnioskować wartość dwóch pierwszych
-parametrów. Dzięki temu, jeżeli w danym miejscu w kodzie `k : p ∧ q` (zauważyłaś, że użyłem tutaj
-typowania w roli zdania?), wystarczy napisać `And.intro k` zamiast dłuższego i redundantnego (czyli
-"niepotrzebnie przegadanego") `And.intro p q k`. Oznaczyłem też za pomocą symbolu `_` te parametry
-λ-abstrakcji, które nie są nigdzie używane, w ten sposób usuwając ostrzeżenia na temat stylu.
+parametrów. Dzięki temu, jeżeli w danym miejscu w kodzie `p : Prop`, `q : Prop`, `hp : p` i `hq : q`
+(zauważyłaś, że użyłem tutaj typowania w roli zdania?), wystarczy napisać `And.intro hp hq` zamiast
+dłuższego i redundantnego (czyli "niepotrzebnie przegadanego") `And.intro (a := p) (b := q) hp
+hq`. Oznaczyłem też za pomocą symbolu `_` te parametry λ-abstrakcji, które nie są nigdzie używane, w
+ten sposób usuwając ostrzeżenia na temat stylu.
 
 ```lean
 -- Zapisując poniższe definicje w przestrzeni nazw którą nazwałem Logika nie generuję konfliktów z
