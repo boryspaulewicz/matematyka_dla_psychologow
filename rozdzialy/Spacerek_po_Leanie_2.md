@@ -195,8 +195,8 @@ argument:
 
 Uprzedzam, że będę teraz objaśniał **najtrudniejsze pojęcie w tym rozdziale**. Przypominam więc:
 Jeżeli będziesz czuła, że trudno Ci to zrozumieć, albo będą Cię dręczyć jakieś niejasne wątpliwości
-czy brak poczucia sensu, być może najlepszą strategią będzie albo czytać dalej albo wrócić po
-przerwie do poprzednich fragmentów i przede wszystkim *czekać*, aż wszystko będzie się [powoli
+czy brak poczucia sensu, być może najlepszą strategią będzie albo czytać dalej, albo wrócić po
+przerwie do poprzednich fragmentów i przede wszystkim *poczekać*, aż wszystko będzie się [powoli
 stawało coraz bardziej
 jasne](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf). To jest
 naprawdę w dużym stopniu kwestia przyzwyczajenia, a przede wszystkim *pamięci*.
