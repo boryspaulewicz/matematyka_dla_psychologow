@@ -317,7 +317,19 @@ sposób wykresu nanieś wszystkie uporządkowane pary. Gdy już to zrobisz, podp
 komentarzem: *Przykład iloczynu kartezjańskiego zbiorów* `X = {1, 2, 3}` *i* `Y = {a, b}`. *Wartości
 oznaczone na osiach to tak zwane projekcje par uporządkowanych.*
 
+A teraz będą dwa zapowiedziane przykłady. Zastanów się proszę przez chwilę, jak zgodnie z definicją
+(która mówi, że iloczyn kartezjański dwóch zbiorów to taki zbiór, którego elementami są dokładnie
+wszystkie uporządkowane pary elementów należących do pierwszego i drugiego zbioru) powinien wyglądać
+zbiór `∅ × X`, gdzie `∅` to zbiór pusty, czyli zbiór `{}` (tak i tak go oznaczamy, zależnie od tego,
+jak jest nam w danym kontekście wygodniej). Jak postanowisz, że już czas, kliknij w
+[ten](Iloczyn_zbioru_pustego_i_X.md) link żeby przeczytać moje wyjaśnienia.
 
+Drugim ważnym dla nas przykładem jest `{1} × Y`, czyli iloczyn kartezjański pewnego singletona i
+scharakteryzowanego wcześniej zbioru `Y`. Wykombinowanie, jak powinien wyglądać ten konkretny zbiór,
+nie powinno Ci moim zdaniem sprawić szczególnych trudności.
+
+Po wykonaniu bądź podjęciu prób wykonania tych zadań-sugestii, zapoznaj się jeszcze proszę z
+[tym](Iloczyn_kartezjanski_jako_mnozenie.md) "obowiązkowym" fragmentem.
 
 ## Suma rozłączna zbiorów
 
