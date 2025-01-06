@@ -2,9 +2,9 @@
 
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką. Właściwie to znasz ten
 sposób dobrze jeszcze z czasów kiedy byłaś uczennicą szkoły podstawowej, ale być może nie
-zastanawiałaś się nigdy dłużej, o co w nim właściwie chodzi. Będziemy się teraz przyglądać z bliska
-wybranym, ważnym i często wykonywanym w matematyce czynnościom, polegającym tak naprawdę na dosyć
-prostych mechanicznych operacjach.
+zastanawiałaś się jak dotąd dłużej, o co w nim właściwie chodzi. Będziemy się teraz przyglądać z
+bliska wybranym, ważnym i często wykonywanym w matematyce czynnościom, polegającym tak naprawdę na
+dosyć prostych mechanicznych operacjach.
 
 <hr>
 
