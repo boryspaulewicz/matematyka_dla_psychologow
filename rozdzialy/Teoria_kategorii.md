@@ -135,19 +135,19 @@ coś takiego się już *wielokrotnie stało*. A stało się to dzięki temu, że
 jakby rozmowy pozwoliłaś "mi" "siebie" w pewien sposób *zaprogramować*. Nie obraź się proszę, to
 tylko tak brzmi, chodzi mi o coś najzwyczajniejszego w świecie (ludzi).
 
-I co Ty na to? Właściwie dosyć zwyczajna (prawie) rozmowa, a jednocześnie nie taka całkiem
+I co "Ty" na to? Właściwie dosyć zwyczajna (prawie) rozmowa, a jednocześnie nie taka całkiem
 zwyczajna, prawda?  W zasadzie nie różni się to *niczym* od *każdej innej rozmowy*, ani od
 wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać, że
 będziesz w określony sposób ze mną *współpracować*, a dokładniej *współ-działać*, a w każdym razie
 miałem przez cały ten czas taką nadzieję. Kiedy na przykład pytasz kogoś o godzinę, to niby co się
-dzieje? Manifestuje się w zachowaniu drugiej osoby magiczna wolna wola i - prawie zawsze! -
-zwrotnica wydarzeń przesuwa się na sprzyjający Tobie tor? *Być może*, bo tego się z definicji nie da
-ani stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o godzinę uruchamiasz w
-drugim człowieku pewien proces, o którym w takich sytuacjach z góry wiesz, że prawie na pewno
-zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową tendencję do
-współdziałania, której zresztą dosłownie prawie wszystko zawdzięczamy dosłownie każdego dnia. Jest
-wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz drugiego człowieka w swój zegarek* i że to
-*jest autonomiczny, zasługujący na szacunek człowiek*.
+dzieje? Manifestuje się w zachowaniu drugiej osoby magiczna wolna wola i tak się szczęśliwie składa,
+że - *prawie zawsze!* - zwrotnica wydarzeń przesuwa się na sprzyjający "Tobie" tor? *Być może*, bo
+tego się z definicji nie da stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o
+godzinę uruchamiasz w "drugim" człowieku pewien proces, o którym w takich sytuacjach z góry wiesz,
+że prawie na pewno zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową
+tendencję do współdziałania, której zresztą dosłownie prawie wszystko zawdzięczamy dosłownie każdego
+dnia. Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój"
+zegarek* i że to *jest autonomiczny, zasługujący na szacunek człowiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten fragment, to
 mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
