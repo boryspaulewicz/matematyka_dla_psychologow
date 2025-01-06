@@ -145,9 +145,9 @@ zwrotnica wydarzeń przesuwa się na sprzyjający Tobie tor? *Być może*, bo te
 ani stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o godzinę uruchamiasz w
 drugim człowieku pewien proces, o którym w takich sytuacjach z góry wiesz, że prawie na pewno
 zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową tendencję do
-współdziałania, której zresztą każdego dnia zawdzięczamy prawie wszystko. Jest wtedy *jednocześnie*
-prawdą, że chwilowo *przekształcasz drugiego człowieka w swój zegarek* i że to *jest autonomiczny,
-zasługujący na szacunek człowiek*.
+współdziałania, której zresztą dosłownie prawie wszystko zawdzięczamy dosłownie każdego dnia. Jest
+wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz drugiego człowieka w swój zegarek* i że to
+*jest autonomiczny, zasługujący na szacunek człowiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten fragment, to
 mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
