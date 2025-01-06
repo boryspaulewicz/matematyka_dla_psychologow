@@ -297,6 +297,12 @@ rozdziale i "w czytelniku") wprowadzać język teorii kategorii, którą matemat
 określenie [abstrakcyjny Absurd](https://en.wikipedia.org/wiki/Reductio_ad_absurdum) też by
 pasowało).
 
+I jeszcze raz Tomkowi Smoleniowi, za wskazanie błędu w opisie funkcji `And.intro` w rozdziale
+18-12. Pisząc ten fragment musiałem chyba już spać, bo było tam podane (no czemu tak bezosobowo,
+przecież przeze mnie było \{no tak, faktycznie\}), że aby stworzyć dowód koniunkcji za pomocą
+`And.intro` wystarczy podać *jeden* argument, w dodatku to był *dowód koniunkcji*, czyli całkiem bez
+sensu. Trzeba oczywiście podać *dwa* argumenty, będące dowodami *członów* koniunkcji.
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę
