@@ -435,7 +435,7 @@ jeden term typu `Nat` i zwraca term typu `Nat` (będący rezultatem dodawania). 
 pobiera jeden term typu `Nat`, ale zwraca tamtą *funkcję*, a dokładniej jej odpowiednią wersję,
 dlatego właśnie typ stałej `plus` to `Nat → (Nat → Nat)`.
 
-Nawiasy w `Nat → (Nat → Nat)` nie są konieczne, bo w Leanie *strzałka wiąże z prawej*: Gdyby nie
+Nawiasy w `Nat → (Nat → Nat)` nie są konieczne, bo w Leanie *strzałka wiąże z prawej*. Gdyby nie
 konwencja, którą stosuje Lean, zapis `Nat → Nat → Nat` byłby problematycznie wieloznaczny, ponieważ
 nie byłoby wiadomo, czy chodzi o `(Nat → Nat) → Nat` czy o `Nat → (Nat → Nat)`, a to *nie jest to
 samo*; `(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają *funkcje* typu `Nat
