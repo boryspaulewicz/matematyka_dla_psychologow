@@ -211,7 +211,7 @@ napiszę na przykład `h_1`, to będzie to tylko
 Unikodzie zapisywać, ale już na przykład większości liter nie).
 
 Byłoby wspaniale, gdybyś jeszcze spróbowała zdefiniować za pomocą rysunków dwie funkcje, nazwijmy je
-znowu `f` i `g`, takie, że `f : X → Y` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy,
+znowu `f` i `g`, takie, że `f, g : X → Y` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy,
 istnieje funkcja `l_f` taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że
 `f(p_f(y)) = y` (tak, tu ma być `y`, a nie `x`), a `g : X → Y` ma *tylko* prawą odwrotność, ale nie
 ma lewej, to znaczy, istnieje funkcja `p_g` taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja
@@ -223,7 +223,14 @@ zbiory, `X`, `Y` i `Z` takie, że pierwszy ma trzy elementy, drugi powiedzmy czt
 cztery. Zdefiniuj rysując strzałki jakąś funkcję `f : X → Y`, czyli funkcję ze zbioru `X` do zbioru
 `Y` i jakąś funkcję `g : Y → Z`. Pod spodem zapisz komentarz: *Teoriomnogościowe złożenie funkcji*
 `f` *i* `g` *to taka funkcja* `g ∘ f` *(zapisujemy to w ten sposób w tej kolejności), że* `(g ∘
-f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).*
+f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).* 
+
+Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem funkcji byłoby wykonanie
+najpierw jednej (wymienionej jako *druga*) operacji, a potem drugiej (wymienionej jako *pierwsza*).
+I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej czynności -
+najpierw należy narysować dwa nieco wygięte koła, a następnie narysować resztę
+[sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/), czyli narysować sowę p∘ tym, jak
+narysowało się najpierw dwa koła.
 
 Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
 następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
