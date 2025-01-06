@@ -292,10 +292,10 @@ moj_parametr + 2
 2 + 2
 ```
 
-Czy widzisz, że warto tutaj użyć innej nazwy - *parametr* - na to, co pojawia się po słowie fun
-(czyli na moj_parametr) i innej - *argument* - na to, co pojawia się jako drugi term w tej aplikacji
-(czyli na 2)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym mówić w
-sposób zrozumiały.
+Czy widzisz, że warto tutaj użyć innej nazwy - *parametr* - na to, co pojawia się po słowie `fun`
+(czyli na `moj_parametr`) i innej - *argument* - na to, co pojawia się jako drugi term w tej
+aplikacji (czyli na `2`)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym
+mówić w sposób zrozumiały.
 
 ```lean
 -- + to także funkcja, tylko taka, której apliację możemy zapisać w *notacji infiksowej*, czyli w stylu:
