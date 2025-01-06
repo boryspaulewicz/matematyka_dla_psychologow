@@ -1,25 +1,25 @@
 ## O czym teraz będzie
 
-Akurat w tym wypadku nie chcę psuć ewentualnej niespodzianki.
+Nie chcę psuć niespodzianki.
 
 # Nie ma to jak **_Rysowanie_**
 
-W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam ważny powód,
-żeby ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
+W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam powód, żeby
+ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
 właściwie kilku, a tak naprawdę będziemy potrzebowali kilku *diagramów*.
 
 **Polecenie**: Przygotuj czystą kartkę papieru i długopis, albo cokolwiek innego do pisania. Może
 najlepiej kartkę formatu *A4*, ale nie warto się przy tym upierać. Jeżeli masz kartkę formatu *A4*,
 to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
 
-1. Zapisz literę *A*, a zaraz *po prawej* od niej małe
-   [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o) (nie
-   [okrąg](https://pl.wikipedia.org/wiki/Okr%C4%85g)), jakbyś chciała zaznaczyć tylko pewien *punkt*
-   i oznaczyć go literą *A*.
+1. Zapisz literę *A*, a zaraz *po prawej* od niej mały
+   [okrąg](https://pl.wikipedia.org/wiki/Okr%C4%85g) (nie
+   [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o)), jakbyś chciała zaznaczyć tylko pewien *punkt*,
+   w którym właściwie nic nie ma, albo którego prawie nie ma, i oznaczyć go literą *A*.
 
 2. Po prawej od *punktu A*, w odległości równej powiedzmy mniej więcej połowie długości Twojego
-   palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugie podobne koło, a *po prawej*
-   od tego koła zapisz literę *B*. Odtąd dla własnej wygody pisania i Twojej wygody czytania będę
+   palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugi podobny okrąg, a *po prawej*
+   od tego okręgu zapisz literę *B*. Odtąd dla własnej wygody pisania i Twojej wygody czytania będę
    nazywał tą odległość *krokiem*, a kiedy powiem, dla `X : Litera`, *oznacz* dany *punkt literą `X`
    z prawej*, albo *z lewej*, albo *z góry*, albo *z dołu*, to będzie mi chodziło o to, żebyś
    zapisała tą literę zaraz po prawej, albo zaraz z lewej, albo zaraz nad, albo zaraz pod tym
@@ -28,60 +28,61 @@ to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
 3. Narysuj strzałkę wychodzącą z punktu *A* i wchodzącą do punktu *B*, czyli taką z grotem
    wskazującym na punkt *B*. Może narysuj ją tak, żeby nie stykała się całkiem z punktami, ale to
    tylko sugestia. Ja robię to raz tak, a raz inaczej, i często się waham, którą wersję
-   wybrać. Zgodnie z instrukcjami ta strzałka powinna być mniej więcej pozioma. Odtąd będę mówił
-   krócej, na przykład: jeżeli na kartce `X : Punkt` i `Y : Punkt` (typowanie można czytać jak
+   wybrać. Zgodnie z instrukcjami ta strzałka powinna być narysowana poziomo. Odtąd będę mówił
+   krócej, na przykład: Jeżeli na kartce `X : Punkt` i `Y : Punkt` (typowanie można czytać jak
    zdanie, pamiętasz?), to powiem *narysuj strzałkę z `X` do `Y`*, a właściwie powiem to nawet
    krócej (to tylko objaśnienie języka, jakim będę się w coraz większym stopniu posługiwał, nie
    instrukcja).
 
-4. `Krok` poniżej `B : Punkt` narysuj `Punkt` i oznacz go z dołu literą `C`, a potem tak samo
-   narysuj `Strzalka B C`, czyli strzałkę z punktu `B` do punktu `C`.
+4. `Krok` poniżej `B : Punkt` narysuj kolejny `Punkt` i oznacz go z dołu literą `C`, a potem tak
+   samo narysuj `Strzalka B C`, czyli strzałkę z punktu `B` do punktu `C`.
 
 5. Zaraz nad `Strzalka A B` zapisz literę `f`, a zaraz po prawej od `Strzalka B C` zapisz literę
    `g`.
 
 Masz teraz dwie strzałki, o których, gdy wymienimy je *w określonej kolejności*, możemy powiedzieć,
 że są `Skladalne`, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`),
-z którego wychodzi druga (tutaj `g`). Ten fakt możemy więc zapisać jako zdanie `Skladalne f
-g`. Zwróć uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g
-f`. I tutaj muszę zacząć pisać bardzo ostrożnie, a Ty być może będziesz musiała uzbroić się w
-cierpliwość czekając aż to co powiem stanie się w miarę jasne.
+z którego wychodzi druga (tutaj `g`). Ten fakt możemy zapisać jako zdanie `Skladalne f g`. Zwróć
+uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g f`. I teraz
+muszę zacząć pisać ostrożniej, a Ty być będziesz musiała uzbroić się w cierpliwość, czekając, aż to
+co powiem stanie się w miarę jasne.
 
 ## [*Absence of evidence is not evidence of absence*](https://en.wikipedia.org/wiki/Evidence_of_absence)
 
 Napisałem, że *nie jest prawdą, że* `Skladalne g f`, ale *nie* miałem na myśli, że *jest nieprawdą,
-że* `Skladalne g f`. Wbrew pozorom to nie jest to samo, a w każdym razie niekoniecznie to samo. Żeby
-stwierdzić, że *nieprawda, że* `Skladalne g f` musimy dysponować *dowodem* `¬(Skladalne g
-f)`. Mówiąc, że *nie jest prawdą, że* `Skladalne g f` miałem na myśli *tylko* to, że *póki co nie
-dysponujemy żadnym dowodem, że* `Skladalne g f`, ale *nie możemy wykluczyć*, że taki dowód się
+że* `Skladalne g f`. Wbrew pozorom to nie jest to samo, a w każdym razie to niekoniecznie to
+samo. Żeby stwierdzić, że *nieprawda, że* `Skladalne g f`, musimy dysponować *dowodem* `¬(Skladalne
+g f)`. Mówiąc, że *nie jest prawdą, że* `Skladalne g f` miałem na myśli *tylko* tyle, że *póki co
+nie dysponujemy żadnym dowodem, że* `Skladalne g f`, ale *nie możemy wykluczyć*, że taki dowód się
 pojawi. Żeby to wykluczyć, musielibyśmy albo udowodnić, albo założyć, że punkty `A` i `C` są
 *różne*. Wtedy faktycznie *nie mogłoby* być prawdą, że `Skladalne g f`.
 
 W tym momencie, albo już wcześniej, mogła Ci się pojawić wątpliwość, że przecież punkty `A` i `C`
 *nie nachodzą na siebie na rysunku*, a więc *nie może być tak*, że `A` i `C` są tym samym *punktem*,
-a więc *to są różne punkty*. I myśląc tak miałabyś rację!
+a więc *to różne punkty*. I myśląc tak miałabyś rację!
 
 Rysunek *sugeruje* tutaj, że `A`, `B` i `C` to *różne punkty* i że `f` i `g` to *różne strzałki* i
 to faktycznie *są* różne punkty i różne strzałki *na tym rysunku*, ale *tym razem* **to nie jest kod
 Leana**, tylko pewne formalne *reprezentacje*, które w ogólnym przypadku mają coś *oznaczać*. Te
-punkty i strzałki mogą, ale nie muszą *oznaczać różne obiekty* (odpowiedniego typu). Punkty `A`, `B`
-i `C` pełnią tu więc role abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania (jak się
-okaże, będą to wymagania kategorii), czyli to są **rysunkowe zmienne**, i tak samo zmiennymi są
-również wszystkie strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli
-i staną się przez to *stałymi*.
+punkty i strzałki mogą, ale nie muszą *reprezentować różne obiekty* (odpowiedniego typu). Punkty
+`A`, `B` i `C` pełnią tu więc role abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania
+(jak się okaże, będą to wymagania kategorii), czyli są **rysunkowymi zmiennymi**, i tak samo
+zmiennymi są również wszystkie strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje*
+niektórych lub wszystkich tych symboli i te staną się przez to *stałymi*.
 
 Czyli te punkty i strzałki są tutaj jak litery *n* i *m* w wyrażeniu *n + m = m + n*, zapisanym jako
 fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. Chociaż to, że *litery*
 były tam różne, zdawało się *sugerować*, że te litery oznaczają różne liczby, to wiedziałaś, albo
 przypomniałaś sobie szybko, że obie te litery mogą oznaczać *dowolne* liczby naturalne, mogą więc
-oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*, i wtedy to równanie
-przyjęłoby postać *1 + 1 = 1 + 1* (i nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary
-liczb).
+oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*. Gdyby na przykład obie
+te litery oznaczały liczbę *1*, równanie przyjęłoby postać *1 + 1 = 1 + 1* (i nadal byłoby
+prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
 
-Kiedy czytając rozdział czwarty wyprowadzałaś, według moich instrukcji, dowód twierdzenia Bayesa,
-nie używaliśmy jeszcze Leana, a więc to *Ty* musiałaś konsekwentnie podstawiać pewne wartości (wtedy
-zmienne *y* i *x*) za pewne zmienne (wtedy za zmienne *x* i *y* *jako części definicji pionowej
-kreski*), a więc też musiałaś oczywiście *zrozumieć, co masz zrobić*.
+Kiedy czytając rozdział czwarty wyprowadzałaś, zgodnie z moimi instrukcjami, dowód twierdzenia
+Bayesa, nie używaliśmy jeszcze Leana, a więc to *Ty* musiałaś konsekwentnie podstawiać pewne
+wartości (wtedy symbole *y* i *x* oznaczające zdarzenia) za pewne zmienne (wtedy za zmienne *x* i
+*y* *jako części definicji pionowej kreski*), a więc musiałaś też oczywiście *rozumieć, co masz
+zrobić*.
 
 Wiesz, o co mi chodzi? Teraz, gdy na jakiś czas przestaliśmy polegać na Leanie i znowu sama
 *tworzysz kod* (rysując), a niebawem będziesz też sama *przekształcać wyrażenia zapisane w tym
@@ -94,24 +95,25 @@ więc dla Ciebie "opakowane" i nie możesz otworzyć tych opakowań.*
 
 Na razie nic nie jest "przyczepione" do tych elementów rysunku od spodu, i (zgaduję) nigdy nie
 będzie, ani nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi elementami *w Twojej
-głowie*. Ale może być i będzie, w następnym rozdziale.
+głowie*. Ale może być i będzie, w jednym z następnych rozdziałów.
 
 Punkty `A`, `B` i `C` są różne *jako zmienne*, ale mogłabyś przecież dostać w przyszłości dowód, że
 `A = C`, albo po prostu założyć taką hipotezę, i wtedy okazałoby się, że zmienna / paczka z etykietą
 `A` skrywała cały czas "pod" jakimś wirtualnym "spodem" *taki sam* (być może również tylko
-wirtualny) *obiekt* co zmienna / paczka z etykietą `C`, tylko wcześniej o tym nie wiedziałaś. 
+wirtualny) *obiekt*, co zmienna / paczka z etykietą `C`, tylko wcześniej o tym nie wiedziałaś.
 
 Zwróć proszę uwagę, że napisałem *taki sam*, a nie *ten sam*, a napisałem tak dlatego, że w
 matematyce równość *nie* oznacza "absolutnej identyczności" tylko **nierozróżnialność w danym
 języku** (albo z danego *punktu widzenia*). Na przykład, *1/2* to *ta sama liczba* co *2/4*, ale to
-jednocześnie również *inny ułamek*. Kiedy więc posługujemy się "językiem liczbowym", to jest to samo
-(a tak naprawdę takie samo), ale kiedy posługujemy się "językiem ułamkowym", to nie jest to samo
-(ani tym bardziej takie samo).
+jednocześnie jest przecież *inny ułamek*. Kiedy więc posługujemy się "językiem liczbowym", to jest
+to samo (a tak naprawdę takie samo), ale kiedy posługujemy się "językiem ułamkowym", to nie jest to
+samo (ani tym bardziej takie samo).
 
-A skoro niebawem to *Ty* będziesz miała operować symbolami, podstawiając i dokonując ewaluacji, to
-**"Ty" będziesz funkcją i ewaluatorką**. Jeżeli chodzi o te symbole narysowane na kartce, to dopiero
-zaczynasz się przekształcać w funkcję, która będzie te symbole traktowała jak by były nazwami
-zmiennych. *To będzie wtedy* **"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**. 
+A skoro niebawem to *Ty* będziesz operowała symbolami, podstawiając i dokonując w pewien sposób
+ewaluacji różnych wyrażeń, to **"Ty" będziesz funkcją i ewaluatorką**. Jeżeli chodzi o te symbole
+narysowane na kartce, to dopiero zaczynasz się przekształcać w funkcję, która będzie te symbole
+traktowała tak, jakby były nazwami zmiennych. *To będzie wtedy* **"Twój" kontekst** *albo*
+**kontekst "Ciebie" jako funkcji**.
 
 *To całkiem dosłownie, bo fizycznie* (i zarazem *funkcjonalnie*, ale w innym znaczeniu słowa
 "funkcja") *będzie* **"Twój" kontekst**, *ponieważ to będzie część* **fragmentu środowiska
@@ -119,18 +121,18 @@ fizycznego**, *który, chociaż się nieustannie zmienia i nie jest tak naprawd�
 świata żadną ścisłą i nieprzepuszczalną barierą, jest jednak dla "Ciebie" szczególnie ważną częścią
 środowiska, bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia - "Tobą",
 zależnie od punktu widzenia. Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część
-środowiska nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz rolę
-kontekstu "Ciebie" jako pewnej** (jeszcze innej) **funkcji** *nazywasz "Twoją"* **pamięcią**.
+"swojego" środowiska nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz
+rolę kontekstu "Ciebie" jako pewnej** (jeszcze innej) **funkcji** *nazywasz "Twoją"* **pamięcią**.
 
 *Tak się też przy okazji składa, że używasz lokalnego* (dla "Ciebie") *fragmentu środowiska
 zewnętrznego* (to jest kartki, być może w formacie *A4*, ale tego nie wiem), *żeby pomóc "swojej"
 pamięci korzystając z rysunku, ale ten rysunek ma dla "Ciebie"* **sens** *tylko dzięki temu, że*
-**pamiętasz, co oznacza**, *czyli przede wszystkim pamiętasz co można, a czego (zachowując sens) nie
-można z nim zrobić. Rzeczywisty kontekst znajduje się więc w "Twoim" ciele, a rysunek to tylko
+**pamiętasz, co oznacza**, *czyli przede wszystkim pamiętasz co można, a czego - zachowując sens -
+nie można z nim zrobić. Rzeczywisty kontekst znajduje się więc w "Twoim" ciele, a rysunek to tylko
 "tymczasowa proteza" albo "zewnętrzne rusztowanie" dla Twojej pamięci*.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo teraz, tworząc ten rysunek i stosując
-zaproponowany przeze mnie język opisu, ale też bardzo wiele razy wcześniej "*sama*" sprawiłaś, że
+zaproponowany przeze mnie język opisu, ale też bardzo wiele razy wcześniej, "*sama*" sprawiłaś, że
 coś takiego się już *wielokrotnie stało*. A stało się to dzięki temu, że w ramach tej **naszej**
 jakby rozmowy pozwoliłaś "mi" "siebie" w pewien sposób *zaprogramować*. Nie obraź się proszę, to
 tylko tak brzmi, chodzi mi o coś najzwyczajniejszego w świecie (ludzi).
