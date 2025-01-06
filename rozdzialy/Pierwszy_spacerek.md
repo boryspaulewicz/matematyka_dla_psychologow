@@ -18,11 +18,11 @@ fragment matematycznej prozy:
 
 I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m*:
 
-Konkretną *liczbę* naturalną
+1. Konkretną *liczbę* naturalną
 
-*Zmienną*, na przykład zmienną *a*, o której wcześniej założyłaś, że oznacza (jakąś) liczbę naturalną
+2. *Zmienną*, na przykład zmienną *a*, o której wcześniej założyłaś, że oznacza (jakąś) liczbę naturalną
 
-*Wyrażenie*, które po obliczeniu daje liczbę naturalną, takie jak *10 - 1*
+3. *Wyrażenie*, które po obliczeniu daje liczbę naturalną, takie jak *10 - 1*
 
 Trzeba tylko pamiętać, żeby podstawianie było konsekwentne, to znaczy, za *n* musi być wszędzie
 podstawione to samo i za *m* wszędzie to samo. Trzeba też wiedzieć, że to nie muszą być dwie różne
@@ -66,8 +66,8 @@ Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robi�
 
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiadałem
 uczestnikom, że zaraz będą sami go dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną
-panikę widziałem zresztą w oczach pracowników naukowych, którzy byli obecni na moim otwarciu
-przewodu, kiedy po raz pierwszy na slajdach pojawił się symbol [*sumy
+panikę widziałem zresztą w oczach niektórych pracowników naukowych, którzy byli obecni na moim
+otwarciu przewodu, kiedy po raz pierwszy na slajdach pojawił się symbol [*sumy
 indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana) (*∑*). W tym roku po raz pierwszy
 spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na pierwszych albo drugich zajęciach, i
 postarałem się nakłonić wszystkich, żeby skupili się tylko na bardzo prostych w tym wypadku
