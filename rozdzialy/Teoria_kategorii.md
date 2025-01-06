@@ -421,11 +421,11 @@ tak powoli unosić, aż w końcu, niemal bez użycia siły, [rozłupiemy razem t
 zgryzienia](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf);-
 musimy tylko poczekać, żeby się trochę namoczył ;-)
 
-Przyda nam się również term `Kompatybilne`, który będzie dotyczył *trzech* strzałek. Jeżeli `f :
-Strzalka`, `g : Strzalka` i `h : Strzalka`, to jeżeli `Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a
-`Cel h` to `Cel g`, tak jak na pierwszym diagramie, to `Kompatybilne f g h`. Na Twoim rysunku taką
-relację spełniają więc dwie trójki, bo jest jednocześnie prawdą, że `Kompatybilne f g h` i
-`Kompatybilne f g i`.
+Przyda nam się również (wymyślony przeze mnie do pewnych celów) term `Kompatybilne`, który będzie
+dotyczył *trzech* strzałek. Jeżeli `f : Strzalka`, `g : Strzalka` i `h : Strzalka`, to jeżeli
+`Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a `Cel h` to `Cel g`, tak jak na pierwszym diagramie, to
+`Kompatybilne f g h`. Na Twoim rysunku taką relację spełniają więc dwie trójki, bo jest jednocześnie
+prawdą, że `Kompatybilne f g h` i `Kompatybilne f g i`.
 
 Wprowadzimy teraz pewnego rodzaju *działanie na strzałkach*, czyli operację podobną na przykład do
 dodawania albo do mnożenia, ale ta operacja nie będzie dotyczyła liczb, tylko naszych
@@ -438,12 +438,12 @@ sygnalizuję\}).
 Jeżeli `f : Strzalka` i `g : Strzalka` i `Skladalne f g`, tak jak na *naszym* diagramie, to
 przyjmujemy aksjomatycznie, czyli po prostu tak się umawiamy, że istnieje unikalne `Zlozenie f g :
 Strzalka`. Działanie nazywa się tutaj `Zlozenie` i stwierdziliśmy właśnie o tym działaniu, że
-złożenie dwóch kompatybilnych strzałek `f` i `g` (w tej kolejności) jest również `Strzalka`,
+złożenie dwóch składalnych strzałek `f` i `g` (w tej kolejności) jest również `Strzalka`,
 analogicznie do tego, że suma albo iloczyn dwóch liczb jest również liczbą. Nasza operacja
-`Zlozenie` różni się jednak od dodawania i mnożenia między innymi w ten ważny sposób, że tamte
-operacje mają sens dla *każdej* uporządkowanej pary liczb, a `Zlozenie` ma sens *tylko* dla tych
-(uporządkowanych) par `Strzalka`, które są `Kompatybilne`. Można więc powiedzieć nieformalnie, że
-`Zlozenie` jest działaniem *wybrednym*.
+`Zlozenie` różni się jednak od dodawania i mnożenia w ten ważny sposób, że tamte operacje mają sens
+dla *każdej* uporządkowanej pary liczb, a `Zlozenie` ma sens *tylko* dla tych (uporządkowanych) par
+`Strzalka`, które są `Skladalne`. Można więc powiedzieć nieformalnie, że `Zlozenie` jest działaniem
+*wybrednym*.
 
 Umówiliśmy się więc, że gdy `Skladalne f g`, to *musi istnieć* `Strzalka`, która jest *unikalnym*
 `Zlozenie f g`, w tej kolejności. Mamy teraz do wyboru dwie strzałki, `h` i `i`. Wybierzemy `h`, bez
@@ -460,8 +460,8 @@ momencie najlepiej objaśnić to pojęcie skupiając się tylko na naszym diagra
 zaznaczyłaś ptaszka*, z Twojego rysunku możemy teraz odczytać, że `Zlozenie f g` *jest tym samym
 (czymś) co* `h`. *Gdybyś* dodała jeszcze *ptaszka* między `i` i `h` (ale proszę nie rób tego, chyba,
 że nie możesz się powstrzymać), znaczyłoby to, że `i` jest tym samym (czymś) co `h`, a skoro `h` już
-jest (na mocy samej naszej decyzji) tym samym czymś, co `Zlozenie f g`, to obecność tego drugiego
-ptaszka oznaczałaby również, że `i` jest tym samym (czymś), co `Zlozenie f g`.
+jest (na mocy naszej decyzji) tym samym czymś, co `Zlozenie f g`, to obecność tego drugiego ptaszka
+oznaczałaby również, że `i` jest tym samym (czymś), co `Zlozenie f g`.
 
 Może dam sobie już spokój z tą zabawą w pół-sformalizowany pół-dialog.
 
@@ -469,15 +469,15 @@ Dużo tego było, ale można to wszystko podsumować dosyć krótko mówiąc, ż
 samych strzałek i punktów, które zawsze* (o tym jeszcze nie mówiłem) *są źródłami albo celami jakiś
 strzałek*. Czyli w naszym świecie *nie ma* punktów które nie są w ogóle "strzałkowe". A nie ma w tym
 świecie żadnych punktów, które nie są ani źródłem ani celem żadnej strzałki, bo *jedyne*, do czego w
-tej teorii służą punkty, to *ograniczanie możliwości składania*. A więc te punkty są *tylko* po to,
-żeby można było elastycznie określać sposób, w jaki dokładnie sposób operacja składania jest
-wybredna (w różnych sytuacjach). Czyli to są *tylko* takie *punkty zaczepienia* (strzałek).
+tej teorii służą punkty, to *ograniczanie operacji składania*. A więc te punkty są *tylko* po to,
+żeby można było elastycznie określać sposób, w jaki dokładnie operacja składania jest wybredna (w
+różnych sytuacjach). Czyli to są *tylko* takie *punkty zaczepienia* (strzałek).
 
 ## Równość (Wolność i Braterstwo)
 
 Do tej pory w ogóle nie *używaliśmy* w Leanie relacji równości, bo ta, gdy pisaliśmy w Leanie,
 pojawiała się tylko jako treść twiedzenia o przemienności dodawania liczb naturalnych, a tego
-twierdzenia nie używaliśmy (w Leanie) do niczego. Jak już wiesz, w matematyce ta relacja równości
+twierdzenia nie używaliśmy (w Leanie) do niczego. Jak już wiesz, w matematyce ta relacja oznacza
 *nierozróżnialność z danego punktu widzenia*. W *praktyce* to znaczy *tylko* tyle, że obiekty albo
 termy, które są (z założenia albo na mocy jakiegoś dowodu) równe, mogą się nawzajem *zastępować* w
 każdym (poprawnym) wyrażeniu (danego języka), nie zmieniając ani sensu albo treści, ani - jeżeli to
