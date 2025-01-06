@@ -136,12 +136,22 @@ jakby rozmowy pozwoliłaś "mi" "siebie" w pewien sposób *zaprogramować*. Nie 
 tylko tak brzmi, chodzi mi o coś najzwyczajniejszego w świecie (ludzi).
 
 I co Ty na to? Właściwie dosyć zwyczajna (prawie) rozmowa, a jednocześnie nie taka całkiem
-zwyczajna, prawda?  Właściwie nie różni się to *niczym* od *każdej innej rozmowy*, ani od wszystkich
-moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać, że będziesz w
-określony sposób ze mną *współpracować*, a dokładniej *współ-działać*, a w każdym razie miałem przez
-cały ten czas taką nadzieję. Jeżeli więc tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a
-skoro czytasz ten fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy
-dokładnie to samo, teraz tylko szczegóły są nowe. A właściwie przecież już
+zwyczajna, prawda?  W zasadzie nie różni się to *niczym* od *każdej innej rozmowy*, ani od
+wszystkich moich wcześniejszych prób wytłumaczenia Ci czegoś, bo pisząc musiałem zakładać, że
+będziesz w określony sposób ze mną *współpracować*, a dokładniej *współ-działać*, a w każdym razie
+miałem przez cały ten czas taką nadzieję. Kiedy na przykład pytasz kogoś o godzinę, to niby co się
+dzieje? Manifestuje się w zachowaniu drugiej osoby magiczna wolna wola i - prawie zawsze! -
+zwrotnica wydarzeń przesuwa się na sprzyjający Tobie tor? *Być może*, bo tego się z definicji nie da
+ani stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o godzinę uruchamiasz w
+drugim człowieku pewien proces, o którym w takich sytuacjach z góry wiesz, że prawie na pewno
+zadziała. A wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową tendencję do
+współdziałania, której zresztą każdego dnia zawdzięczamy prawie wszystko. Jest wtedy *jednocześnie*
+prawdą, że chwilowo *przekształcasz drugiego człowieka w swój zegarek* i że to *jest autonomiczny,
+zasługujący na szacunek człowiek*.
+
+Jeżeli tylko próbowałaś zrozumieć to, o czym do Ciebie mówiłem, a skoro czytasz ten fragment, to
+mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz tylko
+szczegóły są nowe. A właściwie przecież już
 [wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
 niemal na samym początku, nawet szczegóły były w zasadzie takie same.
 
@@ -149,10 +159,11 @@ Zgaduję jednak, a w każdym razie mam taką nadzieję, że Twoje *wrażenie*, n
 tym razem w jakiś trudny do określenia sposób inne. Czy nie chodzi przypadkiem o to, że wtedy,
 udowadniając twierdzenie Bayesa, czułaś się być może nawet dumna, a w każdym razie chociaż trochę
 usatysfakcjonowana, że wszystkie elementy układanki trafiły na właściwe miejsce i "Tobie" wyszedł
-ten dowód, a teraz masz trochę wrażenie, że zostałaś w pewien sposób *zmanipulowana*? Czy faktycznie
-jest jakaś różnica? Nazywałem dotąd co prawda "zadania" "poleceniami", ale to była z konieczności za
-każdym razem *prośba*, bo za każdym razem musiałem liczyć na Twoją *dobrą wolę* i *współpracę*. Nie
-mogłem Cię przecież *do niczego zmusić*.
+ten dowód, a teraz miałaś przynajmniej przez chwilę trochę wrażenie, że zostałaś w pewien sposób
+*zmanipulowana*? Czy faktycznie jest jakaś różnica? Nazywałem dotąd co prawda "zadania"
+"poleceniami", ale to była z konieczności za każdym razem *prośba*, bo za każdym razem musiałem
+liczyć na Twoją *dobrą wolę* i *współpracę*. Nie mogłem przecież, ani wcale nie chciałem, Cię do
+niczego *zmusić*.
 
 Być może trudno Ci zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest

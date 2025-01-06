@@ -155,12 +155,14 @@ wielkością*?
 
 Bijekcje są *przykładami* izomorfizmów, ale pojęcie izomorfizmu, jak się później przekonasz, jest
 ogólniejsze. Czy widzisz, że izomorfizm jest jak powiedzenie dokładnie tego samego, tylko innymi
-słowami albo symbolami? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie
-jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie
-zmienia. Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomorfizmów jest ich
-*odwracalność*. Dlatego proszę, żebyś narysowała jeszcze odwrotność funkcji `f`. To ma być taka
-funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, czyli: Jeżeli do dowolnego `x` zastosujesz
-`f`, to `f⁻¹(f(x)) = x`. 
+słowami albo symbolami, czyli to taki jakby wierny tłumacz w obie strony? Dlatego nazywamy takie
+funkcje również funkcjami *wzajemnie jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na
+`y`-ki, ale poza tym nic się nie zmienia. Ważną własnością funkcji izomorficznych i w ogóle
+wszelkiego rodzaju izomorfizmów jest ich *odwracalność*. Dlatego proszę, żebyś narysowała jeszcze
+odwrotność funkcji `f`. To ma być taka funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, to
+znaczy: Jeżeli do dowolnego `x` zastosujesz `f`, gdy do rezultatu zastosujesz `f⁻¹`, to uzyskasz
+znowu ten `x`, czyli `f⁻¹(f(x)) = x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y))`. Można więc
+również powidzieć, że funkcje odwrotne są jakby swoimi lustrzanymi odbiciami.
 
 Czy widzisz, że gdy już masz jakąś funkcję `f`, to może istnieć co najwyżej jedna funkcja `f⁻¹`?
 Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś funkcji odwracalnej, czyli jakiejś
@@ -168,8 +170,17 @@ bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dziedziny *
 dokładnie ten element, który w niego "`f`-trafia".  Właśnie dlatego, że taka funkcja, jeżeli
 istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest *unikalna*, oznaczamy ją jako
 `f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *coś, co powstaje w pewien sposób z
-funkcji* `f`. Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka
-funkcja nie może być odwracalna.
+funkcji* `f`. 
+
+Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
+odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
+trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *funkcja* `g` z
+przeciwdziedziny `f` do dziedziny `f` taka, że `g(f(x)) = x` *i jednocześnie* `g(f(x))`. 
+
+Byłoby wspaniale, gdybyś jeszcze spróbowała zdefiniować za pomocą rysunków dwie funkcje, nazwijmy je
+znowu `f` i `g`, takie, że `f` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy, istnieje
+funkcja `l_f` taka, że `l_f(f(x)) = x`, ale nie istnieje funkcja `p_f` taka, że `f(p_f(y)) = y`
+(tak, tu ma być `y`, a nie `x`)
 
 **Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
 zbiory, `X`, `Y` i `Z` takie, że pierwszy ma trzy elementy, drugi powiedzmy cztery i trzeci może też
