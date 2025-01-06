@@ -172,14 +172,14 @@ które są jednocześnie injekcjami i surjekcjami, czyli takie, które są róż
 takie, które nie sklejają żadnych elementów swojej dziedziny i trafiają we wszystkie elementy swojej
 przeciwdziedziny. `Narysuj` proszę bijekcję z czteroelementowego zbioru `X` do czteroelementowego
 zbioru `Y` i oznacz ją literą `f`. Czy rozumiesz, dlaczego nie może istnieć bijekcja, w dowolnym
-kierunku, między zbiorami które *różnią się wielkością*?
+kierunku, między zbiorami *różniącymi się wielkością*?
 
 Bijekcje są *przykładami* [izomorfizmów](https://pl.wikipedia.org/wiki/Izomorfizm), ale pojęcie
-izomorfizmu jest, jak później się przekonasz, znacznie ogólniejsze. Czy widzisz, że izomorfizm jest
-jak powiedzenie dokładnie tego samego, tylko innymi słowami albo symbolami, czyli to taki jakby
-wierny tłumacz w obie strony? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie
+izomorfizmu jest, jak się przekonasz, znacznie ogólniejsze. Czy widzisz, że izomorfizm jest jak
+powiedzenie dokładnie tego samego, tylko innymi słowami albo symbolami, czyli to taki jakby wierny
+tłumacz w obie strony? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie
 jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie
-zmienia. 
+zmienia.
 
 Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomorfizmów jest ich
 *odwracalność*. Dlatego proszę, żebyś narysowała jeszcze odwrotność funkcji `f`. To ma być taka
@@ -187,7 +187,8 @@ funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, to znaczy: Jeż
 zastosujesz `f`, to gdy do rezultatu zastosujesz `f⁻¹`, uzyskasz znowu ten `x`, czyli `f⁻¹(f(x)) =
 x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y)) = y`. Jak tylko to zrobisz, zobaczysz czemu w
 wyrażeniu `f(f⁻¹(y))` pojawia się `y` a nie `x`. Można więc powidzieć, że funkcje odwrotne są
-*lustrzanymi odbiciami wiernych obrazów dwóch* (z konieczności równolicznych) *zbiorów*.
+*lustrzanymi odbiciami wiernych obrazów* (lepiej: *odwzrowań*) *dwóch* (z konieczności
+równolicznych) *zbiorów*.
 
 Czy widzisz, że gdy już masz jakąś funkcję `f`, to może istnieć co najwyżej jedna funkcja `f⁻¹`?
 Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś funkcji odwracalnej, czyli jakiejś
@@ -200,7 +201,14 @@ sposób z funkcji* `f`.
 Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
 odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
 trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *funkcja* `g` z
-przeciwdziedziny `f` do dziedziny `f` taka, że `g(f(x)) = x` *i jednocześnie* `f(f(y))`.
+przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `g(f(x)) = x` *i
+jednocześnie* `f(f(y)) = y`.
+
+Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
+[Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem mocno ograniczony. Jeżeli więc
+napiszę na przykład `h_1`, to będzie to tylko
+[namiastka](https://sjp.pwn.pl/slowniki/namiastka.html) `h₁` (akurat cyfry da się w ten sposób w
+Unikodzie zapisywać, ale już na przykład większości liter nie).
 
 Byłoby wspaniale, gdybyś jeszcze spróbowała zdefiniować za pomocą rysunków dwie funkcje, nazwijmy je
 znowu `f` i `g`, takie, że `f : X → Y` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy,
