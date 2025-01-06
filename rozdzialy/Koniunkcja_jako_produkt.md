@@ -18,18 +18,26 @@ pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zani
 korzystać z teorii *ZF* jako źródła ważnych przykładów.
 
 Pojęcie zbioru jako takiego jest interesujące przede wszystkim dla specjalistów zajmujących się
-teorią mnogości, natomiast dla reszty świata to raczej nie jest nic ciekawego, bo zbiór to tylko
-pewna *kolekcja* (jakiś) elementów czy obiektów. To, że teoria *ZF* ma status jednej z teorii
-podstawowych w matematyce oznacza między innymi, że można skonstruować rozmaite obiekty matematyczne
-posługując się tylko zbiorami. Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
+teorią mnogości, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór
+to tylko pewna *kolekcja* (jakiś) elementów czy obiektów. To, że teoria *ZF* ma status jednej z
+teorii podstawowych w matematyce oznacza między innymi, że można skonstruować rozmaite obiekty
+matematyczne posługując się tylko zbiorami. Zbiory *skończone* możemy zapisać *dosłownie*, na
+przykład tak:
 
 `{1, 20, *, X, -3.4}`
 
-Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, bo zapisane dosłownie nie
-zmieściłyby się na żadnej stronie. Wymyślając ten przykład chciałem od razu zasugerować, że (zgodnie
-z dominującym w matematyce zwyczajem) zbiory mogą zawierać dowolne elementy, na przykład takie,
-które nie należą do żadnego dającego się łatwo zidentyfikować rodzaju albo typu. A więc zbiory to
-takie dowolne kolekcje potencjalnie różnorodnych elementów.
+Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na przykład tak ...
+
+`{0, 1, 2, 3, 4, ...}`
+
+albo tak ...
+
+`{n ∈ ℕ | Dodatnie n}`
+
+... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. Wymyślając pierwszy przykład
+chciałem od razu zasugerować, że (zgodnie z dominującym w matematyce zwyczajem) zbiory mogą zawierać
+dowolne elementy, na przykład takie, które nie należą do żadnego dającego się łatwo zidentyfikować
+rodzaju albo typu. A więc zbiory to takie dowolne kolekcje potencjalnie różnorodnych elementów.
 
 **Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien "obiekt", który
 przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
