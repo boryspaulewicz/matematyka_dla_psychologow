@@ -484,7 +484,7 @@ każdym (poprawnym) wyrażeniu (danego języka), nie zmieniając ani sensu albo 
 wyrażenie jest zdaniem - statusu logicznego tego wyrażenia (to jest jego prawdziwości lub
 fałszywości). A mówiąc możliwie najkrócej:
 
-*To, co jest równe, jest wszędzie zastępowalne*.
+*To, co jest równe, jest zastępowalne wszędzie tam, gdzie może się pojawić*.
 
 Będziesz miała teraz okazję *doświadczyć* tej *jedynej roli* założeń o równości, konstruując proste
 dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich nazwy, skonstruujemy
@@ -567,12 +567,12 @@ zmienna występująca w kontekście, będąca, cóż, nazwą dowodu jakiejś ró
 `nazwa_dowodu_rownosci : lewe_wyrazenie = prawe_wyrazenie`, powoduje *zmianę celu*, polegającą na
 tym, że `lewe_wyrazenie` występujące *w celu* jest zastępowane przez `prawe_wyrazenie`. W tym
 przypadku będziesz mieć do wyboru w kontekście (a nie globalnie, bo `variable` tak naprawdę dodaje
-niejawnie zmienne do kontekstu) tylko dwie hipotezy o postaci równości, to jest `h1` i `h2`, więc
-szybko znajdziesz rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach
+zmienne do kontekstu) tylko dwie hipotezy o postaci równości, to jest `h1` i `h2`, więc szybko
+znajdziesz rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach
 kwadratowych trzeba będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim
-argumentem, ale ten łatwo już wtedy znajdziesz. Zwróć proszę uwagę, że będziesz (znowu!) konstuować
-dowód jakby "od tyłu", albo od końca, *przekształcając cel* tak, żeby *zbliżył się do czegoś, co już
-masz udowodnione albo założone* (tutaj akurat co masz w kontekście).
+argumentem, ale ten znajdziesz już wtedy bez żadnego problemu. Zwróć proszę uwagę, że będziesz
+(znowu!) konstuować dowód jakby "od tyłu", albo od końca, *przekształcając cel* tak, żeby *zbliżył
+się do czegoś, co już masz udowodnione albo założone* (tutaj akurat co masz w kontekście).
 
 **Sugestia**: Dokończ ten dowód w trybie interaktywnym używając najpierw (raz) taktyki `rw`, a potem
 (raz) taktyki `exact`.
