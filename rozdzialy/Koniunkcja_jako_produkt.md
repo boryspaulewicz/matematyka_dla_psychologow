@@ -115,8 +115,9 @@ przykładów.
 
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
-jedną kropkę. Czy widzisz, że istnieje tylko jedna funkcja ze zbioru lewego do prawego? Narysuj
-proszę tą funkcję.
+sjedną kropkę. Zbiory jednoelementowe nazywamy również *zbiorami jednostkowymi* albo
+[*singletonami*](https://pl.wikipedia.org/wiki/Zbi%C3%B3r_jednoelementowy). Czy widzisz, że istnieje
+tylko jedna funkcja ze zbioru lewego do prawego? Narysuj proszę tą funkcję.
 
 **Rysunek 3. Funkcje ze zbioru pustego**: A teraz `Narysuj` proszę obok siebie dwa zbiory, `X` i
 `Y`, ale takie, że w lewym *nic* nie będzie, a w prawym będą na przykład dwa elementy. Jak już
@@ -124,33 +125,38 @@ wiesz, żeby "coś" było funkcją, musi przyporządkowywać każdemu elementowi
 element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`? Wydawałoby się, że
 nie, prawda? A jednak istnieje! To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery
 w słowie *pusty*), że *gdybyś* wybrała dowolny element zbioru `X`, to dostarczyła*by* dokładnie
-jeden element ze zbioru `Y`. Ponieważ w `X` nie ma żadnych elementów, to ta funkcja *nie może* nic
-zwrócić. A zatem ta funkcja "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
-teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
-abstrakcyjna, bo w pewien sposób wirtualna, jak term(y) typu `Absurd`. Tyle, że ta funkcja
-*istnieje* (na mocy konwencji). Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie
+jeden element ze zbioru `Y`. Ponieważ jednak w zbiorze `X` nie ma żadnych elementów, ta funkcja *nie
+może* nic zwrócić. A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już
+(teoriotypowa, nie teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest
+niemal tak abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd`. Tyle, że ta funkcja
+*istnieje* na mocy konwencji. Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie
 funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
 przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna funkcja ze zbioru
-pustego do niego samego. Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą `p`,
-a pod spodem zapisz komentarz: Dla każdego zbioru `Y`, istnieje dokładnie jedna funkcja ze zbioru
-pustego do `Y`. Może i trudno się z tym pogodzić, ale to tylko konwencja, którą przyjmujemy,
-ponieważ sprawdza się w praktyce.
+pustego do niego samego. 
+
+Zbiory puste zapisujemy albo jako `{}` albo jako symbol `∅`. Na cześć tej funkcji narysuj proszę
+`Strzalka X Y` i oznacz ją literą `p`, a pod spodem zapisz komentarz: Dla każdego zbioru `Y`,
+istnieje dokładnie jedna funkcja ze zbioru pustego do `Y`. Może i trudno się z tym pogodzić, ale to
+tylko konwencja (dotycząca *funkcji*), którą przyjmujemy po prostu dlatego, że sprawdza się w
+praktyce.
 
 **Rysunek 4. Identyczność na dwa sposoby**: `Narysuj` teraz proszę trzyelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) = x`.
 Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo to jest *warunek*, który ta funkcja
 ma spełniać i to Ty ją zdefiniujesz. Zastanów się proszę przez chwilę jak mogłabyś to zrobić, a gdy
 już wpadniesz na jakiś pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia
-[tutaj](/Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko jeden sposób, to również
+[tutaj](Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko jeden sposób, to również
 kliknij w ten link. Jak już narysujesz tą funkcję, podpisz ją proszę komentarzem *Przykład funkcji
 identycznościowej*.
 
 **Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
-nie posyła żadnych dwóch `x`-ów do tego samego `y`-ka. Takie funkcje nazywamy *injekcjami* albo
-funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie
-może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że każda injekcja to pewien *wybór*
-albo *wskazanie podzbioru* przeciwdziedziny?
+nie posyła żadnych dwóch `x`-ów do tego samego `y`-a. Takie funkcje nazywamy *injekcjami* albo
+funkcjami
+[*różnowartościowymi*](https://pl.wikipedia.org/wiki/Funkcja_r%C3%B3%C5%BCnowarto%C5%9Bciowa). Czy
+widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie może mieć więcej elementów niż
+przeciwdziedzina? A czy widzisz, że każda injekcja to pewien *wybór* albo *wskazanie podzbioru*
+przeciwdziedziny?
 
 **Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję z trójelementowego zbioru `X` do
 dwuelementowego zbioru `Y`, ale taką, żeby każdy `y` "został trafiony". Takie funkcje nazywamy
