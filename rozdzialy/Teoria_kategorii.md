@@ -244,6 +244,10 @@ dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*) wystarczająco dobrz
 Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego
 działania*. W tym sensie można więc powiedzieć, że jest *w nas* pewien On i jednocześnie nie jest.
 
+I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak celnie wyraził [Thích Nhất
+Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
+style="color:gray">na wojnie każdy jest ofiarą</span>.
+
 Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
 wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
 uniwersalnego pojęcia Oceny, to coś z Ἠθος-u (i
@@ -645,3 +649,6 @@ example : a = c :=
     taką osobę (i tak, już z tą osobą korspondowałem \{i nie, nie jest to sam Pearl, który być może
     wie te wszystkie rzeczy, ale nie mam jak dotąd podstaw, żeby to jednoznacznie stwierdzić. \[ale
     absence of evidence is not evidence of absence!\]\}).
+
+[^3]: To zdanie też na zawsze zmieniło "moje" życie, niemal natychmiast po tym, jak je
+    przeczytałem. Może i "Tobie" na coś się przyda.
