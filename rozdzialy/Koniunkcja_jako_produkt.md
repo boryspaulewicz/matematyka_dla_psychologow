@@ -328,8 +328,9 @@ Drugim ważnym dla nas przykładem jest `{1} × Y`, czyli iloczyn kartezjański 
 scharakteryzowanego wcześniej zbioru `Y`. Wykombinowanie, jak powinien wyglądać ten konkretny zbiór,
 nie powinno Ci moim zdaniem sprawić szczególnych trudności.
 
-Po wykonaniu bądź podjęciu prób wykonania tych zadań-sugestii, zapoznaj się jeszcze proszę z
-[tym](Iloczyn_kartezjanski_jako_mnozenie.md) "obowiązkowym" fragmentem.
+Po wykonaniu bądź podjęciu prób wykonania tych zadań-sugestii, gdy już uznasz, że jesteś na to
+gotowa, zapoznaj się jeszcze proszę z [tym](Iloczyn_kartezjanski_jako_mnozenie.md) "obowiązkowym"
+fragmentem.
 
 ## Suma rozłączna zbiorów
 
