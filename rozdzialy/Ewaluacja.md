@@ -84,15 +84,18 @@ mogą przekształcać termy dowolnego typu, w tym również dowolne *typy*, w te
 również dowolne *typy*. Możemy więc między innymi definiować funkcje, które *tworzą typy* i niebawem
 będziemy z tego korzystać. A ponadto typy pojawiające się później w specyfikacji typu funkcji mogą
 zależeć od parametrów, które pojawiły się wcześniej, tak jak to ma miejsce w przypadku typu funkcji
-`identycznosc`.
+`identycznosc`. Wreszcie, możemy *po stronie typu* zapisywać *aplikacje* i ten sposób konstruować
+termy, które wymagają ewaluacji również po stronie ich typu. Z tej możliwości będziemy korzystać
+nieco później, wprowadzając odrobinę [lukru
+składniowego](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy).
 
 Na tej podstawie można zbudować *całą matematykę* i za pomocą tego języka można zapisać w stosunkowo
 *naturalny* i *czytelny* sposób matematyczne teorie.
 
-Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że wszystko, co da
-się powiedzieć jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co zostało zapisane
-w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i zarazem unikalnej
-takiej postaci za pomocą algorytmu.
+Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że być może
+wszystko, co da się powiedzieć jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co
+zostało zapisane w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i
+zarazem unikalnej takiej postaci za pomocą algorytmu.
 
 ### Przypisy
 
