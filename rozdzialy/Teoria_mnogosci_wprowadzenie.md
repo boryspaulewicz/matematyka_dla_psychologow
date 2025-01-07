@@ -148,13 +148,13 @@ to tylko konwencja (dotycząca funkcji), którą przyjmujemy po prostu dlatego, 
 praktyce.*
 
 **Rysunek 4. [Identyczność](https://pl.wikipedia.org/wiki/Identyczno%C5%9B%C4%87) na dwa sposoby**:
-`Narysuj` teraz proszę trzyelementowy zbiór `X`. Chciałbym, żebyś narysowała funkcję
+`Narysuj` teraz proszę trójelementowy zbiór `X`. Chciałbym, żebyś narysowała funkcję
 identycznościową o nazwie `Id`, taką, że `Id(x) = x`.  Użyłem tutaj symbolu równości zamiast symbolu
-definiowania, bo to jest *warunek*, który ta funkcja ma spełniać i to *Ty* ją zdefiniujesz. Zastanów
-się proszę przez chwilę jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś pomysł, albo gdy się
-poddasz, przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy
-tylko jeden sposób, to również kliknij w ten link. Jak już narysujesz tą funkcję, podpisz ją proszę
-komentarzem *Przykład funkcji identycznościowej*.
+definiowania, bo to jest *warunek*, który ta funkcja ma spełniać i to *Ty* ją zdefiniujesz
+(rysując). Zastanów się proszę przez chwilę, jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś
+pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli
+przyszedł Ci do głowy tylko jeden sposób, to również kliknij ten link. Jak już narysujesz tą
+funkcję, podpisz ją proszę komentarzem *Przykład funkcji identycznościowej*.
 
 **Rysunek 5. Przykład injekcji[^1]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
