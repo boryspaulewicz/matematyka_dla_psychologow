@@ -43,10 +43,11 @@ które jeszcze nie poznało pojęcia liczby.
 Jak wiesz, nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju idealnie
 płaskiej powierzchni bez granic; takiej powierzchni, którą można sobie tylko wyobrazić albo ją
 opisać, ale która nie może istnieć jako obiekt fizyczny. Taką, o której chętnie myślą matematycy
-albo filozofowie. Bez dodatkowych założeń ta płaszczyzna jako taka *nie* ma charakteru liczbowego,
-tylko czysto geometryczny, albo czysto przestrzenny, jak wolisz. Podobnie na przykład jakiś
-konkretny okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy sobie wyobrazić i który moglibyśmy
-próbować systematycznie opisać lub analizować, *nie* ma jeszcze charakteru liczbowego.
+albo filozofowie. Bez dodatkowych założeń, a właściwie raczej *wyborów*, ta płaszczyzna jako taka
+*nie* ma charakteru liczbowego, tylko czysto geometryczny, albo czysto przestrzenny, jak
+wolisz. Podobnie na przykład jakiś konkretny okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy
+sobie wyobrazić i który moglibyśmy próbować systematycznie opisać lub analizować, *nie* ma jeszcze
+charakteru liczbowego.
 
 [Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której być może już
 słyszałaś, jest (pierwszym w historii) przykładem aksjomatycznej teorii tego typu struktur. Być może
