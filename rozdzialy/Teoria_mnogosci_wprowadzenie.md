@@ -336,17 +336,18 @@ jako przestrzeń wszystkich *niezależnych wyborów* elementów należących do 
 kategorii (w potocznym znaczeniu słowa kategoria) pojawiają się niezwykle często. Na przykład,
 typowy obiad zamówiony w restauracji to czasem *logicznie* (ale nie *przyczynowo* albo
 *statystycznie*) *niezależny potrójny wybór* zupy, dania głównego i deseru, gdzie każda z tych
-kategorii dopuszcza dodatkowo wybór "pusty" (a więc zgodnie z tym punktem widzenia albo definicją
-można zamówić stosunkowo niedrogi obiad składający się z *niczego*)[^3].
+kategorii dopuszcza dodatkowo wybór "pusty". A więc zgodnie z tym punktem widzenia albo definicją
+można zamówić stosunkowo niedrogi obiad składający się z *niczego*[^3].
 
 **Rysunek 8**: Żeby utrwalić sobie to pojęcie i zacząć się przyzwyczajać do bardziej elastycznego
 myślenia o *wymiarach*, `Narysuj` proszę dwie prostopadłe osie, poziomą oznacz literą `X` a pionową
-literą `Y`, i nanieś na nie elementy tych zbiorów jakby były podziałkami, to jest, zaczynając od
-punktu przecięcia się osi, zaznacz "wysokości" za pomocą, w tym przypadku elementów, `1`, `2` i `3`
-i "szerokości" za pomocą elementów `a` i `b`. Następnie w odpowiednich miejscach uzyskanego w ten
-sposób wykresu nanieś wszystkie uporządkowane pary. Gdy już to zrobisz, podpisz ten rysunek
-komentarzem: *Przykład iloczynu kartezjańskiego zbiorów* `X = {1, 2, 3}` *i* `Y = {a, b}`. *Wartości
-oznaczone na osiach to tak zwane projekcje par uporządkowanych.*
+literą `Y`, i nanieś na nie elementy tych zbiorów tak, żeby tworzyły skale osi, to znaczy,
+zaczynając od punktu przecięcia się osi, zaznacz "wysokości" za pomocą elementów `1`, `2` i `3` i
+"szerokości" za pomocą elementów `a` i `b`. Następnie w odpowiednich miejscach uzyskanego w ten
+sposób wykresu nanieś wszystkie uporządkowane pary zapisując je albo za pomocą zwykłych nawiasów,
+albo [nawiasów ostrokątnych](https://pl.wikipedia.org/wiki/Nawias). Gdy już to zrobisz, podpisz ten
+rysunek komentarzem: *Przykład iloczynu kartezjańskiego zbiorów* `X = {1, 2, 3}` *i* `Y = {a,
+b}`. *Wartości oznaczone na osiach to tak zwane projekcje par uporządkowanych.*
 
 A teraz będą dwa zapowiedziane przykłady. Zastanów się proszę przez chwilę, jak zgodnie z definicją
 (która mówi, że iloczyn kartezjański dwóch zbiorów to taki zbiór, którego elementami są dokładnie
@@ -366,14 +367,14 @@ fragmentem.
 ## Suma rozłączna zbiorów
 
 Dla dowolnych zbiorów `X` i `Y`, *suma rozłączna* tych zbiorów to taki zbiór, który zawiera
-dokładnie wszystkie kopie, zapisane w jakikolwiek sposób jako *różne* elementy, elementów tych
-zbiorów. To znaczy, że niejako wewnątrz sumy rozłącznej *zachowujemy informację* o tym, z którego z
-dwóch zbiorów pochodzi każdy element.
+dokładnie wszystkie *kopie*, zapisane w jakikolwiek sposób jako *różne* elementy, elementów tych
+zbiorów. To znaczy, że wewnątrz sumy rozłącznej *zachowujemy informację* o tym, z którego z dwóch
+zbiorów pochodzi każdy element.
 
 Na przykład, jeżeli tak jak wcześniej `X = {1, 2, 3}` i `Y = {a, b}`, to nie musimy w żaden sposób
 *oznaczać* elementów, bo żaden element nie należy jednocześnie do zbiorów `X` i `Y` i możemy po
 prostu stwierdzić, że `X ⨿ Y = {1, 2, 3, a, b}`. Suma rozłączna to również pewne (niewybredne)
-działanie na zbiorach, które akurat zapisujemy między innymi za pomocą symbolu `⨿`.
+działanie na zbiorach, które zapisujemy między innymi za pomocą symbolu `⨿`.
 
 **Rysunek 8**: Narysuj proszę te dwa zbiory a między nimi ich sumę rozłączną w taki sposób, żeby
 zarówno z każdego elementu zbioru `X` jak i z każdego elementu zbioru `Y` wychodziły strzałki do ich
@@ -385,30 +386,32 @@ Podpisz proszę ten rysunek komentarzem, który Twoim zdaniem tu pasuje i który
 się, że przynajmniej w tym momencie pamiętasz lub potrafisz odnaleźć i zapisać po swojemu
 objaśnienia na temat wszystkich wymienionych właśnie właściwości tej konstrukcji.
 
-**Rysunek 9**: Gdy dwa zbiory zawierają choćby tylko jeden wspólny element, nie możemy ich po prostu
-"włożyć" do sumy rozłącznej bez żadnej modyfikacji, bo tak nie uzyskamy dwóch rozłącznych kopii. W
-takich sytuacjach musimy jakoś *oznaczyć* wszystkie kopie tak, żeby *elementy wspólne dla obydwu
-zbiorów* były reprezentowane przez *różne* kopie. Ponieważ suma rozłączna zbiorów jest działaniem
-binarnym w zasadzie jak każde inne, a dla takich działań ważna jest kolejność obiektów czy
-argumentów, na których wykonujemy działanie, to można przyjąć, że pisząc `X ⨿ Y` zdecydowaliśmy
-automatycznie, że `X` jest tutaj *pierwszym*, a `X` *drugim* członem tej sumy
-rozłącznej. *Spełniającą dokładnie tą samą rolę* sumę rozłączną `X ⨿ Y` możemy zatem skonstruować
-tak: `X ⨿ Y := {(1, 1), (2, 1), (3, 1), (a, 2), (b, 2)}`. Możemy więc w ten sposób *skorzystać z par
-uporządkowanych* i liczb naturalnych `1` i `1`, żeby *zaimplemntować* w ten sposób operację
-tworzenia sum rozłącznych z *dowolnych* par zbiorów. Ponieważ ten sposób jest *uniwersalny*, można
-zapomnieć o poprzednim i stosować tylko ten. Myślę, że wiesz, jak należy przedstawić tą konstrukcję
-za pomocą rysunku i jak, za pomocą strzałek od elementów zbioru `X` i od elementów zbioru `Y` do
-odpowiednich kopii w zbiorze `X ⨿ Y`, należy oznaczyć obydwie funkcje-inkluzje (albo
-injekcje-inkluzje), czyli po prostu obydwie inkluzje. Na koniec oznacz proszę te inkluzje jako `i_X`
-i `i_Y`, tylko może zamiast symbolu `_` zapisz wtedy litery `X` i `Y` jako indeksy dolne. Otocz
-kopie przerywanymi liniami i podpisz ten rysunek (ewentualnie wspomagając się tym tekstem)
-komentarzem sprawdzającym Twoją wiedzę na temat tej konstrukcji.
+**Rysunek 9**: Gdy dwa zbiory zawierają choćby tylko jeden wspólny element, nie możemy należących do
+nich elementów po prostu "włożyć" do sumy rozłącznej bez żadnej modyfikacji, bo w ten sposób nie
+uzyskamy dwóch rozłącznych kopii zbiorów wyjściowych. W takich sytuacjach musimy jakoś *oznaczyć*
+wszystkie kopie tak, żeby *elementy wspólne dla obydwu zbiorów* były reprezentowane przez *różne*
+kopie. Ponieważ suma rozłączna zbiorów jest działaniem binarnym w zasadzie jak każde inne, a dla
+takich działań ważna jest kolejność obiektów czy argumentów, na których wykonujemy działanie, to
+można przyjąć, że pisząc `X ⨿ Y` zdecydowaliśmy automatycznie, że `X` jest tutaj *pierwszym*, a `Y`
+*drugim* członem tej sumy rozłącznej. 
+
+*Spełniającą dokładnie tą samą rolę* sumę rozłączną `X ⨿ Y` możemy zatem skonstruować tak: `X ⨿ Y :=
+{(1, 1), (2, 1), (3, 1), (a, 2), (b, 2)}`. Możemy więc w ten sposób *skorzystać z par
+uporządkowanych* i liczb naturalnych `1` i `2`, żeby *zaimplemntować* operację tworzenia sum
+rozłącznych z *dowolnych* par zbiorów. Ponieważ ten sposób jest *uniwersalny*, można zapomnieć o
+poprzednim i stosować tylko ten. Myślę, że wiesz, jak należy przedstawić tą konstrukcję za pomocą
+rysunku i jak, za pomocą strzałek od elementów zbioru `X` i od elementów zbioru `Y` do odpowiednich
+kopii w zbiorze `X ⨿ Y`, należy oznaczyć obydwie funkcje-inkluzje (albo injekcje-inkluzje), czyli po
+prostu obydwie inkluzje. Na koniec oznacz proszę te inkluzje jako `i_X` i `i_Y`, tylko może zamiast
+symbolu `_` zapisz wtedy litery `X` i `Y` jako indeksy dolne. Otocz kopie przerywanymi liniami i
+podpisz ten rysunek (ewentualnie wspomagając się tym tekstem) komentarzem sprawdzającym Twoją wiedzę
+na temat tej konstrukcji.
 
 Jeżeli masz już za sobą poprzedni dostępny poprzez link fragment "obowiązkowy", to zastanów się
 proszę, jak ta operacja na zbiorach, zakładając, że wszystkie zbiory są *skończone*, musi "działać"
 na parach zbiorów takich, że co najmniej jeden z nich jest zbiorem pustym, a jak na parach takich,
 że co najmniej jeden zbiór jest singletonem. Następnie zastanów się proszę, jak ta operacja na
-zbiorach skończonych ma się do (funkcji) mocy zbiorów i operacji dodawania liczb naturalnych. Gdy
+zbiorach skończonych ma się do (funkcji) mocy zbiorów i operacji *dodawania* liczb naturalnych. Gdy
 już uznasz, że wystarczy tych samodzielnych rozmyślań (i może też rysunków i notatek), zapoznaj się
 proszę z [drugim]() i ostatnim w tym rozdziale fragmentem "obowiązkowym".
 
@@ -425,7 +428,7 @@ półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
 `X ∩ Y := {z | (z ∈ X) ∧ (z ∈ Y)}`.
 
 **Czytamy to**: Jeżeli `X` i `Y` to zbiory, to zbiór, który oznaczamy jako `X ∩ Y`, jest z definicji
-takim zbiorem, który zawiera dokładnie te elementy, które należą do `X` i do `Y`.
+takim zbiorem, który zawiera dokładnie te elementy, które należą do `X` *i* do `Y`.
 
 Czy widzisz podobieństwo między symbolami `∩` i `∧` i czy widzisz, że jest nieprzypadkowe?
 
@@ -445,7 +448,7 @@ jako *lub*.
 Czy widzisz podobieństwo między symbolami `∪` i `∨` i czy widzisz, że jest nieprzypadkowe?
 
 **Rysunek 10**: Zrób proszę notatkę z odpowiednimi rysunkami, wzorując się na poprzednich rysunkach,
-która byłaby dla Ciebie ilustracją pojęć iloczynu i sumy zbiorów. Być może będzie Ci łatwiej, jeżeli
+która będzie dla Ciebie ilustracją pojęć iloczynu i sumy zbiorów. Być może będzie Ci łatwiej, jeżeli
 wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
 [jednego](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9B%C4%87_wsp%C3%B3lna) i
 [drugiego](https://pl.wikipedia.org/wiki/Suma_zbior%C3%B3w) pojęcia.
@@ -453,7 +456,7 @@ wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
 ### Przypisy
 
 [^1]: Jestem bardzo dumny z pomysłu, żeby wykorzystać w ten sposób symbol `∘` oznaczający operację
-    składania. Wydaje mi się, że to może być moje największe osiągnięcie w tym roku.
+    składania. To może być moje największe osiągnięcie w tym roku (a jest dopiero styczeń).
 
 [^2]: Tak wiem, że [niby powinno *się* pisać iniekcja i
     suriekcja](https://sjp.pwn.pl/poradnia/haslo/;8643.html) a nie injekcja i surjekcja, ale
