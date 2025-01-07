@@ -87,7 +87,7 @@ zapiszemy więcej niż raz.
 
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
 y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` ["został na
-lodzie"](https://www.youtube.com/watch?v=VxUCWLKVh3g). Oznacz ten rysunek od góry literą `f`, jak
+lodzie"](https://www.youtube.com/watch?v=rog8ou-ZepE). Oznacz ten rysunek od góry literą `f`, jak
 *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X` przyporządkowałaś właśnie
 *dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład reprezentatywny* funkcji, bo
 prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy element przeciwdziedziny i
@@ -128,9 +128,9 @@ proszę tą funkcję.
 wiesz, żeby "coś" było funkcją, musi przyporządkowywać każdemu elementowi dziedziny dokładnie jeden
 element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`? Wydawałoby się, że
 nie, prawda? A jednak istnieje! To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery
-w słowie *pustka*), że *gdybyś* wybrała dowolny element zbioru `X`, to dostarczyła*by* dokładnie
-jeden element ze zbioru `Y`. Ponieważ jednak w zbiorze `X` nie ma żadnych elementów, ta funkcja *nie
-może* nic zwrócić.
+w słowie [*pustka*](https://en.wikipedia.org/wiki/Nagarjuna)), że *gdybyś* wybrała dowolny element
+zbioru `X`, to dostarczyła*by* dokładnie jeden element ze zbioru `Y`. Ponieważ jednak w zbiorze `X`
+nie ma żadnych elementów, ta funkcja *nie może* nic zwrócić.
 
 A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
 teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
