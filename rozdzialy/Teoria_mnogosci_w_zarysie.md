@@ -116,9 +116,9 @@ jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych* pe
 wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju *kompletnych
 oznaczeniach* albo *rozdaniach kart* w tym sensie, że każdy element dziedziny jest wykorzystany do
 oznaczenia, albo że jest przydzielony do jakiegoś elementu należącego do przeciwdziedziny. Z tego
-punktu widzenia każdy `x` `f`-oznacza jakiś `y`. Dobrze jest czasem spróbować pomyśleć o takiej
-funkcji choć raz na każdy z tych sposobów, bo czasem trudno przewidzieć, który z tych punktów
-widzenia pozwoli zrozumieć jakiś problem w którym ważną rolę odgrywają funkcje lepiej.
+punktu widzenia każdy `x` `f`-oznacza jakiś `y`. Dobrze jest spróbować pomyśleć o takiej funkcji
+choć raz na każdy z tych sposobów, bo czasem trudno przewidzieć, który z tych punktów widzenia
+pozwoli zrozumieć jakiś problem lepiej.
 
 Odtąd ograniczymy nasze rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
 skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (a lepiej:
