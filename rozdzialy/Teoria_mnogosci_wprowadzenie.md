@@ -157,7 +157,7 @@ przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli przyszed�
 jeden sposób, to również kliknij ten link. Jak już narysujesz definicję funkcji `Id`, podpisz ją
 proszę komentarzem: *Przykład funkcji identycznościowej*.
 
-**Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
+**Rysunek 5. Przykład injekcji[^2]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 czteroelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
 nie posyła żadnych dwóch `x`-ów do tego samego `y`-a, i oznacz ją literą `i`. Takie funkcje nazywamy
 *injekcjami* albo funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja,
@@ -309,10 +309,10 @@ obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zaraze
 "syntaktyczny cień", *iloczynu kartezjańskiego zbiorów*. Wydaje mi się teraz, że zaczynając w ten
 sposób mówić o iloczynie kartezjańskim niekoniecznie pomagam ...
 
-To może tak: Iloczyn kartezjański pojawił się również w rozdziale 7-01, ponieważ mówiłem tam o
-*uporządkowanych parach liczb rzeczywistych*. Zbiór wszystkich takich par to dokładnie zbiór
-wszystkich punktów na płaszczyźnie, o ile z tą płaszczyzną jest związany układ współrzędnych
-kartezjańskich.
+To może tak: Iloczyn kartezjański pojawił się również w rozdziale wprowadzającym do izomorfizmu
+Curry'ego-Howarda, ponieważ mówiłem tam o *uporządkowanych parach liczb rzeczywistych*. Zbiór
+wszystkich takich par to dokładnie zbiór wszystkich punktów na płaszczyźnie, *o ile* z tą
+płaszczyzną jest związany układ współrzędnych kartezjańskich.
 
 Teraz jeżeli na przykład ...
 
@@ -333,11 +333,11 @@ iloczynów zbiorów.
 Dla dowolnych zbiorów `X` i `Y`, iloczyn kartezjański tych zbiorów, czyli `X × Y`, możemy rozumieć
 jako przestrzeń wszystkich *niezależnych wyborów* elementów należących do zbioru `X` i do zbioru
 `Y`, w tej kolejności. A niezależne wybory elementów należących do pewnych zbiorów, typów, albo
-kategorii (w potocznym znaczeniu tego słowa) pojawiają się niezwykle często. Na przykład, typowy
-obiad zamówiony w restauracji to czasem *logicznie* (ale nie *przyczynowo* albo *statystycznie*)
-niezależny *potrójny* wybór zupy, tak zwanego dania głównego i deseru, gdzie każda z tych kategorii
-dopuszcza dodatkowo wybór "pusty" (a więc zgodnie z tym punktem widzenia albo definicją można
-zamówić obiad składający się z *niczego*)[^2].
+kategorii (w potocznym znaczeniu słowa kategoria) pojawiają się niezwykle często. Na przykład,
+typowy obiad zamówiony w restauracji to czasem *logicznie* (ale nie *przyczynowo* albo
+*statystycznie*) *niezależny potrójny wybór* zupy, dania głównego i deseru, gdzie każda z tych
+kategorii dopuszcza dodatkowo wybór "pusty" (a więc zgodnie z tym punktem widzenia albo definicją
+można zamówić stosunkowo niedrogi obiad składający się z *niczego*)[^3].
 
 **Rysunek 8**: Żeby utrwalić sobie to pojęcie i zacząć się przyzwyczajać do bardziej elastycznego
 myślenia o *wymiarach*, `Narysuj` proszę dwie prostopadłe osie, poziomą oznacz literą `X` a pionową
@@ -454,3 +454,20 @@ wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
 
 [^1]: Jestem bardzo dumny z pomysłu, żeby wykorzystać w ten sposób symbol `∘` oznaczający operację
     składania. Wydaje mi się, że to może być moje największe osiągnięcie w tym roku.
+
+[^2]: Tak wiem, że [niby powinno *się* pisać iniekcja i
+    suriekcja](https://sjp.pwn.pl/poradnia/haslo/;8643.html) a nie injekcja i surjekcja, ale
+    pisownia przez *j* przeważa i według mnie jest bliżej sposobu, w jaki te słowa wymawiamy, a poza
+    tym nie lubię, gdy ktoś mi próbuje *narzucać* jakiekolwiek reguły *bez uzasadnenia* innego niż
+    "bo tak *się* robi". Autorytet wymaga uzasadnienia!
+
+[^3]: Ten przykład "ukradłem" wybitnemu, niestety nieżyjącemu już matematykowi [F. Williamowi
+    Lawverowi](https://en.wikipedia.org/wiki/William_Lawvere) i [Stephenowi H. Schnauelowi](),
+    którzy skorzystali z podobnego przykładu w dosyć niezwykłej, nawet jeżeli cokolwiek chaotycznej
+    (i kto to mówi) książce, którą czytałem, wielokrotnie, dawno, dawno, dawno temu i która była dla
+    mnie jedną z inspiracji podczas pisania tej (m.in. dlatego, że powstawała w interakcji z
+    licealistami), pod tytułem [Conceptual
+    Mathematics](https://www.cambridge.org/highereducation/books/conceptual-mathematics/00772F4CC3D4268200C5EC86B39D415A#contents). I
+    tak, z pierwszym z wymienionych [kosiarzy
+    umysłów](https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)) też kiedyś przez chwilę
+    korespondowałem.

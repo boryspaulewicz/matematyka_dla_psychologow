@@ -140,21 +140,3 @@ więc dla wszystkich (składalnych w ten sposób) strzałek `f`, `g` i `h`, poni
 przestrzeni zbiorów skończonych jest *izomorfizmem*, a więc nasze strzałki są tylko *innym sposobem
 oznaczania* zbiorów skończonych, widzimy, że `h (g f) = (h g) f`.
 
-### Przypisy
-
-[^1]: Tak wiem, że [niby powinno *się* pisać iniekcja i
-    suriekcja](https://sjp.pwn.pl/poradnia/haslo/;8643.html), a nie injekcja i surjekcja, ale
-    pisownia przez *j* przeważa i według mnie jest bliżej sposobu, w jaki te słowa wymawiamy, a poza
-    tym nie lubię, gdy ktoś mi próbuje *narzucać* jakiekolwiek reguły *bez uzasadnenia* innego niż
-    "bo tak *się* robi".
-
-[^2]: Ten przykład "ukradłem" wybitnemu, niestety nieżyjącemu już matematykowi [F. Williamowi
-    Lawverowi](https://en.wikipedia.org/wiki/William_Lawvere) i [Stephenowi H. Schnauelowi](),
-    którzy skorzystali z podobnego przykładu w dosyć niezwykłej, nawet jeżeli cokolwiek chaotycznej
-    (i kto to mówi) książce, którą czytałem, wielokrotnie, dawno, dawno, dawno temu i która była dla
-    mnie jedną z inspiracji podczas pisania tej (m.in. dlatego, że powstawała w interakcji z
-    licealistami), pod tytułem [Conceptual
-    Mathematics](https://www.cambridge.org/highereducation/books/conceptual-mathematics/00772F4CC3D4268200C5EC86B39D415A#contents). I
-    tak, z pierwszym z wymienionych [kosiarzy
-    umysłów](https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)) też kiedyś przez chwilę
-    korespondowałem.
