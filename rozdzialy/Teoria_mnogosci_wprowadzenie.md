@@ -1,4 +1,4 @@
-## Teoria mnogości w za-rysie
+## Teoria mnogości w za-[rysie](https://pl.wikipedia.org/wiki/Ry%C5%9B)
 
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był
 język teorii mnogości, a konkretnie język teorii
