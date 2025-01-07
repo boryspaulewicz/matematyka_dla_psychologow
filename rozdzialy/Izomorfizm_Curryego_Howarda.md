@@ -168,12 +168,12 @@ Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umo�
 kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
 meta-matematycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko ćwiczyć przełączanie się
 między dwoma, dobrze określonymi, ale początkowo z konieczności trochę obcymi sposobami patrzenia na
-*typy*. Być może jedną z głównych trudności pojawiających się początkowo podczas uczenia się tego
-podejścia jest to, że matematyka "rozgrywa się" wtedy czy może "istnieje" właśnie głównie na
-poziomie typów. Gdy już jednak zdążysz się z tym choć trochę oswoić, Twoja zdolność do rozumienia
-treści matematycznych albo "matematyzacji" problemów czy pojęć, które same z siebie nie mają jeszcze
-matematycznego charakteru, zacznie się moim zdaniem rozwijać znacznie szybciej, niż gdybyś próbowała
-ją rozwijać w bardziej tradycyjny sposób.
+*typy*. Być może jedną z głównych trudności pojawiających się początkowo podczas przyzwyczajania się
+do tego punktu widzenia jest to, że matematyka "rozgrywa się" wtedy czy może "istnieje" właśnie
+głównie na poziomie typów. Gdy już jednak zdążysz się z tym choć trochę oswoić, Twoja zdolność do
+rozumienia treści matematycznych albo "matematyzacji" problemów czy pojęć, które same z siebie nie
+mają jeszcze matematycznego charakteru, zacznie się moim zdaniem rozwijać znacznie szybciej, niż
+gdybyś próbowała rozwijać ją w bardziej tradycyjny sposób.
 
 Próbując zrozumieć, o czym jest następny rozdział, uruchomisz proces zasadniczo taki sam, jak ten
 dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem wydawały Ci się
