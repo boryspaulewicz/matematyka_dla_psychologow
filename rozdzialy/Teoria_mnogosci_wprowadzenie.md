@@ -102,7 +102,11 @@ przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* s
 jakiegoś zbioru `Y`, tak, żeby to *nie* były funkcje. A "zepsuć funkcyjność" można na dokładnie
 *dwa* sposoby - albo jakiś element z lewej będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś
 element z lewej *nie będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi definicjami
-*relacji*, ale nie funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już wyjaśniłem.
+*relacji*, ale nie funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już
+wyjaśniłem. Jeszcze raz? 
+
+Funkcja każdemu elementowi swojej dziedziny przyporządkowuje dokładnie jeden element swojej
+przeciwdziedziny. Jakim "obiektem" jest więc każda funkcja? *Tego rodzaju przyporządkowaniem*.
 
 **Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
 tym samym na kilka różnych sposobów: O tak rozumianych funkcjach można myśleć jako o abstrakcyjnych
