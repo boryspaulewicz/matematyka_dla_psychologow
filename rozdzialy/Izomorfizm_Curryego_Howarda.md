@@ -22,15 +22,15 @@ rolę spełniają te dwie osie.
 
 Jak być może wiesz, ten układ współrzędnych wprowadził do matematyki jeszcze w XVII wieku francuski
 matematyk, filozof i fizyk [René
-Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). Pomysł Kartezjusza był wtedy
-prawdziwą rewolucją, dlatego że pozwala *wiernie przetłumaczyć* problemy geometryczne na
-odpowiadające im problemy liczbowe czy analityczne. To jest wierne tłumacznie w tym znaczeniu, że
-nie tracimy wtedy ani nie zniekształcamy żadnych własności problemu geometrycznego. Takie sposoby
-wiernego tłumaczenia *w obie strony* nazywamy w matematyce właśnie (zachowującymi strukturę)
+Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). Pomysł Kartezjusza był prawdziwą
+rewolucją, dlatego że pozwala *wiernie przetłumaczyć* problemy geometryczne na odpowiadające im
+problemy liczbowe czy analityczne. To jest wierne tłumacznie w tym znaczeniu, że nie tracimy wtedy
+ani nie zniekształcamy żadnych własności problemu geometrycznego. Takie sposoby *wiernego
+tłumaczenia w obie strony* nazywamy w matematyce właśnie (zachowującymi strukturę)
 *izomorfizmami*. To słowo jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki sam i *μορφή*
 czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny alfabet, kilka
 różnych rodzajów akcentów i liczbę podwójną. Na właną rękę uczyłem się go kiedyś przez rok w liceum,
-to wiem (tak, byłem wtedy dość pretensjonalny).
+to wiem (tak tak, byłem wtedy nieznośnie nadętym snobem \{ach, wspomnienia ...\}).
 
 Układu współrzędnych kartezjańskich *używamy* w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" od razu automatycznie
