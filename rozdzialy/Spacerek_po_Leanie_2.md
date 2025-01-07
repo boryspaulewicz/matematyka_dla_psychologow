@@ -379,10 +379,10 @@ a raz nie. Sprawdź też proszę typ aplikacji tej stałej do wybranej liczby na
 ewaluuj tą aplikację. Za każdym razem popatrz na rezultat w panelu po prawej.
 
 **Ewaluacja aplikacji krok po kroku**: Mówiąc w pewnym uproszczeniu, gdy umieścisz kursor nad
-komendą `#eval` w instrukcji `#eval dodaj2 2` wtedy Lean:
+komendą `#eval` w instrukcji `#eval dodaj2 2`, wtedy Lean:
 
-1. Ewaluuje, czyli redukuje do najprostszej postaci argument tej aplikacji. Tutaj jest tylko jeden
-argument - `2` - i ten argument też może być zredukowany, ale o tym za chwilę.
+1. Ewaluuje, czyli redukuje do najprostszej postaci, argument tej aplikacji. Tutaj jest tylko jeden
+argument,`2`, i ten argument też może być zredukowany, ale o tym za chwilę.
 
 2. Podstawia rezultat tej redukcji pod zmienną `a` w ciele funkcji, bo `a` jest (tutaj jedynym)
 parametrem funkcji `dodaj2`. W ten sposób powstaje `2 + 2` (posługując się dalej znaną Ci notacją
@@ -400,25 +400,25 @@ aksjomatów Peano. Ja wyjaśnię teraz tylko tyle:
 Liczba `0` jest przez Leana interpretowana jako stała `Nat.zero`. Podkreślam, że `Nat.zero` *to
 tylko pewien napis*, nic więcej. Zwykle zapisujemy tą liczbę jako `0`, ale zapis cyfrowy istnieje
 tylko dla naszej wygody. Liczba naturalna `1` odpowiada *samej aplikacji funkcji następnika do
-stałej `Nat.zero`*, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd "następnik")
+stałej* `Nat.zero`, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd "następnik")
 *liczba naturalna po liczbie zero*. Ta aplikacja jest *nieredukowalna*, co znaczy, że gdy pojawi się
 w trakcie ewaluacji jako rezultat, ewaluacja na niej się zakończy. Innymi słowy, ta aplikacja
 istnieje tylko po to, żeby można było ją *zapisać* i na przykład podać jako argument, albo zwrócić
-jako rezultat, bo *sama aplikacja `Nat.succ Nat.zero` jest dla Leana liczbą `1`*.
+jako rezultat, bo *sama aplikacja* `Nat.succ Nat.zero` *jest dla Leana liczbą `1`*.
 
 Zastanawiasz się może, o co w tym chodzi? Spróbuję to wyjaśnić: Gdyby przedstawiciele jakiejś innej
 cywilizacji wymyślili "obiekty abstrakcyjne", których używaliby dokładnie tak, jak my używamy liczb
 naturalnych, ale zapisywaliby i nazywali je inaczej, powiedzielibyśmy, że to są te same "obiekty
 abstrakcyjne", albo, że mają "ten sam sens", tylko są inaczej nazywane, prawda?  Jesteśmy co prawda
-przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sam sposób zapisu nie decyduje o *znaczeniu*,
-o tym decyduje *tylko* sposób *użycia*.
+przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sposób, w jaki coś zapisujemy, nie decyduje o
+*znaczeniu*, o tym decyduje *tylko* sposób *użycia*.
 
 Stała `Nat.zero` i aplikacje takie jak `Nat.succ Nat.zero` całkiem dosłownie *są* więc liczbami
 naturalnymi, tak samo jak `0` i `1` *są* liczbami naturalnymi. Możemy tak powiedzieć, ponieważ
 wszystkie operacje, jakie możemy wykonywać na liczbach naturalnych, możemy wykonywać na tych
 wyrażeniach, uzyskując przy tym wyniki zgodne z interpretacją: `0` to `Nat.zero`, `1` to `Nat.succ
-Nat.zero`, `2` to `Nat.suc (Nat.succ Nat.zero)` i tak dalej. Zapis nie ma tu znaczenia, poza tym, że
-może być mniej lub bardziej wygodny dla osoby, która się nim posługuje.
+Nat.zero`, `2` to `Nat.suc (Nat.succ Nat.zero)`, i tak dalej. Zapis nie ma tu znaczenia, poza tym,
+że może być mniej lub bardziej wygodny dla osoby, która się nim posługuje.
 
 Już ostatni raz: Sam *fragment kodu* albo *zapis* `Nat.succ Nat.zero` *jest* liczbą `1`. Nie wiem,
 czy to Cię zaskakuje, ale sądzę, że może zaskakiwać. Kiedy się o tym uczyłem, na początku
@@ -428,11 +428,11 @@ funkcję i jakąś "prawdziwą" liczbę jako argument i że tych "prawdziwych rz
 jakby "coś pod spodem" `Nat.succ Nat.zero` i tym czymś powinna być albo para złożona z funkcji i
 liczby, albo jakaś liczba *1* "jako taka", czy może "sama w sobie".
 
-To, że *nic* pod spodem nie ma, to jednak dobra wiadomość, bo oznacza, że *nie ma tu żadnych
-tajemnic*, są tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. To taka
-rozległa pustka, a w niej nic świętego[^3]. Można powiedzieć, że tym właśnie jest *matematyka
-formalna*, niczym więcej, gdy tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na
-dowolną inną, jeśli tylko ta alternatywna interpretacja będzie spójna.
+To, że *nic* pod spodem nie ma, to dobra wiadomość, bo oznacza, że *nie ma tu żadnych tajemnic*, są
+tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. To taka rozległa pustka,
+a w niej nic świętego[^3]. Można powiedzieć, że tym właśnie jest *matematyka formalna*, niczym
+więcej, gdy tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na dowolną inną,
+jeśli tylko ta alternatywna interpretacja będzie spójna.
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są
@@ -446,12 +446,12 @@ nazw.
 
 Możesz sobie wyobrazić, że ciało funkcji to pewien mechanizm albo mały robot, który ma nad sobą
 otwory, przez które może dostawać różne obiekty będące argumentami aplikacji funkcji. Te obiekty są
-dla niego zawsze *opakowane* (*jakieś*), a więc nie wie, jak dokładnie wyglądają, wie tylko, że to
-są jakieś obiekty, które wpadły przez taki albo inny otwór. Jeżeli to jest robot prający wewnątrz
-funkcji `suma`, to gdy dostaje dwie liczby, dla niego to są tylko dwa opakowane obiekty, o których
-wie jedynie, że mają typ `Nat` i wie, który jest pierwszy, a który drugi, bo na opakowaniach widzi
-nazwy `n` i `m`. W przypadku funkcji suma, wszystko, co ten robot robi (ech) to aplikacja dodawania
-do tych dwóch obiektów.
+dla niego zawsze *opakowane* (czyli *jakieś*), a więc nie wie, jak dokładnie wyglądają, wie tylko,
+że to są jakieś obiekty, które wpadły przez taki albo inny otwór. Jeżeli to jest robot pracujący
+wewnątrz funkcji `suma`, to gdy dostanie dwie liczby, dla niego to będą tylko dwa opakowane obiekty,
+o których będzie wiedział tyle, że mają typ `Nat` i będzie też wiedział, który jest pierwszy, a
+który drugi, bo na opakowaniach będzie widział nazwy `n` i `m`. W przypadku funkcji `suma`,
+wszystko, co ten robot robi (ech) to aplikacja dodawania do tych dwóch obiektów.
 
 **Funkcja jako pudełko z mechanizmem**: Albo, nieco bardziej abstrakcyjnie, możemy myśleć o funkcji
 takiej jak `suma` jako o pudełku, które ma dwa wejścia, jedno oznaczone literą `n`, a drugie literą
