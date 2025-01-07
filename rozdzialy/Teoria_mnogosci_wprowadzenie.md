@@ -94,7 +94,7 @@ reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele funkcji
 element przeciwdziedziny i często zdarza się, że niektóre elementy "trafiają" w ten sam
 element. Zwróć też uwagę, że chociaż to "tylko" rysunek, to jest to również *pełnoprawna
 matematyczna definicja*, ponieważ nie ma tu żadnych wątpliwości ani na temat dziedziny, ani
-przeciwdziedziny, ani na temat tej funkcji.
+przeciwdziedziny, ani na temat struktury tej funkcji.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
 przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* strzałek) jakiegoś zbioru `X`
