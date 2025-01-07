@@ -649,5 +649,5 @@ example : a = c :=
     align="center"><b>∘</b></div><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
     Małp](https://en.wikipedia.org/wiki/Simian)
 
-[^3]: To zdanie też na zawsze zmieniło "moje" życie, niemal natychmiast po tym, jak je
+[^3]: To zdanie też na zawsze zmieniło kiedyś "moje" życie, niemal natychmiast po tym, jak je
     przeczytałem. Może i "Tobie" się do czegoś przyda.
