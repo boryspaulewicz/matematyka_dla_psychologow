@@ -154,7 +154,7 @@ definiowania, bo to jest *warunek*, który ta funkcja ma spełniać i to *Ty* j�
 (rysując). Zastanów się proszę przez chwilę, jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś
 pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli
 przyszedł Ci do głowy tylko jeden sposób, to również kliknij ten link. Jak już narysujesz tą
-funkcję, podpisz ją proszę komentarzem *Przykład funkcji identycznościowej*.
+funkcję, podpisz ją proszę komentarzem: *Przykład funkcji identycznościowej*.
 
 **Rysunek 5. Przykład injekcji[^1]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
