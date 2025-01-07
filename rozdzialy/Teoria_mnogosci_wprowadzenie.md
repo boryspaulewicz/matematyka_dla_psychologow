@@ -111,22 +111,12 @@ przeciwdziedziny. Jakim "obiektem" jest więc każda funkcja? *Tego rodzaju przy
 **Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
 tym samym na kilka różnych sposobów. O tak rozumianych funkcjach można konsekwentnie myśleć jako o
 abstrakcyjnych *własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym
-rysunku każdy element zbioru `X` ma określoną `f-`*własność* `Y`. Podobnie, każdy ma dokładnie jedno
-pierwsze imię i dokładnie jedną datę urodzenia, a więc te własności to są takie *funkcje osób*. Albo
-można o funkcjach myśleć jako o *doskonałych pomiarach*, czy może raczej *wartościach obserwowanych*
-pewnych właściwości albo wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego
-rodzaju *kompletnych oznaczeniach* albo *rozdaniach kart* w tym sensie, że *każdy* element dziedziny
-jest wykorzystany do *oznaczenia*, albo że każdy jest *przydzielony* do jakiegoś elementu należącego
-do przeciwdziedziny. Z tego punktu widzenia powiedzielibyśmy, że każdy `x` jest `f`-oznaczeniem
-jakiegoś `y`-a. Dobrze jest czasem spróbować pomyśleć o takiej funkcji choć raz na każdy z tych
-sposobów, bo trudno przewidzieć, który z tych punktów widzenia pozwoli zrozumieć jakiś problem w
 którym ważną rolę odgrywają funkcje lepiej.
 
 Odtąd ograniczymy nasze rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
 skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (a lepiej:
-*przestrzeń*) w którym istnieją tylko zbiory skończone, w którym występują dowolne takie zbiory i w
-którym występują wszystkie możliwe funkcje między takimi zbiorami. Na początek omówimy kilka ważnych
-przykładów.
+*przestrzeń*) w którym istnieją tylko zbiory skończone i w którym występują wszystkie możliwe
+funkcje między takimi zbiorami. Na początek omówimy kilka ważnych przykładów.
 
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
