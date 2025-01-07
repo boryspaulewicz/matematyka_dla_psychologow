@@ -201,7 +201,7 @@ równolicznych, prawda?) *zbiorów*.
 Czy widzisz, że gdy już masz *jakąś* funkcję `f`, to może istnieć *co najwyżej jedna* funkcja `f⁻¹`?
 Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś odwracalnej funkcji `f`, czyli
 jakiejś bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dziedziny *musi*
-przyporządkować dokładnie ten element, który w niego "`f`-trafia".  Właśnie dlatego, że taka
+przyporządkować dokładnie ten element, który w niego "stamtąd `f`-trafia".  Właśnie dlatego, że taka
 funkcja, jeżeli istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest *unikalna*,
 oznaczamy ją jako `f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *unikalne coś, co
 powstaje w pewien sposób z funkcji* `f`. Byłoby dobrze, gdybyś pod tym rysunkiem również zapisała
