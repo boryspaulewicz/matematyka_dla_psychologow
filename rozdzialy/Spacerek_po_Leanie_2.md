@@ -56,20 +56,21 @@ def nic_nie_robie (n : Nat) : Nat := n
 
 **Czytamy to**: 
 
-Definiuję (`def`) 
+- Definiuję (`def`) 
 
-funkcję (funkcję, bo ma parametr) `nic_nie_robie`
+- funkcję (funkcję, bo ma parametr) `nic_nie_robie`
 
-która ma jeden parametr `n` typu `Nat` (`(n : Nat)`) 
+- która ma jeden parametr `n` typu `Nat` (`(n : Nat)`) 
 
-i zwraca (tak czytamy symbol `:` pojawiający się po specyfikacji ostatniego parametru funkcji) term
-typu `Nat`.
+- i zwraca (tak czytamy symbol `:` pojawiający się po specyfikacji ostatniego parametru funkcji)
+  term typu `Nat`.
 
-*Ciałem* tej funkcji jest (`:=`) samotna zmienna `n`. Czy nie wydaje Ci się, że składnia Leana
-jest dość intuicyjna? Nawet, jeżeli tego jeszcze nie widzisz, wklej poniżej zapisanej właśnie
-definicji następny fragment kodu i umieść kursor na komendzie `#eval`. Zobaczysz wtedy po prawej
-rezultat *ewaluacji* aplikacji funkcji `nic_nie_robie` do termu `1`. To będzie `1`, bo funkcja
-`nic_nie_robie` nic nie robi (tylko zwraca swój argument).
+*Ciałem* tej funkcji jest (`:=`) samotna zmienna `n`. 
+
+Czy nie wydaje Ci się, że składnia Leana jest dość intuicyjna? Nawet, jeżeli tego jeszcze nie
+widzisz, wklej poniżej zapisanej właśnie definicji następny fragment kodu i umieść kursor na
+komendzie `#eval`. Zobaczysz wtedy po prawej rezultat *ewaluacji* aplikacji funkcji `nic_nie_robie`
+do termu `1`. To będzie `1`, bo funkcja `nic_nie_robie` nic nie robi (tylko zwraca swój argument).
 
 ```lean
 #eval nic_nie_robie 1
