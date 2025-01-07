@@ -20,7 +20,7 @@ czyli z dwóch osi z podziałkami, na które były naniesione liczby. Przypuszcz
 się to dla Ciebie na tyle naturalne, że może nawet nie zastanawiałaś się już później, jaką dokładnie
 rolę spełniają te dwie osie.
 
-Jak być może wiesz, ten układ współrzędnych wprowadził do matematyki jeszcze w 17 wieku francuski
+Jak być może wiesz, ten układ współrzędnych wprowadził do matematyki jeszcze w XVII wieku francuski
 matematyk, filozof i fizyk [René
 Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). Pomysł Kartezjusza był wtedy
 prawdziwą rewolucją, dlatego że pozwala *wiernie przetłumaczyć* problemy geometryczne na
