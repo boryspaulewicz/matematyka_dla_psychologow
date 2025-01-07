@@ -149,8 +149,8 @@ przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie
 "wirtualna" funkcja ze zbioru pustego do niego samego.
 
 Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [*wazon
-Rubina*](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z może się
-kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać "obszarem" (bo okrąg) "bez
+Rubina*](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z kolei może
+się kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać "obszarem" (bo okrąg) "bez
 zawartości" (bo przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą
 `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie jedna funkcja ze
 zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja (dotycząca
