@@ -99,4 +99,4 @@ zarazem unikalnej takiej postaci za pomocą algorytmu.
 
 ### Przypisy
 
-[^1]: [Muß es sein? Es muß sein!](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven))
+[^1]: [Muß es sein? Es muß sein! *Bo tak*.](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven))
