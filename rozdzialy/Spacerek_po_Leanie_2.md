@@ -573,7 +573,7 @@ liczbę naturalną.
 
 **Do rozważenia**: Po przeczytaniu tego rozdziału i ewentualnym podjęciu prób wykonania niektórych
 lub wszystkich poleceń warto może wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
-sprawach, ale w inny sposób. Wydaje mi się, że w ten sposób dość szybko treści obydwu tych
+sprawach, ale w inny sposób. Wydaje mi się, że w ten sposób dosyć szybko treści obydwu tych
 pierwszych rozdziałów staną się dla Ciebie w miarę jasne.
 
 ### Przypisy
