@@ -238,9 +238,9 @@ Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem 
 która stosuje *najpierw* funkcję wymienioną jako *druga*, a *potem* funkcję wymienioną jako
 *pierwsza*.  I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej
 czynności - najpierw należy narysować dwa nieco wygięte koła, a następnie narysować resztę
-[sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/), czyli ...
+[sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/), czyli[^1] ...
 
-`narysować_sowę p∘ narysowaniu dwów kół`
+`narysować_sowę p∘ narysowaniu_dwów_kół`
 
 Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
 następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
@@ -428,3 +428,8 @@ która byłaby dla Ciebie ilustracją pojęć iloczynu i sumy zbiorów. Być mo�
 wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
 [jednego](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9B%C4%87_wsp%C3%B3lna) i
 [drugiego](https://pl.wikipedia.org/wiki/Suma_zbior%C3%B3w) pojęcia.
+
+### Przypisy
+
+[^1]: Jestem bardzo dumny z pomysłu, żeby wykorzystać w ten sposób symbol `∘` oznaczający operację
+    składania. Wydaje mi się, że to może być moje największe osiągnięcie w tym roku.
