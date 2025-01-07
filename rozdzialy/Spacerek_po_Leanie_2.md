@@ -56,11 +56,11 @@ def nic_nie_robie (n : Nat) : Nat := n
 
 **Czytamy to**: 
 
-- Definiuję (`def`) 
+- Definiuję (`def`) ...
 
-- funkcję (funkcję, bo ma parametr) `nic_nie_robie`
+- funkcję (bo ma parametr) `nic_nie_robie` ...
 
-- która ma jeden parametr `n` typu `Nat` (`(n : Nat)`) 
+- która ma jeden parametr `n` typu `Nat` (`(n : Nat)`) ...
 
 - i zwraca (tak czytamy symbol `:` pojawiający się po specyfikacji ostatniego parametru funkcji)
   term typu `Nat`.
