@@ -60,7 +60,7 @@ mówi, że wszystkie kąty proste są równe. Być może od razu myślisz o kąt
 które mają *90* stopni, ale to jest przecież *liczba*. Dla Euklidesa to nie były liczby. Mógł pisać
 o *wielkościach* kątów, na przykład o tym, że jeden kąt jest większy od drugiego, w takim samym
 znaczeniu, w jakim ktoś, kto byłby pozbawiony "ośrodka liczbowego" w mózgu mógłby bez trudu ocenić,
-które spodnie ma krótsze a które ma dłuższe.
+które spodnie ma krótsze, a które ma dłuższe.
 
 Pewne problemy geometryczne dają się w taki czysto geometryczny sposób analizować względnie wygodnie
 czy łatwo, ale zdecydowanie nie wszystkie. Jeżeli teraz przyjmiemy, że na naszej wyidealizowanej
