@@ -1,4 +1,5 @@
-Jeżeli `X : FinSet` i `Y : FinSet`, to możemy zastąpić dodawanie liczb naturalnych sumą rozłączną zbiorów ...
+Jeżeli `X : FinSet` i `Y : FinSet`, to możemy zastąpić dodawanie liczb naturalnych sumą rozłączną
+...
 
 `|X ⨿ Y| = |X| + |Y| = |Y| + |X| = |Y ⨿ X|`
 
@@ -6,7 +7,7 @@ Jeżeli `X : FinSet` i `Y : FinSet`, to możemy zastąpić dodawanie liczb natur
 
 `|{∅} ⨿ X| = 1 + |X| = |X| + 1 = |X ⨿ {∅}|`
 
-... a mnożenie licz naturalnych możemy zastąpić iloczynem kartezjańskim zbiorów:
+... a mnożenie licz naturalnych iloczynem kartezjańskim:
 
 `|X × Y| = |X| * |Y| = |Y| * |X| = |Y × X|`
 
