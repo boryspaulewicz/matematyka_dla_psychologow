@@ -413,7 +413,8 @@ na parach zbiorów takich, że co najmniej jeden z nich jest zbiorem pustym, a j
 że co najmniej jeden zbiór jest singletonem. Następnie zastanów się proszę, jak ta operacja na
 zbiorach skończonych ma się do (funkcji) mocy zbiorów i operacji *dodawania* liczb naturalnych. Gdy
 już uznasz, że wystarczy tych samodzielnych rozmyślań (i może też rysunków i notatek), zapoznaj się
-proszę z [drugim]() i ostatnim w tym rozdziale fragmentem "obowiązkowym".
+proszę z [drugim](Operacje_na_zbiorach_i_na_liczbach.md) i ostatnim w tym rozdziale fragmentem
+"obowiązkowym".
 
 Na koniec poznasz jeszcze dwie operacje na zbiorach, które są bardzo blisko związane z *koniunkcją*
 i *alternatywą zdań*.
