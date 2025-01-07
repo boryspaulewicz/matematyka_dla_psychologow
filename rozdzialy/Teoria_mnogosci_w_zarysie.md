@@ -46,10 +46,10 @@ potencjalnie różnorodnych elementów.
 przeciwdziedziny. Żeby mieć jasny obraz sytuacji, upewnij się, że masz nad sobą jakieś źródło
 światłą, przygotuj proszę czystą kartkę i z lewej strony `Narysus okrag` o średnicy kroku. O krok w
 prawo od prawego brzegu tego okręgu również `Narysuj okrag`. W lewym okręgu `Narysuj Punkt x₁`,
-`Narysuj Punkt x₂`, `Narysuj Punkt x₃` i `Narysuj Punkt x₄`, jeden nad drugim, oznaczając je z
-*lewej* strony indeksowanymi literami `x`, czyli oznaczając je jako `x₁`, `x₂`, `x₃` i `x₄`, tak,
-żeby indeksy rosły w dół (jak [korzenie](https://pl.wikipedia.org/wiki/Korze%C5%84)). W prawym
-okręgu tak samo `Narysuj` punkty `y₁`, `y₂`, `y₃` i `y₄`, ale te oznacz z *prawej*.
+`Narysuj Punkt x₂` i `Narysuj Punkt x₃`, jeden nad drugim, oznaczając je z *lewej* strony
+indeksowanymi literami `x`, czyli oznaczając je jako `x₁`, `x₂` i `x₃`, tak, żeby indeksy rosły w
+dół (jak [korzenie](https://pl.wikipedia.org/wiki/Korze%C5%84)). W prawym okręgu tak samo `Narysuj`
+punkty `y₁`, `y₂` i `y₃`, ale te oznacz z *prawej*.
 
 Mamy już kandydata na dziedzinę `X` i kandydata na przeciwdziedzinę `Y`. Teraz możemy *rysując coś
 zdefiniować funkcję*. Stosujemy tutaj dosyć powszechną konwencję, zgodnie z którą duże litery
