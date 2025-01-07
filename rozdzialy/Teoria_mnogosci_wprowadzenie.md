@@ -302,17 +302,20 @@ Pamiętasz, że dowód koniunkcji można zaimplementować jako uporządkowaną p
 jak pisałem, że typy co prawda nie są zbiorami, ale że mają coś ze zbiorów? Zresztą funkcje
 teoriotypowe też nie są "zwykłymi" funkcjami matematycznymi, ale coś z tych funkcji mają, właściwie
 nawet mają z nimi bardzo wiele wspólnego, bo pobierają tak naprawdę tylko jeden argument
-(określonego *typu* odpowiadającego teoriomnogościowej *dziedzinie*) i dla każdego argumentu
-zwracają dokładnie jeden argument (określonego *typu* odpowiadającego teoriomnogościowej
-*przeciwdziedzinie*). Pisałem zresztą, że funkcje teoriotypowe to takie funkcje matematyczne, tylko
-że obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zarazem w ten sposób
+(określonego *typu*, odpowiadającego teoriomnogościowej *dziedzinie*) i dla każdego argumentu
+zwracają dokładnie jeden argument (też określonego *typu*, odpowiadającego teoriomnogościowej
+*przeciwdziedzinie*). Pisałem też, że funkcje teoriotypowe to takie funkcje matematyczne, tylko że
+obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zarazem w ten sposób
 *zrealizowane*). No więc typ par uporządkowanych to taki teoriotypowy odpowiednik, albo
-"syntaktyczny cień", *iloczynu kartezjańskiego zbiorów*.
+"syntaktyczny cień", *iloczynu kartezjańskiego zbiorów*. Wydaje mi się teraz, że zaczynając w ten
+sposób mówić o iloczynie kartezjańskim niekoniecznie pomogłem ...
 
-Iloczyn kartezjański pojawił się również w rozdziale 7-01, ponieważ mówiłem tam o *uporządkowanych
-parach liczb rzeczywistych*. Zbiór wszystkich takich par to dokładnie zbiór wszystkich punktów na
-płaszczyźnie, o ile z tą płaszczyzną jest związany układ współrzędnych kartezjańskich. Jeżeli na
-przykład ...
+To może tak: Iloczyn kartezjański pojawił się również w rozdziale 7-01, ponieważ mówiłem tam o
+*uporządkowanych parach liczb rzeczywistych*. Zbiór wszystkich takich par to dokładnie zbiór
+wszystkich punktów na płaszczyźnie, o ile z tą płaszczyzną jest związany układ współrzędnych
+kartezjańskich.
+
+Teraz jeżeli na przykład ...
 
 `X = {1, 2, 3}` i `Y = {a, b}`
 
@@ -321,11 +324,12 @@ przykład ...
 `X × Y = {(1, a), (1, b), (2, a), (2, b), (3, a), (3, b)}`
 
 Zapisywanie uporządkowanych par za pomocą zwyczajnych nawiasów to oczywiście tylko konwencja i
-równie dobrze moglibyśmy posługiwać się w tym celu notacją Leana, zamiast na przykład `(1, a)`
-pisząc `⟨1, a⟩`. Nie muszę już chyba wyjaśniać, czemu to (akurat niewybredne, bo "radzi sobie" z
-każdą uporządkowaną parą zbiorów) *działanie na zbiorach* (zauważyłaś, że to działanie na zbiorach?)
-jest w matematyce bardzo ważne, ale powiem Ci o pewnym przydatnym czasem sposobie myślenia o
-iloczynach kartezjańskich, jak również o dwóch nietypowych i ważnych przykładach.
+równie dobrze moglibyśmy posługiwać się w tym celu notacją Leana. Wtedy zamiast na przykład `(1, a)`
+pisalibyśmy `⟨1, a⟩`. Nie muszę już chyba wyjaśniać, czemu to (akurat niewybredne, bo "radzi sobie"
+z każdą uporządkowaną parą zbiorów) *działanie na zbiorach* (zauważyłaś, że to działanie na
+zbiorach?)  jest w matematyce bardzo ważne, ale powiem Ci o pewnym przydatnym czasem sposobie
+myślenia o iloczynach kartezjańskich, jak również o dwóch nietypowych i ważnych przykładach
+iloczynów zbiorów.
 
 Dla dowolnych zbiorów `X` i `Y`, iloczyn kartezjański tych zbiorów, czyli `X × Y`, możemy rozumieć
 jako przestrzeń wszystkich *niezależnych wyborów* elementów należących do zbioru `X` i do zbioru
