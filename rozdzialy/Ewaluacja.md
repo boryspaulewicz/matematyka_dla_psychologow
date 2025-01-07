@@ -27,7 +27,7 @@ def identycznosc (typ : Type) (parametr : typ) : typ := parametr
 
 #check @identycznosc Nat 1 -- identycznosc Nat 1 : Nat
 
-#eval identycznosc Nat 1
+#eval identycznosc Nat 1   -- 1
 
 -->
 (fun (typ : Type) => fun (parametr : typ) => parametr) Nat 1 -- ... : Nat
