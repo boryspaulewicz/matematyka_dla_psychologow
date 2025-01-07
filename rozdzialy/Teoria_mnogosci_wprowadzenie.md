@@ -150,28 +150,31 @@ zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwe
 funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*
 
 **Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
-`X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) = x`.
-Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo to jest *warunek*, który ta funkcja
-ma spełniać i to *Ty* ją zdefiniujesz (rysując). Zastanów się proszę przez chwilę, jak mogłabyś to
-zrobić, a gdy już wpadniesz na jakiś pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia
-[tutaj](Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko jeden sposób, to również
-kliknij ten link. Jak już narysujesz tą funkcję, podpisz ją proszę komentarzem: *Przykład funkcji
-identycznościowej*.
+`X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id` spełniającą warunek `Id(x) =
+x`.  Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo, jak powiedziałem, to jest
+*warunek*, który ta funkcja ma spełniać, ale to *Ty* ją zdefiniujesz (rysując). Zastanów się proszę
+przez chwilę, jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś pomysł, albo gdy się poddasz,
+przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko
+jeden sposób, to również kliknij ten link. Jak już narysujesz definicję funkcji `Id`, podpisz ją
+proszę komentarzem: *Przykład funkcji identycznościowej*.
 
-**Rysunek 5. Przykład injekcji[^1]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
-trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
+**Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
+czteroelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
 nie posyła żadnych dwóch `x`-ów do tego samego `y`-a. Takie funkcje nazywamy *injekcjami* albo
 funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie
 może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że każda injekcja to *między innymi*
-pewien *wybór* albo *wskazanie podzbioru* przeciwdziedziny (i niejako przy okazji oznaczenie
-elementów tego podzbioru `x`-ami)?  Żeby to podkreślić, otocz proszę ten podzbiór `Y`
-[linią](https://zpe.gov.pl/a/linia-i-kreska-jako-srodki-wyrazu-plastycznego/DkHkQQkj0) przerywaną.
+pewien *wybór* albo *wskazanie podzbioru* przeciwdziedziny (i niejako przy okazji jednokrotne
+oznaczenie elementów tego podzbioru wszystkimi `x`-ami)? Żeby to podkreślić, otocz proszę ten
+podzbiór `Y` [linią](https://pl.wikipedia.org/wiki/Rysunek) przerywaną. `Napisz` pod rysunkiem
+komentarz, wyrażający krótko to, co w tym momencie rozumiesz na temat tego typu funkcji.
 
 **Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję `f` z trójelementowego zbioru `X` do
 dwuelementowego zbioru `Y`, ale taką, żeby każdy `y` "został trafiony". Takie funkcje nazywamy
-*surjekcjami* albo funkcjami *na*. Czy widzisz, że każda taka funkcja jest *podziałem całej
-dziedziny* na rozłączne kategorie albo podzbiory, których `f-`nazwami są `y`-i? Żeby to podkreślić,
-otocz proszę wyznaczone w ten sposób części `X` liniami przerywanymi.
+*surjekcjami* albo funkcjami [*na*](https://en.wiktionary.org/wiki/sur#French). Czy widzisz, że
+każda surjekcja jest *podziałem całej dziedziny* na rozłączne kategorie albo podzbiory, których
+`f-`nazwami są `y`-i? Żeby to podkreślić, otocz proszę wyznaczone w ten sposób części `X` liniami
+przerywanymi. `Podpisz` też rysunek komentarzem podsumowującym Twoimi słowami to, co tutaj
+przeczytałaś.
 
 **Rysunek 7. Przykład bijekcji**: *Bijekcjami* nazywamy takie funkcje, które są jednocześnie
 injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli takie, które nie
