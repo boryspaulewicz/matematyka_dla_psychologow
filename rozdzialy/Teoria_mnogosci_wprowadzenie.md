@@ -138,14 +138,16 @@ teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest
 abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd`. Tyle, że ta funkcja *istnieje*
 na mocy konwencji. Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie funkcje
 *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
-przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna w pewnym sensie
+przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna, w pewnym sensie
 "wirtualna" funkcja ze zbioru pustego do niego samego.
 
-Zbiory puste zapisujemy albo jako `{}`, albo jako symbol `∅`. Na cześć tej funkcji narysuj proszę
-`Strzalka X Y` i oznacz ją literą `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`,
-*istnieje dokładnie jedna funkcja ze zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale
-to tylko konwencja (dotycząca funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w
-praktyce.*
+Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [wazon
+Rubina](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z może się
+kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać "obszarem" (bo okrąg) "bez
+zawartości" (bo przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą
+`p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie jedna funkcja ze
+zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja (dotycząca
+funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*
 
 **Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) = x`.
