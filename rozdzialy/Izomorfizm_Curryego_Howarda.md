@@ -84,8 +84,8 @@ płaszczyźnie możemy rozumieć jako pewien zbiór punktów, to każdy taki obi
 unikalnemu zbiorowi uporządkowanych par liczb.
 
 Dzięki temu problemy o charakterze *czysto geometrycznym* (na płaszczyźnie) możemy wiernie
-przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć nie zawsze) łatwiej jest
-nam je rozwiązać lub zrozumieć. Co więcej, pewne problemy liczbowe, które mogłyby się nam wcale
+przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć nie zawsze) jest nam
+łatwiej je rozwiązać lub zrozumieć. Co więcej, pewne problemy liczbowe, które mogłyby się nam wcale
 początkowo nie kojarzyć z geometrią, mogą się okazać wiernie przetłumaczalne na problemy
 geometryczne i może się również okazać, że w tej wersji są dla nas łatwiejsze albo bardziej
 zrozumiałe. A czasami dzieje się i tak, że *odkrywamy* albo *znajdujemy* pewne obiekty geometryczne,
