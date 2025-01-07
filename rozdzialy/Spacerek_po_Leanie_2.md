@@ -35,8 +35,8 @@ rozdziałów](./Duzy_predykaty_Bog.md).
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach, nie wymagają instalacji Leana,
 ale jeżeli dotarłaś do tego momentu, to możliwe, że brałaś już to pod uwagę. Warto go zainstalować,
-na przykład w połączeniu z darmowym edytorem VS Code. Proste instrukcje, jak to zrobić, znajdziesz
-[tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
+na przykład w połączeniu z darmowym edytorem [VS Code](https://code.visualstudio.com/). Proste
+instrukcje, jak to zrobić, znajdziesz [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
 
 **Polecenie**: Jeżeli nie używasz edytora VS Code, a w pierwszych rozdziałach zakładam, że nie, to
 skopiuj na początek do lewego okna taki fragment kodu:
