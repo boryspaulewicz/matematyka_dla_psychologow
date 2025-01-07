@@ -160,18 +160,18 @@ proszę komentarzem: *Przykład funkcji identycznościowej*.
 
 **Rysunek 5. Przykład injekcji**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 czteroelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
-nie posyła żadnych dwóch `x`-ów do tego samego `y`-a. Takie funkcje nazywamy *injekcjami* albo
-funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie
-może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że każda injekcja to *między innymi*
-pewien *wybór* albo *wskazanie podzbioru* przeciwdziedziny (i niejako przy okazji jednokrotne
-oznaczenie elementów tego podzbioru wszystkimi `x`-ami)? Żeby to podkreślić, otocz proszę ten
-podzbiór `Y` [linią](https://pl.wikipedia.org/wiki/Rysunek) przerywaną. `Napisz` pod rysunkiem
-komentarz, wyrażający krótko to, co w tym momencie rozumiesz na temat tego typu funkcji.
+nie posyła żadnych dwóch `x`-ów do tego samego `y`-a, i oznacz ją literą `i`. Takie funkcje nazywamy
+*injekcjami* albo funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja,
+dziedzina nie może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że *każda* injekcja to
+*między innymi* pewien *wybór* albo *wskazanie podzbioru* przeciwdziedziny (i niejako przy okazji
+jednokrotne oznaczenie elementów tego podzbioru wszystkimi `x`-ami)? Żeby to podkreślić, otocz
+proszę ten podzbiór `Y` [linią](https://pl.wikipedia.org/wiki/Rysunek) przerywaną. `Napisz` pod
+rysunkiem komentarz wyrażający krótko to, co w tym momencie rozumiesz na temat injekcji.
 
-**Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję `f` z trójelementowego zbioru `X` do
-dwuelementowego zbioru `Y`, ale taką, żeby każdy `y` "został trafiony". Takie funkcje nazywamy
+**Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję `s` z trójelementowego zbioru `X` do
+dwuelementowego zbioru `Y`, tak, żeby każdy `y` "dostał strzałkę". Takie funkcje nazywamy
 *surjekcjami* albo funkcjami [*na*](https://en.wiktionary.org/wiki/sur#French). Czy widzisz, że
-każda surjekcja jest *podziałem całej dziedziny* na rozłączne kategorie albo podzbiory, których
+*każda* surjekcja jest *podziałem całej dziedziny* na rozłączne kategorie albo podzbiory, których
 `f-`nazwami są `y`-i? Żeby to podkreślić, otocz proszę wyznaczone w ten sposób części `X` liniami
 przerywanymi. `Podpisz` też rysunek komentarzem podsumowującym Twoimi słowami to, co tutaj
 przeczytałaś.
@@ -180,38 +180,38 @@ przeczytałaś.
 injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli takie, które nie
 sklejają żadnych elementów swojej dziedziny i trafiają we wszystkie elementy swojej
 przeciwdziedziny. `Narysuj` proszę bijekcję z czteroelementowego zbioru `X` do czteroelementowego
-zbioru `Y` i oznacz ją literą `f`. Czy rozumiesz, dlaczego nie może istnieć bijekcja, w dowolnym
+zbioru `Y` i oznacz ją literą `b`. Czy rozumiesz, dlaczego nie może istnieć bijekcja, w dowolnym
 kierunku, między zbiorami *różniącymi się wielkością*?
 
 Bijekcje są *przykładami* [izomorfizmów](https://pl.wikipedia.org/wiki/Izomorfizm), ale pojęcie
-izomorfizmu jest, jak się przekonasz, znacznie ogólniejsze. Czy widzisz, że izomorfizm jest jak
-powiedzenie dokładnie tego samego, tylko innymi słowami albo symbolami, czyli to taki jakby wierny
-tłumacz w obie strony? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie
-jednoznacznymi*. W tym wypadku to jest taka *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie
-zmienia.
+izomorfizmu jest, jak się przekonasz, ogólniejsze. Czy widzisz, że izomorfizm jest jak powiedzenie
+dokładnie tego samego, tylko innymi słowami albo symbolami, czyli to taki jakby wierny tłumacz w
+obie strony? Dlatego nazywamy takie funkcje również funkcjami *wzajemnie jednoznacznymi*. W tym
+wypadku to taka jakby *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie zmienia.
 
 Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomorfizmów jest ich
-*odwracalność*. Dlatego proszę, żebyś narysowała jeszcze odwrotność funkcji `f`. To ma być taka
-funkcja `f⁻¹`, że `f⁻¹` *odwraca działanie funkcji* `f`, to znaczy: Jeżeli do dowolnego `x`
-zastosujesz `f`, to gdy do rezultatu zastosujesz `f⁻¹`, uzyskasz znowu ten `x`, czyli `f⁻¹(f(x)) =
-x` *i jednocześnie* dla każdego `y`, `f(f⁻¹(y)) = y`. Jak tylko to zrobisz, zobaczysz czemu w
-wyrażeniu `f(f⁻¹(y))` pojawia się `y` a nie `x`. Można więc powidzieć, że funkcje odwrotne są
-*lustrzanymi odbiciami wiernych obrazów* (lepiej: *odwzrowań*) *dwóch* (z konieczności
-równolicznych) *zbiorów*.
+*odwracalność*. Dlatego proszę, żebyś narysowała jeszcze *odwrotność funkcji* `b`. To ma być taka
+funkcja `b⁻¹`, że `b⁻¹` *odwraca działanie funkcji* `b`, to znaczy: Jeżeli do dowolnego `x`
+zastosujesz `b`, to gdy do rezultatu zastosujesz `b⁻¹` (czyli pójdziesz po strzałce w drugą stronę),
+uzyskasz ten sam `x`, czyli `b⁻¹(b(x)) = x` *i jednocześnie* dla każdego `y`, `b(b⁻¹(y)) = y`. Jak
+tylko to zrobisz, zobaczysz czemu w wyrażeniu `b(b⁻¹(y))` pojawia się `y` a nie `x`. Można więc
+powidzieć, że funkcje odwrotne są *lustrzanymi odbiciami wiernych odwzorowań dwóch* (z konieczności
+równolicznych, prawda?) *zbiorów*.
 
-Czy widzisz, że gdy już masz jakąś funkcję `f`, to może istnieć co najwyżej jedna funkcja `f⁻¹`?
-Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś funkcji odwracalnej, czyli jakiejś
-bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dziedziny *musi* przyporządkować
-dokładnie ten element, który w niego "`f`-trafia".  Właśnie dlatego, że taka funkcja, jeżeli
-istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest *unikalna*, oznaczamy ją jako
-`f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *unikalne coś, co powstaje w pewien
-sposób z funkcji* `f`.
+Czy widzisz, że gdy już masz *jakąś* funkcję `f`, to może istnieć *co najwyżej jedna* funkcja `f⁻¹`?
+Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś odwracalnej funkcji `f`, czyli
+jakiejś bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dziedziny *musi*
+przyporządkować dokładnie ten element, który w niego "`f`-trafia".  Właśnie dlatego, że taka
+funkcja, jeżeli istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest *unikalna*,
+oznaczamy ją jako `f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *unikalne coś, co
+powstaje w pewien sposób z funkcji* `f`. Byłoby dobrze, gdybyś pod tym rysunkiem również zapisała
+jakiś zrozumiały dla Ciebie komentarz.
 
 Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
 odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
 trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *funkcja* `g` z
 przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `g(f(x)) = x` *i
-jednocześnie* `f(f(y)) = y`.
+jednocześnie* `f(g(y)) = y`.
 
 Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
 [Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem mocno ograniczony. Jeżeli więc
