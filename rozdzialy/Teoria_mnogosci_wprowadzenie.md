@@ -86,8 +86,8 @@ zbioru *nie ulegnie zmianie*, gdy te zdania zapiszemy w innej kolejności, albo 
 zapiszemy więcej niż raz.
 
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
-y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` ["został na
-lodzie"](https://www.youtube.com/watch?v=rog8ou-ZepE). Oznacz ten rysunek od góry literą `f`, jak
+y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` "został na
+[lodzie](https://www.youtube.com/watch?v=rog8ou-ZepE)". Oznacz ten rysunek od góry literą `f`, jak
 *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X` przyporządkowałaś właśnie
 *dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład reprezentatywny* funkcji, bo
 prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy element przeciwdziedziny i
