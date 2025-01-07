@@ -267,14 +267,16 @@ tego, w jaki mógłby to zrobić Lean.
 O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
 funkcji, żeby upewnić się, że `Id_Y ∘ f` oznacza funkcję, która ma taką samą dziedzinę i
-przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje w ogóle *mogą* być
-tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny to byłyby automatycznie różnymi
-funkcjami). Ale czy są? Niech `x` będzie dowolnym elementem zbioru `X`. Wtedy (rozwijamy definicję
-składania teoriomnogościowego) `(Id_Y ∘ f)(x) = Id_Y(f(x))`, a ponieważ (stosujemy definicję funkcji
+przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje przynajmniej
+*mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny to byłyby automatycznie
+różnymi funkcjami). Ale czy są? 
+
+Niech `x` będzie dowolnym elementem zbioru `X`. Wtedy (rozwijamy definicję składania
+teoriomnogościowego) `(Id_Y ∘ f)(x) = Id_Y(f(x))`, a ponieważ (stosujemy definicję funkcji
 identycznościowej) `Id_Y(f(x)) = f(x)`, to (stosujemy przechodniość relacji równości) `(Id_Y ∘ f)(x)
 = f(x)`. Czyli dla każdego `x ∈ X` jest prawdą, że `(Id_Y ∘ f)(x) = f(x)`, a więc (bo to oznacza, że
-kryterium równości funkcji jest dla tych dwóch funkcji spełnione) `Id_Y ∘ f` to ta sama funkcja,
-co `f`, czyli `Id_Y ∘ f = f`.
+kryterium równości funkcji jest dla tych dwóch funkcji spełnione) `Id_Y ∘ f` to ta sama funkcja, co
+`f`, czyli `Id_Y ∘ f = f`.
 
 **Sugestia**: Dokończ ten dowód w tym stylu dla drugiej równości, to jest dla `f = f ∘ Id_y`, tylko
 może nie pisz aż tyle co ja. Przeprowadzając taki dowód warto jednak chociaż raz powstrzymać się
