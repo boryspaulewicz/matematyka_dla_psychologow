@@ -326,15 +326,15 @@ bo to też jest pewna funkcja - do pierwszego i drugiego parametru, które to pa
 `m`, bo tak mi się podobało, a poza tym zauważyłam, że inni matematycy często stosują tą konwencję,
 gdy mówią o liczbach naturalnych.
 
-**Nazwy parametrów funkcji nie mają znaczenia** w tym sensie, że na przykład taka oto alternatywna
-definicja (z apostrofem w nazwie):
+**Nazwy parametrów funkcji nie mają znaczenia** w tym sensie, że na przykład taka oto ...
 
 ```lean
+-- alternatywna definicja (z apostrofem w nazwie) ...
 def suma' (a : Nat) (b : Nat) : Nat := a + b
 ```
 
-jest ewidentnie *tą samą*, tylko *inaczej zapisaną funkcją*. Jest też inaczej nazwana, bo nie możemy
-ponownie definiować tych samych symboli.
+... jest ewidentnie *tą samą*, tylko *inaczej zapisaną funkcją*. Jest też inaczej nazwana, bo nie
+możemy ponownie definiować tych samych symboli.
 
 **Ostateczność definicji**: Gdy raz zdefiniujemy jakiś symbol, tutaj symbole `suma` i `suma'`, nie
 możemy już więcej (w tej samej [*przestrzeni
