@@ -320,8 +320,8 @@ podzielenie się cennymi refleksjami i za ujawnienie, zresztą nie po raz pierws
 ostatni, jak podobnie myślimy o metodologii i o tym, jak się jej (niestety) zwykle uczy psychologów.
 
 Iwonie Dudek, którą pamiętam jako zaangażowaną i otwartą uczestniczkę kursu z wnioskowania
-przyczynowego i bayesowskiego, za bardzo miłe słowa na temat kursu i entuzjastyczną reakcję na tą
-książkę.
+przyczynowego i bayesowskiego, za bardzo miłe słowa na temat tego kursu i entuzjastyczną reakcję na
+tą książkę.
 
 ### Przypisy
 
