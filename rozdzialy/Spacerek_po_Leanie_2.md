@@ -434,7 +434,7 @@ a w niej nic świętego[^3]. Można powiedzieć, że tym właśnie jest *matemat
 więcej, gdy tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na dowolną inną,
 jeśli tylko ta alternatywna interpretacja będzie spójna. Te uwagi dotyczą jednak tylko *matematyki
 zastanej*, ponieważ, jak [wiemy](https://pl.wikipedia.org/wiki/Problem_nierozstrzygalny),
-*tworzenie* nowej matematyki ma z konieczności charakter *niealgorytmiczny*.
+*tworzenie* nowej matematyki i konstruowanie dowodów ma z konieczności charakter *niealgorytmiczny*.
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są
