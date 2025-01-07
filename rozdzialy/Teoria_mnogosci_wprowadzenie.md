@@ -142,10 +142,10 @@ przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie
 "wirtualna" funkcja ze zbioru pustego do niego samego.
 
 Zbiory puste zapisujemy albo jako `{}`, albo jako symbol `∅`. Na cześć tej funkcji narysuj proszę
-`Strzalka X Y` i oznacz ją literą `p`, a pod spodem zapisz komentarz: Dla każdego zbioru `Y`,
-istnieje dokładnie jedna funkcja ze zbioru pustego do `Y`. Może i trudno się z tym pogodzić, ale to
-tylko konwencja (dotycząca *funkcji*), którą przyjmujemy po prostu dlatego, że sprawdza się w
-praktyce.
+`Strzalka X Y` i oznacz ją literą `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`,
+*istnieje dokładnie jedna funkcja ze zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale
+to tylko konwencja (dotycząca funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w
+praktyce.*
 
 **Rysunek 4. [Identyczność](https://pl.wikipedia.org/wiki/Identyczno%C5%9B%C4%87) na dwa sposoby**:
 `Narysuj` teraz proszę trzyelementowy zbiór `X`. Chciałbym, żebyś narysowała funkcję
