@@ -35,7 +35,7 @@ większego znaczenia.)
 
 **Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem *Teoria
 mnogości w zarysie*. Zapraszam do testowania!.
-x
+
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
 czytelności, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii to
@@ -217,8 +217,6 @@ Notatki całkiem już robocze, do których jednak można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
 
-[Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
-
 <a name="podziekowania"></a>
 ### Podziękowania należą się między innymi
 
@@ -322,6 +320,8 @@ ostatni, jak podobnie myślimy o metodologii i o tym, jak się jej (niestety) zw
 Iwonie Dudek, którą pamiętam jako zaangażowaną i otwartą uczestniczkę kursu z wnioskowania
 przyczynowego i bayesowskiego, za bardzo miłe słowa na temat tego kursu i entuzjastyczną reakcję na
 tą książkę.
+
+[Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
 
