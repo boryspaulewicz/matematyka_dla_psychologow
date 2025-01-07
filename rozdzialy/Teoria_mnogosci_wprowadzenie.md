@@ -271,17 +271,17 @@ przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy fu
 *mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny to byłyby automatycznie
 różnymi funkcjami). Ale czy są? 
 
-Niech `x` będzie dowolnym elementem zbioru `X`.  
-(tak zaczynamy konstrukcję dowodu zdania prawdziwego dla każdego `x` należącego do `X`)  
+1. Niech `x` będzie dowolnym elementem zbioru `X`.  
+   (tak zaczynamy konstrukcję dowodu zdania prawdziwego dla każdego `x` należącego do `X`)  
 
-Wtedy `(Id_Y ∘ f)(x) = Id_Y(f(x))`, ...  
-(rozwijamy definicję składania teoriomnogościowego)  
+2. Wtedy `(Id_Y ∘ f)(x) = Id_Y(f(x))`, ...  
+   (rozwijamy definicję składania teoriomnogościowego)  
 
-... a ponieważ `Id_Y(f(x)) = f(x)` ...  
-(stosujemy definicję funkcji identycznościowej)  
+3. ... a ponieważ `Id_Y(f(x)) = f(x)` ...  
+   (stosujemy definicję funkcji identycznościowej)  
 
-... to `(Id_Y ∘ f)(x) = f(x)`.  
-(stosujemy przechodniość relacji równości)
+4. ... to `(Id_Y ∘ f)(x) = f(x)`.  
+   (stosujemy przechodniość relacji równości)
 
 Czyli *dla każdego `x ∈ X` jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, a więc (bo to oznacza, że
 kryterium równości funkcji jest dla tych dwóch funkcji spełnione) `Id_Y ∘ f` to ta sama funkcja, co
