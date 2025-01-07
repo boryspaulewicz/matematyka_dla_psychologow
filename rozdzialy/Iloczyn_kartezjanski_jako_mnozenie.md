@@ -2,15 +2,15 @@
 "wielkość", która, *jeżeli ten zbiór jest skończony*, jest *liczbą jego elementów*. Moc zbioru `X`
 zapisujemy zwykle jako `|X|`.
 
-Ponieważ (właśnie po to) w tym rozdziale mówimy tylko o zbiorach skończonych, to `|| : FinSet → ℕ`,
-to znaczy, dla każdego zbioru `X`, moc `X` jest pewną własnością `X` (a więc `||` to pewna
-*funkcja*, zdefiniowana na przestrzeni zbiorów skończonych) i jednocześnie elementem zbioru liczb
-naturalnych.
+Ponieważ (właśnie po to) w tym rozdziale mówimy tylko o zbiorach skończonych, to `|| : FinSet →
+ℕ`[^1], to znaczy, dla każdego zbioru `X`, moc `X` jest pewną własnością `X` (a więc `||` to pewna
+*funkcja*, zdefiniowana na przestrzeni zbiorów skończonych) i jednocześnie liczbą naturalną.
 
 Jest mam nadzieję dla Ciebie oczywiste, że `|∅| = 0`. Rozumiesz też chyba dlaczego, dla każdego `x`,
 czymkolwiek nie byłby ten `x`, o ile tylko może być elementem jakiegoś zbioru (a więc nie może być
 na przykład pogodą *jako taką*, tylko co najwyżej symbolem, jakąś strukturą danych, lub innym
-obiektem matematycznym oznaczającym pogodę), `|{x}| = 1`.
+obiektem matematycznym oznaczającym pogodę), `|{x}| = 1`. Zbiór `{x}` jest przecież
+*jednoelementowy*.
 
 W szczególności, `|{∅}| = 1`. Ten ostatni przykład jest trochę podchwytliwy, bo zbiór `{∅}` może się
 *kojarzyć* ze zbiorem pustym, ale ten zbiór *nie* jest pusty - zawiera przecież co najmniej jeden
@@ -24,3 +24,8 @@ strony i *liczbami naturalnymi* i *operacją mnożenia* tych liczb z drugiej.
 
 **Sugestia**: Spróbuj proszę zrobić sobie z tego fragmentu jakiekolwiek notatki. Być może później
 nam się przydadzą.
+
+### Przypisy
+
+[^1]: Wprowadziłem tu symbol `FinSet` w nadziei, że od razu domyślisz się, o co mi chodzi. Ten
+    symbol oznacza typ albo kategorię zbiorów skończonych, od angielskiego *Finite Set*.
