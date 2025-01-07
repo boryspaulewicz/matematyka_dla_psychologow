@@ -283,13 +283,18 @@ różnymi funkcjami). Ale czy są?
 4. ... to `(Id_Y ∘ f)(x) = f(x)`.  
    (stosujemy przechodniość relacji równości do już udowodnionych zdań 2 i 3)
 
-Czyli *dla każdego `x ∈ X` jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, a więc (bo to oznacza, że
-kryterium równości funkcji jest dla tych dwóch funkcji spełnione) `Id_Y ∘ f` to ta sama funkcja, co
-`f`, czyli `Id_Y ∘ f = f`.
+Czyli *dla każdego `x ∈ X` jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, albo krócej:
 
-**Sugestia**: Dokończ ten dowód w tym stylu dla drugiej równości, to jest dla `f = f ∘ Id_y`, tylko
-może nie pisz aż tyle co ja. Przeprowadzając taki dowód warto jednak chociaż raz powstrzymać się
-przed robieniem daleko idących skrótów myślowych.
+`∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`
+
+A ponieważ to ostatnie zdanie oznacza, że kryterium równości funkcji jest dla tych dwóch funkcji
+spełnione, to `Id_Y ∘ f` to ta sama funkcja, co `f`, czyli:
+
+`Id_Y ∘ f = f`
+
+**Sugestia**: Dokończ ten dowód w podobnym stylu dla drugiej równości, to jest dla `f = f ∘ Id_y`,
+tylko może nie pisz aż tyle co ja. Przeprowadzając taki dowód po raz pierwszy warto chyba jednak
+powstrzymać się przed daleko idącymi skrótami myślowymi.
 
 ## Iloczyn kartezjański zbiorów
 
