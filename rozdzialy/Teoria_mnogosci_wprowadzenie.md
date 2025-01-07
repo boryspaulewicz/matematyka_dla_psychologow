@@ -121,8 +121,8 @@ funkcje między takimi zbiorami. Na początek omówimy kilka ważnych przykład�
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
 jedną kropkę. Zbiory jednoelementowe nazywamy również *zbiorami jednostkowymi* albo
-[*singletonami*](https://pl.wikipedia.org/wiki/Zbi%C3%B3r_jednoelementowy). Czy widzisz, że istnieje
-tylko jedna funkcja ze zbioru lewego do prawego? Narysuj proszę tą funkcję.
+*singletonami*. Czy widzisz, że istnieje tylko jedna funkcja ze zbioru lewego do prawego? Narysuj
+proszę tą funkcję.
 
 **Rysunek 3. Funkcje ze zbioru pustego**: A teraz `Narysuj` proszę obok siebie dwa zbiory, `X` i
 `Y`, ale takie, że w lewym *nic* nie będzie, a w prawym będą na przykład dwa elementy. Jak już
@@ -147,24 +147,22 @@ Zbiory puste zapisujemy albo jako `{}`, albo jako symbol `∅`. Na cześć tej f
 to tylko konwencja (dotycząca funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w
 praktyce.*
 
-**Rysunek 4. [Identyczność](https://pl.wikipedia.org/wiki/Identyczno%C5%9B%C4%87) na dwa sposoby**:
-`Narysuj` teraz proszę trójelementowy zbiór `X`. Chciałbym, żebyś narysowała funkcję
-identycznościową o nazwie `Id`, taką, że `Id(x) = x`.  Użyłem tutaj symbolu równości zamiast symbolu
-definiowania, bo to jest *warunek*, który ta funkcja ma spełniać i to *Ty* ją zdefiniujesz
-(rysując). Zastanów się proszę przez chwilę, jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś
-pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli
-przyszedł Ci do głowy tylko jeden sposób, to również kliknij ten link. Jak już narysujesz tą
-funkcję, podpisz ją proszę komentarzem: *Przykład funkcji identycznościowej*.
+**Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
+`X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id`, taką, że `Id(x) = x`.
+Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo to jest *warunek*, który ta funkcja
+ma spełniać i to *Ty* ją zdefiniujesz (rysując). Zastanów się proszę przez chwilę, jak mogłabyś to
+zrobić, a gdy już wpadniesz na jakiś pomysł, albo gdy się poddasz, przeczytaj moje objaśnienia
+[tutaj](Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko jeden sposób, to również
+kliknij ten link. Jak już narysujesz tą funkcję, podpisz ją proszę komentarzem: *Przykład funkcji
+identycznościowej*.
 
 **Rysunek 5. Przykład injekcji[^1]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 trzyelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
 nie posyła żadnych dwóch `x`-ów do tego samego `y`-a. Takie funkcje nazywamy *injekcjami* albo
-funkcjami
-[*różnowartościowymi*](https://pl.wikipedia.org/wiki/Funkcja_r%C3%B3%C5%BCnowarto%C5%9Bciowa). Czy
-widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie może mieć więcej elementów niż
-przeciwdziedzina? A czy widzisz, że każda injekcja to *między innymi* pewien *wybór* albo *wskazanie
-podzbioru* przeciwdziedziny (i niejako przy okazji oznaczenie elementów tego podzbioru `x`-ami)?
-Żeby to podkreślić, otocz proszę ten podzbiór `Y`
+funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja, dziedzina nie
+może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że każda injekcja to *między innymi*
+pewien *wybór* albo *wskazanie podzbioru* przeciwdziedziny (i niejako przy okazji oznaczenie
+elementów tego podzbioru `x`-ami)?  Żeby to podkreślić, otocz proszę ten podzbiór `Y`
 [linią](https://zpe.gov.pl/a/linia-i-kreska-jako-srodki-wyrazu-plastycznego/DkHkQQkj0) przerywaną.
 
 **Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję `f` z trójelementowego zbioru `X` do
@@ -173,10 +171,9 @@ dwuelementowego zbioru `Y`, ale taką, żeby każdy `y` "został trafiony". Taki
 dziedziny* na rozłączne kategorie albo podzbiory, których `f-`nazwami są `y`-i? Żeby to podkreślić,
 otocz proszę wyznaczone w ten sposób części `X` liniami przerywanymi.
 
-**Rysunek 7. Przykład bijekcji**:
-[*Bijekcjami*](https://pl.wikipedia.org/wiki/Funkcja_wzajemnie_jednoznaczna) nazywamy takie funkcje,
-które są jednocześnie injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli
-takie, które nie sklejają żadnych elementów swojej dziedziny i trafiają we wszystkie elementy swojej
+**Rysunek 7. Przykład bijekcji**: *Bijekcjami* nazywamy takie funkcje, które są jednocześnie
+injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli takie, które nie
+sklejają żadnych elementów swojej dziedziny i trafiają we wszystkie elementy swojej
 przeciwdziedziny. `Narysuj` proszę bijekcję z czteroelementowego zbioru `X` do czteroelementowego
 zbioru `Y` i oznacz ją literą `f`. Czy rozumiesz, dlaczego nie może istnieć bijekcja, w dowolnym
 kierunku, między zbiorami *różniącymi się wielkością*?
@@ -285,8 +282,8 @@ nawet mają z nimi bardzo wiele wspólnego, bo pobierają tak naprawdę tylko je
 zwracają dokładnie jeden argument (określonego *typu* odpowiadającego teoriomnogościowej
 *przeciwdziedzinie*). Pisałem zresztą, że funkcje teoriotypowe to takie funkcje matematyczne, tylko
 że obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zarazem w ten sposób
-*zrealizowane*). No więc typ par uporządkowanych to taki teoriotypowy odpowiednik, albo "cień",
-[*iloczynu kartezjańskiego zbiorów*](https://pl.wikipedia.org/wiki/Iloczyn_kartezja%C5%84ski).
+*zrealizowane*). No więc typ par uporządkowanych to taki teoriotypowy odpowiednik, albo
+"syntaktyczny cień", *iloczynu kartezjańskiego zbiorów*.
 
 Iloczyn kartezjański pojawił się również w rozdziale 7-01, ponieważ mówiłem tam o *uporządkowanych
 parach liczb rzeczywistych*. Zbiór wszystkich takich par to dokładnie zbiór wszystkich punktów na
@@ -341,11 +338,10 @@ fragmentem.
 
 ## Suma rozłączna zbiorów
 
-Dla dowolnych zbiorów `X` i `Y`, [suma
-rozłączna](https://pl.wikipedia.org/wiki/Suma_roz%C5%82%C4%85czna) tych zbiorów to taki zbiór, który
-zawiera dokładnie wszystkie kopie, zapisane w jakikolwiek sposób jako *różne* elementy, elementów
-tych zbiorów. To znaczy, że niejako wewnątrz sumy rozłącznej *zachowujemy informację* o tym, z
-którego z dwóch zbiorów pochodzi każdy element.
+Dla dowolnych zbiorów `X` i `Y`, *suma rozłączna* tych zbiorów to taki zbiór, który zawiera
+dokładnie wszystkie kopie, zapisane w jakikolwiek sposób jako *różne* elementy, elementów tych
+zbiorów. To znaczy, że niejako wewnątrz sumy rozłącznej *zachowujemy informację* o tym, z którego z
+dwóch zbiorów pochodzi każdy element.
 
 Na przykład, jeżeli tak jak wcześniej `X = {1, 2, 3}` i `Y = {a, b}`, to nie musimy w żaden sposób
 *oznaczać* elementów, bo żaden element nie należy jednocześnie do zbiorów `X` i `Y` i możemy po
@@ -394,10 +390,10 @@ i *alternatywą zdań*.
 
 ## Część wspólna zbiorów
 
-Jeżeli `X` i `Y` to zbiory, to *częścią wspólną*, albo *przekrojem*, albo *przecięciem*, albo
-*iloczynem mnogościowym* zbiorów `X` i `Y` nazywamy zbiór złożony dokładnie z takich elementów,
-które należą *zarówno do* `X` *jak i do* `Y`. Tą operację zapisujemy za pomocą symbolu `∩`. Możemy
-to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
+Jeżeli `X` i `Y` to zbiory, to *częścią wspólną*, *przekrojem*, *przecięciem*, albo *iloczynem
+mnogościowym* zbiorów `X` i `Y` nazywamy zbiór złożony dokładnie z takich elementów, które należą
+*zarówno do* `X` *jak i do* `Y`. Tą operację zapisujemy za pomocą symbolu `∩`. Możemy to zapisać
+półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
 
 `X ∩ Y := {z | (z ∈ X) ∧ (z ∈ Y)}`.
 
@@ -408,7 +404,7 @@ Czy widzisz podobieństwo między symbolami `∩` i `∧` i czy widzisz, że jes
 
 ## Suma zbiorów
 
-Jeżeli `X` i `Y` to zbiory, to *sumą*, albo *unią* zbiorów `X` i `Y` nazywamy zbiór złożony
+Jeżeli `X` i `Y` to zbiory, to *sumą* albo *unią* zbiorów `X` i `Y` nazywamy zbiór złożony
 dokładnie z takich elementów, które należą do `X` *lub* do `Y`. Tą operację zapisujemy za pomocą
 symbolu `∩`. Możemy to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
 
