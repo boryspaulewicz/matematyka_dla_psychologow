@@ -175,7 +175,7 @@ rozumienia treści matematycznych albo "matematyzacji" problemów czy pojęć, k
 mają jeszcze matematycznego charakteru, zacznie się moim zdaniem rozwijać znacznie szybciej, niż
 gdybyś próbowała rozwijać ją w bardziej tradycyjny sposób.
 
-Próbując zrozumieć, o czym jest następny rozdział, uruchomisz proces zasadniczo taki sam, jak ten
+Próbując zrozumieć, o czym jest następny rozdział, uruchomisz proces zasadniczo taki sam, jak ten,
 dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem wydawały Ci się
 proste, ale które bez wcześniejszego przyzwyczajenia się do patrzenia na nie jako na problemy
 liczbowe byłyby tak trudne, że być może nawet nierozwiązywalne. W dodatku uczenie się matematyki
