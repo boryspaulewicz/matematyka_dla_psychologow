@@ -140,8 +140,8 @@ na mocy konwencji. Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie t
 przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna, w pewnym sensie
 "wirtualna" funkcja ze zbioru pustego do niego samego.
 
-Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [wazon
-Rubina](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z może się
+Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [*wazon
+Rubina*](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z może się
 kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać "obszarem" (bo okrąg) "bez
 zawartości" (bo przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą
 `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie jedna funkcja ze
@@ -431,9 +431,9 @@ Czy widzisz podobieństwo między symbolami `∩` i `∧` i czy widzisz, że jes
 
 ## Suma zbiorów
 
-Jeżeli `X` i `Y` to zbiory, to *sumą* albo *unią* zbiorów `X` i `Y` nazywamy zbiór złożony
-dokładnie z takich elementów, które należą do `X` *lub* do `Y`. Tą operację zapisujemy za pomocą
-symbolu `∩`. Możemy to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
+Jeżeli `X` i `Y` to zbiory, to *sumą* albo *unią* zbiorów `X` i `Y` nazywamy zbiór złożony dokładnie
+z takich elementów, które należą do `X` *lub* do `Y`. Tą operację zapisujemy za pomocą symbolu
+`∪`. Możemy to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
 
 `X ∪ Y := {z | (z ∈ X) ∨ (z ∈ Y)}`.
 
