@@ -1,10 +1,10 @@
 ## O czym teraz będzie
 
 Przypominam, że to jest alternatywna wersja *tego samego rozdziału*. Zdecydowałem się napisać dwie
-wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia rozdziały kolejne, będzie zależało w
+wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia kolejne rozdziały, będzie zależało w
 znacznym stopniu od tego, jak dobrze uda mi się wytłumaczyć najważniejsze kwestie omawiane właśnie
-tutaj. Dlatego być może dobrze będzie jeśli przynajmniej zerkniesz do poprzedniej wersji po tym jak
-przeczytasz tą.
+tutaj. Dlatego być może dobrze będzie, jeśli przynajmniej zerkniesz do poprzedniej wersji po tym,
+jak przeczytasz tą.
 
 Po tym jak objaśnię ogólną strukturę i sposób działania funkcji w Leanie, w następnych rozdziałach
 pokażę Ci, że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik
