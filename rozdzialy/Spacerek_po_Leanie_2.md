@@ -250,8 +250,8 @@ i zostaje tylko to, co jest po strzałce, czyli w tym wypadku sam typ `Nat`. To 
 zmiana, bo zastosowanie funkcji zwracającej liczbę naturalną jest jakimś sposodem zapisania liczby
 naturalnej, tak samo jak *1 + 2* jest jakimś sposobem zapisania liczby naturalnej. Wszędzie, gdzie
 możemy podstawić pod zmienną jakąś liczbę naturalną, możemy podstawić też całe wyrażenie *1 +
-2*. Widzimy więc konieczność zajścia w ramach aplikacji pewnego rodzaju obliczenia "na poziomie
-typu" albo "w wymiarze typów".
+2*. Widzimy więc konieczność zajścia w ramach aplikacji pewnego rodzaju obliczenia na poziomie typu
+albo "w wymiarze typów".
 
 W przypadku aplikacji funkcji `identycznosc` tego rodzaju obliczenie jest bardziej złożone, ale
 nadal (być może po pewnym czasie) zrozumiałe:
@@ -290,7 +290,7 @@ Do pewnego momentu będę mówił o funkcjach rozumianych tylko jako efektywne p
 albo po prostu programy, procedury, czy algorytmy. Potem zacznę też mówić o *implikacji*. Mam
 powody, żeby zacząć od funkcji, a potem mówić o implikacjach, ale trudno mi je dobrze wyjaśnić już
 teraz, bo nie mogę zakładać, że wiesz o pewnych sprawach, bez znajomości których moje wyjaśnienia
-byłyby pewnie niezrozumiałe, nieprzekonujące, a może nawet mogłyby budzić niepokój (cel jest dość
+byłyby pewnie niezrozumiałe, nieprzekonujące, a może nawet mogłyby budzić niepokój (cel jest
 ambitny, ale bez obaw - dotrzemy do niego bez pośpiechu i zarazem relatywnie szybko).
 
 Na razie powiem tylko tyle: Istnieje sposób, żeby jednocześnie uczyć się podstaw matematyki,
