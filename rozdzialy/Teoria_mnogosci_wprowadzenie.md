@@ -129,9 +129,9 @@ proszę tą funkcję.
 wiesz, żeby "coś" było funkcją, musi przyporządkowywać każdemu elementowi dziedziny dokładnie jeden
 element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`? Wydawałoby się, że
 nie, prawda? A jednak istnieje! To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery
-w słowie *pusty*), że *gdybyś* wybrała dowolny element zbioru `X`, to dostarczyła*by* dokładnie
+w słowie *pustka*), że *gdybyś* wybrała dowolny element zbioru `X`, to dostarczyła*by* dokładnie
 jeden element ze zbioru `Y`. Ponieważ jednak w zbiorze `X` nie ma żadnych elementów, ta funkcja *nie
-może* nic zwrócić. 
+może* nic zwrócić.
 
 A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
 teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
