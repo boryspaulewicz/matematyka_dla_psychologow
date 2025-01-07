@@ -1,4 +1,4 @@
-## Kilka uwag na temat jêzyków formalnych
+## Kilka naiwnych obserwacji na temat jêzyków formalnych
 
 Pozwolê sobie teraz na d³u¿sz± dygresjê, która mo¿e moim zdaniem pomóc. Niektórzy mówi±, ¿e jêzyk
 matematyki jest *precyzyjny*, jednak w matematyce mówimy czasami równie¿ *celowo nieprecyzyjnie*,
