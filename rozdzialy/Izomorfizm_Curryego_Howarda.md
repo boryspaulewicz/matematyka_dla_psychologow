@@ -94,7 +94,7 @@ najpierw rozważając jakieś problemy o charakterze liczbowym.
 
 W [artykule](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) na temat
 przyczynowości, który napisałem głównie z myślą o odbiorcach próbujących uprawiać psychologię
-naukową i o którym wspominałem już we wstępie, również korzystam z pewnego izomorfizmu, w dodatku
+naukową i o którym wspominałem już we wstępie, również skorzystałem z pewnego izomorfizmu, w dodatku
 takiego, którego jedną stroną są programy komputerowe. Dzięki temu mogłem ilustrować abstrakcyjne
 zagadnienia i pojęcia teorii wnioskowania przyczynowego za pomocą bardzo prostych symulacji, mając
 przy tym pewność, że da się w ten sposób *wiernie*, to jest bez zniekształceń, *zrealizować* modele
