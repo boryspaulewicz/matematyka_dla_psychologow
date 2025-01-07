@@ -461,7 +461,8 @@ stanie się jasne, że nazwy wejść nie mają znaczenia i istnieją tylko dla w
 naszej.
 
 Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście, a tak naprawdę również
-tylko jedno wejście) *mają* znaczenie. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
+tylko jedno wejście) *mają* znaczenie. Można sobie wyobrazić, że typy wejść i typ wyjścia to
+kształty otworów funkcji jako pudełka. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
 to muszą być wyrażenia typu liczba (tutaj akurat wymagamy liczb naturalnych) i tak też mówi nasza
 definicja. Można więc powiedzieć, że funkcje w teorii typów są zawsze tak lub inaczej
 *wyspecjalizowane*. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko
