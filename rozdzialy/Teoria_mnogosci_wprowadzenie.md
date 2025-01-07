@@ -306,9 +306,9 @@ nawet mają z nimi bardzo wiele wspólnego, bo pobierają tak naprawdę tylko je
 zwracają dokładnie jeden argument (też określonego *typu*, odpowiadającego teoriomnogościowej
 *przeciwdziedzinie*). Pisałem też, że funkcje teoriotypowe to takie funkcje matematyczne, tylko że
 obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zarazem w ten sposób
-*zrealizowane*). No więc typ par uporządkowanych to taki teoriotypowy odpowiednik, albo
+*zrealizowane*). No więc *typ par uporządkowanych* to taki teoriotypowy odpowiednik, albo
 "syntaktyczny cień", *iloczynu kartezjańskiego zbiorów*. Wydaje mi się teraz, że zaczynając w ten
-sposób mówić o iloczynie kartezjańskim niekoniecznie pomogłem ...
+sposób mówić o iloczynie kartezjańskim niekoniecznie pomagam ...
 
 To może tak: Iloczyn kartezjański pojawił się również w rozdziale 7-01, ponieważ mówiłem tam o
 *uporządkowanych parach liczb rzeczywistych*. Zbiór wszystkich takich par to dokładnie zbiór
