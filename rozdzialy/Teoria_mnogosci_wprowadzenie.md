@@ -214,16 +214,16 @@ przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `g(f(x))
 jednocześnie* `f(g(y)) = y`.
 
 Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
-[Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem mocno ograniczony. Jeżeli więc
+[Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem ograniczony. Jeżeli więc
 napiszę na przykład `h_1`, to będzie to tylko
 [namiastka](https://sjp.pwn.pl/slowniki/namiastka.html) `h₁` (akurat cyfry da się w ten sposób w
 Unikodzie zapisywać, ale już na przykład większości liter nie).
 
 Byłoby wspaniale, gdybyś jeszcze spróbowała zdefiniować za pomocą rysunków dwie funkcje, nazwijmy je
-znowu `f` i `g`, takie, że `f, g : X → Y` ma *tylko* lewą odwrotność, ale nie ma prawej, to znaczy,
+znowu `f` i `g`, takie, że `f : X → Y` ma tylko *lewą odwrotność*, ale *nie ma prawej*, to znaczy,
 istnieje funkcja `l_f` taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że
-`f(p_f(y)) = y` (tak, tu ma być `y`, a nie `x`), a `g : X → Y` ma *tylko* prawą odwrotność, ale nie
-ma lewej, to znaczy, istnieje funkcja `p_g` taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja
+`f(p_f(y)) = y` (tak, tu ma być `y`, a nie `x`), a `g : X → Y` ma tylko *prawą odwrotność*, ale *nie
+ma lewej*, to znaczy, istnieje funkcja `p_g` taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja
 `l_g` taka, że `l_g(g(x)) = x`. Podpowiem Ci, że w tym zadaniu ważną rolę odgrywają własności bycia
 injekcją, ale nie surjekcją i bycia surjekcją, ale nie injekcją.
 
@@ -234,12 +234,13 @@ cztery. Zdefiniuj rysując strzałki jakąś funkcję `f : X → Y`, czyli funkc
 `f` *i* `g` *to taka funkcja* `g ∘ f` *(zapisujemy to w ten sposób w tej kolejności), że* `(g ∘
 f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).* 
 
-Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem funkcji byłoby wykonanie
-najpierw jednej (wymienionej jako *druga*) operacji, a potem drugiej (wymienionej jako *pierwsza*).
-I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej czynności -
-najpierw należy narysować dwa nieco wygięte koła, a następnie narysować resztę
-[sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/), czyli narysować sowę p∘ tym, jak
-narysowało się najpierw dwa koła.
+Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem funkcji byłaby funkcja,
+która stosuje *najpierw* funkcję wymienioną jako *druga*, a *potem* funkcję wymienioną jako
+*pierwsza*.  I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej
+czynności - najpierw należy narysować dwa nieco wygięte koła, a następnie narysować resztę
+[sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/), czyli ...
+
+`narysować_sowę p∘ narysowaniu dwów kół`
 
 Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
 następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
