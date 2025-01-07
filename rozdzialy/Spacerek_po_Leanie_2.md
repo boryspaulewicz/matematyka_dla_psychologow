@@ -464,10 +464,10 @@ Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście
 tylko jedno wejście) *mają* znaczenie. Można sobie wyobrazić, że typy wejść i typ wyjścia to
 kształty otworów funkcji jako pudełka. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
 to muszą być wyrażenia typu liczba (tutaj akurat wymagamy liczb naturalnych) i tak też mówi nasza
-definicja. Można więc powiedzieć, że funkcje w teorii typów są zawsze tak lub inaczej
-*wyspecjalizowane*. Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko
-wymusimy ewaluację na wyjściu pojawi się liczba naturalna. To będzie wynik dodawania wejść, bo tak
-jest skonstruowana zawartość naszego pudełka o nazwie `suma`.
+definicja. Można więc powiedzieć, że funkcje w teorii typów są zawsze *wyspecjalizowane*. Jeżeli
+podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko wymusimy ewaluację, na wyjściu
+pojawi się liczba naturalna. To będzie wynik dodawania wejść, bo tak jest skonstruowana zawartość
+naszego pudełka o nazwie `suma`.
 
 Metafora funkcji jako mechanizmu w pudełku ma pewne ograniczenia. Jak już wiesz, wyliczenie
 rezultatu aplikacji funkcji polega tak naprawdę na ewaluacji argumentów, następnie na podstawieniu
@@ -510,11 +510,11 @@ zagnieżdżonych części argumentów: `(Nat.succ 3)` i `(2 + Nat.zero)`. Rezult
 stosując zapis cyfrowy - liczby `4` (`1 + 3`) i `2` (`2 + 0`). To jednak nie koniec ewaluacji
 argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami pewnych aplikacji (funkcji
 `Nat.succ` i funkcji `-`). Przypominam, że w tym kontekście `+` i `-` też oznaczają pewne
-(dwuarguentowe) funkcje, tylko zapisane w *notacji infiksowej*:
+(dwuarguentowe) funkcje, tylko zapisane w *notacji infiksowej* ...
 
 `argument1 funkcja argument2`, na przykład `1 + 2`
 
-zamiast w *notacji prefiksowej*:
+... zamiast w *notacji prefiksowej* ...
 
 `funkcja argument1 argument2`, na przykład `suma 1 2`
 
@@ -561,8 +561,8 @@ jednego termu, to jest do typu `Nat`.
 
 **Czytamy to**: Aplikacja funkcji `suma` do termu `10` ma typ `Nat → Nat`. Typ `Nat → Nat` mówi nam,
 że cała ta częściowa aplikacja (`suma 10`) jest pełnowartociową funkcją, przekształcającą liczby
-naturalne w liczby naturalne. Jaka to jest funkcja? Znamy definicję stałej `suma`, więc domyślamy
-się, że `suma 10` to wyrażenie, które jakby czeka na brakujący argument. Jest to zatem funkcja
+naturalne w liczby naturalne. Jaka to jest funkcja? Znamy definicję stałej `suma`, domyślamy się
+więc, że `suma 10` to wyrażenie, które jakby czeka na brakujący argument. Jest to zatem funkcja
 jednoargumentowa, która do dowolnej liczby naturalnej dodaje `10` (dodaje `10` "od przodu", bo
 "robi" `10 + m`).
 
