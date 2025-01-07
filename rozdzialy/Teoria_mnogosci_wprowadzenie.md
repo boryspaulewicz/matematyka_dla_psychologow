@@ -57,11 +57,12 @@ oznaczają zbiory, a małe litery oznaczają elementy. Czasami nie sposób trzym
 konsekwentnie, ponieważ elementami zbiorów mogą być również zbiory, ale tym razem takie komplikacje
 nie wystąpią.
 
-**Tożsamość zbiorów**: Te liczbowe indeksy dolne mogą być mylące. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są
-elementy zbioru *nie ma znaczenia*, tak samo jak nie ma znaczenia, czy ten sam element zapiszemy
-*więcej niż raz*. Na przykład, `{1, 2}` to *ten sam zbiór* co `{2, 1}` i *ten sam zbiór* co `{1, 1,
-2}`, bo do wszystkich tych zbiorów *należą dokładnie te same elementy*, to jest `1` i `2`, a to,
-które elementy do danego zbioru należą, a które nie, *decyduje o tożsamości zbioru*. 
+**Tożsamość zbiorów**: Te liczbowe indeksy dolne są trochę mylące, ponieważ sugerują, że kolejność
+elementów może mieć znaczenie. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są elementy
+zbioru *nie ma znaczenia*, tak samo jak nie ma znaczenia, czy ten sam element zapiszemy *więcej niż
+raz*. Na przykład, `{1, 2}` to *ten sam zbiór* co `{2, 1}` i *ten sam zbiór* co `{1, 1, 2}`, bo do
+wszystkich tych zbiorów *należą dokładnie te same elementy*, to jest `1` i `2`, a to, które elementy
+do danego zbioru należą, a które nie, *decyduje o tożsamości zbioru*.
 
 Celowo napisałem *ten sam zbiór*, a nie na przykład *ten sam obiekt*, bo takie *zapisy* jak `{1, 1,
 2}` można przecież *interpretować dowolnie* (interpretacja jest zawsze pewnym *wyborem*,
@@ -84,12 +85,8 @@ znaczenia, bo przecież *treść* zawarta w kolekcji zdań mówiących o relacji
 zbioru *nie ulegnie zmianie*, gdy te zdania zapiszemy w innej kolejności, albo gdy niektóre zdania
 zapiszemy więcej niż raz.
 
-1-1
-2/2
-3-3
-
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
-y₂⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` ["został na
+y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` ["został na
 lodzie"](https://sjp.pwn.pl/ciekawostki/haslo/zostawic-kogos-na-lodzie;5391760.html). Oznacz ten
 rysunek od góry literą `f`, jak *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X`
 przyporządkowałaś właśnie *dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład
