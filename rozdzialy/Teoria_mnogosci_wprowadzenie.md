@@ -120,7 +120,7 @@ funkcje między takimi zbiorami. Na początek omówimy kilka ważnych przykład�
 
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
-sjedną kropkę. Zbiory jednoelementowe nazywamy również *zbiorami jednostkowymi* albo
+jedną kropkę. Zbiory jednoelementowe nazywamy również *zbiorami jednostkowymi* albo
 [*singletonami*](https://pl.wikipedia.org/wiki/Zbi%C3%B3r_jednoelementowy). Czy widzisz, że istnieje
 tylko jedna funkcja ze zbioru lewego do prawego? Narysuj proszę tą funkcję.
 
