@@ -87,14 +87,13 @@ zapiszemy więcej niż raz.
 
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
 y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` ["został na
-lodzie"](https://sjp.pwn.pl/ciekawostki/haslo/zostawic-kogos-na-lodzie;5391760.html). Oznacz ten
-rysunek od góry literą `f`, jak *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X`
-przyporządkowałaś właśnie *dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład
-reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy
-element przeciwdziedziny i często zdarza się, że niektóre elementy "trafiają" w ten sam
-element. Zwróć też uwagę, że chociaż to "tylko" rysunek, to jest to również *pełnoprawna
-matematyczna definicja*, ponieważ nie ma tu żadnych wątpliwości ani na temat dziedziny, ani
-przeciwdziedziny, ani na temat struktury tej funkcji.
+lodzie"](https://www.youtube.com/watch?v=VxUCWLKVh3g). Oznacz ten rysunek od góry literą `f`, jak
+*funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X` przyporządkowałaś właśnie
+*dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład reprezentatywny* funkcji, bo
+prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy element przeciwdziedziny i
+często zdarza się, że niektóre elementy "trafiają" w ten sam element. Zwróć też uwagę, że chociaż to
+"tylko" rysunek, to jest to również *pełnoprawna matematyczna definicja*, ponieważ nie ma tu żadnych
+wątpliwości ani na temat dziedziny, ani przeciwdziedziny, ani na temat struktury tej funkcji.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
 przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* strzałek) jakiegoś zbioru `X`
