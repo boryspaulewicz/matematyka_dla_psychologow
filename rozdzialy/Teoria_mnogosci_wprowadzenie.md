@@ -271,8 +271,8 @@ przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy fu
 *mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny to byłyby automatycznie
 różnymi funkcjami). Ale czy są? 
 
-Niech `x` będzie dowolnym elementem zbioru `X`  
-(tak zaczynamy konstrukcję dowodu zdania prawdziwego dla każdego `x` należącego do `X`).  
+Niech `x` będzie dowolnym elementem zbioru `X`.  
+(tak zaczynamy konstrukcję dowodu zdania prawdziwego dla każdego `x` należącego do `X`)  
 
 Wtedy `(Id_Y ∘ f)(x) = Id_Y(f(x))`, ...  
 (rozwijamy definicję składania teoriomnogościowego)  
