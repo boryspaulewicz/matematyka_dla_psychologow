@@ -70,8 +70,8 @@ uzyskamy w ten sposób *układ współrzędnych kartezjańskich*. Wystarczy nam 
 jednostkę odległości punkt i od razu będziemy mieli jednoznacznie określoną "podziałkę" na obydwu
 osiach. Dzięki połączeniu tych wszystkich elementów, to jest dwóch przecinających się osi i
 podziałki na obu, nasz układ współrzędnych działa właśnie jak doskonały tłumacz. Ten tłumacz każdemu
-punktowi na każdej z tych dwóch osi przyporządkowuje unikalną liczbę rzeczywistą i odwrotnie, każdej
-liczbie rzeczywistej przyporządkowuje na każdej z osi unikalny punkt.
+punktowi na każdej z osi przyporządkowuje unikalną liczbę rzeczywistą i odwrotnie, każdej liczbie
+rzeczywistej przyporządkowuje na każdej z osi unikalny punkt.
 
 W ten sposób uzyskujemy metodę wiernego tłumaczenia w obie strony między pewnymi obiektami czysto
 geometrycznymi, to jest punktami na każdej z osi traktowanej z osobna, a liczbami rzeczywistymi, a
