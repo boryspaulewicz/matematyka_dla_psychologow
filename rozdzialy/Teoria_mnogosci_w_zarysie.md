@@ -236,7 +236,7 @@ f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).*
 Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem funkcji byłaby funkcja,
 która stosuje *najpierw* funkcję wymienioną jako *druga*, a *potem* funkcję wymienioną jako
 *pierwsza*.  I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej
-czynności - *najpierw* należy narysować w odpowiednich miejscach dwa nieco spłaszczone i przechylone
+czynności - *najpierw* należy narysować w odpowiednich miejscach dwa nieco spłaszczone i pochylone
 koła, a *następnie* narysować resztę [sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/),
 czyli[^1] ...
 
