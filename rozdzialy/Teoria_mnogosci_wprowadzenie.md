@@ -392,22 +392,22 @@ Jeżeli `X` i `Y` to zbiory, to *częścią wspólną*, albo *przekrojem*, albo 
 które należą *zarówno do* `X` *jak i do* `Y`. Tą operację zapisujemy za pomocą symbolu `∩`. Możemy
 to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
 
-`X ∩ Y := {z | z ∈ X ∧ z ∈ Y}`.
+`X ∩ Y := {z | (z ∈ X) ∧ (z ∈ Y)}`.
 
-**Czytamy to**: Jeżeli `X` i `Y` to zbiory, to zbiór, który oznaczamy jako `X ∩ Y` jest z definicji
+**Czytamy to**: Jeżeli `X` i `Y` to zbiory, to zbiór, który oznaczamy jako `X ∩ Y`, jest z definicji
 takim zbiorem, który zawiera dokładnie te elementy, które należą do `X` i do `Y`.
 
 Czy widzisz podobieństwo między symbolami `∩` i `∧` i czy widzisz, że jest nieprzypadkowe?
 
 ## Suma zbiorów
 
-Jeżeli `X` i `Y` to zbiory, to sumą, albo *unią* zbiorów `X` i `Y` nazywamy zbiór złożony dokładnie
-z takich elementów, które należą do `X` *lub* do `Y`. Tą operację zapisujemy za pomocą symbolu
-`∩`. Możemy to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
+Jeżeli `X` i `Y` to zbiory, to *sumą*, albo *unią* zbiorów `X` i `Y` nazywamy zbiór złożony
+dokładnie z takich elementów, które należą do `X` *lub* do `Y`. Tą operację zapisujemy za pomocą
+symbolu `∩`. Możemy to zapisać półformalnie tak: Jeżeli `X` i `Y` to zbiory, to ...
 
-`X ∪ Y := {z | z ∈ X ∨ z ∈ Y}`.
+`X ∪ Y := {z | (z ∈ X) ∨ (z ∈ Y)}`.
 
-**Czytamy to**: Jeżeli `X` i `Y` to zbiory, to zbiór, który oznaczamy jako `X ∪ Y` jest z definicji
+**Czytamy to**: Jeżeli `X` i `Y` to zbiory, to zbiór, który oznaczamy jako `X ∪ Y`, jest z definicji
 takim zbiorem, który zawiera dokładnie te elementy, które należą do `X` *lub* do `Y`. Spójnik
 logiczny `∨`, którego jeszcze nie omawiałem, nazywamy między innymi *alternatywą* i czytamy właśnie
 jako *lub*.
