@@ -242,15 +242,15 @@ czyli[^1] ...
 
 `narysować_resztę_sowy p∘ narysowaniu_dwóch_kół`
 
-Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
-następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
-można na Twoim rysunku dojść, idąc po (dwóch) strzałkach, do tych `y`-ów, idąc w ten sposób
+Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Z`, a
+następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Z`, że z tych `x`-ów
+można na Twoim rysunku dojść, idąc po (dwóch) strzałkach, do tych `z`-ów, idąc w ten sposób
 funkcjami `f` i `g`. Czy widzisz, że niezależnie od tego, jakimi funkcjami są takie składalne
 funkcje `f` i `g`, gdy zaczniesz od dowolnego `x`-a i będziesz podążać za `f` i za `g`, to nie
 będziesz mieć nigdy żadnego wyboru i jednocześnie zawsze dojdziesz do jakiegoś `y`-a?
 
 Oznacz tą funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy
-widzisz, że ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w
+widzisz, że ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `z`-a, to w
 ten sposób *zawsze* z dwóch składalnych funkcji uzyskamy dokładnie jedną funkcję?  Teoriomnogościowe
 składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które *zachowuje się tak samo
 jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem trochę więcej
