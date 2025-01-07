@@ -33,11 +33,9 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-**Aktualności**: 6 stycznia. Znalazłem sporo zaniedbanych wcześniej fragmentów w rozdziale 19-13, na
-przykład takie, w których mówiłem o (wymyślonej przeze mnie) kompatybilności tam, gdzie powinienem
-był mówić o składalności. Wszystkie wady, które udało mi się tam do tej pory znaleźć, dzisiaj
-poprawiłem.
-
+**Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem *Teoria
+mnogości w zarysie*. Zapraszam do testowania!.
+x
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
 czytelności, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii to
@@ -212,6 +210,8 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 [R18 = R12 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
 [R19 = R13 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
+
+[R20 = R14 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
 
 Notatki całkiem już robocze, do których jednak można zaglądać:
 
