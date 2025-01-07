@@ -33,8 +33,8 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-**Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem *Teoria
-mnogości w zarysie*. Zapraszam do testowania!.
+**Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem [Teoria
+mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md). Zapraszam do testowania!
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
