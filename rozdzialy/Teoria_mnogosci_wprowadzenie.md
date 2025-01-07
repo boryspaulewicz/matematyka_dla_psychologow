@@ -131,13 +131,15 @@ element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`?
 nie, prawda? A jednak istnieje! To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery
 w słowie *pusty*), że *gdybyś* wybrała dowolny element zbioru `X`, to dostarczyła*by* dokładnie
 jeden element ze zbioru `Y`. Ponieważ jednak w zbiorze `X` nie ma żadnych elementów, ta funkcja *nie
-może* nic zwrócić. A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już
-(teoriotypowa, nie teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest
-niemal tak abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd`. Tyle, że ta funkcja
-*istnieje* na mocy konwencji. Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie
-funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
+może* nic zwrócić. 
+
+A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
+teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
+abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd`. Tyle, że ta funkcja *istnieje*
+na mocy konwencji. Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie funkcje
+*zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
 przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna funkcja ze zbioru
-pustego do niego samego. 
+pustego do niego samego.
 
 Zbiory puste zapisujemy albo jako `{}` albo jako symbol `∅`. Na cześć tej funkcji narysuj proszę
 `Strzalka X Y` i oznacz ją literą `p`, a pod spodem zapisz komentarz: Dla każdego zbioru `Y`,
