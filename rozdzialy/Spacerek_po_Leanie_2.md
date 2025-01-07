@@ -24,10 +24,10 @@ predykatów będziesz mogła później stosować do głównego rozumowania zawar
 semestralnej, pracy magisterskiej, doktoracie albo artykule, lub do analizy - nierzadko
 "dziurawych" - uzasadnień głównych wniosków w artykułach naukowych.
 
-Często już sama tylko próba przeprowadzenia takiej formalizacji pozwoli Ci z nieosiągalną inaczej
-precyzją wskazać, gdzie *dokładnie* w tych rozumowaniach znajdują się ewentualne błędy. Celowo
-niedokończony i wydaje mi się, że interesujący przykład tego rodzaju zabawy znajdziesz [w jednym z
-następnych rozdziałów](./Duzy_predykaty_Bog.md).
+Często już sama tylko *próba* przeprowadzenia takiej formalizacji pozwoli Ci z nieosiągalną inaczej
+precyzją wykryć, gdzie *dokładnie* są ewentualne błędy. Celowo niedokończony i wydaje mi się, że
+interesujący przykład tego rodzaju zabawy znajdziesz [w jednym z następnych
+rozdziałów](./Duzy_predykaty_Bog.md).
 
 <hr>
 
@@ -434,7 +434,7 @@ a w niej nic świętego[^3]. Można powiedzieć, że tym właśnie jest *matemat
 więcej, gdy tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na dowolną inną,
 jeśli tylko ta alternatywna interpretacja będzie spójna. Te uwagi dotyczą jednak tylko *matematyki
 zastanej*, ponieważ, jak [wiemy](https://pl.wikipedia.org/wiki/Problem_nierozstrzygalny),
-*tworzenie* nowej matematyki i konstruowanie dowodów ma z konieczności charakter *niealgorytmiczny*.
+*tworzenie* nowej matematyki i poszukiwanie dowodów ma z konieczności charakter *niealgorytmiczny*.
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są
