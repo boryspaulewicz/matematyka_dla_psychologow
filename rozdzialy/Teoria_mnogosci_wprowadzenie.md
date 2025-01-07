@@ -109,14 +109,14 @@ Funkcja każdemu elementowi swojej dziedziny przyporządkowuje dokładnie jeden 
 przeciwdziedziny. Jakim "obiektem" jest więc każda funkcja? *Tego rodzaju przyporządkowaniem*.
 
 **Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
-tym samym na kilka różnych sposobów: O tak rozumianych funkcjach można myśleć jako o abstrakcyjnych
-*własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym rysunku każdy
-element zbioru `X` ma określoną `f-`*własność* `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię
-i dokładnie jedną datę urodzenia, a więc te własności to są takie *funkcje osób*. Albo można o
-funkcjach myśleć jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych* pewnych
-właściwości albo wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju
-*kompletnych oznaczeniach* albo *rozdaniach kart* w tym sensie, że *każdy* element dziedziny jest
-wykorzystany do *oznaczenia*, albo że jest *przydzielony* do jakiegoś elementu należącego do
+tym samym na kilka różnych sposobów. O tak rozumianych funkcjach można konsekwentnie myśleć jako o
+abstrakcyjnych *własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym
+rysunku każdy element zbioru `X` ma określoną `f-`*własność* `Y`. Podobnie, każdy ma dokładnie jedno
+pierwsze imię i dokładnie jedną datę urodzenia, a więc te własności to są takie *funkcje osób*. Albo
+można o funkcjach myśleć jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych*
+pewnych właściwości albo wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego
+rodzaju *kompletnych oznaczeniach* albo *rozdaniach kart* w tym sensie, że *każdy* element dziedziny
+jest wykorzystany do *oznaczenia*, albo że jest *przydzielony* do jakiegoś elementu należącego do
 przeciwdziedziny. Z tego punktu widzenia każdy `x` `f`-oznacza jakiś `y`. Dobrze jest czasem
 spróbować pomyśleć o takiej funkcji choć raz na każdy z tych sposobów, bo czasem trudno przewidzieć,
 który z tych punktów widzenia pozwoli zrozumieć jakiś problem w którym ważną rolę odgrywają funkcje
