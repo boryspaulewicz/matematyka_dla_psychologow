@@ -237,17 +237,18 @@ f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).*
 Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem funkcji byłaby funkcja,
 która stosuje *najpierw* funkcję wymienioną jako *druga*, a *potem* funkcję wymienioną jako
 *pierwsza*.  I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej
-czynności - najpierw należy narysować dwa nieco wygięte koła, a następnie narysować resztę
-[sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/), czyli[^1] ...
+czynności - *najpierw* należy narysować w odpowiednich miejscach dwa nieco spłaszczone i przechylone
+koła, a *następnie* narysować resztę [sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/),
+czyli[^1] ...
 
-`narysować_sowę p∘ narysowaniu_dwów_kół`
+`narysować_resztę_sowy p∘ narysowaniu_dwóch_kół`
 
 Pod komentarzem `Narysuj` funkcję `g ∘ f`, to znaczy, najpierw skopiuj *tylko* zbiory `X` i `Y`, a
 następnie narysuj strzałki od każdego elementu zbioru `X` do takich elementów `Y`, że z tych `x`-ów
-można na Twoim rysunku dojść, idąc po (dwóch) strzałkach, do tych `y`-ów, "idąc" w ten sposób
-"funkcjami" `f` i `g`. Czy widzisz, że niezależnie od tego, jakimi funkcjami są takie składalne
+można na Twoim rysunku dojść, idąc po (dwóch) strzałkach, do tych `y`-ów, idąc w ten sposób
+funkcjami `f` i `g`. Czy widzisz, że niezależnie od tego, jakimi funkcjami są takie składalne
 funkcje `f` i `g`, gdy zaczniesz od dowolnego `x`-a i będziesz podążać za `f` i za `g`, to nie
-będziesz mieć nigdy żadnego wyboru i jednocześnie zawsze dojdziesz do jakiegoś `y`-a? 
+będziesz mieć nigdy żadnego wyboru i jednocześnie zawsze dojdziesz do jakiegoś `y`-a?
 
 Oznacz tą funkcję literą `h` i podpisz proszę ten rysunek komentarzem: `h(x) = (g ∘ f)(x)`. Czy
 widzisz, że ponieważ z każdego `x`-a można w ten sposób dojść do jednego i tylko jednego `y`-a, to w
@@ -256,11 +257,12 @@ składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które
 jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem trochę więcej
 później.
 
-Czy rozumiesz, dlaczego jeżeli `f : X → Y`, to `Id_Y ∘ f = f = f ∘ Id_X`? Musiałem tutaj znowu
-inaczej oznaczyć identyczności, bo Unikod nie pozwala na zapisanie na przykład litery `Y` jako
-indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym skontruowaniu dowodu tych *dwóch* albo nawet
-*trzech zdań* (mamy tu dwie równości i jedną konsekwencję przechodniości relacji równości) i
-jednocześnie sprawdzeniu go w podobny sposób do tego, w jaki mógłby to zrobić Lean.
+Czy rozumiesz, dlaczego dla każdych zbiorów `X` i `Y` i każdej funkcji `f : X → Y` zachodzi `Id_Y ∘
+f = f = f ∘ Id_X`? Musiałem tutaj znowu inaczej oznaczyć identyczności, bo Unikod nie pozwala na
+zapisanie na przykład litery `Y` jako indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym
+skontruowaniu dowodu tych *dwóch* albo nawet *trzech zdań* (mamy tu dwie równości i niejawną
+konsekwencję przechodniości relacji równości) i jednocześnie sprawdzeniu go w podobny sposób do
+tego, w jaki mógłby to zrobić Lean.
 
 O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
