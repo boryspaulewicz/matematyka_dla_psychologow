@@ -319,6 +319,10 @@ niedługo po mojej wiadomości o tej książce, za bardzo miłe słowa zachęty,
 podzielenie się cennymi refleksjami i za ujawnienie, zresztą nie po raz pierwszy i pewnie nie
 ostatni, jak podobnie myślimy o metodologii i o tym, jak się jej (niestety) zwykle uczy psychologów.
 
+Iwonie Dudek, którą pamiętam jako zaangażowaną i otwartą uczestniczkę kursu z wnioskowania
+przyczynowego i bayesowskiego, za bardzo miłe słowa na temat kursu i entuzjastyczną reakcję na tą
+książkę.
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę
