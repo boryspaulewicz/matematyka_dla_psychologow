@@ -160,9 +160,9 @@ tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania* rozm
 również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją siłę zawdzięcza między innymi
 temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze *psychologicznym*. Dla nas, ludzi,
 to, czy dany problem będzie łatwy czy trudny do rozwiązania albo zrozumienia często w *ogromnym*
-stopniu zależy od przyjętego *punktu widzenia* na ten problem. Dlatego między innymi tak chętnie
-korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowujący strukturę izomorfizm to
-właśnie pewien rodzaj doskonałej analogii.
+stopniu zależy od przyjętego *punktu widzenia*. Dlatego między innymi tak chętnie korzystamy z
+analogii i metafor i tak bardzo je sobie cenimy. A zachowujący strukturę izomorfizm to właśnie
+pewien rodzaj doskonałej analogii.
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
 kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
