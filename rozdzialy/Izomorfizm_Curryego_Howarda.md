@@ -101,7 +101,7 @@ przy tym pewność, że da się w ten sposób *wiernie*, to jest bez zniekształ
 przyczynowe jako komputerowe programy. Mam wrażenie, że takie podejście pozwala lepiej poczuć
 realność modeli przyczynowych, a już na pewno pozwala uczyć się ich właściwości poprzez interakcję
 na przykład z językiem [R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu
-psychologów może być znacznie łatwiejsze niż rozwiązywanie problemów rachunkowych.
+psychologów może być znacznie łatwiejsze od rozwiązywania problemów rachunkowych.
 
 Zwróć proszę uwagę, że chociaż prawie na pewno na początku to było dla Ciebie dosyć trudne, bo to
 jest prawie dla wszystkich początkowo trudne, a już na pewno takie było początkowo dla mnie, to
