@@ -15,13 +15,14 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni cytat z
 Wolałbym chyba "w ten sposób" zamiast "tak" w tym ostatnim zdaniu, ale trudno, jest jak jest. Nie
 będziemy się teraz przyglądać aksjomatom tej teorii, ponieważ my sobie sami *zrobimy* - ze strzałek
 i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
-zacznę odtąd intensywnie *korzystać* z półformalnej teorii mnogości jako ze źródła ważnych
+zacznę odtąd intensywnie *korzystać* z półformalnej wersji teorii mnogości jako ze źródła ważnych
 przykładów.
 
 Pojęcie zbioru jako takiego jest interesujące przede wszystkim dla specjalistów zajmujących się
-... zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór to
-nic innego jak pewna *kolekcja* (jakiś) elementów czy obiektów. Zbiory *skończone* możemy zapisać
-*dosłownie*, na przykład tak:
+zbiorami, natomiast dla reszty świata, poza kilkoma powszhnie używanymi rodzajami konstrukcji
+opartych na zbiorach, to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic innego jak pewna
+*kolekcja* (jakiś) elementów czy obiektów. Zbiory *skończone* możemy zapisać *dosłownie*, na
+przykład tak:
 
 `{1, 20, *, X, -3.4}`
 
@@ -33,25 +34,28 @@ lub tak ...
 
 `{n ∈ ℕ | Dodatnie n}`
 
-... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. Wymyślając pierwszy przykład
-chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce zwyczajem - zbiory mogą
-zawierać dowolne elementy, na przykład takie, które nie należą do żadnego dającego się łatwo (albo
-nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory to takie dowolne kolekcje
+... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. *Ostatni* przykład możemy odczytać
+w ten sposób: Zbiór złożony z takich liczb naturalnych `n`, że `Dodatnie n`. Wymyślając *pierwszy*
+przykład chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce zwyczajem - zbiory
+mogą zawierać dowolne elementy, na przykład takie, które nie należą do żadnego dającego się łatwo
+(albo nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory to takie dowolne kolekcje
 potencjalnie różnorodnych elementów.
 
 **Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
 "obiekt", który przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
-przeciwdziedziny. Żeby mieć jasny obraz sytuacji, przygotuj proszę czystą kartkę i z pewej strony
-`Narysus okrag` o średnicy kroku. O krok w prawo od prawego brzegu tego okręgu również `Narysuj
-okrag`. W lewym okręgu `Narysuj Punkt x₁`, `Narysuj Punkt x₂` i `Narysuj Punkt x₃`, jeden nad
-drugim, oznaczając je z *lewej* strony indeksowanymi literami `x`, czyli oznaczając je jako `x₁`,
-`x₂` i `x₃`. W prawym okręgu tak samo `Narysuj` punkty `y₁`, `y₂` i `y₃`, ale te oznacz z *prawej*.
+przeciwdziedziny. Żeby mieć jasny obraz sytuacji, upewnij się, że masz nad sobą jakieś źródło
+światłą, przygotuj proszę czystą kartkę i z lewej strony `Narysus okrag` o średnicy kroku. O krok w
+prawo od prawego brzegu tego okręgu również `Narysuj okrag`. W lewym okręgu `Narysuj Punkt x₁`,
+`Narysuj Punkt x₂`, `Narysuj Punkt x₃` i `Narysuj Punkt x₄`, jeden nad drugim, oznaczając je z
+*lewej* strony indeksowanymi literami `x`, czyli oznaczając je jako `x₁`, `x₂`, `x₃` i `x₄`, tak,
+żeby indeksy rosły w dół (jak [korzenie](https://pl.wikipedia.org/wiki/Korze%C5%84)). W prawym
+okręgu tak samo `Narysuj` punkty `y₁`, `y₂`, `y₃` i `y₄`, ale te oznacz z *prawej*.
 
-Mamy już (kandydata na) dziedzinę `X` i (kandydata na) przeciwdziedzinę `Y`, a więc możemy (za
-pomocą rysunku) *zdefiniować* jakąś *funkcję*. Stosujemy tutaj dosyć powszechną konwencję, zgodnie z
-którą duże litery oznaczają zbiory, a małe litery oznaczają elementy. Czasami nie sposób trzymać się
-tej konwencji konsekwentnie, ponieważ elementami niektórych zbiorów są również zbiory, ale tym razem
-takie komplikacje nie wystąpią.
+Mamy już kandydata na dziedzinę `X` i kandydata na przeciwdziedzinę `Y`. Teraz możemy *rysując coś
+zdefiniować funkcję*. Stosujemy tutaj dosyć powszechną konwencję, zgodnie z którą duże litery
+oznaczają zbiory, a małe litery oznaczają elementy. Czasami nie sposób trzymać się tej konwencji
+konsekwentnie, ponieważ elementami zbiorów mogą być również zbiory, ale tym razem takie komplikacje
+nie wystąpią.
 
 **Tożsamość zbiorów**: Te liczbowe indeksy dolne mogą być mylące. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są
 elementy zbioru *nie ma znaczenia*, tak samo jak nie ma znaczenia, czy ten sam element zapiszemy
@@ -62,13 +66,16 @@ które elementy do danego zbioru należą, a które nie, *decyduje o tożsamośc
 Celowo napisałem *ten sam zbiór*, a nie na przykład *ten sam obiekt*, bo takie *zapisy* jak `{1, 1,
 2}` można przecież *interpretować dowolnie* (interpretacja jest zawsze pewnym *wyborem*,
 pamiętasz?), a z pewnych punktów widzenia te trzy wyrażenia na pewno mogłyby oznaczać różne
-"rzeczy". A mówiąc to samo, ale inaczej: To, które elementy należą, a które nie należą do danego
-zbioru decyduje o tym, które zbiory są *równe*, czyli *nierozróżnialne jako zbiory* (relacja
-równości jest zawsze typowana), czyli *wzajemnie zastępowalne jako zbiory*. Zastąpienie w dowolnym
-miejsu, *w którym ma być jakiś zbiór* na przykład zbioru `{1, 2}` przez zbiór `{2, 1, 1}` *nic nie
-zmieni*, to jest zdanie pozostanie prawdziwe albo fałszywe, jeżeli to było miejsce w jakimś zdaniu,
-i dany obiekt pozostanie tym samym obiektem, jeżeli to była część wyrażenia charakteryzującego jakiś
-obiekt.
+"rzeczy". Gdy mówimy o czymś, że to jakiś "obiekt", nie wiadomo przecież co mamy na myśli, to znaczy
+nie wiadomo, jakiego rodzaju obiekt dane coś ma reprezentować. 
+
+A mówiąc to samo, ale inaczej: To, które elementy należą, a które nie należą do danego zbioru
+decyduje o tym, które zbiory są *równe*, czyli *nierozróżnialne jako zbiory* (relacja równości jest
+zawsze typowana, dlatego dodałem *jako zbiory*), czyli *wzajemnie zastępowalne jako
+zbiory*. Zastąpienie w dowolnym miejsu, *w którym ma być jakiś zbiór* (znowu podkreślam typowanie),
+na przykład zbioru `{1, 2}` przez zbiór `{2, 1, 1}`, *nic nie zmieni*, to jest zdanie pozostanie
+prawdziwe albo fałszywe, jeżeli to jest miejsce w jakimś zdaniu, i dany obiekt pozostanie tym samym
+obiektem, jeżeli to jest część wyrażenia charakteryzującego za pomocą zbiorów jakiś obiekt.
 
 Można więc powiedzieć, że *każdy* zbiór jest *tym samym*, co pewna *kolekcja zdań* mówiących o tym,
 że *taki a taki element należy do danego zbioru*. Być może wyjaśnienie tego w ten właśnie sposób
@@ -77,13 +84,20 @@ znaczenia, bo przecież *treść* zawarta w kolekcji zdań mówiących o relacji
 zbioru *nie ulegnie zmianie*, gdy te zdania zapiszemy w innej kolejności, albo gdy niektóre zdania
 zapiszemy więcej niż raz.
 
+1-1
+2/2
+3-3
+
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
-y₂⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₃` ["został na
+y₂⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` ["został na
 lodzie"](https://sjp.pwn.pl/ciekawostki/haslo/zostawic-kogos-na-lodzie;5391760.html). Oznacz ten
 rysunek od góry literą `f`, jak *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X`
 przyporządkowałaś właśnie *dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład
 reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy
-element przeciwdziedziny i często zdarza się, że niektóre elementy "trafiają" w ten sam element.
+element przeciwdziedziny i często zdarza się, że niektóre elementy "trafiają" w ten sam
+element. Zwróć też uwagę, że chociaż to "tylko" rysunek, to jest to również *pełnoprawna
+matematyczna definicja*, ponieważ nie ma tu żadnych wątpliwości ani na temat dziedziny, ani
+przeciwdziedziny, ani na temat tej funkcji.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
 przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* strzałek) jakiegoś zbioru `X`
