@@ -432,7 +432,9 @@ To, że *nic* pod spodem nie ma, to dobra wiadomość, bo oznacza, że *nie ma t
 tylko rozmaite *ciągi symboli i dopuszczalne sposoby ich przekształcania*. To taka rozległa pustka,
 a w niej nic świętego[^3]. Można powiedzieć, że tym właśnie jest *matematyka formalna*, niczym
 więcej, gdy tylko pominiemy jej *interpretację*, którą zresztą możemy zmieniać na dowolną inną,
-jeśli tylko ta alternatywna interpretacja będzie spójna.
+jeśli tylko ta alternatywna interpretacja będzie spójna. Te uwagi dotyczą jednak tylko *matematyki
+zastanej*, ponieważ, jak [wiemy](https://pl.wikipedia.org/wiki/Problem_nierozstrzygalny),
+*tworzenie* nowej matematyki ma z konieczności charakter *niealgorytmiczny*.
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linijce wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, które są
