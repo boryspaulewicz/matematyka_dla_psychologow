@@ -77,11 +77,11 @@ W ten sposób uzyskujemy metodę wiernego tłumaczenia w obie strony między pew
 geometrycznymi, to jest punktami na każdej z osi traktowanej z osobna, a liczbami rzeczywistymi, a
 każda taka metoda to pewien izomorfizm. Uzyskujemy od razu też coś więcej - każdemu punktowi *na
 płaszczyźnie*, a więc niekoniecznie na którejś z dwóch osi, który sam z siebie nie ma jeszcze
-charakteru liczbowego, odpowiada odtąd unikalna *para liczb* i to są właśnie współrzędne
-kartezjańskie tego punktu. Ta odpowiedniość działa w obie strony, a więc również każdej parze liczb
-rzeczywistych odpowiada unikalny punkt. A ponieważ każdy obiekt geometryczny na płaszczyźnie możemy
-rozumieć jako pewien zbiór punktów, to każdy taki obiekt odpowiada odtąd pewnemu unikalnemu zbiorowi
-uporządkowanych par liczb.
+charakteru liczbowego, odpowiada odtąd unikalna *uporządkowana para liczb* i to są właśnie
+współrzędne kartezjańskie tego punktu. Ta odpowiedniość działa w obie strony, a więc również każdej
+parze liczb rzeczywistych odpowiada unikalny punkt. A ponieważ każdy obiekt geometryczny na
+płaszczyźnie możemy rozumieć jako pewien zbiór punktów, to każdy taki obiekt odpowiada odtąd pewnemu
+unikalnemu zbiorowi uporządkowanych par liczb.
 
 Dzięki temu problemy o charakterze *czysto geometrycznym* (na płaszczyźnie) możemy wiernie
 przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć nie zawsze) łatwiej jest
