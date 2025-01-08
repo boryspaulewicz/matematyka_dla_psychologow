@@ -127,8 +127,8 @@ założeń dotyczących danych i własności planu badawczego i być może jaki�
 charakterze teoretycznym, a także listy dedukcyjnych wniosków. Już teraz możemy to zrobić z
 wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania (z instrukcją)
 będziemy mogli zrobić to samo z wnioskami swoiście psychologicznymi. Z perspektywy użytkownika to
-będzie po prostu informacja, że określone *warunki badania* i *źródła pochodzenia danych* - które z
-powodów praktycznych taki użytkownik musi traktować jako coś w rodzaju aksjomatów - mają, *ponad
+będzie po prostu informacja, że określone *warunki badania* i *źródła danych* - które z powodów
+praktycznych taki użytkownik będzie musiał traktować jako coś w rodzaju aksjomatów - mają, *ponad
 wszelką wątpliwość* (zakładając *tylko* wiarygodność źródła danych), takie a nie inne właściwości
 *psychologiczne* czy *zachowaniowe*. W dodatku ta formalizacja będzie wręcz *zawstydzająco prosta*,
 podobnie jak zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa, wpływu i własności
