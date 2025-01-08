@@ -309,7 +309,7 @@ Czyli *dla każdego* `x ∈ X` *jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, alb
 `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)` [q.e.d](https://pl.wikipedia.org/wiki/Q.e.d.).
 
 A ponieważ to ostatnie zdanie oznacza, że kryterium równości funkcji jest dla tych dwóch funkcji
-spełnione, to `Id_Y ∘ f` to ta sama funkcja, co `f`, czyli:
+spełnione, to `Id_Y ∘ f` jest tą samą funkcją, co `f`, czyli:
 
 `Id_Y ∘ f = f`
 
