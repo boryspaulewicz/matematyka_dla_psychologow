@@ -18,7 +18,7 @@ sobie sprawę z tego, co odbiorczyni lub odbiorca wie i co dzięki temu może na
 łatwością zrozumieć. Dlatego mam nadzieję, że widząc w historii zmian wszystkie moje błędy i
 niezgrabne sformułowania i widząc też, że staram się tego rodzaju wady usuwać, sprowokuję Cię do
 tego, żebyśmy tą konkretną książkę napisali *razem*. Bo to nie jest "moja" książka - zresztą żadna
-książka nie jest tak naprawdę "czyjaś" - ani ona nie jest dla mnie, a w każdym razie nie jest przede
+książka nie jest tak naprawdę "czyjaś" - ani ona nie jest dla mnie, a w każdym razie nie przede
 wszystkim dla mnie. Zwłaszcza taka książka, która ma *służyć nauce*, nie powinna moim zdaniem,
 choćby tylko pozornie, "należeć" do żadnej konkretnej osoby, ani nawet do kilku wybitnych autorów,
 bo wtedy *nie może* dobrze spełniać swojej roli. Żaden autor nie ma przecież uprzywilejowanego
