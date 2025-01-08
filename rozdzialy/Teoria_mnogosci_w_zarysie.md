@@ -418,16 +418,16 @@ można przyjąć, że pisząc `X ⨿ Y` zdecydowaliśmy automatycznie, że `X` j
 *drugim* członem tej sumy rozłącznej.
 
 *Spełniającą dokładnie tą samą rolę* sumę rozłączną `X ⨿ Y` możemy zatem skonstruować tak: `X ⨿ Y :=
-{(1, 1), (2, 1), (3, 1), (a, 2), (b, 2)}`. Możemy więc w ten sposób *skorzystać z par
-uporządkowanych* i liczb naturalnych `1` i `2`, żeby *zaimplemntować* operację tworzenia sum
-rozłącznych z *dowolnych* par zbiorów. Ponieważ ten sposób jest *uniwersalny*, można zapomnieć o
-poprzednim i stosować tylko ten. Myślę, że wiesz, jak należy przedstawić tą konstrukcję za pomocą
-rysunku i jak, za pomocą strzałek od elementów zbioru `X` i od elementów zbioru `Y` do odpowiednich
-kopii w zbiorze `X ⨿ Y`, należy oznaczyć obydwie funkcje-inkluzje (albo injekcje-inkluzje), czyli po
-prostu obydwie inkluzje. Na koniec oznacz proszę te inkluzje jako `i_X` i `i_Y`, tylko może zamiast
-symbolu `_` zapisz wtedy litery `X` i `Y` jako indeksy dolne. Otocz kopie przerywanymi liniami i
-podpisz ten rysunek (ewentualnie wspomagając się tym tekstem) komentarzem sprawdzającym Twoją wiedzę
-na temat tej konstrukcji.
+{(1, 1), (2, 1), (3, 1), (a, 2), (b, 2)}`. W ten sposób możemy skorzystać z par uporządkowanych i
+liczb naturalnych `1` i `2`, żeby *zaimplementować* operację tworzenia sum rozłącznych z *dowolnych*
+par zbiorów. Ponieważ ten sposób jest *uniwersalny*, można zapomnieć o poprzednim i stosować tylko
+ten. Myślę, że wiesz, jak należy przedstawić tą konstrukcję za pomocą rysunku i jak, za pomocą
+strzałek od elementów zbioru `X` i od elementów zbioru `Y` do odpowiednich kopii w zbiorze `X ⨿ Y`,
+należy oznaczyć obydwie funkcje-inkluzje (albo injekcje-inkluzje), czyli po prostu obydwie
+inkluzje. Na koniec oznacz proszę te inkluzje jako `i_X` i `i_Y`, tylko może zamiast symbolu `_`
+zapisz wtedy litery `X` i `Y` jako indeksy dolne. Otocz kopie przerywanymi liniami i podpisz rysunek
+(ewentualnie wspomagając się tym tekstem) komentarzem sprawdzającym Twoją wiedzę na temat tej
+konstrukcji.
 
 Jeżeli masz już za sobą poprzedni dostępny poprzez link fragment "obowiązkowy", to zastanów się
 proszę, jak ta operacja na zbiorach, zakładając, że wszystkie zbiory są *skończone*, musi "działać"
