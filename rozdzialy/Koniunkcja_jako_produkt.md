@@ -13,7 +13,7 @@ ma swobody wyboru - każda identyczność musi dla każdego elementu zwrócić t
 różne zbiory mają różne identyczności, bo tożsamość funkcji zależy od jej dziedziny i
 przeciwdziedziny. Dlatego, dla każdego zbioru `X` możemy napisać `Id_X` i dlatego, gdy piszemy
 skrótowo `Id`, wiemy, że istnieje dokładnie jeden zbiór, który jest zarówno dziedziną jak i
-przeciwdziedziną tej funkcji.
+przeciwdziedziną tej zapisanej za pomocą skrótu myślowego funkcji.
 
 Wiesz, kiedy dwie funkcje są składalne i wiesz, że dla każdej pary funkcji `f : X -> Y`, `g : Y ->
 Z` istnieje dokładnie jedna funkcja `h : X -> Z`, która jest ich złożeniem, czyli jest funkcją `(g o
