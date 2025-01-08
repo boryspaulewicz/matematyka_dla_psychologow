@@ -20,11 +20,15 @@ strzałek*. Strzałki w tej teorii nazywamy często *morfizmami* albo *odwzorowa
 te nazwy, podobnie jak słowo *obiekt*, oddają dobrze *genezę* teorii kategorii, za to *nie* oddają
 moim zdaniem dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*. Wiedząc
 już o mylącym charakterze tych słów, pod rysunkiem napisz komentarz: *W teorii kategorii każdy
-obiekt jest wyposażony w endomorfizm identycznościowy*.
+obiekt jest wyposażony w endomorfizm identycznościowy*. *Można też powiedzieć tak: Każdy punkt
+kategoryjny ma identycznościową endostrzałkę, a właściwie każdy punkt można utożsamić z tego rodzaju
+strzałką, bo każdemu punktowi odpowiada dokładnie jedna, "przyczepiona" do niego identycznościowa
+endostrzałka, a każdej takiej strzałce odpowiada dokładnie jeden punkt, do którego ta strzałka jest
+przyczepiona*.
 
-Skoro już to zapisałaś i już wiesz, że używamy słowa *punkt* w sposób *niestandardowy*, będę tak
-nadal mówił, bo mam wrażenie, że tak Ci będzie łatwiej o tym konsekwentnie *myśleć*; sam zresztą
-całkiem niedawno odkryłem, że mi to pomaga.
+Skoro już to zapisałaś (być może po swojemu, to była przecież tylko sugestia) i już wiesz, że
+używamy słowa *punkt* w sposób *niestandardowy*, będę tak nadal mówił, bo mam wrażenie, że tak Ci
+będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero niedawno, że mi to pomaga.
 
 Morfizmy w teorii kategorii (czyli kategoryjne strzałki) nazywamy *endomorfizmami* (od
 starogreckiego [ἔνδον](https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CE%B4%CE%BF%CE%BD)
