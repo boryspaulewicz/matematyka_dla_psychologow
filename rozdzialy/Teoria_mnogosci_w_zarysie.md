@@ -118,12 +118,13 @@ własnościach pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim p
 element zbioru `X` ma określoną `f`-własność `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię i
 dokładnie jedną datę urodzenia, a więc te własności to *funkcje osób*. Albo można o funkcjach myśleć
 jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych* pewnych właściwości albo
-wymiarów. I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju *kompletnych
-oznaczeniach* albo *rozdaniach kart* w tym sensie, że każdy element dziedziny jest wykorzystany do
-oznaczenia, albo że jest przydzielony do jakiegoś elementu należącego do przeciwdziedziny. Z tego
-punktu widzenia każdy `x` `f`-oznacza jakiś `y`. Dobrze jest spróbować pomyśleć o takiej funkcji
-choć raz na każdy z tych sposobów, bo czasem trudno przewidzieć, który z tych punktów widzenia
-pozwoli zrozumieć jakiś problem lepiej.
+wymiarów. 
+
+I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju *kompletnych oznaczeniach* albo
+*rozdaniach kart* w tym sensie, że każdy element dziedziny jest wykorzystany do oznaczenia, albo że
+jest przydzielony do jakiegoś elementu należącego do przeciwdziedziny. Z tego punktu widzenia każdy
+`x` `f`-oznacza jakiś `y`. Dobrze jest spróbować pomyśleć o takiej funkcji choć raz na każdy z tych
+sposobów, bo zwykle trudno przewidzieć, który punkt widzenia pozwoli zrozumieć jakiś problem lepiej.
 
 Odtąd ograniczymy nasze rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
 skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (a lepiej:
