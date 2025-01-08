@@ -160,7 +160,7 @@ się kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać 
 zawartości" (bo przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą
 `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie jedna funkcja ze
 zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja (dotycząca
-funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*
+funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*[^5]
 
 **Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id` spełniającą warunek `Id(x) =
@@ -492,3 +492,8 @@ wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
 
 [^4]: Jest jeszcze kwestia paradoksu albo antynomii Russella, ale moim zdaniem nie trzeba sobie tym
     zaprzątać głowy.
+
+[^5]: Jeżeli zastanawiasz się, co znaczy to "sprawdza się w praktyce", to wyjaśniam, że chodzi o
+    związki między pojęciem funkcji i innymi pojęciami. Gdy patrzymy na funkcje z ogólniejszej
+    perspektywy i z różnych punktów widzenia, staje się szybko jasne, że "trzeba" przyjąć, że
+    funkcje ze zbioru pustego istnieją.
