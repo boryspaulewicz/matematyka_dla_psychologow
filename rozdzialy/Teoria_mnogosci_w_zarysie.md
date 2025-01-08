@@ -429,7 +429,7 @@ zapisz wtedy litery `X` i `Y` jako indeksy dolne. Otocz kopie przerywanymi linia
 (ewentualnie wspomagając się tym tekstem) komentarzem sprawdzającym Twoją wiedzę na temat tej
 konstrukcji.
 
-Jeżeli masz już za sobą poprzedni dostępny poprzez link fragment "obowiązkowy", to zastanów się
+Jeżeli masz już za sobą poprzedni, dostępny poprzez link fragment "obowiązkowy", to zastanów się
 proszę, jak ta operacja na zbiorach, zakładając, że wszystkie zbiory są *skończone*, musi "działać"
 na parach zbiorów takich, że co najmniej jeden z nich jest zbiorem pustym, a jak na parach takich,
 że co najmniej jeden zbiór jest singletonem. Następnie zastanów się proszę, jak ta operacja na
