@@ -326,6 +326,11 @@ przyczynowego i bayesowskiego, za to, że powiedziała mi szczerze coś, dzięki
 zakończenie rozdziału czwartego na takie, które moim zdaniem pomoże innym czytelniczkom i
 czytelnikom.
 
+I jeszcze raz czternastoletniemu Szymonowi Stryplingowi, pierwszemu testerowi rozdziału
+dwudziestego, będącego krótkim wprowadzeniem do teorii mnogości, który jako pierwszy podzielił się
+swoimi doświadczeniami. Najwyraźniej bez większych trudności wykonał wszystkie zadania w tym
+rozdziale, a końcówkę określił nawet jako "banalną".
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
