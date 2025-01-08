@@ -149,10 +149,10 @@ nie ma żadnych elementów, ta funkcja *nie może* nic zwrócić.
 A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
 teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
 abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd`. Tyle, że ta funkcja *istnieje*
-na mocy konwencji. Co więcej, istnieje tylko jedna taka funkcja, bo wszystkie takie funkcje
-*zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
-przeciwdziedziną, decyduje o tożsamości funkcji. Tak samo istnieje dokładnie jedna, w pewnym sensie
-"wirtualna" funkcja ze zbioru pustego do niego samego.
+na mocy konwencji. Co więcej, dla każdego `Y`, istnieje *dokładnie jedna* taka funkcja, bo wszystkie
+takie funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
+przeciwdziedziną, decyduje o tożsamości funkcji. W szczególności, istnieje dokładnie jedna funkcja
+ze zbioru pustego do niego samego.
 
 Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [*wazon
 Rubina*](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z kolei może
