@@ -151,5 +151,5 @@ stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a c
 *sensie* dowiedzionego zdania. Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim
 *używać*, dowodząc *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
 *konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
-dać; *rolą dowodów nie jest ujawnianie sensu zdań których są dowodami, tylko rozstrzyganie o ich
-prawdziwości*.
+dać; rolą dowodu danego zdania *nie* jest ujawnianie znaczenia tego zdania, tylko rozstrzyganie o
+jego prawdziwości i (częściowe) ujawnianie znaczenia *założeń dowodu*.
