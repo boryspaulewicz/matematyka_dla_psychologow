@@ -34,7 +34,7 @@ większego znaczenia.)
 
 **Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem [Teoria
 mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md). Zapraszam do testowania, zgłaszania
-trudności i nadsyłania jakichkolwiek spostrzeżeń lub uwag , *zwłaszcza* zaś tych *krytycznych*.
+trudności i nadsyłania jakichkolwiek spostrzeżeń lub uwag , *zwłaszcza* tych *krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
