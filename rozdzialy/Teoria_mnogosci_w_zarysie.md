@@ -40,7 +40,7 @@ w ten sposób: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`n ∈ ℕ
 Dodatnie n}`). Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z
 dominującym w matematyce zwyczajem - zbiory mogą zawierać dowolne elementy, na przykład takie, które
 nie należą do żadnego dającego się łatwo (albo nawet w ogóle) zidentyfikować rodzaju albo typu. A
-więc zbiory to takie dowolne kolekcje potencjalnie różnorodnych elementów.
+więc zbiory to takie (niemal[^4]) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
 **Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
 "obiekt", który przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
@@ -484,3 +484,6 @@ wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
     tak, z pierwszym z wymienionych [kosiarzy
     umysłów](https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)) też kiedyś przez chwilę
     korespondowałem.
+
+[^4]: Jest jeszcze kwestia paradoksu albo antynomii Russella, ale moim zdaniem nie trzeba sobie tym
+    zaprzątać głowy.
