@@ -1,5 +1,5 @@
 Jeżeli `X : FinSet` i `Y : FinSet`, to możemy zastąpić dodawanie liczb naturalnych sumą rozłączną
-...
+zbiorów ...
 
 `|X ⨿ Y| = |X| + |Y| = |Y| + |X| = |Y ⨿ X|`
 
