@@ -413,9 +413,9 @@ nich elementów po prostu "włożyć" do sumy rozłącznej bez żadnej modyfikac
 uzyskamy dwóch rozłącznych kopii zbiorów wyjściowych. W takich sytuacjach musimy jakoś *oznaczyć*
 wszystkie kopie tak, żeby *elementy wspólne dla obydwu zbiorów* były reprezentowane przez *różne*
 kopie. Ponieważ suma rozłączna zbiorów jest działaniem binarnym w zasadzie jak każde inne, a dla
-takich działań ważna jest kolejność obiektów czy argumentów, na których wykonujemy działanie, to
-można przyjąć, że pisząc `X ⨿ Y` zdecydowaliśmy automatycznie, że `X` jest tutaj *pierwszym*, a `Y`
-*drugim* członem tej sumy rozłącznej. 
+takich działań ważna jest kolejność obiektów czy argumentów na których wykonujemy działanie, to
+można przyjąć, że pisząc `X ⨿ Y` zdecydowaliśmy automatycznie, że `X` jest *pierwszym*, a `Y`
+*drugim* członem tej sumy rozłącznej.
 
 *Spełniającą dokładnie tą samą rolę* sumę rozłączną `X ⨿ Y` możemy zatem skonstruować tak: `X ⨿ Y :=
 {(1, 1), (2, 1), (3, 1), (a, 2), (b, 2)}`. Możemy więc w ten sposób *skorzystać z par
