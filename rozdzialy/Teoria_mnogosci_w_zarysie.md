@@ -90,10 +90,13 @@ zapiszemy więcej niż raz.
 y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` "został na
 [lodzie](https://www.youtube.com/watch?v=rog8ou-ZepE)". Oznacz ten rysunek od góry literą `f`, jak
 *funkcja*, bo to jest pewna funkcja: *Każdemu* elementowi zbioru `X` przyporządkowałaś właśnie
-*dokładnie jeden* element zbioru `Y`. To jest też użyteczny *przykład reprezentatywny* funkcji, bo
-prawie wszystkie zbiory są niepuste, wiele funkcji nie "trafia" w każdy element przeciwdziedziny i
-często zdarza się, że niektóre elementy "trafiają" w ten sam element. Zwróć też uwagę, że chociaż to
-"tylko" rysunek, to jest to również *pełnoprawna matematyczna definicja*, ponieważ nie ma tu żadnych
+*dokładnie jeden* element zbioru `Y`. 
+
+To jest użyteczny *przykład reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele
+funkcji nie "trafia" w każdy element przeciwdziedziny i często zdarza się, że niektóre elementy
+"trafiają" w ten sam element. *Lubimy* takie reprezentatywne przykłady, ponieważ ułatwiają
+zrozumienie i zapamiętanie, a więc również używanie definicji. Zwróć też proszę uwagę, że chociaż to
+"tylko" rysunek, to jest to również *pełnoprawna matematyczna definicja*, nie ma tu przecież żadnych
 wątpliwości ani na temat dziedziny, ani przeciwdziedziny, ani na temat struktury tej funkcji.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
