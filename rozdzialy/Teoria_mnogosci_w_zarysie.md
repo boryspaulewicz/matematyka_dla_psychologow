@@ -21,8 +21,9 @@ przykładów.
 Pojęcie zbioru jako takiego jest interesujące przede wszystkim dla specjalistów zajmujących się
 zbiorami, natomiast dla reszty świata, poza kilkoma powszechnie używanymi rodzajami konstrukcji
 opartych na zbiorach, to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic innego jak pewna
-*kolekcja* (jakiś) elementów czy obiektów. Zbiory *skończone* możemy zapisać *dosłownie*, na
-przykład tak:
+*kolekcja* (jakiś) elementów czy obiektów. 
+
+Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
 `{1, 20, *, X, -3.4}`
 
