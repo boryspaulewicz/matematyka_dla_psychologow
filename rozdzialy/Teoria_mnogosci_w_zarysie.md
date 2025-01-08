@@ -289,6 +289,9 @@ przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy fu
 *mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny byłyby automatycznie
 różnymi funkcjami). Ale czy są?
 
+Skonstruujemy teraz w języku naturalnym dowód zdania `Id_Y ∘ f = f`, które z definicji (tego czym
+jest funkcja) znaczy to samo, co `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`:
+
 1. Niech `x` będzie dowolnym elementem zbioru `X`.  
    (tak zaczynamy konstrukcję dowodu zdania, które ma być prawdziwe dla każdego `x` należącego do `X`)  
 
