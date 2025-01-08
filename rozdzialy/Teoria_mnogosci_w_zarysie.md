@@ -217,8 +217,10 @@ jakiejś bijekcji, to "nie ma żadnego wyboru", bo każdemu elementowi swojej dz
 przyporządkować dokładnie ten element, który w niego "`f`-trafia" z jej przeciwdziedziny.  Właśnie
 dlatego, że taka funkcja, jeżeli istnieje (a istnieje dokładnie wtedy, gdy `f` jest bijekcją), jest
 *unikalna*, oznaczamy ją jako `f⁻¹`, to jest `f` z `-1` jako indeksem górnym, czyli jako *unikalne
-coś, co powstaje w pewien sposób z funkcji* `f`. Byłoby dobrze, gdybyś pod tym rysunkiem również
-zapisała jakiś zrozumiały dla Ciebie komentarz.
+coś, co powstaje w pewien sposób z funkcji* `f`. Odwrotność jest więc tutaj pewną *wybredną
+jednoargumentową operacją na funkcjach*, bo dla każdej odwracalnej funkcji `f` istnieje unikalna
+odwrotność `f`, będąca *funkcją funkcji* `f` ([sic!](https://pl.wikipedia.org/wiki/Sic!)). Byłoby
+dobrze, gdybyś pod tym rysunkiem również zapisała jakiś zrozumiały dla Ciebie komentarz.
 
 Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
 odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
