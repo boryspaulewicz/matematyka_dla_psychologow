@@ -7,7 +7,7 @@ zbiorów ...
 
 `|{∅} ⨿ X| = 1 + |X| = |X| + 1 = |X ⨿ {∅}|`
 
-... a mnożenie licz naturalnych iloczynem kartezjańskim:
+... a mnożenie licz naturalnych iloczynem kartezjańskim zbiorów:
 
 `|X × Y| = |X| * |Y| = |Y| * |X| = |Y × X|`
 
