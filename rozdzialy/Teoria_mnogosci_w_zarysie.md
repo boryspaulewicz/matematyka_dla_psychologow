@@ -257,7 +257,7 @@ która stosuje *najpierw* funkcję wymienioną jako *druga*, a *potem* funkcję 
 *pierwsza*.  I tak na przykład, narysowanie sowy jest złożeniem dwóch operacji, czy może raczej
 czynności - *najpierw* należy narysować w odpowiednich miejscach dwa nieco spłaszczone i pochylone
 koła, a *następnie* narysować resztę [sowy](https://glebbahmutov.com/blog/how-to-draw-an-owl/),
-czyli[^1] ...
+czyli wystarczy[^1] ...
 
 `narysować_resztę_sowy p∘ narysowaniu_dwóch_kół`
 
