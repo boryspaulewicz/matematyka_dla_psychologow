@@ -1,34 +1,61 @@
-# ←×→ ~ ←∧→
+# ∘←×→∘ ~ ∘←∧→∘
 
 Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś czytając ten rozdział czuła się
 bezpiecznie. Będziemy niebawem [mówić niemal jednocześnie w kilku
-językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych,
-częściowo rysunkowym języku teorii kategorii, w (pseudo-)języku teorii typów, języku logiki,
-niekategoryjnym języku rysunkowym i w języku naturalnym.
+językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych, teorii
+typów, logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w
+języku naturalnym.
 
-**Rysunek 1**: 
+A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi chaotycznie w środku
+tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a funkcje to
+rozmaite strumienie ze strzałek płynące z jednych zbiorów do drugich. I wyobraź sobie, że te zbiory
+i funkcje są narysowane na nieskończenie dużej kartce papieru, a Ty oddalasz się coraz szybciej w
+górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza ... punktami zbiorów i
+strzałkami strumieni. 
 
-`∀ X : Zbior`, istnieje endofunkcja identycznościowa `Id_X : X → X`, to jest taka, że `Id_X(x) =
-x`. Poniżej najniższego rysunku `Narysuj Punkt X` i strzałkę o nazwie `Idₓ`, która zawija się w taki
-sposób, że `Zrodlo Idₓ` i `Cel Idₓ` to `Punkt X`. Zwróć uwagę, że ten rysunek to *wyrażenie w języku
-teorii kategorii*, a *nie* w języku teorii zbiorów. To znaczy, że właśnie *zmieniłaś język*, a więc
-również *punkt widzenia*.
+Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele ważnych regularności, ale nie
+wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się właściwie narysować. Tym czymś, czego
+nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów skończonych
+*żyje*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Jeśli się nie ma takich oczu, w ostateczności
+można spróbować nabyć ich protezę.
 
-Na to, co wcześniej nazywałem kategoryjnymi punktami, zwykle używa się nazwy *obiekt* , jednak
+## Tak się składa
+
+**Rysunek 1**: `Narysuj` proszę trzy, tworzące poziomy szereg punkty i oznacz je od dołu literami
+`X`, `Y` i `Z`. Dodaj `Strzalka X Y` i oznacz ją literą `f` i `Strzalka Y Z` i oznacz ją literą
+`g`. Jak wiesz, te strzałki są `Skladalne`, a więc, jeśli to ma być kategoria, musi istnieć ich
+unikalne `Zlozenie`. Dorysuj więc od dołu `Strzalka X Z` ale wygiętą w łuk i oznacz ją literą `h`, a
+nastęnie nanieś w środku uzyskanego w ten sposób diagramu ptaszka. 
+
+Skoro jest tam ptaszek, to znaczy, że (mocą naszej decyzji) ten diagram jest przemienny, a więc
+`Zlozenie f g = h`. Ten ptaszek i odpowiadające mu równanie to właśnie przykład czegoś, czego nie da
+się zobaczyć na samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezntującym
+zbiory i funkcje między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami,
+są jednak strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym
+(wybrednym) *działaniem*.
+
+przyczepioną do każdego z nich
+[*pętlę*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)).
+
+Na to, co wcześniej nazywałem kategoryjnymi punktami, zwykle używa się nazwy *obiekt*, jednak
 zależało mi, żebyś pamiętała, że *w teorii kategorii* obiekty to *tylko punkty zaczepienia
 strzałek*. Strzałki w tej teorii nazywamy często *morfizmami* albo *odwzorowaniami*, ale również i
 te nazwy, podobnie jak słowo *obiekt*, oddają dobrze *genezę* teorii kategorii, za to *nie* oddają
-moim zdaniem dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*. Wiedząc
-już o mylącym charakterze tych słów, pod rysunkiem napisz komentarz: *W teorii kategorii każdy
-obiekt jest wyposażony w endomorfizm identycznościowy*. *Można też powiedzieć tak: Każdy punkt
+moim zdaniem dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*. 
+
+Wiedząc już o mylącym charakterze tych słów, pod rysunkiem napisz komentarz: *W teorii kategorii
+każdy obiekt jest wyposażony w endomorfizm identycznościowy*. *Można też powiedzieć tak: Każdy punkt
 kategoryjny ma identycznościową endostrzałkę, a właściwie każdy punkt można utożsamić z tego rodzaju
 strzałką, bo każdemu punktowi odpowiada dokładnie jedna, "przyczepiona" do niego identycznościowa
 endostrzałka, a każdej takiej strzałce odpowiada dokładnie jeden punkt, do którego ta strzałka jest
 przyczepiona*.
 
-Skoro już to zapisałaś (być może po swojemu, to była przecież tylko sugestia) i już wiesz, że
-używamy słowa *punkt* w sposób *niestandardowy*, będę tak nadal mówił, bo mam wrażenie, że tak Ci
-będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero niedawno, że mi to pomaga.
+Można więc powiedzieć, że kategorie to takie struktury, w których może występować *wiele różnych
+zer* (albo *jedynek*, jeśli popatrzymy na składanie strzałek jako na operację analogiczną do
+mnożenia). Skoro już to zapisałaś (być może po swojemu, to była przecież tylko sugestia) i już
+wiesz, że używamy słowa *punkt* w sposób *niestandardowy*, będę tak nadal mówił, bo mam wrażenie, że
+tak Ci będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero niedawno, że mi to
+pomaga.
 
 Morfizmy w teorii kategorii (czyli kategoryjne strzałki) nazywamy *endomorfizmami* (od
 starogreckiego [ἔνδον](https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CE%B4%CE%BF%CE%BD)
