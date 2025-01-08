@@ -134,4 +134,21 @@ ograniczenia, ta wersja jest moim zdaniem znacznie lepsza, niż nic. Wystarcza n
 zilustrowania wielu ciekawych zastosowań tego twierdzenia w psychologii, albo do snucia ogólnych
 rozważań na temat oceny hipotez empirycznych.
 
-Będziemy robić podobne rzeczy, ale do pewnego momentu nie będziemy ich robić na kartce.
+Mam nadzieję, że skonstruowanie tego dowodu pozwoliło Ci też doświadczyć czegoś, co sam niby
+wiedziałem od dawna, ale dopiero ostatnio zaczęło do mnie trochę lepiej docierać, co z tego
+wynika. Gdy poprosiłem doktorantów uczestniczących w moim kursie dotyczącym wnioskowania
+przyczynowego i bayesowskiego o skonstruowanie według wskazówek zapisanych w skrypcie w języku Lean
+dowodów kilku prostych tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez większego
+problemu. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się
+Sofia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała zadanie, "nie
+wiedziała, co się stało".
+
+Ta odpowiedź niedawno mi się przypomniała i od tej pory nie dawała mi spokoju. Dlatego poprosiłem
+Sofię, żeby spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim
+zdaniem mówiąc to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu
+*według wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A
+stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a często może nawet *nic*, o
+*sensie* dowiedzionego zdania. Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim
+*używać*, dowodząc innych zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
+*konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
+dać; *rolą dowodów nie jest ujawnianie sensu zdań, tylko rozstrzyganie o ich prawdziwości*.

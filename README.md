@@ -321,6 +321,11 @@ Iwonie Dudek, którą pamiętam jako zaangażowaną i otwartą uczestniczkę kur
 przyczynowego i bayesowskiego, za bardzo miłe słowa na temat tego kursu i entuzjastyczną reakcję na
 tą książkę.
 
+Sofii Honcharovej, uzdolnionej i obiecującej uczestniczce mojego kursu dotyczącego wnioskowania
+przyczynowego i bayesowskiego, za to, że powiedziała mi szczerze coś, dzięki czemu zmieniłem
+zakończenie rozdziału czwartego na takie, które moim zdaniem pomoże innym czytelniczkom i
+czytelnikom.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
