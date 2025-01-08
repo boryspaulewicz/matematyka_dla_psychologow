@@ -356,10 +356,10 @@ Dla dowolnych zbiorów `X` i `Y`, iloczyn kartezjański tych zbiorów, czyli `X 
 jako przestrzeń wszystkich *niezależnych wyborów* elementów należących do zbioru `X` i do zbioru
 `Y`, w tej kolejności. A niezależne wybory elementów należących do pewnych zbiorów, typów, albo
 kategorii (w potocznym znaczeniu słowa kategoria) pojawiają się niezwykle często. Na przykład,
-typowy obiad zamówiony w restauracji to czasem *logicznie* (ale nie *przyczynowo* albo
-*statystycznie*) *niezależny potrójny wybór* zupy, dania głównego i deseru, gdzie każda z tych
-kategorii dopuszcza dodatkowo wybór "pusty". A więc zgodnie z tym punktem widzenia albo definicją
-można zamówić stosunkowo niedrogi obiad składający się z *niczego*[^3].
+typowy obiad zamówiony w restauracji to *logicznie* (ale nie *przyczynowo* albo *statystycznie*)
+*niezależny potrójny wybór* zupy, dania głównego i deseru, gdzie każda z tych kategorii dopuszcza
+dodatkowo wybór "pusty". A więc zgodnie z tym punktem widzenia albo definicją można zamówić
+stosunkowo niedrogi obiad składający się z *niczego*[^3].
 
 **Rysunek 8**: Żeby utrwalić sobie to pojęcie i zacząć się przyzwyczajać do bardziej elastycznego
 myślenia o *wymiarach*, `Narysuj` proszę dwie prostopadłe osie, poziomą oznacz literą `X` a pionową
