@@ -213,6 +213,10 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R20 = R14 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
 
+Plac budowy
+
+R21 = R15 <- × -> ~ <- ∧ ->
+
 Notatki całkiem już robocze, do których jednak można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
