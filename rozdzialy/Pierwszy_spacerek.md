@@ -149,7 +149,7 @@ zdaniem mówiąc to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale s
 *według wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A
 stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a często może nawet *nic*, o
 *sensie* dowiedzionego zdania. Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim
-*używać*, dowodząc innych zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
+*używać*, dowodząc *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
 *konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
 dać; *rolą dowodów nie jest ujawnianie sensu zdań których są dowodami, tylko rozstrzyganie o ich
 prawdziwości*.
