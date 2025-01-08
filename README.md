@@ -285,9 +285,9 @@ funkcyjny* znaczy dokładnie to samo, co *typ funkcji* (chyba, że mówimy na pr
 to...*), a także za zainspirowanie mnie do mam nadzieję lepszego wytłumaczenia szczególnego
 charakteru typu `Absurd` w rozdziale o negacji.
 
-Marynie Kołeczek, mojej byłej, niezwykle przenikliwej i rozsądnej studentce, za wspaniałą,
-zachęcającą do dalszej pracy reakcję i - przynajmniej chwilowe - rozwianie wątpliwości dotyczących
-formy żeńskiej.
+Marynie Kołeczek, mojej byłej, niezwykle przenikliwej i samodzielnie myślącej studentce, za
+wspaniałą, zachęcającą do dalszej pracy reakcję i - przynajmniej chwilowe - rozwianie wątpliwości
+dotyczących formy żeńskiej.
 
 Tomkowi Smoleniowi, Emilowi Chammasowi i Szymonowi Stryplingowi, za pomoc w napisaniu rozdziału
 dziewiętnastego-trzynastego. Tomek wykrył niespójności i wskazał mi niejasne fragmenty w jednej z
