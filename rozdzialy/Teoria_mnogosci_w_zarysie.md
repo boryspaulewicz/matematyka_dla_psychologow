@@ -226,8 +226,8 @@ gdybyś pod tym rysunkiem również zapisała jakiś zrozumiały dla Ciebie kome
 Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
 odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
 trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *funkcja* `g` z
-przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `g(f(x)) = x` *i
-jednocześnie* `f(g(y)) = y`.
+przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `∀ x ∈ X, g(f(x)) = x` *i
+jednocześnie* `∀ y ∈ Y, f(g(y)) = y`.
 
 Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
 [Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem ograniczony. Jeżeli więc
