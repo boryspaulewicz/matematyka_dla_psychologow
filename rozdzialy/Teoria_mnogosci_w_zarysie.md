@@ -107,7 +107,7 @@ jakiegoś zbioru `Y`, tak, żeby to *nie* były funkcje. A "zepsuć funkcyjnoś�
 *dwa* sposoby - albo jakiś element z lewej będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś
 element z lewej *nie będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi definicjami
 *relacji*, ale nie funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już
-wyjaśniłem. Jeszcze raz? 
+wyjaśniłem. Może jednak jeszcze raz, tak na wszelki wypadek?
 
 Funkcja każdemu elementowi swojej dziedziny przyporządkowuje dokładnie jeden element swojej
 przeciwdziedziny. Jakim "obiektem" jest więc każda funkcja? *Tego rodzaju przyporządkowaniem*.
