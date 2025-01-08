@@ -220,8 +220,8 @@ dlatego, że taka funkcja, jeżeli istnieje (a istnieje dokładnie wtedy, gdy `f
 coś, co powstaje w pewien sposób z funkcji* `f`. Odwrotność jest więc tutaj pewną *wybredną
 jednoargumentową operacją na funkcjach*, bo dla każdej *odwracalnej* (to jest wybredność ...)
 funkcji `f` istnieje unikalna (... a to jest funkcyjność tej operacji) odwrotność `f`, będąca
-*funkcją funkcji* `f` ([sic!](https://pl.wikipedia.org/wiki/Sic!)). Byłoby dobrze, gdybyś pod tym
-rysunkiem również zapisała jakiś zrozumiały dla Ciebie komentarz.
+*funkcją funkcji* `f` ([sic!](https://pl.wikipedia.org/wiki/Sic!)). Byłoby moim zdaniem dobrze,
+gdybyś pod tym rysunkiem również zapisała jakiś zrozumiały dla Ciebie komentarz.
 
 Może jeszcze `Narysuj` dowolną funkcję *nie*bijektywną i przekonaj się, że taka funkcja nie może być
 odwracalna, to znaczy, gdyby `f` nie było bijekcją, bo albo sklejałoby jakieś elementy, albo nie
