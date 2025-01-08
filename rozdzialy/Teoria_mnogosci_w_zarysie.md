@@ -156,11 +156,11 @@ ze zbioru pustego do niego samego.
 
 Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [*wazon
 Rubina*](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z kolei może
-się kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać "obszarem" (bo okrąg) "bez
-zawartości" (bo przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i oznacz ją literą
-`p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie jedna funkcja ze
-zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja (dotycząca
-funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*[^5]
+się kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać *Obszarem* (bo to jest
+okrąg) *bez zawartości* (bo jest przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i
+oznacz ją literą `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie
+jedna funkcja ze zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja
+(dotycząca funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*[^5]
 
 **Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id` spełniającą warunek `Id(x) =
@@ -434,9 +434,9 @@ proszę, jak ta operacja na zbiorach, zakładając, że wszystkie zbiory są *sk
 na parach zbiorów takich, że co najmniej jeden z nich jest zbiorem pustym, a jak na parach takich,
 że co najmniej jeden zbiór jest singletonem. Następnie zastanów się proszę, jak ta operacja na
 zbiorach skończonych ma się do (funkcji) mocy zbiorów i operacji *dodawania* liczb naturalnych. Gdy
-już uznasz, że wystarczy tych samodzielnych rozmyślań (i może też rysunków i notatek), zapoznaj się
-proszę z [drugim](Operacje_na_zbiorach_i_na_liczbach.md) i ostatnim w tym rozdziale fragmentem
-"obowiązkowym".
+już uznasz, że wystarczy tych samodzielnych rozmyślań (być może wspomaganych rysunkami i notatkami),
+zapoznaj się proszę z [drugim](Operacje_na_zbiorach_i_na_liczbach.md) i ostatnim w tym rozdziale
+fragmentem "obowiązkowym".
 
 Na koniec poznasz jeszcze dwie operacje na zbiorach, które są bardzo blisko związane z *koniunkcją*
 i *alternatywą zdań*.
