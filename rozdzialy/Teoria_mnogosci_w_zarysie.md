@@ -304,9 +304,9 @@ jest funkcja) znaczy to samo, co `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`:
 4. ... to `(Id_Y ∘ f)(x) = f(x)`.  
    (stosujemy przechodniość relacji równości do już udowodnionych zdań 2 i 3)
 
-Czyli *dla każdego `x ∈ X` jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, albo krócej:
+Czyli *dla każdego* `x ∈ X` *jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, albo krócej:
 
-`∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`
+`∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)` [q.e.d](https://pl.wikipedia.org/wiki/Q.e.d.).
 
 A ponieważ to ostatnie zdanie oznacza, że kryterium równości funkcji jest dla tych dwóch funkcji
 spełnione, to `Id_Y ∘ f` to ta sama funkcja, co `f`, czyli:
