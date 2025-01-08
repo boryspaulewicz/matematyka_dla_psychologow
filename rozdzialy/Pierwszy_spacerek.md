@@ -140,11 +140,11 @@ wynika. Gdy poprosiłem doktorantów uczestniczących w moim kursie dotyczącym 
 przyczynowego i bayesowskiego o skonstruowanie według wskazówek zapisanych w skrypcie w języku Lean
 dowodów kilku prostych tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez większego
 problemu. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się
-Sofia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała zadanie, "nie
+Sofiia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała zadanie, "nie
 wiedziała, co się stało".
 
 Ta odpowiedź niedawno mi się przypomniała i od tej pory nie dawała mi spokoju. Dlatego poprosiłem
-Sofię, żeby spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim
+Sofiię, żeby spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim
 zdaniem mówiąc to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu
 *według wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A
 stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a często może nawet *nic*, o
