@@ -240,7 +240,9 @@ znowu `f` i `g`, takie, że `f : X → Y` ma tylko *lewą odwrotność*, ale *ni
 istnieje funkcja `l_f` taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że
 `f(p_f(y)) = y` (tak, tu ma być `y`, a nie `x`), a `g : X → Y` ma tylko *prawą odwrotność*, ale *nie
 ma lewej*, to znaczy, istnieje funkcja `p_g` taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja
-`l_g` taka, że `l_g(g(x)) = x`. Podpowiem Ci, że w tym zadaniu ważną rolę odgrywają własności bycia
+`l_g` taka, że `l_g(g(x)) = x`. Te warunki mają oczywiście obowiązywać dla każdego `x` i dla każdego
+`y` odpowiednio, ale tym razem nie chciałem dodawać dużych kwantyfiktorów z obawy, że ten akapit
+może być już i tak zbyt gęsty. Podpowiem Ci, że w tym zadaniu ważną rolę odgrywają własności bycia
 injekcją, ale nie surjekcją i bycia surjekcją, ale nie injekcją.
 
 **Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
