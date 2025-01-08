@@ -30,7 +30,7 @@ tłumaczenia w obie strony* nazywamy w matematyce właśnie (zachowującymi stru
 *izomorfizmami*. To słowo jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki sam i *μορφή*
 czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny alfabet, kilka
 różnych rodzajów akcentów i liczbę podwójną. Na właną rękę uczyłem się go kiedyś przez rok w liceum,
-to wiem (tak tak, byłem wtedy nieznośnym snobem \{ach, wspomnienia ...\}).
+to wiem (tak tak, byłem wtedy nieznośnym snobem).
 
 Układu współrzędnych kartezjańskich *używamy* w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" od razu automatycznie
