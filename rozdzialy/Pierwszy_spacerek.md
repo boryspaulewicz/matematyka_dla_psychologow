@@ -153,3 +153,5 @@ stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a c
 *konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
 dać; rolą dowodu danego zdania *nie* jest ujawnianie znaczenia tego zdania, tylko rozstrzyganie o
 jego prawdziwości i (częściowe) ujawnienie znaczenia *założeń dowodu*.
+
+Będziemy odtąd robić podobne rzeczy, ale nie na kartce.
