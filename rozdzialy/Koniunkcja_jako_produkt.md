@@ -32,58 +32,61 @@ będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero ni
 
 Morfizmy w teorii kategorii (czyli kategoryjne strzałki) nazywamy *endomorfizmami* (od
 starogreckiego [ἔνδον](https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CE%B4%CE%BF%CE%BD)
-oznaczającego *w* albo *wewnątrz* \{i wtedy raczej nie nazywamy ich "endostrzałkami", bo to nie
-brzmi dobrze\}) *wtedy i tylko wtedy*, gdy są właśnie takimi "zawijasami" jak identyczności (ale
-istnieją też inne endomorfizmy, które nie są identycznościami), to znaczy, gdy mają *to samo źródło
-i cel*.
+oznaczającego *w* albo *wewnątrz* \{i wtedy raczej nie nazywamy ich "endostrzałkami", bo to chyba
+nie brzmi dobrze, ale ja to nawet lubię\}) *wtedy i tylko wtedy*, gdy są właśnie takimi "zawijasami"
+jak identyczności (ale istnieją też inne endomorfizmy, które nie są identycznościami), to znaczy,
+gdy mają *to samo źródło i cel*.
 
 Żeby coś, co nie jest opisane czy scharakteryzowane jawnie jako kategoria zasługiwało (z pewnego
-punktu widzenia!) na nazwę kategoria, musi istnieć *poprawny opis struktury tego czegoś w języku
-punktów i strzałek*, gdzie poprawny oznacza spełniający następujące wymagania (nie trzeba panikować,
-znowu będę się powtarzał i omówię szczegółowo kilka prostych przykładów):
+punktu widzenia!) na nazwę kategoria, musi istnieć *opis struktury tego czegoś w języku punktów i
+składalnych w pewien określony sposób strzałek*. Podkreślam, że nie trzeba panikować, bo znowu będę
+się powtarzał i omówię później szczegółowo kilka prostych przykładów. Żeby rozpoznać w jakiejś
+strukturze pewną kategorię, nasz opis musi spełniać następujące wymagania:
 
 1. Wszystkie części określonego rodzaju traktujemy jako punkty ...
 
-2. i wszystkie części określonego rodzaju traktujemy jako strzałki ...
-
-... w ten sposób, że ...
+2. ... i wszystkie części określonego rodzaju traktujemy jako strzałki, w ten sposób, że ...
 
 3. ... każdy punkt `X` ma swoją endostrzałkę identycznościową `Id_X` i ...
 
 4. .. istnieje operacja na obiektach źrodłowych (to jest będących częściami struktury tego czegoś,
    co opisujemy jako kategorię), która odpowiada *składaniu strzałek* i którą oznaczamy czasem
-   (również *w języku kategorii*) za pomocą symbolu `∘`, taka, że dla dowolnych (a więc też
-   potencjalnie równych, to jest zastępowalnych parami) strzałek `f`, `g` i `h` (uwaga, będą "skróty
-   myślowe"):
+   (podobnie jak w języku teorii mnogości) za pomocą symbolu `∘`, taka, że dla dowolnych (a więc też
+   potencjalnie równych, to jest zastępowalnych parami) strzałek `f`, `g` i `h` (uwaga, będą skróty
+   myślowe):
 
     4-1. `Id ∘ f = f = f ∘ Id`
     
     4-2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
-Zacząłem tutaj stosować "skróty myślowe" polegające na tym, że nie zaznaczyłem, że strzałki, o
-złożeniach któryś coś mówimy, muszą być składalne. A mówiąc dokładaniej, (celowo) pominąłem
+Zacząłem tutaj stosować skróty myślowe polegające na tym, że nie zaznaczyłem, że strzałki, o
+złożeniach których coś mówimy, muszą być składalne. A mówiąc dokładaniej, (celowo) pominąłem
 *konieczny* warunek *Jeżeli `f`, `g` i `h` to takie strzałki, że* `Skladalne f g` *i* `Skladalne g
-h`, *to ...*. Nie oznaczyłem też nazw punktów, do których są "przymocowane" strzałki
-identycznościowe, a więc symbol `Id` oznacza tutaj strzałkę "zaczepioną" o *dwa, potencjalnie różne
-obiekty źródłowe* i jednocześnie *dwa, potencjalnie różne punkty*. Dlaczego potencjalnie różne
-punkty? Jeżeli źródło strzałki `f` wymienionej w punkcie 4-1 jest różne od jej celu, to pierwsza z
-lewej identyczność musi być "zaczepiona" o inny punkt niż pierwsza z prawej. A zastosowałem te
-skróty myślowe, bo już wiesz, że w teorii kategorii operacja składania jest wybredna i często będzie
-nam obojgu wygodniej o tylko tym *pamiętać* zamiast uwzględniać to jawnie w zapisie. Tak jak Lean,
-tego rodzaju informacje możesz przecież zawsze wywnioskować z kontekstu.
+h`, *to ...*. Nie oznaczyłem też nazw punktów, do których muszą być "przymocowane" wszystkie
+strzałki identycznościowe, a więc symbol `Id` oznacza tutaj strzałkę "zaczepioną" o *dwa,
+potencjalnie różne obiekty źródłowe* i jednocześnie *dwa, potencjalnie różne punkty*.
 
-Ponieważ składanie jest w teorii kategorii operacją podstawową, wygodnie jest jeszcze bardziej
-skrócić zapis i zamiast `f ∘ g` pisać `f g` albo nawet - gdy nie powinno być wątpliwości, o co
-chodzi - `fg`.
+Dlaczego potencjalnie różne punkty? Jeżeli źródło strzałki `f` wymienionej w punkcie 4-1 jest różne
+od jej celu (co nie znaczy, że obiekty, które te punkty w danej sytuacji oznaczają, są na pewno
+różne), to pierwsza z lewej identyczność musi być "zaczepiona" o inny punkt niż pierwsza z prawej. A
+zastosowałem te skróty myślowe, bo już wiesz, że w teorii kategorii, tak samo jak w teorii mnogości,
+operacja składania jest wybredna i często będzie nam obojgu wygodniej tylko o tym *pamiętać*,
+zamiast uwzględniać to jawnie w zapisie. Tak jak Lean, tego rodzaju informacje będziesz przecież
+mogła wywnioskować z kontekstu.
 
-TODO Objaśnić powoli i po kolei jak "działa" każda kategoria.
+Ponieważ składanie jest w teorii kategorii nie tylko operacją podstawową, ale również pojęciem
+centralnym, wygodnie jest jeszcze bardziej skrócić zapis i zamiast `f ∘ g` pisać `f g` albo nawet -
+gdy to nie powinno być wątpliwości, o co chodzi - `fg`.
 
-Jeżeli teraz ...
+Mamy teraz wszystkie narzędzia, żeby dopiero co omawianej przestrzeni zbiorów skończonych i funkcji
+między zbiorami skończonymi rozpoznać kategorię.
+
+Jeżeli:
 
 1. Każdy zbiór oznaczymy jako kategoryjny punkt.
 
 2. Każdą funkcję oznaczymy jako kategoryjną strzałkę, w taki sposób, że źródło tej strzałki to
-dziedzina tej funkcji, a cel tej strzałki to przeciwdzidzina tej funkcji.
+   dziedzina tej funkcji, a cel tej strzałki to przeciwdzidzina tej funkcji.
 
 3. Różne zbiory odpowiadają różnym punktom.
 
@@ -94,9 +97,11 @@ tego samego zbioru i $i(x) = x$, odpowiadają strzałkom identycznościowym.
 
 6. Składanie *funkcji* odpowiada składaniu *strzałek*
 
-... to uzyskamy w ten sposób kategorię, a dokładnie *kategorię zbiorów skończonych*.
+... to uzyskamy w ten sposób kategorię, a dokładnie *kategorię zbiorów skończonych* o nazwie
+[`FinSet`](https://en.wikipedia.org/wiki/FinSet).
 
-
+GDZIE INDZIEJ Na przykład, Jeżeli zbiór jednoelementowy `{∅}` oznaczyliśmy jako `X`, a zbiór `{1, 2}` jako `Y`,
+   
 Zwróć uwagę, że to jest *izomorfizm*, ponieważ każdemu zbiorowi odpowiada pewien punkt, różnym
 zbiorom odpowiadają różne punkty, każdej funkcji odpowiada pewna strzałka, różnym funkcjom
 odpowiadają różne strzałki, i te nasze punkty i strzałki to *tylko* takie punkty i strzałki, których
