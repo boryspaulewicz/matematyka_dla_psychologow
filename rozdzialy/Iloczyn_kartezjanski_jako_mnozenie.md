@@ -14,7 +14,7 @@ obiektem matematycznym oznaczającym pogodę), `|{x}| = 1`. Zbiór `{x}` jest pr
 
 W szczególności, `|{∅}| = 1`. Ten ostatni przykład jest trochę podchwytliwy, bo zbiór `{∅}` może się
 *kojarzyć* ze zbiorem pustym, ale ten zbiór *nie* jest pusty - zawiera przecież co najmniej jeden
-element, a dokładnie zawiera dokładnie jeden element i tym elementem jest ... zbiór pusty.
+element, a dokładniej zawiera dokładnie jeden element i tym elementem jest zbiór pusty.
 
 Wobec tego, jeżeli tylko `X : FinSet` i `Y : FinSet`, to `|X × Y| = |X| × |Y|`, a ponadto, dla
 każdej `n ∈ ℕ` (liczby naturalnej `n`), istnieje (co najmniej jeden) `Z : FinSet` taki, że `|Z| =
