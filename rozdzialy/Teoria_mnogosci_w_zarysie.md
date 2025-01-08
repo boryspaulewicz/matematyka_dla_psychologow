@@ -69,7 +69,7 @@ Celowo napisałem *ten sam zbiór*, a nie na przykład *ten sam obiekt*, bo taki
 2}` można przecież *interpretować dowolnie* (interpretacja jest zawsze pewnym *wyborem*,
 pamiętasz?), a z pewnych punktów widzenia te trzy wyrażenia na pewno mogłyby oznaczać różne
 "rzeczy". Gdy mówimy o czymś, że to jakiś "obiekt", nie wiadomo przecież co mamy na myśli, to znaczy
-nie wiadomo, jakiego rodzaju obiekt dane coś ma reprezentować. 
+nie wiadomo, jakiego *rodzaju* (albo typu) obiekt to coś ma reprezentować.
 
 A mówiąc to samo, ale inaczej: To, które elementy należą, a które nie należą do danego zbioru
 decyduje o tym, które zbiory są *równe*, czyli *nierozróżnialne jako zbiory* (relacja równości jest
