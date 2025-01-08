@@ -491,11 +491,11 @@ stronami Wikipedii dotyczącymi
 [^3]: Ten przykład "ukradłem" i przerobiłem na bardziej "własny" wybitnemu, niestety nieżyjącemu już
     matematykowi [F. Williamowi Lawverowi](https://en.wikipedia.org/wiki/William_Lawvere) i
     [Stephenowi H. Schnauelowi](), którzy skorzystali z podobnego przykładu w dosyć niezwykłej,
-    nawet jeżeli cokolwiek chaotycznej (i kto to mówi) książce, którą czytałem, wielokrotnie, dawno,
-    dawno, dawno temu i która była dla mnie jedną z inspiracji podczas pisania tej (m.in. dlatego,
-    że powstawała w interakcji z licealistami), pod tytułem [Conceptual
-    Mathematics](https://www.cambridge.org/highereducation/books/conceptual-mathematics/00772F4CC3D4268200C5EC86B39D415A#contents). I
-    tak, z pierwszym z wymienionych [kosiarzy
+    nawet jeżeli cokolwiek chaotycznej (i kto to mówi) książce [Conceptual
+    Mathematics](https://www.cambridge.org/highereducation/books/conceptual-mathematics/00772F4CC3D4268200C5EC86B39D415A#contents),
+    którą czytałem, wielokrotnie, dawno, dawno, dawno temu i która była dla mnie jedną z inspiracji
+    podczas pisania tej (m.in. dlatego, że powstawała w interakcji z licealistami). I owszem, z
+    pierwszym z wymienionych [kosiarzy
     umysłów](https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)) też kiedyś przez chwilę
     korespondowałem.
 
