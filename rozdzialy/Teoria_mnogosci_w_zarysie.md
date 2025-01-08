@@ -478,8 +478,9 @@ stronami Wikipedii dotyczącymi
 
 ### Przypisy
 
-[^1]: Jestem bardzo dumny z pomysłu, żeby wykorzystać w ten sposób symbol `∘` oznaczający operację
-    składania. To może być moje największe osiągnięcie w tym roku (a jest dopiero styczeń).
+[^1]: Jestem bardzo dumny z pomysłu, żeby wykorzystać w ten sposób symbol oznaczający operację
+    składania. Niewykluczone, że to będzie moje największe osiągnięcie w tym roku (a jest dopiero
+    styczeń).
 
 [^2]: Tak wiem, że [niby powinno *się* pisać iniekcja i
     suriekcja](https://sjp.pwn.pl/poradnia/haslo/;8643.html) a nie injekcja i surjekcja, ale
