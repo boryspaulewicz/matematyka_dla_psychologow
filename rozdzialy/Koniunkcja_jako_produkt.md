@@ -1,29 +1,32 @@
-## An arrow is an arrow is an arrow ...
+# ?
 
-Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś mogła czuć się w miarę
-bezpiecznie. Będziemy teraz [mówić jednocześnie w kilku
-językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych, języku
-teorii kategorii, (tak jakby) w języku teorii typów i w języku naturalnym.
+Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś czytając ten rozdział czuła się
+bezpiecznie. Będziemy niebawem [mówić niemal jednocześnie w kilku
+językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych,
+częściowo rysunkowym języku teorii kategorii, w (pseudo-)języku teorii typów, języku logiki,
+niekategoryjnym języku rysunkowym i w języku naturalnym.
 
-`∀ X : Zbior`, istnieje funkcja identycznościowa `Id_x`, to jest taka, że `Id_x(x) = x`. Poniżej
-najniższego rysunku `Narysuj Punkt X` i strzałkę o nazwie `Idₓ`, która zawija się w taki sposób, że
-`Zrodlo Idₓ` i `Cel Idₓ` to `Punkt X`. Zwróć uwagę, że ten rysunek to *wyrażenie w języku teorii
-kategorii*, a *nie* w języku teorii zbiorów. To znaczy, że właśnie *zmieniłaś język*, a więc również
-*punkt widzenia*.
+**Rysunek 1**: 
 
-Na to, co wcześniej nazywałem punktami, zwykle używa się nazwy *obiekt* , jednak zależało mi, żebyś
-pamiętała, że *w teorii kategorii* obiekty to *tylko punkty zaczepienia strzałek*. Strzałki w tej
-teorii nazywamy często *morfizmami* albo *odwzorowaniami*, ale te nazwy, podobnie jak słowo
-*obiekt*, oddają dobrze *genezę* teorii kategorii, za to *nie* oddają dobrze *uniwersalności jej
-zastosowań* i sposobu, w jaki jej *używamy*. Wiedząc już o mylącym charakterze tych słów, pod
-rysunkiem napisz *komentarz*: W teorii kategorii każdy obiekt jest wyposażony w morfizm
-identycznościowy. Każdy taki morfizm jest endomorfizmem.
+`∀ X : Zbior`, istnieje endofunkcja identycznościowa `Id_X : X → X`, to jest taka, że `Id_X(x) =
+x`. Poniżej najniższego rysunku `Narysuj Punkt X` i strzałkę o nazwie `Idₓ`, która zawija się w taki
+sposób, że `Zrodlo Idₓ` i `Cel Idₓ` to `Punkt X`. Zwróć uwagę, że ten rysunek to *wyrażenie w języku
+teorii kategorii*, a *nie* w języku teorii zbiorów. To znaczy, że właśnie *zmieniłaś język*, a więc
+również *punkt widzenia*.
 
-Skoro już to zapisałaś i już wiesz, że używam słowa *punkt* w sposób niestandardowy, będę tak nadal
-mówił, bo mam wrażenie, że tak Ci będzie łatwiej o tym konsekwentnie *myśleć*; sam zresztą całkiem
-niedawno odkryłem, że mi to pomaga.
+Na to, co wcześniej nazywałem kategoryjnymi punktami, zwykle używa się nazwy *obiekt* , jednak
+zależało mi, żebyś pamiętała, że *w teorii kategorii* obiekty to *tylko punkty zaczepienia
+strzałek*. Strzałki w tej teorii nazywamy często *morfizmami* albo *odwzorowaniami*, ale również i
+te nazwy, podobnie jak słowo *obiekt*, oddają dobrze *genezę* teorii kategorii, za to *nie* oddają
+moim zdaniem dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*. Wiedząc
+już o mylącym charakterze tych słów, pod rysunkiem napisz komentarz: *W teorii kategorii każdy
+obiekt jest wyposażony w endomorfizm identycznościowy*.
 
-Morfizmy w teorii kategorii (czyli strzałki w tej teorii) nazywamy *endomorfizmami* (od
+Skoro już to zapisałaś i już wiesz, że używamy słowa *punkt* w sposób *niestandardowy*, będę tak
+nadal mówił, bo mam wrażenie, że tak Ci będzie łatwiej o tym konsekwentnie *myśleć*; sam zresztą
+całkiem niedawno odkryłem, że mi to pomaga.
+
+Morfizmy w teorii kategorii (czyli kategoryjne strzałki) nazywamy *endomorfizmami* (od
 starogreckiego [ἔνδον](https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CE%B4%CE%BF%CE%BD)
 oznaczającego *w* albo *wewnątrz* \{i wtedy raczej nie nazywamy ich "endostrzałkami", bo to nie
 brzmi dobrze\}) *wtedy i tylko wtedy*, gdy są właśnie takimi "zawijasami" jak identyczności (ale
@@ -31,37 +34,45 @@ istnieją też inne endomorfizmy, które nie są identycznościami), to znaczy, 
 i cel*.
 
 Żeby coś, co nie jest opisane czy scharakteryzowane jawnie jako kategoria zasługiwało (z pewnego
-punktu widzenia!) na nazwę kategoria, musi istnieć sposób opisu części struktury tego czegoś w
-języku punktów i strzałek, spełniający następujące wymagania (nie trzeba panikować, znowu będę się
-powtarzał i omówię też dość szczegółowo kilka prostych przykładów):
+punktu widzenia!) na nazwę kategoria, musi istnieć *poprawny opis struktury tego czegoś w języku
+punktów i strzałek*, gdzie poprawny oznacza spełniający następujące wymagania (nie trzeba panikować,
+znowu będę się powtarzał i omówię szczegółowo kilka prostych przykładów):
 
-1. Wszystkie części określonego rodzaju postrzegamy jako punkty.
+1. Wszystkie części określonego rodzaju traktujemy jako punkty ...
 
-2. Wszystkie części określonego rodzaju postrzegamy jako strzałki.
+2. i wszystkie części określonego rodzaju traktujemy jako strzałki ...
 
-W ten sposób, że:
+... w ten sposób, że ...
 
-3. Każdy punkt `X` ma swoją (endo)strzałkę identycznościową `Idₓ`.
+3. ... każdy punkt `X` ma swoją endostrzałkę identycznościową `Id_X` i ...
 
-4. Istnieje operacja na obiektach źrodłowych (to jest będących częściami struktury tego czegoś, co
-   opisujemy jako kategorię), która odpowiada *składaniu strzałek* i którą oznaczamy czasem *w
-   języku kategorii* za pomocą symbolu `∘`, taka, że dla dowolnych (a więc też potencjalnie równych,
-   to jest zastępowalnych parami) strzałek `f`, `g` i `h` (uwaga, będą "skróty myślowe"):
+4. .. istnieje operacja na obiektach źrodłowych (to jest będących częściami struktury tego czegoś,
+   co opisujemy jako kategorię), która odpowiada *składaniu strzałek* i którą oznaczamy czasem
+   (również *w języku kategorii*) za pomocą symbolu `∘`, taka, że dla dowolnych (a więc też
+   potencjalnie równych, to jest zastępowalnych parami) strzałek `f`, `g` i `h` (uwaga, będą "skróty
+   myślowe"):
 
     4-1. `Id ∘ f = f = f ∘ Id`
     
     4-2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
 Zacząłem tutaj stosować "skróty myślowe" polegające na tym, że nie zaznaczyłem, że strzałki, o
-złożeniach któryś coś mówimy, muszą być składalne. Dlatego pominąłem tutaj *konieczny* warunek
-*Jeżeli `f`, `g` i `h` to takie strzałki, że* `Skladalne h g` *i* `Skladalne g f` *to ...*. Nie
-oznaczyłem też nazw punktów, do których są "przymocowane" strzałki identycznościowe, a więc `Id`
-oznacza tu dwa potencjalnie różne obiekty źródłowe. A zastosowałem te skróty myślowe, bo już wiesz,
-że w teorii kategorii operacja składania jest wybredna i często będzie nam obojgu wygodniej tylko o
-tym *pamiętać*.
+złożeniach któryś coś mówimy, muszą być składalne. A mówiąc dokładaniej, (celowo) pominąłem
+*konieczny* warunek *Jeżeli `f`, `g` i `h` to takie strzałki, że* `Skladalne f g` *i* `Skladalne g
+h`, *to ...*. Nie oznaczyłem też nazw punktów, do których są "przymocowane" strzałki
+identycznościowe, a więc symbol `Id` oznacza tutaj strzałkę "zaczepioną" o *dwa, potencjalnie różne
+obiekty źródłowe* i jednocześnie *dwa, potencjalnie różne punkty*. Dlaczego potencjalnie różne
+punkty? Jeżeli źródło strzałki `f` wymienionej w punkcie 4-1 jest różne od jej celu, to pierwsza z
+lewej identyczność musi być "zaczepiona" o inny punkt niż pierwsza z prawej. A zastosowałem te
+skróty myślowe, bo już wiesz, że w teorii kategorii operacja składania jest wybredna i często będzie
+nam obojgu wygodniej o tylko tym *pamiętać* zamiast uwzględniać to jawnie w zapisie. Tak jak Lean,
+tego rodzaju informacje możesz przecież zawsze wywnioskować z kontekstu.
 
 Ponieważ składanie jest w teorii kategorii operacją podstawową, wygodnie jest jeszcze bardziej
-skrócić zapis i zamiast na przykład `f ∘ g` pisać po prostu `f g` albo nawet `fg`.
+skrócić zapis i zamiast `f ∘ g` pisać `f g` albo nawet - gdy nie powinno być wątpliwości, o co
+chodzi - `fg`.
+
+TODO Objaśnić powoli i po kolei jak "działa" każda kategoria.
 
 Jeżeli teraz ...
 
