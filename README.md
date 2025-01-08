@@ -215,7 +215,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 Plac budowy
 
-R21 = R15 ←×→ ~ ←∧→
+R21 = R15 ∘←×→∘ ~ ∘←∧→∘
 
 Notatki całkiem już robocze, do których jednak można zaglądać:
 
