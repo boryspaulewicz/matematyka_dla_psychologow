@@ -6,7 +6,7 @@ zrozumieniem nie ca³kiem banalnych tre¶ci przestaje byæ mo¿liwe po oko³o 30 minu
 o warunkach sprzyjaj±cych, a nie na przyk³ad o czytaniu w zat³oczonym poci±gu na kacu, co mi siê
 oczywi¶cie nigdy w ¿yciu nie zda¿y³o. Po 30, a mo¿e nawet ju¿ 25 minutach wydaje mi siê czêsto, ¿e
 siê dopiero co wci±gn±³em, ale mniej wiêcej po tym czasie moja zdolno¶æ do dalszego przyswajania
-informacji zaczyna, ¿e tak powiem, ryæ o ziemiê. Dlatego na zajêciach czêsto wprowadzamy krótkie
+informacji zaczyna, ¿e tak powiem, ryæ o ziemiê. Dlatego na zajêciach czêsto wprowadzam krótkie
 przerwy co oko³o pó³ godziny i dlatego staram siê pisaæ rozdzia³y tak, ¿eby tyle te¿ mniej wiêcej
 trwa³o ich przeczytanie (zak³adaj±c aktywn± postawê w trakcie lektury wcze¶niejszych
 rozdzia³ów). Sprawdza³em to wiele, wiele razy. Zacz±³em to sprawdzaæ tak dawno, ¿e u¿ywa³em do tego
