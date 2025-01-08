@@ -286,8 +286,8 @@ O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę 
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
 funkcji, żeby upewnić się, że `Id_Y ∘ f` oznacza funkcję, która ma taką samą dziedzinę i
 przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje przynajmniej
-*mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny to byłyby automatycznie
-różnymi funkcjami). Ale czy są? 
+*mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny byłyby automatycznie
+różnymi funkcjami). Ale czy są?
 
 1. Niech `x` będzie dowolnym elementem zbioru `X`.  
    (tak zaczynamy konstrukcję dowodu zdania, które ma być prawdziwe dla każdego `x` należącego do `X`)  
