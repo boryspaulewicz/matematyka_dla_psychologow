@@ -17,14 +17,19 @@ przeciwdziedziną tej zapisanej za pomocą skrótu myślowego funkcji.
 
 Wiesz, kiedy dwie funkcje są składalne i wiesz, że dla każdej pary funkcji `f : X -> Y`, `g : Y ->
 Z` istnieje dokładnie jedna funkcja `h : X -> Z`, która jest ich złożeniem, czyli jest funkcją `(g o
-f)`, która z definicji (operacji składania funkcji) dla każdego `x in X` zwraca `z = g(f(x))`. I
-wiesz, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo identyczności
-to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*), zależnie od tego, czy
-wybierzemy sobie analogię do dodawania czy do mnożenia, ze względu na operację składania
-funkcji. Możesz też sama łatwo udowodnić, rozwijając tylko definicję składania funkcji, że dla
-każdych *trzech* funkcji `f : X -> Y`, `g : Y -> Z`, `h : Z -> V` spełniony jest warunek `h o (g o
-f) = (h o g) o f` który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest operacją
-*łączną*. Ale może na wszelki wypadek ja to też tu zrobię:
+f)`, bo dla każdej konkretnej pary składalnych funkcji złożenie tych funkcji "nie ma wyboru". W tym
+przypadku, zgodnie z definicją składania funkcji, dla każdego `x in X, h(x) = (g o f)(x) =
+g(f(x))`. 
+
+I wiesz, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo
+identyczności to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*) - zależnie od
+tego, czy skorzystamy z (luźnej) analogii do dodawania czy do mnożenia - ze względu na operację
+składania funkcji. 
+
+Mogłabyś też teraz sama łatwo udowodnić, rozwijając tylko definicję składania funkcji, że dla
+każdych *trzech* funkcji `f : X -> Y`, `g : Y -> Z` i `h : Z -> V` spełniony jest warunek `h o (g o
+f) = (h o g) o f`, który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest
+operacją *łączną*. Ale może na wszelki wypadek ja to też tu zrobię:
 
 Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta
 sama funkcja, musimy udowodnić, że `A x in X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc,
@@ -38,32 +43,44 @@ przekształcając lewą stronę równania do postaci ...
 `((h o g) o f)(x) = (h o g)(f(x)) = h(g(f(x)))`
 
 ... i widzimy, że obie funkcje dają ten sam wynik dla każdego `x in X`, a więc `h o (g o f) = (h o
-g) o f`.
+g) o f`. Może spróbuj teraz to zrobić sama na kartce, jak najmniej tu zaglądając?
 
-Zwróć też proszę uwagę, że nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone;
-przecież ani raz nie napisałem niczego w stylu "ponieważ zbiór `X` jest skończony, to ...". A to
-znaczy, że wszystkie wymienione w tym rozdziale własnści mają rownież funkcje między zbiorami
-niekoniecznie skończonymi. 
+Zwróć też proszę uwagę, że poza tym, że wspomniałem o możliwości definiowania funkcji za pomocą
+rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone; przecież, poza
+wspomnianym kontekstem, ani raz nie napisałem niczego w stylu "ponieważ zbiór `X` jest skończony, to
+...". A to znaczy, że wszystkie wymienione w tym rozdziale własności mają rownież funkcje między
+dowolnymi zbiorami, a więc niekoniecznie skończonymi.
 
 Czy widzisz na tym przykładzie, że warto czasem mieć *świadomość tego, z jakich założeń się
-korzysta*?  Dzięki temu możemy poprawnie *ocenić w jakich sytuacjach obowiązuje udowodnione
-zdanie*. Gdy konstruowaliśmy dowody w języku teorii typów, nie dało się nie mieć tej świadomości,
-ponieważ wtedy było widać jak na dłoni, z których założeń korzystaliśmy, ale gdy konstruujemy dowody
-w bardziej tradycyjny sposób, tego tak dobrze nie widać, dlatego dobrze jest wtedy zachować
-czujność.
+korzysta*?  Dzięki temu możemy poprawnie *ocenić w jakich sytuacjach obowiązuje udowodnione zdanie*,
+czyli *kiedy możemy używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w języku teorii
+typów, nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni, z których
+założeń korzystaliśmy, bo te występowały wszystkie jawnie w kodzie każdego dowodu, ale gdy
+konstruujemy dowody w bardziej nieformalny sposób, tego tak dobrze nie widać, dlatego dobrze jest
+wtedy zachować czujność.
+
+Gdybyśmy się teraz skupili na samych funkcjach i na tym, o czym mówiliśmy dotąd w tym rozdziale, to
+można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywist
+skróty myślowe - jednym podwójnym równaniem i jednym pojedynczym:
+
+`Id o f = f = f o Id`
+
+`h o (g o f) = (h o g) o f`
 
 A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi przypadkowo w środku
-tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a funkcje to
-rozmaite strumienie ze strzałek płynące z jednych zbiorów do drugich. I wyobraź sobie, że te zbiory
-i funkcje są narysowane na nieskończenie dużej kartce papieru, a Ty oddalasz się coraz szybciej w
-górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza ... punktami zbiorów i
-strzałkami strumieni.
+tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a każda
+funkcja to taki strumień strzałek płynący z jednego zbioru do drugiego. I wyobraź sobie, że te
+zbiory i funkcje są narysowane na nieskończenie dużej kartce papieru, a Ty oddalasz się coraz
+szybciej w górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza *punktami
+zbiorów* i *strzałkami strumieni*.
 
 Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele regularności, ale nie
 wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się w ten sposób dobrze narysować. Tym
 czymś, czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów
-skończonych *żyje*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Jeżeli akurat nie jest się w
-posiadaniu oczu anioła, w ostateczności można nabyć ich protezę.
+*żyje*, to jest *jak działa działanie składania*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Ja
+akurat nie mam i zgaduję, że Ty również nie posiadasz (wybacz). Jeżeli nie jest się chwilowo w
+posiadaniu oczu anioła, w ostateczności można nabyć ich protezę i próbować wypatrzyć, co tylko się
+da, to znaczy próbować wyprowadzać dedukcyjnie rozmaite wnioski w języku teorii kategorii.
 
 ## Tak się składa
 
