@@ -229,7 +229,7 @@ trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *fu
 przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `∀ x ∈ X, g(f(x)) = x` *i
 jednocześnie* `∀ y ∈ Y, f(g(y)) = y`.
 
-Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
+**Ostrzeżenie na temat notacji**: Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
 [Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem ograniczony. Jeżeli więc
 napiszę na przykład `h_1`, to będzie to tylko
 [namiastka](https://sjp.pwn.pl/slowniki/namiastka.html) `h₁` (akurat cyfry da się w ten sposób w
