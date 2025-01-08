@@ -229,11 +229,11 @@ can do, another can*. Thompson podaje tam, ¿e to jest *Ancient Simian Proverb*, 
 Zawsze by³em chudy[^3], dobry z matematyki i dobry z programowania, bo taki siê
 [urodzi³em](https://en.wikipedia.org/wiki/Three_Identical_Strangers). Z pewno¶ci± nie by³em jednak
 nigdy ani tym bardziej nie jestem geniuszem. Po prostu w szkole podstawowej nie potrafi³em nie
-my¶leæ czêsto o matematyce. Mój przyjaciel z licealnej szkolnej ³awki, wybitny teoretyk prawa i
-filozof Wojtek Za³uski, jest zdaje mi siê prawdziwym geniuszem. Inny mój przyjaciel, filozof
-matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje) Szymon Szymczak te¿ jak s±dzê jest. To
-oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w pewnych, zbyt licznych, obszarach
-genialne. Dziêki nim wiem doskonale, jaki ze mnie dureñ.
+my¶leæ czêsto o matematyce. Mój wspania³y przyjaciel z licealnej szkolnej ³awki, wybitny teoretyk
+prawa i filozof Wojtek Za³uski, jest zdaje mi siê prawdziwym geniuszem. Inny mój równie¿ wspania³y
+przyjaciel, filozof matematyczny (je¶li wolno mi tak nazwaæ to, czym siê zajmuje) Szymon Szymczak
+te¿ jak s±dzê jest. To oczywi¶cie g³uptasy, jak my wszyscy, ale to s± akurat g³uptasy w pewnych,
+zbyt licznych, obszarach genialne. Dziêki nim wiem doskonale, jaki ze mnie dureñ.
 
 My¶lisz, ¿e z tym durniem przesadzi³em? W *pierwszej klasie szko³y podstawowej* nie zapisa³em prawie
 nic w zeszycie i mój szkolny poziom wykonania by³ tak niski, ¿e, jak siê pó¼niej dowiedzia³em,

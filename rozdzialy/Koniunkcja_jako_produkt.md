@@ -75,11 +75,11 @@ zamiast uwzględniać to jawnie w zapisie. Tak jak Lean, tego rodzaju informacje
 mogła wywnioskować z kontekstu.
 
 Ponieważ składanie jest w teorii kategorii nie tylko operacją podstawową, ale również pojęciem
-centralnym, wygodnie jest jeszcze bardziej skrócić zapis i zamiast `f ∘ g` pisać `f g` albo nawet -
-gdy to nie powinno być wątpliwości, o co chodzi - `fg`.
+centralnym, wygodnie jest jeszcze bardziej skrócić zapis i zamiast `g ∘ f` pisać `g f`, albo nawet -
+gdy nie ma wątpliwości, co oznacza taki zapis - `gf`.
 
-Mamy teraz wszystkie narzędzia, żeby dopiero co omawianej przestrzeni zbiorów skończonych i funkcji
-między zbiorami skończonymi rozpoznać kategorię.
+Mamy teraz wszystkie narzędzia, żeby dopiero w co omawianej przestrzeni zbiorów skończonych i
+funkcji między zbiorami skończonymi *rozpoznać pewną kategorię*.
 
 Jeżeli:
 
@@ -88,17 +88,58 @@ Jeżeli:
 2. Każdą funkcję oznaczymy jako kategoryjną strzałkę, w taki sposób, że źródło tej strzałki to
    dziedzina tej funkcji, a cel tej strzałki to przeciwdzidzina tej funkcji.
 
-3. Różne zbiory odpowiadają różnym punktom.
+3. Różne zbiory będą odpowiadały różnym punktom.
 
-4. Różne funkcje odpowiadają różnym strzałkom.
+4. Różne funkcje będą odpowiadały różnym strzałkom.
 
 5. *Funkcje* identycznościowe, czyli funkcje $i$ takie, że $i$ jest funkcją z pewnego zbioru $X$ do
-tego samego zbioru i $i(x) = x$, odpowiadają strzałkom identycznościowym.
+tego samego zbioru i $i(x) = x$, będą odpowiadały strzałkom identycznościowym.
 
-6. Składanie *funkcji* odpowiada składaniu *strzałek*
+6. Składanie *funkcji* będzie odpowiadało składaniu *strzałek*
+
+7. I nie będzie innych punktów ani strzałek.
 
 ... to uzyskamy w ten sposób kategorię, a dokładnie *kategorię zbiorów skończonych* o nazwie
-[`FinSet`](https://en.wikipedia.org/wiki/FinSet).
+[`FinSet`](https://en.wikipedia.org/wiki/FinSet). Wszystkie te przyporządkowania możemy traktować
+jako *tymczasowe definicje kategoryjnych punktów i strzałek traktowanych jako stałe*.
+
+Upewnimy się teraz, czy wszystkie wymagania kategorii są spełnione:
+
+1. Każdy punkt ma swoją identyczność.
+
+2. Dla każdej strzałki `f`, warunek `Id ∘ f = f = f ∘ Id` jest spełniony w oczywisty sposób, bo
+   kategoryjne składanie odpowiada teraz składaniu funkcji teoriomnogościowych i kategoryjne
+   identyczności odpowiadają identycznościom teoriomnogościowym, a więc rozpakowując definicje
+   symboli `Id`, `f` i `∘` moglibyśmy się łatwo przekonać, że ze względu na te definicje zdanie `Id
+   ∘ f = f = f ∘ Id` jest prawdziwe.
+
+3. Z tego samego powodu dla każdej trójki niekoniecznie różnych i składalnych w ten sposób strzałek
+   zachodzi `h ∘ (g ∘ f) = (h ∘ g) ∘ f`.
+
+Uzyskaliśmy więc pewną *wierną* (w znaczeniu zachowującą różnice między symbolami) *implementacją
+kategorii, zrealizowaną za pomocą zbiorów skończonych i funkcji między tymi zbiorami*.
+
+TODO Że mogłem proces konstruowania tego opisu opisać w drugą stronę, to jest od kategorii, ale
+wydaje mi się, że tak jest na początku lepiej o tym myśleć.
+
+Być może przyszło Ci do głowy, że to wszystko było niepotrzebne, bo przecież to jest jakby *kopia*
+przestrzeni zbiorów skończonych i funkcji między nimi, zmieniliśmy tylko język na taki jakby
+bardziej graficzny (a mówiąc dokładniej na język [*grafów
+skierowanych*](https://pl.wikipedia.org/wiki/Graf_skierowany) uzupełniony o operację składania
+(zawsze skierowanych i tylko tych składalnych)
+[*krawędzi*](https://pl.wikipedia.org/wiki/Kraw%C4%99d%C5%BA_grafu)). *I tak i nie*.
+
+Otóż w ten sposób *całkowicie pomijamy* **wewnętrzną** *strukturę zbiorów i funkcji*, bo przecież
+każdy zbiór zredukowaliśmy do jakiegoś punktu zaczepienia a każdą funkcję do jakiejś całkowicie
+pozbawionej wewnętrznej struktury strzałki. A więc *odarliśmy przestrzeń zbiorów skończonych i
+funkcji ze wszystkiego za wyjątkiem samej operacji składania funkcji*. 
+
+TODO Fragment teorii typów jako kategoria.
+
+
+I w tym momencie nieuchronnie pojawia się pytanie - *po co?*
+
+
 
 GDZIE INDZIEJ Na przykład, Jeżeli zbiór jednoelementowy `{∅}` oznaczyliśmy jako `X`, a zbiór `{1, 2}` jako `Y`,
    
