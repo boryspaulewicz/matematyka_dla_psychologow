@@ -38,9 +38,9 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 ... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. *Ostatni* przykład możemy odczytać
 w ten sposób: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`n ∈ ℕ`), że `Dodatnie n` (`|
 Dodatnie n}`). Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z
-dominującym w matematyce zwyczajem - zbiory mogą zawierać dowolne elementy, na przykład takie, które
-nie należą do żadnego dającego się łatwo (albo nawet w ogóle) zidentyfikować rodzaju albo typu. A
-więc zbiory to takie (niemal[^4]) *dowolne kolekcje potencjalnie różnorodnych elementów*.
+dominującym zwyczajem - zbiory mogą zawierać dowolne elementy, na przykład takie, które nie należą
+do żadnego dającego się łatwo (albo nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory
+to takie (niemal[^4]) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
 **Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
 "obiekt", który przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
