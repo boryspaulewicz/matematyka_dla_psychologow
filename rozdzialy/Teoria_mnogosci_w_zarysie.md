@@ -470,9 +470,9 @@ jako *lub*.
 
 Czy widzisz podobieństwo między symbolami `∪` i `∨` i czy widzisz, że jest nieprzypadkowe?
 
-**Rysunek 10**: Zrób proszę notatkę z odpowiednimi rysunkami, wzorując się na poprzednich rysunkach,
-która będzie dla Ciebie ilustracją pojęć iloczynu i sumy zbiorów. Być może będzie Ci łatwiej, jeżeli
-wcześniej zapoznasz się ze stronami Wikipedii dotyczącymi
+**Rysunek 10**: Zrób proszę notatkę z odpowiednimi rysunkami, która będzie dla Ciebie ilustracją
+pojęć iloczynu i sumy zbiorów. Być może będzie Ci łatwiej, jeżeli wcześniej zapoznasz się ze
+stronami Wikipedii dotyczącymi
 [jednego](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9B%C4%87_wsp%C3%B3lna) i
 [drugiego](https://pl.wikipedia.org/wiki/Suma_zbior%C3%B3w) pojęcia.
 
