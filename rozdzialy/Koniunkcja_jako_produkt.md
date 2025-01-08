@@ -4,46 +4,123 @@ Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś czytaj�
 bezpiecznie. Będziemy niebawem [mówić niemal jednocześnie w kilku
 językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych, teorii
 typów, logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w
-języku naturalnym.
+języku naturalnym. Ale zaczniemy od powtórki.
 
-A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi chaotycznie w środku
+Już wiesz, że z każdym skończonym zbiorem jest związana funkcja identycznościowa na tym zbiorze, bo
+dla każdego takiego zbioru potrafisz taką funkcję zdefiniować rysując ją. Wiesz też, że istnieje
+dokładnie jedna taka funkcja dla każdego zbioru, bo gdy definiuje się funkcję identycznościową nie
+ma swobody wyboru - każda identyczność musi dla każdego elementu zwrócić ten element. I wiesz, że
+różne zbiory mają różne identyczności, bo tożsamość funkcji zależy od jej dziedziny i
+przeciwdziedziny. Dlatego, dla każdego zbioru `X` możemy napisać `Id_X` i dlatego, gdy piszemy
+skrótowo `Id`, wiemy, że istnieje dokładnie jeden zbiór, który jest zarówno dziedziną jak i
+przeciwdziedziną tej funkcji.
+
+Wiesz, kiedy dwie funkcje są składalne i wiesz, że dla każdej pary funkcji `f : X -> Y`, `g : Y ->
+Z` istnieje dokładnie jedna funkcja `h : X -> Z`, która jest ich złożeniem, czyli jest funkcją `(g o
+f)`, która z definicji (operacji składania funkcji) dla każdego `x in X` zwraca `z = g(f(x))`. I
+wiesz, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo identyczności
+to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*), zależnie od tego, czy
+wybierzemy sobie analogię do dodawania czy do mnożenia, ze względu na operację składania
+funkcji. Możesz też sama łatwo udowodnić, rozwijając tylko definicję składania funkcji, że dla
+każdych *trzech* funkcji `f : X -> Y`, `g : Y -> Z`, `h : Z -> V` spełniony jest warunek `h o (g o
+f) = (h o g) o f` który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest operacją
+*łączną*. Ale może na wszelki wypadek ja to też tu zrobię:
+
+Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta
+sama funkcja, musimy udowodnić, że `A x in X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc,
+że mamy jakiś `x in X` i tylko rozwijamy definicję składania tyle razy, ile będzie trzeba,
+przekształcając lewą stronę równania do postaci ...
+
+`(h o (g o f))(x) = h((g o f)(x)) = h(g(f(x))`
+
+... i prawą stronę równania do postaci ...
+
+`((h o g) o f)(x) = (h o g)(f(x)) = h(g(f(x)))`
+
+... i widzimy, że obie funkcje dają ten sam wynik dla każdego `x in X`, a więc `h o (g o f) = (h o
+g) o f`.
+
+Zwróć też proszę uwagę, że nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone;
+przecież ani raz nie napisałem niczego w stylu "ponieważ zbiór `X` jest skończony, to ...". A to
+znaczy, że wszystkie wymienione w tym rozdziale własnści mają rownież funkcje między zbiorami
+niekoniecznie skończonymi. 
+
+Czy widzisz na tym przykładzie, że warto czasem mieć *świadomość tego, z jakich założeń się
+korzysta*?  Dzięki temu możemy poprawnie *ocenić w jakich sytuacjach obowiązuje udowodnione
+zdanie*. Gdy konstruowaliśmy dowody w języku teorii typów, nie dało się nie mieć tej świadomości,
+ponieważ wtedy było widać jak na dłoni, z których założeń korzystaliśmy, ale gdy konstruujemy dowody
+w bardziej tradycyjny sposób, tego tak dobrze nie widać, dlatego dobrze jest wtedy zachować
+czujność.
+
+A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi przypadkowo w środku
 tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a funkcje to
 rozmaite strumienie ze strzałek płynące z jednych zbiorów do drugich. I wyobraź sobie, że te zbiory
 i funkcje są narysowane na nieskończenie dużej kartce papieru, a Ty oddalasz się coraz szybciej w
 górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza ... punktami zbiorów i
-strzałkami strumieni. 
+strzałkami strumieni.
 
-Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele ważnych regularności, ale nie
-wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się właściwie dobrze narysować. Tym czymś,
-czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów skończonych
-*żyje*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Jeżeli akurat nie jest się w posiadaniu oczu
-anioła, w ostateczności można nabyć ich protezę.
+Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele regularności, ale nie
+wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się w ten sposób dobrze narysować. Tym
+czymś, czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów
+skończonych *żyje*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Jeżeli akurat nie jest się w
+posiadaniu oczu anioła, w ostateczności można nabyć ich protezę.
 
 ## Tak się składa
 
 **Rysunek 1**: `Narysuj` proszę trzy, tworzące poziomy szereg punkty i oznacz je od dołu literami
 `X`, `Y` i `Z`. Dodaj `Strzalka X Y` i oznacz ją literą `f` i `Strzalka Y Z` i oznacz ją literą
-`g`. Jak wiesz, te strzałki są `Skladalne`, a więc, jeśli to ma być kategoria, musi istnieć ich
-unikalne `Zlozenie`. Dorysuj więc od dołu `Strzalka X Z`, ale wygiętą w łuk i oznacz ją literą `h`,
-a potem umieść w środku uzyskanego w ten sposób diagramu ptaszka.
+`g`. Ponieważ jesteś tak wysoko, nie jesteś w stanie zobaczyć strzałek wychodzących z poszczególnych
+elementów, ale widzisz funkcje - jako strzałki między punktowymi zbiorami - a ponieważ masz protezę
+genialności, widzisz *czasem* (bo to tylko proteza) które strzałki składają się w które i które
+strzałki można złożyć z których strzałek.
 
-Skoro jest tam ptaszek, to znaczy, że (mocą naszej decyzji) ten diagram jest przemienny, a więc
-`Zlozenie f g = h`. Ten ptaszek i odpowiadające mu równanie to właśnie przykład czegoś, czego nie da
-się zobaczyć na samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezentującym
-zbiory i funkcje między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami,
-są jednak strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym
-(wybrednym) *działaniem*.
+Strzałki `f` i `g` są `Skladalne`, a więc musi istnieć ich unikalne `Zlozenie`, to jest taka funkcja
+`h`, która jest funkcją `(g ∘ f)`, czyli dla której spełniony jest warunek `∀ x ∈ X, h(x) = (g ∘
+f)(x)`. Tego nie musisz próbować *zobaczyć*, bo to możesz *wywnioskować* z definicji
+funkcji. Dorysuj więc od dołu `Strzalka X Z`, ale wygiętą w łuk, i oznacz ją literą `h`, a potem
+umieść w środku uzyskanego w ten sposób diagramu ptaszka.
 
-TODO Identyczności
+Jest tam teraz ptaszek, bo mocą naszej *decyzji* dotyczącej tego, co oznacza `h`, ten diagram jest
+*przemienny*, co możemy zapisać algebraicznie również tak: `Zlozenie f g = h`. Ten ptaszek i
+odpowiadające mu równania w dwóch różnych językach, to przykład czegoś, czego nie da się zobaczyć na
+samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezentującym zbiory i funkcje
+między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami, są jednak
+strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym (wybrednym)
+*działaniem*.
 
-przyczepioną do każdego z nich
-[*pętlę*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)).
+Tego, że każdy zbiór ma jedną identyczność, nie musisz próbować zobaczyć (ani zakładać), bo *wiesz*,
+że dla każdego zbioru `X` można zdefiniować taką funkcję `Id_X`, że `∀ x ∈ X, Id_X(x) = x` i wiesz,
+że dla każdego zbioru istnieje dokładnie jedna taka funkcja. Nie musisz też nigdy próbować zobaczyć
+(ani zakładać), że różne zbiory mają różne identyczności, bo *wiesz*, że o tożsamości funkcji
+decyduje między innymi jej dziedzina i przeciwdziedzina. Nie musisz więc wytężać wzroku (ani się
+dłużej zastanawiać), żeby się przekonać, że każdy punkt ma swoją *unikalną* i *charakterystyczną*
+endostrzałkę identycznościową. A to znaczy, że istnieje izomorfizm między zbiorami i
+identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach możemy równie dobrze mówić o
+identycznościach.
+
+Wiesz jeszcze dwie rzeczy o dowolnych strzałkach `f`, `g` i `h`, które są "kolejno składalne", to
+jest `Skladalne f g` i `Skladalne g h`, czyli takich, że `Cel f = Zrodlo g` i `Cel g = Zrodlo h`:
+
+1. `Id ∘ f = f = f ∘ Id`
+    
+2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
+
+Pierwszy warunek, odpowiadający zdaniom `Id ∘ f = f` i `f ∘ Id`, gdzie pozwoliłem sobie na skrót
+myślowy i nie zaznaczyłem, że pierwsza i ostatnia identyczność są przyczepione do potencjalnie
+różnych punktów, jest spełniony, ponieważ gdybyś zmniejszyła swoją wysokość zobaczyłabyś, że:
+
+
+
+Do każdego punktu musi być również przyczepiona unikalna
+[*pętla*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)) reprezentująca
+*identyczność*. Ponieważ te funkcje odgrywają szczególną rolę, jeżeli możesz, oznacz je proszę przy
+każdym punkcie albo liniami przerywanymi, albo innym kolorem.
 
 Na to, co wcześniej nazywałem kategoryjnymi punktami, zwykle używa się nazwy *obiekt*, jednak
 zależało mi, żebyś pamiętała, że *w teorii kategorii* obiekty to *tylko punkty zaczepienia
 strzałek*. Strzałki w tej teorii nazywamy często *morfizmami* albo *odwzorowaniami*, ale również i
 te nazwy, podobnie jak słowo *obiekt*, oddają dobrze *genezę* teorii kategorii, za to *nie* oddają
-moim zdaniem dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*. 
+dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*.
 
 Wiedząc już o mylącym charakterze tych słów, pod rysunkiem napisz komentarz: *W teorii kategorii
 każdy obiekt jest wyposażony w endomorfizm identycznościowy*. *Można też powiedzieć tak: Każdy punkt
@@ -53,11 +130,13 @@ endostrzałka, a każdej takiej strzałce odpowiada dokładnie jeden punkt, do k
 przyczepiona*.
 
 Można więc powiedzieć, że kategorie to takie struktury, w których może występować *wiele różnych
-zer* (albo *jedynek*, jeśli popatrzymy na składanie strzałek jako na operację analogiczną do
-mnożenia). Skoro już to zapisałaś (być może po swojemu, to była przecież tylko sugestia) i już
-wiesz, że używamy słowa *punkt* w sposób *niestandardowy*, będę tak nadal mówił, bo mam wrażenie, że
-tak Ci będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero niedawno, że mi to
-pomaga.
+zer* - jeżeli popatrzymy na składanie strzałek jako na operację podobną do dodawania - albo
+*jedynek* - jeśli popatrzymy na składanie strzałek jako na operację podobną do mnożenia. Trzeba
+jednak pamiętać, że dodawanie i mnożenie są operacjami niewybrednymi, a składanie może być wybredne
+i zwykle zresztą jest. Skoro zapisałaś już komentarz (być może po swojemu, to była przecież tylko
+sugestia) i już wiesz, że używamy słowa *punkt* w sposób *niestandardowy*, będę tak nadal mówił, bo
+mam wrażenie, że tak Ci będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero
+niedawno, że mi to pomaga.
 
 Morfizmy w teorii kategorii (czyli kategoryjne strzałki) nazywamy *endomorfizmami* (od
 starogreckiego [ἔνδον](https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CE%B4%CE%BF%CE%BD)
@@ -70,13 +149,14 @@ gdy mają *to samo źródło i cel*.
 punktu widzenia!) na nazwę kategoria, musi istnieć *opis struktury tego czegoś w języku punktów i
 składalnych w pewien określony sposób strzałek*. Podkreślam, że nie trzeba panikować, bo znowu będę
 się powtarzał i omówię później szczegółowo kilka prostych przykładów. Żeby rozpoznać w jakiejś
-strukturze pewną kategorię, nasz opis musi spełniać następujące wymagania:
+strukturze pewną kategorię, czyli poprawnie opisać tą strukturę jako kategorię, ten opis musi
+spełniać następujące wymagania:
 
 1. Wszystkie części określonego rodzaju traktujemy jako punkty ...
 
 2. ... i wszystkie części określonego rodzaju traktujemy jako strzałki, w ten sposób, że ...
 
-3. ... każdy punkt `X` ma swoją endostrzałkę identycznościową `Id_X` i ...
+3. ... każdy punkt ma swoją endostrzałkę identycznościową i ...
 
 4. .. istnieje operacja na obiektach źrodłowych (to jest będących częściami struktury tego czegoś,
    co opisujemy jako kategorię), która odpowiada *składaniu strzałek* i którą oznaczamy czasem
@@ -92,8 +172,10 @@ Zacząłem tutaj stosować skróty myślowe polegające na tym, że nie zaznaczy
 złożeniach których coś mówimy, muszą być składalne. A mówiąc dokładaniej, (celowo) pominąłem
 *konieczny* warunek *Jeżeli `f`, `g` i `h` to takie strzałki, że* `Skladalne f g` *i* `Skladalne g
 h`, *to ...*. Nie oznaczyłem też nazw punktów, do których muszą być "przymocowane" wszystkie
-strzałki identycznościowe, a więc symbol `Id` oznacza tutaj strzałkę "zaczepioną" o *dwa,
-potencjalnie różne obiekty źródłowe* i jednocześnie *dwa, potencjalnie różne punkty*.
+strzałki identycznościowe, a więc symbol `Id` oznacza tutaj strzałkę przyczepioną do *dwóch,
+potencjalnie różnych obiektów źródłowych* i jednocześnie *dwa, potencjalnie różne punkty* (bo każda
+identyczność jest przyczepiona do dokładnie jednego punktu i każdy punkt ma dokładnie jedną
+identyczność).
 
 Dlaczego potencjalnie różne punkty? Jeżeli źródło strzałki `f` wymienionej w punkcie 4-1 jest różne
 od jej celu (co nie znaczy, że obiekty, które te punkty w danej sytuacji oznaczają, są na pewno
@@ -107,8 +189,8 @@ Ponieważ składanie jest w teorii kategorii nie tylko operacją podstawową, al
 centralnym, wygodnie jest jeszcze bardziej skrócić zapis i zamiast `g ∘ f` pisać `g f`, albo nawet -
 gdy nie ma wątpliwości, co oznacza taki zapis - `gf`.
 
-Mamy teraz wszystkie narzędzia, żeby dopiero w co omawianej przestrzeni zbiorów skończonych i
-funkcji między zbiorami skończonymi *rozpoznać pewną kategorię*.
+Mamy teraz wszystkie narzędzia, żeby w dopiero co omawianej przestrzeni zbiorów skończonych i
+funkcji między zbiorami skończonymi rozpoznać pewną kategorię.
 
 Jeżeli:
 
