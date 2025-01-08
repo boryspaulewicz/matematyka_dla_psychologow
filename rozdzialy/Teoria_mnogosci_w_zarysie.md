@@ -375,7 +375,7 @@ A teraz będą dwa zapowiedziane przykłady. Zastanów się proszę przez chwil�
 (która mówi, że iloczyn kartezjański dwóch zbiorów to taki zbiór, którego elementami są dokładnie
 wszystkie uporządkowane pary elementów należących do pierwszego i drugiego zbioru) powinien wyglądać
 zbiór `∅ × X`, gdzie `∅` to zbiór pusty, czyli zbiór `{}` (oznaczamy go tak i tak, zależnie od tego,
-jak jest nam w danej sytuacji wygodniej). Jak postanowisz, że już czas, kliknij w
+jak jest nam w danej sytuacji wygodniej). Jak postanowisz, że już czas, kliknij
 [ten](Iloczyn_zbioru_pustego_i_X.md) link żeby przeczytać moje wyjaśnienia.
 
 Drugim ważnym dla nas przykładem jest `{1} × Y`, czyli iloczyn kartezjański pewnego singletona i
