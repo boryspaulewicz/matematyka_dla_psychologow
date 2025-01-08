@@ -14,25 +14,27 @@ górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza
 strzałkami strumieni. 
 
 Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele ważnych regularności, ale nie
-wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się właściwie narysować. Tym czymś, czego
-nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów skończonych
-*żyje*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Jeśli się nie ma takich oczu, w ostateczności
-można spróbować nabyć ich protezę.
+wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się właściwie dobrze narysować. Tym czymś,
+czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów skończonych
+*żyje*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Jeżeli akurat nie jest się w posiadaniu oczu
+anioła, w ostateczności można nabyć ich protezę.
 
 ## Tak się składa
 
 **Rysunek 1**: `Narysuj` proszę trzy, tworzące poziomy szereg punkty i oznacz je od dołu literami
 `X`, `Y` i `Z`. Dodaj `Strzalka X Y` i oznacz ją literą `f` i `Strzalka Y Z` i oznacz ją literą
 `g`. Jak wiesz, te strzałki są `Skladalne`, a więc, jeśli to ma być kategoria, musi istnieć ich
-unikalne `Zlozenie`. Dorysuj więc od dołu `Strzalka X Z` ale wygiętą w łuk i oznacz ją literą `h`, a
-nastęnie nanieś w środku uzyskanego w ten sposób diagramu ptaszka. 
+unikalne `Zlozenie`. Dorysuj więc od dołu `Strzalka X Z`, ale wygiętą w łuk i oznacz ją literą `h`,
+a potem umieść w środku uzyskanego w ten sposób diagramu ptaszka.
 
 Skoro jest tam ptaszek, to znaczy, że (mocą naszej decyzji) ten diagram jest przemienny, a więc
 `Zlozenie f g = h`. Ten ptaszek i odpowiadające mu równanie to właśnie przykład czegoś, czego nie da
-się zobaczyć na samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezntującym
+się zobaczyć na samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezentującym
 zbiory i funkcje między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami,
 są jednak strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym
 (wybrednym) *działaniem*.
+
+TODO Identyczności
 
 przyczepioną do każdego z nich
 [*pętlę*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)).
