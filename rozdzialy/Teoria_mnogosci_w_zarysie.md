@@ -96,41 +96,44 @@ y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` "z
 To jest użyteczny *przykład reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele
 funkcji nie "trafia" w każdy element przeciwdziedziny i często zdarza się, że niektóre elementy
 "trafiają" w ten sam element. *Lubimy* takie reprezentatywne przykłady, ponieważ ułatwiają
-zrozumienie i sprzyjają zapamiętywaniu, czyli sprawiają, że definicji łatwiej się używa. Zwróć też
-proszę uwagę, że chociaż to "tylko" rysunek, to jest to również *pełnoprawna matematyczna
-definicja*, nie ma tu przecież żadnych wątpliwości ani na temat dziedziny, ani przeciwdziedziny, ani
-na temat struktury tej funkcji.
+zrozumienie i sprzyjają zapamiętywaniu, a dzięki temu sprawiają, że definicji łatwiej się
+używa. Zwróć też proszę uwagę, że chociaż to "tylko" rysunek, to jest to również *pełnoprawna
+matematyczna definicja*, nie ma tu przecież *żadnych* wątpliwości ani na temat dziedziny, ani
+przeciwdziedziny, ani na temat struktury tej funkcji.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
 przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* strzałek) jakiegoś zbioru `X`
 (bo po co wymyślać dla kolejnych przykładów ciągle nowe nazwy) elementy (czyli to będą *cele*)
 jakiegoś zbioru `Y`, tak, żeby to *nie* były funkcje. A "zepsuć funkcyjność" można na dokładnie
-*dwa* sposoby - albo jakiś element z lewej będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś
-element z lewej *nie będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi definicjami
-*relacji*, ale nie funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już
-wyjaśniłem. Może jednak jeszcze raz, tak na wszelki wypadek?
+*dwa* sposoby - albo jakiś `x` będzie *wysyłał więcej niż jedną strzałkę*, albo jakiś `x` *nie
+będzie wysyłał żadnej strzałki*. Takie rysunki będą poprawnymi definicjami *relacji*, ale nie
+funkcji, bo funkcje to *relacje specjalne*, to jest takie, jak już wyjaśniłem. Może jednak jeszcze
+raz, tak na wszelki wypadek?
 
 Funkcja każdemu elementowi swojej dziedziny przyporządkowuje dokładnie jeden element swojej
 przeciwdziedziny. Jakim "obiektem" jest więc każda funkcja? *Tego rodzaju przyporządkowaniem*.
 
 **Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
-tym samym na kilka różnych sposobów. O tak rozumianych funkcjach można myśleć jako o abstrakcyjnych
-własnościach pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym rysunku każdy
-element zbioru `X` ma określoną `f`-własność `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię i
-dokładnie jedną datę urodzenia, a więc te własności to *funkcje osób*. Albo można o funkcjach myśleć
-jako o *doskonałych pomiarach* czy może raczej *wartościach obserwowanych* pewnych właściwości albo
-wymiarów. 
+tym samym na kilka różnych sposobów, a do tego bardzo przydają się analogie i bardzo przydaje się
+swobodne używanie słów. O tak rozumianych funkcjach można myśleć jako o abstrakcyjnych własnościach
+pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym rysunku każdy element zbioru
+`X` ma określoną `f`-własność `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię i dokładnie
+jedną datę urodzenia, a więc te własności to *funkcje osób*. O funkcjach można również myśleć jako o
+*doskonałych pomiarach* albo *wartościach obserwowanych* pewnych właściwości czy wymiarów.
 
 I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju *kompletnych oznaczeniach* albo
-*rozdaniach kart* w tym sensie, że każdy element dziedziny jest wykorzystany do oznaczenia, albo że
-jest przydzielony do jakiegoś elementu należącego do przeciwdziedziny. Z tego punktu widzenia każdy
-`x` `f`-oznacza jakiś `y`. Dobrze jest spróbować pomyśleć o takiej funkcji choć raz na każdy z tych
-sposobów, bo zwykle trudno przewidzieć, który punkt widzenia pozwoli zrozumieć jakiś problem lepiej.
+*swobodnych rozdaniach wszystkich kart* w tym sensie, że każdy element dziedziny jest wykorzystany
+do oznaczenia, albo że jest przydzielony, do jakiegoś elementu należącego do przeciwdziedziny. Z
+tego punktu widzenia każdy `x` `f`-oznacza jakiś `y`. Dobrze jest spróbować pomyśleć o takiej
+funkcji choć raz na każdy z tych sposobów, bo zwykle trudno przewidzieć, który punkt widzenia
+pozwoli zrozumieć jakiś problem lepiej.
 
-Odtąd ograniczymy nasze rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
-skończenie wiele elementów. Mówiąc dokładniej, będziemy teraz opisywać świat (a lepiej:
-*przestrzeń*) w którym istnieją tylko zbiory skończone i w którym występują wszystkie możliwe
-funkcje między takimi zbiorami. Na początek omówimy kilka ważnych przykładów.
+## Te zbi{∅}ry są skończone
+
+Odtąd ograniczymy rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają
+skończenie wiele elementów. Mówiąc dokładniej, będziemy opisywać świat (a lepiej: *przestrzeń*) w
+którym istnieją tylko zbiory skończone i w którym występują wszystkie możliwe funkcje między takimi
+zbiorami. Na początek omówimy kilka ważnych przykładów.
 
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
@@ -178,8 +181,8 @@ nie posyła żadnych dwóch `x`-ów do tego samego `y`-a, i oznacz ją literą `
 *injekcjami* albo funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja,
 dziedzina nie może mieć więcej elementów niż przeciwdziedzina? A czy widzisz, że *każda* injekcja to
 *między innymi* pewien *wybór* albo *wskazanie podzbioru* przeciwdziedziny (i niejako przy okazji
-jednokrotne oznaczenie elementów tego podzbioru wszystkimi `x`-ami)? Żeby to podkreślić, otocz
-proszę ten podzbiór `Y` [linią](https://pl.wikipedia.org/wiki/Rysunek) przerywaną. `Napisz` pod
+*jednokrotne* oznaczenie elementów tego podzbioru wszystkimi `x`-ami)? Żeby to podkreślić, otocz
+proszę ten podzbiór `Y` [linią](https://pl.wikipedia.org/wiki/Rysunek) przerywaną. `Napisz` też pod
 rysunkiem komentarz wyrażający krótko to, co w tym momencie rozumiesz na temat injekcji.
 
 **Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję `s` z trójelementowego zbioru `X` do
@@ -206,11 +209,11 @@ wypadku to taka jakby *wymiana* `x`-ów na `y`-ki, ale poza tym nic się nie zmi
 Ważną własnością funkcji izomorficznych i w ogóle wszelkiego rodzaju izomorfizmów jest ich
 *odwracalność*. Dlatego proszę, żebyś narysowała jeszcze *odwrotność funkcji* `b`. To ma być taka
 funkcja `b⁻¹`, że `b⁻¹` *odwraca działanie funkcji* `b`, to znaczy: Jeżeli do dowolnego `x`
-zastosujesz `b`, to gdy do rezultatu zastosujesz `b⁻¹` (czyli pójdziesz po strzałce w drugą stronę),
-uzyskasz ten sam `x`, czyli `b⁻¹(b(x)) = x` *i jednocześnie* dla każdego `y`, `b(b⁻¹(y)) = y`. Jak
-tylko to zrobisz, zobaczysz czemu w wyrażeniu `b(b⁻¹(y))` pojawia się `y` a nie `x`. Można więc
-powidzieć, że funkcje odwrotne są *lustrzanymi odbiciami wiernych odwzorowań dwóch* (z konieczności
-równolicznych, prawda?) *zbiorów*.
+zastosujesz `b`, to gdy do rezultatu zastosujesz `b⁻¹` (czyli pójdziesz w drugą stronę po
+`x`-`b⁻¹`-strzałce), uzyskasz ten sam `x`, czyli `b⁻¹(b(x)) = x` *i jednocześnie* dla każdego `y`,
+`b(b⁻¹(y)) = y`. Jak tylko to zrobisz, zobaczysz czemu w wyrażeniu `b(b⁻¹(y))` pojawia się `y` a nie
+`x`. Można więc powidzieć, że funkcje odwrotne są *lustrzanymi odbiciami wiernych odwzorowań dwóch*
+(z konieczności równolicznych, prawda?) *zbiorów*.
 
 Czy widzisz, że gdy już masz *jakąś* funkcję `f`, to może istnieć *co najwyżej jedna* funkcja `f⁻¹`?
 Można powiedzieć, że jeżeli funkcja ma być odwrotnością jakiejś odwracalnej funkcji `f`, czyli
