@@ -4,7 +4,7 @@ Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś czytaj�
 bezpiecznie. Będziemy niebawem [mówić niemal jednocześnie w kilku
 językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów, teorii typów,
 logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w języku
-naturalnym. Ale zaczniemy od powtórki[^1].
+naturalnym. Ale zaczniemy od powtórki (którą zresztą powtórzymy)[^1].
 
 Już wiesz, że z każdym (nie tylko skończonym) zbiorem jest związana funkcja identycznościowa na tym
 zbiorze, bo dla każdego takiego zbioru potrafisz taką funkcję zdefiniować. W przypadku zbiorów
