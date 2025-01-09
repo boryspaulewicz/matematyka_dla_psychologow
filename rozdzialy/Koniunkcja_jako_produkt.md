@@ -16,14 +16,14 @@ identycznościową nie ma swobody wyboru - każda identyczność musi dla każde
 element. 
 
 I wiesz, że różne zbiory mają różne identyczności, bo tożsamość funkcji zależy od jej dziedziny i
-przeciwdziedziny. Dlatego, dla każdego zbioru `X` możemy napisać `Id_X` i dlatego, gdy piszemy
+przeciwdziedziny. Dlatego dla każdego zbioru `X` możemy napisać `Id_X` i dlatego, gdy piszemy
 skrótowo `Id`, wiemy, że istnieje dokładnie jeden zbiór, który jest zarówno dziedziną jak i
-przeciwdziedziną tej zapisanej za pomocą skrótu myślowego funkcji.
+przeciwdziedziną zapisanej w taki skrótowy sposób identyczności.
 
-Wiesz, kiedy dwie funkcje są składalne i wiesz, że dla każdej pary funkcji `f : X -> Y`, `g : Y ->
+Wiesz, kiedy dwie funkcje są składalne i wiesz, że dla każdej pary funkcji `f : X -> Y` i `g : Y ->
 Z` istnieje dokładnie jedna funkcja `h : X -> Z`, która jest ich złożeniem, czyli jest funkcją `(g o
-f)`, bo dla każdej konkretnej pary składalnych funkcji złożenie tych funkcji również "nie ma żadnego
-wyboru".
+f) : X -> Z`, bo dla każdej konkretnej pary składalnych funkcji złożenie tych funkcji nie tylko
+istnieje, ale również "nie ma żadnego wyboru".
 
 Wiesz poza tym, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo
 identyczności to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*) - zależnie od
@@ -35,10 +35,18 @@ Mogłabyś teraz sama łatwo udowodnić, rozwijając tylko definicję składania
 o g) o f`, który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest operacją
 *łączną*. Ale może na wszelki wypadek ja to tu za Ciebie (i *dla* Ciebie) zrobię:
 
-Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta
-sama funkcja, musimy udowodnić, że `A x in X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc,
-że mamy jakiś `x in X` i tylko rozwijamy definicję składania tyle razy, ile będzie trzeba,
-przekształcając lewą stronę równania do postaci ...
+Zacznijmy może od samego początku. Skoro `f` i `g` to dwie składane funkcje, to wyrażenie `g o f`,
+które oznacza ich złożenie, również oznacza funkcję, a skoro ta ostatnia funkcja jest składalna z
+funkcją `h`, to `h o (g o f)` też oznacza pewną funkcję. Żeby udowodnić, że `h o (g o f) = (h o g) o
+f`, czyli, że lewa i prawa strona tej równości to ta sama funkcja, musimy udowodnić, że `A x in X,
+(h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc najpierw, że mamy *jakiś* `x in X`, bo
+udowadnić coś dla *jakiegoś*, czyli *bliżej nieokreślonego*, czyli *arbitralnego* `x` znaczy
+dokładnie to samo, co udowodnić coś *dla każdego* `x`. W ten sposób jakby *wprowadzamy* `x in X` *do
+kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*. 
+
+Musimy teraz tylko rozwinąć definicję składania tyle razy, ile będzie trzeba, przekształcając lewą
+stronę równania (będącą przecież pewną wielokrotną *aplikacją dwuargumentowej funkcji składania*) do
+postaci ...
 
 `(h o (g o f))(x) = h((g o f)(x)) = h(g(f(x))`
 
@@ -46,30 +54,33 @@ przekształcając lewą stronę równania do postaci ...
 
 `((h o g) o f)(x) = (h o g)(f(x)) = h(g(f(x)))`
 
-... i widzimy, że obie funkcje dają ten sam wynik dla każdego `x in X`, a więc `h o (g o f) = (h o
-g) o f`. Może spróbuj teraz to zrobić sama na kartce, jak najmniej tu zaglądając?
+... żeby zobaczyć, że obie funkcje dają ten sam wynik dla każdego `x in X`, a więc:
+
+`h o (g o f) = (h o g) o f`
+
+Może spróbuj zrobić sama coś podobnego na kartce, jak najmniej tu zaglądając?
 
 Zwróć też proszę uwagę, że poza tym, że wspomniałem o możliwości definiowania funkcji za pomocą
 rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone; przecież, poza
 wspomnianym kontekstem, ani raz nie napisałem niczego w rodzaju "Ponieważ zbiór `X` jest skończony,
 to ...". A to znaczy, że wszystkie wymienione w tym rozdziale własności mają rownież funkcje między
-dowolnymi zbiorami, a więc niekoniecznie skończonymi.
+*dowolnymi* zbiorami, a więc niekoniecznie skończonymi.
 
 Czy widzisz na tym przykładzie, że warto czasem mieć *świadomość tego, z jakich założeń się
 korzysta*?  Dzięki temu możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione
 zdanie*, czyli *kiedy możemy używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w
 języku teorii typów, nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni,
-z których założeń korzystaliśmy, bo te występowały wszystkie jawnie w kodzie każdego dowodu, ale gdy
-konstruujemy dowody w bardziej nieformalny sposób, tego tak dobrze nie widać, dlatego dobrze jest
-wtedy zachować czujność.
+z których założeń korzystaliśmy, bo te występowały wszystkie jawnie, albo jako parametry każdego
+dowodu, albo w kodzie dowodu jako funkcji. Gdy jednak konstruujemy dowody w bardziej nieformalny
+sposób, tak dobrze tego nie widać, dlatego warto wtedy zachować czujność.
 
 Gdybyśmy się teraz skupili na samych funkcjach i na tym, o czym mówiliśmy dotąd w tym rozdziale, to
-można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywist
+można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywiste
 skróty myślowe - jednym podwójnym równaniem i jednym pojedynczym:
 
-`Id o f = f = f o Id`
+1. `Id o f = f = f o Id`
 
-`h o (g o f) = (h o g) o f`
+2. `h o (g o f) = (h o g) o f`
 
 A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi przypadkowo w środku
 tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a każda
@@ -181,7 +192,23 @@ alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 
 ## Acha, fajnie, ale *po co*?
 
+Skoro zaczęłaś się już trochę oswajać z kategoryjnym punktem widzenia, przyszedł czas, żeby z tego
+skorzystać. Zgaduję, że w tym momencie aksjomaty kategorii są dla Ciebe mocno przytwierdzone do
+konkretnego przykładu zbiorów i funkcji, bo przecież od tego zaczęliśmy. Będziesz się odrywać od
+tego przykładu w dwóch krokach, a właściwie raczej w dwóch
+[przelotach](https://pl.wikipedia.org/wiki/Przelot).
 
+Najpierw pokażę Ci, że pewne znane Ci już, ważne konstrukcje i własności *teoriomnogościowe*, takie
+jak element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
+podzbiór, podział zbioru (na wyczerpujące i rozłączne części czyli *pod*zbiory), zbiór pusty,
+singleton, iloczyn kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako
+kategoryjne *struktury strzałkowe* i że to jest w pewnym technicznym sensie *lepszy*, bo *bardziej
+uniwersalny* punkt widzenia. Niejako przy okazji zaczniesz też w bardziej elastyczny sposób myśleć o
+"takosamości" matematycznych struktur. Mając ten fascynujący moim zdaniem etap za sobą, w następnym
+rozdziale skorzystamy z tych alternatywnych, uniwersalnych i abstrakcyjnych kategoryjnych definicji,
+żeby w nowy sposób popatrzeć na logikę.
+
+TODO
 
 Do każdego punktu musi być również przyczepiona unikalna
 [*pętla*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)) reprezentująca
