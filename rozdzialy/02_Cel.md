@@ -381,5 +381,7 @@ poziomie *szkoły podstawowej*.
     architektury umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą zależeć i na
     pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
     środowiskiem. Dlatego, mimo oszałamiającej ilości publikowanych każdego roku artykułów,
-    sprawiająca wrażenie bardzo "naukowej" psychologia poznawcza jak dotąd nadaje się głównie do
-    *pisania i publikowania kolejnych artykułów*.
+    sprawiająca wrażenie stosunkowo "naukowej" psychologia poznawcza, za wyjątkiem skromnej liczby
+    często niezbyt zresztą zaskakujących zastosowań, jak dotąd nadaje się przede wszystkim do
+    *pisania kolejnych artykułów* (i pozyskiwania na potrzeby realizacji tego osobliwego celu
+    niemałych, prawie zawsze publicznych pieniędzy).
