@@ -327,13 +327,13 @@ jest funkcja) znaczy to samo, co `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`:
    (tak zaczynamy konstrukcję dowodu zdania, które ma być prawdziwe dla każdego `x` należącego do `X`)  
 
 2. Wtedy `(Id_Y ∘ f)(x) = Id_Y(f(x))`, ...  
-   (rozwijamy definicję teoriomnogościowego składania funkcji)  
+   (rozwijamy definicję symbolu `∘`, który oznacza tutaj teoriomnogościowe składanie funkcji)  
 
 3. ... a ponieważ `Id_Y(f(x)) = f(x)` ...  
    (stosujemy definicję funkcji identycznościowej)  
 
 4. ... to `(Id_Y ∘ f)(x) = f(x)`.  
-   (stosujemy przechodniość relacji równości do już udowodnionych zdań 2 i 3)
+   (stosujemy przechodniość relacji równości do udowodnionych już zdań 2 i 3)
 
 Czyli *dla każdego* `x ∈ X` *jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, albo krócej:
 
