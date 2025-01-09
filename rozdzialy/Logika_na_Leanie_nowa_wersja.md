@@ -81,7 +81,7 @@ teraz poniżej komentarza `intro n` i nasikając klawisz Enter sprawisz, że kon
 pustego na taki, w którym masz do dyspozycji jakąś (czyli arbitralną) liczbę naturalną o nazwie `n`,
 czyli `n : Nat`. To daje taki sam efekt jak dołożenie parametru `(n : Nat)` do definiowanej
 funkcji - gdy definiowana funkcja ma taki parametr, wewnątrz jej ciała widać `n : Nat` właśnie jako
-element kontekstu, to jest jedną z dostępnych lokalnie deklaracji zmiennych.
+element kontekstu, to jest jako jedną z dostępnych lokalnie deklaracji zmiennych.
 
 Zastosowanie taktyki `intro` jest więc tym samym, co rozpoczęcie tworzenia kodu funkcji anonimowej
 `fun (n : Nat) => ...` i umieszczenie kursora w miejscu trzech kropek, to jest w miejscu, w którym
