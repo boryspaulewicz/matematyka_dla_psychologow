@@ -95,11 +95,11 @@ y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` "z
 
 To jest użyteczny *przykład reprezentatywny* funkcji, bo prawie wszystkie zbiory są niepuste, wiele
 funkcji nie "trafia" w każdy element przeciwdziedziny i często zdarza się, że niektóre elementy
-"trafiają" w ten sam element. *Lubimy* takie reprezentatywne przykłady, ponieważ ułatwiają
-zrozumienie i sprzyjają zapamiętywaniu, a dzięki temu sprawiają, że definicji łatwiej się
-używa. Zwróć też proszę uwagę, że chociaż to "tylko" rysunek, to jest to również *pełnoprawna
-matematyczna definicja*, nie ma tu przecież *żadnych* wątpliwości ani na temat dziedziny, ani
-przeciwdziedziny, ani na temat struktury tej funkcji.
+"trafiają" w ten sam element. [*Lubimy*](https://en.wikipedia.org/wiki/Prototype_theory) takie
+reprezentatywne przykłady, ponieważ ułatwiają zrozumienie i sprzyjają zapamiętywaniu, a dzięki temu
+sprawiają, że definicji łatwiej się używa. Zwróć też proszę uwagę, że chociaż to "tylko" rysunek, to
+jest to również *pełnoprawna matematyczna definicja*, nie ma tu przecież *żadnych* wątpliwości ani
+na temat dziedziny, ani przeciwdziedziny, ani na temat struktury tej funkcji.
 
 **Przykłady negatywne**: Byłoby dobrze, gdybyś jeszcze narysowała poniżej bardziej samodzielnie dwa
 przykłady sposobów przyporządkowania elementom (czyli to będą *źródła* strzałek) jakiegoś zbioru `X`
