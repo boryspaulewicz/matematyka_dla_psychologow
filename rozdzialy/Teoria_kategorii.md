@@ -191,9 +191,9 @@ Być może trudno "Ci" zaakceptować to, że równość w matematyce to "tylko" 
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
 akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem nagle temat (i jednocześnie wcale nie
 zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego tylko może
-się nadawać, musimy nauczyć się patrzeć na to coś na różne sposoby. A to oznacza, że musimy pogodzić
-się z pewnym rodzajem [nieszkodliwego
-relatywizmu](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
+się nadawać, musimy nauczyć się patrzeć na to samo na różne sposoby. A to oznacza, że musimy
+pogodzić się z pewnego rodzaju [nieszkodliwym
+relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
 zawsze rozmaite alternatywne, wewnętrznie niesprzeczne punkty widzenia na to samo i dopóki
 korzystamy z nich w sposób konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy uzasadnienie
 albo dowód dla *każdego* możliwego zdania.
