@@ -143,18 +143,38 @@ składania funkcji*. Można powiedzieć, że ze względu na operację składania
 (nieskończenie) wiele *zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i
 operacjami dodawania lub mnożenia.
 
-Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie jest łączne*, co znaczy, że zapisując
-składanie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w
-jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak ma oczywiście znaczenie, w
-jakiej kolejności podamy jej argumenty).
+Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest łączne*, co znaczy, że
+zapisując składanie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma
+znaczenia*, w jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak w ogólnym
+przypadku ma oczywiście znaczenie, w jakiej kolejności podamy jej argumenty).
 
-o dowolnych strzałkach `f`, `g` i `h`, które są "kolejno składalne", to jest `Skladalne f g` i
-`Skladalne g h`, czyli takich, że `Cel f = Zrodlo g` i `Cel g = Zrodlo h`:
+"Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy, widzimy
+albo wiemy między innymi, że:
 
-1. 
-    
-2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
+1. Istnieją *punkty* (zbiorów), ale widzimy je w zasadzie tylko jako *punkty zaczepienia strzałek*.
 
+2. Istnieją *strzałki*, w których też nie jesteśmy w stanie z tej wysokości dostrzec żadnej
+   *wewnętrznej* struktury.
+
+3. Istnieje wybredna w znany Ci już sposób *operacja składania strzałek*.
+
+4. Każdy punkt ma swoją *unikalną* i *charakterystyczną pętlę identyczności*.
+
+5. Identyczności są elementami neutralnymi ze względu na operację składania: `Id ∘ f = f = f ∘ Id`.
+
+6. Składanie jest łączne: `h ∘ (g ∘ f) = (h ∘ g) ∘ f = h g f`.
+
+W ostatnim punkcie pozwoliłem sobie skorzystać z możliwości pozbycia się nawiasów - bo składanie
+jest łączne - i z uproszczenia polegającego na pozbyciu się również symbolu `∘`. W praktyce zwykle
+używamy tej notacji, bo składanie jest w teorii kategorii operacją podstawową i nie lubimy
+niepotrzebnie dużo pisać.
+
+I w ten oto sposób, zmierzając razem ze mną dosyć okrężną drogą do pojęcia [*logicznej
+alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
+[poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) wszystkie
+[*aksjomaty kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
+
+## *Acha, fajnie, ale po co?*
 
 
 
