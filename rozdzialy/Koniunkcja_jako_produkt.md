@@ -87,15 +87,15 @@ da, to znaczy próbować wyprowadzać dedukcyjnie rozmaite wnioski w języku teo
 **Rysunek 1**: `Narysuj` proszę trzy, tworzące poziomy szereg punkty i oznacz je od dołu literami
 `X`, `Y` i `Z`. Dodaj `Strzalka X Y` i oznacz ją literą `f` i `Strzalka Y Z` i oznacz ją literą
 `g`. Ponieważ jesteś tak wysoko, nie jesteś w stanie zobaczyć strzałek wychodzących z poszczególnych
-elementów, ale widzisz funkcje - jako strzałki między punktowymi zbiorami - a ponieważ masz protezę
-genialności, widzisz *czasem* (bo to tylko proteza) które strzałki składają się w które i które
-strzałki można złożyć z których strzałek.
+elementów, ale widzisz funkcje - jako *pojedyncze* strzałki między punktowymi zbiorami - a ponieważ
+masz protezę genialności, widzisz też *czasami* (bo to tylko proteza), które strzałki składają się w
+które i które strzałki można złożyć z których strzałek.
 
 Strzałki `f` i `g` są `Skladalne`, a więc musi istnieć ich unikalne `Zlozenie`, to jest taka funkcja
 `h`, która jest funkcją `(g ∘ f)`, czyli dla której spełniony jest warunek `∀ x ∈ X, h(x) = (g ∘
 f)(x)`. Tego nie musisz próbować *zobaczyć*, bo to możesz *wywnioskować* z definicji
-funkcji. Dorysuj więc od dołu `Strzalka X Z`, ale wygiętą w łuk, i oznacz ją literą `h`, a potem
-umieść w środku uzyskanego w ten sposób diagramu ptaszka.
+funkcji. Dorysuj więc od dołu `Strzalka X Z`, ale taką wygiętą w łuk, i oznacz ją literą `h`, a
+potem umieść w środku uzyskanego w ten sposób diagramu ptaszka.
 
 Jest tam teraz ptaszek, bo mocą naszej *decyzji* dotyczącej tego, co oznacza `h`, ten diagram jest
 *przemienny*, co możemy zapisać algebraicznie również tak: `Zlozenie f g = h`. Ten ptaszek i
@@ -103,28 +103,38 @@ odpowiadające mu równania w dwóch różnych językach, to przykład czegoś, 
 samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezentującym zbiory i funkcje
 między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami, są jednak
 strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym (wybrednym)
-*działaniem*.
+*działaniem*. Dlatego z wysokości na której się aktualnie znajdujesz nie zobaczysz tego nawet
+patrząc przez magiczne okulary, a więc wszystkie informacje na temat (ro)\{z/s\}kładania funkcji,
+poza uniwersalnymi włanościami tego działania, musisz albo *założyć* albo *wywnioskować*.
 
-Tego, że każdy zbiór ma jedną identyczność, nie musisz próbować zobaczyć (ani zakładać), bo *wiesz*,
-że dla każdego zbioru `X` można zdefiniować taką funkcję `Id_X`, że `∀ x ∈ X, Id_X(x) = x` i wiesz,
-że dla każdego zbioru istnieje dokładnie jedna taka funkcja. Nie musisz też nigdy próbować zobaczyć
-(ani zakładać), że różne zbiory mają różne identyczności, bo *wiesz*, że o tożsamości funkcji
-decyduje między innymi jej dziedzina i przeciwdziedzina. Nie musisz więc wytężać wzroku (ani się
-dłużej zastanawiać), żeby się przekonać, że każdy punkt ma swoją *unikalną* i *charakterystyczną*
-endostrzałkę identycznościową. A to znaczy, że istnieje izomorfizm między zbiorami i
-identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach możemy równie dobrze mówić o
-identycznościach.
+Tego, że każdy zbiór ma jedną identyczność, nie musisz próbować zobaczyć (ani nawet zakładać), bo
+*wiesz* (to jest jedna z tych uniwersalnych własności), że dla każdego zbioru `X` można zdefiniować
+taką funkcję `Id_X`, że `∀ x ∈ X, Id_X(x) = x` i wiesz, że dla każdego zbioru istnieje dokładnie
+jedna taka funkcja. Nie musisz też nigdy próbować zobaczyć (ani zakładać), że różne zbiory mają
+różne identyczności, bo *wiesz* (z definicji), że o tożsamości funkcji decyduje między innymi jej
+dziedzina i przeciwdziedzina. 
 
-Wiesz jeszcze dwie rzeczy o dowolnych strzałkach `f`, `g` i `h`, które są "kolejno składalne", to
-jest `Skladalne f g` i `Skladalne g h`, czyli takich, że `Cel f = Zrodlo g` i `Cel g = Zrodlo h`:
+Nie musisz więc wytężać wzroku (ani się dłużej zastanawiać), żeby się przekonać, że każdy punkt ma
+swoją *unikalną* i *charakterystyczną* endostrzałkę identycznościową. A to znaczy, że istnieje
+izomorfizm między zbiorami i identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach
+możemy równie dobrze mówić o identycznościach.
 
-1. `Id ∘ f = f = f ∘ Id`
+Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest zawsze prawdą, że `Id ∘ f
+= f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający zdaniom `Id ∘ f = f` i `f =
+f ∘ Id`, gdzie pozwoliłem sobie na skrót myślowy i nie zaznaczyłem, że pierwsza i ostatnia
+identyczność są przyczepione do *potencjalnie* różnych punktów, jest spełniony, ponieważ gdybyś
+zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że `∀ x ∈ X, (Id
+∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`. To jest (nawiasem mówiąc) dowód przedstawiony
+nieco nonszalancko w postaci jednego zdania, w ramach którego rozwijamy, a następnie "zawijamy"
+(albo "owijamy"?) definicje identyczności i składania.
+
+o dowolnych strzałkach `f`, `g` i `h`, które są "kolejno składalne", to jest `Skladalne f g` i
+`Skladalne g h`, czyli takich, że `Cel f = Zrodlo g` i `Cel g = Zrodlo h`:
+
+1. 
     
 2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
-Pierwszy warunek, odpowiadający zdaniom `Id ∘ f = f` i `f ∘ Id`, gdzie pozwoliłem sobie na skrót
-myślowy i nie zaznaczyłem, że pierwsza i ostatnia identyczność są przyczepione do potencjalnie
-różnych punktów, jest spełniony, ponieważ gdybyś zmniejszyła swoją wysokość zobaczyłabyś, że:
 
 
 
