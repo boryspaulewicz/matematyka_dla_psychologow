@@ -167,9 +167,9 @@ czynność inicjujesz ten sam proces, tylko że wtedy prowadzisz wewnętrzny dia
 znaczy, "sama" z przyszłą "sobą" współ-działasz, bo inaczej "Twoje" zachowanie nie byłoby tak
 *elastyczne* i nie działałoby *tak* (to jest *zwykle wystarczająco*) *dobrze*, a ponieważ świetnie
 "się" rozumiecie, "Ty" i powstająca za chwilę nowa wersja "Ciebie" (jednostronnie, ale jednak)
-komunikujecie "się" zwykle - choć nie zawsze - bez słów, i ten *sposób działania* jest dla "Ciebie"
-tak zwyczajny i naturalny, że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest konieczny
-do *zrobienia czegokolwiek*.
+komunikujecie "się" zwykle - choć nie zawsze - bez słów, i ten *sposób działania* "przychodzi Ci"
+zwykle tak naturalnie, że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest konieczny do
+*zrobienia czegokolwiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz teraz ten
 fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz
