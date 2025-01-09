@@ -6,30 +6,34 @@ językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbior
 logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w języku
 naturalnym. Ale zaczniemy od powtórki[^1].
 
-Już wiesz, że z każdym skończonym zbiorem jest związana funkcja identycznościowa na tym zbiorze, bo
-dla każdego takiego zbioru potrafisz taką funkcję zdefiniować rysując ją. Wiesz też, że istnieje
-dokładnie jedna taka funkcja dla każdego zbioru, bo gdy definiuje się funkcję identycznościową nie
-ma swobody wyboru - każda identyczność musi dla każdego elementu zwrócić ten element. I wiesz, że
-różne zbiory mają różne identyczności, bo tożsamość funkcji zależy od jej dziedziny i
+Już wiesz, że z każdym (nie tylko skończonym) zbiorem jest związana funkcja identycznościowa na tym
+zbiorze, bo dla każdego takiego zbioru potrafisz taką funkcję zdefiniować. W przypadku zbiorów
+skończonych możesz to zrobić po prostu rysując ją, a w przypadku nieskończonych możesz podać
+jednoznaczną regułę jej działania. 
+
+Wiesz też, że istnieje dokładnie jedna taka funkcja dla każdego zbioru, bo gdy definiuje się funkcję
+identycznościową nie ma swobody wyboru - każda identyczność musi dla każdego elementu zwrócić ten
+element. 
+
+I wiesz, że różne zbiory mają różne identyczności, bo tożsamość funkcji zależy od jej dziedziny i
 przeciwdziedziny. Dlatego, dla każdego zbioru `X` możemy napisać `Id_X` i dlatego, gdy piszemy
 skrótowo `Id`, wiemy, że istnieje dokładnie jeden zbiór, który jest zarówno dziedziną jak i
 przeciwdziedziną tej zapisanej za pomocą skrótu myślowego funkcji.
 
 Wiesz, kiedy dwie funkcje są składalne i wiesz, że dla każdej pary funkcji `f : X -> Y`, `g : Y ->
 Z` istnieje dokładnie jedna funkcja `h : X -> Z`, która jest ich złożeniem, czyli jest funkcją `(g o
-f)`, bo dla każdej konkretnej pary składalnych funkcji złożenie tych funkcji "nie ma wyboru". W tym
-przypadku, zgodnie z definicją składania funkcji, dla każdego `x in X, h(x) = (g o f)(x) =
-g(f(x))`. 
+f)`, bo dla każdej konkretnej pary składalnych funkcji złożenie tych funkcji również "nie ma żadnego
+wyboru".
 
-I wiesz, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo
+Wiesz poza tym, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo
 identyczności to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*) - zależnie od
 tego, czy skorzystamy z (luźnej) analogii do dodawania czy do mnożenia - ze względu na operację
-składania funkcji. 
+składania.
 
-Mogłabyś też teraz sama łatwo udowodnić, rozwijając tylko definicję składania funkcji, że dla
-każdych *trzech* funkcji `f : X -> Y`, `g : Y -> Z` i `h : Z -> V` spełniony jest warunek `h o (g o
-f) = (h o g) o f`, który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest
-operacją *łączną*. Ale może na wszelki wypadek ja to też tu zrobię:
+Mogłabyś teraz sama łatwo udowodnić, rozwijając tylko definicję składania funkcji, że dla każdych
+*trzech* funkcji `f : X -> Y`, `g : Y -> Z` i `h : Z -> V` spełniony jest warunek `h o (g o f) = (h
+o g) o f`, który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest operacją
+*łączną*. Ale może na wszelki wypadek ja to tu za Ciebie (i *dla* Ciebie) zrobię:
 
 Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta
 sama funkcja, musimy udowodnić, że `A x in X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc,
@@ -47,15 +51,15 @@ g) o f`. Może spróbuj teraz to zrobić sama na kartce, jak najmniej tu zagląd
 
 Zwróć też proszę uwagę, że poza tym, że wspomniałem o możliwości definiowania funkcji za pomocą
 rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone; przecież, poza
-wspomnianym kontekstem, ani raz nie napisałem niczego w stylu "ponieważ zbiór `X` jest skończony, to
-...". A to znaczy, że wszystkie wymienione w tym rozdziale własności mają rownież funkcje między
+wspomnianym kontekstem, ani raz nie napisałem niczego w rodzaju "Ponieważ zbiór `X` jest skończony,
+to ...". A to znaczy, że wszystkie wymienione w tym rozdziale własności mają rownież funkcje między
 dowolnymi zbiorami, a więc niekoniecznie skończonymi.
 
 Czy widzisz na tym przykładzie, że warto czasem mieć *świadomość tego, z jakich założeń się
-korzysta*?  Dzięki temu możemy poprawnie *ocenić w jakich sytuacjach obowiązuje udowodnione zdanie*,
-czyli *kiedy możemy używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w języku teorii
-typów, nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni, z których
-założeń korzystaliśmy, bo te występowały wszystkie jawnie w kodzie każdego dowodu, ale gdy
+korzysta*?  Dzięki temu możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione
+zdanie*, czyli *kiedy możemy używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w
+języku teorii typów, nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni,
+z których założeń korzystaliśmy, bo te występowały wszystkie jawnie w kodzie każdego dowodu, ale gdy
 konstruujemy dowody w bardziej nieformalny sposób, tego tak dobrze nie widać, dlatego dobrze jest
 wtedy zachować czujność.
 
@@ -77,10 +81,10 @@ zbiorów* i *strzałkami strumieni*.
 Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele regularności, ale nie
 wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się w ten sposób dobrze narysować. Tym
 czymś, czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów
-*żyje*, to jest *jak działa działanie składania*. Żeby zobaczyć *to* trzeba mieć oczy anioła. Ja
-akurat nie mam i zgaduję, że Ty również nie posiadasz (wybacz). Jeżeli nie jest się chwilowo w
-posiadaniu oczu anioła, w ostateczności można nabyć ich protezę i próbować wypatrzyć, co tylko się
-da, to znaczy próbować wyprowadzać dedukcyjnie rozmaite wnioski w języku teorii kategorii.
+*żyje*, to jest nie widziałabyś *jak działa działanie składania*. Żeby zobaczyć *to* trzeba mieć
+oczy anioła. Ja akurat nie mam i zgaduję, że Ty również nie posiadasz (wybacz). Jeżeli nie jest się
+chwilowo w posiadaniu oczu anioła, w ostateczności można nabyć ich protezę i próbować wypatrzyć, co
+tylko się da, to znaczy próbować wyprowadzać dedukcyjnie rozmaite wnioski w języku teorii kategorii.
 
 ## Tak się składa
 
@@ -128,7 +132,8 @@ zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobac
 `∀ x ∈ X, (Id ∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`
 
 To jest (nawiasem mówiąc) dowód przedstawiony nieco nonszalancko w postaci jednego zdania, w ramach
-którego rozwijamy, a następnie "zawijamy" (albo "owijamy"?) definicje identyczności i składania. A po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x ∈ X`, to ...
+którego rozwijamy, a następnie "zawijamy" (albo "owijamy"?) definicje identyczności i składania. A
+po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x ∈ X`, to ...
 
 `(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))) = (h ∘ (g(f(x)))) = ((h ∘ g) ∘ f)(x)`
 
@@ -138,15 +143,15 @@ A więc ...
 
 2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
-Po pierwsze, widzimy więc, że identyczności są *elementami neutralnymi ze względu na operację
+Po pierwsze, nadal widzimy więc, że identyczności są *elementami neutralnymi ze względu na operację
 składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
 (nieskończenie) wiele *zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i
 operacjami dodawania lub mnożenia.
 
-Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest łączne*, co znaczy, że
-zapisując składanie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma
-znaczenia*, w jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak w ogólnym
-przypadku ma oczywiście znaczenie, w jakiej kolejności podamy jej argumenty).
+Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest* nadal *łączne*, co
+znaczy, że zapisując składanie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i
+*nie ma znaczenia*, w jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak w
+ogólnym przypadku ma oczywiście znaczenie, w jakiej kolejności podamy argumenty tej operacji).
 
 "Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy, widzimy
 albo wiemy między innymi, że:
@@ -158,7 +163,7 @@ albo wiemy między innymi, że:
 
 3. Istnieje wybredna w znany Ci już sposób *operacja składania strzałek*.
 
-4. Każdy punkt ma swoją *unikalną* i *charakterystyczną pętlę identyczności*.
+4. Każdy punkt ma swoją *unikalną* i *charakterystyczną pętlę identycznościową*.
 
 5. Identyczności są elementami neutralnymi ze względu na operację składania: `Id ∘ f = f = f ∘ Id`.
 
@@ -166,10 +171,10 @@ albo wiemy między innymi, że:
 
 W ostatnim punkcie pozwoliłem sobie skorzystać z możliwości pozbycia się nawiasów - bo składanie
 jest łączne - i z uproszczenia polegającego na pozbyciu się również symbolu `∘`. W praktyce zwykle
-używamy tej notacji, bo składanie jest w teorii kategorii operacją podstawową i nie lubimy
+używamy właśnie tej notacji, bo składanie jest w teorii kategorii operacją podstawową i nie lubimy
 niepotrzebnie dużo pisać.
 
-I w ten oto sposób, zmierzając razem ze mną dosyć okrężną drogą do pojęcia [*logicznej
+I w ten oto sposób, zmierzając razem ze mną okrężną drogą do pojęcia [*logicznej
 alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 [poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) wszystkie
 [*aksjomaty kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
