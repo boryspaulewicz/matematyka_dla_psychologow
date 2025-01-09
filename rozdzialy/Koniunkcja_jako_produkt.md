@@ -179,7 +179,7 @@ alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 [poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) wszystkie
 [*aksjomaty kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
 
-## *Acha, fajnie, ale po co?*
+## Acha, fajnie, ale *po co*?
 
 
 
