@@ -421,7 +421,7 @@ fragmentem.
 
 Dla dowolnych zbiorów `X` i `Y`, *suma rozłączna* tych zbiorów to taki zbiór, który zawiera
 dokładnie wszystkie *kopie*, zapisane w jakikolwiek sposób jako *różne* elementy, elementów tych
-zbiorów. To znaczy, że wewnątrz sumy rozłącznej *zachowujemy informację* o tym, z którego z dwóch
+zbiorów. To znaczy, że wewnątrz sumy rozłącznej *zachowujemy informację* o tym z którego z dwóch
 zbiorów pochodzi każdy element.
 
 Na przykład, jeżeli tak jak wcześniej `X = {1, 2, 3}` i `Y = {a, b}`, to nie musimy w żaden sposób
