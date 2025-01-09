@@ -136,12 +136,11 @@ rozważań na temat oceny hipotez empirycznych.
 
 Mam nadzieję, że skonstruowanie tego dowodu pozwoliło Ci też doświadczyć czegoś, co sam niby
 wiedziałem od dawna, ale dopiero ostatnio zaczęło do mnie trochę lepiej docierać, co z tego
-wynika. Gdy poprosiłem doktorantów uczestniczących w moim kursie dotyczącym wnioskowania
-przyczynowego i bayesowskiego o skonstruowanie według wskazówek zapisanych w skrypcie w języku Lean
-dowodów kilku prostych tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez większego
-problemu. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się
-Sofiia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała zadanie, "nie
-wiedziała, co się stało".
+wynika. Gdy poprosiłem doktorantów o skonstruowanie według wskazówek zapisanych w skrypcie w języku
+Lean dowodów kilku prostych tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez
+większego problemu. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania -
+zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała
+zadanie, "nie wiedziała, co się stało".
 
 Ta odpowiedź niedawno mi się przypomniała i od tej pory nie dawała mi spokoju. Dlatego poprosiłem
 Sofiię, żeby spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim
