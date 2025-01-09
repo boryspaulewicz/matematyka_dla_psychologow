@@ -12,16 +12,17 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni
 > inne szeroko używane obiekty jak liczby, funkcje oraz inne relacje; teoria mnogości stała się tak
 > źródłem modeli różnych teorii formalnych.
 
-Wolałbym chyba "w ten sposób" zamiast "tak" w tym ostatnim zdaniu, ale trudno, jest jak jest. Nie
-będziemy się teraz przyglądać aksjomatom tej teorii, ponieważ my sobie sami *zrobimy* - ze strzałek
+Wolałbym chyba "w ten sposób" zamiast "tak" w ostatnim zdaniu, ale trudno, jest jak jest. Nie
+będziemy się teraz przyglądać aksjomatom teorii *ZF*, ponieważ my sobie sami *zrobimy* - ze strzałek
 i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
 zacznę odtąd intensywnie *korzystać* z półformalnej wersji teorii mnogości jako ze źródła ważnych
 przykładów.
 
 Pojęcie zbioru jako takiego jest interesujące przede wszystkim dla specjalistów zajmujących się
 zbiorami, natomiast dla reszty świata, poza kilkoma powszechnie używanymi rodzajami konstrukcji
-opartych na zbiorach, to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic innego jak pewna
-*kolekcja* (jakiś) elementów czy obiektów. 
+opartych na zbiorach - w których zresztą, jak później się przekonasz, właściwie nie chodzi za bardzo
+o zbiory - to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic innego jak pewna *kolekcja*
+(jakiś) elementów czy obiektów.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
@@ -36,10 +37,10 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 `{n ∈ ℕ | Dodatnie n}`
 
 ... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. *Ostatni* przykład możemy odczytać
-w ten sposób: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`n ∈ ℕ`), że `Dodatnie n` (`|
-Dodatnie n}`). Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z
+w ten sposób: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ`), że `Dodatnie n` (`{ n
+∈ ℕ | Dodatnie n}`). Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z
 dominującym zwyczajem - zbiory mogą zawierać dowolne elementy, na przykład takie, które nie należą
-do żadnego dającego się łatwo (albo nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory
+do żadnego dającego się łatwo (a może nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory
 to takie (niemal[^4]) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
 **Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
@@ -58,18 +59,18 @@ oznaczają zbiory, a małe litery oznaczają elementy. Czasami nie sposób trzym
 konsekwentnie, ponieważ elementami zbiorów mogą być również zbiory, ale tym razem takie komplikacje
 nie wystąpią.
 
-**Tożsamość zbiorów**: Te liczbowe indeksy dolne są trochę mylące, ponieważ sugerują, że kolejność
-elementów może mieć znaczenie. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są elementy
-zbioru *nie ma znaczenia*, tak samo jak nie ma znaczenia, czy ten sam element zapiszemy *więcej niż
-raz*. Na przykład, `{1, 2}` to *ten sam zbiór* co `{2, 1}` i *ten sam zbiór* co `{1, 1, 2}`, bo do
-wszystkich tych zbiorów *należą dokładnie te same elementy*, to jest `1` i `2`, a to, które elementy
-do danego zbioru należą, a które nie, *decyduje o tożsamości zbioru*.
+**Tożsamość zbiorów**: Te liczbowe indeksy dolne są w tym przypadku mylące, ponieważ sugerują, że
+kolejność elementów może mieć znaczenie. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są
+elementy zbioru *nie ma znaczenia*, tak samo jak nie ma znaczenia, czy ten sam element zapiszemy
+*więcej niż raz*. Na przykład, `{1, 2}` to *ten sam zbiór* co `{2, 1}` i *ten sam zbiór* co `{1, 1,
+2}`, bo do wszystkich tych zbiorów *należą dokładnie te same elementy*, to jest `1` i `2`, a to,
+które elementy do danego zbioru należą, a które nie, *decyduje o tożsamości zbioru*.
 
 Celowo napisałem *ten sam zbiór*, a nie na przykład *ten sam obiekt*, bo takie *zapisy* jak `{1, 1,
-2}` można przecież *interpretować dowolnie* (interpretacja jest zawsze pewnym *wyborem*,
-pamiętasz?), a z pewnych punktów widzenia te trzy wyrażenia na pewno mogłyby oznaczać różne
-"rzeczy". Gdy mówimy o czymś, że to jakiś "obiekt", nie wiadomo przecież co mamy na myśli, to znaczy
-nie wiadomo, jakiego *rodzaju* (albo typu) obiekt to coś ma reprezentować.
+2}` można przecież *interpretować dowolnie* (interpretacja jest zawsze *wyborem*, pamiętasz?), a z
+pewnych punktów widzenia te trzy wyrażenia na pewno mogłyby oznaczać różne "rzeczy". Gdy mówimy o
+czymś, że to jakiś "obiekt", nie wiadomo przecież co mamy na myśli, to znaczy nie wiadomo, jakiego
+*rodzaju* (albo typu) obiekt to coś, o czym mówimy, ma reprezentować.
 
 A mówiąc to samo, ale inaczej: To, które elementy należą, a które nie należą do danego zbioru
 decyduje o tym, które zbiory są *równe*, czyli *nierozróżnialne jako zbiory* (relacja równości jest
