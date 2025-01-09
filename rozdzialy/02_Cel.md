@@ -380,8 +380,11 @@ poziomie *szkoły podstawowej*.
     wiemy, że możemy zapomnieć o jakichkolwiek szansach na względnie szczegółową identyfikację
     architektury umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą zależeć i na
     pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
-    środowiskiem. Dlatego, mimo oszałamiającej ilości publikowanych każdego roku artykułów,
-    sprawiająca wrażenie stosunkowo "naukowej" psychologia poznawcza, za wyjątkiem skromnej liczby
-    często niezbyt zresztą zaskakujących zastosowań, jak dotąd nadaje się przede wszystkim do
-    *pisania kolejnych artykułów* (i pozyskiwania na potrzeby realizacji tego osobliwego celu
-    niemałych, prawie zawsze publicznych pieniędzy).
+    środowiskiem. Przecież gdyby proces reagowania nie był w ogromnym stopniu wyuczalny, również, a
+    może przede wszystkim poprzez uczenie się społeczne, w tym wszelkiego rodzaju procesy polegające
+    na komunikacji, i gdyby nie był wrażliwy na całą historię interakcji, to poziom adaptacji, który
+    gołym okiem widać w zachowaniach ludzi, nie byłby możliwy. Dlatego, mimo oszałamiającej ilości
+    publikowanych każdego roku artykułów, sprawiająca wrażenie stosunkowo "naukowej" psychologia
+    poznawcza, za wyjątkiem skromnej liczby często niezbyt zresztą zaskakujących zastosowań, jak
+    dotąd nadaje się przede wszystkim do *pisania kolejnych artykułów* i pozyskiwania na potrzeby
+    realizacji tego etycznie wątpliwego celu *niemałych*, prawie zawsze *publicznych pieniędzy*.
