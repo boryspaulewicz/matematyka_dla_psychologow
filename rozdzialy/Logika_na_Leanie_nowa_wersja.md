@@ -317,7 +317,7 @@ słowo kluczowe `by`. Potraktuj `Prop` jak jakiś typ, taki jak inne i dokończ 
 była funkcja identycznościowa (działająca tylko dla termów typu `Prop`). Przypuszczam, że to będzie
 dla Ciebie w tym momencie łatwe.
 
-Jeżeli Ci się udało wykonać ostatnie polecenie, to właśnie na dwa sposoby udowodniłaś pewne
+Jeżeli udało Ci się wykonać ostatnie polecenie, to właśnie na dwa sposoby udowodniłaś pewne
 twierdzenie matematyczne, a dokładniej tautologię o postaci *Jeżeli A, to A*, gdzie *A* to jakieś
 zdanie.
 
