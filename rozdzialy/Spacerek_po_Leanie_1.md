@@ -469,7 +469,7 @@ a nawet w takim:
 
 ```lean
 -- Skoro parametr druga ma typ Nat i jest dodawany do parametru pierwsza, to parametr pierwsza musi mieć typ Nat.
-wdef plus (pierwsza) (druga : Nat) := pierwsza + druga
+def plus (pierwsza) (druga : Nat) := pierwsza + druga
 ```
 
 albo w takim:
