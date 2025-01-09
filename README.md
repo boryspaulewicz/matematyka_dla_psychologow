@@ -34,7 +34,7 @@ większego znaczenia.)
 
 **Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem [Teoria
 mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md). Zapraszam do testowania, zgłaszania
-trudności i nadsyłania jakichkolwiek spostrzeżeń lub uwag , *zwłaszcza* tych *krytycznych*.
+trudności i nadsyłania jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
@@ -331,9 +331,9 @@ zakończenie rozdziału czwartego na takie, które moim zdaniem pomoże innym cz
 czytelnikom.
 
 I jeszcze raz czternastoletniemu Szymonowi Stryplingowi, pierwszemu testerowi rozdziału
-dwudziestego, będącego krótkim wprowadzeniem do teorii mnogości, który jako pierwszy podzielił się
-swoimi doświadczeniami. Najwyraźniej bez większych trudności wykonał wszystkie zadania w tym
-rozdziale, a końcówkę określił nawet jako "banalną".
+dwudziestego, będącego krótkim wprowadzeniem do teorii mnogości, który podzielił się swoimi
+doświadczeniami. Najwyraźniej bez większych trudności wykonał wszystkie zadania w tym rozdziale, a
+końcówkę określił nawet jako "banalną".
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
