@@ -255,7 +255,7 @@ zaprogramowałem, ani "Ty" nie wcieliłaś się *w pełni* w rolę żadnego prog
 *organizmami biologicznymi*, a dokładniej
 [*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nasze przekonania i postawy nigdy
 nie są całkiem spójne i każdy z nas popełnia czasem błędy nawet w najprostszych sytuacjach. Nawet
-Lean tak naprawdę nie jest całkiem Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne
+Lean nie jest tak naprawdę całkiem Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne
 urządzenie nie jest, bo *nic* nie jest, *całkowicie niezawodne*.
 
 Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty", i w jaki sposób działa
