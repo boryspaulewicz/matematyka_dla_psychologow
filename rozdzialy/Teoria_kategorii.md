@@ -155,15 +155,19 @@ I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak *celnie*[^3] 
 Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
 style="color:gray">na wojnie każdy jest ofiarą</span>.
 
-Jest wtedy *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego" człowieka w "swój" zegarek*
-i że to jest *autonomiczny, zasługujący na szacunek człowiek*. To samo dzieje się z "Tobą" od
-momentu kiedy budzisz się rano do momentu, kiedy zasypiasz. Wykonując każdą czynność inicjujesz ten
-sam proces, tylko że wtedy prowadzisz wewnętrzny dialog ze "sobą", to znaczy, "sama" z przyszłą
-"sobą" współ-działasz, bo inaczej "Twoje" zachowanie nie byłoby tak *elastyczne* i nie działałoby
-*tak* (to jest *zwykle wystarczająco*) *dobrze*, a ponieważ świetnie "się" rozumiecie, "Ty" i
-powstająca za chwilę nowa wersja "Ciebie" (jednostronnie, ale jednak) komunikujecie "się" zwykle -
-choć nie zawsze - bez słów, i ten *sposób działania* jest dla "Ciebie" tak zwyczajny i naturalny, że
-może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest konieczny do *zrobienia czegokolwiek*.
+Dlatego przywdziewając jakikolwiek pancerz, albo nawet tylko sięgając po tarczę, choćby taką z
+tytułem doktora, sami sobie przeszkadzamy w osiągnięciu czegoś naprawdę dobrego.
+
+Gdy pytasz kogoś o godzinę jest *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego"
+człowieka w "swój" zegarek* i że to jest *autonomiczny, zasługujący na szacunek człowiek*. To samo
+dzieje się z "Tobą" od momentu kiedy budzisz się rano do momentu, kiedy zasypiasz. Wykonując każdą
+czynność inicjujesz ten sam proces, tylko że wtedy prowadzisz wewnętrzny dialog ze "sobą", to
+znaczy, "sama" z przyszłą "sobą" współ-działasz, bo inaczej "Twoje" zachowanie nie byłoby tak
+*elastyczne* i nie działałoby *tak* (to jest *zwykle wystarczająco*) *dobrze*, a ponieważ świetnie
+"się" rozumiecie, "Ty" i powstająca za chwilę nowa wersja "Ciebie" (jednostronnie, ale jednak)
+komunikujecie "się" zwykle - choć nie zawsze - bez słów, i ten *sposób działania* jest dla "Ciebie"
+tak zwyczajny i naturalny, że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest konieczny
+do *zrobienia czegokolwiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz teraz ten
 fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz
@@ -249,16 +253,19 @@ Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego"
 z nas nie było *tak naprawdę* żadnym abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak *całkiem* nie
 zaprogramowałem, ani "Ty" nie wcieliłaś się *w pełni* w rolę żadnego programu, ponieważ jesteśmy
 *organizmami biologicznymi*, a dokładniej
-[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nawet Lean tak naprawdę nie jest
-całkiem Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic*
-nie jest, *całkowicie niezawodne*. Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób
-działasz "Ty", i w jaki sposób działa Lean i jak działają *wszystkie narzędzia i inne
-[artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez wspólnotę ludzi*, łącznie z całą
-matematyką, jest jakby czymś w rodzaju "wektora", albo ... palca, który przybliżając coś (a
-dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*) wystarczająco dobrze *wskazuje* na pewien
-*ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia przecież, że On, to znaczy Ten Idaeł, albo
-Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam, *istnieje jako kierunek wspólnego
-działania*. W tym sensie można więc powiedzieć, że jest *w nas* pewien On i jednocześnie nie jest.
+[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nasze przekonania i postawy nigdy
+nie są całkiem spójne i każdy z nas popełnia czasem błędy nawet w najprostszych sytuacjach. Nawet
+Lean tak naprawdę nie jest całkiem Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne
+urządzenie nie jest, bo *nic* nie jest, *całkowicie niezawodne*.
+
+Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty", i w jaki sposób działa
+Lean i jak działają *wszystkie narzędzia i inne [artefakty](https://pl.wikipedia.org/wiki/Artefakt)
+stworzone przez wspólnotę ludzi*, łącznie z całą matematyką, jest jakby czymś w rodzaju "wektora",
+albo ... palca, który przybliżając coś (a dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*)
+wystarczająco dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia
+przecież, że On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie
+nazywam, *istnieje jako kierunek wspólnego działania*. W tym sensie można więc powiedzieć, że jest
+*w nas* pewien On i jednocześnie nie jest.
 
 Niewątpliwie ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności
 wytworem wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym
