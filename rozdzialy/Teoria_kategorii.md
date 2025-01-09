@@ -156,7 +156,7 @@ Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <s
 style="color:gray">na wojnie każdy jest ofiarą</span>.
 
 Dlatego przywdziewając jakikolwiek pancerz, albo nawet tylko sięgając po tarczę, choćby taką z co
-prawda dosyć śmiesznym, ale jednak budzącym u niektórych szacunek [godłem
+prawda dosyć śmiesznym, ale jednak budzącym u niektórych *automatycznie* większy szacunek [godłem
 doktora](https://pl.wikipedia.org/wiki/Kogut_galijski), sami sobie przeszkadzamy w osiągnięciu
 czegoś naprawdę dobrego.
 
