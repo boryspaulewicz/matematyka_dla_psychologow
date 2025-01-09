@@ -371,7 +371,7 @@ poziomie *szkoły podstawowej*.
     byłem)?
 
 [^6]: Rozdział, do którego odsyła ten link, dotyczy tylko jednego przykładu *problemu mimikry*
-    (który ostatnio wolę nazywać problemem *luki wymiarowej*) w psychologii poznawczej, ale
+    (który ostatnio wolę nazywać problemem *przepaści wymiarowej*) w psychologii poznawczej, ale
     nietrudno zrozumieć, że ten problem, o którym napisałem zresztą sporo w doktoracie, ma charakter
     *uniwersalny*: Wiemy, że u ludzi proces reagowania jest niezwykle złożony i elastyczny, bo
     ludzie potrafią się bardzo dobrze adaptować do bardzo szerokiego zakresu sytuacji i względnie
