@@ -168,7 +168,7 @@ znaczy, "sama" z przyszłą "sobą" współ-działasz, bo inaczej "Twoje" zachow
 *elastyczne* i nie działałoby *tak* (to jest *zwykle wystarczająco*) *dobrze*, a ponieważ świetnie
 "się" rozumiecie, "Ty" i powstająca za chwilę nowa wersja "Ciebie" (jednostronnie, ale jednak)
 komunikujecie "się" zwykle - choć nie zawsze - bez słów, i ten *sposób działania* "przychodzi Ci"
-zwykle tak naturalnie, że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest konieczny do
+tak naturalnie, że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest konieczny do
 *zrobienia czegokolwiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz teraz ten
