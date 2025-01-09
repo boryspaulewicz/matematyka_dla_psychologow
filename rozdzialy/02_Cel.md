@@ -272,13 +272,13 @@ testowe są *zawsze blisko związane treściowo*, można tą miarę interpretowa
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
 zadanie udzielenia odpowiedzi na pozycje testowe*.
 
-Nie będziemy wtedy próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni -
-domyślać się, jak wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*,
-*idiosynkratyczne*, *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej
-historii interakcji organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo
-Twojego umysłu i przebieg naszych procesów umysłowych, ani [*tym
-bardziej*](https://psycnet.apa.org/record/2021-53272-001) nie będziemy się koncentrować na tym, w
-jaki sposób zachowanie jest regulowane przez tego [wymiarowego
+[Nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407) wtedy próbować -
+jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak wygląda to, co
+jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*, *zmienne* i w
+ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji organizmu z jego
+środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg naszych procesów
+umysłowych, ani [*tym bardziej*](https://psycnet.apa.org/record/2021-53272-001) nie będziemy się
+koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
 potwora](https://www.spaghettimonster.org/) którego nazywamy mózgiem. I nie będziemy się też skupiać
 na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
 przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego zajmiemy
