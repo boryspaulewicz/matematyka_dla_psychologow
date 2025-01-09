@@ -272,13 +272,13 @@ testowe są *zawsze blisko związane treściowo*, można tą miarę interpretowa
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
 zadanie udzielenia odpowiedzi na pozycje testowe*.
 
-[Nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407) wtedy próbować -
-jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak wygląda to, co
-jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*, *zmienne* i w
-ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji organizmu z jego
-środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg naszych procesów
-umysłowych, ani [*tym bardziej*](https://psycnet.apa.org/record/2021-53272-001) nie będziemy się
-koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
+[Nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6] wtedy
+próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
+wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
+*zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji
+organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg
+naszych procesów umysłowych, ani [*tym bardziej*](https://psycnet.apa.org/record/2021-53272-001) nie
+będziemy się koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
 potwora](https://www.spaghettimonster.org/) którego nazywamy mózgiem. I nie będziemy się też skupiać
 na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
 przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego zajmiemy
@@ -369,3 +369,17 @@ poziomie *szkoły podstawowej*.
     [doktoratu](praca_doktorska.pdf), na której żartuję sobie z psychologów, przytaczając jako motto
     cytat z pracy magisterskiej, której byłem chyba promotorem (ale już nie pamiętam, czy faktycznie
     byłem)?
+
+[^6]: Rozdział, do którego odsyła ten link, dotyczy tylko jednego przykładu *problemu mimikry*
+    (który ostatnio wolę nazywać problemem *luki wymiarowej*) w psychologii poznawczej, ale
+    nietrudno zrozumieć, że ten problem, o którym napisałem zresztą sporo w doktoracie, ma charakter
+    *uniwersalny*: Wiemy, że u ludzi proces reagowania jest niezwykle złożony i elastyczny, bo
+    ludzie potrafią się bardzo dobrze adaptować do bardzo szerokiego zakresu sytuacji i względnie
+    szybko reagują na zmiany zachodzące zarówno wewnątrz organizmu jak i w jego otoczeniu. Ponieważ
+    efektywna wymiarowość danych w badaniach psychologicznych jest z konieczności niewielka, z góry
+    wiemy, że możemy zapomnieć o jakichkolwiek szansach na względnie szczegółową identyfikację
+    rzeczywistej architektury umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą
+    zależeć i na pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
+    środowiskiem. Dlatego, mimo oszałamiającej ilości publikowanych każdego roku artykułów,
+    sprawiająca wrażenie bardzo "naukowej" psychologia poznawcza jak dotąd nadaje się głównie do
+    *pisania i publikowania kolejnych artykułów*.
