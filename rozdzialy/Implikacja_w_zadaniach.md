@@ -8,7 +8,7 @@ i poprzez pisanie kodu wprost.
 # Implikacja w praktyce dowodzenia
 
 Niedawno w sprawie tej książki napisał do mnie Tomek Smoleń, który pracuje teraz na Krakowskiej
-kognitywistycee i z którym byliśmy razem w tym samym pokoju na studiach doktorskich, gdy instytu
+kognitywistyce i z którym byliśmy razem w tym samym pokoju na studiach doktorskich, gdy instytu
 psychologii znajdował się jeszcze na alei Mickiewicza. Nie dziwi mnie, że temat przypadł mu go
 gustu, bo wiem, że jest do niego od dawna znakomicie przygotowany. No więc ten właśnie Tomek
 stwierdził, że gdy relacje między termami, typami, zdaniami i dowodami wskoczyły mu podczas lektury
