@@ -233,21 +233,27 @@ trafiało w jakiś element przeciwdziedziny, to nie mogłaby istnieć żadna *fu
 przeciwdziedziny `Y` funkcji `f` do dziedziny `X` tej funkcji taka, że `∀ x ∈ X, g(f(x)) = x` *i
 jednocześnie* `∀ y ∈ Y, f(g(y)) = y`.
 
-**Ostrzeżenie na temat notacji**: Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo standard kodowania
-[Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem ograniczony. Jeżeli więc
-napiszę na przykład `h_1`, to będzie to tylko
+**Ostrzeżenie na temat notacji**: Muszę odtąd czasem zrezygnować ze stosowania indeksów dolnych, bo
+standard kodowania [Unikod](https://pl.wikipedia.org/wiki/Unicode) jest pod tym względem
+ograniczony. Jeżeli więc napiszę na przykład `h_1`, to będzie to tylko
 [namiastka](https://sjp.pwn.pl/slowniki/namiastka.html) `h₁` (akurat cyfry da się w ten sposób w
 Unikodzie zapisywać, ale już na przykład większości liter nie).
 
 Byłoby wspaniale, gdybyś jeszcze spróbowała zdefiniować za pomocą rysunków dwie funkcje, nazwijmy je
-znowu `f` i `g`, takie, że `f : X → Y` ma tylko *lewą odwrotność*, ale *nie ma prawej*, to znaczy,
-istnieje funkcja `l_f` taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że
-`f(p_f(y)) = y` (tak, tu ma być `y`, a nie `x`), a `g : X → Y` ma tylko *prawą odwrotność*, ale *nie
-ma lewej*, to znaczy, istnieje funkcja `p_g` taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja
-`l_g` taka, że `l_g(g(x)) = x`. Te warunki mają oczywiście obowiązywać dla każdego `x` i dla każdego
-`y` odpowiednio, ale tym razem nie chciałem dodawać dużych kwantyfiktorów z obawy, że ten akapit
-może być już i tak zbyt gęsty. Podpowiem Ci, że w tym zadaniu ważną rolę odgrywają własności bycia
-injekcją, ale nie surjekcją i bycia surjekcją, ale nie injekcją.
+znowu `f` i `g`, takie, że:
+
+1. `f : X → Y` ma tylko *lewą odwrotność*, ale *nie ma prawej*, to znaczy, istnieje funkcja `l_f`
+taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że `f(p_f(y)) = y` (tak, tu ma być
+`y`, a nie `x`).
+
+2. `g : X → Y` ma tylko *prawą odwrotność*, ale *nie ma lewej*, to znaczy, istnieje funkcja `p_g`
+taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja `l_g` taka, że `l_g(g(x)) = x`. 
+
+Te warunki mają oczywiście obowiązywać dla każdego `x` i dla każdego `y` odpowiednio, ale tym razem
+nie chciałem dodawać dużych kwantyfiktorów z obawy, że ten akapit może być już i tak zbyt gęsty (i
+żeby przyzwyczaić Cię trochę do tego, że takie skróty myślowe też się często pojawiają). Podpowiem
+Ci, że w tym zadaniu ważną rolę odgrywają własności bycia injekcją, ale nie surjekcją i bycia
+surjekcją, ale nie injekcją.
 
 **Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
 zbiory, `X`, `Y` i `Z` takie, że pierwszy ma trzy elementy, drugi powiedzmy cztery i trzeci może też
