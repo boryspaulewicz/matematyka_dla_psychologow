@@ -155,8 +155,10 @@ I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak *celnie*[^3] 
 Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
 style="color:gray">na wojnie każdy jest ofiarą</span>.
 
-Dlatego przywdziewając jakikolwiek pancerz, albo nawet tylko sięgając po tarczę, choćby taką z
-tytułem doktora, sami sobie przeszkadzamy w osiągnięciu czegoś naprawdę dobrego.
+Dlatego przywdziewając jakikolwiek pancerz, albo nawet tylko sięgając po tarczę, choćby taką z co
+prawda dosyć śmiesznym, ale jednak budzącym u niektórych szacunek [godłem
+doktora](https://pl.wikipedia.org/wiki/Kogut_galijski), sami sobie przeszkadzamy w osiągnięciu
+czegoś naprawdę dobrego.
 
 Gdy pytasz kogoś o godzinę jest *jednocześnie* prawdą, że chwilowo *przekształcasz "drugiego"
 człowieka w "swój" zegarek* i że to jest *autonomiczny, zasługujący na szacunek człowiek*. To samo
