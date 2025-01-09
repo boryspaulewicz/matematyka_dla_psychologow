@@ -378,8 +378,8 @@ poziomie *szkoły podstawowej*.
     szybko reagują na zmiany zachodzące zarówno wewnątrz organizmu jak i w jego otoczeniu. Ponieważ
     efektywna wymiarowość danych w badaniach psychologicznych jest z konieczności niewielka, z góry
     wiemy, że możemy zapomnieć o jakichkolwiek szansach na względnie szczegółową identyfikację
-    rzeczywistej architektury umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą
-    zależeć i na pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
+    architektury umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą zależeć i na
+    pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
     środowiskiem. Dlatego, mimo oszałamiającej ilości publikowanych każdego roku artykułów,
     sprawiająca wrażenie bardzo "naukowej" psychologia poznawcza jak dotąd nadaje się głównie do
     *pisania i publikowania kolejnych artykułów*.
