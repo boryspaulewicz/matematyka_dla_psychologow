@@ -2,9 +2,9 @@
 
 Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś czytając ten rozdział czuła się
 bezpiecznie. Będziemy niebawem [mówić niemal jednocześnie w kilku
-językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów skończonych, teorii
-typów, logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w
-języku naturalnym. Ale zaczniemy od powtórki.
+językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbiorów, teorii typów,
+logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w języku
+naturalnym. Ale zaczniemy od powtórki[^1].
 
 Już wiesz, że z każdym skończonym zbiorem jest związana funkcja identycznościowa na tym zbiorze, bo
 dla każdego takiego zbioru potrafisz taką funkcję zdefiniować rysując ją. Wiesz też, że istnieje
@@ -379,3 +379,6 @@ więc dla wszystkich (składalnych w ten sposób) strzałek `f`, `g` i `h`, poni
 przestrzeni zbiorów skończonych jest *izomorfizmem*, a więc nasze strzałki są tylko *innym sposobem
 oznaczania* zbiorów skończonych, widzimy, że `h (g f) = (h g) f`.
 
+### Przypisy
+
+[^1]: Repetitio est mater studiorum!
