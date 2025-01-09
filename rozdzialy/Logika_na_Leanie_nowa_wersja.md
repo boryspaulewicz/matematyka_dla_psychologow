@@ -340,10 +340,10 @@ konsekwentnego *odróżniania*:
 
 4. *Założenia, że* zdanie ma *jakiś* dowód, od *konkretnego kodu* albo *konstrukcji* takiego dowodu.
 
-W tym momencie samo to, że to nie są te same rzeczy czy fakty, może Ci się wydawać zrozumiałe i może
+W tym momencie to, że to nie są te same rzeczy czy fakty, może Ci się wydawać zrozumiałe i może
 wręcz nie warte objaśniania, ale możliwe, że te fundamentalne rozróżnienia będą Ci na początku
 sprawiały trudności nawet w stosunkowo prostych sytuacjach. Dlatego przypominam jeszcze raz -
-cierpliwości. 
+cierpliwości.
 
 Oswajanie się z nieznanymi wcześniej fragmentami matematyki może przypominać ... wykształcanie się
 [skrzel](https://pl.wikipedia.org/wiki/Skrzela_(anatomia)). Na początku czujemy, że zanurzamy się w
