@@ -256,11 +256,10 @@ Ci, że w tym zadaniu ważną rolę odgrywają własności bycia injekcją, ale 
 surjekcją, ale nie injekcją.
 
 **Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
-zbiory, `X`, `Y` i `Z` takie, że pierwszy ma trzy elementy, drugi powiedzmy cztery i trzeci może też
-cztery. Zdefiniuj rysując strzałki jakąś funkcję `f : X → Y`, czyli funkcję ze zbioru `X` do zbioru
-`Y` i jakąś funkcję `g : Y → Z`. Pod spodem zapisz komentarz: *Teoriomnogościowe złożenie funkcji*
-`f` *i* `g` *to taka funkcja* `g ∘ f` *(zapisujemy to w ten sposób w tej kolejności), że* `(g ∘
-f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).* 
+zbiory, `X`, `Y` i `Z` takie, żeby pierwszy miał trzy elementy, drugi powiedzmy cztery i trzeci może
+też cztery. Zdefiniuj rysując strzałki jakieś funkcje `f : X → Y` i `g : Y → Z`. Pod spodem zapisz
+komentarz: *Teoriomnogościowe złożenie funkcji* `f` *i* `g` *to taka funkcja* `g ∘ f` *(zapisujemy
+to w ten sposób w tej kolejności), że* `(g ∘ f)(x) := g(f(x))` *(właśnie dlatego w tej kolejności).*
 
 Czyli gdyby o funkcjach myśleć jako o programach albo operacjach, złożeniem funkcji byłaby funkcja,
 która stosuje *najpierw* funkcję wymienioną jako *druga*, a *potem* funkcję wymienioną jako
@@ -285,12 +284,34 @@ składanie jest więc *szczególnym przypadkiem "działania wybrednego"*, które
 jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem trochę więcej
 później.
 
+Przy okazji, pokażę Ci jeszcze jak być może mogłabyś czasem korzystać z nabytej już znajomości
+podstaw teorii typów, żeby bardziej "się wczuć" (w tej kolejności ;-) ) w nowe pojęcia
+matematyczne. Żeby (mam nadzieję) poczuć trochę bardziej konkretność definicji składania funkcji,
+mogłabyś na przykład wyobrazić sobie albo spróbować zapisać teoriotypową definicję tej operacji tak ...
+
+```lean
+def Zlozenie (X Y Z : Type) (f : X → Y) (g : Y → Z) (x : X) := g (f x)`
+```
+
+... albo tak ...
+
+```lean
+def Zlozenie (X Y Z : Type) (f : X → Y) (g : Y → Z) : X → Z := fun (x : X) => g (f x)`
+```
+
+... i z drugiej definicji mogłabyś skorzystać na przykład tak:
+
+```lean
+def h : Nat → Nat := Zlozenie Nat Nat Nat (fun (n : Nat) => n + 1) (fun (n : Nat) => n + 2)
+#eval h 1 -- 4
+```
+
 Czy rozumiesz, dlaczego dla każdych zbiorów `X` i `Y` i każdej funkcji `f : X → Y` zachodzi `Id_Y ∘
 f = f = f ∘ Id_X`? Musiałem tutaj znowu inaczej oznaczyć identyczności, bo Unikod nie pozwala na
 zapisanie na przykład litery `Y` jako indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym
-skontruowaniu dowodu tych *dwóch* albo nawet *trzech zdań* (mamy tu dwie równości i niejawną
-konsekwencję przechodniości relacji równości) i jednocześnie sprawdzeniu go w podobny sposób do
-tego, w jaki mógłby to zrobić Lean.
+skontruowaniu dowodu tych *dwóch* albo nawet *trzech zdań*, mamy tu przecież dwie równości i
+niejawną konsekwencję przechodniości relacji równości `Id_Y ∘ f = f ∘ Id_X`. Pomogę Ci jednocześnie
+w sprawdzeniu dowodu w podobny sposób do tego, w jaki mógłby to zrobić Lean.
 
 O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
