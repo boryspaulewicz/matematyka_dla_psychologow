@@ -123,10 +123,30 @@ Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest za
 = f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający zdaniom `Id ∘ f = f` i `f =
 f ∘ Id`, gdzie pozwoliłem sobie na skrót myślowy i nie zaznaczyłem, że pierwsza i ostatnia
 identyczność są przyczepione do *potencjalnie* różnych punktów, jest spełniony, ponieważ gdybyś
-zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że `∀ x ∈ X, (Id
-∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`. To jest (nawiasem mówiąc) dowód przedstawiony
-nieco nonszalancko w postaci jednego zdania, w ramach którego rozwijamy, a następnie "zawijamy"
-(albo "owijamy"?) definicje identyczności i składania.
+zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że:
+
+`∀ x ∈ X, (Id ∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`
+
+To jest (nawiasem mówiąc) dowód przedstawiony nieco nonszalancko w postaci jednego zdania, w ramach
+którego rozwijamy, a następnie "zawijamy" (albo "owijamy"?) definicje identyczności i składania. A po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x ∈ X`, to ...
+
+`(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))) = (h ∘ (g(f(x)))) = ((h ∘ g) ∘ f)(x)`
+
+A więc ...
+
+1. `Id ∘ f = f = f ∘ Id`
+
+2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
+
+Po pierwsze, widzimy więc, że identyczności są *elementami neutralnymi ze względu na operację
+składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
+(nieskończenie) wiele *zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i
+operacjami dodawania lub mnożenia.
+
+Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie jest łączne*, co znaczy, że zapisując
+składanie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w
+jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak ma oczywiście znaczenie, w
+jakiej kolejności podamy jej argumenty).
 
 o dowolnych strzałkach `f`, `g` i `h`, które są "kolejno składalne", to jest `Skladalne f g` i
 `Skladalne g h`, czyli takich, że `Cel f = Zrodlo g` i `Cel g = Zrodlo h`:
