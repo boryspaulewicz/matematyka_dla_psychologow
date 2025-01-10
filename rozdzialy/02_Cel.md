@@ -155,8 +155,8 @@ kwestią mechanicznych operacji.
 
 Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglądem. Ten osobliwy
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
-małym zbiorze kilku ściśle ze sobą powiązanych zagadek dotyczących podstaw psychologii. W dodatku w
-pewnym sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
+małym zbiorze kilku ściśle powiązanych zagadek dotyczących podstaw psychologii. W dodatku w pewnym
+sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
 wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
 [Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w swoim
 [doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
