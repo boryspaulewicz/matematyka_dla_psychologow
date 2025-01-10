@@ -319,6 +319,17 @@ częściowej fizycznej odrębności, ten rysunek jednak powstał i to było moż
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle *nie sama*)
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
 
+Czy nie miałaś wrażenia, że coś próbuje się spod tego tekstu wyrwać i Cię opisać? Uspokajam, że
+chociaż faktycznie już próbuje, to jeszcze nie może, bo brakuje nam kilku kluczowych
+składników. Każdy opis świata albo jego części jest z konieczności fragmentaryczny, dlatego będziemy
+potrzebować pojęcia prawdopodobieństwa. Żeby ten opis był dla nas zrozumiały i bardziej użyteczny,
+będziemy musieli wprowadzić pojęcie (zewnętrznej) interwencji, a więc wpływu, a także możliwość
+mówienia o tym, jak *mogłoby* być (ale nie było), a więc pojęcia kontrfaktyczne. Gdy dodamy do tego
+pojęcie oceny, będziemy mogli mówić o "Tobie", o "mnie" i wszystkich innych zwierzętach, a także o
+wszystkich narzędziach i innych artefaktach stworzonych przez istoty inteligentne. Będziemy również
+w stanie mówić w języku formalnym o moralności. I w tych wszystkich bytach rozpoznamy wtedy
+*fizyczne przybliżenia Podmiotu Działań*.
+
 ### Ten wybiegający w przyszłość fragment jest przeznaczony raczej dla "prawie-ekspertów"
 
 Jeżeli masz ochotę, może warto teraz popatrzeć "nowym okiem" na zawartość [rozdziału
