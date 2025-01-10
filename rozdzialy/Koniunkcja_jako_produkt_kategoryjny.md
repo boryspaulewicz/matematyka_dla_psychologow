@@ -194,8 +194,10 @@ polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z
 mnoga). Zaczniemy od ilustracji:
 
 ```lean
--- Używamy tutaj parametrów opcjonalnych, żeby potem (znacznie) mniej pisać.
+-- Używamy tutaj parametrów opcjonalnych, ponieważ Lean może je wywnioskować z pozostałych argumentów
+-- aplikacji tej funkcji. Dzięki temu będziemy mogli (znacznie) mniej pisać.
 def Zlozenie {X Y Z : Type} (f : X → Y) (g : Y → Z) : X → Z := 
+  -- Tak wiem, ta zmiana kolejności jest irytująca.
   fun (x : X) => g (f x)
 
 -- Dla dowolnych *typów* X, Y, Z i V ...
@@ -234,16 +236,13 @@ funkcji w różnej kolejności, redukują się do tego samego, czyli są równe.
 pomocą taktyki `rfl` jest dziecinnie proste:
 
 ```lean
-variable (X Y Z V : Type)
-variable (f : X → Y)
-variable (g : Y → Z)
-variable (h : Z → V)
+variable (X Y Z V : Type) (f : X → Y) (g : Y → Z) (h : Z → V) -- tak też można
 
 -- Trzeba było tak od razu, prawda?
 Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
 
--- W ten sam sposób możemy udowodnić przemienność wbudowanego w Leana składania funkcji teoriotypowych.
--- Symbol składania uzyskasz wpisując \o
+-- W ten sam sposób możemy udowodnić przemienność wbudowanej w Leana operacji składania funkcji
+-- teoriotypowych. Symbol składania uzyskasz w Leanie wpisując \o
 example : h ∘ (g ∘ f) = (h ∘ g) ∘ f := by rfl
 
 -- To może jeszcze (podwójny) dowód, że identyczności zachowują się jak elementy neutralne ze względu
@@ -262,7 +261,7 @@ example : f ∘ (ID X) = f := by rfl
 -- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami.
 ```
 
-Pomijając chwilowy powrót do Leana, nadal z oddalenia widzimy (a tak naprawdę wiemy bez zaglądania
+Pomijając chwilowy powrót do Leana, nadal z oddalenia widzimy (a tak naprawdę wiemy - bez zaglądania
 "do wnętrza funkcji"), że teoriomnogościowe identyczności są *elementami neutralnymi ze względu na
 operację składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
 nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów - *zer* albo *jedynek*, zależnie od wyboru
@@ -297,10 +296,10 @@ jest łączne - i z uproszczenia polegającego na pozbyciu się również symbol
 używamy właśnie tej notacji, bo składanie jest w teorii kategorii operacją podstawową i nie lubimy
 niepotrzebnie dużo pisać.
 
-I w ten oto sposób, zmierzając razem ze mną okrężną drogą do pojęcia [*logicznej
+I w ten oto sposób, zmierzając razem ze mną powoli okrężną drogą do pojęcia [*logicznej
 alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
-[poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) wszystkie
-[*aksjomaty kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
+[poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) 
+sześć [*aksjomatów kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
 
 ## Acha, fajnie, ale *po co*?
 
@@ -310,15 +309,15 @@ przykładami zbiorów i funkcji, bo przecież od takich przykładów zaczęliśm
 tego znajomego kontekstu w dwóch krokach, a właściwie w dwóch
 [przelotach](https://pl.wikipedia.org/wiki/Przelot).
 
-Najpierw pokażę Ci, że pewne znane Ci już, ważne konstrukcje i własności *teoriomnogościowe*, takie
-jak element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
+Pokażę Ci, że pewne znane Ci już, ważne konstrukcje i własności *teoriomnogościowe*, takie jak
+element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
 podzbiór, podział zbioru (na wyczerpujące i rozłączne części czyli *pod*zbiory), zbiór pusty,
 singleton, iloczyn kartezjański i suma rozłączna zbiorów można jakby na nowo rozpoznać jako
 kategoryjne *struktury strzałkowe* i że to jest w pewnym technicznym sensie *lepszy*, bo *bardziej
 uniwersalny* sposób mówienia o tych konstrukcjach i własnościach. Niejako przy okazji zaczniesz też
-stopniowo w bardziej elastyczny sposób myśleć o "takosamości" matematycznych struktur. Mając ten
-fascynujący moim zdaniem etap już za sobą, w następnym rozdziale skorzystamy z tych alternatywnych,
-uniwersalnych i abstrakcyjnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
+stopniowo w bardziej elastyczny sposób myśleć o "takosamości" matematycznych struktur. W
+międzyczasie (swoją drogą, co za słowo), skorzystamy z kilku sposród tych alternatywnych,
+uniwersalnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
 **Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty izomorfizm
 między funkcjami z dowolnego singletona, na przykład ze zbioru `{∅}`, do `X`. Każda taka funkcja
