@@ -105,7 +105,7 @@ studentów psychologii to wcale nie studenci, tylko studentki, bêdê zwraca³ siê d
 
 Pozna³em wiele kobiet zajmuj±cych siê psychologi±, które w mojej ocenie maj± wiêcej oleju w g³owie,
 ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. W¶ród pracowników akademickich nie
-spotka³em chyba jednak *¿adnych* kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pewno¶ci± siebie i
+spotka³em jednak prawie ¿adnych kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pewno¶ci± siebie i
 ³atwo¶ci± wypowiadania stanowczych opinii. Wiem, co mówiê, bo sam jestem znany z aroganckich
 wypowiedzi. A poza tym, gdy zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi
 do g³owy, ¿e ewentualny brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie
