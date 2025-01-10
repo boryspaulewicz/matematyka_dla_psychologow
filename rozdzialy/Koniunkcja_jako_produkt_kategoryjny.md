@@ -234,29 +234,71 @@ stopniowo w bardziej elastyczny sposób myśleć o "takosamości" matematycznych
 fascynujący moim zdaniem etap już za sobą, w następnym rozdziale skorzystamy z tych alternatywnych,
 uniwersalnych i abstrakcyjnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
-**Elementy zbiorów jako funkcje, której dziedziną jest jakiś zbiór jednoelementowy**: Dla każdego
-zbioru `X`, istnieje oczywisty izomorfizm między funkcjami z dowolnego singletona, na przykład ze
-zbioru `{∅}`, do `X`. Każda taka funkcja wskazuje przecież dokładnie jeden element `x` zbioru `X` i
-odwrotnie, każdy taki element odpowiada dokładnie jednej takiej funkcji. *Wszystko*, co można
-powiedzieć o elementach zbiorów można więc powiedzieć o takich funkcjach i vice versa. 
+**Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty izomorfizm
+między funkcjami z dowolnego singletona, na przykład ze zbioru `{∅}`, do `X`. Każda taka funkcja
+wskazuje przecież dokładnie jeden element `x` zbioru `X` i odwrotnie, każdy taki element odpowiada
+dokładnie jednej takiej funkcji. *Wszystko*, co można powiedzieć o elementach zbiorów można więc
+powiedzieć o takich funkcjach i vice versa.
 
-Na przykład, jeżeli `x ∈ X`, to istnieje funkcja `x`, a więc również strzałka w naszej kategorii,
+Na przykład, jeżeli `x ∈ X`, to istnieje *funkcja* `x`, a więc również strzałka w naszej kategorii,
 taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również literą `x` jest co prawda może
 trochę nonszalanckie, ale *nie* jest poważnym błędem, bo ta *decyzja* ma charakter *metajązykowy* i
 mimo pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu `x`, sposób użycia
-tego symbolu pozwoli nam zawsze jednoznacznie stwierdzić, czy chodzi o element zbioru, czy o
-funkcję. 
+pozwoli nam zawsze jednoznacznie stwierdzić, czy chodzi o element zbioru, czy o funkcję. Niestety, w
+niektórych sytuacjach to może być jednak zbyt mylące, na przykład, gdyby chodziło o element będący
+liczbą `1`, to zapis `1(∅) = 1` mógłby sugerować, że mamy do czynienia z mnożeniem, a gdyby chodziło
+o wskazanie za pomocą funkcji z singletona elementu będącego zbiorem pustym, uzyskalibyśmy wyjątkowo
+dezorientujące zdanie ``∅(∅) = ∅``. Dlatego najlepiej korzystać z tej konwencji oznaczając elementy
+zbiorów zmiennymi, takimi jak na przykład `x`.
 
-Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i często w matematyce też)
+Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i w matematyce zresztą też)
 [*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
-oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod*, ale jest przecież
-oczywiste, że ten sam manewr można zastosować, z tego samego powodu, to jest aby podkreślić jakieś
-głębsze podobieństwo albo bliski związek, do dowolnych stałych. A chcemy podkreślić ścisły związek
-między elementami zbioru `X` i tego rodzaju funkcjami ponieważ - przynajmniej na tym etapie -
-chcemy, żeby różnica między tymi dwoma rodzajami obiektów stała się *mniej* widoczna. To jest więc
-kolejny przykład *celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama
-odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się nie
-spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je [tutaj].
+oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
+pewne funkcje jako programy, tyle, że określonego rodzaju), ale jest przecież oczywiste, że ten sam
+manewr można zastosować, z tego samego powodu, to jest aby podkreślić jakieś głębsze podobieństwo
+albo bliski związek, do dowolnych stałych. A chcemy podkreślić ścisły związek między elementami
+zbioru `X` i tego rodzaju funkcjami, ponieważ - przynajmniej na tym etapie - chcemy, żeby różnica
+między tymi dwoma rodzajami obiektów stała się *mniej* widoczna. To jest więc kolejny przykład
+*celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama odgadnąć, co w tym
+kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się nie spieszymy. Na wypadek,
+gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je [tutaj].
+
+**Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat `T`
+wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje
+dokładnie jedna funkcja (czyli w tym momencie kategoryjna strzałka) z `X` do `T`. I odwrotnie,
+jeżeli zbiór `Y` ma taką własność, że dla każdego zbioru `X` istnieje dokładnie jedna funkcja z `X`
+do `Y` to `Y` musi być zbiorem jednoelementowym.
+
+**Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
+później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje dokładnie
+jedna funkcja (czyli w tym momencie kategoryjna strzałka) z `I` do `X`. I odwrotnie, jeżeli zbiór
+`Y` ma taką własność, że dla każdego zbioru `X` istnieje dokładnie jedna funkcja z `Y` do `X`, to
+`Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje dokładnie jeden zbiór pusty, ale to
+nie sprawia, że dwa ostatnie zdania są fałszywe.
+
+**Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
+b}`. Wtedy każdy element zbioru `X Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
+jako taki *element, którego pierwszym elementem jest* `2` *a drugim* `a`. Napisałem celowo "element"
+zamiast "para uporządkowana". Żeby można było mówić w ten sposób o parach uporządkowanych musimy
+wprowadzić pojęcia elementu pierwszego i elementu drugiego pary. A to są przecież pewne funkcje
+surjektywne ze zbioru `X x Y` do zbiorów `X` i`Y` odpowiednio. Pisałaś o tego rodzaju funkcjach,
+nazywając je *projekcjami*, w komentarzu pod jednym z rysunków z poprzedniego rozdziału. Jesteśmy
+już bliżej kategoryjnego odpowiednika iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego
+pojęcia za pomocą samych kategoryjnych strzałek (i operacji składania). Niestety nie potrafię opisać
+prostego rozumowania, które prowadziłoby do tej definicji, dlatego muszę ją przedstawić jako
+rezultat *wglądu*, to jest jako coś, co zostało częściowo przypadkowo przez kogoś kiedyś *odkryte*.
+
+**Rysunek**: `Narysuj` proszę punkt `X x Y` i strzałki `pi1 : X x Y -> X` i `pi2 : X x Y -> Y`, ale
+tak, żeby `pi1` była skierowana w lewo a `pi2` w prawo. Nad tymi dwoma ramionami, powyżej punktu `X
+x Y`, narysuj punkt `Z` i dodaj jeszcze strzałki `f : Z -> X` i `g : Z -> Y` i może niech będą lekko
+wygięte w taki sposób, żeby powstało coś przypominającego spiczastą czapkę. Wreszcie linią przerywaną
+`Narysuj` strzałkę z punktu `Z` do punktu `X x Y`, a obok niej zapisz `E^1`.
+
+wychodzącą z punktu `X x Y` w lewą stronę i
+wskazującą na punkt `X` i strzałkę `pi2` wychodzącą z tego samego punktu co `pi`, ale w prawo i
+wskazującą punkt `Y`.
+
+STARE
 
 Do każdego punktu musi być również przyczepiona unikalna
 [*pętla*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)) reprezentująca
