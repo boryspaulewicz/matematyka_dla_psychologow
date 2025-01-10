@@ -30,8 +30,8 @@ Pearla) w dalszej czê¶ci ksi±¿ki.
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
 chwili z jednego skryptu zrobi³y siê dwa, potem trzy, a nied³ugo potem siedem i to wszystko zaczê³o
 wygl±daæ jak taka jakby trochê mo¿e ksi±¿ka. W dodatku ksi±¿ka, któr± - po dopracowaniu jej przez
-autora (czyli w tym wypadku mnie) - sam chcia³bym przeczytaæ, zanim jeszcze zacz±³em siê tych tre¶ci
-uczyæ. Przy okazji odkry³em tak¿e inny cel.
+autora (czyli w tym wypadku mnie) - sam chcia³bym przeczytaæ, zanim jeszcze zacz±³em siê o tych
+sprawach uczyæ. Przy okazji odkry³em tak¿e inny cel.
 
 Wiêkszo¶æ psychologów - mam tu na my¶li równie¿ utytuowanych pracowników naukowych z bogatym
 dorobkiem - polega w ogromnym stopniu na matematyce, na przyk³ad u¿ywaj±c wnioskowania
