@@ -326,9 +326,9 @@ potrzebować pojęcia prawdopodobieństwa. Żeby ten opis był dla nas zrozumia�
 będziemy musieli wprowadzić pojęcie (zewnętrznej) interwencji, a więc wpływu, a także możliwość
 mówienia o tym, jak *mogłoby* być (ale nie było), a więc pojęcia kontrfaktyczne. Gdy dodamy do tego
 pojęcie oceny, będziemy mogli mówić o "Tobie", o "mnie" i wszystkich innych zwierzętach, a także o
-wszystkich narzędziach i innych artefaktach stworzonych przez istoty inteligentne. Będziemy również
-w stanie mówić w języku formalnym o moralności. I w tych wszystkich bytach rozpoznamy wtedy
-*fizyczne przybliżenia Podmiotu Działań*.
+wszystkich narzędziach i innych artefaktach stworzonych przez istoty inteligentne, to jest o
+przedmiocie badań psychologii. I będziemy również wtedy mówić w języku formalnym o moralności. A w
+tych wszystkich bytach rozpoznamy *fizyczne przybliżenia Podmiotu Działań*.
 
 ### Ten wybiegający w przyszłość fragment jest przeznaczony raczej dla "prawie-ekspertów"
 
