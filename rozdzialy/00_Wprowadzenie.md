@@ -18,10 +18,10 @@ zadanie, a kilkoro wyrazi³o nawet zainteresowanie dalszym ci±giem.
 Poniewa¿ sam zacz±³em siê niedawno uczyæ Leana, postanowi³em robiæ to nadal, poprawiaj±c i
 rozwijaj±c to, co ju¿ napisa³em. Pisz±c wcze¶niej na zamówienie [wprowadzenie do wnioskowania
 przyczynowego dla psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171)
-(wersja w jêzyku angielskim jest bardziej dopracowana) przekona³em siê, po raz kolejny, ¿e nie ma
-lepszego sposobu, aby upewniæ siê, jak dobrze co¶ siê rozumie. Ten artyku³ zamówi³ u mnie Arek
-Bia³ek, za co mu tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat
-rachunku przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro [spodoba³
+(wersja w jêzyku angielskim jest bardziej dopracowana), przekona³em siê, po raz kolejny, ¿e to
+najlepszy sposób, ¿eby nauczyæ siê czego¶ lepiej. Ten artyku³ zamówi³ u mnie Arek Bia³ek, za co mu
+tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na temat rachunku
+przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro [spodoba³
 siê](https://x.com/yudapearl/status/1737769250511843448) samemu
 [Pearlowi](https://en.wikipedia.org/wiki/Judea_Pearl), który raczej nie prawi chêtnie komplementów
 na temat tego typu artyku³ów, dlatego zamierzam bezwstydznie skorzystaæ z niego (z artyku³u, nie z
