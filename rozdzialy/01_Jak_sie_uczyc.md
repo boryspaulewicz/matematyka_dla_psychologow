@@ -68,7 +68,7 @@ chwili ³atwy dostêp do licznych powi±zanych i wielokrotnie przemy¶lanych tre¶ci,
 czê¶ciej mimowolnie dostrzegaæ zwi±zki miêdzy tymi tre¶ciami a tym, co siê napotyka albo o czym
 nawet tylko przez chwilê siê my¶li. W ten sposób szybko ro¶nie poczucie skuteczno¶ci. Nieuchronnie
 pojawiaj± siê te¿ twórcze skojarzenia i zrozumienie pog³êbia siê niejako samo z siebie. Dziêki temu
-utrwalane tre¶ci wydaj± siê automatycznie coraz ciekawsze, i coraz ciekawsze zaczyna siê wydawaæ
+utrwalane tre¶ci wydaj± siê automatycznie coraz ciekawsze i coraz ciekawsze zaczyna siê wydawaæ
 niemal wszystko, co siê z nimi prawie namacalnie wi±¿e. Nie bêdzie wiêc chyba przesad±, je¿eli
 powiem, ¿e w moim odczuciu tego rodzaju uczenie siê jest ca³kiem dos³ownie procesem g³êbokiej
 wewnêtrznej przemiany.
