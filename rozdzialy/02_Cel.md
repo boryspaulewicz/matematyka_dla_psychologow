@@ -332,7 +332,7 @@ czymś tak rozbrajająco dziecinnym, jak nieprzyznanie zaszczytnego przywileju n
 niezwykle rzadkie, odklejenia) etykiety naukowości z logiem jakiegoś dużego, żerującego na
 bezwładności i głupocie naukowców wydawnictwa, na podstawie ocen trzech do czterech osób, z których
 dwie do trzech były prawdopodobnie dosyć przypadkowe, na pewno w tym czasie zajęte innym sprawami i
-nie zostały w ogóle za ten niewdzięczny trud wynagrodzone, i które uznały, z nikomu nieznanych
+nie zostały w ogóle za ten niewdzięczny trud wynagrodzone i które uznały, z nikomu nieznanych
 powodów, że tekst można opublikować. Ewentualna krytyka, do której szczerze zachęcam, będzie musiała
 mieć również charakter *publiczny*.
 
