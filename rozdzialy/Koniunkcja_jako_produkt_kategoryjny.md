@@ -258,7 +258,7 @@ def ID (typ : Type) : typ → typ := fun (a : typ) => a
 example : (ID Y) ∘ f = f := by rfl
 example : f ∘ (ID X) = f := by rfl
 
--- Przy okazji odkryliśmy, że wewnątrz teorii typów przez cały ten czas ukrywała się co najmniej jedna
+-- Przy okazji odkryliśmy więc, że wewnątrz teorii typów przez cały ten czas ukrywała się co najmniej jedna
 -- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami.
 ```
 
