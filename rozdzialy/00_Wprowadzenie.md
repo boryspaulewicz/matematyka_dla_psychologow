@@ -1,9 +1,9 @@
 # Sk±d siê ta ksi±¿ka wziê³a?
 
 Ta ksi±¿ka by³a najpierw krótkim skryptem dla studentów. Planuj±c æwiczenia do kursu neuronauka i
-psychologia poznawcza zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii normatywnych
+psychologia poznawcza, zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii normatywnych
 bêdziemy omawiaæ jaki¶ bli¿ej nieokre¶lony mój "skrypt w³asny". Korzystaj±c z tej okazji,
-postanowi³em przeprowadziæ eksperyment, który polega³ on na próbie przekonania studentów, ¿e przy
+postanowi³em przeprowadziæ eksperyment, który polega³ na próbie przekonania studentów, ¿e przy
 odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
 zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt sta³ siê seri±
 komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi dowodzenia
