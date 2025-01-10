@@ -1,17 +1,18 @@
 # Do *czego* autor zmierza?!
 
 Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w planowanej *drugiej*
-części. Wydaje mi się, że większość tematów, o których tu mówię, może nie być zrozumiała dla osób,
-które nie studiowały przynajmniej przez kilka lat na przykład psychologii, dlatego takim czytelnikom
-sugeruję, żeby najwyżej tu zerknąć i przejść zaraz do rozdziału czwartego, od którego zaczyna się
-*niemal od zera*, przebiegająca *bardzo stopniowo* interaktywna nauka podstaw samej matematyki. Co
-prawda w pierwszej części pojawią się czasami wątki związane z psychologią, ale te będą tam pełnić
-rolę przykładów, które można pominąć bez szkody dla zrozumienia głównej treści.
+części. Całkiem możliwe, że większość tematów, o których tu piszę, może nie być zrozumiała dla osób,
+które nie studiowały przynajmniej przez kilka lat na przykład psychologii, dlatego takim
+czytelniczkom i czytelnikom sugeruję, żeby najwyżej tu zerknąć i przejść zaraz do rozdziału
+czwartego, od którego zaczyna się *niemal od zera*, przebiegająca *bardzo stopniowo* interaktywna
+nauka podstaw samej matematyki. Co prawda w pierwszej części pojawią się czasami wątki związane z
+psychologią, ale te będą tam pełnić rolę przykładów, które można pominąć bez szkody dla zrozumienia
+głównej treści.
 
 Po omówieniu potrzebnych do tego podstaw, zamierzam wytłumaczyć Ci między innymi, na czym polega
 istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Żeby dobrze objaśnić
 podstawy skupimy się wtedy na być może najprostszym z powszechnie stosowanych modeli statystycznych,
-to jest na rozkładzie dwumianowym, i prześledzimy dokładnie logikę testowania istotności, *widząc*
+to jest na rozkładzie dwumianowym i prześledzimy dokładnie logikę testowania istotności, *widząc*
 dzięki temu, jaką rolę odgrywa tam pojęcie [rozkładu z
 próby](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_pr%C3%B3bkowania), a jaką sama *decyzja* o
 odrzuceniu bądź nieodrzuceniu testowanej hipotezy. Następnie popatrzymy z bliska na wszystkie ważne
@@ -27,8 +28,8 @@ sprowadza się do użyteczności i formalnej poprawności.
 Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o co
 chodzi w *badaniach obserwacyjnych* i *eksperymentalnych*, a także w *pomiarze*, *o ile* pomiar
 interpretujemy tylko przyczynowo. Będziemy wtedy korzystać intensywnie z dwóch formalnych
-definicji. Jedną z nich będzie wpływowa przyczynowo-teoretyczna definicja trafności pomiaru, którą w
-pełnym pasji i jak to u Niego zwykle bywa znakomicie napisanym
+definicji. Jedną z nich będzie wpływowa, przyczynowo-teoretyczna definicja trafności pomiaru, którą
+w pełnym pasji i, jak to u Niego zwykle bywa, znakomicie napisanym
 [artykule](https://psycnet.apa.org/buy/2004-19012-010) zaproponował wybitny teoretyk psychometrii
 [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą będzie, również
 przyczynowo-teoretyczna, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
