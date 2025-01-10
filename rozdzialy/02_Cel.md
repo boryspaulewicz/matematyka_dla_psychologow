@@ -383,7 +383,7 @@ poziomie *szkoły podstawowej*.
     pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
     środowiskiem. Przecież gdyby proces reagowania nie był w ogromnym stopniu wyuczalny, również, a
     może przede wszystkim poprzez uczenie się społeczne, w tym wszelkiego rodzaju procesy polegające
-    na komunikacji, i gdyby nie był wrażliwy na całą historię interakcji, to poziom adaptacji, który
+    na komunikacji i gdyby nie był wrażliwy na całą historię interakcji, to poziom adaptacji, który
     gołym okiem widać w zachowaniach ludzi, nie byłby możliwy. Dlatego, mimo oszałamiającej ilości
     publikowanych każdego roku artykułów, sprawiająca wrażenie stosunkowo "naukowej" psychologia
     poznawcza, za wyjątkiem skromnej liczby często niezbyt zresztą zaskakujących zastosowań, jak
