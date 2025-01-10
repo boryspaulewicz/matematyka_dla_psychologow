@@ -38,7 +38,7 @@ dorobkiem - polega w ogromnym stopniu na matematyce, na przyk³ad u¿ywaj±c wniosk
 statystycznego, ale nie tylko wtedy, i próbuje zrozumieæ z³o¿one i trudne do wyja¶nienia zjawiska,
 takie jak zachowania ludzi czy strukturê i przebieg procesów umys³owych. Jednak wielu z nich nie ma
 najczê¶ciej o matematyce za bardzo pojêcia. Dobrymi przyk³adami powa¿nych b³êdów, wynikaj±cych z
-niezrozumienia matematycznej nieuchronno¶ci kilku dosyæ *prostych* przecie¿ zasad, s± powszechne
+niezrozumienia matematycznej nieuchronno¶ci kilku *prostych* przecie¿ zasad, s± powszechne
 [wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu
 statystycznego](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors), albo wnioskowanie o
 wp³ywie czy innych w³asno¶ciach przyczynowych bez wprowadzenia i uzasadnienia koniecznych za³o¿eñ
