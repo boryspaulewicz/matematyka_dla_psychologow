@@ -170,7 +170,7 @@ momentem, kiedy znowu zacz±³em go czytaæ. Okaza³o siê, ¿e rozumiem ten fragment 
 lepiej. Postanowi³em wiêc, po raz pierwszy w ¿yciu i tylko na próbê, *w ogóle nie robiæ zadañ, gdy
 nie mam na to ochoty, albo gdy nie czujê, ¿e muszê je zrobiæ, ¿eby zrozumieæ chocia¿ trochê, o co
 chodzi*. A tak przy okazji, niektóre z zadañ w ksi±¿ce, któr± w³a¶nie czytasz, s± integraln± czê¶ci±
-tekstu, ale oczywi¶cie mo¿na je omin±æ, o ile tylko pó¼niejsze tre¶ci bêd± nadal zrozumia³e.
+tekstu, ale oczywi¶cie mo¿na je pomin±æ, o ile pó¼niejsze tre¶ci bêd± nadal zrozumia³e.
 
 Dalej robi³em wiêc notatki i zaplanowane, generatywne powtórki, ale nie robi³em ¿adnych zadañ, które
 mnie nie zainteresowa³y i które nie wydawa³y mi sie wa¿ne. Z czasem zacz±³em te¿ zauwa¿aæ
