@@ -132,7 +132,7 @@ dziedzina i przeciwdziedzina.
 Nie musisz więc wytężać wzroku (ani się dłużej zastanawiać), żeby się przekonać, że każdy punkt ma
 swoją *unikalną* i *charakterystyczną* endostrzałkę identycznościową. A to znaczy, że istnieje
 izomorfizm między zbiorami i identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach
-możemy równie dobrze mówić o identycznościach.
+możemy równie dobrze mówić o identycznościach. Kto wie, może jeszcze z tego skorzystamy.
 
 Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest zawsze prawdą, że `Id ∘ f
 = f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający zdaniom `Id ∘ f = f` i `f =
@@ -142,23 +142,29 @@ zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobac
 
 `∀ x ∈ X, (Id ∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`
 
+A więc `Id ∘ f = f = f ∘ Id`.
+
 To jest (nawiasem mówiąc) dowód przedstawiony nieco nonszalancko w postaci jednego zdania, w ramach
 którego rozwijamy, a następnie "zawijamy" (albo "owijamy"?) definicje identyczności i składania. A
 po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x ∈ X`, to ...
 
 `(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))) = (h ∘ (g(f(x)))) = ((h ∘ g) ∘ f)(x)`
 
-A więc ...
+A więc gdy punkty są zbiorami i strzałki są funkcjami między tymi zbiorami, to o ile złożenia, które
+pojawiają się poniżej są możliwe, jest zawsze prawdą, że:
 
 1. `Id ∘ f = f = f ∘ Id`
 
 2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
-Zgaduję, że ten dowód może być dla Ciebie trochę trudny tylko z powodu licznych nawiasów, które
-trzeba zapisać, żeby poprawnie operować operacją składania funkcji. Można jednak uprościć ten zapis
-wprowadzając dodatkowe definicje, w podobny sposób, w jaki będziemy to robić od pewnego momentu
-dowodząc bardziej skomplikowanych twierdzeń w Leanie. Jeżeli oznaczymy dwa występujące w dowodzonym
-tutaj zdaniu złożenia w ten sposób ...
+Dowód "złożeniowej neutralności" identyczności jest łatwy, a poza tym ta "neutralność" jest jak
+sądzę już dla Ciebie oczywista. Zgaduję jednak, że ten ostatni dowód mógł być dla Ciebie trochę
+trudny, ale tylko z powodu licznych nawiasów, które trzeba zapisać, żeby w nim poprawnie operować
+operacją (ech) składania funkcji. Można jednak uprościć ten zapis wprowadzając dodatkowe definicje,
+w podobny sposób, w jaki będziemy to robić od pewnego momentu dowodząc bardziej skomplikowanych
+twierdzeń w Leanie. 
+
+Jeżeli oznaczymy dwa podstawowe złożenia w ten sposób ...
 
 `i := g ∘ f`
 
@@ -168,8 +174,8 @@ tutaj zdaniu złożenia w ten sposób ...
 
 `∀ x ∈ X, (h ∘ i)(x) = (j ∘ f)(x)`
 
-Przyjmujemy więc znowu, że mamy jakieś `x ∈ X` i dwukrotnie rozwijając definicję `∘` uzyskujemy
-zdanie:
+Przyjmujemy więc znowu, że mamy jakiś `x ∈ X` i dwukrotnie (raz z lewej a raz z prawej) rozwijając
+definicję `∘` uzyskujemy zdanie:
 
 `h(i(x)) = j(f(x))`
 
@@ -181,18 +187,22 @@ Pozostaje nam rozwinąć tymczasowe definicje stałych `i` i `j` ...
 
 `h(g(f(x))) = h(g(f(x))`
 
-Podoba mi się ten ostatni sposób, a Tobie? To może jeszcze zrobimy coś podobnego, ale w Leanie?
-Zastosujemy tutaj taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje
-między innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po
-zredukowaniu. Zaczniemy od ilustracji:
+Podoba mi się ten ostatni sposób, chociaż nie jest dla mnie jasne, czy cokolwiek tu upraszcza, a
+Tobie? To może jeszcze zrobimy coś podobnego, tylko w Leanie? W tym celu zastosujemy taktykę `rfl`,
+o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje między innymi dowody, które
+polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z definicji (liczba
+mnoga). Zaczniemy od ilustracji:
 
 ```lean
+-- Używamy tutaj parametrów opcjonalnych, żeby potem (znacznie) mniej pisać.
+def Zlozenie {X Y Z : Type} (f : X → Y) (g : Y → Z) : X → Z := 
+  fun (x : X) => g (f x)
+
 -- Dla dowolnych *typów* X, Y, Z i V ...
 variable (X Y Z V : Type)
+
 -- ... i funkcji f, g, h, które są kolejno parami składalne (wiesz o co mi chodzi, prawda?) ...
-variable (f : X → Y)
-variable (g : Y → Z)
-variable (h : Z → V)
+variable (f : X → Y) (g : Y → Z) (h : Z → V) -- tak też można
 
 -- ... to ...
 Zlozenie f (Zlozenie g h)
@@ -219,9 +229,9 @@ fun (x : X) => h ((fun (x : X) => g (f x)) x)
 fun (x : X) => h (g (f x))
 ```
 
-A więc te dwie podwójne aplikacje w różnej kolejności, czyli dwa podwójne złożenia w różnej
-kolejności, redukują się do tego samego, czyli są równe. Udowodnienie tego za pomocą taktyki `rfl`
-jest dziecinnie proste:
+A więc te dwie podwójne aplikacje w różnej kolejności, czyli w tym wypadku dwa podwójne złożenia
+funkcji w różnej kolejności, redukują się do tego samego, czyli są równe. Udowodnienie tego za
+pomocą taktyki `rfl` jest dziecinnie proste:
 
 ```lean
 variable (X Y Z V : Type)
@@ -243,8 +253,7 @@ example : f ∘ (fun (x : X) => x) = f := by rfl
 
 -- To było mało czytelnie? No to dodamy odrobinę lukru składniowego. Funkcja ID dla podanego typu tworzy 
 -- funkcję identycznościową z tego typu do niego samego.
-def ID (typ : Type) : typ → typ := 
-    fun (a : typ) => a
+def ID (typ : Type) : typ → typ := fun (a : typ) => a
 
 example : (ID Y) ∘ f = f := by rfl
 example : f ∘ (ID X) = f := by rfl
@@ -253,22 +262,24 @@ example : f ∘ (ID X) = f := by rfl
 -- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami.
 ```
 
-Po pierwsze, nadal widzimy więc, że teoriomnogościowe identyczności są *elementami neutralnymi ze
-względu na operację składania funkcji*. Można powiedzieć, że ze względu na operację składania
-istnieje tutaj nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów - *zer* albo *jedynek*,
-zależnie od wyboru analogii między składaniem i operacjami dodawania lub mnożenia.
+Pomijając chwilowy powrót do Leana, nadal widzimy więc, że teoriomnogościowe identyczności są
+*elementami neutralnymi ze względu na operację składania funkcji*. Można powiedzieć, że ze względu
+na operację składania istnieje tutaj nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów -
+*zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i operacjami dodawania lub
+mnożenia. To po pierwsze.
 
-Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest* nadal *łączne*, co
+A po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest* nadal *łączne*, co
 znaczy, że zapisując złożenie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i
 *nie ma znaczenia*, w jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak w
 ogólnym przypadku ma oczywiście znaczenie, w jakiej kolejności podamy argumenty tej operacji).
 
-"Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy, widzimy
-albo wiemy między innymi, że:
+"Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy i z
+której nie widać ani wewnętrznej struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych
+funkcji, widzimy albo wiemy między innymi, że:
 
 1. Istnieją *punkty* (zbiorów), które dla nas są tylko *punktami zaczepienia strzałek*.
 
-2. Istnieją *strzałki*, w których też nie jesteśmy w stanie z tej wysokości zobaczyć żadnej
+2. Istnieją *strzałki*, w których nie jesteśmy w stanie z tej wysokości zobaczyć żadnej
    *wewnętrznej* struktury.
 
 3. Istnieje wybredna w znany Ci już sposób *operacja składania strzałek*.
