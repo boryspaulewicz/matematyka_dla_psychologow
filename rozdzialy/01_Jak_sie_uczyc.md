@@ -177,4 +177,4 @@ nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje s
     wydanie drugie.
 
 [^4]: Pracownicy naukowi zadziwiaj±co rzadko te¿ *notuj±*, kiedy s³uchaj± wyst±pieñ lub uczestnicz±
-    w naukowych dyskusjach, a przecie¿ ¿aden mózg nie robi siê z wiekiem coraz m³odszy.
+    w dyskusjach naukowych, a przecie¿ ¿aden mózg nie robi siê z wiekiem coraz m³odszy.
