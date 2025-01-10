@@ -181,11 +181,11 @@ Nederpelta](https://wsinrpn.win.tue.nl/), który potraktowa³ mnie niezwykle ¿yczl
 powa¿nie. Jednym z efektów tej przygody jest to, ¿e moje nazwisko pojawi³o siê w oficjalnej erracie
 do tej ksi±¿ki, jako nazwisko jednej z osób, której autorzy dziêkuj±. A mi akurat dziêkuj± za
 wskazanie (w tym momencie, to jest 2024-12-11) oko³o po³owy wszystkich wymienionych b³êdów i nie
-chodzi tu wcale o literówki czy inne tego rodzaju drobiazgi, a o b³êdy rzeczowe. Z niewielu rzeczy
-jestem tak dumny jak z tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³ napisania czego¶
-choæby tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta
-wspania³a ksi±¿ka i kontakt z tym niezwyk³ym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ;
-moim zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
+chodzi tu o literówki czy inne tego rodzaju drobiazgi, a o b³êdy rzeczowe. Z niewielu rzeczy jestem
+tak dumny jak z tego, dlatego czêsto siê tym chwalê. Nie wpad³bym na pomys³ napisania czego¶ choæby
+tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby nie ta wspania³a
+ksi±¿ka i kontakt z tym niezwyk³ym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim
+zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
 Skoro ju¿ mówimy o po¿ytkach p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który
 odkry³em podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych
