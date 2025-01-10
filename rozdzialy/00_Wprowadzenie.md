@@ -207,9 +207,8 @@ Sternberga](https://en.wikipedia.org/wiki/Saul_Sternberg). Napisa³em mu wyra¼nie
 drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³bym zrobiæ po swojemu analizê wyników klasycznego ju¿
 eksperymentu, który przeprowadzi³ w latach 60tych. Jak siê potem dowiedzia³em, pomiar czasu reakcji
 polega³ wtedy na *nanoszeniu dziur na rolce papieru*, zawiniêtej bodaj wokó³ obracaj±cego siê w
-miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam zreszt± dosyæ szybkiej, Saul
-zaproponowa³, ¿e *zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie
-trzeba.
+miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam zreszt± szybkiej, Saul zaproponowa³, ¿e
+*zleci digitalizacjê swojej sekretarce*. Zawstydzony odpisa³em zaraz, ¿e nie trzeba.
 
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
 mówi³em, przytrafi³o mi siê w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego
