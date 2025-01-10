@@ -118,8 +118,7 @@ uczy³em siê trudnego materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawe
 odleglejsze w czasie, generatywne powtórki. I wiele razy w trakcie powtarzania zauwa¿a³em, ¿e moje
 wcze¶niejsze poczucie zrozumienia by³o z³udne. Mo¿e to truizm, ale taki, o którym ³atwo jest
 zapomnieæ: Poniewa¿ nawet na najprostsze sprawy mo¿na popatrzeæ z nowego punktu widzenia, rozumienie
-to jest co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko, o ile w ogóle kiedykolwiek, mo¿na naprawdê
-*osi±gn±æ*.
+to jest co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko, o ile kiedykolwiek, mo¿na *osi±gn±æ*.
 
 Rozdzia³y od czwartego do szóstego nie s± d³ugie. Przeczytanie ich i wykonanie poleceñ powinno Ci
 zaj±æ nie wiêcej ni¿ pó³torej albo dwie godziny. Poza tym ta ksi±¿ka jest ca³kowicie
