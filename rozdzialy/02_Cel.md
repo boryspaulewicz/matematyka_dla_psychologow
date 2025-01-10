@@ -306,7 +306,7 @@ typów, a której autorem jest wybitny szwedzki logik, filozof i statystyk matem
 Martin-Löf](https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f).
 
 Wiem, że te cele mogą się wydać szalone i w jakimś sensie pewnie takie są, więc na tym etapie mówię
-tylko - spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej skorzystałem. To znaczy,
+tylko, że spróbuję. Potrzebuję do tego Twojej pomocy i właściwie już z niej skorzystałem. To znaczy,
 skorzystałem już z samego faktu, że postrzegam Ciebie jako czytelniczkę (albo czytelnika).
 
 Gdybym próbował napisać to, co staram się teraz napisać, jako artykuł naukowy, musiałbym się znowu
