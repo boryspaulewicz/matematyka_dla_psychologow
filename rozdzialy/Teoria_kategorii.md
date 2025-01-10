@@ -313,9 +313,9 @@ pewnych funkcji, które coś *robiły*. Pozornie "Twój" rysunek jest więc rezu
 fizycznie i fizycznie wyraźnie odrębnych procesów, ale przecież te procesy nie były i nie są tak
 naprawdę fizycznie całkiem oddzielone, bo gdyby były, nie mogłabyś "mnie" czytać. Mimo odległości i
 częściowej fizycznej odrębności, ten rysunek jednak powstał i to było możliwe tylko dzięki licznym
-*funkcjonalnie splątanym procesom celowym*, bo przecież *między innymi* "ja" brałem w tym udział, i
+*funkcjonalnie splątanym procesom celowym*, bo przecież *między innymi* "ja" brałem w tym udział i
 "osoby", które odpowiedziały w międzyczasie na moje wezwanie, też brały w tym
-["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)), i to już było dosyć mocno
+["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)) i to już było dosyć mocno
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama" (ale tak naprawdę w ogóle *nie sama*)
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
 
