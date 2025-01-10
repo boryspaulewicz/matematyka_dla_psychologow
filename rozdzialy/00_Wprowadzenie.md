@@ -122,9 +122,9 @@ to jest co¶, do czego mo¿na stale *d±¿yæ*, ale co rzadko, o ile kiedykolwiek, mo
 
 Rozdzia³y od czwartego do szóstego nie s± d³ugie. Przeczytanie ich i wykonanie poleceñ powinno Ci
 zaj±æ nie wiêcej ni¿ pó³torej albo dwie godziny. Poza tym ta ksi±¿ka jest ca³kowicie
-samowystarczalna w tym znaczeniu, ¿e nie zak³ada ¿adnej specjalistycznej wiedzy; *wszystko* jest
-wyja¶nione od podstaw, a jedyny program, którego bêdziesz potrzebowaæ, jest dostêpny za darmo i
-mo¿na go u¿ywaæ równie¿ w przegl±darce.
+samowystarczalna w tym znaczeniu, ¿e nie zak³ada specjalistycznej wiedzy; *wszystko* jest wyja¶nione
+od podstaw, a jedyny program, którego bêdziesz potrzebowaæ, jest dostêpny za darmo i mo¿na go u¿ywaæ
+równie¿ w przegl±darce.
 
 Je¿eli utkniesz, nie zra¿aj siê proszê. A je¿eli utkniesz, bêdziesz próbowaæ znowu i nadal Ci siê
 nie uda, po prostu siê tym nie przejmuj i **czytaj dalej**, zak³adaj±c oczywi¶cie, ¿e bêdziesz nadal
