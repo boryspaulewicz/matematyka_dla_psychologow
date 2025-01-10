@@ -164,26 +164,99 @@ tutaj zdaniu złożenia w ten sposób ...
 
 `j := h ∘ g`
 
-... to zdanie `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)` będzie można zapisać tak:
+... to zdanie `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)` będziemy mogli zapisać prościej tak:
 
 `∀ x ∈ X, (h ∘ i)(x) = (j ∘ f)(x)`
 
-Dwukrotnie rozwijając definicję `∘` uzyskamy wtedy zdanie:
+Przyjmujemy więc znowu, że mamy jakieś `x ∈ X` i dwukrotnie rozwijając definicję `∘` uzyskujemy
+zdanie:
 
-`∀ x ∈ X, h(i(x)) = j(f(x))`
+`h(i(x)) = j(f(x))`
 
-Pozostanie wtedy rozwinąć tymczasowe definicje stałych `i` i `j` ...
+Pozostaje nam rozwinąć tymczasowe definicje stałych `i` i `j` ...
 
-`∀ x ∈ X, h((g ∘ f)(x)) = (h ∘ g)(f(x))`
+`h((g ∘ f)(x)) = (h ∘ g)(f(x))`
 
-... żeby przekonać się, rozwijając znowu definicję `∘`, że równość faktycznie zachodzi:
+... żeby przekonać się, znowu dwukrotnie rozwijając definicję `∘`, że równość faktycznie zachodzi:
 
-`∀ x ∈ X, h(g(f(x))) = h(g(f(x))`
+`h(g(f(x))) = h(g(f(x))`
 
-Po pierwsze, nadal widzimy więc, że identyczności są *elementami neutralnymi ze względu na operację
-składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
-(nieskończenie) wiele *zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i
-operacjami dodawania lub mnożenia.
+Podoba mi się ten ostatni sposób, a Tobie? To może jeszcze zrobimy coś podobnego, ale w Leanie?
+Zastosujemy tutaj taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje
+między innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po
+zredukowaniu. Zaczniemy od ilustracji:
+
+```lean
+-- Dla dowolnych *typów* X, Y, Z i V ...
+variable (X Y Z V : Type)
+-- ... i funkcji f, g, h, które są kolejno parami składalne (wiesz o co mi chodzi, prawda?) ...
+variable (f : X → Y)
+variable (g : Y → Z)
+variable (h : Z → V)
+
+-- ... to ...
+Zlozenie f (Zlozenie g h)
+
+-- ... redukuje się do tego ...
+fun (x : X) => (Zlozenie g h) (f x)
+
+-- .. a to do tego ...
+fun (x : X) => (fun (y : Y) => h (g y)) (f x)
+
+-- .. a to do tego (powyżej jest jedna aplikacja, zauważyłaś?):
+fun (x : X) => h (g (f x)))
+
+-- Natomiast to ...
+Zlozenie (Zlozenie f g)  h
+
+-- .. redukuje się do tego ...
+Zlozenie (fun (x : X) => g (f x)) h
+
+-- ... a to do tego ...
+fun (x : X) => h ((fun (x : X) => g (f x)) x)
+
+-- .. a to do tego (bo powyżej też jest jedna aplikacja):
+fun (x : X) => h (g (f x))
+```
+
+A więc te dwie podwójne aplikacje w różnej kolejności, czyli dwa podwójne złożenia w różnej
+kolejności, redukują się do tego samego, czyli są równe. Udowodnienie tego za pomocą taktyki `rfl`
+jest dziecinnie proste:
+
+```lean
+variable (X Y Z V : Type)
+variable (f : X → Y)
+variable (g : Y → Z)
+variable (h : Z → V)
+
+-- Trzeba było tak od razu, prawda?
+Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
+
+-- W ten sam sposób możemy udowodnić przemienność wbudowanego w Leana składania funkcji teoriotypowych.
+-- Symbol składania uzyskasz wpisując \o
+example : h ∘ (g ∘ f) = (h ∘ g) ∘ f := by rfl
+
+-- To może jeszcze (podwójny) dowód, że identyczności zachowują się jak elementy neutralne ze względu
+-- na operację składania funkcji? Proszę bardzo:
+example : (fun (y : Y) => y) ∘ f = f := by rfl 
+example : f ∘ (fun (x : X) => x) = f := by rfl 
+
+-- To było mało czytelnie? No to dodamy odrobinę lukru składniowego. Funkcja ID dla podanego typu tworzy 
+-- funkcję identycznościową z tego typu do niego samego.
+def ID (typ : Type) : typ → typ := 
+    fun (a : typ) => a
+
+example : (ID Y) ∘ f = f := by rfl
+example : f ∘ (ID X) = f := by rfl
+
+-- Przy okazji odkryliśmy, że wewnątrz teorii typów przez cały ten czas ukrywała się co najmniej jedna
+-- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami.
+```
+
+Po pierwsze, nadal widzimy więc, że teoriomnogościowe identyczności są *elementami neutralnymi ze
+względu na operację składania funkcji*. Można powiedzieć, że ze względu na operację składania
+istnieje tutaj nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów - *zer* albo *jedynek*,
+zależnie od wyboru analogii między składaniem i operacjami dodawania lub mnożenia.
 
 Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest* nadal *łączne*, co
 znaczy, że zapisując złożenie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i
