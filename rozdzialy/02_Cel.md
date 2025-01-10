@@ -20,10 +20,12 @@ kroki wnioskowania z danych za pomocą bayesowskiej wersji tego samego modelu.
 
 Będę wtedy czasem w pewnym sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które
 są raczej twierdzeniami i niektóre pojęcia, które zwykle są definiowane za pomocą pojęć bardziej
-elementarnych, wprowadzę aksjomatycznie. Niebawem wyjaśnię Ci, że nic "złego" się wtedy nie stanie,
-bo *struktura* dowodu, gdy się go już znajdzie, jest zwykle nieważna[^4], liczy się przede wszystkim
-*istnienie* dowodu. A definicje mogą być dowolne, bo są językowymi *wyborami*[^5] i ich wartość
-sprowadza się do użyteczności i formalnej poprawności.
+elementarnych, wprowadzę aksjomatycznie. Niebawem Ci wyjaśnię, że nic "złego" się wtedy nie stanie,
+bo po pierwsze, w ogólnym przypadku [aksjomatyzacja nie jest
+unikalna](https://en.wikipedia.org/wiki/Reverse_mathematics), po drugie, *struktura* dowodu, gdy się
+go już znajdzie, jest zwykle nieważna[^4], liczy się przede wszystkim *istnienie* dowodu i po
+trzecie, definicje mogą być dowolne, bo są językowymi *wyborami*[^5] i ich wartość sprowadza się do
+użyteczności i formalnej poprawności.
 
 Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o co
 chodzi w *badaniach obserwacyjnych* i *eksperymentalnych*, a także w *pomiarze*, *o ile* pomiar
