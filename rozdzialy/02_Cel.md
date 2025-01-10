@@ -280,8 +280,8 @@ wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *i
 organizmu z jego środowiskiem*, to jest jak wygląda struktura mojego albo Twojego umysłu i przebieg
 naszych procesów umysłowych, ani [*tym bardziej*](https://psycnet.apa.org/record/2021-53272-001) nie
 będziemy się koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
-potwora](https://www.spaghettimonster.org/) którego nazywamy mózgiem. I nie będziemy się też skupiać
-na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
+potwora](https://www.spaghettimonster.org/), którego nazywamy mózgiem. I nie będziemy się też
+skupiać na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak mają to
 przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego zajmiemy
 się czymś jakby kompletnie z drugiej strony, to jest *środowiskiem*.
 
