@@ -209,7 +209,7 @@ użyteczne.
 Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o* **różnych rodzajach**
 *zgodności między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych,
 albo bardziej elastycznych niż izomorfizmy, rodzajach dopasowania między (formalnymi) językami albo
-opisami, można powiedzieć, że teoria kategorii to ogólna teoria **analogii między analogiami**. A
+opisami, można powiedzieć, że teoria kategorii to ogólna teoria *analogii między analogiami*. A
 teoria kategorii [*wyższego rzędu*](https://en.wikipedia.org/wiki/Higher_category_theory) to taka
 teoria analogii między analogiami między analogiami ... Genialny polski matematyk [Stefan
 Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział kiedyś, że "dobry matematyk potrafi
