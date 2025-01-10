@@ -112,9 +112,9 @@ czytaj±c Rachlina, a mo¿e wrêcz od niego skopiowa³em.
 
 Kiedy zale¿y mi, ¿eby uczyæ siê systematycznie d³u¿ej, robiê takie ma³e kartki-kalendarze, z
 naniesionymi niechlujnie liniami, na których widaæ, jak mi idzie. Jest tam 7 kolumn, ka¿da nazwana
-jednym dniem tygodnia, i jest tyle rzêdów, ile akurat rzeczy chcê monitorowaæ. Zwykle jest tam rz±d
-o nazwie N (jak Nauka), w którym stawiam kropkê za ka¿de 30 minut pracy umys³owej. Nie chodzi w tym
-o to, ¿eby siê nagradzaæ, albo ¿eby czuæ siê winnym, gdy kropek jest ma³o, tylko ¿eby *zwiêkszyæ
+jednym dniem tygodnia i jest tyle rzêdów, ile akurat rzeczy chcê monitorowaæ. Zwykle jest tam rz±d o
+nazwie N (jak Nauka), w którym stawiam kropkê za ka¿de 30 minut pracy umys³owej. Nie chodzi w tym o
+to, ¿eby siê nagradzaæ, albo ¿eby czuæ siê winnym, gdy kropek jest ma³o, tylko ¿eby *zwiêkszyæ
 ¶wiadomo¶æ tego, jak ró¿ne codzienne decyzje wp³ywaj± na to, ile siê uczê i kiedy*. Bez tej
 niezwykle skutecznej i gwa³townie zmieniaj±cej nawyki protezy nie mia³bym o tym prawie w ogóle
 pojêcia i mimo szczerych chêci, ¿eby zdzia³aæ co¶ warto¶ciowego, dryfowa³bym gdzie¶ pewnie gnany
