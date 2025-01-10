@@ -220,9 +220,9 @@ W ten sposób uzupełnimy istniejące już jako języki formalne, trzy jakościo
 wymiar czwarty i *ostatni*, dzieki któremu ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy
 jednocześnie wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy
 *Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością
-opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne i fragmentaryczne *wcielenie
-się w podmiot* jest procesem *społecznym*, w którym podmiotowość jest nieustannie *re-kontruowana* w
-ramach *uczenia się* polegającego na abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym
+opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest
+procesem *społecznym*, w którym podmiotowość jest nieustannie *re-kontruowana* w ramach procesu
+uczenia *się*, polegającego na abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym
 dialogu*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
