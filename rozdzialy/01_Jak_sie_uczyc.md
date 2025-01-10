@@ -94,7 +94,7 @@ autonomii. Zapisany pomys³, w±tpliwo¶æ albo obserwacja mo¿e zacz±æ dzia³aæ jak z
 soli drobne cia³o sta³e, taki zal±¿ek przysz³ego kryszta³u, wokó³ którego samoistnie powstaj± i
 rosn± kolejne pomys³y, obserwacje i pytania. Dlatego te¿ ostatnio, kiedy du¿o piszê i ci±gle mam
 poczucie, ¿e jeszcze dobrze nie zacz±³em, prawie zawsze mam przy sobie ma³y notes i d³ugopis. A poza
-tym teraz, gdy moja pamiêæ nie dzia³a ju¿ tak dobrze jak wcze¶niej, wiele pomys³ów bym zapomnia³,
+tym teraz, kiedy moja pamiêæ nie dzia³a ju¿ tak dobrze jak wcze¶niej, wiele pomys³ów bym zapomnia³,
 gdybym ich gdzie¶ nie zapisa³.
 
 Powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez
