@@ -187,19 +187,18 @@ tylko odlegle zbli¿onego do tego tekstu, który masz w³a¶nie przed oczami, gdyby 
 ksi±¿ka i kontakt z tym niezwyk³ym cz³owiekiem. No wiêc z ambicjami lepiej nie przesadzaæ; moim
 zdaniem, jak ju¿ wspomina³em, najwa¿niejszy jest czas.
 
-Skoro ju¿ mówimy o po¿ytkach p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który
-odkry³em podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych
-przyjemno¶ci zwi±zanych z tym procesem by³a dla mnie zabawa ró¿nymi mniej lub bardziej
-skomplikowanymi narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e
-nie by³o w okolicy ¿adnych specjalistów, których móg³bym poprosiæ o pomoc. Gdy czu³em, ¿e muszê siê
-w czym¶ szybko podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem
-zdobywa³em, nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy
-serwisu [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez
-pierwsze kilkadziesi±t stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach
-zwykle wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji
-wspomina³em tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te
-zawsze mo¿na by³o znale¼æ. Listê autorów, którym "to zrobi³em" znajdziesz na dziewi±tej stronie
-mojego doktoratu.
+Skoro mówimy o po¿ytkach p³yn±cych ze znajdywania b³êdów, mo¿e przyda Ci siê patent, który odkry³em
+podczas pisania [doktoratu]((./praca_doktorska.pdf)). Poniewa¿ jedn± z wiêkszych przyjemno¶ci
+zwi±zanych z tym procesem by³a dla mnie zabawa ró¿nymi mniej lub bardziej skomplikowanymi
+narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿e nie by³o w okolicy
+¿adnych specjalistów, których móg³bym poprosiæ o pomoc. Gdy czu³em, ¿e muszê siê w czym¶ szybko
+podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem zdobywa³em,
+nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy serwisu
+[AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze
+kilkadziesi±t stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach zwykle
+wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em
+tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te zawsze mo¿na
+by³o znale¼æ. Listê autorów, którym "to zrobi³em" znajdziesz na dziewi±tej stronie mojego doktoratu.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
