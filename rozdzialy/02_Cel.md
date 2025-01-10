@@ -85,9 +85,9 @@ by nazwać *strumieniami wnioskowania z danych*. Praca teoretyczna polegałaby w
 nowych sposobów łączenia źródeł danych z wnioskami i odkrywania nowych wniosków, a więc na
 *przekierowywaniu dedukcyjnych strumieni empirycznych*. Praca *czysto* empiryczna polegałaby z kolei
 na samym dostarczaniu danych w taki sposób, żeby minimalizować konflikt interesów. No i czym byłaby
-wtedy "decyzja o odrzuceniu" jakiejś hipotezy empirycznej jak nie tylko pustym gestem? Przecież
-żaden empiryczny test nigdy nie da nam pewności, a zapisane w repozytorium teorii hipotezy można by
-tam po prostu *zostawić*, bo w takiej postaci *nie zajmowałyby miejsca w publikacjach*.
+wtedy "decyzja o odrzuceniu" jakiejś hipotezy empirycznej, jak nie tylko pustym gestem? Przecież
+*żaden* empiryczny test nigdy nie da nam pewności, a zapisane w repozytorium teorii hipotezy można
+by tam po prostu *zostawić*, bo w takiej postaci *nie zajmowałyby miejsca w publikacjach*.
 
 Czemu wspominam o konflikcie interesów? Moim zdaniem w tym momencie niemal każdy artykuł empiryczny
 powinien w zasadzie zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest
