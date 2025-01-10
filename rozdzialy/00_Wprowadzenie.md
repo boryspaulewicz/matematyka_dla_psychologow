@@ -201,7 +201,7 @@ tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. 
 by³o znale¼æ. Listê autorów, którym "to zrobi³em" znajdziesz na dziewi±tej stronie mojego doktoratu.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
-wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem jak to mo¿e dzia³aæ jest jedna z
+wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem, jak to mo¿e dzia³aæ, jest jedna z
 odpowiedzi, jak± otrzyma³em wtedy od [Saula
 Sternberga](https://en.wikipedia.org/wiki/Saul_Sternberg). Napisa³em mu wyra¼nie, ¿e to kwestia
 drugorzêdna, ale gdyby to by³o mo¿liwe, chcia³bym zrobiæ po swojemu analizê wyników klasycznego ju¿
