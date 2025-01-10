@@ -262,20 +262,21 @@ example : f ∘ (ID X) = f := by rfl
 -- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami.
 ```
 
-Pomijając chwilowy powrót do Leana, nadal widzimy więc, że teoriomnogościowe identyczności są
-*elementami neutralnymi ze względu na operację składania funkcji*. Można powiedzieć, że ze względu
-na operację składania istnieje tutaj nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów -
-*zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i operacjami dodawania lub
-mnożenia. To po pierwsze.
+Pomijając chwilowy powrót do Leana, nadal z oddalenia widzimy (a tak naprawdę wiemy bez zaglądania
+"do wnętrza funkcji"), że teoriomnogościowe identyczności są *elementami neutralnymi ze względu na
+operację składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
+nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów - *zer* albo *jedynek*, zależnie od wyboru
+analogii między składaniem i operacjami dodawania lub mnożenia. To po pierwsze.
 
-A po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest* nadal *łączne*, co
-znaczy, że zapisując złożenie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i
-*nie ma znaczenia*, w jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak w
-ogólnym przypadku ma oczywiście znaczenie, w jakiej kolejności podamy argumenty tej operacji).
+A po drugie, podobnie jak dodawanie i mnożenie liczb, bez zaglądania do struktury wewnętrznej
+funkcji wiemy, że *składanie funkcji jest łączne*, co znaczy, że zapisując złożenie więcej niż dwóch
+funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w jakiej *kolejności* będziemy
+*stosować operację składania* (nadal jednak w ogólnym przypadku ma oczywiście znaczenie, w jakiej
+kolejności podamy argumenty tej operacji).
 
 "Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy i z
 której nie widać ani wewnętrznej struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych
-funkcji, widzimy albo wiemy między innymi, że:
+funkcji, widzimy / wiemy między innymi, że:
 
 1. Istnieją *punkty* (zbiorów), które dla nas są tylko *punktami zaczepienia strzałek*.
 
@@ -284,7 +285,8 @@ funkcji, widzimy albo wiemy między innymi, że:
 
 3. Istnieje wybredna w znany Ci już sposób *operacja składania strzałek*.
 
-4. Każdy punkt ma swoją *unikalną* i *charakterystyczną pętlę identycznościową*.
+4. Każdy punkt ma swoją *unikalną* i *charakterystyczną (endo)strzałkę (czyli pętlę)
+   identycznościową*.
 
 5. Identyczności są elementami neutralnymi ze względu na operację składania: `Id ∘ f = f = f ∘ Id`.
 
