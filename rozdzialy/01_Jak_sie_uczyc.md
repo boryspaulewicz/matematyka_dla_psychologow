@@ -25,7 +25,7 @@ coraz wiêkszym odroczeniem nad innymi rozk³adami powtórek, o ile tylko odstêpy m
 do¶æ *d³ugie*. Tak siê jednak sk³ada, ¿e lubiê metodê rosn±cych odroczeñ. Gdy mi naprawdê zale¿y,
 ¿eby siê czego¶ nauczyæ, pierwsz± powtórkê robiê tego samego dnia (+0d), potem nastêpnego (+1d),
 potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), po o¶miu (+8d), i tak dalej. W
-ten sposób, ju¿ po szóstej powtórce mam w zasadzie stale ³atwy dostêp do wiêkszo¶ci powtarzanych
+ten sposób ju¿ po szóstej powtórce mam w zasadzie stale ³atwy dostêp do wiêkszo¶ci powtarzanych
 tre¶ci co najmniej przez nastêpny miesi±c.
 
 Stosowanie okre¶lonego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e najwiêksz±
