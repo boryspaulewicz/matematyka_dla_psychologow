@@ -109,9 +109,9 @@ spotka³em jednak prawie wcale kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pe
 ³atwo¶ci± wypowiadania stanowczych opinii. Wiem, co mówiê, bo sam jestem znany z aroganckich
 wypowiedzi. A poza tym, gdy zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi
 do g³owy, ¿e ewentualny brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie
-udowodniæ*, i bardzo spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n±
-¶wiadomo¶ci±, ¿e poniewa¿ te s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), w gruncie
-rzeczy *nie da siê* ich skutecznie podwa¿yæ.
+udowodniæ* i bardzo spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n±
+¶wiadomo¶ci±, ¿e poniewa¿ te s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), *nie da
+siê* ich skutecznie podwa¿yæ.
 
 Ale wracaj±c ju¿ do przerwanego w±tku, poczucie zrozumienia czêsto jest zwodnicze. Wiele razy
 uczy³em siê trudnego materia³u, wykonuj±c, czasem przez wiele miesiêcy albo nawet kilka lat, coraz
