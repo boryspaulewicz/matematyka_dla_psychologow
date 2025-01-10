@@ -143,13 +143,13 @@ teoria kategorii. Z matematyką zrobimy to na początku mówiąć *tylko* o
 mówiąc najpierw *tylko* o jednym, w pewnym już wtedy technicznym sensie najprostym możliwym
 psychologicznym badaniu eksperymentalnym.
 
-Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną rolę jaką pojęcie [masy
+Ten minimalny psychologiczny eksperyment odegra taką samą meta-teoretyczną rolę, jaką pojęcie [masy
 punktowej](https://pl.wikipedia.org/wiki/Punkt_materialny) zawieszonej w próżni odegrało kiedyś w
 fizyce. Osiągniemy to nie proponując żadnego psychologicznego modelu czy teorii, zamiast tego
 zapiszemy za pomocą symboli to, bez czego nie można się obejść i czego nie da się zakwestionować
 zawsze wtedy, gdy mówimy o zjawiskach należących do przedmiotu zainteresowań psychologii
 naukowej. Będzie to ogólny i sformalizowany *język*, a dokładniej będzie to *rachunek zachowania*,
-dzięki któremu pytania, które wcześniej wydawały się niejasne albo nawet mętne będzie można
+dzięki któremu pytania, które wcześniej wydawały się niejasne albo nawet mętne, będzie można
 formułować w taki sposób, że poszukiwanie na nie odpowiedzi stanie się, przynajmniej częściowo,
 kwestią mechanicznych operacji.
 
