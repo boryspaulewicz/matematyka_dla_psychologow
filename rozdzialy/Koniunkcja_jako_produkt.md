@@ -154,22 +154,48 @@ A więc ...
 
 2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
+Zgaduję, że ten dowód może być dla Ciebie trochę trudny tylko z powodu licznych nawiasów, które
+trzeba zapisać, żeby poprawnie operować operacją składania funkcji. Można jednak uprościć ten zapis
+wprowadzając dodatkowe definicje, w podobny sposób, w jaki będziemy to robić od pewnego momentu
+dowodząc bardziej skomplikowanych twierdzeń w Leanie. Jeżeli oznaczymy dwa występujące w dowodzonym
+tutaj zdaniu złożenia w ten sposób ...
+
+`i := g ∘ f`
+
+`j := h ∘ g`
+
+... to zdanie `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)` będzie można zapisać tak:
+
+`∀ x ∈ X, (h ∘ i)(x) = (j ∘ f)(x)`
+
+Dwukrotnie rozwijając definicję `∘` uzyskamy wtedy zdanie:
+
+`∀ x ∈ X, h(i(x)) = j(f(x))`
+
+Pozostanie wtedy rozwinąć tymczasowe definicje stałych `i` i `j` ...
+
+`∀ x ∈ X, h((g ∘ f)(x)) = (h ∘ g)(f(x))`
+
+... żeby przekonać się, rozwijając znowu definicję `∘`, że równość faktycznie zachodzi:
+
+`∀ x ∈ X, h(g(f(x))) = h(g(f(x))`
+
 Po pierwsze, nadal widzimy więc, że identyczności są *elementami neutralnymi ze względu na operację
 składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
 (nieskończenie) wiele *zer* albo *jedynek*, zależnie od wyboru analogii między składaniem i
 operacjami dodawania lub mnożenia.
 
 Po drugie, podobnie jak dodawanie i mnożenie liczb, *składanie funkcji jest* nadal *łączne*, co
-znaczy, że zapisując składanie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i
+znaczy, że zapisując złożenie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i
 *nie ma znaczenia*, w jakiej *kolejności* będziemy *stosować operację składania* (nadal jednak w
 ogólnym przypadku ma oczywiście znaczenie, w jakiej kolejności podamy argumenty tej operacji).
 
 "Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy, widzimy
 albo wiemy między innymi, że:
 
-1. Istnieją *punkty* (zbiorów), ale widzimy je w zasadzie tylko jako *punkty zaczepienia strzałek*.
+1. Istnieją *punkty* (zbiorów), które dla nas są tylko *punktami zaczepienia strzałek*.
 
-2. Istnieją *strzałki*, w których też nie jesteśmy w stanie z tej wysokości dostrzec żadnej
+2. Istnieją *strzałki*, w których też nie jesteśmy w stanie z tej wysokości zobaczyć żadnej
    *wewnętrznej* struktury.
 
 3. Istnieje wybredna w znany Ci już sposób *operacja składania strzałek*.
@@ -193,22 +219,44 @@ alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 ## Acha, fajnie, ale *po co*?
 
 Skoro zaczęłaś się już trochę oswajać z kategoryjnym punktem widzenia, przyszedł czas, żeby z tego
-skorzystać. Zgaduję, że w tym momencie aksjomaty kategorii są dla Ciebe mocno przytwierdzone do
-konkretnego przykładu zbiorów i funkcji, bo przecież od tego zaczęliśmy. Będziesz się odrywać od
-tego przykładu w dwóch krokach, a właściwie raczej w dwóch
+skorzystać. Zgaduję, że w tym momencie aksjomaty kategorii kojarzą Ci się bardzo z konkretnymi
+przykładami zbiorów i funkcji, bo przecież od takich przykładów zaczęliśmy. Będziesz się odrywać od
+tego znajomego kontekstu w dwóch krokach, a właściwie w dwóch
 [przelotach](https://pl.wikipedia.org/wiki/Przelot).
 
 Najpierw pokażę Ci, że pewne znane Ci już, ważne konstrukcje i własności *teoriomnogościowe*, takie
 jak element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
 podzbiór, podział zbioru (na wyczerpujące i rozłączne części czyli *pod*zbiory), zbiór pusty,
-singleton, iloczyn kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako
+singleton, iloczyn kartezjański i suma rozłączna zbiorów można jakby na nowo rozpoznać jako
 kategoryjne *struktury strzałkowe* i że to jest w pewnym technicznym sensie *lepszy*, bo *bardziej
-uniwersalny* punkt widzenia. Niejako przy okazji zaczniesz też w bardziej elastyczny sposób myśleć o
-"takosamości" matematycznych struktur. Mając ten fascynujący moim zdaniem etap za sobą, w następnym
-rozdziale skorzystamy z tych alternatywnych, uniwersalnych i abstrakcyjnych kategoryjnych definicji,
-żeby w nowy sposób popatrzeć na logikę.
+uniwersalny* sposób mówienia o tych konstrukcjach i własnościach. Niejako przy okazji zaczniesz też
+stopniowo w bardziej elastyczny sposób myśleć o "takosamości" matematycznych struktur. Mając ten
+fascynujący moim zdaniem etap już za sobą, w następnym rozdziale skorzystamy z tych alternatywnych,
+uniwersalnych i abstrakcyjnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
-TODO
+**Elementy zbiorów jako funkcje, której dziedziną jest jakiś zbiór jednoelementowy**: Dla każdego
+zbioru `X`, istnieje oczywisty izomorfizm między funkcjami z dowolnego singletona, na przykład ze
+zbioru `{∅}`, do `X`. Każda taka funkcja wskazuje przecież dokładnie jeden element `x` zbioru `X` i
+odwrotnie, każdy taki element odpowiada dokładnie jednej takiej funkcji. *Wszystko*, co można
+powiedzieć o elementach zbiorów można więc powiedzieć o takich funkcjach i vice versa. 
+
+Na przykład, jeżeli `x ∈ X`, to istnieje funkcja `x`, a więc również strzałka w naszej kategorii,
+taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również literą `x` jest co prawda może
+trochę nonszalanckie, ale *nie* jest poważnym błędem, bo ta *decyzja* ma charakter *metajązykowy* i
+mimo pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu `x`, sposób użycia
+tego symbolu pozwoli nam zawsze jednoznacznie stwierdzić, czy chodzi o element zbioru, czy o
+funkcję. 
+
+Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i często w matematyce też)
+[*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
+oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod*, ale jest przecież
+oczywiste, że ten sam manewr można zastosować, z tego samego powodu, to jest aby podkreślić jakieś
+głębsze podobieństwo albo bliski związek, do dowolnych stałych. A chcemy podkreślić ścisły związek
+między elementami zbioru `X` i tego rodzaju funkcjami ponieważ - przynajmniej na tym etapie -
+chcemy, żeby różnica między tymi dwoma rodzajami obiektów stała się *mniej* widoczna. To jest więc
+kolejny przykład *celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama
+odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się nie
+spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je [tutaj].
 
 Do każdego punktu musi być również przyczepiona unikalna
 [*pętla*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)) reprezentująca

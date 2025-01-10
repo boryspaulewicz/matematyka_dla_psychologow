@@ -72,8 +72,8 @@ piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
 Uprzedzam jednak, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*,
 czyli tam, gdzie mniej lub bardziej po swojemu obja¶niam kod albo zapêdzam siê w dygresje. To ryzyko
 nie wydaje mi siê pomijalnie ma³e, bo jestem tylko matematycznym amatorem. Co prawda co¶ tam mogê
-pokazaæ jako "dowód", ¿e co¶ tam o matematyce wiem, ale nie ma tego wiele. Gdyby¶ wiêc znalaz³a
-b³±d, bêdê wdziêczny, je¶li mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
+pokazaæ jako "dowód", ¿e trochê o matematyce wiem, ale nie ma tego wiele. Gdyby¶ wiêc znalaz³a b³±d,
+bêdê wdziêczny, je¶li mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
 
 Mogê Ciê za to zapewniæ, ¿e ta ksi±¿ka *prawie na pewno nie zawiera b³êdów w czê¶ciach formalnych*,
 to jest zakodowanych w pewnej wersji jêzyka teorii typów, z której korzysta asystent dowodzenia
