@@ -216,17 +216,16 @@ wyrażenia formalnie i wprost pytań dotyczących tego,
 
 4. Jak i w jakim stopniu można sprawić, żeby zachodziło $Z$. 
 
-gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. W ten sposób uzyskamy uogólnione
-pojęcie *stopniowalnej [obliczalności](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci)*,
-które będzie zarazem jawnie *przyczynowe* i
-[*teleologiczne*](https://pl.wikipedia.org/wiki/Teleologia) i uzupełnimy istniejące już jako języki
-formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się
-*Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako własności sposobu
-opisywania zjawisk z perspektywy *Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja
-*nie* będzie wtedy własnością opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne
-*wcielenie się w podmiot* jest procesem *społecznym*, w którym podmiotowość jest nieustannie
-*re-kontruowana* w ramach procesu uczenia *się*, polegającego na abstrakcyjnie rozumianym,
-*wewnątrz-* lub *między-jednostkowym dialogu*.
+gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. Uzyskamy w ten sposób uogólnioną
+wersję [obliczalności]((https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci)), a dokładniej
+*stopniowalną obliczalność przyczynowo-teleologiczną* i tym samym uzupełnimy istniejące już jako
+języki formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i *ostatni*, dzieki któremu
+ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako
+własności sposobu opisywania zjawisk z perspektywy *Kogoś, kto właściwie nie istnieje*. W
+szczególności, preferencja *nie* będzie wtedy własnością opisywanego procesu. Odkryjemy też, że
+zawsze z konieczności niepełne *wcielenie się w podmiot* jest procesem *społecznym*, w którym
+podmiotowość jest nieustannie *re-kontruowana* w ramach procesu uczenia *się*, polegającego na
+abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym dialogu*.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
