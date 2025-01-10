@@ -232,7 +232,7 @@ Nie jestem wierzący w żadnym prostym sensie tego słowa i chyba nigdy nie był
 dokładnie dzień i miejsce w którym to się stało, gdy będąc dzieckiem pomyślałem, że Święty Mikołaj
 nie istnieje, a To, o czym ludzie mówią w Kościele, to taki jakby [Święty
 Mikołaj](https://www.coca-colacompany.com/about-us/faq/did-coca-cola-invent-santa) dla
-"dorosłych". To był, przynajmniej subiektywnie, nagły i niespodziewany wgląd, i od tego czasu nigdy
+"dorosłych". To był, przynajmniej subiektywnie, nagły i niespodziewany wgląd i od tego czasu nigdy
 nie miałem nawet *cienia* wątpliwości, że "mam rację". Ale przecież, zwłaszcza w logice, której
 teraz używamy, tak samo jak w [testowaniu hipotez
 statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of evidence is *not*
@@ -260,7 +260,7 @@ nie są całkiem spójne i każdy z nas popełnia czasem błędy nawet w najpros
 Lean nie jest tak naprawdę całkiem Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne
 urządzenie nie jest, bo *nic* nie jest, *całkowicie niezawodne*.
 
-Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty", i w jaki sposób działa
+Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty" i w jaki sposób działa
 Lean i jak działają *wszystkie narzędzia i inne [artefakty](https://pl.wikipedia.org/wiki/Artefakt)
 stworzone przez wspólnotę ludzi*, łącznie z całą matematyką, jest jakby czymś w rodzaju "wektora",
 albo ... palca, który przybliżając coś (a dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*)
