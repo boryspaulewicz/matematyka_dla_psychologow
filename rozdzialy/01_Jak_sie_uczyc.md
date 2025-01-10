@@ -35,8 +35,8 @@ tre¶ci dosyæ dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i 
 w³a¶nie chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*. Gdyby jednak poczekaæ trochê
 d³u¿ej, nawet tylko do dnia nastêpnego, ju¿ by tak ³atwa nie by³a, bo utrada dostêpu do informacji w
 pamiêci postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w
-miarê *³atwej* powtórki zapis pamiêciowy utrwala siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do
-nastêpnej *³atwej* powtórki, która jeszcze bardziej utrwala zapis, i w ten sposób ka¿da kolejna
+miarê *³atwej* powtórki, zapis pamiêciowy utrwala siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do
+nastêpnej *³atwej* powtórki, która jeszcze bardziej utrwala zapis i w ten sposób ka¿da kolejna
 powtórka daje coraz lepszy skutek.
 
 Dzieje siê wtedy, mam wra¿enie, jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak
