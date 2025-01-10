@@ -71,7 +71,7 @@ ostatecznie do zmiany sposobu wnioskowania z danych.
 Dzięki temu dostrzeżemy możliwość istnienia alternatywnego sposobu uprawiania nauki (wiem, jak to
 brzmi), z perspektywy którego zdają się tracić na znaczeniu takie praktyki jak na przykład
 prerejestracja badań, testowanie hipotez, czy proces recenzji. Bo też jaką rolę może odegrać
-recenzent czy redaktor, gdy *całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod
+recenzent czy redaktor, kiedy *całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod
 względem poprawności? Wyrazić zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
 Ponieważ takie sformalizowane artykuły naukowe będą *jednocześnie* programami komputerowymi i
