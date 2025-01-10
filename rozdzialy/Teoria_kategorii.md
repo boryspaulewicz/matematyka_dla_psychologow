@@ -20,17 +20,17 @@ to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
 2. Po prawej od *punktu A*, w odległości równej powiedzmy mniej więcej połowie długości Twojego
    palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugi podobny okrąg, a *po prawej*
    od tego okręgu zapisz literę *B*. Odtąd dla własnej wygody pisania i Twojej wygody czytania będę
-   nazywał tą odległość *krokiem*, a kiedy powiem, dla `X : Litera`, *oznacz* dany *punkt literą `X`
-   z prawej*, albo *z lewej*, albo *z góry*, albo *z dołu*, to będzie mi chodziło o to, żebyś
+   nazywał tą odległość *krokiem*, a kiedy powiem, dla `X : Litera`, *oznacz* dany *punkt literą*
+   `X` *z prawej*, albo *z lewej*, albo *z góry*, albo *z dołu*, to będzie mi chodziło o to, żebyś
    zapisała tą literę zaraz po prawej, albo zaraz z lewej, albo zaraz nad, albo zaraz pod tym
    punktem odpowiednio.
 
 3. Narysuj strzałkę wychodzącą z punktu *A* i wchodzącą do punktu *B*, czyli taką z grotem
    wskazującym na punkt *B*. Może narysuj ją tak, żeby nie stykała się całkiem z punktami, ale to
-   tylko sugestia. Ja robię to raz tak, a raz inaczej, i często się waham, którą wersję
+   tylko sugestia. Ja robię to raz tak, a raz inaczej i często się waham, którą wersję
    wybrać. Zgodnie z instrukcjami ta strzałka powinna być narysowana poziomo. Odtąd będę mówił
    krócej, na przykład: Jeżeli na kartce `X : Punkt` i `Y : Punkt` (typowanie można czytać jak
-   zdanie, pamiętasz?), to powiem *narysuj strzałkę z `X` do `Y`*, a właściwie powiem to nawet
+   zdanie, pamiętasz?), to powiem *narysuj strzałkę z* `X` *do* `Y`, a właściwie powiem to nawet
    krócej (to tylko objaśnienie języka, jakim będę się w coraz większym stopniu posługiwał, nie
    instrukcja).
 
@@ -44,8 +44,8 @@ Masz teraz dwie strzałki, o których, gdy wymienimy je *w określonej kolejnoś
 że są `Skladalne`, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`),
 z którego wychodzi druga (tutaj `g`). Ten fakt możemy zapisać jako zdanie `Skladalne f g`. Zwróć
 uwagę, że *kolejność* strzałek ma tutaj znaczenie, bo nie jest prawdą, że `Skladalne g f`. I teraz
-muszę zacząć pisać ostrożniej, a Ty być będziesz musiała uzbroić się w cierpliwość, czekając, aż to
-co powiem stanie się w miarę jasne.
+muszę zacząć pisać ostrożniej, a Ty będziesz musiała uzbroić się w cierpliwość, czekając, aż to co
+powiem stanie się w miarę jasne.
 
 ## [*Absence of evidence is not evidence of absence*](https://en.wikipedia.org/wiki/Evidence_of_absence)
 
@@ -66,7 +66,7 @@ to faktycznie *są* różne punkty i różne strzałki *na tym rysunku*, ale *ty
 Leana**, tylko pewne formalne *reprezentacje*, które w ogólnym przypadku mają coś *oznaczać*. Te
 punkty i strzałki mogą, ale nie muszą *reprezentować różne obiekty* (odpowiedniego typu). Punkty
 `A`, `B` i `C` pełnią tu więc role abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania
-(jak się okaże, będą to wymagania kategorii), czyli są **rysunkowymi zmiennymi**, i tak samo
+(jak się okaże, będą to wymagania kategorii), czyli są **rysunkowymi zmiennymi** i tak samo
 zmiennymi są również wszystkie strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje*
 niektórych lub wszystkich tych symboli i te staną się przez to *stałymi*.
 
@@ -93,12 +93,12 @@ które dla Ciebie są oznaczone* (albo *reprezentowane*) *przez `Punkt` `A`, `B`
 których to obiektach wiesz tylko tyle, że `Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są
 więc dla Ciebie "opakowane" i nie możesz otworzyć tych opakowań.* 
 
-Na razie nic nie jest "przyczepione" do tych elementów rysunku od spodu, i (zgaduję) nigdy nie
+Na razie nic nie jest "przyczepione" do tych elementów rysunku od spodu i (zgaduję) że nigdy nie
 będzie, ani nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi elementami *w Twojej
 głowie*. Ale może być i będzie, w jednym z następnych rozdziałów.
 
 Punkty `A`, `B` i `C` są różne *jako zmienne*, ale mogłabyś przecież dostać w przyszłości dowód, że
-`A = C`, albo po prostu założyć taką hipotezę, i wtedy okazałoby się, że zmienna / paczka z etykietą
+`A = C`, albo po prostu założyć taką hipotezę i wtedy okazałoby się, że zmienna / paczka z etykietą
 `A` skrywała cały czas "pod" jakimś wirtualnym "spodem" *taki sam* (być może również tylko
 wirtualny) *obiekt*, co zmienna / paczka z etykietą `C`, tylko wcześniej o tym nie wiedziałaś.
 
@@ -128,8 +128,8 @@ rolę kontekstu "Ciebie" jako pewnej** (jeszcze innej) **funkcji** *nazywasz "Tw
 zewnętrznego* (to jest kartki, być może w formacie *A4*, ale tego nie wiem), *żeby pomóc "swojej"
 pamięci korzystając z rysunku, ale ten rysunek ma dla "Ciebie"* **sens** *tylko dzięki temu, że*
 **pamiętasz, co oznacza**, *czyli przede wszystkim pamiętasz co można, a czego - zachowując sens -
-nie można z nim zrobić. Rzeczywisty kontekst znajduje się więc w "Twoim" ciele, a rysunek to tylko
-"tymczasowa proteza" albo "zewnętrzne rusztowanie" dla Twojej pamięci*.
+nie można z nim zrobić. Rzeczywisty kontekst znajduje się więc* (prawie) *w "Twoim" ciele, a rysunek
+to tylko "tymczasowa proteza" albo "zewnętrzne rusztowanie" dla Twojej pamięci*.
 
 Nie ma znaczenia, czy się z tym zgadzasz, czy nie, bo teraz, tworząc ten rysunek i stosując
 zaproponowany przeze mnie język opisu, ale też bardzo wiele razy wcześniej, "*sama*" sprawiłaś, że
