@@ -126,8 +126,8 @@ samowystarczalna w tym znaczeniu, ¿e nie zak³ada specjalistycznej wiedzy; *wszys
 od podstaw, a jedyny program, którego bêdziesz potrzebowaæ, jest dostêpny za darmo i mo¿na go u¿ywaæ
 równie¿ w przegl±darce.
 
-Je¿eli utkniesz, nie zra¿aj siê proszê. A je¿eli utkniesz, bêdziesz próbowaæ znowu i nadal Ci siê
-nie uda, po prostu siê tym nie przejmuj i **czytaj dalej**, zak³adaj±c oczywi¶cie, ¿e bêdziesz nadal
+Je¿eli utkniesz, nie zra¿aj siê proszê. A je¿eli utkniesz, bêdziesz próbowaæ nadal i znów Ci siê nie
+uda, po prostu siê tym nie przejmuj i **czytaj dalej**, zak³adaj±c oczywi¶cie, ¿e bêdziesz
 zainteresowana tym, co bêdzie dalej. Zrozumienie, ¿e ucz±c siê matematyki *nie trzeba rozwi±zywaæ
 wszystkich zadañ* i ¿e upieranie siê przy tym mo¿e przeszkadzaæ w nauce zajê³o mi naprawdê du¿o
 czasu, o wiele za du¿o. ¯a³ujê, ¿e nikt mi tego nie t³uk³ ju¿ dawno do g³owy (albo jeszcze lepiej,
