@@ -86,7 +86,7 @@ jakiekolwiek w±tpliwo¶ci, zawsze mo¿esz wkleiæ kod do Leana i przekonaæ siê sama
 siê b³±d.
 
 Muszê Ciê te¿ ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
-zadania, których do tego momentu nie ma zreszt± wiele, jest mo¿liwe, ¿e poczujesz co¶ w rodzaju
+zadania, których do tego momentu bêdzie zreszt± niewiele, jest mo¿liwe, ¿e poczujesz co¶ w rodzaju
 zagubienia. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego takie poczucie jest na
 pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy zaczyna³em siê uczyæ o teorii typów. To
 poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze zrozumienie, ale to wymaga *cierpliwo¶ci*.
