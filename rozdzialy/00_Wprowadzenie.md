@@ -213,10 +213,10 @@ miarowym tempie bêbna. Pisz±c w odpowiedzi, o ile pamiêtam zreszt± szybkiej, Sau
 Co¶ innego, co te¿ na zawsze zmieni³o moje ¿ycie, a co jest zwi±zane z tym, o czym przed chwil±
 mówi³em, przytrafi³o mi siê w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego
 przedmiotu, Pani P³ucienniczak, któr± bardzo dobrze wspominam (jednak moj± ulubion± nauczycielk± na
-zawsze pozostanie Pani Wójcik, która uczy³a mnie matematyki), t³umaczy³a w³a¶nie co¶ na tablicy i
-kiedy zrozumia³em (ale czy na pewno?), o czym wtedy mówi³a, zrozumia³em te¿ jednocze¶nie co¶
-wa¿niejszego od fizyki: *Wszystko, co da siê zrozumieæ, ja te¿ mogê zrozumieæ, o ile tylko bêdê mia³
-do¶æ informacji i czasu*. Uwa¿am, ¿e je¿eli siêgnê³a¶ po t± ksia¿kê, to Ty te¿ mo¿esz zrozumieæ
+zawsze pozostanie Pani Wójcik, która uczy³a mnie matematyki), t³umaczy³a co¶ w³a¶nie na tablicy i
+kiedy zrozumia³em (ale czy na pewno?), o czym mówi³a, zrozumia³em te¿ jednocze¶nie co¶ wa¿niejszego
+od fizyki: *Wszystko, co da siê zrozumieæ, ja te¿ mogê zrozumieæ, o ile tylko bêdê mia³ do¶æ
+informacji i czasu*. Uwa¿am, ¿e je¿eli siêgnê³a¶ po t± ksia¿kê, to Ty te¿ mo¿esz zrozumieæ
 *wszystko*, co da siê zrozumieæ. Jak to uj±³ Silvanus Thompson w swoim popularnym i dostêpnym za
 darmo [podrêczniku do rachunku ró¿niczkowo-ca³kowego](https://calculusmadeeasy.org/), *What one fool
 can do, another can*. Thompson podaje tam, ¿e to jest *Ancient Simian Proverb*, ale to ¿art
