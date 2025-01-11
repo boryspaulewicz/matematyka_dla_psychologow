@@ -6,10 +6,10 @@ językach](https://www.youtube.com/watch?v=33Raqx9sFbo), to jest w języku zbior
 logiki, częściowo rysunkowym języku teorii kategorii, niekategoryjnym języku rysunkowym i w języku
 naturalnym. Ale zaczniemy od powtórki (którą zresztą powtórzymy)[^1].
 
-Już wiesz, że z każdym (nie tylko skończonym) zbiorem związana jest funkcja identycznościowa na tym
-zbiorze, bo dla każdego zbioru potrafisz taką funkcję zdefiniować. W przypadku zbiorów *skończonych*
-możesz to zrobić *rysując* ją, a w przypadku *nieskończonych* możesz podać jednoznaczną
-(nicnierobiącą) *regułę* jej działania.
+Już wiesz, że z *każdym* (nie tylko skończonym) zbiorem związana jest *funkcja identycznościowa* na
+tym zbiorze, bo dla każdego zbioru potrafisz taką funkcję zdefiniować. W przypadku zbiorów
+*skończonych* możesz to zrobić *rysując* ją, a w przypadku *dowolnych* zbiorów (a więc również
+nieskończonych) możesz podać jednoznaczną (nicnierobiącą) *regułę* jej działania.
 
 Wiesz też, że istnieje *dokładnie jedna* taka funkcja dla każdego zbioru, bo gdy definiuje się
 funkcję identycznościową nie ma swobody wyboru, skoro każda identyczność musi dla każdego elementu
