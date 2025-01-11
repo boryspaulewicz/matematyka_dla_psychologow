@@ -86,9 +86,10 @@ f)(x)`. Tego nie musisz próbować *zobaczyć*, bo to możesz *wywnioskować* z 
 funkcji. Dorysuj więc od dołu `Strzalka X Z`, ale taką wygiętą w łuk, i oznacz ją literą `h`, a
 potem umieść w środku uzyskanego w ten sposób diagramu ptaszka.
 
-Jest tam teraz ptaszek, bo mocą naszej *decyzji* dotyczącej tego, co oznacza `h`, ten diagram jest
-*przemienny*, co możemy zapisać algebraicznie również tak: `Zlozenie f g = h`. Ten ptaszek i
-odpowiadające mu równania w dwóch różnych językach, to przykład czegoś, czego nie da się zobaczyć na
+Jest tam teraz ptaszek, bo mocą naszej *decyzji* (a więc to jest *założenie*) dotyczącej tego, co
+oznacza `h`, ten diagram jest *przemienny*, co możemy zapisać algebraicznie również jako `Zlozenie f
+g = h`. Ten ptaszek i odpowiadające mu równania w dwóch różnych językach (`Zlozenie f g = h` będzie
+niebawem poprawnym termem w języku teorii typów), to przykład czegoś, czego nie da się zobaczyć na
 samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezentującym zbiory i funkcje
 między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami, są jednak
 strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym (wybrednym)
