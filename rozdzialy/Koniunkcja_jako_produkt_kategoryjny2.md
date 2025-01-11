@@ -385,238 +385,104 @@ zbioru `X × Y` i znajdującymi się *na zewnątrz* tego zbioru *parami funkcji*
 `X` i do `Y` odpowiednio. 
 
 Właściwie teraz, gdy skończyłem pisać ten akapit, zaczęło mi się wydawać, że może jednak da się
-przedstawić kategoryjny iloczyn (nazywany raczej kategoryjnym *produktem*) jako rezultat pewnego
-rozumowania. Po raz kolejny przekonałem się w ten sposób, że *najwięcej uczy się czegoś ten, kto sam
-próbuje kogoś tego czegoś nauczyć* i jednocześnie, że *najbardziej pogłębia swoje zrozumienie czegoś
-ten, kto.próbuje to coś komuś jasno wytłumaczyć*. Wobec tego, jeszcze raz, dziękuję.
+przedstawić kategoryjny iloczyn (który nazywamy raczej kategoryjnym *produktem*) jako wniosek z
+pewnego rozumowania. Po raz kolejny przekonałem się w ten sposób, że *najwięcej uczy się czegoś ten,
+kto sam próbuje kogoś tego czegoś nauczyć* i jednocześnie, że *najbardziej pogłębia swoje
+zrozumienie czegoś ten, kto.próbuje to coś komuś jasno wytłumaczyć*. To jest dlatego tak niezwykle
+skuteczny sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwiek, że próby wytłumaczenia
+czegoś względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu (autor-)refleksji na
+*metapoziomie*. A tak w ogóle, to na pewnym poziomie abstrakcji nie ma chyba żadnej różnicy między
+uczeniem (się) i pogłębianiem zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to że jesteś i że
+czytasz. Dziękuję Ci, ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dlatego, że
+dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się wcześniej mówić
+nieco ironicznie.
 
-Na koniec jeszcze podpisz proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
+Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
 pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
 *Istnieje naturalny izomorfizm między elementami iloczynu kartezjańskiego i parami funkcji z
 singletona do przeciwdziedzin projekcji tego iloczynu*.
+
+Wynika stąd, że wszystko, co możemy powiedzieć na temat elementów należących do dowolnego iloczynu
+kartezjańskiego, a więc po prostu wszystko, co możemy powiedzieć na temat iloczynu kartezjańskiego,
+możemy powiedzieć pomijając wewnętrzną strukturę tego rodzaju zbioru, zamiast tego mówiąć o parach
+funkcji z dowolnego singletona do tego iloczynu.
+
+## Produkt kategoryjny
 
 **Rysunek 2**: Ponieważ ten rysunek będzie bardziej skomplikowany, muszę wprowadzić bardziej
 skomplikowaną notację. Jeżeli, dla pewnego `Punkt X`, napiszę `Narysuj (Punkt Y) (<położenie> X)`,
 gdzie `położenie` będzie jednym z termów `N`, `E`, `S`, `W`, `NE`, `SE`, `SW`, `NW`, oznaczających
 odpowiednio *na północ*, *na wschód*, *na południe*, *na zachód*, *na północny wschód*, *na
 południowy wschód*, *na południowy zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię
-o narysowanie punktu `Y` właśnie w danym miejscu względem punktu `X`.
+o narysowanie punktu `Y` właśnie w tym położeniu względem punktu `X`.
 
-to będzie to znaczyło proszę punkt `X x Y` i strzałki `pi1 : X x Y -> X` i `pi2 : X x Y -> Y`, ale
-tak, żeby `pi1` była skierowana w lewo a `pi2` w prawo. Nad tymi dwoma ramionami, powyżej punktu `X
-x Y`, narysuj punkt `Z` i dodaj jeszcze strzałki `f : Z -> X` i `g : Z -> Y` i może niech będą lekko
-wygięte w taki sposób, żeby powstało coś przypominającego spiczastą czapkę. Wreszcie linią
-przerywaną `Narysuj` strzałkę z punktu `Z` do punktu `X x Y`, a obok niej zapisz `E^1`.
+No więc `Narysuj (Punkt X x Y)` i oznacz do z dołu jako `X x Y`, czyli po prostu oznacz go z
+dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` (dodałem nawiasy, żeby nie było między nami
+nieporozumień) i oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X x Y))` i oznacz go z
+dołu. `Narysuj (Strzalka (X x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam sposób `Narysuj`
+strzałkę `π₂ : X x Y → Y`. `Narysuj (Punkt Z) (N (X x Y))` i jako łuki wygięte na zewnątrz, tak,
+jakby to były skrzydła anioła, `Narysuj (Strzalka Z X)` i `Strzalka Z Y` i oznacz je odpowiednio
+literami `f` i `g` odpowiednio, zapisując je po zewnętrznych stronach tych strzałek. Wreszcie
+przerywaną linią `Narysuj (Strzalka Z (X x Y))` i po lewej albo po prawej, jak chcesz, oznacz ją
+wyrażeniem `⟨f, g⟩`. Na koniec na każdym ze skrzydeł nanieś ptaszka, bo ten *diagram* jest *z
+definicji przemienny*.
 
-wychodzącą z punktu `X x Y` w lewą stronę i
-wskazującą na punkt `X` i strzałkę `pi2` wychodzącą z tego samego punktu co `pi`, ale w prawo i
-wskazującą punkt `Y`.
+Co? Tak, wiem, ale nie przejmuj się, to minie (*wszystko* przecież mija[^2]). Już wyjaśniam:
+Niezależnie od tego, jaki byśmy wybrali zbiór `Z`, a więc dla każdego zbioru `Z` i niezależnie od
+tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y`, będzie *istniała* taka funkcja `h : Z →
+X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`. Skąd to wiemy? Dla dowolnego `z ∈ Z`, istnieje dokładnie
+jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x, y))`. Widzisz, że
+to musi być para uporządkowana `(f(z), g(z))` i że taka para istnieje dla każdego `z ∈ Z`? A więc
+tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten sposób scharakteryzowana funkcja *nie ma
+wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego anioła, dla każdego `z ∈ Z` taka funkcja
+*musi* wybrać taką parę uporządkowaną `v`, że `π₁(v) = f(z)` i jednocześnie `π₂(v) = g(z)`. Skoro
+każda para jest całkowicie określona przez swój pierwszy i drugi element, to jest przez swoje dwie
+projekcje, to ta para też jest całkowicie określona.
 
-STARE
+Widzimy w ten sposób, że każda para funkcji `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
+iloczynu kartezjańskiego odpowiada dokładnie jednej funkcji `h` ze zbioru `Z` do tego iloczynu,
+która spełnia warunek `f = π₁ ∘ h` i warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z
+dowolnego zbioru do iloczynu kartezjańskiego odpowiada *unikalnej parze* funkcji z tego zbioru do
+członów tego iloczynu pozwalającej narysować oba ptaszki, ponieważ wtedy (tak nakazują i tego
+wymagają ptaszki) pierwsze skrzydło musi być tą samą funkcją co `π₁ ∘ h`, a drugie skrzydło musi być
+tą samą funkcją co `π₂ ∘ h`.
 
-Do każdego punktu musi być również przyczepiona unikalna
-[*pętla*](https://pl.wikipedia.org/wiki/P%C4%99tla_(teoria_graf%C3%B3w)) reprezentująca
-*identyczność*. Ponieważ te funkcje odgrywają szczególną rolę, jeżeli możesz, oznacz je proszę przy
-każdym punkcie albo liniami przerywanymi, albo innym kolorem.
+*Diagram*, który właśnie narysowałaś, możemy teraz *zinterpretować* jako konstrukcję *czysto
+kategoryjną*. Wystarczy, że przyjmiemy alternatywną interpretację teoriomnogościowego symbolu
+operacji tworzenia iloczynów kartezjańskich zbiorów `×`. Możemy to zrobić, bo dopuszczamy, o ile
+można je jednoznacznie zrozumieć ze względu na kontekst, przeciążania stałych. Wtedy na tym
+diagramie nie będzie już *żadnych* symboli teoriomnogościowych, a więc zostanie sam język teorii
+kategorii, to jest tylko punkty zaczepienia, strzałki i własności dotyczące operacji składania
+strzałek. 
 
-Na to, co wcześniej nazywałem kategoryjnymi punktami, zwykle używa się nazwy *obiekt*, jednak
-zależało mi, żebyś pamiętała, że *w teorii kategorii* obiekty to *tylko punkty zaczepienia
-strzałek*. Strzałki w tej teorii nazywamy często *morfizmami* albo *odwzorowaniami*, ale również i
-te nazwy, podobnie jak słowo *obiekt*, oddają dobrze *genezę* teorii kategorii, za to *nie* oddają
-dobrze *uniwersalności jej zastosowań* i sposobu, w jaki jej zwykle *używamy*.
+Przyjmujemy więc definicję, zgodnie z którą *produktem kategoryjnym*, albo po prostu *produktem*,
+będziemy nazywać każdy punkt (oficialnie: obiekt) wyposażony w dwie wychodzące z niego strzałki
+(czyli tak naprawdę produktem będziemy nazywać pewne *pary strzałek o tym samym źródle*) takie, że
+te strzałki zachowują się w opisany wyżej sposób, czyli jak *projekcje*, które są w opisany wyżej
+sposób "narzędziem wiernego tłumaczenia" między strzałkami do produktu i parami współźródłowych
+strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób uzyskujemy *uniwersalną
+definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn kartezjański i która, jak się
+okaże w następnym rozdziale, odpowiada między innymi pojęciu *koniunkcji w logice*.
 
-Wiedząc już o mylącym charakterze tych słów, pod rysunkiem napisz komentarz: *W teorii kategorii
-każdy obiekt jest wyposażony w endomorfizm identycznościowy*. *Można też powiedzieć tak: Każdy punkt
-kategoryjny ma identycznościową endostrzałkę, a właściwie każdy punkt można utożsamić z tego rodzaju
-strzałką, bo każdemu punktowi odpowiada dokładnie jedna, "przyczepiona" do niego identycznościowa
-endostrzałka, a każdej takiej strzałce odpowiada dokładnie jeden punkt, do którego ta strzałka jest
-przyczepiona*.
-
-Można więc powiedzieć, że kategorie to takie struktury, w których może występować *wiele różnych
-zer* - jeżeli popatrzymy na składanie strzałek jako na operację podobną do dodawania - albo
-*jedynek* - jeśli popatrzymy na składanie strzałek jako na operację podobną do mnożenia. Trzeba
-jednak pamiętać, że dodawanie i mnożenie są operacjami niewybrednymi, a składanie może być wybredne
-i zwykle zresztą jest. Skoro zapisałaś już komentarz (być może po swojemu, to była przecież tylko
-sugestia) i już wiesz, że używamy słowa *punkt* w sposób *niestandardowy*, będę tak nadal mówił, bo
-mam wrażenie, że tak Ci będzie łatwiej o tym konsekwentnie myśleć; sam zresztą odkryłem dopiero
-niedawno, że mi to pomaga.
-
-Morfizmy w teorii kategorii (czyli kategoryjne strzałki) nazywamy *endomorfizmami* (od
-starogreckiego [ἔνδον](https://en.wiktionary.org/wiki/%E1%BC%94%CE%BD%CE%B4%CE%BF%CE%BD)
-oznaczającego *w* albo *wewnątrz* \{i wtedy raczej nie nazywamy ich "endostrzałkami", bo to chyba
-nie brzmi dobrze, ale ja to nawet lubię\}) *wtedy i tylko wtedy*, gdy są właśnie takimi "zawijasami"
-jak identyczności (ale istnieją też inne endomorfizmy, które nie są identycznościami), to znaczy,
-gdy mają *to samo źródło i cel*.
-
-Żeby coś, co nie jest opisane czy scharakteryzowane jawnie jako kategoria zasługiwało (z pewnego
-punktu widzenia!) na nazwę kategoria, musi istnieć *opis struktury tego czegoś w języku punktów i
-składalnych w pewien określony sposób strzałek*. Podkreślam, że nie trzeba panikować, bo znowu będę
-się powtarzał i omówię później szczegółowo kilka prostych przykładów. Żeby rozpoznać w jakiejś
-strukturze pewną kategorię, czyli poprawnie opisać tą strukturę jako kategorię, ten opis musi
-spełniać następujące wymagania:
-
-1. Wszystkie części określonego rodzaju traktujemy jako punkty ...
-
-2. ... i wszystkie części określonego rodzaju traktujemy jako strzałki, w ten sposób, że ...
-
-3. ... każdy punkt ma swoją endostrzałkę identycznościową i ...
-
-4. .. istnieje operacja na obiektach źrodłowych (to jest będących częściami struktury tego czegoś,
-   co opisujemy jako kategorię), która odpowiada *składaniu strzałek* i którą oznaczamy czasem
-   (podobnie jak w języku teorii mnogości) za pomocą symbolu `∘`, taka, że dla dowolnych (a więc też
-   potencjalnie równych, to jest zastępowalnych parami) strzałek `f`, `g` i `h` (uwaga, będą skróty
-   myślowe):
-
-    4-1. `Id ∘ f = f = f ∘ Id`
-    
-    4-2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
-
-Zacząłem tutaj stosować skróty myślowe polegające na tym, że nie zaznaczyłem, że strzałki, o
-złożeniach których coś mówimy, muszą być składalne. A mówiąc dokładaniej, (celowo) pominąłem
-*konieczny* warunek *Jeżeli `f`, `g` i `h` to takie strzałki, że* `Skladalne f g` *i* `Skladalne g
-h`, *to ...*. Nie oznaczyłem też nazw punktów, do których muszą być "przymocowane" wszystkie
-strzałki identycznościowe, a więc symbol `Id` oznacza tutaj strzałkę przyczepioną do *dwóch,
-potencjalnie różnych obiektów źródłowych* i jednocześnie *dwa, potencjalnie różne punkty* (bo każda
-identyczność jest przyczepiona do dokładnie jednego punktu i każdy punkt ma dokładnie jedną
-identyczność).
-
-Dlaczego potencjalnie różne punkty? Jeżeli źródło strzałki `f` wymienionej w punkcie 4-1 jest różne
-od jej celu (co nie znaczy, że obiekty, które te punkty w danej sytuacji oznaczają, są na pewno
-różne), to pierwsza z lewej identyczność musi być "zaczepiona" o inny punkt niż pierwsza z prawej. A
-zastosowałem te skróty myślowe, bo już wiesz, że w teorii kategorii, tak samo jak w teorii mnogości,
-operacja składania jest wybredna i często będzie nam obojgu wygodniej tylko o tym *pamiętać*,
-zamiast uwzględniać to jawnie w zapisie. Tak jak Lean, tego rodzaju informacje będziesz przecież
-mogła wywnioskować z kontekstu.
-
-Ponieważ składanie jest w teorii kategorii nie tylko operacją podstawową, ale również pojęciem
-centralnym, wygodnie jest jeszcze bardziej skrócić zapis i zamiast `g ∘ f` pisać `g f`, albo nawet -
-gdy nie ma wątpliwości, co oznacza taki zapis - `gf`.
-
-Mamy teraz wszystkie narzędzia, żeby w dopiero co omawianej przestrzeni zbiorów skończonych i
-funkcji między zbiorami skończonymi rozpoznać pewną kategorię.
-
-Jeżeli:
-
-1. Każdy zbiór oznaczymy jako kategoryjny punkt.
-
-2. Każdą funkcję oznaczymy jako kategoryjną strzałkę, w taki sposób, że źródło tej strzałki to
-   dziedzina tej funkcji, a cel tej strzałki to przeciwdzidzina tej funkcji.
-
-3. Różne zbiory będą odpowiadały różnym punktom.
-
-4. Różne funkcje będą odpowiadały różnym strzałkom.
-
-5. *Funkcje* identycznościowe, czyli funkcje $i$ takie, że $i$ jest funkcją z pewnego zbioru $X$ do
-tego samego zbioru i $i(x) = x$, będą odpowiadały strzałkom identycznościowym.
-
-6. Składanie *funkcji* będzie odpowiadało składaniu *strzałek*
-
-7. I nie będzie innych punktów ani strzałek.
-
-... to uzyskamy w ten sposób kategorię, a dokładnie *kategorię zbiorów skończonych* o nazwie
-[`FinSet`](https://en.wikipedia.org/wiki/FinSet). Wszystkie te przyporządkowania możemy traktować
-jako *tymczasowe definicje kategoryjnych punktów i strzałek traktowanych jako stałe*.
-
-Upewnimy się teraz, czy wszystkie wymagania kategorii są spełnione:
-
-1. Każdy punkt ma swoją identyczność.
-
-2. Dla każdej strzałki `f`, warunek `Id ∘ f = f = f ∘ Id` jest spełniony w oczywisty sposób, bo
-   kategoryjne składanie odpowiada teraz składaniu funkcji teoriomnogościowych i kategoryjne
-   identyczności odpowiadają identycznościom teoriomnogościowym, a więc rozpakowując definicje
-   symboli `Id`, `f` i `∘` moglibyśmy się łatwo przekonać, że ze względu na te definicje zdanie `Id
-   ∘ f = f = f ∘ Id` jest prawdziwe.
-
-3. Z tego samego powodu dla każdej trójki niekoniecznie różnych i składalnych w ten sposób strzałek
-   zachodzi `h ∘ (g ∘ f) = (h ∘ g) ∘ f`.
-
-Uzyskaliśmy więc pewną *wierną* (w znaczeniu zachowującą różnice między symbolami) *implementacją
-kategorii, zrealizowaną za pomocą zbiorów skończonych i funkcji między tymi zbiorami*.
-
-TODO Że mogłem proces konstruowania tego opisu opisać w drugą stronę, to jest od kategorii, ale
-wydaje mi się, że tak jest na początku lepiej o tym myśleć.
-
-Być może przyszło Ci do głowy, że to wszystko było niepotrzebne, bo przecież to jest jakby *kopia*
-przestrzeni zbiorów skończonych i funkcji między nimi, zmieniliśmy tylko język na taki jakby
-bardziej graficzny (a mówiąc dokładniej na język [*grafów
-skierowanych*](https://pl.wikipedia.org/wiki/Graf_skierowany) uzupełniony o operację składania
-(zawsze skierowanych i tylko tych składalnych)
-[*krawędzi*](https://pl.wikipedia.org/wiki/Kraw%C4%99d%C5%BA_grafu)). *I tak i nie*.
-
-Otóż w ten sposób *całkowicie pomijamy* **wewnętrzną** *strukturę zbiorów i funkcji*, bo przecież
-każdy zbiór zredukowaliśmy do jakiegoś punktu zaczepienia a każdą funkcję do jakiejś całkowicie
-pozbawionej wewnętrznej struktury strzałki. A więc *odarliśmy przestrzeń zbiorów skończonych i
-funkcji ze wszystkiego za wyjątkiem samej operacji składania funkcji*. 
-
-TODO Fragment teorii typów jako kategoria.
-
-
-I w tym momencie nieuchronnie pojawia się pytanie - *po co?*
-
-
-
-GDZIE INDZIEJ Na przykład, Jeżeli zbiór jednoelementowy `{∅}` oznaczyliśmy jako `X`, a zbiór `{1, 2}` jako `Y`,
-   
-Zwróć uwagę, że to jest *izomorfizm*, ponieważ każdemu zbiorowi odpowiada pewien punkt, różnym
-zbiorom odpowiadają różne punkty, każdej funkcji odpowiada pewna strzałka, różnym funkcjom
-odpowiadają różne strzałki, i te nasze punkty i strzałki to *tylko* takie punkty i strzałki, których
-używamy do mówienia w pewien sposób o zbiorach i funkcjach. Ponieważ to jest (patrz punkt 6)
-izomorfizm *respektujący strukturę*, a dokładniej respektujący własności operacji składania (zarówno
-funkcji jak i strzałek, bo izomorfizm *działa w obie strony*, pamiętasz?), to *może się wydawać*, że
-poza terminologią nic się nie zmieniło.
-
-To jest, nawiasem mówiąc, cecha wszystkich izomorfizmów, tylko nie zawsze tak bardzo rzuca się w
-oczy. Można powiedzieć, że zmieniając opis na opis izomorficzny (czyli "równokształtny", pamiętasz?)
-mówimy ("strukturalnie") dokładnie to samo, tylko w inny sposób. Coś się jednak zmieniło, ale trochę
-mi zajmie, zanim będę Ci mógł pokazać co.
-
-Patrząc w ten sposób na przestrzeń zbiorów skończonych i funkcji jako na kategorię *ignorujemy
-strukturę zbiorów i funkcji* i *skupiamy się* na samej *operacji składania*, a dzięki temu skupiamy
-się na tym, jaką *rolę* odgrywają zbiory w przestrzeni zbiorów skończonych. Zgaduję, że nie możesz
-się doczekać przykładów. Będę teraz pisał używając dwóch różnych czcionek. Gdy będę pisał w języku
-teorii mnogości, będzie to wyglądało na przykład tak: $X, f(x)$. Gdy będę pisał w języku teorii
-kategorii będzie to wyglądało na przykład tak: `X, f`.
-
-Dla każdego zbioru jednoelementowego $T$ i każdego zbioru $S$ (łącznie z $T$!), istnieje dokładnie
-jedna funkcja $f : S → T$, bo każda taka funkcja "*nie ma żadnego wyboru*", musi przecież gdzieś
-posłać każdy element swojej dziedziny (bo jest funkcją), a przeciwdziedzina ma tylko jeden
-element. I odwrotnie, jeżeli zbiór $T$ ma taką własność, że dla każdego zbioru $S$ istnieje
-dokładnie jedna funkcja $f : S → T$, to zbiór $T$ musi być zbiorem jednoelementowym, bo gdyby $T$
-był zbiorem pustym, to na przykład $f : \set{1, 2, 3} → T$ nie mogłoby istnieć, a gdyby $T$ miało
-więcej niż jeden element, to dla każdego niepustego zbioru $S$ istniałyby różne funkcje posyłające
-$S$ w $T$.
-
-A to oznacza, że zbiory jednoelementowe to *dokładnie* takie *punkty*, do których wchodzi dokładnie
-jedna strzałka od każdego punktu.
-
-Teraz $f$ i $g$ oznaczają (niekoniecznie różne) *funkcje* (a więc posługujemy się językiem zbiorów i
-funkcji, dlatego zmieniłem czcionkę): *Teoriomnogościowym* złożeniem $f$ i $g$ nazywamy funkcję,
-którą oznaczamy jako $g ∘ f$ (a oznaczamy ją tak, bo jest *wynikiem teoriomnogościowego składania*
-tych dwóch funkcji), taką, że że $(g ∘ f)(x) := g(f(x))$.  
-(Zwracam uwagę, że znowu zastosowałem skrót myślowy, polegający na tym, że nie wspomniałem o
-wymaganiu składalności, a to wymaganie obowiązuje również w teorii mnogości).
-
-Teraz `f`, `g` i `h` oznaczają strzałki w *kategorii zbiorów skończonych* (czyli są kategoryjnymi
-strzałkami, ale jednocześnie mają już dla nas objaśnioną wcześniej interpretację teoriomnogościową):
-
-Kategoryjne złożenie `h (g f)` oznacza teraz teoriomnogościowe złożenie $h ∘ (g ∘ f)$, a to z
-(teoriomnogościowej) definicji oznacza taką funkcję (powiedzmy) $i$, że (rozwijamy definicję
-złożenia po raz pierwszy) $i(x) = h ∘ g(f(x)))$, a to oznacza (rozwijamy definicję złożenia po raz
-drugi) $h(g(f(x))). 
-
-Kategoryjne złożenie `(h g) f` oznacza teoriomnogościowe złożenie $(h ∘ g) ∘ f$, a to z kolei
-oznacza funkcję (powiedzmy) $j$, taką, że (rozwijamy definicję złożenia po raz pierwszy) $j(x) = (h
-∘ g)(f(x))$, a to oznacza (rozwijamy definicję złożenia po raz drugi) $h(g(f(x)))$.
-
-Widzimy, że $i$ i $j$ są tą samą funkcją, bo każdemu elementowi swojej (w tym wypadku z konieczności
-tej samej) dziedziny (którą możemy oznaczyć dla wygody jako $X$) przyporządkowują ten sam element
-(również z konieczności tej samej) przeciwdziedziny, to jest $∀ x ∈ X, i(x) = h(g(f(x))) = j(x)$. A
-więc dla wszystkich (składalnych w ten sposób) strzałek `f`, `g` i `h`, ponieważ nasz opis
-przestrzeni zbiorów skończonych jest *izomorfizmem*, a więc nasze strzałki są tylko *innym sposobem
-oznaczania* zbiorów skończonych, widzimy, że `h (g f) = (h g) f`.
+**Sugestia**: To była jak sądzę najtrudniejsza część tego rozdziału, dlatego nie będę Ci sugerował,
+jak podpisać ostatni rysunek, bo przypuszczam, że ta notatka będzie i tak ewoluowała w miarę Twoich
+postępów w nauce. Niemniej zachęcam do stworzenia takiej notatki, być może posługując się przy tym
+swobodnie elementami graficznymi i zapisując przy tym pytania, wątpliwości, lub dowolne
+spostrzeżenia czy pomysły. I nie przejmuj się, jeżeli na razie niewiele rozumiesz z definicji
+produktu kategoryjnego. Przekonasz się, że w pewnym technicznym sensie *musi* być trudno ją
+zrozumieć, a poza tym jeszcze nie zaczęliśmy jej *używać*.
 
 ### Przypisy
 
-[^1]: A właściwie więcej niż dwuargumentową, bo ta funkcja, gdyby była zaimplementowana, musiałaby
-    korzystać również z informacji o dziedzinach i przeciwdziedzinach funkcji, jak również,
-    niejawnie, z ich składalności, którą można wyrazić odpowiednio określając typy parametrów.
+[^1]: A w pewnym sensie więcej niż dwuargumentową, bo ta funkcja, gdyby była zaimplementowana,
+    musiałaby korzystać również z informacji o dziedzinach i przeciwdziedzinach funkcji, jak również
+    z ich składalności, którą można akurat wyrazić odpowiednio określając typy parametrów (na
+    przykład jako `(f : X → Y) (g : Y → Z)`, tak jak to zrobiliśmy definiując stałą `Zlozenie`).
+
+[^2]: सबे सङ्खारा अनिच्चा ति, यदा पञ्ञाया पस्सति, अथा निब्बिन्दती दुखे – एष मगो विसुद्धियā
+    ([Dhammapada](https://en.wikipedia.org/wiki/Dhammapada), wers 277).
+
+[^3]: τῷ γὰρ ἔχοντι παντὶ δοθήσεται καὶ περισσευθήσεται· τοῦ δὲ μὴ ἔχοντος καὶ ὃ ἔχει ἀρθήσεται ἀπ'
+    αὐτοῦ.  (Ewangelia według świętego Mateusza, 25:29). Chociaż wolę chyba wersję buddyjską - *To
+    darczyńca powinien być wdzięczny*. Tylko niestety nie jestem w stanie `{∅} → Zrodlo` tego być
+    może cytatu.
