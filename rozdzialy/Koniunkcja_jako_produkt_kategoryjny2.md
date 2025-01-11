@@ -35,13 +35,14 @@ kontekstem ani raz nie powiedziałem niczego w rodzaju "Ponieważ zbiór `X` jes
 to znaczy, że *wszystkie* wymienione w tym rozdziale własności mają rownież funkcje między
 *dowolnymi* zbiorami, a więc także *nie*skończonymi.
 
-Czy widzisz na tym przykładzie, że warto czasem mieć *świadomość tego, z jakich założeń się
-korzysta*?  Dzięki temu możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione
-zdanie*, czyli *kiedy możemy używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w
-języku teorii typów, nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni,
-z których założeń korzystaliśmy, bo te występowały wszystkie jawnie, albo jako parametry każdego
-dowodu, albo w kodzie dowodu jako funkcji. Gdy jednak konstruujemy dowody w bardziej nieformalny
-sposób, tak dobrze tego nie widać, dlatego warto wtedy zachować czujność.
+Czy widzisz na tym przykładzie, że warto *wiedzieć, z jakich założeń się korzysta*?  Dzięki temu
+możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione zdanie*, czyli *kiedy możemy
+używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w języku teorii typów, w zasadzie
+nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni, z których założeń
+korzystaliśmy, bo te występowały wszystkie jawnie, albo jako parametry każdego dowodu, albo w kodzie
+dowodu jako funkcji. To jest kolejna ogromna zaleta pełnej formalizacji. Gdy jednak konstruujemy
+dowody w bardziej nieformalny sposób, tak dobrze tego nie widać, dlatego warto wtedy zachować
+czujność.
 
 Gdybyśmy się teraz skupili na samych funkcjach i na tym, o czym mówiliśmy dotąd w tym rozdziale, to
 można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywiste
