@@ -364,42 +364,49 @@ dokładnie jeden zbiór pusty, ale to nie sprawia, że dwa ostatnie zdania, któ
 takich zbiorach, są fałszywe.
 
 **Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
-b}`. Wtedy każdy element zbioru `X × Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
-jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. Uwaga, powiedziałem tu
-celowo "element" zamiast "para uporządkowana". Żeby można było mówić w ten sposób o parach
-uporządkowanych musimy *wprowadzić pojęcia elementu pierwszego* i *elementu drugiego* pary. A to są
-przecież pewne *funkcje surjektywne* ze zbioru `X x Y` do zbiorów `X` i `Y` odpowiednio.
+b}`. Wtedy *każdy* element zbioru `X × Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
+jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to są przecież dwie *własności*, a więc pewne *funkcje* tych elementów. Czy widzisz, że na przykład element ...
 
-Pisałaś o tego rodzaju funkcjach, nazywając je *projekcjami*, w komentarzu pod jednym z rysunków z
-poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego odpowiednika iloczynu zbiorów, ale jeszcze
-nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych kategoryjnych strzałek, a tak naprawdę samej
-kategoryjnej operacji składania. Niestety, nie potrafię opisać żadnego prostego rozumowania, które
-prowadziłoby prostą drogą do tej niezbyt prostej definicji, dlatego muszę ją przedstawić jako
-rezultat *wglądu*, to jest jako coś, co zostało częściowo przypadkowo przez kogoś kiedyś (na
-szczęście!) *odkryte*.
+`(2, a)`
+
+... mówi do Ciebie *Jestem* `2` *i* `a`, *w tej kolejności*? Skoro tak, to równie dobrze możemy
+opisać każdy taki element *za pomocą projekcji*. Każdy taki element ma zatem tą *właściwość*, że
+*wszystkie* jego *własności* można wyrazić w katagoriach tych dwóch *własności* (tak, wiem, ale
+musiałem). I do tego w zasadzie sprowadza się definicja produktu kategoryjnego, a mimo to ta
+definicja jest stosunkowo *trudna do zrozumienia*.
+
+Pisałaś o tego rodzaju funkcjach, tak samo nazywając je zresztą *projekcjami*, w komentarzu pod
+jednym z zrób-to-sama-rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego
+odpowiednika iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych
+kategoryjnych strzałek, a tak naprawdę samej kategoryjnej operacji składania. Niestety, nie potrafię
+opisać żadnego prostego rozumowania, które prowadziłoby prostą drogą do tej niezbyt prostej
+definicji, dlatego muszę ją przedstawić jako rezultat *wglądu*, to jest jako coś, co zostało
+częściowo przypadkowo przez kogoś kiedyś (na szczęście!) *odkryte*.
 
 **Rysunek 1**: `Narysuj` iloczyn kartezjański `X × Y` jako okrąg z odpowiednio oznaczonymi
 elementami, a po lewej od niego narysuj zbiór `{∅}`, również jako okrąg, zawierający jako swój
 jedyny element zbiór pusty, czyli `∅`. Następnie `Narysuj Strzalka ∅ v`, gdzie `v` będzie dowolnym
-wybranym przez Ciebie elementem zbioru `X × Y`. W ten sposób wskażesz i jednocześnie nazwiesz ten
-element (i stwierdzisz, że jest elementem tego iloczynu). Czy widzisz, że niezależnie od tego, jaki
-element byś w ten sposób wskazała, ten element będzie zawsze *jednoznacznie* określony przez dwie
-własności, to jest przez to, jaki ma pierwszy i jaki ma drugi element (jako elementy tego elementu
-jako pewnej pary uporządkowanej)?
+wybranym przez Ciebie elementem zbioru `X × Y`, czyli strzałkę z *elementu* `∅` do jakiegoś
+*elementu* `v ∈ X × Y`, wyrażając w ten sposób strukturę wewnętrzną funkcji, którą nazwij proszę
+również `v`. W ten sposób jednocześnie wskażesz ten element, nazwiesz go i stwierdzisz, że jest
+elementem iloczynu `X × Y`. Czy widzisz, że niezależnie od tego, jaki element byś w ten sposób
+wskazała, ten element będzie zawsze *jednoznacznie* określony przez dwie własności, to jest przez
+to, jaki ma pierwszy i jaki ma drugi element (będące elementami tego elementu jako pewnej pary
+uporządkowanej \{nie wiem, czy musiałem, ale mogłem\})?
 
 To teraz `Narysuj` jeszcze proszę dwie *projekcje* tego iloczynu. Żeby to zrobić, musisz albo nad i
-pod, albo po bokach od scharakteryzowanego już za pomocą rysunku zbioru `X × Y` dorysować zbiory `X`
-i `Y`. Gdy to zrobisz, `Narysuj` proszę funkcję `π₁ : X × Y → X` (`π` bo projekcja) i `Narysuj`
-również jej wewnętrzną strukturę dodając strzałki od każdego elementu `(x, y) ∈ X × Y` do `x ∈ X`. W
-ten sam sposób `Narysuj` również projekcję `π₂ : X × Y → Y`. Czy widzisz, że niezależnie od tego,
-który element `v ∈ X × Y` byś wskazała za pomocą *pojedynczej* funkcji z singletona `{∅}` do zbioru
-`X × Y`, takie wskazanie *zawsze* będzie odpowiadało *dokładnie jednej uporządkowanej parze* wskazań
-elementów `X` i `Y`, danej przez `π₁(v(∅))` i `π₂(v(∅))`? A czy widzisz, że każda taka
-(automatycznie, bo projekcje są tutaj indeksowane liczbami) uporządkowana para wskazań odpowiada
-dokładnie jednemu wskazaniu elementu zbioru `X × Y`? Mam nadzieję, że w tym momencie widzimy więc
-oboje, że mamy tu pewien naturalny *izomorfizm* między *elementami* znajdującymi się *wewnątrz*
-zbioru `X × Y` i znajdującymi się *na zewnątrz* tego zbioru *parami funkcji* z singletona `{∅}` do
-`X` i do `Y` odpowiednio. 
+pod, albo po bokach od scharakteryzowanego już za pomocą rysunku zbioru `X × Y`, dorysować zbiory
+`X` i `Y`. Gdy to zrobisz, `Narysuj` proszę funkcję `π₁ : X × Y → X` (`π` bo πrojekcja, jak li w
+słowie "likarstwo" \{Det är en referens till Pippi Långstrump\}) i `Narysuj` również jej wewnętrzną
+strukturę, dodając strzałki od każdego elementu `(x, y) ∈ X × Y` do `x ∈ X`. W ten sam sposób
+`Narysuj` πrojekcję `π₂ : X × Y → Y`. Czy widzisz, że niezależnie od tego, który element `v ∈ X × Y`
+byś wskazała za pomocą funkcji z singletona `{∅}` do zbioru `X × Y`, takie wskazanie *zawsze* będzie
+odpowiadało *dokładnie jednej* uporządkowanej *parze wskazań elementów* `X` i `Y`, danej przez
+`π₁(v(∅))` i `π₂(v(∅))`? A czy widzisz, że każda taka (automatycznie, bo projekcje są tutaj
+indeksowane liczbami) uporządkowana para wskazań odpowiada dokładnie jednemu wskazaniu elementu
+zbioru `X × Y`? Mam nadzieję, że w tym momencie widzimy oboje, że mamy tu pewien naturalny
+*izomorfizm* między *elementami* znajdującymi się *wewnątrz* zbioru `X × Y` i znajdującymi się *na
+zewnątrz* tego zbioru *parami funkcji* z singletona `{∅}` do zbiorów `X` i `Y` odpowiednio.
 
 Właściwie teraz, gdy skończyłem pisać ten akapit, zaczęło mi się wydawać, że może jednak da się
 przedstawić kategoryjny iloczyn (który nazywamy raczej kategoryjnym *produktem*) jako wniosek z
@@ -408,17 +415,18 @@ kto sam próbuje kogoś tego czegoś nauczyć* i jednocześnie, że *najbardziej
 zrozumienie czegoś ten, kto.próbuje to coś komuś jasno wytłumaczyć*. To jest dlatego tak niezwykle
 skuteczny sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwiek, że próby wytłumaczenia
 czegoś względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu (autor-)refleksji na
-*metapoziomie*. A tak w ogóle, to na pewnym poziomie abstrakcji nie ma chyba żadnej różnicy między
-uczeniem (się) i pogłębianiem zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to że jesteś i że
-czytasz. Dziękuję Ci, ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dzięki temu
-(pun intended), że dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się
-wcześniej powtarzać nieco ironicznie.
+*metapoziomie* (bo tylko na tym poziomie da się *kontrolować jasność wypowiedzi*). A tak w ogóle, to
+na pewnym poziomie abstrakcji nie ma chyba *żadnej* różnicy między uczeniem (się) i pogłębianiem
+zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to, że jesteś i za to, że czytasz. Dziękuję Ci,
+ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dzięki temu (pun intended), że
+dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się wcześniej powtarzać
+nieco ironicznie.
 
 I mam też taką nieśmiałą propozycję, żebyśmy podziękowali za coś *wspólnie*. "Ja" Temu, który bez
 *nas* by nie istniał i który dzięki temu, że *my* jesteśmy jest i którego w "moim" formalnym języku
 mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty" komu tam uznasz za
 stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej większości prawie w ogóle
-niczego systematycznie się nie uczą i często nawet niczego nie próbują zanotować, kiedy uczesniczą w
+niczego się systematycznie nie uczą i często nawet niczego nie próbują zanotować, kiedy uczesniczą w
 dyskusjach "naukowych" albo słuchają wystąpień, że wielu z nich jest nadal na szczęście
 *zmuszonych*, w czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą
 zwykle nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla"
@@ -428,78 +436,85 @@ Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efek
 pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
 *Istnieje naturalny izomorfizm między elementami iloczynu kartezjańskiego i parami funkcji z
 dowolnego singletona do przeciwdziedzin projekcji tego iloczynu, jak również między funkcjami z
-dowolnego singletona do iloczynu i elementami tego iloczynu*.
+dowolnego singletona do dowolnego iloczynu i elementami tego iloczynu*.
 
 Wynika stąd, że wszystko, co możemy powiedzieć na temat elementów należących do dowolnego iloczynu
 kartezjańskiego, a więc po prostu wszystko, co możemy powiedzieć na temat iloczynu kartezjańskiego,
-możemy powiedzieć pomijając wewnętrzną strukturę tego rodzaju zbioru, zamiast tego mówiąć o parach
-funkcji z dowolnego singletona do tego iloczynu.
+możemy powiedzieć *pomijając wewnętrzną strukturę* tego rodzaju zbioru, zamiast tego mówiąć o
+*parach funkcji* z jakiegoś singletona do tego iloczynu. No to już prawie [witamy się z
+gąską](https://pl.wiktionary.org/wiki/ju%C5%BC_by%C4%87_w_ogr%C3%B3dku,_ju%C5%BC_wita%C4%87_si%C4%99_z_g%C4%85sk%C4%85)
+produktu kategoryjnego.
 
 ## Produkt kategoryjny
 
 **Rysunek 2**: Ponieważ ten rysunek będzie bardziej skomplikowany, muszę wprowadzić bardziej
-skomplikowaną notację. Jeżeli, dla pewnego `Punkt X`, napiszę `Narysuj (Punkt Y) (<położenie> X)`,
-gdzie `położenie` będzie jednym z termów `N`, `E`, `S`, `W`, `NE`, `SE`, `SW`, `NW`, oznaczających
-odpowiednio *na północ*, *na wschód*, *na południe*, *na zachód*, *na północny wschód*, *na
-południowy wschód*, *na południowy zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię
-o narysowanie punktu `Y` właśnie w tym położeniu względem punktu `X`.
+skomplikowaną notację. Jeżeli, dla jakiegoś `Punkt X`, napiszę `Narysuj (Punkt Y) (<położenie> X)`
+(będę dodawał nawiasy żeby nie było między nami nieporozumień), gdzie `<położenie>` będzie jednym z
+termów `N`, `E`, `S`, `W`, `NE`, `SE`, `SW`, `NW`, oznaczających odpowiednio *na północ*, *na
+wschód*, *na południe*, *na zachód*, *na północny wschód*, *na południowy wschód*, *na południowy
+zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię o narysowanie punktu `Y` właśnie w
+tym położeniu względem punktu `X`.
 
 No więc `Narysuj (Punkt X x Y)` i oznacz do z dołu jako `X x Y`, czyli po prostu oznacz go z
-dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` (dodałem nawiasy, żeby nie było między nami
-nieporozumień) i oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X x Y))` i oznacz go z
-dołu. `Narysuj (Strzalka (X x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam sposób `Narysuj`
-strzałkę `π₂ : X x Y → Y`. `Narysuj (Punkt Z) (N (X x Y))` i jako łuki wygięte na zewnątrz, tak,
-jakby to były skrzydła anioła, `Narysuj (Strzalka Z X)` i `Strzalka Z Y` i oznacz je odpowiednio
-literami `f` i `g` odpowiednio, zapisując je po zewnętrznych stronach tych strzałek. Wreszcie
-przerywaną linią `Narysuj (Strzalka Z (X x Y))` i po lewej albo po prawej, jak chcesz, oznacz ją
-wyrażeniem `⟨f, g⟩`. Na koniec na każdym ze skrzydeł nanieś ptaszka, bo ten *diagram* jest *z
-definicji przemienny*.
+dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` i oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X
+x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam
+sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko tą oznacz sama już wiesz jak. `Narysuj (Punkt Z)
+(N (X x Y))` i jako łuki wygięte na zewnątrz, tak, jakby to były skrzydła anioła, `Narysuj (Strzalka
+Z X)` i `Strzalka Z Y`, a potem oznacz je odpowiednio literami `f` i `g`, zapisując je po
+zewnętrznych stronach tych skrzydeł albo strzałek. Wreszcie przerywaną linią `Narysuj (Strzalka Z (X
+x Y))` i po lewej albo po prawej, jak chcesz, oznacz ją jako `⟨f, g⟩`. Na koniec wewnątrz każdego ze
+skrzydeł nanieś ptaszka, bo ten *diagram* ma być *z definicji przemienny*.
 
 Co? Tak, wiem, ale nie przejmuj się, to minie (*wszystko* przecież mija[^2]). Już wyjaśniam:
 Niezależnie od tego, jaki byśmy wybrali zbiór `Z`, a więc dla każdego zbioru `Z` i niezależnie od
 tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y`, będzie *istniała* taka funkcja `h : Z →
 X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`. Skąd to wiemy? Dla dowolnego `z ∈ Z`, istnieje dokładnie
 jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x, y))`. Widzisz, że
-to musi być para uporządkowana `(f(z), g(z))` i że taka para istnieje dla każdego `z ∈ Z`? A więc
-tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten sposób scharakteryzowana funkcja *nie ma
-wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego anioła, dla każdego `z ∈ Z` taka funkcja
-*musi* wybrać taką parę uporządkowaną `v`, że `π₁(v) = f(z)` i jednocześnie `π₂(v) = g(z)`. Skoro
-każda para jest całkowicie określona przez swój pierwszy i drugi element, to jest przez swoje dwie
-projekcje, to ta para też jest całkowicie określona.
+to musi być para uporządkowana `(f(z), g(z))` i że para o takich wartościach projekcji istnieje dla
+każdego `z ∈ Z`? A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten sposób
+scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego anioła,
+dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v`, że `π₁(v) = f(z)` i
+jednocześnie `π₂(v) = g(z)`. Skoro każda para jest całkowicie określona przez swój pierwszy i drugi
+element, to jest przez swoje dwie projekcje, to każda taka para też jest całkowicie
+określona. Funkcja `h : Z → X × Y` dla której ten diagram jest przemienny *istnieje* i jest zarazem
+*unikalna*, a więc *ta funkcja jest funkcją funkcji* `f` *i* `g`.
 
 Widzimy w ten sposób, że każda para funkcji `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
 iloczynu kartezjańskiego odpowiada dokładnie jednej funkcji `h` ze zbioru `Z` do tego iloczynu,
 która spełnia warunek `f = π₁ ∘ h` i warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z
 dowolnego zbioru do iloczynu kartezjańskiego odpowiada *unikalnej parze* funkcji z tego zbioru do
-członów tego iloczynu pozwalającej narysować oba ptaszki, ponieważ wtedy (tak nakazują i tego
-wymagają ptaszki) pierwsze skrzydło musi być tą samą funkcją co `π₁ ∘ h`, a drugie skrzydło musi być
-tą samą funkcją co `π₂ ∘ h`.
+członów tego iloczynu, pozwalającej narysować oba ptaszki, ponieważ wtedy (tak nakazują i tego
+wymagają ptaszki) pierwsze skrzydło *musi* być tą samą funkcją co `π₁ ∘ h`, a drugie skrzydło *musi*
+być tą samą funkcją co `π₂ ∘ h`. Wynika stąd, że jeżeli skrzydłami są funkcje `f` i `g`, to taką
+funkcję możemy zapisać jako funkcję tych funkcji, na przykład właśnie jako `⟨f, g⟩`.
 
 *Diagram*, który właśnie narysowałaś, możemy teraz *zinterpretować* jako konstrukcję *czysto
 kategoryjną*. Wystarczy, że przyjmiemy alternatywną interpretację teoriomnogościowego symbolu
-operacji tworzenia iloczynów kartezjańskich zbiorów `×`. Możemy to zrobić, bo dopuszczamy, o ile
-można je jednoznacznie zrozumieć ze względu na kontekst, przeciążania stałych. Wtedy na tym
-diagramie nie będzie już *żadnych* symboli teoriomnogościowych, a więc zostanie sam język teorii
-kategorii, to jest tylko punkty zaczepienia, strzałki i własności dotyczące operacji składania
-strzałek. 
+operacji tworzenia iloczynów kartezjańskich zbiorów `×`. Możemy to zrobić, bo dopuszczamy, o ile to
+można zrozumieć jednoznacznie ze względu na kontekst, przeciążania stałych, a `×` to pewna stała
+(oznaczająca pewną operację). Wtedy na tym diagramie nie będzie już *żadnych* symboli
+teoriomnogościowych, a więc zostanie sam język teorii kategorii, to jest tylko punkty zaczepienia,
+strzałki i własności dotyczące operacji składania strzałek.
 
 Przyjmujemy więc definicję, zgodnie z którą *produktem kategoryjnym*, albo po prostu *produktem*,
-będziemy nazywać każdy punkt (oficialnie: obiekt) wyposażony w dwie wychodzące z niego strzałki
-(czyli tak naprawdę produktem będziemy nazywać pewne *pary strzałek o tym samym źródle*) takie, że
-te strzałki zachowują się w opisany wyżej sposób, czyli jak *projekcje*, które są w opisany wyżej
-sposób "narzędziem wiernego tłumaczenia" między strzałkami do produktu i parami współźródłowych
-strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób uzyskujemy *uniwersalną
-definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn kartezjański i która, jak się
-okaże w następnym rozdziale, odpowiada między innymi pojęciu *koniunkcji w logice*.
+będziemy nazywać każdy *punkt* (oficialnie: obiekt) wyposażony w *dwie* wychodzące z niego
+*strzałki* (czyli tak naprawdę produktem będziemy nazywać pewne *pary strzałek o tym samym źródle*)
+takie, że te strzałki zachowują się w opisany wyżej sposób, czyli jak *projekcje*, które są w
+opisany wyżej sposób "narzędziem wiernego tłumaczenia" między strzałkami do produktu i parami
+współźródłowych strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób
+uzyskujemy *uniwersalną definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn
+kartezjański i która, jak się okaże w następnym rozdziale, odpowiada między innymi pojęciu
+*koniunkcji w logice*.
 
 **Sugestia**: To była jak sądzę najtrudniejsza część tego rozdziału, dlatego nie będę Ci sugerował,
 jak podpisać ostatni rysunek, bo przypuszczam, że ta notatka będzie i tak ewoluowała w miarę Twoich
 postępów w nauce. Niemniej zachęcam do stworzenia takiej notatki, być może posługując się przy tym
-swobodnie elementami graficznymi i zapisując (polecam) pytania, wątpliwości, czy jakiekolwiek
+swobodnie elementami graficznymi i zapisując (co polecam) pytania, wątpliwości, czy jakiekolwiek
 spostrzeżenia lub pomysły. I nie przejmuj się, jeżeli na razie niewiele rozumiesz z definicji
-produktu kategoryjnego. Przekonasz się, że w pewnym technicznym sensie *musi* być trudno ją
-zrozumieć, nawet, a może nawet (tak, wiem) *zwłaszcza* znając różne przykłady konstrukcji, które do
-niej pasują. A poza tym jeszcze przecież nie zaczęliśmy tej definicji do niczego *używać*.
+produktu kategoryjnego. Przekonasz się, że w pewnym technicznym sensie *musi* być trudno zrozumieć
+tą definicję, nawet, a może nawet (tak, wiem) *zwłaszcza* znając różne przykłady konstrukcji, które
+do niej pasują. A poza tym jeszcze przecież nie zaczęliśmy tej konkretnej definicji do niczego
+*używać*.
 
 ### Przypisy
 
@@ -513,5 +528,5 @@ niej pasują. A poza tym jeszcze przecież nie zaczęliśmy tej definicji do nic
 
 [^3]: τῷ γὰρ ἔχοντι παντὶ δοθήσεται καὶ περισσευθήσεται· τοῦ δὲ μὴ ἔχοντος καὶ ὃ ἔχει ἀρθήσεται ἀπ'
     αὐτοῦ.  (Ewangelia według świętego Mateusza, 25:29). Chociaż wolę chyba wersję buddyjską - *To
-    darczyńca powinien być wdzięczny*. Tylko niestety nie jestem w stanie `{∅} → Zrodlo` tego być
-    może cytatu.
+    darczyńca powinien być wdzięczny*. Tylko niestety nie jestem w stanie `{∅} → Zrodlo` tego
+    `cytat`-u, które spełniałoby (w "mojej" *ocenie*) predykat `Dobre`.
