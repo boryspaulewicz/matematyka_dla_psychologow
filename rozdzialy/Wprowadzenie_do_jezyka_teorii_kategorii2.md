@@ -455,7 +455,7 @@ wschód*, *na południe*, *na zachód*, *na północny wschód*, *na południowy
 zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię o narysowanie punktu `Y` właśnie w
 tym położeniu względem punktu `X`.
 
-No więc `Narysuj (Punkt X x Y)` i oznacz do z dołu jako `X x Y`, czyli po prostu oznacz go z
+No więc `Narysuj (Punkt X x Y)` i oznacz go z dołu jako `X x Y`, czyli po prostu oznacz go z
 dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` i oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X
 x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam
 sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko tą oznacz sama już wiesz jak. `Narysuj (Punkt Z)
