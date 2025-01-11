@@ -358,8 +358,8 @@ być zbiorem jednoelementowym.
 **Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
 później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje dokładnie
 jedna funkcja (czyli w tym momencie kategoryjna strzałka) *z* `I` *do* `X`. I odwrotnie, jeżeli
-zbiór `Y` ma taką własność, że dla każdego zbioru `X`, istnieje dokładnie jedna funkcja (czyli
-również strzałka) z `Y` do `X`, to `Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje
+zbiór `Y` ma taką własność, że dla każdego zbioru `Z`, istnieje dokładnie jedna funkcja (czyli
+również strzałka) z `Y` do `Z`, to `Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje
 dokładnie jeden zbiór pusty, ale to nie sprawia, że dwa ostatnie zdania, które mówią o *dowolnych*
 takich zbiorach, są fałszywe.
 
