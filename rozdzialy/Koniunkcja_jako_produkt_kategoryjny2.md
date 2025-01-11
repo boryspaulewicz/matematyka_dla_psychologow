@@ -1,16 +1,16 @@
 Zacznijmy może jeszcze raz od początku. Skoro `f` i `g` to dwie składane funkcje, to wyrażenie `g o
 f` również oznacza pewną funkcję, a skoro funkcja `g o f` jest składalna z funkcją `h` (wiesz
-dlaczego, prawda?), to `h o (g o f)` też oznacza pewną funkcję, bo to znowu jest *złożenie dwóch
-składalnych funkcji*. 
+dlaczego, prawda?), to `h o (g o f)` też oznacza pewną funkcję, bo to znowu jest złożenie *dwóch*
+(składalnych) funkcji.
 
 Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta(ka)
 sama funkcja, musimy udowodnić, że `∀ x ∈ X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc
 najpierw, że mamy *jakiś* `x ∈ X`, bo udowodnić coś dla *jakiegoś*, czyli *bliżej nieokreślonego*,
 czyli *arbitralnego* `x` znaczy dokładnie to samo, co udowodnić coś *dla każdego* `x`. Przecież
-jeżeli dowód "działa" dla `x ∈ X`, o którym *nic poza tym nie założyliśmy*, to znaczy, że działa
-*dla każdego* `x ∈ X`. Zapisując na kartce, że mamy jakiś `x ∈ X`, *wprowadzamy* więc `x ∈ X` *do
-kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*, którą będziemy mogli potem
-sami aplikować i ewaluować.
+jeżeli dowód działa dla `x ∈ X`, o którym *nic poza tym nie założyliśmy*, to znaczy, że działa *dla
+każdego* `x ∈ X`. Zapisując na kartce, że mamy jakiś `x ∈ X`, *wprowadzamy* więc `x ∈ X` *do*
+(własnego wewnętrznego) *kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*,
+którą będziemy mogli potem sami (często niejawnie) aplikować i ewaluować.
 
 Musimy teraz tylko rozwinąć definicję składania (bo nie ma tu żadnej innej definicji, którą
 moglibyśmy rozwinąć) tyle razy, ile będzie trzeba, przekształcając lewą stronę równania (będącą
@@ -22,7 +22,7 @@ wielokrotną aplikacją dwuargumentowej[^1] funkcji składania) do postaci ...
 
 `((h o g) o f)(x) = (h o g)(f(x)) = h(g(f(x)))`
 
-... żeby zobaczyć, że obie funkcje dają ten sam wynik dla każdego `x ∈ X`, a więc:
+... żeby zobaczyć, że obie funkcje dają ten sam wynik `∀ x ∈ X`, a więc:
 
 `h o (g o f) = (h o g) o f`
 
@@ -33,16 +33,16 @@ Zwróć też proszę uwagę, że poza tym, że wspomniałem o możliwości defin
 rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone, bo poza wspomnianym
 kontekstem ani raz nie powiedziałem niczego w rodzaju "Ponieważ zbiór `X` jest skończony, to ...". A
 to znaczy, że *wszystkie* wymienione w tym rozdziale własności mają rownież funkcje między
-*dowolnymi* zbiorami, a więc także *nie*skończonymi.
+*dowolnymi* zbiorami, a więc także *nie*skończonymi. I to jest dobre.
 
 Czy widzisz na tym przykładzie, że warto *wiedzieć, z jakich założeń się korzysta*?  Dzięki temu
 możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione zdanie*, czyli *kiedy możemy
 używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w języku teorii typów, w zasadzie
 nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni, z których założeń
 korzystaliśmy, bo te występowały wszystkie jawnie, albo jako parametry każdego dowodu, albo w kodzie
-dowodu jako funkcji. To jest kolejna ogromna zaleta pełnej formalizacji. Gdy jednak konstruujemy
-dowody w bardziej nieformalny sposób, tak dobrze tego nie widać, dlatego warto wtedy zachować
-czujność.
+dowodu jako funkcji (jako algorytmu). To jest kolejna ogromna zaleta pełnej formalizacji. Gdy jednak
+konstruujemy dowody w bardziej nieformalny sposób, tak dobrze tego nie widać, dlatego warto wtedy
+zachować czujność.
 
 Gdybyśmy się teraz skupili na samych funkcjach i na tym, o czym mówiliśmy dotąd w tym rozdziale, to
 można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywiste
@@ -52,7 +52,7 @@ skróty myślowe - jednym podwójnym równaniem i jednym pojedynczym:
 
 2. `h o (g o f) = (h o g) o f`
 
-## Pora na [odlot](https://pl.wikipedia.org/wiki/Odlot_(film_2009))
+## Pora na *prawdziwy* [odlot](https://pl.wikipedia.org/wiki/Odlot_(film_2009))
 
 A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi przypadkowo w środku
 tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a każda
@@ -69,7 +69,7 @@ przestrzeń zbiorów *żyje*, to jest nie widziałabyś *jak działa działanie 
 Żeby zobaczyć *to*, trzeba mieć oczy anioła. Ja akurat nie mam i zgaduję, że Ty również nie
 posiadasz (wybacz). Jeżeli nie jest się chwilowo w posiadaniu oczu anioła, w ostateczności można
 nabyć ich protezę i próbować wypatrzyć, co tylko się da, to znaczy próbować *wyprowadzać
-dedukcyjnie* rozmaite *wnioski posługując się językiem teorii kategorii*.
+dedukcyjnie* rozmaite *wnioski* posługując się *językiem teorii kategorii*.
 
 ## Tak się składa
 
@@ -82,9 +82,9 @@ które i które strzałki można złożyć z których strzałek.
 
 Strzałki `f` i `g` są `Skladalne`, a więc musi istnieć ich unikalne `Zlozenie`, to jest taka funkcja
 `h`, która jest funkcją `(g ∘ f)`, czyli dla której spełniony jest warunek `∀ x ∈ X, h(x) = (g ∘
-f)(x)`. Tego nie musisz próbować *zobaczyć*, bo to możesz *wywnioskować* z definicji
-funkcji. Dorysuj więc od dołu `Strzalka X Z`, ale taką wygiętą w łuk, i oznacz ją literą `h`, a
-potem umieść w środku uzyskanego w ten sposób diagramu ptaszka.
+f)(x) = g(f(x))`. Tego nie musisz próbować *zobaczyć*, bo to możesz *wywnioskować* z definicji
+funkcji. Dorysuj więc od dołu `Strzalka X Z`, taką wygiętą w łuk i oznacz ją literą `h`, a potem
+umieść w środku uzyskanego w ten sposób diagramu ptaszka.
 
 Jest tam teraz ptaszek, bo mocą naszej *decyzji* (a więc to jest *założenie*) dotyczącej tego, co
 oznacza `h`, ten diagram jest *przemienny*, co możemy zapisać algebraicznie również jako `Zlozenie f
@@ -95,12 +95,12 @@ między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi pr
 strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym (wybrednym)
 *działaniem*. Dlatego z wysokości, na której się aktualnie znajdujesz, nie zobaczysz tego nawet
 patrząc przez magiczne okulary, a więc wszystkie informacje na temat (ro)\{z/s\}kładania się
-funkcji, poza uniwersalnymi włanościami tego działania, musisz odtąd albo *założyć* albo
+funkcji, poza uniwersalnymi włanościami tego działania, *musisz* odtąd albo *założyć* albo
 *wywnioskować*.
 
 Tego, że każdy zbiór ma jedną identyczność, nie musisz próbować zobaczyć (ani nawet zakładać), bo
 *wiesz* (to jest jedna z tych uniwersalnych własności), że dla każdego zbioru `X` można zdefiniować
-taką funkcję `Id_X`, że `∀ x ∈ X, Id_X(x) = x` i wiesz, że dla każdego zbioru istnieje dokładnie
+taką funkcję `Id`, że `∀ x ∈ X, Id(x) = x` i wiesz, że dla każdego zbioru istnieje dokładnie
 jedna taka funkcja. Nie musisz też nigdy próbować zobaczyć (ani zakładać), że różne zbiory mają
 różne identyczności, bo *wiesz* (z definicji), że o tożsamości funkcji decyduje między innymi jej
 dziedzina i przeciwdziedzina. 
@@ -112,11 +112,11 @@ możemy równie dobrze mówić o identycznościach. Zresztą kto wie, może jesz
 
 Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest zawsze prawdą, że `Id ∘ f
 = f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający koniunkcji zdań `Id ∘ f = f`
-i `f = f ∘ Id` (a więc moglibyśmy go zapisać również jako `Id ∘ f = f ∧ f = f ∘ Id`, jednak wtedy
-trochę schowałaby się nam sugestia, że na mocy przemienności równości również `Id ∘ f = f ∘ Id`),
-gdzie pozwoliłem sobie na skrót myślowy i nie zaznaczyłem, że pierwsza i ostatnia identyczność są
-przyczepione do *potencjalnie* różnych punktów, jest spełniony, ponieważ gdybyś zmniejszyła swoją
-wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że:
+i `f = f ∘ Id` (który moglibyśmy zapisać również używając języka logiki jako `Id ∘ f = f ∧ f = f ∘
+Id`, jednak wtedy trochę schowałaby się nam sugestia, że na mocy przemienności równości również `Id
+∘ f = f ∘ Id`), gdzie pozwoliłem sobie na skrót myślowy i nie zaznaczyłem, że pierwsza i ostatnia
+identyczność są przyczepione do *potencjalnie* różnych punktów, jest spełniony, ponieważ gdybyś
+zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że:
 
 `∀ x ∈ X, (Id ∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`
 
@@ -130,19 +130,20 @@ A po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x
 
 `(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))) = (h ∘ (g(f(x)))) = ((h ∘ g) ∘ f)(x)`
 
-A więc gdy punkty są zbiorami i strzałki są funkcjami między tymi zbiorami, to o ile złożenia, które
-pojawiają się poniżej są możliwe, jest zawsze prawdą, że:
+A więc gdy pod punktami skrywają się zbiory a pod strzałkami skrywają się funkcje między tymi
+zbiorami, to o ile złożenia, które pojawiają się poniżej, są możliwe, jest prawdą dla każdych trzech
+*strzałek* `f`, `g` i `h`, że:
 
 1. `Id ∘ f = f = f ∘ Id`
 
 2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
-Dowód "złożeniowej neutralności" identyczności jest łatwy, a poza tym ta "neutralność" jest jak
-sądzę już dla Ciebie oczywista. Zgaduję jednak, że ten ostatni dowód mógł być dla Ciebie trochę
-trudny, ale tylko z powodu licznych, rozmaicie pozagnieżdżanych nawiasów, które trzeba zapisać, żeby
-w nim poprawnie operować operacją (ech) składania funkcji. Można jednak uprościć ten zapis
-wprowadzając dodatkowe definicje, w podobny sposób, w jaki będziemy to robić od pewnego momentu
-dowodząc bardziej skomplikowanych twierdzeń w Leanie.
+Dowód "złożeniowej neutralności" identyczności jest łatwy i ta "neutralność" jest jak sądzę już dla
+Ciebie oczywista. Zgaduję jednak, że ostatni dowód mógł być dla Ciebie trochę trudny, ale tylko z
+powodu licznych, rozmaicie pozagnieżdżanych nawiasów, które trzeba zapisać, żeby w nim poprawnie
+operować operacją (ech) składania funkcji. Można jednak uprościć ten zapis, wprowadzając dodatkowe
+definicje, w podobny sposób, w jaki będziemy to robić od pewnego momentu dowodząc bardziej
+skomplikowanych twierdzeń w Leanie.
 
 Jeżeli oznaczymy dwa tutaj jakby podstawowe złożenia w ten sposób ...
 
@@ -167,17 +168,18 @@ Pozostaje nam rozwinąć tymczasowe definicje stałych `i` i `j` ...
 
 `h(g(f(x))) = h(g(f(x))`
 
-Podoba mi się ten ostatni sposób, a Tobie?. Chociaż przyznam, że nie jest dla mnie jasne, czy
+Podoba mi się ten ostatni sposób, a Tobie? Chociaż przyznam, że nie jest dla mnie jasne, czy
 cokolwiek tu upraszcza, To może jeszcze zrobimy coś podobnego, tylko w Leanie? W tym celu
 zastosujemy taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje między
 innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z
-definicji (liczba mnoga). Zaczniemy od ilustracji:
+definicji (liczba mnoga). Zaczniemy od ilustracji, która może być dla Ciebie teraz jeszcze trudna do
+strawienia, ale której też wcale nie musisz w tym momencie dobrze rozumieć:
 
 ```lean
 -- Używamy tutaj parametrów opcjonalnych, które wprowadzamy do definicji funkcji otaczając je nawiasami
--- klamrowymi. *Możemy* tak zrobić, ponieważ Lean może je wywnioskować z pozostałych argumentów 
--- aplikacji tej funkcji. *Chcemy*, żeby były opcjonalne, bo dzięki temu będziemy mogli później (znacznie)
--- mniej pisać i kod będzie (znacznie) bardziej czytelny.
+-- klamrowymi. *Możemy* tak zrobić, ponieważ Lean może wywnioskować te wartości z pozostałych argumentów 
+-- aplikacji tej funkcji. *Chcemy*, żeby te parametry były opcjonalne, bo dzięki temu będziemy mogli
+-- później (znacznie) mniej pisać i kod będzie (znacznie) bardziej czytelny.
 def Zlozenie {X Y Z : Type} (f : X → Y) (g : Y → Z) : X → Z := 
   -- Tak wiem, ta zmiana kolejności jest irytująca.
   fun (x : X) => g (f x)
@@ -219,13 +221,15 @@ funkcji w różnej kolejności, redukują się do tego samego, czyli są równe.
 pomocą taktyki `rfl` jest dziecinnie proste:
 
 ```lean
-variable (X Y Z V : Type) (f : X → Y) (g : Y → Z) (h : Z → V) -- tak też można
+-- Instrukcji variable można używać również tak:
+variable (X Y Z V : Type) (f : X → Y) (g : Y → Z) (h : Z → V)
 
 -- Trzeba było tak od razu, prawda?
 Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
 
 -- W ten sam sposób możemy udowodnić przemienność wbudowanej w Leana operacji składania funkcji
--- teoriotypowych. Symbol składania uzyskasz w Leanie wpisując \o
+-- teoriotypowych. Symbol składania uzyskasz w Leanie wpisując \o. W tym wypadku ten symbol
+-- jest rozwijany do stałej o nazwie Function.comp (czyli Funkcja.skład).
 example : h ∘ (g ∘ f) = (h ∘ g) ∘ f := by rfl
 
 -- To może jeszcze (podwójny) dowód, że identyczności zachowują się jak elementy neutralne ze względu
@@ -234,32 +238,35 @@ example : (fun (y : Y) => y) ∘ f = f := by rfl
 example : f ∘ (fun (x : X) => x) = f := by rfl 
 
 -- To było mało czytelnie? No to dodamy odrobinę lukru składniowego. Funkcja ID dla podanego typu tworzy 
--- funkcję identycznościową z tego typu do niego samego.
+-- funkcję identycznościową z tego typu do niego samego. Myślę, że jesteś już w stanie zrozumieć tą
+-- definicję.
 def ID (typ : Type) : typ → typ := fun (a : typ) => a
 
 example : (ID Y) ∘ f = f := by rfl
 example : f ∘ (ID X) = f := by rfl
 
 -- Przy okazji odkryliśmy więc, że wewnątrz teorii typów przez cały ten czas ukrywała się co najmniej jedna
--- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami. Ale o tym, czy jest 
--- (każda) kategoria, powiemy sobie nieco później.
+-- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami. Ale o tym, czym jest 
+-- (każda) kategoria, powiemy sobie dopiero nieco później.
 ```
 
-Pomijając chwilowy powrót do Leana, z oddalenia widzimy więc (a tak naprawdę wiemy z definicji
-\{liczba mnoga\})), że teoriomnogościowe identyczności są *elementami neutralnymi ze względu na
-operację składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
+Pomijając chwilowy powrót do Leana, z oddalenia widzimy więc, a tak naprawdę wiemy z definicji
+(liczba mnoga), że teoriomnogościowe identyczności są *elementami neutralnymi ze względu na operację
+składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
 nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów - *zer* albo *jedynek*, zależnie od wyboru
-analogii między składaniem i operacjami dodawania lub mnożenia. To po pierwsze.
+analogii między składaniem i (akurat niewybrednymi) operacjami dodawania lub mnożenia. To po
+pierwsze.
 
 A po drugie, podobnie jak dodawanie i mnożenie liczb, bez zaglądania do struktury wewnętrznej
-funkcji wiemy, że *składanie funkcji jest łączne*, co znaczy, że zapisując złożenie więcej niż dwóch
-funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w jakiej *kolejności* będziemy
-*stosować operację składania* (nadal jednak w ogólnym przypadku *ma* oczywiście znaczenie, *w jakiej
-kolejności podamy argumenty* tej operacji).
+konkretnych funkcji wiemy, że *składanie funkcji jest łączne*, co znaczy, że zapisując złożenie
+więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w jakiej
+*kolejności* będziemy *stosować operację składania*. Nadal jednak w ogólnym przypadku *ma*
+oczywiście znaczenie, *w jakiej kolejności podamy argumenty* tej operacji.
 
-"Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy i z
-której nie widać ani wewnętrznej struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych
-funkcji, widzimy / wiemy między innymi, że:
+"Podsumowując dotychczasowe rozważania" (łojezu Borek, jak Ty się zwracasz do Pani? No tak,
+faktycznie, przepraszam), z wysokości, na której się teraz znajdujemy i z której nie widać ani
+wewnętrznej struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych funkcji, widzimy /
+wiemy między innymi, że:
 
 1. Istnieją *punkty* (zbiorów), które dla nas są tylko *punktami zaczepienia strzałek*.
 
@@ -268,12 +275,12 @@ funkcji, widzimy / wiemy między innymi, że:
 
 3. Istnieje wybredna w znany Ci już sposób *operacja składania strzałek*.
 
-4. Każdy punkt ma swoją *unikalną* i *charakterystyczną (endo)strzałkę (czyli pętlę)
-   identycznościową*.
+4. Każdy punkt ma swoją *unikalną* i *charakterystyczną endostrzałkę* (czyli *pętlę*)
+   *identycznościową*.
 
-5. Identyczności są elementami neutralnymi ze względu na operację składania: `Id ∘ f = f = f ∘ Id`.
+5. Identyczności są *elementami neutralnymi* ze względu na operację składania: `Id ∘ f = f = f ∘ Id`.
 
-6. Składanie jest łączne: `h ∘ (g ∘ f) = (h ∘ g) ∘ f = h g f`.
+6. Składanie jest *łączne*: `h ∘ (g ∘ f) = (h ∘ g) ∘ f = h g f`.
 
 W ostatnim punkcie pozwoliłem sobie skorzystać z możliwości pozbycia się nawiasów - bo składanie
 jest łączne - i z uproszczenia polegającego na pozbyciu się również symbolu `∘`. W praktyce zwykle
@@ -283,18 +290,25 @@ niepotrzebnie dużo pisać.
 I w ten oto sposób, zmierzając razem ze mną powoli okrężną drogą do pojęcia [*logicznej
 alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 [poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) [sześć
-*aksjomatów kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
+*aksjomatów kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii). Przy okazji powiem Ci
+jeszcze, że "przyjmuje się" (czytaj: wiele osób tak uważa), że teorię kategorii odkryli albo
+stworzyli - na początku lat 40tych dwaj matematycy, [Samuel
+Eilenberg](https://pl.wikipedia.org/wiki/Samuel_Eilenberg) i [Saunders Mac
+Lane](https://pl.wikipedia.org/wiki/Saunders_Mac_Lane), z których pierwszy urodził się w Polsce i w
+Polsce studiował matematykę, ale inny wybitny polski matematyk, [Stanisław
+Ulam](https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Ulam), podobnie jak kilku sympatyzujących z nim
+autorów, twierdził, że tego rodzaju teoria "krążyła po Polsce" już w latach 30tych.
 
 ## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
 Skoro zaczęłaś się już trochę oswajać z kategoryjnym punktem widzenia, przyszedł czas, żeby z tego
 skorzystać. Zgaduję, że w tym momencie aksjomaty kategorii kojarzą Ci się bardzo z konkretnymi
-przykładami zbiorów i funkcji, bo przecież od takich przykładów zaczęliśmy. Będziesz się odrywać od
-tego znajomego kontekstu w dwóch krokach, a właściwie w dwóch
+przykładami zbiorów i funkcji, bo przecież od tego przykładu zaczęliśmy. Będziesz się odrywać od
+tego przykładu w dwóch krokach, a właściwie w dwóch
 [przelotach](https://pl.wikipedia.org/wiki/Przelot).
 
 Pokażę Ci, że pewne znane Ci już, ważne obiekty, konstrukcje i własności *teoriomnogościowe*, takie
-jak element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
+jak element zbioru (sic!), tożsamość, izomorficzność, injektywność i surjektywność funkcji,
 podzbiór, podział zbioru (na wyczerpujące i rozłączne *pod*zbiory), zbiór pusty, singleton, iloczyn
 kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako kategoryjne *struktury
 strzałkowe* i że to jest w pewnym sensie *lepszy*, bo bardziej *uniwersalny* sposób mówienia o tych
@@ -307,59 +321,62 @@ definicji, żeby w nowy sposób popatrzeć na *logikę*.
 między funkcjami z dowolnego singletona, na przykład ze zbioru `{∅}`, do `X` i *elementami*
 należącymi do `X`. Każda taka funkcja wskazuje przecież dokładnie jeden element `x` zbioru `X` i
 odwrotnie, każdy taki element odpowiada dokładnie jednej takiej funkcji. *Wszystko*, co tylko da się
-powiedzieć o elementach zbiorów, można więc powiedzieć o takich funkcjach i vice versa.
+powiedzieć o elementach zbiorów, można więc równie dobrze powiedzieć o takich funkcjach i vice
+versa.
 
 Na przykład, jeżeli `x ∈ X`, to istnieje *funkcja* `x`, a więc również strzałka w naszej kategorii,
 taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również literą `x` jest co prawda może
-trochę nonszalanckie, ale *nie* jest poważnym błędem, bo ta *decyzja* ma charakter *metajązykowy* i
-mimo pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu `x`, sposób użycia
-pozwoli nam zawsze jednoznacznie stwierdzić, czy chodzi o element zbioru, czy o funkcję. Niestety, w
-niektórych sytuacjach to może być jednak zbyt mylące. Na przykład, gdyby chodziło o element będący
-liczbą `1`, to zapis `1(∅) = 1` mógłby sugerować, że mamy do czynienia z mnożeniem, a gdyby chodziło
-o wskazanie za pomocą funkcji z singletona elementu będącego zbiorem pustym, uzyskalibyśmy wyjątkowo
-dezorientujące zdanie ``∅(∅) = ∅``. Dlatego najlepiej korzystać z tej konwencji oznaczając elementy
-zbiorów zmiennymi, takimi jak `x`.
+(znowu, wiem) trochę nonszalanckie, ale *nie* jest poważnym błędem, bo ta *decyzja* ma charakter
+*metajązykowy* i mimo pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu
+`x`, *kontekst użycia* pozwoli nam zawsze *jednoznacznie stwierdzić*, czy chodzi o element zbioru,
+czy o funkcję. Niestety, w niektórych sytuacjach to może być jednak zbyt mylące. Na przykład, gdyby
+chodziło o element będący liczbą `1`, to zapis `1(∅) = 1` mógłby sugerować, że mamy do czynienia z
+mnożeniem, a gdyby chodziło o wskazanie za pomocą funkcji z singletona elementu będącego zbiorem
+pustym, uzyskalibyśmy wyjątkowo dezorientujące zdanie `∅(∅) = ∅`. Dlatego najlepiej korzystać z tej
+konwencji oznaczając elementy zbiorów zmiennymi, takimi jak ten tutaj `x`.
 
 Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i w matematyce zresztą też)
 [*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
 oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
 pewne funkcje jako programy, tyle, że określonego rodzaju), ale jest przecież oczywiste, że ten sam
 manewr można zastosować, z tego samego powodu (a dokładniej w tym samym celu) - to jest aby
-podkreślić jakieś głębsze podobieństwo albo bliski związek - do dowolnych stałych. A chcemy
+podkreślić jakieś głębsze podobieństwo albo bliski związek - do *dowolnych* stałych. A chcemy
 podkreślić ścisły związek między elementami zbioru `X` i tego rodzaju funkcjami, ponieważ -
-przynajmniej na tym etapie - chcemy, żeby różnica między tymi dwoma rodzajami obiektów stała się
-*mniej* widoczna. To jest więc kolejny przykład *celowej wieloznaczności* albo *wieloznaczności pod
-kontrolą*. Spróbuj sama odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że
-nigdzie się nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je
-[tutaj](Koniunkcja_jako_produkt_kategoryjny_element_x_jako_funkcja.md).
+przynajmniej na tym etapie - chcemy, żeby różnica między tymi dwoma rodzajami obiektów stawała się
+coraz *mniej* widoczna. To jest więc kolejny przykład *celowej wieloznaczności* albo
+*wieloznaczności pod kontrolą*. Spróbuj sama odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x`
+i pamiętaj proszę, że nigdzie się nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych
+wyjaśnień, znajdziesz je [tutaj](Koniunkcja_jako_produkt_kategoryjny_element_x_jako_funkcja.md).
 
-**Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat `T`
-wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje
-dokładnie jedna funkcja (czyli w tym momencie kategoryjna strzałka) z `X` do `T`. I odwrotnie,
-jeżeli zbiór `Z` ma taką własność, że dla każdego zbioru `Y` istnieje dokładnie jedna funkcja z `Z`
-do `Y` to `Z` musi być zbiorem jednoelementowym.
+**Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat duża
+litera `T` wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`,
+istnieje dokładnie jedna funkcja (czyli w tym momencie też dokładnie jedna kategoryjna strzałka) *z*
+`X` *do* `T`. I odwrotnie, jeżeli zbiór `Z` ma taką własność, że dla każdego zbioru `Y` istnieje
+dokładnie jedna funkcja z `Z` do `Y` (czyli dokładnie jedna taka kategoryjna strzałka), to `Z` musi
+być zbiorem jednoelementowym.
 
 **Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
 później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje dokładnie
-jedna funkcja (czyli w tym momencie kategoryjna strzałka) z `I` do `X`. I odwrotnie, jeżeli zbiór
-`Y` ma taką własność, że dla każdego zbioru `X` istnieje dokładnie jedna funkcja z `Y` do `X`, to
-`Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje dokładnie jeden zbiór pusty, ale to
-nie sprawia, że dwa ostatnie zdania są fałszywe.
+jedna funkcja (czyli w tym momencie kategoryjna strzałka) *z* `I` *do* `X`. I odwrotnie, jeżeli
+zbiór `Y` ma taką własność, że dla każdego zbioru `X`, istnieje dokładnie jedna funkcja (czyli
+również strzałka) z `Y` do `X`, to `Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje
+dokładnie jeden zbiór pusty, ale to nie sprawia, że dwa ostatnie zdania, które mówią o *dowolnych*
+takich zbiorach, są fałszywe.
 
 **Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
-b}`. Wtedy każdy element zbioru `X Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
+b}`. Wtedy każdy element zbioru `X × Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
 jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. Uwaga, powiedziałem tu
 celowo "element" zamiast "para uporządkowana". Żeby można było mówić w ten sposób o parach
-uporządkowanych musimy *wprowadzić pojęcia elementu pierwszego* i *elementu drugiego* elementu /
-pary. A to są przecież pewne *funkcje surjektywne* ze zbioru `X x Y` do zbiorów `X` i`Y`
-odpowiednio. 
+uporządkowanych musimy *wprowadzić pojęcia elementu pierwszego* i *elementu drugiego* pary. A to są
+przecież pewne *funkcje surjektywne* ze zbioru `X x Y` do zbiorów `X` i `Y` odpowiednio.
 
-Pisałaś już o takich rodzaju funkcjach, nazywając je *projekcjami*, w komentarzu pod jednym z
-rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego odpowiednika iloczynu zbiorów,
-ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych kategoryjnych strzałek (a tak
-naprawdę samej operacji składania). Niestety nie potrafię opisać prostego rozumowania, które
-prowadziłoby do tej definicji, dlatego muszę ją przedstawić jako rezultat *wglądu*, to jest jako
-coś, co zostało częściowo przypadkowo przez kogoś kiedyś *odkryte*.
+Pisałaś o tego rodzaju funkcjach, nazywając je *projekcjami*, w komentarzu pod jednym z rysunków z
+poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego odpowiednika iloczynu zbiorów, ale jeszcze
+nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych kategoryjnych strzałek, a tak naprawdę samej
+kategoryjnej operacji składania. Niestety, nie potrafię opisać żadnego prostego rozumowania, które
+prowadziłoby prostą drogą do tej niezbyt prostej definicji, dlatego muszę ją przedstawić jako
+rezultat *wglądu*, to jest jako coś, co zostało częściowo przypadkowo przez kogoś kiedyś (na
+szczęście!) *odkryte*.
 
 **Rysunek 1**: `Narysuj` iloczyn kartezjański `X × Y` jako okrąg z odpowiednio oznaczonymi
 elementami, a po lewej od niego narysuj zbiór `{∅}`, również jako okrąg, zawierający jako swój
@@ -393,14 +410,25 @@ skuteczny sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwie
 czegoś względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu (autor-)refleksji na
 *metapoziomie*. A tak w ogóle, to na pewnym poziomie abstrakcji nie ma chyba żadnej różnicy między
 uczeniem (się) i pogłębianiem zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to że jesteś i że
-czytasz. Dziękuję Ci, ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dlatego, że
-dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się wcześniej mówić
-nieco ironicznie.
+czytasz. Dziękuję Ci, ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dzięki temu
+(pun intended), że dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się
+wcześniej powtarzać nieco ironicznie.
+
+I mam też taką nieśmiałą propozycję, żebyśmy podziękowali za coś *wspólnie*. "Ja" Temu, który bez
+*nas* by nie istniał i który dzięki temu, że *my* jesteśmy jest i którego w "moim" formalnym języku
+mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty" komu tam uznasz za
+stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej większości prawie w ogóle
+niczego systematycznie się nie uczą i często nawet niczego nie próbują zanotować, kiedy uczesniczą w
+dyskusjach "naukowych" albo słuchają wystąpień, że wielu z nich jest nadal na szczęście
+*zmuszonych*, w czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą
+zwykle nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla"
+jakiś okropnych, namolnych studentów. No więc za to, tylko krócej.
 
 Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
 pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
 *Istnieje naturalny izomorfizm między elementami iloczynu kartezjańskiego i parami funkcji z
-singletona do przeciwdziedzin projekcji tego iloczynu*.
+dowolnego singletona do przeciwdziedzin projekcji tego iloczynu, jak również między funkcjami z
+dowolnego singletona do iloczynu i elementami tego iloczynu*.
 
 Wynika stąd, że wszystko, co możemy powiedzieć na temat elementów należących do dowolnego iloczynu
 kartezjańskiego, a więc po prostu wszystko, co możemy powiedzieć na temat iloczynu kartezjańskiego,
@@ -467,10 +495,11 @@ okaże w następnym rozdziale, odpowiada między innymi pojęciu *koniunkcji w l
 **Sugestia**: To była jak sądzę najtrudniejsza część tego rozdziału, dlatego nie będę Ci sugerował,
 jak podpisać ostatni rysunek, bo przypuszczam, że ta notatka będzie i tak ewoluowała w miarę Twoich
 postępów w nauce. Niemniej zachęcam do stworzenia takiej notatki, być może posługując się przy tym
-swobodnie elementami graficznymi i zapisując przy tym pytania, wątpliwości, lub dowolne
-spostrzeżenia czy pomysły. I nie przejmuj się, jeżeli na razie niewiele rozumiesz z definicji
+swobodnie elementami graficznymi i zapisując (polecam) pytania, wątpliwości, czy jakiekolwiek
+spostrzeżenia lub pomysły. I nie przejmuj się, jeżeli na razie niewiele rozumiesz z definicji
 produktu kategoryjnego. Przekonasz się, że w pewnym technicznym sensie *musi* być trudno ją
-zrozumieć, a poza tym jeszcze nie zaczęliśmy jej *używać*.
+zrozumieć, nawet, a może nawet (tak, wiem) *zwłaszcza* znając różne przykłady konstrukcji, które do
+niej pasują. A poza tym jeszcze przecież nie zaczęliśmy tej definicji do niczego *używać*.
 
 ### Przypisy
 
