@@ -513,7 +513,7 @@ swobodnie elementami graficznymi i zapisując (co polecam) pytania, wątpliwośc
 spostrzeżenia lub pomysły. I nie przejmuj się, jeżeli na razie niewiele rozumiesz z definicji
 produktu kategoryjnego. Przekonasz się, że w pewnym technicznym sensie *musi* być trudno zrozumieć
 tą definicję, nawet, a może nawet (hm) *zwłaszcza* znając różne przykłady konstrukcji, które do niej
-pasują. A poza tym jeszcze przecież nie zaczęliśmy tej konkretnej definicji do niczego *używać*.
+pasują. A poza tym jeszcze przecież nie zaczęliśmy tej definicji do niczego *używać*.
 
 ### Przypisy
 
