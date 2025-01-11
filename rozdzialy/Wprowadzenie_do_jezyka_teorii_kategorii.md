@@ -59,7 +59,7 @@ Zdanie do udowodnienia dotyczy *równości funkcji*, a więc trzeba będzie skor
 równości funkcji, no bo z czego innego. A to kryterium mówi, że dwie funkcje są równe wtedy i tylko
 wtedy, gdy 1. mają tą samą dziedzinę i przeciwdziedzinę i 2. dla każdego elementu dziedziny zwracają
 ten sam element przeciwdziedziny. Wobec tego, żeby udowodnić cel `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
-wystarczy udowodnić zdanie (często warto próbować \{re-\} konstruować dowody \{wszelkiego rodzaju
+wystarczy udowodnić zdanie (często warto próbować \{re-\}konstruować dowody \{wszelkiego rodzaju
 rozumowania\} od końca, pamiętasz?):
 
 `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`
