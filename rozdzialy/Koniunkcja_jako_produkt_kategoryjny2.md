@@ -336,8 +336,8 @@ nigdzie się nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaś
 **Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat `T`
 wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje
 dokładnie jedna funkcja (czyli w tym momencie kategoryjna strzałka) z `X` do `T`. I odwrotnie,
-jeżeli zbiór `Y` ma taką własność, że dla każdego zbioru `X` istnieje dokładnie jedna funkcja z `X`
-do `Y` to `Y` musi być zbiorem jednoelementowym.
+jeżeli zbiór `Z` ma taką własność, że dla każdego zbioru `Y` istnieje dokładnie jedna funkcja z `Z`
+do `Y` to `Z` musi być zbiorem jednoelementowym.
 
 **Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
 później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje dokładnie
@@ -348,21 +348,65 @@ nie sprawia, że dwa ostatnie zdania są fałszywe.
 
 **Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
 b}`. Wtedy każdy element zbioru `X Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
-jako taki *element, którego pierwszym elementem jest* `2` *a drugim* `a`. Napisałem celowo "element"
-zamiast "para uporządkowana". Żeby można było mówić w ten sposób o parach uporządkowanych musimy
-wprowadzić pojęcia elementu pierwszego i elementu drugiego pary. A to są przecież pewne funkcje
-surjektywne ze zbioru `X x Y` do zbiorów `X` i`Y` odpowiednio. Pisałaś o tego rodzaju funkcjach,
-nazywając je *projekcjami*, w komentarzu pod jednym z rysunków z poprzedniego rozdziału. Jesteśmy
-już bliżej kategoryjnego odpowiednika iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego
-pojęcia za pomocą samych kategoryjnych strzałek (i operacji składania). Niestety nie potrafię opisać
-prostego rozumowania, które prowadziłoby do tej definicji, dlatego muszę ją przedstawić jako
-rezultat *wglądu*, to jest jako coś, co zostało częściowo przypadkowo przez kogoś kiedyś *odkryte*.
+jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. Uwaga, powiedziałem tu
+celowo "element" zamiast "para uporządkowana". Żeby można było mówić w ten sposób o parach
+uporządkowanych musimy *wprowadzić pojęcia elementu pierwszego* i *elementu drugiego* elementu /
+pary. A to są przecież pewne *funkcje surjektywne* ze zbioru `X x Y` do zbiorów `X` i`Y`
+odpowiednio. 
 
-**Rysunek**: `Narysuj` proszę punkt `X x Y` i strzałki `pi1 : X x Y -> X` i `pi2 : X x Y -> Y`, ale
+Pisałaś już o takich rodzaju funkcjach, nazywając je *projekcjami*, w komentarzu pod jednym z
+rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego odpowiednika iloczynu zbiorów,
+ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych kategoryjnych strzałek (a tak
+naprawdę samej operacji składania). Niestety nie potrafię opisać prostego rozumowania, które
+prowadziłoby do tej definicji, dlatego muszę ją przedstawić jako rezultat *wglądu*, to jest jako
+coś, co zostało częściowo przypadkowo przez kogoś kiedyś *odkryte*.
+
+**Rysunek 1**: `Narysuj` iloczyn kartezjański `X × Y` jako okrąg z odpowiednio oznaczonymi
+elementami, a po lewej od niego narysuj zbiór `{∅}`, również jako okrąg, zawierający jako swój
+jedyny element zbiór pusty, czyli `∅`. Następnie `Narysuj Strzalka ∅ v`, gdzie `v` będzie dowolnym
+wybranym przez Ciebie elementem zbioru `X × Y`. W ten sposób wskażesz i jednocześnie nazwiesz ten
+element (i stwierdzisz, że jest elementem tego iloczynu). Czy widzisz, że niezależnie od tego, jaki
+element byś w ten sposób wskazała, ten element będzie zawsze *jednoznacznie* określony przez dwie
+własności, to jest przez to, jaki ma pierwszy i jaki ma drugi element (jako elementy tego elementu
+jako pewnej pary uporządkowanej)?
+
+To teraz `Narysuj` jeszcze proszę dwie *projekcje* tego iloczynu. Żeby to zrobić, musisz albo nad i
+pod, albo po bokach od scharakteryzowanego już za pomocą rysunku zbioru `X × Y` dorysować zbiory `X`
+i `Y`. Gdy to zrobisz, `Narysuj` proszę funkcję `π₁ : X × Y → X` (`π` bo projekcja) i `Narysuj`
+również jej wewnętrzną strukturę dodając strzałki od każdego elementu `(x, y) ∈ X × Y` do `x ∈ X`. W
+ten sam sposób `Narysuj` również projekcję `π₂ : X × Y → Y`. Czy widzisz, że niezależnie od tego,
+który element `v ∈ X × Y` byś wskazała za pomocą *pojedynczej* funkcji z singletona `{∅}` do zbioru
+`X × Y`, takie wskazanie *zawsze* będzie odpowiadało *dokładnie jednej uporządkowanej parze* wskazań
+elementów `X` i `Y`, danej przez `π₁(v(∅))` i `π₂(v(∅))`? A czy widzisz, że każda taka
+(automatycznie, bo projekcje są tutaj indeksowane liczbami) uporządkowana para wskazań odpowiada
+dokładnie jednemu wskazaniu elementu zbioru `X × Y`? Mam nadzieję, że w tym momencie widzimy więc
+oboje, że mamy tu pewien naturalny *izomorfizm* między *elementami* znajdującymi się *wewnątrz*
+zbioru `X × Y` i znajdującymi się *na zewnątrz* tego zbioru *parami funkcji* z singletona `{∅}` do
+`X` i do `Y` odpowiednio. 
+
+Właściwie teraz, gdy skończyłem pisać ten akapit, zaczęło mi się wydawać, że może jednak da się
+przedstawić kategoryjny iloczyn (nazywany raczej kategoryjnym *produktem*) jako rezultat pewnego
+rozumowania. Po raz kolejny przekonałem się w ten sposób, że *najwięcej uczy się czegoś ten, kto sam
+próbuje kogoś tego czegoś nauczyć* i jednocześnie, że *najbardziej pogłębia swoje zrozumienie czegoś
+ten, kto.próbuje to coś komuś jasno wytłumaczyć*. Wobec tego, jeszcze raz, dziękuję.
+
+Na koniec jeszcze podpisz proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
+pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
+*Istnieje naturalny izomorfizm między elementami iloczynu kartezjańskiego i parami funkcji z
+singletona do przeciwdziedzin projekcji tego iloczynu*.
+
+**Rysunek 2**: Ponieważ ten rysunek będzie bardziej skomplikowany, muszę wprowadzić bardziej
+skomplikowaną notację. Jeżeli, dla pewnego `Punkt X`, napiszę `Narysuj (Punkt Y) (<położenie> X)`,
+gdzie `położenie` będzie jednym z termów `N`, `E`, `S`, `W`, `NE`, `SE`, `SW`, `NW`, oznaczających
+odpowiednio *na północ*, *na wschód*, *na południe*, *na zachód*, *na północny wschód*, *na
+południowy wschód*, *na południowy zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię
+o narysowanie punktu `Y` właśnie w danym miejscu względem punktu `X`.
+
+to będzie to znaczyło proszę punkt `X x Y` i strzałki `pi1 : X x Y -> X` i `pi2 : X x Y -> Y`, ale
 tak, żeby `pi1` była skierowana w lewo a `pi2` w prawo. Nad tymi dwoma ramionami, powyżej punktu `X
 x Y`, narysuj punkt `Z` i dodaj jeszcze strzałki `f : Z -> X` i `g : Z -> Y` i może niech będą lekko
-wygięte w taki sposób, żeby powstało coś przypominającego spiczastą czapkę. Wreszcie linią przerywaną
-`Narysuj` strzałkę z punktu `Z` do punktu `X x Y`, a obok niej zapisz `E^1`.
+wygięte w taki sposób, żeby powstało coś przypominającego spiczastą czapkę. Wreszcie linią
+przerywaną `Narysuj` strzałkę z punktu `Z` do punktu `X x Y`, a obok niej zapisz `E^1`.
 
 wychodzącą z punktu `X x Y` w lewą stronę i
 wskazującą na punkt `X` i strzałkę `pi2` wychodzącą z tego samego punktu co `pi`, ale w prawo i
