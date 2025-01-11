@@ -37,7 +37,9 @@ dobre do języka teorii
 kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Czytelniczki i czytelników,
 *którzy mają już za sobą co najmniej rozdziały od R4 do R8=R02, a także R19=R13* (który "się"
 niedawno znowu trochę zmienił) *i R20=R14*, zapraszam do testowania (!), zgłaszania trudności i w
-ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
+ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*. Przy okazji pragnę
+nadmienić odnośnie ewentualnego marketingu szeptanego, że można tą książkę śmiało odradzać innym, co
+jest o tyle ławe, że nie widać jej w wyszukiwarce.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
