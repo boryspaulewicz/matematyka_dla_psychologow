@@ -292,12 +292,12 @@ alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 [poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) [sześć
 *aksjomatów kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii). Przy okazji powiem Ci
 jeszcze, że "przyjmuje się" (czytaj: wiele osób tak uważa), że teorię kategorii odkryli albo
-stworzyli - na początku lat 40tych dwaj matematycy, [Samuel
+stworzyli na początku lat 40tych dwaj matematycy, [Samuel
 Eilenberg](https://pl.wikipedia.org/wiki/Samuel_Eilenberg) i [Saunders Mac
 Lane](https://pl.wikipedia.org/wiki/Saunders_Mac_Lane), z których pierwszy urodził się w Polsce i w
-Polsce studiował matematykę, ale inny wybitny polski matematyk, [Stanisław
+Polsce studiował matematykę, chociaż inny wybitny polski matematyk, [Stanisław
 Ulam](https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Ulam), podobnie jak kilku sympatyzujących z nim
-autorów, twierdził, że tego rodzaju teoria "krążyła po Polsce" już w latach 30tych.
+autorów, twierdził(ą), że tego rodzaju teoria "krążyła po Polsce" już w latach 30tych.
 
 ## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
