@@ -5,16 +5,16 @@ składalnych funkcji*.
 
 Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta(ka)
 sama funkcja, musimy udowodnić, że `∀ x ∈ X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc
-najpierw, że mamy *jakiś* `x ∈ X`, bo udowadnić coś dla *jakiegoś*, czyli *bliżej nieokreślonego*,
+najpierw, że mamy *jakiś* `x ∈ X`, bo udowodnić coś dla *jakiegoś*, czyli *bliżej nieokreślonego*,
 czyli *arbitralnego* `x` znaczy dokładnie to samo, co udowodnić coś *dla każdego* `x`. Przecież
 jeżeli dowód "działa" dla `x ∈ X`, o którym *nic poza tym nie założyliśmy*, to znaczy, że działa
 *dla każdego* `x ∈ X`. Zapisując na kartce, że mamy jakiś `x ∈ X`, *wprowadzamy* więc `x ∈ X` *do
-kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*, którą potem możemy sami
-aplikować i ewaluować.
+kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*, którą będziemy mogli potem
+sami aplikować i ewaluować.
 
-Musimy teraz tylko rozwinąć definicję składania tyle razy, ile będzie trzeba, przekształcając lewą
-stronę równania (będącą przecież pewną wielokrotną *aplikacją dwuargumentowej funkcji składania*) do
-postaci ...
+Musimy teraz tylko rozwinąć definicję składania (bo nie ma tu żadnej innej definicji, którą
+moglibyśmy rozwinąć) tyle razy, ile będzie trzeba, przekształcając lewą stronę równania (będącą
+wielokrotną aplikacją dwuargumentowej[^1] funkcji składania) do postaci ...
 
 `(h o (g o f))(x) = h((g o f)(x)) = h(g(f(x))`
 
@@ -22,17 +22,18 @@ postaci ...
 
 `((h o g) o f)(x) = (h o g)(f(x)) = h(g(f(x)))`
 
-... żeby zobaczyć, że obie funkcje dają ten sam wynik dla każdego `x in X`, a więc:
+... żeby zobaczyć, że obie funkcje dają ten sam wynik dla każdego `x ∈ X`, a więc:
 
 `h o (g o f) = (h o g) o f`
 
-Może spróbuj zrobić sama coś podobnego na kartce, jak najmniej tu zaglądając?
+**Sugestia**: Jeżeli jeszcze Ci się to nie udało, to może spróbuj teraz zrobić sama coś podobnego na
+kartce, jak najmniej tu zaglądając?
 
 Zwróć też proszę uwagę, że poza tym, że wspomniałem o możliwości definiowania funkcji za pomocą
-rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone; przecież, poza
-wspomnianym kontekstem, ani raz nie napisałem niczego w rodzaju "Ponieważ zbiór `X` jest skończony,
-to ...". A to znaczy, że wszystkie wymienione w tym rozdziale własności mają rownież funkcje między
-*dowolnymi* zbiorami, a więc niekoniecznie skończonymi.
+rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone, bo poza wspomnianym
+kontekstem ani raz nie powiedziałem niczego w rodzaju "Ponieważ zbiór `X` jest skończony, to ...". A
+to znaczy, że *wszystkie* wymienione w tym rozdziale własności mają rownież funkcje między
+*dowolnymi* zbiorami, a więc także *nie*skończonymi.
 
 Czy widzisz na tym przykładzie, że warto czasem mieć *świadomość tego, z jakich założeń się
 korzysta*?  Dzięki temu możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione
@@ -556,4 +557,6 @@ oznaczania* zbiorów skończonych, widzimy, że `h (g f) = (h g) f`.
 
 ### Przypisy
 
-[^1]: Repetitio est mater studiorum!
+[^1]: A właściwie więcej niż dwuargumentową, bo ta funkcja, gdyby była zaimplementowana, musiałaby
+    korzystać również z informacji o dziedzinach i przeciwdziedzinach funkcji, jak również,
+    niejawnie, z ich składalności, którą można wyrazić odpowiednio określając typy parametrów.
