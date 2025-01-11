@@ -69,7 +69,7 @@ A żeby z kolei rozpocząć konstrukcję dowodu zdania zaczynającego się od *D
 dowodu, nawet bardzo nieudana taka próba, sprawi, że czytając dalsze objaśnienia będziesz mogła
 zauważyć, z czym dokładanie miałaś problem, a dzięki temu prawdopodobnie ten konkretny problem
 niedługo później zniknie. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij
-[ten](Koniunkcja_jako_produkt_kategoryjny2.md) link.
+[ten](Wprowadzenie_do_jezyka_teorii_kategorii2.md) link.
 
 ### Przypisy
 

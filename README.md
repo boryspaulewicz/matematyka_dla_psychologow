@@ -32,9 +32,10 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-**Aktualności**: 7 stycznia. Dodałem właśnie nowy rozdział dwudziesty-czternasty pod tytułem [Teoria
-mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md). Zapraszam do testowania, zgłaszania
-trudności i nadsyłania jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
+**Aktualności**: 11 stycznia. Dodałem właśnie nowy rozdział 21-15 pod tytułem [Wprowadzenie już na
+dobre do języka teorii kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Zapraszam
+do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych
+*krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
@@ -213,9 +214,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R20 = R14 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
 
-**Plac budowy**
-
-[R21 = R15 ∘←×→∘ ~ ∘←∧→∘](./rozdzialy/Koniunkcja_jako_produkt_kategoryjny.md)
+[R21 = R15 Wprowadzenie już na dobre do języka teorii kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
 Notatki całkiem już robocze, do których jednak można zaglądać:
 
