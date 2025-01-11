@@ -41,9 +41,10 @@ dowód zdania `h ∘ (g ∘ f) = (h ∘ g) ∘ f`. Jak zawsze w takich sytuacjac
 a gdy *mamy* do zrobienia coś, w czym nie *mamy* jeszcze dużej wprawy, dobrze jest *zacząć* od
 pytania, od czego by tu *zacząć* (chociaż wychodzi na to, że dobrze zacząć właśnie od tego pytania
 \{to jest od czego zacząć\}). Innym dobrym sposobem, żeby zachować w takich sytuacjach spokój, jest
-coś, co w gotowaniu nazywa się [mise en place](https://en.wikipedia.org/wiki/Mise_en_place). W tym
-przypadku to znaczy, że warto najpierw zapisać na kartce *to, co masz, to, jaki jest cel* (czyli
-zdanie do udowodnienia) i *to, co na temat tych rzeczy już wiesz*.
+coś, co w [gotowaniu](https://youtu.be/O8OrsCw0OC0?si=RjVm3NQ-n3kcmba5) nazywa się [mise en
+place](https://en.wikipedia.org/wiki/Mise_en_place). W tym przypadku to znaczy, że warto najpierw
+zapisać na kartce *to, co masz, to, jaki jest cel* (czyli zdanie do udowodnienia) i *to, co na temat
+tych rzeczy już wiesz*.
 
 Cel już znasz. Tym razem masz to:
 
