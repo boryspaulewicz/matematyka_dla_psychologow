@@ -93,9 +93,10 @@ niebawem poprawnym termem w języku teorii typów), to przykład czegoś, czego 
 samym [*grafie*](https://pl.wikipedia.org/wiki/Graf_(matematyka)) reprezentującym zbiory i funkcje
 między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi procesami, są jednak
 strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym (wybrednym)
-*działaniem*. Dlatego z wysokości na której się aktualnie znajdujesz nie zobaczysz tego nawet
-patrząc przez magiczne okulary, a więc wszystkie informacje na temat (ro)\{z/s\}kładania funkcji,
-poza uniwersalnymi włanościami tego działania, musisz albo *założyć* albo *wywnioskować*.
+*działaniem*. Dlatego z wysokości, na której się aktualnie znajdujesz, nie zobaczysz tego nawet
+patrząc przez magiczne okulary, a więc wszystkie informacje na temat (ro)\{z/s\}kładania się
+funkcji, poza uniwersalnymi włanościami tego działania, musisz odtąd albo *założyć* albo
+*wywnioskować*.
 
 Tego, że każdy zbiór ma jedną identyczność, nie musisz próbować zobaczyć (ani nawet zakładać), bo
 *wiesz* (to jest jedna z tych uniwersalnych własności), że dla każdego zbioru `X` można zdefiniować
