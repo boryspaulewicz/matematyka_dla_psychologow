@@ -108,7 +108,7 @@ dziedzina i przeciwdziedzina.
 Nie musisz więc wytężać wzroku (ani się dłużej zastanawiać), żeby się przekonać, że każdy punkt ma
 swoją *unikalną* i *charakterystyczną* endostrzałkę identycznościową. A to znaczy, że istnieje
 izomorfizm między zbiorami i identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach
-możemy równie dobrze mówić o identycznościach. Kto wie, może jeszcze z tego skorzystamy.
+możemy równie dobrze mówić o identycznościach. Zresztą kto wie, może jeszcze z tego skorzystamy.
 
 Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest zawsze prawdą, że `Id ∘ f
 = f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający zdaniom `Id ∘ f = f` i `f =
