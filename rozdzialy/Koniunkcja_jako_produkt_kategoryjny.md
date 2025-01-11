@@ -63,8 +63,8 @@ rozumowania\} od końca, pamiętasz?):
 
 `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`
 
-A żeby z kolei rozpocząć konstrukcję dowodu zdania zaczynającego się od *dla każdego* `x` *takiego,
-że ...*  wystarczy założyć, że *mamy jakiś* `x` *taki, że ...*. Jakakolwiek próba zrobienia tego
+A żeby z kolei rozpocząć konstrukcję dowodu zdania zaczynającego się od *Dla każdego* `x` *takiego,
+że ...*  wystarczy założyć, że *Mamy jakiś* `x` *taki, że ...*. Jakakolwiek próba zrobienia tego
 dowodu, nawet bardzo nieudana taka próba, sprawi, że czytając dalsze objaśnienia będziesz mogła
 zauważyć, z czym dokładanie miałaś problem, a dzięki temu prawdopodobnie ten konkretny problem
 niedługo później zniknie. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij
