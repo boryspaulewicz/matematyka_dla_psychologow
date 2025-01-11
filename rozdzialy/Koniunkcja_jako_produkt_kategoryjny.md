@@ -53,18 +53,19 @@ Te trzy funkcje są kolejno parami składalne, a więc istnieją ich złożenia,
 `g ∘ f` i `h ∘ g`.
 
 Zdanie do udowodnienia dotyczy *równości funkcji*, a więc trzeba będzie skorzystać z ... kryterium
-równości funkcji, no bo z czego innego, a to kryterium mówi, że dwie funkcje są równe wtedy i tylko
+równości funkcji, no bo z czego innego. A to kryterium mówi, że dwie funkcje są równe wtedy i tylko
 wtedy, gdy 1. mają tą samą dziedzinę i przeciwdziedzinę i 2. dla każdego elementu dziedziny zwracają
-ten sam element przeciwdziedziny. Wobec tego, żeby udowodnić cel (warto czasem próbować konstruować
-dowody od końca, pamiętasz?) `h ∘ (g ∘ f) = (h ∘ g) ∘ f` wystarczy udowodnić zdanie:
+ten sam element przeciwdziedziny. Wobec tego, żeby udowodnić cel `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
+wystarczy udowodnić zdanie (często warto próbować \{re-\} konstruować dowody \{wszelkiego rodzaju
+rozumowania\} od końca, pamiętasz?):
 
 `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`
 
-A żeby rozpocząć konstrukcję dowodu zdania zaczynającego się od *dla każdego* `x` *takiego, że ...*
-wystarczy założyć, że *mamy jakiś* `x` *taki, że ...*. Jakakolwiek próba zrobienia tego dowodu,
-nawet bardzo nieudana taka próba, sprawi, że czytając dalsze objaśnienia będziesz mogła zauważyć z
-czym dokładanie miałaś problem, a dzięki temu prawdopodobnie ten konkretny problem niedługo później
-przestanie być dla Ciebie problemem. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij
+A żeby z kolei rozpocząć konstrukcję dowodu zdania zaczynającego się od *dla każdego* `x` *takiego,
+że ...*  wystarczy założyć, że *mamy jakiś* `x` *taki, że ...*. Jakakolwiek próba zrobienia tego
+dowodu, nawet bardzo nieudana taka próba, sprawi, że czytając dalsze objaśnienia będziesz mogła
+zauważyć, z czym dokładanie miałaś problem, a dzięki temu prawdopodobnie ten konkretny problem
+niedługo później zniknie. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij
 [ten](Koniunkcja_jako_produkt_kategoryjny2.md) link.
 
 ### Przypisy
