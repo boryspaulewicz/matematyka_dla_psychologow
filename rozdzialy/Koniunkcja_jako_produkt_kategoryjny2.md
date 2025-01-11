@@ -122,9 +122,11 @@ wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że:
 
 A więc `Id ∘ f = f = f ∘ Id`.
 
-To jest (nawiasem mówiąc) dowód przedstawiony nieco nonszalancko w postaci jednego zdania, w ramach
-którego rozwijamy, a następnie "zawijamy" (albo "owijamy"?) definicje identyczności i składania. A
-po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x ∈ X`, to ...
+To jest (nawiasem mówiąc) kolejny dowód przedstawiony nieco nonszalancko w postaci *jednego
+wielokrotnie złożonego zdania*, w ramach którego akurat rozwijamy, a następnie zwijamy (a może
+raczej "owijamy"?) definicje identyczności i składania. 
+
+A po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x ∈ X`, to ...
 
 `(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))) = (h ∘ (g(f(x)))) = ((h ∘ g) ∘ f)(x)`
 
@@ -137,12 +139,12 @@ pojawiają się poniżej są możliwe, jest zawsze prawdą, że:
 
 Dowód "złożeniowej neutralności" identyczności jest łatwy, a poza tym ta "neutralność" jest jak
 sądzę już dla Ciebie oczywista. Zgaduję jednak, że ten ostatni dowód mógł być dla Ciebie trochę
-trudny, ale tylko z powodu licznych nawiasów, które trzeba zapisać, żeby w nim poprawnie operować
-operacją (ech) składania funkcji. Można jednak uprościć ten zapis wprowadzając dodatkowe definicje,
-w podobny sposób, w jaki będziemy to robić od pewnego momentu dowodząc bardziej skomplikowanych
-twierdzeń w Leanie. 
+trudny, ale tylko z powodu licznych, rozmaicie pozagnieżdżanych nawiasów, które trzeba zapisać, żeby
+w nim poprawnie operować operacją (ech) składania funkcji. Można jednak uprościć ten zapis
+wprowadzając dodatkowe definicje, w podobny sposób, w jaki będziemy to robić od pewnego momentu
+dowodząc bardziej skomplikowanych twierdzeń w Leanie.
 
-Jeżeli oznaczymy dwa podstawowe złożenia w ten sposób ...
+Jeżeli oznaczymy dwa tutaj jakby podstawowe złożenia w ten sposób ...
 
 `i := g ∘ f`
 
@@ -165,11 +167,11 @@ Pozostaje nam rozwinąć tymczasowe definicje stałych `i` i `j` ...
 
 `h(g(f(x))) = h(g(f(x))`
 
-Podoba mi się ten ostatni sposób, chociaż nie jest dla mnie jasne, czy cokolwiek tu upraszcza, a
-Tobie? To może jeszcze zrobimy coś podobnego, tylko w Leanie? W tym celu zastosujemy taktykę `rfl`,
-o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje między innymi dowody, które
-polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z definicji (liczba
-mnoga). Zaczniemy od ilustracji:
+Podoba mi się ten ostatni sposób, a Tobie?. Chociaż przyznam, że nie jest dla mnie jasne, czy
+cokolwiek tu upraszcza, To może jeszcze zrobimy coś podobnego, tylko w Leanie? W tym celu
+zastosujemy taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje między
+innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z
+definicji (liczba mnoga). Zaczniemy od ilustracji:
 
 ```lean
 -- Używamy tutaj parametrów opcjonalnych, ponieważ Lean może je wywnioskować z pozostałych argumentów
