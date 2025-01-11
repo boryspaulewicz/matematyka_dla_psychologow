@@ -11,4 +11,5 @@ przez nie założenie), że funkcja `x` ze zbioru `{∅}` posyła zbiór pusty, 
 należącym do dziedziny `x`, który jest tutaj uniwersalnym wskaźnikiem, służącym do wytykania
 dowolnych elmentów należących do dowolnych zbiorów, w element `x`. W ten sposób *funkcja* `x` jest
 *jednocześnie nazwą* pewnego *elementu* i *stwierdzeniem*, że ten element należy do zbioru `X`. A
-więc ta funkcja *zastępuje dwa wyrażenia* - symbol `x` rozumiany jako element i zdanie `x ∈ X`.
+więc ta funkcja *zastępuje dwa wyrażenia* - symbol `x` rozumiany jako element i zdanie `x ∈
+X`. Nieźle, prawda?
