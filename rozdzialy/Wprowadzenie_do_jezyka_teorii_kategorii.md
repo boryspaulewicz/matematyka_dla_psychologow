@@ -1,4 +1,4 @@
-# Wprowadzenie już na dobre do języka teorii kategorii
+# X × Y ~ X ← ∘ → Y
 
 Może zapnij pasy, a jak nie masz, to nie wiem, zrób cokolwiek, żebyś czytając ten rozdział czuła się
 bezpiecznie. Będziemy niebawem [mówić niemal jednocześnie w kilku

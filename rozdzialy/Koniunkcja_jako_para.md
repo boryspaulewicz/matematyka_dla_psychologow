@@ -13,7 +13,7 @@ W następnym rozdziale spełnię (po raz kolejny) obietnicę złożoną w jednym
 wprowadzających, zgodnie z którą wszystko w matematyce będziemy konstruować ze *strzałek*, a
 dokładnie z *funkcji*.
 
-# ∧ 1
+# p ∧ q ~ p × q
 
 ```lean
 -- Jeżeli p i q to jakieś zdania ...

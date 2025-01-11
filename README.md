@@ -32,9 +32,8 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-**Aktualności**: 11 stycznia. Dodałem właśnie nowy rozdział 21-15 pod tytułem [Wprowadzenie już na
-dobre do języka teorii
-kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Czytelniczki i czytelników,
+**Aktualności**: 11 stycznia. Dodałem właśnie nowy rozdział 21-15 pod zachęcającym tytułem [X × Y ~
+X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Czytelniczki i czytelników,
 *którzy mają już za sobą co najmniej rozdziały od R4 do R8=R02, a także R19=R13* (który "się"
 niedawno znowu trochę zmienił) *i R20=R14*, zapraszam do testowania (!), zgłaszania trudności i w
 ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*. Przy okazji pragnę
@@ -210,15 +209,15 @@ zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 [R16 = R10 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
-[R17 = R11 ∧ 1](./rozdzialy/Koniunkcja_jako_para.md)
+[R17 = R11 p ∧ q ~ p × q](./rozdzialy/Koniunkcja_jako_para.md)
 
-[R18 = R12 ∧ 2](./rozdzialy/Koniunkcja_ze_strzalek.md)
+[R18 = R12 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
 [R19 = R13 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
 
 [R20 = R14 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
 
-[R21 = R15 Wprowadzenie już na dobre do języka teorii kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
+[R21 = R15 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
 Notatki robocze do których można zaglądać:
 

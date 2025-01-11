@@ -18,7 +18,7 @@ koniunkcji czy prefiksowy (inaczej *przedrostkowy*) zapis negacji.
 
 <hr>
 
-# ∧ 2
+# p ∧ q ~ ∀ r : Prop, (p → q → r) → r
 
 Jeżeli `p` i `q` to zdania, to `p ∧ q` jest również zdaniem, które odczytujemy jako `p` i
 `q`. Symbol koniunkcji uzyskasz wpisując `\and`. Podobnie jak implikacja, koniunkcja jest więc
