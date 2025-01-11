@@ -213,9 +213,9 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R20 = R14 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
 
-Plac budowy
+**Plac budowy**
 
-R21 = R15 ∘←×→∘ ~ ∘←∧→∘
+[R21 = R15 ∘←×→∘ ~ ∘←∧→∘](./rozdzialy/Koniunkcja_jako_produkt_kategoryjny.md)
 
 Notatki całkiem już robocze, do których jednak można zaglądać:
 
