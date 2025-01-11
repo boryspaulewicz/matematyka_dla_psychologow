@@ -41,16 +41,18 @@ kartce. Jak zawsze w takich sytuacjach najważniejszy jest spokój, a gdy mamy d
 czym nie mamy jeszcze za bardzo wprawy, dobrze jest zacząć od pytania, od czego zacząć (chociaż
 wychodzi na to, że od pytania \{od czego zacząć\}). Innym dobrym sposobem, żeby zachować w takich
 sytuacjach spokój, jest coś, co w gotowaniu nazywa się [mise en
-place](https://en.wikipedia.org/wiki/Mise_en_place). W tym przypadku to znaczy, że warto najpierw
-zapisać na kartce to, co *masz* i to, co *wiesz*. Masz to:
+place](https://en.wikipedia.org/wiki/Mise_en_place). W tym przypadku to znaczy, że *warto najpierw
+zapisać na kartce to, co masz i to, co wiesz*. 
 
-Jakieś funkcje `f : X → Y`, `g : Y → Z` i `h : Z → V` (a więc też oczywiście jakieś zbiory `X`,
-`Y`, `Z` i `V`).
+Tym razem masz to:
+
+Jakieś funkcje `f : X → Y`, `g : Y → Z` i `h : Z → V`, a więc też oczywiście jakieś zbiory `X`, `Y`,
+`Z` i `V`.
 
 A wiesz (między innymi) to:
 
-Te trzy funkcje są kolejno parami składalne, a więc istnieją ich złożenia, które można zapisać jako
-`g ∘ f` i `h ∘ g`.
+Te trzy funkcje są kolejno parami składalne, a więc istnieją ich złożenia, które można zapisać
+krótko jako `g ∘ f` i `h ∘ g`.
 
 Zdanie do udowodnienia dotyczy *równości funkcji*, a więc trzeba będzie skorzystać z ... kryterium
 równości funkcji, no bo z czego innego. A to kryterium mówi, że dwie funkcje są równe wtedy i tylko
