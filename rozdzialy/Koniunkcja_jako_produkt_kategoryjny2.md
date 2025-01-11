@@ -52,20 +52,24 @@ skróty myślowe - jednym podwójnym równaniem i jednym pojedynczym:
 
 2. `h o (g o f) = (h o g) o f`
 
+## Pora na [odlot](https://pl.wikipedia.org/wiki/Odlot_(film_2009))
+
 A teraz proszę wyobraź sobie, że zbiory to okręgi, z przeróżnymi, rozrzuconymi przypadkowo w środku
 tych okręgów elementami, podobne do tych, które rysowałaś czytając poprzedni rozdział, a każda
-funkcja to taki strumień strzałek płynący z jednego zbioru do drugiego. I wyobraź sobie, że te
-zbiory i funkcje są narysowane na nieskończenie dużej kartce papieru, a Ty oddalasz się coraz
-szybciej w górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza *punktami
+funkcja to taki *strumień złożony ze strzałek*, płynący z jednego zbioru do drugiego. I wyobraź
+sobie, że te zbiory i funkcje są narysowane na nieskończenie dużej kartce papieru, a Ty oddalasz się
+coraz szybciej w górę, aż docierasz tak wysoko, że nie jesteś w stanie rozróżnić nic poza *punktami
 zbiorów* i *strzałkami strumieni*.
 
-Z tej ekstremalnie abstrakcyjnej perspektywy mogłabyś zobaczyć wiele regularności, ale nie
-wszystkie, ponieważ nie widziałabyś czegoś, czego nie da się w ten sposób dobrze narysować. Tym
-czymś, czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że przestrzeń zbiorów
-*żyje*, to jest nie widziałabyś *jak działa działanie składania*. Żeby zobaczyć *to* trzeba mieć
-oczy anioła. Ja akurat nie mam i zgaduję, że Ty również nie posiadasz (wybacz). Jeżeli nie jest się
-chwilowo w posiadaniu oczu anioła, w ostateczności można nabyć ich protezę i próbować wypatrzyć, co
-tylko się da, to znaczy próbować wyprowadzać dedukcyjnie rozmaite wnioski w języku teorii kategorii.
+Z tej abstrakcyjnej perspektywy mogłabyś zobaczyć wiele regularności, ale nie wszystkie, ponieważ
+nie widziałabyś czegoś, czego nie da się dobrze narysować nie ujawniając wewnętrznej struktury
+funkcji i zbiorów. Tym czymś, czego nie mogłabyś wtedy wyraźnie zobaczyć, byłoby to, co sprawia, że
+przestrzeń zbiorów *żyje*, to jest nie widziałabyś *jak działa działanie składania*. 
+
+Żeby zobaczyć *to*, trzeba mieć oczy anioła. Ja akurat nie mam i zgaduję, że Ty również nie
+posiadasz (wybacz). Jeżeli nie jest się chwilowo w posiadaniu oczu anioła, w ostateczności można
+nabyć ich protezę i próbować wypatrzyć, co tylko się da, to znaczy próbować *wyprowadzać
+dedukcyjnie* rozmaite *wnioski posługując się językiem teorii kategorii*.
 
 ## Tak się składa
 
