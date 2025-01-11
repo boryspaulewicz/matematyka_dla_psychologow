@@ -285,7 +285,7 @@ alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 [poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) [sześć
 *aksjomatów kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
 
-## Acha, fajnie, ale *po co*?
+## Acha, fajnie, ale *dlaczego*? I *po co*?
 
 Skoro zaczęłaś się już trochę oswajać z kategoryjnym punktem widzenia, przyszedł czas, żeby z tego
 skorzystać. Zgaduję, że w tym momencie aksjomaty kategorii kojarzą Ci się bardzo z konkretnymi
