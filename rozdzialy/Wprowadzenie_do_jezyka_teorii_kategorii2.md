@@ -427,10 +427,10 @@ I mam też taką nieśmiałą propozycję, żebyśmy podziękowali za coś *wsp�
 mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty" komu tam uznasz za
 stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej większości prawie w ogóle
 niczego się systematycznie nie uczą i często nawet niczego nie próbują zanotować, kiedy uczesniczą w
-dyskusjach "naukowych" albo słuchają wystąpień, że wielu z nich jest nadal na szczęście
-*zmuszonych*, w czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą
-zwykle nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla"
-jakiś okropnych, namolnych studentów. No więc za to, tylko krócej.
+dyskusjach "naukowych" albo słuchają wystąpień, wielu z nich jest nadal na szczęście *zmuszonych*, w
+czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą zwykle nie przynoszą
+im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla" jakiś okropnych,
+xnamolnych studentów. No więc za to, tylko krócej.
 
 Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
 pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
