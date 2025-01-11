@@ -33,9 +33,11 @@ jest przecież konieczna.
 większego znaczenia.)
 
 **Aktualności**: 11 stycznia. Dodałem właśnie nowy rozdział 21-15 pod tytułem [Wprowadzenie już na
-dobre do języka teorii kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Zapraszam
-do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych
-*krytycznych*.
+dobre do języka teorii
+kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Czytelniczki i czytelników,
+*którzy mają już za sobą co najmniej rozdziały od R4 do R8=R02, a także R19=R13* (który "się"
+niedawno znowu trochę zmienił) *i R20=R14*, zapraszam do testowania (!), zgłaszania trudności i w
+ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
