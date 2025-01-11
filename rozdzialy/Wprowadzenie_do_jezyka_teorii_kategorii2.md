@@ -376,7 +376,7 @@ musiałem). I do tego w zasadzie sprowadza się definicja produktu kategoryjnego
 definicja jest stosunkowo *trudna do zrozumienia*.
 
 Pisałaś o tego rodzaju funkcjach, tak samo nazywając je zresztą *projekcjami*, w komentarzu pod
-jednym z zrób-to-sama-rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego
+jednym z naszych zrób-to-sama-rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego
 odpowiednika iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych
 kategoryjnych strzałek, a tak naprawdę samej kategoryjnej operacji składania. Niestety, nie potrafię
 opisać żadnego prostego rozumowania, które prowadziłoby prostą drogą do tej niezbyt prostej
