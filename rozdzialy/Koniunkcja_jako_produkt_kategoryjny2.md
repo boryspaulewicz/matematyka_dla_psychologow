@@ -285,7 +285,7 @@ alternatywy*](https://pl.wikipedia.org/wiki/Alternatywa),
 [poznałaś](https://atkinsbookshelf.wordpress.com/tag/what-does-it-mean-to-miyagi-someone/) [sześć
 *aksjomatów kategorii*](https://pl.wikipedia.org/wiki/Teoria_kategorii).
 
-## Acha, fajnie, ale *dlaczego*? I *po co*?
+## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
 Skoro zaczęłaś się już trochę oswajać z kategoryjnym punktem widzenia, przyszedł czas, żeby z tego
 skorzystać. Zgaduję, że w tym momencie aksjomaty kategorii kojarzą Ci się bardzo z konkretnymi
@@ -293,44 +293,45 @@ przykładami zbiorów i funkcji, bo przecież od takich przykładów zaczęliśm
 tego znajomego kontekstu w dwóch krokach, a właściwie w dwóch
 [przelotach](https://pl.wikipedia.org/wiki/Przelot).
 
-Pokażę Ci, że pewne znane Ci już, ważne konstrukcje i własności *teoriomnogościowe*, takie jak
-element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
-podzbiór, podział zbioru (na wyczerpujące i rozłączne części czyli *pod*zbiory), zbiór pusty,
-singleton, iloczyn kartezjański i suma rozłączna zbiorów można jakby na nowo rozpoznać jako
-kategoryjne *struktury strzałkowe* i że to jest w pewnym technicznym sensie *lepszy*, bo *bardziej
-uniwersalny* sposób mówienia o tych konstrukcjach i własnościach. Niejako przy okazji zaczniesz też
-stopniowo w bardziej elastyczny sposób myśleć o "takosamości" matematycznych struktur. W
-międzyczasie (swoją drogą, co za słowo), skorzystamy z kilku sposród tych alternatywnych,
-uniwersalnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
+Pokażę Ci, że pewne znane Ci już, ważne obiekty, konstrukcje i własności *teoriomnogościowe*, takie
+jak element zbioru (sic!), tożsamość funkcji, izomorficzność, injektywność i surjektywność funkcji,
+podzbiór, podział zbioru (na wyczerpujące i rozłączne *pod*zbiory), zbiór pusty, singleton, iloczyn
+kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako kategoryjne *struktury
+strzałkowe* i że to jest w pewnym sensie *lepszy*, bo bardziej *uniwersalny* sposób mówienia o tych
+obiektach, konstrukcjach i własnościach. Niejako przy okazji zaczniesz też stopniowo w bardziej
+elastyczny sposób myśleć o "takosamości" matematycznych struktur. W międzyczasie (swoją drogą, co za
+tajemnicze słowo), skorzystamy z kilku sposród tych alternatywnych, uniwersalnych kategoryjnych
+definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
-**Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty izomorfizm
-między funkcjami z dowolnego singletona, na przykład ze zbioru `{∅}`, do `X`. Każda taka funkcja
-wskazuje przecież dokładnie jeden element `x` zbioru `X` i odwrotnie, każdy taki element odpowiada
-dokładnie jednej takiej funkcji. *Wszystko*, co można powiedzieć o elementach zbiorów można więc
-powiedzieć o takich funkcjach i vice versa.
+**Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty *izomorfizm*
+między funkcjami z dowolnego singletona, na przykład ze zbioru `{∅}`, do `X` i *elementami*
+należącymi do `X`. Każda taka funkcja wskazuje przecież dokładnie jeden element `x` zbioru `X` i
+odwrotnie, każdy taki element odpowiada dokładnie jednej takiej funkcji. *Wszystko*, co tylko da się
+powiedzieć o elementach zbiorów, można więc powiedzieć o takich funkcjach i vice versa.
 
 Na przykład, jeżeli `x ∈ X`, to istnieje *funkcja* `x`, a więc również strzałka w naszej kategorii,
 taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również literą `x` jest co prawda może
 trochę nonszalanckie, ale *nie* jest poważnym błędem, bo ta *decyzja* ma charakter *metajązykowy* i
 mimo pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu `x`, sposób użycia
 pozwoli nam zawsze jednoznacznie stwierdzić, czy chodzi o element zbioru, czy o funkcję. Niestety, w
-niektórych sytuacjach to może być jednak zbyt mylące, na przykład, gdyby chodziło o element będący
+niektórych sytuacjach to może być jednak zbyt mylące. Na przykład, gdyby chodziło o element będący
 liczbą `1`, to zapis `1(∅) = 1` mógłby sugerować, że mamy do czynienia z mnożeniem, a gdyby chodziło
 o wskazanie za pomocą funkcji z singletona elementu będącego zbiorem pustym, uzyskalibyśmy wyjątkowo
 dezorientujące zdanie ``∅(∅) = ∅``. Dlatego najlepiej korzystać z tej konwencji oznaczając elementy
-zbiorów zmiennymi, takimi jak na przykład `x`.
+zbiorów zmiennymi, takimi jak `x`.
 
 Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i w matematyce zresztą też)
 [*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
 oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
 pewne funkcje jako programy, tyle, że określonego rodzaju), ale jest przecież oczywiste, że ten sam
-manewr można zastosować, z tego samego powodu, to jest aby podkreślić jakieś głębsze podobieństwo
-albo bliski związek, do dowolnych stałych. A chcemy podkreślić ścisły związek między elementami
-zbioru `X` i tego rodzaju funkcjami, ponieważ - przynajmniej na tym etapie - chcemy, żeby różnica
-między tymi dwoma rodzajami obiektów stała się *mniej* widoczna. To jest więc kolejny przykład
-*celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama odgadnąć, co w tym
-kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się nie spieszymy. Na wypadek,
-gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je [tutaj].
+manewr można zastosować, z tego samego powodu (a dokładniej w tym samym celu) - to jest aby
+podkreślić jakieś głębsze podobieństwo albo bliski związek - do dowolnych stałych. A chcemy
+podkreślić ścisły związek między elementami zbioru `X` i tego rodzaju funkcjami, ponieważ -
+przynajmniej na tym etapie - chcemy, żeby różnica między tymi dwoma rodzajami obiektów stała się
+*mniej* widoczna. To jest więc kolejny przykład *celowej wieloznaczności* albo *wieloznaczności pod
+kontrolą*. Spróbuj sama odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że
+nigdzie się nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je
+[tutaj](Koniunkcja_jako_produkt_kategoryjny_element_x_jako_funkcja.md).
 
 **Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat `T`
 wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje
