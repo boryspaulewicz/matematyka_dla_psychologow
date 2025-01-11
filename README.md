@@ -218,7 +218,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R21 = R15 Wprowadzenie już na dobre do języka teorii kategorii](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
-Notatki całkiem już robocze, do których jednak można zaglądać:
+Notatki robocze do których można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
 
