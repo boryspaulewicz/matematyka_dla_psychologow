@@ -174,8 +174,10 @@ innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po
 definicji (liczba mnoga). Zaczniemy od ilustracji:
 
 ```lean
--- Używamy tutaj parametrów opcjonalnych, ponieważ Lean może je wywnioskować z pozostałych argumentów
--- aplikacji tej funkcji. Dzięki temu będziemy mogli (znacznie) mniej pisać.
+-- Używamy tutaj parametrów opcjonalnych, które wprowadzamy do definicji funkcji otaczając je nawiasami
+-- klamrowymi. *Możemy* tak zrobić, ponieważ Lean może je wywnioskować z pozostałych argumentów 
+-- aplikacji tej funkcji. *Chcemy*, żeby były opcjonalne, bo dzięki temu będziemy mogli później (znacznie)
+-- mniej pisać i kod będzie (znacznie) bardziej czytelny.
 def Zlozenie {X Y Z : Type} (f : X → Y) (g : Y → Z) : X → Z := 
   -- Tak wiem, ta zmiana kolejności jest irytująca.
   fun (x : X) => g (f x)
@@ -183,7 +185,8 @@ def Zlozenie {X Y Z : Type} (f : X → Y) (g : Y → Z) : X → Z :=
 -- Dla dowolnych *typów* X, Y, Z i V ...
 variable (X Y Z V : Type)
 
--- ... i funkcji f, g, h, które są kolejno parami składalne (wiesz o co mi chodzi, prawda?) ...
+-- ... i funkcji f, g, h, które są na mocy samej takosamości niektórych występujących w ich specyfikacjach
+-- typów, to jest typów Y i Z, kolejno parami składalne (wiesz o co mi chodzi, prawda?) ...
 variable (f : X → Y) (g : Y → Z) (h : Z → V) -- tak też można
 
 -- ... to ...
@@ -192,10 +195,10 @@ Zlozenie f (Zlozenie g h)
 -- ... redukuje się do tego ...
 fun (x : X) => (Zlozenie g h) (f x)
 
--- .. a to do tego ...
+-- .. a tamto do tego ...
 fun (x : X) => (fun (y : Y) => h (g y)) (f x)
 
--- .. a to do tego (powyżej jest jedna aplikacja, zauważyłaś?):
+-- .. a tamto do tego (tam jest jedna aplikacja, zauważyłaś?):
 fun (x : X) => h (g (f x)))
 
 -- Natomiast to ...
@@ -204,10 +207,10 @@ Zlozenie (Zlozenie f g)  h
 -- .. redukuje się do tego ...
 Zlozenie (fun (x : X) => g (f x)) h
 
--- ... a to do tego ...
+-- ... a tamto do tego ...
 fun (x : X) => h ((fun (x : X) => g (f x)) x)
 
--- .. a to do tego (bo powyżej też jest jedna aplikacja):
+-- .. a tamto do tego (bo tam też jest jedna aplikacja):
 fun (x : X) => h (g (f x))
 ```
 
@@ -238,11 +241,12 @@ example : (ID Y) ∘ f = f := by rfl
 example : f ∘ (ID X) = f := by rfl
 
 -- Przy okazji odkryliśmy więc, że wewnątrz teorii typów przez cały ten czas ukrywała się co najmniej jedna
--- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami.
+-- *kategoria*, a konkretnie kategoria typów typu Type i funkcji między tymi typami. Ale o tym, czy jest 
+-- (każda) kategoria, powiemy sobie nieco później.
 ```
 
-Pomijając chwilowy powrót do Leana, nadal z oddalenia widzimy (a tak naprawdę wiemy - bez zaglądania
-"do wnętrza funkcji"), że teoriomnogościowe identyczności są *elementami neutralnymi ze względu na
+Pomijając chwilowy powrót do Leana, z oddalenia widzimy więc (a tak naprawdę wiemy z definicji
+\{liczba mnoga\})), że teoriomnogościowe identyczności są *elementami neutralnymi ze względu na
 operację składania funkcji*. Można powiedzieć, że ze względu na operację składania istnieje tutaj
 nieskończenie wiele - bo dokładnie tyle, ile jest zbiorów - *zer* albo *jedynek*, zależnie od wyboru
 analogii między składaniem i operacjami dodawania lub mnożenia. To po pierwsze.
@@ -250,8 +254,8 @@ analogii między składaniem i operacjami dodawania lub mnożenia. To po pierwsz
 A po drugie, podobnie jak dodawanie i mnożenie liczb, bez zaglądania do struktury wewnętrznej
 funkcji wiemy, że *składanie funkcji jest łączne*, co znaczy, że zapisując złożenie więcej niż dwóch
 funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w jakiej *kolejności* będziemy
-*stosować operację składania* (nadal jednak w ogólnym przypadku ma oczywiście znaczenie, w jakiej
-kolejności podamy argumenty tej operacji).
+*stosować operację składania* (nadal jednak w ogólnym przypadku *ma* oczywiście znaczenie, *w jakiej
+kolejności podamy argumenty* tej operacji).
 
 "Podsumowując dotychczasowe rozważania" (co?!), z wysokości, na której się teraz znajdujemy i z
 której nie widać ani wewnętrznej struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych
