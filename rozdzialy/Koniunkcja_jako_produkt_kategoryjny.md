@@ -20,18 +20,18 @@ przeciwdziedziny. Dlatego dla każdego zbioru `X` możemy napisać `Id_X` i dlat
 *skrótowo* `Id`, wiemy, że istnieje dokładnie jeden zbiór, który jest zarówno dziedziną jak i
 przeciwdziedziną zapisanej w taki skrótowy sposób identyczności.
 
-Wiesz, kiedy dwie funkcje są *składalne* i wiesz, że dla każdej pary funkcji `f : X -> Y` i `g : Y
--> Z` istnieje *dokładnie jedna* funkcja `h : X -> Z`, która jest ich złożeniem, czyli jest (taką
-samą) funkcją (co) `(g o f) : X -> Z`, bo dla każdej konkretnej pary składalnych funkcji złożenie
-nie tylko istnieje, ale również "nie ma wyboru", o czym przekonałaś się rysując.
+Wiesz, kiedy dwie funkcje są *składalne* i wiesz, że dla każdej pary funkcji `f : X → Y` i `g : Y →
+Z` istnieje *dokładnie jedna* funkcja `h : X → Z`, która jest ich złożeniem, czyli jest (taką samą)
+funkcją (co) `(g o f) : X → Z`, bo dla każdej konkretnej pary składalnych funkcji złożenie nie tylko
+istnieje, ale również "nie ma wyboru", o czym przekonałaś się rysując.
 
-Wiesz poza tym, że dla każdej funkcji `f`, `Id o f = f = f o Id` (stosując skróty myślowe), bo
+Wiesz poza tym, że dla każdej funkcji `f`, `Id ∘ f = f = f ∘ Id` (stosując skróty myślowe), bo
 identyczności to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*) - zależnie od
 tego, czy skorzystamy z (luźnej) analogii do dodawania czy do mnożenia - ze względu na operację
 składania.
 
 Mogłabyś teraz sama udowodnić, rozwijając tylko definicję składania funkcji, że dla każdych *trzech*
-funkcji `f : X -> Y`, `g : Y -> Z` i `h : Z -> V` spełniony jest warunek `h o (g o f) = (h o g) o
+funkcji `f : X → Y`, `g : Y → Z` i `h : Z → V` spełniony jest warunek `h ∘ (g ∘ f) = (h ∘ g) ∘
 f`, który mówi, że tak jak dodawanie i mnożenie liczb, składanie funkcji jest operacją *łączną*. Ale
 może na wszelki wypadek ja to tu za Ciebie (i *dla* Ciebie) zrobię. Najpierw jednak proponuję, żebyś
 spróbowała zrobić to sama.
@@ -44,21 +44,21 @@ sytuacjach spokój, jest coś, co w gotowaniu nazywa się [mise en
 place](https://en.wikipedia.org/wiki/Mise_en_place). W tym przypadku to znaczy, że warto najpierw
 zapisać na kartce to, co *masz* i to, co *wiesz*. Masz to:
 
-Jakieś funkcje `f : X -> Y`, `g : Y -> Z` i `h : Z -> V` (a więc też oczywiście jakieś zbiory `X`,
+Jakieś funkcje `f : X → Y`, `g : Y → Z` i `h : Z → V` (a więc też oczywiście jakieś zbiory `X`,
 `Y`, `Z` i `V`).
 
 A wiesz (między innymi) to:
 
 Te trzy funkcje są kolejno parami składalne, a więc istnieją ich złożenia, które można zapisać jako
-`g o f` i `h o g`.
+`g ∘ f` i `h ∘ g`.
 
 Zdanie do udowodnienia dotyczy *równości funkcji*, a więc trzeba będzie skorzystać z ... kryterium
 równości funkcji, no bo z czego innego, a to kryterium mówi, że dwie funkcje są równe wtedy i tylko
 wtedy, gdy 1. mają tą samą dziedzinę i przeciwdziedzinę i 2. dla każdego elementu dziedziny zwracają
 ten sam element przeciwdziedziny. Wobec tego, żeby udowodnić cel (warto czasem próbować konstruować
-dowody od końca, pamiętasz?) `h o (g o f) = (h o g) o f` wystarczy udowodnić zdanie:
+dowody od końca, pamiętasz?) `h ∘ (g ∘ f) = (h ∘ g) ∘ f` wystarczy udowodnić zdanie:
 
-`∀ x ∈ X, (h o (g o f))(x) = ((h o g) o f)(x)`
+`∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`
 
 A żeby rozpocząć konstrukcję dowodu zdania zaczynającego się od *dla każdego* `x` *takiego, że ...*
 wystarczy założyć, że *mamy jakiś* `x` *taki, że ...*. Jakakolwiek próba zrobienia tego dowodu,
