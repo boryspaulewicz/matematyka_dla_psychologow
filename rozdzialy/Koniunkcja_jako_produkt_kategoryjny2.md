@@ -111,10 +111,12 @@ izomorfizm między zbiorami i identycznościami, a to z kolei znaczy, że zamias
 możemy równie dobrze mówić o identycznościach. Zresztą kto wie, może jeszcze z tego skorzystamy.
 
 Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest zawsze prawdą, że `Id ∘ f
-= f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający zdaniom `Id ∘ f = f` i `f =
-f ∘ Id`, gdzie pozwoliłem sobie na skrót myślowy i nie zaznaczyłem, że pierwsza i ostatnia
-identyczność są przyczepione do *potencjalnie* różnych punktów, jest spełniony, ponieważ gdybyś
-zmniejszyła swoją wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że:
+= f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający koniunkcji zdań `Id ∘ f = f`
+i `f = f ∘ Id` (a więc moglibyśmy go zapisać również jako `Id ∘ f = f ∧ f = f ∘ Id`, jednak wtedy
+trochę schowałaby się nam sugestia, że na mocy przemienności równości również `Id ∘ f = f ∘ Id`),
+gdzie pozwoliłem sobie na skrót myślowy i nie zaznaczyłem, że pierwsza i ostatnia identyczność są
+przyczepione do *potencjalnie* różnych punktów, jest spełniony, ponieważ gdybyś zmniejszyła swoją
+wysokość, (jak już wiesz z poprzedniego rozdziału) zobaczyłabyś, że:
 
 `∀ x ∈ X, (Id ∘ f)(x) = Id(f(x)) = f(x) = f(Id(x)) = (f ∘ Id)(x)`
 
