@@ -201,6 +201,9 @@ powiedziała na to? (bo mi się wydaje, że trudno to zrobić lepiej):
 fun (n : Nat) => n * n
 ```
 
+Tylko nie wklejaj tego akurat kodu do Leana, bo zobaczysz błąd. To jest poprawny *opis struktury
+funkcji*, ale to *nie* jest poprawny *samodzielny* fragment kodu (czyli term) w języku Lean.
+
 Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń (a dokładnie *termów
 złożonych*). Zgodzisz się chyba, że naturalnie byłoby oznaczać je w sposób, który mówi jaki jest typ
 argumentu (odpowiadający dziedzinie), jak i jaki jest typ rezultatu (odpowiadający
