@@ -193,8 +193,8 @@ przyporządkowuje *dokładnie jedną* wartość daną przez wyrażenie *x \* x*.
 Ponieważ to mają być jednak funkcje rozumiane jako *programy* (albo
 [algorytmy](https://pl.wikipedia.org/wiki/Algorytm)), chciałabyś też pewnie, żeby sposób ich
 zapisywania kojarzył się łatwo z *procesem przekształcania* i chciałabyś też może, żeby dało się w
-tym zapisie wyrazić (odpowiadający pojęciu dziedziny) wymagany *typ argumentu*. No to co byś wtedy
-spowiedziała na to? (bo mi się wydaje, że trudno to zrobić lepiej):
+tym zapisie wyrazić, odpowiadający pojęciu dziedziny, wymagany *typ argumentu*. No to co byś wtedy
+powiedziała na to? (bo mi się wydaje, że trudno to zrobić lepiej):
 
 ```lean
 -- (anonimowa) Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
