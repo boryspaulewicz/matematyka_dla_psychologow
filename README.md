@@ -219,6 +219,8 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R21 = R15 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
+R22 = R16 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
+
 Notatki robocze do których można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
