@@ -325,16 +325,17 @@ objaśnienia. Teraz pokażę Ci, w jaki sposób przebiega ewaluacja bardziej sko
 
 -- Drugi krok ewaluacji to odczepienie ciała:
 (fun (druga : Nat) => pierwsza + druga) 
--- i jednocześnie podstawianie argumentu 1 pod zmienną pierwsza, będącą parametrem ewaluowanej w tym kroku 
--- aplikacji. W ten sposób za każdym razem, gdy funkcja plus dostaje pierwszy argument (typu Nat), ta funkcja
--- tworzy nową funkcję albo nową wersję funkcji, którą można by tu nazwać wewnątrzną:
+-- i jednocześnie podstawienie argumentu 1 pod zmienną pierwsza, będącą parametrem ewaluowanej w tym
+-- kroku aplikacji. W ten sposób za każdym razem, gdy funkcja plus dostaje pierwszy argument
+-- (typu Nat), ta funkcja tworzy nową funkcję albo nową wersję funkcji, którą można by tu nazwać 
+-- wewnątrzną:
 (fun (druga : Nat) => 1 + druga) 2
 
--- Ponieważ uzyskujemy w ten sposób pewną aplikację, trzeci krok to też ewaluacja aplikacji, a więc kolejne
--- odczepienie ciała:
+-- Ponieważ uzyskujemy w ten sposób pewną aplikację, trzeci krok to też ewaluacja aplikacji, a więc
+-- kolejne odczepienie ciała:
 1 + druga
--- i jednocześnie podstawienie, tym razem argumentu 2 pod zmienną druga, będącą parametrem ewaluowanej w tym kroku
--- aplikacji:
+-- i jednocześnie podstawienie, tym razem argumentu 2 pod zmienną druga, będącą parametrem ewaluowanej
+-- w tym kroku aplikacji:
 1 + 2
 
 -- Ewaluacja postępuje w ten sam sposób do momentu, aż nie będzie nic więcej do zredukowania.
@@ -357,18 +358,16 @@ ciała:
 ```
 
 Czy widzisz, jak kolejne argumenty "wskakują" na właściwe miejsca w ciele funkcji? Mogę chyba już
-teraz wyjaśnić, że `1 + 2` jest rozpakowywane do aplikacji `Nat.add 1 2`, bo w tym kontekście `+` to
-tylko inny sposób zapisania dostępnej w Leanie funkcji `Nat.add`, która obsługuje dodawanie liczb
-naturalnych.
-
-Pokażę Ci jeszcze raz to samo, ale używając notacji, którą chętnie stosują matematycy. Dla
-uproszczenia pominę jednak typy parametrów.
+teraz wyjaśnić, że wyrażenie `1 + 2` jest rozpakowywane do aplikacji `Nat.add 1 2`, bo w tym
+kontekście `+` to tylko inny sposób zapisania dostępnej w Leanie funkcji `Nat.add`, która obsługuje
+dodawanie liczb naturalnych. Pokażę Ci jeszcze raz to samo, ale używając notacji, którą chętnie
+stosują matematycy. Dla uproszczenia pominę jednak typy parametrów.
 
 Anonimowe funkcje, takie jak `fun (moj_parametr : Nat) => moj_parametr + 2`, nazywamy również
 *λ-abstrakcjami*. Lean wie o tej konwencji i pozwala zamiast `fun` napisać `λ`. Jeżeli chcesz używać
 tej konwencji, możesz uzyskać tą grecką literę pisząc `\la`.
 
-Jeżeli zastosujemy uproszczoną (bo bez typów) notację matematyczną, gdzie zamiast `fun` będziemy
+Jeżeli zastosujemy uproszczoną (bo bez typowania) notację matematyczną, gdzie zamiast `fun` będziemy
 pisać *λ*, a zamiast `=>` będziemy pisać *kropkę*, to zobaczymy, że ewaluacja aplikacji anonimowej
 (bo bez nazwy "dodaj2") wersji funkcji `dodaj2`:
 
@@ -378,7 +377,7 @@ polega w pierwszym kroku na odczepeniu ciała, czyli części po kropce:
 
 *x + 2*
 
-i podstawieniu argumentu pod zmienną *x*, będącą parametrem tej λ-abstrakcji:
+i podstawieniu argumentu pod zmienną *x*, będącą parametrem aplikowanej λ-abstrakcji:
 
 *2 + 2*
 
@@ -391,8 +390,8 @@ też polega na takim samym odczepieniu ciała:
 *(λ y . x + y)*
 
 i podstawieniu argumentu pod zmienną *x*, będącą parametrem zewnętrznej λ-abstrakcji. W ten sposób z
-ciała zewnętrznej λ-abstrakcji powstaje nowa wersja funkcji *(λ y . x + y)*, w której zamiast *x*
-jest *1* i cała początkowa aplikacja zostaje zredukowana do postaci:
+ciała zewnętrznej λ-abstrakcji powstaje wyspecjalizowana wersja funkcji *(λ y . x + y)*, w której
+zamiast *x* jest *1* i cała początkowa aplikacja zostaje zredukowana do postaci:
 
 *(λ y . 1 + y) 2*
 
@@ -409,8 +408,11 @@ i jednocześnie podstawiamy za zmienną *y* argument *2*:
 Jeszcze raz to samo, ale tym razem bez komentarzy:
 
 *(λ x . (λ y . x + y)) 1 2*  
+
 *(λ y . 1 + y) 2*  
+
 1 + 2  
+
 3
 
 Rozumiesz już, że możemy w ten sposób definiować funkcje, które zachowują się jak funkcje
