@@ -301,7 +301,7 @@ aplikacji (czyli na `2`)? Bez nazywania tych dwóch rzeczy za pomocą innych sł
 mówić w sposób zrozumiały.
 
 ```lean
--- + to także funkcja, tylko taka, której apliację możemy zapisać w *notacji infiksowej*, czyli w stylu:
+-- + to także funkcja, tylko taka, której aplikację możemy zapisać w *notacji infiksowej*, czyli w stylu:
 -- argument1 funkcja argument2, na przykład pisząc 2 + 3.
 -- Lean na to pozwala, jeśli mu wytłumaczymy, co to znaczy. Akurat w przypadku funkcji + wie to z góry.
 
