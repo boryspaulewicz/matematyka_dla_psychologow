@@ -346,7 +346,7 @@ przynajmniej na tym etapie - chcemy, żeby różnica między tymi dwoma rodzajam
 coraz *mniej* widoczna. To jest więc kolejny przykład *celowej wieloznaczności* albo
 *wieloznaczności pod kontrolą*. Spróbuj sama odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x`
 i pamiętaj proszę, że nigdzie się nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych
-wyjaśnień, znajdziesz je [tutaj](Koniunkcja_jako_produkt_kategoryjny_element_x_jako_funkcja.md).
+wyjaśnień, znajdziesz je [tutaj](Element_x_jako_funkcja_z_singletona.md).
 
 **Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat duża
 litera `T` wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`,
