@@ -10,14 +10,14 @@ dość głęboko zapuszcza korzenie. Cała ziemia jest jego</em>.<br/>Fryderyk H
 ## O czym teraz będzie
 
 W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
-wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i zapisujemy *funkcje
-anonimowe*. Zwrócę Twoją uwagę na *naturalność i prostotę składni* tego języka, a także powiem
-trochę o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku proces *ewaluacji*, a
-dokładnie *ewaluacji aplikacji*. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten
-proces przebiega, pozwoli Ci lepiej zrozumieć *mechanikę* działania teorii typów, a dzięki temu czuć
-się bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe
-rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między
-innymi dzięki temu, że będę się *do znudzenia* powtarzał.
+wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
+*funkcje anonimowe*. Zwrócę Twoją uwagę na *naturalność i prostotę składni* tego języka, a także
+powiem trochę o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku proces
+*ewaluacji*, a dokładnie *ewaluacji aplikacji*. Mam nadzieję, że kilkukrotne i szczegółowe omówienie
+tego, jak ten proces przebiega, pozwoli Ci lepiej zrozumieć *mechanikę* działania teorii typów, a
+dzięki temu czuć się bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia
+i definiując nowe rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych
+trudności między innymi dzięki temu, że będę się *do znudzenia* powtarzał.
 
 Ponieważ najtrudniejszymi częściami obydwu rozdziałów są fragmenty dotyczące *curryingu*, to jest
 sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, to żeby
