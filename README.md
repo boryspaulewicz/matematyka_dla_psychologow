@@ -38,7 +38,7 @@ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md). Czytel
 niedawno znowu trochę zmienił) *i R20=R14*, zapraszam do testowania (!), zgłaszania trudności i w
 ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*. Przy okazji pragnę
 nadmienić odnośnie ewentualnego marketingu szeptanego, że można tą książkę śmiało odradzać innym, co
-jest o tyle ławe, że nie widać jej w wyszukiwarce.
+jest o tyle łatwe, że nie widać jej w wyszukiwarce.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
