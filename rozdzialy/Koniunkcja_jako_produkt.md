@@ -96,8 +96,8 @@ decyduje o tym, *że* to będzie prezent, czyli że to coś będzie *spełniało
 tym, *jaki* (konkretnie) to będzie prezent.
 
 Wystarczy, że *wskażemy* jako *nasze projekcje* funkcje `π₁ ∘ f` i `π₂ ∘ f` i natychmiast każdy
-element `V` będzie miał *pierwszy element* i *drugi element* i będzie unikalnie scharakteryzowany
-przez te dwie własności:
+element `V` będzie miał *pierwszy element* i *drugi element* i będzie *unikalnie scharakteryzowany*,
+czyli całkowicie opisany, przez te dwie *własności*:
 
 `(π₁ ∘ f)(1) = 1`, `(π₂ ∘ f)(1) = a`, a więc `1` jest jak `(1, a)`
 
@@ -108,13 +108,12 @@ przez te dwie własności:
 `(π₁ ∘ f)(4) = 2`, `(π₂ ∘ f)(4) = b`, a więc `4` jest jak `(2, b)`
 
 Wtedy natychmiast każdy element zbioru `V` *stanie się dla nas parą uporządkowaną elementów* `X` i
-`Y`, ponieważ *wszystkich* elementów `V` *będziemy mogli używać dokładnie tak samo, jak wszystkich
-elementów* `X × Y`. Nie będzie nic dziwnego w korzystaniu z tej możliwości, bo przecież to są *tylko
-symbole*, które mają *służyć nam* do jakich tylko chcemy *dobrze określonych celów*. Jeśli z tego
-skorzystamy, to będzie tak, jakbyśmy "zrobili" (za pomocą izomorfizmu) elementy iloczynu
-kartezjańskiego z elementów innego (izomorficznego) zbioru. Żeby skorzystać z tego rodzaju
-"wymienialności implementacji" iloczynu kartezjańskiego, musimy jedynie *wskazać jakikolwiek
-konkretny izomorfizm między tymi zbiorami, wszystko jedno w którą stronę* i *ogłosić*, jeżeli
-*mówimy do kogoś innego*, albo tylko *pamiętać*, jeżeli *mówimy do siebie*, że *przyjmujemy taką
-konwencję*.
+`Y`, ponieważ *wszystkich* elementów `V` *będziemy mogli używać tak samo, jak wszystkich elementów*
+`X × Y`. Nie będzie nic dziwnego w korzystaniu z tej możliwości, bo przecież to są *tylko symbole*,
+które mają *służyć nam* do jakich tylko chcemy *dobrze określonych celów*. Jeśli z tego skorzystamy,
+to będzie tak, jakbyśmy "zrobili" (za pomocą izomorfizmu) elementy iloczynu kartezjańskiego z
+elementów innego (izomorficznego) zbioru. Żeby skorzystać z tego rodzaju "wymienialności
+implementacji" iloczynu kartezjańskiego, musimy jedynie *wskazać jakikolwiek konkretny izomorfizm
+między tymi zbiorami, wszystko jedno w którą stronę* i *ogłosić*, jeżeli *mówimy do kogoś innego*,
+albo tylko *pamiętać*, jeżeli *mówimy do siebie*, że *przyjęliśmy taką konwencję*.
 
