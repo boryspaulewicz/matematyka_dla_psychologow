@@ -85,7 +85,7 @@ wskazane, żeby nie używać do tego symbolu równości (*=*), bo ten odgrywa a 
 rolę i mógłby się jeszcze później przydać do całkiem innych celów (to jest do oznaczania relacji
 równości, a nie relacji bycia wartością jakiejś stałej z definicji).
 
-Przydałoby się zatem jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
+Przydałoby się więc jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
 takie kojarzy się ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
 operacjach, które można wykonywać z użyciem danej stałej, kojarzył się na przykład z naklejeniem na
 coś etykiety. A najlepiej, żeby symbol oznaczający bycie treścią albo ciałem definicji przypominał
@@ -103,7 +103,7 @@ To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=
 *niech będzie* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku
 stałej o *nazwie* `dziesiec`. Każda stała ma jakiś *typ*. Na przykład, stała `dziesięć` ma typ `Nat`
 (`: Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść,
-to liczba (a właściwie *term*) `10`.
+to liczba, a właściwie *term* `10`.
 
 Będę czasem pisał tak, jakby fragment kodu taki jak `dziesiec : Nat` pełnił rolę *rzeczownika* - na
 przykład "stała `dziesiec : Nat` jest ..." to będzie inny sposób, żeby powiedzieć "stała `dziesiec`
@@ -112,12 +112,12 @@ sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu
 interpretacja będzie wynikała z kontekstu.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy` tak, żeby oznaczała
-liczbę `3`. Musisz tylko skorzystać z `dziesiec` jako przykładu, zamieniając dwa elementy
-definicji - nazwę stałej i jej wartość. Jeżeli zobaczysz fragment podkreślony czerwoną falką,
-spróbuj wywnioskować na czym polega problem z komunikatu o błędzie.
+liczbę `3`. Wystarczy skorzystać z `dziesiec` jako przykładu, zamieniając dwa elementy definicji -
+nazwę stałej i jej wartość. Jeżeli zobaczysz fragment podkreślony czerwoną falką, spróbuj
+wywnioskować na czym polega problem z komunikatu o błędzie.
 
-**Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną* zastępując `3` przez słowo
-`tszy` (bez cudzysłowów). Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
+**Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną*, zastępując `3` przez słowo
+`tszy`, bez cudzysłowów. Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
 ortograficzny. Umieść kursor na słowie `tszy` i odczytaj komunikat o błędzie widoczny po
 prawej. Powinnaś wtedy zobaczyć komunikat *unknown identifier 'tszy'*, co oznacza, że Lean nie wie,
 czym jest `tszy`. Przekonasz się w ten sposób, że błędy to tylko okazja, żeby Lean mógł się wykazać.
@@ -154,8 +154,8 @@ pomocą komendy `#check`:
 #check dziesiec
 ```
 
-Po wpisaniu powyższego kodu zobaczysz po prawej, że stała `dziesiec` ma typ `Nat` (jest liczbą
-naturalną).
+Po wpisaniu powyższego kodu zobaczysz po prawej, że stała `dziesiec` ma typ `Nat`, a więc jest
+liczbą naturalną.
 
 **Polecenie**: Za pomocą komendy `#check` sprawdź typ którejś ze zdefiniowanych dotąd stałych.
 
@@ -171,10 +171,10 @@ nawet lepiej.
 ## Funkcje w Leanie
 
 Stałe, które do tej pory zdefiniowaliśmy, nie pozwalają nam za wiele zrobić. Najważniejszą częścią
-programów komputerowych nie są tego rodzaju stałe, tylko *funkcje*, to jest algorytmy albo efektywne
-procedury obliczeniowe, które już "coś zrobić" mogą. Żeby stworzyć definicje funkcji będziemy jawnie
-podawać ich typ (inaczej jawnie typować), tak jak wcześniej wprost napisaliśmy, że stała `dziesiec`
-ma typ `Nat` (`dziesiec : Nat`).
+programów komputerowych nie są tego rodzaju stałe, tylko *funkcje* rozumiane jako algorytmy albo
+efektywne procedury obliczeniowe, które już "coś zrobić" mogą. Żeby stworzyć definicje funkcji
+będziemy jawnie podawać ich typ, inaczej jawnie typować, tak jak wcześniej wprost napisaliśmy, że
+stała `dziesiec` ma typ `Nat` (`dziesiec : Nat`).
 
 **Uczenie się przez wcielenie się w rolę**: Wyobraź sobie teraz, że masz zaprojektować również
 składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji*
