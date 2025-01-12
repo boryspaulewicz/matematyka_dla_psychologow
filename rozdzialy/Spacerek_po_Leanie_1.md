@@ -430,30 +430,30 @@ konstruowane z tego, co ta ostatnia dostaje jako argument. To znowu tylko ilustr
 def plus : Nat → (Nat → Nat) := 
     -- Funkcja "zewnętrzna":
     fun (pierwsza : Nat) =>
-        -- Funkcja "wewnętrzna", której ciało zmienia się na skutek podstawiania pod zmienną pierwsza, gdy 
-        -- ewaluujemy aplikację funkcji plus do pierwszego argumentu:
+        -- Funkcja "wewnętrzna", której ciało zmienia się na skutek podstawiania pod zmienną pierwsza,
+        -- gdy ewaluujemy aplikację funkcji plus do pierwszego argumentu:
         fun (druga : Nat) => pierwsza + druga
 ```
 
-Mam nadzieję, że jest dla Ciebie jasne, że *wewnętrzna* funkcja ma typ `Nat → Nat`, pobiera przecież
-jeden term typu `Nat` i zwraca term typu `Nat` (będący rezultatem dodawania). *Zewnętrzna* funkcja
-pobiera jeden term typu `Nat`, ale zwraca tamtą *funkcję*, a dokładniej jej odpowiednią wersję,
-dlatego właśnie typ stałej `plus` to `Nat → (Nat → Nat)`.
+Mam nadzieję, że jest dla Ciebie jasne, że *wewnętrzna* funkcja ma typ `Nat → Nat`, skoro pobiera
+term typu `Nat` i zwraca term typu `Nat` (będący w tym wypadku rezultatem dodawania). *Zewnętrzna*
+funkcja pobiera jeden term typu `Nat`, ale zwraca tamtą *funkcję*, a dokładniej jej odpowiednią
+wersję, dlatego właśnie typ stałej `plus` to `Nat → (Nat → Nat)`.
 
 Nawiasy w `Nat → (Nat → Nat)` nie są konieczne, bo w Leanie *strzałka wiąże z prawej*. Gdyby nie
 konwencja, którą stosuje Lean, zapis `Nat → Nat → Nat` byłby problematycznie wieloznaczny, ponieważ
-nie byłoby wiadomo, czy chodzi o `(Nat → Nat) → Nat` czy o `Nat → (Nat → Nat)`, a to *nie jest to
-samo*; `(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają *funkcje* typu `Nat
-→ Nat` w liczby naturalne, a `Nat → (Nat → Nat)` to typ (jakichkolwiek) funkcji, które
-przekształcają *liczby naturalne* w funkcje typu `(Nat → Nat)`.
+nie byłoby wiadomo, czy chodzi o `(Nat → Nat) → Nat` czy o `Nat → (Nat → Nat)`, a to *nie to samo*;
+`(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają (jakiekolwiek) *funkcje*
+typu `Nat → Nat` w liczby naturalne, a `Nat → (Nat → Nat)` to typ (jakichkolwiek) funkcji, które
+przekształcają dowolne *liczby naturalne* w funkcje typu `(Nat → Nat)`.
 
 Mówiąc ogólnie, to, że w Leanie strzałka wiąże z prawej oznacza, że dla dowolnych typów `A`, `B` i
 `C`, `A → B → C` Lean interpretuje jako `A → (B → C)`, a więc `Nat → Nat → Nat` interpretuje jako
 `Nat → (Nat → Nat)`. Zapisałem to wprost, nie polegając na tej konwencji i zamiast tego używając
 nawiasów, żebyś nie musiała się tego od razu domyślać.
 
-Lean pozwala na zapis skrótowy między innymi w takim oto stylu (to tylko alternatywne sposoby
-zapisania tej samej definicji):
+Lean pozwala na zapis skrótowy między innymi w takim stylu (to tylko *alternatywne sposoby*
+zapisania *tej samej* definicji) ...
 
 ```lean
 -- Nie kopiuj tego kodu do Leana, jeżeli nie usunęłaś wcześniej definicji funkcji plus. Lean nie pozwala 
@@ -461,47 +461,48 @@ zapisania tej samej definicji):
 def plus (pierwsza : Nat) (druga : Nat) : Nat := pierwsza + druga
 ```
 
-albo w takim:
+... albo w takim, ...
 
 ```lean
 -- Tego też nie kopiuj, jeżeli nie usunęłąś wcześniej definicji stałej plus. Tutaj nie podajemy jawnie typu
--- rezultatu (nie ma fragmentu : Nat przed symbolem :=), co nie jest błędem, bo da się wywnioskować, 
--- że rezultat musi mieć typ Nat, skoro jest sumą dwóch liczb naturalnych.
+-- rezultatu (nie ma fragmentu : Nat przed symbolem :=), co nie jest błędem, bo Lean może wywnioskować, 
+-- że rezultat musi mieć typ Nat, skoro jest sumą dwóch termów typu Nat.
 def plus (pierwsza : Nat) (druga : Nat) := pierwsza + druga
 ```
 
-a nawet w takim:
+... a nawet w takim, ...
 
 ```lean
--- Skoro parametr druga ma typ Nat i jest dodawany do parametru pierwsza, to parametr pierwsza musi mieć typ Nat.
+-- Skoro parametr druga ma typ Nat i jest dodawany do parametru pierwsza, to parametr pierwsza musi 
+-- mieć typ Nat.
 def plus (pierwsza) (druga : Nat) := pierwsza + druga
 ```
 
-albo w takim:
+... albo w takim, ...
 
 ```lean
 def plus (pierwsza : Nat) (druga) := pierwsza + druga
 ```
 
-ale w takim już *nie*, bo symbol `+` ma *w pewnym sensie* wiele definicji (dla różnych typów
+... ale w takim już *nie*, bo symbol `+` ma *w pewnym sensie* wiele definicji (dla różnych typów
 liczbowych, takich jak liczby naturalne, całkowite, wymierne i rzeczywiste) i widoczna poniżej, zbyt
 skrótowa wersja nie pozwala Leanowi wywnioskować, którą definicję wybrać:
 
 ```lean
--- Ta definicja jest zapisana zbyt skrótowo i dlatego *błędna*, bo nie pozwala Leanowi automatycznie wywnioskować
--- typu parametrów jak i rezultatu, a przez to nie pozwala wywnioskować, jakiej wersji dodawania (na przykład, dla 
--- liczb naturalnych czy może wymiernych) należy tu użyć:
+-- Ta definicja jest zapisana zbyt skrótowo i dlatego *błędna*, bo nie pozwala Leanowi automatycznie
+-- wywnioskować typu parametrów jak i rezultatu, a przez to nie pozwala wywnioskować, jakiej wersji
+-- dodawania (na przykład, dla liczb naturalnych czy może wymiernych) należy tu użyć:
 def plus (pierwsza) (druga) := pierwsza + druga
 ```
 
 Skrótowy zapis jest bardzo wygodny i często właśnie takiego zapisu będziemy używać, ale na tym
 etapie jest ważne, żebyś wiedziała, co takie skróty oznaczają. Nie musisz sobie o tym przypominać za
-każdym razem, gdy definiujesz stałe albo ich używasz, ale w pewnych sytuacjach ta wiedza będzie Ci
+każdym razem, kiedy definiujesz stałe albo ich używasz, ale w pewnych sytuacjach ta wiedza będzie Ci
 potrzebna.
 
-Pokażę Ci jeszcze w jaki sposób Lean interpretuje podawanie parametrów funkcji przed typem jej
-rezultatu, czyli przed "głównym" drukropkiem. Na prywatny użytek nazywam to "przestawialnością
-dwukropka" w definicjach funkcji (ilustracja):
+Pokażę Ci jeszcze w jaki sposób Lean interpretuje podawanie parametrów definiowanej funkcji przed
+typem jej rezultatu, czyli przed "głównym" drukropkiem. Na prywatny użytek nazywam to
+"przestawialnością dwukropka" w definicjach funkcji (ilustracja):
 
 ```lean
 -- Ta definicja ...
@@ -549,18 +550,19 @@ plus 3
 -- ... a więc do (anonimowej) funkcji, która do dowolnej liczby naturalnej dodaje 3.
 ```
 
-Nie możemy *ewaluować* takiej częściowej aplikacji, bo Lean nie potrafi bez naszej pomocy
-*wyświetlić* funkcji, która w ten sposób powstaje. Możemy jednak *zapisać* tą funkcję / rezultat
-częściowej aplikacji jako ciało definicji stałej, na przykład o nazwie `dodaj3`. Ta stała musi mieć
-wobec tego typ `Nat → Nat` (już wiesz, dlaczego ta stała musi mieć ten typ, prawda?):
+Nie możemy *ewaluować* takiej częściowej aplikacji, bo Lean *nie potrafi* bez naszej pomocy
+*wyświetlić struktury funkcji*, która w ten sposób powstaje. Możemy jednak *zapisać* tą funkcję /
+rezultat częściowej aplikacji jako ciało definicji stałej, na przykład o nazwie `dodaj3`. Ta stała
+będzie musiała mieć typ `Nat → Nat` (już wiesz, dlaczego ta stała będzie miała ten typ, prawda?):
 
 ```lean
--- Ten kod możesz skopiować, bo jest poprawny, zakładając, że stała plus jest zdefiniowana zgodnie z wcześniejszym 
--- poleceniem. W ten sposób dodaj3 staje się *funkcją, która powstaje z aplikacji funkcji plus do liczby 3*.
--- Ponieważ funkcja plus jest dwuargumentowa, aplikacja plus 3 "czeka" na drugi argument. Mówiąc ściślej,
--- ta aplikacja jest funkcją powstającą przez podstawienie liczby 3 pod zmienną pierwsza w "wewnętrznej" funkcji
+-- Ten kod możesz skopiować, bo jest poprawny, zakładając, że stała plus jest zdefiniowana zgodnie z
+-- wcześniejszym poleceniem. W ten sposób dodaj3 staje się *funkcją, która powstaje z aplikacji funkcji 
+-- plus do liczby 3*. Ponieważ funkcja plus jest dwuargumentowa, aplikacja plus 3 "czeka" na drugi
+-- argument. Mówiąc dokładniej, ta aplikacja jest funkcją powstającą przez podstawienie liczby 3 pod
+-- zmienną pierwsza w "wewnętrznej" funkcji ...
 -- fun (druga : Nat) => pierwsza + druga
--- czyli jest po prostu funkcją
+-- ... czyli jest funkcją:
 -- fun (druga : Nat) => 3 + druga
 def dodaj3 : Nat → Nat := plus 3
 
