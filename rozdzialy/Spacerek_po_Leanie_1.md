@@ -188,7 +188,7 @@ A "funkcje matematyczne" są często rozumiane jako "obiekty", które każdemu e
 *niekoniecznie innego* zbioru, nazywanego jej *przeciwdziedziną*. Na przykład, ("matematyczna")
 funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do zbioru liczb
 rzeczywistych (... jak również jej przeciwdziedziną) *każdej* liczbie *x* należącej do tego zbioru
-przyporządkowuje (dokładnie jedną) wartość daną przez wyrażenie *x \* x*.
+przyporządkowuje *dokładnie jedną* wartość daną przez wyrażenie *x \* x*.
 
 Ponieważ to mają być jednak funkcje rozumiane jako *programy* (albo
 [algorytmy](https://pl.wikipedia.org/wiki/Algorytm)), chciałabyś też pewnie, żeby sposób ich
