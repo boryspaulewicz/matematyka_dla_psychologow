@@ -17,7 +17,7 @@ dokładnie *ewaluacji aplikacji*. Mam nadzieję, że kilkukrotne i szczegółowe
 proces przebiega, pozwoli Ci lepiej zrozumieć *mechanikę* działania teorii typów, a dzięki temu czuć
 się bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe
 rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między
-innymi dzięki temu, że będę się *do znudzenia* powtarzał.
+innymi dzięki temu, że będę się *do znudzenia powtarzał*.
 
 Ponieważ najtrudniejszymi częściami obydwu rozdziałów są fragmenty dotyczące *curryingu*, to jest
 sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, to żeby
