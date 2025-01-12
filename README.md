@@ -339,6 +339,11 @@ dwudziestego, będącego krótkim wprowadzeniem do teorii mnogości, który podz
 doświadczeniami. Najwyraźniej bez większych trudności wykonał wszystkie zadania w tym rozdziale, a
 końcówkę określił nawet jako "banalną".
 
+Mai Jaskółowskiej, za entuzjastyczną reakcję po przeczytaniu rozdziału piątego i za podzielenie się
+wątpliwościami, które zainspirowały mnie, żeby napisać w tym rozdziale trochę więcej na temat
+różnicy między technicznymi znaczeniami słów "parametr" i "argument". Całkiem możliwe, że w ten
+sposób Maja sprawiła, że ten fragment będzie łatwiejszy do zrozumienia dla innych.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
