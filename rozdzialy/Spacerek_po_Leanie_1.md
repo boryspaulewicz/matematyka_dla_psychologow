@@ -298,7 +298,11 @@ moj_parametr + 2
 Czy widzisz, że warto tutaj użyć innej nazwy - *parametr* - na to, co pojawia się po słowie `fun`
 (czyli na `moj_parametr`) i innej - *argument* - na to, co pojawia się jako drugi term w tej
 aplikacji (czyli na `2`)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym
-mówić w sposób zrozumiały.
+mówić w sposób zrozumiały. A więc *parametry* są *własnościami* (albo częściami) *samych funkcji*, a
+*argumenty* są *własnościami aplikacji funkcji*. Funkcje mają (cały czas) określone (w ich
+definicjach) parametry i mają je niezależnie od tego, czy są kiedykolwiek do czegokolwiek
+aplikowane. Funkcje jako takie nie mają żadnych argumentów, bo te są tylko (odpowiednimi) częściami
+aplikacji (jakiś) funkcji, a nie częściami funkcji.
 
 ```lean
 -- + to także funkcja, tylko taka, której aplikację możemy zapisać w *notacji infiksowej*, czyli w stylu:
