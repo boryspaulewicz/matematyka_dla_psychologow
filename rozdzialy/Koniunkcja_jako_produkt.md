@@ -85,3 +85,36 @@ elementów* `X × Y`, to `1` będzie dla nas oznaczało `(1, a)`, `2` będzie oz
 dalej i nie będzie żadnych wątpliwości, o który element `X × Y` nam chodzi. To będzie więc takie
 wierne tłumaczenie w obie strony.
 
+Jak bardzo ten wybór konkretnego izomorfizmu pozwala traktować `V` jakby był takim samym zbiorem jak
+`X × Y`? Niemal całkowicie, a konkretnie, możemy traktować te dwa zbiory jakby *jedyną* różnicą
+między nimi było to, jakie elementy do nich należą. Ale przecież *to i tylko to decyduje o
+tożsamości zbioru*, a więc jak to niemal całkowicie? Doskonałe pytanie. To faktycznie decyduje o
+*tożsamości* zbioru, ale to *nie* decyduje o jego *roli*, to jest o *możliwych sposobach użycia
+zbioru*, a zbiory, tak jak *wszystkie bez wyjątku konstrukcje matematyczne czy formalne* to *nasze*
+(formalno-językowe i pojęciowe) *narzędzia*. Podobnie to, co konkretnie kupimy na prezent *nie*
+decyduje o tym, *że* to będzie prezent, czyli że to coś będzie *spełniało rolę prezentu*, tylko o
+tym, *jaki* (konkretnie) to będzie prezent.
+
+Wystarczy, że *wskażemy* jako *nasze projekcje* funkcje `π₁ ∘ f` i `π₂ ∘ f` i natychmiast każdy
+element `V` będzie miał *pierwszy element* i *drugi element* i będzie unikalnie scharakteryzowany
+przez te dwie własności:
+
+`(π₁ ∘ f)(1) = 1`, `(π₂ ∘ f)(1) = a`, a więc `1` jest jak `(1, a)`
+
+`(π₁ ∘ f)(2) = 2`, `(π₂ ∘ f)(2) = a`, a więc `2` jest jak `(2, a)`
+
+`(π₁ ∘ f)(3) = 1`, `(π₂ ∘ f)(3) = b`, a więc `3` jest jak `(1, b)`
+
+`(π₁ ∘ f)(4) = 2`, `(π₂ ∘ f)(4) = b`, a więc `4` jest jak `(2, b)`
+
+Wtedy natychmiast każdy element zbioru `V` *stanie się dla nas parą uporządkowaną elementów* `X` i
+`Y`, ponieważ *wszystkich* elementów `V` *będziemy mogli używać dokładnie tak samo, jak wszystkich
+elementów* `X × Y`. Nie będzie nic dziwnego w korzystaniu z tej możliwości, bo przecież to są *tylko
+symbole*, które mają *służyć nam* do jakich tylko chcemy *dobrze określonych celów*. Jeśli z tego
+skorzystamy, to będzie tak, jakbyśmy "zrobili" (za pomocą izomorfizmu) elementy iloczynu
+kartezjańskiego z elementów innego (izomorficznego) zbioru. Żeby skorzystać z tego rodzaju
+"wymienialności implementacji" iloczynu kartezjańskiego, musimy jedynie *wskazać jakikolwiek
+konkretny izomorfizm między tymi zbiorami, wszystko jedno w którą stronę* i *ogłosić*, jeżeli
+*mówimy do kogoś innego*, albo tylko *pamiętać*, jeżeli *mówimy do siebie*, że *przyjmujemy taką
+konwencję*.
+
