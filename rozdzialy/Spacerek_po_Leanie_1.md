@@ -305,9 +305,9 @@ mówić w sposób zrozumiały.
 -- argument1 funkcja argument2, na przykład pisząc 2 + 3.
 -- Lean na to pozwala, jeśli mu wytłumaczymy, co to znaczy. Akurat w przypadku funkcji + wie to z góry.
 
--- W końcu Lean rozpakowuje definicję funkcji + i stosuje ją do obydwu argumentów. Ten proces trwa aż do momentu,
--- gdy nie da się nic więcej zredukować. W ten sposób powstaje wynik dodawania i właśnie ten wynik pojawia się
--- jako rezultat, gdy wymuszamy ewaluację aplikacji dodaj2 2:
+-- W końcu Lean rozpakowuje definicję funkcji + i stosuje ją do obydwu argumentów. Ten proces trwa aż do 
+-- momentu, gdy nie da się nic więcej zredukować. W ten sposób powstaje wynik dodawania i właśnie ten
+-- wynik pojawia się jako rezultat, gdy wymuszamy ewaluację aplikacji dodaj2 2:
 #eval dodaj2 2 -- Kiedy kursor znajduje się w tej linijce, po prawej widać liczbę 4
 ```
 
