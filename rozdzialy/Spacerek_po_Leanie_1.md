@@ -230,13 +230,13 @@ W ten sposób możemy zdefiniować funkcję, która przyjmuje argument typu `Nat
 zwiększoną o *2*:
 
 ```lean
--- Nat → Nat oznacza typ funkcji, które pobierają argumenty typu Nat i zwracają rezultat typu Nat
+-- Nat → Nat oznacza typ funkcji, które pobierają dowolne argumenty typu Nat i zwracają rezultat
+-- typu Nat.
 def dodaj2 : Nat → Nat := 
     -- fun to słowo kluczowe i jednocześnie skrót od *function*. W Leanie oznacza *funkcję anonimową*,
     -- inaczej *λ-abstrakcję* (to tylko inna nazwa na to samo).
     fun (moj_parametr : Nat) => moj_parametr + 2
 ```
-
 
 **Polecenie**: Funkcję `dodaj2` można zastosować do dowolnej liczby naturalnej, w tym również do
 stałej `dziesiec`, bo ta stała ma taki sam typ, jak parametr funkcji `dodaj2`. Żeby to zrobić i
