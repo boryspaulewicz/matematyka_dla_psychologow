@@ -1,10 +1,10 @@
-Zacznijmy może jeszcze raz od początku. Skoro `f` i `g` to dwie składane funkcje, to wyrażenie `g o
-f` również oznacza pewną funkcję, a skoro funkcja `g o f` jest składalna z funkcją `h` (wiesz
-dlaczego, prawda?), to `h o (g o f)` też oznacza pewną funkcję, bo to znowu jest złożenie *dwóch*
+Zacznijmy może jeszcze raz od początku. Skoro `f` i `g` to dwie składane funkcje, to wyrażenie `g ∘
+f` również oznacza pewną funkcję, a skoro funkcja `g ∘ f` jest składalna z funkcją `h` (wiesz
+dlaczego, prawda?), to `h ∘ (g ∘ f)` też oznacza pewną funkcję, bo to znowu jest złożenie *dwóch*
 (składalnych) funkcji.
 
-Żeby udowodnić, że `h o (g o f) = (h o g) o f`, czyli, że lewa i prawa strona tej równości to ta(ka)
-sama funkcja, musimy udowodnić, że `∀ x ∈ X, (h o (g o f))(x) = ((h o g) o f)(x)`. Zakładamy więc
+Żeby udowodnić, że `h ∘ (g ∘ f) = (h ∘ g) ∘ f`, czyli, że lewa i prawa strona tej równości to ta(ka)
+sama funkcja, musimy udowodnić, że `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`. Zakładamy więc
 najpierw, że mamy *jakiś* `x ∈ X`, bo udowodnić coś dla *jakiegoś*, czyli *bliżej nieokreślonego*,
 czyli *arbitralnego* `x` znaczy dokładnie to samo, co udowodnić coś *dla każdego* `x`. Przecież
 jeżeli dowód działa dla `x ∈ X`, o którym *nic poza tym nie założyliśmy*, to znaczy, że działa *dla
@@ -16,15 +16,15 @@ Musimy teraz tylko rozwinąć definicję składania (bo nie ma tu żadnej innej 
 moglibyśmy rozwinąć) tyle razy, ile będzie trzeba, przekształcając lewą stronę równania (będącą
 wielokrotną aplikacją dwuargumentowej[^1] funkcji składania) do postaci ...
 
-`(h o (g o f))(x) = h((g o f)(x)) = h(g(f(x))`
+`(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))`
 
 ... i prawą stronę równania do postaci ...
 
-`((h o g) o f)(x) = (h o g)(f(x)) = h(g(f(x)))`
+`((h ∘ g) ∘ f)(x) = (h ∘ g)(f(x)) = h(g(f(x)))`
 
 ... żeby zobaczyć, że obie funkcje dają ten sam wynik `∀ x ∈ X`, a więc:
 
-`h o (g o f) = (h o g) o f`
+`h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
 **Sugestia**: Jeżeli jeszcze Ci się to nie udało, to może spróbuj teraz zrobić sama coś podobnego na
 kartce, jak najmniej tu zaglądając?
@@ -48,9 +48,9 @@ Gdybyśmy się teraz skupili na samych funkcjach i na tym, o czym mówiliśmy do
 można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywiste
 skróty myślowe - jednym podwójnym równaniem i jednym pojedynczym:
 
-1. `Id o f = f = f o Id`
+1. `Id ∘ f = f = f ∘ Id`
 
-2. `h o (g o f) = (h o g) o f`
+2. `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
 ## Pora na *prawdziwy* [odlot](https://pl.wikipedia.org/wiki/Odlot_(film_2009))
 
@@ -365,7 +365,8 @@ takich zbiorach, są fałszywe.
 
 **Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
 b}`. Wtedy *każdy* element zbioru `X × Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
-jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to są przecież dwie *własności*, a więc pewne *funkcje* tych elementów. Czy widzisz, że na przykład element ...
+jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to są przecież dwie
+*własności*, a więc pewne *funkcje* tych elementów. Czy widzisz, że na przykład element ...
 
 `(2, a)`
 
