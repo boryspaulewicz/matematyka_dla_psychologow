@@ -208,7 +208,7 @@ Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń (a d
 złożonych*). Zgodzisz się chyba, że naturalnie byłoby oznaczać je w sposób, który mówi jaki jest typ
 argumentu (odpowiadający dziedzinie), jak i jaki jest typ rezultatu (odpowiadający
 przeciwdziedzinie), a przy tym kojarzy się łatwo z pojęciami przekształcania i
-przyporządkowywania. To może tak? (nie wklejaj tego do Leana, to tylko ilustracja)
+przyporządkowywania. To może tak? (tego też nie wklejaj tego do Leana, to tylko ilustracja):
 
 ```lean
 -- Typ funkcji, które w jakiś sposób przekształcają liczby naturalne w liczby naturalne
