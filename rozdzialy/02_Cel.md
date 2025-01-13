@@ -385,8 +385,8 @@ nie zostały w ogóle za ten niewdzięczny trud wynagrodzone i które uznały, z
 powodów, że tekst można opublikować. Ewentualna krytyka, do której szczerze zachęcam, będzie musiała
 mieć również charakter *publiczny*.
 
-Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*. A mówiąc dokładniej, od matematyki na
-poziomie *szkoły podstawowej*.
+Myślę, że najlepiej będzie, jeśli zaczniemy od *podstaw*. A mówiąc dokładniej, od *matematyki na
+poziomie szkoły podstawowej*.
 
 ### Przypisy
 
