@@ -1,4 +1,4 @@
-# Co mo¿na z t± ksi±¿k± zrobiæ?
+# Co mo¿na z t± ksi±¿k± zrobiæ
 
 Wiem, ¿e zrobisz z t± ksi±¿k± co zechcesz, ale i tak Ci co¶ zasugerujê. Na podstawie lektur i
 w³asnego do¶wiadaczenia mogê stanowczo stwierdziæ, ¿e uwa¿ne czytanie lub s³uchanie z jako takim

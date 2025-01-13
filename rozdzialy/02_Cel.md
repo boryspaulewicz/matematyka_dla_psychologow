@@ -1,4 +1,4 @@
-# Do *czego* autor zmierza?!
+# Do czego autor zmierza
 
 Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w planowanej *drugiej*
 części. Całkiem możliwe, że większość tematów, o których tu piszę, może nie być zrozumiała dla osób,

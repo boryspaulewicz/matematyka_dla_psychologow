@@ -1,4 +1,4 @@
-# Sk±d siê ta ksi±¿ka wziê³a?
+# Sk±d siê ta ksi±¿ka wziê³a
 
 Ta ksi±¿ka by³a najpierw krótkim skryptem dla studentów. Planuj±c æwiczenia do kursu neuronauka i
 psychologia poznawcza, zapisa³em w sylabusie, ¿e na zajêciach dotycz±cych teorii normatywnych
