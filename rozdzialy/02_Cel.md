@@ -116,7 +116,7 @@ bo czemu miałoby to mieć znaczenie? Gdyby okazało się, że Twoja babcia ma c
 na interesujący z naukowego punktu widzenia temat, to chyba wypadałoby potraktować Ją
 poważnie. Gdyby Twoja (albo już niestety nieżyjąca moja) babcia potrafiła dobrze uzasadnić swoje
 wnioski, to te wnioski powinny być traktowane tak samo jak uzasadnione wnioski pracownika
-naukowego. Ja tak w każdym razie sądzę.
+naukowego.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
