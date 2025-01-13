@@ -267,7 +267,39 @@ funkcję w tym stopniu. Wszystko pełni jednocześnie nieskończenie wiele funkc
 nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwiązanie jakiegoś
 zadania.
 
-W ten sposób *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
+Wreszcie można to powiedzieć również tak: W (moim zdaniem) arcydziele dydaktycznym [*Reinforcement
+Learning: An
+Introduction*](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)[^7],
+[Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton) i
+[Barto](https://en.wikipedia.org/wiki/Andrew_Barto) zaproponowali piękną, elegancką i abstrakcyjną
+definicję *chcenia* (niekoniecznie *czegoś*) jako uczenia się, rozumianego jako taki sposób zmiany
+reguły działania na podstawie przebiegu interakcji ze środowiskiem, którego asymptotycznym
+rezultatem jest maksymalizacja oczekiwanej skumulowanej nagrody (czyli w mojej terminologii
+oczekiwanej skumulowanej wartości jakiejś funkcji oceny), inspirując się, co obaj autorzy [mówią
+wprost](http://incompleteideas.net/book/first/ebook/node12.html), pomysłami takich psychologów jak
+[Edward Thorndike](https://it.wikipedia.org/wiki/Edward_Lee_Thorndike) czy
+[Rescorla](https://en.wikipedia.org/wiki/Robert_A._Rescorla) i
+[Wagner](https://en.wikipedia.org/wiki/Allan_R._Wagner). 
+
+Sutton i Barto opisują w tej książce ogólny problem uczenia się ze wzmonieniem i przedstawiają tam
+między innymi, głęboko teoretycznie uzasadnioną i znakomicie radzącą sobie z wieloma obserwowanymi
+wzorcami reagowania, uogólnioną wersję niezwykle ważnego dla psychologii behawioralnej i poznawczej,
+jak również dla sztucznej inteligencji (patrz [*reguła
+delty*](https://en.wikipedia.org/wiki/Delta_rule)) [modelu warunkowania
+Rescorli-Wagnera]((https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model)), rozumianego
+zresztą przez Rescorlę i Wagnera zadanio-centrycznie jako przybliżone rozwiązanie pewnego
+uniwersalnie ważnego dla zwierząt problemu predykcji. Tym samym *prawie* udało się Suttonowi i Barto
+poprawnie zdefiniować formalnie ogólnie pojęcie działania celowego.
+
+Funkcja nagrody, czy też związana z nią funkcja wartości, *nie muszą* a nawet *nie powinny* być
+jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem, po prostu dlatego, że
+*implementacja rozwiązania nigdy nie jest doskonała*. Tego rodzaju funkcja musi być co prawda obecna
+przynajmniej niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie zadania*. Funkcję nagrody,
+wartości, czy oceny należy więc *oderwać od podmiotu, agenta, zachowania, czy wytworu działania
+celowego*, rozpoznając w niej dzięki temu *arbitralny wybór celu hipotetycznego zewnętrznego
+obserwatora*.
+
+W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
 Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru
 psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha* jest zwykle
@@ -402,3 +434,7 @@ poziomie *szkoły podstawowej*.
     poznawcza, za wyjątkiem skromnej liczby często niezbyt zresztą zaskakujących zastosowań, jak
     dotąd nadaje się przede wszystkim do *pisania kolejnych artykułów* i pozyskiwania na potrzeby
     realizacji tego etycznie wątpliwego celu *niemałych*, prawie zawsze *publicznych pieniędzy*.
+
+[^7]: Polecam jednak na początek raczej znacznie krótsze [*pierwsze*
+    wydanie](http://incompleteideas.net/book/first/ebook/the-book.html), na którym zresztą z
+    radością "zjadłem zęby" w trakcie pisania doktoratu.
