@@ -435,6 +435,6 @@ poziomie *szkoły podstawowej*.
     dotąd nadaje się przede wszystkim do *pisania kolejnych artykułów* i pozyskiwania na potrzeby
     realizacji tego etycznie wątpliwego celu *niemałych*, prawie zawsze *publicznych pieniędzy*.
 
-[^7]: Polecam jednak na początek raczej znacznie krótsze [*pierwsze*
-    wydanie](http://incompleteideas.net/book/first/ebook/the-book.html), na którym zresztą z
-    radością "zjadłem zęby" w trakcie pisania doktoratu.
+[^7]: Polecam (gorąco, bo to naprawdę znakomita książka) na początek raczej znacznie krótsze
+    [*pierwsze* wydanie](http://incompleteideas.net/book/first/ebook/the-book.html), na którym
+    zresztą z radością "zjadłem zęby" w trakcie pisania doktoratu.
