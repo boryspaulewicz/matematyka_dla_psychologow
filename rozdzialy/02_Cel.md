@@ -232,9 +232,10 @@ procesu. Odkryjemy też, że zawsze z konieczności niepełne *wcielenie się w 
 Formalny język, który będzie oparty na wspomianej definicji zadania, będzie się nadawał do stawiania
 pytań dotyczących *czegokolwiek*, co tylko można nazwać zachowaniem, narzędziem, albo artefaktem, w
 tym również do formułowania pytań dotyczących dowolnych języków, takich jak na przykład dowolne
-języki programowania czy dowolne teorie matematyczne. A na sformułowane w ten sposób pytania będzie
-można poszukiwać odpowiedzi posługując się dedukcją, ewentualnie - jeśli pytanie będzie miało
-charakter empiryczny - zakładając jako aksjomaty jakieś dane.
+języki programowania czy dowolne teorie matematyczne. To oznacza również, że rachunek zachowania
+będzie można stosować do niego samego. A na sformułowane w tym języku pytania będzie można
+poszukiwać odpowiedzi posługując się dedukcją, traktując ewentualnie jako aksjomaty - jeśli pytanie
+będzie miało charakter empiryczny - jakieś dane.
 
 Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
