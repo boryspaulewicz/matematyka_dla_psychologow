@@ -189,8 +189,8 @@ zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obs
 cel będę traktował jako własność *względną*. Brzmi to może abstrakcyjnie, ale chodzi tu w istocie o
 tak przyziemne sprawy jak fakt, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
 "tak nie wolno" albo "nie wypada", czy nawet "muszę się w tej chwili napić kawy", nieuchronnie
-odnosimy się do takiej preferencji, *niekoniecznie* traktując ją wtedy jak *swoją* (albo *tylko*
-swoją).
+odnosimy się do takiej preferencji, *niekoniecznie* traktując ją wtedy jak *swoją* albo *tylko*
+swoją.
 
 Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z pozoru paradoksalnie -
 *funkcjonalizmem obiektywnym*. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia,
