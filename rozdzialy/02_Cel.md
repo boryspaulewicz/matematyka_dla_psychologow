@@ -223,16 +223,26 @@ wyrażenia formalnie i wprost pytań dotyczących tego,
 
 4. Jak i w jakim stopniu można sprawić, żeby zachodziło $Z$. 
 
-gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. Uzyskamy w ten sposób uogólnioną
-wersję [obliczalności](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), a dokładniej
-*stopniowalną obliczalność przyczynowo-[teleologiczną](https://pl.wikipedia.org/wiki/Teleologia)* i
-tym samym uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne wymiary, o wymiar
-czwarty i *ostatni*, dzieki któremu ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie
-wszystkie te cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy *Kogoś, kto
-właściwie nie istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością opisywanego
-procesu. Odkryjemy też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest procesem
-*społecznym*, w którym podmiotowość jest nieustannie *re-kontruowana* w ramach procesu uczenia
-*się*, polegającego na abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym dialogu*.
+gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. Można powiedzieć, że w ten sposób
+zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl) -
+wyrazimy formalnie pytanie *jak coś można zrobić*. Albo można powiedzieć, że powtórzymy w ten sposób
+za genialnym [Davidem Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)),
+jednocześnie go poprawiając, że zrozumienie algorytmu *jako algorytmu* jest *tylko wtedy możliwe*,
+gdy mamy *najpierw* określony *jakikolwiek cel*, który ten być może algorytm *mógłby* realizować. A
+ponieważ fizyczna implementacja nigdy nie jest niezawodna, zamiast mówić o *trzech* poziomach
+analizy będziemy mówić o *dwóch*, to jest o poziomach teleologicznym i przyczynowo-stochastycznym,
+poziom algorytmiczny traktując jako wygodną, ale jednak drugorzędną, bo nierealistyczną idealizację.
+
+Uzyskamy w ten sposób uogólnioną wersję
+[obliczalności](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), a dokładniej *stopniowalną
+obliczalność przyczynowo-[teleologiczną](https://pl.wikipedia.org/wiki/Teleologia)* i tym samym
+uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i
+*ostatni*, dzieki któremu ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te
+cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy *Kogoś, kto właściwie nie
+istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością opisywanego procesu. Odkryjemy
+też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest procesem *społecznym*, w
+którym podmiotowość jest nieustannie *re-kontruowana* w ramach procesu uczenia *się*, polegającego
+na abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym dialogu*.
 
 Formalny język, który będzie oparty na wspomianej definicji zadania, będzie się nadawał do stawiania
 pytań dotyczących *czegokolwiek*, co tylko można nazwać zachowaniem, narzędziem, albo artefaktem, w
@@ -314,15 +324,39 @@ czym zresztą wspominają[^1], jakby mimochodem, autorzy niektórych współczes
 dotyczących modelowania równań strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH)),
 teoria wnioskowania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich tego
-rodzaju modeli. Ten sam wskaźnik ma jednak zarazem oczywisty sens z perspektywy zadanio-centrycznej:
-Ponieważ, jak łatwo się przekonać przyglądając się [*formalnej
+rodzaju modeli. 
+
+Ten sam wskaźnik ma jednak zarazem oczywisty sens z perspektywy zadanio-centrycznej: Ponieważ, jak
+łatwo się przekonać przyglądając się [*formalnej
 definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to nic innego jak pewna
 miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to skoro pozycje
 testowe są *zawsze blisko związane treściowo*, można tą miarę interpretować jako co prawda
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
-zadanie udzielenia odpowiedzi na pozycje testowe*.
+zadanie udzielenia odpowiedzi na pozycje testowe*. Zobaczymy, że z tej perspektywy centralny pomysł
+Lorda i Novicka, leżący u podstaw [klasycznej teorii
+testów](https://en.wikipedia.org/wiki/Classical_test_theory), polegający na [*definicyjnym
+utożsamieniu*](https://www.cambridge.org/core/books/measuring-the-mind/1DB84F33B196C4F2658209B7BC8806E1)
+wartości mierzonej przez test z czysto statystyczną przecież [wartością
+oczekiwaną](https://pl.wikipedia.org/wiki/Warto%C5%9B%C4%87_oczekiwana) wyniku testu, chociaż
+absurdalny jako podstawa (nieosiągalnej) *przyczynowej* teorii pomiaru psychologicznego, jest jednak
+w innym, właściwym znaczeniu uzasadniony, ponieważ pozwala rozumieć wynik testu psychometrycznego
+jako *próbkę względnie dobrze określonego rodzaju zachowania*. 
 
-[Nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6] wtedy
+Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
+testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
+20tych ubiegłego wieku](https://psycnet.apa.org/record/1925-16042-001), jest tylko pozornie bardziej
+realistyczną, bo tylko bardziej adekwatną *opisowo* - a dokładaniej *statystycznie* - alternatywą
+dla klasycznej teorii testów i w zasadzie *nic ważnego nie wnosi* do teorii pomiaru
+psychologicznego, a nie wnosi, bo *nie może*. Wobec wszystkich modeli wywodzących się z teorii
+odpowiedzi na pozycje testowe, tak samo jak wobec wszelkich rzekomych poznawczych i nie tylko takich
+modeli *procesu reagowania*, zastosujemy ten sam prosty meta-teoretyczny manewr, polegający na
+wyprowadzeniu dedukcyjnie z interpretacji strukturalnej tych modeli *absurdalnych* konsekwencji
+*kontrfaktycznych* i ten manerw pozwoli nam za każdym razem wskazać to samo fundamentalne źródło
+problemu, jaką będzie nieunikniona przepaść między praktycznie osiągalną wymiarowością danych, a
+więc też złożonością identyfikowalnych modeli strukturalnych i efektywną złożonością procesu
+reagowania zwierząt.
+
+[Nie będziemy więc](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6] wtedy
 próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
 wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
 *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji
