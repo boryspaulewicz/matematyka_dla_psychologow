@@ -193,27 +193,79 @@ Skorzystamy teraz z dopiero co wprowadzonej definicji produktu kategoryjnego, ż
 temat *wszystkich możliwych implementacji produktu*, a więc między innymi również na temat iloczynów
 kartezjańskich zbiorów. Przyjmiemy, że mamy jakieś (a więc to będzie dowód zdania zaczynającego się
 od *Dla każdego*) dwa, niekoniecznie różne produkty jakiś punktów `X` i `Y` i - żeby uprościc
-notację jak również podkreślić, że całkowicie ignorujemy ewentualną wewnętrzną strukturę punktów i
-strzałek - oznaczmy je jako `A` i `A'`. 
+notację, jak również podkreślić, że całkowicie ignorujemy ewentualną wewnętrzną strukturę tego, co
+mogłyby oznaczać punkty i strzałki - oznaczmy je jako `P` i `P'` (bo to będą *p*rodukty).
 
 Jak już wiesz, gdy nazywamy jakieś punkty produktami, nie chodzi nam tak naprawdę o te punkty, tylko
-o pewne specjalne pary współźródłowych strzałek, które ze względu na operację składania samych
-strzałek zachowują się jak projekcje iloczynu kartezjańskiego. Zgodnie z przyjętą właśnie
-(niejawnie) konwencją, polegającą na dodawaniu apostrofu żeby oznaczyć drugi, potencjalnie ten sam
-produkt, będziemy mówić odpowiednio o kategoryjnych strzałkach-projekcjach:
+o pewne specjalne pary współźródłowych strzałek, które ze względu na operację składania zachowują
+się tak samo jak projekcje iloczynu kartezjańskiego. Zgodnie z przyjętą właśnie (niejawnie)
+konwencją, polegającą na dodawaniu apostrofu żeby oznaczyć drugi (potencjalnie ten sam) produkt,
+będziemy tak samo mówić o kategoryjnych strzałkach-projekcjach:
 
-`π₁ : A → X` i `π₂ : A → Y`
+`π₁ : P → X` i `π₂ : P → Y`
 
-`π₁' : A' → X` i `π₂' : A' → Y`.
+`π₁' : P' → X` i `π₂' : P' → Y`.
 
-**Rysunek 1**: `Narysuj` proszę `Punkt A`, a o dobry krok pod nim `Narysuj (Punkt A')`. Na wysokości
-gdzieś pomiędzy punktami `A` i `A'` `Narysuj` po lewej `Punkt X` a po prawej `Punkt Y` i dodaj, jako
+**Rysunek 1**: `Narysuj` proszę `Punkt P`, a o dobry krok pod nim `Narysuj (Punkt P')`. Na wysokości
+gdzieś pomiędzy tymi punktami `Narysuj` po lewej `Punkt X` a po prawej `Punkt Y` i dodaj, jako
 strzałki oznaczone odpowiednimi nazwami, wszystkie cztery projekcje, uważając, żeby apostrofy
-pojawiły się tam gdzie trzeba, czyli tylko w dolnej części tego rysunku i nie przy literach `X` i
-`Y`.
+pojawiły się tam, gdzie trzeba, czyli tylko w dolnej części tego rysunku, ale nie przy literach `X`
+i `Y`. Dodaj też proszę pętle strzałek identycznościowych zawiniętych przy `P` i `P'` i oznacz je
+obie jako `Id`. Co prawda nie *musimy* nigdy rysować takich strzałek, bo *wiemy*, że każdy
+kategoryjny punkt ma taką strzałkę, ale tym razem to się do czegoś przyda.
 
-Założyliśmy, że te dwie pary strzałek są w naszej bliżej nieokreślonej kategorii produktami tych
-samych dwóch punktów `X` i `Y`. Zgodnie z definicją produktu kategoryjnego, dla każdej pary
-współźródłowych strzałek do `X` i `Y` istnieje dokładnie jedna strzałka do `A'`, z której można
-zrekonstruować te dwie strzałki składając ją z projekcjami `A'`. Czy widzisz na swoim rysunku, że
-już w tym momencie *mamy* dwie współźródłowe strzałki do `X` i `Y`, które nie są projekcjami `A'`?
+Założyliśmy, że te dwie pary poziomych strzałek są w naszej bliżej nieokreślonej kategorii
+produktami tych samych dwóch punktów `X` i `Y`. Zgodnie z definicją produktu kategoryjnego, dla
+każdej pary współźródłowych strzałek do `X` i `Y` istnieje dokładnie jedna strzałka do `A'`, z
+której można zrekonstruować te dwie strzałki składając ją z projekcjami `A'`. Czy widzisz na swoim
+rysunku, że już w tym momencie *mamy* dwie współźródłowe strzałki do `X` i `Y`, które nie są
+projekcjami `A'`? So nimi przecież projekcie produktu `A`!
+
+Z definicji produktu kategoryjnego wynika, że istnieje w tej sytuacji strzałka `f`, o której wiesz
+(jeżeli to jeszcze pamiętasz), że `π₁' f = π₁` i `π₂' f = π₂`. A ponieważ istnieje dokładnie jedna
+taka strzałka, to taka strzałka `f` jest *funkcją* (albo *własnością*) pary współźródłowych strzałek
+`π₁` i `π₂`, wobec czego możemy ją oznaczyć również jako `⟨π₁, π₂⟩`. Dlatego `Narysuj` proszę tą
+strzałkę, ale tak, żeby była wygięta w łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie
+trzeba tam zmieścić jeszcze jedną analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą
+strzałkę z lewej jako `⟨π₁, π₂⟩`. Takie strzałki my będziemy nazywać *produktami strzałek*, chociaż
+oficjalnie nazywamy je [*produktami
+morfizmów*](https://pl.wikipedia.org/wiki/Produkt_(teoria_kategorii)).
+
+Czy widzisz, że istnieje również analogiczna unikalna strzałka w drugą stronę? Narysuj ją proszę w
+podobny sposób, tylko tak, żeby tworzyła łuk wygięty w drugą stronę i oznacz ją z prawej jako `⟨π₁',
+π₂'⟩`. Oto wszystko, co na razie wiemy (tylko zakładając aksjomaty kategorii i przyjmując definicję
+produktu) o tych dwóch strzałkach:
+
+1. `π₁' ⟨π₁, π₂⟩ = π₁` i `π₂' ⟨π₁, π₂⟩ = π₂`
+
+2. `π₁ ⟨π₁', π₂'⟩ = π₁'` i `π₂ ⟨π₁', π₂'⟩ = π₂'`
+
+Jeżeli to dla Ciebie w tym momencie trochę za wiele robaczków, to pamiętaj, że zawsze możesz
+próbować sobie uprościć zapis algebraiczny wprowadzając tymczasowe definicje, na przykład tak ...
+
+`f := ⟨π₁, π₂⟩`
+
+`g := ⟨π₁', π₂'⟩`
+
+... i wtedy będziesz mogła zapisać to samo tak:
+
+1. `π₁' f = π₁` i `π₂' f = π₂`
+
+2. `π₁ g = π₁'` i `π₂ g = π₂'`
+
+Domyślam się, że to może być dezorientujące, bo posługujemy się tutaj algebrą i diagramem
+maksymalnie abstrakcyjnie, w oderwaniu od jakichkolwiek konkretnych przykładów (implementacji
+jakiejś) kategorii. Niestety, w tym momencie nie mogę Ci pomóc inaczej niż sugerując, żebyś
+potraktowała to, co teraz robimy jak *grę*, która nie musi *w tym momencie* mieć *jakiegokolwiek
+sensu*. Jeśli tylko uda Ci się tak do tego podejść, to będziesz mogła się skupić na czysto
+mechanicznych operacjach, które będą tylko trochę bardziej skomplikowane niż te, które wykonywałaś
+dowodząc twierdzenie Bayesa.
+
+No dobrze, te dwie strzałki muszą istnieć i muszą być unikalnymi strzałkami spełniającymi te
+wymagania. Teraz możemy zadać pytanie o to jak te dwie strzałki mają się do siebie nawzajem. Wiesz
+już, że dwa iloczyny kartezjańskie tych samych zbiorów są zawsze izomorficzne. To może da się jakoś
+wykazać, że `f` i `g` też są, a nawet muszą być, izomorfizmami, które w dodatku są swoimi
+odwrotnościami?
+
+## Kategoryjny izomorfizm
+
