@@ -121,8 +121,7 @@ naukowego.
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
 wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
 pojęcia *zadania*. Odkryjemy również wtedy kluczową przyczynowo-zadaniową rolę *instrukcji* (w tym
-również *instrukcji zrandomizowanej*), którą psychologowie zdają się tak często bezmyślnie
-lekceważyć.
+również *instrukcji zrandomizowanej*), którą psychologowie zdają się tak często lekceważyć.
 
 Dzięki tej jednej definicji będziemy mogli całkowicie zakodować w języku teorii typów artykuł
 naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. Pomijając ewentualną dokumentację, z
