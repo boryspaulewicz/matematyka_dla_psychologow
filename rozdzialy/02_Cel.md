@@ -331,7 +331,7 @@ naszych procesów umysłowych. Ani [*tym bardziej*](https://psycnet.apa.org/reco
 będziemy się koncentrować na tym, w jaki sposób zachowanie jest regulowane przez tego [wymiarowego
 potwora](https://www.spaghettimonster.org/), którego nazywamy mózgiem. I nie będziemy się też
 nadmiernie skupiać na przyczynowych relacjach między fizycznie rozumianymi bodźcami i reakcjami, jak
-mają to przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego
+to mają przynajmniej *pozornie* w zwyczaju psychologowie o behawioralnej orientacji. Zamiast tego
 zajmiemy się czymś jakby kompletnie z drugiej strony, to jest *środowiskiem*.
 
 Będzie to środowisko jako coś, czym zawsze było dla psychologa *jako psychologa*, a czym nie jest na
