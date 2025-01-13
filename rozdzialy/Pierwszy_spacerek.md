@@ -153,4 +153,4 @@ stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a c
 dać; rolą dowodu *nie* jest ujawnianie znaczenia zdania, tylko rozstrzyganie o jego prawdziwości i
 (częściowe) ujawnienie znaczenia *założeń dowodu*.
 
-Będziemy odtąd robić podobne rzeczy, ale nie na kartce.
+Będziemy odtąd robić podobne rzeczy, ale [nie na kartce](Spacerek_po_Leanie_1.md).
