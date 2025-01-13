@@ -131,11 +131,12 @@ charakterze teoretycznym, a także listy dedukcyjnych wniosków. Już teraz moż
 wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania (z instrukcją)
 będziemy mogli zrobić to samo z wnioskami swoiście psychologicznymi. Z perspektywy użytkownika to
 będzie po prostu informacja, że określone *warunki badania* i *źródła danych* - które z powodów
-praktycznych taki użytkownik będzie musiał traktować jako coś w rodzaju aksjomatów - mają, *ponad
-wszelką wątpliwość* (zakładając *tylko* wiarygodność źródła danych), takie a nie inne właściwości
-*psychologiczne* czy *zachowaniowe*. W dodatku ta formalizacja będzie wręcz *zawstydzająco prosta*,
-podobnie jak zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa, wpływu i własności
-kontrfaktycznych są rachunki prawdopodobieństwa i przyczynowy dla zmiennych dyskretnych[^3].
+praktycznych taki użytkownik będzie musiał traktować jako coś w rodzaju aksjomatów - mają, niemal
+*ponad wszelką wątpliwość*, to jest zakładając *tylko* wiarygodność źródła danych, takie a nie inne
+właściwości *psychologiczne* czy *zachowaniowe*. W dodatku ta formalizacja będzie wręcz
+*zawstydzająco prosta*, podobnie jak zawstydzająco prostymi formalizacjami pojęć prawdopodobieństwa,
+wpływu i własności kontrfaktycznych są rachunki prawdopodobieństwa i przyczynowy dla zmiennych
+dyskretnych[^3].
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tego niezwykłego punktu
