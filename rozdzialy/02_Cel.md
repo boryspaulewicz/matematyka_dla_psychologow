@@ -356,7 +356,7 @@ problemu, jaką będzie nieunikniona przepaść między praktycznie osiągalną 
 więc też złożonością identyfikowalnych modeli strukturalnych i efektywną złożonością procesu
 reagowania zwierząt.
 
-[Nie będziemy więc](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6] wtedy
+Dlatego [nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6]
 próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
 wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie *złożone*, *idiosynkratyczne*,
 *zmienne* i w ogromnym stopniu zależne od niemal całkiem *nieobserwowalnej historii interakcji
