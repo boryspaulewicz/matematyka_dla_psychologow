@@ -89,7 +89,8 @@ nowych sposobów łączenia źródeł danych z wnioskami i odkrywania nowych wni
 na samym dostarczaniu danych w taki sposób, żeby minimalizować konflikt interesów. No i czym byłaby
 wtedy "decyzja o odrzuceniu" jakiejś hipotezy empirycznej, jak nie tylko pustym gestem? Przecież
 *żaden* empiryczny test nigdy nie da nam pewności, a zapisane w repozytorium teorii hipotezy można
-by tam po prostu *zostawić*, bo w takiej postaci *nie zajmowałyby miejsca w publikacjach*.
+by tam po prostu *zostawić*, bo w takiej postaci *nie zajmowałyby miejsca w publikacjach*. Wtedy
+byłoby *widać*, które hipotezy i w jakim stopniu przydają się w danym momencie do czego.
 
 Czemu wspominam o konflikcie interesów? Moim zdaniem w tym momencie niemal każdy artykuł empiryczny
 powinien w zasadzie zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest
