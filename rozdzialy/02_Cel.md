@@ -293,11 +293,11 @@ zdefiniować formalnie ogólne pojęcie działania celowego.
 
 Funkcja nagrody, czy też związana z nią funkcja wartości, *nie muszą* a nawet *nie powinny* być
 jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem, po prostu dlatego, że
-*implementacja rozwiązania nigdy nie jest doskonała*. Tego rodzaju funkcja musi być co prawda obecna
-przynajmniej niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie zadania*. Funkcję nagrody,
-wartości, czy oceny należy więc *oderwać od podmiotu, agenta, zachowania, czy wytworu działania
-celowego*, rozpoznając w niej dzięki temu *arbitralny wybór celu hipotetycznego zewnętrznego
-obserwatora*.
+*fizyczna implementacja rozwiązania nie może być niezawodna*. Tego rodzaju funkcja musi być co
+prawda obecna przynajmniej niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie
+zadania*. Funkcję nagrody, wartości, czy oceny należy więc *oderwać od podmiotu, agenta, zachowania,
+czy wytworu działania celowego*, rozpoznając w niej dzięki temu *arbitralny wybór celu
+hipotetycznego zewnętrznego obserwatora*.
 
 W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
