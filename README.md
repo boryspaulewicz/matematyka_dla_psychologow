@@ -220,8 +220,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 [R21 = R15 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
 Ten rozdział jest już prawie skończony, ale jeszcze nie nadaje się do testowania.  
-[R22 = R16 X ← '∘ → Y ≅ X ← ∘' → Y, albo: Wszystkie produkty tych samych obiektów są prawie tym
-samym produktem, bo są kanonicznie takie same](rozdzialy/Produkty_sa_takie_same.md)
+[R22 = R16 X ← '∘ → Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie tym samym produktem, bo są kanonicznie takie same](rozdzialy/Produkty_sa_takie_same.md)
 
 R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
