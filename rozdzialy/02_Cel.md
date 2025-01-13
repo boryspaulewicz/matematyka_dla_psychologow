@@ -140,8 +140,11 @@ dyskretnych[^3].
 
 Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tego niezwykłego punktu
-widzenia, którego dostarczy nam teoria typów i izomorfizm Curry'ego-Howarda, a później również
-teoria kategorii. Z matematyką zrobimy to na początku mówiąć *tylko* o
+widzenia, którego dostarczy nam najpierw [teoria typów](https://en.wikipedia.org/wiki/Type_theory) i
+[izomorfizm Curry'ego-Howarda](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), a
+zaczynając od rozdziału 19-13 również [teoria
+kategorii](https://www.google.com/search?client=firefox-b-e&q=category+theory). Z matematyką zrobimy
+to na początku mówiąć w zasadzie *tylko* o
 [funkcjach](https://youtu.be/zHU1xH6Ogs4?si=6dEXhDwOJ01KVw8W&t=42), a z psychologią zrobimy to
 mówiąc najpierw *tylko* o jednym, w pewnym już wtedy technicznym sensie najprostym możliwym
 psychologicznym badaniu eksperymentalnym.
