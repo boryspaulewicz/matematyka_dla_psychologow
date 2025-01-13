@@ -180,8 +180,8 @@ przytoczyłem w [doktoracie](./praca_doktorska.pdf), a którą bardzo długo bł
 Wersję tej uwagi, którą będę w dalszej części uzasadniał i której użyteczność będę później
 ilustrował przykładami, można wyrazić krótko w taki oto sposób:
 
-*Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako preferencję hipotetycznego
-zewnętrznego obserwatora*.
+*Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako różne wariacje na temat
+preferencji hipotetycznego zewnętrznego obserwatora*.
 
 Podkreślam, że cel jest zgodnie z tym punktem widzenia własnością *pary* złożonej z obserwatora, w
 dodatku *hipotetycznego*, a także przedmiotu jego obserwacji, a nie na przykład własnością *samego*
@@ -224,25 +224,32 @@ wyrażenia formalnie i wprost pytań dotyczących tego,
 4. Jak i w jakim stopniu można sprawić, żeby zachodziło $Z$. 
 
 gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. Można powiedzieć, że w ten sposób
-zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl) -
-wyrazimy formalnie pytanie *jak coś można zrobić*. Albo można powiedzieć, że powtórzymy w ten sposób
-za genialnym [Davidem Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)),
-jednocześnie go poprawiając, że zrozumienie algorytmu *jako algorytmu* jest *tylko wtedy możliwe*,
-gdy mamy *najpierw* określony *jakikolwiek cel*, który ten być może algorytm *mógłby* realizować. A
-ponieważ fizyczna implementacja nigdy nie jest niezawodna, zamiast mówić o *trzech* poziomach
-analizy będziemy mówić o *dwóch*, to jest o poziomach teleologicznym i przyczynowo-stochastycznym,
-poziom algorytmiczny traktując jako wygodną, ale jednak drugorzędną, bo nierealistyczną idealizację.
+zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl),
+a przez to nie miał szansy do końca sformalizować pojęć z dziedziny moralności, takich jak pojęcie
+[odpowiedzialności i winy](https://link.springer.com/chapter/10.1007/978-3-642-23963-2_1) - wyrazimy
+formalnie pytanie *jak coś można zrobić*. 
 
-Uzyskamy w ten sposób uogólnioną wersję
+Albo można powiedzieć, że powtórzymy w ten sposób za genialnym [Davidem
+Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)), jednocześnie go poprawiając, że
+zrozumienie algorytmu *jako algorytmu* jest *tylko wtedy możliwe*, gdy mamy *najpierw* określony
+*jakikolwiek cel*, który ten algorytm *mógłby* lepiej lub gorzej realizować. A ponieważ fizyczna
+implementacja nigdy nie jest niezawodna, zamiast jak zaproponował Marr mówić o *trzech* poziomach
+analizy, będziemy mówić o *dwóch*, to jest o poziomach
+[teleologicznym](https://pl.wikipedia.org/wiki/Teleologia) i przyczynowo-stochastycznym, poziom
+algorytmiczny traktując jako szczególny, bo pozbawiony realizmu jakiego dostarcza wprowadzenie
+[stochastycznego tła](https://en.wikipedia.org/wiki/Exogenous_and_endogenous_variables), przypadek
+opisu czegoś w kategoriach przyczynowo-stochastycznych z perspektywy teleologicznej.
+
+Wprowadzimy tym samym uogólnioną wersję pojęcia
 [obliczalności](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), a dokładniej *stopniowalną
-obliczalność przyczynowo-[teleologiczną](https://pl.wikipedia.org/wiki/Teleologia)* i tym samym
-uzupełnimy istniejące już jako języki formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i
-*ostatni*, dzieki któremu ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te
-cztery wymiary jako własności sposobu opisywania zjawisk z perspektywy *Kogoś, kto właściwie nie
-istnieje*. W szczególności, preferencja *nie* będzie wtedy własnością opisywanego procesu. Odkryjemy
-też, że zawsze z konieczności niepełne *wcielenie się w podmiot* jest procesem *społecznym*, w
-którym podmiotowość jest nieustannie *re-kontruowana* w ramach procesu uczenia *się*, polegającego
-na abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym dialogu*.
+obliczalność przyczynowo-teleologiczną* i dzięki temu uzupełnimy istniejące już jako języki
+formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i *ostatni*, dzieki któremu ujawni się
+*Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako własności sposobu
+opisywania zjawisk z perspektywy *Kogoś, kto właściwie nie istnieje*. W szczególności, preferencja
+*nie* będzie wtedy własnością opisywanego procesu. Odkryjemy też, że zawsze z konieczności niepełne
+*wcielenie się w podmiot* jest procesem *społecznym*, w którym podmiotowość jest nieustannie
+*re-kontruowana* w ramach procesu uczenia *się*, polegającego na abstrakcyjnie rozumianym,
+*wewnątrz-* lub *między-jednostkowym dialogu*.
 
 Formalny język, który będzie oparty na wspomianej definicji zadania, będzie się nadawał do stawiania
 pytań dotyczących *czegokolwiek*, co tylko można nazwać zachowaniem, narzędziem, albo artefaktem, w
