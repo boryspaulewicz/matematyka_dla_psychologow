@@ -465,17 +465,18 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
 [^6]: Rozdział, do którego odsyła ten link, dotyczy tylko jednego przykładu *problemu mimikry*
     (który ostatnio wolę nazywać problemem *przepaści wymiarowej*) w psychologii poznawczej, ale
     nietrudno zrozumieć, że ten problem, o którym napisałem zresztą sporo w doktoracie, ma charakter
-    *uniwersalny*: Wiemy, że u ludzi proces reagowania jest niezwykle złożony i elastyczny, bo
-    ludzie potrafią się bardzo dobrze adaptować do bardzo szerokiego zakresu sytuacji i względnie
-    szybko reagują na zmiany zachodzące zarówno wewnątrz organizmu jak i w jego otoczeniu. Ponieważ
-    efektywna wymiarowość danych w badaniach psychologicznych jest z konieczności niewielka, z góry
-    wiemy, że możemy zapomnieć o jakichkolwiek szansach na względnie szczegółową identyfikację
-    architektury umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą zależeć i na
-    pewno w znacznym stopniu zależą od całej historii interakcji człowieka z jego
-    środowiskiem. Przecież gdyby proces reagowania nie był w ogromnym stopniu wyuczalny, również, a
-    może przede wszystkim poprzez uczenie się społeczne, w tym wszelkiego rodzaju procesy polegające
-    na komunikacji i gdyby nie był wrażliwy na całą historię interakcji, to poziom adaptacji, który
-    gołym okiem widać w zachowaniach ludzi, nie byłby możliwy. Dlatego, mimo oszałamiającej ilości
+    *uniwersalny*: Wiemy, że u ludzi proces reagowania jest niezwykle złożony i elastyczny. A wiemy
+    to, bo ludzie potrafią się bardzo dobrze adaptować do bardzo szerokiego zakresu sytuacji i na
+    ogół względnie szybko i adekwatnie, bo wystarczająco dobrze żeby przeżyć, reagują na wszelakie
+    zmiany zachodzące zarówno wewnątrz organizmu jak i w jego otoczeniu. Ponieważ efektywna
+    wymiarowość danych w badaniach psychologicznych jest z konieczności niewielka, z góry wiemy, że
+    możemy zapomnieć o jakichkolwiek szansach na względnie szczegółową identyfikację architektury
+    umysły i przebiegu procesów poznawczych, tym bardziej, że te mogą zależeć i na pewno w znacznym
+    stopniu zależą od całej historii interakcji człowieka z jego środowiskiem. Przecież gdyby proces
+    reagowania nie był w ogromnym stopniu wyuczalny, również, a może przede wszystkim poprzez
+    uczenie się społeczne, w tym dzięki wszelkiego rodzaju procesom polegającym na komunikacji i
+    gdyby nie był wrażliwy na niemal całą historię interakcji, to poziom adaptacji, który gołym
+    okiem widać w zachowaniach ludzi, nie byłby możliwy. Dlatego, mimo oszałamiającej ilości
     publikowanych każdego roku artykułów, sprawiająca wrażenie stosunkowo "naukowej" psychologia
     poznawcza, za wyjątkiem skromnej liczby często niezbyt zresztą zaskakujących zastosowań, jak
     dotąd nadaje się przede wszystkim do *pisania kolejnych artykułów* i pozyskiwania na potrzeby
