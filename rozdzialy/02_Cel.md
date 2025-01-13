@@ -224,10 +224,10 @@ wyrażenia formalnie i wprost pytań dotyczących tego,
 4. Jak i w jakim stopniu można sprawić, żeby zachodziło $Z$. 
 
 gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. Można powiedzieć, że w ten sposób
-zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl),
-a przez to nie miał szansy do końca sformalizować pojęć z dziedziny moralności, takich jak pojęcie
-[odpowiedzialności i winy](https://link.springer.com/chapter/10.1007/978-3-642-23963-2_1) - wyrazimy
-formalnie pytanie *jak coś można zrobić*. 
+zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl) i
+przez to nie był w stanie do końca sformalizować pojęć z dziedziny moralności, takich jak pojęcie
+[odpowiedzialności i winy](https://link.springer.com/chapter/10.1007/978-3-642-23963-2_1), a
+mianowicie wyrazimy formalnie pytanie *jak coś można zrobić*.
 
 Albo można powiedzieć, że powtórzymy w ten sposób za genialnym [Davidem
 Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)), jednocześnie go poprawiając, że
