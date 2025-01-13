@@ -1,4 +1,4 @@
-# X ← '∘ → Y ≅ X ← ∘' → Y, albo: Wszystkie produkty tych samych obiektów są prawie tym samym produktem bo są kanonicznie takie same
+# X ← '∘ → Y ≅ X ← ∘' → Y, albo: Wszystkie produkty tych samych obiektów są prawie tym samym produktem, bo są kanonicznie takie same
 
 Jeżeli ...
 
