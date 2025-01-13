@@ -286,10 +286,10 @@ między innymi, głęboko teoretycznie uzasadnioną i znakomicie radzącą sobie
 wzorcami reagowania, [uogólnioną wersję](http://incompleteideas.net/papers/sutton-barto-TD-87.pdf) -
 niezwykle ważnego dla psychologii behawioralnej i poznawczej, jak również dla sztucznej inteligencji
 (patrz [*reguła delty*](https://en.wikipedia.org/wiki/Delta_rule)) - [modelu warunkowania
-Rescorli-Wagnera]((https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model)), rozumianego
-zresztą przez Rescorlę i Wagnera zadanio-centrycznie jako przybliżone rozwiązanie pewnego
-uniwersalnie ważnego dla zwierząt problemu predykcji. Tym samym *prawie* udało się Suttonowi i Barto
-poprawnie zdefiniować formalnie ogólnie pojęcie działania celowego.
+Rescorli-Wagnera](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model), rozumianego zresztą
+przez Rescorlę i Wagnera zadanio-centrycznie jako przybliżone rozwiązanie pewnego uniwersalnie
+ważnego dla zwierząt problemu predykcji. Tym samym *prawie* udało się Suttonowi i Barto poprawnie
+zdefiniować formalnie ogólnie pojęcie działania celowego.
 
 Funkcja nagrody, czy też związana z nią funkcja wartości, *nie muszą* a nawet *nie powinny* być
 jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem, po prostu dlatego, że
