@@ -375,7 +375,7 @@ władzy, rzadko podając *powody*, dla których oczekują takich a nie innych zm
 postawa jest po prostu *anty*naukowa. 
 
 Pisząc tą książkę publicznie i na żywo nie unikam przecież w żaden sposób niczyjej oceny. Jest wręcz
-odwrotnie, skoro *każdy*, kto tylko ma dostęp do internetu, może poddać krytyce *wszystko*, co tu
+odwrotnie, skoro *każdy*, kto ma dostęp do internetu, może poddać krytyce *wszystko*, co tu
 napisałem, łącznie z *całą historią zmian*. Tylko, że taka krytyka nie będzie wtedy polegała na
 czymś tak rozbrajająco dziecinnym, jak nieprzyznanie zaszczytnego przywileju naklejenia (albo, co
 niezwykle rzadkie, odklejenia) etykiety naukowości z logiem jakiegoś dużego, żerującego na
