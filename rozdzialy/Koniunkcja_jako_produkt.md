@@ -134,6 +134,32 @@ elementów innego (izomorficznego) zbioru. Żeby skorzystać z tego rodzaju "wym
 implementacji" iloczynu kartezjańskiego, musimy jedynie *wskazać jakikolwiek konkretny izomorfizm
 między tymi zbiorami, wszystko jedno w którą stronę* i *ogłosić*, jeżeli *mówimy do kogoś innego*,
 albo tylko *pamiętać*, jeżeli *mówimy do siebie*, że *przyjęliśmy taką konwencję*. A kiedy mamy
-ochotę snuć ogólne rozważania o jakichkolwiek iloczynach, możemy przyjąć, że wtedy jakiś Ktoś mówi o
-nich do jakiegoś Kogoś.
+ochotę snuć ogólne rozważania o jakichkolwiek iloczynach, możemy przyjąć, że wtedy jakiś Ktoś mógłby
+mówić o nich do jakiegoś Kogoś.
 
+To wszystko wynika naturalnie z definicji produktu kategoryjnego. Uwaga, *zmieniamy język*, a więc
+również punkt widzenia i rozważamy *dowolną* kategorię, to jest *jakąkolwiek kolekcję strzałek
+spełniającą wymagania kategoryjnego składania* (zapisane tym razem maksymalnie skrótowo):
+
+1. `Id f = f = f Id`
+
+2. `h (g f) = (h g) f`
+
+Jeżeli `X` i `Y` to punkty w danej kategorii, to ze względu na jego związek z iloczynem zbiorów
+produkt kategoryjny zapisujemy co prawda również jako ... 
+
+`X × Y`
+
+... ale to jest teraz tylko *punkt zaczepienia strzałek* i *rozumiemy* ten zapis jako wygodny sposób
+oznaczenia *dwóch współźródłowych strzałek* ...
+
+```lean
+π₁ : X × Y → X
+π₂ : X × Y → Y
+```
+
+... spełniających warunek:
+
+```lean
+∀ Z : Punkt, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)
+```
