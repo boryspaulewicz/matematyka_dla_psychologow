@@ -227,8 +227,8 @@ taka strzałka, to taka strzałka `f` jest *funkcją* (albo *własnością*) par
 `π₁` i `π₂`, wobec czego możemy ją oznaczyć również jako `⟨π₁, π₂⟩`. Dlatego `Narysuj` proszę tą
 strzałkę, ale tak, żeby była wygięta w łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie
 trzeba tam zmieścić jeszcze jedną analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą
-strzałkę z lewej jako `⟨π₁, π₂⟩`. Takie strzałki my będziemy nazywać *produktami strzałek*, chociaż
-oficjalnie nazywamy je [*produktami
+strzałkę z lewej jako `⟨π₁, π₂⟩`. *My* będziemy nazywać takie strzałki *produktami strzałek*, ale
+powinnaś wiedzieć, że oficjalnie nazywa "się" je [*produktami
 morfizmów*](https://pl.wikipedia.org/wiki/Produkt_(teoria_kategorii)).
 
 Czy widzisz, że istnieje również analogiczna unikalna strzałka w drugą stronę? Narysuj ją proszę w
@@ -261,11 +261,74 @@ sensu*. Jeśli tylko uda Ci się tak do tego podejść, to będziesz mogła się
 mechanicznych operacjach, które będą tylko trochę bardziej skomplikowane niż te, które wykonywałaś
 dowodząc twierdzenie Bayesa.
 
-No dobrze, te dwie strzałki muszą istnieć i muszą być unikalnymi strzałkami spełniającymi te
-wymagania. Teraz możemy zadać pytanie o to jak te dwie strzałki mają się do siebie nawzajem. Wiesz
-już, że dwa iloczyny kartezjańskie tych samych zbiorów są zawsze izomorficzne. To może da się jakoś
-wykazać, że `f` i `g` też są, a nawet muszą być, izomorfizmami, które w dodatku są swoimi
+Założę odtąd, że albo już wiesz, albo dowiesz się w końcu, powtarzając treści z tego rozdziału, że
+te dwie strzałki muszą istnieć i muszą być unikalnymi strzałkami spełniającymi wymienione wyżej
+wymagania. Teraz możemy zadać pytanie o to, jak te dwie strzałki *mają się do siebie
+nawzajem*. Wiesz, że dwa iloczyny kartezjańskie tych samych zbiorów są izomorficzne. To może da się
+jakoś wykazać, że `f` i `g` też są, a nawet muszą być, izomorfizmami, które w dodatku są swoimi
 odwrotnościami?
 
 ## Kategoryjny izomorfizm
+
+**Kategoryjna definicja izomorfizmu**: Jeżeli `C` jest kategorią, to (kategoryjnym) izomorfizmem
+nazywamy każdą taką strzałkę `f` należącą do `C`, że w `C` istnieje strzałka `g` spełniająca warunek
+`g f = Id` i `f g = Id`.
+
+Dla dowolnej strzałki `f`, istnieje co najwyżej jedna taka strzałka, ponieważ jeżeli jakaś strzałka
+`h` spełnia te same warunki, co strzałka `g`, to ...
+
+`h = Id h = (g f) h = g (f h) = g Id = g`
+
+... albo prościej, bo ze względu na łączność składania nawiasy są niepotrzebne, chociaż może nieco
+mniej czytelnie ...
+
+`h = Id h = g f h = g Id = g`
+
+... albo jeszcze prościej, korzystając niejawnie z założenia, że `g f = Id`:
+
+`h = g f h = g`
+
+Możemy to udowodnić w Leanie dla funkcji teoriotypowych na przykład tak:
+
+```lean
+-- Uwaga: Ten dowód jest celowo nieco przegadany i może być w tym momencie dla Ciebie trochę zbyt trudny,
+-- ale moim zdaniem już na tym etapie warto się nim trochę pobawić.
+
+-- To jest znana Ci już funkcja tworząca dla dowolnego typu jego "pętlę identyczności"
+def ID (X : Type) : X → X := fun (x : X) => x
+
+-- g i h to będą zaraz dwie funkcje, które spełniają warunek bycia odwrotnościami f
+variable (X Y : Type) (f : X → Y) (g h : Y → X)
+
+-- Ten warunek oznacza, że g jest odwrotnością f, ...
+variable (h1 : g ∘ f = (ID X)) (h2 : f ∘ g = (ID Y)) 
+-- ... a ten warunek oznacza, że h jest również odwrotnością f.
+variable (h3 : h ∘ f = (ID X)) (h4 : f ∘ h = (ID Y))
+
+-- Lean nie zgłasza tutaj błędu, a więc h i g to ta sama funkcja.
+example : h = g := by
+  -- Słowo kluczowe have służy do dodawania termów do kontekstu. W tym wypadku konstruujemy najpierw
+  -- dowód hipotezy hcel, która jest taką hipotezą, że będziemy mogli do niej zastosować dostępne
+  -- założenia, żeby ją stopniowo przekształcić w cel, czyli w zdanie h = g.
+  have hcel : g ∘ (f ∘ h) = g ∘ (ID Y) := by rw [h4]
+  -- Łączność składania funkcji teoriotypowych wynika z definicji tej operacji.
+  have h5 : g ∘ (f ∘ h) = (g ∘ f) ∘ h := by rfl
+  -- Od tego momentu zaczynamy przekształcać hipotezę hcel, której dowód mamy już w kontekście.
+  rw [h5] at hcel                       -- hcel : (g ∘ f) ∘ h = g ∘ ID Y
+  rw [h1] at hcel                       -- hcel : ID X ∘ h = g ∘ ID Y
+  have h6 : (ID X) ∘ h = h := by rfl    -- z definicji
+  have h7 : g ∘ (ID Y) = g := by rfl    -- z definicji
+  rw [h6] at hcel                       -- hcel : h = g ∘ ID Y
+  rw [h7] at hcel                       -- hcel : h = g
+  exact hcel
+```
+
+Można to było zrobić na (nieskończenie) wiele innych sposobów, w tym również (znacznie) prościej,
+ale chciałem Ci pokazać kilka nowych sztuczek. Na przykład, `rw [h5] at hcel` sprawia, że
+występująca w już udowodnionej w momencie zastosowania tej instrukcji hipotezie `hcel` lewa strona
+równości, będącej udowodnioną już wtedy hipotezą `h5`, czyli `g ∘ (f ∘ h)`, zostaje zastąpiona przez
+prawą stronę `h5`, czyli przez `(g ∘ f) ∘ h`. To pozwala potem w analogiczny sposób zastąpić w
+zmienionej wersji `hcel` term `(g ∘ f)` przez term `(ID X)`. Pozostałe kroki możesz samodzielnie
+prześledzić przeklejając cały ten fragment kodu do Leana i patrząc, jak zmienia się stan dowodu,
+kiedy przesuwasz kursor za kolejne instrukcje.
 
