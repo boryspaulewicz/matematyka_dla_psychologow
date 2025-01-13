@@ -163,9 +163,10 @@ Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglą
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
 małym zbiorze kilku ściśle powiązanych zagadek dotyczących podstaw psychologii. W dodatku w pewnym
 sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
-wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
-[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), którą przytoczyłem w
-[doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
+wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi [Edwarda
+Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), ewidentnie mocno inspirowanej myślą jego
+wybitnego nauczyciela [Ralpha Perry'ego](https://en.wikipedia.org/wiki/Ralph_Barton_Perry), którą
+przytoczyłem w [doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
 
 > Koncepcja, za którą się tu opowiadamy, głosi, ujmując rzecz pokrótce, że zawsze, gdy jakąś reakcję
 > cechuje wyuczalność w odniesieniu do pewnego końcowego rezultatu - gdy reakcja ta ma skłonność do:
