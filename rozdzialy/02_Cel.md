@@ -359,7 +359,7 @@ odpowiedzi na pozycje testowe, tak samo jak wobec wszelkich rzekomych poznawczyc
 modeli *procesu reagowania*, zastosujemy ten sam prosty meta-teoretyczny manewr, polegający na
 wyprowadzeniu dedukcyjnie z interpretacji strukturalnej tych modeli *absurdalnych* konsekwencji
 *kontrfaktycznych* i ten manerw pozwoli nam za każdym razem wskazać to samo fundamentalne źródło
-problemu, jaką będzie nieunikniona przepaść między praktycznie osiągalną wymiarowością danych, a
+problemu, jakim będzie nieunikniona przepaść między praktycznie osiągalną wymiarowością danych, a
 więc też złożonością identyfikowalnych modeli strukturalnych i efektywną złożonością procesu
 reagowania zwierząt.
 
