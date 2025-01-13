@@ -180,7 +180,7 @@ przytoczyłem w [doktoracie](./praca_doktorska.pdf), a którą bardzo długo bł
 Wersję tej uwagi, którą będę w dalszej części uzasadniał i której użyteczność będę później
 ilustrował przykładami, można wyrazić krótko w taki oto sposób:
 
-*Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako różne wariacje na temat
+*Cel, zadanie, wartość i normę można rozumieć jako jedno i to samo - jako wariacje na temat
 preferencji hipotetycznego zewnętrznego obserwatora*.
 
 Podkreślam, że cel jest zgodnie z tym punktem widzenia własnością *pary* złożonej z obserwatora, w
