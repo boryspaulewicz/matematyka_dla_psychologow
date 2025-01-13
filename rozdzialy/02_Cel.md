@@ -95,8 +95,8 @@ byłoby *widać*, które hipotezy i w jakim stopniu przydają się w danym momen
 Czemu wspominam o konflikcie interesów? Moim zdaniem niemal każdy artykuł empiryczny powinien w
 zasadzie zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest powszechny i
 o którym, o ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków jest zwykle
-odpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane [wątpliwe praktyki
-badawcze](https://en.wikipedia.org/wiki/Scientific_misconduct) (ang. *questionable research
+odpowiedzialny lub współodpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane [wątpliwe
+praktyki badawcze](https://en.wikipedia.org/wiki/Scientific_misconduct) (ang. *questionable research
 practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami, takimi jak
 rozliczanie pracowników przede wszystkim z *ilości* publikacji, *ilości* punktów publikacyjnych i
 *ilości* grantów, ta możliwość *musi* często prowadzić do wątpliwych praktyk, ponieważ naukę
