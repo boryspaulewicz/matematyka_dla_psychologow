@@ -345,7 +345,7 @@ napisała kilka własnych funkcji, co jest chyba najlepszym możliwym wynikiem, 
 liczyć. Dziękuję też Mai za podzielenie się cennymi wątpliwościami, które zainspirowały mnie, żeby
 napisać w tym rozdziale trochę więcej na temat różnicy między technicznymi znaczeniami słów
 "parametr" i "argument". Całkiem możliwe, że dzięki temu ten fragment będzie łatwiejszy do
-zrozumienia dla innych. W dodatku Maja czytając ten rozdział
+zrozumienia dla innych.
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
