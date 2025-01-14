@@ -251,7 +251,7 @@ własności sposobu opisywania zjawisk z perspektywy *Kogoś, kto właściwie ni
 szczególności, preferencja *nie* będzie wtedy własnością opisywanego procesu. Odkryjemy też, że
 zawsze z konieczności niepełne *wcielenie się w podmiot* jest procesem *społecznym*, w którym
 podmiotowość jest nieustannie *re-kontruowana* w ramach procesu uczenia *się*, polegającego na
-abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym dialogu*.
+abstrakcyjnie rozumianym, *wewnątrz-* lub *między-jednostkowym dialogu*[^8].
 
 Formalny język, który będzie oparty na wspomianej definicji zadania, będzie się nadawał do stawiania
 pytań dotyczących *czegokolwiek*, co tylko można nazwać zachowaniem, narzędziem, albo artefaktem, w
@@ -487,4 +487,6 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
 
 [^7]: Polecam (gorąco, bo to naprawdę znakomita książka) na początek raczej znacznie krótsze
     [*pierwsze* wydanie](http://incompleteideas.net/book/first/ebook/the-book.html), na którym
-    zresztą z radością "zjadłem zęby" w trakcie pisania doktoratu.
+    zresztą z radością "zjadłem zęby" w trakcie studiów magisterskich.
+
+[8^]: *Kto z kim przestaje, takim się staje*. Można więc powiedzieć, że to będzie wizja podmiotowości wywodząca się wprost z ... przysłowia.
