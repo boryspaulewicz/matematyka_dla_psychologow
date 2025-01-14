@@ -35,10 +35,10 @@ strzałki `f`, to:
 
 A więc dla każdej strzałki `f`, jej odwrotność, o ile istnieje, możemy oznaczyć jako `f⁻¹`.
 
-Załóżmy, że `P` jest kategoryjnym produktem, którego projekcjami są strzałki `π₁ : P → X` i `π₂ :
-P → Y`. Wtedy z definicji (produktu kategoryjnego) dla każdego punktu `A` i pary strzałek `f : A →
-X` i `g : A → Y` istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h =
-g`. Ponieważ `h` jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`.
+Załóżmy, że `P` jest kategoryjnym produktem, którego projekcjami są strzałki `π₁ : P → X` i `π₂ : P
+→ Y`. Wtedy z definicji (produktu kategoryjnego), dla każdego punktu `A` i pary strzałek `f : A → X`
+i `g : A → Y` istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h`
+jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`. 
 
 A więc dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁,π₂> =
 π₁` i `π₂ <π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwie równości, bo `π₁ Id
@@ -59,6 +59,10 @@ tych samych punktów są kanonicznie izomorficzne w tym znaczeniu, że istnieje 
 izomorfizmów powstających w jedyny możliwy sposób z ich projekcji. Ponadto te izomorfizmy pozwalają
 zamienić jeden produkt w drugi dzięki temu, że `π₁ g = π₁'`, `π₂ g = π₂'`, `π₁' f = π₁`, `π₂'
 f = π₂`.
+
+Ponieważ dodatkowo każda strzałka `h : A → P` odpowiada unikalnej parze strzałek z `A` do `X` i `Y`
+będących złożeniami `π₁ h` i `π₂ h`, to każdy taki produkt jest izomorfizmem między strzałkami `A →
+P` i uporządkowanymi parami strzałek `A → X` i `A → Y`.
 
 ## A teraz długo, powtarzając się, z sensem i korzystając z nieocenionej pomocy diagramów
 
