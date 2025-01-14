@@ -44,9 +44,9 @@ Załóżmy, że `P` jest kategoryjnym produktem, którego projekcjami są strza�
 i `g : A → Y` istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h`
 jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`. 
 
-A więc dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁,π₂> =
-π₁` i `π₂ <π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwie równości, bo `π₁ Id
-= π₁` i `π₂ Id = π₂`, to `Id = <π₁,π₂>`.
+A więc dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁,π₂> = π₁`
+i `π₂ <π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwa warunki, bo `π₁ Id = π₁` i `π₂
+Id = π₂`, to `Id = <π₁,π₂>`.
 
 Dla każdych dwóch produktów `P` i `P'` tych samych punktów `X` i `Y` istnieje strzałka
 `<π₁',π₂'> : P → P'` i strzałka `<π₁,π₂> : P' → P`, które spełniają warunki `π₁ <π₁',π₂'> =
