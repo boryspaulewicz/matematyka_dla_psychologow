@@ -235,7 +235,7 @@ konkretny izomorfizm między tymi zbiorami, wszystko jedno w którą stronę* i 
 *mówimy do kogoś innego*, albo tylko *pamiętać*, jeżeli *mówimy do siebie*, że *przyjęliśmy taką
 konwencję*. A kiedy mamy ochotę snuć *ogólne* rozważania o *jakichkolwiek* iloczynach, możemy
 przyjąć, że wtedy jakiś Ktoś mówi o nich do jakiegoś, być może tego samego Kogoś. Jak się zaraz
-przekonamy, to wszystko wynika naturalnie z definicji produktu kategoryjnego.
+przekonamy, to wszystko wynika z definicji produktu kategoryjnego.
 
 ## Pierwszy przelot
 
