@@ -143,7 +143,7 @@ ani ekstremalna:
 > authority and that it should be dismantled if that burden cannot be met. - Noam Chomsky
 
 Otóż to, *burden of proof*. Bardzo odpowiada mi ten rodzaj wolności. Gdy bierzesz udział w moich
-zajęciach, jesteś pod presją publicznej instytucji w której pracuję zmuszono tymczasowo traktować
+zajęciach, jesteś pod presją publicznej instytucji, w której pracuję, zmuszono tymczasowo traktować
 mnie jak autorytet, nawet gdybym nie dał Ci powodów, żebyś mnie tak traktowało. A to oznacza pewne
 zobowiązania z *obydwu* stron, Twojej i mojej. W szczególności, the burden of proof jest wtedy on
 *me*.
