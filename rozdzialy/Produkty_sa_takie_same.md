@@ -559,10 +559,9 @@ A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem?  Produkt punkt�
 współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio przyporządkowywuje dokładnie jedną
 strzałkę `h` taką, że `π₁ h = f` i `π₂ h = g`. I odwrotnie, każda strzałka `h` z tego samego źródła
 co dowolne współźródłowe strzałki `f` i `g` odpowiada dokładnie jednej parze strzałek do `X` i `Y`,
-to jest parze strzałek równych złożeniom `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji
-unikalne. A więc produkt to taki tłumacz albo wymieniacz takich strzałek do produktu i
-uporządkowanych par strzałek do jego "punktów końcowych", że wszystkie te strzałki mają to samo
-źródło.
+będących złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unikalne. A więc produkt to
+taki tłumacz albo wymieniacz takich strzałek do produktu i uporządkowanych par strzałek do jego
+"punktów końcowych", że wszystkie te strzałki mają to samo źródło.
 
 <hr>
 
