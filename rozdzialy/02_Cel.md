@@ -290,7 +290,7 @@ funkcję w tym stopniu. Wszystko pełni jednocześnie nieskończenie wiele funkc
 nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwiązanie jakiegoś
 zadania.
 
-Wreszcie można to powiedzieć również tak: W (moim zdaniem) arcydziele dydaktycznym [*Reinforcement
+Wreszcie można to powiedzieć również tak: W moim zdaniem arcydziele dydaktycznym [*Reinforcement
 Learning: An
 Introduction*](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)[^7],
 [Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton) i
@@ -302,7 +302,7 @@ oczekiwanej skumulowanej wartości jakiejś funkcji oceny), inspirując się, co
 wprost](http://incompleteideas.net/book/first/ebook/node12.html), pomysłami takich psychologów jak
 [Edward Thorndike](https://it.wikipedia.org/wiki/Edward_Lee_Thorndike) czy
 [Rescorla](https://en.wikipedia.org/wiki/Robert_A._Rescorla) i
-[Wagner](https://en.wikipedia.org/wiki/Allan_R._Wagner). 
+[Wagner](https://en.wikipedia.org/wiki/Allan_R._Wagner).
 
 Sutton i Barto opisują w tej książce ogólny problem uczenia się ze wzmonieniem i przedstawiają tam
 między innymi, głęboko teoretycznie uzasadnioną i znakomicie radzącą sobie z wieloma obserwowanymi
@@ -498,6 +498,7 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
     żartuję i nie będziesz nawet próbowała szukać odpowiedzi na takie pytanie, prawda? To przykład
     przepaści wymiarowej - gdy nie ma dość informacji w danych, to po prostu nie ma i niezależnie od
     tego, *ile* wymiarów brakuje, pojawia się inferencyjna przepaść. A psychologowie nieustannie
-    próbują, w dodatku prawie zawsze *empirycznie*, odpowiadać na tak postawione pytania i jeszcze
-    piszą o tych z góry skazanych na niepowodzenie próbach artykuły
+    próbują, w dodatku prawie zawsze *empirycznie*, [odpowiadać na tak postawione
+    pytania](https://onlinelibrary.wiley.com/doi/full/10.1002/icd.2295) i jeszcze piszą o tych z
+    góry skazanych na niepowodzenie próbach artykuły
     ["naukowe"](https://en.wikipedia.org/wiki/Cargo_cult).
