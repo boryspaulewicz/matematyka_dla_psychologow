@@ -1,22 +1,24 @@
 ## O czym teraz będzie
 
 W tym rozdziale pokażę Ci, że struktura wewnętrzna iloczynu kartezjańskiego zbiorów nie ma znaczenia
-w tym sensie, że każdy izomorficzny zbiór może spełniać dokładnie tą samą rolę nawet, gdy jest
+w tym sensie, że każdy izomorficzny zbiór może spełniać dokładnie tą samą rolę, nawet, gdy jest
 złożony z zupełnie innych elemntów. Wprowadzę też najogólniejszą znaną definicję
 izomorfizmu. Posługując się tą definicją i definicją produktu kategoryjnego będziesz mogła razem ze
 mną udowodnić, że wszystkie możliwe produkty, a więc nie tylko iloczyny kartezjańskie zbiorów, są
-określone tylko z dokładnością do kanonicznych izomorfizmów i że są - w ogólniejszym sensie niż na
-to pozwala równość - wzajemnie zastępowalne.
+określone tylko z dokładnością do kanonicznych izomorfizmów i że są - w interesującym, ogólniejszym
+znaczeniu niż na to pozwala równość - wzajemnie zastępowalne.
 
 Treści zawarte w tym rozdziale będą technicznie stosunkowo proste, to znaczy, bezmyślne
-skonstruowanie dowodu będzie się niemal robiło samo, co jest zresztą cechą charakterystyczną i
+konstruowanie dowodów będzie się niemal robiło samo, co jest zresztą cechą charakterystyczną i
 zarazem wielką zaletą wielu dowodów kategoryjnych, ale jednocześnie, z powodu ekstremalnego poziomu
 abstrakcji, połączonego z bliskością narzucającego się przykładu konkretnej kategorii zbiorów i
 funkcji, trudności w dopatrzeniu się w tym wszystkim sensu będą prawdopodobnie spore. Dlatego
 uprzedzam, że użyteczność kategoryjnego punktu widzenia, z którym próbuję Cię oswoić już od pewnego
-czasu, być nieprędko stanie się oczywista.
+czasu, być może nieprędko stanie się oczywista.
 
-Będzie chyba najlepiej, jeśli czytając ten rozdział nie będziesz się nigdzie spieszyć.
+Będzie chyba najlepiej, jeśli czytając ten rozdział nie będziesz się nigdzie spieszyć i być może
+przyda się czasem wrócić do poprzedniego rozdziału, a zwłaszcza do rysunku będącego definicją
+produktu kategoryjnego.
 
 # X ← '∘ → Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie tym samym produktem, bo są kanonicznie takie same
 
