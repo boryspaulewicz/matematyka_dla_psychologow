@@ -28,12 +28,12 @@ Ten fragment jest tylko po to, żeby Ci pokazać, że można prawie wszystko, o 
 rozdziale, powiedzieć znacznie krócej. Być może ten fragment przyda Ci się od pewnego momentu jako
 przykład skrótowej notatki, ale wtedy warto byłoby go uzupełnić o diagramy.
 
-Kategoryjnym izomorfizmem nazywamy taką strzałkę `f : X → Y`, że istnieje strzałka `g : Y → X`, że
-`f g = Id` i `g f = Id`. Strzałkę `g` nazywamy wtedy odwrotnością strzałki `f`, a strzałkę `f`
+Kategoryjnym izomorfizmem nazywamy taką strzałkę `f : X → Y`, że istnieje taka strzałka `g : Y → X`,
+że `f g = Id` i `g f = Id`. Strzałkę `g` nazywamy wtedy odwrotnością strzałki `f`, a strzałkę `f`
 nazywamy odwrotnością `g`.
 
-Każda strzałka ma co najwyżej jedną odwrotność, ponieważ jeżeli `g` i `g'` są odwrotnościami
-strzałki `f`, to:
+Każda strzałka ma co najwyżej jedną odwrotność, ponieważ jeżeli `g` i `g'` są odwrotnościami `f`,
+to:
 
 `g = g Id = g (f g') = (g f) g' = Id g' = g'`.
 
