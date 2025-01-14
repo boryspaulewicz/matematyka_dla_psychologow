@@ -320,7 +320,8 @@ jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem
 zadaniach, działaniach lub zachowaniach tego rodzaju funkcja musi być co prawda obecna przynajmniej
 niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie zadania*. Funkcję nagrody, wartości, czy
 oceny należy więc *oderwać od podmiotu, agenta, zachowania, czy wytworu działania celowego*,
-rozpoznając w niej dzięki temu *arbitralny wybór hipotetycznego zewnętrznego obserwatora*.
+rozpoznając w niej dzięki temu *[arbitralny](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem)
+wybór hipotetycznego zewnętrznego obserwatora*.
 
 W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
