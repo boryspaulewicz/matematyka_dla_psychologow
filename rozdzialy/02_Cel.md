@@ -362,9 +362,9 @@ z teorii odpowiedzi na pozycje testowe, tak samo jak wobec wszelkich rzekomych p
 tylko takich modeli *procesu reagowania*, zastosujemy zresztą ten sam prosty i uniwersalny
 meta-teoretyczny manewr, polegający na wyprowadzeniu dedukcyjnie z interpretacji strukturalnej tych
 modeli *absurdalnych* konsekwencji *kontrfaktycznych* i ten manerw pozwoli nam za każdym razem
-wskazać to samo fundamentalne źródło problemu, jakim jest nieunikniona przepaść między praktycznie
-osiągalną wymiarowością danych, a więc też złożonością identyfikowalnych modeli strukturalnych i
-efektywną złożonością procesu reagowania zwierząt.
+wskazać to samo fundamentalne źródło problemu, jakim jest nieunikniona przepaść[^9] między
+praktycznie osiągalną wymiarowością danych, a więc też złożonością identyfikowalnych modeli
+strukturalnych i efektywną złożonością procesu reagowania zwierząt.
 
 Dlatego [nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6]
 próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
@@ -491,3 +491,10 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
 
 [^8]: *Kto z kim przestaje, takim się staje*. Można więc powiedzieć, że to będzie wizja
     podmiotowości wywodząca się wprost z ... przysłowia.
+
+[^9]: Jeżeli powiem Ci, że `n + m = 2` i zapytam, ile wynosi `n`, to pomyślisz, że sobie z Ciebie
+    żartuję i nie będziesz nawet próbowała szukać odpowiedzi na takie pytanie, prawda? To przykład
+    przepaści wymiarowej - gdy nie ma dość informacji w danych, to po prostu nie ma i niezależnie od
+    tego, *ile* wymiarów brakuje, pojawia się inferencyjna przepaść. A psychologowie nieustannie
+    próbują odpowiadać na tak postawione pytania i jeszcze piszą o tych z góry skazanych na
+    niepowodzenie próbach artykuły "naukowe".
