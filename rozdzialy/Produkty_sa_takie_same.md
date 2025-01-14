@@ -546,25 +546,6 @@ więc:
 *Każda para kategoryjnych produktów tych samych punktów jest izomorficzna i w każdą stronę istnieje
 kanoniczny izomorfizm, który zamienia jeden z tych produktów w drugi*.
 
-<hr>
-
-## Uwaga, potencjalnie dezorientujący fragment
-
-Załóżmy, że mamy parę strzałek `a : P → X` i `b : P → Y`. Wtedy istnieje unikalna strzałka `⟨a,b⟩`
-taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A czy `π₁' g` i `π₂' g` zachowują się jak `π₁` i `π₂`?
-Oczywiście, że tak, bo przecież to są te same strzałki: `π₁' g = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla
-`π₂' g`.
-
-A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem?  Produkt punktów `X` i `Y` każdej parze
-współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio przyporządkowywuje dokładnie jedną
-strzałkę `h` taką, że `π₁ h = f` i `π₂ h = g`. I odwrotnie, każda strzałka `h` z tego samego źródła
-co dowolne współźródłowe strzałki `f` i `g` odpowiada dokładnie jednej parze strzałek do `X` i `Y`,
-będących złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unikalne. A więc produkt to
-taki tłumacz albo wymieniacz takich strzałek do produktu i uporządkowanych par strzałek do jego
-"punktów końcowych", że wszystkie te strzałki mają to samo źródło.
-
-<hr>
-
 Każdy z tych izomorfizmów nazywamy
 [*kanonicznym*](https://sjp.pwn.pl/doroszewski/kanoniczny-I;5437673.html), bo każdy z nich jest w
 pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", albo "podstawowy". W
@@ -582,3 +563,18 @@ operacji, ale kanonicznie izomorficzne obiekty też możemy wymieniać *w pewnym
 dodatkowych operacji, ponieważ co prawda to wymaga na przykład przekształcenia projekcji
 wymienianego na inny produktu, ale wtedy *nie musimy wskazywać* tej *metody "transmutacji"*, skoro
 jest dokładanie jedna taka (kanoniczna) metoda w każdą stronę!
+
+## Uwaga, potencjalnie dezorientujący fragment
+
+Załóżmy, że mamy parę strzałek `a : P → X` i `b : P → Y`. Wtedy istnieje unikalna strzałka `⟨a,b⟩`
+taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A czy `π₁' g` i `π₂' g` zachowują się jak `π₁` i `π₂`?
+Oczywiście, że tak, bo przecież to są te same strzałki: `π₁' g = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla
+`π₂' g`.
+
+A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem?  Produkt punktów `X` i `Y` każdej parze
+współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio przyporządkowywuje dokładnie jedną
+strzałkę `h` taką, że `π₁ h = f` i `π₂ h = g`. I odwrotnie, każda strzałka `h` z tego samego źródła
+co dowolne współźródłowe strzałki `f` i `g` odpowiada dokładnie jednej parze strzałek do `X` i `Y`,
+będących złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unikalne. A więc produkt to
+również taki wymieniacz takich strzałek do produktu i uporządkowanych par strzałek do jego "punktów
+końcowych", że wszystkie te strzałki mają to samo źródło.
