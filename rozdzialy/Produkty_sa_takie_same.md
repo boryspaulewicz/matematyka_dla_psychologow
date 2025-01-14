@@ -66,7 +66,9 @@ zamienić jeden produkt w drugi dzięki temu, że `π₁ g = π₁'`, `π₂ g =
 
 Ponieważ dodatkowo każda strzałka `h : A → P` odpowiada unikalnej parze strzałek z `A` do `X` i `Y`
 będących złożeniami `π₁ h` i `π₂ h`, to każdy taki produkt jest izomorfizmem między strzałkami `A →
-P` i uporządkowanymi parami strzałek `A → X` i `A → Y`.
+P` i uporządkowanymi parami strzałek `A → X` i `A → Y`. Ten izomorfizm nie jest jednak izomorfizmem
+w tej samej kategorii, bo nie jest strzałką w tej kategorii, a tego wymaga kategoryjna definicja
+izomorfizmu.
 
 ## A teraz długo, powtarzając się, z sensem i korzystając z nieocenionej pomocy diagramów
 
@@ -571,10 +573,12 @@ taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A czy `π₁' g` i `π�
 Oczywiście, że tak, bo przecież to są te same strzałki: `π₁' g = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla
 `π₂' g`.
 
-A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem?  Produkt punktów `X` i `Y` każdej parze
+A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem? Produkt punktów `X` i `Y` każdej parze
 współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio przyporządkowywuje dokładnie jedną
 strzałkę `h` taką, że `π₁ h = f` i `π₂ h = g`. I odwrotnie, każda strzałka `h` z tego samego źródła
 co dowolne współźródłowe strzałki `f` i `g` odpowiada dokładnie jednej parze strzałek do `X` i `Y`,
 będących złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unikalne. A więc produkt to
 również taki wymieniacz takich strzałek do produktu i uporządkowanych par strzałek do jego "punktów
-końcowych", że wszystkie te strzałki mają to samo źródło.
+końcowych", że wszystkie te strzałki mają to samo źródło. Ten izomorfizm nie jest jednak
+izomorfizmem w tej samej kategorii, bo nie jest strzałką w tej kategorii, a tego wymaga kategoryjna
+definicja izomorfizmu.
