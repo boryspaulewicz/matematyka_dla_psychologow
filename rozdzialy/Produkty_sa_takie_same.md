@@ -129,7 +129,7 @@ te pary są - jako wzajemne odwrotności - nierozłączone, bo każdy izomorfizm
 charakterystyczną odwrotność, możemy powiedzieć, że dwa zbiory czteroelementowe są izomorficzne na
 *24* różne sposoby.
 
-## Metodę tłumaczenia trzeba zwykle *wybrać*
+## Metodę tłumaczenia trzeba zwykle *wskazać*
 
 Skoro zbiory `V` i `X × Y` są izomorficzne, to *zamiast mówić o elementach* `X × Y`, *możemy równie
 dobrze mówić o elementach* `V`, *o ile* wcześniej *wskażemy* jakiś *izomorfizm*. Gdybyśmy żadnego
