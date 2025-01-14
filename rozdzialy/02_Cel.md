@@ -187,7 +187,7 @@ Podkreślam, że cel jest zgodnie z tym punktem widzenia własnością *pary* z�
 dodatku *hipotetycznego*, a także przedmiotu jego obserwacji, a nie na przykład własnością *samego*
 zachowania, albo człowieka czy innego zwierzęcia, którego zachowanie jest obserwowane. To znaczy, że
 cel będę traktował jako własność *względną*. Brzmi to może abstrakcyjnie, ale chodzi tu w istocie o
-tak przyziemne sprawy jak fakt, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
+tak przyziemne sprawy jak to, że mówiąc na przykład "to poprawna" albo "to błędna odpowiedź", albo
 "tak nie wolno" albo "nie wypada", czy nawet "muszę się w tej chwili napić kawy", nieuchronnie
 odnosimy się do takiej preferencji, *niekoniecznie* traktując ją wtedy jak *swoją* albo *tylko*
 swoją.
