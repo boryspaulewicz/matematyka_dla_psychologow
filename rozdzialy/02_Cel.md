@@ -489,4 +489,5 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
     [*pierwsze* wydanie](http://incompleteideas.net/book/first/ebook/the-book.html), na którym
     zresztą z radością "zjadłem zęby" w trakcie studiów magisterskich.
 
-[8^]: *Kto z kim przestaje, takim się staje*. Można więc powiedzieć, że to będzie wizja podmiotowości wywodząca się wprost z ... przysłowia.
+[^8]: *Kto z kim przestaje, takim się staje*. Można więc powiedzieć, że to będzie wizja
+    podmiotowości wywodząca się wprost z ... przysłowia.
