@@ -196,7 +196,7 @@ jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 [R11 = R05 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
-[R12 = R06 Duży kwantyfikator, predykaty, mały fragment całkowicie zmyślonego artykułu i dowód na
+[R12 = R06 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/Duzy_predykaty_Bog.md)
 
 [R13 = R07 Duży kwantyfikator, predykaty i implikacja w

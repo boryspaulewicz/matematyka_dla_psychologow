@@ -10,7 +10,7 @@ inaczej sporo pary idzie w gwizdek. I jednocześnie podkreślam, że to tylko su
 
 <hr>
 
-# Duży kwantyfikator i predykaty (jako funkcje)
+# Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na istnienie Boga Anzelma z Canterbury
 
 Zaczniemy od dużego kwantyfikatora, bo z tym będzie najłatwiej.
 
