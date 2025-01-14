@@ -467,21 +467,21 @@ Możemy teraz wrócić do poprzedniego diagramu. Masz tam dwa (potencjalnie taki
 samych punktów, to jest `P` i `P'`, złożone z dwóch par (potencjalnie takich samych) projekcji. I
 masz tam dwie strzałki, `f` i `g`, spełniające warunki ...
 
-*h1*. `π₁' f = π₁` i `π₂' f = π₂`
+`h1`. `π₁' f = π₁` i `π₂' f = π₂`
 
-*h2*. `π₁ g = π₁'` i `π₂ g = π₂'`
+`h2`. `π₁ g = π₁'` i `π₂ g = π₂'`
 
 ... i wiesz, że obie strzałki są unikalnymi strzałkami spełniającymi "swoje" dwa warunki. Czy już
 się domyślasz, co teraz będzie? Te dwie strzałki są składalne na dwa sposoby. Złożenie `g f` ma taką
 własność, że ...
 
 `π₁ g f = π₁' f = π₁`  
-(bo *h2* i *h1*)
+(bo `h2` i `h1`)
 
 ... i ...
 
 `π₂ g f = π₂' f = π₂`  
-(bo *h2* i *h1*)
+(bo `h2` i `h1`)
 
 ... i tak samo złożenie `f g` ma taką własność, że `π₁' g f = π₁'` i `π₂' g f = π₂'`, co jak sądzę
 po pewnym czasie i być może kilku mniej udanych początkowych próbach możesz już udowodnić sama,
