@@ -362,11 +362,11 @@ realistyczną, bo tylko w pewien sposób bardziej adekwatną *opisowo* - a dokł
 teorii pomiaru psychologicznego, a nie wnosi, bo *nie może*. Wobec wszystkich modeli wywodzących się
 z teorii odpowiedzi na pozycje testowe, tak samo jak wobec wszelkich poznawczych i nie tylko takich
 rzekomych modeli *procesu reagowania*, zastosujemy ten sam prosty i uniwersalny meta-teoretyczny
-manewr, polegający na wyprowadzeniu dedukcyjnie z interpretacji strukturalnej tych modeli
-*absurdalnych* konsekwencji *kontrfaktycznych* i ten manerw pozwoli nam za każdym razem wskazać to
-samo fundamentalne źródło problemu, jakim jest nieunikniona przepaść[^9] między praktycznie
-osiągalną wymiarowością danych, a więc też złożonością identyfikowalnych modeli strukturalnych i
-efektywną złożonością procesu reagowania zwierząt.
+manewr, polegający na wyprowadzeniu z interpretacji strukturalnej tych modeli *absurdalnych*
+konsekwencji *kontrfaktycznych* i ten manerw pozwoli nam za każdym razem wskazać to samo
+fundamentalne źródło problemu, jakim jest nieunikniona przepaść[^9] między praktycznie osiągalną
+wymiarowością danych, a więc też złożonością identyfikowalnych modeli strukturalnych i efektywną
+złożonością procesu reagowania zwierząt.
 
 Dlatego [nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6]
 próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
