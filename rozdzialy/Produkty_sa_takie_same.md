@@ -547,6 +547,7 @@ więc:
 kanoniczny izomorfizm, który zamienia jeden z tych produktów w drugi*.
 
 <hr>
+
 ## Uwaga, potencjalnie dezorientujący fragment
 
 Załóżmy, że mamy parę strzałek `a : P → X` i `b : P → Y`. Wtedy istnieje unikalna strzałka `⟨a,b⟩`
