@@ -29,7 +29,9 @@ Kategoryjnym izomorfizmem nazywamy taką strzałkę `f : X → Y`, że istnieje 
 nazywamy odwrotnością `g`.
 
 Każda strzałka ma co najwyżej jedną odwrotność, ponieważ jeżeli `g` i `g'` są odwrotnościami
-strzałki `f`, to `g = g Id = g (f g') = (g f) g' = Id g' = g'`.
+strzałki `f`, to:
+
+`g = g Id = g (f g') = (g f) g' = Id g' = g'`.
 
 A więc dla każdej strzałki `f`, jej odwrotność, o ile istnieje, możemy oznaczyć jako `f⁻¹`.
 
