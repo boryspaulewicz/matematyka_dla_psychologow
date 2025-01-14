@@ -371,7 +371,7 @@ złożonością procesu reagowania zwierząt.
 Dlatego [nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6]
 próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
 wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie [*złożone*, *idiosynkratyczne*,
-*zmienne*](https://pubmed.ncbi.nlm.nih.gov/18085558/) i niemal z definicji zależne od niemal całkiem
+*zmienne*](https://pubmed.ncbi.nlm.nih.gov/18085558/) i w dużym stopniu zależne od niemal całkiem
 *nieobserwowalnej historii interakcji organizmu z jego środowiskiem*, to jest jak wygląda struktura
 mojego albo Twojego umysłu i przebieg naszych procesów umysłowych. Ani [*tym
 bardziej*](https://psycnet.apa.org/record/2021-53272-001) nie będziemy się koncentrować na tym, w
