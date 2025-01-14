@@ -499,4 +499,4 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
     przepaści wymiarowej - gdy nie ma dość informacji w danych, to po prostu nie ma i niezależnie od
     tego, *ile* wymiarów brakuje, pojawia się inferencyjna przepaść. A psychologowie nieustannie
     próbują odpowiadać na tak postawione pytania i jeszcze piszą o tych z góry skazanych na
-    niepowodzenie próbach artykuły "naukowe".
+    niepowodzenie próbach artykuły ["naukowe"](https://en.wikipedia.org/wiki/Cargo_cult).
