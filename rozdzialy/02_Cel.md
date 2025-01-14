@@ -225,7 +225,7 @@ wyrażenia formalnie i wprost pytań dotyczących tego,
 
 gdzie $Z$ będzie (stopniowalnym) wykonaniem jakiegoś *zadania*. Można powiedzieć, że w ten sposób
 zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl) i
-przez to nie był w stanie do końca sformalizować pojęć z dziedziny moralności, takich jak pojęcie
+przez to nie był w stanie do końca sformalizować pojęć z dziedziny moralności, takich jak pojęcia
 [odpowiedzialności i winy](https://link.springer.com/chapter/10.1007/978-3-642-23963-2_1), a
 mianowicie wyrazimy formalnie pytanie *jak coś można zrobić*.
 
@@ -234,11 +234,13 @@ Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)), jednocześni
 zrozumienie algorytmu *jako algorytmu* jest *tylko wtedy możliwe*, gdy mamy *najpierw* określony
 *jakikolwiek cel*, który ten algorytm *mógłby* lepiej lub gorzej realizować. A ponieważ fizyczna
 implementacja nigdy nie jest niezawodna, zamiast jak zaproponował Marr mówić o *trzech* poziomach
-analizy, będziemy mówić o *dwóch*, to jest o poziomach
+analizy, będziemy mówić głównie o *dwóch*, to jest o poziomach
 [teleologicznym](https://pl.wikipedia.org/wiki/Teleologia) i przyczynowo-stochastycznym, poziom
 algorytmiczny traktując jako szczególny, bo pozbawiony realizmu jakiego dostarcza wprowadzenie
 [stochastycznego tła](https://en.wikipedia.org/wiki/Exogenous_and_endogenous_variables), przypadek
-opisu czegoś w kategoriach przyczynowo-stochastycznych z perspektywy teleologicznej.
+opisu czegoś w kategoriach przyczynowo-stochastycznych z perspektywy teleologicznej, a poziom
+kontrfaktyczny traktując, zgodnie z jego definicją, jako narzędzie służące wyłącznie do badań czysto
+teoretycznych.
 
 Wprowadzimy tym samym uogólnioną wersję pojęcia
 [obliczalności](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), a dokładniej *arbitralnie
@@ -309,16 +311,16 @@ niezwykle ważnego dla psychologii behawioralnej i poznawczej, jak również dla
 (patrz [*reguła delty*](https://en.wikipedia.org/wiki/Delta_rule)) - [modelu warunkowania
 Rescorli-Wagnera](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model), rozumianego zresztą
 przez Rescorlę i Wagnera zadanio-centrycznie jako przybliżone rozwiązanie pewnego uniwersalnie
-ważnego dla zwierząt problemu predykcji. Tym samym *prawie* udało się Suttonowi i Barto poprawnie
-zdefiniować formalnie ogólne pojęcie działania celowego.
+ważnego dla zwierząt problemu predykcji. Tym samym *prawie* udało się Suttonowi i Barto podać
+formalną definicję działania celowego.
 
 Funkcja nagrody, czy też związana z nią funkcja wartości, *nie muszą* a nawet *nie powinny* być
 jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem, po prostu dlatego, że
-*fizyczna implementacja rozwiązania nie może być niezawodna*. Tego rodzaju funkcja musi być co
-prawda obecna przynajmniej niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie
-zadania*. Funkcję nagrody, wartości, czy oceny należy więc *oderwać od podmiotu, agenta, zachowania,
-czy wytworu działania celowego*, rozpoznając w niej dzięki temu *arbitralny wybór celu
-hipotetycznego zewnętrznego obserwatora*.
+*fizyczna implementacja rozwiązania nie może być niezawodna*. Zawsze gdy mówimy o problemach,
+zadaniach, działaniach lub zachowaniach tego rodzaju funkcja musi być co prawda obecna przynajmniej
+niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie zadania*. Funkcję nagrody, wartości, czy
+oceny należy więc *oderwać od podmiotu, agenta, zachowania, czy wytworu działania celowego*,
+rozpoznając w niej dzięki temu *arbitralny wybór hipotetycznego zewnętrznego obserwatora*.
 
 W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
@@ -339,29 +341,30 @@ definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to n
 miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to skoro pozycje
 testowe są *zawsze blisko związane treściowo*, można tą miarę interpretować jako co prawda
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
-zadanie udzielenia odpowiedzi na pozycje testowe*. Zobaczymy, że z tej perspektywy centralny pomysł
-Lorda i Novicka, leżący u podstaw [klasycznej teorii
-testów](https://en.wikipedia.org/wiki/Classical_test_theory), polegający na [*definicyjnym
+zadanie udzielenia odpowiedzi na pozycje testowe*. 
+
+Zobaczymy, że z tej perspektywy centralny pomysł Lorda i Novicka, leżący u podstaw [klasycznej
+teorii testów](https://en.wikipedia.org/wiki/Classical_test_theory), polegający na [*definicyjnym
 utożsamieniu*](https://www.cambridge.org/core/books/measuring-the-mind/1DB84F33B196C4F2658209B7BC8806E1)
-wartości mierzonej przez test z czysto statystyczną przecież [wartością
-oczekiwaną](https://pl.wikipedia.org/wiki/Warto%C5%9B%C4%87_oczekiwana) wyniku testu, chociaż
-absurdalny jako podstawa (nieosiągalnej) *przyczynowej* teorii pomiaru psychologicznego, jest jednak
-w innym, właściwym znaczeniu uzasadniony, ponieważ pozwala rozumieć wynik testu psychometrycznego
-jako *próbkę względnie dobrze określonego rodzaju zachowania*. 
+wartości mierzonej przez test z czysto statystyczną własnością jaką jest [wartość
+oczekiwana](https://pl.wikipedia.org/wiki/Warto%C5%9B%C4%87_oczekiwana) wyniku testu, chociaż
+absurdalny jako podstawa - nieosiągalnej - czysto *przyczynowej* teorii pomiaru psychologicznego,
+jest jednak w innym, właściwym znaczeniu uzasadniony, ponieważ pozwala rozumieć wynik testu
+psychometrycznego jako *próbkę względnie dobrze określonego rodzaju zachowania*.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
 20tych ubiegłego wieku](https://psycnet.apa.org/record/1925-16042-001), jest tylko pozornie bardziej
-realistyczną, bo tylko bardziej adekwatną *opisowo* - a dokładaniej *statystycznie* - alternatywą
-dla klasycznej teorii testów i w zasadzie *nic ważnego nie wnosi* do teorii pomiaru
-psychologicznego, a nie wnosi, bo *nie może*. Wobec wszystkich modeli wywodzących się z teorii
-odpowiedzi na pozycje testowe, tak samo jak wobec wszelkich rzekomych poznawczych i nie tylko takich
-modeli *procesu reagowania*, zastosujemy ten sam prosty meta-teoretyczny manewr, polegający na
-wyprowadzeniu dedukcyjnie z interpretacji strukturalnej tych modeli *absurdalnych* konsekwencji
-*kontrfaktycznych* i ten manerw pozwoli nam za każdym razem wskazać to samo fundamentalne źródło
-problemu, jakim będzie nieunikniona przepaść między praktycznie osiągalną wymiarowością danych, a
-więc też złożonością identyfikowalnych modeli strukturalnych i efektywną złożonością procesu
-reagowania zwierząt.
+realistyczną, bo tylko w pewien sposób bardziej adekwatną *opisowo* - a dokładaniej
+*statystycznie* - alternatywą dla klasycznej teorii testów i w zasadzie *nic ważnego nie wnosi* do
+teorii pomiaru psychologicznego, a nie wnosi, bo *nie może*. Wobec wszystkich modeli wywodzących się
+z teorii odpowiedzi na pozycje testowe, tak samo jak wobec wszelkich rzekomych poznawczych i nie
+tylko takich modeli *procesu reagowania*, zastosujemy zresztą ten sam prosty i uniwersalny
+meta-teoretyczny manewr, polegający na wyprowadzeniu dedukcyjnie z interpretacji strukturalnej tych
+modeli *absurdalnych* konsekwencji *kontrfaktycznych* i ten manerw pozwoli nam za każdym razem
+wskazać to samo fundamentalne źródło problemu, jakim jest nieunikniona przepaść między praktycznie
+osiągalną wymiarowością danych, a więc też złożonością identyfikowalnych modeli strukturalnych i
+efektywną złożonością procesu reagowania zwierząt.
 
 Dlatego [nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6]
 próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
