@@ -297,7 +297,7 @@ Eilenberg](https://pl.wikipedia.org/wiki/Samuel_Eilenberg) i [Saunders Mac
 Lane](https://pl.wikipedia.org/wiki/Saunders_Mac_Lane), z których pierwszy urodził się w Polsce i w
 Polsce studiował matematykę, chociaż inny wybitny polski matematyk, [Stanisław
 Ulam](https://pl.wikipedia.org/wiki/Stanis%C5%82aw_Ulam), podobnie jak kilku sympatyzujących z nim
-autorów, twierdził(ą), że tego rodzaju teoria "krążyła po Polsce" już w latach 30tych.
+autorów, twierdził, że tego rodzaju teoria "krążyła po Polsce" już w latach 30tych.
 
 ## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
