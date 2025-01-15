@@ -26,7 +26,7 @@ produktu kategoryjnego. Przyda się też, nomen omen, anielska cierpliwość.
 
 Ten fragment jest tylko po to, żeby Ci pokazać, że można prawie wszystko, o czym będę mówił w tym
 rozdziale, powiedzieć znacznie krócej. Być może ten fragment przyda Ci się od pewnego momentu jako
-przykład skrótowej notatki, ale wtedy warto byłoby go uzupełnić o diagramy.
+przykład skrótowej notatki, ale wtedy należałoby go uzupełnić o diagramy.
 
 Kategoryjnym izomorfizmem nazywamy taką strzałkę `f : X → Y`, że istnieje taka strzałka `g : Y → X`,
 że `f g = Id` i `g f = Id`. Strzałkę `g` nazywamy wtedy odwrotnością strzałki `f`, a strzałkę `f`
