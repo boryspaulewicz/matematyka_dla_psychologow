@@ -580,7 +580,7 @@ zerwiemy jeszcze z tego drzewa poznania tego co dobre i uniwersalne pewien soczy
 owoc.
 
 **Kanoniczna izomorficzność jako uogólnienie równości**: Skoro każda para produktów tych samych
-punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, albo taką jakby "własną" metodę wymiany
+punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, czyli taką jakby "własną" metodę wymiany
 jednego z nich na drugi bez żadnej utraty "funkcjonalności" (pun intended), to takie produkty są
 *zastępowalne* w ogólniejszym znaczeniu niż obiekty, które są po prostu *równe*. Równe obiekty
 możemy wymieniać bez zmiany treści zdań czy konstrukcji nie stosując żadnych dodatkowych operacji,
