@@ -344,9 +344,9 @@ kategoryjny punkt ma taką strzałkę, ale tym razem to się do czegoś przyda.
 Założyliśmy, że te dwie pary poziomych strzałek są w naszej bliżej nieokreślonej kategorii
 produktami tych samych dwóch punktów `X` i `Y`. Zgodnie z definicją produktu kategoryjnego, dla
 każdej pary współźródłowych strzałek do `X` i `Y` istnieje unikalna strzałka do `P'`, z której można
-zrekonstruować te dwie strzałki składając ją z projekcjami `A'`. Czy widzisz na swoim rysunku, że
+zrekonstruować te dwie strzałki składając ją z projekcjami `P'`. Czy widzisz na swoim rysunku, że
 już w tym momencie *mamy* dwie współźródłowe strzałki do `X` i `Y`, które nie są projekcjami `P'`?
-So nimi przecież projekcie produktu `A`!
+So nimi przecież projekcie produktu `P`!
 
 Z definicji produktu kategoryjnego wynika, że istnieje w tej sytuacji *co najmniej jedna* strzałka
 `f`, o której wiesz (jeżeli to jeszcze pamiętasz), że `π₁' f = π₁` i `π₂' f = π₂`. A ponieważ
