@@ -17,8 +17,8 @@ uprzedzam, że użyteczność kategoryjnego punktu widzenia, z którym próbuję
 czasu, być może nieprędko stanie się oczywista.
 
 Będzie chyba najlepiej, jeśli czytając ten rozdział nie będziesz się nigdzie spieszyć i być może
-przyda się czasem wrócić do poprzedniego rozdziału, a zwłaszcza do rysunku będącego definicją
-produktu kategoryjnego.
+trzeba będzie czasem wrócić do poprzedniego rozdziału, a zwłaszcza do rysunku będącego definicją
+produktu kategoryjnego. Przyda się też, nomen omen, anielska cierpliwość.
 
 # X ← '∘ → Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie tym samym produktem, bo są kanonicznie takie same
 
