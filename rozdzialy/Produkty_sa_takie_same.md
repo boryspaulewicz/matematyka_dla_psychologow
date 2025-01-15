@@ -328,7 +328,7 @@ To są projekcje produktu `P` ...
 
 `π₁ : P → X` i `π₂ : P → Y`
 
-... a to są projekcje (niekoniecznie różnego od `P`) produktu `P'`
+... a to są (niekoniecznie inne) projekcje (niekoniecznie różnego od `P`) produktu `P'`
 
 `π₁' : P' → X` i `π₂' : P' → Y`.
 
