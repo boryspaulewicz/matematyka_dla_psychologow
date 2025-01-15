@@ -349,18 +349,18 @@ So nimi przecież projekcie produktu `P`!
 
 Z definicji produktu kategoryjnego wynika, że istnieje w tej sytuacji *co najmniej jedna* strzałka
 `f`, o której wiesz (jeżeli to jeszcze pamiętasz), że `π₁' f = π₁` i `π₂' f = π₂`. A ponieważ
-definicja produktu mówi również, że istnieje *dokładnie jedna* taka strzałka, to taka strzałka `f`
-jest *funkcją* (albo *własnością*) pary współźródłowych strzałek, którymi w tym wypadku są `π₁` i
-`π₂`, wobec czego możemy ją oznaczyć również jako `⟨π₁,π₂⟩`. Dlatego `Narysuj` proszę tą strzałkę,
-ale tak, żeby była wygięta w łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie trzeba tam
-zmieścić jeszcze jedną analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą strzałkę z
-lewej jako `f = ⟨π₁,π₂⟩`. *My* będziemy nazywać takie strzałki *produktami strzałek*, ale powinnaś
-wiedzieć, że oficjalnie nazywa "się" je [*produktami
+definicja produktu mówi również, że istnieje *co najwyżej jedna* taka strzałka, to strzałka `f` jest
+*funkcją* (albo *własnością*) uporządkowanej pary współźródłowych strzałek `π₁` i `π₂`, wobec czego
+możemy ją oznaczyć również jako `⟨π₁,π₂⟩`. Dlatego `Narysuj` proszę tą strzałkę, ale tak, żeby była
+wygięta w łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie trzeba tam zmieścić jeszcze
+jedną analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą strzałkę z lewej jako `f =
+⟨π₁,π₂⟩`. *My* będziemy nazywać takie strzałki *produktami strzałek*, ale powinnaś wiedzieć, że
+oficjalnie nazywa "się" je [*produktami
 morfizmów*](https://pl.wikipedia.org/wiki/Produkt_(teoria_kategorii)).
 
 Czy widzisz, że istnieje również analogiczna unikalna strzałka w drugą stronę? Narysuj ją proszę w
 podobny sposób, tylko tak, żeby tworzyła łuk wygięty w drugą stronę i oznacz ją z prawej jako `g =
-⟨π₁', π₂'⟩`. Oto wszystko, co na razie wiemy - zakładając tylko aksjomaty kategorii i stosując
+⟨π₁',π₂'⟩`. Oto wszystko, co na razie wiemy - zakładając tylko aksjomaty kategorii i stosując
 definicję produktu - o tych dwóch strzałkach:
 
 1. `π₁' f = π₁' ⟨π₁,π₂⟩ = π₁` i `π₂' f = π₂' ⟨π₁,π₂⟩ = π₂`
