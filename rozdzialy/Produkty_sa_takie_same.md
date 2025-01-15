@@ -159,7 +159,7 @@ identyczność. Gdy chcemy oznaczyć jako izomorficzne dwa zbiory `U` i `W`, pis
 
 Symbol `≅` przypomina symbol `=`, ale ma jeszcze dodaną na górze falkę, którą nazywamy
 [*tyldą*](https://pl.wikipedia.org/wiki/Tylda) i która sugeruje, że mamy *niekoniecznie* (bo to w
-ogólnym przypadku *może* być też identyczność) do czynienia ze "ścisłą" identycznością.
+ogólnym przypadku *może* być też identyczność) do czynienia ze ścisłą identycznością.
 
 I to też jest pewien izomorfizm między zbiorami `V` i `X × Y`, ale inny niż `f`:
 
