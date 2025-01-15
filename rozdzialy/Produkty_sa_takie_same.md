@@ -394,7 +394,7 @@ złożenia `f g` i `g f`. Diagramy takie jak ten pozwalają łatwo *zobaczyć*, 
 składać z którymi. Czy widzisz, że dzięki temu takie diagramy mogą być bardzo pomocne w
 rozwiązywaniu problemów algebraicznych? Gdybyś nie miała przed oczami tego diagramu i napisałbym, że
 dopuszczalne są *tylko* złożenia `f g`, `g f`, `π₁' f`, `π₂' f`, `π₁ g` i `π₂ g`, to trudno byłoby
-Ci to zapamiętać, prawda? A tak możesz to zawsze łatwo odczytać z diagramu.
+Ci to zapamiętać, prawda? A tak możesz to zawsze łatwo *zobaczyć* na diagramie.
 
 Wiesz, że dwa *iloczyny kartezjańskie tych samych zbiorów* są izomorficzne. To może da się jakoś
 wykazać, że strzałki `f` i `g` też są, a nawet muszą być, izomorfizmami, które w dodatku są swoimi
