@@ -89,7 +89,7 @@ Ale czym *tak naprawdę* jest iloczyn kartezjański zbiorów?
 
 Na przykład, zbiór `V = {1, 2, 3, 4}` co prawda *nie wygląda* jak `X × Y`, ale jest do tego iloczynu
 *podobny pod tym względem*, że *ma tyle samo elementów*. A to znaczy, że między tymi dwoma zbiorami
-istnieje co najmniej jeden *izomorfizm*, ponieważ na tym właśnie, to jest na *równoliczności*,
+istnieje co najmniej jeden *izomorfizm*, ponieważ na tym właśnie, to jest na *samej równoliczności*,
 polega izomorfizm *zbiorów*.
 
 Zrobię teraz bez rysowania coś, co robiłaś wcześniej rysując strzałki wychodzące od poszczególnych
