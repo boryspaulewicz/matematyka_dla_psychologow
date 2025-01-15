@@ -45,7 +45,7 @@ i `g : A → Y` istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f
 jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`. 
 
 Ponieważ każdy produkt sam dostarcza, będącą jego projekcjami `π₁` i `π₂`, parę takich strzałek, to
-dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁,π₂> = π₁` i `π₂
+dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁, π₂> = π₁` i `π₂
 <π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwa warunki, bo `π₁ Id = π₁` i `π₂ Id =
 π₂`, to z unikalności takiej strzałki wynika, że `Id = <π₁,π₂>`.
 
@@ -201,7 +201,7 @@ tłumacza, możemy się dowolnie przełączać między dwoma sposobami mówienia
 Jak bardzo ten wybór konkretnego izomorfizmu pozwala traktować zbiór `V` jakby był *takim samym*
 zbiorem jak `X × Y`? Niemal całkowicie, a dokładniej, możemy traktować te dwa zbiory jakby *jedyną*
 różnicą między nimi było to, *jakie elementy do nich należą*. Ale przecież *to i tylko to decyduje o
-tożsamości zbioru*, a więc jak to "niemal całkowicie"?  
+tożsamości zbioru*, a więc jak to "niemal całkowicie"?
 
 Doskonałe pytanie. To faktycznie decyduje o *tożsamości* zbioru, ale to *nie* decyduje o jego
 *roli*, to jest o *możliwych sposobach użycia zbioru*. Zbiory, tak samo jak *wszystkie inne
@@ -352,10 +352,10 @@ Z definicji produktu kategoryjnego wynika, że istnieje w tej sytuacji *co najmn
 `f`, o której wiesz (jeżeli to jeszcze pamiętasz), że `π₁' f = π₁` i `π₂' f = π₂`. A ponieważ
 definicja produktu mówi również, że istnieje *dokładnie jedna* taka strzałka, to taka strzałka `f`
 jest *funkcją* (albo *własnością*) pary współźródłowych strzałek, którymi w tym wypadku są `π₁` i
-`π₂`, wobec czego możemy ją oznaczyć również jako `⟨π₁, π₂⟩`. Dlatego `Narysuj` proszę tą strzałkę,
+`π₂`, wobec czego możemy ją oznaczyć również jako `⟨π₁,π₂⟩`. Dlatego `Narysuj` proszę tą strzałkę,
 ale tak, żeby była wygięta w łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie trzeba tam
 zmieścić jeszcze jedną analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą strzałkę z
-lewej jako `f = ⟨π₁, π₂⟩`. *My* będziemy nazywać takie strzałki *produktami strzałek*, ale powinnaś
+lewej jako `f = ⟨π₁,π₂⟩`. *My* będziemy nazywać takie strzałki *produktami strzałek*, ale powinnaś
 wiedzieć, że oficjalnie nazywa "się" je [*produktami
 morfizmów*](https://pl.wikipedia.org/wiki/Produkt_(teoria_kategorii)).
 
