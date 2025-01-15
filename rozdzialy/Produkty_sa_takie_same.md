@@ -499,9 +499,9 @@ przeklejając ten fragment kodu do Leana i patrząc, jak zmienia się stan dowod
 przesuwasz kursor za kolejne instrukcje.
 
 Skoro poznałaś już najogólniejszą definicję izomorfizmu i wiesz, że kategoryjne odwrotności są
-unikalne (a stąd od razu wynika, że zarówno teoriotypowe jak i teoriomnogościowe odwrotności są
-unikalne), możemy wrócić do narysowanych już przez Ciebie dwóch produktów kategoryjnych połączonych
-wygiętymi strzałkami.
+unikalne (a stąd od razu wynika, że wszystkie tego rodzaju odwrotności, a więc również te
+teoriotypowe i teoriomnogościowe, są unikalne), możemy wrócić do narysowanych już przez Ciebie dwóch
+produktów kategoryjnych połączonych wygiętymi strzałkami.
 
 ## Wszystkie pary produktów tych samych punktów są kanonicznie izomorficzne
 
