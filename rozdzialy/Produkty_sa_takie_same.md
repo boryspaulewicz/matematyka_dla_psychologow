@@ -272,7 +272,7 @@ związek z iloczynem zbiorów produkt kategoryjny `X` i `Y` zapisujemy co prawda
 
 `X × Y`
 
-... ale to jest dla nas *tylko punkt zaczepienia strzałek* i *rozumiemy* ten zapis jako wygodny
+... ale to jest dla nas *tylko punkt zaczepienia strzałek* i *interpretujemy* ten zapis jako wygodny
 sposób *wskazywania dwóch współźródłowych strzałek* ...
 
 `π₁ : X × Y → X`  
