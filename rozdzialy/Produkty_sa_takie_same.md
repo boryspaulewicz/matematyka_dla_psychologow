@@ -256,8 +256,7 @@ Warto wiedzieć, że warunki 1 i 2 to coś, co trzeba *tylko raz sprawdzić*, gd
 czy jakieś konkretne obiekty można postrzegać abstrakcyjnie jako pewną kategorię. Jeżeli tylko te
 dwa warunki będą spełnione dla wszystkich obiektów, które chcemy oznaczyć strzałkami, a więc również
 dla wszystkich obiektów, które chcemy traktować jako punkty zaczepienia strzałek i dla operacji,
-którą chcemy traktować jako operację składania strzałek, w nadziei, że wyjdzie nam z tego jakaś
-kategoria, to będziemy mieli kategorię. 
+którą chcemy traktować jako operację składania strzałeka, to będziemy mieli kategorię.
 
 Na przykład, wiemy już, że oznaczając zbiory jako pozbawione wewnętrznej struktury punkty, funkcje
 jako pozbawione wewnętrznej struktury strzałki i operację składania funkcji jako abstrakcyjne
