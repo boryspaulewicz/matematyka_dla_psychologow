@@ -519,7 +519,21 @@ taką strzałką i `Id` też jest taką strzałką, to `f = Id`! A więc:
 
 Dla każdego produktu `P`, `Id : P → P = ⟨π₁,π₂⟩`, gdzie `π₁` i `π₂` to projekcje `P`.
 
-`Podpisz` proszę ten rysunek jakimś odpowiednim Twoim zdaniem komentarzem.
+**Pisanie dowodów palcem po kartce**: Pokażę Ci teraz coś moim zdaniem fajnego. `Narysuj` najpierw
+proszę, wygięte w łuk tak, żeby na siebie nie nachodziły, dwie strzałki z górnego `P` do dolnego `P`
+i oznacz je jako `Id` i `f`. W środku lewego i prawego skrzydła tego diagramu dodaj aptaszki,
+zaznaczając w ten sposób, że te części diagramu są przemienne na mocy definicji identyczności i
+produktu strzałek. Dodatkowo, w środku między dwiema wygiętymi w łuk, skierowanymi w dół strzałkami,
+dopisz jeszcze `∃¹`, żeby wyrazić w ten sposób, że ten diagram jest przemienny również w samym
+środku.
+
+A teraz połóż proszę koniec palca wskazującego na górnym `P` i przesuwając palec po kartce prześledź
+płynnie i niezbyt wolno dwie ścieżki - z górnego `P` przez `Id` i `π₁` do `X`, a potem znowu z
+górnego `P` przez `π₁'` do `X`. W ten sposób przywołasz równość strzałki `π₁'` i złożenia `π₁ ∘
+Id`. Tak samo udowodnij, że `π₂ Id = π₂'`. Te dwa pisane palcem po kartce dowody są razem dowodem,
+że `Id = <π₁',π₂'>`. Następnie przesuwając palec po diagramie udowodnij tak samo, że `f =
+<π₁',π₂'>`. Na koniec, wracając za każdym razem najpierw do górnego `P`, prześledź jeszcze palcem
+rysunki strzałek `Id` i `<π₁',π₂'>`. [Quod erat incantandum](https://en.wikipedia.org/wiki/Q.E.D.).
 
 Możemy teraz wrócić do poprzedniego diagramu. Masz tam dwa (potencjalnie takie same) produkty tych
 samych punktów, to jest `P` i `P'`, złożone z dwóch par (potencjalnie takich samych) projekcji. I
@@ -529,27 +543,31 @@ masz tam dwie strzałki, `f` i `g`, spełniające warunki ...
 
 `h2`. `π₁ g = π₁'` i `π₂ g = π₂'`
 
-... i wiesz, że obie strzałki są unikalnymi strzałkami spełniającymi "swoje" dwa warunki. Czy już
-się domyślasz, co teraz będzie? Te dwie strzałki są składalne na dwa sposoby. Złożenie `g f` ma taką
-własność, że ...
+... i wiesz, że obie strzałki są unikalnymi strzałkami spełniającymi dotyczące tych strzałek
+warunki. Czy domyślasz się już, co się teraz stanie? Te dwie strzałki są składalne na dwa
+sposoby. Złożenie `g f` ma taką własność, że ...
 
-`π₁ g f = π₁' f = π₁`  
-(bo `h2` i `h1`)
+`π₁ (g f) = π₁' f = π₁`  
+(bo łączność składania, `h2` i `h1`)
 
 ... i ...
 
-`π₂ g f = π₂' f = π₂`  
-(bo `h2` i `h1`)
+`π₂ (g f) = π₂' f = π₂`  
+(bo łączność składania, `h2` i `h1`)
 
 ... i tak samo złożenie `f g` ma taką własność, że `π₁' g f = π₁'` i `π₂' g f = π₂'`, co jak sądzę
-po pewnym czasie i być może kilku mniej udanych początkowych próbach możesz już udowodnić sama,
-korzystając z ostatniego dowodu jako wzorca. Co z tego wszystkiego wynika?
+po pewnym czasie i być może kilku mniej udanych początkowych próbach będziesz mogła udowodnić sama,
+korzystając z ostatniego dowodu jako wzorca. Spróbuj więc proszę wykonać ten dowód jako
+zaklęcie. Ale bądź ostrożna, bo to będzie wymagało między innymi wodzenia palcem po czterech
+pętlach, to jest po pętli `f g`, `g f` i po dwóch pętlach identycznościowych.
+
+Co z tego wszystkiego wynika?
 
 Projekcje złożenia `(g f) : P → P` są takie same jak projekcje `Id : P → P`, a skoro taka strzałka
 jest zgodnie z definicją produktu unikalna, to `g f = Id`. Tak samo projekcje złożenia `(f g) : P' →
 P'` są takie same jak projekcje `Id' : P' → P'`, a skoro taka strzałka jest unikalna, to `f g =
-Id'`. A więc `g` jest (kategoryjną) odwrotnością `f`, czyli `g = f⁻¹`, a więc to są izomorfizmy, a
-więc:
+Id'`. A więc `g` jest (kategoryjną) odwrotnością `f`, czyli `g = f⁻¹`, a więc to są izomorfizmy. Tym
+samym widzimy, że:
 
 *Każda para kategoryjnych produktów tych samych punktów jest izomorficzna i w każdą stronę istnieje
 kanoniczny izomorfizm, który zamienia jeden z tych produktów w drugi*.
@@ -557,20 +575,19 @@ kanoniczny izomorfizm, który zamienia jeden z tych produktów w drugi*.
 Każdy z tych izomorfizmów nazywamy
 [*kanonicznym*](https://sjp.pwn.pl/doroszewski/kanoniczny-I;5437673.html), bo każdy z nich jest w
 pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", albo "podstawowy". W
-końcu `f` uzyskaliśmy *w jedyny możliwy sposób korzystając z samych projekcji produktu* `P`, to jest
-z projekcji tego produktu i tak samo `g` uzyskaliśmy w jedyny możliwy sposób korzystając z samych
-projekcji produktu `P'`. Przy okazji zerwiemy teraz z tego drzewa poznania tego co dobre i
-uniwersalne pewien soczysty, nisko rosnący owoc.
+końcu `f` uzyskaliśmy *w jedyny możliwy sposób korzystając z samych projekcji produktu* `P` i tak
+samo `g` uzyskaliśmy w jedyny możliwy sposób korzystając z samych projekcji produktu `P'`. Na koniec
+zerwiemy jeszcze z tego drzewa poznania tego co dobre i uniwersalne soczysty, nisko rosnący owoc.
 
 **Kanoniczna izomorficzność jako uogólnienie równości**: Skoro każda para produktów tych samych
 punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, albo taką jakby "własną" metodę wymiany
 jednego z nich na drugi bez żadnej utraty "funkcjonalności" (pun intended), to takie produkty są
 *zastępowalne* w ogólniejszym znaczeniu niż obiekty, które są po prostu *równe*. Równe obiekty
-możemy wymieniać bez zmiany treści zdań czy sensu konstrukcji nie stosując żadnych dodatkowych
-operacji, ale kanonicznie izomorficzne obiekty też możemy wymieniać *w pewnym sensie* bez żadanych
-dodatkowych operacji, ponieważ co prawda to wymaga na przykład przekształcenia projekcji
-wymienianego na inny produktu, ale wtedy *nie musimy wskazywać* tej *metody "transmutacji"*, skoro
-jest dokładanie jedna taka (kanoniczna) metoda w każdą stronę!
+możemy wymieniać bez zmiany treści zdań czy konstrukcji nie stosując żadnych dodatkowych operacji,
+ale kanonicznie izomorficzne obiekty też możemy wymieniać *w pewnym sensie* bez żadanych dodatkowych
+operacji, ponieważ co prawda to wymaga na przykład przekształcenia projekcji wymienianego na inny
+produktu, ale wtedy *nie musimy wskazywać* metody transmutacji, ponieważ istnieje dokładanie jedna
+taka (kanoniczna) metoda w każdą stronę.
 
 ## Uwaga, potencjalnie dezorientujący fragment
 
