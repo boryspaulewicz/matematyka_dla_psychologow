@@ -44,13 +44,14 @@ Załóżmy, że `P` jest kategoryjnym produktem, którego projekcjami są strza�
 i `g : A → Y` istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h`
 jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`. 
 
-A więc dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁,π₂> = π₁`
-i `π₂ <π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwa warunki, bo `π₁ Id = π₁` i `π₂
-Id = π₂`, to `Id = <π₁,π₂>`.
+Ponieważ każdy produkt sam dostarcza, będącą jego projekcjami `π₁` i `π₂`, parę takich strzałek, to
+dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁,π₂> = π₁` i `π₂
+<π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwa warunki, bo `π₁ Id = π₁` i `π₂ Id =
+π₂`, to z unikalności takiej strzałki wynika, że `Id = <π₁,π₂>`.
 
-Dla każdych dwóch produktów `P` i `P'` tych samych punktów `X` i `Y` istnieją strzałki `<π₁',π₂'> :
-P → P'` i `<π₁,π₂> : P' → P`, spełniające warunki `π₁ <π₁',π₂'> = π₁'`, `π₂ <π₁',π₂'> = π₂'`, `π₁'
-<π₁,π₂> = π₁` i `π₂' <π₁,π₂> = π₂`. Oznaczmy te strzałki jako `f := <π₁,π₂>` i `g :=
+Dla każdych dwóch produktów `P` i `P'` tych samych punktów `X` i `Y` istnieją strzałki `<π₁,π₂> : P
+→ P'` i `<π₁',π₂'> : P' → P`, spełniające warunki `π₁ <π₁',π₂'> = π₁'`, `π₂ <π₁',π₂'> = π₂'`, `π₁'
+<π₁,π₂> = π₁` i `π₂' <π₁,π₂> = π₂`. Dla wygody oznaczamy te strzałki jako `f := <π₁,π₂>` i `g :=
 <π₁',π₂'>`. Strzałki `f` i `g` są składalne na dwa sposoby, to jest `f g` i `g f`. O strzałce
 będącej złożeniem `f g` wiemy, że:
 
@@ -58,11 +59,11 @@ będącej złożeniem `f g` wiemy, że:
 
 `π₂' (f g) = (π₂' f) g = (π₂' <π₁,π₂>) g = π₂ g = π₂ <π₁',π₂'> = π₂'`
 
-A więc `f g = Id`. Analogicznie `g f = Id`. A więc `g = f⁻¹`, skąd wynika, że każde dwa produkty
-tych samych punktów są kanonicznie izomorficzne w tym znaczeniu, że istnieje między nimi para
-izomorfizmów powstających w jedyny możliwy sposób z ich projekcji. Ponadto te izomorfizmy pozwalają
-zamienić jeden produkt w drugi dzięki temu, że `π₁ g = π₁'`, `π₂ g = π₂'`, `π₁' f = π₁`, `π₂' f =
-π₂`.
+A więc `f g = Id`. W ten sam sposób można wykazać, że `g f = Id`. A więc `g = f⁻¹`, skąd wynika, że
+każde dwa produkty tych samych punktów są kanonicznie izomorficzne w tym znaczeniu, że istnieje
+między nimi para izomorfizmów powstających w jedyny możliwy sposób z ich projekcji. Jak każdy
+izomorfizm, tak i te izomorfizmy pozwalają zamienić jeden produkt w drugi dzięki temu, że `π₁ g =
+π₁'`, `π₂ g = π₂'`, `π₁' f = π₁`, `π₂' f = π₂`.
 
 Ponieważ dodatkowo każda strzałka `h : A → P` odpowiada unikalnej parze strzałek z `A` do `X` i `Y`
 będących złożeniami `π₁ h` i `π₂ h`, to każdy taki produkt jest izomorfizmem między strzałkami `A →
