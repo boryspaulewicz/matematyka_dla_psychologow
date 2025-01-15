@@ -316,7 +316,7 @@ temat *wszystkich możliwych implementacji produktu*, a więc między innymi ró
 kartezjańskich zbiorów. Przyjmiemy, że mamy jakieś (a więc to będzie dowód zdania zaczynającego się
 od *Dla każdego*) dwa, niekoniecznie różne produkty jakiś punktów `X` i `Y` i - żeby uprościc
 notację, jak również podkreślić, że całkowicie ignorujemy ewentualną wewnętrzną strukturę tego, co
-mogłyby oznaczać punkty i strzałki - oznaczmy je jako `P` i `P'` (bo to będą *p*rodukty).
+mogłyby oznaczać punkty i strzałki - oznaczymy je jako `P` i `P'` (bo to będą *p*rodukty).
 
 Jak już wiesz, gdy nazywamy jakieś punkty produktami, nie chodzi nam tak naprawdę o te punkty, tylko
 o pewne specjalne pary współźródłowych strzałek, które ze względu na operację składania zachowują
