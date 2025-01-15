@@ -442,15 +442,15 @@ Możemy to udowodnić w Leanie dla funkcji teoriotypowych na przykład tak:
 -- Uwaga: Ten dowód jest celowo nieco przegadany i może być w tym momencie dla Ciebie trochę zbyt trudny,
 -- ale moim zdaniem już na tym etapie warto się nim trochę pobawić.
 
--- To jest znana Ci już funkcja tworząca dla dowolnego typu jego "pętlę identyczności"
+-- To jest znana Ci już funkcja tworząca dla dowolnego typu jego "pętlę identyczności":
 def ID (X : Type) : X → X := fun (x : X) => x
 
--- g i h to będą zaraz dwie funkcje, które spełniają warunek bycia odwrotnościami f
+-- g i h to będą zaraz dwie funkcje, które spełniają warunek bycia odwrotnościami f.
 variable (X Y : Type) (f : X → Y) (g h : Y → X)
 
--- Ten warunek oznacza, że g jest odwrotnością f, ...
+-- Ten warunek mówi, że g jest odwrotnością f, ...
 variable (h1 : g ∘ f = (ID X)) (h2 : f ∘ g = (ID Y)) 
--- ... a ten warunek oznacza, że h jest również odwrotnością f.
+-- ... a ten warunek mówi, że h jest również odwrotnością f.
 variable (h3 : h ∘ f = (ID X)) (h4 : f ∘ h = (ID Y))
 
 -- Lean nie zgłasza tutaj błędu, a więc dowód jest poprawny, co znaczy, że h i g to ta sama funkcja.
