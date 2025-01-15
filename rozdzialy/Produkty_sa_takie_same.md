@@ -505,10 +505,10 @@ produktów kategoryjnych połączonych wygiętymi strzałkami.
 ## Wszystkie pary produktów tych samych punktów są kanonicznie izomorficzne
 
 **Rysunek 2**: Pod ostatnim rysunkiem `Narysuj` proszę tak samo jeden nad drugim dwa produkty, ale
-tym razem niech to będą *te same* dwa produkty, to znaczy `P` i `P`, z *tymi samymi* projekcjami
-(nazywanymi oficjalnie raczej *rzutami kanonicznymi*, ale nie lubię tej nazwy) `π₁` i `π₂`. Skoro
-mamy tutaj parę współźródłowych strzałek z górnego `P` do `X` i `Y`, są nimi przecież projekcje `π₁`
-i `π₂`, to musi istnieć unikalna (`∃¹`) strzałka `f` z górnego `P` do dolnego `P` taka, że ...
+tym razem niech to będą *te same* dwa produkty `P` i `P`, z *tymi samymi* projekcjami (nazywanymi
+oficjalnie raczej *rzutami kanonicznymi*, ale nie lubię tej nazwy) `π₁` i `π₂`. Skoro mamy tutaj
+parę współźródłowych strzałek z górnego `P` do `X` i `Y`, są nimi przecież górne kopie projekcji
+`π₁` i `π₂`, to musi istnieć unikalna (`∃¹`) strzałka `f` z górnego `P` do dolnego `P` taka, że ...
 
 `π₁ f = π₁` i `π₂ f = π₂`
 
