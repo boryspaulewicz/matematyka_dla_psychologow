@@ -469,7 +469,7 @@ example : h = g := by
 
   -- Od tego momentu zaczynamy przekształcać hipotezę hcel, której dowód mamy już w kontekście.
   -- Argument at <nazwa> mówi taktyce rw, żeby dokonała przekstałcenia termu o nazwie nazwa, a nie
-  -- celu.
+  -- przekształcenia celu.
   rw [h5] at hcel                       -- hcel : (g ∘ f) ∘ h = g ∘ ID Y
   rw [h1] at hcel                       -- hcel : ID X ∘ h = g ∘ ID Y
   have h6 : (ID X) ∘ h = h := by rfl    -- z definicji
