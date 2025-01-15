@@ -139,7 +139,7 @@ wiedziałem od dawna, ale dopiero ostatnio zaczęło do mnie trochę lepiej doci
 wynika. Gdy poprosiłem doktorantów o skonstruowanie według wskazówek zapisanych w skrypcie w języku
 Lean dowodów kilku prostych tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez
 większego problemu. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania -
-zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała
+zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała to
 zadanie, "nie wiedziała, co się stało".
 
 Ta odpowiedź niedawno mi się przypomniała i od tej pory nie dawała mi spokoju. Dlatego poprosiłem
