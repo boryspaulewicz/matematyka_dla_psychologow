@@ -51,7 +51,7 @@ dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, 
 
 Dla każdych dwóch produktów `P` i `P'` tych samych punktów `X` i `Y` istnieją strzałki `<π₁,π₂> : P
 → P'` i `<π₁',π₂'> : P' → P`, spełniające warunki `π₁ <π₁',π₂'> = π₁'`, `π₂ <π₁',π₂'> = π₂'`, `π₁'
-<π₁,π₂> = π₁` i `π₂' <π₁,π₂> = π₂`. Dla wygody oznaczamy te strzałki jako `f := <π₁,π₂>` i `g :=
+<π₁,π₂> = π₁` i `π₂' <π₁,π₂> = π₂`. Dla wygody oznaczymy te strzałki jako `f := <π₁,π₂>` i `g :=
 <π₁',π₂'>`. Strzałki `f` i `g` są składalne na dwa sposoby, to jest `f g` i `g f`. O strzałce
 będącej złożeniem `f g` wiemy, że:
 
