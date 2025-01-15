@@ -5,8 +5,8 @@ w tym sensie, że każdy izomorficzny zbiór może spełniać dokładnie tą sam
 złożony z zupełnie innych elemntów. Wprowadzę też najogólniejszą znaną definicję
 izomorfizmu. Posługując się tą definicją i definicją produktu kategoryjnego będziesz mogła razem ze
 mną udowodnić, że wszystkie możliwe produkty, a więc nie tylko iloczyny kartezjańskie zbiorów, są
-określone tylko z dokładnością do kanonicznych izomorfizmów i że są - w interesującym, ogólniejszym
-znaczeniu niż na to pozwala równość - zastępowalne.
+określone tylko z dokładnością do kanonicznych izomorfizmów i że są dzięki temu - w interesującym,
+ogólniejszym znaczeniu niż na to pozwala równość - zastępowalne.
 
 Treści zawarte w tym rozdziale będą technicznie stosunkowo proste, to znaczy, bezmyślne
 konstruowanie dowodów będzie się niemal robiło samo, co jest zresztą cechą charakterystyczną i
