@@ -122,7 +122,7 @@ izomorfizmem - "nonszalancka identyczność".
 
 Możemy wykazać mechanicznie, czyli formalnie udowodnić, że `f` jest izomorfizmem, podając przykład
 takiej funkcji `g` z `X × Y` do `V`, że `∀ v ∈ V, g(f(v)) = v` i `∀ x ∈ X × Y, f(g(x)) = x`. Oto
-*jedyna możliwa* taka funkcja:
+jedyna możliwa taka funkcja:
 
 `g((1, a)) := 1`
 
