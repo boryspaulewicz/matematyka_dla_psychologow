@@ -322,9 +322,9 @@ zapoznać się z tą książką i za podzielenie się obserwacjami, dzięki któ
 bardzo podobnie o niektórych ważnych moim zdaniem sprawach.
 
 Piotrowi Wolskiemu, za błyskawiczne przeczytanie (w niedzielę wieczorem!) całego bodaj wprowadzenia
-niedługo po mojej wiadomości o tej książce, za bardzo miłe słowa zachęty, które potem padły, za
+niedługo po otrzymaniu wiadomości o tej książce, za bardzo miłe słowa zachęty, które potem padły, za
 podzielenie się cennymi refleksjami i za ujawnienie, zresztą nie po raz pierwszy i pewnie nie
-ostatni, jak podobnie myślimy o metodologii i o tym, jak się jej (niestety) zwykle, niemal wszędzie,
+ostatni, jak podobnie myślimy o metodologii i o tym, jak się jej (niestety) zwykle niemal wszędzie
 uczy psychologów.
 
 Iwonie Dudek, którą pamiętam jako zaangażowaną i otwartą uczestniczkę kursu z wnioskowania
