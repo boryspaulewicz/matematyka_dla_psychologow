@@ -64,10 +64,10 @@ którzy wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy.
 zaczynam na tym kursie mówić o [twierdzeniu
 Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to inaczej.
 
-Przedtem poprzedzałem wyprowadzenie dowodu krótkim ogólnym wprowadzeniem i gdy zapowiadałem
-uczestnikom, że zaraz będą sami go dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną
-panikę widziałem zresztą w oczach niektórych pracowników naukowych, którzy byli obecni na moim
-otwarciu przewodu, kiedy na slajdach pojawił się symbol [*sumy
+Przedtem poprzedzałem wyprowadzenie dowodu tego twierdzenia krótkim ogólnym wprowadzeniem i gdy
+zapowiadałem uczestnikom, że zaraz będą sami go dowodzić, zauważałem u niektórych objawy lekkiej
+paniki. Podobną panikę widziałem zresztą w oczach niektórych pracowników naukowych, którzy byli
+obecni na moim otwarciu przewodu, kiedy na slajdach pojawił się symbol [*sumy
 indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana) (*∑*). W tym roku po raz pierwszy
 spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na pierwszych albo drugich zajęciach, i
 postarałem się nakłonić wszystkich, żeby skupili się tylko na bardzo prostych w tym wypadku
