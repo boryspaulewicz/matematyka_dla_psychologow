@@ -520,11 +520,11 @@ Dla każdego produktu `P`, `Id : P → P = ⟨π₁,π₂⟩`, gdzie `π₁` i `
 
 **Pisanie dowodów palcem po kartce**: Pokażę Ci teraz coś moim zdaniem interesującego. `Narysuj`
 najpierw proszę, wygięte w łuk tak, żeby na siebie nie nachodziły, dwie strzałki z górnego `P` do
-dolnego `P` i oznacz je jako `Id` i `f`. W środku lewego i prawego skrzydła tego diagramu dodaj
-aptaszki, zaznaczając w ten sposób, że te części diagramu są przemienne na mocy definicji
+dolnego `P` i oznacz je jako `Id` i `⟨π₁,π₂⟩`. W środku lewego i prawego skrzydła tego diagramu
+dodaj ptaszki, zaznaczając w ten sposób, że te części diagramu są przemienne na mocy definicji
 identyczności i produktu strzałek. Dodatkowo, w środku między dwiema wygiętymi w łuk, skierowanymi w
-dół strzałkami, dopisz jeszcze `∃¹`, żeby wyrazić w ten sposób, że ten diagram jest przemienny
-również w samym środku.
+dół strzałkami, dopisz jeszcze `∃¹`, żeby wyrazić w ten sposób, że serce tego diagramu jest też jest
+przemienne.
 
 A teraz połóż proszę koniec palca wskazującego na górnym `P` i przesuwając palec po kartce prześledź
 płynnie i niezbyt wolno dwie ścieżki - z górnego `P` przez `Id` i `π₁` do `X`, a potem znowu z
