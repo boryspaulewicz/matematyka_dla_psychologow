@@ -13,11 +13,11 @@ konstruowanie dowodów będzie się niemal robiło samo, co jest zresztą cechą
 zarazem wielką zaletą wielu dowodów kategoryjnych, ale jednocześnie, z powodu ekstremalnego poziomu
 abstrakcji, połączonego z bliskością narzucającego się przykładu konkretnej kategorii zbiorów i
 funkcji, trudności w dopatrzeniu się w tym wszystkim sensu będą prawdopodobnie spore. Dlatego
-uprzedzam, że użyteczność kategoryjnego punktu widzenia, z którym próbuję Cię oswoić już od pewnego
-czasu, być może nieprędko stanie się dla Ciebie oczywista.
+uprzedzam, że użyteczność kategoryjnego punktu widzenia, z którym próbuję Cię już od pewnego czasu
+oswoić, być może nieprędko stanie się dla Ciebie oczywista.
 
 Sugeruję, żebyś czytając ten rozdział nigdzie się nie spieszyła. Być może będzie Ci łatwiej, jeśli
-czasem wrócisz do poprzedniego rozdziału i do rysunku będącego definicją produktu
+czasem wrócisz do poprzedniego rozdziału, a zwłaszcza do rysunku będącego definicją produktu
 kategoryjnego. Przyda się też, nomen omen, anielska cierpliwość.
 
 # X ← '∘ → Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie tym samym produktem, bo są kanonicznie takie same
