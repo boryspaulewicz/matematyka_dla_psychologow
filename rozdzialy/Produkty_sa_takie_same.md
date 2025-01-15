@@ -289,7 +289,7 @@ uczyć o możliwości elastycznego czytania takich części formalnych zdań. Mo
 tego zdania na przykład tak: *Dla każdego punktu `Z` i dla każdych funkcji `f` i `g` takich, że
 ...*. 
 
-To, że duże kwantyfikatory występują tu jeden po drugim pozwala nam jednak odczytać to w innej
+To, że duże kwantyfikatory występują tu jeden po drugim, pozwala nam jednak odczytać to w innej
 kolejności i dzięki temu, przynajmniej moim zdaniem, bardziej zrozumiale: *Dla dowolnych dwóch
 współźródłowych strzałek do punktów `X` i `Y` ...*. Korzystamy w ten sposób z faktu, że duży
 kwantyfikator to (między innymi) parametr, a więc zmienne związane dużymi kwantyfikatorami, takie
