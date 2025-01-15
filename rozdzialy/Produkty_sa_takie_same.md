@@ -547,19 +547,19 @@ masz tam dwie strzałki, `f` i `g`, spełniające warunki ...
 warunki. Czy domyślasz się już, co się teraz stanie? Te dwie strzałki są składalne na dwa
 sposoby. Złożenie `g f` ma taką własność, że ...
 
-`π₁ (g f) = π₁' f = π₁`  
+`π₁ (g f) = (π₁ g) f = π₁' f = π₁`  
 (bo łączność składania, `h2` i `h1`)
 
 ... i ...
 
-`π₂ (g f) = π₂' f = π₂`  
+`π₂ (g f) = (π₂ g) f = π₂' f = π₂`  
 (bo łączność składania, `h2` i `h1`)
 
-... i tak samo złożenie `f g` ma taką własność, że `π₁' g f = π₁'` i `π₂' g f = π₂'`, co jak sądzę
-po pewnym czasie i być może kilku mniej udanych początkowych próbach będziesz mogła udowodnić sama,
-korzystając z ostatniego dowodu jako wzorca. Spróbuj więc proszę wykonać ten dowód jako
-zaklęcie. Ale bądź ostrożna, bo to będzie wymagało między innymi wodzenia palcem po czterech
-pętlach, to jest po pętli `f g`, `g f` i po dwóch pętlach identycznościowych.
+... i tak samo można wykazać, że złożenie `f g` ma taką własność, że `π₁' g f = π₁'` i `π₂' g f =
+π₂'`, co jak sądzę po pewnym czasie i być może kilku mniej udanych początkowych próbach będziesz
+mogła udowodnić sama, korzystając z ostatniego dowodu jako wzorca. Spróbuj więc proszę wykonać ten
+dowód jako zaklęcie. Ale bądź ostrożna, bo to będzie wymagało między innymi wodzenia palcem po
+czterech pętlach, to jest po pętli `f g`, `g f` i po dwóch pętlach identycznościowych.
 
 Co z tego wszystkiego wynika?
 
