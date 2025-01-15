@@ -71,7 +71,7 @@ P` i uporządkowanymi parami strzałek `A → X` i `A → Y`. Ten izomorfizm nie
 w tej samej kategorii, bo nie jest strzałką w tej kategorii, a tego wymaga kategoryjna definicja
 izomorfizmu.
 
-## A teraz długo, powtarzając się, z sensem i korzystając z nieocenionej pomocy diagramów
+## A teraz długo, powtarzając się, czasem z sensem i korzystając z nieocenionej pomocy diagramów
 
 Jeżeli ...
 
