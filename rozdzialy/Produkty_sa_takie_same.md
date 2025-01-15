@@ -525,7 +525,7 @@ strzałki z górnego `P` do dolnego `P` i oznacz je jako `Id` i `f`. W środku l
 skrzydła tego diagramu dodaj ptaszki, zaznaczając w ten sposób, że te części diagramu są przemienne
 na mocy definicji identyczności i produktu strzałek. Dodatkowo, w środku między dwiema wygiętymi w
 łuk, skierowanymi w dół strzałkami, dopisz jeszcze `∃¹`, żeby wyrazić w ten sposób, że serce tego
-diagramu jest też jest przemienne.
+diagramu też jest przemienne.
 
 A teraz połóż proszę koniec palca wskazującego na górnym `P` i przesuwając palec po kartce prześledź
 płynnie i niezbyt wolno dwie ścieżki - z górnego `P` przez `Id` i `π₁` do `X`, a potem znowu z
