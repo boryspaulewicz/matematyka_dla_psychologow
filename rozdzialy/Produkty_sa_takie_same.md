@@ -241,8 +241,8 @@ przekonamy, to wszystko wynika z definicji produktu kategoryjnego.
 ## Pierwszy przelot
 
 Teraz musimy uważać, bo *zmieniamy język*, a więc zmieniamy również punkt widzenia i rozważamy odtąd
-*dowolną* kategorię, to jest *jakąkolwiek kolekcję strzałek spełniającą wymagania kategoryjnego
-składania* (zapisane już maksymalnie skrótowo, bo bez symbolu składania):
+*dowolną* kategorię, to jest *jakąkolwiek kolekcję strzałek spełniającą wymagania* (zapisane
+maksymalnie skrótowo, bo bez symbolu składania) *kategoryjnego składania* :
 
 1. `Id f = f = f Id`
 
