@@ -62,8 +62,8 @@ będącej złożeniem `f g` wiemy, że:
 A więc `f g = Id`. W ten sam sposób można wykazać, że `g f = Id`. A więc `g = f⁻¹`, skąd wynika, że
 każde dwa produkty tych samych punktów są kanonicznie izomorficzne w tym znaczeniu, że istnieje
 między nimi para izomorfizmów powstających w jedyny możliwy sposób z ich projekcji. Jak każdy
-izomorfizm, tak i te izomorfizmy pozwalają zamienić jeden produkt w drugi dzięki temu, że `π₁ g =
-π₁'`, `π₂ g = π₂'`, `π₁' f = π₁`, `π₂' f = π₂`.
+izomorfizm, tak i te izomorfizmy pozwalają zamienić jeden produkt w drugi, w tym wypadku dzięki
+temu, że `π₁ g = π₁'`, `π₂ g = π₂'`, `π₁' f = π₁`, `π₂' f = π₂`.
 
 Ponieważ dodatkowo każda strzałka `h : A → P` odpowiada unikalnej parze strzałek z `A` do `X` i `Y`
 będących złożeniami `π₁ h` i `π₂ h`, to każdy taki produkt jest izomorfizmem między strzałkami `A →
