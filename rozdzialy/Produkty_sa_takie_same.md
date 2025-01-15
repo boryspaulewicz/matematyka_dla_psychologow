@@ -293,7 +293,7 @@ kolejności i dzięki temu, przynajmniej moim zdaniem, bardziej zrozumiale: *Dla
 współźródłowych strzałek do punktów `X` i `Y` ...*. Korzystamy w ten sposób z faktu, że duży
 kwantyfikator to (między innymi) parametr, a więc zmienne związane dużymi kwantyfikatorami, takie
 jak `Z`, `f` i `g` w tym formalnym zdaniu, pełnią rolę zaimków. To samo zresztą dotyczy symbolu `h`,
-ale ponieważ jeszcze nie mówiliśmy o kwantyfikatorze egzystancjalnym, to może nie być takie
+ale ponieważ jeszcze nie mówiliśmy o kwantyfikatorze egzystencjalnym, to może nie być takie
 oczywiste.
 
 Być może łatwiej jest zapamiętać definicję produktu kategoryjnego myślać o niej w kategoriach czegoś
