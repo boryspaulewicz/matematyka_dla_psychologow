@@ -428,11 +428,13 @@ Zauważyłaś, że ten ostatni dowód wymaga, żeby zobaczyć wyrażenie `g f h`
 `(g f) h`, które jest z założenia równe `Id h`, a raz jako `g (f h)`, które jest z (innego)
 założenia równe `g Id`? Dlatego mam wątpliwości, czy ta wersja dowodu jest faktycznie prostsza.
 
-Można też jeszcze prościej, korzystając niejawnie również z założenia, że `g f = Id` i `f h = Id` ...
+Można ten dowód zapisać jeszcze krócej, korzystając niejawnie również z założenia, że `g f = Id` i
+`f h = Id` ...
 
 `h = g f h = g`
 
-... ale to już wymaga sporej domyślności.
+... ale z drugiej strony w ten sposób jeszcze bardziej obciążamy pamięć operacyjną czytelniczki albo
+czytelnika.
 
 Możemy to udowodnić w Leanie dla funkcji teoriotypowych na przykład tak:
 
