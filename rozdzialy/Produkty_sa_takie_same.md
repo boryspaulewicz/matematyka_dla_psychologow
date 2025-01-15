@@ -301,7 +301,7 @@ przypominającego *dzielenie liczb*: Jeżeli `A` jest kategoryjnym produktem zbi
 istnieją strzałki `π₁ : A → X` i `π₂ : A → Y` takie, że dla każdej pary strzałek `f : Z → Y` i `g :
 Z → X` istnieje jedna i tylko jedna strzałka `h`, przez którą "dzielą się projekcyjnie" strzałki `f`
 i `g`, to jest która spełnia warunek `f = π₁ h` i `g = π₂ h`. Czy widzisz, że to wygląda tak, jakby
-`h` było jedynym "podwójnym `π`-dzielnikiem" `f` i `g`?
+`h` było jedynym "`π`-dzielnikiem" `f` i `g`?
 
 Dlatego właśnie, że taka strzałka jakby "wynika" w ten sposob z `f` i `g`, możemy ją zapisać jako
 `⟨f,g⟩`, albo stwierdzić, że `h = ⟨f,g⟩`. To będzie *jedyna* własność produktu, z której będziemy
