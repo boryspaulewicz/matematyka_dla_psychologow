@@ -413,7 +413,7 @@ złożeniowa", a dzięki temu maksymalnie ogólna.
 
 Udowodnimy teraz na kilka sposobów, że dla dowolnej strzałki `f`, istnieje co najwyżej jedna
 obustronnie odwrotna strzałka `g`. Jeżeli jakaś strzałka `h` również spełnia te same dwa warunki, co
-`g`, to ...
+`g`, czyli jeżeli również `h f = Id` i `f h = Id`,to ...
 
 `h = Id h = (g f) h = g (f h) = g Id = g`  
 (zawsze można dołożyć `Id` do złożenia nie zmieniając go, `Id = (g f)` z założenia, `(g f) h = g (f
