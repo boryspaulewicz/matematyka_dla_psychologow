@@ -243,7 +243,7 @@ przekonamy, to wszystko wynika z definicji produktu kategoryjnego.
 
 Teraz musimy uważać, bo *zmieniamy język*, a więc zmieniamy również punkt widzenia i rozważamy odtąd
 *dowolną* kategorię, to jest *jakąkolwiek kolekcję strzałek spełniającą wymagania* (zapisane
-maksymalnie skrótowo, bo bez symbolu składania) *kategoryjnego składania* :
+maksymalnie skrótowo, bo bez symbolu składania) *kategoryjnego składania*:
 
 1. `Id f = f = f Id`
 
