@@ -6,15 +6,15 @@ zrozumieniem nie ca³kiem banalnych tre¶ci przestaje byæ mo¿liwe po oko³o 30 minu
 o warunkach sprzyjaj±cych, a nie na przyk³ad o czytaniu w zat³oczonym poci±gu na kacu, co mi siê
 oczywi¶cie nigdy w ¿yciu nie zda¿y³o. Po 30, a mo¿e nawet ju¿ 25 minutach wydaje mi siê czêsto, ¿e
 siê dopiero co wci±gn±³em, ale mniej wiêcej po tym czasie moja zdolno¶æ do dalszego przyswajania
-informacji zaczyna, ¿e tak powiem, ryæ o ziemiê. Zacz±³em to sprawdzaæ tak dawno, ¿e u¿ywa³em do
-tego jeszcze zegarka z [ró¿± wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w)
-jako minutnikiem.
+informacji zaczyna, ¿e tak powiem, ryæ o ziemiê. Sprawdza³em to wiele, wiele razy. Zacz±³em to
+sprawdzaæ tak dawno, ¿e u¿ywa³em do tego jeszcze zegarka z [ró¿±
+wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutnikiem.
 
 Dlatego na zajêciach czêsto wprowadzam krótkie przerwy co oko³o pó³ godziny i dlatego staram siê
 pisaæ rozdzia³y tak, ¿eby tyle te¿ mniej wiêcej trwa³o ich przeczytanie (zak³adaj±c aktywn± postawê
 w trakcie lektury wcze¶niejszych rozdzia³ów). Sam zreszt± potrzebujê takich krótkich przerw w
 trakcie prowadzenia zajêæ, bo dziêki temu czêsto zauwa¿am, ¿e zapomnia³em powiedzieæ co¶ wa¿nego,
-albo, ¿e mogê co¶ powiedzieæ lepiej. Sprawdza³em to wiele, wiele razy.
+albo, ¿e mogê co¶ powiedzieæ lepiej.
 
 Po oko³o 25-30 minutach dobrze na mnie dzia³a krótka przerwa. Najlepiej, gdy to jest oko³o 5 minut
 nie robienia niczego wci±gaj±cego ani poznawczo (na przyk³ad, czytanie odpada, podobnie jak
