@@ -459,8 +459,8 @@ example : h = g := by
   -- dowód hipotezy hcel, która jest taką hipotezą, że będziemy mogli do niej zastosować dostępne
   -- założenia, żeby ją stopniowo przekształcić w cel, czyli w zdanie h = g.
   --
-  -- Używając instrukcji have tworzymy taki jakby dowód w dowodzie i nadajemy udowodnionemu zdaniu
-  -- nazwę (w tym wypadku nazwę hcel).
+  -- Używając instrukcji have tworzymy dowód wewnątrz dowodu i nadajemy udowodnionemu zdaniu nazwę
+  -- (w tym wypadku nazwę hcel).
   have hcel : g ∘ (f ∘ h) = g ∘ (ID Y) := by rw [h4] -- Tutaj (lokalnym) celem jest zdanie hcel.
 
   -- Łączność składania funkcji teoriotypowych wynika z definicji tej operacji, a więc wystarcza
