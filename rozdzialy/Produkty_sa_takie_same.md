@@ -508,15 +508,18 @@ produktów kategoryjnych połączonych wygiętymi strzałkami.
 **Rysunek 2**: Pod ostatnim rysunkiem `Narysuj` proszę tak samo jeden nad drugim dwa produkty, ale
 tym razem niech to będą *te same* dwa produkty, to znaczy `P` i `P`, z *tymi samymi* projekcjami
 (nazywanymi oficjalnie raczej *rzutami kanonicznymi*, ale nie lubię tej nazwy) `π₁` i `π₂`. Skoro
-mamy tutaj parę współźródłowych strzałek z górnego `P` do `X` i `Y`, są nimi przecież obie projekcje
-`π₁` i `π₂`, to musi istnieć unikalna (`∃¹`) strzałka `f` z górnego `P` do dolnego `P` taka, że ...
+mamy tutaj parę współźródłowych strzałek z górnego `P` do `X` i `Y`, są nimi przecież projekcje `π₁`
+i `π₂`, to musi istnieć unikalna (`∃¹`) strzałka `f` z górnego `P` do dolnego `P` taka, że ...
 
 `π₁ f = π₁` i `π₂ f = π₂`
 
 ... a skoro każdy punkt jest wyposażony w swoją identyczność i identyczność `P` spełnia (z definicji
 identyczności) oba te wymagania, to jest `π₁ Id = π₁` i `π₂ Id = π₂`, to skoro `f` jest *unikalną*
-taką strzałką i `Id` też jest taką strzałką, to `f = Id`! A więc `f = Id = ⟨π₁,π₂⟩` Podpisz proszę
-ten rysunek jakimś Twoim zdaniem odpowiednim komentarzem.
+taką strzałką i `Id` też jest taką strzałką, to `f = Id`! A więc:
+
+Dla każdego produktu `P`, `Id : P → P = ⟨π₁,π₂⟩`, gdzie `π₁` i `π₂` to projekcje `P`.
+
+`Podpisz` proszę ten rysunek jakimś odpowiednim Twoim zdaniem komentarzem.
 
 Możemy teraz wrócić do poprzedniego diagramu. Masz tam dwa (potencjalnie takie same) produkty tych
 samych punktów, to jest `P` i `P'`, złożone z dwóch par (potencjalnie takich samych) projekcji. I
