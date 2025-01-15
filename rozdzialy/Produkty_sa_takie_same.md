@@ -404,7 +404,7 @@ wykazać, musimy najpierw wprowadzić jeszcze jedną definicję kategoryjną.
 ## Kategoryjny izomorfizm
 
 **Kategoryjna definicja izomorfizmu**: Izomorfizmem (kategoryjnym) nazywamy taką strzałkę `f`, że
-istnieje strzałka `g` spełniająca warunek `g f = Id` i `f g = Id`.
+istnieje strzałka `g` spełniająca warunki `g f = Id` i `f g = Id`.
 
 Czyli kategoryjny izomorfizm to strzałka, która ma strzałkę obustronnie odwrotną. I tyle, to jest
 cała kategoryjna definicja izomorfizmu. Zwróć proszę uwagę, że ta definicja nie mówi nic na temat
