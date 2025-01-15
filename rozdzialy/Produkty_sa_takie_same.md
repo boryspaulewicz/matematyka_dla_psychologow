@@ -389,7 +389,7 @@ wymagania. Teraz możemy zadać pytanie o to, jak te dwie strzałki *mają się 
 nawzajem*.
 
 Na Twoim diagramie od razu widać, że te dwie strzałki są składalne na dwa sposoby, to jest jako
-złożenia `f g` i `g f`. Diagramy takie jak ten pozwalają łatwo *zobaczyć*, które strzałki można
+złożenia `f g` i `g f`. Kategoryjne diagramy pozwalają łatwo *zobaczyć*, które strzałki można
 składać z którymi. Czy widzisz, że dzięki temu takie diagramy mogą być bardzo pomocne w
 rozwiązywaniu problemów algebraicznych? Gdybyś nie miała przed oczami tego diagramu i napisałbym, że
 dopuszczalne są *tylko* złożenia `f g`, `g f`, `π₁' f`, `π₂' f`, `π₁ g` i `π₂ g`, to trudno byłoby
