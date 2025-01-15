@@ -349,6 +349,10 @@ napisać w tym rozdziale trochę więcej na temat różnicy między technicznymi
 "parametr" i "argument". Całkiem możliwe, że dzięki temu ten fragment będzie łatwiejszy do
 zrozumienia dla innych.
 
+I jeszcze raz czternastoletniemu Szymonowi Stryplingowi, który bez większych trudności przeszedł
+rozdział 21=15 i przy okazji znalazł tam jeden niepotrzebny fragment, który został po poprzedniej
+wersji pewnego zdania i w dodatku zawierał błąd gramatyczny.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
