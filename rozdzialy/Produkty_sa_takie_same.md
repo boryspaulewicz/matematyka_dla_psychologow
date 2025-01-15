@@ -364,9 +364,9 @@ podobny sposób, tylko tak, żeby tworzyła łuk wygięty w drugą stronę i ozn
 ⟨π₁', π₂'⟩`. Oto wszystko, co na razie wiemy - zakładając tylko aksjomaty kategorii i stosując
 definicję produktu - o tych dwóch strzałkach:
 
-1. `π₁' f = π₁' ⟨π₁, π₂⟩ = π₁` i `π₂' f = π₂' ⟨π₁, π₂⟩ = π₂`
+1. `π₁' f = π₁' ⟨π₁,π₂⟩ = π₁` i `π₂' f = π₂' ⟨π₁,π₂⟩ = π₂`
 
-2. `π₁ g = π₁ ⟨π₁', π₂'⟩ = π₁'` i `π₂ g = π₂ ⟨π₁', π₂'⟩ = π₂'`
+2. `π₁ g = π₁ ⟨π₁',π₂'⟩ = π₁'` i `π₂ g = π₂ ⟨π₁',π₂'⟩ = π₂'`
 
 Jeżeli to dla Ciebie w tym momencie trochę za wiele symboli na raz, to pamiętaj, że zawsze możesz
 próbować sobie uprościć zapis algebraiczny stosując tymczasowe oznaczenia, które możesz rozpakować
