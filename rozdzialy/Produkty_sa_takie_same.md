@@ -565,7 +565,7 @@ Co z tego wszystkiego wynika?
 Projekcje złożenia `(g f) : P → P` są takie same jak projekcje `Id : P → P`, a skoro taka strzałka
 jest zgodnie z definicją produktu unikalna, to `g f = Id`. Tak samo projekcje złożenia `(f g) : P' →
 P'` są takie same jak projekcje `Id' : P' → P'`, a skoro taka strzałka jest unikalna, to `f g =
-Id'`. A więc `g` jest (kategoryjną) odwrotnością `f`, czyli `g = f⁻¹`, a więc to są izomorfizmy. Tym
+Id`. A więc `g` jest (kategoryjną) odwrotnością `f`, czyli `g = f⁻¹`, a więc to są izomorfizmy. Tym
 samym widzimy, że:
 
 *Każda para kategoryjnych produktów tych samych punktów jest izomorficzna i w każdą stronę istnieje
