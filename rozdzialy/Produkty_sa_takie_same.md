@@ -308,9 +308,9 @@ Dlatego właśnie, że taka strzałka jakby "wynika" w ten sposob z `f` i `g`, m
 `⟨f,g⟩`, albo stwierdzić, że `h = ⟨f,g⟩`. To będzie *jedyna* własność produktu, z której będziemy
 korzystać w tym rozdziale. Będziemy więc czasem szukać dwóch strzałek `h` i `h'` takich, że obie
 `π`-dzielą tą samą parę współźródłowych strzałek `f` i `g` i na tej podstawie będziemy wyprowadzać
-wniosek, że `h = h'`, albo, bardziej "pośrednio", że `h = ⟨f,g⟩` i `h' = ⟨f,g⟩`, a więc `h =
-h'`. Jak widzisz, zgodnie z tym, co zapowiedziałem na początku, algebraicznie czy też mechanicznie
-wszystko będzie w tym rozdziale dosyć proste.
+wniosek, że `h = h'`, albo, bardziej pośrednio, że `h = ⟨f,g⟩` i `h' = ⟨f,g⟩`, a więc `h = h'`. Jak
+widzisz, zgodnie z tym, co zapowiedziałem na początku, algebraicznie wszystko będzie w tym rozdziale
+dosyć proste.
 
 Skorzystamy teraz z dopiero co wprowadzonej definicji produktu kategoryjnego, żeby ustalić coś na
 temat *wszystkich możliwych implementacji produktu*, a więc między innymi również na temat iloczynów
