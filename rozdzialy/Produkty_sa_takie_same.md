@@ -520,19 +520,19 @@ Dla każdego produktu `P`, `Id : P → P = ⟨π₁,π₂⟩`, gdzie `π₁` i `
 
 **Pisanie dowodów palcem po kartce**: Pokażę Ci teraz coś moim zdaniem interesującego. `Narysuj`
 najpierw proszę, wygięte w łuk tak, żeby na siebie nie nachodziły, dwie strzałki z górnego `P` do
-dolnego `P` i oznacz je jako `Id` i `⟨π₁,π₂⟩`. W środku lewego i prawego skrzydła tego diagramu
-dodaj ptaszki, zaznaczając w ten sposób, że te części diagramu są przemienne na mocy definicji
+dolnego `P` i oznacz je jako `Id` i `f`. W środku lewego i prawego skrzydła tego diagramu dodaj
+ptaszki, zaznaczając w ten sposób, że te części diagramu są przemienne na mocy definicji
 identyczności i produktu strzałek. Dodatkowo, w środku między dwiema wygiętymi w łuk, skierowanymi w
 dół strzałkami, dopisz jeszcze `∃¹`, żeby wyrazić w ten sposób, że serce tego diagramu jest też jest
 przemienne.
 
 A teraz połóż proszę koniec palca wskazującego na górnym `P` i przesuwając palec po kartce prześledź
 płynnie i niezbyt wolno dwie ścieżki - z górnego `P` przez `Id` i `π₁` do `X`, a potem znowu z
-górnego `P` przez `π₁'` do `X`. W ten sposób przywołasz równość strzałki `π₁'` i złożenia `π₁ ∘
-Id`. Tak samo udowodnij, że `π₂ Id = π₂'`. Te dwa pisane palcem po kartce dowody są razem dowodem,
-że `Id = <π₁',π₂'>`. Następnie przesuwając palec po diagramie udowodnij tak samo, że `f =
-<π₁',π₂'>`. Na koniec, wracając za każdym razem najpierw do górnego `P`, prześledź jeszcze palcem
-rysunki strzałek `Id` i `<π₁',π₂'>`. [Quod erat incantandum](https://en.wikipedia.org/wiki/Q.E.D.).
+górnego `P` przez zewnętrzną strzałkę `π₁` do `X`. W ten sposób przywołasz równość strzałki `π₁` i
+złożenia `π₁ ∘ Id`. Tak samo udowodnij, że `π₂ Id = π₂`. Te dwa pisane palcem po kartce dowody są
+razem dowodem, że `Id = f`. Następnie, przesuwając palec po diagramie udowodnij tak samo, że `f =
+<π₁,π₂>`. Na koniec, wracając za każdym razem najpierw do górnego `P`, prześledź jeszcze palcem
+rysunki strzałek `Id` i `f`. [Quod erat incantandum](https://en.wikipedia.org/wiki/Q.E.D.).
 
 Możemy teraz wrócić do poprzedniego diagramu. Masz tam dwa (potencjalnie takie same) produkty tych
 samych punktów, to jest `P` i `P'`, złożone z dwóch par (potencjalnie takich samych) projekcji. I
