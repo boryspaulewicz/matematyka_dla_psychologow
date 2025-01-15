@@ -195,8 +195,9 @@ dalej. Wtedy:
 
 2. Będziemy mogli tak mówić o *wszystkich* elementach `X × Y`. 
 
-To będzie więc takie wierne tłumaczenie w obie strony; od momentu, gdy wybierzemy dowolnego wiernego
-tłumacza, możemy się dowolnie przełączać między dwoma sposobami mówienia o tym samym.
+To będzie więc takie wierne tłumaczenie w obie strony; od momentu, gdy wybierzemy taki mechanizm
+wiernego tłumaczenia, będziemy mogli się dowolnie przełączać między dwoma sposobami mówienia o tym
+samym.
 
 Jak bardzo ten wybór konkretnego izomorfizmu pozwala traktować zbiór `V` jakby był *takim samym*
 zbiorem jak `X × Y`? Niemal całkowicie, a dokładniej, możemy traktować te dwa zbiory jakby *jedyną*
