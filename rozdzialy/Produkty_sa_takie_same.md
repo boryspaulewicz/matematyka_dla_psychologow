@@ -576,7 +576,8 @@ Każdy z tych izomorfizmów nazywamy
 pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", albo "podstawowy". W
 końcu `f` uzyskaliśmy *w jedyny możliwy sposób korzystając z samych projekcji produktu* `P` i tak
 samo `g` uzyskaliśmy w jedyny możliwy sposób korzystając z samych projekcji produktu `P'`. Na koniec
-zerwiemy jeszcze z tego drzewa poznania tego co dobre i uniwersalne soczysty, nisko rosnący owoc.
+zerwiemy jeszcze z tego drzewa poznania tego co dobre i uniwersalne pewien soczysty, nisko rosnący
+owoc.
 
 **Kanoniczna izomorficzność jako uogólnienie równości**: Skoro każda para produktów tych samych
 punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, albo taką jakby "własną" metodę wymiany
