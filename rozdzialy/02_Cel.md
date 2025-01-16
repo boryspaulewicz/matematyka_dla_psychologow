@@ -294,6 +294,9 @@ funkcję w tym stopniu. Wszystko pełni jednocześnie nieskończenie wiele funkc
 nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwiązanie jakiegoś
 zadania.
 
+Skoro tak swobodnie się tutaj wymądrzam, to może przy okazji powiem też, [co myślę o
+terapii](./O_terapii)?
+
 ## Albo tak
 
 Wreszcie można to powiedzieć również tak: W moim zdaniem arcydziele dydaktycznym [*Reinforcement

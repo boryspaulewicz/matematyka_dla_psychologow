@@ -1,5 +1,4 @@
-Skoro tak swobodnie siê tutaj wym±drzam, to mo¿e przy okazji powiem te¿, co my¶lê o terapii? Muszê
-jednak zaznaczyæ, ¿e to bêd± ca³kiem amatorskie uwagi, poniewa¿ tak jak o metodologii badañ i
+Muszê jednak zaznaczyæ, ¿e to bêd± ca³kiem amatorskie uwagi, poniewa¿ tak jak o metodologii badañ i
 psychologii poznawczej co¶ tam wiem, to *o psychologii klinicznej i psychoterapii wiem bardzo
 niewiele*. Dlatego zacznê od metodologii badañ i psychologii poznawczej.
 
@@ -63,6 +62,8 @@ do¶wiadczeñ osobistych terapeutki albo terapeuty, poniewa¿ od tego miêdzy innymi
 niebagatelnym stopniu to, w jaki sposób i z kim terapeutka lub terapeuta jest w stanie rozmawiaæ na
 trudne i osobiste tematy.
 
-Mo¿emy ju¿ wróciæ do g³ównego w±tku.
+Mo¿emy ju¿
+[wróciæ](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
+do g³ównego w±tku.
 
 [^1]: Jak to doskonale ujê³a Maja Strypling, to jest zwykle takie *szycie czym tylko siê da*.
