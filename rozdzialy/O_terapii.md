@@ -6,7 +6,7 @@ niewiele*. Dlatego zacznê od metodologii i psychologii poznawczej.
 Badanie skuteczno¶ci *okre¶lonych metod* terapii jest jak wiadomo niemal niemo¿liwe, bo chocia¿ to i
 owo mo¿na w takich badaniach randomizowaæ, to z oczywistych wzglêdów *nie da siê* zastosowaæ ani
 pojedynczego, ani tym bardziej podwójnego
-[za¶lepienia](https://en.wikipedia.org/wiki/Blinded_experiment), a to znaczy, ¿e nie da siê
+[za¶lepienia](https://en.wikipedia.org/wiki/Blinded_experiment), a to oznacza, ¿e nie da siê
 oddzieliæ wp³ywu samej metody od wp³ywu wielu innych, tylko czê¶ciowo identyfikowalnych czynników,
 takich jak choæby cechy osób, które decyduj± siê uczyæ danej metody. W dodatku przebieg terapii
 bêd±cej interwencj± eksperymentaln± to nie to samo, co przebieg terapii w warunkach
