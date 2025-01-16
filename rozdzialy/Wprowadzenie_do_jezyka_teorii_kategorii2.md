@@ -442,7 +442,7 @@ dowolnego singletona do dowolnego iloczynu i elementami tego iloczynu*.
 Wynika stąd, że wszystko, co możemy powiedzieć na temat elementów należących do dowolnego iloczynu
 kartezjańskiego, a więc po prostu wszystko, co możemy powiedzieć na temat iloczynu kartezjańskiego,
 możemy powiedzieć *pomijając wewnętrzną strukturę* tego rodzaju zbioru, zamiast tego mówiąć o
-*parach funkcji* z jakiegoś singletona do tego iloczynu. No to już prawie [witamy się z
+*funkcjach* z jakiegoś singletona do tego iloczynu. No to już prawie [witamy się z
 gąską](https://pl.wiktionary.org/wiki/ju%C5%BC_by%C4%87_w_ogr%C3%B3dku,_ju%C5%BC_wita%C4%87_si%C4%99_z_g%C4%85sk%C4%85)
 produktu kategoryjnego.
 

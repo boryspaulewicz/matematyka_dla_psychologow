@@ -352,7 +352,12 @@ wersji pewnego zdania i w dodatku zawierał błąd gramatyczny.
 
 I jeszcze raz Tomkowi Smoleniowi, który zauważył, że w dowodzie łączności składania w rozdziale
 21-15 brakowało słowa kluczowego `example` (i dwukropka po tym słowie). A więc znowu dopisałem coś,
-wcześniej tego nie sprawdzając. Pewnie jeszcze mi się to zdarzy.
+wcześniej tego nie sprawdzając. Pewnie jeszcze mi się to zdarzy. Niedługo potem Tomek zauważył, że w
+miejscu, w którym pisałem o tym, że elementy iloczynu kartezjańskiego można utożsamić z funkcjami z
+jakiegoś singletona do tego iloczynu, zamiast o pojedynczych funkcjach napisałem o parach funkcji, w
+dodatku do iloczynu, a nie do jego członów, co jak sądzę mogło mocno Tomka zdezorientować. Za to
+dzięki temu, że zapytał mailowo, czy to nie jest błąd, przekonał się jak sądzę, że dobrze zrozumiał,
+o co tam *miało* chodzić, a to jest chyba najlepszy sprawdzian zrozumienia czegoś.
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
