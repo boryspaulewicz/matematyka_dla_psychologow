@@ -1,3 +1,5 @@
+# O terapii
+
 Muszê jednak zaznaczyæ, ¿e to bêd± ca³kiem amatorskie uwagi, poniewa¿ tak jak o metodologii badañ i
 psychologii poznawczej co¶ tam wiem, to *o psychologii klinicznej i psychoterapii wiem bardzo
 niewiele*. Dlatego zacznê od metodologii badañ i psychologii poznawczej.
