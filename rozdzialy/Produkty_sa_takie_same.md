@@ -17,8 +17,8 @@ uprzedzam, że użyteczność kategoryjnego punktu widzenia, z którym próbuję
 oswoić, być może nieprędko stanie się dla Ciebie oczywista.
 
 Sugeruję, żebyś czytając ten rozdział nigdzie się nie spieszyła. Być może będzie Ci łatwiej, jeśli
-czasem wrócisz do poprzedniego rozdziału, a zwłaszcza do rysunku będącego definicją produktu
-kategoryjnego. Przyda się też, nomen omen, anielska cierpliwość.
+czasem wrócisz do poprzedniego rozdziału i do rysunkowej definicji produktu kategoryjnego. Przyda
+się też, nomen omen, anielska cierpliwość.
 
 # X ← '∘ → Y ≅! X ← ∘' → Y
 
