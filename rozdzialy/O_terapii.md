@@ -30,7 +30,7 @@ wspó³czesnej psychologii poznawczej.
 
 W dodatku praktycy przekonuj± siê na ogó³ szybko, ¿e w zderzeniu z realno¶ci± kontaktu z pacjentem,
 te bardziej dookre¶lone schematy postêpowania, o których uczyli siê w trakcie szkoleñ, dostarczaj±
-co prawda pewnych ram u³atwiaj±cych poszukiwanie odpowiedzi na pytanie "co dalej?", ale okazuj± siê
+co prawda pewnych ram u³atwiaj±cych poszukiwanie odpowiedzi na pytanie *co dalej*, ale okazuj± siê
 czêsto zdecydowanie zbyt restrykcyjne i naiwne. Gdy potem taki na przyk³ad typowy wspó³czesny
 psycholog poznawczy s³yszy albo czyta to, co praktycy mówi± o przebiegu i znaczeniu procesu terapii,
 nie jest siê w stanie dopatrzeæ niczego, co przypomina³oby wnioskowanie oparte na wzglêdnie dobrze
