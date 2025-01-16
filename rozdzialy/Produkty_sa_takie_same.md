@@ -537,7 +537,7 @@ górnego `P` przez zewnętrzną strzałkę `π₁` do `X`. W ten sposób przywo�
 złożenia `π₁ ∘ Id`. Tak samo udowodnij, że `π₂ Id = π₂`. Te *dwa* pisane palcem po kartce dowody są
 *razem* dowodem, że `Id = f`. Następnie, przesuwając palec po diagramie udowodnij tak samo, że `f =
 <π₁,π₂>`. Na koniec, wracając za każdym razem najpierw do górnego `P`, prześledź jeszcze palcem
-rysunki strzałek `Id` i `f`. [Quod erat incantandum](https://en.wikipedia.org/wiki/Q.E.D.).
+rysunki strzałek `Id` i `f`. *Quod erat incantandum*.
 
 Możemy teraz wrócić do poprzedniego diagramu. Masz tam dwa (potencjalnie takie same) produkty tych
 samych punktów, to jest `P` i `P'`, złożone z dwóch par (potencjalnie takich samych) projekcji. I
