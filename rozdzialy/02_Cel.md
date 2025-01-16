@@ -265,7 +265,13 @@ będzie można stosować do niego samego. A na sformułowane w tym języku pytan
 poszukiwać odpowiedzi posługując się dedukcją, traktując ewentualnie jako aksjomaty - jeśli pytanie
 będzie miało charakter empiryczny - jakieś dane.
 
-Wiemy już przecież, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
+W końcu wszystkie narzędzia i artefakty stworzone przez ludzi i inne zwierzęta powstały jako
+rezultaty działań celowych, a więc należą do przedmiotu zainteresowań psychologii naukowej. Dlatego,
+jak trafnie i krótko podsumował to mój przyjaciel Tomek Grzegorek, psychologia nigdy nie cierpiała
+na niedobór danych. Tym, czego psychologii zawsze brakowało i nadal brakuje jest coś, co jest naszym
+najbardziej uniwersalnym i najbardziej praktycznym narzędziem - dobrej uniwersalnej teorii.
+
+Wiemy już, bo to natychmiast wynika z [twierdzenia o hierarchii przyczynowej
 Pearla](https://causalai.net/r60.pdf), że poziom kontrfaktyczny jest nieredukowalny do
 interwencyjnego, a ten z kolei jest nieredukowalny do probabilistycznego. W istocie ten wniosek
 wynika w dosyć prosty sposób z samej *definicji* tego, czym są te trzy, jakościowo różne poziomy
