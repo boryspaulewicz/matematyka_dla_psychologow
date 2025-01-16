@@ -52,8 +52,8 @@ reagowania.
 
 Terapia jest wiêc prób± pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej i korzystnej
 *zmiany tego, kim jest*, czy raczej *kim bywa*[^1]. Taka zmiana jest zawsze wielowymiarowa i
-wieloznaczna, jej *konkretnego* charakteru nie da siê dobrze opisaæ ¿adnym aparatem pojêciowym i
-trudno zagwarantowaæ, ¿eby by³a trwa³a, bo przypomina trochê zawracanie kijem Wis³y, polega bowiem
+wieloznaczna, jej *konkretnego* charakteru nie da siê precyzyjnie opisaæ ¿adnym aparatem pojêciowym
+i trudno zagwarantowaæ, ¿eby by³a trwa³a, bo przypomina trochê zawracanie kijem Wis³y, polega bowiem
 na próbach przekierowania sta³ego, rw±cego nurtu wp³ywu nieznanych terapeucie albo terapeutce genów,
 p³yn±cego twardym, wyra¼nie zarysowanym korytem bardzo wybiórczo i niekoniecznie wiernie opisywanych
 przez pacjentkê lub pacjenta okoliczno¶ci. Dlatego terapeutyczny dialog co prawda mo¿e byæ do
