@@ -44,8 +44,8 @@ przyznał mi autorstwo. Julia napisała potem na ten temat na poczytnym blogu [T
 CI](https://www.the100.ci/2024/01/10/a-casual-but-causal-take-on-measurement-invariance/), gdzie mam
 zaszczyt figurować w dwóch przypisach, wymieniony obok samego Borsbooma jako niezależny odkrywca tej
 istotnej moim zdaniem definicji. Piszę o tym wszystkim nie tylko po to, żeby się pochwalić, chociaż
-oczywiście po to też, ale przede wszystkim żeby Cię przekonać, że mogę mieć o tego typu sprawach coś
-do powiedzenia.
+oczywiście po to też, ale przede wszystkim żeby Cię przekonać, że *mogę* mieć o tego typu sprawach
+coś do powiedzenia.
 
 Przy okazji, w rozdziale pod radośnie brzmiącym tytułem *Nie jest dobrze*, skorzystamy z już nabytej
 wiedzy, żeby ocenić zawartość takich skierowanych do psychologów podręczników jak [Metodologia badań
