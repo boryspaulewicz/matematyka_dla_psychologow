@@ -361,7 +361,8 @@ wartości mierzonej przez test z czysto statystyczną własnością jaką jest [
 oczekiwana](https://pl.wikipedia.org/wiki/Warto%C5%9B%C4%87_oczekiwana) wyniku testu, chociaż
 absurdalny jako podstawa - nieosiągalnej - czysto *przyczynowej* teorii pomiaru psychologicznego,
 jest jednak w innym, właściwym znaczeniu uzasadniony, ponieważ pozwala rozumieć wynik testu
-psychometrycznego jako *próbkę względnie dobrze określonego rodzaju zachowania*.
+psychometrycznego jako *funkcję niereprezentatywnej próby względnie dobrze określonego rodzaju
+zachowań*.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
