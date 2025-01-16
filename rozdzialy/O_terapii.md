@@ -1,7 +1,7 @@
 Skoro tak swobodnie siê tutaj wym±drzam, to mo¿e przy okazji powiem te¿, co my¶lê o terapii? Muszê
 jednak zaznaczyæ, ¿e to bêd± ca³kiem amatorskie uwagi, poniewa¿ tak jak o metodologii badañ i
 psychologii poznawczej co¶ tam wiem, to *o psychologii klinicznej i psychoterapii wiem bardzo
-niewiele*. Dlatego zacznê od metodologii i psychologii poznawczej.
+niewiele*. Dlatego zacznê od metodologii badañ i psychologii poznawczej.
 
 Badanie skuteczno¶ci *okre¶lonych metod* terapii jest jak wiadomo niemal niemo¿liwe, bo chocia¿ to i
 owo mo¿na w takich badaniach randomizowaæ, to z oczywistych wzglêdów *nie da siê* zastosowaæ ani
