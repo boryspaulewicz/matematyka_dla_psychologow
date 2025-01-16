@@ -294,6 +294,8 @@ funkcję w tym stopniu. Wszystko pełni jednocześnie nieskończenie wiele funkc
 nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwiązanie jakiegoś
 zadania.
 
+## Albo tak
+
 Wreszcie można to powiedzieć również tak: W moim zdaniem arcydziele dydaktycznym [*Reinforcement
 Learning: An
 Introduction*](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)[^7],
