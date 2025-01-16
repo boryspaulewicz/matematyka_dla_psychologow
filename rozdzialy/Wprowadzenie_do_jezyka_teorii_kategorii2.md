@@ -504,8 +504,8 @@ takie, że te strzałki zachowują się w opisany wyżej sposób, czyli jak *pro
 opisany wyżej sposób "narzędziem wiernego tłumaczenia" między strzałkami do produktu i parami
 współźródłowych strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób
 uzyskujemy *uniwersalną definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn
-kartezjański i która, jak się okaże w następnym rozdziale, odpowiada między innymi pojęciu
-*koniunkcji w logice*.
+kartezjański i która, jak się okaże w jednym z następnych rozdziałów, odpowiada między innymi
+pojęciu *koniunkcji w logice*.
 
 **Sugestia**: To była jak sądzę najtrudniejsza część tego rozdziału, dlatego nie będę Ci sugerował,
 jak podpisać ostatni rysunek, bo przypuszczam, że ta notatka będzie i tak ewoluowała w miarę Twoich
