@@ -488,7 +488,7 @@ założenia `f h = Id` zdania ...
 
 `g (f h) = g Id`
 
-... jakby w obie strony:
+... w obie strony:
 
 `h = Id h = (g f) h = g (f h) = g Id = g`
 
