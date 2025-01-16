@@ -33,11 +33,9 @@ jest przecież konieczna.
 większego znaczenia.)
 
 **Aktualności**: 15 stycznia. Dodałem właśnie nowy rozdział 22-16 pod zachęcającym tytułem [X ← '∘ →
-Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie tym samym produktem, bo
-są kanonicznie takie same](./rozdzialy/Produkty_sa_takie_same.md). Czytelniczki i czytelników,
-*którzy mają już za sobą co najmniej rozdziały od R4 do R8=R02 i od R19=R13 do R21=R15*, zapraszam
-do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych
-*krytycznych*.
+Y ≅! X ← ∘' → Y](./rozdzialy/Produkty_sa_takie_same.md). Czytelniczki i czytelników, *którzy mają
+już za sobą co najmniej rozdziały od R4 do R8=R02 i od R19=R13 do R21=R15*, zapraszam do testowania,
+zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
@@ -218,8 +216,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R21 = R15 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
-[R22 = R16 X ← '∘ → Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie
-tym samym produktem, bo są kanonicznie takie same](rozdzialy/Produkty_sa_takie_same.md)
+[R22 = R16 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/Produkty_sa_takie_same.md)
 
 R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 

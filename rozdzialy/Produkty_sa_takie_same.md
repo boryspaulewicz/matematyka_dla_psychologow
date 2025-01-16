@@ -20,9 +20,11 @@ Sugeruję, żebyś czytając ten rozdział nigdzie się nie spieszyła. Być mo�
 czasem wrócisz do poprzedniego rozdziału, a zwłaszcza do rysunku będącego definicją produktu
 kategoryjnego. Przyda się też, nomen omen, anielska cierpliwość.
 
-# X ← '∘ → Y ≅! X ← ∘' → Y, albo wszystkie produkty tych samych obiektów są praktycznie tym samym produktem, bo są kanonicznie takie same
+# X ← '∘ → Y ≅! X ← ∘' → Y
 
-## Najpierw krótko i bez sensu
+Najpierw krótko i bez sensu.
+
+## Krótko i bez sensu
 
 Ten fragment jest tylko po to, żeby Ci pokazać, że można prawie wszystko, o czym będę mówił w tym
 rozdziale, powiedzieć znacznie krócej. Być może przyda Ci się od pewnego momentu jako przykład
