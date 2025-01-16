@@ -474,20 +474,20 @@ jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = �
 to musi być para uporządkowana `(f(z), g(z))` i że para o takich wartościach projekcji istnieje dla
 każdego `z ∈ Z`? A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten sposób
 scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego anioła,
-dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v`, że `π₁(v) = f(z)` i
-jednocześnie `π₂(v) = g(z)`. Skoro każda para jest całkowicie określona przez swój pierwszy i drugi
-element, to jest przez swoje dwie projekcje, to każda taka para też jest całkowicie
+dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v ∈ X × Y`, że `π₁(v) =
+f(z)` i jednocześnie `π₂(v) = g(z)`. Skoro każda para jest całkowicie określona przez swój pierwszy
+i drugi element, to jest przez swoje dwie projekcje, to każda taka para też jest całkowicie
 określona. Funkcja `h : Z → X × Y` dla której ten diagram jest przemienny *istnieje* i jest zarazem
 *unikalna*, a więc *ta funkcja jest funkcją funkcji* `f` *i* `g`.
 
 Widzimy w ten sposób, że każda para funkcji `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
 iloczynu kartezjańskiego odpowiada dokładnie jednej funkcji `h` ze zbioru `Z` do tego iloczynu,
 która spełnia warunek `f = π₁ ∘ h` i warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z
-dowolnego zbioru do iloczynu kartezjańskiego odpowiada *unikalnej parze* funkcji z tego zbioru do
-członów tego iloczynu, pozwalającej narysować oba ptaszki, ponieważ wtedy (tak nakazują i tego
-wymagają ptaszki) pierwsze skrzydło *musi* być tą samą funkcją co `π₁ ∘ h`, a drugie skrzydło *musi*
-być tą samą funkcją co `π₂ ∘ h`. Wynika stąd, że jeżeli skrzydłami są funkcje `f` i `g`, to taką
-funkcję możemy zapisać jako funkcję tych funkcji, na przykład właśnie jako `⟨f, g⟩`.
+dowolnego zbioru do iloczynu kartezjańskiego odpowiada *unikalnej parze uporządkowanej* funkcji z
+tego zbioru do członów tego iloczynu, pozwalającej narysować oba ptaszki, ponieważ wtedy (tak
+nakazują i tego wymagają ptaszki) pierwsze skrzydło *musi* być tą samą funkcją co `π₁ ∘ h`, a drugie
+skrzydło *musi* być tą samą funkcją co `π₂ ∘ h`. Wynika stąd, że jeżeli skrzydłami są funkcje `f` i
+`g`, to taką funkcję możemy zapisać jako funkcję tych funkcji, na przykład właśnie jako `⟨f, g⟩`.
 
 *Diagram*, który właśnie narysowałaś, możemy teraz *zinterpretować* jako konstrukcję *czysto
 kategoryjną*. Wystarczy, że przyjmiemy alternatywną interpretację teoriomnogościowego symbolu
