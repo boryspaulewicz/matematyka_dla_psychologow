@@ -62,7 +62,11 @@ w psychologii [podręcznika
 Hayesa](http://afhayes.com/introduction-to-mediation-moderation-and-conditional-process-analysis.html)
 dotyczącego [mediacji](https://link.springer.com/article/10.1007/s11121-011-0270-1), który wyrządził
 [ogromne szkody](https://journals.sagepub.com/doi/10.1177/25152459221095827) między innymi
-[psychologii społecznej](https://pl.wikipedia.org/wiki/Psychologia_spo%C5%82eczna).
+[psychologii społecznej](https://pl.wikipedia.org/wiki/Psychologia_spo%C5%82eczna). Ale wcześniej
+wskażemy rażące błędy w
+[tym](https://www.researchgate.net/publication/252109497_Insight_problem_solving_fluid_intelligence_and_executive_control_A_structural_equation_modeling_approach)
+tragicznie złym, pokonferencyjnym tekście, który jak dotąd (2024-01-16) doczekał się 31 cytowań i
+którego już na zawsze pozostanę pierwszym autorem.
 
 Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
