@@ -22,7 +22,7 @@ dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
 poznawczo-behawioralnej](https://pl.wikipedia.org/wiki/Psychoterapia_poznawczo-behawioralna). A te
 [nie przypominaj± za
 bardzo](https://www.annualreviews.org/content/journals/10.1146/annurev-clinpsy-032813-153734)
-czegokolwiek, co mo¿na by nazwaæ aktualnym stanem wiedzy w psychologii poznawczej. Mo¿na by co
+czegokolwiek, co mo¿na by nazwaæ aktualnym stanem wiedzy w psychologii poznawczej[^2]. Mo¿na by co
 najwy¿ej stwierdziæ, ¿e chocia¿ jêzyk teorii CBT wygl±da na pierwszy rzut oka na wzglêdnie
 techniczny, to jej podstawy s± w istocie lu¼no inspirowane aparatem pojêciowym wspó³czesnej
 psychologii poznawczej.
@@ -66,4 +66,8 @@ Mo¿emy ju¿
 [wróciæ](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
 do g³ównego w±tku.
 
+## Przypisy
+
 [^1]: Jak to doskonale ujê³a Maja Strypling, to jest zwykle takie *szycie czym tylko siê da*.
+
+[^2]: Such as it is.
