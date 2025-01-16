@@ -225,7 +225,7 @@ pomocą taktyki `rfl` jest dziecinnie proste:
 variable (X Y Z V : Type) (f : X → Y) (g : Y → Z) (h : Z → V)
 
 -- Trzeba było tak od razu, prawda?
-Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
+example : Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
 
 -- W ten sam sposób możemy udowodnić przemienność wbudowanej w Leana operacji składania funkcji
 -- teoriotypowych. Symbol składania uzyskasz w Leanie wpisując \o. W tym wypadku ten symbol

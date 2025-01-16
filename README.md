@@ -350,6 +350,10 @@ I jeszcze raz czternastoletniemu Szymonowi Stryplingowi, który bez większych t
 rozdział 21=15 i przy okazji znalazł tam jeden niepotrzebny fragment, który został po poprzedniej
 wersji pewnego zdania i w dodatku zawierał błąd gramatyczny.
 
+I jeszcze raz Tomkowi Smoleniowi, który zauważył, że w dowodzie łączności składania w rozdziale
+21-15 brakowało słowa kluczowego `example` (i dwukropka po tym słowie). A więc znowu dopisałem coś,
+wcześniej tego nie sprawdzając. Pewnie jeszcze mi się to zdarzy.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
