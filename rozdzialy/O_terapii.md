@@ -33,8 +33,8 @@ te bardziej dookre¶lone schematy postêpowania, o których uczyli siê w trakcie sz
 co prawda pewnych ram u³atwiaj±cych poszukiwanie odpowiedzi na pytanie *co dalej*, ale okazuj± siê
 czêsto zdecydowanie zbyt restrykcyjne i naiwne. Gdy potem taki na przyk³ad typowy wspó³czesny
 psycholog poznawczy s³yszy albo czyta to, co praktycy mówi± o przebiegu i znaczeniu procesu terapii,
-nie jest siê w stanie dopatrzeæ niczego, co przypomina³oby wnioskowanie oparte na wzglêdnie dobrze
-empirycznie uzasadnionych hipotezach na temat *przyczynowego mechanizmu poznawczego procesu
+nie jest siê w stanie dopatrzeæ niemal niczego, co przypomina³oby wnioskowanie oparte na wzglêdnie
+dobrze empirycznie uzasadnionych hipotezach na temat *przyczynowego mechanizmu poznawczego procesu
 terapeutycznego* i zamiast tego odkrywa gar¶æ pozornie lu¼nych metafor. Nie ma w tym nic dziwnego,
 bo te¿ praktyka psychoterapii jest tak daleko od badañ podstawowych i w ogóle psychologii
 akademickiej, ¿e spieranie siê o to, która metoda jest bardziej naukowa *w znaczeniu oparta na
