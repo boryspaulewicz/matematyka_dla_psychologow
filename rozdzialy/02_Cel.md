@@ -295,7 +295,7 @@ nic nie pełni w stopniu doskonałym tylko jednej funkcji, rozumianej jako rozwi
 zadania.
 
 Skoro tak swobodnie się tutaj wymądrzam, to może przy okazji powiem też, [co myślę o
-terapii](./O_terapii)?
+terapii](./O_terapii.md)?
 
 ## Albo tak
 
