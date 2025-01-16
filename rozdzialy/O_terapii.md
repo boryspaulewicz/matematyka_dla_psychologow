@@ -24,7 +24,7 @@ poznawczo-behawioralnej](https://pl.wikipedia.org/wiki/Psychoterapia_poznawczo-b
 [nie przypominaj± za
 bardzo](https://www.annualreviews.org/content/journals/10.1146/annurev-clinpsy-032813-153734)
 czegokolwiek, co mo¿na by nazwaæ aktualnym stanem wiedzy w psychologii poznawczej. Mo¿na by co
-najwy¿ej powiedzieæ, ¿e chocia¿ jêzyk teorii CBT wygl±da na pierwszy rzut oka na wzglêdnie
+najwy¿ej stwierdziæ, ¿e chocia¿ jêzyk teorii CBT wygl±da na pierwszy rzut oka na wzglêdnie
 techniczny, to jej podstawy s± w istocie co najwy¿ej lu¼no inspirowane aparatem pojêciowym
 wspó³czesnej psychologii poznawczej.
 
