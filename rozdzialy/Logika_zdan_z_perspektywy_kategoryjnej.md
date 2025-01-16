@@ -35,7 +35,7 @@ example (p q r s : Prop) (f : p → q) (g : q → r) (h : r → s) :
 
 Przy okazji możesz tutaj zobaczyć, że dowody anonimowe, które konstruujemy za pomocą słowa
 kluczowego `example`, mogą mieć parametry tak samo jak twierdzenia. A więc `example` to tylko taki
-alternatywny sposób konstruowania funkcji anonimowej. Możemy zresztą stosować to słowo kluczowe do
+alternatywny sposób konstruowania funkcji anonimowej. Możemy stosować to słowo kluczowe do
 konstruowania dowolnych funkcji anonimowych ...
 
 ```lean
