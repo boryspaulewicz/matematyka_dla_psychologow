@@ -283,16 +283,21 @@ istnieje unikalna strzałka `f+g` (bardzo różnie się to zapisuje) *z* `X + Y`
 odwrócenie) taka, że `f+g i1 = f` i `f+g i2 = g` (odwrócenie wszystkich złożeń wymuszone przez
 odwrócenie wszystkich strzałek).
 
-W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. A więc można
-powiedzieć, że symbol `+`, za pomocą którego oznaczamy w teorii kategorii operację tworzenia
-koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę" wersję tego, co
-oznaczamy w teorii kategorii za pomocą symbolu `x`, czyli operację tworzenia produktów. A w
-kategorii zbiorów skończonych te operacje odpowiadają, jak wiesz z jednego z poprzednich rozdziałów,
-dodawaniu i mnożeniu liczb naturalnych, które to operacje można "zrealizować w zbiorach skończonych"
-za pomocą operacji tworzenia sum rozłącznych i iloczynów kartezjańskich. W ten sposób posługując się
-graficznym (albo "grafowym") językiem teorii możemy dosłownie *zobaczyć* głęboki związek między tymi
-dwiema operacjami algebraicznymi.
+W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. TODO pokazać
+dlaczego.
 
-Często, ale nie zawsze, bo to czasem po prostu źle brzmi, konstrukcje dualne względem
-pewnych konstrukcji, które wydają się bardziej podstawowe albo są częściej używane nazywamy w
-teorii kategorii tym samym określeniem, ale dodając przedrostek `ko`. Produkty pojawiają się w matematyce znacznie częściej niż
+Można więc powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
+operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
+wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `x`, czyli drugą stronę operacji
+tworzenia produktów. A w kategorii `FinSet` (zbiorów skończonych) te operacje odpowiadają, jak wiesz
+z jednego z poprzednich rozdziałów, dodawaniu i mnożeniu liczb naturalnych, które to operacje można
+zrealizować w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych i iloczynów
+kartezjańskich. W ten oto sposób, posługując się graficznym językiem teorii kategorii, możemy
+całkiem dosłownie *zobaczyć* (gdybyśmy przedstawili to za pomocą diagramów) głęboki związek między
+dodawaniem i mnożeniem i tym samym dostrzec, że te dwie operacje są w pewnym sensie *tą samą
+operacją*.
+
+Często, ale nie zawsze, bo to czasem źle brzmi, konstrukcje dualne do pewnych konstrukcji, które
+wydają się bardziej podstawowe albo są częściej używane, nazywamy w teorii kategorii tym samym
+określeniem, ale dodając przedrostek *ko* (a po angielsku *co*, jak w pytaniu *co to ma
+być?*). Produkty pojawiają się w matematyce znacznie częściej niż
