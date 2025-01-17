@@ -92,8 +92,8 @@ częściej mówił właśnie w ten sposób.
 
 W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz przyglądamy, istnieje
 strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając `P` można udowodnić `Q`. W
-tej kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą proof
-irrelevance wszystkie dowody tego samego zdania są równe.
+tej kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof
+irrelevance* wszystkie dowody tego samego zdania są równe.
 
 Mamy zatem kategorię, w której dla każdej pary punktów `P` i `Q`, istnieje *co najwyżej jedna*
 strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje binarne*, bo między
