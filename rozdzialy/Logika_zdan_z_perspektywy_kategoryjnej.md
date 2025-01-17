@@ -177,8 +177,9 @@ pouczającego, interesującego, albo nawet tylko zabawnego. Matematyka pozwala n
 będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak matematyka i o ile nie
 przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to będziemy mieć gwarancję, że
 nasze wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych założeń, definicji i
-aksjomatów. A prawdziwość takich wniosków, o ile tylko znajdziemy ich potencjalne dowody, będziemy
-zawsze mogli sprawdzić mechanicznie, czyli bezmyślnie.
+aksjomatów. Co prawda nie istnieje uniwersalna metoda znajdywania dowodów arbitralnych zdań, ale
+dzięki temu *zawsze* ważny będzie przebłysk intuicji, a potencjalne dowody będziemy mogli *zawsze*
+sprawdzić za pomocą algorytmu, który *zawsze* da nam jednoznaczną odpowiedź, czy są poprawne.
 
 Gdyby było tak, że dla niektórych, ale nie wszystkich liczb zachodzi zwrotność, czyli gdyby istniała
 co najmniej jedna liczba taka, że byłaby mniejsza od samej siebie, ale istniałaby też liczba, która
