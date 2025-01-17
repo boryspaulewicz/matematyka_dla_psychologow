@@ -414,10 +414,11 @@ nazwie *produkt* przedrostek *ko* nie występuje.
 
 ## Początek, koniec, produkt i koprodukt w logice zdań.
 
-Gdy tylko uda nam się zdefiniować na poziomie opisu pewnego rodzaju struktur coś ważnego w języku
-teorii kategorii, możemy zacząć szukać odpowiedników tych struktur w dowolnych innych
-kategoriach. No to teraz poszukamy w kategorii powstającej z relacji dowiedlności zdefiniowanej na
-zbiorze zdań.
+Gdy tylko uda nam się znaleźć jakiś kategoryjny odpowiednik pojęcia, konstrukcji lub zdania w
+jakiejś opisanej jako kategoria przestrzeni (na przykład, kategoryjny odpowiednik zbioru pustego),
+możemy zacząć szukać odpowiedników tych struktur w dowolnych innych kategoriach. No to teraz
+poszukamy znanych Ci już konstrukcji kategoryjnych w kategorii powstającej z relacji dowiedlności
+zdefiniowanej na zbiorze zdań.
 
 Czym jest obiekt początkowy w opisanej już wcześniej kategorii, w której punkty są zdaniami a
 strzałki reprezentują relację dowiedlności? To przecież *zdanie fałszywe*, które w Leanie jest
