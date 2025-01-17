@@ -204,5 +204,95 @@ zbiorów. Poza tym wiesz również, że produkt to tak naprawdę para współźr
 spełniająca wymienione w definicji wymagania, ale często wygodniej jest mówić o produktach jako o
 obiektach, czyli w naszej terminologii punktach.
 
-## [Icśonlaud adasaz](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii)
+## Wolne konstrukcje
 
+Popatrzmy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
+interpretacji) kategorię zawierającą strzałkę `f : X -> Y`. Jeżeli to ma być kategoria, punkty `X` i
+`Y` *muszą* mieć swoje *unikalne i charakterystyczne* endostrzałki identycznościowe. A więc musimy
+*sami dodać* te strzałki. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc
+jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione. W tym
+wypadku aksjomaty kategorii *nie pozostawiają nam wyboru* i musi być tak, że `Id f = f = f Id`, ale
+poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy *jedyną możliwą najprostszą*
+kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
+
+Dodaliśmy to, co było konieczne, żeby uzyskać kategorię i tylko to, co było konieczne, a więc to
+jest najprostsza albo najmniejsza tego rodzaju kategoria, chociaż to, że jest najprostsza albo
+najmniejsza możemy (na razie) powiedzieć tylko nieformalnie, bo nie zdefiniowaliśmy żadnej miary
+złożoności ani wielkości kategorii. Możemy też powiedzieć, że to jest *najlepsza* albo doskonała
+kategoria tego rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też lepsze,
+bo te dwa słowa mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób mówienia i
+myślenia ma intuicyjny sens i nikt nam tego przecież nie zabroni.
+
+Nie jest prawdą, że strzałka `f` jest endostrzałką i przyda się nam odtąd nazwa na takie strzałki,
+żeby mówić o tym prościej, dlatego będę czasem nazywał takie strzałki *egzostrzałkami*. Egzostrzałką
+będzie więc taka strzałka, że jej źródło i cel to inne *punkty*, które nie będą musiały co prawda
+*oznaczać* innych obiektów, ale to *nie będzie miało znaczenia*, kiedy będziemy się skupiać na tej
+własności strzałek. 
+
+Struktury matematyczne (takie jak kategoria), które powstają w taki wymuszony przez ich definicje
+sposób (który tutaj polega na dodaniu identyczności i składania tak, żeby aksjomaty kategorii były
+spełnione) z części czy obiektów, które same jeszcze nie muszą być tego rodzaju strukturami (a sama
+strzałka nie jest jeszcze kategorią), nazywamy *wolnymi*. Wolne konstrukcje są więc takimi jakby
+dopełnieniami, albo dopowiedzeniami struktury określonego rodzaju. W tym wypadku to jest *wolna
+kategoria generowana przez jedną egzostrzałkę*.
+
+## icśonlaud adasaZ
+
+Jeżeli teraz czysto formalnie odwrócimy strzałkę `f` i zapiszemy ją jako `X <- Y`, to z takiej
+egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną wolną kategorię i to będzie
+*taka sama kategoria*, bo zmienią się *tylko nazwy* części jej struktury. 
+
+A gdyby punktem wyjścia był (statyczny, jak to graf) graf `A <- B -> C`, gdzie strzałkę `A <- B`
+moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B -> C` jako `g`? Wtedy też musielibyśmy tylko
+dodać identyczności i zdefiniować wyniki składania `f` lub `g` z identycznościami na ich obu końcach
+jako `f` i `g` odpowiednio i uzyskalibyśmy wolną kategorię nad tym grafem. 
+
+Gdybyśmy jednak odwrócili strzałki na tym grafie, uzyskując w ten sposób graf `A -> B <- C`, to
+wolna kategoria generowana przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie)
+znaczeniu. Z drugiej strony, *w pewnym sensie* wolne kategorie generowane przez obydwa grafy
+*byłyby* takie same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
+zapisane*. Zastanawiasz się pewnie, o co mi teraz chodzi? Żeby to lepiej objaśnić, może skorzystam z
+innego przykładu: *Moglibyśmy* przyjąć *konwencję* interpretowania wyrażeń o postaci `n < m` jako
+oznaczających, że `n` jest *większe* niż `m` i gdybyśmy stosowali tą konwencję *konsekwentnie*, to
+*sens* tego, co byśmy mówili nie uległby zmianie, zmieniłby się *tylko* sposób zapisu. Tylko *czemu
+by to mogło służyć*? Otóż temu:
+
+**Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego* (albo krócej i mniej oficjalnie
+*początku*), ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
+więc trzeba będzie odwrócić też wszystkie złożenia, których akurat w tej definicji nie ma, a więc
+pod tym względem nic nie będzie trzeba robić. Nie nazywaj jednak tego, co ta definicja będzie
+charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz definicję obiektu *końcowego*,
+którego szczególnym przypadkiem jest każdy singleton w kategorii `Set`. 
+
+Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa, dlatego
+właśnie mówimy o zasadzie *dualności* w teorii kategorii. Ta druga wersja defincji jest tak zwaną
+*dualną postacią* albo wersją tej pierwszej i to drugie pojęcie (albo konstrukcja) jest dualne
+względem tego pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem
+drugiego, bo *operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz
+do głowy pojęcie izomorfizmu? Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury
+nie są jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład,
+wolna kategoria nad grafem `A <- B -> C` jest zdecydowanie *nie całkiem* taka sama jak wolna
+kategoria nad grafem `A -> B <- C`.
+
+Jeżeli odwrócisz wszystkie strzałki i złożenia w definicji *produktu*, to uzyskasz definicję
+*koproduktu*: Koproduktem obiektów `X` i `Y` nazywamy taki obiekt, który możemy oznaczyć jako `X +
+Y`, że istnieją strzałki `i1` i `i2`, nazywane *injekcjami*, *z* `X` *do* `X + Y` i *z* `Y` *do*
+`X + Y` odpowiednio (odwrócenie strzałek występujących w definicji produktu) takie, że dla każdej
+pary strzałek `f` i `g` *z* `X` i `Y` *do* jakiegoś `Z` odpowiednio (kolejne odwrócenie strzałek)
+istnieje unikalna strzałka `f+g` (bardzo różnie się to zapisuje) *z* `X + Y` *do* `Z` (kolejne
+odwrócenie) taka, że `f+g i1 = f` i `f+g i2 = g` (odwrócenie wszystkich złożeń wymuszone przez
+odwrócenie wszystkich strzałek).
+
+W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. A więc można
+powiedzieć, że symbol `+`, za pomocą którego oznaczamy w teorii kategorii operację tworzenia
+koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę" wersję tego, co
+oznaczamy w teorii kategorii za pomocą symbolu `x`, czyli operację tworzenia produktów. A w
+kategorii zbiorów skończonych te operacje odpowiadają, jak wiesz z jednego z poprzednich rozdziałów,
+dodawaniu i mnożeniu liczb naturalnych, które to operacje można "zrealizować w zbiorach skończonych"
+za pomocą operacji tworzenia sum rozłącznych i iloczynów kartezjańskich. W ten sposób posługując się
+graficznym (albo "grafowym") językiem teorii możemy dosłownie *zobaczyć* głęboki związek między tymi
+dwiema operacjami algebraicznymi.
+
+Często, ale nie zawsze, bo to czasem po prostu źle brzmi, konstrukcje dualne względem
+pewnych konstrukcji, które wydają się bardziej podstawowe albo są częściej używane nazywamy w
+teorii kategorii tym samym określeniem, ale dodając przedrostek `ko`. Produkty pojawiają się w matematyce znacznie częściej niż
