@@ -464,7 +464,9 @@ na drugą stronę" wersją drugiego. Widzimy też, że istnieje oczywiste podobi
 typem/zdaniem `True` i każdym możliwym singletonem. Wreszcie, dla każdego zdania `P`, istnieje
 strzałka `True → P` wtedy i tylko wtedy, gdy samo zdanie `P` jest zdaniem prawdziwym, na przykład,
 gdy `P` jest zdaniem (nie strzałką w tej kategorii!) `q → q`, bo tylko wtedy można skonstruować
-dowód implikacji `True → P`.
+dowód implikacji `True → P`. Co więcej, dla każdego zdania `P`, istnieje strzałka *z* `P` *do*
+`False` wtedy i tylko wtedy, gdy istnieje dowód negacji tego zdania, czyli kiedy to zdanie jest
+zdaniem fałszywym.
 
 Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
 jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
