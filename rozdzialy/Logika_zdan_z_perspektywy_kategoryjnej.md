@@ -196,7 +196,7 @@ są "puste" i służą tylko jako konieczne uzupełnienia pozwalające uzyskać 
 
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
-innego punktu widzenia.
+innej, moim zdaniem interesującej perspektywy.
 
 *Obiektem początkowym* w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii punkt)
 `I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka `I →
