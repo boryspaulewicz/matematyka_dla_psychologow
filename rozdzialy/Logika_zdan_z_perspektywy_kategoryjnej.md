@@ -1,3 +1,11 @@
+## O czym teraz będzie
+
+Teraz będzie przede wszystkim o zasadzie dualności w teorii kategorii i to będzie technicznie dosyć
+proste, ale konceptualnie raczej trudne. Za to liczba problemów stanie się w pewnym sensie mniejsza
+o połowę.
+
+# p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
+
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
 znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia.
 
@@ -261,16 +269,17 @@ A co gdyby punktem wyjścia był (statyczny, jak to graf) graf `A ← B → C`, 
 moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
 dodać identyczności i zdefiniować wyniki składania `f` lub `g` z identycznościami na ich obu końcach
 jako `f` i `g` odpowiednio i uzyskalibyśmy wolną kategorię nad tym grafem. Gdybyśmy jednak odwrócili
-strzałki na tym grafie, uzyskując w ten sposób graf `A → B ← C`, to wolna kategoria generowana
-przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie) znaczeniu. 
+strzałki na *tym* grafie, uzyskując w ten sposób graf `A → B ← C`, to wolna kategoria generowana
+przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie) znaczeniu.
 
 Z drugiej strony, *w innym znaczeniu* wolne kategorie generowane przez obydwa grafy *byłyby* takie
 same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
 zapisane*. Zastanawiasz się pewnie, o co mi teraz chodzi? Żeby to lepiej objaśnić, może skorzystam z
-innego przykładu: *Moglibyśmy* przyjąć *konwencję* interpretowania wyrażeń o postaci `n < m` jako
-oznaczających, że `n` jest *większe* niż `m`, czyli *interpretować* ten symbol *odwrotnie*, niż to
-zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy mówili nie
-uległby zmianie, zmieniłby się *tylko sposób zapisu*. Tylko *czemu by to mogło służyć*? Otóż temu:
+innego przykładu: Moglibyśmy przyjąć *konwencję interpretowania* wyrażeń o postaci `n < m` jako
+oznaczających, że `n` jest *większe* niż `m`, czyli interpretować ten symbol *odwrotnie*, niż to
+zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy *mówili*
+nie uległby zmianie, zmieniłby się *tylko sposób zapisu*. Tylko *czemu by to mogło służyć*? Otóż
+temu:
 
 **Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego*, albo krócej i mniej oficjalnie
 *początku*, ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
@@ -280,16 +289,16 @@ tego, co ta definicja będzie charakteryzować, jako obiekt początkowy, bo w te
 definicję obiektu *końcowego*, którego szczególnym przypadkiem jest każdy singleton w kategorii
 `Set`.
 
-Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa, dlatego
-właśnie mówimy o zasadzie *dualności* w teorii kategorii. Ta druga wersja defincji jest tak zwaną
-*dualną postacią* albo wersją tej pierwszej i odpowiednio to drugie pojęcie (albo konstrukcja) jest
-dualne względem tego pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne
-względem drugiego, bo *operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło
-Ci teraz może do głowy pojęcie izomorfizmu? Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że
-dualne struktury nie są jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego
-słowa. Na przykład, wolna kategoria nad grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka
-sama jak wolna kategoria nad grafem `A → B ← C`, nawet, jeśli zignorujemy oznaczenia punktów i
-strzałek.
+Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa. Nazywamy
+to [*zasadą dualności*](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii) w
+teorii kategorii. Ta druga wersja defincji jest tak zwaną *dualną postacią* albo wersją tej
+pierwszej i odpowiednio to drugie pojęcie (albo konstrukcja) jest dualne względem tego pierwszego. I
+odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem drugiego, bo *operacja
+odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz może do głowy pojęcie
+izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są jednak w
+ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna kategoria nad
+grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna kategoria nad grafem `A → B ←
+C`, nawet, jeśli zignorujemy oznaczenia punktów i strzałek.
 
 To zjawisko ma charakter ogólniejszy, bo *każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy
 jakąś kategorię `C`, to każdy punkt w tej kategorii musi mieć swoją identyczność, składalne strzałki
