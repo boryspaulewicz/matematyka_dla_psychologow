@@ -307,6 +307,35 @@ endostrzałka po odwróceniu pozostaje tą samą strzałką, a każde złożenie
 odpowiadało analogicznemu złożeniu `Id' f' = f'` w kategorii dualnej i tak samo dla złożeń postaci
 `Id f`. 
 
+W przypadku kategorii skończonych, można zobaczyć, jak "działa" zasada dualności również w inny
+sposób. Zacznijmy od strzałek `a : X -> Y`, `b : Y -> Z`, `c : Z -> V` i `d : X -> U`. Ten graf to
+jeszcze nie kategoria, bo nie ma tu ani identyczności, ani operacji składania. Tym razem jednak
+wygenerujemy wolną kategorię nad tym grafem inaczej.
+
+**Rysunek 3**: `Narysuj` proszę tabelkę, ale taką "niedomkniętą" ani z dołu, ani z
+prawej. Zaczynając z góry oznacz z lewej strony kolejne rzędy jako `a`, `b`, `c` i `d` i tak samo
+oznacz kolejne kolumny. Każda kratka w tej tabelce będzie złożeniem strzałki o tej samej nazwie co
+nazwa rzędu tej kratki ze strzałką o tej samej nazwie co nazwa kolumny tej kratki. Pomijamy więc
+tutaj elementy neutralne, bo nie musimy ich oznaczać, bo to są w pewnym sensie tylko punkty jako
+(charakterystyczne) strzałki.
+
+Na naszym grafie nie ma żadnych endostrzałek, a więc kratki na przekątnej pozostaną puste. Nie ma
+też na tym grafie żadnej strzałki kompatybilnej ze strzałkami `a` i `b`, a więc musimy dodać nową
+strzałkę w kratce `(a,b)` i nadać jej unikalną nazwę. Pierwsza niewykorzystana litera alfabetu to
+`e`, dlatego nazwiemy ją `e`. Możesz od razu dorysować tą strzałkę do grafu i wyrazić fakt, że `e =
+b a` za pomocą ptaszka. Strzałka `a` nie jest składalna ze strzałką `c` ani `d`, a więc kratki
+`(a,c)` i `(a,d)` pozostaną puste. Strzałka `b` jest składalna tylko ze strzałką `c` i nie mamy
+jeszcze strzałki, która mogłaby być tym złożeniem, a więc nadajemy jej nazwę `f`, zapisujemy ją w
+kratce `(b,c)` i dorysowujemy ją do grafu, zaznaczając za pomocą ptaszka, że `f = c b`. 
+
+Będzie z tym trochę zabawy i pojawią się kolejne strzałki, których złożenia też trzeba będzie
+sprawdzić i być może dodać, ale już wiesz, jak to należy zrobić, prawda? Gdy ta tabelka będzie już
+skończona, będziesz mogła uzyskać dualną wersję uzyskanej w ten sposób wolnej kategorii nad grafem
+transponując tą tabelkę, to znaczy rysując nową tabelkę taką, że to, co było w oryginalnej tabelce w
+kratce `(i,j)`, gdzie `i` i `j` to nazwy jakiś strzałek w oryginalnej kategorii, będzie w tej nowej
+tablce w kratce `(j,i)`. Wtedy też będzie widać jak na dłoni (albo jak na kartce), że kategoria
+dualna, chociaż nie musi być taka sama, jest jednak w pewnym ogólniejszym sensie taka sama.
+
 Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy nie tylko dowolnych
 konstrukcji z obiektów i strzałek i dowolnych konstrukcji opartych na złożeniach, czyli *wszystkich
 definicji i zdań w języku teorii kategorii*. A to znaczy, że wymyślając jeden rodzaj konstrukcji
