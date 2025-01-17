@@ -373,9 +373,9 @@ zapisuje) *z* `X + Y` *do* `Z` (kolejne odwrócenie) taka, że `f+g i₁ = f` i 
 wszystkich złożeń wymuszone przez odwrócenie wszystkich strzałek). Żeby to było łatwiej zobaczyć,
 zapiszę te dwie definicje formalnie:
 
-`∀ Z : Obj, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y`
+`∀ Z : Set, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y, π₁ ⟨f,g⟩ = f ∧ π₂ ⟨f,g⟩ = g`
 
-`∀ Z : Obj, ∀ f : X → Z, ∀ g : Y → Z, ∃¹   f+g : X + Y → Z`
+`∀ Z : Set, ∀ f : X → Z, ∀ g : Y → Z, ∃¹ (f+g) : X + Y → Z, (f+g) i₁ = f ∧ (f+g) i₂ = g`
 
 gdzie `Obj` oznacza obiekt w danej kategorii, a `∃¹` czytamy jako *istnieje dokładnie jedno coś
 jakiegoś rodzaju*.
