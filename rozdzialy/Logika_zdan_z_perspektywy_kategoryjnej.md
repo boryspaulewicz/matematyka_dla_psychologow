@@ -160,11 +160,11 @@ liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzrotno
 liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
 `≤` strzałek identycznościowych.
 
-Z drugiej strony, relacja *mniejsze niż* jest mimo wszystko przechodnia, bo przecież dla każdych
-trzech liczb `m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za
-pomocą strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
+Z drugiej strony, relacja `<` jest mimo wszystko przechodnia, bo przecież dla każdych trzech liczb
+`m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą
+strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
 wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że dla każdej pary
-składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą. 
+składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą.
 
 Moglibyśmy wtedy *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć konwencję*, że
 te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy przecież stworzyć kategorię
