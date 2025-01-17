@@ -283,21 +283,91 @@ istnieje unikalna strzałka `f+g` (bardzo różnie się to zapisuje) *z* `X + Y`
 odwrócenie) taka, że `f+g i1 = f` i `f+g i2 = g` (odwrócenie wszystkich złożeń wymuszone przez
 odwrócenie wszystkich strzałek).
 
-W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. TODO pokazać
-dlaczego.
+W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. Żeby się o tym
+przekonać, wystarczy popatrzeć na rysunek struktury wewnętrznej dowolnej sumy rozłącznej dwóch
+zbiorów skończonych, na którym widać też strukturę wewnętrzną injekcji. Ponieważ suma rozłączna
+zawiera tylko wierne kopie zbiorów, nazwijmy je znowu `X` i `Y`, będących jej członami, zakodowne w
+taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione przez wewnętrzne strzałki
+obydwu injekcji, to gdy tylko określimy, dla dowolnego zbioru `Z`, do jakich elementów tego zbioru
+mają być posłane przez funkcje `f` i `g` elementy zbioru `X` i zbioru `Y` odpowiednio, to, do czego
+ma być posłana każda kopia, żeby powstająca w ten sposób funkcja składała się z injekcjami w funkcje
+`f` i `g`, będzie wymuszone.
 
-Można więc powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
+Można też powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
 operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
 wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `x`, czyli drugą stronę operacji
 tworzenia produktów. A w kategorii `FinSet` (zbiorów skończonych) te operacje odpowiadają, jak wiesz
-z jednego z poprzednich rozdziałów, dodawaniu i mnożeniu liczb naturalnych, które to operacje można
-zrealizować w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych i iloczynów
-kartezjańskich. W ten oto sposób, posługując się graficznym językiem teorii kategorii, możemy
-całkiem dosłownie *zobaczyć* (gdybyśmy przedstawili to za pomocą diagramów) głęboki związek między
-dodawaniem i mnożeniem i tym samym dostrzec, że te dwie operacje są w pewnym sensie *tą samą
-operacją*.
+z jednego z poprzednich rozdziałów, dodawaniu i mnożeniu liczb naturalnych, zrealizowanemu w
+zbiorach skończonych z punktu widzenia teorii kategorii dualnych operacji tworzenia sum rozłącznych
+i iloczynów kartezjańskich. W ten oto sposób, posługując się graficznym językiem teorii kategorii,
+możemy *zobaczyć* - całkiem dosłownie, gdybyśmy przedstawili to za pomocą diagramów - głęboki
+związek między dodawaniem i mnożeniem i tym samym dostrzec, że te dwie operacje są w pewnym
+technicznym i abstrakcyjnym sensie *dwiema stronami tej samej operacji*.
 
 Często, ale nie zawsze, bo to czasem źle brzmi, konstrukcje dualne do pewnych konstrukcji, które
 wydają się bardziej podstawowe albo są częściej używane, nazywamy w teorii kategorii tym samym
 określeniem, ale dodając przedrostek *ko* (a po angielsku *co*, jak w pytaniu *co to ma
-być?*). Produkty pojawiają się w matematyce znacznie częściej niż
+być?*). Produkty pojawiają się w matematyce znacznie częściej niż koprodukty, dlatego właśnie
+produkty noszą nazwę bez tego przedrostka.
+
+Zasada dualności dotyczy zresztą nie tylko dowolnych konstrukcji z obiektów, ale również dowolnych
+konstrukcji opartych na złożeniach, czyli w ogóle *wszystkich definicji i zdań w języku teorii
+kategorii*. A to znaczy, że wymyślając jeden rodzaj konstrukcji kategoryjnej, automatycznie
+wymyślamy dwa rodzaje i udowadniając dowolne zdanie wyrażone w języku teorii kategorii automatycznie
+udowadniamy dwa takie zdania!
+
+## Początek, koniec, produkt i koprodukt w logice zdań.
+
+Gdy tylko uda nam się zdefiniować na poziomie opisu pewnego rodzaju struktur coś ważnego w języku
+teorii kategorii, możemy zacząć szukać odpowiedników tych konstrukcji czy pojęć w dowolnych innych
+kategoriach.
+
+Czym jest obiekt początkowy w opisanej już wcześniej kategorii, w której punkty są zdaniami a
+strzałki reprezentują relację dowiedlności? To przecież *zdanie fałszywe*, które akurat w Leanie
+jest zdefiniowane tak:
+
+```lean
+inductive False : Prop
+```
+
+To jest *cała* definicja zdania `False`. **Czytamy to** w ten sposób: Definiuję indukcyjnie
+(`inductive`), czyli przez *wymienienie wszystkich możliwych sposobów konstruowania termów
+definiowanego typu*, zdanie `False` (`False : Prop`) jako typ, którego termów *nie da się w żaden
+sposób skonstruować*. Zdanie / typ `False` jest więc ewidentnie obiektem analogicznym do zbioru
+pustego w kategorii `Set` i tak samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej
+definicji obiektu początkowego: dla każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej
+teraz kategorii dowiedlności zdań ze zdań, można udowodnić zdanie `False -> P`, czyli istnieje
+*jakaś* strzałka z punktu `False` do punktu `P` i istnieje *co najwyżej jedna* taka strzałka, bo w
+tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
+
+Obiektem dualnym do zdania fałszywego jest *zdanie prawdziwe*, które w Leanie jest zdefiniowane tak:
+
+```lean
+inductive True : Prop where
+  | intro : True
+```
+
+**Czytamy to** w ten sposób: Definiuję indukcyjnie zdanie `True` jako takie, że ('where') term /
+dowód można skonstruować w dokładnie jeden sposób (bo w ciele tej definicji jest tylko jedna pozioma
+kreska `|`) z niczego (bo wyrażenie za tą kreską nie ma parametrów) jako term `intro` typu
+`True`. Tworząc definicje indukcyjne automatycznie tworzymy też przestrzenie nazw dla ciał tych
+definicji, dlatego normalnie zapisujemy ten jedyny term/dowód typu/zdania `True` jako
+`True.intro`. I to zdanie spełnia wymagania obiektu końcowego:
+
+```lean
+example (P : Prop) : P → True := True.intro
+```
+
+A więc z perspektywy kategoryjnej zdanie prawdziwe albo prawda i zdanie fałszywe albo fałsz są
+obiektami dualnymi, a więc w pewnym sensie są tym samym obiektem, tylko każdy z nich jest "wywróconą
+na drugą stronę" wersją drugiego. Widzimy też, że istnieje oczywiste podobieństwo między
+typem/zdaniem `True` i każdym możliwym singletonem.
+
+Produkty w tej kategorii to *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`, jeżeli z `P`
+wynika `Q` i z `P` wynika `R`, czyli jeżeli w naszej kategorii istnieją strzałki `P -> Q` i `P ->
+R`, to istnieje unikalna strzałka z `P` do `Q \x R`, czyli ("pod spodem") dowód implikacji `P -> Q
+\and R`, która (w kategorii) składa się z projekcjami `Q x R -> Q` i `Q x R -> R` (czyli z dowodami
+zdań `Q \and R -> Q` i `Q and R -> R`) dając wyjściowe strzałki `P -> Q` i `P -> R` odpowiednio, bo
+te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par różnych równoległych
+strzałek.
+
