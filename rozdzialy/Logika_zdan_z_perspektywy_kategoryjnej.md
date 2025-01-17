@@ -229,13 +229,13 @@ to jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii *nie pozostawiają na
 tak, że `Id f = f = f Id` i poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy
 *najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
 
-Dodaliśmy to, co było konieczne, żeby uzyskać kategorię i tylko to, co było konieczne, a więc to
+Dodaliśmy *to, co było konieczne*, żeby uzyskać kategorię i *tylko to*, co było konieczne, a więc to
 jest najprostsza albo najmniejsza tego rodzaju kategoria, chociaż to, że jest najprostsza albo
 najmniejsza możemy (na razie) powiedzieć tylko nieformalnie, bo nie zdefiniowaliśmy żadnej miary
 złożoności ani wielkości kategorii. Możemy też powiedzieć, że to jest *najlepsza* albo doskonała
-kategoria tego rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też lepsze,
-bo te dwa słowa mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób mówienia i
-myślenia ma intuicyjny sens i nikt nam tego przecież nie zabroni.
+kategoria tego rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też *lepsze*,
+bo słowa "lepszy" i "doskonały" mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób
+mówienia i myślenia ma intuicyjny sens i nikt nam tego nie może zabronić.
 
 Nie jest prawdą, że strzałka `f` jest endostrzałką i przyda się nam odtąd nazwa na takie strzałki,
 żeby mówić o tym prościej, dlatego będę czasem nazywał takie strzałki *egzostrzałkami*. Egzostrzałką
