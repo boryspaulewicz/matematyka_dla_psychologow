@@ -218,7 +218,7 @@ obiektach, czyli w naszej terminologii punktach.
 
 ## Wolne konstrukcje
 
-Popatrzmy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
+Popatrzymy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
 interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli to ma być kategoria, punkty `X` i
 `Y` *muszą* mieć swoje *unikalne i charakterystyczne* endostrzałki identycznościowe. A więc musimy
 *sami dodać* te strzałki. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc
