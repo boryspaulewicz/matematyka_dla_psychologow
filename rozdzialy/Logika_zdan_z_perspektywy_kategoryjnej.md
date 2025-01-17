@@ -99,10 +99,10 @@ zbiorów i funkcji.
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
 każda liczba może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych liczb `x` i `y`
-należących do `X` fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ taka relacja jest
-*zwrotna* - `∀ x ∈ X, x ≤ x` - to mamy strzałki identycznościowe, a ponieważ taka relacja jest
-*przechodnia* - `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z` - to dla każdej pary składalnych strzałek
-istnieje ich złożenie. Pozostaje tylko ustalić, czy ...
+należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ taka relacja jest
+*zwrotna*, to znaczy `∀ x ∈ X, x ≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka
+relacja jest *przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary
+składalnych strzałek istnieje ich złożenie. Pozostaje tylko ustalić, czy ...
 
 1. `f Id = f = Id f`
 
