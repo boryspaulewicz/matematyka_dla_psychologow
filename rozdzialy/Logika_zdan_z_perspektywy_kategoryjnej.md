@@ -198,16 +198,16 @@ Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicj
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
 innej, moim zdaniem interesującej perspektywy.
 
-*Obiektem początkowym* w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii punkt)
-`I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka `I →
-X`. 
+**Obiektem początkowym** w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii
+punkt) `I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka
+`I → X`.
 
 Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `Set`, czyli w kategorii
 zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego zbioru.
 
-*Produktem* obiektów `X` i `Y` nazywamy taki obiekt `X × Y`, że istnieją strzałki `pi1 : X → X` i
-`pi2 : X → Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y`
-istnieje unikalna strzałka `<f,g>` spełniająca warunek `pi1 <f,g> = f` i `pi2 <f,g> = g`. 
+**Produktem** obiektów `X` i `Y` nazywamy taki obiekt `X × Y`, że istnieją strzałki `pi1 : X → X` i
+`pi2 : X → Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y` istnieje
+unikalna strzałka `<f,g>` spełniająca warunek `pi1 <f,g> = f` i `pi2 <f,g> = g`.
 
 Oficjalnie nazywamy te strzałki raczej rzutami kanonicznymi, ale ja wolę nazywać je projekcjami. Jak
 już wiesz, produkty w kategorii `Set` to ("pod spodem") dokładnie iloczyny kartezjańskie
