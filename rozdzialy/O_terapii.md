@@ -8,39 +8,43 @@ Badanie skuteczno¶ci *okre¶lonych metod* terapii jest jak wiadomo niemal niemo¿l
 "z³otym standardem" w badaniach dotycz±cych skuteczno¶ci arbitralnych interwencji terapeutycznych
 jest badanie randomizowane z [podwójnym
 za¶lepieniem]([za¶lepienia](https://en.wikipedia.org/wiki/Blinded_experiment)). Podajemy na przyk³ad
-okre¶lon± dawkê leku przeciwbólowego albo jak±¶ substancjê obojêtn± losowo ró¿nym osobom badanym i
-po jakim¶ czasie pytamy, jak bardzo co¶ te osoby boli. Podwójne za¶lepienie polega wtedy na tym, ¿e
-ani osoba podaj±ca lek lub substancjê obojêtn± nie wie, co poda³a, ani osoba badana nie wie, co
-dosta³a, bo wszystkie tabletki wygl±daj± i smakuj± tak samo i s± zakodowane tak, ¿eby osoba podaj±ca
-tabletkê nie mog³a odgadn±æ co podaje.
+albo okre¶lon± dawkê leku przeciwbólowego, albo jak±¶ substancjê obojêtn±, losowo, ró¿nym osobom
+badanym i po jakim¶ czasie pytamy, jak bardzo co¶ te osoby boli. Podwójne za¶lepienie polega wtedy
+na tym, ¿e ani osoba podaj±ca lek lub substancjê obojêtn± nie wie, co poda³a, ani osoba badana nie
+wie, co dosta³a, bo wszystkie tabletki wygl±daj± i smakuj± tak samo i s± zakodowane tak, ¿eby osoba
+podaj±ca tabletki nie mog³a odgadn±æ co podaje.
 
 Chocia¿ w badaniach dotycz±cych skuteczno¶ci psychoterapii to i owo mo¿na randomizowaæ, to z
 oczywistych wzglêdów *nie da siê* zastosowaæ ani pojedynczego, ani tym bardziej podwójnego
-za¶lepienia, a to oznacza, ¿e *nie da siê* oddzieliæ wp³ywu *samej metody* od wp³ywu wielu innych,
-*tylko czê¶ciowo identyfikowalnych*, a poza tym w wiêkszo¶ci bli¿ej nieokre¶lonych czynników, takich
-jak na przyk³ad cechy osób, które decyduj± siê uczyæ danej metody. W koñcu to, jakie podej¶cie,
-szko³ê lub techniki stosuje terapeuta albo terapeutka wynika w bli¿ej nieokre¶lony sposób z cech
-osobowych i do¶wiadczeñ.
+za¶lepienia. A to oznacza, ¿e *nie da siê* oddzieliæ wp³ywu *samej metody* od wp³ywu wielu innych,
+*tylko czê¶ciowo identyfikowalnych*, a poza tym bli¿ej nieokre¶lonych czynników, takich jak na
+przyk³ad cechy osób, które decyduj± siê uczyæ danej metody. W koñcu to, jakie podej¶cie, szko³ê lub
+techniki stosuje terapeuta albo terapeutka wynika w bli¿ej nieokre¶lony sposób z cech osobowych i
+do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemu interpretacyjnego, który w takich
+badaniach zawsze powstaje.
 
 Poza tym nak³anianie terapeutów bior±cych udzia³ w tego rodzaju badaniach, ¿eby stosowali podej¶cie
 lub metodê, któr± badacz móg³by przydzielaæ losowo, nie ma wiêkszego sensu. W tak przeprowadzonym
 badaniu interwencja i tak nie mog³aby dzia³aæ *selektywnie*, poniewa¿ skutek zastosowania okre¶lonej
 metody wynika³by w bli¿ej nieokre¶lony sposób miêdzy innymi z tego, jaki stosunek do tej metody ma
 dany terapeuta albo terapeutka, a osoby, które by³yby przydzielone do warunków, w których ta metoda
-nie by³aby stosowana, mog³yby z tego powodu zmieniæ to, jak prowadz± terapiê.
+nie by³aby stosowana, a które normalnie by j± zastosowa³y, mog³yby z tego powodu w bli¿ej
+nieokre¶lony sposób zmieniæ to, jak prowadz± terapiê.
 
 Wreszcie przebieg terapii bêd±cej interwencj± eksperymentaln± to nie to samo, co przebieg terapii w
-warunkach naturalnych, a przecie¿ o to drugie ostatecznie chodzi w badaniach skuteczno¶ci. Mo¿na
-wiêc od biedy powiedzieæ co najwy¿ej, ¿e w przypadku niektórych metod terapii zebrane do tej pory
-¶wiadectwa empiryczne *zdaj± siê* sugerowaæ, ¿e *w pewnych sytuacjach* te metody *mog± dzia³aæ pod
-pewnymi, stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
+warunkach naturalnych, a przecie¿ o to drugie chodzi w badaniach skuteczno¶ci. Mo¿na wiêc od biedy
+powiedzieæ co najwy¿ej, ¿e w przypadku niektórych metod terapii zebrane do tej pory ¶wiadectwa
+empiryczne *zdaj± siê sugerowaæ*, ¿e *w pewnych sytuacjach* te metody *mog± dzia³aæ pod pewnymi,
+stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
 
 To oczywi¶cie *nie* znaczy, ¿e terapia nie dzia³a, albo, ¿e dzia³a niezbyt skutecznie; to znaczy
-tylko tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie *nie sposób stwierdziæ*, jakie dok³adnie s± lub mog±
-byæ *skutki samych metod terapeutycznych*. Pomijaj±c ju¿ to, jaki ba³agan panuje od niepamiêtnych
-czasów w diagnozie zaburzeñ, wiedza na temat *mechanizmów dzia³ania* terapii jest tak skromna, ¿e
-praktycznie nikt siê nie dziwi na przyk³ad "poznawczym podstawom", okre¶lanej czêsto jako ["oparta
-na dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
+*tylko* tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie *nie sposób stwierdziæ*, jakie dok³adnie s± lub
+mog± byæ *skutki samych metod terapeutycznych*. Mi siê na przyk³ad *wydaje*, ¿e terapia dzia³a
+czêsto ca³kiem nie¼le, ale nikt nie ma obowi±zku s³uchaæ moich nie popartych niczym innym ni¿
+pewnymi wra¿eniami opinii. Pomijaj±c ju¿ to, jaki ba³agan panuje od niepamiêtnych czasów w
+diagnozie zaburzeñ, wiedza na temat *mechanizmów dzia³ania* terapii jest tak skromna, ¿e praktycznie
+nikt siê nie dziwi na przyk³ad "poznawczym podstawom", okre¶lanej czêsto jako ["oparta na
+dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
 poznawczo-behawioralnej](https://pl.wikipedia.org/wiki/Psychoterapia_poznawczo-behawioralna). A te
 [nie przypominaj± za
 bardzo](https://www.annualreviews.org/content/journals/10.1146/annurev-clinpsy-032813-153734)
