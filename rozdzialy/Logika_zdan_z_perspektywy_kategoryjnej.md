@@ -172,14 +172,16 @@ jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o 
 spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i unikać bredzenia, co też oczywiście
 bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie nie doświadczymy takiej wolności jak
 w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda nam się z taką kategorią zrobić coś
-pouczającego, interesującego, albo nawet tylko zabawnego. Matematyka pozwala nam skutecznie myśleć o
-*dowolnych kwestiach, na dowolnym poziomie ogólności i z dowolnych punktów widzenia*. O ile tylko
-będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak matematyka i o ile nie
-przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to będziemy mieć gwarancję, że
-nasze wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych założeń, definicji i
-aksjomatów. Co prawda nie istnieje uniwersalna metoda znajdywania dowodów arbitralnych zdań, ale
-dzięki temu *zawsze* ważny będzie przebłysk intuicji, a potencjalne dowody będziemy mogli *zawsze*
-sprawdzić za pomocą algorytmu, który *zawsze* da nam jednoznaczną odpowiedź, czy są poprawne.
+pouczającego, interesującego, albo nawet tylko zabawnego. 
+
+Matematyka pozwala nam skutecznie myśleć o *dowolnych kwestiach, na dowolnym poziomie ogólności i z
+dowolnych punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak
+nie pomaga jak matematyka i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do
+sprzeczności, to będziemy mieć gwarancję, że nasze wnioski, jakie by nie były, będą prawdziwe na
+mocy przyjętych założeń, definicji i aksjomatów. Co prawda nie istnieje uniwersalna metoda
+znajdywania dowodów arbitralnych zdań, ale dzięki temu *zawsze* ważny będzie przebłysk intuicji, a
+potencjalne dowody będziemy mogli *zawsze* sprawdzić za pomocą algorytmu, który *zawsze* da nam
+jednoznaczną odpowiedź, czy są poprawne.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako kategorii: Gdyby było tak, że dla
 niektórych, ale nie wszystkich liczb zachodzi zwrotność relacji `<`, czyli gdyby istniała co
