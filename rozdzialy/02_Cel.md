@@ -360,7 +360,10 @@ definicji*](https://en.wikipedia.org/wiki/Cronbach%27s_alpha), α Cronbacha to n
 miara stopnia, w jakim odpowiedzi na wszystkie pozycje testowe są *skorelowane*, to skoro pozycje
 testowe są *zawsze blisko związane treściowo*, można tą miarę interpretować jako co prawda
 niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim osoby badane wykonują
-zadanie udzielenia odpowiedzi na pozycje testowe*. 
+zadanie udzielenia odpowiedzi na pozycje testowe*. Z tego punktu widzenia wysoka wartość α Cronbacha
+świadczy więc *przede wszystkim* o tym, że dzięki długotrwałemu i intensywnemu procesowi uczenia się
+społecznego większość osób badanych stała się kompetentnymi użytkownikami języka w którym zapisane
+są pytania i dlatego obserwowane odpowiedzi są względnie spójne.
 
 Zobaczymy, że z tej perspektywy centralny pomysł Lorda i Novicka, leżący u podstaw [klasycznej
 teorii testów](https://en.wikipedia.org/wiki/Classical_test_theory), polegający na [*definicyjnym
