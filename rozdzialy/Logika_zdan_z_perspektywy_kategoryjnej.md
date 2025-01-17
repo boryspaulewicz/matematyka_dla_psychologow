@@ -176,7 +176,8 @@ pozwala nam skutecznie myśleć o *dowolnych kwestiach, na dowolnym poziomie og�
 punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga
 jak matematyka i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to
 będziemy mieć gwarancję, że nasze wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych
-założeń, definicji i aksjomatów.
+założeń, definicji i aksjomatów. A prawdziwość takich wniosków, o ile tylko znajdziemy ich
+potencjalne dowody, będziemy zawsze mogli sprawdzić mechanicznie, czyli bezmyślnie.
 
 Gdyby było tak, że dla niektórych, ale nie wszystkich liczb zachodzi zwrotność, czyli gdyby istniała
 co najmniej jedna liczba taka, że byłaby mniejsza od samej siebie, ale istniałaby też liczba, która
