@@ -235,7 +235,7 @@ najmniejsza możemy (na razie) powiedzieć tylko nieformalnie, bo nie zdefiniowa
 złożoności ani wielkości kategorii. Możemy też powiedzieć, że to jest *najlepsza* albo doskonała
 kategoria tego rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też *lepsze*,
 bo słowa "lepszy" i "doskonały" mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób
-mówienia i myślenia ma intuicyjny sens i nikt nam tego nie może zabronić.
+mówienia i myślenia ma intuicyjny sens.
 
 Nie jest prawdą, że strzałka `f` jest endostrzałką i przyda się nam odtąd nazwa na takie strzałki,
 żeby mówić o tym prościej, dlatego będę czasem nazywał takie strzałki *egzostrzałkami*. Egzostrzałką
