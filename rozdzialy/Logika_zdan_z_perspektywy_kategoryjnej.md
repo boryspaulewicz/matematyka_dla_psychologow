@@ -119,8 +119,8 @@ i `h : Z → V`, to nie ma znaczenia, czy najpierw uzyskamy jako złożenie `h g
 do `V` jaka istnieje, a potem złożymy ją ze strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka
 istnieje, czy najpierw uzyskamy jako złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a
 potem dołożymy do niej strzałkę `h` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na
-końcu uzyskujemy ... jedyną strzałkę z `X` do `V` jaka istnieje, a więc za każdym razem uzyskujemy
-tą samą strzałkę, a więc łączność składania zachodzi automatycznie.
+końcu uzyskujemy ... jedyną strzałkę z `X` do `V` jaka istnieje, a więc w obydwu przypadkach
+uzyskamy tą samą strzałkę, a więc łączność składania zachodzi automatycznie.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
 składania diagram jest co prawda bardziej złożony, ale sposób, w jaki dobrze jest go narysować w
