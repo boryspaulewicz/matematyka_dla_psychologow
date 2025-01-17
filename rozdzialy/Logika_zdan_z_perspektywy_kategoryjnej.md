@@ -150,9 +150,10 @@ się specjalnie od tych, które rysowałaś wcześniej.
 **Rysunek 2**: Diagram wyrażający neutralność strzałek identycznościowych wymaga innego
 podejścia. Gdybyś narysowała strzałkę `f` z pętlami identyczności u źródła i u celu, to nie dałoby
 się wyrazić na takim diagramie podwójnego równania `Id f = f = f Id` za pomocą ptaszków, bo nie
-byłoby na nim ani żadnych trójkątów, ani żadnych innych obszarów otoczonych ścieżkami równoległymi,
-w których takie ptaszki dałoby się zamknąć. Możemy jednak skorzystać z tego, że *punkty i strzałki
-na diagramie to jedno, a ich nazwy to co innego*, rysując diagram zawierający *kopie*.
+byłoby na nim ani żadnych trójkątów, ani żadnych innych obszarów otoczonych skierowanymi ścieżkami
+równoległymi, w których takie ptaszki dałoby się zamknąć. Możemy jednak skorzystać z tego, że
+*punkty i strzałki na diagramie to jedno, a ich nazwy to co innego*, rysując diagram zawierający
+*kopie*.
 
 `Narysuj (Punkt X)`, a potem `Narysuj (Punkt Y) (SE X)`[^1]. O krok pod pierwszą kopią `Punkt X`
 również `Narysuj (Punkt X)` i połącz te dwie kopie skierowaną w dół strzałką o nazwie
