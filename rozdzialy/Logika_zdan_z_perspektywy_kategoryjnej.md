@@ -180,8 +180,8 @@ nie pomaga jak matematyka i o ile nie przyjmiemy jednocześnie założeń, któr
 sprzeczności, to będziemy mieć gwarancję, że wyprowadzone dedukcyjnie wnioski, jakie by nie były,
 będą prawdziwe na mocy przyjętych założeń, definicji i aksjomatów. Co prawda nie istnieje
 uniwersalna metoda znajdywania dowodów arbitralnych zdań, ale dzięki temu *zawsze* ważny będzie
-przebłysk intuicji, a potencjalne dowody będziemy mogli *zawsze* sprawdzić za pomocą algorytmu,
-który *zawsze* da nam jednoznaczną odpowiedź, czy są poprawne.
+przebłysk intuicji, a potencjalne dowody możemy *zawsze* sprawdzić za pomocą *algorytmu*, który
+*zawsze* da nam *jednoznaczną odpowiedź*, czy są poprawne.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako kategorii: Gdyby było tak, że dla
 niektórych, ale nie wszystkich liczb zachodzi zwrotność relacji `<`, czyli gdyby istniała co
