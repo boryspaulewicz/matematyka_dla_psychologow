@@ -296,13 +296,13 @@ definicję obiektu *końcowego*, którego szczególnym przypadkiem jest każdy s
 Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa. Nazywamy
 to [*zasadą dualności*](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii) w
 teorii kategorii. Ta druga wersja defincji jest tak zwaną *dualną postacią* albo wersją tej
-pierwszej i odpowiednio to drugie pojęcie (albo konstrukcja) jest dualne względem tego pierwszego. I
-odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem drugiego, bo *operacja
-odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz może do głowy pojęcie
-izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są jednak w
-ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna kategoria nad
-grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna kategoria nad grafem `A → B ←
-C`, nawet, jeśli zignorujemy oznaczenia punktów i strzałek.
+pierwszej i odpowiednio to drugie pojęcie (albo konstrukcja) jest dualne względem albo do tego
+pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem drugiego, bo
+*operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz może do głowy
+pojęcie izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są
+jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna
+kategoria nad grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna kategoria nad
+grafem `A → B ← C`, nawet, jeśli zignorujemy oznaczenia punktów i strzałek.
 
 To zjawisko ma charakter ogólniejszy, bo *każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy
 jakąś kategorię `C`, to każdy punkt w tej kategorii musi mieć swoją identyczność, składalne strzałki
