@@ -187,7 +187,8 @@ między kategorią i opisywaną przez nią strukturą. No ale w przypadku relacj
 wchodzi ze sobą w tą relację, a więc taka "kategoryfikacja" nie wprowadzałaby zniekształceń, tylko
 polegała na *zmianie konwencji opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo
 zapisać, że pętle identyczności są "puste" i służą tylko jako konieczne uzupełnienia pozwalające
-uzyskać kategorię.
+uzyskać kategorię. Można więc powiedzieć, że matematyka jest strefą logicznie bezpiecznych, ale poza
+tym niczym nieskrępowanych eksperymentów pojęciowych.
 
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
