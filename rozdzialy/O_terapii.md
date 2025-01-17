@@ -12,7 +12,7 @@ albo okre¶lon± dawkê leku przeciwbólowego, albo jak±¶ substancjê obojêtn±, losow
 badanym i po jakim¶ czasie pytamy, jak bardzo co¶ te osoby boli. Podwójne za¶lepienie polega wtedy
 na tym, ¿e ani osoba podaj±ca lek lub substancjê obojêtn± nie wie, co poda³a, ani osoba badana nie
 wie, co dosta³a, bo wszystkie tabletki wygl±daj± i smakuj± tak samo i s± zakodowane tak, ¿eby osoba
-podaj±ca tabletki nie mog³a odgadn±æ co podaje.
+podaj±ca tabletki nie mog³a odgadn±æ, co podaje.
 
 Chocia¿ w badaniach dotycz±cych skuteczno¶ci psychoterapii to i owo mo¿na randomizowaæ, to z
 oczywistych wzglêdów *nie da siê* zastosowaæ ani pojedynczego, ani tym bardziej podwójnego
