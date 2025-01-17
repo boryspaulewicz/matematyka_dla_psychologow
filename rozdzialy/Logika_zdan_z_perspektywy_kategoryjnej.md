@@ -350,11 +350,12 @@ kratce `(i,j)`, gdzie `i` i `j` to nazwy jakiś strzałek w oryginalnej kategori
 tablce w kratce `(j,i)`. Wtedy też będzie widać jak na dłoni (albo jak na kartce), że kategoria
 dualna, chociaż nie musi być taka sama, jest jednak w pewnym ogólniejszym sensie taka sama.
 
-Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy nie tylko dowolnych
-konstrukcji z obiektów i strzałek i dowolnych konstrukcji opartych na złożeniach, czyli *wszystkich
-definicji i zdań w języku teorii kategorii*. A to znaczy, że wymyślając jeden rodzaj konstrukcji
-kategoryjnej, automatycznie wymyślamy dwa rodzaje i udowadniając dowolne zdanie wyrażone w języku
-teorii kategorii automatycznie udowadniamy dwa takie zdania.
+Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy wszystkich
+konstrukcji z obiektów i strzałek i wszystkich konstrukcji opartych na złożeniach, czyli *wszystkich
+definicji i zdań w języku teorii kategorii*, w tym również wszystkich (całych) kategorii. A to
+znaczy, że wymyślając jeden rodzaj konstrukcji kategoryjnej, automatycznie wymyślamy dwa rodzaje i
+udowadniając dowolne zdanie wyrażone w języku teorii kategorii automatycznie udowadniamy dwa takie
+zdania.
 
 Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić. Na
 szczęście, zwykle skupiamy się na wybranych fragmentach albo własnościach jakiejś kategorii, na
