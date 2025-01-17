@@ -51,8 +51,8 @@ prawie funkcji anonimowych ...
 example (n m : Nat) : Nat := n + m
 ```
 
-... ale to *nie* będą funkcje anonimowe, bo nie da się ani sprawdzić typu takich wyrażeń, ani ich
-aplikować:
+... ale to jednak *nie* będą funkcje anonimowe, bo nie da się ani sprawdzić typu takich wyrażeń, ani
+ich aplikować:
 
 ```lean
 -- Tutaj pojawia się błąd ...
