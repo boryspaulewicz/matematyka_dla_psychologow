@@ -68,15 +68,16 @@ siê o to, która metoda jest bardziej naukowa *w znaczeniu oparta na naukowych wy
 pozwala siê szybciej wdrapaæ na ksiê¿yc.
 
 Z perspektywy, która nam siê tutaj stopniowo wykluje, tak w³a¶nie *musi byæ* i tak *powinno* byæ, bo
-terapia *nie mo¿e* polegaæ na celowej interwencji na poziomie *nieobserwowalnych przyczynowych
-mechanizmów zachowania*, skoro te s± nie tylko s³abo poznane, ale przede wszystkim *z definicji
+terapia *nie mo¿e* polegaæ na celowej interwencji na poziomie *nieobserwowalnych przyczyn
+zachowania*, skoro te s± nie tylko s³abo poznane, ale przede wszystkim *z definicji
 niedostêpne*. Polega za to g³ównie, bo musi, bo jest *dialogiem co najmniej dwóch osób*, na próbach
 u³atwienia pacjentce albo pacjentowi opanowania dziêki regularnym rozmowom nowych, potencjalnie
 adaptacyjnych i moralnie akceptowalnych, spójnych z w³asnymi predyspozycjami, mo¿liwo¶ciami i
 sytuacj± *ról spo³ecznych*, a dziêki temu byæ mo¿e na wykszta³ceniu bardziej korzystnych sposobów
 reagowania. Ten proces polega na *interpretowaniu* zachowañ i wypowiedzi pacjenta lub pacjentki za
-pomoc± rozmaitych stosunkowo elastycznych i nieostrych pojêæ, które musz± i powinny prowadziæ do
-radykalnych uproszczeñ, a *nie* na *rzeczywistym wyja¶nianiu* tych zachowañ i wypowiedzi.
+pomoc± rozmaitych, najczê¶ciej stosunkowo wieloznacznych i nieostrych pojêæ, które *musz±* i
+*powinny* prowadziæ do radykalnych uproszczeñ, a *nie* na *rzeczywistym wyja¶nianiu* tych zachowañ i
+wypowiedzi.
 
 Z tej perspektywy terapia jest wiêc prób± pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej
 i korzystnej *zmiany tego, kim jest*, a w³a¶ciwie raczej *kim bywa*[^1]. Taka zmiana jest zawsze
