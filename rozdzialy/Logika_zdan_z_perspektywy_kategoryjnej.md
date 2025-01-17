@@ -280,7 +280,7 @@ Z drugiej strony, *w innym znaczeniu* wolne kategorie generowane przez obydwa gr
 same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
 zapisane*. Zastanawiasz się pewnie, o co mi teraz chodzi? Żeby to lepiej objaśnić, może skorzystam z
 innego przykładu: Moglibyśmy przyjąć *konwencję interpretowania* wyrażeń o postaci `n < m` jako
-oznaczających, że `n` jest *większe* niż `m`, czyli interpretować ten symbol *odwrotnie*, niż to
+oznaczających, że `n` jest *większe* niż `m`, czyli interpretować ten symbol *odwrotnie* niż to
 zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy *mówili*
 nie uległby zmianie, zmieniłby się *tylko sposób zapisu*. Tylko *czemu by to mogło służyć*? Otóż
 temu:
