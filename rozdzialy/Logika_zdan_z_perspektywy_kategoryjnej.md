@@ -96,5 +96,88 @@ tak naprawdę konkretnego dowodu, tylko pewien *fakt*; w tym wypadku to jest zaw
 na zachodzeniu *relacji dowiedlności*. Ta kategoria ma więc wyraźnie inny charakter niż kategoria
 zbiorów i funkcji.
 
+Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
+relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
+każda liczba może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych liczb `x` i `y`
+należących do `X` fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ taka relacja jest
+*zwrotna* - `∀ x ∈ X, x ≤ x` - to mamy strzałki identycznościowe, a ponieważ taka relacja jest
+*przechodnia* - `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z` - to dla każdej pary składalnych strzałek
+istnieje ich złożenie. Pozostaje tylko ustalić, czy ...
+
+1. `f Id = f = Id f`
+
+2. `(h g) f = h (g f)`
+
+... ale ponieważ *nie ma tutaj strzałek równoległych*, to składanie "nie ma żadnego wyboru", bo
+zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że to jest mój prywatny
+termin). Na przykład, jeżeli `f : X -> Y` i `Id : X -> X`, to złożenie `f Id` może być tylko
+strzałką `f`, bo nie może istnieć inna strzałka z `X` do `Y`, a więc prawostronna neutralność
+strzałki `Id` jest automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej
+endostrzałki. A gdy mamy jakieś strzałki `f : X -> Y`, `g : Y -> Z` i `h : Z -> V`, to nie ma
+znaczenia, czy najpierw uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a
+potem złożymy ją ze strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw
+uzyskamy jako złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej
+strzałkę `h` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskujemy ... jedyną
+strzałkę z `X` do `V` jaka istnieje, a więc za każdym razem uzyskujemy tą samą strzałkę, a więc
+łączność składania zachodzi automatycznie. 
+
+**Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
+składania diagram jest co prawda bardziej złożony, ale sposób, w jaki dobrze jest go narysować w
+zasadzie narzuca się sam. `Narysuj` w szeregu w odstępach o krok od siebie punkty `X`, `Y`, `Z` i
+`V`. Dodaj strzałki `f`, `g` i `h`. `Narysuj` złożenia `h g` i `g f` jako strzałki wygięte w dół, a
+na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`. 
+
+Diagramatycznie każde złożenie jest przemiennym "trójkątem skierowanym", bo odpowiada jednej
+konkretnej strzałce, która jest wynikiem składania jednej konkretnej pary składalnych strzałek. W
+przypadku tego diagramu mamy dwa trójkąty - każdy z jednym kątem wewnętrznym 180 stopni i wygiętymi
+bokami, ale i tak możemy je nazywać trójkątami - które na siebie zachodzą, dlatego naniesienie
+ptaszków wyrażających przemienności wszystkich równoległych ścieżek w taki sposób, żeby było widać,
+o które złożenia chodzi, może wymagać chwili namysłu, ale poza tym ten diagram nie różni się
+specjalnie od tych, które rysowałaś wcześniej.
+
+**Rysunek 2**: Diagram wyrażający neutralność strzałek identycznościowych wymaga innego
+podejścia. Gdybyś narysowała strzałkę `f` z pętlami identyczności u źródła i u celu, to nie dałoby
+się wyrazić na takim diagramie podwójnego równania `Id f = f = f Id` za pomocą ptaszków, bo nie
+byłoby na nim ani żadnych trójkątów, ani żadnych innych obszarów otoczonych ścieżkami równoległymi,
+w których takie ptaszki dałoby się zamknąć. Możemy jednak skorzystać z tego, że *punkty i strzałki
+to jedno, a ich nazwy to co innego*, rysując diagram zawierający *kopie*.
+
+`Narysuj (Punkt X)`, a potem `Narysuj (Punkt Y) (SE X)`. O krok pod pierwszą kopią `Punkt X` również
+`Narysuj (Punkt X)` i połącz te dwie kopie skierowaną w dół strzałką o nazwie `Id`. Następnie
+`Narysuj (Strzalka X Y)` i oznacz ją jako `f`. Dodaj jeszcze lustrzane odbicia tych dwóch strzałek,
+traktując wyimaginowaną linię przebiegającą przez punkty `X` i `Y` prawie jak oś symetrii. Wiesz, o
+co mi chodzi, prawda? Oznacz kopię punktu `Y`, kopię strzałki `f` i niebędącą kopią (chociaż
+niekoniecznie oznaczającą inną identyczność!) strzałkę `Id : Y -> Y` odpowiednimi literami, a na
+koniec oznacz ten diagram jako przemienny. W ten sposób można wyrazić *pojedyncze* równanie `Id f =
+f Id`. Jeżeli chcesz, żeby na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz
+dodać kopię strzałki `f` przecinającą ten diagram na pół.
+
+Znanym Ci doskonale przykładem relacji, której nie można w ten sposób opisać jako kategorii bez
+różnych strzałek równoległych jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż* na
+jakimś zbiorze liczb, ponieważ ta relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
+[*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
+liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzrotność relacji), bo żadna
+liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza strzałek
+identycznościowych.
+
+Z drugiej strony, relacja *mniejsze niż* jest mimo wszystko przechodnia, bo przecież dla każdych
+trzech liczb `m`, `n` i `o` zachodzi `m < n -> n < o -> m < o`, a więc gdybyśmy ją reprezentowali za
+pomocą strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
+wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że dla każdej pary
+składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą. 
+
+Moglibyśmy wtedy *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć konwencję*, że
+te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy przecież stworzyć kategorię
+jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o ile tylko będzie
+spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni), bo jesteśmy *wolni*. Ostatecznie
+liczy się *tylko* to, czy uda nam się z taką kategorią zrobić coś pouczającego, interesującego, albo
+nawet tylko zabawnego. Gdyby było tak, że dla niektórych, ale nie wszystkich liczb zachodzi
+zwrotność, czyli gdyby istniała co najmniej jedna liczba taka, że byłaby mniejsza od samej siebie,
+ale istniałaby też liczba, która nie jest mniejsza od samej siebie, to byłby problem, bo wtedy
+niektóre nasze strzałki identycznościowe odpowiadałyby liczbom, a niektóre nie odpowiadałyby niczemu
+i nie byłoby zgodności między kategorią i opisywaną przez nią strukturą. No ale w przypadku relacji
+`<` *żadna* liczba nie wchodzi ze sobą w tą relację, a więc taka "kategoryfikacja" nie wprowadza
+zniekształceń, tylko polega na *zmianie konwencji opisywania tej samej struktury*.
+
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone już wcześniej definicje kategoryjne.
 
