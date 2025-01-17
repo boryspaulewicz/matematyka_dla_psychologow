@@ -171,7 +171,12 @@ te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy p
 jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o ile tylko będzie
 spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni). W końcu jesteśmy wolni i nigdzie nie
 doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda nam
-się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
+się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego. Matematyka
+pozwala nam skutecznie myśleć o *dowolnych kwestiach, na dowolnym poziomie ogólności i z dowolnych
+punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga
+jak matematyka, i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to
+będziemy mieć gwarancję, że nasze wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych
+założeń, definicji i aksjomatów.
 
 Gdyby było tak, że dla niektórych, ale nie wszystkich liczb zachodzi zwrotność, czyli gdyby istniała
 co najmniej jedna liczba taka, że byłaby mniejsza od samej siebie, ale istniałaby też liczba, która
