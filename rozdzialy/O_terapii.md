@@ -72,17 +72,16 @@ adaptacyjnych i moralnie akceptowalnych, spójnych z w³asnymi predyspozycjami, mo
 sytuacj± *ról spo³ecznych*, a dziêki temu byæ mo¿e na wykszta³ceniu bardziej korzystnych sposobów
 reagowania. Ten proces polega na *interpretowaniu* zachowañ i wypowiedzi pacjenta lub pacjentki za
 pomoc± rozmaitych stosunkowo elastycznych i nieostrych pojêæ, które musz± i powinny prowadziæ do
-radykalnych uproszczeñ, a *nie* na *wyja¶nianiu* tych zachowañ i wypowiedzi.
+radykalnych uproszczeñ, a *nie* na *rzeczywistym wyja¶nianiu* tych zachowañ i wypowiedzi.
 
-Z perspektywy, która nam siê tutaj pó¼niej zarysuje najpierw w jêzyku naturalnym, a pó¼niej
-formalnie, terapia jest wiêc prób± pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej i
-korzystnej *zmiany tego, kim jest*, a w³a¶ciwie raczej *kim bywa*[^1]. Taka zmiana jest zawsze
+Z tej perspektywy terapia jest wiêc prób± pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej
+i korzystnej *zmiany tego, kim jest*, a w³a¶ciwie raczej *kim bywa*[^1]. Taka zmiana jest zawsze
 wielowymiarowa i wieloznaczna i jej *konkretnego* charakteru *nie da siê* ani wzglêdnie wyczerpuj±co
 ani precyzyjnie opisaæ ¿adnym dostêpnym aparatem pojêciowym. Trudno te¿ zagwarantowaæ, ¿eby taka
 zmiana by³a *trwa³a*, bo przypomina trochê zawracanie kijem Wis³y, polega bowiem na próbach
 przekierowania sta³ego, rw±cego nurtu bli¿ej nieokre¶lonego wp³ywu nieznanych terapeucie albo
 terapeutce genów, p³yn±cego twardym, wyra¼nie zarysowanym korytem selektywnie i niekoniecznie
-wiernie opisywanych przez pacjentkê lub pacjenta ¿yciowych okoliczno¶ci. 
+wiernie opisywanych przez pacjentkê lub pacjenta ¿yciowych okoliczno¶ci.
 
 Dlatego terapeutyczny dialog mo¿e byæ do pewnego stopnia rzemios³em, ale zawsze by³, jest i zawsze
 bêdzie przede wszystkim *sztuk±* i skuteczno¶æ tego rodzaju procesu bêdzie zawsze zale¿a³a przede
