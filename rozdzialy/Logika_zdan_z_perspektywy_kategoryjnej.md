@@ -199,8 +199,8 @@ tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześni
 innej, moim zdaniem interesującej perspektywy.
 
 **Obiektem początkowym** w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii
-punkt) `I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka
-`I → X`.
+punkt) `I` (od angielskiego *initial*), że dla każdego obiektu `X` w tej kategorii istnieje
+dokładnie jedna strzałka `I → X`.
 
 Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `Set`, czyli w kategorii
 zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego zbioru.
