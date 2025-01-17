@@ -102,7 +102,8 @@ każda liczba może być osobnym punktem i dla każdych dwóch, niekoniecznie r�
 należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ taka relacja jest
 *zwrotna*, to znaczy `∀ x ∈ X, x ≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka
 relacja jest *przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary
-składalnych strzałek istnieje ich złożenie. Pozostaje tylko ustalić, czy ...
+składalnych strzałek istnieje strzałka kompatybilna, która mogłaby być ich złożeniem. Pozostaje
+tylko ustalić, czy ...
 
 1. `f Id = f = Id f`
 
