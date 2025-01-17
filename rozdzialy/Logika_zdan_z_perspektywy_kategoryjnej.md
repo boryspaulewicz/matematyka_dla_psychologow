@@ -157,8 +157,8 @@ różnych strzałek równoległych jest - zwykle oznaczana symbolem `<` - relacj
 jakimś zbiorze liczb, ponieważ ta relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
 liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzrotność relacji), bo żadna
-liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza strzałek
-identycznościowych.
+liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
+`≤` strzałek identycznościowych.
 
 Z drugiej strony, relacja *mniejsze niż* jest mimo wszystko przechodnia, bo przecież dla każdych
 trzech liczb `m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za
