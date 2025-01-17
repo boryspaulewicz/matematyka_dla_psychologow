@@ -110,17 +110,17 @@ tylko ustalić, czy ...
 2. `(h g) f = h (g f)`
 
 ... ale ponieważ *nie ma tutaj strzałek równoległych*, to składanie "nie ma żadnego wyboru", bo
-zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że to jest mój prywatny
-termin). Na przykład, jeżeli `f : X → Y` i `Id : X → X`, to złożenie `f Id` może być tylko
-strzałką `f`, bo nie może istnieć inna strzałka z `X` do `Y`, a więc prawostronna neutralność
-strzałki `Id` jest automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej
-endostrzałki. A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma
-znaczenia, czy najpierw uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a
-potem złożymy ją ze strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw
-uzyskamy jako złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej
-strzałkę `h` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskujemy ... jedyną
-strzałkę z `X` do `V` jaka istnieje, a więc za każdym razem uzyskujemy tą samą strzałkę, a więc
-łączność składania zachodzi automatycznie. 
+zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że wymyśliłem ten termin, żeby
+łatwiej mi się o tego rodzaju sprawach mówiło). Na przykład, jeżeli `f : X → Y` i `Id : X → X`, to
+złożenie `f Id` może być tylko strzałką `f`, bo nie może istnieć inna strzałka z `X` do `Y`, a więc
+prawostronna neutralność strzałki `Id` jest automatycznie spełniona i tak samo spełniona jest
+lewostronna neutralność każdej endostrzałki. A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i
+`h : Z → V`, to nie ma znaczenia, czy najpierw uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do
+`V` jaka istnieje, a potem złożymy ją ze strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka
+istnieje, czy najpierw uzyskamy jako złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a
+potem dołożymy do niej strzałkę `h` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na
+końcu uzyskujemy ... jedyną strzałkę z `X` do `V` jaka istnieje, a więc za każdym razem uzyskujemy
+tą samą strzałkę, a więc łączność składania zachodzi automatycznie.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
 składania diagram jest co prawda bardziej złożony, ale sposób, w jaki dobrze jest go narysować w
