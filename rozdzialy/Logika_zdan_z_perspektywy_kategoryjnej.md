@@ -79,8 +79,8 @@ Czy widzisz, że ten ostrożny sposób mówienia staje się już trochę uciąż
 *W kategorii zbiorów istnieją dokładnie dwie funkcje równoległe ze zbioru* `X` *do zbioru* `Y`.
 
 ... i wiedzielibyśmy, że chodzi tak naprawdę o punkty i strzałki, tylko w pewien sposób zdefiniowane
-albo zinterpretowane (w tym wypadku jako zbiory i funkcje). Dlatego będę odtąd coraz częściej mówił
-właśnie w ten sposób o różnych kategoriach.
+albo zinterpretowane (w tym wypadku jako zbiory i funkcje). Dlatego będę od pewnego momentu coraz
+częściej mówił właśnie w ten sposób.
 
 W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz przyglądamy, istnieje
 strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając `P` można udowodnić `Q`. W
