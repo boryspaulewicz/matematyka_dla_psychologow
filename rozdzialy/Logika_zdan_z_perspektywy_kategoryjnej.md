@@ -435,7 +435,7 @@ sposób skonstruować*. Dlatego ta definicja indukcyjnego typu danych kończy si
 gwałtownie. Zdanie/typ `False` jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii
 `Set` i tak samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu
 początkowego: Dla każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii
-dowiedlności zdań ze zdań, jak wiesz można udowodnić zdanie `False → P`, czyli istnieje *jakaś*
+dowiedlności zdań ze zdań, jak wiesz, można udowodnić zdanie `False → P`, czyli istnieje *jakaś*
 strzałka z punktu `False` do punktu `P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w
 tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
 
