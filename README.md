@@ -359,6 +359,9 @@ dodatku do iloczynu, a nie do jego członów, co jak sądzę mogło mocno Tomka 
 dzięki temu, że zapytał mailowo, czy to nie jest błąd, przekonał się jak sądzę, że dobrze zrozumiał,
 o co tam *miało* chodzić, a to jest chyba najlepszy sprawdzian zrozumienia czegoś.
 
+Ani Bańdurze, za niezwykle cenne, interesujące, przemyślane i szczegółowe uwagi dotyczące moich
+całkiem amatorskich dygresji na temat psychoterapii.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
