@@ -473,16 +473,16 @@ jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić imp
 R`, czyli jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań istnieją strzałki `P → Q` i
 `P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧ R`
 i ten dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R → R`, czyli dowód tej
-implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając wyjściowe strzałki `P → Q` i
-`P → R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par
-różnych równoległych strzałek. W dodatku koniuncja zdań jest zdefiniowana w Leanie jako para
-uporządkowana zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami,
-co dodatkowo podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem
-kartezjańskim zbiorów) i pojęciem koniunkcji w logice zdań.
+implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając strzałki `P → Q` i `P → R`
+odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par różnych
+równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para uporządkowana
+zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami, co dodatkowo
+podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem kartezjańskim zbiorów) i
+pojęciem koniunkcji w logice zdań.
 
-Koproduktami w tej kategorii są dokładnie wszystkie *alternatywy* zdań, które w dodatku zapisujemy
-prawie jak koniunkcje, tylko odwróconą do góry nogami, czyli jako `∨`. No i powiedz teraz, czy to
-wszystko nie jest niezwykle satysfakcjonujące?
+Koproduktami w tej kategorii są z kolei dokładnie wszystkie *alternatywy* zdań, które w dodatku
+zapisujemy prawie jak koniunkcję, tylko odwracając symbol `∧` do góry nogami, czyli jako `∨`. No i
+powiedz teraz, czy to wszystko nie jest niezwykle satysfakcjonujące?
 
 ### Przypisy
 
