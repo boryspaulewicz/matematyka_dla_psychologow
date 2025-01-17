@@ -309,9 +309,9 @@ jakąś kategorię `ℂ`, to każdy punkt w tej kategorii musi mieć swoją iden
 muszą odpowiadać unikalnym złożeniom i operacja składania strzałek musi być łączna. Jeżeli teraz
 odwrócimy wszystkie strzałki w tej kategorii i - żeby się nie pogubić - oznaczymy te dualne
 odpowiedniki za pomocą apostrofów i zdefiniujemy *nową* operację składania w taki sposób, że dla
-każdych dwóch składalnych `f` i `g` strzałek w kategorii `ℂ`, złożeniem ich odwróconych
+każdych dwóch składalnych strzałek `f` i `g` w kategorii `ℂ`, złożeniem ich odwróconych
 odpowiednikow w kategorii dualnej do `ℂ` będzie `f' g'`, to uzyskamy pewną kategorię, a konkretnie
-kategorię dualną do kategorii `C`.
+kategorię dualną do `ℂ`.
 
 Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'` w tej dualnej kategorii
 złożenie `(c' b') a'` będzie odpowiadało złożeniu `a (b c) = (a b) c`, a złożenie `(a b) c` będzie
