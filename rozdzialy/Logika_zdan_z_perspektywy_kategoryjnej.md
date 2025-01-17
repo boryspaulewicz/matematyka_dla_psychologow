@@ -322,7 +322,7 @@ odpowiadało analogicznemu złożeniu `Id' f' = f'` w kategorii dualnej i tak sa
 `Id f`. 
 
 W przypadku kategorii skończonych, można zobaczyć, jak "działa" zasada dualności również w inny
-sposób. Zacznijmy od strzałek `a : X -> Y`, `b : Y -> Z`, `c : Z -> V` i `d : X -> U`. Ten graf to
+sposób. Zacznijmy od strzałek `a : X → Y`, `b : Y → Z`, `c : Z → V` i `d : X → U`. Ten graf to
 jeszcze nie kategoria, bo nie ma tu ani identyczności, ani operacji składania. Tym razem jednak
 wygenerujemy wolną kategorię nad tym grafem inaczej.
 
