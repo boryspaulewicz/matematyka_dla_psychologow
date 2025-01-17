@@ -208,7 +208,7 @@ zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
 
 **Produktem** obiektów `X` i `Y` nazywamy taki obiekt `X × Y`, że istnieją strzałki `π₁ : X → X` i
 `π₂ : X → Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y` istnieje
-unikalna strzałka `<f,g>`, spełniająca warunek `π₁ <f,g> = f` i `π₂ <f,g> = g`.
+unikalna strzałka `<f,g>`, spełniająca warunki `π₁ <f,g> = f` i `π₂ <f,g> = g`.
 
 Oficjalnie nazywamy te strzałki raczej rzutami kanonicznymi, ale ja wolę nazywać je projekcjami. Jak
 już wiesz, produkty w kategorii `Set` to ("pod spodem") dokładnie iloczyny kartezjańskie
