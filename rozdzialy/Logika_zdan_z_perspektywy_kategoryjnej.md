@@ -174,7 +174,7 @@ doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się *ty
 się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego. Matematyka
 pozwala nam skutecznie myśleć o *dowolnych kwestiach, na dowolnym poziomie ogólności i z dowolnych
 punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga
-jak matematyka, i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to
+jak matematyka i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to
 będziemy mieć gwarancję, że nasze wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych
 założeń, definicji i aksjomatów.
 
