@@ -203,7 +203,8 @@ punkt) `I` (od angielskiego *initial*), że dla każdego obiektu `X` w tej kateg
 dokładnie jedna strzałka `I → X`.
 
 Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `Set`, czyli w kategorii
-zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego zbioru.
+zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego
+zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
 
 **Produktem** obiektów `X` i `Y` nazywamy taki obiekt `X × Y`, że istnieją strzałki `pi1 : X → X` i
 `pi2 : X → Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y` istnieje
