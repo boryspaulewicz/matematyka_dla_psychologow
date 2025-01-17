@@ -222,10 +222,12 @@ Popatrzymy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozw
 interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli to ma być kategoria, punkty `X` i
 `Y` *muszą* mieć swoje *unikalne i charakterystyczne* endostrzałki identycznościowe. A więc musimy
 *sami dodać* te strzałki. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc
-jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione. W tym
-wypadku aksjomaty kategorii *nie pozostawiają nam wyboru* i musi być tak, że `Id f = f = f Id`, ale
-poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy *jedyną możliwą najprostszą*
-kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
+jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione. 
+
+Po dodaniu pętli `Id` do `X` i pętli `Id` do `Y` pojawiają się nam dokładnie dwa możliwe złożenia,
+to jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii *nie pozostawiają nam wyboru* i musi być
+tak, że `Id f = f = f Id` i poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy
+*najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
 
 Dodaliśmy to, co było konieczne, żeby uzyskać kategorię i tylko to, co było konieczne, a więc to
 jest najprostsza albo najmniejsza tego rodzaju kategoria, chociaż to, że jest najprostsza albo
