@@ -247,98 +247,129 @@ Struktury matematyczne (takie jak kategoria), które powstają w taki wymuszony 
 sposób (który tutaj polega na dodaniu identyczności i składania tak, żeby aksjomaty kategorii były
 spełnione) z części czy obiektów, które same jeszcze nie muszą być tego rodzaju strukturami (a sama
 strzałka nie jest jeszcze kategorią), nazywamy *wolnymi*. Wolne konstrukcje są więc takimi jakby
-dopełnieniami, albo dopowiedzeniami struktury określonego rodzaju. W tym wypadku to jest *wolna
-kategoria generowana przez jedną egzostrzałkę*.
+dopowiedzeniami opisu struktury określonego rodzaju. W tym wypadku to jest *wolna kategoria
+generowana przez jedną egzostrzałkę*.
 
 ## icśonlaud adasaZ
 
-Jeżeli teraz czysto formalnie odwrócimy strzałkę `f` i zapiszemy ją jako `X <- Y`, to z takiej
-egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną wolną kategorię i to będzie
-*taka sama kategoria*, bo zmienią się *tylko nazwy* części jej struktury. 
+Jeżeli teraz *czysto formalnie*, czyli tak jakby dla zabawy, odwrócimy strzałkę `f` i zapiszemy ją
+jako `X ← Y`, to z takiej egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną
+wolną kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej
+struktury.
 
-A gdyby punktem wyjścia był (statyczny, jak to graf) graf `A <- B → C`, gdzie strzałkę `A <- B`
+A co gdyby punktem wyjścia był (statyczny, jak to graf) graf `A ← B → C`, gdzie strzałkę `A ← B`
 moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
 dodać identyczności i zdefiniować wyniki składania `f` lub `g` z identycznościami na ich obu końcach
-jako `f` i `g` odpowiednio i uzyskalibyśmy wolną kategorię nad tym grafem. 
+jako `f` i `g` odpowiednio i uzyskalibyśmy wolną kategorię nad tym grafem. Gdybyśmy jednak odwrócili
+strzałki na tym grafie, uzyskując w ten sposób graf `A → B ← C`, to wolna kategoria generowana
+przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie) znaczeniu. 
 
-Gdybyśmy jednak odwrócili strzałki na tym grafie, uzyskując w ten sposób graf `A → B <- C`, to
-wolna kategoria generowana przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie)
-znaczeniu. Z drugiej strony, *w pewnym sensie* wolne kategorie generowane przez obydwa grafy
-*byłyby* takie same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
+Z drugiej strony, *w innym znaczeniu* wolne kategorie generowane przez obydwa grafy *byłyby* takie
+same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
 zapisane*. Zastanawiasz się pewnie, o co mi teraz chodzi? Żeby to lepiej objaśnić, może skorzystam z
 innego przykładu: *Moglibyśmy* przyjąć *konwencję* interpretowania wyrażeń o postaci `n < m` jako
-oznaczających, że `n` jest *większe* niż `m` i gdybyśmy stosowali tą konwencję *konsekwentnie*, to
-*sens* tego, co byśmy mówili nie uległby zmianie, zmieniłby się *tylko* sposób zapisu. Tylko *czemu
-by to mogło służyć*? Otóż temu:
+oznaczających, że `n` jest *większe* niż `m`, czyli *interpretować* ten symbol *odwrotnie*, niż to
+zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy mówili nie
+uległby zmianie, zmieniłby się *tylko sposób zapisu*. Tylko *czemu by to mogło służyć*? Otóż temu:
 
-**Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego* (albo krócej i mniej oficjalnie
-*początku*), ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
+**Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego*, albo krócej i mniej oficjalnie
+*początku*, ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
 więc trzeba będzie odwrócić też wszystkie złożenia, których akurat w tej definicji nie ma, a więc
-pod tym względem nic nie będzie trzeba robić. Nie nazywaj jednak tego, co ta definicja będzie
-charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz definicję obiektu *końcowego*,
-którego szczególnym przypadkiem jest każdy singleton w kategorii `Set`. 
+jeżeli chodzi o złożenia akurat w tym przypadku nic nie będzie trzeba robić. Nie nazywaj jednak
+tego, co ta definicja będzie charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz
+definicję obiektu *końcowego*, którego szczególnym przypadkiem jest każdy singleton w kategorii
+`Set`.
 
 Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa, dlatego
 właśnie mówimy o zasadzie *dualności* w teorii kategorii. Ta druga wersja defincji jest tak zwaną
-*dualną postacią* albo wersją tej pierwszej i to drugie pojęcie (albo konstrukcja) jest dualne
-względem tego pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem
-drugiego, bo *operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz
-do głowy pojęcie izomorfizmu? Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury
-nie są jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład,
-wolna kategoria nad grafem `A <- B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna
-kategoria nad grafem `A → B <- C`.
+*dualną postacią* albo wersją tej pierwszej i odpowiednio to drugie pojęcie (albo konstrukcja) jest
+dualne względem tego pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne
+względem drugiego, bo *operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło
+Ci teraz może do głowy pojęcie izomorfizmu? Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że
+dualne struktury nie są jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego
+słowa. Na przykład, wolna kategoria nad grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka
+sama jak wolna kategoria nad grafem `A → B ← C`, nawet, jeśli zignorujemy oznaczenia punktów i
+strzałek.
 
-Jeżeli odwrócisz wszystkie strzałki i złożenia w definicji *produktu*, to uzyskasz definicję
-*koproduktu*: Koproduktem obiektów `X` i `Y` nazywamy taki obiekt, który możemy oznaczyć jako `X +
-Y`, że istnieją strzałki `i1` i `i2`, nazywane *injekcjami*, *z* `X` *do* `X + Y` i *z* `Y` *do*
-`X + Y` odpowiednio (odwrócenie strzałek występujących w definicji produktu) takie, że dla każdej
-pary strzałek `f` i `g` *z* `X` i `Y` *do* jakiegoś `Z` odpowiednio (kolejne odwrócenie strzałek)
-istnieje unikalna strzałka `f+g` (bardzo różnie się to zapisuje) *z* `X + Y` *do* `Z` (kolejne
-odwrócenie) taka, że `f+g i1 = f` i `f+g i2 = g` (odwrócenie wszystkich złożeń wymuszone przez
-odwrócenie wszystkich strzałek).
+To zjawisko ma charakter ogólniejszy, bo *każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy
+jakąś kategorię `C`, to każdy punkt w tej kategorii musi mieć swoją identyczność, składalne strzałki
+muszą odpowiadać unikalnym złożeniom i operacja składania strzałek musi być łączna. Jeżeli teraz
+odwrócimy wszystkie strzałki w tej kategorii i być może oznaczymy te dualne odpowiedniki za pomocą
+apostrofów i zdefiniujemy *nową* operację składania w taki sposób, że dla każdych dwóch składalnych
+`f` i `g` strzałek w kategorii `C`, złożeniem ich odwróconych odpowiednikow w kategorii dualnej do
+`C` będzie `f' g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do kategorii `C`. 
+
+Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'` w tej dualnej kategorii
+złożenie `(c' b') a'` będzie odpowiadało złożeniu `a (b c) = (a b) c`, a złożenie `(a b) c` będzie
+odpowiadało złożeniu `c' (b' a')` w kategorii dualnej, a więc `(c' b') a' = c' (b' a')`. Łączność
+składania będzie więc zachowana. Identyczności pozostaną natomiast identycznościami, bo każda
+endostrzałka po odwróceniu pozostaje tą samą strzałką, a każde złożenie postaci `f Id = f` będzie
+odpowiadało analogicznemu złożeniu `Id' f' = f'` w kategorii dualnej i tak samo dla złożeń postaci
+`Id f`. 
+
+Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy nie tylko dowolnych
+konstrukcji z obiektów i strzałek i dowolnych konstrukcji opartych na złożeniach, czyli *wszystkich
+definicji i zdań w języku teorii kategorii*. A to znaczy, że wymyślając jeden rodzaj konstrukcji
+kategoryjnej, automatycznie wymyślamy dwa rodzaje i udowadniając dowolne zdanie wyrażone w języku
+teorii kategorii automatycznie udowadniamy dwa takie zdania.
+
+Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić. Na
+szczęście, zwykle skupiamy się na wybranych fragmentach albo własnościach jakiejś kategorii, na
+przykład na konkretnych rodzajach konstrukcji, takich jak obiekt początkowy, albo na konkretnych
+twierdzeniach i odwracamy strzałki i złożenia tylko lokalnie, w ramach opisów tych konstrukcji,
+własności albo twierdzeń, tak jak to robimy w tym rozdziale.
+
+Jeżeli teraz odwrócisz wszystkie strzałki i złożenia (a tam akurat są jakieś złożenia) w definicji
+*produktu*, to uzyskasz definicję *koproduktu*: Koproduktem obiektów `X` i `Y` nazywamy taki obiekt,
+który możemy oznaczyć jako `X + Y`, że istnieją strzałki `i₁` i `i₂`, nazywane *injekcjami*, *z* `X`
+*do* `X + Y` i *z* `Y` *do* `X + Y` odpowiednio (odwrócenie strzałek występujących w definicji
+produktu) takie, że dla każdej pary strzałek `f` i `g` *z* `X` i `Y` *do* jakiegoś `Z` odpowiednio
+(kolejne odwrócenie strzałek) istnieje unikalna strzałka `f+g` (ale uwaga, bardzo różnie się to
+zapisuje) *z* `X + Y` *do* `Z` (kolejne odwrócenie) taka, że `f+g i₁ = f` i `f+g i₂ = g` (odwrócenie
+wszystkich złożeń wymuszone przez odwrócenie wszystkich strzałek).
 
 W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. Żeby się o tym
 przekonać, wystarczy popatrzeć na rysunek struktury wewnętrznej dowolnej sumy rozłącznej dwóch
 zbiorów skończonych, na którym widać też strukturę wewnętrzną injekcji. Ponieważ suma rozłączna
-zawiera tylko wierne kopie zbiorów, nazwijmy je znowu `X` i `Y`, będących jej członami, zakodowne w
-taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione przez wewnętrzne strzałki
-obydwu injekcji, to gdy tylko określimy, dla dowolnego zbioru `Z`, do jakich elementów tego zbioru
-mają być posłane przez funkcje `f` i `g` elementy zbioru `X` i zbioru `Y` odpowiednio, to, do czego
-ma być posłana każda kopia, żeby powstająca w ten sposób funkcja składała się z injekcjami w funkcje
-`f` i `g`, będzie wymuszone.
+zawiera tylko wierne kopie zbiorów - nazwijmy je znowu `X` i `Y` - będących jej członami, zakodowne
+w taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione przez wewnętrzne strzałki
+obydwu (w tym wypadku injektywnych) injekcji, to gdy tylko określimy, dla dowolnego zbioru `Z`, do
+jakich elementów tego zbioru mają być posłane przez funkcje `f` i `g` elementy zbioru `X` i zbioru
+`Y` odpowiednio, to wtedy to, do czego ma być posłana każda kopia w `X + Y`, żeby powstająca w ten
+sposób funkcja składała się z injekcjami w funkcje `f` i `g`, będzie wymuszone. I odwrotnie, każda
+funkcja `h` z `X + Y` do `Z` będzie oczywiście opdowiadała unikalnej parze uporządkowanej strzałek z
+`X` i `Y` do `Z` odpowiednio, bo złożenia `h i₁` i `h i₂` będą z definicji unikalne. Wiem, że to
+jest trudne. Ale to jest też piękne i bardzo przydatne w pewnych sytuacjach.
 
 Można też powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
 operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
 wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `x`, czyli drugą stronę operacji
 tworzenia produktów. A w kategorii `FinSet` (zbiorów skończonych) te operacje odpowiadają, jak wiesz
-z jednego z poprzednich rozdziałów, dodawaniu i mnożeniu liczb naturalnych, zrealizowanemu w
-zbiorach skończonych z punktu widzenia teorii kategorii dualnych operacji tworzenia sum rozłącznych
-i iloczynów kartezjańskich. W ten oto sposób, posługując się graficznym językiem teorii kategorii,
-możemy *zobaczyć* - całkiem dosłownie, gdybyśmy przedstawili to za pomocą diagramów - głęboki
-związek między dodawaniem i mnożeniem i tym samym dostrzec, że te dwie operacje są w pewnym
-technicznym i abstrakcyjnym sensie *dwiema stronami tej samej operacji*.
+z jednego z poprzednich rozdziałów, operacjom dodawania i mnożenia liczb naturalnych, zrealizowanym
+w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych i iloczynów
+kartezjańskich. 
+
+Ponieważ te konstrukcje są z perspektywy teorii kategorii swoimi dualnymi odpowiednikami, możemy z
+tego punktu widzenia *zobaczyć* - nawet całkiem dosłownie, gdybyśmy przedstawili to za pomocą
+diagramów - głęboki związek między dodawaniem i mnożeniem i tym samym dostrzec, że te dwie operacje
+są w pewnym technicznym i abstrakcyjnym sensie *dwiema wersjami tej samej operacji*.
 
 Często, ale nie zawsze, bo to czasem źle brzmi, konstrukcje dualne do pewnych konstrukcji, które
 wydają się bardziej podstawowe albo są częściej używane, nazywamy w teorii kategorii tym samym
 określeniem, ale dodając przedrostek *ko* (a po angielsku *co*, jak w pytaniu *co to ma
-być?*). Produkty pojawiają się w matematyce znacznie częściej niż koprodukty, dlatego właśnie
-produkty noszą nazwę bez tego przedrostka.
-
-Zasada dualności dotyczy zresztą nie tylko dowolnych konstrukcji z obiektów, ale również dowolnych
-konstrukcji opartych na złożeniach, czyli w ogóle *wszystkich definicji i zdań w języku teorii
-kategorii*. A to znaczy, że wymyślając jeden rodzaj konstrukcji kategoryjnej, automatycznie
-wymyślamy dwa rodzaje i udowadniając dowolne zdanie wyrażone w języku teorii kategorii automatycznie
-udowadniamy dwa takie zdania!
+być?*). Produkty pojawiają się w matematyce znacznie częściej niż koprodukty, dlatego właśnie w
+nazwie *produkt* przedrostek *ko* nie występuje.
 
 ## Początek, koniec, produkt i koprodukt w logice zdań.
 
 Gdy tylko uda nam się zdefiniować na poziomie opisu pewnego rodzaju struktur coś ważnego w języku
-teorii kategorii, możemy zacząć szukać odpowiedników tych konstrukcji czy pojęć w dowolnych innych
-kategoriach.
+teorii kategorii, możemy zacząć szukać odpowiedników tych struktur w dowolnych innych
+kategoriach. No to teraz poszukamy w kategorii powstającej z relacji dowiedlności zdefiniowanej na
+zbiorze zdań.
 
 Czym jest obiekt początkowy w opisanej już wcześniej kategorii, w której punkty są zdaniami a
-strzałki reprezentują relację dowiedlności? To przecież *zdanie fałszywe*, które akurat w Leanie
-jest zdefiniowane tak:
+strzałki reprezentują relację dowiedlności? To przecież *zdanie fałszywe*, które w Leanie jest
+zdefiniowane tak:
 
 ```lean
 inductive False : Prop
@@ -347,12 +378,13 @@ inductive False : Prop
 To jest *cała* definicja zdania `False`. **Czytamy to** w ten sposób: Definiuję indukcyjnie
 (`inductive`), czyli przez *wymienienie wszystkich możliwych sposobów konstruowania termów
 definiowanego typu*, zdanie `False` (`False : Prop`) jako typ, którego termów *nie da się w żaden
-sposób skonstruować*. Zdanie / typ `False` jest więc ewidentnie obiektem analogicznym do zbioru
-pustego w kategorii `Set` i tak samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej
-definicji obiektu początkowego: dla każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej
-teraz kategorii dowiedlności zdań ze zdań, można udowodnić zdanie `False → P`, czyli istnieje
-*jakaś* strzałka z punktu `False` do punktu `P` i istnieje *co najwyżej jedna* taka strzałka, bo w
-tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
+sposób skonstruować*. Dlatego ta definicja typu danych kończy się tak gwałtownie. Zdanie/typ `False`
+jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii `Set` i tak samo jak zbiór
+pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu początkowego: Dla każdego zdania
+`P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii dowiedlności zdań ze zdań, jak wiesz
+można udowodnić zdanie `False → P`, czyli istnieje *jakaś* strzałka z punktu `False` do punktu
+`P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w tej kategorii nie ma nigdy dwóch
+różnych równoległych strzałek.
 
 Obiektem dualnym do zdania fałszywego jest *zdanie prawdziwe*, które w Leanie jest zdefiniowane tak:
 
@@ -361,12 +393,13 @@ inductive True : Prop where
   | intro : True
 ```
 
-**Czytamy to** w ten sposób: Definiuję indukcyjnie zdanie `True` jako takie, że ('where') term /
-dowód można skonstruować w dokładnie jeden sposób (bo w ciele tej definicji jest tylko jedna pozioma
-kreska `|`) z niczego (bo wyrażenie za tą kreską nie ma parametrów) jako term `intro` typu
-`True`. Tworząc definicje indukcyjne automatycznie tworzymy też przestrzenie nazw dla ciał tych
-definicji, dlatego normalnie zapisujemy ten jedyny term/dowód typu/zdania `True` jako
-`True.intro`. I to zdanie spełnia wymagania obiektu końcowego:
+**Czytamy to** w ten sposób: Definiuję indukcyjnie zdanie `True` jako takie, że (`where`) term/dowód
+tego typu/zdania można skonstruować *w dokładnie jeden sposób* (bo w ciele tej definicji jest tylko
+jedna pozioma kreska `|`) *z niczego* (bo wyrażenie za tą kreską nie ma parametrów) jako term
+`intro` typu `True`. Tworząc definicje indukcyjne automatycznie tworzymy też przestrzenie nazw dla
+ciał tych definicji, dlatego normalnie zapisujemy ten jedyny term/dowód typu/zdania `True` jako
+`True.intro`. Jak łatwo sprawadzić, to zdanie spełnia wymagania obiektu końcowego ze względu na
+interpretację strzałek jako czegoś, co wyraża relację dowiedlności zdań:
 
 ```lean
 example (P : Prop) : P → True := True.intro
@@ -375,22 +408,26 @@ example (P : Prop) : P → True := True.intro
 A więc z perspektywy kategoryjnej zdanie prawdziwe albo prawda i zdanie fałszywe albo fałsz są
 obiektami dualnymi, a więc w pewnym sensie są tym samym obiektem, tylko każdy z nich jest "wywróconą
 na drugą stronę" wersją drugiego. Widzimy też, że istnieje oczywiste podobieństwo między
-typem/zdaniem `True` i każdym możliwym singletonem.
+typem/zdaniem `True` i każdym możliwym singletonem. Wreszcie, dla każdego zdania `P`, istnieje
+strzałka `True → P` wtedy i tylko wtedy, gdy samo zdanie `P` jest zdaniem prawdziwym, na przykład,
+gdy `P` jest zdaniem (nie strzałką w tej kategorii!) `q → q`, bo tylko wtedy można skonstruować
+dowód implikacji `True → P`.
 
 Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
 jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
 R`, czyli jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań istnieją strzałki `P → Q` i
-`P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧
-R`, i ten dowód (a raczej relacja dowiedlności) jako strzałka składa się z projekcjami `Q × R → Q` i
-`Q × R → R` (czyli dowód tej implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q and R → R`)
-dając wyjściowe strzałki `P → Q` i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych
-strzałek, bo nie ma tutaj żadnych par różnych równoległych strzałek. W dodatku koniuncja zdań jest
-zdefiniowana w Leanie jako para uporządkowana zdań, a więc każdy dowód koniunkcji to para
-uporządkowana zdań będących jej członami.
+`P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧ R`
+i ten dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R → R`, czyli dowód tej
+implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q and R → R`, dając wyjściowe strzałki `P → Q`
+i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par
+różnych równoległych strzałek. W dodatku koniuncja zdań jest zdefiniowana w Leanie jako para
+uporządkowana zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami,
+co dodatkowo podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem
+kartezjańskim zbiorów) i pojęciem koniunkcji w logice zdań.
 
 Koproduktami w tej kategorii są dokładnie wszystkie *alternatywy* zdań, które w dodatku zapisujemy
-jak koniunkcje, ale odwracając symbol koniunkcji `∧` do góry nogami jako `\or`. No i powiedz teraz,
-czy to wszystko nie jest niezwykle satysfakcjonujące?
+prawie jak koniunkcje, tylko odwróconą do góry nogami, czyli jako `∨`. No i powiedz teraz, czy to
+wszystko nie jest niezwykle satysfakcjonujące?
 
 ### Przypisy
 
