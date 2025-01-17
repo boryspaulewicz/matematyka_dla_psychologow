@@ -431,13 +431,13 @@ inductive False : Prop
 To jest *cała* definicja zdania `False`. **Czytamy to** w ten sposób: Definiuję indukcyjnie
 (`inductive`), czyli przez *wymienienie wszystkich możliwych sposobów konstruowania termów
 definiowanego typu*, zdanie `False` (`False : Prop`) jako typ, którego termów *nie da się w żaden
-sposób skonstruować*. Dlatego ta definicja typu danych kończy się tak gwałtownie. Zdanie/typ `False`
-jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii `Set` i tak samo jak zbiór
-pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu początkowego: Dla każdego zdania
-`P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii dowiedlności zdań ze zdań, jak wiesz
-można udowodnić zdanie `False → P`, czyli istnieje *jakaś* strzałka z punktu `False` do punktu
-`P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w tej kategorii nie ma nigdy dwóch
-różnych równoległych strzałek.
+sposób skonstruować*. Dlatego ta definicja indukcyjnego typu danych kończy się tak
+gwałtownie. Zdanie/typ `False` jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii
+`Set` i tak samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu
+początkowego: Dla każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii
+dowiedlności zdań ze zdań, jak wiesz można udowodnić zdanie `False → P`, czyli istnieje *jakaś*
+strzałka z punktu `False` do punktu `P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w
+tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
 
 Obiektem dualnym do zdania fałszywego jest *zdanie prawdziwe*, które w Leanie jest zdefiniowane tak:
 
