@@ -35,21 +35,19 @@ wiêc od biedy powiedzieæ co najwy¿ej, ¿e w przypadku niektórych metod terapii ze
 ¶wiadectwa empiryczne *zdaj± siê* sugerowaæ, ¿e *w pewnych sytuacjach* te metody *mog± dzia³aæ pod
 pewnymi, stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
 
-To oczywi¶cie nie znaczy, ¿e terapia nie dzia³a, albo, ¿e dzia³a niezbyt skutecznie; to znaczy tylko
-tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie raczej *nie sposób stwierdziæ*, jakie dok³adnie s± lub
-mog± byæ *skutki samych metod terapeutycznych*. Pomijaj±c ju¿ to, jaki ba³agan panuje od
-niepamiêtnych czasów w diagnozie zaburzeñ, wiedza na temat *mechanizmów dzia³ania* terapii jest tak
-skromna, ¿e w³a¶ciwie nikt siê nie dziwi na przyk³ad "poznawczym podstawom", okre¶lanej czêsto jako
-["oparta na dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
+To oczywi¶cie *nie* znaczy, ¿e terapia nie dzia³a, albo, ¿e dzia³a niezbyt skutecznie; to znaczy
+tylko tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie *nie sposób stwierdziæ*, jakie dok³adnie s± lub mog±
+byæ *skutki samych metod terapeutycznych*. Pomijaj±c ju¿ to, jaki ba³agan panuje od niepamiêtnych
+czasów w diagnozie zaburzeñ, wiedza na temat *mechanizmów dzia³ania* terapii jest tak skromna, ¿e
+praktycznie nikt siê nie dziwi na przyk³ad "poznawczym podstawom", okre¶lanej czêsto jako ["oparta
+na dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
 poznawczo-behawioralnej](https://pl.wikipedia.org/wiki/Psychoterapia_poznawczo-behawioralna). A te
 [nie przypominaj± za
 bardzo](https://www.annualreviews.org/content/journals/10.1146/annurev-clinpsy-032813-153734)
 czegokolwiek, co mo¿na by nazwaæ aktualnym stanem wiedzy w psychologii poznawczej[^2]. Mo¿na by co
 najwy¿ej stwierdziæ, ¿e chocia¿ jêzyk teorii CBT wygl±da na pierwszy rzut oka na wzglêdnie
 techniczny, to jej podstawy s± w istocie lu¼no inspirowane aparatem pojêciowym wspó³czesnej
-psychologii poznawczej. Dobrym, ale zdecydowanie nie jedynym takim przyk³adem jest tutaj odgrywaj±ce
-wa¿n± rolê w teorii CBT zagadkowe i jednocze¶nie odgrywaj±ce rolê terminu technicznego pojêcie
-*schematu*.
+psychologii poznawczej.
 
 W dodatku praktycy przekonuj± siê na ogó³ szybko, ¿e w zderzeniu z realno¶ci± kontaktu z pacjentem,
 te bardziej dookre¶lone schematy postêpowania, o których uczyli siê w trakcie szkoleñ, dostarczaj±
