@@ -110,10 +110,10 @@ istnieje ich złożenie. Pozostaje tylko ustalić, czy ...
 
 ... ale ponieważ *nie ma tutaj strzałek równoległych*, to składanie "nie ma żadnego wyboru", bo
 zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że to jest mój prywatny
-termin). Na przykład, jeżeli `f : X -> Y` i `Id : X -> X`, to złożenie `f Id` może być tylko
+termin). Na przykład, jeżeli `f : X → Y` i `Id : X → X`, to złożenie `f Id` może być tylko
 strzałką `f`, bo nie może istnieć inna strzałka z `X` do `Y`, a więc prawostronna neutralność
 strzałki `Id` jest automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej
-endostrzałki. A gdy mamy jakieś strzałki `f : X -> Y`, `g : Y -> Z` i `h : Z -> V`, to nie ma
+endostrzałki. A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma
 znaczenia, czy najpierw uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a
 potem złożymy ją ze strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw
 uzyskamy jako złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej
@@ -147,7 +147,7 @@ to jedno, a ich nazwy to co innego*, rysując diagram zawierający *kopie*.
 `Narysuj (Strzalka X Y)` i oznacz ją jako `f`. Dodaj jeszcze lustrzane odbicia tych dwóch strzałek,
 traktując wyimaginowaną linię przebiegającą przez punkty `X` i `Y` prawie jak oś symetrii. Wiesz, o
 co mi chodzi, prawda? Oznacz kopię punktu `Y`, kopię strzałki `f` i niebędącą kopią (chociaż
-niekoniecznie oznaczającą inną identyczność!) strzałkę `Id : Y -> Y` odpowiednimi literami, a na
+niekoniecznie oznaczającą inną identyczność!) strzałkę `Id : Y → Y` odpowiednimi literami, a na
 koniec oznacz ten diagram jako przemienny. W ten sposób można wyrazić *pojedyncze* równanie `Id f =
 f Id`. Jeżeli chcesz, żeby na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz
 dodać kopię strzałki `f` przecinającą ten diagram na pół.
@@ -161,7 +161,7 @@ liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza strza�
 identycznościowych.
 
 Z drugiej strony, relacja *mniejsze niż* jest mimo wszystko przechodnia, bo przecież dla każdych
-trzech liczb `m`, `n` i `o` zachodzi `m < n -> n < o -> m < o`, a więc gdybyśmy ją reprezentowali za
+trzech liczb `m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za
 pomocą strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
 wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że dla każdej pary
 składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą. 
@@ -188,14 +188,14 @@ tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześni
 innego punktu widzenia.
 
 *Obiektem początkowym* w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii punkt)
-`I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka `I ->
+`I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka `I →
 X`. 
 
 Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `Set`, czyli w kategorii
 zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego zbioru.
 
-*Produktem* obiektów `X` i `Y` nazywamy taki obiekt `X x Y`, że istnieją strzałki `pi1 : X -> X` i
-`pi2 : X -> Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z -> X` i `g : Z -> Y`
+*Produktem* obiektów `X` i `Y` nazywamy taki obiekt `X × Y`, że istnieją strzałki `pi1 : X → X` i
+`pi2 : X → Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y`
 istnieje unikalna strzałka `<f,g>` spełniająca warunek `pi1 <f,g> = f` i `pi2 <f,g> = g`. 
 
 Oficjalnie nazywamy te strzałki raczej rzutami kanonicznymi, ale ja wolę nazywać je projekcjami. Jak
@@ -207,7 +207,7 @@ obiektach, czyli w naszej terminologii punktach.
 ## Wolne konstrukcje
 
 Popatrzmy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
-interpretacji) kategorię zawierającą strzałkę `f : X -> Y`. Jeżeli to ma być kategoria, punkty `X` i
+interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli to ma być kategoria, punkty `X` i
 `Y` *muszą* mieć swoje *unikalne i charakterystyczne* endostrzałki identycznościowe. A więc musimy
 *sami dodać* te strzałki. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc
 jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione. W tym
@@ -242,12 +242,12 @@ Jeżeli teraz czysto formalnie odwrócimy strzałkę `f` i zapiszemy ją jako `X
 egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną wolną kategorię i to będzie
 *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej struktury. 
 
-A gdyby punktem wyjścia był (statyczny, jak to graf) graf `A <- B -> C`, gdzie strzałkę `A <- B`
-moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B -> C` jako `g`? Wtedy też musielibyśmy tylko
+A gdyby punktem wyjścia był (statyczny, jak to graf) graf `A <- B → C`, gdzie strzałkę `A <- B`
+moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
 dodać identyczności i zdefiniować wyniki składania `f` lub `g` z identycznościami na ich obu końcach
 jako `f` i `g` odpowiednio i uzyskalibyśmy wolną kategorię nad tym grafem. 
 
-Gdybyśmy jednak odwrócili strzałki na tym grafie, uzyskując w ten sposób graf `A -> B <- C`, to
+Gdybyśmy jednak odwrócili strzałki na tym grafie, uzyskując w ten sposób graf `A → B <- C`, to
 wolna kategoria generowana przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie)
 znaczeniu. Z drugiej strony, *w pewnym sensie* wolne kategorie generowane przez obydwa grafy
 *byłyby* takie same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
@@ -271,8 +271,8 @@ względem tego pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) 
 drugiego, bo *operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz
 do głowy pojęcie izomorfizmu? Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury
 nie są jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład,
-wolna kategoria nad grafem `A <- B -> C` jest zdecydowanie *nie całkiem* taka sama jak wolna
-kategoria nad grafem `A -> B <- C`.
+wolna kategoria nad grafem `A <- B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna
+kategoria nad grafem `A → B <- C`.
 
 Jeżeli odwrócisz wszystkie strzałki i złożenia w definicji *produktu*, to uzyskasz definicję
 *koproduktu*: Koproduktem obiektów `X` i `Y` nazywamy taki obiekt, który możemy oznaczyć jako `X +
@@ -336,7 +336,7 @@ definiowanego typu*, zdanie `False` (`False : Prop`) jako typ, którego termów 
 sposób skonstruować*. Zdanie / typ `False` jest więc ewidentnie obiektem analogicznym do zbioru
 pustego w kategorii `Set` i tak samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej
 definicji obiektu początkowego: dla każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej
-teraz kategorii dowiedlności zdań ze zdań, można udowodnić zdanie `False -> P`, czyli istnieje
+teraz kategorii dowiedlności zdań ze zdań, można udowodnić zdanie `False → P`, czyli istnieje
 *jakaś* strzałka z punktu `False` do punktu `P` i istnieje *co najwyżej jedna* taka strzałka, bo w
 tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
 
@@ -363,11 +363,17 @@ obiektami dualnymi, a więc w pewnym sensie są tym samym obiektem, tylko każdy
 na drugą stronę" wersją drugiego. Widzimy też, że istnieje oczywiste podobieństwo między
 typem/zdaniem `True` i każdym możliwym singletonem.
 
-Produkty w tej kategorii to *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`, jeżeli z `P`
-wynika `Q` i z `P` wynika `R`, czyli jeżeli w naszej kategorii istnieją strzałki `P -> Q` i `P ->
-R`, to istnieje unikalna strzałka z `P` do `Q \x R`, czyli ("pod spodem") dowód implikacji `P -> Q
-\and R`, która (w kategorii) składa się z projekcjami `Q x R -> Q` i `Q x R -> R` (czyli z dowodami
-zdań `Q \and R -> Q` i `Q and R -> R`) dając wyjściowe strzałki `P -> Q` i `P -> R` odpowiednio, bo
-te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par różnych równoległych
-strzałek.
+Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
+jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
+R`, czyli jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań istnieją strzałki `P → Q` i
+`P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧
+R`, i ten dowód (a raczej relacja dowiedlności) jako strzałka składa się z projekcjami `Q × R → Q` i
+`Q × R → R` (czyli dowód tej implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q and R → R`)
+dając wyjściowe strzałki `P → Q` i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych
+strzałek, bo nie ma tutaj żadnych par różnych równoległych strzałek. W dodatku koniuncja zdań jest
+zdefiniowana w Leanie jako para uporządkowana zdań, a więc każdy dowód koniunkcji to para
+uporządkowana zdań będących jej członami.
 
+Koproduktami w tej kategorii są dokładnie wszystkie *alternatywy* zdań, które w dodatku zapisujemy
+jak koniunkcje, ale odwracając symbol koniunkcji `∧` do góry nogami jako `\or`. No i powiedz teraz,
+czy to wszystko nie jest niezwykle satysfakcjonujące?
