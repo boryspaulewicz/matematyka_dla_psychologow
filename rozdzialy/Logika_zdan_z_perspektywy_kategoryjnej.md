@@ -1,5 +1,5 @@
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
-znanego Ci już kontekstu i popatrzymy na logikę inaczej.
+znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia.
 
 Niech:
 
