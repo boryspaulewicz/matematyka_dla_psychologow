@@ -181,7 +181,8 @@ sprzeczności, to będziemy mieć gwarancję, że wyprowadzone dedukcyjnie wnios
 będą prawdziwe na mocy przyjętych założeń, definicji i aksjomatów. Co prawda nie istnieje
 uniwersalna metoda znajdywania dowodów arbitralnych zdań, ale dzięki temu *zawsze* ważny będzie
 przebłysk intuicji, a potencjalne dowody możemy *zawsze* sprawdzić za pomocą *algorytmu*, który
-*zawsze* da nam *jednoznaczną odpowiedź*, czy są poprawne.
+*zawsze* da nam *jednoznaczną odpowiedź*, czy są poprawne. Można więc powiedzieć, że matematyka jest
+strefą logicznie bezpiecznej, ale poza tym niczym nieskrępowanej fantazji.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako kategorii: Gdyby było tak, że dla
 niektórych, ale nie wszystkich liczb zachodzi zwrotność relacji `<`, czyli gdyby istniała co
@@ -191,9 +192,7 @@ liczbom, a niektóre nie odpowiadałyby niczemu i nie byłoby zgodności między
 przez nią strukturą. No ale w przypadku relacji `<` *żadna* liczba nie wchodzi ze sobą w tą relację,
 a więc taka "kategoryfikacja" nie wprowadza zniekształceń, tylko polega na *zmianie konwencji
 opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że pętle identyczności
-są "puste" i służą tylko jako konieczne uzupełnienia pozwalające uzyskać kategorię. Można więc
-powiedzieć, że matematyka jest strefą logicznie bezpiecznych, ale poza tym niczym nieskrępowanych
-eksperymentów pojęciowych.
+są "puste" i służą tylko jako konieczne uzupełnienia pozwalające uzyskać kategorię.
 
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
