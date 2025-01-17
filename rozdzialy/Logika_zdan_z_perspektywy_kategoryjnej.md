@@ -302,7 +302,7 @@ pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne wzg
 pojęcie izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są
 jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna
 kategoria nad grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna kategoria nad
-grafem `A → B ← C`, nawet, jeśli zignorujemy oznaczenia punktów i strzałek.
+grafem `A → B ← C`, nawet jeśli zignorujemy oznaczenia punktów i strzałek.
 
 To zjawisko ma charakter ogólniejszy, bo *każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy
 jakąś kategorię `C`, to każdy punkt w tej kategorii musi mieć swoją identyczność, składalne strzałki
