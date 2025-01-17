@@ -106,43 +106,46 @@ zbiorów i funkcji.
 
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
-każda liczba może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych liczb `x` i `y`
-należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ taka relacja jest
-[*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀ x ∈ X, x ≤ x`, to od razu
-mamy strzałki identycznościowe, a ponieważ taka relacja jest *przechodnia*, to znaczy `∀ x, y, z ∈
-X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych strzałek istnieje strzałka kompatybilna,
-która mogłaby być ich złożeniem. Pozostaje tylko ustalić, czy ...
+każda liczba należąca do `X` może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych
+liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ
+taka relacja jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀ x ∈ X, x
+≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest *przechodnia*, to
+znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych strzałek istnieje
+strzałka kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić, czy ...
 
 1. `f Id = f = Id f`
 
 2. `(h g) f = h (g f)`
 
-... ale ponieważ *nie ma tutaj strzałek równoległych*, to składanie "nie ma żadnego wyboru", bo
-zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że wymyśliłem ten termin, żeby
-łatwiej mi się o tego rodzaju sprawach mówiło). Na przykład, jeżeli `f : X → Y` i `Id : X → X`, to
-złożenie `f Id` może być tylko strzałką `f`, bo nie może istnieć inna strzałka z `X` do `Y`, a więc
-prawostronna neutralność strzałki `Id` jest automatycznie spełniona i tak samo spełniona jest
-lewostronna neutralność każdej takiej strzałki. A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z`
-i `h : Z → V`, to nie ma znaczenia, czy najpierw uzyskamy jako złożenie `h g` jedyną strzałkę z `Y`
-do `V` jaka istnieje, a potem złożymy ją ze strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka
-istnieje, czy najpierw uzyskamy jako złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a
-potem dołożymy do niej strzałkę `h` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na
-końcu uzyskujemy ... jedyną strzałkę z `X` do `V` jaka istnieje, a więc w obydwu przypadkach
-uzyskamy tą samą strzałkę, a więc łączność składania zachodzi automatycznie.
+... ale ponieważ nie ma tutaj nigdy dwóch różnych strzałek równoległych, to składanie "nie ma
+żadnego wyboru", bo zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że
+wymyśliłem ten termin, żeby łatwiej mi się o tego rodzaju sprawach mówiło). Na przykład, jeżeli
+`Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo nie może istnieć inna
+strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest automatycznie spełniona i
+tak samo spełniona jest lewostronna neutralność każdej endostrzałki, a więc każdej identyczności w
+tej być może kategorii. 
+
+A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma znaczenia, czy najpierw
+uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a potem złożymy ją ze
+strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw uzyskamy jako
+złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej strzałkę `h`,
+uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskamy ... jedyną strzałkę z `X`
+do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę, a więc łączność
+składania zachodzi automatycznie.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
-składania diagram jest co prawda bardziej złożony, ale sposób, w jaki dobrze jest go narysować w
-zasadzie narzuca się sam. `Narysuj` w szeregu w odstępach o krok od siebie punkty `X`, `Y`, `Z` i
+składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować
+w zasadzie narzuca się sam. `Narysuj` w szeregu w odstępach o krok od siebie punkty `X`, `Y`, `Z` i
 `V`. Dodaj strzałki `f`, `g` i `h`. `Narysuj` złożenia `h g` i `g f` jako strzałki wygięte w dół, a
-na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`. 
+na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`.
 
 Diagramatycznie każde złożenie jest przemiennym "trójkątem skierowanym", bo odpowiada jednej
 konkretnej strzałce, która jest wynikiem składania jednej konkretnej pary składalnych strzałek. W
 przypadku tego diagramu mamy dwa trójkąty - każdy z jednym kątem wewnętrznym 180 stopni i wygiętymi
 bokami, ale i tak możemy je nazywać trójkątami - które na siebie zachodzą, dlatego naniesienie
-ptaszków wyrażających przemienności wszystkich równoległych ścieżek w taki sposób, żeby było widać,
-o które złożenia chodzi, może wymagać chwili namysłu, ale poza tym ten diagram nie różni się
-specjalnie od tych, które rysowałaś wcześniej.
+ptaszków wyrażających przemienności wszystkich równoległych ścieżek skierowanych w taki sposób, żeby
+było widać, o które złożenia chodzi, może wymagać chwili namysłu, ale poza tym ten diagram nie różni
+się specjalnie od tych, które rysowałaś wcześniej.
 
 **Rysunek 2**: Diagram wyrażający neutralność strzałek identycznościowych wymaga innego
 podejścia. Gdybyś narysowała strzałkę `f` z pętlami identyczności u źródła i u celu, to nie dałoby
