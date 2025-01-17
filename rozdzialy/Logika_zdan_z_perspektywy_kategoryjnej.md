@@ -187,7 +187,7 @@ najmniej jedna liczba mniejsza od samej siebie, ale istniałaby też liczba, kt�
 od samej siebie, to byłby problem, bo wtedy niektóre nasze strzałki identycznościowe odpowiadałyby
 liczbom, a niektóre nie odpowiadałyby niczemu i nie byłoby zgodności między kategorią i opisywaną
 przez nią strukturą. No ale w przypadku relacji `<` *żadna* liczba nie wchodzi ze sobą w tą relację,
-a więc taka "kategoryfikacja" nie wprowadzałaby zniekształceń, tylko polegała na *zmianie konwencji
+a więc taka "kategoryfikacja" nie wprowadza zniekształceń, tylko polega na *zmianie konwencji
 opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że pętle identyczności
 są "puste" i służą tylko jako konieczne uzupełnienia pozwalające uzyskać kategorię. Można więc
 powiedzieć, że matematyka jest strefą logicznie bezpiecznych, ale poza tym niczym nieskrępowanych
