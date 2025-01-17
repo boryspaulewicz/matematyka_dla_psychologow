@@ -169,15 +169,40 @@ składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybiln
 Moglibyśmy wtedy *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć konwencję*, że
 te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy przecież stworzyć kategorię
 jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o ile tylko będzie
-spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni), bo jesteśmy *wolni*. Ostatecznie
-liczy się *tylko* to, czy uda nam się z taką kategorią zrobić coś pouczającego, interesującego, albo
-nawet tylko zabawnego. Gdyby było tak, że dla niektórych, ale nie wszystkich liczb zachodzi
-zwrotność, czyli gdyby istniała co najmniej jedna liczba taka, że byłaby mniejsza od samej siebie,
-ale istniałaby też liczba, która nie jest mniejsza od samej siebie, to byłby problem, bo wtedy
-niektóre nasze strzałki identycznościowe odpowiadałyby liczbom, a niektóre nie odpowiadałyby niczemu
-i nie byłoby zgodności między kategorią i opisywaną przez nią strukturą. No ale w przypadku relacji
-`<` *żadna* liczba nie wchodzi ze sobą w tą relację, a więc taka "kategoryfikacja" nie wprowadza
-zniekształceń, tylko polega na *zmianie konwencji opisywania tej samej struktury*.
+spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni). W końcu jesteśmy wolni i nigdzie nie
+doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda nam
+się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
 
-Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone już wcześniej definicje kategoryjne.
+Gdyby było tak, że dla niektórych, ale nie wszystkich liczb zachodzi zwrotność, czyli gdyby istniała
+co najmniej jedna liczba taka, że byłaby mniejsza od samej siebie, ale istniałaby też liczba, która
+nie jest mniejsza od samej siebie, to byłby problem, bo wtedy niektóre nasze strzałki
+identycznościowe odpowiadałyby liczbom, a niektóre nie odpowiadałyby niczemu i nie byłoby zgodności
+między kategorią i opisywaną przez nią strukturą. No ale w przypadku relacji `<` *żadna* liczba nie
+wchodzi ze sobą w tą relację, a więc taka "kategoryfikacja" nie wprowadzałaby zniekształceń, tylko
+polegała na *zmianie konwencji opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo
+zapisać, że pętle identyczności są "puste" i służą tylko jako konieczne uzupełnienia pozwalające
+uzyskać kategorię.
+
+Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
+tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
+innego punktu widzenia.
+
+*Obiektem początkowym* w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii punkt)
+`I` (od angielskiego *initial*), że dla każdego obiektu `X` istnieje dokładnie jedna strzałka `I ->
+X`. 
+
+Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `Set`, czyli w kategorii
+zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego zbioru.
+
+*Produktem* obiektów `X` i `Y` nazywamy taki obiekt `X x Y`, że istnieją strzałki `pi1 : X -> X` i
+`pi2 : X -> Y` takie, że dla każdego obiektu `Z` i pary strzałek `f : Z -> X` i `g : Z -> Y`
+istnieje unikalna strzałka `<f,g>` spełniająca warunek `pi1 <f,g> = f` i `pi2 <f,g> = g`. 
+
+Oficjalnie nazywamy te strzałki raczej rzutami kanonicznymi, ale ja wolę nazywać je projekcjami. Jak
+już wiesz, produkty w kategorii `Set` to ("pod spodem") dokładnie iloczyny kartezjańskie
+zbiorów. Poza tym wiesz również, że produkt to tak naprawdę para współźródłowych strzałek,
+spełniająca wymienione w definicji wymagania, ale często wygodniej jest mówić o produktach jako o
+obiektach, czyli w naszej terminologii punktach.
+
+## [Icśonlaud adasaz](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii)
 
