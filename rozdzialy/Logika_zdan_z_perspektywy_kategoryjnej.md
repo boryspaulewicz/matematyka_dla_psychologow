@@ -145,13 +145,13 @@ na diagramie to jedno, a ich nazwy to co innego*, rysując diagram zawierający 
 
 `Narysuj (Punkt X)`, a potem `Narysuj (Punkt Y) (SE X)`. O krok pod pierwszą kopią `Punkt X` również
 `Narysuj (Punkt X)` i połącz te dwie kopie skierowaną w dół strzałką o nazwie `Id`. Następnie
-`Narysuj (Strzalka X Y)` i oznacz ją jako `f`. Dodaj jeszcze lustrzane odbicia tych dwóch strzałek,
-traktując wyimaginowaną linię przebiegającą przez punkty `X` i `Y` prawie jak oś symetrii. Wiesz, o
-co mi chodzi, prawda? Oznacz kopię punktu `Y`, kopię strzałki `f` i niebędącą kopią (chociaż
-niekoniecznie oznaczającą inną identyczność!) strzałkę `Id : Y → Y` odpowiednimi literami, a na
-koniec oznacz ten diagram jako przemienny. W ten sposób można wyrazić *pojedyncze* równanie `Id f =
-f Id`. Jeżeli chcesz, żeby na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz
-dodać kopię strzałki `f` przecinającą ten diagram na pół.
+`Narysuj (Strzalka X Y)` i oznacz ją jako `f`. O krok poniżej punktu `Y` `Narysuj` jego kopię i
+dodaj strzałkę identycznościową z górnego punktu `Y` do dolnego punktu `Y`. Na koniec dodaj strzałkę
+z dolnej kopii `X` do dolnej kopii `Y` i oznacz ją jako `f`. Oznacz kopię punktu `Y`, kopię strzałki
+`f` i niebędącą kopią (chociaż niekoniecznie oznaczającą inną identyczność!) strzałkę `Id : Y → Y`
+odpowiednimi literami, a na koniec oznacz ten diagram jako przemienny. W ten sposób można wyrazić
+*pojedyncze* równanie `Id f = f Id`. Jeżeli chcesz, żeby na tym diagramie było widać też równania
+`Id f = f` i `f = f Id`, możesz dodać kopię strzałki `f` przecinającą ten diagram na pół.
 
 Znanym Ci doskonale przykładem relacji, której nie można w ten sposób opisać jako kategorii bez
 różnych strzałek równoległych jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż* na
