@@ -24,12 +24,12 @@ do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemów interpretacyjny
 badaniach zawsze powstaj±.
 
 Poza tym nak³anianie terapeutów bior±cych udzia³ w tego rodzaju badaniach, ¿eby stosowali podej¶cie
-lub metodê, któr± badacz móg³by przydzielaæ losowo, nie ma wiêkszego sensu. W tak przeprowadzonym
-badaniu interwencja i tak nie mog³aby dzia³aæ *selektywnie*, poniewa¿ skutek zastosowania okre¶lonej
-metody wynika³by w bli¿ej nieokre¶lony sposób miêdzy innymi z tego, jaki stosunek do tej metody ma
-dany terapeuta albo terapeutka, a osoby, które by³yby przydzielone do warunków, w których ta metoda
-nie by³aby stosowana, a które normalnie by j± zastosowa³y, mog³yby z tego powodu w bli¿ej
-nieokre¶lony sposób zmieniæ to, jak prowadz± terapiê.
+lub metodê, któr± badacz móg³by przydzielaæ losowo, bêdzie mia³o zawsze z konieczno¶ci rozmaite
+powa¿ne ograniczenia. W tak przeprowadzonym badaniu interwencja i tak nie mog³aby dzia³aæ
+*selektywnie*, poniewa¿ skutek zastosowania okre¶lonej metody wynika³by w bli¿ej nieokre¶lony sposób
+miêdzy innymi z tego, jaki stosunek do tej metody ma dany terapeuta albo terapeutka, a osoby, które
+by³yby przydzielone do warunków, w których ta metoda nie by³aby stosowana, a które normalnie by j±
+zastosowa³y, mog³yby z tego powodu w bli¿ej nieokre¶lony sposób zmieniæ to, jak prowadz± terapiê.
 
 Wreszcie przebieg terapii bêd±cej interwencj± eksperymentaln± to nie to samo, co przebieg terapii w
 warunkach naturalnych, a przecie¿ o to drugie chodzi w badaniach skuteczno¶ci. Mo¿na wiêc od biedy
