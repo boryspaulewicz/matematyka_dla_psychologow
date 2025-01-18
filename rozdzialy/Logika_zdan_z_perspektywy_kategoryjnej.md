@@ -400,14 +400,18 @@ produktu) takie, że dla każdej pary strzałek `f` i `g` *z* `X` i `Y` *do* jak
 (kolejne odwrócenie strzałek) istnieje unikalna strzałka `f+g` (ale uwaga, bardzo różnie się to
 zapisuje) *z* `X + Y` *do* `Z` (kolejne odwrócenie) taka, że `f+g i₁ = f` i `f+g i₂ = g` (odwrócenie
 złożeń wymuszone przez odwrócenie wszystkich strzałek). Żeby to było łatwiej zobaczyć, zapiszę te
-dwie definicje formalnie:
+dwie definicje formalnie.
 
-`∀ Z : Set, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y, π₁ ⟨f,g⟩ = f ∧ π₂ ⟨f,g⟩ = g`
+Produkt punktów `X` i `Y` to taki punkt `X × Y`, że:  
+`∃ π₁ : X × Y → X, ∃ π₂ : X × Y → Y, ∀ Z : Obj, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y,`  
+`π₁ ⟨f,g⟩ = f ∧ π₂ ⟨f,g⟩ = g`
 
-`∀ Z : Set, ∀ f : X → Z, ∀ g : Y → Z, ∃¹ (f+g) : X + Y → Z, (f+g) i₁ = f ∧ (f+g) i₂ = g`
+Koprodukt punktów `X` i `Y` to taki punkt `X + Y`, że:  
+`∃ i₁ : X → X + Y, ∃ i₂ : Y → X + Y, ∀ Z : Obj, ∀ f : X → Z, ∀ g : Y → Z, ∃¹ (f+g) : X + Y → Z,`  
+`(f+g) i₁ = f ∧ (f+g) i₂ = g`
 
-gdzie `Obj` oznacza obiekt w danej kategorii, a `∃¹` czytamy jako *istnieje dokładnie jedno coś
-jakiegoś rodzaju*.
+gdzie `Obj` oznacza typ obiekt w danej kategorii, a `∃¹`, jak już wiesz, czytamy jako istnieje
+dokładnie jedno coś jakiegoś rodzaju.
 
 W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. Żeby się o tym
 przekonać, wystarczy popatrzeć na rysunek struktury wewnętrznej dowolnej sumy rozłącznej dwóch
