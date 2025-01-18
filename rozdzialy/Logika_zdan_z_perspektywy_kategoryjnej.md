@@ -305,9 +305,9 @@ same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłob
 zapisane*. Zastanawiasz się pewnie, o co mi teraz chodzi? Żeby to lepiej objaśnić, może skorzystam z
 innego przykładu: Moglibyśmy przyjąć *konwencję interpretowania* wyrażeń o postaci `n < m` jako
 oznaczających, że `n` jest *większe* niż `m`, czyli interpretować ten symbol *odwrotnie* niż to
-zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy *mówili*
-nie uległby zmianie, zmieniłby się *tylko sposób zapisu*. Tylko *czemu by to mogło służyć*? Otóż
-temu:
+zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy mówili
+*nie* uległby zmianie, zmieniłby się *tylko sposób zapisu* albo *sposób mówienia*. Tylko *czemu by
+to mogło służyć*? Otóż temu:
 
 **Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego*, albo krócej i mniej oficjalnie
 *początku*, ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
