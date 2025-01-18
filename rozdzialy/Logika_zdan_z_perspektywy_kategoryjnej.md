@@ -334,7 +334,12 @@ operacja składania strzałek musi być łączna. Jeżeli teraz odwrócimy wszys
 kategorii i - żeby się nie pogubić - oznaczymy te dualne odpowiedniki za pomocą apostrofów i
 zdefiniujemy *nową* operację składania w taki sposób, że dla każdych dwóch składalnych strzałek `f`
 i `g` w kategorii `ℂ`, złożeniem ich odwróconych odpowiednikow w kategorii dualnej do `ℂ` będzie `f'
-g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do `ℂ`.
+g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do `ℂ`. 
+
+Możemy wtedy przyjąć, że każda strzałka `f' : X -> Y` w kategorii `ℂ'` "kryje pod sobą" strzałkę
+`f : Y -> X` w kategorii `ℂ`, z której powstała *i vice versa*, a każde złożenie `f' g'` w `ℂ'`
+"kryje pod sobą" złożenie `g f` w `ℂ`, któremu odpowiada *i vice versa*. Nie będzie trzeba dodawać
+apostrofów do nazw punktów w kategorii dualnej, bo punktów nie da się odwrócić.
 
 Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'` w tej dualnej kategorii
 złożenie `(c' b') a'` będzie odpowiadało złożeniu `a (b c) = (a b) c`, a złożenie `(a b) c` będzie
