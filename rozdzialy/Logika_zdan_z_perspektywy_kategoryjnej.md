@@ -252,8 +252,9 @@ ale często wygodniej jest mówić o produktach jako o obiektach, czyli w naszej
 Popatrzymy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
 interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli to ma być kategoria, punkty `X` i
 `Y` *muszą* mieć swoje *unikalne i charakterystyczne* endostrzałki identycznościowe. A więc musimy
-*sami dodać* te strzałki. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc
-jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione. 
+*sami dodać* te dwie endostrzałki. Te trzy strzałki to jedno, a operacja składania to co
+innego. Musimy więc jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii
+były spełnione.
 
 Po dodaniu pętli `Id` do `X` i pętli `Id` do `Y` pojawiają się nam dokładnie dwa możliwe złożenia,
 to jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii *nie pozostawiają nam wyboru* i musi być
