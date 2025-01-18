@@ -314,8 +314,8 @@ to mogło służyć*? Otóż temu:
 więc trzeba będzie odwrócić też wszystkie złożenia, których akurat w tej definicji nie ma, a więc
 jeżeli chodzi o złożenia akurat w tym przypadku nic nie będzie trzeba robić. Nie nazywaj jednak
 tego, co ta definicja będzie charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz
-definicję obiektu *końcowego*, którego szczególnym przypadkiem jest każdy singleton w kategorii
-`Set`.
+definicję obiektu *końcowego*, oznaczanego często literą `T` od angielskiego słowa *terminal*,
+którego szczególnym przypadkiem jest każdy singleton w kategorii `Set`.
 
 Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa. Nazywamy
 to [*zasadą dualności*](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii) w
