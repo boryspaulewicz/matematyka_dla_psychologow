@@ -365,6 +365,19 @@ o co tam *miało* chodzić, a to jest chyba najlepszy sprawdzian zrozumienia cze
 Ani Bańdurze, za niezwykle cenne, interesujące, przemyślane i szczegółowe uwagi dotyczące moich
 całkiem amatorskich dygresji na temat psychoterapii.
 
+I znowu Szymonowi Stryplingowi, który jako pierwszy tester napisał o rozdziale R23=R17, w którym to
+rozdziale na dobre pojawia się zasada dualności w teorii kategorii i w którym ta zasada jest
+wykorzystywana do tego, żeby wykazać, że zbiór jednoelementowy jest dualny do zbioru pustego,
+iloczyn kartezjański zbiorów jest dualny do sumy rozłącznej zbiorów, że z relacji dowiedlności w
+logice można zrobić cienką kategorię, że wtedy typ `False`, tak jak zbiór pusty, okazuje się być
+obiektem początkowym, a typ `True`, tak jak każdy singleton, obiektem końcowym, że koniunkcja, tak
+jak iloczyn kartezjański, jest kategoryjnym produktem, że alternatywa, tak jak suma rozłączna
+zbiorów, jest koproduktem i że to wszystko jest piękne i niesamowite. Przy okazji pojawia się tam
+pojęcie wolnej konstrukcji, a konkretnie wolnej kategorii nad grafem i parę innych
+drobiazgów. Szymon stwierdził, że ten rozdział *nie był szczególnie trudny*, a jedynym momentem,
+który wymagał od Niego większego skupienia i wytrwałości, była nagła zmiana języka i punktu widzenia
+na kategoryjny. No raczej.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
