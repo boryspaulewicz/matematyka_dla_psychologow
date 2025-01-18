@@ -209,10 +209,10 @@ i z dowolnych punktów widzenia*. O ile tylko będziemy w naszym myśleniu konse
 tak nie pomaga jak matematyka i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do
 sprzeczności, to będziemy mieć gwarancję, że wyprowadzone dedukcyjnie wnioski, jakie by nie były,
 będą prawdziwe na mocy przyjętych założeń, definicji i aksjomatów (które też są zresztą definicjami,
-tylko że pozbawionymi ciała). Co prawda nie istnieje uniwersalna metoda znajdywania dowodów
-arbitralnych zdań, ale dzięki temu zawsze ważny będzie przebłysk intuicji, a potencjalne dowody
+tylko że pozbawionymi ciała). Co prawda nie istnieje uniwersalna metoda *znajdywania* dowodów
+arbitralnych zdań, ale dzięki temu zawsze ważny będzie przebłysk intuicji, a *potencjalne* dowody
 możemy zawsze sprawdzić za pomocą algorytmu, który zawsze da nam jednoznaczną odpowiedź, czy są
-poprawne. W tym sensie matematyka jest jakby strefą logicznie bezpiecznej, ale poza tym niczym
+poprawne. W tym sensie matematyka jest taką strefą logicznie bezpiecznej, ale poza tym niczym
 nieskrępowanej fantazji.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako kategorii: Gdyby było tak, że dla
