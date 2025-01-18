@@ -451,12 +451,11 @@ nazwie *produkt* przedrostek *ko* nie występuje.
 Gdy tylko uda nam się znaleźć jakiś kategoryjny odpowiednik pojęcia, konstrukcji lub zdania w
 jakiejś opisanej jako kategoria przestrzeni (na przykład, kategoryjny odpowiednik zbioru pustego),
 możemy zacząć szukać odpowiedników tych struktur w dowolnych innych kategoriach. No to teraz
-poszukamy znanych Ci już konstrukcji kategoryjnych w kategorii powstającej z relacji dowiedlności
-zdefiniowanej na zbiorze zdań.
+poszukamy znanych Ci już konstrukcji kategoryjnych w kategorii powstającej w naturalny sposób az
+relacji dowiedlności zdefiniowanej na zbiorze zdań.
 
-Czym jest obiekt początkowy w opisanej już wcześniej kategorii, w której punkty są zdaniami a
-strzałki reprezentują relację dowiedlności? To przecież *zdanie fałszywe*, które w Leanie jest
-zdefiniowane tak:
+Czy ta kategoria *ma* obiekt początkowy? A jeśli ma, to *czym* on jest? Otóż obiektem początkowym w
+tej kategorii jest *zdanie fałszywe*, które w Leanie jest zdefiniowane tak:
 
 ```lean
 inductive False : Prop
