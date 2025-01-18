@@ -465,12 +465,14 @@ To jest *cała* definicja zdania `False`. **Czytamy to** w ten sposób: Definiuj
 (`inductive`), czyli przez *wymienienie wszystkich możliwych sposobów konstruowania termów
 definiowanego typu danych*, zdanie `False` (`False : Prop`) jako typ, którego termów *nie da się w
 żaden sposób skonstruować*. Dlatego ta definicja indukcyjnego typu danych kończy się tak
-gwałtownie. Zdanie/typ `False` jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii
-`Set` i tak samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu
-początkowego: Dla każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii
-dowiedlności zdań ze zdań, jak wiesz, można udowodnić zdanie `False → P`, czyli istnieje *jakaś*
-strzałka z punktu `False` do punktu `P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w
-tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
+gwałtownie. 
+
+Zdanie/typ `False` jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii `Set` i tak
+samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu początkowego: Dla
+każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii dowiedlności zdań ze
+zdań, jak wiesz, można udowodnić zdanie `False → P`, czyli istnieje *jakaś* strzałka z punktu
+`False` do punktu `P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w tej kategorii nie
+ma nigdy dwóch różnych równoległych strzałek.
 
 Obiektem dualnym do zdania fałszywego jest *zdanie prawdziwe*, które w Leanie jest zdefiniowane tak:
 
@@ -499,7 +501,8 @@ strzałka `True → P` wtedy i tylko wtedy, gdy samo zdanie `P` jest zdaniem pra
 gdy `P` jest zdaniem (nie strzałką w tej kategorii!) `q → q`, bo tylko wtedy można skonstruować
 dowód implikacji `True → P`. Co więcej, dla każdego zdania `P`, istnieje strzałka *z* `P` *do*
 `False` wtedy i tylko wtedy, gdy istnieje dowód negacji tego zdania, czyli kiedy to zdanie jest
-zdaniem fałszywym.
+zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i negacja (`¬ P` dla jakiegoś `P :
+Prop`) są swoimi dualnymi odpowiednikami.
 
 Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
 jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
