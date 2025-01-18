@@ -96,7 +96,8 @@ stanie rozmawiaæ na trudne i osobiste tematy.
 
 Podkre¶lam, ¿e wszystkie te wnioski wynikaj± naturalnie z formalnej teorii przyczynowo¶ci i
 formalnej definicji zadania (i zwi±zanego ze szczególnym charakterem tej definicji sposobu my¶lenia
-o podmiotowo¶ci), których jeszcze nie wprowadzi³em. Mo¿emy ju¿
+o podmiotowo¶ci \{i odrobiny wiedzy zastanej, na przyk³ad dotycz±cej wp³ywu genów na zachowanie\}),
+których jeszcze nie wprowadzi³em. Mo¿emy ju¿
 [wróciæ](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
 do g³ównego w±tku.
 
