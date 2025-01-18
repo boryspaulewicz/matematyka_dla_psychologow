@@ -242,10 +242,10 @@ Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary strzałek
 istnieje unikalna strzałka `<f,g>`, spełniająca warunki `π₁ <f,g> = f` i `π₂ <f,g> = g`.
 
 Oficjalnie nazywamy strzałki `π₁` i `π₂` raczej rzutami kanonicznymi, ale ja wolę nazywać je
-projekcjami. Jak już wiesz, produkty w kategorii `Set` to ("pod spodem") dokładnie iloczyny
-kartezjańskie zbiorów. Poza tym wiesz również, że produkt to tak naprawdę para współźródłowych
-strzałek, spełniająca wymienione w definicji wymagania, ale często wygodniej jest mówić o produktach
-jako o obiektach, czyli w naszej terminologii punktach.
+projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" (bo `Set` to kategoria, a nie
+przestrzeń zbiorów i funkcji) dokładnie iloczyny kartezjańskie zbiorów. Poza tym wiesz również, że
+produkt to tak naprawdę para współźródłowych strzałek, spełniająca wymienione w definicji wymagania,
+ale często wygodniej jest mówić o produktach jako o obiektach, czyli w naszej terminologii punktach.
 
 ## Wolne konstrukcje
 
