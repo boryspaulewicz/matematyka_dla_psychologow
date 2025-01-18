@@ -1,33 +1,34 @@
 ## O czym teraz będzie
 
 Teraz będzie przede wszystkim o zasadzie dualności w teorii kategorii i to będzie technicznie dosyć
-proste, ale konceptualnie raczej trudne. Za to liczba problemów stanie się w pewnym sensie mniejsza
-o połowę.
+proste, ale konceptualnie raczej trudne. Za to
+[ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów stanie się w pewnym
+sensie mniejsza o połowę.
 
 # p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
-znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia.
-
-Niech:
+znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Niech:
 
 1. Punkty będą zdaniami.
 
-2. Dla każdego punktu `P` i `Q`, strzałka z punktu `P` do punktu `Q` oznacza dowód implikacji `P → Q`.
+2. Dla każdego punktu/zdania `P` i `Q`, strzałka z punktu/zdania `P` do punktu/zdania `Q` oznacza
+   dowód implikacji `P → Q`.
 
-3. Dla każdego punktu `P`, pętla identycznościowa oznacza dowód tautologii `P → P`.
+3. Dla każdego punktu/zdania `P`, pętla identycznościowa oznacza dowód tautologii `P → P`.
 
 4. Składanie strzałek będzie składniem dowodów.
 
 Możemy łatwo udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowodów:
 
 ```lean
--- Ta definicja różni się od poprzedniej tylko tym, że zamiast typu Type występuje tutaj typ Prop.
+-- Ta definicja stałej ID różni się od wcześniejszej tylko tym, że zamiast typu Type występuje 
+-- tutaj typ Prop.
 def ID (P : Prop) : P → P := fun (hp : P) => hp
 
 -- Poza tym, że skróciłem nazwę stałej i zamiast Zlozenie jest tutaj Z, to jedyna różnica między
--- tą definicją a wcześniej skonstruowaną definicją złożenia jest taka, że zamiast typu Type mamy
--- tutaj typ Prop.
+-- tą definicją a wcześniejszą definicją składania jest taka, że zamiast typu Type mamy tutaj
+-- typ Prop.
 def Z {P Q R : Prop} (f : P → Q) (g: Q → R) : (P → R) := 
   fun (hp : P) => g (f hp)
 
@@ -43,16 +44,16 @@ example (P Q R S : Prop) (f : P → Q) (g : Q → R) (h : R → S) :
 ```
 
 Przy okazji widzimy, że dowody anonimowe, które konstruujemy za pomocą słowa kluczowego `example`,
-mogą mieć parametry tak samo jak twierdzenia. A więc `example` to tylko niemalże alternatywny sposób
-konstruowania funkcji anonimowych. Możemy stosować to słowo kluczowe do konstruowania dowolnych
-prawie funkcji anonimowych ...
+mogą mieć parametry tak samo jak twierdzenia. A więc `example` to tylko *niemalże* alternatywny
+sposób konstruowania funkcji anonimowych. Możemy stosować to słowo kluczowe do konstruowania
+dowolnych *prawie* funkcji anonimowych ...
 
 ```lean
 example (n m : Nat) : Nat := n + m
 ```
 
-... ale to jednak *nie* będą funkcje anonimowe, bo nie da się ani sprawdzić typu takich wyrażeń, ani
-ich aplikować:
+... ale to *nie* będą funkcje anonimowe, bo nie da się ani sprawdzić typu takich wyrażeń, ani ich
+aplikować:
 
 ```lean
 -- Tutaj pojawia się błąd ...
@@ -67,15 +68,14 @@ być dowodem jakiegoś zdania, może być w pewien sposób skonstruowana.
 
 Dla każdego zdania `P`, dowód tautologii `P → P` jest elementem neutralnym ze względu na operację
 składania dowodów, bo jest funkcją identycznościową przekształcającą każdy dowód swojego zdania w
-niego samego. A ponieważ dowody są dla nas funkcjami jak każde inne, z tą tylko różnicą, że mają typ
-będący termem typu `Prop`, to składanie dowodów, co właśnie udowodniliśmy, jest łączne. Skoro
-ustaliliśmy właśnie, że mamy do czynienia z kategorią, od tego momentu możemy o tych dowodach
-zapomnieć.
+niego samego. Ponieważ dowody są dla nas funkcjami jak każde inne, z tą tylko różnicą, że mają typ
+będący termem typu `Prop`, to składanie dowodów, co właśnie udowodniliśmy, jest łączne. Skoro już
+ustaliliśmy, że mamy do czynienia z kategorią, od tego momentu możemy o tych dowodach zapomnieć.
 
-W kategorii zbiorów i funkcji występują strzałki, które są zarazem równoległe i różne. Na przykład,
-jeżeli `X` to jakiś singleton a `Y` to jakiś zbiór dwuelementowy, to istnieją dokładnie dwie funkcje
-z `X` do `Y`, a więc w kategorii `Set` istnieją dokładnie dwie strzałki równoległe z punktu
-odpowiadającego zbiorowi `X` do punktu odpowiadającego zbiorowi `Y`. 
+W kategorii zbiorów i funkcji występują strzałki, które są zarazem *równoległe* i *różne*. Na
+przykład, jeżeli `X` to jakiś singleton a `Y` to jakiś zbiór dwuelementowy, to istnieją dokładnie
+dwie funkcje z `X` do `Y`, a więc w kategorii `Set` istnieją dokładnie dwie strzałki równoległe z
+punktu odpowiadającego zbiorowi `X` do punktu odpowiadającego zbiorowi `Y`.
 
 Czy widzisz, że ten ostrożny sposób mówienia staje się już trochę uciążliwy i zbędny? Zamiast ...
 
@@ -90,28 +90,38 @@ Czy widzisz, że ten ostrożny sposób mówienia staje się już trochę uciąż
 albo zinterpretowane (w tym wypadku jako zbiory i funkcje). Dlatego będę od pewnego momentu coraz
 częściej mówił właśnie w ten sposób.
 
+## Cienka ta kategoria
+
 W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz przyglądamy, istnieje
 strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając `P` można udowodnić `Q`. W
 tej kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof
-irrelevance* wszystkie dowody tego samego zdania są równe.
+irrelevance* wszystkie dowody tego samego zdania są równe. Kategorie, które nie mają par różnych
+strzałek równoległych nazywamy [*cienkimi*](https://ncatlab.org/nlab/show/thin+category)
+(ang. *thin*).
 
-Mamy zatem kategorię, w której dla każdej pary punktów `P` i `Q`, istnieje *co najwyżej jedna*
-strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje binarne*, bo między
-dwoma elementami jakaś relacja albo zachodzi, albo nie; z powodu tego, jak relacje są rozumiane w
-matematyce, stwierdzenie, że jakaś relacja zachodzi między dwoma elementami na więcej niż jeden
-sposób po prostu nie ma sensu. W przypadku kategorii, którą teraz badamy, strzałka nie oznacza więc
-tak naprawdę konkretnego dowodu, tylko pewien *fakt*; w tym wypadku to jest zawsze fakt polegający
-na zachodzeniu *relacji dowiedlności*. Ta kategoria ma więc wyraźnie inny charakter niż kategoria
-zbiorów i funkcji.
+Mamy tu zatem cienką kategorię, to jest taką, że dla każdej pary punktów `P` i `Q`, istnieje *co
+najwyżej jedna* strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje
+binarne*, bo między dwoma elementami jakaś relacja albo zachodzi, albo nie; z powodu tego, jak słowo
+*relacja* jest używane jako termin techniczny w matematyce, stwierdzenie, że jakaś relacja zachodzi
+między dwoma elementami na więcej niż jeden sposób nie ma sensu. W przypadku kategorii, którą teraz
+badamy, strzałka *nie* oznacza więc tak naprawdę *konkretnego dowodu*, tylko pewien *fakt*; w tym
+wypadku to jest zawsze fakt polegający na zachodzeniu *relacji dowiedlności* między jakimiś dwoma
+zdaniami. Ta kategoria ma więc wyraźnie inny charakter niż kategoria zbiorów i funkcji.
 
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
 każda liczba należąca do `X` może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych
-liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ
-taka relacja jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀ x ∈ X, x
-≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest *przechodnia*, to
-znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych strzałek istnieje
-strzałka kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić, czy ...
+liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. W ten sposób
+możemy zawsze uzyskać cienką kategorię z *pojedynczego* zbioru i *jakiejkolwiek* określonej na nim
+relacji, *o ile* ta będzie *zwrotna* i *przechodnia* (zaraz wyjaśnię te terminy), bo wtedy ta
+relacja "sama" dostarczy nam strzałki identycznościowe, składalne strzałki będą składalne i
+składanie będzie łączne.
+
+Ponieważ taka relacja jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀
+x ∈ X, x ≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest
+*przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych
+strzałek istnieje strzałka kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić,
+czy ...
 
 1. `f Id = f = Id f`
 
