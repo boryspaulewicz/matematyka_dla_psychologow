@@ -17,7 +17,7 @@ podaj±ca tabletki nie mog³a odgadn±æ, co podaje.
 Chocia¿ w badaniach dotycz±cych skuteczno¶ci psychoterapii to i owo mo¿na randomizowaæ, to z
 oczywistych wzglêdów *nie da siê* zastosowaæ ani pojedynczego, ani tym bardziej podwójnego
 za¶lepienia. A to oznacza, ¿e *nie da siê* oddzieliæ wp³ywu *samej metody* od wp³ywu wielu innych,
-*tylko czê¶ciowo identyfikowalnych*, a poza tym bli¿ej nieokre¶lonych czynników, takich jak na
+*tylko czê¶ciowo identyfikowalnych*[^3], a poza tym bli¿ej nieokre¶lonych czynników, takich jak na
 przyk³ad cechy osób, które decyduj± siê uczyæ danej metody. W koñcu to, jakie podej¶cie, szko³ê lub
 techniki stosuje terapeuta albo terapeutka wynika w bli¿ej nieokre¶lony sposób z cech osobowych i
 do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemu interpretacyjnego, który w takich
@@ -106,3 +106,6 @@ do g³ównego w±tku.
 [^1]: Jak to doskonale ujê³a Maja Strypling, to jest zwykle takie *szycie czym tylko siê da*.
 
 [^2]: Such as it is.
+
+[^3]: Nale¿y w tym kontek¶cie pamiêtaæ, ¿e *wynik pomiaru* to zdecydowanie nie to samo, co zmienna,
+    któr± dana metoda pomiaru *ma* (w psychologii zwykle *rzekomo*) mierzyæ.
