@@ -381,9 +381,9 @@ dualna, chociaż nie musi być całkiem taka sama, jest jednak w pewnym ogólnie
 Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy wszystkich
 konstrukcji z obiektów i strzałek i wszystkich konstrukcji opartych na złożeniach, czyli *wszystkich
 definicji i zdań w języku teorii kategorii*, w tym również wszystkich (całych) kategorii. A to
-znaczy, że wymyślając jeden rodzaj konstrukcji kategoryjnej, automatycznie wymyślamy dwa rodzaje i
-udowadniając dowolne zdanie wyrażone w języku teorii kategorii automatycznie udowadniamy dwa takie
-zdania.
+znaczy, że definiując *jeden* rodzaj konstrukcji kategoryjnej, automatycznie definiujemy *dwa*
+dualne względem siebie rodzaje konstrukcji i udowadniając jakiekolwiek *jedno* zdanie wyrażone w
+języku teorii kategorii automatycznie udowadniamy *dwa* dualne względem siebie zdania.
 
 Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić. Na
 szczęście, zwykle skupiamy się na wybranych fragmentach albo własnościach jakiejś kategorii, na
