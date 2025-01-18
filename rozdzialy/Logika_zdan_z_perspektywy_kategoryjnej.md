@@ -336,8 +336,8 @@ zdefiniujemy *nową* operację składania w taki sposób, że dla każdych dwóc
 i `g` w kategorii `ℂ`, złożeniem ich odwróconych odpowiednikow w kategorii dualnej do `ℂ` będzie `f'
 g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do `ℂ`. 
 
-Możemy wtedy przyjąć, że każda strzałka `f' : X -> Y` w kategorii `ℂ'` "kryje pod sobą" strzałkę
-`f : Y -> X` w kategorii `ℂ`, z której powstała *i vice versa*, a każde złożenie `f' g'` w `ℂ'`
+Możemy wtedy przyjąć, że każda strzałka `f' : X → Y` w kategorii `ℂ'` "kryje pod sobą" strzałkę
+`f : Y → X` w kategorii `ℂ`, z której powstała *i vice versa*, a każde złożenie `f' g'` w `ℂ'`
 "kryje pod sobą" złożenie `g f` w `ℂ`, któremu odpowiada *i vice versa*. Nie będzie trzeba dodawać
 apostrofów do nazw punktów w kategorii dualnej, bo punktów nie da się odwrócić.
 
@@ -419,12 +419,13 @@ zbiorów skończonych, na którym widać też strukturę wewnętrzną injekcji. 
 zawiera tylko wierne kopie zbiorów - nazwijmy je znowu `X` i `Y` - będących jej członami, zakodowne
 w taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione przez wewnętrzne strzałki
 obydwu (w tym wypadku injektywnych) injekcji, to gdy tylko określimy, dla dowolnego zbioru `Z`, do
-jakich elementów tego zbioru mają być posłane przez funkcje `f` i `g` elementy zbioru `X` i zbioru
-`Y` odpowiednio, to wtedy to, do czego ma być posłana każda kopia w `X + Y`, żeby powstająca w ten
-sposób funkcja składała się z injekcjami w funkcje `f` i `g`, będzie wymuszone. I odwrotnie, każda
-funkcja `h` z `X + Y` do `Z` będzie oczywiście opdowiadała unikalnej parze uporządkowanej strzałek z
-`X` i `Y` do `Z` odpowiednio, bo złożenia `h i₁` i `h i₂` będą z definicji unikalne. Wiem, że to
-jest trudne. Ale to jest też piękne i bardzo przydatne w pewnych sytuacjach.
+jakich elementów tego zbioru mają być posłane przez jakieś funkcje `f : X → Z` i `g : Y → Z`
+elementy zbioru `X` i zbioru `Y` odpowiednio, to wtedy to, do czego ma być posłana każda kopia w
+`X + Y`, żeby powstająca w ten sposób funkcja dołożona do injekcji dawała funkcje `f` i `g`, będzie
+wymuszone (i będzie istniała taka funkcja). I odwrotnie, każda funkcja `h : X + Y → Z` będzie
+oczywiście opdowiadała unikalnej parze uporządkowanej strzałek z `X` i `Y` do `Z` odpowiednio, bo
+złożenia `h i₁` i `h i₂` będą z definicji unikalne. Wiem, że to jest trudne. Ale to jest też piękne
+i bardzo przydatne w pewnych sytuacjach.
 
 Można też powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
 operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
