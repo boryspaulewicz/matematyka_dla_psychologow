@@ -111,17 +111,11 @@ zdaniami. Ta kategoria ma więc wyraźnie inny charakter niż kategoria zbiorów
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
 każda liczba należąca do `X` może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych
-liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. W ten sposób
-możemy zawsze uzyskać cienką kategorię z *pojedynczego* zbioru i *jakiejkolwiek* określonej na nim
-relacji, *o ile* ta będzie *zwrotna* i *przechodnia* (zaraz wyjaśnię te terminy), bo wtedy ta
-relacja "sama" dostarczy nam strzałki identycznościowe, składalne strzałki będą składalne i
-składanie będzie łączne.
-
-Ponieważ taka relacja jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀
-x ∈ X, x ≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest
-*przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych
-strzałek istnieje strzałka kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić,
-czy ...
+liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ
+relacja `≤` jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀ x ∈ X, x ≤
+x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest *przechodnia*, to znaczy
+`∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych strzałek istnieje strzałka
+kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić, czy ...
 
 1. `f Id = f = Id f`
 
@@ -142,6 +136,13 @@ złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołoży
 uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskamy ... jedyną strzałkę z `X`
 do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę, a więc łączność
 składania zachodzi automatycznie.
+
+Zauważyłaś, że udowadniając, że z relacji `≤` można zrobić kategorię, korzystaliśmy *tylko* z tego,
+że ta relacja jest zwrotna i przechodnia? Nie było łatwo to zauważyć, prawda? A to jest ważne, bo
+wynika stąd, że w ten sposób możemy *zawsze* uzyskać cienką kategorię z *jakiegokolwiek* zbioru, nie
+tylko ze zbiorów liczb i z *jakiejkolwiek* określonej na tym zbiorze relacji, *o ile* ta będzie
+*zwrotna* i *przechodnia*, bo wtedy ta relacja "sama" dostarczy nam strzałki identycznościowe,
+składalne strzałki będą składalne i składanie będzie łączne.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
 składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować
