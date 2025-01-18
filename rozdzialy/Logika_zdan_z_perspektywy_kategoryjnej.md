@@ -516,9 +516,9 @@ zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących 
 podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem kartezjańskim zbiorów) i
 pojęciem koniunkcji w logice zdań.
 
-Koproduktami w tej kategorii są z kolei dokładnie wszystkie *alternatywy* zdań, które w dodatku
-zapisujemy prawie jak koniunkcję, tylko odwracając symbol `∧` do góry nogami, czyli jako `∨`. No i
-powiedz teraz, czy to wszystko nie jest niezwykle satysfakcjonujące?
+*Koproduktami* w tej kategorii są z kolei dokładnie wszystkie *alternatywy* zdań, które zapisujemy
+prawie jak koniunkcje, tylko odwracając symbol `∧` do góry nogami, czyli używając symbolu `∨`. No i
+powiedz teraz, czy jest coś bardziej praktycznego, niż dobra teoria?
 
 ### Przypisy
 
