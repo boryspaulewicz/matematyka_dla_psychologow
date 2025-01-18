@@ -269,11 +269,13 @@ kategoria tego rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejs
 bo słowa "lepszy" i "doskonały" mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób
 mówienia i myślenia ma intuicyjny sens.
 
-Nie jest prawdą (co nie znaczy, że jest nieprawdą, pamiętasz?), że strzałka `f` jest endostrzałką i
-przyda nam się odtąd nazwa na takie strzałki, żeby mówić o tym prościej, dlatego będę czasem nazywał
-takie strzałki *egzostrzałkami*. Egzostrzałką będzie więc taka strzałka, że jej źródło i cel to
-*inne punkty*, które *nie muszą oznaczać innych obiektów*, ale to akurat *nie będzie miało
-znaczenia*, kiedy będziemy się skupiać na tej własności strzałek.
+Strzałka `f` *jako taka* nie jest endostrzałką, bo łączy dwa *różne* punkty. Gdyby ta strzałka coś
+oznaczała, to w ogólnym przypadku musilibyśmy dopuścić możliwość, że te punkty oznaczają to samo,
+ale w tym wypadku ta strzałka niczego nie oznacza. Przyda nam się odtąd nazwa na takie strzałki,
+żeby mówić o tym prościej, dlatego będę czasem nazywał je *egzostrzałkami*. Egzostrzałką będzie więc
+taka strzałka, że jej źródło i cel to *inne punkty*, które co prawda w ogólnym przypadku *nie muszą
+oznaczać innych obiektów*, ale to akurat *nie będzie miało znaczenia*, kiedy będziemy się skupiać na
+tej własności strzałek.
 
 Struktury matematyczne (takie jak kategoria), które powstają w taki wymuszony przez ich definicje
 sposób (który tutaj polega na dodaniu identyczności i składania tak, żeby aksjomaty kategorii były
