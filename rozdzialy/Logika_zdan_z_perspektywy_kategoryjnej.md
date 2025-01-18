@@ -289,7 +289,9 @@ generowana przez jedną egzostrzałkę*.
 Jeżeli teraz *czysto formalnie*, czyli tak jakby dla zabawy, odwrócimy strzałkę `f` i zapiszemy ją
 jako `X ← Y`, to z takiej egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną
 wolną kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej
-struktury.
+struktury. Jak masz ochotę, możesz to sama sprawdzić, zresztą to jest niezłe ćwiczenie, bo nie jest
+szczególnie trudne, a na pewno sprawi, że będziesz trochę lepiej pamiętać pewne rzeczy i łatwiej Ci
+się będzie potem o nich myślało.
 
 A co gdyby punktem wyjścia był (statyczny, jak to graf) graf `A ← B → C`, gdzie strzałkę `A ← B`
 moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
