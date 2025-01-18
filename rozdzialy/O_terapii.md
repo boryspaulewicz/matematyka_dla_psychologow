@@ -24,7 +24,7 @@ do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemów interpretacyjny
 badaniach zawsze powstaj±.
 
 Poza tym nak³anianie terapeutów bior±cych udzia³ w tego rodzaju badaniach, ¿eby stosowali podej¶cie
-lub metodê, któr± badacz móg³by przydzielaæ losowo, bêdzie mia³o zawsze z konieczno¶ci rozmaite
+<lub metodê, któr± badacz móg³by przydzielaæ losowo, bêdzie mia³o zawsze z konieczno¶ci rozmaite
 powa¿ne ograniczenia. W tak przeprowadzonym badaniu interwencja i tak nie mog³aby dzia³aæ
 *selektywnie*, poniewa¿ skutek zastosowania okre¶lonej metody wynika³by w bli¿ej nieokre¶lony sposób
 miêdzy innymi z tego, jaki stosunek do tej metody ma dany terapeuta albo terapeutka, a osoby, które
@@ -40,8 +40,8 @@ stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
 To oczywi¶cie *nie* znaczy, ¿e terapia nie dzia³a, albo, ¿e dzia³a niezbyt skutecznie; to znaczy
 *tylko* tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie *nie sposób stwierdziæ*, jakie dok³adnie s± lub
 mog± byæ *skutki samych metod terapeutycznych*. Mi siê na przyk³ad *wydaje*, ¿e terapia dzia³a
-czêsto ca³kiem nie¼le, ale nikt nie ma obowi±zku s³uchaæ moich nie popartych niczym innym ni¿
-pewnymi wra¿eniami opinii. Pomijaj±c ju¿ to, jaki ba³agan panuje od niepamiêtnych czasów w
+czêsto ca³kiem nie¼le, ale (na szczê¶cie) nikt nie jest zmuszony s³uchaæ moich nie popartych niczym
+innym ni¿ pewnymi wra¿eniami opinii. Pomijaj±c ju¿ to, jaki ba³agan panuje od niepamiêtnych czasów w
 diagnozie zaburzeñ, wiedza na temat *mechanizmów dzia³ania* terapii jest tak skromna, ¿e praktycznie
 nikt siê nie dziwi na przyk³ad "poznawczym podstawom", okre¶lanej czêsto jako ["oparta na
 dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
