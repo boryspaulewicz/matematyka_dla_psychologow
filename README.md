@@ -220,7 +220,8 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R22 = R16 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/Produkty_sa_takie_same.md)
 
-[R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
+[R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨
+q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
 Notatki robocze do których można zaglądać:
 
