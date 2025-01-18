@@ -20,8 +20,8 @@ za¶lepienia. A to oznacza, ¿e *nie da siê* oddzieliæ wp³ywu *samej metody* od wp
 *tylko czê¶ciowo identyfikowalnych*[^3], a poza tym bli¿ej nieokre¶lonych czynników, takich jak na
 przyk³ad cechy osób, które decyduj± siê uczyæ danej metody. W koñcu to, jakie podej¶cie, szko³ê lub
 techniki stosuje terapeuta albo terapeutka wynika w bli¿ej nieokre¶lony sposób z cech osobowych i
-do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemu interpretacyjnego, który w takich
-badaniach zawsze powstaje.
+do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemów interpretacyjnych, które w takich
+badaniach zawsze powstaj±.
 
 Poza tym nak³anianie terapeutów bior±cych udzia³ w tego rodzaju badaniach, ¿eby stosowali podej¶cie
 lub metodê, któr± badacz móg³by przydzielaæ losowo, nie ma wiêkszego sensu. W tak przeprowadzonym
