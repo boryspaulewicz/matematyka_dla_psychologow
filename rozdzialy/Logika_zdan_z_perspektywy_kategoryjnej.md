@@ -341,13 +341,13 @@ Możemy wtedy przyjąć, że każda strzałka `f' : X -> Y` w kategorii `ℂ'` "
 "kryje pod sobą" złożenie `g f` w `ℂ`, któremu odpowiada *i vice versa*. Nie będzie trzeba dodawać
 apostrofów do nazw punktów w kategorii dualnej, bo punktów nie da się odwrócić.
 
-Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'` w tej dualnej kategorii
-złożenie `(c' b') a'` będzie odpowiadało złożeniu `a (b c) = (a b) c`, a złożenie `(a b) c` będzie
-odpowiadało złożeniu `c' (b' a')` w kategorii dualnej, a więc `(c' b') a' = c' (b' a')`. Łączność
-składania będzie więc zachowana. Identyczności pozostaną natomiast identycznościami, bo każda
-endostrzałka po odwróceniu pozostaje tą samą strzałką, a każde złożenie postaci `f Id = f` będzie
-odpowiadało analogicznemu złożeniu `Id' f' = f'` w kategorii dualnej i tak samo dla złożeń postaci
-`Id f`. 
+Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'`, złożenie `(c' b') a'`
+będzie odpowiadało (albo będzie wręcz równe) złożeniu `a (b c)`, które jest z założenia (że `ℂ` to
+kategoria) równe złożeniu `(a b) c`, a złożenie `(a b) c` będzie odpowiadało złożeniu `c' (b' a')` w
+`ℂ'`, a więc `(c' b') a' = c' (b' a')`. Łączność składania będzie więc zachowana. Identyczności
+pozostaną natomiast identycznościami, bo punkty "zostaną na swoich miejscach", każda endostrzałka po
+odwróceniu będzie tą samą strzałką, a każde złożenie postaci `f Id = f` będzie odpowiadało złożeniu
+`Id' f' = f'` w `ℂ'` i tak samo dla złożeń o postaci `Id f`.
 
 W przypadku kategorii skończonych, można zobaczyć, jak "działa" zasada dualności również w inny
 sposób. Zacznijmy od strzałek `a : X → Y`, `b : Y → Z`, `c : Z → V` i `d : X → U`. Ten graf to
