@@ -446,7 +446,7 @@ określeniem, ale dodając przedrostek *ko* (a po angielsku *co*, jak w pytaniu 
 być?*). Produkty pojawiają się w matematyce znacznie częściej niż koprodukty, dlatego właśnie w
 nazwie *produkt* przedrostek *ko* nie występuje.
 
-## Początek, koniec, produkt i koprodukt w logice zdań.
+## Początek, koniec, produkt i koprodukt w logice zdań
 
 Gdy tylko uda nam się znaleźć jakiś kategoryjny odpowiednik pojęcia, konstrukcji lub zdania w
 jakiejś opisanej jako kategoria przestrzeni (na przykład, kategoryjny odpowiednik zbioru pustego),
