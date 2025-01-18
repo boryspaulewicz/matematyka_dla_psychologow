@@ -141,8 +141,15 @@ Zauważyłaś, że udowadniając, że z relacji `≤` można zrobić kategorię,
 że ta relacja jest zwrotna i przechodnia? Nie było łatwo to zauważyć, prawda? A to jest ważne, bo
 wynika stąd, że w ten sposób możemy *zawsze* uzyskać cienką kategorię z *jakiegokolwiek* zbioru, nie
 tylko ze zbiorów liczb i z *jakiejkolwiek* określonej na tym zbiorze relacji, *o ile* ta będzie
-*zwrotna* i *przechodnia*, bo wtedy ta relacja "sama" dostarczy nam strzałki identycznościowe,
-składalne strzałki będą składalne i składanie będzie łączne.
+*zwrotna* i *przechodnia*, bo wtedy ta relacja ...
+
+1. ... "sama" dostarczy nam strzałki identycznościowe ...
+
+2. ... każdej parze składalnych strzałek będzie odpowiadała dokładnie jedna strzałka kompatybilna z
+   tą parą, ...
+
+3. ... a dzięki temu składanie będzie automatycznie łączne i strzałki identycznościowe będą
+   elementami neutralnymi ze względu na operację składania.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
 składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować
@@ -164,16 +171,17 @@ się wyrazić na takim diagramie podwójnego równania `Id f = f = f Id` za pomo
 byłoby na nim ani żadnych trójkątów, ani żadnych innych obszarów otoczonych skierowanymi ścieżkami
 równoległymi, w których takie ptaszki dałoby się zamknąć. Możemy jednak skorzystać z tego, że
 *punkty i strzałki na diagramie to jedno, a ich nazwy to co innego*, rysując diagram zawierający
-*kopie*.
+*kopie*. Bo kto nam zabroni?
 
 `Narysuj (Punkt X)`, a potem `Narysuj (Punkt Y) (SE X)`[^1]. O krok pod pierwszą kopią `Punkt X`
-również `Narysuj (Punkt X)` i połącz te dwie kopie skierowaną w dół strzałką o nazwie
-`Id`. Następnie `Narysuj (Strzalka X Y)` i oznacz ją jako `f`. O krok poniżej punktu `Y` `Narysuj`
-jego kopię i dodaj strzałkę identycznościową z górnego punktu `Y` do dolnego punktu `Y`. Dodaj
-strzałkę z dolnej kopii `X` do dolnej kopii `Y` i oznacz ją jako `f`. Na koniec oznacz ten diagram
-jako przemienny. W ten sposób można wyrazić *pojedyncze* równanie `Id f = f Id`. Jeżeli chcesz, żeby
-na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz dodać kopię strzałki `f`
-przecinającą ten diagram na pół i narysować po obydwu stronach tej strzałki ptaszki.
+(czyli w położeniu `S X`) również `Narysuj (Punkt X)` i połącz te dwie kopie skierowaną w dół
+strzałką o nazwie `Id`. Następnie `Narysuj (Strzalka X Y)` i oznacz ją jako `f`. O krok poniżej
+punktu `Y` `Narysuj` jego kopię i dodaj strzałkę identycznościową z górnego punktu `Y` do dolnego
+punktu `Y`. Dodaj strzałkę z dolnej kopii `X` do dolnej kopii `Y` i oznacz ją jako `f`. Na koniec
+oznacz ten diagram jako przemienny. W ten sposób można wyrazić *pojedyncze* równanie `Id f = f
+Id`. Jeżeli chcesz, żeby na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz
+dodać kopię strzałki `f` przecinającą ten diagram na pół i narysować po obydwu stronach tej strzałki
+ptaszki.
 
 Znanym Ci doskonale przykładem relacji, której nie można w ten sposób opisać jako kategorii bez
 różnych strzałek równoległych jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż* na
