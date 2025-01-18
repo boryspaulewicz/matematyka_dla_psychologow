@@ -328,14 +328,13 @@ jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na
 kategoria nad grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna kategoria nad
 grafem `A → B ← C`, nawet jeśli zignorujemy oznaczenia punktów i strzałek.
 
-To zjawisko ma charakter ogólniejszy, bo *każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy
-jakąś kategorię `ℂ`, to każdy punkt w tej kategorii musi mieć swoją identyczność, składalne strzałki
-muszą odpowiadać unikalnym złożeniom i operacja składania strzałek musi być łączna. Jeżeli teraz
-odwrócimy wszystkie strzałki w tej kategorii i - żeby się nie pogubić - oznaczymy te dualne
-odpowiedniki za pomocą apostrofów i zdefiniujemy *nową* operację składania w taki sposób, że dla
-każdych dwóch składalnych strzałek `f` i `g` w kategorii `ℂ`, złożeniem ich odwróconych
-odpowiednikow w kategorii dualnej do `ℂ` będzie `f' g'`, to uzyskamy pewną kategorię, a konkretnie
-kategorię dualną do `ℂ`.
+*Każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy jakąś kategorię `ℂ`, to każdy punkt w tej
+kategorii musi mieć swoją identyczność, składalne strzałki muszą odpowiadać unikalnym złożeniom i
+operacja składania strzałek musi być łączna. Jeżeli teraz odwrócimy wszystkie strzałki w tej
+kategorii i - żeby się nie pogubić - oznaczymy te dualne odpowiedniki za pomocą apostrofów i
+zdefiniujemy *nową* operację składania w taki sposób, że dla każdych dwóch składalnych strzałek `f`
+i `g` w kategorii `ℂ`, złożeniem ich odwróconych odpowiednikow w kategorii dualnej do `ℂ` będzie `f'
+g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do `ℂ`.
 
 Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'` w tej dualnej kategorii
 złożenie `(c' b') a'` będzie odpowiadało złożeniu `a (b c) = (a b) c`, a złożenie `(a b) c` będzie
