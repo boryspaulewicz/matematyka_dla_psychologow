@@ -94,7 +94,9 @@ wszystkim od osobowo¶ci i do¶wiadczeñ osobistych terapeutki albo terapeuty, poni
 innymi zale¿y w niebagatelnym stopniu to, w jaki sposób i z kim terapeutka lub terapeuta jest w
 stanie rozmawiaæ na trudne i osobiste tematy.
 
-Mo¿emy ju¿
+Podkre¶lam, ¿e wszystkie te wnioski wynikaj± naturalnie z formalnej teorii przyczynowo¶ci i
+formalnej definicji zadania (i zwi±zanego ze szczególnym charakterem tej definicji sposobu my¶lenia
+o podmiotowo¶ci), których jeszcze nie wprowadzi³em. Mo¿emy ju¿
 [wróciæ](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
 do g³ównego w±tku.
 
