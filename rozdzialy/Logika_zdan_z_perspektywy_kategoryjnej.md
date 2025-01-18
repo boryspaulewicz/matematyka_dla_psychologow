@@ -399,8 +399,8 @@ który możemy oznaczyć jako `X + Y`, że istnieją strzałki `i₁` i `i₂`, 
 produktu) takie, że dla każdej pary strzałek `f` i `g` *z* `X` i `Y` *do* jakiegoś `Z` odpowiednio
 (kolejne odwrócenie strzałek) istnieje unikalna strzałka `f+g` (ale uwaga, bardzo różnie się to
 zapisuje) *z* `X + Y` *do* `Z` (kolejne odwrócenie) taka, że `f+g i₁ = f` i `f+g i₂ = g` (odwrócenie
-wszystkich złożeń wymuszone przez odwrócenie wszystkich strzałek). Żeby to było łatwiej zobaczyć,
-zapiszę te dwie definicje formalnie:
+złożeń wymuszone przez odwrócenie wszystkich strzałek). Żeby to było łatwiej zobaczyć, zapiszę te
+dwie definicje formalnie:
 
 `∀ Z : Set, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y, π₁ ⟨f,g⟩ = f ∧ π₂ ⟨f,g⟩ = g`
 
