@@ -182,9 +182,9 @@ ten diagram jako przemienny. W ten sposób można wyrazić *pojedyncze* równani
 chcesz, żeby na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz dodać kopię
 strzałki `f` przecinającą ten diagram na pół i narysować po obydwu stronach tej strzałki ptaszki.
 
-Znanym Ci doskonale przykładem relacji, której nie można w ten sposób opisać jako kategorii bez
-różnych strzałek równoległych jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż* na
-jakimś zbiorze liczb, ponieważ ta relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
+Znanym Ci doskonale przykładem relacji, której *nie* można w ten wyrazić jako (cienkiej) kategorii
+jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż* na jakimś zbiorze liczb, ponieważ ta
+relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
 liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzrotność relacji), bo żadna
 liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
