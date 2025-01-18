@@ -358,8 +358,8 @@ wygenerujemy wolną kategorię nad tym grafem inaczej.
 prawej. Zaczynając z góry oznacz z lewej strony kolejne rzędy jako `a`, `b`, `c` i `d` i tak samo
 oznacz kolejne kolumny. Każda kratka w tej tabelce będzie złożeniem strzałki o tej samej nazwie co
 nazwa rzędu tej kratki ze strzałką o tej samej nazwie co nazwa kolumny tej kratki. Pomijamy więc
-tutaj elementy neutralne, bo nie musimy ich oznaczać, bo to są w pewnym sensie tylko punkty jako
-(charakterystyczne) strzałki.
+tutaj elementy neutralne, bo nie musimy ich oznaczać, bo to są w pewnym sensie tylko punkty (jako
+specjalne strzałki).
 
 Na naszym grafie nie ma żadnych endostrzałek, a więc kratki na przekątnej pozostaną puste. Nie ma
 też na tym grafie żadnej strzałki kompatybilnej ze strzałkami `a` i `b`, a więc musimy dodać nową
