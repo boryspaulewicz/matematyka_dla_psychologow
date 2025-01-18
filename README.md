@@ -32,10 +32,12 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-**Aktualności**: 15 stycznia. Dodałem właśnie nowy rozdział 22-16 pod zachęcającym tytułem [X ← '∘ →
-Y ≅! X ← ∘' → Y](./rozdzialy/Produkty_sa_takie_same.md). Czytelniczki i czytelników, *którzy mają
-już za sobą co najmniej rozdziały od R4 do R8=R02 i od R19=R13 do R21=R15*, zapraszam do testowania,
-zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
+**Aktualności**: 18 stycznia. Dodałem właśnie nowy rozdział R23=R17 pod zachęcającym tytułem  
+[p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨
+q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md).  
+Czytelniczki i czytelników, *którzy mają już za sobą co najmniej rozdziały od R4 do R17=R11 i od
+R19=R13 do R22=R16*, zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek
+spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
