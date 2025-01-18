@@ -376,7 +376,7 @@ skończona, będziesz mogła uzyskać dualną wersję uzyskanej w ten sposób wo
 transponując tą tabelkę, to znaczy rysując nową tabelkę taką, że to, co było w oryginalnej tabelce w
 kratce `(i,j)`, gdzie `i` i `j` to nazwy jakiś strzałek w oryginalnej kategorii, będzie w tej nowej
 tablce w kratce `(j,i)`. Wtedy też będzie widać jak na dłoni (albo jak na kartce), że kategoria
-dualna, chociaż nie musi być taka sama, jest jednak w pewnym ogólniejszym sensie taka sama.
+dualna, chociaż nie musi być całkiem taka sama, jest jednak w pewnym ogólniejszym sensie taka sama.
 
 Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy wszystkich
 konstrukcji z obiektów i strzałek i wszystkich konstrukcji opartych na złożeniach, czyli *wszystkich
