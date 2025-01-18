@@ -512,7 +512,7 @@ i ten dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R 
 implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając strzałki `P → Q` i `P → R`
 odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par różnych
 równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para uporządkowana
-zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami, co dodatkowo
+zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami, co jeszcze
 podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem kartezjańskim zbiorów) i
 pojęciem koniunkcji w logice zdań.
 
