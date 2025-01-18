@@ -247,7 +247,7 @@ przestrzeń zbiorów i funkcji) dokładnie iloczyny kartezjańskie zbiorów. Poz
 produkt to tak naprawdę para współźródłowych strzałek, spełniająca wymienione w definicji wymagania,
 ale często wygodniej jest mówić o produktach jako o obiektach, czyli w naszej terminologii punktach.
 
-## Wolne konstrukcje
+## Wolne żarty
 
 Popatrzymy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
 interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli to ma być kategoria, punkty `X` i
