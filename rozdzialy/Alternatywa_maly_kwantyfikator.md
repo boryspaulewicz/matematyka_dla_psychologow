@@ -1,4 +1,9 @@
 # ∨ ~ ∃
+
+Zacznę od ogólnego wstępu, ale jeżeli ten wstęp wyda Ci się początkowo trudny do zrozumienia, możesz
+śmiało przejść do części dotyczącej praktyki dowodzenia za pomocą alternatywy i potem tu wrócić. Jak
+zawsze czytając o złożonych kwestiach technicznych, nie warto próbować zrozumieć wszystko po kolei.
+
 W Leanie `∨` to tylko lukier składniowy pod którym kryje się stała `Or`, oznaczająca indukcyjny typ
 danych zdefiniowany w taki oto sposób:
 
@@ -50,7 +55,26 @@ Mówiąc krótko, jeżeli `a` i `b` to zdania, to dowodem zdania `Or a b`, któr
 zdania `b`. A więc jeżeli `a` i `b` to zdania, to `Or a b` jest trochę jak zbiór będący sumą
 rozłączną zbiorów, którego elementami są dokładnie dowody `a` oznaczone tak, żeby nie mogły być
 równe żadnemu dowodowi `b` i dowody `b` oznaczone tak, żeby nie mogły być równe żadnemu dowodowi
-`a`. Widzimy więc, że alternatywa logiczna to szczególny przypadek koproduktu.
+`a`. Widzimy więc, że alternatywa logiczna to szczególny przypadek koproduktu, czyli (z perspektywy
+kategoryjnej) "wywrócona na drugą stronę" koniunkcja.
+
+Tą dualność widać zarówno w sposobie, w jaki dowodzimy koniunkcji i alternatywy, czyli w regułach
+ich wprowadzenia tego rodzaju zdań, jak i w sposobie, w jaki ich używamy, czyli w regułach
+eliminacji. Co ciekawe, reguły eliminacji są dualne do reguł wprowadzania. 
+
+Niech `p`, `q` i `r` będą zdaniami. Żeby *udowodnić* zdanie `p \and q`, czyli wprowadzić je, być
+może jako ostatni krok (czyli cel), w konstruowanym dowodzie, trzeba dysponować jednocześnie dwoma
+dowodami, jednym dla zdania `p` i jednym dla zdania `q`. Żeby udowodnić `r` *dysponując* tylko
+dowodem zdania `p and q`, czyli żeby *zużyć* tą koniunkcję do udowodnienia `r`, trzeba wykazać, że
+`r` wynika z `p` *lub* z `q`. A więc w regule eliminacji koniunkcji pojawia się pojęcie alternatywy.
+
+Żeby udowodnić zdanie `p \or q`, trzeba dysponować dowodem `p` lub dowodem `q`. Żeby wykorzystać `p
+\or q` do udowodnienia `r`, trzeba udowodnić, że `r` wynika *zarówno z* `p` *jak i z* `q`, ponieważ
+stąd, że mamy *jakiś* dowód `p \or q` nie da się jeszcze wywnioskować, *która* z tych alternatyw
+jest prawdziwa. A więc w regule eliminacji alternatywy pojawia się pojęce koniunkcji. Wydaje mi się,
+że zauważanie tej dualności ułatwia zapamiętanie obydwu rodzajów reguł dla koniunkcji i alternatywy.
+Dzięki zrozumieniu tej dualności wystarczy zapamiętać *tylko* reguły dedukcji dla koniunkcji (albo
+dla alternatywy).
 
 
 TODO Objaśnienie tej definicji. Napisać też coś o tym, że tu są parametry w konstruktorach i co z
