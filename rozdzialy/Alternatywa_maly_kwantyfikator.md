@@ -4,11 +4,9 @@ danych zdefiniowany w taki oto sposób:
 
 ```lean
 inductive Or (a b : Prop) : Prop where
-  -- `Or.inl` to "lewa injekcja" w (koprodukt i jednocześnie typ) `Or`.
-  -- Jeżeli `h : a`, to `Or.inl h : a ∨ b`.
+  -- `Or.inl` to "lewa injekcja" w (koprodukt i jednocześnie typ) `Or`. Jeżeli `h : a`, to `Or.inl h : a ∨ b`.
   | inl (h : a) : Or a b
-  -- `Or.inr` to "prawa injekcja" w `Or`.
-  -- Jeżeli `h : b`, to `Or.inr h : a ∨ b`.
+  -- `Or.inr` to "prawa injekcja" w `Or`. Jeżeli `h : b`, to `Or.inr h : a ∨ b`.
   | inr (h : b) : Or a b
 ```
 
