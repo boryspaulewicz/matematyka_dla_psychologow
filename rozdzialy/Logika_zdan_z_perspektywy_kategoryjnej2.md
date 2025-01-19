@@ -49,11 +49,11 @@ dualne względem siebie rodzaje konstrukcji i udowadniając *jedno* zdanie wyra�
 kategorii automatycznie udowadniamy *dwa* dualne względem siebie zdania.
 
 Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić. Na
-szczęście, rzadko pracujemy z całymi dualnymi kategoriami; skupiamy się raczej na wybranych
-fragmentach albo własnościach jakiejś kategorii, na przykład na konkretnych rodzajach konstrukcji,
-takich jak obiekt początkowy, albo na konkretnych twierdzeniach i odwracamy strzałki i złożenia
-tylko lokalnie, w ramach opisów tych konstrukcji, własności albo twierdzeń, tak jak to robimy w tym
-rozdziale.
+szczęście, rzadko rozważamy całe dualne kategorie; na ogół skupiamy się raczej na wybranych
+fragmentach albo własnościach jakiejś kategorii, na przykład na konkretnych rodzajach struktur
+wewnątrz kategorii, takich jak obiekt początkowy, albo na konkretnych twierdzeniach i odwracamy
+strzałki i złożenia tylko w ramach opisów tych konstrukcji, własności albo twierdzeń, tak jak to
+robimy w tym rozdziale.
 
 Jeżeli teraz odwrócisz wszystkie strzałki i złożenia (a tam akurat są jakieś złożenia) w definicji
 *produktu*, to uzyskasz definicję *koproduktu*: Koproduktem obiektów `X` i `Y` nazywamy taki obiekt,
