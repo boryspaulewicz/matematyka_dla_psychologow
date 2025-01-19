@@ -224,7 +224,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
 Plac budowy:  
-R24 = R18 ∨ & ∃
+R24 = R18 ∨ ~ ∃
 
 Notatki robocze do których można zaglądać:
 

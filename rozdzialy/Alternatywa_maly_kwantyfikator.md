@@ -1,4 +1,4 @@
-# ∨ i ∃
+# ∨ ~ ∃
 W Leanie `∨` to tylko lukier składniowy pod którym kryje się stała `Or`, oznaczająca indukcyjny typ
 danych zdefiniowany w taki oto sposób:
 
