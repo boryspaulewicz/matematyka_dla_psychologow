@@ -382,7 +382,8 @@ jak inni"[^10] jest *między innymi* pewnym *specyficznym* rodzajem zachowania, 
 tego bogatego spektrum różnorodnych zachowań, które nazywamy nastrojem. I chociaż to, jakie ten
 latentny w znaczeniu zawsze tylko *częściowo obserwowalny* repertuar zachowań ma własności *wynika
 częściowo* z aktualnej struktury mózgu, to *nie* jest własnością samego mózgu, bo jest czymś, co
-istnieje *w środowisku*.
+istnieje *w środowisku*, a mówiąc dokładniej jest relatywną, bo zależną od *wyboru* opisu w
+kategoriach celów albo zadań własnością przyczynowych relacji między ciałem i resztą środowiska.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
