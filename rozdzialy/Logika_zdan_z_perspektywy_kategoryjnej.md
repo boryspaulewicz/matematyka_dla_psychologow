@@ -344,7 +344,7 @@ uproszczenia pomijając kwantyfikatory):
 
 1. Kategorie dualne `ℂ` i `ℂ'` mają te same punkty.
 
-2. `f` jest strzałką w `ℂ` z `X` do `Y` wtedy i tylko wtedy, gdy `f'` jest strzałką w `ℂ` z `Y` do
+2. `f` jest strzałką w `ℂ` z `X` do `Y` wtedy i tylko wtedy, gdy `f'` jest strzałką w `ℂ'` z `Y` do
    `X`.
 
 3. `f g = h` wtedy i tylko wtedy, gdy `g' f' = h'`
