@@ -373,11 +373,16 @@ oczekiwana](https://pl.wikipedia.org/wiki/Warto%C5%9B%C4%87_oczekiwana) wyniku t
 absurdalny jako podstawa - nieosiągalnej - czysto *przyczynowej* teorii pomiaru psychologicznego,
 jest jednak w innym, właściwym znaczeniu uzasadniony, ponieważ pasuje do interpretacji wyniku testu
 psychometrycznego jako *funkcji niereprezentatywnej próby względnie dobrze określonego rodzaju
-zachowań*. Przecież rezultaty prób rozwiązania zadań w teście inteligencji po prostu *są*
-rezultatami *specyficznych* zachowań inteligentnych (ale dopuszczają też inne interpretacje). Tak
-samo udzielenie odpowiedzi na skądinąd dosyć zagadkowe pytanie, czy "chciałoby się być tak
-szczęśliwym jak inni"[^10] jest *między innymi* pewnym *specyficznym* rodzajem zachowania, będącego
-*częścią* tego bogatego spektrum różnorodnych zachowań, które nazywamy nastrojem.
+zachowań*. 
+
+Przecież rezultaty prób rozwiązania zadań w teście inteligencji po prostu *są* rezultatami
+*specyficznych* zachowań inteligentnych (ale dopuszczają też inne interpretacje). Tak samo
+udzielenie odpowiedzi na skądinąd dosyć zagadkowe pytanie, czy "chciałoby się być tak szczęśliwym
+jak inni"[^10] jest *między innymi* pewnym *specyficznym* rodzajem zachowania, będącego *częścią*
+tego bogatego spektrum różnorodnych zachowań, które nazywamy nastrojem. I chociaż to, jakie ten
+latentny w znaczeniu zawsze tylko *częściowo obserwowalny* repertuar zachowań ma własności *wynika
+częściowo* z aktualnej struktury mózgu, to *nie* jest własnością samego mózgu, bo jest czymś, co
+istnieje *w środowisku*.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
