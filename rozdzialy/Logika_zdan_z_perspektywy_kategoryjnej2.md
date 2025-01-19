@@ -35,15 +35,21 @@ kratce `(i,j)`, gdzie `i` i `j` to nazwy jakiś strzałek w oryginalnej kategori
 tablce w kratce `(j,i)`. Wtedy też będzie widać jak na dłoni (albo jak na kartce), że kategoria
 dualna, chociaż nie musi być całkiem taka sama, jest jednak w pewnym ogólniejszym sensie taka sama.
 
+"Dualizowalność" konstrukcji wyrażonych w języku teorii kategorii można również opisać tak: Każda
+struktura w kategorii `ℂ` odpowiada swojemu dualnemu odpowiednikowi (mhm) w kategorii `ℂ'` dualnej
+do `ℂ` i vice versa. A więc na przykład każdemu punktowi (mówi "się" obiektowi) początkowemu i
+każdemu produktowi w `ℂ` odpowiada dokładnie jeden obiekt końcowy i koprodukt w `ℂ'` odpowiednio, i
+tak samo dla każdej innej konstrukcji strzałkowo-złożeniowej.
+
 Kategorie występują więc zawsze w (dualnych) parach i zasada dualności dotyczy wszystkich
 konstrukcji z obiektów i strzałek i wszystkich konstrukcji opartych na złożeniach, czyli *wszystkich
 definicji i zdań w języku teorii kategorii*, w tym również wszystkich (całych) kategorii. A to
 znaczy, że definiując *jeden* rodzaj konstrukcji kategoryjnej, automatycznie definiujemy *dwa*
-dualne względem siebie rodzaje konstrukcji i udowadniając jakiekolwiek *jedno* zdanie wyrażone w
-języku teorii kategorii automatycznie udowadniamy *dwa* dualne względem siebie zdania.
+dualne względem siebie rodzaje konstrukcji i udowadniając *jedno* zdanie wyrażone w języku teorii
+kategorii automatycznie udowadniamy *dwa* dualne względem siebie zdania.
 
 Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić. Na
-szczęście, zwykle nie pracujemy z całymi dualnymi kategoriami tylko skupiamy się na wybranych
+szczęście, rzadko pracujemy z całymi dualnymi kategoriami; skupiamy się raczej na wybranych
 fragmentach albo własnościach jakiejś kategorii, na przykład na konkretnych rodzajach konstrukcji,
 takich jak obiekt początkowy, albo na konkretnych twierdzeniach i odwracamy strzałki i złożenia
 tylko lokalnie, w ramach opisów tych konstrukcji, własności albo twierdzeń, tak jak to robimy w tym
