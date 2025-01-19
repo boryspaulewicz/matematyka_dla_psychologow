@@ -344,15 +344,15 @@ zewnętrznego obserwatora*.
 W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
 
 Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru
-psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha* jest zwykle
+psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha*, podobnie jak oparte na
+tych samych własnościach danych miary dopasowania modelu jednoczynnikowego, jest zwykle
 interpretowana jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko
 jednej zmiennej nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią
-wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest zwyczajnie niedorzeczna, o
-czym zresztą wspominają[^1], jakby mimochodem, autorzy niektórych współczesnych podręczników
-dotyczących modelowania równań strukturalnych, bo w tych nowszych podręcznikach (na przykład w
+wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest niedorzeczna, o czym zresztą
+wspominają[^1], jakby mimochodem, autorzy niektórych współczesnych podręczników dotyczących
+modelowania równań strukturalnych, bo w tych nowszych podręcznikach (na przykład w
 [tym](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH)),
-teoria wnioskowania przyczynowego jest (słusznie) traktowana jako *źródło sensu* wszystkich tego
-rodzaju modeli. 
+teoria wnioskowania przyczynowego jest (słusznie) traktowana jako źródło sensu tego rodzaju modeli.
 
 Ten sam wskaźnik ma jednak zarazem oczywisty sens z perspektywy zadanio-centrycznej: Ponieważ, jak
 łatwo się przekonać przyglądając się [*formalnej
@@ -363,7 +363,7 @@ niedoskonały, ale jednak *teoretycznie uzasadniony* wskaźnik *stopnia, w jakim
 zadanie udzielenia odpowiedzi na pozycje testowe*. Z tego punktu widzenia wysoka wartość α Cronbacha
 świadczy więc *przede wszystkim* o tym, że dzięki długotrwałemu i intensywnemu procesowi uczenia się
 społecznego większość osób badanych stała się kompetentnymi użytkownikami języka w którym zapisane
-są pytania i dlatego obserwowane odpowiedzi są względnie spójne.
+są jakieś blisko związane treściowo pytania i dlatego obserwowane odpowiedzi są względnie spójne.
 
 Zobaczymy, że z tej perspektywy centralny pomysł Lorda i Novicka, leżący u podstaw [klasycznej
 teorii testów](https://en.wikipedia.org/wiki/Classical_test_theory), polegający na [*definicyjnym
