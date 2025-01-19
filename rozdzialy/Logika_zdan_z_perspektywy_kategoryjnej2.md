@@ -1,10 +1,10 @@
 Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'`, złożenie `(c' b') a'`
 będzie odpowiadało złożeniu `a (b c)`, które jest z założenia (że `ℂ` to kategoria) równe złożeniu
 `(a b) c`, a złożenie `(a b) c` będzie odpowiadało złożeniu `c' (b' a')` w `ℂ'`, a więc `(c' b') a'
-= c' (b' a')`. Łączność składania będzie więc zachowana. Identyczności pozostaną natomiast
-identycznościami, bo punkty "zostaną na swoich miejscach", każda endostrzałka po odwróceniu będzie
-(niemal, bo to dwie różne kategorie) tą samą strzałką, a każde złożenie postaci `f Id = f` będzie
-odpowiadało złożeniu `Id' f' = f'` w `ℂ'` i tak samo dla złożeń o postaci `Id f`.
+= c' (b' a')`. Łączność składania będzie więc zachowana. Identyczności pozostaną natomiast niemal
+tymi samymi identycznościami, bo punkty "zostaną na swoich miejscach", każda endostrzałka po
+odwróceniu będzie (niemal, bo to dwie różne kategorie) tą samą strzałką, a każde złożenie postaci `f
+Id = f` będzie odpowiadało złożeniu `Id' f' = f'` w `ℂ'` i tak samo dla złożeń o postaci `Id f`.
 
 W przypadku kategorii skończonych, można zobaczyć, jak "działa" zasada dualności również w inny
 sposób. Zacznijmy od strzałek `a : X → Y`, `b : Y → Z`, `c : Z → V` i `d : X → U`. Ten graf to
