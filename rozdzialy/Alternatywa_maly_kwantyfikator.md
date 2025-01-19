@@ -22,14 +22,18 @@ termy powstają albo jako (`|`) *same, nieredukowalne aplikacje* o postaci `Or.i
 b`, albo jako (`|`) aplikacje `Or.inr (h : b)` typu `Or a b`. 
 
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
-takie* termy są termami typu `Or a b` i termy, które powstają z dowodów *różnych* zdań lub są
-aplikacją *różnych* konstruktorów (tutaj konstruktorami są `Or.inl` i `Or.inr`) są *różne*. Na tym
-polega *indukcyjność* tej definicji. Definicje `True` i `False` są w takim samym znaczeniu
-indukcyjne, ale te dwie definicje nie są parametryczne i `False` nie ma żadnego konstruktora, a
-`True` ma tylko jeden.
+takie* termy są termami typu `Or`. Ponadto zdania o postaci `Or a b`, które nie powstają z tych
+samych zdań, są różnymi zdaniami. Dowody będące aplikacjami *różnych* konstruktorów (tutaj
+konstruktorami są `Or.inl` i `Or.inr`) *nie* są jednak różne, ale *tylko* z powodu zasady *proof
+irrelevance*. Na tym polega *indukcyjność* tej definicji. Definicje `True` i `False` są w takim
+samym znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne i `False` nie ma
+konstruktora, a `True` ma tylko konstruktor `True.intro`.
 
 Ta definicja jest również [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition)
-(inaczej *rekursywna*), bo jest przepisem tworzenia (pewnego rodzaju) *zdań ze zdań*:
+(inaczej *rekursywna*), bo jest *przepisem tworzenia* (pewnego rodzaju) *zdań ze zdań*, czyli
+pewnego rodzaju obiektów czy struktur z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność
+definicji jest więc czymś w rodzaju niegroźnej
+["kołowatości"](https://en.wikipedia.org/wiki/Circular_definition)[^1].
 
 *Jeżeli* `a` *i* `b` *to zdania, to* `Or a b` *jest zdaniem*.
 
@@ -53,3 +57,8 @@ TODO Objaśnienie tej definicji. Napisać też coś o tym, że tu są parametry 
 tego wynika.
 
 TODO O tym dlaczego mówimy czasem indukcyjny typ danych.
+
+### Przypisy
+
+[^1]: [Polska wersja](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu) tego
+    artykułu (strony Wikipedii nazywamy oficialnie artykułami) jest niestety dosyć słaba.
