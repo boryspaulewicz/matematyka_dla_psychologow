@@ -223,6 +223,9 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 [R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨
 q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
+Plac budowy:  
+R24 = R18 ∨ & ∃
+
 Notatki robocze do których można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
