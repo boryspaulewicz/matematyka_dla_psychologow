@@ -60,13 +60,13 @@ principle works everywhere.</p>&mdash; blue (@bluewmist) <a
 href="https://twitter.com/bluewmist/status/1873281405100408867?ref_src=twsrc%5Etfw">29 grudnia
 2024</a></blockquote>
 
-Widząc tempo zachodzących zmian, możesz zobaczyć, że - przynajmniej na razie - dokądś *biegnę*. I
-ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu pasuje:
+I ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu pasuje:
 
 > If you want to master something, teach it.
 
-Jeżeli więc chcesz dostawać wiadomości na temat aktualizacji i być może dodać coś od siebie, wyślij
-mi wiadomość, dopiszę Cię wtedy do listy adresatów.
+Jeżeli więc chcesz się ze mną dokądś przebiec, przejść, dowlec, albo doczłapać i przy okazji
+dostawać wiadomości na temat aktualizacji, a czasem być może dodać coś od siebie, wyślij mi
+wiadomość, dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
