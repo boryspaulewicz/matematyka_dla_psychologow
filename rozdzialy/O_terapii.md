@@ -4,7 +4,7 @@ Muszê jednak zaznaczyæ, ¿e to bêd± ca³kiem amatorskie uwagi, poniewa¿ tak jak o 
 psychologii poznawczej co¶ tam wiem, tak *o psychologii klinicznej i psychoterapii wiem bardzo
 niewiele*. Dlatego zacznê od metodologii badañ i psychologii poznawczej.
 
-Badanie skuteczno¶ci *okre¶lonych metod* terapii jest jak wiadomo niemal niemo¿liwe. Tak zwanym
+Badanie skutków *okre¶lonych metod* terapii jest jak wiadomo niemal niemo¿liwe. Tak zwanym
 "z³otym standardem" w badaniach dotycz±cych skuteczno¶ci arbitralnych interwencji terapeutycznych
 jest badanie randomizowane z [podwójnym
 za¶lepieniem]([za¶lepienia](https://en.wikipedia.org/wiki/Blinded_experiment)). Podajemy na przyk³ad
