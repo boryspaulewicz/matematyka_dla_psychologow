@@ -351,7 +351,7 @@ uproszczenia pomijając kwantyfikatory):
 
 **Sugestia**: Może masz ochotę spróbować udowodnić, że `Id' f' = f' = f' Id'`? To ostatnia szansa,
 żeby zrobić to całkiem samodzielnie, bo [za chwilę
-powiem](Logika_zdan_z_perspektywy_kategoryjnej.md), skąd to wynika.
+powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), skąd to wynika.
 
 ### Przypisy
 
