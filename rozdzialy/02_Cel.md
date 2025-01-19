@@ -374,10 +374,10 @@ absurdalny jako podstawa - nieosiągalnej - czysto *przyczynowej* teorii pomiaru
 jest jednak w innym, właściwym znaczeniu uzasadniony, ponieważ pasuje do interpretacji wyniku testu
 psychometrycznego jako *funkcji niereprezentatywnej próby względnie dobrze określonego rodzaju
 zachowań*. Przecież rezultaty prób rozwiązania zadań w teście inteligencji po prostu *są*
-rezultatami *specyficznych* zachowań inteligentnych, a udzielenie na skądinąd dosyć zagadkowe
-pytanie, czy "chciałoby się być tak szczęśliwym jak inni" jest *między innymi* pewnym *specyficznym*
-rodzajem zachowania, będącego *częścią* tego bogatego spektrum różnorodnych zachowań, które nazywamy
-nastrojem.
+rezultatami *specyficznych* zachowań inteligentnych (ale dopuszczają też inne interpretacje). Tak
+samo udzielenie odpowiedzi na skądinąd dosyć zagadkowe pytanie, czy "chciałoby się być tak
+szczęśliwym jak inni"[^10] jest *między innymi* pewnym *specyficznym* rodzajem zachowania, będącego
+*częścią* tego bogatego spektrum różnorodnych zachowań, które nazywamy nastrojem.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
@@ -527,3 +527,6 @@ poziomie szkoły podstawowej*](Pierwszy_spacerek.md).
     pytania](https://onlinelibrary.wiley.com/doi/full/10.1002/icd.2295) i jeszcze piszą o tych z
     góry skazanych na niepowodzenie próbach artykuły
     ["naukowe"](https://en.wikipedia.org/wiki/Cargo_cult).
+
+[^10]: To pytanie można znaleźć w teście STAI, który jest do dzisiaj używany jako jedna z miar lęku
+    stanu i lęku cechy.
