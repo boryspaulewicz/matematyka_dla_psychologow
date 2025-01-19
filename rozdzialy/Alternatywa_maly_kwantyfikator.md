@@ -23,10 +23,12 @@ dwóch parametrach `a` i `b` typu `Prop` (`Or (a b : Prop)`) jako typ takich ter
 termy powstają albo jako (`|`) *same, nieredukowalne aplikacje* o postaci `Or.inl (h a)` typu `Or a
 b`, albo jako (`|`) aplikacje `Or.inr (h : b)` typu `Or a b`. 
 
-Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że wszystkie takie i tylko
-takie termy są termami typu `Or a b` i termy, które powstają z dowodów różnych zdań lub są aplikacją
-różnych konstruktorów (tutaj konstruktorami są `Or.inl` i `Or.inr`) są różne. Na tym polega
-*indukcyjność* tej definicji. Definicje `True` i `False` są w takim samym znaczeniu indukcyjne.
+Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
+takie* termy są termami typu `Or a b` i termy, które powstają z dowodów *różnych* zdań lub są
+aplikacją *różnych* konstruktorów (tutaj konstruktorami są `Or.inl` i `Or.inr`) są *różne*. Na tym
+polega *indukcyjność* tej definicji. Definicje `True` i `False` są w takim samym znaczeniu
+indukcyjne, ale te dwie definicje nie są parametryczne i `False` nie ma żadnego konstruktora, a
+`True` ma tylko jeden.
 
 Ta definicja jest również [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition)
 (inaczej *rekursywna*), bo jest przepisem tworzenia (pewnego rodzaju) *zdań ze zdań*:
