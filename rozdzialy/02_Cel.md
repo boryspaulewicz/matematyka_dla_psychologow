@@ -371,9 +371,13 @@ utożsamieniu*](https://www.cambridge.org/core/books/measuring-the-mind/1DB84F33
 wartości mierzonej przez test z czysto statystyczną własnością jaką jest [wartość
 oczekiwana](https://pl.wikipedia.org/wiki/Warto%C5%9B%C4%87_oczekiwana) wyniku testu, chociaż
 absurdalny jako podstawa - nieosiągalnej - czysto *przyczynowej* teorii pomiaru psychologicznego,
-jest jednak w innym, właściwym znaczeniu uzasadniony, ponieważ pozwala rozumieć wynik testu
-psychometrycznego jako *funkcję niereprezentatywnej próby względnie dobrze określonego rodzaju
-zachowań*.
+jest jednak w innym, właściwym znaczeniu uzasadniony, ponieważ pasuje do interpretacji wyniku testu
+psychometrycznego jako *funkcji niereprezentatywnej próby względnie dobrze określonego rodzaju
+zachowań*. Przecież rezultaty prób rozwiązania zadań w teście inteligencji po prostu *są*
+rezultatami *specyficznych* zachowań inteligentnych, a udzielenie na skądinąd dosyć zagadkowe
+pytanie, czy "chciałoby się być tak szczęśliwym jak inni" jest *między innymi* pewnym *specyficznym*
+rodzajem zachowania, będącego *częścią* tego bogatego spektrum różnorodnych zachowań, które nazywamy
+nastrojem.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
