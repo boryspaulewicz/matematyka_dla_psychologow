@@ -54,7 +54,7 @@ zdania* `Or a b`.
 `Or a b`.
 
 Mówiąc krótko, jeżeli `a` i `b` to zdania, to dowodem zdania `Or a b`, które to zdanie zapisujemy
-zwykle jako `a \or b`, jest *albo* oznaczony jako `Or.inl` dowód zdania `a`, *albo* oznaczony jako
+zwykle jako `a ∨ b`, jest *albo* oznaczony jako `Or.inl` dowód zdania `a`, *albo* oznaczony jako
 `Or.inr` dowód zdania `b`. A więc jeżeli `a` i `b` to zdania, to `Or a b` jest trochę jak zbiór
 będący sumą rozłączną zbiorów (z powodu zasady nieważności dowodów jednoelementowych), którego
 elementami są dokładnie dowody `a` oznaczone tak, żeby nie mogły być równe żadnemu dowodowi `b` i
@@ -67,20 +67,20 @@ Tą dualność widać zarówno w sposobie, w jaki dowodzimy koniunkcji i alterna
 wprowadzenia tego rodzaju zdań - jak i w sposobie, w jaki ich używamy, czyli w regułach
 eliminacji. W dodatku reguły eliminacji są dualne do reguł wprowadzania!
 
-Niech `p`, `q` i `r` będą jakimiś zdaniami. Żeby *udowodnić* zdanie `p \and q`, czyli je
-*wprowadzić*, być może jako ostatni krok (czyli cel), *w konstruowanym dowodzie*, trzeba dysponować
-*jednocześnie* dwoma dowodami, jednym dla zdania `p` *i* jednym dla zdania `q`. Żeby udowodnić `r`
-*dysponując* tylko dowodem zdania `p and q`, czyli żeby *wykorzystać* w dowodzie tą koniunkcję do
-udowodnienia `r`, trzeba wykazać, że `r` wynika z `p` *lub* z `q` (lub z obydwu tych zdań
-zakładanych jednocześnie, bo *lub*, tak jak rozumiemy to słowo w logice, dopuszcza też taką
-możliwość). A więc w regule wprowadzania koniunkcji pojawia się pojęcie koniunkcji, a w regule
-eliminacji koniunkcji pojawia się pojęcie alternatywy.
+Niech `p`, `q` i `r` będą jakimiś zdaniami. Żeby *udowodnić* zdanie `p ∧ q`, czyli je *wprowadzić*,
+być może jako ostatni krok (czyli cel), *w konstruowanym dowodzie*, trzeba dysponować *jednocześnie*
+dwoma dowodami, jednym dla zdania `p` *i* jednym dla zdania `q`. Żeby udowodnić `r` *dysponując*
+tylko dowodem zdania `p ∧ q`, czyli żeby *wykorzystać* w dowodzie tą koniunkcję do udowodnienia `r`,
+trzeba wykazać, że `r` wynika z `p` *lub* z `q` (lub z obydwu tych zdań zakładanych jednocześnie, bo
+*lub*, tak jak rozumiemy to słowo w logice, dopuszcza też taką możliwość). A więc w regule
+wprowadzania koniunkcji pojawia się pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się
+pojęcie alternatywy.
 
-Żeby *wprowadzić* zdanie `p \or q`, trzeba dysponować dowodem `p` *lub* dowodem `q`. Żeby
-*wykorzystać* `p \or q` do udowodnienia `r`, trzeba udowodnić, że `r` wynika *zarówno z* `p` *jak i
-z* `q`, ponieważ stąd, że mamy *jakiś* dowód `p \or q`, nie da się jeszcze wywnioskować, *która* z
-tych alternatyw jest prawdziwa. A więc w wprowadzania alternatywy pojawia się pojęcie alternatywy, a
-w regule eliminacji alternatywy pojawia się pojęce koniunkcji. Wydaje mi się, że zauważanie tej
+Żeby *wprowadzić* zdanie `p ∨ q`, trzeba dysponować dowodem `p` *lub* dowodem `q`. Żeby
+*wykorzystać* `p ∨ q` do udowodnienia `r`, trzeba udowodnić, że `r` wynika *zarówno z* `p` *jak i z*
+`q`, ponieważ stąd, że mamy *jakiś* dowód `p ∨ q`, nie da się jeszcze wywnioskować, *która* z tych
+alternatyw jest prawdziwa. A więc w wprowadzania alternatywy pojawia się pojęcie alternatywy, a w
+regule eliminacji alternatywy pojawia się pojęce koniunkcji. Wydaje mi się, że zauważanie tej
 dualności ułatwia zapamiętanie obydwu rodzajów reguł dla koniunkcji i alternatywy. Dzięki
 zrozumieniu jej wystarczy w zasadzie zapamiętać *tylko* reguły dedukcji dla koniunkcji (albo dla
 alternatywy). I w ten sposób dualność pozwala nam "zmniejszyć liczbę problemów o połowę".
