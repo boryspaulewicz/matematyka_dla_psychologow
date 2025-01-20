@@ -64,9 +64,9 @@ I ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu
 
 > If you want to master something, teach it.
 
-Jeżeli więc chcesz się ze mną dokądś przebiec, przejść, dowlec, albo doczłapać i przy okazji
-dostawać wiadomości na temat aktualizacji, a czasem być może dodać coś od siebie, wyślij mi
-wiadomość, dopiszę Cię wtedy do listy adresatów.
+Jeżeli więc chcesz się ze mną dokądś przejść, przebiec, dowlec, albo doczłapać i przy okazji
+dostawać wiadomości na temat aktualizacji, a czasem może dodać coś od siebie, wyślij mi wiadomość,
+dopiszę Cię wtedy do listy adresatów.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
