@@ -185,8 +185,8 @@ W tym samym znaczeniu strzałkową definicję alternatywy można natomiast skons
 ```lean
 def or (p q : Prop) : Prop := ∀ r : Prop, (p → r) → (q → r) → r
 
--- Zastosowałem bardziej deskryptywne nazwy parametrów, żeby łatwiej można było zrozumieć o co chodzi
--- w tych definicjach.
+-- Zastosowałem tutaj bardziej deskryptywne nazwy parametrów, żeby łatwiej można było zrozumieć o co
+-- chodzi w tych definicjach i znowu pominąłem zbędne typowanie i nieużywane nazwy parametrów.
 def or_in1 (p q : Prop) (hp : p) : or p q :=
   fun _ => fun hp_to_r => fun _ => hp_to_r hp
 
@@ -199,26 +199,33 @@ def or_in2 (p q : Prop) (hq : q) : or p q :=
 To, że koniunkcja ma jedną regułę wprowadzania i dwie reguły eliminacji, a alternatywa ma dwie
 reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją tego, że to są pojęcia dualne.
 
-Ta strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie
-zdanie, że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde
-zdanie, które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. To jest
-trudniejszy do spełnienia, a więc bardziej wymagający albo mocniejszy warunek niż wynikanie z
-łącznej prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc *mocniejszym* założeniem niż
-alternatywa złożona z tych samych zdań, *co znaczy*, że `p ∧ q` wynika `p ∨ q`, ale nie odwrotnie,
-czyli z koniunkcji można wywnioskować zawsze *co najmniej* to samo, co z alternatywy złożonej z tych
-samych zdań.
+Strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie zdanie,
+że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde zdanie,
+które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. To jest trudniejszy do
+spełnienia, a więc bardziej wymagający albo mocniejszy warunek niż wynikanie z łącznej prawdziwości
+zdań `p` i `q`. Koniunkcja zdań jest więc *mocniejszym* założeniem niż alternatywa złożona z tych
+samych zdań, *co znaczy*, że z `p ∧ q` wynika `p ∨ q`, ale nie odwrotnie. Inaczej mówiąc, z
+koniunkcji można wywnioskować zawsze *co najmniej* to samo, co z alternatywy złożonej z tych samych
+zdań, ale nie odwrotnie.
 
 Możemy powiedzieć to samo, tylko najogólniej jak się da, wznosząc się znowu na wysokość, na której
 słychać już trochę burczenie aniołów: Jeżeli w kategorii `ℂ` istnieje produkt `X × Y` i koprodukt
-`X + Y`, to istnieją co najmniej dwie strzałki z `X × Y` do `X + Y`, bo są nimi co najmniej
-projekcje, za to nie musi istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym
-zamachem stwierdziliśmy coś na temat koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i
-sumy rozłącznej zbiorów i wszystkich innych możliwych produktów i koproduktów.
+`X + Y`, to istnieją co najmniej dwie, niekoniecznie różne strzałki z `X × Y` do `X + Y`, bo są nimi
+co najmniej projekcje, za to nie musi istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto
+sposób za jednym zamachem stwierdziliśmy coś na temat koniunkcji i alternatywy, iloczynu
+kartezjańskiego zbiorów i sumy rozłącznej zbiorów i wszystkich innych możliwych produktów i
+koproduktów w jakichkolwiek kategoriach.
 
 To co, może już wylądujemy na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
 
 ## Alternatywa w praktyce dowodzenia
+
+**Sugestia**: Można potraktować te przykłady dowodów jako inspirację do wymyślania własnych zadań,
+albo po prostu spróbować udowodnić niektóre lub wszystkie pojawiające się tutaj zdania na tyle
+różnych sposobów, na ile tylko ma się ochotę, zaglądając tu tak często, jak się uzna za
+stosowne. Moim zdaniem, dopóki nikogo nie krzywdzimy, można w ogóle robić, mówić i myśleć co tylko
+się chce.
 
 ```lean
 variable (p q r : Prop)
