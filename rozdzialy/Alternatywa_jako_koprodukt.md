@@ -222,8 +222,9 @@ teorii typów. Może się wydawać, że wyjaśniając w ten sposób jak działa 
 tracimy poczucie sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy
 tendencję do rozumienia wszystkiego w kategoriach jak najbardziej konkretnych, takich jak szczegóły
 implementacji. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
-zrozumienia w pewnym sensie prawdziwych powodów, dla których produkty i koprodukty są zdefiniowane w
-taki a nie inny sposób w danym kontekście.
+zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej uniwersalnych powodów,
+dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w danym kontekście (tutaj
+w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
 
 To co, może już wylądujemy na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
@@ -306,9 +307,9 @@ example : p ∨ q → q ∨ p :=
 ## Kilka nowych taktyk
 
 Gdy mamy jakiś dowód alternatywy *w kontekście* i chcemy z niego skorzystać, zastosowanie taktyki
-`cases` może być pomocne, ponieważ ułatwia skupienie się "obsłużeniu" każdego z dwóch sposobów
-*skonstruowania dowodu tej alternatywy*. Jako argument podajemy wtedy nazwę dostępnego w kontekście
-dowodu alternatywy.
+`cases` może być pomocne, ponieważ ułatwia skupienie się na "obsłużeniu" każdego z dwóch możliwych
+sposobów *skonstruowania dowodu tej alternatywy*. Jako argument podajemy wtedy nazwę dostępnego w
+kontekście dowodu alternatywy.
 
 ```lean
 example : p ∨ q → q ∨ p := by
