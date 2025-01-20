@@ -174,7 +174,22 @@ wcześniej wprowadzone znaczeniu tego słowa) strzałek-projekcji z koniunkcji j
 
 W tym samym znaczeniu strzałkową definicję alternatywy można natomiast skonstruować tak:
 
+```lean
+def or (p q : Prop) : Prop := ∀ r : Prop, (p → r) → (q → r) → r
 
+-- Zastosowałem bardziej deskryptywne nazwy parametrów, żeby łatwiej można było zrozumieć o co chodzi
+-- w tych definicjach.
+def or_in1 (p q : Prop) (hp : p) : or p q :=
+  fun _ => fun hp_to_r => fun _ => hp_to_r hp
+
+def or_in2 (p q : Prop) (hq : q) : or p q :=
+  fun _ => fun _ => fun hq_to_r => hq_to_r hq
+
+-- Sama definicja alternatywy jest tutaj tym samym co jedyna reguła eliminacji dla alternatywy.
+```
+
+To, że koniunkcja ma jedną regułę wprowadzania i dwie reguły eliminacji, a alternatywa ma dwie
+reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją tego, że to są pojęcia dualne.
 
 To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
 
@@ -183,7 +198,7 @@ To teraz może pobawimy się trochę dowodami zdań, w których występują alte
 ```lean
 variable (p q r : Prop)
 
-xexample : p → p ∨ q := 
+example : p → p ∨ q := 
   fun (hp : p) => Or.inl hp
 
 example : q → p ∨ q := 
