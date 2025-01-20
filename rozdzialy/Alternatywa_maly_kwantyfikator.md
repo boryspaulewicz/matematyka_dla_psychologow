@@ -124,13 +124,12 @@ mówią te reguły - obiekt dualny do koniunkcji.
 `Q`, ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się wywnioskować, *która* z tych
 alternatyw jest prawdziwa. A więc we wprowadzaniu alternatywy, które dotyczy strzałek *do*
 alternatywy jako koproduktu, pojawia się pojęcie alternatywy, a w regule eliminacji alternatywy,
-która dotyczy strzałek *z* alternatywy jako koproduktu, pojawia się pojęce koniunkcji. 
+która dotyczy strzałek *z* alternatywy jako koproduktu, pojawia się dualne pojęcie koniunkcji.
 
-Jak już wiesz, można to wszystko wyrazić w języku teorii kategorii posługując się diagramami, a
-właściwie jednym diagramem, bo mamy tutaj do czynienia z dualnością. Wydaje mi się, że zauważanie
-tej dualności ułatwia zapamiętanie obydwu rodzajów reguł dla koniunkcji i alternatywy. Dzięki
-zrozumieniu tej dualności wystarczy przecież w zasadzie zapamiętać tylko reguły dedukcji dla
-koniunkcji (albo dla alternatywy).
+Jak się pewnie domyślasz, można to wszystko wyrazić w języku teorii kategorii posługując się
+diagramami, jednym diagramem, bo mamy tutaj do czynienia z dualnością koniunkcji do alternatywy i
+dualnością reguł wprowadzania do reguł eliminacji. Wydaje mi się, że oswojenie się z tymi
+dualnościami ułatwia zapamiętanie reguł redukcji dla koniunkcji i alternatywy.
 
 To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
 
