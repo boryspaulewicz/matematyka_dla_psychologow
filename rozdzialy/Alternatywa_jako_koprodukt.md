@@ -189,7 +189,17 @@ def or_in2 (p q : Prop) (hq : q) : or p q :=
 ```
 
 To, że koniunkcja ma jedną regułę wprowadzania i dwie reguły eliminacji, a alternatywa ma dwie
-reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją tego, że to są pojęcia dualne.
+reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją tego, że to są pojęcia
+dualne.
+
+Ta strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie
+zdanie, że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde
+zdanie, które wynika z *łącznej* prawdziwości członów tej alternatywy. Chodzi o łączną prawdziwość,
+bo wiedząc *tylko*, że `p` jest prawdą *lub* `q` jest prawdą *nie wiemy które* z tych dwóch zdań
+jest prawdziwe, a więc nie możemy być tylko na tej podstawie pewni prawdziwości zdań, które wynikają
+z prawdziwości zdania `p`, ani zdań, które wynikają z prawdziwości zdania `q`. Możemy być pewni
+prawdziwości tylko tych zdań, które wynikają z *mocniejszego* warunku łącznej prawdziwości zdań `p`
+i `q`.
 
 To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
 
