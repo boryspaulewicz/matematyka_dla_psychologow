@@ -262,17 +262,18 @@ example : p → p ∨ q := by
   intro hp
   exact Or.inl hp
 
--- Dopasowanie wzorców można stosować również stosując taktykę intro!
+-- Dopasowanie wzorca można stosować również zapisując argument taktyki intro:
 example : p ∧ q → p ∨ q := by
   intro ⟨_, hq⟩
   exact Or.inr hq
 
 -- Mogłem napisać też Or.elim h ..., ale wolę tak, bo tak jest krócej. Żeby skorzystać z dowodu alternatywy
--- p lub q dowodząc jakiegokolwiek zdania r trzeba dysponować dowodami zdań p → r i q → r. W tym 
+-- p ∨ q dowodząc jakiegokolwiek zdania r trzeba dysponować dowodami zdań p → r i q → r. W tym 
 -- przypadku to oznacza, że trzeba dysponować (dwa razy tym samym) dowodem zdania p → p, który to dowód
--- zawsze możemy skonstruować, bo to przecież funkcja identycznościowa.
+-- możemy skonstruować w każdym kontekście, bo to jest przecież funkcja identycznościowa.
 example : p ∨ p → p :=
   fun (h : p ∨ p) => 
+    -- Tym razem zapisałem tą aplikację w trzech liniach, żeby było lepiej widać, co się tutaj dzieje.
     h.elim
       (fun (hp : p) => hp)
       (fun (hp : p) => hp)
@@ -281,11 +282,9 @@ example : p ∨ p → p :=
 example : p ∨ p → p := fun h => h.elim (fun h => h) (fun h => h)
 
 -- Skoro matematyka to programowanie, to matematyka to programowanie. A więc jeszcze raz to samo,
--- ale tym razem za pomocą funkcji konstruującej dowody tautologii a → a dla dowolnego zdania
--- a.
-def ID (a : Prop) : a → a := fun (h : a) => h
-example : p ∨ p → p :=
-  fun (h : p ∨ p) => h.elim (ID p) (ID p)
+-- ale tym razem za pomocą funkcji konstruującej dowody tautologii a → a dla dowolnego zdania a.
+def ID (a : Prop) : a → a := fun h => h
+example : p ∨ p → p := fun h => h.elim (ID p) (ID p)
 
 example : p ∨ q → q ∨ p :=
   fun (h : p ∨ q) =>
