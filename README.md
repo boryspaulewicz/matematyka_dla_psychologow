@@ -66,7 +66,7 @@ I ten cytat, jak podają niektórzy pochodzący od Feynmana, również dobrze tu
 
 Jeżeli więc chcesz się ze mną dokądś przejść, przebiec, dowlec, albo doczłapać i przy okazji
 dostawać wiadomości na temat aktualizacji, a czasem może dodać coś od siebie, wyślij mi wiadomość,
-dopiszę Cię wtedy do listy adresatów, a wtedy kto wie, może się czegoś nauczymy.
+dopiszę Cię wtedy do listy adresatów i kto wie, może dzięki temu czegoś się razem nauczymy.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
