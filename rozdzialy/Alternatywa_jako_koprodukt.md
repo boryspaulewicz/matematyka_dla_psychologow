@@ -1,4 +1,4 @@
-# ∨ ~ ∃
+# p ∨ q ~ p + q
 
 Zacznę od ogólnego wstępu, ale jeżeli ten wstęp wyda Ci się początkowo trudny do zrozumienia, możesz
 śmiało przejść do części dotyczącej praktyki dowodzenia za pomocą alternatywy i potem tu
