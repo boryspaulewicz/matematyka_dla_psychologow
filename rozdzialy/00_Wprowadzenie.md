@@ -24,7 +24,7 @@ tutaj serdecznie dziêkujê, poniewa¿ zmusi³o mnie to do d³u¿szych rozmy¶lañ na te
 przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro [spodoba³
 siê](https://x.com/yudapearl/status/1737769250511843448) samemu
 [Pearlowi](https://en.wikipedia.org/wiki/Judea_Pearl), który raczej nie prawi chêtnie komplementów
-na temat tego typu artyku³ów, dlatego zamierzam bezwstydznie skorzystaæ z niego (z artyku³u, nie z
+na temat tego typu artyku³ów, dlatego zamierzam bezwstydnie skorzystaæ z niego (z artyku³u, nie z
 Pearla) w dalszej czê¶ci ksi±¿ki.
 
 Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak siê w to wci±gn±³em, ¿e po
