@@ -41,20 +41,23 @@ charakteryzującym pewien - być może nieskończony - *zbiór aksjomatów*.
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
 takie* termy są termami (parametrycznego) typu `Or`. Ponadto zdania o postaci `Or a b`, które nie
 powstają z tych samych uporządkowanych par zdań, są *różnymi* zdaniami. Dowody będące aplikacjami
-różnych *konstruktorów* (tutaj konstruktorami są `Or.inl` i `Or.inr`) również są *różnymi termami*,
-jednak w tym przypadku są *wymienialne* ponieważ w Leanie obowiązuje zasada *proof
-irrelevance*. Właśnie na tym, że to są *wszystkie* sposoby konstruowania termów tego typu i że
-*różne* sposoby konstrukcji dają *różne* termy polega *indukcyjność* tej definicji. Definicje `True`
-i `False` są w takim samym znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne, a więc
-nie są schematami aksjomatu, a poza tym typ/zdanie `False` nie ma konstruktora, a `True` ma tylko
-konstruktor `True.intro`, .
+różnych *konstruktorów* (tutaj konstruktorami są `Or.inl` i `Or.inr`) są więc *różnymi termami*,
+jednak w tym przypadku te dowody są *wymienialne*, czyli *traktowane jako takie same*, ponieważ w
+Leanie obowiązuje zasada nieważności struktury dowodu. 
 
-Definicja typu `Or` jest również
+Właśnie na tym, że to są *wszystkie* sposoby konstruowania termów tego typu i że *różne* sposoby
+konstrukcji dają *różne* termy polega *indukcyjność* tej definicji. Definicje `True` i `False` są w
+takim samym znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne, a więc nie są
+schematami aksjomatu, a poza tym typ/zdanie `False` nie ma konstruktora, a `True` ma tylko
+konstruktor `True.intro`.
+
+Definicja parametrycznego (czyli zależnego) typu `Or` jest również
 [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition) (inaczej *rekursywna*), bo jest
 *przepisem jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*, czyli pewnego rodzaju obiekty czy
 struktury z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność tej definicji może budzić
-wątpliwości, ale ta ["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest
-akurat nieproblematyczna.
+wątpliwości, ale, wbrew obiegowej opinii, nie każda
+["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest problematyczna i ta
+akurat nie jest.
 
 <hr>
 
