@@ -38,7 +38,7 @@ arbitralne konwencje językowe albo pojęciowe, czyli pewne *wybory* dotyczące 
 mowa, wynika, że to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty mogą być
 przecież redukowalne) nieredukowalne oznacza, że ta definicja, jak każda *parametryczna* definicja
 indukcyjna, jest tak zwanym [*schematem
-aksjomatu*](https://pl.wikipedia.org/wiki/Schemat_aksjomatu)[^2], czyli *przepisem*
+aksjomatu*](https://pl.wikipedia.org/wiki/Schemat_aksjomatu)[^1], czyli *przepisem*
 charakteryzującym pewien - być może nieskończony - *zbiór aksjomatów*.
 
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
@@ -60,7 +60,7 @@ Definicja parametrycznego (czyli zależnego) typu `Or` jest również
 *przepisem, jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*, czyli pewnego rodzaju obiekty czy
 struktury z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność tej definicji może budzić
 wątpliwości, ale - wbrew obiegowej opinii - nie każda ["kołowatość"
-definicji](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest problematyczna. Ta na
+definicji](https://en.wikipedia.org/wiki/Circular_definition)[^2] jest problematyczna. Ta na
 przykład nie jest.
 
 <hr>
@@ -372,8 +372,9 @@ example : p ∨ q → q ∨ p := by
 
 ### Przypisy
 
-[^1]: [Polska wersja](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu) tego
-    artykułu (strony Wikipedii nazywamy oficialnie artykułami) jest niestety dosyć słaba.
+[^1]: Polska wersja tego artykułu (strony Wikipedii nazywamy oficialnie artykułami) jest znacznie
+    gorsza od [angielskiej](https://en.wikipedia.org/wiki/Axiom_schema).
 
-[^2]: Również w tym przypadku polska wersja tego artykułu jest znacznie gorsza od [wersji
-    angielskiej](https://en.wikipedia.org/wiki/Axiom_schema).
+[^2]: [Polska wersja](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu)
+    również tego artykułu jest niestety znacznie gorsza od angielskiej.
+
