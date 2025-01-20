@@ -55,9 +55,9 @@ Definicja parametrycznego (czyli zależnego) typu `Or` jest również
 [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition) (inaczej *rekursywna*), bo jest
 *przepisem jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*, czyli pewnego rodzaju obiekty czy
 struktury z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność tej definicji może budzić
-wątpliwości, ale, wbrew obiegowej opinii, nie każda
-["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest problematyczna i ta
-akurat nie jest.
+wątpliwości, ale, wbrew obiegowej opinii, nie każda ["kołowatość"
+definicji](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest problematyczna i ta akurat
+nie jest.
 
 <hr>
 
