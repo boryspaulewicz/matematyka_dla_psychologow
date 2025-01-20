@@ -8,6 +8,14 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
+**Aktualności**: 20 stycznia. Dodałem właśnie nowy rozdział R24=R18 pod zachęcającym tytułem  
+[p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md).  
+Czytelniczki i czytelników, *którzy mają już za sobą co najmniej rozdziały od R4 do R17=R11 i od
+R19=R13 do R23=R17*, zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek
+spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
+
+## Przedmowa
+
 First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie, co powiedziała [Julia
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
 feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life),
@@ -31,13 +39,6 @@ jest przecież konieczna.
 (Tylko proszę, nie pisz wtedy o błędach ortograficznych czy innych tego rodzaju drobiazgach, chyba,
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
-
-**Aktualności**: 18 stycznia. Dodałem właśnie nowy rozdział R23=R17 pod zachęcającym tytułem  
-[p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨
-q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md).  
-Czytelniczki i czytelników, *którzy mają już za sobą co najmniej rozdziały od R4 do R17=R11 i od
-R19=R13 do R22=R16*, zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek
-spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
@@ -164,6 +165,8 @@ Kiedy szukam błędów lub fragmentów, które mógłbym jakoś poprawić, chęt
 repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie da się wtedy co prawda wygodnie
 przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
+### Spis treści
+
 [R1 Skąd się ta książka wzięła](./rozdzialy/00_Wprowadzenie.md)
 
 [R2 Co można z tą książką zrobić](./rozdzialy/01_Jak_sie_uczyc.md)
@@ -223,8 +226,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 [R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨
 q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
-Plac budowy:  
-R24 = R18 ∨ ~ ∃
+[R24 = R18 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
 
 Notatki robocze do których można zaglądać:
 
