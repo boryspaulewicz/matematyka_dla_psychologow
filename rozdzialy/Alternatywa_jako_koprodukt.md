@@ -3,9 +3,9 @@
 Zacznę od ogólnego wstępu, ale jeżeli ten wstęp wyda Ci się początkowo trudny do zrozumienia, możesz
 śmiało przejść do
 [części](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Alternatywa_jako_koprodukt.md#alternatywa-w-praktyce-dowodzenia)
-dotyczącej praktyki dowodzenia za pomocą alternatywy i potem tu wrócić. Moim zdaniem, co już kilka
-razy podkreślałem, *czytając o skomplikowanych, technicznych kwestiach nie warto próbować za wszelką
-cenę zrozumieć wszystkiego po kolei*.
+dotyczącej praktyki dowodzenia i potem tu wrócić. Moim zdaniem, co już kilka razy podkreślałem,
+*czytając o skomplikowanych, technicznych kwestiach nie warto próbować za wszelką cenę zrozumieć
+wszystkiego po kolei*.
 
 W Leanie `∨` to tylko lukier składniowy pod którym kryje się stała `Or`, oznaczająca pewien
 *indukcyjny typ danych*, zdefiniowany w taki oto sposób (zaraz to objaśnię):
