@@ -226,7 +226,7 @@ zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej 
 dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w danym kontekście (tutaj
 w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
 
-To co, może już wylądujemy na ziemi i pobawimy się trochę dowodami zdań, w których występują
+To co, może wylądujemy już na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
 
 ## Alternatywa w praktyce dowodzenia
