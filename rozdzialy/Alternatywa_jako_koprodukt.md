@@ -136,6 +136,44 @@ dualnościami ułatwia zapamiętanie reguł redukcji dla koniunkcji i alternatyw
 
 ## Koniunkcja i alternatywa ze strzałek, ale inaczej
 
+Przypominam "strzałkową" definicję koniunkcji:
+
+```lean
+def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
+```
+
+Ta definicja jest "zrobiona ze strzałek" w innym znaczeniu niż definicje kategoryjne, ale oczywiście
+da się ją "skategoryfikować". Jeden z moich ulubionych sposobów myślenia o tej definicji polega na
+tym, że interpretujemy `p → q → r` jako typ *funkcji dwuparametrowych*, które zwracają dowody zdań
+dające się skonstruować z par dowodów będących argumentami ich aplikacji. 
+
+Z tego punktu widzenia ta definicja wyraża po prostu fakt, że dowód koniunkcji zdań `p` i `q` to
+taki dowód, za pomocą którego można udowodnić każde zdanie wynikające z łącznej prawdziwości zdań
+`p` i `q`. Stąd można łatwo wyprowadzić jedyną regułę wprowadzania i obydwie reguły eliminacji dla
+koniunkcji:
+
+```lean
+-- Dla uproszczenia pomijam tutaj typowanie, którego Lean może się sam domyślić.
+
+-- Żeby udowodnić koniunkcję zdań trzeba mieć dowody członów tej koniunkcji:
+def and_in1 (p q : Prop) (hp : p) (hq : q) : and p q :=
+    fun (r : Prop) => fun (h : p → q → r) => h hp hq
+
+-- Z dowodu p \and q zawsze można zrobić dowód p:
+def and_el1 (p q : Prop) (h : and p q) : p :=
+    h p (fun hp => fun _ => hp)
+
+-- Z dowodu p \and q zawsze można zrobić dowód q:
+def and_el2 (p q : Prop) (h : and p q) : q :=
+    h q (fun _ => fun hq => hq)
+```
+
+Ponieważ te dwie ostatnie definicje są funkcjami, które przekształcają dowody każdej koniunkcji o
+postaci `p \and q` w dowody zdań `p` i `q` odpowiednio, to te funkcje są "generatorami" (w innym niż
+wcześniej wprowadzone znaczeniu tego słowa) strzałek-projekcji z koniunkcji jako produktu.
+
+W tym samym znaczeniu strzałkową definicję alternatywy można natomiast skonstruować tak:
+
 
 
 To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
