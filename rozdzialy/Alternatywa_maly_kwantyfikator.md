@@ -29,6 +29,8 @@ jako typ takich termów, że (`where`) każdy taki term można skonstruować *al
 nieredukowalną aplikację* o postaci `Or.inl (h a)` typu `Or a b`, albo jako (`|`) nieredukowalną
 aplikację `Or.inr (h : b)` typu `Or a b`. 
 
+## Krótko o definicjach indukcyjnych, definicjach rekurencyjnych i schematach aksjomatów.
+
 Stąd, że aksjomaty to dokładnie definicje pozbawione ciała, czyli definicje nierozwijalne, czyli
 arbitralne konwencje językowe albo pojęciowe, wynika, że to, że aplikacje `Or.inl` i `Or.inr` są
 (ostatecznie, bo ich argumenty mogą być przecież redukowalne) nieredukowalne oznacza, że ta
@@ -53,6 +55,8 @@ Definicja typu `Or` jest również
 struktury z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność tej definicji może budzić
 wątpliwości, ale ta ["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest
 akurat nieproblematyczna.
+
+<hr>
 
 Zmienię teraz konwencję i zacznę oznaczać bliżej nieokreślone zdania dużymi literami, żeby
 zasygnalizować, że mogą być dowolnie złożone.
