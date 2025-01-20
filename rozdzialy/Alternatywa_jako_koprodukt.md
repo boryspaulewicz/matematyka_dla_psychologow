@@ -224,8 +224,8 @@ alternatywy?
 **Sugestia**: Można potraktować te przykłady dowodów jako inspirację do wymyślania własnych zadań,
 albo po prostu spróbować udowodnić niektóre lub wszystkie pojawiające się tutaj zdania na tyle
 różnych sposobów, na ile tylko ma się ochotę, zaglądając tu tak często, jak się uzna za
-stosowne. Moim zdaniem, dopóki nikogo nie krzywdzimy, można w ogóle robić, mówić i myśleć co tylko
-się chce.
+stosowne. Moim zdaniem, jeżeli nikogo nie krzywdzimy, możemy w ogóle robić, mówić i myśleć co tylko
+chcemy, a czasem nawet odrobina czyjejś krzywdy bywa wskazana.
 
 ```lean
 variable (p q r : Prop)
