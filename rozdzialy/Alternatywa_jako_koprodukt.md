@@ -372,8 +372,8 @@ example : p ∨ q → q ∨ p := by
 
 ### Przypisy
 
-[^1]: Polska wersja tego artykułu (strony Wikipedii nazywamy oficialnie artykułami) jest znacznie
-    gorsza od [angielskiej](https://en.wikipedia.org/wiki/Axiom_schema).
+[^1]: Polska wersja tego artykułu (strony Wikipedii nazywamy oficialnie artykułami) jest niestety
+    znacznie gorsza od [angielskiej](https://en.wikipedia.org/wiki/Axiom_schema).
 
 [^2]: [Polska wersja](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu)
     również tego artykułu jest niestety znacznie gorsza od angielskiej.
