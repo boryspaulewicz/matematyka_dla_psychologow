@@ -27,7 +27,7 @@ typu. Ta definicja jest bardziej skomplikowana przede wszystkim dlatego, że jes
 parametry) *typ danych* `Or` typu `Prop` o parametrach `a` i `b` typu `Prop` (`Or (a b : Prop)`)
 jako typ takich termów, że (`where`) każdy taki term można skonstruować *albo* jako (`|`) *samą,
 nieredukowalną aplikację* o postaci `Or.inl (h a)` typu `Or a b`, albo jako (`|`) nieredukowalną
-aplikację `Or.inr (h : b)` typu `Or a b`. 
+aplikację `Or.inr (h : b)` typu `Or a b`.
 
 ## Krótko o definicjach indukcyjnych, definicjach rekurencyjnych i schematach aksjomatów.
 
@@ -43,7 +43,7 @@ takie* termy są termami (parametrycznego) typu `Or`. Ponadto zdania o postaci `
 powstają z tych samych uporządkowanych par zdań, są *różnymi* zdaniami. Dowody będące aplikacjami
 różnych *konstruktorów* (tutaj konstruktorami są `Or.inl` i `Or.inr`) są więc *różnymi termami*,
 jednak w tym przypadku te dowody są *wymienialne*, czyli *traktowane jako takie same*, ponieważ w
-Leanie obowiązuje zasada nieważności struktury dowodu. 
+Leanie obowiązuje zasada nieważności struktury dowodu.
 
 Właśnie na tym, że to są *wszystkie* sposoby konstruowania termów tego typu i że *różne* sposoby
 konstrukcji dają *różne* termy polega *indukcyjność* tej definicji. Definicje `True` i `False` są w
@@ -99,26 +99,25 @@ więc w regule wprowadzania koniunkcji pojawia się pojęcie koniunkcji, a w reg
 koniunkcji pojawia się pojęcie alternatywy.
 
 Każdy dowód koniunkcji będzie wymagał zastosowania jakiś dostępnych lokalnie hipotez, albo nie. Na
-przykład, jeżeli koniunkcja będzie miała postać `(p \to p) \and q`, to dowód lewego członu będziemy
-mogli skonstruować "z niczego", konstruując funkcję identycznościową na zdaniach i to będzie
-jednocześnie dowód implikacji `True \to (p \to p)`. A dysponując lokalnie, jako założeniem albo
-udowodnionym wcześniej zdaniem, na przykład hipotezą `p \to q \and p`, będziemy mogli udowodnić
-zdanie `q`.
+przykład, jeżeli koniunkcja będzie miała postać `(p → p) ∧ q`, to dowód lewego członu będziemy mogli
+skonstruować "z niczego", konstruując funkcję identycznościową na zdaniach i to będzie jednocześnie
+dowód implikacji `True → (p → p)`. A dysponując lokalnie, jako założeniem albo udowodnionym
+wcześniej zdaniem, na przykład hipotezą `p → q ∧ p`, będziemy mogli udowodnić zdanie `q`.
 
 Zawsze, gdy możemy udowodnić w danym kontekście jakieś dwa zdania `P` i `Q`, w tym samym kontekście
 możemy też udowodnić pewne zdanie `H`, z którego *jednocześnie* wynikają te dwa zdania, czyli zawsze
-wtedy możemy udowodnić implikacje `H \to P` i `H \to Q` dla pewnego zdania `H`. W ostatnim
-przykładzie takim zdaniem `H` jest zdanie `True \and (p \to q \and p)`, albo po prostu `p \to q \and
-p`. A więc z perspektywy kategoryjnej będą wtedy istniały współźródłowe strzałki do punktów `P` i
-`Q`. Z tej perspektywy, ponieważ kategoria dowiedlności zdań jest cienka, reguła wprowadzania dla
-koniunkcji odpowiada "produktowości" koniunkcji, bo mówi, że *istnieje* wtedy strzałka z tego samego
-źródła do `P \and Q` i taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
+wtedy możemy udowodnić implikacje `H → P` i `H → Q` dla pewnego zdania `H`. W ostatnim przykładzie
+takim zdaniem `H` jest zdanie `True ∧ (p → q ∧ p)`, albo po prostu `p → q ∧ p`. A więc z perspektywy
+kategoryjnej będą wtedy istniały współźródłowe strzałki do punktów `P` i `Q`. Z tej perspektywy,
+ponieważ kategoria dowiedlności zdań jest cienka, reguła wprowadzania dla koniunkcji odpowiada
+"produktowości" koniunkcji, bo mówi, że *istnieje* wtedy strzałka z tego samego źródła do `P ∧ Q` i
+taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
 
 Reguła eliminacji dla koniunkcji dotyczy z kolei strzałek *z* koniunkcji. Ponieważ każda koniunkcja
-to pewna specjalna para współźródłowych strzałek `P \l P \x Q \to Q`, to z koniunkcji wynikają te i
-tylko te zdania, które wynikają z `P` - bo wtedy wynikają z `P \and Q` z powodu składalności
-strzałek / przechodniości relacji dowiedlności - *lub* z `Q` *lub* z `P \and Q`. Widzimy więc, że
-reguły eliminacji są tak w ogóle dualne do reguł wprowadzania i w regułach eliminacji dla koniunkcji
+to pewna specjalna para współźródłowych strzałek `P \l P × Q → Q`, to z koniunkcji wynikają te i
+tylko te zdania, które wynikają z `P` - bo wtedy wynikają z `P ∧ Q` z powodu składalności strzałek /
+przechodniości relacji dowiedlności - *lub* z `Q` *lub* z `P ∧ Q`. Widzimy więc, że reguły
+eliminacji są tak w ogóle dualne do reguł wprowadzania i w regułach eliminacji dla koniunkcji
 pojawia się - ale w *metajęzyku*, a nie jako spójnik logiczny występujący w jakimś zdaniu o którym
 mówią te reguły - obiekt dualny do koniunkcji.
 
@@ -145,7 +144,7 @@ def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
 Ta definicja jest "zrobiona ze strzałek" w innym znaczeniu niż definicje kategoryjne, ale oczywiście
 da się ją "skategoryfikować". Jeden z moich ulubionych sposobów myślenia o tej definicji polega na
 tym, że interpretujemy `p → q → r` jako typ *funkcji dwuparametrowych*, które zwracają dowody zdań
-dające się skonstruować z par dowodów będących argumentami ich aplikacji. 
+dające się skonstruować z par dowodów będących argumentami ich aplikacji.
 
 Z tego punktu widzenia ta definicja wyraża po prostu fakt, że dowód koniunkcji zdań `p` i `q` to
 taki dowód, za pomocą którego można udowodnić każde zdanie wynikające z łącznej prawdziwości zdań
@@ -159,17 +158,17 @@ koniunkcji:
 def and_in1 (p q : Prop) (hp : p) (hq : q) : and p q :=
     fun (r : Prop) => fun (h : p → q → r) => h hp hq
 
--- Z dowodu p \and q zawsze można zrobić dowód p:
+-- Z dowodu p ∧ q zawsze można zrobić dowód p:
 def and_el1 (p q : Prop) (h : and p q) : p :=
     h p (fun hp => fun _ => hp)
 
--- Z dowodu p \and q zawsze można zrobić dowód q:
+-- Z dowodu p ∧ q zawsze można zrobić dowód q:
 def and_el2 (p q : Prop) (h : and p q) : q :=
     h q (fun _ => fun hq => hq)
 ```
 
 Ponieważ te dwie ostatnie definicje są funkcjami, które przekształcają dowody każdej koniunkcji o
-postaci `p \and q` w dowody zdań `p` i `q` odpowiednio, to te funkcje są "generatorami" (w innym niż
+postaci `p ∧ q` w dowody zdań `p` i `q` odpowiednio, to te funkcje są "generatorami" (w innym niż
 wcześniej wprowadzone znaczeniu tego słowa) strzałek-projekcji z koniunkcji jako produktu.
 
 W tym samym znaczeniu strzałkową definicję alternatywy można natomiast skonstruować tak:
@@ -189,16 +188,23 @@ def or_in2 (p q : Prop) (hq : q) : or p q :=
 ```
 
 To, że koniunkcja ma jedną regułę wprowadzania i dwie reguły eliminacji, a alternatywa ma dwie
-reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją tego, że to są pojęcia
-dualne.
+reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją tego, że to są pojęcia dualne.
 
 Ta strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie
 zdanie, że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde
 zdanie, które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. To jest
 trudniejszy do spełnienia, a więc bardziej wymagający albo mocniejszy warunek niż wynikanie z
-łącznej prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc mocniejszym założeniem niż
-alternatywa złożona z tych samych zdań, *co znaczy*, że `p \and q` wynika `p \or q`, ale nie
-odwrotnie, czyli *na ogół* więcej można wywnioskować z koniunkcji niż z alternatyw.
+łącznej prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc *mocniejszym* założeniem niż
+alternatywa złożona z tych samych zdań, *co znaczy*, że `p ∧ q` wynika `p ∨ q`, ale nie odwrotnie,
+czyli z koniunkcji można wywnioskować zawsze *co najmniej* to samo, co z alternatywy złożonej z tych
+samych zdań.
+
+Możemy powiedzieć to samo, tylko najogólniej jak się da, wznosząc się znowu na wysokość, na której
+słychać już trochę burczenie aniołów: Jeżeli w kategorii `ℂ` istnieje produkt `X × Y` i koprodukt
+`X + Y`, to istnieją co najmniej dwie strzałki z `X × Y` do `X + Y`, bo są nimi co najmniej
+projekcje, za to nie musi istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym
+zamachem stwierdziliśmy coś na temat koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i
+sumy rozłącznej zbiorów i wszystkich innych możliwych produktów i koproduktów.
 
 To co, może już wylądujemy na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
@@ -208,40 +214,59 @@ alternatywy?
 ```lean
 variable (p q r : Prop)
 
+-- Jeżeli p, to oczywiście również p lub q. To jest pierwsza reguła wprowadzania alternatywy w
+-- dedukcji naturalnej. Ponieważ alternatywa to w Leanie zdefiniowany indukcyjnie koprodukt,
+-- konstruujemy dowody alternatyw używając albo pierwszej (albo lewej) albo drugiej (albo prawej)
+-- injekcji.
 example : p → p ∨ q := 
   fun (hp : p) => Or.inl hp
 
+-- A to druga reguła wprowadzania alternatywy:
 example : q → p ∨ q := 
   fun (hq : q) => Or.inr hq
 
+-- Pominąłem typowanie argumentu w funkcji anonimowej, ale poza tym ten dowód nie jest jak sądzę dla Ciebie
+-- jakoś wyjątkowo niezrozumiały?
 example : p ∧ q → p ∨ q := 
   fun h => Or.inl h.left
 
+-- Jak wyżej, tylko trochę inaczej.
 example : p ∧ q → p ∨ q := 
   fun h => Or.inr h.right
 
+-- Tak też można, korzystając z dopasowania wzorca w parametrze i zastępując jedną z wartości symbolem _,
+-- żeby Lean nie narzekał, że występują tu nieużywane nazwy parametrów.
 example : p ∧ q → p ∨ q := 
   fun ⟨hp, _⟩ => Or.inl hp
 
 example : p ∧ q → p ∨ q := 
   fun ⟨_, hq⟩ => Or.inr hq
 
-example : p ∧ q → p ∨ q := by
-  intro ⟨_, hq⟩
-  exact Or.inr hq
-
 example : p → p ∨ q := by
   intro hp
   exact Or.inl hp
 
+-- Dopasowanie wzorców można stosować również stosując taktykę intro!
+example : p ∧ q → p ∨ q := by
+  intro ⟨_, hq⟩
+  exact Or.inr hq
+
+-- Mogłem napisać też Or.elim h ..., ale wolę tak, bo tak jest krócej. Żeby skorzystać z dowodu alternatywy
+-- p lub q dowodząc jakiegokolwiek zdania r trzeba dysponować dowodami zdań p → r i q → r. W tym 
+-- przypadku to oznacza, że trzeba dysponować (dwa razy tym samym) dowodem zdania p → p, który to dowód
+-- zawsze możemy skonstruować, bo to przecież funkcja identycznościowa.
 example : p ∨ p → p :=
   fun (h : p ∨ p) => 
     h.elim
       (fun (hp : p) => hp)
       (fun (hp : p) => hp)
 
+-- To samo co wyżej, ale bez łamania kodu na linie i bez typowania parametrów.
 example : p ∨ p → p := fun h => h.elim (fun h => h) (fun h => h)
 
+-- Skoro matematyka to programowanie, to matematyka to programowanie. A więc jeszcze raz to samo,
+-- ale tym razem za pomocą funkcji konstruującej dowody tautologii a → a dla dowolnego zdania
+-- a.
 def ID (a : Prop) : a → a := fun (h : a) => h
 example : p ∨ p → p :=
   fun (h : p ∨ p) => h.elim (ID p) (ID p)
@@ -251,7 +276,11 @@ example : p ∨ q → q ∨ p :=
     h.elim 
       (fun (hp : p) => Or.inr hp)
       (fun (hq : q) => Or.inl hq)
+```
 
+## Kilka nowych taktyk
+
+```lean
 example : p ∨ q → q ∨ p := by
   intro h
   cases h with
@@ -280,8 +309,6 @@ example : p ∨ q → q ∨ p := by
   rename_i hq
   exact Or.inl hq
 ```
-
-TODO Że definicja indukcyjnego typu danych to axiom schema.
 
 ### Przypisy
 
