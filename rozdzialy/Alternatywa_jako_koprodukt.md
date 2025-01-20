@@ -7,7 +7,7 @@ dotyczącej praktyki dowodzenia i potem tu wrócić. Moim zdaniem, co już kilka
 *czytając o skomplikowanych, technicznych kwestiach nie warto próbować za wszelką cenę zrozumieć
 wszystkiego po kolei*.
 
-W Leanie `∨` to tylko lukier składniowy pod którym kryje się stała `Or`, oznaczająca pewien
+W Leanie `∨` to tylko lukier składniowy, pod którym kryje się stała `Or`, oznaczająca pewien
 *indukcyjny typ danych*, zdefiniowany w taki oto sposób (zaraz to objaśnię):
 
 ```lean
