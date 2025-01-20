@@ -304,7 +304,7 @@ example : p ∨ q → q ∨ p :=
       (fun (hq : q) => Or.inl hq)
 ```
 
-## Kilka nowych taktyk
+### Kilka nowych taktyk
 
 Gdy mamy jakiś dowód alternatywy *w kontekście* i chcemy z niego skorzystać, zastosowanie taktyki
 `cases` może być pomocne, ponieważ ułatwia skupienie się na "obsłużeniu" każdego z dwóch możliwych
