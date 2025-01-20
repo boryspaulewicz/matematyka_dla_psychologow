@@ -105,9 +105,10 @@ regule eliminacji koniunkcji pojawia się dualne pojęcie alternatywy.
 Każdy dowód koniunkcji albo będzie wymagał zastosowania jakiś dostępnych lokalnie hipotez, albo
 nie. Na przykład, jeżeli koniunkcja do udowodnienia będzie miała postać `(p → p) ∧ q`, to dowód
 lewego członu będziemy mogli skonstruować "z niczego", konstruując funkcję identycznościową na
-zdaniach i to będzie jednocześnie dowód implikacji `True → (p → p)`. A dysponując lokalnie, jako
-założeniem albo udowodnionym wcześniej zdaniem, na przykład hipotezą `(p → q) ∧ p`, będziemy mogli
-udowodnić zdanie `q`.
+zdaniach i to będzie jednocześnie *prawie* dowód implikacji `True → (p → p)`, bo taki dowód musiałby
+ignorować swój argument, będący dowodem zdania `True` i zwrócić identyczność. A dysponując lokalnie,
+jako założeniem albo udowodnionym wcześniej zdaniem, na przykład hipotezą `(p → q) ∧ p`, będziemy
+mogli udowodnić zdanie `q`.
 
 Zawsze, gdy możemy udowodnić w danym kontekście jakieś dwa zdania `P` i `Q`, w tym samym kontekście
 możemy też udowodnić pewne zdanie `H`, z którego *jednocześnie* wynikają te dwa zdania, czyli zawsze
@@ -127,13 +128,13 @@ lub*, a nie jako spójnik logiczny występujący w jakimś formalnym zdaniu, o k
 obiekt dualny do koniunkcji, to jest alternatywa.
 
 Żeby *wprowadzić* zdanie `P ∨ Q`, trzeba dysponować dowodem `P` *lub* dowodem `Q`. Żeby
-*wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P` *jak i z*
-`Q`, ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się wywnioskować, *która* z tych
-alternatyw jest prawdziwa. A więc we wprowadzaniu alternatywy, które dotyczy strzałek *do*
-alternatywy jako koproduktu, pojawia się pojęcie alternatywy, a w regule eliminacji alternatywy,
-która dotyczy strzałek *z* alternatywy jako koproduktu, pojawia się (w metajęzyku) dualne pojęcie
-koniunkcji. Wydaje mi się, że oswojenie się z tymi dualnościami ułatwia zapamiętanie reguł
-dedukcji - czyli reguł wprowadzania i eliminacji - dla koniunkcji i alternatywy.
+*wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P` *jak i,
+niezależnie, z* `Q`, ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się
+wywnioskować, *która* z tych alternatyw jest prawdziwa. A więc we wprowadzaniu alternatywy, które
+dotyczy strzałek *do* alternatywy jako koproduktu, pojawia się pojęcie alternatywy, a w regule
+eliminacji alternatywy, która dotyczy strzałek *z* alternatywy jako koproduktu, pojawia się (w
+metajęzyku) dualne pojęcie koniunkcji. Wydaje mi się, że oswojenie się z tymi dualnościami ułatwia
+zapamiętanie reguł dedukcji - czyli reguł wprowadzania i eliminacji - dla koniunkcji i alternatywy.
 
 Mam nadzieję, że zaczęłaś się już zastanawiać, czy można to wszystko wyrazić w języku teorii
 kategorii, posługując się w tym celu diagramami, a może nawet jednym diagramem, bo przecież mamy
@@ -156,8 +157,8 @@ dające się skonstruować z par dowodów będących argumentami ich aplikacji.
 
 Z tego punktu widzenia ta definicja wyraża po prostu fakt, że dowód koniunkcji zdań `p` i `q` to
 taki dowód, za pomocą którego można udowodnić każde zdanie wynikające z łącznej prawdziwości zdań
-`p` i `q`. Stąd można łatwo wyprowadzić jedyną regułę wprowadzania i obydwie reguły eliminacji dla
-koniunkcji:
+`p` i `q`. Przyjmując tą definicję można łatwo wyprowadzić jedyną regułę wprowadzania i obydwie
+reguły eliminacji dla koniunkcji:
 
 ```lean
 -- Dla uproszczenia pomijam tutaj typowanie, którego Lean może się sam domyślić i zastąpiłem nazwy
