@@ -214,7 +214,16 @@ słychać już trochę burczenie aniołów: Jeżeli w kategorii `ℂ` istnieje p
 co najmniej projekcje, za to nie musi istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto
 sposób za jednym zamachem stwierdziliśmy coś na temat koniunkcji i alternatywy, iloczynu
 kartezjańskiego zbiorów i sumy rozłącznej zbiorów i wszystkich innych możliwych produktów i
-koproduktów w jakichkolwiek kategoriach.
+koproduktów w jakichkolwiek kategoriach. 
+
+Możemy zobaczyć z tej perspektywy, że to, jak działa koniunkcja i alternatywa nie ma *nic* wspólnego
+z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo innej wersji
+teorii typów. Może się wydawać, że wyjaśniając w ten sposób jak działa koniunkcja i alternatywa
+tracimy poczucie sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy
+tendencję do rozumienia wszystkiego w kategoriach jak najbardziej konkretnych, takich jak szczegóły
+implementacji. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
+zrozumienia w pewnym sensie prawdziwych powodów, dla których produkty i koprodukty są zdefiniowane w
+taki a nie inny sposób w danym kontekście.
 
 To co, może już wylądujemy na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
@@ -225,7 +234,8 @@ alternatywy?
 albo po prostu spróbować udowodnić niektóre lub wszystkie pojawiające się tutaj zdania na tyle
 różnych sposobów, na ile tylko ma się ochotę, zaglądając tu tak często, jak się uzna za
 stosowne. Moim zdaniem, jeżeli nikogo nie krzywdzimy, możemy w ogóle robić, mówić i myśleć co tylko
-chcemy, a czasem nawet odrobina czyjejś krzywdy bywa wskazana.
+chcemy, a czasem jest i tak, że skrzywdzenie kogoś z rozwagą, na przykład wypowiadając publicznie
+kilka gorzkich albo obraźliwych słów, bywa jedynym etycznie akceptowalnym rozwiązaniem.
 
 ```lean
 variable (p q r : Prop)
@@ -295,34 +305,59 @@ example : p ∨ q → q ∨ p :=
 
 ## Kilka nowych taktyk
 
+Gdy mamy w kontekście dowód alternatywy, zastosowanie taktyki `cases` może być pomocne, ponieważ
+ułatwia skupienie się na udowodnieniu osobno każdej z dwóch implikacji, które są wymagane przez
+regułę *wprowadzania* alternatywy. Jako argument podajemy wtedy nazwę dowodu tej alternatywy.
+
 ```lean
 example : p ∨ q → q ∨ p := by
+  -- Wprowadzamy do kontekstu hipotetyczny dowód zdania p \or q jako zmienną h.
   intro h
+  -- *Ten* dowód (a nie dowód celu) mógł powstać tylko na dwa sposoby, albo na skutek zastosowania
+  -- konstruktora inl, albo konstruktora inr. Taktyka cases pozwala wygodnie "obsłużyć" obydwie
+  -- możliwości, a dzięki temu w tym przypadku skonstruować dowody dwóch implikacji, które są tutaj
+  -- potrzebne, żeby niejawnie zastosować regułę eliminacji alternatywy.
   cases h with
-  |inl hp => exact Or.inr hp
-  |inr hq => exact Or.inl hq
+  |inl hp => -- Uzupełnij brakujący kod zwracając uwagę na stan dowodu, lub wyciągając wnioski z komentarza poniżej.
+  -- Pozostaje zastosować tutaj taktykę exact z aplikacją konstruktora Or.inr do odpowiedniego argumentu.
+  -- Gdy już skontruujesz w tym miejscu dowód implikacji p \to q \or p, to gdy kursor będzie w
+  -- następnej linii, zobaczysz, że masz do dyspozycji dowód hp zdania q. Będziesz już wtedy wiedziała,
+  -- co masz zrobić.
+  |inr hq => -- Uzupełnij brakujący kod.
 
 example : p ∨ q → q ∨ p := by
   intro h
-  cases h
-  case inl hp => exact Or.inr hp
-  case inr hq => exact Or.inl hq
+  -- To tylko inny sposób zapisania tego samego dowodu.
+  cases h -- Gdy kursor jest tutaj, dostępna w kontekście zmienna h ma inny kolor niż pozostałe. To dlatego,
+  -- że tą nazwę Lean wygenerował automatycznie, a to znaczy, że przyszła implementacja Leana może to zrobić
+  -- inaczej, a wtedy dowód opierający się na tym, jaka to jest nazwa, przestałby działać.
+  case inl hp => -- Gdy kursor jest tutaj, widoczna w konkteście nazwa dowodu p to hp. Uzupełnij brakujący kod.
+  case inr hq => -- Uzupełnij brakujący kod.
 
 example : p ∨ q → q ∨ p := by
   intro h
-  cases h -- konflikt nazw ze względu na h
+  cases h -- W tym miejscu widoczna w kontekście zmienna h ma znowu inny kolor. Nie musimy jednak ani
+  -- odnosić się do tej zmiennej jawnie, ani jak wcześniej nadawać jej nazwy. Zamiast tego możemy
+  -- zastosować taktykę apply. W tym miejscu da się skonstruować dowód p \or q za pomocą konstruktora
+  -- Or.inr, bo w kontekście jest tylko dowód zdania p, które jest *prawym* członem alternatywy będącej
+  -- celem. Zastosowanie taktyki apply Or.inr powoduje, że nowym celem staje się zdanie p, którego
+  -- dowód musimy podać jako argument konstruktora Or.inr, żeby udowodnić oryginalny cel.
   apply Or.inr
+  -- Taktyka assumption sama szuka w kontekście termu o takim samym typie jak aktualny cel. I w tym
+  -- wypadku go znajduje. Gdy kursor znajduje się w tej samej linii co assumption, widać, że kontekst
+  -- odpowiada drugiemu możliwemu sposobowi udowodnienia *przesłanki* p \or q, to jest h : q.
   assumption
-  apply Or.inl
-  assumption
+  -- Dokończ dowód analogicznie jak to zostało zrobione powyżej, czyli zaczynając od zastosowania
+  -- taktyki apply z odpowiednim konstruktorem alternatywy.
 
 example : p ∨ q → q ∨ p := by
   intro h
   cases h
+  -- Taktyka rename_i pozwala nadać jawnie nazwę zmiennej, która została nazwana przez Leana automatycznie,
+  -- dzięki czemu można się potem posługiwać tą nazwą w konstrukcji dowodu.
   rename_i hp
   exact Or.inr hp
-  rename_i hq
-  exact Or.inl hq
+  -- Dokończ dowód zaczynając od nadania jawnej nazwy widocznemu w kontekście dowodowi zdania q.
 ```
 
 ### Przypisy
