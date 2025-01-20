@@ -235,8 +235,8 @@ alternatywy?
 albo po prostu spróbować udowodnić niektóre lub wszystkie pojawiające się tutaj zdania na tyle
 różnych sposobów, na ile tylko ma się ochotę, zaglądając tu tak często, jak się uzna za
 stosowne. Moim zdaniem, jeżeli nikogo nie krzywdzimy, możemy w ogóle robić, mówić i myśleć co tylko
-chcemy, a czasem jest i tak, że skrzywdzenie kogoś z rozwagą, na przykład wypowiadając publicznie
-kilka gorzkich albo obraźliwych słów, bywa jedynym etycznie akceptowalnym rozwiązaniem.
+chcemy. A czasem bywa i tak, że skrzywdzenie kogoś z rozwagą, na przykład wypowiadając publicznie
+kilka gorzkich albo obraźliwych słów, jest jedynym etycznie akceptowalnym rozwiązaniem.
 
 ```lean
 variable (p q r : Prop)
