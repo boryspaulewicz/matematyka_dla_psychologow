@@ -340,15 +340,21 @@ example : p ∨ q → q ∨ p := by
   -- odnosić się do tej zmiennej jawnie, ani jak wcześniej nadawać jej nazwy. Zamiast tego możemy
   -- zastosować taktykę apply. W tym miejscu da się skonstruować dowód p \or q za pomocą konstruktora
   -- Or.inr, bo w kontekście jest tylko dowód zdania p, które jest *prawym* członem alternatywy będącej
-  -- celem. Zastosowanie taktyki apply Or.inr powoduje, że nowym celem staje się zdanie p, którego
-  -- dowód musimy podać jako argument konstruktora Or.inr, żeby udowodnić oryginalny cel.
+  -- celem.
+  --
+  -- Zastosowanie taktyki apply <argument> powoduje, że Lean próbuje dopasować *wniosek* albo *rezultat*
+  -- tego, co jest podane jako argument, do aktualnego celu i jeśli mu się uda, tworzy nowy cel lub cele, które
+  -- muszą być zrealizowane, żeby zastosowanie tego czegoś, co jest arugmentem, zakończyło się sukcesem.
+  -- Czyli pojawiają się wtedy nowe cele, będące przesłankami albo prerekwizytami, które trzeba udowodnić albo
+  -- skontruować, żeby zastosowanie argumentu taktyki apply rozwiązało oryginalny cel. W tym przypadku
+  -- jako nowy cel pojawi się więc zdanie q.
   apply Or.inr
   -- Taktyka assumption sama szuka w kontekście termu o takim samym typie jak aktualny cel. I w tym
   -- wypadku go znajduje. Gdy kursor znajduje się w tej samej linii co assumption, widać, że kontekst
   -- odpowiada drugiemu możliwemu sposobowi udowodnienia *przesłanki* p \or q, to jest h : q.
   assumption
-  -- Dokończ dowód analogicznie jak to zostało zrobione powyżej, czyli zaczynając od zastosowania
-  -- taktyki apply z odpowiednim konstruktorem alternatywy.
+  -- Dokończ dowód podobnie, jak to zrobiłem powyżej, czyli zaczynając od zastosowania taktyki apply z odpowiednim
+  -- konstruktorem alternatywy.
 
 example : p ∨ q → q ∨ p := by
   intro h
