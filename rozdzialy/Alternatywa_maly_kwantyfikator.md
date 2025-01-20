@@ -25,28 +25,37 @@ typu. Ta definicja jest bardziej skomplikowana przede wszystkim dlatego, że jes
 
 **Czytamy to**: Definiuję indukcyjnie (`inductive`) parametryczny (bo ta definicja ma \{tutaj dwa\}
 parametry) *typ danych* `Or` typu `Prop` o parametrach `a` i `b` typu `Prop` (`Or (a b : Prop)`)
-jako typ takich termów, że (`where`) te termy powstają *albo* jako (`|`) *same, nieredukowalne
-aplikacje* o postaci `Or.inl (h a)` typu `Or a b`, albo jako (`|`) aplikacje `Or.inr (h : b)` typu
-`Or a b`.
+jako typ takich termów, że (`where`) każdy taki term można skonstruować *albo* jako (`|`) *samą,
+nieredukowalną aplikację* o postaci `Or.inl (h a)` typu `Or a b`, albo jako (`|`) nieredukowalną
+aplikację `Or.inr (h : b)` typu `Or a b`. 
+
+Stąd, że aksjomaty to dokładnie definicje pozbawione ciała, czyli definicje nierozwijalne, czyli
+arbitralne konwencje językowe albo pojęciowe, wynika, że to, że aplikacje `Or.inl` i `Or.inr` są
+(ostatecznie, bo ich argumenty mogą być przecież redukowalne) nieredukowalne oznacza, że ta
+definicja, jak każda *parametryczna* definicja indukcyjna, jest [*schematem
+aksjomatu*](https://pl.wikipedia.org/wiki/Schemat_aksjomatu)[^2], czyli *przepisem*
+charakteryzującym pewien - być może nieskończony - *zbiór aksjomatów*.
 
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
 takie* termy są termami (parametrycznego) typu `Or`. Ponadto zdania o postaci `Or a b`, które nie
-powstają z tych samych zdań, są *różnymi* zdaniami. Dowody będące aplikacjami *różnych*
-konstruktorów (tutaj konstruktorami są `Or.inl` i `Or.inr`) również *są* różnymi termami, chociaż
-jednocześnie są traktowane przez Leana jako wymienialne z powodu zasady *proof irrelevance*. Właśnie
-na tym, że to są wszystkie sposoby konstruowania termów tego typu i że różne sposoby konstrukcji
-dają różne termy polega *indukcyjność* tej definicji. Definicje `True` i `False` są w takim samym
-znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne i `False` nie ma konstruktora, a
-`True` ma tylko konstruktor `True.intro`.
+powstają z tych samych uporządkowanych par zdań, są *różnymi* zdaniami. Dowody będące aplikacjami
+różnych *konstruktorów* (tutaj konstruktorami są `Or.inl` i `Or.inr`) również są *różnymi termami*,
+jednak w tym przypadku są *wymienialne* ponieważ w Leanie obowiązuje zasada *proof
+irrelevance*. Właśnie na tym, że to są *wszystkie* sposoby konstruowania termów tego typu i że
+*różne* sposoby konstrukcji dają *różne* termy polega *indukcyjność* tej definicji. Definicje `True`
+i `False` są w takim samym znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne, a więc
+nie są schematami aksjomatu, a poza tym typ/zdanie `False` nie ma konstruktora, a `True` ma tylko
+konstruktor `True.intro`, .
 
-Ta definicja jest również [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition)
-(inaczej *rekursywna*), bo jest *przepisem jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*,
-czyli pewnego rodzaju obiekty czy struktury z obiektów czy struktur *tego samego
-rodzaju*. Rekurencyjność tej definicji może budzić wątpliwości, ale ta
-["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest akurat nieproblematyczna.
+Definicja typu `Or` jest również
+[*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition) (inaczej *rekursywna*), bo jest
+*przepisem jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*, czyli pewnego rodzaju obiekty czy
+struktury z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność tej definicji może budzić
+wątpliwości, ale ta ["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest
+akurat nieproblematyczna.
 
 Zmienię teraz konwencję i zacznę oznaczać bliżej nieokreślone zdania dużymi literami, żeby
-zasygnalizować, że te zdania mogą być złożone.
+zasygnalizować, że mogą być dowolnie złożone.
 
 *Jeżeli* `P` *i* `Q` *to zdania, to* `Or P Q` *jest zdaniem*.
 
@@ -201,3 +210,6 @@ TODO Że definicja indukcyjnego typu danych to axiom schema.
 
 [^1]: [Polska wersja](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu) tego
     artykułu (strony Wikipedii nazywamy oficialnie artykułami) jest niestety dosyć słaba.
+
+[^2]: Również w tym przypadku polska wersja tego artykułu jest znacznie gorsza od [wersji
+    angielskiej](https://en.wikipedia.org/wiki/Axiom_schema).
