@@ -134,6 +134,10 @@ diagramami, jednym diagramem, bo mamy tutaj do czynienia z dualnością koniunkc
 dualnością reguł wprowadzania do reguł eliminacji. Wydaje mi się, że oswojenie się z tymi
 dualnościami ułatwia zapamiętanie reguł redukcji dla koniunkcji i alternatywy.
 
+## Koniunkcja i alternatywa ze strzałek, ale inaczej
+
+
+
 To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
 
 ## Alternatywa w praktyce dowodzenia
