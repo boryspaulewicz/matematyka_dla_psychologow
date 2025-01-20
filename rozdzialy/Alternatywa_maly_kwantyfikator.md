@@ -3,7 +3,7 @@
 Zacznę od ogólnego wstępu, ale jeżeli ten wstęp wyda Ci się początkowo trudny do zrozumienia, możesz
 śmiało przejść do części dotyczącej praktyki dowodzenia za pomocą alternatywy i potem tu
 wrócić. Moim zdaniem, co już kilka razy podkreślałem, *czytając o złożonych kwestiach technicznych
-nie warto próbować zrozumieć wszystko po kolei*.
+nie warto próbować zrozumieć wszystkiego po kolei za wszelką cenę*.
 
 W Leanie `∨` to tylko lukier składniowy pod którym kryje się stała `Or`, oznaczająca indukcyjny typ
 danych zdefiniowany w taki oto sposób:
@@ -24,68 +24,100 @@ definiowanego typu. Ta definicja jest bardziej złożona przede wszystkim dlateg
 jednocześnie *parametryczna* i *rekurencyjna*.
 
 **Czytamy to**: Definiuję indukcyjnie (`inductive`) parametryczny (bo ta definicja ma \{tutaj dwa\}
-parametry) *typ danych* (bo istnieje nieskończenie wiele zdań tego rodzaju) `Or` typu `Prop` o
-parametrach `a` i `b` typu `Prop` (`Or (a b : Prop)`) jako typ takich termów, że (`where`) te termy
-powstają *albo* jako (`|`) *same, nieredukowalne aplikacje* o postaci `Or.inl (h a)` typu `Or a b`,
-albo jako (`|`) aplikacje `Or.inr (h : b)` typu `Or a b`.
+parametry) *typ danych* `Or` typu `Prop` o parametrach `a` i `b` typu `Prop` (`Or (a b : Prop)`)
+jako typ takich termów, że (`where`) te termy powstają *albo* jako (`|`) *same, nieredukowalne
+aplikacje* o postaci `Or.inl (h a)` typu `Or a b`, albo jako (`|`) aplikacje `Or.inr (h : b)` typu
+`Or a b`.
 
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
 takie* termy są termami (parametrycznego) typu `Or`. Ponadto zdania o postaci `Or a b`, które nie
 powstają z tych samych zdań, są *różnymi* zdaniami. Dowody będące aplikacjami *różnych*
-konstruktorów (tutaj konstruktorami są `Or.inl` i `Or.inr`) *nie* są jednak różne, ale *tylko* z
-powodu zasady *proof irrelevance*. Na tym polega *indukcyjność* tej definicji. Definicje `True` i
-`False` są w takim samym znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne i `False`
-nie ma konstruktora, a `True` ma tylko konstruktor `True.intro`.
+konstruktorów (tutaj konstruktorami są `Or.inl` i `Or.inr`) również *są* różnymi termami, chociaż
+jednocześnie są traktowane przez Leana jako wymienialne z powodu zasady *proof irrelevance*. Właśnie
+na tym, że to są wszystkie sposoby konstruowania termów tego typu i że różne sposoby konstrukcji
+dają różne termy polega *indukcyjność* tej definicji. Definicje `True` i `False` są w takim samym
+znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne i `False` nie ma konstruktora, a
+`True` ma tylko konstruktor `True.intro`.
 
 Ta definicja jest również [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition)
 (inaczej *rekursywna*), bo jest *przepisem jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*,
 czyli pewnego rodzaju obiekty czy struktury z obiektów czy struktur *tego samego
-rodzaju*. Rekurencyjność tej definicji jest czymś w rodzaju niegroźnej
-["kołowatości"](https://en.wikipedia.org/wiki/Circular_definition)[^1].
+rodzaju*. Rekurencyjność tej definicji może budzić wątpliwości, ale ta
+["kołowatość"](https://en.wikipedia.org/wiki/Circular_definition)[^1] jest akurat nieproblematyczna.
 
-*Jeżeli* `a` *i* `b` *to zdania, to* `Or a b` *jest zdaniem*.
+Zmienię teraz konwencję i zacznę oznaczać bliżej nieokreślone zdania dużymi literami, żeby
+zasygnalizować, że te zdania mogą być złożone.
 
-Jednocześnie to jest też przepis na tworzenie *dowodów* (mających postać alternatywy) *zdań z dowodów zdań*:
+*Jeżeli* `P` *i* `Q` *to zdania, to* `Or P Q` *jest zdaniem*.
 
-*Jeżeli* `a` *i* `b` *to zdania, to jeżeli* `h` *jest dowodem* `a`, *to* `Or.inl h` *jest dowodem
-zdania* `Or a b`.
+A więc to jest przepis na tworzenie pewnego rodzaju zdań ze zdań. Jednocześnie to jest też przepis
+na tworzenie dowodów pewnego rodzaju zdań z dowodów zdań:
 
-*Jeżeli* `a` *i* `b` *to zdania, to jeżeli* `h` *jest dowodem* `b`, *to* `Or.inr h` *jest dowodem*
-`Or a b`.
+*Jeżeli* `P` *i* `Q` *to zdania, to jeżeli* `h` *jest dowodem* `P`, *to* `Or.inl h` *jest dowodem
+zdania* `Or P Q`.
 
-Mówiąc krótko, jeżeli `a` i `b` to zdania, to dowodem zdania `Or a b`, które to zdanie zapisujemy
-zwykle jako `a ∨ b`, jest *albo* oznaczony jako `Or.inl` dowód zdania `a`, *albo* oznaczony jako
-`Or.inr` dowód zdania `b`. A więc jeżeli `a` i `b` to zdania, to `Or a b` jest trochę jak zbiór
-będący sumą rozłączną zbiorów (z powodu zasady nieważności dowodów jednoelementowych), którego
-elementami są dokładnie dowody `a` oznaczone tak, żeby nie mogły być równe żadnemu dowodowi `b` i
-dowody `b` oznaczone tak, żeby nie mogły być równe żadnemu dowodowi `a`. Widzimy więc, że
-alternatywa logiczna to szczególny przypadek koproduktu, czyli (z perspektywy kategoryjnej)
-"wywrócona na drugą stronę" koniunkcja i że nie bez powodu może się kojarzyć z sumą rozłączną
-zbiorów.
+*Jeżeli* `P` *i* `Q` *to zdania, to jeżeli* `h` *jest dowodem* `Q`, *to* `Or.inr h` *jest dowodem*
+`Or P Q`.
 
-Tą dualność widać zarówno w sposobie, w jaki dowodzimy koniunkcji i alternatywy - czyli w regułach
-wprowadzenia tego rodzaju zdań - jak i w sposobie, w jaki ich używamy, czyli w regułach
-eliminacji. W dodatku reguły eliminacji są dualne do reguł wprowadzania!
+Mówiąc krótko, jeżeli `P` i `Q` to zdania, to dowodem zdania `Or P Q`, które to zdanie zapisujemy
+zwykle - posługując się lukrem składniowym - jako `P ∨ Q`, jest *albo* oznaczony jako `Or.inl` dowód
+zdania `P`, *albo* oznaczony jako `Or.inr` dowód zdania `Q`. A więc `Or P Q` przypomina zbiór będący
+sumą rozłączną zbiorów, którego elementami są dokładnie dowody `P` oznaczone tak, żeby nie mogły być
+równe żadnemu dowodowi `Q` i dowody `Q` oznaczone tak, żeby nie mogły być równe żadnemu dowodowi
+`P`. Widzimy więc, że alternatywa logiczna to szczególny przypadek koproduktu, czyli (z perspektywy
+kategoryjnej) "wywrócona na drugą stronę" koniunkcja.
 
-Niech `p`, `q` i `r` będą jakimiś zdaniami. Żeby *udowodnić* zdanie `p ∧ q`, czyli je *wprowadzić*,
-być może jako ostatni krok (czyli cel), *w konstruowanym dowodzie*, trzeba dysponować *jednocześnie*
-dwoma dowodami, jednym dla zdania `p` *i* jednym dla zdania `q`. Żeby udowodnić `r` *dysponując*
-tylko dowodem zdania `p ∧ q`, czyli żeby *wykorzystać* w dowodzie tą koniunkcję do udowodnienia `r`,
-trzeba wykazać, że `r` wynika z `p` *lub* z `q` (lub z obydwu tych zdań zakładanych jednocześnie, bo
-*lub*, tak jak rozumiemy to słowo w logice, dopuszcza też taką możliwość). A więc w regule
-wprowadzania koniunkcji pojawia się pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się
-pojęcie alternatywy.
+## Koniunkcja i alternatywa z perspektywy kategoryjnej
 
-Żeby *wprowadzić* zdanie `p ∨ q`, trzeba dysponować dowodem `p` *lub* dowodem `q`. Żeby
-*wykorzystać* `p ∨ q` do udowodnienia `r`, trzeba udowodnić, że `r` wynika *zarówno z* `p` *jak i z*
-`q`, ponieważ stąd, że mamy *jakiś* dowód `p ∨ q`, nie da się jeszcze wywnioskować, *która* z tych
-alternatyw jest prawdziwa. A więc w wprowadzania alternatywy pojawia się pojęcie alternatywy, a w
-regule eliminacji alternatywy pojawia się pojęce koniunkcji. Wydaje mi się, że zauważanie tej
-dualności ułatwia zapamiętanie obydwu rodzajów reguł dla koniunkcji i alternatywy. Dzięki
-zrozumieniu jej wystarczy w zasadzie zapamiętać *tylko* reguły dedukcji dla koniunkcji (albo dla
-alternatywy). I w ten sposób dualność pozwala nam "zmniejszyć liczbę problemów o połowę".
+Tą dualność widać zarówno w sposobie, w jaki *dowodzimy* koniunkcji i alternatywy - czyli w regułach
+*wprowadzenia* tego rodzaju zdań - jak i w sposobie, w jaki ich *używamy*, czyli w regułach
+*eliminacji*. W dodatku reguły eliminacji są również *częściowo* dualne do reguł wprowadzania.
 
-No to teraz może spędzimy trochę więcej czasu przyglądając się dowodom w Leanie?
+Niech `P`, `Q` i `R` będą jakimiś zdaniami. Żeby *udowodnić* zdanie `P ∧ Q` trzeba dysponować
+*jednocześnie dwoma dowodami*, jednym dla zdania `P` *i* jednym dla zdania `Q`.
+
+Żeby udowodnić `R` *dysponując* tylko dowodem zdania `P ∧ Q`, czyli żeby *wykorzystać* w dowodzie tą
+koniunkcję do udowodnienia `R`, trzeba wykazać, że `R` wynika z `P` *lub* z `Q` (lub z obydwu tych
+zdań zakładanych jednocześnie, bo *lub*, tak jak rozumiemy to słowo w logice, dopuszcza też taką
+możliwość). A więc w regule wprowadzania koniunkcji pojawia się pojęcie koniunkcji, a w regule
+eliminacji koniunkcji pojawia się pojęcie alternatywy.
+
+Każdy dowód koniunkcji będzie albo wymagał zastosowania jakiś dostępnych lokalnie hipotez, albo
+nie. Na przykład, jeżeli koniunkcja ma postać `(p \to p) \and q`, to dowód lewego członu tej
+koniunkcji możemy skonstruować "z niczego" konstruując funkcję identycznościową na zdaniach i to
+będzie jednocześnie dowód implikacji `True \to (p \to p)`. A dysponując lokalnie na przykład - jako
+założeniem albo udowodnionym wcześniej zdaniem - hipotezą `p \to q \and p`, możemy udowodnić `q`.
+
+Zawsze gdy możemy udowodnić w danym kontekście jakieś dwa zdania `P` i `Q`, w tym samym kontekście
+możemy też udowodnić pewne zdanie `H`, z którego *jednocześnie* wynikają te dwa zdania, czyli zawsze
+wtedy możemy udowodnić implikacje `H \to P` i `H \to Q` dla pewnego zdania `H`. W ostatnim
+przykładzie takim zdaniem `H` było zdanie `True \and (p \to q \and p)`, albo po prostu `p \to q \and
+p`. A więc z perspektywy kategoryjnej będą wtedy istniały współźródłowe strzałki do punktów `P` i
+`Q`. Z tej perspektywy, ponieważ kategoria dowiedlności zdań jest cienka, reguła wprowadzania dla
+koniunkcji odpowiada "produktowości" koniunkcji, bo mówi, że *istnieje* wtedy strzałka z tego samego
+źródła do `P \and Q` i taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
+
+Reguła eliminacji dla koniunkcji dotyczy z kolei strzałek *z* koniunkcji. Ponieważ każda koniunkcja
+to pewna specjalna para współźródłowych strzałek `P \l P \and Q \to Q`, to z koniunkcji wynikają te
+i tylko te zdania, które wynikają z `P` - bo wtedy wynikają z `P \and Q` z powodu składalności
+strzałek / przechodniości relacji dowiedlności - lub z `Q` *lub* z `P \and Q`.
+
+Żeby *wprowadzić* zdanie `P ∨ Q`, trzeba dysponować dowodem `P` *lub* dowodem `Q`. Żeby
+*wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P` *jak i z*
+`Q`, ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się wywnioskować, *która* z tych
+alternatyw jest prawdziwa. A więc we wprowadzaniu alternatywy, które dotyczy strzałek *do*
+alternatywy jako koproduktu, pojawia się pojęcie alternatywy, a w regule eliminacji alternatywy,
+która dotyczy strzałek *z* alternatywy jako koproduktu, pojawia się pojęce koniunkcji. 
+
+Jak już wiesz, można to wszystko wyrazić w języku teorii kategorii posługując się diagramami, a
+właściwie jednym diagramem, bo mamy tutaj do czynienia z dualnością. Wydaje mi się, że zauważanie
+tej dualności ułatwia zapamiętanie obydwu rodzajów reguł dla koniunkcji i alternatywy. Dzięki
+zrozumieniu tej dualności wystarczy przecież w zasadzie zapamiętać tylko reguły dedukcji dla
+koniunkcji (albo dla alternatywy).
+
+To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
+
+## Alternatywa w praktyce dowodzenia
 
 ```lean
 variable (p q r : Prop)
