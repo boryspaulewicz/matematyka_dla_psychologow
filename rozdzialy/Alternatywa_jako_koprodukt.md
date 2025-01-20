@@ -194,14 +194,14 @@ dualne.
 
 Ta strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie
 zdanie, że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde
-zdanie, które wynika z *łącznej* prawdziwości członów tej alternatywy. Chodzi tu o łączną
-prawdziwość, bo wiedząc *tylko*, że `p` jest prawdą *lub* `q` jest prawdą *nie wiemy które* z tych
-dwóch zdań jest prawdziwe, a więc nie możemy być tylko na tej podstawie pewni prawdziwości zdań,
-które wynikają z prawdziwości zdania `p`, ani zdań, które wynikają z prawdziwości zdania `q`. Możemy
-być pewni prawdziwości tylko tych zdań, które wynikają z *mocniejszego* warunku łącznej prawdziwości
-zdań `p` i `q`.
+zdanie, które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. To jest
+trudniejszy do spełnienia, a więc bardziej wymagający albo mocniejszy warunek niż wynikanie z
+łącznej prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc mocniejszym założeniem niż
+alternatywa złożona z tych samych zdań, *co znaczy*, że `p \and q` wynika `p \or q`, ale nie
+odwrotnie, czyli *na ogół* więcej można wywnioskować z koniunkcji niż z alternatyw.
 
-To teraz może pobawimy się trochę dowodami zdań, w których występują alternatywy?
+To co, może już wylądujemy na ziemi i pobawimy się trochę dowodami zdań, w których występują
+alternatywy?
 
 ## Alternatywa w praktyce dowodzenia
 
