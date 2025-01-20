@@ -232,8 +232,8 @@ variable (p q r : Prop)
 
 -- Jeżeli p, to oczywiście również p lub q. To jest pierwsza reguła wprowadzania alternatywy w
 -- dedukcji naturalnej. Ponieważ alternatywa to w Leanie zdefiniowany indukcyjnie koprodukt,
--- konstruujemy dowody alternatyw używając albo pierwszej (albo lewej) albo drugiej (albo prawej)
--- injekcji.
+-- konstruujemy dowody alternatyw używając albo pierwszej (inaczej lewej) albo drugiej (inaczej prawej)
+-- injekcji. Pierwsza/lewa to Or.inl, a druga/prawa to Or.inr.
 example : p → p ∨ q := 
   fun (hp : p) => Or.inl hp
 
@@ -241,8 +241,8 @@ example : p → p ∨ q :=
 example : q → p ∨ q := 
   fun (hq : q) => Or.inr hq
 
--- Pominąłem typowanie argumentu w funkcji anonimowej, ale poza tym ten dowód nie jest jak sądzę dla Ciebie
--- jakoś wyjątkowo niezrozumiały?
+-- Pominąłem typowanie argumentu w funkcji anonimowej, ale poza tym ten dowód nie jest już dla Ciebie
+-- szczególnie trudny do zrozumienia, prawda?
 example : p ∧ q → p ∨ q := 
   fun h => Or.inl h.left
 
