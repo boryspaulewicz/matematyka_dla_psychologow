@@ -305,23 +305,23 @@ example : p ∨ q → q ∨ p :=
 
 ## Kilka nowych taktyk
 
-Gdy mamy w kontekście dowód alternatywy, zastosowanie taktyki `cases` może być pomocne, ponieważ
-ułatwia skupienie się na udowodnieniu osobno każdej z dwóch implikacji, które są wymagane przez
-regułę *wprowadzania* alternatywy. Jako argument podajemy wtedy nazwę dowodu tej alternatywy.
+Gdy mamy jakiś dowód alternatywy *w kontekście* i chcemy z niego skorzystać, zastosowanie taktyki
+`cases` może być pomocne, ponieważ ułatwia skupienie się "obsłużeniu" każdego z dwóch sposobów
+*skonstruowania dowodu tej alternatywy*. Jako argument podajemy wtedy nazwę dostępnego w kontekście
+dowodu alternatywy.
 
 ```lean
 example : p ∨ q → q ∨ p := by
-  -- Wprowadzamy do kontekstu hipotetyczny dowód zdania p \or q jako zmienną h.
+  -- Wprowadzamy do kontekstu przesłankę/poprzednik/hipotetyczny dowód zdania p \or q jako zmienną h.
   intro h
-  -- *Ten* dowód (a nie dowód celu) mógł powstać tylko na dwa sposoby, albo na skutek zastosowania
-  -- konstruktora inl, albo konstruktora inr. Taktyka cases pozwala wygodnie "obsłużyć" obydwie
-  -- możliwości, a dzięki temu w tym przypadku skonstruować dowody dwóch implikacji, które są tutaj
-  -- potrzebne, żeby niejawnie zastosować regułę eliminacji alternatywy.
+  -- *Ten* dowód (a nie dowód celu) mógł powstać tylko na dwa sposoby - albo na skutek zastosowania
+  -- konstruktora inl, albo konstruktora inr. Taktyka cases pozwala wygodnie obsłużyć obydwie
+  -- możliwości.
   cases h with
-  |inl hp => -- Uzupełnij brakujący kod zwracając uwagę na stan dowodu, lub wyciągając wnioski z komentarza poniżej.
+  |inl hp => -- Uzupełnij brakujący kod, zwracając uwagę na stan dowodu, lub wyciągając wnioski z komentarza poniżej.
   -- Pozostaje zastosować tutaj taktykę exact z aplikacją konstruktora Or.inr do odpowiedniego argumentu.
   -- Gdy już skontruujesz w tym miejscu dowód implikacji p \to q \or p, to gdy kursor będzie w
-  -- następnej linii, zobaczysz, że masz do dyspozycji dowód hp zdania q. Będziesz już wtedy wiedziała,
+  -- następnej linii, zobaczysz, że masz do dyspozycji dowód hq zdania q. Będziesz już wtedy wiedziała,
   -- co masz zrobić.
   |inr hq => -- Uzupełnij brakujący kod.
 
@@ -343,15 +343,18 @@ example : p ∨ q → q ∨ p := by
   -- celem.
   --
   -- Zastosowanie taktyki apply <argument> powoduje, że Lean próbuje dopasować *wniosek* albo *rezultat*
-  -- tego, co jest podane jako argument, do aktualnego celu i jeśli mu się uda, tworzy nowy cel lub cele, które
+  -- tego, co jest podane jako argument, do aktualnego celu. Jeśli mu się uda, tworzy nowy cel lub cele, które
   -- muszą być zrealizowane, żeby zastosowanie tego czegoś, co jest arugmentem, zakończyło się sukcesem.
   -- Czyli pojawiają się wtedy nowe cele, będące przesłankami albo prerekwizytami, które trzeba udowodnić albo
   -- skontruować, żeby zastosowanie argumentu taktyki apply rozwiązało oryginalny cel. W tym przypadku
-  -- jako nowy cel pojawi się więc zdanie q.
+  -- jako nowy cel pojawi się więc zdanie p, ponieważ skonstruowanie dowodu oryginalnego celu za pomocą
+  -- konstruktora Or.inr wymaga uzupełnienia właśnie o dowód zdania p, które jest prawym członem alternatywy
+  -- będącej oryginalnym celem.
   apply Or.inr
   -- Taktyka assumption sama szuka w kontekście termu o takim samym typie jak aktualny cel. I w tym
-  -- wypadku go znajduje. Gdy kursor znajduje się w tej samej linii co assumption, widać, że kontekst
-  -- odpowiada drugiemu możliwemu sposobowi udowodnienia *przesłanki* p \or q, to jest h : q.
+  -- wypadku go znajduje. Dzięki temu nie musimy odwoływać się do nazwy tego dowodu. Gdy kursor znajduje
+  -- się w tej samej linii co assumption, widać, że kontekst odpowiada drugiemu możliwemu sposobowi
+  -- udowodnienia *przesłanki* p \or q, to jest h : q.
   assumption
   -- Dokończ dowód podobnie, jak to zrobiłem powyżej, czyli zaczynając od zastosowania taktyki apply z odpowiednim
   -- konstruktorem alternatywy.
@@ -359,11 +362,11 @@ example : p ∨ q → q ∨ p := by
 example : p ∨ q → q ∨ p := by
   intro h
   cases h
-  -- Taktyka rename_i pozwala nadać jawnie nazwę zmiennej, która została nazwana przez Leana automatycznie,
+  -- Taktyka rename_i pozwala nadać jawnie nową nazwę zmiennej, która została nazwana przez Leana automatycznie,
   -- dzięki czemu można się potem posługiwać tą nazwą w konstrukcji dowodu.
   rename_i hp
   exact Or.inr hp
-  -- Dokończ dowód zaczynając od nadania jawnej nazwy widocznemu w kontekście dowodowi zdania q.
+  -- Dokończ dowód, zaczynając od nadania jawnej nazwy widocznemu w kontekście dowodowi zdania q.
 ```
 
 ### Przypisy
