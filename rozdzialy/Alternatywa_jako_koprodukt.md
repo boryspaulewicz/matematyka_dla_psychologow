@@ -320,24 +320,24 @@ możliwych sposobów *wprowadzania* takiego dowodu.
 
 ```lean
 example : p ∨ q → q ∨ p := by
-  -- Wprowadzamy do kontekstu przesłankę/poprzednik/hipotetyczny dowód zdania p \or q jako zmienną h.
+  -- Wprowadzamy do kontekstu przesłankę/poprzednik/hipotetyczny dowód zdania p ∨ q jako zmienną h.
   intro h
   -- *Ten* dowód (a nie dowód celu) mógł powstać tylko na dwa sposoby - albo na skutek zastosowania
   -- konstruktora inl, albo konstruktora inr. Taktyka cases pozwala wygodnie obsłużyć obydwie
   -- możliwości.
   cases h with
-  |inl hp => -- Uzupełnij brakujący kod, zwracając uwagę na stan dowodu, lub wyciągając wnioski z komentarza poniżej.
-  -- Pozostaje zastosować tutaj taktykę exact z aplikacją konstruktora Or.inr do odpowiedniego argumentu.
-  -- Gdy już skontruujesz w tym miejscu dowód implikacji p \to q \or p, to gdy kursor będzie w
-  -- następnej linii, zobaczysz, że masz do dyspozycji dowód hq zdania q. Będziesz już wtedy wiedziała,
-  -- co masz zrobić.
+  -- W tym miejscu zapisujemy nazwę konstruktora bez poprzedzania jej nazwą przestrzeni nazw Or.
+  |inl hp => -- Uzupełnij brakujący kod, zwracając uwagę na stan dowodu, lub wyciągając wnioski z komentarza
+  -- poniżej. Pozostaje zastosować tutaj taktykę exact z aplikacją konstruktora Or.inr do odpowiedniego argumentu.
+  -- Gdy już skontruujesz w tym miejscu dowód implikacji p → q ∨ p, to gdy kursor będzie w następnej linii,
+  -- zobaczysz, że masz do dyspozycji dowód hq zdania q. Będziesz już wtedy wiedziała, co należy zrobić.
   |inr hq => -- Uzupełnij brakujący kod.
 
 example : p ∨ q → q ∨ p := by
   intro h
   -- To tylko inny sposób zapisania tego samego dowodu.
   cases h -- Gdy kursor jest tutaj, dostępna w kontekście zmienna h ma inny kolor niż pozostałe. To dlatego,
-  -- że tą nazwę Lean wygenerował automatycznie, a to znaczy, że przyszła implementacja Leana może to zrobić
+  -- że tą nazwę Lean wygenerował *automatycznie*, a to znaczy, że przyszła implementacja Leana może to zrobić
   -- inaczej, a wtedy dowód opierający się na tym, jaka to jest nazwa, przestałby działać.
   case inl hp => -- Gdy kursor jest tutaj, widoczna w konkteście nazwa dowodu p to hp. Uzupełnij brakujący kod.
   case inr hq => -- Uzupełnij brakujący kod.
@@ -345,27 +345,27 @@ example : p ∨ q → q ∨ p := by
 example : p ∨ q → q ∨ p := by
   intro h
   cases h -- W tym miejscu widoczna w kontekście zmienna h ma znowu inny kolor. Nie musimy jednak ani
-  -- odnosić się do tej zmiennej jawnie, ani jak wcześniej nadawać jej nazwy. Zamiast tego możemy
-  -- zastosować taktykę apply. W tym miejscu da się skonstruować dowód p \or q za pomocą konstruktora
-  -- Or.inr, bo w kontekście jest tylko dowód zdania p, które jest *prawym* członem alternatywy będącej
-  -- celem.
+  -- odnosić się do tej zmiennej jawnie, ani jak wcześniej nadawać nazwy hipotetycznym dowodom członów tej
+  -- alternatywy. Zamiast tego możemy zastosować taktykę apply. W tym miejscu da się skonstruować dowód p ∨ q
+  -- za pomocą konstruktora Or.inr, bo w kontekście jest tylko dowód zdania p, które jest *prawym* członem
+  -- alternatywy będącej celem.
   --
-  -- Zastosowanie taktyki apply <argument> powoduje, że Lean próbuje dopasować *wniosek* albo *rezultat*
+  -- Zastosowanie taktyki apply <argument> powoduje, że Lean próbuje dopasować *wniosek* albo ogólniej *rezultat*
   -- tego, co jest podane jako argument, do aktualnego celu. Jeśli mu się uda, tworzy nowy cel lub cele, które
   -- muszą być zrealizowane, żeby zastosowanie tego czegoś, co jest arugmentem, zakończyło się sukcesem.
   -- Czyli pojawiają się wtedy nowe cele, będące przesłankami albo prerekwizytami, które trzeba udowodnić albo
-  -- skontruować, żeby zastosowanie argumentu taktyki apply rozwiązało oryginalny cel. W tym przypadku
+  -- mówiąc ogólnie skontruować, żeby zastosowanie argumentu taktyki apply rozwiązało oryginalny cel. W tym przypadku
   -- jako nowy cel pojawi się więc zdanie p, ponieważ skonstruowanie dowodu oryginalnego celu za pomocą
   -- konstruktora Or.inr wymaga uzupełnienia właśnie o dowód zdania p, które jest prawym członem alternatywy
   -- będącej oryginalnym celem.
   apply Or.inr
-  -- Taktyka assumption sama szuka w kontekście termu o takim samym typie jak aktualny cel. I w tym
+  -- Taktyka assumption sama szuka w kontekście termu o takim samym typie jak aktualny cel i w tym
   -- wypadku go znajduje. Dzięki temu nie musimy odwoływać się do nazwy tego dowodu. Gdy kursor znajduje
   -- się w tej samej linii co assumption, widać, że kontekst odpowiada drugiemu możliwemu sposobowi
-  -- udowodnienia *przesłanki* p \or q, to jest h : q.
+  -- udowodnienia *przesłanki* p ∨ q, to jest h : q.
   assumption
-  -- Dokończ dowód podobnie, jak to zrobiłem powyżej, czyli zaczynając od zastosowania taktyki apply z odpowiednim
-  -- konstruktorem alternatywy.
+  -- Dokończ dowód podobnie, jak to zrobiłem powyżej, czyli zaczynając od zastosowania taktyki apply z
+  -- odpowiednim konstruktorem alternatywy.
 
 example : p ∨ q → q ∨ p := by
   intro h
@@ -374,7 +374,7 @@ example : p ∨ q → q ∨ p := by
   -- dzięki czemu można się potem posługiwać tą nazwą w konstrukcji dowodu.
   rename_i hp
   exact Or.inr hp
-  -- Dokończ dowód, zaczynając od nadania jawnej nazwy widocznemu w kontekście dowodowi zdania q.
+  -- Dokończ dowód, zaczynając od nadania jawnej nazwy widocznemu w tym momencie w kontekście dowodowi zdania q.
 ```
 
 ### Przypisy
