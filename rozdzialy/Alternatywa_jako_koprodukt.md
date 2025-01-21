@@ -79,13 +79,12 @@ na tworzenie dowodów pewnego rodzaju zdań z dowodów zdań:
 *Jeżeli* `P` *i* `Q` *to zdania, to jeżeli* `h` *jest dowodem* `Q`, *to* `Or.inr h` *jest dowodem*
 `Or P Q`.
 
-Mówiąc krótko, jeżeli `P` i `Q` to zdania, to dowodem zdania `Or P Q`, które to zdanie zapisujemy
-zwykle - posługując się lukrem składniowym - jako `P ∨ Q`, jest *albo* oznaczony jako `Or.inl` dowód
-zdania `P`, *albo* oznaczony jako `Or.inr` dowód zdania `Q`. A więc `Or P Q` przypomina zbiór będący
-sumą rozłączną zbiorów, którego elementami są dokładnie dowody `P` oznaczone tak, żeby nie mogły być
-równe żadnemu dowodowi `Q` i dowody `Q` oznaczone tak, żeby nie mogły być równe żadnemu dowodowi
-`P`. Widzimy znowu, że alternatywa to szczególny przypadek koproduktu, czyli (z perspektywy
-kategoryjnej) "wywrócona na drugą stronę" koniunkcja.
+Mówiąc krótko, jeżeli `P` i `Q` to zdania, to dowodem zdania `Or P Q` jest *albo* oznaczony jako
+`Or.inl` dowód zdania `P`, *albo* oznaczony jako `Or.inr` dowód zdania `Q`. A więc `Or P Q`
+przypomina zbiór będący sumą rozłączną zbiorów, którego elementami są dokładnie dowody `P` oznaczone
+tak, żeby nie mogły być równe żadnemu dowodowi `Q` i dowody `Q` oznaczone tak, żeby nie mogły być
+równe żadnemu dowodowi `P`. Widzimy oto znowu, że alternatywa to szczególny przypadek koproduktu,
+czyli (z perspektywy kategoryjnej) "wywrócona na drugą stronę" koniunkcja.
 
 ## Koniunkcja i alternatywa z perspektywy kategoryjnej
 
