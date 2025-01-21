@@ -96,10 +96,10 @@ Niech `P`, `Q` i `R` będą jakimiś zdaniami. Żeby *udowodnić* zdanie `P ∧ 
 *jednocześnie dwoma dowodami*, jednym dla zdania `P` *i* jednym dla zdania `Q`.
 
 Żeby udowodnić `R` *dysponując* tylko dowodem zdania `P ∧ Q`, czyli żeby *wykorzystać* w dowodzie tą
-koniunkcję do udowodnienia `R`, trzeba wykazać, że `R` wynika z `P`, *lub* z `Q`, lub z obydwu tych
-zdań jednocześnie, bo "lub" (albo "albo"), tak jak domyślnie rozumiemy to słowo w logice, dopuszcza
-też taką możliwość. A więc w regule wprowadzania koniunkcji pojawia się pojęcie koniunkcji, a w
-regule eliminacji koniunkcji pojawia się dualne pojęcie alternatywy.
+koniunkcję do udowodnienia `R`, wystarczy wykazać, że `R` wynika z `P`, *lub* wykazać, że wynika z
+`Q`, lub z obydwu tych zdań jednocześnie, bo "lub" (albo "albo"), tak jak domyślnie rozumiemy to
+słowo w logice, dopuszcza też taką możliwość. A więc w regule wprowadzania koniunkcji pojawia się
+pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się dualne pojęcie alternatywy.
 
 Każdy dowód koniunkcji albo będzie wymagał zastosowania jakiś dostępnych lokalnie hipotez, albo
 nie. Na przykład, jeżeli koniunkcja do udowodnienia będzie miała postać `(p → p) ∧ q`, to dowód
