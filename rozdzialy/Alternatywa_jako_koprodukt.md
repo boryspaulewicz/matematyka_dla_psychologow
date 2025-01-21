@@ -212,10 +212,10 @@ tych samych zdań, ale nie odwrotnie.
 Możemy powiedzieć to samo, tylko najogólniej jak się da, wznosząc się znowu na wysokość, na której
 słychać już trochę burczenie aniołów: Jeżeli w kategorii `ℂ` istnieje produkt `X × Y` i koprodukt
 `X + Y`, to istnieją co najmniej dwie, niekoniecznie różne strzałki z `X × Y` do `X + Y`, bo są nimi
-co najmniej projekcje, za to nie musi istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto
-sposób za jednym zamachem stwierdziliśmy coś na temat koniunkcji i alternatywy, iloczynu
-kartezjańskiego zbiorów i sumy rozłącznej zbiorów i wszystkich innych możliwych produktów i
-koproduktów w jakichkolwiek kategoriach. 
+co najmniej złożenia projekcji z `X × Y` z injekcjami do `X + Y`. Za to nie musi istnieć żadna
+strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym zamachem stwierdziliśmy coś na temat
+koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy rozłącznej zbiorów i w ogóle
+wszystkich możliwych produktów i koproduktów.
 
 Możemy zobaczyć z tej perspektywy, że to, jak działa koniunkcja i alternatywa nie ma *nic* wspólnego
 z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo innej wersji
