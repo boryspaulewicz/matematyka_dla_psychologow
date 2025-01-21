@@ -221,11 +221,11 @@ Możemy zobaczyć z tej perspektywy, że to, jak działa koniunkcja i alternatyw
 z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo innej wersji
 teorii typów. Może się wydawać, że wyjaśniając w ten sposób jak działa koniunkcja i alternatywa
 tracimy poczucie sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy
-tendencję do rozumienia wszystkiego w kategoriach jak najbardziej konkretnych, takich jak szczegóły
+tendencję do rozumienia wszystkiego w kategoriach konkretnych, takich jak szczegóły
 implementacji. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
 zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej uniwersalnych powodów,
-dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w danym kontekście (tutaj
-w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
+dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w różnych kontekstach
+(tutaj w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
 
 To co, może wylądujemy już na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
