@@ -101,13 +101,14 @@ koniunkcję do udowodnienia `R`, wystarczy wykazać, że `R` wynika z `P`, *lub*
 słowo w logice, dopuszcza też taką możliwość. A więc w regule wprowadzania koniunkcji pojawia się
 pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się dualne pojęcie alternatywy.
 
-Każdy dowód koniunkcji albo będzie wymagał zastosowania jakiś dostępnych lokalnie hipotez, albo
-nie. Na przykład, jeżeli koniunkcja do udowodnienia będzie miała postać `(p → p) ∧ q`, to dowód
-lewego członu będziemy mogli skonstruować "z niczego", konstruując funkcję identycznościową na
-zdaniach i to będzie jednocześnie *prawie* dowód implikacji `True → (p → p)`, bo taki dowód musiałby
-ignorować swój argument, będący dowodem zdania `True` i zwrócić identyczność. A dysponując lokalnie,
-jako założeniem albo udowodnionym wcześniej zdaniem, na przykład hipotezą `(p → q) ∧ p`, będziemy
-mogli udowodnić zdanie `q`.
+Wydaje mi się, że nie jest wcale oczywiste, że mamy tutaj do czynienia ze współźródłowymi strzałkami
+do produktu i jego członów. Każdy dowód koniunkcji albo będzie wymagał zastosowania jakiś dostępnych
+lokalnie hipotez, albo nie. Na przykład, jeżeli koniunkcja do udowodnienia będzie miała postać `(p →
+p) ∧ q`, to dowód lewego członu będziemy mogli skonstruować "z niczego", konstruując funkcję
+identycznościową na zdaniach i to będzie jednocześnie *prawie* dowód implikacji `True → (p → p)`, bo
+taki dowód musiałby ignorować swój argument, będący dowodem zdania `True` i zwrócić identyczność. A
+dysponując lokalnie, jako założeniem albo udowodnionym wcześniej zdaniem, na przykład hipotezą `(p →
+q) ∧ p`, będziemy mogli udowodnić zdanie `q`.
 
 Zawsze, gdy możemy udowodnić w danym kontekście jakieś dwa zdania `P` i `Q`, w tym samym kontekście
 możemy też udowodnić pewne zdanie `H`, z którego *jednocześnie* wynikają te dwa zdania, czyli zawsze
