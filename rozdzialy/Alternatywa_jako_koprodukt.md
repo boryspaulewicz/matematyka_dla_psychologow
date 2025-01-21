@@ -1,7 +1,7 @@
 # p ∨ q ~ p + q
 
-Zacznę od ogólnego wstępu, ale jeżeli ten wstęp wyda Ci się początkowo trudny do zrozumienia, możesz
-śmiało przejść do
+Zacznę od ogólnych rozważań, ale jeżeli ten wstęp wyda Ci się początkowo trudny do zrozumienia,
+możesz śmiało przejść do
 [części](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Alternatywa_jako_koprodukt.md#alternatywa-w-praktyce-dowodzenia)
 dotyczącej praktyki dowodzenia i potem tu wrócić. Moim zdaniem, co już kilka razy podkreślałem,
 *czytając o skomplikowanych, technicznych kwestiach nie warto próbować za wszelką cenę zrozumieć
