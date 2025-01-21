@@ -33,11 +33,11 @@ aplikację `Or.inr (h : b)` typu `Or a b`.
 
 ## Krótko o definicjach indukcyjnych, definicjach rekurencyjnych i schematach aksjomatów.
 
-Stąd, że aksjomaty to dokładnie definicje pozbawione ciała, czyli definicje nierozwijalne, czyli
-arbitralne konwencje językowe albo pojęciowe, czyli pewne *wybory* dotyczące tego, o czym ma być
-mowa, wynika, że to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty mogą być
-przecież redukowalne) nieredukowalne oznacza, że ta definicja, jak każda *parametryczna* definicja
-indukcyjnego *typu danych*, jest tak zwanym [*schematem
+Jak już wiesz, aksjomaty to dokładnie definicje pozbawione ciała, czyli definicje nierozwijalne,
+czyli arbitralne konwencje językowe albo pojęciowe, czyli pewne *wybory* dotyczące tego, o czym ma
+być mowa. A w takim razie to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty
+mogą być przecież redukowalne) nieredukowalne, oznacza, że ta definicja, jak każda *parametryczna*
+definicja *indukcyjnego typu danych*, jest tak zwanym [*schematem
 aksjomatu*](https://pl.wikipedia.org/wiki/Schemat_aksjomatu)[^1], czyli *przepisem*
 charakteryzującym pewien - być może nieskończony - *zbiór aksjomatów*.
 
