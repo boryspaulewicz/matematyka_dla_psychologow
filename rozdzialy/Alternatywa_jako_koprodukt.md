@@ -58,7 +58,12 @@ jeden konstruktor `True.intro`.
 Definicja parametrycznego (czyli zależnego) typu `Or` jest również
 [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition) (inaczej *rekursywna*), bo jest
 *przepisem, jak można tworzyć* (pewnego rodzaju) *zdania ze zdań*, czyli pewnego rodzaju obiekty czy
-struktury z obiektów czy struktur *tego samego rodzaju*. Rekurencyjność tej definicji może budzić
+struktury z obiektów czy struktur *tego samego rodzaju*. Ale uwaga, ta aksjomatyczna definicja jest
+rekurencyjna w tym znaczeniu, że jest przepisem mówiącym, że pewnego rodzaju zdania istnieją jako
+konstrukcje z innych zdań, ale *nie* w tym znaczeniu, że alternatywy istnieją jako konstrukcje z
+alternatyw (co nie znaczy, że nie *mogą* być zrobione z alternatyw). To jest więc *część*
+rekurencyjnej definicji *zdań*, a dokładniej [*formuł
+logicznych*](https://pl.wikipedia.org/wiki/Formu%C5%82a_logiczna). Ta rekurencyjność może budzić
 wątpliwości, ale - wbrew obiegowej opinii - nie każda ["kołowatość"
 definicji](https://en.wikipedia.org/wiki/Circular_definition)[^2] jest problematyczna. Ta na
 przykład nie jest.
