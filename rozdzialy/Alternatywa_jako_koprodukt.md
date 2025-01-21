@@ -53,7 +53,7 @@ Właśnie na tym, że to są *wszystkie* sposoby konstruowania termów tego typu
 konstrukcji dają *różne* termy polega *indukcyjność* tej definicji. Definicje `True` i `False` są w
 takim samym znaczeniu indukcyjne, ale te dwie definicje nie są parametryczne, a więc nie są
 schematami aksjomatu, a poza tym typ/zdanie `False` nie ma żadnego konstruktora, a `True` ma tylko
-jeden, to jest konstruktor `True.intro`.
+jeden konstruktor `True.intro`.
 
 Definicja parametrycznego (czyli zależnego) typu `Or` jest również
 [*rekurencyjna*](https://en.wikipedia.org/wiki/Recursive_definition) (inaczej *rekursywna*), bo jest
