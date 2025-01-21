@@ -43,11 +43,11 @@ charakteryzującym pewien - być może nieskończony - *zbiór aksjomatów*.
 
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
 takie* termy są termami (parametrycznego) typu `Or`. Ponadto, zdania o postaci `Or a b`, które nie
-powstają z tych samych uporządkowanych par zdań, są na mocy tej definicji *różnymi* zdaniami. Dowody
-alternatyw będące aplikacjami różnych *konstruktorów* (tutaj konstruktorami są `Or.inl` i `Or.inr`)
-są więc *różnymi termami*, jednak w tym przypadku te dowody są *wymienialne*, ale tylko dlatego, że
-są *traktowane* jako takie same, zgodnie z obowiązującą w Leanie zasadą nieważności struktury
-dowodu.
+powstają z tych samych uporządkowanych par zdań, są na mocy tej definicji *różnymi* zdaniami i tak
+samo dowody alternatyw będące aplikacjami różnych *konstruktorów* (tutaj konstruktorami są `Or.inl`
+i `Or.inr`) są *różnymi termami*. Jednak w tym przypadku te *różne* termy będące dowodami są
+*wymienialne*, ale tylko dlatego, że są *traktowane* jako takie same, zgodnie z obowiązującą w
+Leanie zasadą nieważności struktury (poprawnych) dowodów.
 
 Właśnie na tym, że to są *wszystkie* sposoby konstruowania termów tego typu i że *różne* sposoby
 konstrukcji dają *różne* termy polega *indukcyjność* tej definicji. Definicje `True` i `False` są w
