@@ -194,7 +194,7 @@ def or_in1 (p q : Prop) (hp : p) : or p q :=
 def or_in2 (p q : Prop) (hq : q) : or p q :=
   fun _ => fun _ => fun hq_to_r => hq_to_r hq
 
--- Sama definicja alternatywy jest tutaj tym samym co jedyna reguła eliminacji dla alternatywy.
+-- Sama definicja alternatywy jest tutaj tym samym, co jedyna reguła eliminacji dla alternatywy.
 ```
 
 To, że koniunkcja ma jedną regułę wprowadzania i dwie reguły eliminacji, a alternatywa ma dwie
@@ -309,7 +309,7 @@ example : p ∨ q → q ∨ p :=
 
 Gdy mamy jakiś dowód alternatywy *w kontekście* i chcemy z niego skorzystać, zastosowanie taktyki
 `cases` może być pomocne, ponieważ ułatwia skupienie się na "obsłużeniu" każdego z dwóch możliwych
-sposobów *skonstruowania dowodu tej alternatywy*. Jako argument podajemy wtedy nazwę dostępnego w
+sposobów *konstruowania dowodu tej alternatywy*. Jako argument podajemy wtedy nazwę dostępnego w
 kontekście dowodu alternatywy.
 
 ```lean
