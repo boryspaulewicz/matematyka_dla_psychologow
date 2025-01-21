@@ -127,9 +127,9 @@ wprowadzania i że w regułach eliminacji dla koniunkcji pojawia się - ale w *m
 lub*, a nie jako spójnik logiczny występujący w jakimś formalnym zdaniu, o którym mówią te reguły -
 obiekt dualny do koniunkcji, to jest alternatywa.
 
-Żeby *wprowadzić* zdanie `P ∨ Q`, trzeba dysponować dowodem `P` *lub* dowodem `Q`. Żeby
-*wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P` *jak i,
-niezależnie, z* `Q`, ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się
+Żeby *wprowadzić* zdanie `P ∨ Q`, czyli zdanie `Or P Q`, trzeba dysponować dowodem `P` *lub* dowodem
+`Q`. Żeby *wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P`
+*jak i, niezależnie, z* `Q`, ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się
 wywnioskować, *która* z tych alternatyw jest prawdziwa. A więc we wprowadzaniu alternatywy, które
 dotyczy strzałek *do* alternatywy jako koproduktu, pojawia się pojęcie alternatywy, a w regule
 eliminacji alternatywy, która dotyczy strzałek *z* alternatywy jako koproduktu, pojawia się (w
