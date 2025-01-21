@@ -113,11 +113,11 @@ q) ∧ p`, będziemy mogli udowodnić zdanie `q`.
 Zawsze, gdy możemy udowodnić w danym kontekście jakieś dwa zdania `P` i `Q`, w tym samym kontekście
 możemy też udowodnić pewne zdanie `H`, z którego *jednocześnie* wynikają te dwa zdania, czyli zawsze
 wtedy możemy udowodnić implikacje `H → P` i `H → Q` dla pewnego zdania `H`. W ostatnim przykładzie
-takim zdaniem `H` jest zdanie `True ∧ ((p → q) ∧ p)`, albo po prostu `(p → q) ∧ p`. A więc z
-perspektywy kategoryjnej będą wtedy istniały współźródłowe strzałki do punktów `P` i `Q`. Z tej
-perspektywy, ponieważ kategoria dowiedlności zdań jest cienka, reguła wprowadzania dla koniunkcji
-odpowiada "produktowości" koniunkcji, bo mówi, że *istnieje* wtedy strzałka z tego samego źródła do
-`P ∧ Q` i taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
+takim zdaniem jest zdanie `True ∧ ((p → q) ∧ p)`, albo po prostu `(p → q) ∧ p`. A więc z perspektywy
+kategoryjnej będą wtedy istniały współźródłowe strzałki do punktów `P` i `Q`. Z tej perspektywy,
+ponieważ kategoria dowiedlności zdań jest cienka, reguła wprowadzania dla koniunkcji odpowiada
+"produktowości" koniunkcji, bo mówi, że *istnieje* wtedy strzałka z tego samego źródła do `P ∧ Q` i
+taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
 
 Reguła eliminacji dla koniunkcji dotyczy z kolei strzałek *z* koniunkcji. Ponieważ każda koniunkcja
 to pewna specjalna para współźródłowych strzałek `P ← P × Q → Q`, to z koniunkcji wynikają te i
