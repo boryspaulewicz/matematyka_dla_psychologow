@@ -273,31 +273,31 @@ były spełnione.
 
 Po dodaniu pętli `Id` do `X` i pętli `Id` do `Y` pojawiają się nam dokładnie dwa możliwe złożenia,
 to jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii *nie pozostawiają nam wyboru* i musi być
-tak, że `Id f = f = f Id` i poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy
-*najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
+tak, że `Id f = f = f Id`, ale poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto
+uzyskujemy *najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
 
 Dodaliśmy *to, co było konieczne*, żeby uzyskać kategorię i *tylko to*, co było konieczne, a więc to
 jest najprostsza albo najmniejsza tego rodzaju kategoria, chociaż to, że jest najprostsza albo
-najmniejsza możemy (na razie) powiedzieć tylko nieformalnie, bo nie zdefiniowaliśmy żadnej miary
-złożoności ani wielkości kategorii. Możemy też powiedzieć, że to jest *najlepsza* albo doskonała
-kategoria tego rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też *lepsze*,
-bo słowa "lepszy" i "doskonały" mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób
-mówienia i myślenia ma intuicyjny sens.
+najmniejsza możemy powiedzieć tylko nieformalnie, bo nie zdefiniowaliśmy żadnej miary złożoności ani
+wielkości kategorii. Możemy też powiedzieć, że to jest *najlepsza* albo doskonała kategoria tego
+rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też *lepsze*, bo słowa
+"lepszy" i "doskonały" mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób mówienia
+i myślenia ma intuicyjny sens.
 
 Strzałka `f` *jako taka* nie jest endostrzałką, bo łączy dwa *różne* punkty. Gdyby ta strzałka coś
 oznaczała, to w ogólnym przypadku musilibyśmy dopuścić możliwość, że te punkty oznaczają to samo,
 ale w tym wypadku ta strzałka niczego nie oznacza. Przyda nam się odtąd nazwa na takie strzałki,
 żeby mówić o tym prościej, dlatego będę czasem nazywał je *egzostrzałkami*. Egzostrzałką będzie więc
 taka strzałka, że jej źródło i cel to *inne punkty*, które co prawda w ogólnym przypadku *nie muszą
-oznaczać innych obiektów*, ale to akurat *nie będzie miało znaczenia*, kiedy będziemy się skupiać na
-tej własności strzałek.
+oznaczać innych obiektów*, ale to akurat *nie będzie miało znaczenia*, kiedy będziemy się skupiać
+tylko na tej własności strzałek.
 
 Struktury matematyczne (takie jak kategoria), które powstają w taki wymuszony przez ich definicje
-sposób (który tutaj polega na dodaniu identyczności i składania tak, żeby aksjomaty kategorii były
-spełnione) z części czy obiektów, które same jeszcze nie muszą być tego rodzaju strukturami (a sama
-strzałka nie jest jeszcze kategorią), nazywamy *wolnymi*. Wolne konstrukcje są więc takimi jakby
-dopowiedzeniami opisu struktury określonego rodzaju. W tym wypadku to jest *wolna kategoria
-generowana przez jedną egzostrzałkę*.
+sposób (który tutaj polega na dodaniu endostrzałek i operacji składania tak, żeby aksjomaty
+kategorii były spełnione) z części czy obiektów, które same jeszcze nie muszą być tego rodzaju
+strukturami (a sama strzałka nie jest jeszcze kategorią), nazywamy *wolnymi*. Wolne konstrukcje są
+więc takimi jakby dopowiedzeniami opisu struktury określonego rodzaju. W tym przypadku to jest
+*wolna kategoria generowana przez jedną egzostrzałkę*.
 
 ## icśonlaud adasaZ
 
