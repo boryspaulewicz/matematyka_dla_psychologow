@@ -317,9 +317,9 @@ example : p ∨ q → q ∨ p :=
 
 Gdy mamy jakiś dowód alternatywy i chcemy z niego skorzystać, zastosowanie taktyki `cases` może być
 pomocne, ponieważ ułatwia skupienie się na "obsłużeniu" każdego z dwóch możliwych sposobów
-*konstruowania dowodu tej alternatywy*. Jako argument podajemy wtedy nazwę dowodu tej
-alternatywy. Taktyka `cases` pozwala więc *użyć* dowodu alternatywy poprzez obsłużenie wszystkich
-możliwych sposobów *wprowadzania* takiego dowodu.
+*konstruowania dowodu alternatywy, z którego chcemy skorzystać*. Jako argument podajemy wtedy nazwę
+dowodu tej alternatywy. Taktyka `cases` pozwala więc *użyć* dowodu alternatywy poprzez obsłużenie
+wszystkich możliwych sposobów *wprowadzania* takiego dowodu.
 
 ```lean
 example : p ∨ q → q ∨ p := by
