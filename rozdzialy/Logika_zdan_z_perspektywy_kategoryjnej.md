@@ -8,14 +8,15 @@ sensie mniejsza o połowę.
 # p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
-znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Niech:
+znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Ustalimy
+najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego jakaś kategoria. Niech:
 
-1. Punkty będą zdaniami.
+1. Różne punkty oznaczają różne zdania.
 
-2. Dla każdego punktu/zdania `P` i `Q`, strzałka z punktu/zdania `P` do punktu/zdania `Q` oznacza
-   dowód implikacji `P → Q`.
+2. Dla każdego punktu (odpowiadającego zdaniu) `P` i punktu `Q`, strzałka z punktu `P` do
+   punktu `Q` oznacza dowód implikacji `P → Q`.
 
-3. Dla każdego punktu/zdania `P`, pętla identycznościowa oznacza dowód tautologii `P → P`.
+3. Dla każdego punktu `P`, pętla identycznościowa tego punktu oznacza dowód tautologii `P → P`.
 
 4. Składanie strzałek będzie składniem dowodów.
 
@@ -27,8 +28,7 @@ Możemy łatwo udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowod
 def ID (P : Prop) : P → P := fun (hp : P) => hp
 
 -- Poza tym, że skróciłem nazwę stałej i zamiast Zlozenie jest tutaj Z, to jedyna różnica między
--- tą definicją a wcześniejszą definicją składania jest taka, że zamiast typu Type mamy tutaj
--- typ Prop.
+-- tą i wcześniejszą definicją składania jest taka, że zamiast typu Type mamy tutaj typ Prop.
 def Z {P Q R : Prop} (f : P → Q) (g: Q → R) : (P → R) := 
   fun (hp : P) => g (f hp)
 
@@ -42,6 +42,8 @@ example (P Q R S : Prop) (f : P → Q) (g : Q → R) (h : R → S) :
   -- (h ∘ g) ∘ f = h ∘ (g ∘ f)
   Z f (Z g h) = Z (Z f g) h := by rfl
 ```
+
+### Dygresja na temat słowa kluczowego `example`
 
 Przy okazji widzimy, że dowody anonimowe, które konstruujemy za pomocą słowa kluczowego `example`,
 mogą mieć parametry tak samo jak twierdzenia. A więc `example` to *niemalże* alternatywny sposób
@@ -66,13 +68,16 @@ aplikować:
 Takie fragmenty kodu służą więc tylko do sprawdzania, czy jakaś funkcja, która może, ale nie musi
 być dowodem jakiegoś zdania, może być w pewien sposób skonstruowana.
 
+<hr>
+
 Dla każdego zdania `P`, dowód tautologii `P → P` jest elementem neutralnym ze względu na operację
 składania dowodów, bo jest funkcją identycznościową przekształcającą każdy dowód swojego zdania w
 niego samego. Ponieważ dowody są dla nas funkcjami jak każde inne, z tą tylko różnicą, że mają typ
 będący termem typu `Prop`, to składanie dowodów, co właśnie udowodniliśmy, jest łączne. Skoro już
 ustaliliśmy, że mamy do czynienia z kategorią, od tego momentu możemy o tych dowodach zapomnieć.
 
-W kategorii zbiorów i funkcji występują strzałki, które są zarazem *równoległe* i *różne*. Na
+Ta kategoria ma zdecydowanie inny charakter *jako kategoria* niż kategoria zbiorów i funkcji. W
+kategorii zbiorów i funkcji występują strzałki, które są zarazem *równoległe* i *różne*. Na
 przykład, jeżeli `X` to jakiś singleton a `Y` to jakiś zbiór dwuelementowy, to istnieją dokładnie
 dwie funkcje z `X` do `Y`, a więc w kategorii `Set` istnieją dokładnie dwie strzałki równoległe z
 punktu odpowiadającego zbiorowi `X` do punktu odpowiadającego zbiorowi `Y`.
@@ -93,11 +98,11 @@ częściej mówił właśnie w ten sposób.
 ## Cienka ta kategoria
 
 W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz przyglądamy, istnieje
-strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając `P` można udowodnić `Q`. W
-tej kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof
-irrelevance* wszystkie dowody tego samego zdania są równe. Kategorie, które nie mają par różnych
-strzałek równoległych nazywamy [*cienkimi*](https://ncatlab.org/nlab/show/thin+category)
-(ang. *thin*).
+strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając (zdanie odpowiadające
+punktowi) `P` można udowodnić (zdanie odpowiadające punktowi) `Q`. W tej kategorii nie ma nigdy
+dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof irrelevance* wszystkie dowody tego
+samego zdania są równe. Takie kategorie, które nie mają par różnych strzałek równoległych nazywamy
+[*cienkimi*](https://ncatlab.org/nlab/show/thin+category) (ang. *thin*).
 
 Mamy tu zatem cienką kategorię, to jest taką, że dla każdej pary punktów `P` i `Q`, istnieje *co
 najwyżej jedna* strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje
