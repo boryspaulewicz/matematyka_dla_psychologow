@@ -251,9 +251,10 @@ Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `
 zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego
 zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
 
-**Produktem** obiektów `X` i `Y` nazywamy taki obiekt `X × Y`, że istnieją takie strzałki `π₁ : X ×
-Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y`,
-istnieje unikalna strzałka `<f,g>`, spełniająca warunki `π₁ <f,g> = f` i `π₂ <f,g> = g`.
+**Produktem** obiektów (czyli naszych punktów) `X` i `Y` nazywamy taki obiekt (czyli punkt) `X × Y`,
+że istnieją takie strzałki `π₁ : X × Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary
+strzałek `f : Z → X` i `g : Z → Y`, istnieje unikalna strzałka `h`, spełniająca warunki `π₁ h = f` i
+`π₂ h = g`. Ponieważ taka strzałka jest z definicji tylko jedna, zwykle zapisujemy ją jako `<f,g>`.
 
 Oficjalnie nazywamy strzałki `π₁` i `π₂` raczej rzutami kanonicznymi, ale ja wolę nazywać je
 projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" (bo `Set` to kategoria, a nie
