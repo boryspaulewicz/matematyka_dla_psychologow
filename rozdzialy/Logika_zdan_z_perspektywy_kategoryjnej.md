@@ -107,11 +107,12 @@ samego zdania są równe. Takie kategorie, które nie mają par różnych strza�
 Mamy tu zatem cienką kategorię, to jest taką, że dla każdej pary punktów `P` i `Q`, istnieje *co
 najwyżej jedna* strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje
 binarne*, bo między dwoma elementami jakaś relacja albo zachodzi, albo nie; z powodu tego, jak słowo
-*relacja* jest używane jako termin techniczny w matematyce, stwierdzenie, że jakaś relacja zachodzi
-między dwoma elementami na więcej niż jeden sposób nie ma sensu. W przypadku kategorii, którą teraz
-badamy, strzałka *nie* oznacza więc tak naprawdę *konkretnego dowodu*, tylko pewien *fakt*; w tym
-wypadku to jest zawsze fakt polegający na zachodzeniu *relacji dowiedlności* między jakimiś dwoma
-zdaniami. Ta kategoria ma więc wyraźnie inny charakter niż kategoria zbiorów i funkcji.
+*relacja* jest używane jako termin techniczny w matematyce, stwierdzenie, że jakaś konkretna relacja
+zachodzi między dwoma elementami na więcej niż jeden sposób nie ma sensu. W przypadku kategorii,
+którą teraz badamy, strzałka *nie* oznacza więc tak naprawdę *konkretnego dowodu*, tylko pewien
+*fakt*; w tym wypadku to jest zawsze fakt polegający samym *istnieniu* dowodu pewnej implikacji,
+czyli na zachodzeniu *relacji dowiedlności* między jakimiś dwoma zdaniami. Ta kategoria ma więc
+wyraźnie inny charakter niż kategoria zbiorów i funkcji.
 
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
@@ -128,19 +129,21 @@ kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić, cz
 
 ... ale ponieważ nie ma tutaj nigdy dwóch różnych strzałek równoległych, to składanie "nie ma
 żadnego wyboru", bo zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że
-wymyśliłem ten termin, żeby łatwiej mi się o tego rodzaju sprawach mówiło). Na przykład, jeżeli
-`Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo nie może istnieć inna
-strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest automatycznie spełniona i
-tak samo spełniona jest lewostronna neutralność każdej endostrzałki, a więc każdej identyczności w
-tej być może kategorii. 
+wymyśliłem ten termin, żeby łatwiej mi się o tego rodzaju sprawach mówiło). 
+
+Na przykład, jeżeli `Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo
+nie może istnieć inna strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest
+automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej endostrzałki, a
+więc każdej identyczności w tej być może kategorii.
 
 A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma znaczenia, czy najpierw
 uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a potem złożymy ją ze
 strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw uzyskamy jako
 złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej strzałkę `h`,
 uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskamy ... jedyną strzałkę z `X`
-do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę, a więc łączność
-składania zachodzi automatycznie.
+do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę. Widzimy więc, że sama
+przechodniość relacji daje nam automatycznie łączność składania strzałek zinterpretowanych jako
+oznaczające fakt zachodzenia tej relacji.
 
 Zauważyłaś, że udowadniając, że z relacji `≤` można zrobić kategorię, korzystaliśmy *tylko* z tego,
 że ta relacja jest zwrotna i przechodnia? Nie było łatwo to zauważyć, prawda? A to jest ważne, bo
@@ -148,13 +151,14 @@ wynika stąd, że w ten sposób możemy *zawsze* uzyskać cienką kategorię z *
 tylko ze zbiorów liczb i z *jakiejkolwiek* określonej na tym zbiorze relacji, *o ile* ta będzie
 *zwrotna* i *przechodnia*, bo wtedy ta relacja ...
 
-1. ... "sama" dostarczy nam strzałki identycznościowe ...
+1. ... "sama" (dzięki zwrotności) dostarczy nam po jednej endostrzałce dla każdego punktu i ...
 
-2. ... każdej parze składalnych strzałek będzie odpowiadała dokładnie jedna strzałka kompatybilna z
-   tą parą, ...
+2. ... (dzięki przechodniości) każdej parze składalnych strzałek będzie odpowiadała jakaś strzałka
+   kompatybilna, w dodatku będzie zawsze istniała dokładnie jedna (bo to jest relacja) taka
+   strzałka.
 
-3. ... a dzięki temu składanie będzie automatycznie łączne i strzałki identycznościowe będą
-   elementami neutralnymi ze względu na operację składania.
+Wtedy dzięki 2 składanie będzie automatycznie łączne, a dzięki 1 i 2 będziemy mieli strzałki
+identycznościowe.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
 składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować
