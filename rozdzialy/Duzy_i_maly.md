@@ -95,7 +95,7 @@ Ta wersja teorii typów jest o ile mi wiadomo pierwszą, w której zostało sfor
 przecież ważne w matematyce pojęcie zostało przez Nederpelta i Geuversa sformalizowane, mogli
 zauważyć, że *aksjomaty* są tylko *pewnego rodzaju definicjami*. Gdy już się z nią oswoiłem, ta
 jedna obserwacja całkowicie zmieniła mój sposób myślenia o matematyce, ponieważ wcześniej wydawało
-mi się, że aksjomaty odgrywają rolę *założeń*, dlatego często nawiązuję do tego moim zdaniem
+mi się, że aksjomaty odgrywają rolę *założeń*. Dlatego często nawiązuję do tego moim zdaniem
 niezwykle ważnego meta-matematycznego odkrycia.
 
 Gdy studiowałem filozofię, a może nawet wcześniej, zetknąłem się ze stanowiskiem filozoficznym
