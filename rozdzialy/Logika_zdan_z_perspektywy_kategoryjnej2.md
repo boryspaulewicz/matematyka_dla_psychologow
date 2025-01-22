@@ -6,7 +6,7 @@ tymi samymi identycznościami, bo punkty "zostaną na swoich miejscach", każda 
 odwróceniu będzie (niemal, bo to dwie różne kategorie) tą samą strzałką, a każde złożenie postaci `f
 Id = f` będzie odpowiadało złożeniu `Id' f' = f'` w `ℂ'` i tak samo dla złożeń o postaci `Id f`.
 
-W przypadku kategorii skończonych, można zobaczyć, jak "działa" zasada dualności również w inny
+W przypadku kategorii skończonych można zobaczyć, jak "działa" zasada dualności również w inny
 sposób. Zacznijmy od strzałek `a : X → Y`, `b : Y → Z`, `c : Z → V` i `d : X → U`. Ten graf to
 jeszcze nie kategoria, bo nie ma tu ani identyczności, ani operacji składania. Tym razem jednak
 wygenerujemy wolną kategorię nad tym grafem inaczej.
@@ -18,22 +18,25 @@ nazwa rzędu tej kratki ze strzałką o tej samej nazwie co nazwa kolumny tej kr
 tutaj elementy neutralne, bo nie musimy ich oznaczać, bo to są w pewnym sensie tylko punkty (jako
 specjalne strzałki).
 
-Na naszym grafie nie ma żadnych endostrzałek, a więc kratki na przekątnej pozostaną puste. Nie ma
-też na tym grafie żadnej strzałki kompatybilnej ze strzałkami `a` i `b`, a więc musimy dodać nową
-strzałkę w kratce `(a,b)` i nadać jej unikalną nazwę. Pierwsza niewykorzystana litera alfabetu to
-`e`, dlatego nazwiemy ją `e`. Możesz od razu dorysować tą strzałkę do grafu i wyrazić fakt, że `e =
-b a` za pomocą ptaszka. Strzałka `a` nie jest składalna ze strzałką `c` ani `d`, a więc kratki
-`(a,c)` i `(a,d)` pozostaną puste. Strzałka `b` jest składalna tylko ze strzałką `c` i nie mamy
-jeszcze strzałki, która mogłaby być tym złożeniem, a więc nadajemy jej nazwę `f`, zapisujemy ją w
-kratce `(b,c)` i dorysowujemy ją do grafu, zaznaczając za pomocą ptaszka, że `f = c b`. 
+Na naszym grafie nie ma żadnych endostrzałek, a więc kratki na przekątnej pozostaną puste, bo tylko
+endostrzałki mogą się składać same ze sobą. Nie ma też na tym grafie żadnej strzałki kompatybilnej
+ze strzałkami `a` i `b`, a więc musimy dodać nową strzałkę w kratce `(a,b)` i nadać jej unikalną
+nazwę. Pierwsza niewykorzystana litera alfabetu to `e`, dlatego nazwiemy ją `e`. Możesz od razu
+dorysować tą strzałkę do grafu i wyrazić fakt, że `e = b a` za pomocą ptaszka. Strzałka `a` nie jest
+składalna ze strzałką `c` ani `d`, a więc kratki `(a,c)` i `(a,d)` pozostaną puste. Strzałka `b`
+jest składalna tylko ze strzałką `c` i nie mamy jeszcze strzałki, która mogłaby być tym złożeniem, a
+więc nadajemy jej nazwę `f`, zapisujemy ją w kratce `(b,c)` i dorysowujemy ją do grafu, zaznaczając
+za pomocą ptaszka, że `f = c b`.
 
 Będzie z tym trochę zabawy i pojawią się kolejne strzałki, których złożenia też trzeba będzie
 sprawdzić i być może dodać, ale już wiesz, jak to należy zrobić, prawda? Gdy ta tabelka będzie już
 skończona, będziesz mogła uzyskać dualną wersję uzyskanej w ten sposób wolnej kategorii nad grafem
 transponując tą tabelkę, to znaczy rysując nową tabelkę taką, że to, co było w oryginalnej tabelce w
 kratce `(i,j)`, gdzie `i` i `j` to nazwy jakiś strzałek w oryginalnej kategorii, będzie w tej nowej
-tablce w kratce `(j,i)`. Wtedy też będzie widać jak na dłoni (albo jak na kartce), że kategoria
-dualna, chociaż nie musi być całkiem taka sama, jest jednak w pewnym ogólniejszym sensie taka sama.
+tablce w kratce `(j,i)` (albo `(j',i')`). Wtedy będzie też widać jak na dłoni (albo jak na kartce),
+że kategoria dualna, chociaż nie musi być całkiem taka sama, jest jednak w pewnym ogólniejszym
+sensie taka sama. Gdy kategoria jest skończona, jej dualna wersja to przecież ta sama tabelka, tylko
+przetransponowana.
 
 "Dualizowalność" konstrukcji wyrażonych w języku teorii kategorii można również opisać tak: Każda
 struktura w kategorii `ℂ` odpowiada swojemu dualnemu odpowiednikowi (mhm) w kategorii `ℂ'` dualnej
@@ -84,19 +87,18 @@ w taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione p
 obydwu (w tym wypadku injektywnych) injekcji, to gdy tylko określimy, dla dowolnego zbioru `Z`, do
 jakich elementów tego zbioru mają być posłane przez jakieś funkcje `f : X → Z` i `g : Y → Z`
 elementy zbioru `X` i zbioru `Y` odpowiednio, to wtedy to, do czego ma być posłana każda kopia w
-`X + Y`, żeby powstająca w ten sposób funkcja dołożona do injekcji dawała funkcje `f` i `g`, będzie
-wymuszone (i będzie istniała taka funkcja). I odwrotnie, każda funkcja `h : X + Y → Z` będzie
-oczywiście opdowiadała unikalnej parze uporządkowanej strzałek z `X` i `Y` do `Z` odpowiednio, bo
-złożenia `h i₁` i `h i₂` będą z definicji unikalne. Wiem, że to jest trudne. Ale to jest też piękne
-i bardzo przydatne w pewnych sytuacjach.
+`X + Y`, żeby powstająca w ten sposób funkcja `(f+g) : X + Y → Z` dołożona do injekcji dawała
+funkcje `f` i `g`, będzie wymuszone (i będzie istniała taka funkcja). I odwrotnie, każda funkcja
+`h : X + Y → Z` będzie oczywiście opdowiadała unikalnej parze uporządkowanej strzałek z `X` i `Y` do
+`Z` odpowiednio, bo złożenia `h i₁` i `h i₂` będą z definicji unikalne. Wiem, że to jest trudne. Ale
+to jest też piękne i bardzo przydatne w pewnych sytuacjach.
 
 Można też powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
 operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
-wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `x`, czyli drugą stronę operacji
+wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `×`, czyli drugą stronę operacji
 tworzenia produktów. A w kategorii `FinSet` (zbiorów skończonych) te operacje odpowiadają, jak wiesz
 z jednego z poprzednich rozdziałów, operacjom dodawania i mnożenia liczb naturalnych, zrealizowanym
-w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych i iloczynów
-kartezjańskich. 
+w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych i iloczynów kartezjańskich.
 
 Ponieważ te konstrukcje są z perspektywy teorii kategorii swoimi dualnymi odpowiednikami, możemy z
 tego punktu widzenia *zobaczyć* - nawet całkiem dosłownie, gdybyśmy przedstawili to za pomocą
