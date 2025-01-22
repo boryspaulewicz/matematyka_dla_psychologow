@@ -90,15 +90,24 @@ wersja, z której korzystamy w Leanie. Nie ma tam również wbudowanych typów i
 zwanych typów sumowych i nie ma możliwości skonstruowania definicji rekurencyjnych, a mimo to
 również pozwala zakodować formalnie całą matematykę! 
 
-Ta wersja teorii typów jest o ile mi wiadomo pierwszą, w której sformalizowane zostało pojęcie
-*definicji*, dlatego właśnie ma w nazwie literę *D*. A dzięki temu, że to niezwykle przecież ważne w
-matematyce pojęcie zostało przez Nederpelta i Geuversa sformalizowane, mogli zauważyć, że
-*aksjomaty* są tylko *pewnego rodzaju definicjami*. Gdy już się z nią oswoiłem, ta jedna obserwacja
-całkowicie zmieniła mój sposób myślenia o matematyce, ponieważ wcześniej wydawało mi się, że
-aksjomaty odgrywają rolę *założeń*, dlatego często nawiązuję do tego moim zdaniem niezwykle ważnego
-meta-matematycznego odkrycia.
+Ta wersja teorii typów jest o ile mi wiadomo pierwszą, w której zostało sformalizowane pojęcie
+*matematycznej definicji*, dlatego właśnie ma w nazwie literę *D*. A dzięki temu, że to niezwykle
+przecież ważne w matematyce pojęcie zostało przez Nederpelta i Geuversa sformalizowane, mogli
+zauważyć, że *aksjomaty* są tylko *pewnego rodzaju definicjami*. Gdy już się z nią oswoiłem, ta
+jedna obserwacja całkowicie zmieniła mój sposób myślenia o matematyce, ponieważ wcześniej wydawało
+mi się, że aksjomaty odgrywają rolę *założeń*, dlatego często nawiązuję do tego moim zdaniem
+niezwykle ważnego meta-matematycznego odkrycia.
 
-TODO Realizm wewnętrzny.
+Gdy studiowałem filozofię, a może nawet wcześniej, zetknąłem się ze stanowiskiem filozoficznym
+nazywanym realizmem wewnętrznym, które zaproponował zasłużony również dla historii psychologii i
+kognitywistyki wybitny filozof [Hilaremu Putnamowi](). Mówiąc w pewnym uproszczeniu, polegającym na
+pozbyciu się takich quasi-technicznych terminów filozoficznych jak epistemologia i ontologia czy
+metafizyka, zgodnie z tym stanowiskiem prawda jest zawsze zależna od punktu widzenia, ale to nie
+znaczy, że jest względna w tym znaczeniu, że każde zdanie może być albo jest zdaniem prawdziwym. *W
+ramach* punktu widzenia prawda zależy od czegoś, co nie jest już wyborem, na przykład od
+empirycznych albo matematycznych faktów. Podoba mi się ten rodzaj relatywizmu i wydaje mi się, że
+pasuje do tego, jak używamy matematyki, albo w jaki sposób przeprowadzamy badania empiryczne i
+interpretujemy ich wyniki.
 
 Żeby było ciekawie, zaczniemy od takiego przykładu:
 
