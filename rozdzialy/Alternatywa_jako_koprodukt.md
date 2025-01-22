@@ -20,10 +20,10 @@ inductive Or (a b : Prop) : Prop where
 
 Komentarze są tutaj moimi tłumaczeniami tego, co można znaleźć w pliku
 [Prelude.lean](https://github.com/leanprover/lean4/blob/master/src/Init/Prelude.lean). Ta definicja
-jest bardziej skomplikowana niż omawiane w poprzednim rozdziale definicje indukcyjne zdań `True` i
-`False` nie tylko dlatego, że pojawiają się tutaj *dwa* sposoby tworzenia termów definiowanego
-typu. Ta definicja jest bardziej skomplikowana przede wszystkim dlatego, że jest jednocześnie
-*parametryczna* i *rekurencyjna*.
+indukcyjnego typu danych jest bardziej skomplikowana niż omawiane w poprzednim rozdziale definicje
+indukcyjne zdań `True` i `False` nie tylko dlatego, że pojawiają się tutaj *dwa* sposoby tworzenia
+termów definiowanego typu. Ta definicja jest bardziej skomplikowana przede wszystkim dlatego, że
+jest jednocześnie *parametryczna* i *rekurencyjna*.
 
 **Czytamy to**: Definiuję indukcyjnie (`inductive`) parametryczny (bo ta definicja ma \{tutaj dwa\}
 parametry) *typ danych* `Or` typu `Prop` o parametrach `a` i `b` typu `Prop` (`Or (a b : Prop)`)
