@@ -4,8 +4,8 @@ Zacznę od ogólnych rozważań, ale jeżeli ten wstęp wyda Ci się początkowo
 możesz śmiało przejść do
 [części](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Alternatywa_jako_koprodukt.md#alternatywa-w-praktyce-dowodzenia)
 dotyczącej praktyki dowodzenia i potem tu wrócić. Moim zdaniem, co już kilka razy podkreślałem,
-*czytając o skomplikowanych, technicznych kwestiach nie warto próbować za wszelką cenę zrozumieć
-wszystkiego po kolei*.
+*czytając o skomplikowanych sprawach nie warto próbować za wszelką cenę zrozumieć wszystkiego po
+kolei*.
 
 W Leanie `∨` to tylko lukier składniowy, pod którym kryje się stała `Or`, oznaczająca pewien
 *indukcyjny typ danych*, zdefiniowany w taki oto sposób (zaraz to objaśnię):
@@ -34,8 +34,8 @@ aplikację `Or.inr (h : b)` typu `Or a b`.
 ## Krótko o definicjach indukcyjnych, definicjach rekurencyjnych i schematach aksjomatów.
 
 Jak już wiesz, aksjomaty to dokładnie definicje pozbawione ciała, czyli definicje nierozwijalne,
-czyli arbitralne konwencje językowe albo pojęciowe, czyli pewne *wybory* dotyczące tego, o czym ma
-być mowa. A w takim razie to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty
+czyli arbitralne konwencje językowe albo pojęciowe, czyli pewne *wybory* dotyczące tego, *o czym ma
+być mowa*. A w takim razie to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty
 mogą być przecież redukowalne) nieredukowalne, oznacza, że ta definicja, jak każda *parametryczna*
 definicja *indukcyjnego typu danych*, jest tak zwanym [*schematem
 aksjomatu*](https://pl.wikipedia.org/wiki/Schemat_aksjomatu)[^1], czyli *przepisem*
@@ -75,8 +75,8 @@ zasygnalizować, że mogą być dowolnie złożone.
 
 *Jeżeli* `P` *i* `Q` *to zdania, to* `Or P Q` *jest zdaniem*.
 
-A więc to jest przepis na tworzenie pewnego rodzaju zdań ze zdań. Jednocześnie to jest też przepis
-na tworzenie dowodów pewnego rodzaju zdań z dowodów zdań:
+A więc to jest aksjomatyczny przepis na tworzenie pewnego rodzaju zdań ze zdań. Jednocześnie to jest
+też aksjomatyczny przepis na tworzenie dowodów pewnego rodzaju zdań z dowodów zdań:
 
 *Jeżeli* `P` *i* `Q` *to zdania, to jeżeli* `h` *jest dowodem* `P`, *to* `Or.inl h` *jest dowodem*
 `Or P Q`.
@@ -127,10 +127,13 @@ taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
 Reguła eliminacji dla koniunkcji dotyczy z kolei strzałek *z* koniunkcji. Ponieważ każda koniunkcja
 to pewna specjalna para współźródłowych strzałek `P ← P × Q → Q`, to z koniunkcji wynikają te i
 tylko te zdania, które wynikają z `P` - bo wtedy wynikają z `P ∧ Q` z powodu składalności strzałek -
-*lub* z `Q`, *lub* z `P ∧ Q`. Widzimy więc, że reguły eliminacji są w pewien sposób dualne do reguł
-wprowadzania i że w regułach eliminacji dla koniunkcji pojawia się - ale w *metajęzyku* jako *słowo
-lub*, a nie jako spójnik logiczny występujący w jakimś formalnym zdaniu, o którym mówią te reguły -
-obiekt dualny do koniunkcji, to jest alternatywa.
+*lub* z `Q`, *lub* z `P ∧ Q`. Być może tym razem to były dla Ciebie zbyt niespodziewane, gwałtowne i
+niejawne zmiany języka i pespektywy, ale może już nie?
+
+Widzimy więc, że reguły eliminacji są w pewien sposób dualne do reguł wprowadzania i że w regułach
+eliminacji dla koniunkcji pojawia się - ale w *metajęzyku* jako *słowo lub*, a nie jako spójnik
+logiczny występujący w jakimś formalnym zdaniu, o którym mówią te reguły - obiekt dualny do
+koniunkcji, to jest alternatywa.
 
 Żeby *wprowadzić* zdanie `P ∨ Q`, czyli zdanie `Or P Q`, trzeba dysponować dowodem `P` *lub* dowodem
 `Q`. Żeby *wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P`
@@ -166,7 +169,7 @@ taki dowód, za pomocą którego można udowodnić każde zdanie wynikające z �
 reguły eliminacji dla koniunkcji:
 
 ```lean
--- Dla uproszczenia pomijam tutaj typowanie, którego Lean może się sam domyślić i zastąpiłem nazwy
+-- Dla uproszczenia pominąłem tutaj typowanie, którego Lean może się sam domyślić i zastąpiłem nazwy
 -- nieużywanych parametrów symbolem _.
 
 -- Żeby udowodnić koniunkcję zdań trzeba mieć dowody członów tej koniunkcji:
@@ -211,7 +214,7 @@ które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. To 
 spełnienia, a więc bardziej wymagający albo mocniejszy *warunek* niż wynikanie z łącznej
 prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc *mocniejszym założeniem* niż alternatywa
 złożona z tych samych zdań, co znaczy, że z `p ∧ q` wynika `p ∨ q`, ale nie odwrotnie. Inaczej
-mówiąc, z koniunkcji można wywnioskować zawsze *co najmniej* to samo, co z alternatywy złożonej z
+mówiąc, z koniunkcji można wywnioskować zawsze *co najmniej* to samo co z alternatywy złożonej z
 tych samych zdań, ale nie odwrotnie.
 
 Możemy powiedzieć to samo, tylko najogólniej jak się da, wznosząc się znowu na wysokość, na której
@@ -222,15 +225,15 @@ strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym zamachem stwierdz
 koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy rozłącznej zbiorów i w ogóle
 wszystkich możliwych produktów i koproduktów.
 
-Możemy zobaczyć z tej perspektywy, że to, jak działa koniunkcja i alternatywa nie ma *nic* wspólnego
-z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo innej wersji
-teorii typów. Może się wydawać, że wyjaśniając w ten sposób jak działa koniunkcja i alternatywa
-tracimy poczucie sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy
-tendencję do rozumienia wszystkiego w kategoriach konkretnych, takich jak szczegóły
-implementacji. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
-zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej uniwersalnych powodów,
-dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w różnych kontekstach
-(tutaj w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
+Możemy zobaczyć z tej perspektywy, że to, jak *działa w logice* koniunkcja i alternatywa nie ma
+*nic* wspólnego z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej
+albo innej wersji teorii typów. Może się wydawać, że wyjaśniając to w ten sposób tracimy poczucie
+sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do rozumienia
+wszystkiego w kategoriach konkretnych, takich jak szczegóły implementacji. Jednocześnie jednak
+dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość zrozumienia w pewnym sensie
+prawdziwych, a już na pewno głębszych i bardziej uniwersalnych powodów, dla których produkty i
+koprodukty są zdefiniowane w taki a nie inny sposób w różnych kontekstach (tutaj w kontekście teorii
+typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
 
 To co, może wylądujemy już na ziemi i pobawimy się trochę dowodami zdań, w których występują
 alternatywy?
