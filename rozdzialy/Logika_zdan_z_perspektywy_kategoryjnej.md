@@ -164,7 +164,9 @@ identycznościowe.
 składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować
 w zasadzie narzuca się sam. `Narysuj` w szeregu w odstępach o krok od siebie punkty `X`, `Y`, `Z` i
 `V`. Dodaj strzałki `f`, `g` i `h`. `Narysuj` złożenia `h g` i `g f` jako strzałki wygięte w dół, a
-na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`.
+na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`. To nie będzie
+szczególnie łatwy do odczytania diagram, a poza tym można to samo wyrazić inaczej, więc nie przejmuj
+się, jeżeli będziesz miała wrażenie, że jest niezbyt przekonujący.
 
 Diagramatycznie każde złożenie jest przemiennym "trójkątem skierowanym", bo odpowiada jednej
 konkretnej strzałce, która jest wynikiem składania jednej konkretnej pary składalnych strzałek. W
@@ -182,18 +184,19 @@ równoległymi, w których takie ptaszki dałoby się zamknąć. Możemy jednak 
 *punkty i strzałki na diagramie to jedno, a ich nazwy to co innego*, rysując diagram zawierający
 *kopie*. Bo kto nam zabroni?
 
-`Narysuj (Punkt X)`, a potem `Narysuj (Punkt Y) (SE X)`[^1]. O krok pod punktem `X` (czyli w
-położeniu `S X`) również `Narysuj (Punkt X)` i połącz te dwie kopie skierowaną w dół strzałką o
-nazwie `Id`. Następnie `Narysuj (Strzalka X Y)` z górnej kopii `X` i oznacz ją jako `f`. O krok
-poniżej punktu `Y` `Narysuj` jego kopię i dodaj strzałkę identycznościową z górnego `Y` do dolnego
-`Y`. Dodaj strzałkę z dolnej kopii `X` do dolnej kopii `Y` i oznacz ją jako `f`. Na koniec oznacz
-ten diagram jako przemienny. W ten sposób można wyrazić *pojedyncze* równanie `Id f = f Id`. Jeżeli
-chcesz, żeby na tym diagramie było widać też równania `Id f = f` i `f = f Id`, możesz dodać kopię
-strzałki `f` przecinającą ten diagram na pół i narysować po obydwu stronach tej strzałki ptaszki.
+`Narysuj (Punkt X)` (użyłem nawiasów, żeby było wiadomo, o co chodzi), a potem `Narysuj (Punkt Y)
+(SE X)`[^1]. O krok pod punktem `X`, czyli w położeniu `S X`, również `Narysuj (Punkt X)` i połącz
+te dwie kopie skierowaną w dół strzałką o nazwie `Id`. Następnie `Narysuj (Strzalka X Y)` z górnej
+kopii `X` do punktu `Y` i oznacz ją jako `f`. O krok poniżej punktu `Y` `Narysuj` jego kopię i dodaj
+strzałkę identycznościową z górnego `Y` do dolnego `Y`. Dodaj strzałkę z dolnej kopii `X` do dolnej
+kopii `Y` i oznacz ją jako `f`. Na koniec oznacz ten diagram jako przemienny. W ten sposób można
+wyrazić *pojedyncze* równanie `Id f = f Id`. Jeżeli chcesz, żeby na tym diagramie było widać też
+równania `Id f = f` i `f = f Id`, możesz dodać kopię strzałki `f` przecinającą ten diagram na pół i
+narysować po obydwu stronach tej strzałki ptaszki.
 
-Znanym Ci doskonale przykładem relacji, której *nie* można w ten wyrazić jako (cienkiej) kategorii
-jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż* na jakimś zbiorze liczb, ponieważ ta
-relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
+Znanym Ci doskonale przykładem relacji, z której *nie* powstaje kategoria w taki sam sposób jak z
+relacji `≤` jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż*, określona na jakimś
+zbiorze liczb, ponieważ ta relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
 liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzrotność relacji), bo żadna
 liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
@@ -203,15 +206,16 @@ Z drugiej strony, relacja `<` jest mimo wszystko przechodnia, bo przecież dla k
 `m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą
 strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
 wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że dla każdej pary
-składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą.
+składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą. Brakowałoby
+więc tylko identyczności.
 
-Moglibyśmy wtedy *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć konwencję*, że
-te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy przecież stworzyć kategorię
-jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o ile tylko będzie
-spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i unikać bredzenia, co też oczywiście
-bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie nie doświadczymy takiej wolności jak
-w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda nam się z taką kategorią zrobić coś
-pouczającego, interesującego, albo nawet tylko zabawnego. 
+Moglibyśmy wtedy jednak *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć
+konwencję*, że te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy przecież
+stworzyć kategorię jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o ile
+tylko będzie spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i unikać bredzenia, co
+też oczywiście bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie nie doświadczymy
+takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda nam się z taką
+kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
 
 Matematyka pozwala nam skutecznie myśleć o *dowolnych zagadnieniach, na dowolnym poziomie ogólności
 i z dowolnych punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic*
@@ -221,18 +225,19 @@ będą prawdziwe na mocy przyjętych założeń, definicji i aksjomatów (które
 tylko że pozbawionymi ciała). Co prawda nie istnieje uniwersalna metoda *znajdywania* dowodów
 arbitralnych zdań, ale dzięki temu zawsze ważny będzie przebłysk intuicji, a *potencjalne* dowody
 możemy zawsze sprawdzić za pomocą algorytmu, który zawsze da nam jednoznaczną odpowiedź, czy są
-poprawne. W tym sensie matematyka jest taką strefą logicznie bezpiecznej, ale poza tym niczym
+poprawne. W tym sensie matematyka jest strefą logicznie bezpiecznej, ale poza tym niczym
 nieskrępowanej fantazji.
 
-Wracając do określonej na jakimś zbiorze liczb relacji `<` jako kategorii: Gdyby było tak, że dla
-niektórych, ale nie wszystkich liczb zachodzi zwrotność relacji `<`, czyli gdyby istniała co
-najmniej jedna liczba mniejsza od samej siebie, ale istniałaby też liczba, która nie jest mniejsza
-od samej siebie, to byłby problem, bo wtedy niektóre nasze strzałki identycznościowe odpowiadałyby
-liczbom, a niektóre nie odpowiadałyby niczemu i nie byłoby zgodności między kategorią i opisywaną
-przez nią strukturą. No ale w przypadku relacji `<` *żadna* liczba nie wchodzi ze sobą w tą relację,
-a więc taka "kategoryfikacja" nie wprowadza zniekształceń, tylko polega na *zmianie konwencji
-opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że pętle identyczności
-są "puste" i służą tylko jako konieczne uzupełnienia pozwalające uzyskać kategorię.
+Wracając do określonej na jakimś zbiorze liczb relacji `<` jako (cienkiej) kategorii: Gdyby było
+tak, że dla niektórych, ale nie wszystkich liczb zachodzi zwrotność relacji `<`, czyli gdyby
+istniała co najmniej jedna liczba mniejsza od samej siebie, ale istniałaby też liczba, która nie
+jest mniejsza od samej siebie, to byłby problem, bo wtedy niektóre nasze strzałki identycznościowe
+odpowiadałyby liczbom, a niektóre nie odpowiadałyby niczemu i nie byłoby zgodności między kategorią
+i opisywaną przez nią strukturą. No ale w przypadku relacji `<` *żadna* liczba nie wchodzi ze sobą w
+tą relację, a więc taka "kategoryfikacja" przez dodanie "pustych w środku" identyczności nie
+wprowadza zniekształceń, tylko polega na *zmianie konwencji opisywania tej samej
+struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że pętle identyczności są "puste" i służą
+tylko jako konieczne uzupełnienia pozwalające uzyskać kategorię.
 
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
