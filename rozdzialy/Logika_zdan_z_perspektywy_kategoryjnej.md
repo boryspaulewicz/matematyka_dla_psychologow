@@ -304,9 +304,9 @@ więc takimi jakby dopowiedzeniami opisu struktury określonego rodzaju. W tym p
 Jeżeli teraz *czysto formalnie*, czyli tak jakby dla zabawy, odwrócimy strzałkę `f` i zapiszemy ją
 jako `X ← Y`, to z takiej egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną
 wolną kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej
-struktury. Jak masz ochotę, możesz to sama sprawdzić, zresztą to jest niezłe ćwiczenie, bo nie jest
-szczególnie trudne, a na pewno sprawi, że będziesz trochę lepiej pamiętać pewne rzeczy i łatwiej Ci
-się będzie potem o nich myślało.
+struktury. Jeśli masz ochotę, możesz to sama sprawdzić, zresztą to jest niezłe ćwiczenie, bo nie
+jest szczególnie trudne, a na pewno sprawi, że będziesz trochę lepiej pamiętać pewne rzeczy i
+łatwiej Ci się będzie potem o nich myślało.
 
 A co gdyby punktem wyjścia był (statyczny, jak to graf) graf `A ← B → C`, gdzie strzałkę `A ← B`
 moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
@@ -352,9 +352,9 @@ i `g` w kategorii `ℂ`, złożeniem ich odwróconych odpowiednikow w kategorii 
 g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do `ℂ`. 
 
 Możemy wtedy przyjąć, że każda strzałka `f' : X → Y` w kategorii `ℂ'` "kryje pod sobą" strzałkę `f :
-Y → X` w kategorii `ℂ`, z której powstała *i vice versa*, a każde złożenie `f' g'` w `ℂ'` "kryje pod
-sobą" złożenie `g f` w `ℂ`, któremu odpowiada *i vice versa*. Nie będzie trzeba dodawać apostrofów
-do nazw punktów w kategorii dualnej, bo punktów nie da się odwrócić. Mówiąc dokładniej (ale dla
+Y → X` w kategorii `ℂ`, z której powstała i vice versa, a każde złożenie `f' g'` w `ℂ'` "kryje pod
+sobą" złożenie `g f` w `ℂ`, któremu odpowiada i vice versa. Nie będzie trzeba dodawać apostrofów do
+nazw *punktów* w kategorii dualnej, bo punktów nie da się odwrócić. Mówiąc dokładniej (ale dla
 uproszczenia pomijając kwantyfikatory):
 
 1. Kategorie dualne `ℂ` i `ℂ'` mają te same punkty.
