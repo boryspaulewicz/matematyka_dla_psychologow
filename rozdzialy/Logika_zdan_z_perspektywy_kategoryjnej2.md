@@ -95,17 +95,18 @@ to jest też piękne i bardzo przydatne w pewnych sytuacjach.
 
 Można też powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
 operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
-wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `×`, czyli drugą stronę operacji
-tworzenia produktów. A w kategorii `FinSet` (zbiorów skończonych) te operacje odpowiadają, jak wiesz
-z jednego z poprzednich rozdziałów, operacjom dodawania i mnożenia liczb naturalnych, zrealizowanym
-w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych i iloczynów kartezjańskich.
+wersję tego, co oznaczamy w teorii kategorii za pomocą symbolu `×`, czyli oznacza "wywiniętą na
+drugą stronę" wersję operacji tworzenia produktów. A w kategorii `FinSet` (zbiorów skończonych) te
+operacje odpowiadają, jak wiesz z jednego z poprzednich rozdziałów, operacjom dodawania i mnożenia
+liczb naturalnych, zrealizowanym w zbiorach skończonych za pomocą operacji tworzenia sum rozłącznych
+i iloczynów kartezjańskich.
 
 Ponieważ te konstrukcje są z perspektywy teorii kategorii swoimi dualnymi odpowiednikami, możemy z
 tego punktu widzenia *zobaczyć* - nawet całkiem dosłownie, gdybyśmy przedstawili to za pomocą
 diagramów - głęboki związek między dodawaniem i mnożeniem i tym samym dostrzec, że te dwie operacje
 są w pewnym technicznym i abstrakcyjnym sensie *dwiema wersjami tej samej operacji*.
 
-Często, ale nie zawsze, bo to czasem źle brzmi, konstrukcje dualne do pewnych konstrukcji, które
+Często, ale nie zawsze, bo to czasem źle brzmi, konstrukcje dualne do takich konstrukcji, które
 wydają się bardziej podstawowe albo są częściej używane, nazywamy w teorii kategorii tym samym
 określeniem, ale dodając przedrostek *ko* (a po angielsku *co*, jak w pytaniu *co to ma
 być?*). Produkty pojawiają się w matematyce znacznie częściej niż koprodukty, dlatego właśnie w
@@ -113,11 +114,11 @@ nazwie *produkt* przedrostek *ko* nie występuje.
 
 ## Prlp! Hę?
 
-Gdy tylko uda nam się znaleźć jakiś kategoryjny odpowiednik pojęcia, konstrukcji lub zdania w
-jakiejś opisanej jako kategoria przestrzeni (na przykład, kategoryjny odpowiednik zbioru pustego,
-będącego częścią struktury przestrzeni zbiorów i funkcji), możemy zacząć szukać odpowiedników tych
-struktur w innych kategoriach. No to teraz poszukamy znanych Ci już konstrukcji kategoryjnych w
-kategorii powstającej w naturalny sposób z relacji dowiedlności zdefiniowanej na zbiorze zdań.
+Gdy tylko uda nam się znaleźć kategoryjny odpowiednik pojęcia, konstrukcji lub zdania w jakiejś
+opisanej jako kategoria przestrzeni (na przykład, kategoryjny odpowiednik zbioru pustego, będącego
+częścią struktury przestrzeni zbiorów i funkcji), możemy zacząć szukać odpowiedników tych struktur w
+innych kategoriach. No to teraz poszukamy znanych Ci już konstrukcji kategoryjnych w kategorii
+powstającej w naturalny sposób z relacji dowiedlności zdefiniowanej na zdaniach.
 
 Czy ta kategoria *ma* obiekt początkowy? A jeśli ma, to *czym* on jest? Obiektem początkowym w tej
 kategorii jest *zdanie fałszywe*, które w Leanie jest zdefiniowane tak:
@@ -128,16 +129,16 @@ inductive False : Prop
 
 To jest *cała* definicja zdania `False`. **Czytamy to** w ten sposób: Definiuję indukcyjnie
 (`inductive`), czyli przez *wymienienie wszystkich możliwych sposobów konstruowania termów
-definiowanego typu danych*, zdanie `False` (`False : Prop`) jako typ, którego termów *nie da się w
-żaden sposób skonstruować*. Dlatego ta definicja indukcyjnego typu danych kończy się tak
-gwałtownie. 
+definiowanego typu danych*, zdanie `False` (`False : Prop`) jako typ, którego termów (czyli tutaj
+dowodów) *nie da się w żaden sposób skonstruować*. Dlatego ta definicja indukcyjnego typu danych
+kończy się tak gwałtownie.
 
 Zdanie/typ `False` jest ewidentnie obiektem analogicznym do zbioru pustego w kategorii `Set` i tak
 samo jak zbiór pusty, spełnia wszystkie warunki kategoryjnej definicji obiektu początkowego: Dla
 każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii dowiedlności zdań ze
 zdań, jak wiesz, można udowodnić zdanie `False → P`, czyli istnieje *jakaś* strzałka z punktu
-`False` do punktu `P`. Co więcej, istnieje *co najwyżej jedna* taka strzałka, bo w tej kategorii nie
-ma nigdy dwóch różnych równoległych strzałek.
+`False` do punktu `P`, bo z fałszu wynika wszystko. Co więcej, istnieje *co najwyżej jedna* taka
+strzałka, bo w tej kategorii nie ma nigdy dwóch różnych równoległych strzałek.
 
 Obiektem dualnym do zdania fałszywego jest *zdanie prawdziwe*, które w Leanie jest zdefiniowane tak:
 
@@ -161,25 +162,26 @@ example (P : Prop) : P → True := True.intro
 A więc z perspektywy kategoryjnej zdanie prawdziwe albo prawda i zdanie fałszywe albo fałsz są
 obiektami dualnymi, a więc w pewnym sensie są tym samym obiektem, tylko każdy z nich jest "wywróconą
 na drugą stronę" wersją drugiego. Widzimy też, że istnieje oczywiste podobieństwo między
-typem/zdaniem `True` i każdym możliwym singletonem. Wreszcie, dla każdego zdania `P`, istnieje
-strzałka `True → P` wtedy i tylko wtedy, gdy samo zdanie `P` jest zdaniem prawdziwym, na przykład,
-gdy `P` jest zdaniem (nie strzałką w tej kategorii!) `q → q`, bo tylko wtedy można skonstruować
-dowód implikacji `True → P`. Co więcej, dla każdego zdania `P`, istnieje strzałka *z* `P` *do*
-`False` wtedy i tylko wtedy, gdy istnieje dowód negacji tego zdania, czyli kiedy to zdanie jest
-zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i negacja (`¬ P` dla jakiegoś `P :
-Prop`) są swoimi dualnymi odpowiednikami.
+typem/zdaniem `True` i każdym możliwym singletonem. 
+
+Co więcej, dla każdego zdania `P`, istnieje strzałka `True → P` wtedy i tylko wtedy, gdy samo zdanie
+`P` jest zdaniem prawdziwym, na przykład, gdy `P` jest zdaniem (nie strzałką w tej kategorii!) `q →
+q`, bo tylko wtedy można skonstruować dowód implikacji `True → P`. I dualnie, dla każdego zdania
+`P`, istnieje strzałka *z* `P` *do* `False` wtedy i tylko wtedy, gdy istnieje dowód negacji tego
+zdania, czyli kiedy `P` jest zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i
+negacja (`¬ P` dla jakiegoś `P : Prop`) są swoimi dualnymi odpowiednikami.
 
 Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
 jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
 R`, czyli jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań istnieją strzałki `P → Q` i
 `P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧ R`
 i ten dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R → R`, czyli dowód tej
-implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając strzałki `P → Q` i `P → R`
-odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par różnych
-równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para uporządkowana
-zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami, co jeszcze
-podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem kartezjańskim zbiorów) i
-pojęciem koniunkcji w logice zdań.
+implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając jedyne możliwe strzałki `P →
+Q` i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par
+różnych równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para
+uporządkowana zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami,
+co jeszcze podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem kartezjańskim
+zbiorów) i pojęciem koniunkcji w logice zdań.
 
 *Koproduktami* w tej kategorii są z kolei dokładnie wszystkie *alternatywy* zdań, które zapisujemy
 prawie jak koniunkcje, tylko odwracając symbol `∧` do góry nogami, czyli używając symbolu `∨`. No i
