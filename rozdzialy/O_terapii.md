@@ -25,17 +25,18 @@ badaniach zawsze powstaj±.
 
 Poza tym nak³anianie terapeutów bior±cych udzia³ w tego rodzaju badaniach, ¿eby stosowali podej¶cie
 lub metodê, któr± badacz móg³by przydzielaæ losowo, bêdzie mia³o zawsze z konieczno¶ci rozmaite
-powa¿ne ograniczenia. W tak przeprowadzonym badaniu interwencja i tak nie mog³aby dzia³aæ
-*selektywnie*, poniewa¿ skutek zastosowania okre¶lonej metody wynika³by w bli¿ej nieokre¶lony sposób
-miêdzy innymi z tego, jaki stosunek do tej metody ma dany terapeuta albo terapeutka, a osoby, które
-by³yby przydzielone do warunków, w których ta metoda nie by³aby stosowana, a które normalnie by j±
-zastosowa³y, mog³yby z tego powodu w bli¿ej nieokre¶lony sposób zmieniæ to, jak prowadz± terapiê.
+powa¿ne ograniczenia. W tak przeprowadzonym badaniu interwencja i tak nie bêdzie mog³a dzia³aæ
+*selektywnie*, poniewa¿ skutek zastosowania okre¶lonej metody bêdzie wynika³ w bli¿ej nieokre¶lony
+sposób miêdzy innymi z tego, jaki stosunek do tej metody ma dany terapeuta albo terapeutka, a osoby,
+które zostan± przydzielone do warunków, w których ta metoda nie bêdzie stosowana, a które normalnie
+by j± zastosowa³y, bêd± mog³y z tego powodu w bli¿ej nieokre¶lony sposób zmieniæ to, jak prowadz±
+terapiê.
 
-Wreszcie przebieg terapii bêd±cej interwencj± eksperymentaln± to nie to samo, co przebieg terapii w
-warunkach naturalnych, a przecie¿ o to drugie chodzi w badaniach skuteczno¶ci. Mo¿na wiêc od biedy
-powiedzieæ co najwy¿ej, ¿e w przypadku niektórych metod terapii zebrane do tej pory ¶wiadectwa
-empiryczne *zdaj± siê sugerowaæ*, ¿e *w pewnych sytuacjach* te metody *mog± dzia³aæ pod pewnymi,
-stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
+Wreszcie przebieg terapii bêd±cej interwencj± eksperymentaln± to generalnie zdecydowanie nie to
+samo, co przebieg terapii w warunkach naturalnych, a przecie¿ o to drugie chodzi w badaniach samej
+skuteczno¶ci. Mo¿na wiêc od biedy powiedzieæ co najwy¿ej, ¿e w przypadku niektórych metod terapii
+zebrane do tej pory ¶wiadectwa empiryczne *zdaj± siê sugerowaæ*, ¿e *w pewnych sytuacjach* te metody
+*mog± dzia³aæ pod pewnymi, stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
 
 To oczywi¶cie *nie* znaczy, ¿e terapia nie dzia³a, albo, ¿e dzia³a niezbyt skutecznie; to znaczy
 *tylko* tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie *nie sposób stwierdziæ*, jakie dok³adnie s± lub
@@ -58,26 +59,26 @@ te bardziej dookre¶lone schematy postêpowania, o których uczyli siê w trakcie sz
 co prawda pewnych ram u³atwiaj±cych poszukiwanie odpowiedzi na pytanie *co dalej* i dziêki temu
 znacz±co redukuj± poczucie niepewno¶ci terapeuty albo terapeutki, ale okazuj± siê te¿ czêsto
 zdecydowanie zbyt restrykcyjne i naiwne. Gdy potem taki na przyk³ad typowy wspó³czesny psycholog
-poznawczy s³yszy albo czyta to, co praktycy mówi± o przebiegu i znaczeniu procesu terapii, nie jest
-siê w stanie dopatrzeæ niemal niczego, co przypomina³oby wnioskowanie oparte na wzglêdnie dobrze
-empirycznie uzasadnionych hipotezach na temat *przyczynowego mechanizmu procesu terapeutycznego* i
-zamiast tego odkrywa gar¶æ pozornie lu¼nych metafor. Nie ma w tym nic dziwnego, bo te¿ praktyka
-psychoterapii jest tak daleko od badañ podstawowych i w ogóle psychologii akademickiej, ¿e spieranie
-siê o to, która metoda jest bardziej naukowa *w znaczeniu oparta na naukowych wyja¶nieniach*, a
-*nie* w znaczeniu jako¶ "udowodnionej" *skuteczno¶ci*, przypomina dyskusje o tym, która drabina
-pozwala siê szybciej wdrapaæ na ksiê¿yc.
+poznawczy albo metodolog s³yszy albo czyta to, co praktycy mówi± o przebiegu i znaczeniu procesu
+terapii, nie jest siê w stanie dopatrzeæ niemal niczego, co przypomina³oby wnioskowanie oparte na
+wzglêdnie dobrze empirycznie uzasadnionych hipotezach na temat *przyczynowego mechanizmu procesu
+terapeutycznego* i zamiast tego odkrywa gar¶æ pozornie lu¼nych metafor. Nie ma w tym nic dziwnego,
+bo te¿ praktyka psychoterapii jest tak daleko od badañ podstawowych i w ogóle psychologii
+akademickiej, ¿e spieranie siê o to, która metoda jest bardziej naukowa *w znaczeniu oparta na
+naukowych wyja¶nieniach*, a *nie* w znaczeniu jako¶ tam "udowodnionej" *skuteczno¶ci*, przypomina
+dyskusje o tym, która drabina pozwala siê szybciej wdrapaæ na ksiê¿yc.
 
-Z perspektywy, która nam siê tutaj stopniowo wykluje, tak w³a¶nie *musi byæ* i tak *powinno* byæ, bo
-terapia *nie mo¿e* polegaæ na celowej interwencji na poziomie *nieobserwowalnych przyczyn
+Z perspektywy, która nam siê tutaj stopniowo zarysuje, tak w³a¶nie *musi byæ* i tak *powinno* byæ,
+bo terapia *nie mo¿e* polegaæ na celowej interwencji na poziomie *nieobserwowalnych przyczyn
 zachowania*, skoro te s± nie tylko s³abo poznane, ale przede wszystkim *z definicji
 niedostêpne*. Polega za to g³ównie, bo musi, bo jest *dialogiem co najmniej dwóch osób*, na próbach
 u³atwienia pacjentce albo pacjentowi opanowania dziêki regularnym rozmowom nowych, potencjalnie
 adaptacyjnych i moralnie akceptowalnych, spójnych z w³asnymi predyspozycjami, mo¿liwo¶ciami i
 sytuacj± *ról spo³ecznych*, a dziêki temu byæ mo¿e na wykszta³ceniu bardziej korzystnych sposobów
-reagowania. Ten proces polega na *interpretowaniu* zachowañ i wypowiedzi pacjenta lub pacjentki za
-pomoc± rozmaitych, najczê¶ciej stosunkowo wieloznacznych i nieostrych pojêæ, które *musz±* i
-*powinny* prowadziæ do radykalnych uproszczeñ, a *nie* na *rzeczywistym wyja¶nianiu* tych zachowañ i
-wypowiedzi.
+reagowania. Podstawowe znaczenie w tym procesie ma *interpretowanie* zachowañ i wypowiedzi pacjenta
+lub pacjentki za pomoc± rozmaitych, najczê¶ciej stosunkowo wieloznacznych i nieostrych pojêæ, które
+*musz±* i *powinny* prowadziæ do radykalnych uproszczeñ, a *nie* rzeczywiste *wyja¶nianie* tych
+zachowañ i wypowiedzi.
 
 Z tej perspektywy terapia jest wiêc prób± pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej
 i korzystnej *zmiany tego, kim jest*, a w³a¶ciwie raczej *kim bywa*[^1]. Taka zmiana jest zawsze
