@@ -384,6 +384,11 @@ konstrukcji, a konkretnie wolnej kategorii nad grafem i parę innych drobiazgów
 Niego większego skupienia i wytrwałości, była nagła zmiana języka i punktu widzenia na
 kategoryjny. No raczej.
 
+Magdzie Zielińskiej, za szczere, przemyślane i inspirujące obserwacje dotyczące praktyki
+psychoterapii i za wątpliwości na temat tego, co napisałem na ten temat tutaj. Dzięki tej jakże
+statysfakcjonującej wymianie miałem okazję przemyśleć na nowo rozmaite podstawowe kwestie i zdałem
+sobie sprawę, jak mógłbym pewne rzeczy napisać jaśniej.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
