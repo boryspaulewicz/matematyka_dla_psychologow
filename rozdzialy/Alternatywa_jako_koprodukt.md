@@ -400,33 +400,33 @@ reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją dualn
 
 Strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie zdanie,
 że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde zdanie,
-które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. To jest trudniejszy do
-spełnienia, a więc bardziej wymagający albo mocniejszy *warunek* niż wynikanie z łącznej
-prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc *mocniejszym założeniem* niż alternatywa
-złożona z tych samych zdań, co znaczy, że z `p ∧ q` wynika `p ∨ q`, ale nie odwrotnie. Inaczej
-mówiąc, z koniunkcji można wywnioskować zawsze *co najmniej* to samo co z alternatywy złożonej z
-tych samych zdań, ale nie odwrotnie.
+które wynika *jednocześnie* z *samego* zdania `p` i z *samego* zdania `q`. Uwaga - teraz będę
+żonglował terminami *słabszy*, *mocniejszy*, *łatwiejszy* i *trudniejszy* mówiąc o *warunkach* (do
+spełnienia) i o *założeniach*: Warunek, który musimy spełnić, żeby użyć dowodu alternatywy jest
+trudniejszy do spełnienia, a więc to jest bardziej wymagający albo mocniejszy *warunek* niż
+wynikanie z łącznej prawdziwości zdań `p` i `q`. Koniunkcja zdań jest więc *mocniejszym założeniem*
+niż alternatywa złożona z tych samych zdań, co znaczy, że z `p ∧ q` wynika `p ∨ q`, ale nie
+odwrotnie. Inaczej mówiąc, z koniunkcji można wywnioskować zawsze *co najmniej* to samo co z
+alternatywy złożonej z tych samych zdań, ale nie odwrotnie. Łatwo się w tym pogubić, prawda?
 
 Możemy powiedzieć to samo, tylko najogólniej jak się da, wznosząc się znowu na wysokość, na której
 słychać już trochę burczenie aniołów: Jeżeli w kategorii `ℂ` istnieje produkt `X × Y` i koprodukt
 `X + Y`, to istnieją co najmniej dwie, niekoniecznie różne strzałki z `X × Y` do `X + Y`, bo są nimi
-co najmniej złożenia projekcji z `X × Y` z injekcjami do `X + Y`. Za to nie musi istnieć żadna
-strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym zamachem stwierdziliśmy coś na temat
-koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy rozłącznej zbiorów i w ogóle
-wszystkich możliwych produktów i koproduktów.
+co najmniej złożenia projekcji `X ← X × Y → Y` z injekcjami `X → X + Y ← Y`. Za to nie *musi*
+istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym zamachem stwierdziliśmy
+coś na temat koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy rozłącznej zbiorów i
+w ogóle wszystkich możliwych produktów i koproduktów.
 
 Możemy zobaczyć z tej perspektywy, że to, jak *działa w logice* koniunkcja i alternatywa nie ma
 *nic* wspólnego z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej
 albo innej wersji teorii typów. Może się wydawać, że wyjaśniając to w ten sposób tracimy poczucie
 sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do rozumienia
-wszystkiego w kategoriach konkretnych, takich jak szczegóły implementacji. Jednocześnie jednak
-dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość zrozumienia w pewnym sensie
-prawdziwych, a już na pewno głębszych i bardziej uniwersalnych powodów, dla których produkty i
-koprodukty są zdefiniowane w taki a nie inny sposób w różnych kontekstach (tutaj w kontekście teorii
-typów z wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
-
-To co, może wylądujemy już na ziemi i pobawimy się trochę dowodami zdań, w których występują
-alternatywy?
+wszystkiego od strony implementacji, która wydaje się nam bardziej konkretna albo
+podstawowa. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
+zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej uniwersalnych
+*powodów*, dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w różnych
+kontekstach (tutaj w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami
+indukcyjnymi).
 
 ### Przypisy
 
