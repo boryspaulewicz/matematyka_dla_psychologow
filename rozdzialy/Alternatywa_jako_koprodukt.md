@@ -423,10 +423,10 @@ istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym z
 coś na temat koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy rozłącznej zbiorów i
 w ogóle wszystkich możliwych produktów i koproduktów.
 
-Możemy zobaczyć z tej perspektywy, że to, jak *działa w logice* koniunkcja i alternatywa nie ma
-*nic* wspólnego z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej
-albo innej wersji teorii typów. Może się wydawać, że wyjaśniając to w ten sposób tracimy poczucie
-sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do rozumienia
+Z perspektywy kategoryjnej widać, że to, jak *działa w logice* koniunkcja i alternatywa nie ma *nic*
+wspólnego z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo
+innej wersji teorii typów. Może się wydawać, że wyjaśniając to w ten sposób tracimy poczucie sensu,
+ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do rozumienia
 wszystkiego od strony implementacji, która wydaje się nam bardziej konkretna albo
 podstawowa. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
 zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej uniwersalnych
