@@ -27,15 +27,14 @@ kilka gorzkich albo obraźliwych słów, jest jedynym etycznie akceptowalnym roz
 ```lean
 variable (p q : Prop)
 
--- Jeżeli p, to oczywiście również p lub q. To jest pierwsza reguła wprowadzania alternatywy w
--- dedukcji naturalnej. Można by ją nazwać regułą wprowadzania alternatywy "z lewej". Ponieważ alternatywa
--- to w Leanie zdefiniowany indukcyjnie koprodukt, konstruujemy dowody alternatyw używając albo pierwszej
--- (inaczej lewej) albo drugiej (inaczej prawej) injekcji. Pierwsza/lewa nazywa się Or.inl, a druga/prawa
--- nazywa się Or.inr.
+-- Jeżeli p, to oczywiście również p lub q. To jest pierwsza albo lewa reguła wprowadzania alternatywy w
+-- dedukcji naturalnej. Ponieważ alternatywa to w Leanie zdefiniowany indukcyjnie koprodukt, mówimy też, że
+-- konstruujemy dowody alternatyw używając albo pierwszej (inaczej lewej) albo drugiej (inaczej prawej)
+-- injekcji. Pierwsza/lewa injekcja nazywa się Or.inl, a druga/prawa nazywa się Or.inr.
 example : p → p ∨ q := 
   fun (hp : p) => Or.inl hp
 
--- A to druga reguła wprowadzania alternatywy:
+-- A to druga reguła wprowadzania alternatywy wyrażona jako anonimowe twierdzenie:
 example : q → p ∨ q := 
   fun (hq : q) => Or.inr hq
 ```
@@ -88,10 +87,10 @@ example : p ∧ q → p ∨ q :=
 
 -- Tak też można, korzystając z dopasowania wzorca w parametrze i zastępując jedną z wartości symbolem _,
 -- żeby Lean nie narzekał, że występują tu nieużywane nazwy parametrów.
-example : p ∧ q → p ∨ q := 
+example : p ∧ q →   p ∨ q := 
      fun ⟨hp, _⟩ => Or.inl hp
 
-example : p ∧ q → p ∨ q := 
+example : p ∧ q →   p ∨ q := 
      fun ⟨_, hq⟩ => Or.inr hq
 
 -- W trybie interaktywnym:
