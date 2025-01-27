@@ -290,8 +290,9 @@ Niech `P`, `Q` i `R` będą jakimiś zdaniami. Żeby *udowodnić* zdanie `P ∧ 
 Żeby udowodnić `R` *dysponując* tylko dowodem zdania `P ∧ Q`, czyli żeby *wykorzystać* w dowodzie tą
 koniunkcję do udowodnienia `R`, wystarczy wykazać, że `R` wynika z `P`, *lub* wykazać, że wynika z
 `Q`, lub z obydwu tych zdań jednocześnie, bo "lub" (albo "albo"), tak jak domyślnie rozumiemy to
-słowo w logice, dopuszcza też taką możliwość. A więc w regule wprowadzania koniunkcji pojawia się
-pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się dualne pojęcie alternatywy.
+słowo w (nieformalnej) logice, dopuszcza też taką możliwość. A więc w regule wprowadzania koniunkcji
+pojawia się pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się dualne pojęcie
+alternatywy.
 
 Wydaje mi się, że nie jest wcale oczywiste, że mamy tutaj do czynienia ze współźródłowymi strzałkami
 do produktu i jego członów. Każdy dowód koniunkcji albo będzie wymagał zastosowania jakiś dostępnych
