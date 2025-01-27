@@ -140,7 +140,7 @@ example : p ∨ q → q ∨ p := by
   intro h
   cases h -- W tym miejscu widoczna w kontekście zmienna h ma znowu inny kolor. Nie musimy jednak ani
   -- odnosić się do tej zmiennej jawnie, ani jak wcześniej nadawać nazwy hipotetycznym dowodom członów tej
-  -- alternatywy. Zamiast tego możemy zastosować taktykę apply. W tym miejscu da się skonstruować dowód p ∨ q
+  -- alternatywy. Zamiast tego możemy zastosować taktykę apply. W tym miejscu da się skonstruować dowód q ∨ p
   -- za pomocą konstruktora Or.inr, bo w kontekście jest (tylko) dowód zdania p, które jest *prawym* członem
   -- alternatywy będącej celem.
   --
