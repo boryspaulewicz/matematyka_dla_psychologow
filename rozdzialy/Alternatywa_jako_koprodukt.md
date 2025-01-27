@@ -173,7 +173,7 @@ example : p ∨ q → q ∨ p := by
   -- Dokończ dowód, zaczynając od nadania jawnej nazwy widocznemu w tym momencie w kontekście dowodowi zdania q.
 ```
 
-## Alternatywa logiczna jako koprodukt w kategorii zdań i relacji dowiedlności
+## Alternatywa logiczna jako koprodukt w kategorii dowiedlności zdań
 
 Jeżeli ten podrozdział wyda Ci się na razie zbyt trudny, możesz go pominąć bez szkody dla
 zrozumienia kolejnych rozdziałów i wrócić tu, kiedy poczujesz, że może coś Ci się rozjaśni.
