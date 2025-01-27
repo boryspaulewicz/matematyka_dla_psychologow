@@ -149,17 +149,19 @@ example : p ∨ q → q ∨ p := by
   -- muszą być zrealizowane, żeby zastosowanie tego czegoś, co jest arugmentem, zakończyło się sukcesem.
   -- Czyli pojawiają się wtedy nowe cele, będące przesłankami albo prerekwizytami, które trzeba udowodnić albo
   -- mówiąc ogólnie skontruować, żeby zastosowanie argumentu taktyki apply rozwiązało oryginalny cel. W tym
-  -- przypadku jako nowy cel pojawi się więc zdanie p, ponieważ skonstruowanie dowodu oryginalnego celu za pomocą
-  -- konstruktora Or.inr wymaga uzupełnienia właśnie o dowód zdania p, które jest prawym członem alternatywy
-  -- będącej oryginalnym celem.
-  apply Or.inr
+  -- przypadku jako nowy cel pojawi się więc zdanie p, ponieważ skonstruowanie dowodu oryginalnego celu q ∨ p
+  -- za pomocą konstruktora Or.inr wymaga uzupełnienia właśnie o dowód zdania p, które jest prawym członem 
+  -- alternatywy będącej oryginalnym celem: Żeby skonstruować dowód q ∨ p stosując (apply) konstruktor Or.inr,
+  -- który możemy próbować do tego stosować, bo Or.inr jest konstruktorem alternatyw, musimy dostarczyć dowód p.
+  apply Or.inr -- Odtąd cel jest inny - celem jest teraz pewien (Or.inr-)środek do oryginalnego celu.
   -- Taktyka assumption sama szuka w kontekście termu o takim samym typie jak aktualny cel i w tym
   -- wypadku go znajduje. Dzięki temu nie musimy odwoływać się do nazwy dowodu p. Gdy kursor znajduje
   -- się w tej samej linii co assumption, widać, że kontekst odpowiada drugiemu możliwemu sposobowi
-  -- udowodnienia *przesłanki* p ∨ q, to jest h : q.
+  -- udowodnienia *przesłanki* p ∨ q, to jest h : q. Ta zmiana wynika stąd, że właśnie "zamknęliśmy" jedną z
+  -- "klauzuli" cases.
   assumption
   -- Dokończ dowód podobnie, jak to zrobiłem powyżej, czyli zaczynając od zastosowania taktyki apply z
-  -- odpowiednim konstruktorem dowodu alternatywy.
+  -- odpowiednim konstruktorem dowodu alternatywy będącej celem.
 
 example : p ∨ q → q ∨ p := by
   intro h
