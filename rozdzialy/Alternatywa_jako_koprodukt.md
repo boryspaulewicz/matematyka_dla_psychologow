@@ -278,7 +278,7 @@ tak, żeby nie mogły być równe żadnemu dowodowi `Q` i dowody `Q` oznaczone t
 równe żadnemu dowodowi `P`. Widzimy oto znowu, że alternatywa to szczególny przypadek koproduktu,
 czyli (z perspektywy kategoryjnej) "wywrócona na drugą stronę" koniunkcja.
 
-## Koniunkcja i alternatywa z perspektywy kategoryjnej
+### Koniunkcja i alternatywa z perspektywy kategoryjnej
 
 Tą dualność widać zarówno w sposobie, w jaki *dowodzimy* koniunkcji i alternatywy - czyli w regułach
 *wprowadzenia* tego rodzaju zdań - jak i w sposobie, w jaki ich *używamy*, czyli w regułach ich
