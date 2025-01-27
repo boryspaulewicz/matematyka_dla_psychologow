@@ -354,9 +354,9 @@ tym, że interpretujemy `p → q → r` jako typ *funkcji dwuparametrowych*, kt�
 dające się skonstruować z par dowodów będących argumentami ich aplikacji.
 
 Z tego punktu widzenia ta definicja wyraża po prostu fakt, że dowód koniunkcji zdań `p` i `q` to
-taki dowód, za pomocą którego można udowodnić każde zdanie wynikające z łącznej prawdziwości zdań
-`p` i `q`. Przyjmując tą definicję można łatwo zdefiniować jedyną regułę wprowadzania i obydwie
-reguły eliminacji dla koniunkcji:
+taki dowód, za pomocą którego można udowodnić każde zdanie `r` (`... → r`) wynikające z łącznej
+prawdziwości zdań `p` i `q` (`(p → q → r) ...`). Przyjmując tą definicję można łatwo zdefiniować
+jedyną regułę wprowadzania i obydwie reguły eliminacji dla koniunkcji:
 
 ```lean
 -- Dla uproszczenia pominąłem tutaj typowanie, którego Lean może się sam domyślić i zastąpiłem nazwy
