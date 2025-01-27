@@ -95,13 +95,13 @@ example : p ∧ q →   p ∨ q :=
 
 -- W trybie interaktywnym:
 example : p → p ∨ q := by
-  intro hp
-  exact Or.inl hp
+    intro hp
+        exact Or.inl hp
 
 -- Dopasowanie wzorca można stosować również zapisując argument taktyki intro:
 example : p ∧ q → p ∨ q := by
-  intro ⟨_, hq⟩
-  exact Or.inr hq
+   intro ⟨_, hq⟩
+            exact Or.inr hq
 ```
 
 ### Kilka nowych taktyk
