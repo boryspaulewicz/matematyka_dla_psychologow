@@ -8,8 +8,9 @@ praktyce dowodzenia.
 ## Alternatywa w praktyce dowodzenia
 
 Jeżeli `P` i `Q` to jakieś zdania, to dowodem zdania `P ∨ Q`, które **czytamy jako** `P` lub `Q`,
-jest *albo* dowód zdania `P`, *albo* dowód zdania `Q`. Co ciekawe, nie może nim być dowód zdania `P`
-i zdania `Q` *jednocześnie*. To są dwie reguły wprowadzenia alternatywy.
+jest *albo* dowód zdania `P`, *albo* dowód zdania `Q`. To są dwie reguły wprowadzenia
+alternatywy. Co ciekawe, dowodem alternatywy `P ∨ Q` nie może nim być dowód zdania `P` i zdania `Q`
+*jednocześnie*, chyba, że to są te same zdania.
 
 Jeżeli mamy jakiś dowód zdania `P ∨ Q`, to żeby korzystając z niego udowodnić jakieś zdanie `R`
 trzeba mieć lub skonstruować dowód, że `R` wynika z `P` jak również, że `R` wynika z `Q`. Chodzi w
