@@ -8,14 +8,14 @@ praktyce dowodzenia.
 ## Alternatywa w praktyce dowodzenia
 
 Jeżeli `P` i `Q` to jakieś zdania, to dowodem zdania `P ∨ Q`, które **czytamy jako** `P` lub `Q`,
-jest *albo* dowód zdania `P`, *albo* dowód zdania `Q`. To są dwie reguły wprowadzenia
-alternatywy. Co ciekawe, dowodem alternatywy `P ∨ Q` nie może nim być dowód zdania `P` i zdania `Q`
-*jednocześnie*, chyba, że to są te same zdania.
+jest *albo* dowód zdania `P`, *albo* dowód zdania `Q`. To są dwie reguły *wprowadzenia* alternatywy
+(do konstruowanego dowodu). Co ciekawe, dowodem alternatywy `P ∨ Q` nie może nim być dowód zdania
+`P` i zdania `Q` *jednocześnie*, chyba, że to są te same zdania.
 
 Jeżeli mamy jakiś dowód zdania `P ∨ Q`, to żeby korzystając z niego udowodnić jakieś zdanie `R`
 trzeba mieć lub skonstruować dowód, że `R` wynika z `P` jak również, że `R` wynika z `Q`. Chodzi w
-tym o to, że mają sam dowód zdania `P ∨ Q` wiemy tylko tyle, że (co najmniej) *jedno* z tych dwóch
-zdań jest prawdziwe, ale nie wiemy które. To jest jedyna reguła eliminacji dla alternatywy.
+tym o to, że mając sam dowód zdania `P ∨ Q` wiemy tylko tyle, że (co najmniej) *jedno* z tych dwóch
+zdań jest prawdziwe, ale nie wiemy które. To jest jedyna reguła *eliminacji* dla alternatywy.
 
 **Sugestia**: Można potraktować poniższe przykłady dowodów jako inspirację do wymyślania własnych
 zadań, albo po prostu spróbować udowodnić niektóre lub wszystkie pojawiające się tutaj zdania na
