@@ -25,7 +25,7 @@ chcemy. A czasem bywa i tak, że skrzywdzenie kogoś z rozwagą, na przykład wy
 kilka gorzkich albo obraźliwych słów, jest jedynym etycznie akceptowalnym rozwiązaniem.
 
 ```lean
-variable (p q r : Prop)
+variable (p q : Prop)
 
 -- Jeżeli p, to oczywiście również p lub q. To jest pierwsza reguła wprowadzania alternatywy w
 -- dedukcji naturalnej. Można by ją nazwać regułą wprowadzania alternatywy "z lewej". Ponieważ alternatywa
