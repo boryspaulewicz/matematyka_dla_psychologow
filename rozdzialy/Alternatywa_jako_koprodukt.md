@@ -205,20 +205,20 @@ nieredukowalną aplikację `Or.inr (h : b)` będącą dowodem zdania `Or a b`.
 ### Krótko o definicjach indukcyjnych, definicjach rekurencyjnych i schematach aksjomatów.
 
 Jak już wiesz, aksjomaty to dokładnie definicje pozbawione ciała, czyli definicje nierozwijalne,
-czyli arbitralne konwencje językowe albo pojęciowe, czyli pewne *wybory* dotyczące tego, *o czym ma
-być mowa*. Na przykład, ...
+czyli jakby takie konstrukcje "w języku", albo arbitralne konwencje językowe albo pojęciowe, czyli
+pewne *wybory* dotyczące tego, *o czym ma być mowa* albo *co ma być mową*. Na przykład, ...
 
 ```lean
 axiom Pada_deszcz : Prop
 axiom d : Pada_deszcz
 ```
 
-to dwa aksjomaty, na mocy krótych `Pada_deszcz` jest zdaniem, a `d` jest dowodem tego zdania. To
+... to dwa aksjomaty, na mocy których `Pada_deszcz` jest zdaniem, a `d` jest dowodem tego zdania. To
 *nie* są *założenia*, tylko szczególnego rodzaju *definicje*, które pozwalają używać tych dwóch
 (odtąd) stałych, czyli *mówić* o tych dwóch "rzeczach" mimo, że w pierwszym przypadku nie
 skonstruowaliśmy żadnego termu typu `Prop`, a w drugim nie skonstruowaliśmy żadnego dowodu
-zdania. Jak widzisz, aksjomaty to definicje pozbawione ciała, a więc definicje nierozwilajne,
-inaczej nieredukowalne.
+zdania. Jak więc widzimy na tym przykładzie, aksjomaty to definicje pozbawione ciała, a więc
+definicje nierozwilajne, inaczej nieredukowalne.
 
 A w takim razie to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty mogą być
 przecież redukowalne) nieredukowalne, oznacza, że ta typu `Or`, jak każda *parametryczna* definicja
