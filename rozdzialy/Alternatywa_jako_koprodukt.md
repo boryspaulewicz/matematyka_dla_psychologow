@@ -229,7 +229,7 @@ nieredukowalne wyrażenie `Or p p` jest aksjomatycznie również zdaniem, a poni
 zdaniem, to na mocy definicji typu `Or` nieredukowalne wyrażenie `Or p → p p → p` jest
 aksjomatycznie również zdaniem, i tak dalej.
 
-Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
+Zapisując tą definicję jako definicję *indukcyjną* rozstrzygamy o tym, że *wszystkie takie* i *tylko
 takie* termy są termami (parametrycznego) typu `Or`. Ponadto, zdania o postaci `Or a b`, które nie
 powstają z tych samych uporządkowanych par zdań, są na mocy tej definicji *różnymi* zdaniami i tak
 samo dowody alternatyw będące aplikacjami różnych *konstruktorów* (tutaj konstruktorami są `Or.inl`
