@@ -220,11 +220,14 @@ skonstruowaliśmy żadnego termu typu `Prop`, a w drugim nie skonstruowaliśmy �
 zdania. Jak więc widzimy na tym przykładzie, aksjomaty to definicje pozbawione ciała, a więc
 definicje nierozwilajne, inaczej nieredukowalne.
 
-A w takim razie to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich argumenty mogą być
-przecież redukowalne) nieredukowalne, oznacza, że ta typu `Or`, jak każda *parametryczna* definicja
-*indukcyjnego typu danych*, jest tak zwanym [*schematem
+A w takim razie to, że aplikacje `Or.inl` i `Or.inr` są (ostatecznie, bo ich *argumenty* mogą być
+przecież redukowalne) nieredukowalne, oznacza, że definicja typu `Or`, jak każda *parametryczna*
+definicja *indukcyjnego typu danych*, jest tak zwanym [*schematem
 aksjomatu*](https://pl.wikipedia.org/wiki/Schemat_aksjomatu)[^1], czyli *przepisem* generującym
-pewien - być może nieskończony - *zbiór aksjomatów*.
+pewien - być może nieskończony - *zbiór aksjomatów*. Na przykład, jeżeli `p` jest zdaniem, to samo
+nieredukowalne wyrażenie `Or p p` jest aksjomatycznie również zdaniem, a ponieważ wtedy `p → p` jest
+zdaniem, to na mocy definicji typu `Or` nieredukowalne wyrażenie `Or p → p p → p` jest
+aksjomatycznie również zdaniem, i tak dalej.
 
 Zapisując tą definicję jako definicję indukcyjną rozstrzygamy o tym, że *wszystkie takie* i *tylko
 takie* termy są termami (parametrycznego) typu `Or`. Ponadto, zdania o postaci `Or a b`, które nie
