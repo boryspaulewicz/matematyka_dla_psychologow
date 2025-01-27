@@ -429,8 +429,8 @@ innej wersji teorii typów. Może się wydawać, że wyjaśniając to w ten spos
 ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do rozumienia
 wszystkiego od strony implementacji, która wydaje nam się bardziej konkretna albo
 podstawowa. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
-zrozumienia w pewnym sensie prawdziwych, a już na pewno głębszych i bardziej uniwersalnych
-*powodów*, dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w różnych
+zrozumienia w pewnym sensie prawdziwych albo głębszych, a już na pewno bardziej *uniwersalnych
+powodów*, dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w różnych
 kontekstach (tutaj w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami
 indukcyjnymi).
 
