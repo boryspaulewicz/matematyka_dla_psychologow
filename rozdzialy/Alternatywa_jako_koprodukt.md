@@ -257,7 +257,7 @@ przykład nie jest.
 
 <hr>
 
-Znowu zmienię teraz konwencję i zacznę oznaczać bliżej nieokreślone zdania dużymi literami, żeby
+Znowu zmienię konwencję i zacznę oznaczać bliżej nieokreślone zdania dużymi literami, żeby
 zasygnalizować, że mogą być dowolnie złożone.
 
 *Jeżeli* `P` *i* `Q` *to zdania, to* `Or P Q` (inaczej `P ∨ Q`) *jest zdaniem*.
