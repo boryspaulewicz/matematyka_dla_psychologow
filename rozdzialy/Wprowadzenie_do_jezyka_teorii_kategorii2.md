@@ -377,13 +377,13 @@ jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to 
 `(2, a)`
 
 ... mówi do Ciebie *Jestem* `2` *i* `a`, *w tej kolejności*? Skoro tak, to równie dobrze możemy
-opisać każdy taki element *za pomocą projekcji*. Każdy taki element ma zatem tą *właściwość*, że
+opisać każdy taki element *za pomocą projekcji*. Każdy taki element ma zatem tą *własność*, że
 *wszystkie* jego *własności* można wyrazić w kategoriach tych dwóch *własności* (tak, wiem, ale
 musiałem). I do tego w zasadzie sprowadza się definicja produktu kategoryjnego, a mimo to ta
-definicja jest stosunkowo *trudna do zrozumienia*.
+definicja jest na początku stosunkowo trudna do zrozumienia.
 
 Pisałaś o tego rodzaju funkcjach, tak samo nazywając je zresztą *projekcjami*, w komentarzu pod
-jednym z naszych zrób-to-sama-rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego
+jednym z naszych zrób-to-sama rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego
 odpowiednika iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych
 kategoryjnych strzałek, a tak naprawdę samej kategoryjnej operacji składania. Niestety, nie potrafię
 opisać żadnego prostego rozumowania, które prowadziłoby prostą drogą do tej niezbyt prostej
@@ -402,42 +402,43 @@ to, jaki ma pierwszy i jaki ma drugi element (będące elementami tego elementu 
 uporządkowanej \{nie wiem, czy musiałem, ale mogłem\})?
 
 To teraz `Narysuj` jeszcze proszę dwie *projekcje* tego iloczynu. Żeby to zrobić, musisz albo nad i
-pod, albo po bokach od scharakteryzowanego już za pomocą rysunku zbioru `X × Y`, dorysować zbiory
-`X` i `Y`. Gdy to zrobisz, `Narysuj` proszę funkcję `π₁ : X × Y → X` (`π` bo πrojekcja, jak li w
-słowie "likarstwo" \{Det är en referens till Pippi Långstrump\}) i `Narysuj` również jej wewnętrzną
-strukturę, dodając strzałki od każdego elementu `(x, y) ∈ X × Y` do `x ∈ X`. W ten sam sposób
-`Narysuj` πrojekcję `π₂ : X × Y → Y`. Czy widzisz, że niezależnie od tego, który element `v ∈ X × Y`
-byś wskazała za pomocą funkcji z singletona `{∅}` do zbioru `X × Y`, takie wskazanie *zawsze* będzie
-odpowiadało *dokładnie jednej* uporządkowanej *parze wskazań elementów* `X` i `Y`, danej przez
-`π₁(v(∅))` i `π₂(v(∅))`? A czy widzisz, że każda taka (automatycznie, bo projekcje są tutaj
-indeksowane liczbami) uporządkowana para wskazań odpowiada dokładnie jednemu wskazaniu elementu
-zbioru `X × Y`? Mam nadzieję, że w tym momencie widzimy oboje, że mamy tu pewien naturalny
-*izomorfizm* między *elementami* znajdującymi się *wewnątrz* zbioru `X × Y` i znajdującymi się *na
-zewnątrz* tego zbioru *parami funkcji* z singletona `{∅}` do zbiorów `X` i `Y` odpowiednio.
+pod, albo po bokach od scharakteryzowanego już za pomocą rysunku zbioru `X × Y` dorysować zbiory `X`
+i `Y`. Gdy to zrobisz, `Narysuj` proszę funkcję `π₁ : X × Y → X` (`π` bo πrojekcja, jak li w słowie
+"likarstwo"[^4]) i `Narysuj` również jej wewnętrzną strukturę, dodając strzałki od każdego elementu
+`(x, y) ∈ X × Y` do `x ∈ X`. W ten sam sposób `Narysuj` πrojekcję `π₂ : X × Y → Y`. 
+
+Czy widzisz, że niezależnie od tego, który element `v ∈ X × Y` byś wskazała za pomocą funkcji z
+singletona `{∅}` do zbioru `X × Y`, takie wskazanie *zawsze* będzie odpowiadało *dokładnie jednej*
+uporządkowanej *parze wskazań elementów* `X` i `Y`, danej przez `π₁ ∘ v` i `π₂ ∘ v`? A czy widzisz,
+że każda taka (automatycznie, bo projekcje są tutaj indeksowane liczbami) uporządkowana para wskazań
+odpowiada dokładnie jednemu wskazaniu elementu zbioru `X × Y`? Mam nadzieję, że w tym momencie
+widzimy oboje, że mamy tu pewne narzucające się *izomorfizmy* między *elementami* znajdującymi się
+*wewnątrz* zbioru `X × Y`, znajdującymi się *na zewnątrz* tego zbioru *pojedynczymi funkcjami* z
+singletona do `X × Y` i *parami funkcji* z singletona `{∅}` do zbiorów `X` i `Y` odpowiednio.
 
 Właściwie teraz, gdy skończyłem pisać ten akapit, zaczęło mi się wydawać, że może jednak da się
 przedstawić kategoryjny iloczyn (który nazywamy raczej kategoryjnym *produktem*) jako wniosek z
 pewnego rozumowania. Po raz kolejny przekonałem się w ten sposób, że *najwięcej uczy się czegoś ten,
 kto sam próbuje kogoś tego czegoś nauczyć* i jednocześnie, że *najbardziej pogłębia swoje
-zrozumienie czegoś ten, kto.próbuje to coś komuś jasno wytłumaczyć*. To jest dlatego tak niezwykle
-skuteczny sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwiek, że próby wytłumaczenia
-czegoś względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu (autor-)refleksji na
-*metapoziomie* (bo tylko na tym poziomie da się *kontrolować jasność wypowiedzi*). A tak w ogóle, to
-na pewnym poziomie abstrakcji nie ma chyba *żadnej* różnicy między uczeniem (się) i pogłębianiem
-zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to, że jesteś i za to, że czytasz. Dziękuję Ci,
-ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dzięki temu (pun intended), że
-dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się wcześniej powtarzać
-nieco ironicznie.
+zrozumienie czegoś ten, kto próbuje to coś komuś jasno wytłumaczyć*. Wydaje mi się, że to jest
+dlatego tak niezwykle skuteczny sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwiek,
+że próby wytłumaczenia czegoś względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu
+(autor-)refleksji na *metapoziomie* (bo tylko na tym poziomie da się *kontrolować jasność
+wypowiedzi*). A tak w ogóle, to na pewnym poziomie abstrakcji nie ma chyba *żadnej* różnicy między
+uczeniem (się) i pogłębianiem zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to, że jesteś i
+za to, że czytasz. Dziękuję Ci, ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie
+dzięki temu (pun intended), że dopiero niedawno wreszcie zrozumiałem trochę lepiej coś[^3], co
+zdarzało mi się wcześniej powtarzać nieco ironicznie.
 
 I mam też taką nieśmiałą propozycję, żebyśmy podziękowali za coś *wspólnie*. "Ja" Temu, który bez
-*nas* by nie istniał i który dzięki temu, że *my* jesteśmy jest i którego w "moim" formalnym języku
-mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty" komu tam uznasz za
-stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej większości prawie w ogóle
-niczego się systematycznie nie uczą i często nawet niczego nie próbują zanotować, kiedy uczesniczą w
-dyskusjach "naukowych" albo słuchają wystąpień, wielu z nich jest nadal na szczęście *zmuszonych*, w
-czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą zwykle nie przynoszą
-im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla" jakiś okropnych,
-xnamolnych studentów. No więc za to, tylko krócej.
+*nas* by nie istniał i który dzięki temu, że *my* jesteśmy i działamy jest i którego w "moim"
+formalnym języku mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty" komu
+tam uznasz za stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej większości
+prawie w ogóle niczego się systematycznie nie uczą i często nawet niczego nie próbują zanotować,
+kiedy uczesniczą w dyskusjach "naukowych" albo słuchają wystąpień, wielu jest nadal na szczęście
+*zmuszonych*, w czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą
+często nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla"
+jakiś okropnych, namolnych studentów. No więc za to, tylko krócej.
 
 Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
 pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
@@ -536,3 +537,5 @@ pasują. A poza tym jeszcze przecież nie zaczęliśmy tej definicji do niczego 
     αὐτοῦ.  (Ewangelia według świętego Mateusza, 25:29). Chociaż wolę chyba wersję buddyjską - *To
     darczyńca powinien być wdzięczny*. Tylko niestety nie jestem w stanie `{∅} → Zrodlo` tego
     `cytat`-u, które spełniałoby (w "mojej" *ocenie*) predykat `Dobre`.
+
+[^4]: Det är en referens till Pippi Långstrump
