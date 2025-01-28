@@ -372,7 +372,7 @@ jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to 
 
 ... mówi do Ciebie *Jestem* `2` *i* `a`, *w tej kolejności*? Skoro tak, to równie dobrze możemy
 opisać każdy taki element *za pomocą projekcji*. Każdy taki element ma zatem tą *właściwość*, że
-*wszystkie* jego *własności* można wyrazić w katagoriach tych dwóch *własności* (tak, wiem, ale
+*wszystkie* jego *własności* można wyrazić w kategoriach tych dwóch *własności* (tak, wiem, ale
 musiałem). I do tego w zasadzie sprowadza się definicja produktu kategoryjnego, a mimo to ta
 definicja jest stosunkowo *trudna do zrozumienia*.
 
