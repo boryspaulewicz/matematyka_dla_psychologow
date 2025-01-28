@@ -468,24 +468,23 @@ dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` i oznacz go z dołu. Potem `N
 x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam
 sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko tą oznacz sama już wiesz jak. `Narysuj (Punkt Z)
 (N (X x Y))` i jako łuki wygięte na zewnątrz, tak, jakby to były skrzydła anioła, `Narysuj (Strzalka
-Z X)` i `Strzalka Z Y`, a potem oznacz je odpowiednio literami `f` i `g`, zapisując je po
-zewnętrznych stronach tych skrzydeł albo strzałek. Wreszcie przerywaną linią `Narysuj (Strzalka Z (X
-x Y))` i po lewej albo po prawej, jak chcesz, oznacz ją jako `⟨f, g⟩`. Na koniec wewnątrz każdego ze
-skrzydeł nanieś ptaszka, bo ten *diagram* ma być *z definicji przemienny*.
+Z X)` i `Strzalka Z Y`, a potem oznacz je odpowiednio literami `f` i `g`, zapisując te nazwy po
+zewnętrznych stronach tych skrzydeł albo strzałek. Wreszcie linią *przerywaną* `Narysuj (Strzalka Z
+(X x Y))` i po lewej albo po prawej, jak chcesz, oznacz ją jako `⟨f, g⟩`. Na koniec wewnątrz każdego
+ze skrzydeł nanieś ptaszka, bo ten *diagram* ma być *z definicji przemienny*.
 
 Co? Tak, wiem, ale nie przejmuj się, to minie (*wszystko* przecież mija[^2]). Już wyjaśniam:
 Niezależnie od tego, jaki byśmy wybrali zbiór `Z`, a więc dla każdego zbioru `Z` i niezależnie od
-tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y`, będzie *istniała* taka funkcja `h : Z →
-X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`. Skąd to wiemy? Dla dowolnego `z ∈ Z`, istnieje dokładnie
-jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x, y))`. Widzisz, że
-to musi być para uporządkowana `(f(z), g(z))` i że para o takich wartościach projekcji istnieje dla
-każdego `z ∈ Z`? A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten sposób
-scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego anioła,
-dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v ∈ X × Y`, że `π₁(v) =
-f(z)` i jednocześnie `π₂(v) = g(z)`. Skoro każda para jest całkowicie określona przez swój pierwszy
-i drugi element, to jest przez swoje dwie projekcje, to każda taka para też jest całkowicie
-określona. Funkcja `h : Z → X × Y` dla której ten diagram jest przemienny *istnieje* i jest zarazem
-*unikalna*, a więc *ta funkcja jest funkcją funkcji* `f` *i* `g`.
+tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y` (o ile istnieją), będzie *istniała* taka
+funkcja `h : Z → X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`. Skąd to wiemy? Dla dowolnego `z ∈ Z`,
+istnieje dokładnie jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x,
+y))`. Widzisz, że to musi być para uporządkowana `(f(z), g(z))` i że para o takich wartościach
+projekcji istnieje dla każdego `z ∈ Z`? A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten
+sposób scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego
+anioła, dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v ∈ X × Y`, że
+`π₁(v) = f(z)` i jednocześnie `π₂(v) = g(z)`. Funkcja `h : Z → X × Y` dla której ten diagram jest
+przemienny *istnieje* i jest zarazem *unikalna*, a więc *ta funkcja jest funkcją funkcji* `f` *i*
+`g`. Właśnie dlatego możemy ją zapisać jako `⟨f, g⟩`.
 
 Widzimy w ten sposób, że każda para funkcji `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
 iloczynu kartezjańskiego odpowiada dokładnie jednej funkcji `h` ze zbioru `Z` do tego iloczynu,
@@ -511,8 +510,7 @@ takie, że te strzałki zachowują się w opisany wyżej sposób, czyli jak *pro
 opisany wyżej sposób "narzędziem wiernego tłumaczenia" między strzałkami do produktu i parami
 współźródłowych strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób
 uzyskujemy *uniwersalną definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn
-kartezjański i która, jak się okaże w jednym z następnych rozdziałów, odpowiada między innymi
-pojęciu *koniunkcji w logice*.
+kartezjański i która, jak się później okaże, odpowiada między innymi pojęciu *koniunkcji w logice*.
 
 **Sugestia**: To była jak sądzę najtrudniejsza część tego rozdziału, dlatego nie będę Ci sugerował,
 jak podpisać ostatni rysunek, bo przypuszczam, że ta notatka będzie i tak ewoluowała w miarę Twoich
