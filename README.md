@@ -389,6 +389,9 @@ psychoterapii i za wątpliwości na temat tego, co napisałem na ten temat tutaj
 statysfakcjonującej wymianie miałem okazję przemyśleć na nowo rozmaite podstawowe kwestie i zdałem
 sobie sprawę, jak mógłbym pewne rzeczy napisać jaśniej.
 
+Znowu Tomkowi Smoleniowi, który znalazł błąd polegający na złym kierunku strzałki w kategoryjnej
+definicji obiektu końcowego w rozdziale R21=R15.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
