@@ -210,7 +210,7 @@ fun (x : X) => (fun (y : Y) => h (g y)) (f x)
 fun (x : X) => h (g (f x)))
 
 -- Natomiast to ...
-Zlozenie (Zlozenie f g)  h
+Zlozenie (Zlozenie f g) h
 
 -- .. redukuje się do tego ...
 Zlozenie (fun (x : X) => g (f x)) h
@@ -235,7 +235,7 @@ example : Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
 
 -- W ten sam sposób możemy udowodnić przemienność wbudowanej w Leana operacji składania funkcji
 -- teoriotypowych. Symbol składania uzyskasz w Leanie wpisując \o. W tym wypadku ten symbol
--- jest rozwijany do stałej o nazwie Function.comp (czyli Funkcja.skład).
+-- jest rozwijany do stałej o nazwie Function.comp (czyli po polsku "Funkcja.skład").
 example : h ∘ (g ∘ f) = (h ∘ g) ∘ f := by rfl
 
 -- To może jeszcze (podwójny) dowód, że identyczności zachowują się jak elementy neutralne ze względu
@@ -264,15 +264,15 @@ analogii między składaniem i (akurat niewybrednymi) operacjami dodawania lub m
 pierwsze.
 
 A po drugie, podobnie jak dodawanie i mnożenie liczb, bez zaglądania do struktury wewnętrznej
-konkretnych funkcji wiemy, że *składanie funkcji jest łączne*, co znaczy, że zapisując złożenie
-więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w jakiej
-*kolejności* będziemy *stosować operację składania*. Nadal jednak w ogólnym przypadku *ma*
+konkretnych funkcji wiemy, że (wybredne) *składanie funkcji jest łączne*, co znaczy, że zapisując
+złożenie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasów* i *nie ma znaczenia*, w
+jakiej *kolejności* będziemy *stosować operację składania*. Nadal jednak w ogólnym przypadku *ma*
 oczywiście znaczenie, *w jakiej kolejności podamy argumenty* tej operacji.
 
-"Podsumowując dotychczasowe rozważania" (łojezu Borek, jak Ty się zwracasz do Pani? No tak,
-faktycznie, przepraszam), z wysokości, na której się teraz znajdujemy i z której nie widać ani
-wewnętrznej struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych funkcji, widzimy /
-wiemy między innymi, że:
+"Podsumowując dotychczasowe rozważania" (Borek, jak Ty się zwracasz do Pani? No tak, faktycznie,
+przepraszam), z wysokości, na której się teraz znajdujemy i z której nie widać ani wewnętrznej
+struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych funkcji, widzimy / wiemy między
+innymi, że:
 
 1. Istnieją *punkty* (zbiorów), które dla nas są tylko *punktami zaczepienia strzałek*.
 
@@ -320,7 +320,7 @@ kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako 
 strzałkowe* i że to jest w pewnym sensie *lepszy*, bo bardziej *uniwersalny* sposób mówienia o tych
 obiektach, konstrukcjach i własnościach. Niejako przy okazji zaczniesz też stopniowo w bardziej
 elastyczny sposób myśleć o "takosamości" matematycznych struktur. W międzyczasie (swoją drogą, co za
-tajemnicze słowo), skorzystamy z kilku sposród tych alternatywnych, uniwersalnych kategoryjnych
+tajemnicze słowo), skorzystamy z kilku spośród tych alternatywnych, uniwersalnych kategoryjnych
 definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
 **Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty *izomorfizm*
@@ -341,8 +341,8 @@ mnożeniem, a gdyby chodziło o wskazanie za pomocą funkcji z singletona elemen
 pustym, uzyskalibyśmy wyjątkowo dezorientujące zdanie `∅(∅) = ∅`. Dlatego najlepiej korzystać z tej
 konwencji oznaczając elementy zbiorów zmiennymi, takimi jak ten tutaj `x`.
 
-Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i w matematyce zresztą też)
-[*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
+Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i w matematyce czasem zresztą
+też) [*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
 oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
 pewne funkcje jako programy, tyle, że określonego rodzaju), ale jest przecież oczywiste, że ten sam
 manewr można zastosować, z tego samego powodu (a dokładniej w tym samym celu) - to jest aby
