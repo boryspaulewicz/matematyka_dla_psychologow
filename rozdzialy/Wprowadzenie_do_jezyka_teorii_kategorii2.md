@@ -6,11 +6,11 @@ dlaczego, prawda?), to `h ∘ (g ∘ f)` też oznacza pewną funkcję, bo to zno
 Żeby udowodnić, że `h ∘ (g ∘ f) = (h ∘ g) ∘ f`, czyli, że lewa i prawa strona tej równości to ta(ka)
 sama funkcja, musimy udowodnić, że `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`. Zakładamy więc
 najpierw, że mamy *jakiś* `x ∈ X`, bo udowodnić coś dla *jakiegoś*, czyli *bliżej nieokreślonego*,
-czyli *arbitralnego* `x` znaczy dokładnie to samo, co udowodnić coś *dla każdego* `x`. Przecież
+czyli *arbitralnego* `x` znaczy dokładnie to samo, co udowodnić coś *dla każdego* `x`. W końcu
 jeżeli dowód działa dla `x ∈ X`, o którym *nic poza tym nie założyliśmy*, to znaczy, że działa *dla
 każdego* `x ∈ X`. Zapisując na kartce, że mamy jakiś `x ∈ X`, *wprowadzamy* więc `x ∈ X` *do*
-(własnego wewnętrznego) *kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*,
-którą będziemy mogli potem sami (często niejawnie) aplikować i ewaluować.
+(własnego) *kontekstu* i *zaczynamy tworzyć półformalną λ-abstrakcję twierdzenia*, którą będziemy
+mogli potem sami (często niejawnie) aplikować i ewaluować.
 
 Musimy teraz tylko rozwinąć definicję składania (bo nie ma tu żadnej innej definicji, którą
 moglibyśmy rozwinąć) tyle razy, ile będzie trzeba, przekształcając lewą stronę równania (będącą
@@ -22,7 +22,13 @@ wielokrotną aplikacją dwuargumentowej[^1] funkcji składania) do postaci ...
 
 `((h ∘ g) ∘ f)(x) = (h ∘ g)(f(x)) = h(g(f(x)))`
 
-... żeby zobaczyć, że obie funkcje dają ten sam wynik `∀ x ∈ X`, a więc:
+
+Zwróć proszę uwagę, że najpierw rozwinąłem definicję składania funkcji `(g ∘ f)` z funkcją `h`, a to
+dlatego, że w wyrażeniu `(h ∘ (g ∘ f))` właśnie to złożenie, a nie złożenie `(g ∘ f)`, jest "na
+wierzchu" albo "na zewnątrz". 
+
+Samo rozwinięcie definicji wszystkich stałych pozwoliło nam zobaczyć, że obie funkcje dają ten sam
+wynik `∀ x ∈ X`, a więc:
 
 `h ∘ (g ∘ f) = (h ∘ g) ∘ f`
 
@@ -33,16 +39,16 @@ Zwróć też proszę uwagę, że poza tym, że wspomniałem o możliwości defin
 rysunku, nie korzystaliśmy w tym rozdziale z założenia, że zbiory są skończone, bo poza wspomnianym
 kontekstem ani raz nie powiedziałem niczego w rodzaju "Ponieważ zbiór `X` jest skończony, to ...". A
 to znaczy, że *wszystkie* wymienione w tym rozdziale własności mają rownież funkcje między
-*dowolnymi* zbiorami, a więc także *nie*skończonymi. I to jest dobre.
+*dowolnymi* zbiorami, a więc także *nie*skończonymi.
 
-Czy widzisz na tym przykładzie, że warto *wiedzieć, z jakich założeń się korzysta*?  Dzięki temu
-możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione zdanie*, czyli *kiedy możemy
-używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w języku teorii typów, w zasadzie
-nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak na dłoni, z których założeń
-korzystaliśmy, bo te występowały wszystkie jawnie, albo jako parametry każdego dowodu, albo w kodzie
-dowodu jako funkcji (jako algorytmu). To jest kolejna ogromna zaleta pełnej formalizacji. Gdy jednak
-konstruujemy dowody w bardziej nieformalny sposób, tak dobrze tego nie widać, dlatego warto wtedy
-zachować czujność.
+Czy widzisz na tym przykładzie, że dowodząc różnych zdań warto *wiedzieć, z jakich dokładnie założeń
+się korzysta*?  Dzięki temu możemy poprawnie *ocenić, w jakich sytuacjach obowiązuje udowodnione
+zdanie*, czyli *kiedy możemy używać tego zdania jako twierdzenia*. Gdy konstruowaliśmy dowody w
+języku teorii typów, w zasadzie nie dało się nie mieć tej świadomości, ponieważ wtedy było widać jak
+na dłoni, z których założeń korzystaliśmy, bo te występowały wszystkie jawnie, albo jako parametry
+każdego dowodu, albo w kodzie dowodu jako funkcji (jako algorytmu). To jest kolejna zaleta pełnej
+formalizacji. Gdy jednak konstruujemy dowody w bardziej nieformalny sposób, tak dobrze tego nie
+widać, dlatego warto wtedy zachować czujność.
 
 Gdybyśmy się teraz skupili na samych funkcjach i na tym, o czym mówiliśmy dotąd w tym rozdziale, to
 można by to wszystko podsumować - stosując mam nadzieję w tym momencie już dla Ciebie oczywiste
@@ -107,8 +113,8 @@ dziedzina i przeciwdziedzina.
 
 Nie musisz więc wytężać wzroku (ani się dłużej zastanawiać), żeby się przekonać, że każdy punkt ma
 swoją *unikalną* i *charakterystyczną* endostrzałkę identycznościową. A to znaczy, że istnieje
-izomorfizm między zbiorami i identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach
-możemy równie dobrze mówić o identycznościach. Zresztą kto wie, może jeszcze z tego skorzystamy.
+izomorfizm między zbiorami i identycznościami, a to z kolei znaczy, że zamiast mówić o zbiorach,
+możemy równie dobrze mówić o identycznościach. Kto wie, może jeszcze z tego skorzystamy.
 
 Wiesz jeszcze dwie ważne rzeczy. Po pierwsze, dla każdej strzałki `f` jest zawsze prawdą, że `Id ∘ f
 = f = f ∘ Id`. W przypadku zbiorów i funkcji ten warunek, odpowiadający koniunkcji zdań `Id ∘ f = f`
@@ -140,7 +146,7 @@ zbiorami, to o ile złożenia, które pojawiają się poniżej, są możliwe, je
 
 Dowód "złożeniowej neutralności" identyczności jest łatwy i ta "neutralność" jest jak sądzę już dla
 Ciebie oczywista. Zgaduję jednak, że ostatni dowód mógł być dla Ciebie trochę trudny, ale tylko z
-powodu licznych, rozmaicie pozagnieżdżanych nawiasów, które trzeba zapisać, żeby w nim poprawnie
+powodu licznych, czasami zagnieżdżonych nawiasów, które trzeba zapisać, żeby w nim poprawnie
 operować operacją (ech) składania funkcji. Można jednak uprościć ten zapis, wprowadzając dodatkowe
 definicje, w podobny sposób, w jaki będziemy to robić od pewnego momentu dowodząc bardziej
 skomplikowanych twierdzeń w Leanie.
@@ -172,8 +178,8 @@ Podoba mi się ten ostatni sposób, a Tobie? Chociaż przyznam, że nie jest dla
 cokolwiek tu upraszcza, To może jeszcze zrobimy coś podobnego, tylko w Leanie? W tym celu
 zastosujemy taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje między
 innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z
-definicji (liczba mnoga). Zaczniemy od ilustracji, która może być dla Ciebie teraz jeszcze trudna do
-strawienia, ale której też wcale nie musisz w tym momencie dobrze rozumieć:
+definicji (liczba mnoga). Zaczniemy od ilustracji, która może być dla Ciebie teraz jeszcze trochę
+trudna, ale której też wcale nie musisz w tym momencie dobrze rozumieć:
 
 ```lean
 -- Używamy tutaj parametrów opcjonalnych, które wprowadzamy do definicji funkcji otaczając je nawiasami
