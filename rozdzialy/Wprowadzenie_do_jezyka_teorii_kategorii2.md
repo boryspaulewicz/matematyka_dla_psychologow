@@ -352,7 +352,7 @@ wyjaśnień, znajdziesz je [tutaj](Element_x_jako_funkcja_z_singletona.md).
 litera `T` wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`,
 istnieje dokładnie jedna funkcja (czyli w tym momencie też dokładnie jedna kategoryjna strzałka) *z*
 `X` *do* `T`. I odwrotnie, jeżeli zbiór `Y` ma taką własność, że dla każdego zbioru `Z` istnieje
-dokładnie jedna funkcja z `Y` do `Z` (czyli dokładnie jedna taka kategoryjna strzałka), to `Y` musi
+dokładnie jedna funkcja z `Z` do `Y` (czyli dokładnie jedna taka kategoryjna strzałka), to `Y` musi
 być zbiorem jednoelementowym.
 
 **Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
