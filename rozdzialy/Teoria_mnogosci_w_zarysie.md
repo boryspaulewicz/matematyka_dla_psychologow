@@ -13,16 +13,14 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni
 > źródłem modeli różnych teorii formalnych.
 
 Wolałbym chyba "w ten sposób" zamiast "tak" w ostatnim zdaniu, ale trudno, jest jak jest. Nie
-będziemy się teraz przyglądać aksjomatom teorii *ZF*, ponieważ my sobie sami *zrobimy* - ze strzałek
-i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
+będziemy się teraz przyglądać aksjomatom teorii *ZF*, ponieważ sami sobie *zrobimy* - ze strzałek i
+funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
 zacznę odtąd intensywnie *korzystać* z półformalnej wersji teorii mnogości jako ze źródła ważnych
 przykładów.
 
-Pojęcie zbioru jako takiego jest interesujące przede wszystkim dla specjalistów zajmujących się
-zbiorami, natomiast dla reszty świata, poza kilkoma powszechnie używanymi rodzajami konstrukcji
-opartych na zbiorach - w których zresztą, jak później się przekonasz, właściwie nie chodzi za bardzo
-o zbiory - to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic innego jak pewna *kolekcja*
-(jakiś) elementów czy obiektów.
+Pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla specjalistów zajmujących się
+zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic
+innego jak pewna *kolekcja* (jakiś) elementów czy obiektów.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
@@ -36,28 +34,39 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 
 `{n ∈ ℕ | Dodatnie n}`
 
-... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. *Ostatni* przykład możemy odczytać
-w ten sposób: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ`), że `Dodatnie n` (`{ n
-∈ ℕ | Dodatnie n}`). Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z
-dominującym zwyczajem - zbiory mogą zawierać dowolne elementy, na przykład takie, które nie należą
-do żadnego dającego się łatwo (a może nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory
-to takie (niemal[^4]) *dowolne kolekcje potencjalnie różnorodnych elementów*.
+... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. *Ostatni* przykład **czytamy tak**:
+Zbiór (`{`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ`), że `Dodatnie n` (`{ n ∈ ℕ | Dodatnie
+n}`). 
+
+Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym zwyczajem -
+zbiory mogą zawierać (niemal[^4]) dowolne elementy, na przykład takie, które nie należą do żadnego
+dającego się łatwo (a może nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory to takie
+(niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
 **Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
 "obiekt", który przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
 przeciwdziedziny. Żeby mieć jasny obraz sytuacji, upewnij się, że masz nad sobą jakieś źródło
-światłą, przygotuj proszę czystą kartkę i z lewej strony `Narysus okrag` o średnicy kroku. O krok w
+światła, przygotuj proszę czystą kartkę i z lewej strony `Narysus okrag` o średnicy kroku. O krok w
 prawo od prawego brzegu tego okręgu również `Narysuj okrag`. W lewym okręgu `Narysuj Punkt x₁`,
 `Narysuj Punkt x₂` i `Narysuj Punkt x₃`, jeden nad drugim, oznaczając je z *lewej* strony
 indeksowanymi literami `x`, czyli oznaczając je jako `x₁`, `x₂` i `x₃`, tak, żeby indeksy rosły w
 dół (jak [korzenie](https://pl.wikipedia.org/wiki/Korze%C5%84)). W prawym okręgu tak samo `Narysuj`
 punkty `y₁`, `y₂` i `y₃`, ale te oznacz z *prawej*.
 
-Mamy już kandydata na dziedzinę `X` i kandydata na przeciwdziedzinę `Y`. Teraz możemy *rysując coś
-zdefiniować funkcję*. Stosujemy tutaj dosyć powszechną konwencję, zgodnie z którą duże litery
-oznaczają zbiory, a małe litery oznaczają elementy. Czasami nie sposób trzymać się tej konwencji
-konsekwentnie, ponieważ elementami zbiorów mogą być również zbiory, ale tym razem takie komplikacje
-nie wystąpią.
+Mamy już kandydata na dziedzinę (`X`) i kandydata na przeciwdziedzinę (`Y`). Stosujemy tutaj dosyć
+powszechną konwencję, zgodnie z którą duże litery oznaczają zbiory, a małe litery oznaczają
+elementy. Czasami nie sposób trzymać się tej konwencji konsekwentnie, ponieważ elementami zbiorów
+mogą być również zbiory, ale tym razem takie komplikacje nie wystąpią.
+
+**Funkcje w teorii mnogości to (abstrakcyjne) pojęcia a nie programy komputerowe**: Teraz możemy
+*rysując coś zdefiniować funkcję teoriomnogościową*. Ale uwaga - ponieważ do tej pory zajmowaliśmy
+się głównie funkcjami w *teorii typów*, które są *programami komputerowymi*, mogą Ci się narzucać
+pewne skojarzenia albo sposoby myślenia, który nie pasują do pojęcia funkcji
+*teoriomnogościowej*. Funkcje teoriomnogościowe można, chociaż nie wszystkie, wyrazić za pomocą
+programów komputerowych, czyli *zaimplementować* albo *zrealizować* w kodzie, ale funkcje
+teoriomnogościowe to tylko abstrakcyjne obiekty, *o* których możemy *mówić* posługując się językiem
+teorii mnogości, ale które, w przeciwieństwie do programów zapisanych w języku teorii typów, *nie*
+istnieją niezależnie od tego, czy o nich mówimy albo myślimy.
 
 **Tożsamość zbiorów**: Te liczbowe indeksy dolne są w tym przypadku mylące, ponieważ sugerują, że
 kolejność elementów może mieć znaczenie. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są
