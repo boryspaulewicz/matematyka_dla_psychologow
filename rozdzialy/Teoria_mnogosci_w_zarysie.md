@@ -20,7 +20,9 @@ przykładów.
 
 Pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla specjalistów zajmujących się
 zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic
-innego jak pewna *kolekcja* (jakiś) elementów czy obiektów.
+innego jak pewna *kolekcja* (jakiś) elementów czy obiektów. Jednak właśnie dzięki temu, że to
+pojęcie, podobnie jak pojęcie typu (i przypisania), jest tak elementarne, niemal wszędzie albo do
+czegoś się przydaje, albo okazuje się wręcz niezbędne.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
