@@ -595,9 +595,9 @@ produktu, ale wtedy *nie musimy wskazywać* metody transmutacji, ponieważ istni
 taka (kanoniczna) metoda w każdą stronę.
 
 **Potencjalnie dezorientujący fragment**: Załóżmy, że mamy parę strzałek `a : P → X` i `b : P →
-Y`. Wtedy istnieje unikalna strzałka `⟨a,b⟩` taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A czy `π₁' g`
-i `π₂' g` zachowują się jak `π₁` i `π₂`?  Już wiesz, że tak, bo wiesz, że to są te same strzałki:
-`π₁' g = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla `π₂' g`.
+Y`. Wtedy istnieje unikalna strzałka `⟨a,b⟩` taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A czy `π₁' f`
+i `π₂' f` zachowują się jak `π₁` i `π₂`?  Już wiesz, że tak, bo wiesz, że to są te same strzałki:
+`π₁' f = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla `π₂' f`.
 
 A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem? Produkt punktów `X` i `Y` każdej parze
 współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio przyporządkowywuje dokładnie jedną
