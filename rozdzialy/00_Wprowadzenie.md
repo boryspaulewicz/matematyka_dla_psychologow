@@ -7,7 +7,7 @@ postanowi³em przeprowadziæ eksperyment, który polega³ na próbie przekonania stud
 odrobinie wysi³ku mog± nauczyæ siê dowodzenia prostych twierdzeñ, a dziêki temu trochê lepiej
 zrozumieæ, a ju¿ na pewno lepiej zapamiêtaæ, na przyk³ad twierdzenie Bayesa. Skrypt sta³ siê seri±
 komentarzy ilustrowanych fragmentami kodu, które by³y jednocze¶nie zadaniami wymagaj±cymi dowodzenia
-tautologii w jêzyku [Lean](https://lean-lang.org/).
+twierdzeñ w jêzyku [Lean](https://lean-lang.org/).
 
 Mia³em w±tpliwo¶ci, czy to siê uda, wiêc najpierw sprawdzi³em, jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Sz³o mu to do¶æ wolno, dlatego wprowadzi³em kilka zmian i poprawion±
@@ -64,10 +64,11 @@ samodzielnie braki w wiedzy, ale akurat matematyki ma³o kto uczy siê systematycz
 Mam wra¿enie, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mniej boj± siê
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z
 dostarczaj±cym informacji zwrotnych komputerem. Wtedy obecno¶æ nauczyciela nie jest a¿ taka
-potrzebna. Ta ksi±¿ka ma miêdzy innymi pomóc w oswajaniu siê z matematyk± przede wszystkim w³a¶nie
-zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i pracownikom akademickim
-zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w tym celu podj±æ próbê poznania nowego,
-piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
+potrzebna. Ta ksi±¿ka ma miêdzy innymi pomóc w oswajaniu siê z matematyk±, czyli g³ównie z
+konsekwentnym i abstrakcyjnym my¶leniem opartym na prze³±czaniu siê miêdzy ró¿nymi punktami
+widzenia, przede wszystkim w³a¶nie zainteresowanym samodzielnym poszerzaniem wiedzy studentom
+psychologii i pracownikom akademickim zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w
+tym celu podj±æ próbê poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
 
 Uprzedzam jednak, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*,
 czyli tam, gdzie mniej lub bardziej po swojemu obja¶niam kod albo zapêdzam siê w dygresje. To ryzyko
@@ -99,9 +100,14 @@ powietrze jest bardzo wilgotne. Nie ma wtedy wyra¼nego momentu, gdy zachodzi jak
 odkrywamy jednak w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 
 Gdy pojawi siê frustracja, a prawie na pewno czasem siê pojawi, poczekaj, albo wróæ do tego, co
-wydaje Ci siê, ¿e ju¿ dobrze zrozumia³a¶. A w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ
-studentów psychologii to wcale nie studenci, tylko studentki, bêdê zwraca³ siê do Ciebie w formie
-¿eñskiej. Jest te¿ inny dobry moim zdaniem powód.
+wydaje Ci siê, ¿e ju¿ dobrze zrozumia³a¶. To nie jest psychologia, w której zwykle to, o czym siê
+czyta, wydaje siê na pocz±tku w miarê zrozumia³e albo intuicyjne, ale im d³u¿ej siê nad tym
+zastanawia, tym wiêcej pojawia siê w±tpliwo¶ci; w matematyce jest czêsto odwrotnie - rezultatem
+pierwszego kontaktu z jak±¶ definicj±, twierdzeniem, albo teori± mo¿e byæ dezorientacja, która z
+czasem ustêpuje wra¿eniu, ¿e wszystko jest w zasadzie oczywiste, proste i nieuchronne. A
+w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ studentów psychologii to wcale nie studenci,
+tylko studentki, bêdê zwraca³ siê do Ciebie w formie ¿eñskiej. Jest te¿ inny dobry moim zdaniem
+powód.
 
 Pozna³em wiele kobiet zajmuj±cych siê psychologi±, które w mojej ocenie maj± wiêcej oleju w g³owie,
 ni¿ wielu znanych mi mê¿czyzn, którzy te¿ siê ni± zajmuj±. W¶ród pracowników akademickich nie
