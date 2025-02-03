@@ -390,7 +390,9 @@ statysfakcjonującej wymianie miałem okazję przemyśleć na nowo rozmaite pods
 sobie sprawę, jak mógłbym pewne rzeczy napisać jaśniej.
 
 Znowu Tomkowi Smoleniowi, który znalazł błąd polegający na złym kierunku strzałki w kategoryjnej
-definicji obiektu końcowego w rozdziale R21=R15.
+definicji obiektu końcowego w rozdziale R21=R15. A potem znalazł błąd we fragmencie, który nazwałem,
+nomen omen, potencjalnie dezorientującym. Pojawiła się tam nazwa morfizmu `g` (równego `⟨π₁',π₂'⟩`),
+a powinna być nazwa `f` (równego `⟨π₁,π₂⟩`).
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
