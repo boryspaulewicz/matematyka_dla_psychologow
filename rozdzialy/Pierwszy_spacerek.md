@@ -2,9 +2,9 @@
 
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką. Właściwie to znasz ten
 sposób dobrze jeszcze z czasów kiedy byłaś uczennicą szkoły podstawowej, ale być może nie
-zastanawiałaś się jak dotąd dłużej, o co w nim właściwie chodzi. Będziemy się teraz przyglądać z
-bliska wybranym, ważnym i często wykonywanym w matematyce czynnościom, polegającym tak naprawdę na
-dosyć prostych mechanicznych operacjach.
+zastanawiałaś się jak dotąd dłużej, o co w nim właściwie chodzi. Będziemy się przyglądać z bliska
+wybranym, ważnym i często wykonywanym w matematyce czynnościom, polegającym tak naprawdę na dosyć
+prostych mechanicznych operacjach.
 
 <hr>
 
@@ -30,7 +30,7 @@ rzeczy. Na przykład, zgodnie z przytoczonym fragmentem:
 
 *2 + 3 = 3 + 2*
 
-A jeżeli *a* i *b* to jakieś liczby naturalne, to na przykład:
+A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 
 *a + b = b + a*
 
@@ -40,7 +40,7 @@ A jeżeli *a* i *b* to jakieś liczby naturalne, to na przykład:
 
 i *(2 + 3 + a) + b = b + (2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst:
 *a* i *b* to jakieś liczby naturalne) jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się ze
-mną, że tego rodzaju operacje wiele dzieci opanowuje całkiem nieźle w szkole podstawowej.
+mną, że tego rodzaju operacje wiele dzieci opanowuje bez trudu w szkole podstawowej.
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
@@ -48,20 +48,21 @@ Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej proz
 który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań* na temat liczb
 naturalnych. Możemy nawet na niego popatrzeć jak na coś w rodzaju maszyny albo mechanizmu, który
 działa dzięki temu, że *my* go używamy w określony sposób, to jest konsekwentnie podstawiając w
-miejsca zmiennych wyrażenia właściwego typu (typu liczbowego). W tej części książki to jest nasz
-punkt wyjścia i - jak się przekonasz - w pewnym momencie ta dziecinnie prosta zabawa symbolami
-będzie również naszym punktem dojścia.
+miejsca zmiennych wyrażenia właściwego typu (typu liczbowego). A więc jeśli to ma być coś w rodzaju
+mechanizmu, to ten mechanizm składa się co najmniej z trzech części: zapisanego w jakiś sposób
+(matematycznego) przepisu, z nas samych i z tego, jak ten przepis traktujemy. W tej części książki
+to jest nasz punkt wyjścia i - jak się przekonasz - w pewnym momencie ta dziecinnie prosta zabawa
+symbolami będzie również naszym punktem dojścia.
 
 Spróbuj chwilowo potraktować takie formalne reguły jak te, które podałem wyżej, jakby były regułami
 gry, która nie musi mieć żadnego sensu. Uwierz mi, bo sprawdzałem to wielokrotnie, na tym etapie
 potrzeba sensu może Ci przeszkadzać. Obiecuję, że sens się sam pojawi, tylko może kiedy indziej.
 
-Naprawdę uważam, że zdolność do tymczasowego stłumienia potrzeby sensu bywa bardzo korzystna, a
-czasami nawet nieodzowna w nauce matematyki. Od kilku lat prowadzę na Uniwersytecie Jagiellońskim
-dwusemestralny kurs dla doktorantów dotyczący wnioskowania przyczynowego i bayesowskiego. Bez
-przesady mogę powiedzieć, że na ten kurs trafiają nieodmiennie wymarzeni wprost studenci, tacy,
-którzy wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później
-zaczynam na tym kursie mówić o [twierdzeniu
+Naprawdę uważam, że zdolność do tymczasowego stłumienia potrzeby sensu bywa bardzo korzystna w nauce
+matematyki. Od kilku lat prowadzę kurs dla doktorantów dotyczący wnioskowania przyczynowego i
+bayesowskiego. Bez przesady mogę powiedzieć, że zapisują się na niego nieodmiennie wymarzeni wprost
+studenci, tacy, którzy wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej
+czy później zaczynam na tym kursie mówić o [twierdzeniu
 Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu tego twierdzenia krótkim ogólnym wprowadzeniem i gdy
@@ -71,7 +72,8 @@ obecni na moim otwarciu przewodu, kiedy na slajdach pojawił się symbol [*sumy
 indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana) (*∑*). W tym roku po raz pierwszy
 spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na pierwszych albo drugich zajęciach, i
 postarałem się nakłonić wszystkich, żeby skupili się tylko na bardzo prostych w tym wypadku
-operacjach formalnych. Różnica w wykonaniu była natychmiast oczywista.
+operacjach formalnych. Różnica w wykonaniu (ale niekoniecznie w zrozumieniu!) była natychmiast
+oczywista.
 
 **Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które
 będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry*, albo jeszcze lepiej *reguły
@@ -83,15 +85,16 @@ językowe* albo *komunikacyjne*, na które umawiamy się bez uzasadnienia:
 
 3. Jeżeli *x* i *y* to *zdarzenia*, to *p(x, y) = p(y, x)*.
 
-Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, i *liczba* traktujemy
-tutaj jako część wspólnej wiedzy zastanej. Właściwie z pierwszych dwóch reguł nie będziemy tu
-korzystać jawnie, a więc jeśli chcesz, możesz się skupić tylko na regule trzeciej.
+Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, *liczba* i *para*
+(uporządkowana) traktujemy tutaj jako część wspólnej wiedzy zastanej. Właściwie z pierwszych dwóch
+reguł nie będziemy korzystać jawnie, a więc jeśli chcesz, możesz się skupić tylko na regule
+trzeciej.
 
 Być może przyszła Ci do głowy narzucająca się interpretacja symboli *zdarzenie* i *p*. Jeżeli tak,
 to spróbuj ją proszę zignorować, na ile tylko jesteś w stanie. Jeszcze raz podkreślam, *to tylko
 gra*.
 
-Poza aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
+Poza wymienionymi aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
 
 4. Jeżeli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
 
@@ -140,17 +143,18 @@ wynika. Gdy poprosiłem doktorantów o skonstruowanie według wskazówek zapisan
 Lean dowodów kilku prostych tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez
 większego problemu. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania -
 zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała to
-zadanie, "nie wiedziała, co się stało".
+zadanie, to "nie wiedziała, co się stało".
 
-Ta odpowiedź niedawno mi się przypomniała i od tej pory nie dawała mi spokoju. Dlatego poprosiłem
-Sofiię, żeby spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim
-zdaniem mówiąc to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu
-*według wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A
-stąd od razu można wywnioskować, że *znajomość dowodu* mówi niewiele, a często może nawet *nic*, o
-*sensie* dowiedzionego zdania. Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim
-*używać*, dowodząc *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
-*konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
-dać; rolą dowodu *nie* jest ujawnianie znaczenia zdania, tylko rozstrzyganie o jego prawdziwości i
-(częściowe) ujawnienie znaczenia *założeń dowodu*.
+Ta odpowiedź później mi się przypomniała i nie dawała mi spokoju. Dlatego poprosiłem Sofiię, żeby
+spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc
+to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według
+wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są
+czynności mechaniczne, to znaczy, że można je wykonać *nie rozumiejąc treści twierdzenia*. Ale w
+takim razie *znajomość dowodu* mówi niewiele, a często może nawet *nic*, o *sensie* dowiedzionego
+zdania. Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc
+*innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*. Dlatego
+zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać; rolą dowodu *nie* jest
+ujawnianie znaczenia zdania, tylko rozstrzyganie o jego prawdziwości i (częściowe) ujawnienie
+znaczenia *założeń dowodu*.
 
 Będziemy odtąd robić podobne rzeczy, ale [nie na kartce](Spacerek_po_Leanie_1.md).
