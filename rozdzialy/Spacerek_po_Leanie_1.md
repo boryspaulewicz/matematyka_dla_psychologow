@@ -25,10 +25,10 @@ wprowadzić ten temat w możliwie bezbolesny sposób szczegółowo omówię kilk
 przykładów funkcji i zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na
 tym etapie zadań.
 
-Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest moim zdaniem przyzwyczajenie się
-do znaczeń terminów technicznych. Dzięki temu będzie Ci łatwiej zrozumieć, o czym mówię. Z
-niektórymi z tych terminów zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą mimowolnego
-oswojenia, bo nie będę ich od razu objaśniał, tylko pokażę Ci, jak się ich używa.
+Jedną z ważniejszych rzeczy, kiedy uczymy się czegoś nowego, jest przyzwyczajenie się do znaczeń
+terminów technicznych. Dzięki temu będzie Ci łatwiej zrozumieć, o czym będę mówił. Z niektórymi z
+tych terminów zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą mimowolnego oswojenia, bo nie
+będę ich od razu objaśniał, tylko pokażę Ci, jak się ich używa.
 
 <hr>
 
@@ -119,7 +119,7 @@ wywnioskować na czym polega problem z komunikatu o błędzie.
 **Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną*, zastępując `3` przez słowo
 `tszy`, bez cudzysłowów. Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
 ortograficzny. Umieść kursor na słowie `tszy` i odczytaj komunikat o błędzie widoczny po
-prawej. Powinnaś wtedy zobaczyć komunikat *unknown identifier 'tszy'*, co oznacza, że Lean nie wie,
+prawej. Powinnaś wtedy zobaczyć komunikat `unknown identifier 'tszy'`, co oznacza, że Lean nie wie,
 czym jest `tszy`. Przekonasz się w ten sposób, że błędy to tylko okazja, żeby Lean mógł się wykazać.
 
 W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
@@ -258,12 +258,13 @@ sposób, który pozwoli Ci zobaczyć, że takie funkcje w Leanie są tak naprawd
 *jedno*argumentowe. Ponieważ to będzie **najtrudniejsza** część tego rozdziału, wyjaśnię jak to
 działa na kilka sposobów. 
 
-*Zalecam teraz uzbroić się w cierpliwość i czytać dalej, nawet jeżeli będziesz miała poczucie, że
-"tego wszystkiego" jest na raz za dużo. "To wszystko" stanie się w miarę zrozumiałe dopiero wtedy,
-gdy będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i dzięki temu łatwiej Ci będzie
-układać je "w głowie". Dlatego trzeba się liczyć z koniecznością czytania tych samych fragmentów
-więcej niż raz, być może po pewnej przerwie. Procesu poprawiania się dostępności pamięciowej nie da
-się chyba za bardzo przyspieszyć, ale to tylko kwestia* **czasu**[^1].
+**Jak do tego podejść**: *Zalecam teraz uzbroić się w cierpliwość i czytać dalej, nawet jeżeli
+będziesz miała poczucie, że "tego wszystkiego" jest na raz za dużo. "To wszystko" stanie się w miarę
+zrozumiałe dopiero wtedy, gdy będziesz mogła w miarę łatwo wydobyć kluczowe "puzzle" z pamięci i
+dzięki temu łatwiej Ci będzie układać je "w głowie". Dlatego trzeba się liczyć z koniecznością
+czytania tych samych fragmentów więcej niż raz, być może po pewnej przerwie. Procesu poprawiania się
+dostępności pamięciowej nie da się chyba za bardzo przyspieszyć, ale to tylko kwestia*
+**czasu**[^1].
 
 ```lean
 def plus : Nat → (Nat → Nat) := 
@@ -295,14 +296,15 @@ moj_parametr + 2
 2 + 2
 ```
 
-Czy widzisz, że warto tutaj użyć innej nazwy - *parametr* - na to, co pojawia się po słowie `fun`
-(czyli na `moj_parametr`) i innej - *argument* - na to, co pojawia się jako drugi term w tej
-aplikacji (czyli na `2`)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym
-mówić w sposób zrozumiały. A więc *parametry* są *własnościami* (albo częściami) *samych funkcji*, a
-*argumenty* są *własnościami aplikacji funkcji*. Funkcje mają (cały czas) określone (w ich
-definicjach) parametry i mają je niezależnie od tego, czy są kiedykolwiek do czegokolwiek
-aplikowane. Funkcje jako takie nie mają żadnych argumentów, bo te są tylko (odpowiednimi) częściami
-aplikacji (jakiś) funkcji, a nie częściami funkcji.
+**Parametr i argument to terminy techniczne oznaczające różne rzeczy**: Czy widzisz, że warto tutaj
+użyć innej nazwy - *parametr* - na to, co pojawia się po słowie `fun` (czyli na `moj_parametr`) i
+innej - *argument* - na to, co pojawia się jako drugi term w tej aplikacji (czyli na `2`)? Bez
+nazywania tych dwóch rzeczy za pomocą innych słów byłoby trudno o tym mówić w sposób zrozumiały. A
+więc *parametry* są *własnościami* (albo częściami) *samych funkcji*, a *argumenty* są *własnościami
+aplikacji funkcji*. Funkcje mają (cały czas) określone (w ich definicjach) parametry i mają je
+niezależnie od tego, czy są kiedykolwiek do czegokolwiek aplikowane. Funkcje jako takie nie mają
+żadnych argumentów, bo te są tylko (odpowiednimi) częściami aplikacji (jakiś) funkcji, a nie
+częściami funkcji.
 
 ```lean
 -- + to także funkcja, tylko taka, której aplikację możemy zapisać w *notacji infiksowej*, czyli w stylu:
