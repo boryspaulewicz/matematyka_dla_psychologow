@@ -5,14 +5,15 @@ właśnie zetknęłaś.
 
 <hr>
 
-Najważniejsze, co robi Lean, to *ewaluacja* (inaczej redukcja) aplikacji i *sprawdzanie poprawności
-kodu*. Oba te procesy są realizowane przez pewne *algorytmy*, co oznacza, że *każdy* fragment kodu
-może być w skończonym czasie sprawdzony pod względem poprawności i *każdy* poprawny fragment kodu
-może być w skończonym czasie zredukowany do najprostszej postaci.
+Najważniejsze, co robi Lean, a ogólnie co dzieje się z wyrażeniami w teorii typów, to *ewaluacja*
+(inaczej redukcja) aplikacji i *sprawdzanie poprawności kodu*. Oba te procesy są realizowane przez
+pewne *algorytmy*, a to znaczy, że *każdy* fragment kodu może być w skończonym czasie sprawdzony pod
+względem poprawności i *każdy* poprawny fragment kodu może być w skończonym czasie zredukowany do
+najprostszej postaci.
 
-Żeby zrozumieć, jak ten proces działa w każdym możliwym przypadku, wystarczy na razie, jeżeli
-zrozumiesz, jak działa w przypadku uogólnionej identyczności. Wszystkie inne przykłady będą tylko
-wariacjami na ten temat (ilustracja):
+Żeby zrozumieć, jak ewaluacja działa w każdym możliwym przypadku, wystarczy zrozumieć, jak działa w
+przypadku uogólnionej identyczności. Wszystkie inne przykłady będą tylko wariacjami na ten temat
+(ilustracja):
 
 ```lean
 def identycznosc (typ : Type) (parametr : typ) : typ := parametr
@@ -49,16 +50,16 @@ nie ma już żadnych redukowalnych aplikacji:
 
 3. Podstawiania zachodzącego na poziomie typów aplikowanych funkcji.
 
-To proces, który na podstawie omówionych przeze mnie do tej pory przykładów możesz, jeżeli będziesz
-dość cierpliwa, niebawem w pełni zrozumieć (o ile to się już nie stało), bo ten proces polega tylko
-na tym, co Ci do tej pory pokazałem.
+To proces, który na podstawie omówionych do tej pory przykładów możesz, jeżeli będziesz dość
+cierpliwa, niebawem w pełni zrozumieć, o ile to się już nie stało, polega tylko na tym, co Ci do tej
+pory pokazałem.
 
 A żeby zwiększyć Twoją tolerancję dla [niewyjaśnionych
-tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie bardzo Ci
-się przyda, proponuję, żebyś wkleiła do Leana poniższy fragment poprawnego kodu, zawierający
-definicję jeszcze *uniwersalniejszej*[^1] identyczności. Mam nadzieję, że *nic* z tego nie
-rozumiesz, bo dodałem tu ten fragment *tylko* po to, żeby przyzwyczaić Cię do tego, że możesz
-pewnych rzeczy nie rozumieć, a mimo to czytać dalej.
+tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie Ci się
+przyda, proponuję, żebyś wkleiła do Leana poniższy fragment poprawnego kodu, zawierający definicję
+jeszcze *uniwersalniejszej*[^1] identyczności. Mam nadzieję, że *nic* z tego nie rozumiesz, bo
+dodałem tu ten fragment *tylko* po to, żeby przyzwyczaić Cię do tego, że możesz pewnych rzeczy nie
+rozumieć, a mimo to czytać dalej.
 
 ```lean
 universe u
@@ -89,14 +90,14 @@ termy, które wymagają ewaluacji również po stronie ich typu. Z tej możliwo�
 nieco później, wprowadzając odrobinę [lukru
 składniowego](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy).
 
-Na tej podstawie można zbudować *całą matematykę* i za pomocą tego języka można zapisać w stosunkowo
-*naturalny* i *czytelny* sposób matematyczne teorie.
+Na tej podstawie można zbudować *całą* matematykę zastaną i za pomocą tego języka można zapisać w
+stosunkowo *naturalny* i *czytelny* sposób matematyczne teorie.
 
-Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że być może
-wszystko, co da się powiedzieć jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co
-zostało zapisane w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i
-zarazem unikalnej takiej postaci za pomocą algorytmu.
+Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że wszystko, co da
+się powiedzieć jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co zostało zapisane
+w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i zarazem unikalnej
+takiej postaci za pomocą algorytmu.
 
 ### Przypisy
 
-[^1]: [Muß es sein? Es muß sein! *Bo tak*.](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven))
+[^1]: [Muß es sein? Es muß sein!](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven))
