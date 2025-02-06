@@ -8,8 +8,8 @@ i poprzez pisanie kodu wprost.
 # Implikacja w praktyce dowodzenia
 
 Niedawno w sprawie tej książki napisał do mnie Tomek Smoleń, który pracuje teraz na Krakowskiej
-kognitywistyce i z którym byliśmy razem w tym samym pokoju na studiach doktorskich, gdy instytu
-psychologii znajdował się jeszcze na alei Mickiewicza. Nie dziwi mnie, że temat przypadł mu go
+kognitywistyce i z którym byliśmy razem w tym samym pokoju na studiach doktorskich, gdy Instytu
+Psychologii znajdował się jeszcze na alei Mickiewicza. Nie dziwi mnie, że temat przypadł mu go
 gustu, bo wiem, że jest do niego od dawna znakomicie przygotowany. No więc ten właśnie Tomek
 stwierdził, że gdy relacje między termami, typami, zdaniami i dowodami wskoczyły mu podczas lektury
 na miejsce, a założę się, że w Jego przypadku stało się to szybko, efekt był, jak to wyraził, bardzo
@@ -44,15 +44,14 @@ ale mówi Leanowi, że danej definicji nie trzeba rozpakowywać. Powód, dla kt�
 definiujemy twierdzenia, podam jednak później.
 
 ```lean
--- To tylko rozgrzewka, bo jest to samo twierdzenie, które udowodniłaś już wcześniej, zmieniła się
--- tylko nazwa tego twierdzenia i nazwa jego (jedynego) parametru.
+-- To tylko rozgrzewka, bo to jest to samo twierdzenie, które udowodniłaś już wcześniej, zmieniła się
+-- tylko nazwa twierdzenia i nazwa jego (jedynego) parametru.
 theorem t1a (p : Prop) : p → p :=
 
--- W trybie nieinteraktywnym trzeba tutaj stworzyć funkcję, która tworzy funkcję, która tworzy
--- funkcję. W trybie interaktywnym trzeba dwa razy użyć taktyki intro. Przypominam, że taktyka intro
--- służy do (λ-)abstrachowania od termów dowolnego typu, nie tylko zdaniowego. Nie wiem, który tryb
--- będzie dla Ciebie na początku łatwiejszy, więc jeśli jeden z nich będzie się wydawał trudny, to
--- spróbuj drugiego.
+-- W trybie nieinteraktywnym trzeba tutaj stworzyć funkcję, która tworzy funkcję. W trybie interaktywnym
+-- trzeba dwa razy użyć taktyki intro. Przypominam, że taktyka intro służy do (λ-)abstrachowania od termów
+-- dowolnego typu, nie tylko zdaniowego. Nie wiem, który tryb będzie dla Ciebie na początku łatwiejszy,
+-- więc jeśli jeden z nich będzie się wydawał trudny, to spróbuj drugiego.
 theorem t1b : (p : Prop) → p → p :=
 
 -- To zadanie jest najprostsze, ale może właśnie dlatego w trybie nieinteraktywnym może być szczególnie
@@ -83,8 +82,8 @@ theorem t3c (p : Prop) (h1 : p) (h2 : p) : p :=
 def t4 (p q : Prop) : q → p → p :=
 
 -- Jeżeli potrzebujesz wskazówek, znajdziesz je pod koniec jednego z poprzednich rozdziału. Wprowadzamy
--- tutaj aksjomatycznie jakieś zdanie (a nie jego dowód) r, a następnie, gdy dzięki temu r jest już czymś,
--- co Lean "rozumie", wprowadzamy aksjomatycznie jakiś dowód tego zdania.
+-- tutaj aksjomatycznie zdanie (a nie jego dowód) r, a następnie, gdy dzięki temu r jest już czymś, co Lean
+-- "rozumie", wprowadzamy aksjomatycznie dowód tego zdania.
 axiom r : Prop
 axiom hr : r
 theorem t5 (p : Prop) : p → r :=
