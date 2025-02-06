@@ -55,8 +55,8 @@ widać to w notacji, i nie muszę się za bardzo starać, żeby zapamiętać sen
 
 Przyjżymy się teraz różnicy między aplikacją dowodu implikacji i aplikacją funkcji, która nie jest
 dowodem. Jak widać poniżej, to jest zarazem to samo i nie to samo, ponieważ chociaż formalnie to
-jest ten sam proces, to *nas*, użytkowników *interesuje w nim coś innego* i dlatego o nim inaczej
-mówimy, inaczej myślimy i do pewnego stopnia inaczej go używamy:
+jest ten sam proces to *nas*, użytkowników, *interesuje w nim coś innego* i dlatego o nim inaczej
+mówimy, inaczej myślimy, i do pewnego stopnia inaczej go używamy:
 
 1. *Jeżeli mamy dowód zdania `p → q`, ...*
 
@@ -158,15 +158,16 @@ takim językiem).
 
 W teorii *ZF* (albo *ZFC*, jeśli chcemy zaakcentować obecność aksjomatu wyboru, and. [*axiom of
 choice*](https://en.wikipedia.org/wiki/Axiom_of_choice)) używamy notacji *x ∈ X*, która oznacza
-zdanie *x jest elementem zbioru X*. Typowanie zapisujemy co prawda w odwrotnej kolejności, na
-przykład piszemy `n : Nat`, ale i tak może się bardzo kojarzyć z relacją należenia elementu do
-zbioru. Różnica polega na tym, że zbiory są pewnymi *strukturami*, do których różne obiekty mogą
-należeć albo nie jako ich elementy, a *typy są tylko stałymi* i niczym więcej, to jest *nie mają
-wewnętrznej struktury*, na przykład `Nat` to tylko symbol `Nat`, nic więcej. Dlatego moim zdaniem
-dobrze jest myśleć o typach jak o etykietach. Z wymienionych powodów o posiadaniu przez term
-jakiegoś typu mówimy inaczej, niż o należeniu elementu do jakiegoś zbioru. Konkretnie, mówimy, że
-jakiś term *zamieszkuje* albo nie jakiś typ i raczej unikamy mówienia, że do niego należy. Mówimy
-też, że jakiś typ jest, albo nie jest zamieszkany, a nie, że jest albo nie jest (nie)pusty.
+zdanie *x jest elementem zbioru X*. Typowanie takie jak `n : Nat` może się z pewnością łatwo
+kojarzyć z relacją należenia elementu do zbioru. Różnica polega na tym, że zbiory są pewnymi
+*strukturami*, do których różne obiekty mogą należeć albo nie jako ich elementy, a *typy są tylko
+stałymi* i niczym więcej, to jest *nie mają wewnętrznej struktury*, na przykład `Nat` to tylko
+symbol `Nat`, nic więcej. Dlatego moim zdaniem dobrze jest myśleć o typach jak o etykietach. Z
+wymienionych powodów o posiadaniu przez term jakiegoś typu mówimy inaczej, niż o należeniu elementu
+do jakiegoś zbioru. Konkretnie, mówimy, że jakiś term *zamieszkuje* albo nie jakiś typ i raczej
+unikamy mówienia, że do niego należy. Mówimy też, że jakiś typ jest, albo nie jest zamieszkany, a
+nie, że jest albo nie jest (nie)pusty. A właściwie to terminologia mieszkaninowa też wydaje mi się
+zwodnicza i wolę zwykle mówić, że jakiś term po prostu *ma* jakiś typ.
 
 Jak już wiesz, w teorii typów obliczenia zachodzą jakby w *dwóch wymiarach*: w wymiarze typów i w
 wymiarze, który można by nazwać konkretnym. Na poziomie konkretnym "działa" matematyka konkretna
