@@ -88,60 +88,81 @@ Zdanie *Kawusia była pyszna* możemy zapisać formalnie na różne sposoby i to
 wybierzemy, będzie zależało od przyjętych celów. Możemy je na przykład zakodować jako stałą `k` o
 typie `Prop`. Wtedy jedyną własnością tego zdania, którą będziemy mogli poddać analizie, będzie jego
 prawdziwość lub fałszywość, powiązana być może z prawdziwością innych zdań, co dla nas w tym momencie
-znaczy dowiedlność czy udowadnialność (tego zdania lub jego negacji).
+znaczy dowiedlność czy udowadnialność (tego zdania lub jego negacji):
 
-Moglibyśmy jednak spróbować zakodować również *strukturę* tego zdania. Wtedy nadal stosowałyby się
-do niego wszystkie dostępne operacje na zdaniach, bo pozostałoby zdaniem, ale poza tym, że to wciąż
-byłoby zdanie, pojawiłyby się również nowe operacje, wymagające większej "rozdzielczości
-formalizacji" języka naturalnego, dzięki której można "formalnie rozpoznać" strukturę
-podmiot-orzeczenie.
+Wszystko, co możemy powiedzieć o zdaniu ...
+
+*Kawusia była pyszna*
+
+... zakodowanym formalnie jako ...
+
+`k : Prop`
+
+... poza tym, że jest *jakimś* zdaniem, to czy jest prawdziwe, czy fałszywe. Zapisane w ten sposób,
+to pełne treści zdanie zostałoby zredukowane do formalnego *atomu*.
+
+Moglibyśmy jednak spróbować *zakodować strukturę* tego zdania. Wtedy nadal stosowałyby się do niego
+wszystkie dostępne operacje na zdaniach, bo pozostałoby zdaniem, ale poza tym, że to wciąż byłoby
+zdanie, pojawiłyby się również nowe operacje, wymagające większej "rozdzielczości formalizacji",
+dzięki której można "formalnie rozpoznać" strukturę podmiot-orzeczenie.
 
 Zanim podejmiemy próbę tego rodzaju formalizacji, musimy zadać sobie pytanie, czy (w przyszłości)
 ważny będzie dla nas czas przeszły, bo ta kawusia przecież *była* pyszna. Jeżeli przyjmiemy, że nie,
 to naturalne będzie rozbicie zdania na *dwie* części, podmiot *Kawusia* i orzeczenie *była pyszna*,
 bo co innego możemy z nim zrobić, poza ewentualną próbą uchwycenia jakiejś własności czasu
-przeszłego?  Formalizować operację zdrabniania?  Brzmi kusząco, ale nie tym razem.
+przeszłego?  Formalizować operację zdrabniania? Brzmi kusząco, ale nie tym razem.
 
-*Kawusia* to pewna *rzecz*, a *była pyszna* to własność przypisywana tej rzeczy przez zdanie
-*Kawusia była pyszna*. To zdanie ma sens, bo kawa to napój, a własność bycia pysznym może
-przysługiwać albo nie między innymi napojom. W tle tego zdania istnieje więc typ *napój*, który
-ujawnimy w formalizacji. Ponieważ w teorii typów każdy term musi mieć typ, to jeśli chcemy mówić o
-ewentualnej pyszności kawy jako napoju posługując się językiem tej teorii, musimy najpierw
-wprowadzić aksjomat:
+*Kawusia* to pewna *rzecz*, a *była pyszna* to własność przypisywana tej rzeczy przez (niekoniecznie
+prawdziwe) zdanie *Kawusia była pyszna*. To zdanie ma sens, bo kawa to napój, a własność bycia
+pysznym może przysługiwać albo nie między innymi napojom. W tle tego zdania istnieje więc typ
+*napój*, który ujawnimy w formalizacji. Ponieważ w teorii typów każdy term musi mieć typ, to jeśli
+chcemy mówić o ewentualnej pyszności kawy jako napoju posługując się językiem tej teorii, musimy
+najpierw wprowadzić aksjomat:
 
 ```lean
 axiom Napoj : Type
 ```
 
-Odtąd w naszym języku są (jakieś) napoje, *dokładnie* w tym znaczeniu, że *możemy o nich mówić*. Jak
-teraz zapisać formalnie predykat *była pyszna*?  Jeżeli, ze względu na cel tej zabawy ignorując czas
-przeszły, zrobimy tak ...
+Odtąd w naszym języku są (jakieś) napoje, w tym i *tylko* w tym znaczeniu, że *możemy o nich
+mówić*. Jak teraz zapisać formalnie predykat *była pyszna*?  Jeżeli, ze względu na cel tej zabawy
+ignorując czas przeszły, zrobimy tak ...
 
 ```lean
--- O napojach (typ parametru) można twierdzić (a więc rezultat musi mieć typ Prop), że są pyszne.
+-- O napojach (typ parametru) można twierdzić (a więc rezultat musi mieć typ Prop), niekoniecznie
+-- zgodnie z prawdą, że są pyszne.
 axiom Pyszna : Napoj → Prop
 ```
 
 ... to będziemy mogli napisać tak:
 
 ```lean
--- Kawa jest napojem.
+-- O kawie mówimy, że jest napojem.
 axiom kawa : Napoj
 
--- Pyszna kawa jest odtąd poprawnym zdaniem konstruowanego języka.
+-- Pyszna kawa jest odtąd poprawnym, ale niekoniecznie prawdziwym zdaniem konstruowanego języka.
 #check Pyszna kawa -- Pyszna kawa : Prop
 ```
 
 W konstruowanym właśnie języku `Pyszna kawa` to odtąd poprawne zdanie. W dodatku zapisane po polsku
 i - ze względu na przyjęte cele - wystarczająco blisko oryginału. Oczywiście nie tylko napoje mogą
-być pyszne, ale obecny poziom ekspresyjności nam wystarczy. Wprowadzę teraz jeszcze jedną
-kosmetyczną zmianę, bo przyda mi się później, gdy będę mówił o bardziej skomplikowanych składniowo
-*relacjach binarnych*.
+być pyszne, ale obecny poziom ekspresyjności nam wystarczy.
 
-Do tej pory definiowaliśmy funkcje, które zwracały wyłącznie termy nie będące typami, ale język,
-którego używamy, nie narzuca wcale takiego ograniczenia. W szczególności, możemy w tym języku
-zdefiniować funkcję, która *tworzy typ* będący predykatem i dzięki temu jeszcze bardziej zbliżyć
-zapis formalny do zapisu w języku naturalnym (ilustracja):
+Zastanawiasz się może, dlaczego za wyjątkiem ostatniego termu `Pyszna kawa` to były same aksjomaty?
+Żeby ten ostatni term - `Pyszna kawa` - był zarazem poprawny i był zdaniem, czyli termem typu
+`Prop`, `Pyszna` musi być termem o typie `A → Prop` dla pewnego typu `A` i term `kawa` musi być mieć
+typ `A`. No ale przecież w języku teorii typów nie mamy z czego zrobić kawy, a więc nie pozostaje
+nam nic innego jak przyjać *konwencję*, zgodnie którą słowo `kawa` jest poprawnym wyrażeniem naszego
+języka. A to znaczy, że `kawa` musi mieć jakiś typ, co do którego też musimy się umówić, że
+"istnieje". Moglibyśmy przyjąć po prostu, że `kawa : Type`, ale wtedy `kawa` byłaby *typem*, co
+wydaje się niezbyt intuicyjne, a symbol `Pyszna` byłby predykatem dotyczącym dowolnych typów, co
+byłoby jeszcze bardziej nienaturalne.
+
+Wprowadzę teraz jeszcze jedną kosmetyczną zmianę, bo przyda mi się później, gdy będę mówił o
+bardziej skomplikowanych składniowo *relacjach binarnych*. Do tej pory definiowaliśmy funkcje, które
+zwracały wyłącznie termy nie będące typami, ale język, którego używamy, nie narzuca wcale takiego
+ograniczenia. W szczególności, możemy w tym języku zdefiniować funkcję, która *tworzy typ*, w tym
+wypadku akurat będący predykatem,q i dzięki temu jeszcze bardziej zbliżyć zapis formalny do zapisu w
+języku naturalnym (ilustracja):
 
 ```lean
 -- Funkcja Predykat zwraca *typ* predykatu dotyczącego termów typu podanego jako
@@ -176,16 +197,21 @@ możliwość zapisywania dodawania w notacji infiksowej (`1 + 2` to tylko altern
 `Nat.add 1 2`). Lukier składniowy nie jest konieczny, ale gdy stosujemy go z wyczuciem, może
 znacząco poprawić czytelność kodu.
 
-**Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*.
+**Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*. Mówimy
+wtedy, że predykat `P : A → Prop`, gdzie `A` to jakiś typ, *dotyczy* termów typu `A`, a gdy dla
+jakiegoś termu `x : A` mamy dowód zdania `P x`, czyli term `h : P x`, to mówimy, że `x` *spełnia*
+predykat `P`.
 
 ## Przykładowa próba formalizacji dowodu na istnienie Boga Anzelma z Cantenbury
 
 Próbując sformalizować rozumowanie ukryte w tekście zapisanym w języku naturalnym również warto
-zacząć od czegoś przypominającego typowanie. Mam tu na myśli podział fragmentów tekstu na kategorie
+zacząć od czegoś przypominającego typowanie. Mam na myśli podział fragmentów tekstu na kategorie
 określające *role*, jakie te fragmenty odgrywają w *uzasadnieniu wniosku*. Dzięki takiej
-kategoryzacji zwykle szybko odkrywamy, że większość fragmentów, na przykład niemal wszystko, co
-autorzy artykułu empirycznego napisali we wprowadzeniu i dyskusji wyników, możemy spokojnie
-*zignorować*.
+kategoryzacji (będącej nieformalnym typowaniem) zwykle szybko odkrywamy, że większość fragmentów, na
+przykład niemal wszystko, co autorzy artykułu empirycznego napisali we wprowadzeniu i dyskusji
+wyników, możemy spokojnie *zignorować*, bo zdecydowana większość zdań, które znajdziemy w typowych
+artykułach empirycznych, nie odgrywa *żadnej* roli w uzasadnieniu głównych wniosków. Taka wstępna
+selekcja ułatwia więc skupienie się na tym, co ważne.
 
 Spośród wielu form, jakie mogą przybierać [argumenty](https://pl.wikipedia.org/wiki/Argumentacja)
 albo środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka), najbardziej, poza samym
@@ -217,8 +243,8 @@ psychologów:
 
 2. *Niejawnym* zastąpieniem terminów
 [*operacyjnych*](https://pl.wikipedia.org/wiki/Operacjonalizacja), to jest takich, które dotyczącą
-sposobów dokonywania pomiarów lub faktycznie zastosowanych interwencji, przez ich *teoretyczne
-interpretacje*.
+sposobów dokonywania pomiarów (tutaj wynik w teście) lub faktycznie zastosowanych interwencji, przez
+ich *teoretyczne interpretacje* (tutaj poziom rzekomo mierzonej zmiennej).
 
 3. Wprowadzoniem nieuzasadnionej [*interpretacji
 przyczynowej*](https://pl.wikipedia.org/wiki/Wnioskowanie_przyczynowe) (*zwiększa*) i z ...
@@ -257,8 +283,8 @@ ekstrawersja rozumiana tak, jak rozumieją ją autorzy, w ogóle istnieje).
 
 Jeżeli nabrałaś ochoty, żeby lepiej opanować sztukę przeprowadzania tego rodzaju analiz, to
 zapewniam, że elementy logiki, które poznasz w tym i w następnych rozdziałach, będą się do tego
-świetnie nadawać. Tym razem zajmiemy się przykładem rozumowania, które możemy poddać analizie bez
-wprowadzania pojęć z obszaru metodologii badań, bo na to jest jeszcze za wcześnie.
+świetnie nadawać. Tym razem jednak zajmiemy się przykładem rozumowania, które możemy poddać analizie
+bez wprowadzania pojęć z obszaru metodologii badań, bo na to jest jeszcze za wcześnie.
 
 Z polskiej [strony Wikipedii](https://pl.wikipedia.org/wiki/Dow%C3%B3d_ontologiczny) poświęconej
 "dowodowi" na istnienie Boga autorstwa Anzelma z Cantenbury dowiadujemy się (2024-12-08), że:
@@ -282,17 +308,17 @@ Kontynuujemy nasze nieformalne typowanie. Mamy tu do czynienia z *radą*, a to t
 blisko [*normy*](https://en.wikipedia.org/wiki/Normativity), ale jednak coś innego. Zwróć uwagę, jak
 czasem sam akt wstępnego typowania fragmentów tekstu napisanego w języku naturalnym (tutaj samo
 rozpoznanie, że mamy do czynienia z ogólnym typem rada) może działać jak odsłonięcie rano
-zasłon. Sformułowanie rady *zakłada* pewien *cel*, a ponieważ naszym (deklarowanym!)  celem nie jest
+zasłon. Sformułowanie rady *zakłada* pewien *cel*, a ponieważ naszym (deklarowanym!) celem nie jest
 w tym momencie przekonanie za wszelką cenę samych siebie o prawdziwości wniosku, ten fragment
-również możemy pominąć, tym bardziej, że "wyrzucanie" czegokolwiek z "izdebki umysłu" nie pomoże nam
-w ocenie sytuacji. Co dalej?
+również możemy pominąć, tym bardziej, że "wyrzucanie" czegokolwiek z "izdebki umysłu" raczej nam nie
+pomoże w poprawnej ocenie sytuacji. Co dalej?
 
 > Wyjaśnia też swoje intencje. Zastrzega, że nie cahce przeniknąć głębi Boga, ponieważ wtedy
 > popełniałby grzech pychy. Chce tylko do pewnego stopnia zrozumieć prawdę, w którą wierzy. Nie
 > stara się bowiem zrozumieć, aby wierzyć, ale wierzy, by zrozumieć. A i w to wierzy, że jeśli nie
 > uwierzy, to nie zrozumie.
 
-Tutaj z kolei mamy informacje na temat nieobserwowalnego stanu, a dokładnie intencji, przekonań i
+Tutaj z kolei mamy deklaracje na temat nieobserwowalnego stanu, a dokładnie intencji, przekonań i
 postaw Anzelma, których nie możemy w żaden sposób sprawdzić, bo ani nie możemy się cofnąć w czasie
 ani w Niego wcielić. Zresztą, nawet, gdyby to było możliwe, nadal byłyby to tylko *hipotezy
 empiryczne*, bo ludzie nie mają niezawodnego dostępu do własnych postaw i przekonań. Dlatego z
@@ -345,7 +371,7 @@ axiom mocna_teza : Glupi → Niewierzacy
 Ale nie jest wcale jasne, czy Anzelm zgodziłby się na zastosowanie tutaj dużego kwantyfikatora, a
 taki tu przecież niejawnie występuje, bo zgodnie z mechaniką działania teorii typów aksjomat
 `mocna_teza` odczytujemy jako *Dla każdego człowieka C, jeżeli C jest głupi, to C jest
-niewierzący*. Na użytek dalszych rozważań przyjmiemy jednak, że taka interpretacja jest w tym
+niewierzący*. Na potrzeby dalszych rozważań przyjmiemy jednak, że taka interpretacja jest w tym
 wypadku akceptowalna. Gdyby miało się później okazać, że to zmniejsza w jakiś sposób szanse Anzelma,
 zawsze możemy się z tego wycofać i spróbować zrobić to inaczej.
 
@@ -376,12 +402,13 @@ sensowne albo ważne ze względu na wniosek treści, ale musimy zdecydować, jak
 wyczerpująco będziemy badać wypowiedzi autora i każda taka decyzja musi być ostatecznie oparta na
 naszej ocenie. Na przykład, klasyfikację zacytowanego tutaj fragmentu jako bełkotu przedstawiłem bez
 uzasadnienia, a więc to nie tylko *ocena*, ale to również *tylko* ocena, a więc z *Twojej*
-perspektywy to *aksjomat*. Zrobiłem tak, ponieważ jestem (również subiektywnie) przekonany, że
-prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się zdaje, to jest do jawnego lub
-niejawnego *zawężenia kręgu odbiorców* sprowadza się rola tego rodzaju decyzji.
+perspektywy to *zaproponowany* przeze mnie *aksjomat*. Zrobiłem tak, ponieważ jestem (również
+subiektywnie) przekonany, że prawdopodobnie podzielasz moje zdanie. I właśnie do tego, jak mi się
+zdaje, to jest do jawnego lub niejawnego *zawężenia kręgu odbiorców* sprowadza się rola tego rodzaju
+decyzji komunikacyjnych.
 
-Jeżeli poczułaś się urażona tym mocnym, negatywnym określeniem, to zapewniam Cię, że byłoby mi z
-tego powodu przykro (gdybym się o tym dowiedział), ale mimo to napisałem to, co napisałem, ponieważ
+Jeżeli poczułaś się urażona tym mocnym, negatywnym określeniem, to zapewniam Cię, że gdybym się o
+tym dowiedział, byłoby mi z tego powodu przykro, ale mimo to napisałem to, co napisałem, ponieważ
 uważam, że *powinnaś znać moją postawę*. Chcę być jednocześnie wobec Ciebie i siebie *uczciwy*, a to
 wymaga czasem wypowiedzenia wprost czegoś, co dla drugiej strony może być trudne nawet tylko do
 przeczytania albo wysłuchania. Przekonasz się zresztą w jednym z następnych rozdziałów, jeżeli tylko
@@ -432,13 +459,19 @@ wytworu* w postaci tego tekstu *jako rezultatu pewnego zachowania*, a więc jako
 udanego *rozwiązania pewnego zadania*, polega nasze *deklarowane zadanie* (czyli "nasze
 zachowanie").
 
+Czy widzisz, że po etapie ostrożnego wstępnego typowania dalsza analiza rozumowania zapisanego w
+języku naturalnym może przebiegać już dość sprawnie i szybko? Ta w pewnym sensie "koncentrująca
+energię" rozumowania rola typowania pojawi się wyraźnie również później, gdy zaczniemy wprowadzać
+podstawy teorii kategorii.
+
 ### Przypisy
 
-[^1]: Słowo krok (w rozumowaniu lub argumentacji) nie jest o ile mi wiadomo terminem technicznym w
-    przyjętym tutaj przeze mnie rozumieniu. Wprowadziłem je tylko dlatego, że mi się podoba.
+[^1]: Słowo *krok* (w rozumowaniu lub argumentacji) nie jest o ile mi wiadomo terminem technicznym w
+    przyjętym tutaj przeze mnie rozumieniu. Wprowadziłem je jako termin quasi-techniczny tylko
+    dlatego, że mi się podoba.
 
-[^2]: Słowo istnieje wypadałoby zakodować za pomocą [*kwantyfikatora
+[^2]: Wydaje się, że słowo *istnieje* wypadałoby tutaj zakodować za pomocą [*kwantyfikatora
     egzystencjalnego*](https://pl.wikipedia.org/wiki/Kwantyfikator_egzystencjalny), a *sposoby
     istnienia* (tutaj *realny* i *w umyśle*) aż się proszą, żeby poszperać w [*logikach
-    modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna). Dla uproszczenia jednak na tym etapie
-    mówię o predykatach, bo to pojęcie już znasz.
+    modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna). Dla uproszczenia jednak zdecydowałem
+    się mówić o predykatach, bo to pojęcie już znasz.
