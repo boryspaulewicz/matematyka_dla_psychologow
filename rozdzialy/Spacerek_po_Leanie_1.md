@@ -116,11 +116,12 @@ liczbę `3`. Wystarczy skorzystać z `dziesiec` jako przykładu, zamieniając dw
 nazwę stałej i jej wartość. Jeżeli zobaczysz fragment podkreślony czerwoną falką, spróbuj
 wywnioskować na czym polega problem z komunikatu o błędzie.
 
-**Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną*, zastępując `3` przez słowo
-`tszy`, bez cudzysłowów. Ta definicja będzie błędna nie dlatego, że to słowo zawiera błąd
-ortograficzny. Umieść kursor na słowie `tszy` i odczytaj komunikat o błędzie widoczny po
-prawej. Powinnaś wtedy zobaczyć komunikat `unknown identifier 'tszy'`, co oznacza, że Lean nie wie,
-czym jest `tszy`. Przekonasz się w ten sposób, że błędy to tylko okazja, żeby Lean mógł się wykazać.
+**Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną*, zastępując `3` (a więc
+*ciało* tej definicji, a nie nazwę definiowanej stałej) przez słowo `tszy`, bez cudzysłowów. Ta
+definicja będzie błędna nie dlatego, że to słowo zawiera błąd ortograficzny. Umieść kursor na słowie
+`tszy` i odczytaj komunikat o błędzie widoczny po prawej. Powinnaś wtedy zobaczyć komunikat `unknown
+identifier 'tszy'`, co oznacza, że Lean nie wie, czym jest `tszy`. Przekonasz się w ten sposób, że
+błędy to tylko okazja, żeby Lean mógł się wykazać.
 
 W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
 stałą o typie *tekstowym* (`String`), nazywanym przez informatyków typem *napisów*, *stałych
