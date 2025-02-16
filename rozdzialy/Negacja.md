@@ -1,9 +1,11 @@
 ## O czym teraz będzie
 
-No tutaj to chyba akurat ja bawię się najlepiej. Może i Tobie się udzieli. A rozdział zawiera
-teoretyczne rozważania na temat negacji i sprzeczności w logice konstruktywnej, w ramach których
-pokazuję Ci, jak *możemy sobie sami zdefiniować negację*. Jeżeli poradziłaś sobie z zadaniami w
-rozdziale poprzednim, to ten rozdział możesz potraktować jako ciekawostkę.
+Ten rozdział zawiera teoretyczne rozważania na temat negacji i sprzeczności w logice konstruktywnej,
+w ramach których pokazuję Ci, jak możemy *zdefiniować* negację. Jeżeli poradziłaś sobie z zadaniami
+w rozdziale poprzednim, to ten rozdział możesz potraktować jako ciekawostkę. Powinienem Cię chyba
+ostrzec, że pojawiająca się tutaj definicja fałszu albo absurdu jest przykładem konstrukcji, która
+jest jednocześnie *łatwa w użyciu* i *trudna do zaakceptowania*, a to przecież tylko *jedna z
+możliwych konwencji, która działa*.
 
 <hr>
 
@@ -18,19 +20,24 @@ Podaję za
 > sprzeczności. Oznacza to, że na podstawie sprzeczności można wywnioskować dowolne twierdzenie (w
 > tym jego negację); zjawisko to nazywa się eksplozją dedukcyjną.
 
-Na początek przyjmiemy taką oto definicję *absurdu* (z dużej litery, żeby nie wchodzić w konflikt z
-definicją Leana). Zwracam uwagę, że ponieważ `Prop` to typ wyższego rzędu, to jest definicja *typu*
-(i zarazem zdania):
+Zwróć proszę uwagę, że w tym fragmencie jest mowa o pewnym *prawie* albo o pewnej *zasadzie*
+dotyczącej sprzeczności, czyli o pewnej *konwencji*, a *nie* o *istocie* sprzeczności. Żeby
+zrozumieć, jak ta konwencja działa w teorii typów, na początek przyjmiemy taką oto definicję
+*absurdu* (z dużej litery, żeby nie wchodzić w konflikt z wbudowaną w Leana definicją stałej
+`absurd`). Zwracam uwagę, że ponieważ `Prop` to typ wyższego rzędu, to jest definicja *typu* (i
+zarazem zdania):
 
 ```lean
 def Absurd : Prop := (a : Prop) → a
 ```
 
-Za pomocą instrukcji `section` wejdziemy do strefy bezpiecznych eksperymentów logicznych i tam za
-pomocą instrukcji `variable` zadeklarujemy, że mamy dowód absurdu, czyli term typu
-`Absurd`. Ponieważ *termy typu* `Absurd` są funkcjami, możemy je aplikować. Użyjemy tego termu /
-dowodu / funkcji do zdania `Ponury Krystian` i w ten sposób *lokalnie*, bo tylko wewnątrz utworzonej
-sekcji, udowodnimy to zdanie:
+Jeszcze raz podkreślam - chociaż `Absurd` może wyglądać na pierwszy rzut oka jak funkcja, to jest
+definicja *typu/zdania*, a nie *funkcji*. Cokolwiek miałoby typ `Absurd`, byłoby pewną funkcją, ale
+sama stała `Absurd` oznacza pewien typ (i jednocześnie zdanie). Za pomocą instrukcji `section`
+wejdziemy teraz do strefy bezpiecznych eksperymentów logicznych i tam za pomocą instrukcji
+`variable` zadeklarujemy, że mamy dowód absurdu, czyli term typu `Absurd`. Ponieważ *termy typu*
+`Absurd` są funkcjami, możemy je aplikować. Użyjemy tego termu/dowodu/funkcji do zdania `Ponury
+Krystian` i w ten sposób *lokalnie*, bo tylko wewnątrz utworzonej sekcji, udowodnimy to zdanie:
 
 
 ```lean
@@ -45,27 +52,23 @@ axiom Ponury : Zniwiarz → Prop
 
 section strefa_komfortu
 
+    -- Przyjmijmy, że mamy jakiś term typu Absurd.
     variable (jadro_ciemnosci : Absurd)
 
-    -- Ponieważ ...
-    #check jadro_ciemnosci -- jadro_ciemnosci : Absurd
-    
-    -- ... a zatem, zgodnie z definicją stałej Absurd, jadro_ciemnosci jest taką oto funkcją,
-    -- którą możemy stosować do zdań (Lean nie sygnalizuje błędu, więc typowanie jest poprawne), ...
+    -- Zgodnie z definicją stałej Absurd, jadro_ciemnosci jest taką funkcją, którą możemy
+    -- stosować do zdań *jako takich* (Lean nie sygnalizuje błędu, więc typowanie jest poprawne), ...
     #check (jadro_ciemnosci : (a : Prop) → a)
 
-    -- ... że stosując znane Ci już podstawianie na poziomie typu ...
+    -- ... na przykład do zdania Ponury Krystian jako takiego, że (stosując znane Ci już
+    -- podstawianie na poziomie typu) *sama taka aplikacja jest dowodem tego zdania*:
     #check jadro_ciemnosci (Ponury Krystian) -- jadro_ciemnosci (Ponury Krystian) : Ponury Krystian
-
-    -- ... to jadro_ciemnosci (Ponury Krystian) jest dowodem zdania Ponury Krystian.
-
 end strefa_komfortu
 
 -- Lean sygnalizuje tutaj błąd, a więc poza strefą komfortu jeteśmy bezpieczni.
 #check jadro_ciemnosci
 ```
 
-Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora nad pierwszym
+Jeżeli skopiujesz te dwa fragmenty kodu do Leana, to po umieszczeniu kursora nad ostatnim
 wystąpieniem komendy `#check` zobaczysz, że uzyskujemy tam lokalny dowód, że żniwiarz Krystian jest
 ponury. Być może jest już dla Ciebie jasne, że w ten sam sposób możemy uzyskać dowód dowolnego
 innego zdania.
@@ -73,33 +76,28 @@ innego zdania.
 Uzyskaliśmy tutaj *jakiś* dowód, który możemy skonstruować *w tym kontekście* (w tej sekcji) i w tym
 *lokalnym* kontekście ten dowód jak najbardziej obowiązuje. Nie jest to jednak *prawda uniwersalna*,
 bo skorzystaliśmy z hipotetycznego dowodu absurdu, którego nie zadeklarowaliśmy poza lokalnym
-kontekstem. 
+kontekstem. Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*, polegającą na tym, że *z Fałszu*
+(albo *Absurdu*) *wynika wszystko*, a po łacinie [*ex falso
+quodlibet*](https://xkcd.com/704/).
 
-Mieliśmy właśnie do czynienia z *eksplozją dedukcyjną*.
-
-[*Ex falso quodlibet*](https://xkcd.com/704/).
-
-*Z Fałszu wynika wszystko.*
-
-Inna nazwa na absurd to *fałsz*.
-
-*Niechaj wszystkie istoty, żywe i martwe, [pokłonią
-się](https://www.youtube.com/watch?v=Nrz250ryvr8) przed potęgą typów zależnych!*
-
-Trochę mnie poniosło, ale sama rozumiesz. Być może najprostszy punkt widzenia na to, czym jest tutaj
-typ `Absurd`, jest taki, że jest to po prostu pewien typ, na definicję którego pozwala ekspresyjność
-języka teorii typów, a który jest tak skonstruowany, że - ze względu na interpretację typu `Prop` -
-pozwala zaimplentować zasadę eksplozji dedukcyjnej (ale nie *zaimplementować funkcję* typu `Absurd`,
-o czym za chwilę). Mówiąc krótko, typ `Absurd` jest skonstruowany w taki sposób, że *pełni*
-dokładnie *rolę fałszu*, a więc *jest fałszem* (tak jak go technicznie rozumiemy w logice).
+Być może najprostszy punkt widzenia na to, czym jest tutaj typ `Absurd`, jest taki, że jest to po
+prostu pewien typ, na definicję którego pozwala ekspresyjność języka teorii typów, a który jest tak
+skonstruowany, że - ze względu na interpretację typu `Prop` - pozwala zaimplementować *zasadę*
+eksplozji dedukcyjnej (ale nie *funkcję* typu `Absurd`, o czym za chwilę). Mówiąc najkrócej, typ
+`Absurd` jest skonstruowany w taki sposób, że *pełni rolę fałszu*, a więc *jest fałszem* (tak jak go
+technicznie rozumiemy w logice).
 
 Jeżeli zastanawiasz się teraz, jak mogłaby *wyglądać* funkcja typu `Absurd`, to odpowiadam, że nie
 mogłaby, bo taka funkcja może istnieć tylko *wirtualnie* jako (aksjomatyczne albo lokalne)
-*założenie*, którego nie da się w żaden sposób *zaimplementować*. Gdyby taka funkcja istniała,
-musiałaby tworzyć dowody zdań z niczego, "wiedząc" jedynie, że dostała *jakieś* zdanie, a wtedy
-*każde* zdanie byłoby natychmiast prawdziwe. Jedynym sposobem, żeby to zrobić, byłoby *tworzenie
-aksjomatów*, a to jest akurat *nasza* rola. Z konieczności wirtualna, funkcja typu `Absurd` jest
-więc czymś, *o czym* możemy mówić, ale czego nie możemy *wypowiedzieć*.
+*założenie*, którego nie da się w żaden sposób *zaimplementować* (czyli udowodnić). Gdyby taka
+funkcja istniała, musiałaby tworzyć dowody zdań z niczego, "wiedząc" jedynie, że dostała *jakieś*
+zdanie, a wtedy *każde* zdanie byłoby natychmiast prawdziwem (i fałszywe!) i pojęcia prawdy i fałszu
+straciłyby jakiekolwiek znaczenie. Jedynym sposobem, żeby skonstruować dowód zdania "z niczego",
+jest *wprowadzanie aksjomatów*, a to jest akurat *nasza* rola. Ponieważ wprowadzanie aksjomatów to
+nic innego jak *wybór, o czym można w danym języku mówić*, gdyby dowód fałszu dało się skonstruować,
+uzyskalibyśmy w pewnym technicznym sensie *język, w którym można powiedzieć cokolwiek o wszystkim*.
+Z konieczności wirtualna, funkcja typu `Absurd` jest więc czymś, *o czym* możemy mówić, ale czego w
+pewnym sensie nie możemy *wypowiedzieć*.
 
 ## O co chodzi z tym Absurdem?
 
@@ -108,12 +106,6 @@ Przypominam definicję:
 ```lean
 def Absurd : Prop := (a : Prop) → a
 ```
-
-Czy widzisz, jak w tej definicji słowa `Prop` i `a` występują od początku do końca na przemian, a
-gdybyśmy zmrużyli oczy i nie widzieli dobrze różnicy między strzałką i symbolem definiowania, to na
-przemian występowałyby też symbole `:` i `→`/`:=`? Może to wygląda jak przypadek, ale czy w
-matematyce mogą występować "prawdziwe przypadki"? Czy w ogóle mogą gdziekolwiek występować? To była
-tylko dygresja, myślałem ją pisząc.
 
 Zgodnie z definicją (`Absurd : Prop ...`), `Absurd` jest pewnym *zdaniem*. Wynika to stąd, że
 wszystkie typy funkcyjne (nie funkcje) o postaci `A → B → ... → Q`, gdzie `Q` *ma* typ `Prop`, *same
@@ -133,9 +125,9 @@ variable (p : Prop)
 ```
 
 Powód przyjęcia w Leanie tej konwencji nie będzie nas teraz interesował; wystarczy nam, że ta
-konwencja działa, ale musimy oswoić się z tym, że chociaż `Absurd` jest *zdaniem*, a więc *typem* a
-nie funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, ponieważ jest
-zdaniem *parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
+konwencja działa, ale musimy przyjżeć się bliżej temu, że chociaż `Absurd` jest *zdaniem*, a więc
+*typem* a nie funkcją, to jednak *w pewnym sensie* przyjmuje dowolne zdania jako argumenty, ponieważ
+jest zdaniem *parametrycznym*. `Absurd` jest zatem kolejnym przykładem *typu zależnego*.
 
 Być może `Absurd` kojarzy Ci się z typem znanej Ci już funkcji `identycznosc`, ale, poza tym, że
 `identycznosc` może przyjmować dowolne typy jako pierwszy argument, a będący z definicji funkcją
@@ -143,17 +135,17 @@ term typu `Absurd` może przyjmować tylko typy będące zdaniami, to zachodzi m
 jedna, bardzo ważna różnica (ilustracja) ...
 
 ```lean
--- ... polegająca na tym, że identyczność tworzy term typu typ w ten sposób, że zwraca to,
--- co dostała jako drugi argument, natomiast ...
+-- ... polegająca na tym, że identyczność tworzy term typu typ w ten sposób, że zwraca to co *dostała*
+-- jako drugi argument, natomiast ...
 identycznosc : (typ : Type) : typ → typ
 
--- ... jadro_ciemnosci tworzy term typu a *z niczego*:
+-- ... jadro_ciemnosci tworzy term typu a, czyli dowód zdania a, *z niczego*:
 jadro_ciemnosci : (a : Prop) → a
 ```
 
 To może jeszcze raz o tym samym, tylko trochę inaczej. Wyobraźmy sobie, że `d : Absurd` i `p :
-Prop`. Wtedy aplikacja `d p` będzie poprawna. Żeby zobaczyć, jak ta aplikacja działa, musimy tylko
-prześledzić kolejne kroki jej ewaluacji (ilustracja):
+Prop`. Wtedy aplikacja `d p` będzie poprawna. Żeby zobaczyć, jak typ ma ta aplikacja, musimy
+prześledzić kolejne kroki obliczania, które musi tutaj zachodzić po stronie typu (ilustracja):
 
 ```lean
 -- Wersja z nierozpakowaną definicją typu Absurd ...
@@ -172,14 +164,14 @@ A więc `d` jest tutaj jednocześnie dowodem zdania `Absurd` i pewną funkcją (
 strzałkę), która z dowolnego zdania robi term tego typu, czyli dowód tego zdania. To jedyny sposób,
 w jaki taka aplikacja może działać, bo `d p` nie może zostać do niczego zredukowane; gdyby to
 wyrażenie było redukowalne, znaczyłoby to, że wartością stałej `d` jest jakaś konkretna funkcja, a
-wiemy już, że taka funkcja nie istnieje. Mamy tu więc znakomity przykład konieczności oddzielenia
-pojęcia (i operacji) samej aplikacji od ewaluacji.
+wiemy już, że taka funkcja nie istnieje. To kolejny przykład konieczności oddzielenia pojęcia (i
+operacji) aplikacji od ewaluacji.
 
-Na wszelki wypadek podkreślam, że przyjęta przez nas definicja absurdu to nie żadna prawda objawiona
-na temat "istoty absurdu"; to tylko pewien *wybór terminologiczny* albo *pojęciowy*, który możemy
-wyrazić poprawnie w języku teorii typów. Jest to więc coś, o czym wiemy, że (w jakiś sposób) działa
-i na co musimy się wspólnie *umówić*, żeby nasza dalsza komunikacja miała sens, ale z czym żadne z
-nas nie musi się wcale *zgadzać*.
+Przypominam, że przyjęta przez nas definicja absurdu to nie żadna prawda objawiona na temat "istoty
+absurdu"; to tylko pewien *wybór terminologiczny* albo *pojęciowy*, który możemy wyrazić poprawnie w
+języku teorii typów. Jest to więc coś, o czym wiemy, że (w jakiś sposób) działa i na co musimy się
+wspólnie *umówić*, żeby nasza dalsza komunikacja miała sens, ale z czym żadne z nas nie musi się
+wcale *zgadzać*.
 
 Zwracam też uwagę, że `Absurd` *nie* ma struktury predykatu, po prostu dlatego, że nie jest funkcją,
 a każdy predykat jest funkcją (do typu `Prop`). `Ponury` jest predykatem, a konkretnie funkcją z
@@ -208,9 +200,9 @@ albo *dowodem absurdu*.
 Aplikując tą aplikację (sic!) do *dowolnego* zdania `q` jako takiego wywołujemy *wybuch* granatu i
 jako *odłamek* tego wybuchu uzyskujemy *term typu `q`* czyli *dowód zdania `q`*[^1].
 
-**Definicja negacji w logice konstruktywnej**: Negacja zdania `p` to funkcja / implikacja, która
-jest zdaniem / typem, dającym się konsekwentnie interpretować jako zdanie *Z `p` wynika absurd /
-fałsz*, albo *Gdyby `p` było zdaniem prawdziwym, nastąpiłaby apokalipsa*:
+**Definicja negacji w logice konstruktywnej**: Negacja zdania `p` to funkcja/implikacja, która jest
+zdaniem/typem, dającym się konsekwentnie interpretować jako *Z `p` wynika absurd/fałsz*, albo *Gdyby
+`p` było zdaniem prawdziwym, nastąpiłaby apokalipsa*:
 
 ```lean
 -- A to nasza wersja definicji negacji:
@@ -219,15 +211,15 @@ def nie (p : Prop) : Prop := p → Absurd
 -- Deklarujemy, że p jest jakimś zdaniem.
 variable (p : Prop)
 
--- nie p jest zdaniem, a więc ...
+-- Wtedy nie p też jest zdaniem, a więc ...
 #check nie p -- nie p : Prop
 
 -- ... mając jakieś dowody zdań p i nie p ...
 variable (hp : p) (np : nie p)
 
--- ... ponieważ ze sprzeczności wynika absurd / fałsz ...
+-- ... ponieważ ze sprzeczności wynika absurd/fałsz ...
 #check np hp -- np hp : Absurd
--- ... a (zgodnie z definicją) z absurdu / fałszu wynika wszystko ...
+-- ... a (zgodnie z definicją) z absurdu/fałszu wynika wszystko ...
 
 -- ... to dla dowolnego zdania q ...
 variable (q : Prop)
