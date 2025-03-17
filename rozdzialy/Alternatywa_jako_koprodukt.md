@@ -314,43 +314,71 @@ koniunkcję do udowodnienia `R`, wystarczy wykazać, że `R` wynika z `P`, *lub*
 słowo w logice, dopuszcza też taką możliwość. A więc w regule wprowadzania koniunkcji pojawia się
 pojęcie koniunkcji, a w regule eliminacji koniunkcji pojawia się dualne pojęcie alternatywy.
 
-Wydaje mi się, że nie jest wcale oczywiste, że mamy tutaj do czynienia ze współźródłowymi strzałkami
-do produktu i jego członów. Każdy dowód koniunkcji albo będzie wymagał zastosowania jakiś dostępnych
-lokalnie hipotez, albo nie. Na przykład, jeżeli koniunkcja do udowodnienia będzie miała postać `(p →
-p) ∧ q`, to dowód lewego członu będziemy mogli skonstruować "z niczego", konstruując funkcję
-identycznościową na zdaniach i to będzie jednocześnie *prawie* dowód implikacji `True → (p → p)`, bo
-taki dowód musiałby ignorować swój argument, będący dowodem zdania `True` i zwrócić identyczność. A
-dysponując lokalnie, jako założeniem albo udowodnionym wcześniej zdaniem, na przykład hipotezą `(p →
-q) ∧ p`, będziemy mogli udowodnić zdanie `q`.
+Wydaje mi się, że nie jest wcale oczywiste, że w przypadku reguły wprowadzania mamy do czynienia ze
+współźródłowymi strzałkami do produktu i jego członów. Przypominam, że `True` jest jednocześnie
+pewnym zdaniem i obiektem końcowym w kategorii zdań i dowiedlności, to znaczy, zdanie `True` można
+udowodnić zakładając dowód jakiegokolwiek zdania (i nie korzystając faktycznie z tego dowodu). W tej
+kategorii istnieje więc strzałka z każdego zdania do zdania `True`. Takie strzałki są zupełnie
+nieciekawe, bo mówią coś tylko o zdaniu `True`, a nie o swoich źródłach. Z drugiej strony, strzałki
+*z* `True` odpwiadają dokładnie zdaniom, które mają (jakikolwiek) dowód. 
+
+Korzystając z tej obserwacji, możemy przetłumaczyć reguły wprowadzania i eliminacji dla koniunkcji
+na język strzałek jako oznaczeń dowiedlności:
+
+Dowód zdania `P \and Q` to to samo co para dowodów, dowodu zdania `P` i dowodu zdania `Q`.
+
+*Strzałka do produktu `P \x Q` to to samo, co para strzałek z tego samego źródła, jednej do `P` i
+jednej do `Q`*.
+
+Dysponując dowodem zdania `P \and Q` możemy skontruować dowód zdania `P` i dowód zdania `Q`.
+
+*Produkt `P` i `Q` to pewien obiekt, z którego wychodzą strzałki do `P` i do `Q` (które spełniają
+pewne wymagania ...)*.
 
 Zawsze, gdy możemy udowodnić w danym kontekście jakieś dwa zdania `P` i `Q`, w tym samym kontekście
-możemy też udowodnić pewne zdanie `H`, z którego *jednocześnie* wynikają te dwa zdania, czyli zawsze
-wtedy możemy udowodnić implikacje `H → P` i `H → Q` dla pewnego zdania `H`. W ostatnim przykładzie
-takim zdaniem jest zdanie `True ∧ ((p → q) ∧ p)`, albo po prostu `(p → q) ∧ p`. A więc z perspektywy
-kategoryjnej będą wtedy istniały współźródłowe strzałki do punktów `P` i `Q`. Z tej perspektywy
-reguła wprowadzania dla koniunkcji odpowiada "produktowości" koniunkcji, bo mówi, że *istnieje*
-wtedy strzałka z tego samego źródła do `P ∧ Q` i taka strzałka musi być *unikalna*, ponieważ ta
-kategoria jest cienka.
+możemy też udowodnić implikacje `True → P` i `True → Q`. A więc z perspektywy kategoryjnej będą
+wtedy istniały współźródłowe strzałki do punktów `P` i `Q`. Z tej perspektywy reguła wprowadzania
+dla koniunkcji odpowiada "produktowości" koniunkcji, bo mówi, że *istnieje* wtedy strzałka z tego
+samego źródła do `P ∧ Q` i taka strzałka musi być *unikalna*, ponieważ ta kategoria jest cienka.
 
-Reguła *eliminacji* dla koniunkcji dotyczy z kolei strzałek *z* koniunkcji. Ponieważ każda
-koniunkcja to pewna specjalna para współźródłowych strzałek `P ← P × Q → Q`, to z koniunkcji
+Reguła *eliminacji* dla koniunkcji dotyczy z kolei strzałek *z* koniunkcji, które są częściami
+koniunkcji jako produktu.
+
+Ponieważ każda koniunkcja to pewna specjalna para współźródłowych strzałek
+`P ← P × Q → Q`, których źródło oznaczamy w logice zdań za pomocą symbolu `∧`, to z koniunkcji
 wynikają te i tylko te zdania, które wynikają z `P` - bo wtedy wynikają z `P ∧ Q` z powodu
 składalności strzałek - *lub* z `Q`, *lub* z `P ∧ Q`.
 
-Widzimy więc, że reguły eliminacji są w pewien sposób dualne do reguł wprowadzania i że w regułach
-eliminacji dla koniunkcji pojawia się - ale w *metajęzyku* jako *słowo lub*, a nie jako spójnik
-logiczny występujący w jakimś zapisanym formalnie zdaniu, o którym mówią te reguły - obiekt dualny
-do koniunkcji, to jest alternatywa.
+Widzimy więc, że reguły eliminacji są w pewien sposób dualne do reguł wprowadzania, ponieważ te
+pierwsze dotyczą konstruowalności strzałek *z* danego rodzaju zdań, a te drugie dotyczą
+konstruowalności strzałek *do* danego rodzaju zdań. Wreszcie w regułach eliminacji dla koniunkcji
+pojawia się - ale w *metajęzyku* jako *słowo lub*, a nie jako spójnik logiczny `\or` występujący w
+jakimś zapisanym formalnie zdaniu, o którym mówią te reguły - obiekt dualny do koniunkcji, to jest
+alternatywa: żeby skorzystać z dowodu zdania `P \and Q` do udowodnienia zdania `R` trzeba udowodnić
+`R` zakładając `P` *lub* zakładając `Q` (a więc też ewentualnie zakładając `P` i `Q` jednocześnie).
 
-Alternatywa działa w zasadzie tak samo, tylko *dualnie*. Żeby *wprowadzić* zdanie `P ∨ Q`, czyli
-zdanie `Or P Q`, trzeba dysponować dowodem `P` *lub* dowodem `Q`. Żeby *wykorzystać* `P ∨ Q` do
-udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P` *jak i, niezależnie, z* `Q`,
-ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się wywnioskować, *który* z członów
-jest prawdziwy. A więc we wprowadzaniu alternatywy, które dotyczy strzałek *do* alternatywy jako
-koproduktu, pojawia się pojęcie alternatywy, a w regule eliminacji alternatywy, która dotyczy
+Alternatywa działa tak samo, tylko *dualnie*. Żeby *wprowadzić* (do konstruowanego dowodu, czyli
+udowodnić) zdanie `P ∨ Q`, czyli zdanie `Or P Q`, trzeba dysponować dowodem `P` *lub* dowodem
+`Q`. Żeby *wykorzystać* `P ∨ Q` do udowodnienia `R`, trzeba udowodnić, że `R` wynika *zarówno z* `P`
+*jak i, niezależnie, z* `Q`. Korzystanie z alternatywy wymaga w tym sensie obsłużenia wszystkich
+członów ponieważ z samego faktu, że mamy *jakiś* dowód `P ∨ Q`, nie da się wywnioskować, *który* z
+członów jest prawdziwy. A więc we wprowadzaniu alternatywy, które dotyczy strzałek *do* alternatywy
+jako koproduktu, pojawia się pojęcie alternatywy, a w regule eliminacji alternatywy, która dotyczy
 strzałek *z* alternatywy jako koproduktu, pojawia się (w metajęzyku) dualne pojęcie
 koniunkcji. Wydaje mi się, że oswojenie się z tymi dualnościami ułatwia zapamiętanie reguł
 dedukcji - czyli reguł wprowadzania i eliminacji - dla koniunkcji i alternatywy.
+
+Podobnie jak wcześniej, możemy więc przetłumaczyć reguły wprowadzania i eliminacji dla alternatywy
+na język strzałek jako oznaczeń dowiedlności. Z tej perspektywy, reguły *wprowadzania dla
+alternatywy* są zakodowane czy wręcz "wbudowane" jako części alternatywy jako koproduktu, to jest
+jako strzałki `P \to P \or Q` i `Q \to P \or Q`, tak jak reguły *eliminacji dla koniunkcji* są
+zakodowane jako części koniunkcji jako produktu. 
+
+Z kolei reguła eliminacji dla alternatywy odpowiada istnieniu danego przez złożenia z injekcjami
+izomorfizmu między strzałkami z alternatywy jako koproduktu i parami wchodzących do tego samego celu
+strzałek z jej członów, tak jak reguła wprowadzania dla koniunkcji odpowiada istnieniu danego przez
+składanie z projekcjami izomorfizmu między parami strzałek do członów koniunkcji jako produktu i
+wychodzącymi z tego samego źródła strzałkami do koniunkcji.
 
 Na skonstruowany wcześniej (na różne sposoby) dowód `p ∨ q → q ∨ p` możemy też popatrzeć z
 perspektywy kategoryjnej tak, skupiając się najpierw na samej koniunkcji: Dla dowolych obiektów `A`
@@ -360,11 +388,11 @@ i `B`, wszystkie produkty `A` i `B` są jak wiesz (unikalnie) parami izomorficzn
 strzałka jest (kategoryjnym) izomorfizmem, ponieważ istnieje również strzałka `q \and p \to p \and
 q` i istnieje tylko jedna strzałka `p \to p` i tylko jedna strzałka `q \to q` (bo ta kategoria jest
 cienka) i obie te strzałki muszą być identycznościami. A więc oba złożenia strzałek `p \and q \to q
-\and p` i `q \and p \to p \and q` są identycznościami, a więc to są izomorfizmy. 
+\and p` i `q \and p \to p \and q` są identycznościami, a więc to są izomorfizmy.
 
-Odkąd ustaliliśmy, że koniunkcja jest produktem, nie musimy już dodatkowo udowadniać tej
+Skoro ustaliliśmy, że koniunkcja jest produktem, nie musimy już dodatkowo udowadniać tej
 symetrii. To jest coś, czego nie musieliśmy udowadniać, bo wiedzieliśmy to z góry na podstawie tego,
-co udało nam się wcześniej ustalić na temat wszelkiego rodzaju produktów kategoryjnych.
+co udało nam się wcześniej ustalić na temat wszelkiego rodzaju kategoryjnych produktów.
 
 Dla dowolnej kategorii `C` i obiektów `A` i `B` w tej kategorii, produkt `A \x B` to koprodukt `A +
 B` w kategorii dualnej `C'`. Jeżeli strzałka `f` w kategorii `C` jest izomorfizmem, to jej
@@ -373,18 +401,40 @@ obiektów `A` i `B`, koprodukty `A + B` i `B + A` są izomorficzne. W szczególn
 `A + B \to B + A`. Ponieważ logiczna alternatywa jest koproduktem, to dla dowolnych zdań `p` i `q`
 istnieje strzałka (czyli dowód zdania) `p \or q \to q \or p`.
 
-Z perspektywy kategoryjnej fakt, że zdanie `p ∧ q → p ∨ q` ma dowód jest tylko szczególnym
-przypdkiem faktu, że ponieważ `p ∧ q` jest produktem (zdań / obiektów / punktów) `p` i `q`, to
-istnieją strzałki (dowody / funkcje) z `p ∧ q` do `p` i z `p ∧ q` do `q`, a ponieważ `p ∨ q` jest
-koproduktem `p` i `q`, to istnieją strzałki z `p` do `p ∨ q` i z `q` do `p ∨ q`. A skoro tak, to
-istnieją złożenia `p ∧ q → p → p ∨ q` i `p ∧ q → q → p ∨ q`.
+Wreszcie z perspektywy kategoryjnej fakt, że zdanie `p ∧ q → p ∨ q` ma dowód jest tylko szczególnym
+przypdkiem faktu, że ponieważ `p ∧ q` jest produktem (zdań/obiektów/punktów) `p` i `q`, to istnieją
+strzałki (dowody/funkcje) z `p ∧ q` do `p` i z `p ∧ q` do `q`, a ponieważ `p ∨ q` jest koproduktem
+`p` i `q`, to istnieją strzałki z `p` do `p ∨ q` i z `q` do `p ∨ q`. A skoro tak, to istnieją
+złożenia `p ∧ q → p → p ∨ q` i `p ∧ q → q → p ∨ q`. 
 
+Tak oto wszystkie wymienione niżej elementy ...
+
+- Reguły wprowadzania dla koniunkcji
+
+- Reguły eliminacji dla koniunkcji
+
+- Reguły wprowadzania dla alternatywy
+
+- Reguły eliminacji dla alternatywy
+
+- Twierdzenie `P \and Q \to Q \and P`
+
+- Twierdzenie `P \or Q \to Q \or P`
+
+- Twierdzenie `P \and Q \to P \or Q`
+
+... wynikają natychmiast (jako części definicji lub szczególne przypadki udowodnionych wcześniej
+twierdzeń) z obserwacji, że w kategorii dowiedlności koniunkcja jest produktem, a alternatywa jest
+konstrukcją dualną do koniunkcji. I to, że koniunkcja ma jedną regułę wprowadzania i dwie reguły
+eliminacji, a alternatywa ma dwie reguły wprowadzania i jedną regułę eliminacji, jak również to, że
+reguły eliminacji dla koniunkcji i wprowadzania dla alternatywy są jakby wbudowane w ich strukturę,
+natomiast pozostałe reguły odpowiadają temu, jak te konstrukcje działają ze względu na składanie,
+też jest manifestacją dualności tych pojęć.
 
 ## Koniunkcja i alternatywa ze strzałek, ale inaczej
 
-Ten podrozdział jest jeszcze bardziej opcjonalny niż poprzedni. 
-
-Przypominam "strzałkową" definicję *koniunkcji*:
+Ten podrozdział jest jeszcze bardziej opcjonalny niż poprzedni. Na początek przypominam "strzałkową"
+definicję *koniunkcji*:
 
 ```lean
 def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
@@ -397,8 +447,8 @@ dające się skonstruować z par dowodów będących argumentami ich aplikacji.
 
 Z tego punktu widzenia ta definicja wyraża po prostu fakt, że dowód koniunkcji zdań `p` i `q` to
 taki dowód, za pomocą którego można udowodnić każde zdanie `r` (`... → r`) wynikające z łącznej
-prawdziwości zdań `p` i `q` (`(p → q → r) ...`). Przyjmując tą definicję można łatwo zdefiniować
-jedyną regułę wprowadzania i obydwie reguły eliminacji dla koniunkcji:
+prawdziwości zdań `p` i `q` (`(p → q → r) ...`). Przyjmując tą definicję można łatwo skonstruować
+dowody reguł wprowadzania i eliminacji dla koniunkcji:
 
 ```lean
 -- Dla uproszczenia pominąłem tutaj typowanie, którego Lean może się sam domyślić i zastąpiłem nazwy
@@ -412,19 +462,20 @@ def and_in1 (p q : Prop) (hp : p) (hq : q) : and p q :=
     fun (r : Prop) => fun (h : p → q → r) => h hp hq
 
 -- To jest definicja pierwszej albo lewej reguły eliminacji dla koniunkcji. Z dowodu p ∧ q zawsze
--- można zrobić dowód p:
+-- można zrobić dowód p, co odzwierciedla fakt, że p jest jednym z takich zdań r, że r wynika z
+-- założenia, że jednocześnie prawdziwe są zdania p i q:
 def and_el1 (p q : Prop) (h : and p q) : p :=
     h p (fun hp => fun _ => hp)
 
--- Z dowodu p ∧ q zawsze można zrobić dowód q:
+-- Analogicznie z dowodu p ∧ q zawsze można zrobić dowód q:
 def and_el2 (p q : Prop) (h : and p q) : q :=
     h q (fun _ => fun hq => hq)
 ```
 
-Ponieważ te dwie ostatnie definicje są funkcjami, które przekształcają dowody każdej koniunkcji o
-postaci `p ∧ q` w dowody zdań `p` i `q` odpowiednio, to te funkcje są "generatorami" (w innym niż
-wcześniej wprowadzone znaczeniu tego słowa) strzałek-projekcji z koniunkcji jako produktu. O tym też
-wspominam tylko dlatego, że wydaje mi się to ciekawe.
+Ponieważ te dwie ostatnie definicje są funkcjami, które przekształcają dowody koniunkcji o postaci
+`p ∧ q` w dowody zdań `p` i `q` odpowiednio, to te funkcje są "generatorami" (w innym niż wcześniej
+wprowadzone znaczeniu tego słowa) strzałek-projekcji z koniunkcji jako produktu. O tym też wspominam
+tylko dlatego, że wydaje mi się to ciekawe.
 
 W tym samym znaczeniu strzałkową definicję *alternatywy* można natomiast skonstruować tak:
 
@@ -432,7 +483,7 @@ W tym samym znaczeniu strzałkową definicję *alternatywy* można natomiast sko
 def or (p q : Prop) : Prop := ∀ r : Prop, (p → r) → (q → r) → r
 
 -- Zastosowałem tutaj dłuższe nazwy parametrów, żeby łatwiej można było zrozumieć o co chodzi w tych
--- definicjach i znowu pominąłem zbędne typowanie i nieużywane nazwy parametrów.
+-- definicjach i znowu pominąłem zbędne typxowanie i nieużywane nazwy parametrów.
 def or_in1 (p q : Prop) (hp : p) : or p q :=
 -- ∀ r : Prop, (p → r) →      (q → r) → r
    fun _ =>    fun hp_to_r => fun _ =>  hp_to_r hp
@@ -442,9 +493,6 @@ def or_in2 (p q : Prop) (hq : q) : or p q :=
 
 -- Definicja alternatywy jest tutaj tym samym, co jedyna reguła eliminacji dla alternatywy.
 ```
-
-To, że koniunkcja ma jedną regułę wprowadzania i dwie reguły eliminacji, a alternatywa ma dwie
-reguły wprowadzania i jedną regułę eliminacji, też jest manifestacją dualności tych pojęć.
 
 Strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie zdanie,
 że jeżeli wiemy, że to zdanie jest prawdziwe, to wiemy jednocześnie, że prawdziwe jest każde zdanie,
@@ -460,21 +508,22 @@ alternatywy złożonej z tych samych zdań, ale nie odwrotnie. Łatwo się w tym
 Możemy powiedzieć to samo, tylko najogólniej jak się da, wznosząc się znowu na wysokość, na której
 słychać już trochę burczenie aniołów: Jeżeli w kategorii `ℂ` istnieje produkt `X × Y` i koprodukt
 `X + Y`, to istnieją co najmniej dwie, niekoniecznie różne strzałki z `X × Y` do `X + Y`, bo są nimi
-co najmniej złożenia projekcji `X ← X × Y → Y` z injekcjami `X → X + Y ← Y`. Za to nie *musi*
-istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten oto sposób za jednym zamachem stwierdziliśmy
-coś na temat koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy rozłącznej zbiorów i
-w ogóle wszystkich możliwych produktów i koproduktów.
+co najmniej złożenia projekcji `X ← X × Y → Y` z injekcjami `X → X + Y ← Y`. Za to w ogólnym
+przypadku nie *musi* istnieć żadna strzałka z `X + Y` do `X × Y`. I w ten sposób za jednym zamachem
+stwierdziliśmy coś na temat koniunkcji i alternatywy, iloczynu kartezjańskiego zbiorów i sumy
+rozłącznej zbiorów i w ogóle wszystkich możliwych produktów i koproduktów.
 
-Z perspektywy kategoryjnej widać, że to, jak *działa w logice* koniunkcja i alternatywa nie ma *nic*
-wspólnego z tym, jak te pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo
-innej wersji teorii typów. Może się wydawać, że wyjaśniając to w ten sposób tracimy poczucie sensu,
-ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do rozumienia
-wszystkiego od strony implementacji, która wydaje nam się bardziej konkretna albo
-podstawowa. Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
-zrozumienia w pewnym sensie prawdziwych albo głębszych, a już na pewno bardziej *uniwersalnych
-powodów*, dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób w różnych
-kontekstach (tutaj w kontekście teorii typów z wbudowanymi parami uporządkowanymi i definicjami
-indukcyjnymi).
+Z perspektywy kategoryjnej widać, że to, jak *działa w logice* koniunkcja i alternatywa, a więc jaka
+jest w pewnym sensie "istota" tych pojęć czy konstrukcji, nie ma *nic* wspólnego z tym, jak te
+pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo innej wersji teorii
+typów. Może się wydawać, że wyjaśniając to w ten sposób tracimy poczucie sensu, ale jeśli mamy takie
+wrażenie, to jest tak *tylko* dlatego, że mamy tendencję do poszukiwania zrozumienia na poziomie
+implementacji, być może dlatego, że ten poziom wydaje się bardziej "podstawowy" albo
+"konkretny". Jednocześnie jednak dzięki przyjęciu perspektywy kategoryjnej zyskujemy możliwość
+zrozumienia w pewnym sensie prawdziwych albo głębszych *uniwersalnych powodów*, dla których produkty
+i koprodukty są zdefiniowane w taki a nie inny sposób w różnych kontekstach (tutaj w kontekście
+logiki zdań zaimplementowanej w języku teorii typów z wbudowanymi parami uporządkowanymi i
+definicjami indukcyjnymi).
 
 ### Przypisy
 
