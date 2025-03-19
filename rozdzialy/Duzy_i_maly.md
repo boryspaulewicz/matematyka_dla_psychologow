@@ -1,6 +1,6 @@
-# \forall ~ \exists
+# ∀ ~ ∃
 
-## Krótko i praktycznie o dowodzeniu zdań o postaci `∃ x : α, P x`
+## Krótko i praktycznie o dowodzeniu zdań o postaci ∃ *x* : *α*, *P x*
 
 Będziemy znowu mówić o żniwiarzach, ...
 
