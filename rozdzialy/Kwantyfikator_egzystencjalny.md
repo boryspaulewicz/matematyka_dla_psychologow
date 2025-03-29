@@ -311,7 +311,7 @@ Takie rozwiązanie będzie *niemal* uniwersalne, ale nie całkiem, ponieważ `Ty
 ```lean
 #check Type -1 -- Lean sygnalizuje tutaj błąd, ...
 #check Sort 0  -- ... a tu nie. Lean mówi `Prop : Type`, ponieważ `Sort 0` to `Prop`.
-#check Sort 1  -- Lean mówi `Type : Type 1`, ponieważ `Sort 1` to `Type`, a `Type` to `Type 0`.
+#check Sort 1  -- Lean mówi `Type : Type 1`, ponieważ `Sort 1` to `Type 0`, a `Type 0` to `Type`.
 ```
 
 ... co oznacza, że używając `inex''` nie możemy korzystać z predykatów dotyczących termów typu
