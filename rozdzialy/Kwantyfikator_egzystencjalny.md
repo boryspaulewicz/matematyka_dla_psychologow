@@ -508,13 +508,16 @@ bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz 
 ## `∃` z samych strzałek (a właściwie funkcji)
 
 Na koniec, jako ciekawostkę, pokażę Ci jeszcze jak można zdefiniować `∃` tylko za pomocą funkcji, to
-jest nie korzystając ani z par uporządkowanych, ani z indukcyjnych definicji typów danych:
+jest nie korzystając ani z par uporządkowanych, ani z indukcyjnych definicji typów danych. Symbole
+`Exists` i `exists` były już zajęte, więc użyłem `_exists`. 
+
+Definiujemy tutaj parametryczny typ zdań `_exists P`, gdzie `P` to predykat dotyczący jakiegoś typu
+`α`, jako (jedyną) regułę eliminacji kwantyfikatora egyzstencjalnego, tak jak wcześniej
+definiowaliśmy za pomocą funkcji parametryczny typ zdań `and` jako (uniwersalną) regułę eliminacji
+koniunkcji. Można więc powiedzieć, że ta definicja wyraża sens tego rodzaju zdań, rozumiany jako ich
+konsekwencje, albo jako sposób, w jaki można używać (dowodów) takich zdań w dowodach.
 
 ```lean
--- Symbole `Exists` i `exists` były już zajęte, więc użyłem `_exists`. Definiujemy tutaj
--- parametryczny typ zdań `_exists P`, gdzie `P` to predykat dotyczący jakiegoś typu `α`, jako
--- (jedyną) regułę eliminacji kwantyfikatora egyzstencjalnego, tak jak wcześniej definiowaliśmy za
--- pomocą funkcji parametryczny typ zdań `and` jako (uniwersalną) regułę eliminacji koniunkcji.
 def _exists {α : Sort u} (P : α → Prop) := ∀ R : Prop, (∀ x : α, P x → R) → R
 
 -- Mając term `x : α` i dowód `h1 : P x` możemy skonstruować term typu `_exists P`:
@@ -535,6 +538,6 @@ example : _exists (fun n : Nat => n = 1) := _exists.intro 1 rfl
 
 -- (∃ x, P x) → ¬ ∀ x, ¬ P x
 example : (_exists P) → ¬ ∀ x, ¬ P x := fun h => h False
--- Tak też można:
+-- Tak też można, tylko trudno powiedzieć po co.
 example : (_exists P) → ¬ ∀ x, ¬ P x := fun h => _exists.elim (R := False) h
 ```
