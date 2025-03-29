@@ -8,10 +8,10 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 20 stycznia. Dodałem właśnie nowy rozdział R24=R18 pod zachęcającym tytułem [p ∨ q
-~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md). Czytelniczki i czytelników, *którzy mają już
-za sobą co najmniej rozdziały od R4 do R17=R11 i od R19=R13 do R23=R17*, zapraszam do testowania,
-zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, *zwłaszcza* tych *krytycznych*.
+**Aktualności**: 29 marca. Dodałem rozdział R25=R19 pod wymownym tytułem
+[∃](./rozdzialy/Kwantyfikator_egzystencjalny.md). Czytelniczki i czytelników, *którzy oswoili się
+już z używaniem alternatywy*, zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek
+spostrzeżeń lub uwag, zwłaszcza tych krytycznych.
 
 ## Przedmowa
 
