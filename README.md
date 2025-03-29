@@ -227,6 +227,8 @@ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
 [R24 = R18 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
 
+[R25 = R19 ∃](./rozdzialy/Kwantyfikator_egzystencjalny.md)
+
 Notatki robocze do których można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
