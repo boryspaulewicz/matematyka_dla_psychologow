@@ -514,8 +514,9 @@ jest nie korzystając ani z par uporządkowanych, ani z indukcyjnych definicji t
 Definiujemy tutaj parametryczny typ zdań `_exists P`, gdzie `P` to predykat dotyczący jakiegoś typu
 `α`, jako (jedyną) regułę eliminacji kwantyfikatora egyzstencjalnego, tak jak wcześniej
 definiowaliśmy za pomocą funkcji parametryczny typ zdań `and` jako (uniwersalną) regułę eliminacji
-koniunkcji. Można więc powiedzieć, że ta definicja wyraża sens tego rodzaju zdań, rozumiany jako ich
-konsekwencje, albo jako sposób, w jaki można używać (dowodów) takich zdań w dowodach.
+koniunkcji. Można więc powiedzieć, że ta definicja wyraża sens tego rodzaju zdań rozumiany jako ich
+konsekwencje, albo (co na jedno wychodzi) jako sposób, w jaki można używać (dowodów) takich zdań w
+dowodach.
 
 ```lean
 def _exists {α : Sort u} (P : α → Prop) := ∀ R : Prop, (∀ x : α, P x → R) → R
