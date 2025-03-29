@@ -150,8 +150,9 @@ example (α : Type) (P : α → Prop) : P = (fun x => P x) := rfl
 ```
 
 Szczerze mówiąc nie wiem. Przede wszystkim chciałem zilustrować definicyjną równość `f = (fun x => f
-x)` dla każdej funkcji `f` (a predykaty to funkcje). Możemy już wrócić do kwantyfikatora
-egzystencjalnego (inaczej małego).
+x)` dla każdej funkcji `f` (a predykaty to funkcje):
+
+Możemy już wrócić do kwantyfikatora egzystencjalnego (inaczej małego).
 
 ## Dowodzenie zdań `∃ x, P x`
 
@@ -340,16 +341,28 @@ Teraz będzie już mam nadzieję jasne, czemu konstruktor `Exists.intro` ma taki
 #check Exists.intro -- Exists.intro.{u} {α : Sort u} {p : α → Prop} (w : α) (h : p w) : Exists p
 ```
 
-Być może jednak nadal masz wątpliwości na temat typu rezultatu zapisanego jako term `Exists p`.
-Może na przykład zastanawiasz się, gdzie się podział odpowiednik symbolu `x`, którego używaliśmy na
-oznaczenie *czegoś* w zdaniu *Istnieje takie coś, co spełnia predykat `P`*? Otóż dopóki mówimy o
-*samym zdaniu*, nie ma potrzeby dodawania takiego symbolu, ponieważ z każdego, dotyczącego termów
-jakiegokolwiek typu `α` predykatu `P` można zrobić dokładnie jedno zdanie o postaci `∃ x : α, P x`,
-to będzie to samo zdanie co na przykład zdanie `∃ z : α, P z`, i każde takie zdanie będzie
-odpowiadało dokładnie jednemu predykatowi dotyczącemu termów danego typu. Te zdania są więc
-*własnościami* albo *funkcjami samych predykatów*. Żeby zapisać formalnie zdanie, że dany predykat
-jest spełniony przez co najmniej jeden term, wystarczy w jakiś niewykorzystany wcześniej sposób
-oznaczyć ten predykat (tutaj robimy to poprzedzając predykat stałą `Exists`).
+Skoro wiesz już mniej więcej, w jaki sposób można tworzyć kod obsługujący termy zamieszkujące
+dowolne typy, to mogę Ci pokazać jak wygląda maksymalnie ogólna wersja twierdzenia `f = fun x => f
+x`, gdzie `f` to dowolna funkcja:
+
+```lean
+-- Sort typu celu nie musi być taki sam jak sort typu źródła, a więc potrzebujemy dwóch parametrów
+-- oznaczających dwa potencjalnie różne uniwersa.
+universe u v
+example (α : Sort u) (β : Sort v) (f : α → β) : f = fun x => f x := by rfl
+-- Każda funkcja jest tą samą funkcją co funkcja, która nie robi nic innego tylko ją stosuje.
+```
+
+Być może jednak nadal masz wątpliwości na temat typu rezultatu aplikacji `Exists.intro`, to jest
+`Exists p`. Może na przykład zastanawiasz się, gdzie się podział odpowiednik symbolu `x`, którego
+używaliśmy na oznaczenie *czegoś* w zdaniu *Istnieje takie coś, co spełnia predykat `P`*?  Otóż
+dopóki mówimy o *samym zdaniu*, nie ma potrzeby dodawania takiego symbolu, ponieważ z każdego,
+dotyczącego termów jakiegokolwiek typu `α` predykatu `P` można zrobić dokładnie jedno zdanie o
+postaci `∃ x : α, P x`, to będzie to samo zdanie co na przykład zdanie `∃ z : α, P z`, i każde takie
+zdanie będzie odpowiadało dokładnie jednemu predykatowi dotyczącemu termów danego typu. Te zdania są
+więc *własnościami* albo *funkcjami samych predykatów*. Żeby zapisać formalnie zdanie, że dany
+predykat jest spełniony przez co najmniej jeden term, wystarczy w jakiś niewykorzystany wcześniej
+sposób oznaczyć ten predykat (tutaj robimy to poprzedzając predykat stałą `Exists`).
 
 Popatrzmy jeszcze na zapisaną
 [tutaj](https://github.com/leanprover/lean4/blob/master/src/Init/Core.lean) definicję indukcyjną
