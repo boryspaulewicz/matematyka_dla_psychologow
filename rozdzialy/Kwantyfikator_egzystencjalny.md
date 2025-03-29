@@ -5,13 +5,14 @@ nazywany również *małym*. Pomijając spójnik `↔`, który oznacza koniunkcj
 relacje, które pojawią się wkrótce i które są uogólnieniami predykatów, to już ostatni potrzebny nam
 element logiki konstruktywnej. A to znaczy, że niebawem opanujesz podstawy *kontruktywnej logiki
 wyższego rzędu* (to jest logika wyższego rzędu, bo używamy predykatów maksymalnie swobodnie, to
-znaczy pozwalamy, aby dotyczyły termów dowolnego typu, w tym również dowolnych typów).
+znaczy pozwalamy, aby dotyczyły termów dowolnego typu, w tym również termów będących dowolnymi
+typami).
 
 <hr>
 
 # ∃
 
-Będziemy znowu mówić o żniwiarzach, ...
+Będziemy przez chwilę znowu mówić o żniwiarzach, ...
 
 ```lean
 axiom Zniwiarz : Type
@@ -20,22 +21,23 @@ axiom Zniwiarz : Type
 axiom Ponury : Zniwiarz → Prop
 axiom Pogodny : Zniwiarz → Prop
 
--- ... będziemy używać zgodnie z następującą zasadą: jeżeli jakiś żniwiarz jest ponury,
--- to nie jest pogodny (nazwa `pon_npog` to skrót od `ponury_nie_pogodny`).
+-- ... będziemy używać zgodnie z następującą zasadą (aksjomatem, czyli konwencją):
+-- Jeżeli jakiś żniwiarz jest ponury, to nie jest pogodny.
 axiom pon_npog : ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z
+-- Nazwa `pon_npog` to skrót od `ponury_nie_pogodny`.
 
--- Będziemy sobie również znowu wyobrażać ponurego żniwiarza Krystiana.
+-- Będziemy sobie również znowu wyobrażać (aksjomatycznie) ponurego (aksjomatycznego) żniwiarza Krystiana.
 axiom Krystian : Zniwiarz
 axiom pk : Ponury Krystian
 
 -- Jeżeli teraz zastosujemy aksjomat `pon_npog` do Krystiana, to uzyskamy dowód, że jeżeli Krystian
 -- jest ponury, to nie jest pogodny ...
-#check pon_npog Krystian -- Ponury Krystian → ¬ Pogodny Krystian
--- ... a ponieważ zdecydowaliśmy, że Krystian jest ponury, to możemy udowodnić również zdanie:
-#check pon_npog Krystian pk -- ¬ Pogodny Krystian
+#check pon_npog Krystian -- `pon_npog Krystian : Ponury Krystian → ¬ Pogodny Krystian`
+-- ... a ponieważ zdecydowaliśmy, że `Krystian` jest ponury, to możemy udowodnić również zdanie:
+#check pon_npog Krystian pk -- `pon_npog Krystian pk : ¬ Pogodny Krystian`
 ```
 
-## Co jest predykatem w zdaniu `¬ P x`?
+## Jeżeli `α : Type`, `P : α → Prop`, i `x : α`, to co jest predykatem w zdaniu `¬ P x`?
 
 Przypuszczam, że właściwy sposób czytania zdania `¬ Pogodny Krystian` jest dla Ciebie oczywisty, ale
 czy wiesz, co w tym zdaniu jest predykatem? Skoro `¬ Pogodny Krystian` to formalnie zapisane zdanie
@@ -48,10 +50,10 @@ być formalny odpowiednik nieformalnego predykatu *nie jest pogodny*. Jednak wyr
 -- zdania ...
 #check Pogodny -- Pogodny : Zniwiarz → Prop
 
--- .. ale `¬ Pogodny` nie jest predykatem. Lean sygnalizuje tutaj błąd, co znaczy, że wyrażenie 
--- `¬ Pogodny` nie jest typowalne, czyli nie jest poprawnie skonstruowane, a więc nie jest też
--- predykatem.
-#check (¬ Pogodny)
+-- .. ale `¬ Pogodny` nie jest predykatem.
+#check (¬ Pogodny) -- Lean sygnalizuje tutaj błąd, ...
+-- ... co znaczy, że wyrażenie `¬ Pogodny` nie jest typowalne, czyli nie jest poprawnie skonstruowane,
+-- a więc nie jest też predykatem.
 ```
 
 Jak już wiesz, symbol `¬` to inaczej zapisana funkcja `Not`, która wymaga argumentu będącego
@@ -64,22 +66,22 @@ Krystian` jest poprawnym zdaniem, wobec czego można do termu złożonego `Pogod
 funkcję `Not` (albo `¬`), uzyskując w ten sposób poprawne zdanie.
 
 Żeby skonstruować "negatywny" predykat, będący formalnym odpowiednikiem nieformalnego predykatu *nie
-jest pogodny*, musimy *stworzyć funkcję* (do typu `Prop`, bo to ma być predykat), która będzie
-używała negacji i predykatu `Pogodny`:
+jest pogodny*, musimy *stworzyć funkcję* (z typu `Zniwiarz` do typu `Prop`), która będzie używała w
+swoim ciele negacji i predykatu `Pogodny`:
 
 ```lean
 -- To jest (anonimowa) funkcja, która z termów oznaczających żniwiarzy tworzy zdania, a więc
 -- to jest predykat.
-#check (fun z : Zniwiarz => ¬ Pogodny z) -- Zniwiarz → Prop
+#check (fun z : Zniwiarz => ¬ Pogodny z) -- `(fun z : Zniwiarz => ¬ Pogodny z) : Zniwiarz → Prop`
 
--- Przy okazji, to też jest predykat:
-#check (fun n : Nat => n < 1) -- fun n => n < 1 : Nat → Prop
+-- Przy okazji, to też pewien predykat (tym razem dotyczący liczb naturalnych):
+#check (fun n : Nat => n < 1) -- `fun n => n < 1 : Nat → Prop`
 
--- Dwa ostatnie predykaty są *skonstruowane* w kodzie, natomiast to jest predykat *aksjomatyczny*:
-#check Pogodny -- Pogodny : Zniwiarz 
+-- Dwa ostatnie predykaty są *skonstruowane* w kodzie, natomiast ...
+#check Pogodny -- ... `Pogodny : Zniwiarz → Prop` to jak wiesz predykat *aksjomatyczny*.
 -- Predykaty aksjomatyczne, takie jak `Pogodny`, możemy aplikować do termów wymaganego typu uzyskując
--- w ten sposób zdania (aplikacje, a więc termy złożone, o typie `Prop`), ale nie możemy redukować takich
--- aplikacji, bo pod stałą `Pogodny` nie kryje się żaden kod.
+-- w ten sposób zdania, ale nie możemy redukować takich- aplikacji, bo pod stałą `Pogodny` nie kryje się
+-- żaden kod.
 
 -- Ponieważ poniższa aplikacja redukuje się do (a więc nim jest) zdania `¬ Pogodny Krystian`, ...
 example : (fun z : Zniwiarz => ¬ Pogodny z) Krystian = ¬ Pogodny Krystian := by rfl
@@ -90,9 +92,9 @@ example : (fun z : Zniwiarz => ¬ Pogodny z) Krystian = ¬ Pogodny Krystian := b
 #check (pon_npog Krystian pk : (fun z : Zniwiarz => ¬ Pogodny z) Krystian) -- to typowanie też jest poprawne
 ```
 
-Jeżeli to opakowanie w λ-abstrakcję czegoś, co wygląda jak predykat, ale nim nie jest (tutaj `¬
-Pogodny`), żeby uzyskać coś, co faktycznie jest predykatem, jest dla Ciebie nadal nieco
-dezorientujące, to być może ten fragment tylko pogorszy sprawę:
+Jeżeli to opakowanie w λ-abstrakcję czegoś (tutaj `¬ Pogodny`), co wygląda jak predykat, ale nim nie
+jest, żeby uzyskać coś, co faktycznie jest predykatem, jest dla Ciebie nadal nieco dezorientujące,
+to być może ten fragment tylko pogorszy sprawę:
 
 Jeżeli `P` jest predykatem dotyczącym termów typu `α` ...
 
@@ -117,18 +119,20 @@ def zdanie : Prop := P = (fun a : α => P a)
 example : zdanie α P := rfl
 ```
 
-`P` jest tutaj tak jakby predykatem aksjomatycznym, ale nie całkiem, bo użyliśmy instrukcji
-`variable`, która nie służy do wprowadzania aksjomatów, tylko do deklarowania, że jakaś *zmienna*
-(stąd nazwa *variable*) ma być *parametrem* (czyli jakby "wirtualnym aksjomatem") tam, gdzie jest
-używana. To jest jakby aksjomat, bo to przecież symbol, który ma określony typ i który z perspektywy
-kodu wewnątrz definicji, której jest parametrem, jest tylko *jakimś, bliżej nieokreślonym* termem
-danego typu, tak jak term aksjomatyczny jest jakimś termem określonego typu. Można więc powiedzieć,
-że każda aksjomatyczna teoria matematyczna jest jedną wielką funkcją albo strukturą danych,
-zawierającą rozmaite przypisane do lokalnych względem tej teorii stałych konstrukcje, takie jak na
-przykład twierdzenia, której parametrami są aksjomaty.
+**Parametry są trochę jak aksjomaty**: Każdy parametr to taki jakby aksjomat, bo to przecież symbol,
+który ma określony typ i który z perspektywy kodu wewnątrz definicji, której jest parametrem, jest
+tylko *jakimś, bliżej nieokreślonym* termem danego typu, tak jak term aksjomatyczny jest jakimś
+termem określonego typu. Można więc powiedzieć, że każda aksjomatyczna teoria matematyczna jest
+jedną wielką funkcją albo strukturą danych, zawierającą rozmaite przypisane do lokalnych względem
+tej teorii stałych konstrukcje, takie jak na przykład twierdzenia, a parametrami tej
+struktury-teorii są aksjomaty.
 
-Ponieważ w definicji stałej `zdanie` używamy symboli `P` i `α`, które były wcześniej wprowadzone za
-pomocą instrukcji `variable`, to stała `zdanie` ma typ:
+**Jak działa instrukcja `variable`**: `P` jest więc tutaj takim jakby predykatem aksjomatycznym, ale
+nie całkiem, bo użyliśmy instrukcji `variable`, która nie służy do wprowadzania aksjomatów, tylko do
+deklarowania, że jakaś *zmienna* (stąd nazwa *variable*) ma być *parametrem* (czyli jakby
+"wirtualnym aksjomatem") tam, gdzie jest używana. Ponieważ tak się składa, że w ciele definicji
+stałej `zdanie` używamy symboli `P` i `α`, które były wcześniej wprowadzone za pomocą instrukcji
+`variable`, to stała `zdanie` ma typ:
 
 ```lean
 #check zdanie -- zdanie (α : Type) (P : α → Prop) : Prop
@@ -137,17 +141,16 @@ pomocą instrukcji `variable`, to stała `zdanie` ma typ:
 W ten sposób instrukcja `variable` sprawia, że Lean automatycznie uzupełnia tworzone przez nas
 definicje i umożliwia pisanie bardziej zwięzłego i czytelnego kodu. Anonimowe twierdzenie `zdanie α
 P` nie może więc być zapisane jako sama stała `zdanie`, bo stała `zdanie` nie ma typu `Prop`. Czemu
-nie napisałem po prostu ...
+nie jednak napisałem po prostu ...
 
 ```lean
 example (α : Type) (P : α → Prop) : P = (fun x => P x) := rfl
 -- ... tylko przypisałem tą konstrukcję do stałej `zdanie`?
 ```
 
-Żeby skorzystać z okazji do powtórki, żeby przyzwyczaić Cię do elastycznego myślenia o predykatach i
-ułatwić Ci ich zauważanie. Przede wszystkim jednak chciałem zilustrować definicyjną równość `f =
-(fun x => f x)` dla każdej funkcji `f`. Możemy już wrócić do kwantyfikatora egzystencjalnego,
-inaczej małego.
+Szczerze mówiąc nie wiem. Przede wszystkim chciałem zilustrować definicyjną równość `f = (fun x => f
+x)` dla każdej funkcji `f` (a predykaty to funkcje). Możemy już wrócić do kwantyfikatora
+egzystencjalnego (inaczej małego).
 
 ## Dowodzenie zdań `∃ x, P x`
 
