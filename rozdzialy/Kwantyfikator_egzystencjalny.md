@@ -367,9 +367,9 @@ stała.
 Każda aplikacja funkcji dwuargumentowej do dwóch argumentów jest pewną (oznaczoną nazwą aplikowanej
 funkcji) parą uporządkowaną (złożoną z tych argumentów). Dowód zdania o postaci `∃ x : α, P x` to
 nic innego jak para złożona z termu typu `α` i dowodu, że ten term spełnia predykat `P`, tyle, że
-oznaczona etykietą `Exists.intro`. Stała `Exists.intro` spełnia tu *tylko* rolę oznaczenia pary
-spełniającej określone wymagania, ponieważ takie aplikacje są nieredukowalne (pod stałą
-`Exists.intro` nic się nie kryje).
+taka para jest dodatkowo oznaczona etykietą `Exists.intro`. Stała `Exists.intro` pełni tu *tylko*
+rolę oznaczenia pary spełniającej określone wymagania, ponieważ takie aplikacje są nieredukowalne
+(pod stałą `Exists.intro` nic się nie kryje).
 
 Żeby dodatkowo zachęcić Cię do zaglądania w przyszłości do dokumentacji i kodu źródłowego Leana,
 wkleję tu jeszcze zapisany jako komentarz w kodzie źródłowym fragment dokumentacji dotyczącej typu
