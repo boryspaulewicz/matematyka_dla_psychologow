@@ -504,3 +504,37 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
 
 Może spróbuj teraz udowodnić w Leanie na co najmniej dwa sposoby zdanie `(∃ x, P x) → ¬ ∀ x, ¬ P x`
 bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz na dłużej.
+
+## `∃` z samych strzałek (a właściwie funkcji)
+
+Na koniec, jako ciekawostkę, pokażę Ci jeszcze jak można zdefiniować `∃` tylko za pomocą funkcji, to
+jest nie korzystając ani z par uporządkowanych, ani z indukcyjnych definicji typów danych:
+
+```lean
+-- Symbole `Exists` i `exists` były już zajęte, więc użyłem `_exists`. Definiujemy tutaj
+-- parametryczny typ zdań `_exists P`, gdzie `P` to predykat dotyczący jakiegoś typu `α`, jako
+-- (jedyną) regułę eliminacji kwantyfikatora egyzstencjalnego, tak jak wcześniej definiowaliśmy za
+-- pomocą funkcji parametryczny typ zdań `and` jako (uniwersalną) regułę eliminacji koniunkcji.
+def _exists {α : Sort u} (P : α → Prop) := ∀ R : Prop, (∀ x : α, P x → R) → R
+
+-- Mając term `x : α` i dowód `h1 : P x` możemy skonstruować term typu `_exists P`:
+def _exists.intro {α : Sort u} {P : α → Prop} (x : α) (h1 : P x) : _exists P :=
+  fun R : Prop => fun h2 : (∀ x : α, P x → R) => h2 x h1
+
+-- Mając dowód zdania `_exists P` i dowód zdania `∀ x : α, P x → R` dla jakiegoś zdania `R` możemy
+-- udowodnić zdanie `R`:
+def _exists.elim {α : Sort u} {P : α → Prop} {R : Prop} (h1 : _exists P) (h2 : ∀ x : α, P x → R) : R :=
+  h1 R h2
+```
+
+Możemy używać typu `_exists` w zasadzie tak samo, jak typu `Exists`:
+
+```lean
+-- ∃ n, n = 1
+example : _exists (fun n : Nat => n = 1) := _exists.intro 1 rfl
+
+-- (∃ x, P x) → ¬ ∀ x, ¬ P x
+example : (_exists P) → ¬ ∀ x, ¬ P x := fun h => h False
+-- Tak też można:
+example : (_exists P) → ¬ ∀ x, ¬ P x := fun h => _exists.elim (R := False) h
+```
