@@ -503,4 +503,4 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
 ```
 
 Może spróbuj teraz udowodnić w Leanie na co najmniej dwa sposoby zdanie `(∃ x, P x) → ¬ ∀ x, ¬ P x`
-bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz.
+bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz na dłużej.
