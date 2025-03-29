@@ -1,4 +1,4 @@
-## O co chodzi
+## O czym teraz będzie
 
 To ma być krótkie wprowadzenie do tego, jak w logice działa *kwantyfikator egyzstencjalny* `∃`,
 nazywany również *małym*. Pomijając spójnik `↔`, który oznacza koniunkcję dwóch implikacji, i
@@ -21,12 +21,13 @@ axiom Zniwiarz : Type
 axiom Ponury : Zniwiarz → Prop
 axiom Pogodny : Zniwiarz → Prop
 
--- ... będziemy używać zgodnie z następującą zasadą (aksjomatem, czyli konwencją):
--- Jeżeli jakiś żniwiarz jest ponury, to nie jest pogodny.
+-- ... będziemy używać zgodnie z następującą zasadą (aksjomatem, czyli konwencją): Jeżeli jakiś
+-- żniwiarz jest ponury, to nie jest pogodny.
 axiom pon_npog : ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z
 -- Nazwa `pon_npog` to skrót od `ponury_nie_pogodny`.
 
--- Będziemy sobie również znowu wyobrażać (aksjomatycznie) ponurego (aksjomatycznego) żniwiarza Krystiana.
+-- Będziemy sobie również znowu wyobrażać (aksjomatycznie) ponurego (aksjomatycznego) żniwiarza
+-- Krystiana.
 axiom Krystian : Zniwiarz
 axiom pk : Ponury Krystian
 
@@ -52,8 +53,8 @@ być formalny odpowiednik nieformalnego predykatu *nie jest pogodny*. Jednak wyr
 
 -- .. ale `¬ Pogodny` nie jest predykatem.
 #check (¬ Pogodny) -- Lean sygnalizuje tutaj błąd, ...
--- ... co znaczy, że wyrażenie `¬ Pogodny` nie jest typowalne, czyli nie jest poprawnie skonstruowane,
--- a więc nie jest też predykatem.
+-- ... co znaczy, że wyrażenie `¬ Pogodny` nie jest typowalne, czyli nie jest poprawnie
+-- skonstruowane, a więc nie jest też predykatem.
 ```
 
 Jak już wiesz, symbol `¬` to inaczej zapisana funkcja `Not`, która wymaga argumentu będącego
@@ -70,8 +71,8 @@ jest pogodny*, musimy *stworzyć funkcję* (z typu `Zniwiarz` do typu `Prop`), k
 swoim ciele negacji i predykatu `Pogodny`:
 
 ```lean
--- To jest (anonimowa) funkcja, która z termów oznaczających żniwiarzy tworzy zdania, a więc
--- to jest predykat.
+-- To jest (anonimowa) funkcja, która z termów oznaczających żniwiarzy tworzy zdania, a więc to jest
+-- predykat.
 #check (fun z : Zniwiarz => ¬ Pogodny z) -- `(fun z : Zniwiarz => ¬ Pogodny z) : Zniwiarz → Prop`
 
 -- Przy okazji, to też pewien predykat (tym razem dotyczący liczb naturalnych):
@@ -79,9 +80,9 @@ swoim ciele negacji i predykatu `Pogodny`:
 
 -- Dwa ostatnie predykaty są *skonstruowane* w kodzie, natomiast ...
 #check Pogodny -- ... `Pogodny : Zniwiarz → Prop` to jak wiesz predykat *aksjomatyczny*.
--- Predykaty aksjomatyczne, takie jak `Pogodny`, możemy aplikować do termów wymaganego typu uzyskując
--- w ten sposób zdania, ale nie możemy redukować takich- aplikacji, bo pod stałą `Pogodny` nie kryje się
--- żaden kod.
+-- Predykaty aksjomatyczne, takie jak `Pogodny`, możemy aplikować do termów wymaganego typu
+-- uzyskując w ten sposób zdania, ale nie możemy redukować takich- aplikacji, bo pod stałą `Pogodny`
+-- nie kryje się żaden kod.
 
 -- Ponieważ poniższa aplikacja redukuje się do (a więc nim jest) zdania `¬ Pogodny Krystian`, ...
 example : (fun z : Zniwiarz => ¬ Pogodny z) Krystian = ¬ Pogodny Krystian := by rfl
@@ -135,7 +136,7 @@ stałej `zdanie` używamy symboli `P` i `α`, które były wcześniej wprowadzon
 `variable`, to stała `zdanie` ma typ:
 
 ```lean
-#check zdanie -- zdanie (α : Type) (P : α → Prop) : Prop
+#check zdanie -- `zdanie (α : Type) (P : α → Prop) : Prop`
 ```
 
 W ten sposób instrukcja `variable` sprawia, że Lean automatycznie uzupełnia tworzone przez nas
@@ -190,14 +191,14 @@ kontekście Lean potraktuje taki term jako inaczej zapisaną aplikację `Exists.
 ```lean
 example : ∃ z : Zniwiarz, ¬ Pogodny z := by
   apply Exists.intro Krystian
-  -- Stosując w ten sposób w trybie interaktywnym taktykę `apply` mówimy Leanowi: Konstruuję dowód celu używając
-  -- funkcji `Exist.intro` z pierwszym argumentem `Krystian`, a całą resztę (czyli w tym wypadku drugi i ostatni
-  -- argument) dostarczę później. Ta brakująca reszta, to jest wymagany w tym miejscu dowód zdania 
-  -- `¬Pogodny Krystian`, staje się odtąd nowym celem: `⊢ ¬Pogodny Krystian`
+  -- Stosując w ten sposób w trybie interaktywnym taktykę `apply` mówimy Leanowi: Konstruuję dowód
+  -- celu używając funkcji `Exist.intro` z pierwszym argumentem `Krystian`, a całą resztę (czyli w
+  -- tym wypadku drugi i ostatni argument) dostarczę później. Ta brakująca reszta, to jest wymagany
+  -- w tym miejscu dowód zdania `¬Pogodny Krystian`, staje się odtąd nowym celem.
   
-  -- Ponieważ rezultat/wniosek aksjomatu `pon_npog - ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z` zgadza się z aktualnym
-  -- celem (z dokładnością do wartości zmiennej `z`), to gdy zastosujemy ten aksjomat do celu `⊢ ¬Pogodny Krystian`
-  -- ...
+  -- Ponieważ rezultat/wniosek aksjomatu `pon_npog - ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z` zgadza
+  -- się z aktualnym celem (z dokładnością do wartości zmiennej `z`), to gdy zastosujemy ten
+  -- aksjomat do celu `⊢ ¬Pogodny Krystian` ...
   apply pon_npog -- ... pozostanie nam już tylko zrealizować cel `⊢ Ponury Krystian` ...
   exact pk       -- ... a do tego wystarczy aksjomat `pk`.
 ```
@@ -205,7 +206,8 @@ example : ∃ z : Zniwiarz, ¬ Pogodny z := by
 Jeszcze raz ten sam dowód zapisany na dwa sposoby, ale już bez tak wielu komentarzy:
 
 ```lean
--- To tylko dwa sposoby zapisania tego samego dowodu (`⟨,⟩` to tylko lukier składniowy dla `Exists.intro`):
+-- To tylko dwa sposoby zapisania tego samego dowodu (`⟨,⟩` to tylko lukier składniowy dla
+-- `Exists.intro`):
 example : ∃ z : Zniwiarz, ¬ Pogodny z := ⟨Krystian, pon_npog Krystian pk⟩
 example : ∃ z : Zniwiarz, ¬ Pogodny z := Exists.intro Krystian (pon_npog Krystian pk)
 ```
@@ -215,13 +217,13 @@ I jeszcze jeden przykład, tym razem z bardziej skomplikowanym predykatem `n + 1
 tego typu sytuacjach na Twojej domyślności, prawda?):
 
 ```lean
--- Żeby skontruować dowód zdania `∃ n : Nat, n + 1 = 2`, trzeba dostarczyć jakiś term typu `Nat`, czyli
--- liczbę naturalną i dowód, że ta liczba spełnia warunek: dodanie 1 do tej liczby daje liczbę równą 2.
--- Przypominam, że nawiasy trójkątne uzyskasz w Leanie pisząc \< i \>. Również w tym przypadku druga część
--- dowodu będzie trywialna, bo jedyny term (`1`), który spełnia ten warunek, spełnia go *z definicji*.
--- Nawet bez wchodzenia w tryb interaktywny za pomocą instrukcji `by`, konstruując dowód tego zdania jako
--- parę, możesz podać taktykę służącą do dowodzenia równości definicyjnej (zaczyna się na literę `r`, pamiętasz?)
--- jako drugi element pary.
+-- Żeby skontruować dowód zdania `∃ n : Nat, n + 1 = 2`, trzeba dostarczyć jakiś term typu `Nat`,
+-- czyli liczbę naturalną i dowód, że ta liczba spełnia warunek: dodanie 1 do tej liczby daje liczbę
+-- równą 2.  Przypominam, że nawiasy trójkątne uzyskasz w Leanie pisząc \< i \>. Również w tym
+-- przypadku druga część dowodu będzie trywialna, bo jedyny term (`1`), który spełnia ten warunek,
+-- spełnia go *z definicji*.  Nawet bez wchodzenia w tryb interaktywny za pomocą instrukcji `by`,
+-- konstruując dowód tego zdania jako parę, możesz podać taktykę służącą do dowodzenia równości
+-- definicyjnej (zaczyna się na literę `r`, pamiętasz?)  jako drugi element pary.
 example : ∃ n : Nat, n + 1 = 2 :=
 ```
 
@@ -250,8 +252,8 @@ dotyczy tego typu, ...
 ```lean
 -- Tak możemy udowodnić zdanie `∃ n : Nat, n = 1` używając funkcji `inex`:
 #check (inex Nat (fun n : Nat => n = 1) 1 rfl : ∃ n : Nat, n = 1)
--- Jak widać, podawanie jawnie wszystkich informacji koniecznych do pełnej formalizacji bywa uciążliwe
--- i nie zawsze służy lepszemu zrozumieniu, o co chodzi.
+-- Jak widać, podawanie jawnie wszystkich informacji koniecznych do pełnej formalizacji bywa
+-- uciążliwe i nie zawsze służy lepszemu zrozumieniu, o co chodzi.
 ```
 
 ... a przecież Lean może wywnioskować typ termu (tutaj `Nat`) i predykat (tutaj `fun n : Nat => n =
@@ -261,7 +263,8 @@ Leanowi, że to ma być dowód zdania `∃ n : Nat, n = 1`, to musi chodzić o p
 parametrów (które oznaczamy w definicjach otaczając je nawiasami klamrowymi):
 
 ```lean
--- W ten sposób mówimy: sam się domyśl na podstawie argumentów, o jaki `Typ` i jaki `P`-redykat chodzi.
+-- W ten sposób mówimy: sam się domyśl na podstawie argumentów, o jaki `Typ` i jaki `P`-redykat
+-- chodzi.
 def inex' {Typ : Type} {P : Typ → Prop} (x : Typ) (h : P x) : ∃ x : Typ, P x :=
   ⟨x, h⟩
 ```
@@ -272,7 +275,7 @@ n = 1`:
 
 ```lean
 #check (inex' 1 rfl : ∃ n : Nat, n = 1)
--- Lean nie zgłasza błędu, a więc typowanie jest poprawne, a więc `inex' 1 rfl` jest termem typu 
+-- Lean nie zgłasza błędu, a więc typowanie jest poprawne, a więc `inex' 1 rfl` jest termem typu
 -- `∃ n : Nat, n = 1`, a ponieważ ten typ to zdanie, to `inex' 1 rfl` jest dowodem tego zdania.
 ```
 
@@ -394,12 +397,14 @@ example : ∃ n : Nat, n = 1 := by exists 1
 
 ... ale z tą taktyką zapoznamy się może innym razem.
 
+## Używanie zdań `∃ x, P x`
+
 Wiesz już, jak możesz udowodnić zdanie zawierające kwatyfikator egzystancjalny. Teraz pokażę Ci, jak
 możesz takich zdań *używać*. Ponieważ takie zdania są parametrycznymi alternatywami, używanie zdań o
-postaci `∃ x : α, P x` do udowodnienia innych zdań (jakiegoś zdania `R`) polega na czymś podobnym do
-używania (dowodów) zdań o postaci ("zwykłej") alternatywy:
+postaci `∃ x : α, P x` do udowodnienia innych zdań, czyli jakiegoś zdania `R`, polega na czymś
+podobnym do używania (dowodów) zdań o postaci ("zwykłej") alternatywy:
 
-Jak już wiesz, żeby udodwodnić `r` korzystając z założenia/dowodu `p ∨ q` trzeba udowodnić, że `r`
+Jak wiesz, żeby udodwodnić `r` korzystając z założenia/dowodu `p ∨ q` trzeba udowodnić, że `r`
 wynika *zarówno* z `p` jak i z `q`, czyli z każdej z tych dwóch jakby możliwości, bo mając dowód
 zdania `p ∨ q` wiemy tylko tyle, że *któreś* z tych zdań jest prawdziwe, ale nie wiemy które.
 
@@ -411,7 +416,7 @@ eliminacji/używania takich zdań, ma taki a nie inny typ:
 
 ```lean
 #check Exists.elim
--- Exists.elim.{u} {α : Sort u} {p : α → Prop} {b : Prop} (h₁ : ∃ x, p x) (h₂ : ∀ (a : α), p a → b) : b
+-- `Exists.elim.{u} {α : Sort u} {p : α → Prop} {b : Prop} (h₁ : ∃ x, p x) (h₂ : ∀ (a : α), p a → b) : b`
 ```
 
 Zgodnie z tym typem, Lean ma się sam domyślić (dowolnego) typu `α`, predykatu `p` i zdania `b`,
@@ -456,10 +461,11 @@ To może najpierw w trybie interaktywnym:
 ```lean
 -- Jeżeli istnieje taki `x`, że `P x`, to oczywiście nieprawda, że dla każdego `x`, nieprawda, że `P x`
 example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
-  -- `(∃ x, P x) → ¬ ∀ x, ¬ P x` to to samo co `(∃ x, P x) → (∀ x, ¬ P x) → False`, a więc zaczynamy od:
+  -- `(∃ x, P x) → ¬ ∀ x, ¬ P x` to to samo co `(∃ x, P x) → (∀ x, ¬ P x) → False`, a więc zaczynamy
+  -- od:
   intro h1 h2                -- `h1 : ∃ x, P x`; `h2 : ∀ x, ¬ P x`
-  apply h1.elim (b := False) -- Zmiana celu na `⊢ ∀ (a : α), P a → False`, bo musimy dostarczyć dowód tego
-                             -- zdania, żeby użyć `h1` do udowodnienia `False`.
+  apply h1.elim (b := False) -- Zmiana celu na `⊢ ∀ (a : α), P a → False`, bo musimy dostarczyć
+                             -- dowód tego zdania, żeby użyć `h1` do udowodnienia `False`.
   intro a hPa                -- `a : α`; `hPa : P a`; `⊢ False`
   exact (h2 a) hPa           -- `h2 a : ¬ P a`, czyli `h2 a : P a → False`; `hPa : P a`
 
@@ -467,15 +473,15 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
 example : (∃ x, P x) → ¬ ∀ x, ¬ P x := 
   fun h1 : ∃ x, P x =>
     fun h2 : ∀ x, ¬ P x => 
-      show False from -- `show <zdanie> from <term>` to tylko jawna deklaracja mówiąca, że `term` jest
-                      -- dowodem zdania `zdanie`. W ten sposób można ułatwić (również przyszłej wersji
-                      -- siebie) czytanie dowodu.
+      show False from -- `show <zdanie> from <term>` to tylko jawna deklaracja mówiąca, że `term`
+                      -- jest dowodem zdania `zdanie`. W ten sposób można ułatwić (również przyszłej
+                      -- wersji siebie) czytanie dowodu.
         h1.elim (fun x => fun hPx => h2 x hPx)
 
 -- Można też tak:
 example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
-  -- Wprowadzanie do kontekstu z tego rodzaju wykorzystaniem dopasowania wzorców jest tutaj dopuszczalne, 
-  -- bo dowód `∃ x, P x` mógł powstać tylko w taki sposób.
+  -- Wprowadzanie do kontekstu z tego rodzaju wykorzystaniem dopasowania wzorców jest tutaj
+  -- dopuszczalne, bo dowód `∃ x, P x` mógł powstać tylko w taki sposób.
   intro ⟨x, hPx⟩
   -- Mamy udowodnić negację, czyli implikację, a więc wprowadzamy jej poprzednik
   intro h -- `h : ∀ (x : α), ¬P x`
