@@ -527,7 +527,7 @@ def _exists.elim {α : Sort u} {P : α → Prop} {R : Prop} (h1 : _exists P) (h2
   h1 R h2
 ```
 
-Możemy używać typu `_exists` w zasadzie tak samo, jak typu `Exists`:
+Możemy używać typu `_exists` w zasadzie tak samo jak typu `Exists`:
 
 ```lean
 -- ∃ n, n = 1
