@@ -42,9 +42,9 @@ axiom pk : Ponury Krystian
 
 Przypuszczam, że właściwy sposób czytania zdania `¬ Pogodny Krystian` jest dla Ciebie oczywisty, ale
 czy wiesz, co w tym zdaniu jest predykatem? Skoro `¬ Pogodny Krystian` to formalnie zapisane zdanie
-*Nieprawda, że Krystian jest pogodny*, czyli zdanie *Krystian nie jest pogodny*, to predykatem musi
-być formalny odpowiednik nieformalnego predykatu *nie jest pogodny*. Jednak wyrażenie `¬ Pogodny`
-*nie* jest predykatem ...
+*Nieprawda, że Krystian jest pogodny*, czyli zdanie *Krystian nie jest pogodny*, to wydaje się, że
+poza tym, że predykatem jest `P`, musi nim być również jakiś formalny odpowiednik nieformalnego
+predykatu *nie jest pogodny*. Jednak wyrażenie `¬ Pogodny` *nie* jest predykatem ...
 
 ```lean
 -- To jest (aksjomatycznie) poprawny predykat (dotyczący żniwiarzy), czyli pewna funkcja zwracająca
