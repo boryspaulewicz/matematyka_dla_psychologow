@@ -184,7 +184,7 @@ zdanie o postaci `∃ x, P x` musimy jawnie lub niejawnie zastosować funkcję /
 wprowadzania kwantyfikatora egzystencjalnego `Exists.intro`, która wymaga termu odpowiedniego (czyli
 pasującego do danego predykatu) typu i dowodu, że ten term spełnia dany predykat. Taki dowód możemy
 więc skonstruować albo pisząc `⟨jakis_term, dowod_ze_ten_term_spelnia_predykat_P⟩`, bo w odpowiednim
-kontekście Lean potraktuje taki term jako innaczej zapisaną aplikację `Exists.intro`, albo pisząc
+kontekście Lean potraktuje taki term jako inaczej zapisaną aplikację `Exists.intro`, albo pisząc
 `Exists.intro jakis_term dowod_ze_ten_term_spelnia_predykat_P`.
 
 ```lean
@@ -196,13 +196,13 @@ example : ∃ z : Zniwiarz, ¬ Pogodny z := by
   -- `¬Pogodny Krystian`, staje się odtąd nowym celem: `⊢ ¬Pogodny Krystian`
   
   -- Ponieważ rezultat/wniosek aksjomatu `pon_npog - ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z` zgadza się z aktualnym
-  -- celem (z dokładnością do wartości zmiennej `z`), to gdy zastosujemy ten aksjomat do celu `⊢ ¬ Pogodny Krystian`
+  -- celem (z dokładnością do wartości zmiennej `z`), to gdy zastosujemy ten aksjomat do celu `⊢ ¬Pogodny Krystian`
   -- ...
   apply pon_npog -- ... pozostanie nam już tylko zrealizować cel `⊢ Ponury Krystian` ...
   exact pk       -- ... a do tego wystarczy aksjomat `pk`.
 ```
 
-Jeszcze raz ten sam dowód na dwa sposoby, ale już bez komentarzy:
+Jeszcze raz ten sam dowód zapisany na dwa sposoby, ale już bez tak wielu komentarzy:
 
 ```lean
 -- To tylko dwa sposoby zapisania tego samego dowodu (`⟨,⟩` to tylko lukier składniowy dla `Exists.intro`):
@@ -212,7 +212,7 @@ example : ∃ z : Zniwiarz, ¬ Pogodny z := Exists.intro Krystian (pon_npog Krys
 
 I jeszcze jeden przykład, tym razem z bardziej skomplikowanym predykatem `n + 1 = 2` (a właściwie
 `fun n => n + 1 = 2`, jednak `n + 1 = 2` pisze się i czyta wygodniej, i mogę już chyba polegać w
-tego typu sytuacjach na Twojej domyślnoścci, prawda?):
+tego typu sytuacjach na Twojej domyślności, prawda?):
 
 ```lean
 -- Żeby skontruować dowód zdania `∃ n : Nat, n + 1 = 2`, trzeba dostarczyć jakiś term typu `Nat`, czyli
@@ -234,7 +234,7 @@ objaśnić sygnaturę typu stałej `Exists.intro`. Nie musisz dobrze rozumieć t
 zdaniem jest wskazane, żebyś na tym etapie miała już kontakt z tego rodzaju sprawami.
 
 Gdybyśmy chcieli sami zdefiniować konstruktor dowodów zdań o postaci `∃ x : Typ, P x`, moglibyśmy
-zrobić to tak (`inex` to tutaj tylko wybrany przeze mnie skrót od *intro exists*):
+zrobić to tak (`inex` to skrót od *intro exists*):
 
 ```lean
 def inex (Typ : Type) (P : Typ → Prop) (x : Typ) (h : P x) : ∃ x : Typ, P x :=
@@ -309,9 +309,9 @@ Takie rozwiązanie będzie *niemal* uniwersalne, ale nie całkiem, ponieważ `Ty
 `Sort i + 1` ale `Prop` to `Sort 0`, a nie ma czegoś takiego jak `Type -1`, ...
 
 ```lean
-#check Type -1 -- Lean sygnalizuje tutaj błąd,
-#check Sort 0  -- a tu nie: `Prop : Type`, ponieważ `Sort 0` to `Prop`.
-#check Sort 1  -- `Type : Type 1`, ponieważ `Type` to `Type 0`.
+#check Type -1 -- Lean sygnalizuje tutaj błąd, ...
+#check Sort 0  -- ... a tu nie. Lean mówi `Prop : Type`, ponieważ `Sort 0` to `Prop`.
+#check Sort 1  -- Lean mówi `Type : Type 1`, ponieważ `Sort 1` to `Type`, a `Type` to `Type 0`.
 ```
 
 ... co oznacza, że używając `inex''` nie możemy korzystać z predykatów dotyczących termów typu
