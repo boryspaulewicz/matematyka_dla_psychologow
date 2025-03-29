@@ -3,10 +3,10 @@
 To ma być krótkie wprowadzenie do tego, jak w logice działa *kwantyfikator egyzstencjalny* `∃`,
 nazywany również *małym*. Pomijając spójnik `↔`, który oznacza koniunkcję dwóch implikacji, i
 relacje, które pojawią się wkrótce i które są uogólnieniami predykatów, to już ostatni potrzebny nam
-element logiki konstruktywnej. A to znaczy, że niebawem opanujesz podstawy *kontruktywnej logiki
-wyższego rzędu* (to jest logika wyższego rzędu, bo używamy predykatów maksymalnie swobodnie, to
-znaczy pozwalamy, aby dotyczyły termów dowolnego typu, w tym również termów będących dowolnymi
-typami).
+element logiki konstruktywnej. A to znaczy, że niebawem opanujesz podstawy *logiki kontruktywnej
+wyższego rzędu* (teoria typów, której tu używamy, jest jest logiką wyższego rzędu, bo pozwala
+kwantyfikować po termach dowolnego typu, na przykład po predykatach, innych funkcjach, albo po
+typach).
 
 <hr>
 
