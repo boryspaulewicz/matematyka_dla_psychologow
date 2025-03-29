@@ -465,8 +465,8 @@ To mój ulubiony przykład między innymi dlatego, że dowód zdania `(∃ x, P 
 się w książce [*Type theory and formal
 proof*](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C),
 jednak podany tam dowód jest bardziej skomplikowany. Gdy zauważyłem, że można to zdanie udowodnić
-prościej, zapytałem Roba Nederpelta, czemu pojawia się tam ten prostszy dowód, na co Rob
-odpowiedział, że dla wielu czytelników ten prostszy dowód może być mniej oczywisty. 
+prościej, zapytałem Roba Nederpelta, czemu nie pojawia się tam ten najprostszy możliwy dowód, na co
+Rob odpowiedział, że dla wielu czytelników ten dowód może być mniej oczywisty.
 
 Zastanawiasz się może, jak mógłby wyglądać bardziej skomplikowany dowód tego samego twierdzenia?
 To może najpierw w trybie interaktywnym:
