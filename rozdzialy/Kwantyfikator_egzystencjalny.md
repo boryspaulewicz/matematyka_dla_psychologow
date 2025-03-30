@@ -1,10 +1,32 @@
 ## O czym teraz będzie
 
-To ma być krótkie wprowadzenie do tego, jak w logice działa *kwantyfikator egyzstencjalny* `∃`,
-nazywany również *małym*. Pomijając spójnik `↔`, który oznacza koniunkcję dwóch implikacji, i
-relacje, które pojawią się wkrótce i które są uogólnieniami predykatów, to już ostatni potrzebny nam
+To jest krótkie wprowadzenie do tego, jak w logice działa *kwantyfikator egyzstencjalny* `∃`,
+nazywany również *małym*. Pomijając spójnik `↔`, który czytamy *wtedy i tylko wtedy* i który jest
+zdefiniowany jako koniunkcja dwóch implikacji, ...
+
+```lean
+-- Symbol `↔` uzyskasz pisząc `\iff` (to skrót od if and only if) lub `\lr` (to skrót od left right)
+example (p q : Prop) : p ∧ q ↔ q ∧ p :=
+  -- Zdanie `p ∧ q ↔ q ∧ p` to inaczej zapisane zdanie `(p ∧ q → q ∧ p) ∧ (q ∧ p) → (p ∧ q)`, a więc
+  -- dowód tego zdania musi polegać na konstruowaniu pary dowodów, albo za pomocą lukru `⟨,⟩`, albo
+  -- za pomocą konstruktora `And.intro`. Ja wolę używać do tego lukru (i dopasowania wzorca w
+  -- parametrze).
+  ⟨fun ⟨hp, hq⟩ => ⟨hq, hp⟩, fun ⟨hq, hp⟩ => ⟨hp, hq⟩⟩
+  -- Jeszcze do tego wrócimy.
+```
+
+... i relacje, ...
+
+```lean
+-- ... takie jak (tutaj aksjomatyczna) relacja ...
+axiom Mniejsza (m n : Nat) : Prop -- czyli `Mniejsza : Nat → Nat → Prop`
+-- ... która od dotychczas używanych predykatów różni się tym, że jest funkcją dwuargumentową,
+-- tworzącą zdania dotyczące par (uporządkowanych). Do relacji też jeszcze wrócimy.
+```
+
+... które pojawią się wkrótce i które są uogólnieniami predykatów, to już ostatni potrzebny nam
 element logiki konstruktywnej. A to znaczy, że niebawem opanujesz podstawy *logiki kontruktywnej
-wyższego rzędu* (teoria typów, której tu używamy, jest jest logiką wyższego rzędu, bo pozwala
+wyższego rzędu* (teoria typów, której tu używamy, jest logiką wyższego rzędu, bo pozwala
 kwantyfikować po termach dowolnego typu, na przykład po predykatach, innych funkcjach, albo po
 typach).
 
@@ -31,10 +53,11 @@ axiom pon_npog : ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z
 axiom Krystian : Zniwiarz
 axiom pk : Ponury Krystian
 
--- Jeżeli teraz zastosujemy aksjomat `pon_npog` do Krystiana, to uzyskamy dowód, że jeżeli Krystian
--- jest ponury, to nie jest pogodny ...
+-- Jeżeli teraz zastosujemy aksjomat `pon_npog` do Krystiana, to uzyskamy dowód zdania, że jeżeli
+–- Krystian jest ponury, to nie jest pogodny ...
 #check pon_npog Krystian -- `pon_npog Krystian : Ponury Krystian → ¬ Pogodny Krystian`
--- ... a ponieważ zdecydowaliśmy, że `Krystian` jest ponury, to możemy udowodnić również zdanie:
+-- ... a ponieważ zdecydowaliśmy, że `Krystian` jest ponury, to możemy udowodnić również zdanie
+–- `¬ Pogodny Krystian`:
 #check pon_npog Krystian pk -- `pon_npog Krystian pk : ¬ Pogodny Krystian`
 ```
 
@@ -52,9 +75,9 @@ predykatu *nie jest pogodny*. Jednak wyrażenie `¬ Pogodny` *nie* jest predykat
 #check Pogodny -- Pogodny : Zniwiarz → Prop
 
 -- .. ale `¬ Pogodny` nie jest predykatem.
-#check (¬ Pogodny) -- Lean sygnalizuje tutaj błąd, ...
--- ... co znaczy, że wyrażenie `¬ Pogodny` nie jest typowalne, czyli nie jest poprawnie
--- skonstruowane, a więc nie jest też predykatem.
+#check (¬ Pogodny)
+-- Lean sygnalizuje tutaj błąd, co znaczy, że wyrażenie `¬ Pogodny` nie jest typowalne, czyli nie
+-- jest poprawnie skonstruowane, a więc nie jest też predykatem.
 ```
 
 Jak już wiesz, symbol `¬` to inaczej zapisana funkcja `Not`, która wymaga argumentu będącego
@@ -67,22 +90,22 @@ Krystian` jest poprawnym zdaniem, wobec czego można do termu złożonego `Pogod
 funkcję `Not` (albo `¬`), uzyskując w ten sposób poprawne zdanie.
 
 Żeby skonstruować "negatywny" predykat, będący formalnym odpowiednikiem nieformalnego predykatu *nie
-jest pogodny*, musimy *stworzyć funkcję* (z typu `Zniwiarz` do typu `Prop`), która będzie używała w
-swoim ciele negacji i predykatu `Pogodny`:
+jest pogodny*, musimy *stworzyć funkcję*, która będzie używała w swoim ciele negacji i predykatu
+`Pogodny`:
 
 ```lean
 -- To jest (anonimowa) funkcja, która z termów oznaczających żniwiarzy tworzy zdania, a więc to jest
 -- predykat.
 #check (fun z : Zniwiarz => ¬ Pogodny z) -- `(fun z : Zniwiarz => ¬ Pogodny z) : Zniwiarz → Prop`
 
--- Przy okazji, to też pewien predykat (tym razem dotyczący liczb naturalnych):
+-- Przy okazji, to też jest predykat (dotyczący liczb naturalnych):
 #check (fun n : Nat => n < 1) -- `fun n => n < 1 : Nat → Prop`
 
 -- Dwa ostatnie predykaty są *skonstruowane* w kodzie, natomiast ...
-#check Pogodny -- ... `Pogodny : Zniwiarz → Prop` to jak wiesz predykat *aksjomatyczny*.
--- Predykaty aksjomatyczne, takie jak `Pogodny`, możemy aplikować do termów wymaganego typu
--- uzyskując w ten sposób zdania, ale nie możemy redukować takich- aplikacji, bo pod stałą `Pogodny`
--- nie kryje się żaden kod.
+#check Pogodny -- ... `Pogodny : Zniwiarz → Prop`
+-- ... to jak wiesz predykat *aksjomatyczny*. Predykaty aksjomatyczne, takie jak `Pogodny`, możemy
+-- aplikować do termów wymaganego typu uzyskując w ten sposób zdania, ale nie możemy redukować
+-- takich aplikacji, bo pod stałą `Pogodny` nie kryje się żaden kod.
 
 -- Ponieważ poniższa aplikacja redukuje się do (a więc nim jest) zdania `¬ Pogodny Krystian`, ...
 example : (fun z : Zniwiarz => ¬ Pogodny z) Krystian = ¬ Pogodny Krystian := by rfl
@@ -110,7 +133,6 @@ rezultat (a więc takie funkcje nie muszą być tak samo zapisane czy skonstruow
 samo działają*), to ...
 
 ```lean
---- ... następujące
 def zdanie : Prop := P = (fun a : α => P a)
 ```
 
@@ -120,20 +142,20 @@ def zdanie : Prop := P = (fun a : α => P a)
 example : zdanie α P := rfl
 ```
 
-**Parametry są trochę jak aksjomaty**: Każdy parametr to taki jakby aksjomat, bo to przecież symbol,
-który ma określony typ i który z perspektywy kodu wewnątrz definicji, której jest parametrem, jest
-tylko *jakimś, bliżej nieokreślonym* termem danego typu, tak jak term aksjomatyczny jest jakimś
-termem określonego typu. Można więc powiedzieć, że każda aksjomatyczna teoria matematyczna jest
-jedną wielką funkcją albo strukturą danych, zawierającą rozmaite przypisane do lokalnych względem
-tej teorii stałych konstrukcje, takie jak na przykład twierdzenia, a parametrami tej
-struktury-teorii są aksjomaty.
+**Parametry są trochę jak aksjomaty**: Z perspektywy kodu wewnątrz definicji parametrycznej każdy
+parametr jest trochę jak aksjomat, bo to przecież symbol, który ma określony typ i który z
+perspektywy kodu w ciele definicji, której jest parametrem, jest tylko *jakimś, bliżej
+nieokreślonym* termem danego typu, podobnie jak każdy term aksjomatyczny jest *jakimś* termem
+określonego typu. Można więc powiedzieć, że każda aksjomatyczna teoria matematyczna jest jedną
+wielką funkcją albo strukturą danych, zawierającą rozmaite przypisane do różnych stałych
+konstrukcje, takie jak na przykład twierdzenia, a parametrami teorii matematycznej są aksjomaty.
 
-**Jak działa instrukcja `variable`**: `P` jest więc tutaj takim jakby predykatem aksjomatycznym, ale
-nie całkiem, bo użyliśmy instrukcji `variable`, która nie służy do wprowadzania aksjomatów, tylko do
-deklarowania, że jakaś *zmienna* (stąd nazwa *variable*) ma być *parametrem* (czyli jakby
-"wirtualnym aksjomatem") tam, gdzie jest używana. Ponieważ tak się składa, że w ciele definicji
-stałej `zdanie` używamy symboli `P` i `α`, które były wcześniej wprowadzone za pomocą instrukcji
-`variable`, to stała `zdanie` ma typ:
+**Jak działa instrukcja `variable`**: Zmienna `P` jest więc tutaj takim jakby predykatem
+aksjomatycznym, ale nie całkiem, bo użyliśmy instrukcji `variable`, która nie służy do wprowadzania
+aksjomatów, tylko do deklarowania, że jakaś *zmienna* (stąd nazwa *variable*) ma być *parametrem*
+(czyli jakby "wirtualnym aksjomatem") tam, gdzie jest używana. Ponieważ tak się składa, że w ciele
+definicji stałej `zdanie` używamy symboli `P` i `α`, które były wcześniej wprowadzone za pomocą
+instrukcji `variable`, to stała `zdanie` ma typ:
 
 ```lean
 #check zdanie -- `zdanie (α : Type) (P : α → Prop) : Prop`
@@ -142,35 +164,35 @@ stałej `zdanie` używamy symboli `P` i `α`, które były wcześniej wprowadzon
 W ten sposób instrukcja `variable` sprawia, że Lean automatycznie uzupełnia tworzone przez nas
 definicje i umożliwia pisanie bardziej zwięzłego i czytelnego kodu. Anonimowe twierdzenie `zdanie α
 P` nie może więc być zapisane jako sama stała `zdanie`, bo stała `zdanie` nie ma typu `Prop`. Czemu
-nie jednak napisałem po prostu ...
+jednak nie napisałem po prostu ...
 
 ```lean
 example (α : Type) (P : α → Prop) : P = (fun x => P x) := rfl
 -- ... tylko przypisałem tą konstrukcję do stałej `zdanie`?
 ```
 
-Szczerze mówiąc nie wiem. Przede wszystkim chciałem zilustrować definicyjną równość `f = (fun x => f
-x)` dla każdej funkcji `f` (a predykaty to funkcje):
-
-Możemy już wrócić do kwantyfikatora egzystencjalnego (inaczej małego).
+Nie wiadomo. Przede wszystkim chciałem zilustrować definicyjną równość `f = (fun x => f x)` dla
+każdej funkcji `f` (a predykaty to funkcje), której dowód pojawi się nieco później. Możemy już
+wrócić do kwantyfikatora egzystencjalnego (inaczej małego).
 
 ## Dowodzenie zdań `∃ x, P x`
 
 Zdanie `∃ z : Zniwiarz, ¬ Pogodny z` mówi, że *istnieje co najmniej jeden* żniwiarz, który nie jest
 pogodny. Żeby udowodnić zdanie o postaci `Istnieje taki x, że P x` musimy dostarczyć taki `x`, że `P
-x`, czyli musimy dostarczyć *dwie* rzeczy (parę uporządkowaną): term odpowiedniego typu, to jest
-takiego, którego dotyczy `P` (tutaj term `Krystian`), i dowód, że ten właśnie term spełnia ten
-predykat (tutaj takim dowodem jest term złożony `pon_npog Krystian pk`):
+x`, czyli musimy dostarczyć dwie rzeczy (parę uporządkowaną): term odpowiedniego typu, to jest
+takiego, którego dotyczy `P` (tutaj term `Krystian`), i dowód, że ten term spełnia ten predykat
+(tutaj takim dowodem jest term złożony `pon_npog Krystian pk`):
 
 ```lean
 -- Lean nie sygnalizuje błędu, a więc dowód jest poprawny
 example : ∃ z : Zniwiarz, ¬ Pogodny z := ⟨Krystian, pon_npog Krystian pk⟩
+–- Nic prostszego, prawda?
 ```
 
 Zwracam uwagę na mam nadzieję zrozumiałą już w tym momencie analogię między (binarną) alternatywą i
 kwantyfikatorem egzystencjalnym: Żeby udowodnić zdanie o postaci *alternatywy* trzeba dostarczyć
 dowód jednego z *dwóch* członów tej alternatywy. Zdanie `∃ z : Zniwiarz, ¬ Pogodny z` to też pewnego
-rodzaju alternatywa, tyle że *parametryczna* - różnych zdań o postaci `¬ Pogodny z` jest tyle, ilu
+rodzaju alternatywa, tyle, że *parametryczna* - różnych zdań o postaci `¬ Pogodny z` jest tyle, ilu
 jest żniwiarzy, czyli ile jest możliwych wartości parametru `z : Zniwiarz`. Podobnie `∃ n : Nat, n <
 3` to prawie to samo zdanie co `(0 < 3) ∨ (1 < 3) ∨ (2 < 3) ∨ (3 < 3) ∨ (4 < 3) ...`.
 
@@ -197,7 +219,7 @@ example : ∃ z : Zniwiarz, ¬ Pogodny z := by
   -- tym wypadku drugi i ostatni argument) dostarczę później. Ta brakująca reszta, to jest wymagany
   -- w tym miejscu dowód zdania `¬Pogodny Krystian`, staje się odtąd nowym celem.
   
-  -- Ponieważ rezultat/wniosek aksjomatu `pon_npog - ∀ z : Zniwiarz, Ponury z → ¬ Pogodny z` zgadza
+  -- Ponieważ rezultat/wniosek aksjomatu `pon_npog` - `∀ z : Zniwiarz, Ponury z → ¬ Pogodny z` zgadza
   -- się z aktualnym celem (z dokładnością do wartości zmiennej `z`), to gdy zastosujemy ten
   -- aksjomat do celu `⊢ ¬Pogodny Krystian` ...
   apply pon_npog -- ... pozostanie nam już tylko zrealizować cel `⊢ Ponury Krystian` ...
@@ -207,7 +229,7 @@ example : ∃ z : Zniwiarz, ¬ Pogodny z := by
 Jeszcze raz ten sam dowód zapisany na dwa sposoby, ale już bez tak wielu komentarzy:
 
 ```lean
--- To tylko dwa sposoby zapisania tego samego dowodu (`⟨,⟩` to tylko lukier składniowy dla
+-- To tylko dwa sposoby zapisania tego samego dowodu (`⟨,⟩` to tylko składniowy zastępujący
 -- `Exists.intro`):
 example : ∃ z : Zniwiarz, ¬ Pogodny z := ⟨Krystian, pon_npog Krystian pk⟩
 example : ∃ z : Zniwiarz, ¬ Pogodny z := Exists.intro Krystian (pon_npog Krystian pk)
@@ -220,11 +242,11 @@ tego typu sytuacjach na Twojej domyślności, prawda?):
 ```lean
 -- Żeby skontruować dowód zdania `∃ n : Nat, n + 1 = 2`, trzeba dostarczyć jakiś term typu `Nat`,
 -- czyli liczbę naturalną i dowód, że ta liczba spełnia warunek: dodanie 1 do tej liczby daje liczbę
--- równą 2.  Przypominam, że nawiasy trójkątne uzyskasz w Leanie pisząc \< i \>. Również w tym
+-- równą 2. Przypominam, że nawiasy trójkątne uzyskasz w Leanie pisząc `\<` i `\>`. Również w tym
 -- przypadku druga część dowodu będzie trywialna, bo jedyny term (`1`), który spełnia ten warunek,
--- spełnia go *z definicji*.  Nawet bez wchodzenia w tryb interaktywny za pomocą instrukcji `by`,
+-- spełnia go *z definicji*. Nawet bez wchodzenia w tryb interaktywny za pomocą instrukcji `by`,
 -- konstruując dowód tego zdania jako parę, możesz podać taktykę służącą do dowodzenia równości
--- definicyjnej (zaczyna się na literę `r`, pamiętasz?)  jako drugi element pary.
+-- definicyjnej (zaczyna się na literę `r`, pamiętasz?) jako drugi element pary.
 example : ∃ n : Nat, n + 1 = 2 :=
 ```
 
@@ -232,9 +254,10 @@ example : ∃ n : Nat, n + 1 = 2 :=
 
 Żeby zachęcić Cię do czytania dokumentacji i kodu źrodłowego, który Lean ładuje automatycznie zaraz
 po uruchomieniu (na przykład [tego
-kodu](https://github.com/leanprover/lean4/blob/master/src/Init/Prelude.lean)), spróbuję teraz
-objaśnić sygnaturę typu stałej `Exists.intro`. Nie musisz dobrze rozumieć tego fragmentu, ale moim
-zdaniem jest wskazane, żebyś na tym etapie miała już kontakt z tego rodzaju sprawami.
+kodu](https://github.com/leanprover/lean4/blob/master/src/Init/Prelude.lean)), ale również z innych
+powodów, objaśnię teraz sygnaturę typu stałej `Exists.intro`. Nie musisz już teraz dobrze rozumieć
+tego fragmentu, ale moim zdaniem jest wskazane, żebyś na tym etapie miała już kontakt z tego rodzaju
+sprawami.
 
 Gdybyśmy chcieli sami zdefiniować konstruktor dowodów zdań o postaci `∃ x : Typ, P x`, moglibyśmy
 zrobić to tak (`inex` to skrót od *intro exists*):
@@ -244,11 +267,11 @@ def inex (Typ : Type) (P : Typ → Prop) (x : Typ) (h : P x) : ∃ x : Typ, P x 
   ⟨x, h⟩
 ```
 
-Na razie oszukuję, bo znając typ parametrów i rezultatu Lean traktuje tutaj parę `⟨x, h⟩` jako inny
-sposób zapisania `Exists.intro ...`, a więc `inex` to konstruktor używający istniejącego już
-konstruktora tego rodzaju zdań. Poza tym, że `inex` jest próbą rozwiązania problemu, który jest już
-rozwiązany, używając `inex` musielibyśmy za każdym razem jawnie podawać typ termu i predykat, który
-dotyczy tego typu, ...
+Na razie oszukuję, bo znając typ rezultatu Lean traktuje tutaj parę `⟨x, h⟩` jako inny sposób
+zapisania `Exists.intro ...`, a więc `inex` to konstruktor używający istniejącego już konstruktora
+tego rodzaju zdań. Poza tym, że `inex` jest próbą rozwiązania problemu, który jest już rozwiązany,
+używając `inex` musimy za każdym razem jawnie podawać typ termu i predykat, który dotyczy tego typu,
+...
 
 ```lean
 -- Tak możemy udowodnić zdanie `∃ n : Nat, n = 1` używając funkcji `inex`:
@@ -259,13 +282,12 @@ dotyczy tego typu, ...
 
 ... a przecież Lean może wywnioskować typ termu (tutaj `Nat`) i predykat (tutaj `fun n : Nat => n =
 1`) z pozostałych argumentów, albo z podanego tutaj jawnie zdania do udowodnienia (skoro mówimy
-Leanowi, że to ma być dowód zdania `∃ n : Nat, n = 1`, to musi chodzić o predykat `fun n => n =
-1`). Wygodniej byłoby więc zdefiniować konstruktor dowodów takich zdań korzystając z *niejawnych*
-parametrów (które oznaczamy w definicjach otaczając je nawiasami klamrowymi):
+Leanowi, że to ma być dowód zdania `∃ n : Nat, n = 1`, to musi chodzić o typ `Nat` i predykat `fun n
+=> n = 1`). Wygodniej byłoby więc zdefiniować konstruktor dowodów takich zdań korzystając z
+parametrów *niejawnych*, inaczej *implicitnych*, które oznaczamy otaczając je nawiasami klamrowymi:
 
 ```lean
--- W ten sposób mówimy: sam się domyśl na podstawie argumentów, o jaki `Typ` i jaki `P`-redykat
--- chodzi.
+-- W ten sposób mówimy: sam się domyślaj, o jaki `Typ` i jaki `P`-redykat chodzi.
 def inex' {Typ : Type} {P : Typ → Prop} (x : Typ) (h : P x) : ∃ x : Typ, P x :=
   ⟨x, h⟩
 ```
@@ -281,10 +303,10 @@ n = 1`:
 ```
 
 Wydaje mi się, że ten ostatni dowód jest bardziej czytelny niż poprzedni, w którym trzeba było podać
-jawnie typ i predykat, i ten krótszy dowód nie wymaga wcale szczególnej domyślności, bo przecież od
-razu widać, o jaki typ i jaki predykat chodzi. Nawiasem mówiąc, ponieważ w Leanie `1` oznacza
-domyślnie liczbę naturalną `1`, a nie na przykład stałą `1` interpretowaną jako liczba całkowita, to
-możemy napisać również tak (pomijając jawne typowanie `n`):
+jawnie typ i predykat, i ten krótszy dowód ani nie budzi poważnych wątpliwości, ani nie wymaga
+szczególnej domyślności, bo przecież od razu widać, o jaki typ i jaki predykat chodzi. Nawiasem
+mówiąc, ponieważ w Leanie `1` oznacza domyślnie liczbę naturalną `1`, a nie na przykład stałą `1`
+interpretowaną jako liczba całkowita, to możemy napisać również tak (pomijając jawne typowanie `n`):
 
 ```lean
 #check (inex' 1 rfl : ∃ n, n = 1)
@@ -342,27 +364,38 @@ Teraz będzie już mam nadzieję jasne, czemu konstruktor `Exists.intro` ma taki
 ```
 
 Skoro wiesz już mniej więcej, w jaki sposób można tworzyć kod obsługujący termy zamieszkujące
-dowolne typy, to mogę Ci pokazać jak wygląda maksymalnie ogólna wersja twierdzenia `f = fun x => f
+dowolne typy, to mogę Ci pokazać, jak wygląda maksymalnie ogólna wersja twierdzenia `f = fun x => f
 x`, gdzie `f` to dowolna funkcja:
 
 ```lean
 -- Sort typu celu nie musi być taki sam jak sort typu źródła, a więc potrzebujemy dwóch parametrów
--- oznaczających dwa potencjalnie różne uniwersa.
+-- oznaczających dwa potencjalnie różne uniwersa. Instrukcja `universe` działa jak `variable`, tylko
+-- dla uniwersów.
 universe u v
 example (α : Sort u) (β : Sort v) (f : α → β) : f = fun x => f x := by rfl
--- Każda funkcja jest tą samą funkcją co funkcja, która nie robi nic innego tylko ją stosuje.
+-- Każda funkcja jest tą samą funkcją co funkcja, która nie robi nic innego, tylko ją stosuje.
+```
+
+Przy okazji, maksymalnie uniwersalna (i wygodna w użyciu, dzięki użyciu parametru implicitnego)
+identyczność w tej wersji teorii typów [wygląda
+tak](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#id):
+
+```lean
+—- Nazwałem tą funkcję `idu`, bo stała `id` jest już zajęta.
+def idu {α : Sort u} (a : α) : α := a
 ```
 
 Być może jednak nadal masz wątpliwości na temat typu rezultatu aplikacji `Exists.intro`, to jest
 `Exists p`. Może na przykład zastanawiasz się, gdzie się podział odpowiednik symbolu `x`, którego
 używaliśmy na oznaczenie *czegoś* w zdaniu *Istnieje takie coś, co spełnia predykat `P`*?  Otóż
 dopóki mówimy o *samym zdaniu*, nie ma potrzeby dodawania takiego symbolu, ponieważ z każdego,
-dotyczącego termów jakiegokolwiek typu `α` predykatu `P` można zrobić dokładnie jedno zdanie o
-postaci `∃ x : α, P x`, to będzie to samo zdanie co na przykład zdanie `∃ z : α, P z`, i każde takie
-zdanie będzie odpowiadało dokładnie jednemu predykatowi dotyczącemu termów danego typu. Te zdania są
-więc *własnościami* albo *funkcjami samych predykatów*. Żeby zapisać formalnie zdanie, że dany
-predykat jest spełniony przez co najmniej jeden term, wystarczy w jakiś niewykorzystany wcześniej
-sposób oznaczyć ten predykat (tutaj robimy to poprzedzając predykat stałą `Exists`).
+dotyczącego termów jakiegokolwiek typu `α` predykatu `P` można zrobić zdanie o postaci `∃ x : α, P
+x`, to będzie to samo zdanie co na przykład zdanie `∃ z : α, P z`, i każde takie zdanie będzie
+odpowiadało dokładnie jednemu predykatowi dotyczącemu termów danego typu. Zdania o postaci `∃ x : α,
+P x` są więc *własnościami* albo *funkcjami samych predykatów* (i - niejawnie, typu i jego
+sortu). Żeby jednoznacznie zapisać zdanie, że dany predykat jest spełniony przez co najmniej jeden
+term, wystarczy więc w jakiś niewykorzystany wcześniej sposób oznaczyć ten predykat (tutaj robimy to
+poprzedzając predykat stałą `Exists`).
 
 Popatrzmy jeszcze na zapisaną
 [tutaj](https://github.com/leanprover/lean4/blob/master/src/Init/Core.lean) definicję indukcyjną
@@ -380,12 +413,14 @@ dowodu, że ten term spełnia predykat `p`. Przy okazji przypominam, że pełna 
 `Exists.intro`, bo każda definica indukcyjna tworzy przestrzeń nazw o nazwie takiej jak definiowana
 stała.
 
-Każda aplikacja funkcji dwuargumentowej do dwóch argumentów jest pewną (oznaczoną nazwą aplikowanej
-funkcji) parą uporządkowaną (złożoną z tych argumentów). Dowód zdania o postaci `∃ x : α, P x` to
-nic innego jak para złożona z termu typu `α` i dowodu, że ten term spełnia predykat `P`, tyle, że
-taka para jest dodatkowo oznaczona etykietą `Exists.intro`. Stała `Exists.intro` pełni tu *tylko*
-rolę oznaczenia pary spełniającej określone wymagania, ponieważ takie aplikacje są nieredukowalne
-(pod stałą `Exists.intro` nic się nie kryje).
+Każda aplikacja funkcji dwuargumentowej do dwóch argumentów jest pewną parą uporządkowaną złożoną z
+tych argumentów, oznaczoną nazwą aplikowanej funkcji. Dowód zdania o postaci `∃ x : α, P x` to nic
+innego jak para złożona z termu typu `α` i dowodu, że ten term spełnia predykat `P`, tyle, że taka
+para jest dodatkowo oznaczona etykietą `Exists.intro`. Stała `Exists.intro` pełni tu *tylko* rolę
+oznaczenia pary spełniającej określone wymagania, ponieważ takie aplikacje są nieredukowalne (pod
+stałą `Exists.intro` nic się nie kryje). W ten prosty, formalny albo "powierzchowny" sposób, to jest
+wprowadzając tylko nową *konwencję oznaczania* (tutaj za pomocą prefiksu `Exists.intro`) pewnych
+wyrażeń (tutaj odpowiednich par `⟨term, dowod⟩`) możemy tworzyć nowe typy danych.
 
 Żeby dodatkowo zachęcić Cię do zaglądania w przyszłości do dokumentacji i kodu źródłowego Leana,
 wkleję tu jeszcze zapisany jako komentarz w kodzie źródłowym fragment dokumentacji dotyczącej typu
@@ -401,10 +436,10 @@ or the anonymous constructor notation `⟨x, h⟩`.
 --/
 ```
 
-Dowiadujemy się z tego fragmentu, że istnieje coś takiego jak ...
+Dowiadujemy się z tego fragmentu, że istnieje coś takiego jak taktyka `exists`, której możemy używać
+na przykład tak:
 
 ```lean
--- ... taktyka `exists`, której możemy używać na przykład tak:
 example : ∃ n : Nat, n = 1 := by exists 1
 ```
 
@@ -413,19 +448,19 @@ example : ∃ n : Nat, n = 1 := by exists 1
 ## Używanie zdań `∃ x, P x`
 
 Wiesz już, jak możesz udowodnić zdanie zawierające kwatyfikator egzystancjalny. Teraz pokażę Ci, jak
-możesz takich zdań *używać*. Ponieważ takie zdania są parametrycznymi alternatywami, używanie zdań o
-postaci `∃ x : α, P x` do udowodnienia innych zdań, czyli jakiegoś zdania `R`, polega na czymś
-podobnym do używania (dowodów) zdań o postaci ("zwykłej") alternatywy:
+możesz takich zdań *używać* (jako założeń). Ponieważ takie zdania są parametrycznymi alternatywami,
+używanie zdań o postaci `∃ x : α, P x` do udowodnienia innych zdań, czyli ogólnie jakiegoś zdania
+`R`, polega na czymś podobnym do używania (dowodów) zdań o postaci alternatywy:
 
 Jak wiesz, żeby udodwodnić `r` korzystając z założenia/dowodu `p ∨ q` trzeba udowodnić, że `r`
-wynika *zarówno* z `p` jak i z `q`, czyli z każdej z tych dwóch jakby możliwości, bo mając dowód
-zdania `p ∨ q` wiemy tylko tyle, że *któreś* z tych zdań jest prawdziwe, ale nie wiemy które.
+wynika *zarówno* z `p` jak i z `q`, czyli z każdej z tych dwóch jakby możliwości *osobno*, bo mając
+dowód zdania `p ∨ q` wiemy tylko tyle, że *któreś* z tych zdań jest prawdziwe, ale nie wiemy które.
 
-Żeby udodwodnić `R` korzystając z założenia/dowodu `∃ x : α, P x` trzeba udowodnić, że `R` wynika *z
-każdej możliwej wersji* zdania parametrycznego `P x`, czyli, że *wynika ze zdania `P x` dla każdego
-`x`*, bo wiedząc, że `∃ x : α, P x` wiemy tylko tyle, że co najmniej jedno zdanie o postaci `P x`
-jest prawdziwe, ale nie wiemy które. Właśnie dlatego stała `Exists.elim`, której możemy używać do
-eliminacji/używania takich zdań, ma taki a nie inny typ:
+Analogicznie, żeby udowodnić `R` korzystając z założenia/dowodu `∃ x : α, P x` trzeba udowodnić, że
+`R` wynika *z każdej możliwej wersji* zdania parametrycznego `P x`, czyli, że *wynika ze zdania `P
+x` dla każdego `x`*, bo wiedząc, że `∃ x : α, P x` wiemy tylko tyle, że co najmniej jedno zdanie o
+postaci `P x` jest prawdziwe, ale nie wiemy które. Właśnie dlatego stała `Exists.elim`, której
+możemy używać do eliminacji/(z)używania takich zdań, ma taki a nie inny typ:
 
 ```lean
 #check Exists.elim
@@ -435,8 +470,7 @@ eliminacji/używania takich zdań, ma taki a nie inny typ:
 Zgodnie z tym typem, Lean ma się sam domyślić (dowolnego) typu `α`, predykatu `p` i zdania `b`,
 które ma być udowodnione przy założeniu `h₁ : ∃ x, p x`. Żeby udowodnić `b` korzystając z dowodu
 `h₁` musimy dostarczyć dowód, że `b` wynika z dowodu każdej możliwej wersji zdania `p x`, czyli
-musimy dostarczyć term typu/dowód `∀ (a : α), p a → b`. Aplikując `Exists.elim` do tych wszystkich
-argumentów uzyskamy dowód zdania `b`. Zaczniemy od mojego ulubionego przykładu:
+musimy dostarczyć dowód zdania `∀ (a : α), p a → b`. Może zaczniemy od mojego ulubionego przykładu:
 
 ```lean
 example : (∃ x, P x) → ¬ ∀ x, ¬ P x := fun h => h.elim (b := False)
@@ -444,29 +478,34 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := fun h => h.elim (b := False)
 
 Zastanawiasz się może, co tu się stało? Jeżeli, zamiast polegać na domyślności Leana i pozostałych
 argumentach (których tu nie ma), sami podamy wartość parametru `b` pisząc `(b := False)` (tak
-właśnie podaje się jawnie wartości niejawnych parametrów), to, zgodnie z typem `Exists.elim`
+właśnie podaje się jawnie wartości parametrów implicitnych), to zgodnie z typem `Exists.elim`
 (przypominam, że `h.elim` to tylko inaczej zapisana aplikacja `Exists.elim h`), ...
 
 ```lean
+–- (to tylko ilustracja, a nie poprawny kod Leana)
 Exists.elim.{u} {α : Sort u} {p : α → Prop} {b : Prop} (h₁ : ∃ x, p x) (h₂ : ∀ (a : α), p a → b) : b
 
 -- ... ponieważ `h : ∃ x, P x`, to `Exists.elim h` ma typ (Lean odgaduje, że `α` to nasze `α` i `p` to
 -- nasze `P`) ...
 Exists.elim h {b : Prop} (h₁ : ∃ x, P x) (h₂ : ∀ (a : α), P a → b) : b
+
 -- ... czyli `Exists.elim h` ma typ (przestawialność dwukropka!):
 Exists.elim h {b : Prop} : (∃ x, P x) → (∀ (a : α), P a → b) → b
--- A więc (podstawiamy `False` pod `b` w specyfikacji tego typu zależnego):
+
+-- A więc (podstawiamy `False` pod `b` w specyfikacji tego {zależnego} typu) ...
 Exists.elim h (b := False) : (∃ x, P x) → (∀ (a : α), P a → False) → False
--- Co - zgodnie z definicją negacji - znaczy to samo co:
+
+-- ... co - zgodnie z definicją negacji - znaczy to samo co:
 Exists.elim h (b := False) : (∃ x, P x) → ¬ (∀ (a : α), ¬ P a)
 ```
 
-To mój ulubiony przykład między innymi dlatego, że dowód zdania `(∃ x, P x) → ¬ ∀ x, ¬ P x` pojawia
-się w książce [*Type theory and formal
+To mój ulubiony przykład użycia dowodu egzystencjalnego między innymi dlatego, że dowód zdania `(∃
+x, P x) → ¬ ∀ x, ¬ P x` pojawia się w książce [*Type theory and formal
 proof*](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C),
-jednak podany tam dowód jest bardziej skomplikowany. Gdy zauważyłem, że można to zdanie udowodnić
-prościej, zapytałem Roba Nederpelta, czemu nie pojawia się tam ten najprostszy możliwy dowód, na co
-Rob odpowiedział, że dla wielu czytelników ten dowód może być mniej oczywisty.
+jednak podana tam wersja jest bardziej skomplikowana. Gdy zauważyłem, że można to zdanie udowodnić
+prościej, zapytałem Roba Nederpelta, czemu nie pojawia się tam ten najprostszy możliwy i moim
+zdaniem bardzo satysfakcjonujący dowód, na co Rob odpowiedział, że dla wielu czytelników ten dowód
+może być mniej oczywisty.
 
 Zastanawiasz się może, jak mógłby wyglądać bardziej skomplikowany dowód tego samego twierdzenia?
 To może najpierw w trybie interaktywnym:
@@ -478,7 +517,7 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
   -- od:
   intro h1 h2                -- `h1 : ∃ x, P x`; `h2 : ∀ x, ¬ P x`
   apply h1.elim (b := False) -- Zmiana celu na `⊢ ∀ (a : α), P a → False`, bo musimy dostarczyć
-                             -- dowód tego zdania, żeby użyć `h1` do udowodnienia `False`.
+                             -- dowód tego właśnie zdania, żeby użyć `h1` do udowodnienia `False`.
   intro a hPa                -- `a : α`; `hPa : P a`; `⊢ False`
   exact (h2 a) hPa           -- `h2 a : ¬ P a`, czyli `h2 a : P a → False`; `hPa : P a`
 
@@ -486,52 +525,60 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
 example : (∃ x, P x) → ¬ ∀ x, ¬ P x := 
   fun h1 : ∃ x, P x =>
     fun h2 : ∀ x, ¬ P x => 
-      show False from -- `show <zdanie> from <term>` to tylko jawna deklaracja mówiąca, że `term`
-                      -- jest dowodem zdania `zdanie`. W ten sposób można ułatwić (również przyszłej
-                      -- wersji siebie) czytanie dowodu.
+      show False from
         h1.elim (fun x => fun hPx => h2 x hPx)
+-- `show <zdanie> from <term>` to tylko jawna deklaracja mówiąca, że `term` jest dowodem zdania
+-- `zdanie`. W ten sposób można ułatwić (również przyszłej wersji siebie) czytanie dowodu.
 
 -- Można też tak:
 example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
   -- Wprowadzanie do kontekstu z tego rodzaju wykorzystaniem dopasowania wzorców jest tutaj
   -- dopuszczalne, bo dowód `∃ x, P x` mógł powstać tylko w taki sposób.
   intro ⟨x, hPx⟩
-  -- Mamy udowodnić negację, czyli implikację, a więc wprowadzamy jej poprzednik
+  -- Mamy udowodnić negację, czyli tak naprawdę implikację, a więc wprowadzamy jej poprzednik
   intro h -- `h : ∀ (x : α), ¬P x`
-  -- Teraz już łato zauważyć, z jakich dostępnych w kontekście elementów możemy zrobić dowód fałszu
+  -- Teraz już łato zauważyć (zaglądając do stanu dowodu), z jakich dostępnych w kontekście
+  -- elementów możemy zrobić dowód fałszu.
   exact (h x) hPx
 ```
 
 Może spróbuj teraz udowodnić w Leanie na co najmniej dwa sposoby zdanie `(∃ x, P x) → ¬ ∀ x, ¬ P x`
-bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz na dłużej.
+bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz i stracisz nadzieję.
 
 ## `∃` z samych strzałek (a właściwie funkcji)
 
-Na koniec, jako ciekawostkę, pokażę Ci jeszcze jak można zdefiniować `∃` tylko za pomocą funkcji, to
-jest nie korzystając ani z par uporządkowanych, ani z indukcyjnych definicji typów danych. Symbole
-`Exists` i `exists` były już zajęte, więc użyłem `_exists`. 
+Na koniec, jako ciekawostkę, pokażę Ci jeszcze, jak można zdefiniować `∃` tylko za pomocą funkcji,
+to jest nie korzystając ani z par uporządkowanych, ani z definicji indukcyjnych. 
 
-Definiujemy tutaj parametryczny typ zdań `_exists P`, gdzie `P` to predykat dotyczący jakiegoś typu
-`α`, jako (jedyną) regułę eliminacji kwantyfikatora egyzstencjalnego, tak jak wcześniej
-definiowaliśmy za pomocą funkcji parametryczny typ zdań `and` jako (uniwersalną) regułę eliminacji
-koniunkcji. Można więc powiedzieć, że ta definicja wyraża sens tego rodzaju zdań rozumiany jako ich
-konsekwencje, albo (co na jedno wychodzi) jako sposób, w jaki można używać (dowodów) takich zdań w
-dowodach.
+Symbole `Exists` i `exists` były już zajęte, więc użyłem `_exists`. Definiujemy tutaj parametryczny
+typ zdań `_exists P`, gdzie `P` to predykat dotyczący jakiegoś typu `α`. Ta definicja to nic innego
+jak (jedyna) reguła eliminacji kwantyfikatora egyzstencjalnego. Tak samo wcześniej definiowaliśmy za
+pomocą funkcji parametryczny typ zdań `and`, to jest jako (uniwersalną) regułę eliminacji
+koniunkcji. Można powiedzieć, że taka definicja wyraża sens tego rodzaju zdań, rozumiany jako
+charakterystyka ich konsekwencji, albo (co na jedno wychodzi) jako charakterystyka sposobu, w jaki
+można używać (dowodów) takich zdań w dowodach.
 
 ```lean
+-- Zdanie *Istnieje coś, co spełnia predykat `P`* mówi to samo, co zdanie *Prawdą jest wszystko
+-- (czyli dowolne zdanie `R`), co wynika z faktu (`... → R`), że jakiś term (`∀ x`) spełnia predykat
+-- `P` (`∀ x : α, P x → R`)*.
 def _exists {α : Sort u} (P : α → Prop) := ∀ R : Prop, (∀ x : α, P x → R) → R
 
--- Mając term `x : α` i dowód `h1 : P x` możemy skonstruować term typu `_exists P`:
+-- Mając term `x : α` i dowód `h1 : P x` możemy zawsze skonstruować term tak zdefiniowanego typu
+-- `_exists P`, bo mając taką parę możemy zawsze skonstruować dowód zdania `R` z dowodu zdania
+-- `∀ x : α, P x → R`, aplikując ten ostatni dowód do argumentów `x` i `h1`.
 def _exists.intro {α : Sort u} {P : α → Prop} (x : α) (h1 : P x) : _exists P :=
   fun R : Prop => fun h2 : (∀ x : α, P x → R) => h2 x h1
 
--- Mając dowód zdania `_exists P` i dowód zdania `∀ x : α, P x → R` dla jakiegoś zdania `R` możemy
--- udowodnić zdanie `R`:
+-- Mając dowód zdania `_exists P` i dowód zdania `∀ x : α, P x → R` dla jakiegoś zdania `R` możemy,
+-- udowodnić zdanie `R`. Zwracam uwagę, że dodatkowe definiowanie reguły eliminacji nic tu nie
+-- wnosi, poza tym, że pozwala czytelnie oznaczyć w kodzie dowodu fakt użycia tej reguły za pomocą
+-- stałej `_exists.elim`.
 def _exists.elim {α : Sort u} {P : α → Prop} {R : Prop} (h1 : _exists P) (h2 : ∀ x : α, P x → R) : R :=
   h1 R h2
 ```
 
-Możemy używać typu `_exists` w zasadzie tak samo jak typu `Exists`:
+Typu `_exists` używamy w zasadzie tak samo jak typu `Exists`:
 
 ```lean
 -- ∃ n, n = 1
@@ -539,6 +586,7 @@ example : _exists (fun n : Nat => n = 1) := _exists.intro 1 rfl
 
 -- (∃ x, P x) → ¬ ∀ x, ¬ P x
 example : (_exists P) → ¬ ∀ x, ¬ P x := fun h => h False
--- Tak też można, tylko trudno powiedzieć po co.
+-- Jeżeli zależy nam na wyraźnym zaznaczeniu, że korzystamy z tej reguły dedukcji naturalnej, możemy
+-- ten dowód zapisać też tak:
 example : (_exists P) → ¬ ∀ x, ¬ P x := fun h => _exists.elim (R := False) h
 ```
