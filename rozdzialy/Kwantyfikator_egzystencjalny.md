@@ -61,7 +61,7 @@ axiom pk : Ponury Krystian
 #check pon_npog Krystian pk -- `pon_npog Krystian pk : ¬ Pogodny Krystian`
 ```
 
-## Jeżeli `α : Type`, `P : α → Prop`, i `x : α`, to co jest predykatem w zdaniu `¬ P x`?
+## Jeżeli α : Type, P : α → Prop, i x : α, to co jest predykatem w zdaniu ¬ P x?
 
 Przypuszczam, że właściwy sposób czytania zdania `¬ Pogodny Krystian` jest dla Ciebie oczywisty, ale
 czy wiesz, co w tym zdaniu jest predykatem? Skoro `¬ Pogodny Krystian` to formalnie zapisane zdanie
@@ -175,7 +175,7 @@ Nie wiadomo. Przede wszystkim chciałem zilustrować definicyjną równość `f 
 każdej funkcji `f` (a predykaty to funkcje), której dowód pojawi się nieco później. Możemy już
 wrócić do kwantyfikatora egzystencjalnego (inaczej małego).
 
-## Dowodzenie zdań `∃ x, P x`
+## Dowodzenie zdań ∃ x, P x
 
 Zdanie `∃ z : Zniwiarz, ¬ Pogodny z` mówi, że *istnieje co najmniej jeden* żniwiarz, który nie jest
 pogodny. Żeby udowodnić zdanie o postaci `Istnieje taki x, że P x` musimy dostarczyć taki `x`, że `P
@@ -392,10 +392,10 @@ dopóki mówimy o *samym zdaniu*, nie ma potrzeby dodawania takiego symbolu, pon
 dotyczącego termów jakiegokolwiek typu `α` predykatu `P` można zrobić zdanie o postaci `∃ x : α, P
 x`, to będzie to samo zdanie co na przykład zdanie `∃ z : α, P z`, i każde takie zdanie będzie
 odpowiadało dokładnie jednemu predykatowi dotyczącemu termów danego typu. Zdania o postaci `∃ x : α,
-P x` są więc *własnościami* albo *funkcjami samych predykatów* (i - niejawnie, typu i jego
-sortu). Żeby jednoznacznie zapisać zdanie, że dany predykat jest spełniony przez co najmniej jeden
-term, wystarczy więc w jakiś niewykorzystany wcześniej sposób oznaczyć ten predykat (tutaj robimy to
-poprzedzając predykat stałą `Exists`).
+P x` są więc *własnościami* albo *funkcjami samych predykatów* (i - niejawnie, typu którego dotyczą
+i jego sortu). Żeby jednoznacznie zapisać zdanie, że dany predykat jest spełniony przez co najmniej
+jeden term, wystarczy więc w jakiś niewykorzystany wcześniej sposób oznaczyć ten predykat (tutaj
+robimy to poprzedzając predykat stałą `Exists`).
 
 Popatrzmy jeszcze na zapisaną
 [tutaj](https://github.com/leanprover/lean4/blob/master/src/Init/Core.lean) definicję indukcyjną
@@ -420,7 +420,7 @@ para jest dodatkowo oznaczona etykietą `Exists.intro`. Stała `Exists.intro` pe
 oznaczenia pary spełniającej określone wymagania, ponieważ takie aplikacje są nieredukowalne (pod
 stałą `Exists.intro` nic się nie kryje). W ten prosty, formalny albo "powierzchowny" sposób, to jest
 wprowadzając tylko nową *konwencję oznaczania* (tutaj za pomocą prefiksu `Exists.intro`) pewnych
-wyrażeń (tutaj odpowiednich par `⟨term, dowod⟩`) możemy tworzyć nowe typy danych.
+wyrażeń (tutaj odpowiednich par złożonych z termu i dowodu) możemy tworzyć nowe typy danych.
 
 Żeby dodatkowo zachęcić Cię do zaglądania w przyszłości do dokumentacji i kodu źródłowego Leana,
 wkleję tu jeszcze zapisany jako komentarz w kodzie źródłowym fragment dokumentacji dotyczącej typu
@@ -445,7 +445,7 @@ example : ∃ n : Nat, n = 1 := by exists 1
 
 ... ale z tą taktyką zapoznamy się może innym razem.
 
-## Używanie zdań `∃ x, P x`
+## Używanie zdań ∃ x, P x
 
 Wiesz już, jak możesz udowodnić zdanie zawierające kwatyfikator egzystancjalny. Teraz pokażę Ci, jak
 możesz takich zdań *używać* (jako założeń). Ponieważ takie zdania są parametrycznymi alternatywami,
@@ -545,7 +545,7 @@ example : (∃ x, P x) → ¬ ∀ x, ¬ P x := by
 Może spróbuj teraz udowodnić w Leanie na co najmniej dwa sposoby zdanie `(∃ x, P x) → ¬ ∀ x, ¬ P x`
 bez zaglądania do tego rozdziału, albo zaglądając tylko wtedy, gdy utkniesz i stracisz nadzieję.
 
-## `∃` z samych strzałek (a właściwie funkcji)
+## ∃ z samych strzałek (a właściwie funkcji)
 
 Na koniec, jako ciekawostkę, pokażę Ci jeszcze, jak można zdefiniować `∃` tylko za pomocą funkcji,
 to jest nie korzystając ani z par uporządkowanych, ani z definicji indukcyjnych. 
