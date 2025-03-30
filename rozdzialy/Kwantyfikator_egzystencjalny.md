@@ -381,7 +381,7 @@ identyczność w tej wersji teorii typów [wygląda
 tak](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#id):
 
 ```lean
-—- Nazwałem tą funkcję `idu`, bo stała `id` jest już zajęta.
+-- Nazwałem tą funkcję `idu`, bo stała `id` jest już zajęta.
 def idu {α : Sort u} (a : α) : α := a
 ```
 
