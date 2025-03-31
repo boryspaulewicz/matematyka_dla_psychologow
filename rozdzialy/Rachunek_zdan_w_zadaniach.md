@@ -1,0 +1,372 @@
+## O czym teraz będzie
+
+W tym rozdziale kończymy uczyć się podstaw rachunku zdań.
+
+<hr>
+
+# Rachunek zdań w zadaniach
+
+[Rachunek zdań](https://pl.wikipedia.org/wiki/Rachunek_zda%C5%84) to pewien *język*. *Reguły
+syntaktyczne* (inaczej składniowe) języka mówią, jaką strukturę mają poprawne wyrażenia tego
+języka. Podstawową kategorią syntaktyczną rachunku zdań jest kategoria *zdania logicznego*. Takie
+formalne zdania nazywamy też *formułami logicznymi*, ale pojęcie formuły logicznej jest ogólniejsze,
+bo formułami logicznymi nazywamy poprawne wyrażenia w systemach logicznych w ogóle, na przykład,
+formułami logicznymi są poprawne zdania w rachunku kwantyfikatorów.
+
+Już wiesz, czym są zdania w rachunku zdań:
+
+1. Zmienne zdaniowe, takie jak `p`, `q`, `r`, ``, `p₁`, `p₀`, i tak dalej, są (poprawnymi) zdaniami
+logicznymi, albo krótko zdaniami. Takie zdania (inaczej formuły) nazywamy *atomowymi*, ponieważ nie
+mają wewnętrznej struktury (ewentualne indeksy dolne służą tu tylko do odróżnienia zmiennych
+zdaniowych).
+
+2. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P → Q` jest zdaniem.
+
+3. Jeżeli `Z` jest (być może złożonym) zdaniem, to `¬Z` też jest zdaniem.
+
+4. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ∧ Q` jest zdaniem.
+
+5. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ↔ Q` jest zdaniem.
+
+6. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ∨ Q` jest zdaniem.
+
+To jest *definicja indukcyjna* zdań, a więc zdaniami są wszystkie te i tylko te wyrażenia, które
+powstają przez stosowanie tych reguł. W naszym (teoriotypowym) języku *bycie zdaniem* oznacza *ma
+typ `Prop`* i możemy zdefiniować wszystkie spójniki, za wyjątkiem wbudowanej w język teorii typów
+implikacji, posługując się typem `Prop` i strzałkami.
+
+*Reguły semantyczne* języka dotyczą *znaczenia* (poprawnych składniowo) wyrażeń tego języka. U nas
+semantyka języka rachunku zdań sprowadzała się do tej pory do reguł tworzenia i przekształcania
+termów typów zdaniowych, które były pewnymi obiektami (albo metodami) *obliczeniowymi*,
+interpretowalnymi jako dowody. A więc nasza semantyka sprowadzała się do specyficznie modelowanych
+(jako programy i struktury danych) *reguł dowodzenia*, ponieważ jedyną wersją prawdziwości, którą
+się do tej pory zajmowaliśmy, była prawdziwość rozumiana jako dowiedlność, a dowiedlność oznaczała
+istnienie poprawnego termu, czyli kodu danego typu zdaniowego. Nie wiem, czy rzuciło Ci się to w
+oczy, ale jak dotąd nasze reguły składniowe i semantyczne były ze sobą nierozerwalnie związane. Na
+przykład, reguły konstruowania i używania zdań o postaci implikacji były nierozerwalnie związane z
+regułami konstruowania i używania funkcji będących dowodami takich zdań.
+
+W tym rozdziale dodamy nowy aksjomat, przez co uogólnimy pojęcie prawdziwości zdań i otrzymamy w ten
+sposób wersję klasyczną rachunku zdań (*KRZ*). Można powiedzieć, że logika *klasyczna* od
+konstruktywnej różni się tylko jednym dodatkowym aksjomatem (który akurat w Leanie jest
+*twierdzeniem* wyprowadzonym z innych aksjomatów, patrz [twierdzenie
+Diaconescu](https://en.wikipedia.org/wiki/Diaconescu%27s_theorem)), nazywanym zasadą albo prawem
+[wyłączonego środka](https://pl.wikipedia.org/wiki/Prawo_wy%C5%82%C4%85czonego_%C5%9Brodka)
+(ang. *excluded middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem
+*każde* zdanie jest albo prawdziwe albo fałszywe (czyli prawdziwa jest jego negacja). Ten aksjomat
+(a w Leanie twierdzenie) znajdziemy w przestrzeni nazw `Classical` (`em` to skrót od *excluded
+middle*):
+
+```lean
+#check Classical.em -- `Classical.em (p : Prop) : p ∨ ¬p` 
+```
+
+W logice *konstruktywnej* jeżeli `p` to zdanie, to o zdaniu `p ∨ ¬p` możemy stwierdzić, że jest
+prawdziwe wtedy i tylko wtedy, gdy albo mamy dowód zdania `p`, albo mamy dowód zdania `¬p`, a więc w
+logice konstruktywnej *nie* zakładamy, że *wszystkie* (poprawne składniowo) zdania są albo
+prawdziwe, albo fałszywe.
+
+Dla nas zasada wyłączonego środka będzie aksjomatem a nie twierdzeniem:
+
+```lean
+axiom em (p : Prop) : p ∨ ¬p
+```
+
+Korzystając z aksjomatu `em` możemy udowodnić zasadę podwójnej negacji (ang. *double negation*):
+
+```lean
+theorem dneg (p : Prop) : ¬¬p → p :=
+  -- Nazwa parametru `nnp` ułatwia zapamiętanie, że to jest dowód zdania `¬¬p`
+  fun nnp =>
+    -- `em p` to dowód alternatywy `p ∨ ¬p`, której używamy do uzyskania dowodu `p` wykazując, że w
+    -- tym kontekście `p` wynika z dowodu obydwu członów tej alternatywy, to jest zarówno ze zdania
+    -- `p` jak i ze zdania `¬p`.
+    (em p).elim
+     (fun hp => hp)
+     (fun np => (nnp np).elim)
+```
+
+Czasem stosuję takie formatowanie kiedy używam w nieinteraktywnych dowodach reguły eliminacji
+alternatywy: Kiedy używam dowodu `h : p ∨ q` do udowodnienia `r`, dowody implikacji `p → r` i `q →
+r` zapisuję w kolejnych liniach, przesunięte w prawo względem linii, w której pojawia się na końcu
+stała `elim`. Jeżeli człony alternatywy to `p` i `q`, to parametry tych dowodów-funkcji nazywam `hp`
+i `hq`.
+
+Często używam też w tego typu sytuacjach słowa kluczowego `sorry`, które mówi Leanowi, że dany
+fragment kodu będzie uzupełniony później i ma się tym miejscem na razie nie przejmować. Na przykład,
+ten ostatni dowód napisałem tak:
+
+```lean
+-- To nam się zaraz przyda.
+variable (p q r : Prop)
+
+-- Najpierw w miejscu argumentów dla eliminacji alternatywy `p ∨ ¬p` napisałem coś takiego, ...
+example : ¬¬p → p :=
+  fun nnp => (em p).elim () sorry
+
+-- ... bo w ten sposób na czerwono podkreślony jest tylko (jeszcze nie skonstruowany) pierwszy
+-- argument. Gdydym zaczął od konstruowania dowodu zdania `p → p` bez dopisania zaraz obok nawiasów
+-- słowa `sorry`, Lean podkreśliłby cały kod na prawo od `=>` na czerwono, ...
+example : ¬¬p → p :=
+  fun nnp => (em p).elim (fun hp => hp)
+
+-- ... i nie zobaczyłbym potwierdzenia, że argument `(fun hp => hp)` jest poprawny. Potem napisałem
+-- dowód `p → p`, ...
+example : ¬¬p → p :=
+  fun nnp => (em p).elim (fun hp => hp) sorry
+
+-- ... potem zastąpiłem słowo `sorry` dowodem `¬p → p`, ...
+example : ¬¬p → p :=
+  fun nnp => (em p).elim (fun hp => hp) (fun np => (nnp np).elim)
+
+-- ... i zmieniłem formatowanie na bardziej czytelne:
+example : ¬¬p → p :=
+  fun nnp => 
+   (em p).elim 
+    (fun hp => hp)
+    (fun np => (nnp np).elim)
+```
+
+Skoro w ostatnim rozdziale pojawiła się zdefiniowana w Leanie, uniwersowo uniwersalna identyczność
+`id`, pokażę Ci przy okazji, jak można jej użyć w tym dowodzie:
+
+```lean
+example : ¬¬p → p :=
+  fun nnp => 
+   (em p).elim
+    -- Poprzedzenie stałej `id` znakiem `@` sprawia, że parametry implictne stają się jawne, dzięki
+    -- czemu nie musimy pisać `id (α := p)`. Aplikacja `@id p` jest częściowa, ponieważ funkcja `id` ma
+    -- dwa parametry (a razem z poziomem sortu trzy), i ta częściowa aplikacja oznacza
+    -- wyspecjalizowaną identyczność na typie `p`, czyli dowód `p → p`.
+    (@id p)
+    (fun np => (nnp np).elim)
+```
+
+**Sugestia**: Jeżeli nie jest dla Ciebie jasne, w jaki sposób w tym ostatnim dowodzie stosujemy
+zasadę wyłączonego środka, być może będzie Ci łatwiej to zrozumieć konstruując dowód podwójnej
+negacji w trybie interaktywnym. Jak zawsze, możesz prześledzić, co się dzieje w dowodzie poniżej
+przesuwając kursor na koniec kolejnych linii i patrząc, jak zmienia się stan dowodu. Warto moim
+zdaniem spróbować skonstruować taki sam lub podobny dowód samodzielnie, najlepiej przynajmniej raz w
+trybie interaktywnym i przynajmniej raz pisząc kod wprost.
+
+```lean
+example : ¬¬p → p := by
+  intro nnp           -- Wprowadzamy do kontekstu poprzednik `¬¬p → p` jako hipotezę `nnp : ¬¬p`
+  have h := em p      -- Dodajemy do kontekstu skonstruowany w kodzie za pomocą aksjomatu `em` dowód
+                      -- `h : p ∨ ¬p`.
+  cases h             -- Najpierw używamy hipotetycznego dowodu `h : p`.
+  assumption          -- Dowód celu jest w kontekście, więc można użyć taktyki `assumption`.
+                      -- Teraz używamy hipotetycznego dowodu `h : ¬p`.
+  rename_i np         -- Zmieniamy automatycznie ustaloną i dlatego wyświetlaną innym kolorem nazwę
+                      -- `h` na `np`, żeby móc się nią posługiwać.
+  exact absurd np nnp -- ex falso quodlibet
+```
+
+Implikacja w drugą stronę nie wymaga logiki klasycznej:
+
+```lean
+example : p → ¬¬p :=
+  -- Ponieważ `¬q` to `q → False`, to `p → ¬¬p` jest zdaniem
+  -- `p →      ¬p →  False`.
+ fun hp => fun np => np hp
+ 
+-- Można też tak:
+example : p → ¬¬p :=
+  fun hp => 
+    show ¬p → False from 
+      fun np => show False from np hp
+```
+
+Możemy więc udowodnić *równoważność* `p ↔ ¬¬p`. Ponieważ równoważność to koniunkcja dwóch
+implikacji - z lewej do prawej (tutaj `p → ¬¬p`) i z prawej do lewej (tutaj `¬¬p → p`) - to żeby
+było mi później łatwiej tworzyć parę uporządkowaną napisałem najpierw to:
+
+```lean
+example : p ↔ ¬¬p :=
+  ⟨sorry,
+   sorry⟩
+
+-- Potem zastąpiłem pierwsze przeprosiny łatwym dowodem `p → ¬¬p`, ...
+example : p ↔ ¬¬p :=
+  ⟨fun hp => fun np => np hp, 
+   sorry⟩
+
+-- ... i dodałem dowód implikacji w drugą stronę. Dowód implikacji z prawej do lewej napisałem w
+-- nowej linii, bo tak lubię formatować dowody równoważności. Najpierw napisałem to, ...
+example : p ↔ ¬¬p :=
+  ⟨fun hp => fun np => np hp,
+   fun nnp => (em p).elim () sorry⟩
+
+-- ... a potem skonstruowałem pierwszy ...
+example : p ↔ ¬¬p :=
+  ⟨fun hp => fun np => np hp,
+   fun nnp => (em p).elim (fun hp => hp) sorry⟩
+
+-- ... i drugi argument eliminacji alternatywy `p ∨ ¬p`:
+example : p ↔ ¬¬p :=
+  ⟨fun hp => fun np => np hp,
+   fun nnp => (em p).elim (fun hp => hp) (fun np => (nnp np).elim)⟩
+```
+
+Poniżej znajdziesz serię zadań. Do niektórych z nich dodałem niezobowiązujące wskazówki, ale byłoby
+najlepiej, gdybyś podeszła do nich, tak jak zresztą do całej matematyki, *po swojemu*. Pamiętaj
+tylko proszę, żeby raczej unikać frustracji, a gdy jakieś zadanie okaże się zbyt trudne to albo
+zrobić sobie przerwę, albo przez pewien czas mniej lub bardziej aktywnie, w sposób rozłożony w
+czasie powtarzać prerekwizyty do tego zadania. To wszystko może stać się dosyć satysfakcjonujące,
+jeśli tylko ma się dość cierpliwości.
+
+Niektóre z tych zadań będą dla Ciebie w tym momencie zbyt proste i takie zadania warto pewnie robić
+w głowie, ale z drugiej strony czasem wykonanie jednego czy dwóch zadań rutynowych działa jak
+rozgrzewka i może pomóc w rozwiązaniu zadań bardziej skomplikowanych. Moim zdaniem wracanie do tych
+zadań jest znakomitym sposobem utrwalania wiedzy i pogłębiania rozumienia logiki, a warto dobrze
+poznać podstawy logiki, bo ta jest uniwersalnym "standardem matematyczności" i jednym z ważniejszych
+narzędzi myślenia.
+
+Żeby nauczyć się używać logiki w dodolnym kontekście, który na to pozwala, trzeba nabyć trwałe,
+dobrze ustrukturyzowane i łatwo dostępne reprezentacje wzorców wnioskowania logicznego. Dlatego gdy
+zaczynałem uczyć się Leana w pewnym momencie, na podstawie między innymi [tej znakomitej
+książki](https://lean-lang.org/theorem_proving_in_lean4/title_page.html), która zresztą powinna być
+już dla Ciebie dość przystępna, stworzyłem sobie plik z zadaniami "na czysto". Przez pewien czas
+każdego dnia kopiowałem te zadania do nowego pliku i tam je rozwiązywałem (używając trybu dla Leana
+w Emacsie, ale Ty zdaje się używasz Leana w VS Code, prawda?). Od pewnego momentu większość z tych
+zadań wydawała mi się zbyt prosta i przez to nudna, ale robiłem to nadal, ponieważ wiedziałem, że w
+ten sposób będę w tym coraz lepszy i że będzie mi łatwiej dostrzegać "logiczne wzorce". Te zadania
+są pewną wersją tego pliku.
+
+Nie jest łatwo zauważyć, które zdania wymagają tego rodzaju dowodów, dlatego Wszędzie tam, gdzie
+dowód wymaga zastosowania logiki klasycznej, napisałem, że tak jest. W *logice zdań* to będą pewne
+(ale nie wszystkie!) zdania, w których występuje negacja i alternatywa (w rachunku predykatów to
+będą również między innymi pewne zdania z kwantyfikatorem egzystencjalnym).
+
+## Implikacja
+
+```lean
+example : p → p := sorry
+
+example : (p → q) → p → q := sorry
+
+example : p → ¬¬p := sorry
+```
+
+## Prawda i fałsz
+
+```lean
+example : p → True := fun _ => sorry
+
+example : False → p := fun h => sorry
+```
+
+## Koniunkcja
+
+Gdy dowód koniunkcji jest parametrem, czyli gdy koniunkcja jest poprzednikiem implikacji do
+udowodnienia, zwykle korzystam z dopasowania wzorca w parametrze, bo mam wyraźnie, że w ten sposób
+wyraźnie widać "mechanikę" działania takiego dowodu. Ty oczywiście zrobisz ten dowód jak zechcesz
+(albo go nie zrobisz).
+
+```lean
+example : (p ∧ q) → p := sorry
+
+-- Być może w tym przypadku użycie funkcji `And.left` i `And.right` albo sufiksów `.left` i `.right`
+-- daje bardziej czytelny dowód niż dopasowanie wzorca w parametrze.
+example : p ∧ q ↔ q ∧ p := 
+  ⟨fun h => sorry, 
+   sorry⟩
+
+-- A w tym przypadku wolę wersję z dopasowaniem wzorca. Uwaga - dowodami są tutaj pary dowodów, z
+-- których jednen jest również parą dowodów, czyli takie zagnieżdżone pary dowodów.
+example : p ∧ (q ∧ r) ↔ (p ∧ q) ∧ r := 
+  ⟨fun ⟨hp, ⟨hq, hr⟩⟩ => sorry, 
+   sorry⟩
+
+-- Parametr odpowiadający poprzednikowi implikacji w prawą stronę, czyli zdaniu `r → (p ∧ q)`,
+-- nazwałbym tutaj na przykład `h`, bo to zdanie nie jest atomowe, ani nie jest negacją zdania
+-- atomowego (dowód `¬p` nazywam często `np`), ani nie jest implikacją z atomowymi poprzednikiem i
+-- następnikiem (dowód `p → q` czasem nazywam `hpq` albo `hptoq`, albo `ptoq`), ani alternatywą z
+-- atomowymi członami (dowód `p ∨ q` nazywam czasem `hporq` albo `porq`). Następnikiem implikacji w
+-- prawo jest tutaj koniunkcja, trzeba więc albo użyć `And.intro`, albo stworzyć parę uporządkowaną
+-- dowodów. Konstruując dowód implikacji w lewo warto chyba skorzystać z dopasowania wzorca w
+-- parametrze (i nazwać czytelnie dowody członów koniunkcji).
+example : (r → (p ∧ q)) ↔ ((r → p) ∧ (r → q)) := sorry
+
+example : ((p ∧ q) → r) ↔ (p → (q → r)) := sorry
+```
+
+## Alternatywa
+
+```lean
+example : p → p ∨ q := sorry
+
+example : q → p ∨ q := sorry
+
+example : p ∨ q ↔ q ∨ p := sorry
+
+-- Ten dowód jest stosunkowo uciążliwy i łatwo się w nim pogubić, niezależnie od tego, czy korzysta
+-- się z trybu interaktywnego i taktyk, czy nie. Głównym źródłem trudności jest tutaj fakt, że
+-- trzeba użyć eliminacji alternatywy wewnątrz eliminacji alternatywy. Z drugiej strony nikt nie
+-- powiedział, że dowód, który się zaczęło, trzeba koniecznie skończyć tego samego dnia.
+example : (p ∨ (q ∨ r)) ↔ ((p ∨ q) ∨ r) := sorry
+
+example : ((p ∨ q) → r) ↔ ((p → r) ∧ (q → r)) := sorry
+```
+
+## Koniunkcja i alternatywa
+
+```lean
+-- Znowu może się przydać przechwytywanie dowodów członów koniunkcji za pomocą dopasowania wzorca w
+-- parametrze, również w dowodach będących argumentami eliminacji alternatywy (której trzeba użyć
+-- dowodząc implikacji w lewo).
+example : (p ∧ (q ∨ r)) ↔ ((p ∧ q) ∨ (p ∧ r)) := sorry
+
+-- To jest kolejne zadanie, które za pierwszym, drugim i może też trzecim razem może być uciążliwe,
+-- ale które z czasem staje się bardzo łatwe i z czasem zaczyna przypominać relaksujące układanie
+-- puzzli.
+example : (p ∨ (q ∧ r)) ↔ ((p ∨ q) ∧ (p ∨ r)) := sorry
+```
+
+## Implikacja i negacja
+
+```lean
+example : (p → q) → (¬q → ¬p) := sorry
+
+example : ¬p → (p → q) := sorry
+
+example : ¬(¬p ↔ p) := sorry
+```
+
+## Koniunkcja, alternatywa, negacja, prawda i fałsz
+
+```lean
+example : ¬(p ∧ q) ↔ (¬p ∨ ¬q) :=
+  ⟨sorry, -- W tą stronę trzeba użyć logiki klasycznej ...
+   sorry⟩ -- ... a w tą nie trzeba.
+
+example : ¬(p ∨ q) ↔ (¬p ∧ ¬q) := sorry
+
+example : (p ∧ ¬p) → r := sorry
+
+example : (p ∧ ¬q) → ¬(p → q) := sorry
+
+example : (p → q) ↔ (¬p ∨ q) :=
+  ⟨sorry, -- W tą stronę trzeba użyć logiki klasycznej, ...
+   sorry⟩ -- ... a w tą nie.
+
+example : (p ∧ q) ↔ ¬(¬p ∨ ¬q) :=
+  ⟨sorry,
+   sorry⟩ -- W tą (i tylko w tą) stronę trzeba użyć logiki klasycznej.
+
+example : (p ∨ q) ↔ ¬(¬p ∧ ¬q) :=
+  ⟨sorry, 
+   sorry⟩ -- W tą (i tylko w tą) stronę trzeba użyć logiki klasycznej.
+```
+
+## Koniunkcja, alternatywa, prawda i fałsz
+
+```lean
+example : (p ∨ True) ↔ True := sorry
+
+example : (p ∧ True) ↔ p := sorry
+
+example : p ∨ False ↔ p := sorry
+
+example : p ∧ False ↔ False := sorry
+```
