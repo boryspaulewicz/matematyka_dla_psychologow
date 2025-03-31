@@ -74,6 +74,8 @@ typów, a definiując typ zdań o postaci koniunkcji od razu określiliśmy, w j
 konstruować dowody takich zdań (tworząc pary uporządkowane) i rozstrzygnęliśmy jednocześnie, w jaki
 sposób można ich używać (używając projekcji z par).
 
+## *Klasyka*
+
 W tym rozdziale dodamy nowy aksjomat, przez co uogólnimy pojęcie prawdziwości zdań i otrzymamy w ten
 sposób wersję klasyczną rachunku zdań (*KRZ*). Można powiedzieć, że logika *klasyczna* od
 konstruktywnej różni się tylko jednym dodatkowym aksjomatem (który akurat w Leanie jest
