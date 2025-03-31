@@ -97,8 +97,8 @@ logice konstruktywnej zdania o takiej strukturze nie są prawdziwe *automatyczni
 konstruktywnej *nie* zakładamy, że *wszystkie* (poprawne składniowo) zdania są albo prawdziwe, albo
 fałszywe.
 
-Dla nas zasada wyłączonego środka będzie aksjomatem a nie twierdzeniem (chociaż równie dobrze
-moglibyśmy używać wersji Leana):
+Dla nas zasada wyłączonego środka będzie aksjomatem, a nie twierdzeniem (chociaż równie dobrze
+moglibyśmy używać implementacji Leana):
 
 ```lean
 axiom em (p : Prop) : p ∨ ¬p
@@ -118,10 +118,10 @@ theorem dneg (p : Prop) : ¬¬p → p :=
      (fun np => (nnp np).elim)
 ```
 
-Czasem stosuję takie formatowanie kiedy używam w nieinteraktywnych dowodach reguły eliminacji
-alternatywy: Kiedy używam dowodu `h : p ∨ q` do udowodnienia `r`, dowody implikacji `p → r` i `q →
-r` zapisuję w kolejnych liniach, przesunięte w prawo względem linii, w której pojawia się na końcu
-stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
+Czasem stosuję takie właśnie formatowanie kiedy używam w nieinteraktywnych dowodach reguły
+eliminacji alternatywy: Kiedy używam dowodu `h : p ∨ q` do udowodnienia `r`, dowody implikacji `p →
+r` i `q → r` zapisuję w kolejnych liniach, przesunięte w prawo względem linii, w której pojawia się
+na końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
 
 ```lean
  ...
