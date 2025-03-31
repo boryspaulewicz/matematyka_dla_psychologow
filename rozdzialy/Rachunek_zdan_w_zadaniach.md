@@ -319,8 +319,9 @@ example : (p → (q → r)) → ((p → q) → (p → r)) := sorry
 ```lean
 example : (p → q) → (¬q → ¬p) := sorry
 
-example : ¬p → (p → q) := sorry
+example : p → (¬p → q) := sorry
 
+–- Implikacja w lewo wymaga logiki klasycznej
 example : p ↔ ¬¬p := sorry
 
 example : ¬(¬p ↔ p) := sorry
@@ -342,7 +343,7 @@ example : (p ∧ q) → q := sorry
 
 example : (p → q) → ((p → r) → (p → (q ∧ r))) := sorry
 
-example : ((p → q) ∧ (p → r)) → (p → (q ∧ r)) := sorry
+example : ((p → q) ∧ (p → r)) ↔ (p → (q ∧ r)) := sorry
 
 -- Być może w tym przypadku użycie funkcji `And.left` i `And.right` albo sufiksów `.left` i `.right`
 -- daje bardziej czytelny dowód niż dopasowanie wzorca w parametrze.
@@ -356,16 +357,6 @@ example : p ∧ (q ∧ r) ↔ (p ∧ q) ∧ r :=
   ⟨fun ⟨hp, ⟨hq, hr⟩⟩ => sorry, 
    sorry⟩
 
--- Parametr odpowiadający poprzednikowi implikacji w prawą stronę, czyli zdaniu `r → (p ∧ q)`,
--- nazwałbym tutaj na przykład `h`, bo to zdanie nie jest atomowe, ani nie jest negacją zdania
--- atomowego (dowód `¬p` nazywam często `np`), ani nie jest implikacją z atomowymi poprzednikiem i
--- następnikiem (dowód `p → q` czasem nazywam `hpq` albo `hptoq`, albo `ptoq`), ani alternatywą z
--- atomowymi członami (dowód `p ∨ q` nazywam czasem `hporq` albo `porq`). Następnikiem implikacji w
--- prawo jest tutaj koniunkcja, trzeba więc albo użyć `And.intro`, albo stworzyć parę uporządkowaną
--- dowodów. Konstruując dowód implikacji w lewo warto chyba skorzystać z dopasowania wzorca w
--- parametrze (i nazwać czytelnie dowody członów koniunkcji).
-example : (r → (p ∧ q)) ↔ ((r → p) ∧ (r → q)) := sorry
-
 example : ((p ∧ q) → r) ↔ (p → (q → r)) := sorry
 ```
 
@@ -377,8 +368,6 @@ example : p → p ∨ q := sorry
 example : q → p ∨ q := sorry
 
 example : (p → r) → ((q → r) → ((p ∨ q) → r)) := sorry
-
-example : (p → r) ∧ (q → r) → ((p ∨ q) → r) := sorry
 
 example : p ∨ q ↔ q ∨ p := sorry
 
@@ -426,7 +415,7 @@ example : (p ↔ q) → (q → p) := sorry
 
 example : (p → q) → ((q → p) → (p ↔ q)) := sorry
 
-example : (p → q) ∧ (q → p) → (p ↔ q) := sorry
+example : (p → q) ∧ (q → p) ↔ (p ↔ q) := sorry
 
 example : ¬(p ∧ q) ↔ (¬p ∨ ¬q) :=
   ⟨sorry, -- W tą stronę trzeba użyć logiki klasycznej ...
