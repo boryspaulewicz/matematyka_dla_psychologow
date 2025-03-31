@@ -321,7 +321,7 @@ example : (p → q) → (¬q → ¬p) := sorry
 
 example : p → (¬p → q) := sorry
 
-–- Implikacja w lewo wymaga logiki klasycznej
+-- Implikacja w lewo wymaga logiki klasycznej
 example : p ↔ ¬¬p := sorry
 
 example : ¬(¬p ↔ p) := sorry
