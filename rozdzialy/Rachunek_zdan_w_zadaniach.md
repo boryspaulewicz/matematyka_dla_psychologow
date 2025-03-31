@@ -377,7 +377,7 @@ example : (p → q) → (¬q → ¬p) := sorry
 example : ¬p → (p → q) := sorry
 
 example : p ↔ ¬¬p := sorry
-s
+
 example : ¬(¬p ↔ p) := sorry
 ```
 
