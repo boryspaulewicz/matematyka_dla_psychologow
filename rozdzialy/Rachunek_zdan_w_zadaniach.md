@@ -135,6 +135,8 @@ przykład dla koniunkcji? Kto wie, może? A poza tym, jeżeli człony alternatyw
 parametry tych dowodów-funkcji nazywam `hp` i `hq`, i dzięki temu, że trzymam się tej konwencji dość
 konsekwentnie, zacząłem się do niej przyzwyczajać i widzę, że ułatwia mi pisanie dowodów.
 
+## Przepraszam, ale nie przepraszam
+
 Często używam też w tego typu sytuacjach słowa kluczowego `sorry`, które mówi Leanowi, że dany
 fragment kodu będzie uzupełniony później i ma się tym miejscem na razie nie przejmować. Na przykład,
 ten ostatni dowód napisałem tak:
