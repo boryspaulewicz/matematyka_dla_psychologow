@@ -76,10 +76,10 @@ jaki sposób można ich używać do dowodzenia innych zdań (używając projekcj
 
 ## *Klasyka*
 
-W tym rozdziale dodamy nowy aksjomat, przez co uogólnimy pojęcie prawdziwości zdań i otrzymamy w ten
-sposób wersję klasyczną rachunku zdań (*KRZ*). Można powiedzieć, że logika *klasyczna* od
-konstruktywnej różni się tylko jednym dodatkowym aksjomatem (który akurat w Leanie jest
-*twierdzeniem* wyprowadzonym z innych aksjomatów, patrz [twierdzenie
+Dodamy teraz nowy aksjomat, przez co uogólnimy pojęcie prawdziwości zdań i otrzymamy wersję
+klasyczną rachunku zdań ([KRZ](https://pl.wikipedia.org/wiki/Klasyczny_rachunek_zda%C5%84)). Można
+powiedzieć, że logika *klasyczna* od konstruktywnej różni się tylko jednym dodatkowym aksjomatem
+(który akurat w Leanie jest *twierdzeniem* wyprowadzonym z innych aksjomatów, patrz [twierdzenie
 Diaconescu](https://en.wikipedia.org/wiki/Diaconescu%27s_theorem)), nazywanym zasadą albo prawem
 [wyłączonego środka](https://pl.wikipedia.org/wiki/Prawo_wy%C5%82%C4%85czonego_%C5%9Brodka)
 (ang. *excluded middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem
