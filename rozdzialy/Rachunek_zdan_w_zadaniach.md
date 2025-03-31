@@ -290,6 +290,9 @@ pewne zdania, w których występuje negacja i alternatywa (w rachunku predykató
 między innymi pewne zdania z kwantyfikatorem egzystencjalnym, który jak wiesz jest uogólnioną
 alternatywą).
 
+**Prośba do czytelniczek i czytelników**: Gdyby w trakcie rozwiązywania tych zadań pojawiły się
+jakieś trudności, bardzo pomożesz i innym czytelniczkom i czytelnikom pisząc mi o nich!
+
 ## Implikacja
 
 ```lean
