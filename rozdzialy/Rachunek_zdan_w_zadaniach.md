@@ -1,6 +1,6 @@
 ## O czym teraz będzie
 
-W tym rozdziale kończymy, a może raczej na dobre zaczynamy, uczyć się podstaw rachunku zdań.
+W tym rozdziale kończymy, czyli na dobre zaczynamy, uczyć się podstaw rachunku zdań.
 
 <hr>
 
