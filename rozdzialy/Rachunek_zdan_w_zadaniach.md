@@ -189,7 +189,7 @@ example : ¬¬p → p :=
 
 **Sugestia**: Jeżeli nie jest dla Ciebie jasne, w jaki sposób w tym ostatnim dowodzie stosujemy
 zasadę wyłączonego środka, być może będzie Ci łatwiej to zrozumieć konstruując dowód podwójnej
-negacji w trybie interaktywnym. Jak zawsze, możesz prześledzić, co się dzieje w dowodzie poniżej
+negacji w trybie interaktywnym. Jak zawsze, możesz prześledzić, co się dzieje w dowodzie poniżej,
 przesuwając kursor na koniec kolejnych linii i patrząc, jak zmienia się stan dowodu. Warto moim
 zdaniem spróbować skonstruować taki sam lub podobny dowód samodzielnie, najlepiej przynajmniej raz w
 trybie interaktywnym i przynajmniej raz pisząc kod wprost.
@@ -256,11 +256,13 @@ example : p ↔ ¬¬p :=
 Poniżej znajdziesz serię zadań. Do niektórych z nich dodałem niezobowiązujące wskazówki, ale byłoby
 moim zdaniem najlepiej, gdybyś podeszła do nich, tak jak zresztą do całej matematyki, *po
 swojemu*. Pamiętaj tylko proszę, żeby przynajmniej na razie raczej unikać frustracji, a gdy jakieś
-zadanie okaże się zbyt trudne, to albo zrobić sobie przerwę, albo przez pewien czas, mniej lub
-bardziej aktywnie, w sposób rozłożony w czasie powtarzać prerekwizyty do tego zadania. To wszystko
-może stać się dosyć satysfakcjonujące, jeśli tylko ma się dość cierpliwości i nie próbuje się za
-bardzo przyspieszać tego procesu (z tym właśnie, to jest z pogodzeniem się z koniecznością częstego
-zmniejszania tempa, mam chyba wciąż największy problem).
+zadanie okaże się zbyt trudne, to może albo zrób sobie przerwę, albo przez pewien czas, mniej lub
+bardziej aktywnie (ale wcale nie musi być jakoś szczególnie aktywnie, ma być przede wszystkim w
+miarę bezboleśnie!), spróbuj w sposób *rozłożony w czasie* powtarzać jakieś prerekwizyty do tego
+zadania. To wszystko może stać się całkiem satysfakcjonujące, jeżeli tylko ma się dość cierpliwości
+i nie próbuje się za bardzo przyspieszać tego procesu (z tym właśnie, to jest z pogodzeniem się z
+koniecznością częstego zmniejszania tempa, czasem do tempa wręcz ślimaczego, mam chyba wciąż
+największy problem).
 
 Niektóre z tych zadań będą dla Ciebie w tym momencie zbyt proste i takie zadania warto pewnie robić
 "w głowie", ale z drugiej strony czasem wykonanie jednego czy dwóch zadań rutynowych działa,
