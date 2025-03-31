@@ -15,7 +15,7 @@ formułami logicznymi są poprawne zdania w rachunku kwantyfikatorów.
 
 Już wiesz, czym są zdania w rachunku zdań:
 
-1. Zmienne zdaniowe, takie jak `p`, `q`, `r`, `p₁`, `p₀`, i tak dalej, są (poprawnymi) zdaniami
+1. Zmienne zdaniowe, takie jak `p`, `q`, `r`, `p₀`, `p₁`, i tak dalej, są (poprawnymi) zdaniami
 logicznymi, albo krótko zdaniami. Takie zdania (inaczej formuły) nazywamy *atomowymi*, ponieważ nie
 mają wewnętrznej struktury (ewentualne indeksy dolne służą tu tylko do odróżnienia zmiennych
 zdaniowych).
