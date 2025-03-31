@@ -84,7 +84,7 @@ Diaconescu](https://en.wikipedia.org/wiki/Diaconescu%27s_theorem)), nazywanym za
 [wyłączonego środka](https://pl.wikipedia.org/wiki/Prawo_wy%C5%82%C4%85czonego_%C5%9Brodka)
 (ang. *excluded middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem
 *każde* zdanie jest albo prawdziwe albo fałszywe (czyli prawdziwa jest jego negacja). Dostępną w
-Leanie implementację tej zasady znajdziemy w przestrzeni nazw `Classical` (`em` to skrót od
+Leanie implementację tej zasady znajdziemy w przestrzeni nazw `Classical` (`em` to właśnie skrót od
 *excluded middle*):
 
 ```lean
