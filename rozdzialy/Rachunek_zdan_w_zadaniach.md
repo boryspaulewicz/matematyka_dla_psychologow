@@ -45,7 +45,7 @@ Z ::= V|¬Z|Z → Z|Z ↔ Z|Z ∧ Z|Z ∨ Z
 ```
 
 gdzie `Z` to definiowany zbiór zdań, a `V` to jakiś wcześniej zdefiniowany zbiór zmiennych
-zdaniowych, na przykład `\{a, b, c, ..., a₀, a₁, a₂, ..., b₀, b₁, b₂, ...\}`. Symbol `::=` oznacza w
+zdaniowych, na przykład `{a, b, c, ..., a₀, a₁, a₂, ..., b₀, b₁, b₂, ...}`. Symbol `::=` oznacza w
 notacji BNF definiowanie, a `|` czytamy jako *lub*. To jest więc zwięźle zapisana *indukcyjna
 definicja rekurencyjna*: zdaniem jest każda zmienna (`V`) lub (`|`) wyrażenie `Z → Z`, gdzie *każde
 wystąpienie* litery `Z` można zastąpić przez cokolwiek, co ze względu na przyjęte reguły konstrukcji
