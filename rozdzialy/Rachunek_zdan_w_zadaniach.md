@@ -243,10 +243,10 @@ już dla Ciebie dość przystępna, stworzyłem sobie plik z zadaniami "na czyst
 każdego dnia kopiowałem te zadania do nowego pliku i tam je rozwiązywałem (używając trybu dla Leana
 w Emacsie, ale Ty zdaje się używasz Leana w VS Code, prawda?). Od pewnego momentu większość z tych
 zadań wydawała mi się zbyt prosta i przez to nudna, ale robiłem to nadal, ponieważ wiedziałem, że w
-ten sposób będę w tym coraz lepszy i że będzie mi łatwiej dostrzegać "logiczne wzorce". Te zadania
-są pewną wersją tego pliku.
+ten sposób będę w tym coraz lepszy i że będzie mi łatwiej dzięki temu dostrzegać "logiczne
+wzorce". Zadania, które tutaj znajdziesz, są pewną wersją tego właśnie pliku.
 
-Nie jest łatwo zauważyć, które zdania wymagają tego rodzaju dowodów, dlatego Wszędzie tam, gdzie
+Nie jest łatwo zauważyć, które zdania wymagają tego rodzaju dowodów, dlatego wszędzie tam, gdzie
 dowód wymaga zastosowania logiki klasycznej, napisałem, że tak jest. W *logice zdań* to będą pewne
 (ale nie wszystkie!) zdania, w których występuje negacja i alternatywa (w rachunku predykatów to
 będą również między innymi pewne zdania z kwantyfikatorem egzystencjalnym).
