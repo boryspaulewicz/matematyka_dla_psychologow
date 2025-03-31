@@ -39,8 +39,8 @@ zdań zależy od prawdziwości innych zdań. Tego rodzaju definicje syntaktyczne
 zwanej [notacji Backusa-Naura](https://pl.wikipedia.org/wiki/Notacja_BNF) (*BNF*), z której chętnie
 korzystają informatycy (i trudno im się dziwić):
 
-```
--- Definicja zbioru zdań w notacji BNF
+```lean
+-- Definicja zbioru zdań w notacji BNF (to nie jest kod Leana)
 Z ::= V|¬Z|Z → Z|Z ↔ Z|Z ∧ Z|Z ∨ Z 
 ```
 
