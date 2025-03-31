@@ -48,8 +48,8 @@ gdzie `Z` to definiowany zbiór zdań, a `V` to jakiś wcześniej zdefiniowany z
 zdaniowych, na przykład `{a, b, c, ..., a₀, a₁, a₂, ..., b₀, b₁, b₂, ...}`. Symbol `::=` oznacza w
 notacji BNF definiowanie, a `|` czytamy jako *lub*. To jest więc zwięźle zapisana *indukcyjna
 definicja rekurencyjna*: zdaniem jest każda zmienna (`V`) lub (`|`) wyrażenie `Z → Z`, gdzie *każde
-wystąpienie* litery `Z` można zastąpić przez cokolwiek, co ze względu na przyjęte reguły konstrukcji
-zdań jest zdaniem (rekurencja), i tak dalej.
+wystąpienie* litery `Z` *z osobna* można zastąpić przez cokolwiek, co ze względu na przyjęte reguły
+konstrukcji zdań jest zdaniem (rekurencja), i tak dalej.
 
 Zwracam też uwagę, że spójniki logiczne są tu operacjami *aksjomatycznymi* (negacja jest operacją
 jednoargumentową, pozostałe spójniki to operacje dwuargumentowe); biorąc pod uwagę te 6 reguł
