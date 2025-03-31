@@ -404,6 +404,10 @@ example : (p ∧ True) ↔ p := sorry
 example : p ∨ False ↔ p := sorry
 
 example : p ∧ False ↔ False := sorry
+
+example : True ∧ False ↔ False := sorry
+
+example : True ∨ False ↔ True := sorry
 ```
 
 ## Koniunkcja, alternatywa, negacja, prawda i fałsz
