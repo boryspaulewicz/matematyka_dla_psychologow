@@ -20,20 +20,33 @@ logicznymi, albo krótko zdaniami. Takie zdania (inaczej formuły) nazywamy *ato
 mają wewnętrznej struktury (ewentualne indeksy dolne służą tu tylko do odróżnienia zmiennych
 zdaniowych).
 
-2. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P → Q` jest zdaniem.
+2. Jeżeli `P` jest (być może złożonym) zdaniem, to `¬P` też jest zdaniem.
 
-3. Jeżeli `Z` jest (być może złożonym) zdaniem, to `¬Z` też jest zdaniem.
+3. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P → Q` też jest zdaniem.
 
-4. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ∧ Q` jest zdaniem.
+4. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ↔ Q` też jest zdaniem.
 
-5. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ↔ Q` jest zdaniem.
+5. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ∧ Q` też jest zdaniem.
 
-6. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ∨ Q` jest zdaniem.
+6. Jeżeli `P` i `Q` są (być może złożonymi) zdaniami, to `P ∨ Q` też jest zdaniem.
 
 To jest *definicja indukcyjna* zdań, a więc zdaniami są wszystkie te i tylko te wyrażenia, które
-powstają przez stosowanie tych reguł. W naszym (teoriotypowym) języku *bycie zdaniem* oznacza *ma
-typ `Prop`* i możemy zdefiniować wszystkie spójniki, za wyjątkiem wbudowanej w język teorii typów
-implikacji, posługując się typem `Prop` i strzałkami.
+powstają przez stosowanie tych reguł. Tego rodzaju definicje zapisujemy czasem w [notacji
+Backusa-Naura](https://pl.wikipedia.org/wiki/Notacja_BNF) (*BNF*):
+
+```
+Z ::= V|¬Z|Z → Z|Z ↔ Z|Z ∧ Z|Z ∨ Z 
+```
+
+gdzie `Z` to definiowany zbiór zdań, a `V` to jakiś zbiór zmiennych zdaniowych, na przykład `\{a, b,
+c, ..., a₀, a₁, a₂, ..., b₀, b₁, b₂, ...\}`. Symbol `::=` oznacza w tej notacji definiowanie, a `|`
+czytamy jako *lub*. To jest więc zwięźle zapisana indukcyjna definicja rekurencyjna: zdaniem jest
+zmienna (`V`) lub (`|`) wyrażenie `Z → Z`, gdzie *każde wystąpienie* litery `Z` można zastąpić przez
+cokolwiek, co ze względu na przyjęte reguły konstrukcji zdań jest zdaniem, i tak dalej. 
+
+W naszym (teoriotypowym) języku *bycie zdaniem* oznacza *ma typ `Prop`* i możemy zdefiniować
+wszystkie spójniki, za wyjątkiem wbudowanej w język teorii typów implikacji, posługując się typem
+`Prop` i strzałkami.
 
 *Reguły semantyczne* języka dotyczą *znaczenia* (poprawnych składniowo) wyrażeń tego języka. U nas
 semantyka języka rachunku zdań sprowadzała się do tej pory do reguł tworzenia i przekształcania
