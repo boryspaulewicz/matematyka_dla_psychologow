@@ -9,7 +9,7 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 
 **Aktualności**: 31 marca. Dodałem rozdział [R26=R20 Rachunek zdań w
-zadaniach](./rozdzialy/Kwantyfikator_egzystencjalny.md). Czytelniczki i czytelników, *którzy oswoili
+zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md). Czytelniczki i czytelników, *którzy oswoili
 się już trochę z używaniem implikacji, negacji, koniunkcji i alternatywy* zapraszam do testowania,
 zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych.
 
