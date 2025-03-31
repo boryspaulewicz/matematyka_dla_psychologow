@@ -293,14 +293,6 @@ alternatywą).
 **Prośba do czytelniczek i czytelników**: Gdyby w trakcie rozwiązywania tych zadań pojawiły się
 jakieś trudności, bardzo pomożesz i innym czytelniczkom i czytelnikom pisząc mi o nich!
 
-## Implikacja
-
-```lean
-example : p → p := sorry
-
-example : (p → q) → p → q := sorry
-```
-
 ## Prawda i fałsz
 
 ```lean
@@ -309,6 +301,31 @@ example : p → True := fun _ => sorry
 example : False → p := fun hF => sorry
 
 example : False → True := sorry
+```
+
+## Implikacja
+
+```lean
+-- Identyczność
+example : p → p := sorry
+
+example : p → (q → p) := sorry
+
+example : (p → (q → r)) → ((p → q) → (p → r)) := sorry
+```
+
+## Implikacja i negacja
+
+```lean
+example : (p → q) → (¬q → ¬p) := sorry
+
+example : ¬p → (p → q) := sorry
+
+example : p ↔ ¬¬p := sorry
+
+example : ¬(¬p ↔ p) := sorry
+
+example : (p → ¬p) → ¬p := sorry
 ```
 
 ## Koniunkcja
@@ -320,6 +337,12 @@ wyraźnie widać mechanikę działania takiego dowodu. Ty oczywiście zrobisz te
 
 ```lean
 example : (p ∧ q) → p := sorry
+
+example : (p ∧ q) → q := sorry
+
+example : (p → q) → ((p → r) → (p → (q ∧ r))) := sorry
+
+example : ((p → q) ∧ (p → r)) → (p → (q ∧ r)) := sorry
 
 -- Być może w tym przypadku użycie funkcji `And.left` i `And.right` albo sufiksów `.left` i `.right`
 -- daje bardziej czytelny dowód niż dopasowanie wzorca w parametrze.
@@ -353,6 +376,10 @@ example : p → p ∨ q := sorry
 
 example : q → p ∨ q := sorry
 
+example : (p → r) → ((q → r) → ((p ∨ q) → r)) := sorry
+
+example : (p → r) ∧ (q → r) → ((p ∨ q) → r) := sorry
+
 example : p ∨ q ↔ q ∨ p := sorry
 
 -- Ten dowód jest stosunkowo uciążliwy i łatwo się w nim pogubić, niezależnie od tego, czy korzysta
@@ -378,21 +405,29 @@ example : (p ∧ (q ∨ r)) ↔ ((p ∧ q) ∨ (p ∧ r)) := sorry
 example : (p ∨ (q ∧ r)) ↔ ((p ∨ q) ∧ (p ∨ r)) := sorry
 ```
 
-## Implikacja i negacja
+## Koniunkcja, alternatywa, prawda i fałsz
 
 ```lean
-example : (p → q) → (¬q → ¬p) := sorry
+example : (p ∨ True) ↔ True := sorry
 
-example : ¬p → (p → q) := sorry
+example : (p ∧ True) ↔ p := sorry
 
-example : p ↔ ¬¬p := sorry
+example : p ∨ False ↔ p := sorry
 
-example : ¬(¬p ↔ p) := sorry
+example : p ∧ False ↔ False := sorry
 ```
 
 ## Koniunkcja, alternatywa, negacja, prawda i fałsz
 
 ```lean
+example : (p ↔ q) → (p → q) := sorry
+
+example : (p ↔ q) → (q → p) := sorry
+
+example : (p → q) → ((q → p) → (p ↔ q)) := sorry
+
+example : (p → q) ∧ (q → p) → (p ↔ q) := sorry
+
 example : ¬(p ∧ q) ↔ (¬p ∨ ¬q) :=
   ⟨sorry, -- W tą stronę trzeba użyć logiki klasycznej ...
    sorry⟩ -- ... a w tą nie.
@@ -414,16 +449,4 @@ example : (p ∧ q) ↔ ¬(¬p ∨ ¬q) :=
 example : (p ∨ q) ↔ ¬(¬p ∧ ¬q) :=
   ⟨sorry, 
    sorry⟩ -- W tą stronę trzeba użyć logiki klasycznej.
-```
-
-## Koniunkcja, alternatywa, prawda i fałsz
-
-```lean
-example : (p ∨ True) ↔ True := sorry
-
-example : (p ∧ True) ↔ p := sorry
-
-example : p ∨ False ↔ p := sorry
-
-example : p ∧ False ↔ False := sorry
 ```
