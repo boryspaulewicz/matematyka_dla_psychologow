@@ -291,7 +291,7 @@ między innymi pewne zdania z kwantyfikatorem egzystencjalnym, który jak wiesz 
 alternatywą).
 
 **Prośba do czytelniczek i czytelników**: Gdyby w trakcie rozwiązywania tych zadań pojawiły się
-jakieś trudności, bardzo pomożesz i innym czytelniczkom i czytelnikom pisząc mi o nich!
+jakieś trudności, bardzo pomożesz mi, a także innym czytelniczkom i czytelnikom pisząc mi o nich!
 
 ## Prawda i fałsz
 
