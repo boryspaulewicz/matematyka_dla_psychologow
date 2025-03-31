@@ -119,9 +119,9 @@ theorem dneg (p : Prop) : ¬¬p → p :=
 ```
 
 Czasem stosuję takie właśnie formatowanie kiedy używam w nieinteraktywnych dowodach reguły
-eliminacji alternatywy: Kiedy używam dowodu `h : p ∨ q` do udowodnienia `r`, dowody implikacji `p →
-r` i `q → r` zapisuję w kolejnych liniach, przesunięte w prawo względem linii, w której pojawia się
-na końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
+eliminacji alternatywy: Kiedy używam dowodu `p ∨ q` do udowodnienia `r`, dowody implikacji `p → r` i
+`q → r` zapisuję w kolejnych liniach, przesunięte w prawo względem linii, w której pojawia się na
+końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
 
 ```lean
  ...
@@ -130,10 +130,10 @@ na końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
    (fun np => (nnp np).elim)
 ```
 
-... bo wtedy można by szybciej zauważyć, że chodzi o regułę eliminacji dla altarnatywy a nie na
-przykład dla koniunkcji? Nie wiem, może. A poza tym jeżeli człony alternatywy to `p` i `q`, to
-parametry tych dowodów-funkcji nazywam `hp` i `hq` i dzięki temu, że trzymam się tej konwencji dość
-konsekwentnie, zacząłem się do niej przyzwyczajać i widzę, że często ułatwia mi operowanie dowodami.
+... bo wtedy można by szybciej zauważyć, że chodzi o regułę eliminacji dla altarnatywy, a nie na
+przykład dla koniunkcji? Kto wie, może? A poza tym, jeżeli człony alternatywy to `p` i `q`, to
+parametry tych dowodów-funkcji nazywam `hp` i `hq`, i dzięki temu, że trzymam się tej konwencji dość
+konsekwentnie, zacząłem się do niej przyzwyczajać i widzę, że ułatwia mi pisanie dowodów.
 
 Często używam też w tego typu sytuacjach słowa kluczowego `sorry`, które mówi Leanowi, że dany
 fragment kodu będzie uzupełniony później i ma się tym miejscem na razie nie przejmować. Na przykład,
