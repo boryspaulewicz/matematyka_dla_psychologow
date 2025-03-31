@@ -8,10 +8,10 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 29 marca. Dodałem rozdział R25=R19 pod wymownym tytułem
-[∃](./rozdzialy/Kwantyfikator_egzystencjalny.md). Czytelniczki i czytelników, *którzy oswoili się
-już z używaniem alternatywy*, zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek
-spostrzeżeń lub uwag, zwłaszcza tych krytycznych.
+**Aktualności**: 31 marca. Dodałem rozdział [R26=R20 Rachunek zdań w
+zadaniach](./rozdzialy/Kwantyfikator_egzystencjalny.md). Czytelniczki i czytelników, *którzy oswoili
+się już trochę z używaniem implikacji, negacji, koniunkcji i alternatywy* zapraszam do testowania,
+zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych.
 
 ## Przedmowa
 
@@ -228,6 +228,8 @@ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 [R24 = R18 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
 
 [R25 = R19 ∃](./rozdzialy/Kwantyfikator_egzystencjalny.md)
+
+[R26 = R20 Rachunek zdań w zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md)
 
 Notatki robocze do których można zaglądać:
 
