@@ -52,11 +52,15 @@ wystąpienie* litery `Z` można zastąpić przez cokolwiek, co ze względu na pr
 zdań jest zdaniem (rekurencja), i tak dalej.
 
 Zwracam też uwagę, że spójniki logiczne są tu operacjami *aksjomatycznymi* (negacja jest operacją
-jednoargumentową, pozostałe spójniki to operacje dwuargumentowe). W naszym (teoriotypowym) języku
-*bycie zdaniem* oznacza *ma typ `Prop`* i dzięki typom zależnym możemy *zdefiniować* w języku teorii
-typów wszystkie spójniki za wyjątkiem wbudowanej w język teorii typów implikacji. To jest przyjemne
-(albo nie, rzecz gustu), jednak ta ekspresyjność teorii typów nie ma większego znaczenia gdy
-używamy *samej* logiki.
+jednoargumentową, pozostałe spójniki to operacje dwuargumentowe); biorąc pod uwagę te 6 reguł
+jedyne, co możemy zrobić z tymi operacjami, to aplikować je do argumentów zdaniowych. Co więcej,
+zdefiniowany w ten sposób zbiór zdań to właściwie nie jest zbiór zdań, tylko zbiór elementów,
+których można będzie używać jak zdań, *o ile* dodamy do tych reguł jakieś reguły semantyczne.
+
+W naszym (teoriotypowym) języku bycie zdaniem to dokładnie zamieszkiwanie typu `Prop`. Dzięki typom
+zależnym możemy *zdefiniować* w języku teorii typów wszystkie spójniki, za wyjątkiem wbudowanej w
+język teorii typów implikacji. To jest oczywiście przyjemne (albo nie, rzecz gustu), jednak ta
+ekspresyjność teorii typów nie ma większego znaczenia gdy używamy *samej* logiki.
 
 *Reguły semantyczne* języka dotyczą *znaczenia* (poprawnych składniowo) wyrażeń tego języka. U nas
 semantyka języka rachunku zdań sprowadzała się do tej pory do reguł tworzenia i przekształcania
@@ -64,15 +68,11 @@ termów typów zdaniowych, które były pewnymi *obiektami* (albo metodami) *obl
 interpretowalnymi jako dowody*. A więc nasza semantyka sprowadzała się do specyficznie modelowanych
 (jako programy i struktury danych) *reguł dowodzenia*, ponieważ jedyną wersją prawdziwości, którą
 się do tej pory zajmowaliśmy, była prawdziwość rozumiana jako dowiedlność, a dowiedlność oznaczała
-istnienie poprawnego termu, czyli kodu danego typu zdaniowego. 
-
-Nie wiem, czy rzuciło Ci się to już wcześniej w oczy, ale jak dotąd nasze *reguły składniowe i
-semantyczne* były ze sobą *nierozerwalnie związane*. Na przykład, reguły konstruowania i używania
-zdań o postaci implikacji były nierozerwalnie związane z regułami konstruowania i używania funkcji
-będących dowodami takich zdań, bo te wszystkie reguły były od początku wbudowane w język teorii
-typów, a definiując typ zdań o postaci koniunkcji od razu określiliśmy, w jaki sposób można
-konstruować dowody takich zdań (tworząc pary uporządkowane) i rozstrzygnęliśmy jednocześnie, w jaki
-sposób można ich używać (używając projekcji z par).
+istnienie poprawnego termu, czyli kodu, danego typu zdaniowego. Nie wiem, czy rzuciło Ci się to już
+wcześniej w oczy, ale jak dotąd nasze reguły składniowe i semantyczne były ze sobą nierozerwalnie
+związane. Na przykład, definiując typ zdań o postaci koniunkcji od razu określiliśmy, w jaki sposób
+można konstruować dowody takich zdań (tworząc pary uporządkowane) i rozstrzygnęliśmy jednocześnie, w
+jaki sposób można ich używać do dowodzenia innych zdań (używając projekcji z par).
 
 ## *Klasyka*
 
