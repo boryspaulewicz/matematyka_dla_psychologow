@@ -222,8 +222,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R22 = R16 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/Produkty_sa_takie_same.md)
 
-[R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨
-q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
+[R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
 [R24 = R18 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
 
@@ -397,6 +396,10 @@ Znowu Tomkowi Smoleniowi, który znalazł błąd polegający na złym kierunku s
 definicji obiektu końcowego w rozdziale R21=R15. A potem znalazł błąd we fragmencie, który nazwałem,
 nomen omen, potencjalnie dezorientującym. Pojawiła się tam nazwa morfizmu `g` (równego `⟨π₁',π₂'⟩`),
 a powinna być nazwa `f` (równego `⟨π₁,π₂⟩`).
+
+Szymonowi Stryplingowi, za cenne informacje na temat tego, jak mu się czytało po dłuższej przerwie
+od zaglądania do tej książki rozdział 25-19, i za znalezienie w tym rozdziale źle oznaczonego
+komentarza.
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 

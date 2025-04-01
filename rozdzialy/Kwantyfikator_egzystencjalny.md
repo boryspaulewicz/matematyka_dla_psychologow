@@ -186,7 +186,7 @@ takiego, którego dotyczy `P` (tutaj term `Krystian`), i dowód, że ten term sp
 ```lean
 -- Lean nie sygnalizuje błędu, a więc dowód jest poprawny
 example : ∃ z : Zniwiarz, ¬ Pogodny z := ⟨Krystian, pon_npog Krystian pk⟩
-–- Nic prostszego, prawda?
+-- Nic prostszego, prawda?
 ```
 
 Zwracam uwagę na mam nadzieję zrozumiałą już w tym momencie analogię między (binarną) alternatywą i
