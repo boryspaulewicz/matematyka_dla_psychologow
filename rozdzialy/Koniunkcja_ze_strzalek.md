@@ -320,11 +320,8 @@ namespace Logika
 
   -- Korzystając z tych nowych definicji dowody zdań zawierających koniunkcję możemy pisać niemal
   -- tak samo jak wcześniej, musimy jednak zrezygnować z lukru oznaczającego parę `⟨,⟩`.
-  theorem t1 (p q : Prop) : p ∧ q → p :=
-    fun h : p ∧ q => And.left h
-
-  theorem t2 (p q : Prop) : p ∧ q → q ∧ p := 
-    fun h : p ∧ q => h (q ∧ p) (fun hp : p => fun hq : q => And.intro hq hp)
+  theorem t (p q : Prop) : p ∧ q → q ∧ p := 
+    fun h : p ∧ q => And.intro (And.right h) (And.left h)
 
 end Logika
 ```
