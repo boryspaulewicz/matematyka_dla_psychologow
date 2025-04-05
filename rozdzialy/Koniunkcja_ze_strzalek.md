@@ -306,22 +306,25 @@ namespace Logika
   def And (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
   infixr:35 (priority:=high) " ∧ " => And
 
-  def And.intro {p q : Prop} (hp : p) (hq : q) :=
+  def And.intro {p q : Prop} (hp : p) (hq : q) : p ∧ q :=
       fun (r : Prop) => fun (h : p → q → r) => h hp hq
 
-  def And.left {p q : Prop} (k : And p q) : p :=
-    k p (fun (hp : p) => fun (_ : q) => hp)
+  def And.left {p q : Prop} (h : p ∧ q) : p :=
+    h p (fun (hp : p) => fun (_ : q) => hp)
 
-  def And.right {p q : Prop} (k : And p q) : q :=
-      k q (fun (_ : p) => fun (hq : q) => hq)
-
-  variable (p q : Prop)
-  #check p ∧ q -- p ∧ q : Prop
+  def And.right {p q : Prop} (h : p ∧ q) : q :=
+      h q (fun (_ : p) => fun (hq : q) => hq)
 
   -- Korzystając z tych nowych definicji dowody zdań zawierających koniunkcję możemy pisać niemal
   -- tak samo jak wcześniej, musimy jednak zrezygnować z lukru oznaczającego parę `⟨,⟩`.
-  theorem t (p q : Prop) : p ∧ q → q ∧ p := 
+  theorem t1 (p q : Prop) : p ∧ q → q ∧ p := 
     fun h : p ∧ q => And.intro (And.right h) (And.left h)
+    
+  theorem t2 (p q : Prop) : p ∧ ¬p → q :=
+  -- `And.right` to tutaj dowód `¬p` czyli `p → Absurd`, `And.left h` to dowód `p`, a więc
+  -- `And.right h (And.left h) : Absurd`. Aplikując term typu `Absurd` do zdania `q` uzyskujemy
+  -- dowód `q`.
+    fun h => And.right h (And.left h) q
 
 end Logika
 ```
