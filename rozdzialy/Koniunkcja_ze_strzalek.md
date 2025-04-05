@@ -273,35 +273,38 @@ operatorów binarnych i unarnych (takich jak `¬`), priorytety muszą być zapis
 przypadku negacji ta liczba jest zapisana jako `max`, co Lean interpretuje jako liczbę `1024`i co
 znaczy, że symbol negacji wiąże najmocniej jak się da.
 
-Pozwoliłem sobie tutaj również skorzystać z tak zwanych *parametrów opcjonalnych*, co widać między
-innymi w definicji funkcji `And.intro`. W tej definicji zamiast zwykłych nawiasów, jak w `(p q :
-Prop)`, pierwsze dwa parametry są otoczone nawiasami *klamrowymi* (`{p q : Prop}`). Ponieważ trzeci
-argument funkcji `And.intro` *musi* być koniunkcją, a ta *musi* zawierać informacje na temat tego, z
-jakich zdań jest zbudowana, Lean może na tej podstawie sam wywnioskować wartość dwóch pierwszych
-parametrów. Dzięki temu, jeżeli w danym miejscu w kodzie `p : Prop`, `q : Prop`, `hp : p` i `hq : q`
-(zauważyłaś, że użyłem tutaj typowania w roli zdania?), wystarczy napisać `And.intro hp hq` zamiast
-dłuższego i redundantnego (czyli "niepotrzebnie przegadanego") `And.intro (a := p) (b := q) hp
-hq`. Oznaczyłem też za pomocą symbolu `_` te parametry λ-abstrakcji, które nie są nigdzie używane, w
-ten sposób usuwając ostrzeżenia na temat stylu.
+Pozwoliłem sobie tutaj również skorzystać z tak zwanych *parametrów opcjonalnych* inaczej
+*implicitnych*, co widać między innymi w definicji funkcji `And.intro`. W tej definicji pierwsze dwa
+parametry są otoczone nawiasami *klamrowymi* (`{p q : Prop}`). Ponieważ trzeci argument funkcji
+`And.intro` *musi* być koniunkcją, a ta *musi* zawierać informacje na temat tego, z jakich zdań jest
+zbudowana, Lean może na tej podstawie sam wywnioskować wartość dwóch pierwszych parametrów. Dzięki
+temu, jeżeli w danym miejscu w kodzie `p : Prop`, `q : Prop`, `hp : p` i `hq : q` (zauważyłaś, że
+użyłem tutaj typowania w roli zdania?), wystarczy napisać `And.intro hp hq` zamiast dłuższego i
+redundantnego (czyli "niepotrzebnie przegadanego") `And.intro (a := p) (b := q) hp hq` (tak, to jest
+używając symbolu definiowania `:=`, podaje się wartości dla parametrów implicitnych). Oznaczyłem też
+za pomocą symbolu `_` te parametry λ-abstrakcji, które nie są nigdzie używane, w ten sposób usuwając
+ostrzeżenia na temat stylu.
 
 ```lean
--- Zapisując poniższe definicje w przestrzeni nazw którą nazwałem Logika nie generuję konfliktów z
--- istniejącymi w Leanie definicjami tych samych stałych.
+-- Zapisując poniższe definicje w nowej przestrzeni nazw (tutaj `Logika`) można uniknąć
+-- konfliktów z istniejącymi w Leanie definicjami tych samych stałych.
 namespace Logika
 
-  -- W Leanie w zasadzie tą samą *rolę* odgrywa stała False, jednak *implementacja* tej roli jest
-  -- inna, bo w Leanie nie trzeba wszystkiego budować ze strzałek i funkcji.
+  -- W Leanie tą samą *rolę* odgrywa stała `False`, jednak *implementacja* tej roli jest inna, bo w
+  -- Leanie mamy też definicje indukcyjne i pary, dzięki czemu nie trzeba wszystkiego budować ze
+  -- strzałek i funkcji.
   def Absurd : Prop := (a : Prop) → a
 
-  -- Negacja jest w Leanie również zdefiniowana trochę inaczej, a konkretnie jako p → False.
+  -- Negacja jest w Leanie również zaimplementowana inaczej, bo jako `p → False`, ale *działa* tak
+  -- samo.
   def Not (p : Prop) : Prop := p → Absurd
-  notation:max "¬" p:40 => Not p
+  notation:max (priority:=high) "¬" p:40 => Not p
 
-  -- And to w Leanie typ par uporządkowanych zdań, a więc pewna *struktura* (o strukturach będę mówił
-  -- później). Dlatego również stałe And.left, And.right i And.intro, chociaż dostarczają zasadniczo
-  -- tą samą funkcjonalność, różnią się szczególami implementacji.
+  -- `And` to w Leanie typ par uporządkowanych zdań, a więc pewna *struktura* (o strukturach będę
+  -- mówił później). Dlatego również stałe `And.left`, `And.right` i `And.intro`, chociaż
+  -- dostarczają zasadniczo tą samą funkcjonalność, różnią się szczególami implementacji.
   def And (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
-  infixr:35 " ∧ " => And
+  infixr:35 (priority:=high) " ∧ " => And
 
   def And.intro {p q : Prop} (hp : p) (hq : q) :=
       fun (r : Prop) => fun (h : p → q → r) => h hp hq
@@ -313,15 +316,16 @@ namespace Logika
       k q (fun (_ : p) => fun (hq : q) => hq)
 
   variable (p q : Prop)
-  -- Gdy kursor znajduje się nad komendą #check Lean sygnalizuje *błąd*, ponieważ za bardzo zbliżyłem się tutaj
-  -- do tego, jak Lean obsługuje notację logiczną:
-  --
-  -- ambiguous, possible interpretations 
-  --   p ∧ q : Prop
-  --
-  --   p ∧ q : Prop
-  #check p ∧ q
-  
+  #check p ∧ q -- p ∧ q : Prop
+
+  -- Korzystając z tych nowych definicji dowody zdań zawierających koniunkcję możemy pisać niemal
+  -- tak samo jak wcześniej, musimy jednak zrezygnować z lukru oznaczającego parę `⟨,⟩`.
+  theorem t1 (p q : Prop) : p ∧ q → p :=
+    fun h : p ∧ q => And.left h
+
+  theorem t2 (p q : Prop) : p ∧ q → q ∧ p := 
+    fun h : p ∧ q => h (q ∧ p) (fun hp : p => fun hq : q => And.intro hq hp)
+
 end Logika
 ```
 
