@@ -345,5 +345,4 @@ pozwala mówić językami nie tylko ludzi, ale i
     Cheng](https://eugeniacheng.com/).
 
 [^2]: Na to, że duży kwantyfikator pojawił się tutaj po raz pierwszy w tej książce za symbolem
-    definiowania zwrócił mi uwagę Tomek Smoleń. Kto wie ilu czytelnikom w ten sposób pomógł
-    zrozumieć ten fragment.
+    definiowania zwrócił mi uwagę Tomek Smoleń.
