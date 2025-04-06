@@ -537,8 +537,11 @@ dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich
 nieokreślonych liczb naturalnych, `a`, `b` i `c`, o których założymy, że `a = b` i `b = c`, i o
 których udowodnimy, że `a = c`. W zwykłej książce do matematyki taki dowód mógłby wyglądać tak ...
 
-$a = b = c$
-
+```math
+\begin{aligned}
+    a = b = c
+\end{aligned}
+```
 ... i to byłby w zasadzie pełnowartościowy dowód, ponieważ wiemy, że relacja równości jest
 przechodnia, a więc w tym zwięźle zapisanym "podwójnym" równaniu mamy wszystkie informacje potrzebne
 do tego, żeby *samodzielnie* stwierdzić, że $a = c$. Jakiś bardziej pedantyczny autor mógłby napisać
@@ -550,11 +553,7 @@ też tak ...
     &b = c \\
     &a = c\ (\text{przechodniość})
 \end{aligned}
-
 ```
-$$a = b$$ (1)  
-$b = c$ (2)  
-$a = c$ przechodniość
 
 ... albo tak ...
 
