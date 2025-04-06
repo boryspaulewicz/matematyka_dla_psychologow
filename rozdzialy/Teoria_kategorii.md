@@ -559,6 +559,14 @@ też tak ...
 
 Jeżeli (1) $a = b$ i (2) $b = c$, to:
 
+```math
+\begin{aligned}
+    a &= b &(1)\\
+    &= c &(2)\\
+    a &= c &\text{przechodniość} (1) (2)
+\end{aligned}
+```
+
 $a = b$ (1)  
 $\ = c$ (2)  
 $a = c$ przechodniość równości (1) (2)
