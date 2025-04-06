@@ -224,8 +224,8 @@ stopnia zapłacić być może dlatego, że chociaż teoria kategorii może być,
 rozumiana jako *algebra [funkcji matematycznych](https://pl.wikipedia.org/wiki/Funkcja)*, to
 definicje pojęć, które można za jej pomocą wypowiedzieć, polegają często na charakteryzacji
 określonego rodzaju obiektów w kategoriach ich funkcji rozumianych jako *uniwersalne* albo w pewnym
-abstrakcyjnym sensie *najlepsze rozwiązywania pewnego rodzaju problemów a może nawet zadań*. Dlatego
-między innymi na własny użytek pół-żartem nazywam sobie ten język językiem kosmitów albo językiem
+abstrakcyjnym sensie *najlepsze rozwiązywania pewnego rodzaju problemów czy zadań*. Dlatego między
+innymi na własny użytek pół-żartem nazywam sobie ten język językiem kosmitów albo językiem
 aniołów. I kiedy mówię o nim, że jest jakby językiem aniołów, nie mówię tego wcale ironicznie.
 
 Nie jestem wierzący w żadnym prostym sensie tego słowa i chyba nigdy nie byłem. Pamiętam nawet dość
@@ -370,29 +370,32 @@ Przyjmiemy teraz ważną *regułę* dotyczącą *strzałek*: Zawsze gdy mamy tak
 Strzalka`, że `Skladalne f g`, musimy *dorysować* (na razie *anonimową*) strzałkę, albo przynajmniej
 *przyjąć, że istnieje* strzałka, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Czyli w
 przypadku tego rysunku to byłaby pewna narysowana ukośnie `Strzalka A C`. Ale w tej chwili jeszcze
-nie będziemy jej rysować. Można to zapamiętać tak: *Każdą dwustrzałkową drogę można przejść w jakiś
-dokładnie jeden sposób na skróty, a więc jednostrzałkowo*.
+nie będziemy jej rysować. Można to zapamiętać tak: *Każdą dwustrzałkową drogę* (którą będziemy
+nazywać *ścieżką*) *można przejść w jakiś sposób na skróty, a więc jednostrzałkowo*.
 
-`Skladalne` oznacza więc tylko, a właściwie będzie niebawem oznaczało (po wprowadzeniu odpowiedniego
-aksjomatu), że da się zawsze zrobić taką (unikalną) strzałkę. Ogólne konsekwencje niektórych jeszcze
-nie wprowadzonych aksjomat*ów* (liczba mnoga), dotyczących operacji składania strzałek, można
-zapamiętać w ten sposób: *Dla każdej skierowanej ścieżki* (a więc nie tylko dla ścieżek skierowanych
-*dwustrzałkowych*) *istnieje unikalna jednostrzałkowa droga na skróty równa złożeniu wszystkich
-strzałek należących do tej ścieżki* (czyli strzałka, której `Zrodlo` jest początkiem tej skierowanej
-ścieżki, a `Cel` jest jej końcem). Jeżeli to w tym momencie za dużo, nie przejmuj się, i tak
-będziemy się do tego powoli zbliżać.
+`Skladalne` oznacza więc tylko, a właściwie będzie niebawem oznaczało (a dokładniej implikowało po
+wprowadzeniu odpowiedniego aksjomatu), że da się zawsze zrobić taką (unikalną) strzałkę. Ogólne
+konsekwencje niektórych jeszcze nie wprowadzonych aksjomat*ów* (liczba mnoga) dotyczących operacji
+składania strzałek można zapamiętać w ten sposób: *Dla każdej skierowanej ścieżki* (a więc nie tylko
+dla ścieżek skierowanych *dwustrzałkowych*) *istnieje unikalna jednostrzałkowa "ścieżka na skróty",
+równa złożeniu wszystkich strzałek należących do tej ścieżki* (czyli strzałka, której `Zrodlo` jest
+początkiem tej skierowanej ścieżki, a `Cel` jest jej końcem). Jeżeli to w tym momencie za dużo
+informacji na raz, nie przejmuj się, nawet bez wykonywania żadnych zadań, dzięki nieuchronnym
+zmianom reprezentacji pamięciowych tych pojęć dojdziesz do momentu, w którym z łatwością będziesz
+konstruowała i przekształcała proste przykłady takich struktur "w głowie".
 
 Żeby zwiększyć szanse, że przypomnisz sobie o tej ważnej własności gdy to pojęcie okaże się później
-potrzebne, poproszę Cię teraz o narysowanie, po prawej od *diagramu* (to cały czas *niejawna
-definicja* stałej *diagram*, zauważyłaś?), który już zaczęłaś rysować pewien inny diagram z
-*komentarzem*.
+potrzebne, poproszę Cię teraz o narysowanie, po prawej od *diagramu* który już zaczęłaś rysować
+pewien inny diagram z *komentarzem* (to cały czas *niejawna*, a więc też *nieformalna definicja*
+stałej *diagram*, zauważyłaś?).
 
 6. Narysuj, po prawej od diagramu ze `Strzalka`-mi `f` i `g`, dwie poziome `Strzalka` oznaczone z
    góry literami `i` i `j`, tworzące *ścieżkę skierowaną* zaczynającą się w `Punkt X`, przebiegającą
-   przez `Punkt Y` i kończącą się na `Punkt Z`. Powiedziałem to tym razem trochę inaczej i dość
-   skrótowo, ale wiesz, o co mi chodzi, prawda? Na tym nowym diagramie powinny być dwie poziome
-   strzałki, `i` i `j`, takie, że `Zrodlo i` to `Punkt X`, `Cel i` to `Punkt Y`, `Zrodlo j` to
-   `Punkt Y` i wreszcie `Cel j` to `Punkt Z`.
+   przez `Punkt Y` i kończącą się na `Punkt Z`.
+   
+Powiedziałem to tym razem trochę inaczej, ale wiesz, o co mi chodzi, prawda? Na tym nowym diagramie
+powinny być dwie poziome strzałki, `i` i `j`, takie, że `Zrodlo i` to `Punkt X`, `Cel i` to `Punkt
+Y`, a `Zrodlo j` to `Punkt Y` i `Cel j` to `Punkt Z`.
 
 7. Ponieważ komentarze nie są częściami diagramów, otocz ten diagram prostokątem i napisz pod nim:
    *Takie pary strzałek są składalne. Zawsze, gdy mówimy o składalności strzałek, ważna jest*
@@ -405,11 +408,11 @@ Teraz, gdy mam nadzieję będziesz mogła trochę swobodniej operować pojęciem
 wrócić do pierwszego diagramu.
 
 8. Narysuj `Strzalka`, której `Zrodlo` to `Zrodlo f` i której `Cel` to `Cel g`. Oznacz tą strzałkę
-   zapisując po zewnętrznej stronie trójkąta, który w ten sposób powstał, literę `h`. Zanim
-   oznaczyłaś ją literą `h`, ta `Strzalka` była anonimowa, ale już nie jest, bo właśnie nadałaś jej
-   nazwę.
-
-Byłbym zapomniał, a to jest przecież ważne. Wróćmy na chwilę do drugiego diagramu.
+   zapisując po zewnętrznej stronie trójkąta, który w ten sposób powstał, literę `h`.
+   
+Zanim oznaczyłaś ją literą `h`, ta `Strzalka` była anonimowa, ale już nie jest, bo właśnie nadałaś
+jej nazwę, a więc dorysowanie litery `h` było tutaj *zdefiniowaniam stałej `h`*. Byłbym zapomniał, a
+to jest przecież ważne - wróćmy na chwilę do drugiego diagramu.
 
 9. Pod zapisanym już komentarzem dodaj jeszcze ten: **Trudne (więc wymaga czasu), ale ważne**:
    *Rysunek* **sugeruje** *tutaj, że `X`, `Y` i `Z` to* **różne** *punkty i że `i` i `j` to*
@@ -417,30 +420,34 @@ Byłbym zapomniał, a to jest przecież ważne. Wróćmy na chwilę do drugiego 
    nie jest kod Leana, tylko pewne* **formalne reprezentacje** *i te punkty i strzałki nie muszą*
    **oznaczać** *różnych obiektów* (odpowiedniego typu). *Punkty `X`, `Y` i `Z` pełnią tu więc role
    abstrakcyjnych reprezentacji czegoś, co spełnia pewne wymagania* (jak się okaże, będą to
-   wymagania kategorii), *to są więc takie* **rysunkowe zmienne**, *i tak samo zmiennymi są również
-   wszystkie strzałki* (chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli i
+   wymagania kategorii), *to są więc takie* **rysunkowe zmienne**, *i tak samo rysunkowymi zmiennymi
+   są wszystkie strzałki* (chyba, że z jakiś powodów przyjmiemy określone *definicje* tych symboli i
    staną się przez to *stałymi*).
 
-Teraz możemy wrócić do pierwszego diagramu.
+W punkcie *9* nie mówimy nic zaskakującego, bo przecież tak "działa" każdy fragment prozy
+matematycznej w którym występują zmienne, a to też jest jakaś proza matematyczna, tyle, że częściowo
+rysunkowa. Z drugiej strony, patrząc w ten sposób na prozę matematyczną musimy pogodzić się z tym,
+że używając jej konsekwentnie do myślania o czymś *stajemy się funkcją, która patrzy na* (jakiś)
+*świat przez pryzmat zmiennych/parametrów/wejść spełniająych określone wymagania*. Teraz możemy
+wrócić do pierwszego diagramu.
 
 10. Narysuj proszę, omijając z zewnątrz łukiem literę `h`, taką `i : Strzalka`, że `Rownolegle h i`
     i nadaj jej imię zapisując po zewnętrznej stronie literę `i`.
 
 Przypuszczam, że od razu domyśliłaś się, o co mi chodzi, ale na wszelki wypadek wyjaśniam. Odtąd
-czasem przyda nam się term `Rownolegle`. Jeżeli `i : Strzalka` i `j : Strzalka` i jednocześnie
-`Zrodlo i` to `Zrodlo j`, a `Cel i` to `Cel j`, czyli jeżeli `i : Strzalka` i `j : Strzalka` mają to
-samo `Zrodlo` i ten sam `Cel`, to możemy powiedzieć (bo te założenia pozwalają to zawsze udowodnić
-na mocy \{tutaj niejawnie wprowadzonej\} definicji), że `Rownolegle i j`.
+czasem przyda nam się term `Rownolegle`: Jeżeli `i : Strzalka` i `j : Strzalka` i jednocześnie
+`Zrodlo i` to `Zrodlo j`, a `Cel i` to `Cel j`, czyli jeżeli (różne *jako strzałki*) `i : Strzalka`
+i `j : Strzalka` mają to samo `Zrodlo` i ten sam `Cel`, to `Rownolegle i j`.
 
-Myślę, że od razu widzisz, że `h` i `i` są nie tylko równoległe, ale również obie są w taki sam,
-ważny dla nas odtąd sposób związane ze strzałkami `f` i `g`. Można powiedzieć, że zarówno `h` jak i
-`i` są jakby brakującymi bokami trójkąta o bokach `f : Strzalka` i `g : Strzalka` *i jednocześnie*
-(to też jest w tym wypadku ważne) zachodzi między nimi coś w rodzaju *uogólnionej* `Rownoleglosc`-i,
-bo (dwustrzałkowa) *ścieżka* `f;g` i *jednostrzałkowe ścieżki* `h` i `i` są wszystkie *kierunkowe*
-(zresztą każda jednostrzałkowa ścieżka jest kierunkowa, bo nie da się zmienić kierunku robiąc tylko
-jeden krok) i mają ten sam *początek* i *koniec*, jak dwie (niekoniecznie różne \{zacząłem teraz
-nagle mówić o potencjalnym *znaczeniu* tych symboli\}) jednokierunkowe ulice, którymi możemy
-wyjechać z tego samego miejsca i dojechać do tego samego miejsca.
+Myślę, że od razu widzisz, że `h` i `i` są nie tylko równoległe, ale również, że zarówno `h` jak i
+`i` *z osobna* są w taki sam, ważny dla nas odtąd sposób związane z *parą strzałek* `f` i
+`g`. Zarówno `h` jak i `i` są brakującymi bokami trójkąta o bokach `f : Strzalka` i `g : Strzalka`
+*i jednocześnie* (to też jest w tym wypadku ważne) zachodzi między nimi coś w rodzaju *uogólnionej*
+`Rownoleglosc`-i, bo (dwustrzałkowa) *ścieżka* `(f,g)` i *jednostrzałkowe ścieżki* `(h)` i `(i)` są
+wszystkie *kierunkowe* (zresztą każda jednostrzałkowa ścieżka jest kierunkowa, bo nie da się zmienić
+kierunku robiąc tylko jeden krok) i mają ten sam *początek* i *koniec*, jak dwie (niekoniecznie
+różne \{zacząłem teraz nagle mówić o potencjalnym *znaczeniu* tych symboli\}) jednokierunkowe ulice,
+którymi możemy wyjechać z tego samego miejsca i dojechać do tego samego miejsca.
 
 To ostatnie zdanie jest dosyć perfidne, więc nie przejmuj się, jeżeli jeszcze Ci się dobrze nie
 "przykleja". Spokojna [tafla tego oceanu](https://ncatlab.org/nlab/show/The+Rising+Sea) będzie się i
@@ -448,49 +455,58 @@ tak powoli unosić, aż w końcu, niemal bez użycia siły, [rozłupiemy razem t
 zgryzienia](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf);-
 musimy tylko poczekać, żeby się trochę namoczył ;-)
 
+Zwracam uwagę na wprowadzony niejawnie w ostatnim akapicie sposób oznaczania ścieżek (`(f,g)`, `(h)`
+i `(i)`) i terminy techniczne (czyli \{tutaj niejawnie\} zdefiniowane stałe) *początek* i *koniec*
+(ścieżki). Terminologia: *Strzałki*, takie jak tutaj `f` i `h`, mają *źródła* i *cele*; *ścieżki*
+mają *początki* i *końce*. Definicje: *Ścieżka* to *skończony ciąg strzałek*. Ścieżka *skierowana*
+albo *kierunkowa* to taka, że każda strzałka, która nie jest pierwsza na ścieżce, wychodzi z celu
+poprzedniej. *Początkiem* (każdej) ścieżki jest źródło pierwszej strzałki, a *końcem* jest cel
+ostatniej strzałki.
+
 Przyda nam się również (wymyślony przeze mnie do pewnych celów) term `Kompatybilne`, który będzie
 dotyczył *trzech* strzałek. Jeżeli `f : Strzalka`, `g : Strzalka` i `h : Strzalka`, to jeżeli
 `Skladalne f g` i `Zrodlo h` to `Zrodlo f`, a `Cel h` to `Cel g`, tak jak na pierwszym diagramie, to
 `Kompatybilne f g h`. Na Twoim rysunku taką relację spełniają więc dwie trójki, bo jest jednocześnie
-prawdą, że `Kompatybilne f g h` i `Kompatybilne f g i`.
+prawdą, że `Kompatybilne f g h` i `Kompatybilne f g i`. Zdanie `Kompatybilne a b c`, gdzie `a`, `b`
+i `c` to strzałki, mówi więc, że strzałka `c` *mogłaby* być złożeniem `a` i `b`, bo spełnia
+podstawowe wymagania dla bycia ich złożeniem, dotyczące źródeł i celów.
 
-Wprowadzimy teraz pewnego rodzaju *działanie na strzałkach*, czyli operację podobną na przykład do
-dodawania albo do mnożenia, ale ta operacja nie będzie dotyczyła liczb, tylko naszych
-strzałek. Będziemy ją *zapisywać* tak, jak znaną Ci już *aplikację*, tylko czasami w odrwotnej
-kolejności (kiedy będziemy używać termu `Zlozenie`), a czasami tak, jak zapisujemy aplikacje w
-Leanie (kiedy będziemy używać notacji wzrostkowej, czyli infiksowej, którą sobie zresztą jeszcze
-później maksymalnie uprościmy \{nie warto tych uwag o notacji próbować już zapamiętywać, tylko to
-sygnalizuję\}).
+Wprowadzimy teraz pewne *działanie na strzałkach*, czyli operację podobną na przykład do dodawania
+albo do mnożenia, ale ta operacja nie będzie dotyczyła liczb, tylko właśnie strzałek. Będziemy ją
+*zapisywać* tak, jak znaną Ci już *aplikację*, tylko czasami w odrwotnej kolejności (m.in. kiedy
+będziemy używać stałej `Zlozenie`), a czasami tak, jak zapisujemy aplikacje w Leanie (kiedy będziemy
+używać notacji wzrostkowej, czyli infiksowej, którą sobie zresztą jeszcze później uprościmy \{nie
+warto tych uwag o notacji próbować już zapamiętywać, tylko to sygnalizuję\}).
 
 Jeżeli `f : Strzalka` i `g : Strzalka` i `Skladalne f g`, tak jak na *naszym* diagramie, to
 przyjmujemy aksjomatycznie, czyli po prostu tak się umawiamy, że istnieje unikalne `Zlozenie f g :
-Strzalka`. Działanie nazywa się tutaj `Zlozenie` i stwierdziliśmy właśnie o tym działaniu, że
-złożenie dwóch składalnych strzałek `f` i `g` (w tej kolejności) jest również `Strzalka`,
-analogicznie do tego, że suma albo iloczyn dwóch liczb jest również liczbą. Nasza operacja
-`Zlozenie` różni się jednak od dodawania i mnożenia w ten ważny sposób, że tamte operacje mają sens
-dla *każdej* uporządkowanej pary liczb, a `Zlozenie` ma sens *tylko* dla tych (uporządkowanych) par
-`Strzalka`, które są `Skladalne`. Można więc powiedzieć nieformalnie, że `Zlozenie` jest działaniem
-*wybrednym*.
+Strzalka`, tak jak na przykład dla każdych dwóch liczb naturalnych `n` i `m` istnieje unikalna suma
+`n + m`, a dokładniej unikalna liczba naturalna równa `n + m`. Działanie nazywa się tutaj
+`Zlozenie`-m i stwierdziliśmy właśnie o tym działaniu, że złożenie dwóch składalnych strzałek `f` i
+`g` (w tej kolejności) jest również `Strzalka`, analogicznie do tego, że suma albo iloczyn dwóch
+liczb jest również liczbą. Nasza operacja `Zlozenie` różni się jednak od dodawania czy mnożenia w
+ten ważny sposób, że tamte operacje mają sens dla *każdej* (uporządkowanej) pary liczb, a `Zlozenie`
+ma sens *tylko* dla tych (uporządkowanych) par strzałek, które są `Skladalne`. Można więc powiedzieć
+(nieformalnie), że `Zlozenie` jest działaniem (potencjalnie, bo nie zawsze) *wybrednym*.
 
 Umówiliśmy się więc, że gdy `Skladalne f g`, to *musi istnieć* `Strzalka`, która jest *unikalnym*
-`Zlozenie f g`, w tej kolejności. Mamy teraz do wyboru dwie strzałki, `h` i `i`. Wybierzemy `h`, bez
-żadnego powodu, i wobec tego proszę Cię jeszcze, żebyś wewnątrz diagramu-trójkąta o bokach `f`, `g`
-i `h` zapisała symbol `✓`, który po polsku nazywamy
+`Zlozenie f g`, w tej kolejności. Mamy teraz na diagramie do wyboru dwie strzałki, `h` i
+`i`. Wybierzemy `h`, bez żadnego powodu, i wobec tego proszę Cię jeszcze, żebyś wewnątrz
+diagramu-trójkąta o bokach `f`, `g` i `h` zapisała symbol `✓`, który po polsku nazywamy
 [*fajką*](https://pl.wikipedia.org/wiki/Fajka_(znak_wyboru)), *ptaszkiem*, *haczykiem* lub
 *parafką*. Na cześć [Rachlina](https://en.wikipedia.org/wiki/Howard_Rachlin) i
-[Valéry'ego](https://pl.wikipedia.org/wiki/Paul_Val%C3%A9ry) postanowiłem wybrać
-[*ptaszka*](https://www.goodreads.com/quotes/97619-one-should-be-light-like-a-bird-and-not-like).
+[Valéry'ego](https://pl.wikipedia.org/wiki/Paul_Val%C3%A9ry) postanowiłem nazywać ten symbol
+[*ptaszkiem*](https://www.goodreads.com/quotes/97619-one-should-be-light-like-a-bird-and-not-like).
 
 Będziemy odtąd rozumieć, że *diagram*, wewnątrz którego znajduje się ptaszek, jest (z założenia,
-albo z jakiegoś powodu, wszystko jedno, po prostu jest) *przemienny*. Wydaje mi się, że w tym
-momencie najlepiej objaśnić to pojęcie skupiając się tylko na naszym diagramie. *Ponieważ
-zaznaczyłaś ptaszka*, z Twojego rysunku możemy teraz odczytać, że `Zlozenie f g` *jest tym samym
-(czymś) co* `h`. *Gdybyś* dodała jeszcze *ptaszka* między `i` i `h` (ale proszę nie rób tego, chyba,
-że nie możesz się powstrzymać), znaczyłoby to, że `i` jest tym samym (czymś) co `h`, a skoro `h` już
-jest (na mocy naszej decyzji) tym samym czymś, co `Zlozenie f g`, to obecność tego drugiego ptaszka
-oznaczałaby również, że `i` jest tym samym (czymś), co `Zlozenie f g`.
-
-Może dam sobie już spokój z tą zabawą w pół-sformalizowany pół-dialog.
+albo z jakiegoś powodu, wszystko jedno, po prostu jest) *przemienny*, inaczej *komutuje*. Wydaje mi
+się, że w tym momencie najlepiej objaśnić to pojęcie skupiając się tylko na naszym diagramie. *Od
+momentu, kiedy zaznaczyłaś ptaszka*, z Twojego rysunku możemy wywnioskować, że `Zlozenie f g` *jest
+tym samym (czymś) co* `h`. *Gdybyś* dodała jeszcze *ptaszka* między `i` i `h` (ale proszę nie rób
+tego, chyba, że nie możesz się powstrzymać), znaczyłoby to, że `i` jest tym samym (czymś) co `h`, a
+skoro `h` już jest (na mocy naszej decyzji) tym samym czymś, co `Zlozenie f g`, to obecność tego
+drugiego ptaszka oznaczałaby również, że `i` jest tym samym (czymś), co `Zlozenie f g`. No dobrze,
+może dam sobie na razie spokój z tą zabawą w pół-sformalizowany pół-dialog.
 
 Dużo tego było, ale można to wszystko podsumować dosyć krótko mówiąc, że rozważamy teraz *świat z
 samych strzałek i punktów, które zawsze* (o tym jeszcze nie mówiłem) *są źródłami albo celami jakiś
@@ -498,24 +514,25 @@ strzałek*. Czyli w naszym świecie *nie ma* punktów które nie są w ogóle "s
 świecie żadnych punktów, które nie są ani źródłem ani celem żadnej strzałki, bo *jedyne*, do czego w
 tej teorii służą punkty, to *ograniczanie operacji składania*. A więc te punkty są *tylko* po to,
 żeby można było elastycznie określać sposób, w jaki dokładnie operacja składania jest wybredna (w
-różnych sytuacjach). Czyli to są *tylko* takie *punkty zaczepienia* (strzałek).
+różnych sytuacjach). Czyli w tym świecie (albo języku) *punkty pełnią tylko rolę punktów zaczepienia
+strzałek*. 
 
 ## Równość (Wolność i Braterstwo)
 
 Do tej pory w ogóle nie *używaliśmy* w Leanie relacji równości, bo ta, gdy pisaliśmy w Leanie,
 pojawiała się tylko jako treść twiedzenia o przemienności dodawania liczb naturalnych, a tego
-twierdzenia nie używaliśmy (w Leanie) do niczego. Jak już wiesz, w matematyce ta relacja oznacza
+twierdzenia nie używaliśmy w Leanie do niczego. Jak już wiesz, w matematyce ta relacja oznacza
 *nierozróżnialność z danego punktu widzenia*. W *praktyce* to znaczy *tylko* tyle, że obiekty albo
-termy, które są (z założenia albo na mocy jakiegoś dowodu) równe, mogą się nawzajem *zastępować* w
-każdym (poprawnym) wyrażeniu (danego języka), nie zmieniając ani sensu albo treści, ani - jeżeli to
-wyrażenie jest zdaniem - statusu logicznego tego wyrażenia (to jest jego prawdziwości lub
-fałszywości). A mówiąc możliwie najkrócej:
+termy, które są (albo z założenia albo na mocy jakiegoś dowodu) równe, mogą się nawzajem
+*zastępować* w każdym (poprawnym) wyrażeniu (danego języka), nie zmieniając ani sensu albo treści,
+ani - jeżeli to wyrażenie jest zdaniem - statusu logicznego tego wyrażenia (to jest jego
+prawdziwości lub fałszywości). A mówiąc możliwie najkrócej:
 
 *To, co jest równe, jest zastępowalne wszędzie tam, gdzie może się pojawić*.
 
 Będziesz miała teraz okazję *doświadczyć* tej *jedynej roli* założeń o równości, konstruując proste
 dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich nazwy, skonstruujemy
-*dowód anonimowy*, używając do tego celu słowa kluczowego `example`, które działa tak samo jak
+*dowód anonimowy*, używając do tego celu słowa kluczowego `example`, które działa podobnie jak
 `theorem`, ale nie służy do definiowania nowych stałych. Będziemy też korzystać z trzech, bliżej
 nieokreślonych liczb naturalnych, `a`, `b` i `c`, o których założymy, że `a = b` i `b = c`, i o
 których udowodnimy, że `a = c`. W zwykłej książce do matematyki taki dowód mógłby wyglądać tak ...
@@ -527,6 +544,14 @@ przechodnia, a więc w tym zwięźle zapisanym "podwójnym" równaniu mamy wszys
 do tego, żeby *samodzielnie* stwierdzić, że $a = c$. Jakiś bardziej pedantyczny autor mógłby napisać
 też tak ...
 
+```math
+\begin{aligned}
+    a &= b &(1)\\
+    b &= c &(2)\\
+    a &= c &(3) \text{przechodniość}
+\end{aligned}
+
+```
 $$a = b$$ (1)  
 $b = c$ (2)  
 $a = c$ przechodniość
