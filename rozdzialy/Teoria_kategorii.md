@@ -702,8 +702,7 @@ example : a = c :=
     href="https://www.npr.org/2022/12/08/1141601301/the-myth-of-plastic-recycling">są</a></div><br><div
     align="center"><a href="https://en.wikipedia.org/wiki/Donald_Trump">lepsze</a></div><br> <div
     align="center"><b>∘</b></div><br> [od](https://en.wikipedia.org/wiki/Gun_control) [Wspaniałych
-    Małp](https://en.wikipedia.org/wiki/Simian),  
-    prawda?
+    Małp](https://en.wikipedia.org/wiki/Simian), prawda?
 
 [^3]: To zdanie też na zawsze zmieniło kiedyś "moje" życie, niemal natychmiast po tym, jak je
     przeczytałem. Może więc i "Tobie" się do czegoś przyda.
