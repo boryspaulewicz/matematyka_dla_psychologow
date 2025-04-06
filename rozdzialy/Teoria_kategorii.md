@@ -546,9 +546,9 @@ też tak ...
 
 ```math
 \begin{aligned}
-    a &= b &(1)\\
-    b &= c &(2)\\
-    a &= c &(3) \text{przechodniość}\\
+    &a = b \\
+    &b = c \\
+    &a = c \text{przechodniość}
 \end{aligned}
 
 ```
