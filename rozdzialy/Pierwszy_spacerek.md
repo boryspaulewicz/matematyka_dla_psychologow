@@ -89,12 +89,12 @@ uprościć.
 
 Jeżeli masz wątpliwości, czy dobrze wykonałaś to polecenie, to nie przejmuj się tym, za chwilę
 wszystko powinno się wyjaśnić. Jeżeli natomiast wydaje Ci się, że wykonałaś to zadanie poprawnie,
-ale czujesz frustrację związaną w jakiś sposób z brakiem poczucia sensu, to znakomicie, bo dzięki
-temu masz okazję nauczyć się lepiej rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę
-w nauce!
+ale czujesz frustrację związaną w jakiś sposób z brakiem poczucia sensu, to znakomicie, bo właśnie
+taki efekt chciałem uzyskać. Jeżeli tak się stało, to może dzięki temu będziesz nieco lepiej
+rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce.
 
-Naprawdę uważam, że zdolność do tymczasowego stłumienia potrzeby sensu bywa bardzo korzystna w nauce
-matematyki. Od kilku lat prowadzę kurs dla doktorantów dotyczący wnioskowania przyczynowego i
+Naprawdę uważam, że zdolność do *tymczasowego* stłumienia potrzeby sensu bywa bardzo korzystna w
+nauce matematyki. Od kilku lat prowadzę kurs dla doktorantów dotyczący wnioskowania przyczynowego i
 bayesowskiego. Bez przesady mogę powiedzieć, że zapisują się na niego nieodmiennie wymarzeni wprost
 studenci, tacy, którzy wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej
 czy później zaczynam im mówić o [twierdzeniu
