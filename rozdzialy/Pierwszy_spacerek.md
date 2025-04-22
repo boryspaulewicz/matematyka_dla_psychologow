@@ -84,8 +84,8 @@ tam, gdzie jest $y$. Te dwa nowe równania będą w zasadzie takie same jak rów
 będą w nich występowały inne symbole ($a$ i $b$ zamiast $x$ i $y$) w roli zmiennych. Następnie użyj
 reguły 3 w jedyny sposób w jaki się da (ta reguła mówi coś o tych dwóch nowych równaniach, a raczej
 o ich częściach), żeby uzyskać trzecie nowe równanie. Zakładając, że $\underbrace{b} \neq 0$ podziel
-obie strony tego ostatniego równania przez $b$ i uprość jedyną rzecz, którą możesz tam uprościć. To
-na razie tyle.
+obie strony tego ostatniego równania przez $\underbrace{b}$ i uprość jedyną rzecz, którą możesz tam
+uprościć.
 
 Jeżeli masz wątpliwości, czy dobrze wykonałaś to polecenie, to nie przejmuj się tym, za chwilę
 wszystko powinno się wyjaśnić. Jeżeli natomiast wydaje Ci się, że wykonałaś to zadanie poprawnie,
