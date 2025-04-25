@@ -102,7 +102,7 @@ odkrywamy jednak w koñcu, ¿e choæ nie pada³ deszcz, jeste¶my przemoczeni[^1].
 Gdy pojawi siê frustracja, a prawie na pewno czasem siê pojawi, poczekaj, albo wróæ do tego, co
 wydaje Ci siê, ¿e ju¿ dobrze zrozumia³a¶. To nie jest psychologia, w której zwykle to, o czym siê
 czyta, wydaje siê na pocz±tku w miarê zrozumia³e albo intuicyjne, ale im d³u¿ej siê nad tym
-zastanawia, tym wiêcej pojawia siê w±tpliwo¶ci; w matematyce jest czêsto odwrotnie - rezultatem
+zastanawiamy, tym wiêcej pojawia siê w±tpliwo¶ci; w matematyce jest czêsto odwrotnie - rezultatem
 pierwszego kontaktu z jak±¶ definicj±, twierdzeniem, albo teori± mo¿e byæ dezorientacja, która z
 czasem ustêpuje wra¿eniu, ¿e wszystko jest w zasadzie oczywiste, proste i nieuchronne. A
 w³a¶nie. Niedawno postanowi³em, ¿e poniewa¿ wiêkszo¶æ studentów psychologii to wcale nie studenci,
