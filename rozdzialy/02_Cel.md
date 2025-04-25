@@ -133,7 +133,7 @@ perspektywy użytkownika ten artykuł będzie się składał z *dwóch łatwych 
 założeń dotyczących danych i własności planu badawczego i być może jakiś definicji i założeń o
 charakterze teoretycznym, a także listy dedukcyjnych wniosków. Już teraz możemy to zrobić z
 wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania (z instrukcją)
-będziemy mogli zrobić to samo z wnioskami swoiście psychologicznymi. 
+będziemy mogli zrobić to samo z pewnymi wnioskami swoiście psychologicznymi.
 
 Z perspektywy użytkownika to będzie po prostu informacja, że określone *warunki badania* i *źródła
 danych* - które z powodów praktycznych taki użytkownik będzie musiał traktować jako coś w rodzaju
