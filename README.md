@@ -88,19 +88,20 @@ wcześniej.
 
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
-rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software))?** Teoria typów dlatego, że pozwala
-sformalizować w pełni i we względnie naturalny sposób, bo do pewnego stopnia *czytelny dla
-niespecjalistów*, niemal dowolne treści o charakterze matematycznym i jest jednocześnie
-pełnowartościowym ([funkcyjnym i czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne))
-językiem programowania. W dodatku to nie jest jakiś tam kolejny taki język, tylko taki, którego
-składnia kształtowała się stopniowo jako rezultat badań wybitnych matematyków i filozofów
-zajmujących się podstawami matematyki. Ale teoria typów także dlatego, że być może najciekawszym i
-najważniejszym zastosowaniem matematyki w psychologii *nie* jest moim zdaniem wcale testowanie
-hipotez statystycznych ani wnioskowanie przyczynowe. Według mnie *nie* jest nim również formalizacja
-wyrażonych w języku naturalnym teorii lub modeli psychologicznych w postaci matematycznych modeli
-rozmaitych zjawisk. Być może najważniejszym zastosowaniem matematyki we współczesnej psychologii
-jest w mojej ocenie *formalizacja rozumowań*, które psychologowie wyrażają często dosyć nieczytelnie
-i niejasno w swoich publikacjach. A teoria typów wyposażona w [typy
+rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software)) (albo
+[Rocq](https://rocq-prover.org/))?** Teoria typów dlatego, że pozwala sformalizować w pełni i we
+względnie naturalny sposób, bo do pewnego stopnia *czytelny dla niespecjalistów*, niemal dowolne
+treści o charakterze matematycznym i jest jednocześnie pełnowartościowym ([funkcyjnym i
+czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)) językiem programowania. W dodatku
+to nie jest jakiś tam kolejny taki język, tylko taki, którego składnia kształtowała się stopniowo
+jako rezultat badań wybitnych matematyków i filozofów zajmujących się podstawami matematyki. Ale
+teoria typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem matematyki w
+psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani wnioskowanie
+przyczynowe. Według mnie *nie* jest nim również formalizacja wyrażonych w języku naturalnym teorii
+lub modeli psychologicznych w postaci matematycznych modeli rozmaitych zjawisk. Być może
+najważniejszym zastosowaniem matematyki we współczesnej psychologii jest w mojej ocenie
+*formalizacja rozumowań*, które psychologowie wyrażają często dosyć nieczytelnie i niejasno w swoich
+publikacjach. A teoria typów wyposażona w [typy
 zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się czymś najbliższym, co
 obecnie mamy, do realizacji wizji[^2] [Russella](https://pl.wikipedia.org/wiki/Bertrand_Russell),
 którą ten przedstawił w wykładzie zatytułowanym *Logika jako istota filozofii* w 1914 roku w

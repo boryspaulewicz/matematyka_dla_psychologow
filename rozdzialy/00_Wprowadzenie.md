@@ -65,10 +65,12 @@ Mam wra¿enie, ¿e studenci i przynajmniej Ci m³odsi pracownicy naukowi czêsto mni
 programowania ni¿ matematyki, a poza tym z programowaniem mog± siê oswajaæ w interakcji z
 dostarczaj±cym informacji zwrotnych komputerem. Wtedy obecno¶æ nauczyciela nie jest a¿ taka
 potrzebna. Ta ksi±¿ka ma miêdzy innymi pomóc w oswajaniu siê z matematyk±, czyli g³ównie z
-konsekwentnym i abstrakcyjnym my¶leniem opartym na prze³±czaniu siê miêdzy ró¿nymi punktami
-widzenia, przede wszystkim w³a¶nie zainteresowanym samodzielnym poszerzaniem wiedzy studentom
-psychologii i pracownikom akademickim zajmuj±cym siê badaniami psychologicznymi, którzy s± gotowi w
-tym celu podj±æ próbê poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka programowania.
+**konsekwentnym, abstrakcyjnym my¶leniem i rozwi±zywaniem problemów teoretycznych opartym na
+kontrolowanym prze³±czaniu siê miêdzy ró¿nymi punktami widzenia i wyra¿aniu nowych punktów widzenia
+w postaci jêzyków formalnych**, przede wszystkim w³a¶nie zainteresowanym samodzielnym poszerzaniem
+wiedzy studentom psychologii i pracownikom akademickim zajmuj±cym siê badaniami psychologicznymi,
+którzy s± gotowi w tym celu podj±æ próbê poznania nowego, piêknego i wyj±tkowo ekspresyjnego jêzyka
+programowania.
 
 Uprzedzam jednak, ¿e ta ksi±¿ka *mo¿e zawieraæ b³êdy we fragmentach napisanych w jêzyku naturalnym*,
 czyli tam, gdzie mniej lub bardziej po swojemu obja¶niam kod albo zapêdzam siê w dygresje. To ryzyko
@@ -83,14 +85,13 @@ ale zdarza mi siê o tym zapominaæ kiedy du¿o piszê albo du¿o zmieniam. Je¿eli ak
 po wprowadzeniu zmian, to znaczy, ¿e wszystkie formalne czê¶ci zosta³y sprawdzone przez algorytm,
 którego u¿ywa do tego Lean, a wtedy ma³o czego mo¿na byæ tak pewnym jak tego, ¿e s±
 [bezb³êdne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650). A gdyby¶ mia³a
-jakiekolwiek w±tpliwo¶ci, zawsze mo¿esz wkleiæ kod do Leana i przekonaæ siê sama, czy nie pojawia
-siê b³±d.
+w±tpliwo¶ci, zawsze mo¿esz wkleiæ kod do Leana i przekonaæ siê sama, czy nie pojawia siê b³±d.
 
 Muszê Ciê te¿ ostrzec, ¿e je¿eli dotrzesz do koñca rozdzia³u szóstego i uda Ci siê zrobiæ poprawnie
 zadania, których do tego momentu bêdzie zreszt± niewiele, mo¿liwe, ¿e poczujesz co¶ w rodzaju
 zagubienia. Bêdziemy siê zajmowaæ bardzo abstrakcyjnymi sprawami, dlatego takie poczucie jest na
 pocz±tku do¶æ prawdopodobne. Ja te¿ siê tak czu³em, gdy zaczyna³em siê uczyæ o teorii typów. To
-poczucie mo¿e siê stopniowo zmieniæ w coraz g³êbsze zrozumienie, ale to wymaga *cierpliwo¶ci*.
+poczucie mo¿e siê stopniowo zmieniaæ w coraz g³êbsze zrozumienie, ale to wymaga **cierpliwo¶ci**.
 
 W zwi±zku z tym, oto moja sugestia: Daj sobie czas, ¿eby wszystko zd±¿y³o siê trochê "ule¿eæ" i
 pogód¼ siê z tym, ¿e dobre opanowanie tego rodzaju materia³u mo¿e wymagaæ wracania do przeczytanych
@@ -116,7 +117,7 @@ spotka³em jednak prawie wcale kobiet, które dorównywa³yby wiêkszo¶ci mê¿czyzn pe
 wypowiedzi. A poza tym, gdy zacz±³em pisaæ do wyobra¿onego czytelnika w formie ¿eñskiej, przysz³o mi
 do g³owy, ¿e ewentualny brak tupetu przestaje mieæ znaczenie, kiedy swoje tezy mo¿na *formalnie
 udowodniæ* i bardzo spodoba³a mi siê wizja kobiet prezentuj±cych *wnioski z badañ* z pe³n±
-¶wiadomo¶ci±, ¿e poniewa¿ te s± ju¿ udowodnione (zak³adaj±c wiarygodno¶æ ¼ród³a danych), *nie da
+¶wiadomo¶ci±, ¿e poniewa¿ te s± ju¿ udowodnione - zak³adaj±c wiarygodno¶æ ¼ród³a danych - *nie da
 siê* ich skutecznie podwa¿yæ.
 
 Ale wracaj±c ju¿ do przerwanego w±tku, poczucie zrozumienia czêsto jest zwodnicze. Wiele razy
@@ -159,9 +160,9 @@ Niektórzy wybitni matematycy potrafi± tak pisaæ. A ¿e temat bywa abstrakcyjny, z
 g³êbokich niespodzianek, rezultatem mo¿e byæ pora¿aj±ce po³±czenie tre¶ci z form±. Taki efekt jest
 osi±galny chyba tylko wtedy, gdy autorzy maj± rzeczywi¶cie co¶ do powiedzenia i nie tylko dobrze
 rozumiej± to, co chc± powiedzieæ, ale tak¿e to, jakie trudno¶ci mog± siê pojawiæ u odbiorcy. No wiêc
-to jest, moim zdaniem, w³a¶nie taka ksi±¿ka. W dodatku poza dobr± znajomo¶ci± angielskiego, autorzy
-nie zak³adaj± ¿adnej wcze¶niejszej wiedzy czytelnika. Mimo to, uczenie siê z niej nie by³o dla mnie
-ani trochê ³atwe.
+to jest, moim zdaniem, w³a¶nie taka ksi±¿ka. W dodatku poza dobr± znajomo¶ci± angielskiego autorzy
+nie zak³adaj± ¿adnej wcze¶niejszej wiedzy. Mimo to uczenie siê o teorii typów z tej znakomitej
+ksi±¿ki nie by³o dla mnie ani trochê ³atwe.
 
 Przez d³u¿szy czas zaczyna³em prawie ka¿dy dzieñ od 30 minutowej jednostki (tak to sobie nazywam),
 polegaj±cej albo na czytaniu *po raz kolejny* tego samego *krótkiego* fragmentu, albo na robieniu
@@ -172,7 +173,7 @@ proces.
 Którego¶ dnia, z czystej ciekawo¶ci, zacz±³em swobodnie czytaæ dalej, a potem wróci³em do fragmentu,
 na którym wcze¶niej skoñczy³em. W ten sposób mia³em pewn± przerwê miêdzy momentem, w którym pierwszy
 raz przeczyta³em ten pó¼niejszy fragment, ale nie robi³em ¿adnych pojawiaj±cych siê tam zadañ, a
-momentem, kiedy znowu zacz±³em go czytaæ. Okaza³o siê, ¿e rozumiem ten fragment znacznie
+momentem, kiedy znowu zacz±³em go czytaæ. Zauwa¿y³em wtedy, ¿e rozumiem ten fragment znacznie
 lepiej. Postanowi³em wiêc, po raz pierwszy w ¿yciu i tylko na próbê, *w ogóle nie robiæ zadañ, gdy
 nie mam na to ochoty, albo gdy nie czujê, ¿e muszê je zrobiæ, ¿eby zrozumieæ chocia¿ trochê, o co
 chodzi*. A tak przy okazji, niektóre z zadañ w ksi±¿ce, któr± w³a¶nie czytasz, s± integraln± czê¶ci±
@@ -201,10 +202,10 @@ narzêdziami teoretycznymi, musia³em jako¶ rozwi±zaæ problem polegaj±cy na tym, ¿
 podszkoliæ, szuka³em wiêc najlepszych ¿yj±cych autorów zajmuj±cych siê tematem, potem zdobywa³em,
 nie powiem w jaki sposób (ani nie powiem, czy na przyk³ad z istniej±cego ju¿ wtedy serwisu
 [AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze ksi±¿ki, przebija³em siê przez pierwsze
-kilkadziesi±t stron szukaj±c b³êdów, po czym pisa³em do autorów maile. W tych mailach zwykle
-wyra¿a³em szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em
-tak ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te zawsze mo¿na
-by³o znale¼æ. Listê autorów, którym "to zrobi³em" znajdziesz na dziewi±tej stronie mojego doktoratu.
+kilkadziesi±t stron szukaj±c b³êdów, po czym pisa³em do tych autorów maile. Zwykle wyra¿a³em w nich
+szczery podziw i g³êbok± wdziêczno¶æ, równie¿ szczer±, a niejako przy okazji wspomina³em tak
+ostro¿nie, jak tylko umia³em (czyli pewnie niezbyt) o znalezionych b³êdach. A te zawsze mo¿na by³o
+znale¼æ. Listê autorów, którym "to zrobi³em" znajdziesz na dziewi±tej stronie mojego doktoratu.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej ¿yczliwie i
 wyczerpuj±co mi odpowiadali. Chyba najlepszym przyk³adem, jak to mo¿e dzia³aæ, jest jedna z
