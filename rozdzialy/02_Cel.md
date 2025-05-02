@@ -334,8 +334,7 @@ delty*](https://en.wikipedia.org/wiki/Delta_rule)) - [modelu warunkowania
 Rescorli-Wagnera](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model). Nic dziwnego, że
 takie naturalne uogólnienie modelu Rescorli-Wagnera "wyłania się" z ramy pojęciowej uczenia się ze
 wzmocnieniem, skoro ten model był rozumiany przez Rescorlę i Wagnera zadanio-centrycznie jako
-przybliżone rozwiązanie pewnego uniwersalnie ważnego dla zwierząt problemu predykcji. Tym samym
-*prawie* udało się Suttonowi i Barto podać formalną definicję działania celowego.
+przybliżone rozwiązanie pewnego uniwersalnie ważnego dla zwierząt problemu predykcji.
 
 Funkcja nagrody, czy też związana z nią funkcja wartości, *nie muszą* a nawet *nie powinny* być
 jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem, po prostu dlatego, że
