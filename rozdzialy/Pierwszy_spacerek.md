@@ -20,9 +20,10 @@ I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiają
 
 1. Konkretną *liczbę* naturalną
 
-2. *Zmienną*, na przykład zmienną *a*, o której wcześniej założyłaś, że oznacza (jakąś) liczbę naturalną
+2. *Zmienną*, na przykład zmienną *a*, o której wcześniej zdecydowałaś, że oznacza (jakąś) liczbę
+   naturalną
 
-3. *Wyrażenie*, które po obliczeniu daje liczbę naturalną, takie jak *10 - 1*
+3. *Wyrażenie*, o którym wiesz, że po obliczeniu daje liczbę naturalną, takie jak *10 - 1*
 
 Trzeba tylko pamiętać, żeby podstawianie było konsekwentne, to znaczy, za *n* musi być wszędzie
 podstawione to samo i za *m* wszędzie to samo. Trzeba też wiedzieć, że to nie muszą być dwie różne
@@ -39,8 +40,8 @@ A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 *b + b = b + b*
 
 i *(2 + 3 + a) + b = b + (2 + 3 + a)*, bo *2 + 3 + a* oznacza w tym kontekście (oto cały kontekst:
-*a* i *b* to jakieś liczby naturalne) jakąś liczbę naturalną, i tak dalej. Myślę, że zgodzisz się,
-że tego rodzaju operacje wiele dzieci opanowuje bez trudu w szkole podstawowej.
+*a* i *b* to jakieś liczby naturalne) liczbę naturalną, i tak dalej. Myślę, że zgodzisz się, że tego
+rodzaju operacje wiele dzieci opanowuje bez trudu w szkole podstawowej.
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
@@ -53,7 +54,7 @@ w rodzaju mechanizmu, to ten mechanizm składa się co najmniej z trzech częśc
 
 1. Zapisanego w jakiś sposób (matematycznego) przepisu.
 
-2. Z nas samych (sic!)
+2. Z nas samych (sic!).
 
 3. I z tego, jak tego przepisu używamy. 
 
@@ -62,11 +63,12 @@ dziecinnie prosta zabawa symbolami będzie również naszym punktem dojścia.
 
 Spróbuj chwilowo potraktować takie formalne reguły jak te, które podałem wyżej, jakby były regułami
 gry, która nie musi mieć żadnego sensu. Uwierz mi, bo sprawdzałem to wielokrotnie, na tym etapie
-potrzeba sensu może Ci przeszkadzać. Obiecuję, że sens się sam pojawi, tylko może kiedy indziej.
+potrzeba sensu może Ci przeszkadzać. Obiecuję, że sens się sam pojawi, tylko może kiedy indziej i
+raczej stopniowo.
 
 **Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej cztery zdania, które
 będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry*, albo jeszcze lepiej *reguły
-językowe* albo *komunikacyjne*, na które umawiamy się bez uzasadnienia:
+językowe* albo *reguły komunikacyjne, na które umawiamy się bez uzasadnienia*:
 
 1. Istnieją *fldsmdfry*.
 
@@ -79,7 +81,7 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne) [fldsmdfry](https://cloudyw
 4. $x \odot y * \underbrace{y} = \underbrace{x, y}$.
 
 Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, $a$ i $b$. Użyj reguły 4 żeby uzyskać *dwa nowe
-równania*, najpierw podstawiając $a$ *wszędzie* tam gdzie w regule 4 występuje $x$ i $b$ wszędzie
+równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje $x$, i $b$ wszędzie
 tam, gdzie jest $y$. Te dwa nowe równania będą w zasadzie takie same jak równanie w regule 4, ale
 będą w nich występowały inne symbole ($a$ i $b$ zamiast $x$ i $y$) w roli zmiennych. Następnie użyj
 reguły 3 w jedyny sposób w jaki się da (ta reguła mówi coś o tych dwóch nowych równaniach, a raczej
@@ -91,13 +93,13 @@ Jeżeli masz wątpliwości, czy dobrze wykonałaś to polecenie, to nie przejmuj
 wszystko powinno się wyjaśnić. Jeżeli natomiast wydaje Ci się, że wykonałaś to zadanie poprawnie,
 ale czujesz frustrację związaną w jakiś sposób z brakiem poczucia sensu, to znakomicie, bo właśnie
 taki efekt chciałem uzyskać. Jeżeli tak się stało, to może dzięki temu będziesz nieco lepiej
-rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce.
+rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce matematyki.
 
 Naprawdę uważam, że zdolność do *tymczasowego* stłumienia potrzeby sensu bywa bardzo korzystna w
 nauce matematyki. Od kilku lat prowadzę kurs dla doktorantów dotyczący wnioskowania przyczynowego i
 bayesowskiego. Bez przesady mogę powiedzieć, że zapisują się na niego nieodmiennie wymarzeni wprost
 studenci, tacy, którzy wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej
-czy później zaczynam im mówić o [twierdzeniu
+czy później zaczynam na tym kursie mówić o [twierdzeniu
 Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu tego twierdzenia krótkim ogólnym wprowadzeniem i gdy
@@ -112,7 +114,7 @@ oczywista.
 
 **Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej trzy zdania, które
 będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry*, albo jeszcze lepiej *reguły
-językowe* albo *komunikacyjne*, na które umawiamy się bez uzasadnienia:
+językowe* albo *reguły komunikacyjne, na które umawiamy się bez uzasadnienia*:
 
 1. Istnieją tak zwane *zdarzenia*.
 
@@ -129,7 +131,7 @@ Być może przyszła Ci do głowy narzucająca się interpretacja symboli *zdarz
 to spróbuj ją proszę zignorować, na ile tylko jesteś w stanie. Jeszcze raz podkreślam, *to tylko
 gra*.
 
-Poza wymienionymi aksjomatami będziemy jeszcze potrzebować *definicji* symbolu |:
+Poza wymienionymi aksjomatami będziemy jeszcze potrzebować definicji symbolu |:
 
 4. Jeżeli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
 
@@ -149,8 +151,8 @@ dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założył
 Jeżeli wykonałaś wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to udało
 Ci się udowodnić nieznacznie uproszczoną wersję twierdzenie Bayesa. W dodatku zrobiłaś to już po raz
 drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko cechami powierzchownymi, to
-jest nazwami i sposobem zapisywania pewnych stałych. Moim studentom, gdy udowadniają w ten sposób to
-twierdzenie po raz pierwszy w życiu nie zajmuje to zwykle więcej niż 15 minut. 
+jest nazwami i sposobem zapisywania pewnych stałych. Moim studentom, gdy udowadniają w ten (drugi)
+sposób to twierdzenie po raz pierwszy w życiu nie zajmuje to zwykle więcej niż 15 minut.
 
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
@@ -161,7 +163,8 @@ uproszczoną. Prawdopodobieństwa nie mogą być mniejsze niż *0* ani większe 
 prawdopodobieństwa to dowolne liczby, nie wiadomo nawet jakie, czy na przykład rzeczywiste, czy
 wymierne. Tak się jednak składa, że nie potrzebowaliśmy korzystać z tych własności
 prawdopodobieństwa, nasze reguły nie były więc wcale *niezgodne* z rachunkiem prawdopodobieństwa,
-tylko *słabsze* (w znaczeniu mniej "zobowiązujące", nie w znaczeniu "gorsze").
+tylko *słabsze* (w znaczeniu mniej "zobowiązujące", nie w znaczeniu "gorsze" czy "bardziej
+wątpliwe").
 
 Wypadałoby niby poza tym wprowadzić pojęcie [*zmiennnej
 losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniśmy mówić
@@ -174,7 +177,7 @@ ograniczenia, ta wersja jest moim zdaniem znacznie lepsza, niż nic. Wystarcza n
 zilustrowania wielu ciekawych zastosowań tego twierdzenia w psychologii, albo do snucia ogólnych
 rozważań na temat oceny hipotez empirycznych.
 
-Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej bardziej bezsensownej
+Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej agresywnie bezsensownej
 wersji, pozwoliło Ci też doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
 zaczęło do mnie trochę lepiej docierać, co z tego wynika. Gdy poprosiłem doktorantów o
 skonstruowanie według wskazówek zapisanych w skrypcie w języku Lean dowodów kilku prostych
@@ -188,8 +191,8 @@ spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak
 to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według
 wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są
 czynności mechaniczne, to znaczy, że można je wykonać *nie rozumiejąc treści twierdzenia*. Ale w
-takim razie *znajomość dowodu* mówi niewiele, a często może nawet *nic*, o *sensie* dowiedzionego
-zdania. 
+takim razie *znajomość dowodu mówi niewiele, a często może nawet nic, o sensie dowiedzionego
+zdania*.
 
 Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego
 pomocą *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
@@ -197,7 +200,7 @@ pomocą *innych* zdań lub rozwiązując jakieś problemy i poznając w ten spos
 dać; rolą dowodu *nie* jest ujawnianie znaczenia dowodzonego zdania, tylko rozstrzyganie o jego
 prawdziwości i (częściowe) ujawnienie znaczenia *założeń dowodu*. Wykonując dwa razy ten sam w
 zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł -
-i *w pewnym sensie* dowiedziałaś się trochę na temat znaczenia czy sensu tych reguł, ponieważ miałaś
-okazję doświadczyć pewnych sposobów, w jaki można te reguły stosować.
+i *w pewnym sensie* dowiedziałaś się trochę na temat znaczenia czy sensu tych *reguł*, ponieważ
+miałaś okazję doświadczyć pewnych sposobów, w jaki można te reguły *stosować*.
 
-Będziemy odtąd robić podobne rzeczy, ale [nie na kartce](Spacerek_po_Leanie_1.md).
+Będziemy odtąd robić podobne rzeczy, ale zwykle [nie na kartce](Spacerek_po_Leanie_1.md).
