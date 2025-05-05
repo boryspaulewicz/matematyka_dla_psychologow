@@ -6,14 +6,14 @@ właśnie zetknęłaś.
 <hr>
 
 Najważniejsze, co robi Lean, a ogólnie co dzieje się z wyrażeniami w teorii typów, to *ewaluacja*
-(inaczej redukcja) aplikacji i *sprawdzanie poprawności kodu*. Oba te procesy są realizowane przez
-pewne *algorytmy*, a to znaczy, że *każdy* fragment kodu może być w skończonym czasie sprawdzony pod
-względem poprawności i *każdy* poprawny fragment kodu może być w skończonym czasie zredukowany do
-najprostszej postaci.
+(inaczej redukcja) aplikacji i *sprawdzanie poprawności*, czyli *typowalności*, kodu. Oba te procesy
+są realizowane przez pewne *algorytmy*, a to znaczy, że *każdy* fragment kodu może być w skończonym
+czasie sprawdzony pod względem poprawności i *każdy* poprawny fragment kodu może być w skończonym
+czasie zredukowany do najprostszej postaci.
 
-Żeby zrozumieć, jak ewaluacja działa w każdym możliwym przypadku, wystarczy zrozumieć, jak działa w
-przypadku uogólnionej identyczności. Wszystkie inne przykłady będą tylko wariacjami na ten temat
-(ilustracja):
+Żeby zrozumieć, jak ewaluacja działa w każdym możliwym przypadku, wystarczy moim zdaniem zrozumieć,
+jak działa w przypadku uogólnionej identyczności; wszystkie inne przykłady będą tylko wariacjami na
+ten temat (ilustracja):
 
 ```lean
 def identycznosc (typ : Type) (parametr : typ) : typ := parametr
@@ -58,7 +58,7 @@ A żeby zwiększyć Twoją tolerancję dla [niewyjaśnionych
 tajemnic](https://en.wikipedia.org/wiki/Unsolved_Mysteries), która w najbliższym czasie Ci się
 przyda, proponuję, żebyś wkleiła do Leana poniższy fragment poprawnego kodu, zawierający definicję
 jeszcze *uniwersalniejszej*[^1] identyczności. Mam nadzieję, że *nic* z tego nie rozumiesz, bo
-dodałem tu ten fragment *tylko* po to, żeby przyzwyczaić Cię do tego, że możesz pewnych rzeczy nie
+wstawiłem tu ten fragment *tylko* po to, żeby przyzwyczaić Cię do tego, że możesz pewnych rzeczy nie
 rozumieć, a mimo to czytać dalej.
 
 ```lean
@@ -77,26 +77,26 @@ def uidentycznosc (typ : Type u) (parametr : typ) : typ := parametr
     (uidentycznosc ((typ : Type) → typ → typ) uidentycznosc) Nat 1
 ```
 
-O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu ewaluacja musi się zakończyć
-i wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drodze aplikacji.
+O języku teorii typów wiemy, że w przypadku poprawnego składniowo kodu ewaluacja/redukcja musi się
+zakończyć i wynik zawsze będzie ten sam, niezależnie od kolejności redukowanych po drodze aplikacji.
 
-Wersja teorii typów, z której tutaj korzystamy, jest bardzo ekspresyjna w tym znaczeniu, że funkcje
-mogą przekształcać termy dowolnego typu, w tym również dowolne *typy*, w termy dowolnego typu, w tym
-również dowolne *typy*. Możemy więc między innymi definiować funkcje, które *tworzą typy* i niebawem
-będziemy z tego korzystać. A ponadto typy pojawiające się później w specyfikacji typu funkcji mogą
-zależeć od parametrów, które pojawiły się wcześniej, tak jak to ma miejsce w przypadku typu funkcji
-`identycznosc`. Wreszcie, możemy *po stronie typu* zapisywać *aplikacje* i ten sposób konstruować
-termy, które wymagają ewaluacji również po stronie ich typu. Z tej możliwości będziemy korzystać
-nieco później, wprowadzając odrobinę [lukru
-składniowego](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy).
+Wersja teorii typów, z której tu korzystamy, jest bardzo ekspresyjna w tym znaczeniu, że funkcje
+mogą przekształcać termy dowolnego typu, w tym również dowolne *funkcje* i dowolne *typy*, w termy
+dowolnego typu, w tym również dowolne *funkcje* i dowolne *typy*. Możemy więc między innymi
+definiować funkcje, które *tworzą typy* i niebawem będziemy z tego korzystać. A ponadto typy
+pojawiające się później w specyfikacji typu funkcji mogą zależeć od parametrów, które pojawiły się
+wcześniej, tak jak to ma miejsce w przypadku typu funkcji `identycznosc`. Wreszcie, możemy *po
+stronie typu* zapisywać *aplikacje* i w ten sposób konstruować termy, które wymagają *ewaluacji*
+również *po stronie typu*. Z tej możliwości będziemy korzystać nieco później, wprowadzając odrobinę
+[lukru składniowego](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy).
 
 Na tej podstawie można zbudować *całą* matematykę zastaną i za pomocą tego języka można zapisać w
 stosunkowo *naturalny* i *czytelny* sposób matematyczne teorie.
 
-Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że wszystko, co da
-się powiedzieć jasno, można zapisać w języku teorii typów. A wiemy, że wszystko, co zostało zapisane
-w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i zarazem unikalnej
-takiej postaci za pomocą algorytmu.
+Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że jeśli coś da
+się powiedzieć jasno, to często można to zapisać w języku teorii typów. A wiemy, że wszystko, co
+zostało zapisane w języku teorii typów, można sprawdzić i zredukować do najprostszej możliwej i
+unikalnej takiej postaci za pomocą algorytmu.
 
 ### Przypisy
 
