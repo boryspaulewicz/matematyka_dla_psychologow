@@ -165,47 +165,48 @@ To może wyobraź sobie jeszcze, że Twoja interakcja z myszą biegnącą po pod
 przez kamerę, o której istnieniu wcześniej nie wiedziałaś. Odkryłaś później to nagranie, a razem z
 nim wiele innych takich nagrań, pochodzących z takiego samego pokoju jak ten, w którym niedawno
 byłaś. I odkryłaś też wtedy coś jeszcze - na wszystkich tych nagraniach, za wyjątkiem tego, na
-którym widać Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się dokładnie w ten sam
+którym widać Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się w ten sam
 sposób. Ale może wróćmy już do głównego wątku, bo na ten jest jeszcze za wcześnie.
 
 Izomorfizm, który zachowuje strukturę obydwu przestrzeni (takie obiekty jak zbiór liczb
-rzeczywistych matematycy również nazywają przestrzeniami), czyli jest, mówiąc kolokwialnie, wiernym
-tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania* rozmaitych problemów, jak
-również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją siłę zawdzięcza między innymi
-temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze *psychologicznym*. Dla nas, ludzi,
-to, czy dany problem będzie łatwy czy trudny do rozwiązania albo zrozumienia często w *ogromnym*
-stopniu zależy od przyjętego *punktu widzenia*. Dlatego między innymi tak chętnie korzystamy z
-analogii i metafor i tak bardzo je sobie cenimy. A zachowujący strukturę izomorfizm to właśnie
-pewien rodzaj doskonałej analogii.
+rzeczywistych matematycy również nazywają {abstrakcyjnymi} przestrzeniami, chyba po prostu dlatego,
+że ludzie wolą myśleć w kategoriach przestrzennych niż na przykład algebraicznych), czyli jest,
+mówiąc kolokwialnie, wiernym tłumaczeniem w obie strony, to zatem potężne narzędzie *rozwiązywania*
+rozmaitych problemów, jak również potężne narzędzie służące do lepszego ich *zrozumienia*. Swoją
+siłę zawdzięcza między innymi temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze
+*psychologicznym*. Dla nas, ludzi, to, czy dany problem będzie łatwy czy trudny do rozwiązania albo
+zrozumienia często w *ogromnym* stopniu zależy od przyjętego *punktu widzenia*. Dlatego między
+innymi tak chętnie korzystamy z analogii i metafor i tak bardzo je sobie cenimy. A zachowujący
+strukturę izomorfizm to nic innego jak doskonała analogia.
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
 kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
-meta-matematycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko ćwiczyć przełączanie się
-między dwoma, dobrze określonymi, ale początkowo z konieczności trochę obcymi sposobami patrzenia na
-*typy*. Być może jedną z głównych trudności pojawiających się początkowo podczas przyzwyczajania się
-do tego punktu widzenia jest właśnie to, że matematyka "rozgrywa się" wtedy czy może "istnieje"
-właśnie głównie na poziomie typów. Za to gdy zdążysz się z tym trochę oswoić, Twoja zdolność do
-rozumienia treści matematycznych albo "matematyzacji" problemów czy pojęć, które same z siebie nie
-mają jeszcze matematycznego charakteru, zacznie się moim zdaniem rozwijać znacznie szybciej, niż
-gdybyś próbowała rozwijać ją w bardziej tradycyjny sposób.
+meta-matematycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko cierpliwie ćwiczyć
+przełączanie się między dwoma, dobrze określonymi, ale początkowo z konieczności trochę obcymi
+sposobami patrzenia na *typy*. Być może jedną z głównych trudności pojawiających się początkowo
+podczas przyzwyczajania się do tego punktu widzenia jest właśnie to, że matematyka "rozgrywa się"
+wtedy czy może "istnieje" właśnie głównie na poziomie typów. Za to gdy zdążysz się z tym trochę
+oswoić, Twoja zdolność do rozumienia treści matematycznych albo "matematyzacji" problemów czy pojęć,
+które same z siebie nie mają jeszcze matematycznego charakteru, zacznie się moim zdaniem rozwijać
+znacznie szybciej, niż gdybyś próbowała rozwijać ją w bardziej tradycyjny sposób.
 
 Próbując zrozumieć, o czym jest następny rozdział, uruchomisz proces zasadniczo taki sam, jak ten,
 dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem wydawały Ci się
 proste, ale które bez wcześniejszego przyzwyczajenia się do patrzenia na nie jako na problemy
 liczbowe byłyby tak trudne, że być może nawet nierozwiązywalne. W dodatku uczenie się matematyki
 *metodą prób i błędów*, to jest w ramach mniej lub bardziej swobodnej *eksploracji*, będzie miało
-znacznie większy sens, ponieważ wszystko, czego byś nie spróbowała, będzie natychmiast sprawdzone
-pod względem poprawności przez praktycznie niezawodny program. A że nie będzie obok żadnego
-nauczyciela, to też nikt Cię nie będzie oceniał. Pojawi się dzięki temu możliwość używania
-matematyki, oczywiście w granicach wyznaczonych przez aktualny poziom Twojego zrozumienia i wiedzy,
-w sposób w pewnym sensie maksymalnie *twórczy*.
+większy sens, ponieważ wszystko, czego byś nie spróbowała, będzie natychmiast sprawdzone pod
+względem poprawności przez praktycznie niezawodny program. A że nie będzie obok żadnego nauczyciela,
+to też nikt Cię nie będzie oceniał. Pojawi się dzięki temu możliwość używania matematyki, oczywiście
+w granicach wyznaczonych przez aktualny poziom Twojego zrozumienia i wiedzy, w sposób w pewnym
+sensie maksymalnie *twórczy*.
 
 Curry i Howard odkryli, że istnieje pewien zachowujący strukturę izomorfizm między systemami logiki
 formalnej, takimi jak logika konstruktywna, nazywana również logiką intuicjonistyczną, i systemami
 służącymi do badania między innymi zagadnień związanych z obliczalnością, takimi jak rachunek lambda
 z typami. Jeżeli masz już w tym momencie takie wątpliwości, to od razu Cię zapewnię, że korzystając
 z tego izomorfizmu nie będziemy wcale ograniczeni do jakiejś konkretnej logiki, takiej jak na
-przykład logika konstruktywna.
+przykład logika konstruktywna; wręcz przeciwnie, będziemy mogli używać dowolnych logik formalnych.
 
 Dla naszych potrzeb to, że izomorfizm Curry'ego-Howarda istnieje, oznacza w zasadzie *tylko* tyle,
 że *każdy* problem matematyczny możemy dzięki niemu postrzegać jako problem dotyczący
@@ -218,5 +219,5 @@ Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać matematykę - a
 rozumiane badania o meta-teoretycznym charakterze - jako programowanie, będzie zarazem sztywny i
 wystarczająco ekspresyjny język. Ten, na którym oparty jest Lean, jest właśnie jednym z takich
 języków. A tym, co przede wszystkim sprawia, że jest tak bardzo ekspresyjny, że pozwala zakodować
-formalnie całą matematykę, a więc też wszystko, co tylko da się zmatematyzować, czyli powiedzieć lub
-wyrazić jasno, są typy zależne.
+formalnie całą matematykę, a więc ostatecznie również wszystko, co tylko da się zmatematyzować,
+czyli w pewnym sensie wszystko, co tylko można powiedzieć jasno, są typy zależne.
