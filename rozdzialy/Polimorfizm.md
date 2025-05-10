@@ -16,7 +16,11 @@ kolumn. Liczbê rzêdów przyjê³o siê podawaæ najpierw. I tak,
 
 ```math
 \begin{bmatrix}
-      1 &   2 &   3 \\
-    -20 & -30 & -40 
-\end{bmatrix}
+    1 &   2 &   3 \\
+  -20 & -30 & -40 
+\end{bmatrix} +
+\begin{bmatrix}
+    0 &  1 &  0 \\
+   10 & 10 & 10
+\end{bmatrix} =
 ```
