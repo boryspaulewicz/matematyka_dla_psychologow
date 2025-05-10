@@ -14,4 +14,9 @@ symbolu dzia³a lepiej, ni¿ komplikowanie notacji w celu unikniêcia wieloznaczno¶
 Macierz to ca³a *tablica* liczb. Jak ka¿da tablica, macierz ma okre¶lon± liczbê rzêdów i
 kolumn. Liczbê rzêdów przyjê³o siê podawaæ najpierw. I tak,
 
-$\begin{bmatrix} 1 &2 &3 \\-20 &-30 &-40 \end{bmatrix}$
+```math
+\begin{bmatrix}
+      1 &   2 &   3 \\
+    -20 & -30 & -40 
+\end{bmatrix}
+```
