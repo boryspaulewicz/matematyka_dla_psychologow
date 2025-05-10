@@ -68,7 +68,7 @@ pewne skojarzenia albo sposoby myślenia, który nie pasują do pojęcia funkcji
 programów komputerowych, czyli *zaimplementować* albo *zrealizować* w kodzie, ale funkcje
 teoriomnogościowe to tylko abstrakcyjne obiekty, *o* których możemy *mówić* posługując się językiem
 teorii mnogości, ale które, w przeciwieństwie do programów zapisanych w języku teorii typów, *nie*
-istnieją niezależnie od tego, czy o nich mówimy albo myślimy.
+istnieją, przynajmniej fizycznie, niezależnie od tego, czy o nich mówimy albo myślimy.
 
 **Tożsamość zbiorów**: Te liczbowe indeksy dolne są w tym przypadku mylące, ponieważ sugerują, że
 kolejność elementów może mieć znaczenie. Trzeba wiedzieć, że to, w jakiej *kolejności* zapisane są
@@ -96,7 +96,7 @@ Można więc powiedzieć, że *każdy* zbiór jest *tym samym*, co pewna *kolekc
 pozwoli Ci łatwiej zrozumieć, że powtórzenie i kolejność zapisanych elementów zbioru nie ma
 znaczenia, bo przecież *treść* zawarta w kolekcji zdań mówiących o relacji należenia elementów do
 zbioru *nie ulegnie zmianie*, gdy te zdania zapiszemy w innej kolejności, albo gdy niektóre zdania
-zapiszemy więcej niż raz.
+zapiszemy więcej niż raz (o ile treść żadnego ze zdań nie będzie zależeć od pozostałych zdań).
 
 `Narysuj Strzalka x₁ y₁`, i tak samo dla par `⟨x₂, y₁⟩` (czyli `Narysuj Strzalka x₂ y₁`) i `⟨x₃,
 y₃⟩`. W tym przykładzie chodzi między innymi o to, żeby element `y₂` "został na
@@ -149,25 +149,41 @@ zbiorami. Na początek omówimy kilka ważnych przykładów.
 **Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym tylko
 jedną kropkę. Zbiory jednoelementowe nazywamy również *zbiorami jednostkowymi* albo
-*singletonami*. Czy widzisz, że istnieje tylko jedna funkcja ze zbioru lewego do prawego? Narysuj
-proszę tą funkcję.
+*singletonami*. Czy widzisz, że istnieje *dokładnie jedna* funkcja ze zbioru lewego do prawego?
+Narysuj proszę tą funkcję.
 
 **Rysunek 3. Funkcje ze zbioru pustego**: A teraz `Narysuj` proszę obok siebie dwa zbiory, `X` i
 `Y`, ale takie, że w lewym *nic* nie będzie, a w prawym będą na przykład dwa elementy. Jak już
 wiesz, żeby "coś" było funkcją, musi przyporządkowywać każdemu elementowi dziedziny dokładnie jeden
 element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`? Wydawałoby się, że
-nie, prawda? A jednak istnieje! To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery
-w słowie [*pustka*](https://en.wikipedia.org/wiki/Nagarjuna)), że *gdybyś* wybrała dowolny element
-zbioru `X`, to dostarczyła*by* dokładnie jeden element ze zbioru `Y`. Ponieważ jednak w zbiorze `X`
-nie ma żadnych elementów, ta funkcja *nie może* nic zwrócić.
+nie, a jednak istnieje. To jest taka funkcja, nazwijmy ją tym razem `p` (od pierwszej litery w
+słowie [*pustka*](https://en.wikipedia.org/wiki/Nagarjuna)), że *gdybyś* wybrała dowolny element
+zbioru `X`, to dostarczyła*by* dokładnie jeden element ze zbioru `Y`. Ponieważ `X` nie zawiera
+żadnych elementów, ta funkcja zarazem *nie może* nic zwrócić, ale też *nie może nie spełnić tego
+warunku*. Mówimy w takich sytuacjach, że jakiś warunek (tutaj warunek "dostarczenia" jednego
+elementu przeciwdziedziny dla każdego elementu dziedziny) jest *spełniony pusto* (przez to, że w
+danym przypadku *nie ma czego wymagać*).
 
 A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
 teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie` i jest niemal tak
-abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd`. Tyle, że ta funkcja *istnieje*
-na mocy konwencji. Co więcej, dla każdego `Y`, istnieje *dokładnie jedna* taka funkcja, bo wszystkie
-takie funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z dziedziną i
-przeciwdziedziną, decyduje o tożsamości funkcji. W szczególności, istnieje dokładnie jedna funkcja
-ze zbioru pustego do niego samego.
+abstrakcyjna, bo w pewien sposób wirtualna, jak term typu `Absurd` albo `False`. Tyle, że ta funkcja
+*istnieje* na mocy konwencji. Co więcej, dla każdego `Y`, istnieje *dokładnie jedna* taka funkcja,
+bo wszystkie takie funkcje *zwracają to samo dla każdego argumentu*, a właśnie ten warunek, razem z
+dziedziną i przeciwdziedziną, decyduje o tożsamości funkcji. W szczególności, istnieje dokładnie
+jedna funkcja ze zbioru pustego do niego samego. Wiem, że to brzmi początkowo dziwnie, ale to jest
+tylko pewna wygodna *konwencja*, a konwencje nie są ani prawdziwe ani fałszywe, a więc trzeba się do
+tego po prostu *przyzwyczaić*.
+
+Możemy zdefiniować teoriotypowy odpowiednik teoriomnogościowej funkcji ze zbioru pustego korzystając
+z typu `False`, o którym wiemy, że jest niezamieszkały (a więc jest teoriotypowym odpowiednikiem
+zbioru pustego):
+
+```lean
+-- Tak można skonstruować, dla dowolnego typu `Y`, term typu `False → Y`, czyli funkcję z `False` do
+-- `Y`. Widzimy tutaj, że reguła eliminacji fałszu pozwala konstruować (czysto hipotetyczne) termy
+-- dowolnego typu, nie tylko typów zdaniowych.
+example (Y : Type) : False → Y := fun hF => hF.elim
+```
 
 Zbiory puste zapisujemy albo jako `{}`, co wygląda trochę jak wywrócony na drugą stronę [*wazon
 Rubina*](https://en.wikipedia.org/wiki/Rubin_vase), albo używając symbolu `∅`, który z kolei może
@@ -175,7 +191,7 @@ się kojarzyć (w każdym razie mi się kojarzy) z czymś, co można by nazwać 
 okrąg) *bez zawartości* (bo jest przekreślony). Na cześć tej funkcji narysuj proszę `Strzalka X Y` i
 oznacz ją literą `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`, *istnieje dokładnie
 jedna funkcja ze zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja
-(dotycząca funkcji), którą przyjmujemy po prostu dlatego, że sprawdza się w praktyce.*[^5]
+(dotycząca funkcji), którą przyjmujemy dlatego, że okazuje się wygodna w praktyce.*[^5]
 
 **Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id` spełniającą warunek `Id(x) =
@@ -255,7 +271,7 @@ znowu `f` i `g`, takie, że:
 
 1. `f : X → Y` ma tylko *lewą odwrotność*, ale *nie ma prawej*, to znaczy, istnieje funkcja `l_f`
 taka, że `l_f(f(x)) = x`, ale *nie* istnieje funkcja `p_f` taka, że `f(p_f(y)) = y` (tak, tu ma być
-`y`, a nie `x`).
+`y`).
 
 2. `g : X → Y` ma tylko *prawą odwrotność*, ale *nie ma lewej*, to znaczy, istnieje funkcja `p_g`
 taka, że `g(p_g(y)) = y`, ale *nie* istnieje funkcja `l_g` taka, że `l_g(g(x)) = x`. 
@@ -296,9 +312,9 @@ jak kategoryjne składanie strzałek*. O tym, w jakim znaczeniu tak samo, powiem
 później.
 
 Przy okazji, pokażę Ci jeszcze jak być może mogłabyś czasem korzystać z nabytej już znajomości
-podstaw teorii typów, żeby bardziej "się wczuć" (w tej kolejności ;-) ) w nowe pojęcia
-matematyczne. Żeby (mam nadzieję) poczuć trochę bardziej konkretność definicji składania funkcji,
-mogłabyś na przykład wyobrazić sobie albo spróbować zapisać teoriotypową definicję tej operacji tak ...
+podstaw teorii typów, żeby bardziej "się wczuć" w nowe pojęcia matematyczne. Żeby (mam nadzieję)
+poczuć trochę bardziej konkretność definicji składania funkcji, mogłabyś na przykład wyobrazić sobie
+albo spróbować zapisać teoriotypową definicję tej operacji tak ...
 
 ```lean
 def Zlozenie (X Y Z : Type) (f : X → Y) (g : Y → Z) (x : X) := g (f x)`
@@ -321,20 +337,20 @@ Czy rozumiesz, dlaczego dla każdych zbiorów `X` i `Y` i każdej funkcji `f : X
 f = f = f ∘ Id_X`? Musiałem tutaj znowu inaczej oznaczyć identyczności, bo Unikod nie pozwala na
 zapisanie na przykład litery `Y` jako indeksu dolnego. Spróbuję Ci teraz pomóc w ręcznym
 skontruowaniu dowodu tych *dwóch* albo nawet *trzech zdań*, mamy tu przecież dwie równości i
-niejawną konsekwencję przechodniości relacji równości `Id_Y ∘ f = f ∘ Id_X`. Pomogę Ci jednocześnie
+niejawną konsekwencję `Id_Y ∘ f = f ∘ Id_X` przechodniości relacji równości. Pomogę Ci jednocześnie
 w sprawdzeniu dowodu w podobny sposób do tego, w jaki mógłby to zrobić Lean.
 
 O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę i przeciwdziedzinę i to,
 co zwracają dla każdego elementu dziedziny. Wystarczy rzut oka na podany wyżej skrótowy opis trzech
 funkcji, żeby upewnić się, że `Id_Y ∘ f` oznacza funkcję, która ma taką samą dziedzinę i
-przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje *mogą* być tą samą
-funkcją (gdyby miały różne dziedziny lub przeciwdziedziny byłyby automatycznie różnymi
-funkcjami). Ale czy są?
+przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje (`Id_Y ∘ f`, `f`,
+i `Id_X`) *mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny byłyby
+automatycznie różnymi funkcjami). Ale czy są?
 
 Skonstruujemy teraz w języku naturalnym dowód zdania `Id_Y ∘ f = f`, które z definicji (tego czym
 jest funkcja) znaczy to samo, co `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`:
 
-1. Niech `x` będzie dowolnym elementem zbioru `X`.  
+1. Niech `x` będzie elementem zbioru `X`.  
    (tak zaczynamy konstrukcję dowodu zdania, które ma być prawdziwe dla każdego `x` należącego do `X`)  
 
 2. Wtedy `(Id_Y ∘ f)(x) = Id_Y(f(x))`, ...  
@@ -351,7 +367,7 @@ Czyli *dla każdego* `x ∈ X` *jest prawdą, że* `(Id_Y ∘ f)(x) = f(x)`, alb
 `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)` [q.e.d](https://pl.wikipedia.org/wiki/Q.e.d.).
 
 A ponieważ to ostatnie zdanie oznacza, że kryterium równości funkcji jest dla tych dwóch funkcji
-spełnione, to `Id_Y ∘ f` jest tą samą funkcją, co `f`, czyli:
+(`Id_Y ∘ f` i `f`) spełnione, to `Id_Y ∘ f` jest tą samą funkcją, co `f`, czyli:
 
 `Id_Y ∘ f = f`
 
@@ -366,7 +382,7 @@ jak pisałem, że typy co prawda nie są zbiorami, ale że mają coś ze zbioró
 teoriotypowe też nie są "zwykłymi" funkcjami matematycznymi, ale coś z tych funkcji mają, właściwie
 nawet mają z nimi bardzo wiele wspólnego, bo pobierają tak naprawdę tylko jeden argument
 (określonego *typu*, odpowiadającego teoriomnogościowej *dziedzinie*) i dla każdego argumentu
-zwracają dokładnie jeden argument (też określonego *typu*, odpowiadającego teoriomnogościowej
+zwracają dokładnie jeden rezultat (też określonego *typu*, odpowiadającego teoriomnogościowej
 *przeciwdziedzinie*). Pisałem też, że funkcje teoriotypowe to takie funkcje matematyczne, tylko że
 obliczalne, to znaczy dające się "zrealizować" za pomocą algorytmu (i zarazem w ten sposób
 *zrealizowane*). No więc *typ par uporządkowanych* to taki teoriotypowy odpowiednik, albo
