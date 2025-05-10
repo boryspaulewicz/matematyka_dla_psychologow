@@ -23,4 +23,8 @@ kolumn. Liczbê rzêdów przyjê³o siê podawaæ najpierw. I tak,
     0 &  1 &  0 \\
    10 & 10 & 10
 \end{bmatrix} =
+\begin{bmatrix}
+    1 &   3 &   3 \\
+  -10 & -20 & -30
+\end{bmatrix}
 ```
