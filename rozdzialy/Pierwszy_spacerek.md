@@ -81,13 +81,14 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne) [fldsmdfry](https://cloudyw
 4. $x \odot y * \underbrace{y} = \underbrace{x, y}$.
 
 Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, $a$ i $b$. Użyj reguły 4 żeby uzyskać *dwa nowe
-równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje $x$, i $b$ wszędzie
-tam, gdzie jest $y$. Te dwa nowe równania będą w zasadzie takie same jak równanie w regule 4, ale
-będą w nich występowały inne symbole ($a$ i $b$ zamiast $x$ i $y$) w roli zmiennych. Następnie użyj
-reguły 3 w jedyny sposób w jaki się da (ta reguła mówi coś o tych dwóch nowych równaniach, a raczej
-o ich częściach), żeby uzyskać trzecie nowe równanie. Zakładając, że $\underbrace{b} \neq 0$ podziel
-obie strony tego ostatniego równania przez $\underbrace{b}$ i uprość jedyną rzecz, którą możesz tam
-uprościć.
+równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje $x$ i $b$ wszędzie
+tam, gdzie jest $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe równania będą w
+zasadzie takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i $b$
+zamiast $x$ i $y$) w roli zmiennych. Następnie użyj reguły 3 w jedyny sposób w jaki się da (ta
+reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich częściach), żeby uzyskać trzecie nowe
+równanie. Zakładając, że $\underbrace{b} \neq 0$ podziel obie strony tego ostatniego równania
+(zgodnie z przyjętą konwencją to są przecież jakieś liczby, więc możemy je dzielić przez liczby
+niezerowe) przez $\underbrace{b}$ i uprość jedyną rzecz, którą możesz.
 
 Jeżeli masz wątpliwości, czy dobrze wykonałaś to polecenie, to nie przejmuj się tym, za chwilę
 wszystko powinno się wyjaśnić. Jeżeli natomiast wydaje Ci się, że wykonałaś to zadanie poprawnie,
