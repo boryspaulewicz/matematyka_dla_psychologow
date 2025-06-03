@@ -55,7 +55,7 @@ dyscyplinach takich jak psychologia, takie tytuły są po pierwsze śmieszne, a 
 utrudniać przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Dlatego między innymi piszę
 tą książkę niemal na żywo. Dzięki temu możesz się sama przekonać, jak pisząc ją sam się pewnych
 rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu próbuję też tą
-książkę pisać tak, jakbym z Tobą *rozmawiał*, bo to przecież *powinna* być rozmowa.
+książkę pisać tak, jakbym z Tobą *rozmawiał*, bo moim zdaniem to *powinna* być rozmowa.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
