@@ -39,6 +39,15 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
+**Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?**: Żeby
+lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem (matematyka to nie tylko liczby i obiekty
+geometryczne!), a dzięki temu pisać mniej głupot i czytać z większym zrozumieniem (pełną głupot)
+literaturę naukową. Albo po to, żeby używać na przykład wnioskowania statystycznego czy
+przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
+naukowca przystało, zamiast bezmyślnie - i często popełniając szkolne błędy - robić coś, bo "tak się
+robi". Wreszcie po to, żeby doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego
+rozwiązania problemu, kontroli i mocy wynikających z nabywania nowych sposobów myślenia, i piękna.
+
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
 czytelności, dlatego pomyślałem sobie, że skoro zdecydowana większość studentów psychologii to
