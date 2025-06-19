@@ -39,7 +39,7 @@ jest przecież konieczna.
 że pojawiły się na głównej stronie. Mam co prawda lekką dysgrafię, ale w tym momencie to już nie ma
 większego znaczenia.)
 
-**Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?**: Żeby
+**Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?** Żeby
 lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem (matematyka to nie tylko liczby i obiekty
 geometryczne!), a dzięki temu pisać mniej głupot i czytać z większym zrozumieniem (pełną głupot)
 literaturę naukową. Albo po to, żeby używać na przykład wnioskowania statystycznego czy
