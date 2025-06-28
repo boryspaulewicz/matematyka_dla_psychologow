@@ -2,11 +2,11 @@
 
 Wątki, które poruszam w tym rozdziale, pojawiły się wcześniej w jednej z poprzednich wersji
 rozdziału o predykatach i formalizacji dowodu na istnienie Boga Anzelma z Canterbury. Uznałem
-jednak, że tego wszystkiego było tam za dużo, a poza tym to nie są tylko jakieś tam luźne dygresje,
-ale raczej próba wstępnego przygotowania Cię na to, o czym będę mówił później, gdy już zaczniemy
-formalizować artykuły empiryczne i teoretyczne dotyczące zachowania. Napisałem to wszystko zanim
-postanowiłem zwracać się do czytelnika w formie żeńskiej (tam wiem), ale nie chcę tego zmieniać, bo
-mi żal, a poza tym ten wątek łączy się tutaj z innymi.
+jednak, że tego wszystkiego było tam za dużo, a poza tym to nie są jakieś tam luźne dygresje, tylko
+próba wstępnego przygotowania Cię na to, o czym będę mówił później, gdy już zaczniemy formalizować
+artykuły empiryczne i teoretyczne dotyczące zachowania. Napisałem to wszystko zanim postanowiłem
+zwracać się do czytelnika w formie żeńskiej (tak wiem), ale nie chcę tego zmieniać, bo mi żal, a
+poza tym wątek rodzaju gramatycznego łączy się tutaj z innymi.
 
 <hr>
 
@@ -22,21 +22,24 @@ jeszcze (ale kto wie, może będzie później okazja, żeby powiedzieć coś o
 
 Nie możemy jeszcze odpowiedzieć na pytanie o istnienie tego rodzaju spójnych alternatywnych
 interpretacji, bo żeby udzielić takiej odpowiedzi, musielibyśmy najpierw wykonywać szczególnego
-rodzaju *eksperymenty na sobie*, które nazywamy *myśleniem*. Na przykład, mógłbym się dłużej
-zastanowić i może wpadłbym na pomysł systematycznego sposobu przypisywania zdaniom i spójnikom
-logicznym obiektów lub własności geometrycznych. Po serii prób i błędów może wyszło by mi z tego
-coś, co wydawało by mi się sensowne. To moje "wydawanie" to byłby wtedy *znany mi fakt empiryczny*
-dotyczący *mnie*, ale nie byłby to jeszcze żaden dowód.
+rodzaju *eksperymenty na sobie*, polegającymi na *częściowo werbalnej, jednokierunkowej komunikacji
+z przeszłymi* (odpamiętanie albo "słuchanie przeszłego siebie") *i przyszłymi* (mówienie do
+przyszłego siebie, albo "samoprogramowanie") *instancjami siebie*, nazywanej *myśleniem*. Na
+przykład, mógłbym się dłużej zastanowić i może wpadłbym na pomysł systematycznego sposobu
+przypisywania zdaniom i spójnikom logicznym obiektów lub własności geometrycznych. Po serii prób i
+błędów może wyszło by mi z tego coś, co wydawało by mi się sensowne. To moje "wydawanie" to byłby
+wtedy *znany mi* (bo odpamiętywalny) *fakt empiryczny* dotyczący *mnie*, ale nie byłby to jeszcze
+żaden dowód.
 
 Właśnie teraz muszę rozwiązać inny problem. Najpierw chciałem napisać zdanie zawierające słowo
 "mógłbyś", a potem się zreflektowałem (*zreflektować się* - podoba mi się ten osobliwy zwrot, chyba
 go później do czegoś wykorzystam), że odbiorcą może być kobieta. Napisałem więc mógła/byś, ale to mi
 się wydało bardzo nieudane i poczułem irytację, że poświęcam takiemu drobiazgowi tyle uwagi.
 
-Uważam, że kwestia "odpowiedniego" rodzaju gramatycznego słowa, o którym wspomniałem, to drobiazg i
-jeżeli się ze mną nie zgadzasz, to jest to fakt, przed którym razem stoimy, ale z którym sądzę, że
-praktycznie nic nie mogę zrobić. Jeżeli nasze postawy się różnią, to się różnią i ostateczny powód
-tej różnicy to nie jest zwykły fakt, z którego ta różnica wynika logicznie i co do którego
+Uważam, że w tego rodzaju kontekstach kwestia "odpowiedniego" rodzaju gramatycznego słowa to
+drobiazg i jeżeli się ze mną nie zgadzasz, to jest to fakt, przed którym razem stoimy, ale z którym
+sądzę, że praktycznie nic nie mogę zrobić. Jeżeli nasze postawy się różnią, to się różnią i
+ostateczny powód tej różnicy to nie jest fakt, z którego ta różnica wynika logicznie i co do którego
 moglibyśmy w jakiś sposób "uzgodnić zeznania" i dojść do wspólnego stanowiska. Jeżeli ta różnica
 między nami występuje, to powodem, albo może sednem tej różnicy jest *szczególny* rodzaj faktu -
 inaczej coś *oceniamy*.
@@ -45,8 +48,8 @@ inaczej coś *oceniamy*.
 dodatkowych składników, z sądów *nieocennych*, czyli takich zwykłych sądów opisowych, *wywnioskować*
 sąd *ocenny*. I nie ma w tym chyba nic dziwnego, skoro *każdy fakt* - rozpatrywany w izolacji -
 łącznie z faktami polegającymi na tym, że ktoś w jakiś sposób coś ocenia, *może być oceniany na
-każdy możliwy sposób bez popadania w sprzeczność*. Ta inherentna arbitralność wszelkich ocen wynika
-po prostu stąd, że ocena jest jak *wybór albo decyzja, która jeszcze nie została zrealizowana*.
+każdy możliwy sposób bez popadania w sprzeczność*. Ta inherentna arbitralność wszelkich
+(rozpatrywanych w izolacji) ocen wynika po prostu stąd, że ocena jest jak *wybór albo decyzja*.
 
 Nie jestem autorem obserwacji o niemożliwości wyprowadzenia sądów ocennych z sądów opisowych,
 [Hume](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem) jest. Nawiasem mówiąc, na tej stronie
@@ -60,10 +63,11 @@ porozmawiać, ale wydaje mi się niemal pewne, że żadne z nas nie będzie w st
 strony do własnej postawy za pomocą racjonalnych argumentów, nawet zakładając całkowitą otwartość na
 takie argumenty i całkowitą racjonalność po obydwu stronach, cokolwiek by to miało znaczyć. Wydaje
 mi się, że to by było trochę tak, jakby jedna osoba próbowała przekonać drugą, że dynia jest
-smaczna, kiedy tej drugiej osobie dynia nie smakuje (ja akurat nie lubię). Fakty zdają się tu nie
-mieć nic do rzeczy, bo chodzi o jakieś postawy albo preferencje, które pod względem sztywności
-przypominają między innymi preferencje smakowe[^2]. Pozostaje więc tylko *perswazja*, czyli użycie
-*siły*.
+smaczna, kiedy tej drugiej osobie dynia nie smakuje (ja akurat nie lubię)[^2]. Za wyjątkiem kwestii
+*spójności między różnymi ocenami* fakty zdają się tu nie mieć *nic* do rzeczy. Postawy czy
+preferencje mają więc w sobie coś fundamentalnie arbitralnego, dlatego są w pewnym sensie
+nierewidowalne i być może właśnie dlatego są często takie sztywne. Gdy próbujemy zmienić czyjąś
+postawę pozostaje nam więc często jedynie *perswazja*, czyli użycie *siły*.
 
 Dlatego muszę dokonać wyboru, a ponieważ bardzo cenię sobie wolność - w granicach częściowo
 wyznaczonych przez to, jak rozumiem, a właściwie *czuję* normę niekrzywdzenia - w tym również
@@ -86,14 +90,14 @@ zakomunikował Tobie, z Twojej perspektywy byłby to *aksjomat*, ponieważ nie m
 wspaniałe!) wtedy zrobić z tym nic innego jak *przyjąć albo nie przyjąć do wiadomości*, że ta
 właśnie interpretacja wydaje *mi* się spójna i sensowna. Z *Twojej* perspektywy byłby to tylko
 *potencjalny* fakt, którego *nie mogłobyś sprawdzić*. Z powodu odległości fizycznej, odległości w
-czasie, albo z powodu subiektywnego charakteru danych, zwykle jest więc tak, że:
+czasie, albo subiektywnego charakteru danych, zwykle jest więc tak, że:
 
 *Mój fakt to jakby Twój aksjomat, a Twój fakt to jakby mój aksjomat*.
 
 Gdy na przykład powiesz mi, że nie możesz być na moich zajęciach, bo jesteś choro, to dla mnie to
-będzie praktycznie aksjomat, bo przecież nie będę tego tak naprawdę sprawdzał. Czy to nie ciekawe,
-że z perspektywy kogoś, kto nie był ich świadkiem ani nie może ich sprawdzić, fakty empiryczne, o
-których ktoś inny twierdzi, że są faktami, są jak aksjomaty?
+będzie praktycznie jak aksjomat, bo przecież nie będę tego tak naprawdę sprawdzał. Czy to nie
+ciekawe, że z perspektywy kogoś, kto nie był ich świadkiem ani nie może ich sprawdzić, fakty
+empiryczne, o których ktoś inny twierdzi, że są faktami, muszą być trochę jak aksjomaty?
 
 Możesz się wtedy zgodzić na dalszą *grę komunikacyjną* ze mną według reguły *taki a taki fakt
 wystąpił* - bo ja tak powiedziałem - i to będzie tak zwany kredyt zaufania, albo możesz się nie
@@ -106,8 +110,9 @@ takie badania pozwolić.
 Ja na przykład zachowuję się czasami, jakbym coś tam wiedział o ogólnie rozumianych zyskach i
 stratach wynikających z powszechnych szczepień, których zresztą jestem zwolennikiem. Ale prawda jest
 taka, że nie mam prawie w ogóle pojęcia o tym obszarze badań i polegam prawie całkowicie na skąpych
-i bardzo pośrednich informacjach pochodzących od osób i instytucji, którym w takich sprawach ufam. A
-więc to są również takie moje aksjomaty.
+i bardzo pośrednich informacjach pochodzących od osób i instytucji, którym w takich sprawach
+ufam. Polegam też do pewnego stopnia na wrażeniu, jakie sprawiają na mnie przeciwnicy szczepień
+*jako osoby*. A więc to są również takie moje aksjomaty.
 
 Jeśli coś wygląda jak aksjomat, chodzi jak aksjomat i kwacze jak aksjomat, to ponieważ bycie
 aksjomatem sprowadza się do pewnej *roli*, to coś *jest* aksjomatem. Dokąd to wszystko zmierza?
@@ -136,9 +141,10 @@ bycie naukowcem.
 
 Co jeszcze, poza czymś w rodzaju racjonalności, oznacza moim zdaniem bycie naukowcem? Dziękuję, że
 pytasz! Między innymi [*wolność*](https://www.youtube.com/watch?v=diYAc7gB-0A). Pod tym względem
-(jak i wieloma innymi) zgadzam się (zgadzam się to za mocno powiedziane - raczej mu ufam) z
-genialnym [Noamem Chomskim](https://chomsky.info/20110408/), który uważa się za *anarchistę*. Brzmi
-może niepokojąco, ale chodzi tak naprawdę o postawę, która nie jest wcale ani ekscentryczna ani
+(jak i wieloma innymi) zgadzam się (zgadzam się to za mocno powiedziane - raczej mu ufam, bo brakuje
+mi kompetencji, żeby ocenić większość tego, co mówi) z genialnym [Noamem
+Chomskim](https://chomsky.info/20110408/), który uważa się za *anarchistę*. Brzmi to może i
+niepokojąco, ale chodzi tak naprawdę o postawę, która nie jest wcale ani ekscentryczna ani
 ekstremalna:
 
 > The essence of anarchism [is] the conviction that the burden of proof has to be placed on
@@ -151,10 +157,11 @@ zobowiązania z *obydwu* stron, mojej i Twojej. W szczególności, the burden of
 *me*.
 
 Oboje mamy więc pewne zobowiązania, bo jesteśmy częścią wspólnoty, dzięki której możemy między
-innymi robić to, co właśnie robimy. Jest to więc pewien rodzaj kosztu tej wolności, o której właśnie
-teraz mówię. Ja pracuję na uczelni i co miesiąc dostaję pensję pochodzącą z publicznych pieniądzy, a
-Ty studiujesz za pieniądze publiczne i być może też pieniądze Twoich rodziców. Między innymi
-dlatego, ale nie tylko dlatego, mamy wobec siebie takie a nie inne oczekiwania.
+innymi robić to, co właśnie robimy - ja mogę uczyć się pisząc, a Ty możesz uczyć się czytając to, co
+napisałem. Te zobowiązania to pewne koszty wolności, o której właśnie teraz mówię. Ja pracuję na
+uczelni i co miesiąc dostaję pensję pochodzącą z publicznych pieniądzy, a Ty studiujesz za pieniądze
+publiczne i być może też pieniądze Twoich rodziców. Między innymi dlatego, ale nie tylko dlatego,
+mamy wobec siebie takie a nie inne oczekiwania.
 
 Matematycy często mówią, że nie da się zrozumieć matematyki, nie spędzając dużej ilości czasu na
 wykonywaniu zadań i rozwiązywaniu problemów. Uważam, że trochę z tym przesadzają i mówią tak, bo
@@ -164,33 +171,33 @@ poza gotowością do uzasadniania tego, o czym mówię, poza w miarę regularnym
 wiedzy i poza wskazywaniem błędów w tekstach, z których korzystamy na zajęciach (co akurat lubię
 robić). Mam na myśli obowiązek dobrego tłumaczenia. A na Tobie, ponieważ zajmujesz miejsce, które
 mógłby zająć przecież ktoś inny, spoczywa obowiązek podejmowania prób zrozumienia tego, co staram Ci
-się wytłumaczyć, jak również wskazywania mi, kiedy kiepsko coś tłumaczę. Chodzi mi tylko o próby, bo
-na dłuższą metę tylko to się moim zdaniem liczy. I to są bez wątpienia obowiązki, ale również szansa
-na coś wspaniałego.
+się wytłumaczyć, jak również wskazywania mi, kiedy mi to słabo idzie. Chodzi mi tylko o próby, bo na
+dłuższą metę tylko to się moim zdaniem liczy. I to są bez wątpienia obowiązki, ale również szansa na
+coś wspaniałego.
 
 Korzystając z okazji, chcę Ci powiedzieć coś jeszcze na temat wolności. Gdy byłem nastolatkiem, było
 mi trudno przełamać się, żeby na imprezach, na których tańczyli moi znajomi, również wejść na
 parkiet i tańczyć razem z nimi. Wydaje mi się, że Ci, którzy mają z tym problem i patrzą na
 tańczących z boku, są często przekonani, że wyglądają wtedy *poważnie*. Jednocześnie z zewnątrz to
-jednak chyba niekoniecznie tak wygląda. Można powiedzieć, że za wyjątkiem takich sytuacji jak
-pogrzeg kogoś bliskiego, powaga jest często jakby rewersem albo drugą stroną *wstydu*, a wstyd jest
-często niepotrzebną nikomu przeszkodą, która utrudnia między innymi robienie rzeczy nieszkodzliwych
-i - przynajmniej potencjalnie - wartościowych. W ten sposób wstyd przeszkadza więc między innymi w
+jednak chyba niekoniecznie tak wygląda. Za wyjątkiem takich sytuacji jak powiedzmy pogrzeb kogoś
+bliskiego, powaga jest często jakby rewersem albo drugą stroną *wstydu*, a wstyd jest często
+niepotrzebną nikomu przeszkodą, która utrudnia między innymi robienie rzeczy nieszkodzliwych i -
+przynajmniej potencjalnie - wartościowych. W ten sposób wstyd przeszkadza więc między innymi w
 *tworzeniu* czegoś *nowego*.
 
 Zdarza mi się obserwować podobną powagę u innych, gdy uczestniczę w mniej lub bardziej oficjalnych
 zebraniach, ale widzę ją często również i u siebie, kiedu na przykład prowadzę zajęcia albo pełnię
-inne oficjalne role. Ta powaga przejawia się między innymi w ten sposób, że ludzie, którzy znają się
-od dawna i od dawna są na Ty, w niektórych sytuacjach zaczynają nagle zwracać się do siebie per Pan
-lub per Pani, albo posługują się jakimiś tytułami, i wtedy ktoś, kto zawsze był i zawsze będzie po
-prostu Kamilem, zmienia się nagle w Kamila - Pana Profesora. 
+inne oficjalne role. Ta powaga przejawia się między innymi w tym, że ludzie, którzy znają się od
+dawna i od dawna są na Ty, w niektórych sytuacjach zaczynają nagle zwracać się do siebie per Pan lub
+per Pani, albo posługują się jakimiś tytułami, i wtedy ktoś, kto zawsze był i zawsze będzie po
+prostu Kamilem, zmienia się nagle w Kamila - Pana Profesora.
 
-Myślę sobie, że chociaż istnieją co prawda różne dobre *powody*, żeby zachować tego rodzaju powagę,
-to jednak faktyczna *przyczyna*, dla której tak czasem robimy, może wcale nie być dobra. Bo tą
-przyczyną może być i chyba często jest po prostu wstyd, czy może raczej lęk przed potencjalnym
-wstydem. A taki lęk utrudnia, o ile wręcz nie uniemożliwia, między innymi swobodną wymianę poglądów
-i racjonalną, krytyczną dyskusję, a tym samym utrudnia również autentyczną pracę naukową, ponieważ
-każda tego rodzaju dyskusja jest z konieczności procesem twórczym.
+Myślę sobie, że chociaż istnieją co prawda różne dobre *powody* albo *racje*, żeby zachować tego
+rodzaju powagę, to jednak faktyczna *przyczyna*, dla której tak czasem robimy, może wcale nie być
+dobra. Bo tą przyczyną może być i chyba często jest po prostu wstyd, czy może raczej lęk przed
+potencjalnym wstydem. A taki lęk utrudnia, o ile wręcz nie uniemożliwia, między innymi swobodną
+wymianę poglądów i racjonalną, krytyczną dyskusję, a tym samym utrudnia również autentyczną pracę
+naukową, ponieważ każda tego rodzaju dyskusja jest z konieczności procesem twórczym.
 
 ### Przypisy
 
