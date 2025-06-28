@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------
+AKTUALNE POPRAWKI
+
+Duzy_predykaty_Bog l 388
+
+----------------------------------------------------------------------------------------------------
+POMYS£Y NA ROZDZIA£Y
+
+1. Podstawy logiki predykatów wy¿szego rzêdu z zadaniami
+
+2. Teoria mnogoœci na trzy sposoby, z zadaniami: ZFC (w zarysie) i liczby naturalne von Neumanna,
+zbiory jako predykaty w lambda-D i liczby naturalne jako indukcyjny typ danych, ETCS (w zarysie)
+
+3. Relacje porz¹dku - presety, posety, trochê zadañ, rozpoznanie porz¹dków w omawianych wczeœniej
+treœciach, wa¿ne hierarchie w psychologii
+
+4. Monoidy i grupy - przyk³ady wa¿ne w psychologii inspirowane ksi¹¿k¹ Spivaka
+
+5. Abstrakcja bezcelowa - relacje równowa¿noœciowe i podzia³y, rysunek podzia³y jako nieformalny
+model
+
+6. Abstrakcja celowa - klasy typów, uwagi o programowaniu obiektowym. Przyk³ady: zdania w rachunku
+zdañ i rachunku predykatów.
+
+7. Odwzorowania w pe³ni zas³uguj¹ce na t¹ nazwê
