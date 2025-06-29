@@ -5,3 +5,7 @@ jest *pe³noprawny* sposób (tutaj akurat rysunkowego) *zdefinowania* funkcji, bo 
 naturalnym albo jakimkolwiek innym, w tym równie¿ rysunkowym. Drugi sposób polega na narysowaniu
 obok (albo poni¿ej lub powy¿ej albo z lewej, to akurat nie ma znaczenia) *kopii* `X` i narysowaniu
 strza³ek z ka¿dego elementu `X` do tego samego elementu w kopii `X`.
+
+Mam wra¿enie, ¿e zestawienie obu tych sposobów razem pozwala dostrzec, ¿e (rozumiane jako narzêdzia
+swobodnego oznaczania) zbiory s± jak funkcje, a funkcje (które s± oznaczeniami w oczywisty sposób)
+s± jak zbiory.
