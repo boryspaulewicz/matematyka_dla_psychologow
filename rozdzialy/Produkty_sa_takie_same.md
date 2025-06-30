@@ -638,9 +638,12 @@ kolekcję albo typ albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `�
 z powodów, które nas w tym momencie nie interesują, nazywamy (pewnym) "hom-setem" (danej kategorii).
 
 Czyli, jeżeli `Hom_ℂ(X, Y)` jest zbiorem, to używając formalnego języka teorii mnogości możemy o tym
-zbiorze powiedzieć: `Hom_ℂ(X, Y) = {f : Arr(ℂ) | s(f) = X ∧ t(f) = Y}` (zbiór wszystkich strzałek w
-kategorii `ℂ`, których źródłem \{`s` od angielskiego *source*\} jest punkt `X`, a celem \{`t` od
-angielskiego *target*\} jest punkt `Y`).
+zbiorze powiedzieć ...
+
+`Hom_ℂ(X, Y) = {f : Arr(ℂ) | s(f) = X ∧ t(f) = Y}` 
+
+... że to jest zbiór wszystkich strzałek w kategorii `ℂ`, których źródłem \{`s` od angielskiego
+*source*\} jest punkt `X`, a celem \{`t` od angielskiego *target*\} jest punkt `Y`.
 
 (Nawiasem mówiąc, jeżeli `s` i `t` mają być *funkcjami teoriomnogościowymi* \{a w przypadku wielu
 kategorii mogą nimi być\}, to ponieważ `s, t : Arr(ℂ) → Ob(ℂ)`, to kolekcje `Arr(ℂ)` i `Ob(ℂ)` muszą
