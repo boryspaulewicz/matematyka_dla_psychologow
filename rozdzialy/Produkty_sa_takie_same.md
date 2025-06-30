@@ -620,7 +620,7 @@ izomorfim został albo wskazany, albo "się narzucił", bo jest kanoniczny, *nie
 wybierać czy wskazywać*. Można wtedy założyć, że skoro wiadomo, że takie operacje istnieją i
 wiadomo, o które takie operacje chodzi, to można im niejako "pozwolić działać w tle".
 
-## Wybiegając celowo na przód
+## Wybiegając celowo w przyszłość
 
 **Najpierw krótka powtórka**: Załóżmy, że mamy parę strzałek `a : P → X` i `b : P → Y`, gdzie `P` to
 produkt `X × Y` z projekcjami `π₁` i `π₂` odpowiednio. Wtedy istnieje unikalna strzałka `⟨a,b⟩`
