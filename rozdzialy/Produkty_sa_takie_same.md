@@ -727,9 +727,9 @@ bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
 Otóż posługując się takimi strukturami pół-formalny fragment prozy ...
 
 *Produkt punktów `X` i `Y` kategorii `ℂ` to taki punkt `X × Y` i strzałki `π₁ : X × Y → X` i `π₂ : X
-× Y → Y`, że `∀ Z : Ob(ℂ), ∀ f : Z → X, ∀ g : Z, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)`.*
+× Y → Y`, że `∀ Z : Ob(ℂ), ∀ f : Z → X, ∀ g : Z → Y, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)`.*
 
-... możemy zakodować w języku teorii kategorii tak ...
+... możemy zakodować w pełni w języku teorii kategorii tak ...
 
 `f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`
 
