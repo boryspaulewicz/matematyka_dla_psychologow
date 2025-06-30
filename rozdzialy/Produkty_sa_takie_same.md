@@ -674,9 +674,13 @@ oznaczmy go jako `i`, i scharakteryzujmy go opisując jak przekształca typowy e
 oznaczony jako `h`):
 
 `i(h : Z → X ⨯ Y : ℂ) = (f : Z → X : ℂ, g : Z → Y : ℂ) : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, gdzie `f = π₁
-h` i `g = π₂ h`, a pisząc krócej:
+h` i `g = π₂ h`, a pisząc krócej ...
 
-`i(h) = (f, g)`, gdzie `f = π₁ h` i `g = π₂ h`.
+`i(h) = (f, g)`, gdzie `f = π₁ h` i `g = π₂ h`
+
+... a pisząc krócej, ale próbując też pokazać, że `i` jest dobrze określoną funkcją:
+
+`i(h) = (π₁ h, π₂ h)`.
 
 Istnienie strzałki/funkcji `i⁻¹ : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)` gwarantuje nam (mogę
 już napisać "oczywiście"?) definicja produktu.
@@ -686,6 +690,6 @@ A kategorię powstającą z (dowolnej) kategorii `ℂ`, której punktami są (by
 (być może - między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj
 *parametry przekształcenia*, które tworzy pewną kategorię z podanej kategorii `ℂ` i wybranego punktu
 `Z` tej kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`, ale o tym już na pewno nie
-powinienem na tym etapie pisać.
+powinienem na tak wczesnym etapie pisać.
 
 [*Aaaa...*](https://music.youtube.com/watch?v=b-BmKga_N8M&si=gFeSTZ_PVEtKMQAn)
