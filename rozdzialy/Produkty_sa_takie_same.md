@@ -641,21 +641,22 @@ nas w tym momencie nie interesują, nazywamy (pewnym) "hom-setem" (danej kategor
 <hr>
 
 **O notacji celowo maskującej funkcyjność**: Być może to dobra okazja, żeby zwrócić Twoją uwagę na
-pewną powszechnie stosowaną a rzadko objaśnianą konwencję. Zapis `Hom_ℂ(X, Y)` zdaje się sugerować,
-że mamy do czynienia z funkcją czy operacją na parach obiektów (tutaj `X` i `Y`), ale to przecież
-nieprawda, bo rezultat operacji `Hom` zależy też od kategorii (tutaj oznaczonej jako `ℂ`). Można by
-więc równie dobrze przyjąć konwencję pisania `Hom(ℂ, X, Y)`, albo nawet - jeszcze bardziej
-jednoznacznie - `Hom(ℂ, X : Ob(ℂ), Y : Ob(ℂ))`. Niektórzy piszą też czasem `ℂ(X, Y)` albo `ℂ[X,
-Y]`. Czemu więc zwykle piszemy akurat `Hom_ℂ(X, Y)`?
+pewną powszechnie stosowaną ale rzadko objaśnianą konwencję. 
+
+Zapis `Hom_ℂ(X, Y)` zdaje się sugerować, że mamy do czynienia z funkcją czy operacją na *parach*
+obiektów (tutaj `X` i `Y`), ale to przecież nieprawda, bo rezultat operacji `Hom` zależy też od
+kategorii (tutaj oznaczonej jako `ℂ`). Można by więc równie dobrze przyjąć konwencję pisania `Hom(ℂ,
+X, Y)`, albo nawet - jeszcze bardziej jednoznacznie - `Hom(ℂ, X : Ob(ℂ), Y : Ob(ℂ))`. Niektórzy
+piszą też `ℂ(X, Y)` albo `ℂ[X, Y]`. Czemu więc zwykle piszemy akurat `Hom_ℂ(X, Y)`?
 
 Notacja `Hom_ℂ(X, Y)` ma tą przewagę nad notacją `ℂ(X, Y)`, że jest bardziej deskryptywna, a pojęcie
 hom-setu jest w teorii kategorii ważne i w pewnych kontekstach często się pojawia. Zapisywanie
 fikuśnej litery `ℂ` jako indeksu dolnego przed lewym nawiasem ma natomiast jakby *ukryć* tą literę,
-jest to więc użycie czegoś w rodzaju *odwrotności zaakcentowania*. Ten zwyczaj wynika z potrzeby
-praktycznej; często zdarza się, że mówimy dłużej o jakiejś *jednej* kategorii, a wtedy wygodnie jest
-pisać po prostu `Hom(X, Y)`. Zapisanie oznaczenia kategorii w miejscu indeksu dolnego sygnalizuje
-więc, że to oznaczenie może "łatwo spaść z notacji", czyli że w innym kontekście ten *parametr* może
-być *niejawny*.
+jest to więc coś w rodzaju *odwrotności zaakcentowania*. Ten zwyczaj wynika z potrzeby praktycznej;
+często zdarza się, że mówimy dłużej o jakiejś *jednej* kategorii, a wtedy wygodnie jest pisać po
+prostu `Hom(X, Y)`. Zapisanie oznaczenia kategorii w miejscu indeksu dolnego sygnalizuje więc, że to
+oznaczenie może "łatwo spaść z notacji", czyli że w innym kontekście ten *parametr* może być
+*niejawny* (sami mamy się go domyślić - jak Lean - gdy zajdzie taka potrzeba).
 
 <hr>
 
@@ -668,8 +669,8 @@ zbiorze powiedzieć ...
 *source*) jest punkt `X`, a celem (`t` od angielskiego *target*) jest punkt `Y`.
 
 (Nawiasem mówiąc, jeżeli `s` i `t` mają być *funkcjami teoriomnogościowymi* \{a w przypadku wielu
-kategorii mogą nimi być\}, to ponieważ `s, t : Arr(ℂ) → Ob(ℂ)`, to kolekcje `Arr(ℂ)` i `Ob(ℂ)` muszą
-być *zbiorami* \{i w przypadku wielu kategorii mogą nimi być\})
+kategorii *mogą* nimi być, a więc też *są*\}, to ponieważ `s, t : Arr(ℂ) → Ob(ℂ)`, to kolekcje
+`Arr(ℂ)` i `Ob(ℂ)` muszą być *zbiorami* \{i w przypadku wielu kategorii są\})
 
 Zgadłaś co oznacza `Arr(ℂ)`, prawda?
 
@@ -679,14 +680,14 @@ nadzieję dezorientujących wtrąceń utożsamiamy tu sobie to, co jest *oznacza
 (za pomocą formalnego języka teorii kategorii) z tym, co oznaczające (czyli z *częściami struktury
 kategorii*)\}.
 
-Jeżeli dla każdych `X, Y : Ob(ℂ)`, `Hom_ℂ(X, Y)` jest zbiorem (musimy tego jawnie wymagać, bo w
-ogólnym przypadku ta kolekcja może być za duża jak na bycie zbiorem), to dla każdego `Z : Ob(ℂ)`,
-jeżeli istnieje `X × Y` (czyli kategoryjny produkt `X` i `Y` - nie każda kategoria ma wszystkie
-produkty, a niektóre nie mają żadnych!), to:
+Jeżeli dla każdych `X, Y : Ob(ℂ)`, `Hom_ℂ(X, Y)` jest zbiorem (musimy tego wymagać, bo w ogólnym
+przypadku ta kolekcja może być za duża jak na bycie zbiorem), to dla każdego `Z : Ob(ℂ)`, jeżeli
+istnieje `X × Y` (czyli kategoryjny produkt `X` i `Y` - nie każda kategoria ma wszystkie produkty, a
+niektóre nie mają żadnych!), to:
 
 `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) ≅ Hom_ℂ(Z, X × Y)`
 
-Czyli: Istnieje kategoryjny izomorfizm (`≅`), będący w tym wypadku funkcją (a więc to jest
+Czyli: Istnieje (kategoryjny) izomorfizm (`≅`), będący w tym wypadku funkcją (a więc to jest
 bijekcja), bo to są z założenia wszystko zbiory, między ...
 
 1. Produktem `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, który można w tym wypadku rozumieć jako zbiór takich par
@@ -720,17 +721,21 @@ A kategorię powstającą z kategorii `ℂ`, której punktami są (być może - 
 Y)`, która ma produkty takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są (być może -
 między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj *parametry
 przekształcenia*, które tworzy pewną kategorię z podanej kategorii `ℂ` i wybranego punktu `Z` tej
-kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`.
+kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`. Ale o tym kiedy indziej.
 
 **No dobrze, ale dlaczego**: *chcemy* robić (między innymi) z pojęciem produktu coś tak (pozornie)
 bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
 
-Otóż posługując się takimi strukturami pół-formalny fragment prozy ...
+Otóż, posługując się takimi strukturami, pół-formalny fragment prozy taki jak ten ...
 
 *Produkt punktów `X` i `Y` kategorii `ℂ` to taki punkt `X × Y` i strzałki `π₁ : X × Y → X` i `π₂ : X
 × Y → Y`, że `∀ Z : Ob(ℂ), ∀ f : Z → X, ∀ g : Z → Y, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)`.*
 
-... możemy zakodować w pełni w języku teorii kategorii tak ...
+... możemy w pełni zakodować w języku teorii kategorii tak (morfizmy takie jak `Hom_ℂ` to również -
+nazywane [*funktorami
+głównymi*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii)#Funktory_g%C5%82%C3%B3wne) -
+[strzałki pewnej kategorii](https://en.wikipedia.org/wiki/Hom_functor), której punktami są
+... [kategorie](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii))) ...
 
 `f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`
 
