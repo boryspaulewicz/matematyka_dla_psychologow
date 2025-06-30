@@ -788,13 +788,13 @@ już napisać "oczywiście"?) definicja produktu.
 A kategorię powstającą z kategorii `ℂ`, której *punktami* są (być może - między innymi) `Hom_ℂ(Z, X
 × Y)`, która ma *produkty* takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są (być może -
 między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj *parametry
-przekształcenia*, które *tworzy pewną kategorię* z podanej kategorii `ℂ` i wybranego punktu `Z` tej
-kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`. Ale o tym kiedy indziej.
+przekształcenia*, które *tworzy pewną kategorię* z podanej kategorii `ℂ` i punktu `Z` tej kategorii)
+kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`. Ale o tym kiedy indziej.
 
 **No dobrze, ale dlaczego**: *chcemy* robić (między innymi) z pojęciem produktu coś tak (pozornie)
 bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
 
-Otóż, posługując się takimi strukturami, pół-formalny fragment prozy taki jak ten ...
+Otóż posługując się takimi strukturami, pół-formalny fragment prozy taki jak ten ...
 
 *Produkt punktów `X` i `Y` kategorii `ℂ` to taki punkt `X × Y` wyposażony w nazywane projekcjami
 strzałki `π₁ : X × Y → X` i `π₂ : X
@@ -810,6 +810,6 @@ głównymi*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii)#Funktory_g
 `f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`  
 `f⁻¹(h) = (π₁ h, π₂ h)`
 
-... *"chwytając" w ten sposób kategoryjnie i "bez reszty" (!) "istotę" (!) pojęcia kategoryjnego
-(!)* (tutaj akurat pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju
-*badania endo-meta-teoretycznego* (sic!).
+... *"chwytając" w ten sposób kategoryjnie (!) "istotę" (!) pojęcia kategoryjnego (!)* (tutaj akurat
+pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju *badania
+endo-meta-teoretycznego*.
