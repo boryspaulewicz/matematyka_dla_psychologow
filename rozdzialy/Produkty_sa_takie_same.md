@@ -633,9 +633,10 @@ Na przykład, jeżeli `ℂ = Set`, to `Ob(ℂ)` to kolekcja wszystkich zbiorów 
 która *nie może* być *zbiorem*, bo pojęcie zbioru wszystkich zbiorów prowadzi do antynomii
 Russella).
 
-Jeżeli `X, Y : Ob(ℂ)` (wiem, że mocno skracam zapis - orientuj się!), to niech `Hom_ℂ(X, Y)` oznacza
-kolekcję albo typ albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `ℂ`. Każdą taką kolekcję,
-z powodów, które nas w tym momencie nie interesują, nazywamy (pewnym) "hom-setem" (danej kategorii).
+Jeżeli `X, Y : Ob(ℂ)` (wiem, że mocno skracam zapis - orientuj się!), to niech `Hom_ℂ(X, Y)` (nie da
+się w Unikodzie zapisać $Hom_{ℂ}(X, Y)$, więc znowu używam podkreślenia) oznacza kolekcję albo typ
+albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `ℂ`. Każdą taką kolekcję, z powodów, które
+nas w tym momencie nie interesują, nazywamy (pewnym) "hom-setem" (danej kategorii).
 
 <hr>
 
