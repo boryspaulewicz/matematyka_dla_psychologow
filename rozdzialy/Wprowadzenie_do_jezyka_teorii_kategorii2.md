@@ -1,7 +1,7 @@
 Zacznijmy może jeszcze raz od początku. Skoro `f` i `g` to dwie składane funkcje, to wyrażenie `g ∘
 f` również oznacza pewną funkcję, a skoro funkcja `g ∘ f` jest składalna z funkcją `h` (wiesz
-dlaczego, prawda?), to `h ∘ (g ∘ f)` też oznacza pewną funkcję, bo to znowu jest złożenie *dwóch*
-(składalnych) funkcji.
+dlaczego, prawda? chodzi o dziedziny i przeciwdziedziny), to `h ∘ (g ∘ f)` też oznacza pewną
+funkcję, bo to znowu jest złożenie *dwóch* (składalnych) funkcji.
 
 Żeby udowodnić, że `h ∘ (g ∘ f) = (h ∘ g) ∘ f`, czyli, że lewa i prawa strona tej równości to ta(ka)
 sama funkcja, musimy udowodnić, że `∀ x ∈ X, (h ∘ (g ∘ f))(x) = ((h ∘ g) ∘ f)(x)`. Zakładamy więc
@@ -25,7 +25,7 @@ wielokrotną aplikacją dwuargumentowej[^1] funkcji składania) do postaci ...
 
 Zwróć proszę uwagę, że najpierw rozwinąłem definicję składania funkcji `(g ∘ f)` z funkcją `h`, a to
 dlatego, że w wyrażeniu `(h ∘ (g ∘ f))` właśnie to złożenie, a nie złożenie `(g ∘ f)`, jest "na
-wierzchu" albo "na zewnątrz". 
+wierzchu" (albo "na zewnątrz" \{albo "na górze"\}).
 
 Samo rozwinięcie definicji wszystkich stałych pozwoliło nam zobaczyć, że obie funkcje dają ten sam
 wynik `∀ x ∈ X`, a więc:
@@ -89,7 +89,7 @@ które i które strzałki można złożyć z których strzałek.
 Strzałki `f` i `g` są `Skladalne`, a więc musi istnieć ich unikalne `Zlozenie`, to jest taka funkcja
 `h`, która jest funkcją `(g ∘ f)`, czyli dla której spełniony jest warunek `∀ x ∈ X, h(x) = (g ∘
 f)(x) = g(f(x))`. Tego nie musisz próbować *zobaczyć*, bo to możesz *wywnioskować* z definicji
-funkcji. Dorysuj więc od dołu `Strzalka X Z`, taką wygiętą w łuk i oznacz ją literą `h`, a potem
+funkcji. Dorysuj więc od dołu `Strzalka X Z`, taką wygiętą w łuk, i oznacz ją literą `h`, a potem
 umieść w środku uzyskanego w ten sposób diagramu ptaszka.
 
 Jest tam teraz ptaszek, bo mocą naszej *decyzji* (a więc to jest *założenie*) dotyczącej tego, co
@@ -101,7 +101,7 @@ między nimi, ponieważ grafy, choć czasem mogą się kojarzyć z rozmaitymi pr
 strukturami *statycznymi*, a składanie strzałek jest (w pewien sposób) dynamicznym (wybrednym)
 *działaniem*. Dlatego z wysokości, na której się aktualnie znajdujesz, nie zobaczysz tego nawet
 patrząc przez magiczne okulary, a więc wszystkie informacje na temat (ro)\{z/s\}kładania się
-funkcji, poza uniwersalnymi włanościami tego działania, *musisz* odtąd albo *założyć* albo
+funkcji, poza uniwersalnymi włanościami tego działania, *musisz* odtąd albo *założyć*, albo
 *wywnioskować*.
 
 Tego, że każdy zbiór ma jedną identyczność, nie musisz próbować zobaczyć (ani nawet zakładać), bo
@@ -136,9 +136,9 @@ A po drugie, jeżeli `f : X → Y`, `g : Y → Z` i `h : Z → V`, to jeżeli `x
 
 `(h ∘ (g ∘ f))(x) = h((g ∘ f)(x)) = h(g(f(x))) = (h ∘ (g(f(x)))) = ((h ∘ g) ∘ f)(x)`
 
-A więc gdy pod punktami skrywają się zbiory a pod strzałkami skrywają się funkcje między tymi
-zbiorami, to o ile złożenia, które pojawiają się poniżej, są możliwe, jest prawdą dla każdych trzech
-*strzałek* `f`, `g` i `h`, że:
+A więc *gdy pod punktami skrywają się zbiory a pod strzałkami skrywają się funkcje między tymi
+zbiorami*, to o ile złożenia, które pojawiają się poniżej, są możliwe, jest prawdą dla każdych
+trzech *strzałek* `f`, `g` i `h`, że:
 
 1. `Id ∘ f = f = f ∘ Id`
 
@@ -175,11 +175,12 @@ Pozostaje nam rozwinąć tymczasowe definicje stałych `i` i `j` ...
 `h(g(f(x))) = h(g(f(x))`
 
 Podoba mi się ten ostatni sposób, a Tobie? Chociaż przyznam, że nie jest dla mnie jasne, czy
-cokolwiek tu upraszcza, To może jeszcze zrobimy coś podobnego, tylko w Leanie? W tym celu
-zastosujemy taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie konstruuje między
-innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po zredukowaniu, czyli z
-definicji (liczba mnoga). Zaczniemy od ilustracji, która może być dla Ciebie teraz jeszcze trochę
-trudna, ale której też wcale nie musisz w tym momencie dobrze rozumieć:
+cokolwiek tu upraszcza, To może jeszcze zrobimy coś podobnego, tylko w Leanie? 
+
+W tym celu zastosujemy taktykę `rfl`, o której jeszcze nie mówiłem. Ta taktyka automatycznie
+konstruuje między innymi dowody, które polegają na wykazywaniu, że dwa wyrażenia są równe po
+zredukowaniu, czyli z definicji (liczba mnoga). Zaczniemy od ilustracji, która może być dla Ciebie
+teraz jeszcze trochę trudna, ale której też wcale nie musisz w tym momencie dobrze rozumieć:
 
 ```lean
 -- Używamy tutaj parametrów opcjonalnych, które wprowadzamy do definicji funkcji otaczając je nawiasami
@@ -187,14 +188,14 @@ trudna, ale której też wcale nie musisz w tym momencie dobrze rozumieć:
 -- aplikacji tej funkcji. *Chcemy*, żeby te parametry były opcjonalne, bo dzięki temu będziemy mogli
 -- później (znacznie) mniej pisać i kod będzie (znacznie) bardziej czytelny.
 def Zlozenie {X Y Z : Type} (f : X → Y) (g : Y → Z) : X → Z := 
-  -- Tak wiem, ta zmiana kolejności jest irytująca.
+  -- Tak wiem, ta zmiana kolejności bywa irytująca.
   fun (x : X) => g (f x)
 
--- Dla dowolnych *typów* X, Y, Z i V ...
+-- Dla dowolnych *typów* `X`, `Y`, `Z` i `V` ...
 variable (X Y Z V : Type)
 
--- ... i funkcji f, g, h, które są na mocy samej takosamości niektórych występujących w ich specyfikacjach
--- typów, to jest typów Y i Z, kolejno parami składalne (wiesz o co mi chodzi, prawda?) ...
+-- ... i funkcji `f`, `g`, `h`, które są na mocy samej takosamości niektórych występujących w ich specyfikacjach
+-- typów, to jest typów `Y` i `Z`, kolejno parami składalne (wiesz o co mi chodzi, prawda?) ...
 variable (f : X → Y) (g : Y → Z) (h : Z → V) -- tak też można
 
 -- ... to ...
@@ -227,7 +228,7 @@ funkcji w różnej kolejności, redukują się do tego samego, czyli są równe.
 pomocą taktyki `rfl` jest dziecinnie proste:
 
 ```lean
--- Instrukcji variable można używać również tak:
+-- Instrukcji `variable` można używać również tak:
 variable (X Y Z V : Type) (f : X → Y) (g : Y → Z) (h : Z → V)
 
 -- Trzeba było tak od razu, prawda?
@@ -235,7 +236,7 @@ example : Zlozenie f (Zlozenie g h) = Zlozenie (Zlozenie f g) h := by rfl
 
 -- W ten sam sposób możemy udowodnić przemienność wbudowanej w Leana operacji składania funkcji
 -- teoriotypowych. Symbol składania uzyskasz w Leanie wpisując \o. W tym wypadku ten symbol
--- jest rozwijany do stałej o nazwie Function.comp (czyli po polsku "Funkcja.skład").
+-- jest rozwijany do stałej o nazwie `Function.comp` (czyli po polsku "Funkcja.skład").
 example : h ∘ (g ∘ f) = (h ∘ g) ∘ f := by rfl
 
 -- To może jeszcze (podwójny) dowód, że identyczności zachowują się jak elementy neutralne ze względu
@@ -243,9 +244,9 @@ example : h ∘ (g ∘ f) = (h ∘ g) ∘ f := by rfl
 example : (fun (y : Y) => y) ∘ f = f := by rfl 
 example : f ∘ (fun (x : X) => x) = f := by rfl 
 
--- To było mało czytelnie? No to dodamy odrobinę lukru składniowego. Funkcja ID dla podanego typu tworzy 
--- funkcję identycznościową z tego typu do niego samego. Myślę, że jesteś już w stanie zrozumieć tą
--- definicję.
+-- To było mało czytelnie? No to dodamy odrobinę lukru składniowego. Funkcja `ID` dla podanego *typu*
+-- tworzy funkcję identycznościową z tego typu do niego samego. Myślę, że jesteś już w stanie zrozumieć
+-- tą definicję.
 def ID (typ : Type) : typ → typ := fun (a : typ) => a
 
 example : (ID Y) ∘ f = f := by rfl
@@ -269,10 +270,9 @@ złożenie więcej niż dwóch funkcji *można* w ogóle *nie stosować nawiasó
 jakiej *kolejności* będziemy *stosować operację składania*. Nadal jednak w ogólnym przypadku *ma*
 oczywiście znaczenie, *w jakiej kolejności podamy argumenty* tej operacji.
 
-"Podsumowując dotychczasowe rozważania" (Borek, jak Ty się zwracasz do Pani? No tak, faktycznie,
-przepraszam), z wysokości, na której się teraz znajdujemy i z której nie widać ani wewnętrznej
-struktury zbiorów, ani wewnętrznej struktury teoriomnogościowych funkcji, widzimy / wiemy między
-innymi, że:
+"Podsumowując dotychczasowe rozważania" (Borek, jak Ty się zwracasz do Pani?!), z wysokości, na
+której się teraz znajdujemy, a z której nie widać ani wewnętrznej struktury zbiorów, ani wewnętrznej
+struktury teoriomnogościowych funkcji, widzimy/wiemy między innymi, że:
 
 1. Istnieją *punkty* (zbiorów), które dla nas są tylko *punktami zaczepienia strzałek*.
 
@@ -315,13 +315,13 @@ tego przykładu w dwóch krokach, a właściwie w dwóch
 
 Pokażę Ci, że pewne znane Ci już, ważne obiekty, konstrukcje i własności *teoriomnogościowe*, takie
 jak element zbioru (sic!), tożsamość, izomorficzność, injektywność i surjektywność funkcji,
-podzbiór, podział zbioru (na wyczerpujące i rozłączne *pod*zbiory), zbiór pusty, singleton, iloczyn
-kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako kategoryjne *struktury
-strzałkowe* i że to jest w pewnym sensie *lepszy*, bo bardziej *uniwersalny* sposób mówienia o tych
-obiektach, konstrukcjach i własnościach. Niejako przy okazji zaczniesz też stopniowo w bardziej
-elastyczny sposób myśleć o "takosamości" matematycznych struktur. W międzyczasie (swoją drogą, co za
-tajemnicze słowo), skorzystamy z kilku spośród tych alternatywnych, uniwersalnych kategoryjnych
-definicji, żeby w nowy sposób popatrzeć na *logikę*.
+podzbiór, podział zbioru (na niepuste, wyczerpujące i rozłączne *pod*zbiory), zbiór pusty,
+singleton, iloczyn kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako
+kategoryjne *struktury strzałkowe* i że to jest w pewnym sensie *lepszy*, bo bardziej *uniwersalny*
+sposób mówienia o tych obiektach, konstrukcjach i własnościach. Niejako przy okazji zaczniesz też
+stopniowo w bardziej elastyczny sposób myśleć o "takosamości" matematycznych struktur. W
+międzyczasie (swoją drogą, co za tajemnicze słowo), skorzystamy z kilku spośród tych alternatywnych,
+uniwersalnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
 **Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty *izomorfizm*
 między funkcjami z dowolnego singletona, na przykład ze zbioru `{∅}`, do `X` i *elementami*
@@ -330,19 +330,20 @@ odwrotnie, każdy taki element odpowiada dokładnie jednej takiej funkcji. *Wszy
 powiedzieć o elementach zbiorów, można więc równie dobrze powiedzieć o takich funkcjach i vice
 versa.
 
-Na przykład, jeżeli `x ∈ X`, to istnieje *funkcja* `x`, a więc również strzałka w naszej kategorii,
-taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również literą `x` jest co prawda może
-(znowu, wiem) trochę nonszalanckie, ale *nie* jest poważnym błędem, bo ta *decyzja* ma charakter
-*metajązykowy* i mimo pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu
-`x`, *kontekst użycia* pozwoli nam zawsze *jednoznacznie stwierdzić*, czy chodzi o element zbioru,
-czy o funkcję. Niestety, w niektórych sytuacjach to może być jednak zbyt mylące. Na przykład, gdyby
-chodziło o element będący liczbą `1`, to zapis `1(∅) = 1` mógłby sugerować, że mamy do czynienia z
-mnożeniem, a gdyby chodziło o wskazanie za pomocą funkcji z singletona elementu będącego zbiorem
-pustym, uzyskalibyśmy wyjątkowo dezorientujące zdanie `∅(∅) = ∅`. Dlatego najlepiej korzystać z tej
-konwencji oznaczając elementy zbiorów zmiennymi, takimi jak ten tutaj `x`.
+Na przykład, jeżeli `x ∈ X`, to istnieje *funkcja* `x`, a więc również strzałka w naszej kategorii
+zbiorów, funkcji i ich złożeń, taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również
+literą `x` jest co prawda może (znowu, wiem) trochę nonszalanckie, ale *nie* jest poważnym błędem,
+bo ta *decyzja* ma charakter *metajązykowy* i mimo pojawiającej się z tego powodu dwuznaczności - i
+"dwutypowości"! - symbolu `x`, *kontekst użycia* pozwoli nam zawsze *jednoznacznie stwierdzić*, czy
+chodzi o element zbioru, czy o funkcję. Niestety, w niektórych sytuacjach to może być jednak zbyt
+mylące. Na przykład, gdyby chodziło o element będący liczbą `1`, to zapis `1(∅) = 1` mógłby
+sugerować, że mamy do czynienia z mnożeniem, a gdyby chodziło o wskazanie za pomocą funkcji z
+singletona elementu będącego zbiorem pustym, uzyskalibyśmy dezorientujące zdanie `∅(∅) = ∅`. Dlatego
+najlepiej korzystać z tej konwencji oznaczając elementy zbiorów zmiennymi, takimi jak ten tutaj `x`.
 
-Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce (i w matematyce czasem zresztą
-też) [*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
+Celowe wprowadzanie tego rodzaju dwuznaczności (`x` oznacza tu zarazem pewną funkcję do zbioru `X` i
+element należący do tego zbioru) nazywamy w informatyce (i w matematyce czasem zresztą też)
+[*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
 oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
 pewne funkcje jako programy, tyle, że określonego rodzaju), ale jest przecież oczywiste, że ten sam
 manewr można zastosować, z tego samego powodu (a dokładniej w tym samym celu) - to jest aby
@@ -355,14 +356,14 @@ i pamiętaj proszę, że nigdzie się nie spieszymy. Na wypadek, gdybyś potrzeb
 wyjaśnień, znajdziesz je [tutaj](Element_x_jako_funkcja_z_singletona.md).
 
 **Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat duża
-litera `T` wyjaśnię później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`,
-istnieje dokładnie jedna funkcja (czyli w tym momencie też dokładnie jedna kategoryjna strzałka) *z*
-`X` *do* `T`. I odwrotnie, jeżeli zbiór `Y` ma taką własność, że dla każdego zbioru `Z` istnieje
-dokładnie jedna funkcja z `Z` do `Y` (czyli dokładnie jedna taka kategoryjna strzałka), to `Y` musi
-być zbiorem jednoelementowym.
+litera `T` wyjaśnię później) ma własność strzałkową (czyli w tym wypadku "funkcjo-złożeniową")
+polegającą na tym, że dla każdego zbioru `X`, istnieje dokładnie jedna funkcja (czyli w tym momencie
+też dokładnie jedna kategoryjna strzałka) *z* `X` *do* `T`. I odwrotnie, jeżeli zbiór `Y` ma taką
+własność, że dla każdego zbioru `Z` istnieje dokładnie jedna funkcja z `Z` do `Y` (czyli dokładnie
+jedna taka kategoryjna strzałka), to `Y` musi być zbiorem jednoelementowym.
 
 **Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
-później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X` istnieje dokładnie
+później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`, istnieje dokładnie
 jedna funkcja (czyli w tym momencie kategoryjna strzałka) *z* `I` *do* `X`. I odwrotnie, jeżeli
 zbiór `Y` ma taką własność, że dla każdego zbioru `Z`, istnieje dokładnie jedna funkcja (czyli
 również strzałka) z `Y` do `Z`, to `Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje
@@ -372,7 +373,7 @@ takich zbiorach, są fałszywe.
 **Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
 b}`. Wtedy *każdy* element zbioru `X × Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
 jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to są przecież dwie
-*własności*, a więc pewne *funkcje* tych elementów. Czy widzisz, że na przykład element ...
+*własności*, a więc pewne *funkcje*. Czy widzisz, że na przykład element ...
 
 `(2, a)`
 
@@ -380,15 +381,15 @@ jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to 
 opisać każdy taki element *za pomocą projekcji*. Każdy taki element ma zatem tą *własność*, że
 *wszystkie* jego *własności* można wyrazić w kategoriach tych dwóch *własności* (tak, wiem, ale
 musiałem). I do tego w zasadzie sprowadza się definicja produktu kategoryjnego, a mimo to ta
-definicja jest na początku stosunkowo trudna do zrozumienia.
+definicja może być początkowo trudna do zrozumienia.
 
 Pisałaś o tego rodzaju funkcjach, tak samo nazywając je zresztą *projekcjami*, w komentarzu pod
 jednym z naszych zrób-to-sama rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego
 odpowiednika iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych
 kategoryjnych strzałek, a tak naprawdę samej kategoryjnej operacji składania. Niestety, nie potrafię
-opisać żadnego prostego rozumowania, które prowadziłoby prostą drogą do tej niezbyt prostej
-definicji, dlatego muszę ją przedstawić jako rezultat *wglądu*, to jest jako coś, co zostało
-częściowo przypadkowo przez kogoś kiedyś (na szczęście!) *odkryte*.
+zaproponować rozumowania, które prowadziłoby prostą drogą do tej niezbyt prostej definicji, dlatego
+muszę ją przedstawić jako rezultat *wglądu*, to jest jako coś, co zostało częściowo przypadkowo
+przez kogoś kiedyś (na szczęście!) *odkryte*.
 
 **Rysunek 1**: `Narysuj` iloczyn kartezjański `X × Y` jako okrąg z odpowiednio oznaczonymi
 elementami, a po lewej od niego narysuj zbiór `{∅}`, również jako okrąg, zawierający jako swój
@@ -414,7 +415,8 @@ uporządkowanej *parze wskazań elementów* `X` i `Y`, danej przez `π₁ ∘ v`
 odpowiada dokładnie jednemu wskazaniu elementu zbioru `X × Y`? Mam nadzieję, że w tym momencie
 widzimy oboje, że mamy tu pewne narzucające się *izomorfizmy* między *elementami* znajdującymi się
 *wewnątrz* zbioru `X × Y`, znajdującymi się *na zewnątrz* tego zbioru *pojedynczymi funkcjami* z
-singletona do `X × Y` i *parami funkcji* z singletona `{∅}` do zbiorów `X` i `Y` odpowiednio.
+singletona do `X × Y` i, znajdującymi się również *na zewnątrz*, *parami funkcji* z singletona `{∅}`
+do zbiorów `X` i `Y` odpowiednio.
 
 Właściwie teraz, gdy skończyłem pisać ten akapit, zaczęło mi się wydawać, że może jednak da się
 przedstawić kategoryjny iloczyn (który nazywamy raczej kategoryjnym *produktem*) jako wniosek z
@@ -438,13 +440,13 @@ prawie w ogóle niczego się systematycznie nie uczą i często nawet niczego ni
 kiedy uczesniczą w dyskusjach "naukowych" albo słuchają wystąpień, wielu jest nadal na szczęście
 *zmuszonych*, w czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą
 często nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla"
-jakiś okropnych, namolnych studentów. No więc za to, tylko krócej.
+jakiś okropnych, namolnych studentów. No więc może podziękujmy razem i za to, tylko krócej.
 
 Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
 pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym zwięzłym komentarzem:
 *Istnieje naturalny izomorfizm między elementami iloczynu kartezjańskiego i parami funkcji z
-dowolnego singletona do przeciwdziedzin projekcji tego iloczynu, jak również między funkcjami z
-dowolnego singletona do dowolnego iloczynu i elementami tego iloczynu*.
+dowolnego singletona do przeciwdziedzin projekcji tego iloczynu (i między funkcjami z dowolnego
+singletona do dowolnego iloczynu i elementami tego iloczynu)*.
 
 Wynika stąd, że wszystko, co możemy powiedzieć na temat elementów należących do dowolnego iloczynu
 kartezjańskiego, a więc po prostu wszystko, co możemy powiedzieć na temat iloczynu kartezjańskiego,
@@ -464,53 +466,130 @@ zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię o nar
 tym położeniu względem punktu `X`.
 
 No więc `Narysuj (Punkt X x Y)` i oznacz go z dołu jako `X x Y`, czyli po prostu oznacz go z
-dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` i oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X
-x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam
-sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko tą oznacz sama już wiesz jak. `Narysuj (Punkt Z)
-(N (X x Y))` i jako łuki wygięte na zewnątrz, tak, jakby to były skrzydła anioła, `Narysuj (Strzalka
-Z X)` i `Strzalka Z Y`, a potem oznacz je odpowiednio literami `f` i `g`, zapisując te nazwy po
-zewnętrznych stronach tych skrzydeł albo strzałek. Wreszcie linią *przerywaną* `Narysuj (Strzalka Z
-(X x Y))` i po lewej albo po prawej, jak chcesz, oznacz ją jako `⟨f, g⟩`. Na koniec wewnątrz każdego
-ze skrzydeł nanieś ptaszka, bo ten *diagram* ma być *z definicji przemienny*.
+dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` (czyli na południowy zachód od punktu `X × Y`) i
+oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X x
+Y) X)` i oznacz ją z góry jako `π₁` i w ten sam sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko tą
+oznacz sama już wiesz jak. `Narysuj (Punkt Z) (N (X x Y))` i - jako łuki wygięte na zewnątrz, tak,
+jakby to były skrzydła anioła - `Narysuj (Strzalka Z X)` i `Strzalka Z Y`, a potem oznacz je
+odpowiednio literami `f` i `g`, zapisując te nazwy po zewnętrznych stronach tych skrzydeł albo
+strzałek. Wreszcie linią *przerywaną* `Narysuj (Strzalka Z (X x Y))` i po lewej albo po prawej, jak
+chcesz, oznacz ją jako `⟨f, g⟩`. Na koniec wewnątrz każdego ze skrzydeł nanieś ptaszka, bo ten
+*diagram* ma być *z definicji przemienny*.
 
 Co? Tak, wiem, ale nie przejmuj się, to minie (*wszystko* przecież mija[^2]). Już wyjaśniam:
-Niezależnie od tego, jaki byśmy wybrali zbiór `Z`, a więc dla każdego zbioru `Z` i niezależnie od
-tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y` (o ile istnieją), będzie *istniała* taka
-funkcja `h : Z → X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`. Skąd to wiemy? Dla dowolnego `z ∈ Z`,
-istnieje dokładnie jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x,
-y))`. Widzisz, że to musi być para uporządkowana `(f(z), g(z))` i że para o takich wartościach
-projekcji istnieje dla każdego `z ∈ Z`? A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten
-sposób scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego
-anioła, dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v ∈ X × Y`, że
-`π₁(v) = f(z)` i jednocześnie `π₂(v) = g(z)`. Funkcja `h : Z → X × Y` dla której ten diagram jest
-przemienny *istnieje* i jest zarazem *unikalna*, a więc *ta funkcja jest funkcją funkcji* `f` *i*
-`g`. Właśnie dlatego możemy ją zapisać jako `⟨f, g⟩`.
+Niezależnie od tego, jaki byśmy wybrali zbiór `Z`, a więc dla każdego zbioru `Z`, i niezależnie od
+tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y`, będzie *istniała* taka funkcja `h : Z →
+X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`. Skąd to wiemy? Dla dowolnego `z ∈ Z`, istnieje dokładnie
+jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x, y))`. Widzisz, że
+to musi być para uporządkowana `(f(z), g(z))`, i że para o takich wartościach projekcji istnieje dla
+każdego `z ∈ Z`? A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w ten sposób
+scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach tego anioła,
+dla każdego `z ∈ Z`, taka funkcja *musi* wybrać taką parę uporządkowaną `v ∈ X × Y`, że `π₁(v) =
+f(z)` i jednocześnie `π₂(v) = g(z)`, a tylko jedna para, to jest `(f(z), g(z))`, spełnia ten
+warunek. A zatem dla każdej pary funkcji `f : Z → X`, `g : Z → X`, funkcja `h : Z → X × Y`, dla
+której ten diagram jest przemienny, czyli dla której `π₁ ∘ h = f` i `π₂ ∘ h = g`, *istnieje* i jest
+zarazem *unikalna*, a więc *ta funkcja jest funkcją pary funkcji* `f` *i* `g`. Właśnie dlatego
+możemy ją zapisać jako `⟨f, g⟩`.
 
 Widzimy w ten sposób, że każda para funkcji `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
 iloczynu kartezjańskiego odpowiada dokładnie jednej funkcji `h` ze zbioru `Z` do tego iloczynu,
-która spełnia warunek `f = π₁ ∘ h` i warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z
-dowolnego zbioru do iloczynu kartezjańskiego odpowiada *unikalnej parze uporządkowanej* funkcji z
-tego zbioru do członów tego iloczynu, pozwalającej narysować oba ptaszki, ponieważ wtedy (tak
-nakazują i tego wymagają ptaszki) pierwsze skrzydło *musi* być tą samą funkcją co `π₁ ∘ h`, a drugie
-skrzydło *musi* być tą samą funkcją co `π₂ ∘ h`. Wynika stąd, że jeżeli skrzydłami są funkcje `f` i
-`g`, to taką funkcję możemy zapisać jako funkcję tych funkcji, na przykład właśnie jako `⟨f, g⟩`.
+która jakby "dzieli" te funkcje (analogia do mnożenia!), to jest która spełnia warunek `f = π₁ ∘ h`
+i warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z dowolnego zbioru do iloczynu
+kartezjańskiego odpowiada *unikalnej parze uporządkowanej* funkcji z tego zbioru do członów tego
+iloczynu, pozwalającej narysować oba ptaszki - jest to po prostu para funkcji `π₁ ∘ h` i `π₂ ∘
+h`.
+
+<hr>
+
+**Filozofując**: Spróbujmy zobaczyć wyraźnie, a dzięki temu lepiej zrozumieć, co się właśnie stało.
+
+Punktem wyjścia było formalne pojęcie pary uporządkowanej *elementów* dwóch (dowolnych) zbiorów:
+`(x, y)`. "Istotę" bycia taką parą uporządkowaną elementów można wyrazić warunkiem: `(x, y) = (x',
+y')` wtedy i tylko wtedy, gdy `x = x` i `y = y'`. Takie pary były dla nas najpierw (dokładnie
+wszystkimi) elementami *wewnątrz* zbioru, który oznaczaliśmy jako `X × Y`.
+
+Idąc tropem interpretacji pojęcia zbioru jako *struktury służącej do swobodnego wyróżniania czy
+oznaczania elementów*, a zatem również elementów jako arbitralnych oznaczeń, możemy popatrzeć na
+każdą parę uporządkowaną `(x, y)` jako na niezależne oznaczenie czy wyróżnienie pary elementów,
+jednego należącego do zbioru `X` i jednego do zbioru `Y`. A mówiąc dokładniej, korzystając z
+dopasowania między:
+
+1. formalnym pojęciem elementu zbioru
+
+2. *funkcjonalnym*, w znaczeniu *określonym przez rolę*, "istniejącym" na poziomie *interpretacji*
+   pojęciem swobodnego wyróżnienia/oznaczenia/wskazania
+
+3. i "ucieleśniającym" w języku formalnym to ostatnie pojęcie pojęciem funkcji z singletona
+
+widzimy, że arbitralna para uporządkowana elementów zbiorów `X` i `Y` to *funkcjonalnie* to samo, co
+arbitralna uporządkowana para funkcji z singletona do zbiorów `X` i `Y` odpowiednio. W ten sposób
+zrealizowaliśmy w kodzie/wyraziliśmy w formalnym języku zbiorów i funkcji *funkcjonalny* punkt
+widzenia na zbiór par uporządkowanych.
+
+Ta fundamentalna zmiana była możliwa dzięki temu, że po drodze *zrezygnowaliśmy z pojęcia elementu
+jako czegoś wewnątrz zbioru*, zamiast tego charakteryzując wszystko w "kategoriach kategoryjnych",
+to jest w kategoriach zbiorów rozumianych jako punkty o bliżej nieokreślonej, a raczej *nieważnej*
+(bo przecież ją pamiętamy i traktowaliśmy ją jako ważny punkt wyjścia) strukturze wewnętrznej. I tak
+oto, za sprawą przyjęcia i wyrażenia w kodzie tej nowej perspektywy, zbiory stały się tylko
+swobodnymi oznaczeniami, zatarła się różnica między pojęciami zbioru i funkcji, i wszystko zostało
+scharakteryzowane funkcjonalnie, przez co "mechanizm" formalnego języka zbliżył się do nieformalnego
+języka ról albo celów, albo do abstrakcyjnie rozumianego *zadania swobodnego
+oznaczania/wyróżniania*.
+
+Ostatnim krokiem było uogólnienie tej kategoryjnej charakteryzacji iloczynu kartezjańskiego zbiorów
+poprzez zastąpienie par funkcji z singletona parami funkcji z dowolnego (tego samego) zbioru. Żeby
+dostrzec zasadność tego kroku wystarczy zaobserwować, że pojęcie singletona jest co prawda ważne,
+ale nie do wszystkiego się nadaje. W szczególności, to pojęcie nie jest konieczne, gdy chcemy
+scharakteryzować jakiś rodzaj zbioru w kategoriach struktury relacji między tym zbiorem a wszystkimi
+innymi zbiorami. Wtedy potrzebne i wystarczające okazuje się pojęcie *arbitralnej* funkcji.
+
+Zamiast tego:
+
+```lean
+X × Y := {(x, y) | x ∈ X ∧ y ∈ Y}
+
+(x, y) = (x', y') ↔ x = x' ∧ y = y'
+```
+
+mamy teraz to:
+
+```lean
+π₁ : X × Y → X, π₂ : X × Y → Y
+
+∀ f : Z → X, g : Z → Y
+
+ ∃ ⟨f, g⟩ : Z → X × Y, (π₁ ⟨f, g⟩ = f) ∧ (π₂ ⟨f, g⟩ = g)
+
+ (π₁ h = f) ∧ (π₂ h = g) → h = ⟨f, g⟩
+```
+
+Chociaż dla wygody albo z przyzwyczajenia nadal oznaczamy go w ten sam sposób - jako `X × Y`, a więc
+jako pewien szczególny kategoryjny *punkt* - to teoriomnogościowy iloczyn kartezjański zastąpiliśmy
+tak naprawdę *scharakteryzowaną funkcjonalnie* (a nie *funkcyjnie*!) *parą współźródłowych
+strzałek*, to jest parą projekcji, czyli - *gdy akurat punktami są zbiory a strzałkami są funkcje* -
+jednoczesnym niezależnym podwójnym swobodnym oznaczaniem/wyróżnianiem.
+
+To, *do czego używamy*, albo **w jakim celu wprowadziliśmy** formalną konstrukcję typu `(x, y)`
+**stało się strukturą**. Albo: treść stała się formą, a forma treścią.
+
+<hr>
 
 *Diagram*, który właśnie narysowałaś, możemy teraz *zinterpretować* jako konstrukcję *czysto
 kategoryjną*. Wystarczy, że przyjmiemy alternatywną interpretację teoriomnogościowego symbolu
-operacji tworzenia iloczynów kartezjańskich zbiorów `×`. Możemy to zrobić, bo dopuszczamy, o ile to
-można zrozumieć jednoznacznie ze względu na kontekst, przeciążania stałych, a `×` to pewna stała
-(oznaczająca pewną operację). Wtedy na tym diagramie nie będzie już *żadnych* symboli
-teoriomnogościowych, a więc zostanie sam język teorii kategorii, to jest tylko punkty zaczepienia,
-strzałki i własności dotyczące operacji składania strzałek.
+oznaczającego operację tworzenia iloczynów kartezjańskich zbiorów `×`. Możemy to zrobić, bo
+dopuszczamy, o ile to można zrozumieć jednoznacznie ze względu na kontekst, przeciążania stałych, a
+`×` to pewna stała (oznaczająca pewną operację). Wtedy na tym diagramie nie będzie już *żadnych*
+symboli teoriomnogościowych, a więc zostanie sam język teorii kategorii, to jest tylko punkty
+zaczepienia, strzałki jako strzałki i własności dotyczące operacji składania strzałek.
 
 Przyjmujemy więc definicję, zgodnie z którą *produktem kategoryjnym*, albo po prostu *produktem*,
 będziemy nazywać każdy *punkt* (oficialnie: obiekt) wyposażony w *dwie* wychodzące z niego
 *strzałki* (czyli tak naprawdę produktem będziemy nazywać pewne *pary strzałek o tym samym źródle*)
 takie, że te strzałki zachowują się w opisany wyżej sposób, czyli jak *projekcje*, które są w
 opisany wyżej sposób "narzędziem wiernego tłumaczenia" między strzałkami do produktu i parami
-współźródłowych strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób
-uzyskujemy *uniwersalną definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn
-kartezjański i która, jak się później okaże, odpowiada między innymi pojęciu *koniunkcji w logice*.
+strzałek o tym samym źródle do punktów "na końcach" produktu. W ten sposób uzyskujemy *uniwersalną
+definicję produktu*, której szczególnym przypadkiem jest każdy iloczyn kartezjański i która, jak się
+później okaże, odpowiada między innymi pojęciu *koniunkcji w logice*!
 
 **Sugestia**: To była jak sądzę najtrudniejsza część tego rozdziału, dlatego nie będę Ci sugerował,
 jak podpisać ostatni rysunek, bo przypuszczam, że ta notatka będzie i tak ewoluowała w miarę Twoich

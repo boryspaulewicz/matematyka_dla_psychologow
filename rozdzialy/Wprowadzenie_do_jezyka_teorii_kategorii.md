@@ -10,7 +10,7 @@ Już wiesz, że z *każdym* (nie tylko skończonym) zbiorem związana jest *funk
 tym zbiorze, bo dla każdego zbioru potrafisz taką funkcję zdefiniować. W przypadku zbiorów
 *skończonych* możesz to zrobić *rysując* ją, a w przypadku *dowolnych* (a więc również
 nieskończonych) zbiorów możesz podać charakteryzującą ją jednoznacznie (nicnierobiącą) *regułę
-działania*.
+działania* (czy może raczej *oznaczania*).
 
 Wiesz, że istnieje *dokładnie jedna* taka funkcja dla każdego zbioru, bo gdy definiuje się funkcję
 identycznościową nie ma swobody wyboru, skoro każda identyczność musi dla każdego elementu zwrócić
@@ -22,20 +22,20 @@ przeciwdziedziny. Dlatego dla każdego zbioru `X` możemy napisać `Id_X` i dlat
 przeciwdziedziną zapisanej w taki skrótowy sposób identyczności.
 
 Wiesz, kiedy dwie funkcje są *składalne* i wiesz, że dla każdej pary funkcji `f : X → Y` i `g : Y →
-Z` istnieje *dokładnie jedna* funkcja `h : X → Z`, która jest ich złożeniem, czyli jest (taką samą)
-funkcją (co) `(g o f) : X → Z`, bo dla każdej konkretnej pary składalnych funkcji taka funkcja
-istnieje i również nie ma wyboru, o czym przekonałaś się niedawno dowodząc-rysując.
+Z` istnieje *dokładnie jedna* funkcja `h : X → Z`, która jest ich złożeniem, czyli jest (tą samą
+\{taką samą\}) funkcją (co) `(g o f) : X → Z`, bo dla każdej konkretnej pary składalnych funkcji
+taka funkcja istnieje i również nie ma wyboru, o czym przekonałaś się niedawno dowodząc-rysując.
 
-Wiesz poza tym, że dla każdej funkcji `f`, `Id ∘ f = f = f ∘ Id` (stosując skróty myślowe), bo
-identyczności to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*) - zależnie od
-tego, czy skorzystamy z (luźnej) analogii do dodawania czy do mnożenia - ze względu na operację
-składania.
+Wiesz poza tym, że dla każdej funkcji `f`, `Id ∘ f = f = f ∘ Id` (stosując skróty myślowe, to znaczy
+pomijając indeksy dolne pozwalające odróżnić identyczności na dziedzinie i przeciwdziedzinie `f`),
+bo identyczności to takie jakby "zera" albo "jedynki" (lepiej: *elementy neutralne*) - zależnie od
+tego, czy skorzystamy z analogii do dodawania czy do mnożenia - ze względu na operację składania.
 
 Mogłabyś teraz sama udowodnić, rozwijając tylko definicję składania funkcji, że dla każdych *trzech*
 funkcji `f : X → Y`, `g : Y → Z` i `h : Z → V` spełniony jest warunek `h ∘ (g ∘ f) = (h ∘ g) ∘ f`,
-który mówi, że tak jak dodawanie i mnożenie liczb i wiele innych często używanych operacji
+który mówi, że tak jak dodawanie i mnożenie liczb, a także wiele innych często używanych operacji
 binarnych, składanie funkcji jest operacją *łączną*. Ale może na wszelki wypadek ja to tu za Ciebie
-(i *dla* Ciebie) zrobię. Najpierw jednak proponuję, żebyś spróbowała zrobić to sama.
+zrobię. Najpierw jednak proponuję, żebyś spróbowała zrobić to sama.
 
 **Sugestia**: Zanim zaczniesz czytać dalej, spróbuj proszę samodzielnie "wyprowadzić na kartkę" (a
 więc "z głowy") dowód zdania `h ∘ (g ∘ f) = (h ∘ g) ∘ f`, gdzie `f`, `g` i `h` to kolejno parami
@@ -55,8 +55,8 @@ Jakieś funkcje `f : X → Y`, `g : Y → Z` i `h : Z → V`, a więc też oczyw
 
 A *wiesz* to:
 
-Te trzy funkcje są kolejno parami składalne, a więc istnieją ich złożenia, które można zapisać
-krótko jako `g ∘ f` i `h ∘ g`.
+Te trzy funkcje są kolejno parami składalne, a więc istnieją ich złożenia, które można zapisać jako
+`g ∘ f` i `h ∘ g`.
 
 Zdanie do udowodnienia dotyczy *równości* pewnych *funkcji*, a więc trzeba będzie skorzystać z
 ... kryterium równości funkcji, no bo z czego innego. A to kryterium mówi, że dwie funkcje są równe
@@ -71,8 +71,8 @@ A żeby z kolei rozpocząć konstrukcję dowodu zdania zaczynającego się od *D
 że ...*  wystarczy założyć, że *mamy jakiś* `x` *taki, że ...*. Jakakolwiek próba zrobienia tego
 dowodu, nawet bardzo nieudana taka próba, sprawi, że czytając dalsze objaśnienia będziesz mogła
 zauważyć, z czym dokładanie miałaś problem, a dzięki temu prawdopodobnie ten konkretny problem
-niedługo później zniknie. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij
-[ten link.](Wprowadzenie_do_jezyka_teorii_kategorii2.md)
+niedługo zniknie. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij [ten
+link.](Wprowadzenie_do_jezyka_teorii_kategorii2.md)
 
 ### Przypisy
 
