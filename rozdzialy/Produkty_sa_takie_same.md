@@ -71,7 +71,7 @@ punktów na drugi zachowując ich funkcjonalność, to jest produktowość.
 
 A teraz długo, powtarzając się, czasami z sensem, i korzystając z nieocenionej pomocy diagramów.
 
-## Długo i czasem sensownie
+## Długo i (oby) czasem sensownie
 
 Jeżeli ...
 
@@ -183,7 +183,7 @@ charakterystyczną odwrotność, możemy powiedzieć, że dwa zbiory czteroeleme
 *24* różne sposoby, gdzie każdy sposób jest jedną parą izomorfimów będących nawzajem swoimi
 odwrotnościami.
 
-## Metodę tłumaczenia trzeba zwykle *wskazać*
+## Metodę tłumaczenia trzeba *wybrać* albo *wskazać*
 
 Skoro zbiory `V` i `X × Y` są izomorficzne, to *zamiast mówić o elementach* `X × Y`, *możemy równie
 dobrze mówić o elementach* `V`, *o ile* wcześniej *wskażemy* jakiś *izomorfizm*. Gdybyśmy żadnego
@@ -642,8 +642,8 @@ zbiorze powiedzieć ...
 
 `Hom_ℂ(X, Y) = {f : Arr(ℂ) | s(f) = X ∧ t(f) = Y}` 
 
-... że to jest zbiór wszystkich strzałek w kategorii `ℂ`, których źródłem \{`s` od angielskiego
-*source*\} jest punkt `X`, a celem \{`t` od angielskiego *target*\} jest punkt `Y`.
+... że to jest zbiór wszystkich strzałek w kategorii `ℂ`, których źródłem (`s` od angielskiego
+*source*) jest punkt `X`, a celem (`t` od angielskiego *target*) jest punkt `Y`.
 
 (Nawiasem mówiąc, jeżeli `s` i `t` mają być *funkcjami teoriomnogościowymi* \{a w przypadku wielu
 kategorii mogą nimi być\}, to ponieważ `s, t : Arr(ℂ) → Ob(ℂ)`, to kolekcje `Arr(ℂ)` i `Ob(ℂ)` muszą
@@ -664,8 +664,8 @@ produkty, a niektóre nie mają żadnych!), to:
 
 `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) ≅ Hom_ℂ(Z, X × Y)`
 
-Czyli: Istnieje kategoryjny izomorfizm (`≅`), będący w tym wypadku funkcją \{a więc to jest
-bijekcja\}, bo to są z założenia wszystko zbiory, między ...
+Czyli: Istnieje kategoryjny izomorfizm (`≅`), będący w tym wypadku funkcją (a więc to jest
+bijekcja), bo to są z założenia wszystko zbiory, między ...
 
 1. Produktem `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, który można w tym wypadku rozumieć jako zbiór takich par
 uporządkowanych, że ich pierwszym elementem jest strzałka z `Z` do `X`, a drugim strzałka z `Z` do
