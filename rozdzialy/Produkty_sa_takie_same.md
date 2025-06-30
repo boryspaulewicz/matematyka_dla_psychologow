@@ -635,8 +635,9 @@ Russella).
 
 Jeżeli `X, Y : Ob(ℂ)` (wiem, że mocno skracam zapis - orientuj się!), to niech `Hom_ℂ(X, Y)` (nie da
 się w Unikodzie zapisać $Hom_{ℂ}(X, Y)$, więc znowu używam podkreślenia) oznacza kolekcję albo typ
-albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `ℂ`. Każdą taką kolekcję, z powodów, które
-nas w tym momencie nie interesują, nazywamy (pewnym) "hom-setem" (danej kategorii).
+albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `ℂ`. Z powodów, które nas w tym momencie nie
+interesują, takie kolekcje nazywamy po angielsku "*hom-setami*", a po polsku *zbiorami morfizmów*
+(danej kategorii).
 
 <hr>
 
