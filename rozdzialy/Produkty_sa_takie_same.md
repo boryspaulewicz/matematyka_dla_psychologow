@@ -180,7 +180,7 @@ być wymieniony jako trzeci, nie będziemy już mieli wyboru, bo zostanie tylko 
 czteroelementowymi. A więc musi istnieć dokładnie tyle izomorfizmów również w drugą stronę. Ponieważ
 te pary są - jako wzajemne odwrotności - nierozłączone, bo każdy izomorfizm ma swoją
 charakterystyczną odwrotność, możemy powiedzieć, że dwa zbiory czteroelementowe są izomorficzne na
-*24* różne sposoby, gdzie każdy sposób jest jedną parą izomorfimów będących nawzajem swoimi
+*24* różne sposoby, gdzie każdy *sposób* jest jedną *parą* izomorfimów będących nawzajem swoimi
 odwrotnościami.
 
 ## Metodę tłumaczenia trzeba *wybrać* albo *wskazać*
@@ -637,6 +637,27 @@ Jeżeli `X, Y : Ob(ℂ)` (wiem, że mocno skracam zapis - orientuj się!), to ni
 kolekcję albo typ albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `ℂ`. Każdą taką kolekcję,
 z powodów, które nas w tym momencie nie interesują, nazywamy (pewnym) "hom-setem" (danej kategorii).
 
+<hr>
+
+**O notacji celowo maskującej funkcyjność**: Być może to dobra okazja, żeby zwrócić Twoją uwagę na
+pewną powszechnie stosowaną a rzadko objaśnianą konwencję. Zapis `Hom_ℂ(X, Y)` zdaje się sugerować,
+że mamy do czynienia z funkcją czy operacją na parach obiektów (tutaj `X` i `Y`), ale to przecież
+nieprawda, bo rezultat operacji `Hom` zależy też od kategorii (tutaj oznaczonej jako `ℂ`). Można by
+więc równie dobrze przyjąć konwencję pisania `Hom(ℂ, X, Y)`, albo nawet - jeszcze bardziej
+jednoznacznie - `Hom(ℂ, X : Ob(ℂ), Y : Ob(ℂ))`. Niektórzy piszą też czasem `ℂ(X, Y)` albo `ℂ[X,
+Y]`. Czemu więc zwykle piszemy akurat `Hom_ℂ(X, Y)`?
+
+Notacja `Hom_ℂ(X, Y)` ma tą przewagę nad notacją `ℂ(X, Y)`, że jest bardziej deskryptywna, a pojęcie
+hom-setu jest w teorii kategorii ważne i w pewnych kontekstach często się pojawia. Zapisywanie
+fikuśnej litery `ℂ` jako indeksu dolnego przed lewym nawiasem ma natomiast jakby *ukryć* tą literę,
+jest to więc użycie czegoś w rodzaju *odwrotności zaakcentowania*. Ten zwyczaj wynika z potrzeby
+praktycznej; często zdarza się, że mówimy dłużej o jakiejś *jednej* kategorii, a wtedy wygodnie jest
+pisać po prostu `Hom(X, Y)`. Zapisanie oznaczenia kategorii w miejscu indeksu dolnego sygnalizuje
+więc, że to oznaczenie może "łatwo spaść z notacji", czyli że w innym kontekście ten *parametr* może
+być *niejawny*.
+
+<hr>
+
 Czyli, jeżeli `Hom_ℂ(X, Y)` jest zbiorem, to używając formalnego języka teorii mnogości możemy o tym
 zbiorze powiedzieć ...
 
@@ -698,5 +719,22 @@ A kategorię powstającą z kategorii `ℂ`, której punktami są (być może - 
 Y)`, która ma produkty takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są (być może -
 między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj *parametry
 przekształcenia*, które tworzy pewną kategorię z podanej kategorii `ℂ` i wybranego punktu `Z` tej
-kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`, ale o tym już na pewno nie powinienem na
-tak wczesnym etapie pisać.
+kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`.
+
+**No dobrze, ale dlaczego**: *chcemy* robić (między innymi) z pojęciem produktu coś tak (pozornie)
+bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
+
+Otóż posługując się takimi strukturami pół-formalny fragment prozy ...
+
+*Produkt punktów `X` i `Y` kategorii `ℂ` to taki punkt `X × Y` i strzałki `π₁ : X × Y → X` i `π₂ : X
+× Y → Y`, że `∀ Z : Ob(ℂ), ∀ f : Z → X, ∀ g : Z, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)`.*
+
+... możemy zakodować w języku teorii kategorii tak ...
+
+`f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`
+
+`f⁻¹(h) = (π₁ h, π₂ h)`
+
+... *"chwytając" w ten sposób kategoryjnie (!) "istotę" (!) kategoryjnego (!) pojęcia* (tutaj akurat
+pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju *badania
+endo-meta-teoretycznego* (sic!).
