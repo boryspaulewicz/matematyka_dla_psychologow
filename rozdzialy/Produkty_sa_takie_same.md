@@ -25,9 +25,10 @@ Najpierw krótko i bez sensu.
 
 ## Krótko i bez sensu
 
-Ten fragment jest tylko po to, żeby Ci pokazać, że można prawie wszystko, o czym będę mówił w tym
-rozdziale, powiedzieć znacznie krócej. Być może przyda Ci się od pewnego momentu jako przykład
-(wciąż niezbyt) skrótowej notatki, ale wtedy należałoby go uzupełnić o diagramy.
+Ta część jest tylko po to, żeby Ci pokazać, że można prawie wszystko, o czym będę mówił w tym
+rozdziale, powiedzieć znacznie krócej. Być może ta część przyda Ci się od pewnego momentu jako
+przykład (wciąż niezbyt) skrótowej notatki, ale wtedy należałoby moim zdaniem dorysować sobie gdzieś
+diagramy.
 
 Kategoryjnym izomorfizmem nazywamy taką strzałkę `f : X → Y`, że istnieje taka strzałka `g : Y → X`,
 że `f g = Id` i `g f = Id`. Strzałkę `g` nazywamy wtedy odwrotnością strzałki `f`, a strzałkę `f`
@@ -38,12 +39,13 @@ to:
 
 `g = g Id = g (f g') = (g f) g' = Id g' = g'`.
 
-Tak rozumiana odwrotność jest więc wybrednym działaniem na strzałkach, dlatego dla każdej strzałki
-`f`, jej odwrotność, o ile istnieje, możemy oznaczyć jako `f⁻¹`.
+Tak rozumiana odwrotność jest więc, jednoargumentowym i wybrednym, ale jednak *działaniem* na
+(pewnych) strzałkach, dlatego dla każdej strzałki `f`, jej odwrotność, o ile istnieje, możemy
+oznaczyć jako `f⁻¹`.
 
 Załóżmy, że `P` jest kategoryjnym produktem, którego projekcjami są `π₁ : P → X` i `π₂ : P →
 Y`. Wtedy z definicji (produktu kategoryjnego), dla każdego punktu `A` i pary strzałek `f : A → X` i
-`g : A → Y` istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h`
+`g : A → Y`, istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h`
 jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`.
 
 Ponieważ każdy produkt sam dostarcza, będącą jego projekcjami `π₁` i `π₂`, parę takich strzałek, to
@@ -618,9 +620,11 @@ definicja izomorfizmu.
 ### [*Aaaa?!*](https://en.wikipedia.org/wiki/Vertigo_(film))
 
 **Tym się nie przejmuj, a najlepiej w ogóle tego jeszcze nie czytaj**: Z jakich punktów może być
-zrobiona kategoria, w której strzałkami mogą być takie jak ten wspomniany wyżej izomorfizmy?
+zrobiona kategoria, której strzałkami mogą być takie jak ten wspomniany wyżej izomorfizmy?
 (najczęściej) Z pewnych zbiorów równoległych strzałek kategorii wyjściowej! A czym są strzałki w tej
 kategorii? (najczęściej) Funkcjami!
+
+[Co?](https://a.co/d/4MMHNOE)
 
 Niech `ℂ` oznacza dowolną kategorię, a `Ob(ℂ)` niech oznacza zbiór albo typ albo kolekcję punktów
 tej kategorii (nazywanych zwykle *obiektami*, stąd skrót `Ob`).
