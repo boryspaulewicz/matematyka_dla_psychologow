@@ -692,11 +692,11 @@ h` i `g = π₂ h`, a pisząc krócej ...
 Istnienie strzałki/funkcji `i⁻¹ : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)` gwarantuje nam (mogę
 już napisać "oczywiście"?) definicja produktu.
 
-A kategorię powstającą z (dowolnej) kategorii `ℂ`, której punktami są (być może - między innymi)
-`Hom_ℂ(Z, X × Y)`, która ma produkty takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są
-(być może - między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj
-*parametry przekształcenia*, które tworzy pewną kategorię z podanej kategorii `ℂ` i wybranego punktu
-`Z` tej kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`, ale o tym już na pewno nie
-powinienem na tak wczesnym etapie pisać.
-
 [*Aaaa...*](https://music.youtube.com/watch?v=b-BmKga_N8M&si=gFeSTZ_PVEtKMQAn)
+
+A kategorię powstającą z kategorii `ℂ`, której punktami są (być może - między innymi) `Hom_ℂ(Z, X ×
+Y)`, która ma produkty takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są (być może -
+między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj *parametry
+przekształcenia*, które tworzy pewną kategorię z podanej kategorii `ℂ` i wybranego punktu `Z` tej
+kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`, ale o tym już na pewno nie powinienem na
+tak wczesnym etapie pisać.
