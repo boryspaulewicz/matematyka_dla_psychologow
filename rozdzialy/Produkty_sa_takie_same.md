@@ -624,7 +624,7 @@ zrobiona kategoria, której strzałkami mogą być takie jak ten wspomniany wyż
 (najczęściej) Z pewnych zbiorów równoległych strzałek kategorii wyjściowej! A czym są strzałki w tej
 kategorii? (najczęściej) Funkcjami!
 
-[ℂo?](https://a.co/d/4MMHNOE)
+[*ℂo?*](https://a.co/d/4MMHNOE)
 
 Niech `ℂ` oznacza dowolną kategorię, a `Ob(ℂ)` niech oznacza zbiór albo typ albo kolekcję punktów
 tej kategorii (nazywanych zwykle *obiektami*, stąd skrót `Ob`).
