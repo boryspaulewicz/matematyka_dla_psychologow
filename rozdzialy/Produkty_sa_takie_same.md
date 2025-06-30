@@ -1,23 +1,24 @@
 ## O czym teraz będzie
 
-W tym rozdziale pokażę Ci, że *struktura wewnętrzna* iloczynu kartezjańskiego zbiorów *nie ma
-znaczenia* w tym sensie, że *każdy izomorficzny* zbiór, niezależnie od tego, jakie elementy zawiera,
-może *pełnić tą samą rolę*. Wprowadzę też kategoryjną definicję izomorfizmu. Posługując się tą
-definicją i definicją produktu kategoryjnego będziesz mogła razem ze mną udowodnić, że kategoryjne
-produkty są określone tylko z dokładnością do (kanonicznego) izomorfizmu, i że są dzięki temu - w
-interesującym, ogólniejszym znaczeniu niż na to pozwala równość - zastępowalne.
+W tym rozdziale pokażę Ci, że *struktura wewnętrzna* iloczynu kartezjańskiego zbiorów *nie ma*
+("matematycznego") znaczenia*: *każdy* zbiór *izomorficzny* z danym zbiorem, niezależnie od tego,
+jakie elementy zawiera, może *pełnić tą samą rolę* którą pełni dany zbiór, w tym również rolę
+kategoryjnego produktu. Wprowadzę też *kategoryjną* definicję izomorfizmu. Posługując się tą
+definicją i definicją produktu będziesz mogła razem ze mną udowodnić, że kategoryjne produkty są
+określone tylko z dokładnością do (kanonicznego) izomorfizmu, i że są dzięki temu - w interesującym,
+ogólniejszym znaczeniu niż na to pozwala równość, ale praktycznie tak samo - *zastępowalne*.
 
-Treści zawarte w tym rozdziale będą technicznie stosunkowo proste, to znaczy, bezmyślne
-konstruowanie dowodów będzie "się" niemal "robiło samo", co jest zresztą cechą charakterystyczną i
-wielką zaletą wielu dowodów kategoryjnych, ale jednocześnie, z powodu ekstremalnego poziomu
-abstrakcji, połączonego z bliskością narzucającego się przykładu konkretnej kategorii zbiorów i
-funkcji, trudności w dopatrzeniu się w tym wszystkim sensu mogą być spore. Dlatego uprzedzam, że
-użyteczność kategoryjnego punktu widzenia, z którym próbuję Cię już od pewnego czasu oswoić, być
-może nieprędko stanie się dla Ciebie oczywista.
+Treści zawarte w tym rozdziale będą technicznie stosunkowo proste, to znaczy, dowody będą "się"
+niemal "robiły same", co jest zresztą cechą charakterystyczną i wielką zaletą wielu dowodów
+kategoryjnych, ale jednocześnie, z powodu ekstremalnego poziomu abstrakcji, połączonego z bliskością
+narzucającego się przykładu konkretnej kategorii zbiorów i funkcji, trudności w dopatrzeniu się w
+tym wszystkim sensu mogą być przez dłuższy czas spore. Dlatego jeszcze raz uprzedzam, że użyteczność
+kategoryjnego punktu widzenia, z którym próbuję Cię już od pewnego czasu oswoić, być może nieprędko
+stanie się dla Ciebie oczywista.
 
 Sugeruję, żebyś czytając ten rozdział nigdzie się nie spieszyła. Być może będzie Ci łatwiej, jeśli
-czasem wrócisz do poprzedniego rozdziału i do rysunkowej definicji produktu kategoryjnego. Przyda
-się też, nomen omen, anielska cierpliwość.
+czasem wrócisz do poprzedniego rozdziału i do rysunkowej definicji produktu kategoryjnego. Jak
+zawsze przyda się też anielska (nomen omen) cierpliwość.
 
 # X ← '∘ → Y ≅! X ← ∘' → Y
 
@@ -26,48 +27,54 @@ Najpierw krótko i bez sensu.
 ## Krótko i bez sensu
 
 Ta część jest tylko po to, żeby Ci pokazać, że można prawie wszystko, o czym będę mówił w tym
-rozdziale, powiedzieć znacznie krócej. Być może ta część przyda Ci się od pewnego momentu jako
-przykład (wciąż niezbyt) skrótowej notatki, ale wtedy należałoby moim zdaniem dorysować sobie gdzieś
-diagramy.
+rozdziale, powiedzieć znacznie krócej. Być może przyda Ci się to od pewnego momentu jako przykład
+(wciąż o wiele za mało) skrótowej notatki, ale wtedy należałoby moim zdaniem dodać diagramy.
 
-Kategoryjnym izomorfizmem nazywamy taką strzałkę `f : X → Y`, że istnieje taka strzałka `g : Y → X`,
-że `f g = Id` i `g f = Id`. Strzałkę `g` nazywamy wtedy odwrotnością strzałki `f`, a strzałkę `f`
-odwrotnością `g`.
+*Izomorfizmem (kategoryjnym)* nazywamy taką strzałkę `f : X → Y`, że istnieje taka strzałka `g : Y →
+X`, że `f g = Id` i `g f = Id`. Strzałkę `g` nazywamy wtedy *odwrotnością* strzałki `f`, a strzałkę
+`f` *odwrotnością* `g`.
 
 Każda strzałka ma co najwyżej jedną odwrotność, ponieważ jeżeli `g` i `g'` są odwrotnościami `f`,
 to:
 
 `g = g Id = g (f g') = (g f) g' = Id g' = g'`.
 
-Tak rozumiana odwrotność jest więc, jednoargumentowym i wybrednym, ale jednak *działaniem* na
-(pewnych) strzałkach, dlatego dla każdej strzałki `f`, jej odwrotność, o ile istnieje, możemy
-oznaczyć jako `f⁻¹`.
+Tak rozumiana odwrotność jest więc, jednoargumentowym i wybrednym, ale jednak pewnego rodzaju
+*działaniem* na (pewnych) strzałkach, dlatego dla każdej strzałki `f`, jej odwrotność, *o ile
+istnieje*, możemy oznaczyć jako `f⁻¹`. Gdy nie istnieje, taki zapis *nic nie znaczy*.
 
-Załóżmy, że `P` jest kategoryjnym produktem, którego projekcjami są `π₁ : P → X` i `π₂ : P →
-Y`. Wtedy z definicji (produktu kategoryjnego), dla każdego punktu `A` i pary strzałek `f : A → X` i
-`g : A → Y`, istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h`
-jest unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>`.
+Załóżmy, że `P` jest kategoryjnym produktem z projekcjami `π₁ : P → X` i `π₂ : P → Y`. Wtedy z
+definicji (produktu kategoryjnego), dla każdego punktu `A` i pary strzałek `f : A → X` i `g : A →
+Y`, istnieje unikalna strzałka `h : A → P` taka, że `π₁ h = f` i `π₂ h = g`. Ponieważ `h` jest
+unikalną taką strzałką, możemy ją oznaczyć jako `<f,g>` (zgadza się, `<,>` również oznacza tu pewne
+wybredne działanie \{na pewnych parach strzałek\}).
 
 Ponieważ każdy produkt sam dostarcza, będącą jego projekcjami `π₁` i `π₂`, parę takich strzałek, to
 dla każdego takiego produktu istnieje unikalna strzałka `<π₁,π₂>` taka, że `π₁ <π₁, π₂> = π₁` i `π₂
 <π₁,π₂> = π₂`. A ponieważ `Id : P → P` również spełnia te dwa warunki, bo `π₁ Id = π₁` i `π₂ Id =
-π₂`, to z unikalności takiej strzałki wynika, że `Id = <π₁,π₂>`.
+π₂`, to z unikalności takiej strzałki wynika, że:
+
+`Id = <π₁,π₂>`
 
 Dla każdych dwóch produktów `P` i `P'` tych samych punktów `X` i `Y` istnieją strzałki `<π₁,π₂> : P
 → P'` i `<π₁',π₂'> : P' → P`, spełniające warunki `π₁ <π₁',π₂'> = π₁'`, `π₂ <π₁',π₂'> = π₂'`, `π₁'
 <π₁,π₂> = π₁` i `π₂' <π₁,π₂> = π₂`. Dla wygody oznaczymy te strzałki jako `f := <π₁,π₂>` i `g :=
-<π₁',π₂'>`. Strzałki `f` i `g` są składalne na dwa sposoby, to jest `f g` i `g f`. O strzałce
-będącej złożeniem `f g` wiemy, że:
+<π₁',π₂'>`. 
+
+Strzałki `f` i `g` są składalne na dwa sposoby, to jest `f g` i `g f`. O strzałce będącej złożeniem
+`f g` wiemy, że:
 
 `π₁' (f g) = (π₁' f) g = (π₁' <π₁,π₂>) g = π₁ g = π₁ <π₁',π₂'> = π₁'`
 
 `π₂' (f g) = (π₂' f) g = (π₂' <π₁,π₂>) g = π₂ g = π₂ <π₁',π₂'> = π₂'`
 
-A więc (definicja produktu) `f g = Id`. W ten sam sposób można wykazać, że `g f = Id`. A więc
-(definicja izomorfizmu) `g = f⁻¹`. Widzimy, że każde dwa produkty tych samych punktów są kanonicznie
-izomorficzne w tym znaczeniu, że istnieje między nimi para izomorfizmów powstających z ich
-projekcji. Widzimy też, że te kanoniczne izomorfizmy pozwalają wymieniać jeden produkt tych samych
-punktów na drugi zachowując ich funkcjonalność, to jest produktowość.
+A więc `f g = ⟨π₁', π₂'⟩ = Id` (czy może raczej `Id'`). W ten sam sposób można wykazać, że `g f =
+Id`. A więc (definicja izomorfizmu) `g = f⁻¹`. 
+
+Widzimy, że *produkty tych samych punktów są zawsze kanonicznie izomorficzne* w tym znaczeniu, że
+istnieje między nimi para izomorfizmów powstających z ich projekcji. Widzimy też, że izomorfizmy
+pozwalają wymieniać jeden produkt tych samych punktów na drugi zachowując ich funkcjonalność, to
+jest "produktowość".
 
 A teraz długo, powtarzając się, czasami z sensem, i korzystając z nieocenionej pomocy diagramów.
 
@@ -81,16 +88,14 @@ Jeżeli ...
 
 `Z := {(1, a), (2, a), (1, b), (2, b)}` 
 
-... jest iloczynem kartezjańskim zbiorów `X` i `Y`, a więc ...
-
-`Z = X × Y`
-
-Ale czym *tak naprawdę* jest iloczyn kartezjański zbiorów?
+... jest iloczynem kartezjańskim zbiorów `X` i `Y`. Ale czym *tak naprawdę* jest iloczyn
+kartezjański zbiorów? I czy to jest w ogóle *dobrze postawione pytanie*?
 
 Na przykład, zbiór `V = {1, 2, 3, 4}` co prawda *nie wygląda* jak `X × Y`, ale jest do tego iloczynu
 *podobny pod tym względem*, że *ma tyle samo elementów*. A to znaczy, że między tymi dwoma zbiorami
-istnieje co najmniej jeden *izomorfizm*, ponieważ na tym właśnie, to jest na *samej równoliczności*,
-polega izomorfizm *zbiorów*.
+istnieje co najmniej jeden *izomorfizm*, ponieważ na tym właśnie, to jest na *równoliczności* (a
+dokładniej na posiadaniu tej samej [liczby kardynalnej, inaczej
+mocy](https://pl.wikipedia.org/wiki/Moc_zbioru)), polega izomorficzność *zbiorów*.
 
 Zrobię teraz bez rysowania coś, co robiłaś wcześniej rysując strzałki wychodzące od poszczególnych
 elementów, to jest zdefiniuję pewną funkcję z `V` do `X × Y` i nazwę ją `f`:
@@ -103,8 +108,9 @@ elementów, to jest zdefiniuję pewną funkcję z `V` do `X × Y` i nazwę ją `
 
 `f(4) := (2, b)`
 
-Może nie od razu to widać, ale ta funkcja *przypomina identyczność*. Identyczność paruje *ze sobą*
-wszystkie elementy swojej dziedziny i jednocześnie przeciwdziedziny w taki sposób, że:
+Widzisz, że to są takie "wewnętrzne strzałki" funkcji, "mniej rysunkowe"? Może nie od razu to widać,
+ale ta funkcja *przypomina identyczność*. Identyczność paruje *ze sobą* wszystkie elementy swojej
+dziedziny i jednocześnie przeciwdziedziny w taki sposób, że:
 
 1. Każdy element jest sparowany z jakimś elementem dla niego *charakterystycznym* (czyli żaden inny
 element nie jest sparowany z tym elementem).
@@ -115,14 +121,14 @@ A więc identyczność to szczególny przypadek funkcji zarazem *injektywnej* (1
 czyli *bijektywnej*, czyli funkcji izomorficznej, czyli szczególny przypadek izomorfizmu.
 
 Ta tutaj funkcja `f` również 1. paruje każdy element `V` z jakimś elementem charakterystycznym
-i 2. nie zostawia żadnego elementu przeciwdziedziny na lodzie, a więc `f` jest izomorfizmem, ale w
-przypadku funkcji `f` dziedzina i przeciwdziedzina *nie* są tym samym zbiorem. Funkcja izomorficzna
-to zatem pewne *uogólnienie identyczności*, albo taka - potencjalnie, bo identyczność też jest
-izomorfizmem - "nonszalancka identyczność".
+i 2. nie zostawia żadnego elementu przeciwdziedziny na lodzie, a więc tak jak każda identyczność,
+`f` jest izomorfizmem, ale w przypadku funkcji `f` dziedzina i przeciwdziedzina *nie* są tym samym
+zbiorem. Funkcja izomorficzna to zatem pewne *uogólnienie identyczności*, albo taka - potencjalnie,
+bo identyczność też jest izomorfizmem - "nonszalancka identyczność".
 
-Możemy wykazać mechanicznie, czyli formalnie udowodnić, że `f` jest izomorfizmem, podając przykład
-takiej funkcji `g` z `X × Y` do `V`, że `∀ v ∈ V, g(f(v)) = v` i `∀ x ∈ X × Y, f(g(x)) = x`, czyli
-spełniającej warunki `g f = Id` i `f g = Id`. Oto jedyna możliwa taka funkcja:
+Możemy rozstrzygnąć mechanicznie, czyli formalnie udowodnić, że `f` jest izomorfizmem, podając
+przykład takiej funkcji `g` z `X × Y` do `V`, że `∀ v ∈ V, g(f(v)) = v` i `∀ x ∈ X × Y, f(g(x)) =
+x`, czyli spełniającej warunki `g f = Id` i `f g = Id`. Oto jedyna możliwa taka funkcja:
 
 `g((1, a)) := 1`
 
@@ -133,14 +139,15 @@ spełniającej warunki `g f = Id` i `f g = Id`. Oto jedyna możliwa taka funkcja
 `g((2, b)) := 4`
 
 Jak łatwo sprawdzić, `g = f⁻¹`. Tutaj trzeba sprawdzić `4 * 2` równości, bo tyle jest elementów i
-tyle jest kierunków, ale nie warto tego robić, bo widać je gołym okiem.
+tyle jest kierunków, ale chyba nie warto tego robić, widać je przecież gołym okiem.
 
 Izomorfizmy zawsze występują w *parach*, dlatego często mówimy, że istnieje izomorfizm *między*
 jakimiś zbiorami, nie wskazując z którego zbioru do którego to jest izomorfizm, i dlatego mówimy też
 często, że jakieś dwa zbiory *są izomorficzne*, mając na myśli, że istnieje między nimi co najmniej
 jeden izomorfizm w dowolnym kierunku. Mówiąc, że dwa zbiory są izomorficzne, mówimy więc, że są
 takie same, ale w znaczeniu słabszym niż tego wymaga identyczność. To nie znaczy, że *nie* są
-identyczne, tylko że mówiąc jedynie, że są izomorficzne, jeszcze tego nie przesądzamy.
+"całkiem" identyczne, tylko że mówiąc jedynie, że są izomorficzne, nie przesądzamy jeszcze, że są
+"całkiem" identyczne.
 
 Gdy tylko mamy ochotę, możemy to wyrazić pół-formalnie na przykład tak:
 
@@ -172,13 +179,14 @@ I to też jest pewien izomorfizm między zbiorami `V` i `X × Y`, ale inny niż 
 `4 ~ (2, b)`
 
 Czy widzisz, że izomorfizmów w jedną stronę jest tutaj dokładnie tyle, na ile sposobów można
-wymienić po kolei jakiekolwiek cztery elementy? Jako pierwszy możemy wymienić którykolwiek z
-czterech elementów `X × Y`, ale gdy już jakiś wybierzemy, zostaną nam do wyboru tylko trzy, a gdy
-wybierzemy, który ma być wymieniony jako drugi, zostaną nam tylko dwa, a gdy wybierzemy, który ma
-być wymieniony jako trzeci, nie będziemy już mieli wyboru, bo zostanie tylko jeden: `4 * 3 * 2 * 1 =
-24 = 4!`. A więc istnieje właśnie tyle izomorfizmów w jedną stronę między każdymi dwoma zbiorami
-czteroelementowymi. A więc musi istnieć dokładnie tyle izomorfizmów również w drugą stronę. Ponieważ
-te pary są - jako wzajemne odwrotności - nierozłączone, bo każdy izomorfizm ma swoją
+wymienić po kolei cztery elementy? Jako pierwszy możemy wymienić którykolwiek z czterech elementów
+`X × Y`, ale gdy już jakiś wybierzemy, zostaną nam do wyboru tylko trzy, a gdy wybierzemy, który ma
+być wymieniony jako drugi, zostaną nam tylko dwa, a gdy wybierzemy, który ma być wymieniony jako
+trzeci, nie będziemy już mieli wyboru, bo zostanie tylko jeden: `4 * 3 * 2 * 1 = 24 = 4!`. A więc
+istnieje właśnie tyle izomorfizmów w jedną stronę między każdymi dwoma zbiorami
+czteroelementowymi. A więc musi istnieć dokładnie tyle izomorfizmów również w drugą stronę.
+
+Ponieważ taki pary są - jako wzajemne odwrotności - nierozłączone, bo każdy izomorfizm ma swoją
 charakterystyczną odwrotność, możemy powiedzieć, że dwa zbiory czteroelementowe są izomorficzne na
 *24* różne sposoby, gdzie każdy *sposób* jest jedną *parą* izomorfimów będących nawzajem swoimi
 odwrotnościami.
@@ -198,19 +206,19 @@ będzie oznaczało (to samo co) `(2, a)`, i tak dalej. Wtedy:
 
 To będzie więc takie wierne tłumaczenie w obie strony; od momentu, gdy wybierzemy taki mechanizm
 wiernego tłumaczenia, będziemy mogli się dowolnie przełączać między tymi dwoma sposobami mówienia
-zachowując treść albo sens tego co mówimy, jaki by on nie był.
+zachowując treść albo sens tego, co mówimy, jaki by on nie był.
 
 Jak bardzo ten wybór konkretnego izomorfizmu pozwala traktować zbiór `V` jakby był *takim samym*
 zbiorem jak `X × Y`? Niemal całkowicie, a dokładniej, możemy traktować te dwa zbiory jakby *jedyną*
 różnicą między nimi było to, *jakie elementy do nich należą*. Ale przecież *to i tylko to decyduje o
 tożsamości zbioru*, a więc jak to "niemal całkowicie"?
 
-Doskonałe pytanie. To faktycznie decyduje o *tożsamości* zbioru, ale to *nie* decyduje o jego
-*roli*, to jest o *możliwych sposobach użycia zbioru*. Zbiory, tak samo jak *wszystkie inne
-konstrukcje matematyczne czy formalne*, to *nasze* (formalno-językowe i pojęciowe)
-*narzędzia*. Podobnie to, co konkretnie kupimy na prezent *nie* decyduje o tym, *że* to będzie
-prezent, czyli że to coś będzie *spełniało rolę prezentu*, to decyduje tylko o tym, *jaki*
-konkretnie to będzie prezent.
+Doskonałe pytanie. To faktycznie decyduje o **tożsamości** zbioru, czyli o jego *wymienialności ze
+względu na równość*, ale to *nie* decyduje o jego **roli**, to jest o *możliwych saposobach użycia
+zbioru*. Zbiory, tak samo jak *wszystkie inne konstrukcje matematyczne czy formalne*, to *nasze*
+(formalno-językowe i pojęciowe) *narzędzia*. Podobnie to, co konkretnie kupimy na prezent *nie*
+decyduje o tym, *że* to będzie prezent, czyli że to coś będzie *spełniało rolę prezentu*, to
+decyduje tylko o tym, *jaki* konkretnie to będzie prezent.
 
 Wystarczy teraz, że *wskażemy* jako *nasze projekcje* funkcje `π₁ ∘ f` i `π₂ ∘ f` i natychmiast
 każdy element `V` będzie "miał" *pierwszy element* i *drugi element*, i będzie *unikalnie
@@ -226,10 +234,11 @@ scharakteryzowany* przez te dwie własności:
 
 Wtedy każdy element zbioru `V` *stanie się dla nas parą uporządkowaną elementów* `X` i `Y`, ponieważ
 *wszystkich elementów* `V` *będziemy mogli używać tak samo, jak wszystkich elementów* `X × Y`. Nie
-będzie też nic dziwnego w korzystaniu z tej możliwości, bo przecież to są *tylko symbole*, które
-mają *służyć nam* do jakich tylko chcemy *dobrze określonych celów*. Czy widzisz, że mimo tego, że
-`V` nie zawiera żadnych par, to możemy w ten sposób uzyskać dwie "pełnowartościowe" projekcje ze
-zbioru `V` do zbiorów `X` i `Y` dzięki temu, że `f` jest izomorfizmem z `V` do `X × Y`?
+będzie też nic dziwnego w korzystaniu z tej możliwości, bo przecież to są *tylko symbole* albo
+*obiekty formalne*, które mają *służyć nam do jakich tylko chcemy dobrze określonych celów*. Czy
+widzisz, że mimo tego, że `V` nie zawiera żadnych par, to możemy w ten sposób uzyskać dwie
+"pełnowartościowe" projekcje ze zbioru `V` do zbiorów `X` i `Y` dzięki temu, że `f` jest
+izomorfizmem z `V` do `X × Y`?
 
 Jeśli skorzystamy z tej możliwości, to będzie tak, jakbyśmy "zrobili" za pomocą izomorfizmu elementy
 iloczynu kartezjańskiego z elementów innego zbioru. Żeby skorzystać z tego rodzaju "wymienialności
@@ -237,12 +246,11 @@ implementacji" albo "realizacji" iloczynu kartezjańskiego, musimy jedynie *wska
 konkretny izomorfizm między tymi zbiorami, wszystko jedno w którą stronę* i *ogłosić*, jeżeli
 *mówimy do kogoś innego*, albo tylko *pamiętać*, jeżeli *mówimy do siebie*, że *przyjęliśmy taką
 konwencję*. A kiedy mamy ochotę snuć *ogólne* rozważania o *jakichkolwiek* iloczynach, możemy
-przyjąć, że wtedy jakiś Ktoś mówi o nich do jakiegoś, być może tego samego Kogoś. I to wszystko
-*wynika z definicji* produktu kategoryjnego.
+przyjąć, że wtedy jakiś Ktoś mówi o nich do jakiegoś, być może tego samego Kogoś.
 
 ## Pierwszy przelot
 
-Teraz musimy uważać, bo *zmieniamy język*, a więc zmieniamy również punkt widzenia i rozważamy odtąd
+Teraz musimy uważać, bo *zmieniamy język*, a więc również punkt widzenia. Odtąd będziemy rozważać
 *dowolną* kategorię, to jest *jakąkolwiek kolekcję strzałek spełniającą wymagania* (zapisane
 maksymalnie skrótowo, bo bez symbolu składania i bez jawnego oznaczania źródeł i celów strzałek)
 *kategoryjnego składania*:
@@ -256,27 +264,27 @@ przykład zbiorów i funkcji, ale to jest *radykalna* zmiana punktu widzenia, a 
 zmiana sposobu myślenia.
 
 Warto wiedzieć, że warunki 1 i 2 to coś, co trzeba *tylko raz sprawdzić*, gdy chcemy się upewnić,
-czy jakieś konkretne obiekty można postrzegać abstrakcyjnie jako pewną kategorię. Jeżeli tylko te
-dwa warunki będą spełnione dla wszystkich obiektów, które chcemy oznaczyć strzałkami, a więc również
-dla wszystkich obiektów, które chcemy traktować jako punkty zaczepienia strzałek i dla operacji,
-którą chcemy traktować jako operację składania strzałeka, to będziemy mieli kategorię.
+czy jakieś "byty" można postrzegać abstrakcyjnie jako pewną kategorię. Jeżeli tylko te dwa warunki
+będą spełnione dla wszystkich obiektów, które chcemy oznaczyć strzałkami, a więc również dla
+wszystkich obiektów, które chcemy traktować jako punkty zaczepienia strzałek i dla operacji, którą
+chcemy traktować jako operację składania strzałek, to będziemy mieli kategorię.
 
-Na przykład, wiemy już, że traktując/oznaczając zbiory jako/za pomocą pozbawione/ych wewnętrznej
-struktury punkty/ów, funkcje jako pozbawione wewnętrznej struktury strzałki, a operację składania
-funkcji jako abstrakcyjne składanie strzałek uzyskujemy kategorię. Nawiasem mówiąc, ta kategoria
-nosi oficjalnie nazwę [`Set`](https://en.wikipedia.org/wiki/Category_of_sets). Gdy tylko ustalimy,
-że warunki 1 i 2 są spełnione ze względu na przyjątą interpretację punktów, strzałek i składania,
-możemy o tych warunkach od razu zapomnieć, bo od tego momentu te warunki będą nam służyły - na ogół
-w tle - *tylko* do traktowania pewnych strzałek jako elementów neutralnych i do pomijania nawiasów
-gdy zapisujemy złożenia.
+Na przykład, wiemy już, że oznaczając zbiory za pomocą pozbawionych wewnętrznej struktury punktów
+(czyli również *traktując* zbiory jako pozbawione wewnętrznej struktury punkty), funkcje jako
+pozbawione wewnętrznej struktury strzałki, a operację składania funkcji jako abstrakcyjne składanie
+strzałek, uzyskujemy pewną kategorię. Nawiasem mówiąc, ta kategoria nosi oficjalnie nazwę
+[`Set`](https://en.wikipedia.org/wiki/Category_of_sets). Gdy tylko ustalimy, że warunki 1 i 2 są
+spełnione ze względu na przyjątą interpretację punktów, strzałek i składania, możemy o tych
+warunkach zapomnieć, bo będą nam służyły - na ogół w tle - *tylko* do traktowania pewnych strzałek
+jako elementów neutralnych i do pomijania nawiasów gdy zapisujemy złożenia.
 
 No więc jeżeli `X` i `Y` to (tylko!) *punkty* w *jakiejkolwiek* kategorii, to ze względu na jego
-związek z iloczynem zbiorów produkt kategoryjny `X` i `Y` zapisujemy co prawda również jako ...
+związek z iloczynem zbiorów, produkt kategoryjny `X` i `Y` zapisujemy co prawda również jako ...
 
 `X × Y`
 
 ... ale to jest dla nas *tylko punkt zaczepienia strzałek* i *interpretujemy* ten zapis jako wygodny
-sposób *wskazywania dwóch współźródłowych strzałek* ...
+sposób pisania o *dwóch współźródłowych strzałkach* ...
 
 `π₁ : X × Y → X`  
 `π₂ : X × Y → Y`
@@ -289,17 +297,15 @@ Zacznę może od objaśnienia symbolu `∃¹`. Ten symbol **czytamy jako**: *Ist
 takie, że ...*. Ponieważ mamy tutaj aż trzy duże kwantyfikatory, to dobra okazja, żeby zacząć się
 uczyć o możliwości elastycznego czytania takich części formalnych zdań. Moglibyśmy odczytać początek
 tego zdania na przykład tak: *Dla każdego punktu `Z` i dla każdych funkcji `f` i `g` takich, że
-...*. 
+...*. To, że duże kwantyfikatory występują tu jeden po drugim, pozwala nam jednak odczytać to w
+innej kolejności, a dzięki temu, przynajmniej moim zdaniem, bardziej zrozumiale: *Dla dowolnych
+dwóch współźródłowych strzałek do punktów `X` i `Y` ...*. Korzystamy w ten sposób z faktu, że duży
+kwantyfikator to (między innymi) taka zapowiedź, że zaraz będzie parametr, a więc zmienne związane
+dużymi kwantyfikatorami, takie jak `Z`, `f` i `g` w tym formalnym zdaniu, pełnią rolę zaimków. To
+samo zresztą dotyczy symbolu `h`, ale ponieważ jeszcze nie mówiliśmy o kwantyfikatorze
+egzystencjalnym, to może nie być takie oczywiste.
 
-To, że duże kwantyfikatory występują tu jeden po drugim, pozwala nam jednak odczytać to w innej
-kolejności i dzięki temu, przynajmniej moim zdaniem, bardziej zrozumiale: *Dla dowolnych dwóch
-współźródłowych strzałek do punktów `X` i `Y` ...*. Korzystamy w ten sposób z faktu, że duży
-kwantyfikator to (między innymi) parametr, a więc zmienne związane dużymi kwantyfikatorami, takie
-jak `Z`, `f` i `g` w tym formalnym zdaniu, pełnią rolę zaimków. To samo zresztą dotyczy symbolu `h`,
-ale ponieważ jeszcze nie mówiliśmy o kwantyfikatorze egzystencjalnym, to może nie być takie
-oczywiste.
-
-Być może łatwiej jest zapamiętać definicję produktu kategoryjnego myślać o niej w kategoriach czegoś
+Być może łatwiej jest zapamiętać kategoryjną definicję produktu myślać o niej w kategoriach czegoś
 przypominającego *dzielenie liczb*: Jeżeli `A` jest kategoryjnym produktem `X` i `Y`, to istnieją
 strzałki `π₁ : A → X` i `π₂ : A → Y` takie, że dla każdej pary strzałek `f : Z → Y` i `g : Z → X`
 istnieje jedna i tylko jedna strzałka `h`, przez którą "dzielą się projekcyjnie" strzałki `f` i `g`,
@@ -310,22 +316,23 @@ Dlatego właśnie, że taka strzałka jakby "wynika" w ten sposob z `f` i `g`, m
 `⟨f,g⟩`, albo stwierdzić, że `h = ⟨f,g⟩`. To będzie *jedyna* własność produktu, z której będziemy
 korzystać w tym rozdziale. Będziemy więc czasem szukać dwóch strzałek `h` i `h'` takich, że obie
 `π`-dzielą tą samą parę współźródłowych strzałek `f` i `g`, i na tej podstawie będziemy wyprowadzać
-wniosek, że `h = h'`, albo, bardziej pośrednio, że `h = ⟨f,g⟩` i `h' = ⟨f,g⟩`, a więc `h = h'`. Jak
-widzisz, zgodnie z tym, co zapowiedziałem na początku, algebraicznie wszystko będzie w tym rozdziale
-dosyć proste.
+wniosek, że `h = h'`. Albo - bardziej pośrednio - że `h = ⟨f,g⟩` i `h' = ⟨f,g⟩`, a więc `h =
+h'`. Jak widzisz, zgodnie z tym, co zapowiedziałem na początku, algebraicznie wszystko będzie w tym
+rozdziale dosyć proste.
 
 Skorzystamy teraz z dopiero co wprowadzonej definicji produktu kategoryjnego, żeby ustalić coś na
 temat *wszystkich możliwych implementacji produktu*, a więc między innymi również na temat iloczynów
 kartezjańskich zbiorów. Przyjmiemy, że mamy jakieś (a więc to będzie dowód zdania zaczynającego się
-od *Dla każdego*) dwa, niekoniecznie różne produkty jakiś punktów `X` i `Y` i - żeby uprościc
+od *Dla każdego*) dwa, niekoniecznie różne produkty jakiś punktów `X` i `Y` i - żeby uprościć
 notację, jak również podkreślić, że całkowicie ignorujemy ewentualną wewnętrzną strukturę tego, co
 mogłyby oznaczać punkty i strzałki - oznaczymy je jako `P` i `P'` (bo to będą *p*rodukty).
 
-Jak już wiesz, gdy nazywamy jakieś punkty produktami, nie chodzi nam tak naprawdę o te punkty, tylko
-o pewne specjalne pary współźródłowych strzałek, które ze względu na operację składania zachowują
-się tak samo jak projekcje iloczynu kartezjańskiego. Zgodnie z przyjętą właśnie (niejawnie)
-konwencją, polegającą na dodawaniu apostrofu żeby oznaczyć drugi (potencjalnie ten sam) produkt,
-będziemy tak samo oznaczać kategoryjne strzałki-projekcje:
+Jak już wiesz, gdy nazywamy jakieś punkty produktami, nie chodzi nam tak naprawdę tylko o te punkty,
+tylko (nawet bardziej) o pewne specjalne pary współźródłowych strzałek, które ze względu na operację
+składania kategoryjnego zachowują się tak samo, jak projekcje iloczynu kartezjańskiego zachowują się
+ze względu na operację składania funkcji. Zgodnie z przyjętą właśnie (niejawnie) konwencją,
+polegającą na dodawaniu apostrofu żeby oznaczyć drugi (potencjalnie ten sam) produkt, będziemy tak
+samo oznaczać kategoryjne strzałki-projekcje:
 
 To są projekcje produktu `P` ... 
 
@@ -336,29 +343,29 @@ To są projekcje produktu `P` ...
 `π₁' : P' → X` i `π₂' : P' → Y`.
 
 **Rysunek 1**: `Narysuj` proszę `Punkt P`, a o dobry krok pod nim `Narysuj (Punkt P')`. Na wysokości
-gdzieś pomiędzy tymi punktami `Narysuj` po lewej `Punkt X` a po prawej `Punkt Y` i dodaj, jako
+gdzieś pomiędzy tymi punktami `Narysuj` po lewej `Punkt X` a po prawej `Punkt Y`. Dodaj, jako
 strzałki oznaczone odpowiednimi nazwami, wszystkie cztery projekcje, uważając, żeby apostrofy
-pojawiły się tam, gdzie trzeba, czyli tylko w dolnej części tego rysunku, ale nie przy literach `X`
-i `Y`. Dodaj też proszę pętle strzałek identycznościowych przy `P` i `P'` i oznacz je obie jako
-`Id`. Co prawda nie *musimy* nigdy rysować takich strzałek, bo *wiemy*, że *każdy* kategoryjny punkt
-ma taką *unikalną* strzałkę, ale tym razem to się do czegoś przyda.
+pojawiły się tam, gdzie powinny, czyli tylko w dolnej części tego rysunku, ale nie przy literach `X`
+i `Y`. Dodaj też proszę (od zewnętrznej strony) pętle strzałek identycznościowych przy `P` i `P'`, i
+oznacz je obie jako `Id`. Co prawda nie *musimy* rysować takich strzałek, bo *wiemy*, że *każdy*
+kategoryjny punkt ma taką *unikalną* strzałkę, ale tym razem to się do czegoś przyda.
 
 Założyliśmy, że te dwie pary poziomych strzałek są w naszej bliżej nieokreślonej kategorii
-produktami tych samych dwóch punktów `X` i `Y`. Zgodnie z definicją produktu kategoryjnego, dla
-każdej pary współźródłowych strzałek do `X` i `Y` istnieje unikalna strzałka do `P'`, z której można
+produktami tych samych dwóch punktów `X` i `Y`. Zgodnie z definicją produktu, dla każdej pary
+współźródłowych strzałek do `X` i `Y` istnieje unikalna strzałka do `P'`, z której można
 zrekonstruować te dwie strzałki składając ją z projekcjami `P'`. Czy widzisz na swoim rysunku, że
-już w tym momencie *mamy* dwie współźródłowe strzałki do `X` i `Y`, które nie są projekcjami `P'`?
-So nimi przecież projekcje produktu `P`!
+już w tym momencie *mamy* dwie współźródłowe strzałki do `X` i `Y`, które *nie* są projekcjami `P'`?
+So nimi oczywiście (mogę już "oczywiście"?) projekcje produktu `P`!
 
-Z definicji produktu kategoryjnego wynika, że istnieje w tej sytuacji *co najmniej jedna* strzałka
-`f`, o której wiesz (jeżeli to jeszcze pamiętasz), że `π₁' f = π₁` i `π₂' f = π₂`. A ponieważ
-definicja produktu mówi również, że istnieje *co najwyżej jedna* taka strzałka, to strzałka `f` jest
-*funkcją* (albo *własnością*) uporządkowanej pary współźródłowych strzałek `π₁` i `π₂`, wobec czego
-możemy ją oznaczyć również jako `⟨π₁,π₂⟩`. Dlatego `Narysuj` proszę tą strzałkę, ale tak, żeby była
-wygięta w łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie trzeba tam zmieścić jeszcze
-jedną analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą strzałkę z lewej jako `f =
-⟨π₁,π₂⟩`. *My* będziemy nazywać takie strzałki *produktami strzałek*, ale powinnaś wiedzieć, że
-oficjalnie nazywa "się" je [*produktami
+Z definicji produktu wynika więc, że istnieje w tej sytuacji *co najmniej jedna* strzałka `f`, o
+której wiesz (jeżeli to jeszcze pamiętasz), że `π₁' f = π₁` i `π₂' f = π₂`. A ponieważ definicja
+produktu mówi również, że istnieje *co najwyżej jedna* taka strzałka, to strzałka `f` jest *funkcją*
+(albo *własnością*) uporządkowanej pary współźródłowych strzałek `π₁` i `π₂`, wobec czego możemy ją
+oznaczyć również jako `⟨π₁,π₂⟩`. Dlatego `Narysuj` proszę tą strzałkę, ale tak, żeby była wygięta w
+łuk w lewą (czyli patrząc z góry w prawą) stronę, bo będzie trzeba tam zmieścić jeszcze jedną
+analogiczną strzałkę w drugą stronę. Następnie oznacz proszę tą strzałkę z lewej jako `f =
+⟨π₁,π₂⟩`. *My* będziemy, przynajmniej na razie, nazywać takie strzałki *produktami strzałek*, ale
+powinnaś wiedzieć, że oficjalnie nazywa "się" je [*produktami
 morfizmów*](https://pl.wikipedia.org/wiki/Produkt_(teoria_kategorii)).
 
 Czy widzisz, że istnieje również analogiczna unikalna strzałka w drugą stronę? Narysuj ją proszę w
@@ -371,7 +378,7 @@ kategoryjną definicję produktu - o tych dwóch strzałkach:
 2. `π₁ g = π₁ ⟨π₁',π₂'⟩ = π₁'` i `π₂ g = π₂ ⟨π₁',π₂'⟩ = π₂'`
 
 Jeżeli to dla Ciebie w tym momencie trochę za wiele symboli na raz, to pamiętaj, że zawsze możesz
-próbować sobie uprościć zapis algebraiczny stosując tymczasowe oznaczenia, które możesz rozpakować
+próbować sobie uprościć zapis algebraiczny stosując tymczasowe oznaczenia, które możesz rozpakowywać
 dopiero wtedy, gdy to będzie do czegoś potrzebne:
 
 1. `π₁' f = π₁` i `π₂' f = π₂`
@@ -381,38 +388,37 @@ dopiero wtedy, gdy to będzie do czegoś potrzebne:
 Domyślam się, że to może być dezorientujące, bo posługujemy się tutaj algebrą i diagramem
 maksymalnie abstrakcyjnie, w oderwaniu od jakichkolwiek konkretnych przykładów (implementacji
 jakiejś) kategorii. Niestety, w tym momencie nie mogę Ci pomóc inaczej niż sugerując, żebyś znowu
-potraktowała to, co teraz robimy jak *grę*, która nie musi *w tym momencie* mieć *jakiegokolwiek
-sensu*. Jeśli tylko uda Ci się tak do tego podejść, to będziesz mogła się skupić na czysto
-mechanicznych operacjach, które będą tylko trochę bardziej skomplikowane niż te, które wykonywałaś
-dowodząc twierdzenie Bayesa.
+potraktowała to, co teraz robimy jak *grę*, która nie musi *w tym momencie* mieć sensu. Jeśli tylko
+uda Ci się tak do tego podejść, to będziesz mogła się skupić na czysto mechanicznych operacjach,
+które będą tylko trochę bardziej skomplikowane niż te, które wykonywałaś dowodząc twierdzenie
+Bayesa.
 
 Założę odtąd, że albo już wiesz, albo dowiesz się w końcu, powtarzając treści z tego rozdziału, że
 strzałki `f` i `g` muszą istnieć i muszą być unikalnymi strzałkami spełniającymi wymienione wyżej
-wymagania. Teraz możemy zadać pytanie o to, jak te dwie strzałki *mają się do siebie
-nawzajem*.
+wymagania. Teraz możemy ustalić, jak te dwie strzałki *mają się do siebie nawzajem*.
 
 Na Twoim diagramie od razu widać, że te dwie strzałki są składalne na dwa sposoby, to jest jako
 złożenia `f g` i `g f`. Kategoryjne diagramy pozwalają łatwo *zobaczyć*, które strzałki można
 składać z którymi. Czy widzisz, że dzięki temu takie diagramy mogą być bardzo pomocne w
 rozwiązywaniu problemów algebraicznych? Gdybyś nie miała przed oczami tego diagramu i napisałbym, że
 (pomijając identyczności) dopuszczalne są *tylko* złożenia `f g`, `g f`, `π₁' f`, `π₂' f`, `π₁ g` i
-`π₂ g`, to trudno byłoby Ci to zapamiętać, prawda? A tak możesz to zawsze łatwo zobaczyć na
-diagramie.
+`π₂ g`, to trudno byłoby Ci to wszystko zapamiętać, prawda? A dzięki diagramowi możesz to łatwo
+*zobaczyć*.
 
 Wiesz, że dwa *iloczyny kartezjańskie tych samych zbiorów* są izomorficzne. To może da się jakoś
 wykazać, że strzałki `f` i `g` też są, a nawet muszą być, izomorfizmami, które w dodatku są swoimi
-odwrotnościami, a więc *dwa kategoryjne produkty tych samych punktów* są zawsze izomorficzne? Żeby
-to wykazać, musimy najpierw wprowadzić jeszcze jedną definicję kategoryjną.
+odwrotnościami, a więc *dwa kategoryjne produkty tych samych punktów* są też izomorficzne? Żeby to
+wykazać, musimy najpierw wprowadzić jeszcze jedną definicję kategoryjną.
 
 ## Kategoryjny izomorfizm
 
-**Kategoryjna definicja izomorfizmu**: Izomorfizmem (kategoryjnym) nazywamy taką strzałkę `f`, że
-istnieje strzałka `g` spełniająca warunki `g f = Id` i `f g = Id`.
+*Izomorfizmem (kategoryjnym)* nazywamy taką strzałkę `f`, że istnieje strzałka `g` spełniająca
+warunki `g f = Id` i `f g = Id`.
 
-Czyli kategoryjny izomorfizm to strzałka, która ma strzałkę obustronnie odwrotną. I tyle, to jest
-cała kategoryjna definicja izomorfizmu. Zwróć proszę uwagę, że ta definicja nie mówi nic na temat
+Czyli (kategoryjny) izomorfizm to strzałka, która ma strzałkę odwrotną. I tyle, to jest cała
+kategoryjna definicja izomorfizmu. Zwróć proszę uwagę, że ta definicja nie mówi nic na temat
 wewnętrznej struktury tego, co mogłyby reprezentować punkty i strzałki, jest więc "czysto
-złożeniowa", a dzięki temu maksymalnie ogólna.
+złożeniowa", albo "czysto relacyjna", a dzięki temu maksymalnie ogólna.
 
 Udowodnimy teraz na kilka sposobów, że dla dowolnej strzałki `f`, istnieje co najwyżej jedna
 obustronnie odwrotna strzałka `g`. Jeżeli jakaś strzałka `h` również spełnia te same dwa warunki, co
@@ -423,32 +429,39 @@ obustronnie odwrotna strzałka `g`. Jeżeli jakaś strzałka `h` również speł
 h)` bo łączność, `(f h) = Id` z założenia, `Id` jest elementem neutralnym)
 
 ... albo prościej, chociaż może nieco mniej czytelnie, korzystając z tego, że z powodu łączności
- składania nawiasy są tu niepotrzebne ...
+ składania nawiasy są niepotrzebne ...
 
 `h = Id h = g f h = g Id = g`
 
-Zauważyłaś, że ten ostatni dowód wymaga, żeby zobaczyć wyrażenie `g f h` na dwa sposoby, raz jako
-`(g f) h`, które jest z założenia równe `Id h`, a raz jako `g (f h)`, które jest z (innego)
-założenia równe `g Id`? Dlatego mam wątpliwości, czy ta wersja dowodu jest faktycznie dla Ciebie na
-tym etapie prostsza.
+Zauważyłaś, że zrozumienie tego ostatniego dowodu wymaga, żeby *zobaczyć* wyrażenie `g f h` *na dwa
+sposoby*, raz jako `(g f) h`, które jest z założenia równe `Id h`, a raz jako `g (f h)`, które jest
+z (innego) założenia równe `g Id`? Dlatego mam wątpliwości, czy ta wersja dowodu jest faktycznie dla
+Ciebie *na tym etapie* prostsza.
+
+A czy zauważyłaś, że tego rodzaju dowody polegają na wprowadzaniu w odpowiednich miejscach, w
+*których nic wcześniej nie było*, tak zwanych *elementów neutralnych* (tutaj akurat "wyskakuje nam
+znikąd" element neutralny `Id`), które to elementy można (z definicji) wstawiać wszędzie, a
+następnie na zastępowaniu tych elementów wyrażeniami (tutaj akurat odpowiednimi złożeniami
+strzałek), które się do nich (tutaj z definicji) redukują?
 
 Można ten dowód zapisać jeszcze krócej, korzystając niejawnie również z założenia, że `g f = Id` i
 `f h = Id` ...
 
 `h = g f h = g`
 
-... ale z drugiej strony w ten sposób jeszcze bardziej obciążamy pamięć operacyjną.
+... ale w ten sposób jeszcze bardziej obciążamy pamięć operacyjną, więc nie wiem, co o tym myśleć.
 
 Możemy to udowodnić w Leanie dla *funkcji teoriotypowych* na przykład tak:
 
 ```lean
 -- Uwaga: Ten dowód jest celowo nieco przegadany i może być w tym momencie dla Ciebie trochę zbyt trudny,
--- ale moim zdaniem już na tym etapie warto się nim trochę pobawić.
+-- ale moim zdaniem już na tym etapie warto się nim pobawić.
 
--- To jest znana Ci już funkcja tworząca dla dowolnego typu jego "pętlę identyczności":
+-- To jest znana Ci już funkcja tworząca dla dowolnego typu (typu `Type 1`) jego "pętlę identyczności":
 def ID (X : Type) : X → X := fun (x : X) => x
 
--- `g` i `h` to będą zaraz dwie funkcje, które spełniają warunek bycia odwrotnościami `f`.
+-- `g` i `h` to jakieś dwie *przeciwrównoległe* (bo składalne na dwa sposoby) funkcje, które zaraz będą
+-- spełniały warunek bycia odwrotnościami `f`.
 variable (X Y : Type) (f : X → Y) (g h : Y → X)
 
 -- Ten warunek mówi, że `g` jest odwrotnością `f`, ...
@@ -464,7 +477,7 @@ example : h = g := by
   --
   -- Używając instrukcji `have` tworzymy dowód wewnątrz dowodu i nadajemy udowodnionemu zdaniu nazwę
   -- (w tym wypadku nazwę `hcel`). Tutaj (lokalnym) celem jest zdanie `hcel`, a więc taktyka `rw` działa tu
-  -- na zdaniu `g ∘ (f ∘ h) = g ∘ (ID Y)`.
+  -- właśnie na zdaniu `g ∘ (f ∘ h) = g ∘ (ID Y)`.
   have hcel : g ∘ (f ∘ h) = g ∘ (ID Y) := by rw [h4]
 
   -- Łączność składania funkcji teoriotypowych wynika z definicji tej operacji, a więc wystarczy
@@ -473,13 +486,13 @@ example : h = g := by
 
   -- Od tego momentu zaczynamy przekształcać hipotezę `hcel`, której dowód mamy już w kontekście.
   -- Argument `at <nazwa>` mówi taktyce `rw`, żeby dokonała przekstałcenia termu o nazwie `nazwa`, a nie
-  -- przekształcenia celu.
-  rw [h5] at hcel                       -- `hcel : (g ∘ f) ∘ h = g ∘ ID Y`
-  rw [h1] at hcel                       -- `hcel : ID X ∘ h = g ∘ ID Y`
+  -- przekształcenia (globalnego) celu.
+  rw [h5] at hcel                       --> `hcel : (g ∘ f) ∘ h = g ∘ ID Y`
+  rw [h1] at hcel                       --> `hcel : ID X ∘ h = g ∘ ID Y`
   have h6 : (ID X) ∘ h = h := by rfl    -- z definicji
   have h7 : g ∘ (ID Y) = g := by rfl    -- z definicji
-  rw [h6] at hcel                       -- `hcel : h = g ∘ ID Y`
-  rw [h7] at hcel                       -- `hcel : h = g`
+  rw [h6] at hcel                       --> `hcel : h = g ∘ ID Y`
+  rw [h7] at hcel                       --> `hcel : h = g`
   exact hcel
 ```
 
@@ -503,7 +516,7 @@ przeklejając ten fragment kodu do Leana i patrząc, jak zmienia się stan dowod
 kursor za kolejne instrukcje.
 
 Skoro poznałaś już najogólniejszą definicję izomorfizmu i wiesz, że kategoryjne odwrotności są
-unikalne (a stąd od razu wynika, że wszystkie tego rodzaju odwrotności, a więc również te
+unikalne (a stąd od razu wynika, że *wszystkie* odwrotności *tego rodzaju*, a więc również te
 teoriotypowe i teoriomnogościowe, są unikalne), możemy wrócić do narysowanych już przez Ciebie dwóch
 produktów kategoryjnych połączonych wygiętymi strzałkami.
 
@@ -518,9 +531,10 @@ strzałka `f` z górnego `P` do dolnego `P` taka, że ...
 
 `π₁ f = π₁` i `π₂ f = π₂`
 
-... a skoro każdy punkt jest wyposażony w swoją identyczność i identyczność `P` spełnia (z definicji
-identyczności) oba te wymagania, to jest `π₁ Id = π₁` i `π₂ Id = π₂`, to skoro `f` jest *unikalną*
-taką strzałką i `Id` też jest taką strzałką, to `f = Id`! A więc:
+... a skoro każdy punkt jest wyposażony w swoją identyczność, a identyczność `P` spełnia (z
+definicji identyczności) oba te wymagania, to jest `π₁ Id = π₁` i `π₂ Id = π₂`, to skoro `f` jest
+*unikalną* taką strzałką i `Id` też jest taką strzałką, to `f = Id`. A więc udowodniłaś właśnie
+takie oto twierdzenie:
 
 *Dla każdego produktu `P`, `Id : P → P = ⟨π₁,π₂⟩`, gdzie `π₁` i `π₂` to projekcje `P`*.
 
@@ -528,17 +542,18 @@ taką strzałką i `Id` też jest taką strzałką, to `f = Id`! A więc:
 interesującego. `Narysuj` najpierw proszę, wygięte w łuk tak, żeby na siebie nie nachodziły, dwie
 strzałki z górnego `P` do dolnego `P` i oznacz je jako `Id` i `f`. W środku lewego i prawego
 skrzydła tego diagramu dodaj ptaszki, zaznaczając w ten sposób, że te części diagramu są przemienne
-na mocy definicji identyczności i produktu strzałek. Dodatkowo, w środku między dwiema wygiętymi w
-łuk, skierowanymi w dół strzałkami, dopisz jeszcze `∃¹`, żeby wyrazić w ten sposób fakt, że serce
-tego diagramu również jest przemienne.
+(na mocy definicji identyczności i produktu strzałek). Dodatkowo, w środku między dwiema wygiętymi w
+łuk, skierowanymi w dół strzałkami, dopisz jeszcze `∃¹`, żeby w ten nieco inny sposób wyrazić fakt,
+że serce tego diagramu również jest przemienne.
 
 A teraz połóż proszę koniec palca wskazującego na górnym `P` i przesuwając palec po kartce prześledź
 płynnie i niezbyt wolno dwie ścieżki - z górnego `P` przez `Id` i `π₁` do `X`, a potem znowu z
 górnego `P` przez zewnętrzną strzałkę `π₁` do `X`. W ten sposób przywołasz równość strzałki `π₁` i
-złożenia `π₁ ∘ Id`. Tak samo udowodnij, że `π₂ Id = π₂`. Te *dwa* pisane palcem po kartce dowody są
-*razem* dowodem, że `Id = f`. Następnie, przesuwając palec po diagramie udowodnij tak samo, że `f =
-<π₁,π₂>`. Na koniec, wracając za każdym razem najpierw do górnego `P`, prześledź jeszcze palcem
-rysunki strzałek `Id` i `f`. *Quod erat incantandum*.
+złożenia `π₁ ∘ Id`, czyli wodząc palcem po diagramie udowodnisz zdanie `π₁ = π₁ ∘ Id`. Tak samo
+udowodnij, że `π₂ Id = π₂`. Te *dwa* pisane palcem po kartce dowody są *razem* dowodem, że `Id =
+⟨π₁,π₂⟩`. Następnie, przesuwając palec po diagramie udowodnij tak samo, że `f = <π₁,π₂>`. Na koniec,
+wracając za każdym razem najpierw do górnego `P`, prześledź jeszcze palcem rysunki strzałek `Id` i
+`f`. *Quod erat incantandum*.
 
 Możemy teraz wrócić do poprzedniego diagramu. Masz tam dwa (potencjalnie takie same) produkty tych
 samych punktów, to jest `P` i `P'`, złożone z dwóch par (potencjalnie takich samych) projekcji. I
@@ -548,81 +563,88 @@ masz tam dwie strzałki, `f` i `g`, spełniające warunki ...
 
 `h2`. `π₁ g = π₁'` i `π₂ g = π₂'`
 
-... i wiesz, że obie strzałki są unikalnymi strzałkami spełniającymi dotyczące tych strzałek
-warunki. Czy domyślasz się już, co się teraz stanie? Te dwie strzałki są składalne na dwa
-sposoby. Złożenie `g f` ma taką własność, że ...
+... i wiesz, że strzałki `f` i `g` są unikalnymi strzałkami spełniającymi te. Czy domyślasz się już,
+co się teraz stanie? Te dwie strzałki są składalne na dwa sposoby. Złożenie `g f` ma taką własność,
+że ...
 
 `π₁ (g f) = (π₁ g) f = π₁' f = π₁`  
-(bo łączność składania, `h2` i `h1`)
+(bo łączność składania, `h2`, i `h1`)
 
 ... i ...
 
 `π₂ (g f) = (π₂ g) f = π₂' f = π₂`  
-(bo łączność składania, `h2` i `h1`)
+(bo łączność składania, `h2`, i `h1`)
 
-... i tak samo można wykazać, że złożenie `f g` ma taką własność, że `π₁' g f = π₁'` i `π₂' g f =
-π₂'`, co jak sądzę po pewnym czasie i być może kilku mniej udanych początkowych próbach będziesz
+... i tak samo można wykazać, że złożenie `f g` ma taką własność, że `π₁' (f g) = π₁'` i `π₂' (f g)
+= π₂'`, co jak sądzę po pewnym czasie i być może kilku mniej udanych początkowych próbach będziesz
 mogła udowodnić sama, korzystając z ostatniego dowodu jako wzorca. Spróbuj więc proszę wykonać ten
 dowód jako zaklęcie. Ale bądź ostrożna, bo to będzie wymagało między innymi wodzenia palcem po
-czterech pętlach, to jest po pętli `f g`, `g f` i po dwóch pętlach identycznościowych.
+czterech pętlach, to jest po pętli `f g`, `g f`, i po dwóch pętlach identycznościowych.
 
 Co z tego wszystkiego wynika?
 
-Projekcje złożenia `(g f) : P → P` są takie same jak projekcje `Id : P → P`, a skoro taka strzałka
-jest zgodnie z definicją produktu unikalna, to `g f = Id`. Tak samo projekcje złożenia `(f g) : P' →
-P'` są takie same jak projekcje `Id' : P' → P'`, a skoro taka strzałka jest unikalna, to `f g =
-Id`. A więc `g` jest (kategoryjną) odwrotnością `f`, czyli `g = f⁻¹`, a więc to są izomorfizmy. Tym
-samym widzimy, że:
+Projekcje złożenia `(g f) : P → P` są takie same jak projekcje `Id : P → P`, a skoro strzałki o tych
+samych projekcjach (to jest złożeniach z projekcjami) są równe, to `g f = Id`. Tak samo projekcje
+złożenia `(f g) : P' → P'` są takie same jak projekcje `Id : P' → P'`, a skoro taka strzałka jest
+unikalna, to `f g = Id`. A więc `g` jest (kategoryjną) odwrotnością `f`, czyli `g = f⁻¹`, a więc to
+są izomorfizmy. Tym samym widzimy, że:
 
-*Każda para kategoryjnych produktów tych samych punktów jest izomorficzna i w każdą stronę istnieje
-kanoniczny izomorfizm, który zamienia jeden z tych produktów w drugi*.
+*Każda para kategoryjnych produktów tych samych punktów jest izomorficzna w taki sposób, że w każdą
+stronę istnieje kanoniczny izomorfizm, będący produktem projekcji produktu źródłowego, który
+przemienia jeden z produktów w drugi*.
 
 Każdy z tych izomorfizmów nazywamy
 [*kanonicznym*](https://sjp.pwn.pl/doroszewski/kanoniczny-I;5437673.html), bo każdy z nich jest w
-pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", albo "podstawowy". W
-końcu `f` uzyskaliśmy *w jedyny możliwy sposób korzystając z samych projekcji produktu* `P` i tak
-samo `g` uzyskaliśmy w jedyny możliwy sposób korzystając z samych projekcji produktu `P'`. Na koniec
-zerwiemy jeszcze z tego drzewa poznania tego co dobre i uniwersalne pewien soczysty, nisko rosnący
-owoc.
+pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", albo "podstawowy", albo
+"naturalny". W końcu `f` uzyskaliśmy *w jedyny możliwy sposób korzystając z samych projekcji
+produktu* `P` i tak samo `g` uzyskaliśmy w jedyny możliwy sposób korzystając z samych projekcji
+produktu `P'`. Teraz zerwiemy z tego drzewa poznania tego co dobre i uniwersalne pewien soczysty,
+nisko rosnący owoc.
 
-**Kanoniczna lub wybrana arbitralnie izomorficzność jako uogólnienie równości**: Skoro każda para
+**Kanoniczny lub arbitralnie wybrany izomorfizm jako uogólnienie równości**: Skoro każda para
 produktów tych samych punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, czyli taką jakby
-"własną" metodę wymiany jednego z nich na drugi bez żadnej utraty "funkcjonalności" (pun intended),
-to takie produkty są *zastępowalne*, tylko że w ogólniejszym znaczeniu niż obiekty, które są po
-prostu *równe*. 
+"własną", metodę przemiany jednego z nich w drugi bez żadnej utraty "funkcjonalności" (pun
+intended), to takie produkty są *zastępowalne*, tylko że w ogólniejszym znaczeniu niż obiekty, które
+są zastępowalne dlatego, że są po prostu *równe*.
 
-Równe obiekty możemy wymieniać bez zmiany treści zdań czy konstrukcji *nie stosując żadnych
+*Równe* obiekty możemy wymieniać bez zmiany treści zdań czy konstrukcji *nie stosując żadnych
 dodatkowych operacji*, ale izomorficzne obiekty też możemy wymieniać *w pewnym sensie* bez żadanych
-dodatkowych operacji, ponieważ co prawda wymaga to na przykład przekształcenia projekcji
+*dodatkowych* operacji, ponieważ co prawda wymaga to na przykład przekształcenia projekcji
 wymienianego na inny produktu (jeśli akurat wymieniamy jeden produkt na drugi), ale wtedy *nie
-musimy wskazywać* metody transmutacji, ponieważ istnieje dokładanie jedna taka (to jest kanoniczna,
-ale w ogólnym przypadku, gdy wymieniamy dowolne dwa izomorficzne punkty, może być też wybrana
-arbitralnie) metoda w każdą stronę. Wymagane dodatkowe operacje (takie jak wymiana projekcji) są
-przez tą metodę *wymuszone*, a więc co prawda muszą być zastosowane aby transmutacja była
-ostateczna, ale odkąd jakiś konkretny izomorfim został albo wskazany, albo "się narzucił", bo jest
-kanoniczny, *nie trzeba tych operacji wybierać czy wskazywać*.
+musimy wskazywać* metody tej "transmutacji", ponieważ istnieje dokładanie jedna taka (to jest
+kanoniczna, ale w ogólnym przypadku, gdy wymieniamy dowolne dwa izomorficzne obiekty/punkty, może
+być też wybrana arbitralnie, trzeba ją tylko wcześniej wskazać lub ogłosić) metoda w każdą
+stronę. Wymagane dodatkowe operacje (takie jak wymiana jednej pary projekcji na drugą) są przez tą
+metodę *wymuszone*, a więc co prawda te operacje muszą być zastosowane, ale odkąd jakiś konkretny
+izomorfim został albo wskazany, albo "się narzucił", bo jest kanoniczny, *nie trzeba tych operacji
+wybierać czy wskazywać*. Można wtedy założyć, że skoro wiadomo, że takie operacje istnieją i
+wiadomo, o które takie operacje chodzi, to można im niejako "pozwolić działać w tle".
 
-**Potencjalnie dezorientujący fragment**: Załóżmy, że mamy parę strzałek `a : P → X` i `b : P →
-Y`. Wtedy istnieje unikalna strzałka `⟨a,b⟩` taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A czy `π₁' f`
-i `π₂' f` zachowują się jak `π₁` i `π₂`?  Już wiesz, że tak, bo wiesz, że to są te same strzałki:
-`π₁' f = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla `π₂' f`.
+## Wybiegając celowo na przód
 
-A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem? Produkt punktów `X` i `Y` każdej parze
-współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio przyporządkowywuje dokładnie jedną
-strzałkę `h` taką, że `π₁ h = f` i `π₂ h = g`. I odwrotnie, każda strzałka `h` z tego samego źródła
-co dowolne takie strzałki `f` i `g` odpowiada dokładnie jednej parze strzałek do `X` i `Y`, będących
-złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unikalne. A więc *sam produkt* to
-również taki "wymieniacz" takich strzałek do produktu i uporządkowanych par strzałek do jego
-"punktów końcowych", że wszystkie te strzałki mają to samo źródło. Ten izomorfizm nie jest jednak
-izomorfizmem w tej samej kategorii, bo nie jest strzałką w tej kategorii, a tego wymaga kategoryjna
-definicja izomorfizmu. 
+**Najpierw krótka powtórka**: Załóżmy, że mamy parę strzałek `a : P → X` i `b : P → Y`, gdzie `P` to
+produkt `X × Y` z projekcjami `π₁` i `π₂` odpowiednio. Wtedy istnieje unikalna strzałka `⟨a,b⟩`
+taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A jeśli `f = ⟨π₁,π₂⟩` to izomorfizm z produktu `P` do
+produktu `P'` tych samych punktów `X` i `Y`, to czy `π₁' f` i `π₂' f` zachowują się jak `π₁` i `π₂`?
+Już wiesz, że tak, bo wiesz, że to są te same strzałki: `π₁' f = π₁' ⟨π₁,π₂⟩ = π₁` i tak samo dla
+`π₂' f`.
+
+**A teraz potencjalnie dezorientujący fragment**: A czy zauważyłaś, że *sam produkt* jest pewnym
+izomorfizmem? Produkt punktów `X` i `Y` każdej parze współźródłowych strzałek `f` i `g` do `X` i `Y`
+odpowiednio przyporządkowywuje dokładnie jedną strzałkę `h` z tego samego źródła taką, że `π₁ h = f`
+i `π₂ h = g`. I odwrotnie, każda strzałka `h` z tego źródła odpowiada dokładnie jednej parze
+strzałek do `X` i `Y` z tego samego źródła, będących złożeniami `π₁ h` i `π₂ h`, bo przecież
+złożenia są z definicji unikalne. A więc *dla każdego punktu* `Z` *sam produkt `X × Y` to również
+taki "wymieniacz"* strzałek z `Z` do `X × Y` i uporządkowanych par strzałek do `X` i `Y`
+odpowiednio. Ten izomorfizm *nie* jest jednak izomorfizmem *w tej samej kategorii*, bo *nie jest
+strzałką w tej samej kategorii*.
 
 ### [*Aaaa?!*](https://en.wikipedia.org/wiki/Vertigo_(film))
 
-**Tym się nie przejmuj, a najlepiej w ogóle tego jeszcze nie czytaj**: Z jakich punktów może być
-zrobiona kategoria, której strzałkami mogą być takie jak ten wspomniany wyżej izomorfizmy?
-(najczęściej) Z pewnych zbiorów równoległych strzałek kategorii wyjściowej! A czym są strzałki w tej
-kategorii? (najczęściej) Funkcjami!
+**Tym się nie przejmuj, a najlepiej w ogóle tego nie czytaj**: Z jakich punktów może być zrobiona
+kategoria, której strzałkami mogą być takie jak ten wspomniany wyżej izomorfizmy?  (najczęściej) Z
+pewnych zbiorów równoległych strzałek kategorii wyjściowej! A czym są strzałki w tej kategorii?
+(najczęściej) Funkcjami!
 
 [*ℂo?*](https://a.co/d/4MMHNOE)
 
@@ -636,28 +658,30 @@ Russella).
 Jeżeli `X, Y : Ob(ℂ)` (wiem, że mocno skracam zapis - orientuj się!), to niech `Hom_ℂ(X, Y)` (nie da
 się w Unikodzie zapisać $Hom_{ℂ}(X, Y)$, więc znowu używam podkreślenia) oznacza kolekcję albo typ
 albo zbiór wszystkich strzałek z `X` do `Y` w kategorii `ℂ`. Z powodów, które nas w tym momencie nie
-interesują, takie kolekcje nazywamy po angielsku "*hom-setami*", a po polsku *zbiorami morfizmów*
-(danej kategorii).
+interesują, takie kolekcje nazywamy po angielsku "*hom-setami*", a po polsku *zbiorami morfizmów* (z
+`X` do `Y` \{kategorii `ℂ`\}).
 
 <hr>
 
 **O notacji celowo maskującej funkcyjność**: Być może to dobra okazja, żeby zwrócić Twoją uwagę na
-pewną powszechnie stosowaną ale rzadko objaśnianą konwencję. 
+pewną powszechnie stosowaną, ale rzadko objaśnianą konwencję.
 
 Zapis `Hom_ℂ(X, Y)` zdaje się sugerować, że mamy do czynienia z funkcją czy operacją na *parach*
 obiektów (tutaj `X` i `Y`), ale to przecież nieprawda, bo rezultat operacji `Hom` zależy też od
 kategorii (tutaj oznaczonej jako `ℂ`). Można by więc równie dobrze przyjąć konwencję pisania `Hom(ℂ,
-X, Y)`, albo nawet - jeszcze bardziej jednoznacznie - `Hom(ℂ, X : Ob(ℂ), Y : Ob(ℂ))`. Niektórzy
-piszą też `ℂ(X, Y)` albo `ℂ[X, Y]`. Czemu więc zwykle piszemy akurat `Hom_ℂ(X, Y)`?
+X, Y)`, albo nawet - jeszcze bardziej jednoznacznie - `Hom(ℂ : Cat, X : Ob(ℂ), Y :
+Ob(ℂ))`. Niektórzy piszą też `ℂ(X, Y)` albo `ℂ[X, Y]`. Czemu więc zwykle piszemy akurat `Hom_ℂ(X,
+Y)`?
 
 Notacja `Hom_ℂ(X, Y)` ma tą przewagę nad notacją `ℂ(X, Y)`, że jest bardziej deskryptywna, a pojęcie
-hom-setu jest w teorii kategorii ważne i w pewnych kontekstach często się pojawia. Zapisywanie
-fikuśnej litery `ℂ` jako indeksu dolnego przed lewym nawiasem ma natomiast jakby *ukryć* tą literę,
-jest to więc coś w rodzaju *odwrotności zaakcentowania*. Ten zwyczaj wynika z potrzeby praktycznej;
-często zdarza się, że mówimy dłużej o jakiejś *jednej* kategorii, a wtedy wygodnie jest pisać po
-prostu `Hom(X, Y)`. Zapisanie oznaczenia kategorii w miejscu indeksu dolnego sygnalizuje więc, że to
-oznaczenie może "łatwo spaść z notacji", czyli że w innym kontekście ten *parametr* może być
-*niejawny* (sami mamy się go domyślić - jak Lean - gdy zajdzie taka potrzeba).
+hom-setu (czyli zbioru morfizmów) jest w teorii kategorii ważne i w pewnych kontekstach często się
+pojawia. Zapisywanie fikuśnej litery `ℂ` jako indeksu dolnego przed lewym nawiasem ma natomiast
+jakby trochę *ukryć* tą literę, jest to więc coś w rodzaju *odwrotności zaakcentowania*. Ten zwyczaj
+wynika z potrzeby praktycznej; często zdarza się, że mówimy dłużej o jakiejś *jednej* kategorii, a
+wtedy wygodnie jest pisać po prostu `Hom(X, Y)`. Zapisanie oznaczenia kategorii w miejscu indeksu
+dolnego sygnalizuje więc, że to oznaczenie może "łatwo spaść z notacji", czyli że w innym kontekście
+ten *parametr* może być *niejawny* (sami mamy się go domyślić \{jak Lean\}, gdy zajdzie taka
+potrzeba).
 
 <hr>
 
@@ -676,14 +700,14 @@ kategorii *mogą* nimi być, a więc też *są*\}, to ponieważ `s, t : Arr(ℂ)
 Zgadłaś co oznacza `Arr(ℂ)`, prawda?
 
 Na przykład, jeżeli `ℂ := Set`, to `Hom_ℂ(X, Y)` to *zbiór* wszystkich (strzałek będących)
-funkcj(ami)i z (punktu będącego zbiorem) `X` do (punktu będącego zbiorem) `Y` \{za pomocą tych mam
+funkcj(ami)i z (punktu będącego zbiorem) `X` do (punktu będącego zbiorem) `Y`. Za pomocą tych mam
 nadzieję dezorientujących wtrąceń utożsamiamy tu sobie to, co jest *oznaczane*, czy raczej *opisane*
 (za pomocą formalnego języka teorii kategorii) z tym, co oznaczające (czyli z *częściami struktury
-kategorii*)\}.
+kategorii*).
 
 Jeżeli dla każdych `X, Y : Ob(ℂ)`, `Hom_ℂ(X, Y)` jest zbiorem (musimy tego wymagać, bo w ogólnym
 przypadku ta kolekcja może być za duża jak na bycie zbiorem), to dla każdego `Z : Ob(ℂ)`, jeżeli
-istnieje `X × Y` (czyli kategoryjny produkt `X` i `Y` - nie każda kategoria ma wszystkie produkty, a
+istnieje `X × Y` (czyli produkt `X` i `Y` w `ℂ` - nie każda kategoria ma wszystkie produkty, a
 niektóre nie mają żadnych!), to:
 
 `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) ≅ Hom_ℂ(Z, X × Y)`
@@ -698,18 +722,21 @@ par `(f : Z → X : ℂ, g : Z → Y : ℂ)` (a wcisnąłem sobie tutaj typowani
 
 ... a ...
 
-2. Punktem `Hom_ℂ(Z, X × Y)`, czyli w tym wypadku zbiorem wszystkich `h : Z → X × Y : ℂ`.
+2. *Punktem* `Hom_ℂ(Z, X × Y)`, czyli w tym wypadku zbiorem wszystkich `h : Z → X × Y : ℂ` (to *nie*
+   jest produkt w tej samej kategorii, w której `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)` jest produktem!).
 
 Co to dokładnie za izomorfizm? Zacznijmy od tego z prawej do lewej (czyli *do* produktu hom-setów),
 oznaczmy go jako `i`, i scharakteryzujmy go opisując jak przekształca typowy element (tutaj
 oznaczony jako `h`):
 
-`i(h : Z → X ⨯ Y : ℂ) = (f : Z → X : ℂ, g : Z → Y : ℂ) : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, gdzie `f = π₁
-h` i `g = π₂ h`, a pisząc krócej ...
+`i(h : Z → X ⨯ Y : ℂ) = (f : Z → X : ℂ, g : Z → Y : ℂ) : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`  
+gdzie `f = π₁ h` i `g = π₂ h`.
+
+A pisząc krócej ...
 
 `i(h) = (f, g)`, gdzie `f = π₁ h` i `g = π₂ h`
 
-... a pisząc krócej, ale próbując też pokazać, że `i` jest dobrze określoną funkcją:
+... a pisząc krócej, ale próbując też ujawnić w zapisie, że `i` jest dobrze określoną funkcją:
 
 `i(h) = (π₁ h, π₂ h)`.
 
@@ -718,8 +745,8 @@ już napisać "oczywiście"?) definicja produktu.
 
 [*Aaaa...*](https://music.youtube.com/watch?v=b-BmKga_N8M&si=gFeSTZ_PVEtKMQAn)
 
-A kategorię powstającą z kategorii `ℂ`, której punktami są (być może - między innymi) `Hom_ℂ(Z, X ×
-Y)`, która ma produkty takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są (być może -
+A kategorię powstającą z kategorii `ℂ`, której *punktami* są (być może - między innymi) `Hom_ℂ(Z, X
+× Y)`, która ma *produkty* takie jak `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, i której strzałkami są (być może -
 między innymi) `i` i `i⁻¹`, no więc tą ważną (parametryczną! `ℂ` i `Z` to tutaj *parametry
 przekształcenia*, które tworzy pewną kategorię z podanej kategorii `ℂ` i wybranego punktu `Z` tej
 kategorii!) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`. Ale o tym kiedy indziej.
@@ -730,7 +757,8 @@ bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
 Otóż, posługując się takimi strukturami, pół-formalny fragment prozy taki jak ten ...
 
 *Produkt punktów `X` i `Y` kategorii `ℂ` to taki punkt `X × Y` i strzałki `π₁ : X × Y → X` i `π₂ : X
-× Y → Y`, że `∀ Z : Ob(ℂ), ∀ f : Z → X, ∀ g : Z → Y, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)`.*
+× Y → Y`, że:*  
+*`∀ Z : Ob(ℂ), ∀ f : Z → X, ∀ g : Z → Y, ∃¹ h : Z → X × Y, (π₁ h = f) ∧ (π₂ h = g)`.*
 
 ... możemy w pełni zakodować w języku teorii kategorii tak (morfizmy takie jak `Hom_ℂ` to również -
 nazywane [*funktorami
@@ -738,10 +766,9 @@ głównymi*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii)#Funktory_g
 [strzałki pewnej kategorii](https://en.wikipedia.org/wiki/Hom_functor), której punktami są
 ... [kategorie](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii))) ...
 
-`f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`
-
+`f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`  
 `f⁻¹(h) = (π₁ h, π₂ h)`
 
-... *"chwytając" w ten sposób kategoryjnie (!) "istotę" (!) kategoryjnego (!) pojęcia* (tutaj akurat
+... *"chwytając" w ten sposób kategoryjnie (!) "istotę" (!) pojęcia kategoryjnego (!)* (tutaj akurat
 pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju *badania
 endo-meta-teoretycznego* (sic!).
