@@ -197,7 +197,7 @@ charakterystyczną odwrotność, możemy powiedzieć, że dwa zbiory czteroeleme
 *24* różne sposoby, gdzie każdy *sposób* jest jedną *parą* izomorfimów, będących nawzajem swoimi
 odwrotnościami.
 
-## Żeby było wiadomo, o czym mowa, metodę tłumaczenia trzeba *wybrać* albo *wskazać*
+### Żeby było wiadomo, o czym mowa, metodę tłumaczenia trzeba *wybrać* albo *wskazać*
 
 Skoro zbiory `V` i `X × Y` są izomorficzne, to *zamiast mówić o elementach* `X × Y`, *możemy równie
 dobrze mówić o elementach* `V`, *o ile* wcześniej *wskażemy* jakiś *izomorfizm*. Gdybyśmy żadnego
@@ -254,7 +254,7 @@ konkretny izomorfizm między tymi zbiorami, wszystko jedno w którą stronę*, i
 konwencję*. A kiedy mamy ochotę snuć *ogólne* rozważania o *jakichkolwiek* iloczynach, możemy sobie
 *wyobrazić*, że jakiś *Ktoś* mówi o nich do jakiegoś - być może tego samego - *Kogoś*.
 
-## Pierwszy przelot
+### Pierwszy przelot
 
 Teraz musimy uważać, bo *zmieniamy język*, a więc również punkt widzenia. Odtąd będziemy rozważać
 czasem *dowolną* kategorię, to jest *jakąkolwiek kolekcję strzałek spełniającą wymagania* (zapisane
@@ -424,7 +424,7 @@ wykazać, że strzałki `f` i `g` też są, a nawet muszą być, izomorfizmami, 
 odwrotnościami, a więc *dwa kategoryjne produkty tych samych punktów* są też izomorficzne? Żeby to
 wykazać, musimy najpierw wprowadzić jeszcze jedną definicję kategoryjną.
 
-## Kategoryjny izomorfizm
+### Kategoryjny izomorfizm
 
 *Izomorfizmem (kategoryjnym)* nazywamy taką strzałkę `f`, że istnieje strzałka `g` spełniająca
 warunki `g f = Id` i `f g = Id`.
@@ -540,7 +540,7 @@ kategoryjnych relacjach złożeniowych, a więc również takie teoriotypowe i t
 odwrotności, są unikalne), możemy wrócić do narysowanych już przez Ciebie dwóch produktów
 kategoryjnych połączonych wygiętymi strzałkami.
 
-## Wszystkie pary produktów tych samych punktów są kanonicznie izomorficzne
+### Wszystkie pary produktów tych samych punktów są kanonicznie izomorficzne
 
 **Rysunek 2**: Pod ostatnim rysunkiem `Narysuj` proszę tak samo jeden nad drugim dwa produkty, ale
 tym razem niech to będą *te same* dwa produkty `P` i `P`, z *tymi samymi* projekcjami (nazywanymi
@@ -620,7 +620,7 @@ pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", al
 produktu* `P` (`P'`). Teraz zerwiemy z tego drzewa poznania tego co dobre i uniwersalne pewien
 soczysty, nisko rosnący owoc.
 
-## Izomorficzne czyli *praktycznie* takie samo
+### Izomorficzne czyli *praktycznie* takie samo
 
 **Kanoniczny lub arbitralnie wybrany izomorfizm jako uogólnienie równości**: Skoro każda para
 produktów tych samych punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, czyli taką jakby
@@ -796,9 +796,9 @@ będący w tym wypadku funkcją (a więc to jest bijekcja), bo to są z założe
 2. *Punktem* `Hom_ℂ(Z, X × Y)`, czyli w tym wypadku zbiorem wszystkich `h : Z → X × Y : ℂ`
    (napisałem *punktem*, bo to *nie* jest produkt).
 
-Co to dokładnie za izomorfizm? I przede wszystkim *gdzie* on się znajduje? Zacznijmy od tego z
-prawej do lewej (czyli *do* produktu hom-setów), oznaczmy go jako `i`, i scharakteryzujmy go
-opisując jak przekształca typowy element (tutaj oznaczony jako `h`):
+Co to dokładnie za izomorfizm? I *gdzie* on się znajduje? Zacznijmy od tego z prawej do lewej (czyli
+*do* produktu hom-setów), oznaczmy go jako `i`, i scharakteryzujmy go opisując jak przekształca
+typowy element (tutaj oznaczony jako `h`):
 
 `i(h : Z → X ⨯ Y : ℂ) = (f : Z → X : ℂ, g : Z → Y : ℂ) ∈ Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`  
 gdzie `f = π₁ h` i `g = π₂ h`.
