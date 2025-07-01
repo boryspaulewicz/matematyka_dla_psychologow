@@ -351,7 +351,7 @@ To będą zatem projekcje produktu `P` ...
 
 `π₁ : P → X` i `π₂ : P → Y`
 
-... a będą (niekoniecznie inne) projekcje (niekoniecznie różnego od `P`) produktu `P'`
+... a to będą (niekoniecznie inne) projekcje (niekoniecznie różnego od `P`) produktu `P'`
 
 `π₁' : P' → X` i `π₂' : P' → Y`.
 
@@ -502,8 +502,8 @@ example : h = g := by
   have h5 : g ∘ (f ∘ h) = (g ∘ f) ∘ h := by rfl
 
   -- Od tego momentu zaczynamy przekształcać hipotezę `hcel`, której dowód mamy już w kontekście.
-  -- Argument `at <nazwa>` mówi taktyce `rw`, żeby dokonała przekstałcenia termu o nazwie `nazwa`, a nie
-  -- przekształcenia (globalnego) celu.
+  -- Argument `at <nazwa>` mówi taktyce `rw`, żeby dokonała przekstałcenia typu termu o nazwie `nazwa`,
+  -- a nie przekształcenia (globalnego) celu.
   rw [h5] at hcel                       --> było `hcel : g ∘ (f ∘ h) = g ∘ (ID Y)`, a po zastąpieniu
                                         -- lewej strony `h5 : g ∘ (f ∘ h) = (g ∘ f) ∘ h` przez prawą
                                         -- jest `hcel : (g ∘ f) ∘ h = g ∘ ID Y`
