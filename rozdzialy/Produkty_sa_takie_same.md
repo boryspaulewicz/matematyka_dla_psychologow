@@ -646,20 +646,32 @@ wskazany, albo "się narzucił", bo jest kanoniczny, *nie trzeba tych operacji s
 Na przykład, w kategorii zbiorów i funkcji wszystkie zbiory jednoelementowe są obiektami końcowymi,
 przez co wszystkie takie obiekty są kanonicznie izomorficzne ... 
 
-Jeżeli `T₁` i `T₂` są obiektami końcowymi, to (z definicji obiektu końcowego) istnieje dokładnie
-jedna (a więc "narzucająca się") strzałka z `T₁` do `T₂`, i istnieje dokładnie jedna strzałka z `T₂`
-do `T₁`. Te strzałki są składalne na dwa sposoby (bo są przeciwrównoległe), a każde z tych złożeń
-musi być identycznością, bo (z definicji obiektu końcowego) istnieje dokładnie jedna strzałka z `T₁`
-do `T₁`, i tak samo z `T₂` do `T₂`, a każdy obiekt ma swoją endostrzałkę identycznościową.
+*Przypominam dowód*: Jeżeli `T₁` i `T₂` są obiektami końcowymi, to (z definicji obiektu końcowego)
+istnieje dokładnie jedna (a więc "narzucająca się") strzałka z `T₁` do `T₂`, i istnieje dokładnie
+jedna strzałka z `T₂` do `T₁`. Te strzałki są składalne na dwa sposoby (bo są przeciwrównoległe), a
+każde z tych złożeń musi być identycznością, bo (z definicji obiektu końcowego) istnieje dokładnie
+jedna strzałka z `T₁` do `T₁`, i tak samo z `T₂` do `T₂`, a każdy obiekt ma swoją endostrzałkę
+identycznościową.
 
 ... a więc wszystkie takie zbiory *działają tak samo jako obiekty końcowe*. W przypadku obiektów
 końowych w kategorii zbiorów i funkcji to polega na przykład na tym, że każdy z takich obiektów
 nadaje się tak samo dobrze do wskazywania każdego elementu każdego zbioru, a więc każdy zbiór
 "dostaje" tyle samo strzałek z każdego obiektu końcowego. A mówiąc ogólnie, niezależnie od tego, o
 jaką kategorię chodzi, wszystkie *kategoryjne*, to jest "strzałkowo-złożeniowe" relacje między
-jednym obiektem a wszystkimi innymi obiektami są takie same, jak wszystkie *kategoryjne* relacje
-między dowolnym innym, z konieczności kanonicznie izomorficznym obiektem końcowym a wszystkimi
-innymi obiektami.
+jednym obiektem końcowym a wszystkimi innymi obiektami są takie same, jak wszystkie *kategoryjne*
+relacje między dowolnym innym, z konieczności kanonicznie izomorficznym obiektem końcowym a
+wszystkimi innymi obiektami.
+
+Jeżeli nadal trudno Ci się oswoić z tym abstrakcyjnym faktem, to pomyśl może o analogii do liczb
+wymiernych. Każdą konkretną liczbę wymierną możemy *zapisać* na nieskończenie wiele *różnych*
+sposobów jako ułamek. Na przykład, liczbę `1/2` możemy zapisać równie dobrze jako `2/4`, `3/6`,
+`333/666`, i tak dalej, czyli jako *dowolną* uporządkowaną parę liczb całkowitych taką, że druga z
+nich nie jest zerem i pierwsza jest dwa razy mniejsza niż druga. *Tą samą* liczbę wymierną można
+więc *zrobić* z liczb całkowitych na nieskończenie wiele różnych sposobów, i ten fakt nie
+przeszkadza Ci w traktowaniu takich rozmaicie zrobionych liczb jako jednej i tej samej liczby. A
+jest tak dokładnie dlatego, że tych par liczb (zapisywanych zwykle jedna nad drugą) *używasz* w
+pewien określony sposób, to jest właśnie *jako liczb wymiernych*, a to, jak one *działają*, decyduje
+dla Ciebie o ich *tożsamości*.
 
 Skoro więc:
 
@@ -674,30 +686,44 @@ Skoro więc:
 kategoryjnie czyli "funkcjonalnie" obiektów w *kategoryjnych* konstrukcjach, na przykład w dowodach
 zapisanych całkowicie w języku teorii kategorii, moglibyśmy "zlecić" ewentualną konieczną
 "transmutację" na przykład Leanowi, bo skoro ta jest automatyzowalna, to można teoretycznie nauczyć
-Leana, jak to "się" robi. A ponieważ każda *konkretna wersja* czy raczej "implementacja" albo
-"instancja" danego rodzaju kategoryjnego obiektu *działa kategoryjnie tak samo*, to tak naprawdę nie
-trzeba tego przekształcenia dokonywać nawet w tle, i można takie obiekty traktować po prostu jako
-(kategoryjnie) wymienialne. Ale uwaga, *ten* rodzaj wymienialności dotyczy *scharakteryzowanych
-kategoryjnie punktów/obiektów*, ale *nie* strzałek.
+Leana, jak to "się" robi. Na zasadniczo takim samym, w analogiczny sposób automazowalnym procesie
+polegamy używając komputera albo kalkulatora do wykonywania obliczeń na liczbach wymiernych i nawet
+tego nie zauważamy.
+
+A ponieważ każda *konkretna wersja* czy raczej "implementacja" albo "instancja" danego rodzaju
+kategoryjnego obiektu *działa kategoryjnie tak samo*, to tak naprawdę nie trzeba tego
+przekształcenia dokonywać nawet w tle, i można takie obiekty traktować po prostu jako (kategoryjnie)
+wymienialne. Ale uwaga, *ten* rodzaj wymienialności dotyczy *scharakteryzowanych kategoryjnie
+punktów/obiektów*, ale *nie* strzałek.
 
 ## Wybiegając celowo w przyszłość
 
 **Najpierw krótka powtórka**: Załóżmy, że mamy parę strzałek `a : P → X` i `b : P → Y`, gdzie `P` to
 produkt `X × Y` z projekcjami `π₁` i `π₂` odpowiednio. Wtedy istnieje unikalna strzałka `⟨a,b⟩`
 taka, że `π₁ ⟨a,b⟩ = a` i `π₂ ⟨a,b⟩ = b`. A jeśli `f` to (kanoniczny) izomorfizm z produktu `P` do
-produktu `P'` (z konieczności tych samych punktów `X` i `Y`), czyli jeśli `f = ⟨π₁,π₂⟩`, to czy
-strzałki będące złożeniami `π₁' f` i `π₂' f` zachowują się jak `π₁` i `π₂`?  Już wiesz, że tak, bo
-wiesz, że to są te same strzałki: `π₁' f = π₁' ⟨π₁,π₂⟩ = π₁`, i tak samo dla `π₂' f`.
+produktu `P'` (wtedy z konieczności tych samych punktów `X` i `Y`), czyli jeśli `f = ⟨π₁,π₂⟩`, to
+czy strzałki będące złożeniami `π₁' f` i `π₂' f` zachowują się jak `π₁` i `π₂`?  Już wiesz, że tak,
+bo wiesz, że to są te same strzałki: `π₁' f = π₁' ⟨π₁,π₂⟩ = π₁`, i tak samo dla `π₂' f`.
 
 **To teraz uważaj!**: A czy zauważyłaś, że *sam produkt* jest pewnym izomorfizmem? Produkt punktów
-`X` i `Y` *każdej* parze współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio
-przyporządkowywuje *dokładnie jedną* taką strzałkę `h` z tego samego źródła, że `π₁ h = f` i `π₂ h =
-g`. I *odwrotnie*, *każda* strzałka `h` z tego źródła odpowiada *dokładnie jednej* parze strzałek do
-`X` i `Y` z tego samego źródła, będących złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z
-definicji unikalne. A więc *dla każdego punktu* `Z` *sam produkt `X × Y` to również taki
-"wymieniacz"*, tyle, że strzałek z `Z` do `X × Y` i uporządkowanych par strzałek z `Z` do `X` i `Y`
-odpowiednio. Mamy tu ewidentnie pewien izomorfizm, ale ten izomorfizm *nie* jest izomorfizmem *w tej
-samej kategorii*, bo *nie jest strzałką w tej samej kategorii*.
+`X` i `Y` ...
+
+1. ... *każdej* parze współźródłowych strzałek `f` i `g` do `X` i `Y` odpowiednio ...
+
+2. ... przyporządkowywuje *dokładnie jedną* taką strzałkę `h` z tego samego źródła, że `π₁ h = f` i
+`π₂ h = g`. 
+
+I *odwrotnie*, ... 
+
+1. ... *każda* strzałka `h` z tego źródła ...
+
+2. ... odpowiada *dokładnie jednej* parze strzałek do `X` i `Y` z tego samego źródła, będących
+złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unikalne. 
+
+A więc *dla każdego punktu* `Z`, *sam produkt `X × Y` to również taki "wymieniacz" albo
+"transmutator"*, tyle, że strzałek z `Z` do `X × Y` i uporządkowanych par strzałek z `Z` do `X` i
+`Y` odpowiednio. Mamy tu ewidentnie pewien izomorfizm, ale ten izomorfizm *nie* jest izomorfizmem *w
+tej samej kategorii*, bo *nie jest strzałką w tej samej kategorii*.
 
 ### [*Aaaa?!*](https://en.wikipedia.org/wiki/Vertigo_(film))
 
@@ -714,16 +740,16 @@ Niech `ℂ` oznacza *dowolną* kategorię, a `Ob(ℂ)` niech oznacza zbiór albo
 tej kategorii (nazywanych zwykle *obiektami*, stąd skrót `Ob`). To nam pozwoli pisać krótko na
 przykład `X : Ob(ℂ)` zamiast znacznie dłużej *niech `X` będzie punktem kategorii `ℂ`*.
 
-Na przykład, jeżeli `ℂ = Set`, to `Ob(ℂ)` to kolekcja wszystkich zbiorów (to jest wtedy kolekcja,
+Na przykład, jeżeli `ℂ = Set`, to `Ob(ℂ)` to kolekcja wszystkich zbiorów (to jest wtedy *kolekcja*,
 która *nie może* być *zbiorem*, bo pojęcie zbioru wszystkich zbiorów prowadzi do antynomii
 Russella).
 
-Jeżeli `X, Y : Ob(ℂ)` (wiem, że mocno skracam zapis - orientuj się!), to niech `Hom_ℂ(X, Y)` (nie da
-się w Unikodzie zapisać $Hom_{ℂ}(X, Y)$, więc znowu używam podkreślenia) oznacza kolekcję albo typ
-albo zbiór wszystkich strzałek z `X` do `Y` (czyli strzałek w ten sposób *równoległych*) w kategorii
-`ℂ`. Z powodów, które nas w tym momencie nie interesują, takie kolekcje nazywamy po angielsku
-"*hom-setami*", a po polsku *zbiorami morfizmów* (kategorii `ℂ` \{z obiektu `X` do obiektu
-`Y`\}). 
+Jeżeli `X, Y : Ob(ℂ)` (czytaj: *`X` i `Y` to punkty `ℂ`*; wiem, że mocno skracam zapis - orientuj
+się!), to niech `Hom_ℂ(X, Y)` (nie da się w Unikodzie zapisać $Hom_{ℂ}(X, Y)$, więc znowu używam
+podkreślenia) oznacza kolekcję albo typ albo zbiór wszystkich strzałek z `X` do `Y` (czyli strzałek
+w ten sposób *równoległych*) w kategorii `ℂ`. Z powodów, które nas w tym momencie nie interesują,
+takie kolekcje nazywamy po angielsku *hom-setami*, a po polsku *zbiorami morfizmów* (kategorii `ℂ`
+\{z obiektu `X` do obiektu `Y`\}).
 
 Na razie nie ma tu żadnych nowych *pojęć*, jest tylko nowa *terminologia* i nowa *notacja*. To może
 powiem coś o tej notacji.
@@ -733,12 +759,12 @@ powiem coś o tej notacji.
 **O notacji celowo maskującej funkcyjność**: Być może to dobra okazja, żeby zwrócić Twoją uwagę na
 pewną powszechnie stosowaną, ale rzadko objaśnianą konwencję.
 
-Zapis `Hom_ℂ(X, Y)` zdaje się sugerować, że mamy do czynienia z pewną funkcją czy operacją na
-*parach* obiektów (tutaj `X` i `Y`), ale to przecież nieprawda, bo rezultat operacji `Hom` zależy
-też od kategorii (tutaj oznaczonej jako `ℂ`). Można by więc równie dobrze przyjąć konwencję pisania
-`Hom(ℂ, X, Y)`, albo nawet - jeszcze bardziej jednoznacznie i "w stylu teoriotypowym" - `Hom(ℂ :
-Cat, X : Ob(ℂ), Y : Ob(ℂ))`. Niektórzy piszą też `ℂ(X, Y)` albo `ℂ[X, Y]`. Czemu więc zwykle piszemy
-akurat `Hom_ℂ(X, Y)`?
+Zapis `Hom_ℂ(X, Y)` zdaje się sugerować, że mamy do czynienia z pewną, dostarczającą określone
+zbiory strzałek, funkcją czy operacją na *parach* obiektów (tutaj `X` i `Y`), ale to przecież
+nieprawda, bo rezultat tej operacji zależy też od kategorii (tutaj oznaczonej jako `ℂ`). Można by
+więc równie dobrze przyjąć konwencję pisania `Hom(ℂ, X, Y)`, albo nawet - jeszcze bardziej
+jednoznacznie i w stylu teoriotypowym - `Hom(ℂ : Cat, X : Ob(ℂ), Y : Ob(ℂ))`. Niektórzy piszą też
+`ℂ(X, Y)` albo `ℂ[X, Y]`. Czemu więc zwykle piszemy akurat `Hom_ℂ(X, Y)`?
 
 Notacja `Hom_ℂ(X, Y)` ma tą przewagę nad notacją `ℂ(X, Y)`, że jest bardziej deskryptywna, a tak się
 składa, że pojęcie hom-setu (czyli zbioru morfizmów) jest w teorii kategorii ważne i w pewnych
@@ -748,18 +774,18 @@ zaakcentowania*. Ten zwyczaj wynika z potrzeby praktycznej; często zdarza się,
 jakiejś *jednej* kategorii, a wtedy wygodnie jest pisać po prostu `Hom(X, Y)`. Zapisanie oznaczenia
 kategorii w miejscu indeksu dolnego sygnalizuje więc, że to oznaczenie może "łatwo spaść z notacji",
 czyli że w innym kontekście ten *parametr* może być *niejawny*. Wtedy sami mamy się domyślić, o
-którą kategorię chodzi, tak jak Lean "sam się domyśla" niejawnych argumentów w analogicznych
-sytuacjach.
+którą kategorię chodzi, tak jak w analogicznych sytuacjach Lean "sam się domyśla" niejawnych
+argumentów.
 
 <hr>
 
 Czyli, jeżeli `Hom_ℂ(X, Y)` jest zbiorem, to używając formalnego języka teorii mnogości możemy o tym
-zbiorze powiedzieć ...
+zbiorze w ten sposób ...
 
 `Hom_ℂ(X, Y) = {f : Arr(ℂ) | (s(f) = X) ∧ (t(f) = Y)}` 
 
-... że to jest zbiór wszystkich strzałek w kategorii `ℂ`, których źródłem (`s` od angielskiego
-*source*) jest punkt `X`, a celem (`t` od angielskiego *target*) jest punkt `Y`.
+... powiedzieć, że to jest zbiór wszystkich strzałek w kategorii `ℂ`, których źródłem (`s` od
+angielskiego *source*) jest punkt `X`, a celem (`t` od angielskiego *target*) jest punkt `Y`.
 
 (Nawiasem mówiąc, jeżeli `s` i `t` mają być *funkcjami teoriomnogościowymi* \{a w przypadku wielu
 kategorii *mogą* nimi być, a więc też *są*\}, to ponieważ `s, t : Arr(ℂ) → Ob(ℂ)`, to kolekcje
@@ -771,8 +797,10 @@ Na przykład, jeżeli `ℂ := Set`, to `Hom_ℂ(X, Y)` to *zbiór* wszystkich (s
 funkcj(ami)i z (będącego zbiorem punktu) `X` do (będącego zbiorem punktu) `Y`. Za pomocą tych mam
 nadzieję dezorientujących wtrąceń utożsamiamy tu sobie to, co jest *oznaczane*, czy raczej *opisane*
 (za pomocą formalnego języka teorii kategorii) z tym, co oznaczające (czyli z *częściami struktury
-kategorii* \{bo chcemy nauczyć się używać tego języka w taki jakby "przezroczysty" sposób, czyli
-chcemy nauczyć się *patrzeć przez ten język*\}).
+kategorii*). No a czemu mielibyśmy uczyć się dokonywania bezwiednie tego rodzaju utożsamień? Bo
+chcemy nauczyć się używać tego języka w taki jakby "przezroczysty" sposób, *myśląc nim*, czyli
+chcemy nauczyć się *patrzeć przez ten język* tak samo, jak nie zastanawiając się na czym to polega
+patrzymy przez język działań na ułamkach na wszystko, co można traktować jako liczby wymierne.
 
 Jeżeli dla każdych `X, Y : Ob(ℂ)`, `Hom_ℂ(X, Y)` jest zbiorem (musimy tego wymagać, bo w ogólnym
 przypadku taka kolekcja może być za duża jak na bycie zbiorem), to dla każdego `Z : Ob(ℂ)`, jeżeli
@@ -781,9 +809,9 @@ wszystkie produkty, a są nawet i takie, które nie mają żadnych), to:
 
 `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) ≅ Hom_ℂ(Z, X × Y)`
 
-Nie panikujemy! Zamiast panikować **czytamy to jako**: Istnieje (kategoryjny) izomorfizm (`≅`),
-będący w tym wypadku funkcją (a więc to jest bijekcja), bo to są z założenia wszystko zbiory, między
-...
+Nie panikujemy! Zamiast panikować **czytamy to jako**: Istnieje (kategoryjny) izomorfizm (`≅` - od
+niego zaczynamy czytać, bo on tu najmocniej wiąże), będący w tym wypadku funkcją (a więc to jest
+bijekcja), bo to są wszystko zbiory, między ...
 
 1. Produktem `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, który można w tym wypadku rozumieć jako (bo działa tak
    samo jak) zbiór takich par uporządkowanych, że pierwszym elementem jest strzałka z `Z` do `X`, a
@@ -797,8 +825,8 @@ będący w tym wypadku funkcją (a więc to jest bijekcja), bo to są z założe
    (napisałem *punktem*, bo to *nie* jest produkt).
 
 Co to dokładnie za izomorfizm? I *gdzie* on się znajduje? Zacznijmy od tego z prawej do lewej (czyli
-*do* produktu hom-setów), oznaczmy go jako `i`, i scharakteryzujmy go opisując jak przekształca
-typowy element (tutaj oznaczony jako `h`):
+od izomorfizmu *do* produktu hom-setów), oznaczmy go jako `i`, i scharakteryzujmy go opisując jak
+przekształca typowy element (tutaj oznaczony jako `h`):
 
 `i(h : Z → X ⨯ Y : ℂ) = (f : Z → X : ℂ, g : Z → Y : ℂ) ∈ Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`  
 gdzie `f = π₁ h` i `g = π₂ h`.
@@ -813,7 +841,7 @@ określoną funkcją:
 `i(h) = (π₁ h, π₂ h)`.
 
 Istnienie strzałki/funkcji `i⁻¹ : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)` gwarantuje nam (mogę
-już napisać "oczywiście"?) definicja produktu.
+już napisać, że "oczywiście"?) definicja produktu.
 
 [*Aaaa...*](https://music.youtube.com/watch?v=b-BmKga_N8M&si=gFeSTZ_PVEtKMQAn)
 
@@ -826,7 +854,7 @@ kategorii) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`. Ale o tym kiedy ind
 **No dobrze, ale dlaczego**: *chcemy* robić (między innymi) z pojęciem produktu coś tak (pozornie)
 bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
 
-Otóż posługując się takimi strukturami, pół-formalny fragment prozy taki jak ten ...
+Otóż posługując się takimi strukturami, pół-formalny fragment matematycznej prozy taki jak ten ...
 
 *Produkt punktów `X` i `Y` kategorii `ℂ` to taki punkt `X × Y` wyposażony w nazywane projekcjami
 strzałki `π₁ : X × Y → X` i `π₂ : X
@@ -837,11 +865,11 @@ strzałki `π₁ : X × Y → X` i `π₂ : X
 nazywane [*funktorami
 głównymi*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii)#Funktory_g%C5%82%C3%B3wne) -
 [strzałki pewnej kategorii](https://en.wikipedia.org/wiki/Hom_functor), której punktami są
-... [kategorie](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii))) ...
+[*kategorie*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii))) ...
 
 `f : Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) → Hom_ℂ(Z, X × Y)`  
 `f⁻¹(h) = (π₁ h, π₂ h)`
 
 ... *"chwytając" w ten sposób kategoryjnie (!) "istotę funkcjonalną" (!) pojęcia kategoryjnego (!)*
-(tutaj akurat pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju
-*badania endo-meta-teoretycznego*.
+(tutaj akurat pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju [*badań
+endo-meta-teoretycznych*](https://en.wikipedia.org/wiki/Drawing_Hands).
