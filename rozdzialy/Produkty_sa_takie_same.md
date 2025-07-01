@@ -622,12 +622,11 @@ soczysty, nisko rosnący owoc.
 
 ### Izomorficzność jest *praktycznie równa równości*
 
-**Kanoniczny lub arbitralnie wybrany izomorfizm jako uogólnienie równości**: Skoro każda para
-produktów tych samych punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, czyli taką jakby
-"własną"/"naturalną"/"narzucającą się" metodę przemiany jednego z nich w drugi *bez utraty
-"funkcjonalności"* (pun intended), to wszystkie produkty tych samych punktów są *automatycznie
-zastępowalne*, tyle, że w ogólniejszym znaczeniu niż obiekty, które są zastępowalne dlatego, że są
-po prostu *równe*.
+Skoro każda para produktów tych samych punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*,
+czyli taką jakby "własną"/"naturalną"/"narzucającą się" metodę przemiany jednego z nich w drugi *bez
+utraty "funkcjonalności"* (pun intended), to wszystkie produkty tych samych punktów są
+*automatycznie zastępowalne*, tyle, że w ogólniejszym znaczeniu niż obiekty, które są zastępowalne
+dlatego, że są po prostu *równe*.
 
 *Równe* obiekty możemy wymieniać bez zmiany treści zdań czy konstrukcji *nie stosując żadnych
 dodatkowych operacji*, bo równe obiekty są nie tylko *takim samym*, ale również *tym samym*
