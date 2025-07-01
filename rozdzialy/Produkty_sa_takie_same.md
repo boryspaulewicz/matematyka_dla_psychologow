@@ -620,7 +620,7 @@ pewnym sensie "narzucający się", albo "wzorcowy", albo "charakterystyczny", al
 produktu* `P` (`P'`). Teraz zerwiemy z tego drzewa poznania tego co dobre i uniwersalne pewien
 soczysty, nisko rosnący owoc.
 
-### Izomorficzne czyli *praktycznie* takie samo
+### Izomorficzność jest *praktycznie równa równości*
 
 **Kanoniczny lub arbitralnie wybrany izomorfizm jako uogólnienie równości**: Skoro każda para
 produktów tych samych punktów (inaczej: obiektów) jest wyposażona w *kanoniczną*, czyli taką jakby
