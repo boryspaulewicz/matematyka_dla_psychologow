@@ -54,12 +54,12 @@ jakiegoś (być może tego samego) zbioru.
 
 <hr>
 
-### O roli pojęć zbioru, elementu i funkcji w praktyce matematycznej
+### Oznaczanie jako wspólna rola pojęć zbioru, elementu i funkcji w praktyce matematycznej
 
-Z jednej strony, pojęcie zbioru może się więc wydawać mało interesujące. Z drugiej jednak strony,
-gdy popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
+Z jednej strony, pojęcie zbioru może się wydawać mało interesujące. Z drugiej jednak strony, gdy
+popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
 powiedzieć o zbiorach (i funkcjach) coś głębszego, a mianowicie, że zbiory (i funkcje) są w pewnym
-sensie *strukturami ekstremalnymi*.
+ważnym sensie *strukturami ekstremalnymi*.
 
 Na przykład, *liczby naturalne* to nie *tylko* pewna *kolekcja* obiektów, bo to jest *specjalna*
 kolekcja - to kolekcja posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna
@@ -108,12 +108,7 @@ perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem do
 sprowadza się "matematyczność" języka) i zarazem *swobodnego wskazywania/oznaczania/wyróżniania*, w
 taki czy inny sposób, w tym również *całkiem arbitralnie*, bez podania żadnego powodu czy zasady,
 wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem swobodnego mówienia/myślenia
-o/badania niemal dowolnych, w tym również całkiem arbitralnych, *własności* tych elementów:
-
-*Element to cokolwiek, co zostało wyróżnione na potrzeby rozważań. Zbiór to pewne w y r ó ż n i e n
-i e, czyli pewna mnogość elementów. Funkcją elementów i zbiorów jest dowolne oznaczanie dowolnych
-elementów (sic!). Każda funkcja jest pewnym oznaczeniem. A więc zbiór, element i funkcja to trzy
-aspekty tego samego pojęcia swobodnego formalnego oznaczenia.*
+o/badania niemal dowolnych, w tym również całkiem arbitralnych, *własności* tych elementów.
 
 Dla porównania, język grafów (skierowanych), którego zaczęliśmy już używać, służy, a raczej *ma
 służyć* (bo - tak jak wszystkiego innego - można go przecież używać jak tylko się chce, w tym
@@ -233,7 +228,12 @@ ustrukturyzowanymi" (bo każda kolekcja mimo wszystko jest pewną strukturą), a
 "granicznymi" czy też "ekstremalnymi" w tym znaczeniu, że pozbawionymi jakiejkolwiek "nietrywialnej"
 struktury językowo/pojęciowej, to jest struktury umożliwiającej coś więcej, niż samo swobodne
 wyróżnianie i oznaczanie, czyli umożliwiającej coś więcej, niż *wykonanie najprostszego i
-najbardziej podstawowego zadania, do wykonania którego używamy symboli jako symboli*.
+najbardziej podstawowego zadania, do wykonania którego używamy symboli jako symboli*:
+
+*Element to cokolwiek, co zostało wyróżnione na potrzeby formalnych rozważań, zbiór to jakiekolwiek
+wyróżnienie elementów, a funkcja to jakiekolwiek oznaczenie elementów za pomocą
+elementów. Podstawową rolą elementów, zbiorów i funkcji jako elementów, zbiorów i funkcji jest więc
+oznaczanie*.
 
 <hr>
 
