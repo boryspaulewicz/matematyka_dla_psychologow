@@ -93,7 +93,7 @@ Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc c
 
 `Z := {1, 20, *, X, -3.4}`
 
-... "wchodzimy" razem z (którym możemy być my sami w przyszłości) odbiorcą tego formalnego tekstu
+... "wchodzimy" razem z odbiorcą tego formalnego tekstu (którym możemy być my sami w przyszłości)
 "do środka" pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o nazwie `Z`, przez
 które można powiedzieć, że "widzimy" to ...
 
