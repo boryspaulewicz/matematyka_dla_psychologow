@@ -85,7 +85,7 @@ w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji w Lea
 mają bliżej nieokreślone (a więc też nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja
 aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
 każdemu z nich *przypisać*, dokonując w ten sposób jakby nieredukowalnej aplikacji do czegoś zbioru
-jako pozbawionej ciała, albo takiej "otwartej" funkcji. Innym sposób, który może ułatwić myślenie w
+jako pozbawionej ciała, albo takiej "otwartej", funkcji. Innym sposób, który może ułatwić myślenie w
 ten sposób o zbiorach, polega na wyobrażeniu sobie, że każdy zbiór jest jak okrąg zawierający
 pozbawione jakiegokolwiek charakteru *punkty zaczepienia*.
 
