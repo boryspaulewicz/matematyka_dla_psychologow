@@ -146,7 +146,7 @@ ograniczony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany
 *strukturach grafowych jako takich*. Gdy mamy już te dwa narzędzia/języki, możemy się między nimi
 swobodnie i konsekwentnie przełączać, czasami biorąc pod uwagę (*respektując*) grafowość czegoś -
 gdy na przykład rozpatrujemy strzałki albo ścieżki *jako strzałki* i *jako ścieżki* odpowiednio - a
-czasem tą grafowość ignorując, a więc mówiąc o de facto strzałkach i punktach *jako o bliżej
+czasem tą grafowość ignorując, a więc mówiąc o de facto strzałkach i punktach jako o *bliżej
 nieokreślonego rodzaju* elementach, to jest takich jak wszystkie inne.
 
 I jest jasne, że zarówno w naszym wewnątrz, jak i między-osobowym komunikowaniu się/myśleniu często
