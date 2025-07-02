@@ -124,11 +124,11 @@ swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mó
 2. ... i o takich obiektach, o których da się konsekwentnie mówić, że są jakimiś źródłami albo
 celami czegoś. 
 
-Możemy się przekonać, że języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną
-*strukturę*, albo "domagają się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej
-struktury, albo "domaga się" struktury w pewnym sensie minimalnej, rozważając taki oto przykład
-konsekwentnego mówienia czy myślenia o czymś na dwa różne sposoby (ten przykład to oczywiście tylko
-pewna idealizacja):
+O tym, że języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną *strukturę*, albo
+"domagają się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej struktury, albo
+"domaga się" struktury w pewnym sensie minimalnej, możemy się przekonać rozważając taki oto przykład
+konsekwentnego mówienia czy myślenia o czymś *jednocześnie* na co najmniej *dwa różne sposoby* (ten
+przykład to oczywiście tylko pewna idealizacja):
 
 *Każdy człowiek ma parę rodziców, którzy też są ludźmi*.
 
