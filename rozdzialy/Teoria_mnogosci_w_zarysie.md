@@ -105,9 +105,9 @@ tym kontekście oznacza `*` (to może być na przykład sama ta gwiazka, jako w 
 "samooznaczający się" symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę -3.4, *i nic
 innego*.
 
-**Zbiory i ich elementy jako narzędzia językowe i pojęciowe służące do maksymalnie swobodnego i
-zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek**: Z zarysowanej (?) właśnie
-perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem do tego w praktyce
+**Zbiory, ich elementy, i funkcje jako językowe i pojęciowe narzędzia służące do maksymalnie
+swobodnego i zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek**: Z zarysowanej (?)
+właśnie perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem do tego w praktyce
 sprowadza się "matematyczność" języka) i zarazem *swobodnego wskazywania/oznaczania/wyróżniania*, w
 taki czy inny sposób, w tym również *całkiem arbitralnie*, bez podania żadnego powodu czy zasady,
 wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem swobodnego mówienia/myślenia
