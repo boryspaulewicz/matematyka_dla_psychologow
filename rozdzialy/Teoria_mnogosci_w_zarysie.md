@@ -50,17 +50,17 @@ zbiory to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementó
 Natomiast *funkcje*, takie jak na przykład funkcja kwadratowa `f(x) = x²`, to (niemal) dowolne
 *przyporządkowania*. Ale uwaga, nie należy mylić przyporządkowania *jako takiego* z *procesem
 ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania kwadratu liczby, albo z
-*formułą definiującą* przyporządkowanie elementom jakiegoś jednego zbioru elementów jakiegoś (być
+*formułą* definiującą przyporządkowanie elementom jakiegoś jednego zbioru elementów jakiegoś (być
 może tego samego) zbioru, taką jak `x²`.
 
 <hr>
 
 ### Oznaczanie jako wspólna rola zbiorów, elementów i funkcji w praktyce matematycznej
 
-Z jednej strony, pojęcie zbioru może się wydawać mało interesujące. Z drugiej jednak strony, gdy
-popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
-powiedzieć o zbiorach (i funkcjach) coś głębszego, a mianowicie, że zbiory (i funkcje) są w pewnym
-ważnym sensie *strukturami ekstremalnymi*.
+Z jednej strony, pojęcie zbioru może się więc wydawać mało interesujące. Z drugiej jednak strony,
+gdy popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
+powiedzieć o zbiorach (i elementach i funkcjach) coś głębszego, a mianowicie, że zbiory (i elementy
+i funkcje) są w pewnym ważnym sensie *strukturami ekstremalnymi*.
 
 Na przykład, *liczby naturalne* to nie *tylko* pewna *kolekcja* obiektów, bo to jest *specjalna*
 kolekcja - to kolekcja posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna
@@ -71,7 +71,7 @@ naturalna, dla każdej pary liczb naturalnych istnieje ich unikalna suma, która
 liczba naturalna zero (czyli ta najmniejsza) jest elementem neutralnym ze względu na to działanie, i
 tak dalej. 
 
-A zatem liczby naturalne "w swej mnogości" to nie jest *jakaś tam* kolekcja. Jednak *rozpatrywane
+A zatem liczby naturalne w "*swej* mnogości" to nie jest *jakaś tam* kolekcja. Jednak *rozpatrywane
 jako kolekcja*, to jest *jako zbiór*, liczby naturalne to tylko *jakieś tam* obiekty, które możemy
 wskazywać czy nazywać i orzekać o nich, czy są równe, czy nie, *i nic więcej*. Być może trudno
 zrozumieć tą perspektywę, bo liczby naturalne tak bardzo kojarzą nam się z ich uporządkowaniem i
@@ -215,6 +215,12 @@ języku naturalnym)
 (a tu mamy rozumianą chwilowo *nie-grafowo* \{bo mówimy o `S` *jako o pewnym zbiorze*\} *część grafu
 jako takiego* \{bo *w tym kontekście* to jest też *jednocześnie* teoriomnogościowa część *ogólnej
 struktury grafu* `z : S → P`, `c : S → P`\}).
+
+Widzimy na tym przykładzie, jak dostarczająca przeróżnych dobrze zaprojektowanych języków
+dziedzinowych matematyka pozwala nam zapanować nad mnogością (hm) odmiennych sposobów myślenia,
+które, nie wiedząc o tym, stosujemy jednocześnie rozwiązując nawet relatywnie proste
+problemy. Pozwala nam też te sposoby myślenia badać, poprawiać, przekształcać, łączyć, i
+rozwijać. Prawda, że to już widzimy?
 
 A rolę takiego dajmy na to fragmentu ...
 
