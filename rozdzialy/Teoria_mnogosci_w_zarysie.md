@@ -180,8 +180,10 @@ celowy, ale takie "wykrojenie" języka dziedzinowego, a mówiąc dokładniej *sk
 elementów języka teorii mnogości (tutaj stworzenie czy też wskazanie pewnej konstrukcji złożonej z
 dwóch zbiorów i dwóch równoległych funkcji) *nie* jest tak do końca konstrukcją
 teoriomnogościową. Co prawda tworzymy tą konstrukcję *używając* do tego języka teorii mnogości, ale
-nie robimy tego tak całkiem *w* tym języku. Dzieje się tak właśnie dlatego, że język teorii mnogości
-jest w pewnym sensie maksymalnie odarty ze struktury.
+nie robimy tego tak całkiem *w* tym języku: Każdy z dwóch rozważanych zbiorów z osobna jest
+"zwykłym" obiektem teoriomnogościowym i każda z dwóch rozważanych funkcji też jest takim obiektem,
+ale *para równoległych funkcji* rozumiana *jako jedna struktura* jest czymś więcej. Dzieje się tak
+właśnie dlatego, że język teorii mnogości jest w pewnym sensie "maksymalnie ubogi".
 
 Pozostawiając na razie bez odpowiedzi subtelne pytanie o to, co to dokładnie za dwa języki, jesteśmy
 i tak w stanie zobaczyć, że gdy mamy już te dwa formalno-pojęciowe narzędzia, możemy się między nimi
