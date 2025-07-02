@@ -134,9 +134,9 @@ przykład to oczywiście tylko pewna idealizacja):
 
 W kontekście tego przykładu możemy mówić między innymi o *zbiorze* ludzi `L` i o *strzałkach* (a to
 już *nie* jest pojęcie wbudowane w język teorii mnogości) od każdej (oznaczonej jako element `L`)
-osoby do (jakiegoś unikalnego elementu `L` oznaczającego) rodzica tej osoby. Możemy omawiać
-strukturę uzyskanego albo wyróżnionego albo wstępnie wskazanego albo "przywołanego" w ten sposób
-grafu posługując się narzucającym pewną strukturę albo domagającym się jej "językiem grafowym". Na
+osoby do (jakiegoś elementu `L` oznaczającego) rodzica tej osoby. Możemy omawiać strukturę
+uzyskanego albo wyróżnionego albo wstępnie wskazanego albo "przywołanego" w ten sposób grafu
+posługując się narzucającym pewną strukturę albo domagającym się jej "językiem grafowym". Na
 przykład, możemy mówić o strzałkach na tym grafie rozpatrując te strzałki *jako mini-grafy
 jednostrzałkowe*. Ale możemy też dla pewnych celów traktować ludzi jako obiekty takie jak każde
 inne. Wtedy odrywamy się w naszych rozważaniach od struktury grafowej, to znaczy *nie korzystamy z
