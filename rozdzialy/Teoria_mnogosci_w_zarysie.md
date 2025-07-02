@@ -87,7 +87,7 @@ aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko
 każdemu z nich *przypisać*, dokonując w ten sposób jakby nieredukowalnej aplikacji do czegoś zbioru
 jako pozbawionej ciała, albo takiej "otwartej" funkcji. Innym sposób, który może ułatwić myślenie w
 ten sposób o zbiorach, polega na wyobrażeniu sobie, że każdy zbiór jest jak okrąg zawierający
-pozbawione jakiegokolwiek charakteru *punkty zaczepenia*.
+pozbawione jakiegokolwiek charakteru *punkty zaczepienia*.
 
 Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
