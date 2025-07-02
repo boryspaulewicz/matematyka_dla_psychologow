@@ -109,9 +109,9 @@ innego*.
 
 Z zarysowanej (?)  właśnie perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem
 do tego w praktyce sprowadza się "matematyczność" języka) i zarazem *swobodnego
-wskazywania/oznaczania/wyróżniania*, w taki czy inny sposób, w tym również *całkiem arbitralnie*,
-bez podania żadnego powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i
-zarazem swobodnego mówienia/myślenia o/badania niemal dowolnych, w tym również całkiem arbitralnych,
+wskazywania/oznaczania/wyróżniania*, w taki czy inny sposób, w tym również *arbitralnie*, bez
+podania żadnego powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i
+zarazem swobodnego mówienia/myślenia o/badania niemal dowolnych, w tym również arbitralnych,
 *własności* tych elementów.
 
 **Graf skierowany jako struktura teoriomnogościowa**: Dla porównania, język grafów (skierowanych),
