@@ -19,12 +19,12 @@ pewną wersję teorii mnogości w jednym z późniejszych rozdziałów. Zanim to
 odtąd intensywnie korzystać z półformalnej wersji tej teorii jako ze źródła ważnych przykładów i
 pretekstu do snucia amatorskich filozoficznych rozważań na temat natury matematyki.
 
-*Pozornie*, pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla specjalistów
-zajmujących się zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego,
-bo zbiór to tylko pewna *kolekcja* (jakiś) elementów. Jednak właśnie dzięki temu, że to pojęcie,
-podobnie jak pojęcie typu (i przypisania), jest tak (hm) elementarne, niemal wszędzie albo do czegoś
-się przydaje, albo okazuje się wręcz niezbędne, i dlatego też warto się temu pojęciu przyglądać
-cierpliwie z pewnego oddalenia.
+Mogłoby się wydawać, że pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla
+specjalistów zajmujących się zbiorami, natomiast dla reszty świata to raczej nie jest nic
+szczególnie ciekawego, bo zbiór to tylko pewna *kolekcja* (jakiś) elementów. Jednak właśnie dzięki
+temu, że to pojęcie - podobnie zresztą jak pojęcia *typu* i *przypisania* - jest tak (hm)
+elementarne, niemal wszędzie albo do czegoś się przydaje, albo okazuje się wręcz niezbędne, i
+dlatego też warto się temu pojęciu przyglądać długo i cierpliwie z pewnego oddalenia.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
