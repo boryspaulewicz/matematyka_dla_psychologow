@@ -97,8 +97,8 @@ innego*.
 zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek**: Z zarysowanej (?) właśnie
 perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem do tego w praktyce
 sprowadza się "matematyczność" tego języka) i zarazem *swobodnego
-wskazywania/oznaczania/wyróżniania*, w taki czy sposób, w tym również *całkiem arbitralnie*, bez
-podania powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem
+wskazywania/oznaczania/wyróżniania*, w taki czy inny sposób, w tym również *całkiem arbitralnie*,
+bez podania powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem
 swobodnego mówienia/myślenia o niemal dowolnych, w tym również całkiem arbitralnych, *własnościach*
 tych elementów.
 
