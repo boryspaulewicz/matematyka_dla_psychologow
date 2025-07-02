@@ -54,7 +54,7 @@ jakiegoś (być może tego samego) zbioru.
 
 <hr>
 
-### Oznaczanie jako wspólna rola pojęć zbioru, elementu i funkcji w praktyce matematycznej
+### Oznaczanie jako wspólna rola zbiorów, elementów i funkcji w praktyce matematycznej
 
 Z jednej strony, pojęcie zbioru może się wydawać mało interesujące. Z drugiej jednak strony, gdy
 popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
