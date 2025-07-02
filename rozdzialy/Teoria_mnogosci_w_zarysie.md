@@ -39,18 +39,19 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 `{n ∈ ℕ | Dodatnie n}`
 
 ... bo zapisane *dosłownie* nie zmieściłyby się na żadnej stronie. *Ostatni* przykład **czytamy
-tak**: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ`), że `Dodatnie n` (`{ n ∈ ℕ |
-Dodatnie n}`).
+tak**: Zbiór (`{ ...`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ ...`), że `Dodatnie n` (`{ n
+∈ ℕ | Dodatnie n}`).
 
-Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym zwyczajem -
-zbiory mogą zawierać (niemal[^4]) dowolne elementy, na przykład takie, które nie należą do żadnego
-dającego się łatwo (a może nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory to takie
-(niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*. 
+Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce
+*zwyczajem* - zbiory mogą zawierać (niemal[^4]) dowolne elementy, na przykład takie, które nie
+należą do żadnego dającego się łatwo, a może nawet w ogóle zidentyfikować rodzaju albo typu. A więc
+zbiory to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
-A *funkcje*, takie jak `f(x) = x²` (funkcja kwadratowa), to (niemal) dowolne *przyporządkowania*
-(nie mylić z *procesem ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania
-kwadratu liczby, albo z *formułą definiującą* funkcję) elementom jakiegoś jednego zbioru elementów
-jakiegoś (być może tego samego) zbioru.
+Natomiast *funkcje*, takie jak na przykład funkcja kwadratowa `f(x) = x²`, to (niemal) dowolne
+*przyporządkowania*. Ale uwaga, nie należy mylić przyporządkowania *jako takiego* z *procesem
+ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania kwadratu liczby, albo z
+*formułą definiującą* przyporządkowanie elementom jakiegoś jednego zbioru elementów jakiegoś (być
+może tego samego) zbioru, taką jak `x²`.
 
 <hr>
 
