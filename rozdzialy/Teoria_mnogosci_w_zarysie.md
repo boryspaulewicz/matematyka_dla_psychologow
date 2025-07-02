@@ -172,16 +172,28 @@ Tak oto z języka elemntów/zbiorów/funkcji, który nadaje się do maksymalnie 
 konsekwentnego mówienia niemal o czymkolwiek, *służy* przecież *do mówienia o* (niemal) *dowolnych
 własnościach* (niemal) *dowolnie wyróżnionych elementów*, "wykrawamy" pewien "odpowiednio
 ograniczony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany* do mówienia o dowolnych
-*strukturach grafowych jako takich*. Gdy mamy już te dwa narzędzia/języki, możemy się między nimi
+*strukturach grafowych jako takich*. 
+
+Korzystając z okazji zasygnalizuję już teraz pewien interesujący problem, o którym powiem więcej
+kiedy indziej. Łatwo to przeoczyć, bo ten proces wydaje się być (mam nadzieję) względnie naturalny i
+celowy, ale takie "wykrojenie" języka dziedzinowego, a mówiąc dokładniej *skonstruowanie go* z
+elementów języka teorii mnogości (tutaj stworzenie czy też wskazanie pewnej konstrukcji złożonej z
+dwóch zbiorów i dwóch równoległych funkcji) *nie* jest tak do końca konstrukcją
+teoriomnogościową. Co prawda tworzymy tą konstrukcję *używając* do tego języka teorii mnogości, ale
+nie robimy tego tak całkiem *w* tym języku. Dzieje się tak właśnie dlatego, że język teorii mnogości
+jest w pewnym sensie maksymalnie odarty ze struktury.
+
+Pozostawiając na razie bez odpowiedzi subtelne pytanie o to, co to dokładnie za dwa języki, jesteśmy
+i tak w stanie zobaczyć, że gdy mamy już te dwa formalno-pojęciowe narzędzia, możemy się między nimi
 swobodnie i konsekwentnie przełączać, czasami biorąc pod uwagę (*respektując*) grafowość czegoś -
 gdy na przykład rozpatrujemy strzałki albo ścieżki *jako strzałki* i *jako ścieżki* odpowiednio - a
 czasem tą grafowość ignorując, a więc mówiąc o de facto strzałkach i punktach jako o *bliżej
-nieokreślonego rodzaju* elementach, to jest takich jak wszystkie inne.
+nieokreślonego rodzaju* elementach, to jest takich jak wszystkie inne (dowolnie wyróżnialne).
 
 I jest jasne, że zarówno w naszym wewnątrz, jak i między-osobowym komunikowaniu się/myśleniu
 potrzebujemy *obydwu* tych języków/punktów widzenia/sposobów myślenia/metod badania teoretycznego, i
 że potrzebujemy te narzędzia swobodnie wymieniać i "ze sobą przeplatać". Dzięki temu na przykład
-"rzucił nam się w oczy" fakt (nomen omen), że w pojęciu bycia dzieckiem (i w dualnym pojęciu bycia
+"rzucił nam się w oczy" (nomen omen) fakt, że w pojęciu bycia dzieckiem (i w dualnym pojęciu bycia
 rodzicem) chodzi między innymi o pewne *abstrakcyjne fakty*. Posługując się jednocześnie językami
 teorii mnogości i grafów do mówienia o *relacji* bycia rodzicem/dzieckiem jesteśmy w stanie zarazem
 konsekwentnie i swobodnie mówić o tych *faktach* ...
@@ -193,8 +205,8 @@ konsekwentnie i swobodnie mówić o tych *faktach* ...
 (tu mamy *wyjściowy sens*, rozumiany jako odniesienie do rzeczywistości pozajęzykowej)
 
 3. ... *zbioru* `S`.  
-(a tu mamy *nie-grafowo rozumianą* \{bo mówimy o `S` *jako o pewnym zbiorze*\} *część grafu jako
-takiego* \{bo *w tym kontekście* to jest też *jednocześnie* teoriomnogościowa część *ogólnej
+(a tu mamy rozumianą chwilowo *nie-grafowo* \{bo mówimy o `S` *jako o pewnym zbiorze*\} *część grafu
+jako takiego* \{bo *w tym kontekście* to jest też *jednocześnie* teoriomnogościowa część *ogólnej
 struktury grafu* `z : S → P`, `c : S → P`\}).
 
 A rolę takiego dajmy na to fragmentu ...
