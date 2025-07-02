@@ -1,7 +1,7 @@
 ## Teoria mnogości w za[rysie](https://pl.wikipedia.org/wiki/Ry%C5%9B)
 
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był
-język teorii mnogości, a konkretnie język teorii
+język teorii mnogości (czyli zbiorów), a konkretnie język teorii
 [Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla). Nawet, jeżeli to wiesz,
 to i tak na wszelki wypadek przytoczę tutaj odpowiedni
 [cytat]((https://pl.wikipedia.org/wiki/Teoria_mnogo%C5%9Bci)) z Wikipedii (2024-12-29):
@@ -13,17 +13,18 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni
 > źródłem modeli różnych teorii formalnych.
 
 Wolałbym chyba "w ten sposób" zamiast "tak" w ostatnim zdaniu, no i zamiast "zredukowania" wolałbym
-na przykład "implementację", bo chodzi tu przecież o *modele*, ale trudno, jest jak jest. Nie
-będziemy się teraz przyglądać aksjomatom teorii *ZF*, ponieważ sami sobie *zrobimy* - ze strzałek i
-funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów, ale zanim to nastąpi,
-zacznę odtąd intensywnie *korzystać* z półformalnej wersji tej teorii jako ze źródła ważnych
-przykładów.
+na przykład "implementację", chodzi tu przecież o *modele*, ale trudno, jest jak jest. Nie będziemy
+się teraz przyglądać aksjomatom teorii *ZF*, ponieważ sami sobie *zrobimy* - ze strzałek i funkcji -
+pewną wersję teorii mnogości w jednym z późniejszych rozdziałów. Zanim to jednak nastąpi, zacznę
+odtąd intensywnie korzystać z półformalnej wersji tej teorii jako ze źródła ważnych przykładów i
+pretekstu do snucia amatorskich filozoficznych rozważań na temat natury matematyki.
 
-Pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla specjalistów zajmujących się
-zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego, bo zbiór to nic
-innego jak pewna *kolekcja* (jakiś) elementów czy obiektów. Jednak właśnie dzięki temu, że to
-pojęcie, podobnie jak pojęcie typu (i przypisania), jest tak elementarne, niemal wszędzie albo do
-czegoś się przydaje, albo okazuje się wręcz niezbędne.
+*Pozornie*, pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla specjalistów
+zajmujących się zbiorami, natomiast dla reszty świata to raczej nie jest nic szczególnie ciekawego,
+bo zbiór to tylko pewna *kolekcja* (jakiś) elementów. Jednak właśnie dzięki temu, że to pojęcie,
+podobnie jak pojęcie typu (i przypisania), jest tak (hm) elementarne, niemal wszędzie albo do czegoś
+się przydaje, albo okazuje się wręcz niezbędne, i dlatego też warto się temu pojęciu przyglądać
+cierpliwie z pewnego oddalenia.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
@@ -37,21 +38,26 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 
 `{n ∈ ℕ | Dodatnie n}`
 
-... bo zapisane dosłownie nie zmieściłyby się na żadnej stronie. *Ostatni* przykład **czytamy tak**:
-Zbiór (`{`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ`), że `Dodatnie n` (`{ n ∈ ℕ | Dodatnie
-n}`). 
+... bo zapisane *dosłownie* nie zmieściłyby się na żadnej stronie. *Ostatni* przykład **czytamy
+tak**: Zbiór (`{`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ`), że `Dodatnie n` (`{ n ∈ ℕ |
+Dodatnie n}`).
 
 Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym zwyczajem -
 zbiory mogą zawierać (niemal[^4]) dowolne elementy, na przykład takie, które nie należą do żadnego
 dającego się łatwo (a może nawet w ogóle) zidentyfikować rodzaju albo typu. A więc zbiory to takie
-(niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
+(niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*. 
+
+A *funkcje*, takie jak `f(x) = x²` (funkcja kwadratowa), to (niemal) dowolne *przyporządkowania*
+(nie mylić z *procesem ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania
+kwadratu liczby, albo z *formułą definiującą* funkcję) elementom jakiegoś jednego zbioru elementów
+jakiegoś (być może tego samego) zbioru.
 
 <hr>
 
 **Na te uwagi być może jest jeszcze trochę za wcześnie**: Z jednej strony, pojęcie zbioru może się
 więc wydawać mało interesujące. Z drugiej jednak strony, gdy popatrzymy na zbiory w kontekście
-*innych* matematycznych struktur, będziemy mogli powiedzieć o nich coś głębszego, a mianowicie, że
-zbiory są w pewnym sensie *strukturami ekstremalnymi*. 
+*innych* rodzajów matematycznych struktur, będziemy mogli powiedzieć o zbiorach (i funkcjach) coś
+głębszego, a mianowicie, że zbiory (i funkcje) są w pewnym sensie *strukturami ekstremalnymi*.
 
 Na przykład, *liczby naturalne* to nie *tylko* pewna *kolekcja* obiektów, bo to jest *specjalna*
 kolekcja - to kolekcja posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna
@@ -60,86 +66,108 @@ najmniejsza liczba naturalna, dla każdej liczby naturalnej istnieje unikalna na
 naturalna, dla każdej liczby naturalnej różnej od zera istnieje unikalna poprzednia liczba
 naturalna, dla każdej pary liczb naturalnych istnieje ich unikalna suma, która ma tą własność, że
 liczba naturalna zero (czyli ta najmniejsza) jest elementem neutralnym ze względu na to działanie, i
-tak dalej. No więc to ani trochę nie jest *jakaś tam* kolekcja.
+tak dalej. 
 
-Jednak *rozpatrywane jako kolekcja*, albo *jako zbiór*, liczby naturalne to tylko *jakieś tam*
-obiekty, które możemy wskazywać czy nazywać i orzekać o nich, czy są równe, czy nie, *i nic
-więcej*. Być może trudno zrozumieć tą perspektywę, bo liczby naturalne tak bardzo kojarzą nam się z
-ich uporządkowaniem i pewnymi operacjami, takimi jak dodawanie czy mnożenie, ale żeby zrozumieć czym
-*w istocie* są zbiory *jako zbiory* musimy tymczasowo oderwać się od tych skojarzeń, albo
-przynajmniej nauczyć się *mówić* tak, jakbyśmy się od takich skojarzeń oderwali. 
+A zatem liczby naturalne "w swej mnogości" to nie jest *jakaś tam* kolekcja. Jednak *rozpatrywane
+jako kolekcja*, to jest *jako zbiór*, liczby naturalne to tylko *jakieś tam* obiekty, które możemy
+wskazywać czy nazywać i orzekać o nich, czy są równe, czy nie, *i nic więcej*. Być może trudno
+zrozumieć tą perspektywę, bo liczby naturalne tak bardzo kojarzą nam się z ich uporządkowaniem i
+pewnymi operacjami, takimi jak dodawanie czy mnożenie, ale żeby zrozumieć czym *w istocie* są zbiory
+*jako zbiory* musimy tymczasowo oderwać się od tych skojarzeń, albo przynajmniej nauczyć się *mówić*
+tak, jakbyśmy się od takich skojarzeń oderwali.
 
 Gdy mówimy o jakimkolwiek zbiorze *jako zbiorze*, to mówimy *tylko* o pozbawionej jakiejkolwiek
 struktury innej niż struktura tożsamościowa kolekcji elementów. W tym sensie wskazany albo wyrażony
-w piśmie zbiór jako taki jest trochę jak częściowa definicja funkcji, której parametry mają bliżej
-nieokreślone typy i nie ma znaczenia, w jakiej kolejności są zapisane. Ta prawie-funkcja nic z tymi
-parametrami nie robi, bo te parametry służą tylko do tego, żeby coś każdemu z nich przypisać,
-dokonując w ten sposób jakby nieewaluowalnej aplikacji zbioru jako pozbawionej ciała, albo
-"otwartej" funkcji. Może spróbuję wyjaśnić to na konkretnym przykładzie.
+w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji*, której parametry mają bliżej
+nieokreślone typy i nie ma znaczenia, w jakiej kolejności te parametry są zapisane. Ta
+prawie-funkcja nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
+każdemu z nich *przypisać*, dokonując w ten sposób jakby nieredukowalnej aplikacji do czegoś zbioru
+jako pozbawionej ciała, albo takiej "otwartej" funkcji. 
 
-Na przykład, pisząc coś takiego ...
+Może spróbuję wyjaśnić o co mi tutaj chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
 `Z := {1, 20, *, X, -3.4}`
 
-... "wchodzimy" razem z odbiorcą tego tekstu (którym możemy być my sami w przyszłości) "do środka"
-pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o nazwie `Z`, przez które
-"widzimy" to ...
+... "wchodzimy" razem z (którym możemy być my sami w przyszłości) odbiorcą tego formalnego tekstu
+"do środka" pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o nazwie `Z`, przez
+które można powiedzieć, że "widzimy" to ...
 
 1, 20, *, X, -3.4
 
 ... i jednocześnie *wyrażamy* to: Odtąd aż do odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza
 albo to, co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę* 1, albo liczbę 20, albo to, co w
-tym kontekście oznacza `*` (to może być na przykład tylko ta gwiazka, jako w pewien sposób
+tym kontekście oznacza `*` (to może być na przykład sama ta gwiazka, jako w pewien sposób
 "samooznaczający się" symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę -3.4, *i nic
 innego*.
 
 **Zbiory i ich elementy jako narzędzia językowe i pojęciowe służące do maksymalnie swobodnego i
 zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek**: Z zarysowanej (?) właśnie
 perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem do tego w praktyce
-sprowadza się "matematyczność" tego języka) i zarazem *swobodnego
-wskazywania/oznaczania/wyróżniania*, w taki czy inny sposób, w tym również *całkiem arbitralnie*,
-bez podania powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem
-swobodnego mówienia/myślenia o niemal dowolnych, w tym również całkiem arbitralnych, *własnościach*
-tych elementów.
+sprowadza się "matematyczność" języka) i zarazem *swobodnego wskazywania/oznaczania/wyróżniania*, w
+taki czy inny sposób, w tym również *całkiem arbitralnie*, bez podania żadnego powodu czy zasady,
+wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem swobodnego mówienia/myślenia
+o/badania niemal dowolnych, w tym również całkiem arbitralnych, *własności* tych elementów:
+
+*Element to cokolwiek, co zostało wyróżnione na potrzeby rozważań. Zbiór to pewne w y r ó ż n i e n
+i e, czyli pewna mnogość elementów. Funkcją elementów i zbiorów jest dowolne oznaczanie dowolnych
+elementów (sic!). Każda funkcja jest pewnym oznaczeniem. A więc zbiór, element i funkcja to trzy
+aspekty tego samego pojęcia swobodnego formalnego oznaczenia.*
 
 Dla porównania, język grafów (skierowanych), którego zaczęliśmy już używać, służy, a raczej *ma
-służyć* (bo - tak jak wszystkiego innego - można go przecież używać jak tylko się chce) do
-konsekwentnie swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mówić, że
-mają jakieś (maksymalnie elastycznie rozumiane) *źródła* i *cele*, i o takich obiektach, o których
-da się konsekwentnie mówić, że są jakimiś źródłami albo celami czegoś. Możemy się przekonać, że
-języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną *strukturę*, albo "domagają
-się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej struktury, albo domaga się
-struktury w pewnym sensie minimalnej, rozważając taki oto przykład konsekwentnego mówienia czy
-myślenia o czymś na dwa różne sposoby (ten przykład to oczywiście pewna idealizacja):
+służyć* (bo - tak jak wszystkiego innego - można go przecież używać jak tylko się chce, w tym
+również całkiem bez sensu) do konsekwentnego i zarazem swobodnego mówienia o dowolnych obiektach, o
+których da się konsekwentnie mówić, że mają jakieś ...
+
+1. ... (maksymalnie elastycznie rozumiane) *źródła* i *cele*, ...
+
+2. ... i o takich obiektach, o których da się konsekwentnie mówić, że są jakimiś źródłami albo
+celami czegoś. 
+
+Możemy się przekonać, że języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną
+*strukturę*, albo "domagają się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej
+struktury, albo "domaga się" struktury w pewnym sensie minimalnej, rozważając taki oto przykład
+konsekwentnego mówienia czy myślenia o czymś na dwa różne sposoby (ten przykład to oczywiście tylko
+pewna idealizacja):
 
 *Każdy człowiek ma parę rodziców, którzy też są ludźmi*.
 
-W kontekście tego przykładu możemy mówić na przykład o *zbiorze* ludzi `L` i o *strzałkach* (a to
-już *nie* jest pojęcie "wbudowane" w język teorii mnogości) od każdej osoby do rodzica tej
-osoby. Możemy omawiać strukturę uzyskanego albo wyróżnionego albo wstępnie wskazanego albo
-"przywołanego" w ten sposób grafu posługując się narzucającym pewną strukturę albo domagającym się
-jej "językiem grafowym". Na przykład, możemy mówić o strzałkach na tym grafie *rozpatrując te
-strzałki jako mini-grafy jednostrzałkowe*. Ale możemy też dla pewnych celów traktować ludzi jako
-obiekty takie jak każde inne. Wtedy "oderwiemy" się w naszych rozważaniach od struktury grafowej, to
-znaczy nie będziemy ani korzystali z faktu, że każdy człowiek ma parę rodziców, ani nie będziemy
-tego faktu kwestionowali.
+W kontekście tego przykładu możemy mówić między innymi o *zbiorze* ludzi `L` i o *strzałkach* (a to
+już *nie* jest pojęcie wbudowane w język teorii mnogości) od każdej (oznaczonej jako element `L`)
+osoby do (jakiegoś unikalnego elementu `L` oznaczającego) rodzica tej osoby. Możemy omawiać
+strukturę uzyskanego albo wyróżnionego albo wstępnie wskazanego albo "przywołanego" w ten sposób
+grafu posługując się narzucającym pewną strukturę albo domagającym się jej "językiem grafowym". Na
+przykład, możemy mówić o strzałkach na tym grafie rozpatrując te strzałki *jako mini-grafy
+jednostrzałkowe*. Ale możemy też dla pewnych celów traktować ludzi jako obiekty takie jak każde
+inne. Wtedy odrywamy się w naszych rozważaniach od struktury grafowej, to znaczy *nie korzystamy z
+faktu*, że każdy człowiek ma jakiś rodziców, ani tego faktu nie kwestionujemy.
 
 Co więcej, dzięki jego "minimalnej strukturalności", język teorii mnogości nadaje się do pewnego
-stopnia (bo język teorii kategorii jest w tym w pewnym sensie lepszy) do mówienia o *byciu grafem*!
-Graf (skierowany) to przecież *strzałki wychodzące z jakiś punktów i wchodzące do jakiś punktów*, a
-więc to dowolna kolekcja - czyli *zbiór* - *strzałek*, to znaczy jakichkolwiek rzeczy, obiektów, czy
-bytów (albo po prostu *elementów*), które "mają", w znaczeniu *są traktowane jako mające*, jakieś
-*swoje źródła* i *swoje cele*. *Źródła* i *cele* to *własności* strzałek, a więc pewne
-*funkcje*. Czym zatem jest graf (skierowany) *jako taki*? 
+stopnia (bo język teorii kategorii jest w tym w pewnym sensie lepszy, dzięki temu, że jest *mniej*
+elastyczny) do mówienia o *byciu grafem*! *Graf* (skierowany) to przecież *strzałki wychodzące z
+jakiś punktów i wchodzące do jakiś punktów*, a więc to (jest funkcjonalnie to samo co) dowolna
+kolekcja - czyli *zbiór* - *strzałek*, to znaczy jakichkolwiek rzeczy, obiektów, czy bytów (albo po
+prostu *elementów*), które "mają", w znaczeniu *są traktowane jako mające*, jakieś *swoje źródła* i
+*swoje cele*. *Źródła* i *cele* to (jedyne) *własności* strzałek (jako strzałek), a więc to pewne
+*funkcje*.
 
-Z perspektywy teoriomnogościowej graf (skierowany) jest *dowolną parą zbiorów*, które możemy
-oznaczyć jako `S` (jak *s*trzałki) i `P` (jak *p*unkty), i parą *dowolnych funkcji* *z* `S` *do*
-`P`, które możemy oznaczyć jako `z` i `c` (jak *z*ródła i *c*ele). W naszym przykładzie `S := L =:
-P` (dla zabawy odwróciłem tu symbol definiowania), a każda strzałka `s ∈ S` to pewien *fakt*,
-dotyczący pewnej pary ludzi `l₁, l₂ ∈ L`, polegający na tym, że `z(s) = l₁` i `t(s) = l₂`, czyli że
-`l₁` jest dzieckiem `l₂`.
+Czym zatem jest graf (skierowany) *jako taki*? Z perspektywy (w języku) teorii mnogości graf
+(skierowany) jest *dowolną parą zbiorów*, które możemy oznaczyć jako `S` (jak *s*trzałki) i `P` (jak
+*p*unkty), i parą *dowolnych funkcji* *z* `S` *do* `P`, które możemy oznaczyć jako `z` i `c` (jak
+*z*ródło i *c*el odpowiednio). W naszym przykładzie `S := L =: P` (dla zabawy odwróciłem tu symbol
+definiowania), a każda strzałka `s ∈ S` to pewien *fakt*, dotyczący pewnej pary ludzi `l₁, l₂ ∈ L`,
+polegający na tym, że `z(s) = l₁` i `t(s) = l₂`, czyli że `l₁` jest dzieckiem `l₂`, albo równoważnie
+(bo dualnie), że `l₂` jest rodzicem `l₁`.
 
-W ten sposób z języka zbiorów i funkcji, który nadaje się do maksymalnie swobodnego i zarazem
+**Rysunek 1**: Wróć teraz proszę do którego chcesz diagramu, który (mam nadzieję) narysowałaś
+czytając poprzedni rozdział, i zapisz go jako wewnętrzną strukturę funkcji `z` i `c`. To znaczy,
+narysuj na górze okrąg zbioru `S` i umieść w nim strzałki diagramu *jako elementy tego zbioru*, a
+poniżej narysuj okrąg zbioru `P` i umieść w nim punkty zaczepienia strzałek tego diagramu jako
+elementy zbioru `P`. Na koniec nanieś strzałki `z` i strzałki `c` z elementów `S` do `P` i oznacz je
+literami `z` i `c`. Czy widzisz, że w ten sposób wyraziłaś dokładnie to samo, co wyraża diagram
+wyjściowy? A czy widzisz, że *ten* diagram mogłabyś zakodować w ten sam sposób, uzyskując jeszcze
+inny diagram?
+
+Tak oto z języka zbiorów/funkcji, który nadaje się do maksymalnie swobodnego i zarazem
 konsekwentnego mówienia niemal o czymkolwiek, *służy* przecież *do mówienia o* (niemal) *dowolnych
 własnościach* (niemal) *dowolnie wyróżnionych elementów*, "wykrawamy" pewien "odpowiednio
 ograniczony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany* do mówienia o dowolnych
@@ -149,12 +177,13 @@ gdy na przykład rozpatrujemy strzałki albo ścieżki *jako strzałki* i *jako 
 czasem tą grafowość ignorując, a więc mówiąc o de facto strzałkach i punktach jako o *bliżej
 nieokreślonego rodzaju* elementach, to jest takich jak wszystkie inne.
 
-I jest jasne, że zarówno w naszym wewnątrz, jak i między-osobowym komunikowaniu się/myśleniu często
-potrzebujemy obydwu tych punktów widzenia/sposobów myślenia/badania teoretycznego, i że potrzebujemy
-te narzędzia swobodnie wymieniać i "ze sobą przeplatać". Dzięki temu na przykład "rzucił nam się w
-oczy" fakt, że w pojęciu bycia dzieckiem (i w dualnym pojęciu bycia rodzicem) chodzi między innymi o
-pewne *abstrakcyjne fakty*: Posługując się jednocześnie językami teorii mnogości i grafów jesteśmy w
-stanie konsekwentnie i swobodnie mówić o tych *faktach* ...
+I jest jasne, że zarówno w naszym wewnątrz, jak i między-osobowym komunikowaniu się/myśleniu
+potrzebujemy *obydwu* tych punktów widzenia/sposobów myślenia/badania teoretycznego, i że
+potrzebujemy te narzędzia swobodnie wymieniać i "ze sobą przeplatać". Dzięki temu na przykład
+"rzucił nam się w oczy" fakt (nomen omen), że w pojęciu bycia dzieckiem (i w dualnym pojęciu bycia
+rodzicem) chodzi między innymi o pewne *abstrakcyjne fakty*. Posługując się jednocześnie językami
+teorii mnogości i grafów do mówienia o *relacji* bycia rodzicem/dzieckiem jesteśmy w stanie zarazem
+konsekwentnie i swobodnie mówić o tych *faktach* ...
 
 1. ... jako o *elementach* ...  
 (tu mamy *wy-abstrahowanie* pojęcia faktu)
@@ -164,47 +193,49 @@ stanie konsekwentnie i swobodnie mówić o tych *faktach* ...
 
 3. ... *zbioru* `S`.  
 (a tu mamy *nie-grafowo rozumianą* \{bo mówimy o `S` *jako o pewnym zbiorze*\} *część grafu jako
-takiego* \{bo *w tym kontekście* to jest *jednocześnie* teoriomnogościowa część *ogólnej struktury
-grafu* `z : S → P`, `c : S → P`\}).
+takiego* \{bo *w tym kontekście* to jest też *jednocześnie* teoriomnogościowa część *ogólnej
+struktury grafu* `z : S → P`, `c : S → P`\}).
 
-A rolę takiego fragmentu ...
+A rolę takiego dajmy na to fragmentu ...
 
 *Niech ℕ będzie zbiorem liczb naturalnych. Jeżeli n ∈ ℕ i m ∈ ℕ, to n + m = m + n, ponieważ ...*
 
 ..  można objaśnić tak: Pisząc tak do Ciebie próbuję Ci lub w Tobie *zainstalować* albo *wgrać*
-pewną szczególną językową i pojęciową *procedurę*, to jest dowód pewnego twierdzenia (o
-przemienności dodawania liczb naturalnych). Cały fragment przed słowem "ponieważ" ma więc pełnić
-taką samą rolę, co część definicji funkcji w Leanie, która poprzedza symbol definiowania `:=`.
+pewną szczególną językową i pojęciową *procedurę*, czyli pewne *narzędzie*, które w tym wypadku jest
+akurat dowodem (twierdzenia o przemienności dodawania liczb naturalnych). Cały fragment przed słowem
+"ponieważ" ma więc pełnić taką samą rolę, co część definicji funkcji w Leanie, która poprzedza
+symbol definiowania `:=`.
 
 Zastąpiony tutaj wielokropkiem dowód, który po przyswojeniu go przez Ciebie ma stać się ciałem tego
 twierdzenia jako funkcji zrealizowanej w Twoim ciele, działa poprawnie dla/dotyczy tylko określonych
 rzeczy czy obiektów, to jest takich obiektów, które nauczyliśmy się (wystarczająco konsekwentnie)
 nazywać liczbami naturalnymi. Z tego dowodu, odkąd go *zaakceptowałaś jako dowód*, korzystasz
-zresztą też tak samo jak Lean, bo *używając* przemienności dodawania ani nie przypominasz sobie tego
+zresztą tak samo jak Lean, bo *używając* przemienności dodawania ani nie przypominasz sobie tego
 dowodu, ani tym bardziej go nie stosujesz do wyprowadzenia wniosku na temat konkretnych par liczb
-naturalnych - wystarczy Ci *pamiętać, że* to zdanie jest uniwersalnie prawdziwe. Być może nawet nie
-poznałaś dotąd dobrze dowodu tego twierdzenia i używając go korzystasz z *pamięci wspólnoty*, do
-której należysz i której w takich sprawach ufasz.
+naturalnych. Zamiast tego wystarczy Ci *pamiętać, że* to zdanie jest uniwersalnie prawdziwe. Być
+może nawet nie poznałaś dotąd dobrze dowodu tego twierdzenia i używając go korzystasz z *pamięci
+wspólnoty*, do której należysz i której w takich sprawach ufasz.
 
 Główna rola, a więc sens, terminu technicznego *zbiór* sprowadza się w tego rodzaju komunikacyjnej
 (w)grze do określania, jakie pojęciowe albo fizyczne wejścia może przetwarzać ta zapisana częściowo
-nieformalnie funkcja do typu zdaniowego, czyli ten dowód. Tutaj różnica między *zbiorami* i *typami*
-jest więc kosmetyczna, a w innych sytuacjach, w których różnica nie wydaje już całkiem kosmetyczna,
-możemy ją skutecznie zatrzeć, bo całą matematykę da się zakodować w Leanie.
+nieformalnie funkcja (sic!) do typu zdaniowego, czyli ten dowód. Tutaj różnica między *zbiorami* i
+*typami* jest więc kosmetyczna, a w innych sytuacjach, w których ta różnica nie wydaje już całkiem
+kosmetyczna, możemy ją skutecznie zatrzeć, bowiem *całą* matematykę da się zakodować w Leanie.
 
-Z tej perspektywy *zbiory jako takie są czymś, co służy do swobodnego oznaczania wszystkiego, co da
-się oznaczać konsekwentnie*. Gdy, *przyjmując tą interpretację pojęcia zbioru*, mówimy *o zbiorze*
-liczb naturalnych, a nie *o liczbach naturalnych*, mówimy o pewnym *oznaczeniu liczb naturalnych
-jako luźnej kolekcji*. Wskazywane czy oznaczane obiekty nie tracą wtedy oczywiście swoich
-właściwości, chodzi tylko o to, że w ten sposób możemy je wskazywać czy oznaczać również
+Kiedy *przyjmując tą interpretację pojęcia zbioru* mówimy o *zbiorze* liczb naturalnych, a nie *o
+liczbach naturalnych*, mówimy o pewnym *oznaczeniu* - a więc też o pewnej *funkcji do* - liczb
+naturalnych *jako luźnej kolekcji*. Same wskazywane czy oznaczane obiekty nie tracą wtedy oczywiście
+swoich właściwości, chodzi tylko o to, że w ten sposób możemy je wskazywać czy oznaczać również
 *niezależnie od tych właściwości*. Tak rozumiane zbiory są zatem "strukturami minimalnie
-ustrukturyzowanymi" (bo każda kolekcja to jednak jest *jakaś* struktura), albo strukturami
-*granicznymi* w tym znaczeniu, że pozbawionymi jakiejkolwiek "nietrywialnej", to jest wymagającej
-czegoś więcej niż samo *swobodne wyróżnianie i oznaczanie jakiś elementów*, struktury.
+ustrukturyzowanymi" (bo każda kolekcja mimo wszystko jest pewną strukturą), albo strukturami
+"granicznymi" czy też "ekstremalnymi" w tym znaczeniu, że pozbawionymi jakiejkolwiek "nietrywialnej"
+struktury językowo/pojęciowej, to jest struktury umożliwiającej coś więcej, niż samo swobodne
+wyróżnianie i oznaczanie, czyli umożliwjącej coś więcej, niż *wykonanie najprostszego i najbardziej
+podstawowego zadania, do wykonania którego używamy symboli jako symboli*.
 
 <hr>
 
-**Rysunek 1. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
+**Rysunek 2. Prototypowy przykład funkcji**: Jak już wiesz, można powiedzieć, że funkcja to pewien
 "obiekt", który przyporządkowuje każdemu elementowi swojej dziedziny dokładnie jeden element swojej
 przeciwdziedziny. Żeby mieć jasny obraz sytuacji, upewnij się, że masz nad sobą jakieś źródło
 światła, przygotuj proszę czystą kartkę i z lewej strony `Narysus okrag` o średnicy kroku. O krok w
@@ -301,7 +332,7 @@ przyporządkowaniem*.
 **Kilka sposobów myślenia o funkcjach teoriomnogościowych**: Jak zawsze, warto czasami pomyśleć o
 tym samym na kilka różnych sposobów, a do tego bardzo przydają się analogie i bardzo przydaje się
 bardziej swobodne używanie słów. O teoriomnogościowych funkcjach można myśleć jako o abstrakcyjnych
-*własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim pierwszym rysunku każdy
+*własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim drugim rysunku każdy
 element zbioru `X` ma określoną `f`-własność `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię i
 dokładnie jedną datę urodzenia, a więc te własności to *funkcje osób*. O funkcjach można również
 myśleć jako o *doskonałych pomiarach* albo *wartościach obserwowanych* pewnych właściwości czy
@@ -321,13 +352,13 @@ skończenie wiele elementów. Mówiąc dokładniej, będziemy opisywać świat (
 którym istnieją tylko zbiory skończone i w którym występują wszystkie możliwe funkcje między takimi
 zbiorami. Na początek omówimy kilka ważnych przykładów.
 
-**Rysunek 2. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
+**Rysunek 3. Funkcje do zbioru jednoelementowego**: `Narysuj` proszę dwa zbiory jako okręgi, obok
 siebie, i w lewym narysuj kilka kropek, które będą oznaczały (jakieś) elementy, a w prawym *tylko
 jedną* kropkę. Zbiory jednoelementowe nazywamy również *zbiorami jednostkowymi* albo
 *singletonami*. Czy widzisz, że istnieje *dokładnie jedna* funkcja ze zbioru lewego do prawego?
 Narysuj proszę tą funkcję.
 
-**Rysunek 3. Funkcje ze zbioru pustego**: A teraz `Narysuj` proszę obok siebie dwa zbiory, `X` i
+**Rysunek 4. Funkcje ze zbioru pustego**: A teraz `Narysuj` proszę obok siebie dwa zbiory, `X` i
 `Y`, ale takie, że w lewym *nic* nie będzie, a w prawym będą na przykład dwa elementy. Jak już
 wiesz, żeby "coś" było funkcją, musi przyporządkowywać każdemu elementowi dziedziny dokładnie jeden
 element przeciwdziedziny. Jak myślisz, czy może istnieć funkcja z `X` do `Y`? Wydawałoby się, że
@@ -371,7 +402,7 @@ oznacz ją literą `p`, a pod spodem zapisz komentarz: *Dla każdego zbioru* `Y`
 jedna funkcja ze zbioru pustego do* `Y`. *Może i trudno się z tym pogodzić, ale to tylko konwencja
 (dotycząca funkcji), którą przyjmujemy dlatego, że okazuje się wygodna w praktyce.*[^5]
 
-**Rysunek 4. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
+**Rysunek 5. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id` spełniającą warunek `Id(x) =
 x`.  Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo, jak powiedziałem, to jest
 *warunek*, który ta funkcja ma spełniać, ale to *Ty* ją zdefiniujesz (rysując). Zastanów się proszę
@@ -389,7 +420,7 @@ funkcją identycznościową?
 
 <hr>
 
-**Rysunek 5. Przykład injekcji[^2]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
+**Rysunek 6. Przykład injekcji[^2]**: `Narysuj` proszę obok siebie dwuelementowy zbiór `X` i
 czteroelementowy zbiór `Y` i narysuj funkcję, która nie "skleja" żadnej pary elementów `X`, to jest
 nie posyła żadnych dwóch `x`-ów do tego samego `y`-a, i oznacz ją literą `i`. Takie funkcje nazywamy
 *injekcjami* albo funkcjami *różnowartościowymi*. Czy widzisz, że aby istniała jakakolwiek injekcja,
@@ -400,7 +431,7 @@ podkreślić, otocz proszę ten podzbiór `Y` [linią](https://pl.wikipedia.org/
 przerywaną. `Napisz` też pod rysunkiem komentarz wyrażający krótko to, co w tym momencie rozumiesz
 na temat injekcji.
 
-**Rysunek 6. Przykład surjekcji**: `Narysuj` proszę funkcję `s` z trójelementowego zbioru `X` do
+**Rysunek 7. Przykład surjekcji**: `Narysuj` proszę funkcję `s` z trójelementowego zbioru `X` do
 dwuelementowego zbioru `Y`, tak, żeby każdy `y` "dostał strzałkę". Takie funkcje nazywamy
 *surjekcjami* albo funkcjami [*na*](https://en.wiktionary.org/wiki/sur#French). Czy widzisz, że
 *każda* surjekcja jest *podziałem całej dziedziny* na rozłączne kategorie albo podzbiory, których
@@ -408,7 +439,7 @@ dwuelementowego zbioru `Y`, tak, żeby każdy `y` "dostał strzałkę". Takie fu
 przerywanymi. `Podpisz` też rysunek komentarzem podsumowującym Twoimi słowami to, co tu
 przeczytałaś.
 
-**Rysunek 7. Przykład bijekcji**: *Bijekcjami* nazywamy takie funkcje, które są jednocześnie
+**Rysunek 8. Przykład bijekcji**: *Bijekcjami* nazywamy takie funkcje, które są jednocześnie
 injekcjami i surjekcjami, czyli takie, które są różnowartościowe i na, czyli takie, które nie
 sklejają żadnych elementów swojej dziedziny i trafiają we wszystkie elementy swojej
 przeciwdziedziny. `Narysuj` proszę bijekcję z czteroelementowego zbioru `X` do czteroelementowego
@@ -472,7 +503,7 @@ nie chciałem dodawać dużych kwantyfiktorów z obawy, że ten akapit może by�
 że w tym zadaniu ważną rolę odgrywają własności bycia injekcją, ale nie surjekcją i bycia surjekcją,
 ale nie injekcją.
 
-**Rysunek 8. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
+**Rysunek 9. Składanie funkcji teoriomnogościowych**: Na koniec `Narysuj` jeszcze proszę trzy
 zbiory, `X`, `Y` i `Z` takie, żeby pierwszy miał trzy elementy, drugi powiedzmy cztery i trzeci może
 też cztery. Zdefiniuj rysując strzałki jakieś funkcje `f : X → Y` i `g : Y → Z`. Pod spodem zapisz
 komentarz: *Teoriomnogościowe złożenie funkcji* `f` *i* `g` *to taka funkcja* `g ∘ f` *(zapisujemy
@@ -668,7 +699,7 @@ Na przykład, jeżeli tak jak wcześniej `X = {1, 2, 3}` i `Y = {a, b}`, to nie 
 prostu stwierdzić, że `X ⨿ Y = {1, 2, 3, a, b}`. Suma rozłączna to również pewne (niewybredne)
 *działanie na zbiorach*, które zapisujemy między innymi za pomocą symbolu `⨿`.
 
-**Rysunek 8**: Narysuj proszę te dwa zbiory a między nimi ich sumę rozłączną w taki sposób, żeby
+**Rysunek 9**: Narysuj proszę te dwa zbiory a między nimi ich sumę rozłączną w taki sposób, żeby
 zarówno z każdego elementu zbioru `X` jak i z każdego elementu zbioru `Y` wychodziły strzałki do ich
 kopii w sumie rozłącznej. Otocz te dwie *części* zbioru `X ⨿ Y` liniami przerywanymi. Czy widzisz,
 że to zawsze (bo tego wymaga definicja) muszą być rozłączne części i że zawsze w takiej sytuacji
@@ -678,7 +709,7 @@ Podpisz proszę ten rysunek komentarzem, który Twoim zdaniem tu pasuje, i któr
 się, że przynajmniej w tym momencie pamiętasz lub potrafisz odnaleźć i zapisać po swojemu
 objaśnienia na temat wszystkich wymienionych właśnie właściwości tej konstrukcji.
 
-**Rysunek 9**: Gdy dwa zbiory zawierają choćby tylko jeden wspólny element, nie możemy należących do
+**Rysunek 10**: Gdy dwa zbiory zawierają choćby tylko jeden wspólny element, nie możemy należących do
 nich elementów po prostu "włożyć" do sumy rozłącznej bez żadnej modyfikacji, bo w ten sposób nie
 uzyskamy dwóch *rozłącznych* kopii zbiorów wyjściowych. W takich sytuacjach musimy jakoś *oznaczyć*
 wszystkie kopie tak, żeby *elementy wspólne dla obydwu zbiorów* były reprezentowane przez *różne*
@@ -741,7 +772,7 @@ jako *lub*.
 
 Czy widzisz teraz podobieństwo między symbolami `∪` i `∨`, i czy widzisz, że jest nieprzypadkowe?
 
-**Rysunek 10**: Zrób proszę notatkę z odpowiednimi rysunkami, która będzie dla Ciebie ilustracją
+**Rysunek 11**: Zrób proszę notatkę z odpowiednimi rysunkami, która będzie dla Ciebie ilustracją
 pojęć iloczynu i sumy zbiorów. Być może będzie Ci łatwiej, jeżeli wcześniej zapoznasz się ze
 stronami Wikipedii dotyczącymi
 [jednego](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9B%C4%87_wsp%C3%B3lna) i
