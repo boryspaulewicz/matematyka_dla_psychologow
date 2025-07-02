@@ -164,7 +164,7 @@ literami `z` i `c`. Czy widzisz, że w ten sposób wyraziłaś dokładnie to sam
 wyjściowy? A czy widzisz, że *ten* diagram mogłabyś zakodować w ten sam sposób, uzyskując jeszcze
 inny diagram?
 
-Tak oto z języka zbiorów/funkcji, który nadaje się do maksymalnie swobodnego i zarazem
+Tak oto z języka elemntów/zbiorów/funkcji, który nadaje się do maksymalnie swobodnego i zarazem
 konsekwentnego mówienia niemal o czymkolwiek, *służy* przecież *do mówienia o* (niemal) *dowolnych
 własnościach* (niemal) *dowolnie wyróżnionych elementów*, "wykrawamy" pewien "odpowiednio
 ograniczony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany* do mówienia o dowolnych
@@ -175,8 +175,8 @@ czasem tą grafowość ignorując, a więc mówiąc o de facto strzałkach i pun
 nieokreślonego rodzaju* elementach, to jest takich jak wszystkie inne.
 
 I jest jasne, że zarówno w naszym wewnątrz, jak i między-osobowym komunikowaniu się/myśleniu
-potrzebujemy *obydwu* tych punktów widzenia/sposobów myślenia/badania teoretycznego, i że
-potrzebujemy te narzędzia swobodnie wymieniać i "ze sobą przeplatać". Dzięki temu na przykład
+potrzebujemy *obydwu* tych języków/punktów widzenia/sposobów myślenia/metod badania teoretycznego, i
+że potrzebujemy te narzędzia swobodnie wymieniać i "ze sobą przeplatać". Dzięki temu na przykład
 "rzucił nam się w oczy" fakt (nomen omen), że w pojęciu bycia dzieckiem (i w dualnym pojęciu bycia
 rodzicem) chodzi między innymi o pewne *abstrakcyjne fakty*. Posługując się jednocześnie językami
 teorii mnogości i grafów do mówienia o *relacji* bycia rodzicem/dzieckiem jesteśmy w stanie zarazem
