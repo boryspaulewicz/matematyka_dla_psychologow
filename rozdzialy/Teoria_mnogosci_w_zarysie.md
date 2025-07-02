@@ -82,26 +82,99 @@ Na przykład, pisząc coś takiego ...
 `Z := {1, 20, *, X, -3.4}`
 
 ... "wchodzimy" razem z odbiorcą tego tekstu (którym możemy być my sami w przyszłości) "do środka"
-pewnej "bezcielesnej" funkcji, albo "zakładamy" abstrakcyjne "okulary" o nazwie `Z`, przez które
-widzimy to:
+pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o nazwie `Z`, przez które
+"widzimy" to ...
 
-`{1, 20, *, X, -3.4}`
+1, 20, *, X, -3.4
 
-i jednocześnie wyrażamy to: Odtąd aż do odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza albo to,
-co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę 1*, albo liczbę 20, albo to, co w tym
-kontekście oznacza `*` (to może być na przykład tylko ta gwiazka, jako w pewien sposób
+... i jednocześnie *wyrażamy* to: Odtąd aż do odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza
+albo to, co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę* 1, albo liczbę 20, albo to, co w
+tym kontekście oznacza `*` (to może być na przykład tylko ta gwiazka, jako w pewien sposób
 "samooznaczający się" symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę -3.4, *i nic
-innego*. To jest więc takie *swobodne wskazywanie/oznaczanie* (za pomocą symboli) w taki albo inny
-sposób, w tym również *całkiem arbitralnie*, wyróżnionych czy wybranych elementów.
+innego*.
 
-Albo można to objaśnić tak: Pisząc do Ciebie na przykład ...
+**Zbiory i ich elementy jako narzędzia językowe i pojęciowe służące do maksymalnie swobodnego i
+zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek**: Z zarysowanej (?) właśnie
+perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem do tego w praktyce
+sprowadza się "matematyczność" tego języka) i zarazem *swobodnego
+wskazywania/oznaczania/wyróżniania*, w taki czy sposób, w tym również *całkiem arbitralnie*, bez
+podania powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i zarazem
+swobodnego mówienia/myślenia o niemal dowolnych, w tym również całkiem arbitralnych, *własnościach*
+tych elementów.
+
+Dla porównania, język grafów (skierowanych), którego zaczęliśmy już używać, służy, a raczej *ma
+służyć* (bo - tak jak wszystkiego innego - można go przecież używać jak tylko się chce) do
+konsekwentnie swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mówić, że
+mają jakieś (maksymalnie elastycznie rozumiane) *źródła* i *cele*, i o takich obiektach, o których
+da się konsekwentnie mówić, że są jakimiś źródłami albo celami czegoś. Możemy się przekonać, że
+języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną *strukturę*, albo "domagają
+się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej struktury, albo domaga się
+struktury w pewnym sensie minimalnej, rozważając taki oto przykład konsekwentnego mówienia czy
+myślenia o czymś na dwa różne sposoby (ten przykład to oczywiście pewna idealizacja):
+
+*Każdy człowiek ma parę rodziców, którzy też są ludźmi*.
+
+W kontekście tego przykładu możemy mówić na przykład o *zbiorze* ludzi `L` i o *strzałkach* (a to
+już *nie* jest pojęcie "wbudowane" w język teorii mnogości) od każdej osoby do rodzica tej
+osoby. Możemy omawiać strukturę uzyskanego albo wyróżnionego albo wstępnie wskazanego albo
+"przywołanego" w ten sposób grafu posługując się narzucającym pewną strukturę albo domagającym się
+jej "językiem grafowym". Na przykład, możemy mówić o strzałkach na tym grafie *rozpatrując te
+strzałki jako mini-grafy jednostrzałkowe*. Ale możemy też dla pewnych celów traktować ludzi jako
+obiekty takie jak każde inne. Wtedy "oderwiemy" się w naszych rozważaniach od struktury grafowej, to
+znaczy nie będziemy ani korzystali z faktu, że każdy człowiek ma parę rodziców, ani nie będziemy
+tego faktu kwestionowali.
+
+Co więcej, dzięki jego "minimalnej strukturalności", język teorii mnogości nadaje się do pewnego
+stopnia (bo język teorii kategorii jest w tym w pewnym sensie lepszy) do mówienia o *byciu grafem*!
+Graf (skierowany) to przecież *strzałki wychodzące z jakiś punktów i wchodzące do jakiś punktów*, a
+więc to dowolna kolekcja - czyli *zbiór* - *strzałek*, to znaczy jakichkolwiek rzeczy, obiektów, czy
+bytów (albo po prostu *elementów*), które "mają", w znaczeniu *są traktowane jako mające*, jakieś
+*swoje źródła* i *swoje cele*. *Źródła* i *cele* to *własności* strzałek, a więc pewne
+*funkcje*. Czym zatem jest graf (skierowany) *jako taki*? 
+
+Z perspektywy teoriomnogościowej graf (skierowany) jest *dowolną parą zbiorów*, które możemy
+oznaczyć jako `S` (jak *s*trzałki) i `P` (jak *p*unkty), i parą *dowolnych funkcji* *z* `S` *do*
+`P`, które możemy oznaczyć jako `z` i `c` (jak *z*ródła i *c*ele). W naszym przykładzie `S := L =:
+P` (dla zabawy odwróciłem tu symbol definiowania), a każda strzałka `s ∈ S` to pewien *fakt*,
+dotyczący pewnej pary ludzi `l₁, l₂ ∈ L`, polegający na tym, że `z(s) = l₁` i `t(s) = l₂`, czyli że
+`l₁` jest dzieckiem `l₂`.
+
+W ten sposób z języka zbiorów i funkcji, który nadaje się do maksymalnie swobodnego i zarazem
+konsekwentnego mówienia niemal o czymkolwiek, *służy* przecież *do mówienia o* (niemal) *dowolnych
+własnościach* (niemal) *dowolnie wyróżnionych elementów*, "wykrawamy" pewien "odpowiednio
+ograniczony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany* do mówienia o dowolnych
+*strukturach grafowych jako takich*. Gdy mamy już te dwa narzędzia/języki, możemy się między nimi
+swobodnie i konsekwentnie przełączać, czasami biorąc pod uwagę (*respektując*) grafowość czegoś -
+gdy na przykład rozpatrujemy strzałki albo ścieżki *jako strzałki* i *jako ścieżki* odpowiednio - a
+czasem tą grafowość ignorując, a więc mówiąc o de facto strzałkach i punktach *jako o bliżej
+nieokreślonego rodzaju* elementach, to jest takich jak wszystkie inne.
+
+I jest jasne, że zarówno w naszym wewnątrz, jak i między-osobowym komunikowaniu się/myśleniu często
+potrzebujemy obydwu tych punktów widzenia/sposobów myślenia/badania teoretycznego, i że potrzebujemy
+te narzędzia swobodnie wymieniać i "ze sobą przeplatać". Dzięki temu na przykład "rzucił nam się w
+oczy" fakt, że w pojęciu bycia dzieckiem (i w dualnym pojęciu bycia rodzicem) chodzi między innymi o
+pewne *abstrakcyjne fakty*: Posługując się jednocześnie językami teorii mnogości i grafów jesteśmy w
+stanie konsekwentnie i swobodnie mówić o tych *faktach* ...
+
+1. ... jako o *elementach* ...  
+(tu mamy *wy-abstrahowanie* pojęcia faktu)
+
+2. ... w pewien sposób *zinterpretowanego* ...  
+(tu mamy *wyjściowy sens*, rozumiany jako odniesienie do rzeczywistości pozajęzykowej)
+
+3. ... *zbioru* `S`.  
+(a tu mamy *nie-grafowo rozumianą* \{bo mówimy o `S` *jako o pewnym zbiorze*\} *część grafu jako
+takiego* \{bo *w tym kontekście* to jest *jednocześnie* teoriomnogościowa część *ogólnej struktury
+grafu* `z : S → P`, `c : S → P`\}).
+
+A rolę takiego fragmentu ...
 
 *Niech ℕ będzie zbiorem liczb naturalnych. Jeżeli n ∈ ℕ i m ∈ ℕ, to n + m = m + n, ponieważ ...*
 
-.. próbuję Ci lub w Tobie *zainstalować* albo *wgrać* pewną szczególną językową i pojęciową
-*procedurę*, to jest dowód pewnego twierdzenia (o przemienności dodawania liczb naturalnych). Cały
-fragment przed słowem "ponieważ" ma więc pełnić taką samą rolę, co część definicji funkcji w Leanie,
-która poprzedza symbol definiowania `:=`. 
+..  można objaśnić tak: Pisząc tak do Ciebie próbuję Ci lub w Tobie *zainstalować* albo *wgrać*
+pewną szczególną językową i pojęciową *procedurę*, to jest dowód pewnego twierdzenia (o
+przemienności dodawania liczb naturalnych). Cały fragment przed słowem "ponieważ" ma więc pełnić
+taką samą rolę, co część definicji funkcji w Leanie, która poprzedza symbol definiowania `:=`.
 
 Zastąpiony tutaj wielokropkiem dowód, który po przyswojeniu go przez Ciebie ma stać się ciałem tego
 twierdzenia jako funkcji zrealizowanej w Twoim ciele, działa poprawnie dla/dotyczy tylko określonych
@@ -109,15 +182,15 @@ rzeczy czy obiektów, to jest takich obiektów, które nauczyliśmy się (wystar
 nazywać liczbami naturalnymi. Z tego dowodu, odkąd go *zaakceptowałaś jako dowód*, korzystasz
 zresztą też tak samo jak Lean, bo *używając* przemienności dodawania ani nie przypominasz sobie tego
 dowodu, ani tym bardziej go nie stosujesz do wyprowadzenia wniosku na temat konkretnych par liczb
-naturalnych - wystarczy Ci pamiętać, że to zdanie jest uniwersalnie prawdziwe. Być może nawet nie
+naturalnych - wystarczy Ci *pamiętać, że* to zdanie jest uniwersalnie prawdziwe. Być może nawet nie
 poznałaś dotąd dobrze dowodu tego twierdzenia i używając go korzystasz z *pamięci wspólnoty*, do
-której należysz i której w tego rodzaju sprawach ufasz.
+której należysz i której w takich sprawach ufasz.
 
 Główna rola, a więc sens, terminu technicznego *zbiór* sprowadza się w tego rodzaju komunikacyjnej
 (w)grze do określania, jakie pojęciowe albo fizyczne wejścia może przetwarzać ta zapisana częściowo
-nieformalnie funkcja do typu zdaniowego, czyli ten dowód. Tutaj różnica między zbiorami i *typami*
+nieformalnie funkcja do typu zdaniowego, czyli ten dowód. Tutaj różnica między *zbiorami* i *typami*
 jest więc kosmetyczna, a w innych sytuacjach, w których różnica nie wydaje już całkiem kosmetyczna,
-możemy ją skutecznie zatrzeć, bo całą matematykę da się wyrazić w Leanie.
+możemy ją skutecznie zatrzeć, bo całą matematykę da się zakodować w Leanie.
 
 Z tej perspektywy *zbiory jako takie są czymś, co służy do swobodnego oznaczania wszystkiego, co da
 się oznaczać konsekwentnie*. Gdy, *przyjmując tą interpretację pojęcia zbioru*, mówimy *o zbiorze*
@@ -127,7 +200,7 @@ właściwości, chodzi tylko o to, że w ten sposób możemy je wskazywać czy o
 *niezależnie od tych właściwości*. Tak rozumiane zbiory są zatem "strukturami minimalnie
 ustrukturyzowanymi" (bo każda kolekcja to jednak jest *jakaś* struktura), albo strukturami
 *granicznymi* w tym znaczeniu, że pozbawionymi jakiejkolwiek "nietrywialnej", to jest wymagającej
-czegoś więcej niż samo wyróżnianie, struktury.
+czegoś więcej niż samo *swobodne wyróżnianie i oznaczanie jakiś elementów*, struktury.
 
 <hr>
 
@@ -161,7 +234,7 @@ typów, *nie* istnieją fizycznie niezależnie od tego, czy o nich mówimy albo 
 **Wracając do "filozofowania"**: Czy widzisz, że w pewnym sensie pojęcia *zbioru* i *funkcji* można
 rozumieć jako jedno i to samo pojęcie *wskazywania* albo *wyróżniania* czy może lepiej *oznaczania*?
 Każdy *rozważany* zbiór to *kolekcja swobodnych oznaczeń*, a każda funkcja to jakieś *swobodne
-oznaczenie* za pomocą określonej kolekcji oznaczeń. A żeby wybrać, co oznaczyć, musimy najpierw
+oznaczenie* za pomocą określonej *kolekcji oznaczeń*. A żeby wybrać, co oznaczyć, musimy najpierw
 *mieć z czego* wybierać, dlatego nasza definicja zawiera terminy *dziedzina* i
 *przeciwdziedzina*. Nie ma oznaczeń bez oznaczania, ani oznaczania bez oznaczeń, to tylko dwa
 aspekty tego samego abstrakcyjnego *funkcjonalnego* pojęcia!
