@@ -116,7 +116,7 @@ zarazem swobodnego mówienia/myślenia o/badania niemal dowolnych, w tym równie
 
 **Graf skierowany jako struktura teoriomnogościowa**: Dla porównania, język grafów (skierowanych),
 którego zaczęliśmy już używać, służy, a raczej *ma służyć* (bo - tak jak wszystkiego innego - można
-go przecież używać jak tylko się chce, w tym również całkiem bez sensu) do konsekwentnego i zarazem
+go przecież używać jak tylko się chce, w tym również bez sensu) do konsekwentnego i zarazem
 swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mówić, że mają jakieś ...
 
 1. ... (maksymalnie elastycznie rozumiane) *źródła* i *cele*, ...
