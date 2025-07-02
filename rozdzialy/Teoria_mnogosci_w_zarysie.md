@@ -24,7 +24,7 @@ specjalistów zajmujących się zbiorami, natomiast dla reszty świata to raczej
 szczególnie ciekawego, bo zbiór to tylko pewna *kolekcja* (jakiś) elementów. Jednak właśnie dzięki
 temu, że to pojęcie - podobnie zresztą jak pojęcia *typu* i *przypisania* - jest tak (hm)
 elementarne, niemal wszędzie albo do czegoś się przydaje, albo okazuje się wręcz niezbędne; dlatego
-warto mu się przyglądać długo, cierpliwie, i z pewnego oddalenia.
+warto mu się przyglądać długo, cierpliwie i z pewnego oddalenia.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
@@ -38,9 +38,9 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 
 `{n ∈ ℕ | Dodatnie n}`
 
-... bo zapisane *dosłownie* nie zmieściłyby się na żadnej stronie. *Ostatni* przykład **czytamy
-tak**: Zbiór (`{ ...`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ ...`), że `Dodatnie n` (`{ n
-∈ ℕ | Dodatnie n}`).
+... bo zapisane *dosłownie* nie zmieściłyby się na żadnej stronie. Ostatni przykład **czytamy tak**:
+Zbiór (`{ ...`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ ...`), że `Dodatnie n` (`{ n ∈ ℕ |
+Dodatnie n}`).
 
 Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce
 *zwyczajem* - zbiory mogą zawierać (niemal[^4]) dowolne elementy, na przykład takie, które nie
@@ -48,10 +48,10 @@ należą do żadnego dającego się łatwo, a może nawet w ogóle zidentyfikowa
 zbiory to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
 Natomiast *funkcje*, takie jak na przykład funkcja kwadratowa `f(x) = x²`, to (niemal) dowolne
-*przyporządkowania*. Ale uwaga, nie należy mylić przyporządkowania *jako takiego* z *procesem
-ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania kwadratu liczby, albo z
-*formułą* definiującą przyporządkowanie elementom jakiegoś jednego zbioru elementów jakiegoś (być
-może tego samego) zbioru, taką jak `x²`.
+*przyporządkowania*. Ale uwaga, nie należy mylić abstrakcyjnego pojęcia przyporządkowania *jako
+takiego* z *procesem ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania
+kwadratu liczby, albo z *formułą* definiującą przyporządkowanie elementom jakiegoś zbioru elementów
+jakiegoś (być może tego samego) zbioru, taką jak `x²`.
 
 <hr>
 
@@ -63,13 +63,12 @@ powiedzieć o zbiorach (i elementach i funkcjach) coś głębszego, a mianowicie
 i funkcje) są w pewnym ważnym sensie *strukturami ekstremalnymi*.
 
 Na przykład, *liczby naturalne* to nie *tylko* pewna *kolekcja* obiektów, bo to jest *specjalna*
-kolekcja - to kolekcja posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna
-(naturalna!) relacja (liniowego) porządku na liczbach naturalnych, ze względu na tą relację istnieje
-najmniejsza liczba naturalna, dla każdej liczby naturalnej istnieje unikalna następna liczba
-naturalna, dla każdej liczby naturalnej różnej od zera istnieje unikalna poprzednia liczba
-naturalna, dla każdej pary liczb naturalnych istnieje ich unikalna suma, która ma tą własność, że
-liczba naturalna zero (czyli ta najmniejsza) jest elementem neutralnym ze względu na to działanie, i
-tak dalej. 
+kolekcja, posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna (naturalna!)
+relacja (liniowego) porządku na liczbach naturalnych, ze względu na tą relację istnieje najmniejsza
+liczba naturalna, dla każdej liczby naturalnej istnieje unikalna następna liczba naturalna, dla
+każdej liczby naturalnej różnej od zera istnieje unikalna poprzednia liczba naturalna, dla każdej
+pary liczb naturalnych istnieje ich unikalna suma, która ma tą własność, że liczba naturalna zero
+(czyli ta najmniejsza) jest elementem neutralnym ze względu na to działanie, i tak dalej.
 
 A zatem liczby naturalne w "*swej* mnogości" to nie jest *jakaś tam* kolekcja. Jednak *rozpatrywane
 jako kolekcja*, to jest *jako zbiór*, liczby naturalne to tylko *jakieś tam* obiekty, które możemy
@@ -84,10 +83,11 @@ struktury innej niż struktura tożsamościowa kolekcji elementów. W tym sensie
 w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji w Leanie*, której parametry
 mają bliżej nieokreślone (a więc też nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja
 aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
-każdemu z nich *przypisać*, dokonując w ten sposób jakby nieredukowalnej aplikacji do czegoś zbioru
-jako pozbawionej ciała, albo takiej "otwartej", funkcji. Innym sposób, który może ułatwić myślenie w
-ten sposób o zbiorach, polega na wyobrażeniu sobie, że każdy zbiór jest jak okrąg zawierający
-pozbawione jakiegokolwiek charakteru *punkty zaczepienia*.
+każdemu z nich *przypisać*, dokonując w ten sposób czegoś w rodzaju nieredukowalnej aplikacji do
+czegoś (to jest arbitralnych elementów) pozbawionej ciała, albo takiej jakby "otwartej"
+funkcji. Innym sposób, który może ułatwić myślenie w ten sposób o zbiorach, polega na wyobrażeniu
+sobie, że każdy zbiór jest jak okrąg zawierający pozbawione jakiegokolwiek charakteru *punkty
+zaczepienia*.
 
 Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
@@ -102,7 +102,7 @@ które można powiedzieć, że "widzimy" to ...
 ... i jednocześnie *wyrażamy* to: Odtąd aż do odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza
 albo to, co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę* 1, albo liczbę 20, albo to, co w
 tym kontekście oznacza `*` (to może być na przykład sama ta gwiazka, jako w pewien sposób
-"samooznaczający się" symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę -3.4, *i nic
+samooznaczający się symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę -3.4, *i nic
 innego*.
 
 #### Zbiory, ich elementy, i funkcje jako językowe i pojęciowe narzędzia służące do maksymalnie swobodnego i zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek
