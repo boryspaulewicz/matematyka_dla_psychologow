@@ -232,8 +232,8 @@ swoich właściwości, chodzi tylko o to, że w ten sposób możemy je wskazywa�
 ustrukturyzowanymi" (bo każda kolekcja mimo wszystko jest pewną strukturą), albo strukturami
 "granicznymi" czy też "ekstremalnymi" w tym znaczeniu, że pozbawionymi jakiejkolwiek "nietrywialnej"
 struktury językowo/pojęciowej, to jest struktury umożliwiającej coś więcej, niż samo swobodne
-wyróżnianie i oznaczanie, czyli umożliwjącej coś więcej, niż *wykonanie najprostszego i najbardziej
-podstawowego zadania, do wykonania którego używamy symboli jako symboli*.
+wyróżnianie i oznaczanie, czyli umożliwiającej coś więcej, niż *wykonanie najprostszego i
+najbardziej podstawowego zadania, do wykonania którego używamy symboli jako symboli*.
 
 <hr>
 
@@ -270,7 +270,7 @@ Każdy *rozważany* zbiór to *kolekcja swobodnych oznaczeń*, a każda funkcja 
 oznaczenie* za pomocą określonej *kolekcji oznaczeń*. A żeby wybrać, co oznaczyć, musimy najpierw
 *mieć z czego* wybierać, dlatego nasza definicja zawiera terminy *dziedzina* i
 *przeciwdziedzina*. Nie ma oznaczeń bez oznaczania, ani oznaczania bez oznaczeń, to tylko dwa
-aspekty tego samego abstrakcyjnego *funkcjonalnego* pojęcia!
+aspekty tego samego abstrakcyjnego *funkcjonalnego* pojęcia.
 
 <hr>
 
