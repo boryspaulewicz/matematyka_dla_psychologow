@@ -165,8 +165,8 @@ narysuj na górze okrąg zbioru `S` i umieść w nim strzałki diagramu *jako el
 poniżej narysuj okrąg zbioru `P` i umieść w nim punkty zaczepienia strzałek tego diagramu jako
 elementy zbioru `P`. Na koniec nanieś strzałki `z` i strzałki `c` z elementów `S` do `P` i oznacz je
 literami `z` i `c`. Czy widzisz, że w ten sposób wyraziłaś dokładnie to samo, co wyraża diagram
-wyjściowy? A czy widzisz, że *ten* diagram mogłabyś zakodować w ten sam sposób, uzyskując jeszcze
-inny diagram?
+wyjściowy? A czy widzisz, że *ten* diagram mogłabyś zakodować w ten sam sposób (jednak nie w pełni
+zachowując jego strukturę), uzyskując tak jeszcze inny diagram?
 
 Tak oto z języka elemntów/zbiorów/funkcji, który nadaje się do maksymalnie swobodnego i zarazem
 konsekwentnego mówienia niemal o czymkolwiek, *służy* przecież *do mówienia o* (niemal) *dowolnych
