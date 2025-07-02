@@ -81,13 +81,15 @@ tak, jakbyśmy się od takich skojarzeń oderwali.
 
 Gdy mówimy o jakimkolwiek zbiorze *jako zbiorze*, to mówimy *tylko* o pozbawionej jakiejkolwiek
 struktury innej niż struktura tożsamościowa kolekcji elementów. W tym sensie wskazany albo wyrażony
-w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji*, której parametry mają bliżej
-nieokreślone typy i nie ma znaczenia, w jakiej kolejności te parametry są zapisane. Ta
-prawie-funkcja nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
+w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji w Leanie*, której parametry
+mają bliżej nieokreślone (a więc też nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja
+aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
 każdemu z nich *przypisać*, dokonując w ten sposób jakby nieredukowalnej aplikacji do czegoś zbioru
-jako pozbawionej ciała, albo takiej "otwartej" funkcji. 
+jako pozbawionej ciała, albo takiej "otwartej" funkcji. Innym sposób, który może ułatwić myślenie w
+ten sposób o zbiorach, polega na wyobrażeniu sobie, że każdy zbiór jest jak okrąg zawierający
+pozbawione jakiegokolwiek charakteru *punkty zaczepenia*.
 
-Może spróbuję wyjaśnić o co mi tutaj chodzi na konkretnym przykładzie: Pisząc coś takiego ...
+Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
 `Z := {1, 20, *, X, -3.4}`
 
