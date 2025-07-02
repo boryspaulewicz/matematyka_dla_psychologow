@@ -23,8 +23,8 @@ Mogłoby się wydawać, że pojęcie zbioru *jako takiego* jest interesujące pr
 specjalistów zajmujących się zbiorami, natomiast dla reszty świata to raczej nie jest nic
 szczególnie ciekawego, bo zbiór to tylko pewna *kolekcja* (jakiś) elementów. Jednak właśnie dzięki
 temu, że to pojęcie - podobnie zresztą jak pojęcia *typu* i *przypisania* - jest tak (hm)
-elementarne, niemal wszędzie albo do czegoś się przydaje, albo okazuje się wręcz niezbędne, i
-dlatego też warto się temu pojęciu przyglądać długo i cierpliwie z pewnego oddalenia.
+elementarne, niemal wszędzie albo do czegoś się przydaje, albo okazuje się wręcz niezbędne; dlatego
+warto się temu pojęciu przyglądać długo, cierpliwie, i z pewnego oddalenia.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
