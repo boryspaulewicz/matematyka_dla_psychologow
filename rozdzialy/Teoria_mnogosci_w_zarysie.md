@@ -54,10 +54,12 @@ jakiegoś (być może tego samego) zbioru.
 
 <hr>
 
-**Na te uwagi być może jest jeszcze trochę za wcześnie**: Z jednej strony, pojęcie zbioru może się
-więc wydawać mało interesujące. Z drugiej jednak strony, gdy popatrzymy na zbiory w kontekście
-*innych* rodzajów matematycznych struktur, będziemy mogli powiedzieć o zbiorach (i funkcjach) coś
-głębszego, a mianowicie, że zbiory (i funkcje) są w pewnym sensie *strukturami ekstremalnymi*.
+### O roli pojęć zbioru, elementu i funkcji w praktyce matematycznej
+
+Z jednej strony, pojęcie zbioru może się więc wydawać mało interesujące. Z drugiej jednak strony,
+gdy popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
+powiedzieć o zbiorach (i funkcjach) coś głębszego, a mianowicie, że zbiory (i funkcje) są w pewnym
+sensie *strukturami ekstremalnymi*.
 
 Na przykład, *liczby naturalne* to nie *tylko* pewna *kolekcja* obiektów, bo to jest *specjalna*
 kolekcja - to kolekcja posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna
