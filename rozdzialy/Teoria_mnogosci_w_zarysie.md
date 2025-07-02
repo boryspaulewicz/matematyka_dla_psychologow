@@ -119,7 +119,8 @@ którego zaczęliśmy już używać, służy, a raczej *ma służyć* (bo - tak 
 go przecież używać jak tylko się chce, w tym również bez sensu) do konsekwentnego i zarazem
 swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mówić, że mają jakieś ...
 
-1. ... (maksymalnie elastycznie rozumiane) *źródła* i *cele*, ...
+1. ... (maksymalnie elastycznie rozumiane) *źródła* i *cele*, czy też *punkty wyjścia* i *punkty
+   dojścia*, ...
 
 2. ... i o takich obiektach, o których da się konsekwentnie mówić, że są jakimiś źródłami albo
 celami czegoś. 
@@ -133,50 +134,53 @@ przykład to oczywiście tylko pewna idealizacja):
 *Każdy człowiek ma parę rodziców, którzy też są ludźmi*.
 
 W kontekście tego przykładu możemy mówić między innymi o *zbiorze* ludzi `L` i o *strzałkach* (a to
-już *nie* jest pojęcie wbudowane w język teorii mnogości) od każdej (oznaczonej jako element `L`)
-osoby do (jakiegoś elementu `L` oznaczającego) rodzica tej osoby. Możemy omawiać strukturę
-uzyskanego albo wyróżnionego albo wstępnie wskazanego albo "przywołanego" w ten sposób grafu
-posługując się narzucającym pewną strukturę albo domagającym się jej "językiem grafowym". Na
-przykład, możemy mówić o strzałkach na tym grafie rozpatrując te strzałki *jako mini-grafy
-jednostrzałkowe*. Ale możemy też dla pewnych celów traktować ludzi jako obiekty takie jak każde
-inne. Wtedy odrywamy się w naszych rozważaniach od struktury grafowej, to znaczy *nie korzystamy z
-faktu*, że każdy człowiek ma jakiś rodziców, ani tego faktu nie kwestionujemy.
+już *nie* jest pojęcie wbudowane w język teorii mnogości) od każdej (oznaczonej jako element zbioru
+`L`) osoby do (jakiegoś elementu `L` oznaczającego) rodzica tej osoby. Możemy omawiać strukturę
+uzyskanego albo wyróżnionego albo wstępnie wskazanego albo "zarysowanego" albo "rozpoznanego" w ten
+sposób grafu posługując się narzucającym pewną strukturę albo domagającym się jej "językiem
+grafowym". Na przykład, możemy mówić o strzałkach na tym grafie rozpatrując te strzałki *jako
+pod-grafy jednostrzałkowe*. Ale możemy też dla pewnych celów traktować (elementy oznaczające
+dowolnych) ludzi jako obiekty takie jak każde inne. Wtedy odrywamy się w naszych rozważaniach od
+struktury grafowej, to znaczy *nie korzystamy z faktu*, że każdy człowiek ma jakiś rodziców, ani
+tego faktu nie kwestionujemy.
 
 Co więcej, dzięki jego "minimalnej strukturalności", język teorii mnogości nadaje się do pewnego
 stopnia (bo język teorii kategorii jest w tym w pewnym sensie lepszy, dzięki temu, że jest *mniej*
-elastyczny) do mówienia o *byciu grafem*! *Graf* (skierowany) to przecież *strzałki wychodzące z
-jakiś punktów i wchodzące do jakiś punktów*, a więc to (jest funkcjonalnie to samo co) dowolna
-kolekcja - czyli *zbiór* - *strzałek*, to znaczy jakichkolwiek rzeczy, obiektów, czy bytów (albo po
-prostu *elementów*), które "mają", w znaczeniu *są traktowane jako mające*, jakieś *swoje źródła* i
-*swoje cele*. *Źródła* i *cele* to (jedyne) *własności* strzałek (jako strzałek), a więc to pewne
+elastyczny) do mówienia o *byciu grafem*. Graf (skierowany) to przecież *strzałki wychodzące z jakiś
+punktów i wchodzące do jakiś punktów*, a więc to (jest funkcjonalnie to samo co) dowolna kolekcja -
+czyli *zbiór* - *strzałek*, to znaczy jakichkolwiek rzeczy, obiektów, czy bytów (albo po prostu
+*elementów*), które "mają", w znaczeniu *są traktowane jako mające*, jakieś *swoje źródła* i *swoje
+cele*. *Źródła* i *cele* to (jedyne) *własności* strzałek (jako strzałek), a więc to pewne
 *funkcje*.
 
 Czym zatem jest graf (skierowany) *jako taki*? Z perspektywy (w języku) teorii mnogości graf
 (skierowany) jest *dowolną parą zbiorów*, które możemy oznaczyć jako `S` (jak *s*trzałki) i `P` (jak
 *p*unkty), i parą *dowolnych funkcji* *z* `S` *do* `P`, które możemy oznaczyć jako `z` i `c` (jak
 *z*ródło i *c*el odpowiednio). W naszym przykładzie `S := L =: P` (dla zabawy odwróciłem tu symbol
-definiowania), a każda strzałka `s ∈ S` to pewien *fakt*, dotyczący pewnej pary ludzi `l₁, l₂ ∈ L`,
-polegający na tym, że `z(s) = l₁` i `t(s) = l₂`, czyli że `l₁` jest dzieckiem `l₂`, albo równoważnie
-(bo dualnie), że `l₂` jest rodzicem `l₁`.
+definiowania), a każda *strzałka* `s ∈ S` to pewien *fakt*, dotyczący pewnej pary (punktów) ludzi
+`l₁, l₂ ∈ L`, polegający na tym, że `z(s) = l₁` i `t(s) = l₂`, czyli że `l₁` jest dzieckiem `l₂`,
+albo równoważnie (bo dualnie), że `l₂` jest rodzicem `l₁`.
 
 **Rysunek 1**: Wróć teraz proszę do którego chcesz diagramu, który (mam nadzieję) narysowałaś
 czytając poprzedni rozdział, i zapisz go jako wewnętrzną strukturę funkcji `z` i `c`. To znaczy,
 narysuj na górze okrąg zbioru `S` i umieść w nim strzałki diagramu *jako elementy tego zbioru*, a
 poniżej narysuj okrąg zbioru `P` i umieść w nim punkty zaczepienia strzałek tego diagramu jako
-elementy zbioru `P`. Na koniec nanieś strzałki `z` i strzałki `c` z elementów `S` do `P` i oznacz je
-literami `z` i `c`. Czy widzisz, że w ten sposób wyraziłaś dokładnie to samo, co wyraża diagram
-wyjściowy? A czy widzisz, że *ten* diagram mogłabyś zakodować w ten sam sposób (jednak nie w pełni
-zachowując jego strukturę), uzyskując tak jeszcze inny diagram?
+elementy zbioru `P`. Na koniec nanieś strzałki `z` i strzałki `c` z elementów `S` do elementów `P` i
+oznacz te wszystkie strzałki literami `z` lub `c`. Czy widzisz, że w ten sposób wyraziłaś dokładnie
+to samo, co wyraża diagram wyjściowy? A czy widzisz, że *ten* diagram mogłabyś zakodować w ten sam
+sposób (jednak nie w pełni zachowując jego strukturę, bo w naszym języku grafów nie możemy rozpoznać
+okręgów zbiorów), uzyskując tak jeszcze inny diagram?
 
-Tak oto z języka elemntów/zbiorów/funkcji, który nadaje się do maksymalnie swobodnego i zarazem
+Tak oto z języka elementów/zbiorów/funkcji, który nadaje się do maksymalnie swobodnego i zarazem
 konsekwentnego mówienia niemal o czymkolwiek, *służy* przecież *do mówienia o* (niemal) *dowolnych
 własnościach* (niemal) *dowolnie wyróżnionych elementów*, "wykrawamy" pewien "odpowiednio
-ograniczony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany* do mówienia o dowolnych
-*strukturach grafowych jako takich*. Swoją drogą, czy to nie jest w jakiś satysfakcjonujący sposób
-niezwykłe, że grafy skierowane to właściwie to samo, co pary równoległych funkcji?
+ograniczony" albo "usztywniony" *język dziedzinowy*, który *służy*/*nadaje się/jest dedykowany* do
+mówienia o dowolnych *strukturach grafowych jako takich*. Swoją drogą, czy to nie jest w jakiś
+satysfakcjonujący sposób niezwykłe, że grafy skierowane to właściwie to samo, co pary równoległych
+funkcji?
 
-Jest czy nie, korzystając z okazji zasygnalizuję już teraz pewien interesujący problem, o którym
-powiem więcej kiedy indziej. Łatwo to przeoczyć, bo ten proces wydaje się być (mam nadzieję)
+Niezwykłe czy nie, korzystając z okazji zasygnalizuję już teraz pewien interesujący problem, o
+którym powiem więcej kiedy indziej. Łatwo to przeoczyć, bo ten proces wydaje się być (mam nadzieję)
 względnie naturalny i celowy, ale takie "wykrojenie" języka dziedzinowego, a mówiąc dokładniej
 *skonstruowanie go* z elementów języka teorii mnogości (tutaj stworzenie czy też wskazanie pewnej
 konstrukcji złożonej z dwóch zbiorów i dwóch równoległych funkcji) *nie* jest *tak do końca*
