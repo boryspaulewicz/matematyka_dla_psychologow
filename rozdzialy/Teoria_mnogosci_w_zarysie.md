@@ -608,8 +608,8 @@ O tożsamości funkcji teoriomnogościowych decyduje to, jaką mają dziedzinę 
 także to, co zwracają dla każdego elementu swojej dziedziny. Wystarczy rzut oka na podany wyżej
 skrótowy opis trzech funkcji, żeby upewnić się, że `Id_Y ∘ f` oznacza funkcję, która ma taką samą
 dziedzinę i przeciwdziedzinę jak funkcja `f` i jak funkcja `f ∘ Id_X`, a więc te trzy funkcje (`Id_Y
-∘ f`, `f`, i `Id_X`) *mogą* być tą samą funkcją (gdyby miały różne dziedziny lub przeciwdziedziny
-byłyby automatycznie różnymi funkcjami). Ale czy są?
+∘ f`, `f`, i `f ∘ Id_X `) *mogą* być tą samą funkcją (gdyby miały różne dziedziny lub
+przeciwdziedziny byłyby automatycznie różnymi funkcjami). Ale czy są?
 
 Skonstruujemy teraz w języku naturalnym dowód zdania `Id_Y ∘ f = f`, które z definicji (tego czym
 jest funkcja) znaczy to samo, co `∀ x ∈ X, (Id_Y ∘ f)(x) = f(x)`:
