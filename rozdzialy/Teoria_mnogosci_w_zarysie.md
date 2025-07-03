@@ -287,12 +287,12 @@ mogą być również zbiory, ale tym razem takie komplikacje nie wystąpią.
 **Funkcje w teorii mnogości to (abstrakcyjne) pojęcia, a nie programy komputerowe**: Teraz możemy
 *rysując coś zdefiniować funkcję teoriomnogościową*. Ale uwaga - ponieważ do tej pory zajmowaliśmy
 się głównie funkcjami w *teorii typów*, które są *programami komputerowymi*, mogą Ci się narzucać
-pewne skojarzenia albo sposoby myślenia, który nie pasują do pojęcia funkcji
-*teoriomnogościowej*. Funkcje teoriomnogościowe można, chociaż nie wszystkie, wyrazić za pomocą
-programów komputerowych, czyli *zaimplementować* albo *zrealizować* w kodzie, ale funkcje
-teoriomnogościowe *jako takie* to tylko abstrakcyjne obiekty, *o* których możemy *mówić* posługując
-się językiem teorii mnogości, ale które, w przeciwieństwie do programów zapisanych w języku teorii
-typów, *nie* istnieją fizycznie niezależnie od tego, czy o nich mówimy albo myślimy.
+pewne sposoby myślenia, który nie pasują do pojęcia funkcji *teoriomnogościowej*. Funkcje
+teoriomnogościowe można, chociaż nie wszystkie, wyrazić za pomocą programów komputerowych, czyli
+*zaimplementować* albo *zrealizować* w kodzie, ale funkcje teoriomnogościowe *jako takie* to tylko
+abstrakcyjne obiekty, *o* których możemy *mówić* posługując się językiem teorii mnogości, ale które,
+w przeciwieństwie do programów zapisanych w języku teorii typów, *nie* istnieją fizycznie
+niezależnie od tego, czy o nich mówimy albo myślimy.
 
 <hr>
 
