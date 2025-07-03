@@ -25,5 +25,4 @@ b * a'` można traktować jako te same *liczby*, postrzegając w ten sposób ka�
 Wiem, że to może być początkowo trudne, ale, przynajmniej moim zdaniem, to jest też piękne. Żeby z
 czasem zrozumieć, co te równości oznaczają, musisz tylko wystarczająco dobrze pamiętać (a więc być może
 czasem sobie to powtarzać, najlepiej nie w sposób skomasowany, zastanawiając się na głos nad
-prostymi przykładami), że w przypadku zbiorów skończonych funkcja `||` zwraca liczbę elementów tych
-zbiorów i że zbiór `{∅}` jest singletonem.
+prostymi przykładami) kilka definicji.

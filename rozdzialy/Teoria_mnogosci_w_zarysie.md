@@ -53,7 +53,7 @@ Zbiór (`{ ...`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ ...`), �
 Dodatnie n}`).
 
 Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce
-*zwyczajem* - zbiory mogą zawierać (niemal[^4]) dowolne elementy, na przykład takie, które nie
+*zwyczajem* - zbiory mogą zawierać (niemal[^3]) dowolne elementy, na przykład takie, które nie
 należą do żadnego dającego się łatwo, a może nawet w ogóle zidentyfikować rodzaju albo typu. A więc
 zbiory to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
@@ -401,17 +401,5 @@ pozwoli zrozumieć jakiś problem lepiej.
     tym nie lubię, gdy ktoś mi próbuje *narzucać* jakiekolwiek reguły *bez uzasadnenia* innego niż
     "bo tak *się* robi". Autorytet wymaga uzasadnienia!
 
-[^3]: Ten przykład "ukradłem" i przerobiłem na bardziej "własny" wybitnemu, niestety nieżyjącemu już
-    matematykowi [F. Williamowi Lawverowi](https://en.wikipedia.org/wiki/William_Lawvere) i
-    [Stephenowi H. Schnauelowi](https://en.wikipedia.org/wiki/Stephen_Schanuel), którzy skorzystali
-    z podobnego przykładu w dosyć niezwykłej, nawet jeżeli cokolwiek chaotycznej (i kto to mówi)
-    książce [Conceptual
-    Mathematics](https://www.cambridge.org/highereducation/books/conceptual-mathematics/00772F4CC3D4268200C5EC86B39D415A#contents),
-    którą czytałem, wielokrotnie, dawno, dawno, dawno temu i która była dla mnie jedną z inspiracji
-    podczas pisania tej (m.in. dlatego, że powstawała w interakcji z licealistami). I owszem, z
-    pierwszym z wymienionych [kosiarzy
-    umysłów](https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)) też kiedyś przez chwilę
-    korespondowałem.
-
-[^4]: Jest jeszcze kwestia paradoksu albo antynomii Russella, ale moim zdaniem nie trzeba sobie tym
+[^3]: Jest jeszcze kwestia paradoksu albo antynomii Russella, ale moim zdaniem nie trzeba sobie tym
     zaprzątać głowy.

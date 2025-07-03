@@ -8,14 +8,9 @@ Ponieważ (właśnie po to) w tym rozdziale mówimy tylko o zbiorach *skończony
 naturalną (albo własnością w liczbach naturalnych).
 
 Jest mam nadzieję dla Ciebie oczywiste, że `|∅| = 0`. Rozumiesz też chyba dlaczego, dla każdego `x`,
-czymkolwiek nie byłby ten `x`, o ile tylko może być elementem jakiegoś zbioru (a więc nie może być
-na przykład pogodą *jako taką*, tylko co najwyżej symbolem, jakąś strukturą danych, lub innym
-obiektem matematycznym oznaczającym pogodę), `|{x}| = 1`. Zbiór `{x}` jest przecież
-*jednoelementowy*.
-
-W szczególności, `|{∅}| = 1`. Ten ostatni przykład jest trochę podchwytliwy, bo zbiór `{∅}` może się
-*kojarzyć* ze zbiorem pustym, ale ten zbiór *nie* jest pusty, bo zawiera co najmniej jeden element,
-a dokładniej zawiera dokładnie jeden element i tym elementem jest zbiór pusty.
+`|{x}| = 1`. Zbiór `{x}` jest przecież *jednoelementowy*. W szczególności, `|{∅}| = 1`. Ten ostatni
+przykład jest trochę podchwytliwy, bo zbiór `{∅}` może się *kojarzyć* ze zbiorem pustym, ale ten
+zbiór *nie* jest pusty, bo zawiera co najmniej jeden element, to jest zbiór pusty.
 
 Wobec tego, jeżeli tylko `X : FinSet` i `Y : FinSet`, to `|X × Y| = |X| × |Y|`, gdzie lewe
 "mnożenie" jest operacją na *zbiorach*, a prawe na *liczbach*, a ponadto, dla każdej `n ∈ ℕ`,
