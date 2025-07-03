@@ -402,7 +402,7 @@ zbioru `X`, to dostarczyła*by* dokładnie jeden element ze zbioru `Y`. Poniewa�
 jednak żadnych elementów, ta funkcja co prawda *nie może* nic zwrócić, ale również *nie może nie
 spełnić tego warunku*. Mówimy w takich sytuacjach, że jakiś warunek (tutaj warunek "dostarczenia"
 jednego elementu przeciwdziedziny dla każdego elementu dziedziny) jest *spełniony pusto* (przez to,
-że w danym przypadku *nie ma czego wymagać*).
+że *nie ma czego wymagać*).
 
 A zatem funkcja `p` "nic nie robi jeszcze bardziej" niż znana Ci już (teoriotypowa, nie
 teoriomnogościowa, czyli *funkcja jako program*) funkcja `nic_nie_robie`, i jest niemal tak
