@@ -248,8 +248,9 @@ wspólnoty*, do której należysz i której w takich sprawach ufasz.
 Główna rola, a więc sens, terminu technicznego *zbiór* sprowadza się w tego rodzaju komunikacyjnej
 (w)grze do określania, jakie pojęciowe albo fizyczne wejścia może przetwarzać ta zapisana częściowo
 nieformalnie funkcja (sic!) do typu zdaniowego, czyli ten dowód. Tutaj różnica między *zbiorami* i
-*typami* jest więc kosmetyczna, a w innych sytuacjach, w których ta różnica nie wydaje już całkiem
-kosmetyczna, możemy ją skutecznie zatrzeć, bowiem *całą* matematykę da się zakodować w Leanie.
+*typami* jest więc kosmetyczna, a w innych sytuacjach, w których ta różnica nie wydaje się już
+całkiem kosmetyczna, możemy ją skutecznie zatrzeć, bowiem *całą* matematykę da się zakodować w
+języku teorii typów.
 
 Kiedy *przyjmując tą interpretację pojęcia zbioru* mówimy o *zbiorze* liczb naturalnych, a nie *o
 liczbach naturalnych*, mówimy o pewnym *oznaczeniu* - a więc też o pewnej *funkcji do* - liczb
