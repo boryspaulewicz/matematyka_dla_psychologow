@@ -8,10 +8,11 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 31 marca. Dodałem rozdział [R26=R20 Rachunek zdań w
-zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md). Czytelniczki i czytelników, *którzy oswoili
-się już trochę z używaniem implikacji, negacji, koniunkcji i alternatywy* zapraszam do testowania,
-zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych.
+**Aktualności**: 2025.07.03 Znacząco przerobiłem rozdziały R19-R23, między innymi dodając tam nowe
+wątki, do których nawiązuję teraz w rozdziałach późniejszych. Zmieniłem też numerację rozdziałów -
+doszeł nowy rozdział R21, a więc stare R21+n to nowe R22+n. Zapraszam do testowania, zgłaszania
+trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych. Historia zmian
+jest [tutaj](Historia_zmian.md).
 
 ## Przedmowa
 
@@ -196,50 +197,52 @@ wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, pod
 
 [R6,5 = R00](./rozdzialy/Ewaluacja.md)
 
-[R7 = R01 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
+[R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
 
-[R8 = R02 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
+[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
 
-[R9 = R03 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
+[R9 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
 
-[R10 = R04 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
+[R10 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
 
-[R11 = R05 Modus ponens, obliczenia w dwóch wymiarach i nieważność
+[R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
 
-[R12 = R06 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
+[R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/Duzy_predykaty_Bog.md)
 
-[R13 = R07 Duży kwantyfikator, predykaty i implikacja w
+[R13 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
 
-[R14 = R08 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
+[R14 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
 
-[R15 = R09 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
 
-[R16 = R10 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
+[R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
-[R17 = R11 p ∧ q ~ p × q](./rozdzialy/Koniunkcja_jako_para.md)
+[R17 p ∧ q ~ p × q](./rozdzialy/Koniunkcja_jako_para.md)
 
-[R18 = R12 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/Koniunkcja_ze_strzalek.md)
+[R18 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/Koniunkcja_ze_strzalek.md)
 
-[R19 = R13 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
+[R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
 
-[R20 = R14 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
+[R20 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
 
-[R21 = R15 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
+[R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)
 
-[R22 = R16 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/Produkty_sa_takie_same.md)
+[R22 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
 
-[R23 = R17 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
+[R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/Produkty_sa_takie_same.md)
 
-[R24 = R18 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
+[R24 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
 
-[R25 = R19 ∃](./rozdzialy/Kwantyfikator_egzystencjalny.md)
+[R25 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
 
-[R26 = R20 Rachunek zdań w zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md)
+[R26 ∃](./rozdzialy/Kwantyfikator_egzystencjalny.md)
+
+[R27 Rachunek zdań w zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md)
 
 Notatki robocze do których można zaglądać:
 
