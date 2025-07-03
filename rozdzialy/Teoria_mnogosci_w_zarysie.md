@@ -232,8 +232,8 @@ A rolę takiego dajmy na to fragmentu ...
 ..  można objaśnić tak: Pisząc tak do Ciebie próbuję Ci lub w Tobie *zainstalować* albo *wgrać*
 pewną szczególną językową i pojęciową *procedurę*, czyli pewne *narzędzie*, które w tym wypadku jest
 akurat dowodem (twierdzenia o przemienności dodawania liczb naturalnych). Cały fragment przed słowem
-"ponieważ" ma więc pełnić taką samą rolę, co część definicji funkcji w Leanie, która poprzedza
-symbol definiowania `:=`.
+"ponieważ" ma więc pełnić taką samą rolę, jaką pełni ta część definicji funkcji w Leanie, która
+poprzedza symbol definiowania `:=`.
 
 Zastąpiony tutaj wielokropkiem dowód, który po przyswojeniu go przez Ciebie ma stać się ciałem tego
 twierdzenia jako funkcji zrealizowanej w Twoim ciele, działa poprawnie dla/dotyczy tylko określonych
