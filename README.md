@@ -10,7 +10,7 @@ najprostszej możliwej postaci.</em></div>
 
 **Aktualności**: 2025.07.03 Znacząco przerobiłem rozdziały R19-R23, między innymi dodając tam nowe
 wątki, do których nawiązuję teraz w rozdziałach późniejszych. Zmieniłem też numerację rozdziałów -
-doszeł nowy rozdział R21, a więc stare R21+n to nowe R22+n. Zapraszam do testowania, zgłaszania
+doszedł nowy rozdział R21, a więc stare R21+n to nowe R22+n. Zapraszam do testowania, zgłaszania
 trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych. Historia zmian
 jest [tutaj](Historia_zmian.md).
 
