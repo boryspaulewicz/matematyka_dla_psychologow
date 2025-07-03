@@ -367,10 +367,10 @@ przyporządkowaniem*.
 tym samym na kilka różnych sposobów, a do tego bardzo przydają się analogie i bardzo przydaje się
 bardziej swobodne używanie słów. O teoriomnogościowych funkcjach można myśleć jako o abstrakcyjnych
 *własnościach* pewnego rodzaju. Na przykład, można powiedzieć, że na Twoim drugim rysunku każdy
-element zbioru `X` ma określoną `f`-własność `Y`. Podobnie, każdy ma dokładnie jedno pierwsze imię i
-dokładnie jedną datę urodzenia, a więc te własności to *funkcje osób*. O funkcjach można również
-myśleć jako o *doskonałych pomiarach* albo *wartościach obserwowanych* pewnych właściwości czy
-wymiarów.
+element zbioru `X` ma określoną `f`-własność `Y`. Podobnie, każda osoba ma dokładnie jedno pierwsze
+imię i dokładnie jedną datę urodzenia, a więc te własności to *funkcje osób*. O funkcjach można
+również myśleć jako o *doskonałych pomiarach* albo *wartościach obserwowanych* pewnych właściwości
+czy wymiarów.
 
 I jakby odwrotnie, można o funkcjach myśleć jako o pewnego rodzaju *kompletnych oznaczeniach* albo
 *swobodnych rozdaniach wszystkich kart* w tym sensie, że każdy element dziedziny jest wykorzystany
