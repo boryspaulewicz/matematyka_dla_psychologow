@@ -240,7 +240,7 @@ twierdzenia jako funkcji zrealizowanej w Twoim ciele, działa poprawnie dla/doty
 rzeczy czy obiektów, to jest takich obiektów, które nauczyliśmy się (wystarczająco konsekwentnie)
 nazywać liczbami naturalnymi. Z tego dowodu, odkąd go *zaakceptowałaś jako dowód*, korzystasz
 zresztą tak samo jak Lean, bo *używając* przemienności dodawania ani nie przypominasz sobie tego
-dowodu, ani tym bardziej go nie stosujesz do wyprowadzenia wniosku na temat konkretnych par liczb
+dowodu, ani tym bardziej nie stosujesz go do wyprowadzenia wniosku na temat konkretnych par liczb
 naturalnych. Zamiast tego wystarczy Ci *pamiętać, że* to zdanie jest uniwersalnie prawdziwe. Być
 może nawet nie poznałaś dotąd dobrze dowodu tego twierdzenia i używając go korzystasz z *pamięci
 wspólnoty*, do której należysz i której w takich sprawach ufasz.
