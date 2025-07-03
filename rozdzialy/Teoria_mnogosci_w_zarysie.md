@@ -4,10 +4,9 @@ W tym rozdziale spróbuję Ci przybliżyć pewien sposób myślenia o zbiorach, 
 pasuje do najpopularniejszej *aksjomatyzacji* teorii mnogości, ale ma za to inne, ważniejsze dla nas
 zalety. Po pierwsze, ten sposób myślenia o zbiorach, elementach i funkcjach lepiej niż wspomniana
 aksjomatyzacja pasuje do *praktyki* używania tych pojęć w matematyce, a więc też do sposobu, w jaki
-zawodowi matematycy zdają się zwykle *myśleć* o zbiorach, elementach i funkcjach. A po drugie, ten
-punkt widzenia pozwala łatwiej dostrzec głębokie podobieństwa między teorią mnogości, teorią typów i
-teorią kategorii. Uprzedzam jednak, że ten rozdział ma przez to taki bardziej "filozoficzny"
-charakter.
+zawodowi matematycy zdają się zwykle *myśleć* o zbiorach, elementach i funkcjach. A po drugie,
+pozwala łatwiej dostrzec głębokie podobieństwa między teorią mnogości, teorią typów i teorią
+kategorii. Uprzedzam jednak, że ten rozdział ma przez to taki bardziej "filozoficzny" charakter.
 
 ## Teoria mnogości w za[rysie](https://pl.wikipedia.org/wiki/Ry%C5%9B)
 
