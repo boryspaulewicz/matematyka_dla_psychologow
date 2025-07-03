@@ -1,8 +1,8 @@
 ## O czym teraz będzie
 
-W tym rozdziale poznasz pewne rodzaje zbiorów i funkcji, które warto poznać, ponieważ dosłownie
-wszędzie ich pełno i nie da się myśleć nie używając tych pojęciowych narzędzi; nawet jeśli myśląc o
-tym lub owym robimy to zwykle nieświadomie i nie zawsze konsekwentnie albo z sensem.
+W tym rozdziale poznasz pewne rodzaje zbiorów i funkcji, których jest dosłownie wszędzie pełno i
+dlatego niemal nie da się myśleć nie używając tych pojęciowych narzędzi. Nawet jeśli myśląc o tym
+lub owym używamy ich zwykle nieświadomie i nie zawsze konsekwentnie albo z sensem.
 
 ## Te zbi{∅}ry są skończone
 
