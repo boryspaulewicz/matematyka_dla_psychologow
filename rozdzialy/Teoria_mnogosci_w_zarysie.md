@@ -264,9 +264,8 @@ wyróżnianie i oznaczanie, czyli umożliwiającej coś więcej, niż *wykonanie
 najbardziej podstawowego zadania, do wykonania którego używamy symboli jako symboli*:
 
 *Element to cokolwiek, co zostało wyróżnione na potrzeby formalnych rozważań, zbiór to jakiekolwiek
-wyróżnienie elementów, a funkcja to jakiekolwiek oznaczenie elementów za pomocą
-elementów. Podstawową rolą elementów, zbiorów i funkcji jako elementów, zbiorów i funkcji jest więc
-oznaczanie*.
+wyróżnienie elementów, a funkcja to jakiekolwiek oznaczenie elementów za pomocą elementów. Rolą
+elementów, zbiorów i funkcji jako elementów, zbiorów i funkcji jest więc oznaczanie*.
 
 <hr>
 
