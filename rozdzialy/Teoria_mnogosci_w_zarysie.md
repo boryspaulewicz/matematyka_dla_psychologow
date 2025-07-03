@@ -85,9 +85,8 @@ mają bliżej nieokreślone (a więc też nie-zależne) typy. Ta prawie-funkcja 
 aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
 każdemu z nich *przypisać*, dokonując w ten sposób czegoś w rodzaju nieredukowalnej aplikacji do
 czegoś (to jest arbitralnych elementów) pozbawionej ciała, albo takiej jakby "otwartej"
-funkcji. Innym sposób, który może ułatwić myślenie w ten sposób o zbiorach, polega na wyobrażeniu
-sobie, że każdy zbiór jest jak okrąg zawierający pozbawione jakiegokolwiek charakteru *punkty
-zaczepienia*.
+funkcji. Żeby ułatwić sobie myślenie w ten sposób o zbiorach można też próbować wyobrazić sobie, że
+każdy zbiór jest jak okrąg zawierający luźno rozrzucone, abstrakcyjne *punkty zaczepienia*.
 
 Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
