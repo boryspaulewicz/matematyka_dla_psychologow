@@ -363,7 +363,7 @@ singleton, iloczyn kartezjański i suma rozłączna zbiorów, można jakby na no
 jako kategoryjne *struktury strzałkowe*, i że to jest w pewnym sensie *lepszy*, bo jednocześnie
 *uniwersalny* i lepiej *dopasowany do ich roli* sposób mówienia o tych obiektach, konstrukcjach i
 własnościach. Niejako przy okazji zaczniesz też stopniowo w bardziej elastyczny sposób myśleć o
-"takosamości" matematycznych obiektów. Skorzystamy też z kilku spośród tych alternatywnych,
+"takosamości" matematycznych obiektów. A potem skorzystamy z kilku spośród tych alternatywnych,
 uniwersalnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
 **Element zbioru jako pojęcie strzałkowe**: Wybieramy najpierw dowolny konkretny zbiór
