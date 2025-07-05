@@ -345,7 +345,7 @@ I co, nie miałem racji twierdząc, że wszystko nam się uprości?
 ## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
 Zgaduję, że jesteś zawiedziona tym ostatnim uproszczeniem. Nie wiesz przecież, po czym można poznać
-takie działania i dlaczego warto poznawać teorię tego rodzaju działań, czyli teorię
+takie działania i dlaczego warto uczyć się teori tego rodzaju działań, czyli teorii
 kategorii. Jeżeli masz takie wątpliwości, to na razie powiem tylko tyle, że nie jesteś sama.
 Rozumienie *tego* rozwija się powoli.
 
