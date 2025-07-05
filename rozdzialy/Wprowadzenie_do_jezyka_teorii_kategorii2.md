@@ -339,7 +339,7 @@ Czyli, że:
 
 *Wielokrotne stosowanie tego działania można zapisać jako sekwencję*.
 
-I co, nie miałem racji mówiąc, że wszystko nam się uprości?
+I co, nie miałem racji twierdząc, że wszystko nam się uprości?
 
 ## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
