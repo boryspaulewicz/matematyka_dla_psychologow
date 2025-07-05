@@ -332,81 +332,92 @@ identyczności, bo zwykle jest jasne, które złożenia mają, a które nie maj�
 
 ... a *funkcjonalnie*, to jest w praktyce stosowania, łączność sprowadza się do tego, że:
 
-*Działanie, które dla potrzeb stosowania do niego języka teorii kategorii postanowiliśmy nazywać
-chwilowo kategoryjnym składaniem, można zapisać nie używając nawiasów.*
+**Działanie binarne, które dla potrzeb stosowania do niego języka teorii kategorii postanowiliśmy
+nazywać chwilowo kategoryjnym składaniem, można zapisać nie używając nawiasów**.
 
 Czyli, że:
 
-*Wielokrotne stosowanie tego działania można zapisać jako sekwencję*.
+**Rezultat wielokrotnego zastosowania tego działania można zapisać jako rezultat sekwencji
+działań**.
 
 I co, nie miałem racji twierdząc, że wszystko nam się uprości?
 
 ## Acha, fajnie, ale *dlaczego*? Czyli w tym [wypadku](https://sjp.pwn.pl/sjp/wypadek;2540057.html) *po co*?
 
-Zaczęłaś się już oswajać z *formalnym językiem* teorii kategorii, ale jeszcze nie z kategoryjnym
-*sposobem myślenia*. Przyszedł więc czas, żeby zacząć tego języka coraz swobodniej
-*używać*. Zgaduję, że w tym momencie aksjomaty kategorii kojarzą Ci się bardzo z konkretnymi
-przykładami zbiorów i funkcji, bo przecież od tego przykładu zaczęliśmy. Będziesz się odrywać od
-tego przykładu w dwóch krokach, a właściwie w dwóch
+Zgaduję, że jesteś zawiedziona tym ostatnim uproszczeniem. Nie wiesz przecież, po czym można poznać
+takie działania i dlaczego warto poznawać teorię tego rodzaju działań, czyli teorię
+kategorii. Jeżeli masz takie wątpliwości, to na razie powiem tylko tyle, że nie jesteś sama.
+Rozumienie *tego* rozwija się powoli.
+
+Zaczynasz się oswajać z *formalnym językiem* teorii kategorii, ale jeszcze nie ze *wspomaganym
+językiem teorii kategorii sposobem myślenia*. Przyszedł więc czas, żeby zacząć tego języka coraz
+swobodniej *używać*. Zgaduję, że w tym momencie aksjomaty kategorii kojarzą Ci się bardzo z
+konkretnymi przykładami zbiorów i funkcji, bo przecież od tego przykładu zaczęliśmy. Będziesz się
+odrywać od tego przykładu w dwóch krokach, a właściwie w dwóch
 [przelotach](https://pl.wikipedia.org/wiki/Przelot).
 
 Pokażę Ci, że pewne znane Ci już, ważne obiekty, konstrukcje i własności *teoriomnogościowe*, takie
 jak element zbioru (sic!), tożsamość, izomorficzność, injektywność i surjektywność funkcji,
 podzbiór, podział zbioru (na niepuste, wyczerpujące i rozłączne *pod*zbiory), zbiór pusty,
-singleton, iloczyn kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać jako
-kategoryjne *struktury strzałkowe* i że to jest w pewnym sensie *lepszy*, bo jednocześnie
+singleton, iloczyn kartezjański i suma rozłączna zbiorów, można jakby na nowo rozpoznać "z zewnątrz"
+jako kategoryjne *struktury strzałkowe*, i że to jest w pewnym sensie *lepszy*, bo jednocześnie
 *uniwersalny* i lepiej *dopasowany do ich roli* sposób mówienia o tych obiektach, konstrukcjach i
 własnościach. Niejako przy okazji zaczniesz też stopniowo w bardziej elastyczny sposób myśleć o
-"takosamości" matematycznych struktur. W międzyczasie (swoją drogą, co za tajemnicze słowo)
-skorzystamy z kilku spośród tych alternatywnych, uniwersalnych kategoryjnych definicji, żeby w nowy
-sposób popatrzeć na *logikę*.
+"takosamości" matematycznych obiektów. Skorzystamy też z kilku spośród tych alternatywnych,
+uniwersalnych kategoryjnych definicji, żeby w nowy sposób popatrzeć na *logikę*.
 
-**Element zbioru jako pojęcie strzałkowe**: Dla każdego zbioru `X`, istnieje oczywisty *izomorfizm*
-między funkcjami z dowolnego singletona - na przykład ze zbioru `{∅}` - do `X` i *elementami*
-należącymi do `X`. Każda taka funkcja wskazuje przecież dokładnie jeden element `x` zbioru `X` i
-odwrotnie, każdy taki element odpowiada dokładnie jednej takiej funkcji. *Wszystko*, co tylko da się
-powiedzieć o elementach zbiorów, można więc równie dobrze powiedzieć o takich funkcjach i vice
-versa. *Nie ma oznaczeń bez oznaczania, ani oznaczania bez oznaczeń*, pamiętasz?
+**Element zbioru jako pojęcie strzałkowe**: Wybieramy najpierw dowolny konkretny zbiór
+jednoelementowy, czyli singleton, na przykład `{∅}`. Dla każdego zbioru `X`, istnieje oczywisty
+*izomorfizm* między funkcjami z tego singletona do `X` i *elementami* należącymi do `X`. Każda taka
+funkcja wskazuje przecież dokładnie jeden element `x` zbioru `X` i odwrotnie, każdy taki element
+odpowiada dokładnie jednej takiej funkcji. *Wszystko*, co tylko da się powiedzieć o elementach
+zbiorów, można więc równie dobrze powiedzieć o takich funkcjach i vice versa. *Nie ma oznaczeń bez
+oznaczania, ani oznaczania bez oznaczeń*, pamiętasz?
 
-Na przykład, jeżeli `x ∈ X`, to istnieje *funkcja* `x`, a więc również strzałka w naszej kategorii
-zbiorów, funkcji i ich złożeń, taka, że `x : {∅} → X` i `x(∅) = x`. Nazwanie tej funkcji również
-literą `x` jest co prawda może (znowu, wiem) trochę nonszalanckie, ale *nie* jest poważnym błędem,
-bo ta *decyzja* ma charakter *metajązykowy* i mimo pojawiającej się z tego powodu dwuznaczności - i
-"dwutypowości"! - symbolu `x`, *kontekst użycia* pozwoli nam zawsze *jednoznacznie stwierdzić*, czy
-chodzi o element zbioru, czy o funkcję. Niestety, w niektórych sytuacjach to może być jednak zbyt
-mylące. Na przykład, gdyby chodziło o element będący liczbą `1`, to zapis `1(∅) = 1` mógłby
-sugerować, że mamy do czynienia z mnożeniem, a gdyby chodziło o wskazanie za pomocą funkcji z
-singletona elementu będącego zbiorem pustym, uzyskalibyśmy dezorientujące zdanie `∅(∅) = ∅`. Należy
-więc zachwać czujność.
+I tak, jeżeli `x ∈ X`, to istnieje *funkcja*, a więc również pewna *strzałka* w naszej *kategorii*
+(zbiorów, funkcji i ich złożeń), którą możemy również oznaczyć jako `x`, taka, że `x : {∅} → X` i
+`x(∅) = x`. Nazwanie tej funkcji również literą `x` jest co prawda może (znowu, wiem) trochę
+nonszalanckie, ale *nie musi być* błędem, bo ta *decyzja* ma charakter *metajązykowy* i mimo
+pojawiającej się z tego powodu dwuznaczności - i "dwutypowości"! - symbolu `x`, *kontekst użycia*
+pozwoli nam zawsze *jednoznacznie stwierdzić*, czy `x` oznacza element, czy funkcję. Niestety, w
+niektórych sytuacjach to może być jednak zbyt mylące. Na przykład, gdyby chodziło o element będący
+liczbą `1`, to zapis `1(∅) = 1` mógłby sugerować, że mamy do czynienia z mnożeniem, bo mnożenie
+dwóch elementów zapisujemy czasem zestawiając je ze sobą, a gdyby chodziło o wskazanie za pomocą
+funkcji z singletona elementu będącego zbiorem pustym, uzyskalibyśmy dezorientujące zdanie `∅(∅) =
+∅`. Należy więc zachwać czujność.
 
-Celowe wprowadzanie tego rodzaju dwuznaczności (`x` oznacza tu zarazem pewną funkcję do zbioru `X`
-jak i element należący do tego zbioru) nazywamy w informatyce (i w matematyce czasem zresztą też)
-[*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
-oficialnie ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
-pewne funkcje jako programy, tyle, że określonego rodzaju), ale jest przecież oczywiste, że ten sam
-manewr można zastosować, z tego samego powodu, a dokładniej w tym samym *celu* - to jest aby
-podkreślić jakieś głębsze podobieństwo albo bliski związek - do *dowolnych* stałych. A chcemy
-podkreślić ścisły związek między elementami zbioru `X` i tego rodzaju funkcjami, ponieważ chcemy,
-żeby różnica między tymi dwoma rodzajami obiektów stawała się coraz *mniej* widoczna. To jest więc
-kolejny przykład *celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama
-odgadnąć, co w tym kontekście znaczy zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się nie
-spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je
+Celowe wprowadzanie tego rodzaju dwuznaczności nazywamy w informatyce, i w matematyce czasem zresztą
+też, [*przeciążaniem*](https://pl.wikipedia.org/wiki/Przeci%C4%85%C5%BCanie_funkcji). Co prawda
+"oficialnie" ten termin dotyczy tylko przeciążania *nazw funkcji* albo *nazw metod* (metody to też
+pewne funkcje *jako programy*, tyle, że określonego rodzaju), ale jest jasne, że ten sam manewr
+można zastosować, z tego samego powodu, a dokładniej w tym samym *celu* - to jest aby podkreślić
+jakieś głębsze podobieństwo albo bliski związek - do *dowolnych* stałych. A chcemy podkreślić ścisły
+związek między elementami zbioru `X` i tego rodzaju funkcjami, ponieważ chcemy, żeby różnica między
+tymi dwoma rodzajami obiektów stawała się coraz *mniej* widoczna. To jest więc kolejny przykład
+*celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama odgadnąć, jak w tym
+kontekście można rozebrać na elementy składowe zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się
+nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je
 [tutaj](Element_x_jako_funkcja_z_singletona.md).
 
 **Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat duża
-litera `T` wyjaśnię później) ma własność strzałkową (czyli w tym wypadku "funkcjo-złożeniową")
-polegającą na tym, że dla każdego zbioru `X`, istnieje dokładnie jedna funkcja (czyli w tym momencie
+litera `T` wyjaśnię za chwilę) ma własność strzałkową (czyli *w tym wypadku* "funkcjo-złożeniową")
+polegającą na tym, że dla każdego zbioru `X`, istnieje dokładnie jedna funkcja (czyli również
 dokładnie jedna kategoryjna strzałka) *z* `X` *do* `T`. I odwrotnie, jeżeli zbiór `Y` ma taką
 własność, że dla każdego zbioru `Z` istnieje dokładnie jedna funkcja z `Z` do `Y` (czyli dokładnie
-jedna taka kategoryjna strzałka), to `Y` musi być zbiorem jednoelementowym.
+jedna taka kategoryjna strzałka), to `Y` musi być zbiorem jednoelementowym. Tego rodzaju kategoryjne
+punkty nazywamy obiektami końcowymi i oznaczamy czasem literą `T` od angielskiego słowa *terminal*,
+a czasem, ze względu na ich charakter w kategorii zbiorów i na to, jak się w pewnych sytuacjach
+zachowują, jako `1`.
 
-**Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię
-później) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`, istnieje dokładnie
-jedna funkcja (czyli w tym momencie kategoryjna strzałka) *z* `I` *do* `X`. I odwrotnie, jeżeli
+**Zbiór pusty z perspektywy kategoryjnej**: Każdy zbiór pusty `I` (dlaczego akurat `I` wyjaśnię za
+chwilę) ma własność strzałkową polegającą na tym, że dla każdego zbioru `X`, istnieje dokładnie
+jedna funkcja (czyli dokładnie jedna kategoryjna strzałka) *z* `I` *do* `X`. I odwrotnie, jeżeli
 zbiór `Y` ma taką własność, że dla każdego zbioru `Z`, istnieje dokładnie jedna funkcja (czyli
 również strzałka) z `Y` do `Z`, to `Y` musi być zbiorem pustym. Tak się akurat składa, że istnieje
 dokładnie jeden zbiór pusty, ale to nie sprawia, że dwa ostatnie zdania, które mówią o *dowolnych*
-takich zbiorach, są fałszywe.
+takich zbiorach, są fałszywe. Tego rodzaju kategoryjne punkty nazywamy *obiektami początkowymi* i
+oznaczamy zwykle albo jako `I`, od angielskiego słowa *initital*, albo jako `0`, z powodów
+analogicznych do tych, dla których obiekty końcowe oznaczamy często jako `1`.
 
 **Iloczyn kartezjański zbiorów z perspektywy kategoryjnej**: Niech `X = {1, 2}` i `Y = {a,
 b}`. Wtedy *każdy* element zbioru `X × Y`, taki jak na przykład `(2, a)`, można równie dobrze opisać
@@ -415,73 +426,83 @@ jako *taki element, którego pierwszym elementem jest* `2` *a drugim* `a`. A to 
 
 `(2, a)`
 
-... mówi do Ciebie *Jestem* `2` *i* `a`, *w tej kolejności*? Skoro tak, to równie dobrze możemy
-opisać każdy taki element *za pomocą projekcji*. Każdy taki element ma zatem tą *własność*, że
-*wszystkie* jego *własności* można wyrazić w kategoriach tych dwóch *własności* (tak, wiem, ale
+... mówi do Ciebie *Jestem* `2` *i* `a`, *w tej kolejności, i niczym więcej*? Skoro tak, to równie
+dobrze możemy opisać każdy taki element *za pomocą projekcji*: Każdy taki element ma tą *własność*,
+że *wszystkie* jego *własności* można wyrazić w kategoriach tych dwóch *własności* (tak, wiem, ale
 musiałem). I do tego w zasadzie sprowadza się definicja produktu kategoryjnego, a mimo to ta
 definicja może być początkowo trudna do zrozumienia.
 
 Pisałaś o tego rodzaju funkcjach, tak samo nazywając je zresztą *projekcjami*, w komentarzu pod
 jednym z naszych rysunków z poprzedniego rozdziału. Jesteśmy już bliżej kategoryjnego odpowiednika
 iloczynu zbiorów, ale jeszcze nie uchwyciliśmy "istoty" tego pojęcia za pomocą samych kategoryjnych
-strzałek, a tak naprawdę samej kategoryjnej operacji składania. Niestety, nie potrafię zaproponować
+strzałek, a tak naprawdę samej operacji kategoryjnego składania. Niestety, nie potrafię zaproponować
 rozumowania, które prowadziłoby prostą drogą do tej niezbyt prostej definicji, dlatego muszę ją
 przedstawić jako rezultat *wglądu*, to jest jako coś, co zostało częściowo przypadkowo przez kogoś
 kiedyś *odkryte*.
 
-**Rysunek 1**: `Narysuj` iloczyn kartezjański `X × Y` jako okrąg z odpowiednio oznaczonymi
-elementami, a po lewej od niego narysuj zbiór `{∅}`, również jako okrąg, zawierający jako swój
-jedyny element zbiór pusty, czyli `∅`. Następnie `Narysuj Strzalka ∅ v`, gdzie `v` będzie dowolnym
-wybranym przez Ciebie elementem zbioru `X × Y`, czyli strzałkę z *elementu* `∅` do jakiegoś
-*elementu* `v ∈ X × Y`, wyrażając w ten sposób strukturę wewnętrzną funkcji, i nazwij ją proszę
-`v`. W ten sposób jednocześnie wskażesz ten element, nazwiesz go i stwierdzisz, że jest elementem
-iloczynu `X × Y`. Czy widzisz, że niezależnie od tego, jaki element byś w ten sposób wskazała, ten
-element będzie zawsze *jednoznacznie* określony przez dwie własności, to jest przez to, jaki ma
-pierwszy i jaki ma drugi element (będące elementami tego elementu jako pewnej pary uporządkowanej
-\{nie wiem, czy musiałem, ale mogłem\})?
+**Rysunek 1**: `Narysuj` iloczyn kartezjański `X × Y`, gdzie `X = {1, 2}` i `Y = {a, b}`, jako okrąg
+z odpowiednio oznaczonymi elementami, a po lewej od niego narysuj zbiór `{∅}`, również jako okrąg,
+zawierający jako swój jedyny element zbiór pusty, czyli `∅`. Następnie `Narysuj Strzalka ∅ v`, gdzie
+`v` będzie dowolnym wybranym przez Ciebie elementem wewnątrz okręgu zbioru `X × Y`, czyli strzałkę z
+*elementu* `∅` do jakiegoś *elementu* `v ∈ X × Y`, wyrażając w ten sposób strukturę wewnętrzną
+pewnej funkcji, i oznacz ją symbolem `v`. W ten sposób jednocześnie wskażesz ten element, nazwiesz
+go, i stwierdzisz, że jest elementem iloczynu `X × Y`. Czy widzisz, że niezależnie od tego, jaki
+element byś w ten sposób wskazała, ten element będzie zawsze *jednoznacznie* określony przez dwie
+własności, to jest przez to, jaki ma pierwszy i jaki ma drugi element (będące elementami tego
+elementu jako pewnej pary uporządkowanej \{nie wiem, czy musiałem, ale mogłem\})?
 
 To teraz `Narysuj` jeszcze proszę dwie *projekcje* tego iloczynu. Żeby to zrobić, musisz albo nad i
 pod, albo po bokach od scharakteryzowanego już za pomocą rysunku zbioru `X × Y` dorysować zbiory `X`
 i `Y`. Gdy to zrobisz, `Narysuj` proszę funkcję `π₁ : X × Y → X` (`π` bo πrojekcja, jak li w słowie
-"likarstwo"[^4]) i `Narysuj` jej wewnętrzną strukturę, dodając strzałki od każdego elementu `(x, y)
-∈ X × Y` do `x ∈ X`. W ten sam sposób `Narysuj` πrojekcję `π₂ : X × Y → Y`.
+"likarstwo"[^4]), to jest `Narysuj` jej wewnętrzną strukturę, dodając strzałki od każdego elementu
+`(x, y) ∈ X × Y` do `x ∈ X`. W ten sam sposób `Narysuj` πrojekcję `π₂ : X × Y → Y`.
 
 Czy widzisz, że niezależnie od tego, który element `v ∈ X × Y` byś wskazała za pomocą funkcji z
 singletona `{∅}` do zbioru `X × Y`, takie wskazanie *zawsze* będzie odpowiadało *dokładnie jednej*
-uporządkowanej *parze wskazań elementów* `X` i `Y`, danej przez `π₁ ∘ v` i `π₂ ∘ v`? A czy widzisz,
-że każda taka (automatycznie, bo projekcje są tutaj indeksowane liczbami, a są nimi indeksowane, bo
-jeden z argumentów operacji `×` jest *pierwszy*, a drugi jest ... *drugi*) uporządkowana para
-wskazań odpowiada dokładnie jednemu wskazaniu elementu zbioru `X × Y`? 
+uporządkowanej *parze wskazań* elementów `X` i `Y`, danej przez `π₁ ∘ v` i `π₂ ∘ v`? A czy widzisz,
+że każda taka uporządkowana (uporządkowana "automatycznie", bo projekcje są tutaj indeksowane
+liczbami, a są nimi indeksowane, bo jeden z argumentów operacji `×` jest *pierwszy*, a drugi jest
+... *drugi*) para wskazań odpowiada dokładnie jednemu wskazaniu elementu zbioru `X × Y`?
 
-Mam nadzieję, że w tym momencie widzimy oboje, że mamy tu pewne narzucające się *izomorfizmy* między
-*elementami* znajdującymi się *wewnątrz* zbioru `X × Y`, znajdującymi się *na zewnątrz* tego zbioru
-*pojedynczymi funkcjami* z singletona do `X × Y` i, znajdującymi się również *na zewnątrz*, *parami
-funkcji* z singletona `{∅}` do zbiorów `X` i `Y` odpowiednio. A właściwie nic tu nie jest *tylko*
-"na zewnątrz", bo wszystko jest "pomiędzy" czymś a czymś, a raczej "od do". I to wszystko sprowadza
-się właściwie do wyrażonego za pomocą strzałek tego: *Elementy `X × Y` oznaczają pary elementów `X`
-i `Y`*.
+Mam nadzieję, że w tym momencie widzimy oboje, że mamy tu pewne narzucające się *izomorfizmy* między:
+
+1. *elementami* znajdującymi się *wewnątrz* zbioru `X × Y`,
+
+2. znajdującymi się *na zewnątrz* tego zbioru *pojedynczymi funkcjami* z singletona do `X × Y`,
+
+3. i znajdującymi się również *na zewnątrz*, *parami funkcji* z singletona `{∅}` do zbiorów `X` i
+`Y` odpowiednio.
+
+A właściwie nic tu nie jest *tylko* "na zewnątrz", bo wszystko jest "pomiędzy" czymś a czymś, a
+raczej "od do". I to wszystko sprowadza się właściwie do wyrażonego za pomocą strzałek stwierdzenia:
+*Elementy `X × Y` oznaczają pary elementów `X` i `Y`*.
 
 Teraz, gdy skończyłem pisać ten akapit, zaczęło mi się wydawać, że może jednak da się przedstawić
-kategoryjny iloczyn (który nazywamy raczej kategoryjnym *produktem*) jako wniosek z pewnego
-rozumowania. Po raz kolejny przekonałem się w ten sposób, że *najwięcej uczy się czegoś ten, kto sam
-próbuje kogoś tego czegoś nauczyć* i jednocześnie, że *najbardziej pogłębia swoje zrozumienie czegoś
-ten, kto próbuje to coś komuś jasno wytłumaczyć*. Wydaje mi się, że to jest dlatego tak niezwykle
-skuteczny sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwiek, że próby wytłumaczenia
-czegoś względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu (autor-)refleksji na
-*metapoziomie* (bo tylko na tym poziomie da się *kontrolować jasność wypowiedzi*). A tak w ogóle, to
-na pewnym poziomie abstrakcji nie ma chyba *żadnej* różnicy między uczeniem (się) i pogłębianiem
-zrozumienia czegoś. Dlatego jeszcze raz dziękuję, za to, że jesteś i za to, że czytasz. Dziękuję Ci,
-ponieważ czuję autentyczną wdzięczność, a czuję ją chyba głównie dzięki temu, że dopiero niedawno
-wreszcie zrozumiałem trochę lepiej coś[^3], co zdarzało mi się wcześniej powtarzać nieco ironicznie.
+kategoryjny iloczyn (który nazywamy raczej kategoryjnym *produktem*) jako *wniosek z pewnego
+rozumowania*. Może powinienem też wyjaśnić, dlaczego tak mi zależało, żeby w ten właśnie sposób
+zobaczyć kategoryjny produkt. O ile uda się znaleźć jakiś *naturalny* albo *logiczny* sposób, w jaki
+powstaje jakaś ważna matematyczna konstrukcja, to można próbować ten sposób *uogólnić*, w nadziei,
+że znajdzie się dzięki temu *inne* podobne konstrukcje.
 
-I mam też taką nieśmiałą propozycję, żebyśmy podziękowali za coś wspólnie. "Ja" Temu, który bez
-*nas* by nie istniał i który dzięki temu, że *my* jesteśmy i działamy jest i którego w "moim"
-formalnym języku mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty" komu
-tam uznasz za stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej większości
-prawie w ogóle niczego się systematycznie nie uczą i często nawet niczego nie próbują zanotować,
-kiedy uczesniczą w dyskusjach "naukowych" albo słuchają wystąpień, wielu jest nadal na szczęście
+Po raz kolejny przekonałem się w ten sposób, że *najwięcej uczy się czegoś ten, kto sam próbuje
+kogoś czegoś nauczyć* i jednocześnie, że *najbardziej pogłębia swoje zrozumienie czegoś ten, kto
+próbuje to coś komuś jasno wytłumaczyć*. Wydaje mi się, że to jest dlatego tak niezwykle skuteczny
+sposób uczenia się i pogłębiania rozumienia dosłownie czegokolwiek, że próby wytłumaczenia czegoś
+względnie *jasno* polegają zawsze na wielokrotnym dokonywaniu (autor-)refleksji na *metapoziomie*
+(bo tylko na tym poziomie da się *kontrolować jasność wypowiedzi*). A tak w ogóle, to na pewnym
+poziomie abstrakcji nie ma chyba *żadnej* różnicy między uczeniem (się) i pogłębianiem zrozumienia
+czegoś. Dlatego jeszcze raz dziękuję, za to, że jesteś i za to, że czytasz. Dziękuję Ci, ponieważ
+czuję autentyczną wdzięczność, a czuję ją chyba głównie dzięki temu, że dopiero niedawno wreszcie
+zrozumiałem trochę lepiej coś[^3], co zdarzało mi się wcześniej powtarzać nieco ironicznie.
+
+I mam też taką nieśmiałą propozycję, żebyśmy przy okazji podziękowali za coś wspólnie. "Ja" Temu,
+który bez *nas* by nie istniał i który dzięki temu, że *my* jesteśmy i działamy jest i którego w
+"moim" formalnym języku mogę wskazać jako kierunek współdziałania wspólnoty wszystkich ludzi, a "Ty"
+komu tam uznasz za stosowne. Za to, że wśród współczesnych naukowców, którzy w zdecydowanej
+większości prawie w ogóle niczego się systematycznie nie uczą i często nawet niczego nie próbują
+zanotować, gdy uczesniczą w dyskusjach albo słuchają wystąpień, wielu jest nadal na szczęście
 *zmuszonych*, w czasie wolnym od produkowania kolejnych "naukowych" publikacji - które zresztą
-często nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia "dla"
+często nie przynoszą im chyba ani szczególnej radości, ani satysfakcji - prowadzić zajęcia dla
 jakiś okropnych, namolnych studentów. No więc może podziękujmy właśnie za to, tylko krócej.
 
 Na koniec podpisz jeszcze proszę ten rysunek, korzystając w ten sposób z efektywności zapisu za
@@ -490,29 +511,32 @@ pomocą znanych Ci już w miarę dobrze terminów technicznych, następującym z
 dowolnego singletona do przeciwdziedzin projekcji tego iloczynu (i między funkcjami z dowolnego
 singletona do dowolnego iloczynu i elementami tego iloczynu)*.
 
-Wynika stąd, że wszystko, co możemy powiedzieć na temat elementów należących do dowolnego iloczynu
-kartezjańskiego, a więc po prostu wszystko, co możemy powiedzieć na temat iloczynu kartezjańskiego,
-możemy powiedzieć *pomijając wewnętrzną strukturę* tego rodzaju zbioru, zamiast tego mówiąć o
-*funkcjach* z jakiegoś singletona do tego iloczynu. No to już prawie [witamy się z
+Z naszych dotychczasowych rozważań (zbiory, elementy i funkcje jako trzy aspekty swobodnego i
+konsekwentnego oznaczania + izomorfizm między strzałkami do iloczynu kartezjańskiego i
+uporządkowanymi parami strzałek do jego członów) wynika, że wszystko, co możemy powiedzieć na temat
+elementów należących do dowolnego iloczynu kartezjańskiego, a więc po prostu wszystko, co możemy
+powiedzieć na temat iloczynu kartezjańskiego, możemy powiedzieć *pomijając wewnętrzną strukturę*
+tego rodzaju zbioru, zamiast tego mówiąć o *funkcjach* z jakiegoś singletona do tego iloczynu. No to
+już prawie [witamy się z
 gąską](https://pl.wiktionary.org/wiki/ju%C5%BC_by%C4%87_w_ogr%C3%B3dku,_ju%C5%BC_wita%C4%87_si%C4%99_z_g%C4%85sk%C4%85)
 produktu kategoryjnego.
 
-## Produkt kategoryjny
+## Kategoryjny produkt
 
 **Rysunek 2**: Ponieważ ten rysunek będzie bardziej skomplikowany, muszę wprowadzić bardziej
 skomplikowany język. Jeżeli, dla jakiegoś `Punkt X`, napiszę `Narysuj (Punkt Y) (<położenie> X)`
-(będę dodawał w ten sposób nawiasy żeby nie było między nami nieporozumień), gdzie `<położenie>`
-będzie jednym z termów `N`, `E`, `S`, `W`, `NE`, `SE`, `SW`, `NW`, oznaczających odpowiednio *na
-północ*, *na wschód*, *na południe*, *na zachód*, *na północny wschód*, *na południowy wschód*, *na
-południowy zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię o narysowanie punktu
-`Y` właśnie w tym położeniu względem punktu `X`.
+(będę dodawał w ten sposób nawiasy, żeby uniknąć nieporozumień), gdzie `<położenie>` będzie jednym z
+termów `N`, `E`, `S`, `W`, `NE`, `SE`, `SW`, `NW`, oznaczających odpowiednio *na północ*, *na
+wschód*, *na południe*, *na zachód*, *na północny wschód*, *na południowy wschód*, *na południowy
+zachód* i *na północny zachód*, to będzie znaczyło, że proszę Cię o narysowanie punktu `Y` właśnie w
+tym położeniu względem punktu `X`.
 
-No więc `Narysuj (Punkt X x Y)` i oznacz go z dołu jako `X x Y`, czyli po prostu oznacz go z
-dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` (czyli na południowy zachód od punktu `X × Y`) i
-oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X x
-Y) X)` i oznacz ją z góry jako `π₁` i w ten sam sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko tą
-oznacz sama już wiesz jak. `Narysuj (Punkt Z) (N (X x Y))` i - jako łuki wygięte na zewnątrz, tak,
-jakby to były skrzydła anioła - `Narysuj (Strzalka Z X)` i `Strzalka Z Y`, a potem oznacz je
+No więc na początek `Narysuj (Punkt X x Y)` i oznacz go z dołu jako `X x Y`, czyli po prostu oznacz
+go z dołu. Następnie `Narysuj (Punkt X) (SW (X x Y))` (czyli na południowy zachód od punktu `X × Y`)
+i oznacz go z dołu. Potem `Narysuj (Punkt Y) (SE (X x Y))` i oznacz go z dołu. `Narysuj (Strzalka (X
+x Y) X)` i oznacz ją z góry jako `π₁` i w ten sam sposób `Narysuj` strzałkę `π₂ : X x Y → Y`, tylko
+tą oznacz sama już wiesz jak. `Narysuj (Punkt Z) (N (X x Y))` i - jako łuki wygięte na zewnątrz,
+tak, jakby to były skrzydła anioła - `Narysuj (Strzalka Z X)` i `Strzalka Z Y`, a potem oznacz je
 odpowiednio literami `f` i `g`, zapisując te nazwy po zewnętrznych stronach tych skrzydeł albo
 strzałek. Wreszcie linią *przerywaną* `Narysuj (Strzalka Z (X x Y))` i po lewej albo po prawej, jak
 chcesz, oznacz ją jako `⟨f, g⟩`. Na koniec wewnątrz każdego ze skrzydeł nanieś ptaszka, bo ten
@@ -524,15 +548,15 @@ Niezależnie od tego, jaki byśmy wybrali zbiór `Z` ...
 albo: *czym byśmy oznaczali*
 
 ... i niezależnie od tego, jakie byśmy wybrali funkcje `f : Z → X` i `g : Z → Y` ...  
-albo: *jak byśmy oznaczyli i które `X`-y i `Y`-ki*`
+albo: *jak byśmy oznaczyli `X`-y i `Y`-ki*`
 
 ... będzie *istniała* taka funkcja `h : Z → X × Y`, że `f = π₁ ∘ h` i `g = π₂ ∘ h`.  
-albo: *oznaczymy w ten sposób oznaczenia jednoczesne `X`-ów i `Y`-ków*.
+albo: *oznaczymy w ten sposób jednoczesne oznaczenia `X`-ów i `Y`-ków*.
 
 Skąd to wiemy? Stąd, że umiemy czytać ze zrozumieniem objaśnienia oparte na interpretacji zbiorów,
 elementów i funkcji jako trzech aspektów oznaczania, jak również stąd, że umiemy udowodnić
-odpowiednie twierdzenie, które mówi to samo w języku dedykowanym. Dla dowolnego `z ∈ Z`,
-istnieje dokładnie jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x,
+odpowiednie twierdzenie, które mówi to samo w języku dedykowanym: Dla dowolnego `z ∈ Z`, istnieje
+dokładnie jedna para `(x, y)` taka, że `f(z) = π₁((x, y))` i *jednocześnie* `g(z) = π₂((x,
 y))`. Widzisz, że to musi być para uporządkowana `(f(z), g(z))`, i że para o takich wartościach
 projekcji istnieje dla każdego `z ∈ Z`?  A więc tego rodzaju funkcja `h` *istnieje*. Co więcej, w
 ten sposób scharakteryzowana funkcja *nie ma wyboru*, ponieważ, jak nakazują ptaszki na skrzydłach
@@ -543,43 +567,44 @@ której ten diagram jest przemienny, czyli dla której `π₁ ∘ h = f` i `π�
 zarazem *unikalna*, a więc *ta funkcja jest funkcją pary funkcji* `f` *i* `g`. Właśnie dlatego
 możemy ją zapisać jako `⟨f, g⟩`.
 
-Widzimy w ten sposób, że każda para funkcji `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
-iloczynu kartezjańskiego odpowiada dokładnie jednej funkcji `h` ze zbioru `Z` do tego iloczynu,
-która "dzieli" te funkcje (to analogia do mnożenia), to jest która spełnia warunek `f = π₁ ∘ h` i
-warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z dowolnego zbioru do iloczynu kartezjańskiego
-odpowiada *unikalnej parze uporządkowanej* funkcji z tego zbioru do członów tego iloczynu,
-pozwalającej narysować oba ptaszki; jest to po prostu para funkcji `π₁ ∘ h` i `π₂ ∘ h`.
+Widzimy w ten sposób, że każda *para funkcji* `f` i `g` z dowolnego zbioru `Z` do członów dowolnego
+iloczynu kartezjańskiego odpowiada *dokładnie jednej funkcji* `h` ze zbioru `Z` do tego iloczynu,
+która "dzieli" te funkcje (to analogia do mnożenia), to jest która spełnia podwójny warunek `f = π₁
+∘ h` i warunek `g = π₂ ∘ h`. I odwrotnie, każda funkcja `h` z dowolnego zbioru do iloczynu
+kartezjańskiego odpowiada *unikalnej parze uporządkowanej* funkcji z tego zbioru do członów tego
+iloczynu, pozwalającej narysować oba ptaszki; jest to po prostu para złożeńq `π₁ ∘ h` i `π₂ ∘ h`.
 
 <hr>
 
 **Filozofując**: Spróbujmy zobaczyć wyraźnie, a dzięki temu lepiej zrozumieć, co się właśnie stało.
 
-Punktem wyjścia było formalne pojęcie pary uporządkowanej *elementów* dwóch (dowolnych) zbiorów:
-`(x, y)`. "Istotę" bycia taką parą uporządkowaną elementów można wyrazić warunkiem: `(x, y) = (x',
-y')` wtedy i tylko wtedy, gdy `x = x` i `y = y'`. Takie pary były dla nas najpierw (dokładnie
-wszystkimi) elementami *wewnątrz* zbioru, który oznaczaliśmy jako `X × Y`.
+Punktem wyjścia było pojęcie pary uporządkowanej *elementów* dwóch (dowolnych) zbiorów: `(x,
+y)`. "Istotę" bycia taką parą uporządkowaną elementów można wyrazić warunkiem: `(x, y) = (x', y')`
+wtedy i tylko wtedy, gdy `x = x` i `y = y'`. Takie pary były dla nas najpierw (dokładnie wszystkimi)
+elementami *wewnątrz* pewnego specjalnego zbioru, który oznaczyliśmy jako `X × Y`.
 
-Idąc tropem interpretacji pojęcia zbioru jako *struktury służącej do swobodnego wyróżniania czy
-oznaczania elementów*, a zatem również elementów jako arbitralnych oznaczeń, możemy popatrzeć na
-każdą parę uporządkowaną `(x, y)` jako na niezależne oznaczenie czy wyróżnienie pary elementów,
-(wymienionego jako) *pierwszego* należącego do zbioru `X` i (wymienionego jako) *drugiego* do zbioru
-`Y`. Czym innym mogłoby być w tym kontekście `(x, y)`? Zwracam uwagę, że dokonaliśmy oto moim
-zdaniem *psychologicznie* ważnej zmiany sposobu myślenia.  Zamiast traktować pary uprządkowane jako
-*obce, zimne, abstrakcyjne byty, istniejące nie wiadomo gdzie i jak*, które trzeba poznawać powoli i
-z wysiłkiem za pomocą trudnej matematyki, rozpoznaliśmy w nich co prawda "zmechanizowane", a przez
-to może trochę mniej "ludzkie", ale jednak *nasze własne, proste językowe narzędzie*, nadające się
-świetnie do konsekwentnego i bezmyślnie sprawdzalnego myślenia o pewnych bardzo (hm) elementarnych
-sprawach.
+Idąc tropem interpretacji zbioru jako *struktury służącej do swobodnego wyróżniania czy oznaczania
+elementów*, a zatem również elementów jako arbitralnych oznaczeń, możemy popatrzeć na każdą parę
+uporządkowaną `(x, y)` jako na niezależne oznaczenie czy wyróżnienie pary elementów, (wymienionego
+jako) *pierwszego* należącego do zbioru `X` i (wymienionego jako) *drugiego* do zbioru `Y`. Czym
+innym mogłoby być w tym kontekście `(x, y)`? 
+
+Zwracam uwagę, że dokonaliśmy oto moim zdaniem *psychologicznie* ważnej zmiany sposobu myślenia.
+Zamiast traktować pary uprządkowane jako *obce, zimne, abstrakcyjne byty, istniejące nie wiadomo
+gdzie i jak*, które trzeba poznawać powoli i z wysiłkiem za pomocą trudnej matematyki, rozpoznaliśmy
+w nich co prawda "zmechanizowane", a przez to może trochę mniej "ludzkie", ale jednak *nasze własne,
+proste językowe narzędzie*, nadające się świetnie do bezmyślnie sprawdzalnego myślenia o pewnych
+bardzo (hm) elementarnych sprawach.
 
 A mówiąc dokładniej, korzystając z dopasowania między ...
 
-1. formalnym pojęciem elementu zbioru
+1. sformalizowanym pojęciem elementu zbioru
 
 2. *funkcjonalnym*, w znaczeniu *określonym przez rolę*, "istniejącym" na poziomie *interpretacji*
    albo dotyczącym *sposobu użycia* pojęciem swobodnego wyróżnienia/oznaczenia/wskazania
 
-3. i "ucieleśniającą" w mechanicznym języku formalnym to ostatnie pojęcie konstrukcją funkcji z
-   singletona
+3. i "ucieleśniającą" albo "implementującą" w mechanicznym języku formalnym to ostatnie pojęcie
+   konstrukcją funkcji z singletona
 
 ... widzimy, że arbitralna para uporządkowana elementów zbiorów `X` i `Y` to *funkcjonalnie* (nie
 mylić z *funkcyjnie*) to samo, co arbitralna uporządkowana para funkcji z singletona do zbiorów `X`
@@ -588,21 +613,21 @@ funkcji *funkcjonalny* punkt widzenia na zbiór par uporządkowanych.
 
 Ta fundamentalna zmiana była możliwa dzięki temu, że po drodze *zrezygnowaliśmy z pojęcia elementu
 jako czegoś wewnątrz zbioru*, zamiast tego charakteryzując wszystko w "kategoriach kategoryjnych",
-to jest w kategoriach zbiorów rozumianych jako punkty o bliżej nieokreślonej, a raczej *nieważnej*
-(bo przecież ją pamiętamy i traktowaliśmy ją jako ważny punkt wyjścia) strukturze wewnętrznej. I tak
-oto, za sprawą przyjęcia i wyrażenia w kodzie tej nowej perspektywy, zbiory stały się tylko
-swobodnymi oznaczeniami, zatarła się różnica między pojęciami zbioru i funkcji, i wszystko zostało
-scharakteryzowane funkcjonalnie, przez co "mechanizm" formalnego języka zbliżył się do nieformalnego
-języka ról albo celów, albo do abstrakcyjnie rozumianego *zadania swobodnego
-oznaczania/wyróżniania*.
+to jest w kategoriach zbiorów rozumianych jako punkty o bliżej nieokreślonej, a raczej *chwilowo
+nieważnej* (bo przecież ją pamiętamy i traktowaliśmy ją jako ważny punkt wyjścia) strukturze
+wewnętrznej. I tak oto, za sprawą przyjęcia i wyrażenia w kodzie tej nowej perspektywy, zbiory stały
+się tylko jakimiś swobodnymi oznaczeniami, zatarła się różnica między pojęciami zbioru i funkcji, i
+wszystko zostało scharakteryzowane funkcjonalnie, przez co mechanika formalnego języka zbliżyła się
+do nieformalnego języka ról albo celów, albo do może abstrakcyjnie rozumianego, ale intuicyjnego
+**zadania** *swobodnego oznaczania/wyróżniania*.
 
-Ostatnim krokiem było uogólnienie tej charakteryzacji przez zastąpienie par funkcji z singletona
+Ostatnim krokiem było uogólnienie tej charakteryzacji przez zastąpienie par funkcji z *singletona*
 parami funkcji z *dowolnego* (tego samego) zbioru. Żeby dostrzec zasadność tego kroku wystarczy
 zaobserwować, że pojęcie singletona jest co prawda ważne, ale nie do wszystkiego się nadaje. W
 szczególności, to pojęcie nie jest konieczne, gdy chcemy scharakteryzować jakiś rodzaj zbioru w
 kategoriach struktury relacji między tym zbiorem a wszystkimi innymi zbiorami. Wtedy potrzebne i
 wystarczające okazuje się pojęcie *arbitralnej* funkcji, to jest arbitralnego *jednoczesnego*,
-niekoniecznie *pojedynczego* oznaczenia.
+niekoniecznie jednoelementowego oznaczenia.
 
 Zamiast tego:
 
@@ -632,7 +657,7 @@ niezależnym podwójnym swobodnym oznaczaniem/wyróżnianiem.
 
 To, *do czego używamy*, albo *w jakim celu* wprowadziliśmy formalną konstrukcję typu `(x, y)` *stało
 się formalną strukturą*. Inaczej mówiąc *treść stała się formą*. Tak oto *tworząc matematykę
-uzewnętrzniami w postaci pewnych mechanizmów nasze własne sposoby myślenia*.
+uzewnętrzniamy w postaci językowych mechanizmów nasze własne sposoby myślenia*.
 
 <hr>
 
@@ -642,7 +667,8 @@ oznaczającego operację tworzenia iloczynów kartezjańskich zbiorów `×`. Mo�
 dopuszczamy, o ile to można zrozumieć jednoznacznie ze względu na kontekst, przeciążania stałych, a
 `×` to pewna stała (oznaczająca pewną operację). Wtedy na tym diagramie nie będzie już *żadnych*
 symboli teoriomnogościowych, a więc zostanie sam język teorii kategorii, to jest tylko punkty
-zaczepienia, strzałki jako strzałki i własności dotyczące operacji składania strzałek.
+zaczepienia jako *jakieś* punkty, strzałki jako *jakieś* strzałki i własności dotyczące *jakiejś*,
+spełniającej wymagania kategoryjnego składania strzałek, operacji.
 
 Przyjmujemy więc definicję, zgodnie z którą *produktem kategoryjnym*, albo po prostu *produktem*,
 będziemy nazywać każdy *punkt* (oficialnie: obiekt) wyposażony w *dwie* wychodzące z niego
