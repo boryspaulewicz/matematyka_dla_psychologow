@@ -45,6 +45,8 @@ example (P Q R S : Prop) (f : P → Q) (g : Q → R) (h : R → S) :
   Z f (Z g h) = Z (Z f g) h := by rfl
 ```
 
+<hr>
+
 ### Dygresja na temat słowa kluczowego `example`
 
 Przy okazji widzimy, że dowody anonimowe, które konstruujemy za pomocą słowa kluczowego `example`,
@@ -89,7 +91,7 @@ Czy widzisz, że ten ostrożny sposób mówienia staje się już zbędny i troch
 *W kategorii* `Set` *istnieją dokładnie dwie strzałki równoległe z punktu odpowiadającego zbiorowi*
 `X` *do punktu odpowiadającego zbiorowi* `Y`.
 
-... moglibyśmy powiedzieć krócej ...
+... moglibyśmy powiedzieć krócej, *celowo mieszając ze sobą dwa języki*, ...
 
 *W kategorii zbiorów istnieją dokładnie dwie funkcje równoległe ze zbioru* `X` *do zbioru* `Y`.
 
@@ -103,7 +105,7 @@ W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz pr
 strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając (zdanie odpowiadające
 punktowi) `P` da się w jakikolwiek sposób udowodnić (zdanie odpowiadające punktowi) `Q`. W tej
 kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof irrelevance*,
-wszystkie dowody tego samego zdania są równe. Takie kategorie, które nie mają par różnych strzałek
+wszystkie dowody tego samego zdania są równe. Kategorie, które nie mają par różnych strzałek
 równoległych, nazywamy [*cienkimi*](https://ncatlab.org/nlab/show/thin+category) (ang. *thin*).
 
 Mamy tu zatem cienką kategorię, to jest taką, że dla każdej pary punktów `P` i `Q`, istnieje *co
@@ -121,9 +123,9 @@ relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierający
 każda liczba należąca do `X` może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych
 liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę `x →
 y`. Ponieważ relacja `≤` jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy
-`∀ x ∈ X, x ≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest
-*przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych
-strzałek istnieje strzałka z tą parą kompatybilna, to jest taka, która mogłaby być ich
+`∀ x ∈ X, x ≤ x`, to od razu mamy *kandydatów* na strzałki identycznościowe, a ponieważ taka relacja
+jest *przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych
+strzałek istnieje strzałka z tą parą kompatybilna, to jest taka, która *mogłaby* być ich
 złożeniem. Pozostaje tylko ustalić, czy ...
 
 1. `f Id = f = Id f`
@@ -136,8 +138,8 @@ złożeniem. Pozostaje tylko ustalić, czy ...
 Na przykład, jeżeli `Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo
 istnieje tylko jedna strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest
 automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej endostrzałki, a
-więc każdej identyczności w tej być może (bo jeszcze upewniamy się, czy zachodzi łączność składania)
-kategorii.
+więc każdej identyczności w tej być może (bo jeszcze musimy się upewnić, czy zachodzi łączność
+składania) kategorii.
 
 A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma znaczenia, czy najpierw
 uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a potem złożymy ją ze
@@ -145,8 +147,7 @@ strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy naj
 złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej strzałkę `h`,
 uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskamy ... jedyną strzałkę z `X`
 do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę. Widzimy więc, że sama
-"relacyjność" kategorii, to jest bycie kategorią cienką, daje nam automatycznie łączność składania
-strzałek.
+"relacyjność" daje nam automatycznie łączność składania strzałek.
 
 Zauważyłaś, że udowadniając, że z relacji `≤` można zrobić kategorię, korzystaliśmy *tylko* z tego,
 że ta relacja jest zwrotna i przechodnia? Nie było łatwo to zauważyć, prawda? A to jest ważne, bo
