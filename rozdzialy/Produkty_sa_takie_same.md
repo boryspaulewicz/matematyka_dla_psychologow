@@ -642,42 +642,40 @@ przykład *przekształcenia projekcji* wymienianego na inny *produktu* (jeśli a
 produkt na drugi, ale tak samo możemy wymieniać na przykład wszystkie obiekty końcowe), ale wtedy
 *nie musimy wskazywać* metody tej "automatyzowalnej transmutacji", ponieważ istnieje dokładanie
 jedna taka (to jest kanoniczna, ale w ogólnym przypadku, gdy wymieniamy dowolne dwa izomorficzne
-obiekty/punkty, może być też wybrana arbitralnie, trzeba ją tylko wcześniej wskazać lub ogłosić)
-metoda w każdą stronę. Ewentualne wymagane dodatkowe "re-konstruujące funkcjonalność" operacje
-(takie jak wymiana jednej pary projekcji na drugą) są przez tą metodę (czyli ten wyróżniony
-izomorfizm) *wymuszone*, a więc co prawda te operacje muszą być *zastosowane*, ale odkąd jakiś
-konkretny izomorfim został albo wskazany, albo "się narzucił", bo jest kanoniczny, *nie trzeba tych
-operacji szukać*.
+obiekty/punkty, może być też wybrana arbitralnie, trzeba ją tylko wcześniej wskazać) metoda w każdą
+stronę. Ewentualne wymagane dodatkowe "re-konstruujące funkcjonalność" operacje (takie jak wymiana
+jednej pary projekcji na drugą) są przez tą metodę (czyli ten wyróżniony izomorfizm) *wymuszone*, a
+więc co prawda te operacje muszą być *zastosowane*, ale odkąd jakiś konkretny izomorfim został albo
+wskazany, albo "się narzucił", bo jest kanoniczny, *nie trzeba tych operacji szukać*.
 
 Na przykład, w kategorii zbiorów i funkcji wszystkie zbiory jednoelementowe są obiektami końcowymi,
-przez co wszystkie takie obiekty są kanonicznie izomorficzne ... 
+przez co wszystkie takie obiekty są kanonicznie izomorficzne (dowód) ... 
 
-*Przypominam dowód*: Jeżeli `T₁` i `T₂` są obiektami końcowymi, to (z definicji obiektu końcowego)
-istnieje dokładnie jedna (a więc "narzucająca się") strzałka z `T₁` do `T₂`, i istnieje dokładnie
-jedna strzałka z `T₂` do `T₁`. Te strzałki są składalne na dwa sposoby (bo są przeciwrównoległe), a
-każde z tych złożeń musi być identycznością, bo (z definicji obiektu końcowego) istnieje dokładnie
-jedna strzałka z `T₁` do `T₁`, i tak samo z `T₂` do `T₂`, a każdy obiekt ma swoją endostrzałkę
-identycznościową.
+Jeżeli `T₁` i `T₂` są obiektami końcowymi, to (z definicji obiektu końcowego) istnieje dokładnie
+jedna (a więc "narzucająca się") strzałka z `T₁` do `T₂`, i istnieje dokładnie jedna strzałka z `T₂`
+do `T₁`. Te strzałki są składalne na dwa sposoby (bo są przeciwrównoległe), a każde z tych złożeń
+musi być identycznością, bo (z definicji obiektu końcowego) istnieje dokładnie jedna (endo)strzałka
+z `T₁` do `T₁`, i tak samo z `T₂` do `T₂`, a każdy obiekt ma swoją endostrzałkę identycznościową.
 
-... a więc wszystkie takie zbiory *działają tak samo jako obiekty końcowe*. W przypadku obiektów
-końowych w kategorii zbiorów i funkcji to polega na przykład na tym, że każdy z takich obiektów
-nadaje się tak samo dobrze do wskazywania każdego elementu każdego zbioru, a więc każdy zbiór
-"dostaje" tyle samo strzałek z każdego obiektu końcowego. A mówiąc ogólnie, niezależnie od tego, o
-jaką kategorię chodzi, wszystkie *kategoryjne*, to jest "strzałkowo-złożeniowe" relacje między
-jednym obiektem końcowym a wszystkimi innymi obiektami są takie same, jak wszystkie *kategoryjne*
-relacje między dowolnym innym, z konieczności kanonicznie izomorficznym obiektem końcowym a
-wszystkimi innymi obiektami.
+... a więc wszystkie obiekty końcowe *działają tak samo* i *same dostarczają metod przemiany jednego
+takiego obiektu w drugi*. W przypadku obiektów końowych w kategorii zbiorów i funkcji to polega na
+przykład na tym, że każdy z takich obiektów nadaje się tak samo dobrze do wskazywania każdego
+elementu każdego zbioru, bo każdy zbiór "dostaje" tyle samo strzałek z każdego obiektu końcowego. A
+mówiąc ogólnie, niezależnie od tego, o jaką kategorię chodzi, wszystkie *kategoryjne*, to jest
+"strzałkowo-złożeniowe" relacje między jednym obiektem końcowym a wszystkimi innymi obiektami są
+takie same, jak wszystkie *kategoryjne* relacje między dowolnym innym, z konieczności kanonicznie
+izomorficznym obiektem końcowym a wszystkimi innymi obiektami.
 
 Jeżeli nadal trudno Ci się oswoić z tym abstrakcyjnym faktem, to pomyśl może o analogii do liczb
 wymiernych. Każdą konkretną liczbę wymierną możemy *zapisać* na nieskończenie wiele *różnych*
 sposobów jako ułamek. Na przykład, liczbę `1/2` możemy zapisać równie dobrze jako `2/4`, `3/6`,
 `333/666`, i tak dalej, czyli jako *dowolną* uporządkowaną parę liczb całkowitych taką, że druga z
 nich nie jest zerem i pierwsza jest dwa razy mniejsza niż druga. *Tą samą* liczbę wymierną można
-więc *zrobić* z liczb całkowitych na nieskończenie wiele różnych sposobów, i ten fakt nie
-przeszkadza Ci w traktowaniu takich rozmaicie zrobionych liczb jako jednej i tej samej liczby. A
-jest tak dokładnie dlatego, że tych par liczb (zapisywanych zwykle jedna nad drugą) *używasz* w
-pewien określony sposób, to jest właśnie *jako liczb wymiernych*, a to, jak one *działają*, decyduje
-dla Ciebie o ich *tożsamości*.
+więc *zrobić* z liczb całkowitych na nieskończenie wiele różnych sposobów.Ten fakt nie przeszkadza
+Ci jednak w traktowaniu takich *rozmaicie zrobionych* liczb *jako jednej i tej samej liczby*. A jest
+tak dokładnie dlatego, że tych par liczb (zapisywanych zwykle jedna nad drugą) *używasz* w pewien
+określony sposób, to jest właśnie *jako liczb wymiernych*, i właśnie to, jak one *działają jako
+liczby wymierne*, decyduje dla Ciebie o ich *tożsamości*.
 
 Skoro więc:
 
