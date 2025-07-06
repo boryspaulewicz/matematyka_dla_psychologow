@@ -859,7 +859,7 @@ przekształcenia* `Hom`, które *tworzy pewną kategorię* z podanej kategorii `
 kategorii) kategorię możemy oznaczyć jako `Hom_ℂ(Z,_)`. Ale o tym kiedy indziej.
 
 **No dobrze, ale dlaczego**: *chcemy* robić (między innymi) z pojęciem produktu coś tak (pozornie)
-bardzo i (pozornie) niepotrzebnie "pogmatwanego"?
+bardzo i (pozornie) niepotrzebnie pogmatwanego?
 
 Otóż posługując się takimi strukturami, pół-formalny fragment matematycznej prozy taki jak ten ...
 
