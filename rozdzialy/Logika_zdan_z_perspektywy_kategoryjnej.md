@@ -206,40 +206,47 @@ z pierwszego punktu do drugiego. Wobec tego w przypadku cienkich kategorii *każ
 przemienny. Czy w takim razie warto było rysować te wszystkie diagramy? Zaznaczam, że nie znam
 odpowiedzi na to pytanie!
 
-## Czasem można coś dosypać
+<hr>
 
-Znanym Ci doskonale przykładem relacji, z której *nie* powstaje kategoria w taki sam sposób jak z
-relacji `≤`, jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż*, określona na jakimś
-zbiorze liczb, ponieważ ta relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
+## Czasem można coś [dosypać](https://www.dictionary.com/e/memes/salt-bae/)
+
+To będzie kolejny przykład czegoś, co jest *technicznie proste*, to jest łatwe do bezmyślnego
+opanowania, i co ewidentnie *działa*, to jest sprawdza się w praktyce do określonych celów, ale co
+mimo to może być *trudne do zaakceptowania*. Znanym Ci doskonale przykładem relacji, z której *nie*
+powstaje kategoria w taki sam sposób jak z relacji `≤` jest - zwykle oznaczana symbolem `<` -
+relacja *mniejsze niż*, określona na jakimś zbiorze liczb, ponieważ ta relacja *nie jest
+zwrotna*. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
 liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzwrotność relacji), bo żadna
 liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
 `≤` strzałek identycznościowych.
 
-Z drugiej strony, relacja `<` jest mimo wszystko przechodnia, bo przecież dla każdych trzech liczb
-`m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą
-strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
-wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że to jest
-relacja. Brakowałoby więc *tylko* identyczności.
+Z drugiej strony, relacja `<` jest mimo wszystko przechodnia, to jest dla każdych trzech liczb `m`,
+`n` i `o`, zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą strzałek,
+wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a wymaganie
+łączności składania byłoby spełnione automatycznie dzięki temu, że to jest relacja. Brakowałoby więc
+*tylko* identyczności.
 
-Moglibyśmy wtedy jednak *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć
-konwencję*, że te są elementami neutralnymi, uzyskując w ten sposób pewną kategorię. Możemy przecież
-stworzyć kategorię jaką tylko chcemy, z czego tylko chcemy, i według jakich tylko chcemy zasad, o
-ile tylko taka konstrukcja będzie spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i
-unikać bredzenia, co też oczywiście bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie
-nie doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda
-nam się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
+Moglibyśmy wtedy *dodać endostrzałki*, które *niczego by nie oznaczały*, i *przyjąć konwencję*, że
+te są identycznościami. Uzyskalibyśmy w ten sposób pewną (cienką) kategorię. Możemy przecież
+stworzyć czy rozważać (jest jakaś różnica?) kategorię jaką tylko chcemy, z czego tylko chcemy, i
+według jakich tylko chcemy zasad, o ile tylko taka konstrukcja będzie spełniała aksjomaty kategorii
+(jeżeli chcemy być konsekwentni i unikać bredzenia, co też oczywiście bywa przyjemne i
+pożyteczne). W końcu jesteśmy wolni i nigdzie nie doświadczymy takiej wolności jak w sferze
+fantazji. Ostatecznie liczy się *tylko* to, czy uda nam się z taką kategorią zrobić coś
+pouczającego, interesującego, albo nawet tylko zabawnego.
 
-Matematyka pozwala nam skutecznie myśleć o *dowolnych zagadnieniach, na dowolnym poziomie ogólności
-i z dowolnych punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic*
-tak nie pomaga jak matematyka, i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do
-sprzeczności, to będziemy mieć gwarancję, że wyprowadzone dedukcyjnie wnioski, jakie by nie były,
-będą prawdziwe na mocy przyjętych założeń, definicji, i aksjomatów (które też są zresztą
-definicjami, tylko że pozbawionymi ciała). Co prawda nie istnieje uniwersalna metoda *znajdywania*
-dowodów arbitralnych zdań, ale dzięki temu, że taka metoda nie istnieje, zawsze ważny będzie
-przebłysk intuicji, a *potencjalne* dowody możemy zawsze sprawdzić za pomocą algorytmu, który zawsze
-da nam jednoznaczną odpowiedź, czy są poprawne. W tym sensie matematyka jest strefą *logicznie
-bezpiecznej*, ale poza tym *niczym* nieskrępowanej fantazji.
+Matematyka pozwala nam *skutecznie*, bo *konsekwentnie* myśleć o *dowolnych zagadnieniach, na
+dowolnym poziomie ogólności, z dowolnych punktów widzenia, i w ogóle w dowolny sposób*. O ile tylko
+będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak matematyka, i o ile nie
+przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to będziemy mieć gwarancję, że
+wyprowadzone dedukcyjnie wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych założeń,
+definicji, i aksjomatów (które też są zresztą definicjami, tylko że pozbawionymi ciała). Co prawda
+nie istnieje uniwersalna metoda *znajdywania* dowodów arbitralnych zdań, ale dzięki temu, że taka
+metoda nie istnieje, zawsze ważny będzie przebłysk intuicji, a *potencjalne* dowody możemy zawsze
+sprawdzić za pomocą algorytmu, który zawsze da nam jednoznaczną odpowiedź, czy są poprawne. W tym
+sensie matematyka jest strefą *logicznie bezpiecznej*, ale poza tym *niczym* nieskrępowanej
+fantazji.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako (cienkiej) kategorii: Gdyby było
 tak, że *dla niektórych, ale nie wszystkich* liczb zachodzi *zwrotność* relacji `<`, czyli gdyby
@@ -254,9 +261,11 @@ opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, 
 identyczności służą tylko jako konieczne uzupełnienie pozwalające uzyskać kategorię, żeby *mówić
 konsekwentnie o tym samym w języku teorii kategorii zamiast w języku relacji `<`*.
 
+<hr>
+
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
-tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
-innej, interesującej i chyba trochę dziwnej perspektywy.
+tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać, a dwie z nich wprowadzę z innej,
+interesującej i chyba trochę dziwnej perspektywy.
 
 **Obiektem początkowym** w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii
 punkt) `I` (od angielskiego *initial*), że dla każdego obiektu `X` w tej kategorii istnieje
@@ -266,17 +275,17 @@ Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `
 zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego
 zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
 
-**Produktem** obiektów (czyli naszych punktów) `X` i `Y` nazywamy taki obiekt (czyli punkt) `X × Y`,
-że istnieją takie strzałki `π₁ : X × Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary
-strzałek `f : Z → X` i `g : Z → Y`, istnieje unikalna strzałka `h`, spełniająca warunki `π₁ h = f` i
-`π₂ h = g`. Ponieważ taka strzałka jest z definicji tylko jedna, zwykle zapisujemy ją jako `<f,g>`.
+**Produktem** obiektów `X` i `Y` nazywamy taki obiekt (czyli punkt) `X × Y`, że istnieją takie
+strzałki `π₁ : X × Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary strzałek `f : Z → X`
+i `g : Z → Y`, istnieje unikalna strzałka `h`, spełniająca warunki `π₁ h = f` i `π₂ h = g`. Ponieważ
+taka strzałka jest z definicji tylko jedna, zwykle zapisujemy ją jako `<f,g>`.
 
 Oficjalnie nazywamy strzałki `π₁` i `π₂` raczej rzutami kanonicznymi, ale ja wolę nazywać je
 projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" ("pod spodem" bo `Set` to
-*kategoria*, a nie kolekcja zbiorów i funkcji) dokładnie iloczyny kartezjańskie zbiorów. Poza tym
-wiesz również, że produkt to tak naprawdę para współźródłowych strzałek, spełniająca wymienione w
-definicji wymagania, ale często wygodniej jest mówić o produktach jako o obiektach, czyli w naszej
-terminologii punktach.
+*kategoria*, a nie *kolekcja* zbiorów i funkcji), z dokładnością do izomorfizmu, iloczyny
+kartezjańskie zbiorów. Poza tym wiesz również, że produkt to tak naprawdę para współźródłowych
+strzałek, spełniająca wymienione w definicji wymagania, ale często wygodniej jest mówić o produktach
+jako o obiektach, czyli w naszej terminologii punktach.
 
 ## Wolne żarty
 
