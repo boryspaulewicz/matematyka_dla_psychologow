@@ -210,56 +210,57 @@ odpowiedzi na to pytanie!
 
 ## Czasem można coś [dosypać](https://www.dictionary.com/e/memes/salt-bae/)
 
-To będzie kolejny przykład czegoś, co jest *technicznie proste*, to jest łatwe do bezmyślnego
-opanowania, i co ewidentnie *działa*, to jest sprawdza się w praktyce do określonych celów, ale co
+To będzie kolejny przykład czegoś, co jest *technicznie proste*, to znaczy łatwe do bezmyślnego
+opanowania, i co ewidentnie *działa*, to jest sprawdza się w praktyce dla określonych celów, ale co
 mimo to może być *trudne do zaakceptowania*. Znanym Ci doskonale przykładem relacji, z której *nie*
 powstaje kategoria w taki sam sposób jak z relacji `≤` jest - zwykle oznaczana symbolem `<` -
-relacja *mniejsze niż*, określona na jakimś zbiorze liczb, ponieważ ta relacja *nie jest
+relacja binarna *mniejsze niż*, określona na jakimś zbiorze liczb, ponieważ ta relacja *nie jest
 zwrotna*. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
-liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzwrotność relacji), bo żadna
-liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
-`≤` strzałek identycznościowych.
+liczba nie jest w tej relacji *sama ze sobą* (dokładnie to oznacza przeciwzwrotność relacji), bo
+żadna liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co
+relacja `≤` strzałek identycznościowych.
 
-Z drugiej strony, relacja `<` jest mimo wszystko przechodnia, to jest dla każdych trzech liczb `m`,
-`n` i `o`, zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą strzałek,
-wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a wymaganie
-łączności składania byłoby spełnione automatycznie dzięki temu, że to jest relacja. Brakowałoby więc
-*tylko* identyczności.
+Z drugiej strony, relacja `<` jest mimo wszystko *przechodnia*, to jest dla każdych trzech liczb
+`m`, `n` i `o`, zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą
+strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
+wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że to jest
+relacja. Brakowałoby *tylko* identyczności.
 
-Moglibyśmy wtedy *dodać endostrzałki*, które *niczego by nie oznaczały*, i *przyjąć konwencję*, że
-te są identycznościami. Uzyskalibyśmy w ten sposób pewną (cienką) kategorię. Możemy przecież
-stworzyć czy rozważać (jest jakaś różnica?) kategorię jaką tylko chcemy, z czego tylko chcemy, i
-według jakich tylko chcemy zasad, o ile tylko taka konstrukcja będzie spełniała aksjomaty kategorii
-(jeżeli chcemy być konsekwentni i unikać bredzenia, co też oczywiście bywa przyjemne i
-pożyteczne). W końcu jesteśmy wolni i nigdzie nie doświadczymy takiej wolności jak w sferze
-fantazji. Ostatecznie liczy się *tylko* to, czy uda nam się z taką kategorią zrobić coś
-pouczającego, interesującego, albo nawet tylko zabawnego.
+Moglibyśmy wtedy *dodać endostrzałki*, z których *żadna* (to się okaże ważne) *niczego by nie
+oznaczała*, i *przyjąć konwencję*, że te endostrzałki są identycznościami. Uzyskalibyśmy w ten
+sposób pewną cienką kategorię. Możemy przecież stworzyć czy rozważać (jest jakaś różnica?)
+kategorię jaką tylko chcemy, zrobioną z czego tylko chcemy, i według jakich tylko chcemy zasad, o
+ile tylko taka konstrukcja będzie spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i
+unikać bredzenia, co też oczywiście bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie
+nie doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda
+nam się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
 
 Matematyka pozwala nam *skutecznie*, bo *konsekwentnie* myśleć o *dowolnych zagadnieniach, na
-dowolnym poziomie ogólności, z dowolnych punktów widzenia, i w ogóle w dowolny sposób*. O ile tylko
-będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak matematyka, i o ile nie
-przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to będziemy mieć gwarancję, że
-wyprowadzone dedukcyjnie wnioski, jakie by nie były, będą prawdziwe na mocy przyjętych założeń,
-definicji, i aksjomatów (które też są zresztą definicjami, tylko że pozbawionymi ciała). Co prawda
-nie istnieje uniwersalna metoda *znajdywania* dowodów arbitralnych zdań, ale dzięki temu, że taka
-metoda nie istnieje, zawsze ważny będzie przebłysk intuicji, a *potencjalne* dowody możemy zawsze
-sprawdzić za pomocą algorytmu, który zawsze da nam jednoznaczną odpowiedź, czy są poprawne. W tym
-sensie matematyka jest strefą *logicznie bezpiecznej*, ale poza tym *niczym* nieskrępowanej
-fantazji.
+dowolnym poziomie ogólności, z dowolnych punktów widzenia, i w ogóle w dowolny sposób, byle
+konsekwentnie*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak
+matematyka, i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to będziemy
+mieć gwarancję, że wyprowadzone dedukcyjnie wnioski, jakie by one nie były, będą prawdziwe na mocy
+przyjętych założeń, definicji i aksjomatów (które też są zresztą definicjami, tylko że pozbawionymi
+ciała). Co prawda nie istnieje uniwersalna metoda *znajdywania* dowodów arbitralnych zdań
+prawdziwych, ale dzięki temu, że taka metoda nie istnieje, zawsze ważny będzie przebłysk intuicji, a
+coś, co wygląda na poprawny dowód, zawsze możemy sprawdzić za pomocą algorytmu, który da nam
+jednoznaczną odpowiedź, czy to faktycznie dowód. W tym sensie matematyka jest strefą *logicznie
+bezpiecznej*, ale poza tym *niczym* nieskrępowanej fantazji.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako (cienkiej) kategorii: Gdyby było
 tak, że *dla niektórych, ale nie wszystkich* liczb zachodzi *zwrotność* relacji `<`, czyli gdyby
-istniała co najmniej jedna liczba mniejsza od samej siebie, ale istniałaby też liczba, która nie
-jest mniejsza od samej siebie, mielibyśmy problem, bo wtedy *niektóre* nasze strzałki
+istniała co najmniej jedna liczba, która *jest* mniejsza od samej siebie, ale istniałaby też liczba,
+która *nie* jest mniejsza od samej siebie, mielibyśmy problem, bo wtedy *niektóre* nasze strzałki
 identycznościowe odpowiadałyby faktom zachodzenia tej relacji między pewnymi liczbami i nimi samymi,
 a pozostałe endostrzałki *nie odpowiadałyby niczemu*. W takiej sytuacji *nie byłoby zgodności między
-kategorią i opisywaną przez nią strukturą*. No ale w przypadku relacji `<` *żadna* liczba nie
-wchodzi ze sobą w tą relację, a więc taka "kategoryfikacja" przez dodanie *do każdego punktu*
+strukturą kategorii i strukturą przez nią opisywaną*. No ale w przypadku relacji `<` *żadna* liczba
+nie wchodzi ze sobą w tą relację, a więc "kategoryfikacja" przez dodanie do *każdego* punktu
 "pustych w środku" identyczności *nie wprowadza zniekształceń*, tylko polega na *zmianie konwencji
 opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że wszystkie pętle
-identyczności służą tylko jako konieczne uzupełnienie pozwalające uzyskać kategorię, żeby *mówić
-konsekwentnie o tym samym w języku teorii kategorii zamiast w języku relacji `<`*.
+identycznościowe służą tylko jako konieczne uzupełnienie pozwalające uzyskać kategorię, żeby *mówić
+konsekwentnie o tym samym w języku teorii kategorii zamiast w teoriomnogościowym języku relacji
+`<`*.
 
 <hr>
 
@@ -267,128 +268,139 @@ Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicj
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać, a dwie z nich wprowadzę z innej,
 interesującej i chyba trochę dziwnej perspektywy.
 
-**Obiektem początkowym** w jakiejś kategorii nazywamy taki obiekt (czyli w naszej terminologii
-punkt) `I` (od angielskiego *initial*), że dla każdego obiektu `X` w tej kategorii istnieje
-dokładnie jedna strzałka `I → X`.
+**Obiektem początkowym** nazywamy taki obiekt (czyli w naszej terminologii punkt) `I` (od
+angielskiego *initial*), że dla każdego obiektu `X` w tej kategorii istnieje dokładnie jedna
+strzałka `I → X`.
 
 Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `Set`, czyli w kategorii
-zbiorów i funkcji, ponieważ istnieje dokładnie jedna funkcja ze zbioru pustego do każdego
-zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
+zbiorów, funkcji i składania funkcji, ponieważ - na mocy konwencji - istnieje dokładnie jedna
+funkcja ze zbioru pustego do każdego zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
 
 **Produktem** obiektów `X` i `Y` nazywamy taki obiekt (czyli punkt) `X × Y`, że istnieją takie
 strzałki `π₁ : X × Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary strzałek `f : Z → X`
 i `g : Z → Y`, istnieje unikalna strzałka `h`, spełniająca warunki `π₁ h = f` i `π₂ h = g`. Ponieważ
 taka strzałka jest z definicji tylko jedna, zwykle zapisujemy ją jako `<f,g>`.
 
-Oficjalnie nazywamy strzałki `π₁` i `π₂` raczej rzutami kanonicznymi, ale ja wolę nazywać je
-projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" ("pod spodem" bo `Set` to
-*kategoria*, a nie *kolekcja* zbiorów i funkcji), z dokładnością do izomorfizmu, iloczyny
-kartezjańskie zbiorów. Poza tym wiesz również, że produkt to tak naprawdę para współźródłowych
-strzałek, spełniająca wymienione w definicji wymagania, ale często wygodniej jest mówić o produktach
-jako o obiektach, czyli w naszej terminologii punktach.
+Oficjalnie strzałki `π₁` i `π₂` nazywamy raczej rzutami kanonicznymi, ale ja (i nie tylko ja) wolę
+nazywać je projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" ("pod spodem" bo
+`Set` to *kategoria*, a nie *kolekcja* zbiorów i funkcji), z dokładnością do kanonicznych
+izomorfizmów, iloczyny kartezjańskie zbiorów. Poza tym wiesz, że produkt to tak naprawdę pewna para
+współźródłowych strzałek, ale często wygodniej jest mówić o produktach jako o obiektach (czyli w
+naszej terminologii punktach).
 
 ## Wolne żarty
 
-Popatrzymy sobie teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
-interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli to ma być kategoria, punkty `X` i
-`Y` *muszą* mieć swoje *unikalne i charakterystyczne* endostrzałki identycznościowe. A więc musimy
-*sami dodać* te dwie endostrzałki. Te trzy strzałki to jedno, a operacja składania to co
-innego. Musimy więc jeszcze *sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii
-były spełnione.
+Popatrzymy teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
+interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli chcemy z tej jednej strzałki
+zrobić w taki jakby naturalny albo narzucający się sposób kategorię, to musimy dodać identyczności
+punktów `X` i `Y`. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc jeszcze
+*sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione.
 
-Po dodaniu pętli `Id` do `X` i pętli `Id` do `Y` pojawiają się nam dokładnie dwa możliwe złożenia,
-to jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii *nie pozostawiają nam wyboru* i musi być
-tak, że `Id f = f = f Id`, ale poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto
-uzyskujemy *najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
+Po dodaniu pętli `Id` do `X` i pętli `Id` do `Y` pojawiają się dokładnie dwa możliwe złożenia, to
+jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii nie pozostawiają nam wyboru - musi być tak,
+że `Id f = f = f Id`, ale poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy
+*najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
 
 Dodaliśmy *to, co było konieczne*, żeby uzyskać kategorię i *tylko to*, co było konieczne, a więc to
-jest najprostsza albo najmniejsza tego rodzaju kategoria, chociaż to, że jest najprostsza albo
-najmniejsza możemy powiedzieć tylko nieformalnie, bo nie zdefiniowaliśmy żadnej miary złożoności ani
-wielkości kategorii. Możemy też powiedzieć, że to jest *najlepsza* albo doskonała kategoria tego
-rodzaju, *o ile* przyjmiemy, że to, co jest prostsze albo mniejsze jest też *lepsze*, bo słowa
-"lepszy" i "doskonały" mają akurat charakter *ocenny*, a możemy tak przyjąć, bo taki sposób mówienia
-i myślenia ma intuicyjny sens.
+jest najprostsza albo najbardziej naturalna tego rodzaju kategoria, chociaż to, że jest najprostsza
+albo najbardziej naturalna możemy powiedzieć na razie tylko nieformalnie, bo ani nie zdefiniowaliśmy
+żadnej miary złożoności czy wielkości kategorii, ani nie zdefiniowaliśmy formalnie, na czym
+dokładnie polega tego rodzaju konstrukcja.
 
 Strzałka `f` *jako taka* nie jest endostrzałką, bo łączy dwa *różne* punkty. Gdyby ta strzałka coś
-oznaczała, to w ogólnym przypadku musilibyśmy dopuścić możliwość, że te punkty oznaczają to samo,
-ale w tym wypadku ta strzałka niczego nie oznacza. Przyda nam się odtąd nazwa na takie strzałki,
-żeby mówić o tym prościej, dlatego będę czasem nazywał je *egzostrzałkami*. Egzostrzałką będzie więc
-taka strzałka, że jej źródło i cel to *inne punkty*, które co prawda w ogólnym przypadku *nie muszą
-oznaczać innych obiektów*, ale to akurat *nie będzie miało znaczenia*, kiedy będziemy się skupiać
-tylko na tej własności strzałek.
+oznaczała, to w ogólnym przypadku musielibyśmy dopuścić możliwość, że te punkty oznaczają to samo,
+ale w tym wypadku ta strzałka niczego nie oznacza, bo to jest abstrakcyjna kategoria, punkty są więc
+tylko punktami, a strzałki strzałkami.
 
 Struktury matematyczne (takie jak kategoria), które powstają w taki wymuszony przez ich definicje
 sposób (który tutaj polega na dodaniu endostrzałek i operacji składania tak, żeby aksjomaty
 kategorii były spełnione) z części czy obiektów, które same jeszcze nie muszą być tego rodzaju
 strukturami (a sama strzałka nie jest jeszcze kategorią), nazywamy *wolnymi*. Wolne konstrukcje są
-więc takimi jakby dopowiedzeniami opisu struktury określonego rodzaju. W tym przypadku to jest
-*wolna kategoria generowana przez jedną egzostrzałkę*.
+więc takimi jakby "dopowiedzeniami opisu" albo "domknięciami" struktury określonego rodzaju. W tym
+przypadku to jest *wolna kategoria generowana przez strzałkę `f : X → Y`*.
 
 ## icśonlaud adasaZ
 
-Jeżeli teraz *czysto formalnie*, czyli tak jakby dla zabawy, odwrócimy strzałkę `f` i zapiszemy ją
-jako `X ← Y`, to z takiej egzostrzałki też będziemy mogli w ten sam sposób wygenerować unikalną
-wolną kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej
-struktury. Jeśli masz ochotę, możesz to sama sprawdzić, zresztą to jest niezłe ćwiczenie, bo nie
-jest szczególnie trudne, a na pewno sprawi, że będziesz trochę lepiej pamiętać pewne rzeczy i
-łatwiej Ci się będzie potem o nich myślało.
+Jeżeli teraz *czysto formalnie*, czyli jakby "dla zabawy", odwrócimy strzałkę `f` i zapiszemy ją
+jako `X ← Y`, to z takiej strzałki też będziemy mogli w ten sam sposób wygenerować unikalną wolną
+kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej struktury.
 
 A co gdyby punktem wyjścia był (statyczny, jak to graf) graf `A ← B → C`, gdzie strzałkę `A ← B`
 moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
 dodać identyczności i zdefiniować wyniki składania `f` lub `g` z identycznościami na ich obu końcach
-jako `f` i `g` odpowiednio i uzyskalibyśmy wolną kategorię nad tym grafem. Gdybyśmy jednak odwrócili
-strzałki na *tym* grafie, uzyskując w ten sposób graf `A → B ← C`, to wolna kategoria generowana
-przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie) znaczeniu.
+jako `f` i `g` odpowiednio. Uzyskalibyśmy tak wolną kategorię nad grafem `A ← B → C`. Gdybyśmy
+jednak odwrócili strzałki na *tym* grafie, uzyskując w ten sposób graf `A → B ← C`, to wolna
+kategoria generowana przez ten nowy graf nie byłaby już taka sama w przyjętym (niejawnie) znaczeniu.
 
 Z drugiej strony, *w innym znaczeniu* wolne kategorie generowane przez obydwa grafy *byłyby* takie
 same, bo *jako kategorie wyrażałyby właściwie to samo*, tylko to coś byłoby *inaczej
 zapisane*. Zastanawiasz się pewnie, o co mi teraz chodzi? Żeby to lepiej objaśnić, może skorzystam z
 innego przykładu: Moglibyśmy przyjąć *konwencję interpretowania* wyrażeń o postaci `n < m` jako
-oznaczających, że `n` jest *większe* niż `m`, czyli interpretować ten symbol *odwrotnie* niż to
-zwykle robimy i gdybyśmy stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy mówili
-*nie* uległby zmianie, zmieniłby się *tylko sposób zapisu* albo *sposób mówienia*. Tylko *czemu by
-to mogło służyć*? Otóż temu:
+oznaczających, że `n` jest *większe* niż `m`, czyli interpretować symbol `<` *odwrotnie*, niż to
+zwykle robimy. Gdybyśmy tylko stosowali tą konwencję *konsekwentnie*, to *sens* tego, co byśmy
+mówili *nie* uległby zasadniczej zmianie, zmieniłby się *tylko sposób zapisu* albo *sposób
+mówienia*. Zastanawiasz się może *czemu by to mogło służyć*? Otóż temu:
 
 **Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego*, albo krócej i mniej oficjalnie
 *początku*, ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
-więc trzeba będzie odwrócić też wszystkie złożenia, których akurat w tej definicji nie ma, a więc
-jeżeli chodzi o złożenia akurat w tym przypadku nic nie będzie trzeba robić. Nie nazywaj jednak
-tego, co ta definicja będzie charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz
-definicję obiektu *końcowego*, oznaczanego często literą `T` od angielskiego słowa *terminal*,
-którego szczególnym przypadkiem jest każdy singleton w kategorii `Set`.
+więc trzeba będzie odwrócić też wszystkie złożenia, których akurat w tej definicji nie ma, chociaż
+jeżeli chodzi o złożenia, akurat w tym przypadku nic nie będzie trzeba robić, bo w definicji obiektu
+początkowego żadne złożenia się nie pojawiają. Nie nazywaj jednak tego, co ta definicja będzie
+charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz definicję obiektu *końcowego*,
+oznaczanego często literą `T` (od angielskiego słowa *terminal*), którego szczególnym przypadkiem
+jest każdy singleton w kategorii `Set`. Jak widać na tym przykładzie:
 
-Jak widać na tym przykładzie, z każdego pojęcia kategoryjnego uzyskujemy automatycznie dwa. Nazywamy
-to [*zasadą dualności*](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii) w
-teorii kategorii. Ta druga wersja defincji jest tak zwaną *dualną postacią* albo wersją tej
-pierwszej i odpowiednio to drugie pojęcie (albo konstrukcja) jest dualne względem albo do tego
-pierwszego. I odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem drugiego, bo
-*operacja odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz może do głowy
-pojęcie izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są
-jednak w ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna
-kategoria nad grafem `A ← B → C` jest zdecydowanie *nie całkiem* taka sama jak wolna kategoria nad
-grafem `A → B ← C`, nawet jeśli zignorujemy oznaczenia punktów i strzałek.
+*Każde pojęcie kategoryjne to tak naprawdę dwa pojęcia "lustrzane"*.
+
+Nazywamy to [*zasadą
+dualności*](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii) w teorii
+kategorii. Ta druga wersja defincji jest tak zwaną *dualną postacią* albo wersją tej pierwszej i
+odpowiednio to drugie pojęcie (albo konstrukcja) jest dualne względem albo do tego pierwszego. I
+odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem drugiego, bo *operacja
+odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz może do głowy pojęcie
+izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są jednak w
+ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna kategoria nad
+grafem `A ← B → C` jest zdecydowanie *nie* taka sama jak wolna kategoria nad grafem `A → B ← C`,
+niezależnie od tego, czy zignorujemy oznaczenia punktów i strzałek, czy nie.
 
 *Każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy jakąś kategorię `ℂ`, to każdy punkt w tej
 kategorii musi mieć swoją identyczność, składalne strzałki muszą odpowiadać unikalnym złożeniom i
 operacja składania strzałek musi być łączna. Jeżeli teraz odwrócimy wszystkie strzałki w tej
 kategorii i - żeby się nie pogubić - oznaczymy te dualne odpowiedniki za pomocą apostrofów i
-zdefiniujemy *nową* operację składania w taki sposób, że dla każdych dwóch składalnych strzałek `f`
-i `g` w kategorii `ℂ`, złożeniem ich odwróconych odpowiednikow w kategorii dualnej do `ℂ` będzie `f'
-g'`, to uzyskamy pewną kategorię, a konkretnie kategorię dualną do `ℂ`. 
+zdefiniujemy *nową* (bo dla innej niż `ℂ` kategorii) operację składania w taki sposób, że dla
+każdych dwóch składalnych strzałek `f` i `g` *w kategorii `ℂ`*, złożeniem ich odwróconych
+odpowiednikow w kategorii *dualnej do `ℂ`* będzie `f' g'`, to uzyskamy pewną kategorię, a konkretnie
+kategorię dualną do `ℂ`, którą oznaczamy jako `ℂ'`. Mówiąc bardziej formalnie, dla każdej strzałki
+`f`, `g` i `h` (lub `f'`, `g'` i `h'`)
+
+`Id f = f = f Id` wtedy i tylko wtedy, gdy `Id' f' = f' = f' Id'`
+
+`f (g h) = (f g) h` wtedy i tylko wtedy, gdy `(h' g') f' = h' (g' f')`
+
+Ponieważ takie dualne kategorie "mówią to samo", tylko w inny sposób, to mimo tego, że to są *różne*
+kategorie, możemy traktować dualne strzałki jako *oznaczające to samo*, i tak samo odpowiadające
+sobie obiekty dualnych kategorii możemy traktować jako oznaczające (w każdym konkretnym kontekście)
+to samo. "Funkcjonalnie", dualne kategorie są więc *dwoma różnymi, ale równoważnymi sposobami
+mówienia o tym samym*. Jeżeli tylko będziemy ostrożni, możemy nawet używać takich problematycznych z
+perspektywy typowania zdań jak `f g = g' f'`, ale już takich jak `f f'` *nie*, mimo tego, że `f : X
+→ Y` i `f' : Y → X`, bo mimo wszystko `f : X → Y : ℂ` i `f' : Y → X : ℂ'`, a `ℂ ≠ ℂ'`.
 
 Możemy wtedy przyjąć, że każda strzałka `f' : X → Y` w kategorii `ℂ'` "kryje pod sobą" strzałkę `f :
-Y → X` w kategorii `ℂ`, z której powstała i vice versa, a każde złożenie `f' g'` w `ℂ'` "kryje pod
-sobą" złożenie `g f` w `ℂ`, któremu odpowiada i vice versa. Nie będzie trzeba dodawać apostrofów do
-nazw *punktów* w kategorii dualnej, bo punktów nie da się odwrócić. Mówiąc dokładniej (ale dla
-uproszczenia pomijając kwantyfikatory):
+Y → X` w kategorii `ℂ`, albo "kryje pod sobą" to samo, co w danym kontekście oznacza `f`, i vice
+versa, a każde złożenie `f' g'` w `ℂ'` "kryje pod sobą" (to co oznacza) złożenie `g f` w `ℂ`,
+któremu odpowiada. Nie trzeba dodawać apostrofów do nazw *punktów* w kategorii dualnej, bo punktów
+nie da się odwrócić.
+
+Mówiąc dokładniej (ale dla uproszczenia pomijając kwantyfikatory):
 
 1. Kategorie dualne `ℂ` i `ℂ'` mają te same punkty.
 
 2. `f` jest strzałką w `ℂ` z `X` do `Y` wtedy i tylko wtedy, gdy `f'` jest strzałką w `ℂ'` z `Y` do
-   `X`.
+   `X`, i możemy przyjąć, że w każdym konkretnym kontekście te strzałki oznaczają to samo.
 
-3. `f g = h` wtedy i tylko wtedy, gdy `g' f' = h'`
+3. `f g = h` wtedy i tylko wtedy, gdy `g' f' = h'`, i możemy przyjąć, że w każdym konkretnym
+   kontekście te złożenia oznaczają to samo.
 
 **Sugestia**: Może masz ochotę spróbować udowodnić, że `Id' f' = f' = f' Id'`? To ostatnia szansa,
 żeby zrobić to całkiem samodzielnie, bo [za chwilę
-powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), skąd to wynika.
+powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), z czego dokładnie to wynika.
