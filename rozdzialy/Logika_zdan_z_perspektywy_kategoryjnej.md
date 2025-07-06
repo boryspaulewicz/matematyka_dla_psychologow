@@ -1,24 +1,26 @@
 ## O czym teraz będzie
 
-Teraz będzie o tym, że zdania wraz z relacją dowiedlności są pewną kategorią i będzie też o zasadzie
-dualności w teorii kategorii. I to wszystko będzie technicznie dosyć proste, za to psychologicznie
-raczej trudne. Za to [ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów
-stanie się w pewnym sensie mniejsza o połowę.
+Przekonamy się, że zdania wraz z relacją dowiedlności są pewną kategorią. Będziemy też mówić o
+zasadzie dualności w teorii kategorii, a przy okazji zapoznamy się wstępnie z pojęciem wolnej
+konstrukcji. Dzięki zasadzie dualności
+[ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów stanie się w pewnym
+sensie mniejsza o połowę. I to wszystko będzie *technicznie* dosyć proste.
 
 # p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
 znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Ustalimy
-najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego kategoria. Niech:
+najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego kategoria.
 
-1. *Punkty* oznaczają *zdania*.
+1. Niech *punkty* oznaczają *zdania*.
 
-2. Dla każdego punktu (odpowiadającego zdaniu) `P` i punktu `Q`, *strzałka* z punktu `P` do punktu
-   `Q` oznacza *dowód implikacji* `P → Q`.
+2. Dla każdego punktu `P` i punktu `Q`, niech *strzałka* z punktu `P` do punktu `Q` oznacza *dowód
+   implikacji* `P → Q`.
 
-3. Dla każdego punktu `P`, pętla identycznościowa to dowód tautologii `P → P`.
+3. Dla każdego punktu `P`, *pętlą identycznościową* na tym punkcie niech będzie dowód tautologii `P
+   → P`.
 
-4. Składanie strzałek to składnie dowodów.
+4. Niech *składanie* strzałek będzie *składniem dowodów*.
 
 Możemy udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowodów:
 
