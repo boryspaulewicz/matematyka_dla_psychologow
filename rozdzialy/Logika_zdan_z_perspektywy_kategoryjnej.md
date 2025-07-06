@@ -1,34 +1,34 @@
 ## O czym teraz będzie
 
-Teraz będzie przede wszystkim o zasadzie dualności w teorii kategorii i to będzie technicznie dosyć
-proste, ale konceptualnie raczej trudne. Za to
-[ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów stanie się w pewnym
-sensie mniejsza o połowę.
+Teraz będzie o tym, że zdania wraz z relacją dowiedlności są pewną kategorią i będzie też o zasadzie
+dualności w teorii kategorii. I to wszystko będzie technicznie dosyć proste, za to psychologicznie
+raczej trudne. Za to [ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów
+stanie się w pewnym sensie mniejsza o połowę.
 
 # p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
 znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Ustalimy
-najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego jakaś kategoria. Niech:
+najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego kategoria. Niech:
 
-1. Różne punkty oznaczają różne zdania.
+1. *Punkty* oznaczają *zdania*.
 
-2. Dla każdego punktu (odpowiadającego zdaniu) `P` i punktu `Q`, strzałka z punktu `P` do
-   punktu `Q` oznacza dowód implikacji `P → Q`.
+2. Dla każdego punktu (odpowiadającego zdaniu) `P` i punktu `Q`, *strzałka* z punktu `P` do punktu
+   `Q` oznacza *dowód implikacji* `P → Q`.
 
-3. Dla każdego punktu `P`, pętla identycznościowa tego punktu oznacza dowód tautologii `P → P`.
+3. Dla każdego punktu `P`, pętla identycznościowa to dowód tautologii `P → P`.
 
-4. Składanie strzałek będzie składniem dowodów.
+4. Składanie strzałek to składnie dowodów.
 
-Możemy łatwo udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowodów:
+Możemy udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowodów:
 
 ```lean
--- Ta definicja stałej ID różni się od wcześniejszej tylko tym, że zamiast typu Type występuje 
--- tutaj typ Prop.
+-- Ta definicja stałej `ID` różni się od wcześniejszej tylko tym, że zamiast typu `Type` występuje 
+-- tutaj typ `Prop`.
 def ID (P : Prop) : P → P := fun (hp : P) => hp
 
--- Poza tym, że skróciłem nazwę stałej i zamiast Zlozenie jest tutaj Z, to jedyna różnica między
--- tą i wcześniejszą definicją składania jest taka, że zamiast typu Type mamy tutaj typ Prop.
+-- Poza tym, że skróciłem nazwę stałej i zamiast `Zlozenie` jest tutaj `Z`, to jedyna różnica między
+-- tą i wcześniejszą definicją składania jest taka, że w miejscu typu `Type` występuje typ `Prop`.
 def Z {P Q R : Prop} (f : P → Q) (g: Q → R) : (P → R) := 
   fun (hp : P) => g (f hp)
 
@@ -65,7 +65,7 @@ aplikować:
 #check (example (n m : Nat) : Nat := n + m) 2 2
 ```
 
-Takie fragmenty kodu służą więc tylko do sprawdzania, czy jakaś funkcja, która może, ale nie musi
+Takie fragmenty kodu służą więc tylko do *sprawdzania*, czy jakaś funkcja, która może, ale nie musi
 być dowodem jakiegoś zdania, może być w pewien sposób skonstruowana.
 
 <hr>
@@ -74,7 +74,7 @@ Dla każdego zdania `P`, dowód tautologii `P → P` jest elementem neutralnym z
 składania dowodów, bo jest funkcją identycznościową przekształcającą każdy dowód swojego zdania w
 niego samego. Ponieważ dowody są dla nas funkcjami jak każde inne, z tą tylko różnicą, że mają typ
 będący termem typu `Prop`, to składanie dowodów, co właśnie udowodniliśmy, jest łączne. Skoro już
-ustaliliśmy, że mamy do czynienia z kategorią, od tego momentu możemy o tych dowodach zapomnieć.
+ustaliliśmy, że mamy do czynienia z kategorią, od tego momentu możemy o tych dowodach *zapomnieć*.
 
 Ta kategoria ma zdecydowanie inny charakter *jako kategoria* niż kategoria zbiorów i funkcji. W
 kategorii zbiorów i funkcji występują strzałki, które są zarazem *równoległe* i *różne*. Na
@@ -99,10 +99,10 @@ częściej mówił właśnie w ten sposób.
 
 W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz przyglądamy, istnieje
 strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając (zdanie odpowiadające
-punktowi) `P` można udowodnić (zdanie odpowiadające punktowi) `Q`. W tej kategorii nie ma nigdy
-dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof irrelevance* wszystkie dowody tego
-samego zdania są równe. Takie kategorie, które nie mają par różnych strzałek równoległych nazywamy
-[*cienkimi*](https://ncatlab.org/nlab/show/thin+category) (ang. *thin*).
+punktowi) `P` da się w jakikolwiek sposób udowodnić (zdanie odpowiadające punktowi) `Q`. W tej
+kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof irrelevance*,
+wszystkie dowody tego samego zdania są równe. Takie kategorie, które nie mają par różnych strzałek
+równoległych, nazywamy [*cienkimi*](https://ncatlab.org/nlab/show/thin+category) (ang. *thin*).
 
 Mamy tu zatem cienką kategorię, to jest taką, że dla każdej pary punktów `P` i `Q`, istnieje *co
 najwyżej jedna* strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje
@@ -110,31 +110,32 @@ binarne*, bo między dwoma elementami jakaś relacja albo zachodzi, albo nie; z 
 *relacja* jest używane jako termin techniczny w matematyce, stwierdzenie, że jakaś konkretna relacja
 zachodzi między dwoma elementami na więcej niż jeden sposób nie ma sensu. W przypadku kategorii,
 którą teraz badamy, strzałka *nie* oznacza więc tak naprawdę *konkretnego dowodu*, tylko pewien
-*fakt*; w tym wypadku to jest zawsze fakt polegający samym *istnieniu* dowodu pewnej implikacji,
+*fakt*; w tym wypadku to jest zawsze fakt polegający na samym *istnieniu* dowodu pewnej implikacji,
 czyli na zachodzeniu *relacji dowiedlności* między jakimiś dwoma zdaniami. Ta kategoria ma więc
 wyraźnie inny charakter niż kategoria zbiorów i funkcji.
 
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
 każda liczba należąca do `X` może być osobnym punktem i dla każdych dwóch, niekoniecznie różnych
-liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę. Ponieważ
-relacja `≤` jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy `∀ x ∈ X, x ≤
-x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest *przechodnia*, to znaczy
-`∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych strzałek istnieje strzałka
-kompatybilna, która mogłaby być ich złożeniem. Pozostaje tylko ustalić, czy ...
+liczb `x` i `y` należących do `X`, fakt `x ≤ y` może być reprezentowany przez strzałkę `x →
+y`. Ponieważ relacja `≤` jest [*zwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna), to znaczy
+`∀ x ∈ X, x ≤ x`, to od razu mamy strzałki identycznościowe, a ponieważ taka relacja jest
+*przechodnia*, to znaczy `∀ x, y, z ∈ X, x ≤ y → y ≤ z → x ≤ z`, to dla każdej pary składalnych
+strzałek istnieje strzałka z tą parą kompatybilna, to jest taka, która mogłaby być ich
+złożeniem. Pozostaje tylko ustalić, czy ...
 
 1. `f Id = f = Id f`
 
 2. `(h g) f = h (g f)`
 
 ... ale ponieważ nie ma tutaj nigdy dwóch różnych strzałek równoległych, to składanie "nie ma
-żadnego wyboru", bo zawsze istnieje dokładnie jedna strzałka kompatybilna (przypominam, że
-wymyśliłem ten termin, żeby łatwiej mi się o tego rodzaju sprawach mówiło). 
+żadnego wyboru", bo zawsze istnieje dokładnie jedna strzałka kompatybilna.
 
 Na przykład, jeżeli `Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo
-nie może istnieć inna strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest
+istnieje tylko jedna strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest
 automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej endostrzałki, a
-więc każdej identyczności w tej być może kategorii.
+więc każdej identyczności w tej być może (bo jeszcze upewniamy się, czy zachodzi łączność składania)
+kategorii.
 
 A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma znaczenia, czy najpierw
 uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a potem złożymy ją ze
@@ -142,14 +143,14 @@ strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy naj
 złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej strzałkę `h`,
 uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskamy ... jedyną strzałkę z `X`
 do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę. Widzimy więc, że sama
-przechodniość relacji daje nam automatycznie łączność składania strzałek zinterpretowanych jako
-oznaczające fakt zachodzenia tej relacji.
+"relacyjność" kategorii, to jest bycie kategorią cienką, daje nam automatycznie łączność składania
+strzałek.
 
 Zauważyłaś, że udowadniając, że z relacji `≤` można zrobić kategorię, korzystaliśmy *tylko* z tego,
 że ta relacja jest zwrotna i przechodnia? Nie było łatwo to zauważyć, prawda? A to jest ważne, bo
 wynika stąd, że w ten sposób możemy *zawsze* uzyskać cienką kategorię z *jakiegokolwiek* zbioru, nie
-tylko ze zbiorów liczb i z *jakiejkolwiek* określonej na tym zbiorze relacji, *o ile* ta będzie
-*zwrotna* i *przechodnia*, bo wtedy ta relacja ...
+tylko ze zbiorów liczb, i z *jakiejkolwiek* określonej na tym zbiorze relacji, *o ile* ta relacja
+będzie *zwrotna* i *przechodnia*. Ta relacja wtedy ...
 
 1. ... "sama" (dzięki zwrotności) dostarczy nam po jednej endostrzałce dla każdego punktu i ...
 
@@ -158,10 +159,13 @@ tylko ze zbiorów liczb i z *jakiejkolwiek* określonej na tym zbiorze relacji, 
    strzałka.
 
 Wtedy dzięki 2 składanie będzie automatycznie łączne, a dzięki 1 i 2 będziemy mieli strzałki
-identycznościowe.
+identycznościowe. Odkryliśmy oto pewien ważny ogólny fakt dotyczący relacji i kategorii:
+
+*Relacja zwrotna i przechodnia jest tym samym, co cienka kategoria. Różnica między tymi dwoma
+rodzajami struktur polega tylko na sposobie ich opisu*.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
-składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować
+składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować,
 w zasadzie narzuca się sam. `Narysuj` w szeregu w odstępach o krok od siebie punkty `X`, `Y`, `Z` i
 `V`. Dodaj strzałki `f`, `g` i `h`. `Narysuj` złożenia `h g` i `g f` jako strzałki wygięte w dół, a
 na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`. To nie będzie
@@ -181,12 +185,12 @@ podejścia. Gdybyś narysowała strzałkę `f` z pętlami identyczności u źró
 się wyrazić na takim diagramie podwójnego równania `Id f = f = f Id` za pomocą ptaszków, bo nie
 byłoby na nim ani żadnych trójkątów, ani żadnych innych obszarów otoczonych skierowanymi ścieżkami
 równoległymi, w których takie ptaszki dałoby się zamknąć. Możemy jednak skorzystać z tego, że
-*punkty i strzałki na diagramie to jedno, a ich nazwy to co innego*, rysując diagram zawierający
-*kopie*. Bo kto nam zabroni?
+*punkty i strzałki na diagramie to jedno, a ich nazwy i znaczenia to co innego*, rysując diagram
+zawierający *kopie*. Bo kto nam zabroni?
 
 `Narysuj (Punkt X)` (użyłem nawiasów, żeby było wiadomo, o co chodzi), a potem `Narysuj (Punkt Y)
-(SE X)`[^1]. O krok pod punktem `X`, czyli w położeniu `S X`, również `Narysuj (Punkt X)` i połącz
-te dwie kopie skierowaną w dół strzałką o nazwie `Id`. Następnie `Narysuj (Strzalka X Y)` z górnej
+(SE X)`. O krok pod punktem `X`, czyli w położeniu `S X`, również `Narysuj (Punkt X)` i połącz te
+dwie kopie skierowaną w dół strzałką o nazwie `Id`. Następnie `Narysuj (Strzalka X Y)` z górnej
 kopii `X` do punktu `Y` i oznacz ją jako `f`. O krok poniżej punktu `Y` `Narysuj` jego kopię i dodaj
 strzałkę identycznościową z górnego `Y` do dolnego `Y`. Dodaj strzałkę z dolnej kopii `X` do dolnej
 kopii `Y` i oznacz ją jako `f`. Na koniec oznacz ten diagram jako przemienny. W ten sposób można
@@ -194,50 +198,61 @@ wyrazić *pojedyncze* równanie `Id f = f Id`. Jeżeli chcesz, żeby na tym diag
 równania `Id f = f` i `f = f Id`, możesz dodać kopię strzałki `f` przecinającą ten diagram na pół i
 narysować po obydwu stronach tej strzałki ptaszki.
 
+A teraz mam dla Ciebie taką oto zagadkę: Gdy kategoria jest cienka, to z jej definicji wynika, że
+wszystkie pary równoległych ścieżek skierowanych, takie jak na przykład `A → B → C → D` i `A → G →
+D`, muszą być równe po złożeniu, po prostu dlatego, że te ścieżki mają ten sam początek i ten sam
+koniec, a gdy kategoria jest cienka, to dla każdej pary punktów istnieje co najwyżej jedna strzałka
+z pierwszego punktu do drugiego. Wobec tego w przypadku cienkich kategorii *każdy* diagram jest
+przemienny. Czy w takim razie warto było rysować te wszystkie diagramy? Zaznaczam, że nie znam
+odpowiedzi na to pytanie!
+
+## Czasem można coś dosypać
+
 Znanym Ci doskonale przykładem relacji, z której *nie* powstaje kategoria w taki sam sposób jak z
-relacji `≤` jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż*, określona na jakimś
+relacji `≤`, jest - zwykle oznaczana symbolem `<` - relacja *mniejsze niż*, określona na jakimś
 zbiorze liczb, ponieważ ta relacja nie jest zwrotna. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
-liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzrotność relacji), bo żadna
+liczba nie jest w tej relacji sama ze sobą (dokładnie to oznacza przeciwzwrotność relacji), bo żadna
 liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co relacja
 `≤` strzałek identycznościowych.
 
 Z drugiej strony, relacja `<` jest mimo wszystko przechodnia, bo przecież dla każdych trzech liczb
 `m`, `n` i `o` zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą
 strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
-wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że dla każdej pary
-składalnych strzałek istniałaby zawsze dokładnie jedna strzałka kompatybilna z tą parą. Brakowałoby
-więc tylko identyczności.
+wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że to jest
+relacja. Brakowałoby więc *tylko* identyczności.
 
 Moglibyśmy wtedy jednak *dodać identyczności*, które *niczego by nie oznaczały* i *przyjąć
-konwencję*, że te są elementami neutralnymi i też uzyskalibyśmy pewną kategorię. Możemy przecież
-stworzyć kategorię jaką tylko chcemy, z czego tylko chcemy i według jakich tylko chcemy zasad, o ile
-tylko będzie spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i unikać bredzenia, co
-też oczywiście bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie nie doświadczymy
-takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda nam się z taką
-kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
+konwencję*, że te są elementami neutralnymi, uzyskując w ten sposób pewną kategorię. Możemy przecież
+stworzyć kategorię jaką tylko chcemy, z czego tylko chcemy, i według jakich tylko chcemy zasad, o
+ile tylko taka konstrukcja będzie spełniała aksjomaty kategorii (jeżeli chcemy być konsekwentni i
+unikać bredzenia, co też oczywiście bywa przyjemne i pożyteczne). W końcu jesteśmy wolni i nigdzie
+nie doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się *tylko* to, czy uda
+nam się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
 
 Matematyka pozwala nam skutecznie myśleć o *dowolnych zagadnieniach, na dowolnym poziomie ogólności
 i z dowolnych punktów widzenia*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic*
-tak nie pomaga jak matematyka i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do
+tak nie pomaga jak matematyka, i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do
 sprzeczności, to będziemy mieć gwarancję, że wyprowadzone dedukcyjnie wnioski, jakie by nie były,
-będą prawdziwe na mocy przyjętych założeń, definicji i aksjomatów (które też są zresztą definicjami,
-tylko że pozbawionymi ciała). Co prawda nie istnieje uniwersalna metoda *znajdywania* dowodów
-arbitralnych zdań, ale dzięki temu zawsze ważny będzie przebłysk intuicji, a *potencjalne* dowody
-możemy zawsze sprawdzić za pomocą algorytmu, który zawsze da nam jednoznaczną odpowiedź, czy są
-poprawne. W tym sensie matematyka jest strefą logicznie bezpiecznej, ale poza tym niczym
-nieskrępowanej fantazji.
+będą prawdziwe na mocy przyjętych założeń, definicji, i aksjomatów (które też są zresztą
+definicjami, tylko że pozbawionymi ciała). Co prawda nie istnieje uniwersalna metoda *znajdywania*
+dowodów arbitralnych zdań, ale dzięki temu, że taka metoda nie istnieje, zawsze ważny będzie
+przebłysk intuicji, a *potencjalne* dowody możemy zawsze sprawdzić za pomocą algorytmu, który zawsze
+da nam jednoznaczną odpowiedź, czy są poprawne. W tym sensie matematyka jest strefą *logicznie
+bezpiecznej*, ale poza tym *niczym* nieskrępowanej fantazji.
 
 Wracając do określonej na jakimś zbiorze liczb relacji `<` jako (cienkiej) kategorii: Gdyby było
-tak, że dla niektórych, ale nie wszystkich liczb zachodzi zwrotność relacji `<`, czyli gdyby
+tak, że *dla niektórych, ale nie wszystkich* liczb zachodzi *zwrotność* relacji `<`, czyli gdyby
 istniała co najmniej jedna liczba mniejsza od samej siebie, ale istniałaby też liczba, która nie
-jest mniejsza od samej siebie, to byłby problem, bo wtedy niektóre nasze strzałki identycznościowe
-odpowiadałyby liczbom, a niektóre nie odpowiadałyby niczemu i nie byłoby zgodności między kategorią
-i opisywaną przez nią strukturą. No ale w przypadku relacji `<` *żadna* liczba nie wchodzi ze sobą w
-tą relację, a więc taka "kategoryfikacja" przez dodanie "pustych w środku" identyczności nie
-wprowadza zniekształceń, tylko polega na *zmianie konwencji opisywania tej samej
-struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że pętle identyczności są "puste" i służą
-tylko jako konieczne uzupełnienia pozwalające uzyskać kategorię.
+jest mniejsza od samej siebie, mielibyśmy problem, bo wtedy *niektóre* nasze strzałki
+identycznościowe odpowiadałyby faktom zachodzenia tej relacji między pewnymi liczbami i nimi samymi,
+a pozostałe endostrzałki *nie odpowiadałyby niczemu*. W takiej sytuacji *nie byłoby zgodności między
+kategorią i opisywaną przez nią strukturą*. No ale w przypadku relacji `<` *żadna* liczba nie
+wchodzi ze sobą w tą relację, a więc taka "kategoryfikacja" przez dodanie *do każdego punktu*
+"pustych w środku" identyczności *nie wprowadza zniekształceń*, tylko polega na *zmianie konwencji
+opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że wszystkie pętle
+identyczności służą tylko jako konieczne uzupełnienie pozwalające uzyskać kategorię, żeby *mówić
+konsekwentnie o tym samym w języku teorii kategorii zamiast w języku relacji `<`*.
 
 Zanim przejdziemy dalej, przypomnę Ci niektóre wprowadzone wcześniej definicje kategoryjne, tylko
 tym razem dwie z nich nazwę tak, jak przyjęło się je nazywać i jednocześnie dwie z nich wprowadzę z
@@ -257,10 +272,11 @@ strzałek `f : Z → X` i `g : Z → Y`, istnieje unikalna strzałka `h`, spełn
 `π₂ h = g`. Ponieważ taka strzałka jest z definicji tylko jedna, zwykle zapisujemy ją jako `<f,g>`.
 
 Oficjalnie nazywamy strzałki `π₁` i `π₂` raczej rzutami kanonicznymi, ale ja wolę nazywać je
-projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" (bo `Set` to kategoria, a nie
-przestrzeń zbiorów i funkcji) dokładnie iloczyny kartezjańskie zbiorów. Poza tym wiesz również, że
-produkt to tak naprawdę para współźródłowych strzałek, spełniająca wymienione w definicji wymagania,
-ale często wygodniej jest mówić o produktach jako o obiektach, czyli w naszej terminologii punktach.
+projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" ("pod spodem" bo `Set` to
+*kategoria*, a nie kolekcja zbiorów i funkcji) dokładnie iloczyny kartezjańskie zbiorów. Poza tym
+wiesz również, że produkt to tak naprawdę para współźródłowych strzałek, spełniająca wymienione w
+definicji wymagania, ale często wygodniej jest mówić o produktach jako o obiektach, czyli w naszej
+terminologii punktach.
 
 ## Wolne żarty
 
@@ -367,7 +383,3 @@ uproszczenia pomijając kwantyfikatory):
 **Sugestia**: Może masz ochotę spróbować udowodnić, że `Id' f' = f' = f' Id'`? To ostatnia szansa,
 żeby zrobić to całkiem samodzielnie, bo [za chwilę
 powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), skąd to wynika.
-
-### Przypisy
-
-[^1]: Tak wyszło. Odprowadzę się do drzwi.
