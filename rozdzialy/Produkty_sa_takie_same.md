@@ -795,7 +795,9 @@ angielskiego *source*) jest punkt `X`, a celem (`t` od angielskiego *target*) je
 kategorii *mogą* nimi być, a więc też *są*\}, to ponieważ `s, t : Arr(ℂ) → Ob(ℂ)`, to kolekcje
 `Arr(ℂ)` i `Ob(ℂ)` muszą być *zbiorami* \{i w przypadku wielu kategorii są\})
 
-Zgadłaś co oznacza `Arr(ℂ)`, prawda?
+Nawet jeśli jesteśmy już trochę poirytowani tymi wszystkimi robaczkami, to zachowujemy spokój, bo to
+wciąż tylko nowa terminologia i notacja, czyli pewne *konwencje*, bez żadnych nowych *pojęć*, a więc
+nie ma tu nic nowego do *zrozumienia*. Swoja drogą, sama zgadłaś, co oznacza `Arr(ℂ)`, prawda?
 
 Na przykład, jeżeli `ℂ := Set`, to `Hom_ℂ(X, Y)` to *zbiór* wszystkich (strzałek będących)
 funkcj(ami)i z (będącego zbiorem punktu) `X` do (będącego zbiorem punktu) `Y`. Za pomocą tych mam
@@ -803,19 +805,20 @@ nadzieję dezorientujących wtrąceń utożsamiamy tu sobie to, co jest *oznacza
 (za pomocą formalnego języka teorii kategorii) z tym, co oznaczające (czyli z *częściami struktury
 kategorii*). No a czemu mielibyśmy uczyć się dokonywania bezwiednie tego rodzaju utożsamień? Bo
 chcemy nauczyć się używać tego języka w taki jakby "przezroczysty" sposób, *myśląc nim*, czyli
-chcemy nauczyć się *patrzeć przez ten język* tak samo, jak nie zastanawiając się na czym to polega
-patrzymy przez język działań na ułamkach na wszystko, co można traktować jako liczby wymierne.
+chcemy nauczyć się *patrzeć przez ten język* tak samo, jak nie zastanawiając się na czym to
+dokładnie polega patrzymy przez język działań na ułamkach na wszystko, co można traktować jako
+liczby wymierne.
 
 Jeżeli dla każdych `X, Y : Ob(ℂ)`, `Hom_ℂ(X, Y)` jest zbiorem (musimy tego wymagać, bo w ogólnym
-przypadku taka kolekcja może być za duża jak na bycie zbiorem), to dla każdego `Z : Ob(ℂ)`, jeżeli
-istnieje `X × Y` (czyli produkt `X` i `Y` w `ℂ` - dodajemy ten warunek, bo nie każda kategoria ma
-wszystkie produkty, a są nawet i takie, które nie mają żadnych), to:
+przypadku taka kolekcja może być za duża jak na bycie zbiorem), to jeżeli istnieje `X × Y` (czyli
+produkt `X` i `Y` w `ℂ` - dodajemy ten warunek, bo nie każda kategoria ma wszystkie produkty, a są
+nawet i takie, które nie mają żadnych), to dla każdego `Z : Ob(ℂ)`:
 
 `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y) ≅ Hom_ℂ(Z, X × Y)`
 
-Nie panikujemy! Zamiast panikować **czytamy to jako**: Istnieje (kategoryjny) izomorfizm (`≅` - od
-niego zaczynamy czytać, bo on tu najmocniej wiąże), będący w tym wypadku funkcją (a więc to jest
-bijekcja), bo to są wszystko zbiory, między ...
+Można panikować! Ale nie trzeba. Zamiast panikować powoli i być może więcej niż raz **czytamy to
+jako**: Istnieje (kategoryjny) izomorfizm (`≅` - od niego zaczynamy czytać, bo on tu najmocniej
+wiąże), będący w tym wypadku funkcją (a więc to jest bijekcja), bo to są wszystko zbiory, między ...
 
 1. Produktem `Hom_ℂ(Z, X) × Hom_ℂ(Z, Y)`, który można w tym wypadku rozumieć jako (bo działa tak
    samo jak) zbiór takich par uporządkowanych, że pierwszym elementem jest strzałka z `Z` do `X`, a
@@ -876,4 +879,5 @@ głównymi*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii)#Funktory_g
 
 ... *"chwytając" w ten sposób kategoryjnie (!) "istotę funkcjonalną" (!) pojęcia kategoryjnego (!)*
 (tutaj akurat pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju [*badań
-endo-meta-teoretycznych*](https://en.wikipedia.org/wiki/Drawing_Hands).
+endo-meta-teoretycznych*](https://en.wikipedia.org/wiki/Drawing_Hands). No [może być coś
+fajniejszego?](https://pl.wikipedia.org/wiki/Pytanie_retoryczne)
