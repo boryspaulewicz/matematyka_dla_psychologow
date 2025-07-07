@@ -513,7 +513,8 @@ Ponieważ te dwie ostatnie definicje są funkcjami, które przekształcają dowo
 wprowadzone znaczeniu tego słowa) strzałek-projekcji z koniunkcji jako produktu. O tym też wspominam
 tylko dlatego, że wydaje mi się to ciekawe.
 
-W tym samym znaczeniu strzałkową definicję *alternatywy* można natomiast skonstruować tak:
+W tym samym (nie kategoryjnym) znaczeniu strzałkową definicję *alternatywy* można natomiast
+skonstruować tak:
 
 ```lean
 def or (p q : Prop) : Prop := ∀ r : Prop, (p → r) → (q → r) → r
@@ -527,7 +528,8 @@ def or_in1 (p q : Prop) (hp : p) : or p q :=
 def or_in2 (p q : Prop) (hq : q) : or p q :=
   fun _ => fun _ => fun hq_to_r => hq_to_r hq
 
--- Definicja alternatywy jest tutaj tym samym, co jedyna reguła eliminacji dla alternatywy.
+-- Podobnie jak w przypadku reguły wprowadzania dla koniunkcji, definicja alternatywy jest tutaj tym samym,
+-- co jedyna reguła eliminacji dla alternatywy.
 ```
 
 Strzałkowa definicja alternatywy wyraża wprost zasadę, zgodnie z którą alternatywa to takie zdanie,
@@ -557,11 +559,11 @@ pojęcia są zdefiniowane albo zaimplementowane na przykład w takiej albo innej
 czy w takiej albo innej wersji teorii mnogości. Może się wydawać, że wyjaśniając to w ten sposób
 tracimy poczucie sensu, ale jeśli mamy takie wrażenie, to jest tak *tylko* dlatego, że mamy
 tendencję do poszukiwania rozumienia na poziomie implementacji, być może dlatego, że ten poziom
-wydaje się bardziej "podstawowy" albo "konkretny". Jednocześnie jednak dzięki przyjęciu perspektywy
-kategoryjnej zyskujemy możliwość zrozumienia w pewnym sensie prawdziwych albo głębszych
-*uniwersalnych powodów*, dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób
-*w różnych kontekstach* (tutaj w kontekście logiki zdań zaimplementowanej w języku teorii typów z
-wbudowanymi parami uporządkowanymi i definicjami indukcyjnymi).
+wydaje się bardziej "podstawowy" albo "konkretny". Dzięki przyjęciu perspektywy kategoryjnej
+zyskujemy możliwość zrozumienia w pewnym sensie *prawdziwych* albo *głębszych uniwersalnych
+powodów*, dla których produkty i koprodukty są zdefiniowane w taki a nie inny sposób *w różnych
+kontekstach* (tutaj w kontekście logiki zdań zaimplementowanej w języku teorii typów z wbudowanymi
+parami uporządkowanymi i definicjami indukcyjnymi).
 
 ### Przypisy
 
