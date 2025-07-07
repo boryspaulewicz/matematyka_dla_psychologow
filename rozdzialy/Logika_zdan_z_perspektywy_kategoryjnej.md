@@ -206,8 +206,7 @@ wszystkie pary równoległych ścieżek skierowanych, takie jak na przykład `A 
 D`, muszą być równe po złożeniu, po prostu dlatego, że te ścieżki mają ten sam początek i ten sam
 koniec, a gdy kategoria jest cienka, to dla każdej pary punktów istnieje co najwyżej jedna strzałka
 z pierwszego punktu do drugiego. Wobec tego w przypadku cienkich kategorii *każdy* diagram jest
-przemienny. Czy w takim razie warto było rysować te wszystkie diagramy? Zaznaczam, że nie znam
-odpowiedzi na to pytanie!
+przemienny. Czy w takim razie warto było rysować te wszystkie diagramy? Nie mam pojęcia!
 
 <hr>
 
@@ -217,11 +216,11 @@ To będzie kolejny przykład czegoś, co jest *technicznie proste*, to znaczy ł
 opanowania, i co ewidentnie *działa*, to jest sprawdza się w praktyce dla określonych celów, ale co
 mimo to może być *trudne do zaakceptowania*. Znanym Ci doskonale przykładem relacji, z której *nie*
 powstaje kategoria w taki sam sposób jak z relacji `≤` jest - zwykle oznaczana symbolem `<` -
-relacja binarna *mniejsze niż*, określona na jakimś zbiorze liczb, ponieważ ta relacja *nie jest
-zwrotna*. Jest wręcz przeciwnie, bo jest
+relacja binarna *mniejsze niż*, określona na jakimś zbiorze liczb. Z takiej relacji nie da się w ten
+sam sposób zrobić kategorii, ponieważ ta relacja *nie jest zwrotna*. Jest wręcz przeciwnie, bo jest
 [*przeciwzwrotna*](https://pl.wikipedia.org/wiki/Relacja_zwrotna) (musiałem), to znaczy, *żadna*
 liczba nie jest w tej relacji *sama ze sobą* (dokładnie to oznacza przeciwzwrotność relacji), bo
-żadna liczba nie jest mniejsza sama od siebie. A więc ta relacja nie dostarcza w ten sam sposób co
+żadna liczba nie jest mniejsza od siebie. A więc ta relacja nie dostarcza w ten sam sposób co
 relacja `≤` strzałek identycznościowych.
 
 Z drugiej strony, relacja `<` jest mimo wszystko *przechodnia*, to jest dla każdych trzech liczb
@@ -259,11 +258,11 @@ identycznościowe odpowiadałyby faktom zachodzenia tej relacji między pewnymi 
 a pozostałe endostrzałki *nie odpowiadałyby niczemu*. W takiej sytuacji *nie byłoby zgodności między
 strukturą kategorii i strukturą przez nią opisywaną*. No ale w przypadku relacji `<` *żadna* liczba
 nie wchodzi ze sobą w tą relację, a więc "kategoryfikacja" przez dodanie do *każdego* punktu
-"pustych w środku" identyczności *nie wprowadza zniekształceń*, tylko polega na *zmianie konwencji
-opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że wszystkie pętle
-identycznościowe służą tylko jako konieczne uzupełnienie pozwalające uzyskać kategorię, żeby *mówić
-konsekwentnie o tym samym w języku teorii kategorii zamiast w teoriomnogościowym języku relacji
-`<`*.
+"pustych w środku" (albo "pod spodem") identyczności *nie wprowadza zniekształceń*, tylko polega na
+*zmianie konwencji opisywania tej samej struktury*. Wystarczyłoby wtedy pamiętać albo zapisać, że
+wszystkie pętle identycznościowe służą tylko jako konieczne uzupełnienie pozwalające uzyskać
+kategorię, żeby *mówić konsekwentnie o tym samym w języku teorii kategorii zamiast w
+teoriomnogościowym języku relacji `<`*.
 
 <hr>
 
