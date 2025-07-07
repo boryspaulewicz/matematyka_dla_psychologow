@@ -8,9 +8,10 @@ sensie mniejsza o połowę. I to wszystko będzie *technicznie* dosyć proste.
 
 # p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
-Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Teraz wrócimy do tego
-znanego Ci już kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Ustalimy
-najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego kategoria.
+Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Czy może raczej
+pozostawaliśmy w nich zanurzeni jak człowiek w wodzie[^1]. Teraz wrócimy do tego znanego Ci już
+kontekstu i popatrzymy na logikę zdań z kategoryjnego punktu widzenia. Ustalimy najpierw, czy da się
+opisać logikę zdań tak, żeby wyszła z tego kategoria.
 
 1. Niech *punkty* oznaczają *zdania*.
 
@@ -22,7 +23,7 @@ najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego kategoria.
 
 4. Niech *składanie* strzałek będzie *składaniem dowodów*.
 
-Możemy udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowodów:
+Okazuje się, że w ten sposób uzyskujemy kategorię zdań i dowodów:
 
 ```lean
 -- Ta definicja stałej `ID` różni się od wcześniejszej tylko tym, że zamiast typu `Type` występuje 
@@ -36,12 +37,12 @@ def Z {P Q R : Prop} (f : P → Q) (g: Q → R) : (P → R) :=
 
 -- Dowody własności, których wymagamy od strzałek identycznościowych, też różnią się tylko typem,
 -- ...
-example (P Q : Prop) (f : P → Q) : Z f (ID Q) = f := by rfl
-example (P Q : Prop) (f : P → Q) : Z (ID P) f = f := by rfl
+example (P Q : Prop) (f : P → Q) : Z f (ID Q) = f := by rfl -- `Id f = f`, bo `Z f g` to `g ∘ f`
+example (P Q : Prop) (f : P → Q) : Z (ID P) f = f := by rfl -- `f Id = f`
 
 -- ... podobnie jak dowód łączności składania dowodów.
 example (P Q R S : Prop) (f : P → Q) (g : Q → R) (h : R → S) : 
-  -- (h ∘ g) ∘ f = h ∘ (g ∘ f)
+  -- `(h ∘ g) ∘ f = h ∘ (g ∘ f)`
   Z f (Z g h) = Z (Z f g) h := by rfl
 ```
 
@@ -58,7 +59,7 @@ konstruowania funkcji anonimowych. Możemy stosować to słowo kluczowe do konst
 example (n m : Nat) : Nat := n + m
 ```
 
-... ale to nie będą funkcje anonimowe, bo nie da się ani sprawdzić typu takich wyrażeń, ani ich
+... ale to *nie* będą funkcje anonimowe, bo nie da się ani sprawdzić typu takich wyrażeń, ani ich
 aplikować:
 
 ```lean
@@ -69,8 +70,8 @@ aplikować:
 #check (example (n m : Nat) : Nat := n + m) 2 2
 ```
 
-Takie fragmenty kodu służą więc tylko do *sprawdzania*, czy jakaś funkcja, która może, ale nie musi
-być dowodem jakiegoś zdania, może być w pewien sposób skonstruowana.
+Takie fragmenty kodu służą więc tylko do *sprawdzania*, czy jakaś funkcja (która może, ale nie musi
+być dowodem jakiegoś zdania) może być w określony sposób skonstruowana.
 
 <hr>
 
@@ -78,7 +79,8 @@ Dla każdego zdania `P`, dowód tautologii `P → P` jest elementem neutralnym z
 składania dowodów, bo jest funkcją identycznościową przekształcającą każdy dowód swojego zdania w
 niego samego. Ponieważ dowody są dla nas funkcjami jak każde inne, z tą tylko różnicą, że mają typ
 będący termem typu `Prop`, to składanie dowodów, co właśnie udowodniliśmy, jest łączne. Skoro już
-ustaliliśmy, że mamy do czynienia z kategorią, od tego momentu możemy o tych dowodach *zapomnieć*.
+ustaliliśmy, że mamy do czynienia z kategorią, od tego momentu możemy o konkretnym dowodzie tego
+faktu *zapomnieć*.
 
 Ta kategoria ma zdecydowanie inny charakter *jako kategoria* niż kategoria zbiorów i funkcji. W
 kategorii zbiorów i funkcji występują strzałki, które są zarazem *równoległe* i *różne*. Na
@@ -95,9 +97,10 @@ Czy widzisz, że ten ostrożny sposób mówienia staje się już zbędny i troch
 
 *W kategorii zbiorów istnieją dokładnie dwie funkcje równoległe ze zbioru* `X` *do zbioru* `Y`.
 
-... i wiedzielibyśmy, że chodzi tak naprawdę o punkty i strzałki, tylko w pewien sposób zdefiniowane
-albo zinterpretowane (w tym wypadku jako zbiory i funkcje). Dlatego będę od pewnego momentu coraz
-częściej mówił właśnie w ten sposób.
+Chociaż to *strzałki*, a nie *funkcje jako takie*, są częściami struktury kategorii, to akurat *w
+tym kontekście* strzałki to funkcje. Mówiąc w ten sposób wiemy, że chodzi tak naprawdę o punkty i
+strzałki (*W kategorii ...*) , tylko w pewien sposób zdefiniowane albo zinterpretowane (*... zbiorów
+\{i funkcji\} ...*). Dlatego będę od pewnego momentu coraz częściej mówił właśnie w ten sposób.
 
 ## Cienka ta kategoria
 
@@ -105,18 +108,24 @@ W kategorii punktów jako zdań i strzałek jako dowodów, której się teraz pr
 strzałka z punktu `P` do punktu `Q` wtedy i tylko wtedy, gdy zakładając (zdanie odpowiadające
 punktowi) `P` da się w jakikolwiek sposób udowodnić (zdanie odpowiadające punktowi) `Q`. W tej
 kategorii nie ma nigdy dwóch różnych strzałek równoległych, bo zgodnie z zasadą *proof irrelevance*,
-wszystkie dowody tego samego zdania są równe. Kategorie, które nie mają par różnych strzałek
-równoległych, nazywamy [*cienkimi*](https://ncatlab.org/nlab/show/thin+category) (ang. *thin*).
+wszystkie dowody tego samego zdania są równe. *Nie musimy* przyjmować tej zasady; możemy traktować
+różne dowody jako różne strzałki i uzyskamy w ten sposób kategorię, ale tym razem nie będziemy tego
+robić. 
+
+Kategorie, które nie mają par różnych strzałek równoległych, nazywamy
+[*cienkimi*](https://ncatlab.org/nlab/show/thin+category) (ang. *thin*). Albo: kategoria cienka to
+taka, że dla każdego punktu `X` i `Y` istnieje co najwyżej jedna strzałka z `X` do `Y`.
 
 Mamy tu zatem cienką kategorię, to jest taką, że dla każdej pary punktów `P` i `Q`, istnieje *co
-najwyżej jedna* strzałka z `P` do `Q`. Tego rodzaju kategorie opisują pewnego rodzaju *relacje
-binarne*, bo między dwoma elementami jakaś relacja albo zachodzi, albo nie; z powodu tego, jak słowo
-*relacja* jest używane jako termin techniczny w matematyce, stwierdzenie, że jakaś konkretna relacja
-zachodzi między dwoma elementami na więcej niż jeden sposób nie ma sensu. W przypadku kategorii,
-którą teraz badamy, strzałka *nie* oznacza więc tak naprawdę *konkretnego dowodu*, tylko pewien
-*fakt*; w tym wypadku to jest zawsze fakt polegający na samym *istnieniu* dowodu pewnej implikacji,
-czyli na zachodzeniu *relacji dowiedlności* między jakimiś dwoma zdaniami. Ta kategoria ma więc
-wyraźnie inny charakter niż kategoria zbiorów i funkcji.
+najwyżej jedna* strzałka z `P` do `Q` (powtarzam się czasem tylko po to, żebyś Ty coś mimowolnie
+powtarzała). Tego rodzaju kategorie opisują pewnego rodzaju *relacje binarne*, bo między dwoma
+elementami jakaś relacja albo zachodzi, albo nie; z powodu tego, jak słowo *relacja* jest używane
+jako termin techniczny w matematyce, stwierdzenie, że jakaś relacja zachodzi między dwoma elementami
+na więcej niż jeden sposób nie ma sensu. W przypadku kategorii, którą teraz badamy, strzałka *nie*
+oznacza więc tak naprawdę *konkretnego dowodu*, tylko pewien *fakt*; w tym wypadku to jest zawsze
+fakt polegający na samym *istnieniu* dowodu pewnej implikacji, czyli na zachodzeniu *relacji
+dowiedlności* między jakimiś dwoma zdaniami. Ta kategoria ma więc wyraźnie inny charakter niż
+kategoria zbiorów i funkcji.
 
 Nie wszystkie relacje dają się w ten sposób reprezentować jako kategorie. Możemy tak zrobić z
 relacją *mniejsze lub równe*, określoną na dowolnym zbiorze `X` zawierającym jakieś liczby. Wtedy
@@ -135,15 +144,14 @@ złożeniem. Pozostaje tylko ustalić, czy ...
 ... ale ponieważ nie ma tutaj nigdy dwóch różnych strzałek równoległych, to składanie "nie ma
 żadnego wyboru", bo zawsze istnieje dokładnie jedna strzałka kompatybilna.
 
-Na przykład, jeżeli `Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo
-istnieje tylko jedna strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest
-automatycznie spełniona i tak samo spełniona jest lewostronna neutralność każdej endostrzałki, a
-więc każdej identyczności w tej być może (bo jeszcze musimy się upewnić, czy zachodzi łączność
-składania) kategorii.
+Jeżeli `Id : X → X` i `f : X → Y`, to złożenie `f Id` może być tylko strzałką `f`, bo istnieje tylko
+jedna strzałka z `X` do `Y`, a więc prawostronna neutralność strzałki `Id` jest automatycznie
+spełniona i tak samo spełniona jest lewostronna neutralność każdej endostrzałki. Ustaliliśmy
+właśnie, że potencjalne identyczności faktycznie działają jak identyczności.
 
 A gdy mamy jakieś strzałki `f : X → Y`, `g : Y → Z` i `h : Z → V`, to nie ma znaczenia, czy najpierw
 uzyskamy jako złożenie `h g` jedyną strzałkę z `Y` do `V` jaka istnieje, a potem złożymy ją ze
-strzałką `f` uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw uzyskamy jako
+strzałką `f`, uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, czy najpierw uzyskamy jako
 złożenie `g f` jedyną strzałkę z `X` do `Z` jaka istnieje, a potem dołożymy do niej strzałkę `h`,
 uzyskując jedyną strzałkę z `X` do `V` jaka istnieje, bo na końcu uzyskamy ... jedyną strzałkę z `X`
 do `V` jaka istnieje, a więc w obydwu przypadkach uzyskamy tą samą strzałkę. Widzimy więc, że sama
@@ -158,14 +166,14 @@ będzie *zwrotna* i *przechodnia*. Ta relacja wtedy ...
 1. ... "sama" (dzięki zwrotności) dostarczy nam po jednej endostrzałce dla każdego punktu i ...
 
 2. ... (dzięki przechodniości) każdej parze składalnych strzałek będzie odpowiadała jakaś strzałka
-   kompatybilna, w dodatku będzie zawsze istniała dokładnie jedna (bo to jest relacja) taka
+   kompatybilna, a w dodatku będzie zawsze istniała dokładnie jedna (bo to jest relacja) taka
    strzałka.
 
 Wtedy dzięki 2 składanie będzie automatycznie łączne, a dzięki 1 i 2 będziemy mieli strzałki
 identycznościowe. Odkryliśmy oto pewien ważny ogólny fakt dotyczący relacji i kategorii:
 
 *Relacja zwrotna i przechodnia jest tym samym, co cienka kategoria. Różnica między tymi dwoma
-rodzajami struktur polega tylko na sposobie ich opisu*.
+rodzajami struktur polega tylko na sposobie opisu*.
 
 **Rysunek 1**: Może domyślasz się już, jak narysować te wszystkie własności? W przypadku łączności
 składania diagram jest co prawda bardziej (hm) złożony, ale sposób, w jaki dobrze jest go narysować,
@@ -173,15 +181,17 @@ w zasadzie narzuca się sam. `Narysuj` w szeregu w odstępach o krok od siebie p
 `V`. Dodaj strzałki `f`, `g` i `h`. `Narysuj` złożenia `h g` i `g f` jako strzałki wygięte w dół, a
 na koniec dodaj strzałkę z `X` do `V` i oznacz ją jako `(h g) f = h (g f)`. To nie będzie
 szczególnie łatwy do odczytania diagram, a poza tym można to samo wyrazić inaczej, więc nie przejmuj
-się, jeżeli będziesz miała wrażenie, że jest niezbyt przekonujący.
+się, jeżeli będziesz miała wrażenie, że jest niezbyt przekonujący. Jeżeli przyszła Ci do głowy inna
+wersja tego diagramu, na przykład taka, na której złożenia na siebie *nie* nachodzą, to wspaniale!
+Wtedy narysuj proszę raczej swoją wersję.
 
 Diagramatycznie każde złożenie jest przemiennym "trójkątem skierowanym", bo odpowiada jednej
 konkretnej strzałce, która jest wynikiem składania jednej konkretnej pary składalnych strzałek. W
 przypadku tego diagramu mamy dwa trójkąty - każdy z jednym kątem wewnętrznym 180 stopni i wygiętymi
-bokami, ale i tak możemy je nazywać trójkątami - które na siebie zachodzą. Dlatego naniesienie
-ptaszków wyrażających przemienności wszystkich równoległych ścieżek skierowanych w taki sposób, żeby
-było widać, o które złożenia chodzi, może wymagać chwili namysłu, ale poza tym ten diagram nie różni
-się specjalnie od tych, które rysowałaś wcześniej.
+bokami, ale i tak możemy te pod-diagramy nazywać trójkątami. Ponieważ te pod-diagramy (w mojej
+wersji) na siebie nachodzą, naniesienie ptaszków wyrażających przemienności wszystkich równoległych
+ścieżek skierowanych w taki sposób, żeby było widać, o które złożenia chodzi, może wymagać chwili
+namysłu, ale poza tym ten diagram nie różni się specjalnie od tych, które rysowałaś wcześniej.
 
 **Rysunek 2**: Diagram wyrażający neutralność strzałek identycznościowych wymaga innego
 podejścia. Gdybyś narysowała strzałkę `f` z pętlami identyczności u źródła i u celu, to nie dałoby
@@ -406,3 +416,9 @@ Mówiąc dokładniej (ale dla uproszczenia pomijając kwantyfikatory):
 **Sugestia**: Może masz ochotę spróbować udowodnić, że `Id' f' = f' = f' Id'`? To ostatnia szansa,
 żeby zrobić to całkiem samodzielnie, bo [za chwilę
 powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), z czego dokładnie to wynika.
+
+### Przypisy
+
+[^1]: "Podaje się", że to Daniel Kahneman powiedział, że "Thinking is to humans as swimming is to
+    cats; they can do it, but they prefer not to". Moim zdaniem ludzie myślą cały czas, czy tego
+    chcą, czy nie; obce ludziom jest natomiast myślenie matematyczne.
