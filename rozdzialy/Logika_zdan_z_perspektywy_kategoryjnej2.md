@@ -189,24 +189,24 @@ skonstruować dowód implikacji `True → P`. I dualnie, dla każdego zdania `P`
 zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i negacja (`¬ P` dla jakiegoś `P :
 Prop`) są swoimi dualnymi odpowiednikami.
 
-Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
-jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
-R`, czyli jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań istnieją strzałki `P → Q` i
-`P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧
-R`. Ten dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R → R`, czyli dowód tej
-implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając jedyne możliwe strzałki `P →
-Q` i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tu żadnych par
-różnych równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para
-uporządkowana zdań, a więc każdy dowód koniunkcji to para uporządkowana dowodów zdań będących jej
-członami, co dodatkowo podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem
-kartezjańskim zbiorów) i pojęciem koniunkcji w logice zdań.
+Produkty w tej kategorii to *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`, jeżeli z `P`
+wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P → R`, czyli
+jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań istnieją strzałki `P → Q` i `P → R`,
+to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧ R`. Ten
+dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R → R`, czyli dowód tej implikacji
+składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając jedyne możliwe strzałki `P → Q` i `P →
+R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tu żadnych par różnych
+równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para uporządkowana
+zdań, a więc każdy dowód koniunkcji to para uporządkowana dowodów zdań będących jej członami, co
+dodatkowo podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem kartezjańskim
+zbiorów) i pojęciem koniunkcji w logice zdań.
 
-*Koproduktami* w tej kategorii są z kolei dokładnie *alternatywy* zdań, które zapisujemy prawie jak
-koniunkcje, tylko odwracając symbol `∧` do góry nogami, czyli używając symbolu `∨`. W tym momencie,
-może jeszcze tego nie wiedząc w znaczeniu psychologicznym, w innym znaczeniu wiesz już w zasadzie
-wszystko o logicznej alternatywie, bo "funkcjonalnie" logiczna alternatywa to dokładnie lustrzane
-odbicie koniunkcji. Tak oto wyjaśnił nam się tytuł tego rozdziału (w którym `~` oznacza "jest w
-pewien sposób tym co"):
+*Koproduktami* w tej kategorii są natomiast dokładnie *alternatywy* zdań, które zapisujemy prawie
+jak koniunkcje, tylko odwracając symbol `∧` do góry nogami, czyli używając symbolu `∨`. W tym
+momencie, może jeszcze tego nie wiedząc w znaczeniu psychologicznym, w innym znaczeniu wiesz już w
+zasadzie wszystko o logicznej alternatywie, bo "funkcjonalnie" logiczna alternatywa to dokładnie
+lustrzane odbicie koniunkcji. Tak oto wyjaśnił nam się tytuł tego rozdziału (w którym `~` oznacza
+"jest w pewien sposób tym co"):
 
 `p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q`
 
