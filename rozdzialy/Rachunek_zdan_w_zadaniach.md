@@ -12,14 +12,14 @@ mają poprawne wyrażenia tego języka. Podstawową kategorią syntaktyczną rac
 *zdania logicznego* w tym znaczeniu, że język rachunku zdań to w pewien sposób zdefiniowany zbiór
 zdań. Elementy należące do tego zbioru (albo typu) nazywamy też *formułami logicznymi*, ale to
 ostatnie pojęcie jest ogólniejsze, bo formułami logicznymi nazywamy poprawne wyrażenia w systemach
-logicznych w ogóle, formułami logicznymi są na przykład poprawne zdania w rachunku kwantyfikatorów.
+logicznych w ogóle, są nimi na przykład poprawne zdania w rachunku kwantyfikatorów.
 
 Już wiesz, czym są zdania w rachunku zdań:
 
-1. Zmienne zdaniowe, takie jak `p`, `q`, `r`, `p₀`, `p₁`, i tak dalej, są, albo mogą być,
+1. *Zmienne zdaniowe*, takie jak `p`, `q`, `r`, `p₀`, `p₁`, i tak dalej, są, albo mogą być,
 (poprawnymi) zdaniami logicznymi, albo krótko zdaniami. Takie zdania (inaczej formuły) nazywamy
 zdaniami *atomowymi*, ponieważ nie mają wewnętrznej struktury (ewentualne indeksy dolne służą tu
-tylko do odróżnienia zmiennych zdaniowych).
+tylko do ich odróżnienia).
 
 2. Jeżeli `P` jest (być może złożonym) zdaniem, to `¬P` też jest zdaniem.
 
@@ -32,12 +32,14 @@ tylko do odróżnienia zmiennych zdaniowych).
 
 6. Jeżeli `P` i `Q` są zdaniami, to `P ∨ Q` też jest zdaniem.
 
-To jest *definicja indukcyjna* zdań, a więc zdaniami są wszystkie te i tylko te wyrażenia, które
+To jest *definicja indukcyjna* zdań, a więc zdaniami są *wszystkie te i tylko* te wyrażenia, które
 powstają przez stosowanie tych reguł. Zwracam uwagę, że mamy tu do czynienia tylko ze składnią, w
-szczególności, te 6 reguł nie mówi *nic* na temat tego, w jaki posób prawdziwość pewnego rodzaju
-zdań zależy od prawdziwości innych zdań. Tego rodzaju definicje syntaktyczne zapisujemy czasem w tak
-zwanej [notacji Backusa-Naura](https://pl.wikipedia.org/wiki/Notacja_BNF) (*BNF*), z której chętnie
-korzystają informatycy (i trudno im się dziwić):
+szczególności, te 6 reguł nie mówi *nic* na temat tego, w jaki posób prawdziwość zdań zależy od
+prawdziwości zdań. 
+
+Tego rodzaju definicje syntaktyczne zapisujemy czasem w tak zwanej [notacji
+Backusa-Naura](https://pl.wikipedia.org/wiki/Notacja_BNF) (*BNF*), z której chętnie korzystają
+informatycy (i trudno im się dziwić):
 
 ```lean
 -- Definicja zbioru zdań w notacji BNF (to nie jest kod Leana)
@@ -46,16 +48,16 @@ Z ::= V|¬Z|Z → Z|Z ↔ Z|Z ∧ Z|Z ∨ Z
 
 gdzie `Z` to definiowany zbiór zdań, a `V` to jakiś wcześniej zdefiniowany zbiór zmiennych
 zdaniowych, na przykład `{a, b, c, ..., a₀, a₁, a₂, ..., b₀, b₁, b₂, ...}`. Symbol `::=` oznacza w
-notacji BNF definiowanie, a `|` czytamy jako *lub*. To jest więc zwięźle zapisana *indukcyjna
+notacji BNF definiowanie, a `|` czytamy tu jako *lub*. To jest więc zwięźle zapisana *indukcyjna
 definicja rekurencyjna*: zdaniem jest każda zmienna (`V`) lub (`|`) wyrażenie `Z → Z`, gdzie *każde
 wystąpienie* litery `Z` *z osobna* można zastąpić przez cokolwiek, co ze względu na przyjęte reguły
 konstrukcji zdań jest zdaniem (rekurencja), i tak dalej.
 
 Zwracam też uwagę, że spójniki logiczne są tu operacjami *aksjomatycznymi* (negacja jest operacją
-jednoargumentową, pozostałe spójniki to operacje dwuargumentowe); biorąc pod uwagę te 6 reguł
+jednoargumentową, pozostałe spójniki to operacje dwuargumentowe); biorąc pod uwagę te 6 reguł,
 jedyne, co możemy zrobić z tymi operacjami, to aplikować je do argumentów zdaniowych. Co więcej,
-zdefiniowany w ten sposób zbiór zdań to właściwie nie jest zbiór zdań, tylko zbiór elementów,
-których można będzie używać jak zdań, *o ile* dodamy do tych reguł jakieś reguły semantyczne.
+zdefiniowany w ten sposób zbiór zdań to właściwie nie jest zbiór zdań, tylko zbiór *elementów*,
+których *można będzie* używać jak zdań, *o ile* dodamy do tych reguł jakieś reguły *semantyczne*.
 
 W naszym (teoriotypowym) języku bycie zdaniem to dokładnie zamieszkiwanie typu `Prop`. Dzięki typom
 zależnym możemy *zdefiniować* w języku teorii typów wszystkie spójniki, za wyjątkiem wbudowanej w
@@ -68,43 +70,49 @@ termów typów zdaniowych, które były pewnymi *obiektami* (albo metodami) *obl
 interpretowalnymi jako dowody*. A więc nasza semantyka sprowadzała się do specyficznie modelowanych
 (jako programy i struktury danych) *reguł dowodzenia*, ponieważ jedyną wersją prawdziwości, którą
 się do tej pory zajmowaliśmy, była prawdziwość rozumiana jako dowiedlność, a dowiedlność oznaczała
-istnienie poprawnego termu, czyli kodu, danego typu zdaniowego. Nie wiem, czy rzuciło Ci się to już
-wcześniej w oczy, ale jak dotąd nasze reguły składniowe i semantyczne były ze sobą nierozerwalnie
-związane. Na przykład, definiując typ zdań o postaci koniunkcji od razu określiliśmy, w jaki sposób
-można konstruować dowody takich zdań (tworząc pary uporządkowane) i rozstrzygnęliśmy jednocześnie, w
-jaki sposób można ich używać do dowodzenia innych zdań (używając projekcji z par).
+istnienie poprawnego termu, czyli kodu, danego typu zdaniowego. 
+
+Nie wiem, czy rzuciło Ci się to już wcześniej w oczy, ale jak dotąd nasze reguły składniowe i
+semantyczne były ze sobą (czasami) nierozerwalnie związane. Na przykład, definiując *indukcyjny*
+(właśnie wtedy były) typ zdań o postaci koniunkcji od razu określiliśmy, w jaki sposób można
+konstruować dowody takich zdań (tworząc pary uporządkowane), i rozstrzygnęliśmy jednocześnie, w jaki
+sposób można ich używać do dowodzenia innych zdań (używając projekcji).
 
 ## *Klasyka*
 
 Dodamy teraz nowy aksjomat, przez co uogólnimy pojęcie prawdziwości zdań i otrzymamy wersję
-klasyczną rachunku zdań ([KRZ](https://pl.wikipedia.org/wiki/Klasyczny_rachunek_zda%C5%84)). Można
-powiedzieć, że logika *klasyczna* od konstruktywnej różni się tylko jednym dodatkowym aksjomatem
+*klasyczną* rachunku zdań ([KRZ](https://pl.wikipedia.org/wiki/Klasyczny_rachunek_zda%C5%84)). Można
+powiedzieć, że logika klasyczna od konstruktywnej różni się tylko jednym dodatkowym aksjomatem
 (który akurat w Leanie jest *twierdzeniem* wyprowadzonym z innych aksjomatów, patrz [twierdzenie
 Diaconescu](https://en.wikipedia.org/wiki/Diaconescu%27s_theorem)), nazywanym zasadą albo prawem
 [wyłączonego środka](https://pl.wikipedia.org/wiki/Prawo_wy%C5%82%C4%85czonego_%C5%9Brodka)
-(ang. *excluded middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem
-*każde* zdanie jest albo prawdziwe albo fałszywe (czyli prawdziwa jest jego negacja). Dostępną w
-Leanie implementację tej zasady znajdziemy w przestrzeni nazw `Classical` (`em` to właśnie skrót od
-*excluded middle*):
+(ang. *excluded middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem,
+*każde* zdanie jest albo prawdziwe, albo fałszywe (czyli prawdziwa jest jego negacja).
+
+Dostępną w Leanie implementację tej zasady znajdziemy w przestrzeni nazw `Classical` (`em` to
+właśnie skrót od *excluded middle*):
 
 ```lean
 #check Classical.em -- `Classical.em (p : Prop) : p ∨ ¬p` 
 ```
 
-W logice *konstruktywnej* jeżeli `p` to zdanie, to o zdaniu `p ∨ ¬p` możemy stwierdzić, że jest
-prawdziwe wtedy i tylko wtedy, gdy albo mamy dowód zdania `p`, albo mamy dowód zdania `¬p`, a więc w
-logice konstruktywnej zdania o takiej strukturze nie są prawdziwe *automatycznie*; w logice
-konstruktywnej *nie* zakładamy, że *wszystkie* (poprawne składniowo) zdania są albo prawdziwe, albo
-fałszywe.
+[Właśnie poznałaś logikę klasyczną!](https://youtu.be/fhrNgXJ__n8?si=5flbWqaE4SFaCOr3)
+
+W logice *konstruktywnej*, jeżeli `p` to zdanie, to o zdaniu `p ∨ ¬p` możemy stwierdzić, że jest
+prawdziwe wtedy i tylko wtedy, gdy albo *mamy* dowód zdania `p`, albo *mamy* dowód zdania `¬p`, a
+więc w logice konstruktywnej zdania o takiej strukturze nie są prawdziwe *automatycznie*. Inaczej
+mówiąc, w logice konstruktywnej *nie* zakładamy, że *wszystkie* (poprawne składniowo) zdania są albo
+prawdziwe, albo fałszywe.
 
 Dla nas zasada wyłączonego środka będzie aksjomatem, a nie twierdzeniem (chociaż równie dobrze
-moglibyśmy używać implementacji Leana):
+moglibyśmy używać implementacji Leana \{na wszelki wypadek przypominam: implementacja ma *działać
+tak jak chcemy*, ale poza tym *nie ma znaczenia*\}):
 
 ```lean
 axiom em (p : Prop) : p ∨ ¬p
 ```
 
-Korzystając z aksjomatu `em` możemy udowodnić zasadę podwójnej negacji (ang. *double negation*):
+Korzystając z aksjomatu `em` możemy udowodnić *zasadę podwójnej negacji* (ang. *double negation*):
 
 ```lean
 theorem dneg (p : Prop) : ¬¬p → p :=
@@ -124,7 +132,7 @@ eliminacji alternatywy: Kiedy używam dowodu `p ∨ q` do udowodnienia `r`, dowo
 końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
 
 ```lean
- ...
+ -- ...
  Or.elim (em p)
    (fun hp => hp)
    (fun np => (nnp np).elim)
@@ -132,7 +140,7 @@ końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
 
 ... bo wtedy można by szybciej zauważyć, że chodzi o regułę eliminacji dla altarnatywy, a nie na
 przykład dla koniunkcji? Kto wie, może? A poza tym, jeżeli człony alternatywy to `p` i `q`, to
-parametry tych dowodów-funkcji nazywam `hp` i `hq`, i dzięki temu, że trzymam się tej konwencji dość
+parametry tych dowodów-funkcji nazywam `hp` i `hq`, a dzięki temu, że trzymam się tej konwencji dość
 konsekwentnie, zacząłem się do niej przyzwyczajać i widzę, że ułatwia mi pisanie dowodów.
 
 ## Przepraszam, ale nie przepraszam
@@ -142,7 +150,6 @@ fragment kodu będzie uzupełniony później i ma się tym miejscem na razie nie
 ten ostatni dowód napisałem tak:
 
 ```lean
--- To nam się odtąd przyda.
 variable (p q r : Prop)
 
 -- Najpierw w miejscu argumentów dla eliminacji alternatywy `p ∨ ¬p` napisałem coś takiego, ...
@@ -172,14 +179,14 @@ example : ¬¬p → p :=
     (fun np => (nnp np).elim)
 ```
 
-Skoro w ostatnim rozdziale omówiłem zdefiniowaną w Leanie, uniwersowo uniwersalną identyczność `id`,
+Skoro w ostatnim rozdziale omówiłem zdefiniowaną w Leanie, sortowo uniwersalną identyczność `id`,
 to pokażę Ci przy okazji, jak można jej użyć w tym dowodzie:
 
 ```lean
 example : ¬¬p → p :=
   fun nnp => 
    (em p).elim
-    -- Poprzedzenie stałej `id` znakiem `@` sprawia, że parametry implictne stają się jawne, dzięki
+    -- Poprzedzenie stałej `id` znakiem `@` sprawia, że parametry niejawne stają się jawne, dzięki
     -- czemu nie musimy pisać `id (α := p)`. Aplikacja `@id p` jest częściowa, ponieważ funkcja `id` ma
     -- dwa parametry (a razem z poziomem sortu trzy), i ta częściowa aplikacja oznacza
     -- wyspecjalizowaną identyczność dotyczącą typu `p`, czyli dowód `p → p`.
@@ -207,7 +214,7 @@ example : ¬¬p → p := by
   exact absurd np nnp -- ex falso quodlibet (quod erat demonstrandum)
 ```
 
-Implikacja w drugą stronę nie wymaga zasady wyłączonego środka:
+Implikacja w drugą stronę *nie* wymaga zasady wyłączonego środka, co dobrze widać w kodzie:
 
 ```lean
 example : p → ¬¬p :=
@@ -259,13 +266,13 @@ swojemu*. Pamiętaj tylko proszę, żeby przynajmniej na razie raczej unikać fr
 zadanie okaże się zbyt trudne, to może albo zrób sobie przerwę, albo przez pewien czas, mniej lub
 bardziej aktywnie (ale wcale nie musi być jakoś szczególnie aktywnie, ma być przede wszystkim w
 miarę bezboleśnie!), spróbuj w sposób *rozłożony w czasie* powtarzać jakieś prerekwizyty do tego
-zadania. To wszystko może stać się całkiem satysfakcjonujące, jeżeli tylko ma się dość cierpliwości
+zadania. To wszystko może stać się całkiem satysfakcjonujące, jeżeli tylko ma się dość cierpliwości,
 i nie próbuje się za bardzo przyspieszać tego procesu (z tym właśnie, to jest z pogodzeniem się z
 koniecznością częstego zmniejszania tempa, czasem do tempa wręcz ślimaczego, mam chyba wciąż
 największy problem).
 
-Niektóre z tych zadań będą dla Ciebie w tym momencie zbyt proste i takie zadania warto pewnie robić
-"w głowie", ale z drugiej strony czasem wykonanie jednego czy dwóch zadań rutynowych działa,
+Niektóre z tych zadań będą dla Ciebie w tym momencie zbyt proste; takie zadania być może warto robić
+"w głowie". Ale z drugiej strony, czasem wykonanie jednego czy dwóch zadań rutynowych działa,
 przynajmniej na mnie, jak coś w rodzaju umysłowej rozgrzewki, i może pomóc w rozwiązaniu zadań
 bardziej skomplikowanych. Moim zdaniem wracanie do tych zadań jest znakomitym sposobem utrwalania
 wiedzy i pogłębiania rozumienia logiki, a warto dobrze poznać podstawy logiki, bo logika (zwłaszcza
@@ -273,25 +280,25 @@ tak ekspresyjna jak teoria typów) jest przecież uniwersalnym "standardem matem
 ważniejszych narzędzi myślenia, jakimi dysponujemy.
 
 Żeby nauczyć się używać logiki w dowolnym pozwalającym na to kontekście trzeba nabyć trwałe, dobrze
-ustrukturyzowane i łatwo dostępne reprezentacje wzorców wnioskowania logicznego. Dlatego gdy
+ustrukturyzowane i łatwo dostępne reprezentacje wzorców wnioskowania logicznego. Dlatego, gdy
 zaczynałem się uczyć Leana, w pewnym momencie, na podstawie między innymi [tej znakomitej
 książki](https://lean-lang.org/theorem_proving_in_lean4/title_page.html), która zresztą powinna być
 już dla Ciebie przystępna, stworzyłem sobie plik z zadaniami "na czysto". Przez pewien czas, każdego
 dnia kopiowałem te zadania do nowego pliku, i tam je rozwiązywałem (używając trybu dla Leana w
 Emacsie, ale Ty zdaje się już od dawna używasz Leana w VS Code, prawda?). Od pewnego momentu
 większość z tych zadań wydawała mi się zbyt prosta i przez to nudna, ale robiłem to nadal, ponieważ
-wiedziałem, że w ten sposób będę w tym coraz lepszy i że będzie mi łatwiej dzięki temu dostrzegać
+wiedziałem, że w ten sposób będę w tym coraz lepszy, i że będzie mi łatwiej dzięki temu dostrzegać
 logiczne wzorce również tam, gdzie trudniej jest je rozpoznać. Zadania, które znajdziesz tutaj, są
 pewną wersją tego właśnie pliku.
 
 Bez pewnej praktyki nie jest łatwo zauważyć, kiedy to jest konieczne, dlatego wszędzie tam, gdzie
 dowód wymaga zastosowania logiki klasycznej, zaznaczyłem, że tak jest. W rachunku *zdań* to będą
-pewne zdania, w których występuje negacja i alternatywa (w rachunku predykatów to będą również
-między innymi pewne zdania z kwantyfikatorem egzystencjalnym, który jak wiesz jest uogólnioną
-alternatywą).
+pewne (nie wszystkie) zdania, w których występuje negacja i alternatywa, a w rachunku predykatów to
+będą również między innymi pewne zdania z kwantyfikatorem egzystencjalnym, który jak wiesz jest
+uogólnioną alternatywą.
 
 **Prośba do czytelniczek i czytelników**: Gdyby w trakcie rozwiązywania tych zadań pojawiły się
-jakieś trudności, bardzo pomożesz mi, a także innym czytelniczkom i czytelnikom pisząc mi o nich!
+jakieś trudności, bardzo pomożesz mi, a także innym czytelniczkom i czytelnikom, pisząc mi o nich.
 
 ## Prawda i fałsz
 
@@ -333,8 +340,8 @@ example : (p → ¬p) → ¬p := sorry
 
 Gdy dowód koniunkcji jest parametrem funkcji, czyli gdy koniunkcja jest poprzednikiem implikacji do
 udowodnienia, zwykle korzystam z dopasowania wzorca w parametrze, bo mam wyraźnie, że w ten sposób
-wyraźnie widać mechanikę działania takiego dowodu. Ty oczywiście zrobisz ten dowód jak zechcesz
-(albo go nie zrobisz).
+wyraźniej widać mechanikę działania dowodu. Ty oczywiście zrobisz ten dowód jak zechcesz (albo go
+nie zrobisz).
 
 ```lean
 example : (p ∧ q) → p := sorry
@@ -352,7 +359,7 @@ example : p ∧ q ↔ q ∧ p :=
    sorry⟩
 
 -- A w tym przypadku wolę wersję z dopasowaniem wzorca. Uwaga - dowodami są tutaj pary dowodów, z
--- których jednen jest również parą dowodów, czyli takie zagnieżdżone pary dowodów.
+-- których jednen jest również parą dowodów, czyli to takie zagnieżdżone pary dowodów.
 example : p ∧ (q ∧ r) ↔ (p ∧ q) ∧ r := 
   ⟨fun ⟨hp, ⟨hq, hr⟩⟩ => sorry, 
    sorry⟩
