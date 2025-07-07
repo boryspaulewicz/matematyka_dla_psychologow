@@ -212,7 +212,7 @@ równania `Id f = f` i `f = f Id`, możesz dodać kopię strzałki `f` przecinaj
 narysować po obydwu stronach tej strzałki ptaszki.
 
 A teraz mam dla Ciebie taką oto zagadkę: Gdy kategoria jest cienka, to z jej definicji wynika, że
-wszystkie pary równoległych ścieżek skierowanych, takie jak na przykład `A → B → C → D` i `A → G →
+wszystkie pary równoległych ścieżek skierowanych, takie jak na przykład `A → B → C → D` i `A → E →
 D`, muszą być równe po złożeniu, po prostu dlatego, że te ścieżki mają ten sam początek i ten sam
 koniec, a gdy kategoria jest cienka, to dla każdej pary punktów istnieje co najwyżej jedna strzałka
 z pierwszego punktu do drugiego. Wobec tego w przypadku cienkich kategorii *każdy* diagram jest
@@ -234,10 +234,10 @@ liczba nie jest w tej relacji *sama ze sobą* (dokładnie to oznacza przeciwzwro
 relacja `≤` strzałek identycznościowych.
 
 Z drugiej strony, relacja `<` jest mimo wszystko *przechodnia*, to jest dla każdych trzech liczb
-`m`, `n` i `o`, zachodzi `m < n → n < o → m < o`, a więc gdybyśmy ją reprezentowali za pomocą
-strzałek, wymaganie *istnienia* wyniku składania składalnych par strzałek byłoby spełnione, a
-wymaganie łączności składania byłoby spełnione automatycznie dzięki temu, że to jest
-relacja. Brakowałoby *tylko* identyczności.
+`m`, `n` i `o`, zachodzi `m < n → n < o → m < o` (to są strzałki implikacji, a nie strzałki w
+kategorii), a więc gdybyśmy ją reprezentowali za pomocą strzałek, wymaganie *istnienia* wyniku
+składania składalnych par strzałek byłoby spełnione, a wymaganie *łączności* składania byłoby
+spełnione automatycznie dzięki temu, że to jest relacja. Brakowałoby *tylko* identyczności.
 
 Moglibyśmy wtedy *dodać endostrzałki*, z których *żadna* (to się okaże ważne) *niczego by nie
 oznaczała*, i *przyjąć konwencję*, że te endostrzałki są identycznościami. Uzyskalibyśmy w ten
