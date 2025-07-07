@@ -181,13 +181,13 @@ Strzałki *do* obiektów końcowych i strzałki *z* obiektów początkowych są 
 tych obiektów - *trywialne*.  Za to strzałki *z* obiektów końcowych i *do* obiektów początkowych nie
 są. Na przykład, strzałki *z* "końcówek" w `Set` to elementy (ważne pojęcie), a jeżeli istnieje
 strzałka z `X` *do* "początku" w `Set`, to `X` jest początkiem, więc taka strzałka mówi coś
-ważnego. A w kategorii dowiedlności? Dla każdego zdania `P`, istnieje strzałka *z* początku `True`
-do `P` wtedy i tylko wtedy, gdy `P` jest zdaniem prawdziwym, na przykład, gdy `P` jest zdaniem (nie
-strzałką w tej kategorii!) `q → q`, bo tylko wtedy, gdy `P` jest zdaniem prawdziwym, można
+ważnego. A w kategorii dowiedlności? Dla każdego zdania `P`, istnieje strzałka *z* końcówki `True`
+*do* `P` wtedy i tylko wtedy, gdy `P` jest zdaniem prawdziwym, na przykład, gdy `P` jest zdaniem
+(nie strzałką w tej kategorii!) `q → q`, bo tylko wtedy, gdy `P` jest zdaniem prawdziwym, można
 skonstruować dowód implikacji `True → P`. I dualnie, dla każdego zdania `P`, istnieje strzałka *z*
-`P` *do* końcówki `False` wtedy i tylko wtedy, gdy istnieje dowód negacji tego zdania, czyli kiedy
-`P` jest zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i negacja (`¬ P` dla
-jakiegoś `P : Prop`) są swoimi dualnymi odpowiednikami.
+`P` *do* początku `False` wtedy i tylko wtedy, gdy istnieje dowód negacji `P`, czyli kiedy `P` jest
+zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i negacja (`¬ P` dla jakiegoś `P :
+Prop`) są swoimi dualnymi odpowiednikami.
 
 Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
 jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
