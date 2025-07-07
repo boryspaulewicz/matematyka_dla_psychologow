@@ -249,8 +249,8 @@ nie doświadczymy takiej wolności jak w sferze fantazji. Ostatecznie liczy się
 nam się z taką kategorią zrobić coś pouczającego, interesującego, albo nawet tylko zabawnego.
 
 Matematyka pozwala nam *skutecznie*, bo *konsekwentnie* myśleć o *dowolnych zagadnieniach, na
-dowolnym poziomie ogólności, z dowolnych punktów widzenia, i w ogóle w dowolny sposób, byle
-konsekwentnie*. O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak
+dowolnym poziomie ogólności, z dowolnych punktów widzenia, i w ogóle w dowolny sposób* (byle
+konsekwentnie). O ile tylko będziemy w naszym myśleniu konsekwentni, w czym *nic* tak nie pomaga jak
 matematyka, i o ile nie przyjmiemy jednocześnie założeń, które prowadzą do sprzeczności, to będziemy
 mieć gwarancję, że wyprowadzone dedukcyjnie wnioski, jakie by one nie były, będą prawdziwe na mocy
 przyjętych założeń, definicji i aksjomatów (które też są zresztą definicjami, tylko że pozbawionymi
@@ -288,10 +288,12 @@ Znanym Ci już przykładem obiektu początkowego jest zbiór pusty w kategorii `
 zbiorów, funkcji i składania funkcji, ponieważ - na mocy konwencji - istnieje dokładnie jedna
 funkcja ze zbioru pustego do każdego zbioru. Takie funkcje nazywamy zresztą *funkcjami pustymi*.
 
-**Produktem** obiektów `X` i `Y` nazywamy taki obiekt (czyli punkt) `X × Y`, że istnieją takie
-strzałki `π₁ : X × Y → X` i `π₂ : X × Y → Y`, że dla każdego obiektu `Z` i pary strzałek `f : Z → X`
-i `g : Z → Y`, istnieje unikalna strzałka `h`, spełniająca warunki `π₁ h = f` i `π₂ h = g`. Ponieważ
-taka strzałka jest z definicji tylko jedna, zwykle zapisujemy ją jako `<f,g>`.
+**Produktem** obiektów `X` i `Y` nazywamy taki obiekt (czyli punkt) `P`, że istnieją takie strzałki
+`π₁ : P → X` i `π₂ : P → Y`, że dla każdego obiektu `Z` i pary strzałek `f : Z → X` i `g : Z → Y`,
+istnieje unikalna strzałka `h`, spełniająca warunki `π₁ h = f` i `π₂ h = g`. Ponieważ w kategorii
+zbiorów produkty to iloczyny kartezjańskie (i ich "izomorfy"), produkt `X` i `Y` oznaczamy zwykle
+jako `X × Y`, a ponieważ taka strzałka `h` jest z definicji tylko jedna, zapisujemy ją zwykle jako
+`<f,g>`.
 
 Oficjalnie strzałki `π₁` i `π₂` nazywamy raczej rzutami kanonicznymi, ale ja (i nie tylko ja) wolę
 nazywać je projekcjami. Jak już wiesz, produkty w kategorii `Set` to "pod spodem" ("pod spodem" bo
@@ -302,16 +304,17 @@ naszej terminologii punktach).
 
 ## Wolne żarty
 
-Popatrzymy teraz na *najprostszą możliwą* abstrakcyjną (czyli nie rozważamy żadnej jej
+Popatrzymy teraz na *najprostszą możliwą* abstrakcyjną (czyli nie polegamy na żadnej jej
 interpretacji) kategorię zawierającą strzałkę `f : X → Y`. Jeżeli chcemy z tej jednej strzałki
-zrobić w taki jakby naturalny albo narzucający się sposób kategorię, to musimy dodać identyczności
-punktów `X` i `Y`. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc jeszcze
-*sami zdefiniować* tą operację w taki sposób, żeby aksjomaty kategorii były spełnione.
+zrobić w taki jakby naturalny sposób kategorię, to musimy *dodać identyczności* punktów `X` i
+`Y`. Te trzy strzałki to jedno, a operacja składania to co innego. Musimy więc jeszcze sami
+*zdefiniować operację składania* w taki sposób, żeby aksjomaty kategorii były spełnione.
 
 Po dodaniu pętli `Id` do `X` i pętli `Id` do `Y` pojawiają się dokładnie dwa możliwe złożenia, to
 jest `Id f` i `f Id`. W tym wypadku aksjomaty kategorii nie pozostawiają nam wyboru - musi być tak,
 że `Id f = f = f Id`, ale poza tym nie ma tu żadnych innych możliwych złożeń. Tak oto uzyskujemy
-*najprostszą* kategorię *"wyrastającą naturalnie" z samej strzałki* `f`.
+*najprostszą* kategorię *"wyrastającą naturalnie"* z samej strzałki `f`. Ale co tu się właściwie
+stało?
 
 Dodaliśmy *to, co było konieczne*, żeby uzyskać kategorię i *tylko to*, co było konieczne, a więc to
 jest najprostsza albo najbardziej naturalna tego rodzaju kategoria, chociaż to, że jest najprostsza
@@ -321,8 +324,8 @@ dokładnie polega tego rodzaju konstrukcja.
 
 Strzałka `f` *jako taka* nie jest endostrzałką, bo łączy dwa *różne* punkty. Gdyby ta strzałka coś
 oznaczała, to w ogólnym przypadku musielibyśmy dopuścić możliwość, że te punkty oznaczają to samo,
-ale w tym wypadku ta strzałka niczego nie oznacza, bo to jest abstrakcyjna kategoria, punkty są więc
-tylko punktami, a strzałki strzałkami.
+ale akurat ta strzałka niczego nie oznacza, czyli to jest abstrakcyjna strzałka, punkty są więc
+tylko punktami, a jako takie są różne.
 
 Struktury matematyczne (takie jak kategoria), które powstają w taki wymuszony przez ich definicje
 sposób (który tutaj polega na dodaniu endostrzałek i operacji składania tak, żeby aksjomaty
@@ -335,7 +338,9 @@ przypadku to jest *wolna kategoria generowana przez strzałkę `f : X → Y`*.
 
 Jeżeli teraz *czysto formalnie*, czyli jakby "dla zabawy", odwrócimy strzałkę `f` i zapiszemy ją
 jako `X ← Y`, to z takiej strzałki też będziemy mogli w ten sam sposób wygenerować unikalną wolną
-kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej struktury.
+kategorię i to będzie *taka sama kategoria*, bo zmienią się *tylko nazwy* części jej struktury, a
+[jak zwał, tak
+zwał](https://wsjp.pl/haslo/podglad/3895/jak-sie-zwal-tak-sie-zwal-byleby-sie-dobrze-mial).
 
 A co gdyby punktem wyjścia był (statyczny, jak to graf) graf `A ← B → C`, gdzie strzałkę `A ← B`
 moglibyśmy oznaczyć arbitralnie jako `f`, a strzałkę `B → C` jako `g`? Wtedy też musielibyśmy tylko
@@ -355,25 +360,26 @@ mówienia*. Zastanawiasz się może *czemu by to mogło służyć*? Otóż temu:
 
 **Sugestia**: Przepisz teraz proszę definicję *obiektu początkowego*, albo krócej i mniej oficjalnie
 *początku*, ale w taki sposób, żeby wszystkie strzałki, które się tam pojawiają, były odwrócone, a
-więc trzeba będzie odwrócić też wszystkie złożenia, których akurat w tej definicji nie ma, chociaż
-jeżeli chodzi o złożenia, akurat w tym przypadku nic nie będzie trzeba robić, bo w definicji obiektu
-początkowego żadne złożenia się nie pojawiają. Nie nazywaj jednak tego, co ta definicja będzie
-charakteryzować, jako obiekt początkowy, bo w ten sposób uzyskasz definicję obiektu *końcowego*,
-oznaczanego często literą `T` (od angielskiego słowa *terminal*), którego szczególnym przypadkiem
-jest każdy singleton w kategorii `Set`. Jak widać na tym przykładzie:
+więc trzeba będzie odwrócić też wszystkie złożenia, chociaż jeżeli chodzi o złożenia, akurat w tym
+przypadku nic nie będzie trzeba robić, bo w definicji obiektu początkowego żadne złożenia się nie
+pojawiają. Nie nazywaj jednak tego, co ta definicja będzie charakteryzować, jako obiekt początkowy,
+bo w ten sposób uzyskasz definicję obiektu *końcowego*, oznaczanego często literą `T` (od
+angielskiego słowa *terminal*), którego szczególnym przypadkiem jest każdy singleton w kategorii
+`Set`. Jak widać na tym przykładzie:
 
-*Każde pojęcie kategoryjne to tak naprawdę dwa pojęcia "lustrzane"*.
+*Każde pojęcie kategoryjne to tak naprawdę dwa "lustrzane" pojęcia*.
 
 Nazywamy to [*zasadą
 dualności*](https://pl.wikipedia.org/wiki/Zasada_dualno%C5%9Bci_w_teorii_kategorii) w teorii
-kategorii. Ta druga wersja defincji jest tak zwaną *dualną postacią* albo wersją tej pierwszej i
+kategorii[^2]. Ta druga wersja defincji jest tak zwaną *dualną postacią* albo wersją tej pierwszej i
 odpowiednio to drugie pojęcie (albo konstrukcja) jest dualne względem albo do tego pierwszego. I
 odwrotnie, to pierwsze pojęcie (albo konstrukcja) jest dualne względem drugiego, bo *operacja
 odwracania wszystkich strzałek i złożeń jest odwracalna*. Przyszło Ci teraz może do głowy pojęcie
 izomorfizmu?  Jeżeli tak, to wspaniale, ale zwróć proszę uwagę, że dualne struktury nie są jednak w
 ogólnym przypadku izomorficzne w technicznym znaczeniu tego słowa. Na przykład, wolna kategoria nad
-grafem `A ← B → C` jest zdecydowanie *nie* taka sama jak wolna kategoria nad grafem `A → B ← C`,
-niezależnie od tego, czy zignorujemy oznaczenia punktów i strzałek, czy nie.
+grafem `A ← B → C` jest zdecydowanie *nie* taka sama (jako kategoria) jak wolna kategoria nad grafem
+`A → B ← C`, niezależnie od tego, czy zignorujemy oznaczenia punktów i strzałek, czy nie, a te
+kategorie są przecież dualne.
 
 *Każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy jakąś kategorię `ℂ`, to każdy punkt w tej
 kategorii musi mieć swoją identyczność, składalne strzałki muszą odpowiadać unikalnym złożeniom i
@@ -422,3 +428,6 @@ powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), z czego dokładnie to wynik
 [^1]: "Podaje się", że to Daniel Kahneman powiedział, że "Thinking is to humans as swimming is to
     cats; they can do it, but they prefer not to". Moim zdaniem ludzie myślą cały czas, czy tego
     chcą, czy nie; obce ludziom jest natomiast myślenie matematyczne.
+
+[^2]: Tak naprawdę zasada dualności dotyczy nie tylko pojęć, ale w ogóle wszystkich definicji, zdań
+    i dowodów wyrażonych w języku teorii kategorii.
