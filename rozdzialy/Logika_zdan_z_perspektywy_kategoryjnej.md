@@ -1,8 +1,8 @@
 ## O czym teraz będzie
 
-Przekonamy się, że zdania wraz z relacją dowiedlności są pewną kategorią. Będziemy też mówić o
-zasadzie dualności w teorii kategorii, a przy okazji zapoznamy się wstępnie z pojęciem wolnej
-konstrukcji. Dzięki zasadzie dualności
+A tutej[^3] przekonamy się - nagle, choć nie od razu - że zdania wraz z relacją dowiedlności są
+pewną kategorią. Będziemy też mówić o zasadzie dualności w teorii kategorii, a przy okazji zapoznamy
+się wstępnie z pojęciem wolnej konstrukcji. Dzięki zasadzie dualności
 [ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów stanie się w pewnym
 sensie mniejsza o połowę. I to wszystko będzie *technicznie* dosyć proste.
 
@@ -431,3 +431,7 @@ powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), z czego dokładnie to wynik
 
 [^2]: Tak naprawdę zasada dualności dotyczy nie tylko pojęć, ale w ogóle wszystkich definicji, zdań
     i dowodów wyrażonych w języku teorii kategorii.
+
+[^3]: Ciągle za mało korzystam z faktu, że mogę *tutaj* pisać co tylko chcę. Na przykład słowa takie
+    jak ["*tutej*"](https://pl.wiktionary.org/wiki/tutej), które są trochę dziwne, ale wydają się -
+    mylnie - dziwne w celowy sposób. I nie, nie jestem z Poznania; jest wręcz przeciwnie.
