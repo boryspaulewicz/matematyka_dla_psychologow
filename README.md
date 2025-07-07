@@ -254,6 +254,8 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R27 Rachunek zdań w zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md)
 
+[R28 Rachunek predykatów w zadaniach](./rozdzialy/Rachunek_predykatów_w_zadaniach.md)
+
 Notatki robocze do których można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
