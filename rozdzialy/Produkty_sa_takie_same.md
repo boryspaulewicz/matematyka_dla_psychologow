@@ -37,7 +37,7 @@ należałoby moim zdaniem dodać diagramy.
 *odwrotnością* strzałki `f`, a strzałkę `f` *odwrotnością* `g`.
 
 Każda strzałka ma co najwyżej jedną odwrotność, ponieważ jeżeli `g` i `g'` są odwrotnościami `f`,
-to:
+to[^1]:
 
 `g = g Id = g (f g') = (g f) g' = Id g' = g'`.
 
@@ -881,3 +881,20 @@ głównymi*](https://pl.wikipedia.org/wiki/Funktor_(teoria_kategorii)#Funktory_g
 (tutaj akurat pojęcia produktu), a więc używając języka teorii kategorii do czegoś w rodzaju [*badań
 endo-meta-teoretycznych*](https://en.wikipedia.org/wiki/Drawing_Hands). No [może być coś
 fajniejszego?](https://pl.wikipedia.org/wiki/Pytanie_retoryczne)
+
+### Przypisy
+
+[^1]: Można też tak, ale w ogóle się tym nie przejmuj:
+```lean
+def Inverse_arrows {X Y : Type} (f : X → Y) (g : Y → X) : Prop := g ∘ f = id ∧ f ∘ g = id
+
+theorem Inverse_arrow_is_unique
+  (X Y : Type) (f : X → Y) (g g' : Y → X) (h1 : (Inverse_arrows f g) ∧ (Inverse_arrows f g')) : 
+  g = g' := by
+  calc g = g ∘ id        := by rfl
+       _ = g ∘ (f ∘ g')  := by rw [←h1.right.right]
+       _ = (g ∘ f) ∘ g'  := by rfl
+       _ = id ∘ g'       := by rw [h1.left.left]
+       _ = g'            := by rfl
+```
+
