@@ -381,9 +381,9 @@ grafem `A ← B → C` jest zdecydowanie *nie* taka sama (jako kategoria) jak wo
 `A → B ← C`, niezależnie od tego, czy zignorujemy oznaczenia punktów i strzałek, czy nie, a te
 kategorie są przecież dualne.
 
-*Każda* kategoria ma swój dualny odpowiednik. Jeżeli mamy jakąś kategorię `ℂ`, to każdy punkt w tej
-kategorii musi mieć swoją identyczność, składalne strzałki muszą odpowiadać unikalnym złożeniom i
-operacja składania strzałek musi być łączna. Jeżeli teraz odwrócimy wszystkie strzałki w tej
+A więc każda kategoria ma swój dualny odpowiednik. Jeżeli mamy jakąś kategorię `ℂ`, to każdy punkt w
+tej kategorii musi mieć swoją identyczność, składalne strzałki muszą odpowiadać unikalnym złożeniom
+i operacja składania strzałek musi być łączna. Jeżeli teraz odwrócimy wszystkie strzałki w tej
 kategorii i - żeby się nie pogubić - oznaczymy te dualne odpowiedniki za pomocą apostrofów i
 zdefiniujemy *nową* (bo dla innej niż `ℂ` kategorii) operację składania w taki sposób, że dla
 każdych dwóch składalnych strzałek `f` i `g` *w kategorii `ℂ`*, złożeniem ich odwróconych
@@ -398,7 +398,7 @@ kategorię dualną do `ℂ`, którą oznaczamy jako `ℂ'`. Mówiąc bardziej fo
 Ponieważ takie dualne kategorie "mówią to samo", tylko w inny sposób, to mimo tego, że to są *różne*
 kategorie, możemy traktować dualne strzałki jako *oznaczające to samo*, i tak samo odpowiadające
 sobie obiekty dualnych kategorii możemy traktować jako oznaczające (w każdym konkretnym kontekście)
-to samo. "Funkcjonalnie", dualne kategorie są więc *dwoma różnymi, ale równoważnymi sposobami
+to samo. "Funkcjonalnie" dualne kategorie są więc *dwoma różnymi, ale równoważnymi sposobami
 mówienia o tym samym*. Jeżeli tylko będziemy ostrożni, możemy nawet używać takich problematycznych z
 perspektywy typowania zdań jak `f g = g' f'`, ale już takich jak `f f'` *nie*, mimo tego, że `f : X
 → Y` i `f' : Y → X`, bo mimo wszystko `f : X → Y : ℂ` i `f' : Y → X : ℂ'`, a `ℂ ≠ ℂ'`.
