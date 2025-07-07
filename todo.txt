@@ -3,8 +3,6 @@
 ----------------------------------------------------------------------------------------------------
 AKTUALNE POPRAWKI
 
-Teoria_kategorii - Absence of evidence ...
-
 ----------------------------------------------------------------------------------------------------
 POMYSŁY NA ROZDZIAŁY
 
@@ -29,4 +27,52 @@ zdań i rachunku predykatów.
 ----------------------------------------------------------------------------------------------------
 VARIA
 
-O bijekcji jako "prototypie" liczenia - że aby policzyć, trzeba *wszystko unikalnie pooznaczać*.
+O bijekcji jako "prototypie" liczenia - że aby policzyć, trzeba *wszystko unikalnie pooznaczać*, ale
+to nie takie proste, bo trzeba *oznaczać w kolejności*.
+
+Sekcje Jak to można próbować zapamiętać z sugestiami, jak coś warto zapamiętać.
+
+Riehl CT outreach panel: gdy chcemy powiedzieć czym są comma categories, trudno wyjaśnić, czemu
+"ludzie się nimi tak ekscytują" (moi - można wyjaśnić dokładnie to!)
+
+Cheng tamże - jak ważne jest uczenie się jak się uczyć.
+
+Dancstep tamże - jak dużo mu dał tutor - accountability i treści przekazywane w ROZMOWIE w trudny do
+zreplikowania w innym medium sposób.
+
+moi - ważność szczegółowych omówień rozwiązań problemów, może obawa, że to odbiera okazję do
+samodzielnego rozwiązania jest błędna?
+
+Cheng i Lugg tamże, że często NIE WARTO robić zadań. W ogóle wpływ zadań na motywację i samoocennę.
+
+Dancstep o tym, jak dobrze mu się czytało Mazura o równości, bo to jest napisane w takim trochę
+"humanistycznym" stylu.
+
+Cheng tamże "we don't understand anything". I o tym, że nadal w trakcie pierwszej lektury rozumie
+tylko początek. "Nobody understands anything!"
+
+Riehl tamże "mathematical mindset" jako polegający na tym, że zawsze czuje się nie dość dobre
+rozumienie.
+
+Cheng NIE JEST W STANIE uczyć się czegoś, jeśli proces jej nie cieszy. Zagrożenie karą za brak
+umiejętności ledwo ją motywuje (sic!).
+
+Maggiore o CT w typescript: https://medium.com/@giuseppemaggiore/category-theory-for-typescript-programmers-a2372f771b20
+
+O programiście - gdy miał pytanie, używał Haskella jako implementacji Set, zaczynając pisać kod w
+Haskellu, żeby zrozumieć o co chodzi.
+
+Cheng: nie ma jednego podejścia do uczenia się dobrego dla każdego. moi - ale można udoskonalać
+algorytm doboru kolejności tematów i podejść!
+
+Cheng: usunęłam słowo "powinno się" ze swojego słownika (sic!)
+
+Cheng: why - bc it helps us use our brains better
+
+moi - pokazywanie głębokich faktów, które znając, trudno jest nie doceniać wspólnotowości
+
+Dancstep - the fish that doesn't know what water is i potem nagle się to widzi (poznając TK),
+szczególnie takie rzeczy jak sprzężenia.
+
+Grupa czytelnicza - każdy mówi ile jest w stanie o przeszkodach, inni próbują napisać ułatwiacz, na
+podstawie feedbacku.
