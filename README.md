@@ -46,7 +46,7 @@ geometryczne!), a dzięki temu pisać mniej głupot i czytać z większym zrozum
 literaturę naukową. Albo po to, żeby używać na przykład wnioskowania statystycznego czy
 przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
 naukowca przystało, zamiast bezmyślnie - i często popełniając szkolne błędy - robić coś, bo "tak się
-robi", całkowicie opierając się na "autorytecie" akademickiego stada. Wreszcie po to, żeby
+robi", całkowicie opierając się na domniemanym autorytecie akademickiego stada. Wreszcie po to, żeby
 doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i
 mocy wynikających z nabywania nowych sposobów myślenia, i piękna.
 
