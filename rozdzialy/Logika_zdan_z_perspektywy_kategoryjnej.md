@@ -20,7 +20,7 @@ najpierw, czy da się opisać logikę zdań tak, żeby wyszła z tego kategoria.
 3. Dla każdego punktu `P`, *pętlą identycznościową* na tym punkcie niech będzie dowód tautologii `P
    → P`.
 
-4. Niech *składanie* strzałek będzie *składniem dowodów*.
+4. Niech *składanie* strzałek będzie *składaniem dowodów*.
 
 Możemy udowodnić, że w ten sposób uzyskujemy kategorię zdań i dowodów:
 
