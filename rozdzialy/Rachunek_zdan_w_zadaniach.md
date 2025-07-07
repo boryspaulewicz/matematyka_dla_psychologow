@@ -1,6 +1,7 @@
 ## O czym teraz będzie
 
-W tym rozdziale kończymy, czyli na dobre zaczynamy, uczyć się podstaw rachunku zdań.
+W tym rozdziale kończymy, czyli na dobre zaczynamy, uczyć się podstaw *rachunku zdań*. Poznajemy też
+logikę *klasyczną*, *notację Backusa-Naura*, i nabywamy wprawy w *przepraszaniu* Leana.
 
 <hr>
 
