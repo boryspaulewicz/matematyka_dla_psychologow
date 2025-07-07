@@ -7,7 +7,7 @@ odwróceniu będzie (niemal, bo to dwie różne kategorie) tą samą strzałką,
 `f Id = f` będzie odpowiadało złożeniu `Id' f' = f'` w `ℂ'`, i tak samo dla złożeń o postaci `Id f`.
 
 W przypadku kategorii skończonych można zobaczyć, jak "działa" zasada dualności również w inny
-sposób. Zacznijmy od strzałek `a : X → Y`, `b : Y → Z`, `c : Z → V` i `d : X → U`. Ten graf to
+sposób. Zacznijmy od strzałek `a : X → Y`, `b : Y → Z`, `c : Z → V` i `d : X → U`. Ten *graf* to
 jeszcze nie kategoria, bo nie ma tu ani identyczności, ani operacji składania. Tym razem jednak
 wygenerujemy wolną kategorię nad tym grafem inaczej.
 
