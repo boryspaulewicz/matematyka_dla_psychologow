@@ -205,4 +205,9 @@ kartezjańskim zbiorów) i pojęciem koniunkcji w logice zdań.
 koniunkcje, tylko odwracając symbol `∧` do góry nogami, czyli używając symbolu `∨`. W tym momencie,
 może jeszcze tego nie wiedząc w znaczeniu psychologicznym, w innym znaczeniu wiesz już w zasadzie
 wszystko o logicznej alternatywie, bo "funkcjonalnie" logiczna alternatywa to dokładnie lustrzane
-odbicie koniunkcji. No i powiedz teraz, czy jest coś bardziej praktycznego, niż dobra teoria?
+odbicie koniunkcji. Tak oto wyjaśnił nam się tytuł tego rozdziału (w którym `~` oznacza "jest w
+pewien sposób tym co"):
+
+`p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q`
+
+No i powiedz teraz, czy jest coś bardziej praktycznego, niż dobra teoria?
