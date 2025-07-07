@@ -13,19 +13,21 @@ wygenerujemy wolną kategorię nad tym grafem inaczej.
 
 **Rysunek 3**: `Narysuj` proszę tabelkę, ale taką "niedomkniętą" ani z dołu, ani z
 prawej. Zaczynając z góry oznacz z lewej strony kolejne rzędy jako `a`, `b`, `c` i `d`, i tak samo
-oznacz kolejne kolumny. Każda kratka w tej tabelce będzie złożeniem strzałki o tej samej nazwie co
-nazwa rzędu tej kratki ze strzałką o tej samej nazwie co nazwa kolumny tej kratki. Pomijamy więc
-tutaj elementy neutralne, bo nie musimy ich oznaczać, bo to są w pewnym sensie tylko punkty (jako
-specjalne strzałki).
+oznacz kolejne kolumny. Każda kratka w tej tabelce będzie złożeniem strzałki-kolumny i
+strzałki-rzędu: Jeżeli `f` to kolumna kratki i `g` to jej rząd, czyli jeżeli kratka to (to samo c
+para uporządkowana) `(g, f)`, to ta kratka ma zawierać złożenie `g f`. Czyli wartość każdej kratki
+uzyskujemy do-kładając strzałki oznaczające rzędy do strzałek oznaczających kolumny. Pomijamy rzędy
+i kolumny oznaczające elementy neutralne, bo nie musimy ich tak reprezentować (chociaż moglibyśmy je
+wstawiać jako *wartości* kratek), bo to są w pewnym sensie tylko punkty (jako specjalne strzałki).
 
 Na naszym grafie nie ma żadnych endostrzałek, a więc kratki na przekątnej pozostaną puste, bo tylko
 endostrzałki mogą się składać same ze sobą. Nie ma też na tym grafie żadnej strzałki kompatybilnej
-ze strzałkami `a` i `b`, a więc musimy dodać nową strzałkę w kratce `(a,b)` i nadać jej unikalną
+ze strzałkami `a` i `b`, a więc musimy dodać nową strzałkę w kratce `(b,a)` i nadać jej unikalną
 nazwę. Pierwsza niewykorzystana litera alfabetu to `e`, dlatego nazwiemy ją `e`. Możesz od razu
 dorysować tą strzałkę do grafu i wyrazić fakt, że `e = b a` za pomocą ptaszka. Strzałka `a` nie jest
-składalna ani ze strzałką `c` ani `d`, a więc kratki `(a,c)` i `(a,d)` pozostaną puste. Strzałka `b`
+składalna ani ze strzałką `c` ani `d`, a więc kratki `(c,a)` i `(d,a)` pozostaną puste. Strzałka `b`
 jest składalna tylko ze strzałką `c`. Nie mamy jeszcze strzałki, która mogłaby być tym złożeniem, a
-więc nadajemy jej nazwę `f`, zapisujemy ją w kratce `(b,c)`, i dorysowujemy ją do grafu, zaznaczając
+więc nadajemy jej nazwę `f`, zapisujemy ją w kratce `(c,b)`, i dorysowujemy ją do grafu, zaznaczając
 za pomocą ptaszka, że `f = c b`.
 
 Będzie z tym trochę zabawy i pojawią się kolejne strzałki, których złożenia też trzeba będzie
@@ -38,25 +40,24 @@ kartce), że kategoria dualna, chociaż nie musi być całkiem taka sama, jest j
 ogólniejszym sensie taka sama. Gdy kategoria jest skończona, jej dualna wersja to przecież *ta sama
 tabelka, tylko przetransponowana*.
 
-"Dualizowalność" konstrukcji wyrażonych w języku teorii kategorii można również opisać tak: Każda
+Dualizowalność konstrukcji wyrażonych w języku teorii kategorii można również opisać tak: Każda
 *struktura* w kategorii `ℂ` odpowiada swojemu dualnemu odpowiednikowi (mhm) w kategorii dualnej
-`ℂ'`, i vice versa. A więc na przykład każdemu punktowi (mówi "się" obiektowi) początkowemu i
-każdemu produktowi w `ℂ` odpowiada dokładnie jeden obiekt końcowy i koprodukt w `ℂ'` odpowiednio, i
-tak samo dla każdej innej konstrukcji strzałkowo-złożeniowej.
+`ℂ'`, i vice versa. Na przykład, każdemu punktowi początkowemu i każdemu produktowi w `ℂ` odpowiada
+dokładnie jeden punkt końcowy i koprodukt w `ℂ'` odpowiednio, i tak samo dla każdej innej
+konstrukcji strzałkowo-złożeniowej. Kategorie występują więc zawsze w dualnych parach. Zasada
+dualności dotyczy wszystkich konstrukcji z obiektów i strzałek i wszystkich konstrukcji opartych na
+złożeniach, czyli *wszystkich definicji i zdań w języku teorii kategorii*. A to znaczy, że
+definiując *jeden* rodzaj konstrukcji kategoryjnej, automatycznie definiujemy *dwa* dualne względem
+siebie rodzaje konstrukcji, i udowadniając *jedno* zdanie wyrażone w języku teorii kategorii
+automatycznie udowadniamy *dwa* dualne względem siebie zdania!
 
-Kategorie występują więc zawsze w dualnych parach. Zasada dualności dotyczy wszystkich konstrukcji z
-obiektów i strzałek i wszystkich konstrukcji opartych na złożeniach, czyli *wszystkich definicji i
-zdań w języku teorii kategorii*. A to znaczy, że definiując *jeden* rodzaj konstrukcji kategoryjnej,
-automatycznie definiujemy *dwa* dualne względem siebie rodzaje konstrukcji, i udowadniając *jedno*
-zdanie wyrażone w języku teorii kategorii automatycznie udowadniamy *dwa* dualne względem siebie
-zdania!
-
-Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić. Na
-szczęście, rzadko rozważamy całe dualne kategorie; na ogół skupiamy się raczej na wybranych
-fragmentach albo własnościach jakiejś kategorii, na przykład na konkretnych rodzajach struktur
-wewnątrz jakiejś kategorii, takich jak obiekt początkowy, albo na konkretnych twierdzeniach, i
-*odwracamy strzałki i złożenia tylko w ramach opisów tych konstrukcji, własności albo twierdzeń*,
-tak jak to zresztą robimy w tym rozdziale.
+Ta niezwykła cecha teorii kategorii wymaga niestety trochę czasu, żeby się do niej przyzwyczaić,
+podobnie jak niemało czasu wymaga przyzwyczajenie się do pisania czasem lewą ręką, gdy całe życie
+pisało się prawą. Na szczęście, rzadko rozważamy całe dualne kategorie; na ogół skupiamy się raczej
+na *wybranych* fragmentach albo własnościach jakiejś kategorii, na przykład na konkretnych rodzajach
+struktur wewnątrz jakiejś kategorii, takich jak punkt początkowy, albo na konkretnych twierdzeniach,
+i *odwracamy strzałki i złożenia "lokalnie", to jest tylko w ramach opisów tych konstrukcji,
+własności albo twierdzeń*, tak jak to zresztą robimy w tym rozdziale.
 
 Jeżeli teraz odwrócisz wszystkie strzałki i złożenia (a tam akurat są jakieś złożenia) w definicji
 *produktu*, to uzyskasz definicję *koproduktu*: Koproduktem obiektów `X` i `Y` nazywamy taki obiekt,
@@ -69,29 +70,32 @@ złożeń wymuszone przez odwrócenie strzałek). Żeby to było łatwiej zobacz
 definicje formalnie.
 
 Produkt punktów `X` i `Y` to taki punkt, który oznaczamy jako `X × Y`, że:  
-`∃ π₁ : X × Y → X, ∃ π₂ : X × Y → Y, ∀ Z : Obj, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y,`  
+`∃ π₁ : X × Y → X, ∃ π₂ : X × Y → Y, ∀ Z : Ob, ∀ f : Z → X, ∀ g : Z → Y, ∃¹ ⟨f,g⟩ : Z → X × Y,`  
 `π₁ ⟨f,g⟩ = f ∧ π₂ ⟨f,g⟩ = g`
 
 *Ko*produkt punktów `X` i `Y` to taki punkt, który oznaczamy jako `X + Y`, że:  
-`∃ i₁ : X → X + Y, ∃ i₂ : Y → X + Y, ∀ Z : Obj, ∀ f : X → Z, ∀ g : Y → Z, ∃¹ (f+g) : X + Y → Z,`  
+`∃ i₁ : X → X + Y, ∃ i₂ : Y → X + Y, ∀ Z : Ob, ∀ f : X → Z, ∀ g : Y → Z, ∃¹ (f+g) : X + Y → Z,`  
 `(f+g) i₁ = f ∧ (f+g) i₂ = g`
 
-gdzie `Obj` oznacza typ obiekt w danej kategorii, a `∃¹`, jak już wiesz, czytamy jako istnieje
+gdzie `Ob` oznacza typ obiekt w danej kategorii, a `∃¹`, jak już wiesz, czytamy jako istnieje
 dokładnie jedno coś pewnego rodzaju.
 
 W kategorii `Set` koprodukty to dokładnie znane Ci już sumy rozłączne zbiorów. Żeby się o tym
 przekonać, wystarczy popatrzeć na rysunek struktury wewnętrznej dowolnej sumy rozłącznej dwóch
-zbiorów skończonych, na którym widać też strukturę wewnętrzną injekcji. Ponieważ suma rozłączna
-zawiera tylko wierne kopie zbiorów - nazwijmy je znowu `X` i `Y` - będących jej członami, zakodowne
-w taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione przez wewnętrzne strzałki
-obydwu (w tym wypadku injektywnych) injekcji, to gdy tylko określimy, dla dowolnego zbioru `Z`, do
-jakich elementów tego zbioru mają być posłane przez jakieś funkcje `f : X → Z` i `g : Y → Z`
-elementy zbioru `X` i zbioru `Y` odpowiednio, to wtedy to, do czego ma być posłana każda kopia w
-`X + Y`, żeby powstająca w ten sposób funkcja `(f+g) : X + Y → Z` dołożona do injekcji dawała
-funkcje `f` i `g`, będzie wymuszone (i będzie istniała taka funkcja). I odwrotnie, każda funkcja
-`h : X + Y → Z` będzie oczywiście opdowiadała unikalnej parze uporządkowanej strzałek z `X` i `Y` do
-`Z` odpowiednio, bo złożenia `h i₁` i `h i₂`, jak to złożenia, są unikalne. Wiem, że to jest
-trudne. Ale to jest też piękne i bardzo przydatne w pewnych sytuacjach.
+zbiorów skończonych, na którym widać też strukturę wewnętrzną injekcji. Ponieważ ... 
+
+Suma rozłączna zawiera *tylko wierne kopie* zbiorów - nazwijmy je znowu `X` i `Y` - będących jej
+członami, *oznakowane* w taki sposób, żeby żadne dwa elementy z obydwu zbiorów nie były trafione
+przez wewnętrzne strzałki obydwu (w tym wypadku injektywnych) injekcji.
+
+... to gdy tylko określimy, dla dowolnego zbioru `Z`, do jakich elementów `Z` mają być posłane przez
+jakieś funkcje `f : X → Z` i `g : Y → Z` elementy `X` i `Y` odpowiednio, to wtedy to, do czego ma
+być posłana każda kopia w `X + Y`, żeby powstająca w ten sposób funkcja `(f+g) : X + Y → Z` dołożona
+do injekcji dawała funkcje `f` i `g`, będzie wymuszone (i będzie istniała taka funkcja). I
+odwrotnie, każda funkcja `h : X + Y → Z` będzie oczywiście opdowiadała unikalnej parze
+uporządkowanej strzałek z `X` i `Y` do `Z` odpowiednio, bo złożenia `h i₁` i `h i₂`, jak to
+złożenia, są unikalne. Wiem, że to jest trudne. Ale to jest też piękne i bardzo przydatne w wielu
+sytuacjach.
 
 Można też powiedzieć, że symbol `+`, za pomocą którego oznaczamy czasem w języku teorii kategorii
 operację tworzenia koproduktów, reprezentuje jakby drugą stronę albo "wywiniętą na drugą stronę"
@@ -113,16 +117,19 @@ być?*). Produkty pojawiają się w matematyce znacznie częściej niż koproduk
 nazwie *produkt* przedrostek *ko* nie występuje. Ale mógłby występować, ponieważ dualizacja jest
 operacją odwracalną, a zatem produkt to ... kokoprodukt.
 
-## [Prlp! Hę?](https://strangerthings.fandom.com/wiki/The_Upside_Down)
+## [To ja dziękuję bardzo](https://strangerthings.fandom.com/wiki/The_Upside_Down)
 
 Gdy tylko uda nam się znaleźć kategoryjny odpowiednik pojęcia, konstrukcji lub zdania w jakiejś
 opisanej jako kategoria "przestrzeni" (na przykład, kategoryjny odpowiednik zbioru pustego, będącego
 częścią struktury przestrzeni zbiorów i funkcji), możemy zacząć szukać odpowiedników tych struktur w
 innych kategoriach. No to teraz poszukamy znanych Ci już konstrukcji kategoryjnych w kategorii
-powstającej w naturalny sposób z relacji dowiedlności zdefiniowanej na zdaniach.
+powstającej w naturalny sposób z relacji dowiedlności zdefiniowanej na zdaniach. Przypominam, że w
+tej kategorii punkty są zdaniami (albo zdania są punktami), a strzałki to przypadki (fakty)
+zachodzenia relacji dowiedlności zdań ze zdań.
 
-Czy ta kategoria *ma* obiekt początkowy? A jeśli ma, to *czym* on jest? Obiektem początkowym w tej
-kategorii jest *zdanie fałszywe*, które w Leanie jest zdefiniowane tak:
+Czy ta kategoria *ma* obiekt początkowy? A jeśli ma, to *czym* on jest? Otóż obiektem początkowym w
+tej kategorii jest dobrze nam już znany *Absurd*, inaczej *zdanie fałszywe*, które w Leanie jest
+zdefiniowane tak:
 
 ```lean
 inductive False : Prop
@@ -140,7 +147,9 @@ każdego zdania `P`, czyli dla każdego punktu w rozpatrywanej teraz kategorii d
 zdań, jak już wiesz, można udowodnić zdanie `False → P`, czyli istnieje *jakaś* strzałka z punktu
 `False` do punktu `P`, bo z fałszu wynika wszystko. Co więcej, istnieje *co najwyżej jedna* taka
 strzałka, bo w tej kategorii nie ma nigdy dwóch różnych równoległych strzałek, bo to jest cienka
-kategoria, a jest cienka, bo to jest pewna relacja (dowiedlności \{jako kategoria\}).
+kategoria, a jest cienka, bo to jest pewna relacja (dowiedlności \{jako kategoria\}). A dlaczego
+zawsze można zdefiniować funkcję (czyli udowodnić implikację) z `False` do dowolnego zdania? Bo
+każda taka funkcja *nie ma nic do przetworzenia*.
 
 Obiektem dualnym do zdania fałszywego w tej kategorii jest *zdanie prawdziwe*, które w Leanie jest
 zdefiniowane tak:
@@ -155,7 +164,7 @@ tego typu/zdania można skonstruować *w dokładnie jeden sposób* (bo w ciele t
 jedna pozioma kreska `|`) *z niczego* (bo wyrażenie za tą kreską nie ma parametrów) jako term
 `intro` typu `True`. Tworząc definicje indukcyjne automatycznie tworzymy też przestrzenie nazw dla
 ciał tych definicji, dlatego normalnie zapisujemy ten jedyny term/dowód typu/zdania `True` jako
-`True.intro`. Jak łatwo sprawadzić, to zdanie spełnia wymagania obiektu końcowego ze względu na
+`True.intro`. Jak łatwo sprawdzić, to zdanie spełnia wymagania obiektu końcowego ze względu na
 interpretację strzałek jako czegoś, co wyraża relację dowiedlności zdań:
 
 ```lean
@@ -163,17 +172,22 @@ example (P : Prop) : P → True := True.intro
 ```
 
 A więc z perspektywy kategoryjnej zdanie prawdziwe albo prawda i zdanie fałszywe albo fałsz są
-obiektami dualnymi, a więc w pewnym sensie są tym samym obiektem, tylko każdy z nich jest "wywróconą
-na drugą stronę" wersją drugiego. Widzimy też, że istnieje oczywiste podobieństwo między
-typem/zdaniem `True` i każdym możliwym singletonem. 
+obiektami dualnymi, a więc w pewnym sensie są tym samym obiektem, tylko każdy z nich jest - z
+pewnego, to jest kategoryjnego punktu widzenia - "wywróconą na drugą stronę" wersją
+drugiego. Widzimy też, że istnieje oczywiste podobieństwo między typem/zdaniem `True` i każdym
+możliwym singletonem.
 
-Co więcej, dla każdego zdania `P`, istnieje strzałka `True → P` wtedy i tylko wtedy, gdy samo zdanie
-`P` jest zdaniem prawdziwym, na przykład, gdy `P` jest zdaniem (nie strzałką w tej kategorii!) `q →
-q`, bo tylko wtedy, gdy `P` jest zdaniem prawdziwym, można skonstruować dowód implikacji `True →
-P`. I dualnie, dla każdego zdania `P`, istnieje strzałka *z* `P` *do* `False` wtedy i tylko wtedy,
-gdy istnieje dowód negacji tego zdania, czyli kiedy `P` jest zdaniem fałszywym. A więc asercja (`P`,
-dla jakiegoś `P : Prop`) i negacja (`¬ P` dla jakiegoś `P : Prop`) są swoimi dualnymi
-odpowiednikami.
+Strzałki *do* obiektów końcowych i strzałki *z* obiektów początkowych są - co wynika z definicji
+tych obiektów - *trywialne*.  Za to strzałki *z* obiektów końcowych i *do* obiektów początkowych nie
+są. Na przykład, strzałki *z* "końcówek" w `Set` to elementy (ważne pojęcie), a jeżeli istnieje
+strzałka z `X` *do* "początku" w `Set`, to `X` jest początkiem, więc taka strzałka mówi coś
+ważnego. A w kategorii dowiedlności? Dla każdego zdania `P`, istnieje strzałka *z* początku `True`
+do `P` wtedy i tylko wtedy, gdy `P` jest zdaniem prawdziwym, na przykład, gdy `P` jest zdaniem (nie
+strzałką w tej kategorii!) `q → q`, bo tylko wtedy, gdy `P` jest zdaniem prawdziwym, można
+skonstruować dowód implikacji `True → P`. I dualnie, dla każdego zdania `P`, istnieje strzałka *z*
+`P` *do* końcówki `False` wtedy i tylko wtedy, gdy istnieje dowód negacji tego zdania, czyli kiedy
+`P` jest zdaniem fałszywym. A więc asercja (`P`, dla jakiegoś `P : Prop`) i negacja (`¬ P` dla
+jakiegoś `P : Prop`) są swoimi dualnymi odpowiednikami.
 
 Produkty w tej kategorii to z kolei *koniunkcje zdań*: Dla każdego zdania `P` i zdań `Q` i `R`,
 jeżeli z `P` wynika `Q` i z `P` wynika `R`, czyli jeżeli można udowodnić implikacje `P → Q` i `P →
@@ -181,10 +195,10 @@ R`, czyli jeżeli w logice zdań jako kategorii dowiedlności zdań ze zdań ist
 `P → R`, to istnieje unikalna strzałka z `P` do `Q × R`, czyli istnieje dowód implikacji `P → Q ∧
 R`. Ten dowód jako strzałka składa się z projekcjami `Q × R → Q` i `Q × R → R`, czyli dowód tej
 implikacji składa się z dowodami zdań `Q ∧ R → Q` i `Q ∧ R → R`, dając jedyne możliwe strzałki `P →
-Q` i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tutaj żadnych par
+Q` i `P → R` odpowiednio, bo te złożenia nie mogą dawać innych strzałek, bo nie ma tu żadnych par
 różnych równoległych strzałek. W dodatku koniunkcja zdań jest zdefiniowana w Leanie jako para
-uporządkowana zdań, a więc każdy dowód koniunkcji to para uporządkowana zdań będących jej członami,
-co dodatkowo podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem
+uporządkowana zdań, a więc każdy dowód koniunkcji to para uporządkowana dowodów zdań będących jej
+członami, co dodatkowo podkreśla ścisły związek między kategoryjnym pojęciem produktu (i iloczynem
 kartezjańskim zbiorów) i pojęciem koniunkcji w logice zdań.
 
 *Koproduktami* w tej kategorii są z kolei dokładnie *alternatywy* zdań, które zapisujemy prawie jak
