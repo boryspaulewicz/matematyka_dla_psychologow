@@ -507,7 +507,7 @@ kategorii dualnej})
 *Ten jest izomorficzny do produktu `q × p`,* ...  
 (tak zwana "wiedza ogólna", a ponieważ to jest teoria kategorii, można wręcz powiedzieć, że
 "najogólniejsza" \{zagnieżdżonym nawiasem mówiąc, używanie cały czas symboli `p` i `q` odzwierciedla
-fakt, że wszystkie te opisy, którymi z radością tu rząglujemy, są "przyczepnione" do tych samych
+fakt, że wszystkie te opisy, którymi z radością tu żonglujemy, są "przyczepnione" do tych samych
 hipotetycznych zdań\}),
 
 *... który jest dualnym odpowiednikiem `q ∨ p`,*  
