@@ -412,35 +412,97 @@ wychodzącymi z tego samego źródła strzałkami do koniunkcji.
 
 ### Jadąc [kolejką górską](https://en.wikipedia.org/wiki/Roller_coaster)
 
+Być może będzie trochę bujało, ale bez obaw - to, co się zaraz wydarzy, obejrzymy sobie za chwilę na
+nagraniu z drona metarefleksji.
+
 Na skonstruowany wcześniej (na różne sposoby) dowód `p ∨ q → q ∨ p` możemy też popatrzeć z
 perspektywy kategoryjnej tak, skupiając się najpierw na samej koniunkcji, bo ta wydaje się
 "psychologicznie" łatwiejsza: Dla dowolych obiektów `A` i `B`, wszystkie produkty `A` i `B` są jak
-wiesz (kanonicznie) parami izomorficzne, i każdy produkt `A × B` jest izomorficzny względem produktu
+wiesz (kanonicznie) izomorficzne, i każdy produkt `A × B` jest izomorfem (mogę tak mówić?) produktu
 `B × A` (kanonicznym izomorfizmem jest wtedy produkt projekcji `⟨π₂,π₁⟩` \{w "odwrotnej"
 kolejności\}). W szczególności, ponieważ koniunkcja zdań `p` i `q` to kategoryjny produkt `p` i `q`
-jako punktów, to istnieje izomorfizm, czyli pewna strzałka, czyli dowód `p ∧ q → q ∧ p`, i istnieje
-jej odwrotność `q ∧ p → p ∧ q`. Widzimy, że skoro ustaliliśmy, że koniunkcja jest produktem, nie
-musimy już udowadniać tej symetrii, bo wiemy to z góry na podstawie tego, co udało nam się wcześniej
-ustalić na temat wszelkiego rodzaju kategoryjnych produktów.
+(jako punktów), to istnieje izomorfizm, czyli pewna strzałka, czyli dowód `p ∧ q → q ∧ p`, i
+istnieje też jej odwrotność `q ∧ p → p ∧ q`. Widzimy, że skoro ustaliliśmy, że koniunkcja jest
+produktem, nie musimy już udowadniać tych implikacji, bo wiemy to z góry na podstawie tego, co udało
+nam się wcześniej ustalić na temat wszelkiego rodzaju kategoryjnych produktów.
 
 To teraz uważaj. Dla dowolnej kategorii `ℂ` i obiektów `A` i `B` w tej kategorii, produkt `A × B` to
-*ko*produkt `A + B` w kategorii dualnej `ℂ'`. Jeżeli strzałka `f` w `ℂ` jest izomorfizmem, to jej
-odpowiednik `f'` w dualnej kategorii `ℂ'` jest również izomorfizmem, ponieważ (tak działa dualność)
-jeśli `f g = Id` i `g f = Id`, to `g' f' = Id` i `f' g' = Id`. Wobec tego dla dowolnych obiektów `A`
-i `B`, koprodukty `A + B` i `B + A` są izomorficzne, ponieważ są dualnymi odpowiednikami produktów
-`A × B` i `B × A`, te są izomorficzne, a dualizacja zachowuje izomorficzność. W szczególności,
-istnieje strzałka `A + B → B + A` (i jest nią koprodukt strzałek `(i₂+i₁)`, w "odwrotnej"
-kolejności). Wreszcie, ponieważ logiczna alternatywa jest koproduktem, to dla dowolnych zdań `p` i
-`q`, istnieje strzałka (czyli dowód zdania) `p ∨ q → q ∨ p`. Wszystko to wiedzieliśmy z góry o
-alternatywie, odkąd rozpoznaliśmy w niej koprodukt.
+inaczej, bo dualnie mówiąc (w zasadzie to samo) *ko*produkt `A + B` w kategorii dualnej `ℂ'`. Jeżeli
+strzałka `f` w `ℂ` jest izomorfizmem, to jej odpowiednik `f'` w dualnej kategorii `ℂ'` jest również
+izomorfizmem, ponieważ (tak działa dualność) jeśli `f g = Id` i `g f = Id`, to `g' f' = Id` i `f' g'
+= Id`. Wobec tego dla dowolnych obiektów `A` i `B`, koprodukty `A + B` i `B + A` są izomorficzne,
+ponieważ są dualnymi odpowiednikami produktów `A × B` i `B × A`, te są izomorficzne, a dualizacja
+zachowuje izomorficzność. W szczególności, istnieje strzałka `A + B → B + A` (i jest nią koprodukt
+strzałek `(i₂+i₁)`, w "odwrotnej" kolejności). Wreszcie, ponieważ logiczna alternatywa jest
+koproduktem, to dla dowolnych zdań `p` i `q`, istnieje strzałka (czyli dowód zdania) `p ∨ q → q ∨
+p`. Wszystko to wiedzieliśmy z góry o alternatywie, odkąd rozpoznaliśmy w niej koprodukt.
 
 Co więcej, z perspektywy kategoryjnej fakt, że zdanie `p ∧ q → p ∨ q` ma dowód, jest tylko
-szczególnym przypdkiem faktu, że ponieważ `p ∧ q` jest produktem (zdań/obiektów/punktów) `p` i `q`,
-to istnieją strzałki (dowody/funkcje/projekcje) z `p ∧ q` do `p` i z `p ∧ q` do `q`, a ponieważ `p ∨
-q` jest koproduktem `p` i `q`, to istnieją strzałki (injekcje) z `p` do `p ∨ q` i z `q` do `p ∨
-q`. A skoro tak, to istnieją złożenia ścieżek `p ∧ q → p → p ∨ q` i `p ∧ q → q → p ∨ q`.
+szczególnym przypdkiem (albo trywialną konsekwencją) ogólniejszego faktu, że ponieważ `p ∧ q` jest
+produktem (zdań/obiektów/punktów) `p` i `q`, to istnieją strzałki (dowody/funkcje/projekcje) z `p ∧
+q` do `p` i z `p ∧ q` do `q`, a ponieważ `p ∨ q` jest koproduktem `p` i `q`, to istnieją strzałki
+(injekcje) z `p` do `p ∨ q` i z `q` do `p ∨ q`. A skoro tak, to istnieją złożenia ścieżek `p ∧ q → p
+→ p ∨ q` i `p ∧ q → q → p ∨ q`. Ścieżki takie jak `p ∧ q → p → p ∨ q → q ∨ p` oczywiście też
+istnieją, a więc `p ∧ q → q ∨ p`.
 
-Tak oto wszystkie wymienione niżej (hm) elementy ...
+Nagrało się? To teraz oglądamy: Punktem (punktem? może tu, na metapoziomie, na który się właśnie
+wzbiliśmy, też ukrywa się jakaś kategoria?) wyjścia (w dodatku to jest punkt *wyjścia*, czyli w
+jakimś sensie *źródło* czegoś ...) była kwestia związku między zdaniami `p ∨ q` i `q ∨
+p`. Moglibyśmy próbować udowodnić implikację z jednego z tych zdań do drugiego używając reguły
+eliminacji dla alternatywy, ale ta jest, przynajmniej w moim odczuciu, trochę bardziej upierdliwa w
+użyciu niż reguły dedukcji dla koniunkcji. Na szczęście (?) przypomnieliśmy sobie, że koniunkcja to
+kategoryjny produkt, a alternatywa to kategoryjny koprodukt.
+
+Tak oto pozbyliśmy się do pewnego stopnia (pamięciowego i intencjonalnego) przywiązania do skojarzeń
+dotyczących zdań, spójników logicznych, reguł dowodzenia, czy takiej lub innej implementacji tych
+wszystkich "konstruktów" i zaczęliśmy korzystać z najbardziej uniwersalnej i abstrakcyjnej teorii
+jaką dysponujemy, to jest z teorii kategorii. Korzystając z tego języka-narzędzia, zrobiliśmy coś,
+co prawie nigdy nie działa, gdy korzystamy z języka naturalnego, to znaczy, przeprowadziliśmy
+rozumowanie mówiąc czasem "normalnie", a czasem *od tyłu*. Mogliśmy to zrobić, bo *aksjomaty teorii
+kategorii pozostają takie same, gdy zamieniamy źródła strzałek z celami* (a tym samym odwracamy
+kolejność wszystkich złożeń). Gdyby złożenia strzałek były zdaniami, można by powiedzieć, że w
+języku teorii kategorii jeżeli `a b c ...` jest poprawnym (wymóg składalności) zdaniem, to `... c b
+a` też jest zdaniem, tyle, że z perspektywy albo w języku kategorii dualnej.
+
+To jest niewątpliwie dziwne doświadczenie i może nigdy, nawet po długiej praktyce, tak całkiem nie
+przestaje być dziwne, bo trudno pozbyć się wrażenia, że zmieniając tak nienaturalnie sposób mówienia
+mówimy nie wiadomo o czym. Żeby się z tym choć trochę oswoić, warto przypominać sobie czasem, że
+korzystanie z matematyki polega na używaniu pewnych specjalnych języków tak, jakby te języki były
+mechanizmami albo maszynami (zaprojektowanymi jako narzędzia do rozwiązywania problemów
+pojęciowych). Tak więc *zmiana sposobu mówienia polegająca na dualizacji to tylko pewne
+narzędzie*. Korzystamy z tego przedziwnego narzędzia-przekształcenia, bo wiemy o nim, że zachowuje
+poprawność syntaktyczną i że pozwala *formalnie* (to jest "w języku", albo mechanicznie, w oderwaniu
+od treści) wnioskować *o tym samym* za pomocą (tutaj dualnej) wersji opisu, która może być czasem
+wygodniejsza, albo łatwiejsza, albo może pozwolić dojść do pewnych wniosków szybciej, albo która
+może być wręcz konieczna, żeby o pewnych sprawach mówić, i która może być na każdym etapie
+"odwrócona z powrotem".
+
+Patrząc na niego w ten sposób, przeprowadzony właśnie okrężną i częściowo "powietrzną" drogą dowód
+zdania `p ∨ q → q ∨ r` można streścić (opisując jednocześnie z metapoziomu jak działa) na przykład
+tak:
+
+Dualnym odpowiednikiem `p ∨ q` jest produkt `p × q`  
+(w tym momencie odrywamy się do pewnego stopnia od myślenia o dowiedlności zdań, oczywiście
+pamiętając o kontekście).
+
+Ten jest izomorficzny do produktu `q × p`, ...  
+(tak zwana "wiedza ogólna", a ponieważ to jest teoria kategorii, można wręcz powiedzieć, że
+"najogólniejsza"),
+
+... który jest dualnym odpowiednikiem `q ∨ p`,  
+(przejście z poziomu ogólnej teorii kategorii do kategorii zdań)
+
+... a ponieważ dualizacja zachowuje izomorfizmy,  
+(od której znowu się oddalamy)
+
+... to `p ∨ q ↔ q ∨ p`, ...  
+(i w końcu lądujemy)
+
+... a więc w szczególności `p ∨ q → q ∨ p` (QED). 
+
+Czy widzisz, że w przypadku tego rodzaju rozumowań, byłoby trudno się nie pogubić, gdybyśmy nie
+operowali jednocześnie różnymi dedykowanymi językami, których używanie polega na stosowaniu
+jednoznacznych, sztywnych reguł? Tak oto między innymi wszystkie wymienione niżej (hm) elementy ...
 
 - Reguły wprowadzania dla koniunkcji
 
