@@ -1,7 +1,7 @@
 -*- coding: utf-8 -*-
 
 ----------------------------------------------------------------------------------------------------
-AKTUALNE POPRAWKI
+AKTUALNE POPRAWKI Logika_zdan_...2 l. 14 (Rysunek 3)
 
 ----------------------------------------------------------------------------------------------------
 POMYSŁY NA ROZDZIAŁY
@@ -16,7 +16,7 @@ treściach, ważne hierarchie w psychologii
 
 4. Monoidy i grupy - przykłady ważne w psychologii inspirowane książką Spivaka
 
-5. Abstrakcja bezcelowa - relacje równoważnościowe i podziały, rysunek podziały jako nieformalny
+5. Abstrakcja bezcelowa - relacje równoważnościowe i podziały, rysunek podziału jako nieformalny
 model
 
 6. Abstrakcja celowa - klasy typów, uwagi o programowaniu obiektowym. Przykłady: zdania w rachunku
@@ -24,8 +24,14 @@ zdań i rachunku predykatów.
 
 7. Odwzorowania w pełni zasługujące na tą nazwę
 
+8. Pisanie gry (w Pythonie? w R?)
+
 ----------------------------------------------------------------------------------------------------
 VARIA
+
+Unikalne = dokładnie jedno coś takiego rodzaju = wyjaśnić DO CZEGO SŁUŻY to pojęcie - do ustalania,
+że coś inaczej scharakteryzowanego jest tym samym. Analogicznie wyjaśnić dualizację - MÓWIMY
+ODWROTNIE, bo to nam POZWALA ROBIĆ to i tamto w takich a takich przypadkach.
 
 O bijekcji jako "prototypie" liczenia - że aby policzyć, trzeba *wszystko unikalnie pooznaczać*, ale
 to nie takie proste, bo trzeba *oznaczać w kolejności*.
