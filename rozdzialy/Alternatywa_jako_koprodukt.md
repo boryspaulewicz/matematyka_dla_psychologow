@@ -479,7 +479,7 @@ zagadnieniach (tutaj jednocześnie klasyczny rachunek zdań i teorię kategorii)
 elastycznie przełączamy się między mówieniem *w* tych językach i *o* wybranych konstrukcjach
 formalno-językowych. Korzystamy w ten sposób z faktu, że te formalne struktury językowe, dzięki
 temu, że umiemy respektować sztywność reguł składniowych i semantycznych, "zachowują się" jak
-"autonomiczne ciała", które możemy rozmaicie przekształcać (na przykład konstruując dowody,
+autonomiczne, obce ciała[^3], które możemy rozmaicie przekształcać (na przykład konstruując dowody,
 składając strzałki, albo korzystając z mapowania konstrukcji strzałkowych na konstrukcje zdaniowe) ,
 wiedząc cały czas na pewno - bo to się zawsze da mechanicznie sprawdzić - jak te przekształcenia
 struktur formalno-językowych mają się do wyjściowej treści wyrażonej w języku naturalnym (tutaj
@@ -657,3 +657,4 @@ parami uporządkowanymi i definicjami indukcyjnymi).
 [^2]: [Polska wersja](https://pl.wikipedia.org/wiki/B%C5%82%C4%99dne_ko%C5%82o_w_definiowaniu)
     również tego artykułu jest niestety znacznie gorsza od angielskiej.
 
+[^3]: Καὶ ὁ λόγος σὰρξ ἐγένετο.
