@@ -445,7 +445,7 @@ q` do `p` i z `p ∧ q` do `q`, a ponieważ `p ∨ q` jest koproduktem `p` i `q`
 → p ∨ q` i `p ∧ q → q → p ∨ q`. Ścieżki takie jak `p ∧ q → p → p ∨ q → q ∨ p` oczywiście też
 istnieją, a więc `p ∧ q → q ∨ p`.
 
-Nagrało się? To teraz oglądamy: Punktem (punktem? może tu, na metapoziomie, na który się właśnie
+Nagrało się? To teraz oglądamy: Punktem (*punktem*? może tu, na metapoziomie, na który się właśnie
 wzbiliśmy, też ukrywa się jakaś kategoria?) wyjścia (w dodatku to jest punkt *wyjścia*, czyli w
 jakimś sensie *źródło* czegoś ...) była kwestia związku między zdaniami `p ∨ q` i `q ∨
 p`. Moglibyśmy próbować udowodnić implikację z jednego z tych zdań do drugiego używając reguły
