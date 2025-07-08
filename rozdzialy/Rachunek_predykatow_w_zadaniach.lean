@@ -21,12 +21,12 @@ example (a : α) : r → (∃ x : α, r) := sorry
 -- równoważności od podwójnych przeprosin `⟨sorry, sorry⟩` (bo równoważność to koniunkcja dwóch
 -- implikacji). Nie od razu to widać, ale to jest "tak naprawdę" rozdzielność mnożenia względem
 -- dodawania! `∃ x, p x` to uogólniona alternatywa, a więc uogólniony koprodukt, czyli uogólnione
--- dodawanie, a koniunkcja to produkt, czyli pewnego uogólnione mnożenie. Analogicznie, ...
+-- dodawanie, a koniunkcja to produkt, czyli uogólnione mnożenie. Analogicznie, z perspektywy
+-- kategoryjnej widać, że to ...
 --
 -- `r ∧ (p ∨ q) ↔ (r ∧ p) ∨ (r ∧ q)`
 --
--- bo z perspektywy kategoryjnej widać, że to jest (z dokładnością do kanonicznych izomorfizmów) to
--- samo, co ...
+-- ... jest (z dokładnością do kanonicznych izomorfizmów) to samo, co to:
 --
 -- `r × (p + q) ≅ (r × p) + (r × q)`.
 example : (∃ x, p x ∧ r) ↔ (∃ x, p x) ∧ r := sorry
@@ -35,20 +35,27 @@ example : (∃ x, p x ∧ r) ↔ (∃ x, p x) ∧ r := sorry
 -- razu w kontekście. Poprzednik implikacji do udowodnienia jest tutaj *funkcją*, pamiętasz?
 example (a : α) : (∀ x : α, r) → r := sorry
 
--- Jeśli coś już masz (tutaj dowód `r`), to możesz to (w pewnym sensie) zrobić z czegokolwiek.
+-- Jeśli coś już masz (tutaj dowód `r`), to możesz to (w pewnym sensie) zrobić "z" czegokolwiek.
 example : r → (∀ x : α, r) := sorry
 
--- To zadanie ilustruje w pewnym sensie sens zdania o postaci `∃ x, P x`, bo mówi jakie są dokładnie
--- *arbitralne konsekwencje* tego rodzaju zdania. W ogóle zdania równoważne mają w pewnym sensie (a
--- dokładniej, w sensie zbioru ich konsekwencji) ten sam sens (tak wiem).
+-- Mam wrażenie, że zbyt rzadko używam słowa "sens". To zadanie ilustruje w pewnym sensie sens
+-- zdania o postaci `∃ x, P x`, bo mówi jakie są dokładnie *arbitralne konsekwencje* tego rodzaju
+-- zdania. W ogóle zdania równoważne mają w pewnym sensie (a dokładniej, w sensie zbioru ich
+-- konsekwencji) ten sam sens.
 example : (∀ x, p x → r) ↔ (∃ x, p x) → r := sorry
 
 -- To jest "tak naprawdę" ten sam (z dokładnością do izomorfizmu {uogólniony}) produkt, tylko ma
 -- człony poprzestawiane. A więc to jest znowu zdanie, o którym wiesz z góry (dzięki temu, że znasz
--- pojęcie produktu), że jest prawdziwe.
+-- pojęcie produktu), że jest prawdziwe. To znaczy nie do końca, bo żeby objaśnić "prawdziwą naturę"
+-- dużego i małego kwantyfikatora z perspektywy kategoryjnej trzeba wprowadzić pojęcie *funktora
+-- sprzężonego*, a to się prędko nie stanie.
 example : (∀ x, p x ∧ q x) ↔ (∀ x, p x) ∧ (∀ x, q x) := sorry
 
--- Co ciekawe, implikacja w drugą stronę nie jest twierdzeniem.
+-- Co ciekawe, implikacja w drugą stronę nie jest twierdzeniem. Da się nawet zobaczyć, że nie jest,
+-- rozpoznając tu strzałkę z produktu do produktu (druga implikacja) i produkt *strzałkę produktową*
+-- (pierwszy poprzednik - to *nie* jest *produkt strzałek*, który już znasz), o której jeszcze nie
+-- mówiłem. Trzeba tylko dostrzec, że mamy tu tyle obiektów `p x` i `q x`, ile jest `x`-ów (czyli
+-- nie wiadomo ile, ha ha ha {ale serio nie wiadomo}).
 example : (∀ x, p x → q x) → (∀ x, p x) → (∀ x, q x) := sorry
 
 -- Bo `∀ x, p x` to uogólniony produkt, widzisz to? Zdanie z lewej mówi, że istnieją strzałki z `r`
@@ -60,10 +67,10 @@ example : (∀ x, r → p x) ↔ (r → ∀ x, p x) := sorry
 
 -- Korzystając z głębokiego związku między produktem, koproduktem, mnożeniem i dodawaniem, możemy
 -- również i tu dostrzec rozdzielności mnożenia względem dodawania. Wobec czego nie musimy niczego
--- udowadniać. Ale możemy, dla zabawy.
+-- udowadniać. Ale możemy, dla przyjemności.
 example : (∀ x, p x) ∨ (∀ x, q x) → ∀ x, p x ∨ q x := sorry
 
--- A to są tylko inaczej zapisane, funkcjonalnie te same bo izomorficzne, uogólnione koprodukty.
+-- A to są tylko inaczej zapisane, funkcjonalnie te same - bo izomorficzne - uogólnione koprodukty.
 example : (∃ x, p x ∨ q x) ↔ (∃ x, p x) ∨ (∃ x, q x) := sorry
 
 ----------------------------------------------------------------------------------------------------
