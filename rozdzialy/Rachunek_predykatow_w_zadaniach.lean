@@ -1,16 +1,24 @@
--- Większość tych zadań "ukradłem" ze znakomitej książki "Theorem Proving in Lean 4". Proszę
--- zgłaszać trudności, żebym wiedział, jak pomóc nie przeszkadzając za bardzo w nauce.
+/-
+
+  Większość tych zadań "ukradłem" ze znakomitej książki <pre>[*Theorem Proving in Lean
+  4*](https://lean-lang.org/theorem_proving_in_lean4/)</pre>.
+ 
+  Proszę zgłaszać trudności.
+
+-/
 
 -- O tym będzie mowa.
 variable {α : Type} {p q : α → Prop} {r : Prop}
 
--- Warto tu użyć dopasowania wzorca. Term `x : α` nie odgrywa tu ważnej roli.
+-- Warto tu użyć dopasowania wzorca. Term `x : α` nie odgrywa tu ważnej roli. Może najpierw by
+-- `intro <odpowiedni_wzorzec>`?
 example : (∃ x : α, r) → r := sorry
 
 -- Tu musimy skorzystać z dostępnego termu `a` typu `α`, za to w "dziwny" sposób.
 example (a : α) : r → (∃ x : α, r) := sorry
 
--- Dopasowanie wzorca (tutaj zagnieżdżone) jest Twoim przyjacielem!
+-- Dopasowanie wzorca (tutaj zagnieżdżone) jest Twoim przyjacielem! Ja zaczynam zwykle dowodzenie
+-- równoważności od napisania `⟨sorry, sorry⟩` (bo równoważność to koniunkcja dwóch implikacji.
 example : (∃ x, p x ∧ r) ↔ (∃ x, p x) ∧ r := sorry
 
 example (a : α) : (∀ x : α, r) → r := sorry
