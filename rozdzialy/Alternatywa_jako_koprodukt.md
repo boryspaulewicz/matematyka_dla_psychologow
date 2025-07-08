@@ -545,7 +545,7 @@ natomiast pozostałe reguły odpowiadają temu, jak te konstrukcje działają ze
 też jest manifestacją dualności tych konstrukcji.
 
 Czy widzisz, że w przypadku tego rodzaju rozumowań, *nie dałoby się* nie pogubić, gdybyśmy nie
-operowali jednocześnie różnymi dedykowanymi językami, których używanie polega na stosowaniu
+operowali jednocześnie różnymi dedykowanymi językami, których używanie polega na respektowaniu
 jednoznacznych i sztywnych reguł?
 
 ## Koniunkcja i alternatywa ze strzałek, ale inaczej
