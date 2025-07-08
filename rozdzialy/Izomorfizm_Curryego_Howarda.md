@@ -29,7 +29,7 @@ tłumaczenia w obie strony* nazywamy w matematyce właśnie (zachowującymi stru
 *izomorfizmami*. Słowo "izomorfizm" jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki sam
 i *μορφή* czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny
 alfabet, kilka różnych rodzajów akcentów i liczbę podwójną. Ponieważ w liceum byłem nieznośnym
-snobem, uczyłem się go przez rok, stąd wiem.
+snobem, uczyłem się go[^1] przez rok, stąd wiem.
 
 Układu współrzędnych kartezjańskich *używamy* w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" od razu automatycznie
@@ -221,3 +221,9 @@ wystarczająco ekspresyjny język. Ten, na którym oparty jest Lean, jest właś
 języków. A tym, co przede wszystkim sprawia, że jest tak bardzo ekspresyjny, że pozwala zakodować
 formalnie całą matematykę, a więc ostatecznie również wszystko, co tylko da się zmatematyzować,
 czyli w pewnym sensie wszystko, co tylko można powiedzieć jasno, są typy zależne.
+
+### Przypisy
+
+[^1]: Z
+    [tej](https://lubimyczytac.pl/ksiazka/81282/hellenike-glotta-podrecznik-do-nauki-jezyka-greckiego)
+    książki.
