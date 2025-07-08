@@ -470,12 +470,28 @@ mówimy nie wiadomo o czym. Żeby się z tym choć trochę oswoić, warto przypo
 korzystanie z matematyki polega na używaniu pewnych specjalnych języków tak, jakby te języki były
 mechanizmami albo maszynami (zaprojektowanymi jako narzędzia do rozwiązywania problemów
 pojęciowych). Tak więc *zmiana sposobu mówienia polegająca na dualizacji to tylko pewne
-narzędzie*. Korzystamy z tego przedziwnego narzędzia-przekształcenia, bo wiemy o nim, że zachowuje
-poprawność syntaktyczną i że pozwala *formalnie* (to jest "w języku", albo mechanicznie, w oderwaniu
-od treści) wnioskować *o tym samym* za pomocą (tutaj dualnej) wersji opisu, która może być czasem
-wygodniejsza, albo łatwiejsza, albo może pozwolić dojść do pewnych wniosków szybciej, albo która
-może być wręcz konieczna, żeby o pewnych sprawach mówić, i która może być na każdym etapie
-"odwrócona z powrotem".
+narzędzie*. 
+
+Polega to na tym, że wprowadzamy jakieś zagadnienie mówiąc o nim w języku naturalnym (tutaj pewne
+zagadnienie dotyczące związków wynikania pewnego rodzaju zdań z pewnego rodzaju zdań), "przytaczamy"
+albo wprowadzamy pewien matematyczny (czyli mechaniczny) sposób mówienia o tego rodzaju
+zagadnieniach (tutaj jednocześnie klasyczny rachunek zdań i teorię kategorii), i od tego momentu
+elastycznie przełączamy się między mówieniem *w* tych językach i *o* wybranych konstrukcjach
+formalno-językowych. Korzystamy w ten sposób z faktu, że te formalne struktury językowe, dzięki
+temu, że umiemy respektować sztywność reguł składniowych i semantycznych, "zachowują się" jak
+"autonomiczne ciała", które możemy rozmaicie przekształcać (na przykład konstruując dowody,
+składając strzałki, albo korzystając z mapowania konstrukcji strzałkowych na konstrukcje zdaniowe) ,
+wiedząc cały czas na pewno - bo to się zawsze da mechanicznie sprawdzić - jak te przekształcenia
+struktur formalno-językowych mają się do wyjściowej treści wyrażonej w języku naturalnym (tutaj
+zwykłych zdań i dotyczącej tych zdań, potocznie rozumianej relacji wynikania).
+
+Korzystamy więc z tego przedziwnego językowego narzędzia-przekształcenia jakim jest dualizacja
+dlatego, że wiemy, że zachowuje poprawność syntaktyczną i że pozwala *formalnie* (to jest "w
+języku", albo mechanicznie, w oderwaniu od treści) wnioskować *o tym samym* (bo dualna kategoria
+jest "strukturalnie powiązana" z tą samą "treścią" co kategoria wyjściowa, tylko dualnie) za pomocą
+(tutaj dualnej) wersji opisu, która może być czasem wygodniejsza, albo łatwiejsza, albo może
+pozwolić dojść do pewnych wniosków szybciej, albo która może być wręcz konieczna, żeby o pewnych
+sprawach mówić, i która może być na każdym etapie "odwrócona z powrotem".
 
 Patrząc na niego w ten sposób, przeprowadzony właśnie okrężną i częściowo "powietrzną" drogą dowód
 zdania `p ∨ q → q ∨ r` można streścić (opisując jednocześnie z metapoziomu jak działa) na przykład
@@ -483,17 +499,21 @@ tak:
 
 Dualnym odpowiednikiem `p ∨ q` jest produkt `p × q`  
 (w tym momencie odrywamy się do pewnego stopnia od myślenia o dowiedlności zdań, oczywiście
-pamiętając o kontekście).
+pamiętając o kontekście, zmieniamy język opisu z logicznego na kategoryjny, i od razu dokonujemy dualizacji
+\{myśląc o niej jako o lokalnej operacji, dotyczącej tylko konstrukcji ze zdań/punktów `p` i `q`\})
 
 Ten jest izomorficzny do produktu `q × p`, ...  
 (tak zwana "wiedza ogólna", a ponieważ to jest teoria kategorii, można wręcz powiedzieć, że
-"najogólniejsza"),
+"najogólniejsza" \{zagnieżdżonym nawiasem mówiąc, używanie cały czas symboli `p` i `q` odzwierciedla
+fakt, że wszystkie te opisy, którymi z radością tu rząglujemy, są "przyczepnione" do tych samych
+hipotetycznych zdań\}),
 
 ... który jest dualnym odpowiednikiem `q ∨ p`,  
-(przejście z poziomu ogólnej teorii kategorii do kategorii zdań)
+(przejście z poziomu ogólnej teorii kategorii do kategorii zdań, znowu wcześniej dualizując
+rozważaną konstrukcję)
 
 ... a ponieważ dualizacja zachowuje izomorfizmy,  
-(od której znowu się oddalamy)
+(od której znowu na chwilę się oddalamy)
 
 ... to `p ∨ q ↔ q ∨ p`, ...  
 (i w końcu lądujemy)
