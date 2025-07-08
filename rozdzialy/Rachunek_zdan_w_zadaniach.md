@@ -17,10 +17,10 @@ logicznych w ogóle, są nimi na przykład poprawne zdania w rachunku kwantyfika
 
 Już wiesz, czym są zdania w rachunku zdań:
 
-1. *Zmienne zdaniowe*, takie jak `p`, `q`, `r`, `p₀`, `p₁`, i tak dalej, są, albo mogą być,
-(poprawnymi) zdaniami logicznymi, albo krótko zdaniami. Takie zdania (inaczej formuły) nazywamy
-zdaniami *atomowymi*, ponieważ nie mają wewnętrznej struktury (ewentualne indeksy dolne służą tu
-tylko do ich odróżnienia).
+1. *Zmienne zdaniowe*, takie jak `p`, `q`, `r`, `p₀`, `p₁`, i tak dalej, będą, jeśli tak
+postanowimy, (poprawnymi) zdaniami logicznymi, albo krótko zdaniami. Takie zdania (inaczej formuły)
+nazywamy zdaniami *atomowymi*, ponieważ nie mają wewnętrznej struktury (ewentualne indeksy dolne
+służą tu tylko do ich odróżnienia).
 
 2. Jeżeli `P` jest (być może złożonym) zdaniem, to `¬P` też jest zdaniem.
 
@@ -34,9 +34,9 @@ tylko do ich odróżnienia).
 6. Jeżeli `P` i `Q` są zdaniami, to `P ∨ Q` też jest zdaniem.
 
 To jest *definicja indukcyjna* zdań, a więc zdaniami są *wszystkie te i tylko* te wyrażenia, które
-powstają przez stosowanie tych reguł. Zwracam uwagę, że mamy tu do czynienia tylko ze składnią, w
+powstają przez stosowanie tych reguł. Zwracam uwagę, że mamy tu do czynienia tylko ze składnią; w
 szczególności, te 6 reguł nie mówi *nic* na temat tego, w jaki posób prawdziwość zdań zależy od
-prawdziwości zdań. 
+prawdziwości zdań.
 
 Tego rodzaju definicje syntaktyczne zapisujemy czasem w tak zwanej [notacji
 Backusa-Naura](https://pl.wikipedia.org/wiki/Notacja_BNF) (*BNF*), z której chętnie korzystają
@@ -85,10 +85,11 @@ Dodamy teraz nowy aksjomat, przez co uogólnimy pojęcie prawdziwości zdań i o
 *klasyczną* rachunku zdań ([KRZ](https://pl.wikipedia.org/wiki/Klasyczny_rachunek_zda%C5%84)). Można
 powiedzieć, że logika klasyczna od konstruktywnej różni się tylko jednym dodatkowym aksjomatem
 (który akurat w Leanie jest *twierdzeniem* wyprowadzonym z innych aksjomatów, patrz [twierdzenie
-Diaconescu](https://en.wikipedia.org/wiki/Diaconescu%27s_theorem)), nazywanym zasadą albo prawem
-[wyłączonego środka](https://pl.wikipedia.org/wiki/Prawo_wy%C5%82%C4%85czonego_%C5%9Brodka)
-(ang. *excluded middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem,
-*każde* zdanie jest albo prawdziwe, albo fałszywe (czyli prawdziwa jest jego negacja).
+Diaconescu](https://en.wikipedia.org/wiki/Diaconescu%27s_theorem) \{ale może raczej nie patrz\}),
+nazywanym zasadą albo prawem [wyłączonego
+środka](https://pl.wikipedia.org/wiki/Prawo_wy%C5%82%C4%85czonego_%C5%9Brodka) (ang. *excluded
+middle* albo *excluded third*, łac. *tertium non datur*). Zgodnie z tym aksjomatem, *każde* zdanie
+jest albo prawdziwe, albo fałszywe (czyli prawdziwa jest jego negacja).
 
 Dostępną w Leanie implementację tej zasady znajdziemy w przestrzeni nazw `Classical` (`em` to
 właśnie skrót od *excluded middle*):
@@ -127,7 +128,7 @@ theorem dneg (p : Prop) : ¬¬p → p :=
      (fun np => (nnp np).elim)
 ```
 
-Czasem stosuję takie właśnie formatowanie kiedy używam w nieinteraktywnych dowodach reguły
+Czasem stosuję takie właśnie formatowanie, kiedy używam w nieinteraktywnych dowodach reguły
 eliminacji alternatywy: Kiedy używam dowodu `p ∨ q` do udowodnienia `r`, dowody implikacji `p → r` i
 `q → r` zapisuję w kolejnych liniach, przesunięte w prawo względem linii, w której pojawia się na
 końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
@@ -141,8 +142,8 @@ końcu stała `elim`. Może byłoby nawet lepiej pisać w stylu ...
 
 ... bo wtedy można by szybciej zauważyć, że chodzi o regułę eliminacji dla altarnatywy, a nie na
 przykład dla koniunkcji? Kto wie, może? A poza tym, jeżeli człony alternatywy to `p` i `q`, to
-parametry tych dowodów-funkcji nazywam `hp` i `hq`, a dzięki temu, że trzymam się tej konwencji dość
-konsekwentnie, zacząłem się do niej przyzwyczajać i widzę, że ułatwia mi pisanie dowodów.
+parametry tych dowodów-funkcji nazywam `hp` i `hq`, a dzięki temu, że trzymam się tej konwencji
+dosyć konsekwentnie, zacząłem się do niej przyzwyczajać i widzę, że ułatwia mi pisanie dowodów.
 
 ## Przepraszam, ale nie przepraszam
 
