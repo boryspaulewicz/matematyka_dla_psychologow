@@ -1,6 +1,6 @@
 /-
 
-  Większość tych zadań "ukradłem" ze znakomitej książki <pre> [*Theorem Proving in Lean 4*](https://lean-lang.org/theorem_proving_in_lean4/) </pre>.
+  Większość tych zadań "ukradłem" ze znakomitej książki <pre> <a href="https://lean-lang.org/theorem_proving_in_lean4/">*Theorem Proving in Lean 4*</a>.
  
   Proszę zgłaszać trudności.
 
