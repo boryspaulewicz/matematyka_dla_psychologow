@@ -28,8 +28,8 @@ ani nie zniekształcamy żadnych własności problemu geometrycznego. Tego rodza
 tłumaczenia w obie strony* nazywamy w matematyce właśnie (zachowującymi strukturę)
 *izomorfizmami*. Słowo "izomorfizm" jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki sam
 i *μορφή* czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny
-alfabet, kilka różnych rodzajów akcentów i liczbę podwójną. Ponieważ w liceum byłem nieznośnym
-snobem, uczyłem się go[^1] przez rok, stąd wiem.
+alfabet, kilka różnych rodzajów akcentów i liczbę podwójną. Ponieważ byłem wtedy nieznośnym snobem,
+uczyłem się go[^1] przez rok w liceum, stąd wiem.
 
 Układu współrzędnych kartezjańskich *używamy* w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" od razu automatycznie
