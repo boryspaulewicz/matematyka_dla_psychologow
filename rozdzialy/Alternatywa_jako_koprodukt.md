@@ -497,30 +497,30 @@ Patrząc na niego w ten sposób, przeprowadzony właśnie okrężną i częścio
 zdania `p ∨ q → q ∨ r` można streścić (opisując jednocześnie z metapoziomu jak działa) na przykład
 tak:
 
-Dualnym odpowiednikiem `p ∨ q` jest produkt `p × q`  
+*Dualnym odpowiednikiem `p ∨ q` jest produkt `p × q`*  
 (w tym momencie odrywamy się do pewnego stopnia od myślenia o dowiedlności zdań, oczywiście
 pamiętając o tym kontekście, zmieniamy język opisu z logicznego na kategoryjny, i od razu dokonujemy
 dualizacji \{myśląc o niej jako o lokalnej operacji, dotyczącej tylko konstrukcji ze zdań/punktów
 `p` i `q`\, żeby nie przeciążać sobie pamięci operacyjnej próbami wyobrażenia sobie *całej*
 kategorii dualnej})
 
-Ten jest izomorficzny do produktu `q × p`, ...  
+*Ten jest izomorficzny do produktu `q × p`,* ...  
 (tak zwana "wiedza ogólna", a ponieważ to jest teoria kategorii, można wręcz powiedzieć, że
 "najogólniejsza" \{zagnieżdżonym nawiasem mówiąc, używanie cały czas symboli `p` i `q` odzwierciedla
 fakt, że wszystkie te opisy, którymi z radością tu rząglujemy, są "przyczepnione" do tych samych
 hipotetycznych zdań\}),
 
-... który jest dualnym odpowiednikiem `q ∨ p`,  
+*... który jest dualnym odpowiednikiem `q ∨ p`,*  
 (przejście z poziomu ogólnej teorii kategorii do kategorii zdań, znowu wcześniej dualizując
 rozważaną konstrukcję)
 
-... a ponieważ dualizacja zachowuje izomorfizmy,  
+*... a ponieważ dualizacja zachowuje izomorfizmy,*  
 (od której znowu na chwilę się oddalamy)
 
-... to `p ∨ q ↔ q ∨ p`, ...  
+*... to `p ∨ q ↔ q ∨ p`, ...*  
 (i w końcu lądujemy)
 
-... a więc w szczególności `p ∨ q → q ∨ p` (QED). 
+*... a więc w szczególności `p ∨ q → q ∨ p`* (QED). 
 
 Tak oto między innymi wszystkie wymienione niżej (hm) elementy ...
 
