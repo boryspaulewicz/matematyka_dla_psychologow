@@ -499,8 +499,9 @@ tak:
 
 Dualnym odpowiednikiem `p ∨ q` jest produkt `p × q`  
 (w tym momencie odrywamy się do pewnego stopnia od myślenia o dowiedlności zdań, oczywiście
-pamiętając o kontekście, zmieniamy język opisu z logicznego na kategoryjny, i od razu dokonujemy dualizacji
-\{myśląc o niej jako o lokalnej operacji, dotyczącej tylko konstrukcji ze zdań/punktów `p` i `q`\})
+pamiętając o tym kontekście, zmieniamy język opisu z logicznego na kategoryjny, i od razu dokonujemy
+dualizacji \{myśląc o niej jako o lokalnej operacji, dotyczącej tylko konstrukcji ze zdań/punktów
+`p` i `q`\})
 
 Ten jest izomorficzny do produktu `q × p`, ...  
 (tak zwana "wiedza ogólna", a ponieważ to jest teoria kategorii, można wręcz powiedzieć, że
