@@ -520,9 +520,7 @@ rozważaną konstrukcję)
 
 ... a więc w szczególności `p ∨ q → q ∨ p` (QED). 
 
-Czy widzisz, że w przypadku tego rodzaju rozumowań, byłoby trudno się nie pogubić, gdybyśmy nie
-operowali jednocześnie różnymi dedykowanymi językami, których używanie polega na stosowaniu
-jednoznacznych, sztywnych reguł? Tak oto między innymi wszystkie wymienione niżej (hm) elementy ...
+Tak oto między innymi wszystkie wymienione niżej (hm) elementy ...
 
 - Reguły wprowadzania dla koniunkcji
 
@@ -545,6 +543,10 @@ alternatywa ma dwie reguły wprowadzania i jedną regułę eliminacji, jak równ
 eliminacji dla koniunkcji i wprowadzania dla alternatywy są jakby wbudowane w ich strukturę,
 natomiast pozostałe reguły odpowiadają temu, jak te konstrukcje działają ze względu na składanie,
 też jest manifestacją dualności tych konstrukcji.
+
+Czy widzisz, że w przypadku tego rodzaju rozumowań, *nie dałoby się* nie pogubić, gdybyśmy nie
+operowali jednocześnie różnymi dedykowanymi językami, których używanie polega na stosowaniu
+jednoznacznych i sztywnych reguł?
 
 ## Koniunkcja i alternatywa ze strzałek, ale inaczej
 
