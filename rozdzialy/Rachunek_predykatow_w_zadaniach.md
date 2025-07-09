@@ -35,11 +35,11 @@ elastyczności w sposobie myślenia o tych strukturach.
 
 Wyrażenia takie jak `p ∧ q`, gdzie `p` i `q` to zdania, moglibyśmy równie dobrze zakodować jako
 *oznaczone pary* zdań. Potrzebujemy je jakoś oznaczyć, bo `p ∨ q` i `p → q` to też wyrażenia
-powstające z par zdań, a będziemy chcieli takie pary rozróżniać. Tak więc niech `∧` oznacza na
-początek jakiś izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z ×
-Z`, gdzie `Z` to zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p
-∧ q`. Moglibyśmy korzystać z tego sposobu kodowania konstruując dowody, ale do *tego* celu ten
-sposób nie bardzo się nadaje.
+powstające z par zdań, a chcielibyśmy takie pary rozróżniać. Tak więc niech `∧` oznacza na początek
+jakiś izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie
+`Z` to zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p ∧
+q`. Moglibyśmy korzystać z tego sposobu kodowania konstruując dowody, ale do *tego* celu ten sposób
+nie bardzo się nadaje.
 
 Zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X` można równie dobrze,
 to jest ani nie tracąc, ani nie dodając żadnej informacji, zakodować jako pewien izomorf *zbioru
