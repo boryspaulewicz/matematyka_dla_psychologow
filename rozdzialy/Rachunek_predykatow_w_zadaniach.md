@@ -135,7 +135,7 @@ example : (∃ x, p x ∧ r) ↔ (∃ x, p x) ∧ r := sorry
 -- pewnych funkcji), pamiętasz? Jest również uogólnioną koniunkcją, a więc uogólnionym produktem.
 example (a : α) : (∀ x : α, r) → r := sorry
 
--- Jeżeli coś już masz (tutaj dowód `r`), to możesz to (w pewnym sensie, bo tutaj "osobliwie")
+-- Jeżeli coś już masz (tutaj dowód `r`), to możesz to (tutaj w pewnym sensie, bo "osobliwie")
 -- zrobić z czegokolwiek.
 example : r → (∀ x : α, r) := sorry
 
