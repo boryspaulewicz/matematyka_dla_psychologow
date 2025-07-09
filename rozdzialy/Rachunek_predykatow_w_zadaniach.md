@@ -79,9 +79,9 @@ i, f(i)`, a czasem nawet jako `Π f(i)`.
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
 uzyskujemy gdy `I = {1, 2}`, a poza tym "chodzi o to samo". Możemy teraz "formalnie rozpoznać"
-zdania o postaci `∀ x, P x`, gdzie `P` to predykat, jako szczególne przypadki produktu
-indeksowanego. I dualnie, zdania o postaci `∃ x, P x` rozpoznajemy jako szczególne przypadki
-koproduktu indeksowanego, który wypadałoby wtedy zapisywać (skrótowo) w stylu `Σ x, P x`.
+zdania o postaci `∀ x, P x` jako szczególne przypadki produktu indeksowanego. I dualnie, zdania o
+postaci `∃ x, P x` rozpoznajemy jako szczególne przypadki koproduktu indeksowanego, który wypadałoby
+wtedy zapisywać (skrótowo) w stylu `Σ x, P x`.
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
 znaczy w jakiej kategorii, takie uogólnione produkty i koprodukty się znajdują. I nie powiemy, bo
