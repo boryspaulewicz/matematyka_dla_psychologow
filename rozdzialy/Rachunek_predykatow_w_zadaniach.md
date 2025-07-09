@@ -173,7 +173,7 @@ example : (∀ x, p x ∧ q x) ↔ (∀ x, p x) ∧ (∀ x, q x) := sorry
 -- faktycznie nie wiadomo}).
 example : (∀ x, p x → q x) → (∀ x, p x) → (∀ x, q x) := sorry
 
--- Bo `∀ x, p x` to uogólniony produkt, *widzisz* to już trochę? Zdanie z lewej mówi (patrzą na nie
+-- Bo `∀ x, p x` to uogólniony produkt, *widzisz* to już trochę? Zdanie z lewej mówi (patrząc na nie
 -- tym razem *nie* jako na produkt), że istnieją strzałki z `r` do każdego `p x`-a, a zdanie z
 -- prawej mówi, że istnieje strzałka z `r` do uogólnionej koniunkcji, a więc do uogólnionego
 -- produktu `p x`-ów. Udowodniłaś już dawno ten izomorfizm, czyli tutaj równoważność (bo to jest
