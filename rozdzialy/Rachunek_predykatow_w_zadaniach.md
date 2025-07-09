@@ -27,19 +27,19 @@ Niestety, nie mogę Ci na tym etapie podać pełnowartościowej kategoryjnych de
 kwantyfikatora, bo to wymaga wprowadzenia (skądinąd fascynującego w użyciu) pojęcia [*funktora
 sprzężonego*](https://pl.wikipedia.org/wiki/Funktory_sprz%C4%99%C5%BCone), a na to jest jeszcze za
 wcześnie. Mogę jednak, używając mieszanego kategoryjno-mnogościowego języka, spróbować dostarczyć Ci
-na ten temat pewnych przydatnych intuicji. 
+na ten temat pewnych przydatnych intuicji.
 
 Zaczniemy od takiej jakby rozluźniającej rozgrzewki, której celem będzie tymczasowe zwiększenie
 elastyczności w sposobie kodowania znanych Ci już dobrze struktur, a dzięki temu również zwiększenie
 elastyczności w sposobie myślenia o tych strukturach.
 
-Wyrażenia takie jak `p \and q`, gdzie `p` i `q` to zdania, moglibyśmy równie dobrze zakodować jako
-*oznaczone pary* zdań. Potrzebujemy je jakoś oznaczyć, bo `p \or q` i `p \to q` to też wyrażenia
-powstające z par zdań, a będziemy chcieli takie pary rozróżniać. Tak więc niech `\and` oznacza na
-początek jakiś izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `\and \iso
-Z \x Z`, gdzie `Z` to zbiór zdań. Wyrażenie takie jak `(p, q) \in \and` oznacza odtąd to samo, co
-wcześniej `p \and q`. Moglibyśmy korzystać z tego sposobu kodowania konstruując dowody, ale do
-*tego* celu ten sposób nie bardzo się nadaje.
+Wyrażenia takie jak `p ∧ q`, gdzie `p` i `q` to zdania, moglibyśmy równie dobrze zakodować jako
+*oznaczone pary* zdań. Potrzebujemy je jakoś oznaczyć, bo `p ∨ q` i `p → q` to też wyrażenia
+powstające z par zdań, a będziemy chcieli takie pary rozróżniać. Tak więc niech `∧` oznacza na
+początek jakiś izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z ×
+Z`, gdzie `Z` to zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p
+∧ q`. Moglibyśmy korzystać z tego sposobu kodowania konstruując dowody, ale do *tego* celu ten
+sposób nie bardzo się nadaje.
 
 Zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X` można równie dobrze,
 to jest ani nie tracąc, ani nie dodając żadnej informacji, zakodować jako pewien izomorf *zbioru
@@ -50,38 +50,38 @@ jest wszystko to samo?
 
 Po co mielibyśmy wprowadzać taki sposób kodowania (albo taką implementację)? Ano po to, żeby
 zobaczyć i lepiej zapanować nad głębokim podobieństwem między koniunkcją i alternatywą z jednej
-strony, a dużym i małym kwantyfikatorem z drugiej. Zbiór zdań takich jak `\forall x \in X, P x`,
-gdzie `X` to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego zbioru, możemy teraz
-rozpoznać na nowo jako *funkcję* ze zbioru `X` do zbioru o postaci `P x`. Pomijając zwykle
-kosmetyczne różnice między zbiorami i typami, to nic innego jak znana Ci już implementacja
-*wiązania* przez duży kwantyfikator jako *bycia parametrem funkcji* zwracającej takie zdania. Z tej
-perspektywy zdania takie jak `p \and q` to niemal takie same funkcje do zdań, tyle, że z ustalonego
-zbioru `{1, 2}`, i mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i drugie nie
-zależy od wartości argumentu, czyli od tego, czy są pierwszym czy drugim członem koniunkcji.
+strony, a dużym i małym kwantyfikatorem z drugiej. Zbiór zdań takich jak `∀ x ∈ X, P x`, gdzie `X`
+to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego zbioru, możemy teraz rozpoznać na
+nowo jako *funkcję* ze zbioru `X` do zbioru o postaci `P x`. Pomijając zwykle kosmetyczne różnice
+między zbiorami i typami, to nic innego jak znana Ci już implementacja *wiązania* przez duży
+kwantyfikator jako *bycia parametrem funkcji* zwracającej takie zdania. Z tej perspektywy zdania
+takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z ustalonego zbioru `{1, 2}`, i
+mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i drugie nie zależy od wartości
+argumentu, czyli od tego, czy są pierwszym czy drugim członem koniunkcji.
 
 Kiedy kolekcja punktów/obiektów kategorii jest *zbiorem*, to wtedy tak samo, używając ekstremalnie
 elastycznego języka teorii mnogości, możemy na potrzeby mechanicznego rozumowania zakodować
 kategoryjne produkty. Te są *binarne*, ale *nie muszą* być binarne. Z naszej nowej perspektywy
-widać, że `p \and q` to coś takiego jak `\P i \in {1, 2}, p_i` (gdzie `p_1 = p`, a `p_2 = q`), a
-`\forall x \in X, P x` to coś takiego jak `\P x \in X, P x`, przy czym w obydwu przypadkach `\P i
-\in I, f(i)` oznacza (uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i \in I`.
+widać, że `p ∧ q` to coś takiego jak `Π i ∈ {1, 2}, p₁` (gdzie `p₁ = p`, a `p₂ = q`), a `∀ x ∈ X, P
+x` to coś takiego jak `Π x ∈ X, P x`, przy czym w obydwu przypadkach `Π i ∈ I, f(i)` oznacza
+(uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i ∈ I`.
 
 Możemy też podać taką "skundloną", bo kategoryjno-mnogościową definicję tego uogólnionego produktu:
 Niech `P` będzie jakimś ustalonym obiektem. Produktem indeksowanym będziemy nazywali taką *funkcję*
-(tu między innymi widać teoriomnogościowość tej definicji) `\pi` z jakiegoś zbioru `I` (który możemy
-zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P \to Y | Y \in Ob(\C)}`, że dla każdego
-obiektu `X` i dla każdej funkcji `f : I \to Ar(\C)` takiej, że `f(i) : X \to \pi(i)` (ta funkcja
-koduje nam tu po prostu jakieś strzałki z `X` do obiektów `\pi(i)` "na końcach" produktu), istnieje
-unikalna strzałka `h` taka, że `\forall i \in I, \pi(i) \o h = f(i)`. Ponieważ `h` jest taką
-unikalną strzałką, naturalnym wyborem będzie oznaczanie jej jako `\P i \in I, f(i)`, albo
-- zakładając domyślność odbiorców - jako `\P i, f(i)`, a czasem nawet jako `\P f(i)`.
+(tu między innymi widać teoriomnogościowość tej definicji) `π` z jakiegoś zbioru `I` (który możemy
+zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P → Y | Y ∈ Ob(ℂ)}`, że dla każdego obiektu
+`X` i dla każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → π(i)` (ta funkcja koduje nam tu po
+prostu jakieś strzałki z `X` do obiektów `π(i)` "na końcach" produktu), istnieje unikalna strzałka
+`h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką, naturalnym
+wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo
+- zakładając domyślność odbiorców - jako `Π i, f(i)`, a czasem nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
 uzyskujemy gdy `I = {1, 2}`, a poza tym "chodzi o to samo". Możemy teraz "formalnie rozpoznać"
-zdania o postaci `\forall x, P x`, gdzie `P` to predykat, jako szczególne przypadki produktu
-indeksowanego. I dualnie, zdania o postaci `\E x, P x` rozpoznajemy jako szczególne przypadki
-koproduktu indeksowanego, który wypadałoby wtedy zapisywać (skrótowo) w stylu `\S x, P x`. 
+zdania o postaci `∀ x, P x`, gdzie `P` to predykat, jako szczególne przypadki produktu
+indeksowanego. I dualnie, zdania o postaci `∃ x, P x` rozpoznajemy jako szczególne przypadki
+koproduktu indeksowanego, który wypadałoby wtedy zapisywać (skrótowo) w stylu `Σ x, P x`.
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
 znaczy w jakiej kategorii, takie uogólnione produkty i koprodukty się znajdują. I nie powiemy, bo
@@ -93,9 +93,9 @@ gdzie `P` jest predykatem, a `x` jest termem typu albo elementem zbioru, któreg
 Nie wiemy jeszcze, czy może istnieć taka kategoria, to znaczy czy można ją "wskazać" za pomocą
 poprawnej definicji, ale to nam nie przeszkodzi myśleć w ten sposób, to jest w
 [życzeniowym](https://pl.wikipedia.org/wiki/My%C5%9Blenie_%C5%BCyczeniowe) kategoryjnym stylu, o
-dużym i małym kwantyfikatorze, nie popełniając przy tym błędów, bo zdania o postaci `\forall x, P x`
-i `\E x, P x` zachowują się ewidentnie jak produkty i koprodukty odpowiednio, a różnią się tylko
-tym, że mają arbitralne liczby członów.
+dużym i małym kwantyfikatorze, nie popełniając przy tym błędów, bo zdania o postaci `∀ x, P x` i `∃
+x, P x` zachowują się ewidentnie jak produkty i koprodukty odpowiednio, a różnią się tylko tym, że
+mają arbitralne liczby członów.
 
 ## Zadania służą głównie do tego, żeby wracać do nich tak długo - przyglądając im się uważnie i czasem bawiąc się nimi - aż albo niemal same się rozwiążą, albo przestaną nas obchodzić
 
