@@ -45,8 +45,9 @@ Zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru
 to jest ani nie tracąc, ani nie dodając żadnej informacji, zakodować jako pewien izomorf *zbioru
 funkcji* ze zbioru `{1, 2}` do zbioru `X`, bo przecież takie pary uporządkowane to dokładnie
 swobodne oznaczenia dwóch, niekoniecznie różnych elementów należących do zbioru `X` jako pierwszego
-i drugiego takiego. Widzisz już, że to tylko *wymienialne implementacje*, czyli *funkcjonalnie* to
-jest wszystko to samo?
+i drugiego takiego. Widzisz już, że to tylko *wymienialne implementacje*, a więc *funkcjonalnie* to
+jest wszystko to samo? Jak chcesz, możesz spróbować udowodnić, że to jest funkcjonalnie to samo,
+definiując izomorfizmy między tymi strukturami.
 
 Po co mielibyśmy wprowadzać taki sposób kodowania (albo taką implementację)? Ano po to, żeby
 zobaczyć i lepiej zapanować nad głębokim podobieństwem między koniunkcją i alternatywą z jednej
