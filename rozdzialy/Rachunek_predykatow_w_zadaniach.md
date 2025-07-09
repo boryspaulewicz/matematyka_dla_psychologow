@@ -73,11 +73,11 @@ Możemy też podać taką "skundloną", bo kategoryjno-mnogościową definicję 
 Niech `P` będzie jakimś ustalonym obiektem. Produktem indeksowanym będziemy nazywali taką *funkcję*
 (tu między innymi widać teoriomnogościowość tej definicji) `π` z jakiegoś zbioru `I` (który możemy
 zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P → Y | Y ∈ Ob(ℂ)}`, że dla każdego obiektu
-`X` i dla każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → π(i)` (ta funkcja koduje nam tu po
-prostu jakieś strzałki z `X` do obiektów `π(i)` "na końcach" produktu), istnieje unikalna strzałka
-`h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką, naturalnym
-wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność odbiorców - jako `Π
-i, f(i)`, a czasem nawet jako `Π f(i)`.
+`X` i dla każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → dom(π(i))` (ta funkcja koduje nam tu
+po prostu jakieś strzałki z `X` do obiektów `π(i)` "na końcach" produktu), istnieje unikalna
+strzałka `h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką,
+naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność
+odbiorców - jako `Π i, f(i)`, a czasem nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
