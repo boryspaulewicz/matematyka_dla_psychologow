@@ -15,7 +15,7 @@ Zanim przejdziemy do zadań, spróbuję nakłonić Cię do popatrzenia na nie z 
 kategoryjnej. Mam nadzieję w ten sposób przyzwyczaić Cię stopniowo do moim zdaniem najbardziej
 ekscytującego sposobu używania matematyki, polegającego na "zmechaniowanym" i elastycznym
 przełączaniu się między różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli poczujesz,
-że te moje próby Ci bardziej przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu
+że te moje próby bardziej Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu
 zbyt wcześnie. Trzeba z tym wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo
 utrwalą się w Twojej pamięci, że będziesz mogła je traktować jak niemal autonomiczne byty, które
 możesz w kadej chwili (o ile będziesz wyspana i trzeźwa) mentalnie przywołać, a raz przywołane
