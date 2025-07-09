@@ -254,7 +254,7 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R27 Rachunek zdań w zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md)
 
-[R28 Rachunek predykatów w zadaniach](./rozdzialy/Rachunek_predykatow_w_zadaniach.lean)
+[R28 Rachunek predykatów w zadaniach](./rozdzialy/Rachunek_predykatow_w_zadaniach.md)
 
 Notatki robocze do których można zaglądać:
 
