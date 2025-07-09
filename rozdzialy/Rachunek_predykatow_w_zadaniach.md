@@ -53,8 +53,8 @@ Po co mielibyśmy wprowadzać taki sposób kodowania (albo taką implementację)
 zobaczyć i lepiej zapanować nad głębokim podobieństwem między koniunkcją i alternatywą z jednej
 strony, a dużym i małym kwantyfikatorem z drugiej. Zbiór zdań takich jak `∀ x ∈ X, P x`, gdzie `X`
 to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego zbioru, możemy teraz rozpoznać na
-nowo jako *funkcję* ze zbioru `X` do zbioru o postaci `P x`. Pomijając zwykle kosmetyczne różnice
-między zbiorami i typami, to nic innego jak znana Ci już implementacja *wiązania* przez duży
+nowo jako *funkcję* ze zbioru `X` do zbioru zdań o postaci `P x`. Pomijając zwykle kosmetyczne
+różnice między zbiorami i typami, to nic innego jak znana Ci już implementacja *wiązania* przez duży
 kwantyfikator jako *bycia parametrem funkcji* zwracającej takie zdania. Z tej perspektywy zdania
 takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z ustalonego zbioru `{1, 2}`, i
 mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i drugie nie zależy od wartości
