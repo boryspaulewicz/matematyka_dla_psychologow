@@ -95,8 +95,8 @@ Nie wiemy jeszcze, czy może istnieć taka kategoria, to znaczy czy można ją "
 poprawnej definicji, ale to nam nie przeszkodzi myśleć w ten sposób, to jest w
 [życzeniowym](https://pl.wikipedia.org/wiki/My%C5%9Blenie_%C5%BCyczeniowe) kategoryjnym stylu, o
 dużym i małym kwantyfikatorze, nie popełniając przy tym błędów, bo zdania o postaci `∀ x, P x` i `∃
-x, P x` zachowują się ewidentnie jak produkty i koprodukty odpowiednio, a różnią się tylko tym, że
-mają arbitralne liczby członów.
+x, P x` zachowują się ewidentnie jak produkty i koprodukty odpowiednio, a od binarnych produktów i
+koproduktów różnią się tylko tym, że mają arbitralne liczby członów.
 
 ## Zadania służą głównie do tego, żeby wracać do nich tak długo - przyglądając im się uważnie i czasem bawiąc się nimi - aż albo niemal same się rozwiążą, albo przestaną nas obchodzić
 
