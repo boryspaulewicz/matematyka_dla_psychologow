@@ -2,7 +2,7 @@
 
 Kończymy z podstawami rachunku predykatów! Oczywiście żartuję, nigdy z nimi nie skończymy, bo
 niczego nie da się tak naprawdę do końca zrozumieć. Większość tych zadań "ukradłem" ze znakomitej
-książki [Theorem Proving in Lean 4] (https://lean-lang.org/theorem_proving_in_lean4/), dodałem
+książki [*Theorem Proving in Lean 4*](https://lean-lang.org/theorem_proving_in_lean4/), dodałem
 tylko, jak to u mnie, agresywnie dezorientujące komentarze. Na wszelki wypadek uprzedzam, że to
 *nie* jest tylko seria zadań; w komentarzach mówię tu o pewnych sprawach, do których będę później
 nawiązywał.
