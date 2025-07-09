@@ -12,14 +12,14 @@ Proszę zgłaszać trudności.
 # Rachunek predykatów w zadaniach
 
 Zanim przejdziemy do zadań, spróbuję nakłonić Cię do popatrzenia na nie z perspektywy
-kategoryjnej. Mam nadzieję w ten sposób przyzwyczaić Cię stopniowo do moim zdaniem najbardziej
-ekscytującego sposobu używania matematyki, polegającego na "zmechaniowanym" i elastycznym
-przełączaniu się między różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli poczujesz,
-że te moje próby bardziej Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu
-za wcześnie. Trzeba z tym wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo utrwalą
-się w Twojej pamięci, że będziesz mogła je traktować jak niemal autonomiczne byty, które możesz w
-kadej chwili (o ile będziesz wyspana i trzeźwa) mentalnie przywołać, a raz przywołane badać i
-przekształcać, oglądając je z różnych stron.
+kategoryjnej. Mam nadzieję przyzwyczaić Cię tak stopniowo do moim zdaniem najbardziej ekscytującego
+sposobu używania matematyki, polegającego na "zmechaniowanym" i elastycznym przełączaniu się między
+różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli poczujesz, że te moje próby bardziej
+Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu za wcześnie. Trzeba z tym
+wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo utrwalą się w Twojej pamięci, że
+będziesz mogła je traktować jak niemal autonomiczne byty, które możesz w kadej chwili (o ile
+będziesz wyspana i trzeźwa) mentalnie przywołać, a raz przywołane badać i przekształcać, oglądając
+je z różnych stron.
 
 ## Rachunek predykatów z kategoryjnego punktu widzenia
 
@@ -31,15 +31,25 @@ na ten temat pewnych przydatnych intuicji.
 
 Zaczniemy od takiej jakby rozluźniającej rozgrzewki, której celem będzie tymczasowe zwiększenie
 elastyczności w sposobie kodowania znanych Ci już dobrze struktur, a dzięki temu również zwiększenie
-elastyczności w sposobie myślenia o tych strukturach.
+elastyczności myślenia o tych strukturach.
 
 Wyrażenia takie jak `p ∧ q`, gdzie `p` i `q` to zdania, moglibyśmy równie dobrze zakodować jako
 *oznaczone pary* zdań. Potrzebujemy je jakoś oznaczyć, bo `p ∨ q` i `p → q` to też wyrażenia
 powstające z par zdań, a chcielibyśmy takie pary rozróżniać. Tak więc niech `∧` oznacza na początek
 jakiś izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie
-`Z` to zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p ∧
-q`. Moglibyśmy korzystać z tego sposobu kodowania konstruując dowody, ale do *tego* celu ten sposób
-nie bardzo się nadaje.
+`Z` to zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p ∧ q`. Moglibyśmy korzystać z
+tego sposobu kodowania konstruując dowody, ale do *tego* celu ten sposób nie bardzo się nadaje.
+
+Ale jak to izomorf? Przecież jeżeli `Z` to zbiór *wszystkich* zdań, to taki zbiór zawiera zdania,
+które *nie* są koniunkcjami, jak również *wszystkie* koniunkcje, a zbiór `Z × Z` nie może być
+mniejszy niż `Z`. No tak, masz rację, ale z drugiej strony, *każda* para zdań odpowiada
+*unikalnemu*, zrobionemu z tej pary zdaniu-koniunkcji, a *każda* koniunkcja odpowiada *unikalnej*
+parze zdań. Czyli to *musi* być izomorf, a to, że trudno się z tym pogodzić, to tylko nasze
+psychologiczne organiczenie. Liczb naturalnych też jest tyle samo, co na przykład liczb naturalnych
+dodatnich, inaczej nie byłoby między tymi dwoma zbiorami izomorfizmu. Przy okazji odkrywamy, że
+zbiór zdań `Z` musi być w tym kontekście albo pusty, albo musi mieć nieskończenie wiele elementów,
+inaczej żaden jego podzbiór *właściwy*, to jest nie zawierający wszystkich elementów należących do
+`Z`, nie mógłby być z nim izomorficzny.
 
 Zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X` można równie dobrze,
 to jest ani nie tracąc, ani nie dodając żadnej informacji, zakodować jako pewien izomorf *zbioru
@@ -50,17 +60,16 @@ jest wszystko to samo? Jak chcesz, możesz spróbować udowodnić, że to jest f
 definiując izomorfizm między tymi strukturami, albo możesz poczekać, aż to się niemal samo stanie
 dla Ciebie oczywiste.
 
-Po co mielibyśmy wprowadzać taki sposób kodowania (albo taką implementację)? Ano po to, żeby
-wyraźniej zobaczyć głębokie podobieństwo między koniunkcją i alternatywą z jednej strony, a dużym i
-małym kwantyfikatorem z drugiej, a dzięki temu lepiej nad tym podobieństwem zapanować. Zbiór zdań
-takich jak `∀ x ∈ X, P x`, gdzie `X` to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów
-tego zbioru, możemy teraz rozpoznać na nowo jako *funkcję* ze zbioru `X` do zbioru zdań o postaci `P
-x`. Pomijając zwykle kosmetyczne różnice między zbiorami i typami, to nic innego jak znana Ci już
-implementacja *wiązania* przez duży kwantyfikator jako *bycia parametrem funkcji* zwracającej takie
-zdania. Z tej perspektywy zdania takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z
-ustalonego zbioru `{1, 2}`, i mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i
-drugie nie zależy od wartości argumentu, czyli od tego, czy są pierwszym czy drugim członem
-koniunkcji.
+Ale *po co* mielibyśmy wprowadzać taki sposób kodowania? Ano po to, żeby wyraźniej zobaczyć głębokie
+podobieństwo między koniunkcją i alternatywą z jednej strony, a dużym i małym kwantyfikatorem z
+drugiej, a dzięki temu lepiej nad tym podobieństwem zapanować. Zbiór zdań takich jak `∀ x ∈ X, P x`,
+gdzie `X` to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego zbioru, możemy teraz
+rozpoznać na nowo jako *funkcję* ze zbioru `X` do zbioru zdań o postaci `P x`. Pomijając zwykle
+kosmetyczne różnice między zbiorami i typami, to nic innego jak znana Ci już implementacja
+*wiązania* przez duży kwantyfikator jako *bycia parametrem funkcji* zwracającej takie zdania. Z tej
+perspektywy zdania takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z ustalonego
+zbioru `{1, 2}`, i mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i drugie nie
+zależy od wartości argumentu, czyli od tego, czy są pierwszym czy drugim członem koniunkcji.
 
 Kiedy kolekcja punktów/obiektów kategorii jest *zbiorem*, to wtedy tak samo, używając ekstremalnie
 elastycznego języka teorii mnogości, możemy na potrzeby mechanicznego rozumowania zakodować
@@ -70,14 +79,14 @@ x` to coś takiego jak `Π x ∈ X, P x`, przy czym w obydwu przypadkach `Π i �
 (uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i ∈ I`.
 
 Możemy też podać taką "skundloną", bo kategoryjno-mnogościową definicję tego uogólnionego produktu:
-Niech `P` będzie jakimś ustalonym obiektem. Produktem indeksowanym będziemy nazywali taką *funkcję*
-(tu między innymi widać teoriomnogościowość tej definicji) `π` z jakiegoś zbioru `I` (który możemy
-zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P → Y | Y ∈ Ob(ℂ)}`, że dla każdego obiektu
-`X` i dla każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → dom(π(i))` (ta funkcja koduje nam tu
-po prostu jakieś strzałki z `X` do obiektów `π(i)` "na końcach" produktu), istnieje unikalna
-strzałka `h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką,
-naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność
-odbiorców - jako `Π i, f(i)`, a czasem nawet jako `Π f(i)`.
+Produktem indeksowanym będziemy nazywali taką *funkcję* (tu między innymi widać teoriomnogościowość
+tej definicji) `π` z jakiegoś zbioru `I` (który możemy zechcieć nazywać zbiorem indeksów) do zbioru
+strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest tutaj obiektem ustalonym), że dla każdego obiektu `X` i dla
+każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))` (ta funkcja koduje nam tu po prostu
+jakieś strzałki z `X` do obiektów `cod(π(i))` "na końcach" produktu), istnieje unikalna strzałka `h`
+taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką, naturalnym wyborem
+będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność odbiorców - jako `Π i,
+f(i)`, a czasem może nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
@@ -87,7 +96,7 @@ jako szczególne przypadki koproduktu indeksowanego, który wypadałoby wtedy za
 stylu `Σ x, P x`.
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
-znaczy w jakiej kategorii, takie uogólnione produkty i koprodukty się znajdują. I nie powiemy, bo
+znaczy *w jakiej kategorii*, takie uogólnione produkty i koprodukty się znajdują. I nie powiemy, bo
 pojęcie funktora sprzężonego jest na razie poza naszym zasięgiem. Już na tym etapie możemy jednak
 zgadywać, że obiektami tej kategorii mogłyby być być może (między innymi, skoro mają się tam też
 zmieścić produkty i koprodukty indeksowane, które nie mają takiej postaci) zdania o postaci `P x`,
@@ -97,8 +106,8 @@ Nie wiemy jeszcze, czy może istnieć taka kategoria, to znaczy czy można ją "
 poprawnej definicji, ale to nam nie przeszkodzi myśleć w ten sposób, to jest w
 [życzeniowym](https://pl.wikipedia.org/wiki/My%C5%9Blenie_%C5%BCyczeniowe) kategoryjnym stylu, o
 dużym i małym kwantyfikatorze, nie popełniając przy tym błędów, bo zdania o postaci `∀ x, P x` i `∃
-x, P x` zachowują się ewidentnie jak produkty i koprodukty odpowiednio, a od binarnych produktów i
-koproduktów różnią się tylko tym, że mają arbitralne liczby członów.
+x, P x` zachowują się ewidentnie jak produkty i koprodukty odpowiednio, od binarnych produktów i
+koproduktów różniąc się tylko tym, że mają arbitralne liczby członów.
 
 ## Zadania służą głównie do tego, żeby wracać do nich tak długo - przyglądając im się uważnie i czasem bawiąc się nimi - aż albo niemal same się rozwiążą, albo przestaną nas obchodzić
 
