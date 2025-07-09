@@ -50,15 +50,16 @@ jest wszystko to samo? Jak chcesz, możesz spróbować udowodnić, że to jest f
 definiując izomorfizm między tymi strukturami.
 
 Po co mielibyśmy wprowadzać taki sposób kodowania (albo taką implementację)? Ano po to, żeby
-zobaczyć i lepiej zapanować nad głębokim podobieństwem między koniunkcją i alternatywą z jednej
-strony, a dużym i małym kwantyfikatorem z drugiej. Zbiór zdań takich jak `∀ x ∈ X, P x`, gdzie `X`
-to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego zbioru, możemy teraz rozpoznać na
-nowo jako *funkcję* ze zbioru `X` do zbioru zdań o postaci `P x`. Pomijając zwykle kosmetyczne
-różnice między zbiorami i typami, to nic innego jak znana Ci już implementacja *wiązania* przez duży
-kwantyfikator jako *bycia parametrem funkcji* zwracającej takie zdania. Z tej perspektywy zdania
-takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z ustalonego zbioru `{1, 2}`, i
-mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i drugie nie zależy od wartości
-argumentu, czyli od tego, czy są pierwszym czy drugim członem koniunkcji.
+wyraźniej zobaczyć głębokie podobieństwo między koniunkcją i alternatywą z jednej strony, a dużym i
+małym kwantyfikatorem z drugiej, a dzięki temu lepiej nad tym podobieństwem zapanować. Zbiór zdań
+takich jak `∀ x ∈ X, P x`, gdzie `X` to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów
+tego zbioru, możemy teraz rozpoznać na nowo jako *funkcję* ze zbioru `X` do zbioru zdań o postaci `P
+x`. Pomijając zwykle kosmetyczne różnice między zbiorami i typami, to nic innego jak znana Ci już
+implementacja *wiązania* przez duży kwantyfikator jako *bycia parametrem funkcji* zwracającej takie
+zdania. Z tej perspektywy zdania takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z
+ustalonego zbioru `{1, 2}`, i mające tą własność, że prawdziwość zdań wskazywanych jako pierwsze i
+drugie nie zależy od wartości argumentu, czyli od tego, czy są pierwszym czy drugim członem
+koniunkcji.
 
 Kiedy kolekcja punktów/obiektów kategorii jest *zbiorem*, to wtedy tak samo, używając ekstremalnie
 elastycznego języka teorii mnogości, możemy na potrzeby mechanicznego rozumowania zakodować
