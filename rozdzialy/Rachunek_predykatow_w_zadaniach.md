@@ -46,7 +46,7 @@ mniejszy niż `Z`. No tak, masz rację, ale z drugiej strony, *każda* para zda�
 *unikalnemu*, zrobionemu z tej pary zdaniu-koniunkcji, a *każda* koniunkcja odpowiada *unikalnej*
 parze zdań. Czyli to *musi* być izomorf, a to, że trudno się z tym pogodzić, to tylko nasze
 psychologiczne organiczenie. Liczb naturalnych też jest tyle samo, co na przykład liczb naturalnych
-dodatnich, inaczej nie byłoby między tymi dwoma zbiorami izomorfizmu. Przy okazji odkrywamy, że
+dodatnich, inaczej nie byłoby między tymi dwoma zbiorami izomorfizmu. Przy okazji odkrywamy więc, że
 zbiór zdań `Z` musi być w tym kontekście albo pusty, albo musi mieć nieskończenie wiele elementów,
 inaczej żaden jego podzbiór *właściwy*, to jest nie zawierający wszystkich elementów należących do
 `Z`, nie mógłby być z nim izomorficzny.
