@@ -47,7 +47,7 @@ funkcji* ze zbioru `{1, 2}` do zbioru `X`, bo przecież takie pary uporządkowan
 swobodne oznaczenia dwóch, niekoniecznie różnych elementów należących do zbioru `X` jako pierwszego
 i drugiego takiego. Widzisz już, że to tylko *wymienialne implementacje*, a więc *funkcjonalnie* to
 jest wszystko to samo? Jak chcesz, możesz spróbować udowodnić, że to jest funkcjonalnie to samo,
-definiując izomorfizmy między tymi strukturami.
+definiując izomorfizm między tymi strukturami.
 
 Po co mielibyśmy wprowadzać taki sposób kodowania (albo taką implementację)? Ano po to, żeby
 zobaczyć i lepiej zapanować nad głębokim podobieństwem między koniunkcją i alternatywą z jednej
