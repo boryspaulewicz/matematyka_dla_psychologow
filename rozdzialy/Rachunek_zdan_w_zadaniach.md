@@ -11,9 +11,7 @@ logikę *klasyczną*, *notację Backusa-Naura*, i nabywamy wprawy w *przepraszan
 określonych celów *język*. *Reguły syntaktyczne* (inaczej składniowe) języka mówią, jaką strukturę
 mają poprawne wyrażenia tego języka. Podstawową kategorią syntaktyczną rachunku zdań jest kategoria
 *zdania logicznego* w tym znaczeniu, że język rachunku zdań to w pewien sposób zdefiniowany zbiór
-zdań. Elementy należące do tego zbioru (albo typu) nazywamy też *formułami logicznymi*, ale to
-ostatnie pojęcie jest ogólniejsze, bo formułami logicznymi nazywamy poprawne wyrażenia w systemach
-logicznych w ogóle, są nimi na przykład poprawne zdania w rachunku kwantyfikatorów.
+zdań. Elementy należące do tego zbioru (albo typu) nazywamy też *formułami logicznymi*.
 
 Już wiesz, czym są zdania w rachunku zdań:
 
