@@ -3,23 +3,22 @@
 Kończymy z podstawami rachunku predykatów! Oczywiście żartuję, nigdy z nimi nie skończymy, bo
 niczego nie da się tak naprawdę do końca zrozumieć. Większość tych zadań "ukradłem" ze znakomitej
 książki [*Theorem Proving in Lean 4*](https://lean-lang.org/theorem_proving_in_lean4/), dodałem
-tylko (jak to mam w zwyczaju agresywnie dezorientujące) komentarze. Na wszelki wypadek uprzedzam, że
-to *nie* jest tylko seria zadań; w komentarzach mówię tu o pewnych sprawach, do których będę później
-nawiązywał.
+tylko (agresywnie dezorientujące) komentarze. Na wszelki wypadek uprzedzam, że to *nie* jest tylko
+seria zadań; w komentarzach mówię tu o pewnych sprawach, do których będę później nawiązywał.
  
 Proszę zgłaszać trudności.
 
 # Rachunek predykatów w zadaniach
 
-Zanim przejdziemy do zadań, spróbuję nakłonić Cię do popatrzenia na nie z perspektywy
-kategoryjnej. Mam nadzieję przyzwyczaić Cię tak stopniowo do moim zdaniem najbardziej ekscytującego
-sposobu używania matematyki, polegającego na "zmechaniowanym" i elastycznym przełączaniu się między
-różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli poczujesz, że te moje próby bardziej
-Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu za wcześnie. Trzeba z tym
-wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo utrwalą się w Twojej pamięci, że
-będziesz mogła je traktować jak niemal autonomiczne byty, które możesz w kadej chwili (o ile
-będziesz wyspana i trzeźwa) mentalnie przywołać, a raz przywołane badać i przekształcać, oglądając
-je z różnych stron.
+Zanim przejdziemy do zadań, spróbuję (jak zwykle) nakłonić Cię do popatrzenia na nie z perspektywy
+kategoryjnej. Mam nadzieję przyzwyczaić Cię tak stopniowo do moim zdaniem najbardziej ekscytującego,
+twórczego sposobu używania matematyki, polegającego na "zmechaniowanym" i elastycznym przełączaniu
+się między różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli poczujesz, że te moje
+próby bardziej Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu za
+wcześnie. Trzeba z tym wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo utrwalą się
+w Twojej pamięci, że będziesz mogła je traktować jak niemal autonomiczne byty, które możesz w kadej
+chwili (o ile będziesz wyspana i trzeźwa) mentalnie przywołać, a raz przywołane badać i
+przekształcać, oglądając je z różnych stron.
 
 ## Rachunek predykatów z kategoryjnego punktu widzenia
 
@@ -29,36 +28,66 @@ sprzężonego*](https://pl.wikipedia.org/wiki/Funktory_sprz%C4%99%C5%BCone), a n
 wcześnie. Mogę jednak, używając mieszanego kategoryjno-mnogościowego języka, spróbować dostarczyć Ci
 na ten temat pewnych przydatnych intuicji.
 
-Zaczniemy od takiej jakby rozluźniającej rozgrzewki, której celem będzie tymczasowe zwiększenie
+Zaczniemy od takiej jakby rozluźniającej (?) rozgrzewki, której celem będzie tymczasowe zwiększenie
 elastyczności w sposobie kodowania znanych Ci już dobrze struktur, a dzięki temu również zwiększenie
 elastyczności myślenia o tych strukturach.
 
 Wyrażenia takie jak `p ∧ q`, gdzie `p` i `q` to zdania, moglibyśmy równie dobrze zakodować jako
 *oznaczone pary* zdań. Potrzebujemy je jakoś oznaczyć, bo `p ∨ q` i `p → q` to też wyrażenia
-powstające z par zdań, a chcielibyśmy takie pary rozróżniać. Tak więc niech `∧` oznacza na początek
-jakiś izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie
-`Z` to zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p ∧ q`. Moglibyśmy korzystać z
-tego sposobu kodowania konstruując dowody, ale do *tego* celu ten sposób nie bardzo się nadaje.
+powstające z par zdań, a chcielibyśmy takie pary rozróżniać. W Leanie, na przykład, robimy to za
+pomocą różnych stałych, takich jak `And` i `Or`. Tak więc niech `∧` oznacza na początek jakiś
+izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie `Z` to
+zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p ∧ q`. Moglibyśmy
+korzystać z tego sposobu kodowania zdań złożonych konstruując dowody, ale do *tego* celu ten sposób
+nie bardzo się nadaje.
 
 Ale jak to izomorf? Przecież jeżeli `Z` to zbiór *wszystkich* zdań, to taki zbiór zawiera zdania,
 które *nie* są koniunkcjami, jak również *wszystkie* koniunkcje, a zbiór `Z × Z` nie może być
 mniejszy niż `Z`. No tak, masz rację, ale z drugiej strony, *każda* para zdań odpowiada
 *unikalnemu*, zrobionemu z tej pary zdaniu-koniunkcji, a *każda* koniunkcja odpowiada *unikalnej*
-parze zdań. Czyli to *musi* być izomorf, a to, że trudno się z tym pogodzić, to tylko nasze
-psychologiczne organiczenie. Liczb naturalnych też jest tyle samo, co na przykład liczb naturalnych
-dodatnich, inaczej nie byłoby między tymi dwoma zbiorami izomorfizmu. Przy okazji odkrywamy więc, że
-zbiór zdań `Z` musi być w tym kontekście albo pusty, albo musi mieć nieskończenie wiele elementów,
-inaczej żaden jego podzbiór *właściwy*, to jest nie zawierający wszystkich elementów należących do
-`Z`, nie mógłby być z nim izomorficzny.
+parze zdań (z której jest zrobiona). Czyli to *musi* być izomorf, a to, że trudno się z tym
+pogodzić, to tylko nasze psychologiczne organiczenie. Liczb naturalnych też jest tyle samo, co na
+przykład liczb naturalnych dodatnich, inaczej nie byłoby między tymi dwoma zbiorami
+izomorfizmu. Żeby to zauważyć, wystarczy napisać pionow na kartce jedna pod drugą liczby `0`, `1` i
+`2`, a obok tych liczb zapisać `0`, `2`, `4` (zero jest liczbą dodatnią). I od razu wiemy o co
+chodzi, chociaż zapisaliśmy tylko trzy pary, to znaczy, rozumiemy dokładnie na czym polega to
+dopasowanie i wiemy, że to jest izomorfizm.
 
-Zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X` można równie dobrze,
-to jest ani nie tracąc, ani nie dodając żadnej informacji, zakodować jako pewien izomorf *zbioru
-funkcji* ze zbioru `{1, 2}` do zbioru `X`, bo przecież takie pary uporządkowane to dokładnie
-swobodne oznaczenia dwóch, niekoniecznie różnych elementów należących do zbioru `X` jako pierwszego
-i drugiego takiego. Widzisz już, że to tylko *wymienialne implementacje*, a więc *funkcjonalnie* to
-jest wszystko to samo? Jak chcesz, możesz spróbować udowodnić, że to jest funkcjonalnie to samo,
-definiując izomorfizm między tymi strukturami, albo możesz poczekać, aż to się niemal samo stanie
-dla Ciebie oczywiste.
+Przy okazji odkrywamy więc, że zbiór zdań `Z` musi być w tym kontekście albo pusty, albo musi mieć
+nieskończenie wiele elementów, inaczej żaden jego podzbiór *właściwy*, to jest nie zawierający
+wszystkich elementów należących do `Z`, nie mógłby być z nim izomorficzny. Można powiedzieć, że
+fakt, że zdań jest nieskończenie wiele, wynika tu z "endo-generatywności" operacji takich jak
+tworzenie koniunkcji zdań: Zdania atomowe są zdaniami, więc jeśli dla każdej pary zdań, ich
+koniunkcja jest też ("nowym") zdaniem, to gdyby nawet "na początku" było tylko jedno zdanie atomowe
+`a`, to z reguły mówiącej, że koniunkcje też są zdaniami, wynikałoby "natychmiast", że `a ∧ a` też
+jest zdaniem, `(a ∧ a) ∧ a` też jest zdaniem, `((a ∧ a) ∧ a) ∧ a` też jest zdaniem, i tAk dAlej.
+
+Ciekawy "proces", prawda? Mówimy przecież o *definicji* (indukcyjnej), która "działa logicznie", a
+więc *nie w czasie fizycznym*. Gdy na przykład decydujemy, że zdaniami, a formalnie elementami
+zbioru `Z`, "będą" elementy jakiegoś zbioru `A` (którego używamy wtedy jako zbioru zdań atomowych),
+to te elementy stają się zdaniami "wszystkie na raz jednocześnie". Gdy potem dodamy warunek, że
+koniunkcje par elementów `Z` też są zdaniami, to z jednej strony jest tu jakieś "przed" i jest tu
+jakieś "po", bo *najpierw* pojawił się pierwszy warunek definicji indukcyjnej, a *potem* drugi, ale
+z drugiej strony, zanim pojawił się ten drugi warunek, definicja nie była jeszcze skończona, a więc
+*jeszcze jej nie było* (jako konstruowanej definicji). Wrażenie, że jest tu jakieś przed i jakieś
+po, i że to jest opis pewnego *procesu*, wynika tu tylko z sekwencyjnego charakteru *prezentacji*
+definicji, sekwencyjnego charakteru *procesu tworzenia* tej definicji, i z sekwencyjnego charakteru
+procesu naszego jej *przyswajania* i *używania*. I trudno się od tego sekwencyjno-procesualnego
+sposobu myślenia oderwać, prawda? Ja na przykład, gdy widzę regułę taką jak *jeżeli `p` i `q` to
+zdania, to `p ∧ q` to też jest zdanie*, nie mogę oprzeć się myśleniu, że to jest *przepis*, mówiący
+jak można poprawnie *powiększać* zbiór zdań o pewnego rodzaju elementy. Mówiąc ogólnie, zwykle myślę
+o tego rodzaju sprawach w kategoriach, może i abstrakcyjnych, ale jednak *czynności*, takich jak
+czynność "dosypywania". Jest mi trudno myśleć o takich regułach definicji indukcyjnych jako o
+*statycznych prawach*; to coś, do czego muszę się czasem (mechanicznie) zmusić.
+
+Wracając na ziemię, zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X`
+można *równie dobrze*, to jest ani nie tracąc, ani nie dodając żadnej informacji czy
+funkcjonalności, zakodować jako *zbiór funkcji* ze zbioru `{1, 2}` do zbioru `X`, bo przecież takie
+pary uporządkowane to dokładnie swobodne oznaczenia dwóch, niekoniecznie różnych elementów
+należących do zbioru `X` jako pierwszego i drugiego takiego. Widzisz już, że to tylko *wymienialne
+implementacje*, a więc *funkcjonalnie* to jest wszystko to samo? Jak chcesz, możesz spróbować
+udowodnić, że to jest funkcjonalnie to samo, definiując izomorfizm między tymi strukturami, albo
+możesz poczekać, aż to się niemal samo stanie dla Ciebie oczywiste.
 
 Ale *po co* mielibyśmy wprowadzać taki sposób kodowania? Ano między innymi po to, żeby wyraźniej
 zobaczyć głębokie podobieństwo między koniunkcją i alternatywą z jednej strony, a dużym i małym
@@ -77,17 +106,19 @@ elastycznego języka teorii mnogości, możemy na potrzeby mechanicznego rozumow
 kategoryjne produkty. Te są *binarne*, ale *nie muszą* być binarne. Z naszej nowej perspektywy
 widać, że `p ∧ q` to coś takiego jak `Π i ∈ {1, 2}, p₁` (gdzie `p₁ = p`, a `p₂ = q`), a `∀ x ∈ X, P
 x` to coś takiego jak `Π x ∈ X, P x`, przy czym w obydwu przypadkach `Π i ∈ I, f(i)` oznacza
-(uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i ∈ I`.
+(uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i ∈ I`. Jeżeli tego jeszcze nie
+widzisz, to wyjaśniam, że wyrażenie takie jak `p₁` to też funkcja, a raczej wartość pewnej funkcji,
+to jest funkcji `p` dla argumentu `1`, tylko zapisana tak, żeby ten fakt do pewnego stopnia ukryć.
 
-Możemy też podać taką "skundloną", bo kategoryjno-mnogościową definicję tego uogólnionego produktu:
+Możemy podać taką "skundloną", bo kategoryjno-mnogościową definicję tego uogólnionego produktu:
 Produktem indeksowanym będziemy nazywali taką *funkcję* (tu między innymi widać teoriomnogościowość
 tej definicji) `π` z jakiegoś zbioru `I` (który możemy zechcieć nazywać zbiorem indeksów) do zbioru
-strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest tutaj obiektem ustalonym), że dla każdego obiektu `X` i dla
-każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))` (ta funkcja koduje nam tu po prostu
-jakieś strzałki z `X` do obiektów `cod(π(i))` "na końcach" produktu), istnieje unikalna strzałka `h`
-taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką, naturalnym wyborem
-będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność odbiorców - jako `Π i,
-f(i)`, a czasem może nawet jako `Π f(i)`.
+strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest tutaj wspólnym punktem zaczepienia wszystkich projekcji),
+że dla każdego obiektu `X` i dla każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))`
+(ta funkcja koduje nam po prostu jakieś strzałki z `X` do obiektów `cod(π(i))` "na końcach"
+projekcji produktu), istnieje unikalna strzałka `h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ
+`h` jest taką unikalną strzałką, naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`,
+albo - zakładając domyślność odbiorców - jako `Π i, f(i)`, albo nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
@@ -97,11 +128,13 @@ jako szczególne przypadki koproduktu indeksowanego, który wypadałoby wtedy za
 stylu `Σ x, P x`.
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
-znaczy *w jakiej kategorii*, takie uogólnione produkty i koprodukty się znajdują. I nie powiemy, bo
-pojęcie funktora sprzężonego jest na razie poza naszym zasięgiem. Już na tym etapie możemy jednak
-zgadywać, że obiektami tej kategorii mogłyby być być może (między innymi, skoro mają się tam też
-zmieścić produkty i koprodukty indeksowane, które nie mają takiej postaci) zdania o postaci `P x`,
-gdzie `P` jest predykatem, a `x` jest termem typu albo elementem zbioru, którego dotyczy `P`.
+znaczy *w jakiej kategorii*, takie uogólnione produkty i koprodukty się znajdują. A w jakiejś muszą,
+jeżeli istnieją, bo to są ... (ko)produkty, które są z definicji zawsze strukturami w jakiejś
+kategorii. I nie powiemy gdzie, bo pojęcie funktora sprzężonego jest na razie poza naszym
+zasięgiem. Już na tym etapie możemy jednak zgadywać, że obiektami tej kategorii mogłyby być być może
+(między innymi, skoro mają się tam też zmieścić produkty i koprodukty indeksowane, które nie mają
+takiej postaci) zdania o postaci `P x`, gdzie `P` jest predykatem, a `x` jest termem typu albo
+elementem zbioru, którego dotyczy `P`.
 
 Nie wiemy jeszcze, czy może istnieć taka kategoria, to znaczy czy można ją "wskazać" za pomocą
 poprawnej definicji, ale to nam nie przeszkodzi myśleć w ten sposób, to jest w
@@ -113,7 +146,7 @@ koproduktów różniąc się tylko tym, że mają arbitralne liczby członów.
 ## Zadania służą głównie do tego, żeby wracać do nich tak długo - przyglądając im się uważnie i czasem bawiąc się nimi - aż albo niemal same się rozwiążą, albo przestaną nas obchodzić
 
 Będziemy odtąd oznaczać predykaty małymi literami, bo tak jest szybciej. Zwracam uwagę, że `p` i `q`
-to tutaj *predykaty*, a nie jak zwykle wcześniej zdania; tylko `r` będzie tu (atomowym) zdaniem.
+to tutaj *predykaty*, a nie jak zwykle wcześniej zdania; tylko `r` będzie tu (jakimś) zdaniem.
 
 ```lean
 variable {α : Type} {p q : α → Prop} {r : Prop}
