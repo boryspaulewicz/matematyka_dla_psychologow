@@ -60,7 +60,7 @@ fakt, że zdań jest nieskończenie wiele, wynika tu z "endo-generatywności" op
 tworzenie koniunkcji zdań: Zdania atomowe są zdaniami, więc jeśli dla każdej pary zdań, ich
 koniunkcja jest też ("nowym") zdaniem, to gdyby nawet "na początku" było tylko jedno zdanie atomowe
 `a`, to z reguły mówiącej, że koniunkcje też są zdaniami, wynikałoby "natychmiast", że `a ∧ a` też
-jest zdaniem, `(a ∧ a) ∧ a` też jest zdaniem, `((a ∧ a) ∧ a) ∧ a` też jest zdaniem, i tAk dAlej.
+jest zdaniem, `(a ∧ a) ∧ a` też jest zdaniem, `((a ∧ a) ∧ a) ∧ a` też jest zdaniem, i tak dalej.
 
 Ciekawy "proces", prawda? Mówimy przecież o *definicji* (indukcyjnej), która "działa logicznie", a
 więc *nie w czasie fizycznym*. Gdy na przykład decydujemy, że zdaniami, a formalnie elementami
