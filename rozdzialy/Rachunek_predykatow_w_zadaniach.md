@@ -129,7 +129,7 @@ stylu `Σ x, P x`.
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
 znaczy *w jakiej kategorii*, takie uogólnione produkty i koprodukty się znajdują. A w jakiejś muszą,
-jeżeli istnieją, bo to są ... (ko)produkty, które są z definicji zawsze strukturami w jakiejś
+jeżeli istnieją, bo to mają być ... (ko)produkty, które są z definicji zawsze strukturami w jakiejś
 kategorii. I nie powiemy gdzie, bo pojęcie funktora sprzężonego jest na razie poza naszym
 zasięgiem. Już na tym etapie możemy jednak zgadywać, że obiektami tej kategorii mogłyby być być może
 (między innymi, skoro mają się tam też zmieścić produkty i koprodukty indeksowane, które nie mają
