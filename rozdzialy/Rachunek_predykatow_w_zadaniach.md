@@ -77,8 +77,8 @@ sposobu myślenia oderwać, prawda? Ja na przykład, gdy widzę regułę taką j
 zdania, to `p ∧ q` też jest zdaniem*, nie mogę oprzeć się myśleniu, że to jest *przepis*, mówiący
 jak można poprawnie *powiększać* zbiór zdań o pewnego rodzaju elementy. Mówiąc ogólnie, zwykle myślę
 o tego rodzaju sprawach w kategoriach może i abstrakcyjnych, ale jednak *czynności*, takich jak
-czynność "dosypywania". Jest mi trudno myśleć o takich regułach definicji indukcyjnych jako o
-*statycznych prawach*; to coś, do czego muszę się czasem (mechanicznie) zmusić.
+czynność "dosypywania". Jest mi naprawdę trudno myśleć o takich regułach definicji indukcyjnych jako
+o *statycznych prawach*; to coś, do czego muszę się czasem (mechanicznie) zmusić.
 
 Wracając na ziemię, zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X`
 można *równie dobrze*, to jest ani nie tracąc, ani nie dodając żadnej informacji czy
