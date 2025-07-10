@@ -76,7 +76,7 @@ procesu naszego jej *przyswajania* i *używania*. I trudno się od tego sekwency
 sposobu myślenia oderwać, prawda? Ja na przykład, gdy widzę regułę taką jak *jeżeli `p` i `q` to
 zdania, to `p ∧ q` to też jest zdanie*, nie mogę oprzeć się myśleniu, że to jest *przepis*, mówiący
 jak można poprawnie *powiększać* zbiór zdań o pewnego rodzaju elementy. Mówiąc ogólnie, zwykle myślę
-o tego rodzaju sprawach w kategoriach, może i abstrakcyjnych, ale jednak *czynności*, takich jak
+o tego rodzaju sprawach w kategoriach może i abstrakcyjnych, ale jednak *czynności*, takich jak
 czynność "dosypywania". Jest mi trudno myśleć o takich regułach definicji indukcyjnych jako o
 *statycznych prawach*; to coś, do czego muszę się czasem (mechanicznie) zmusić.
 
