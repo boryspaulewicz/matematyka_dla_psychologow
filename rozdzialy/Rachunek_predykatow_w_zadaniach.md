@@ -48,7 +48,7 @@ mniejszy niż `Z`. No tak, masz rację, ale z drugiej strony, *każda* para zda�
 parze zdań (z której jest zrobiona). Czyli to *musi* być izomorf, a to, że trudno się z tym
 pogodzić, to tylko nasze psychologiczne organiczenie. Liczb naturalnych też jest tyle samo, co na
 przykład liczb naturalnych dodatnich, inaczej nie byłoby między tymi dwoma zbiorami
-izomorfizmu. Żeby to zauważyć, wystarczy napisać pionow na kartce jedna pod drugą liczby `0`, `1` i
+izomorfizmu. Żeby to zauważyć, wystarczy napisać pionowo na kartce jedna pod drugą liczby `0`, `1` i
 `2`, a obok tych liczb zapisać `0`, `2`, `4` (zero jest liczbą dodatnią). I od razu wiemy o co
 chodzi, chociaż zapisaliśmy tylko trzy pary, to znaczy, rozumiemy dokładnie na czym polega to
 dopasowanie i wiemy, że to jest izomorfizm.
