@@ -429,7 +429,9 @@ komentarza.
 
 Jakubowi Jędrusiakowi, za wiadomość o problemie z kodowaniem niektórych rozdziałów. Większość plików
 była zapisana w stronie kodowej UTF-8, ale niektóre były zapisane w ISO-8859-2; teraz wszystkie są w
-UTF-8.
+UTF-8. Jakuba prowadzi bloga okołostatystycznego [nieobliczalne](https://nieobliczalne.pl/), który
+wydaje mi się wartościowy i interesujący, a jego repozytorium jest
+[tu](https://github.com/jakub-jedrusiak),
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
