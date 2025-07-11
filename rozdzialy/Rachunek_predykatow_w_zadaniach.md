@@ -78,14 +78,19 @@ z drugiej strony, zanim pojawił się ten drugi warunek, definicja nie była jes
 *jeszcze jej nie było* (jako konstruowanej definicji). Wrażenie, że jest tu jakieś przed i jakieś
 po, i że to jest opis pewnego *rozgrywającego się w czasie procesu*, wynika tu tylko z sekwencyjnego
 charakteru *prezentacji* definicji, sekwencyjnego charakteru *procesu tworzenia* tej definicji, i z
-sekwencyjnego charakteru procesu naszego jej *przyswajania* i *używania*. I trudno się od tego
-sekwencyjno-procesualnego sposobu myślenia oderwać, prawda? Ja na przykład, gdy widzę regułę taką
-jak *jeżeli `p` i `q` to zdania, to `p ∧ q` też jest zdaniem*, nie mogę oprzeć się myśleniu, że to
-jest *przepis*, mówiący jak można poprawnie *powiększać* zbiór zdań o pewnego rodzaju
-elementy. Mówiąc ogólnie, zwykle myślę o tego rodzaju sprawach w kategoriach może i abstrakcyjnych,
-ale jednak *czynności*, takich jak czynność "dosypywania". Jest mi naprawdę trudno myśleć o takich
-regułach definicji indukcyjnych jako o *statycznych prawach*; to coś, do czego muszę się czasem
-(mechanicznie) zmusić.
+sekwencyjnego charakteru procesu naszego jej *przyswajania* i *używania*. 
+
+I trudno się od tego sekwencyjno-procesualnego sposobu myślenia oderwać, prawda? Ja na przykład, gdy
+widzę regułę taką jak *jeżeli `p` i `q` to zdania, to `p ∧ q` też jest zdaniem*, często nie mogę
+oprzeć się myśleniu, że to jest *przepis*, mówiący jak można poprawnie *powiększać* zbiór zdań o
+pewnego rodzaju elementy. Mówiąc ogólnie, myślę czasem o tego rodzaju sprawach w kategoriach może i
+abstrakcyjnych, ale jednak *czynności*, takich jak czynność "dosypywania". Jest mi wtedy naprawdę
+trudno myśleć o regułach definicji indukcyjnych jako o *statycznych prawach*; jest to więc coś, do
+czego muszę się czasem (mechanicznie) zmusić. Za to gdy tylko *pomyślę* o tych regułach *w inny
+sposób*, jako o *regułach weryfikacji*, czy coś jest zdaniem, zamiast jako o *regułach tworzenia*
+zdań, problem nagle znika. Wtedy muszę się pogodzić tylko z tym, że zdań jest nieskończenie wiele,
+co akurat przychodzi mi łatwo. A to przecież tylko jeden przykład tego, jak zmiana punktu widzenia
+może dramatycznie ułatwić "kontakt" z jakimś problemem.
 
 Wracając na ziemię, zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X`
 można *równie dobrze*, to jest ani nie tracąc, ani nie dodając żadnej informacji czy
