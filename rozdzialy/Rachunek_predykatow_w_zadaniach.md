@@ -115,7 +115,8 @@ widać, że `p ∧ q` to coś takiego jak `Π i ∈ {1, 2}, p₁` (gdzie `p₁ =
 x` to coś takiego jak `Π x ∈ X, P x`, przy czym w obydwu przypadkach `Π i ∈ I, f(i)` oznacza
 (uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i ∈ I`. Jeżeli tego jeszcze nie
 widzisz, to wyjaśniam, że wyrażenie takie jak `p₁` to też funkcja, a raczej wartość pewnej funkcji,
-to jest funkcji `p` dla argumentu `1`, tylko zapisana tak, żeby ten fakt do pewnego stopnia ukryć.
+to jest funkcji `p` dla argumentu `1`, tylko zapisana tak, żeby ten fakt do pewnego stopnia ukryć
+stosując indeks dolny.
 
 Możemy podać taką "skundloną", bo kategoryjno-mnogościową definicję tego uogólnionego produktu:
 Produktem indeksowanym będziemy nazywali taką *funkcję* (tu między innymi widać teoriomnogościowość
