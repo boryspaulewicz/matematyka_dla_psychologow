@@ -91,7 +91,7 @@ Wracając na ziemię, zauważmy teraz, że pary uporządkowane złożone z eleme
 można *równie dobrze*, to jest ani nie tracąc, ani nie dodając żadnej informacji czy
 funkcjonalności, zakodować jako *zbiór funkcji* ze zbioru `{1, 2}` do zbioru `X`, bo przecież takie
 pary uporządkowane to dokładnie swobodne oznaczenia dwóch, niekoniecznie różnych elementów
-należących do zbioru `X` jako pierwszego i drugiego takiego. Widzisz już, że to tylko *wymienialne
+należących do zbioru `X`, jako pierwszego i drugiego takiego. Widzisz już, że to tylko *wymienialne
 implementacje*, a więc *funkcjonalnie* to jest wszystko to samo? Jak chcesz, możesz spróbować
 udowodnić, że to jest funkcjonalnie to samo, definiując izomorfizm między tymi strukturami, albo
 możesz poczekać, aż to się niemal samo stanie dla Ciebie oczywiste.
