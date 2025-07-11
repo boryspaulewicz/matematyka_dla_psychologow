@@ -124,10 +124,10 @@ Możemy podać taką "skundloną", bo kategoryjno-mnogościową definicję tego 
 (który możemy zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest
 tutaj wspólnym punktem zaczepienia wszystkich projekcji), że dla każdego obiektu `X` i dla każdej
 funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))` (ta funkcja koduje nam po prostu jakieś
-strzałki z `X` do obiektów `cod(π(i))` "na końcach" projekcji produktu), istnieje unikalna strzałka
-`h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką, naturalnym
-wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność odbiorców - jako `Π
-i, f(i)`, albo nawet jako `Π f(i)`.
+strzałki z `X` do obiektów `cod(π(i))` "na końcach" projekcji produktu, po jednej dla kadego `i`),
+istnieje unikalna strzałka `h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną
+strzałką, naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając
+domyślność odbiorców - jako `Π i, f(i)`, albo nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
