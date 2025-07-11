@@ -1,8 +1,8 @@
 ## O czym teraz będzie
 
 Kończymy z podstawami rachunku predykatów! Oczywiście żartuję, nigdy z nimi nie skończymy, bo
-niczego nie da się tak naprawdę do końca zrozumieć. Patrząc na te sprawy z lotu ptaka widać moim
-zdaniem doskonale, że wszyscy bez wyjątku z osobna często jesteśmy i do końca będziemy często bywać
+niczego nie da się tak całkiem zrozumieć. Patrząc na te sprawy z lotu ptaka widać moim zdaniem
+doskonale, że wszyscy bez wyjątku z osobna często jesteśmy i do końca będziemy często bywać
 kompletnymi debilami, a to, jak wspaniale działa współczesna cywilizacja, zawdzięczamy wyłącznie
 istnieniu rozmaitych form długotrwałej, zorganizowanej współpracy.
 
