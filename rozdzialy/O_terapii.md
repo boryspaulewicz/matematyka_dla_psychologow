@@ -1,112 +1,112 @@
 # O terapii
 
-Muszê jednak zaznaczyæ, ¿e to bêd± ca³kiem amatorskie uwagi, poniewa¿ tak jak o metodologii badañ i
-psychologii poznawczej co¶ tam wiem, tak *o psychologii klinicznej i psychoterapii wiem bardzo
-niewiele*. Dlatego zacznê od metodologii badañ i psychologii poznawczej.
+MuszÄ™ jednak zaznaczyÄ‡, Å¼e to bÄ™dÄ… caÅ‚kiem amatorskie uwagi, poniewaÅ¼ tak jak o metodologii badaÅ„ i
+psychologii poznawczej coÅ› tam wiem, tak *o psychologii klinicznej i psychoterapii wiem bardzo
+niewiele*. Dlatego zacznÄ™ od metodologii badaÅ„ i psychologii poznawczej.
 
-Badanie skutków *okre¶lonych metod* terapii jest jak wiadomo niemal niemo¿liwe. Tak zwanym
-"z³otym standardem" w badaniach dotycz±cych skuteczno¶ci arbitralnych interwencji terapeutycznych
-jest badanie randomizowane z [podwójnym
-za¶lepieniem]([za¶lepienia](https://en.wikipedia.org/wiki/Blinded_experiment)). Podajemy na przyk³ad
-albo okre¶lon± dawkê leku przeciwbólowego, albo jak±¶ substancjê obojêtn±, losowo, ró¿nym osobom
-badanym i po jakim¶ czasie pytamy, jak bardzo co¶ te osoby boli. Podwójne za¶lepienie polega wtedy
-na tym, ¿e ani osoba podaj±ca lek lub substancjê obojêtn± nie wie, co poda³a, ani osoba badana nie
-wie, co dosta³a, bo wszystkie tabletki wygl±daj± i smakuj± tak samo i s± zakodowane tak, ¿eby osoba
-podaj±ca tabletki nie mog³a odgadn±æ, co podaje.
+Badanie skutkÃ³w *okreÅ›lonych metod* terapii jest jak wiadomo niemal niemoÅ¼liwe. Tak zwanym
+"zÅ‚otym standardem" w badaniach dotyczÄ…cych skutecznoÅ›ci arbitralnych interwencji terapeutycznych
+jest badanie randomizowane z [podwÃ³jnym
+zaÅ›lepieniem]([zaÅ›lepienia](https://en.wikipedia.org/wiki/Blinded_experiment)). Podajemy na przykÅ‚ad
+albo okreÅ›lonÄ… dawkÄ™ leku przeciwbÃ³lowego, albo jakÄ…Å› substancjÄ™ obojÄ™tnÄ…, losowo, rÃ³Å¼nym osobom
+badanym i po jakimÅ› czasie pytamy, jak bardzo coÅ› te osoby boli. PodwÃ³jne zaÅ›lepienie polega wtedy
+na tym, Å¼e ani osoba podajÄ…ca lek lub substancjÄ™ obojÄ™tnÄ… nie wie, co podaÅ‚a, ani osoba badana nie
+wie, co dostaÅ‚a, bo wszystkie tabletki wyglÄ…dajÄ… i smakujÄ… tak samo i sÄ… zakodowane tak, Å¼eby osoba
+podajÄ…ca tabletki nie mogÅ‚a odgadnÄ…Ä‡, co podaje.
 
-Chocia¿ w badaniach dotycz±cych skuteczno¶ci psychoterapii to i owo mo¿na randomizowaæ, to z
-oczywistych wzglêdów *nie da siê* zastosowaæ ani pojedynczego, ani tym bardziej podwójnego
-za¶lepienia. A to oznacza, ¿e *nie da siê* oddzieliæ wp³ywu *samej metody* od wp³ywu wielu innych,
-*tylko czê¶ciowo identyfikowalnych*[^3], a poza tym bli¿ej nieokre¶lonych czynników, takich jak na
-przyk³ad cechy osób, które decyduj± siê uczyæ danej metody. W koñcu to, jakie podej¶cie, szko³ê lub
-techniki stosuje terapeuta albo terapeutka wynika w bli¿ej nieokre¶lony sposób z cech osobowych i
-do¶wiadczeñ. A to przecie¿ tylko jeden prosty przyk³ad problemów interpretacyjnych, które w takich
-badaniach zawsze powstaj±.
+ChociaÅ¼ w badaniach dotyczÄ…cych skutecznoÅ›ci psychoterapii to i owo moÅ¼na randomizowaÄ‡, to z
+oczywistych wzglÄ™dÃ³w *nie da siÄ™* zastosowaÄ‡ ani pojedynczego, ani tym bardziej podwÃ³jnego
+zaÅ›lepienia. A to oznacza, Å¼e *nie da siÄ™* oddzieliÄ‡ wpÅ‚ywu *samej metody* od wpÅ‚ywu wielu innych,
+*tylko czÄ™Å›ciowo identyfikowalnych*[^3], a poza tym bliÅ¼ej nieokreÅ›lonych czynnikÃ³w, takich jak na
+przykÅ‚ad cechy osÃ³b, ktÃ³re decydujÄ… siÄ™ uczyÄ‡ danej metody. W koÅ„cu to, jakie podejÅ›cie, szkoÅ‚Ä™ lub
+techniki stosuje terapeuta albo terapeutka wynika w bliÅ¼ej nieokreÅ›lony sposÃ³b z cech osobowych i
+doÅ›wiadczeÅ„. A to przecieÅ¼ tylko jeden prosty przykÅ‚ad problemÃ³w interpretacyjnych, ktÃ³re w takich
+badaniach zawsze powstajÄ….
 
-Poza tym nak³anianie terapeutów bior±cych udzia³ w tego rodzaju badaniach, ¿eby stosowali podej¶cie
-lub metodê, któr± badacz móg³by przydzielaæ losowo, bêdzie mia³o zawsze z konieczno¶ci rozmaite
-powa¿ne ograniczenia. W tak przeprowadzonym badaniu interwencja i tak nie bêdzie mog³a dzia³aæ
-*selektywnie*, poniewa¿ skutek zastosowania okre¶lonej metody bêdzie wynika³ w bli¿ej nieokre¶lony
-sposób miêdzy innymi z tego, jaki stosunek do tej metody ma dany terapeuta albo terapeutka, a osoby,
-które zostan± przydzielone do warunków, w których ta metoda nie bêdzie stosowana, a które normalnie
-by j± zastosowa³y, bêd± mog³y z tego powodu w bli¿ej nieokre¶lony sposób zmieniæ to, jak prowadz±
-terapiê.
+Poza tym nakÅ‚anianie terapeutÃ³w biorÄ…cych udziaÅ‚ w tego rodzaju badaniach, Å¼eby stosowali podejÅ›cie
+lub metodÄ™, ktÃ³rÄ… badacz mÃ³gÅ‚by przydzielaÄ‡ losowo, bÄ™dzie miaÅ‚o zawsze z koniecznoÅ›ci rozmaite
+powaÅ¼ne ograniczenia. W tak przeprowadzonym badaniu interwencja i tak nie bÄ™dzie mogÅ‚a dziaÅ‚aÄ‡
+*selektywnie*, poniewaÅ¼ skutek zastosowania okreÅ›lonej metody bÄ™dzie wynikaÅ‚ w bliÅ¼ej nieokreÅ›lony
+sposÃ³b miÄ™dzy innymi z tego, jaki stosunek do tej metody ma dany terapeuta albo terapeutka, a osoby,
+ktÃ³re zostanÄ… przydzielone do warunkÃ³w, w ktÃ³rych ta metoda nie bÄ™dzie stosowana, a ktÃ³re normalnie
+by jÄ… zastosowaÅ‚y, bÄ™dÄ… mogÅ‚y z tego powodu w bliÅ¼ej nieokreÅ›lony sposÃ³b zmieniÄ‡ to, jak prowadzÄ…
+terapiÄ™.
 
-Wreszcie przebieg terapii bêd±cej interwencj± eksperymentaln± to generalnie zdecydowanie nie to
-samo, co przebieg terapii w warunkach naturalnych, a przecie¿ o to drugie chodzi w badaniach samej
-skuteczno¶ci. Mo¿na wiêc od biedy powiedzieæ co najwy¿ej, ¿e w przypadku niektórych metod terapii
-zebrane do tej pory ¶wiadectwa empiryczne *zdaj± siê sugerowaæ*, ¿e *w pewnych sytuacjach* te metody
-*mog± dzia³aæ pod pewnymi, stosunkowo w±sko okre¶lonymi wzglêdami lepiej ni¿ inne*.
+Wreszcie przebieg terapii bÄ™dÄ…cej interwencjÄ… eksperymentalnÄ… to generalnie zdecydowanie nie to
+samo, co przebieg terapii w warunkach naturalnych, a przecieÅ¼ o to drugie chodzi w badaniach samej
+skutecznoÅ›ci. MoÅ¼na wiÄ™c od biedy powiedzieÄ‡ co najwyÅ¼ej, Å¼e w przypadku niektÃ³rych metod terapii
+zebrane do tej pory Å›wiadectwa empiryczne *zdajÄ… siÄ™ sugerowaÄ‡*, Å¼e *w pewnych sytuacjach* te metody
+*mogÄ… dziaÅ‚aÄ‡ pod pewnymi, stosunkowo wÄ…sko okreÅ›lonymi wzglÄ™dami lepiej niÅ¼ inne*.
 
-To oczywi¶cie *nie* znaczy, ¿e terapia nie dzia³a, albo, ¿e dzia³a niezbyt skutecznie; to znaczy
-*tylko* tyle, ¿e *trudno stwierdziæ*, a w³a¶ciwie *nie sposób stwierdziæ*, jakie dok³adnie s± lub
-mog± byæ *skutki samych metod terapeutycznych*. Mi siê na przyk³ad *wydaje*, ¿e terapia dzia³a
-czêsto ca³kiem nie¼le, ale (na szczê¶cie) nikt nie jest zmuszony s³uchaæ moich nie popartych niczym
-innym ni¿ pewnymi wra¿eniami opinii. Pomijaj±c ju¿ to, jaki ba³agan panuje od niepamiêtnych czasów w
-diagnozie zaburzeñ, wiedza na temat *mechanizmów dzia³ania* terapii jest tak skromna, ¿e praktycznie
-nikt siê nie dziwi na przyk³ad "poznawczym podstawom", okre¶lanej czêsto jako ["oparta na
+To oczywiÅ›cie *nie* znaczy, Å¼e terapia nie dziaÅ‚a, albo, Å¼e dziaÅ‚a niezbyt skutecznie; to znaczy
+*tylko* tyle, Å¼e *trudno stwierdziÄ‡*, a wÅ‚aÅ›ciwie *nie sposÃ³b stwierdziÄ‡*, jakie dokÅ‚adnie sÄ… lub
+mogÄ… byÄ‡ *skutki samych metod terapeutycznych*. Mi siÄ™ na przykÅ‚ad *wydaje*, Å¼e terapia dziaÅ‚a
+czÄ™sto caÅ‚kiem nieÅºle, ale (na szczÄ™Å›cie) nikt nie jest zmuszony sÅ‚uchaÄ‡ moich nie popartych niczym
+innym niÅ¼ pewnymi wraÅ¼eniami opinii. PomijajÄ…c juÅ¼ to, jaki baÅ‚agan panuje od niepamiÄ™tnych czasÃ³w w
+diagnozie zaburzeÅ„, wiedza na temat *mechanizmÃ³w dziaÅ‚ania* terapii jest tak skromna, Å¼e praktycznie
+nikt siÄ™ nie dziwi na przykÅ‚ad "poznawczym podstawom", okreÅ›lanej czÄ™sto jako ["oparta na
 dowodach"](https://www.apa.org/practice/resources/evidence), [terapii
 poznawczo-behawioralnej](https://pl.wikipedia.org/wiki/Psychoterapia_poznawczo-behawioralna). A te
-[nie przypominaj± za
+[nie przypominajÄ… za
 bardzo](https://www.annualreviews.org/content/journals/10.1146/annurev-clinpsy-032813-153734)
-czegokolwiek, co mo¿na by nazwaæ aktualnym stanem wiedzy w psychologii poznawczej[^2]. Mo¿na by co
-najwy¿ej stwierdziæ, ¿e chocia¿ jêzyk teorii CBT wygl±da na pierwszy rzut oka na wzglêdnie
-techniczny, to jej podstawy s± w istocie lu¼no inspirowane aparatem pojêciowym wspó³czesnej
+czegokolwiek, co moÅ¼na by nazwaÄ‡ aktualnym stanem wiedzy w psychologii poznawczej[^2]. MoÅ¼na by co
+najwyÅ¼ej stwierdziÄ‡, Å¼e chociaÅ¼ jÄ™zyk teorii CBT wyglÄ…da na pierwszy rzut oka na wzglÄ™dnie
+techniczny, to jej podstawy sÄ… w istocie luÅºno inspirowane aparatem pojÄ™ciowym wspÃ³Å‚czesnej
 psychologii poznawczej.
 
-W dodatku praktycy przekonuj± siê na ogó³ szybko, ¿e w zderzeniu z realno¶ci± kontaktu z pacjentem,
-te bardziej dookre¶lone schematy postêpowania, o których uczyli siê w trakcie szkoleñ, dostarczaj±
-co prawda pewnych ram u³atwiaj±cych poszukiwanie odpowiedzi na pytanie *co dalej* i dziêki temu
-znacz±co redukuj± poczucie niepewno¶ci terapeuty albo terapeutki, ale okazuj± siê te¿ czêsto
-zdecydowanie zbyt restrykcyjne i naiwne. Gdy potem taki na przyk³ad typowy wspó³czesny psycholog
-poznawczy albo metodolog s³yszy albo czyta to, co praktycy mówi± o przebiegu i znaczeniu procesu
-terapii, nie jest siê w stanie dopatrzeæ niemal niczego, co przypomina³oby wnioskowanie oparte na
-wzglêdnie dobrze empirycznie uzasadnionych hipotezach na temat *przyczynowego mechanizmu procesu
-terapeutycznego* i zamiast tego odkrywa gar¶æ pozornie lu¼nych metafor. Nie ma w tym nic dziwnego,
-bo te¿ praktyka psychoterapii jest tak daleko od badañ podstawowych i w ogóle psychologii
-akademickiej, ¿e spieranie siê o to, która metoda jest bardziej naukowa *w znaczeniu oparta na
-naukowych wyja¶nieniach*, a *nie* w znaczeniu jako¶ tam "udowodnionej" *skuteczno¶ci*, przypomina
-dyskusje o tym, która drabina pozwala siê szybciej wdrapaæ na ksiê¿yc.
+W dodatku praktycy przekonujÄ… siÄ™ na ogÃ³Å‚ szybko, Å¼e w zderzeniu z realnoÅ›ciÄ… kontaktu z pacjentem,
+te bardziej dookreÅ›lone schematy postÄ™powania, o ktÃ³rych uczyli siÄ™ w trakcie szkoleÅ„, dostarczajÄ…
+co prawda pewnych ram uÅ‚atwiajÄ…cych poszukiwanie odpowiedzi na pytanie *co dalej* i dziÄ™ki temu
+znaczÄ…co redukujÄ… poczucie niepewnoÅ›ci terapeuty albo terapeutki, ale okazujÄ… siÄ™ teÅ¼ czÄ™sto
+zdecydowanie zbyt restrykcyjne i naiwne. Gdy potem taki na przykÅ‚ad typowy wspÃ³Å‚czesny psycholog
+poznawczy albo metodolog sÅ‚yszy albo czyta to, co praktycy mÃ³wiÄ… o przebiegu i znaczeniu procesu
+terapii, nie jest siÄ™ w stanie dopatrzeÄ‡ niemal niczego, co przypominaÅ‚oby wnioskowanie oparte na
+wzglÄ™dnie dobrze empirycznie uzasadnionych hipotezach na temat *przyczynowego mechanizmu procesu
+terapeutycznego* i zamiast tego odkrywa garÅ›Ä‡ pozornie luÅºnych metafor. Nie ma w tym nic dziwnego,
+bo teÅ¼ praktyka psychoterapii jest tak daleko od badaÅ„ podstawowych i w ogÃ³le psychologii
+akademickiej, Å¼e spieranie siÄ™ o to, ktÃ³ra metoda jest bardziej naukowa *w znaczeniu oparta na
+naukowych wyjaÅ›nieniach*, a *nie* w znaczeniu jakoÅ› tam "udowodnionej" *skutecznoÅ›ci*, przypomina
+dyskusje o tym, ktÃ³ra drabina pozwala siÄ™ szybciej wdrapaÄ‡ na ksiÄ™Å¼yc.
 
-Z perspektywy, która nam siê tutaj stopniowo zarysuje, tak w³a¶nie *musi byæ* i tak *powinno* byæ,
-bo terapia *nie mo¿e* polegaæ na celowej interwencji na poziomie *nieobserwowalnych przyczyn
-zachowania*, skoro te s± nie tylko s³abo poznane, ale przede wszystkim *z definicji
-niedostêpne*. Polega za to g³ównie, bo musi, bo jest *dialogiem co najmniej dwóch osób*, na próbach
-u³atwienia pacjentce albo pacjentowi opanowania dziêki regularnym rozmowom nowych, potencjalnie
-adaptacyjnych i moralnie akceptowalnych, spójnych z w³asnymi predyspozycjami, mo¿liwo¶ciami i
-sytuacj± *ról spo³ecznych*, a dziêki temu byæ mo¿e na wykszta³ceniu bardziej korzystnych sposobów
-reagowania. Podstawowe znaczenie w tym procesie ma *interpretowanie* zachowañ i wypowiedzi pacjenta
-lub pacjentki za pomoc± rozmaitych, najczê¶ciej stosunkowo wieloznacznych i nieostrych pojêæ, które
-*musz±* i *powinny* prowadziæ do radykalnych uproszczeñ, a *nie* rzeczywiste *wyja¶nianie* tych
-zachowañ i wypowiedzi.
+Z perspektywy, ktÃ³ra nam siÄ™ tutaj stopniowo zarysuje, tak wÅ‚aÅ›nie *musi byÄ‡* i tak *powinno* byÄ‡,
+bo terapia *nie moÅ¼e* polegaÄ‡ na celowej interwencji na poziomie *nieobserwowalnych przyczyn
+zachowania*, skoro te sÄ… nie tylko sÅ‚abo poznane, ale przede wszystkim *z definicji
+niedostÄ™pne*. Polega za to gÅ‚Ã³wnie, bo musi, bo jest *dialogiem co najmniej dwÃ³ch osÃ³b*, na prÃ³bach
+uÅ‚atwienia pacjentce albo pacjentowi opanowania dziÄ™ki regularnym rozmowom nowych, potencjalnie
+adaptacyjnych i moralnie akceptowalnych, spÃ³jnych z wÅ‚asnymi predyspozycjami, moÅ¼liwoÅ›ciami i
+sytuacjÄ… *rÃ³l spoÅ‚ecznych*, a dziÄ™ki temu byÄ‡ moÅ¼e na wyksztaÅ‚ceniu bardziej korzystnych sposobÃ³w
+reagowania. Podstawowe znaczenie w tym procesie ma *interpretowanie* zachowaÅ„ i wypowiedzi pacjenta
+lub pacjentki za pomocÄ… rozmaitych, najczÄ™Å›ciej stosunkowo wieloznacznych i nieostrych pojÄ™Ä‡, ktÃ³re
+*muszÄ…* i *powinny* prowadziÄ‡ do radykalnych uproszczeÅ„, a *nie* rzeczywiste *wyjaÅ›nianie* tych
+zachowaÅ„ i wypowiedzi.
 
-Z tej perspektywy terapia jest wiêc prób± pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej
-i korzystnej *zmiany tego, kim jest*, a w³a¶ciwie raczej *kim bywa*[^1]. Taka zmiana jest zawsze
-wielowymiarowa i wieloznaczna i jej *konkretnego* charakteru *nie da siê* ani wzglêdnie wyczerpuj±co
-ani precyzyjnie opisaæ ¿adnym dostêpnym aparatem pojêciowym. Trudno te¿ zagwarantowaæ, ¿eby taka
-zmiana by³a *trwa³a*, bo przypomina trochê zawracanie kijem Wis³y, polega bowiem na próbach
-przekierowania sta³ego, rw±cego nurtu bli¿ej nieokre¶lonego wp³ywu nieznanych terapeucie albo
-terapeutce genów, p³yn±cego twardym, wyra¼nie zarysowanym korytem selektywnie i niekoniecznie
-wiernie opisywanych przez pacjentkê lub pacjenta ¿yciowych okoliczno¶ci.
+Z tej perspektywy terapia jest wiÄ™c prÃ³bÄ… pomocy pacjentce lub pacjentowi w dokonaniu akceptowalnej
+i korzystnej *zmiany tego, kim jest*, a wÅ‚aÅ›ciwie raczej *kim bywa*[^1]. Taka zmiana jest zawsze
+wielowymiarowa i wieloznaczna i jej *konkretnego* charakteru *nie da siÄ™* ani wzglÄ™dnie wyczerpujÄ…co
+ani precyzyjnie opisaÄ‡ Å¼adnym dostÄ™pnym aparatem pojÄ™ciowym. Trudno teÅ¼ zagwarantowaÄ‡, Å¼eby taka
+zmiana byÅ‚a *trwaÅ‚a*, bo przypomina trochÄ™ zawracanie kijem WisÅ‚y, polega bowiem na prÃ³bach
+przekierowania staÅ‚ego, rwÄ…cego nurtu bliÅ¼ej nieokreÅ›lonego wpÅ‚ywu nieznanych terapeucie albo
+terapeutce genÃ³w, pÅ‚ynÄ…cego twardym, wyraÅºnie zarysowanym korytem selektywnie i niekoniecznie
+wiernie opisywanych przez pacjentkÄ™ lub pacjenta Å¼yciowych okolicznoÅ›ci.
 
-Dlatego terapeutyczny dialog mo¿e byæ do pewnego stopnia rzemios³em, ale zawsze by³, jest i zawsze
-bêdzie przede wszystkim *sztuk±* i skuteczno¶æ tego rodzaju procesu bêdzie zawsze zale¿a³a przede
-wszystkim od osobowo¶ci i do¶wiadczeñ osobistych terapeutki albo terapeuty, poniewa¿ od tego miêdzy
-innymi zale¿y w niebagatelnym stopniu to, w jaki sposób i z kim terapeutka lub terapeuta jest w
-stanie rozmawiaæ na trudne i osobiste tematy.
+Dlatego terapeutyczny dialog moÅ¼e byÄ‡ do pewnego stopnia rzemiosÅ‚em, ale zawsze byÅ‚, jest i zawsze
+bÄ™dzie przede wszystkim *sztukÄ…* i skutecznoÅ›Ä‡ tego rodzaju procesu bÄ™dzie zawsze zaleÅ¼aÅ‚a przede
+wszystkim od osobowoÅ›ci i doÅ›wiadczeÅ„ osobistych terapeutki albo terapeuty, poniewaÅ¼ od tego miÄ™dzy
+innymi zaleÅ¼y w niebagatelnym stopniu to, w jaki sposÃ³b i z kim terapeutka lub terapeuta jest w
+stanie rozmawiaÄ‡ na trudne i osobiste tematy.
 
-Podkre¶lam, ¿e wszystkie te wnioski wynikaj± naturalnie z formalnej teorii przyczynowo¶ci i
-formalnej definicji zadania (i zwi±zanego ze szczególnym charakterem tej definicji sposobu my¶lenia
-o podmiotowo¶ci \{i odrobiny wiedzy zastanej, na przyk³ad dotycz±cej wp³ywu genów na zachowanie\}),
-których jeszcze nie wprowadzi³em. Mo¿emy ju¿
-[wróciæ](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
-do g³ównego w±tku.
+PodkreÅ›lam, Å¼e wszystkie te wnioski wynikajÄ… naturalnie z formalnej teorii przyczynowoÅ›ci i
+formalnej definicji zadania (i zwiÄ…zanego ze szczegÃ³lnym charakterem tej definicji sposobu myÅ›lenia
+o podmiotowoÅ›ci \{i odrobiny wiedzy zastanej, na przykÅ‚ad dotyczÄ…cej wpÅ‚ywu genÃ³w na zachowanie\}),
+ktÃ³rych jeszcze nie wprowadziÅ‚em. MoÅ¼emy juÅ¼
+[wrÃ³ciÄ‡](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
+do gÅ‚Ã³wnego wÄ…tku.
 
 ## Przypisy
 
-[^1]: Jak to doskonale ujê³a Maja Strypling, to jest zwykle takie *szycie czym tylko siê da*.
+[^1]: Jak to doskonale ujÄ™Å‚a Maja Strypling, to jest zwykle takie *szycie czym tylko siÄ™ da*.
 
 [^2]: Such as it is.
 
-[^3]: Nale¿y w tym kontek¶cie pamiêtaæ, ¿e *wynik pomiaru* to zdecydowanie nie to samo, co zmienna,
-    któr± dana metoda pomiaru *ma* (w psychologii zwykle *rzekomo*) mierzyæ.
+[^3]: NaleÅ¼y w tym kontekÅ›cie pamiÄ™taÄ‡, Å¼e *wynik pomiaru* to zdecydowanie nie to samo, co zmienna,
+    ktÃ³rÄ… dana metoda pomiaru *ma* (w psychologii zwykle *rzekomo*) mierzyÄ‡.

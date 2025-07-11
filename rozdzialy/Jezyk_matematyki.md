@@ -1,36 +1,36 @@
-## Kilka naiwnych obserwacji na temat jêzyków formalnych
+## Kilka naiwnych obserwacji na temat jÄ™zykÃ³w formalnych
 
-Pozwolê sobie teraz na d³u¿sz± dygresjê, która mo¿e moim zdaniem pomóc. 
+PozwolÄ™ sobie teraz na dÅ‚uÅ¼szÄ… dygresjÄ™, ktÃ³ra moÅ¼e moim zdaniem pomÃ³c. 
 
-Niektórzy mówi±, ¿e jêzyk matematyki jest *precyzyjny*, jednak w matematyce mówimy czasami równie¿
-*celowo nieprecyzyjnie*, tyle, ¿e ta nieprecyzyjno¶æ jest wtedy *pod kontrol±*. Na przyk³ad, mo¿emy
-wyraziæ wprost w matematyce zdanie, ¿e jaka¶ wielko¶æ znajduje siê w jakim¶ szerokim interwale, albo
-¿e jest bardziej lub mniej prawdopodobna, albo ¿e co¶ ma jak±¶ w³asno¶æ w pewnym stopniu. W
-matematyce mówimy te¿ czasem *celowo wieloznacznie*. My na przyk³ad od d³u¿szego ju¿ czasu celowo
-zacieramy ró¿nice miêdzy funkcjami i implikacjami, a ogólnie miêdzy programowaniem i
-matematyk±. Wreszcie, dla wygody w³asnej i czytelnika stosujemy w matematyce równie¿ czêsto t± sam±
-notacjê na oznaczenie ró¿nych rzeczy, co te¿ jest pewnego rodzaju wieloznaczno¶ci±.
+NiektÃ³rzy mÃ³wiÄ…, Å¼e jÄ™zyk matematyki jest *precyzyjny*, jednak w matematyce mÃ³wimy czasami rÃ³wnieÅ¼
+*celowo nieprecyzyjnie*, tyle, Å¼e ta nieprecyzyjnoÅ›Ä‡ jest wtedy *pod kontrolÄ…*. Na przykÅ‚ad, moÅ¼emy
+wyraziÄ‡ wprost w matematyce zdanie, Å¼e jakaÅ› wielkoÅ›Ä‡ znajduje siÄ™ w jakimÅ› szerokim interwale, albo
+Å¼e jest bardziej lub mniej prawdopodobna, albo Å¼e coÅ› ma jakÄ…Å› wÅ‚asnoÅ›Ä‡ w pewnym stopniu. W
+matematyce mÃ³wimy teÅ¼ czasem *celowo wieloznacznie*. My na przykÅ‚ad od dÅ‚uÅ¼szego juÅ¼ czasu celowo
+zacieramy rÃ³Å¼nice miÄ™dzy funkcjami i implikacjami, a ogÃ³lnie miÄ™dzy programowaniem i
+matematykÄ…. Wreszcie, dla wygody wÅ‚asnej i czytelnika stosujemy w matematyce rÃ³wnieÅ¼ czÄ™sto tÄ… samÄ…
+notacjÄ™ na oznaczenie rÃ³Å¼nych rzeczy, co teÅ¼ jest pewnego rodzaju wieloznacznoÅ›ciÄ….
 
-Co zatem wyró¿nia jêzyk matematyki, poza *relatywn± sztuczno¶ci±*, która nie wydaje siê taka
-istotna? Sam do koñca nie wiem, ale gdybym mia³ zgadywaæ, powiedzia³bym, ¿e jest to przede wszystkim
-*jednoznaczno¶æ i sztywno¶æ regu³ u¿ycia*, ale tylko *formalnego*, czyli takiego mechanicznego albo
-nawet "bezmy¶lnego". Mo¿emy swobodnie tworzyæ nowe formalne jêzyki, wyra¿aj±c w ten sposób za pomoc±
-symboli to, co wcze¶niej by³o niejasne lub mêtne, a raz ustanowionych regu³ mo¿emy u¿ywaæ do czego
-tylko chcemy, wiedz±c, ¿e o ile bêdziemy to robiæ konsekwentnie i spójnie, prêdzej czy pó¼niej
-zaczniemy odkrywaæ nowe prawdy (zak³adaj±c, ¿e zbiór regu³ jest niesprzeczny). I jeszcze to, ¿e
-chocia¿ pojêcia matematyczne czêsto powstaj± jako wyspecjalizowane wersje pojêæ u¿ywanych w jêzyku
-naturalnym, to zwykle stanowi± ich wersjê uproszczon± albo zredukowan± do kilku dobrze okre¶lonych
-w³a¶ciwo¶ci. Te s± wyra¿ane czasem jako *aksjomaty*, czyli podawane bez uzasadnienia formalnego, a
-wiêc *bez dowodu* (za to zwykle z uzasadnieniem w jêzyku naturalnym) *konwencje okre¶laj±ce
-dopuszczalne sposoby u¿ywania pewnych symboli lub wyra¿eñ*.
+Co zatem wyrÃ³Å¼nia jÄ™zyk matematyki, poza *relatywnÄ… sztucznoÅ›ciÄ…*, ktÃ³ra nie wydaje siÄ™ taka
+istotna? Sam do koÅ„ca nie wiem, ale gdybym miaÅ‚ zgadywaÄ‡, powiedziaÅ‚bym, Å¼e jest to przede wszystkim
+*jednoznacznoÅ›Ä‡ i sztywnoÅ›Ä‡ reguÅ‚ uÅ¼ycia*, ale tylko *formalnego*, czyli takiego mechanicznego albo
+nawet "bezmyÅ›lnego". MoÅ¼emy swobodnie tworzyÄ‡ nowe formalne jÄ™zyki, wyraÅ¼ajÄ…c w ten sposÃ³b za pomocÄ…
+symboli to, co wczeÅ›niej byÅ‚o niejasne lub mÄ™tne, a raz ustanowionych reguÅ‚ moÅ¼emy uÅ¼ywaÄ‡ do czego
+tylko chcemy, wiedzÄ…c, Å¼e o ile bÄ™dziemy to robiÄ‡ konsekwentnie i spÃ³jnie, prÄ™dzej czy pÃ³Åºniej
+zaczniemy odkrywaÄ‡ nowe prawdy (zakÅ‚adajÄ…c, Å¼e zbiÃ³r reguÅ‚ jest niesprzeczny). I jeszcze to, Å¼e
+chociaÅ¼ pojÄ™cia matematyczne czÄ™sto powstajÄ… jako wyspecjalizowane wersje pojÄ™Ä‡ uÅ¼ywanych w jÄ™zyku
+naturalnym, to zwykle stanowiÄ… ich wersjÄ™ uproszczonÄ… albo zredukowanÄ… do kilku dobrze okreÅ›lonych
+wÅ‚aÅ›ciwoÅ›ci. Te sÄ… wyraÅ¼ane czasem jako *aksjomaty*, czyli podawane bez uzasadnienia formalnego, a
+wiÄ™c *bez dowodu* (za to zwykle z uzasadnieniem w jÄ™zyku naturalnym) *konwencje okreÅ›lajÄ…ce
+dopuszczalne sposoby uÅ¼ywania pewnych symboli lub wyraÅ¼eÅ„*.
 
-W ten sposób - ca³kowicie odzieraj±c wybrane pojêcia, na przyk³ad pojêcia zdania, prawdy, fa³szu,
-prawdopodobieñstwa, czy wp³ywu, ze zbêdnej dla dobrze okre¶lonych celów elastyczno¶ci u¿ycia (w
-przypadku pojêæ zdania, prawdy i fa³szu - na potrzeby analizy w dobrze okre¶lony sposób rozumianej
-poprawno¶ci rozumowañ), uzyskujemy pewien rodzaju niezawodno¶ci i mo¿emy siê szybko wznosiæ na
-dowolnie wysokie poziomy abstrakcji maj±c przy tym pewno¶æ, ¿e zawsze mo¿emy sprawdziæ, czy nasze
-rozumowanie jest konsekwentne i spójne. To w³a¶nie sztywno¶æ regu³ pozwala na mechaniczn±
-weryfikacjê wyra¿eñ, w tym poprawno¶ci dowodów, a abstrakcyjno¶æ decyduje o ogólno¶ci zastosowañ.
+W ten sposÃ³b - caÅ‚kowicie odzierajÄ…c wybrane pojÄ™cia, na przykÅ‚ad pojÄ™cia zdania, prawdy, faÅ‚szu,
+prawdopodobieÅ„stwa, czy wpÅ‚ywu, ze zbÄ™dnej dla dobrze okreÅ›lonych celÃ³w elastycznoÅ›ci uÅ¼ycia (w
+przypadku pojÄ™Ä‡ zdania, prawdy i faÅ‚szu - na potrzeby analizy w dobrze okreÅ›lony sposÃ³b rozumianej
+poprawnoÅ›ci rozumowaÅ„), uzyskujemy pewien rodzaju niezawodnoÅ›ci i moÅ¼emy siÄ™ szybko wznosiÄ‡ na
+dowolnie wysokie poziomy abstrakcji majÄ…c przy tym pewnoÅ›Ä‡, Å¼e zawsze moÅ¼emy sprawdziÄ‡, czy nasze
+rozumowanie jest konsekwentne i spÃ³jne. To wÅ‚aÅ›nie sztywnoÅ›Ä‡ reguÅ‚ pozwala na mechanicznÄ…
+weryfikacjÄ™ wyraÅ¼eÅ„, w tym poprawnoÅ›ci dowodÃ³w, a abstrakcyjnoÅ›Ä‡ decyduje o ogÃ³lnoÅ›ci zastosowaÅ„.
 
-Mo¿na powiedzieæ, ¿e to wszystko w³a¶ciwie bana³y, ale moim zdaniem warto siê nad tymi sprawami od
-czasu do czasu zastanowiæ.
+MoÅ¼na powiedzieÄ‡, Å¼e to wszystko wÅ‚aÅ›ciwie banaÅ‚y, ale moim zdaniem warto siÄ™ nad tymi sprawami od
+czasu do czasu zastanowiÄ‡.
