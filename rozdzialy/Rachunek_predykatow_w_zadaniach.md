@@ -41,10 +41,10 @@ Wyrażenia takie jak `p ∧ q`, gdzie `p` i `q` to zdania, moglibyśmy równie d
 *oznaczone pary* zdań. Potrzebujemy je jakoś oznaczyć, bo `p ∨ q` i `p → q` to też wyrażenia
 powstające z par zdań, a chcielibyśmy takie pary rozróżniać. W Leanie, na przykład, robimy to za
 pomocą różnych stałych, takich jak `And` i `Or`. Tak więc niech `∧` oznacza na początek jakiś
-izomorf *zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie `Z` to
-zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` oznacza odtąd to samo, co wcześniej `p ∧ q`. Moglibyśmy
-korzystać z tego sposobu kodowania zdań złożonych konstruując dowody, ale do *tego* celu ten sposób
-nie bardzo się nadaje.
+*izomorf zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie `Z` to
+zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` będzie oznaczało odtąd to samo, co wcześniej `p ∧
+q`. Moglibyśmy korzystać z tego sposobu kodowania zdań złożonych konstruując dowody, ale do *tego*
+celu ten sposób nie bardzo się nadaje.
 
 Ale jak to izomorf? Przecież jeżeli `Z` to zbiór *wszystkich* zdań, to taki zbiór zawiera zdania,
 które *nie* są koniunkcjami, jak również *wszystkie* koniunkcje, a zbiór `Z × Z` nie może być
