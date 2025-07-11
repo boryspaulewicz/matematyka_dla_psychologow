@@ -76,15 +76,16 @@ koniunkcje par elementów `Z` też są zdaniami, to z jednej strony jest tu jaki
 jakieś "po", bo *najpierw* pojawił się pierwszy warunek definicji indukcyjnej, a *potem* drugi, ale
 z drugiej strony, zanim pojawił się ten drugi warunek, definicja nie była jeszcze skończona, a więc
 *jeszcze jej nie było* (jako konstruowanej definicji). Wrażenie, że jest tu jakieś przed i jakieś
-po, i że to jest opis pewnego *procesu*, wynika tu tylko z sekwencyjnego charakteru *prezentacji*
-definicji, sekwencyjnego charakteru *procesu tworzenia* tej definicji, i z sekwencyjnego charakteru
-procesu naszego jej *przyswajania* i *używania*. I trudno się od tego sekwencyjno-procesualnego
-sposobu myślenia oderwać, prawda? Ja na przykład, gdy widzę regułę taką jak *jeżeli `p` i `q` to
-zdania, to `p ∧ q` też jest zdaniem*, nie mogę oprzeć się myśleniu, że to jest *przepis*, mówiący
-jak można poprawnie *powiększać* zbiór zdań o pewnego rodzaju elementy. Mówiąc ogólnie, zwykle myślę
-o tego rodzaju sprawach w kategoriach może i abstrakcyjnych, ale jednak *czynności*, takich jak
-czynność "dosypywania". Jest mi naprawdę trudno myśleć o takich regułach definicji indukcyjnych jako
-o *statycznych prawach*; to coś, do czego muszę się czasem (mechanicznie) zmusić.
+po, i że to jest opis pewnego *rozgrywającego się w czasie procesu*, wynika tu tylko z sekwencyjnego
+charakteru *prezentacji* definicji, sekwencyjnego charakteru *procesu tworzenia* tej definicji, i z
+sekwencyjnego charakteru procesu naszego jej *przyswajania* i *używania*. I trudno się od tego
+sekwencyjno-procesualnego sposobu myślenia oderwać, prawda? Ja na przykład, gdy widzę regułę taką
+jak *jeżeli `p` i `q` to zdania, to `p ∧ q` też jest zdaniem*, nie mogę oprzeć się myśleniu, że to
+jest *przepis*, mówiący jak można poprawnie *powiększać* zbiór zdań o pewnego rodzaju
+elementy. Mówiąc ogólnie, zwykle myślę o tego rodzaju sprawach w kategoriach może i abstrakcyjnych,
+ale jednak *czynności*, takich jak czynność "dosypywania". Jest mi naprawdę trudno myśleć o takich
+regułach definicji indukcyjnych jako o *statycznych prawach*; to coś, do czego muszę się czasem
+(mechanicznie) zmusić.
 
 Wracając na ziemię, zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X`
 można *równie dobrze*, to jest ani nie tracąc, ani nie dodając żadnej informacji czy
