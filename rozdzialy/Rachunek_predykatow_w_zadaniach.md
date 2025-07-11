@@ -263,7 +263,6 @@ example : (¬ ∃ x, p x) ↔ (∀ x, ¬ p x) := sorry
 -- Pozostałe zadania można udowodnić (przynajmniej w jedną stronę) tylko *klasycznie*, wobec czego
 -- trzeba będzie użyć aksjomatu wyłączonego środka, który w Leanie jest twierdzeniem `em`,
 -- zdefiniowanym w przestrzeni nazw `Classical`.
--- `Classical`.
 section
 -- Dzięki temu do końca tej sekcji można pisać krótko `em` zamiast `Classical.em`.
 open Classical
