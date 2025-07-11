@@ -155,8 +155,9 @@ różniąc się tylko tym, że mają arbitralne liczby członów.
 
 ## Zadania służą głównie do tego, żeby wracać do nich tak długo - przyglądając im się uważnie i czasem bawiąc się nimi - aż albo niemal same się rozwiążą, albo przestaną nas obchodzić
 
-Będziemy odtąd oznaczać predykaty małymi literami, bo tak jest szybciej. Zwracam uwagę, że `p` i `q`
-to tutaj *predykaty*, a nie jak zwykle wcześniej zdania; tylko `r` będzie tu (jakimś) zdaniem.
+Zgodnie ze stylem stosowanym we wspomnianej na początku książce, będziemy odtąd oznaczać predykaty
+małymi literami, bo tak jest szybciej. Zwracam uwagę, że `p` i `q` to tutaj *predykaty*, a nie jak
+zwykle wcześniej zdania; tylko `r` będzie tu (jakimś) zdaniem.
 
 ```lean
 variable {α : Type} {p q : α → Prop} {r : Prop}
