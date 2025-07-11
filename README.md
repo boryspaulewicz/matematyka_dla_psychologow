@@ -428,8 +428,8 @@ od zaglądania do tej książki rozdział 25-19, i za znalezienie w tym rozdzial
 komentarza.
 
 Jakubowi Jędrusiakowi, za wiadomość o problemie z kodowaniem niektórych rozdziałów. Większość plików
-była zapiana w stronie kodowej UTF-8, ale niektóre były zapisane w ISO-8859-2, a teraz wszystkie są
-w UTF-8.
+była zapisana w stronie kodowej UTF-8, ale niektóre były zapisane w ISO-8859-2; teraz wszystkie są w
+UTF-8.
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
