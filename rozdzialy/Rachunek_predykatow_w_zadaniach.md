@@ -27,8 +27,9 @@ przekształcać, oglądając je z różnych stron.
 
 ## Rachunek predykatów z kategoryjnego punktu widzenia
 
-Niestety, nie mogę Ci na tym etapie podać pełnowartościowej kategoryjnych definicji dużego i małego
-kwantyfikatora, bo to wymaga wprowadzenia (skądinąd fascynującego) pojęcia [*funktora
+Niestety, nie mogę Ci na tym etapie podać pełnowartościowej kategoryjnej definicji dużego, a więc
+dualnie jednocześnie również i małego kwantyfikatora, bo to wymaga wprowadzenia (skądinąd
+fascynującego) pojęcia [*funktora
 sprzężonego*](https://pl.wikipedia.org/wiki/Funktory_sprz%C4%99%C5%BCone), a na to jest jeszcze za
 wcześnie. Mogę jednak, używając mieszanego kategoryjno-mnogościowego języka, spróbować dostarczyć Ci
 na ten temat pewnych przydatnych intuicji.
