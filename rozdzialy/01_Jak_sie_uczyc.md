@@ -1,184 +1,184 @@
-# Co mo¿na z t± ksi±¿k± zrobiæ
+# Co moÅ¼na z tÄ… ksiÄ…Å¼kÄ… zrobiÄ‡
 
-Wiem, ¿e zrobisz z t± ksi±¿k± co zechcesz, ale i tak Ci co¶ zasugerujê. Na podstawie lektur i
-w³asnego do¶wiadaczenia mogê stanowczo stwierdziæ, ¿e uwa¿ne czytanie lub s³uchanie z jako takim
-zrozumieniem nie ca³kiem banalnych tre¶ci przestaje byæ mo¿liwe po oko³o 30 minutach. Mówiê przy tym
-o warunkach sprzyjaj±cych, a nie na przyk³ad o czytaniu w zat³oczonym poci±gu na kacu, co mi siê
-oczywi¶cie nigdy w ¿yciu nie zda¿y³o. Po 30, a mo¿e nawet ju¿ 25 minutach wydaje mi siê czêsto, ¿e
-siê dopiero co wci±gn±³em, ale mniej wiêcej po tym czasie moja zdolno¶æ do dalszego przyswajania
-informacji zaczyna, ¿e tak powiem, ryæ o ziemiê. Sprawdza³em to wiele, wiele razy. Zacz±³em to
-sprawdzaæ tak dawno, ¿e u¿ywa³em do tego jeszcze zegarka z [ró¿±
-wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutnikiem.
+Wiem, Å¼e zrobisz z tÄ… ksiÄ…Å¼kÄ… co zechcesz, ale i tak Ci coÅ› zasugerujÄ™. Na podstawie lektur i
+wÅ‚asnego doÅ›wiadaczenia mogÄ™ stanowczo stwierdziÄ‡, Å¼e uwaÅ¼ne czytanie lub sÅ‚uchanie z jako takim
+zrozumieniem nie caÅ‚kiem banalnych treÅ›ci przestaje byÄ‡ moÅ¼liwe po okoÅ‚o 30 minutach. MÃ³wiÄ™ przy tym
+o warunkach sprzyjajÄ…cych, a nie na przykÅ‚ad o czytaniu w zatÅ‚oczonym pociÄ…gu na kacu, co mi siÄ™
+oczywiÅ›cie nigdy w Å¼yciu nie zdaÅ¼yÅ‚o. Po 30, a moÅ¼e nawet juÅ¼ 25 minutach wydaje mi siÄ™ czÄ™sto, Å¼e
+siÄ™ dopiero co wciÄ…gnÄ…Å‚em, ale mniej wiÄ™cej po tym czasie moja zdolnoÅ›Ä‡ do dalszego przyswajania
+informacji zaczyna, Å¼e tak powiem, ryÄ‡ o ziemiÄ™. SprawdzaÅ‚em to wiele, wiele razy. ZaczÄ…Å‚em to
+sprawdzaÄ‡ tak dawno, Å¼e uÅ¼ywaÅ‚em do tego jeszcze zegarka z [rÃ³Å¼Ä…
+wiatrÃ³w](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutnikiem.
 
-Dlatego na zajêciach czêsto wprowadzam krótkie przerwy co oko³o pó³ godziny i dlatego staram siê
-pisaæ rozdzia³y tak, ¿eby tyle te¿ mniej wiêcej trwa³o ich przeczytanie (zak³adaj±c aktywn± postawê
-w trakcie lektury wcze¶niejszych rozdzia³ów). Sam zreszt± potrzebujê takich krótkich przerw w
-trakcie prowadzenia zajêæ, bo dziêki temu czêsto zauwa¿am, ¿e zapomnia³em powiedzieæ co¶ wa¿nego,
-albo, ¿e mogê co¶ powiedzieæ lepiej.
+Dlatego na zajÄ™ciach czÄ™sto wprowadzam krÃ³tkie przerwy co okoÅ‚o pÃ³Å‚ godziny i dlatego staram siÄ™
+pisaÄ‡ rozdziaÅ‚y tak, Å¼eby tyle teÅ¼ mniej wiÄ™cej trwaÅ‚o ich przeczytanie (zakÅ‚adajÄ…c aktywnÄ… postawÄ™
+w trakcie lektury wczeÅ›niejszych rozdziaÅ‚Ã³w). Sam zresztÄ… potrzebujÄ™ takich krÃ³tkich przerw w
+trakcie prowadzenia zajÄ™Ä‡, bo dziÄ™ki temu czÄ™sto zauwaÅ¼am, Å¼e zapomniaÅ‚em powiedzieÄ‡ coÅ› waÅ¼nego,
+albo, Å¼e mogÄ™ coÅ› powiedzieÄ‡ lepiej.
 
-Po oko³o 25-30 minutach dobrze na mnie dzia³a krótka przerwa. Najlepiej, gdy to jest oko³o 5 minut
-nie robienia niczego wci±gaj±cego ani poznawczo (na przyk³ad, czytanie odpada, podobnie jak
-interesuj±ce rozmowy) ani motywacyjnie (nie ma mowy o wchodzeniu na YouTube'a). Potem znowu jestem w
-stanie skutecznie pracowaæ przez 30 minut, ale nastêpna przerwa musi byæ ju¿ d³u¿sza, zwykle co
-najmniej 20 minutowa. Realistycznie oceniaj±c, je¿eli danego dnia nie mam wielu zajêæ, mogê liczyæ
-najwy¿ej na oko³o 4 godziny pracy umys³owej, nie licz±c ¿adnych przerw.
+Po okoÅ‚o 25-30 minutach dobrze na mnie dziaÅ‚a krÃ³tka przerwa. Najlepiej, gdy to jest okoÅ‚o 5 minut
+nie robienia niczego wciÄ…gajÄ…cego ani poznawczo (na przykÅ‚ad, czytanie odpada, podobnie jak
+interesujÄ…ce rozmowy) ani motywacyjnie (nie ma mowy o wchodzeniu na YouTube'a). Potem znowu jestem w
+stanie skutecznie pracowaÄ‡ przez 30 minut, ale nastÄ™pna przerwa musi byÄ‡ juÅ¼ dÅ‚uÅ¼sza, zwykle co
+najmniej 20 minutowa. Realistycznie oceniajÄ…c, jeÅ¼eli danego dnia nie mam wielu zajÄ™Ä‡, mogÄ™ liczyÄ‡
+najwyÅ¼ej na okoÅ‚o 4 godziny pracy umysÅ‚owej, nie liczÄ…c Å¼adnych przerw.
 
-Bardzo niewiele by z tej pracy wynika³o, gdybym nie *powtarza³* tego, co przeczyta³em i z czego
-zrobi³em notatki. O ile mi wiadomo, nie ma przekonuj±cych dowodów na przewagê metody powtarzania z
-coraz wiêkszym odroczeniem nad innymi rozk³adami powtórek, o ile tylko odstêpy miêdzy powtórkami s±
-do¶æ *d³ugie*. Tak siê jednak sk³ada, ¿e lubiê metodê rosn±cych odroczeñ. Gdy mi naprawdê zale¿y,
-¿eby siê czego¶ nauczyæ, pierwsz± powtórkê robiê tego samego dnia (+0d), potem nastêpnego (+1d),
-potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), po o¶miu (+8d), i tak dalej. W
-ten sposób ju¿ po szóstej powtórce mam w zasadzie stale ³atwy dostêp do wiêkszo¶ci powtarzanych
-tre¶ci co najmniej przez nastêpny miesi±c.
+Bardzo niewiele by z tej pracy wynikaÅ‚o, gdybym nie *powtarzaÅ‚* tego, co przeczytaÅ‚em i z czego
+zrobiÅ‚em notatki. O ile mi wiadomo, nie ma przekonujÄ…cych dowodÃ³w na przewagÄ™ metody powtarzania z
+coraz wiÄ™kszym odroczeniem nad innymi rozkÅ‚adami powtÃ³rek, o ile tylko odstÄ™py miÄ™dzy powtÃ³rkami sÄ…
+doÅ›Ä‡ *dÅ‚ugie*. Tak siÄ™ jednak skÅ‚ada, Å¼e lubiÄ™ metodÄ™ rosnÄ…cych odroczeÅ„. Gdy mi naprawdÄ™ zaleÅ¼y,
+Å¼eby siÄ™ czegoÅ› nauczyÄ‡, pierwszÄ… powtÃ³rkÄ™ robiÄ™ tego samego dnia (+0d), potem nastÄ™pnego (+1d),
+potem po dwÃ³ch dniach od ostatniej (+2d), potem po czterech (+4d), po oÅ›miu (+8d), i tak dalej. W
+ten sposÃ³b juÅ¼ po szÃ³stej powtÃ³rce mam w zasadzie stale Å‚atwy dostÄ™p do wiÄ™kszoÅ›ci powtarzanych
+treÅ›ci co najmniej przez nastÄ™pny miesiÄ…c.
 
-Stosowanie okre¶lonego rozk³adu powtórek wymaga oczywi¶cie planowania, ale mo¿e najwiêksz±
-przeszkod± jest to, ¿e te powtórki mog± siê wydawaæ *niepotrzebne*. Przecie¿ jeszcze tego samego
-dnia, w którym zrobili¶my notatki i nie zaniedbali¶my przy tym przerw, bêdziemy pamiêtaæ wiêkszo¶æ
-tre¶ci dosyæ dobrze. Pierwsza powtórka tego dnia mo¿e siê wiêc wydawaæ zbêdna i w pewnym sensie o to
-w³a¶nie chodzi: Taka powtórka wydaje siê zbêdna, bo jest *³atwa*. Gdyby jednak poczekaæ trochê
-d³u¿ej, nawet tylko do dnia nastêpnego, ju¿ by tak ³atwa nie by³a, bo utrata dostêpu do informacji w
-pamiêci postêpuje pocz±tkowo do¶æ gwa³townie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w
-miarê *³atwej* powtórki, zapis pamiêciowy utrwala siê na tyle, ¿e mo¿na poczekaæ znacznie d³u¿ej do
-nastêpnej *³atwej* powtórki, która jeszcze bardziej utrwala zapis i w ten sposób ka¿da kolejna
-powtórka daje coraz lepszy skutek.
+Stosowanie okreÅ›lonego rozkÅ‚adu powtÃ³rek wymaga oczywiÅ›cie planowania, ale moÅ¼e najwiÄ™kszÄ…
+przeszkodÄ… jest to, Å¼e te powtÃ³rki mogÄ… siÄ™ wydawaÄ‡ *niepotrzebne*. PrzecieÅ¼ jeszcze tego samego
+dnia, w ktÃ³rym zrobiliÅ›my notatki i nie zaniedbaliÅ›my przy tym przerw, bÄ™dziemy pamiÄ™taÄ‡ wiÄ™kszoÅ›Ä‡
+treÅ›ci dosyÄ‡ dobrze. Pierwsza powtÃ³rka tego dnia moÅ¼e siÄ™ wiÄ™c wydawaÄ‡ zbÄ™dna i w pewnym sensie o to
+wÅ‚aÅ›nie chodzi: Taka powtÃ³rka wydaje siÄ™ zbÄ™dna, bo jest *Å‚atwa*. Gdyby jednak poczekaÄ‡ trochÄ™
+dÅ‚uÅ¼ej, nawet tylko do dnia nastÄ™pnego, juÅ¼ by tak Å‚atwa nie byÅ‚a, bo utrata dostÄ™pu do informacji w
+pamiÄ™ci postÄ™puje poczÄ…tkowo doÅ›Ä‡ gwaÅ‚townie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w
+miarÄ™ *Å‚atwej* powtÃ³rki, zapis pamiÄ™ciowy utrwala siÄ™ na tyle, Å¼e moÅ¼na poczekaÄ‡ znacznie dÅ‚uÅ¼ej do
+nastÄ™pnej *Å‚atwej* powtÃ³rki, ktÃ³ra jeszcze bardziej utrwala zapis i w ten sposÃ³b kaÅ¼da kolejna
+powtÃ³rka daje coraz lepszy skutek.
 
-Dzieje siê wtedy, mam wra¿enie, jeszcze co¶ innego - tre¶æ zdaje siê subiektywnie *kurczyæ*, tak
-jakby liczne powi±zane ze sob± reprezentacje pamiêciowe zaczyna³y w coraz wiêkszym stopniu tworzyæ
-jedn±, zwart±, hierarchiczn± strukturê, u³atwiaj±c± szybkie odnajdywanie tego, co jest w danej
-sytuacji najwa¿niejsze. A mówi±c o tym zjawisku z perspektywy stanowiska meta-teoretycznego, które
-wprowadzê w drugiej czê¶ci ksi±¿ki, a z którego mogê ju¿ teraz skorzystaæ, bo nawet bez
-wcze¶niejszego t³umaczenia, o co w nim dok³adnie chodzi, da siê go jak s±dzê u¿ywaæ nie ryzykuj±c,
-¿e bêdzie siê ca³kiem niezrozumianym, mo¿na by powiedzieæ tak: Na skutek takiego powtarzania tre¶æ
-zdaje siê subiektywnie kurczyæ, *co znaczy, ¿e coraz szybciej udaje siê zwykle odnale¼æ informacje,
-które s± w danej sytuacji najwa¿niejsze*.
+Dzieje siÄ™ wtedy, mam wraÅ¼enie, jeszcze coÅ› innego - treÅ›Ä‡ zdaje siÄ™ subiektywnie *kurczyÄ‡*, tak
+jakby liczne powiÄ…zane ze sobÄ… reprezentacje pamiÄ™ciowe zaczynaÅ‚y w coraz wiÄ™kszym stopniu tworzyÄ‡
+jednÄ…, zwartÄ…, hierarchicznÄ… strukturÄ™, uÅ‚atwiajÄ…cÄ… szybkie odnajdywanie tego, co jest w danej
+sytuacji najwaÅ¼niejsze. A mÃ³wiÄ…c o tym zjawisku z perspektywy stanowiska meta-teoretycznego, ktÃ³re
+wprowadzÄ™ w drugiej czÄ™Å›ci ksiÄ…Å¼ki, a z ktÃ³rego mogÄ™ juÅ¼ teraz skorzystaÄ‡, bo nawet bez
+wczeÅ›niejszego tÅ‚umaczenia, o co w nim dokÅ‚adnie chodzi, da siÄ™ go jak sÄ…dzÄ™ uÅ¼ywaÄ‡ nie ryzykujÄ…c,
+Å¼e bÄ™dzie siÄ™ caÅ‚kiem niezrozumianym, moÅ¼na by powiedzieÄ‡ tak: Na skutek takiego powtarzania treÅ›Ä‡
+zdaje siÄ™ subiektywnie kurczyÄ‡, *co znaczy, Å¼e coraz szybciej udaje siÄ™ zwykle odnaleÅºÄ‡ informacje,
+ktÃ³re sÄ… w danej sytuacji najwaÅ¼niejsze*.
 
-Gdy odstêpy s± d³u¿sze ni¿ tydzieñ, nie ma jak s±dzê wiêkszego znaczenia, je¿eli powtórka nast±pi z
-kilkudniowym opó¼nieniem. Raz wytrwa³em do momentu, w którym powtarza³em co¶ po *roku* od ostatniej
-powtórki (pojawi³o siê wtedy powiadomienie z kalendarza Google'a, które mi o tym przypomnia³o) i
-przekona³em siê w ten sposób, ¿e ta metoda dzia³a, przynajmniej na mnie, jak czary. To by³a
-[znakomita ksi±¿ka](https://link.springer.com/book/10.1007/978-3-031-41026-0)[^3], ale nie u³atwia³a
-powtarzania, bo dotyczy maksymalnie abstrakcyjnie, a w³a¶ciwie wrêcz
+Gdy odstÄ™py sÄ… dÅ‚uÅ¼sze niÅ¼ tydzieÅ„, nie ma jak sÄ…dzÄ™ wiÄ™kszego znaczenia, jeÅ¼eli powtÃ³rka nastÄ…pi z
+kilkudniowym opÃ³Åºnieniem. Raz wytrwaÅ‚em do momentu, w ktÃ³rym powtarzaÅ‚em coÅ› po *roku* od ostatniej
+powtÃ³rki (pojawiÅ‚o siÄ™ wtedy powiadomienie z kalendarza Google'a, ktÃ³re mi o tym przypomniaÅ‚o) i
+przekonaÅ‚em siÄ™ w ten sposÃ³b, Å¼e ta metoda dziaÅ‚a, przynajmniej na mnie, jak czary. To byÅ‚a
+[znakomita ksiÄ…Å¼ka](https://link.springer.com/book/10.1007/978-3-031-41026-0)[^3], ale nie uÅ‚atwiaÅ‚a
+powtarzania, bo dotyczy maksymalnie abstrakcyjnie, a wÅ‚aÅ›ciwie wrÄ™cz
 [kategoryjnie](https://pl.wikipedia.org/wiki/Teoria_kategorii) rozumianej algebry liniowej, w
-dodatku w owym czasie do niczego mi siê ta wiedza nie przyda³a. Je¿eli wiêc kto¶ o tak przeciêtnej
-pamiêci jak ja mo¿e usi±¶æ przed kilkoma czystymi kartkami papieru i po roku przerwy zapisaæ
-poprawnie prawie wszystkie definicje, twierdzenia i dowody, które mo¿na znale¼æ na oko³o stu
-stronach podrêcznika napisanego dla studentów starszych lat matematyki, to co¶ w tej metodzie musi
-byæ.
+dodatku w owym czasie do niczego mi siÄ™ ta wiedza nie przydaÅ‚a. JeÅ¼eli wiÄ™c ktoÅ› o tak przeciÄ™tnej
+pamiÄ™ci jak ja moÅ¼e usiÄ…Å›Ä‡ przed kilkoma czystymi kartkami papieru i po roku przerwy zapisaÄ‡
+poprawnie prawie wszystkie definicje, twierdzenia i dowody, ktÃ³re moÅ¼na znaleÅºÄ‡ na okoÅ‚o stu
+stronach podrÄ™cznika napisanego dla studentÃ³w starszych lat matematyki, to coÅ› w tej metodzie musi
+byÄ‡.
 
-Regularne i coraz bardziej roz³o¿one w czasie powtarzanie ma te¿ pewien inny skutek, którego trzeba
-do¶wiadczyæ, ¿eby siê przekonaæ, w jak niezwyk³y sposób dzia³a. Maj±c przez d³u¿szy czas w ka¿dej
-chwili ³atwy dostêp do licznych powi±zanych i wielokrotnie przemy¶lanych tre¶ci, zaczyna siê coraz
-czê¶ciej mimowolnie dostrzegaæ zwi±zki miêdzy tymi tre¶ciami a tym, co siê napotyka albo o czym
-nawet tylko przez chwilê siê my¶li. W ten sposób szybko ro¶nie poczucie skuteczno¶ci. Nieuchronnie
-pojawiaj± siê te¿ twórcze skojarzenia i zrozumienie pog³êbia siê niejako samo z siebie. Dziêki temu
-utrwalane tre¶ci wydaj± siê automatycznie coraz ciekawsze i coraz ciekawsze zaczyna siê wydawaæ
-niemal wszystko, co siê z nimi prawie namacalnie wi±¿e. Nie bêdzie wiêc chyba przesad±, je¿eli
-powiem, ¿e w moim odczuciu tego rodzaju uczenie siê jest ca³kiem dos³ownie procesem g³êbokiej
-wewnêtrznej przemiany.
+Regularne i coraz bardziej rozÅ‚oÅ¼one w czasie powtarzanie ma teÅ¼ pewien inny skutek, ktÃ³rego trzeba
+doÅ›wiadczyÄ‡, Å¼eby siÄ™ przekonaÄ‡, w jak niezwykÅ‚y sposÃ³b dziaÅ‚a. MajÄ…c przez dÅ‚uÅ¼szy czas w kaÅ¼dej
+chwili Å‚atwy dostÄ™p do licznych powiÄ…zanych i wielokrotnie przemyÅ›lanych treÅ›ci, zaczyna siÄ™ coraz
+czÄ™Å›ciej mimowolnie dostrzegaÄ‡ zwiÄ…zki miÄ™dzy tymi treÅ›ciami a tym, co siÄ™ napotyka albo o czym
+nawet tylko przez chwilÄ™ siÄ™ myÅ›li. W ten sposÃ³b szybko roÅ›nie poczucie skutecznoÅ›ci. Nieuchronnie
+pojawiajÄ… siÄ™ teÅ¼ twÃ³rcze skojarzenia i zrozumienie pogÅ‚Ä™bia siÄ™ niejako samo z siebie. DziÄ™ki temu
+utrwalane treÅ›ci wydajÄ… siÄ™ automatycznie coraz ciekawsze i coraz ciekawsze zaczyna siÄ™ wydawaÄ‡
+niemal wszystko, co siÄ™ z nimi prawie namacalnie wiÄ…Å¼e. Nie bÄ™dzie wiÄ™c chyba przesadÄ…, jeÅ¼eli
+powiem, Å¼e w moim odczuciu tego rodzaju uczenie siÄ™ jest caÅ‚kiem dosÅ‚ownie procesem gÅ‚Ä™bokiej
+wewnÄ™trznej przemiany.
 
-Zostaje jeszcze kwestia notatek i sposobu powtarzania. *Je¿eli u¿ywam ich do powtarzania*, to robiê
-notatki skrótowe, czêsto zawieraj±ce jakie¶ graficzne elementy, niezbyt linearne i z du¿± ilo¶ci±
-¶wiat³a na stronie. Robiê tak, bo takie notatki mog± ostatecznie s³u¿yæ jako pomoc w powtarzaniu,
-nie zmieniaj±c za bardzo tego *powtarzania* w niemal bezwarto¶ciowe jako forma uczenia siê
-*rozpoznawanie*. Prawie zawsze zapisujê te¿ pytania, w±tpliwo¶ci i pomys³y, zreszt± niekoniecznie
-zwi±zane w oczywisty sposób z g³ówn± tre¶ci±.
+Zostaje jeszcze kwestia notatek i sposobu powtarzania. *JeÅ¼eli uÅ¼ywam ich do powtarzania*, to robiÄ™
+notatki skrÃ³towe, czÄ™sto zawierajÄ…ce jakieÅ› graficzne elementy, niezbyt linearne i z duÅ¼Ä… iloÅ›ciÄ…
+Å›wiatÅ‚a na stronie. RobiÄ™ tak, bo takie notatki mogÄ… ostatecznie sÅ‚uÅ¼yÄ‡ jako pomoc w powtarzaniu,
+nie zmieniajÄ…c za bardzo tego *powtarzania* w niemal bezwartoÅ›ciowe jako forma uczenia siÄ™
+*rozpoznawanie*. Prawie zawsze zapisujÄ™ teÅ¼ pytania, wÄ…tpliwoÅ›ci i pomysÅ‚y, zresztÄ… niekoniecznie
+zwiÄ…zane w oczywisty sposÃ³b z gÅ‚Ã³wnÄ… treÅ›ciÄ….
 
-Skoro ju¿ o takich sprawach mówiê, to opowiem jeszcze, jak± rolê w moim ¿yciu odegra³o zapisywanie
-(na kartkach!)  spostrze¿eñ, pomys³ów i pytañ. Poniewa¿ jeste¶my wszyscy istotami skoñczonymi, nawet
-Ci najbardziej twórczy z nas mog± wpa¶æ tylko na skoñczon± liczbê dobrych i oryginalnych
-pomys³ów. Te przychodz± nam do g³owy czasem same, a czasami na skutek zmagania siê z jakim¶
-problemem czy uczenia siê czego¶. Psychologowie zajmuj±cy siê twórczo¶ci± twierdz± - i moje
-do¶wiadczenia wskazuj±, ¿e maj± w tym racjê - ¿e pomys³y, których siê w ¿aden sposób nie "wyjê³o z
-g³owy", czy to mówi±c o nich na g³os, czy to zapisuj±c, maj± tendencjê do zalegania, a przez to
-zdaj± siê zajmowaæ nasz± umys³ow± przestrzeñ, w której - gdyby w niej by³o trochê wiêcej miejsca -
-mog³oby siê mo¿e pojawiæ co¶ innego. To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest
-te¿ taki, ¿e gdy co¶ zapisujemy, to co¶ staje siê od nas odrêbne i nabiera pewnej
-autonomii. Zapisany pomys³, w±tpliwo¶æ albo obserwacja mo¿e zacz±æ dzia³aæ jak zanurzone w roztworze
-soli drobne cia³o sta³e, taki zal±¿ek przysz³ego kryszta³u, wokó³ którego samoistnie powstaj± i
-rosn± kolejne pomys³y, obserwacje i pytania. Dlatego te¿ ostatnio, kiedy du¿o piszê i ci±gle mam
-poczucie, ¿e jeszcze dobrze nie zacz±³em, prawie zawsze mam przy sobie ma³y notes i d³ugopis. A poza
-tym teraz, kiedy moja pamiêæ nie dzia³a ju¿ tak dobrze jak wcze¶niej, wiele pomys³ów bym zapomnia³,
-gdybym ich gdzie¶ nie zapisa³.
+Skoro juÅ¼ o takich sprawach mÃ³wiÄ™, to opowiem jeszcze, jakÄ… rolÄ™ w moim Å¼yciu odegraÅ‚o zapisywanie
+(na kartkach!)  spostrzeÅ¼eÅ„, pomysÅ‚Ã³w i pytaÅ„. PoniewaÅ¼ jesteÅ›my wszyscy istotami skoÅ„czonymi, nawet
+Ci najbardziej twÃ³rczy z nas mogÄ… wpaÅ›Ä‡ tylko na skoÅ„czonÄ… liczbÄ™ dobrych i oryginalnych
+pomysÅ‚Ã³w. Te przychodzÄ… nam do gÅ‚owy czasem same, a czasami na skutek zmagania siÄ™ z jakimÅ›
+problemem czy uczenia siÄ™ czegoÅ›. Psychologowie zajmujÄ…cy siÄ™ twÃ³rczoÅ›ciÄ… twierdzÄ… - i moje
+doÅ›wiadczenia wskazujÄ…, Å¼e majÄ… w tym racjÄ™ - Å¼e pomysÅ‚y, ktÃ³rych siÄ™ w Å¼aden sposÃ³b nie "wyjÄ™Å‚o z
+gÅ‚owy", czy to mÃ³wiÄ…c o nich na gÅ‚os, czy to zapisujÄ…c, majÄ… tendencjÄ™ do zalegania, a przez to
+zdajÄ… siÄ™ zajmowaÄ‡ naszÄ… umysÅ‚owÄ… przestrzeÅ„, w ktÃ³rej - gdyby w niej byÅ‚o trochÄ™ wiÄ™cej miejsca -
+mogÅ‚oby siÄ™ moÅ¼e pojawiÄ‡ coÅ› innego. To jest jeden dobry powÃ³d do zapisywania, ale nie jedyny. Jest
+teÅ¼ taki, Å¼e gdy coÅ› zapisujemy, to coÅ› staje siÄ™ od nas odrÄ™bne i nabiera pewnej
+autonomii. Zapisany pomysÅ‚, wÄ…tpliwoÅ›Ä‡ albo obserwacja moÅ¼e zaczÄ…Ä‡ dziaÅ‚aÄ‡ jak zanurzone w roztworze
+soli drobne ciaÅ‚o staÅ‚e, taki zalÄ…Å¼ek przyszÅ‚ego krysztaÅ‚u, wokÃ³Å‚ ktÃ³rego samoistnie powstajÄ… i
+rosnÄ… kolejne pomysÅ‚y, obserwacje i pytania. Dlatego teÅ¼ ostatnio, kiedy duÅ¼o piszÄ™ i ciÄ…gle mam
+poczucie, Å¼e jeszcze dobrze nie zaczÄ…Å‚em, prawie zawsze mam przy sobie maÅ‚y notes i dÅ‚ugopis. A poza
+tym teraz, kiedy moja pamiÄ™Ä‡ nie dziaÅ‚a juÅ¼ tak dobrze jak wczeÅ›niej, wiele pomysÅ‚Ã³w bym zapomniaÅ‚,
+gdybym ich gdzieÅ› nie zapisaÅ‚.
 
-Powtarzam nie zagl±daj±c pocz±tkowo do notatek, ani tym bardziej do ksi±¿ek, bo powtarzanie przez
-rozpoznawanie, jak wspomnia³em, nie ma sensu. Zamiast tego, na g³os, w my¶lach, lub pisz±c na
-kartce, próbujê *opowiedzieæ* to, co mam powtórzyæ. W ten sposób natychmiast zauwa¿am, czego albo
-dobrze nie pamiêtam, albo czego nie rozumiem w stopniu, który by mi to pozwala³ w miarê jasno komu¶
-wyt³umaczyæ. Zaraz potem oczywi¶cie siêgam do notatek lub ¼ród³owych materia³ów i upewniam siê, ile
-tre¶ci i jak dobrze uda³o mi siê w ten sposób powtórzyæ. Mo¿na by pomy¶leæ, ¿e to nie powtórki,
-tylko trening u¿ywania nabywanej wiedzy, ale przecie¿ nic innego nie jest celem sensownego
+Powtarzam nie zaglÄ…dajÄ…c poczÄ…tkowo do notatek, ani tym bardziej do ksiÄ…Å¼ek, bo powtarzanie przez
+rozpoznawanie, jak wspomniaÅ‚em, nie ma sensu. Zamiast tego, na gÅ‚os, w myÅ›lach, lub piszÄ…c na
+kartce, prÃ³bujÄ™ *opowiedzieÄ‡* to, co mam powtÃ³rzyÄ‡. W ten sposÃ³b natychmiast zauwaÅ¼am, czego albo
+dobrze nie pamiÄ™tam, albo czego nie rozumiem w stopniu, ktÃ³ry by mi to pozwalaÅ‚ w miarÄ™ jasno komuÅ›
+wytÅ‚umaczyÄ‡. Zaraz potem oczywiÅ›cie siÄ™gam do notatek lub ÅºrÃ³dÅ‚owych materiaÅ‚Ã³w i upewniam siÄ™, ile
+treÅ›ci i jak dobrze udaÅ‚o mi siÄ™ w ten sposÃ³b powtÃ³rzyÄ‡. MoÅ¼na by pomyÅ›leÄ‡, Å¼e to nie powtÃ³rki,
+tylko trening uÅ¼ywania nabywanej wiedzy, ale przecieÅ¼ nic innego nie jest celem sensownego
 powtarzania.
 
-Jeszcze jedno, chocia¿ mo¿e Tobie to nie bêdzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
-charakteru, najpewniej niewiele bym w ¿yciu osi±gn±³, gdyby nie pewien prosty trik, który wymy¶li³em
-czytaj±c Rachlina, a mo¿e wrêcz od niego skopiowa³em.
+Jeszcze jedno, chociaÅ¼ moÅ¼e Tobie to nie bÄ™dzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
+charakteru, najpewniej niewiele bym w Å¼yciu osiÄ…gnÄ…Å‚, gdyby nie pewien prosty trik, ktÃ³ry wymyÅ›liÅ‚em
+czytajÄ…c Rachlina, a moÅ¼e wrÄ™cz od niego skopiowaÅ‚em.
 
-Kiedy zale¿y mi, ¿eby uczyæ siê systematycznie d³u¿ej, robiê takie ma³e kartki-kalendarze, z
-naniesionymi niechlujnie liniami, na których widaæ, jak mi idzie. Jest tam 7 kolumn, ka¿da nazwana
-jednym dniem tygodnia i jest tyle rzêdów, ile akurat rzeczy chcê monitorowaæ. Zwykle jest tam rz±d o
-nazwie N (jak Nauka), w którym stawiam kropkê za ka¿de 30 minut pracy umys³owej. Nie chodzi w tym o
-to, ¿eby siê nagradzaæ, albo ¿eby czuæ siê winnym, gdy kropek jest ma³o, tylko ¿eby *zwiêkszyæ
-¶wiadomo¶æ tego, jak ró¿ne codzienne decyzje wp³ywaj± na to, ile siê uczê i kiedy*. Bez tej
-niezwykle skutecznej i gwa³townie zmieniaj±cej nawyki protezy nie mia³bym o tym prawie w ogóle
-pojêcia i mimo szczerych chêci, ¿eby zdzia³aæ co¶ warto¶ciowego, dryfowa³bym gdzie¶ pewnie gnany
-wiatrem namiêtno¶ci. Przez co rozumiem g³ównie, ¿e ogl±da³bym du¿o YouTube'a.
+Kiedy zaleÅ¼y mi, Å¼eby uczyÄ‡ siÄ™ systematycznie dÅ‚uÅ¼ej, robiÄ™ takie maÅ‚e kartki-kalendarze, z
+naniesionymi niechlujnie liniami, na ktÃ³rych widaÄ‡, jak mi idzie. Jest tam 7 kolumn, kaÅ¼da nazwana
+jednym dniem tygodnia i jest tyle rzÄ™dÃ³w, ile akurat rzeczy chcÄ™ monitorowaÄ‡. Zwykle jest tam rzÄ…d o
+nazwie N (jak Nauka), w ktÃ³rym stawiam kropkÄ™ za kaÅ¼de 30 minut pracy umysÅ‚owej. Nie chodzi w tym o
+to, Å¼eby siÄ™ nagradzaÄ‡, albo Å¼eby czuÄ‡ siÄ™ winnym, gdy kropek jest maÅ‚o, tylko Å¼eby *zwiÄ™kszyÄ‡
+Å›wiadomoÅ›Ä‡ tego, jak rÃ³Å¼ne codzienne decyzje wpÅ‚ywajÄ… na to, ile siÄ™ uczÄ™ i kiedy*. Bez tej
+niezwykle skutecznej i gwaÅ‚townie zmieniajÄ…cej nawyki protezy nie miaÅ‚bym o tym prawie w ogÃ³le
+pojÄ™cia i mimo szczerych chÄ™ci, Å¼eby zdziaÅ‚aÄ‡ coÅ› wartoÅ›ciowego, dryfowaÅ‚bym gdzieÅ› pewnie gnany
+wiatrem namiÄ™tnoÅ›ci. Przez co rozumiem gÅ‚Ã³wnie, Å¼e oglÄ…daÅ‚bym duÅ¼o YouTube'a.
 
-W przypadku niektórych rodzajów zachowañ, ale na pewno nie wszystkich, taki monitoring mo¿e byæ
-niezwykle skuteczny i nie trzeba d³ugo czekaæ, ¿eby siê o tym przekonaæ. Warto jednak pamiêtaæ, ¿eby
-stosowaæ go z umiarem. Gdy bêd±c studentem psychologii zacz±³em u¿ywaæ tej metody, w pewnym momencie
-dosz³o do tego, ¿e przez oko³o *dwa lata*, *niemal ka¿dego dnia*, ³±cznie z weekendami, spêdza³em od
-4 do 6 godzin, *nie licz±c przerw*, na systematycznej pracy umys³owej. Poniewa¿ stosowa³em wtedy
-wszystkie te sposoby notowania i uczenia siê, o których przed chwil± pisa³em, moja g³owa by³a
-wype³niona po brzegi psychologi± poznawcz±, statystyk±, metodologi± badañ, jêzykami programowania,
-elementami matematyki i ró¿nymi innymi rzeczami, które akurat wtedy mnie interesowa³y (a mia³em
-wiele ró¿nych, czasem do¶æ kosztownych zainteresowañ). A poniewa¿ moja g³owa by³a tego rodzaju
-sprawami wype³niona stale, to te¿ czêsto o nich mówi³em, nie zawsze zwracaj±c uwagê, czy rozmówca
-by³ tym zainteresowany. Wydaje mi siê, a w³a¶ciwie jestem prawie pewien, ¿e dla mojej ówczesnej
-partnetki to by³o spore wyzwanie. Pó¼niej ju¿ nigdy w nic siê tak nie zanurzy³em i staram siê
-stosowaæ do rady Rachlina, który pisze, cytuj±c [Paula
-Valéry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry), ¿e trzeba byæ lekkim jak ptak, ale nie
-jak piórko. Zreszt± monitoring ma i t± zaskakuj±c± cechê, ¿e mimo tego, ¿e zwykle ewidentnie dzia³a,
-to jednak z jakiego¶ tajemniczego powodu nawet Ci, którzy na nim najbardziej korzystaj±, pêdzej czy
-pó¼niej przestaj± go stosowaæ.
+W przypadku niektÃ³rych rodzajÃ³w zachowaÅ„, ale na pewno nie wszystkich, taki monitoring moÅ¼e byÄ‡
+niezwykle skuteczny i nie trzeba dÅ‚ugo czekaÄ‡, Å¼eby siÄ™ o tym przekonaÄ‡. Warto jednak pamiÄ™taÄ‡, Å¼eby
+stosowaÄ‡ go z umiarem. Gdy bÄ™dÄ…c studentem psychologii zaczÄ…Å‚em uÅ¼ywaÄ‡ tej metody, w pewnym momencie
+doszÅ‚o do tego, Å¼e przez okoÅ‚o *dwa lata*, *niemal kaÅ¼dego dnia*, Å‚Ä…cznie z weekendami, spÄ™dzaÅ‚em od
+4 do 6 godzin, *nie liczÄ…c przerw*, na systematycznej pracy umysÅ‚owej. PoniewaÅ¼ stosowaÅ‚em wtedy
+wszystkie te sposoby notowania i uczenia siÄ™, o ktÃ³rych przed chwilÄ… pisaÅ‚em, moja gÅ‚owa byÅ‚a
+wypeÅ‚niona po brzegi psychologiÄ… poznawczÄ…, statystykÄ…, metodologiÄ… badaÅ„, jÄ™zykami programowania,
+elementami matematyki i rÃ³Å¼nymi innymi rzeczami, ktÃ³re akurat wtedy mnie interesowaÅ‚y (a miaÅ‚em
+wiele rÃ³Å¼nych, czasem doÅ›Ä‡ kosztownych zainteresowaÅ„). A poniewaÅ¼ moja gÅ‚owa byÅ‚a tego rodzaju
+sprawami wypeÅ‚niona stale, to teÅ¼ czÄ™sto o nich mÃ³wiÅ‚em, nie zawsze zwracajÄ…c uwagÄ™, czy rozmÃ³wca
+byÅ‚ tym zainteresowany. Wydaje mi siÄ™, a wÅ‚aÅ›ciwie jestem prawie pewien, Å¼e dla mojej Ã³wczesnej
+partnetki to byÅ‚o spore wyzwanie. PÃ³Åºniej juÅ¼ nigdy w nic siÄ™ tak nie zanurzyÅ‚em i staram siÄ™
+stosowaÄ‡ do rady Rachlina, ktÃ³ry pisze, cytujÄ…c [Paula
+ValÃ©ry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry), Å¼e trzeba byÄ‡ lekkim jak ptak, ale nie
+jak piÃ³rko. ZresztÄ… monitoring ma i tÄ… zaskakujÄ…cÄ… cechÄ™, Å¼e mimo tego, Å¼e zwykle ewidentnie dziaÅ‚a,
+to jednak z jakiegoÅ› tajemniczego powodu nawet Ci, ktÃ³rzy na nim najbardziej korzystajÄ…, pÄ™dzej czy
+pÃ³Åºniej przestajÄ… go stosowaÄ‡.
 
-Nawiasem mówi±c, odkry³em wtedy co¶ niepokoj±cego. Zorientowa³em siê mianowicie, ¿e *pracownicy
-naukowi rzadko siê czego¶ ucz±*. Owszem, czêsto czytaj± artyku³y i ksi±¿ki dotycz±ce tego, czym siê
-akurat zajmuj±, ale nie spotka³em dot±d *¿adnego* pracownika naukowego, który by co¶ systematycznie
-powtarza³[^4]. Ciekawe, prawda? Jednym z powodów jest pewnie brak czasu, ale bior±c pod uwagê
-charakter tej pracy, to jest, mówi±c delikatnie, do¶æ s³aba wymówka. Za to wiêkszo¶æ stara siê du¿o
-*publikowaæ*, co mi akurat wychodzi przeciêtnie, bo rzadko mi siê zdaje, ¿e mam co¶ zarazem nowego i
-warto¶ciowego do opowiedzenia. W³a¶ciwie raz na dobrych kilka lat mi siê tak zdaje, a niema³ej
-czê¶ci publikacji, których jestem wspó³autorem, po prostu siê wstydzê. Je¿eli wiêc chodzi Ci po
-g³owie (w Polsce czêsto marnie op³acana, ale za to wakacje s± d³ugie) tak zwana kariera akademicka i
-studia doktorskie (które kiedy¶ pozostawia³y chyba znacznie wiêcej czasu na rozwijanie siê w
-kierunku zgodnym z *w³asnymi* zainteresowaniami), to moim zdaniem mo¿esz wielu z nas szybko
-prze¶cign±æ w wybranym przez siebie obszarze w³a¶nie dziêki temu. A jak do tego dodasz jeszcze mniej
-lub bardziej regularne æwiczenia z *czytania ze zrozumieniem* (do których skutecznie zmusi³y mnie
-trzy lata studiowania w Krakowie filozofii), to Twoja postawa wobec tego, co mo¿na znale¼æ w
-publikacjach recenzowanych, stanie siê tak krytyczna, ¿e nie zabraknie Ci wiary, ¿e mo¿e kiedy¶ co¶
-wa¿nego zdzia³asz.
+Nawiasem mÃ³wiÄ…c, odkryÅ‚em wtedy coÅ› niepokojÄ…cego. ZorientowaÅ‚em siÄ™ mianowicie, Å¼e *pracownicy
+naukowi rzadko siÄ™ czegoÅ› uczÄ…*. Owszem, czÄ™sto czytajÄ… artykuÅ‚y i ksiÄ…Å¼ki dotyczÄ…ce tego, czym siÄ™
+akurat zajmujÄ…, ale nie spotkaÅ‚em dotÄ…d *Å¼adnego* pracownika naukowego, ktÃ³ry by coÅ› systematycznie
+powtarzaÅ‚[^4]. Ciekawe, prawda? Jednym z powodÃ³w jest pewnie brak czasu, ale biorÄ…c pod uwagÄ™
+charakter tej pracy, to jest, mÃ³wiÄ…c delikatnie, doÅ›Ä‡ sÅ‚aba wymÃ³wka. Za to wiÄ™kszoÅ›Ä‡ stara siÄ™ duÅ¼o
+*publikowaÄ‡*, co mi akurat wychodzi przeciÄ™tnie, bo rzadko mi siÄ™ zdaje, Å¼e mam coÅ› zarazem nowego i
+wartoÅ›ciowego do opowiedzenia. WÅ‚aÅ›ciwie raz na dobrych kilka lat mi siÄ™ tak zdaje, a niemaÅ‚ej
+czÄ™Å›ci publikacji, ktÃ³rych jestem wspÃ³Å‚autorem, po prostu siÄ™ wstydzÄ™. JeÅ¼eli wiÄ™c chodzi Ci po
+gÅ‚owie (w Polsce czÄ™sto marnie opÅ‚acana, ale za to wakacje sÄ… dÅ‚ugie) tak zwana kariera akademicka i
+studia doktorskie (ktÃ³re kiedyÅ› pozostawiaÅ‚y chyba znacznie wiÄ™cej czasu na rozwijanie siÄ™ w
+kierunku zgodnym z *wÅ‚asnymi* zainteresowaniami), to moim zdaniem moÅ¼esz wielu z nas szybko
+przeÅ›cignÄ…Ä‡ w wybranym przez siebie obszarze wÅ‚aÅ›nie dziÄ™ki temu. A jak do tego dodasz jeszcze mniej
+lub bardziej regularne Ä‡wiczenia z *czytania ze zrozumieniem* (do ktÃ³rych skutecznie zmusiÅ‚y mnie
+trzy lata studiowania w Krakowie filozofii), to Twoja postawa wobec tego, co moÅ¼na znaleÅºÄ‡ w
+publikacjach recenzowanych, stanie siÄ™ tak krytyczna, Å¼e nie zabraknie Ci wiary, Å¼e moÅ¼e kiedyÅ› coÅ›
+waÅ¼nego zdziaÅ‚asz.
 
-Na koniec zasugerujê Ci co¶, o czym sam muszê nadal sobie stale przypominaæ: Je¿eli chcesz co¶
-zrobiæ, ale nie mo¿esz siê do tego zabraæ, zrób *jakikolwiek pierwszy krok*. Na przyk³ad, je¿eli
-chcesz zacz±æ siê uczyæ z jakiej¶ ksi±¿ki, otwórz t± ksi±¿kê, albo tylko po³ó¿ j± w widocznym
-miejscu, mo¿e nawet zrób to wtedy, kiedy wcale nie zamierzasz jeszcze zacz±æ. A je¿eli trudno Ci siê
-zmusiæ i do tego, to mo¿esz spróbowaæ zrobiæ pierwszy krok *w kierunku zrobienia pierwszego kroku*,
-na przyk³ad tylko wspomnieæ komu¶, co "chcia³aby¶ chcieæ" zrobiæ[^1]. Na mnie to czasami dzia³a. To
-nie da *gwarancji* sukcesu, bo *nic* nie mo¿e jej daæ, ale mo¿e zwiêkszy Twoje szanse[^2].
+Na koniec zasugerujÄ™ Ci coÅ›, o czym sam muszÄ™ nadal sobie stale przypominaÄ‡: JeÅ¼eli chcesz coÅ›
+zrobiÄ‡, ale nie moÅ¼esz siÄ™ do tego zabraÄ‡, zrÃ³b *jakikolwiek pierwszy krok*. Na przykÅ‚ad, jeÅ¼eli
+chcesz zaczÄ…Ä‡ siÄ™ uczyÄ‡ z jakiejÅ› ksiÄ…Å¼ki, otwÃ³rz tÄ… ksiÄ…Å¼kÄ™, albo tylko poÅ‚Ã³Å¼ jÄ… w widocznym
+miejscu, moÅ¼e nawet zrÃ³b to wtedy, kiedy wcale nie zamierzasz jeszcze zaczÄ…Ä‡. A jeÅ¼eli trudno Ci siÄ™
+zmusiÄ‡ i do tego, to moÅ¼esz sprÃ³bowaÄ‡ zrobiÄ‡ pierwszy krok *w kierunku zrobienia pierwszego kroku*,
+na przykÅ‚ad tylko wspomnieÄ‡ komuÅ›, co "chciaÅ‚abyÅ› chcieÄ‡" zrobiÄ‡[^1]. Na mnie to czasami dziaÅ‚a. To
+nie da *gwarancji* sukcesu, bo *nic* nie moÅ¼e jej daÄ‡, ale moÅ¼e zwiÄ™kszy Twoje szanse[^2].
 
 ### Przypisy
 
-[^1]: [Rekurencj±](https://pl.wikipedia.org/wiki/Rekurencja) albo inaczej rekursj± zajmiemy siê w
-    jednym z pó¼niejszych rozdzia³ów.
+[^1]: [RekurencjÄ…](https://pl.wikipedia.org/wiki/Rekurencja) albo inaczej rekursjÄ… zajmiemy siÄ™ w
+    jednym z pÃ³Åºniejszych rozdziaÅ‚Ã³w.
 
-[^2]: Mo¿e wtedy zadzia³aæ co¶, co za Rachlinem nazwa³bym chêtnie wstêpnym zaanga¿owaniem, gdyby nie
-    to, ¿e ten termin jest zajêty. Mo¿na powiedzieæ, ¿e próbuj±c zastosowaæ t± metod± sami wobec
-    siebie stosujemy technikê [stopy w
+[^2]: MoÅ¼e wtedy zadziaÅ‚aÄ‡ coÅ›, co za Rachlinem nazwaÅ‚bym chÄ™tnie wstÄ™pnym zaangaÅ¼owaniem, gdyby nie
+    to, Å¼e ten termin jest zajÄ™ty. MoÅ¼na powiedzieÄ‡, Å¼e prÃ³bujÄ…c zastosowaÄ‡ tÄ… metodÄ… sami wobec
+    siebie stosujemy technikÄ™ [stopy w
     drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
 
-[^3]: To jest link do darmowej wersji ostatniego wydania, ale ja, z ró¿nych powodów, wolê akurat
+[^3]: To jest link do darmowej wersji ostatniego wydania, ale ja, z rÃ³Å¼nych powodÃ³w, wolÄ™ akurat
     wydanie drugie.
 
-[^4]: Pracownicy naukowi zadziwiaj±co rzadko te¿ *notuj±*, kiedy s³uchaj± wyst±pieñ lub uczestnicz±
-    w dyskusjach naukowych, a przecie¿ ¿aden mózg nie robi siê z wiekiem coraz m³odszy.
+[^4]: Pracownicy naukowi zadziwiajÄ…co rzadko teÅ¼ *notujÄ…*, kiedy sÅ‚uchajÄ… wystÄ…pieÅ„ lub uczestniczÄ…
+    w dyskusjach naukowych, a przecieÅ¼ Å¼aden mÃ³zg nie robi siÄ™ z wiekiem coraz mÅ‚odszy.

@@ -1,35 +1,35 @@
-# Polimorfizm, czyli kontrolowana wieloznaczno¶æ
+# Polimorfizm, czyli kontrolowana wieloznacznoÅ›Ä‡
 
-Gdy na codzieñ mówimy o "zrobieniu obiadu", mo¿e nam chodziæ o przeró¿ne *procesy fizyczne*. Mimo
-ró¿nic, te procesy bêd± jednak *rozwi±zywa³y podobne problemy w podobny sposób*, czyli bêd± podobne
-*funkcjonalnie*, to jest pod wzglêdem *sposobu dzia³ania*, a wiêc w innym znaczeniu s³owa "funkcja"
-ni¿ przyporz±dkowanie unikalnych warto¶ci czy obiektów. Czasami interesuje nas, o jaki konkretnie
-obiad chodzi, albo w jaki konkretnie sposób obiad ma byæ lub zosta³ zrobiony, ale czasami nas to nie
-interesuje i wtedy trudno siê obej¶æ bez mówienia w skrótowy, celowo wieloznaczny sposób o zrobieniu
-(*jakiego¶*) obiadu (*w jaki¶ sposób*).
+Gdy na codzieÅ„ mÃ³wimy o "zrobieniu obiadu", moÅ¼e nam chodziÄ‡ o przerÃ³Å¼ne *procesy fizyczne*. Mimo
+rÃ³Å¼nic, te procesy bÄ™dÄ… jednak *rozwiÄ…zywaÅ‚y podobne problemy w podobny sposÃ³b*, czyli bÄ™dÄ… podobne
+*funkcjonalnie*, to jest pod wzglÄ™dem *sposobu dziaÅ‚ania*, a wiÄ™c w innym znaczeniu sÅ‚owa "funkcja"
+niÅ¼ przyporzÄ…dkowanie unikalnych wartoÅ›ci czy obiektÃ³w. Czasami interesuje nas, o jaki konkretnie
+obiad chodzi, albo w jaki konkretnie sposÃ³b obiad ma byÄ‡ lub zostaÅ‚ zrobiony, ale czasami nas to nie
+interesuje i wtedy trudno siÄ™ obejÅ›Ä‡ bez mÃ³wienia w skrÃ³towy, celowo wieloznaczny sposÃ³b o zrobieniu
+(*jakiegoÅ›*) obiadu (*w jakiÅ› sposÃ³b*).
 
-Gdy w matematyce mówimy o "dodawaniu", mo¿e nam chodziæ o dodawanie liczb naturalnych, wymiernych,
-rzeczywistych, zespolonych, wektorów, macierzy, ci±gów, funkcji, albo innych obiektów. Szczegó³y
-dzia³ania operacji s± wtedy za ka¿dym razem inne, jednak podobieñstwo funkcjonalne jest na tyle
-wyra¼ne albo - przynajmniej w danym kontek¶cie - wa¿ne, ¿e u¿ywanie do tego celu tej samej nazwy,
-atego samego symbolu, i tego samego lub bardzo podobnego sposobu zapisywania dzia³añ sprawdza siê
-znacznie lepiej, ni¿ komplikowanie notacji w celu unikniêcia wieloznaczno¶ci.
+Gdy w matematyce mÃ³wimy o "dodawaniu", moÅ¼e nam chodziÄ‡ o dodawanie liczb naturalnych, wymiernych,
+rzeczywistych, zespolonych, wektorÃ³w, macierzy, ciÄ…gÃ³w, funkcji, albo innych obiektÃ³w. SzczegÃ³Å‚y
+dziaÅ‚ania operacji sÄ… wtedy za kaÅ¼dym razem inne, jednak podobieÅ„stwo funkcjonalne jest na tyle
+wyraÅºne albo - przynajmniej w danym kontekÅ›cie - waÅ¼ne, Å¼e uÅ¼ywanie do tego celu tej samej nazwy,
+atego samego symbolu, i tego samego lub bardzo podobnego sposobu zapisywania dziaÅ‚aÅ„ sprawdza siÄ™
+znacznie lepiej, niÅ¼ komplikowanie notacji w celu unikniÄ™cia wieloznacznoÅ›ci.
 
-To tylko dwa przyk³ady celowej i bardzo przydatnej, a w³a¶ciwie nieodzownej wieloznaczno¶ci. To
-jednocze¶nie dwa przyk³ady czego¶, co mo¿na by nazwaæ *abstrakcj± funkcjonaln±*, a co odgrywa
-fundamentaln± rolê w psychologii, poniewa¿ centralnym przedmiotem badañ w psychologii s±
-*abstrakcyjnie* rozumiane *zachowania*, a zachowania s± tym, czym s±, to jest zachowaniami,
-dok³adnie dlatego, ¿e *czemu¶ s³u¿±*, to jest (w przybli¿eniu) *rozwi±zuj± jaki¶ problem*. A tak
-naprawdê wypada³oby tego rodzaju wieloznaczno¶ci nazwaæ po prostu *abstrakcj±*, poniewa¿ *nie ma
-innej abstrakcji ni¿ funkcjonalna*. Abstrakcyjno¶æ jest przecie¿ w³asno¶ci± *pojêæ* (ogólno¶æ i
-wieloznaczno¶æ) i *reprezentacji* (te¿ ogólno¶æ i wieloznaczno¶æ), a *pojêcie pojêcia jest pojêciem
-funkcjonalnym* (poniewa¿ pojêcia s± tym, czym s±, poniewa¿ (w pewien sposób) *u¿ywaj±* ich pewne
-gatunki zwierz±t).
+To tylko dwa przykÅ‚ady celowej i bardzo przydatnej, a wÅ‚aÅ›ciwie nieodzownej wieloznacznoÅ›ci. To
+jednoczeÅ›nie dwa przykÅ‚ady czegoÅ›, co moÅ¼na by nazwaÄ‡ *abstrakcjÄ… funkcjonalnÄ…*, a co odgrywa
+fundamentalnÄ… rolÄ™ w psychologii, poniewaÅ¼ centralnym przedmiotem badaÅ„ w psychologii sÄ…
+*abstrakcyjnie* rozumiane *zachowania*, a zachowania sÄ… tym, czym sÄ…, to jest zachowaniami,
+dokÅ‚adnie dlatego, Å¼e *czemuÅ› sÅ‚uÅ¼Ä…*, to jest (w przybliÅ¼eniu) *rozwiÄ…zujÄ… jakiÅ› problem*. A tak
+naprawdÄ™ wypadaÅ‚oby tego rodzaju wieloznacznoÅ›ci nazwaÄ‡ po prostu *abstrakcjÄ…*, poniewaÅ¼ *nie ma
+innej abstrakcji niÅ¼ funkcjonalna*. AbstrakcyjnoÅ›Ä‡ jest przecieÅ¼ wÅ‚asnoÅ›ciÄ… *pojÄ™Ä‡* (ogÃ³lnoÅ›Ä‡ i
+wieloznacznoÅ›Ä‡) i *reprezentacji* (teÅ¼ ogÃ³lnoÅ›Ä‡ i wieloznacznoÅ›Ä‡), a *pojÄ™cie pojÄ™cia jest pojÄ™ciem
+funkcjonalnym* (poniewaÅ¼ pojÄ™cia sÄ… tym, czym sÄ…, poniewaÅ¼ (w pewien sposÃ³b) *uÅ¼ywajÄ…* ich pewne
+gatunki zwierzÄ…t).
 
-Ok, spróbujê siê ogarn±æ. 
+Ok, sprÃ³bujÄ™ siÄ™ ogarnÄ…Ä‡. 
 
-Na przyk³ad, *macierz* to tablica liczb. Jak to tablica, ka¿da macierz ma okre¶lon± liczbê rzêdów i
-liczbê kolumn, przy czym liczbê rzêdów przyjê³o siê podawaæ najpierw. I tak, ...
+Na przykÅ‚ad, *macierz* to tablica liczb. Jak to tablica, kaÅ¼da macierz ma okreÅ›lonÄ… liczbÄ™ rzÄ™dÃ³w i
+liczbÄ™ kolumn, przy czym liczbÄ™ rzÄ™dÃ³w przyjÄ™Å‚o siÄ™ podawaÄ‡ najpierw. I tak, ...
 
 ```math
 \begin{bmatrix}
@@ -46,20 +46,20 @@ liczbê kolumn, przy czym liczbê rzêdów przyjê³o siê podawaæ najpierw. I tak, ...
 \end{bmatrix}
 ```
 
-... to przyk³ad dodawania dwóch macierzy o wymiarach $2 \times 3$. Zale¿nie od kontekstu, (ogólne,
-parametryczne) równanie ...
+... to przykÅ‚ad dodawania dwÃ³ch macierzy o wymiarach $2 \times 3$. ZaleÅ¼nie od kontekstu, (ogÃ³lne,
+parametryczne) rÃ³wnanie ...
 
 ```math
 0 + m = m
 ```
 
-... mo¿e oznaczaæ ...
+... moÅ¼e oznaczaÄ‡ ...
 
-Dodanie liczby naturalnej $0$ do dowolnej liczby naturalnej $m$ daje liczbê naturaln± $m$.
+Dodanie liczby naturalnej $0$ do dowolnej liczby naturalnej $m$ daje liczbÄ™ naturalnÄ… $m$.
 
-Dodanie liczby rzeczywistej $0$ do dowolnej liczby rzeczywistej $m$ daje liczbê rzeczywist± $m$.
+Dodanie liczby rzeczywistej $0$ do dowolnej liczby rzeczywistej $m$ daje liczbÄ™ rzeczywistÄ… $m$.
 
-Dodanie liczby zespolonej $0$ do dowolnej liczby zespolonej $m$ daje liczbê zespolon± $m$.
+Dodanie liczby zespolonej $0$ do dowolnej liczby zespolonej $m$ daje liczbÄ™ zespolonÄ… $m$.
 
 Dodanie macierzy zerowej do dowolnej macierzy $m$ o tych samych wymiarach daje macierz $m$.
 
@@ -67,54 +67,54 @@ Dodanie macierzy zerowej do dowolnej macierzy $m$ o tych samych wymiarach daje m
 
 Dodanie liczby $0$ do dowolnej macierzy $m$ daje macierz $m$.
 
-Dodanie liczby zespolonej $0$ do dowolnej liczby rzeczywistej $m$ daje liczbê zespolon± $m$.
+Dodanie liczby zespolonej $0$ do dowolnej liczby rzeczywistej $m$ daje liczbÄ™ zespolonÄ… $m$.
 
-Dodanie liczby zespolonej $0$ do dowolnej liczby rzeczywistej $m$ daje liczbê rzeczywist± $m$.
+Dodanie liczby zespolonej $0$ do dowolnej liczby rzeczywistej $m$ daje liczbÄ™ rzeczywistÄ… $m$.
 
-... albo co¶ jeszcze innego. Ostatnie trzy przyk³ady dotycz± "dodawania heterogenicznego", to jest
-dodawania obiektów *ró¿nych* typów. W ka¿dym z tych przypadków zastosowanie tego samego zapisu jest
-*uzasadnione*, poniewa¿ za ka¿dym razem:
+... albo coÅ› jeszcze innego. Ostatnie trzy przykÅ‚ady dotyczÄ… "dodawania heterogenicznego", to jest
+dodawania obiektÃ³w *rÃ³Å¼nych* typÃ³w. W kaÅ¼dym z tych przypadkÃ³w zastosowanie tego samego zapisu jest
+*uzasadnione*, poniewaÅ¼ za kaÅ¼dym razem:
 
-To, co oznacza symbol $0$ jest elementem neutralnym ze wzglêdu na dzia³anie, które oznacza symbol
-$+$, i to dzia³anie jest ³±czne, przemienne, a ka¿dy obiekt rozwa¿anego typu ma odwrotno¶æ ze
-wzglêdu na to dzia³anie.
+To, co oznacza symbol $0$ jest elementem neutralnym ze wzglÄ™du na dziaÅ‚anie, ktÃ³re oznacza symbol
+$+$, i to dziaÅ‚anie jest Å‚Ä…czne, przemienne, a kaÅ¼dy obiekt rozwaÅ¼anego typu ma odwrotnoÅ›Ä‡ ze
+wzglÄ™du na to dziaÅ‚anie.
 
-Czy widzisz, ¿e to jest *czysto funkcjonalny* opis obiektu "zas³uguj±cego" na symbol $0$ i dzia³ania
-"zas³uguj±cego" na symbol $+$? W tym opisie nie ma *ani s³owa* na temat szczegó³ów implementacji
-tego dzia³ania, czyli na temat tego, jak "konkretnie" to dzia³anie dzia³a.
+Czy widzisz, Å¼e to jest *czysto funkcjonalny* opis obiektu "zasÅ‚ugujÄ…cego" na symbol $0$ i dziaÅ‚ania
+"zasÅ‚ugujÄ…cego" na symbol $+$? W tym opisie nie ma *ani sÅ‚owa* na temat szczegÃ³Å‚Ã³w implementacji
+tego dziaÅ‚ania, czyli na temat tego, jak "konkretnie" to dziaÅ‚anie dziaÅ‚a.
 
-Pos³uguj±c siê takim czysto funkcjonalnym sposobem mówienia mo¿emy powiedzieæ, ¿e:
+PosÅ‚ugujÄ…c siÄ™ takim czysto funkcjonalnym sposobem mÃ³wienia moÅ¼emy powiedzieÄ‡, Å¼e:
 
-A1. Istnieje dzia³anie (binarne) na liczbach naturalnych, które oznaczamy zwykle za pomoc± symbolu
-$+$ i nazywamy *dodawaniem*, takie, ¿e:
+A1. Istnieje dziaÅ‚anie (binarne) na liczbach naturalnych, ktÃ³re oznaczamy zwykle za pomocÄ… symbolu
+$+$ i nazywamy *dodawaniem*, takie, Å¼e:
 
-A2. Istnieje liczba naturalna, któr± oznaczamy zwykle za pomoc± symbolu $0$ taka, ¿e:
+A2. Istnieje liczba naturalna, ktÃ³rÄ… oznaczamy zwykle za pomocÄ… symbolu $0$ taka, Å¼e:
 
-A3. Je¿eli $m$ jest dowoln± liczb± naturaln±, to $0 + m = m$,
+A3. JeÅ¼eli $m$ jest dowolnÄ… liczbÄ… naturalnÄ…, to $0 + m = m$,
 
-A4. a ponadto, je¿eli $n$ i $k$ s± równie¿ (niekoniecznie ró¿nymi) liczbami naturalnymi, to $n + m =
-m + n$ (przemienno¶æ dodawania),
+A4. a ponadto, jeÅ¼eli $n$ i $k$ sÄ… rÃ³wnieÅ¼ (niekoniecznie rÃ³Å¼nymi) liczbami naturalnymi, to $n + m =
+m + n$ (przemiennoÅ›Ä‡ dodawania),
 
-A5. $(m + n) + k = m + (n + k)$ (³±czno¶æ dodawania),
+A5. $(m + n) + k = m + (n + k)$ (Å‚Ä…cznoÅ›Ä‡ dodawania),
 
-A6. i istnieje liczba naturalna $l$ taka, ¿e $m + l = 0$ (odwracalno¶æ dodawania).
+A6. i istnieje liczba naturalna $l$ taka, Å¼e $m + l = 0$ (odwracalnoÅ›Ä‡ dodawania).
 
-Tak± liczbê $l$ nazywamy liczb± *przeciwn±* wzglêdem $n$ i oznaczamy jako $-n$. Gdyby chodzi³o o
-co¶, co *nazywamy mno¿eniem*, nazwaliby¶my tak± liczbê liczb± *odwrotn±*, ale to jest w istocie to
-samo pojêcie, i te dwa ró¿ne okre¶lenia s± potrzebne tylko wtedy, gdy mamy jednocze¶nie do czynienia
-z *dwoma* dzia³aniami, które maj± siê do siebie jak dodawanie i mno¿enie liczb.
+TakÄ… liczbÄ™ $l$ nazywamy liczbÄ… *przeciwnÄ…* wzglÄ™dem $n$ i oznaczamy jako $-n$. Gdyby chodziÅ‚o o
+coÅ›, co *nazywamy mnoÅ¼eniem*, nazwalibyÅ›my takÄ… liczbÄ™ liczbÄ… *odwrotnÄ…*, ale to jest w istocie to
+samo pojÄ™cie, i te dwa rÃ³Å¼ne okreÅ›lenia sÄ… potrzebne tylko wtedy, gdy mamy jednoczeÅ›nie do czynienia
+z *dwoma* dziaÅ‚aniami, ktÃ³re majÄ… siÄ™ do siebie jak dodawanie i mnoÅ¼enie liczb.
 
-U¿ywanie s³owa *dodawanie* i symboli $+$ i $0$ w taki wieloznaczny sposób jest nie tylko
-*uzasadnione*, jest równie¿ *bardzo przydatne*, poniewa¿ umo¿liwia daleko id±c± *ekonomiê ¶rodków* -
-my¶lenia, programowania, a najogólniej mówi±c ... dzia³ania.
+UÅ¼ywanie sÅ‚owa *dodawanie* i symboli $+$ i $0$ w taki wieloznaczny sposÃ³b jest nie tylko
+*uzasadnione*, jest rÃ³wnieÅ¼ *bardzo przydatne*, poniewaÅ¼ umoÅ¼liwia daleko idÄ…cÄ… *ekonomiÄ™ Å›rodkÃ³w* -
+myÅ›lenia, programowania, a najogÃ³lniej mÃ³wiÄ…c ... dziaÅ‚ania.
 
-## Algebra abstrakcyjna, rekordy, klasy typów i polimorfizm ad-hoc
+## Algebra abstrakcyjna, rekordy, klasy typÃ³w i polimorfizm ad-hoc
 
-Wszystkie rozwa¿ane przyk³ady s± przypadkami szczególnymi, albo (w terminologii informatycznej)
-*instancjami*, ogólnej (abstrakcyjnej) [*struktury
-algebraicznej*](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna) nazywanej [*grup±
-przemienn±*](https://pl.wikipedia.org/wiki/Grupa_przemienna) inaczej *abelow±*.
+Wszystkie rozwaÅ¼ane przykÅ‚ady sÄ… przypadkami szczegÃ³lnymi, albo (w terminologii informatycznej)
+*instancjami*, ogÃ³lnej (abstrakcyjnej) [*struktury
+algebraicznej*](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna) nazywanej [*grupÄ…
+przemiennÄ…*](https://pl.wikipedia.org/wiki/Grupa_przemienna) inaczej *abelowÄ…*.
 
 
 
-BEZ POLIMORFIZMU AD-HOC MO¯NA SIÊ OBEJ¦Æ, ALE NIE WARTO
+BEZ POLIMORFIZMU AD-HOC MOÅ»NA SIÄ˜ OBEJÅšÄ†, ALE NIE WARTO
