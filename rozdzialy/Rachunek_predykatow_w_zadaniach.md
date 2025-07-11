@@ -59,7 +59,7 @@ chodzi, chociaż zapisaliśmy tylko trzy pary; to znaczy, rozumiemy dokładnie n
 dopasowanie i wiemy, że to jest izomorfizm.
 
 Przy okazji odkrywamy więc, że zbiór zdań `Z` musi być w tym kontekście albo pusty (ale to by było
-całkiem bez sensu), albo musi mieć nieskończenie wiele elementów, inaczej żaden jego podzbiór
+całkiem bez sensu[^1]), albo musi mieć nieskończenie wiele elementów, inaczej żaden jego podzbiór
 *właściwy*, to jest nie zawierający wszystkich elementów należących do `Z`, nie mógłby być z nim
 izomorficzny. Można powiedzieć, że fakt, że zdań jest nieskończenie wiele, wynika tu z
 "endo-generatywności" operacji takich jak tworzenie koniunkcji zdań: Zdania atomowe są zdaniami,
@@ -271,3 +271,7 @@ example : (∀ x, p x) ↔ ¬ (∃ x, ¬ p x) := sorry
 
 end
 ```
+
+### Przypisy
+
+[^1]: Za to z humorem!
