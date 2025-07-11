@@ -118,15 +118,16 @@ widzisz, to wyjaśniam, że wyrażenie takie jak `p₁` to też funkcja, a racze
 to jest funkcji `p` dla argumentu `1`, tylko zapisana tak, żeby ten fakt do pewnego stopnia ukryć
 stosując indeks dolny.
 
-Możemy podać taką "skundloną", bo kategoryjno-mnogościową definicję tego uogólnionego produktu:
-Produktem indeksowanym będziemy nazywali taką *funkcję* (tu między innymi widać teoriomnogościowość
-tej definicji) `π` z jakiegoś zbioru `I` (który możemy zechcieć nazywać zbiorem indeksów) do zbioru
-strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest tutaj wspólnym punktem zaczepienia wszystkich projekcji),
-że dla każdego obiektu `X` i dla każdej funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))`
-(ta funkcja koduje nam po prostu jakieś strzałki z `X` do obiektów `cod(π(i))` "na końcach"
-projekcji produktu), istnieje unikalna strzałka `h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ
-`h` jest taką unikalną strzałką, naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`,
-albo - zakładając domyślność odbiorców - jako `Π i, f(i)`, albo nawet jako `Π f(i)`.
+Możemy podać taką "skundloną", bo kategoryjno-mnogościową definicję tego - na razie tylko
+"nieformalnie przeczuwanego" - uogólnionego produktu: Produktem indeksowanym będziemy nazywali taką
+*funkcję* (tu między innymi widać teoriomnogościowość tej definicji) `π` z jakiegoś zbioru `I`
+(który możemy zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest
+tutaj wspólnym punktem zaczepienia wszystkich projekcji), że dla każdego obiektu `X` i dla każdej
+funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))` (ta funkcja koduje nam po prostu jakieś
+strzałki z `X` do obiektów `cod(π(i))` "na końcach" projekcji produktu), istnieje unikalna strzałka
+`h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną strzałką, naturalnym
+wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność odbiorców - jako `Π
+i, f(i)`, albo nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
