@@ -1,10 +1,15 @@
 ## O czym teraz będzie
 
 Kończymy z podstawami rachunku predykatów! Oczywiście żartuję, nigdy z nimi nie skończymy, bo
-niczego nie da się tak naprawdę do końca zrozumieć. Większość tych zadań "ukradłem" ze znakomitej
-książki [*Theorem Proving in Lean 4*](https://lean-lang.org/theorem_proving_in_lean4/), dodałem
-tylko (agresywnie dezorientujące) komentarze. Na wszelki wypadek uprzedzam, że to *nie* jest tylko
-seria zadań; w komentarzach mówię tu o pewnych sprawach, do których będę później nawiązywał.
+niczego nie da się tak naprawdę do końca zrozumieć. Patrząc na te sprawy z lotu ptaka widać moim
+zdaniem doskonale, że wszyscy bez wyjątku jesteśmy z osobna często i do końca będziemy często bywać
+kompletnymi debilami, a to, jak wspaniale działa współczesna cywilizacja, zawdzięczamy wyłącznie
+istnieniu rozmaitych form długotrwałej, zorganizowanej współpracy. 
+
+Podobnie jak to ma miejsce w przypadku poprzedniego rozdziału, większość tych zadań "ukradłem" ze
+znakomitej książki [*Theorem Proving in Lean 4*](https://lean-lang.org/theorem_proving_in_lean4/),
+dodałem tylko (jak to u mnie agresywnie dezorientujące) komentarze. Na wszelki wypadek uprzedzam, że
+to *nie* jest tylko seria zadań; mówię tu o pewnych sprawach, do których będę później nawiązywał.
  
 Proszę zgłaszać trudności.
 
