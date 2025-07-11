@@ -134,7 +134,8 @@ nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu i
 uzyskujemy gdy `I = {1, 2}`. Możemy teraz "formalnie rozpoznać" zdania o postaci `∀ x, P x` jako
 szczególne przypadki produktu indeksowanego. I dualnie, zdania o postaci `∃ x, P x` rozpoznajemy
 jako szczególne przypadki koproduktu indeksowanego, który wypadałoby wtedy zapisywać (skrótowo) w
-stylu `Σ x, P x`.
+stylu `Σ x, P x`. Szczegółami tej ostatniej konstrukcji nie musimy się teraz przejmować, bo jest
+dualna, a więc w zasadzie taka sama, tyle, że "działa" w pewnym sensie "odwrotnie".
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
 znaczy *w jakiej kategorii*, takie uogólnione produkty i koprodukty się znajdują. A w jakiejś muszą,
