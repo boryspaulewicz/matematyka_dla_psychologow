@@ -22,8 +22,9 @@ się między różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli 
 próby bardziej Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu za
 wcześnie. Trzeba z tym wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo utrwalą się
 w Twojej pamięci, że będziesz mogła je traktować jak niemal autonomiczne byty, które możesz w każdej
-chwili (o ile będziesz wyspana i trzeźwa) mentalnie przywołać, a raz przywołane badać i
-przekształcać, oglądając je z różnych stron.
+chwili (o ile będziesz wyspana i trzeźwa) mentalnie
+[przywołać](https://www.etymonline.com/word/summon), a raz przywołane badać i przekształcać,
+oglądając je z różnych stron.
 
 ## Rachunek predykatów z kategoryjnego punktu widzenia
 
@@ -43,9 +44,9 @@ Wyrażenia takie jak `p ∧ q`, gdzie `p` i `q` to zdania, moglibyśmy równie d
 powstające z par zdań, a chcielibyśmy takie pary rozróżniać. W Leanie, na przykład, robimy to za
 pomocą różnych stałych, takich jak `And` i `Or`. Tak więc niech `∧` oznacza na początek jakiś
 *izomorf zbioru* zawierającego wszystkie uporządkowane pary zdań, to jest `∧ ≅ Z × Z`, gdzie `Z` to
-zbiór zdań. Wyrażenie takie jak `(p, q) ∈ ∧` będzie oznaczało odtąd to samo, co wcześniej `p ∧
-q`. Moglibyśmy korzystać z tego sposobu kodowania zdań złożonych konstruując dowody, ale do *tego*
-celu ten sposób nie bardzo się nadaje.
+zbiór wszystkich zdań. Wyrażenie takie jak `(p, q) ∈ ∧` będzie oznaczało odtąd to samo, co wcześniej
+`p ∧ q`. Moglibyśmy korzystać z tego sposobu kodowania zdań złożonych konstruując dowody, ale do
+*tego* celu ten sposób nie bardzo się nadaje.
 
 Ale jak to izomorf? Przecież jeżeli `Z` to zbiór *wszystkich* zdań, to taki zbiór zawiera zdania,
 które *nie* są koniunkcjami, jak również *wszystkie* koniunkcje, a zbiór `Z × Z` nie może być
@@ -54,7 +55,7 @@ mniejszy niż `Z`. No tak, masz rację, ale z drugiej strony, *każda* para zda�
 parze zdań (z której ta koniunkcja jest zrobiona). Czyli to *musi* być izomorf, a to, że trudno się
 z tym pogodzić, to tylko nasze psychologiczne organiczenie. Liczb naturalnych też jest tyle samo, co
 na przykład liczb naturalnych dodatnich, inaczej nie byłoby między tymi dwoma zbiorami
-izomorfizmu. Żeby to zauważyć, wystarczy napisać pionowo na kartce jedna pod drugą liczby `0`, `1` i
+izomorfizmu. Żeby to zauważyć, wystarczy zapisać pionowo na kartce jedna pod drugą liczby `0`, `1` i
 `2`, a obok tych liczb zapisać `0`, `2`, `4` (zero jest liczbą dodatnią). I od razu wiemy o co
 chodzi, chociaż zapisaliśmy tylko trzy pary; to znaczy, rozumiemy dokładnie na czym polega to
 dopasowanie i wiemy, że to jest izomorfizm.
@@ -67,7 +68,7 @@ izomorficzny. Można powiedzieć, że fakt, że zdań jest nieskończenie wiele,
 więc jeśli dla każdej pary zdań, ich koniunkcja jest też ("nowym") zdaniem, to gdyby nawet "na
 początku" było tylko jedno zdanie atomowe `a`, to z reguły mówiącej, że koniunkcje też są zdaniami,
 wynikałoby "natychmiast", że `a ∧ a` też jest zdaniem, `(a ∧ a) ∧ a` też jest zdaniem, `((a ∧ a) ∧
-a) ∧ a` też jest zdaniem, i tak dalej.
+a) ∧ a` też jest zdaniem, `a ∧ (a ∧ a)` jest zdaniem, i tak dalej.
 
 Ciekawy "proces", prawda? Mówimy przecież o *definicji* (indukcyjnej), która "działa logicznie", a
 więc *nie w czasie fizycznym*. Gdy na przykład decydujemy, że zdaniami, a formalnie elementami
@@ -90,9 +91,9 @@ abstrakcyjnych, ale jednak *czynności*, takich jak czynność "dosypywania". Je
 trudno myśleć o regułach definicji indukcyjnych jako o *statycznych prawach*; jest to więc coś, do
 czego muszę się czasem (mechanicznie) zmusić. Za to gdy tylko *pomyślę* o tych regułach *w inny
 sposób*, jako o *regułach weryfikacji*, czy coś jest zdaniem, zamiast jako o *regułach tworzenia*
-zdań, problem nagle znika. Wtedy muszę się pogodzić tylko z tym, że zdań jest nieskończenie wiele,
-co akurat przychodzi mi łatwo. A to przecież tylko jeden przykład tego, jak zmiana punktu widzenia
-może dramatycznie ułatwić "kontakt" z jakimś problemem.
+zdań, ten psychologiczny problem szybko znika. Wtedy muszę się pogodzić tylko z tym, że zdań jest
+nieskończenie wiele, co akurat przychodzi mi łatwo. A to przecież tylko jeden przykład tego, jak
+zmiana punktu widzenia może dramatycznie ułatwić kontakt z jakimś problemem.
 
 Wracając na ziemię, zauważmy teraz, że pary uporządkowane złożone z elementów jakiegoś zbioru `X`
 można *równie dobrze*, to jest ani nie tracąc, ani nie dodając żadnej informacji czy
@@ -122,19 +123,22 @@ widać, że `p ∧ q` to coś takiego jak `Π i ∈ {1, 2}, p₁` (gdzie `p₁ =
 x` to coś takiego jak `Π x ∈ X, P x`, przy czym w obydwu przypadkach `Π i ∈ I, f(i)` oznacza
 (uogólniony) produkt wartości pewnej funkcji `f` dla indeksów `i ∈ I`. Jeżeli tego jeszcze nie
 widzisz, to wyjaśniam, że wyrażenie takie jak `p₁` to też funkcja, a raczej wartość pewnej funkcji,
-to jest funkcji `p` dla argumentu `1`, tylko zapisana tak, żeby ten fakt do pewnego stopnia ukryć
-stosując indeks dolny.
+a dokładniej mówiąc wartość funkcji `p` dla argumentu `1`, tylko zapisana tak, żeby ten fakt do
+pewnego stopnia ukryć stosując indeks dolny.
 
 Możemy podać taką "skundloną", bo kategoryjno-mnogościową definicję tego - na razie tylko
 "nieformalnie przeczuwanego" - uogólnionego produktu: Produktem indeksowanym będziemy nazywali taką
 *funkcję* (tu między innymi widać teoriomnogościowość tej definicji) `π` z jakiegoś zbioru `I`
 (który możemy zechcieć nazywać zbiorem indeksów) do zbioru strzałek `{P → Y | Y ∈ Ob(ℂ)}` (`P` jest
 tutaj wspólnym punktem zaczepienia wszystkich projekcji), że dla każdego obiektu `X` i dla każdej
-funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))` (ta funkcja koduje nam po prostu jakieś
-strzałki z `X` do obiektów `cod(π(i))` "na końcach" projekcji produktu, po jednej dla kadego `i`),
-istnieje unikalna strzałka `h` taka, że `∀ i ∈ I, π(i) ∘ h = f(i)`. Ponieważ `h` jest taką unikalną
-strzałką, naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając
-domyślność odbiorców - jako `Π i, f(i)`, albo nawet jako `Π f(i)`.
+funkcji `f : I → Ar(ℂ)` takiej, że `f(i) : X → cod(π(i))`, istnieje unikalna strzałka `h` taka, że
+`∀ i ∈ I, π(i) ∘ h = f(i)`. Funkcja `π` posyła każdy indeks `i ∈ I` w unikalną projekcję `π(i) : P →
+Y` dla pewnego `Y ∈ Ob(ℂ)`, a każda funkcja `f` o wspomnianej postaci w taki sam sposób koduje
+jakieś strzałki z jakiegoś `X` do obiektów `cod(π(i))`, będących celami projekcji produktu, po
+jednej dla kadego `i`. W szczególności, gdy `I = {1, 2}`, funkcja `π` oznacza jako pierwszą i drugą
+dwie projekcje, do dwóch, niekoniecznie różnych obiektów. Ponieważ `h` jest unikalną taką strzałką,
+naturalnym wyborem będzie oznaczanie jej jako `Π i ∈ I, f(i)`, albo - zakładając domyślność
+odbiorców - jako `Π i, f(i)`, albo nawet jako `Π f(i)`.
 
 Zarówno notacja jak i terminologia zrobiły się nam co prawda bardziej skomplikowane, ale chyba
 nietrudno dostrzec, że produkt binarny jest szczególnym przypadkiem produktu indeksowanego, który
@@ -142,7 +146,9 @@ uzyskujemy gdy `I = {1, 2}`. Możemy teraz "formalnie rozpoznać" zdania o posta
 szczególne przypadki produktu indeksowanego. I dualnie, zdania o postaci `∃ x, P x` rozpoznajemy
 jako szczególne przypadki koproduktu indeksowanego, który wypadałoby wtedy zapisywać (skrótowo) w
 stylu `Σ x, P x`. Szczegółami tej ostatniej konstrukcji nie musimy się teraz przejmować, bo jest
-dualna, a więc w zasadzie taka sama, tyle, że "działa" w pewnym sensie "odwrotnie".
+dualna, a więc w zasadzie taka sama, tyle, że "działa" (my już tam wiemy, że powinno być raczej
+*funkcjonuje*, ...) w pewnym sensie "odwrotnie" (... i wtedy powiedzielibyśmy, że *dosłownie*
+odwrotnie).
 
 Musimy jednak pamiętać, że nie powiedzieliśmy dotąd *nic* na temat tego, *gdzie dokładnie*, to
 znaczy *w jakiej kategorii*, takie uogólnione produkty i koprodukty się znajdują. A w jakiejś muszą,
