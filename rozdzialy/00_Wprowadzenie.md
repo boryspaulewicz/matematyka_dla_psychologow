@@ -125,7 +125,8 @@ uczyłem się trudnego materiału, wykonując, czasem przez wiele miesięcy albo
 odleglejsze w czasie, generatywne powtórki. I wiele razy w trakcie powtarzania zauważałem, że moje
 wcześniejsze poczucie zrozumienia było złudne. Może to truizm, ale taki, o którym łatwo jest
 zapomnieć: Ponieważ nawet na najprostsze sprawy można popatrzeć z nowego punktu widzenia, rozumienie
-to jest coś, do czego można stale *dążyć*, ale co rzadko, o ile kiedykolwiek, można *osiągnąć*.
+to jest coś, do czego można stale *dążyć*, ale co rzadko, o ile kiedykolwiek, można
+*osiągnąć*. Dlatego też nigdy nic nie przestanie być ciekawe.
 
 Rozdziały od czwartego do szóstego nie są długie. Przeczytanie ich i wykonanie poleceń powinno Ci
 zająć nie więcej niż półtorej albo dwie godziny. Poza tym ta książka jest całkowicie
@@ -293,3 +294,5 @@ co tylko się chce. What one fool can do, another can.
     przez moją osobę autorską uznane za trafne i jako takie trafiły do tego przypisu.
 
 [^3]: ang. [*lean*](https://en.wikipedia.org/wiki/Lean_(proof_assistant)).
+
+[^4]: Na przykład, negacja nigdy nie będzie nieciekawa.
