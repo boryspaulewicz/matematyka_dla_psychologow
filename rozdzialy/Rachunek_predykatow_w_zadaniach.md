@@ -155,7 +155,7 @@ elementem zbioru, którego dotyczy `P`.
 
 Nie wiemy jeszcze, czy może "istnieć" taka kategoria i czy wobec tego można ją "wskazać" za pomocą
 poprawnej definicji, ale to nam nie przeszkodzi myśleć w *kategoryjnym stylu
-[życzeniowym*](https://pl.wikipedia.org/wiki/My%C5%9Blenie_%C5%BCyczeniowe) o dużym i małym
+[życzeniowym](https://pl.wikipedia.org/wiki/My%C5%9Blenie_%C5%BCyczeniowe)* o dużym i małym
 kwantyfikatorze, nie popełniając przy tym błędów, bo zdania o postaci `∀ x, P x` i `∃ x, P x`
 zachowują się ewidentnie jak produkty i koprodukty odpowiednio, od binarnych produktów i koproduktów
 różniąc się tylko tym, że mają arbitralne liczby członów.
