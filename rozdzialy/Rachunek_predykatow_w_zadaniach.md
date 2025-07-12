@@ -159,7 +159,7 @@ zasięgiem. Już na tym etapie możemy jednak zgadywać, że obiektami tej kateg
 takiej postaci) zdania o postaci `P x`, gdzie `P` jest predykatem, a `x` jest termem typu albo
 elementem zbioru, którego dotyczy `P`.
 
-Nie wiemy jeszcze, czy może "istnieć" taka kategoria i czy wobec tego można ją "wskazać" za pomocą
+Nie wiemy jeszcze, czy może istnieć taka kategoria i czy wobec tego można ją wskazać za pomocą
 poprawnej definicji, ale to nam nie przeszkodzi myśleć w *kategoryjnym stylu
 [życzeniowym](https://pl.wikipedia.org/wiki/My%C5%9Blenie_%C5%BCyczeniowe)* o dużym i małym
 kwantyfikatorze, nie popełniając przy tym błędów, bo zdania o postaci `∀ x, P x` i `∃ x, P x`
