@@ -72,14 +72,15 @@ a) ∧ a` też jest zdaniem, i tak dalej.
 Ciekawy "proces", prawda? Mówimy przecież o *definicji* (indukcyjnej), która "działa logicznie", a
 więc *nie w czasie fizycznym*. Gdy na przykład decydujemy, że zdaniami, a formalnie elementami
 zbioru `Z`, "będą" elementy jakiegoś zbioru `A` (którego używamy wtedy jako zbioru zdań atomowych),
-to te elementy stają się zdaniami "wszystkie na raz jednocześnie". Gdy potem dodamy warunek, że
-koniunkcje par elementów `Z` też są zdaniami, to z jednej strony jest tu jakieś "przed" i jest tu
-jakieś "po", bo *najpierw* pojawił się pierwszy warunek definicji indukcyjnej, a *potem* drugi, ale
-z drugiej strony, zanim pojawił się ten drugi warunek, definicja nie była jeszcze skończona, a więc
-*jeszcze jej nie było* (jako konstruowanej definicji). Wrażenie, że jest tu jakieś przed i jakieś
-po, i że to jest opis pewnego *rozgrywającego się w czasie procesu*, wynika tu tylko z sekwencyjnego
-charakteru *prezentacji* definicji, sekwencyjnego charakteru *procesu tworzenia* tej definicji, i z
-sekwencyjnego charakteru procesu naszego jej *przyswajania* i *używania*. 
+to te elementy stają się zdaniami ["wszystkie na raz
+jednocześnie"](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once). Gdy potem dodamy
+warunek, że koniunkcje par elementów `Z` też są zdaniami, to z jednej strony jest tu jakieś "przed"
+i jest tu jakieś "po", bo *najpierw* pojawił się pierwszy warunek definicji indukcyjnej, a *potem*
+drugi, ale z drugiej strony, zanim pojawił się ten drugi warunek, definicja nie była jeszcze
+skończona, a więc *jeszcze jej nie było* (jako konstruowanej definicji). Wrażenie, że jest tu jakieś
+przed i jakieś po, i że to jest opis pewnego *rozgrywającego się w czasie procesu*, wynika tu tylko
+z sekwencyjnego charakteru *prezentacji* definicji, sekwencyjnego charakteru *procesu tworzenia* tej
+definicji, i z sekwencyjnego charakteru procesu naszego jej *przyswajania* i *używania*.
 
 I trudno się od tego sekwencyjno-procesualnego sposobu myślenia oderwać, prawda? Ja na przykład, gdy
 widzę regułę taką jak *jeżeli `p` i `q` to zdania, to `p ∧ q` też jest zdaniem*, często nie mogę
