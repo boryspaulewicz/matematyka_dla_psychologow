@@ -106,9 +106,9 @@ możesz poczekać, aż to się niemal samo stanie dla Ciebie oczywiste.
 
 Ale *po co* mielibyśmy wprowadzać taki sposób kodowania? Ano między innymi po to, żeby wyraźniej
 zobaczyć głębokie podobieństwo między koniunkcją i alternatywą z jednej strony, a dużym i małym
-kwantyfikatorem z drugiej, a dzięki temu lepiej nad tym podobieństwem zapanować. Zbiór zdań takich
-jak `∀ x ∈ X, P x`, gdzie `X` to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego
-zbioru, możemy teraz rozpoznać na nowo jako *funkcję* ze zbioru `X` do zbioru zdań o postaci `P
+kwantyfikatorem z drugiej, a dzięki temu lepiej nad tym podobieństwem zapanować. Zdania takie jak `∀
+x ∈ X, P x`, gdzie `X` to jakiś zbiór, a `P` to jakiś predykat dotyczący elementów tego zbioru,
+możemy teraz rozpoznać na nowo jako *funkcje* ze zbioru `X` do zbioru zdań o postaci `P
 x`. Pomijając zwykle kosmetyczne różnice między zbiorami i typami, to nic innego jak znana Ci już
 implementacja *wiązania* przez duży kwantyfikator jako *bycia parametrem funkcji* zwracającej takie
 zdania. Z tej perspektywy zdania takie jak `p ∧ q` to niemal takie same funkcje do zdań, tyle, że z
