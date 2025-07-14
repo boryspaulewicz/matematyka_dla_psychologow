@@ -22,9 +22,8 @@ się między różnymi "zmechanizowanymi" punktami widzenia na to samo. Jeżeli 
 próby bardziej Ci przeszkadzają niż pomagają, to będzie znaczyło, że jest na to po prostu za
 wcześnie. Trzeba z tym wtedy poczekać, aż pewne konstrukcje formalno-językowe tak bardzo utrwalą się
 w Twojej pamięci, że będziesz mogła je traktować jak niemal autonomiczne byty, które możesz w każdej
-chwili (o ile będziesz wyspana i trzeźwa) mentalnie
-[przywołać](https://www.etymonline.com/word/summon), a raz przywołane badać i przekształcać,
-oglądając je z różnych stron.
+chwili mentalnie [przywołać](https://www.etymonline.com/word/summon), a raz przywołane badać i
+przekształcać, oglądając je z różnych stron.
 
 ## Rachunek predykatów z kategoryjnego punktu widzenia
 
