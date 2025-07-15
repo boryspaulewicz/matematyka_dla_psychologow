@@ -1,20 +1,20 @@
 # Co można z tą książką zrobić
 
-Wiem, że zrobisz z tą książką co zechcesz, ale i tak Ci coś zasugeruję. Na podstawie lektur i
+Wiem, że zrobisz z tą książką, co zechcesz, ale i tak Ci coś zasugeruję. Na podstawie lektur i
 własnego doświadaczenia mogę stanowczo stwierdzić, że uważne czytanie lub słuchanie z jako takim
 zrozumieniem nie całkiem banalnych treści przestaje być możliwe po około 30 minutach. Mówię przy tym
 o warunkach sprzyjających, a nie na przykład o czytaniu w zatłoczonym pociągu na kacu, co mi się
-oczywiście nigdy w życiu nie zdażyło. Po 30, a może nawet już 25 minutach wydaje mi się często, że
-się dopiero co wciągnąłem, ale mniej więcej po tym czasie moja zdolność do dalszego przyswajania
+oczywiście nigdy nie zdażyło. Po 30, a może nawet już 25 minutach wydaje mi się często, że się
+dopiero co wciągnąłem, ale mniej więcej po tym czasie moja zdolność do dalszego przyswajania
 informacji zaczyna, że tak powiem, ryć o ziemię. Sprawdzałem to wiele, wiele razy. Zacząłem to
 sprawdzać tak dawno, że używałem do tego jeszcze zegarka z [różą
 wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutnikiem.
 
 Dlatego na zajęciach często wprowadzam krótkie przerwy co około pół godziny i dlatego staram się
-pisać rozdziały tak, żeby tyle też mniej więcej trwało ich przeczytanie (zakładając aktywną postawę
-w trakcie lektury wcześniejszych rozdziałów). Sam zresztą potrzebuję takich krótkich przerw w
-trakcie prowadzenia zajęć, bo dzięki temu często zauważam, że zapomniałem powiedzieć coś ważnego,
-albo, że mogę coś powiedzieć lepiej.
+pisać rozdziały tak, żeby *najwyżej* tyle czasu wymagało ich przeczytanie, zakładając względnie
+aktywną postawę w trakcie lektury wcześniejszych rozdziałów. Sam zresztą potrzebuję takich krótkich
+przerw w trakcie prowadzenia zajęć, bo dzięki temu często zauważam, że zapomniałem powiedzieć coś
+ważnego, albo że mogę coś powiedzieć lepiej.
 
 Po około 25-30 minutach dobrze na mnie działa krótka przerwa. Najlepiej, gdy to jest około 5 minut
 nie robienia niczego wciągającego ani poznawczo (na przykład, czytanie odpada, podobnie jak
