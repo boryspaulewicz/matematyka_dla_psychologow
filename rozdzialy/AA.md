@@ -141,8 +141,8 @@ jak rzadkim zjawiskiem jest chęć, żeby wrócić po raz kolejny do tego samego
 uporządkowanych elementów należących do `X`, to jest `R ⊆ X × X`. Pewne własności relacji są tak
 często ważne, że mają swoje nazwy. Tak zakodowana relacja jest na przykład zwrotna wtedy i tylko
 wtedy, gdy `∀ x ∈ X, (x, x) ∈ R`, co zapisujemy często w notacji wzrostkowej jako `x R x` (jak w `1
-≤ 1`). Ponieważ tylko zdejmując lub nakładając składniowy lukier notacji wzrostkowej możemy
-udowodnić zdanie `(a, b) ∈ R ↔ a R b`, to każdy *element* należący do zbioru `R` możemy nazywać
+≤ 1`). Ponieważ, tylko zdejmując lub nakładając składniowy lukier notacji wzrostkowej, możemy
+udowodnić, że `(a, b) ∈ R ↔ a R b`, to każdy *element* należący do zbioru `R` możemy nazywać
 *faktem* zachodzenia relacji `R` (dla pewnej określonej pary uporządkowanej elementów `X`), albo
 nawet *`R`-faktem*.
 
