@@ -112,18 +112,18 @@ nie powtórki, tylko trening używania nabywanej wiedzy, ale przecież nic inneg
 sensownego powtarzania.
 
 Jeszcze jedno, chociaż może Tobie to nie będzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
-charakteru, najpewniej niewiele bym w życiu osiągnął, gdyby nie pewien prosty trik, który wymyśliłem
-czytając Rachlina, a może wręcz od niego skopiowałem.
-
-Kiedy zależy mi, żeby uczyć się systematycznie dłużej, robię takie małe kartki-kalendarze, z
-naniesionymi niechlujnie liniami, na których widać, jak mi idzie. Jest tam 7 kolumn, każda nazwana
-jednym dniem tygodnia i jest tyle rzędów, ile akurat rzeczy chcę monitorować. Zwykle jest tam rząd o
-nazwie N (jak Nauka), w którym stawiam kropkę za każde 30 minut pracy umysłowej. Nie chodzi w tym o
-to, żeby się nagradzać, albo żeby czuć się winnym, gdy kropek jest mało, tylko żeby *zwiększyć
-świadomość tego, jak różne codzienne decyzje wpływają na to, ile się uczę i kiedy*. Bez tej
-niezwykle skutecznej i gwałtownie zmieniającej nawyki protezy nie miałbym o tym prawie w ogóle
-pojęcia i mimo szczerych chęci, żeby zdziałać coś wartościowego, dryfowałbym gdzieś pewnie gnany
-wiatrem namiętności. Przez co rozumiem głównie, że oglądałbym dużo YouTube'a.
+charakteru, najpewniej niewiele bym w życiu osiągnął, gdyby nie prosty trik, który wymyśliłem
+czytając Rachlina, a może wręcz od niego skopiowałem. Kiedy zależy mi, żeby uczyć się systematycznie
+dłużej, robię takie małe kartki-kalendarze, z naniesionymi niechlujnie liniami, na których widać,
+jak mi idzie. Jest tam 7 kolumn, każda nazwana jednym dniem tygodnia (ponieważ słowa "poniedziałek"
+i "piątek" zaczynają się od tej samej litery, piątek oznaczam literą π) i jest tyle rzędów, ile
+akurat rzeczy chcę monitorować. Zwykle jest tam rząd o nazwie N (jak Nauka), w którym stawiam kropkę
+za każde 30 minut pracy umysłowej. Nie chodzi w tym o to, żeby się nagradzać, albo żeby czuć się
+winnym, gdy kropek jest mało, tylko żeby *zwiększyć świadomość tego, jak różne codzienne decyzje
+wpływają na to, ile się uczę i kiedy*. Bez tej niezwykle skutecznej i gwałtownie zmieniającej nawyki
+protezy nie miałbym o tym prawie w ogóle pojęcia i mimo szczerych chęci, żeby zdziałać coś
+wartościowego, dryfowałbym gdzieś pewnie gnany wiatrem namiętności. Przez co rozumiem głównie, że
+oglądałbym dużo YouTube'a.
 
 W przypadku niektórych rodzajów zachowań, ale na pewno nie wszystkich, taki monitoring może być
 niezwykle skuteczny i nie trzeba długo czekać, żeby się o tym przekonać. Warto jednak pamiętać, żeby
