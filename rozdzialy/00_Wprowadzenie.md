@@ -229,8 +229,8 @@ od fizyki: *Wszystko, co da się zrozumieć, ja też mogę zrozumieć, o ile tyl
 informacji i czasu*. Uważam, że jeżeli sięgnęłaś po tą ksiażkę, to Ty też możesz zrozumieć
 *wszystko*, co da się zrozumieć. Jak to ujął Silvanus Thompson w swoim popularnym i dostępnym za
 darmo [podręczniku do rachunku różniczkowo-całkowego](https://calculusmadeeasy.org/), *What one fool
-can do, another can*. Thompson podaje tam, że to jest *Ancient Simian Proverb*, ale to żart
-(sprawdź, co znaczy "Simian", jeśli chcesz się dowiedzieć więcej).
+can do, another can*. Thompson podaje, że to jest *Ancient Simian Proverb*, ale to żart (sprawdź, co
+znaczy "Simian", jeśli chcesz się dowiedzieć więcej).
 
 Zawsze byłem chudy[^3], dobry z matematyki i dobry z programowania, bo taki się
 [urodziłem](https://en.wikipedia.org/wiki/Three_Identical_Strangers). Z pewnością nie byłem jednak
@@ -239,19 +239,20 @@ nie myśleć często o matematyce. Mój wspaniały przyjaciel z licealnej szkoln
 teoretyk prawa i filozof Wojtek Załuski, jest zdaje mi się prawdziwym geniuszem. Inny mój również
 wspaniały przyjaciel, filozof matematyczny (jeśli wolno mi tak nazwać to, czym się zajmuje) Szymon
 Szymczak też jak sądzę jest. To oczywiście głuptasy, jak my wszyscy, ale to są akurat głuptasy w
-pewnych, zbyt licznych, obszarach genialne. Dzięki nim wiem doskonale, jaki ze mnie dureń.
+pewnych - zbyt licznych! - obszarach genialne. Dzięki nim wiem doskonale, jaki ze mnie dureń.
 
 Myślisz, że z tym durniem przesadziłem? W *pierwszej klasie szkoły podstawowej* nie zapisałem prawie
 nic w zeszycie i mój szkolny poziom wykonania był tak niski, że, jak się później dowiedziałem,
-nauczyciele poważnie zastanawiali się, czy nie powinienem zostać w niej na drugi rok. Z powodu
-licznych nieobecności (których co prawda sporą część spędziłem w bibliotece) i bardzo słabych ocen z
-kilku przedmiotów, o mało co nie powtarzałem też klasy w liceum; uratowała mnie wtedy olimpiada z
-filozofii. Na studia z psychologii jest tylu chętnych, że niektórzy z Was z pewnością przerastają
-mnie wrodzoną mocą procesora, a poza tym nie jestem już młody.
+nauczyciele poważnie zastanawiali się, czy nie powinienem zostać w niej na drugi rok. Czytać ksiażki
+zacząłem późno i z trudem, a z powodu licznych nieobecności (których co prawda sporą część spędziłem
+w bibliotece) i bardzo słabych ocen z kilku przedmiotów, o mało co nie powtarzałem też klasy w
+liceum; uratowała mnie wtedy olimpiada z filozofii. Na studia z psychologii jest tylu chętnych, że
+niektórzy z Was z pewnością przerastają mnie wrodzoną mocą procesora, a poza tym nie jestem już
+młody.
 
 No to skąd się tu w ogóle wziąłem? Uczyłem się długo i systematycznie różnych trudnych rzeczy, a
-robiłem to, ponieważ znalazłem na siebie pewien sposób. Pracuję na uczelni między innymi dzięki
-temu, że najpierw z popularnej książki Tony'ego Buzana [*Rusz
+robiłem to, ponieważ znalazłem na siebie sposób. Pracuję na uczelni między innymi dzięki temu, że
+najpierw z popularnej książki Tony'ego Buzana [*Rusz
 głową*](https://lubimyczytac.pl/ksiazka/3822524/rusz-glowa), a potem jeszcze na pierwszym albo
 drugim roku psychologii z podręcznika Johna Andersona, z którego nadal czasem korzystam na
 zajęciach, dowiedziałem się, jak się skuteczniej uczyć, a ze znakomitej [książki
