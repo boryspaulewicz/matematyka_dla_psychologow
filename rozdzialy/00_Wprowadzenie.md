@@ -1,13 +1,13 @@
 # Skąd się ta książka wzięła
 
 Ta książka była najpierw krótkim skryptem dla studentów. Planując ćwiczenia do kursu neuronauka i
-psychologia poznawcza, zapisałem w sylabusie, że na zajęciach dotyczących teorii normatywnych
-będziemy omawiać jakiś bliżej nieokreślony mój "skrypt własny". Korzystając z tej okazji,
-postanowiłem przeprowadzić eksperyment, który polegał na próbie przekonania studentów, że przy
-odrobinie wysiłku mogą nauczyć się dowodzenia prostych twierdzeń, a dzięki temu trochę lepiej
-zrozumieć, a już na pewno lepiej zapamiętać, na przykład twierdzenie Bayesa. Skrypt stał się serią
-komentarzy ilustrowanych fragmentami kodu, które były jednocześnie zadaniami wymagającymi dowodzenia
-twierdzeń w języku [Lean](https://lean-lang.org/).
+psychologia poznawcza zapisałem w sylabusie, że na zajęciach dotyczących teorii normatywnych
+będziemy omawiać jakiś bliżej nieokreślony mój "skrypt własny". Korzystając z okazji,
+przeprowadziłem eksperyment, polegający na próbie przekonania studentów, że przy odrobinie wysiłku
+mogą nauczyć się dowodzenia prostych twierdzeń, a dzięki temu trochę lepiej zrozumieć, a już na
+pewno lepiej zapamiętać, na przykład twierdzenie Bayesa. Skrypt stał się serią komentarzy
+ilustrowanych fragmentami kodu, które były jednocześnie zadaniami wymagającymi dowodzenia twierdzeń
+w języku [Lean](https://lean-lang.org/).
 
 Miałem wątpliwości, czy to się uda, więc najpierw sprawdziłem, jak sobie z tym poradzi mój syn,
 siedemnastoletni wtedy Tymek. Szło mu to dość wolno, dlatego wprowadziłem kilka zmian i poprawioną
@@ -18,39 +18,39 @@ zadanie, a kilkoro wyraziło nawet zainteresowanie dalszym ciągiem.
 Ponieważ sam zacząłem się niedawno uczyć Leana, postanowiłem robić to nadal, poprawiając i
 rozwijając to, co już napisałem. Pisząc wcześniej na zamówienie [wprowadzenie do wnioskowania
 przyczynowego dla psychologów](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171)
-(wersja w języku angielskim jest bardziej dopracowana), przekonałem się, po raz kolejny, że to
-najlepszy sposób, żeby nauczyć się czegoś lepiej. Ten artykuł zamówił u mnie Arek Białek, za co mu
-tutaj serdecznie dziękuję, ponieważ zmusiło mnie to do dłuższych rozmyślań na temat rachunku
-przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro [spodobał
-się](https://x.com/yudapearl/status/1737769250511843448) samemu
+(wersja w języku angielskim jest bardziej dopracowana) przekonałem się, po raz kolejny, że to
+znakomity sposób, żeby nauczyć się czegoś lepiej. Ten artykuł zamówił u mnie [Arek
+Białek](https://arekbialek.github.io/), za co mu serdecznie dziękuję, ponieważ zmusiło mnie to do
+dłuższych rozmyślań na temat rachunku przyczynowego. Nie jest to chyba mój najgorszy tekst, skoro
+[spodobał się](https://x.com/yudapearl/status/1737769250511843448) samemu
 [Pearlowi](https://en.wikipedia.org/wiki/Judea_Pearl), który raczej nie prawi chętnie komplementów
 na temat tego typu artykułów, dlatego zamierzam bezwstydnie skorzystać z niego (z artykułu, nie z
 Pearla) w dalszej części książki.
 
-Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba, tak się w to wciągnąłem, że po
+Po wstawieniu skryptu w nieco bardziej estetycznej formie na GitHuba tak się w to wciągnąłem, że po
 chwili z jednego skryptu zrobiły się dwa, potem trzy, a niedługo potem siedem i to wszystko zaczęło
 wyglądać jak taka jakby trochę może książka. W dodatku książka, którą - po dopracowaniu jej przez
 autora (czyli w tym wypadku mnie) - sam chciałbym przeczytać, zanim jeszcze zacząłem się o tych
 sprawach uczyć. Przy okazji odkryłem także inny cel.
 
-Większość psychologów - mam tu na myśli również utytuowanych pracowników naukowych z bogatym
-dorobkiem - polega w ogromnym stopniu na matematyce, na przykład używając wnioskowania
-statystycznego, ale nie tylko wtedy, i próbuje zrozumieć złożone i trudne do wyjaśnienia zjawiska,
-takie jak zachowania ludzi czy strukturę i przebieg procesów umysłowych. Jednak wielu z nich nie ma
-najczęściej o matematyce za bardzo pojęcia. Dobrymi przykładami poważnych błędów, wynikających z
-niezrozumienia matematycznej nieuchronności kilku *prostych* przecież zasad, są powszechne
-[wnioskowanie o braku efektu na podstawie samego tylko nieistotnego wyniku testu
+Większość psychologów, mam na myśli również utytuowanych pracowników naukowych z bogatym dorobkiem,
+polega w ogromnym stopniu na matematyce, na przykład używając wnioskowania statystycznego, ale nie
+tylko wtedy, i próbuje zrozumieć złożone i trudne do wyjaśnienia zjawiska, takie jak zachowania
+ludzi czy strukturę i przebieg procesów umysłowych. Jednak wielu z nich nie ma najczęściej pojęcia o
+matematyce. Dobrymi przykładami poważnych błędów, wynikających z niezrozumienia matematycznej
+nieuchronności kilku *prostych* przecież zasad są powszechne [wnioskowanie o braku efektu na
+podstawie samego tylko nieistotnego wyniku testu
 statystycznego](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors), albo wnioskowanie o
 wpływie czy innych własnościach przyczynowych bez wprowadzenia i uzasadnienia koniecznych założeń
 (wielu psychologów wciąż nie zdaje sobie sprawy, jak poważne konsekwencje wynikają z faktu, że
 [przyczynowość została zmatematyzowana](https://en.wikipedia.org/wiki/Causal_inference)).
 
-Nic więc dziwnego, że tacy - niestety w psychologii dość liczni - matematyczni półanalfabeci
-nierzadko wyciągają z własnych i cudzych badań nieuzasadnione wnioski, popełniając przy tym czasem
-najprostsze nawet błędy. Mimo to udaje im się publikować w wysokopunktowanych czasopismach, bo
-wysyłane przez nich manuskrypty są zwykle recenzowane i dopuszczane do druku przez innych
-matematycznych półanalfabetów. Rezultatem tej zabawy w chowanego jest powszechna w psychologii już
-od dawna rozczarowująca [gra pozorów](https://pl.wikipedia.org/wiki/Kulty_cargo).
+Nic więc dziwnego, że tacy, niestety w psychologii dość liczni, matematyczni półanalfabeci nierzadko
+wyciągają z własnych i cudzych badań nieuzasadnione wnioski, popełniając przy tym często najprostsze
+nawet błędy. Mimo to udaje im się publikować w wysokopunktowanych czasopismach, bo ich manuskrypty
+są zwykle recenzowane i dopuszczane do druku przez innych matematycznych półanalfabetów. Rezultatem
+tej zabawy w chowanego jest powszechna w psychologii już od dawna rozczarowująca [gra
+pozorów](https://pl.wikipedia.org/wiki/Kulty_cargo).
 
 Matematyczny półanalfabetyzm zdecydowanej większości psychologów jest łatwym do zaobserwowania
 faktem. Równie łatwo jest wskazać jedną z głównych przyczyn, o ile nie przyczynę najważniejszą, tego
@@ -61,22 +61,21 @@ poprawnym uzasadnianiu wniosków przyczynowych. A przecież te dwa rodzaje rozum
 *centralną* rolę w *niemal każdym* artykule empirycznym. Co ambitniejsi studenci uzupełniają
 samodzielnie braki w wiedzy, ale akurat matematyki mało kto uczy się systematycznie z własnej woli.
 
-Mam wrażenie, że studenci i przynajmniej Ci młodsi pracownicy naukowi często mniej boją się
-programowania niż matematyki, a poza tym z programowaniem mogą się oswajać w interakcji z
-dostarczającym informacji zwrotnych komputerem. Wtedy obecność nauczyciela nie jest aż taka
-potrzebna. Ta książka ma między innymi pomóc w oswajaniu się z matematyką, czyli głównie z
-**konsekwentnym, abstrakcyjnym myśleniem i rozwiązywaniem problemów teoretycznych opartym na
-kontrolowanym przełączaniu się między różnymi punktami widzenia i wyrażaniu nowych punktów widzenia
-w postaci języków formalnych**, przede wszystkim właśnie zainteresowanym samodzielnym poszerzaniem
-wiedzy studentom psychologii i pracownikom akademickim zajmującym się badaniami psychologicznymi,
-którzy są gotowi w tym celu podjąć próbę poznania nowego, pięknego i wyjątkowo ekspresyjnego języka
-programowania.
+Mam wrażenie, że studenci i młodsi pracownicy naukowi często mniej boją się programowania niż
+matematyki, a poza tym z programowaniem można się oswajać w interakcji z dostarczającym informacji
+zwrotnych komputerem. Wtedy obecność nauczyciela nie jest aż tak potrzebna. Ta książka ma między
+innymi pomóc w oswajaniu się z matematyką, czyli głównie z **konsekwentnym, abstrakcyjnym myśleniem
+i rozwiązywaniem problemów teoretycznych opartym na kontrolowanym przełączaniu się między różnymi
+punktami widzenia, i na wyrażaniu nowych punktów widzenia w postaci języków formalnych** przede
+wszystkim właśnie zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i
+pracownikom akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi w tym celu
+podjąć próbę poznania nowego, pięknego i wyjątkowo ekspresyjnego języka programowania.
 
 Uprzedzam jednak, że ta książka *może zawierać błędy we fragmentach napisanych w języku naturalnym*,
 czyli tam, gdzie mniej lub bardziej po swojemu objaśniam kod albo zapędzam się w dygresje. To ryzyko
-nie wydaje mi się pomijalnie małe, bo jestem tylko matematycznym amatorem. Co prawda coś tam mogę
-pokazać jako "dowód", że trochę o matematyce wiem, ale nie ma tego wiele. Gdybyś więc znalazła błąd,
-będę wdzięczny, jeśli mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
+nie wydaje mi się pomijalnie małe, bo jestem matematycznym amatorem. Co prawda coś tam mogę pokazać
+jako "dowód", że trochę o matematyce wiem, ale nie ma tego wiele. Gdybyś więc znalazła błąd, będę
+wdzięczny, jeśli mi o tym napiszesz (boryslaw.paulewicz@uj.edu.pl).
 
 Mogę Cię za to zapewnić, że ta książka *prawie na pewno nie zawiera błędów w częściach formalnych*,
 to jest zakodowanych w pewnej wersji języka teorii typów, z której korzysta asystent dowodzenia
@@ -85,30 +84,30 @@ ale zdarza mi się o tym zapominać kiedy dużo piszę albo dużo zmieniam. Jeż
 po wprowadzeniu zmian, to znaczy, że wszystkie formalne części zostały sprawdzone przez algorytm,
 którego używa do tego Lean, a wtedy mało czego można być tak pewnym jak tego, że są
 [bezbłędne](https://royalsocietypublishing.org/doi/10.1098/rsta.2005.1650). A gdybyś miała
-wątpliwości, zawsze możesz wkleić kod do Leana i przekonać się sama, czy nie pojawia się błąd.
+wątpliwości, zawsze możesz wkleić kod do Leana i przekonać się w ten sposób, czy jest poprawny.
 
 Muszę Cię też ostrzec, że jeżeli dotrzesz do końca rozdziału szóstego i uda Ci się zrobić poprawnie
 zadania, których do tego momentu będzie zresztą niewiele, możliwe, że poczujesz coś w rodzaju
 zagubienia. Będziemy się zajmować bardzo abstrakcyjnymi sprawami, dlatego takie poczucie jest na
-początku dość prawdopodobne. Ja też się tak czułem, gdy zaczynałem się uczyć o teorii typów. To
-poczucie może się stopniowo zmieniać w coraz głębsze zrozumienie, ale to wymaga **cierpliwości**.
+początku niemal nieuchronne. Ja też się tak czułem, kiedy zaczynałem się uczyć teorii typów i teorii
+kategorii. To poczucie może się stopniowo zmieniać w coraz głębsze zrozumienie, ale to wymaga **ci
+erpliwości i unikania frustracji** (albo upierania się przy tym, żeby nauka była *przyjemna*).
 
-W związku z tym, oto moja sugestia: Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i
+W związku z tym oto moja sugestia: Daj sobie czas, żeby wszystko zdążyło się trochę "uleżeć" i
 pogódź się z tym, że dobre opanowanie tego rodzaju materiału może wymagać wracania do przeczytanych
-już wcześniej fragmentów. O ile nie zabraknie wytrwałości, może w końcu stanie się to, co dzieje się
-wtedy, kiedy przez dłuższy czas dokądś idziemy, niekoniecznie dążąc stale do jednego celu, a
-powietrze jest bardzo wilgotne. Nie ma wtedy wyraźnego momentu, gdy zachodzi jakościowa zmiana,
-odkrywamy jednak w końcu, że choć nie padał deszcz, jesteśmy przemoczeni[^1].
+już fragmentów. O ile nie zabraknie wytrwałości, może w końcu stanie się to, co dzieje się, kiedy
+przez dłuższy czas dokądś idziemy, niekoniecznie dążąc stale do jednego celu, a powietrze jest
+bardzo wilgotne. Nie ma wtedy wyraźnego momentu, gdy zachodzi jakościowa zmiana, odkrywamy jednak w
+końcu, że choć nie padał deszcz, jesteśmy przemoczeni[^1].
 
-Gdy pojawi się frustracja, a prawie na pewno czasem się pojawi, poczekaj, albo wróć do tego, co
-wydaje Ci się, że już dobrze zrozumiałaś. To nie jest psychologia, w której zwykle to, o czym się
-czyta, wydaje się na początku w miarę zrozumiałe albo intuicyjne, ale im dłużej się nad tym
-zastanawiamy, tym więcej pojawia się wątpliwości; w matematyce jest często odwrotnie - rezultatem
-pierwszego kontaktu z jakąś definicją, twierdzeniem, albo teorią może być dezorientacja, która z
-czasem ustępuje wrażeniu, że wszystko jest w zasadzie oczywiste, proste i nieuchronne. A
-właśnie. Niedawno postanowiłem, że ponieważ większość studentów psychologii to wcale nie studenci,
-tylko studentki, będę zwracał się do Ciebie w formie żeńskiej. Jest też inny dobry moim zdaniem
-powód.
+Gdy pojawi się frustracja, a *na pewno* czasem się pojawi, poczekaj, albo wróć do tego, co wydaje Ci
+się, że już dobrze zrozumiałaś. To nie jest psychologia, w której zwykle to, o czym się czyta,
+wydaje się na początku w miarę zrozumiałe i intuicyjne, ale im dłużej się nad tym zastanawiamy, tym
+więcej mamy wątpliwości; w matematyce jest często *odwrotnie*; rezultatem pierwszego kontaktu z
+definicją, twierdzeniem, albo teorią może być dezorientacja, która z czasem ustępuje wrażeniu, że
+wszystko jest w zasadzie oczywiste, proste i nieuchronne. A właśnie, niedawno postanowiłem, że
+ponieważ większość studentów psychologii to wcale nie studenci, tylko studentki, będę zwracał się do
+Ciebie w formie żeńskiej. Jest też inny dobry moim zdaniem powód.
 
 Poznałem wiele kobiet zajmujących się psychologią, które w mojej ocenie mają więcej oleju w głowie,
 niż wielu znanych mi mężczyzn, którzy też się nią zajmują. Wśród pracowników akademickich nie
@@ -117,16 +116,17 @@ spotkałem jednak prawie wcale kobiet, które dorównywałyby większości męż
 wypowiedzi. A poza tym, gdy zacząłem pisać do wyobrażonego czytelnika w formie żeńskiej, przyszło mi
 do głowy, że ewentualny brak tupetu przestaje mieć znaczenie, kiedy swoje tezy można *formalnie
 udowodnić* i bardzo spodobała mi się wizja kobiet prezentujących *wnioski z badań* z pełną
-świadomością, że ponieważ te są już udowodnione - zakładając wiarygodność źródła danych - *nie da
-się* ich skutecznie podważyć.
+świadomością, że ponieważ te są już udowodnione, zakładając wiarygodność źródła danych, *nie da się*
+ich skutecznie podważyć.
 
-Ale wracając już do przerwanego wątku, poczucie zrozumienia często jest zwodnicze. Wiele razy
-uczyłem się trudnego materiału, wykonując, czasem przez wiele miesięcy albo nawet kilka lat, coraz
+Wracając już do przerwanego wątku, poczucie zrozumienia często jest zwodnicze. Wiele razy uczyłem
+się trudnego materiału, wykonując, czasem przez wiele miesięcy albo nawet kilka lat, coraz
 odleglejsze w czasie, generatywne powtórki. I wiele razy w trakcie powtarzania zauważałem, że moje
 wcześniejsze poczucie zrozumienia było złudne. Może to truizm, ale taki, o którym łatwo jest
-zapomnieć: Ponieważ nawet na najprostsze sprawy można popatrzeć z nowego punktu widzenia, rozumienie
-to jest coś, do czego można stale *dążyć*, ale co rzadko, o ile kiedykolwiek, można
-*osiągnąć*. Dlatego też nigdy nic nie przestanie być ciekawe.
+zapomnieć: Ponieważ nawet na najprostsze sprawy można popatrzeć z nowego punktu widzenia (co
+będziemy zresztą od pewnego momentu robić niemal nieustannie), rozumienie to jest coś, do czego
+można stale *dążyć*, ale czego *nie da się* tak całkiem *osiągnąć*. Dlatego też nigdy nic nie
+przestanie być ciekawe[^4].
 
 Rozdziały od czwartego do szóstego nie są długie. Przeczytanie ich i wykonanie poleceń powinno Ci
 zająć nie więcej niż półtorej albo dwie godziny. Poza tym ta książka jest całkowicie
@@ -137,16 +137,17 @@ również w przeglądarce.
 Jeżeli utkniesz, nie zrażaj się proszę. A jeżeli utkniesz, będziesz próbować nadal i znów Ci się nie
 uda, po prostu się tym nie przejmuj i **czytaj dalej**, zakładając oczywiście, że będziesz
 zainteresowana tym, co będzie dalej. Zrozumienie, że ucząc się matematyki *nie trzeba rozwiązywać
-wszystkich zadań* i że upieranie się przy tym może przeszkadzać w nauce zajęło mi naprawdę dużo
+większości zadań* i że upieranie się przy tym może przeszkadzać w nauce zajęło mi naprawdę dużo
 czasu, o wiele za dużo. Żałuję, że nikt mi tego nie tłukł już dawno do głowy (albo jeszcze lepiej,
 cierpliwie tłumaczył).
 
 Tylko z tego powodu wiele razy zdarzało mi się niepotrzebnie porzucać naukę, bo myślałem, że skoro
-nie przyswoiłem sobie dobrze czegoś na danym etapie, to nie powinienem czytać dalej. A przecież
-rozumienie w zasadzie nigdy nie rozwija się w taki "liniowy" sposób. Wydaje mi się, że dobrze wiedzą
-to informatycy, bo są chyba przyzwyczajeni do traktowania bibliotek programistycznych i dokumentacji
-jak *skrzynek z narzędziami*, które mają przede wszystkim *działać* i którym nie muszą się
-przyglądać z bliska, czy analizować jak są zbudowane, jeśli akurat nie mają na to ochoty.
+nie przyswoiłem sobie dobrze czegoś na danym etapie tak dobrze, żeby rozwiązać większość zadań, to
+*nie powinienem* czytać dalej. A przecież rozumienie w zasadzie nigdy nie rozwija się w taki
+"liniowy" sposób. Wydaje mi się, że świetnie zdają sobie z tego sprawę informatycy, bo są
+przyzwyczajeni do traktowania bibliotek programistycznych i dokumentacji jak *skrzynek z
+narzędziami*, które mają przede wszystkim *działać* i którym nie muszą się przyglądać z bliska czy
+analizować jak są zbudowane, jeśli akurat nie mają na to ochoty.
 
 Żeby Cię przekonać do uczenia się ze mną na luzie, opowiem Ci, jak zmiana nastawienia do matematyki
 zmieniła moje życie. W trakcie wakacji 2023 roku, rojąc sobie, że może jakimś cudem będę miał szansę
@@ -154,46 +155,46 @@ to niebawem wykorzystać, zacząłem uczyć się z cudownej książki Geuversa i
 and Formal
 Proof](https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C). Ta
 książka jest napisana w bardzo jasny sposób i na każdej niemal stronie widać, że autorzy starają się
-wszystko wytłumaczyć najlepiej jak potrafią. W mojej ocenie to jest też wybitna *literatura*, w tym
+wszystko wytłumaczyć najlepiej jak potrafią. W mojej ocenie to jest też wybitna *literatura* w tym
 znaczeniu, że styl jest jednocześnie elegancki i lekki, a ton wydaje mi się czasami wręcz ciepły.
 
 Niektórzy wybitni matematycy potrafią tak pisać. A że temat bywa abstrakcyjny, złożony i pełen
 głębokich niespodzianek, rezultatem może być porażające połączenie treści z formą. Taki efekt jest
-osiągalny chyba tylko wtedy, gdy autorzy mają rzeczywiście coś do powiedzenia i nie tylko dobrze
-rozumieją to, co chcą powiedzieć, ale także to, jakie trudności mogą się pojawić u odbiorcy. No więc
-to jest, moim zdaniem, właśnie taka książka. W dodatku poza dobrą znajomością angielskiego autorzy
-nie zakładają żadnej wcześniejszej wiedzy. Mimo to uczenie się o teorii typów z tej znakomitej
-książki nie było dla mnie ani trochę łatwe.
+osiągalny chyba tylko wtedy, gdy autorzy, pisząc o złożonych zagadnieniach, mają rzeczywiście coś do
+powiedzenia i nie tylko dobrze rozumieją to, co chcą powiedzieć, ale także to, jakie trudności mogą
+się pojawić u odbiorcy. No więc to jest, moim zdaniem, właśnie taka książka. W dodatku poza dobrą
+znajomością angielskiego autorzy nie zakładają żadnej wcześniejszej wiedzy. Mimo to uczenie się z
+niej o teorii typów nie było dla mnie ani trochę łatwe.
 
 Przez dłuższy czas zaczynałem prawie każdy dzień od 30 minutowej jednostki (tak to sobie nazywam),
 polegającej albo na czytaniu *po raz kolejny* tego samego *krótkiego* fragmentu, albo na robieniu
 notatek czy zaplanowanych powtórek. Później tego samego dnia zdarzało się, że jeszcze do tego
-wracałem, ale nie zawsze. Na początku rozwiązywałem też wszystkie zadania. I to był bardzo wolny
-proces.
+wracałem, ale nie zawsze. Na początku rozwiązywałem też wszystkie zadania. I to był *bardzo wolny
+proces*.
 
-Któregoś dnia, z czystej ciekawości, zacząłem swobodnie czytać dalej, a potem wróciłem do fragmentu,
-na którym wcześniej skończyłem. W ten sposób miałem pewną przerwę między momentem, w którym pierwszy
-raz przeczytałem ten późniejszy fragment, ale nie robiłem żadnych pojawiających się tam zadań, a
-momentem, kiedy znowu zacząłem go czytać. Zauważyłem wtedy, że rozumiem ten fragment znacznie
-lepiej. Postanowiłem więc, po raz pierwszy w życiu i tylko na próbę, *w ogóle nie robić zadań, gdy
-nie mam na to ochoty, albo gdy nie czuję, że muszę je zrobić, żeby zrozumieć chociaż trochę, o co
-chodzi*. A tak przy okazji, niektóre z zadań w książce, którą właśnie czytasz, są integralną częścią
-tekstu, ale oczywiście można je pominąć, o ile późniejsze treści będą nadal zrozumiałe.
+xKtóregoś dnia, z czystej ciekawości, zacząłem swobodnie czytać dalej, a potem wróciłem do
+fragmentu, na którym wcześniej skończyłem. W ten sposób miałem pewną przerwę między momentem, w
+którym pierwszy raz przeczytałem ten późniejszy fragment, ale nie robiłem żadnych pojawiających się
+tam zadań ani notatek, a momentem, kiedy znowu zacząłem go czytać. Zauważyłem wtedy, że rozumiem ten
+fragment znacznie lepiej. Postanowiłem więc, po raz pierwszy w życiu i tylko na próbę, *w ogóle nie
+robić zadań, gdy nie mam na to ochoty*. A przy okazji, niektóre z zadań w książce, którą właśnie
+czytasz, są integralną częścią tekstu, ale oczywiście można je pominąć, o ile późniejsze treści będą
+nadal do pewnego stopnia zrozumiałe.
 
 Dalej robiłem więc notatki i zaplanowane, generatywne powtórki, ale nie robiłem zadań, które mnie
 nie zainteresowały i które nie wydawały mi sie ważne. Z czasem zacząłem też zauważać błędy. Czytając
-zawsze szukam błędów, po prostu tak mam i moje doświadczenie wskazuje, że w dłuższych tekstach
+zawsze szukam błędów, po prostu tak mam i moje doświadczenia wskazują, że w dłuższych tekstach
 napisanych w języku naturalnym jakieś [błędy](https://www.youtube.com/watch?v=6LqnBrBSFyU) zawsze
 są. W moich dłuższych tekstach są z pewnością. Ponieważ czułem, że mam rację, napisałem do [Roba
 Nederpelta](https://wsinrpn.win.tue.nl/), który potraktował mnie niezwykle życzliwie i
 poważnie. Jednym z efektów tej przygody jest to, że moje nazwisko pojawiło się w oficjalnej erracie
 do tej książki, jako nazwisko jednej z osób, której autorzy dziękują. A mi akurat dziękują za
-wskazanie (w tym momencie, to jest 2024-12-11) około połowy wszystkich wymienionych błędów i nie
+wskazanie (w tym momencie, to jest 2024-12-11) około połowy wszystkich wymienionych błędów, i nie
 chodzi tu o literówki czy inne tego rodzaju drobiazgi, a o błędy rzeczowe. Z niewielu rzeczy jestem
 tak dumny jak z tego, dlatego często się tym chwalę. Nie wpadłbym na pomysł napisania czegoś choćby
 tylko odlegle zbliżonego do tego tekstu, który masz właśnie przed oczami, gdyby nie ta wspaniała
 książka i kontakt z tym niezwykłym człowiekiem. No więc z ambicjami lepiej nie przesadzać; moim
-zdaniem, jak już wspominałem, najważniejszy jest czas.
+zdaniem, jak już wspominałem, najważniejszy jest *czas*.
 
 Skoro mówimy o pożytkach płynących ze znajdywania błędów, może przyda Ci się patent, który odkryłem
 podczas pisania [doktoratu]((./praca_doktorska.pdf)). Ponieważ jedną z większych przyjemności
@@ -202,11 +203,12 @@ narzędziami teoretycznymi, musiałem jakoś rozwiązać problem polegający na 
 żadnych specjalistów, których mógłbym poprosić o pomoc. Gdy czułem, że muszę się w czymś szybko
 podszkolić, szukałem więc najlepszych żyjących autorów zajmujących się tematem, potem zdobywałem,
 nie powiem w jaki sposób (ani nie powiem, czy na przykład z istniejącego już wtedy serwisu
-[AvaxHome](https://avaxhome-mirrors.pw/)) ich najlepsze książki, przebijałem się przez pierwsze
-kilkadziesiąt stron szukając błędów, po czym pisałem do tych autorów maile. Zwykle wyrażałem w nich
+[AvaxHome](https://avaxhome-mirrors.pw/), dla którego istnieją teraz znacznie lepsze
+[alternatywy](http://open-slum.org/)) ich najlepsze książki, przebijałem się przez pierwsze
+kilkadziesiąt stron szukając błędów, po czym pisałem maile. Zwykle w tych mailach wyrażałem w nich
 szczery podziw i głęboką wdzięczność, również szczerą, a niejako przy okazji wspominałem tak
 ostrożnie, jak tylko umiałem (czyli pewnie niezbyt) o znalezionych błędach. A te zawsze można było
-znaleźć. Listę autorów, którym "to zrobiłem" znajdziesz na dziewiątej stronie mojego doktoratu.
+znaleźć. Listę autorów, którym to zrobiłem, znajdziesz na dziewiątej stronie mojego doktoratu.
 
 Zwykle im *bardziej* wybitni i uznani byli Ci autorzy, tym szybciej, bardziej życzliwie i
 wyczerpująco mi odpowiadali. Chyba najlepszym przykładem, jak to może działać, jest jedna z
