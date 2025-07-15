@@ -231,7 +231,7 @@ zbiór liczb zespolonych\} lub `Set`) lub `∪` lub `∩` (wtedy `Coś` to `Set`
 `≅!`, które (tylko dlatego, że ja tak postanowiłem) **czytamy jako**: *jest kanonicznie izomorficzne
 do*.
 
-Na przykład, gdy `X`, `Y` i `Z` to zbiory, to - jak łatwo wykazać, konstruując izomorfizmy w każdą
+Na przykład, gdy `X`, `Y` i `Z` to zbiory, to - jak łatwo wykazać konstruując izomorfizmy w każdą
 stronę, wymieniające elementy typu `((x, y), z)` z elementami typu `(x, (y, z))` - `(X × Y) × Z ≅ X
 × (Y × Z)`:
 
@@ -259,8 +259,8 @@ example (X Y Z : Type) :
 ```
 
 Zwracam przy okazji uwagę, że to jest dowód *izomorficzności* tego rodzaju konstrukcji, ale to *nie*
-jest dowód ich *kanonicznej* izomorficzności. I nie może być, bo pojęcie kanoniczności jest dla nas
-(jak dotąd) *nieformalne*. Jak to wygląda dla koniunkcji zdań?
+jest dowód *kanoniczności* izomorfizmu. I nie może być, bo pojęcie kanoniczności jest dla nas (jak
+dotąd) *nieformalne*. Jak to wygląda dla koniunkcji zdań?
 
 ```lean
 example (p q r : Prop) : (p ∧ q) ∧ r ↔ p ∧ (q ∧ r) :=
