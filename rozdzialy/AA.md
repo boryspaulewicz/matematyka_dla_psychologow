@@ -69,8 +69,8 @@ sobie z ułamkami). Dzielenie definiujemy wtedy jako operację odwrotną do mno�
 Jeżeli `b ≠ 0`, to `a / b := a × 1/b`  
 (to powinno być raczej $\frac{1}{b}$, ale nie jest, bo Unikod).
 
-I tak oto (znowu) otarłaś się nieco o język [*algebry
-abstrakcyjnej*](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna), a to dopiero początek.
+I tak oto (znowu) otarłaś się nieco o język [*algebry abstrakcyjnej*](https://www.aa.org/), a to
+dopiero początek.
 
 ## Matematyczne i psychologiczne własności działań
 
