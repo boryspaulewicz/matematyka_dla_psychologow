@@ -12,7 +12,7 @@ najprostszej możliwej postaci.</em></div>
 wątki, do których nawiązuję teraz w rozdziałach późniejszych. Zmieniłem też numerację rozdziałów -
 doszedł nowy rozdział R21, a więc stare R21+n to nowe R22+n. Zapraszam do testowania, zgłaszania
 trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych. Historia zmian
-jest [tutaj](Historia_zmian.md).
+jest [tu](Historia_zmian.md).
 
 ## Przedmowa
 
