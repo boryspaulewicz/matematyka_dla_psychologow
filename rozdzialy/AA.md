@@ -353,8 +353,9 @@ kategoriańskim nazywamy punktami\}, nie o izomorficznych *strzałkach*) muszą 
 własaności strzałkowo-złożeniowe*, a więc każdy z tych obiektów jest powiązany ze wszystkimi innymi
 obiektami taką samą "siecią relacji". Na przykład, jeżeli obiekt `X` emituje dokładnie jedną
 strzałkę do obiektu `Y` taką, że ..., to *każdy izomorf* obiektu `X` również emituje dokładnie jedną
-strzałkę do obiektu `Y` taką, że ... Mówiąc krótko, obiekty izomorficzne są *funkcjonalnie
-nieodróżnialne*; różnice między takimi obiektami są zatem *w pewnym sensie* "czysto formalne".
+strzałkę do obiektu `Y` taką, że ... Mówiąc krótko, obiekty, które są *różne* i izomorficzne są
+*funkcjonalnie nieodróżnialne*; różnice między takimi obiektami są zatem *w pewnym sensie* "czysto
+formalne".
 
 No dobrze, ale te dwa dowody izomorficzności, które oglądamy teraz z uwagą z różnych stron, to *nie*
 są *tylko* jakieś izomorfizmy między jakimś jednym *wybranym* obiektem a *wybranym* drugim. To są
