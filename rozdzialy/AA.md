@@ -333,9 +333,9 @@ izomorfizmy z `A` do `B` i z `B` do `A`), to:
 - Każda strzałka `g : X → B` odpowiada ze względu na ten izomorfizm unikalnej strzałce `f⁻¹ g : X →
    A`.
    
-Dla każdego obiektu `X`, mamy więc, dany przez dołożenie `f` (`f⁻¹`), izomorfizm między zbiorami
+Dla każdego obiektu `X`, mamy więc, dany przez dołożenie `f` (`f⁻¹`) izomorfizm między zbiorami
 `Hom(X, A)` i `Hom(X, B)` (to dla nas na razie tylko wygodne oznaczenie zbiorów strzałek z `X` do
-`A` i `B` odpowiednio; po polsku nazywamy to oficjalnie zbiorami morfizmów \{kategorii, która akurat
+`A` i `B` odpowiednio; po polsku nazywamy je oficjalnie zbiorami morfizmów \{kategorii, która akurat
 tutaj jest bliżej nieokreślona\}). Ten izomorfizm możemy zapisać na przykład jako funkcję anonimową
 tak: `g ↦ f g`, gdzie `g` to dowolna strzałka z `X` do `A` (czyli w zapisie `g ↦ f g` chodzi o
 wiązanie - przez duży kwantyfikator - o postaci `∀ g ∈ Hom(X, A), ...`, ale chwilowo postrzegane
