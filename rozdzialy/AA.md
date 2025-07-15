@@ -124,7 +124,7 @@ skupiamy się na *działaniach* na liczbach, czyli na tym, *co możemy z nimi ro
 czego i w jaki sposób możemy je wykorzystywać*, niż wtedy, gdy skupiamy się na liczbach jako pewnych
 abstrakcyjnych *obiektach*, albo na ich "wcieleniach" czy raczej *instancjach*, takich jak liczba
 jabłek, które wczoraj miała Kasia? A czy czujesz już, że ten "działaniowy" sposób myślenia może być
-w jakiś ważny sposób uprzywilejowany?
+w jakiś ważny sposób uprzywilejowany albo lepszy?
 
 Często, gdy elementy neutralne są w pewnym sensie bardziej *wygodnymi narzędziami myślenia* niż
 *oznaczeniami* czegoś *"w świecie zewnętrznym"*, albo czegoś *"matematycznie konkretnego"*, nie ma
