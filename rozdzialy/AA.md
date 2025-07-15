@@ -180,8 +180,10 @@ dodawania i usuwania faktów zwrotnościowych nie byłyby wtedy swoimi odwrotno�
 nie są mniejsze od samych siebie, a więc - poza ewentualnymi trudnościami psychologicznymi - nie
 mamy z tym problemu. *Możemy* konsekwentnie mówić, że *wszystkie liczby są mniejsze od siebie
 samych*, bo taki sposób mówienia polega *tylko* na *zmianie sposobu użycia słowa "mniejsze"* (albo
-stałej `<`), która *nie prowadzi do sprzeczności*, bo jest *tylko* logicznie nieszkodliwą *jawną
-zmianą konwencji*.
+stałej `<` lub `≤`), która *nie prowadzi do sprzeczności*, bo jest *tylko* logicznie nieszkodliwą
+*jawną zmianą konwencji*. Po co mielibyśmy zmieniać sposób mówienia na funkcjonalnie równoważny? To
+doskonałe pytanie, na które mogę na razie odpowiedzieć tylko niezbyt jasno mówiąc, że (w tym
+kontekście chyba paradoksalnie) *sposób mówienia jest również częścią matematycznej treści*.
 
 Oto kilka przykładów elementów neutralnych, które albo już znasz, albo możesz już chyba łatwo
 rozpoznać jako elementy neutralne:
