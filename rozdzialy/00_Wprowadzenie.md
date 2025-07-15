@@ -236,10 +236,12 @@ Zawsze byłem chudy[^3], dobry z matematyki i dobry z programowania, bo taki si�
 [urodziłem](https://en.wikipedia.org/wiki/Three_Identical_Strangers). Z pewnością nie byłem jednak
 nigdy ani tym bardziej nie jestem żadnym geniuszem. Po prostu w szkole podstawowej nie potrafiłem
 nie myśleć często o matematyce. Mój wspaniały przyjaciel z licealnej szkolnej ławki, wybitny
-teoretyk prawa i filozof Wojtek Załuski, jest zdaje mi się prawdziwym geniuszem. Inny mój również
-wspaniały przyjaciel, filozof matematyczny (jeśli wolno mi tak nazwać to, czym się zajmuje) Szymon
-Szymczak też jak sądzę jest. To oczywiście głuptasy, jak my wszyscy, ale to są akurat głuptasy w
-pewnych - zbyt licznych! - obszarach genialne. Dzięki nim wiem doskonale, jaki ze mnie dureń.
+teoretyk prawa i filozof [Wojtek
+Załuski](https://pl.wikipedia.org/wiki/Wojciech_Za%C5%82uski_(prawnik)), jest zdaje mi się
+prawdziwym geniuszem. Inny mój również wspaniały przyjaciel, filozof matematyczny (jeśli wolno mi
+tak nazwać to, czym się zajmuje) Szymon Szymczak też jak sądzę jest. To oczywiście głuptasy, jak my
+wszyscy, ale to są akurat głuptasy w pewnych - zbyt licznych! - obszarach genialne. Dzięki nim wiem
+doskonale, jaki ze mnie dureń.
 
 Myślisz, że z tym durniem przesadziłem? W *pierwszej klasie szkoły podstawowej* nie zapisałem prawie
 nic w zeszycie i mój szkolny poziom wykonania był tak niski, że, jak się później dowiedziałem,
@@ -274,14 +276,15 @@ zawdzięczam swobodę zajmowania się w owym czasie czym tylko chciałem, być m
 skończył, gdyby nie liczne rozmowy z dodającym mi stale odwagi Tomkiem Grzegorkiem, moim
 najważniejszym przyjacielem, któremu akurat zawdzięczam znacznie więcej niż to, gdzie dziś pracuję.
 
-Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdzięczam
-przygodę z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
-zmieniła na zawsze mój sposób myślenia o programowaniu. Podszedł kiedyś do mnie, gdy będąc jeszcze
-na studiach magisterskich pisałem w C++ jakąś procedurę do eksperymetu. Zapytał, w jakim języku ją
-piszę, na co odpowiedziałem, że w C++. On wtedy powiedział, żartując, że gdyby jego koledzy
-dowiedzieli się, że pisze w C++, to by go wyśmiali. No to zapytałem, niezrażony, w czym On pisze, na
-co odpowiedział, że w Lispie. Wtedy nie miałem zielonego pojęcia, co to Lisp, a niedługo później to
-był już mój ulubiony język i na długo nim pozostał. Właśnie dlatego piszę tą książkę w
+Z kolei [Adasiowi Chuderskiemu](https://kognitywistyka.uj.edu.pl/pl_PL/adam-chuderski), który jest
+teraz szefem krakowskiej kognitywistyki, zawdzięczam przygodę z
+[Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która zmieniła na
+zawsze mój sposób myślenia o programowaniu. Podszedł kiedyś do mnie, gdy będąc jeszcze na studiach
+magisterskich pisałem w C++ jakąś procedurę do eksperymetu. Zapytał, w jakim języku ją piszę, na co
+odpowiedziałem, że w C++. On wtedy powiedział, żartując, że gdyby jego koledzy dowiedzieli się, że
+pisze w C++, to by go wyśmiali. No to zapytałem, niezrażony, w czym On pisze, na co odpowiedział, że
+w Lispie. Wtedy nie miałem zielonego pojęcia, co to Lisp, a niedługo później to był już mój ulubiony
+język i na długo nim pozostał. Właśnie dlatego piszę tą książkę w
 [Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawna tak mocno
 zrośnięty, że czasami nawet zapominam, że go w ogóle używam. Wygląda więc na to, że trzeba czasu,
 być może jakiegoś sposobu na siebie i jednego czy dwóch dobrych przyjaciół; wtedy można zrozumieć,
