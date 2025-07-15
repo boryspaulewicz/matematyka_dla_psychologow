@@ -269,7 +269,7 @@ example (p q r : Prop) : (p ∧ q) ∧ r ↔ p ∧ (q ∧ r) :=
 ```
 
 A jak to wygląda dla alternatywy zdań? Albo dla sumy rozłącznej zbiorów? A kogo to obchodzi? Na
-przykład czasem mnie, ale próbuję coś teraz podkreślić: To są dualne konstrukcje, a więc wystarczy
+przykład, czasem mnie, ale próbuję coś teraz podkreślić: To są dualne konstrukcje, a więc wystarczy
 powiedzieć *i dualnie*, i mamy to wszystko udowodnione. Żaden z tych dowodów nie był potrzebny (do
 udowodnienia tych zdań), bo (ko)produkt jako (kategoryjna) operacja jest (kanonicznie) łączny. Co
 jednak udowodnimy nieco później, bo od tego nieco męczącego dowodu znacznie ciekawsze są jego
