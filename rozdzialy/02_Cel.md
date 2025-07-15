@@ -401,12 +401,12 @@ rzekomych modeli *procesu reagowania*, zastosujemy ten sam prosty i uniwersalny 
 manewr, polegający na wyprowadzeniu z interpretacji strukturalnej tych modeli *absurdalnych*
 konsekwencji *kontrfaktycznych*. Ten manerw pozwoli nam za każdym razem wskazać to samo
 fundamentalne źródło problemu, jakim jest nieunikniona przepaść[^9] między praktycznie osiągalną
-wymiarowością danych, a więc też złożonością identyfikowalnych modeli strukturalnych, i efektywną
+wymiarowością danych, a więc też złożonością identyfikowalnych modeli strukturalnych, a efektywną
 złożonością procesu reagowania zwierząt.
 
 Dlatego [nie będziemy](https://onlinelibrary.wiley.com/doi/abs/10.1002/0471214426.pas0407)[^6]
-próbować - jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni - domyślać się, jak
-wygląda to, co jest praktycznie *nieobserwowalne*, ekstremalnie [*złożone*, *idiosynkratyczne*,
+próbować, jak to mają w zwyczaju psychologowie poznawczy i nie tylko oni, domyślać się, jak wygląda
+to, co jest praktycznie *nieobserwowalne*, ekstremalnie [*złożone*, *idiosynkratyczne*,
 *zmienne*](https://pubmed.ncbi.nlm.nih.gov/18085558/), i w ogromnym stopniu zależne od niemal
 całkiem *nieobserwowalnej historii interakcji organizmu z jego środowiskiem*, to jest jak wygląda
 struktura mojego albo Twojego umysłu i przebieg naszych procesów umysłowych. Ani [*tym
