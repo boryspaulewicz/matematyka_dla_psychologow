@@ -276,16 +276,16 @@ zawdzięczam swobodę zajmowania się w owym czasie czym tylko chciałem, być m
 skończył, gdyby nie liczne rozmowy z dodającym mi stale odwagi Tomkiem Grzegorkiem, moim
 najważniejszym przyjacielem, któremu akurat zawdzięczam znacznie więcej niż to, gdzie dziś pracuję.
 
-Z kolei [Adasiowi Chuderskiemu](https://kognitywistyka.uj.edu.pl/pl_PL/adam-chuderski), który jest
-teraz szefem krakowskiej kognitywistyki, zawdzięczam przygodę z
+Z kolei [Adasiowi Chuderskiemu](https://kognitywistyka.uj.edu.pl/pl_PL/adam-chuderski), który teraz,
+gdy piszę te słowa, jest szefem krakowskiej kognitywistyki, zawdzięczam przygodę z
 [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która zmieniła na
 zawsze mój sposób myślenia o programowaniu. Podszedł kiedyś do mnie, gdy będąc jeszcze na studiach
-magisterskich pisałem w C++ jakąś procedurę do eksperymetu. Zapytał, w jakim języku ją piszę, na co
+magisterskich pisałem w C++ procedurę do eksperymetu. Zapytał, w jakim języku piszę, na co
 odpowiedziałem, że w C++. On wtedy powiedział, żartując, że gdyby jego koledzy dowiedzieli się, że
 pisze w C++, to by go wyśmiali. No to zapytałem, niezrażony, w czym On pisze, na co odpowiedział, że
-w Lispie. Wtedy nie miałem zielonego pojęcia, co to Lisp, a niedługo później to był już mój ulubiony
-język i na długo nim pozostał. Właśnie dlatego piszę tą książkę w
-[Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawna tak mocno
+w Lispie. Wtedy nie miałem pojęcia, co to Lisp, a niedługo później to był już mój ulubiony język i
+na długo nim pozostał. Właśnie dlatego piszę tą książkę w
+[Emacsie](https://www.gnu.org/fun/jokes/gospel.en.html), z którym jestem od dawna tak bardzo
 zrośnięty, że czasami nawet zapominam, że go w ogóle używam. Wygląda więc na to, że trzeba czasu,
 być może jakiegoś sposobu na siebie i jednego czy dwóch dobrych przyjaciół; wtedy można zrozumieć,
 co tylko się chce. What one fool can do, another can.
