@@ -1,13 +1,13 @@
 # Do czego autor zmierza
 
 Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w planowanej *drugiej*
-części. Całkiem możliwe, że większość tematów, o których tu piszę, może nie być zrozumiała dla osób,
-które nie studiowały przynajmniej przez kilka lat na przykład psychologii, dlatego takim
-czytelniczkom i czytelnikom sugeruję, żeby najwyżej tu zerknąć i przejść zaraz do [rozdziału
+części. Całkiem możliwe, że **większość tematów, o których tu piszę, może nie być zrozumiała dla
+osób, które nie studiowały przynajmniej przez kilka lat na przykład psychologii**, dlatego takim
+osobom sugeruję, żeby *najwyżej tu zerknąć* i przejść zaraz do [rozdziału
 czwartego](Pierwszy_spacerek.md), od którego zaczyna się *niemal od zera*, przebiegająca *bardzo
-stopniowo* interaktywna nauka podstaw samej matematyki. Co prawda w pierwszej części pojawią się
-czasami wątki związane z psychologią, ale te będą tam pełnić rolę przykładów, które można pominąć
-bez szkody dla zrozumienia głównej treści.
+stopniowo i interaktywnie*, nauka podstaw matematyki. Co prawda w pierwszej części pojawiają się
+wątki związane z psychologią, ale te pełnią tam rolę przykładów, które można pominąć bez szkody dla
+zrozumienia głównej treści.
 
 Po omówieniu potrzebnych do tego podstaw, zamierzam wytłumaczyć Ci między innymi, na czym polega
 istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Żeby dobrze objaśnić
