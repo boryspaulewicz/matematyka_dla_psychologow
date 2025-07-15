@@ -134,7 +134,8 @@ trzeba - albo się o tym pamięta, albo korzysta się na przykład z Leana, żeb
 twierdzenia wymagają założenia o istnieniu elementu neutralnego, a które nie. Czyli w zasadzie
 wystarczy nie okłamywać samych siebie. Spotkaliśmy się już z tym zjawiskiem omawiając
 powierzchowność różnic między relacją `<` i relacją `≤`, ale na wszelki wypadek przypomnę, o co w
-tym chodziło.
+tym chodziło. Przy okazji może wyjaśnię, że powtarzam się tu między innymi dlatego, że wiem, jak
+rzadkim zjawiskiem jest chęć, żeby wrócić po raz kolejny do tego samego fragmentu tekstu.
 
 *Relację* (*binarną*) `R` na zbiorze `X` można zakodować między innymi jako jakikolwiek podzbiór par
 uporządkowanych elementów należących do `X`, to jest `R ⊆ X × X`. Pewne własności relacji są tak
