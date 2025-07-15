@@ -340,7 +340,7 @@ tutaj jest bliżej nieokreślona\}). Ten izomorfizm możemy zapisać na przykła
 tak: `g ↦ f g`, gdzie `g` to dowolna strzałka z `X` do `A` (czyli w zapisie `g ↦ f g` chodzi o
 wiązanie - przez duży kwantyfikator - o postaci `∀ g ∈ Hom(X, A), ...`, ale chwilowo postrzegane
 jako parametr funkcji \{anominowej\}). Analogicznie, dla każdego obiektu `Y` mamy izomorfizm z
-`Hom(A, Y)` i `Hom(B, Y)`, dany przez `g ↦ g f⁻¹` (tutaj *podkładamy*, a nie *dokładamy* `f⁻¹`, bo
+`Hom(A, Y)` do `Hom(B, Y)`, dany przez `g ↦ g f⁻¹` (tutaj *podkładamy*, a nie *dokładamy* `f⁻¹`, bo
 tylko tak można przekształcić `g ∈ Hom(A, Y)` w strzałkę, której celem jest nadal `Y`, ale której
 źódłem jest `B` \{czyli która należy do zbioru `Hom(B, Y)`\}).
 
