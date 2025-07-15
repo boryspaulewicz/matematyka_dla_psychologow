@@ -132,51 +132,48 @@ doszło do tego, że przez około *dwa lata*, *niemal każdego dnia*, łącznie 
 4 do 6 godzin, *nie licząc przerw*, na systematycznej pracy umysłowej. Ponieważ stosowałem wtedy
 wszystkie te sposoby notowania i uczenia się, o których przed chwilą pisałem, moja głowa była
 wypełniona po brzegi psychologią poznawczą, statystyką, metodologią badań, językami programowania,
-elementami matematyki i różnymi innymi rzeczami, które akurat wtedy mnie interesowały (a miałem
-wiele różnych, czasem dość kosztownych zainteresowań). A ponieważ moja głowa była tego rodzaju
-sprawami wypełniona stale, to też często o nich mówiłem, nie zawsze zwracając uwagę, czy rozmówca
-był tym zainteresowany. Wydaje mi się, a właściwie jestem prawie pewien, że dla mojej ówczesnej
-partnetki to było spore wyzwanie. Później już nigdy w nic się tak nie zanurzyłem i staram się
-stosować do rady Rachlina, który pisze, cytując [Paula
-Valéry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry), że trzeba być lekkim jak ptak, ale nie
-jak piórko. Zresztą monitoring ma i tą zaskakującą cechę, że mimo tego, że zwykle ewidentnie działa,
-to jednak z jakiegoś tajemniczego powodu nawet Ci, którzy na nim najbardziej korzystają, pędzej czy
-później przestają go stosować.
+elementami matematyki i różnymi innymi sprawami, które akurat wtedy mnie interesowały (a miałem
+wiele, czasem dość kosztownych zainteresowań). A ponieważ moja głowa była tymi sprawami wypełniona
+stale, to też często o nich mówiłem, nie zawsze zwracając uwagę, czy rozmówca był tym
+zainteresowany. Wydaje mi się, a właściwie jestem prawie pewien, że dla mojej ówczesnej partnetki to
+było spore wyzwanie. Później już nigdy w nic się tak nie zanurzyłem i staram się stosować do rady
+Rachlina, który pisze, cytując [Valéry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry), że
+*trzeba być lekkim jak ptak, ale nie jak piórko*. Zresztą monitoring ma i tą zaskakującą cechę, że
+mimo tego, że zwykle ewidentnie działa, to jednak z jakiegoś tajemniczego powodu nawet Ci, którzy na
+nim najbardziej korzystają, pędzej czy później przestają go stosować.
 
 Nawiasem mówiąc, odkryłem wtedy coś niepokojącego. Zorientowałem się mianowicie, że *pracownicy
 naukowi rzadko się czegoś uczą*. Owszem, często czytają artykuły i książki dotyczące tego, czym się
 akurat zajmują, ale nie spotkałem dotąd *żadnego* pracownika naukowego, który by coś systematycznie
 powtarzał[^4]. Ciekawe, prawda? Jednym z powodów jest pewnie brak czasu, ale biorąc pod uwagę
 charakter tej pracy, to jest, mówiąc delikatnie, dość słaba wymówka. Za to większość stara się dużo
-*publikować*, co mi akurat wychodzi przeciętnie, bo rzadko mi się zdaje, że mam coś zarazem nowego i
+*publikować*, co mi akurat wychodzi przeciętnie, bo rzadko mi się zdaje, że mam coś nowego i
 wartościowego do opowiedzenia. Właściwie raz na dobrych kilka lat mi się tak zdaje, a niemałej
 części publikacji, których jestem współautorem, po prostu się wstydzę. Jeżeli więc chodzi Ci po
 głowie (w Polsce często marnie opłacana, ale za to wakacje są długie) tak zwana kariera akademicka i
-studia doktorskie (które kiedyś pozostawiały chyba znacznie więcej czasu na rozwijanie się w
-kierunku zgodnym z *własnymi* zainteresowaniami), to moim zdaniem możesz wielu z nas szybko
-prześcignąć w wybranym przez siebie obszarze właśnie dzięki temu. A jak do tego dodasz jeszcze mniej
-lub bardziej regularne ćwiczenia z *czytania ze zrozumieniem* (do których skutecznie zmusiły mnie
-trzy lata studiowania w Krakowie filozofii), to Twoja postawa wobec tego, co można znaleźć w
-publikacjach recenzowanych, stanie się tak krytyczna, że nie zabraknie Ci wiary, że może kiedyś coś
-ważnego zdziałasz.
+studia doktorskie (które kiedyś pozostawiały znacznie więcej czasu na rozwijanie się w kierunku
+zgodnym z *własnymi* zainteresowaniami), to moim zdaniem możesz wielu z nas szybko prześcignąć
+właśnie dzięki temu. A jak do tego dodasz jeszcze mniej lub bardziej regularne ćwiczenia z *czytania
+ze zrozumieniem* (do których skutecznie zmusiły mnie trzy lata studiowania w Krakowie filozofii), to
+Twoja postawa wobec tego, co można znaleźć w publikacjach recenzowanych, stanie się tak krytyczna,
+że nie zabraknie Ci wiary, że może kiedyś coś ważnego zdziałasz.
 
-Na koniec zasugeruję Ci coś, o czym sam muszę nadal sobie stale przypominać: Jeżeli chcesz coś
+Na koniec zasugeruję Ci coś, o czym sam muszę sobie nadal stale przypominać: Jeżeli chcesz coś
 zrobić, ale nie możesz się do tego zabrać, zrób *jakikolwiek pierwszy krok*. Na przykład, jeżeli
 chcesz zacząć się uczyć z jakiejś książki, otwórz tą książkę, albo tylko połóż ją w widocznym
 miejscu, może nawet zrób to wtedy, kiedy wcale nie zamierzasz jeszcze zacząć. A jeżeli trudno Ci się
-zmusić i do tego, to możesz spróbować zrobić pierwszy krok *w kierunku zrobienia pierwszego kroku*,
-na przykład tylko wspomnieć komuś, co "chciałabyś chcieć" zrobić[^1]. Na mnie to czasami działa. To
-nie da *gwarancji* sukcesu, bo *nic* nie może jej dać, ale może zwiększy Twoje szanse[^2].
+zmusić i do tego, spróbuj zrobić pierwszy krok *w kierunku zrobienia pierwszego kroku*, na przykład
+tylko wspomnij komuś, co "chciałabyś chcieć" zrobić[^1]. Na mnie to czasami działa. To nie da
+*gwarancji* sukcesu, bo *nic* nie może jej dać, ale może zwiększy Twoje szanse[^2].
 
 ### Przypisy
 
 [^1]: [Rekurencją](https://pl.wikipedia.org/wiki/Rekurencja) albo inaczej rekursją zajmiemy się w
     jednym z późniejszych rozdziałów.
 
-[^2]: Może wtedy zadziałać coś, co za Rachlinem nazwałbym chętnie wstępnym zaangażowaniem, gdyby nie
-    to, że ten termin jest zajęty. Można powiedzieć, że próbując zastosować tą metodą sami wobec
-    siebie stosujemy technikę [stopy w
-    drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
+[^2]: Może wtedy zadziałać coś, co za Rachlinem nazwałbym chętnie wstępnym zaangażowaniem, gdyby ten
+    termin nie był już zajęty. Można powiedzieć, że próbując zastosować tą metodę, sami wobec siebie
+    stosujemy technikę [stopy w drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
 
 [^3]: To jest link do darmowej wersji ostatniego wydania, ale ja, z różnych powodów, wolę akurat
     wydanie drugie.
