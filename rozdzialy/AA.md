@@ -296,11 +296,10 @@ prawej można by zapisać tak ...
 `(a, (b, c)) ↦ ((a, b), c)`
 
 ... gdzie symbol `↦` (który uzyskasz pisząc `\mapsto`) to standardowa notacja oznaczająca działanie
-funkcji na jakimś (zwykle, tak jak tutaj, rozumianym jako typowy albo arbitralny, i dlatego
-zapisanym parametrycznie) elemencie. Na przykład, funkcję kwadratową można równie dobrze zapisać
-jako `m ↦ m × m`; zresztą już się pewnie oswoiłaś z tym zapisem, bo podobną rolę odgrywa symbol `=>`
-w definicjach λ-abstrakcji. Można by wręcz powiedzieć, że to tylko inny sposób zapisywania funkcji
-anonimowych.
+funkcji na jakimś (zwykle, tak jak tutaj, rozumianym jako typowy albo arbitralny i dlatego zapisanym
+parametrycznie) elemencie. Na przykład, funkcję kwadratową można równie dobrze zapisać jako `m ↦ m ×
+m`; zresztą już się pewnie oswoiłaś z tym zapisem, bo taką samą rolę odgrywa symbol `=>` w
+definicjach λ-abstrakcji. Można powiedzieć, że to tylko inny sposób zapisywania funkcji anonimowych.
 
 W przypadku izomorfizmu między zbiorami, to było przekształcenie uporządkowanych par *elementów*,
 których pierwszym albo drugim elementem była para uporządkowana elementów. Z powodu zastosowanej w
