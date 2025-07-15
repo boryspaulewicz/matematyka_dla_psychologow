@@ -33,8 +33,8 @@ Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli 
 chodzi w *jakichkolwiek* (nie tylko psychologicznych) *badaniach obserwacyjnych* i
 *eksperymentalnych*, a także w *pomiarze*, *o ile* pomiar interpretujemy tylko przyczynowo. Będziemy
 wtedy korzystać intensywnie z dwóch formalnych definicji. Jedną z nich będzie wpływowa,
-przyczynowo-teoretyczna definicja trafności pomiaru, którą w pełnym pasji i, jak to u Niego zwykle
-bywa, znakomicie napisanym [artykule](https://psycnet.apa.org/buy/2004-19012-010) zaproponował
+przyczynowo-teoretyczna definicja trafności pomiaru, którą w pełnym pasji i - jak to u Niego zwykle
+bywa - znakomicie napisanym [artykule](https://psycnet.apa.org/buy/2004-19012-010) zaproponował
 wybitny teoretyk psychometrii [Denny Borsboom](https://en.wikipedia.org/wiki/Denny_Borsboom). Drugą
 będzie, również przyczynowo-teoretyczna, definicja niezmienności pomiaru (objaśniona na s. 14 w tym
 [preprincie](https://osf.io/preprints/psyarxiv/e7a3x) i niestety błędnie opisana na
@@ -67,43 +67,41 @@ dotyczącego [mediacji](https://link.springer.com/article/10.1007/s11121-011-027
 [psychologii społecznej](https://pl.wikipedia.org/wiki/Psychologia_spo%C5%82eczna). Ale wcześniej
 wskażemy rażące błędy w
 [tym](https://www.researchgate.net/publication/252109497_Insight_problem_solving_fluid_intelligence_and_executive_control_A_structural_equation_modeling_approach)
-tragicznie złym, pokonferencyjnym tekście, który jak dotąd (2024-01-16) doczekał się 31 cytowań i
+*tragicznie* złym, pokonferencyjnym tekście, który jak dotąd (2024-01-16) doczekał się 31 cytowań i
 którego już na zawsze pozostanę pierwszym autorem.
 
-Mając do dyspozycji te wszystkie narzędzia, podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
+Mając do dyspozycji te wszystkie narzędzia podejmiemy próbę *pełnej formalizacji* dwóch rodzajów
 "obiektów prozaicznych" - skromnego artykułu empirycznego i równie skromnego artykułu
 teoretycznego. Okaże się wtedy, że nie ma między nimi w zasadzie różnicy, bo każdy artykuł
 empiryczny musi zawierać fragment rozumowania teoretycznego, a każdy artykuł teoretyczny służy
 ostatecznie do zmiany sposobu wnioskowania z danych.
 
 Dzięki temu dostrzeżemy możliwość istnienia alternatywnego sposobu uprawiania nauki (wiem, jak to
-brzmi), z perspektywy którego zdają się tracić na znaczeniu takie praktyki jak na przykład
-prerejestracja badań, testowanie hipotez, czy proces recenzji. Bo też jaką rolę może odegrać
-recenzent czy redaktor, kiedy *całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod
-względem poprawności? Wyrazić zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
+brzmi), z perspektywy którego zdają się tracić na znaczeniu takie praktyki jak prerejestracja badań,
+testowanie hipotez, czy proces recenzji. Bo też jaką rolę może odegrać recenzent czy redaktor, kiedy
+*całe* rozumowanie jest sformalizowane i sprawdzone maszynowo pod względem poprawności? Wyrazić
+zainteresowanie albo jego brak? A może jakąś inną subiektywną opinię?
 
 Ponieważ takie sformalizowane artykuły naukowe będą *jednocześnie* programami komputerowymi i
-zakodowanymi w języku teorii typów rozumowaniami, to te artykuły będzie można *składać* w większe
-artykuły, dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz, łącząc ze sobą
-różne prostsze funkcje.
+zakodowanymi w języku teorii typów rozumowaniami, będzie je można *składać* w większe artykuły,
+dokładanie tak samo jak zwykłe programy komputerowe piszemy już teraz, łącząc ze sobą różne prostsze
+funkcje. Nietrudno sobie wyobrazić, że kolekcja takich napisanych we wspólnym języku artykułów
+mogłaby tworzyć coś w rodzaju programistycznej bibliteki żywej wiedzy naukowej, złożonej ze
+*strumieni wnioskowania z danych*. Praca teoretyczna polegałaby wtedy na odkrywaniu nowych sposobów
+łączenia źródeł danych z wnioskami i odkrywania nowych wniosków, a więc na *przekierowywaniu
+dedukcyjnych strumieni empirycznych*, a także na badaniu struktury przestrzeni strumieni
+wnioskowania z danych jako takiej. Praca *czysto* empiryczna polegałaby z kolei na *samym
+dostarczaniu danych* w taki sposób, żeby minimalizować konflikt interesów. No i czym byłaby wtedy
+"decyzja o odrzuceniu" jakiejś hipotezy empirycznej, jak nie tylko pustym gestem? Przecież *żaden*
+empiryczny test nigdy nie da nam pewności, a zapisane w repozytorium teorii hipotezy można by tam po
+prostu *zostawić*, bo w takiej postaci *nie zajmowałyby miejsca w publikacjach*. Byłoby wtedy
+dosłownie *widać*, które hipotezy i w jakim stopniu przydają się w danym momencie do czego.
 
-Nietrudno wyobrazić sobie, że kolekcja takich napisanych we wspólnym języku artykułów mogłaby
-tworzyć coś w rodzaju programistycznej bibliteki żywej wiedzy naukowej, złożonej ze *strumieni
-wnioskowania z danych*. Praca teoretyczna polegałaby wtedy na odkrywaniu nowych sposobów łączenia
-źródeł danych z wnioskami i odkrywania nowych wniosków, a więc na *przekierowywaniu dedukcyjnych
-strumieni empirycznych*, a także na badaniu struktury przestrzeni strumieni wnioskowania z danych
-jako takiej. Praca *czysto* empiryczna polegałaby z kolei na *samym dostarczaniu danych* w taki
-sposób, żeby minimalizować konflikt interesów. No i czym byłaby wtedy "decyzja o odrzuceniu" jakiejś
-hipotezy empirycznej, jak nie tylko pustym gestem? Przecież *żaden* empiryczny test nigdy nie da nam
-pewności, a zapisane w repozytorium teorii hipotezy można by tam po prostu *zostawić*, bo w takiej
-postaci *nie zajmowałyby miejsca w publikacjach*. Wtedy byłoby *widać*, które hipotezy i w jakim
-stopniu przydają się w danym momencie do czego.
-
-Czemu wspominam o konflikcie interesów? Moim zdaniem niemal każdy artykuł empiryczny powinien w
-zasadzie zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest powszechny i
-o którym, o ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków jest zwykle
-odpowiedzialny lub współodpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane [wątpliwe
-praktyki badawcze](https://en.wikipedia.org/wiki/Scientific_misconduct) (ang. *questionable research
+Czemu wspominam o konflikcie interesów? Moim zdaniem niemal każdy artykuł empiryczny powinien
+zawierać notę o takim konflikcie. Mam na myśli konflikt interesów, który jest powszechny i o którym,
+o ile mi wiadomo, w ogóle się nie mówi - *autor artykułu i wniosków jest zwykle odpowiedzialny lub
+współodpowiedzialny za zbieranie lub analizę danych*. Dlatego tak zwane [wątpliwe praktyki
+badawcze](https://en.wikipedia.org/wiki/Scientific_misconduct) (ang. *questionable research
 practices*) są w ogóle *możliwe*. W połączeniu z silnie i stale oddziałującymi zachętami, takimi jak
 rozliczanie pracowników przede wszystkim z *ilości* publikacji, *ilości* punktów publikacyjnych i
 *ilości* grantów, ta możliwość *musi* często prowadzić do wątpliwych praktyk, ponieważ naukę
@@ -111,8 +109,8 @@ uprawiają *zwykli ludzie*, tacy jak Ty czy ja.
 
 Gdybym miał zgadywać, powiedziałbym, że sedno tego problemu polega na tym, że w obecnym systemie
 wątpliwe praktyki badawcze są *bardzo opłacalne* i jednocześnie *łatwe*. W dodatku - i to wcale nie
-wynika *logicznie* z tej ostatniej tezy - uczciwe wykonywanie pracy naukowej i unikanie marnowania
-publicznych pieniędzy albo zaśmiecania literatury kosztownym i szkodliwym szumem jest często
+wynika *logicznie* z tej ostatniej tezy - uczciwe wykonywanie pracy naukowej, unikanie marnowania
+publicznych pieniędzy, i zaśmiecania literatury kosztownym i szkodliwym szumem jest często
 *nieopłacalne* i *trudne* z powodów *niezwiązanych z trudnościami w dociekaniu prawdy o przedmiocie
 własnych badań*.
 
@@ -126,9 +124,9 @@ wnioski, to te wnioski powinny być traktowane tak samo jak uzasadnione wnioski 
 naukowego.
 
 Wracając do celów, następnie podejmiemy próbę sformalizowania rozumowań, które będą wymagały
-wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji - definicji
-pojęcia *zadania*. Odkryjemy również wtedy kluczową przyczynowo-zadaniową rolę *instrukcji*, w tym
-również *instrukcji zrandomizowanych*, które psychologowie zdają się tak często lekceważyć.
+wprowadzenia może początkowo dziwnie brzmiącej, ale za to prostej i ogólnej definicji
+*zadania*. Odkryjemy również wtedy kluczową przyczynowo-zadaniową rolę *instrukcji*, w tym również
+*instrukcji zrandomizowanych*, które psychologowie zdają się tak często lekceważyć.
 
 Dzięki tej jednej definicji będziemy mogli całkowicie zakodować w języku teorii typów artykuł
 naukowy dotyczący pewnego zjawiska swoiście *psychologicznego*. Pomijając ewentualną dokumentację, z
@@ -139,15 +137,15 @@ wnioskami probabilistycznymi i przyczynowymi, a korzystając z definicji zadania
 będziemy mogli zrobić to samo z pewnymi wnioskami swoiście psychologicznymi.
 
 Z perspektywy użytkownika to będzie po prostu informacja, że określone *warunki pozyskiwania
-danych* - które to warunki z powodów praktycznych taki użytkownik będzie musiał traktować jako coś w
-rodzaju aksjomatów - mają, niemal *ponad wszelką wątpliwość*, to jest zakładając *tylko*
-wiarygodność źródła danych i niezawodność fizycznej implementacji obsługujących działanie
-repozytorium algorytmów, takie a nie inne właściwości *psychologiczne* czy *zachowaniowe*. W dodatku
-ta formalizacja będzie wręcz *zawstydzająco prosta*, podobnie jak zawstydzająco prostymi
-formalizacjami pojęć prawdopodobieństwa, wpływu i własności kontrfaktycznych są rachunki
-prawdopodobieństwa i przyczynowy dla zmiennych dyskretnych[^3].
+danych*, które to warunki z powodów praktycznych taki użytkownik będzie musiał traktować jako coś w
+rodzaju aksjomatów, mają, niemal *ponad wszelką wątpliwość*, to jest zakładając *tylko* wiarygodność
+źródła danych i niezawodność fizycznej implementacji obsługujących działanie repozytorium
+algorytmów, takie a nie inne właściwości *psychologiczne* czy *zachowaniowe*. W dodatku ta
+formalizacja będzie wręcz *zawstydzająco prosta*, podobnie jak zawstydzająco prostymi formalizacjami
+pojęć prawdopodobieństwa, wpływu i własności kontrfaktycznych są rachunki prawdopodobieństwa i
+przyczynowy dla zmiennych dyskretnych[^3].
 
-Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, dokładnie tak jak wcześniej
+Zaczniemy się wtedy przyglądać z nowej perspektywy *całej* psychologii, podobnie jak wcześniej
 będziemy się długo przyglądać *całej* matematyce, patrząc na tą ostatnią z tego niezwykłego punktu
 widzenia, którego dostarczy nam najpierw [teoria typów](https://en.wikipedia.org/wiki/Type_theory) i
 [izomorfizm Curry'ego-Howarda](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), a
@@ -172,10 +170,10 @@ Wprowadzenie formalnej wersji definicji zadania będzie umotywowane pewnym wglą
 wgląd przytrafił mi się w końcu, po ponad piętnastu latach uczenia się i myślenia wciąż o jednym
 małym zbiorze kilku ściśle powiązanych zagadek dotyczących podstaw psychologii. W dodatku w pewnym
 sensie sedno sprawy miałem przez prawie cały ten czas przed oczami, bo to nic innego jak
-wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi [Edwarda
-Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), inspirowanej myślą jego wybitnego
-nauczyciela [Ralpha Perry'ego](https://en.wikipedia.org/wiki/Ralph_Barton_Perry), którą przytoczyłem
-w [doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
+wyprowadzenie nieuchronnych kosekwencji ze zmodyfikowanej wersji pewnej uwagi
+[Tolmana](https://en.wikipedia.org/wiki/Edward_C._Tolman), inspirowanej myślą jego wybitnego
+nauczyciela [Perry'ego](https://en.wikipedia.org/wiki/Ralph_Barton_Perry), którą przytoczyłem w
+[doktoracie](./praca_doktorska.pdf), a którą bardzo długo błędnie rozumiałem:
 
 > Koncepcja, za którą się tu opowiadamy, głosi, ujmując rzecz pokrótce, że zawsze, gdy jakąś reakcję
 > cechuje wyuczalność w odniesieniu do pewnego końcowego rezultatu - gdy reakcja ta ma skłonność do:
@@ -205,8 +203,7 @@ Od niedawna nazywam ten punkt widzenia *funkcjonalizmem zewnętrznym* albo - z p
 *funkcjonalizmem obiektywnym*[^11]. Zewnętrzny obserwator ostatecznie zniknie nam z pola widzenia,
 tak samo jak "Ten, który powtarza doświadczenie" szybko znika nam z pola widzenia, kiedy poznajemy
 rachunek prawdopodobieństwa, a "Ten, który dokonuje zewnętrznej interwencji" szybko się ulatnia,
-kiedy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie nadal "Jego"
-cień.
+kiedy poznajemy rachunek przyczynowy. Jednak w formalnej definicji zadania pozostanie "Jego" cień.
 
 Można to powiedzieć również tak: Tak samo, jak nie da się wyprowadzić wniosków probabilistycznych
 nie przyjmując założeń probabilistycznych i nie da się wyprowadzić wniosków przyczynowych nie
@@ -217,8 +214,8 @@ relacje *porządku*. Gdy tylko dodamy w odpowiedniej wersji - do probabilistyczn
 tego typu założenia albo aksjomaty, będziemy mogli natychmiast zacząć mówić o *działaniach
 celowych*, a więc *zachowaniach*.
 
-Albo tak: Aksjomatycznie wprowadzając do języka formalnego preferencję zewnętrznego obserwatora,
-uzupełnimy istniejące już formalne teorie, pozwalające mówić o tym ...
+Albo tak: Aksjomatycznie wprowadzając do języka formalnego preferencje zewnętrznego obserwatora,
+uzupełnimy zastane formalne teorie, pozwalające mówić o tym ...
 
 1. Jak często zachodzi $Y$, gdy zachodzi $X$.
 
@@ -228,39 +225,40 @@ uzupełnimy istniejące już formalne teorie, pozwalające mówić o tym ...
    sytuacji $S$.
 
 .. a więc rachunek prawdopodobieństwa, rachunek interwencji i rachunek kontrfaktyczny, o możliwość
-wyrażenia formalnie pytań dotyczących tego,
+wyrażenia formalnie pytań dotyczących tego, ...
 
 4. Jak i w jakim stopniu można sprawić, żeby zachodziło $Z$. 
 
 gdzie $Z$ będzie *stopniowalnym wykonaniem* (jakiegoś) *zadania*. Można powiedzieć, że w ten sposób
-zrobimy coś, co zapomniał zrobić genialny [Judea Pearl](https://en.wikipedia.org/wiki/Judea_Pearl) i
+zrobimy coś, co zapomniał zrobić genialny [Pearl](https://en.wikipedia.org/wiki/Judea_Pearl), i
 przez to nie był w stanie do końca sformalizować między innymi pojęć z dziedziny moralności, takich
 jak pojęcia [odpowiedzialności i
 winy](https://link.springer.com/chapter/10.1007/978-3-642-23963-2_1), a mianowicie wyrazimy
 formalnie pytanie *jak można coś zrobić*.
 
-Albo można powiedzieć, że powtórzymy w ten sposób za genialnym [Davidem
-Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)), jednocześnie go poprawiając, że
+Albo można powiedzieć, że powtórzymy w ten sposób za genialnym
+[Marrem](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)), jednocześnie go poprawiając, że
 zrozumienie algorytmu *jako algorytmu* jest *tylko wtedy możliwe*, gdy mamy *najpierw* określony
 *cel*, który ten algorytm *mógłby* lepiej lub gorzej realizować. A ponieważ fizyczna implementacja
-nigdy nie jest niezawodna, zamiast jak zaproponował Marr mówić o *trzech* poziomach analizy,
+nigdy nie jest niezawodna, zamiast, jak zaproponował Marr, mówić o *trzech* poziomach analizy,
 będziemy mówić głównie o *dwóch*, to jest o poziomach
 [teleologicznym](https://pl.wikipedia.org/wiki/Teleologia) i przyczynowo-stochastycznym, poziom
 algorytmiczny traktując jako szczególny, bo pozbawiony realizmu jakiego dostarcza wprowadzenie
 [stochastycznego tła](https://en.wikipedia.org/wiki/Exogenous_and_endogenous_variables), przypadek
 opisu czegoś w kategoriach przyczynowo-stochastycznych z perspektywy teleologicznej, a poziom
-kontrfaktyczny traktując, zgodnie z jego definicją, jako narzędzie badań teoretycznych.
+kontrfaktyczny traktując, zgodnie z jego definicją, jako narzędzie służące do badań czysto
+teoretycznych.
 
 Wprowadzimy tym samym uogólnioną wersję pojęcia
 [obliczalności](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), a dokładniej *arbitralnie
-przybliżoną, fizyczną obliczalność przyczynowo-teleologiczną* i uzupełnimy istniejące już jako
-języki formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i *ostatni*, dzieki któremu
-ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako
+przybliżoną, fizyczną obliczalność przyczynowo-teleologiczną*. Uzupełnimy w ten sposób istniejące
+już jako języki formalne, trzy jakościowo odrębne wymiary, o wymiar czwarty i *ostatni*, dzieki
+któremu ujawni się *Zewnętrzny Agent*[^2]. Rozpoznamy jednocześnie wszystkie te cztery wymiary jako
 własności sposobu opisywania zjawisk z perspektywy *Kogoś, kto właściwie nie istnieje*. W
 szczególności, preferencja *nie* będzie wtedy własnością opisywanego procesu. Odkryjemy też, że
 zawsze z konieczności niepełne bo przybliżone *wcielenie się w podmiot* jest procesem *społecznym*,
 w którym podmiotowość jest nieustannie *re-konstruowana* w ramach procesu uczenia *się*,
-polegającego na abstrakcyjnie rozumianym, *przybliżonym wewnątrz-* lub *między-jednostkowym
+polegającego na abstrakcyjnie rozumianym, *przybliżonym wewnątrz- i między-jednostkowym
 dialogu*[^8].
 
 Formalny język, który będzie oparty na wspomianej definicji zadania, będzie się nadawał do stawiania
