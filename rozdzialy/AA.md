@@ -115,9 +115,9 @@ jabłek, które Jacek dodał wczoraj Kasi. Tak rozumiane zdanie jest łatwiej za
 łatwiej się nim operuje, i łatwiej jest też dzięki temu konsekwentnie myśleć o tego rodzaju
 sytuacjach, niż gdyby to zdanie rozumieć jako *nieprawda, że Ignacy dodał Kasi wczoraj jakieś
 jabłka*, czyli formalnie na przykład jako `¬(∃ J, K₂ = K₁ + J)`. W szczególności, gdybyśmy nie mieli
-zera, nie wystarczyłyby nam same metody rachunkowe; musielibyśmy używać dwóch różnych sposobów
-myślenia tam, gdzie wystarczy stosować jeden bardziej abstrakcyjny sposób. No i nie skorzystalibyśmy
-z okazji do uzyskania nowego, ekscytującego spojrzenia na liczby.
+zera, nie wystarczyłyby nam same metody rachunkowe; musielibyśmy używać *dwóch* różnych *sposobów
+myślenia* tam, gdzie wystarczy stosować jeden bardziej abstrakcyjny sposób. No i nie
+skorzystalibyśmy z okazji do uzyskania nowego, ekscytującego spojrzenia na liczby.
 
 Czy widzisz już trochę lepiej, że zasadność traktowania `0` jako liczby narzuca się bardziej, kiedy
 skupiamy się na *działaniach* na liczbach, czyli na tym, *co możemy z nimi robić*, a dokładniej *do
