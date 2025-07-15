@@ -91,24 +91,25 @@ pomysłów. Te przychodzą nam do głowy czasem same, a czasami na skutek zmagan
 problemem czy uczenia się czegoś. Psychologowie zajmujący się twórczością twierdzą - i moje
 doświadczenia wskazują, że mają w tym rację - że pomysły, których się w żaden sposób nie "wyjęło z
 głowy", czy to mówiąc o nich na głos, czy to zapisując, mają tendencję do zalegania, a przez to
-zdają się zajmować naszą umysłową przestrzeń, w której - gdyby w niej było trochę więcej miejsca -
-mogłoby się może pojawić coś innego. To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest
-też taki, że gdy coś zapisujemy, to coś staje się od nas odrębne i nabiera pewnej
-autonomii. Zapisany pomysł, wątpliwość albo obserwacja może zacząć działać jak zanurzone w roztworze
-soli drobne ciało stałe, taki zalążek przyszłego kryształu, wokół którego samoistnie powstają i
-rosną kolejne pomysły, obserwacje i pytania. Dlatego też ostatnio, kiedy dużo piszę i ciągle mam
-poczucie, że jeszcze dobrze nie zacząłem, prawie zawsze mam przy sobie mały notes i długopis. A poza
-tym teraz, kiedy moja pamięć nie działa już tak dobrze jak wcześniej, wiele pomysłów bym zapomniał,
-gdybym ich gdzieś nie zapisał.
+zdają się zajmować "umysłową przestrzeń", w której, gdyby w niej było trochę więcej miejsca, mogłoby
+się pojawić coś innego. 
+
+To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest też taki, że gdy coś zapisujemy, to
+coś staje się od nas odrębne i nabiera pewnej autonomii. Zapisany pomysł, wątpliwość albo obserwacja
+może zacząć działać jak zanurzone w roztworze soli drobne ciało stałe, taki zalążek przyszłego
+kryształu, wokół którego samoistnie powstają i rosną kolejne pomysły, obserwacje i pytania. Dlatego
+też ostatnio, kiedy dużo piszę i ciągle mam poczucie, że jeszcze dobrze nie zacząłem, prawie zawsze
+mam przy sobie mały notes i długopis. A poza tym teraz, kiedy moja pamięć nie działa już tak dobrze
+jak wcześniej, wiele pomysłów bym zapomniał, gdybym ich gdzieś nie zapisał.
 
 Powtarzam nie zaglądając początkowo do notatek, ani tym bardziej do książek, bo powtarzanie przez
-rozpoznawanie, jak wspomniałem, nie ma sensu. Zamiast tego, na głos, w myślach, lub pisząc na
-kartce, próbuję *opowiedzieć* to, co mam powtórzyć. W ten sposób natychmiast zauważam, czego albo
-dobrze nie pamiętam, albo czego nie rozumiem w stopniu, który by mi to pozwalał w miarę jasno komuś
-wytłumaczyć. Zaraz potem oczywiście sięgam do notatek lub źródłowych materiałów i upewniam się, ile
-treści i jak dobrze udało mi się w ten sposób powtórzyć. Można by pomyśleć, że to nie powtórki,
-tylko trening używania nabywanej wiedzy, ale przecież nic innego nie jest celem sensownego
-powtarzania.
+rozpoznawanie, jak wspomniałem, nie ma sensu. Zamiast tego, na głos, w myślach, lub pisząc na kartce
+próbuję (hipotetycznemu) komuś *opowiedzieć* to, co mam powtórzyć. W ten sposób natychmiast
+zauważam, czego albo dobrze nie pamiętam, albo czego nie rozumiem w stopniu, który by mi to pozwalał
+w miarę jasno wytłumaczyć. Zaraz potem oczywiście sięgam do notatek lub źródłowych materiałów i
+upewniam się, ile treści i jak dobrze udało mi się w ten sposób powtórzyć. Można by pomyśleć, że to
+nie powtórki, tylko trening używania nabywanej wiedzy, ale przecież nic innego nie jest celem
+sensownego powtarzania.
 
 Jeszcze jedno, chociaż może Tobie to nie będzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
 charakteru, najpewniej niewiele bym w życiu osiągnął, gdyby nie pewien prosty trik, który wymyśliłem
