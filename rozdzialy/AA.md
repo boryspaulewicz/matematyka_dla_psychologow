@@ -107,17 +107,17 @@ i trzeba to zrobić tak, żeby te nowe, uwzględniające "istnienie" liczby zero
 jako środki do osiągania pewnych dobrze określonych celów, takich jak odpowiedź na palące pytanie,
 czy Jacek (do)dał wczoraj Kasi jabłka, a jeśli tak, to ile.
 
-Dzięki temu, że "mamy zero", to gdy nie wiemy, ile jabłek dodał wczoraj Kasi Jacek, jedną z
-poprawnych, choć niekoniecznie prawdziwych odpowiedzi na to pytanie jest *Jacek dodał Kasi zero
-jabłek* - `K₂ = K₁ + J = K₁ + 0 = K₁`, gdzie `K₁` (`K₂`) oznacza liczbę jabłek, które Kasia miała
-pierwszego dnia (ma dzisiaj, bo żadnego nie zjadła ani nie straciła), a `J` oznacza liczbę jabłek,
-które Jacek dodał wczoraj Kasi. Tak rozumiane zdanie jest łatwiej zakodować formalnie, łatwiej się
-nim operuje, i łatwiej jest też dzięki temu konsekwentnie myśleć o tego rodzaju sytuacjach, niż
-gdyby to zdanie rozumieć jako *nieprawda, że Ignacy dodał Kasi wczoraj jakieś jabłka*, czyli
-formalnie na przykład jako `¬(∃ J, K₂ = K₁ + I)`. W szczególności, gdybyśmy nie mieli zera, nie
-wystarczyłyby nam same metody rachunkowe; musielibyśmy używać dwóch różnych sposobów myślenia tam,
-gdzie wystarczy stosować jeden bardziej abstrakcyjny sposób. No i nie skorzystalibyśmy z okazji do
-uzyskania nowego, ekscytującego spojrzenia na liczby. 
+Dzięki temu, że (aksjomatycznie) "mamy" zero, to gdy nie wiemy, ile jabłek dodał wczoraj Kasi Jacek,
+jedną z poprawnych, choć niekoniecznie prawdziwych odpowiedzi na to pytanie jest *Jacek dodał Kasi
+zero jabłek* - `K₂ = K₁ + J = K₁ + 0 = K₁`, gdzie `K₁` (`K₂`) oznacza liczbę jabłek, które Kasia
+miała pierwszego dnia (ma dzisiaj, bo żadnego nie zjadła ani nie straciła), a `J` oznacza liczbę
+jabłek, które Jacek dodał wczoraj Kasi. Tak rozumiane zdanie jest łatwiej zakodować formalnie,
+łatwiej się nim operuje, i łatwiej jest też dzięki temu konsekwentnie myśleć o tego rodzaju
+sytuacjach, niż gdyby to zdanie rozumieć jako *nieprawda, że Ignacy dodał Kasi wczoraj jakieś
+jabłka*, czyli formalnie na przykład jako `¬(∃ J, K₂ = K₁ + I)`. W szczególności, gdybyśmy nie mieli
+zera, nie wystarczyłyby nam same metody rachunkowe; musielibyśmy używać dwóch różnych sposobów
+myślenia tam, gdzie wystarczy stosować jeden bardziej abstrakcyjny sposób. No i nie skorzystalibyśmy
+z okazji do uzyskania nowego, ekscytującego spojrzenia na liczby.
 
 Czy widzisz już trochę lepiej, że zasadność traktowania `0` jako liczby narzuca się bardziej, kiedy
 skupiamy się na *działaniach* na liczbach, czyli na tym, *co możemy z nimi robić*, a dokładniej *do
