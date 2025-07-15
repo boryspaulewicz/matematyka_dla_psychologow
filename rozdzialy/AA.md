@@ -137,7 +137,7 @@ powierzchowność różnic między relacją `<` i relacją `≤`, ale na wszelki
 tym chodziło. Przy okazji może wyjaśnię, że powtarzam się tu między innymi dlatego, że wiem, jak
 rzadkim zjawiskiem jest chęć, żeby wrócić po raz kolejny do tego samego fragmentu tekstu.
 
-*Relację* (*binarną*) `R` na zbiorze `X` można zakodować między innymi jako jakikolwiek podzbiór par
+*Relację (binarną) `R` na zbiorze `X`* można zakodować między innymi jako jakikolwiek podzbiór par
 uporządkowanych elementów należących do `X`, to jest `R ⊆ X × X`. Pewne własności relacji są tak
 często ważne, że mają swoje nazwy. Tak zakodowana relacja jest na przykład zwrotna wtedy i tylko
 wtedy, gdy `∀ x ∈ X, (x, x) ∈ R`, co zapisujemy często w notacji wzrostkowej jako `x R x` (jak w `1
