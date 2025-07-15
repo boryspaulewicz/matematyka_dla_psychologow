@@ -151,11 +151,11 @@ wprost o zbiorze, na którym jest określona relacja oznaczana w tym kontekście
 możemy łatwo uzyskać `<` *pozbywając się* wszystkich możliwych faktów postaci `x ≤ x` (czyli
 wszystkich par `(x, x)`), a z relacji `<` możemy łatwo uzyskać `≤` *dosypując* wszystkie możliwe
 fakty takiej postaci. To jest, jak nietrudno zauważyć, *izomorfizm* między zbiorem relacji
-przeciwzwrotnych i zwrotnych: Jeżeli dana relacja jest przeciwzwrotna, to nie zawiera żadnej pary o
-postaci `(x, x)`, a więc dodanie wszystkich możliwych takich par a następnie usunięcie wszystkich
-takich par pozostawia relację bez zmian. I tak samo bez zmian pozostanie relacja zwrotna, jeśli
-najpierw usuniemy z niej wszystkie pary o takiej postaci, a potem je przywrócimy. A struktury
-izomorficzne są funkcjonalnie takie same.
+przeciwzwrotnych i zwrotnych: Jeżeli dana relacja jest *przeciw*zwrotna, to nie zawiera *żadnej*
+pary o postaci `(x, x)`, a więc dosypanie wszystkich możliwych takich par a następnie usunięcie
+wszystkich takich par pozostawia taką relację bez zmian. I tak samo bez zmian pozostanie relacja
+zwrotna, jeśli najpierw usuniemy z niej wszystkie pary o takiej postaci, a potem je przywrócimy. A
+struktury izomorficzne są funkcjonalnie takie same.
 
 Odkryliśmy w jednym z poprzednich rozdziałów, że takie "`≤`-fakty zwrotnościowe" są (w pewien
 sposób) elementami neutralnymi, bo każda relacja zwrotna, przechodnia i antysymetryczna to
