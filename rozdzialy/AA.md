@@ -358,14 +358,14 @@ są *tylko* jakieś izomorfizmy między jakimś jednym *wybranym* obiektem a *wy
 dla *każdej* trójki obiektów `A`, `B` i `C` skonstruować izomorfizm między dwiema konstrukcjami
 "zrobionymi z" (może lepiej: będącymi pewną własnością) tych obiektów, to jest między `(A × B) × C`
 i `A × (B × C)`. Tak jak *wskazanie* (na przykład poprzez scharakteryzowanie go w sposób
-gwarantujacy unikalność) konkretnego izomorfizmu* `f : A ≅ B` to znacznie więcej, niż stwierdzenie,
-że *jakiś* izomorfizm między `A` i `B` *istnieje*, bo bez takiego wskazania nie da się korzystać z
-"tłumaczączeniowej" funkcjonalności związanej z izomorficznością, tak czymś *jeszcze mocniejszym*
-jest *wskazanie* takich izomorfizmów, *dla każdej trójki `(A B C)`*, inaczej mówiąc *oznaczenie* ich
-*za pomocą trójek `(A B C)`*
+gwarantujacy unikalność) konkretnego izomorfizmu `f : A ≅ B` to *znacznie* więcej, niż
+*stwierdzenie*, że *jakiś* izomorfizm między `A` i `B` *istnieje*, bo bez takiego wskazania nie da
+się korzystać z "tłumaczeniowej" funkcjonalności związanej z izomorficznością, tak czymś *jeszcze
+mocniejszym* jest *wskazanie* takich izomorfizmów *dla każdej trójki `(A B C)`*, albo inaczej mówiąc
+*oznaczenie* ich *za pomocą trójek `(A B C)`*
 
-Żeby łatwiej nam było zrozumieć, na czym polega ta ostatnia różnica, rozsądniej będzie chyba skupić
-się na prostszym przykładzie kategoryjnego izomorfizmu parametrycznego, to jest na symetryczności
-(tu mamy izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅ Y × X`.
+Żeby łatwiej nam było zrozumieć, na czym polega ta ostatnia różnica, rozsądniej będzie skupić się na
+prostszym przykładzie kategoryjnego izomorfizmu parametrycznego, to jest na symetryczności (tu mamy
+izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅ Y × X`.
 
 CDN
