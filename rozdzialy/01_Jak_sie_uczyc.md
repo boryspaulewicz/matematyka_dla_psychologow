@@ -21,7 +21,7 @@ nie robienia niczego wciągającego ani poznawczo (na przykład, czytanie odpada
 interesujące rozmowy) ani motywacyjnie (nie ma mowy o wchodzeniu na YouTube'a). Potem znowu jestem w
 stanie skutecznie pracować przez 30 minut, ale następna przerwa musi być już dłuższa, zwykle co
 najmniej 20 minutowa. Realistycznie oceniając, jeżeli danego dnia nie mam wielu zajęć, mogę liczyć
-najwyżej na około 4 godziny pracy umysłowej, nie licząc żadnych przerw.
+najwyżej na około 4 godziny nieprzerwanej pracy umysłowej.
 
 Bardzo niewiele by z tej pracy wynikało, gdybym nie *powtarzał* tego, co przeczytałem i z czego
 zrobiłem notatki. O ile mi wiadomo, nie ma przekonujących dowodów na przewagę metody powtarzania z
@@ -29,7 +29,7 @@ coraz większym odroczeniem nad innymi rozkładami powtórek, o ile tylko odstę
 dość *długie*. Tak się jednak składa, że lubię metodę rosnących odroczeń. Gdy mi naprawdę zależy,
 żeby się czegoś nauczyć, pierwszą powtórkę robię tego samego dnia (+0d), potem następnego (+1d),
 potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), po ośmiu (+8d), i tak dalej. W
-ten sposób już po szóstej powtórce mam w zasadzie stale łatwy dostęp do większości powtarzanych
+ten sposób już po *szóstej* powtórce mam w zasadzie stale łatwy dostęp do większości powtarzanych
 treści co najmniej przez następny miesiąc.
 
 Stosowanie określonego rozkładu powtórek wymaga oczywiście planowania, ale może największą
@@ -40,25 +40,25 @@ właśnie chodzi: Taka powtórka wydaje się zbędna, bo jest *łatwa*. Gdyby je
 dłużej, nawet tylko do dnia następnego, już by tak łatwa nie była, bo utrata dostępu do informacji w
 pamięci postępuje początkowo dość gwałtownie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w
 miarę *łatwej* powtórki, zapis pamięciowy utrwala się na tyle, że można poczekać znacznie dłużej do
-następnej *łatwej* powtórki, która jeszcze bardziej utrwala zapis i w ten sposób każda kolejna
+następnej *łatwej* powtórki, która jeszcze bardziej utrwala zapis, i w ten sposób każda kolejna
 powtórka daje coraz lepszy skutek.
 
-Dzieje się wtedy, mam wrażenie, jeszcze coś innego - treść zdaje się subiektywnie *kurczyć*, tak
-jakby liczne powiązane ze sobą reprezentacje pamięciowe zaczynały w coraz większym stopniu tworzyć
-jedną, zwartą, hierarchiczną strukturę, ułatwiającą szybkie odnajdywanie tego, co jest w danej
-sytuacji najważniejsze. A mówiąc o tym zjawisku z perspektywy stanowiska meta-teoretycznego, które
-wprowadzę w drugiej części książki, a z którego mogę już teraz skorzystać, bo nawet bez
-wcześniejszego tłumaczenia, o co w nim dokładnie chodzi, da się go jak sądzę używać nie ryzykując,
-że będzie się całkiem niezrozumianym, można by powiedzieć tak: Na skutek takiego powtarzania treść
-zdaje się subiektywnie kurczyć, *co znaczy, że coraz szybciej udaje się zwykle odnaleźć informacje,
-które są w danej sytuacji najważniejsze*.
+Dzieje się wtedy, mam wrażenie, jeszcze coś innego. Treść zdaje się subiektywnie *kurczyć*, jakby
+liczne powiązane ze sobą reprezentacje pamięciowe zaczynały w coraz większym stopniu tworzyć jedną,
+zwartą, hierarchiczną strukturę, ułatwiającą szybkie odnajdywanie tego, co jest w danej sytuacji
+najważniejsze. A mówiąc o tym zjawisku z perspektywy stanowiska meta-teoretycznego, które wprowadzę
+w drugiej części książki, ale z którego mogę już teraz skorzystać, bo nawet bez wcześniejszego
+tłumaczenia, o co w nim dokładnie chodzi, da się go jak sądzę używać nie ryzykując, że będzie się
+niezrozumianym, można powiedzieć tak: Na skutek takiego powtarzania treść się subiektywnie kurczy,
+*co znaczy, że coraz szybciej udaje się zwykle odnaleźć informacje, które są w danej sytuacji
+najważniejsze*.
 
 Gdy odstępy są dłuższe niż tydzień, nie ma jak sądzę większego znaczenia, jeżeli powtórka nastąpi z
 kilkudniowym opóźnieniem. Raz wytrwałem do momentu, w którym powtarzałem coś po *roku* od ostatniej
-powtórki (pojawiło się wtedy powiadomienie z kalendarza Google'a, które mi o tym przypomniało) i
-przekonałem się w ten sposób, że ta metoda działa, przynajmniej na mnie, jak czary. To była
-[znakomita książka](https://link.springer.com/book/10.1007/978-3-031-41026-0)[^3], ale nie ułatwiała
-powtarzania, bo dotyczy maksymalnie abstrakcyjnie, a właściwie wręcz
+powtórki. Pojawiło się wtedy powiadomienie z kalendarza Google'a, które mi o tym
+przypomniało. Przekonałem się w ten sposób, że ta metoda działa, przynajmniej na mnie, jak czary. To
+była [znakomita książka](https://link.springer.com/book/10.1007/978-3-031-41026-0)[^3], ale nie
+ułatwiała powtarzania, bo dotyczy maksymalnie abstrakcyjnie, a właściwie wręcz
 [kategoryjnie](https://pl.wikipedia.org/wiki/Teoria_kategorii) rozumianej algebry liniowej, w
 dodatku w owym czasie do niczego mi się ta wiedza nie przydała. Jeżeli więc ktoś o tak przeciętnej
 pamięci jak ja może usiąść przed kilkoma czystymi kartkami papieru i po roku przerwy zapisać
@@ -73,8 +73,8 @@ częściej mimowolnie dostrzegać związki między tymi treściami a tym, co si�
 nawet tylko przez chwilę się myśli. W ten sposób szybko rośnie poczucie skuteczności. Nieuchronnie
 pojawiają się też twórcze skojarzenia i zrozumienie pogłębia się niejako samo z siebie. Dzięki temu
 utrwalane treści wydają się automatycznie coraz ciekawsze i coraz ciekawsze zaczyna się wydawać
-niemal wszystko, co się z nimi prawie namacalnie wiąże. Nie będzie więc chyba przesadą, jeżeli
-powiem, że w moim odczuciu tego rodzaju uczenie się jest całkiem dosłownie procesem głębokiej
+niemal wszystko, co się z tymi treściami prawie namacalnie wiąże. Nie będzie więc chyba przesadą,
+jeżeli powiem, że w moim odczuciu tego rodzaju uczenie się jest całkiem dosłownie procesem głębokiej
 wewnętrznej przemiany.
 
 Zostaje jeszcze kwestia notatek i sposobu powtarzania. *Jeżeli używam ich do powtarzania*, to robię
@@ -85,7 +85,7 @@ nie zmieniając za bardzo tego *powtarzania* w niemal bezwartościowe jako forma
 związane w oczywisty sposób z główną treścią.
 
 Skoro już o takich sprawach mówię, to opowiem jeszcze, jaką rolę w moim życiu odegrało zapisywanie
-(na kartkach!)  spostrzeżeń, pomysłów i pytań. Ponieważ jesteśmy wszyscy istotami skończonymi, nawet
+(na kartkach!) spostrzeżeń, pomysłów i pytań. Ponieważ jesteśmy wszyscy istotami skończonymi, nawet
 Ci najbardziej twórczy z nas mogą wpaść tylko na skończoną liczbę dobrych i oryginalnych
 pomysłów. Te przychodzą nam do głowy czasem same, a czasami na skutek zmagania się z jakimś
 problemem czy uczenia się czegoś. Psychologowie zajmujący się twórczością twierdzą - i moje
