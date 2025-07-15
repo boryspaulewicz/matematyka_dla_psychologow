@@ -256,6 +256,10 @@ wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
 
 [R28 Rachunek predykatów w zadaniach](./rozdzialy/Rachunek_predykatow_w_zadaniach.md)
 
+Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
+
+[R29 AA](./rozdzialy/AA.md)
+
 Notatki robocze do których można zaglądać:
 
 [R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
