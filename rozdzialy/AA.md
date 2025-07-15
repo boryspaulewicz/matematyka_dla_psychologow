@@ -76,12 +76,12 @@ dopiero początek.
 
 W przypadku dodawania liczb całkowitych mamy więc element neutralny i zachodzi łączność, ale ta
 operacja ma jeszcze dwie ważne własności, to jest *odwracalność*, która nie występuje, gdy na
-przykład ograniczymy się tylko do liczb naturalnych (bo wtedy nie mamy liczb ujemnych), i
+przykład ograniczymy się tylko do liczb naturalnych (bo wtedy nie mamy liczb ujemnych) i
 *przemienność*: `∀ a, b ∈ ℤ, a + b = b + a`.
 
 ### صفر
 
-Elementy neutralne ze względu na jakieś operacje mają często taki "bardziej abstrakcyjny"
+Elementy neutralne ze względu na jakieś operacje mają często w pewnym sensie "bardziej abstrakcyjny"
 charakter. Ale zdecydowanie nie zawsze, na przykład `1` jako element neutralny ze względu na
 mnożenie nie ma (chociaż może trochę [ma](https://pl.wiktionary.org/wiki/unitas)?). Zarówno
 etymologia *słowa* "zero", sięgająca aż do "शून्य", jak i sposób, w jaki posługujemy się *liczbą* `0`,
@@ -91,12 +91,12 @@ pewnym momencie używać *cyfry* odpowiadającej naszej *liczbie* `0` jako *wygo
 rozwiązywania problemów rachunkowych*, ale nawet wtedy pozbywali się jej tak szybko, jak tylko byli
 w stanie, a w pismach filozoficznych z owego czasu można odnaleźć wyraźne ślady
 [oporu](http://www-gap.dcs.st-and.ac.uk/~history/HistTopics/Zero.html) przed interpretowaniem
-używanego przez nich odpowiednika stałej `0` jako liczby. To oczywiście nie jest przypadek i jednym
-z użytecznych w pewnych kontekstach sposobów myślenia o rozmaitych elementach neutralnych jest nadal
-moim zdaniem coś w rodzaju meta-myślenia, polegającego na traktowaniu elementów neutralnych jako
-*dodawanych dla pewnych celów narzędzi pojęciowych*, które służą głównie do stwierdzania czegoś
-szczególnego, to jest neutralności, na temat wyników operacji *jako wyników tych operacji
-rozumianych abstrakcyjnie*. Pora na przykład.
+używanego przez nich odpowiednika stałej `0` *jako liczby*. To oczywiście nie jest przypadek i
+jednym z użytecznych w pewnych kontekstach sposobów myślenia o rozmaitych elementach neutralnych
+jest nadal moim zdaniem coś w rodzaju meta-myślenia, polegającego na traktowaniu elementów
+neutralnych jako *dodawanych dla pewnych celów narzędzi pojęciowych*, które służą głównie do
+stwierdzania czegoś szczególnego, to jest neutralności, na temat wyników operacji *jako wyników tych
+operacji rozumianych abstrakcyjnie*. Pora na przykład.
 
 Skoro możemy teoretycznie dodać do czterech jabłek, które ma już Kasia, dowolną liczbę jabłek, to
 możemy również *nie dodać* żadnych jabłek i to *niedodanie* też możemy konsekwentnie traktować jako
