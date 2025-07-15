@@ -195,7 +195,7 @@ rozpoznać jako elementy neutralne:
    zdaniu zastąpić stałą `0` przez stałą `1`, a stałą `+` przez stałą `×`.
 
 3. `∅` ze względu na `∪` (sumę zbiorów):  
-   `∀ X : Set, ∅ ∪ X = X ∪ ∅`.
+   `∀ X : Set, ∅ ∪ X = X ∪ ∅ = X`.
 
 4. Zbiór `U` (jak *uniwersum*), traktowany w danym kontekście jako zawierający wszystkie rozważane
   elementy, ze względu na `∩` (część wspólną zbiorów). Wystarczy zastąpić w ostatnim zdaniu `∅`
