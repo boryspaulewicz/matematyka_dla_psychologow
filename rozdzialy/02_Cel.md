@@ -10,11 +10,11 @@ wątki związane z psychologią, ale te pełnią tam rolę przykładów, które 
 zrozumienia głównej treści.
 
 Po omówieniu potrzebnych do tego podstaw, zamierzam wytłumaczyć Ci między innymi, na czym polega
-istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Żeby dobrze objaśnić
-podstawy skupimy się wtedy na jednym z najprostszych spośród powszechnie stosowanych modeli
-statystycznych, to jest na rozkładzie dwumianowym i prześledzimy dokładnie logikę testowania
-istotności, *widząc* dzięki temu, czym jest [statystyka
-testowa](https://pl.wikipedia.org/wiki/Statystyka_testowa), jaką rolę w tego typu rozumowaniach
+istota wnioskowania statystycznego, w wersjach częstościowej i bayesowskiej. Skupimy się wtedy na
+jednym z najprostszych spośród powszechnie stosowanych modeli statystycznych, to jest na [rozkładzie
+dwumianowym](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_dwumianowy), i prześledzimy dokładnie logikę
+testowania istotności, *widząc* dzięki temu, czym jest [statystyka
+testowa](https://pl.wikipedia.org/wiki/Statystyka_testowa) i jaką rolę w tego typu rozumowaniach
 odgrywa pojęcie [rozkładu z próby](https://pl.wikipedia.org/wiki/Rozk%C5%82ad_pr%C3%B3bkowania), a
 jaką *decyzja* o odrzuceniu bądź nieodrzuceniu testowanej hipotezy. Nieco później popatrzymy z
 bliska na wszystkie ważne kroki wnioskowania z danych za pomocą bayesowskiej wersji tego samego
@@ -22,12 +22,12 @@ modelu.
 
 Będę wtedy czasem w pewnym sensie oszukiwał, ale tak naprawdę nie. To znaczy, niektóre zdania, które
 są raczej twierdzeniami i niektóre pojęcia, które zwykle są definiowane za pomocą pojęć bardziej
-elementarnych, wprowadzę aksjomatycznie. Niebawem Ci wyjaśnię, że nic "złego" się wtedy nie stanie,
-bo po pierwsze, w ogólnym przypadku [aksjomatyzacja nie jest
+elementarnych, wprowadzę aksjomatycznie. Niebawem Ci wyjaśnię, że to nic złego, bo po pierwsze, w
+ogólnym przypadku [aksjomatyzacja nie jest
 unikalna](https://en.wikipedia.org/wiki/Reverse_mathematics), po drugie, *struktura* dowodu, gdy się
-go już znajdzie, jest zwykle nieważna[^4], liczy się przede wszystkim *istnienie* dowodu i po
-trzecie, definicje mogą być dowolne, bo są językowymi *wyborami*[^5] i ich wartość sprowadza się do
-użyteczności i formalnej poprawności.
+go już znajdzie, jest zwykle nieważna[^4], liczy się przede wszystkim *istnienie* dowodu, wreszcie
+po trzecie, definicje mogą być dowolne, bo są językowymi *wyborami*[^5], a ich wartość sprowadza się
+do użyteczności i formalnej poprawności.
 
 Omówimy też podstawy wnioskowania przyczynowego. Dzięki temu będziemy mogli zrozumieć lepiej o co
 chodzi w *jakichkolwiek* (nie tylko psychologicznych) *badaniach obserwacyjnych* i
