@@ -264,10 +264,10 @@ dialogu*[^8].
 Formalny język, który będzie oparty na wspomianej definicji zadania, będzie się nadawał do stawiania
 pytań dotyczących *czegokolwiek*, co tylko można nazwać zachowaniem, narzędziem, albo artefaktem, w
 tym również do formułowania pytań dotyczących dowolnych języków, takich jak na przykład języki
-programowania czy teorie matematyczne. To oznacza, że rachunek zachowania będzie można stosować do
-niego samego. A na sformułowane w tym języku pytania będzie można poszukiwać odpowiedzi posługując
-się dedukcją, traktując ewentualnie jako aksjomaty (lub jako założenia podważalne) - jeśli pytanie
-będzie miało charakter empiryczny - jakieś dane.
+programowania czy teorie matematyczne. To oznacza, że rachunek zachowania będzie można *stosować do
+niego samego*. A na sformułowane w tym języku pytania będzie można poszukiwać odpowiedzi posługując
+się dedukcją, traktując ewentualnie jako aksjomaty lub założenia podważalne - jeśli pytanie będzie
+miało charakter empiryczny - jakieś dane.
 
 W końcu wszystkie narzędzia i artefakty stworzone przez ludzi i inne zwierzęta powstały jako
 rezultaty działań celowych, a więc należą do przedmiotu zainteresowań psychologii naukowej. Dlatego,
@@ -314,12 +314,12 @@ Learning: An
 Introduction*](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)[^7],
 [Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton) i
 [Barto](https://en.wikipedia.org/wiki/Andrew_Barto) zaproponowali piękną, elegancką i abstrakcyjną
-definicję *chcenia* (niekoniecznie *czegoś*) jako uczenia się, rozumianego jako taki sposób zmiany
-reguły działania na podstawie przebiegu interakcji ze środowiskiem, którego asymptotycznym
-rezultatem jest maksymalizacja oczekiwanej skumulowanej nagrody (czyli w mojej terminologii
-oczekiwanej skumulowanej wartości jakiejś funkcji oceny). Ta definicja była inspirowana, co obaj
-autorzy [mówią wprost](http://incompleteideas.net/book/first/ebook/node12.html), pomysłami takich
-psychologów jak [Edward Thorndike](https://it.wikipedia.org/wiki/Edward_Lee_Thorndike) czy
+definicję *chcenia* (niekoniecznie *czegoś*) jako uczenia się, rozumianego jako sposób zmiany reguły
+działania na skutek interakcji ze środowiskiem, którego asymptotycznym rezultatem jest
+maksymalizacja oczekiwanej skumulowanej nagrody (czyli w mojej terminologii oczekiwanej skumulowanej
+wartości jakiejś funkcji oceny). Ta definicja była zresztą inspirowana, co obaj autorzy [mówią
+wprost](http://incompleteideas.net/book/first/ebook/node12.html), pomysłami takich psychologów jak
+[Edward Thorndike](https://it.wikipedia.org/wiki/Edward_Lee_Thorndike) czy
 [Rescorla](https://en.wikipedia.org/wiki/Robert_A._Rescorla) i
 [Wagner](https://en.wikipedia.org/wiki/Allan_R._Wagner).
 
@@ -331,31 +331,32 @@ psychologii behawioralnej i poznawczej, jak również dla sztucznej inteligencji
 delty*](https://en.wikipedia.org/wiki/Delta_rule)) - [modelu warunkowania
 Rescorli-Wagnera](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model). Nic dziwnego, że
 takie naturalne uogólnienie modelu Rescorli-Wagnera "wyłania się" z ramy pojęciowej uczenia się ze
-wzmocnieniem, skoro ten model był rozumiany przez Rescorlę i Wagnera zadanio-centrycznie jako
-przybliżone rozwiązanie pewnego uniwersalnie ważnego dla zwierząt problemu predykcji.
+wzmocnieniem, skoro ten model był rozumiany przez Rescorlę i Wagnera *zadanio-centrycznie* jako
+*przybliżone rozwiązanie pewnego uniwersalnie ważnego dla zwierząt problemu predykcji*.
 
 Funkcja nagrody, czy też związana z nią funkcja wartości, *nie muszą* a nawet *nie powinny* być
 jednak częścią *rozwiązania* ogólnego problemu uczenia się ze wzmocnieniem, po prostu dlatego, że
-*fizyczna implementacja rozwiązania nie może być niezawodna*. Zawsze gdy mówimy o problemach,
+*fizyczna implementacja rozwiązania nie może być niezawodna*. Zawsze, gdy mówimy o problemach,
 zadaniach, działaniach, lub zachowaniach, tego rodzaju funkcja musi być co prawda obecna
 przynajmniej niejawnie, albo *w tle*, ale jej rolą jest *zdefiniowanie zadania*. Funkcję nagrody,
 wartości, czy oceny należy więc *oderwać od podmiotu, agenta, zachowania, czy wytworu działania
 celowego*, rozpoznając w niej dzięki temu
 [*arbitralny*](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem) *wybór hipotetycznego
-zewnętrznego obserwatora*.
-
-W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności zachowania zwierząt.
+zewnętrznego obserwatora*. W ten sposób między innymi *unieważnimy* zagadkę (nie)racjonalności
+zachowania zwierząt.
 
 Przy okazji zobaczymy z jednocześnie zaskakującej i oczywistej perspektywy *sens* pomiaru
 psychologicznego. Na przykład, często używana w psychometrii *α Cronbacha*, podobnie jak oparte na
 tych samych własnościach danych miary dopasowania modelu jednoczynnikowego, jest zwykle
 interpretowana jako miara tego, w jakim stopniu odpowiedzi na pozycje testowe są pod wpływem tylko
 jednej zmiennej nieobserwowanej, takiej jak powiedzmy ekstrawersja. Posługując się teorią
-wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest niedorzeczna, o czym zresztą
-wspominają[^1], jakby mimochodem, autorzy niektórych współczesnych podręczników dotyczących
-modelowania równań strukturalnych (ang. *Structural Equation Modeling*, *SEM*, patrz na przykład
+wnioskwania przyczynowego można łatwo wykazać, że ta interpretacja jest po prostu niedorzeczna, o
+czym zresztą wspominają[^1], jakby mimochodem, autorzy niektórych współczesnych podręczników
+dotyczących modelowania równań strukturalnych (ang. *Structural Equation Modeling*, *SEM*, patrz na
+przykład
 [tu](https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910?srsltid=AfmBOoop0wzseBmAxaJMIOFojKNhZ2jvHKa3HGEU0UvFIizL-IEIAoZH)),
-w których teoria wnioskowania przyczynowego jest (słusznie) traktowana jako źródło sensu modeli SEM.
+w których teoria wnioskowania przyczynowego jest (nareszcie) traktowana jako źródło sensu modeli
+SEM.
 
 Ten sam wskaźnik ma jednak zarazem oczywisty sens z perspektywy zadanio-centrycznej: Ponieważ, jak
 łatwo się przekonać przyglądając się [*formalnej
@@ -382,12 +383,12 @@ Przecież rezultaty prób rozwiązania zadań w teście inteligencji po prostu *
 *specyficznych* zachowań inteligentnych (co nie znaczy, że nie dopuszczają też innych
 interpretacji). Tak samo udzielenie odpowiedzi na skądinąd dosyć zagadkowe pytanie, czy "chciałoby
 się być tak szczęśliwym jak inni"[^10] jest *między innymi* pewnym *specyficznym* rodzajem
-zachowania, będącego *częścią* tego bogatego spektrum różnorodnych zachowań, które nazywamy
-nastrojem. I chociaż to, jakie ten "latentny" w znaczeniu zawsze tylko *częściowo obserwowalny*
-repertuar zachowań ma własności *wynika częściowo* z aktualnej struktury mózgu, to *nie* jest
-własnością samego mózgu, bo jest czymś, co istnieje *w środowisku*, a mówiąc dokładniej jest
-relatywną, bo zależną od *wyboru* opisu w kategoriach celów albo zadań, własnością przyczynowych
-relacji między ciałem agenta i resztą środowiska.
+zachowania, będącego *częścią* bogatego spektrum różnorodnych zachowań, które nazywamy nastrojem. I
+chociaż to, jakie ten "latentny" w znaczeniu zawsze tylko *częściowo obserwowalny* repertuar
+zachowań ma własności *wynika częściowo* z aktualnej struktury mózgu, *nie* są to własności samego
+mózgu, bo te zachowania istnieją *w środowisku*, a mówiąc dokładniej, te własności są relatywnymi,
+bo zależnymi od *wyboru* opisu w kategoriach celów albo zadań, własnościami przyczynowych relacji
+między ciałem agenta i resztą środowiska.
 
 Jednocześnie stanie się jasne, że [teoria odpowiedzi na pozycje
 testowe](https://en.wikipedia.org/wiki/Item_response_theory), której historia sięga jeszcze [lat
