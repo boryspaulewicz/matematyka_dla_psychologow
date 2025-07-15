@@ -148,8 +148,8 @@ nawet *`R`-faktem*.
 
 Z relacji `≤`, a dokładniej na przykład z `≤ ⊆ ℤ × ℤ` (to jest dokładniej powiedziane, bo mówimy
 wprost o zbiorze, na którym jest określona relacja oznaczana w tym kontekście przez stałą `≤`),
-możemy łatwo uzyskać `<`, *pozbywając się* wszystkich możliwych faktów postaci `x ≤ x` (czyli
-wszystkich par `(x, x)`), a z relacji `<` możemy łatwo uzyskać `≤`, *dodając* wszystkie możliwe
+możemy łatwo uzyskać `<` *pozbywając się* wszystkich możliwych faktów postaci `x ≤ x` (czyli
+wszystkich par `(x, x)`), a z relacji `<` możemy łatwo uzyskać `≤` *dosypując* wszystkie możliwe
 fakty takiej postaci. To jest, jak nietrudno zauważyć, *izomorfizm* między zbiorem relacji
 przeciwzwrotnych i zwrotnych: Jeżeli dana relacja jest przeciwzwrotna, to nie zawiera żadnej pary o
 postaci `(x, x)`, a więc dodanie wszystkich możliwych takich par a następnie usunięcie wszystkich
