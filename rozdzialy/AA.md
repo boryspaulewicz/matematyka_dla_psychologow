@@ -204,7 +204,7 @@ rozpoznać jako elementy neutralne:
 5. `∅` ze względu na `+` jako sumę rozłączną zbiorów:  
    `∀ X : Set, ∅ + X ≅ X + ∅ ≅ X`.
 
-6. `{*}` (dowolny zbiór jednoelementowy) ze względu na `×` jako iloczyn kartezjański
+6. `{_}` (dowolny zbiór jednoelementowy) ze względu na `×` jako iloczyn kartezjański
    zbiorów. Wystarczy w powyższym zdaniu zastąpić `∅` na przykład przez `{∅}`, a `+` przez `×`.
   
 7. `False` ze względu na `∨`:  
