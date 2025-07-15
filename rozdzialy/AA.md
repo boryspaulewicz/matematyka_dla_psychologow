@@ -369,7 +369,7 @@ się korzystać z "tłumaczeniowej" funkcjonalności związanej z izomorficznoś
 mocniejszym* jest *wskazanie* takich izomorfizmów *dla każdej trójki `(A B C)`*, albo inaczej mówiąc
 *oznaczenie* ich *za pomocą trójek `(A B C)`*
 
-Żeby łatwiej nam było zrozumieć, na czym polega ta ostatnia różnica, rozsądniej będzie skupić się na
+Żeby łatwiej nam było zrozumieć, na czym polega ta ostatnia różnica, rozsądnie będzie skupić się na
 prostszym przykładzie kategoryjnego izomorfizmu parametrycznego, to jest na symetryczności (tu mamy
 izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅ Y × X`.
 
