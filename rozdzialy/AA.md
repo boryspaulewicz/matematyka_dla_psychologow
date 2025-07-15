@@ -302,14 +302,14 @@ m`; zresztą już się pewnie oswoiłaś z tym zapisem, bo taką samą rolę odg
 definicjach λ-abstrakcji. Można powiedzieć, że to tylko inny sposób zapisywania funkcji anonimowych.
 
 W przypadku izomorfizmu między zbiorami, to było przekształcenie uporządkowanych par *elementów*,
-których pierwszym albo drugim elementem była para uporządkowana elementów. Z powodu zastosowanej w
-Leanie implementacji koniunkcji, w przypadku zdań to było również przekształcenie uporządkowanych
-par, ale *dowodów*, których pierwszym albo drugim elementem była uporządkowana para
-dowodów. Rezultatem każdego z tych przekształceń była w obydwu przypadkach *ta sama* (bo to są
-izomorfizmy), tylko *inaczej "formalnie zapakowana" informacja*. O takich przekształceniach mówi się
-czasem po angielsku, że są *formulaic*, co można przetłumaczyć jako *schematyczne*, albo *utarte*,
-albo *rutynowe*, albo nawet jako *formalne*, ale w rozumieniu *powierzchowne* pod tym względem, że
-*niezależne od natury czy tożsamości elementów*.
+których pierwszym albo drugim elementem była również uporządkowana para elementów. Z powodu
+zastosowanej w Leanie implementacji koniunkcji, w przypadku zdań to było również przekształcenie
+uporządkowanych par, ale *dowodów*, których pierwszym albo drugim elementem była również
+uporządkowana para dowodów. Rezultatem każdego z tych przekształceń była w obydwu przypadkach *ta
+sama* (bo to są izomorfizmy), tylko *inaczej "formalnie zapakowana" informacja*. O takich
+przekształceniach mówi się czasem po angielsku, że są *formulaic*, co można przetłumaczyć jako
+*schematyczne*, albo *utarte*, albo *rutynowe*, albo nawet jako *formalne*, ale w rozumieniu
+*powierzchowne* - pod tym względem, że *niezależne od natury czy tożsamości elementów*.
 
 Zgaduję, że te dowody również Tobie wydają się w jakiś sposób schematyczne i powierzchowne, a w
 związku z tym jesteś może skłonna przyznać, że te izomorfizmy są w pewnym sensie "naturalne", albo
