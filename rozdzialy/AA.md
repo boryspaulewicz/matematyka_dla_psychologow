@@ -4,18 +4,19 @@ Jak skończę ten rozdział, to coś tu napiszę.
 
 # [AA](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna)
 
-Zaczniemy od nudnawych rozważań na temat dodawania, a w następnym rozdziale będziemy już zanurzeni w
-meta-psychologii, po (nomen omen) drodze odkrywając coś, co myślę, że może Cię zaintrygować.
+Zaczniemy od nudnawych rozważań na temat dodawania, a w następnych rozdziałach będziemy już
+zanurzeni w meta-psychologii, po (nomen omen) drodze odkrywając coś, co myślę, że może Cię
+zaintrygować.
 
 Jak pamiętasz, pierwszym przykładem czegoś matematycznego w tej książce było twierdzenie o
-przemienności dodawania liczb naturalnych. Teraz zajmiemy się najpierw *łącznością* dodawania liczb
-*całkowitych* `ℤ = {... -3, -2, -1, 0, 1, 2, 3, ...}`.
+przemienności dodawania liczb naturalnych. Tym razem zajmiemy się najpierw *łącznością* dodawania
+liczb *całkowitych* `ℤ = {... -3, -2, -1, 0, 1, 2, 3, ...}`.
 
 *Jeżeli `a, b, c ∈ ℤ`, to `(a + b) + c = a + (b + c)`*.
 
 Nudne i oczywiste? Jeśli tak, to tylko dlatego, że (jeszcze) nie widzisz tego twierdzenia z miejsca,
 na które udało mi się niedawno wdrapać. Rozważmy teraz znany Ci przykład ściśle związanej z
-dodawaniem operacji odejmowania, która *nie ma* tej własności:
+dodawaniem operacji odejmowania, która tej własności *nie ma*:
 
 `(3 - 2) - 1 = 1 - 1 = 0`  
 `3 - (2 - 1) = 3 - 1 = 2`
@@ -23,28 +24,28 @@ dodawaniem operacji odejmowania, która *nie ma* tej własności:
 
 Oto na czym (między innymi, bo nie ma uniwersalnie uprzywilejowanego punktu widzenia) polega
 *związek między dodawaniem i odejmowaniem*: Istnieje *element neutralny* ze względu na dodawanie, to
-jest taki, że dodanie go do czegokolwiek *nic nie zmienia*, i jest nim `0`. Liczbą *przeciwną* do
-liczby `a` (to skrót myślowy - mamy pamiętać, że ze względu na dodawanie) nazywamy taką liczbę `b`,
-że `a + b = 0`. Ponieważ - jak łatwo wykazać używając takiego samego dowodu co w przypadku
-unikalności strzałki odwrotnej - każda liczba całkowita `a` ma dokładnie jedną liczbę przeciwną,
-możemy taką liczbę oznaczyć jakby była *funkcją* albo *własnością* `a` (bo jest), i zwykle tak
-właśnie robimy, pisząc `-a`. To jest *definicja liczby przeciwnej* (do danej \{ze względu na
-dodawanie\}).
+jest taki, że dodanie go do czegokolwiek, nieważne z której strony, *nic nie zmienia*, i jest nim
+`0`. Liczbą *przeciwną* do liczby `a` (to skrót myślowy - mamy pamiętać, że ze względu na dodawanie)
+nazywamy taką liczbę `b`, że `a + b = 0`. Ponieważ - jak łatwo wykazać używając takiego samego
+dowodu co w przypadku unikalności kategoryjnej *strzałki odwrotnej* - każda liczba całkowita `a` ma
+dokładnie jedną liczbę przeciwną, możemy taką liczbę oznaczyć jakby była *funkcją* albo *własnością*
+`a` (bo jest) i zwykle tak właśnie robimy, pisząc `-a`. To jest *definicja liczby przeciwnej* (do
+danej \{ze względu na dodawanie\}).
 
 Teraz możemy *zdefiniować odejmowanie w kategoriach dodawania* i - niejawnie, bo ta ukrywa się w
 definicji liczby przeciwnej - *liczby `0`* (ale nie całkiem ...):
 
 `a - b := a + (-b)`. 
 
-Zwracam uwagę, że pojawia się tutaj symbol oznaczający definiowanie, a nie równość. Odejmowanie jest
-więc (z tej perspektywy \{albo w tej implementacji\}) *lukrem składniowym* dla *dodawania liczby
-odwrotnej ze względu na dodawanie*. Ponieważ `(a + b) - b = (a + b) + (-b) = a + b + (-b) = a + 0 =
-a`, można również powiedzieć, że odejmowanie jest *działaniem odwrotnym* do dodawania, i tak też
-mówimy. Zwracam uwagę, że nie mówimy tak *tylko* dlatego, że `a - a = 0`. Mówimy tak *dokładnie*
+Zwracam uwagę, że pojawił się tutaj symbol oznaczający *definiowanie*, a nie równość. Odejmowanie
+jest więc (z tej perspektywy \{albo w tej implementacji\}) *lukrem składniowym* dla *dodawania
+liczby odwrotnej ze względu na dodawanie*. Ponieważ `(a + b) - b = (a + b) + (-b) = a + b + (-b) =
+a + 0 = a`, można również powiedzieć, że odejmowanie jest *działaniem odwrotnym* do dodawania i tak
+też mówimy. Zwracam uwagę, że nie mówimy tak *tylko* dlatego, że `a - a = 0`. Mówimy tak *dokładnie*
 dlatego, że `a - a` "daje" *element neutralny* (... właśnie dlatego nie całkiem). Ponieważ tak się
-akurat składa, że w przypadku dodawania liczb tym elementem jest liczba `0`, to też często właśnie
-tak "konkretnie", zamiast używając ogólniejszego terminu *element neutralny*, ten fakt zapisujemy,
-to jest jako *`a - a = 0`* zamiast znacznie dłużej *`a - a` jest elementem neutralnym ze względu na
+akurat składa, że w przypadku dodawania liczb tym elementem jest `0`, to też często właśnie tak
+"konkretnie", zamiast używając ogólniejszego terminu *element neutralny*, ten fakt zapisujemy, to
+jest jako *`a - a = 0`* zamiast znacznie dłużej *`a - a` jest elementem neutralnym ze względu na
 dodawanie*, albo *`a - a = u`, gdzie `u` jest elementem neutralnym* (ze względu na dodawanie).
 
 Niemal doskonale analogiczna sytuacja zachodzi w przypadku *mnożenia* i *dzielenia* na przykład
@@ -57,13 +58,13 @@ liczb *rzeczywistych*:
 
 Elementem neurtralnym ze względu na mnożenie liczb rzeczywistych jest oczywiście `1`, a dzielenie
 jest tu *niemal* działaniem - bo zdefiniowanym tylko dla par `(a, b) ∈ ℝ × ℝ`, gdzie `b ≠ 0`
-(właśnie dlatego to jest niemal doskonała analogia) - odwrotnym do mnożenia, ponieważ (zmieniając
-styl pisania w celach dydaktycznych) `∀ a ∈ R, a ≠ 0 → ∃! b ∈ ℝ, a × b = 1`, gdzie `∃!` czytamy jako
-*istnieje unikalne*. Dowód unikalności przebiega znowu tak samo jak kategoryjny dowód unikalności
-strzałki odwrotnej. Taką liczbę zapisujemy jako funkcję albo własność `a` w ten między innymi
-sposób: $\frac{1}{a}$ (tu jest inna czcionka, bo Unikod nie radzi sobie z ułamkami). Dzielenie
-definiujemy wtedy jako operację odwrotną do mnożenia, to jest jako *mnożenie* przez *liczbę
-odwrotną* ze względu na *mnożenie*:
+(właśnie dlatego to jest niemal doskonała analogia) - odwrotnym do mnożenia, ponieważ (mówiąc prawie
+to samo, co wcześniej, ale zmieniając sposób pisania w celach dydaktycznych) `∀ a ∈ R, a ≠ 0 → ∃! b
+∈ ℝ, a × b = 1`, gdzie `∃!` czytamy jako *istnieje unikalne*. Dowód unikalności przebiega znowu tak
+samo jak kategoryjny dowód unikalności strzałki odwrotnej. Taką liczbę zapisujemy jako funkcję albo
+własność `a` w ten między innymi sposób: $\frac{1}{a}$ (tu jest inna czcionka, bo Unikod nie radzi
+sobie z ułamkami). Dzielenie definiujemy wtedy jako operację odwrotną do mnożenia, to jest jako
+*mnożenie* przez *liczbę odwrotną* ze względu na *mnożenie*:
 
 Jeżeli `b ≠ 0`, to `a / b := a × 1/b`  
 (to powinno być raczej $\frac{1}{b}$, ale nie jest, bo Unikod).
