@@ -262,18 +262,17 @@ prokrastynacją. Dlatego, żeby zachęcić Cię do dalszej lektury i odwdzięczy
 autorom, w następnym rozdziale opowiem Ci krótko, w jaki sposób się uczyłem i czasami wciąż to
 robię, a także jak udało mi się robić to zarazem regularnie i przez dłuższy czas.
 
-Skoro już mówię o takich sprawach, to muszę podkreślić, że nie zostałbym pracownikiem uczelni, gdyby
+Skoro już o takich sprawach mówię, to muszę podkreślić, że nie zostałbym pracownikiem uczelni, gdyby
 nie wsparcie, życzliwość i wyrozumiałość - moich przyjaciół, niezrównanego Michała Wierzchonia, od
 którego dopiero niedawno (bo jestem aż taki głupi) zacząłem się uczyć, że praca dopiero wtedy może
-być prawdziwie satysfakcjonująca, kiedy polega na *współ*pracy, i uczciwej, skromnej, mądrej (i
+być naprawdę satysfakcjonująca, kiedy polega na *współ*pracy, i uczciwej, skromnej, mądrej (i
 dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi sensownych zajęć - a także Kasi
 Popiołek, która była dla mnie wymarzoną wprost szefową przez te 10 lat, kiedy pracowałem na SWPSie w
 Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla mnie ważnego dr
 hab. Krzysztofa Krzyżewskiego, a później prof. Edwarda Nęcki, któremu, podobnie jak temu Pierwszemu,
-zawdzięczam swobodę zajmowania się w owym czasie czym tylko miałem ochotę się zajmować, być może
-wcale bym nie skończył, gdyby nie liczne rozmowy z dodającym mi stale odwagi Tomkiem Grzegorkiem,
-moim najważniejszym chyba przyjacielem, któremu akurat zawdzięczam znacznie więcej niż to, gdzie
-dzisiaj pracuję.
+zawdzięczam swobodę zajmowania się w owym czasie czym tylko chciałem, być może wcale bym nie
+skończył, gdyby nie liczne rozmowy z dodającym mi stale odwagi Tomkiem Grzegorkiem, moim
+najważniejszym przyjacielem, któremu akurat zawdzięczam znacznie więcej niż to, gdzie dziś pracuję.
 
 Z kolei Adasiowi Chuderskiemu, który jest teraz szefem krakowskiej kognitywistyki, zawdzięczam
 przygodę z [Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która
