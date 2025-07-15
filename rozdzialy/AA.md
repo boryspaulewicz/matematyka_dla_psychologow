@@ -185,9 +185,9 @@ stałej `<` lub `≤`), która *nie prowadzi do sprzeczności*, bo jest *tylko* 
 doskonałe pytanie, na które mogę na razie odpowiedzieć tylko niezbyt jasno mówiąc, że (w tym
 kontekście chyba paradoksalnie) *sposób mówienia jest również częścią matematycznej treści*. Dodam
 może tylko, że izomorficzność jest często do tego stopnia *nieoczywista*, że w wielu sytuacjach,
-nawet wtedy, gdy izomorficzne struktury są relatywnie proste, ludzie z trudem ją zauważają (co wiemy
+nawet wtedy, gdy izomorficzne struktury są relatywnie proste, ludzie z trudem ją zauważają, co wiemy
 między innymi dzięki badaniom psychologicznym dotyczącym tak zwanego *transferu wprawy* w
-rozwiązywaniu problemów).
+rozwiązywaniu problemów.
 
 Oto kilka przykładów elementów neutralnych, które albo już znasz, albo możesz już chyba łatwo
 rozpoznać jako elementy neutralne:
