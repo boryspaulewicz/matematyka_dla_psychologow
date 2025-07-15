@@ -164,15 +164,15 @@ parami liczb jako punktami. A skoro takie relacje są pewnymi kategoriami, to ma
 (wybrednym) *działaniem* (składania strzałek), a więc jest w ogóle *możliwe*, żeby tu były (z
 pewnego punktu widzenia) jakieś elementy neutralne.
 
-Ze względu na to idealne dopasowanie między dwoma rodzajami struktur, to jest strukturą relacji `≤`
-i strukturą pewnej (jak może pamiętasz *cienkiej*) kategorii, fakty `x ≤ x` odpowiadają dokładnie
-endostrzałkom identycznościowym, a więc z pewnego punktu widzenia nimi są (a wszystko w matematyce
-jest czymś albo jest jakieś tylko z pewnego punktu widzenia, a więc *po prostu* nimi są). I teraz
-mogę wreszcie powiedzieć, do czego zmierzałem, i co możesz już nieźle pamiętać i czasem dość szybko
-zauważać: Wymieniając tak ze sobą relacje `≤` i `<` ani nie dodajemy, ani nie pozbywamy się żadnej
-informacji, zmienia się tylko to, z jakiej własności tych dwóch relacji (zwrotności i
+Ze względu na to idealne dopasowanie między dwoma rodzajami struktur, to jest między strukturą
+relacji `≤` i strukturą pewnej (jak może pamiętasz *cienkiej*) kategorii, fakty `x ≤ x` odpowiadają
+dokładnie endostrzałkom identycznościowym, a więc z pewnego punktu widzenia nimi są (a wszystko w
+matematyce jest czymś albo jest jakieś tylko z pewnego punktu widzenia, a więc *po prostu* nimi
+są). I teraz mogę wreszcie powiedzieć, do czego zmierzałem, a co możesz już nieźle pamiętać i czasem
+dość szybko zauważać: Wymieniając tak ze sobą relacje `≤` i `<` ani nie dodajemy, ani nie pozbywamy
+się żadnej informacji, zmienia się tylko to, z jakiej własności tych dwóch relacji (zwrotności i
 przeciwzwrotności) korzystamy w jaki sposób. A więc zmienia się *sposób mówienia*, ale nie *treść*
-tego, co mówimy albo możemy powiedzieć. 
+tego, co mówimy, albo możemy powiedzieć.
 
 Gdyby *niektóre, ale nie wszystkie* liczby były mniejsze od siebie samych, mielibyśmy z tym problem,
 bo taka zmiana sposobu mówienia nie byłaby ani spójna, ani powierzchowna. W szczególności, operacje
