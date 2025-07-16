@@ -416,4 +416,4 @@ CDN
 
 ### Przypisy
 
-[^1]: Inaczej [*esencją, w której widać dno*](https://sjp.pwn.pl/slowniki/sedno.html).
+[^1]: Albo [*esencją, w której widać dno*](https://sjp.pwn.pl/slowniki/sedno.html).
