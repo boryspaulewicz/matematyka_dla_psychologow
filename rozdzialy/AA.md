@@ -412,6 +412,42 @@ wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *forma
 "to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*, inaczej
 *zakodować*?
 
+To ostatnie pytanie można zastąpić wersją, na którą odpowiedź, gdyby udało się ją znaleźć, byłaby
+znacznie bardziej użyteczna, bo wskazywałaby na coś w rodzaju *metody* poszukiwania odpowiedzi na
+*tego rodzaju* pytania. Popatrzmy więc na to ostatnie pytanie i ... zadajmy sobie pytanie, co warto
+w nim *zamienić na parametry*, a co wypada *ukonkretnić*. Mamy tam *jakieś* (to jest przykład
+zamiany pewnej stałej na parametr ...) pojęcie półformalne, którego istotę chcemy "uchwycić
+formalnie". "Uchwycić formalnie" to dla nas w tej chwili albo *w pełni sformalizować w języku teorii
+typów*, albo *scharakteryzować funkcjonalnie w języku teorii kategorii*, a właściwie *jedno i
+drugie* (... a to jest przykład ukonkretnienia mętnego pojęcia). 
+
+Do tej pory za każdym razem, zanim znaleźliśmy lub zaczęliśmy rozumieć jakąkolwiek kategoryjną
+charakterystykę funkcjonalną, potrzebowaliśmy najpierw przyglądać się przynajmniej jednej
+implementacji teoriotypowej albo teoriomnogościowej, po prostu po to, żeby mieć *w czym* zobaczyć tą
+funkcjonalność. Przykłady teoriomnogościowe były "strukturalnie minimalistyczne", a przez to
+relatywnie nieskomplikowane i łatwe do zrozumienia, a dzięki swojej półformalności pozwalały na
+wygodne skróty myślowe, a więc na znacznie szybsze tworzenie konstrukcji, w tym również dowodów, niż
+w przypadku konstrukcji w pełni sformalizowanych. Przykłady teoriotypowe miały natomiast tą zaletę,
+że można je było zrealizować w kodzie, a dzięki temu sprawdzić ostatecznie, czy wszystko działa,
+zbadać każdy aspekt formalizmu, i poczuć fizyczną autonomię ich implementacji.
+
+Możemy nawet spróbować "zrobić metodę" z tego ostatniego akapitu, tak samo zamieniając coś lub kilka
+rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
+konkretyzując. Podobnie postępują informatycy, gdy po napisaniu wstępnej wersji rozwiązania jakiegoś
+problemu zmieniają niektóre stałe na zmienne, a wszystko w strukturę procedury (nazywanej też
+funkcją) albo kilku procedur czy na przykład tak zwanych klas. W ten sposób powstają wszekiego
+rodzaju metody wielokrotnego użytku, albo "metodologie".
+
+Zatem co my tam robimy? Wstępując o krok wyżej na tą naszą drabinę abstrakcji przez algorytmizację,
+czy może Algorytmizacji przez Abstrakcję, widzimy, że ... przyglądamy się tam temu, co przed chwilą
+powiedzieliśmy, albo co zrobiliśmy, albo co do pewnego stopnia i w pewien sposób zrozumieliśmy, i
+zastępujemy wybrane stałe mniej lub bardziej adekwatnie typowanymi parametrami, a wybrane ogólnikowe
+i niejasne sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało?
+*Powtarzamy się*, bo znaleźliśmy *punkt stały* pewnego procesu (czyli połknęliśmy własny ogon
+\{`I(x) = x`\}). A to znaczy, że znaleźliśmy (tylko pewną czy może jedyną istniejącą?) *nieformalną*
+(a więc najbardziej, bo *trochę za bardzo* elastyczną) *metodę metod*. [Aa](https://www.aa.org/)!
+Ok, może trochę mnie poniosło.
+
 CDN
 
 ### Przypisy
