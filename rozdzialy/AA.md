@@ -59,8 +59,8 @@ liczb *rzeczywistych*:
 Elementem neurtralnym ze względu na mnożenie liczb rzeczywistych jest oczywiście `1`, a dzielenie
 jest tu *niemal* działaniem - bo zdefiniowanym tylko dla par `(a, b) ∈ ℝ × ℝ`, gdzie `b ≠ 0`
 (właśnie dlatego to jest niemal doskonała analogia) - odwrotnym do mnożenia, ponieważ (mówiąc prawie
-to samo, co wcześniej, ale zmieniając sposób pisania w celach dydaktycznych) `∀ a ∈ R, a ≠ 0 → ∃! b
-∈ ℝ, a × b = 1`, gdzie `∃!` czytamy jako *istnieje unikalne*. Dowód unikalności przebiega znowu tak
+to samo co wcześniej, ale zmieniając sposób pisania w celach dydaktycznych) `∀ a ∈ R, a ≠ 0 → ∃! b ∈
+ℝ, a × b = 1`, gdzie `∃!` czytamy jako *istnieje unikalne*. Dowód unikalności przebiega znowu tak
 samo jak kategoryjny dowód unikalności strzałki odwrotnej. Taką liczbę zapisujemy jako funkcję albo
 własność `a` w ten między innymi sposób: $\frac{1}{a}$ (tu jest inna czcionka, bo Unikod nie radzi
 sobie z ułamkami). Dzielenie definiujemy wtedy jako operację odwrotną do mnożenia, to jest jako
