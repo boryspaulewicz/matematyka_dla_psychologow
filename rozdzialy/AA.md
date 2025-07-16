@@ -317,7 +317,7 @@ przekształceniach mówi się czasem po angielsku, że są *formulaic*, co możn
 
 Zgaduję, że te dowody również Tobie wydają się w jakiś sposób schematyczne i powierzchowne, a w
 związku z tym jesteś może skłonna przyznać, że te izomorfizmy są w pewnym sensie "naturalne", albo
-że niemal "same się narzucają". Zastanówimy się teraz, co by nam zostało, gdybyśmy chcieli oddzielić
+że niemal "same się narzucają". Zastanowimy się teraz, co by nam zostało, gdybyśmy chcieli oddzielić
 *psychologiczny* aspekt tej schematyczności albo naturalności albo wręcz - pojawiającej się
 nieuchronnie po dłuższym kontakcie z tego rodzaju dodowami - oczywistości. Nie domyślasz się
 jeszcze? Skoro to matematyka, a chcemy uchwycić formalnie pewne pojęcie nieformalne, to jest tylko
