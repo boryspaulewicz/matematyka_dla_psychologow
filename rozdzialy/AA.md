@@ -350,7 +350,7 @@ tylko tak można przekształcić `g ∈ Hom(A, Y)` w strzałkę, której celem j
 
 Obiekty izomorficzne (przypominam, że mówimy o izomorficznych *obiektach* \{które w naszym dialekcie
 kategoriańskim nazywamy punktami\}, nie o izomorficznych *strzałkach*) muszą mieć zatem *takie same
-własaności strzałkowo-złożeniowe*, a więc każdy z tych obiektów jest powiązany ze wszystkimi innymi
+własności strzałkowo-złożeniowe*, a więc każdy z tych obiektów jest powiązany ze wszystkimi innymi
 obiektami taką samą "siecią relacji". Na przykład, jeżeli obiekt `X` emituje dokładnie jedną
 strzałkę do obiektu `Y` taką, że ..., to *każdy izomorf* obiektu `X` również emituje dokładnie jedną
 strzałkę do obiektu `Y` taką, że ... Mówiąc krótko, obiekty, które są *różne* i izomorficzne są
