@@ -376,27 +376,29 @@ izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅ Y ×
 `(x, y) ↦ (y, x)`
 
 której działający dla wszystkich produktów we wszystkich kategoriach dowód, jak to w takich
-sytuacjach bywa, praktycznie sam się robi: Mamy znaleźć izomorfizm z `X × Y` do `Y × X`, a więc
+sytuacjach bywa, robi się praktycznie sam: Mamy znaleźć izomorfizm z `X × Y` do `Y × X`, a więc
 pewną strzałkę z `X × Y` do `Y × X`. Wiemy tylko tyle, że to są jakieś produkty w jakiejś kategorii,
 a więc wiemy tylko tyle, że każdy z tych obiektów ma parę projekcji i że każda strzałka do `Y × X`
-jest tym samym, co pewna para strzałek do `Y` i `X` z tego samego źródła. Widzisz już, jak ten dowód
-praktycznie sam się robi? Korzystamy z jedynej pary współźródłowych strzałek, którą mamy pod ręką,
-to jest z projekcji `π₁ : X × Y → X` i `π₂ : X × Y → Y`, uzyskując produkt strzałek (uwaga na zmianę
-kolejności) `⟨π₂, π₁⟩`. Od razu widzimy, że taki sam proces działa w drugą stronę, dając `⟨π₂,
-π₁⟩`. Te strzałki są przeciwrównoległe, czyli składalne na wszystkie dwa możliwe sposoby. Ponieważ
-nie oznaczyliśmy (no dobrze, ja nie oznaczyłem) inaczej par projekcji, te dwa potencjalnie różne
+(`X × Y`) jest tym samym, co pewna para strzałek do `Y` (`X`) i `X` (`Y`) z tego samego
+źródła. Widzisz już, jak ten dowód niemal sam się robi? Korzystamy z jedynej pary współźródłowych
+strzałek do `Y` i `X`, którą mamy pod ręką, to jest z projekcji `π₁ : X × Y → X` i `π₂ : X × Y → Y`,
+uzyskując produkt strzałek (uwaga na zmianę kolejności, która jest "sednem"[^1] tego dowodu) `⟨π₂,
+π₁⟩`. Od razu widzimy, że taki sam proces działa w drugą stronę, dając `⟨π₂, π₁⟩`. 
+
+Te strzałki są przeciwrównoległe, czyli składalne na wszystkie dwa możliwe sposoby. Ponieważ nie
+oznaczyliśmy (no dobrze, ja nie oznaczyłem) inaczej par projekcji, te dwa potencjalnie różne
 produkty strzałek wyglądają tak samo, a w zasadzie *nie powinny*, bo ta wieloznaczność jest akurat
 pod pewnymi względami *problematyczna*, ale ponieważ te strzałki *działają tak samo*, możemy z tej
 problematyczności czerpać coś w rodzaju perwersyjnej przyjemności. Pozostaje nam już tylko
-trywialna, również praktycznie robiąca się sama końcówka; ponieważ `⟨f, g⟩ h = ⟨f h, g h⟩`, bo
-przecież `π₁ ⟨f, g⟩ h = f h` i analogicznie dla drugiej projekcji (`f`, `g` i `h` to tutaj niejawne
-*parametry*, zauważyłaś?), to:
+trywialna, również robiąca się sama końcówka; ponieważ `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f,
+g⟩ h = f h` i analogicznie dla drugiej projekcji (`f`, `g` i `h` to tutaj niejawne *parametry*,
+zauważyłaś?), to:
 
 `⟨π₂, π₁⟩ ⟨π₂, π₁⟩ = ⟨π₂ ⟨π₂, π₁⟩, π₁ ⟨π₂, π₁⟩⟩ = ⟨π₁, π₂⟩ = Id`
 
 Tak oto udowodniliśmy, że wszystkie produkty we wszystkich kategoriach są symetryczne, czyli że (być
 może wybredna) operacja tworzenia produktów jest przemienna, półformalnie opisując proces, czyli
-półformalnie konstruując funkcję, który dla jakiś dwóch produktów `X × Y` i `Y × X` w jakiejś
+półformalnie konstruując funkcję, która dla jakiś dwóch produktów `X × Y` i `Y × X` w jakiejś
 kategorii dostarcza procesy, które akurat w kategorii `Set` (zbiorów i funkcji) działają tak (na
 standardowej implementacji produktu, którą jest iloczyn kartezjański):
 
@@ -410,3 +412,7 @@ ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to
 coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*?
 
 CDN
+
+### Przypisy
+
+[^1]: Inaczej [*esencją, w której widać dno*](https://sjp.pwn.pl/slowniki/sedno.html).
