@@ -434,9 +434,9 @@ zbadać każdy aspekt formalizmu, i poczuć fizyczną autonomię ich implementac
 Możemy nawet spróbować "zrobić metodę" z tego ostatniego akapitu, tak samo zamieniając coś lub kilka
 rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
 konkretyzując. Podobnie postępują informatycy, gdy po napisaniu wstępnej wersji rozwiązania jakiegoś
-problemu zmieniają niektóre stałe na zmienne, a wszystko w strukturę procedury (nazywanej też
-funkcją) albo kilku procedur czy na przykład tak zwanych klas. W ten sposób powstają wszekiego
-rodzaju metody wielokrotnego użytku, albo "metodologie".
+problemu zmieniają niektóre stałe w zmienne, a wszystko opakowują w strukturę procedury (nazywanej
+też funkcją) albo kilku procedur, czy na przykład tak zwanych klas. W ten właśnie sposób powstają
+przecież wszekiego rodzaju metody wielokrotnego użytku, albo "metodologie".
 
 Zatem co my tam robimy? Wstępując o krok wyżej na tą naszą drabinę abstrakcji przez algorytmizację,
 czy może Algorytmizacji przez Abstrakcję, widzimy, że ... przyglądamy się tam temu, co przed chwilą
