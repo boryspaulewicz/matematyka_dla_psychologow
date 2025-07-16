@@ -442,11 +442,14 @@ Zatem co my tam robimy? Wstępując o krok wyżej na tą naszą drabinę abstrak
 czy może Algorytmizacji przez Abstrakcję, widzimy, że ... przyglądamy się tam temu, co przed chwilą
 powiedzieliśmy, albo co zrobiliśmy, albo co do pewnego stopnia i w pewien sposób zrozumieliśmy, i
 zastępujemy wybrane stałe mniej lub bardziej adekwatnie typowanymi parametrami, a wybrane ogólnikowe
-i niejasne sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało?
+i niejasne sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało, w tych
+*ostatnich dwóch* akapitach?
+
 *Powtarzamy się*, bo znaleźliśmy *punkt stały* pewnego procesu (czyli połknęliśmy własny ogon
 \{`I(x) = x`\}). A to znaczy, że znaleźliśmy (tylko pewną czy może jedyną istniejącą?) *nieformalną*
 (a więc najbardziej, bo *trochę za bardzo* elastyczną) *metodę metod*. [Aa](https://www.aa.org/)!
-Ok, może trochę mnie poniosło.
+Ok, może trochę mnie poniosło. Przecież to nic innego (?) jak *rozpoznanie wzorca rozpoznawania
+wzorców*.
 
 CDN
 
