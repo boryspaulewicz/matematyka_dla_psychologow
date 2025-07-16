@@ -63,8 +63,8 @@ to samo co wcześniej, ale zmieniając sposób pisania w celach dydaktycznych) `
 ℝ, a × b = 1`, gdzie `∃!` czytamy jako *istnieje unikalne*. Dowód unikalności przebiega znowu tak
 samo jak kategoryjny dowód unikalności strzałki odwrotnej. Taką liczbę zapisujemy jako funkcję albo
 własność `a` w ten między innymi sposób: $\frac{1}{a}$ (tu jest inna czcionka, bo Unikod nie radzi
-sobie z ułamkami). Dzielenie definiujemy wtedy jako operację odwrotną do mnożenia, to jest jako
-*mnożenie* przez *liczbę odwrotną* ze względu na *mnożenie*:
+sobie z ułamkami). Dzielenie definiujemy wtedy jako *mnożenie* przez *liczbę odwrotną* ze względu na
+*mnożenie*:
 
 Jeżeli `b ≠ 0`, to `a / b := a × 1/b`  
 (to powinno być raczej $\frac{1}{b}$, ale nie jest, bo Unikod).
