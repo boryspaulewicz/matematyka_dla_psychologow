@@ -407,9 +407,9 @@ standardowej implementacji produktu, którą jest iloczyn kartezjański):
 
 Widzimy od razu, że przynajmniej w `Set` te dwa procesy są ewidentnie "powierzchowne" albo
 "formalne" w znaczeniu *niezależne od natury elementów* (tutaj oznaczonych jako `x` i `y`). Ale
-*dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się (w pewien
-sposób) wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest
-czy da się "to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*?
+*dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się (w jakiś sposób)
+wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest czy da się
+"to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*?
 
 CDN
 
