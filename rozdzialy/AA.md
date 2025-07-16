@@ -409,7 +409,8 @@ Widzimy od razu, że przynajmniej w `Set` te dwa procesy są ewidentnie "powierz
 "formalne" w znaczeniu *niezależne od natury elementów* (tutaj oznaczonych jako `x` i `y`). Ale
 *dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się (w jakiś sposób)
 wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest czy da się
-"to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*?
+"to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*, inaczej
+*zakodować*?
 
 CDN
 
