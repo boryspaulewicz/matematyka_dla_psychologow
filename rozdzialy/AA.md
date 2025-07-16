@@ -398,7 +398,7 @@ pewnego twierdzenia pomocniczego, zauważyłaś?), to:
 
 Tak oto udowodniliśmy, że wszystkie produkty we wszystkich kategoriach są symetryczne, czyli że (być
 może wybredna) operacja tworzenia produktów jest przemienna, półformalnie opisując proces, czyli
-półformalnie konstruując funkcję, która dla jakiś dwóch produktów `X × Y` i `Y × X` w jakiejś
+półformalnie konstruując funkcję, która dla wszystkich par produktów `X × Y` i `Y × X` w jakiejś
 kategorii dostarcza procesy, które akurat w kategorii `Set` (zbiorów i funkcji) działają tak (na
 standardowej implementacji produktu, którą jest iloczyn kartezjański):
 
@@ -407,9 +407,9 @@ standardowej implementacji produktu, którą jest iloczyn kartezjański):
 
 Widzimy od razu, że przynajmniej w `Set` te dwa procesy są ewidentnie "powierzchowne" albo
 "formalne" w znaczeniu *niezależne od natury elementów* (tutaj oznaczonych jako `x` i `y`). Ale
-*dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się wyrazić
-ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest czy da się "to
-coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*?
+*dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się (w pewien
+sposób) wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest
+czy da się "to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*?
 
 CDN
 
