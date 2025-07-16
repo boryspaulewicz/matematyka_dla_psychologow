@@ -284,7 +284,8 @@ Będziemy się teraz uważnie przyglądać temu, na czym dokładnie polega ta ka
 tylko pozwoli lepiej ją zrozumieć, a dzięki temu bardziej nad nią zapanować i łatwiej rozpoznawać ją
 w innych sytuacjach, ale zaczniemy też przy okazji oswajać się z pojęciem [*transformacji
 naturalnej*](https://pl.wikipedia.org/wiki/Transformacja_naturalna), którego formalizacja była
-*głównym powodem*, dla którego Mac Lane i Eilenberg stworzyli teorii kategorii.
+[*głównym powodem*](https://doi.org/10.1090/S0002-9947-1945-0013131-6), dla którego Mac Lane i
+Eilenberg stworzyli teorię kategorii.
 
 ## Naturalnie, czyli jak?
 
