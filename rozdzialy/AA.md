@@ -201,9 +201,9 @@ rozpoznać jako elementy neutralne:
 3. `∅` ze względu na `∪` (sumę zbiorów):  
    `∀ X : Set, ∅ ∪ X = X ∪ ∅ = X`.
 
-4. Zbiór `U` (jak *uniwersum*), traktowany w danym kontekście jako zawierający wszystkie rozważane
-  elementy, ze względu na `∩` (część wspólną zbiorów). Wystarczy zastąpić w ostatnim zdaniu `∅`
-  przez (tak zdefiniowane) `U`, a `∪` przez `∩`.
+4. Zbiór `U` (jak *uniwersum*), to jest taki, który traktujemy *w danym kontekście* jako zawierający
+  *wszystkie rozważane* elementy, ze względu na `∩` (część wspólną zbiorów). Wystarczy zastąpić w
+  ostatnim zdaniu `∅` przez (tak rozumiane) `U`, a `∪` przez `∩`.
   
 5. `∅` ze względu na `+` jako sumę rozłączną zbiorów:  
    `∀ X : Set, ∅ + X ≅ X + ∅ ≅ X`.
