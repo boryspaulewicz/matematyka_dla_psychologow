@@ -390,7 +390,7 @@ zauważyłaś?), to podstawiając chwilowo `f := π₁`, `g := π₂`, `h := ⟨
 
 `⟨π₂, π₁⟩ ⟨π₂, π₁⟩ = ⟨π₂ ⟨π₂, π₁⟩, π₁ ⟨π₂, π₁⟩⟩ = ⟨π₁, π₂⟩ = Id`
 
-Tak oto (znowu? bo nie pamiętam, czy to już było) udowodniliśmy, że wszystkie produkty (we dowolnej
+Tak oto (znowu? bo nie pamiętam, czy to już było) udowodniliśmy, że wszystkie produkty (w dowolnej
 kategorii, która ma produkty) są symetryczne, czyli że (w tym wypadku niewybredna) operacja
 tworzenia produktów jest przemienna, półformalnie opisując proces, czyli półformalnie konstruując
 funkcję, która dla wszystkich par produktów `X × Y` i `Y × X` w jakiejś kategorii dostarcza procesy,
