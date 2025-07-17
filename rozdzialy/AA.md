@@ -670,8 +670,8 @@ to strzałka w kategorii, której punktami są *kategorie*. Żeby zacząć rozum
 następnym rozdziale zajmiemy się formalnymi i psychologicznymi aspektami pewnej algebry
 abstrakcyjnej, którą następnie uogólnimy, wymieniając zwykłe działania binarne na działania wybredne
 o takich samych samych własnościach. Dzięki temu nauczymy się między innymi, na czym (między innymi)
-polega *pytanie o drogę* i *podążanie drogą zgodnie z instrukcjami*, i jaki te dwa rodzaje czynności
-mają związek z ogólnie rozumianym *myśleniem* i *programowaniem*.
+polega *pytanie o drogę* i *podążanie drogą zgodnie z instrukcjami*, a także jaki te dwa rodzaje
+czynności mają związek z ogólnie rozumianym *myśleniem* i *programowaniem*.
 
 ### Przypisy
 
