@@ -900,6 +900,9 @@ fajniejszego?](https://pl.wikipedia.org/wiki/Pytanie_retoryczne)
 ```lean
 def Inverse_arrows {X Y : Type} (f : X → Y) (g : Y → X) : Prop := g ∘ f = id ∧ f ∘ g = id
 
+-- Zastosowanie taktyki rw ze strzałką w lewo zaraz po pierwszym nawiasie powoduje zastąpienie
+-- *prawej* strony używanej równości przez *lewą*, zamiast jak to się dzieje domyślnie lewej przez
+-- prawą.
 theorem Inverse_arrow_is_unique
   (X Y : Type) (f : X → Y) (g g' : Y → X) (h1 : (Inverse_arrows f g) ∧ (Inverse_arrows f g')) : 
   g = g' := by
