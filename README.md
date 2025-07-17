@@ -435,6 +435,16 @@ UTF-8. Jakub prowadzi bloga okołostatystycznego [nieobliczalne](https://nieobli
 wydaje mi się wartościowy i interesujący, a jego repozytorium jest
 [tu](https://github.com/jakub-jedrusiak),
 
+Znowu Tomkowi Smoleniowi, za zgłoszenie awarii polegającej na nadmiernej kumulacji nie objaśnionych
+dokładnie nowości pod koniec rozdziału o takosamości produktów. Dodałem tam w związku z tym
+ostrzeżenie i podjąłem próbę (szczerego) pocieszenia.
+
+Znowu Szymonowi Stryplingowi, za błyskawiczne przeczytanie po powrocie z wakacji wszystkich nowych
+rozdziałów i bardzo cenną uwagę na temat trudności wynikających ze zbyt częstego akcentowania
+fragmentów tekstu pismem pochyłym. Coś z tym muszę zrobić, bo z intonacją lepiej nie przesadzać, ale
+zanim coś z tym zrobię, muszę chyba lepiej zrozumieć, do czego akcentowanie może się w tej książce
+przydawać, a do czego nie.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 ### Przypisy
