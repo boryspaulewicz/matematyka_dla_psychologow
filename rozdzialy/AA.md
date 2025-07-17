@@ -268,8 +268,9 @@ example (X Y Z : Type) :
 ```
 
 Zwracam przy okazji uwagę, że to jest dowód *izomorficzności* tego rodzaju konstrukcji, ale to *nie*
-jest dowód *kanoniczności* izomorfizmu. I nie może być, bo pojęcie kanoniczności jest dla nas (jak
-dotąd) *nieformalne*. Jak to wygląda dla koniunkcji zdań?
+jest dowód *kanoniczności*, a dokładniej mówiąc *naturalności* izomorfizmu. I nie może być, bo to
+ostatnie pojęcie jest dla nas (jak dotąd) *nieformalne*. Jak wygląda analogiczny dowód dla
+koniunkcji zdań?
 
 ```lean
 example (p q r : Prop) : (p ∧ q) ∧ r ↔ p ∧ (q ∧ r) :=
