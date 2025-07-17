@@ -646,7 +646,7 @@ strzałki*.
 Żeby sformalizować pojęcie naturalnej równoważności będziemy potrzebowali formalnej definicji
 *transformacji naturalnej*, której naturalna *równoważność* jest przypadkiem szczególnym. Już teraz
 mogę jednak zasygnalizować, że transformacja naturalna to taka naturalna równoważność, w której
-strzałki nie muszą być izomorfizmami. 
+strzałki (w kategorii docelowej) nie muszą być izomorfizmami.
 
 *Chcemy* zacząć lepiej rozumieć, czym jest naturalna transformacja, bo bez tego prawdopodobnie nie
 bylibyśmy w stanie zacząć rozumieć ani [*lematu Yonedy*](https://en.wikipedia.org/wiki/Yoneda_lemma)
@@ -659,20 +659,19 @@ rozmaicie przeplatających się rozgałęzieniach wieloaspektowej abstrakcji.
 
 A pojęcie funktora sprzężonego *chcemy* zrozumieć między innymi dlatego, że tego pojęcia *nie
 byłoby* bez języka teorii kategorii. Jak się (mam nadzieję) przekonamy, gdy przyjdzie na to pora, te
-funktory pozwalają zobaczyć wiele różnych ważnych rzeczy, na przykład "istotę" dużego i małego
-kwantyfikatora. Mówi "się" nawet, że pojęcie transformacji naturalnej mogłoby być wymyślone głównie
-po to, żeby łapać za rogi jednorożce funktorów sprzężonych (no dobrze, może akurat *tak* "się" nie
-mówi).
+funktory, a tak naprawdę pary funktorów (sprzężonych), pozwalają zobaczyć wiele różnych ważnych
+rzeczy, takich jak choćby "istota" dużego i małego kwantyfikatora. Mówi "się" nawet, że pojęcie
+transformacji naturalnej mogłoby być wymyślone głównie po to, żeby łapać za rogi bliźniacze
+jednorożce funktorów sprzężonych (no dobrze, może akurat *tak* "się" nie mówi).
 
 Żeby zdefiniować transformację naturalną, będziemy potrzebowali formalnej definicji *funktora*. Jak
-się przekonamy w stosownym momencie, gdy definicja tego pojęcia będzie już mam nadzieję dobrze nam
-znana z widzenia, funktor to strzałka w kategorii, której punktami są *kategorie*. Żeby zacząć
-rozumieć, co to znaczy, w następnym rozdziale będziemy zajmować się formalnymi i psychologicznymi
-aspektami pewnej algebry abstrakcyjnej, którą następnie uogólnimy, wymieniając zwykłe działania
-binarne na działania dowolnie wybredne o takich samych samych własnościach. Dzięki temu nauczymy się
-między innymi, na czym (między innymi) polega *pytanie o drogę* i *podążanie drogą zgodnie z
-instrukcjami*, i jaki te dwa rodzaje czynności mają związek z ogólnie rozumianym *myśleniem* i
-*programowaniem*.
+zobaczymy, gdy definicja tego pojęcia będzie już mam nadzieję dobrze nam znana z widzenia, funktor
+to strzałka w kategorii, której punktami są *kategorie*. Żeby zacząć rozumieć, co to znaczy, w
+następnym rozdziale zajmiemy się formalnymi i psychologicznymi aspektami pewnej algebry
+abstrakcyjnej, którą następnie uogólnimy, wymieniając zwykłe działania binarne na działania wybredne
+o takich samych samych własnościach. Dzięki temu nauczymy się między innymi, na czym (między innymi)
+polega *pytanie o drogę* i *podążanie drogą zgodnie z instrukcjami*, i jaki te dwa rodzaje czynności
+mają związek z ogólnie rozumianym *myśleniem* i *programowaniem*.
 
 ### Przypisy
 
