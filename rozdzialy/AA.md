@@ -276,10 +276,10 @@ example (p q r : Prop) : (p ∧ q) ∧ r ↔ p ∧ (q ∧ r) :=
 A jak to wygląda dla alternatywy zdań? Albo dla sumy rozłącznej zbiorów? A kogo to obchodzi? Na
 przykład, czasem mnie, ale próbuję coś teraz podkreślić: To są dualne konstrukcje, a więc wystarczy
 powiedzieć *i dualnie* i od razu będziemy mieli to wszystko udowodnione. Żaden z tych dowodów nie
-był potrzebny (do udowodnienia tych zdań), bo (ko)produkt jako (kategoryjna) operacja jest
-(kanonicznie) łączny. Co jednak udowodnimy nieco później, bo od tego nieco męczącego dowodu znacznie
-ciekawsze są jego konsekwencje i jego wersje szczególne (albo implementacje) w rozmaitych
-konkretnych kategoriach.
+był zresztą tak naprawdę potrzebny (do udowodnienia tych zdań), bo (ko)produkt jako (kategoryjna)
+operacja jest (kanonicznie) łączny. Co jednak udowodnimy nieco później, bo od tego nieco męczącego
+dowodu znacznie ciekawsze są jego konsekwencje, jego wersje szczególne (albo implementacje) w
+rozmaitych konkretnych kategoriach, jak również natura (nomen omen) tej łączności.
 
 Będziemy się teraz uważnie przyglądać temu, na czym dokładnie polega ta kanoniczność. To nam nie
 tylko pozwoli lepiej ją zrozumieć, a dzięki temu bardziej nad nią zapanować i łatwiej rozpoznawać ją
