@@ -681,12 +681,13 @@ jednorożce funktorów sprzężonych (no dobrze, może akurat *tak* "się" nie m
 
 Żeby zdefiniować transformację naturalną, będziemy potrzebowali formalnej definicji *funktora*. Jak
 zobaczymy, gdy definicja tego pojęcia będzie już mam nadzieję dobrze nam znana z widzenia, funktor
-to strzałka w kategorii, której punktami są *kategorie*. Żeby zacząć rozumieć, co to znaczy, w
-następnym rozdziale zajmiemy się formalnymi i psychologicznymi aspektami pewnej algebry
+to strzałka w kategorii, której punktami są *kategorie*. Żeby zacząć rozumieć, co *to* może znaczyć,
+w następnym rozdziale zajmiemy się formalnymi i psychologicznymi aspektami pewnej algebry
 abstrakcyjnej, którą następnie uogólnimy, wymieniając zwykłe działania binarne na działania wybredne
 o takich samych samych własnościach. Dzięki temu nauczymy się między innymi, na czym (między innymi)
-polega *pytanie o drogę* i *podążanie drogą zgodnie z instrukcjami*, a także jaki te dwa rodzaje
-czynności mają związek z ogólnie rozumianym *myśleniem* i *programowaniem*.
+polega *pytanie o drogę* i *podążanie drogą zgodnie z instrukcjami*, a także jaki te dwa
+uniwersalnie ważne rodzaje czynności mają związek z ogólnie rozumianym *myśleniem*, *dialogiem* i
+*programowaniem*.
 
 ### Przypisy
 
