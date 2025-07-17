@@ -543,10 +543,10 @@ neutralnymi przy każdym obiekcie. Zwykle najlepiej zacząć sprawdzanie od strz
 jest w kategorii najważniejsze. Składaniem strzałek jest tutaj *komponentowe* składanie *funkcji*:
 `(g₁ × g₂) (f₁ × f₂) = (g₁ f₁) × (g₂ f₂)`. W przypadku `Set` i podobnych kategorii można o tych
 złożeniach myśleć tak: Złożenie dwóch procesów równoległych albo jednoczesnych `f = f₁ × f₂` i `g =
-g₁ × g₂` to taki proces `g f`, który polega na równoległym albo jednoczesnym stosowaniu złożeń
-procesów składowych `g₁ f₁` i `g₂ f₂`, czyli `(g₁ f₁) × (g₂ f₂)`. Piszę cały czas ostrożnie o
-*równoległości albo jednoczesności*, bo słowa "równoległe" używamy już do nazywania par strzałek o
-tym samym źródle i celu.
+g₁ × g₂` to taki proces `g f`, który polega na jednoczesnym niezależnym stosowaniu złożeń procesów
+składowych `g₁ f₁` i `g₂ f₂`, czyli proces `(g₁ f₁) × (g₂ f₂)`. Piszę cały czas ostrożnie o
+*równoległości*, *jednoczesności* i *niezależności*, bo słowa "równoległe" używamy już do nazywania
+*dowolnych* par strzałek o tym samym źródle i celu.
 
 Jak łatwo sprawdzić rozwijając definicje i stosując projekcje, `(g₁ × g₂) (f₁ × f₂) ⟨x₁, x₂⟩ = ⟨g₁
 f₁ x₂, g₂ f₂ x₂⟩`. Widzisz, jak ten zapis można interpretować jako zwykły zapis teoriomnogościowy,
