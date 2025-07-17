@@ -564,14 +564,14 @@ jest zrobiona z kategorii `Set`, można by ją nazwać kategorią *niezależnego
 jak ta nazwa pasuje do *nakładania* funkcjonalności produktu na funkcjonalność oznaczania, albo do w
 pewien sposób naturalnego *łączenia* tych dwóch funkcjonalności?
 
-Mamy oto pierwszy przykład kategorii *zbiorów ustrukturyzowanych*. Obiektami tej naszej (tym
-bardziej naszej, że celowo nadaliśmy jej własną nazwę) kategorii nie są *jakiekolwiek* zbiory, tylko
-zbiory *posiadające ten sam rodzaj struktury* (produktowej), a strzałkami tej kategorii nie są
-*jakiekolwiek* funkcje, tylko funkcje *spełniające określone wymagania*, pasujące w pewien sposób do
-wspólnej dla wszystkich zbiorów struktury. Na przykład, funkcja (anonimowa) `⟨x₁, x₂⟩ ↦ ⟨x₁ + x₂,
-x₂⟩`, gdzie `X₁ = X₂ = ℤ`, też jest funkcją z produktu (`ℤ₁ × ℤ₂`) do (tego samego) produktu, ale ta
-funkcja *nie* działa *niezależnie* na swoich "kanałach", a więc nie może być strzałką kategorii
-jednoczesnego oznaczania.
+Mamy oto pierwszy przykład kategorii *zbiorów* w pewien sposób *ustrukturyzowanych*. W następnych
+rozdziałach poznamy więcej takich kategorii. Obiektami tej naszej (tym bardziej naszej, że celowo
+nadaliśmy jej własną nazwę) kategorii nie są *jakiekolwiek* zbiory, tylko zbiory *posiadające ten
+sam rodzaj struktury* (tutaj produktowej), a strzałkami tej kategorii nie są *jakiekolwiek* funkcje,
+tylko funkcje *spełniające określone wymagania*, pasujące w pewien sposób do wspólnej dla wszystkich
+zbiorów struktury. Na przykład, funkcja (anonimowa) `⟨x₁, x₂⟩ ↦ ⟨x₁ + x₂, x₂⟩`, gdzie `X₁ = X₂ = ℤ`,
+też jest funkcją z produktu (`ℤ₁ × ℤ₂`) do (tego samego) produktu, ale ta funkcja *nie* działa
+*niezależnie* na swoich "kanałach", a więc nie może być strzałką kategorii jednoczesnego oznaczania.
 
 Jeszcze raz od początku: Czym są zbiory? Luźnymi, to jest pozbawionymi jakiejkolwiek *wspólnej dla
 wszystkich zbiorów* struktury (takiej jak struktura produktowa) kolekcjami elementów. A czym są
