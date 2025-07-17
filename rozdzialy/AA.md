@@ -256,9 +256,13 @@ example (X Y Z : Type) :
     --- interaktywnego i dokończymy konstrukcję maksymalnie bezmyślnie, patrząc tylko, czego
     --- dokładnie Lean się od nas w danym momencie domaga.
     by
+    -- Chcesz dowód, że jakieś coś istnieje? To potrzymaj proszę ten jarmuż, na pewno gdzieś mam...
     apply Exists.intro
+    -- Jeszcze jeden chcesz? Pogrzebacz, możesz też potrzymać? 
     apply Exists.intro
+    -- A teraz chcesz dowód koniunkcji?
     apply And.intro
+    -- A sam sobie znajdź, tu u mnie na górze, w kontekście.
     assumption
     assumption
 ```
