@@ -560,9 +560,9 @@ swoje złożenia nie trzeba nawet sprawdzać. Mamy więc pewną kategorię.
 Każdą taką kategorię (akurat ta jest zrobiona z obiektów i strzałek w `Set`, albo zrobiona w albo z
 kategorii `Set`) można by (według mnie) nazwać kategorią *produktowania* (w danej kategorii), przez
 analogię do *oznaczania* jako *funkcjonalności kategorii `Set`*. Gdy, tak jak tutaj, ta konstrukcja
-jest zrobiona z kategorii `Set`, można by ją nazwać kategorią *jednoczesnego oznaczania*. Widzisz,
-jak w ta nazwa pasuje do *nakładania* funkcjonalności produktu na funkcjonalność oznaczania, albo do
-takiego jakby naturalnego *łączenia* tych dwóch funkcjonalności?
+jest zrobiona z kategorii `Set`, można by ją nazwać kategorią *niezależnego oznaczania*. Widzisz,
+jak ta nazwa pasuje do *nakładania* funkcjonalności produktu na funkcjonalność oznaczania, albo do w
+pewien sposób naturalnego *łączenia* tych dwóch funkcjonalności?
 
 Mamy oto pierwszy przykład kategorii *zbiorów ustrukturyzowanych*. Obiektami tej naszej (tym
 bardziej naszej, że celowo nadaliśmy jej własną nazwę) kategorii nie są *jakiekolwiek* zbiory, tylko
