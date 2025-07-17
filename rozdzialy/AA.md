@@ -430,6 +430,10 @@ konstrukcji w pełni sformalizowanych. Przykłady teoriotypowe miały natomiast 
 było zrealizować w kodzie, a dzięki temu sprawdzić ostatecznie, czy wszystko działa, zbadać każdy
 aspekt formalizmu i poczuć fizyczną autonomię ich implementacji.
 
+<hr>
+
+### [🐍](https://pl.wikipedia.org/wiki/Uroboros)
+
 Możemy nawet spróbować "zrobić metodę" z *ostatniego* akapitu, tak samo zamieniając coś lub kilka
 rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
 konkretyzując. Podobnie postępują informatycy, gdy po napisaniu wstępnej wersji rozwiązania jakiegoś
@@ -452,6 +456,8 @@ poznania wszystkiego, co działa. A to znaczy, że znaleźliśmy (tylko pewną c
 istniejącą?) *nieformalną* (a więc w pewnym sensie najbardziej, bo *trochę za bardzo* elastyczną)
 *metodę metod*. [Aa](https://www.aa.org/)(a)! Ok, może trochę mnie poniosło. Przecież to nic innego
 (?) jak *rozpoznanie wzorca rozpoznawania wzorców*.
+
+<hr>
 
 Wracając do przerwanego wątku, nadal nie widzimy wyraźnie, a w każdym razie ja wyraźnie nie widzę w
 tym, co do tej pory napisałem, co dokładnie dzieje się w dowodzie symetryczności wszelkich
