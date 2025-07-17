@@ -552,9 +552,9 @@ Jak łatwo sprawdzić rozwijając definicje i stosując projekcje, `(g₁ × g�
 f₁ x₂, g₂ f₂ x₂⟩`. Widzisz, jak ten zapis można interpretować jako zwykły zapis teoriomnogościowy,
 albo jako zapis w języku teorii kategorii? Wystarczy dowolnie wybrać, czy `⟨x₁, x₂⟩` oznacza parę
 uporządkowaną elementów `x₁` i `x₂` (czyli `⟨x₁, x₂⟩ ∈ X₁ × X₂`), czy produkt strzałek `x₁ : Z →
-xX₁`, `x₂ : Z → X₂` (czyli `⟨x₁, x₂⟩ ∈ Hom(Z, X₁ × X₂)`). Elementami neutralnymi tej kategorii są
+X₁`, `x₂ : Z → X₂` (czyli `⟨x₁, x₂⟩ ∈ Hom(Z, X₁ × X₂)`). Elementami neutralnymi tej kategorii są
 natomiast (oczywiście?) endostrzałki o postaci `Id₁ × Id₂`. Tego, że wszystkie pary składalnych
-strzałek mają swoje złożenia nie trzeba nawet sprawdzać. Mamy więc pewną kategorię. 
+strzałek mają swoje złożenia nie trzeba nawet sprawdzać. Mamy więc pewną kategorię.
 
 Każdą taką kategorię (akurat ta jest zrobiona z obiektów i strzałek w `Set`, albo zrobiona w albo z
 kategorii `Set`) można by (według mnie) nazwać kategorią *produktowania* (w danej kategorii), przez
