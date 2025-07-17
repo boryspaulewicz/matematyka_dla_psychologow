@@ -386,7 +386,7 @@ problematyczności czerpać coś w rodzaju perwersyjnej przyjemności (ości). P
 trywialna (chociaż chyba nic nie jest trywialne, po dłuższym namyśle), również robiąca się sama
 końcówka: Skoro `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f, g⟩ h = f h` i analogicznie dla drugiej
 projekcji (`f`, `g` i `h` to tutaj niejawne *parametry* pewnego twierdzenia pomocniczego,
-zauważyłaś?), to:
+zauważyłaś?), to podstawiając chwilowo `f := π₁`, `g := π₂`, `h := ⟨π₂, π₁⟩` widzimy, że:
 
 `⟨π₂, π₁⟩ ⟨π₂, π₁⟩ = ⟨π₂ ⟨π₂, π₁⟩, π₁ ⟨π₂, π₁⟩⟩ = ⟨π₁, π₂⟩ = Id`
 
