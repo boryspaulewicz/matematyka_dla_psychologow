@@ -319,8 +319,8 @@ przekształceniach mówi się czasem po angielsku, że są *formulaic*, co możn
 Zgaduję, że te dowody również Tobie wydają się w jakiś sposób schematyczne i powierzchowne, a w
 związku z tym jesteś może skłonna przyznać, że te izomorfizmy są w pewnym trudnym do dokładnego
 opisania sensie "naturalne". Zastanowimy się teraz, co by nam zostało, gdybyśmy chcieli oddzielić
-*psychologiczny* aspekt tej schematyczności albo naturalności albo wręcz - pojawiającej się
-nieuchronnie po dłuższym kontakcie z tego rodzaju dodowami - oczywistości. Nie domyślasz się
+*psychologiczny* aspekt tej schematyczności albo naturalności, albo wręcz - pojawiającej się
+nieuchronnie po dłuższym kontakcie z tego rodzaju dowodami - oczywistości. Nie domyślasz się
 jeszcze? Skoro to matematyka, a chcemy uchwycić formalnie pewne pojęcie nieformalne, to jest tylko
 jeden aspekt, na którym należy się skupić. Tym najważniejszym matematycznie aspektem jest (może dla
 Ciebie też już niemal oczywiście?) *funkcjonalność*.
