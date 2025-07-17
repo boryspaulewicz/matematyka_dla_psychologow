@@ -657,11 +657,12 @@ okaże się również kluczowa, kiedy będziemy próbowali *wywrócić na drugą
 powiązanych zadań. Nie mówiąc już o tym, jakiej nabierzemy dzięki temu wprawy w skakaniu po
 rozmaicie przeplatających się rozgałęzieniach wieloaspektowej abstrakcji. 
 
-A pojęcie funktora sprzężonego *chcemy* zrozumieć dlatego, że tego pojęcia *nie byłoby* bez języka
-teorii kategorii. Jak się (mam nadzieję) przekonamy, gdy przyjdzie na to pora, te funktory pozwalają
-zobaczyć wiele różnych ważnych rzeczy, na przykład "istotę" dużego i małego kwantyfikatora.  Mówi
-"się" nawet, że pojęcie transformacji naturalnej mogłoby być wymyślone głównie po to, żeby łapać za
-rogi jednorożce funktorów sprzężonych (no dobrze, może akurat *tak* "się" nie mówi).
+A pojęcie funktora sprzężonego *chcemy* zrozumieć między innymi dlatego, że tego pojęcia *nie
+byłoby* bez języka teorii kategorii. Jak się (mam nadzieję) przekonamy, gdy przyjdzie na to pora, te
+funktory pozwalają zobaczyć wiele różnych ważnych rzeczy, na przykład "istotę" dużego i małego
+kwantyfikatora. Mówi "się" nawet, że pojęcie transformacji naturalnej mogłoby być wymyślone głównie
+po to, żeby łapać za rogi jednorożce funktorów sprzężonych (no dobrze, może akurat *tak* "się" nie
+mówi).
 
 Żeby zdefiniować transformację naturalną, będziemy potrzebowali formalnej definicji *funktora*. Jak
 się przekonamy w stosownym momencie, gdy definicja tego pojęcia będzie już mam nadzieję dobrze nam
