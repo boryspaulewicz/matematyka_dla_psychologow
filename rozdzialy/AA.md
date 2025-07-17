@@ -503,12 +503,10 @@ Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to dowolne dwie *funkcje
 *równoległym* albo *jednoczesnym* albo *niezależnym* działaniu funkcji `f₁` i `f₂` na członach
 produktu dziedziny `f`: `f(⟨x₁, x₂⟩) = ⟨f₁(x₁), f₂(x₂)⟩`. Tego rodzaju funkcje, które działają jak
 przetwarzanie równoległe, są ważne zarówno w matematyce jak i w programowaniu, i pojawiają się w
-najrozmaitszych kontekstach. 
-
-Wiedząc, jak działa kategoryjny produkt, możemy z łatwością znaleźć maksymalnie ogólną, kategoryjną
-wersję tej konstrukcji: Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to dowolne *strzałki* w kategorii,
-która ma produkty, to istnieje *strzałka* `f` taka, że odpowiada parze *strzałek* `f₁ π₁` i `f₂ π₂`,
-to jest `f = ⟨f₁ π₁, f₂ π₂⟩`.
+najrozmaitszych kontekstach. Wiedząc, jak działa kategoryjny produkt, możemy z łatwością znaleźć
+maksymalnie ogólną, kategoryjną wersję tej konstrukcji: Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to
+dowolne *strzałki* w kategorii, która ma produkty, to istnieje *strzałka* `f` odpowiadająca parze
+*strzałek* `f₁ π₁` i `f₂ π₂`, to jest `f = ⟨f₁ π₁, f₂ π₂⟩`.
 
 To niemal nic innego, jak znany Ci już *produkt strzałek*, jednak to jest jego przypadek
 *szczególny*, zrobiony ze *złożeń* dowolnych dwóch składalnych w ten sposób strzałek *z projekcjami*
