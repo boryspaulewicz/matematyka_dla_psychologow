@@ -589,12 +589,92 @@ relatywnie późno, przez Fraenkla, i to było *wszystko*, co Fraenkel dodał do
 teorii. W dodatku nazwisko Fraenkel zaczyna się na literę f, jak w słowie funkcja! Przypadek? Tak
 sądzę.
 
-NA KONIEC BĘDZIE CHYBA NIEFORMALNIE O NATURALNOŚCI, BO TEN ROZDZIAŁ JEST JUŻ I TAK DŁUGI I GĘSTY
+Po raz kolejny przyglądamy się uważnie tej pozornie całkiem zwyczajnej, oczywistej w swej naturze
+przemienności ...
 
-CDN
+`(x, y) ↦ (y, x)`
+
+... i widzimy, że to przekształcenie działa niezależnie od elementów, albo "wokół" nich. Gdybyśmy
+powiedzieli, że to przekształcenie polega na określonym *przestawieniu nawiasów*, mielibyśmy rację,
+taki opis byłby poprawny na poziomie *metajęzyka*, ale to *nie* byłby poprawny opis *matematycznej*,
+to jest formalno-funkcjonalnej istoty tego procesu. Funkcjonalnie, ten proces polega na tym, że
+*produktowanie działa niezależnie od* albo *nie wchodzi w interakcję z* (*w przypadku kategorii
+`Set`*) *oznaczaniem*. Nie masz wrażenia, że ten sposób mówienia o kategoriach i łączących je
+procesach w języku naturalnym jest trafny? Pytam o to, bo wymyśliłem ten sposób pisząc jeden z
+poprzednich rozdziałów.
+
+Nie możemy jeszcze podać pełnej formalnej definicji tego, co mam nadzieję oboje możemy tu rozpoznać
+jako pewne ogólne zjawisko albo wzorzec, ale możemy już w tym momencie całkiem nieźle objaśnić jego
+*sens*. Dla każdego *elementarnego oznaczenia pary uporządkowanej*, czyli dla każdego elementu `⟨x₁,
+x₂⟩ ∈ X₁ × X₂`, taki proces (uwaga na odwrócenie kolejności) ...
+
+`⟨x₁, x₂⟩ ↦ ⟨x₂, x₁⟩ ↦ ⟨f₂ x₂, f₁ x₁⟩`
+
+... daje ten sam wynik, co taki proces:
+
+`⟨x₁, x₂⟩ ↦ ⟨f₁ x₁, f₂ x₂⟩ ↦ ⟨f₂ x₂, f₁ x₁⟩`
+
+W ten właśnie sposób możemy wyrazić półformalnie fakt, że operacja tworzenia produktu w kategorii
+zbiorów i funkcji działa jakby "wokół" funkcjonalności tej kategorii, bo *nie "dotyka" oznaczania*,
+albo możemy powiedzieć, że ta operacja *"przeplata się" z oznaczaniem w sposób "nieinteraktywny"*
+albo taki jakby "liniowy". To ostatnie skojarzenie może się nasuwać, gdy rozpatrzymy na przykład
+takie dwa, mające różną liczbę argumentów [*przekształcenia
+liniowe*](https://pl.wikipedia.org/wiki/Przekszta%C5%82cenie_liniowe) jak mnożenie pojedynczej
+liczby przez `2` i dodawanie dwóch liczb, ponieważ `2 × (x + y) = 2 × x + 2 × y`.
+
+*Potrójne* przekształcenie, na które składają się dwa procesy "produktowania", działające na
+wszystkich możliwych parach obiektów (`⟨X₁, X₂⟩`) ...
+
+1. `⟨X₁, X₂⟩ ↦ X₁ × X₂`
+
+2. `⟨X₁, X₂⟩ ↦ X₂ × X₁`
+
+... i proces, który dla każdego rezultatu pierwszego z tych dwóch przekształceń dostarcza
+"wymijający funkcjonalność kategorii" izomorfizm z wyniku pierwszego przekształcenia do wyniku
+drugiego (powtarzam się tu, żeby było chociaż trochę łatwiej), ...
+
+`⟨x₁, x₂⟩ ↦ ⟨x₂, x₁⟩ ↦ ⟨f₂ x₂, f₁ x₁⟩`
+
+`⟨x₁, x₂⟩ ↦ ⟨f₁ x₁, f₂ x₂⟩ ↦ ⟨f₂ x₂, f₁ x₁⟩`
+
+... to przykład *naturalnej równoważności*. A to przeplatanie się "produktowania" i "oznaczania",
+które widać wyżej, to, jak dowiesz się później, przykład tak zwanego *kwadratu naturalności*. Byłoby
+nam znacznie trudniej wejść w ten kwadrat, a może nawet byłoby to niemożliwe, gdybyśmy wcześniej nie
+zrozumieli, że w produktowaniu, jak właściwie we wszystkim, co matematyczne, *najważniejsze są
+strzałki*.
+
+Żeby sformalizować pojęcie naturalnej równoważności będziemy potrzebowali formalnej definicji
+*transformacji naturalnej*, której naturalna *równoważność* jest przypadkiem szczególnym. Już teraz
+mogę jednak zasygnalizować, że transformacja naturalna to taka naturalna równoważność, w której
+strzałki nie muszą być izomorfizmami. 
+
+*Chcemy* zacząć lepiej rozumieć, czym jest naturalna transformacja, bo bez tego prawdopodobnie nie
+bylibyśmy w stanie zacząć rozumieć ani [*lematu Yonedy*](https://en.wikipedia.org/wiki/Yoneda_lemma)
+ani *funktorów sprzężonych*. *Chcemy* zacząć rozumieć lemat Yonedy, bo ten lemat pokazuje pewną
+głęboką prawdę na temat matematyki i - nie tylko moim zdaniem - poznania w ogóle. Ta głęboka prawda
+okaże się również kluczowa, kiedy będziemy próbowali *wywrócić na drugą stronę* **całą**
+*psychologię*, patrząc na zachowania od strony środowiska rozumianego jako konstelacja wielorako
+powiązanych zadań. Nie mówiąc już o tym, jakiej nabierzemy dzięki temu wprawy w skakaniu po
+rozmaicie przeplatających się rozgałęzieniach wieloaspektowej abstrakcji. 
+
+A pojęcie funktora sprzężonego *chcemy* zrozumieć dlatego, że tego pojęcia *nie byłoby* bez języka
+teorii kategorii. Jak się (mam nadzieję) przekonamy, gdy przyjdzie na to pora, te funktory pozwalają
+zobaczyć wiele różnych ważnych rzeczy, na przykład "istotę" dużego i małego kwantyfikatora.  Mówi
+"się" nawet, że pojęcie transformacji naturalnej mogłoby być wymyślone głównie po to, żeby łapać za
+rogi jednorożce funktorów sprzężonych (no dobrze, może akurat *tak* "się" nie mówi).
+
+Żeby zdefiniować transformację naturalną, będziemy potrzebowali formalnej definicji *funktora*. Jak
+się przekonamy w stosownym momencie, gdy definicja tego pojęcia będzie już mam nadzieję dobrze nam
+znana z widzenia, funktor to strzałka w kategorii, której punktami są *kategorie*. Żeby zacząć
+rozumieć, co to znaczy, w następnym rozdziale będziemy zajmować się formalnymi i psychologicznymi
+aspektami pewnej algebry abstrakcyjnej, którą następnie uogólnimy, wymieniając zwykłe działania
+binarne na działania dowolnie wybredne o takich samych samych własnościach. Dzięki temu nauczymy się
+między innymi, na czym (między innymi) polega *pytanie o drogę* i *podążanie drogą zgodnie z
+instrukcjami*, i jaki te dwa rodzaje czynności mają związek z ogólnie rozumianym *myśleniem* i
+*programowaniem*.
 
 ### Przypisy
 
 [^1]: Albo [*esencją, w której widać dno*](https://sjp.pwn.pl/slowniki/sedno.html).
 
-[^2]: Brakowało Ci tych wszystich ę w tę książkach i tym podobnych? No to proszę - ę.
+[^2]: Brakowało Ci tych wszystich ę w tę książkach i tym podobnych? No to proszę, ę.
