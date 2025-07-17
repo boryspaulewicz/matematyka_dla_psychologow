@@ -459,12 +459,12 @@ istniejącą?) *nieformalną* (a więc w pewnym sensie najbardziej, bo *trochę 
 
 <hr>
 
-Wracając do przerwanego wątku, nadal nie widzimy wyraźnie, a w każdym razie ja wyraźnie nie widzę w
-tym, co do tej pory napisałem, co dokładnie dzieje się w dowodzie symetryczności wszelkich
-kategoryjnych produktów w kategorii `Set`. To może sformalizujmy ten dowód całkowicie, a raczej jego
-wersję opartą na głębokich podobieństwach między zbiorami i typami. Dzięki temu nic się przed nami
-nie ukryje i pozostnie nam tylko wskazywać to czy tamto, zaś to, co wskażemy, ostrożnie ponazywać, w
-nadziei, że wyłoni się jakiś ważny ogólny wzorzec.
+Wracając do przerwanego wątku, nadal nie widzimy wyraźnie, a w każdym razie ja nie widzę dość
+wyraźnie w tym, co do tej pory napisałem, co dokładnie dzieje się w dowodzie symetryczności
+wszelkich kategoryjnych produktów w kategorii `Set`. To może sformalizujmy ten dowód całkowicie, a
+raczej jego wersję opartą na głębokich podobieństwach między zbiorami i typami. Dzięki temu nic się
+przed nami nie ukryje i pozostnie nam tylko wskazywać to czy tamto, zaś to, co wskażemy, ostrożnie
+ponazywać, w nadziei, że wyłoni się jakiś ważny ogólny wzorzec.
 
 ```lean
 -- Klikając prawym przyciskiem gdy kursor jest w miejscu stałej `Prod` wybieramy (w Emacsie, ale w
