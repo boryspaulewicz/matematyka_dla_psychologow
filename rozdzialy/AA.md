@@ -533,8 +533,8 @@ To teraz (proszę) uważaj. Mamy kategoryjny produkt *obiektów* i mamy kategory
 produktowe. Takie konstrukcje mamy w *każdej* kategorii, w której z każdej pary obiektów można
 zrobić ich produkt. Mówimy wtedy, że taka kategoria *ma* (binarne) produkty, w znaczeniu, że ma
 wszystkie możliwe produkty. `Set` na przykład ma. Jeżeli teraz *zapomnimy* o wszystkich innych
-obiektach i strzałkacah w `Set` (już? mogę poczekać, nigdzie nam się nie spieszy), to zobaczymy
-kategorię!
+obiektach i strzałkach w `Set` (zapomniałaś już? mogę poczekać, nigdzie nam się nie spieszy), to
+zobaczymy kategorię!
 
 Obiektami tej kategorii są produkty zbiorów, a strzałkami są strzałki produktowe. Jak zawsze, gdy
 coś nowego chcemy traktować jako kategorię, sprawdzamy, czy możemy, na szczęście tylko raz: Żeby coś
