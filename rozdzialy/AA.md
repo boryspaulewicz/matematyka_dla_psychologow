@@ -582,9 +582,9 @@ potencjalnie wielorakimi (gdy "alfabet" dziedziny ma więcej niż jeden "symbol"
 nieustrukturyzowanymi oznaczeniami. Czy widzisz już, że z perspektywy funkcjonalnej, czyli takiej
 jakby *abstrakcyjnie pragmatycznej* albo *celowościowej*, *centralnym* pojęciem teorii mnogości
 *nie* jest pojęcie zbioru, tylko pojęcie *funkcji*, a pojęcia zbioru i elementu służą (w praktyce)
-*tylko* do tego, żeby - jawnie lub, gdy mówimy, że *coś jest takim a takim zbiorem*, niejawnie -
-można było zarazem wygodnie i konsekwentnie mówić o arbitralnych funkcjach? To może zainteresuje Cię
-w tym kontekście fakt, że aksjomat o istnieniu funkcji został dodany do teorii Zermelo-Fraenkla
+*tylko* do tego, żeby jawnie, lub - gdy mówimy, że *coś jest takim a takim zbiorem* - niejawnie
+można było zarazem wygodnie i konsekwentnie mówić o arbitralnych *funkcjach*? To może zainteresuje
+Cię w tym kontekście fakt, że aksjomat o istnieniu funkcji został dodany do teorii Zermelo-Fraenkla
 relatywnie późno, przez Fraenkla, i to było *wszystko*, co Fraenkel dodał do aksjomatów tej
 teorii. W dodatku nazwisko Fraenkel zaczyna się na literę f, jak w słowie funkcja! Przypadek? Tak
 sądzę.
