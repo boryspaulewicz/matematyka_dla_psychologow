@@ -571,8 +571,8 @@ sam rodzaj struktury* (tutaj produktowej), a strzałkami tej kategorii nie są *
 tylko funkcje *spełniające określone wymagania*, pasujące w pewien sposób do wspólnej dla wszystkich
 zbiorów struktury. Na przykład, funkcja (anonimowa) `⟨x₁, x₂⟩ ↦ ⟨x₁ + x₂, x₂⟩`, gdzie `X₁ = X₂ = ℤ`,
 też jest funkcją z produktu (`ℤ₁ × ℤ₂`) do (tego samego) produktu, ale ta funkcja *nie* działa
-*niezależnie* na swoich "kanałach", a więc nie może być strzałką kategorii jednoczesnego
-niezależnego oznaczania.
+*niezależnie* na swoich "kanałach", a więc nie jest strzałką kategorii jednoczesnego niezależnego
+oznaczania.
 
 Jeszcze raz od początku: Czym są zbiory? Luźnymi, to jest pozbawionymi jakiejkolwiek *wspólnej dla
 wszystkich zbiorów* struktury (takiej jak struktura produktowa) kolekcjami elementów. A czym są
