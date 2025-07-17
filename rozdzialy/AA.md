@@ -519,16 +519,18 @@ Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to dowolne dwie *funkcje
 produktu dziedziny `f`: `f(⟨x₁, x₂⟩) = ⟨f₁(x₁), f₂(x₂)⟩`. Tego rodzaju funkcje, które działają jak
 przetwarzanie równoległe, są ważne zarówno w matematyce jak i w programowaniu, i pojawiają się w
 najrozmaitszych kontekstach. Wiedząc, jak działa kategoryjny produkt, możemy z łatwością znaleźć
-maksymalnie ogólną, kategoryjną wersję tej konstrukcji: Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to
-dowolne *strzałki* w kategorii, która ma produkty, to istnieje *strzałka* `f` odpowiadająca parze
-*strzałek* `f₁ π₁` i `f₂ π₂`, to jest `f = ⟨f₁ π₁, f₂ π₂⟩`.
+maksymalnie ogólną, kategoryjną wersję tej konstrukcji: 
 
-To *niemal* nic innego, jak znany Ci już *produkt strzałek*, jednak to jest jego przypadek
-*szczególny*, zrobiony ze *złożeń* dowolnych dwóch składalnych w ten sposób strzałek *z projekcjami*
-jakiegoś produktu źródłowego. Ponieważ między innymi w `Set` takie strzałki działają jak
-przetwarzanie równoległe i są blisko związane z produktem obiektów, oznaczamy je jako `f₁ × f₂ :=
-⟨f₁ π₁, f₂ π₂⟩`. Jak nietrudno się przekonać, te *strzałki produktowe* (a nie tylko *produkty
-strzałek* \{tylko przypominam\}) działają w `Set` (i nie tylko tam) zgodnie z oczekiwaniami:
+Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to dowolne *strzałki* w kategorii, która ma produkty, to
+istnieje *strzałka* `f` odpowiadająca parze *strzałek* `f₁ π₁` i `f₂ π₂`, to jest `f = ⟨f₁ π₁, f₂
+π₂⟩`.
+
+To *niemal* nic innego, jak znany Ci *produkt strzałek*, jednak to jego przypadek *szczególny*,
+zrobiony ze *złożeń* dowolnych dwóch składalnych w ten sposób strzałek *z projekcjami* produktu
+źródłowego. Ponieważ między innymi w `Set` takie strzałki działają jak przetwarzanie równoległe i są
+blisko związane z produktem obiektów, oznaczamy je jako `f₁ × f₂ := ⟨f₁ π₁, f₂ π₂⟩`. Jak łatwo się
+przekonać, te *strzałki produktowe* (a nie tylko *produkty strzałek* \{tylko przypominam\}) działają
+w `Set` (i nie tylko tam) zgodnie z oczekiwaniami:
 
 `(f₁ × f₂) ⟨x₁, x₂⟩ = ⟨f₁ π₁, f₂ π₂⟩ ⟨x₁, x₂⟩`  
 (rozwijamy definicję strzałki produktowej)
@@ -540,8 +542,8 @@ strzałek* \{tylko przypominam\}) działają w `Set` (i nie tylko tam) zgodnie z
 (stosujemy projekcje)
 
 Szczerze mówiąc, wolałbym nazywać produktem strzałek właśnie *tą* konstrukcję, a strzałki takie jak
-`⟨f, g⟩` nazywać strzałkami produktowymi. Wtedy na `X × Y` byłby produktem obiektów, a `f × g`
-produktem strzałek i notacja pasowałaby do nazw. Ale trudno, jest jak jest. Za to chyba nie jest
+`⟨f, g⟩` nazywać strzałkami produktowymi. Wtedy na przykład `X × Y` byłby produktem obiektów, a `f ×
+g` produktem strzałek i notacja pasowałaby do nazw. Ale trudno, jest jak jest. Za to chyba nie jest
 szczególnie trudno zapamiętać, jak dokładnie ta notacja działa.
 
 To teraz (proszę) uważaj. Mamy kategoryjny produkt *obiektów* i mamy kategoryjne *strzałki*
