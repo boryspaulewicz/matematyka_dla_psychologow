@@ -367,15 +367,17 @@ mamy izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅
 `(x, y) ↦ (y, x)`
 
 ... której działający dla wszystkich produktów we wszystkich kategoriach dowód, jak to w takich
-sytuacjach bywa, robi się praktycznie sam: Mamy znaleźć izomorfizm z `X × Y` do `Y × X`, a więc
-pewną strzałkę z `X × Y` do `Y × X`. Wiemy tylko tyle, że to są jakieś produkty w jakiejś kategorii,
-a więc wiemy tylko tyle, że każdy z tych obiektów ma parę projekcji i że każda strzałka do z `X × Y`
-do `Y × X` (albo w drugą stronę, z `Y × X` do `X × Y`) jest tym samym, co pewna para strzałek do `Y`
-(`X`) i `X` (`Y`) z tego samego źródła. Widzisz już, jak ten dowód niemal sam się robi? Korzystamy z
-jedynej pary współźródłowych strzałek do `Y` i `X` (w tej kolejności), którą mamy pod ręką, to jest
-z pary projekcji `π₂ : X × Y → Y` i `π₁ : X × Y → X` (w tej kolejności), uzyskując produkt strzałek
-(uwaga na kolejność, która jest "sednem"[^1] tego dowodu) `⟨π₂, π₁⟩`. Od razu widzimy, że taki sam
-proces działa w drugą stronę, dając `⟨π₂, π₁⟩`.
+sytuacjach bywa, robi się praktycznie sam: 
+
+Mamy znaleźć izomorfizm z `X × Y` do `Y × X`, a więc pewną strzałkę z `X × Y` do `Y × X`. Wiemy
+tylko tyle, że to są jakieś produkty w jakiejś kategorii, a więc wiemy tylko tyle, że każdy z tych
+obiektów ma parę projekcji i że każda strzałka z `X × Y` do `Y × X` (albo w drugą stronę, z `Y × X`
+do `X × Y`) jest tym samym, co pewna para strzałek do `Y` (`X`) i `X` (`Y`) z tego samego
+źródła. Widzisz już, jak ten dowód niemal sam się robi? Korzystamy z jedynej pary współźródłowych
+strzałek do `Y` i `X` (w tej kolejności), którą mamy pod ręką, to jest z pary projekcji `π₂ : X × Y
+→ Y` i `π₁ : X × Y → X` (w tej kolejności), uzyskując produkt strzałek (uwaga na kolejność, która
+jest "sednem"[^1] tego dowodu) `⟨π₂, π₁⟩`. Od razu widzimy, że taki sam proces działa w drugą
+stronę, dając `⟨π₂, π₁⟩`.
 
 Te strzałki są przeciwrównoległe, czyli składalne na oba możliwe sposoby. Ponieważ nie oznaczyliśmy
 (no dobrze, ja nie oznaczyłem) inaczej dwóch potencjalnie różnych par projekcji i dwóch powstających
@@ -384,9 +386,11 @@ wyglądają tak samo, a w zasadzie *nie powinny*, bo ta wieloznaczność jest ak
 względami *problematyczna*. Ale ponieważ te strzałki *działają tak samo*, możemy z tej
 problematyczności czerpać coś w rodzaju perwersyjnej przyjemności (ości). Pozostaje nam już tylko
 trywialna (chociaż chyba nic nie jest trywialne, po dłuższym namyśle), również robiąca się sama
-końcówka: Skoro `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f, g⟩ h = f h` i analogicznie dla drugiej
-projekcji (`f`, `g` i `h` to tutaj niejawne *parametry* pewnego twierdzenia pomocniczego,
-zauważyłaś?), to podstawiając chwilowo `f := π₁`, `g := π₂`, `h := ⟨π₂, π₁⟩` widzimy, że:
+końcówka:
+
+Skoro `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f, g⟩ h = f h` i analogicznie dla drugiej projekcji
+(`f`, `g` i `h` to tutaj niejawne *parametry* pewnego twierdzenia pomocniczego, zauważyłaś?), to
+podstawiając chwilowo `f := π₁`, `g := π₂`, `h := ⟨π₂, π₁⟩` widzimy, że:
 
 `⟨π₂, π₁⟩ ⟨π₂, π₁⟩ = ⟨π₂ ⟨π₂, π₁⟩, π₁ ⟨π₂, π₁⟩⟩ = ⟨π₁, π₂⟩ = Id`
 
