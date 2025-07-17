@@ -447,7 +447,7 @@ też funkcją) albo kilku procedur, czy na przykład tak zwanych klas albo innyc
 właśnie sposób powstają przecież wszekiego rodzaju *metody wielokrotnego użytku*, albo
 "metodologie".
 
-Zatem co my tam robimy, w tym teraz już poprzednim akapicie? Wstępując o krok wyżej na tą naszą
+Zatem co my tam robimy, w tym już teraz poprzednim akapicie? Wstępując o krok wyżej na tą naszą
 drabinę abstrakcji przez algorytmizację, czy może Algorytmizacji przez Abstrakcję, widzimy, że
 przyglądamy się tam temu, co przed chwilą powiedzieliśmy, albo co zrobiliśmy, albo co do pewnego
 stopnia i w pewien sposób zrozumieliśmy, skupiamy się na najważniejszych częściach i zastępujemy
