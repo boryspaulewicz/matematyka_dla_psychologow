@@ -728,7 +728,10 @@ złożeniami `π₁ h` i `π₂ h`, bo przecież złożenia są z definicji unik
 A więc *dla każdego punktu* `Z`, *sam produkt `X × Y` to również taki "wymieniacz" albo
 "transmutator"*, tyle, że strzałek z `Z` do `X × Y` i uporządkowanych par strzałek z `Z` do `X` i
 `Y` odpowiednio. Mamy tu ewidentnie pewien izomorfizm, ale ten izomorfizm *nie* jest izomorfizmem *w
-tej samej kategorii*, bo *nie jest strzałką w tej samej kategorii*.
+tej samej kategorii*, bo *nie jest strzałką w tej samej kategorii*. Tylko proszę nie miej sobie za
+złe, jeśli nie przyszło Ci do głowy, że to musi być strzałka w jakiejś kategorii, albo że ta
+kategoria była jak dotąd ukryta. Byłbym zdumiony (i trochę zazdrosny), gdybyś to zauważyła już na
+tym etapie. Na wszelki wypadek przypominam, że wybiegam teraz dosyć daleko w przyszłość[^2].
 
 ### [*Aaaa?!*](https://en.wikipedia.org/wiki/Vertigo_(film))
 
@@ -907,3 +910,4 @@ theorem Inverse_arrow_is_unique
        _ = g'            := by rfl
 ```
 
+[^2]: Bo gdzie indziej? W przeszłość się nie da i stać w miejscu *w czasie* też nie (da się).
