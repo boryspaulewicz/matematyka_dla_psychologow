@@ -232,8 +232,8 @@ dokładnością do (również kanonicznego) izomorfizmu:
 W obydwu przypadkach `●` to `+` lub `×` (wtedy `Coś` to `ℕ` lub `ℤ` lub `ℚ` lub `ℝ` lub `ℂ` \{tutaj
 akurat zbiór liczb zespolonych, a nie jak wcześniej jakaś kategoria\} lub `Set`) lub `∪` lub `∩`
 (wtedy `Coś` to `Set`) lub `∨` lub `∧` (wtedy `Coś` to `Prop`). Pozwoliłem sobie wprowadzić o ile mi
-wiadomo całkiem niestandardowe oznaczenie `≅!`, które (tylko dlatego, że ja tak postanowiłem)
-**czytamy jako**: *jest kanonicznie izomorficzne do*.
+wiadomo całkiem niestandardowe oznaczenie `≅!`, które (tylko dlatego, że tak postanowiłem) **czytamy
+jako**: *jest kanonicznie* albo *unikalnie izomorficzne do*.
 
 Na przykład, gdy `X`, `Y` i `Z` to zbiory, to - jak łatwo wykazać konstruując izomorfizmy w każdą
 stronę, wymieniające elementy typu `((x, y), z)` z elementami typu `(x, (y, z))` - `(X × Y) × Z ≅ X
