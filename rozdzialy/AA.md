@@ -508,13 +508,12 @@ maksymalnie ogólną, kategoryjną wersję tej konstrukcji: Jeżeli `f₁ : X₁
 dowolne *strzałki* w kategorii, która ma produkty, to istnieje *strzałka* `f` odpowiadająca parze
 *strzałek* `f₁ π₁` i `f₂ π₂`, to jest `f = ⟨f₁ π₁, f₂ π₂⟩`.
 
-To niemal nic innego, jak znany Ci już *produkt strzałek*, jednak to jest jego przypadek
+To *niemal* nic innego, jak znany Ci już *produkt strzałek*, jednak to jest jego przypadek
 *szczególny*, zrobiony ze *złożeń* dowolnych dwóch składalnych w ten sposób strzałek *z projekcjami*
 jakiegoś produktu źródłowego. Ponieważ między innymi w `Set` takie strzałki działają jak
-"przetwarzanie równoległe" i ponieważ są bardzo blisko związane z produktem obiektów, oznaczamy je
-jako `f₁ × f₂ := ⟨f₁ π₁, f₂ π₂⟩`. Jak nietrudno się przekonać, te *strzałki produktowe* (a nie
-jakiekolwiek *produkty strzałek* \{tylko przypominam\}) działają w `Set` (i nie tylko tam) zgodnie z
-oczekiwaniami:
+przetwarzanie równoległe i są blisko związane z produktem obiektów, oznaczamy je jako `f₁ × f₂ :=
+⟨f₁ π₁, f₂ π₂⟩`. Jak nietrudno się przekonać, te *strzałki produktowe* (a nie tylko *produkty
+strzałek* \{tylko przypominam\}) działają w `Set` (i nie tylko tam) zgodnie z oczekiwaniami:
 
 `(f₁ × f₂) ⟨x₁, x₂⟩ = ⟨f₁ π₁, f₂ π₂⟩ ⟨x₁, x₂⟩`  
 (rozwijamy definicję strzałki produktowej)
