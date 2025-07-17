@@ -245,7 +245,8 @@ stronę, wymieniające elementy typu `((x, y), z)` z elementami typu `(x, (y, z)
 example (X Y Z : Type) : 
   ∃ f : (X × Y) × Z → X × (Y × Z), ∃ g : X × (Y × Z) → (X × Y) × Z,
     g ∘ f = id ∧ f ∘ g = id :=
-    -- Skonstruowanie elementów, które "razem dają" dowód tego zdania, jest trywialne ...
+    -- Słowo kluczowe `let` działa jak `have`. Skonstruowanie elementów, które "razem dają" dowód
+    -- tego zdania, jest trywialne ...
     let f : (X × Y) × Z → X × (Y × Z) := fun ⟨⟨x, y⟩, z⟩ => ⟨x, ⟨y, z⟩⟩
     let g : X × (Y × Z) → (X × Y) × Z := fun ⟨x, ⟨y, z⟩⟩ => ⟨⟨x, y⟩, z⟩
     let hgfi : g ∘ f = id := by rfl
