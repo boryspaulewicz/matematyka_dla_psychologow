@@ -405,7 +405,7 @@ Widzimy wyraźnie, że przynajmniej w `Set` te dwa procesy są ewidentnie "powie
 *dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się (w jakiś sposób)
 wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest czy da się
 "to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*, inaczej mówiąc
-*zakodować*?
+*zakodować* (a dzięki zakodowaniu tym czymś *zawładnąć*)?
 
 To ostatnie pytanie można zastąpić wersją, na którą odpowiedź, gdyby udało się ją znaleźć, byłaby
 może nawet bardziej użyteczna, bo wskazywałaby na coś w rodzaju *metody* poszukiwania odpowiedzi na
