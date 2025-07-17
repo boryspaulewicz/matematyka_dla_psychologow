@@ -392,10 +392,10 @@ zauważyłaś?), to podstawiając chwilowo `f := π₁`, `g := π₂`, `h := ⟨
 
 Tak oto (znowu? bo nie pamiętam, czy to już było) udowodniliśmy, że wszystkie produkty (w dowolnej
 kategorii, która ma produkty) są symetryczne, czyli że (w tym wypadku niewybredna) operacja
-tworzenia produktów jest przemienna, półformalnie opisując proces, czyli półformalnie konstruując
-funkcję, która dla wszystkich par produktów `X × Y` i `Y × X` w jakiejś kategorii dostarcza procesy,
-które akurat w kategorii `Set` (zbiorów i funkcji) działają tak (na standardowej implementacji
-produktu, którą jest iloczyn kartezjański):
+tworzenia produktów jest przemienna. Udowodniliśmy to półformalnie opisując proces, czyli
+półformalnie konstruując funkcję, który/a dla wszystkich par produktów `X × Y` i `Y × X` w jakiejś
+kategorii dostarcza procesy, które akurat w kategorii `Set` (zbiorów i funkcji) działają tak (na
+standardowej implementacji produktu, którą jest iloczyn kartezjański):
 
 `(x, y) ↦ (y, x)`  
 `(y, x) ↦ (x, y)`
