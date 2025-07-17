@@ -332,11 +332,11 @@ przestrzeniach wektorowych i mapach liniowych, przestrzeniach topologicznych i f
 czy o dowolnej innej kategorii; jeżeli `f : A ≅ B : f⁻¹` (tak tym razem zapisałem kategoryjne
 izomorfizmy z `A` do `B` i z `B` do `A`), to:
 
-- Każda strzałka `g : X → A` odpowiada ze względu na ten izomorfizm unikalnej strzałce `f g : X →
-   B`.
+1. Każda strzałka `g : X → A` odpowiada ze względu na ten izomorfizm unikalnej strzałce `f g : X → B`
+   i wszystkie strzałki `X → B` są w ten sposób oznaczalne.
 
-- Każda strzałka `g : X → B` odpowiada ze względu na ten izomorfizm unikalnej strzałce `f⁻¹ g : X →
-   A`.
+2. Każda strzałka `g : X → B` odpowiada ze względu na ten izomorfizm unikalnej strzałce `f⁻¹ g : X →
+   A` i wszystkie strzałki `X → A` są w ten sposób oznaczalne.
    
 Dla każdego obiektu `X`, mamy więc, dany przez dołożenie `f` (`f⁻¹`) izomorfizm między zbiorami
 `Hom(X, A)` i `Hom(X, B)` (to dla nas na razie tylko wygodne oznaczenie zbiorów strzałek z `X` do
