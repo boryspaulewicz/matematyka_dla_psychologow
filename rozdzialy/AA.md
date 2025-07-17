@@ -286,7 +286,7 @@ w innych sytuacjach, ale zaczniemy też przy okazji oswajać się z pojęciem [*
 naturalnej*](https://pl.wikipedia.org/wiki/Transformacja_naturalna), którego formalizacja była
 [*głównym powodem*](https://doi.org/10.1090/S0002-9947-1945-0013131-6) stworzenia teorii kategorii.
 
-## Naturalnie, czyli jak?
+## *Naturalnie*
 
 Jak łatwo zauważyć, zarówno dowody izomorficzności zbiorów `(X × Y) × Z` i `X × (Y × Z)` jak i zdań
 `(p ∧ q) ∧ r` i `p ∧ (q ∧ r)` miały nie tylko wyraźnie *schematyczny* charakter, ale też w
@@ -358,101 +358,241 @@ strzałkę do obiektu `Y` taką, że ... Mówiąc krótko, obiekty, które są *
 formalne".
 
 No dobrze, ale te dwa dowody izomorficzności, które oglądamy teraz z uwagą z różnych stron, to *nie*
-są *tylko* jakieś izomorfizmy między jakimś jednym *wybranym* obiektem a *wybranym* drugim. To są
-*izomorfizmy parametryczne*, to znaczy, to są przepisy (bo dowody są tu akurat *konstruktywne*), jak
-dla *każdej* trójki obiektów `A`, `B` i `C` skonstruować izomorfizm między dwiema konstrukcjami
-"zrobionymi z" (może lepiej: będącymi pewną własnością) tych obiektów, to jest między `(A × B) × C`
-i `A × (B × C)`. Tak jak *wskazanie* (na przykład poprzez scharakteryzowanie go w sposób
-gwarantujacy unikalność) konkretnego izomorfizmu `f : A ≅ B` to *znacznie* więcej, niż
-*stwierdzenie*, że *jakiś* izomorfizm między `A` i `B` *istnieje*, bo bez takiego wskazania nie da
-się korzystać z "tłumaczeniowej" funkcjonalności związanej z izomorficznością, tak czymś *jeszcze
-mocniejszym* jest *wskazanie* takich izomorfizmów *dla każdej trójki `(A B C)`*, albo inaczej mówiąc
-*oznaczenie* ich *za pomocą trójek `(A B C)`*
-
-Żeby łatwiej nam było zrozumieć, na czym polega ta ostatnia różnica, rozsądnie będzie skupić się na
-prostszym przykładzie kategoryjnego izomorfizmu parametrycznego, to jest na symetryczności (tu mamy
-izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅ Y × X`, ...
+są *tylko* jakieś izomorfizmy między jakimś jednym *wybranym* obiektem a *wybranym* drugim.  Żeby
+było nam łatwiej zrozumieć, jak tego rodzaju konstrukcje działają, rozsądnie będzie skupić się na
+prostszym przykładzie kategoryjnego izomorfizmu *parametrycznego*, to jest na symetryczności (tu
+mamy izomorficzność) wszelkich (a tu parametryczność) produktów `X × Y ≅ Y × X`, ...
 
 `(x, y) ↦ (y, x)`
 
 ... której działający dla wszystkich produktów we wszystkich kategoriach dowód, jak to w takich
 sytuacjach bywa, robi się praktycznie sam: Mamy znaleźć izomorfizm z `X × Y` do `Y × X`, a więc
 pewną strzałkę z `X × Y` do `Y × X`. Wiemy tylko tyle, że to są jakieś produkty w jakiejś kategorii,
-a więc wiemy tylko tyle, że każdy z tych obiektów ma parę projekcji i że każda strzałka do `Y × X`
-(`X × Y`) jest tym samym, co pewna para strzałek do `Y` (`X`) i `X` (`Y`) z tego samego
-źródła. Widzisz już, jak ten dowód niemal sam się robi? Korzystamy z jedynej pary współźródłowych
-strzałek do `Y` i `X`, którą mamy pod ręką, to jest z projekcji `π₁ : X × Y → X` i `π₂ : X × Y → Y`,
-uzyskując produkt strzałek (uwaga na zmianę kolejności, która jest "sednem"[^1] tego dowodu) `⟨π₂,
-π₁⟩`. Od razu widzimy, że taki sam proces działa w drugą stronę, dając `⟨π₂, π₁⟩`.
+a więc wiemy tylko tyle, że każdy z tych obiektów ma parę projekcji i że każda strzałka do z `X × Y`
+do `Y × X` (albo w drugą stronę, z `Y × X` do `X × Y`) jest tym samym, co pewna para strzałek do `Y`
+(`X`) i `X` (`Y`) z tego samego źródła. Widzisz już, jak ten dowód niemal sam się robi? Korzystamy z
+jedynej pary współźródłowych strzałek do `Y` i `X` (w tej kolejności), którą mamy pod ręką, to jest
+z pary projekcji `π₂ : X × Y → Y` i `π₁ : X × Y → X` (w tej kolejności), uzyskując produkt strzałek
+(uwaga na kolejność, która jest "sednem"[^1] tego dowodu) `⟨π₂, π₁⟩`. Od razu widzimy, że taki sam
+proces działa w drugą stronę, dając `⟨π₂, π₁⟩`.
 
-Te strzałki są przeciwrównoległe, czyli składalne na wszystkie dwa możliwe sposoby. Ponieważ nie
-oznaczyliśmy (no dobrze, ja nie oznaczyłem) inaczej par projekcji, te dwa potencjalnie różne
-produkty strzałek wyglądają tak samo, a w zasadzie *nie powinny*, bo ta wieloznaczność jest akurat
-pod pewnymi względami *problematyczna*, ale ponieważ te strzałki *działają tak samo*, możemy z tej
-problematyczności czerpać coś w rodzaju perwersyjnej przyjemności. Pozostaje nam już tylko
-trywialna, również robiąca się sama końcówka; ponieważ `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f,
-g⟩ h = f h` i analogicznie dla drugiej projekcji (`f`, `g` i `h` to tutaj niejawne *parametry*
-pewnego twierdzenia pomocniczego, zauważyłaś?), to:
+Te strzałki są przeciwrównoległe, czyli składalne na oba możliwe sposoby. Ponieważ nie oznaczyliśmy
+(no dobrze, ja nie oznaczyłem) inaczej dwóch potencjalnie różnych par projekcji i dwóch powstających
+z tych par, potencjalnie różnych produktów strzałek, te dwa potencjalnie różne produkty strzałek
+wyglądają tak samo, a w zasadzie *nie powinny*, bo ta wieloznaczność jest akurat pod pewnymi
+względami *problematyczna*. Ale ponieważ te strzałki *działają tak samo*, możemy z tej
+problematyczności czerpać coś w rodzaju perwersyjnej przyjemności (ości). Pozostaje nam już tylko
+trywialna (chociaż chyba nic nie jest trywialne, po dłuższym namyśle), również robiąca się sama
+końcówka: Skoro `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f, g⟩ h = f h` i analogicznie dla drugiej
+projekcji (`f`, `g` i `h` to tutaj niejawne *parametry* pewnego twierdzenia pomocniczego,
+zauważyłaś?), to:
 
 `⟨π₂, π₁⟩ ⟨π₂, π₁⟩ = ⟨π₂ ⟨π₂, π₁⟩, π₁ ⟨π₂, π₁⟩⟩ = ⟨π₁, π₂⟩ = Id`
 
-Tak oto udowodniliśmy, że wszystkie produkty we wszystkich kategoriach są symetryczne, czyli że (być
-może wybredna) operacja tworzenia produktów jest przemienna, półformalnie opisując proces, czyli
-półformalnie konstruując funkcję, która dla wszystkich par produktów `X × Y` i `Y × X` w jakiejś
-kategorii dostarcza procesy, które akurat w kategorii `Set` (zbiorów i funkcji) działają tak (na
-standardowej implementacji produktu, którą jest iloczyn kartezjański):
+Tak oto (znowu? bo nie pamiętam, czy to już było) udowodniliśmy, że wszystkie produkty (we dowolnej
+kategorii, która ma produkty) są symetryczne, czyli że (w tym wypadku niewybredna) operacja
+tworzenia produktów jest przemienna, półformalnie opisując proces, czyli półformalnie konstruując
+funkcję, która dla wszystkich par produktów `X × Y` i `Y × X` w jakiejś kategorii dostarcza procesy,
+które akurat w kategorii `Set` (zbiorów i funkcji) działają tak (na standardowej implementacji
+produktu, którą jest iloczyn kartezjański):
 
 `(x, y) ↦ (y, x)`  
 `(y, x) ↦ (x, y)`
 
-Widzimy od razu, że przynajmniej w `Set` te dwa procesy są ewidentnie "powierzchowne" albo
+Widzimy wyraźnie, że przynajmniej w `Set` te dwa procesy są ewidentnie "powierzchowne" albo
 "formalne" w znaczeniu *niezależne od natury elementów* (tutaj oznaczonych jako `x` i `y`). Ale
 *dlaczego* takie są? Czy może raczej *na czym polega* to, że takie sa? I czy da się (w jakiś sposób)
 wyrazić ewentualny powód czy może raczej istotę tej powierzchowności *formalnie*, to jest czy da się
-"to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*, inaczej
+"to coś", co tu "się dzieje", "uchwycić" za pomocą jakiejś (językowej) *struktury*, inaczej mówiąc
 *zakodować*?
 
 To ostatnie pytanie można zastąpić wersją, na którą odpowiedź, gdyby udało się ją znaleźć, byłaby
-znacznie bardziej użyteczna, bo wskazywałaby na coś w rodzaju *metody* poszukiwania odpowiedzi na
-*tego rodzaju* pytania. Popatrzmy więc na to ostatnie pytanie i ... zadajmy sobie pytanie, co warto
-w nim *zamienić na parametry*, a co wypada *ukonkretnić*. Mamy tam *jakieś* (to jest przykład
-zamiany pewnej stałej na parametr ...) pojęcie półformalne, którego istotę chcemy "uchwycić
+może nawet bardziej użyteczna, bo wskazywałaby na coś w rodzaju *metody* poszukiwania odpowiedzi na
+*tego rodzaju* pytania. Popatrzmy więc na to ostatnie pytanie i zadajmy sobie pytanie, co warto w
+nim *zamienić na parametry*, a co ewentualnie wypada *ukonkretnić*. Mamy tam *jakieś* (to jest
+przykład zamiany pewnej stałej na parametr ...) pojęcie półformalne, którego istotę chcemy "uchwycić
 formalnie". "Uchwycić formalnie" to dla nas w tej chwili albo *w pełni sformalizować w języku teorii
 typów*, albo *scharakteryzować funkcjonalnie w języku teorii kategorii*, a właściwie *jedno i
-drugie* (... a to jest przykład ukonkretnienia mętnego pojęcia). 
+drugie* (... a to jest przykład ukonkretnienia cokolwiek mętnego pojęcia).
 
 Do tej pory za każdym razem, zanim znaleźliśmy lub zaczęliśmy rozumieć jakąkolwiek kategoryjną
-charakterystykę funkcjonalną, potrzebowaliśmy najpierw przyglądać się przynajmniej jednej
-implementacji teoriotypowej albo teoriomnogościowej, po prostu po to, żeby mieć *w czym* zobaczyć tą
-funkcjonalność. Przykłady teoriomnogościowe były "strukturalnie minimalistyczne", a przez to
-relatywnie nieskomplikowane i łatwe do zrozumienia, a dzięki swojej półformalności pozwalały na
-wygodne skróty myślowe, a więc na znacznie szybsze tworzenie konstrukcji, w tym również dowodów, niż
-w przypadku konstrukcji w pełni sformalizowanych. Przykłady teoriotypowe miały natomiast tą zaletę,
-że można je było zrealizować w kodzie, a dzięki temu sprawdzić ostatecznie, czy wszystko działa,
-zbadać każdy aspekt formalizmu, i poczuć fizyczną autonomię ich implementacji.
+charakterystykę funkcjonalną, przyglądaliśmy się przynajmniej jednej implementacji teoriotypowej
+albo teoriomnogościowej, po prostu po to, żeby mieć *w czym* zobaczyć tą funkcjonalność. Przykłady
+teoriomnogościowe były "strukturalnie minimalistyczne" i przez to relatywnie nieskomplikowane i
+łatwe do zrozumienia, a dzięki swojej półformalności pozwalały na wygodne skróty myślowe, na
+przykład na znacznie szybsze tworzenie konstrukcji, w tym również dowodów, niż w przypadku
+konstrukcji w pełni sformalizowanych. Przykłady teoriotypowe miały natomiast tą zaletę, że można je
+było zrealizować w kodzie, a dzięki temu sprawdzić ostatecznie, czy wszystko działa, zbadać każdy
+aspekt formalizmu, i poczuć fizyczną autonomię ich implementacji.
 
-Możemy nawet spróbować "zrobić metodę" z tego ostatniego akapitu, tak samo zamieniając coś lub kilka
+Możemy nawet spróbować "zrobić metodę" z *ostatniego* akapitu, tak samo zamieniając coś lub kilka
 rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
 konkretyzując. Podobnie postępują informatycy, gdy po napisaniu wstępnej wersji rozwiązania jakiegoś
 problemu zmieniają niektóre stałe w zmienne, a wszystko opakowują w strukturę procedury (nazywanej
-też funkcją) albo kilku procedur, czy na przykład tak zwanych klas. W ten właśnie sposób powstają
-przecież wszekiego rodzaju metody wielokrotnego użytku, albo "metodologie".
+też funkcją) albo kilku procedur, czy na przykład tak zwanych klas albo innych typów danych. W ten
+właśnie sposób powstają przecież wszekiego rodzaju *metody wielokrotnego użytku*, albo
+"metodologie".
 
-Zatem co my tam robimy? Wstępując o krok wyżej na tą naszą drabinę abstrakcji przez algorytmizację,
-czy może Algorytmizacji przez Abstrakcję, widzimy, że ... przyglądamy się tam temu, co przed chwilą
-powiedzieliśmy, albo co zrobiliśmy, albo co do pewnego stopnia i w pewien sposób zrozumieliśmy, i
-zastępujemy wybrane stałe mniej lub bardziej adekwatnie typowanymi parametrami, a wybrane ogólnikowe
-i niejasne sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało, w tych
-*ostatnich dwóch* akapitach?
+Zatem co my tam robimy, w tym teraz już poprzednim akapicie? Wstępując o krok wyżej na tą naszą
+drabinę abstrakcji przez algorytmizację, czy może Algorytmizacji przez Abstrakcję, widzimy, że
+przyglądamy się tam temu, co przed chwilą powiedzieliśmy, albo co zrobiliśmy, albo co do pewnego
+stopnia i w pewien sposób zrozumieliśmy, skupiamy się na najważniejszych częściach, i zastępujemy
+wybrane stałe mniej lub bardziej adekwatnie typowanymi parametrami, a wybrane ogólnikowe i niejasne
+sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało, w *tych* ostatnich
+dwóch akapitach?
 
-*Powtarzamy się*, bo znaleźliśmy *punkt stały* pewnego procesu (czyli połknęliśmy własny ogon
-\{`I(x) = x`\}). A to znaczy, że znaleźliśmy (tylko pewną czy może jedyną istniejącą?) *nieformalną*
-(a więc najbardziej, bo *trochę za bardzo* elastyczną) *metodę metod*. [Aa](https://www.aa.org/)!
-Ok, może trochę mnie poniosło. Przecież to nic innego (?) jak *rozpoznanie wzorca rozpoznawania
-wzorców*.
+*Powtarzamy się*, bo znaleźliśmy *punkt stały* pewnego procesu, czyli połknęliśmy własny ogon (`I(x)
+= x`), jak jakiś [węż](https://pl.wikipedia.org/wiki/W%C4%85%C5%BC_po%C5%BCarniczy)[^1] z drzewa
+poznania wszystkiego, co działa. A to znaczy, że znaleźliśmy (tylko pewną czy może jedyną
+istniejącą?) *nieformalną* (a więc w pewnym sensie najbardziej, bo *trochę za bardzo* elastyczną)
+*metodę metod*. [Aa](https://www.aa.org/)(a)! Ok, może trochę mnie poniosło. Przecież to nic innego
+(?) jak *rozpoznanie wzorca rozpoznawania wzorców*.
+
+Wracając do przerwanego wątku, nadal nie widzimy wyraźnie, a w każdym razie ja wyraźnie nie widzę,
+co dokładnie dzieje się w dowodzie symetryczności wszelkich kategoryjnych produktów w kategorii
+`Set`. To może sformalizujmy ten dowód całkowicie, a raczej jego wersję opartą na głębokich
+podobieństwach między zbiorami i typami. Dzięki temu nic się przed nami nie ukryje i pozostnie nam
+tylko wskazywać to czy tamto, zaś to, co wskażemy, spróbujemy ostrożnie ponazywać, w nadziei, że
+wyłoni się jakiś ważny ogólny wzorzec.
+
+```lean
+-- Klikając prawym przyciskiem gdy kursor jest w miejscu stałej `Prod` wybieramy (w Emacsie, ale w
+-- VS Code na pewno pojawia się coś podobnego) *Go to definition* ...
+#check Prod
+-- ... dzięki czemu widzimy implementację produktu, której używa Lean (dodałem apostrof do nazwy,
+-- żeby nie wywoływać konfliktu {nazw}, inaczej stała `Prod` byłaby podkreślona na czerwono):
+structure Prod' (α : Type u) (β : Type v) where
+  /--
+  Constructs a pair. This is usually written `(x, y)` instead of `Prod.mk x y`.
+  -/
+  mk ::
+  /-- The first element of a pair. -/
+  fst : α
+  /-- The second element of a pair. -/
+  snd : β
+
+-- Dla zwiększenia czytelności odróżniamy pierwszy i drugi człon produktu za pomocą indeksów
+-- dolnych, to jest piszemy tym razem `X₁` i `X₂`. A żeby nie dać się zwieść lukrowi składniowemu,
+-- który służy często *ukrywaniu* złożoności, piszemy wszystko w notacji przyrostkowej, czyli tak
+-- ...
+def product_swap (X₁ X₂ : Type) : (Prod X₁ X₂) → (Prod X₂ X₁) := 
+  fun object => Prod.mk object.snd object.fst
+-- ... zamiast tak:
+def product_swap' (X₁ X₂ : Type) : X₁ × X₂ → X₂ × X₁ := 
+  fun object => ⟨object.snd, object.fst⟩
+```
+
+Widzimy teraz tak wyraźnie, jak tylko się da, patrząc *tylko* na sygnaturę funkcji `product_swap`,
+że mamy tu do czynienia z *trzema*, powiązanym w jakiś bardzo "bliski" sposób procesami. Dwa
+*podstawowe* procesy to 1. tworzenie z każdej możliwej *pary* termów/obiektów `(X₁ X₂ : Type)`
+*produktu* `Prod X₁ X₂` i 2. tworzenie *z tej samej pary* produktu *w odwrotnej kolejności* `Prod X₂
+X₁` na poziomie albo w miejscu *typu rezultatu* tworzonych funkcji/strzałek. Trzeci proces, będący
+ciałem funkcji, tworzy funkcję/strzałkę z *wyniku* pierwszego procesu (`Prod X₁ X₂`) do *wyniku*
+drugiego procesu (`Prod X₂ X₁`). Pełna formalizacja nie tylko *ułatwia zobaczenie* takich rzeczy,
+ale również znacząco *utrudnia* ich *ignorowanie*.
+
+Żeby do końca objaśnić, na czym polega technicznie rozumiana *naturalność* tego procesu i co to ma
+wspólnego z jego "formalnością" (w przybliżonym już wstępnie znaczeniu) musimy jeszcze wprowadzić
+pojęcie *strzałki produktowej* (a bardziej oficjalnie *morfizmu produktowego*). I znowu chyba
+najlepszym sposobem zrozumienia tej kategoryjnej konstrukcji będzie przyjrzenie się najpierw jej
+wersji teoriomnogościowej, a potem ewentualnie teoriotypowej.
+
+Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to dowolne dwie *funkcje* (jesteśmy więc teraz w kategorii
+`Set`), to istnieje *pojedyncza* funkcja `f : (X₁ × X₂) → (Y₁ × Y₂)`, której działanie polega na
+*równoległym* albo *jednoczesnym* albo *niezależnym* działaniu funkcji `f₁` i `f₂` na członach
+produktu dziedziny `f`: `f(⟨x₁, x₂⟩) = ⟨f₁(x₁), f₂(x₂)⟩`. Tego rodzaju funkcje, które "działają jak
+przetwarzanie równoległe", są ważne zarówno w matematyce jak i w programowaniu, i pojawiają się w
+najrozmaitszych kontekstach. Wiedząc, jak działa kategoryjny produkt możemy z łatwością znaleźć
+maksymalnie ogólną, kategoryjną wersję tej konstrukcji: Jeżeli `f₁ : X₁ → Y₁` i `f₂ : X₂ → Y₂` to
+dowolne *strzałki* w kategorii, która ma produkty, to istnieje *strzałka* `f` taka, że odpowiada
+parze *strzałek* `f₁ π₁` i `f₂ π₂`, to jest `f = ⟨f₁ π₁, f₂ π₂⟩`.
+
+To niemal nic innego, jak znany Ci już *produkt strzałek*, jednak to jest jego przypadek
+*szczególny*, zrobiony ze *złożeń* dowolnych dwóch składalnych w ten sposób strzałek *z projekcjami*
+jakiegoś produktu źródłowego. Ponieważ między innymi w `Set` takie strzałki działają jak
+"przetwarzanie równoległe" i ponieważ są bardzo blisko związane z produktem obiektów, oznaczamy je
+jako `f₁ × f₂ := ⟨f₁ π₁, f₂ π₂⟩`. Jak nietrudno się przekonać, te *strzałki produktowe* (a nie
+jakiekolwiek *produkty strzałek* \{tylko przypominam\}) działają w `Set` (i nie tylko tam) zgodnie z
+oczekiwaniami:
+
+`(f₁ × f₂) ⟨x₁, x₂⟩ = ⟨f₁ π₁, f₂ π₂⟩ ⟨x₁, x₂⟩`  
+(rozwijamy definicję strzałki produktowej)
+
+`⟨f₁ π₁, f₂ π₂⟩ ⟨x₁, x₂⟩ = ⟨f₁ π₁ ⟨x₁, x₂⟩, f₂ π₂ ⟨x₁, x₂⟩⟩`  
+(bo `⟨f, g⟩ h = ⟨f h, g h⟩`)
+
+`⟨f₁ π₁ ⟨x₁, x₂⟩, f₂ π₂ ⟨x₁, x₂⟩⟩ = ⟨f₁ x₁, f₂ x₂⟩`.  
+(stosujemy projekcje)
+
+Szczerze mówiąc, wolałbym nazywać produktem strzałek właśnie *tą* konstrukcję, a strzałki takie jak
+`⟨f, g⟩` nazywać strzałkami produktowymi. Wtedy na `X × Y` byłby produktem obiektów, a `f × g`
+produktem strzałek i notacja pasowałaby do nazw. Ale trudno, jest jak jest. Za to chyba nie jest
+szczególnie trudno zapamiętać, jak dokładnie ta notacja działa.
+
+To teraz (proszę) uważaj. Mamy kategoryjny produkt *obiektów* i mamy kategoryjne *strzałki*
+produktowe. Takie konstrukcje mamy w *każdej* kategorii, w której z każdej pary obiektów można
+zrobić ich produkt. Mówimy wtedy, że taka kategoria *ma* (binarne) produkty, w znaczeniu, że ma
+wszystkie możliwe produkty. `Set` na przykład ma. Jeżeli teraz *zapomnimy* o wszystkich innych
+obiektach i strzałkacah w `Set` (już? mogę poczekać, nigdzie nam się nie spieszy), to zobaczymy
+kategorię!
+
+Obiektami tej kategorii są produkty zbiorów, a strzałkami są strzałki produktowe. Jak zawsze, gdy
+coś nowego chcemy traktować jako kategorię, sprawdzamy, czy możemy, na szczęście tylko raz: Żeby coś
+było kategorią, to coś musi być wyposażone w łączne składanie składalnych strzałek z elementami
+neutralnymi przy każdym obiekcie. Zwykle najlepiej zacząć sprawdzanie od strzałek i składania, bo to
+jest w kategorii najważniejsze. Składaniem strzałek jest tutaj *komponentowe* składanie *funkcji*:
+`(g₁ × g₂) (f₁ × f₂) = (g₁ f₁) × (g₂ f₂)`. W przypadku `Set` i podobnych kategorii można o tych
+złożeniach myśleć tak: Złożenie dwóch procesów równoległych albo jednoczesnych `f = f₁ × f₂` i `g =
+g₁ × g₂` to taki proces `g f`, który polega na równoległym albo jednoczesnym stosowaniu złożeń
+procesów składowych `g₁ f₁` i `g₂ f₂`, czyli `(g₁ f₁) × (g₂ f₂)`. Piszę cały czas ostrożnie o
+*równoległości albo jednoczesności*, bo słowa "równoległe" używamy już do nazywania par strzałek o
+tym samym źródle i celu.
+
+Jak łatwo sprawdzić rozwijając definicje i stosując projekcje, `(g₁ × g₂) (f₁ × f₂) ⟨x₁, x₂⟩ = ⟨g₁
+f₁ x₂, g₂ f₂ x₂⟩`. Widzisz, jak ten zapis można interpretować jako zwykły zapis teoriomnogościowy,
+albo jako zapis w języku teorii kategorii? Wystarczy dowolnie wybrać, czy `⟨x₁, x₂⟩` oznacza parę
+uporządkowaną elementów `x₁` i `x₂` (czyli `⟨x₁, x₂⟩ ∈ X₁ × X₂`), czy produkt strzałek `x₁ : Z →
+xX₁`, `x₂ : Z → X₂` (czyli `⟨x₁, x₂⟩ ∈ Hom(Z, X₁ × X₂)`). Elementami neutralnymi tej kategorii są
+natomiast (oczywiście?) endostrzałki o postaci `Id₁ × Id₂`. Tego, że wszystkie pary składalnych
+strzałek mają swoje złożenia nie trzeba nawet sprawdzać. Mamy więc pewną kategorię. 
+
+Każdą taką kategorię (akurat ta jest zrobiona z obiektów i strzałek w `Set`, albo zrobiona w albo z
+kategorii `Set`) można by (według mnie) nazwać kategorią *produktowania* (w danej kategorii), przez
+analogię do *oznaczania* jako *funkcjonalności kategorii `Set`*. Gdy, tak jak tutaj, ta konstrukcja
+jest zrobiona z kategorii `Set`, można by ją nazwać kategorią *jednoczesnego oznaczania*. Widzisz,
+jak w ta nazwa pasuje do *nakładania* funkcjonalności produktu na funkcjonalność oznaczania, albo do
+takiego jakby naturalnego *łączenia* tych dwóch funkcjonalności?
+
+Mamy oto pierwszy przykład kategorii *zbiorów ustrukturyzowanych*. Obiektami tej naszej (tym
+bardziej naszej, że celowo nadaliśmy jej własną nazwę) kategorii nie są *jakiekolwiek* zbiory, tylko
+zbiory *posiadające ten sam rodzaj struktury* (produktowej), a strzałkami tej kategorii nie są
+*jakiekolwiek* funkcje, tylko funkcje *spełniające określone wymagania*, pasujące w pewien sposób do
+wspólnej dla wszystkich zbiorów struktury. Na przykład, funkcja (anonimowa) `⟨x₁, x₂⟩ ↦ ⟨x₁ + x₂,
+x₂⟩`, gdzie `X₁ = X₂ = ℤ`, też jest funkcją z produktu (`ℤ₁ × ℤ₂`) do (tego samego) produktu, ale ta
+funkcja *nie* działa *niezależnie* na swoich "kanałach", a więc nie może być strzałką kategorii
+jednoczesnego oznaczania.
+
+Jeszcze raz od początku: Czym są zbiory? Luźnymi, to jest pozbawionymi jakiejkolwiek *wspólnej dla
+wszystkich zbiorów* struktury (takiej jak struktura produktowa) kolekcjami elementów. A czym są
+elementy? Arbitralnymi oznaczeniami. A czym są funkcje? Arbiralnymi przyporządkowaniami każdemu
+oznaczeniu należącemu do "alfabetu" dziedziny tego, co oznacza, czyli w pewien sposób rozumianymi,
+potencjalnie wielorakimi (gdy "alfabet" dziedziny ma więcej niż jeden "symbol"),
+nieustrukturyzowanymi oznaczeniami. Czy widzisz już, że z perspektywy funkcjonalnej, czyli takiej
+jakby *abstrakcyjnie pragmatycznej* albo *celowościowej*, *centralnym* pojęciem teorii mnogości
+*nie* jest pojęcie zbioru, tylko pojęcie *funkcji*, a pojęcia zbioru i elementu służą (w praktyce)
+*tylko* do tego, żeby - jawnie lub, gdy mówimy, że *coś jest takim a takim zbiorem*, niejawnie -
+można było zarazem wygodnie i konsekwentnie mówić o arbitralnych funkcjach? To może zainteresuje Cię
+w tym kontekście fakt, że aksjomat o istnieniu funkcji został dodany do teorii Zermelo-Fraenkla
+relatywnie późno, przez Fraenkla, i to było *wszystko*, co Fraenkel dodał do aksjomatów tej
+teorii. W dodatku nazwisko Fraenkel zaczyna się na literę f, jak w słowie funkcja! Przypadek? Tak
+sądzę.
+
+NA KONIEC BĘDZIE CHYBA NIEFORMALNIE O NATURALNOŚCI, BO TEN ROZDZIAŁ JEST JUŻ I TAK DŁUGI I GĘSTY
 
 CDN
 
 ### Przypisy
 
 [^1]: Albo [*esencją, w której widać dno*](https://sjp.pwn.pl/slowniki/sedno.html).
+
+[^2]: Brakowało Ci tych wszystich ę w tę książkach i tym podobnych? No to proszę - ę.
