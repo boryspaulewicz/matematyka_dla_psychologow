@@ -424,7 +424,7 @@ teoriomnogościowe były "strukturalnie minimalistyczne" i przez to relatywnie n
 przykład na znacznie szybsze tworzenie konstrukcji, w tym również dowodów, niż w przypadku
 konstrukcji w pełni sformalizowanych. Przykłady teoriotypowe miały natomiast tą zaletę, że można je
 było zrealizować w kodzie, a dzięki temu sprawdzić ostatecznie, czy wszystko działa, zbadać każdy
-aspekt formalizmu, i poczuć fizyczną autonomię ich implementacji.
+aspekt formalizmu i poczuć fizyczną autonomię ich implementacji.
 
 Możemy nawet spróbować "zrobić metodę" z *ostatniego* akapitu, tak samo zamieniając coś lub kilka
 rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
@@ -437,7 +437,7 @@ właśnie sposób powstają przecież wszekiego rodzaju *metody wielokrotnego u�
 Zatem co my tam robimy, w tym teraz już poprzednim akapicie? Wstępując o krok wyżej na tą naszą
 drabinę abstrakcji przez algorytmizację, czy może Algorytmizacji przez Abstrakcję, widzimy, że
 przyglądamy się tam temu, co przed chwilą powiedzieliśmy, albo co zrobiliśmy, albo co do pewnego
-stopnia i w pewien sposób zrozumieliśmy, skupiamy się na najważniejszych częściach, i zastępujemy
+stopnia i w pewien sposób zrozumieliśmy, skupiamy się na najważniejszych częściach i zastępujemy
 wybrane stałe mniej lub bardziej adekwatnie typowanymi parametrami, a wybrane ogólnikowe i niejasne
 sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało, w *tych* ostatnich
 dwóch akapitach?
