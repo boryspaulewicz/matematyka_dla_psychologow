@@ -314,7 +314,7 @@ uporządkowana para dowodów. Rezultatem każdego z tych przekształceń była w
 sama* (bo to są izomorfizmy), tylko *inaczej "formalnie zapakowana" informacja*. O takich
 przekształceniach mówi się czasem po angielsku, że są *formulaic*, co można przetłumaczyć jako
 *schematyczne*, albo *utarte*, albo *rutynowe*, albo nawet jako *formalne*, ale w rozumieniu
-*powierzchowne* - pod tym względem, że *niezależne od natury czy tożsamości elementów*.
+*powierzchowne* - pod tym względem, że *niezależne od natury* czy *tożsamości elementów*.
 
 Zgaduję, że te dowody również Tobie wydają się w jakiś sposób schematyczne i powierzchowne, a w
 związku z tym jesteś może skłonna przyznać, że te izomorfizmy są w pewnym sensie "naturalne", albo
