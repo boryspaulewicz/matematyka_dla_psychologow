@@ -203,7 +203,7 @@ wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, pod
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md)
 
-[R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_druga.md)
+[R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R06_Pierwszy_spacer_po_Leanie_wersja_druga.md)
 
 [R6,5 = R00](./rozdzialy/R06_i_pol_rowna_sie_R00.md)
 
