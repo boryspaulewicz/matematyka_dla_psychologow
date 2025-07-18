@@ -469,5 +469,5 @@ lewą stronę (`rw[← ...]`), nie wyjaśniłem, jak to działa. Teraz już wyja
 
 [^4]: Tak naprawdę da się - pisanie ksiażki jest uczeniem *się* kolejnych, wirtualnych wersji
     "siebie", a więc procesem *iteracyjnego wykształcenia (nomen omen \{się\})* w *dialogu* z
-    poprzednimi i przyszłymi wirtualnymi wersjami ("siebie") - ale *wyraźnie* i *jasno*, czyli
+    poprzednimi i przyszłymi wirtualnymi wersjami ("siebie"). Ale *wyraźnie* i *jasno*, czyli
     formalnie, powiemy to najprawdopodobniej dopiero w drugiej części.
