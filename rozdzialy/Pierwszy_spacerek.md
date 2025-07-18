@@ -1,22 +1,21 @@
 ## O czym teraz będzie
 
-W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką. Właściwie znasz ten sposób
-dobrze jeszcze z czasów kiedy byłaś uczennicą szkoły podstawowej, ale być może nie zastanawiałaś się
-jak dotąd dłużej, o co w nim właściwie chodzi. Będziemy się przyglądać z bliska wybranym, ważnym i
-często wykonywanym w matematyce czynnościom, polegającym tak naprawdę na dosyć prostych
-mechanicznych operacjach.
+sW tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole
+podstawowej, ale być może nie zastanawiałaś się jak dotąd dłużej, o co w nim właściwie
+chodzi. Będziemy się przyglądać z bliska wybranym, ważnym i często wykonywanym w matematyce
+czynnościom, polegającym tak naprawdę na dosyć prostych mechanicznych operacjach.
 
 <hr>
 
 # Kilka trywialnych mechanicznych operacji
 
 Przypuszczam, że już dawno stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B = C*, to *A = C*,
-niezależnie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci się również taki oto
+niezależnie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci się również ten
 fragment matematycznej prozy:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m*:
+I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m*:
 
 1. Konkretną *liczbę* naturalną
 
@@ -25,9 +24,10 @@ I z pewnością wiesz, że możesz *używać* takiego stwierdzenia *podstawiają
 
 3. *Wyrażenie*, o którym wiesz, że po obliczeniu daje liczbę naturalną, takie jak *10 - 1*
 
-Trzeba tylko pamiętać, żeby podstawianie było konsekwentne, to znaczy, za *n* musi być wszędzie
-podstawione to samo i za *m* wszędzie to samo. Trzeba też wiedzieć, że to nie muszą być dwie różne
-rzeczy. Na przykład, zgodnie z przytoczonym fragmentem:
+Poza tym, że to muszą być *wyrażenia pewnego typu*, to jest oznaczające liczby naturalne, trzeba też
+pamiętać, żeby *podstawianie* było *konsekwentne*, to znaczy, za *n* musi być wszędzie podstawione
+to samo i za *m* wszędzie to samo. No i trzeba wiedzieć, że to nie muszą być dwie różne rzeczy. Na
+przykład, zgodnie z przytoczonym fragmentem:
 
 *2 + 3 = 3 + 2*
 
@@ -47,10 +47,10 @@ rodzaju operacje wiele dzieci opanowuje bez trudu w szkole podstawowej.
 
 Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest jak *przepis*,
 który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań* na temat liczb
-naturalnych. Możemy nawet na niego popatrzeć jak na coś w rodzaju maszyny albo mechanizmu, który
+naturalnych. Możemy nawet na niego popatrzeć jak na coś w rodzaju maszyny albo *mechanizmu*, który
 działa dzięki temu, że *my* go używamy w określony sposób, to jest konsekwentnie podstawiając w
-miejsca zmiennych *wyrażenia odpowiedniego typu* (tutaj typu liczbowego). A więc jeśli to ma być coś
-w rodzaju mechanizmu, to ten mechanizm składa się co najmniej z trzech części: 
+miejsca zmiennych wyrażenia odpowiedniego typu (tutaj akurat liczbowego). Jeśli to ma być coś w
+rodzaju mechanizmu, to ten mechanizm składa się co najmniej z trzech części:
 
 1. Zapisanego w jakiś sposób (matematycznego) przepisu.
 
@@ -84,17 +84,17 @@ Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, $a$ i $b$. Użyj reguły 4 ż
 równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje $x$ i $b$ wszędzie
 tam, gdzie jest $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe równania będą w
 zasadzie takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i $b$
-zamiast $x$ i $y$) w roli zmiennych. Następnie użyj reguły 3 w jedyny sposób w jaki się da (ta
+zamiast $x$ i $y$) w roli zmiennych. Następnie użyj reguły 3 w jedyny sposób, w jaki się da (ta
 reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich częściach), żeby uzyskać trzecie nowe
-równanie. Zakładając, że $\underbrace{b} \neq 0$ podziel obie strony tego ostatniego równania
-(zgodnie z przyjętą konwencją to są przecież jakieś liczby, więc możemy je dzielić przez liczby
-niezerowe) przez $\underbrace{b}$ i uprość jedyną rzecz, którą możesz.
+równanie. Zakładając, że $\underbrace{b} \neq 0$, podziel obie strony tego ostatniego równania przez
+$\underbrace{b}$ (zgodnie z przyjętą konwencją to są jakieś liczby, więc możemy je dzielić przez
+liczby niezerowe) i uprość jedyną rzecz, którą możesz.
 
-Jeżeli masz wątpliwości, czy dobrze wykonałaś to polecenie, to nie przejmuj się tym, za chwilę
-wszystko powinno się wyjaśnić. Jeżeli natomiast wydaje Ci się, że wykonałaś to zadanie poprawnie,
-ale czujesz frustrację związaną w jakiś sposób z brakiem poczucia sensu, to znakomicie, bo właśnie
-taki efekt chciałem uzyskać. Jeżeli tak się stało, to może dzięki temu będziesz nieco lepiej
-rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce matematyki.
+Jeżeli masz wątpliwości, czy dobrze wykonałaś to polecenie, nie przejmuj się tym, za chwilę wszystko
+powinno się wyjaśnić. Jeżeli natomiast wydaje Ci się, że wykonałaś zadanie poprawnie, ale czujesz
+frustrację związaną w jakiś sposób z brakiem poczucia sensu, to znakomicie, bo właśnie taki efekt
+miałem nadzieję uzyskać. Jeżeli tak się stało, to może dzięki temu będziesz nieco lepiej rozpoznawać
+w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce matematyki.
 
 Naprawdę uważam, że zdolność do *tymczasowego* stłumienia potrzeby sensu bywa bardzo korzystna w
 nauce matematyki. Od kilku lat prowadzę kurs dla doktorantów dotyczący wnioskowania przyczynowego i
@@ -125,22 +125,19 @@ językowe* albo *reguły komunikacyjne, na które umawiamy się bez uzasadnienia
 
 Niektóre symbole i terminy techniczne matematyki, to jest *=*, *funkcja*, *liczba* i *para*
 (uporządkowana) traktujemy tutaj jako część wspólnej wiedzy zastanej. Właściwie z pierwszych dwóch
-reguł nie będziemy korzystać jawnie, a więc jeśli chcesz, możesz się skupić tylko na regule
-trzeciej.
+reguł nie będziemy korzystać jawnie, więc jeśli chcesz, możesz się skupić tylko na regule trzeciej.
 
 Być może przyszła Ci do głowy narzucająca się interpretacja symboli *zdarzenie* i *p*. Jeżeli tak,
 to spróbuj ją proszę zignorować, na ile tylko jesteś w stanie. Jeszcze raz podkreślam, *to tylko
-gra*.
-
-Poza wymienionymi aksjomatami będziemy jeszcze potrzebować definicji symbolu |:
+gra*. Poza wymienionymi aksjomatami będziemy jeszcze potrzebować definicji symbolu |:
 
 4. Jeżeli *x* i *y* to *zdarzenia*, to *p(x|y) * p(y) = p(x, y)*.
 
 Zapisz teraz nową wersję definicji tej pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
-oryginalnej wersji jest *x*, a *x* wszędzie tam, gdzie w oryginalnej wersji jest *y*. Czyli
-potraktuj tą definicję jak przepis, dokładnie tak samo jak wcześniej potraktowaliśmy fragment
-matematycznej prozy dotyczącej przemienności dodawania. Uzyskasz w ten sposób dwie wersje zdania
-będącego treścią definicji - oryginalną i tą, która powstała przez podstawianie.
+źródłowej wersji jest *x*, a *x* wszędzie tam, gdzie w źródłowej wersji jest *y*. Czyli potraktuj tą
+definicję jak przepis, dokładnie tak samo jak wcześniej potraktowaliśmy fragment matematycznej prozy
+dotyczącej przemienności dodawania. Uzyskasz w ten sposób dwie wersje zdania będącego treścią
+definicji - oryginalną i tą, która powstała przez podstawianie.
 
 Skorzystaj z aksjomatu *3* w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu
 wersji definicji są równe i zapisz tą równość.
@@ -151,9 +148,9 @@ dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założył
 
 Jeżeli wykonałaś wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to udało
 Ci się udowodnić nieznacznie uproszczoną wersję twierdzenie Bayesa. W dodatku zrobiłaś to już po raz
-drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko cechami powierzchownymi, to
-jest nazwami i sposobem zapisywania pewnych stałych. Moim studentom, gdy udowadniają w ten (drugi)
-sposób to twierdzenie po raz pierwszy w życiu nie zajmuje to zwykle więcej niż 15 minut.
+drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko cechami powierzchownymi, w
+tym wypadku nazwami stałych. Moim studentom, gdy udowadniają w ten (drugi) sposób to twierdzenie po
+raz pierwszy w życiu, nie zajmuje to więcej niż 15 minut.
 
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
@@ -164,12 +161,12 @@ uproszczoną. Prawdopodobieństwa nie mogą być mniejsze niż *0* ani większe 
 prawdopodobieństwa to dowolne liczby, nie wiadomo nawet jakie, czy na przykład rzeczywiste, czy
 wymierne. Tak się jednak składa, że nie potrzebowaliśmy korzystać z tych własności
 prawdopodobieństwa, nasze reguły nie były więc wcale *niezgodne* z rachunkiem prawdopodobieństwa,
-tylko *słabsze* (w znaczeniu mniej "zobowiązujące", nie w znaczeniu "gorsze" czy "bardziej
+tylko *słabsze* (w znaczeniu "mniej zobowiązujące", nie w znaczeniu "gorsze czy "bardziej
 wątpliwe").
 
 Wypadałoby niby poza tym wprowadzić pojęcie [*zmiennnej
-losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniśmy mówić
-o (dyskretnych) [*zdarzeniach
+losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniśmy może
+mówić o (dyskretnych) [*zdarzeniach
 elementarnych*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_zdarze%C5%84_elementarnych), albo o
 zdarzeniach zdefiniowanych
 [ogólniej](https://pl.wikipedia.org/wiki/Przestrze%C5%84_probabilistyczna). Jednak jako narzędzie
@@ -181,27 +178,26 @@ rozważań na temat oceny hipotez empirycznych.
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej agresywnie bezsensownej
 wersji, pozwoliło Ci też doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
 zaczęło do mnie trochę lepiej docierać, co z tego wynika. Gdy poprosiłem doktorantów o
-skonstruowanie według wskazówek zapisanych w skrypcie w języku Lean dowodów kilku prostych
-tautologii, większość, o ile nie wszyscy, wykonali to zadanie bez większego problemu. Gdy zapytałem
-potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się Sofiia Honcharova i
-zdobyła się na odwagę, żeby mi powiedzieć, że chociaż rozwiązała to zadanie bez większych trudności,
-to "nie wiedziała, co się stało".
+skonstruowanie, według wskazówek zapisanych w skrypcie w języku Lean, dowodów kilku prostych
+tautologii, większość, o ile nie wszyscy, wykonali to zadanie z łatwością. Gdy zapytałem potem o
+wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się Sofiia Honcharova i zdobyła się na
+odwagę, żeby mi powiedzieć, że chociaż wykonała zadanie dość szybko, to *nie wiedziała, co się
+stało*.
 
 Ta odpowiedź później mi się przypomniała i nie dawała mi spokoju. Dlatego poprosiłem Sofiię, żeby
-spróbowała powiedzieć coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc
-to trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według
-wskazówek*, tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są
-czynności mechaniczne, to znaczy, że można je wykonać *nie rozumiejąc treści twierdzenia*. Ale w
-takim razie *znajomość dowodu mówi niewiele, a często może nawet nic, o sensie dowiedzionego
-zdania*.
+spróbowała powiedzieć więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to
+trafiła w sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według wskazówek*,
+tak samo jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są czynności
+mechaniczne, to znaczy, że można je wykonać *nie rozumiejąc treści twierdzenia*. Ale w takim razie
+*znajomość dowodu mówi niewiele, a często może nawet nic, o sensie dowiedzionego zdania*.
 
 Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego
 pomocą *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
 *konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
 dać; rolą dowodu *nie* jest ujawnianie znaczenia dowodzonego zdania, tylko rozstrzyganie o jego
-prawdziwości i (częściowe) ujawnienie znaczenia *założeń dowodu*. Wykonując dwa razy ten sam w
-zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł -
-i *w pewnym sensie* dowiedziałaś się trochę na temat znaczenia czy sensu tych *reguł*, ponieważ
-miałaś okazję doświadczyć pewnych sposobów, w jaki można te reguły *stosować*.
+prawdziwości i - zawsze tylko częściowe - ujawnienie znaczenia *założeń dowodu*. Wykonując dwa razy
+ten sam w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z
+pewnych reguł - i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu tych
+*reguł*, ponieważ miałaś okazję doświadczyć pewnych sposobów, w jaki można te reguły *stosować*.
 
 Będziemy odtąd robić podobne rzeczy, ale zwykle [nie na kartce](Spacerek_po_Leanie_1.md).
