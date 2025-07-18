@@ -199,11 +199,11 @@ tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
 wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
-[R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/Pierwszy_spacerek.md)
+[R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md)
 
-[R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/Spacerek_po_Leanie_1.md)
+[R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md)
 
-[R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/Spacerek_po_Leanie_2.md)
+[R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_druga.md)
 
 [R6,5 = R00](./rozdzialy/Ewaluacja.md)
 
