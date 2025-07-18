@@ -188,14 +188,14 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 
 ### Spis treści
 
-[R1 Skąd się ta książka wzięła](./rozdzialy/R01_Wprowadzenie.md)
+[R1 Skąd się ta książka wzięła](./rozdzialy/R01_Skad_sie_ta_ksiazka_wziela.md)
 
-[R2 Co można z tą książką zrobić](./rozdzialy/R02_Jak_sie_uczyc.md)
+[R2 Co można z tą książką zrobić](./rozdzialy/R02_Co_mozna_z_ta_ksiazka_zrobic.md)
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
 będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie tego, o czym
 tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych. Ale zerknąć zawsze można.  
-[R3 Do czego autor zmierza](./rozdzialy/R03_Cel.md)
+[R3 Do czego autor zmierza](./rozdzialy/R03_Do_czego_autor_zmierza.md)
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
 wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
