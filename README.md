@@ -11,8 +11,9 @@ najprostszej możliwej postaci.</em></div>
 **Aktualności**: 2025.07.03 Znacząco przerobiłem rozdziały R19-R23, między innymi dodając tam nowe
 wątki, do których nawiązuję teraz w rozdziałach późniejszych. Zmieniłem też numerację rozdziałów -
 doszedł nowy rozdział R21, a więc stare R21+n to nowe R22+n. Zapraszam do testowania, zgłaszania
-trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych. Historia zmian
-jest [tu](Historia_zmian.md).
+trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych. 
+
+*Historia zmian* jest [tu](Historia_zmian.md), a *spis treści* jest [tam](#spis_tresci).
 
 ## Przedmowa
 
@@ -186,6 +187,7 @@ Kiedy szukam błędów lub fragmentów, które mógłbym jakoś poprawić, chęt
 repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie da się wtedy co prawda wygodnie
 przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
+<a name="spis_tresci"></a>
 ### Spis treści
 
 [R1 Skąd się ta książka wzięła](./rozdzialy/R01_Skad_sie_ta_ksiazka_wziela.md)
