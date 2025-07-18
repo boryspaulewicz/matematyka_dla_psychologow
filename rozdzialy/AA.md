@@ -2,7 +2,7 @@
 
 W tym rozdziale po raz kolejny nawiązujemy kontakt z algebrą abstrakcyjną, jednak zamiast mówić na
 przykład o półgrupach, grupach, pierścieniach i ciałach, próbujemy wspiąć się możliwie szybko
-znacznie wyżej i złapać warkocz tego uniwersalnego przeplatania się które nazywamy kwadratem
+znacznie wyżej i złapać warkocz tego uniwersalnego przeplatania się, które nazywamy kwadratem
 naturalności. Po drodze korzystamy z kilku okazji do powtórzenia materiału i zaczynamy domyślać się
 czegoś na temat wszelkiego myślenia. A pod koniec obiecujemy jakieś gruszki na jakiejś wierzbie. I
 nie ma zadań.
