@@ -205,7 +205,7 @@ wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, pod
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_druga.md)
 
-[R6,5 = R00](./rozdzialy/Ewaluacja.md)
+[R6,5 = R00](./rozdzialy/R06_i_pol_rowna_sie_R00.md)
 
 [R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
