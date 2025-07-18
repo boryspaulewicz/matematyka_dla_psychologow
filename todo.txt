@@ -1,12 +1,13 @@
 -*- coding: utf-8 -*-
 
 ----------------------------------------------------------------------------------------------------
-AKTUALNE POPRAWKI Logika_zdan_...2 l. 14 (Rysunek 3)
+WYGŁADZANIE Następny R6,5
+
+----------------------------------------------------------------------------------------------------
+AKTUALNE POPRAWKI 
 
 ----------------------------------------------------------------------------------------------------
 POMYSŁY NA ROZDZIAŁY
-
-1. Podstawy logiki predykatów wyższego rzędu z zadaniami
 
 2. Teoria mnogości na trzy sposoby, z zadaniami: ZFC (w zarysie) i liczby naturalne von Neumanna,
 zbiory jako predykaty w lambda-D i liczby naturalne jako indukcyjny typ danych, ETCS (w zarysie)
@@ -24,7 +25,7 @@ zdań i rachunku predykatów.
 
 7. Odwzorowania w pełni zasługujące na tą nazwę
 
-8. Pisanie gry (w Pythonie? w R?)
+8. Pisanie gry albo jakiegoś kodu rysującego coś (w Pythonie? w R?)
 
 ----------------------------------------------------------------------------------------------------
 VARIA
