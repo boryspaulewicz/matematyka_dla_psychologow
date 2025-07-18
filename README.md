@@ -445,7 +445,7 @@ fragmentów tekstu pismem pochyłym. Coś z tym muszę zrobić, bo z intonacją 
 zanim coś z tym zrobię, muszę chyba lepiej zrozumieć, do czego akcentowanie może się w tej książce
 przydawać, a do czego nie.
 
-Tomkowi Smoleniowi za zwrócenie mi uwagi, że gdy po raz pierwszy pojawia się użycie taktyki `rw` w
+Tomkowi Smoleniowi, za zwrócenie mi uwagi, że gdy po raz pierwszy pojawia się użycie taktyki `rw` w
 lewą stronę (`rw[← ...]`), nie wyjaśniłem, jak to działa. Teraz już wyjaśniam (w komentarzu).
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
