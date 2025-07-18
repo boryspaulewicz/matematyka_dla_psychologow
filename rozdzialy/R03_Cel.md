@@ -305,7 +305,7 @@ funkcji w różnym stopniu i nic nie pełni w stopniu doskonałym tylko jednej f
 rozwiązanie jakiegoś zadania.
 
 Skoro tak swobodnie się tutaj wymądrzam, to może przy okazji powiem też, [co myślę o
-terapii](./O_terapii.md)?
+terapii](./R03_O_terapii.md)?
 
 ## Albo tak
 

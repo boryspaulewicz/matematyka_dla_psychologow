@@ -72,7 +72,7 @@ A żeby z kolei rozpocząć konstrukcję dowodu zdania zaczynającego się od *D
 dowodu, nawet bardzo nieudana taka próba, sprawi, że czytając dalsze objaśnienia będziesz mogła
 zauważyć, z czym dokładanie miałaś problem, a dzięki temu prawdopodobnie ten konkretny problem
 niedługo zniknie. Jak tylko uznasz, że masz ochotę czytać dalej, kliknij [ten
-link.](Wprowadzenie_do_jezyka_teorii_kategorii2.md)
+link.](R22_Wprowadzenie_do_jezyka_teorii_kategorii_2.md)
 
 ### Przypisy
 

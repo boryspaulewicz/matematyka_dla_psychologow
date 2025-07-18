@@ -208,55 +208,55 @@ wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, pod
 [R6,5 = R00](./rozdzialy/R06_i_pol_rowna_sie_R00.md)
 
 [R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
-jest izomorfizm Curry'ego-Howarda](./rozdzialy/Izomorfizm_Curryego_Howarda.md)
+jest izomorfizm Curry'ego-Howarda](./rozdzialy/R07_Byc_moze_nie_wiesz.md)
 
-[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/Logika_na_Leanie_nowa_wersja.md)
+[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/R08_Logika_na_Lanie_pierwsze_kroki.md)
 
-[R9 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/Jezyk_matematyki.md)
+[R9 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/R09_Kilka_naiwnych_obserwacji.md)
 
-[R10 Implikacja w praktyce dowodzenia](./rozdzialy/Implikacja_w_zadaniach.md)
+[R10 Implikacja w praktyce dowodzenia](./rozdzialy/R10_Implikacja_w_praktyce_dowodzenia.md)
 
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
-dowodu](./rozdzialy/Modus_Ponens_Niewaznosc_Dowodu.md)
+dowodu](./rozdzialy/R11_Modus_ponens.md)
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
-istnienie Boga Anzelma z Canterbury](./rozdzialy/Duzy_predykaty_Bog.md)
+istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)
 
 [R13 Duży kwantyfikator, predykaty i implikacja w
-zadaniach](./rozdzialy/Duzy_predykaty_implikacja_zadania.md)
+zadaniach](./rozdzialy/R13_Duzy_kwantyfikator_w_zadaniach.md)
 
-[R14 Negacja w praktyce dowodzenia](./rozdzialy/Negacja_w_praktyce.md)
+[R14 Negacja w praktyce dowodzenia](./rozdzialy/R14_Negacja_w_praktyce_dowodzenia.md)
 
-[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/Negacja.md)[^1]
+[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/R15_Negacja_absurd.md)[^1]
 
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
-wolność](./rozdzialy/Logika_aksjomaty_wybory_postawy_wolnosc.md)
+wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)
 
-[R17 p ∧ q ~ p × q](./rozdzialy/Koniunkcja_jako_para.md)
+[R17 p ∧ q ~ p × q](./rozdzialy/R17_Koniunkcja_jako_para.md)
 
-[R18 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/Koniunkcja_ze_strzalek.md)
+[R18 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/R18_Koniunkcja_ze_strzalek.md)
 
-[R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/Teoria_kategorii.md)
+[R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/R19_Ean_tais_glossais.md)
 
-[R20 Teoria mnogości w zarysie](./rozdzialy/Teoria_mnogosci_w_zarysie.md)
+[R20 Teoria mnogości w zarysie](./rozdzialy/R20_Teoria_mnogosci_w_zarysie.md)
 
-[R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)
+[R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/R21_Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)
 
-[R22 X × Y ~ X ← ∘ → Y](./rozdzialy/Wprowadzenie_do_jezyka_teorii_kategorii.md)
+[R22 X × Y ~ X ← ∘ → Y](./rozdzialy/R22_Wprowadzenie_do_jezyka_teorii_kategorii_1.md)
 
-[R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/Produkty_sa_takie_same.md)
+[R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/R23_Produkty_sa_takie_same.md)
 
-[R24 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/Logika_zdan_z_perspektywy_kategoryjnej.md)
+[R24 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/R24_Logika_zdan_z_perspektywy_kategoryjnej_1.md)
 
-[R25 p ∨ q ~ p + q](./rozdzialy/Alternatywa_jako_koprodukt.md)
+[R25 p ∨ q ~ p + q](./rozdzialy/R25_Alternatywa_jako_koprodukt.md)
 
-[R26 ∃](./rozdzialy/Kwantyfikator_egzystencjalny.md)
+[R26 ∃](./rozdzialy/R26_Kwantyfikator_egzystencjalny.md)
 
-[R27 Rachunek zdań w zadaniach](./rozdzialy/Rachunek_zdan_w_zadaniach.md)
+[R27 Rachunek zdań w zadaniach](./rozdzialy/R27_Rachunek_zdan_w_zadaniach.md)
 
-[R28 Rachunek predykatów w zadaniach](./rozdzialy/Rachunek_predykatow_w_zadaniach.md)
+[R28 Rachunek predykatów w zadaniach](./rozdzialy/R28_Rachunek_predykatow_w_zadaniach.md)
 
-[R29 AA](./rozdzialy/AA.md)
+[R29 AA](./rozdzialy/R29_AA.md)
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 

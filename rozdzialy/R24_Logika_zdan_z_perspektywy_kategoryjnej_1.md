@@ -421,7 +421,7 @@ Mówiąc dokładniej (ale dla uproszczenia pomijając kwantyfikatory):
 
 **Sugestia**: Może masz ochotę spróbować udowodnić, że `Id' f' = f' = f' Id'`? To ostatnia szansa,
 żeby zrobić to całkiem samodzielnie, bo [za chwilę
-powiem](Logika_zdan_z_perspektywy_kategoryjnej2.md), z czego dokładnie to wynika.
+powiem](R24_Logika_zdan_z_perspektywy_kategoryjnej_2.md), z czego dokładnie to wynika.
 
 ### Przypisy
 
