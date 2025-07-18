@@ -260,7 +260,7 @@ wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
-[R? Teoria mnogości](./rozdzialy/teoria_mnogosci.md)
+[R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
 <a name="podziekowania"></a>
 ### Podziękowania należą się między innymi
