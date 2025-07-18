@@ -1,6 +1,11 @@
 ## O czym teraz będzie
 
-Jak skończę ten rozdział, to coś tu napiszę.
+W tym rozdziale po raz kolejny nawiązujemy kontakt z algebrą abstrakcyjną, jednak zamiast mówić na
+przykład o półgrupach, grupach, pierścieniach i ciałach, próbujemy wspiąć się możliwie szybko
+znacznie wyżej i złapać warkocz tego uniwersalnego przeplatania się które nazywamy kwadratem
+naturalności. Po drodze korzystamy z kilku okazji do powtórzenia materiału i zaczynamy domyślać się
+czegoś na temat wszelkiego myślenia. A pod koniec obiecujemy jakieś gruszki na jakiejś wierzbie. I
+nie ma zadań.
 
 # [AA](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna)
 
@@ -606,18 +611,17 @@ relatywnie późno, przez Fraenkla, i to było *wszystko*, co Fraenkel dodał do
 teorii. W dodatku nazwisko Fraenkel zaczyna się na literę f, jak w słowie funkcja! Przypadek? Tak
 sądzę.
 
-Po raz kolejny przyglądamy się uważnie tej pozornie całkiem zwyczajnej, oczywistej w swej naturze
-przemienności ...
+Po raz kolejny przyglądamy się uważnie tej pozornie całkiem zwyczajnej, oczywistej przemienności ...
 
 `(x, y) ↦ (y, x)`
 
-... i widzimy, że to przekształcenie działa niezależnie od elementów, albo "wokół" nich. Gdybyśmy
-powiedzieli, że to przekształcenie polega na określonym *przestawieniu nawiasów*, mielibyśmy rację,
-taki opis byłby poprawny na poziomie *metajęzyka*, ale to *nie* byłby poprawny opis *matematycznej*,
-to jest formalno-funkcjonalnej istoty tego procesu. Funkcjonalnie, ten proces polega na tym, że
-*produktowanie działa niezależnie od* albo *nie wchodzi w interakcję z* (*w przypadku kategorii
-`Set`*) *oznaczaniem*. Nie masz wrażenia, że ten sposób mówienia o kategoriach i łączących je
-procesach w języku naturalnym jest trafny? Pytam o to, bo wymyśliłem ten sposób pisząc jeden z
+... i widzimy, że to przekształcenie działa niezależnie od elementów, albo tak jakby wokół
+nich. Gdybyśmy powiedzieli, że to przekształcenie polega na określonym *przestawieniu nawiasów*,
+mielibyśmy rację, bo taki opis byłby poprawny na poziomie *metajęzyka*, ale to *nie* byłby poprawny
+opis *matematycznej*, to jest formalno-funkcjonalnej istoty tego procesu. Funkcjonalnie, ten proces
+polega na tym, że *produktowanie działa niezależnie od* albo *nie wchodzi w interakcję z* (w
+przypadku kategorii `Set`) *oznaczaniem*. Nie masz wrażenia, że ten sposób mówienia o kategoriach i
+łączących je procesach w języku naturalnym jest trafny? Pytam o to, bo wymyśliłem go pisząc jeden z
 poprzednich rozdziałów.
 
 Nie możemy jeszcze podać pełnej formalnej definicji tego, co mam nadzieję oboje możemy tu rozpoznać
@@ -631,13 +635,14 @@ x₂⟩ ∈ X₁ × X₂`, taki proces (uwaga na odwrócenie kolejności) ...
 
 `⟨x₁, x₂⟩ ↦ ⟨f₁ x₁, f₂ x₂⟩ ↦ ⟨f₂ x₂, f₁ x₁⟩`
 
-W ten właśnie sposób możemy wyrazić półformalnie fakt, że operacja tworzenia produktu w kategorii
-zbiorów i funkcji działa jakby "wokół" funkcjonalności tej kategorii, bo *nie "dotyka" oznaczania*,
-albo możemy powiedzieć, że ta operacja *"przeplata się" z oznaczaniem w sposób "nieinteraktywny"*
-albo taki jakby "liniowy". To ostatnie skojarzenie może się nasuwać, gdy rozpatrzymy na przykład
-takie dwa, mające różną liczbę argumentów [*przekształcenia
+W ten właśnie sposób możemy wyrazić półformalnie fakt, że *operacja tworzenia produktu* w kategorii
+zbiorów i funkcji *działa* jakby *wokół funkcjonalności tej kategorii*, bo *nie "dotyka"
+oznaczania*, albo możemy powiedzieć, że ta operacja *"przeplata się" z oznaczaniem w sposób
+"nieinteraktywny"* albo taki jakby liniowy. To ostatnie skojarzenie może się nasuwać, gdy
+rozpatrzymy na przykład takie dwa, mające różną liczbę argumentów [*przekształcenia
 liniowe*](https://pl.wikipedia.org/wiki/Przekszta%C5%82cenie_liniowe) jak mnożenie pojedynczej
-liczby przez `2` i dodawanie dwóch liczb, ponieważ `2 × (x + y) = 2 × x + 2 × y`.
+liczby przez `2` i dodawanie dwóch liczb, ponieważ również w przypadku tych dwóch wyraźnie różnych
+przekształceń kolejność nie ma znaczenia: `2 × (x + y) = 2 × x + 2 × y`.
 
 *Potrójne* przekształcenie, na które składają się dwa procesy "produktowania", działające na
 wszystkich możliwych parach obiektów (`⟨X₁, X₂⟩`) ...
