@@ -88,7 +88,7 @@ pojawiające się później w specyfikacji typu funkcji mogą zależeć od param
 wcześniej, tak jak to ma miejsce w przypadku typu funkcji `identycznosc`. Wreszcie, możemy *po
 stronie typu* zapisywać *aplikacje* i w ten sposób konstruować termy, które *wymagają ewaluacji*
 również *po stronie typu*. Będziemy korzystać z tej możliwości nieco później, wprowadzając odrobinę
-[lukru składniowego](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy).
+[*lukru składniowego*](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy).
 
 Na tej podstawie można zbudować *całą* matematykę zastaną i za pomocą tego języka można zapisać w
 stosunkowo *naturalny* i *czytelny* sposób matematyczne teorie.
