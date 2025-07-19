@@ -199,7 +199,7 @@ pozwalają lepiej zrozumieć, o co chodzi w *przyczynowości*. Zanim to jednak n
 moim zdaniem przyzwyczaić do wielu innych subtelnych matematycznych zjawisk. Za to już niebawem,
 korzystając między innymi z monoidów, zaczniemy się bawić pewnymi ważnymi uproszczonymi *modelami*
 programowania imperatywnego. Okaże się wtedy, że podobieństwo nazw "monoid" i "monada", nawet jeśli
-w dużym stopniu przypadkowe, odpowiada czemuś zarazem ważnemu, również z perspektywy
+jest w dużym stopniu przypadkowe, odpowiada czemuś zarazem ważnemu, również z perspektywy
 (*meta-*)*psychologicznej*, i bardzo trudnemu do zauważenia bez dobrej teorii.
 
 <hr>
