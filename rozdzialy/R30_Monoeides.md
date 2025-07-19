@@ -66,7 +66,7 @@ wynikającą z mniejszej liczby uwzględnianych aspektów, dzięki której częs
 problem *łatwiej* jest rozwiązać, gdy rozważamy jego wersję *ogólniejszą*. Dlatego może być na
 przykład potencjalnie łatwiej zrozumieć, o co chodzi w *całej* psychologii, *nie* przyglądając się
 realistycznym przykładom badań lub teorii, zamiast tego poszukując przykładów po angielsku
-określanych często jako "zabawkowe" (więcej na ten temat znajdziesz
+określanych często jako "zabawkowe" (ang. *toy*; więcej na ten temat znajdziesz
 [tu](https://en.wikipedia.org/wiki/Toy_problem) i
 [tam](https://en.wikipedia.org/wiki/Toy_model)). Trzeba jednak wtedy oczywiście próbować ustalić,
 czy lub w jakim stopniu tego rodzaju przykłady są *reprezentatywne* dla całej dyscypliny.
