@@ -56,20 +56,28 @@ tych własności. Cokolwiek uda nam się ustalić na temat monoidów, będziemy 
 do działań łącznych, które są jednocześnie przemienne albo odwracalne, jak i do takich, które nie
 są. 
 
-Ze słabszych założeń z definicji mniej wynika. Im wyższy poziom ogólności, to znaczy im mniej albo
-im słabsze własności zakładamy, tym *trudniej* o nietrywialne wnioski, ale też tym potencjalnie
-większe jest *znaczenie* ewentualnych wniosków, bo więcej jest okazji do ich zastosowania. Również
-dlatego warto starać się ustalać, z jakich założeń *musimy* korzystać dowodząc rozmaitych twierdzeń,
-a z jakich *nie* musimy. Skupiając się na słabszych założeniach czy ogólniejszych konstrukcjach
-osiągamy też czasem ważne korzyści natury *psychologicznej*. Mam na myśli mniejszą *dezorientację*
-wynikającą z mniejszej liczby uwzględnianych aspektów, dzięki której często okazuje się, że jakiś
-problem *łatwiej* jest rozwiązać, gdy rozważamy jego wersję *ogólniejszą*. Dlatego może być na
-przykład potencjalnie łatwiej zrozumieć, o co chodzi w *całej* psychologii, *nie* przyglądając się
-realistycznym przykładom badań lub teorii, zamiast tego poszukując przykładów po angielsku
-określanych często jako "zabawkowe" (ang. *toy*; więcej na ten temat znajdziesz
-[tu](https://en.wikipedia.org/wiki/Toy_problem) i
-[tam](https://en.wikipedia.org/wiki/Toy_model)). Trzeba jednak wtedy oczywiście próbować ustalić,
-czy lub w jakim stopniu tego rodzaju przykłady są *reprezentatywne* dla całej dyscypliny.
+Ze słabszych założeń z definicji wynika na ogół mniej. Im wyższy poziom ogólności, to znaczy im
+mniej albo im słabsze własności zakładamy, tym więc na ogół *trudniej* o nietrywialne wnioski, ale
+też tym potencjalnie większe jest *znaczenie* ewentualnych wniosków, bo więcej jest okazji do ich
+zastosowania. Również dlatego warto starać się ustalać, z jakich założeń *musimy* korzystać dowodząc
+rozmaitych twierdzeń, a z jakich *nie* musimy, w czym zresztą bardzo pomaga pełna formalizacja.
+
+Z drugiej strony, skupiając się na słabszych założeniach czy ogólniejszych konstrukcjach osiągamy
+też czasem ważne korzyści natury *psychologicznej*. Mam na myśli mniejszą *dezorientację* wynikającą
+z mniejszej liczby uwzględnianych aspektów, dzięki której jakiś problem może być *łatwiej*
+rozwiązać, gdy rozważamy jego wersję *ogólniejszą*. To jest o ile nie będzie nam za bardzo
+przeszkadzać ewentualna relatywnie mała liczba konkretnych przykładów, co może wymagać trochę
+czasu. Dlatego może być na przykład potencjalnie łatwiej zrozumieć, o co chodzi w *całej*
+psychologii, *nie* przyglądając się *realistycznym* przykładom badań lub teorii, zamiast tego
+poszukując przykładów po angielsku określanych często jako *zabawkowe* (ang. *toy*; więcej na ten
+temat znajdziesz [tu](https://en.wikipedia.org/wiki/Toy_problem) i
+[tam](https://en.wikipedia.org/wiki/Toy_model)).
+
+To może być jeden z powodów, dla których Pearl, który stworzył aksjomatyczną teorię przyczynowości,
+tak bardzo lubi zabawkowe przykłady, tak często je przytacza i tak często pyta, jak rozmaite
+alternatywne "podejścia" do przyczynowości sobie z nimi radzą. Korzystając z zabawkowych przykładów
+trzeba jednak oczywiście próbować ustalić, czy, w jakim stopniu, lub pod jakim względem są
+*reprezentatywne*.
 
 Przytoczoną półformalną definicję monoidu możemy rozpakować między innymi tak:
 
@@ -82,8 +90,8 @@ Przytoczoną półformalną definicję monoidu możemy rozpakować między innym
    3. ... i wyróżniony *element* `u ∈ M`, który *możemy* nazywać elementem neutralnym (tego monoidu
     \{ze względu na to działanie\}).
 
-2. Żeby móc nazywać jakąś funkcję działaniem monoidu i jakiś element jego elementem neutralnym
-musimy wykazać albo założyć, że ...
+2. Żeby *móc nazywać* jakąś funkcję działaniem monoidu i jakiś element jego elementem neutralnym
+musimy *wykazać* albo *założyć*, że ...
 
    1. ... to działanie jest łączne, to znaczy ...
    
