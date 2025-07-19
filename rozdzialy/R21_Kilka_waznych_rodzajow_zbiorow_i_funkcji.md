@@ -337,15 +337,15 @@ A teraz będą dwa zapowiedziane przykłady. Zastanów się proszę przez chwil�
 wszystkie uporządkowane pary elementów należących do pierwszego i drugiego zbioru) powinien wyglądać
 zbiór `∅ × X`, gdzie `∅` to zbiór pusty, czyli zbiór `{}` (oznaczamy go tak i tak, zależnie od tego,
 jak jest nam w danej sytuacji wygodniej). Jak postanowisz, że już czas, kliknij
-[ten](Iloczyn_zbioru_pustego_i_X.md) link żeby przeczytać moje wyjaśnienia.
+[ten](R21__Iloczyn_zbioru_pustego_i_X.md) link żeby przeczytać moje wyjaśnienia.
 
 Drugim ważnym dla nas przykładem jest `{1} × Y`, czyli iloczyn kartezjański pewnego singletona i
 scharakteryzowanego wcześniej zbioru `Y`. Wykombinowanie, jak powinien wyglądać ten konkretny zbiór,
 nie powinno Ci moim zdaniem sprawić szczególnych trudności.
 
 Po wykonaniu bądź podjęciu prób wykonania tych zadań-sugestii, gdy już uznasz, że jesteś na to
-gotowa, zapoznaj się jeszcze proszę z [tym](Iloczyn_kartezjanski_jako_mnozenie.md) "obowiązkowym"
-fragmentem.
+gotowa, zapoznaj się jeszcze proszę z [tym](R21__Iloczyn_kartezjanski_jako_mnozenie.md)
+"obowiązkowym" fragmentem.
 
 ## Suma rozłączna zbiorów
 
@@ -397,8 +397,8 @@ na parach zbiorów takich, że co najmniej jeden z nich jest zbiorem pustym, a j
 że co najmniej jeden zbiór jest singletonem. Następnie zastanów się proszę, jak ta operacja na
 zbiorach skończonych ma się do (funkcji) mocy zbiorów i operacji *dodawania* liczb naturalnych. Gdy
 już uznasz, że wystarczy tych samodzielnych rozmyślań (być może wspomaganych rysunkami i notatkami),
-zapoznaj się proszę z [drugim](Operacje_na_zbiorach_i_na_liczbach.md) i ostatnim w tym rozdziale
-fragmentem "obowiązkowym".
+zapoznaj się proszę z [drugim](R21__Operacje_na_zbiorach_i_na_liczbach.md) i ostatnim w tym
+rozdziale fragmentem "obowiązkowym".
 
 Na koniec poznasz jeszcze dwie operacje na zbiorach, które są blisko związane z *koniunkcją* i
 *alternatywą zdań*.

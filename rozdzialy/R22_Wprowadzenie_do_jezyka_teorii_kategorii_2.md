@@ -397,7 +397,7 @@ tymi dwoma rodzajami obiektów stawała się coraz *mniej* widoczna. To jest wi�
 *celowej wieloznaczności* albo *wieloznaczności pod kontrolą*. Spróbuj sama odgadnąć, jak w tym
 kontekście można rozebrać na elementy składowe zdanie `x(∅) = x` i pamiętaj proszę, że nigdzie się
 nie spieszymy. Na wypadek, gdybyś potrzebowała dodatkowych wyjaśnień, znajdziesz je
-[tutaj](Element_x_jako_funkcja_z_singletona.md).
+[tutaj](R22__Element_x_jako_funkcja_z_singletona.md).
 
 **Singleton z perspektywy kategoryjnej**: Każdy zbiór jednoelementowy `T` (dlaczego akurat duża
 litera `T` wyjaśnię za chwilę) ma własność strzałkową (czyli *w tym wypadku* "funkcjo-złożeniową")
