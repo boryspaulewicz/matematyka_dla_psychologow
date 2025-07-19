@@ -75,9 +75,9 @@ temat znajdziesz [tu](https://en.wikipedia.org/wiki/Toy_problem) i
 
 To może być jeden z powodów, dla których Pearl, który stworzył aksjomatyczną teorię przyczynowości,
 tak bardzo lubi zabawkowe przykłady, tak często je przytacza i tak często pyta, jak rozmaite
-alternatywne "podejścia" do przyczynowości sobie z nimi radzą. Korzystając z zabawkowych przykładów
-trzeba jednak oczywiście próbować ustalić, czy, w jakim stopniu, lub pod jakim względem są
-*reprezentatywne*.
+alternatywne "podejścia" do przyczynowości sobie z nimi radzą (o ile się orientuję, okazuje się
+wtedy zawsze, że w ogóle sobie nie radzą). Korzystając z zabawkowych przykładów trzeba jednak
+oczywiście próbować ustalić, czy, w jakim stopniu, lub pod jakim względem są *reprezentatywne*.
 
 Przytoczoną półformalną definicję monoidu możemy rozpakować między innymi tak:
 
@@ -100,4 +100,23 @@ musimy *wykazać* albo *założyć*, że ...
    2. ... a wyróżniony element jest elementem neutralnym ze względu na to działanie, to znaczy:
    
    `∀ a ∈ M, u * a = a * u = a`.
+
+Jednym ze sposobów badania nieuchronnych konsekwencji tych i tylko tych własności działań - czyli
+samej "monoidalności" - w Leanie jest skorzystanie z typów danych występujących w wielu językach
+programowania i nazywanych *rekordami* albo (częściej)
+[*strukturami*](https://pl.wikipedia.org/wiki/Struktura_(programowanie)). Zwracam przy okazji uwagę,
+że definicja podana w polskim artykule (tak to [się](https://pl.wikipedia.org/wiki/Pomoc:Edytowanie)
+nazywa) Wikipedii zawiera (w tym momencie, to jest 2025.07.19) na samym początku dwa stwierdzenia,
+które w ogólnym przypadku *nie* są prawdziwe.
+
+Żeby jakiś typ danych był strukturą, *nie* musi zawierać żadnych *powiązanych logicznie*
+informacji. To jest tylko typowe *zastosowanie* struktur albo element tak zwanego "dobrego stylu"
+programowania. No i części struktury *nie* muszą zajmować sąsiadujących obszarów w pamięci
+komputera. Tak się składa, że w przypadku niektórych ważnych języków
+[*imperatywnych*](https://pl.wikipedia.org/wiki/Programowanie_imperatywne), takich jak choćby
+[*C*](https://pl.wikipedia.org/wiki/C_(j%C4%99zyk_programowania)), które mają fundamentalnie inny
+charakter niż języki [*funkcyjne*](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne) (takie jak
+Lean), zajmują, ale w czystych językach funkcyjnych ten aspekt nie ma akurat większego znaczenia, bo
+programy napisane w czystych językach funkcyjnych *nie służą do opisu zmian fizycznego stanu
+komputera*.
 
