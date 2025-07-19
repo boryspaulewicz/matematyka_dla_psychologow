@@ -8,10 +8,7 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.17 Skończyłem pisać wstępną wersję rozdziału *R29 AA*, w którym próbuję
-przejść możliwie płynnie i bezboleśnie od prostych przykładów ilustrujących perspektywę algebry
-abstrakcyjnej do transformacji nauturalnej, a dokładniej naturalnej równoważności. Zgodnie z moją
-wiedzą, naturalna równoważność jest tam wyjaśniona w sposób oryginalny.  
+**Aktualności**: 2025.07.19 Wstawiłem początek rozdziału [R30](./rozdzialy/Monoeides.md) dotyczący monoidów.  
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
 
@@ -263,6 +260,8 @@ wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)
 [R29 AA](./rozdzialy/R29_AA.md)
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
+
+[R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 

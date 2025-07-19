@@ -1,3 +1,5 @@
+2025.07.19 Wstawiłem początek rozdziału R30 dotyczący monoidów.
+
 2025.07.18 Zmieniłem nazwy prawie wszystkich plików tak, żeby pasowały do nazw rozdziałów.
 
 2025.07.17 Skończyłem pisać wstępną wersję rozdziału *R29 AA*, w którym próbuję przejść możliwie
