@@ -1,7 +1,23 @@
-2025.07.03 Znacz�co przerobi�em rozdzia�y R19-R23, mi�dzy innymi dodaj�c tam nowe w�tki, do kt�rych
-nawi�zuj� teraz w rozdzia�ach p�niejszych. Zmieni�em te� numeracj� rozdzia��w - dosze� nowy
-rozdzia� R21, a wi�c stare R21+n to nowe R22+n.
+2025.07.18 Zmieniłem nazwy prawie wszystkich plików tak, żeby pasowały do nazw rozdziałów.
 
-2025.03.31 Doda�em rozdzia� R26=R20 Rachunek zda� w zadaniach.
+2025.07.17 Skończyłem pisać wstępną wersję rozdziału *R29 AA*, w którym próbuję przejść możliwie
+płynnie i bezboleśnie od prostych przykładów ilustrujących perspektywę algebry abstrakcyjnej do
+transformacji nauturalnej, a dokładniej naturalnej równoważności. Zgodnie z moją wiedzą, naturalna
+równoważność jest tam wyjaśniona w sposób oryginalny.
 
-Wcze�niej te� si� sporo dzia�o, ale kto by to wszystko spami�ta�.
+2025.07.15 Udostępniłem ponad połowę nowego rozdziału *R29 AA*.
+
+2025.07.10 Napisałem nowy rozdział *R28 Rachunek predykatów w zadaniach*.
+
+2025.07.08 Dopisałem nowy fragment *Jadąc kolejką górską* do rozdziału *R25 p ∨ q ~ p + q*, w którym
+to fragmencie próbuję w nowy sposób wytłumaczyć o co chodzi w zasadzie dualności.
+
+2025.07.07 Wprowadziłem liczne drobne zmiany w rozdziałach *R22-26* (wcześniej *R21-*...)
+
+2025.07.03 Znacząco przerobiłem rozdziały *R19-R23*, między innymi dodając tam nowe wątki, do
+których nawiązuję teraz w rozdziałach późniejszych. Zmieniłem też numerację rozdziałów - doszeł nowy
+rozdział *R21*, a więc stare *R21+n* to nowe *R22+n*.
+
+2025.03.31 Napisałem nowy rozdział *R26=R20 Rachunek zdań w zadaniach*.
+
+Wcześniej też się działo, ale kto by to wszystko spamiętał.

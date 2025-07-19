@@ -8,10 +8,12 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.03 Znacząco przerobiłem rozdziały R19-R23, między innymi dodając tam nowe
-wątki, do których nawiązuję teraz w rozdziałach późniejszych. Zmieniłem też numerację rozdziałów -
-doszedł nowy rozdział R21, a więc stare R21+n to nowe R22+n. Zapraszam do testowania, zgłaszania
-trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag, zwłaszcza tych krytycznych. 
+**Aktualności**: 2025.07.17 Skończyłem pisać wstępną wersję rozdziału *R29 AA*, w którym próbuję
+przejść możliwie płynnie i bezboleśnie od prostych przykładów ilustrujących perspektywę algebry
+abstrakcyjnej do transformacji nauturalnej, a dokładniej naturalnej równoważności. Zgodnie z moją
+wiedzą, naturalna równoważność jest tam wyjaśniona w sposób oryginalny.  
+Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
+zwłaszcza tych *krytycznych*.
 
 *Historia zmian* jest [tu](Historia_zmian.md), a *spis treści* jest [tam](#spis_tresci).
 
