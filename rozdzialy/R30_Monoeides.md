@@ -20,7 +20,7 @@ określonego na nim działania `*` i elementu neutralnego `u` ze względu na to 
 *Monoid to zbiór `M` wyposażony w łączne działanie `*` i zawierający element neutralny `u` ze
 względu na to działanie*.
 
-Gdy matematycy mówią, że coś jest *działaniem na zbiorze* `X`, mają zwykle na myśli (między innymi)
+Gdy matematycy mówią, że coś jest *działaniem na zbiorze `X`*, mają zwykle na myśli (między innymi)
 bycie *funkcją* o postaci `X × X → X`. Na przykład, dodawanie jest działaniem między innymi na
 zbiorze liczb naturalnych w tym właśnie znaczeniu, że każdej uporządkowanej parze liczb naturalnych
 `(m, n)` przyporządkowuje unikalną liczbę naturalną `m + n`, którą nazywamy wynikiem tego działania
