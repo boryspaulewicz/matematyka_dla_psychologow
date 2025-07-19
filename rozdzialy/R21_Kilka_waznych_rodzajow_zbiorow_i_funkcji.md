@@ -64,10 +64,10 @@ którą przyjmujemy dlatego, że okazuje się wygodna w praktyce.*[^1]
 
 **Rysunek 3. Funkcja identycznościowa na dwa sposoby**: `Narysuj` teraz proszę trójelementowy zbiór
 `X`. Chciałbym, żebyś narysowała funkcję identycznościową o nazwie `Id` spełniającą warunek `Id(x) =
-x`.  Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo, jak powiedziałem, to jest
+x`. Użyłem tutaj symbolu równości zamiast symbolu definiowania, bo, jak powiedziałem, to jest
 *warunek*, który ta funkcja ma spełniać, ale to *Ty* ją zdefiniujesz (rysując). Zastanów się proszę
 przez chwilę, jak mogłabyś to zrobić, a gdy już wpadniesz na jakiś pomysł, albo gdy się poddasz,
-przeczytaj moje objaśnienia [tutaj](Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko
+przeczytaj moje objaśnienia [tutaj](21__Rysunek_identycznosc.md). Jeżeli przyszedł Ci do głowy tylko
 jeden sposób, to również kliknij ten link. Jak już narysujesz definicję funkcji `Id`, podpisz ją
 proszę komentarzem: *Przykład funkcji identycznościowej*.
 
