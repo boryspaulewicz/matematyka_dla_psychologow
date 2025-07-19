@@ -390,24 +390,25 @@ napisać w tym rozdziale trochę więcej na temat różnicy między technicznymi
 zrozumienia dla innych.
 
 I jeszcze raz czternastoletniemu Szymonowi Stryplingowi, który bez większych trudności przeszedł
-rozdział 21=15 i przy okazji znalazł tam jeden niepotrzebny fragment, który został po poprzedniej
-wersji pewnego zdania i w dodatku zawierał błąd gramatyczny.
+rozdział 21=15 (teraz R22) i przy okazji znalazł tam jeden niepotrzebny fragment, który został po
+poprzedniej wersji pewnego zdania i w dodatku zawierał błąd gramatyczny.
 
 I jeszcze raz Tomkowi Smoleniowi, który zauważył, że w dowodzie łączności składania w rozdziale
-21-15 brakowało słowa kluczowego `example` (i dwukropka po tym słowie). A więc znowu dopisałem coś,
-wcześniej tego nie sprawdzając. Pewnie jeszcze mi się to zdarzy. Niedługo potem Tomek zauważył, że w
-miejscu, w którym pisałem o tym, że elementy iloczynu kartezjańskiego można utożsamić z funkcjami z
-jakiegoś singletona do tego iloczynu, zamiast o pojedynczych funkcjach napisałem o parach funkcji, w
-dodatku do iloczynu, a nie do jego członów, co jak sądzę mogło mocno Tomka zdezorientować. Za to
-dzięki temu, że zapytał mailowo, czy to nie jest błąd, przekonał się jak sądzę, że dobrze zrozumiał,
-o co tam *miało* chodzić, a to jest chyba najlepszy sprawdzian zrozumienia czegoś.
+21-15 (teraz R22) brakowało słowa kluczowego `example` (i dwukropka po tym słowie). A więc znowu
+dopisałem coś, wcześniej tego nie sprawdzając. Pewnie jeszcze mi się to zdarzy. Niedługo potem Tomek
+zauważył, że w miejscu, w którym pisałem o tym, że elementy iloczynu kartezjańskiego można utożsamić
+z funkcjami z jakiegoś singletona do tego iloczynu, zamiast o pojedynczych funkcjach napisałem o
+parach funkcji, w dodatku do iloczynu, a nie do jego członów, co jak sądzę mogło mocno Tomka
+zdezorientować. Za to dzięki temu, że zapytał mailowo, czy to nie jest błąd, przekonał się jak
+sądzę, że dobrze zrozumiał, o co tam *miało* chodzić, a to jest chyba najlepszy sprawdzian
+zrozumienia czegoś.
 
 Ani Bańdurze, za niezwykle cenne, interesujące, przemyślane i szczegółowe uwagi dotyczące moich
 całkiem amatorskich dygresji na temat psychoterapii.
 
-I znowu Szymonowi Stryplingowi, który jako pierwszy tester napisał o rozdziale R23=R17, w którym to
-rozdziale na dobre pojawia się zasada dualności w teorii kategorii i w którym ta zasada jest
-wykorzystywana żeby wykazać, że zbiór jednoelementowy jest dualny do zbioru pustego, iloczyn
+I znowu Szymonowi Stryplingowi, który jako pierwszy tester napisał o rozdziale R23=R17 (teraz R24),
+w którym to rozdziale na dobre pojawia się zasada dualności w teorii kategorii i w którym ta zasada
+jest wykorzystywana żeby wykazać, że zbiór jednoelementowy jest dualny do zbioru pustego, iloczyn
 kartezjański zbiorów jest dualny do sumy rozłącznej zbiorów, że dodawanie i mnożenie liczb
 naturalnych to właściwie jedna i ta sama operacja, że z relacji dowiedlności w logice można zrobić
 cienką kategorię, że wtedy typ `False`, tak jak zbiór pusty, okazuje się być obiektem początkowym, a
@@ -425,13 +426,13 @@ statysfakcjonującej wymianie miałem okazję przemyśleć na nowo rozmaite pods
 sobie sprawę, jak mógłbym pewne rzeczy napisać jaśniej.
 
 Znowu Tomkowi Smoleniowi, który znalazł błąd polegający na złym kierunku strzałki w kategoryjnej
-definicji obiektu końcowego w rozdziale R21=R15. A potem znalazł błąd we fragmencie, który nazwałem,
-nomen omen, potencjalnie dezorientującym. Pojawiła się tam nazwa morfizmu `g` (równego `⟨π₁',π₂'⟩`),
-a powinna być nazwa `f` (równego `⟨π₁,π₂⟩`).
+definicji obiektu końcowego w rozdziale R21=R15 (teraz R22). A potem znalazł błąd we fragmencie,
+który nazwałem, nomen omen, potencjalnie dezorientującym. Pojawiła się tam nazwa morfizmu `g`
+(równego `⟨π₁',π₂'⟩`), a powinna być nazwa `f` (równego `⟨π₁,π₂⟩`).
 
 Szymonowi Stryplingowi, za cenne informacje na temat tego, jak mu się czytało po dłuższej przerwie
-od zaglądania do tej książki rozdział 25-19, i za znalezienie w tym rozdziale źle oznaczonego
-komentarza.
+od zaglądania do tej książki rozdział 25-19 (teraz R26), i za znalezienie w tym rozdziale źle
+oznaczonego komentarza.
 
 Jakubowi Jędrusiakowi, za wiadomość o problemie z kodowaniem niektórych rozdziałów. Większość plików
 była zapisana w stronie kodowej UTF-8, ale niektóre były zapisane w ISO-8859-2; teraz wszystkie są w
