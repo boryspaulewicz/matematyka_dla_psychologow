@@ -87,7 +87,7 @@ musimy wykazać albo założyć, że ...
 
    1. ... to działanie jest łączne, to znaczy ...
    
-   `∀ a, b, c ∈ M, (a * b) * c = a * (b * c)`
+   `∀ a, b, c ∈ M, (a * b) * c = a * (b * c)`,
 
    2. ... a wyróżniony element jest elementem neutralnym ze względu na to działanie, to znaczy:
    
