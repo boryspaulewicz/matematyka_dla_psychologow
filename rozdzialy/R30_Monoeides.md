@@ -10,7 +10,7 @@ pewnego języka (w tym wypadku Leana), jak każde takie fragmenty pozwalają my�
 w nowy i kontrolowany sposób. W tym między innymi celu wracamy do wątków łączności działań i
 replikowania ukrytej mechaniki prozy matematycznej w kodzie.
 
-W książkach dotyczących algebry abstrakcyjnej można znaleźć między innymi tego rodzaju zdania ...
+W książkach dotyczących algebry abstrakcyjnej można znaleźć tego rodzaju zdania ...
 
 *[Monoid](https://pl.wikipedia.org/wiki/Monoid) to trójka `(M, *, u)` złożona ze zbioru `M`,
 określonego na nim działania `*` i elementu neutralnego `u` ze względu na to działanie*.
