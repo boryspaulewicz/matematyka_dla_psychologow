@@ -135,13 +135,13 @@ def data1 : Data := {dzien := 1, miesiac := 1, rok := 1111}
 -- tym, że w przypadku tego rodzaju typów każda *nazwa* pola składowego odpowiada unikalnej
 -- *kolejności*, w jakiej w rekordzie występuje term będący wartością tego pola. A nazwa
 -- automatycznie tworzonej w przestrzeni nazw `Data` stałej `mk` to skrót od *make*.
-def data2 : Data := Data.mk 6 6 6000
+def data2 : Data := Data.mk 4 6 6
 def data3 : Data := ⟨0, 13, 1313⟩
 
 -- Dzięki temu, że zaraz pod definicją typu `Data` napisaliśmy `deriving Repr`, co można sobie
 -- tłumaczyć jako "wyprowadzając definicję metody reprezentowania", możemy *wyświetlać* termy tego
 -- typu:
-#eval data2 -- `{ dzien := 6, miesiac := 6, rok := 6000 }`
+#eval data2 -- `{ dzien := 4, miesiac := 6, rok := 6 }`
 
 structure Osoba_ludzka where
   tworz :: -- w ten sposób możemy zmienić nazwę funkcji tworzącej termy typu rekordowego:
