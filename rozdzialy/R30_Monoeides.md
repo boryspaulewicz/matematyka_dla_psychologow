@@ -319,6 +319,7 @@ structure Monoid (α : Type) where
   assoc      : ∀ a b c : α, (op (op a b) c) = (op a (op b c))
   unit_left  : ∀ a : α, op u a = a
   unit_right : ∀ a : α, op a u = a
+
 -- Nie możemy niestety poprosić Leana o *automatyczne* wyprowadzenie kodu "wyświetlacza" dla tej
 -- struktury pisząc `deriving Repr`, bo Lean nie wie nic o typie `α`.
 ```
