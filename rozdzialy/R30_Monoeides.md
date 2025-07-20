@@ -109,8 +109,8 @@ programowania i nazywanych *rekordami* albo (częściej)
 ## Typy rekordowe
 
 ```lean
--- Czytamy to: Definiuję typ danych rekordowych (`struct`) o nazwie/będący wartością stałej `Data`,
--- którego polami niech się staną (`where`) ...
+-- Czytamy to: Definiuję typ danych rekordowych (`structure`) o nazwie/będący wartością stałej
+-- `Data`, którego polami niech się staną (`where`) ...
 structure Data where
   -- ... `dzien`, `miesiac` i `rok`, wszystkie o typie `Nat` ...
   dzien : Nat
