@@ -432,11 +432,12 @@ wprowadzającego do teorii monoidów, to co to właściwie jest?
 *Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
 elementu neutralnego `u` ze względu na to działanie*.
 
-I od razu odpowiem: To między innymi początek półformalnej definicji pewnej struktury/funkcji,
-zawierającej rozmaite (dotyczące monoidów) pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia,
-które, za wyjątkiem aksjomatów, są w ciele tej struktury/funkcji w jakiś sposób, zapewne
-półformalnie, zdefiniowane w sposób dookreślający (czyli mają jakieś półformalne ciała), a wszystko
-to jest definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
+I od razu odpowiem: To między innymi początek półformalnej definicji pewnej struktury/funkcji (w
+postaci rozdziału, a może nawet całej książki), zawierającej rozmaite (dotyczące monoidów)
+pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia, które, za wyjątkiem aksjomatów, są w ciele
+tej struktury/funkcji w jakiś sposób, zapewne półformalnie, zdefiniowane "dookreślająco" (czyli mają
+jakieś półformalne ciała), a wszystko to jest chwilową (bo teorie matematyczne również się
+zmieniają) definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
 wzorcem zależnym:
 
 `(M : Zbiór, * : M × M → M, u : M, h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b * c), h₂ : ∀ a ∈ M, u *
