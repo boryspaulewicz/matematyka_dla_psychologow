@@ -323,15 +323,15 @@ structure Monoid (α : Type) where
 -- struktury pisząc `deriving Repr`, bo Lean nie wie nic o typie `α`.
 ```
 
-Widzimy, że ta formalizacja odpowiada dokładnie fragmentowi prozy matematycznej przytoczonej na
-początku tego rozdziału:
+Jak łatwo zauważyć, ta formalizacja odpowiada dokładnie fragmentowi prozy matematycznej przytoczonej
+na początku rozdziału:
 
 *Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
 neutralnego `u` ze względu na to działanie*.
 
 A czy zauważyłaś, że ponieważ pola składowe tego rekordu to tylko pewne *stałe o określonych
-typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? To zatem nic innego jak
-*aksjomaty* monoidu zakodowane jako rekord.
+typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? Definicja parametrycznego typu
+rekordowego `Monoid (α : Type)` to zatem nic innego jak *aksjomaty* monoidu.
 
 Uwaga, to jest początkowo dezorientujące, za to z czasem staje się nie tylko oczywiste, ale staje
 się też oczywiste, że to jest konieczne i jest lepiej mieć czasem świadomość tego, że to jest
