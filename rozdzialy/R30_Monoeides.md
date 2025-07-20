@@ -154,7 +154,7 @@ deriving Repr
 --
 -- `#eval Osoba_ludzka.mk "Kryspin" "Ciekawski" ⟨1, 3, 1009⟩`
 --
--- pojawia się komunikat o błędzie. A tutaj nie:
+-- ... pojawia się komunikat o błędzie. A tutaj nie:
 def osoba1 := Osoba_ludzka.tworz "Kryspin" "Ciekawski" ⟨1, 3, 1009⟩
 #eval osoba1
 -- `{ imie := "Stefan", nazwisko := "Ciekawski", data_urodzenia := { dzien := 1, miesiac := 3, rok := 1009 } }`
