@@ -16,8 +16,8 @@ Niektórzy matematycy piszą ostrożniej, na przykład tak:
 
 *Jeżeli `𝑀 = (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
-Zmiana czcionki jest wtedy ważna, bo sygnalizuje, że stałe `𝑀` i `M` mają oznaczać innego rodzaju
-obiekty. Zdarzają się też matematycy, którzy piszą tak ...
+Zmiana czcionki jest wtedy ważna, bo sygnalizuje, że stałe `𝑀` i `M` mają oznaczać blisko związane
+obiekty innego rodzaju. Zdarzają się też matematycy, którzy piszą tak ...
 
 *Jeżeli `𝑀 := (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
