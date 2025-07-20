@@ -461,7 +461,8 @@ od *Niech `X` będzie n-tką `(...)`, gdzie ...*[^2].
     kiedykolwiek powiem, że coś tam *powinno się* coś, daj proszę niezwłocznie znać, bo to będzie
     znaczyło, że powinienem się (?) pilnie udać do lekarza. Każde z tych dwóch słów jest moim
     zdaniem niebezpieczne, to pierwsze może nawet bardziej, bo to taki powszechnie stosowany
-    kamuflaż użycia siły, ale *się* ma również to i owo za uszami.
+    [kamuflaż użycia siły](https://pl.wikipedia.org/wiki/Wilk_w_owczej_sk%C3%B3rze), ale *się* ma
+    również to i owo za uszami.
 
 [^2]: Pary uporządkowane nazywamy *n-tkami* (*uporządkowanymi*), bo 2 to liczba naturalna. Z tego
     samego powodu nazywamy tak też trójki uporządkowane, i tak dalej. Jeśli tylko zechcemy,
