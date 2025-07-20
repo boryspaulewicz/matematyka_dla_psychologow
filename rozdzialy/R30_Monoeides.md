@@ -206,16 +206,16 @@ zapowiedź przyszłych niespodzianek.
 Gdy na przykład napiszesz w Leanie coś takiego ...
 
 ```lean
-def hello_world : String := "Hello world!"
+def hello_world : String := "Hello, world!"
 
 #eval hello_world
 ```
 
 ... i umieścisz kursor na ostatniej linii, to zobaczysz, jako *wynik ewaluacji termu `hello_world`*
-tekst "Hello world!". Gdy natomiast napiszesz coś takiego ...
+tekst "Hello, world!". Gdy natomiast napiszesz coś takiego ...
 
 ```lean
-def hello_world' : IO Unit := do IO.println "Hello world!"
+def hello_world' : IO Unit := do IO.println "Hello, world!"
 
 #eval hello_world'
 ```
