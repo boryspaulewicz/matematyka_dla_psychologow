@@ -412,7 +412,7 @@ def powitanie : Osoba_ludzka → String :=
 #eval powitanie osoba -- `"Kryspin Ciekawski"`
 ```
 
-Ponieważ (z dokładnością do lukru składniowego: `Typ_rekordowy.mk`, `{...}` i `⟨...⟩`) istnieje
+Ponieważ (z dokładnością do lukru składniowego: `Typ_rekordowy.mk ...`, `{...}` i `⟨...⟩`) istnieje
 *tylko jeden* sposób konstruowania termu typu rekordowego, polegający na podaniu wartości dla
 *wszystkich* pól składających się na taki typ, to można przechwytywać wartości pól typów rekordowych
 za pomocą dopasowania wzorców. Ponieważ można też tworzyć termy typów rekordowych w stylu `{...}`,
