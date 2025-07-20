@@ -1,3 +1,8 @@
+2025.07.20 Skończyłem pisać wstępną wersję rozdziału [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md),
+w którym można poczytać o monoidach, rekordach, termach typów rekordowych pełniących role twierdzeń,
+różnicach między czystymi językami funkcyjnymi i językami imperatywnymi, a także o paru innych
+sprawach, które będą ważne później.
+
 2025.07.19 Wstawiłem początek rozdziału R30 dotyczący monoidów.
 
 2025.07.18 Zmieniłem nazwy prawie wszystkich plików tak, żeby pasowały do nazw rozdziałów.

@@ -8,7 +8,10 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.19 Wstawiłem początek rozdziału [R30](./rozdzialy/Monoeides.md) dotyczący monoidów.  
+**Aktualności**: 2025.07.20 Skończyłem pisać wstępną wersję rozdziału [R30
+Μονοειδές](./rozdzialy/R30_Monoeides.md), w którym można poczytać o monoidach, rekordach, termach
+typów rekordowych pełniących role twierdzeń, różnicach między czystymi językami funkcyjnymi i
+językami imperatywnymi, a także o paru innych sprawach, które będą ważne później.  
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
 
@@ -259,9 +262,9 @@ wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)
 
 [R29 AA](./rozdzialy/R29_AA.md)
 
-Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
-
 [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)
+
+Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
