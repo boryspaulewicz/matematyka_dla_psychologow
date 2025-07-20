@@ -444,8 +444,8 @@ zależnym wzorcem ...
 `(M : Zbiór, * : M × M → M, u : M, h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b * c), h₂ : ∀ a ∈ M, u *
 a = a * u = a)`.
 
-Ten punkt widzenia pasuje jeszcze lepiej do fragmentów prozy matematycznej zaczynających się od
-*Niech `X` będzie n-tką `(...)`, gdzie ...*.
+Ten ostatni punkt widzenia pasuje jeszcze lepiej do fragmentów prozy matematycznej zaczynających się
+od *Niech `X` będzie n-tką `(...)`, gdzie ...*[^2].
 
 ### Przypisy
 
@@ -453,6 +453,15 @@ Ten punkt widzenia pasuje jeszcze lepiej do fragmentów prozy matematycznej zacz
     *niczym innym* jak coś. To prawie tak, jakbym napisał, że istnieje takie A, że jedyny punkt
     widzenia na A jest taki, że A to B. Najmocniej przepraszam, ale jestem tylko człowiekiem. Mylę
     się, więc jestem. Postaram się tak nie pisać, a gdybyś zauważyła, że kiedykolwiek powiem, że coś
-    tam *powinno się* coś, daj proszę niezwłocznie znać. Każde z tych dwóch słów jest moim zdaniem
-    niebezpieczne, to pierwsze może szczególnie, bo to taki powszechnie stosowany kamuflaż użycia
-    siły, ale *się* też ma sporo za uszami.
+    tam *powinno się* coś, daj proszę niezwłocznie znać, bo to będzie znaczyło, że muszę się pilnie
+    udać do lekarza. Każde z tych dwóch słów jest moim zdaniem niebezpieczne, to pierwsze może nawet
+    bardziej, bo to taki powszechnie stosowany kamuflaż użycia siły, ale *się* ma również to i owo
+    za uszami.
+
+[^2]: Pary uporządkowane nazywamy *n-tkami* (*uporządkowanymi*), bo 2 to liczba naturalna. Z tego
+    samego powodu nazywamy tak też trójki uporządkowane, i tak dalej. Jeśli tylko zechcemy,
+    szczególnymi przypadkami n-tek uporządkowanych będą również ciągi jednoelementowe, a nawet
+    puste. Bo to jest *tylko pewien sposób nazywania pewnych rzeczy*. Ani tu, ani w ogóle nigdzie
+    nie ma żadnych *powinno* ani żadnych *się*, są tylko fakty, postawy, przyczyny i skutki, a
+    także, takie jak ta tutaj, mniej lub bardziej użyteczne do realizacji określonych celów
+    konwencje.
