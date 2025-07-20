@@ -37,11 +37,11 @@ naturalnych*.
 
 Przykładami monoidów są między innymi trójki `(ℕ, +, 0)` i `(ℕ, ×, 1)`, a mówiąc bardziej swobodnie,
 liczby naturalne ze względu na dodawanie i mnożenie, a mówiąc swobodnie i maksymalnie skrótowo,
-dodawanie i mnożenie liczb naturalnych. To są przykłady monoidów, ponieważ oba działania są łączne i
+dodawanie i mnożenie liczb naturalnych. To przykłady monoidów, ponieważ oba działania są łączne i
 gdy ograniczamy się do zbioru liczb naturalnych, w obydwu przypadkach znajdujemy elementy neutralne
 ze względu na te działania.
 
-To może się wydawać oczywiste, ale w praktyce początkowo łatwo o tym zapomnieć: *Mówiąc o pewnych
+Pomyślisz może, że to oczywiste, ale w praktyce łatwo jest o tym zapomnieć: *Mówiąc o pewnych
 strukturach jako o monoidach ogłaszamy, że w dalszym rozumowaniu będziemy uwzględniać tylko łączność
 i obecność elementu neutralnego*. Czyli ogłaszamy w ten sposób, że bez wprowadzenia dodatkowych
 założeń czy dokonania dodatkowych wyborów *nie* będziemy korzystać z takich własności jak na
@@ -105,7 +105,7 @@ musimy *wykazać* albo *założyć*, że ...
 Jednym ze sposobów badania nieuchronnych konsekwencji tych i tylko tych własności działań - czyli
 samej monoidalności - w Leanie jest skorzystanie z typów danych występujących w wielu językach
 programowania i nazywanych *rekordami* albo (częściej)
-[*strukturami*](https://pl.wikipedia.org/wiki/Struktura_(programowanie)):
+[*strukturami*](https://pl.wikipedia.org/wiki/Struktura_(programowanie)).
 
 ## Typy rekordowe
 
@@ -145,7 +145,7 @@ def data3 : Data := ⟨0, 13, 1313⟩
 #eval data2 -- `{ dzien := 4, miesiac := 6, rok := 6 }`
 
 structure Osoba_ludzka where
-  tworz :: -- w ten sposób możemy zmienić nazwę funkcji tworzącej termy typu rekordowego:
+  tworz :: -- W ten sposób możemy zmienić nazwę funkcji tworzącej termy typu rekordowego:
   imie : String
   nazwisko : String
   data_urodzenia : Data
@@ -334,10 +334,10 @@ elementu neutralnego `u` ze względu na to działanie*.
 
 A czy zauważyłaś, że ponieważ pola składowe tego rekordu to tylko pewne *stałe o określonych
 typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? Definicja parametrycznego typu
-rekordowego `Monoid (α : Type)` to zatem nic innego jak *aksjomaty* monoidu.
+rekordowego `Monoid (α : Type)` to zatem nic innego[^1] jak *aksjomaty* monoidu.
 
 Uwaga, to jest początkowo dezorientujące, za to z czasem staje się nie tylko oczywiste, ale staje
-się też oczywiste, że to jest konieczne i lepiej jest mieć czasem świadomość tego, że takie jest:
+się też oczywiste, że to jest konieczne i lepiej jest czasem mieć świadomość, że takie jest:
 
 ```lean
 -- Specjalizacja działania monoidu `Monoid.op` do typu `Nat` ma typ ...
@@ -435,7 +435,7 @@ elementu neutralnego `u` ze względu na to działanie*.
 
 I od razu odpowiem: To między innymi początek półformalnej definicji pewnej struktury/funkcji (w
 postaci rozdziału, a może nawet całej książki), zawierającej rozmaite (dotyczące monoidów)
-pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia, które, za wyjątkiem aksjomatów, są w ciele
+pola/definicje, w tym pola/aksjomaty i pola/twierdzenia, które, za wyjątkiem aksjomatów, są w ciele
 tej struktury/funkcji w jakiś sposób, zapewne półformalnie, zdefiniowane "dookreślająco" (czyli mają
 jakieś półformalne ciała), a wszystko to jest chwilową (bo teorie matematyczne również się
 zmieniają) definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
@@ -443,3 +443,16 @@ zależnym wzorcem ...
 
 `(M : Zbiór, * : M × M → M, u : M, h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b * c), h₂ : ∀ a ∈ M, u *
 a = a * u = a)`.
+
+Ten punkt widzenia pasuje jeszcze lepiej do fragmentów prozy matematycznej zaczynających się od
+*Niech `X` będzie n-tką `(...)`, gdzie ...*.
+
+### Przypisy
+
+[^1]: Tyle powtarzania się o tych różnych punktach widzenia itd, a sam tu napisałem, że coś jest
+    *niczym innym* jak coś. To prawie tak, jakbym napisał, że istnieje takie A, że jedyny punkt
+    widzenia na A jest taki, że A to B. Najmocniej przepraszam, ale jestem tylko człowiekiem. Mylę
+    się, więc jestem. Postaram się tak nie pisać, a gdybyś zauważyła, że kiedykolwiek powiem, że coś
+    tam *powinno się* coś, daj proszę niezwłocznie znać. Każde z tych dwóch słów jest moim zdaniem
+    niebezpieczne, to pierwsze może szczególnie, bo to taki powszechnie stosowany kamuflaż użycia
+    siły, ale *się* też ma sporo za uszami.
