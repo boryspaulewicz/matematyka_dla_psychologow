@@ -17,8 +17,8 @@ określonego na nim działania `*` i elementu neutralnego `u` ze względu na to 
 
 ... albo tego rodzaju zdania:
 
-*Monoid to zbiór wyposażony w łączne działanie `*` i zawierający element neutralny `u` ze względu na
-to działanie*.
+*Monoid to zbiór wyposażony w łączne działanie i zawierający element neutralny ze względu na to
+działanie*.
 
 Zwracam uwagę, że chociaż pojawił się tutaj symbol `*`, w definicji monoidu chodzi o dowolne
 działania o wymienionych własnościach, nie tylko takie, które mogą się kojarzyć z mnożeniem. Zresztą
