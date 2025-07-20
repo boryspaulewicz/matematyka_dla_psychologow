@@ -225,13 +225,13 @@ def hello_world' : IO Unit := do IO.println "Hello world!"
 
 Zacznijmy może od tego, że stała `hello_world'` *nie* oznacza *funkcji*, ponieważ *nie ma w typie
 strzałki*, a tekst, który widzisz, gdy kursor jest na linii `#eval hello_world'`, to przykład tak
-zwanego *skutek uboczny*. Mówiąc dokładniej, *zdarzenie* polegające na tym, że widzisz ten tekst, to
-przykład skutku ubocznego. Wynik ewaluacji stałej `hello_world` (bez apostrofu) istnieje *jako wynik
-tej ewaluacji* niezależnie od tego, czy Lean Ci go pokazuje, czy nie, ponieważ ten wynik jest na
-mocy wprowadzonej definicji *znaczeniem* tej stałej. Natomiast wynik ewaluacji stałej `hello_world'`
-istnieje tylko jako pewne zdarzenie, które jest rezultatem pewnego działania, które to działanie
-*może być wykonane w określonych warunkach* i *musi być wykonane*, żeby ten skutek uboczny
-*za*istniał.
+zwanego *skutku ubocznego*. Mówiąc dokładniej, *zdarzenie* polegające na tym, że widzisz ten tekst,
+to przykład skutku ubocznego. Wynik ewaluacji stałej `hello_world` (bez apostrofu) istnieje *jako
+wynik tej ewaluacji* niezależnie od tego, czy Lean Ci go pokazuje, czy nie, ponieważ ten wynik jest
+na mocy wprowadzonej definicji *znaczeniem* tej stałej. Natomiast wynik ewaluacji stałej
+`hello_world'` istnieje tylko jako pewne zdarzenie, które jest rezultatem pewnego działania, które
+to działanie *może być wykonane w określonych warunkach* i *musi być wykonane*, żeby ten skutek
+uboczny *za*istniał.
 
 *Możemy* pisać w Leanie programy imperatywne, czyli "rozkazujące" (komputerowi aby wykonał określone
 *działania fizyczne*), ale do tego służy *osobny język*, do którego należy między innymi słowo
