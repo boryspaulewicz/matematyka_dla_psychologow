@@ -60,7 +60,7 @@ fundamentalną rolę w psychologii, ponieważ centralnym przedmiotem badań psyc
 *abstrakcyjnie* rozumiane *zachowania*, a zachowania są tym, czym są, to jest zachowaniami,
 dokładnie dlatego, że *czemuś służą*, to jest (w przybliżeniu) *rozwiązują* jakiś *problem* albo
 *wykonują* jakieś *zadanie*. A może nawet wypadałoby tego rodzaju wieloznaczności nazywać po prostu
-*abstrakcją*, ponieważ, przynajmniej moim zdaniem, *abstrakcja jest zawsze
+*abstrakcją*, skoro, przynajmniej moim zdaniem, *abstrakcja jest zawsze
 funkcjonalna*. Abstrakcyjność jest przecież własnością *pojęć* (ogólność połączona często z
 wieloznacznością oznaczających pojęcia słów) i *reprezentacji* (też ogólność połączona z
 wieloznacznością, ale sposobów reprezentowania), a pojęcia pojęcia i reprezentacji są pojęciami
