@@ -52,12 +52,11 @@ takie własności.
 
 Po co mielibyśmy *ignorować* coś, o czym być może wiemy, że istnieje albo jest prawdą i że jest,
 mówiąc ogólnie, ważne, na przykład własność przemienności, która faktycznie przysługuje niektórym
-działaniom monoidalnym takim jak dodawaniu liczb i która to własność jest bez wiątpienia ważna w
-wielu różnych sytuacjach? Otóż po to, żeby *ustalić coś na wyższym poziomie ogólności*. Działanie
-łączne nie musi być przemienne ani odwracalne i wiele działań łącznych nie ma co najmniej jednej z
-tych własności. Cokolwiek uda nam się ustalić na temat monoidów, będziemy mogli zastosować zarówno
-do działań łącznych, które są jednocześnie przemienne albo odwracalne, jak i do takich, które nie
-są. 
+działaniom monoidalnym takim jak dodawanie liczb i która jest bez wiątpienia ważna w wielu różnych
+sytuacjach? Otóż po to, żeby *ustalić coś na wyższym poziomie ogólności*. Działanie łączne nie musi
+być przemienne ani odwracalne i wiele działań łącznych nie ma co najmniej jednej z tych
+własności. Cokolwiek uda nam się ustalić na temat monoidów, będziemy mogli zastosować zarówno do
+działań łącznych, które są jednocześnie przemienne albo odwracalne, jak i do takich, które nie są.
 
 Ze słabszych założeń z definicji wynika na ogół mniej. Im wyższy poziom ogólności, to znaczy im
 mniej albo im słabsze własności zakładamy, tym więc na ogół *trudniej* o nietrywialne wnioski, ale
