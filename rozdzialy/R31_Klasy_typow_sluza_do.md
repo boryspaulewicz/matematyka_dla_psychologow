@@ -56,16 +56,16 @@ sobą różne języki. Wydaje mi się nawet, że zdążyłaś się już o tym ni
 innymi czytając tą książkę.
 
 To jednocześnie przykłady czegoś, co można by nazwać *abstrakcją funkcjonalną*, a co odgrywa
-fundamentalną rolę w psychologii, ponieważ centralnym przedmiotem badań w psychologii są
+fundamentalną rolę w psychologii, ponieważ centralnym przedmiotem badań psychologicznych są
 *abstrakcyjnie* rozumiane *zachowania*, a zachowania są tym, czym są, to jest zachowaniami,
 dokładnie dlatego, że *czemuś służą*, to jest (w przybliżeniu) *rozwiązują* jakiś *problem* albo
 *wykonują* jakieś *zadanie*. A może nawet wypadałoby tego rodzaju wieloznaczności nazywać po prostu
 *abstrakcją*, ponieważ, przynajmniej moim zdaniem, *abstrakcja jest zawsze
 funkcjonalna*. Abstrakcyjność jest przecież własnością *pojęć* (ogólność połączona często z
 wieloznacznością oznaczających pojęcia słów) i *reprezentacji* (też ogólność połączona z
-wieloznacznością, ale sposobów reprezentowania), a pojęcie pojęcia jest pojęciem funkcjonalnym,
-ponieważ pojęcia i reprezentacje są tym, czym są, dlatego, że *w pewien sposób używają ich* pewne
-gatunki zwierząt.
+wieloznacznością, ale sposobów reprezentowania), a pojęcia pojęcia i reprezentacji są pojęciami
+funkcjonalnymi: pojęcia i reprezentacje są tym, czym są, dlatego, że *używają ich w pewien sposób*
+pewne gatunki zwierząt.
 
 No dobrze, spróbuję się ogarnąć i może ograniczę próby przekazania intonacji za pomocą pisma
 pochyłego.
