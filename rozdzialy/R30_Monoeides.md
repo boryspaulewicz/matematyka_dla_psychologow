@@ -352,7 +352,7 @@ Możemy teraz, korzystając z dostępnych w Leanie twierdzeń, *formalnie udowod
 ```lean
 def Nat_add_is_mono : Monoid Nat := 
   {op         := Nat.add, 
-   u          := Nat.zero,
+   u          := Nat.zero, -- Można tu też napisać `0`.
    assoc      := Nat.add_assoc,
    -- `Nad.zero_add` to dostępne w Leanie twierdzenie o treści `∀ (n : Nat), 0 + n = n`.
    unit_left  := Nat.zero_add, 
