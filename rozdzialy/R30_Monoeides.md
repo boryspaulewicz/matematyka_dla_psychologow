@@ -351,7 +351,7 @@ Możemy teraz, korzystając z dostępnych w Leanie twierdzeń, *formalnie udowod
 `Monoid Nat`*, że liczby naturalne są monoidem ze względu na dodawanie i `0`:
 
 ```lean
-def Nat_add_is_mono : Monoid Nat := 
+def Nat_add_is_a_monoid : Monoid Nat := 
   {op         := Nat.add, 
    u          := Nat.zero, -- Można tu też napisać `0`.
    assoc      := Nat.add_assoc,
@@ -361,9 +361,9 @@ def Nat_add_is_mono : Monoid Nat :=
    unit_right := by intro n ; rfl}
 ```
 
-Lean nie zgłasza błędu, co oznacza, że tworząc stałą `Nat_add_is_mono`, wszystkim polom rekordu
+Lean nie zgłasza błędu, co oznacza, że tworząc stałą `Nat_add_is_a_monoid`, wszystkim polom rekordu
 `Monoid` w wersji dla typu `Nat` przypisaliśmy (definicyjnie, stąd są tam symbole `:=`) wartości
 zgodne z wymaganiami tego rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie
-zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to tym samym
-udowodniliśmy de facto pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie liczb
-naturalnych *jest* działaniem monoidalnym.
+zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak tym samym
+udowodniliśmy pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie liczb naturalnych *jest*
+działaniem monoidalnym.
