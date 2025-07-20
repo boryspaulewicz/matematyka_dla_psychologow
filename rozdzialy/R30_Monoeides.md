@@ -366,4 +366,6 @@ Lean nie zgłasza błędu, co oznacza, że tworząc stałą `Nat_add_is_a_monoid
 zgodne z wymaganiami tego rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie
 zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak tym samym
 udowodniliśmy pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie liczb naturalnych *jest*
-działaniem monoidalnym.
+działaniem monoidalnym. Mówiąc jeszcze inaczej, chociaż nie ma typu zdaniowego, term
+`Nat_add_is_a_monoid` jest twierdzeniem, bo pełni rolę twierdzenia, a pełni rolę twierdzenia, bo
+może.
