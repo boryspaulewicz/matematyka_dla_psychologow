@@ -193,6 +193,32 @@ Dlatego ...
 Term ewaluowany w ostatniej linii oznacza *nowy* term typu `Data`, powstający z termu `data2` przez
 *skopiowanie* wartości wszystkich pól za wyjątkiem pola `dzien`, któremu nadajemy tam wartość `5`.
 
+**Sugestia**: Na początku tego rozdziału napisałem, że wprowadzę narzędzia programistyczne, które
+pozwalają myśleć o różnych sprawach w nowy i kontrolowany sposób. Chociaż może w tym momencie wydają
+Ci się jeszcze dosyć nieciekawe, takimi narzędziami są między innymi typy rekordowe. Żeby było Ci
+łatwiej przekonać się później, w jaki sposób takie konstrukcje mogą Ci pomóc w konsekwentnym
+myśleniu o przeróżnych sprawach, w tym również w czytaniu ze zrozumieniem tekstów pisanych przez
+matematyków, przydałoby się, żebyś zdefiniowała ...
+
+1. ... własny rekord zawierający dwa pola różnego typu, ...
+
+2. ... zmieniając nazwę konstruktora z domyślnej `mk` na jakąś inną ...
+
+3. ... i pamiętajac, żeby poprosić Leana o konstrukcję "wyświetlacza" termów konstruowanego typu.
+
+Gdy to zrobisz, spróbuj może zdefiniować trzy różne stałe, których wartościami będą termy
+stworzonego przez Ciebie typu, robiąc to na trzy różne sposoby, to jest posługując się notacjami:
+
+1. `{nazwa_pola_1 := wartosc, nazwa_pola_2 := wartosc, ...}`
+
+2. `Nazwa_typu_rekordowego.nazwa_konstruktora wartosc wartosc ...`
+
+3. i `⟨wartość, wartość, ...⟩`. 
+
+Na koniec wyświetl sobie (całą) wartość którejś z tych stałych i wartość któregoś z jej pól za
+pomocą komendy `#eval`, oznaczając wybrane pole raz w stylu `Nazwa_typu_rekordowego.nazwa_pola
+stala`, a raz w stylu `stala.nazwa_pola`.
+
 ## (Nie)czyste języki
 
 Różnica między (czystymi) funkcyjnymi i imperatywnymi językami programowania może być nawet
@@ -277,3 +303,66 @@ korzystając między innymi z monoidów, będziemy się bawić pewnymi ważnymi 
 programowania imperatywnego. Okaże się wtedy, że podobieństwo nazw "monoid" i "monada", nawet jeśli
 jest w dużym stopniu przypadkowe, odpowiada czemuś zarazem ważnemu, również z
 (*meta-*)*psychologicznej* perspektywy, i bardzo trudnemu do zauważenia bez dobrej teorii.
+
+## Monoid jako rekord
+
+Typy rekordowe też oczywiście mogą być i często są *zależne* (albo parametryczne). Zgodnie z
+poniższą definicją, monoid to struktura złożona z określonych, na 1. jakimś typie `α`, 2. działania
+binarnego `op` i 3. wyróżnionego elementu `u` tego typu, spełniających 4. warunek łączności
+(`assoc`) i dwa (5. i 6.) warunki bycia elementem neutralnym, inaczej jednostką (`unit`).
+
+```lean
+structure Monoid (α : Type) where
+  op : α → α → α -- To znaczy to samo, co na przykład `op (a b : α) : α`.
+  u  : α
+  -- Notację przedrostkową zamienimy na wzrostkową później.
+  assoc      : ∀ a b c : α, (op (op a b) c) = (op a (op b c))
+  unit_left  : ∀ a : α, op u a = a
+  unit_right : ∀ a : α, op a u = a
+-- Nie możemy niestety poprosić Leana o *automatyczne* wyprowadzenie kodu "wyświetlacza" dla tej
+-- struktury pisząc `deriving Repr`, bo Lean nie wie nic o typie `α`.
+```
+
+Widzimy, że ta formalizacja odpowiada dokładnie fragmentowi prozy matematycznej przytoczonej na
+początku tego rozdziału:
+
+*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
+neutralnego `u` ze względu na to działanie*.
+
+A czy zauważyłaś, że ponieważ pola składowe tego rekordu to tylko pewne *stałe o określonych
+typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? To zatem nic innego jak
+*aksjomaty* monoidu zakodowane jako rekord.
+
+Uwaga, to jest początkowo dezorientujące, za to z czasem staje się nie tylko oczywiste, ale staje
+się też oczywiste, że to jest konieczne i jest lepiej mieć czasem świadomość tego, że to jest
+konieczne:
+
+```lean
+-- Specjalizacja działania monoidu `Monoid.op` do typu `Nat` ma typ ...
+#check Monoid.op (α := Nat) -- `Monoid.op : Monoid Nat → Nat → Nat → Nat`, 
+-- ... a nie, jak można by się naiwnie spodziewać, `Nat → Nat → Nat`. Wynika to stąd, że ta operacja
+-- wymaga również *termu typu Monoid α*, czyli po prostu konkretnego monoidu, żeby "miała w ramach
+-- czego działać". Dla każdego rekordu X, każde pole składowe `X` ma jako pierwszy, zwykle ukryty
+-- parametr, term typu `X`.
+```
+
+Możemy teraz, korzystając z dostępnych w Leanie twierdzeń, *formalnie udowodnić, tworząc termy typu
+`Monoid`*, że liczby naturalne są monoidem ze względu na dodawanie i `0`:
+
+```lean
+def Nat_add_is_mono : Monoid Nat := 
+  {op         := Nat.add, 
+   u          := Nat.zero,
+   assoc      := Nat.add_assoc,
+   -- `Nad.zero_add` to dostępne w Leanie twierdzenie o treści `∀ (n : Nat), 0 + n = n`.
+   unit_left  := Nat.zero_add, 
+   -- A tutaj, dla zabawy, sami sobie zrobimy na szybko dowód interaktywny:
+   unit_right := by intro n ; rfl}
+```
+
+Lean nie zgłasza błędu, co oznacza, że tworząc stałą `Nat_add_is_mono`, wszystkim polom rekordu
+`Monoid` w wersji dla typu `Nat` przypisaliśmy (definicyjnie, stąd są tam symbole `:=`) wartości
+zgodne z wymaganiami tego rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie
+zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to tym samym
+udowodniliśmy de facto pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie liczb
+naturalnych *jest* działaniem monoidalnym.
