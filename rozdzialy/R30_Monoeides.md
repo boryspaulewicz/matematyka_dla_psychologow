@@ -368,8 +368,8 @@ zgodne z wymaganiami tego rekordu. Chociaż nie napisaliśmy ani `theorem`, ani 
 zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak tym samym
 udowodniliśmy pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie liczb naturalnych *jest*
 działaniem monoidalnym. Mówiąc jeszcze inaczej, chociaż nie ma typu zdaniowego, term
-`Nat_add_is_a_monoid` jest twierdzeniem, bo pełni rolę twierdzenia, a pełni rolę twierdzenia, bo
-może.
+`Nat_add_is_a_monoid` *jest* twierdzeniem, ponieważ pojęcie twierdzenia jest *funkcjonalne*, a ten
+term *pełni rolę* twierdzenia, a pełni rolę twierdzenia, bo *może*.
 
 **Sugestia**: Może masz ochotę zrobić to samo dla mnożenia liczb naturalnych? Podpowiem Ci, że nie
 ma w Leanie stałej `Nat.one`, ale, jak wiesz, Lean interpretuje domyślnie stałą `1` jako liczbę
