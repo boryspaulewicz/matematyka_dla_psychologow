@@ -42,10 +42,10 @@ ze względu na te działania.
 
 To może się wydawać oczywiste, ale w praktyce początkowo łatwo o tym zapomnieć: *Mówiąc o pewnych
 strukturach jako o monoidach ogłaszamy, że w dalszym rozumowaniu będziemy uwzględniać tylko łączność
-i obecność elementu neutralnego*. Inaczej mówiąc ogłaszamy w ten sposób, że bez wprowadzenia
-dodatkowych założeń czy dokonania dodatkowych wyborów *nie* będziemy korzystać z takich własności
-jak na przykład przemienność albo odwracalność, ponieważ działania monoidalne mogą, ale nie muszą
-mieć takich własności.
+i obecność elementu neutralnego*. Czyli ogłaszamy w ten sposób, że bez wprowadzenia dodatkowych
+założeń czy dokonania dodatkowych wyborów *nie* będziemy korzystać z takich własności jak na
+przykład przemienność albo odwracalność, ponieważ działania monoidalne mogą, ale nie muszą mieć
+takich własności.
 
 Po co mielibyśmy *ignorować* coś, o czym być może wiemy, że istnieje albo jest prawdą i że jest,
 mówiąc ogólnie, ważne, na przykład własność przemienności, która faktycznie przysługuje niektórym
@@ -65,8 +65,8 @@ rozmaitych twierdzeń, a z jakich *nie* musimy, w czym zresztą bardzo pomaga pe
 Z drugiej strony, skupiając się na słabszych założeniach czy ogólniejszych konstrukcjach osiągamy
 też czasem ważne korzyści natury *psychologicznej*. Mam na myśli mniejszą *dezorientację* wynikającą
 z mniejszej liczby uwzględnianych aspektów, dzięki której jakiś problem może być *łatwiej*
-rozwiązać, gdy rozważamy jego wersję *ogólniejszą*. To jest o ile nie będzie nam za bardzo
-przeszkadzać ewentualna relatywnie mała liczba konkretnych przykładów, co może wymagać trochę
+rozwiązać, gdy rozważamy jego wersję *ogólniejszą*. To jest o ile nie będą nam za bardzo
+przeszkadzać ewentualne trudności w znajdywaniu reprezentatywnych przykładów, co może wymagać trochę
 czasu. Dlatego może być na przykład potencjalnie łatwiej zrozumieć, o co chodzi w *całej*
 psychologii, *nie* przyglądając się *realistycznym* przykładom badań lub teorii, zamiast tego
 poszukując przykładów po angielsku określanych często jako *zabawkowe* (ang. *toy*; więcej na ten
