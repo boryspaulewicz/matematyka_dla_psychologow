@@ -27,7 +27,7 @@ między innymi dlatego, że już ten pierwszy sposób pisania jest w zasadzie
 wymyślać i konsekwentnie stosować kolejnych symboli na oznaczenie czegoś, co na przykład przypomina
 pod pewnymi względami dodawanie, ale nie jest (zwykłym) dodawaniem, tym bardziej, że matematycy są
 nie tylko do tego rodzaju wieloznaczności przyzwyczajeni, ale wręcz czasem jej *oczekują*. A
-oczekują między innymi dlatego, że wolą nie zapamiętywać więcej szczegółów notacji, niż to
+oczekują jej między innymi dlatego, że wolą nie zapamiętywać więcej szczegółów notacji, niż to
 *potrzebne*.
 
 Tego rodzaju zwyczaje komunikacyjne odpowiadają temu, jak posługujemy się na codzień językami
