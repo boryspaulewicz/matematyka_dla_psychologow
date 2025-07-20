@@ -439,6 +439,5 @@ półformalnie, zdefiniowane w sposób dookreślający (czyli mają jakieś pó�
 to jest definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
 wzorcem zależnym:
 
-`(M : Zbiór, * : M × M → M, u : M,  
-  h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b *  c),  
-  h₂ : ∀ a ∈ M, u * a = a * u = a)`.
+`(M : Zbiór, * : M × M → M, u : M, h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b * c), h₂ : ∀ a ∈ M, u *
+a = a * u = a)`.
