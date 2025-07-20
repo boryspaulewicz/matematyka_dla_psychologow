@@ -1,16 +1,18 @@
 <!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
-Jeszcze dokładnie nie wiem.
+Po wstępnym zapoznaniu się z pojęciem monoidu wprowadzamy narzędzia programistyczne, które, ponieważ
+są fragmentami struktury pewnego języka (w tym wypadku Leana), jak *każde* takie fragmenty pozwalają
+myśleć o różnych sprawach w nowy i w przypadku języków formalnych kontrolowany sposób. W tym między
+innymi celu wracamy do łączności działań i do replikowania ukrytej mechaniki prozy matematycznej w
+kodzie. A replikujemy ją w tym rozdziale w rekordowy sposób.
+
+Poza tym zaczynamy mówić o różnicach między funkcyjnymi i imperatywnymi językami programowania i
+tworzymy coś w rodzaju cienia programu Hello, World!
 
 ## Μονοειδές
 
-Zaczniemy od wprowadzenia narzędzi programistycznych, które, ponieważ są fragmentami struktury
-pewnego języka (w tym wypadku Leana), jak *każde* takie fragmenty pozwalają myśleć o różnych
-sprawach w nowy i w przypadku języków formalnych kontrolowany sposób. W tym między innymi celu
-wracamy do łączności działań i do replikowania ukrytej mechaniki prozy matematycznej w kodzie.
-
-W książkach dotyczących algebry abstrakcyjnej można znaleźć tego rodzaju zdania ...
+No więc w książkach dotyczących algebry abstrakcyjnej można znaleźć tego rodzaju zdania ...
 
 *[Monoid](https://pl.wikipedia.org/wiki/Monoid) to trójka `(M, *, u)` złożona ze zbioru `M`,
 określonego na nim działania łącznego `*` i elementu neutralnego `u` ze względu na to działanie*.
@@ -391,8 +393,8 @@ funkcja z (arbitralnych) typów (typu `Type 1`, ale to akurat drobiazg) do (niep
 całkiem wyspecjalizowanych) typów (rekordowych):
 
 ```lean
--- No przecież to jest aplikacja! (termu `Rekord` do termu `Nat`):
-#check Record Nat -- Rekord Nat : Type
+-- No przecież że to aplikacja (termu `Rekord` do termu `Nat`):
+#check Rekord Nat -- Rekord Nat : Type
 ```
 
 Nie mówiłem, że strzałki i funkcje są dosłownie wszędzie? A ten fragment prozy matematycznej, który
