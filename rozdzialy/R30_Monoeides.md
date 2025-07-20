@@ -372,8 +372,8 @@ może.
 
 **Sugestia**: Może masz ochotę zrobić to samo dla mnożenia liczb naturalnych? Podpowiem Ci, że nie
 ma w Leanie stałej `Nat.one`, ale, jak wiesz, Lean interpretuje domyślnie stałą `1` jako liczbę
-naturalną. Poza tym, tak jak najczęściej stosowaną w Leanie skrótową nazwą na działania
-"dodawaniopodobne" (ech) jest `add`, tak w przypadku działań "mnożeniopodobnych" taką nazwą jest
+naturalną. Poza tym, tak jak najczęściej stosowaną w Leanie skrótową nazwą dla działań
+"dodawaniopodobnych" (ech) jest `add`, tak w przypadku działań "mnożeniopodobnych" taką nazwą jest
 `mul`.
 
 Pora na kolejną zagadkę i kolejny wgląd. Rozważmy taką definicję:
