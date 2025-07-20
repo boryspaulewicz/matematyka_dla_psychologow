@@ -404,7 +404,7 @@ elementu neutralnego `u` ze względu na to działanie*.
 tylko między innymi. Zanim odpowiesz, zbadaj proszę nonszalancko bo wybiórczo taki fragment kodu:
 
 ```lean
-def powitanie : (ol : Osoba_ludzka) → String :=
+def powitanie : Osoba_ludzka → String :=
   -- Data urodzenia nas w tym przypadku nie interesuje
   fun ⟨imie, nazwisko, _⟩ => (imie.append " ").append nazwisko
 
@@ -418,7 +418,7 @@ za pomocą dopasowania wzorców. Ponieważ można też tworzyć termy typów rek
 to tą samą funkcję można zdefiniować również tak:
 
 ```lean
-def powitanie' : (ol : Osoba_ludzka) → String :=
+def powitanie' : Osoba_ludzka → String :=
   fun {imie := i, nazwisko := n, data_urodzenia := _} => (i.append " ").append n
 
 -- "Przechwytujące" zmienne są tutaj po *prawej* od symboli definiowania, bo (z dokładnością do
