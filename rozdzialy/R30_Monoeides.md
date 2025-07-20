@@ -422,9 +422,9 @@ to tą samą funkcję można zdefiniować również tak:
 def powitanie' : Osoba_ludzka → String :=
   fun {imie := i, nazwisko := n, data_urodzenia := _} => (i.append " ").append n
 
--- "Przechwytujące" zmienne są tutaj po *prawej* od symboli definiowania, bo (z dokładnością do
--- lukru składniowego) właśnie w tych miejscach *musiały* być termy, których wartości zostały
--- przypisane do tych pól.
+-- "Przechwytujące" zmienne są tutaj po *prawej* od symboli definiowania, bo, z dokładnością do
+-- lukru składniowego, który zawsze można łatwo zdjąć, właśnie w tych miejscach *musiały* być termy,
+-- których wartości zostały przypisane do tych pól.
 ```
 
 To jeszcze raz zapytam: Ten hipotetyczny fragment pierwszego rozdziału hipotetycznego podręcznika
