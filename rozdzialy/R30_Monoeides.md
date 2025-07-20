@@ -157,7 +157,8 @@ deriving Repr
 -- ... pojawia się komunikat o błędzie. A tutaj nie:
 def osoba1 := Osoba_ludzka.tworz "Kryspin" "Ciekawski" ⟨1, 3, 1009⟩
 #eval osoba1
--- `{ imie := "Stefan", nazwisko := "Ciekawski", data_urodzenia := { dzien := 1, miesiac := 3, rok := 1009 } }`
+-- `{ imie := "Kryspin", nazwisko := "Ciekawski", 
+--    data_urodzenia := { dzien := 1, miesiac := 3, rok := 1009 } }`
 ```
 
 Postanowiłem używać nazwy "rekord" zamiast "struktura", bo tego ostatniego słowa używa się w
