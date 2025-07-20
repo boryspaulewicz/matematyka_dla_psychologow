@@ -12,7 +12,7 @@ najprostszej możliwej postaci.</em></div>
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
 
-**Historia zmian** jest [tu](Historia_zmian.md), a **spis treści** [tam](#spis_tresci).
+**Historia zmian** jest [tu](Historia_zmian.md), a **spis treści** jest [tam](#spis_tresci).
 
 ## Przedmowa
 
