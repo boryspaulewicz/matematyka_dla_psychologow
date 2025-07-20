@@ -7,8 +7,8 @@ Jeszcze dokładnie nie wiem.
 
 Zaczniemy od wprowadzenia narzędzi programistycznych, które, ponieważ są fragmentami struktury
 pewnego języka (w tym wypadku Leana), jak *każde* takie fragmenty pozwalają myśleć o różnych
-sprawach w nowy i kontrolowany sposób. W tym między innymi celu wracamy do łączności działań i do
-replikowania ukrytej mechaniki prozy matematycznej w kodzie.
+sprawach w nowy i w przypadku języków formalnych kontrolowany sposób. W tym między innymi celu
+wracamy do łączności działań i do replikowania ukrytej mechaniki prozy matematycznej w kodzie.
 
 W książkach dotyczących algebry abstrakcyjnej można znaleźć tego rodzaju zdania ...
 
@@ -22,8 +22,9 @@ działanie*.
 
 Zwracam uwagę, że chociaż pojawił się tutaj symbol `*`, w definicji monoidu chodzi o dowolne
 działania o wymienionych własnościach, nie tylko takie, które mogą się kojarzyć z mnożeniem. Zresztą
-matematycy oznaczają działania monoidalne (jeśli można je tak nazwać) rozmaicie, zwykle wybierając
-symbole, których nie używają w danym kontekście do czegoś innego.
+matematycy oznaczają działania monoidalne (będę je tutaj tak nazywał, chociaż o ile wiem ten sposób
+mówienia jest rzadki) rozmaicie, zwykle wybierając symbole, których nie używają w danym kontekście
+do czegoś innego.
 
 Gdy matematycy mówią, że coś jest (niekoniecznie monoidalym) *działaniem na zbiorze `X`*, mają
 najczęściej na myśli (między innymi) bycie *funkcją* o postaci `X × X → X`. Na przykład, dodawanie
@@ -102,7 +103,7 @@ musimy *wykazać* albo *założyć*, że ...
    `∀ a ∈ M, u * a = a * u = a`.
 
 Jednym ze sposobów badania nieuchronnych konsekwencji tych i tylko tych własności działań - czyli
-samej "monoidalności" - w Leanie jest skorzystanie z typów danych występujących w wielu językach
+samej monoidalności - w Leanie jest skorzystanie z typów danych występujących w wielu językach
 programowania i nazywanych *rekordami* albo (częściej)
 [*strukturami*](https://pl.wikipedia.org/wiki/Struktura_(programowanie)):
 
