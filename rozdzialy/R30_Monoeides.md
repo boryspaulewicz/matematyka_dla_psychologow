@@ -13,7 +13,7 @@ replikowania ukrytej mechaniki prozy matematycznej w kodzie.
 W książkach dotyczących algebry abstrakcyjnej można znaleźć tego rodzaju zdania ...
 
 *[Monoid](https://pl.wikipedia.org/wiki/Monoid) to trójka `(M, *, u)` złożona ze zbioru `M`,
-określonego na nim działania `*` i elementu neutralnego `u` ze względu na to działanie*.
+określonego na nim działania łącznego `*` i elementu neutralnego `u` ze względu na to działanie*.
 
 ... albo tego rodzaju zdania:
 
@@ -328,8 +328,8 @@ structure Monoid (α : Type) where
 Jak łatwo zauważyć, ta formalizacja odpowiada dokładnie fragmentowi prozy matematycznej przytoczonej
 na początku rozdziału:
 
-*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
-neutralnego `u` ze względu na to działanie*.
+*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
+elementu neutralnego `u` ze względu na to działanie*.
 
 A czy zauważyłaś, że ponieważ pola składowe tego rekordu to tylko pewne *stałe o określonych
 typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? Definicja parametrycznego typu
@@ -397,8 +397,8 @@ całkiem wyspecjalizowanych) typów (rekordowych):
 Nie mówiłem, że strzałki i funkcje są dosłownie wszędzie? A ten fragment prozy matematycznej, który
 przytoczyłem na początku i który tutaj jeszcze raz wstawię, żebyś nie musiała go szukać ...
 
-*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
-neutralnego `u` ze względu na to działanie*.
+*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
+elementu neutralnego `u` ze względu na to działanie*.
 
 ... to co to właściwie jest? Oczywiście, między innymi. Wszystko jest czymś lub jest jakieś zawsze
 tylko między innymi. Zanim odpowiesz, zbadaj proszę nonszalancko bo wybiórczo taki fragment kodu:
@@ -429,12 +429,16 @@ def powitanie' : (ol : Osoba_ludzka) → String :=
 To jeszcze raz zapytam: Ten hipotetyczny fragment pierwszego rozdziału hipotetycznego podręcznika
 wprowadzającego do teorii monoidów, to co to właściwie jest?
 
-*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
-neutralnego `u` ze względu na to działanie*.
+*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
+elementu neutralnego `u` ze względu na to działanie*.
 
 I od razu odpowiem: To między innymi początek półformalnej definicji pewnej struktury/funkcji,
 zawierającej rozmaite (dotyczące monoidów) pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia,
 które, za wyjątkiem aksjomatów, są w ciele tej struktury/funkcji w jakiś sposób, zapewne
 półformalnie, zdefiniowane w sposób dookreślający (czyli mają jakieś półformalne ciała), a wszystko
 to jest definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
-wzorcem zależnym `(M : Zbiór, * : M × M → M, u : M)`.
+wzorcem zależnym:
+
+`(M : Zbiór, * : M × M → M, u : M,
+  h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b *  c),
+  h₂ : ∀ a ∈ M, u * a = a * u = a)`.
