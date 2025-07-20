@@ -177,7 +177,9 @@ jak choćby [*C*](https://pl.wikipedia.org/wiki/C_(j%C4%99zyk_programowania)), k
 inny charakter niż języki [*funkcyjne*](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)
 (takie jak Lean), zajmują, ale w czystych językach funkcyjnych ten aspekt nie ma akurat większego
 znaczenia, bo programy napisane w czystych językach funkcyjnych *nie służą do opisu zmian fizycznego
-stanu komputera*. Dlatego ...
+stanu komputera*. 
+
+Dlatego ...
 
 ```lean
 -- ... nie możemy zrobić tak,
