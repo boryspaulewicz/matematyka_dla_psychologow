@@ -1,41 +1,41 @@
 <!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
-Po wstępnym zapoznaniu się z pojęciem monoidu wprowadzamy narzędzia programistyczne, które, ponieważ
-są fragmentami struktury pewnego języka (w tym wypadku Leana), jak *każde* takie fragmenty pozwalają
-myśleć o różnych sprawach w nowy i w przypadku języków formalnych kontrolowany sposób. W tym między
-innymi celu wracamy do łączności działań i do replikowania ukrytej mechaniki prozy matematycznej w
-kodzie. A replikujemy ją w tym rozdziale w sposób rekordowy.
+Po wstępnym zapoznaniu się z pojęciem monoidu wprowadzimy narzędzia programistyczne, które, ponieważ
+są fragmentami struktury pewnego języka (akurat w tym wypadku Leana), jak *każde* takie fragmenty
+pozwalają myśleć o różnych sprawach w nowy, a w przypadku języków formalnych również kontrolowany
+sposób. W tym między innymi celu wrócimy do kwestii łączności działań i do replikowania ukrytej
+mechaniki prozy matematycznej w kodzie. A zreplikujemy ją w tym rozdziale w sposób rekordowy.
 
-Poza tym zaczynamy mówić o różnicach między funkcyjnymi i imperatywnymi językami programowania i
-tworzymy coś w rodzaju cienia programu Hello, World!
+Poza tym zaczyniemy mówić o różnicach między funkcyjnymi i imperatywnymi językami programowania i
+stworzymy coś w rodzaju cienia programu *Hello world*.
 
 ## Μονοειδές
 
-No więc w książkach dotyczących algebry abstrakcyjnej można znaleźć tego rodzaju zdania ...
+No więc w książkach dotyczących algebry abstrakcyjnej można znaleźć takie zdania ...
 
 *[Monoid](https://pl.wikipedia.org/wiki/Monoid) to trójka `(M, *, u)` złożona ze zbioru `M`,
 określonego na nim działania łącznego `*` i elementu neutralnego `u` ze względu na to działanie*.
 
-... albo tego rodzaju zdania:
+... albo takie:
 
 *Monoid to zbiór wyposażony w łączne działanie i zawierający element neutralny ze względu na to
 działanie*.
 
-Zwracam uwagę, że chociaż pojawił się tutaj symbol `*`, w definicji monoidu chodzi o dowolne
-działania o wymienionych własnościach, nie tylko takie, które mogą się kojarzyć z mnożeniem. Zresztą
-matematycy oznaczają działania monoidalne (będę je tutaj tak nazywał, chociaż o ile wiem ten sposób
-mówienia jest rzadki) rozmaicie, zwykle wybierając symbole, których nie używają w danym kontekście
-do czegoś innego.
+Zwracam uwagę, że chociaż pojawił się symbol `*`, w definicji monoidu chodzi o dowolne działania o
+wymienionych własnościach, nie tylko takie, które mogą się kojarzyć z mnożeniem. Zresztą matematycy
+oznaczają działania monoidalne (będę je tutaj tak nazywał, chociaż o ile wiem ten sposób mówienia
+jest rzadki) rozmaicie, wybierając na ogół symbole, których nie używają w danym kontekście do czegoś
+innego.
 
-Gdy matematycy mówią, że coś jest (niekoniecznie monoidalym) *działaniem na zbiorze `X`*, mają
-najczęściej na myśli (między innymi) bycie *funkcją* o postaci `X × X → X`. Na przykład, dodawanie
-jest działaniem między innymi na zbiorze liczb naturalnych w tym właśnie znaczeniu, że każdej
-uporządkowanej parze liczb naturalnych `(m, n)` przyporządkowuje unikalną liczbę naturalną `m + n`,
-którą nazywamy wynikiem tego działania dla tej pary liczb. Jak sądzę nie będzie już w tym momencie
-dla Ciebie zaskoczeniem, że ostatnie zdanie mówi to samo, co wyrażenie `+ : ℕ × ℕ → ℕ`, występujące
-w tym kontekście w roli zdania, które ma być odczytane jako *`+` jest działaniem na zbiorze liczb
-naturalnych*.
+Jak już być może pamiętasz, gdy matematycy mówią, że coś jest (niekoniecznie monoidalym) *działaniem
+na zbiorze `X`*, mają najczęściej na myśli (między innymi) bycie *funkcją* o postaci `X × X → X`. Na
+przykład, dodawanie jest działaniem między innymi na zbiorze liczb naturalnych w tym właśnie
+znaczeniu, że każdej uporządkowanej parze liczb naturalnych `(m, n)` przyporządkowuje unikalną
+liczbę naturalną, będącą wartością wyrażenia `m + n`, którą nazywamy wynikiem tego działania dla tej
+pary liczb. Jak sądzę nie będzie już dla Ciebie zaskoczeniem, że ostatnie zdanie mówi to samo, co
+wyrażenie `+ : ℕ × ℕ → ℕ`, występujące w tym kontekście w roli zdania, które może być odczytane jako
+*`+` jest działaniem na zbiorze liczb naturalnych*.
 
 Przykładami monoidów są między innymi trójki `(ℕ, +, 0)` i `(ℕ, ×, 1)`, a mówiąc bardziej swobodnie,
 liczby naturalne ze względu na dodawanie i mnożenie, a mówiąc swobodnie i maksymalnie skrótowo,
@@ -50,29 +50,30 @@ założeń czy dokonania dodatkowych wyborów *nie* będziemy korzystać z takic
 przykład przemienność albo odwracalność, ponieważ działania monoidalne mogą, ale nie muszą mieć
 takie własności.
 
-Po co mielibyśmy *ignorować* coś, o czym być może wiemy, że istnieje albo jest prawdą i że jest,
-mówiąc ogólnie, ważne, na przykład własność przemienności, która faktycznie przysługuje niektórym
-działaniom monoidalnym takim jak dodawanie liczb i która jest bez wiątpienia ważna w wielu różnych
-sytuacjach? Otóż po to, żeby *ustalić coś na wyższym poziomie ogólności*. Działanie łączne nie musi
-być przemienne ani odwracalne i wiele działań łącznych nie ma co najmniej jednej z tych
-własności. Cokolwiek uda nam się ustalić na temat monoidów, będziemy mogli zastosować zarówno do
-działań łącznych, które są jednocześnie przemienne albo odwracalne, jak i do takich, które nie są.
+Po co mielibyśmy *ignorować* coś, o czym być może wiemy, że istnieje albo że jest prawdą, a w
+dodatku jest, mówiąc ogólnie, ważne, na przykład własność przemienności, która faktycznie
+przysługuje niektórym działaniom monoidalnym takim jak dodawanie liczb i która jest bez wiątpienia
+ważna w wielu różnych sytuacjach? Otóż po to, żeby *ustalić coś na wyższym poziomie
+ogólności*. Działanie łączne nie musi być przemienne ani odwracalne i wiele działań łącznych nie ma
+co najmniej jednej z tych własności. Cokolwiek uda nam się ustalić na temat monoidów, będziemy mogli
+zastosować zarówno do działań łącznych, które są jednocześnie przemienne albo odwracalne, jak i do
+takich, które nie są.
 
 Ze słabszych założeń z definicji wynika na ogół mniej. Im wyższy poziom ogólności, to znaczy im
 mniej albo im słabsze własności zakładamy, tym więc na ogół *trudniej* o nietrywialne wnioski, ale
 też tym potencjalnie większe jest *znaczenie* ewentualnych wniosków, bo więcej jest okazji do ich
 zastosowania. Również dlatego warto starać się ustalać, z jakich założeń *musimy* korzystać dowodząc
-rozmaitych twierdzeń, a z jakich *nie* musimy, w czym zresztą bardzo pomaga pełna formalizacja.
+rozmaitych twierdzeń, a z jakich *nie* musimy, w czym bardzo pomaga pełna formalizacja.
 
 Z drugiej strony, skupiając się na słabszych założeniach czy ogólniejszych konstrukcjach osiągamy
-też czasem ważne korzyści natury *psychologicznej*. Mam na myśli mniejszą *dezorientację* wynikającą
-z mniejszej liczby uwzględnianych aspektów, dzięki której jakiś problem może być *łatwiej*
-rozwiązać, gdy rozważamy jego wersję *ogólniejszą*. To jest o ile nie będą nam za bardzo
-przeszkadzać ewentualne trudności w znajdywaniu reprezentatywnych przykładów, co może wymagać trochę
+czasem ważne korzyści natury *psychologicznej*. Mam na myśli mniejszą *dezorientację*, wynikającą z
+mniejszej liczby uwzględnianych aspektów, dzięki której jakiś problem może być *łatwiej* rozwiązać,
+gdy rozważamy jego wersję *ogólniejszą*. To jest o ile nie będą nam za bardzo przeszkadzać
+ewentualne trudności w znajdywaniu reprezentatywnych przykładów, co może wymagać trochę
 czasu. Dlatego może być na przykład potencjalnie łatwiej zrozumieć, o co chodzi w *całej*
-psychologii, *nie* przyglądając się *realistycznym* przykładom badań lub teorii, zamiast tego
-poszukując przykładów po angielsku określanych często jako *zabawkowe* (ang. *toy*; więcej na ten
-temat znajdziesz [tu](https://en.wikipedia.org/wiki/Toy_problem) i
+psychologii, *nie* przyglądając się wcale *realistycznym* przykładom badań lub teorii, a zamiast
+tego poszukując przykładów po angielsku określanych często jako *zabawkowe* (ang. *toy*; więcej na
+ten temat znajdziesz [tu](https://en.wikipedia.org/wiki/Toy_problem) i
 [tam](https://en.wikipedia.org/wiki/Toy_model)).
 
 To może być jeden z powodów, dla których Pearl, który stworzył aksjomatyczną teorię przyczynowości,
@@ -95,16 +96,13 @@ Przytoczoną półformalną definicję monoidu możemy rozpakować między innym
 2. Żeby *móc nazywać* jakąś funkcję działaniem monoidu i jakiś element jego elementem neutralnym
 musimy *wykazać* albo *założyć*, że ...
 
-   1. ... to działanie jest łączne, to znaczy ...
-   
-   `∀ a, b, c ∈ M, (a * b) * c = a * (b * c)`,
+   1. ... to działanie jest łączne, to znaczy, że `∀ a, b, c ∈ M, (a * b) * c = a * (b * c)`, ...
 
-   2. ... a wyróżniony element jest elementem neutralnym ze względu na to działanie, to znaczy:
-   
-   `∀ a ∈ M, u * a = a * u = a`.
+   2. ... a wyróżniony element jest elementem neutralnym ze względu na to działanie, to znaczy, że
+      `∀ a ∈ M, u * a = a * u = a`.
 
-Jednym ze sposobów badania nieuchronnych konsekwencji tych i tylko tych własności działań - czyli
-samej monoidalności - w Leanie jest skorzystanie z typów danych występujących w wielu językach
+Jednym ze sposobów badania nieuchronnych konsekwencji tych i tylko tych własności działań, czyli
+samej monoidalności, w Leanie, jest skorzystanie z typów danych występujących w wielu językach
 programowania i nazywanych *rekordami* albo (częściej)
 [*strukturami*](https://pl.wikipedia.org/wiki/Struktura_(programowanie)).
 
@@ -115,9 +113,9 @@ programowania i nazywanych *rekordami* albo (częściej)
 -- `Data`, którego polami niech się staną (`where`) ...
 structure Data where
   -- ... `dzien`, `miesiac` i `rok`, wszystkie o typie `Nat` ...
-  dzien : Nat
+  dzien   : Nat
   miesiac : Nat
-  rok : Nat
+  rok     : Nat
 -- ... i proszę mi od razu automatycznie wyprowadzić i zdefiniować metodę wyświetlania termów tego
 -- typu.
 deriving Repr
@@ -147,8 +145,8 @@ def data3 : Data := ⟨0, 13, 1313⟩
 
 structure Osoba_ludzka where
   tworz :: -- W ten sposób możemy zmienić nazwę funkcji tworzącej termy typu rekordowego:
-  imie : String
-  nazwisko : String
+  imie           : String
+  nazwisko       : String
   data_urodzenia : Data
 deriving Repr
 
@@ -170,22 +168,23 @@ nazywa) Wikipedii zawiera (w tym momencie, to jest 2025.07.19) na samym początk
 które w ogólnym przypadku *nie* są prawdziwe.
 
 Żeby jakiś typ danych był rekordem, *nie* musi zawierać żadnych *powiązanych logicznie*
-informacji. To jest tylko typowe *zastosowanie* struktur albo element tak zwanego "dobrego stylu"
+informacji. To jest tylko *typowe zastosowanie* struktur albo element tak zwanego "dobrego stylu"
 programowania. Swoją drogą, wypadałoby raczej napisać *semantycznie*, bo na przykład między imieniem
-i nazwiskiem tej samej osoby nie ma żadnego związku logicznego, ale semantyczny jest, w końcu to dwa
-słowa, które *razem oznaczają* "w przybliżeniu unikalną" osobę. No i części struktury *nie* muszą
-*zajmować sąsiadujących obszarów w pamięci komputera*. Tak się składa, że w przypadku niektórych
-ważnych języków [*imperatywnych*](https://pl.wikipedia.org/wiki/Programowanie_imperatywne), takich
-jak choćby [*C*](https://pl.wikipedia.org/wiki/C_(j%C4%99zyk_programowania)), które mają zasadniczo
-inny charakter niż języki [*funkcyjne*](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)
-(takie jak Lean), zajmują, ale w czystych językach funkcyjnych ten aspekt nie ma akurat większego
-znaczenia, bo programy napisane w czystych językach funkcyjnych *nie służą do opisu zmian fizycznego
-stanu komputera*. 
+i nazwiskiem tej samej osoby nie ma żadnego związku logicznego, ale semantyczny jest, są to w końcu
+dwa słowa, które *razem oznaczają* "w przybliżeniu unikalną" osobę. No i części struktury *nie*
+muszą *zajmować sąsiadujących obszarów w pamięci komputera*. Tak się składa, że w przypadku
+niektórych ważnych języków
+[*imperatywnych*](https://pl.wikipedia.org/wiki/Programowanie_imperatywne), takich jak choćby
+[C](https://pl.wikipedia.org/wiki/C_(j%C4%99zyk_programowania)), które mają zasadniczo inny
+charakter niż języki [*funkcyjne*](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne), takie jak
+Lean, zajmują, ale w czystych językach funkcyjnych ten aspekt nie ma akurat większego znaczenia, bo
+programy napisane w czystych językach funkcyjnych *nie służą do opisu oczekiwanych zmian fizycznego
+stanu komputera*.
 
 Dlatego ...
 
 ```lean
--- ... nie możemy zrobić tak,
+-- ... nie możemy zrobić tak, ...
 --
 -- `data2.dzien := 5`
 --
@@ -194,12 +193,13 @@ Dlatego ...
 ```
 
 Term ewaluowany w ostatniej linii oznacza *nowy* term typu `Data`, powstający z termu `data2` przez
-*skopiowanie* wartości wszystkich pól za wyjątkiem pola `dzien`, któremu nadajemy tam wartość `5`.
+*skopiowanie* wartości wszystkich pól za wyjątkiem pola `dzien`, któremu nadajemy tam wartość `5`. W
+ten sposób nie dokonujemy więc żadnej zmiany żadnej definicji.
 
 **Sugestia**: Na początku tego rozdziału napisałem, że wprowadzę narzędzia programistyczne, które
 pozwalają myśleć o różnych sprawach w nowy i kontrolowany sposób. Chociaż może w tym momencie wydają
-Ci się jeszcze dosyć nieciekawe, takimi narzędziami są między innymi typy rekordowe. Żeby było Ci
-łatwiej przekonać się później, w jaki sposób takie konstrukcje mogą Ci pomóc w konsekwentnym
+Ci się jeszcze dosyć nieciekawe, takimi narzędziami są między innymi właśnie typy rekordowe. Żeby
+było Ci łatwiej przekonać się później, w jaki sposób takie konstrukcje mogą Ci pomóc w konsekwentnym
 myśleniu o przeróżnych sprawach, w tym również w czytaniu ze zrozumieniem tekstów pisanych przez
 matematyków, przydałoby się, żebyś zdefiniowała ...
 
@@ -210,13 +210,14 @@ matematyków, przydałoby się, żebyś zdefiniowała ...
 3. ... i pamiętajac, żeby poprosić Leana o konstrukcję "wyświetlacza" termów konstruowanego typu.
 
 Gdy to zrobisz, spróbuj może zdefiniować trzy różne stałe, których wartościami będą termy
-stworzonego przez Ciebie typu, robiąc to na trzy różne sposoby, to jest posługując się notacjami:
+stworzonego przez Ciebie typu rekordowego, robiąc to na trzy różne sposoby, to jest posługując się
+notacjami:
 
 1. `{nazwa_pola_1 := wartosc, nazwa_pola_2 := wartosc, ...}`
 
 2. `Nazwa_typu_rekordowego.nazwa_konstruktora wartosc wartosc ...`
 
-3. i `⟨wartość, wartość, ...⟩`. 
+3. `⟨wartosc, wartosc, ...⟩`
 
 Na koniec wyświetl sobie (całą) wartość którejś z tych stałych i wartość któregoś z jej pól za
 pomocą komendy `#eval`, oznaczając wybrane pole raz w stylu `Nazwa_typu_rekordowego.nazwa_pola
@@ -250,7 +251,7 @@ def hello_world' : IO Unit := do IO.println "Hello, world!"
 ```
 
 ... i umieścisz kursor na ostatniej linii, to zobaczysz ten sam tekst, ale to będzie wynik
-*wykonania* pewnego *działania*. 
+*wykonania* pewnego *działania*. Tak wiem.
 
 Zacznijmy może od tego, że stała `hello_world'` *nie* oznacza *funkcji*, ponieważ *nie ma w typie
 strzałki*, a tekst, który widzisz, gdy kursor jest na linii `#eval hello_world'`, to przykład tak
@@ -262,16 +263,18 @@ na mocy wprowadzonej definicji *znaczeniem* tej stałej. Natomiast wynik ewaluac
 to działanie *może być wykonane w określonych warunkach* i *musi być wykonane*, żeby ten skutek
 uboczny *za*istniał.
 
-*Możemy* pisać w Leanie programy imperatywne, czyli "rozkazujące" (komputerowi aby wykonał określone
-*działania fizyczne*), ale do tego służy *osobny język*, do którego należy między innymi słowo
-kluczowe [`do`](https://pl.wikipedia.org/wiki/Dront_dodo). Jest tak dlatego, że *wnioskowanie* na
-temat programów imperatywnych ma inny charakter, niż wnioskowanie na temat czystych programów
-funkcyjnych. W przypadku czystych programów funkcyjnych *nie występują efekty uboczne*, to znaczy,
-każda raz zdefiniowana stała ma już na zawsze określoną, nie dającą się zmienić wartość, a każda
-funkcja zwraca zawsze to samo dla tych samych argumentów.
+Jak widać, *możemy* pisać w Leanie programy imperatywne, czyli "rozkazujące" (komputerowi aby
+wykonał określone *działania fizyczne*), ale do tego służy *osobny język*, do którego należy między
+innymi słowo kluczowe [`do`](https://pl.wikipedia.org/wiki/Dront_dodo). Jest tak dlatego, że
+*wnioskowanie* na temat programów imperatywnych ma inny charakter, niż wnioskowanie na temat
+czystych programów funkcyjnych. W przypadku czystych programów funkcyjnych *nie występują efekty
+uboczne*, to znaczy, każda raz zdefiniowana stała ma już na zawsze określoną, nie dającą się zmienić
+wartość, a każda funkcja zwraca zawsze to samo dla tych samych argumentów. Dzięki temu treść albo
+sens albo znaczenie kodu jest w pewnym sensie całkowicie zawarte w samym kodzie (i jego użytkowniku
+będącym jednocześnie jego interpretatorem).
 
-Jak zdążyłaś się już wielokrotnie przekonać, ewaluacja czystych programów funkcyjnych przebiega w
-taki sam sposób, jak (poprawna) interpretacja albo innego rodzaju poprawne przekształcanie wyrażeń
+Jak zdążyłaś się już wielokrotnie przekonać, ewaluacja czystych programów funkcyjnych przebiega więc
+w taki sam sposób, jak (poprawna) interpretacja albo innego rodzaju poprawne przekształcanie wyrażeń
 matematycznych. W przeciwieństwie do tego rodzaju ewaluacji, ewaluacja programów imperatywnych może
 dawać *różne* wyniki dla *tych samych* wejść, w tym również - niezależnie od poprawności kodu, który
 w normalnych warunkach *powinien* dostarczyć jakiś wynik - może nie dać *żadnego* wyniku, to jest
@@ -283,12 +286,12 @@ interakcję z Leanem jest *rezultatem działania Leana*, a nie skompilowanego do
 które "rozumie" komputer, "samodzielnego" programu "mówiącego" komputerowi, co ma "robić".
 
 Gdy na skutek *wykonania* inaczej *uruchomienia* programu imperatywnego *jako zamierzony rezultat*
-powstanie na przykład jakiś plik na dysku komputera, nie będzie się dało o tym *fizycznym zdarzeniu*
-wnioskować w taki sam sposób, w jaki można wnioskować na temat na przykład wyniku dodawania
-rozumianego (i traktowanego) *matematycznie*. *Skutek* polegający na utworzeniu pliku na dysku *nie
-musi* przecież zajść, bo dysk może być pełny, albo może nastąpić awaria komputera. A *na mocy
-przyjętych przez nas reguł komunikacyjnych* czyli aksjomatów, *niezależnie od stanu świata*, liczba
-`2` *jest i zawsze będzie* wynikiem dodawania na przykład liczb `0` i `2`.
+powstanie jakiś plik na dysku komputera, nie będzie się dało o tym *fizycznym zdarzeniu* wnioskować
+w taki sam sposób, w jaki można wnioskować na temat wyniku dodawania rozumianego (i traktowanego)
+*matematycznie*. *Skutek* polegający na utworzeniu pliku na dysku *nie musi* przecież zajść, bo dysk
+może być pełny, albo może nastąpić awaria komputera. A *na mocy przyjętych przez nas reguł
+komunikacyjnych*, czyli aksjomatów, *niezależnie od stanu świata*, liczba `2` *jest i* - dopóki
+będziemy ze sobą współpracować - *zawsze będzie* wynikiem dodawania na przykład liczb `0` i `2`.
 
 Istnieje pewien elegancki i uniwersalny sposób wnioskowania na temat działania programów
 imperatywnych, ale ten sposób wymaga formalizacji *semantycznego* aspektu takich programów. Polega
@@ -299,8 +302,8 @@ wspominałem, dlatego dopiero teraz pojawiło się coś w rodzaju namiastki prog
 world](https://pl.wikipedia.org/wiki/Hello_world), od którego często zaczyna się naukę programowania
 w językach imperatywnych.
 
-W odpowiednim momencie zaczniemy (mam nadzieję) przyglądać się monadom, między innymi dlatego, że te
-pozwalają lepiej zrozumieć, o co chodzi w *przyczynowości*. Zanim to jednak nastąpi, powinniśmy się
+W odpowiednim momencie będziemy, mam nadzieję, przyglądać się monadom, między innymi dlatego, że te
+pozwalają zrozumieć głębiej, o co chodzi w *przyczynowości*. Zanim to jednak nastąpi, powinniśmy się
 moim zdaniem przyzwyczaić do wielu innych subtelnych matematycznych zjawisk. Za to już niebawem,
 korzystając między innymi z monoidów, będziemy się bawić pewnymi ważnymi uproszczonymi modelami
 programowania imperatywnego. Okaże się wtedy, że podobieństwo nazw "monoid" i "monada", nawet jeśli
@@ -310,9 +313,9 @@ jest w dużym stopniu przypadkowe, odpowiada czemuś zarazem ważnemu, również
 ## Monoid jako rekord
 
 Typy rekordowe też oczywiście mogą być i często są *zależne* (albo parametryczne). Zgodnie z
-poniższą definicją, monoid to struktura złożona z określonych, na 1. jakimś typie `α`, 2. działania
-binarnego `op` i 3. wyróżnionego elementu `u` tego typu, spełniających 4. warunek łączności
-(`assoc`) i dwa (5. i 6.) warunki bycia elementem neutralnym, inaczej jednostką (`unit`).
+poniższą definicją, monoid to struktura złożona z określonych, 1. na jakimś typie `α`: 2. działania
+binarnego `op` i 3. wyróżnionego elementu `u` tego typu, spełniających warunki: 4. łączności
+(`assoc`) i (dwa warunki) 5. i 6. bycia elementem neutralnym, inaczej jednostką (`unit`).
 
 ```lean
 structure Monoid (α : Type) where
@@ -338,7 +341,7 @@ typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? Definicj
 rekordowego `Monoid (α : Type)` to zatem nic innego[^1] jak *aksjomaty* monoidu.
 
 Uwaga, to jest początkowo dezorientujące, za to z czasem staje się nie tylko oczywiste, ale staje
-się też oczywiste, że to jest konieczne i lepiej jest czasem mieć świadomość, że takie jest:
+się też oczywiste, że to jest konieczne i lepiej czasem mieć świadomość, że takie jest:
 
 ```lean
 -- Specjalizacja działania monoidu `Monoid.op` do typu `Nat` ma typ ...
@@ -359,18 +362,18 @@ def Nat_add_is_a_monoid : Monoid Nat :=
    assoc      := Nat.add_assoc,
    -- `Nad.zero_add` to dostępne w Leanie twierdzenie o treści `∀ (n : Nat), 0 + n = n`.
    unit_left  := Nat.zero_add, 
-   -- A tutaj, dla zabawy, sami sobie zrobimy na szybko dowód interaktywny:
+   -- A tutaj, dla zabawy, konstruujemy dowód interaktywny:
    unit_right := by intro n ; rfl}
 ```
 
-Lean nie zgłasza błędu, co oznacza, że tworząc stałą `Nat_add_is_a_monoid`, wszystkim polom rekordu
-`Monoid` w wersji dla typu `Nat` przypisaliśmy (definicyjnie, stąd są tam symbole `:=`) wartości
-zgodne z wymaganiami tego rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie
-zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak tym samym
-udowodniliśmy pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie liczb naturalnych *jest*
-działaniem monoidalnym. Mówiąc jeszcze inaczej, chociaż nie ma typu zdaniowego, term
-`Nat_add_is_a_monoid` *jest* twierdzeniem, ponieważ pojęcie twierdzenia jest *funkcjonalne*, a ten
-term *pełni rolę* twierdzenia, a pełni rolę twierdzenia, bo *może*.
+Czy też usłyszałaś to bezgłośne kliknięcie idealnego dopasowania? Lean nie zgłasza błędu, co
+oznacza, że tworząc stałą `Nat_add_is_a_monoid`, wszystkim polom rekordu `Monoid` w wersji dla typu
+`Nat` przypisaliśmy (definicyjnie, dlatego są tam symbole `:=`) wartości zgodne z wymaganiami tego
+rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie zdefiniowaliśmy za pomocą
+słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak udowodniliśmy pewne *zdanie*: *że*
+dodawanie liczb naturalnych *jest* działaniem monoidalnym. Mówiąc jeszcze inaczej, chociaż nie ma
+typu zdaniowego, term `Nat_add_is_a_monoid` *jest* twierdzeniem, ponieważ pojęcie twierdzenia jest
+*funkcjonalne*, a ten term *pełni rolę* twierdzenia, a pełni rolę twierdzenia, bo *może*.
 
 **Sugestia**: Może masz ochotę zrobić to samo dla mnożenia liczb naturalnych? Podpowiem Ci, że nie
 ma w Leanie stałej `Nat.one`, ale, jak wiesz, Lean interpretuje domyślnie stałą `1` jako liczbę
@@ -386,9 +389,9 @@ structure Rekord (α : Type) where
 ```
 
 Prosty parametryczny typ rekordowy, prawda? A czy widzisz, że to jest funkcjonalnie funkcja?
-Wystarczy *uważnie przeczytać definicję*: *Dla każdego typu `α`, `Rekord α` jest typem rekordowym
+Wystarczy *uważnie przeczytać definicję*: *Dla każdego typu `α`, `Rekord α` jest typem rekordowym,
 zawierającym jedno `pole` typu `α`*. To jest więc *równocześnie* definicja typu rekordowego i
-funkcja z (arbitralnych) typów (typu `Type 1`, ale to akurat drobiazg) do (nieparametrycznych, bo
+funkcja z (arbitralnych) typów (typu `Type 1`, ale to akurat drobiazg) do (nieparametrycznych, czyli
 całkiem wyspecjalizowanych) typów (rekordowych):
 
 ```lean
@@ -397,7 +400,7 @@ całkiem wyspecjalizowanych) typów (rekordowych):
 ```
 
 Nie mówiłem, że strzałki i funkcje są dosłownie wszędzie? A ten fragment prozy matematycznej, który
-przytoczyłem na początku i który tutaj jeszcze raz wstawię, żebyś nie musiała go szukać ...
+przytoczyłem na początku, i który tutaj wstawię jeszcze raz, żebyś nie musiała go szukać ...
 
 *Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
 elementu neutralnego `u` ze względu na to działanie*.
@@ -408,24 +411,25 @@ tylko między innymi. Zanim odpowiesz, zbadaj proszę nonszalancko bo wybiórczo
 ```lean
 def powitanie : Osoba_ludzka → String :=
   -- Data urodzenia nas w tym przypadku nie interesuje
-  fun ⟨imie, nazwisko, _⟩ => (imie.append " ").append nazwisko
+  fun ⟨imie, nazwisko, _⟩ => "Hello, ".append ((imie.append " ").append nazwisko)
 
-#eval powitanie osoba -- `"Kryspin Ciekawski"`
+#eval powitanie osoba -- `"Hello, Kryspin Ciekawski"`
 ```
 
-Ponieważ (z dokładnością do lukru składniowego: `Typ_rekordowy.mk ...`, `{...}` i `⟨...⟩`) istnieje
-*tylko jeden* sposób konstruowania termu typu rekordowego, polegający na podaniu wartości dla
-*wszystkich* pól składających się na taki typ, to można przechwytywać wartości pól typów rekordowych
-za pomocą dopasowania wzorców. Ponieważ można też tworzyć termy typów rekordowych w stylu `{...}`,
-to tą samą funkcję można zdefiniować również tak:
+Ponieważ, z dokładnością do lukru składniowego: `Typ_rekordowy.mk ...`, `{...}` i `⟨...⟩`, który
+zawsze można łatwo zdjąć, istnieje *tylko jeden* sposób konstruowania termu typu rekordowego,
+polegający na podaniu wartości dla *wszystkich* pól składających się na taki typ, to można
+przechwytywać wartości pól typów rekordowych za pomocą dopasowania wzorców. Ponieważ można też
+tworzyć termy typów rekordowych w stylu `{...}`, to tą samą funkcję można zdefiniować również tak:
 
 ```lean
 def powitanie' : Osoba_ludzka → String :=
-  fun {imie := i, nazwisko := n, data_urodzenia := _} => (i.append " ").append n
+  fun {imie := i, nazwisko := n, data_urodzenia := _} => 
+    "Hello, ".append ((i.append " ").append n)
 
--- "Przechwytujące" zmienne są tutaj po *prawej* od symboli definiowania, bo, z dokładnością do
--- lukru składniowego, który zawsze można łatwo zdjąć, właśnie w tych miejscach *musiały* być termy,
--- których wartości zostały przypisane do tych pól.
+-- Zmienne "przechwytujące" są tutaj po *prawej* od symboli definiowania, bo, z dokładnością do
+-- lukru składniowego, właśnie w tych miejscach *musiały* być termy, których wartości zostały
+-- przypisane do tych pól.
 ```
 
 To jeszcze raz zapytam: Ten hipotetyczny fragment pierwszego rozdziału hipotetycznego podręcznika
@@ -439,25 +443,25 @@ postaci rozdziału, a może nawet całej książki), zawierającej rozmaite (dot
 pola/definicje, w tym pola/aksjomaty i pola/twierdzenia, które, za wyjątkiem aksjomatów, są w ciele
 tej struktury/funkcji w jakiś sposób, zapewne półformalnie, zdefiniowane "dookreślająco" (czyli mają
 jakieś półformalne ciała), a wszystko to jest chwilową (bo teorie matematyczne również się
-zmieniają) definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
+zmieniają) definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym,
 zależnym wzorcem ...
 
 `(M : Zbiór, * : M × M → M, u : M, h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b * c), h₂ : ∀ a ∈ M, u *
 a = a * u = a)`.
 
-Ten ostatni punkt widzenia pasuje jeszcze lepiej do fragmentów prozy matematycznej zaczynających się
+Ten ostatni punkt widzenia pasuje jeszcze lepiej do fragmentów matematycznej prozy zaczynających się
 od *Niech `X` będzie n-tką `(...)`, gdzie ...*[^2].
 
 ### Przypisy
 
 [^1]: Tyle powtarzania się o tych różnych punktach widzenia itd, a sam tu napisałem, że coś jest
-    *niczym innym* jak coś. To prawie tak, jakbym napisał, że istnieje takie A, że jedyny punkt
-    widzenia na A jest taki, że A to B. Najmocniej przepraszam, ale jestem tylko człowiekiem. Mylę
-    się, więc jestem. Postaram się tak nie pisać, a gdybyś zauważyła, że kiedykolwiek powiem, że coś
-    tam *powinno się* coś, daj proszę niezwłocznie znać, bo to będzie znaczyło, że muszę się pilnie
-    udać do lekarza. Każde z tych dwóch słów jest moim zdaniem niebezpieczne, to pierwsze może nawet
-    bardziej, bo to taki powszechnie stosowany kamuflaż użycia siły, ale *się* ma również to i owo
-    za uszami.
+    *niczym innym* jak coś (innego!). To prawie tak, jakbym napisał, że istnieje takie A, że jedyny
+    punkt widzenia na A jest taki, że A to B. Najmocniej przepraszam, ale jestem tylko
+    człowiekiem. Mylę się, więc jestem. Postaram się tak nie pisać, a gdybyś zauważyła, że
+    kiedykolwiek powiem, że coś tam *powinno się* coś, daj proszę niezwłocznie znać, bo to będzie
+    znaczyło, że powinienem się (?) pilnie udać do lekarza. Każde z tych dwóch słów jest moim
+    zdaniem niebezpieczne, to pierwsze może nawet bardziej, bo to taki powszechnie stosowany
+    kamuflaż użycia siły, ale *się* ma również to i owo za uszami.
 
 [^2]: Pary uporządkowane nazywamy *n-tkami* (*uporządkowanymi*), bo 2 to liczba naturalna. Z tego
     samego powodu nazywamy tak też trójki uporządkowane, i tak dalej. Jeśli tylko zechcemy,
