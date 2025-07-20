@@ -55,7 +55,7 @@ myślenia*. Inaczej mówiąc, na pewno nie zawsze, ale niezwykle często jest ta
 sobą różne języki. Wydaje mi się nawet, że zdążyłaś się już o tym niejednokrotnie przekonać między
 innymi czytając tą książkę.
 
-To jednocześnie dwa przykłady czegoś, co można by nazwać *abstrakcją funkcjonalną*, a co odgrywa
+To jednocześnie przykłady czegoś, co można by nazwać *abstrakcją funkcjonalną*, a co odgrywa
 fundamentalną rolę w psychologii, ponieważ centralnym przedmiotem badań w psychologii są
 *abstrakcyjnie* rozumiane *zachowania*, a zachowania są tym, czym są, to jest zachowaniami,
 dokładnie dlatego, że *czemuś służą*, to jest (w przybliżeniu) *rozwiązują* jakiś *problem* albo
