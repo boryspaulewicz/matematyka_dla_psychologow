@@ -17,7 +17,7 @@ równoważność jest tam wyjaśniona w sposób oryginalny.
 2025.07.10 Napisałem nowy rozdział *R28 Rachunek predykatów w zadaniach*.
 
 2025.07.08 Dopisałem nowy fragment *Jadąc kolejką górską* do rozdziału *R25 p ∨ q ~ p + q*, w którym
-to fragmencie próbuję w nowy sposób wytłumaczyć o co chodzi w zasadzie dualności.
+próbuję w nowy sposób wytłumaczyć o co chodzi w zasadzie dualności.
 
 2025.07.07 Wprowadziłem liczne drobne zmiany w rozdziałach *R22-26* (wcześniej *R21-*...)
 

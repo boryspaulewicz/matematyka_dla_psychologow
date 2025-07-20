@@ -266,6 +266,8 @@ wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
+[R31 Klasy typów służą do pisania i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md)
+
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
 <a name="podziekowania"></a>
