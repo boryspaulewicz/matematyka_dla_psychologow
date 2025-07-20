@@ -116,7 +116,8 @@ structure Data where
   dzien : Nat
   miesiac : Nat
   rok : Nat
--- ... i proszę mi od razu automatycznie wygenerować metodę wyświetlania termów tego typu.
+-- ... i proszę mi od razu automatycznie wyprowadzić i zdefiniować metodę wyświetlania termów tego
+-- typu.
 deriving Repr
 
 -- Odtąd możemy robić między innymi takie rzeczy:
