@@ -369,3 +369,71 @@ udowodniliśmy pewne *zdanie*, bo udowodniliśmy w ten sposób, *że* dodawanie 
 działaniem monoidalnym. Mówiąc jeszcze inaczej, chociaż nie ma typu zdaniowego, term
 `Nat_add_is_a_monoid` jest twierdzeniem, bo pełni rolę twierdzenia, a pełni rolę twierdzenia, bo
 może.
+
+**Sugestia**: Może masz ochotę zrobić to samo dla mnożenia liczb naturalnych? Podpowiem Ci, że nie
+ma w Leanie stałej `Nat.one`, ale, jak wiesz, Lean interpretuje domyślnie stałą `1` jako liczbę
+naturalną. Poza tym, tak jak najczęściej stosowaną w Leanie skrótową nazwą na działania
+"dodawaniopodobne" (ech) jest `add`, tak w przypadku działań "mnożeniopodobnych" taką nazwą jest
+`mul`.
+
+Pora na kolejną zagadkę i kolejny wgląd. Rozważmy taką definicję:
+
+```lean
+structure Rekord (α : Type) where
+  pole : α
+```
+
+Prosty parametryczny typ rekordowy, prawda? A czy widzisz, że to jest funkcjonalnie funkcja?
+Wystarczy *uważnie przeczytać definicję*: *Dla każdego typu `α`, `Rekord α` jest typem rekordowym
+zawierającym jedno `pole` typu `α`*. To jest więc *równocześnie* definicja typu rekordowego i
+funkcja z (arbitralnych) typów (typu `Type 1`, ale to akurat drobiazg) do (nieparametrycznych, bo
+całkiem wyspecjalizowanych) typów (rekordowych):
+
+```lean
+-- No przecież to jest aplikacja! (termu `Rekord` do termu `Nat`):
+#check Record Nat -- Rekord Nat : Type
+```
+
+Nie mówiłem, że strzałki i funkcje są dosłownie wszędzie? A ten fragment prozy matematycznej, który
+przytoczyłem na początku i który tutaj jeszcze raz wstawię, żebyś nie musiała go szukać ...
+
+*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
+neutralnego `u` ze względu na to działanie*.
+
+... to co to właściwie jest? Oczywiście, między innymi. Wszystko jest czymś lub jest jakieś zawsze
+tylko między innymi. Zanim odpowiesz, zbadaj proszę nonszalancko bo wybiórczo taki fragment kodu:
+
+```lean
+def powitanie : (ol : Osoba_ludzka) → String :=
+  -- Data urodzenia nas w tym przypadku nie interesuje
+  fun ⟨imie, nazwisko, _⟩ => (imie.append " ").append nazwisko
+
+#eval powitanie osoba1 -- `"Kryspin Ciekawski"`
+```
+
+Ponieważ (z dokładnością do lukru składniowego: `Typ_rekordowy.mk`, `{...}` i `⟨...⟩`) istnieje
+*tylko jeden* sposób konstruowania termu typu rekordowego, polegający na podaniu wartości dla
+*wszystkich* pól składających się na taki typ, to można przechwytywać wartości pól typów rekordowych
+za pomocą dopasowania wzorców. Ponieważ można też tworzyć termy typów rekordowych w stylu `{...}`,
+to tą samą funkcję można zdefiniować również tak:
+
+```lean
+def powitanie' : (ol : Osoba_ludzka) → String :=
+  fun {imie := i, nazwisko := n, data_urodzenia := _} => (i.append " ").append n
+
+-- "Przechwytujące" zmienne są tutaj po *prawej* od symboli definiowania, bo (z dokładnością do
+-- lukru składniowego) właśnie w tych miejscach *musiały* być termy, których wartości zostały
+-- przypisane do tych pól.
+```
+
+To jeszcze raz zapytam: Ten hipotetyczny fragment pierwszego rozdziału hipotetycznego podręcznika
+wprowadzającego do teorii monoidów, to co to właściwie jest?
+
+*Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania `*` i elementu
+neutralnego `u` ze względu na to działanie*.
+
+I od razu odpowiem: To między innymi *początek półformalnej definicji pewnej struktury/funkcji,
+zawierającej rozmaite (dotyczące monoidów) pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia,
+które, za wyjątkiem aksjomatów, są w ciele tej struktury/funkcji w jakiś sposób, zapewne
+półformalnie, zdefiniowane w sposób dookreślający (czyli mają jakieś półformalne ciała), a wszystko
+to jest definicją parametryczną stałej `Monoid`, której jedyny parametr jest wzorcem `(M, *, u)`*.
