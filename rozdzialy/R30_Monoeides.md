@@ -5,7 +5,7 @@ Po wstępnym zapoznaniu się z pojęciem monoidu wprowadzamy narzędzia programi
 są fragmentami struktury pewnego języka (w tym wypadku Leana), jak *każde* takie fragmenty pozwalają
 myśleć o różnych sprawach w nowy i w przypadku języków formalnych kontrolowany sposób. W tym między
 innymi celu wracamy do łączności działań i do replikowania ukrytej mechaniki prozy matematycznej w
-kodzie. A replikujemy ją w tym rozdziale w rekordowy sposób.
+kodzie. A replikujemy ją w tym rozdziale w sposób rekordowy.
 
 Poza tym zaczynamy mówić o różnicach między funkcyjnymi i imperatywnymi językami programowania i
 tworzymy coś w rodzaju cienia programu Hello, World!
