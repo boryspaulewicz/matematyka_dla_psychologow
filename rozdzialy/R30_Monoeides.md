@@ -334,15 +334,14 @@ typach*, te pola są (funkcjonalnie) *definicjami pozbawionymi ciała*? Definicj
 rekordowego `Monoid (α : Type)` to zatem nic innego jak *aksjomaty* monoidu.
 
 Uwaga, to jest początkowo dezorientujące, za to z czasem staje się nie tylko oczywiste, ale staje
-się też oczywiste, że to jest konieczne i jest lepiej mieć czasem świadomość tego, że to jest
-konieczne:
+się też oczywiste, że to jest konieczne i lepiej jest mieć czasem świadomość tego, że takie jest:
 
 ```lean
 -- Specjalizacja działania monoidu `Monoid.op` do typu `Nat` ma typ ...
 #check Monoid.op (α := Nat) -- `Monoid.op : Monoid Nat → Nat → Nat → Nat`, 
 -- ... a nie, jak można by się naiwnie spodziewać, `Nat → Nat → Nat`. Wynika to stąd, że ta operacja
--- wymaga również *termu typu Monoid α*, czyli po prostu konkretnego monoidu, żeby "miała w ramach
--- czego działać". Dla każdego rekordu X, każde pole składowe `X` ma jako pierwszy, zwykle ukryty
+-- wymaga również *termu typu `Monoid α`*, czyli po prostu konkretnego monoidu, żeby "miała w ramach
+-- czego działać". Dla każdego rekordu `X`, każde pole składowe `X` ma jako pierwszy, zwykle ukryty
 -- parametr, term typu `X`.
 ```
 
