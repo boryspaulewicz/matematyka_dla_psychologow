@@ -436,4 +436,5 @@ I od razu odpowiem: To między innymi *początek półformalnej definicji pewnej
 zawierającej rozmaite (dotyczące monoidów) pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia,
 które, za wyjątkiem aksjomatów, są w ciele tej struktury/funkcji w jakiś sposób, zapewne
 półformalnie, zdefiniowane w sposób dookreślający (czyli mają jakieś półformalne ciała), a wszystko
-to jest definicją parametryczną stałej `Monoid`, której jedyny parametr jest wzorcem `(M, *, u)`*.
+to jest definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
+wzorcem zależnym `(M : Zbiór, * : M × M → M, u : M)`*.
