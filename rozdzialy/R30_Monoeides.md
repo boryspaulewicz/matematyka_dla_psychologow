@@ -155,8 +155,8 @@ deriving Repr
 -- `#eval Osoba_ludzka.mk "Kryspin" "Ciekawski" ⟨1, 3, 1009⟩`
 --
 -- ... pojawia się komunikat o błędzie. A tutaj nie:
-def osoba1 := Osoba_ludzka.tworz "Kryspin" "Ciekawski" ⟨1, 3, 1009⟩
-#eval osoba1
+def osoba := Osoba_ludzka.tworz "Kryspin" "Ciekawski" ⟨1, 3, 1009⟩
+#eval osoba
 -- `{ imie := "Kryspin", nazwisko := "Ciekawski", 
 --    data_urodzenia := { dzien := 1, miesiac := 3, rok := 1009 } }`
 ```
@@ -408,7 +408,7 @@ def powitanie : Osoba_ludzka → String :=
   -- Data urodzenia nas w tym przypadku nie interesuje
   fun ⟨imie, nazwisko, _⟩ => (imie.append " ").append nazwisko
 
-#eval powitanie osoba1 -- `"Kryspin Ciekawski"`
+#eval powitanie osoba -- `"Kryspin Ciekawski"`
 ```
 
 Ponieważ (z dokładnością do lukru składniowego: `Typ_rekordowy.mk`, `{...}` i `⟨...⟩`) istnieje
