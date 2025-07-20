@@ -48,7 +48,7 @@ strukturach jako o monoidach ogłaszamy, że w dalszym rozumowaniu będziemy uwz
 i obecność elementu neutralnego*. Czyli ogłaszamy w ten sposób, że bez wprowadzenia dodatkowych
 założeń czy dokonania dodatkowych wyborów *nie* będziemy korzystać z takich własności jak na
 przykład przemienność albo odwracalność, ponieważ działania monoidalne mogą, ale nie muszą mieć
-takich własności.
+takie własności.
 
 Po co mielibyśmy *ignorować* coś, o czym być może wiemy, że istnieje albo jest prawdą i że jest,
 mówiąc ogólnie, ważne, na przykład własność przemienności, która faktycznie przysługuje niektórym
