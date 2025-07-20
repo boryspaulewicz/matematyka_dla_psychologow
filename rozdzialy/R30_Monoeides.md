@@ -439,7 +439,7 @@ pola/definicje (w tym pola/aksjomaty) i pola/twierdzenia, które, za wyjątkiem 
 tej struktury/funkcji w jakiś sposób, zapewne półformalnie, zdefiniowane "dookreślająco" (czyli mają
 jakieś półformalne ciała), a wszystko to jest chwilową (bo teorie matematyczne również się
 zmieniają) definicją parametryczną stałej `Monoid`, której jedyny parametr jest skrótowo zapisanym
-zależnym wzorcem:
+zależnym wzorcem ...
 
 `(M : Zbiór, * : M × M → M, u : M, h₁ : ∀ a, b, c ∈ M, (a * b) * c = a * (b * c), h₂ : ∀ a ∈ M, u *
 a = a * u = a)`.
