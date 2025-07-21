@@ -75,7 +75,7 @@ pewne gatunki zwierząt.
 No dobrze, spróbuję się ogarnąć i może ograniczę próby przekazania intonacji za pomocą pisma
 pochyłego.
 
-## Rekordowo i z klasą
+## Najpierw tylko rekordowo ...
 
 Skoro każdy rododendron jest rośliną, a rośliny potrafią w normalnych warunkach pobierać energię ze
 światła, to rododendron potrafi jeść światło. Taki oto zwyczajny, chciałoby się powiedzieć typowy
