@@ -420,8 +420,10 @@ example : ¬ (Wieksze_niz_zero 0) := by
 -- występować *po stronie typu*.
 ```
 
-Nie mówiłem, że strzałki i funkcje są dosłownie wszędzie? A ten fragment prozy matematycznej, który
-przytoczyłem na początku, a który tutaj wstawię jeszcze raz, żebyś nie musiała go szukać ...
+Nie mówiłem, że strzałki i [funkcje są
+wszędzie](https://youtu.be/zHU1xH6Ogs4?si=XSlCBJNDKq1pWLv6&t=60)? A ten fragment prozy
+matematycznej, który przytoczyłem na początku, a który tutaj wstawię jeszcze raz, żebyś nie musiała
+go szukać ...
 
 *Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
 elementu neutralnego `u` ze względu na to działanie*.
