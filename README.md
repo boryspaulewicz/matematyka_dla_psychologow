@@ -17,6 +17,8 @@ zwłaszcza tych *krytycznych*.
 
 **Historia zmian** jest [tu](Historia_zmian.md), a **spis treści** jest [tam](#spis_tresci).
 
+<hr>
+
 ## Przedmowa
 
 First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie, co powiedziała [Julia
@@ -201,6 +203,8 @@ Kiedy szukam błędów lub fragmentów, które mógłbym jakoś poprawić, chęt
 repozytoriów GitHuba, którą mam zainstalowaną w telefonie. Nie da się wtedy co prawda wygodnie
 przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, więc i Tobie ją polecam.
 
+<hr>
+
 <a name="spis_tresci"></a>
 ### Spis treści
 
@@ -295,6 +299,8 @@ Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 [R31 Klasy typów służą do pisania i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
+
+<hr>
 
 <a name="podziekowania"></a>
 ### Podziękowania należą się między innymi
