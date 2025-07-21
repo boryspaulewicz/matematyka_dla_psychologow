@@ -181,7 +181,11 @@ kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X` jest tylko 16 
 Nie będziemy tego robić, ale to moim zdaniem cenna lekcja: Zanim się poddamy poszukując odpowiedzi
 na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobrazić, albo opisać, albo
 zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
-konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop.
+konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop. A nawet jeśli nie wpadniemy
+od razu, to konstrukcja przykładu sprawi, że problem będzie do nas inaczej wracał i może z czasem
+sam się rozwiąże. Jak zawsze, zamiast walić głową w kartkę czy komputer i ryzykować, że pojawi się
+demotywująca frustracja, warto moim zdaniem uważać z ambicjami i pozwolić działać zbawiennemu
+upływowi czasu.
 
 TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
 
