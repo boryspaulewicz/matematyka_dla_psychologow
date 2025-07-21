@@ -179,8 +179,8 @@ wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak j
 kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X` jest tylko 16 (wiesz czemu?).
 
 Nie będziemy tego robić, ale to moim zdaniem cenna lekcja: Zanim się poddamy poszukując odpowiedzi
-na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobrazić albo opisać albo
-zdefiniować albo narysować a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
+na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobrazić, albo opisać, albo
+zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
 konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop.
 
 TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
