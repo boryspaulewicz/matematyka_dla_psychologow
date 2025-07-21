@@ -172,8 +172,8 @@ chce nam się tego robić, na przykład takie:
 
 Czy to działanie jest łączne? Dla każdej trójki elementów `a`, `b` i `c`, niezależnie od tego, czy
 najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy `c`, czy najpierw dodamy (już bez
-cudzysłowów, bo po co?) `c` do `b`, a potem do wyniku dodamy `a`, na końcu zawsze dostaniemy `1`, a
-więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim parom tego samego
+cudzysłowów, bo po co?) `c` do `b`, a wyniku dodamy do `a`, na końcu zawsze dostaniemy `1`, a więc
+to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim parom tego samego
 wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak jakby "na siłę" (zamiast
 "na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech elementów w dwóch różnych
 kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X` jest tylko 16 (wiesz czemu?).
