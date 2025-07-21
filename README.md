@@ -316,7 +316,7 @@ psychopacie, z nachalnym utrudnianiem*
 [R29 AA](./rozdzialy/R29_AA.md)  
 *8/10*
 
-[R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)
+[R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)  
 *Bo nigdy nie jest za dużo pretensjonalnie wyglądających tytułów*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
