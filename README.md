@@ -252,7 +252,7 @@ jest też matematyką*
 
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/R11_Modus_ponens.md)  
-*To nie przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki*.
+*To nie przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki*
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)  
