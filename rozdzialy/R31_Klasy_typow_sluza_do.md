@@ -152,11 +152,11 @@ def The_terminal_semigroup : Semigroup Unit :=
    assoc := by intro a b c; rfl}
 ```
 
-Może już się nawet domyślasz, czemu nazwałem tą ostatnią półgrupę półgrupą *końcową*? Wrócimy do
-tego wątku nieco później. A ile jest półgrup dwuelementowych? Czyli, jeżeli `X` to jakiś zbiór
+Może się nawet domyślasz, czemu nazwałem tą ostatnią półgrupę półgrupą *końcową*? Wrócimy do tego
+wątku nieco później. A ile jest półgrup dwuelementowych? Czyli, jeżeli `X` to jakiś zbiór
 dwuelementowy, na ile różnych sposobów możemy zdefiniować na tym zbiorze działanie łączne? To
-pytanie może się wydawać początkowo znacznie trudniejsze niż poprzednie, ale wystarczy
-rozważyć *jeden* konkretny przykład, żeby się zorientować, że wcale nie jest takie trudne:
+pytanie może się wydawać początkowo znacznie trudniejsze niż poprzednie, ale wystarczy rozważyć
+*jeden* konkretny przykład, żeby się zorientować, że wcale nie jest takie trudne:
 
 Spróbujmy zdefiniować najpierw *jakiekolwiek*, a więc niekoniecznie łączne działanie na jakimkolwiek
 konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie, które wyraźnie mówi, jak bardzo nie
@@ -183,9 +183,22 @@ na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobraz
 zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
 konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop. A nawet jeśli nie wpadniemy
 od razu, to konstrukcja przykładu sprawi, że problem będzie do nas inaczej wracał i może z czasem
-sam się rozwiąże. Jak zawsze, zamiast walić głową w kartkę czy komputer i ryzykować, że pojawi się
-demotywująca frustracja, warto moim zdaniem uważać z ambicjami i pozwolić działać zbawiennemu
-upływowi czasu.
+rozwiąże się sam. Jak zawsze, zamiast walić głową w kartkę czy komputer i ryzykować, że pojawi się
+pozbawiająca napędu frustracja, warto moim zdaniem uważać z ambicjami, pozwolić działać zbawiennemu
+upływowi czasu i zaufać, przynajmniej warunkowo, tajemnym procesom pamięciowym.
+
+Wracamy do rododendronów. Skoro monoidy są szczególnymi przypadkami półgrup, to jest każdy monoid ma
+wszystkie własności przysługujące wszystkim półgrupom, a ustaliliśmy właśnie coś na na temat
+półgrup, to powinniśmy móc tą zdobytą już na zawsze wiedzę zastosować do monoidów. Ale nie możemy?
+Wiesz dlaczego?
+
+Udowodniliśmy dwa twierdzenia o *istnieniu pewnego rodzaju półgrup*, a takie twierdzenia nie dotyczą
+*wszystkich* półgrup, to znaczy *każdej z osobna*, tylko *zbioru półgrup*, a więc dotyczą *obiektu
+innego typu*. Żeby udowodnić twierdzenie na temat półgrup, które dotyczyłoby automatycznie
+wszystkich monoidów, musielibyśmy wystartować na przykład z punktu *Niech `(X, *)` będzie półgrupą
+...* i nie moglibyśmy dodawać założeń, które wykluczałyby istnienie elementu neutralnego. Nie
+będziemy jak to się mówi cudować i udowodnimy, dla dowolnej półgrupy `X` (widzisz już, jak
+skróciłem i "uwieloznaczniłem" zapis?), że ...
 
 TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
 
@@ -193,12 +206,13 @@ TODO: ostrożniej o wieloznaczności
 
 TODO: Więcej o dziedziczeniu poniżej
 
-W Leanie możemy korzystać z mechanizmu *dziedziczenia rekordów*, na przykład tak (jeżeli w tym samym
-pliku albo sesji masz zapisaną poprzednią definicję stałej `Monoid`, to wystąpi konflikt nazw):
+W Leanie możemy również korzystać z mechanizmu *dziedziczenia rekordów*, na przykład tak (jeżeli w
+tym samym pliku albo sesji masz zapisaną poprzednią definicję stałej `Monoid`, to wystąpi konflikt
+nazw):
 
 ```lean
 structure Monoid (α : Set) extends Semigroup α where
-  u  : α
+  u          : α
   unit_left  : ∀ a : α, op u a = a
   unit_right : ∀ a : α, op a u = a
 ```
