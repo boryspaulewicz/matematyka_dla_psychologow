@@ -494,4 +494,6 @@ od *Niech `X` będzie n-tką `(...)`, gdzie ...*[^2].
     puste. Bo to jest *tylko pewien sposób nazywania pewnych rzeczy*. Ani tu, ani w ogóle nigdzie
     nie ma żadnych *powinno* ani żadnych *się*, są tylko fakty, postawy, przyczyny i skutki, a
     także, takie jak ta tutaj, mniej lub bardziej użyteczne do realizacji określonych celów
-    konwencje.
+    konwencje. A mówiąc poważnie, skoro n-tki uporządkowane nazywamy w informatyce
+    [*krotkami*](https://pl.wikipedia.org/wiki/Krotka_(struktura_danych)), to jak nazywamy tam
+    [n-tki uporządkowane stuelementowe](https://youtu.be/j1OMZRXB8qQ?si=sPhhGV-X4lFkIZiK)?
