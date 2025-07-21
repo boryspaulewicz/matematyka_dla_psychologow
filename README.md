@@ -299,7 +299,7 @@ ze względu na co to coś, co jest rzekomo ważne, jest rzekomo ważne?*
 *Z pewnych rzeczy żartować nie wypada (zdaniem osób, które są mi pod tym względem całkiem obce)*
 
 [R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/R23_Produkty_sa_takie_same.md)  
-*Jeżeli dotarłaś aż tutaj, to masz chyba sporo wolnego czasu ...*
+*Jeżeli dotarłaś aż tutaj, to masz chyba dużo wolnego czasu ...*
 
 [R24 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/R24_Logika_zdan_z_perspektywy_kategoryjnej_1.md)  
 *... i niezbyt ekscytujące życie towarzyskie, ...*
