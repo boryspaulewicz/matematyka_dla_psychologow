@@ -366,14 +366,21 @@ def Nat_add_is_a_monoid : Monoid Nat :=
    unit_right := by intro n ; rfl}
 ```
 
-Czy też usłyszałaś to bezgłośne kliknięcie idealnego dopasowania? Lean nie zgłasza błędu, co
-oznacza, że tworząc stałą `Nat_add_is_a_monoid`, wszystkim polom rekordu `Monoid` w wersji dla typu
-`Nat` przypisaliśmy (definicyjnie, dlatego są tam symbole `:=`) wartości zgodne z wymaganiami tego
-rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie zdefiniowaliśmy za pomocą
-słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak udowodniliśmy pewne *zdanie*: *że*
-dodawanie liczb naturalnych *jest* działaniem monoidalnym. Mówiąc jeszcze inaczej, chociaż nie ma
-typu zdaniowego, term `Nat_add_is_a_monoid` *jest* twierdzeniem, ponieważ pojęcie twierdzenia jest
-*funkcjonalne*, a ten term *pełni rolę* twierdzenia, a pełni rolę twierdzenia, bo *może*.
+Czy też usłyszałaś to bezgłośne kliknięcie idealnego dopasowania? Gdy tworzymy obiekty typów
+rekordowych w bardziej typowych (pun intended) językach programowania, to jest takich bez typów
+zależnych, brak komunikatu o błędzie też możemy traktować jako potwierdzenie pewnego faktu. Wtedy
+ten fakt jest jednak stosunkowo oczywisty, bo polega tylko na tym, że pewne obiekty mają określone
+typy *każdy z osobna*, a nie na tym, że typy tych obiektów są, jak wyżej, w określony sposób
+*powiązane*.
+
+Lean nie zgłasza błędu, co oznacza, że tworząc stałą `Nat_add_is_a_monoid`, wszystkim polom rekordu
+`Monoid` w wersji dla typu `Nat` przypisaliśmy (definicyjnie, dlatego są tam symbole `:=`) wartości
+zgodne z wymaganiami tego rekordu. Chociaż nie napisaliśmy ani `theorem`, ani `example`, ani nie
+zdefiniowaliśmy za pomocą słowa kluczowego `def` żadnej funkcji do typu `Prop`, to jednak
+udowodniliśmy pewne *zdanie*: *że* dodawanie liczb naturalnych *jest* działaniem monoidalnym. Mówiąc
+jeszcze inaczej, chociaż nie ma typu zdaniowego, term `Nat_add_is_a_monoid` *jest* twierdzeniem,
+ponieważ pojęcie twierdzenia jest *funkcjonalne*, a ten term *pełni rolę* twierdzenia, a pełni rolę
+twierdzenia, bo *może*.
 
 **Sugestia**: Może masz ochotę zrobić to samo dla mnożenia liczb naturalnych? Podpowiem Ci, że nie
 ma w Leanie stałej `Nat.one`, ale, jak wiesz, Lean interpretuje domyślnie stałą `1` jako liczbę
@@ -395,18 +402,33 @@ funkcja z (arbitralnych) typów (typu `Type 1`, ale to akurat drobiazg) do (niep
 całkiem wyspecjalizowanych) typów (rekordowych):
 
 ```lean
--- No przecież że to aplikacja (termu `Rekord` do termu `Nat`):
+-- No przecież, że to aplikacja (termu `Rekord` do termu `Nat`), ...
 #check Rekord Nat -- Rekord Nat : Type
+
+--- ... podobnie, jak aplikacją będącego zawsze pewną funkcją predykatu, na przykład takiego ...
+def Wieksze_niz_zero n := 0 < n
+
+--- ... jest i to, i to też jest pewnym typem ...
+#check Wieksze_niz_zero 0 -- Wieksze_niz_zero 0 : Prop
+
+-- ... (tak, wiem, że ...
+example : ¬ (Wieksze_niz_zero 0) := by 
+  intro h; 
+  exact Nat.not_lt_zero 0 h -- ... to nieprawda), ...
+
+-- ... bo w Leanie możemy tworzyć funkcje zwracające typy, a więc takie, których *aplikacje* mogą
+-- występować *po stronie typu*.
 ```
 
 Nie mówiłem, że strzałki i funkcje są dosłownie wszędzie? A ten fragment prozy matematycznej, który
-przytoczyłem na początku, i który tutaj wstawię jeszcze raz, żebyś nie musiała go szukać ...
+przytoczyłem na początku, a który tutaj wstawię jeszcze raz, żebyś nie musiała go szukać ...
 
 *Monoid to trójka `(M, *, u)` złożona ze zbioru `M`, określonego na nim działania łącznego `*` i
 elementu neutralnego `u` ze względu na to działanie*.
 
 ... to co to właściwie jest? Oczywiście, między innymi. Wszystko jest czymś lub jest jakieś zawsze
-tylko między innymi. Zanim odpowiesz, zbadaj proszę nonszalancko bo wybiórczo taki fragment kodu:
+tylko między innymi. Zanim odpowiesz, zbadaj proszę nonszalancko bo wybiórczo (pomijając nieznane Ci
+jeszcze operacje na termach typu `String`) taki fragment kodu:
 
 ```lean
 def powitanie : Osoba_ludzka → String :=
@@ -416,7 +438,7 @@ def powitanie : Osoba_ludzka → String :=
 #eval powitanie osoba -- `"Hello, Kryspin Ciekawski"`
 ```
 
-Ponieważ, z dokładnością do lukru składniowego: `Typ_rekordowy.mk ...`, `{...}` i `⟨...⟩`, który
+Ponieważ, z dokładnością do lukru składniowego `Typ_rekordowy.mk ...`, `{...}` i `⟨...⟩`, który
 zawsze można łatwo zdjąć, istnieje *tylko jeden* sposób konstruowania termu typu rekordowego,
 polegający na podaniu wartości dla *wszystkich* pól składających się na taki typ, to można
 przechwytywać wartości pól typów rekordowych za pomocą dopasowania wzorców. Ponieważ można też
