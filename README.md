@@ -202,36 +202,36 @@ Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim pr
 będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie tego, o czym
 tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych. Ale zerknąć zawsze można.  
 [R3 Do czego autor zmierza](./rozdzialy/R03_Do_czego_autor_zmierza.md)  
-*Jakieś gruszki na jakiejś wierzbie*.
+*Jakieś gruszki na jakiejś wierzbie*
 
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
 wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md)  
-*Dwa dowody przeprowadzone łagodnie i krok po kroku, a wszędzie pełno metarefleksji*.
+*Dwa dowody przeprowadzone łagodnie i krok po kroku, a wszędzie pełno metarefleksji*
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md)  
-*Typowanie, podstawowe rodzaje definicji i ich przykładowe ciała, aplikacja, ewaluacja i currying*.
+*Typowanie, podstawowe rodzaje definicji i ich przykładowe ciała, aplikacja, ewaluacja i currying*
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R06_Pierwszy_spacer_po_Leanie_wersja_druga.md)  
-*Prawie to samo co wcześniej, tylko trochę inaczej (i faktycznie nie całkiem to samo)*.
+*Prawie to samo co wcześniej, tylko trochę inaczej (i faktycznie nie całkiem to samo)*
 
 [R6,5 = R00](./rozdzialy/R06_i_pol_rowna_sie_R00.md)  
 *Uuu ...*
 
 [R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/R07_Byc_moze_nie_wiesz.md)  
-*Kolejny nostalgiczny (?) powrót do szkoły podstawowej*.
+*Kolejny nostalgiczny (?) powrót do szkoły podstawowej*
 
 [R8 Logika na Leanie, pierwsze kroki](./rozdzialy/R08_Logika_na_Lanie_pierwsze_kroki.md)  
 *Nowy język i nowy sposób myślenia o logice, matematyce w ogóle, która okazuje się być
 programowaniem, programowaniu, które okazuje się być matematyką, i życiu, bo życie jest
-programowaniem, chociaż trudno powiedzieć, czy jest też matematyką*.
+programowaniem, chociaż trudno powiedzieć, czy jest też matematyką*
 
 [R9 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/R09_Kilka_naiwnych_obserwacji.md)  
-*Autor sam sobie udziela wywiadu na temat niektórych własnych zainteresowań*.
+*Autor sam sobie udziela wywiadu na temat niektórych własnych zainteresowań*
 
 [R10 Implikacja w praktyce dowodzenia](./rozdzialy/R10_Implikacja_w_praktyce_dowodzenia.md)  
-*Tytuł brzmi jak zapowiedź samych przyjemności, a okazuje się, że jest jeszcze lepiej*.
+*Tytuł brzmi jak zapowiedź samych przyjemności, a okazuje się, że jest jeszcze lepiej*
 
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/R11_Modus_ponens.md)
