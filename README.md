@@ -320,7 +320,7 @@ psychopacie, z nachalnym utrudnianiem*
 *8/10*
 
 [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)  
-*Bo pretensjonalnie wyglądających tytułów nigdy jest za wiele*
+*Bo pretensjonalnie wyglądających tytułów nigdy nie jest za wiele*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
