@@ -251,13 +251,17 @@ jest też matematyką*
 *Tytuł brzmi jak zapowiedź samych przyjemności, a okazuje się, że jest jeszcze lepiej*
 
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
-dowodu](./rozdzialy/R11_Modus_ponens.md)
+dowodu](./rozdzialy/R11_Modus_ponens.md)  
+*To nie przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki*.
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
-istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)
+istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)  
+*Okazuje się, że formalizacja jest zajęciem inherentnie twórczym i sprzyja rozmaitym psotom*.
 
 [R13 Duży kwantyfikator, predykaty i implikacja w
-zadaniach](./rozdzialy/R13_Duzy_kwantyfikator_w_zadaniach.md)
+zadaniach](./rozdzialy/R13_Duzy_kwantyfikator_w_zadaniach.md)  
+*Jak tutaj coś jest "w zadaniach", to znaczy, że będzie dużo pocieszania i może nawet za dużo prób
+pomocy*.
 
 [R14 Negacja w praktyce dowodzenia](./rozdzialy/R14_Negacja_w_praktyce_dowodzenia.md)
 
