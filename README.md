@@ -307,7 +307,8 @@ ze względu na co to coś, co jest rzekomo ważne, jest rzekomo ważne?*
 *... ale nie oceniam*
 
 [R26 ∃](./rozdzialy/R26_Kwantyfikator_egzystencjalny.md)  
-*Nie, to nie jest znak, że musisz iść do [okulisty](https://pl.wikipedia.org/wiki/Ubikacja)*
+*Nie, to nie jest znak, że musisz iść do
+[okulisty](https://pl.wikipedia.org/wiki/Ubikacja_publiczna_w_Kawakawa)*
 
 [R27 Rachunek zdań w zadaniach](./rozdzialy/R27_Rachunek_zdan_w_zadaniach.md)  
 *Kolejny festiwal namolnego pocieszania i miękiszoństwa*
