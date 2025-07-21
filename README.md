@@ -44,11 +44,18 @@ jest przecież konieczna.
 większego znaczenia.)
 
 **Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?** Żeby
-lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem, bo **matematyka to żywa, w
-przeciwieństwie do psychologii stale gwałtownie rozwijająca się dyscyplina**, *w której nie chodzi
-tylko, a nawet przede wszystkim, o liczby, obiekty geometryczne i rozwiązywanie zadań rachunkowych,
-tylko o* **konsekwentne i twórcze myślenie na wiele różnych sposobów na jakikolwiek temat**. Może
-więc dzięki bliższemu kontaktowi z tą niezwykłą dyscypliną studenci psychologii i psychologowie
+lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem, bo ...
+
+<hr>
+
+... **matematyka to żywa, w przeciwieństwie do psychologii stale gwałtownie rozwijająca się
+dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, obiekty geometryczne i
+rozwiązywanie zadań rachunkowych, tylko o* **konsekwentne i twórcze myślenie na wiele różnych
+sposobów na jakikolwiek temat**.
+
+<hr>
+
+Może więc dzięki bliższemu kontaktowi z tą niezwykłą dyscypliną studenci psychologii i psychologowie
 akademiccy mogliby nauczyć się pisać mniej głupot i czytać z większym zrozumieniem pełną głupot
 literaturę naukową? Albo po to, żeby używać na przykład wnioskowania statystycznego czy
 przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
