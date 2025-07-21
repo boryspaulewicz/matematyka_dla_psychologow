@@ -8,16 +8,16 @@ Pisząc o monoidach, matematycy pozwalają sobie czasem na coś takiego:
 Jak myślisz, co dokładnie oznacza tutaj stała `M`? Monoid, czy pewien zbiór? Jeżeli `M` jest
 monoidem, to zgodnie z definicją jest pewną *trójką uporządkowaną* (złożoną z pewnego zbioru, i tak
 dalej). Ale przecież relacja należenia do zbioru, której zachodzenie dla pary `(m, M)` oznaczamy
-pisząc `m ∈ M`, jest *niezdefiniowana*, gdy drugim członem zamiast *zbioru* jest ciąg skończony. Na
-pierwszy rzut oka wygląda to więc na błąd, bo takie wyrażenie nie jest, przynajmniej w przyjętym
-przez nas dotąd sensie, typowalne.
+pisząc `m ∈ M`, jest *niezdefiniowana*, gdy drugim członem zamiast *zbioru* jest *ciąg
+skończony*. Na pierwszy rzut oka wygląda to więc na błąd, bo takie wyrażenie nie jest, przynajmniej
+w przyjętym przez nas dotąd sensie, typowalne.
 
 Niektórzy matematycy piszą ostrożniej, na przykład tak:
 
 *Jeżeli `ℳ = (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
 Zmiana czcionki jest wtedy ważna, bo sygnalizuje, że stałe `ℳ` i `M` mają oznaczać blisko, a w tym
-wypadku można nawet powiedzieć, że [intymnie związane](https://en.wikipedia.org/wiki/Love_and_Math)
+wypadku można nawet powiedzieć, że [intymnie](https://en.wikipedia.org/wiki/Love_and_Math) związane
 obiekty różnego rodzaju. Zdarzają się też matematycy, którzy piszą tak ...
 
 *Jeżeli `ℳ := (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
@@ -90,40 +90,47 @@ podstawie, albo idąc tym tropem, dotrzeć do informacji na temat fotosyntezy i 
 jakieś wnioski. Wydaje się wręcz, że z tego rodzaju *hierarchicznej struktury pojęć* czy *wiedzy*
 korzystamy niemal cały czas i niemal w każdym kontekście.
 
-A każdy monoid jest [*półgrupą*](https://pl.wikipedia.org/wiki/P%C3%B3%C5%82grupa). Półgrupa zaś to
-... Może jednak tym razem od razu skorzystam z rekordu, bo już wiesz, jak możesz to sobie
-przetłumaczyć na język półformalny, gdyby zajdzie taka (paląca) potrzeba, prawda? Przy okazji
-pozwolę sobie ukryć różnice między zbiorami i typami za pomocą odrobiny lukru.
+Tak jak każdy rododendron jest rośliną, tak też każdy monoid jest
+[*półgrupą*](https://pl.wikipedia.org/wiki/P%C3%B3%C5%82grupa). Półgrupa zaś to ... Może jednak tym
+razem od razu skorzystam z rekordu, bo już wiesz, jak możesz to sobie przetłumaczyć na język
+półformalny, gdyby zajdzie taka (paląca) potrzeba, prawda? Przy okazji pozwolę sobie ukryć różnice
+między zbiorami i typami za pomocą odrobiny lukru.
 
 ```lean
+-- To właśnie wspomniana odrobina lukru.
+def Set := Type
+
 structure Semigroup (α : Set) where
   op    : α → α → α
   assoc : ∀ a b c : α, (op (op a b) c) = (op a (op b c))
 ```
 
-Jak widać, półgrupa to para złożona ze zbioru i określonego na nim działa łącznego. Bez szkody dla
-rozumowania będę odtąd mówił czasami, że półgrupa to po prostu dowolne działanie łączne. 
+Półgrupa to para złożona ze zbioru i określonego na nim działania łącznego. Bez szkody dla
+rozumowania będę odtąd mówił czasami, że półgrupa to po prostu (dowolne) działanie łączne. Czy
+porównując reprezentacje aksjomatów monoidu i półgrupy w postaci rekordu widzsz, że pojęcie półgrupy
+jest jakby (pewnym, bo nie jedynym możliwym) cieniem pojęcia monoidu?
 
 Pojęcie półgrupy jest ewidentnie ogólniejsze niż pojęcie monoidu, ponieważ w przypadku półgrup *nie*
-wymagamy obecności wyróżnionego elementu neutralnego (ale też nie upieramy się, żeby go nie
-było). Mogłoby się wydawać, że o tego rodzaju algebrach trudno powiedzieć cokolwiek ważnego czy
+wymagamy obecności wyróżnionego elementu neutralnego (ale też nie upieramy się, żeby ma go nie
+być). Mogłoby się wydawać, że o tego rodzaju algebrach trudno powiedzieć cokolwiek ważnego czy
 interesującego, bo poza tym, że mamy tu łączne działanie, nie wiemy na ich temat nic więcej, a
 łączne działania są, cóż, łączne, i to by było na tyle. Możemy jednak rozważać dowolne
-*hipotetyczne* własności półgrup i zadawać sobie pytanie, co wynika z połączenia półgrupowości z
-tymi własnościami. Na przykład, możemy poszukiwać półgrup o jakiś szczególnych cechach i próbować
-ustalić, jak takie półgrupy mogą, a jak nie mogą wyglądać.
+*hipotetyczne* własności półgrup i zadawać sobie pytanie, co wynika z *połączenia* "półgrupowości",
+czyli po prostu łączności działania, z tymi własnościami. Na przykład, możemy poszukiwać półgrup o
+jakiś szczególnych cechach i próbować ustalić, jak takie półgrupy mogą, a jak nie mogą wyglądać.
 
 I tak, najmniejszą półgrupą jest zbiór pusty. Działanie musi być wtedy funkcją pustą, bo dziedziną
 działania jako funkcji jest wtedy iloczyn kartezjański zbioru pustego z samym sobą, który jest
 (oczywiście?) zbiorem pustym. W przypadku działania będącego funkcją pustą nie ma żadnych trójek
 elementów, dla których warunek łączności mógłby *nie* być spełniony, a więc warunek łączności jest
-spełniony, tyle, że *pusto*:
+spełniony, tyle, że jest spełniony pusto:
 
 ```lean
--- To kolejny przykład konstrukcji termu typu rekordowego występującej w roli twierdzenia.
+-- To kolejny przykład konstrukcji termu typu rekordowego występującej w roli twierdzenia, ale tym
+-- razem nazwałem ją używając frazy rzeczownikowej, a nie zdania.
 def The_empty_semigroup : Semigroup Empty := 
   -- Tutaj moglibyśmy równie dobrze zwracać `x₂`. Nie ma to znaczenia, bo ta anonimowa funkcja *nie
-  -- może* nigdy dostać żadnego argumentu.
+  -- może* nigdy dostać argumentu.
   {op    := fun x₁ => fun x₂ => x₁,
    -- Termów typu `Empty` używamy prawie tak samo, jak termów typu `False`.
    assoc := by intro a b c ; exact a.elim }
@@ -132,8 +139,8 @@ def The_empty_semigroup : Semigroup Empty :=
 Nazwałem ten term `The_empty_semigroup`, bo chociaż moglibyśmy zdefiniować takie same typy jak typ
 `Empty`, ale nadać im inne nazwy, te wszystkie typy byłyby funkcjonalnie takie same, to jest
 izomorficzne, a więc byłyby tym samym typem (*jako typem*). No dobrze, w trzech liniach kodu
-rozstrzygnęliśmy ostatecznie kwestię istnienia pustej półgrupy, a czy może istnieć półgrupa
-jednoelementowa?
+rozstrzygnęliśmy ostatecznie i pozytywnie kwestię istnienia pustej półgrupy, a czy może istnieć
+półgrupa jednoelementowa?
 
 ```lean
 -- Typ indukcyjny `Unit` wygląda i zachowuje się prawie tak samo jak typ `True`, tyle, że ma typ
@@ -148,7 +155,10 @@ jednoelementowa?
 
 def The_terminal_semigroup : Semigroup Unit :=
   {op    := fun x₁ => fun x₂ => (),
-   -- Może tu chodzić tylko o zdanie `() = ()`, a więc wystarczy taktyka `rfl`.
+   -- Ponieważ istnieje tylko jedno działanie binarne na zbiorze jednoelementowym, to, jak łatwo się
+   -- przekonać wchodząc w tryb interaktywny za pomocą `by` i wpisując tylko `intro a b c`, może tu
+   -- chodzić tylko o zdanie `() = ()`, a więc wystarczy taktyka `rfl`, bo dla każdego `x`, `x = x`
+   -- *z definicji* (relacji równości).
    assoc := by intro a b c; rfl}
 ```
 
@@ -156,11 +166,12 @@ Może się nawet domyślasz, czemu nazwałem tą ostatnią półgrupę półgrup
 wątku nieco później. A ile jest półgrup dwuelementowych? Czyli, jeżeli `X` to jakiś zbiór
 dwuelementowy, na ile różnych sposobów możemy zdefiniować na tym zbiorze działanie łączne? To
 pytanie może się wydawać początkowo znacznie trudniejsze niż poprzednie, ale wystarczy rozważyć
-*jeden* konkretny przykład, żeby się zorientować, że wcale nie jest takie trudne:
+*jeden* konkretny przykład, żeby się zorientować, że wcale nie jest bardzo trudne, tylko przede
+wszystkim bardziej *uciążliwe*, czyli wymaga więcej *czasu*:
 
 Spróbujmy zdefiniować najpierw *jakiekolwiek*, a więc niekoniecznie łączne działanie na jakimkolwiek
-konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie, które wyraźnie mówi, jak bardzo nie
-chce nam się tego robić, na przykład takie:
+konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie, które będzie wyraźnie pokazywać, jak
+bardzo nie chce nam się tego robić:
 
 `(1, 1) ↦ 1`
 
@@ -171,34 +182,99 @@ chce nam się tego robić, na przykład takie:
 `(2, 2) ↦ 1`
 
 Czy to działanie jest łączne? Dla każdej trójki elementów `a`, `b` i `c`, niezależnie od tego, czy
-najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy `c`, czy najpierw dodamy (już bez
-cudzysłowów, bo po co?) `c` do `b`, a wyniku dodamy do `a`, na końcu zawsze dostaniemy `1`, a więc
-to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim parom tego samego
-wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak jakby "na siłę" (zamiast
-"na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech elementów w dwóch różnych
-kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X` jest tylko 16 (wiesz czemu?).
+najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy (już bez cudzysłowów, bo po co?) `c` (`(a *
+b) * c`), czy najpierw dodamy `c` do `b`, a wyniku dodamy do `a` (`a * (b * c))`), na końcu zawsze
+dostaniemy `1`, a więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim
+parom tego samego wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak jakby
+"na siłę" (zamiast "na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech elementów w
+dwóch różnych kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X`, czyli wszystkich
+możliwych, niekoniecznie łącznych działań binarnych na takim zbiorze jest tylko 16 (wiesz
+czemu?). Gdyby nam zależało na znalezieniu odpowiedzi, moglibyśmy celowo poszukiwać jej w tempie dla
+nas komfortowym i mogłoby to być może nawet dość przyjemne, mniej więcej tak, jak przyjemne może być
+układanie puzzli, które w dodatku samemu się zrobiło.
 
 Nie będziemy tego robić, ale to moim zdaniem cenna lekcja: Zanim się poddamy poszukując odpowiedzi
 na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobrazić, albo opisać, albo
 zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
 konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop. A nawet jeśli nie wpadniemy
-od razu, to konstrukcja przykładu sprawi, że problem będzie do nas inaczej wracał i może z czasem
-rozwiąże się sam. Jak zawsze, zamiast walić głową w kartkę czy komputer i ryzykować, że pojawi się
-pozbawiająca napędu frustracja, warto moim zdaniem uważać z ambicjami, pozwolić działać zbawiennemu
-upływowi czasu i zaufać, przynajmniej warunkowo, tajemnym procesom pamięciowym.
+na niego od razu, konstrukcja przykładu sprawi, że problem będzie do nas inaczej *wracał* i może z
+czasem rozwiąże się jakby sam, bo o ile pozwolimy mu dość długo wracać i pomiędzy tymi powrotami
+będą ani nie za długie, ani nie za krótkie przerwy, jego struktura utrwali się, uporządkuje i
+oczyści w naszej pamięci trwałej na tyle, że będziemy w stanie wykonywać w miarę konsekwentnie
+rozmaite operacje na elementach tego problemu z taką łatwością, że poczujemy, że rozwiązanie jest
+niemal w zasięgu ręku. Jak zawsze, zamiast walić głową w kartkę papieru czy komputer i ryzykować, że
+pojawi się pozbawiająca napędu frustracja, warto moim zdaniem uważać z ambicjami, pozwolić działać
+zbawiennemu upływowi czasu i zaufać, przynajmniej warunkowo, procesom pamięciowym.
 
 Wracamy do rododendronów. Skoro monoidy są szczególnymi przypadkami półgrup, to jest każdy monoid ma
 wszystkie własności przysługujące wszystkim półgrupom, a ustaliliśmy właśnie coś na na temat
-półgrup, to powinniśmy móc tą zdobytą już na zawsze wiedzę zastosować do monoidów. Ale nie możemy?
-Wiesz dlaczego?
+półgrup, to powinniśmy móc tą zdobytą już na zawsze wiedzę zastosować do monoidów, prawda? A nie
+możemy, Wiesz dlaczego?
 
 Udowodniliśmy dwa twierdzenia o *istnieniu pewnego rodzaju półgrup*, a takie twierdzenia nie dotyczą
-*wszystkich* półgrup, to znaczy *każdej z osobna*, tylko *zbioru półgrup*, a więc dotyczą *obiektu
-innego typu*. Żeby udowodnić twierdzenie na temat półgrup, które dotyczyłoby automatycznie
-wszystkich monoidów, musielibyśmy wystartować na przykład z punktu *Niech `(X, *)` będzie półgrupą
-...* i nie moglibyśmy dodawać założeń, które wykluczałyby istnienie elementu neutralnego. Nie
-będziemy jak to się mówi cudować i udowodnimy, dla dowolnej półgrupy `X` (widzisz już, jak
-skróciłem i "uwieloznaczniłem" zapis?), że ...
+*wszystkich* półgrup, to znaczy *każdej z osobna*, tylko *zbioru półgrup*, bo te twierdzenia mówią
+to samo, co zdania o postaci *Do zbioru półgrup należy element `X` taki, że ...*. A więc te
+twierdzenia dotyczą *obiektu innego typu* niż typ półgrup. Żeby udowodnić twierdzenie na temat
+półgrup, które dotyczyłoby automatycznie wszystkich monoidów, musielibyśmy wystartować na przykład z
+punktu *Niech `(X, *)` będzie półgrupą ...* i nie moglibyśmy dodawać założeń, które wykluczałyby
+istnienie elementu neutralnego. 
+
+Mam nadzieję, że udało mi się chociaż na chwilę wywieść Cię w pole tym, co napisałem w poprzednim
+akapicie, bo chciałem w ten sposób zilustrować coś ważnego na temat języka naturalnego i
+psychologii. Jeżeli mi się to udało, to po raz kolejny miałaś okazję się przekonać, jak zwodniczy
+bywa język naturalny, nawet wtedy, gdy posługujemy się nim stosunkowo ostrożnie. Przy okazji
+chciałbym, żebyś pomyślała o tym, jak dziwne bywają zwyczaje psychologów akademickich, którzy z
+jednej strony często bardzo interesują się tym, jak ludzie myślą i jak mogą myśleć, a z drugiej
+strony rzadko zadają sobie trud, żeby dowiedzieć się, czego na temat wszelkiego rodzaju pojęć można
+się nauczyć poznając tylko podstawy matematyki. A przecież matematyka z używania pojęć uczyniła
+wyrafinowaną, niezwykle użyteczną technologię uniwersalnego zastosowania, sama matematyka jest
+rezultatem myślenia i używają jej do myślenia o najróżniejszych sprawach przynajmniej niektórzy z
+nas.
+
+Nie będziemy, jak to się mówi, cudować i udowodnimy, dla dowolnej półgrupy `X` (zauważyłaś, jak bez
+ostrzeżenia skróciłem i "uwieloznaczniłem" zapis?), że:
+
+`∀ a b c d ∈ X, (a * ((b * c) * d)) = (a * (b * (c * d)))`
+
+Spróbujemy tym razem, przytaczając jego fragmenty w komentarzach nad odpowiadającym mu kodem,
+zreplikować strukturę typowego półformalnego dowodu tego rodzaju zdania.
+
+```lean
+-- "Niech `P` będzie półgrupą określoną na zbiorze `X`."
+
+-- Musimy albo odwrócić kolejność stałych `P` i `X`, ...
+--
+-- `variable (X : Set) (P : Semigroup X)`
+--
+-- ... albo polegać na domyślności Leana. Wybieramy to drugie:
+variable (P : Semigroup X)
+
+-- Nie widać w linii powyżej czerwonej falki, bo Lean domyślił się, że `X` musi być (jakimś)
+-- zbiorem:
+#check X -- X : Set
+  
+-- "Wtedy   `∀ a b c d ∈ X, (     a * (     (     b * c) * d)) = 
+--                          (     a *    (     b * (     c * d)))`"
+
+theorem t1 : ∀ a b c d : X, (P.op a   (P.op (P.op b   c)   d)) = 
+                            (P.op a      (P.op b   (P.op c   d))) := by
+  intro a b c d
+  -- Wystarczy zastosować "pole łączności" `assoc` rekordu półgrupy do termów `b`, `c` i `d`, żeby
+  -- uzyskać dowód zdania `(b * c) * d = b * (c * d)` i użyć tego dowodu jako argumentu dla taktyki
+  -- `rw`:
+  rw [P.assoc b c d]
+  
+-- Twierdzenie `t1` dotyczy dowolnych półgrup:
+#check t1 -- `t1 : {X : Set} (P : Semigroup X) (a b c d : X) : P.op ...`
+
+-- Ponieważ Lean się go domyślił, `X` jest niejawnym (i z konieczności pierwszym) parametrem tego
+-- twierdzenia, natomiast `P` jest parametrem jawnym, bo deklarując za pomocą `variable` `P` jako
+-- parametr tam, gdzie ta nazwa jest używana, zastosowaliśmy nawiasy okrągłe.
+```
+
+## "Jest" jest wieloznaczne
+
+TODO: Półgrupa końcowa jest monoidem
 
 TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
 
