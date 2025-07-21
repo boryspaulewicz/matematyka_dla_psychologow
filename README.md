@@ -206,7 +206,7 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 <hr>
 
 <a name="spis_tresci"></a>
-### Spis treści
+## Spis treści
 
 [R1 Skąd się ta książka wzięła](./rozdzialy/R01_Skad_sie_ta_ksiazka_wziela.md)  
 *Trochę historii, wszystkie osobiste, a poza tym ważne moim zdaniem rady*
