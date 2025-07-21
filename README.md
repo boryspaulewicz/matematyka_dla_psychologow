@@ -256,47 +256,68 @@ dowodu](./rozdzialy/R11_Modus_ponens.md)
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)  
-*Okazuje się, że formalizacja jest zajęciem inherentnie twórczym i sprzyja rozmaitym psotom*.
+*Okazuje się, że formalizacja jest zajęciem inherentnie twórczym i sprzyja rozmaitym psotom*
 
 [R13 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/R13_Duzy_kwantyfikator_w_zadaniach.md)  
 *Jak tutaj coś jest "w zadaniach", to znaczy, że będzie dużo pocieszania i może nawet za dużo prób
-pomocy*.
+pomocy*
 
-[R14 Negacja w praktyce dowodzenia](./rozdzialy/R14_Negacja_w_praktyce_dowodzenia.md)
+[R14 Negacja w praktyce dowodzenia](./rozdzialy/R14_Negacja_w_praktyce_dowodzenia.md)  
+*Czy da się o tym pisać lepiej? Na pewno. Ale czy da się o tym pisać lepiej do psychologów? Może
+nawet tym bardziej*
 
-[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/R15_Negacja_absurd.md)[^1]
+[R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/R15_Negacja_absurd.md)[^1]  
+*Kiedy tragicznie zła literatura łączy się w doskonałej harmonii z nieznośną ciężkością niebytu*
 
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
-wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)
+wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)  
+*Nie po raz pierwszy Autor korzysta z okazji, żeby nawijać o sobie*
 
-[R17 p ∧ q ~ p × q](./rozdzialy/R17_Koniunkcja_jako_para.md)
+[R17 p ∧ q ~ p × q](./rozdzialy/R17_Koniunkcja_jako_para.md)  
+*Niewykluczone, że trzeba było tak od razu*
 
-[R18 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/R18_Koniunkcja_ze_strzalek.md)
+[R18 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/R18_Koniunkcja_ze_strzalek.md)  
+*Naobiecywał, że wszystko będzie z jakiś strzałek, a potem co? A potem niestety dotrzymał
+obietnicy*
 
-[R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/R19_Ean_tais_glossais.md)
+[R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/R19_Ean_tais_glossais.md)  
+*Łojezu*
 
-[R20 Teoria mnogości w zarysie](./rozdzialy/R20_Teoria_mnogosci_w_zarysie.md)
+[R20 Teoria mnogości w zarysie](./rozdzialy/R20_Teoria_mnogosci_w_zarysie.md)  
+*Akurat ten rozdział jest tak wciągający, jak pewien inny rozdział*
 
-[R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/R21_Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)
+[R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/R21_Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)  
+*Swoją drogą, czy słowo "ważne" nie powinno zawsze występować w okolicy jakiegoś fragmentu mówiącego
+ze względu na co ważne?*
 
-[R22 X × Y ~ X ← ∘ → Y](./rozdzialy/R22_Wprowadzenie_do_jezyka_teorii_kategorii_1.md)
+[R22 X × Y ~ X ← ∘ → Y](./rozdzialy/R22_Wprowadzenie_do_jezyka_teorii_kategorii_1.md)  
+*Z pewnych rzeczy żartować nie wypada (zdaniem osób, które są mi pod tym względem całkiem obce)*
 
-[R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/R23_Produkty_sa_takie_same.md)
+[R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/R23_Produkty_sa_takie_same.md)  
+*Jeżeli dotarłaś aż tutaj, to masz chyba sporo wolnego czasu ...*
 
-[R24 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/R24_Logika_zdan_z_perspektywy_kategoryjnej_1.md)
+[R24 p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q](./rozdzialy/R24_Logika_zdan_z_perspektywy_kategoryjnej_1.md)  
+*... i niezbyt ekscytujące życie towarzyskie, ...*
 
-[R25 p ∨ q ~ p + q](./rozdzialy/R25_Alternatywa_jako_koprodukt.md)
+[R25 p ∨ q ~ p + q](./rozdzialy/R25_Alternatywa_jako_koprodukt.md)  
+*... ale nie oceniam*
 
-[R26 ∃](./rozdzialy/R26_Kwantyfikator_egzystencjalny.md)
+[R26 ∃](./rozdzialy/R26_Kwantyfikator_egzystencjalny.md)  
+*Nie, to nie jest znak, że musisz iść do okulisty*
 
-[R27 Rachunek zdań w zadaniach](./rozdzialy/R27_Rachunek_zdan_w_zadaniach.md)
+[R27 Rachunek zdań w zadaniach](./rozdzialy/R27_Rachunek_zdan_w_zadaniach.md)  
+*Kolejny festiwal namolnego pocieszania i miękiszoństwa*
 
-[R28 Rachunek predykatów w zadaniach](./rozdzialy/R28_Rachunek_predykatow_w_zadaniach.md)
+[R28 Rachunek predykatów w zadaniach](./rozdzialy/R28_Rachunek_predykatow_w_zadaniach.md)  
+*I jeszcze jeden, w dodatku to namolne pocieszanie łączy się, jak w jakimś horrorze o jakimś
+psychopacie, z nachalnym utrudnianiem*
 
-[R29 AA](./rozdzialy/R29_AA.md)
+[R29 AA](./rozdzialy/R29_AA.md)  
+*8/10*
 
 [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)
+*Bo nigdy nie jest za dużo pretensjonalnie wyglądających tytułów*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
