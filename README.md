@@ -259,7 +259,7 @@ dowodu](./rozdzialy/R11_Modus_ponens.md)
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)  
-*Formalizacja jest zajęciem inherentnie twórczym i sprzyja rozmaitym psotom*
+*Formalizacja jest zajęciem inherentnie twórczym i sprzyjającym rozmaitym psotom*
 
 [R13 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/R13_Duzy_kwantyfikator_w_zadaniach.md)  
