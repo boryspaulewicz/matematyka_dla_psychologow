@@ -352,8 +352,8 @@ się też oczywiste, że to jest konieczne i lepiej czasem mieć świadomość, 
 -- parametr, term typu `X`.
 ```
 
-Możemy teraz, korzystając z dostępnych w Leanie twierdzeń, *formalnie udowodnić, tworząc term typu
-`Monoid Nat`*, że liczby naturalne są monoidem ze względu na dodawanie i `0`:
+Możemy teraz, korzystając z dostępnych w Leanie twierdzeń, *udowodnić, tworząc term typu `Monoid
+Nat`*, że liczby naturalne są monoidem ze względu na dodawanie i `0`:
 
 ```lean
 def Nat_add_is_a_monoid : Monoid Nat := 
