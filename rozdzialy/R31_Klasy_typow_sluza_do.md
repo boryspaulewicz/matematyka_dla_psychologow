@@ -6,29 +6,34 @@ Pisząc o monoidach, matematycy pozwalają sobie czasem na coś takiego:
 *Jeżeli `M` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
 Jak myślisz, co dokładnie oznacza tutaj stała `M`? Monoid, czy pewien zbiór? Jeżeli `M` jest
-monoidem, to zgodnie z definicją jest pewną trójką uporządkowaną (złożoną z pewnego zbioru, i tak
+monoidem, to zgodnie z definicją jest pewną *trójką uporządkowaną* (złożoną z pewnego zbioru, i tak
 dalej). Ale przecież relacja należenia do zbioru, której zachodzenie dla pary `(m, M)` oznaczamy
-pisząc `m ∈ M`, jest *niezdefiniowana*, gdy drugim członem jest ciąg skończony. Na pierwszy rzut oka
-wygląda to więc na błąd, bo takie wyrażenie nie jest, przynajmniej w przyjętym przez nas dotąd
-sensie, typowalne.
+pisząc `m ∈ M`, jest *niezdefiniowana*, gdy drugim członem zamiast *zbioru* jest ciąg skończony. Na
+pierwszy rzut oka wygląda to więc na błąd, bo takie wyrażenie nie jest, przynajmniej w przyjętym
+przez nas dotąd sensie, typowalne.
 
 Niektórzy matematycy piszą ostrożniej, na przykład tak:
 
 *Jeżeli `ℳ = (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
-Zmiana czcionki jest wtedy ważna, bo sygnalizuje, że stałe `ℳ` i `M` mają oznaczać blisko związane
-obiekty innego rodzaju. Zdarzają się też matematycy, którzy piszą tak ...
+Zmiana czcionki jest wtedy ważna, bo sygnalizuje, że stałe `ℳ` i `M` mają oznaczać blisko, a w tym
+wypadku można nawet powiedzieć, że [intymnie związane](https://en.wikipedia.org/wiki/Love_and_Math)
+obiekty różnego rodzaju. Zdarzają się też matematycy, którzy piszą tak ...
 
 *Jeżeli `ℳ := (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
 ... wyraźnie zaznaczając, że to (lokalna) definicja, ale mało komu się chce i można to zrozumieć,
 między innymi dlatego, że już ten pierwszy sposób pisania jest w zasadzie
-*nieproblematyczny*. Podobne zwyczaje dotyczą symboli oznaczających działania. Nikomu się nie chce
-wymyślać i konsekwentnie stosować kolejnych symboli na oznaczenie czegoś, co na przykład przypomina
-pod pewnymi względami dodawanie, ale nie jest (zwykłym) dodawaniem, tym bardziej, że matematycy są
-nie tylko do tego rodzaju wieloznaczności przyzwyczajeni, ale wręcz czasem jej *oczekują*. A
-oczekują jej między innymi dlatego, że wolą nie zapamiętywać więcej szczegółów notacji, niż to
-*potrzebne*.
+*nieproblematyczny*. 
+
+Podobne zwyczaje dotyczą symboli oznaczających działania. Nikomu się nie chce wymyślać i
+konsekwentnie stosować kolejnych symboli na oznaczenie czegoś, co na przykład bardzo przypomina
+zwykłe dodawanie, ale nim nie jest, tym bardziej, że matematycy są nie tylko do tego rodzaju
+wieloznaczności przyzwyczajeni, ale czasem wręcz jej *oczekują*. A oczekują jej między innymi
+dlatego, że po pierwsze, wolą nie zapamiętywać więcej szczegółów notacji, niż to *potrzebne*, a po
+drugie, skoro już mają głęboko wdrukowane, przyspieszające pisanie i myślenie *automatyzmy* związane
+z symbolem dodawania, to czemu mieliby z nich nie korzystać, gdy coś zachowuje się, przynajmniej w
+pewnych powtarzających się sytuacjach, jak zwykłe dodawanie?
 
 Tego rodzaju zwyczaje komunikacyjne odpowiadają temu, jak posługujemy się na codzień językami
 naturalnymi. Gdy na przykład mówimy albo myślimy o "zrobieniu obiadu", może nam chodzić o przeróżne
@@ -69,4 +74,6 @@ pewne gatunki zwierząt.
 
 No dobrze, spróbuję się ogarnąć i może ograniczę próby przekazania intonacji za pomocą pisma
 pochyłego.
+
+## Rekordowo i z klasą
 
