@@ -366,7 +366,7 @@ def Nat_add_is_a_monoid : Monoid Nat :=
    unit_right := by intro n ; rfl}
 ```
 
-Czy też usłyszałaś to bezgłośne kliknięcie idealnego dopasowania? Gdy tworzymy obiekty typów
+Czy Ty też usłyszałaś to bezgłośne kliknięcie idealnego dopasowania? Gdy tworzymy obiekty typów
 rekordowych w bardziej typowych (pun intended) językach programowania, to jest takich bez typów
 zależnych, brak komunikatu o błędzie też możemy traktować jako potwierdzenie pewnego faktu. Wtedy
 ten fakt jest jednak stosunkowo oczywisty, bo polega tylko na tym, że pewne obiekty mają określone
