@@ -44,14 +44,19 @@ jest przecież konieczna.
 większego znaczenia.)
 
 **Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?** Żeby
-lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem (matematyka to nie tylko liczby i obiekty
-geometryczne!), a dzięki temu pisać mniej głupot i czytać z większym zrozumieniem pełną głupot
-literaturę naukową. Albo po to, żeby używać na przykład wnioskowania statystycznego czy
-przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
-naukowca przystało, zamiast bezmyślnie - i często popełniając szkolne błędy - robić coś, bo "tak się
-robi", całkowicie opierając się na domniemanym autorytecie akademickiego stada. Wreszcie po to, żeby
-doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i
-mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
+lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem, bo matematyka to żywa, w przeciwieństwie
+do psychologii stale gwałtownie rozwijająca się dyscyplina, w której nie chodzi tylko, a nawet
+przede wszystkim, o liczby, obiekty geometryczne i rozwiązywanie zadań rachunkowych, tylko o
+*konsekwentne i twórcze myślenie na wiele różnych sposobów na jakikolwiek temat*. Może więc dzięki
+bliższemu kontaktowi z tą niezwykłą dyscypliną studenci psychologii i psychologowie akademiccy
+mogliby nauczyć się pisać mniej głupot i czytać z większym zrozumieniem pełną głupot literaturę
+naukową? Albo po to, żeby używać na przykład wnioskowania statystycznego czy przyczynowego *wiedząc
+dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na naukowca przystało, zamiast
+bezmyślnie i często popełniając szkolne błędy robić coś, bo "tak się robi", całkowicie opierając się
+na domniemanym autorytecie zajętego zdobywaniem grantów i przepychaniem publikacji akademickiego
+stada. Wreszcie po to, żeby doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego
+rozwiązania problemu, kontroli i mocy wynikających z opanowywania nowych sposobów myślenia, i
+piękna.
 
 **Dlaczego studenci psychologii albo psychologowie akademiccy mieliby zaczynać naukę podstaw
 matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, że to jest w ogóle
