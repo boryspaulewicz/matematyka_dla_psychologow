@@ -491,6 +491,8 @@ lewą stronę (`rw[← ...]`), nie wyjaśniłem, jak to działa. Teraz już wyja
 
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
+<hr>
+
 ### Przypisy
 
 [^1]: O prawie [podwójnej negacji](https://kawaly.tja.pl/dowcip,profesor-filologii-polskiej-na) będę
