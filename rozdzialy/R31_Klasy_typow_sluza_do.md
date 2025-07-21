@@ -162,13 +162,13 @@ Spróbujmy zdefiniować najpierw *jakiekolwiek*, a więc niekoniecznie łączne 
 konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie, które wyraźnie mówi, jak bardzo nie
 chce nam się tego robić, na przykład takie:
 
-`(1, 1) → 1`
+`(1, 1) ↦ 1`
 
-`(1, 2) → 1`
+`(1, 2) ↦ 1`
 
-`(2, 1) → 1`
+`(2, 1) ↦ 1`
 
-`(2, 2) → 1`
+`(2, 2) ↦ 1`
 
 Czy to działanie jest łączne? Dla każdej trójki elementów `a`, `b` i `c`, niezależnie od tego, czy
 najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy `c`, czy najpierw dodamy (już bez
