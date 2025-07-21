@@ -77,3 +77,125 @@ pochyłego.
 
 ## Rekordowo i z klasą
 
+Skoro każdy rododendron jest rośliną, a rośliny potrafią w normalnych warunkach pobierać energię ze
+światła, to rododendron potrafi jeść światło. Taki oto zwyczajny, chciałoby się powiedzieć typowy
+ciąg myśli przyszedł mi do głowy, wobec czego właśnie nad tym zdaniem będziemy się teraz pochylać.
+
+Cokolwiek by to miało znaczyć, byłoby raczej niewygodnie kodować wiedzę na temat metabolizmu roślin
+na poziomie poszczególnych gatunków roślin. O wiele wygodniej i sensowniej jest traktować takie
+zjawiska jak fotosynteza jako własności *wszystkich* roślin. Gdy trzeba się do tego rodzaju
+własności odnieść wprowadzając je jako założenie do konstruowanego rozumowania i biorąc pod uwagę na
+przykład rododendrony, wystarczy wtedy skorzystać z faktu, że rododendron to roślina i na tej
+podstawie, albo idąc tym tropem, dotrzeć do informacji na temat fotosyntezy i wyprowadzić stąd
+jakieś wnioski. Wydaje się wręcz, że z tego rodzaju *hierarchicznej struktury pojęć* czy *wiedzy*
+korzystamy niemal cały czas i niemal w każdym kontekście.
+
+A każdy monoid jest [*półgrupą*](https://pl.wikipedia.org/wiki/P%C3%B3%C5%82grupa). Półgrupa zaś to
+... Może jednak tym razem od razu skorzystam z rekordu, bo już wiesz, jak możesz to sobie
+przetłumaczyć na język półformalny, gdyby zajdzie taka (paląca) potrzeba, prawda? Przy okazji
+pozwolę sobie ukryć różnice między zbiorami i typami za pomocą odrobiny lukru.
+
+```lean
+structure Semigroup (α : Set) where
+  op    : α → α → α
+  assoc : ∀ a b c : α, (op (op a b) c) = (op a (op b c))
+```
+
+Jak widać, półgrupa to para złożona ze zbioru i określonego na nim działa łącznego. Bez szkody dla
+rozumowania będę odtąd mówił czasami, że półgrupa to po prostu dowolne działanie łączne. 
+
+Pojęcie półgrupy jest ewidentnie ogólniejsze niż pojęcie monoidu, ponieważ w przypadku półgrup *nie*
+wymagamy obecności wyróżnionego elementu neutralnego (ale też nie upieramy się, żeby go nie
+było). Mogłoby się wydawać, że o tego rodzaju algebrach trudno powiedzieć cokolwiek ważnego czy
+interesującego, bo poza tym, że mamy tu łączne działanie, nie wiemy na ich temat nic więcej, a
+łączne działania są, cóż, łączne, i to by było na tyle. Możemy jednak rozważać dowolne
+*hipotetyczne* własności półgrup i zadawać sobie pytanie, co wynika z połączenia półgrupowości z
+tymi własnościami. Na przykład, możemy poszukiwać półgrup o jakiś szczególnych cechach i próbować
+ustalić, jak takie półgrupy mogą, a jak nie mogą wyglądać.
+
+I tak, najmniejszą półgrupą jest zbiór pusty. Działanie musi być wtedy funkcją pustą, bo dziedziną
+działania jako funkcji jest wtedy iloczyn kartezjański zbioru pustego z samym sobą, który jest
+(oczywiście?) zbiorem pustym. W przypadku działania będącego funkcją pustą nie ma żadnych trójek
+elementów, dla których warunek łączności mógłby *nie* być spełniony, a więc warunek łączności jest
+spełniony, tyle, że *pusto*:
+
+```lean
+-- To kolejny przykład konstrukcji termu typu rekordowego występującej w roli twierdzenia.
+def The_empty_semigroup : Semigroup Empty := 
+  -- Tutaj moglibyśmy równie dobrze zwracać `x₂`. Nie ma to znaczenia, bo ta anonimowa funkcja *nie
+  -- może* nigdy dostać żadnego argumentu.
+  {op    := fun x₁ => fun x₂ => x₁,
+   -- Termów typu `Empty` używamy prawie tak samo, jak termów typu `False`.
+   assoc := by intro a b c ; exact a.elim }
+```
+
+Nazwałem ten term `The_empty_semigroup`, bo chociaż moglibyśmy zdefiniować takie same typy jak typ
+`Empty`, ale nadać im inne nazwy, te wszystkie typy były funkcjonalnie takie same, to jest
+izomorficzne, a więc byłyby tym samym typem. No dobrze, w trzech liniach kodu rozstrzygnęliśmy
+ostatecznie kwestię istnienia pustej półgrupy, a czy może istnieć półgrupa jednoelementowa?
+
+```lean
+-- Typ indukcyjny `Unit` wygląda i zachowuje się prawie tak samo jak typ `True`, tyle, że ma typ
+-- `Type`, a nie `Prop`.
+#check Unit      -- `Unit : Type`
+
+-- W szczególności, istnieje dokładnie jeden term typu `Unit`, będący jego konstruktorem, ...
+#check Unit.unit -- `Unit.unit : Unit`
+
+-- ... który możemy również zapisywać posługując się tym sugestywnym lukrem składniowym:
+#check ()        -- `() : Unit`
+
+def The_terminal_semigroup : Semigroup Unit :=
+  {op    := fun x₁ => fun x₂ => (),
+   -- Może tu chodzić tylko o zdanie `() = ()`, a więc wystarczy taktyka `rfl`.
+   assoc := by intro a b c; rfl}
+```
+
+Może już się nawet domyślasz, czemu nazwałem tą ostatnią półgrupę półgrupą *końcową*? Wrócimy do
+tego wątku nieco później. A ile jest półgrup dwuelementowych? Czyli, jeżeli `X` to jakiś zbiór
+dwuelementowy, na ile różnych sposobów możemy zdefiniować na tym zbiorze działanie łączne? To
+pytanie może się wydawać początkowo znacznie trudniejsze niż poprzednie, ale wystarczy
+rozważyć *jeden* konkretny przykład, żeby się zorientować, że wcale nie jest takie trudne:
+
+Spróbujmy zdefiniować najpierw *jakiekolwiek*, a więc niekoniecznie łączne działanie na jakimkolwiek
+konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie, które wyraźnie mówi, jak bardzo nie
+chce nam się tego robić, na przykład takie:
+
+`(1, 1) → 1`
+
+`(1, 2) → 1`
+
+`(2, 1) → 1`
+
+`(2, 2) → 1`
+
+Czy to działanie jest łączne? Dla każdej trójki elementów `a`, `b` i `c`, niezależnie od tego, czy
+najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy `c`, czy najpierw dodamy (już bez
+cudzysłowów, bo po co?) `c` do `b`, a potem do wyniku dodamy `a`, na końcu zawsze dostaniemy `1`, a
+więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim parom tego samego
+wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak jakby "na siłę" (zamiast
+"na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech elementów w dwóch różnych
+kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X` jest tylko 16 (wiesz czemu?).
+
+Nie będziemy tego robić, ale to moim zdaniem cenna lekcja: Zanim się poddamy poszukując odpowiedzi
+na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobrazić albo opisać albo
+zdefiniować albo narysować a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
+konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop.
+
+TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
+
+TODO: ostrożniej o wieloznaczności
+
+TODO: Więcej o dziedziczeniu poniżej
+
+W Leanie możemy korzystać z mechanizmu *dziedziczenia rekordów*, na przykład tak (jeżeli w tym samym
+pliku albo sesji masz zapisaną poprzednią definicję stałej `Monoid`, to wystąpi konflikt nazw):
+
+```lean
+structure Monoid (α : Set) extends Semigroup α where
+  u  : α
+  unit_left  : ∀ a : α, op u a = a
+  unit_right : ∀ a : α, op a u = a
+```
+
+Czujesz już, jak przyjemnie to wszystko może być poukładane?
