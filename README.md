@@ -53,7 +53,7 @@ lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem, bo ...
 ... **matematyka to żywa, w przeciwieństwie do psychologii stale gwałtownie rozwijająca się
 dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, obiekty geometryczne i
 rozwiązywanie zadań rachunkowych, tylko o* **konsekwentne i twórcze myślenie na wiele różnych
-sposobów na jakikolwiek temat**.
+sposobów o czym tylko się chce** *(a czasem nie chce)*.
 
 <hr>
 
