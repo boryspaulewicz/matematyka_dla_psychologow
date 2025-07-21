@@ -1,10 +1,10 @@
 ## O czym teraz będzie
 
 A to jest kolejny rozdział, w którym nie ma żadnych zadań. Muszę powiedzieć, że jestem z niego nawet
-zadowolony. Tylko nie pamiętam dokładnie o czym tu pisałem, tak więc potrzebuję chwili. No tak, mamy
-tu objaśnienie terminologii mieszkaniowej, z pozoru kontrowersyjną część na temat nieważności dowodu
-i po raz kolejny, tylko trochę inaczej, objaśnione dwa rodzaje obliczeń występujących w teorii
-typów.
+zadowolony. Tylko nie pamiętam dokładnie, o czym tu pisałem, tak więc potrzebuję chwili. No tak,
+mamy tu objaśnienie terminologii mieszkaniowej, z pozoru kontrowersyjną część na temat nieważności
+dowodu i po raz kolejny, tylko trochę inaczej, objaśnione dwa rodzaje obliczeń występujących w
+teorii typów.
 
 Nawiasem mówiąc, tych rodzajów obliczeń w teorii typów jest więcej. Mamy na przykład *α-redukcję*
 (nazwy parametrów są nieważne), *β-redukcję* (podstawianie argumentów pod zmienne odpowiadające
