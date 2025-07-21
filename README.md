@@ -11,7 +11,8 @@ najprostszej możliwej postaci.</em></div>
 **Aktualności**: 2025.07.20 Skończyłem pisać wstępną wersję rozdziału [R30
 Μονοειδές](./rozdzialy/R30_Monoeides.md), w którym można poczytać o monoidach, rekordach, termach
 typów rekordowych pełniących role twierdzeń, różnicach między czystymi językami funkcyjnymi i
-językami imperatywnymi, a także o paru innych sprawach, które będą ważne później.  
+językami imperatywnymi, a także o paru innych sprawach, które będą ważne później.
+
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
 
