@@ -213,7 +213,8 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 *Trochę historii, wszystkie osobiste, a poza tym ważne moim zdaniem rady*
 
 [R2 Co można z tą książką zrobić](./rozdzialy/R02_Co_mozna_z_ta_ksiazka_zrobic.md)  
-*Uwagi na temat uczenia się w ogóle, uczenia się matematyki, i samokontroli*
+*Oparte na wynikach badań i własnych wieloletnich doświadczeniach rady dotyczące uczenia się w
+ogóle, uczenia się matematyki, i samokontroli*
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
 będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie tego, o czym
@@ -224,10 +225,11 @@ tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych
 A czytając ten rozdział zaczniesz się uczyć (ze mną, chociaż w tym momecie jestem trochę dalej \{ale
 wcale nie tak *dużo* dalej\}), w dosyć nietypowy sposób i niemal od zera, podstaw samej *matematyki* .  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md)  
-*Dwa dowody przeprowadzone łagodnie i krok po kroku, a wszędzie pełno metarefleksji*
+*Dwa dowody przeprowadzone łagodnie i krok po kroku, a wokół pełno metarefleksji*
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md)  
-*Typowanie, podstawowe rodzaje definicji i ich przykładowe ciała, aplikacja, ewaluacja i currying*
+*Typowanie, podstawowe rodzaje definicji i ich przykładowe ciała, aplikacja, ewaluacja i currying,
+czyli taka jakby podróż do Indii*
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R06_Pierwszy_spacer_po_Leanie_wersja_druga.md)  
 *Prawie to samo co wcześniej, tylko trochę inaczej (i faktycznie nie całkiem to samo)*
@@ -249,11 +251,11 @@ jest też matematyką*
 *Autor sam sobie udziela wywiadu na temat niektórych własnych zainteresowań*
 
 [R10 Implikacja w praktyce dowodzenia](./rozdzialy/R10_Implikacja_w_praktyce_dowodzenia.md)  
-*Tytuł brzmi jak zapowiedź samych przyjemności, a okazuje się, że jest jeszcze lepiej*
+*Tytuł brzmi jak zapowiedź samych przyjemności, okazuje się jednak, że jest jeszcze lepiej*
 
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/R11_Modus_ponens.md)  
-*To nie przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki*
+*To może nie być przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki*
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)  
@@ -290,7 +292,7 @@ obietnicy*
 
 [R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/R21_Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)  
 *Swoją drogą, czy słowo "ważne" nie powinno zawsze występować w okolicy jakiegoś fragmentu mówiącego
-ze względu na co ważne?*
+ze względu na co to coś, co jest rzekomo ważne, jest rzekomo ważne?*
 
 [R22 X × Y ~ X ← ∘ → Y](./rozdzialy/R22_Wprowadzenie_do_jezyka_teorii_kategorii_1.md)  
 *Z pewnych rzeczy żartować nie wypada (zdaniem osób, które są mi pod tym względem całkiem obce)*
@@ -318,7 +320,7 @@ psychopacie, z nachalnym utrudnianiem*
 *8/10*
 
 [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)  
-*Bo nigdy nie jest za dużo pretensjonalnie wyglądających tytułów*
+*Bo pretensjonalnie wyglądających tytułów nigdy za wiele*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
