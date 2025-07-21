@@ -130,9 +130,10 @@ def The_empty_semigroup : Semigroup Empty :=
 ```
 
 Nazwałem ten term `The_empty_semigroup`, bo chociaż moglibyśmy zdefiniować takie same typy jak typ
-`Empty`, ale nadać im inne nazwy, te wszystkie typy były funkcjonalnie takie same, to jest
-izomorficzne, a więc byłyby tym samym typem. No dobrze, w trzech liniach kodu rozstrzygnęliśmy
-ostatecznie kwestię istnienia pustej półgrupy, a czy może istnieć półgrupa jednoelementowa?
+`Empty`, ale nadać im inne nazwy, te wszystkie typy byłyby funkcjonalnie takie same, to jest
+izomorficzne, a więc byłyby tym samym typem (*jako typem*). No dobrze, w trzech liniach kodu
+rozstrzygnęliśmy ostatecznie kwestię istnienia pustej półgrupy, a czy może istnieć półgrupa
+jednoelementowa?
 
 ```lean
 -- Typ indukcyjny `Unit` wygląda i zachowuje się prawie tak samo jak typ `True`, tyle, że ma typ
