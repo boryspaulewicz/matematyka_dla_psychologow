@@ -1,4 +1,4 @@
-2025.97.22 Skończyłem pisać wstępną wersję rozdziału [Klasy typów służą do pisania i myślenia po
+2025.07.22 Skończyłem pisać wstępną wersję rozdziału [Klasy typów służą do pisania i myślenia po
 ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md), w którym można znowu poczytać o monoidach, ale
 również o półgrupach, strukturze hierarchi pojęć i wiedzy, mechanizmie dziedziczenia w Leanie,
 typach `Empty` i `Unit`, psychologii i psychologach.
