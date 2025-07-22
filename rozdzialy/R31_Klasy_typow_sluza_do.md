@@ -215,12 +215,13 @@ czasem rozwiąże się jakby sam.
 
 Bo jeśli tylko pozwolimy mu dość długo wracać i między tymi powrotami wystąpią nie za długie i nie
 za krótkie przerwy, jego struktura utrwali się, uporządkuje i oczyści w naszej pamięci trwałej z
-wchłochatego nalotu przypadkowych asocjacji na tyle, że będziemy w stanie wykonywać w miarę
+włochatego nalotu przypadkowych asocjacji na tyle, że będziemy w stanie wykonywać w miarę
 konsekwentnie rozmaite operacje na elementach czy aspektach tego problemu z taką łatwością, że
-poczujemy, że rozwiązanie jest niemal w zasięgu ręki. Jak zawsze, zamiast walić głową w kartkę
-papieru czy komputer i ryzykować, że pojawi się pozbawiająca napędu frustracja, warto moim zdaniem
-uważać z ambicjami, pozwolić działać zbawiennemu upływowi czasu i zaufać, choćby tylko warunkowo,
-procesom pamięciowym.
+poczujemy, że rozwiązanie jest niemal w zasięgu ręki. W tym procesie ważne jest też to, że z czasem
+nabieramy również wprawy w *ignorowaniu* asocjacji nieprzypadkowych, ale chwilowo nieistotnych, co
+wbrew pozorom nie jest wcale takie łatwe. Jak zawsze, zamiast walić głową w kartkę czy komputer i
+ryzykować, że pojawi się pozbawiająca napędu frustracja, warto moim zdaniem uważać z ambicjami,
+pozwolić działać zbawiennemu upływowi czasu i zaufać, choćby tylko warunkowo, procesom pamięciowym.
 
 Wracamy do rododendronów. Skoro monoidy są szczególnymi przypadkami półgrup, to jest każdy monoid ma
 wszystkie własności przysługujące wszystkim półgrupom, a ustaliliśmy właśnie coś na na temat
