@@ -404,9 +404,9 @@ Gdy, jak wyżej, rekord `B` `extends` rekord `A`:
 
 Funkcjonalność dziedziczenia dla typów rekordowych nie pozwala nam zrobić czegoś, co byłoby dowodem
 zdania odpowiadającego zdaniu *Półgrupa końcowa jest monoidem*, bo to zdanie "idzie" od pojęcia
-ogólniejszego do mniej ogólnego, a projekcja rekordu działa w kierunku odwrotnym. Możemy jednak
-dzięki mechanizmowi dziedziczenia i projekcji uzyskać *transfer wiedzy z poziomu ogólniejszego do
-poziomu mniej ogólnego*:
+ogólniejszego do mniej ogólnego, a projekcja rekordu działa w kierunku odwrotnym. Dzięki
+mechanizmowi dziedziczenia i projekcji możemy jednak uzyskać *transfer wiedzy z poziomu
+ogólniejaszego do poziomu mniej ogólnego*:
 
 ```lean
 -- Niech `M` będzie jakimś monoidem (którego działanie niech będzie określone na jakimś zbiorze `X`).
@@ -471,4 +471,3 @@ siebie*, jakieś *mało nam znane terminy techniczne*? Jeżeli to widzisz, to za
 chwilę, co można zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali
 psychologię i unikali matematyki, pisząc nabite terminami technicznymi na przykład statystyki czy
 przyczynowości "artykuły naukowe".
-
