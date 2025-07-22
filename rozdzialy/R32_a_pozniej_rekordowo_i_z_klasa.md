@@ -15,8 +15,6 @@
 -- List.cons : {α : Type u} → α → List α → List α
 -- Mark set
 
--- ... ale za to może ta definicja ładowana przez Leana na starcie również nie jest:
-
 -- Dzięki umieszczeniu kopii w nowej przestrzeni nazw nie występuje konflikt nazw wynikający ze
 -- zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`). Mówiąc dokładniej, nieco poniżej
 -- zaczyna się ...
@@ -24,6 +22,9 @@ namespace Kopia -- ... fragmentu zawartości pliku Prelude.lean.
 
 -- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
 -- linię.
+
+-- ... ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
+-- przyjemną:
 
 /--
 Linked lists: ordered lists, in which each element has a reference to the next element.
