@@ -82,7 +82,7 @@ pewne gatunki zwierząt.
 No dobrze, spróbuję się ogarnąć i może ograniczę próby przekazania intonacji za pomocą pisma
 pochyłego.
 
-# Najpierw tylko rekordowo ...
+# Najpierw tylko rekordowo, ...
 
 Skoro każdy [rododendron](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCanecznik) jest rośliną, a
 rośliny potrafią w normalnych warunkach pobierać energię ze światła, to rododendron potrafi jeść
