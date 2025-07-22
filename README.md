@@ -330,6 +330,10 @@ deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
+[R32 ... a później rekordowo i z klasą](./rozdzialy/R32_a_pozniej_rekordowo_i_z_klasa.md)  
+*Zapis formalny staje się bardziej naturalny, znaczenie formalnie staje się czymś potencjalnym;
+piszemy listy*
+
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
 <hr>
