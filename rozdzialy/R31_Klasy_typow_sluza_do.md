@@ -427,20 +427,20 @@ Czujesz już, jak satysfakcjonująco to wszystko może być poukładane? A czy n
 tak abstrakcyjnego jak ogólnie rozumiana struktura pojęciowa stało się dla Ciebie czymś bardziej
 "namacalnym" albo "konkretnym"? To na koniec powinienem się do czegoś przyznać.
 
-Na początku tego rozdziału pisałem dużo o wieloznaczności. Podałem też, jak przykład wieloznaczności
-pojawiającej się, gdy używamy języka naturalnego do mówienia o zwykłych, codziennych sprawach,
-przykład różnych rodzajów obiadu. Jednak ani to *nie* był dobry przykład wieloznaczności, bo
-przecież rodzaje obiadu to tylko pojęcia mniej ogólne niż pojęcie obiadu, ani nie zrobiliśmy w tym
-rozdziale niczego, co odpowiadałoby skorzystaniu z jakiegoś mechanizmu kontrolowania
+Na początku tego rozdziału pisałem dużo o wieloznaczności. Podałem też - jako przykład
+wieloznaczności pojawiającej się gdy używamy języka naturalnego do mówienia o zwykłych, codziennych
+sprawach - przykład różnych rodzajów obiadu. Jednak ani to *nie* był dobry przykład wieloznaczności,
+bo przecież rodzaje obiadu to tylko pojęcia mniej ogólne niż pojęcie obiadu, ani nie zrobiliśmy w
+tym rozdziale niczego, co odpowiadałoby skorzystaniu z jakiegoś mechanizmu kontrolowania
 wieloznaczności. Możemy to nawet stwierdzić *z pewnością*, bo *każda stała, która pojawiła się w
 kodzie Leana, była zdefiniowana dokładnie jeden raz*.
 
 Czy widzisz, że gdy mamy do czynienia z pełną formalizacją, możemy tego rodzaju subtelne problemy
 pojęciowe rozstrzygać zarazem mechanicznie i ostatecznie, ale gdy pojawiają się w języku naturalnym,
-jesteśmy wobec nich czasem niemal bezradni i niezwykle łatwo dajemy się nabrać na to lub na tamto
+jesteśmy wobec nich czasami wręcz bezradni, i niezwykle łatwo dajemy się nabrać na to lub na tamto
 tylko dlatego, że mamy *wrażenie płynności wypowiedzi* i widzimy czasem, *stosowane z pewnością
-siebie*, jakieś *mało nam znane terminy techniczne*? Jeżeli to widzisz, to zastanów się przez chwilę
-proszę, co można zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali
-psychologię i unikali matematyki, pisząc nabite terminami technicznymi statystyki i przyczynowości
-"artykuły naukowe"?
+siebie*, jakieś *mało nam znane terminy techniczne*? Jeżeli to widzisz, to zastanów się proszę przez
+chwilę, co można zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali
+psychologię i unikali matematyki, pisząc nabite terminami technicznymi na przykład statystyki czy
+przyczynowości "artykuły naukowe".
 
