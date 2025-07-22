@@ -1,3 +1,8 @@
+2025.97.22 Skończyłem pisać wstępną wersję rozdziału [R31 Klasy typów służą do mówienia po
+ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md), w którym można znowu poczytać o monoidach, ale
+również o półgrupach, strukturze hierarchi pojęć i wiedzy, mechanizmie dziedziczenia w Leanie,
+typach `Empty` i `Unit`, psychologii i psychologach.
+
 2025.07.20 Skończyłem pisać wstępną wersję rozdziału [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md),
 w którym można poczytać o monoidach, rekordach, termach typów rekordowych pełniących role twierdzeń,
 różnicach między czystymi językami funkcyjnymi i językami imperatywnymi, a także o paru innych

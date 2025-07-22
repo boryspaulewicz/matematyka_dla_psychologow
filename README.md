@@ -8,10 +8,10 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.20 Skończyłem pisać wstępną wersję rozdziału [R30
-Μονοειδές](./rozdzialy/R30_Monoeides.md), w którym można poczytać o monoidach, rekordach, termach
-typów rekordowych pełniących role twierdzeń, różnicach między czystymi językami funkcyjnymi i
-językami imperatywnymi, a także o paru innych sprawach, które będą ważne później.
+**Aktualności**: 2025.97.22 Skończyłem pisać wstępną wersję rozdziału [R31 Klasy typów służą do
+mówienia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md), w którym można znowu poczytać o
+monoidach, ale również o półgrupach, strukturze hierarchi pojęć i wiedzy, mechanizmie dziedziczenia
+w Leanie, typach `Empty` i `Unit`, psychologii i psychologach.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
@@ -322,11 +322,12 @@ psychopacie, z nachalnym utrudnianiem*
 *8/10*
 
 [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)  
-*Bo pretensjonalnie wyglądających tytułów nigdy nie jest za wiele*
+*Bo pretensjonalnie wyglądających tytułów nigdy zbyt wiele*
+
+[R31 Klasy typów służą do pisania i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md)  
+*A jeżeli to nie jest pozwalanie sobie na zbyt wiele, to jutro może padać deszcz*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
-
-[R31 Klasy typów służą do pisania i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
