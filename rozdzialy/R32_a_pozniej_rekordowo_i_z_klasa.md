@@ -29,9 +29,8 @@ namespace Kopia -- ... fragmentu zawartości pliku Prelude.lean.
 /--
 Linked lists: ordered lists, in which each element has a reference to the next element.
 
-[To mówię ja, to znaczy (współ)autor: Przepraszam, że tak wszedłem dokumentacji w słowo, ale
- chciałem powiedzieć, że na Twoim miejscu nie przejmowałbym się za bardzo tym technicznym
- objaśnieniem.]
+[To mówię ja, (współ)autor: Przepraszam, że tak wszedłem dokumentacji w słowo, ale chciałem
+ powiedzieć, że na Twoim miejscu nie przejmowałbym się za bardzo tym technicznym objaśnieniem.]
 
 Most operations on linked lists take time proportional to the length of the list, because each
 element must be traversed to find the next element.
