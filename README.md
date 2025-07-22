@@ -325,7 +325,8 @@ psychopacie, z nachalnym utrudnianiem*
 *Bo pretensjonalnie wyglądających tytułów nigdy zbyt wiele*
 
 [R31 Klasy typów służą do pisania i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md)  
-*A jeżeli to nie jest pozwalanie sobie na zbyt wiele, to jutro może padać deszcz*
+*A jeżeli to nie jest pozwalanie sobie na zbyt wiele, to jutro może [padać
+deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
