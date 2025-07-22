@@ -75,20 +75,21 @@ pewne gatunki zwierząt.
 No dobrze, spróbuję się ogarnąć i może ograniczę próby przekazania intonacji za pomocą pisma
 pochyłego.
 
-## Najpierw tylko rekordowo ...
+# Najpierw tylko rekordowo ...
 
-Skoro każdy rododendron jest rośliną, a rośliny potrafią w normalnych warunkach pobierać energię ze
-światła, to rododendron potrafi jeść światło. Taki oto zwyczajny, chciałoby się powiedzieć typowy
-ciąg myśli przyszedł mi do głowy, wobec czego właśnie nad tym zdaniem będziemy się teraz pochylać.
+Skoro każdy [rododendron](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCanecznik) jest rośliną, a
+rośliny potrafią w normalnych warunkach pobierać energię ze światła, to rododendron potrafi jeść
+światło. Taki oto zwyczajny, chciałoby się powiedzieć typowy ciąg myśli przyszedł mi do głowy, wobec
+czego właśnie nad tym zdaniem będziemy się czasem pochylać.
 
-Cokolwiek by to miało znaczyć, byłoby raczej niewygodnie kodować wiedzę na temat metabolizmu roślin
-na poziomie poszczególnych gatunków roślin. O wiele wygodniej i sensowniej jest traktować takie
-zjawiska jak fotosynteza jako własności *wszystkich* roślin. Gdy trzeba się do tego rodzaju
-własności odnieść wprowadzając je jako założenie do konstruowanego rozumowania i biorąc pod uwagę na
-przykład rododendrony, wystarczy wtedy skorzystać z faktu, że rododendron to roślina i na tej
-podstawie, albo idąc tym tropem, dotrzeć do informacji na temat fotosyntezy i wyprowadzić stąd
-jakieś wnioski. Wydaje się wręcz, że z tego rodzaju *hierarchicznej struktury pojęć* czy *wiedzy*
-korzystamy niemal cały czas i niemal w każdym kontekście.
+Cokolwiek by to miało znaczyć, byłoby raczej niewygodnie *kodować wiedzę* na temat metabolizmu
+roślin na poziomie poszczególnych gatunków roślin, a tym bardziej na poziomie pojedynczych
+egzemplarzy. O wiele wygodniej i sensowniej jest traktować takie zjawiska jak fotosynteza jako
+własności *wszystkich* roślin. Gdy trzeba się do tego rodzaju własności odnieść, wprowadzając je
+jako założenie do konstruowanego rozumowania i biorąc pod uwagę na przykład rododendrony, wystarczy
+wtedy skorzystać z faktu, że rododendron to roślina i na tej podstawie, albo *idąc* tym tropem,
+*dotrzeć* do informacji na temat fotosyntezy i wyprowadzić stąd jakieś wnioski. Wydaje się wręcz, że
+z tego rodzaju *hierarchicznej struktury pojęć* czy *wiedzy* korzystamy niemal nieustannie.
 
 Tak jak każdy rododendron jest rośliną, tak też każdy monoid jest
 [*półgrupą*](https://pl.wikipedia.org/wiki/P%C3%B3%C5%82grupa). Półgrupa zaś to ... Może jednak tym
@@ -107,23 +108,27 @@ structure Semigroup (α : Set) where
 
 Półgrupa to para złożona ze zbioru i określonego na nim działania łącznego. Bez szkody dla
 rozumowania będę odtąd mówił czasami, że półgrupa to po prostu (dowolne) działanie łączne. Czy
-porównując reprezentacje aksjomatów monoidu i półgrupy w postaci rekordu widzsz, że pojęcie półgrupy
-jest jakby (pewnym, bo nie jedynym możliwym) cieniem pojęcia monoidu?
+porównując aksjomaty monoidu i półgrupy zakodowane za pomocą rekordu widzisz, że pojęcie półgrupy
+jest jakby (pewnym, bo nie jedynym możliwym) "cieniem" pojęcia monoidu?
 
 Pojęcie półgrupy jest ewidentnie ogólniejsze niż pojęcie monoidu, ponieważ w przypadku półgrup *nie*
-wymagamy obecności wyróżnionego elementu neutralnego (ale też nie upieramy się, żeby ma go nie
-być). Mogłoby się wydawać, że o tego rodzaju algebrach trudno powiedzieć cokolwiek ważnego czy
-interesującego, bo poza tym, że mamy tu łączne działanie, nie wiemy na ich temat nic więcej, a
-łączne działania są, cóż, łączne, i to by było na tyle. Możemy jednak rozważać dowolne
-*hipotetyczne* własności półgrup i zadawać sobie pytanie, co wynika z *połączenia* "półgrupowości",
-czyli po prostu łączności działania, z tymi własnościami. Na przykład, możemy poszukiwać półgrup o
-jakiś szczególnych cechach i próbować ustalić, jak takie półgrupy mogą, a jak nie mogą wyglądać.
+wymagamy obecności wyróżnionego elementu neutralnego (ale też nie upieramy się, że ma go nie
+być). Mogłoby się wydawać, że o tego rodzaju abstrakcyjnych algebrach trudno powiedzieć cokolwiek
+ważnego czy interesującego, bo poza tym, że mamy tu łączne działanie, a priori nie wiemy na ich
+temat nic więcej, a łączne działania są, cóż, łączne, i to by było na tyle. Możemy jednak rozważać
+dowolne *hipotetyczne własności* na przykład właśnie półgrup i zadawać sobie za każdym razem
+pytanie, co dokładnie wynika z *połączenia* tej "półgrupowości", czyli po prostu łączności
+działania, z innymi hipotetycznymi własnościami. Inaczej mówiąc, możemy rozważać (niekoniecznie
+istniejące!) półgrupy o rozmaitych szczególnych cechach i próbować ustalić, jak takie półgrupy
+mogłyby, a jak by nie mogly wyglądać; bo rozwijanie zastanej albo tworzenie nowej teorii
+matematycznej to *konsekwentne fantazjowanie* albo *nieskrępowana niczym poza wewnętrzną spójnością
+swoboda myślenia*.
 
 I tak, najmniejszą półgrupą jest zbiór pusty. Działanie musi być wtedy funkcją pustą, bo dziedziną
 działania jako funkcji jest wtedy iloczyn kartezjański zbioru pustego z samym sobą, który jest
 (oczywiście?) zbiorem pustym. W przypadku działania będącego funkcją pustą nie ma żadnych trójek
 elementów, dla których warunek łączności mógłby *nie* być spełniony, a więc warunek łączności jest
-spełniony, tyle, że jest spełniony pusto:
+wtedy spełniony, tyle, że jest spełniony pusto:
 
 ```lean
 -- To kolejny przykład konstrukcji termu typu rekordowego występującej w roli twierdzenia, ale tym
@@ -183,12 +188,12 @@ bardzo nie chce nam się tego robić:
 
 Czy to działanie jest łączne? Dla każdej trójki elementów `a`, `b` i `c`, niezależnie od tego, czy
 najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy (już bez cudzysłowów, bo po co?) `c` (`(a *
-b) * c`), czy najpierw dodamy `c` do `b`, a wyniku dodamy do `a` (`a * (b * c))`), na końcu zawsze
-dostaniemy `1`, a więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim
-parom tego samego wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak jakby
-"na siłę" (zamiast "na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech elementów w
-dwóch różnych kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X`, czyli wszystkich
-możliwych, niekoniecznie łącznych działań binarnych na takim zbiorze jest tylko 16 (wiesz
+b) * c`), czy najpierw dodamy `c` do `b`, a do wyniku dodamy do `a` (`a * (b * c))`), na końcu
+zawsze dostaniemy `1`, a więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali
+wszystkim parom tego samego wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić
+tak jakby "na siłę" (zamiast "na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech
+elementów w dwóch różnych kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X`, czyli
+wszystkich możliwych, niekoniecznie łącznych działań binarnych na takim zbiorze jest tylko 16 (wiesz
 czemu?). Gdyby nam zależało na znalezieniu odpowiedzi, moglibyśmy celowo poszukiwać jej w tempie dla
 nas komfortowym i mogłoby to być może nawet dość przyjemne, mniej więcej tak, jak przyjemne może być
 układanie puzzli, które w dodatku samemu się zrobiło.
@@ -198,18 +203,18 @@ na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobraz
 zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
 konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop. A nawet jeśli nie wpadniemy
 na niego od razu, konstrukcja przykładu sprawi, że problem będzie do nas inaczej *wracał* i może z
-czasem rozwiąże się jakby sam, bo o ile pozwolimy mu dość długo wracać i pomiędzy tymi powrotami
+czasem rozwiąże się jakby sam. Bo jeśli tylko pozwolimy mu dość długo wracać i między tymi powrotami
 będą ani nie za długie, ani nie za krótkie przerwy, jego struktura utrwali się, uporządkuje i
 oczyści w naszej pamięci trwałej na tyle, że będziemy w stanie wykonywać w miarę konsekwentnie
 rozmaite operacje na elementach tego problemu z taką łatwością, że poczujemy, że rozwiązanie jest
 niemal w zasięgu ręku. Jak zawsze, zamiast walić głową w kartkę papieru czy komputer i ryzykować, że
 pojawi się pozbawiająca napędu frustracja, warto moim zdaniem uważać z ambicjami, pozwolić działać
-zbawiennemu upływowi czasu i zaufać, przynajmniej warunkowo, procesom pamięciowym.
+zbawiennemu upływowi czasu i zaufać, choćby tylko warunkowo, procesom pamięciowym.
 
 Wracamy do rododendronów. Skoro monoidy są szczególnymi przypadkami półgrup, to jest każdy monoid ma
 wszystkie własności przysługujące wszystkim półgrupom, a ustaliliśmy właśnie coś na na temat
 półgrup, to powinniśmy móc tą zdobytą już na zawsze wiedzę zastosować do monoidów, prawda? A nie
-możemy, Wiesz dlaczego?
+możemy. Wiesz dlaczego?
 
 Udowodniliśmy dwa twierdzenia o *istnieniu pewnego rodzaju półgrup*, a takie twierdzenia nie dotyczą
 *wszystkich* półgrup, to znaczy *każdej z osobna*, tylko *zbioru półgrup*, bo te twierdzenia mówią
@@ -226,18 +231,18 @@ bywa język naturalny, nawet wtedy, gdy posługujemy się nim stosunkowo ostroż
 chciałbym, żebyś pomyślała o tym, jak dziwne bywają zwyczaje psychologów akademickich, którzy z
 jednej strony często bardzo interesują się tym, jak ludzie myślą i jak mogą myśleć, a z drugiej
 strony rzadko zadają sobie trud, żeby dowiedzieć się, czego na temat wszelkiego rodzaju pojęć można
-się nauczyć poznając tylko podstawy matematyki. A przecież matematyka z używania pojęć uczyniła
-wyrafinowaną, niezwykle użyteczną technologię uniwersalnego zastosowania, sama matematyka jest
-rezultatem myślenia i używają jej do myślenia o najróżniejszych sprawach przynajmniej niektórzy z
-nas.
+się nauczyć poznając same tylko *podstawy* matematyki. A przecież matematyka z używania pojęć
+uczyniła wyrafinowaną, niezwykle użyteczną technologię uniwersalnego zastosowania, sama jest
+rezultatem myślenia, i używają jej do myślenia o najróżniejszych sprawach, a więc w ramach pewnych
+ważnych sposobów zachowywania się, przynajmniej niektórzy z nas.
 
-Nie będziemy, jak to się mówi, cudować i udowodnimy, dla dowolnej półgrupy `X` (zauważyłaś, jak bez
-ostrzeżenia skróciłem i "uwieloznaczniłem" zapis?), że:
+Nie będziemy [cudować](https://archive.org/details/bub_gb_LuzulKKxEowC/mode/2up) i udowodnimy, dla
+dowolnej półgrupy `X` (zauważyłaś, jak bez ostrzeżenia skróciłem i "uwieloznaczniłem" zapis?), że:
 
 `∀ a b c d ∈ X, (a * ((b * c) * d)) = (a * (b * (c * d)))`
 
-Spróbujemy tym razem, przytaczając jego fragmenty w komentarzach nad odpowiadającym mu kodem,
-zreplikować strukturę typowego półformalnego dowodu tego rodzaju zdania.
+Spróbujemy tym razem, cytując jego fragmenty w komentarzach nad odpowiadającym mu kodem, zreplikować
+strukturę typowego półformalnego dowodu tego rodzaju zdania.
 
 ```lean
 -- "Niech `P` będzie półgrupą określoną na zbiorze `X`."
@@ -276,29 +281,29 @@ theorem t1 : ∀ a b c d : X, (P.op a   (P.op (P.op b   c)   d)) =
 
 Każdy monoid jest półgrupą, ale nie każda półgrupa jest monoidem. Półgrupa pusta na przykład nie
 jest, bo nie ma elementu neutralnego/identyczności/jednostki, a nie ma, bo nie może mieć, bo jest
-pusta. Za to półgrupa jednoelementowa, która tak jak każdy monoid jest łączna (teraz już naprawdę
-przegiąłem z wieloznacznością, a mimo to od razu zrozumiałaś, o co mi chodzi, prawda?), może mieć
-jednostkę. Ale czy ma? 
+pusta. Za to półgrupa jednoelementowa, która, tak jak każdy monoid, jest łączna (teraz już naprawdę
+przegiąłem z wieloznacznością, a mimo to od razu zrozumiałaś, o co mi chodzi, prawda?), *może* mieć
+jednostkę. Ale czy *ma*?
 
 Co to dokładnie znaczy "mieć jednostkę"? To albo znaczy, że istnieje element spełniający wymagania
 jakie stawiamy jednostkom, albo, że taki element jest dodatkowo wskazany albo oznaczony jako
 jednostka. Monoidy mają jednostki w tym drugim znaczeniu, a półgrupy miewają je co najmniej w
 pierwszym. Żeby jednak udowodnić, że półgrupa końcowa (czyli jednoelementowa) ma jednostkę, musimy
-de facto (albo funkcjonalnie) udowodnić zdanie o postaci `∃ u ∈ P, ...`. W logice to znaczy, że
-musimy funkcjonalnie (albo de facto) stworzyć parę złożoną z 1. elementu/termu `u` należącego do
-półgrupy/zbioru/typu `P` i z 2. dowodu, że to jednostka. Czyli musimy jednak tą jednostkę
-wskazać. Czyli dowodząc tego zdania musimy de facto stworzyć jedyne brakujące pole rekordu
+de facto (albo funkcjonalnie) udowodnić zdanie o postaci `∃ u ∈ P, ...`. W logice konstruktywnej zaś
+to znaczy, że musimy funkcjonalnie (albo de facto) stworzyć parę złożoną z 1. elementu/termu `u`
+należącego do półgrupy/zbioru/typu `P` i z 2. dowodu, że to jednostka. Czyli musimy jednak tą
+jednostkę wskazać. Czyli dowodząc tego zdania musimy de facto stworzyć jedyne brakujące pole rekordu
 aksjomatów monoidu, które "doklejone" do rekordu aksjomatów półgrupy "natychmiast" da nam
 monoid. Ale też jednocześnie "doklejając" takie pole "natychmiast" udowodnilibyśmy to zdanie. To
 wszystko (funkcjonalnie) jest tym samym (jednym czymś).
 
 ```lean
--- Nazwałem to twierdzenie w stylu, który na ogół preferuję, to znaczy wybierając "na czuja" poziom
--- skrótowości, unikając dużych liter i nie przejmując się gramatyką (np `sg` skrt semigroup {i
+-- Nazwałem to twierdzenie w stylu, który na ogół preferuję, to znaczy wybierając na wyczucie poziom
+-- skrótowości, unikając dużych liter i nie przejmując się gramatyką (np `sg` skrt `semigroup` {i
 -- wszystko jasne, prawda?}). Dwa najważniejsze kryteria, które staram się w takich sytuacjach
 -- możliwie dobrze spełnić, to 1. wygoda pisania i 2. łatwość odpamiętania. Ponieważ tworząc
 -- formalną matematykę/kod trzeba co chwilę wymyślać jakieś nazwy, żeby w ogólnym przypadku łatwo mi
--- się je odpamiętywało, *muszę* wymyślać nazwy o *podobnej, związanej z ich "sensem" strukturze*.
+-- się je odpamiętywało, *muszę* wymyślać nazwy o *podobnej i związanej z ich "sensem" strukturze*.
 theorem term_sg_has_unit (T : Semigroup Unit) : 
   ∃ u : Unit, ∀ a : Unit, T.op u a = a ∧ T.op a u = a := by
   -- Ponieważ I am so over robienie takich dowodów bez użycia taktyk (and at some point, you will be
@@ -307,19 +312,19 @@ theorem term_sg_has_unit (T : Semigroup Unit) :
   -- tutaj akurat adekwatności semantycznej i gramatycznej, między tym słowem i słowami, które nie
   -- zostały zapisane, tutaj na przykład słowami "robienia" i "robieniem"? [Nie masz zdania?]}) i
   -- ponieważ jest jasne, że dowód tego zdania musi być "rutynowy", będziemy znowu obiecywać Leanowi
-  -- za pomocą `apply`, że damy mu to, czego w danym momencie się domaga, a jak obiecanki nie
+  -- za pomocą `apply`, że damy mu to, czego się w danym momencie domaga, a jak te obiecanki nie
   -- wystarczą, to żeby coś się zmieniło w stanie dowodu, spróbujemy odwołać się do (jakiś)
   -- definicji za pomocą `rfl`. I tak, to było jedno zdanie, nawet jeśli funkcjonalnie to było nie
-  -- tyle zdanie, co jakaś droga przez jakąś mękę. Wygląda na to, że u mnie to się ani trochę nie
-  -- wyklucza. Ale za to czy po przeczytaniu takiego długiego, dziko zagnieżdżonego i upstrzonego
-  -- dygresjami zdania nie masz wrażenia ...
+  -- tyle zdanie, co jakaś droga przez jakąś mękę. Wygląda na to, że u mnie jedno z drugim się ani
+  -- trochę nie wyklucza. Ale za to czy po przeczytaniu takiego długiego, dziko zagnieżdżonego i
+  -- upstrzonego dygresjami zdania nie masz wrażenia ...
   apply Exists.intro
   intro a
   apply And.intro
   rfl
   rfl
   exact ()
-  -- ... że bezgłośne klikanie bezbłędności rutynowego dowodu interaktywnego jest dosyć
+  -- ... że bezgłośne klikanie bezbłędności rutynowego dowodu interaktywnego jest satysfakcjonująco
   -- odświerzające?
 ```
 
@@ -337,7 +342,7 @@ znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
 -- twierdzenia albo "wcielonego aksjomatu" dotyczącego półgrupy jednoelementowej
 -- `The_terminal_semigroup.assoc`.
 #check ({op    :=  fun (a _) => a,
-        -- Niestety Lean jest wrażliwy na wcięcia. Gdyby przesunąć kod w tej linii o jedno miejsce w
+        -- Uwaga, Lean jest wrażliwy na wcięcia. Gdyby przesunąć kod w tej linii o jedno miejsce w
         -- lewo, pojawiłaby się czerwona falka.
          assoc := The_terminal_semigroup.assoc} 
         : Semigroup Unit)
@@ -353,6 +358,8 @@ znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
        -- zewnętrznych nawiasów okrągłych.
         : Monoid Unit}
 ```
+
+TODO: odtąd wygładzanie
 
 A *chcemy*, żeby typ termu był zawsze unikalny - z dokładnością do *redukujących się* do tego samego
 termu *sposobów zapisywania*, *nie* z dokładnością do w jakikolwiek sposób *dowiedlnie równoważnych
