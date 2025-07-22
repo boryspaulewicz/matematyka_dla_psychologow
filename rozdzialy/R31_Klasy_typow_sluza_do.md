@@ -274,6 +274,52 @@ theorem t1 : ∀ a b c d : X, (P.op a   (P.op (P.op b   c)   d)) =
 
 ## "Jest" jest wieloznaczne
 
+Każdy monoid jest półgrupą, ale nie każda półgrupa jest monoidem. Półgrupa pusta na przykład nie
+jest, bo nie ma elementu neutralnego/identyczności/jednostki, a nie ma, bo nie może mieć, bo jest
+pusta. Za to półgrupa jednoelementowa, która tak jak każdy monoid jest łączna (teraz już naprawdę
+przegiąłem z wieloznacznością, a mimo to od razu zrozumiałaś, o co mi chodzi, prawda?), może mieć
+jednostkę. Ale czy ma? 
+
+Co to dokładnie znaczy "mieć jednostkę"? To albo znaczy, że istnieje element spełniający wymagania
+jakie stawiamy jednostkom, albo, że taki element jest dodatkowo wskazany albo oznaczony jako
+jednostka. Monoidy mają jednostki w tym drugim znaczeniu, a półgrupy miewają je co najmniej w
+pierwszym. Żeby jednak udowodnić, że półgrupa końcowa (czyli jednoelementowa) ma jednostkę, musimy
+de facto (albo funkcjonalnie) udowodnić zdanie o postaci `∃ u ∈ P, ...`. W logice to znaczy, że
+musimy funkcjonalnie (albo de facto) stworzyć parę, złożoną z 1. elementu/termu `u` należącego do
+półgrupy/zbioru/typu `P` i z 2. dowodu, że to jednostka. Czyli musimy jednak tą jednostkę
+wskazać. Czyli dowodząc tego zdania musimy de facto stworzyć jedyne brakujące pole rekordu
+aksjomatów monoidu, które "doklejone" do rekordu aksjomatów półgrupy "natychmiast" da nam monoid.
+
+```lean
+-- Nazwałem to twierdzenie w stylu, który na ogół preferuję, to znaczy wybierając "na czuja" poziom
+-- skrótowości, unikając dużych liter i nie przejmując się gramatyką (np `sg` skrt semigroup {i
+-- wszystko jasne, prawda?}). Dwa najważniejsze kryteria, które staram się w takich sytuacjach
+-- możliwie dobrze spełnić, to 1. wygoda pisania i 2. łatwość odpamiętania. Ponieważ tworząc
+-- formalną matematykę/kod trzeba co chwilę wymyślać jakieś nazwy, żeby w ogólnym przypadku łatwo mi
+-- się je odpamiętywało, *muszę* wymyślać nazwy o *podobnej, związanej z ich "sensem" strukturze*.
+theorem term_sg_has_unit (T : Semigroup Unit) : 
+  ∃ u : Unit, ∀ a : Unit, T.op u a = a ∧ T.op a u = a := by
+  -- Ponieważ I am so over robienie takich dowodów bez użycia taktyk (and at some point, you will be
+  -- too {też trochę lubisz, gdy pojawia się takie napięcie między słowem zapisanym, tutaj akurat
+  -- słowem "robienie", kilkoma występującymi jednocześnie faktami zachodzenia relacji adekwatności,
+  -- tutaj akurat adekwatności semantycznej i gramatycznej, między tym słowem i słowami, które nie
+  -- zostały zapisane, tutaj na przykład słowami "robienia" i "robieniem"? [Nie masz zdania?]}) i
+  -- ponieważ jest jasne, że dowód tego zdania musi być "rutynowy", będziemy znowu obiecywać Leanowi
+  -- za pomocą `apply`, że damy mu to, czego w danym momencie się domaga, a jak obiecanki nie
+  -- wystarczą, to żeby coś się zmieniło w stanie dowodu, spróbujemy odwołać się do (jakiś)
+  -- definicji za pomocą `rfl`. I tak, to było jedno zdanie, nawet jeśli funkcjonalnie to było nie
+  -- tyle zdanie, co jakaś droga przez jakąś mękę. Wygląda na to, że u mnie to się ani trochę nie
+  -- wyklucza. Ale czy po przeczytaniu takiego długiego, dziko zagnieżdżonego i upstrzonego
+  -- dygresjami zdania nie masz wrażenia ...
+  apply Exists.intro
+  intro a
+  apply And.intro
+  rfl
+  rfl
+  exact ()
+  -- ... że bezgłośne klikanie rutynowego dowodu interaktywnego jest dosyć odświerzające?
+```
+
 TODO: Półgrupa końcowa jest monoidem
 
 TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
