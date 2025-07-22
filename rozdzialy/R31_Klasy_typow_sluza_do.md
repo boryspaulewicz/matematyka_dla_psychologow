@@ -309,7 +309,7 @@ theorem term_sg_has_unit (T : Semigroup Unit) :
   -- wystarczą, to żeby coś się zmieniło w stanie dowodu, spróbujemy odwołać się do (jakiś)
   -- definicji za pomocą `rfl`. I tak, to było jedno zdanie, nawet jeśli funkcjonalnie to było nie
   -- tyle zdanie, co jakaś droga przez jakąś mękę. Wygląda na to, że u mnie to się ani trochę nie
-  -- wyklucza. Ale czy po przeczytaniu takiego długiego, dziko zagnieżdżonego i upstrzonego
+  -- wyklucza. Ale za to czy po przeczytaniu takiego długiego, dziko zagnieżdżonego i upstrzonego
   -- dygresjami zdania nie masz wrażenia ...
   apply Exists.intro
   intro a
@@ -317,8 +317,43 @@ theorem term_sg_has_unit (T : Semigroup Unit) :
   rfl
   rfl
   exact ()
-  -- ... że bezgłośne klikanie rutynowego dowodu interaktywnego jest dosyć odświerzające?
+  -- ... że bezgłośne klikanie bezbłędności rutynowego dowodu interaktywnego jest dosyć
+  -- odświerzające?
 ```
+
+No i teraz chciałoby się może, a w każdym razie ja bym chciał, udowodnić coś w stylu `T : Semigroup
+Unit → T : Monoid Unit`, ale takie wyrażenie *nie może* być typowalne, bo ten sam term `T` ma w nim
+*dwa* typy, z których żaden nie jest *redukowalny* do drugiego, a żaden nie jest, bo te dwa typy
+mają wyraźnie *różne znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
+
+```lean
+-- Tak też, to jest sprawdzając poprawność jawnego typowania, możemy (znowu) udowodnić, że istnieje
+-- półgrupa jednoelementowa. Korzystamy tutaj z udowodnionego już twierdzenia albo "wcielonego
+-- aksjomatu" dotyczącego półgrupy jednoelementowej `The_terminal_semigroup.assoc`.
+#check ({op    :=  fun (a _) => a,
+        -- Niestety Lean jest wrażliwy na wcięcia. Gdyby przesunąć kod w tej linii w lewo o jedno
+        -- miejsce, pojawiłaby się czerwona falka.
+         assoc := The_terminal_semigroup.assoc} 
+        : Semigroup Unit)
+
+#check {op         := fun (a _) => a,
+        assoc      := by intro a _ _; rfl,
+       -- Półgrupy nie mają tych trzech pól:
+        u          := (),
+        unit_left  := by intro _ ; rfl,
+        unit_right := by intro a ; rfl,
+       -- Lean pozwala też jawnie typować termy rekordowe *wewnątrz* nawiasów klamrowych. Czasem ten
+       -- sposób jest wygodniejszy i bardziej czytelny. Tutaj na przykład pozbyliśmy się dzięki temu
+       -- zewnętrznych nawiasów okrągłych.
+        : Monoid Unit}
+```
+
+A *chcemy*, żeby typ termu był zawsze unikalny - z dokładnością do *redukujących się* do tego samego
+termu *sposobów zapisywania*, *nie* z dokładnością do *dowiedlnie równoważnych konstrukcji* - bo
+właśnie dzięki temu, że typy są unikalne, sprawdzanie poprawności kodu może być zrealizowane za
+pomocą *algorytmu*. Nie przejmujemy się tym, jeśli to na razie zbyt subtelna kwestia, ok? Korzystamy
+natomiast, mam nadzieję, z tej okazji do kolejnej, nieco poszerzającej wiedzę (na przykład, o wiedzę
+o nowym sposobie typowania rekordów) powtórki.
 
 TODO: Półgrupa końcowa jest monoidem
 
