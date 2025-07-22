@@ -8,7 +8,7 @@ niespodzianki.
 
 # Klasy typów służą do pisania i myślenia po ludzku
 
-Pisząc o monoidach, matematycy pozwalają sobie czasem na coś takiego:
+Pisząc o monoidach, matematycy pozwalają sobie często na coś takiego:
 
 *Jeżeli `M` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
@@ -25,17 +25,16 @@ Niektórzy matematycy piszą ostrożniej, na przykład tak:
 
 Zmiana czcionki jest wtedy ważna, bo sygnalizuje, że stałe `ℳ` i `M` mają oznaczać blisko, a w tym
 wypadku można nawet powiedzieć, że [intymnie](https://en.wikipedia.org/wiki/Love_and_Math) związane
-obiekty różnego rodzaju. Zdarzają się też matematycy, którzy piszą tak ...
+obiekty różnego rodzaju. Zdarzają się i matematycy, którzy piszą tak ...
 
 *Jeżeli `ℳ := (M, *, u)` jest monoidem, to dla każdego `m ∈ M`, `u * m = m`*.
 
-... wyraźnie zaznaczając, że to (lokalna) definicja, ale mało komu się chce i można to zrozumieć,
-między innymi dlatego, że już ten pierwszy sposób pisania jest w zasadzie
-*nieproblematyczny*. 
+... wyraźnie zaznaczając, że to (lokalna) definicja, ale mało komu się chce i można to zrozumieć.
+Między innymi dlatego, że już ten pierwszy sposób pisania jest w zasadzie *nieproblematyczny*.
 
 Podobne zwyczaje dotyczą symboli oznaczających działania. Nikomu się nie chce wymyślać i
 konsekwentnie stosować kolejnych symboli na oznaczenie czegoś, co na przykład bardzo przypomina
-zwykłe dodawanie, ale nim nie jest, tym bardziej, że matematycy są nie tylko do tego rodzaju
+zwykłe dodawanie, ale nim nie jest. Tym bardziej, że matematycy są nie tylko do tego rodzaju
 wieloznaczności przyzwyczajeni, ale czasem wręcz jej *oczekują*. A oczekują jej między innymi
 dlatego, że po pierwsze, wolą nie zapamiętywać więcej szczegółów notacji, niż to *potrzebne*, a po
 drugie, skoro już mają głęboko wdrukowane, przyspieszające pisanie i myślenie *automatyzmy* związane
@@ -43,13 +42,13 @@ z symbolem dodawania, to czemu mieliby z nich nie korzystać, gdy coś zachowuje
 pewnych powtarzających się sytuacjach, jak zwykłe dodawanie?
 
 Tego rodzaju zwyczaje komunikacyjne odpowiadają temu, jak posługujemy się na codzień językami
-naturalnymi. Gdy na przykład mówimy albo myślimy o "zrobieniu obiadu", może nam chodzić o przeróżne
-*procesy fizyczne*. Mimo różnic, te procesy będą jednak lepiej lub gorzej *rozwiązywały podobne
-problemy w podobny sposób*, czyli będą podobne funkcjonalnie, to jest pod względem *sposobu
-działania*, a więc w innym znaczeniu słowa "funkcja" niż przyporządkowanie elementom jakiegoś zbioru
+naturalnymi. Gdy na przykład mówimy albo myślimy o zrobieniu obiadu, może nam chodzić o *przeróżne*
+procesy fizyczne. Mimo różnic, te procesy będą jednak lepiej lub gorzej *rozwiązywały podobne
+problemy w podobny sposób*, czyli będą podobne funkcjonalnie, to jest pod względem sposobu
+działania. A więc w innym znaczeniu słowa "funkcja", niż przyporządkowanie elementom jakiegoś zbioru
 albo termom jakiegoś typu unikalnych wartości, obiektów, czy termów. Oczywiście interesuje nas
 często, o jaki konkretnie obiad chodzi, albo w jaki konkretnie sposób ten obiad ma być lub został
-zrobiony, ale czasami nas to *nie* interesuje i wtedy trudno się obejść bez mówienia w taki
+zrobiony, ale czasami nas to *nie* interesuje. I wtedy trudno się obejść bez mówienia w taki
 skrótowy, *celowo wieloznaczny* sposób o zrobieniu *jakiegoś* obiadu albo zrobieniu obiadu w *jakiś*
 sposób.
 
@@ -57,30 +56,29 @@ Gdy w matematyce mówimy o "dodawaniu", może nam chodzić o dodawanie liczb nat
 rzeczywistych, zespolonych, wektorów, macierzy, ciągów, funkcji, albo innego rodzaju
 obiektów. *Szczegóły* działania operacji są wtedy za każdym razem *inne*, jednak *podobieństwo
 funkcjonalne* jest na tyle wyraźne albo w danym kontekście ważne, że używanie do tego celu tej samej
-nazwy albo tego samego symbolu i sposobu zapisywania działań sprawdza się znacznie lepiej, niż
-komplikowanie notacji i unikanie wieloznaczności za wszelką cenę.
+nazwy albo tego samego symbolu i sposobu zapisywania działań sprawdza się lepiej, niż komplikowanie
+notacji i unikanie wieloznaczności za wszelką cenę.
 
 To tylko kilka przykładów celowej i bardzo przydatnej, a czasem wręcz nieodzownej wieloznaczności. I
-nie chodzi w tym tylko o ekonomię środków i kontrolę liczby używanych słów, ale również o ułatwienie
-sobie lub innym *elastycznego przełączania się* między *różnymi, ale blisko związanymi sposobami
-myślenia*. Inaczej mówiąc, na pewno nie zawsze, ale niezwykle często jest tak, że *warto* mieszać ze
-sobą różne języki. Wydaje mi się nawet, że zdążyłaś się już o tym niejednokrotnie przekonać między
-innymi czytając tą książkę.
+nie chodzi w tym tylko o ekonomię środków i kontrolę liczby używanych słów. Chodzi również o
+ułatwienie sobie lub innym *elastycznego przełączania się* między *różnymi*, ale *blisko związanymi
+sposobami myślenia*. Inaczej mówiąc, na pewno nie zawsze, ale niezwykle często jest tak, że *warto*
+mieszać ze sobą różne języki. Wydaje mi się nawet, że zdążyłaś się już o tym niejednokrotnie
+przekonać między innymi czytając tą książkę.
 
 To jednocześnie przykłady czegoś, co można by nazwać *abstrakcją funkcjonalną*, a co odgrywa
 fundamentalną rolę w psychologii, ponieważ centralnym przedmiotem badań psychologicznych są
-*abstrakcyjnie* rozumiane *zachowania*, a zachowania są tym, czym są, to jest zachowaniami,
-dokładnie dlatego, że *czemuś służą*, to jest (w przybliżeniu) *rozwiązują* jakiś *problem* albo
+*abstrakcyjnie* rozumiane *zachowania*. Zachowania są tym, czym są, to jest zachowaniami, dokładnie
+dlatego, że *czemuś służą*, to jest w przybliżeniu *rozwiązują* jakiś *problem* albo *realizują* czy
 *wykonują* jakieś *zadanie*. A może nawet wypadałoby tego rodzaju wieloznaczności nazywać po prostu
-*abstrakcją*, skoro, przynajmniej moim zdaniem, *abstrakcja jest zawsze
-funkcjonalna*. Abstrakcyjność jest przecież własnością *pojęć* (ogólność połączona często z
-wieloznacznością oznaczających pojęcia słów) i *reprezentacji* (też ogólność połączona z
-wieloznacznością, ale sposobów reprezentowania), a pojęcia pojęcia i reprezentacji są pojęciami
-funkcjonalnymi: pojęcia i reprezentacje są tym, czym są, dlatego, że *używają ich w pewien sposób*
-pewne gatunki zwierząt.
+*abstrakcją*, skoro, przynajmniej moim zdaniem, *abstrakcja jest zawsze funkcjonalna*?
+Abstrakcyjność jest przecież własnością *pojęć* (ogólność połączona często z wieloznacznością
+oznaczających pojęcia słów) i *reprezentacji* (też ogólność połączona z wieloznacznością, ale
+sposobów reprezentowania), a pojęcia pojęcia i reprezentacji są pojęciami funkcjonalnymi: pojęcia i
+reprezentacje są tym, czym są, dlatego, że *w pewien sposób używają ich* pewne gatunki zwierząt.
 
-No dobrze, spróbuję się ogarnąć i może ograniczę próby przekazania intonacji za pomocą pisma
-pochyłego.
+No dobrze, spróbuję się ogarnąć i może tym razem ograniczę próby przekazania intonacji za pomocą
+pisma pochyłego.
 
 # Najpierw tylko rekordowo, ...
 
@@ -96,7 +94,8 @@ własności *wszystkich* roślin. Gdy trzeba się do tego rodzaju własności od
 jako założenie do konstruowanego rozumowania i biorąc pod uwagę na przykład rododendrony, wystarczy
 wtedy skorzystać z faktu, że rododendron to roślina i na tej podstawie, albo *idąc* tym tropem,
 *dotrzeć* do informacji na temat fotosyntezy i wyprowadzić stąd jakieś wnioski. Wydaje się wręcz, że
-z tego rodzaju *hierarchicznej struktury pojęć* czy *wiedzy* korzystamy niemal nieustannie.
+z tego rodzaju *hierarchicznej struktury pojęć* czy może nawet *wiedzy* korzystamy niemal
+nieustannie.
 
 Tak jak każdy rododendron jest rośliną, tak też każdy monoid jest
 [*półgrupą*](https://pl.wikipedia.org/wiki/P%C3%B3%C5%82grupa). Półgrupa zaś to ... Może jednak tym
@@ -105,7 +104,7 @@ półformalny, gdyby zajdzie taka (paląca) potrzeba, prawda? Przy okazji pozwol
 między zbiorami i typami za pomocą odrobiny lukru.
 
 ```lean
--- To właśnie wspomniana odrobina lukru.
+-- Tymczasem odrobina lukru:
 def Set := Type
 
 structure Semigroup (α : Set) where
@@ -115,25 +114,24 @@ structure Semigroup (α : Set) where
 
 Półgrupa to para złożona ze zbioru i określonego na nim działania łącznego. Bez szkody dla
 rozumowania będę odtąd mówił czasami, że półgrupa to po prostu (dowolne) działanie łączne. Czy
-porównując aksjomaty monoidu i półgrupy zakodowane za pomocą rekordu widzisz, że pojęcie półgrupy
-jest jakby (pewnym, bo nie jedynym możliwym) "cieniem" pojęcia monoidu?
+porównując aksjomaty monoidu i półgrupy zakodowane za pomocą rekordu widzisz, że *pojęcie* półgrupy
+jest jakby (pewnym, bo nie jedynym możliwym) *cieniem pojęcia* monoidu?
 
 Pojęcie półgrupy jest ewidentnie ogólniejsze niż pojęcie monoidu, ponieważ w przypadku półgrup *nie*
 wymagamy obecności wyróżnionego elementu neutralnego (ale też nie upieramy się, że ma go nie
 być). Mogłoby się wydawać, że o tego rodzaju abstrakcyjnych algebrach trudno powiedzieć cokolwiek
 ważnego czy interesującego, bo poza tym, że mamy tu łączne działanie, a priori nie wiemy na ich
 temat nic więcej, a łączne działania są, cóż, łączne, i to by było na tyle. Możemy jednak rozważać
-dowolne *hipotetyczne własności* na przykład właśnie półgrup i zadawać sobie za każdym razem
-pytanie, co dokładnie wynika z *połączenia* tej "półgrupowości", czyli po prostu łączności
-działania, z innymi hipotetycznymi własnościami. Inaczej mówiąc, możemy rozważać (niekoniecznie
-istniejące!) półgrupy o rozmaitych szczególnych cechach i próbować ustalić, jak takie półgrupy
-mogłyby, a jak by nie mogly wyglądać; bo rozwijanie zastanej albo tworzenie nowej teorii
-matematycznej to *konsekwentne fantazjowanie* albo *nieskrępowana niczym poza wewnętrzną spójnością
-swoboda myślenia*.
+dowolne *hipotetyczne własności* półgrup i zadawać sobie za każdym razem pytanie, co dokładnie
+wynika z *połączenia* "półgrupowości", czyli po prostu łączności działania, z innymi hipotetycznymi
+własnościami. Inaczej mówiąc, możemy rozważać (niekoniecznie istniejące!) półgrupy o rozmaitych
+cechach szczególnych i próbować ustalić, jak takie półgrupy mogłyby, a jak by nie mogły wyglądać. Bo
+rozwijanie zastanej albo tworzenie nowej teorii matematycznej to *konsekwentne fantazjowanie* albo
+*nieskrępowana niczym poza wewnętrzną spójnością swoboda myślenia*.
 
 I tak, najmniejszą półgrupą jest zbiór pusty. Działanie musi być wtedy funkcją pustą, bo dziedziną
 działania jako funkcji jest wtedy iloczyn kartezjański zbioru pustego z samym sobą, który jest
-(oczywiście?) zbiorem pustym. W przypadku działania będącego funkcją pustą nie ma żadnych trójek
+(oczywiście?) zbiorem pustym. W przypadku działania będącego funkcją pustą, nie ma żadnych trójek
 elementów, dla których warunek łączności mógłby *nie* być spełniony, a więc warunek łączności jest
 wtedy spełniony, tyle, że jest spełniony pusto:
 
@@ -148,14 +146,15 @@ def The_empty_semigroup : Semigroup Empty :=
    assoc := by intro a b c ; exact a.elim }
 ```
 
-Nazwałem ten term `The_empty_semigroup`, bo chociaż moglibyśmy zdefiniować takie same typy jak typ
-`Empty`, ale nadać im inne nazwy, te wszystkie typy byłyby funkcjonalnie takie same, to jest
-izomorficzne, a więc byłyby tym samym typem (*jako typem*). No dobrze, w trzech liniach kodu
-rozstrzygnęliśmy ostatecznie i pozytywnie kwestię istnienia pustej półgrupy, a czy może istnieć
-półgrupa jednoelementowa?
+Nazwałem ten term `The_empty_semigroup`, a nie `An_empty_semigroup`, bo chociaż moglibyśmy
+zdefiniować takie same typy jak typ `Empty`, ale nadać im inne nazwy, te wszystkie typy byłyby
+funkcjonalnie takie same, to jest izomorficzne, a więc byłyby tym samym typem (jako typem). 
+
+No dobrze, w trzech liniach kodu rozstrzygnęliśmy ostatecznie i pozytywnie kwestię istnienia pustej
+półgrupy. A czy może istnieć półgrupa jednoelementowa?
 
 ```lean
--- Typ indukcyjny `Unit` wygląda i zachowuje się prawie tak samo jak typ `True`, tyle, że ma typ
+-- Typ indukcyjny `Unit` wygląda i zachowuje się prawie tak samo, jak typ `True`, tyle, że ma typ
 -- `Type`, a nie `Prop`.
 #check Unit      -- `Unit : Type`
 
@@ -182,8 +181,8 @@ pytanie może się wydawać początkowo znacznie trudniejsze niż poprzednie, al
 wszystkim bardziej *uciążliwe*, czyli wymaga więcej *czasu*:
 
 Spróbujmy zdefiniować najpierw *jakiekolwiek*, a więc niekoniecznie łączne działanie na jakimkolwiek
-konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie, które będzie wyraźnie pokazywać, jak
-bardzo nie chce nam się tego robić:
+konkretnym zbiorze dwuelementowym. Może nawet wybierzmy takie działanie, które będzie wyraźnie
+pokazywać, jak bardzo nie chce nam się tego robić:
 
 `(1, 1) ↦ 1`
 
