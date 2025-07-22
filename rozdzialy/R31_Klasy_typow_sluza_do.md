@@ -100,7 +100,7 @@ nieustannie.
 Tak jak każdy rododendron jest rośliną, tak też każdy monoid jest
 [*półgrupą*](https://pl.wikipedia.org/wiki/P%C3%B3%C5%82grupa). Półgrupa zaś to ... Może jednak tym
 razem od razu skorzystam z rekordu, bo już wiesz, jak możesz to sobie przetłumaczyć na język
-półformalny, gdyby zajdzie taka (paląca) potrzeba, prawda? Przy okazji pozwolę sobie ukryć różnice
+półformalny, gdy zajdzie taka (paląca) potrzeba, prawda? Przy okazji pozwolę sobie ukryć różnice
 między zbiorami i typami za pomocą odrobiny lukru.
 
 ```lean
@@ -194,51 +194,56 @@ pokazywać, jak bardzo nie chce nam się tego robić:
 
 Czy to działanie jest łączne? Dla każdej trójki elementów `a`, `b` i `c`, niezależnie od tego, czy
 najpierw "dodamy" `b` do `a`, a potem do wyniku dodamy (już bez cudzysłowów, bo po co?) `c` (`(a *
-b) * c`), czy najpierw dodamy `c` do `b`, a do wyniku dodamy do `a` (`a * (b * c))`), na końcu
-zawsze dostaniemy `1`, a więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali
-wszystkim parom tego samego wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić
-tak jakby "na siłę" (zamiast "na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech
-elementów w dwóch różnych kolejnościach. A wszystkich możliwych funkcji z `X × X` do `X`, czyli
-wszystkich możliwych, niekoniecznie łącznych działań binarnych na takim zbiorze jest tylko 16 (wiesz
-czemu?). Gdyby nam zależało na znalezieniu odpowiedzi, moglibyśmy celowo poszukiwać jej w tempie dla
-nas komfortowym i mogłoby to być może nawet dość przyjemne, mniej więcej tak, jak przyjemne może być
-układanie puzzli, które w dodatku samemu się zrobiło.
+b) * c`), czy najpierw dodamy `c` do `b`, a wynik dodamy do `a` (`a * (b * c))`), na końcu zawsze
+dostaniemy `1`, a więc to samo, a więc to jest działanie łączne. Gdybyśmy nie przypisali wszystkim
+parom tego samego wyniku, byłoby to co prawda trudniej ustalić, ale moglibyśmy to zrobić tak jakby
+"na siłę" (zamiast "na rozum"), rozpisując wszystkie możliwe podwójne złożenia trzech elementów w
+dwóch różnych kolejnościach. 
+
+A wszystkich możliwych funkcji z `X × X` do `X`, czyli wszystkich możliwych, niekoniecznie łącznych
+działań binarnych na takim zbiorze jest tylko 16 (wiesz czemu?). Gdyby nam zależało na znalezieniu
+odpowiedzi, moglibyśmy celowo poszukiwać jej w tempie dla nas komfortowym i mogłoby to być może
+nawet dość przyjemne, mniej więcej tak, jak przyjemne może być układanie puzzli, które w dodatku
+samemu się zrobiło.
 
 Nie będziemy tego robić, ale to moim zdaniem cenna lekcja: Zanim się poddamy poszukując odpowiedzi
 na jakieś dobrze określone pytanie, warto chociaż *spróbować* sobie wyobrazić, albo opisać, albo
-zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden, mniej lub bardziej
-konkretny przykład*. Kto wie, może od razu wpadniemy na właściwy trop. A nawet jeśli nie wpadniemy
-na niego od razu, konstrukcja przykładu sprawi, że problem będzie do nas inaczej *wracał* i może z
-czasem rozwiąże się jakby sam. Bo jeśli tylko pozwolimy mu dość długo wracać i między tymi powrotami
-będą ani nie za długie, ani nie za krótkie przerwy, jego struktura utrwali się, uporządkuje i
-oczyści w naszej pamięci trwałej na tyle, że będziemy w stanie wykonywać w miarę konsekwentnie
-rozmaite operacje na elementach tego problemu z taką łatwością, że poczujemy, że rozwiązanie jest
-niemal w zasięgu ręku. Jak zawsze, zamiast walić głową w kartkę papieru czy komputer i ryzykować, że
-pojawi się pozbawiająca napędu frustracja, warto moim zdaniem uważać z ambicjami, pozwolić działać
-zbawiennemu upływowi czasu i zaufać, choćby tylko warunkowo, procesom pamięciowym.
+zdefiniować, albo narysować, a czasem nawet tylko określić w zarysie *jeden*, mniej lub bardziej
+konkretny przykład. Kto wie, może od razu wpadniemy na właściwy trop. A nawet jeśli nie wpadniemy na
+niego od razu, konstrukcja przykładu sprawi, że problem będzie do nas inaczej *wracał* i może z
+czasem rozwiąże się jakby sam. 
+
+Bo jeśli tylko pozwolimy mu dość długo wracać i między tymi powrotami wystąpią nie za długie i nie
+za krótkie przerwy, jego struktura utrwali się, uporządkuje i oczyści w naszej pamięci trwałej z
+wchłochatego nalotu przypadkowych asocjacji na tyle, że będziemy w stanie wykonywać w miarę
+konsekwentnie rozmaite operacje na elementach czy aspektach tego problemu z taką łatwością, że
+poczujemy, że rozwiązanie jest niemal w zasięgu ręki. Jak zawsze, zamiast walić głową w kartkę
+papieru czy komputer i ryzykować, że pojawi się pozbawiająca napędu frustracja, warto moim zdaniem
+uważać z ambicjami, pozwolić działać zbawiennemu upływowi czasu i zaufać, choćby tylko warunkowo,
+procesom pamięciowym.
 
 Wracamy do rododendronów. Skoro monoidy są szczególnymi przypadkami półgrup, to jest każdy monoid ma
 wszystkie własności przysługujące wszystkim półgrupom, a ustaliliśmy właśnie coś na na temat
 półgrup, to powinniśmy móc tą zdobytą już na zawsze wiedzę zastosować do monoidów, prawda? A nie
 możemy. Wiesz dlaczego?
 
-Udowodniliśmy dwa twierdzenia o *istnieniu pewnego rodzaju półgrup*, a takie twierdzenia nie dotyczą
-*wszystkich* półgrup, to znaczy *każdej z osobna*, tylko *zbioru półgrup*, bo te twierdzenia mówią
-to samo, co zdania o postaci *Do zbioru półgrup należy element `X` taki, że ...*. A więc te
-twierdzenia dotyczą *obiektu innego typu* niż typ półgrup. Żeby udowodnić twierdzenie na temat
+Udowodniliśmy dwa twierdzenia o *istnieniu* pewnego rodzaju półgrup, a takie twierdzenia nie dotyczą
+*wszystkich* półgrup, to znaczy *każdej z osobna*, tylko *zbioru półgrup*, bo takie twierdzenia
+mówią to samo, co zdania o postaci *Do zbioru półgrup należy element `X` taki, że ...*. A więc te
+dwa twierdzenia dotyczą obiektu *innego typu* niż typ półgrup. Żeby udowodnić twierdzenie na temat
 półgrup, które dotyczyłoby automatycznie wszystkich monoidów, musielibyśmy wystartować na przykład z
-punktu *Niech `(X, *)` będzie półgrupą ...* i nie moglibyśmy dodawać założeń, które wykluczałyby
-istnienie elementu neutralnego. 
+punktu *Niech `(X, *)` będzie półgrupą ...*, i nie moglibyśmy dodawać założeń, które wykluczałyby
+istnienie elementu neutralnego.
 
-Mam nadzieję, że udało mi się chociaż na chwilę wywieść Cię w pole tym, co napisałem w poprzednim
+Mam nadzieję, że udało mi się chociaż na chwilę wywieść Cię w pole tym, co napisałem w przedostatnim
 akapicie, bo chciałem w ten sposób zilustrować coś ważnego na temat języka naturalnego i
 psychologii. Jeżeli mi się to udało, to po raz kolejny miałaś okazję się przekonać, jak zwodniczy
 bywa język naturalny, nawet wtedy, gdy posługujemy się nim stosunkowo ostrożnie. Przy okazji
-chciałbym, żebyś pomyślała o tym, jak dziwne bywają zwyczaje psychologów akademickich. Ci z jednej
-strony często bardzo interesują się tym, jak ludzie myślą i jak mogą myśleć, a z drugiej rzadko
-zadają sobie trud, żeby dowiedzieć się, czego na temat wszelkiego rodzaju pojęć można się nauczyć
-poznając same tylko *podstawy* współczesnej matematyki. A przecież matematyka z używania pojęć
-uczyniła wyrafinowaną, niezwykle użyteczną technologię uniwersalnego zastosowania, sama jest
+chciałbym, żebyś pomyślała o tym, jak dziwne bywają zwyczaje psychologów akademickich. Z jednej
+strony psychologowie często bardzo interesują się tym, jak ludzie myślą i jak mogą myśleć, a z
+drugiej rzadko zadają sobie trud, żeby dowiedzieć się, czego na temat wszelkiego rodzaju pojęć można
+się nauczyć poznając same tylko *podstawy* współczesnej matematyki. A przecież matematyka z używania
+pojęć uczyniła wyrafinowaną, niezwykle użyteczną technologię uniwersalnego zastosowania, sama jest
 rezultatem myślenia, i używają jej do myślenia o najróżniejszych sprawach, a więc w ramach pewnych
 ważnych sposobów czy form zachowywania się, przynajmniej niektórzy z nas.
 
@@ -257,7 +262,7 @@ strukturę typowego półformalnego dowodu tego rodzaju zdania.
 --
 -- `variable (X : Set) (P : Semigroup X)`
 --
--- ... albo polegać na domyślności Leana. Wybieramy to drugie:
+-- ... albo polegać na domyślności Leana. Wybrałem to drugie:
 variable (P : Semigroup X)
 
 -- Nie widać w linii powyżej czerwonej falki, bo Lean domyślił się, że `X` musi być (jakimś)
@@ -279,29 +284,38 @@ theorem t1 : ∀ a b c d : X, (P.op a   (P.op (P.op b   c)   d)) =
 #check t1 -- `t1 : {X : Set} (P : Semigroup X) (a b c d : X) : P.op ...`
 
 -- Ponieważ Lean się go domyślił, `X` jest niejawnym (i z konieczności pierwszym) parametrem tego
--- twierdzenia, natomiast `P` jest parametrem jawnym, bo deklarując za pomocą `variable` `P` jako
--- parametr tam, gdzie ta nazwa jest używana, zastosowaliśmy nawiasy okrągłe.
+-- twierdzenia, natomiast `P` jest parametrem jawnym, bo deklarując za pomocą `variable`, że `P` ma
+-- być parametrem wszędzie tam, gdzie nazwa `P` jest używana (i nie przysłonięta inną deklaracją
+-- albo definicją), zastosowaliśmy nawiasy okrągłe.
 ```
 
 ## "Jest" jest wieloznaczne
 
 Każdy monoid jest półgrupą, ale nie każda półgrupa jest monoidem. Półgrupa pusta na przykład nie
 jest, bo nie ma elementu neutralnego/identyczności/jednostki, a nie ma, bo nie może mieć, bo jest
-pusta. Za to półgrupa jednoelementowa, która, tak jak każdy monoid, jest łączna (teraz już naprawdę
-przegiąłem z wieloznacznością, a mimo to od razu zrozumiałaś, o co mi chodzi, prawda?), *może* mieć
-jednostkę. Ale czy *ma*?
+pusta. Za to półgrupa jednoelementowa, która, tak jak każdy monoid, jest łączna (właśnie mocno
+przesadziłem z wieloznacznością, a mimo to od razu zrozumiałaś, o co mi chodzi, prawda?), *może*
+mieć jednostkę. Ale czy ma?
 
 Co to dokładnie znaczy "mieć jednostkę"? To albo znaczy, że istnieje element spełniający wymagania
-jakie stawiamy jednostkom, albo, że taki element jest dodatkowo wskazany albo oznaczony jako
-jednostka. Monoidy mają jednostki w tym drugim znaczeniu, a półgrupy miewają je co najmniej w
-pierwszym. Żeby jednak udowodnić, że półgrupa końcowa (czyli jednoelementowa) ma jednostkę, musimy
-de facto (albo funkcjonalnie) udowodnić zdanie o postaci `∃ u ∈ P, ...`. W logice konstruktywnej zaś
-to znaczy, że musimy funkcjonalnie (albo de facto) stworzyć parę złożoną z 1. elementu/termu `u`
-należącego do półgrupy/zbioru/typu `P` i z 2. dowodu, że to jednostka. Czyli musimy jednak tą
-jednostkę wskazać. Czyli dowodząc tego zdania musimy de facto stworzyć jedyne brakujące pole rekordu
-aksjomatów monoidu, które "doklejone" do rekordu aksjomatów półgrupy "natychmiast" da nam
-monoid. Ale też jednocześnie "doklejając" takie pole "natychmiast" udowodnilibyśmy to zdanie. To
-wszystko (funkcjonalnie) jest tym samym (jednym czymś).
+jakie stawiamy jednostkom, albo, że taki element nie tylko istnieje, ale jest również wskazany albo
+oznaczony jako jednostka. To nie jest to samo. Na przykład, co z tego, że wiemy, że istnieje
+rozwiązanie jakiegoś problemu, gdy nie znamy żadnego konkretnego przykładu takiego rozwiązania?
+Choćby tyle z tego, że wiemy, że znalezienie konkretnego rozwiązania jest przynajmniej możliwe, a to
+czasem dużo. Jednak wiedzieć, *że* rozwiązanie *istnieje* i *mieć* rozwiązanie to dwie różne
+rzeczy. Tak samo jak wiedzieć, że dwa obiekty są izomorficzne, to zdecydowanie nie to samo, co mieć
+(jako w ten czy inny sposób wskazany, oznaczony, albo unikalnie scharakteryzowany) jakiś konkretny
+izomorfizm.
+
+Monoidy mają jednostki w tym drugim znaczeniu, a półgrupy miewają je co najmniej w pierwszym. Żeby
+jednak udowodnić, że półgrupa końcowa (czyli jednoelementowa) ma jednostkę w tym pierwszym, słabszym
+znaczeniu, musimy de facto (albo funkcjonalnie) udowodnić zdanie o postaci `∃ u ∈ P, ...`. W logice
+konstruktywnej, której tu prawie zawsze używamy, to znaczy, że musimy funkcjonalnie (albo de facto)
+stworzyć parę złożoną z 1. elementu/termu `u`, należącego do półgrupy/zbioru/typu `P` i z 2. dowodu,
+że `u` jest jednostką. Czyli musimy jednak tą jednostkę wskazać. Czyli dowodząc tego zdania musimy
+de facto stworzyć jedyne brakujące pole rekordu aksjomatów monoidu, które "doklejone" do rekordu
+aksjomatów półgrupy "natychmiast" da nam monoid. Ale też jednocześnie "doklejając" takie pole
+"natychmiast" udowodnilibyśmy to zdanie. To wszystko (funkcjonalnie) jest tym samym (jednym czymś).
 
 ```lean
 -- Nazwałem to twierdzenie w stylu, który na ogół preferuję, to znaczy wybierając na wyczucie poziom
@@ -309,7 +323,8 @@ wszystko (funkcjonalnie) jest tym samym (jednym czymś).
 -- wszystko jasne, prawda?}). Dwa najważniejsze kryteria, które staram się w takich sytuacjach
 -- możliwie dobrze spełnić, to 1. wygoda pisania i 2. łatwość odpamiętania. Ponieważ tworząc
 -- formalną matematykę/kod trzeba co chwilę wymyślać jakieś nazwy, żeby w ogólnym przypadku łatwo mi
--- się je odpamiętywało, *muszę* wymyślać nazwy o *podobnej i związanej z ich "sensem" strukturze*.
+-- się je odpamiętywało, *muszę* wymyślać nazwy o *podobnej* i *związanej z ich "sensem"
+-- strukturze*.
 theorem term_sg_has_unit (T : Semigroup Unit) : 
   ∃ u : Unit, ∀ a : Unit, T.op u a = a ∧ T.op a u = a := by
   -- Ponieważ I am so over robienie takich dowodów bez użycia taktyk (and at some point, you will be
@@ -319,17 +334,19 @@ theorem term_sg_has_unit (T : Semigroup Unit) :
   -- zostały zapisane, tutaj na przykład słowami "robienia" i "robieniem"? [Nie masz zdania?]}) i
   -- ponieważ jest jasne, że dowód tego zdania musi być "rutynowy", będziemy znowu obiecywać Leanowi
   -- za pomocą `apply`, że damy mu to, czego się w danym momencie domaga, a jak te obiecanki nie
-  -- wystarczą, to żeby coś się zmieniło w stanie dowodu, spróbujemy odwołać się do (jakiś)
+  -- wystarczą, to żeby coś zmieniło się w stanie dowodu, spróbujemy odwołać się do (jakiś)
   -- definicji za pomocą `rfl`. I tak, to było jedno zdanie, nawet jeśli funkcjonalnie to było nie
   -- tyle zdanie, co jakaś droga przez jakąś mękę. Wygląda na to, że u mnie jedno z drugim się ani
   -- trochę nie wyklucza. Ale za to czy po przeczytaniu takiego długiego, dziko zagnieżdżonego i
   -- upstrzonego dygresjami zdania nie masz wrażenia ...
+
   apply Exists.intro
   intro a
   apply And.intro
   rfl
   rfl
   exact ()
+  
   -- ... że bezgłośne klikanie bezbłędności rutynowego dowodu interaktywnego jest satysfakcjonująco
   -- odświerzające?
 ```
@@ -349,7 +366,7 @@ znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
 -- `The_terminal_semigroup.assoc`.
 #check ({op    :=  fun (a _) => a,
         -- Uwaga, Lean jest wrażliwy na wcięcia. Gdyby przesunąć kod w tej linii o jedno miejsce w
-        -- lewo, pojawiłaby się czerwona falka.
+        -- lewo, pojawiłaby się czerwona falka. Za to w prawo można przesuwać do woli.
          assoc := The_terminal_semigroup.assoc} 
         : Semigroup Unit)
 
@@ -365,17 +382,17 @@ znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
         : Monoid Unit}
 ```
 
-A *chcemy*, żeby typ termu był zawsze unikalny, z dokładnością do *redukujących się* do tego samego
-termu *sposobów zapisywania*, takich jak `1332 : Nat` i `1332 : (λ x ↦ x) Nat` (tak też to można
-pisać), *nie* z dokładnością do w jakikolwiek sposób *dowiedlnie równoważnych konstrukcji*. Właśnie
-dzięki temu, że typy są unikalne, sprawdzanie poprawności arbitralnego kodu może być zrealizowane za
-pomocą *algorytmu*. Nie przejmujemy się tym, jeśli to na razie zbyt subtelna kwestia, ok? Korzystamy
+Chcemy, żeby typ termu był zawsze unikalny, z dokładnością do *redukujących się* do tego samego
+termu *sposobów zapisywania*, takich jak `1332 : Nat` i `1332 : (λ x ↦ x) Nat` (tak też można),
+*nie* z dokładnością do w jakikolwiek sposób *dowiedlnie równoważnych konstrukcji*. Właśnie dzięki
+temu, że typy są unikalne, sprawdzanie poprawności arbitralnego kodu może być zrealizowane za pomocą
+*algorytmu*. Nie przejmujemy się tym, jeśli to na razie zbyt subtelna kwestia, ok? Korzystamy
 natomiast, mam nadzieję, z tej okazji do kolejnej, nieco poszerzającej wiedzę (na przykład, o wiedzę
 o nowym sposobie typowania rekordów) powtórki.
 
 W teorii typów nie mamy też dokładnego odpowiednika pojęcia *pod*zbioru: Jeżeli dwa typy `A` i `B`
 mają ten sam sort, na przykład oba są termami typu `Type 667`, to nie ma sposobu, żeby nawet tylko
-wyrazić jako potencjalnie prawdziwe zdanie, że `A` jest "podtypem" `B`. W przypadku *tradycyjnie*
+wyrazić, jako potencjalnie prawdziwe, zdanie, że `A` jest "podtypem" `B`. W przypadku *tradycyjnie*
 rozumianych (o czym kiedy indziej) zbiorów, każdy zbiór może być (albo nie być) podzbiorem każdego
 innego zbioru. To znaczy, każdy taki fakt można zapisać za pomocą poprawnego syntaktycznie zdania
 ...
@@ -400,32 +417,33 @@ structure Monoid (α : Set) extends Semigroup α where
 variable (M : Monoid X)
 
 -- Wtedy *usuwając* trzy pola, albo *zapominając o nich*, albo *tworząc* nowy term przez samo
--- *kopiowanie* dwóch pól `M`, uzyskujemy określoną na tym samym zbiorze półgrupę:
+-- *kopiowanie* dwóch pierwszych pól `M`, uzyskujemy określoną *na tym samym zbiorze* półgrupę:
 #check M.toSemigroup -- `M.toSemigroup : Semigroup X`
 ```
 
 Gdy, jak wyżej, rekord `B` `extends` rekord `A`:
 
-1. Powstaje definicja rekordu `B`, w której przed polami wymienionymi w definicji "rozszerzającej"
+1. Powstaje definicja rekordu `B`, w której przed polami wymienionymi w definicji "rozszerzającej",
    albo "poszerzającej" (nie mylić z *uogólnianiem*, bo to działa *odwrotnie* do uogólniania) są też
    wszystkie pola rekordu `A` (chyba, że wystąpi konflikt nazw, ale to nam się raczej nie
-   przytrafi). A więc zdefiniowany w ten sposób rekord `Monoid` ma wszystkie pola "własne" i
-   wszystkie pola rekordu `Semigroup`.
+   przytrafi). A więc zdefiniowany w ten sposób rekord `Monoid` ma wszystkie pola (w tym kontekście)
+   "charakterystycznie własne" i wszystkie pola rekordu `Semigroup`.
    
 2. Lean automatycznie tworzy funkcję `toA` w przestrzeni nazw `B`, a więc można tą funkcję stosować
-   pisząc `B.toA`. Ta funkcja "rzutuje" term typu `B` na typ `A`, dając taki jakby "cień" termu typu
-   `B` w ogólniejszej "przestrzeni" `A`. To nie jest, mówiąc ściśle, *pozbycie się* pewnych pól,
-   tylko *utworzenie nowego termu typu `A` za pomocą kopiowania wybranych pól*, ale funkcjonalnie to
-   działa jak pozbywanie się pewnych pól albo zapominanie o nich. A więc `M.toSemigroup` to inaczej
-   zapisana aplikacja `Monoid.toSemigroup M`, która redukuje się do półgrupy, której pola zawierają
-   wartości "półgrupowych" pól monoidu `M`.
+   pisząc `B.toA term_typu_B` lub pisząc `term_typu_B.toA`. Ta funkcja "rzutuje" term typu `B` na
+   typ `A`, dając "cień" termu typu `B` w ogólniejszej "przestrzeni" `A`. To nie jest, mówiąc
+   ściśle, *pozbycie się* pewnych pól, tylko *utworzenie nowego termu typu `A` za pomocą kopiowania
+   wybranych pól*, ale funkcjonalnie to działa jak pozbywanie się pewnych pól albo jak zapominanie o
+   nich. A więc `M.toSemigroup` to inaczej zapisana aplikacja `Monoid.toSemigroup M`, która redukuje
+   się do półgrupy określonej na tym samym zbiorze i której pola zawierają wartości "półgrupowych"
+   pól monoidu `M`.
 
 Funkcjonalność dziedziczenia dla typów rekordowych nie pozwala nam zrobić czegoś, co byłoby dowodem
-zdania odpowiadającego zdaniu *Półgrupa końcowa jest monoidem*, bo to zdanie "idzie" *od* pojęcia
-*ogólniejszego do mniej ogólnego* (~ `(Is_terminal_semigroup X) → (Is_monoid X)` \{~ czytaj tu jako
-"coś w stylu", albo "mniej więcej", albo "podobne do"\}), a projekcja rekordu działa w kierunku
-*odwrotnym* (`(Monoid α) → (Semigroup α)`). Dzięki mechanizmowi dziedziczenia i projekcji możemy
-jednak uzyskać *transfer wiedzy z poziomu ogólniejaszego do poziomu mniej ogólnego*:
+zdania *Półgrupa końcowa jest monoidem*, bo to zdanie "idzie" *od pojęcia ogólniejszego do mniej
+ogólnego* (~ `(Is_terminal_semigroup X) → (Is_monoid X)` \{~ czytaj tu jako "coś w stylu", albo
+"mniej więcej", albo "podobne do"\}), a projekcja rekordu działa w kierunku *odwrotnym* (`(Monoid α)
+→ (Semigroup α)`). Dzięki mechanizmowi dziedziczenia i projekcji możemy jednak uzyskać *transfer
+wiedzy z poziomu ogólniejaszego do poziomu mniej ogólnego*:
 
 ```lean
 -- Niech `M` będzie jakimś monoidem (którego działanie niech będzie określone na jakimś zbiorze `X`).
@@ -449,9 +467,9 @@ structure Organism where
   and_whatnot : Stuff
 
 structure Plant extends Organism where
-    roots  : Root
-    stems  : Stem
-    leaves : List Leave
+  roots  : List Root
+  stems  : List Stem
+  leaves : List Leave
 
 axiom Food : Type
 
@@ -473,22 +491,23 @@ kolekcja). Normalni psychologowie Ci o tym nie powiedzą!
 
 Czujesz, jak satysfakcjonująco to wszystko może być poukładane? A czy nie masz wrażenia, że coś tak
 abstrakcyjnego jak *ogólnie rozumiana struktura pojęciowa* stało się dla Ciebie czymś bardziej
-*namacalnym* albo *konkretnym*? Nawet jeśli tylko trochę, to wspaniale. 
+*namacalnym* albo *konkretnym*? Nawet jeśli tylko trochę, to wspaniale.
 
 Ponieważ zbliżamy się do końca rozdziału, muszę się do czegoś przyznać. Na początku pisałem dużo o
 wieloznaczności. Podałem też - jako przykład wieloznaczności pojawiającej się, gdy używamy języka
-naturalnego do mówienia o zwykłych, codziennych sprawach - przykład różnych rodzajów obiadu. Jednak
-ani to *nie* był dobry, czy nawet jakikolwiek przykład wieloznaczności, bo przecież rodzaje obiadu
-to tylko *pojęcia mniej ogólne* niż pojęcie obiadu, ani nie zrobiliśmy w zawartym w tym rozdziale
-kodzie niczego, co odpowiadałoby skorzystaniu z jakiegokolwiek mechanizmu kontrolowania
-wieloznaczności. Możemy to stwierdzić *z pewnością*, bo *każda stała, która pojawiła się w kodzie,
-była zdefiniowana dokładnie raz*.
+naturalnego do mówienia o zwykłych, codziennych sprawach - przykład różnych rodzajów obiadu i
+różnych sposobów robienia obiadu. Jednak ani to *nie* był dobry, czy nawet jakikolwiek przykład
+wieloznaczności, bo przecież rodzaje (sposoby robienia) obiadu to tylko *pojęcia mniej ogólne* niż
+pojęcie (robienia) obiadu, ani nie zrobiliśmy w zawartym w tym rozdziale kodzie niczego, co
+polegałoby na korzystaniu z jakiegokolwiek mechanizmu kontrolowania wieloznaczności. Możemy to
+stwierdzić *z pewnością*, bo *każda stała, która pojawiła się w kodzie, była zdefiniowana dokładnie
+raz*.
 
 Czy widzisz, że gdy mamy do czynienia z pełną formalizacją, możemy tego rodzaju subtelne problemy
 pojęciowe rozstrzygać zarazem mechanicznie i ostatecznie, ale gdy pojawiają się w języku naturalnym,
-jesteśmy wobec nich często bezradni? I łatwo dajemy się nabrać na to lub na tamto tylko dlatego, że
-mamy *wrażenie płynności wypowiedzi* i widzimy czasem, *stosowane z pewnością siebie*, jakieś *mało
-nam znane terminy techniczne*. Jeżeli to widzisz, to zastanów się proszę przez chwilę, co można
-zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali psychologię i unikali
-matematyki, pisząc nabite terminami technicznymi na przykład statystyki czy przyczynowości "artykuły
-naukowe".
+jesteśmy wobec nich często bezradni? I łatwo dajemy się nabrać na to albo na jakieś tamto tylko
+dlatego, że mamy *wrażenie płynności wypowiedzi* i widzimy czasem, *stosowane z pewnością siebie*,
+jakieś *mało nam znane terminy techniczne*. Jeżeli to widzisz, to zastanów się proszę przez chwilę,
+co można zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali psychologię i
+unikali matematyki, pisząc nabite terminami technicznymi na przykład statystyki czy przyczynowości
+"artykuły naukowe".
