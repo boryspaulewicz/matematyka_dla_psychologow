@@ -422,8 +422,34 @@ variable (M : Monoid X)
 -- `t1 M.toSemigroup : ∀ (a b c d : X), M.op a (M.op (M.op b c) d) = M.op a (M.op b (M.op c d))`
 ```
 
-Rododendron je światło, bo jest rośliną, a każda roślina (a nie *wszystkie rośliny jako pewien zbiór
-albo kolekcja*) je światło.
+Rododendron je światło, bo jest rośliną, a każda roślina je światło:
+
+```lean
+structure Organism where
+  cells : List Cell
+  and_whatnot : Stuff
+
+structure Plant extends Organism where
+    roots  : Root
+    stems  : Stem
+    leaves : List Leave
+
+axiom Food : Type
+
+axiom Light : Food
+    
+axiom Eats (some_organism : Organism) (some_food : Food) : Prop
+infixr:665 " eats " => Eats
+
+axiom Plants_eat_light (some_plant : Plant) : some_plant.toOrganism eats Light
+
+variable (Rododendron : Plant)
+
+#check Plants_eat_light Rododendron 
+-- `Plants_eat_light Rododendron : Rododendron.toOrganism eats Light`
+```
+
+Tylko przypominam: *Każda* roślina, a nie *wszystkie rośliny jako pewien zbiór albo kolekcja*.
 
 Czujesz już, jak satysfakcjonująco to wszystko może być poukładane? A czy nie masz wrażenia, że coś
 tak abstrakcyjnego jak ogólnie rozumiana struktura pojęciowa stało się dla Ciebie czymś bardziej
