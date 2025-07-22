@@ -321,18 +321,22 @@ theorem term_sg_has_unit (T : Semigroup Unit) :
   -- odświerzające?
 ```
 
-No i teraz chciałoby się może, a w każdym razie ja bym chciał, udowodnić coś w stylu `T : Semigroup
-Unit → T : Monoid Unit`, ale takie wyrażenie *nie może* być typowalne, bo ten sam term `T` ma w nim
-*dwa* typy, z których żaden nie jest *redukowalny* do drugiego, a żaden nie jest, bo te dwa typy
-mają wyraźnie *różne znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
+No i teraz chciałoby się może, a w każdym razie ja bym trochę chciał, udowodnić coś w stylu ... 
+
+`T : Semigroup Unit → T : Monoid Unit`, 
+
+... ale takie wyrażenie *nie może* być typowalne, bo ten sam term `T` ma w nim *dwa* typy, z których
+żaden nie jest *redukowalny* do drugiego, a żaden nie jest, bo te dwa typy mają wyraźnie *różne
+znaczenia*, zakodowane jako z konieczności nieizomorficzne rekordy:
 
 ```lean
--- Tak też, to jest sprawdzając poprawność jawnego typowania, możemy (znowu) udowodnić, że istnieje
--- półgrupa jednoelementowa. Korzystamy tutaj z udowodnionego już twierdzenia albo "wcielonego
--- aksjomatu" dotyczącego półgrupy jednoelementowej `The_terminal_semigroup.assoc`.
+-- Tak też, to jest sprawdzając poprawność jawnego typowania za pomocą komendy `#check`, możemy
+-- (znowu) udowodnić, że istnieje półgrupa jednoelementowa. Korzystamy tutaj z udowodnionego już
+-- twierdzenia albo "wcielonego aksjomatu" dotyczącego półgrupy jednoelementowej
+-- `The_terminal_semigroup.assoc`.
 #check ({op    :=  fun (a _) => a,
-        -- Niestety Lean jest wrażliwy na wcięcia. Gdyby przesunąć kod w tej linii w lewo o jedno
-        -- miejsce, pojawiłaby się czerwona falka.
+        -- Niestety Lean jest wrażliwy na wcięcia. Gdyby przesunąć kod w tej linii o jedno miejsce w
+        -- lewo, pojawiłaby się czerwona falka.
          assoc := The_terminal_semigroup.assoc} 
         : Semigroup Unit)
 
@@ -349,29 +353,94 @@ mają wyraźnie *różne znaczenia*, zakodowane jako z konieczności nieizomorfi
 ```
 
 A *chcemy*, żeby typ termu był zawsze unikalny - z dokładnością do *redukujących się* do tego samego
-termu *sposobów zapisywania*, *nie* z dokładnością do *dowiedlnie równoważnych konstrukcji* - bo
-właśnie dzięki temu, że typy są unikalne, sprawdzanie poprawności kodu może być zrealizowane za
-pomocą *algorytmu*. Nie przejmujemy się tym, jeśli to na razie zbyt subtelna kwestia, ok? Korzystamy
-natomiast, mam nadzieję, z tej okazji do kolejnej, nieco poszerzającej wiedzę (na przykład, o wiedzę
-o nowym sposobie typowania rekordów) powtórki.
+termu *sposobów zapisywania*, *nie* z dokładnością do w jakikolwiek sposób *dowiedlnie równoważnych
+konstrukcji* - bo właśnie dzięki temu, że typy są unikalne, sprawdzanie poprawności kodu może być
+zrealizowane za pomocą *algorytmu*. Nie przejmujemy się tym, jeśli to na razie zbyt subtelna
+kwestia, ok? Korzystamy natomiast, mam nadzieję, z tej okazji do kolejnej, nieco poszerzającej
+wiedzę (na przykład, o wiedzę o nowym sposobie typowania rekordów) powtórki.
 
-TODO: Półgrupa końcowa jest monoidem
+W teorii typów nie mamy też dokładnego odpowiednika pojęcia *pod*zbioru, ponieważ jeżeli dwa typy
+`T₁` i `T₂` mają ten sam sort, na przykład oba są termami typu `Type 667`, to nie ma sposobu, żeby
+nawet tylko wyrazić jako potencjalnie prawdziwe zdanie, że `T₁` jest "podtypem" `T₂`. W przypadku
+*tradycyjnie* (o czym kiedy indziej) rozumianych zbiorów, każdy zbiór może być (albo nie być)
+podzbiorem każdego innego zbioru. To znaczy, każdy taki fakt można zapisać za pomocą poprawnego
+syntaktycznie zdania.
 
-TODO: o tym jak próbowałem na początku wprowadzić czytelniczków w błąd
+## Hierarchie pojęciowe jako relacje dziedziczenia własności
 
-TODO: ostrożniej o wieloznaczności
-
-TODO: Więcej o dziedziczeniu poniżej
-
-W Leanie możemy również korzystać z mechanizmu *dziedziczenia rekordów*, na przykład tak (jeżeli w
-tym samym pliku albo sesji masz zapisaną poprzednią definicję stałej `Monoid`, to wystąpi konflikt
-nazw):
+Mamy za to w Leanie mechanizm *dziedziczenia pól rekordów* i stowarzyszone z tym dziedziczeniem
+*projekcje*:
 
 ```lean
+-- Jeżeli w tym samym pliku albo sesji masz zapisaną poprzednią definicję stałej `Monoid`, to
+-- wystąpi konflikt nazw. Jeżeli usuniesz poprzednią definicję, a poniższą definicję umieścisz pod
+-- fragmentami kodu, w których używasz stałej `Monoid`, to pojawi się (tam) błąd.
 structure Monoid (α : Set) extends Semigroup α where
-  u          : α
+  u  : α
   unit_left  : ∀ a : α, op u a = a
   unit_right : ∀ a : α, op a u = a
+
+-- Niech `M` będzie jakimś monoidem (którego działanie niech będzie określone na jakimś zbiorze `X`).
+variable (M : Monoid X)
+
+-- Wtedy *usuwając* trzy pola, albo *zapominając o nich*, albo *tworząc* nowy term przez samo
+-- *kopiowanie* dwóch pól `M` uzyskujemy określoną na tym samym zbiorze półgrupę.
+#check M.toSemigroup -- `M.toSemigroup : Semigroup X`
 ```
 
-Czujesz już, jak przyjemnie to wszystko może być poukładane?
+Gdy, jak wyżej, rekord `B` `extends` rekord `A`:
+
+1. Powstaje definicja rekordu `B`, w której przed polami wymienionymi w definicji rozszerzającej są
+   też wszystkie pola rekordu `A` (chyba, że wystąpi konflikt nazw, ale to nam się raczej nie
+   przytrafi).
+   
+2. Lean automatycznie tworzy funkcję `toA` w przestrzeni nazw `B`, a więc można tą funkcję stosować
+   pisząc `B.toA`. Ta funkcja "rzutuje" term typu `B` na typ `A`, dając taki jakby "cień" termu typu
+   `B` w ogólniejszej "przestrzeni" `A`. To nie jest, mówiąc ściśle, *pozbycie się* pewnych pól,
+   tylko *utworzenie nowego termu typu `A` za pomocą kopiowania wybranych pól*, ale funkcjonalnie to
+   działa jak pozbywanie się albo zapominanie o pewnych polach.
+
+Funkcjonalność dziedziczenia dla typów rekordowych nie pozwala nam zrobić czegoś, co byłoby dowodem
+zdania odpowiadającego zdaniu *Półgrupa końcowa jest monoidem*, bo to zdanie "idzie" od pojęcia
+ogólniejszego do mniej ogólnego, a projekcja rekordu działa w kierunku odwrotnym. Możemy jednak
+dzięki mechanizmowi dziedziczenia i projekcji uzyskać *transfer wiedzy z poziomu ogólniejszego do
+poziomu mniej ogólnego*:
+
+```lean
+-- Niech `M` będzie jakimś monoidem (którego działanie niech będzie określone na jakimś zbiorze `X`).
+variable (M : Monoid X)
+
+-- Wtedy *usuwając* trzy pola, albo *zapominając o nich*, albo *tworząc* nowy term przez samo
+-- *kopiowanie* dwóch pól `M` uzyskujemy określoną na tym samym zbiorze półgrupę.
+#check M.toSemigroup -- `M.toSemigroup : Semigroup X`
+
+-- Aplikując `t1` do "półgrupowego cienia" monoidu `M` uzyskujemy wyspecjalizowaną wersję tego
+-- twierdzenia, dotyczącą *działania monoidu `M`* `M.op`:
+#check t1 M.toSemigroup
+-- `t1 M.toSemigroup : ∀ (a b c d : X), M.op a (M.op (M.op b c) d) = M.op a (M.op b (M.op c d))`
+```
+
+Rododendron je światło, bo jest rośliną, a każda roślina (a nie *wszystkie rośliny jako pewien zbiór
+albo kolekcja*) je światło.
+
+Czujesz już, jak satysfakcjonująco to wszystko może być poukładane? A czy nie masz wrażenia, że coś
+tak abstrakcyjnego jak ogólnie rozumiana struktura pojęciowa stało się dla Ciebie czymś bardziej
+"namacalnym" albo "konkretnym"? To na koniec powinienem się do czegoś przyznać.
+
+Na początku tego rozdziału pisałem dużo o wieloznaczności. Podałem też, jak przykład wieloznaczności
+pojawiającej się, gdy używamy języka naturalnego do mówienia o zwykłych, codziennych sprawach,
+przykład różnych rodzajów obiadu. Jednak ani to *nie* był dobry przykład wieloznaczności, bo
+przecież rodzaje obiadu to tylko pojęcia mniej ogólne niż pojęcie obiadu, ani nie zrobiliśmy w tym
+rozdziale niczego, co odpowiadałoby skorzystaniu z jakiegoś mechanizmu kontrolowania
+wieloznaczności. Możemy to nawet stwierdzić *z pewnością*, bo *każda stała, która pojawiła się w
+kodzie Leana, była zdefiniowana dokładnie jeden raz*.
+
+Czy widzisz, że gdy mamy do czynienia z pełną formalizacją, możemy tego rodzaju subtelne problemy
+pojęciowe rozstrzygać zarazem mechanicznie i ostatecznie, ale gdy pojawiają się w języku naturalnym,
+jesteśmy wobec nich czasem niemal bezradni i niezwykle łatwo dajemy się nabrać na to lub na tamto
+tylko dlatego, że mamy *wrażenie płynności wypowiedzi* i widzimy czasem, *stosowane z pewnością
+siebie*, jakieś *mało nam znane terminy techniczne*? Jeżeli to widzisz, to zastanów się przez chwilę
+proszę, co można zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali
+psychologię i unikali matematyki, pisząc nabite terminami technicznymi statystyki i przyczynowości
+"artykuły naukowe"?
+
