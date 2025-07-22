@@ -476,7 +476,7 @@ Czujesz, jak satysfakcjonująco to wszystko może być poukładane? A czy nie ma
 abstrakcyjnego jak *ogólnie rozumiana struktura pojęciowa* stało się dla Ciebie czymś bardziej
 *namacalnym* albo *konkretnym*? Nawet jeśli tylko trochę, to wspaniale. 
 
-Ponieważ zbliżamy się do końca tego rozdziału, się do czegoś przyznać. Na początku pisałem dużo o
+Ponieważ zbliżamy się do końca rozdziału, muszę się do czegoś przyznać. Na początku pisałem dużo o
 wieloznaczności. Podałem też - jako przykład wieloznaczności pojawiającej się, gdy używamy języka
 naturalnego do mówienia o zwykłych, codziennych sprawach - przykład różnych rodzajów obiadu. Jednak
 ani to *nie* był dobry, czy nawet jakikolwiek przykład wieloznaczności, bo przecież rodzaje obiadu
