@@ -285,10 +285,12 @@ jakie stawiamy jednostkom, albo, że taki element jest dodatkowo wskazany albo o
 jednostka. Monoidy mają jednostki w tym drugim znaczeniu, a półgrupy miewają je co najmniej w
 pierwszym. Żeby jednak udowodnić, że półgrupa końcowa (czyli jednoelementowa) ma jednostkę, musimy
 de facto (albo funkcjonalnie) udowodnić zdanie o postaci `∃ u ∈ P, ...`. W logice to znaczy, że
-musimy funkcjonalnie (albo de facto) stworzyć parę, złożoną z 1. elementu/termu `u` należącego do
+musimy funkcjonalnie (albo de facto) stworzyć parę złożoną z 1. elementu/termu `u` należącego do
 półgrupy/zbioru/typu `P` i z 2. dowodu, że to jednostka. Czyli musimy jednak tą jednostkę
 wskazać. Czyli dowodząc tego zdania musimy de facto stworzyć jedyne brakujące pole rekordu
-aksjomatów monoidu, które "doklejone" do rekordu aksjomatów półgrupy "natychmiast" da nam monoid.
+aksjomatów monoidu, które "doklejone" do rekordu aksjomatów półgrupy "natychmiast" da nam
+monoid. Ale też jednocześnie "doklejając" takie pole "natychmiast" udowodnilibyśmy to zdanie. To
+wszystko (funkcjonalnie) jest tym samym (jednym czymś).
 
 ```lean
 -- Nazwałem to twierdzenie w stylu, który na ogół preferuję, to znaczy wybierając "na czuja" poziom
