@@ -187,7 +187,7 @@ która mu nie dostarcza tego, czego sobie życzy, może *przerobić język* na t
 programowanie obiektowe w pożądanym stylu (istnieją różne).
 
 Edytor programisty `Emacs`, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
-swłaśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
+właśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
 sposobu działania tego edytora polega często na *pisaniu programów* w Lispie. Niemniej, jak kocham
 Lispa i kocham Emacsa miłością głęboką, szczerą i czystą, tak muszę pogodzić się z tym, że dialekty
 Lispa też mają zbyt prymitywny wbudowany system typów, żeby można ich było używać wygodnie i z
