@@ -123,16 +123,17 @@ moja_lista[[2]]
 Niektóre różnice między listami w Leanie i w R, takie jak szczegóły notacji, są powierzchowne. Ale
 inne są głębsze. Jedna z głębszych różnic polega na tym, że listy w R nie muszą zawierać elementów
 tego samego typu. Inne głębsze różnice wynikają stąd, że R jest językiem imperatywnym, a więc
-służącym przede wszystkim do opisu oczekiwanych zmian stanu fizycznego komputera. Dlatego proces
-sprawdzania poprawności składniowej kodu w R nie może być wykorzystany do uprawiania matematyki na
-poważnie, ponieważ R ma zbyt prymitywny system typów. 
+służącym przede wszystkim do opisu oczekiwanych zmian fizycznego stanu komputera. Ponieważ R jest
+mimo wszystko dosyć zwyczajnym językiem imperatywnym, jego system typów jest zdecydowanie zbyt
+prymitywny, żeby można było z niego korzystać wygodnie do uprawiania na poważnie matematyki.
 
-Co jest w mojej ocenie intrygujące, gdy popatrzymy na tą różnicę między Leanem i R z takiej oto
-strony: Wnioskowanie statystyczne to szczególny przypadek dedukcji. Gdybyśmy przeprowadzili
-wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby ostateczny dowód
-ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia pietruszki rozumowania
-dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka imperatywnego. Coś mi się wydaje,
-że jest tak dlatego, że wszyscy bez wyjątku jesteśmy debilami (lub debilkami!).
+Co jest w mojej ocenie intrygujące, gdy popatrzymy na tą akurat różnicę między takim dajmy na to
+Leanem i R z takiej oto strony: Wnioskowanie statystyczne to szczególny przypadek dedukcji. Gdybyśmy
+przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
+ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
+pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
+imperatywnego. Coś mi się wydaje, że dzieje się tak dlatego, że wszyscy bez wyjątku jesteśmy
+debilami (albo debilkami!).
 
 Istnieje nawet cały język programowania, w którym cons jest operacją podstawową. Ten wspaniały i
 szarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
