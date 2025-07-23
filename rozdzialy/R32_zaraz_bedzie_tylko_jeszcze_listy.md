@@ -311,22 +311,23 @@ listy niepuste. Ten *zapis* ...
 ... *jest* listą, którą posługując się lukrem możemy również zapisać jako `[1, 2]`. Widzimy tutaj
 *logiczną* strukturę tego typu danych, i *nic więcej*, ponieważ to jest czysty język
 funkcyjny. Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), bo
-tak też się nazywa ten typ danych, możemy równie dobrze zakodować za pomocą par stykających się
-"komórek", z których *pierwsza* zawiera jakąś *wartość*, a *druga* zawiera *strzałkę* (rozumianą
-jako wskaźnik albo adres) do *innej* pary komórek. Przyszło Ci do głowy, że te strzałki mogłyby
-wskazywać kolejne pary komórek w taki sposób, że posługując się skończoną liczbą par komórek ze
-strzałkami można by było stworzyć ciąg nieskończony? No więc wymagamy, żeby dla każdej listy dało
-się dojść, idąc tropem strzałek, do specjalnej *pojedynczej* komórki "bezwartościowej", której rolą
-jest jedynie reprezentowanie końca listy (co znaczy dokładnie to samo, co: interfejs funkcji
-działających na listach działa na tej komórce tak, jakby była listą pustą).
+tak też, dokładniej, nazywa się ten typ danych, możemy równie dobrze zakodować za pomocą par
+stykających się "komórek", z których *pierwsza* zawiera jakąś *wartość*, a *druga* zawiera
+*strzałkę* (rozumianą jako wskaźnik albo adres) do *innej* pary komórek. Przyszło Ci do głowy, że te
+strzałki mogłyby wskazywać kolejne pary komórek w taki sposób, że posługując się skończoną liczbą
+par komórek ze strzałkami można by było stworzyć ciąg nieskończony? No więc wymagamy, żeby dla
+każdej listy dało się dojść, idąc tropem strzałek, do specjalnej *pojedynczej* komórki
+"bezwartościowej", której rolą jest jedynie reprezentowanie końca listy (co znaczy dokładnie to
+samo, co: interfejs funkcji działających na listach działa na tej komórce tak, jakby była listą
+pustą).
 
-**Rysunek 1**: Narysuj proszę w miejscach wyobrażonego trójkąta równobocznego trzy pary stykających
-się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w środku. W
-lewym kwadracie, czyli w lewej komórce górnej pary zapisz `2`, w lewej komórce prawej dolnej pary
-zapisz `1`, a w lewej komórce lewej dolnej pary zapisz `2`. Strzałki będziemy rysować od środków
-prawych komórek do środków prawych komórek, albo do środka komórki końcowej. Dorysuj więc proszę
-strzałki z górnego wierzchołka do prawego, z prawego do lewego i z lewego do komórki końcowej. To
-jest to samo, co lista [`[2, 1, 2]`](https://youtu.be/i3Jv9fNPjgk?si=EcitabQ7JXRX9N_p).
+**Rysunek 1**: Narysuj proszę w miejscach wierzchołków wyobrażonego trójkąta równobocznego trzy pary
+stykających się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w
+środku. W lewym kwadracie, czyli w lewej komórce górnej pary zapisz `2`, w lewej komórce prawej
+dolnej pary zapisz `1`, a w lewej komórce lewej dolnej pary zapisz `2`. Strzałki będziemy rysować od
+środków prawych komórek do środków prawych komórek, albo do środka komórki końcowej. Dorysuj więc
+proszę strzałki z górnego wierzchołka do prawego, z prawego do lewego i z lewego do komórki
+końcowej. To jest to samo, co lista [`[2, 1, 2]`](https://youtu.be/i3Jv9fNPjgk?si=EcitabQ7JXRX9N_p).
 
 **Rysunek 2**: Teraz proszę poniżej narysuj tą samą listę, tylko zamiast rysować podwójne komórki, narysuj
 pojedyncze okręgi z wartościami, zamiast rysować strzałkę do komórki końcowej, narysuj endostrzałkę
