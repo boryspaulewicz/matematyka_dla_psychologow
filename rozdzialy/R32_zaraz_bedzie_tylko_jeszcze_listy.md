@@ -140,7 +140,7 @@ imperatywnego. Trzeba potem samemu sobie regularnie wmawiać niejasne powody by 
 ostatecznego wyniku i wcinać tą zagadkową sałatkę nie grymasząc. Moim skromnym zdaniem, dzieje się
 tak przede wszystkim dlatego, że wszyscy bez wyjątku jesteśmy debilami (albo debilkami!).
 
-Istnieje nawet cały język programowania, w którym cons jest operacją podstawową. Ten wspaniały i
+Istnieje nawet cały *język* programowania, w którym cons jest operacją podstawową. Ten wspaniały i
 zarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
 raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Lisp to drugi, po
 Fortranie, najstarszy nadal używany język programowania wysokiego poziomu. Powstał, jak dowiadujemy
