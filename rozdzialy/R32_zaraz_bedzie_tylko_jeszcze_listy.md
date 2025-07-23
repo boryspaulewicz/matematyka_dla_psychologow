@@ -337,16 +337,72 @@ przestrzenny komórek, bo jest dla Ciebie jasne, że ten aspekt jest akurat niei
 
 **Rysunek 3**: Na koniec narysuj proszę poziomo trzy stykające się kwadraty, zawierające kolejno
 liczby `2`, `1` i `2`. Nie masz wrażenia, że to jest z jednej strony to samo, ale, co najmniej z
-drugiej strony, zdecydowanie nie to samo? Jeżeli możesz, spróbuj jeszcze w jakiś sposób pogrubić
-obrys komórek na ostatnim rysunku.
+jakiejś jednej drugiej strony, zdecydowanie nie to samo? Jeżeli możesz, spróbuj w jakiś sposób
+pogrubić obrys komórek na ostatnim rysunku.
 
-TODO Funkcja i implementacja jak znaczenie słów i papier poplamiony tuszem
+Różnica między celem, albo sensem, albo treścią, albo funkcją, rozumianą jako rola w rozwiązaniu
+jakiegoś zadania albo problemu, a realizacją, albo ucieleśnieniem, albo implementacjąq tego
+celu/sensu/treści/funkcji-jako-roli jest jak różnica między treścią komunikatu i przestrzennym
+układem plamek tuszu na kartce papieru. To pierwsze jest "w" tym drugim (zapisanym tuszem na kartce
+tekście) *tylko* w naszych oczach (i dzięki naszemu sposobowi działania); poza tym to są zupełnie
+inne, w *żaden* sposób nie związane własności. Cel jest tylko *czyimś* punktem widzenia.
+
+Ale ponieważ interesuje nas tylko to, co można z czym zrobić, albo jakie są konsekwencje zdarzeń dla
+naszych możliwości działania w świecie, jest nam bardzo trudno zobaczyć, że te dwa wymiary są tak
+bardzo różne. Tak jak na tych trzech rysunkach. Ten pierwszy jest typową reprezentacją typu list
+jednokierunkowych, ale swoim wyglądem przynajmniej sugeruje szczegóły fizycznej
+implementacji. Kwadraty sąsiadujących komórek mogą się łatwo kojarzyć z sąsiadującymi komórkami
+pamięci komputera, a strzałki z adresami fizycznych miejsc w pamięci. Dlatego ta reprezentacja jest
+dosyć *zwodnicza* i jednocześnie może się nam wydawać bardziej *przyjazna* niż bardziej
+abstrakcyjna druga.
+
+Druga reprezentacja to niemal czysta funkcjonalność. Okręgi raczej nie przywodzą na myśl komórek
+pamięci, a nawet jeśli, to w mniejszym stopniu. Strzałki mogą się oczywiście łatwo kojarzyć
+informatykom z adresami fizycznych miejsc w pamięci, ale obecność endostrzałki w tym trochę
+przeszkadza. I jest jeszcze ważny powód, dla którego wszystkie trzy rysunki są zwodnicze - one są
+zbyt *proste*.
+
+Gdybym Cię zapytał, co jest na drugiej pozycji listy, odpowiedziałabyś natychmiast z łatwością, bo
+jesteś zgaduję w stanie doskonale operować "w głowie" *całą* strukturą każdej z tych trzech
+reprezentacji, a jesteś w stanie to łatwo zrobić, bo to są listy tylko trójelementowe. Gdyby to były
+listy złożone ze *stu* elementów i gdyby komórki pierwszych dwóch list były porozrzucane na w sposób
+przypadkowy na całej płaszczyźnie (osobnej) kartki, a trzecia lista była zapisana tak, że pod każdą
+komórką byłby jej numer, czyli adres miejsca w fizycznej pamięci, bo to byłby dosłownie dla Ciebie
+adres miejsca w fizycznej pamięci, zobaczyłabyś natychmiast podstawową różnicę między pierwszymi
+dwoma strukturami i tą trzecią. I zobaczyłabyś też, że różnica między dwoma pierwszymi rysunkami
+jest albo nieistotna, albo myląca.
+
+Znalezienie `n`-tego elementu na pierwszej albo drugiej liście zajmowałoby Ci wtedy mniej więcej
+tyle czasu, ile musiałabyś zrobić *przejść*, mentalnie albo wodząc palcem na kartce, od pierwszego
+do `n`-tego elementu. A znalezienie `n`-tego elementu na trzeciej liście zajmowałoby Ci mniej więcej
+tyle samo czasu dla każdego `n`. Byłoby tak dlatego, że *funkcjonalna* struktura trzeciej listy ma
+ścisły związek z *fizyczną* strukturą kartki papieru.
+
+Zastanawiasz się może, po co nam w takim razie w ogóle listy strzałkowe? Chodzi przecież o coś tak
+prostego, jak szeregowo ułożone elementy, prawda? Otóż *nie* chodzi wcale o to, a w każdym razie nie
+*tylko* o to. Jak zawsze, chodzi w istocie o trudne do wyraźnego zobaczenia jako coś odrębnego
+funkcje jako role, co w tym kontekście oznacza operacje na listach, takie jak wyszukiwanie elementów
+znajdujących się w danej odległości od pierwszego elementu, ale nie tylko takie. 
+
+Gdybyś chciała *wstawić* jakiś element w miejscu `n` do pierwszej albo drugiej listy, byłoby Ci to w
+ogólnym przypadku znacznie łatwiej zrobić, niż gdybyś miała wstawić element w miejscu `n` do
+trzeciej listy. W przypadku pierwszych dwóch list trzeba znaleźć element `n`-ty, co wymaga czasu
+proporcjonalnego do `n`, ale gdy już go znajdziemy, wystarczy usunąć jedną strzałkę i dodać dwie
+łączące od razu wiadomo co z czym. W przypadku trzeciego rodzaju listy czy sekwencji trzeba
+*fizycznie przenieść*, w sposób nieprzypadkowy, wszystkie elementy zapisane przed elementem
+`n`-tym.
+
+Ten ostatni rodzaj "list" nazywamy *typem tablicowym*, a po angielsku zwykle *array* albo (na
+przykład w języku R albo C) *vector*. Za to listy jednokierunkowe *nie całkiem* odpowiadają typowi
+`List` w Leanie, bo ten nie korzysta ze wskaźników, tylko z par (oznaczonych arbitralnie etykietą
+`cons`) złożonych elementu i *listy*, a nie *wskaźnika* do następnego elementu. Mamy więc co
+najmniej trzy, zachowujące "się" pod pewnymi względami podobnie, ale pod pewnymi zdecydowanie nie,
+rodzaje ogólnie rozumianych skończonych "sekwencji". Wiemy też, że takie ogólnie rozumiane
+"struktury sekwencyjne" są dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie
+często używają tego rodzaju struktur do podobnych albo takich samych celów. I to jest, bez
+wątpienia, psychologia.
 
 TODO konkatenacja
-
-TODO tablice/wektory i listy w Leanie
-
-TODO o implementacji list za pomocą wskaźników
 
 TODO klasy typów ftw
 
