@@ -132,8 +132,8 @@ Leanem i R z takiej oto strony: Wnioskowanie statystyczne to szczególny przypad
 przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
 ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
 pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
-imperatywnego. Coś mi się wydaje, że dzieje się tak dlatego, że wszyscy bez wyjątku jesteśmy
-debilami (albo debilkami!).
+imperatywnego. Moim skromnym zdaniem, dzieje się tak przede wszystkim dlatego, że wszyscy bez
+wyjątku jesteśmy debilami (albo debilkami!).
 
 Istnieje nawet cały język programowania, w którym cons jest operacją podstawową. Ten wspaniały i
 szarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
