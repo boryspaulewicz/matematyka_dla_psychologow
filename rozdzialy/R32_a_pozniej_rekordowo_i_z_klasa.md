@@ -112,7 +112,7 @@ pewno albo już się zetknęłaś, albo prędzej czy później się zetkniesz, j
 psychologię, bo ten język jest obecnie najczęściej stosowanym narzędziem informatycznym we
 wszelkiego rodzaju analizach statystycznych. Listy w języku R tworzymy tak ...
 
-```R
+```r
 moja_lista = list(1, 5, list("jakiś tekst"))
 
 ## ... a używamy ich między innymi tak:
@@ -146,13 +146,13 @@ operującego na listach napisanego w Leanie, to fragment kodu napisanego w jakim
 powinien tym bardziej wyglądać podobnie, co nie? I wygląda, pod pewnymi względami. W artykule
 Wikipedii przytoczono taki przykład kodu ...
 
-```Lisp
+```lisp
 (list 1 2 (list 3 4))
 ```
 
 ... który, jak podaje Wikipedia, ewaluuje się do tego:
 
-```Lisp
+```lisp
 (1 2 (3 4))
 ```
 
@@ -173,8 +173,7 @@ matematyki.
 
 <hr>
 
-Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lean ją mocno słodzi,
-między innymi za pomocą dwóch sąsiadujących dwukropków:
+Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lean ją słodzi:
 
 ```lean
 -- Zwracam uwagę na brak nawiasów kwadratowych wokół pierwszego argumentu funkcji `List.cons`, którą
@@ -187,7 +186,7 @@ między innymi za pomocą dwóch sąsiadujących dwukropków:
 ```
 
 **Sugestia**: Spróbuj może, używając tego lukru, stworzyć jakąś krótką listę termów typu `String`?
-Jako drugi argument do `::` możesz podać również listę pustą, wtedy będzie najkrócej, jak się da i
+Jako drugi argument do `::` możesz podać również listę pustą, wtedy będzie najkrócej jak się da i
 Lean domyśli się, że skoro pierwszy argument ma typ `String`, to drugi jest listąa pustą typu `List
 String`.
 
