@@ -325,7 +325,7 @@ pustą).
 stykających się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w
 środku. W lewym kwadracie, czyli w lewej komórce górnej pary zapisz `2`, w lewej komórce prawej
 dolnej pary zapisz `1`, a w lewej komórce lewej dolnej pary zapisz `2`. Strzałki będziemy rysować od
-środków prawych komórek do środków prawych komórek, albo do środka komórki końcowej. Dorysuj więc
+środków prawych komórek do krawędzi lewych komórek, albo do krawędzi komórki końcowej. Dorysuj więc
 proszę strzałki z górnego wierzchołka do prawego, z prawego do lewego i z lewego do komórki
 końcowej. To jest to samo, co lista [`[2, 1, 2]`](https://youtu.be/i3Jv9fNPjgk?si=EcitabQ7JXRX9N_p).
 
