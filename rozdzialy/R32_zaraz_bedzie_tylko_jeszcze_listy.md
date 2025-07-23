@@ -405,8 +405,8 @@ TODO klasy typów ftw
 ## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis typu list z pliku Prelude.lean 
 
 ```lean
--- To jest ...
-namespace kopia -- ... fragmentu zawartości pliku Prelude.lean.
+-- To jest
+namespace  kopia -- fragmentu zawartości pliku Prelude.lean.
 
 -- Dzięki umieszczeniu kopii kodu z dokumentacją w nowej przestrzeni nazw, nie występuje konflikt
 -- nazw wynikający ze zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`).
