@@ -108,7 +108,9 @@ zwrócić szczególną uwagę?
 **O powtarzaniu się**: Nie da się ukryć, powtarzam się w tej książce, a niektóre rzeczy powtarzam
 nawet *wiele* razy. I nie zamierzam nikogo za to przepraszać. Jeżeli [powtarzanie jest matką
 wiedzy](https://pl.wiktionary.org/wiki/repetitio_est_mater_studiorum) (i rozumienia), to powtarzanie
-*się* jest jej (i jego) ojcem.
+*się* jest jej (i jego) ojcem. Dla kogoś, komu nie są już potrzebne, takie wymuszone powtórki będą
+pewnie co najwyżej trochę irytujące; dla kogoś, kto ich potrzebuje, ich niedobór może być przyczyną
+poddania się w wysiłkach zrozumienia o co chodzi.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
