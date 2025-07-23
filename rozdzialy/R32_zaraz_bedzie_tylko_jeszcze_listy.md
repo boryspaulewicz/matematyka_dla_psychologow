@@ -17,14 +17,13 @@ Może to nie jest przyjemna lektura ⬝⬝⬝
 -- Mark set
 
 -- Dzięki umieszczeniu kopii w nowej przestrzeni nazw nie występuje konflikt nazw wynikający ze
--- zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`). Mówiąc dokładniej, nieco poniżej
--- zaczyna się ...
-namespace Kopia -- ... fragmentu zawartości pliku Prelude.lean.
+-- zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`). To tylko ...
+namespace kopia -- ... fragmentu zawartości pliku Prelude.lean.
 
 -- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
 -- linię.
 
--- ⬝⬝⬝ ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
+-- ... ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
 -- przyjemną:
 
 /--
@@ -51,7 +50,7 @@ inductive List (α : Type u) where
   -/
   | cons (head : α) (tail : List α) : List α
 
-end Kopia
+end kopia
 
 ----------------------------------------------------------------------------------------------------
 -- W praktyce parametryczny typ indukcyjny `List` działa tak, jak można się spodziewać:
