@@ -237,12 +237,12 @@ elementów list przecinkami?
     potrzebne, bo temperatura pozostaje równa docelowej z dokładnością do mniej niż jednego stopnia
     Celsjusza. No więc program w R sterował urządzeniem, które kontrolowało temperaturę wody i które
     działało zgodnie z programem napisanym w C, a wszystko to było interaktywne i działo się
-    "wewnątrz" Emacsa, który jest napisanay w Lispie. Gdy więc na przykład rodzina zasiadła na
-    przykład w niedzielę do stołu, na stole stał średniej wielkości przezroczysty pojemnik z Ikei, w
-    nim woda, grzałka, termometr cyfrowy i pompka, wszystko to było podłączone do laptopa, na
-    ekranie którego można było zobaczyć, co się dokładnie dzieje, a w zanurzonych w wodzie
-    woreczkach strunowych pływały na przykład kawałki łososia. Chwaląc się bezwstydnie dalej jeszcze
-    dodam, że zrobiłem to w czasach, kiedy jedynym dostępnym na rynku urządzeniem do [*sous
+    "wewnątrz" Emacsa, który jest napisanay w Lispie. I gdy na przykład rodzina zasiadła na przykład
+    w niedzielę do stołu, na stole stał średniej wielkości przezroczysty pojemnik z Ikei, w nim
+    woda, grzałka, termometr cyfrowy i pompka, wszystko to było podłączone do laptopa, na ekranie
+    którego można było zobaczyć, co się dokładnie dzieje, a w zanurzonych w wodzie woreczkach
+    strunowych pływały na przykład kawałki łososia. Chwaląc się bezwstydnie dalej jeszcze dodam, że
+    zrobiłem to w czasach, kiedy jedynym dostępnym na rynku urządzeniem do [*sous
     vide*](https://en.wikipedia.org/wiki/Sous_vide), bo tak (myląco) nazywa się ta technika
     kulinarna, był kosztujący niemałe pieniądze produkt firmy
     [PolyScience](https://www.polyscience.com/?srsltid=AfmBOorFp_HUvPQMqY0XBdM8eMrfSsjCDcHEkX6bFx0q_wcKN0oiG84X),
