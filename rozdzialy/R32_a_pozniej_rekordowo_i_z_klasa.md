@@ -148,7 +148,7 @@ wykorzystywany głównie do prowadzenia badań nad sztuczną inteligencją, o cz
 przez samego pomysłodawcę i autora, czy może raczej odkrywcę (?) Lispa, [Johna
 McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
 
-Kilka dzwonków dzwoni? Notacja matematyczna, rachunek lambda, nic nie dzwoni? Skoro przytoczony
+Kilka dzwonków dzwoni? Notacja matematyczna, rachunek lambda, coś dzwoni, prawda? Skoro przytoczony
 fragment kodu w R wyglądał podobnie do kodu operującego na listach napisanego w Leanie, to fragment
 kodu napisanego w jakimś dialekcie Lispa powinien tym bardziej wyglądać podobnie, co nie? I wygląda,
 pod pewnymi względami. W artykule Wikipedii przytoczono taki przykład kodu ...
