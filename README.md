@@ -71,12 +71,14 @@ nowych sposobów myślenia, i piękna.
 **Dlaczego studenci psychologii albo psychologowie akademiccy mieliby zaczynać naukę podstaw
 matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, że to jest w ogóle
 możliwe, a jest możliwe, bo opanowanie podstaw tych teorii nie wymaga żadnych prerekwizytów i
-jednocześnie każda z tych teorii dostarcza podstaw dla całej matematyki. A po drugie dlatego, że w
-pewnym sensie *ludzie myślą w teorii typów i teorii kategorii*. Teoria typów to pewna bardzo
-ekspresyjna i uniwersalnie ważna *logika*, a więc zmechanizowane *rozumowanie*, i *programowanie*, a
-więc pewien *dialog*, chociaż w tym przypadku z komputerem, *w jednym*. Teoria kategorii to z kolei
-przede wszystkim teoria dopasowania między różnymi sposobami opisu, albo uniwersalne narzędzie
-konsekwentnego i elastycznego operowania różnymi punktami widzenia na to samo.
+jednocześnie każda z tych teorii dostarcza podstaw dla całej matematyki. Mówiąc dokładniej, "za",
+albo "przed", albo "pod" teorią kategorii jest już tylko (działająca intuicyjnie) logika, a teoria
+typów jest językiem całkowicie samowystarczalnym. A po drugie dlatego, że w pewnym sensie *ludzie
+myślą w teorii typów i teorii kategorii*. Teoria typów to pewna bardzo ekspresyjna i uniwersalnie
+ważna *logika*, a więc zmechanizowane *rozumowanie*, i *programowanie*, a więc pewien *dialog*,
+chociaż w tym przypadku z komputerem, *w jednym*. Teoria kategorii to z kolei przede wszystkim
+teoria dopasowania między różnymi sposobami opisu, albo uniwersalne narzędzie konsekwentnego i
+elastycznego operowania różnymi punktami widzenia na to samo.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
@@ -89,6 +91,23 @@ odpowiadałaby mi pewnie bardziej forma męska, chociaż forma żeńska też by 
 zdaje się zresztą, o dziwo, że nie przeszkadza czytelnikom). A poza tym piszę również w pewnym
 sensie do obecnej i (przede wszystkim) przyszłej psychologii, która jest przecież (abstrakcyjną, ale
 jednak) Kobietą.
+
+**O (czasem nad)używaniu pisma pochyłego**: Może porównaj, jak Ci się czyta te dwa fragmenty (które
+napisałem w
+stylu celowo nieludzkim!):  
+
+... ponadto każdy kategoryjny produkt odpowiada unikalnemu izomorfizmowi między następującymi dwoma obiektami ...  
+
+... ponadto każdy kategoryjny produkt odpowiada *unikalnemu* izomorfizmowi między następującymi dwoma obiektami ...  
+
+Jak myślisz, czy bez prób oznaczenia w ten sposób *intonacji* (bo to, a nie uzyskanie
+protekcjonalnego tonu, jest wtedy moim celem), byłoby Ci łatwiej, czy trudniej, czy tak samo łatwo
+odgadnąć, na które ze słów składających się na to zdanie warto moim zdaniem w danym kontekście
+zwrócić szczególną uwagę?
+
+**O powtarzaniu się**: Nie da się ukryć, powtarzam się w tej książce, a niektóre rzeczy powtarzam
+nawet *wiele* razy. I nie zamierzam nikogo za to przepraszać. [Powtarzanie jest matką
+wiedzy](https://pl.wiktionary.org/wiki/repetitio_est_mater_studiorum) (i rozumienia).
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
