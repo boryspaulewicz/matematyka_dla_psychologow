@@ -176,7 +176,7 @@ I wszystko byłoby fajnie i wszystko byłoby cacy i to by w zasadzie już było 
 *zapisany tak samo* - to jest jako dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi
 elementów - jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie
 Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej, kod Lispa jest listą albo sekwencją
-list. Co znaczy, że w Lispie można (łatwo!) pisać *funkcje, które przetwarzają kod*. Nie funkcje,
+list. Co znaczy, że w Lispie można (łatwo!) pisać *funkcje*, które przetwarzają *kod*. Nie funkcje,
 które przetwarzają *funkcje* (chociaż to też można robić) albo *typy* (i to też, ale z większym
 trudem), tylko *kod*, również *własny* kod.
 
