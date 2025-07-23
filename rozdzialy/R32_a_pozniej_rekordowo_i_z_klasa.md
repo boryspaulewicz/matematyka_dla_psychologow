@@ -146,13 +146,13 @@ operującego na listach napisanego w Leanie, to fragment kodu napisanego w jakim
 powinien tym bardziej wyglądać podobnie, co nie? I wygląda, pod pewnymi względami. W artykule
 Wikipedii przytoczono taki przykład kodu ...
 
-```lisp
+```common_lisp
 (list 1 2 (list 3 4))
 ```
 
 ... który, jak podaje Wikipedia, ewaluuje się do tego:
 
-```lisp
+```common_lisp
 (1 2 (3 4))
 ```
 
