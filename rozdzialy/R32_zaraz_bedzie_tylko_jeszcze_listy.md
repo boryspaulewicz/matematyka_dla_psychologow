@@ -133,23 +133,24 @@ Leanem i R z takiej oto strony: Wnioskowanie statystyczne to szczególny przypad
 przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
 ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
 pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
-imperatywnego. Moim skromnym zdaniem, dzieje się tak przede wszystkim dlatego, że wszyscy bez
-wyjątku jesteśmy debilami (albo debilkami!).
+imperatywnego. Trudno potem samemu sobie regularnie wmawiać niejasne powody by ufać w jakość
+ostatecznego wyniku i wcinać tą zagadkową sałatkę nie grymasząc. Moim skromnym zdaniem, dzieje się
+tak przede wszystkim dlatego, że wszyscy bez wyjątku jesteśmy debilami (albo debilkami!).
 
 Istnieje nawet cały język programowania, w którym cons jest operacją podstawową. Ten wspaniały i
 zarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
-raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Lisp to drugi
-najstarszy język programowania wysokiego poziomu pozostający ciągle w użyciu (pierwszym jest
-Fortran). Powstał, jak dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów
-komputerowych, oparta na rachunku lambda stworzonym przez Alonzo Churcha" i przez wiele lat był
-wykorzystywany głównie do prowadzenia badań nad sztuczną inteligencją, o czym można się dowiedzieć z
+raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Lisp to drugi, po
+Fortranie, najstarszy nadal używany język programowania wysokiego poziomu. Powstał, jak dowiadujemy
+się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych, oparta na rachunku
+lambda stworzonym przez Alonzo Churcha" i przez wiele lat był wykorzystywany głównie do prowadzenia
+badań nad sztuczną inteligencją, o czym można się dowiedzieć z
 [tej](http://jmc.stanford.edu/articles/lisp.html) krótkiej opowieści o jego historii, napisanej
 przez samego pomysłodawcę i autora, czy może raczej odkrywcę (?) Lispa, [Johna
 McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
 
 Kilka dzwonków dzwoni? Notacja matematyczna, rachunek lambda, coś dzwoni, prawda? Skoro przytoczony
-fragment kodu w R wyglądał podobnie do kodu operującego na listach napisanego w Leanie, to fragment
-kodu napisanego w jakimś dialekcie Lispa powinien tym bardziej wyglądać podobnie, co nie? I wygląda,
+fragment kodu w R wyglądał trochę podobnie do kodu operującego na listach napisanego w Leanie, to
+fragment kodu napisanego w jakimś dialekcie Lispa też powinien wyglądać podobnie, co nie? I wygląda,
 pod pewnymi względami. W artykule Wikipedii przytoczono taki przykład kodu ...
 
 ```common_lisp
@@ -169,12 +170,12 @@ to aplikacja funkcji `list` do dwóch liczb, `3` i `4`.
 
 I wszystko byłoby fajnie i wszystko byłoby cacy i to by w zasadzie już było na tyle, gdyby nie to,
 że wynik ewaluacji tego wyrażenia, który jest w Lispie pewną *strukturą danych*, to jest listą, jest
-*zapisany tak samo*, to jest jako dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi
-elementów, jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie
-Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej kod Lispa jest listą albo sekwencją
+*zapisany tak samo* - to jest jako dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi
+elementów - jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie
+Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej, kod Lispa jest listą albo sekwencją
 list. Co znaczy, że w Lispie można (łatwo!) pisać *funkcje, które przetwarzają kod*. Nie funkcje,
-które przetwarzają *funkcje* albo *typy* (chociaż to też można robić), tylko *kod*, również *własny*
-kod.
+które przetwarzają *funkcje* (chociaż to też można robić) albo *typy* (i to też, ale z większym
+trudem), tylko *kod*, również *własny* kod.
 
 Dzięki temu w Lispie wyjątkowo wygodnie można się bawić w
 [*metaprogramowanie*](https://pl.wikipedia.org/wiki/Metaprogramowanie). A w odpowiednich rękach
@@ -182,15 +183,15 @@ metaprogramowanie może działać w niesamowity sposób, nierzadko dając komuś
 poczucie niemal nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispem użytkownik ma ochotę
 zacząć korzystać na przykład z [paradygmatu programowania
 obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
-która mu nie dostarcza tego, czego sobie życzy, może *przerobić język* na taki, który wspiera
-programowanie obiektowe w pożądanym stylu (istnieją różne).
+która mu nie dostarcza tego, czego sobie życzy, może *pisząc odpowiedni kod przerobić sam język* na
+taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją różne).
 
 Edytor programisty `Emacs`, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
 właśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
 sposobu działania tego edytora polega często na *pisaniu programów* w Lispie. Niemniej, jak kocham
-Lispa i kocham Emacsa miłością głęboką, szczerą i czystą, tak muszę pogodzić się z tym, że dialekty
-Lispa też mają zbyt prymitywny wbudowany system typów, żeby można ich było używać wygodnie i z
-sensem do uprawiania wszelkiej matematyki.
+Lispa i kocham Emacsa miłością głęboką, szczerą i niezmienną, tak muszę przyznać, że dialekty Lispa
+też mają zbyt prymitywny wbudowany system typów, żeby można ich było używać wygodnie i z sensem do
+uprawiania wszelkiej matematyki.
 
 <hr>
 
@@ -208,7 +209,7 @@ Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lea
 ```
 
 **Sugestia**: Spróbuj może, używając tego lukru, stworzyć jakąś krótką listę termów typu `String`?
-Jako drugi argument do `::` możesz podać również listę pustą, wtedy będzie najkrócej, jak się da, i
+Jako drugi argument do `::` możesz podać również listę pustą. Wtedy będzie najkrócej, jak się da i
 Lean domyśli się, że skoro pierwszy argument ma typ `String`, to drugi jest listą pustą typu `List
 String`.
 
@@ -216,7 +217,7 @@ Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo li
 lukrem `List.nil`, albo lista `[n]`, gdzie `n : Nat`, a pod lukrem `List.cons n List.nil`, albo `[m,
 n]` gdzie `m n : Nat`, a pod lukrem `List.cons m (List cons n List.nil)`, i tak dalej. Definicja
 listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo (ale czy stała? to
-przecież język naturalny) lista występuje w
+przecież język naturalny) "lista" występuje w
 [*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). Termy typów
 rekurencyjnych często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak
 ta:
@@ -229,10 +230,58 @@ def suma_elementow (lista : List Nat) : Nat :=
      pierwszy_element + (suma_elementow lista_pozostalych_elementow)
 ```
 
-TODO Zamienić na mnożenie
+Pisałem już o strukturze takich funkcji, ale to było dawno i nieprawda, więc w ramach kolejnej
+odroczonej powtórki wyjaśniam znowu, że ciało tej funkcji **czytamy jako**: Dopasuj zmienną `lista`
+do jednego z dwóch wzorców (`match lista with`) 1. lista pusta, czyli `List.nil` a z lukrem `[]`, a
+jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy element i lista pozostałych elementów, czyli
+lista pasująca do drugiego konstruktora `List.cons <element> <lista>`, a z lukrem `pierwszy_element
+:: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy element do wyniku zastosowania
+funkcji `suma_elementow` do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę
+już tu kopiował w nawiasie.
 
-TODO Podoba Ci się lukier oznaczania początku i końca listy za pomocą nawiasów kwadratowych i oddzielania
-elementów list przecinkami?
+Zwracam uwagę na dwa warunki, które musi spełniać każda "zwykła" (można to obejść) definicja funkcji
+rekurencyjnej:
+
+1. Proces ewaluacji musi się zakończyć. W przypadku tej funkcji wywołanie rekurencyjne jest zawsze
+   aplikacją do *coraz mniejszej* listy, która ostatecznie musi stać się listą pustą, na której
+   przetwarzanie listy się skończy. Lean sprawdza takie rzeczy i pozwala nam tworzyć definicje
+   funkcji rekurencyjnych tylko wtedy, gdy znajdzie dowód, że ewaluacja musi się zakończyć.
+
+2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby skonstruowania termów dopasowywanego
+   typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`.
+   
+Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki oto "leniwy" sposób:
+
+```lean
+-- `Bool` to (nieparametryczny i nierekurencyjny) indukcyjny typ danych o dwóch konstruktorach,
+-- `true` i `false`. Ale wszyscy faceci zdają się widzieć w nim tylko jedno - typ wartości
+-- logicznych.
+def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
+  match lista with
+  | [] => true
+  -- A dla wszystkich innych przypadków zwróć `false`
+  | _ => false
+
+#eval przepraszam_cz_t_lst_jst_pst ([] : List Nat)        -- `true`
+
+#eval przepraszam_cz_t_lst_jst_pst ([3, 3, 3] : List Nat) -- `false`
+```
+
+**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeżeli wydaje
+Ci się to zbyt proste, żeby było ciekawe, może spróbuj przerobić funkcję `suma_elemnentow` na
+działającą analogicznie funkcję `iloczyn_elementow` i sprawdź, jak Twoja funkcja działa dla jakiejś
+jednej czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy pustej,
+bo mnożenie liczb działa inaczej, niż ich dodawanie. Jak to zrobisz, spróbuj zdefiniować analoginczą
+funkcję działającą na listach *tekstów*, używając zamiast dodawania aplikowanego w stylu
+przedrostkowym działania (bo ta funkcja jest przecież również działaniem!) `String.append`. Tą
+funkcję też sprawdź na jednej czy dwóch listach. Wybór wartości zwracanej dla listy pustej będzie
+wtedy tekstowym analogonem zera.
+
+TODO konkatenacja
+
+TODO tablice/wektory i listy w Leanie
+
+TODO klasy typów ftw
 
 ### Przypisy
 
