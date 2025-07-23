@@ -5,32 +5,417 @@
 
 # ["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"]
 
-Może to nie jest przyjemna lektura ⬝⬝⬝ 
+W praktyce parametryczny typ indukcyjny `List` działa tak, jak można się spodziewać:
 
 ```lean
-#print List
--- inductive List.{u} : Type u → Type u
--- number of parameters: 1
--- constructors:
--- List.nil : {α : Type u} → List α
--- List.cons : {α : Type u} → α → List α → List α
--- Mark set
+-- W ten między innymi sposób możemy konstruować w Leanie termy typu `List α`, gdzie `α` to dowolny
+-- typ, czyli listy termów typu `α`. Literały takie jak `0`, `1`, `2`, itd. Lean interpretuje jako
+-- termy typu `Nat, a więc to jest dla Leana term typu `List Nat`:
+#check [1, 2, 1]          -- `[1, 2, 3] : List Nat`
 
--- Dzięki umieszczeniu kopii w nowej przestrzeni nazw nie występuje konflikt nazw wynikający ze
--- zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`). To tylko ...
+#eval  [1, 2, 6].length   -- `3`
+
+#eval  List.length [3, 8] -- `2`
+
+-- Gdy natomiast napiszemy tak ...
+--
+-- `#eval  [].length`
+--
+-- ... Lean będzie się skarżył, bo nie będzie mógł wywnioskować, jakiego dokładnie typu ma być ta
+-- *lista pusta*. Możemy mu to zawsze powiedzieć wprost, stosując jawne typowanie:
+#eval ([] : List String).length -- 0
+```
+
+**Sugestia**: Zdefiniuj może co najmniej jedną stałą o typie lista liczb naturalnych i sprawdź jej
+długość tak jak to zrobiłem wyżej. Dzięki temu będzie Ci się inaczej czytało dalszy ciąg. To znaczy,
+jeśli to zrobisz, to będzie Ci się czytało, a przede wszystkim myślało i uczyło się w taki sposób A,
+że gdybyś wcześniej nie zastosowała się była do tej sugestii, to zamiast sposobu A pojawi się sposób
+B, który jest nie tylko pod ważnymi względami (funkcjonalnie) inny niż A, ale jest w dodatku,
+przynajmniej według mnie, gorszy. Tych dwóch możliwych sposobów doświadczania nie da się porównać z
+definicji, ponieważ dotyczą zdarzeń zachodzących w tym samym momencie, ale jako etapy różnych
+historii, z których tylko jedna "się rozegra".
+
+W Leanie typ `String` jest zdefiniowany jako *rekord* zawierający tylko jedno pole o nazwie `data` i
+typie `List Char`, czyli o typie lista znaków:
+
+```lean
+-- Termy typu `Char`, inaczej termy znakowe albo po prostu znaki, zapisujemy tak ...
+#check 'x' -- 'x' : Char
+
+-- ... a tak nie, bo `xy` nie jest *pojedynczym* znakiem:
+--
+-- #check 'xy'
+
+#eval "jakiś tekst".data        -- ['j', 'a', 'k', 'i', 'ś', ' ', 't', 'e', 'k', 's', 't']
+
+-- Jak wiesz, każdy typ rekordowy ma konstruktor, który domyślnie nosi nazwę `mk`.
+#eval String.mk ['a', 'b', 'c'] -- "abc"
+
+-- Ponieważ `String.data : List Char` (pole `data` rekordu `String` ma typ `List Char`), możemy do
+-- tego pola zastosować funkcję `List.length`:
+#eval "abc".data.length         -- 3
+```
+<hr>
+
+## Różne wcielenia typów sekwencyjnych
+
+Operacja dodawania elementu do *czoła* (ang. *head*) listy, o ogólnie przyjętej nazwie
+[*cons*](https://en.wikipedia.org/wiki/Cons), to w pewnym sensie najbardziej podstawowa operacja na
+(pewnego rodzaju) listach.
+
+Nie bez powodu różnego rodzaju listy odgrywają ważną rolę w wielu językach programowania. Występują
+na przykład w języku [R](https://pl.wikipedia.org/wiki/R_(j%C4%99zyk_programowania)) pod nazwą
+`list`. Z językiem R albo już się zetknęłaś, albo prędzej czy później się zetkniesz, jeśli
+studiujesz na przykład psychologię, bo ten język jest obecnie najczęściej stosowanym narzędziem
+informatycznym we wszelkiego rodzaju analizach statystycznych. Listy w języku R tworzymy tak ...
+
+```r
+moja_lista = list(1, 5, list("jakiś tekst"))
+
+## ... a używamy ich między innymi tak (wynik ewaluacji widoczny w następnym komentarzu czytamy
+## jako: wektor jednoelementowy (`[1]`) zawierający element `5`):
+moja_lista[[2]]
+## [1] 5
+```
+
+Niektóre różnice między listami w Leanie i w R, takie jak szczegóły notacji, są powierzchowne. Ale
+niektóre są głębsze. Jedna z tych głębszych różnic polega na tym, że listy w R nie muszą zawierać
+elementów tego samego typu. Dlatego pod pewnymi względami bliższym odpowiednikiem list Leana w R są
+typy nazywane w R [*wektorami*](https://www.w3schools.com/r/r_vectors.asp)[^2]. Inne głębsze różnice
+wynikają stąd, że R jest językiem imperatywnym, a więc służącym przede wszystkim do opisu
+oczekiwanych zmian fizycznego stanu komputera. Ponieważ R jest dosyć zwyczajnym językiem
+imperatywnym, jego system typów jest zdecydowanie zbyt prymitywny, żeby można było z niego korzystać
+wygodnie do uprawiania na poważnie matematyki.
+
+Co jest w mojej ocenie intrygujące, gdy popatrzymy różnice między takim dajmy na to Leanem i R z
+następującej strony: *Wnioskowanie statystyczne* to szczególna postać *dedukcji*. Gdybyśmy
+przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
+ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
+pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
+imperatywnego. Trzeba potem samemu sobie regularnie wmawiać niejasne powody, by ufać w jakość
+ostatecznego wyniku i wcinać tą zagadkową sałatkę starając się nie grymasić. Moim skromnym zdaniem,
+dzieje się tak przede wszystkim dlatego, że wszyscy jesteśmy debilami (albo debilkami).
+
+Istnieje nawet cały *język* programowania, w którym `cons` jest operacją podstawową. Ten wspaniały i
+zarazem dla prawie każdego zawodowego programisty składniowo niemal odpychająco egzotyczny język, a
+raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Nazwa jest skrótem od
+*List processing* i nie ma zdaje się związku z [seplenieniem](https://en.wikipedia.org/wiki/Lisp),
+chociaż kto wie. 
+
+To drugi, po Fortranie, najstarszy nadal używany język programowania wysokiego poziomu. Powstał, jak
+dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych, oparta
+na rachunku lambda stworzonym przez Alonzo Churcha" i przez wiele lat był wykorzystywany głównie do
+prowadzenia badań nad sztuczną inteligencją, o czym można się też dowiedzieć z
+[tej](http://jmc.stanford.edu/articles/lisp.html) krótkiej opowieści o jego historii, napisanej
+przez samego pomysłodawcę i autora, czy może raczej odkrywcę (?) Lispa, [Johna
+McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
+
+Dzwonki dzwonią? Notacja matematyczna, rachunek lambda, coś dzwoni, prawda? Skoro przytoczony
+fragment kodu w R wyglądał podobnie do kodu operującego na listach napisanego w Leanie, to można się
+spodziewać, że fragment kodu napisanego w jakimś dialekcie Lispa też będzie wyglądał podobnie. I
+wygląda, pod pewnymi względami. W artykule Wikipedii przytoczono na przykład taki fragment kodu ...
+
+```common_lisp
+(list 1 2 (list 3 4))
+```
+
+... który, jak (zgodnie z prawdą) podaje Wikipedia, ewaluuje się do tego:
+
+```common_lisp
+(1 2 (3 4))
+```
+
+Widzimy więc, że podobnie jak w R, listy w Lispie nie muszą zawierać elementów tego samego typu, bo
+przecież ta lista składa się z liczb i z *listy* liczb. Coś jeszcze widzimy? Pierwsze wyrażenie to
+aplikacja funkcji `list` do trzech argumentów, z których pierwsze dwa to liczby `1` i `2`, a trzeci
+to aplikacja funkcji `list` do liczb `3` i `4`.
+
+I wszystko byłoby fajnie i wszystko byłoby cacy i to by w zasadzie już było na tyle, gdyby nie fakt,
+że wynik ewaluacji pierwszego wyrażenia, który to wynik jest w Lispie jest listą, a więc jest pewną
+*strukturą danych*, jest *zapisany tak samo*, to jest jako dwie zagnieżdżone sekwencje oddzielonych
+nawiasami okrągłymi elementów, jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod
+napisany w dialekcie Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej, kod Lispa jest
+listą. Co znaczy, że w Lispie można (łatwo!) tworzyć *funkcje*, które przetwarzają *kod*. Nie
+funkcje, które przetwarzają *funkcje* (chociaż to też można robić) albo *typy* (i to też można
+robić, ale z większym trudem), tylko *kod*; w tym również *własny* kod.
+
+Dzięki temu w Lispie wyjątkowo wygodnie można się bawić w
+[*metaprogramowanie*](https://pl.wikipedia.org/wiki/Metaprogramowanie). A w odpowiednich rękach
+metaprogramowanie może działać w niesamowity sposób, nierzadko dając komuś, kto je opanował,
+poczucie niemal nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispem użytkownik ma ochotę
+zacząć korzystać na przykład z [paradygmatu programowania
+obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
+która mu nie dostarcza tego, czego sobie życzy, może *pisząc odpowiedni kod przerobić sam język* na
+taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją różne). Czy
+metaprogramowanie ma jakiś związek z inteligencją (i celowością)? Oczywiście, że tak. A jaki? Trudno
+tak w skrócie powiedzieć.
+
+Edytor programisty Emacs, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
+właśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
+sposobu działania tego edytora polega często na *pisaniu programów* w dialekcie Lispa, którego używa
+Emacs. Niemniej, jak kocham Lispa i kocham Emacsa miłością głęboką, szczerą i niezmienną, tak muszę
+niestety przyznać, że dialekty Lispa też mają zbyt prymitywny wbudowany system typów, żeby można ich
+było używać wygodnie i z sensem do uprawiania wszelkiej matematyki.
+
+<hr>
+
+Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lean ją solidnie słodzi:
+
+```lean
+-- Zwracam uwagę na brak nawiasów kwadratowych wokół pierwszego argumentu funkcji `List.cons`, którą
+-- tutaj stosujemy w notacji wzrostkowej, oznaczając ją symbolem `::`. Ten pierwszy argument musi
+-- być termem takiego typu, jak typ elementów listy, do której go (z przodu) dostawiamy, ...
+#eval 1 :: [2, 3] -- [1, 2, 3]
+
+-- Dlatego to jest błąd ...
+--
+-- `#eval "X" :: [1, 2]`
+--
+-- ... i to też jest błąd:
+--
+-- #eval [5] :: [4, 3]
+```
+
+**Sugestia**: Spróbuj może, używając tego lukru, stworzyć jakąś krótką listę termów typu `String`?
+Jako drugi argument do `::` możesz podać również listę pustą. Wtedy będzie najkrócej, jak się da i
+Lean domyśli się, że skoro pierwszy argument ma typ `String`, to drugi jest listą pustą typu `List
+String`.
+
+Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo lista pusta `[]` (a pod
+lukrem `List.nil`), albo lista `[n]`, gdzie `n : Nat` (a pod lukrem `List.cons n List.nil`), albo
+`[m, n]`, gdzie `m n : Nat` (a pod lukrem `List.cons m (List cons n List.nil)`), i tak
+dalej. Definicja listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo (ale
+czy stała? to przecież język naturalny) "lista" występuje w
+[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). 
+
+A *termy typów rekurencyjnych* często najwygodniej jest przetwarzać za pomocą *funkcji
+rekurencyjnych*, takich jak ta:
+
+```lean
+def suma_elementow (lista : List Nat) : Nat :=
+  match lista with
+  | [] => 0
+  | pierwszy_element :: lista_pozostalych_elementow => 
+     pierwszy_element + (suma_elementow lista_pozostalych_elementow)
+```
+
+Pisałem już o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej
+powtórki wyjaśniam, że ciało tej funkcji **czytamy jako**: Dopasuj zmienną `lista` do jednego z
+dwóch wzorców (`match lista with`) 1. lista pusta, czyli pierwszy konstruktor list `List.nil`, a z
+lukrem `[]`, a jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy *element* i *lista* pozostałych
+elementów, czyli lista pasująca do drugiego konstruktora list `List.cons <element> <lista>`, a z
+lukrem `pierwszy_element :: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy
+*element* do *wyniku zastosowania funkcji `suma_elementow`* (tutaj ta funkcja wywołuje rekurencyjnie
+samą siebie) do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę już tu (w
+nawiasie) kopiował.
+
+Zwracam uwagę na dwa warunki, które musi spełniać każda zwykła (można to obejść) definicja funkcji
+rekurencyjnej:
+
+1. Proces ewaluacji musi się zakończyć dla każdego możliwego argumentu. W przypadku tej funkcji
+   wywołanie rekurencyjne jest zawsze aplikacją do *coraz mniejszej* listy, która ostatecznie musi
+   stać się listą pustą, na której przetwarzanie całej wyjściowej listy się skończy. Lean sprawdza
+   takie rzeczy i pozwala nam tworzyć definicje funkcji rekurencyjnych tylko wtedy, gdy sam znajdzie
+   dowód, albo my mu dostarczymy jakiś dowód, że ewaluacja musi się zakończyć dla każdego możliwego
+   argumentu.
+
+2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
+   typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`. Parametryczny
+   typ indukcyjny `List` ma dwa konstruktory, które już poznałaś.
+   
+Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki "leniwy" sposób:
+
+```lean
+-- `Bool` to (nieparametryczny i nierekurencyjny) indukcyjny typ danych o dwóch konstruktorach,
+-- `true` i `false`. Ale prawie wszyscy zdają się widzieć w nim tylko jedno - typ wartości
+-- logicznych.
+def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
+  match lista with
+  | [] => true
+  -- A dla wszystkich innych postaci termu `lista` (_) zwróć `false`
+  | _ => false
+
+#eval przepraszam_cz_t_lst_jst_pst ([] : List Nat) -- `true`
+
+#eval przepraszam_cz_t_lst_jst_pst [3, 3, 3]       -- `false`
+```
+
+**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeśli wydaje Ci
+się to zbyt proste żeby było ciekawe, może spróbuj przerobić funkcję `suma_elemnentow` na działającą
+analogicznie funkcję `iloczyn_elementow`. Potem sprawdź, czy ta funkcja działa poprawnie dla jakiejś
+jednej czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy pustej,
+bo mnożenie liczb działa inaczej, niż ich dodawanie. Spróbuj potem zdefiniować analogiczną funkcję
+działającą na listach *tekstów* używając, zamiast dodawania, aplikowanego w stylu przedrostkowym
+działania (bo ta funkcja jest przecież działaniem) `String.append`. Tą funkcję też sprawdź na jednej
+albo dwóch listach. Wybór wartości zwracanej dla listy pustej będzie wtedy tekstowym analogonem zera
+(ze względu na dodawanie) i jednocześnie jedynki (ze względu na mnożenie), bo będzie *elementem
+neutralnym ze względu na operację sklejania tekstów*.
+
+Co jeszcze na początek ... A tak, poszczególne elementy list można wskazywać używając takiego lukru:
+
+```lean
+#eval [5, 6][0] -- `5`
+
+#eval [5, 6][1] -- `6`
+
+-- Ten kod jest błędny, bo indeksujemy pozycje list zaczynając od zera, a więc `<lista>[2]` oznacza
+-- próbę wskazania *trzeciego* elementu, którego tutaj nie ma:
+--
+-- `#eval [5, 6][2]`
+```
+
+## Wiele hałasu o Coś
+
+Być może pomyślałaś sobie, że typ list to takie wiele hałasu o nic. W końcu to tylko skończone
+sekwencje termów/elementów/obiektów tego samego typu, którym towarzyszy interfejs dostawiania
+elementu na czoło, wskazywania elementów (do *odczytu*), i inne tego rodzaju funkcjnalności. No i o
+co właściwie chodzi z tymi różnicami między implementacjami typu list w różnych językach? 
+
+Nawet, jeżeli tak pomyślałaś, co by mnie wcale nie zdziwiło, bo sam tak kiedyś wiele razy
+pomyślałem, to zgodzisz się chyba, że *ogólne pojęcie skończonej sekwencji elementów* jest dla nas,
+ludzi, fundamentalne. Na przykład, cały ten akapit jest pewnym skończonym ciągiem elementów tego
+samego typu. Każde wielokrotne dodawanie lub mnożenie liczb można równie dobrze zapisać jako
+skończony ciąg elementów tego samego typu. Dni tygodnia są tego rodzaju sekwencją i tak też o nich
+myślimy, podobnie jak o sekundach, godzinach, miesiącach i latach. Droga z jakiegoś punktu `A` do
+jakiegoś punktu `B`, *niemal dowolnie rozumiana droga*, na przykład taka, która polega na przejściu
+się do sklepu mijając kolejne skrzyżowania ulic, albo która polega na przejściu od założeń przez
+kolejne kroki dowodu do wniosku, to pewna skończona sekwencja elementów tego samego typu. Skończone
+ciągi dowolnej długości, nazywane również n-tkami, występują niezwykle często w przeróżnych działach
+matematyki. I tak dalej.
+
+A jednak ciągi skończone są *implementowane* w językach programowania na co najmniej *dwa*,
+fundamentalnie różnych sposoby. Pierwszy z nich odpowiada typowi list w Leanie: Skończony ciąg jest
+wtedy zbudwany (mówimy o implementacji, to "zbudowany") z dwóch rodzajów obiektów, 1. *listy pustej*
+i 2. *aplikacji* konstruktora `cons` do *dwóch* termów: 2.1. elementu, który ma być dołożony na
+czoło i 2.2. listy, która ma "dostać" nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i
+aplikacja funkcji `cons`, są *nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych
+to funkcjonalnie schemat aksjomatu, pamiętasz?).
+
+To zatem tylko *napisy*, które traktujemy za pomocą interfejsu złożonego z różnych funkcji jak listę
+pustą i listy niepuste. Ten *zapis*, ...
+
+`List.cons 1 (List.cons 2 List.nil)`
+
+... na przykład, *jest* listą, którą posługując się lukrem możemy również zapisać jako `[1,
+2]`. Widzimy tutaj *logiczną* strukturę tego typu danych i *nic więcej*, ponieważ to jest zapis w
+czystym języku funkcyjnym. 
+
+Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), możemy równie
+dobrze zakodować za pomocą par stykających się "komórek", z których *pierwsza* zawiera jakąś
+*wartość*, a *druga* zawiera *strzałkę* (rozumianą jako wskaźnik albo adres) do *innej pary
+komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
+że posługując się skończoną liczbą par komórek ze strzałkami można by było stworzyć ciąg
+nieskończony? Wystarczyłoby zdefiniować jakąkolwiek pętlę kierunkową. No więc wymagamy, żeby dla
+każdej listy dało się dojść, idąc tropem strzałek, do specjalnej *pojedynczej* komórki
+"bezwartościowej", której rolą jest jedynie *reprezentowanie końca* listy (co znaczy dokładnie to
+samo co: interfejs funkcji działających na listach działa na tej komórce tak, jakby była listą
+pustą).
+
+**Rysunek 1**: Narysuj proszę w miejscach wierzchołków wyobrażonego trójkąta równobocznego trzy pary
+stykających się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w
+środku. W lewej komórce górnej pary zapisz `2`, w lewej komórce prawej dolnej pary zapisz `1`, a w
+lewej komórce lewej dolnej pary zapisz `2`. Strzałki będziemy rysować od środków prawych komórek do
+krawędzi lewych komórek albo do krawędzi komórki końcowej. Dorysuj więc proszę strzałki z górnego
+wierzchołka do prawego dolnego, z prawego dolnego do (nie całkiem) lewego dolnego i z tego
+ostatniego do komórki końcowej. To jest to samo, co lista `[2, 1, 2]`[^3]
+
+**Rysunek 2**: Teraz proszę narysuj niżej tą samą listę, ale zamiast rysować podwójne komórki,
+narysuj *pojedyncze okręgi* z wartościami, zamiast rysować strzałkę do komórki końcowej, narysuj
+*endostrzałkę* i ułóż te trzy komórki inaczej przestrzennie na stronie. To jest w zasadzie to samo,
+ale może się wydawać, że ta reprezentacja ma w jakiś trudny do uchwycenia sposób inny sens czy może
+nawet zapach albo smak. I nie chodzi o układ przestrzenny komórek, bo jest dla Ciebie jak sądzę
+całkiem jasne, że w przypadku tej reprezentacji ten aspekt jest nieistotny, prawda?
+
+**Rysunek 3**: Na koniec narysuj proszę poziomo trzy stykające się kwadraty, zawierające kolejno te
+same liczby, to jest `2`, `1` i `2`. Nie masz wrażenia, że to jest z jednej strony to samo, ale, co
+najmniej z jakiejś jednej drugiej strony, zdecydowanie nie to samo? Jeżeli możesz, spróbuj w jakiś
+sposób pogrubić krawędzie tych komórek.
+
+Różnica między celem, albo sensem, albo treścią, albo funkcją rozumianą jako rola w rozwiązaniu
+jakiegoś zadania albo problemu, a realizacją, albo ucieleśnieniem, albo implementacją tego
+celu/sensu/treści/funkcji-jako-roli jest jak różnica między treścią komunikatu i przestrzennym
+układem cząsteczek tuszu drukarskiego na kartce papieru. To pierwsze (sens) jest "w" tym drugim
+(fizycznie zapisanym na kartce tekście) *tylko* w naszych oczach (i dzięki naszemu sposobowi
+działania); bez naszego punktu widzenia i naszych intencji to są zupełnie inne, w *żaden* sposób nie
+związane własności. Bo każdy cel jest *czyimś* punktem widzenia czy raczej postawą.
+
+Ale ponieważ interesuje nas tylko to, co można z czym zrobić, albo jakie są konsekwencje zdarzeń dla
+naszych możliwości działania w fizycznym świecie, jest nam bardzo trudno zobaczyć, że te dwa wymiary
+są tak bardzo różne. Tak jak na tych trzech rysunkach. 
+
+Rysunek pierwszy jest typową reprezentacją typu list jednokierunkowych, ale swoim wyglądem
+przynajmniej sugeruje szczegóły fizycznej implementacji: Kwadraty sąsiadujących komórek mogą się
+łatwo kojarzyć z sąsiadującymi komórkami pamięci komputera, a strzałki z adresami fizycznych miejsc
+w tej (zresztą również sekwencyjnej) pamięci. Dlatego ta reprezentacja jest dosyć *zwodnicza* i
+jednocześnie może się nam wydawać bardziej *przyjazna* niż bardziej abstrakcyjna druga.
+
+Druga reprezentacja to niemal czysta funkcjonalność. Okręgi raczej nie przywodzą na myśl komórek
+pamięci, a nawet jeśli, to w mniejszym stopniu. Strzałki mogą się oczywiście łatwo kojarzyć, na
+przykład zawodowym informatykom, z adresami fizycznych miejsc w pamięci, ale obecność endostrzałki w
+tym trochę przeszkadza. Jest jeszcze co namniej jeden ważny powód, dla którego wszystkie trzy
+rysunki są zwodnicze: przedstawione na nich struktury są *małe*.
+
+Gdybym Cię zapytał, co jest na drugiej pozycji listy, odpowiedziałabyś natychmiast z łatwością, bo
+jesteś, zgaduję, w stanie doskonale operować "w głowie" *całą* strukturą każdej z tych trzech
+reprezentacji. A jesteś w stanie łatwo takie rzeczy robić, bo to są listy tylko
+trójelementowe. Gdyby to były listy złożone na przykład ze *stu* elementów i gdyby komórki
+pierwszych dwóch list były porozrzucane w sposób przypadkowy na całej płaszczyźnie (każda osobnej)
+kartki, a trzecia lista była zapisana tak, że pod każdą komórką byłby jej numer, czyli adres miejsca
+w fizycznej pamięci, bo to byłby dosłownie dla Ciebie adres miejsca w fizycznej pamięci,
+zobaczyłabyś natychmiast podstawową różnicę między pierwszymi dwoma strukturami i tą trzecią. I
+zobaczyłabyś też może, że różnica między dwoma pierwszymi rysunkami jest albo mało istotna, albo
+wręcz myląca.
+
+Dla `n` znacznie większych niż 3, znalezienie `n`-tego elementu na liście pierwszego albo drugiego
+rodzaju zajmowałoby Ci wtedy mniej więcej tyle czasu, ile musiałabyś zrobić *przejść*, mentalnie
+albo wodząc palcem po kartce, od pierwszego do `n`-tego elementu. Natomiast znalezienie `n`-tego
+elementu na liście trzeciego rodzaju zajmowałoby Ci mniej więcej tyle samo czasu dla każdego
+`n`. Byłoby tak dlatego, że *funkcjonalna* struktura trzeciej listy ma ścisły związek z *fizyczną*
+strukturą kartki papieru. Inaczej mówiąc, lista trzeciego rodzaju *jest* (Twoim) *interfejsem
+fizycznej powierzchni papieru*.
+
+Zastanawiasz się może, po co nam w takim razie w ogóle listy strzałkowe? Chodzi przecież o coś tak
+prostego, jak szeregowo ułożone elementy, prawda? Otóż *nie* chodzi wcale o to, a w każdym razie nie
+*tylko* o to. Jak zawsze, chodzi w istocie o trudne do wyraźnego zobaczenia jako coś odrębnego
+funkcje jako role, co w tym kontekście oznacza operacje na listach, takie jak wyszukiwanie elementów
+znajdujących się w danej odległości od pierwszego elementu, ale nie tylko o takie.
+
+Gdybyś chciała *wstawić* jakiś element w miejscu `n` do pierwszej albo drugiej listy, byłoby Ci to w
+ogólnym przypadku łatwiej zrobić, niż gdybyś miała wstawić element w miejscu `n` do trzeciej
+listy. W przypadku pierwszych dwóch list trzeba wtedy znaleźć element `n`-ty, co wymaga czasu
+proporcjonalnego do `n`, ale gdy już go znajdziemy, wystarczy usunąć jedną strzałkę i dodać dwie
+łączące od razu wiadomo co z czym. W przypadku trzeciego rodzaju listy czy sekwencji trzeba
+*fizycznie przenieść*, w sposób nieprzypadkowy, wszystkie elementy zapisane przed `n`-tym elementem.
+
+Ten ostatni rodzaj sekwencji nazywamy *typem tablicowym*, a po angielsku zwykle *array* albo (tak
+jak w językach R i C) *vector*. Za to listy jednokierunkowe *nie całkiem* odpowiadają typowi `List`
+w Leanie, bo ten nie korzysta ze *wskaźników*. Pomijając listy puste, listy w Leanie są złożone z
+par (oznaczonych arbitralnie etykietą `cons`) złożonych elementu i *listy*, a nie wskaźnika do
+następnego elementu. Mamy więc co najmniej trzy, zachowujące się pod pewnymi względami podobnie, ale
+pod pewnymi zdecydowanie nie, rodzaje ogólnie rozumianych skończonych sekwencji. Wiemy też, że
+ogólnie rozumiane "struktury sekwencyjne" są dla ludzi niezwykle ważne w najrozmaitszych
+kontekstach, i że ludzie często używają tego rodzaju struktur do podobnych, a nierzadko takich
+samych celów. Pod tym względem od w jakiś sposób zaprogrowanych, arbitralnych fizycznych komputerów
+ludzie różnią się głównie tym, że nie robią tego niemal niezawodnie.
+
+TODO konkatenacja
+
+TODO klasy typów ftw
+
+## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis typu list z pliku Prelude.lean 
+
+```lean
+-- To jest ...
 namespace kopia -- ... fragmentu zawartości pliku Prelude.lean.
 
--- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
--- linię.
+-- Dzięki umieszczeniu kopii kodu z dokumentacją w nowej przestrzeni nazw, nie występuje konflikt
+-- nazw wynikający ze zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`).
 
--- ⬝⬝⬝ ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
--- przyjemną:
+-- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
+-- linię:
 
 /--
 Linked lists: ordered lists, in which each element has a reference to the next element.
-
-[To mówię ja, (współ)autor: Przepraszam, że tak wszedłem dokumentacji w słowo, ale chciałem
- powiedzieć, że na Twoim miejscu nie przejmowałbym się za bardzo tym technicznym objaśnieniem.]
 
 Most operations on linked lists take time proportional to the length of the list, because each
 element must be traversed to find the next element.
@@ -52,359 +437,6 @@ inductive List (α : Type u) where
 
 end kopia
 ```
-
-W praktyce parametryczny typ indukcyjny `List` działa tak, jak można się spodziewać:
-
-```lean
--- Literały takie jak `0`, `1`, `2`, itd. Lean interpretuje jako termy typu `Nat.
-#check [1, 2, 1]          -- `[1, 2, 3] : List Nat`
-
-#eval  [1, 2, 6].length   -- `3`
-
-#eval  List.length [1, 2] -- `2`
-
--- Gdy napiszemy tak ...
---
--- `#eval  [].length`
---
--- Lean będzie się skarżył, bo nie będzie mógł wywnioskować, jakiego dokładnie typu ma być ta *lista
--- pusta*. Możemy mu to zawsze powiedzieć wprost, stosując jawne typowanie:
-#eval ([] : List String).length -- 0
-```
-
-**Sugestia**: Zdefiniuj może co najmniej jedną stałą o typie listy liczb naturalnych i sprawdź jej
-długość jak wyżej. Będzie Ci się inaczej czytało. To znaczy, jeśli to zrobisz, to będzie Ci się
-czytało, a przede wszystkim myślało i uczyło się w taki sposób A, że gdybyś wcześniej nie
-zastosowała się była do tej sugestii, to zamiast sposobu A pojawi się sposób B, który jest nie tylko
-pod ważnymi względami (funkcjonalnie) inny niż A, ale jest w dodatku, przynajmniej według mnie,
-gorszy. Tych dwóch możliwych sposobów doświadczania nie da się porównać z definicji, ponieważ
-dotyczą zdarzeń zachodzących w tym samym momencie, ale jako etapy różnych historii, z których tylko
-jedna "się rozegra".
-
-W Leanie taki na przykład typ `String` jest zdefiniowany jako *rekord* zawierający tylko jedno pole
-o nazwie `data` i typie `List Char`, czyli o typie lista znaków:
-
-```lean
--- Termy typu `Char`, czyli znakowe, zapisujemy tak ...
-#check 'x' -- 'x' : Char
-
--- ... a tak nie, bo `xy` nie jest *pojedynczym* znakiem:
---
--- #check 'xy'
-
-#eval "jakiś tekst".data        -- ['j', 'a', 'k', 'i', 'ś', ' ', 't', 'e', 'k', 's', 't']
-
--- Każdy typ rekordowy ma konstruktor, który domyślnie nosi nazwę `mk`, pamiętasz?
-#eval String.mk ['a', 'b', 'c'] -- "abc"
-
--- Ponieważ `String.data : List Char`, możemy do tego pola zastosować funkcję `List.length`:
-#eval "abc".data.length         -- 3
-```
-<hr>
-
-## Różne wcielenia funkcji `cons`
-
-Operacja dodawania elementu do "czoła" listy, o ogólnie przyjętej nazwie
-[*cons*](https://en.wikipedia.org/wiki/Cons), to w pewnym sensie najbardziej podstawowa operacja na
-listach.
-
-Listy odgrywają ważną rolę w wielu różnych językach programowania. Występują na przykład w języku
-[R](https://pl.wikipedia.org/wiki/R_(j%C4%99zyk_programowania)) pod nazwą `list`. Z językiem R na
-pewno albo już się zetknęłaś, albo prędzej czy później się zetkniesz, jeśli studiujesz na przykład
-psychologię, bo ten język jest obecnie najczęściej stosowanym narzędziem informatycznym we
-wszelkiego rodzaju analizach statystycznych. Listy w języku R tworzymy tak ...
-
-```r
-moja_lista = list(1, 5, list("jakiś tekst"))
-
-## ... a używamy ich między innymi tak:
-moja_lista[[2]]
-## [1] 5
-```
-
-Niektóre różnice między listami w Leanie i w R, takie jak szczegóły notacji, są powierzchowne. Ale
-inne są głębsze. Jedna z głębszych różnic polega na tym, że listy w R nie muszą zawierać elementów
-tego samego typu. Dlatego pod pewnymi względami bliższym odpowiednikiem list Leana w R są typy
-nazywane w R [*wektorami*](https://www.w3schools.com/r/r_vectors.asp)[^2]. Inne głębsze różnice
-wynikają stąd, że R jest językiem imperatywnym, a więc służącym przede wszystkim do opisu
-oczekiwanych zmian fizycznego stanu komputera. Ponieważ R jest mimo wszystko dosyć zwyczajnym
-językiem imperatywnym, jego system typów jest zdecydowanie zbyt prymitywny, żeby można było z niego
-korzystać wygodnie do uprawiania na poważnie matematyki.
-
-Co jest w mojej ocenie intrygujące, gdy popatrzymy na tą akurat różnicę między takim dajmy na to
-Leanem i R z takiej oto strony: Wnioskowanie statystyczne to szczególny przypadek dedukcji. Gdybyśmy
-przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
-ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
-pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
-imperatywnego. Trzeba potem samemu sobie regularnie wmawiać niejasne powody by ufać w jakość
-ostatecznego wyniku i wcinać tą zagadkową sałatkę nie grymasząc. Moim skromnym zdaniem, dzieje się
-tak przede wszystkim dlatego, że wszyscy bez wyjątku jesteśmy debilami (albo debilkami!).
-
-Istnieje nawet cały *język* programowania, w którym cons jest operacją podstawową. Ten wspaniały i
-zarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
-raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Lisp to drugi, po
-Fortranie, najstarszy nadal używany język programowania wysokiego poziomu. Powstał, jak dowiadujemy
-się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych, oparta na rachunku
-lambda stworzonym przez Alonzo Churcha" i przez wiele lat był wykorzystywany głównie do prowadzenia
-badań nad sztuczną inteligencją, o czym można się dowiedzieć z
-[tej](http://jmc.stanford.edu/articles/lisp.html) krótkiej opowieści o jego historii, napisanej
-przez samego pomysłodawcę i autora, czy może raczej odkrywcę (?) Lispa, [Johna
-McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
-
-Kilka dzwonków dzwoni? Notacja matematyczna, rachunek lambda, coś dzwoni, prawda? Skoro przytoczony
-fragment kodu w R wyglądał trochę podobnie do kodu operującego na listach napisanego w Leanie, to
-fragment kodu napisanego w jakimś dialekcie Lispa też powinien wyglądać podobnie, co nie? I wygląda,
-pod pewnymi względami. W artykule Wikipedii przytoczono taki przykład kodu ...
-
-```common_lisp
-(list 1 2 (list 3 4))
-```
-
-... który, jak (zgodnie z prawdą) podaje Wikipedia, ewaluuje się do tego:
-
-```common_lisp
-(1 2 (3 4))
-```
-
-Widzimy więc, że podobnie jak w R, listy w Lispie nie muszą zawierać elementów tego samego typu, bo
-przecież ta lista składa się z liczb i z *listy* liczb. Coś jeszcze widzimy? Pierwsze wyrażenie to
-aplikacja funkcji `list` do trzech argumentów, z których pierwsze dwa to liczby `1` i `2`, a trzeci
-to aplikacja funkcji `list` do dwóch liczb, `3` i `4`. 
-
-I wszystko byłoby fajnie i wszystko byłoby cacy i to by w zasadzie już było na tyle, gdyby nie to,
-że wynik ewaluacji tego wyrażenia, który jest w Lispie pewną *strukturą danych*, to jest listą, jest
-*zapisany tak samo* - to jest jako dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi
-elementów - jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie
-Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej, kod Lispa jest listą albo sekwencją
-list. Co znaczy, że w Lispie można (łatwo!) pisać *funkcje*, które przetwarzają *kod*. Nie funkcje,
-które przetwarzają *funkcje* (chociaż to też można robić) albo *typy* (i to też, ale z większym
-trudem), tylko *kod*, również *własny* kod.
-
-Dzięki temu w Lispie wyjątkowo wygodnie można się bawić w
-[*metaprogramowanie*](https://pl.wikipedia.org/wiki/Metaprogramowanie). A w odpowiednich rękach
-metaprogramowanie może działać w niesamowity sposób, nierzadko dając komuś, kto je opanował,
-poczucie niemal nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispem użytkownik ma ochotę
-zacząć korzystać na przykład z [paradygmatu programowania
-obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
-która mu nie dostarcza tego, czego sobie życzy, może *pisząc odpowiedni kod przerobić sam język* na
-taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją różne).
-
-Edytor programisty `Emacs`, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
-właśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
-sposobu działania tego edytora polega często na *pisaniu programów* w Lispie. Niemniej, jak kocham
-Lispa i kocham Emacsa miłością głęboką, szczerą i niezmienną, tak muszę przyznać, że dialekty Lispa
-też mają zbyt prymitywny wbudowany system typów, żeby można ich było używać wygodnie i z sensem do
-uprawiania wszelkiej matematyki.
-
-<hr>
-
-Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lean ją słodzi:
-
-```lean
--- Zwracam uwagę na brak nawiasów kwadratowych wokół pierwszego argumentu funkcji `List.cons`, którą
--- tutaj stosujemy w notacji wzrostkowej, oznaczając ją symbolem `::`. Ten pierwszy argument musi
--- być termem takiego typu, jak typ elementów listy, do której go dodajemy, ...
-#eval 1 :: [2, 3] -- [1, 2, 3]
-
--- ... dlatego to jest błąd:
---
--- `#eval "X" :: [1, 2]`
-```
-
-**Sugestia**: Spróbuj może, używając tego lukru, stworzyć jakąś krótką listę termów typu `String`?
-Jako drugi argument do `::` możesz podać również listę pustą. Wtedy będzie najkrócej, jak się da i
-Lean domyśli się, że skoro pierwszy argument ma typ `String`, to drugi jest listą pustą typu `List
-String`.
-
-Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo lista pusta `[]`, a pod
-lukrem `List.nil`, albo lista `[n]`, gdzie `n : Nat`, a pod lukrem `List.cons n List.nil`, albo `[m,
-n]` gdzie `m n : Nat`, a pod lukrem `List.cons m (List cons n List.nil)`, i tak dalej. Definicja
-listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo (ale czy stała? to
-przecież język naturalny) "lista" występuje w
-[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). *Termy typów
-rekurencyjnych* często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak
-ta:
-
-```lean
-def suma_elementow (lista : List Nat) : Nat :=
-  match lista with
-  | [] => 0
-  | pierwszy_element :: lista_pozostalych_elementow => 
-     pierwszy_element + (suma_elementow lista_pozostalych_elementow)
-```
-
-Pisałem już o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej
-powtórki wyjaśniam, że ciało tej funkcji **czytamy jako**: Dopasuj zmienną `lista` do jednego z
-dwóch wzorców (`match lista with`) 1. lista pusta, czyli `List.nil`, a z lukrem `[]`, a jeśli
-pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy element i lista pozostałych elementów, czyli lista
-pasująca do drugiego konstruktora `List.cons <element> <lista>`, a z lukrem `pierwszy_element ::
-lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy *element* do *wyniku zastosowania
-funkcji `suma_elementow`* do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę
-już tu kopiował (w nawiasie).
-
-Zwracam uwagę na dwa warunki, które musi spełniać każda "zwykła" (można to obejść) definicja funkcji
-rekurencyjnej:
-
-1. Proces ewaluacji musi się zakończyć dla każdego możliwego argumentu. W przypadku tej funkcji
-   wywołanie rekurencyjne jest zawsze aplikacją do *coraz mniejszej* listy, która ostatecznie musi
-   stać się listą pustą, na której przetwarzanie listy się skończy. Lean sprawdza takie rzeczy i
-   pozwala nam tworzyć definicje funkcji rekurencyjnych tylko wtedy, gdy sam znajdzie dowód, albo my
-   mu dostarczymy dowód, że ewaluacja musi się zakończyć.
-
-2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
-   typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`.
-   
-Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki "leniwy" sposób:
-
-```lean
--- `Bool` to (nieparametryczny i nierekurencyjny) indukcyjny typ danych o dwóch konstruktorach,
--- `true` i `false`. Ale wszyscy faceci zdają się widzieć w nim tylko jedno - typ wartości
--- logicznych.
-def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
-  match lista with
-  | [] => true
-  -- A dla wszystkich innych przypadków zwróć `false`
-  | _ => false
-
-#eval przepraszam_cz_t_lst_jst_pst ([] : List Nat)        -- `true`
-
-#eval przepraszam_cz_t_lst_jst_pst [3, 3, 3]              -- `false`
-```
-
-**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeśli wydaje Ci
-się to zbyt proste żeby było ciekawe, może spróbuj przerobić funkcję `suma_elemnentow` na działającą
-analogicznie funkcję `iloczyn_elementow`. Potem sprawdź, jak Twoja funkcja działa dla jakiejś jednej
-czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy pustej, bo
-mnożenie liczb działa inaczej, niż ich dodawanie. Jak to zrobisz, spróbuj zdefiniować analogiczną
-funkcję działającą na listach *tekstów*, używając zamiast dodawania, aplikowanego w stylu
-przedrostkowym działania (bo ta funkcja jest przecież również działaniem!) `String.append`. Tą
-funkcję też sprawdź na jednej czy dwóch listach. Wybór wartości zwracanej dla listy pustej będzie
-wtedy tekstowym analogonem zera (ze względu na dodawanie) i jednocześnie jedynki (ze względu na
-mnożenie).
-
-## Wiele hałasu o Coś
-
-Być może pomyślałaś sobie, że typ list to takie wiele hałasu o nic. W końcu to tylko skończone
-sekwencje termów czy elementów czy obiektów tego samego typu, którym towarzyszy oczywisty interfejs
-dostawiania elementu na czoło, wyłuskania, i inne tego rodzaju funkcjnalności. No i o co właściwie
-chodzi z tymi różnicami między implementacjami typu list w różnych językach? Nawet, jeżeli tak
-pomyślałaś, co by mnie wcale nie zdziwiło, bo tam tak kiedyś wiele razy pomyślałem, to zgodzisz się
-chyba, że ogólne pojęcie skończonej sekwencji elementów jest dla nas, ludzi, fundamentalne. Na
-przykład, cały ten akapit jest pewnym skończonym ciągiem elementów tego samego typu. Każde
-wielokrotne dodawanie lub mnożenie liczb można równie dobrze zapisać jako skończony ciąg elementów
-tego samego typu. Skończone ciągi, nazywane również n-tkami, występują niezwykle często w
-przeróżnych działach matematyki. I tak dalej.
-
-A jednak skończone ciągi elementów czy wartości są *implementowane* w językach programowania na
-*dwa*, fundamentalnie różnych sposoby. Pierwszy z nich odpowiada typowi list w Leanie: Skończony
-ciąg jest wtedy zbudwany (mówimy o implementacji) z dwóch rodzajów obiektów, 1. *listy pustej* i 2
-*aplikacji* konstruktora `cons` do *dwóch* termów: elementu, który ma być dołożony na czoło i listy,
-która ma "dostać" nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i aplikacja funkcji
-`cons`, są *nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych to funkcjonalnie
-schemat aksjomatu, pamiętasz?). 
-
-To zatem tylko *napisy*, które traktujemy za pomocą interfejsu różnych funkcji jak listę pustą i
-listy niepuste. Ten *zapis* ...
-
-`List.cons 1 (List.cons 2 List.nil)`
-
-... *jest* listą, którą posługując się lukrem możemy również zapisać jako `[1, 2]`. Widzimy tutaj
-*logiczną* strukturę tego typu danych, i *nic więcej*, ponieważ to jest czysty język
-funkcyjny. Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), bo
-tak też, dokładniej, nazywa się ten typ danych, możemy równie dobrze zakodować za pomocą par
-stykających się "komórek", z których *pierwsza* zawiera jakąś *wartość*, a *druga* zawiera
-*strzałkę* (rozumianą jako wskaźnik albo adres) do *innej* pary komórek. Przyszło Ci do głowy, że te
-strzałki mogłyby wskazywać kolejne pary komórek w taki sposób, że posługując się skończoną liczbą
-par komórek ze strzałkami można by było stworzyć ciąg nieskończony? No więc wymagamy, żeby dla
-każdej listy dało się dojść, idąc tropem strzałek, do specjalnej *pojedynczej* komórki
-"bezwartościowej", której rolą jest jedynie reprezentowanie końca listy (co znaczy dokładnie to
-samo, co: interfejs funkcji działających na listach działa na tej komórce tak, jakby była listą
-pustą).
-
-**Rysunek 1**: Narysuj proszę w miejscach wierzchołków wyobrażonego trójkąta równobocznego trzy pary
-stykających się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w
-środku. W lewym kwadracie, czyli w lewej komórce górnej pary zapisz `2`, w lewej komórce prawej
-dolnej pary zapisz `1`, a w lewej komórce lewej dolnej pary zapisz `2`. Strzałki będziemy rysować od
-środków prawych komórek do krawędzi lewych komórek, albo do krawędzi komórki końcowej. Dorysuj więc
-proszę strzałki z górnego wierzchołka do prawego, z prawego do lewego i z lewego do komórki
-końcowej. To jest to samo, co lista [`[2, 1, 2]`](https://youtu.be/i3Jv9fNPjgk?si=EcitabQ7JXRX9N_p).
-
-**Rysunek 2**: Teraz proszę poniżej narysuj tą samą listę, ale zamiast rysować podwójne komórki,
-narysuj *pojedyncze okręgi* z wartościami, zamiast rysować strzałkę do komórki końcowej, narysuj
-*endostrzałkę*, i ułóż trzy "wartościowe" komórki inaczej przestrzennie na stronie. To jest to samo,
-ale wydaje się mieć w jakiś trudny do uchwycenia sposób inny sens albo smak, i nie chodzi o układ
-przestrzenny komórek, bo jest dla Ciebie jasne, że ten aspekt jest akurat nieistotny, prawda?
-
-**Rysunek 3**: Na koniec narysuj proszę poziomo trzy stykające się kwadraty, zawierające kolejno
-liczby `2`, `1` i `2`. Nie masz wrażenia, że to jest z jednej strony to samo, ale, co najmniej z
-jakiejś jednej drugiej strony, zdecydowanie nie to samo? Jeżeli możesz, spróbuj w jakiś sposób
-pogrubić obrys komórek na ostatnim rysunku.
-
-Różnica między celem, albo sensem, albo treścią, albo funkcją, rozumianą jako rola w rozwiązaniu
-jakiegoś zadania albo problemu, a realizacją, albo ucieleśnieniem, albo implementacjąq tego
-celu/sensu/treści/funkcji-jako-roli jest jak różnica między treścią komunikatu i przestrzennym
-układem plamek tuszu na kartce papieru. To pierwsze jest "w" tym drugim (zapisanym tuszem na kartce
-tekście) *tylko* w naszych oczach (i dzięki naszemu sposobowi działania); poza tym to są zupełnie
-inne, w *żaden* sposób nie związane własności. Cel jest tylko *czyimś* punktem widzenia.
-
-Ale ponieważ interesuje nas tylko to, co można z czym zrobić, albo jakie są konsekwencje zdarzeń dla
-naszych możliwości działania w świecie, jest nam bardzo trudno zobaczyć, że te dwa wymiary są tak
-bardzo różne. Tak jak na tych trzech rysunkach. Ten pierwszy jest typową reprezentacją typu list
-jednokierunkowych, ale swoim wyglądem przynajmniej sugeruje szczegóły fizycznej
-implementacji. Kwadraty sąsiadujących komórek mogą się łatwo kojarzyć z sąsiadującymi komórkami
-pamięci komputera, a strzałki z adresami fizycznych miejsc w pamięci. Dlatego ta reprezentacja jest
-dosyć *zwodnicza* i jednocześnie może się nam wydawać bardziej *przyjazna* niż bardziej
-abstrakcyjna druga.
-
-Druga reprezentacja to niemal czysta funkcjonalność. Okręgi raczej nie przywodzą na myśl komórek
-pamięci, a nawet jeśli, to w mniejszym stopniu. Strzałki mogą się oczywiście łatwo kojarzyć
-informatykom z adresami fizycznych miejsc w pamięci, ale obecność endostrzałki w tym trochę
-przeszkadza. I jest jeszcze ważny powód, dla którego wszystkie trzy rysunki są zwodnicze - one są
-zbyt *proste*.
-
-Gdybym Cię zapytał, co jest na drugiej pozycji listy, odpowiedziałabyś natychmiast z łatwością, bo
-jesteś zgaduję w stanie doskonale operować "w głowie" *całą* strukturą każdej z tych trzech
-reprezentacji, a jesteś w stanie to łatwo zrobić, bo to są listy tylko trójelementowe. Gdyby to były
-listy złożone ze *stu* elementów i gdyby komórki pierwszych dwóch list były porozrzucane na w sposób
-przypadkowy na całej płaszczyźnie (osobnej) kartki, a trzecia lista była zapisana tak, że pod każdą
-komórką byłby jej numer, czyli adres miejsca w fizycznej pamięci, bo to byłby dosłownie dla Ciebie
-adres miejsca w fizycznej pamięci, zobaczyłabyś natychmiast podstawową różnicę między pierwszymi
-dwoma strukturami i tą trzecią. I zobaczyłabyś też, że różnica między dwoma pierwszymi rysunkami
-jest albo nieistotna, albo myląca.
-
-Znalezienie `n`-tego elementu na pierwszej albo drugiej liście zajmowałoby Ci wtedy mniej więcej
-tyle czasu, ile musiałabyś zrobić *przejść*, mentalnie albo wodząc palcem na kartce, od pierwszego
-do `n`-tego elementu. A znalezienie `n`-tego elementu na trzeciej liście zajmowałoby Ci mniej więcej
-tyle samo czasu dla każdego `n`. Byłoby tak dlatego, że *funkcjonalna* struktura trzeciej listy ma
-ścisły związek z *fizyczną* strukturą kartki papieru.
-
-Zastanawiasz się może, po co nam w takim razie w ogóle listy strzałkowe? Chodzi przecież o coś tak
-prostego, jak szeregowo ułożone elementy, prawda? Otóż *nie* chodzi wcale o to, a w każdym razie nie
-*tylko* o to. Jak zawsze, chodzi w istocie o trudne do wyraźnego zobaczenia jako coś odrębnego
-funkcje jako role, co w tym kontekście oznacza operacje na listach, takie jak wyszukiwanie elementów
-znajdujących się w danej odległości od pierwszego elementu, ale nie tylko takie. 
-
-Gdybyś chciała *wstawić* jakiś element w miejscu `n` do pierwszej albo drugiej listy, byłoby Ci to w
-ogólnym przypadku znacznie łatwiej zrobić, niż gdybyś miała wstawić element w miejscu `n` do
-trzeciej listy. W przypadku pierwszych dwóch list trzeba znaleźć element `n`-ty, co wymaga czasu
-proporcjonalnego do `n`, ale gdy już go znajdziemy, wystarczy usunąć jedną strzałkę i dodać dwie
-łączące od razu wiadomo co z czym. W przypadku trzeciego rodzaju listy czy sekwencji trzeba
-*fizycznie przenieść*, w sposób nieprzypadkowy, wszystkie elementy zapisane przed elementem
-`n`-tym.
-
-Ten ostatni rodzaj "list" nazywamy *typem tablicowym*, a po angielsku zwykle *array* albo (na
-przykład w języku R albo C) *vector*. Za to listy jednokierunkowe *nie całkiem* odpowiadają typowi
-`List` w Leanie, bo ten nie korzysta ze wskaźników, tylko z par (oznaczonych arbitralnie etykietą
-`cons`) złożonych elementu i *listy*, a nie *wskaźnika* do następnego elementu. Mamy więc co
-najmniej trzy, zachowujące "się" pod pewnymi względami podobnie, ale pod pewnymi zdecydowanie nie,
-rodzaje ogólnie rozumianych skończonych "sekwencji". Wiemy też, że takie ogólnie rozumiane
-"struktury sekwencyjne" są dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie
-często używają tego rodzaju struktur do podobnych albo takich samych celów. I to jest, bez
-wątpienia, psychologia.
-
-TODO konkatenacja
-
-TODO klasy typów ftw
 
 ### Przypisy
 
@@ -449,3 +481,5 @@ TODO klasy typów ftw
     idącej swobody językowej. I tak, o wektorach w R dowiadujemy się z pierwszego zdania, że *A
     vector is simply a list of items that are of the same type*. *Simply* a *list*? *Wektor* to
     *simply a list*? Uff.
+
+[^3]: Lubię to. Swoją drogą, czy ktoś wie, co się stało z Azealią?
