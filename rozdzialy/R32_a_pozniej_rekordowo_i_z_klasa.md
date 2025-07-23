@@ -167,9 +167,13 @@ dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi elementów, jak
 dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie Lispa jest strukturą danych tego
 dialektu*, a konkretnie kod jest listą albo sekwencją list. Co znaczy, że w Lispie można (łatwo!)
 pisać *funkcje, które przetwarzają kod*. Nie funkcje, które przetwarzają *funkcje* albo *typy*
-(chociaż to też można robić), tylko *kod*, również *własny* kod. No ale dialekty Lispa też mają zbyt
-prymitywny system typów, żeby można ich było używać wygodnie i z sensem do uprawiania wszelkiej
-matematyki.
+(chociaż to też można robić), tylko *kod*, również *własny* kod. 
+
+Edytor programisty `Emacs`, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany w
+dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że konfiguracja tego edytora polega
+zwykle na pisaniu programów w Lispie. A kocham Lispa i kocham Emacsa miłością głęboką, szczerą i
+czystą, ale dialekty Lispa też mają zbyt prymitywny system typów, żeby można ich było używać
+wygodnie i z sensem do uprawiania wszelkiej matematyki.
 
 <hr>
 
@@ -194,8 +198,9 @@ Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo li
 lukrem `List.nil`, albo lista `[n]`, gdzie `n : Nat`, a pod lukrem `List.cons n List.nil`, albo `[m,
 n]` gdzie `m n : Nat`, a pod lukrem `List.cons m (List cons n List.nil)`, i tak dalej. Definicja
 listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo lista występuje w
-[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). Termy tego rodzaju typów
-indukcyjnych często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak ta:
+[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). Termy typów
+rekurencyjnych często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak
+ta:
 
 ```lean
 def suma_elementow (lista : List Nat) : Nat :=
@@ -205,5 +210,34 @@ def suma_elementow (lista : List Nat) : Nat :=
      pierwszy_element + (suma_elementow lista_pozostalych_elementow)
 ```
 
+TODO Zamienić na mnożenie
+
 TODO Podoba Ci się lukier oznaczania początku i końca listy za pomocą nawiasów kwadratowych i oddzielania
 elementów list przecinkami?
+
+### Przypisy
+
+[^1]: Powinienem raczej powiedzieć, że Emacsa używałem, w czasie przeszłym, do gotowania. I R-a. I
+    C. Napisałem kiedyś w R, w którym piszę prawie wyłącznie korzystając z Emacsa, kawałek kodu,
+    który sterował zewnętrznym mikrokontrolerem [AVR](https://pl.wikipedia.org/wiki/Atmel_AVR)
+    podłączonym przez port USB, który to mikrokontroler zaprogramowałem w języku C tak, żeby
+    mógł 1. zwierać i rozwierać przekaźnik, który był podłączony do przewodu, który zasilał
+    zanurzoną w wodzie grzałkę, i 2. odczytywać temperaturę z termometru cyfrowego, który był
+    również zanurzony w wodzie. Sterowanie grzałką było zrealizowane za pomocą funkcji, która
+    pobierała różne parametry, ale najważniejszy był docelowy poziom temperatury wody. Najpierw
+    stworzyłem wersję opartą na algorytmie [PID](https://pl.wikipedia.org/wiki/Regulator_PID),
+    którego zresztą używałem również do sterowania grzałką ekspresu do kawy, ale przekonałem się, że
+    gdy w tej samej wodzie działa wystarczająco mocna pompka elektryczna, to dzięki wywołanej w ten
+    sposób cyrkulacji wody wystarczy wyłączać grzałkę, gdy temperatura jest za wysoka i pozostawiać
+    ją włączoną, gdy jest za niska. Żadne PIDy, ani tym bardziej jakieś frymuśniejsze algorytmy
+    sterowania nie są wtedy potrzebne, bo temperatura wody pozostaje równa docelowej z dokładnością
+    do mniej niż jednego stopnia Celsjusza. No więc program w R sterował urządzeniem, które
+    kontrolowało temperaturę wody i które działało zgodnie z programem napisanym w C, a wszystko to
+    było interaktywne i działo się "wewnątrz" Emacsa, który jest napisanay w Lispie. Na stole stał
+    średniej wielkości przezroczysty pojemnik z Ikei, w nim woda, grzałka, termometr cyfrowy i
+    pompka, wszystko to było podłączone do laptopa, na ekranie którego można było zobaczyć, co się
+    dokładnie dzieje, a w zanurzonych w wodzie woreczkach strunowych pływały na przykład kawałki
+    łososia. Gdy robiłem wstępne eksperymenty, żeby sprawdzić, czy to wszystko działa, funkcja
+    sterująca w regularnych odstępach czasu aktualizowała wykres zmian temperatury wody w czasie,
+    który mogłem sobie oglądać na komórce, na przykład gdy byłem w pracy. Ale na pewno nie w trakcie
+    prowadzonych zajęć. Zmieńmy temat.
