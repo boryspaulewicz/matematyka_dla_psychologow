@@ -221,8 +221,8 @@ lukrem `List.nil`, albo lista `[n]`, gdzie `n : Nat`, a pod lukrem `List.cons n 
 n]` gdzie `m n : Nat`, a pod lukrem `List.cons m (List cons n List.nil)`, i tak dalej. Definicja
 listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo (ale czy stała? to
 przecież język naturalny) "lista" występuje w
-[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). Termy typów
-rekurencyjnych często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak
+[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). *Termy typów
+rekurencyjnych* często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak
 ta:
 
 ```lean
