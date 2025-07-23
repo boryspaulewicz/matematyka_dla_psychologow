@@ -5,7 +5,9 @@
 
 # ["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"]
 
-```lean -- Może to nie jest przyjemna lektura, ...
+Może to nie jest przyjemna lektura ⬝⬝⬝ 
+
+```lean
 #print List
 -- inductive List.{u} : Type u → Type u
 -- number of parameters: 1
@@ -22,7 +24,7 @@ namespace Kopia -- ... fragmentu zawartości pliku Prelude.lean.
 -- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
 -- linię.
 
--- ... ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
+-- ⬝⬝⬝ ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
 -- przyjemną:
 
 /--
@@ -280,6 +282,8 @@ wtedy tekstowym analogonem zera.
 TODO konkatenacja
 
 TODO tablice/wektory i listy w Leanie
+
+TODO o implementacji list za pomocą wskaźników
 
 TODO klasy typów ftw
 
