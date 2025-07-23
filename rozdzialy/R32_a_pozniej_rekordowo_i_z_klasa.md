@@ -247,6 +247,6 @@ elementów list przecinkami?
     1881](https://1881.com.pl/), która obecnie jako jedyna w Krakowie ma dwie gwiazdki
     [Michelina](https://pl.wikipedia.org/wiki/Przewodnik_Michelin). (Mówiąc nawiasem i tak między
     nami, kiedy robiłem wstępne eksperymenty, żeby sprawdzić, czy to wszystko działa, funkcja
-    sterująca w regularnych interwałach aktualizowała wykres zmian temperatury wody w czasie, który
-    mogłem oglądać na komórce, na przykład gdy byłem w pracy. Ale na pewno nie w trakcie
-    prowadzonych zajęć. Zmieńmy temat.)
+    sterująca w regularnych interwałach aktualizowała wykres zmian temperatury w czasie, który
+    mogłem oglądać na komórce będąc na przykład w pracy. Ale na pewno nie w trakcie prowadzonych
+    zajęć. Zmieńmy temat.)
