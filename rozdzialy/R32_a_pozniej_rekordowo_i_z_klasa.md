@@ -237,7 +237,14 @@ elementów list przecinkami?
     średniej wielkości przezroczysty pojemnik z Ikei, w nim woda, grzałka, termometr cyfrowy i
     pompka, wszystko to było podłączone do laptopa, na ekranie którego można było zobaczyć, co się
     dokładnie dzieje, a w zanurzonych w wodzie woreczkach strunowych pływały na przykład kawałki
-    łososia. Gdy robiłem wstępne eksperymenty, żeby sprawdzić, czy to wszystko działa, funkcja
+    łososia. Nie chwaląc się dodam, że zrobiłem to w czasach, kiedy jedynym dostępnym na rynku
+    urządzeniem do [*sous vide*](https://en.wikipedia.org/wiki/Sous_vide), bo tak (myląco) nazywa
+    się ta technika kulinarna, był kosztujący niemałe pieniądze produkt firmy
+    [PolyScience](https://www.polyscience.com/?srsltid=AfmBOorFp_HUvPQMqY0XBdM8eMrfSsjCDcHEkX6bFx0q_wcKN0oiG84X),
+    a jedyną krakowską restauracją, w której ta technika była stosowana, była [Bottiglieria
+    1881](https://1881.com.pl/), która obecnie jako jedyna w Krakowie ma dwie gwiazdki
+    [Michelina](https://pl.wikipedia.org/wiki/Przewodnik_Michelin). (Mówiąc nawiasem i tak między
+    nami, kiedy robiłem wstępne eksperymenty, żeby sprawdzić, czy to wszystko działa, funkcja
     sterująca w regularnych interwałach aktualizowała wykres zmian temperatury wody w czasie, który
-    mogłem sobie oglądać na komórce, na przykład gdy byłem w pracy. Ale na pewno nie w trakcie
-    prowadzonych zajęć. Zmieńmy temat.
+    mogłem oglądać na komórce, na przykład gdy byłem w pracy. Ale na pewno nie w trakcie
+    prowadzonych zajęć. Zmieńmy temat.)
