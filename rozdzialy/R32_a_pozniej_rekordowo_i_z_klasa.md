@@ -145,7 +145,7 @@ Fortran). Powstał, jak dowiadujemy się z Wikipedii, "jako wygodna matematyczna
 komputerowych, oparta na rachunku lambda stworzonym przez Alonzo Churcha" i przez wiele lat był
 wykorzystywany głównie do prowadzenia badań nad sztuczną inteligencją, o czym można się dowiedzieć z
 [tej](http://jmc.stanford.edu/articles/lisp.html) krótkiej opowieści o jego historii, napisanej
-przez autora Lispa, [Johna
+przez samego pomysłodawcę i autora, czy może raczej odkrywcę (?) Lispa, [Johna
 McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
 
 Kilka dzwonków dzwoni? Notacja matematyczna, rachunek lambda, nic nie dzwoni? Skoro przytoczony
