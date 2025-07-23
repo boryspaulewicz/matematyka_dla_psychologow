@@ -282,6 +282,65 @@ funkcję też sprawdź na jednej czy dwóch listach. Wybór wartości zwracanej 
 wtedy tekstowym analogonem zera (ze względu na dodawanie) i jednocześnie jedynki (ze względu na
 mnożenie).
 
+## Wiele hałasu o Coś
+
+Być może pomyślałaś sobie, że typ list to takie wiele hałasu o nic. W końcu to tylko skończone
+sekwencje termów czy elementów czy obiektów tego samego typu, którym towarzyszy oczywisty interfejs
+dostawiania elementu na czoło, wyłuskania, i inne tego rodzaju funkcjnalności. No i o co właściwie
+chodzi z tymi różnicami między implementacjami typu list w różnych językach? Nawet, jeżeli tak
+pomyślałaś, co by mnie wcale nie zdziwiło, bo tam tak kiedyś wiele razy pomyślałem, to zgodzisz się
+chyba, że ogólne pojęcie skończonej sekwencji elementów jest dla nas, ludzi, fundamentalne. Na
+przykład, cały ten akapit jest pewnym skończonym ciągiem elementów tego samego typu. Każde
+wielokrotne dodawanie lub mnożenie liczb można równie dobrze zapisać jako skończony ciąg elementów
+tego samego typu. Skończone ciągi, nazywane również n-tkami, występują niezwykle często w
+przeróżnych działach matematyki. I tak dalej.
+
+A jednak skończone ciągi elementów czy wartości są *implementowane* w językach programowania na
+*dwa*, fundamentalnie różnych sposoby. Pierwszy z nich odpowiada typowi list w Leanie: Skończony
+ciąg jest wtedy zbudwany (mówimy o implementacji) z dwóch rodzajów obiektów, 1. *listy pustej* i 2
+*aplikacji* konstruktora `cons` do *dwóch* termów: elementu, który ma być dołożony na czoło i listy,
+która ma "dostać" nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i aplikacja funkcji
+`cons`, są *nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych to funkcjonalnie
+schemat aksjomatu, pamiętasz?). 
+
+To zatem tylko *napisy*, które traktujemy za pomocą interfejsu różnych funkcji jak listę pustą i
+listy niepuste. Ten *zapis* ...
+
+`List.cons 1 (List.cons 2 List.nil)`
+
+... *jest* listą, którą posługując się lukrem możemy również zapisać jako `[1, 2]`. Widzimy tutaj
+*logiczną* strukturę tego typu danych, i *nic więcej*, ponieważ to jest czysty język
+funkcyjny. Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), bo
+tak też się nazywa ten typ danych, możemy równie dobrze zakodować za pomocą par stykających się
+"komórek", z których *pierwsza* zawiera jakąś *wartość*, a *druga* zawiera *strzałkę* (rozumianą
+jako wskaźnik albo adres) do *innej* pary komórek. Przyszło Ci do głowy, że te strzałki mogłyby
+wskazywać kolejne pary komórek w taki sposób, że posługując się skończoną liczbą par komórek ze
+strzałkami można by było stworzyć ciąg nieskończony? No więc wymagamy, żeby dla każdej listy dało
+się dojść, idąc tropem strzałek, do specjalnej *pojedynczej* komórki "bezwartościowej", której rolą
+jest jedynie reprezentowanie końca listy (co znaczy dokładnie to samo, co: interfejs funkcji
+działających na listach działa na tej komórce tak, jakby była listą pustą).
+
+**Rysunek 1**: Narysuj proszę w miejscach wyobrażonego trójkąta równobocznego trzy pary stykających
+się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w środku. W
+lewym kwadracie, czyli w lewej komórce górnej pary zapisz `2`, w lewej komórce prawej dolnej pary
+zapisz `1`, a w lewej komórce lewej dolnej pary zapisz `2`. Strzałki będziemy rysować od środków
+prawych komórek do środków prawych komórek, albo do środka komórki końcowej. Dorysuj więc proszę
+strzałki z górnego wierzchołka do prawego, z prawego do lewego i z lewego do komórki końcowej. To
+jest to samo, co lista [`[2, 1, 2]`](https://youtu.be/i3Jv9fNPjgk?si=EcitabQ7JXRX9N_p).
+
+**Rysunek 2**: Teraz proszę poniżej narysuj tą samą listę, tylko zamiast rysować podwójne komórki, narysuj
+pojedyncze okręgi z wartościami, zamiast rysować strzałkę do komórki końcowej, narysuj endostrzałkę
+i ułóż trzy "wartościowe" komórki inaczej przestrzennie na stronie. To jest to samo, ale wydaje się
+mieć w jakiś trudny do uchwycenia sposób inny sens albo smak, i nie chodzi o układ przestrzenny
+"komórek", bo jest dla Ciebie jasne, że ten aspekt jest akurat nieistotny, prawda?
+
+**Rysunek 3**: Na koniec narysuj proszę poziomo trzy stykające się kwadraty, zawierające kolejno
+liczby `2`, `1` i `2`. Nie masz wrażenia, że to jest z jednej strony to samo, ale, co najmniej z
+drugiej strony, zdecydowanie nie to samo? Jeżeli możesz, spróbuj jeszcze w jakiś sposób pogrubić
+obrys komórek na ostatnim rysunku.
+
+TODO Funkcja i implementacja jak znaczenie słów i papier poplamiony tuszem
+
 TODO konkatenacja
 
 TODO tablice/wektory i listy w Leanie
