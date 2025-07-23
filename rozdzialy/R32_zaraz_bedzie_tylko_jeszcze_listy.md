@@ -136,7 +136,7 @@ Leanem i R z takiej oto strony: Wnioskowanie statystyczne to szczególny przypad
 przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
 ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
 pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
-imperatywnego. Trudno potem samemu sobie regularnie wmawiać niejasne powody by ufać w jakość
+imperatywnego. Trzeba potem samemu sobie regularnie wmawiać niejasne powody by ufać w jakość
 ostatecznego wyniku i wcinać tą zagadkową sałatkę nie grymasząc. Moim skromnym zdaniem, dzieje się
 tak przede wszystkim dlatego, że wszyscy bez wyjątku jesteśmy debilami (albo debilkami!).
 
