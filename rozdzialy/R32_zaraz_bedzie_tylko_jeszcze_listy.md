@@ -3,10 +3,9 @@
 
 ... pytają [łabędzie](https://youtu.be/6qDq9eGUmMI?si=wyseYEGYCbGXz9if).
 
-# ... a później rekordowo i z klasą
+# ("zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach")
 
-```lean
--- Może to nie jest przyjemna lektura, ...
+```lean -- Może to nie jest przyjemna lektura, ...
 #print List
 -- inductive List.{u} : Type u → Type u
 -- number of parameters: 1

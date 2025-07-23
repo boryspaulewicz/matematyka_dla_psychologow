@@ -330,7 +330,7 @@ deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
-[R32 ... a później rekordowo i z klasą](./rozdzialy/R32_a_pozniej_rekordowo_i_z_klasa.md)  
+[R32 ("zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach")](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md)  
 *Zapis formalny staje się bardziej naturalny, znaczenie formalnie staje się czymś potencjalnym;
 piszemy listy*
 
