@@ -329,11 +329,11 @@ dolnej pary zapisz `1`, a w lewej komórce lewej dolnej pary zapisz `2`. Strzał
 proszę strzałki z górnego wierzchołka do prawego, z prawego do lewego i z lewego do komórki
 końcowej. To jest to samo, co lista [`[2, 1, 2]`](https://youtu.be/i3Jv9fNPjgk?si=EcitabQ7JXRX9N_p).
 
-**Rysunek 2**: Teraz proszę poniżej narysuj tą samą listę, tylko zamiast rysować podwójne komórki, narysuj
-pojedyncze okręgi z wartościami, zamiast rysować strzałkę do komórki końcowej, narysuj endostrzałkę
-i ułóż trzy "wartościowe" komórki inaczej przestrzennie na stronie. To jest to samo, ale wydaje się
-mieć w jakiś trudny do uchwycenia sposób inny sens albo smak, i nie chodzi o układ przestrzenny
-"komórek", bo jest dla Ciebie jasne, że ten aspekt jest akurat nieistotny, prawda?
+**Rysunek 2**: Teraz proszę poniżej narysuj tą samą listę, ale zamiast rysować podwójne komórki,
+narysuj *pojedyncze okręgi* z wartościami, zamiast rysować strzałkę do komórki końcowej, narysuj
+*endostrzałkę*, i ułóż trzy "wartościowe" komórki inaczej przestrzennie na stronie. To jest to samo,
+ale wydaje się mieć w jakiś trudny do uchwycenia sposób inny sens albo smak, i nie chodzi o układ
+przestrzenny komórek, bo jest dla Ciebie jasne, że ten aspekt jest akurat nieistotny, prawda?
 
 **Rysunek 3**: Na koniec narysuj proszę poziomo trzy stykające się kwadraty, zawierające kolejno
 liczby `2`, `1` i `2`. Nie masz wrażenia, że to jest z jednej strony to samo, ale, co najmniej z
