@@ -261,8 +261,10 @@ elementów list przecinkami?
     zrobiłem to w czasach, kiedy jedynym dostępnym na rynku urządzeniem do [*sous
     vide*](https://en.wikipedia.org/wiki/Sous_vide), bo tak (myląco) nazywa się ta technika
     kulinarna, był kosztujący niemałe pieniądze produkt firmy
-    [PolyScience](https://www.polyscience.com/?srsltid=AfmBOorFp_HUvPQMqY0XBdM8eMrfSsjCDcHEkX6bFx0q_wcKN0oiG84X),
-    a jedyną krakowską restauracją, w której ta technika była stosowana, była [Bottiglieria
+    [PolyScience](https://www.polyscience.com/?srsltid=AfmBOorFp_HUvPQMqY0XBdM8eMrfSsjCDcHEkX6bFx0q_wcKN0oiG84X)
+    (existence of which implies the existence of MonoScience and PolyArt, existence of which implies
+    the existence of MonoArt {*Mono*Science/Art my [ass](https://en.wikipedia.org/wiki/Donkey)}), a
+    jedyną krakowską restauracją, w której ta technika była stosowana, była [Bottiglieria
     1881](https://1881.com.pl/), która obecnie jako jedyna w Krakowie ma dwie gwiazdki
     [Michelina](https://pl.wikipedia.org/wiki/Przewodnik_Michelin). (Mówiąc nawiasem i tak między
     nami, kiedy robiłem wstępne eksperymenty, żeby sprawdzić, czy to wszystko działa, funkcja
