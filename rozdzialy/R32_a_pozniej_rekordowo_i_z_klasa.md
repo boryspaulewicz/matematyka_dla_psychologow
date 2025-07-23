@@ -137,21 +137,25 @@ wyjątku jesteśmy debilami (albo debilkami!).
 
 Istnieje nawet cały język programowania, w którym cons jest operacją podstawową. Ten wspaniały i
 zarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
-raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Ten drugi najstarszy
-język programowania wysokiego poziomu pozostający ciągle w użyciu (pierwszym jest Fortran) powstał,
-jak dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych,
-oparta na rachunku lambda stworzonym przez Alonzo Churcha".
+raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Lisp to drugi
+najstarszy język programowania wysokiego poziomu pozostający ciągle w użyciu (pierwszym jest
+Fortran). Powstał, jak dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów
+komputerowych, oparta na rachunku lambda stworzonym przez Alonzo Churcha" i przez wiele lat był
+wykorzystywany głównie do prowadzenia badań nad sztuczną inteligencją, o czym można się dowiedzieć z
+[tej](http://jmc.stanford.edu/articles/lisp.html) krótkiej opowieści o jego historii, napisanej
+przez autora Lispa, [Johna
+McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
 
-Kilka dzwonków dzwoni? Skoro przytoczony fragment kodu w R wyglądał podobnie do kodu operującego na
-listach napisanego w Leanie, to fragment kodu napisanego w jakimś dialekcie Lispa powinien tym
-bardziej wyglądać podobnie, co nie? I wygląda, pod pewnymi względami. W artykule Wikipedii
-przytoczono taki przykład kodu ...
+Kilka dzwonków dzwoni? Notacja matematyczna, rachunek lambda, nic nie dzwoni? Skoro przytoczony
+fragment kodu w R wyglądał podobnie do kodu operującego na listach napisanego w Leanie, to fragment
+kodu napisanego w jakimś dialekcie Lispa powinien tym bardziej wyglądać podobnie, co nie? I wygląda,
+pod pewnymi względami. W artykule Wikipedii przytoczono taki przykład kodu ...
 
 ```common_lisp
 (list 1 2 (list 3 4))
 ```
 
-... który, jak podaje Wikipedia, ewaluuje się do tego:
+... który, jak (zgodnie z prawdą) podaje Wikipedia, ewaluuje się do tego:
 
 ```common_lisp
 (1 2 (3 4))
@@ -162,19 +166,30 @@ przecież ta lista składa się z liczb i z *listy* liczb. Coś jeszcze widzimy?
 aplikacja funkcji `list` do trzech argumentów, z których pierwsze dwa to liczby `1` i `2`, a trzeci
 to aplikacja funkcji `list` do dwóch liczb, `3` i `4`. 
 
-I wszystko byłoby fajnie i wszystko byłoby cacy, gdyby nie to, że wynik ewaluacji tego wyrażenia,
-który jest w Lispie pewną *strukturą danych*, to jest listą, jest *zapisany tak samo*, to jest jako
-dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi elementów, jak fragment generującego te
-dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie Lispa jest strukturą danych tego
-dialektu*, a konkretnie kod jest listą albo sekwencją list. Co znaczy, że w Lispie można (łatwo!)
-pisać *funkcje, które przetwarzają kod*. Nie funkcje, które przetwarzają *funkcje* albo *typy*
-(chociaż to też można robić), tylko *kod*, również *własny* kod. 
+I wszystko byłoby fajnie i wszystko byłoby cacy i to by w zasadzie już było na tyle, gdyby nie to,
+że wynik ewaluacji tego wyrażenia, który jest w Lispie pewną *strukturą danych*, to jest listą, jest
+*zapisany tak samo*, to jest jako dwie zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi
+elementów, jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod napisany w dialekcie
+Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej kod Lispa jest listą albo sekwencją
+list. Co znaczy, że w Lispie można (łatwo!) pisać *funkcje, które przetwarzają kod*. Nie funkcje,
+które przetwarzają *funkcje* albo *typy* (chociaż to też można robić), tylko *kod*, również *własny*
+kod.
 
-Edytor programisty `Emacs`, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany w
-dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że konfiguracja tego edytora polega
-zwykle na pisaniu programów w Lispie. A kocham Lispa i kocham Emacsa miłością głęboką, szczerą i
-czystą, ale dialekty Lispa też mają zbyt prymitywny system typów, żeby można ich było używać
-wygodnie i z sensem do uprawiania wszelkiej matematyki.
+Dzięki temu w Lispie wyjątkowo wygodnie można się bawić w
+[*metaprogramowanie*](https://pl.wikipedia.org/wiki/Metaprogramowanie). A w odpowiednich rękach
+smetaprogramowanie może działać w niesamowity sposób, nierzadko dając komuś, kto je opanował,
+poczucie czasem wręcz nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispem użytkownik ma
+ochotę zacząć korzystać na przykład z [paradygmatu programowania
+obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
+która mu nie dostarcza tego, czego sobie życzy, może *przerobić język* na taki, który wspiera
+programowanie obiektowe w pożądanym stylu (istnieją różne).
+
+Edytor programisty `Emacs`, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
+swłaśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
+sposobu działania tego edytora polega często na *pisaniu programów* w Lispie. Niemniej, jak kocham
+Lispa i kocham Emacsa miłością głęboką, szczerą i czystą, tak muszę pogodzić się z tym, że dialekty
+Lispa też mają zbyt prymitywny wbudowany system typów, żeby można ich było używać wygodnie i z
+sensem do uprawiania wszelkiej matematyki.
 
 <hr>
 
