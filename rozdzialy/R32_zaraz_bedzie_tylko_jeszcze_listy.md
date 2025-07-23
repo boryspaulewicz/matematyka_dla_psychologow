@@ -51,10 +51,11 @@ inductive List (α : Type u) where
   | cons (head : α) (tail : List α) : List α
 
 end kopia
+```
 
-----------------------------------------------------------------------------------------------------
--- W praktyce parametryczny typ indukcyjny `List` działa tak, jak można się spodziewać:
+W praktyce parametryczny typ indukcyjny `List` działa tak, jak można się spodziewać:
 
+```lean
 -- Literały takie jak `0`, `1`, `2`, itd. Lean interpretuje jako termy typu `Nat.
 #check [1, 2, 1]          -- `[1, 2, 3] : List Nat`
 
