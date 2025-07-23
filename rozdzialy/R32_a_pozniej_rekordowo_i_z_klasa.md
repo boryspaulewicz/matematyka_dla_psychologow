@@ -122,10 +122,12 @@ moja_lista[[2]]
 
 Niektóre różnice między listami w Leanie i w R, takie jak szczegóły notacji, są powierzchowne. Ale
 inne są głębsze. Jedna z głębszych różnic polega na tym, że listy w R nie muszą zawierać elementów
-tego samego typu. Inne głębsze różnice wynikają stąd, że R jest językiem imperatywnym, a więc
-służącym przede wszystkim do opisu oczekiwanych zmian fizycznego stanu komputera. Ponieważ R jest
-mimo wszystko dosyć zwyczajnym językiem imperatywnym, jego system typów jest zdecydowanie zbyt
-prymitywny, żeby można było z niego korzystać wygodnie do uprawiania na poważnie matematyki.
+tego samego typu. Dlatego pod pewnymi względami bliższym odpowiednikiem list Leana w R są typy
+nazywane w R [*wektorami*](https://www.w3schools.com/r/r_vectors.asp)[^2]. Inne głębsze różnice
+wynikają stąd, że R jest językiem imperatywnym, a więc służącym przede wszystkim do opisu
+oczekiwanych zmian fizycznego stanu komputera. Ponieważ R jest mimo wszystko dosyć zwyczajnym
+językiem imperatywnym, jego system typów jest zdecydowanie zbyt prymitywny, żeby można było z niego
+korzystać wygodnie do uprawiania na poważnie matematyki.
 
 Co jest w mojej ocenie intrygujące, gdy popatrzymy na tą akurat różnicę między takim dajmy na to
 Leanem i R z takiej oto strony: Wnioskowanie statystyczne to szczególny przypadek dedukcji. Gdybyśmy
@@ -268,3 +270,8 @@ elementów list przecinkami?
     sterująca w regularnych interwałach aktualizowała wykres zmian temperatury w czasie, który
     mogłem oglądać na komórce będąc na przykład w pracy. Ale na pewno nie w trakcie prowadzonych
     zajęć. Zmieńmy temat.)
+
+[^2]: Jak na stronę poświęconą narzędziom informatycznym, można tam znaleźć ciekawe przykłady daleko
+    idącej swobody językowej. I tak, o wektorach w R dowiadujemy się z pierwszego zdania, że *A
+    vector is simply a list of items that are of the same type*. *Simply* a *list*? *Wektor* to
+    *simply a list*? Uff.
