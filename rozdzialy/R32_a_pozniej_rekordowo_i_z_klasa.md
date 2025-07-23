@@ -179,9 +179,9 @@ kod.
 
 Dzięki temu w Lispie wyjątkowo wygodnie można się bawić w
 [*metaprogramowanie*](https://pl.wikipedia.org/wiki/Metaprogramowanie). A w odpowiednich rękach
-smetaprogramowanie może działać w niesamowity sposób, nierzadko dając komuś, kto je opanował,
-poczucie czasem wręcz nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispem użytkownik ma
-ochotę zacząć korzystać na przykład z [paradygmatu programowania
+metaprogramowanie może działać w niesamowity sposób, nierzadko dając komuś, kto je opanował,
+poczucie niemal nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispem użytkownik ma ochotę
+zacząć korzystać na przykład z [paradygmatu programowania
 obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
 która mu nie dostarcza tego, czego sobie życzy, może *przerobić język* na taki, który wspiera
 programowanie obiektowe w pożądanym stylu (istnieją różne).
