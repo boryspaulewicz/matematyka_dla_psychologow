@@ -271,15 +271,16 @@ def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
 #eval przepraszam_cz_t_lst_jst_pst [3, 3, 3]              -- `false`
 ```
 
-**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeżeli wydaje
-Ci się to zbyt proste, żeby było ciekawe, może spróbuj przerobić funkcję `suma_elemnentow` na
-działającą analogicznie funkcję `iloczyn_elementow` i sprawdź, jak Twoja funkcja działa dla jakiejś
-jednej czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy pustej,
-bo mnożenie liczb działa inaczej, niż ich dodawanie. Jak to zrobisz, spróbuj zdefiniować analoginczą
-funkcję działającą na listach *tekstów*, używając zamiast dodawania aplikowanego w stylu
-przedrostkowym działania (bo ta funkcja jest przecież również działaniem!) `String.append`. Tą
+**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeśli wydaje Ci
+się to zbyt proste, żeby było ciekawe, może spróbuj przerobić funkcję `suma_elemnentow` na
+działającą analogicznie funkcję `iloczyn_elementow`. Potem sprawdź, jak Twoja funkcja działa dla
+jakiejś jednej czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy
+pustej, bo mnożenie liczb działa inaczej, niż ich dodawanie. Jak to zrobisz, spróbuj zdefiniować
+analogiczną funkcję działającą na listach *tekstów*, używając zamiast dodawania, aplikowanego w
+stylu przedrostkowym działania (bo ta funkcja jest przecież również działaniem!) `String.append`. Tą
 funkcję też sprawdź na jednej czy dwóch listach. Wybór wartości zwracanej dla listy pustej będzie
-wtedy tekstowym analogonem zera.
+wtedy tekstowym analogonem zera (ze względu na dodawanie) i jednocześnie jedynki (ze względu na
+mnożenie).
 
 TODO konkatenacja
 
