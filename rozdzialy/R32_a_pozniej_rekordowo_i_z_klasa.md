@@ -224,22 +224,24 @@ elementów list przecinkami?
     mógł 1. zwierać i rozwierać przekaźnik, który był podłączony do przewodu, który zasilał
     zanurzoną w wodzie grzałkę, i 2. odczytywać temperaturę z termometru cyfrowego, który był
     również zanurzony w wodzie. Sterowanie grzałką było zrealizowane za pomocą funkcji, która
-    pobierała różne parametry, ale najważniejszy był docelowy poziom temperatury wody. Najpierw
+    pobierała różne parametry, ale najważniejszy był docelowy poziom temperatury. Najpierw
     stworzyłem wersję opartą na algorytmie [PID](https://pl.wikipedia.org/wiki/Regulator_PID),
-    którego zresztą używałem również do sterowania grzałką ekspresu do kawy, ale przekonałem się, że
-    gdy w tej samej wodzie działa wystarczająco mocna pompka elektryczna, to dzięki wywołanej w ten
-    sposób cyrkulacji wody wystarczy wyłączać grzałkę, gdy temperatura jest za wysoka i pozostawiać
-    ją włączoną, gdy jest za niska. Żadne PIDy, ani tym bardziej jakieś frymuśniejsze algorytmy
-    sterowania nie są wtedy potrzebne, bo temperatura wody pozostaje równa docelowej z dokładnością
-    do mniej niż jednego stopnia Celsjusza. No więc program w R sterował urządzeniem, które
-    kontrolowało temperaturę wody i które działało zgodnie z programem napisanym w C, a wszystko to
-    było interaktywne i działo się "wewnątrz" Emacsa, który jest napisanay w Lispie. Na stole stał
-    średniej wielkości przezroczysty pojemnik z Ikei, w nim woda, grzałka, termometr cyfrowy i
-    pompka, wszystko to było podłączone do laptopa, na ekranie którego można było zobaczyć, co się
-    dokładnie dzieje, a w zanurzonych w wodzie woreczkach strunowych pływały na przykład kawałki
-    łososia. Nie chwaląc się dodam, że zrobiłem to w czasach, kiedy jedynym dostępnym na rynku
-    urządzeniem do [*sous vide*](https://en.wikipedia.org/wiki/Sous_vide), bo tak (myląco) nazywa
-    się ta technika kulinarna, był kosztujący niemałe pieniądze produkt firmy
+    którego zresztą używałem również do sterowania grzałką ekspresu do kawy (zanim mi się to udało,
+    w całym bloku wysadziłem korki), ale przekonałem się, że gdy w tej samej wodzie działa
+    wystarczająco mocna pompka elektryczna, to dzięki wywołanej w ten sposób cyrkulacji wystarczy
+    wyłączać grzałkę, gdy temperatura jest za wysoka i pozostawiać ją włączoną, gdy jest za
+    niska. Żadne PIDy, ani tym bardziej jakieś frymuśniejsze metody sterowania nie są wtedy
+    potrzebne, bo temperatura pozostaje równa docelowej z dokładnością do mniej niż jednego stopnia
+    Celsjusza. No więc program w R sterował urządzeniem, które kontrolowało temperaturę wody i które
+    działało zgodnie z programem napisanym w C, a wszystko to było interaktywne i działo się
+    "wewnątrz" Emacsa, który jest napisanay w Lispie. Gdy więc na przykład rodzina zasiadła na
+    przykład w niedzielę do stołu, na stole stał średniej wielkości przezroczysty pojemnik z Ikei, w
+    nim woda, grzałka, termometr cyfrowy i pompka, wszystko to było podłączone do laptopa, na
+    ekranie którego można było zobaczyć, co się dokładnie dzieje, a w zanurzonych w wodzie
+    woreczkach strunowych pływały na przykład kawałki łososia. Chwaląc się bezwstydnie dalej jeszcze
+    dodam, że zrobiłem to w czasach, kiedy jedynym dostępnym na rynku urządzeniem do [*sous
+    vide*](https://en.wikipedia.org/wiki/Sous_vide), bo tak (myląco) nazywa się ta technika
+    kulinarna, był kosztujący niemałe pieniądze produkt firmy
     [PolyScience](https://www.polyscience.com/?srsltid=AfmBOorFp_HUvPQMqY0XBdM8eMrfSsjCDcHEkX6bFx0q_wcKN0oiG84X),
     a jedyną krakowską restauracją, w której ta technika była stosowana, była [Bottiglieria
     1881](https://1881.com.pl/), która obecnie jako jedyna w Krakowie ma dwie gwiazdki
