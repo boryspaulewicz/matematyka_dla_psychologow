@@ -23,7 +23,7 @@ namespace kopia -- ... fragmentu zawartości pliku Prelude.lean.
 -- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
 -- linię.
 
--- ... ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
+-- ⬝⬝⬝ ale za to może ta definicja ładowana przez Leana na starcie również nie jest lekturą
 -- przyjemną:
 
 /--
