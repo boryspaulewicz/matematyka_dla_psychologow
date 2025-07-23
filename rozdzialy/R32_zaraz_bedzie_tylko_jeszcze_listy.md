@@ -240,7 +240,7 @@ pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy element i lista pozostałych ele
 pasująca do drugiego konstruktora `List.cons <element> <lista>`, a z lukrem `pierwszy_element ::
 lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy *element* do *wyniku zastosowania
 funkcji `suma_elementow`* do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę
-już tu kopiował w nawiasie.
+już tu kopiował (w nawiasie).
 
 Zwracam uwagę na dwa warunki, które musi spełniać każda "zwykła" (można to obejść) definicja funkcji
 rekurencyjnej:
