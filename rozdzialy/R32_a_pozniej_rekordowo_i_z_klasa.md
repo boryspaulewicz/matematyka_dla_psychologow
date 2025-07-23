@@ -183,22 +183,24 @@ Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lea
 ```lean
 -- Zwracam uwagę na brak nawiasów kwadratowych wokół pierwszego argumentu funkcji `List.cons`, którą
 -- tutaj stosujemy w notacji wzrostkowej, oznaczając ją symbolem `::`. Ten pierwszy argument musi
--- być termem takiego typu, jak typ elementów listy, do której go dodajemy ...
+-- być termem takiego typu, jak typ elementów listy, do której go dodajemy, ...
 #eval 1 :: [2, 3] -- [1, 2, 3]
+
 -- ... dlatego to jest błąd:
 --
 -- `#eval "X" :: [1, 2]`
 ```
 
 **Sugestia**: Spróbuj może, używając tego lukru, stworzyć jakąś krótką listę termów typu `String`?
-Jako drugi argument do `::` możesz podać również listę pustą, wtedy będzie najkrócej jak się da i
+Jako drugi argument do `::` możesz podać również listę pustą, wtedy będzie najkrócej, jak się da, i
 Lean domyśli się, że skoro pierwszy argument ma typ `String`, to drugi jest listą pustą typu `List
 String`.
 
 Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo lista pusta `[]`, a pod
 lukrem `List.nil`, albo lista `[n]`, gdzie `n : Nat`, a pod lukrem `List.cons n List.nil`, albo `[m,
 n]` gdzie `m n : Nat`, a pod lukrem `List.cons m (List cons n List.nil)`, i tak dalej. Definicja
-listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo lista występuje w
+listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo (ale czy stała? to
+przecież język naturalny) lista występuje w
 [*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). Termy typów
 rekurencyjnych często najwygodniej jest przetwarzać za pomocą *funkcji rekurencyjnych*, takich jak
 ta:
