@@ -254,7 +254,7 @@ rekurencyjnej:
 2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
    typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`.
    
-Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki oto "leniwy" sposób:
+Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki "leniwy" sposób:
 
 ```lean
 -- `Bool` to (nieparametryczny i nierekurencyjny) indukcyjny typ danych o dwóch konstruktorach,
