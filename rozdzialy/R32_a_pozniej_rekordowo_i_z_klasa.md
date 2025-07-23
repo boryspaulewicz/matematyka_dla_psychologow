@@ -238,6 +238,6 @@ elementów list przecinkami?
     pompka, wszystko to było podłączone do laptopa, na ekranie którego można było zobaczyć, co się
     dokładnie dzieje, a w zanurzonych w wodzie woreczkach strunowych pływały na przykład kawałki
     łososia. Gdy robiłem wstępne eksperymenty, żeby sprawdzić, czy to wszystko działa, funkcja
-    sterująca w regularnych odstępach czasu aktualizowała wykres zmian temperatury wody w czasie,
-    który mogłem sobie oglądać na komórce, na przykład gdy byłem w pracy. Ale na pewno nie w trakcie
+    sterująca w regularnych interwałach aktualizowała wykres zmian temperatury wody w czasie, który
+    mogłem sobie oglądać na komórce, na przykład gdy byłem w pracy. Ale na pewno nie w trakcie
     prowadzonych zajęć. Zmieńmy temat.
