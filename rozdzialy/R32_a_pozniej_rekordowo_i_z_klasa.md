@@ -136,16 +136,16 @@ imperatywnego. Moim skromnym zdaniem, dzieje się tak przede wszystkim dlatego, 
 wyjątku jesteśmy debilami (albo debilkami!).
 
 Istnieje nawet cały język programowania, w którym cons jest operacją podstawową. Ten wspaniały i
-szarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
-raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). To drugi najstarszy
-język programowania wysokiego poziomu pozostający ciągle w użyciu (pierwszym jest Fortran), który
-powstał, jak dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów
-komputerowych, oparta na rachunku lambda stworzonym przez Alonzo Churcha". 
+zarazem dla prawie każdego zawodowego programisty niemal odpychająco egzotyczny składniowo język, a
+raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Ten drugi najstarszy
+język programowania wysokiego poziomu pozostający ciągle w użyciu (pierwszym jest Fortran) powstał,
+jak dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych,
+oparta na rachunku lambda stworzonym przez Alonzo Churcha".
 
-Dzwoni kilka dzwonków, prawda? Skoro przytoczony fragment kodu w R wyglądał podobnie do kodu
-operującego na listach napisanego w Leanie, to fragment kodu napisanego w jakimś dialekcie Lispa
-powinien tym bardziej wyglądać podobnie, co nie? I wygląda, pod pewnymi względami. W artykule
-Wikipedii przytoczono taki przykład kodu ...
+Kilka dzwonków dzwoni? Skoro przytoczony fragment kodu w R wyglądał podobnie do kodu operującego na
+listach napisanego w Leanie, to fragment kodu napisanego w jakimś dialekcie Lispa powinien tym
+bardziej wyglądać podobnie, co nie? I wygląda, pod pewnymi względami. W artykule Wikipedii
+przytoczono taki przykład kodu ...
 
 ```common_lisp
 (list 1 2 (list 3 4))
