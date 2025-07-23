@@ -78,8 +78,8 @@ czytało, a przede wszystkim myślało i uczyło się w taki sposób A, że gdyb
 zastosowała się była do tej sugestii, to zamiast sposobu A pojawi się sposób B, który jest nie tylko
 pod ważnymi względami (funkcjonalnie) inny niż A, ale jest w dodatku, przynajmniej według mnie,
 gorszy. Tych dwóch możliwych sposobów doświadczania nie da się porównać z definicji, ponieważ
-dotyczą zdarzeń rozgrywających się w tym samym momencie, ale jako etapy różnych historii, z których
-tylko jedna "się rozegra".
+dotyczą zdarzeń zachodzących w tym samym momencie, ale jako etapy różnych historii, z których tylko
+jedna "się rozegra".
 
 W Leanie taki na przykład typ `String` jest zdefiniowany jako *rekord* zawierający tylko jedno pole
 o nazwie `data` i typie `List Char`, czyli o typie lista znaków:
@@ -87,7 +87,8 @@ o nazwie `data` i typie `List Char`, czyli o typie lista znaków:
 ```lean
 -- Termy typu `Char`, czyli znakowe, zapisujemy tak ...
 #check 'x' -- 'x' : Char
--- ... a tak nie, bo `xy` nie jest pojedynczym znakiem:
+
+-- ... a tak nie, bo `xy` nie jest *pojedynczym* znakiem:
 --
 -- #check 'xy'
 
@@ -232,24 +233,25 @@ def suma_elementow (lista : List Nat) : Nat :=
      pierwszy_element + (suma_elementow lista_pozostalych_elementow)
 ```
 
-Pisałem już o strukturze takich funkcji, ale to było dawno i nieprawda, więc w ramach kolejnej
-odroczonej powtórki wyjaśniam znowu, że ciało tej funkcji **czytamy jako**: Dopasuj zmienną `lista`
-do jednego z dwóch wzorców (`match lista with`) 1. lista pusta, czyli `List.nil` a z lukrem `[]`, a
-jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy element i lista pozostałych elementów, czyli
-lista pasująca do drugiego konstruktora `List.cons <element> <lista>`, a z lukrem `pierwszy_element
-:: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy element do wyniku zastosowania
-funkcji `suma_elementow` do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę
+Pisałem już o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej
+powtórki wyjaśniam, że ciało tej funkcji **czytamy jako**: Dopasuj zmienną `lista` do jednego z
+dwóch wzorców (`match lista with`) 1. lista pusta, czyli `List.nil`, a z lukrem `[]`, a jeśli
+pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy element i lista pozostałych elementów, czyli lista
+pasująca do drugiego konstruktora `List.cons <element> <lista>`, a z lukrem `pierwszy_element ::
+lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy *element* do *wyniku zastosowania
+funkcji `suma_elementow`* do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę
 już tu kopiował w nawiasie.
 
 Zwracam uwagę na dwa warunki, które musi spełniać każda "zwykła" (można to obejść) definicja funkcji
 rekurencyjnej:
 
-1. Proces ewaluacji musi się zakończyć. W przypadku tej funkcji wywołanie rekurencyjne jest zawsze
-   aplikacją do *coraz mniejszej* listy, która ostatecznie musi stać się listą pustą, na której
-   przetwarzanie listy się skończy. Lean sprawdza takie rzeczy i pozwala nam tworzyć definicje
-   funkcji rekurencyjnych tylko wtedy, gdy znajdzie dowód, że ewaluacja musi się zakończyć.
+1. Proces ewaluacji musi się zakończyć dla każdego możliwego argumentu. W przypadku tej funkcji
+   wywołanie rekurencyjne jest zawsze aplikacją do *coraz mniejszej* listy, która ostatecznie musi
+   stać się listą pustą, na której przetwarzanie listy się skończy. Lean sprawdza takie rzeczy i
+   pozwala nam tworzyć definicje funkcji rekurencyjnych tylko wtedy, gdy sam znajdzie dowód, albo my
+   mu dostarczymy dowód, że ewaluacja musi się zakończyć.
 
-2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby skonstruowania termów dopasowywanego
+2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
    typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`.
    
 Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki oto "leniwy" sposób:
@@ -266,7 +268,7 @@ def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
 
 #eval przepraszam_cz_t_lst_jst_pst ([] : List Nat)        -- `true`
 
-#eval przepraszam_cz_t_lst_jst_pst ([3, 3, 3] : List Nat) -- `false`
+#eval przepraszam_cz_t_lst_jst_pst [3, 3, 3]              -- `false`
 ```
 
 **Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeżeli wydaje
