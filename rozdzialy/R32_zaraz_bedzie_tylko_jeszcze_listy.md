@@ -94,7 +94,8 @@ ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego
 pietruszki rozumowania dedukcyjnego używamy najczęściej piły elektrycznej pewnego języka
 imperatywnego. Trzeba potem samemu sobie regularnie wmawiać niejasne powody, by ufać w jakość
 ostatecznego wyniku i wcinać tą zagadkową sałatkę starając się nie grymasić. Moim skromnym zdaniem,
-dzieje się tak przede wszystkim dlatego, że wszyscy jesteśmy debilami (albo debilkami).
+dzieje się tak przede wszystkim dlatego, że wszyscy jesteśmy wspaniałymi, ale jednak mimo wszystko
+debilami (albo debilkami).
 
 Istnieje nawet cały *język* programowania, w którym `cons` jest operacją podstawową. Ten wspaniały i
 zarazem dla prawie każdego zawodowego programisty składniowo niemal odpychająco egzotyczny język, a
