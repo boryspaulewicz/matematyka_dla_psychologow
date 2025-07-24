@@ -147,8 +147,8 @@ zacząć korzystać na przykład z [paradygmatu programowania
 obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
 która mu nie dostarcza tego, czego sobie życzy, może *pisząc odpowiedni kod przerobić sam język* na
 taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją różne). Czy
-metaprogramowanie ma jakiś związek z inteligencją (i celowością)? Oczywiście, że tak. A jaki? Trudno
-tak w skrócie powiedzieć.
+metaprogramowanie ma jakiś związek z inteligencją i celowością? Oczywiście, że tak. A jaki? Trudno
+tak w skrócie powiedzieć!
 
 Edytor programisty Emacs, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
 właśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
@@ -269,47 +269,128 @@ Co jeszcze na początek ... A tak, poszczególne elementy list można wskazywać
 Być może pomyślałaś sobie, że typ list to takie wiele hałasu o nic. W końcu to tylko skończone
 sekwencje termów/elementów/obiektów tego samego typu, którym towarzyszy interfejs dostawiania
 elementu na czoło, wskazywania elementów (do *odczytu*), i inne tego rodzaju funkcjnalności. No i o
-co właściwie chodzi z tymi różnicami między implementacjami typu list w różnych językach? 
+co właściwie chodzi z tymi różnicami między implementacjami typu list w różnych językach?  Nawet,
+jeżeli tak pomyślałaś, co by mnie wcale nie zdziwiło, bo sam tak kiedyś wiele razy pomyślałem, to
+zgodzisz się chyba, że *ogólne pojęcie skończonej sekwencji elementów* jest dla nas, ludzi,
+fundamentalne. 
 
-Nawet, jeżeli tak pomyślałaś, co by mnie wcale nie zdziwiło, bo sam tak kiedyś wiele razy
-pomyślałem, to zgodzisz się chyba, że *ogólne pojęcie skończonej sekwencji elementów* jest dla nas,
-ludzi, fundamentalne. Na przykład, cały ten akapit jest pewnym skończonym ciągiem elementów tego
-samego typu. Każde wielokrotne dodawanie lub mnożenie liczb można równie dobrze zapisać jako
-skończony ciąg elementów tego samego typu. Dni tygodnia są tego rodzaju sekwencją i tak też o nich
-myślimy, podobnie jak o sekundach, godzinach, miesiącach i latach. Droga z jakiegoś punktu `A` do
-jakiegoś punktu `B`, *niemal dowolnie rozumiana droga*, na przykład taka, która polega na przejściu
-się do sklepu mijając kolejne skrzyżowania ulic, albo która polega na przejściu od założeń przez
-kolejne kroki dowodu do wniosku, to pewna skończona sekwencja elementów tego samego typu. Skończone
-ciągi dowolnej długości, nazywane również n-tkami, występują niezwykle często w przeróżnych działach
-matematyki. I tak dalej.
+Skończone ciągi dowolnej długości, nazywane również n-tkami, występują niezwykle często w
+przeróżnych działach matematyki. Ten akapit jest pewnym skończonym ciągiem elementów tego samego
+typu. Każde wielokrotne dodawanie lub mnożenie liczb, czy wielokrotne zastosowanie jakiejkolwiek
+innej operacji łącznej można równie dobrze zapisać jako skończony ciąg elementów tego samego
+typu. Dni tygodnia są tego rodzaju sekwencją i tak też o nich myślimy, podobnie jak o sekundach,
+godzinach, miesiącach i latach. Droga z jakiegoś punktu `A` do jakiegoś punktu `B`, *niemal dowolnie
+rozumiana droga*, na przykład taka, która polega na przejściu się do sklepu mijając po drodze
+kolejne skrzyżowania ulic, albo która polega na przejściu od założeń przez kolejne kroki dowodu do
+wniosku, albo taka, która polega na przejściu od pierwszej liczby przez dodawanie kolejnych do
+ostatecznej sumy liczb od pierwszej do ostatniej, czyli kolejna sekwencja jako droga jako sekwencja
+*działań*, to pewna skończona sekwencja *elementów* tego samego typu. Pojęcie sekwencji jest niemal
+tak uniwersalne, proste, oczywiste i płytkie jak pojęcie elementu, i tak samo trudne do zobaczenia w
+inny sposób, a przez to, przynajmniej potencjalnie, otchłannie głębokie.
 
-A jednak ciągi skończone są *implementowane* w językach programowania na co najmniej *dwa*,
+No więc sekwencje skończone są *implementowane* w językach programowania na co najmniej *dwa*,
 fundamentalnie różnych sposoby. Pierwszy z nich odpowiada typowi list w Leanie: Skończony ciąg jest
-wtedy zbudwany (mówimy o implementacji, to "zbudowany") z dwóch rodzajów obiektów, 1. *listy pustej*
-i 2. *aplikacji* konstruktora `cons` do *dwóch* termów: 2.1. elementu, który ma być dołożony na
-czoło i 2.2. listy, która ma "dostać" nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i
-aplikacja funkcji `cons`, są *nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych
-to funkcjonalnie schemat aksjomatu, pamiętasz?).
+wtedy zbudwany z dwóch rodzajów pod-struktur, 1. *listy pustej* i 2. *aplikacji* konstruktora `cons`
+do *dwóch* termów: 2.1. elementu, który ma być dołożony na czoło i 2.2. listy, która ma dostać
+nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i aplikacja funkcji `cons`, są
+*nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych to funkcjonalnie schemat
+aksjomatu, pamiętasz?).
 
-To zatem tylko *napisy*, które traktujemy za pomocą interfejsu złożonego z różnych funkcji jak listę
-pustą i listy niepuste. Ten *zapis*, ...
+To zatem tylko *napisy*, które *traktujemy* za pomocą interfejsu złożonego z różnych funkcji *jak*
+listy puste i listy niepuste, co czyni je listami pustymi i niepustymi. Ten *zapis*, ...a
 
 `List.cons 1 (List.cons 2 List.nil)`
 
 ... na przykład, *jest* listą, którą posługując się lukrem możemy również zapisać jako `[1,
-2]`. Widzimy tutaj *logiczną* strukturę tego typu danych i *nic więcej*, ponieważ to jest zapis w
-czystym języku funkcyjnym. 
+2]`. Widzimy tutaj fragment (bo nie widzimy tu funkcjonalnego interfejsu) *logicznej* struktury tego
+typu danych i *nic więcej*, ponieważ to jest zapis w czystym języku funkcyjnym.
+
+TODO o Pos i roli interfejsu
 
 Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), możemy równie
 dobrze zakodować za pomocą par stykających się "komórek", z których *pierwsza* zawiera jakąś
-*wartość*, a *druga* zawiera *strzałkę* (rozumianą jako wskaźnik albo adres) do *innej pary
+*wartość*, a *druga* zawiera *strzałkę*, interpretowalną jako adres, do *innej pary
 komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
-że posługując się skończoną liczbą par komórek ze strzałkami można by było stworzyć ciąg
-nieskończony? Wystarczyłoby zdefiniować jakąkolwiek pętlę kierunkową. No więc wymagamy, żeby dla
-każdej listy dało się dojść, idąc tropem strzałek, do specjalnej *pojedynczej* komórki
-"bezwartościowej", której rolą jest jedynie *reprezentowanie końca* listy (co znaczy dokładnie to
-samo co: interfejs funkcji działających na listach działa na tej komórce tak, jakby była listą
-pustą).
+że posługując się skończoną liczbą par komórek ze strzałkami można dałoby się (posługując się tylko
+zbiorami skończonymi) skonstruować ciąg nieskończony? Wystarczyłoby zdefiniować jakąkolwiek pętlę
+kierunkową. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
+strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
+reprezentowanie końca listy. Co znaczy dokładnie to samo co: interfejs funkcji działających na
+listach działa na tej komórce tak, jakby była listą pustą.
+
+<hr>
+
+### Interfejs jest prawie (?) wszystkim
+
+**Ten fragment można na spokojnie pominąć bez większej szkody dla zrozumienia dalszego ciągu**: Żeby
+docenić znaczenie interfejsu, rozważmy takie dwa, ściśle związane z wszelkimi sekwencjami
+skończonymi typy danych:
+
+```
+-- Stworzenie przestrzeni nazw `przyklad` pozwala nam zdefiniować stałą `Nat`, bo tak naprawdę
+-- definiujemy wtedy stałą `przyklad.Nat`, która nie jest jeszcze "zajęta" (ciałem).
+namespace przyklad
+
+inductive Nat where
+  | zero : Nat
+  | succ (n : Nat) : Nat
+ 
+inductive Pos where
+  | one : Pos
+  | succ (p : Pos) : Pos
+
+-- Te dwa typy są w oczywisty sposób izomorficzne, ...
+def np_iso (n : Nat) : Pos :=
+  match n with
+  | Nat.zero => Pos.one
+  | Nat.succ m => Pos.succ (np_iso m)
+
+def pn_iso (p : Pos) : Nat :=
+  match p with
+  | Pos.one => Nat.zero
+  | Pos.succ o => Nat.succ (pn_iso o)
+  
+-- ... za to, z powodu rekurencyjnej struktury obydwu typów danych, dowody izomorficzności nie są
+-- takie oczywisty, bo mają wyrafinowaną strukturę funkcji rekurencyjnych. Mówiąc dokładniej, te
+-- dowody korzystają z *zasady indukcji*, o której porozmawiamy kiedy indziej:
+
+theorem pn_of_np : ∀ n : Nat, pn_iso (np_iso n) = n :=
+  fun n => match n with
+  | Nat.zero => rfl
+  -- O tym porozmawiamy kiedy indziej.
+  | Nat.succ m => congrArg Nat.succ (pn_of_np m)
+
+theorem np_of_pn : ∀ p : Pos, np_iso (pn_iso p) = p :=
+  fun p => match p with
+  | Pos.one => rfl
+  | Pos.succ m => congrArg Pos.succ (np_of_pn m)
+
+-- A zatem pn_of_np i np_of_pn to funkcje odwrotne. Nie napisałem `pn_iso (np_iso n) = id n` w
+-- nadziei, że to wywoła pewne wątpliwości i pobudzi Cię do ponownego przemyślenia tematu.
+
+-- No więc definiując w ten piękny, rekurencyjny sposób dla tych typów danych *dodawanie* ...
+
+def Nat.add (m n : Nat) : Nat :=
+  match m with
+  | Nat.zero => n
+  | Nat.succ m' => Nat.add m' (Nat.succ n)
+
+def Pos.add (m n : Pos) : Pos :=
+  match m with
+  -- Kluczowa różnica jest tutaj.
+  | Pos.one => Pos.succ n
+  | Pos.succ m' => Pos.add m' (Pos.succ n)
+
+-- ... sprawiamy, że te dwa, izomorficzne *jako typy danych* typy danych są *nie*izomorficzne *jako
+-- narzędzia dodawania*, to jest (na przykład) jako *półgrupy* (Nat, Nat.add, Nat.zero) i (Pos,
+-- Pos.add, Pos.one). *Nie* jako monoidy, bo `Pos.add` nie ma elementu/termu neutralnego, a więc nie
+-- jest monoidem, natomiast, jak można wykazać również posługując się zasadą indukcji, oba działania
+-- są łączne, a więc "półgrupowe".
+
+end przyklad
+```
+
+<hr>
 
 **Rysunek 1**: Narysuj proszę w miejscach wierzchołków wyobrażonego trójkąta równobocznego trzy pary
 stykających się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w
