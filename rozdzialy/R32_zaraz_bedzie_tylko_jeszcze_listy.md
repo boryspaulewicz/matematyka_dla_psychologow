@@ -504,9 +504,9 @@ jakiekolwiek nawiasy?
 Wracając do wyzwania, spróbuj proszę zastąpić słowo `sorry` odpowiednim fragmentem kodu *uważając na
 frustrację* i *oddalając się od tej zagadki, gdy zaczniesz zauważać, że nie ustępuje*. *To* jest tu
 moim zdaniem największym i o wiele ważniejszym niż sama zagadka wyzwaniem. Próby wykonania zadania,
-do wykonania którego nie jest się jeszcze gotowym, pewnie nie we *wszystkich* tego typu rodzaju, ale
-w *trudnych do rozpoznania jako w ten sposób trudne* sytuacjach są jak próby latania zanim wyrosną
-nam skrzydła.
+do wykonania którego nie jest się jeszcze gotowym, pewnie nie we *wszystkich* tego typu sytuacjach,
+ale w *trudnych do rozpoznania jako w ten sposób trudne* sytuacjach są jak próby latania zanim
+wyrosną nam skrzydła.
 
 ```lean
 def concat (l1 l2 : List α) : List α :=
