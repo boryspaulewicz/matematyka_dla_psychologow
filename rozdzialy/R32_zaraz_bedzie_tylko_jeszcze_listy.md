@@ -296,27 +296,16 @@ nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i aplikacja funkcji `c
 *nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych to funkcjonalnie schemat
 aksjomatu, pamiętasz?).
 
-To zatem tylko *napisy*, które *traktujemy* za pomocą interfejsu złożonego z różnych funkcji *jak*
-listy puste i listy niepuste, co czyni je listami pustymi i niepustymi. Ten *zapis*, ...a
+To zatem tylko *napisy*, które *traktujemy* - za pomocą interfejsu złożonego z różnych funkcji -
+*jak* listy puste i listy niepuste, co *czyni je* listami pustymi i niepustymi. Ten *zapis*, ...
 
 `List.cons 1 (List.cons 2 List.nil)`
 
-... na przykład, *jest* listą, którą posługując się lukrem możemy również zapisać jako `[1,
-2]`. Widzimy tutaj fragment (bo nie widzimy tu funkcjonalnego interfejsu) *logicznej* struktury tego
-typu danych i *nic więcej*, ponieważ to jest zapis w czystym języku funkcyjnym.
-
-TODO o Pos i roli interfejsu
-
-Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), możemy równie
-dobrze zakodować za pomocą par stykających się "komórek", z których *pierwsza* zawiera jakąś
-*wartość*, a *druga* zawiera *strzałkę*, interpretowalną jako adres, do *innej pary
-komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
-że posługując się skończoną liczbą par komórek ze strzałkami można dałoby się (posługując się tylko
-zbiorami skończonymi) skonstruować ciąg nieskończony? Wystarczyłoby zdefiniować jakąkolwiek pętlę
-kierunkową. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
-strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
-reprezentowanie końca listy. Co znaczy dokładnie to samo co: interfejs funkcji działających na
-listach działa na tej komórce tak, jakby była listą pustą.
+... na przykład, *jest* listą (którą posługując się lukrem możemy również zapisać jako `[1,
+2]`). Widzimy tutaj pewien *fragment*, bo nie widzimy tu funkcjonalnego interfejsu, *logicznej*
+struktury tego typu danych i *nic więcej*, to znaczy nie ma nic "pod spodem" tego zapisu, a w
+szczególności nie ma "pod" nim żadnej struktury fizycznej, takiej jak pamięć komputera, ponieważ to
+jest zapis w czystym języku funkcyjnym.
 
 <hr>
 
@@ -391,6 +380,17 @@ end przyklad
 ```
 
 <hr>
+
+Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), możemy równie
+dobrze zakodować za pomocą par stykających się "komórek", z których *pierwsza* zawiera jakąś
+*wartość*, a *druga* zawiera *strzałkę*, interpretowalną jako adres, do *innej pary
+komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
+że posługując się skończoną liczbą par komórek ze strzałkami można dałoby się (posługując się tylko
+zbiorami skończonymi) skonstruować ciąg nieskończony? Wystarczyłoby zdefiniować jakąkolwiek pętlę
+kierunkową. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
+strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
+reprezentowanie końca listy. Co znaczy dokładnie to samo co: interfejs funkcji działających na
+listach działa na tej komórce tak, jakby była listą pustą.
 
 **Rysunek 1**: Narysuj proszę w miejscach wierzchołków wyobrażonego trójkąta równobocznego trzy pary
 stykających się kwadratów, a po lewej od lewej dolnej pary narysuj pojedynczy kwadrat z kółkiem w
