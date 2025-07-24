@@ -252,12 +252,12 @@ def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
 #eval przepraszam_cz_t_lst_jst_pst [3, 3, 3]       -- `false`
 ```
 
-**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet, jeśli wydaje Ci
-się to zbyt proste żeby było ciekawe, może spróbuj przerobić funkcję `suma_elemnentow` na działającą
+**Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet jeśli wydaje Ci
+się to zbyt proste żeby było ciekawe, spróbuj może przerobić funkcję `suma_elemnentow` na działającą
 analogicznie funkcję `iloczyn_elementow`. Potem sprawdź, czy ta funkcja działa poprawnie dla jakiejś
 jednej czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy pustej,
 bo mnożenie liczb działa inaczej, niż ich dodawanie. Spróbuj potem zdefiniować analogiczną funkcję
-działającą na listach *tekstów* używając, zamiast dodawania, aplikowanego w stylu przedrostkowym
+działającą na listach *tekstów*, używając, zamiast dodawania, aplikowanego w stylu przedrostkowym
 działania (bo ta funkcja jest przecież działaniem) `String.append`. Tą funkcję też sprawdź na jednej
 albo dwóch listach. Wybór wartości zwracanej dla listy pustej będzie wtedy tekstowym analogonem zera
 (ze względu na dodawanie) i jednocześnie jedynki (ze względu na mnożenie), bo będzie *elementem
