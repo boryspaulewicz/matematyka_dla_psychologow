@@ -456,10 +456,10 @@ reprezentacji. A jesteś w stanie łatwo takie rzeczy robić, bo to są listy ty
 trójelementowe. Gdyby to były listy złożone na przykład ze *stu* elementów i gdyby komórki
 pierwszych dwóch list były porozrzucane w sposób przypadkowy na całej płaszczyźnie (każda osobnej)
 kartki, a trzecia lista była zapisana tak, że pod każdą komórką byłby jej numer, czyli adres miejsca
-w fizycznej pamięci, bo to byłby dosłownie dla Ciebie adres miejsca w fizycznej pamięci,
+w fizycznej pamięci, bo to byłby dla Ciebie dosłownie adres miejsca w fizycznej pamięci,
 zobaczyłabyś natychmiast podstawową różnicę między pierwszymi dwoma strukturami i tą trzecią. I
 zobaczyłabyś też może, że różnica między dwoma pierwszymi rysunkami jest albo mało istotna, albo
-wręcz myląca.
+myląca.
 
 Dla `n` znacznie większych niż 3, znalezienie `n`-tego elementu na liście pierwszego albo drugiego
 rodzaju zajmowałoby Ci wtedy mniej więcej tyle czasu, ile musiałabyś zrobić *przejść*, mentalnie
