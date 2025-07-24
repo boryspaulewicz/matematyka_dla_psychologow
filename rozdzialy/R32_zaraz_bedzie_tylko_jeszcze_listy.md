@@ -553,7 +553,7 @@ def concat (l1 l2 : List α) : List α :=
 #eval concat [1, 2, 3] [4, 5]
 ```
 
-## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis typu list skopiowany z pliku Prelude.lean 
+## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis i definicja typu list skopiowane z pliku Prelude.lean 
 
 ```lean -- To jest namespace kopia -- fragmentu zawartości pliku Prelude.lean.
 
