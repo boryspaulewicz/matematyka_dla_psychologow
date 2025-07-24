@@ -101,7 +101,7 @@ Istnieje nawet cały *język* programowania, w którym `cons` jest operacją pod
 zarazem dla prawie każdego zawodowego programisty składniowo niemal odpychająco egzotyczny język, a
 raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Nazwa jest skrótem od
 *List processing* i nie ma zdaje się związku z [seplenieniem](https://en.wikipedia.org/wiki/Lisp),
-chociaż kto wie. 
+chociaż kto wie, seplenienie jest przecież własnością wy*mowy*.
 
 To drugi, po Fortranie, najstarszy nadal używany język programowania wysokiego poziomu. Powstał, jak
 dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych, oparta
