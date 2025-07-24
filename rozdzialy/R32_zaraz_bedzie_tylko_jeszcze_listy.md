@@ -560,10 +560,10 @@ def concat (l1 l2 : List α) : List α :=
 -- Dzięki umieszczeniu kopii kodu z dokumentacją w nowej przestrzeni nazw, nie występuje konflikt
 -- nazw wynikający ze zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`).
 
--- Za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż jedną
--- linię:
+-- A za pomocą pary oznaczeń `/--` i `-/` można wygodnie tworzyć komentarze zajmujące więcej niż
+-- jedną linię.
 
-/--
+s/--
 Linked lists: ordered lists, in which each element has a reference to the next element.
 
 Most operations on linked lists take time proportional to the length of the list, because each
