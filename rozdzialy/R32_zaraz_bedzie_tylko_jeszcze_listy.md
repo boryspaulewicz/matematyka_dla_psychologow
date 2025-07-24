@@ -511,7 +511,9 @@ początku tej książki, byłoby dla Ciebie jasne, że możesz je *łatwo* wykon
 jasne *zanim* zaczęłabyś je wykonywać. Moim zdaniem tego rodzaju "moc" bierze się nie stąd, że w
 międzyczasie wiele razy *wykonywałaś* te i inne podobne *zadania*, tylko stąd, że wiele razy,
 *patrząc na nie z różnych stron*, wracałaś do takiego jakby "niezadaniowego", bo *spontanicznego* i
-*swobodnego myślenia* o strukturach i działaniach na strukturach, których te zadania dotyczą.
+*swobodnego myślenia* o strukturach i działaniach na strukturach, których te zadania
+dotyczą. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek innego, na przykład niż zgodnie z
+obecną wiedzą niemożliwy "trening inteligencji", skutki *zmian struktury Twojej pamięci*.
 
 ```lean
 def concat (l1 l2 : List α) : List α :=
