@@ -1,3 +1,8 @@
+2025.07.24 Skończyłem pisać wstępną wersję [rozdziału o
+listach](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md). Można się z niego dowiedzieć trochę o
+listach, ale przede wszystkim próbowałem się w nim zastanowić nad rozmaitymi rolami wszelkiego
+rodzaju list w myśleniu i w życiu.
+
 2025.07.22 Skończyłem pisać wstępną wersję rozdziału [Klasy typów służą do pisania i myślenia po
 ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md), w którym można znowu poczytać o monoidach, ale
 również o półgrupach, strukturze hierarchi pojęć i wiedzy, mechanizmie dziedziczenia w Leanie,

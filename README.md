@@ -8,10 +8,10 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.22 Skończyłem pisać wstępną wersję rozdziału [Klasy typów służą do pisania
-i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md), w którym można znowu poczytać o
-monoidach, ale również o półgrupach, strukturze hierarchi pojęć i wiedzy, mechanizmie dziedziczenia
-w Leanie, typach `Empty` i `Unit`, psychologii i psychologach.
+**Aktualności**: 2025.07.24 Skończyłem pisać wstępną wersję [rozdziału o
+listach](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md). Można się z niego dowiedzieć trochę o
+listach, ale przede wszystkim próbowałem się w nim zastanowić nad rozmaitymi rolami wszelkiego
+rodzaju list w myśleniu i w życiu.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
@@ -350,11 +350,10 @@ psychopacie, z nachalnym utrudnianiem*
 *A jeżeli to nie jest pozwalanie sobie na zbyt wiele, to jutro może [padać
 deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 
-Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
-
 [R32 \["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"\]](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md)  
-*Zapis formalny staje się bardziej naturalny, znaczenie formalnie staje się czymś potencjalnym;
-piszemy listy*
+*Idąc jakąś drogą piszemy jakieś listy*
+
+Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
