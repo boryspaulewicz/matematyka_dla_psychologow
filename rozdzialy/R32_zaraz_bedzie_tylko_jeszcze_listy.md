@@ -114,7 +114,7 @@ McCarthy'ego](https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)).
 Dzwonki dzwonią? Notacja matematyczna, rachunek lambda, coś dzwoni, prawda? Skoro przytoczony
 fragment kodu w R wyglądał podobnie do kodu operującego na listach napisanego w Leanie, to można się
 spodziewać, że fragment kodu napisanego w jakimś dialekcie Lispa też będzie wyglądał podobnie. I
-wygląda, pod pewnymi względami. W artykule Wikipedii przytoczono na przykład taki fragment kodu ...
+wygląda, pod pewnymi względami. W artykule Wikipedii przytoczono na przykład taki fragment kodu, ...
 
 ```common_lisp
 (list 1 2 (list 3 4))
@@ -131,14 +131,14 @@ przecież ta lista składa się z liczb i z *listy* liczb. Coś jeszcze widzimy?
 aplikacja funkcji `list` do trzech argumentów, z których pierwsze dwa to liczby `1` i `2`, a trzeci
 to aplikacja funkcji `list` do liczb `3` i `4`.
 
-I wszystko byłoby fajnie i wszystko byłoby cacy i to by w zasadzie już było na tyle, gdyby nie fakt,
-że wynik ewaluacji pierwszego wyrażenia, który to wynik jest w Lispie jest listą, a więc jest pewną
-*strukturą danych*, jest *zapisany tak samo*, to jest jako dwie zagnieżdżone sekwencje oddzielonych
-nawiasami okrągłymi elementów, jak fragment generującego te dane *kodu*. Jest tak dlatego, że *kod
-napisany w dialekcie Lispa jest strukturą danych tego dialektu*, a mówiąc dokładniej, kod Lispa jest
-listą. Co znaczy, że w Lispie można (łatwo!) tworzyć *funkcje*, które przetwarzają *kod*. Nie
-funkcje, które przetwarzają *funkcje* (chociaż to też można robić) albo *typy* (i to też można
-robić, ale z większym trudem), tylko *kod*; w tym również *własny* kod.
+I wszystko byłoby fajnie i wszystko byłoby cacy i to . by . w za . sa . dzie . już . by . ło . na
+. ty. le, gdyby nie fakt, że wynik ewaluacji pierwszego wyrażenia, który to wynik jest w Lispie jest
+listą, a więc jest pewną *strukturą danych*, jest *zapisany tak samo*, to jest jako dwie
+zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi elementów, jak fragment generującego te dane
+*kodu*. Jest tak dlatego, że *kod napisany w dialekcie Lispa jest strukturą danych tego dialektu*, a
+mówiąc dokładniej, kod Lispa jest listą. Co znaczy, że w Lispie można (łatwo!) tworzyć *funkcje*,
+które przetwarzają *kod*. Nie funkcje, które przetwarzają *funkcje* (chociaż to też można robić)
+albo *typy* (i to też można robić, ale z większym trudem), tylko *kod*; w tym również *własny* kod.
 
 Dzięki temu w Lispie wyjątkowo wygodnie można się bawić w
 [*metaprogramowanie*](https://pl.wikipedia.org/wiki/Metaprogramowanie). A w odpowiednich rękach
