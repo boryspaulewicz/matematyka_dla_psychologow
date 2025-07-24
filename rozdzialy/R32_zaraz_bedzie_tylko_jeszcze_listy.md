@@ -481,13 +481,54 @@ dotąd przeżyć jako gatunek, czyli jak debile (i debilki).
 
 ## Konkatenacja list
 
+**Wyzwanie!**: Jeżeli Twoją pierwszą reakcją na napisane pismem pogrubionym słowo "wyzwanie", w
+dodatku z wykrzyknikiem, było coś w rodzaju "a dajże mi spokój", to *doskonale*. Słuchaj proszę tego
+wewnętrznego głosu; moim zdaniem On ostrzega "Cię" przed niebezpieczeństwem "wypalenia
+motywacyjnego". Jeżeli to było bardziej coś w rodzaju ekscytacji, to też *doskonale*, tylko *pod
+innym względem*. U kogoś, kto dotarł tak daleko, obojętność mogę spokojnie wykluczyć.
 
-
-## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis typu list z pliku Prelude.lean 
+Chemy mieć coś, co działa jak *sklejanie*:
 
 ```lean
--- To jest
-namespace  kopia -- fragmentu zawartości pliku Prelude.lean.
+         [] [a, b, c, ...] ↦ [a, b, c, ...]
+
+         [a, b, c, ...] [] ↦ [a, b, c, ...]
+
+[a, b, c, ...] [d, e, ...] ↦ [a, b, c, ..., d, e, ...]
+```
+
+Nawet bez bawienia się w dowodzenie równości pewnych zdań z dwoma parami nawiasów od razu widać, że
+tak działające sklejanie to monoid, prawda? Jednostkę ma, a co by tu mogły zmienić nawiasy? 
+
+Wracając do wyzwania, spróbuj proszę zastąpić słowo `sorry` odpowiednim fragmentem kodu *uważając na
+frustrację* i *oddalając się od tego problemu, gdy tylko zaczniesz ją zauważać*. *To* jest tu moim
+zdaniem największym i o wiele ważniejszym niż sama zagadka wyzwaniem.
+
+```lean
+def concat (l1 l2 : List α) : List α :=
+    match l1 with
+    |[] => l2
+    -- Częściowe mise an place przez samo typowanie mówiąc do siebie:
+    -- 
+    -- 1. rezultatem musi być lista, 2. funkcja `concat` pobiera dwa argumenty, 3. `x` to pierwszy
+    -- element, 4. a `xs` to pozostała część listy `l1`.
+    --
+    -- Albo możesz sobie rozpisać, używając *swobodnej* notacji, proces doklejania `[1, 2]` do `[3]`
+    -- tylko za pomocą operacji `::` i operacji rozłożenia listy niepustej na pierwszy element/czoło
+    -- i (być może pustą) listę pozostałych elementów.
+    |x :: xs => sorry
+
+-- Sprawdzamy, czy działa.
+#eval concat [] [1, 2, 3]
+
+#eval concat [1, 2, 3] []
+
+#eval concat [1, 2, 3] [4, 5]
+```
+
+## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis typu list skopiowany z pliku Prelude.lean 
+
+```lean -- To jest namespace kopia -- fragmentu zawartości pliku Prelude.lean.
 
 -- Dzięki umieszczeniu kopii kodu z dokumentacją w nowej przestrzeni nazw, nie występuje konflikt
 -- nazw wynikający ze zdefiniowania dwukrotnie tej samej stałej (tutaj stałej `List`).
