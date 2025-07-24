@@ -498,7 +498,8 @@ Chemy mieć coś, co działa jak *sklejanie*:
 ```
 
 Nawet bez bawienia się w dowodzenie równości pewnych zdań z dwoma parami nawiasów od razu widać, że
-tak działające sklejanie to monoid, prawda? Jednostkę ma, a co by tu mogły zmienić nawiasy? 
+tak działające sklejanie to monoid, prawda? Jednostkę przecież ma, no i co by tu mogły zmienić
+jakiekolwiek nawiasy?
 
 Wracając do wyzwania, spróbuj proszę zastąpić słowo `sorry` odpowiednim fragmentem kodu *uważając na
 frustrację* i *oddalając się od tego problemu, gdy tylko zaczniesz ją zauważać*. *To* jest tu moim
