@@ -470,17 +470,17 @@ proporcjonalnego do `n`, ale gdy już go znajdziemy, wystarczy usunąć jedną s
 Ten ostatni rodzaj sekwencji nazywamy *typem tablicowym*, a po angielsku zwykle *array* albo (tak
 jak w językach R i C) *vector*. Za to listy jednokierunkowe *nie całkiem* odpowiadają typowi `List`
 w Leanie, bo ten nie korzysta ze *wskaźników*. Pomijając listy puste, listy w Leanie są złożone z
-par (oznaczonych arbitralnie etykietą `cons`) złożonych elementu i *listy*, a nie wskaźnika do
+par (oznaczonych arbitralnie etykietą `cons`) złożonych z elementu i *listy*, a nie wskaźnika do
 następnego elementu. Mamy więc co najmniej trzy, zachowujące się pod pewnymi względami podobnie, ale
-pod pewnymi zdecydowanie nie, rodzaje ogólnie rozumianych skończonych sekwencji. Wiemy też, że
-ogólnie rozumiane "struktury sekwencyjne" są dla ludzi niezwykle ważne w najrozmaitszych
-kontekstach, i że ludzie często używają tego rodzaju struktur do podobnych, a nierzadko takich
-samych celów. Pod tym względem od w jakiś sposób zaprogrowanych, arbitralnych fizycznych komputerów
-ludzie różnią się głównie tym, że nie robią tego niemal niezawodnie.
+pod innymi nie, rodzaje ogólnie rozumianych struktur sekwencyjnych. Wiemy też, że takie struktury są
+dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie często używają ich do podobnych,
+a nierzadko takich samych celów. Pod tym względem od w jakiś sposób zaprogramowanych komputerów
+różnimy się głównie tym, że nie robimy tego niemal niezawodnie, tylko wystarczająco dobrze, żeby jak
+dotąd przeżyć jako gatunek, czyli jak debile (i debilki).
 
-TODO konkatenacja
+## Konkatenacja list
 
-TODO klasy typów ftw
+
 
 ## Dla osób nadmiernie dociekliwych, przyozdobiony komentarzami opis typu list z pliku Prelude.lean 
 
