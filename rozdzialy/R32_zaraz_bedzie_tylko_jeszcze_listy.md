@@ -541,8 +541,8 @@ def concat (l1 l2 : List α) : List α :=
     -- element, 4. a `xs` to pozostała część listy `l1`.
     --
     -- Albo możesz sobie rozpisać, używając *swobodnej* notacji, proces doklejania `[1, 2]` do `[3]`
-    -- tylko za pomocą operacji `::` i operacji rozłożenia listy niepustej na pierwszy element/czoło
-    -- i (być może pustą) listę pozostałych elementów.
+    -- *tylko* za pomocą operacji `::` i operacji rozłożenia listy niepustej na pierwszy
+    -- element/czoło i (być może pustą) listę pozostałych elementów.
     |x :: xs => sorry
 
 -- Sprawdzamy, czy działa.
