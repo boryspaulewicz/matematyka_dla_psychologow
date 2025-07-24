@@ -203,6 +203,12 @@ def suma_elementow (lista : List Nat) : Nat :=
   | [] => 0
   | pierwszy_element :: lista_pozostalych_elementow => 
      pierwszy_element + (suma_elementow lista_pozostalych_elementow)
+
+-- To jest ta sama funkcja, tylko mniej przegadana.
+def suma (l : List Nat) :=
+  match l with
+  | [] => 0
+  | x :: xs => x + (suma xs)
 ```
 
 Pisałem już o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej
