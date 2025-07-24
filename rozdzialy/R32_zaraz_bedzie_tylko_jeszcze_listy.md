@@ -447,7 +447,7 @@ jednocześnie może się nam wydawać bardziej *przyjazna* niż bardziej abstrak
 Druga reprezentacja to niemal czysta funkcjonalność. Okręgi raczej nie przywodzą na myśl komórek
 pamięci, a nawet jeśli, to w mniejszym stopniu. Strzałki mogą się oczywiście łatwo kojarzyć, na
 przykład zawodowym informatykom, z adresami fizycznych miejsc w pamięci, ale obecność endostrzałki w
-tym trochę przeszkadza. Jest jeszcze co namniej jeden ważny powód, dla którego wszystkie trzy
+tym trochę przeszkadza. Jest też jeszcze co namniej jeden ważny powód, dla którego wszystkie trzy
 rysunki są zwodnicze: przedstawione na nich struktury są *małe*.
 
 Gdybym Cię zapytał, co jest na drugiej pozycji listy, odpowiedziałabyś natychmiast z łatwością, bo
