@@ -261,7 +261,7 @@ działającą na listach *tekstów*, używając, zamiast dodawania, aplikowanego
 działania (bo ta funkcja jest przecież działaniem) `String.append`. Tą funkcję też sprawdź na jednej
 albo dwóch listach. Wybór wartości zwracanej dla listy pustej będzie wtedy tekstowym analogonem zera
 (ze względu na dodawanie) i jednocześnie jedynki (ze względu na mnożenie), bo będzie *elementem
-neutralnym ze względu na operację sklejania tekstów*.
+neutralnym* (ze względu na operację sklejania tekstów).
 
 Co jeszcze na początek ... A tak, poszczególne elementy list można wskazywać używając takiego lukru:
 
