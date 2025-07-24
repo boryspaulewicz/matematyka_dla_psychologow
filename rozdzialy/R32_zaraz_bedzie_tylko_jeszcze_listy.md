@@ -301,13 +301,14 @@ typu. Pojęcie sekwencji jest niemal tak uniwersalne, proste, oczywiste i płytk
 elementu, i tak samo trudne do zobaczenia w nowy sposób, a przez to, przynajmniej potencjalnie,
 bezdennie głębokie.
 
-No więc sekwencje skończone są *implementowane* w językach programowania na co najmniej *dwa*,
-fundamentalnie różnych sposoby. Pierwszy z nich odpowiada typowi list w Leanie: Skończony ciąg jest
-wtedy zbudwany z dwóch rodzajów pod-struktur, 1. *listy pustej* i 2. *aplikacji* konstruktora `cons`
-do *dwóch* termów: 2.1. elementu, który ma być dołożony na czoło i 2.2. listy, która ma dostać
-nowe czoło. W Leanie te dwa rodzaje termów, lista pusta i aplikacja funkcji `cons`, są
-*nieredukowalne* (bo definicja parametrycznego indukcyjnego typu danych to funkcjonalnie schemat
-aksjomatu, pamiętasz?).
+No więc sekwencje skończone są *implementowane* w językach programowania na między innymi takie dwa,
+fundamentalnie różne sposoby: 
+
+Pierwszy sposób odpowiada typowi list w Leanie: Skończony ciąg jest wtedy zbudwany z dwóch rodzajów
+pod-struktur, 1. *listy pustej* i 2. *aplikacji* konstruktora `cons` do *dwóch* termów:
+2.1. elementu, który ma być dołożony na czoło i 2.2. listy, która ma dostać nowe czoło. W Leanie te
+dwa rodzaje termów, lista pusta i aplikacja funkcji `cons`, są *nieredukowalne* (bo definicja
+parametrycznego indukcyjnego typu danych to funkcjonalnie schemat aksjomatu, pamiętasz?).
 
 To zatem tylko *napisy*, które *traktujemy* - za pomocą interfejsu złożonego z różnych funkcji -
 *jak* listy puste i listy niepuste, co *czyni je* listami pustymi i niepustymi. Ten *zapis*, ...
