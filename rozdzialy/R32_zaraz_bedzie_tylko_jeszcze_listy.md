@@ -466,8 +466,8 @@ rodzaju zajmowałoby Ci wtedy mniej więcej tyle czasu, ile musiałabyś zrobić
 albo wodząc palcem po kartce, od pierwszego do `n`-tego elementu. Natomiast znalezienie `n`-tego
 elementu na liście trzeciego rodzaju zajmowałoby Ci mniej więcej tyle samo czasu dla każdego
 `n`. Byłoby tak dlatego, że *funkcjonalna* struktura trzeciej listy ma ścisły związek z *fizyczną*
-strukturą kartki papieru. Inaczej mówiąc, lista trzeciego rodzaju *jest* (Twoim) *interfejsem
-fizycznej powierzchni papieru*.
+strukturą kartki papieru. Inaczej mówiąc, tak jak układ współrzędnych kartezjańskich, gdybyś go tam
+narysowała, lista trzeciego rodzaju *jest* (Twoim) *interfejsem fizycznej powierzchni papieru*.
 
 Zastanawiasz się może, po co nam w takim razie w ogóle listy strzałkowe? Chodzi przecież o coś tak
 prostego, jak szeregowo ułożone elementy, prawda? Otóż *nie* chodzi wcale o to, a w każdym razie nie
