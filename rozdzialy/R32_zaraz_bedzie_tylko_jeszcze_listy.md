@@ -491,7 +491,8 @@ ale pod innymi nie, rodzaje ogólnie rozumianych struktur sekwencyjnych. Wiemy t
 struktury są dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie często używają ich
 do podobnych, a nierzadko takich samych celów. Pod tym względem od w jakiś sposób zaprogramowanych
 komputerów różnimy się głównie tym, że nie robimy tego niemal niezawodnie, tylko wystarczająco
-dobrze, żeby jak dotąd przeżyć jako gatunek, czyli jak debile (i debilki).
+dobrze, żeby jak dotąd [przeżyć](https://youtu.be/I_izvAbhExY?si=K0bb8JHKYNdGDTSA) jako gatunek,
+czyli jak debile (i debilki).
 
 ## Konkatenacja list
 
