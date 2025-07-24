@@ -98,10 +98,10 @@ dzieje się tak głównie dlatego, że wszyscy *z osobna* jesteśmy wspaniałymi
 debilami (albo debilkami).
 
 Istnieje nawet cały *język* programowania, w którym `cons` jest operacją podstawową. Ten wspaniały i
-zarazem dla prawie każdego zawodowego programisty składniowo niemal odpychająco egzotyczny język, a
-raczej rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Nazwa jest skrótem od
-*List processing* i nie ma zdaje się związku z [seplenieniem](https://en.wikipedia.org/wiki/Lisp),
-chociaż kto wie, seplenienie jest przecież własnością wy*mowy*.
+zarazem dla prawie każdego zawodowego programisty składniowo odpychająco egzotyczny język, a raczej
+rodzina języków, nazywa się [Lisp](https://pl.wikipedia.org/wiki/Lisp). Nazwa jest skrótem od *List
+processing* i nie ma zdaje się związku z [seplenieniem](https://en.wikipedia.org/wiki/Lisp), chociaż
+kto wie, seplenienie jest przecież własnością wy*mowy*.
 
 To drugi, po Fortranie, najstarszy nadal używany język programowania wysokiego poziomu. Powstał, jak
 dowiadujemy się z Wikipedii, "jako wygodna matematyczna notacja dla programów komputerowych, oparta
@@ -154,7 +154,7 @@ Trudno tak w skrócie powiedzieć! Mogę natomiast już teraz powiedzieć to:
 
 *Ta książka jest aktem wspólnego wieloprzedmiotowego metaprogramowania (siebie \{nawzajem\})*.
 
-[Zaskoczona](https://youtu.be/010KyIQjkTk?si=k5ZjpbKAhM98YcJZ)? A chociaż trochę?
+[Zaskoczona](https://youtu.be/010KyIQjkTk?si=k5ZjpbKAhM98YcJZ)? A chociaż *trochę*?
 
 Edytor programisty Emacs, którego używam do wszystkiego, łącznie z gotowaniem[^1], jest napisany
 właśnie w dialekcie Lispa. Ale to jest akurat drobiazg. Ciekawsze jest to, że sama *konfiguracja*
@@ -191,8 +191,8 @@ Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo li
 lukrem `List.nil`), albo lista `[n]`, gdzie `n : Nat` (a pod lukrem `List.cons n List.nil`), albo
 `[m, n]`, gdzie `m n : Nat` (a pod lukrem `List.cons m (List cons n List.nil)`), i tak
 dalej. Definicja listy, poza tym, że jest parametryczna, jest więc też rekurencyjna, bo słowo (ale
-czy stała? to przecież język naturalny) "lista" występuje w
-[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji). 
+czy *stała*? to przecież język naturalny) "lista" występuje w
+[*definiensie*](https://pl.wikipedia.org/wiki/Definicja#Budowa_definicji).
 
 A *termy typów rekurencyjnych* często najwygodniej jest przetwarzać za pomocą *funkcji
 rekurencyjnych*, takich jak ta:
@@ -212,12 +212,12 @@ def suma (l : List Nat) :=
 ```
 
 Pisałem już o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej
-powtórki wyjaśniam, że ciało tej funkcji **czytamy jako**: Dopasuj zmienną `lista` do jednego z
-dwóch wzorców (`match lista with`) 1. lista pusta, czyli pierwszy konstruktor list `List.nil`, a z
-lukrem `[]`, a jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy *element* i *lista* pozostałych
+powtórki wyjaśniam, że ciało tej funkcji **czytamy tak**: Dopasuj zmienną `lista` do jednego z dwóch
+wzorców (`match lista with`) 1. lista pusta, czyli pierwszy konstruktor list `List.nil`, a z lukrem
+`[]`, a jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy *element* i *lista* pozostałych
 elementów, czyli lista pasująca do drugiego konstruktora list `List.cons <element> <lista>`, a z
 lukrem `pierwszy_element :: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy
-*element* do *wyniku zastosowania funkcji* `suma_elementow` (włąśnie w tym miejscu ta funkcja
+*element* do *wyniku zastosowania funkcji* `suma_elementow` (właśnie w tym miejscu ta funkcja
 wywołuje rekurencyjnie samą siebie) do listy pozostałych elementów. Pozwolisz, że tego fragmentu
 kodu nie będę już tu (w nawiasie) kopiował.
 
@@ -232,7 +232,7 @@ rekurencyjnej:
    argumentu.
 
 2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
-   typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`. Akurat
+   typu, czyli tutaj termów typu, którego term występuje zaraz po słowie kluczowym `match`. Akurat
    parametryczny typ indukcyjny `List` ma dwa konstruktory, które już poznałaś.
    
 Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki "leniwy" sposób:
@@ -253,10 +253,10 @@ def przepraszam_cz_t_lst_jst_pst (lista : List α) : Bool :=
 ```
 
 **Sugestia**: Jeżeli nie masz wieloletniego doświadczenia w programowaniu, to nawet jeśli wydaje Ci
-się to zbyt proste żeby było ciekawe, spróbuj może przerobić funkcję `suma_elemnentow` na działającą
+się to zbyt proste żeby było ciekawe, spróbuj może przerobić funkcję `suma_elementow` na działającą
 analogicznie funkcję `iloczyn_elementow`. Potem sprawdź, czy ta funkcja działa poprawnie dla jakiejś
 jednej czy dwóch krótkich list liczb naturalnych. Uważaj wtedy na wartość zwracaną dla listy pustej,
-bo mnożenie liczb działa inaczej, niż ich dodawanie. Spróbuj potem zdefiniować analogiczną funkcję
+bo mnożenie liczb działa inaczej, niż ich dodawanie. Spróbuj jeszcze zdefiniować analogiczną funkcję
 działającą na listach *tekstów*, używając, zamiast dodawania, aplikowanego w stylu przedrostkowym
 działania (bo ta funkcja jest przecież działaniem) `String.append`. Tą funkcję też sprawdź na jednej
 albo dwóch listach. Wybór wartości zwracanej dla listy pustej będzie wtedy tekstowym analogonem zera
@@ -299,7 +299,7 @@ kolejnych do ostatecznej sumy liczb od pierwszej do ostatniej, czyli sekwencja j
 sekwencja *działań*, to *jednocześnie* pewna skończona sekwencja *elementów* tego samego
 typu. Pojęcie sekwencji jest niemal tak uniwersalne, proste, oczywiste i płytkie jak pojęcie
 elementu, i tak samo trudne do zobaczenia w nowy sposób, a przez to, przynajmniej potencjalnie,
-bezdennie głębokie.
+niemal bezdennie głębokie.
 
 No więc sekwencje skończone są *implementowane* w językach programowania na między innymi takie dwa,
 fundamentalnie różne sposoby: 
@@ -315,7 +315,7 @@ To zatem tylko *napisy*, które *traktujemy* - za pomocą interfejsu złożonego
 
 `List.cons 1 (List.cons 2 List.nil)`
 
-... na przykład, *jest* listą (którą posługując się lukrem możemy również zapisać jako `[1,
+... na przykład, *jest* listą (którą, posługując się lukrem, możemy również zapisać jako `[1,
 2]`). Widzimy tutaj pewien *fragment*, bo nie widzimy tu funkcjonalnego interfejsu, *logicznej*
 struktury tego typu danych i *nic więcej*, to znaczy nie ma nic "pod spodem" tego zapisu, a w
 szczególności nie ma "pod" nim żadnej struktury fizycznej, takiej jak pamięć komputera, ponieważ to
@@ -400,7 +400,7 @@ komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne 
 że posługując się skończoną liczbą takich "wartościowo-strzałkowych" par komórek dałoby się,
 używając do tego tylko *zbiorów skończonych*, skonstruować *ciąg nieskończony*? Wystarczyłoby
 zdefiniować jakąkolwiek pętlę kierunkową i ta struktura reprezentowałaby wtedy sekwencję
-xnieskończoną. I skąd by się ta nieskończoność brała? Oczywiście (?), że ze strzałek, a właściwie ze
+nieskończoną. I skąd by się ta nieskończoność brała? Oczywiście (?), że ze strzałek, a właściwie ze
 *sposobu używania strzałek*. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem
 (albo drogą) strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
 reprezentowanie końca listy. Co znaczy dokładnie to samo co: interfejs funkcji działających na
@@ -426,7 +426,7 @@ same liczby, to jest `2`, `1` i `2`. Nie masz wrażenia, że to jest z jednej st
 najmniej z jakiejś jednej drugiej strony, zdecydowanie nie to samo? Jeżeli możesz, spróbuj w jakiś
 sposób pogrubić krawędzie tych komórek.
 
-Różnica między celem, albo sensem, albo treścią, albo funkcją rozumianą jako rola w rozwiązaniu
+Różnica między celem, albo sensem, albo treścią, albo funkcją, rozumianą jako rola w rozwiązaniu
 jakiegoś zadania albo problemu, a realizacją, albo ucieleśnieniem, albo implementacją tego
 celu/sensu/treści/funkcji-jako-roli jest jak różnica między treścią komunikatu i przestrzennym
 układem cząsteczek tuszu drukarskiego na kartce papieru. To pierwsze (sens) jest "w" tym drugim
@@ -491,8 +491,8 @@ ale pod innymi nie, rodzaje ogólnie rozumianych struktur sekwencyjnych. Wiemy t
 struktury są dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie często używają ich
 do podobnych, a nierzadko takich samych celów. Pod tym względem od w jakiś sposób zaprogramowanych
 komputerów różnimy się głównie tym, że nie robimy tego niemal niezawodnie, tylko wystarczająco
-dobrze, żeby jak dotąd [przeżyć](https://youtu.be/I_izvAbhExY?si=K0bb8JHKYNdGDTSA) jako gatunek,
-czyli jak debile (i debilki).
+dobrze, żeby jak dotąd [przeżyć](https://youtu.be/I_izvAbhExY?si=K0bb8JHKYNdGDTSA) jako gatunek.
+Czyli jak debile (i debilki).
 
 ## Konkatenacja list
 
@@ -519,18 +519,20 @@ jakiekolwiek nawiasy?
 
 Wracając do wyzwania, spróbuj proszę zastąpić słowo `sorry` odpowiednim fragmentem kodu *uważając na
 frustrację* i *oddalając się od tej zagadki, gdy zaczniesz zauważać, że - zarówno furstracja jak i
-sama zagadka - nie ustępuje*. *To* jest tu moim zdaniem największym i o wiele ważniejszym niż sama
-zagadka wyzwaniem. Próby wykonania zadania, do wykonania którego nie jest się jeszcze gotowym,
-pewnie nie we *wszystkich* tego typu sytuacjach, ale w *trudnych do rozpoznania jako w ten sposób
-trudne* sytuacjach przypominają próby latania zanim wyrosną nam skrzydła. Gdybyś teraz na przykład
-wróciła do zadań, z którymi miałaś kontakt na początku tej książki, byłoby dla Ciebie jasne, że
-możesz je *łatwo* wykonać i to by było dla Ciebie jasne *zanim* zaczęłabyś je wykonywać. Moim
-zdaniem tego rodzaju moc bierze się nie stąd, że w międzyczasie wiele razy *wykonywałaś* te i inne
-podobne *zadania*, tylko stąd, że wiele razy, *patrząc na nie z różnych stron*, wracałaś do takiego
-jakby "niezadaniowego", bo *spontanicznego* i *swobodnego myślenia* o strukturach i działaniach na
-strukturach, których te zadania *dotyczą*. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek
-innego, na przykład niż zgodnie z obecną wiedzą niemożliwy "trening inteligencji", skutki *zmian
-struktury Twojej pamięci*. Z nowym językiem trzeba się tylko zrosnąć.
+sama zagadka - nie ustępują*. *To* jest tu moim zdaniem największym i o wiele ważniejszym niż sama
+zagadka wyzwaniem. 
+
+Próby wykonania zadania, do wykonania którego nie jest się jeszcze gotowym, pewnie nie we
+*wszystkich* tego typu sytuacjach, ale w *trudnych do rozpoznania jako w ten sposób trudne*
+sytuacjach przypominają próby latania zanim wyrosną nam skrzydła. Gdybyś teraz na przykład wróciła
+do zadań, z którymi miałaś kontakt na początku tej książki, byłoby dla Ciebie jasne, że możesz je
+*łatwo* wykonać i to by było dla Ciebie jasne *zanim* zaczęłabyś je wykonywać. Moim zdaniem tego
+rodzaju moc bierze się w niewielkim stopniu stąd, że w międzyczasie wiele razy *wykonywałaś* te i
+inne podobne *zadania*, tylko przede wszystkim stąd, że wiele razy, *patrząc na nie z różnych
+stron*, wracałaś do takiego jakby "niezadaniowego", bo *spontanicznego* i *swobodnego myślenia* o
+strukturach i działaniach na strukturach, których te zadania *dotyczyły*. Podkreślam jeszcze raz: to
+są, bardziej niż cokolwiek innego, na przykład niż zgodnie z obecną wiedzą niemożliwy "trening
+inteligencji", skutki *zmian struktury Twojej pamięci*. Z nowym językiem trzeba się tylko zrosnąć.
 
 ```lean
 def concat (l1 l2 : List α) : List α :=
