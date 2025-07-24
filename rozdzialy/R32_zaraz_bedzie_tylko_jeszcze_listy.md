@@ -87,7 +87,7 @@ oczekiwanych zmian fizycznego stanu komputera. Ponieważ R jest dosyć zwyczajny
 imperatywnym, jego system typów jest zdecydowanie zbyt prymitywny, żeby można było z niego korzystać
 wygodnie do uprawiania na poważnie matematyki.
 
-Co jest w mojej ocenie intrygujące, gdy popatrzymy różnice między takim dajmy na to Leanem i R z
+Co jest w mojej ocenie intrygujące, gdy popatrzymy na różnice między takim dajmy na to Leanem i R z
 następującej strony: *Wnioskowanie statystyczne* to szczególna postać *dedukcji*. Gdybyśmy
 przeprowadzili wnioskowanie statystyczne z jakiś danych za pomocą Leana, wnioskom towarzyszyłby
 ostateczny dowód ich poprawności (jako wniosków statystycznych). Zamiast tego, do krojenia
