@@ -183,8 +183,8 @@ Ponieważ listy są tak ważne i ponieważ ta operacja jest taka podstawowa, Lea
 ```
 
 **Sugestia**: Spróbuj może, używając tego lukru, stworzyć jakąś krótką listę termów typu `String`?
-Jako drugi argument do `::` możesz podać również listę pustą. Wtedy będzie najkrócej, jak się da i
-Lean domyśli się, że skoro pierwszy argument ma typ `String`, to drugi jest listą pustą typu `List
+Jako drugi argument do `::` możesz podać również listę pustą. Wtedy będzie najkrócej jak się da i
+Lean się domyśli, że skoro pierwszy argument ma typ `String`, to drugi jest listą pustą typu `List
 String`.
 
 Lista elementów na przykład typu `Nat`, czyli term typu `List Nat`, to albo lista pusta `[]` (a pod
