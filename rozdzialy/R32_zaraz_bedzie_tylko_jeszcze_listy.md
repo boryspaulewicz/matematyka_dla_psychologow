@@ -530,7 +530,7 @@ podobne *zadania*, tylko stąd, że wiele razy, *patrząc na nie z różnych str
 jakby "niezadaniowego", bo *spontanicznego* i *swobodnego myślenia* o strukturach i działaniach na
 strukturach, których te zadania *dotyczą*. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek
 innego, na przykład niż zgodnie z obecną wiedzą niemożliwy "trening inteligencji", skutki *zmian
-struktury Twojej pamięci*. Z nowym językiem trzeba się *zrosnąć*.
+struktury Twojej pamięci*. Z nowym językiem trzeba się tylko zrosnąć.
 
 ```lean
 def concat (l1 l2 : List α) : List α :=
