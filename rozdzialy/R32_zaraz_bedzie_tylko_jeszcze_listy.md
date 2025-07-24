@@ -432,7 +432,7 @@ celu/sensu/treści/funkcji-jako-roli jest jak różnica między treścią komuni
 układem cząsteczek tuszu drukarskiego na kartce papieru. To pierwsze (sens) jest "w" tym drugim
 (fizycznie zapisanym na kartce tekście) *tylko* w naszych oczach (i dzięki naszemu sposobowi
 działania); bez naszego punktu widzenia i naszych intencji to są zupełnie inne, w *żaden* sposób nie
-związane własności. Bo każdy cel jest *czyimś* punktem widzenia czy raczej postawą.
+związane własności. Bo cel jest punktem widzenia czy raczej postawą *jakiejś* osoby.
 
 Ale ponieważ interesuje nas tylko to, co można z czym zrobić, albo jakie są konsekwencje zdarzeń dla
 naszych możliwości działania w fizycznym świecie, jest nam bardzo trudno zobaczyć, że te dwa wymiary
