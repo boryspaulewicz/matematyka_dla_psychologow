@@ -393,7 +393,7 @@ end przyklad
 
 <hr>
 
-Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista), możemy równie
+Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Lista) możemy równie
 dobrze zakodować za pomocą par stykających się "komórek", z których *pierwsza* zawiera jakąś
 *wartość*, a *druga* zawiera *strzałkę*, interpretowalną jako adres, do *innej pary
 komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
