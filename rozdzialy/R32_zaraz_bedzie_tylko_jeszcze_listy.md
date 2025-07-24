@@ -524,7 +524,7 @@ pewnie nie we *wszystkich* tego typu sytuacjach, ale w *trudnych do rozpoznania 
 trudne* sytuacjach przypominają próby latania zanim wyrosną nam skrzydła. Gdybyś teraz na przykład
 wróciła do zadań, z którymi miałaś kontakt na początku tej książki, byłoby dla Ciebie jasne, że
 możesz je *łatwo* wykonać i to by było dla Ciebie jasne *zanim* zaczęłabyś je wykonywać. Moim
-zdaniem tego rodzaju "moc" bierze się nie stąd, że w międzyczasie wiele razy *wykonywałaś* te i inne
+zdaniem tego rodzaju moc bierze się nie stąd, że w międzyczasie wiele razy *wykonywałaś* te i inne
 podobne *zadania*, tylko stąd, że wiele razy, *patrząc na nie z różnych stron*, wracałaś do takiego
 jakby "niezadaniowego", bo *spontanicznego* i *swobodnego myślenia* o strukturach i działaniach na
 strukturach, których te zadania dotyczą. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek
