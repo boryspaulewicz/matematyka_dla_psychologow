@@ -132,9 +132,9 @@ aplikacja funkcji `list` do trzech argumentów, z których pierwsze dwa to liczb
 to aplikacja funkcji `list` do liczb `3` i `4`.
 
 I wszystko byłoby fajnie i wszystko byłoby cacy i to . by . w za . sa . dzie . już . by . ło . na
-. ty. le, gdyby nie fakt, że wynik ewaluacji pierwszego wyrażenia, który to wynik jest w Lispie jest
+. ty. le, gdyby nie fakt, że wynik ewaluacji pierwszego wyrażenia, który to wynik jest w Lispie
 listą, a więc jest pewną *strukturą danych*, jest *zapisany tak samo*, to jest jako dwie
-zagnieżdżone sekwencje oddzielonych nawiasami okrągłymi elementów, jak fragment generującego te dane
+zagnieżdżone sekwencje oddzielonych okrągłymi nawiasami elementów, jak fragment generującego te dane
 *kodu*. Jest tak dlatego, że *kod napisany w dialekcie Lispa jest strukturą danych tego dialektu*, a
 mówiąc dokładniej, kod Lispa jest listą. Co znaczy, że w Lispie można (łatwo!) tworzyć *funkcje*,
 które przetwarzają *kod*. Nie funkcje, które przetwarzają *funkcje* (chociaż to też można robić)
