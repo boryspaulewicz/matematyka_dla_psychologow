@@ -232,8 +232,8 @@ rekurencyjnej:
    argumentu.
 
 2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
-   typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`. Parametryczny
-   typ indukcyjny `List` ma dwa konstruktory, które już poznałaś.
+   typu, czyli termów typu, którego term występuje zaraz po słowie kluczowym `match`. Akurat
+   parametryczny typ indukcyjny `List` ma dwa konstruktory, które już poznałaś.
    
 Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki "leniwy" sposób:
 
