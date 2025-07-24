@@ -238,7 +238,7 @@ rekurencyjnej:
 Jeżeli masz wątpliwości, czy dobrze rozumiesz, jak dokładnie działa funkcja `suma_elementow`, to
 przyjrzyj się może temu jako wskazówce:
 
-`suma [4, 2, 4] = 4 + (suma [2 4]) = 4 + (2 + suma [4])`  
+`suma [4, 2, 4] = 4 + (suma [2 4]) = 4 + (2 + (suma [4]))`  
 `               = 4 + (2 + (4 + (suma []))) = 4 + (2 + (4 + 0)) =`  
 `               = 4 + (2 + 4) = 4 + 6 = 10`
 
