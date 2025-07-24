@@ -495,11 +495,12 @@ dotąd przeżyć jako gatunek, czyli jak debile (i debilki).
 
 ## Konkatenacja list
 
-**Wyzwanie!**: Jeżeli Twoją pierwszą reakcją na napisane pismem pogrubionym słowo "wyzwanie", w
-dodatku z wykrzyknikiem, było coś w rodzaju "a dajże mi spokój", to *doskonale*. Słuchaj proszę tego
-wewnętrznego głosu; moim zdaniem On ostrzega "Cię" przed niebezpieczeństwem "wypalenia
-motywacyjnego". Jeżeli to było bardziej coś w rodzaju ekscytacji, to też *doskonale*, tylko *pod
-innym względem*. U kogoś, kto dotarł tak daleko, obojętność mogę spokojnie wykluczyć.
+**Wyzwanie!** Jeżeli Twoją pierwszą reakcją na napisane pismem pogrubionym słowo "wyzwanie", w
+dodatku z wykrzyknikiem, było coś w rodzaju "a daj mi spokój", to *doskonale*. Słuchaj proszę tego
+wewnętrznego głosu; moim zdaniem On Cię ostrzega przed niebezpieczeństwem "wypalenia
+motywacyjnego". Jeżeli to było bardziej coś w rodzaju choćby tylko umiarkowanej ekscytacji, to też
+*doskonale*, tylko *pod innym względem*. U kogoś, kto dotarł tak daleko, obojętność mogę spokojnie
+wykluczyć.
 
 Chemy mieć coś, co działa jak *sklejanie*:
 
