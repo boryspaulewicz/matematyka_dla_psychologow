@@ -535,7 +535,7 @@ struktury Twojej pamięci*. Z nowym językiem trzeba się *zrosnąć*.
 def concat (l1 l2 : List α) : List α :=
     match l1 with
     |[] => l2
-    -- Częściowe mise an place przez samo typowanie mówiąc do siebie:
+    -- Częściowe mise an place przez samo typowanie i mówiąc do siebie:
     -- 
     -- 1. rezultatem musi być lista, 2. funkcja `concat` pobiera dwa argumenty, 3. `x` to pierwszy
     -- element, 4. a `xs` to pozostała część listy `l1`.
