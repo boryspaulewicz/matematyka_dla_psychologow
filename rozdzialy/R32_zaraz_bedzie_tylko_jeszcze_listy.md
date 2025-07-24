@@ -400,8 +400,9 @@ komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne 
 że posługując się skończoną liczbą takich "wartościowo-strzałkowych" par komórek dałoby się,
 używając do tego tylko *zbiorów skończonych*, skonstruować *ciąg nieskończony*? Wystarczyłoby
 zdefiniować jakąkolwiek pętlę kierunkową i ta struktura reprezentowałaby wtedy sekwencję
-nieskończoną. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
-strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
+xnieskończoną. I skąd by się ta nieskończoność brała? Oczywiście (?), że ze strzałek, a właściwie ze
+*sposobu używania strzałek*. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem
+(albo drogą) strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
 reprezentowanie końca listy. Co znaczy dokładnie to samo co: interfejs funkcji działających na
 listach działa na tej komórce tak, jakby była listą pustą.
 
