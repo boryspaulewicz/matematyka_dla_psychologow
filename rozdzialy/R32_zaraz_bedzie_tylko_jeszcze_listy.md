@@ -340,9 +340,8 @@ def pn_iso (p : Pos) : Nat :=
   | Pos.succ o => Nat.succ (pn_iso o)
   
 -- ... za to, z powodu rekurencyjnej struktury obydwu typów danych, dowody izomorficzności nie są
--- takie oczywisty, bo mają wyrafinowaną strukturę funkcji rekurencyjnych. Mówiąc dokładniej, te
--- dowody korzystają z *zasady indukcji*, o której porozmawiamy kiedy indziej:
-
+-- takie oczywiste, bo mają wyrafinowaną strukturę funkcji rekurencyjnych. Mówiąc dokładniej, te
+-- dowody korzystają z *zasady indukcji*, o której porozmawiamy kiedy indziej.
 theorem pn_of_np : ∀ n : Nat, pn_iso (np_iso n) = n :=
   fun n => match n with
   | Nat.zero => rfl
