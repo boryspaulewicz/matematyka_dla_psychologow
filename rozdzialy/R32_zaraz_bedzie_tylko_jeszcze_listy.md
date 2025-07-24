@@ -217,9 +217,9 @@ dwóch wzorców (`match lista with`) 1. lista pusta, czyli pierwszy konstruktor 
 lukrem `[]`, a jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy *element* i *lista* pozostałych
 elementów, czyli lista pasująca do drugiego konstruktora list `List.cons <element> <lista>`, a z
 lukrem `pierwszy_element :: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy
-*element* do *wyniku zastosowania funkcji `suma_elementow`* (tutaj ta funkcja wywołuje rekurencyjnie
-samą siebie) do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie będę już tu (w
-nawiasie) kopiował.
+*element* do *wyniku zastosowania funkcji* `suma_elementow` (włąśnie w tym miejscu ta funkcja
+wywołuje rekurencyjnie samą siebie) do listy pozostałych elementów. Pozwolisz, że tego fragmentu
+kodu nie będę już tu (w nawiasie) kopiował.
 
 Zwracam uwagę na dwa warunki, które musi spełniać każda zwykła (można to obejść) definicja funkcji
 rekurencyjnej:
