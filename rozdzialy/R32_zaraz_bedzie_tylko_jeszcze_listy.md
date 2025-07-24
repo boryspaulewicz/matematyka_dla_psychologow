@@ -315,7 +315,7 @@ jest zapis w czystym języku funkcyjnym.
 docenić znaczenie interfejsu, rozważmy takie dwa, ściśle związane z wszelkimi sekwencjami
 skończonymi typy danych:
 
-```
+```lean
 -- Stworzenie przestrzeni nazw `przyklad` pozwala nam zdefiniować stałą `Nat`, bo tak naprawdę
 -- definiujemy wtedy stałą `przyklad.Nat`, która nie jest jeszcze "zajęta" (ciałem).
 namespace przyklad
