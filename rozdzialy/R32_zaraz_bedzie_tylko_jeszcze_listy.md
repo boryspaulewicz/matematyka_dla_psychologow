@@ -383,9 +383,10 @@ Logiczną strukturę [*listy jednokierunkowej*](https://pl.wikipedia.org/wiki/Li
 dobrze zakodować za pomocą par stykających się "komórek", z których *pierwsza* zawiera jakąś
 *wartość*, a *druga* zawiera *strzałkę*, interpretowalną jako adres, do *innej pary
 komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
-że posługując się skończoną liczbą par komórek ze strzałkami można dałoby się (posługując się tylko
-zbiorami skończonymi) skonstruować ciąg nieskończony? Wystarczyłoby zdefiniować jakąkolwiek pętlę
-kierunkową. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
+że posługując się skończoną liczbą takich "wartościowo-strzałkowych" par komórek dałoby się,
+posługując się tylko zbiorami *skończonymi*, skonstruować ciąg *nieskończony*? Wystarczyłoby
+zdefiniować jakąkolwiek pętlę kierunkową i ta struktura reprezentowałaby wtedy sekwencję
+nieskończoną. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
 strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
 reprezentowanie końca listy. Co znaczy dokładnie to samo co: interfejs funkcji działających na
 listach działa na tej komórce tak, jakby była listą pustą.
