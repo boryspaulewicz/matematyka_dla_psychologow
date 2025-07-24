@@ -353,11 +353,10 @@ theorem np_of_pn : ∀ p : Pos, np_iso (pn_iso p) = p :=
   | Pos.one => rfl
   | Pos.succ m => congrArg Pos.succ (np_of_pn m)
 
--- A zatem pn_of_np i np_of_pn to funkcje odwrotne. Nie napisałem `pn_iso (np_iso n) = id n` w
+-- A zatem `pn_of_np` i `np_of_pn` to funkcje odwrotne. Nie napisałem `pn_iso (np_iso n) = id n` w
 -- nadziei, że to wywoła pewne wątpliwości i pobudzi Cię do ponownego przemyślenia tematu.
 
 -- No więc definiując w ten piękny, rekurencyjny sposób dla tych typów danych *dodawanie* ...
-
 def Nat.add (m n : Nat) : Nat :=
   match m with
   | Nat.zero => n
