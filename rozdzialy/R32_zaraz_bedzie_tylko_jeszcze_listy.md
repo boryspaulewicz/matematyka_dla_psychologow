@@ -293,12 +293,12 @@ innej operacji łącznej można równie dobrze zapisać jako skończony ciąg el
 typu. Dni tygodnia są tego rodzaju sekwencją i tak też o nich myślimy, podobnie jak o sekundach,
 godzinach, miesiącach i latach. Droga z jakiegoś punktu `A` do jakiegoś punktu `B`, *niemal dowolnie
 rozumiana droga*, na przykład taka, która polega na przejściu się do sklepu mijając po drodze
-kolejne skrzyżowania ulic, albo która polega na przejściu od założeń przez kolejne kroki dowodu do
-wniosku, albo taka, która polega na przejściu od pierwszej liczby przez dodawanie kolejnych do
-ostatecznej sumy liczb od pierwszej do ostatniej, czyli kolejna sekwencja jako droga jako sekwencja
-*działań*, to pewna skończona sekwencja *elementów* tego samego typu. Pojęcie sekwencji jest niemal
-tak uniwersalne, proste, oczywiste i płytkie jak pojęcie elementu, i tak samo trudne do zobaczenia w
-inny sposób, a przez to, przynajmniej potencjalnie, otchłannie głębokie.
+kolejne skrzyżowania ulic, albo taka, która polega na przejściu od założeń przez kolejne kroki
+dowodu do wniosku, albo taka, która polega na przejściu od pierwszej liczby przez dodawanie
+kolejnych do ostatecznej sumy liczb od pierwszej do ostatniej, czyli kolejna sekwencja jako droga
+jako sekwencja *działań*, to pewna skończona sekwencja *elementów* tego samego typu. Pojęcie
+sekwencji jest niemal tak uniwersalne, proste, oczywiste i płytkie jak pojęcie elementu, i tak samo
+trudne do zobaczenia w inny sposób, a przez to, przynajmniej potencjalnie, otchłannie głębokie.
 
 No więc sekwencje skończone są *implementowane* w językach programowania na co najmniej *dwa*,
 fundamentalnie różnych sposoby. Pierwszy z nich odpowiada typowi list w Leanie: Skończony ciąg jest
