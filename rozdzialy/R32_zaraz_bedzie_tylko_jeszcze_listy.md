@@ -147,9 +147,10 @@ poczucie niemal nieznośnie swędzącej mocy. Jeżeli sprawnie władający Lispe
 zacząć korzystać na przykład z [paradygmatu programowania
 obiektowego](https://pl.wikipedia.org/wiki/Programowanie_obiektowe), ale używa implementacji Lispa,
 która mu nie dostarcza tego, czego sobie życzy, może *pisząc odpowiedni kod przerobić sam język* na
-taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją różne). Czy
-metaprogramowanie ma jakiś związek z inteligencją i celowością? Oczywiście, że tak. A jaki? Trudno
-tak w skrócie powiedzieć! Mogę natomiast już teraz w skrócie powiedzieć to: 
+taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją różne). 
+
+Czy metaprogramowanie ma jakiś związek z inteligencją i celowością? Oczywiście, że tak. A jaki?
+Trudno tak w skrócie powiedzieć! Mogę natomiast już teraz powiedzieć to:
 
 *Ta książka jest aktem wspólnego wieloprzedmiotowego metaprogramowania (siebie \{nawzajem\})*.
 
