@@ -280,11 +280,11 @@ Co jeszcze na początek ... A tak, poszczególne elementy list można wskazywać
 
 Być może pomyślałaś sobie, że typ list to takie wiele hałasu o nic. W końcu to tylko skończone
 sekwencje termów/elementów/obiektów tego samego typu, którym towarzyszy interfejs dostawiania
-elementu na czoło, wskazywania elementów (do *odczytu*), i inne tego rodzaju funkcjnalności. No i o
+elementu na czoło, wskazywania elementów (do *odczytu*), i inne tego rodzaju funkcjonalności. No i o
 co właściwie chodzi z tymi różnicami między implementacjami typu list w różnych językach?  Nawet,
 jeżeli tak pomyślałaś, co by mnie wcale nie zdziwiło, bo sam tak kiedyś wiele razy pomyślałem, to
 zgodzisz się chyba, że *ogólne pojęcie skończonej sekwencji elementów* jest dla nas, ludzi,
-fundamentalne. 
+fundamentalne.
 
 Skończone ciągi dowolnej długości, nazywane również n-tkami, występują niezwykle często w
 przeróżnych działach matematyki. Ten akapit jest pewnym skończonym ciągiem elementów tego samego
