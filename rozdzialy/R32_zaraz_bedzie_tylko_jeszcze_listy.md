@@ -151,7 +151,8 @@ taki, który wspiera programowanie obiektowe w pożądanym stylu (istnieją ró�
 metaprogramowanie ma jakiś związek z inteligencją i celowością? Oczywiście, że tak. A jaki? Trudno
 tak w skrócie powiedzieć! Mogę natomiast już teraz w skrócie powiedzieć to: 
 
-*Ta książka jest aktem wielopodmiotowego i wieloprzedmiotowego metaprogramowania*.
+*Ta książka jest aktem wspólnego, wielopodmiotowego i wieloprzedmiotowego metaprogramowania (siebie
+\{nawzajem\})*.
 
 [Zaskoczona](https://youtu.be/010KyIQjkTk?si=k5ZjpbKAhM98YcJZ)? A chociaż trochę?
 
