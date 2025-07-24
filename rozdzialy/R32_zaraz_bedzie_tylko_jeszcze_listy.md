@@ -506,7 +506,12 @@ frustrację* i *oddalając się od tej zagadki, gdy zaczniesz zauważać, że ni
 moim zdaniem największym i o wiele ważniejszym niż sama zagadka wyzwaniem. Próby wykonania zadania,
 do wykonania którego nie jest się jeszcze gotowym, pewnie nie we *wszystkich* tego typu sytuacjach,
 ale w *trudnych do rozpoznania jako w ten sposób trudne* sytuacjach przypominają próby latania zanim
-wyrosną nam skrzydła.
+wyrosną nam skrzydła. Gdybyś teraz na przykład wróciła do zadań, z którymi miałaś kontakt na
+początku tej książki, byłoby dla Ciebie jasne, że możesz je *łatwo* wykonać i to by było dla Ciebie
+jasne *zanim* zaczęłabyś je wykonywać. Moim zdaniem tego rodzaju "moc" bierze się nie stąd, że w
+międzyczasie wiele razy *wykonywałaś* te i inne podobne *zadania*, tylko stąd, że wiele razy,
+*patrząc na nie z różnych stron*, wracałaś do takiego jakby "niezadaniowego", bo *spontanicznego* i
+*swobodnego myślenia* o strukturach i działaniach na strukturach, których te zadania dotyczą.
 
 ```lean
 def concat (l1 l2 : List α) : List α :=
