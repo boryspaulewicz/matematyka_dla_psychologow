@@ -527,7 +527,7 @@ możesz je *łatwo* wykonać i to by było dla Ciebie jasne *zanim* zaczęłaby�
 zdaniem tego rodzaju moc bierze się nie stąd, że w międzyczasie wiele razy *wykonywałaś* te i inne
 podobne *zadania*, tylko stąd, że wiele razy, *patrząc na nie z różnych stron*, wracałaś do takiego
 jakby "niezadaniowego", bo *spontanicznego* i *swobodnego myślenia* o strukturach i działaniach na
-strukturach, których te zadania dotyczą. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek
+strukturach, których te zadania *dotyczą*. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek
 innego, na przykład niż zgodnie z obecną wiedzą niemożliwy "trening inteligencji", skutki *zmian
 struktury Twojej pamięci*. Z nowym językiem trzeba się *zrosnąć*.
 
