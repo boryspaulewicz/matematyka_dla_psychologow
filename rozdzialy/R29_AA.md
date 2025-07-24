@@ -394,9 +394,8 @@ Te strzałki są przeciwrównoległe, czyli składalne na oba możliwe sposoby. 
 z tych par, potencjalnie różnych produktów strzałek, te dwa potencjalnie różne produkty strzałek
 wyglądają tak samo, a w zasadzie *nie powinny*, bo ta wieloznaczność jest akurat pod pewnymi
 względami *problematyczna*. Ale ponieważ te strzałki *działają tak samo*, możemy z tej
-problematyczności czerpać coś w rodzaju perwersyjnej przyjemności (ości). Pozostaje nam już tylko
-trywialna (chociaż chyba nic nie jest trywialne, po dłuższym namyśle), również robiąca się sama
-końcówka:
+problematyczności czerpać coś w rodzaju perwersyjnej przyjemności. Pozostaje nam już tylko trywialna
+(chociaż chyba nic nie jest trywialne, po dłuższym namyśle), również robiąca się sama końcówka:
 
 Skoro `⟨f, g⟩ h = ⟨f h, g h⟩`, bo przecież `π₁ ⟨f, g⟩ h = f h` i analogicznie dla drugiej projekcji
 (`f`, `g` i `h` to tutaj niejawne *parametry* pewnego twierdzenia pomocniczego, zauważyłaś?), to
