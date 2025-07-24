@@ -486,12 +486,12 @@ Ten ostatni rodzaj sekwencji nazywamy *typem tablicowym*, a po angielsku zwykle 
 jak w językach R i C) *vector*. Za to listy jednokierunkowe *nie całkiem* odpowiadają typowi `List`
 w Leanie, bo ten nie korzysta ze *wskaźników*. Pomijając listy puste, listy w Leanie są złożone z
 par (oznaczonych arbitralnie etykietą `cons`) złożonych z elementu i *listy*, a nie wskaźnika do
-następnego elementu. Mamy więc co najmniej trzy, zachowujące się pod pewnymi względami podobnie, ale
-pod innymi nie, rodzaje ogólnie rozumianych struktur sekwencyjnych. Wiemy też, że takie struktury są
-dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie często używają ich do podobnych,
-a nierzadko takich samych celów. Pod tym względem od w jakiś sposób zaprogramowanych komputerów
-różnimy się głównie tym, że nie robimy tego niemal niezawodnie, tylko wystarczająco dobrze, żeby jak
-dotąd przeżyć jako gatunek, czyli jak debile (i debilki).
+następnego elementu. Mamy więc co najmniej *trzy*, zachowujące się pod pewnymi względami podobnie,
+ale pod innymi nie, rodzaje ogólnie rozumianych struktur sekwencyjnych. Wiemy też, że takie
+struktury są dla ludzi niezwykle ważne w najrozmaitszych kontekstach i że ludzie często używają ich
+do podobnych, a nierzadko takich samych celów. Pod tym względem od w jakiś sposób zaprogramowanych
+komputerów różnimy się głównie tym, że nie robimy tego niemal niezawodnie, tylko wystarczająco
+dobrze, żeby jak dotąd przeżyć jako gatunek, czyli jak debile (i debilki).
 
 ## Konkatenacja list
 
@@ -517,19 +517,19 @@ tak działające sklejanie to monoid, prawda? Jednostkę przecież ma, no i co b
 jakiekolwiek nawiasy?
 
 Wracając do wyzwania, spróbuj proszę zastąpić słowo `sorry` odpowiednim fragmentem kodu *uważając na
-frustrację* i *oddalając się od tej zagadki, gdy zaczniesz zauważać, że nie ustępuje*. *To* jest tu
-moim zdaniem największym i o wiele ważniejszym niż sama zagadka wyzwaniem. Próby wykonania zadania,
-do wykonania którego nie jest się jeszcze gotowym, pewnie nie we *wszystkich* tego typu sytuacjach,
-ale w *trudnych do rozpoznania jako w ten sposób trudne* sytuacjach przypominają próby latania zanim
-wyrosną nam skrzydła. Gdybyś teraz na przykład wróciła do zadań, z którymi miałaś kontakt na
-początku tej książki, byłoby dla Ciebie jasne, że możesz je *łatwo* wykonać i to by było dla Ciebie
-jasne *zanim* zaczęłabyś je wykonywać. Moim zdaniem tego rodzaju "moc" bierze się nie stąd, że w
-międzyczasie wiele razy *wykonywałaś* te i inne podobne *zadania*, tylko stąd, że wiele razy,
-*patrząc na nie z różnych stron*, wracałaś do takiego jakby "niezadaniowego", bo *spontanicznego* i
-*swobodnego myślenia* o strukturach i działaniach na strukturach, których te zadania
-dotyczą. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek innego, na przykład niż zgodnie z
-obecną wiedzą niemożliwy "trening inteligencji", skutki *zmian struktury Twojej pamięci*. Z nowym
-językiem trzeba się *zrosnąć*.
+frustrację* i *oddalając się od tej zagadki, gdy zaczniesz zauważać, że - zarówno furstracja jak i
+sama zagadka - nie ustępuje*. *To* jest tu moim zdaniem największym i o wiele ważniejszym niż sama
+zagadka wyzwaniem. Próby wykonania zadania, do wykonania którego nie jest się jeszcze gotowym,
+pewnie nie we *wszystkich* tego typu sytuacjach, ale w *trudnych do rozpoznania jako w ten sposób
+trudne* sytuacjach przypominają próby latania zanim wyrosną nam skrzydła. Gdybyś teraz na przykład
+wróciła do zadań, z którymi miałaś kontakt na początku tej książki, byłoby dla Ciebie jasne, że
+możesz je *łatwo* wykonać i to by było dla Ciebie jasne *zanim* zaczęłabyś je wykonywać. Moim
+zdaniem tego rodzaju "moc" bierze się nie stąd, że w międzyczasie wiele razy *wykonywałaś* te i inne
+podobne *zadania*, tylko stąd, że wiele razy, *patrząc na nie z różnych stron*, wracałaś do takiego
+jakby "niezadaniowego", bo *spontanicznego* i *swobodnego myślenia* o strukturach i działaniach na
+strukturach, których te zadania dotyczą. Podkreślam jeszcze raz: to są, bardziej niż cokolwiek
+innego, na przykład niż zgodnie z obecną wiedzą niemożliwy "trening inteligencji", skutki *zmian
+struktury Twojej pamięci*. Z nowym językiem trzeba się *zrosnąć*.
 
 ```lean
 def concat (l1 l2 : List α) : List α :=
