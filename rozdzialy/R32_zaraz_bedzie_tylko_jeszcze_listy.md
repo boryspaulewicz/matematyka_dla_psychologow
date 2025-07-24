@@ -398,7 +398,7 @@ dobrze zakodować za pomocą par stykających się "komórek", z których *pierw
 *wartość*, a *druga* zawiera *strzałkę*, interpretowalną jako adres, do *innej pary
 komórek*. Przyszło Ci do głowy, że te strzałki mogłyby wskazywać kolejne pary komórek w taki sposób,
 że posługując się skończoną liczbą takich "wartościowo-strzałkowych" par komórek dałoby się,
-posługując się tylko zbiorami *skończonymi*, skonstruować ciąg *nieskończony*? Wystarczyłoby
+używając do tego tylko *zbiorów skończonych*, skonstruować *ciąg nieskończony*? Wystarczyłoby
 zdefiniować jakąkolwiek pętlę kierunkową i ta struktura reprezentowałaby wtedy sekwencję
 nieskończoną. No więc wymagamy, żeby dla każdej listy dało się dojść, idąc tropem (albo drogą)
 strzałek, do specjalnej pojedynczej komórki "bezwartościowej", której rolą jest jedynie
