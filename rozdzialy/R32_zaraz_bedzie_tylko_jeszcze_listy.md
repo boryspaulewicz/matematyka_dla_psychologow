@@ -211,15 +211,23 @@ def suma (l : List Nat) :=
   | x :: xs => x + (suma xs)
 ```
 
-Pisałem już o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej
-powtórki wyjaśniam, że ciało tej funkcji **czytamy tak**: Dopasuj zmienną `lista` do jednego z dwóch
-wzorców (`match lista with`) 1. lista pusta, czyli pierwszy konstruktor list `List.nil`, a z lukrem
-`[]`, a jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy *element* i *lista* pozostałych
-elementów, czyli lista pasująca do drugiego konstruktora list `List.cons <element> <lista>`, a z
-lukrem `pierwszy_element :: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy
-*element* do *wyniku zastosowania funkcji* `suma_elementow` (właśnie w tym miejscu ta funkcja
-wywołuje rekurencyjnie samą siebie) do listy pozostałych elementów. Pozwolisz, że tego fragmentu
-kodu nie będę już tu (w nawiasie) kopiował.
+Jeżeli masz wątpliwości, czy dobrze rozumiesz, jak działa funkcja `suma_elementow`, to na początek
+przyjrzyj się może temu jako wskazówce:
+
+```
+suma [4, 2, 4] = 4 + (suma [2 4]) = 4 + (2 + (suma [4])) = 4 + (2 + (4 + (suma [])))
+               = 4 + (2 + (4 + 0)) = 4 + (2 + 4) = 4 + 6 = 10
+```
+
+Pisałem o strukturze takich funkcji, ale to było dawno, więc w ramach kolejnej odroczonej powtórki
+wyjaśniam, że ciało tej funkcji **czytamy tak**: Dopasuj zmienną `lista` do jednego z dwóch wzorców
+(`match lista with`) 1. lista pusta, czyli pierwszy konstruktor list `List.nil`, a z lukrem `[]`, a
+jeśli pasuje, zwróć `0` (`| [] => 0`) i 2. pierwszy *element* i *lista* pozostałych elementów, czyli
+lista pasująca do drugiego konstruktora list `List.cons <element> <lista>`, a z lukrem
+`pierwszy_element :: lista_pozostalych_elementow`, a jeśli pasuje, dodaj ten pierwszy *element* do
+*wyniku zastosowania funkcji* `suma_elementow` (właśnie w tym miejscu ta funkcja wywołuje
+rekurencyjnie samą siebie) do listy pozostałych elementów. Pozwolisz, że tego fragmentu kodu nie
+będę już tu (w nawiasie) kopiował.
 
 Zwracam uwagę na dwa warunki, które musi spełniać każda zwykła (można to obejść) definicja funkcji
 rekurencyjnej:
@@ -234,14 +242,6 @@ rekurencyjnej:
 2. W ciele funkcji musimy obsłużyć wszystkie możliwe sposoby konstruowania termów dopasowywanego
    typu, czyli tutaj termów typu, którego term występuje zaraz po słowie kluczowym `match`. Akurat
    parametryczny typ indukcyjny `List` ma dwa konstruktory, które już poznałaś.
-
-Jeżeli masz wątpliwości, czy dobrze rozumiesz, jak dokładnie działa funkcja `suma_elementow`, to
-przyjrzyj się może temu jako wskazówce:
-
-```
-suma [4, 2, 4] = 4 + (suma [2 4]) = 4 + (2 + (suma [4])) = 4 + (2 + (4 + (suma [])))
-               = 4 + (2 + (4 + 0)) = 4 + (2 + 4) = 4 + 6 = 10
-```
 
 Obsłużenie wszystkich metod konstrukcji można zagwarantować również w taki "leniwy" sposób:
 
