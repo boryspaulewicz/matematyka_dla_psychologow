@@ -361,7 +361,7 @@ A co powiesz na to?
 -- Tworzymy nową przestrzeń nazw, bo stała `Semigroup` jest już zdefiniowana w przestrzeni
 -- globalnej.
 namespace z_klas--ą
--- (bo nie możemy używać w nazwach polskich znaków diakrytycznych {inaczej "polskich ogonków" [fr]})
+-- (bo nie możemy używać w nazwach polskich znaków diakrytycznych {inaczej "polskich ogonków" \[fr\]})
 
 class Semigroup (α : Type u) extends Mul α where
   assoc : ∀ a b c : α, (a * b) * c = a * (b * c)
