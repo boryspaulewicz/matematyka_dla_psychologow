@@ -183,7 +183,7 @@ wzrostkowej na przykład `((a op b) op c)`, moglibyśmy spróbować to zrobić t
 ```lean
 variable (S : Semigroup α)
 
--- Ta liczba po dwukropku to *priorytet*. Nie warto się tym przejmować zanim nie przyjdzie taka
+-- Ta liczba po dwukropku to *priorytet*. Nie warto się tym przejmować zanim nie zajdzie taka
 -- potrzeba.
 infixl:65 " op " => S.op -- tutaj pojawia się błąd
 ```
