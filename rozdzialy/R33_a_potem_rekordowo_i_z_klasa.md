@@ -150,10 +150,12 @@ funkcji, bo ten język powstał przez wyabstrachowanie działania składania fun
 teoriomnogościowych, a z drugiej pozwala "uchwycić" funkcjonalność "w" strukturze (strzałek) ze
 względu na (matematyczną) funkcję (!) składania składalnych strzałek. Uff.
 
-Bawiąc się terminologią i znaczeniaimi próbuję Ci unaocznić między innymi to, że
-wieloperpsektywiczność i wieloznaczność to fundamentalne i potężne, ale też trudne w obsłudze
-narzędzia myślenia. Dlatego tak bardzo chcemy poznać różne postaci polimorfizmu (pun intended) i
-chcemy wiedzieć, jak dokładnie działają lub mogą działać.
+Bawiąc się terminologią, punktami widzenia i znaczeniami próbuję Ci (nomen omen) unaocznić między
+innymi to, że wieloperpsektywiczność i wieloznaczność to fundamentalne i potężne, ale też trudne w
+obsłudze, czasem wręcz przyprawiające o [zawrót
+głowy](https://youtu.be/PGNiXGX2nLU?si=iRBLIQjw40NBPFBl) narzędzia myślenia. Dlatego tak bardzo
+chcemy poznać różne postaci polimorfizmu (pun intended) i chcemy wiedzieć, jak dokładnie działają, a
+może nawet wykombinować, przyglądając się jasno opisanym przykładom, jak jeszcze mogłyby działać.
 
 W tym celu na początek (*teraz* jest początek?!) przypomnę naszą małą hierarchię algebr
 abstrakcyjnych, którą zakodowaliśmy korzystając z mechanizmu dziedziczenia struktur:
