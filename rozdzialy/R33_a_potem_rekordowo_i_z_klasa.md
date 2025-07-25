@@ -132,7 +132,7 @@ perspektywy (albo w tym znaczeniu!) matematyka stosowana polega bardzo często n
 korzystaniu z tego że - zachodzi jakiś rodzaj "dualnej wieloznaczności", to jest `f(x, y, z, ...) =
 g(u, v, w, ...)`, czyli *pewne dwa zapisy oznaczają to samo*. Bo przecież rozstrzyganie prawdziwości
 takich zdań ma charakter mechaniczny, bo może mieć, a ma charakter mechaniczny, ponieważ ma
-charakter syntaktyczny, bo może mieć, bo cała matematykę można zakodować w teorii typów.
+charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w teorii typów.
 
 Słowo znaczenie też jest wieloznaczne, w dodatku w sposób, który jest w tej książce bardzo ważny. Z
 jednej strony znaczenie to denotacja, na przykład gdy mówimy wskazując na jajko "to jajko",
