@@ -212,6 +212,8 @@ variable (a b c : α)
 -- niezawodności myślenia o takich zapisach lub za ich pomocą?
 ```
 
+TODO ograniczenia jednoznaczności
+
 ### Przypisy
 
 [^1]: Wiesz, że musiałem.
