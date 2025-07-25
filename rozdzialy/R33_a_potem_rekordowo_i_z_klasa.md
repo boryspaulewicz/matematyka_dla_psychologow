@@ -243,7 +243,7 @@ będziemy przyglądać się temu, *jak mówią matematycy*. I znowu wystarczy na
 fragmenty, które pojawiają się często na początku pierwszych rozdziałów, takie jak ten:
 
 *Niech `f : ℕ → ℤ` będzie inkluzją liczb naturalnych w zbiorze liczb całkowitych `f(n) = n`. Wtedy
-`f(m + n) = f(n) + f(m)`,*
+`f(m + n) = f(m) + f(n)`,*
 
 Zaczniemy od prerekwizytów. Napotykamy tutaj (ponownie?) słowo "inkluzja" i domyślamy się, że to
 każda funkcja z *podzbioru* (tutaj `ℕ`) do (niekoniecznie większego) zbioru zawierającego (tutaj
@@ -255,7 +255,7 @@ oczywisty sposób) liczbą całkowitą.
 Na końcu pojawia się coś, co mam wrażenie może wyglądać jednocześnie banalnie i dezorientująco, to
 jest stwierdzenie faktu *zachowywania operacji dodawania* przez funkcję `f`:
 
-`f(m + n) = f(n) + f(m)`
+`f(m + n) = f(m) + f(n)`
 
 Inne względnie adekwatne sposoby mówienia o takich zjawiskach to *respektowanie* albo *zgodność z*
 (tutaj "`f`-oznaczania" z dodawaniem) albo *przemienność*. Znanym Ci ważnym przykładem tego rodzaju
