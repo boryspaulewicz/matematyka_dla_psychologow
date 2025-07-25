@@ -80,7 +80,7 @@ reprezentacje są tym, czym są, dlatego, że *w pewien sposób używają ich* p
 No dobrze, spróbuję się ogarnąć i może tym razem ograniczę próby przekazania intonacji za pomocą
 pisma pochyłego.
 
-# Najpierw tylko rekordowo, ⬝⬝⬝ 
+# Najpierw tylko rekordowo, ...
 
 Skoro każdy [rododendron](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCanecznik) jest rośliną, a
 rośliny potrafią w normalnych warunkach pobierać energię ze światła, to rododendron potrafi jeść

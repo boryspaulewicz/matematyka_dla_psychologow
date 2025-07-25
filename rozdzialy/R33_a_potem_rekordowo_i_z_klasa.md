@@ -1,7 +1,7 @@
 <!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
-# ⬝⬝⬝ a potem rekordowo i z klasą
+# ... a potem rekordowo i z klasą
 
 Cytuję za Wikipedią (2025 07 25):
 
