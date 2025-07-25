@@ -332,10 +332,11 @@ półgrup. Niech istnieje w nas pewne pragnienie zapisania w Leanie zdania mówi
 posyłająca elementy półgrupy `S` w elementy półgrupy `R`, zachowuje strukturę półgrupy, czyli że
 jest [*homomorfizmem*](https://pl.wikipedia.org/wiki/Homomorfizm) (nie
 [*homeo*morfizmem](https://pl.wikipedia.org/wiki/Homeomorfizm)) *półgrup*, bo tak nazywamy posłanie
-elementów jednej algebry w elementy drugiej z zachowaniem struktury tej pierwszej algebry. Wtedy
-moglibyśmy próbować zaspokoić to pragnienie korzystając z takiej definicji ...
+elementów jednej algebry w elementy drugiej z zachowaniem struktury tej pierwszej. Wtedy moglibyśmy
+próbować zaspokoić to pragnienie korzystając z takiej definicji ...
 
 ```lean
+-- Strasznie długie to słowo.
 def Sg := Semigroup
 
 -- To jest parametryczna definicja wymagania bycia homomorfizmem półgrup w postaci zdania.
