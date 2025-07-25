@@ -23,7 +23,8 @@ fragmencie, "postać". Jak można się przekonać, ta funkcja jest polimorficzna
 (upierdliwy, prawda?) *sort* każdego z dwóch typów ...
 
 ```lean
-#check lewy_element -- `lewy_element.{u_1, u_2} {α : Type u_1} {β : Type u_2} (x : α × β) : α`
+#check lewy_element_dowolnej_pary 
+-- `lewy_element_dowolnej_pary.{u_1, u_2} {α : Type u_1} {β : Type u_2} (x : α × β) : α`
 ```
 
 ... ale tym aspektem nie będziemy się zajmować. Na wypadek, gdyby Ci się to jeszcze dobrze nie
@@ -35,7 +36,7 @@ niejawne. Tutaj domyślił się, że to mają być typy dowolnego sortu.
 Jak to działa (ilustracja)?
 
 ```lean
--- Jeśli pozwolisz, najpierw skrócę zapis.
+-- Pozwolisz, że najpierw skrócę zapis.
 def lw := lewy_element_dowolnej_pary
 
 def p : Nat × String := ⟨2, "trzy"⟩
@@ -235,12 +236,11 @@ variable (a b c : α)
 
 ## Jak to robią osoby zawodowcze
 
-Żeby przekonać się, czy zrobiliśmy jakieś postępy w formalizacji użytecznych mechanizmów
-wieloznaczności, będziemy się znowu przyglądać praktykom ludzi, których zawód polega na arbitralnie
-abstrakcyjnym, konsekwentnym i skutecznym myśleniu z dowolnych punktów widzenia na dowolny
-temat. Czyli znowu będziemy przyglądać się temu, *jak mówią matematycy*. I znowu wystarczy nam rzut
-oka na krótkie fragmenty, które pojawiają się często na początku pierwszych rozdziałów, takie jak
-ten:
+Żeby przekonać się, jakie zrobiliśmy postępy w formalizacji użytecznych mechanizmów wieloznaczności,
+będziemy się znowu przyglądać praktykom ludzi, których zawód polega na arbitralnie abstrakcyjnym,
+konsekwentnym i skutecznym myśleniu z dowolnych punktów widzenia na dowolny temat. Czyli znowu
+będziemy przyglądać się temu, *jak mówią matematycy*. I znowu wystarczy nam rzut oka na krótkie
+fragmenty, które pojawiają się często na początku pierwszych rozdziałów, takie jak ten:
 
 *Niech `f : ℕ → ℤ` będzie inkluzją liczb naturalnych w zbiorze liczb całkowitych `f(n) = n`. Wtedy
 `f(m + n) = f(n) + f(m)`,*
@@ -253,22 +253,29 @@ to są różne zbiory i typy, to tak naprawdę w pewien sposób *utorzsamialna* 
 oczywisty sposób) liczbą całkowitą.
 
 Na końcu pojawia się coś, co mam wrażenie może wyglądać jednocześnie banalnie i dezorientująco, to
-jest stwierdzenie faktu *zachowywania operacji dodawania przez funkcję `f`*:
+jest stwierdzenie faktu *zachowywania operacji dodawania* przez funkcję `f`:
 
 `f(m + n) = f(n) + f(m)`
 
 Inne względnie adekwatne sposoby mówienia o takich zjawiskach to *respektowanie* albo *zgodność z*
-(tutaj "`f`-oznaczania" z dodawaniem). Takie zjawiska staną się dla nas niebawem ważne, więc może
-dobrze będzie już teraz zacząć im się ostrożnie przyglądać.
+(tutaj "`f`-oznaczania" z dodawaniem) albo *przemienność*. Znanym Ci ważnym przykładem tego rodzaju
+funkcji jest mnożenie przez stałą, ponieważ mnożenie jest rozdzielne względem dodawania:
 
-Wygląda na to, że mamy dwie operacje: jednoargumentową `f` i dwuargumenetową `+`. Ale to nieprawda,
-bo dodawanie liczb naturalnych to jedno, a dodawanie liczb całkowitych, nawet jeśli jest bardzo
-blisko związane z tym pierwszym, to co innego. Czyli mamy *trzy* operacje, a nie dwie, zgadza się?
-Też nie.
+```
+f(m) := 2 * m
+
+f(m + n) = 2 * (m + n) = 2 * m + 2 * n = f(m) + f(n)
+```
+
+Takie zjawiska staną się dla nas niebawem ważne, więc może dobrze będzie już teraz zacząć im się
+ostrożnie przyglądać. Na pierwszy rzut oka wydaje się, że mamy tu dwie operacje: jednoargumentową
+`f` i dwuargumenetową `+`. Ale to nieprawda, bo dodawanie liczb naturalnych to jedno, a dodawanie
+liczb całkowitych, nawet jeśli jest blisko związane z tym pierwszym, to co innego. Czyli mamy *trzy*
+operacje, a nie dwie, zgadza się? Też nie.
 
 Dodawanie jest działaniem dwuargumentowym, a więc musimy albo skorzystać z curryingu, albo z
 produktu `ℕ × ℕ`. To "bardziej matematyka niż programowanie" (chociaż, jak wiesz, to jest to samo),
-więc skorzystamy z produktu:
+więc skorzystamy tym razem z produktu:
 
 ```
 ⟨m, n⟩ ↦    m + n     ↦  f(m + n)   =: X
@@ -279,8 +286,8 @@ X = Y
 ```
 
 (Ten sposób oznaczania *przemienności diagramu* \{przepraszam, ale na jakiś czas zostawię Cię na tym
-pochmurnym pikniku pod wiszącą zagadką\} wymyśliłem przed
-chwilą i jeszcze nie wiem, czy będę go stosował)  
+rozczarowującym pikniku pod wiszącą zagadką\} za pomocą definicji "w drugą stronę" \{`=:`\}
+wymyśliłem przed chwilą i jeszcze nie wiem, czy będę go stosował)
 
 Nie przypomina Ci to trochę "nieinteraktywnego przeplatania się oznaczania, produktowania i
 odwracania par" (ten sposób mówienia też wymyśliłem, dlatego wypada mi zawrzeć całość w cudzysłowie,
@@ -298,8 +305,27 @@ W obydwu przypadkach rozkład na procesy (albo funkcje, przekształcenia, morfiz
 odwzorowania, czy strzałki) składowe pozwala zobaczyć coś w rodzaju *zgodnego przeplatania się*
 różnego rodzaju procesów, prawda? No i trudno to zobaczyć bez wystarczająco daleko idącej
 formalizacji. No więc operowanie tego rodzaju zjawiskami staje się szybko wyraźnie bardziej
-uciążliwe i dezorientujące jeśli nie korzystamy z przeciążenia oznaczeń operacji, takiego jak
-zastosowane wyżej przeciążenie symbolu `+`.
+uciążliwe i dezorientujące gdy nie korzystamy z przeciążenia oznaczeń operacji, takiego jak
+zastosowane przeciążenie symbolu `+`. Co więcej, bez tego rodzaju wieloznaczności byłoby nam
+trudniej zauważyć to zgodne przeplatanie się, gdy to zjawisko polega na równości wyniku składania w
+różnych kolejnościach *analogicznych*, to jest w jaki sposób podobnych lub blisko związanych, ale
+niekoniecznie tych samych strzałek, takich jak dodawanie liczb naturalnych i podobne i blisko
+związane, ale będące jednak inną operacją dodawanie liczb całkowitych.
+
+Żeby wszystko (?) było jasne, powinienem chyba jeszcze podać przykład *negatywny* ...
+
+```
+⟨m, n⟩ ↦  m + n   ↦ (m + n)²
+
+⟨m, n⟩ ↦ ⟨m², n²⟩ ↦ m² + n²
+
+¬ (∀ m n ∈ ℕ, (m + n)² = m² + n²)
+```
+
+... i podkreślić zasadniczą różnicę między dwoma rozważanymi zgodnymi przeplotami: W pierwszym
+przypadku wyrażamy *warunek*, o którym *zakładamy*, że spełnia go bliżej nieokreślona funkcja `f`; w
+drugim przypadku *dowodzimy*, pokazując w jaki sposób działają na dowolnych parach różne złożenia
+pewnych funkcji, że przeplot jest zgodny.
 
 CDN
 
