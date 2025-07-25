@@ -157,8 +157,9 @@ głowy](https://youtu.be/PGNiXGX2nLU?si=iRBLIQjw40NBPFBl) narzędzia myślenia. 
 chcemy poznać różne postaci polimorfizmu (pun intended) i chcemy wiedzieć, jak dokładnie działają, a
 może nawet wykombinować, przyglądając się jasno opisanym przykładom, jak jeszcze mogłyby działać.
 
-W tym celu na początek (*teraz* jest początek?!) przypomnę naszą małą hierarchię algebr
-abstrakcyjnych, którą zakodowaliśmy korzystając z mechanizmu dziedziczenia struktur:
+W tym celu na początek (*teraz* jest początek?! \{ale o co chodzi? przecież początek jest
+*zawsze*\}) przypomnę naszą małą hierarchię algebr abstrakcyjnych, którą zakodowaliśmy korzystając z
+mechanizmu dziedziczenia struktur:
 
 ```lean
 structure Semigroup (α : Type u) where
