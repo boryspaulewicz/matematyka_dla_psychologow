@@ -129,10 +129,10 @@ jakby dualny odpowiednik "zwykłej" wieloznaczności, bo ta ostatnia dotyczy wie
 samego symbolu czy słowa, a więc wielości po *prawej* stronie relacji oznaczania, a ta "notacyjna"
 dotyczy wielości *o*znaczeń, a więc wielości po *lewej* stronie relacji oznaczania. Z tej
 perspektywy (albo w tym znaczeniu!) matematyka stosowana polega bardzo często na ustalaniu że, albo
-korzystaniu z tego że - zachodzi jakiś rodzaj "dualnej wieloznaczności", to jest `f(x, y, z, ...) =
-g(u, v, w, ...)`, czyli *pewne dwa zapisy oznaczają to samo*. Bo przecież rozstrzyganie prawdziwości
-takich zdań ma charakter mechaniczny, bo może mieć, a ma charakter mechaniczny, ponieważ ma
-charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w teorii typów.
+korzystaniu z tego że - zachodzi jakiś przypadek tej "dualnej wieloznaczności", to jest `f(x, y, z,
+...) = g(u, v, w, ...)`, czyli *pewne dwa zapisy oznaczają to samo*. Bo przecież rozstrzyganie
+prawdziwości takich zdań ma charakter mechaniczny, bo może mieć, a ma charakter mechaniczny,
+ponieważ ma charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w teorii typów.
 
 Słowo znaczenie też jest wieloznaczne, w dodatku w sposób, który jest w tej książce bardzo ważny. Z
 jednej strony znaczenie to denotacja, na przykład gdy mówimy wskazując na jajko "to jajko",
