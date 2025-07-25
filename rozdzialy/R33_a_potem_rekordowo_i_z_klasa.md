@@ -208,8 +208,8 @@ variable (a b c : α)
 #check S.op (S.op a b) c
 
 -- Czy widzisz, o ile łatwiejsza do "parsowania" jest pierwsza wersja? A czy przeczuwasz, jakie to
--- ma znaczenie dla łatwości i (nieosiągalnej, ale można przybliżać) niezawodności myślenia o takich
--- zapisach lub za ich pomocą?
+-- ma znaczenie dla łatwości i (nieosiągalnej, ale zawsze można próbować ją przybliżać)
+-- niezawodności myślenia o takich zapisach lub za ich pomocą?
 ```
 
 ### Przypisy
