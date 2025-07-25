@@ -363,11 +363,12 @@ A co powiesz na to?
 namespace z_klas--ą
 -- (bo nie możemy używać w nazwach polskich znaków diakrytycznych {inaczej "polskich ogonków" [fr]})
 
-class Semigroup (α : Type u) extends Mul α where
-  assoc : ∀ a b c : α, (a * b) * c = a * (b * c)
+class Semigroup (X : Type u) extends Mul X where
+  assoc : ∀ a b c : X, (a * b) * c = a * (b * c)
 
-def is_hom_sg_nice [Semigroup α] [Semigroup β] (f : α → β) :=
-  ∀ a b : α, f (a * b) = (f a) * (f b)
+variable [Semigroup X] [Semigroup Y]
+
+def is_hom_sg_nice (f : X → Y) := ∀ a b : X, f (a * b) = (f a) * (f b)
 
 end z_klas--ą
 ```
