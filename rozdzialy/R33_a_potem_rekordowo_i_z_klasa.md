@@ -189,19 +189,23 @@ opcję `quotPrecheck`. No to próbujemy znowu:
 
 ```lean
 set_option quotPrecheck false
-infixl:65 " + " => S.op
+infixl:65 " op " => S.op
 
--- Musimy mieć co dodawać, więc wprowadzamy hipotetyczne termy hipotetycznego typu `α`. Moglibyśmy
--- wprowadzić je aksjomatycznie, ale aksjomaty wydają się jakieś takie zobowiązujące, prawda?
-variable (a b : α)
+-- Musimy mieć co "dodawać", więc wprowadzamy hipotetyczne termy hipotetycznego typu `α`. Moglibyśmy
+-- wprowadzić je aksjomatycznie i nie byłoby żadnej różnicy, ale aksjomaty wydają się jakieś takie
+-- zobowiązujące, prawda?
+variable (a b c : α)
 
 -- Lean odgadł automatycznie, że `α` ma być jakimś typem dowolnego sortu, gdy symbol `α` pojawił się
 -- po stronie typu w deklaracji dotyczącej symbolu `S`. Od tego momentu, wszędzie tam, gdzie są do
--- czegoś używane, symbole `a` i `b` będą niejawnymi parametrami typu `α`, który też będzie
+-- czegoś używane, symbole `a`, `b` i `c` będą niejawnymi parametrami typu `α`, który też będzie
 -- niejawnym parametrem.
 
 -- Lean nie sygnalizuje błędu.
-#check a + b
+#check (a op b) op c
+
+-- Nadal możemy tak pisać, ale kto by tak teraz chciał?
+#check S.op (S.op a b) c
 ```
 
 ### Przypisy
