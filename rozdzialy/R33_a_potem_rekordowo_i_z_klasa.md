@@ -149,8 +149,8 @@ prawdziwości takich zdań ma charakter mechaniczny, bo może mieć, a ma charak
 ponieważ ma charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w języku teorii
 typów.
 
-Słowo znaczenie też jest wieloznaczne, w dodatku w sposób, który jest w tej książce bardzo ważny. Z
-jednej strony znaczenie to *denotacja*, na przykład gdy mówimy wskazując na jajko "to jajko",
+Słowo "znaczenie" też jest wieloznaczne, w dodatku w sposób, który jest w tej książce ważny. Z
+jednej strony znaczenie to *denotacja*, na przykład, gdy mówimy wskazując na jajko "to jajko",
 znaczeniem jest (tam) to jajko. Z drugiej strony, znaczenie to tak lub inaczej rozumiana *rola*, a z
 trzeciej znaczenie to *konsekwencje* wynikające z. W dodatku bawimy się tutaj bliskoznacznością
 *znaczenia* i *punktu widzenia* (na znaczenie znaczenia). No i znaczenie to także, a moim zdaniem
