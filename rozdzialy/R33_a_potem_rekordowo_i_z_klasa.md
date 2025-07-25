@@ -101,7 +101,8 @@ w postaci typów *zależnych*, takich jak typ uogólnionej identyczności, ...
 ... w których typ (tutaj `α`) może być zarówno (tutaj niejawnym) parametrem *funkcji* jak i
 parametrem *specyfikacji typu* (tutaj ostatniego argumentu i rezultatu aplikacji
 identyczności). Wychodzi więc na to, że "zależnotypowość" to ... polimorficzna polimorficzność. Ale
-z taką bardziej jadowitą i płodną wieloznacznością to wszystko nie ma za wiele wspólnego.
+z taką bardziej jadowitą i płodną wieloznacznością nawet polimorficzny polimorfizm zależnotypowości
+nie ma za wiele wspólnego.
 
 Z tego rodzaju polimorfizmu korzystałaś wielokrotnie i nie trzeba było dotąd szukać innych sposobów
 pisania funkcji, które mogą przyjmować argumenty różnych typów. A nie było takiej potrzeby dokładnie
@@ -170,8 +171,9 @@ Bawiąc się terminologią, punktami widzenia i znaczeniami próbuję Ci (nomen 
 innymi to, że wieloperpsektywiczność i wieloznaczność to fundamentalne i potężne, ale też trudne w
 obsłudze, czasem wręcz przyprawiające o [zawrót
 głowy](https://youtu.be/PGNiXGX2nLU?si=iRBLIQjw40NBPFBl) narzędzia myślenia. Dlatego tak bardzo
-chcemy poznać różne postaci polimorfizmu (pun intended) i chcemy wiedzieć, jak dokładnie działają, a
-może nawet wykombinować, przyglądając się jasno opisanym przykładom, jak jeszcze mogłyby działać.
+chcemy poznać różne postaci polimorfizmu (pun intended) i chcemy wiedzieć, jak dokładnie działają. I
+dzięki temu może nawet wykombinować, przyglądając się jasno opisanym przykładom, jak jeszcze mogłyby
+działać.
 
 W tym celu na początek (*teraz* jest początek?! \{ale o co chodzi? przecież początek jest
 *zawsze*\}) przypomnę naszą małą hierarchię algebr abstrakcyjnych, którą zakodowaliśmy korzystając z
