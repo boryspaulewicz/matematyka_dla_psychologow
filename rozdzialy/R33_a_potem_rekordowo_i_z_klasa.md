@@ -330,7 +330,7 @@ pewnych funkcji, że przeplot jest zgodny.
 Możemy już wrócić do prób wprowadzenia jednorodnej notacji wzrostkowej dla arbitralnych
 półgrup. Niech istnieje w nas pewne pragnienie zapisania w Leanie zdania mówiącego, że funkcja `f`,
 posyłająca elementy półgrupy `S` w elementy półgrupy `R`, zachowuje strukturę półgrupy, czyli że
-jest [*homomorfizmem*](https://pl.wikipedia.org/wiki/Homomorfizm)
+jest [*homomorfizmem*](https://pl.wikipedia.org/wiki/Homomorfizm) (nie
 [*homeo*morfizmem](https://pl.wikipedia.org/wiki/Homeomorfizm)) *półgrup*, bo tak nazywamy posłanie
 elementów jednej algebry w elementy drugiej z zachowaniem struktury tej pierwszej algebry. Wtedy
 moglibyśmy próbować zaspokoić to pragnienie korzystając z takiej definicji ...
