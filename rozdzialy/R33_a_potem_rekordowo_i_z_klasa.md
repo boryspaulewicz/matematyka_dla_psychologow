@@ -358,8 +358,8 @@ def is_hom_sg' (S : Sg α) (R : Sg β) (f : α → β) :=
 A co powiesz na to?
 
 ```lean
--- Tworzymy nową przestrzeń nazw, bo stała `Semigroup` jest już zdefiniowana w przestrzeni
--- globalnej.
+-- Tworzymy nową przestrzeń nazw, bo w przestrzeni globalnej stała `Semigroup` jest już
+-- zdefiniowana.
 namespace z_klas--ą
 -- (bo nie możemy używać w nazwach polskich znaków diakrytycznych {inaczej "polskich ogonków" [fr]})
 
