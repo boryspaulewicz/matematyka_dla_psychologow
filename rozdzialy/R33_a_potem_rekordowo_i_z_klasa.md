@@ -236,28 +236,30 @@ variable (a b c : α)
 ## Jak to robią osoby zawodowcze
 
 Żeby przekonać się, czy zrobiliśmy jakieś postępy w formalizacji użytecznych mechanizmów
-wieloznaczności będziemy się znowu przyglądać praktykom ludzi, których zawód polega na arbitralnie
+wieloznaczności, będziemy się znowu przyglądać praktykom ludzi, których zawód polega na arbitralnie
 abstrakcyjnym, konsekwentnym i skutecznym myśleniu z dowolnych punktów widzenia na dowolny
-temat. Czyli znowu będziemy się przyglądać temu, jak piszą matematycy. I znowu wystarczy nam rzut
-oka na fragmenty, które pojawiają się często na początku pierwszych rozdziałów, takie jak ten:
+temat. Czyli znowu będziemy przyglądać się temu, *jak mówią matematycy*. I znowu wystarczy nam rzut
+oka na krótkie fragmenty, które pojawiają się często na początku pierwszych rozdziałów, takie jak
+ten:
 
 *Niech `f : ℕ → ℤ` będzie inkluzją liczb naturalnych w zbiorze liczb całkowitych `f(n) = n`. Wtedy
 `f(m + n) = f(n) + f(m)`,*
 
-Zacznijmy od prerekwizytów dla zrozumienia. Napotykamy tutaj (ponownie?) słowo "inkluzja" i
-domyślamy się, że to każda funkcja z *podzbioru* (tutaj `ℕ`) do (niekoniecznie większego) zbioru
-zawierającego (tutaj `ℤ`), wyrażająca fakt bycia elementem nadzbioru dla każdego elementu
-podzbioru. Funkcja `f` wyraża więc albo ucieleśnia sobą to samo, co mówi stwierdzenie, że każda
-liczba naturalna jest (utorzsamialna z odpowiadającą jej w oczywisty sposób) liczbą całkowitą.
+Zaczniemy od prerekwizytów. Napotykamy tutaj (ponownie?) słowo "inkluzja" i domyślamy się, że to
+każda funkcja z *podzbioru* (tutaj `ℕ`) do (niekoniecznie większego) zbioru zawierającego (tutaj
+`ℤ`), wyrażająca fakt bycia elementem nadzbioru dla każdego elementu podzbioru. *Funkcja* `f` wyraża
+więc albo ucieleśnia sobą to samo, co mówi *stwierdzenie*, że każda liczba naturalna jest (ponieważ
+to są różne zbiory i typy, to tak naprawdę w pewien sposób *utorzsamialna* z odpowiadającą jej w
+oczywisty sposób) liczbą całkowitą.
 
-Na końcu pojawia się coś, co może wyglądać jednocześnie banalnie i dezorientująco, to jest
-stwierdzenie faktu *zachowywania operacji dodawania przez funkcję `f`*:
+Na końcu pojawia się coś, co mam wrażenie może wyglądać jednocześnie banalnie i dezorientująco, to
+jest stwierdzenie faktu *zachowywania operacji dodawania przez funkcję `f`*:
 
 `f(m + n) = f(n) + f(m)`
 
 Inne względnie adekwatne sposoby mówienia o takich zjawiskach to *respektowanie* albo *zgodność z*
-(tutaj oznaczania `f` z dodawaniem). Takie zjawiska staną się dla nas niebawem niezwykle ważne, więc
-może dobrze będzie już teraz zacząć im się ostrożnie przyglądać. 
+(tutaj "`f`-oznaczania" z dodawaniem). Takie zjawiska staną się dla nas niebawem ważne, więc może
+dobrze będzie już teraz zacząć im się ostrożnie przyglądać.
 
 Wygląda na to, że mamy dwie operacje: jednoargumentową `f` i dwuargumenetową `+`. Ale to nieprawda,
 bo dodawanie liczb naturalnych to jedno, a dodawanie liczb całkowitych, nawet jeśli jest bardzo
@@ -265,7 +267,7 @@ blisko związane z tym pierwszym, to co innego. Czyli mamy *trzy* operacje, a ni
 Też nie.
 
 Dodawanie jest działaniem dwuargumentowym, a więc musimy albo skorzystać z curryingu, albo z
-produktu `ℕ × ℕ`. To "bardziej matematyka niż programowanie" (chociaż jak wiesz, to jest to samo),
+produktu `ℕ × ℕ`. To "bardziej matematyka niż programowanie" (chociaż, jak wiesz, to jest to samo),
 więc skorzystamy z produktu:
 
 ```
@@ -276,8 +278,8 @@ więc skorzystamy z produktu:
 X = Y
 ```
 
-(Ten sposób oznaczania *przemienności diagramu* \{na jakiś czas zostawię Cię na tym rozkosznym
-pikniku pod wiszącą zagadką\} wymyśliłem przed
+(Ten sposób oznaczania *przemienności diagramu* \{przepraszam, ale na jakiś czas zostawię Cię na tym
+pochmurnym pikniku pod wiszącą zagadką\} wymyśliłem przed
 chwilą i jeszcze nie wiem, czy będę go stosował)  
 
 Nie przypomina Ci to trochę "nieinteraktywnego przeplatania się oznaczania, produktowania i
@@ -292,13 +294,12 @@ gdy wprowadzam go w nowym rozdziale), któremu przyglądliśmy się w jednym z p
 X = Y
 ```
 
-To oczywiście nie są te same przekształcenia, ale w obydwu przypadkach rozkład na procesy (=
-funkcje/przekształcenia/morfizmy/mapy/odwzorowania/strzałki) składowe pozwala zobaczyć coś w rodzaju
-*zgodnego przeplatania się* różnego rodzaju procesów, prawda? No i trudno to zobaczyć bez pełnej
-formalizacji, której tu niemal dokonaliśmy.
-
-Operowanie tego rodzaju zjawiskami staje się bardziej uciążliwe i dezorientujące jeśli nie
-korzystamy z przeciążenia oznaczeń operacji, takiego jak zastosowane wyżej przeciążenie symbolu `+`.
+W obydwu przypadkach rozkład na procesy (albo funkcje, przekształcenia, morfizmy, mapy,
+odwzorowania, czy strzałki) składowe pozwala zobaczyć coś w rodzaju *zgodnego przeplatania się*
+różnego rodzaju procesów, prawda? No i trudno to zobaczyć bez wystarczająco daleko idącej
+formalizacji. No więc operowanie tego rodzaju zjawiskami staje się szybko wyraźnie bardziej
+uciążliwe i dezorientujące jeśli nie korzystamy z przeciążenia oznaczeń operacji, takiego jak
+zastosowane wyżej przeciążenie symbolu `+`.
 
 CDN
 
