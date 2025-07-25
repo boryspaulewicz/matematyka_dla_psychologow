@@ -97,9 +97,10 @@ dlatego, że pisaliśmy funkcje polimorficzne, których *ciała "działały" tak
 czyli jednorodnie. Tak jak funkcja `lewy_element`, która stosuje będące funkcją pole o nazwie `fst`,
 w które to pole wyposażona jest każda para, niezależnie od typu pierwszego i typu drugiego elementu.
 
-Mogłem również napisać, mając na myśli funkcję `fst`, *która to funkcja działa dla termów każdego
-typu produktowego*, ponieważ różnica między *strukturą* (termów typów produktowych) i
-funkcjonalnością jako funkcyjnym interfejsem jest tutaj zatarta:
+Mogłem również, mając na myśli funkcję `fst`, zamiast *w które to pole wyposażona jest każda para*,
+napisać *która to funkcja działa dla termów każdego typu produktowego*, ponieważ różnica między
+*strukturą* (termów typów produktowych) i funkcjonalnością jako funkcyjnym interfejsem jest tutaj
+zatarta:
 
 ```lean
 def para : Nat × Nat := ⟨2, 1⟩
