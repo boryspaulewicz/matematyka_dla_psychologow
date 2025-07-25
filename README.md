@@ -362,7 +362,7 @@ Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 <hr>
 
 <a name="podziekowania"></a>
-### Podziękowania należą się między innymi
+### Dziękuję między innymi
 
 *Wymieniam tu z nazwiska tylko te osoby, które wyraziły na to zgodę*.
 
