@@ -327,6 +327,52 @@ przypadku wyrażamy *warunek*, o którym *zakładamy*, że spełnia go bliżej n
 drugim przypadku *dowodzimy*, pokazując w jaki sposób działają na dowolnych parach różne złożenia
 pewnych funkcji, że przeplot jest zgodny.
 
+Możemy już wrócić do prób wprowadzenia jednorodnej notacji wzrostkowej dla arbitralnych
+półgrup. Niech istnieje w nas pewne pragnienie zapisania w Leanie zdania mówiącego, że funkcja `f`,
+posyłająca elementy półgrupy `S` w elementy półgrupy `R`, zachowuje strukturę półgrupy, czyli że
+jest [*homomorfizmem*](https://pl.wikipedia.org/wiki/Homomorfizm)
+[*homeo*morfizmem](https://pl.wikipedia.org/wiki/Homeomorfizm)) *półgrup*, bo tak nazywamy posłanie
+elementów jednej algebry w elementy drugiej z zachowaniem struktury tej pierwszej algebry. Wtedy
+moglibyśmy próbować zaspokoić to pragnienie korzystając z takiej definicji ...
+
+```lean
+def Sg := Semigroup
+
+-- To jest parametryczna definicja wymagania bycia homomorfizmem półgrup w postaci zdania.
+def is_hom_sg (S : Sg α) (R : Sg β) (f : α → β) :=
+  ∀ a b : α, f (S.op a b) = R.op (f a) (f b)
+```
+
+... ale to by nie było szczególnie satysfakcjonujące, prawda? No to próbujemy skorzystać, tym razem
+*wewnątrz definicji*, z tego, na co pozwoliło nam zastosowanie makra `infixl` ...
+
+```lean
+-- ... i widzimy od razu dwa problemy. Po pierwsze, Lean skarży się, że niepotrzebnie nazwaliśmy
+-- pierwszy parametr, a przecież `op` użyte wzrostkowo ma odpowiadać `S.op` użytemu
+-- przedrostkowo. Po drugie, nasze robocze rozwiązanie nie działa dla `R.op`.
+def is_hom_sg' (S : Sg α) (R : Sg β) (f : α → β) :=
+  ∀ a b : α, f (a op b) = R.op (f a) (f b)
+```
+
+A co powiesz na to?
+
+```lean
+-- Tworzymy nową przestrzeń nazw, bo stała `Semigroup` jest już zdefiniowana w przestrzeni
+-- globalnej.
+namespace z_klas--ą
+-- (bo nie możemy używać w nazwach polskich znaków diakrytycznych {inaczej "polskich ogonków" [fr]})
+
+class Semigroup (α : Type u) extends Mul α where
+  assoc : ∀ a b c : α, (a * b) * c = a * (b * c)
+
+def is_hom_sg_nice [Semigroup α] [Semigroup β] (f : α → β) :=
+  ∀ a b : α, f (a * b) = (f a) * (f b)
+
+end z_klas--ą
+```
+
+## Co tu zaszło?
+
 CDN
 
 ### Przypisy
