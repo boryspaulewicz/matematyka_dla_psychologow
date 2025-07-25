@@ -48,7 +48,7 @@ def p : Nat × String := ⟨2, "trzy"⟩
 -->
 (fun (x : Prod α β) => x.fst) p
 
--- (po prawej jest skrót myślowy dotyczący sposobu używania w tej sytuacji przez Leana informacji o
+-- (po prawej jest skrót myślowy, dotyczący sposobu używania w tej sytuacji przez Leana informacji o
 -- typach) -->
 (fun (x : Prod α β) => x.fst) (p : Prod Nat String)
 
