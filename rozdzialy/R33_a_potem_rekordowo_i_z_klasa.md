@@ -345,7 +345,7 @@ def is_hom_sg (S : Sg α) (R : Sg β) (f : α → β) :=
 ```
 
 ... ale to by nie było szczególnie satysfakcjonujące, prawda? No to próbujemy skorzystać, tym razem
-*wewnątrz definicji*, z tego, na co pozwoliło nam zastosowanie makra `infixl` ...
+*wewnątrz definicji*, z tego, na co pozwoliło nam zastosowanie komendy `infixl` ...
 
 ```lean
 -- ... i widzimy od razu dwa problemy. Po pierwsze, Lean skarży się, że niepotrzebnie nazwaliśmy
