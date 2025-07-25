@@ -83,13 +83,25 @@ jednoznaczność, tyle, że jednoznaczność *metajęzykowa*. Na przykład, w de
 `lewy_element` parametr `x` oznacza albo pierwszy argument każdej aplikacji tej funkcji, albo, co na
 jedno wychodzi, pierwsze wejście, przy czym oba znaczenia są metajęzykowe, bo dotyczą *struktury
 wyrażeń*. A zmienna `x` w ciele oznacza *wartość pierwszego parametru*, co też jest charakterystyką
-metajęzykową.
+metajęzykową. 
 
 Do tej pory mówiłem często skrótowo, że parametry pełnią rolę zaimków, nie rozróżniając
 konsekwentnie i wyraźnie *parametrów jako miejsc* (w specyfikacji typu) od ich *nazw* i *wystąpień*
 tych nazw, bo rozróżnienie tych aspektów parametryczności nie było mi potrzebne. Teraz jednak
 związki między strukturą i działaniem kodu a strukturą i działaniem języka naturalnego zaczynają się
-robić na tyle skomplikowane, że poczułem taką potrzebę (i ją natychmiast zaspokoiłem).
+robić na tyle skomplikowane, że poczułem taką potrzebę (i ją natychmiast zaspokoiłem). 
+
+Byłbym zapomniał, że mamy jeszcze połączenie tych dwóch ostatnich rodzajów rzekomej wieloznaczności
+w postaci typów *zależnych*, takich jak typ uogólnionej identyczności, ...
+
+```lean
+#check id -- id.{u} {α : Sort u} (a : α) : α
+```
+
+... w których typ (tutaj `α`) może być zarówno (tutaj niejawnym) parametrem *funkcji* jak i
+parametrem *specyfikacji typu* (tutaj ostatniego argumentu i rezultatu aplikacji
+identyczności). Wychodzi więc na to, że "zależnotypowość" to ... polimorficzna polimorficzność. Ale
+z taką bardziej jadowitą i płodną wieloznacznością to wszystko nie ma za wiele wspólnego.
 
 Z tego rodzaju polimorfizmu korzystałaś wielokrotnie i nie trzeba było dotąd szukać innych sposobów
 pisania funkcji, które mogą przyjmować argumenty różnych typów. A nie było takiej potrzeby dokładnie
@@ -99,8 +111,8 @@ w które to pole wyposażona jest każda para, niezależnie od typu pierwszego i
 
 Mogłem również, mając na myśli funkcję `fst`, zamiast *w które to pole wyposażona jest każda para*,
 napisać *która to funkcja działa dla termów każdego typu produktowego*, ponieważ różnica między
-*strukturą* (termów typów produktowych) i funkcjonalnością jako funkcyjnym interfejsem jest tutaj
-zatarta:
+*strukturą* (termów typów produktowych) i *funkcjonalnością* jako funkcyjnym interfejsem jest tutaj
+*celowo zatarta*:
 
 ```lean
 def para : Nat × Nat := ⟨2, 1⟩
@@ -114,33 +126,35 @@ def para : Nat × Nat := ⟨2, 1⟩
 -- ... a oba fragmenty kodu różnią się tylko *notacją*.
 ```
 
-Można to nazwać wieloznacznością w tym znaczeniu, że *różne* sposoby *mówienia* czy *pisania* mają
-tutaj *to samo znaczenie*; nie w tym znaczeniu, że *ten sam zapis* ma *różne znaczenia*. Poza tym
-mechanizm "redukcji" jest w tym przypadku *metajęzykowy*; to nie jest funkcjonalność wbudowana w
-język teorii typów, tylko dostępne w Leanie udogodnienie dotyczące notacji. Jest to więc inny rodzaj
-wieloznaczności niż ten, który pojawia się na przykład w tym akapicie i dotyczy akurat
-"wieloznaczności"[^1].
+To zjawisko można nazwać wieloznacznością w tym znaczeniu, że *różne* sposoby *mówienia* czy
+*pisania* mają tutaj *to samo znaczenie*; nie w tym znaczeniu, że *ten sam zapis* ma *różne
+znaczenia*. Poza tym mechanizm "redukcji" jest w tym przypadku *metajęzykowy*; to nie jest
+funkcjonalność wbudowana w język teorii typów, tylko dostępne w Leanie udogodnienie dotyczące
+notacji. Jest to więc inny rodzaj wieloznaczności niż ten, który pojawia się na przykład w tym
+akapicie i dotyczy akurat ... "wieloznaczności"[^1].
 
-A z drugiej strony taki sam. Zresztą, dodatki do teorii typów, które są w Leanie, to z jednej strony
-dodatki, a z drugiej Lean to pewna *wersja* teorii typów, i przecież nie ma i nigdy nie będzie
-jedynej słusznej wersji tej teorii.
+A z drugiej strony taki sam (zawsze wszystko ma `n`-tą stronę, dla dowolnego `n`!). Zresztą, dodatki
+do teorii typów, które są w Leanie, to z jednej strony dodatki, a z drugiej Lean to przecieć pewna
+całkowicie sformalizowana, bo *zapisana jako kod* w jakiś językach programowania, *wersja* teorii
+typów, a żadnej jedynej słusznej wersji teorii typów nie ma i nigdy nie będzie.
 
 O wieloznaczności widocznej w ostatnim fragmencie kodu można by niemal powiedzieć, że to jest taki
-jakby dualny odpowiednik "zwykłej" wieloznaczności, bo ta ostatnia dotyczy wielości znaczeń tego
-samego symbolu czy słowa, a więc wielości po *prawej* stronie relacji oznaczania, a ta "notacyjna"
-dotyczy wielości *o*znaczeń, a więc wielości po *lewej* stronie relacji oznaczania. Z tej
-perspektywy (albo w tym znaczeniu!) matematyka stosowana polega bardzo często na ustalaniu że, albo
-korzystaniu z tego że - zachodzi jakiś przypadek tej "dualnej wieloznaczności", to jest `f(x, y, z,
-...) = g(u, v, w, ...)`, czyli *pewne dwa zapisy oznaczają to samo*. Bo przecież rozstrzyganie
+"dualny" odpowiednik "zwykłej" wieloznaczności, bo ta "zwykła" dotyczy wielości znaczeń tego samego
+symbolu, słowa, czy wyrażenia, a więc wielości po *prawej* stronie relacji oznaczania, a ta
+"notacyjna" dotyczy wielości *o*znaczeń, a więc wielości po *lewej* stronie relacji oznaczania. Z
+tej perspektywy (albo w tym znaczeniu!) matematyka stosowana polega bardzo często na ustalaniu że,
+albo korzystaniu z tego że - zachodzi jakiś przypadek tej "dualnej" wieloznaczności, to jest `f(x,
+y, z, ...) = g(u, v, w, ...)`, czyli *pewne dwa zapisy oznaczają to samo*. Bo przecież rozstrzyganie
 prawdziwości takich zdań ma charakter mechaniczny, bo może mieć, a ma charakter mechaniczny,
-ponieważ ma charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w teorii typów.
+ponieważ ma charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w języku teorii
+typów.
 
 Słowo znaczenie też jest wieloznaczne, w dodatku w sposób, który jest w tej książce bardzo ważny. Z
-jednej strony znaczenie to denotacja, na przykład gdy mówimy wskazując na jajko "to jajko",
-znaczeniem jest (tam) to jajko. Z drugiej strony, znaczenie to tak lub inaczej rozumiana rola, a z
-trzeciej znaczenie to konsekwencje wynikające z. W dodatku bawimy się tutaj bliskoznacznością
+jednej strony znaczenie to *denotacja*, na przykład gdy mówimy wskazując na jajko "to jajko",
+znaczeniem jest (tam) to jajko. Z drugiej strony, znaczenie to tak lub inaczej rozumiana *rola*, a z
+trzeciej znaczenie to *konsekwencje* wynikające z. W dodatku bawimy się tutaj bliskoznacznością
 *znaczenia* i *punktu widzenia* (na znaczenie znaczenia). No i znaczenie to także, a moim zdaniem
-[par excellence](https://pl.wikipedia.org/wiki/Par_excellence), *sposób użycia*.
+[par excellence](https://pl.wikipedia.org/wiki/Par_excellence)[^2], *sposób użycia*.
 
 A w tej książce mam często problem ze słowem "funkcja". Funkcja jako przyporządkowanie lub metoda
 przyporządkowania lub własność to jedno, a funkcja jako rola (na przykład, psychologowie mówią
@@ -222,3 +236,6 @@ TODO ograniczenia jednoznaczności
 ### Przypisy
 
 [^1]: Wiesz, że musiałem.
+
+[^2]: Zarówno w znaczeniu *przede wszystkim* jak i *w sposób doskonały*, o czym będziemy mówić
+    znacznie później.
