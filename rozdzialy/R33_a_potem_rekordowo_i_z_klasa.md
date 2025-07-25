@@ -138,7 +138,8 @@ Słowo znaczenie też jest wieloznaczne, w dodatku w sposób, który jest w tej 
 jednej strony znaczenie to denotacja, na przykład gdy mówimy wskazując na jajko "to jajko",
 znaczeniem jest (tam) to jajko. Z drugiej strony, znaczenie to tak lub inaczej rozumiana rola, a z
 trzeciej znaczenie to konsekwencje wynikające z. W dodatku bawimy się tutaj bliskoznacznością
-*znaczenia* i *punktu widzenia* (na znaczenie znaczenia). No i znaczenie to także sposób użycia.
+*znaczenia* i *punktu widzenia* (na znaczenie znaczenia). No i znaczenie to także, a moim zdaniem
+[par excellence](https://pl.wikipedia.org/wiki/Par_excellence), *sposób użycia*.
 
 A w tej książce mam często problem ze słowem "funkcja". Funkcja jako przyporządkowanie lub metoda
 przyporządkowania lub własność to jedno, a funkcja jako rola (na przykład, psychologowie mówią
