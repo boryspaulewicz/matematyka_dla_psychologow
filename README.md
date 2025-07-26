@@ -341,7 +341,7 @@ ze względu na co to coś, co jest rzekomo ważne, jest rzekomo ważne?*
 *Kolejny festiwal namolnego pocieszania i miękiszoństwa*
 
 [R28 Rachunek predykatów w zadaniach](./rozdzialy/R28_Rachunek_predykatow_w_zadaniach.md)  
-*I jeszcze jeden, w dodatku to namolne pocieszanie łączy się, jak w jakimś horrorze o jakimś
+*I jeszcze jeden. W dodatku to namolne pocieszanie łączy się, jak w jakimś horrorze o jakimś
 psychopacie, z nachalnym utrudnianiem*
 
 [R29 AA](./rozdzialy/R29_AA.md)  
