@@ -572,7 +572,7 @@ Dowód twierdzenia `one_u_neat` sformatowałem w ten nowy sposób, bo wydał mi 
 czytelny. Skonstruowałem go tak a nie inaczej, żeby ułatwić czytanie dowodu ze zrozumieniem poprzez
 interakcję z Leanem. Na przykład, domyślenie się, jakim zdaniem jest aplikacja `h1 1` nie jest
 szczególnie trudne, ale można skorzystać z kontekstu, żeby to zdanie mieć cały czas przed oczami i
-poczuć dzięki temu kojącą prostotę tego kroku dowodu.
+poczuć dzięki temu kojącą prostotę tego kroku.
 
 Odwrócenie równania za pomocą `Eq.symm` też nie jest skomplikowanym przekształceniem, ale trzeba
 wiedzieć, że potrzebne równanie nosi nazwę `Monoid.one_mul`. Tworzenie hipotezy pomocniczej `h4`
@@ -580,7 +580,7 @@ pozwala łatwo rozwiązać ten problem pisząc tylko `Monoid.`, naciskając Tab 
 (hipotetycznego) dowodu równania na liście kontynuacji.
 
 Hipotez pomocniczych `h2`-`h4` nie stworzyłem na początku, tylko później, na podstawie tego, czego w
-jakimś momencie, gdy byłem "niżej" w konstrukcji dowodu, domagał się Lean.
+pewnym momencie, gdy byłem "niżej" w konstrukcji dowodu, domagał się Lean.
 
 Podobnie, możemy konstruktywnie udowodnić w ten sposób twierdzenie, że istnieje element neutralny
 monoidu, chociaż nie ma jeszcze żadnego monoidu. To jest możliwe, ponieważ parametrem tego
