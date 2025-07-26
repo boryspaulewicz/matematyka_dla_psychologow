@@ -471,7 +471,7 @@ class Zloz (α : Type u) where
 -- Składowa funkcja `zloz` (zauważyłaś od razu występującą tu wieloznaczność słowa "składowa"? {bo
 -- mi to trochę zajęło}), która ma działać dla każdego typu `α`, tak jak *każde* pole tej klasy,
 -- "domaga się" (w nawiasach *kwadratowych*) implementacji klasy `Zloz α`. Zapisany w nawiasach
--- kwadratowych parametr, tutaj `self : Zloz α`, jest *niejawny* i traktowany przez Leana w
+-- kwadratowych parametr, tutaj `self : Zloz α`, jest zarazem *niejawny* i traktowany przez Leana w
 -- specjalny sposób.
 #check Zloz.zloz -- Zloz.zloz.{u} {α : Type u} [self : Zloz α] (a b : α) : α
 
