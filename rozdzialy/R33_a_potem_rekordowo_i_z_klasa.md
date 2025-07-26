@@ -410,8 +410,8 @@ def f' (h : (α = Nat) ∨ (α = String)) (a b : α) : α :=
 example : Nat = Nat := rfl
 ```
 
-Typy służą tylko do sprawdzania poprawności syntaktycznej. Klasy i ich instancje pozwalają obejść to
-ograniczenie, ponieważ implementują polimorfizm *ad-hoc*, który pozwala (cytuję za
+Typy służą tylko do sprawdzania poprawności syntaktycznej. Klasy i ich instancje umożliwiają
+obejście tego ograniczenia, ponieważ implementują polimorfizm *ad-hoc*, który pozwala (cytuję za
 [Wikipedią](https://pl.wikipedia.org/wiki/Polimorfizm_(informatyka)#Polimorfizm_ad-hoc), 2025 07 27)
 ...
 
