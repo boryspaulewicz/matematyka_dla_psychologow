@@ -251,7 +251,7 @@ Zaczniemy od prerekwizytów. Napotykamy tutaj (ponownie?) słowo "inkluzja" i do
 każda funkcja z *podzbioru* (tutaj `ℕ`) do (niekoniecznie większego) zbioru zawierającego (tutaj
 `ℤ`), wyrażająca fakt bycia elementem nadzbioru dla każdego elementu podzbioru. *Funkcja* `f` wyraża
 więc albo ucieleśnia sobą to samo, co mówi *stwierdzenie*, że każda liczba naturalna jest (ponieważ
-to są różne zbiory i typy, to tak naprawdę w pewien sposób *utorzsamialna* z odpowiadającą jej w
+to są różne zbiory i typy, to tak naprawdę w pewien sposób *utożsamialna* z odpowiadającą jej w
 oczywisty sposób) liczbą całkowitą.
 
 Na końcu pojawia się coś, co mam wrażenie może wyglądać jednocześnie banalnie i dezorientująco, to
@@ -260,8 +260,9 @@ jest stwierdzenie faktu *zachowywania operacji dodawania* przez funkcję `f`:
 `f(m + n) = f(m) + f(n)`
 
 Inne względnie adekwatne sposoby mówienia o takich zjawiskach to *respektowanie* albo *zgodność z*
-(tutaj "`f`-oznaczania" z dodawaniem) albo *przemienność*. Znanym Ci ważnym przykładem tego rodzaju
-funkcji jest mnożenie przez stałą, ponieważ mnożenie jest rozdzielne względem dodawania:
+(tutaj "`f`-oznaczania" z dodawaniem), albo nawet *przemienność* czy *komutatywność* (bo o
+diagramach mówimy też, że *komutują*). Znanym Ci ważnym przykładem tego rodzaju funkcji jest
+mnożenie przez stałą, ponieważ mnożenie jest rozdzielne względem dodawania:
 
 ```
 f(m) := 2 * m
