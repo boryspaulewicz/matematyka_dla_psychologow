@@ -420,25 +420,25 @@ obejście tego ograniczenia, ponieważ implementują polimorfizm *ad-hoc*, któr
 > pozostawić systemowi (kompilatorowi, systemowi czasu wykonania). Najczęściej chodzi tu o wybór
 > algorytmu odpowiedniego do typów danych.
 
-Klasy są znanymi Ci już typami rekordowymi, ale traktowanymi przez Lean w specjalny sposób, a
+Klasy są znanymi Ci już typami rekordowymi, ale traktowanymi przez Leana w specjalny sposób, a
 instancje klas to traktowane w specjalny sposób termy typów rekordowych. Klasy są wirtualnymi
 interfejsami, a instancje są implementacjami tych interfejsów, czym akurat nie różnią się od typów
 rekordowych i termów typów rekordowych. Tym, co sprawia, że klasy i instancje są mechanizmem
-obsługującym *wieloznaczność*, jest proces *syntetyzowania* instancji, który jest procesem
-znajdywania lub tworzenia z kilku znalezionych instancji takiej instancji, która pasuje do
-kontekstu. 
+obsługującym *wieloznaczność*, jest *proces syntetyzowania* instancji, który polega na znajdywaniu
+lub tworzeniu z odpowiednio powiązanych instancji takiej instancji (być może syntetycznej, to jest
+skonstruowanej przez Leana), która pasuje do kontekstu.
 
-Bo na czym innym miałby ten proces polegać? W końcu użyteczna wieloznaczność polega dokładnie na
-tym, że można *się* domyślić, a więc wyszukać lub skonstruować na podstawie wiedzy, znaczenia
-pewnego sposobu mówienia, który ma więcej niż jedno znaczenie. Na przykład, gdy mówimy, że zepsuł
-nam się zamek i nie możemy wejść do domu, od razu wiadomo, że prawie na pewno chodzi o zamek w
-drzwiach, a nie o zamek w spodniach. Zwracam przy okazji uwagę na wrażenie, które, przynajmniej we
-mnie, wywołuje ...
+A na czym innym miałby ten proces polegać? Użyteczna wieloznaczność polega przecież dokładnie na
+tym, że można *się domyślić* (przeszukiwanie i ewentualna synteza) znaczenia (instancji) pewnego
+sposobu mówienia (interfejs językowy), który ma więcej niż jedno znaczenie. Na przykład, gdy mówimy,
+że zepsuł nam się zamek i nie możemy wejść do domu, od razu wiadomo, że prawie na pewno chodzi o
+zamek w drzwiach, a nie o zamek w spodniach. Zwracam przy okazji uwagę na wrażenie, które,
+przynajmniej we mnie, wywołuje:
 
 *zamek w drzwiach lub zamek w spodniach* 
 
-Czytając to mam wrażenie, jakby mi migotały dwa sposoby użycia słowa; jeden to użycie słowa "zamek"
-jako nazwy czegoś *pozajęzykowego*, ...
+Jakby nam (?) migotały dwa sposoby użycia słowa, prawda? Jeden to użycie słowa "zamek" jako nazwy
+czegoś *pozajęzykowego*, ...
 
 *zamek* (który jest) *w drzwiach lub w spodniach*
 
@@ -447,8 +447,9 @@ jako nazwy czegoś *pozajęzykowego*, ...
 (słowo) *zamek* (rozumiane jako coś, co może być) *w drzwiach i* (słowo) *zamek* (rozumiane jako
 coś, co może być) *w spodniach*. 
 
-Użycie metajęzykowe wygrywa, bo jest spójne z naszą wiedzą, ale myśląc o tym wyrażeniu nie mogę
-mentalnie całkiem wyhamować użycia niemetajęzykowego i czasem mi delikatnie miga.
+Użycie metajęzykowe wygrywa, bo jest spójne z naszą wiedzą, ale myśląc o tym wyrażeniu nie mogę (czy
+może nie może*my*?) mentalnie całkiem wyhamować użycia niemetajęzykowego i czasem mi nieznacznie
+migoce.
 
 TODO Tu będzie o klasie Sklad
 
