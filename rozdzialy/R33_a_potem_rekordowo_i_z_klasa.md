@@ -543,7 +543,7 @@ hipotetyczne, ponieważ w historii tego świata nie pojawiła się jeszcze żadn
 znaczenia.
 
 Dziedziczenie z klasy `One` daje interfejs w postaci hipotetycznego elementu wyróżnionego o nazwie
-`one`, który możemy oznaczać za pomoccą symbolu `1`.
+`one`, który możemy oznaczać za pomocą symbolu `1`.
 
 Ponieważ działanie nazywa się teraz `mul`, zmieniłem odpowiednio nazwy własności bycia jednostką na
 `one_mul` i `mul_one`.
