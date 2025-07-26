@@ -92,8 +92,8 @@ tych nazw, bo rozróżnienie tych aspektów parametryczności nie było mi potrz
 związki między strukturą i działaniem kodu a strukturą i działaniem języka naturalnego zaczynają się
 robić na tyle skomplikowane, że poczułem taką potrzebę (i ją natychmiast zaspokoiłem). 
 
-Byłbym zapomniał, że mamy jeszcze połączenie tych dwóch ostatnich rodzajów rzekomej wieloznaczności
-w postaci typów *zależnych*, takich jak typ uogólnionej identyczności, ...
+Byłbym zapomniał dodać, że mamy przecież jeszcze *połączenie* tych dwóch ostatnich rodzajów rzekomej
+wieloznaczności w postaci typów *zależnych*, takich jak typ uogólnionej identyczności, ...
 
 ```lean
 #check id -- id.{u} {α : Sort u} (a : α) : α
@@ -101,20 +101,21 @@ w postaci typów *zależnych*, takich jak typ uogólnionej identyczności, ...
 
 ... w których typ (tutaj `α`) może być zarówno (tutaj niejawnym) parametrem *funkcji* jak i
 parametrem *specyfikacji typu* (tutaj ostatniego argumentu i rezultatu aplikacji
-identyczności). Wychodzi więc na to, że "zależnotypowość" to ... polimorficzna polimorficzność. Ale
-z taką bardziej jadowitą i płodną wieloznacznością nawet polimorficzny polimorfizm zależnotypowości
-nie ma za wiele wspólnego.
+identyczności). Wychodzi więc na to, że "zależnotypowość" to coś w rodzaju polimorficznej
+polimorficzności. Ale z taką bardziej jadowitą i płodną wieloznacznością nawet polimorficzny
+polimorfizm zależnotypowości nie ma za wiele wspólnego.
 
-Z tego rodzaju polimorfizmu korzystałaś wielokrotnie i nie trzeba było dotąd szukać innych sposobów
-pisania funkcji, które mogą przyjmować argumenty różnych typów. A nie było takiej potrzeby dokładnie
-dlatego, że pisaliśmy funkcje polimorficzne, których *ciała "działały" tak samo dla każdego typu*,
-czyli jednorodnie. Tak jak funkcja `lewy_element`, która stosuje będące funkcją pole o nazwie `fst`,
-w które to pole wyposażona jest każda para, niezależnie od typu pierwszego i typu drugiego elementu.
+Z tego rodzaju polimorfizmu korzystaliśmy już wielokrotnie i nie trzeba było dotąd szukać innych
+sposobów pisania funkcji, które mogą przyjmować argumenty różnych typów. A nie było takiej potrzeby
+dokładnie dlatego, że pisaliśmy funkcje polimorficzne, których *ciała "działały" tak samo dla
+każdego typu*, czyli jednorodnie. Tak jak funkcja `lewy_element_dowolnej_pary`, która dla termów
+każdego pasującego typu robi to samo, to jest stosuje będące funkcją pole o nazwie `fst`, w które to
+pole wyposażona jest każda para, niezależnie od typu pierwszego i typu drugiego elementu.
 
-Mogłem również, mając na myśli funkcję `fst`, zamiast *w które to pole wyposażona jest każda para*,
-napisać *która to funkcja działa dla termów każdego typu produktowego*, ponieważ różnica między
-*strukturą* (termów typów produktowych) i *funkcjonalnością* jako funkcyjnym interfejsem jest tutaj
-*celowo zatarta*:
+Przy okazji: Mogłem również, mając na myśli funkcję `fst`, zamiast *w które to pole wyposażona jest
+każda para*, napisać *która to funkcja działa dla termów każdego typu produktowego*, ponieważ
+różnica między *strukturą* (termów typów produktowych) i *funkcjonalnością* jako funkcyjnym
+interfejsem jest tutaj *celowo zatarta*:
 
 ```lean
 def para : Nat × Nat := ⟨2, 1⟩
@@ -125,28 +126,28 @@ def para : Nat × Nat := ⟨2, 1⟩
 -- ... to tak nie wygląda, ...
 #eval Prod.fst para
 
--- ... a oba fragmenty kodu różnią się tylko *notacją*.
+-- ... przy czym oba fragmenty kodu różnią się tylko *notacją*.
 ```
 
-To zjawisko można nazwać wieloznacznością w tym znaczeniu, że *różne* sposoby *mówienia* czy
-*pisania* mają tutaj *to samo znaczenie*; nie w tym znaczeniu, że *ten sam zapis* ma *różne
-znaczenia*. Poza tym mechanizm "redukcji" jest w tym przypadku *metajęzykowy* - to nie jest
-funkcjonalność wbudowana w język teorii typów, tylko dostępne w Leanie udogodnienie dotyczące
-notacji. Jest to więc inny rodzaj wieloznaczności niż ten, który pojawia się na przykład w tym
-akapicie i dotyczy akurat ... "wieloznaczności"[^1].
+To zjawisko można nazwać wieloznacznością w tym znaczeniu, że *różne sposoby mówienia* czy *pisania*
+mają tutaj *to samo znaczenie*; nie w tym znaczeniu, że *ten sam zapis* ma *różne znaczenia*. Poza
+tym mechanizm "redukcji" jest w tym przypadku *metajęzykowy* - to nie jest funkcjonalność wbudowana
+w język teorii typów, tylko dostępne w Leanie udogodnienie dotyczące notacji. Jest to więc inny
+rodzaj wieloznaczności niż ten, który pojawia się na przykład w tym akapicie i dotyczy akurat
+... "wieloznaczności"[^1].
 
 A z drugiej strony taki sam (zawsze wszystko ma `n`-tą stronę, dla dowolnego `n`!). Zresztą, dodatki
 do teorii typów, które są w Leanie, to z jednej strony dodatki, a z drugiej Lean to przecieć pewna
 całkowicie sformalizowana, bo *zapisana jako kod* w jakiś językach programowania, *wersja* teorii
 typów, a żadnej jedynej słusznej wersji teorii typów nie ma i nigdy nie będzie.
 
-O wieloznaczności widocznej w ostatnim fragmencie kodu można by niemal powiedzieć, że to jest taki
-"dualny" odpowiednik "zwykłej" wieloznaczności, bo ta "zwykła" dotyczy wielości znaczeń tego samego
-symbolu, słowa, czy wyrażenia, a więc wielości po *prawej* stronie relacji oznaczania, a ta
-"notacyjna" dotyczy wielości *o*znaczeń, a więc wielości po *lewej* stronie relacji oznaczania. Z
-tej perspektywy (albo w tym znaczeniu!) matematyka stosowana polega bardzo często na ustalaniu że,
-albo korzystaniu z tego że - zachodzi jakiś przypadek tej "dualnej" wieloznaczności, to jest `f(x,
-y, z, ...) = g(u, v, w, ...)`, czyli *pewne dwa zapisy oznaczają to samo*. Bo przecież rozstrzyganie
+O wieloznaczności widocznej w ostatnim fragmencie kodu można powiedzieć, że to niemal taki "dualny"
+odpowiednik "zwykłej" wieloznaczności, bo ta zwykła dotyczy wielości znaczeń tego samego symbolu,
+słowa, czy wyrażenia, a więc wielości po *prawej* stronie relacji oznaczania, a ta "notacyjna"
+dotyczy wielości *o*znaczeń, a więc wielości po *lewej* stronie relacji oznaczania. Z tej
+perspektywy (albo w tym znaczeniu!) matematyka stosowana polega bardzo często na ustalaniu że, albo
+korzystaniu z tego że - zachodzi jakiś przypadek *ko*wieloznaczności (orientuj się!), to jest `f(x,
+y, z, ...) = g(u, v, w, ...)`, czyli że *różne zapisy oznaczają to samo*. Bo przecież rozstrzyganie
 prawdziwości takich zdań ma charakter mechaniczny, bo może mieć, a ma charakter mechaniczny,
 ponieważ ma charakter syntaktyczny, bo może mieć, bo całą matematykę można zakodować w języku teorii
 typów.
@@ -470,8 +471,8 @@ class Zloz (α : Type u) where
 -- Składowa funkcja `zloz` (zauważyłaś od razu występującą tu wieloznaczność słowa "składowa"? {bo
 -- mi to trochę zajęło}), która ma działać dla każdego typu `α`, tak jak *każde* pole tej klasy,
 -- "domaga się" (w nawiasach *kwadratowych*) implementacji klasy `Zloz α`. Zapisany w nawiasach
--- kwadratowych parametr, tutaj `self : Zloz α` jest *niejawny* i traktowany przez Leana w specjalny
--- sposób.
+-- kwadratowych parametr, tutaj `self : Zloz α`, jest *niejawny* i traktowany przez Leana w
+-- specjalny sposób.
 #check Zloz.zloz -- Zloz.zloz.{u} {α : Type u} [self : Zloz α] (a b : α) : α
 
 -- Instancje nie muszą mieć nazw.
