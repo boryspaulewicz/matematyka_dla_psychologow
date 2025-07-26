@@ -181,7 +181,7 @@ zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczb
 
 **Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających w przyszłość i wymagających pewnego
 przygotowania części rozdziału trzeciego**, mają charakter ogólnowprowadzający i chociaż nie
-zawierają ani fragmentów kodu ani żadnych zadań, to polecam je przynajmniej przejrzeć. Można tam
+zawierają ani fragmentów kodu, ani żadnych zadań, polecam je przynajmniej przejrzeć. Można tam
 znaleźć nie tylko oparte na wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące
 tego, jak warto podchodzić do nauki jakichkolwiek treści, ale również uwagi dotyczące *nastawienia*,
 które może zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę skierowaną
