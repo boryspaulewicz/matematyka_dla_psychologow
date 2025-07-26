@@ -582,9 +582,9 @@ pozwala łatwo rozwiązać ten problem pisząc tylko `Monoid.`, naciskając Tab 
 Hipotez pomocniczych `h2`-`h4` nie stworzyłem na początku, tylko później, na podstawie tego, czego w
 pewnym momencie, gdy byłem "niżej" w konstrukcji dowodu, domagał się Lean.
 
-Podobnie, możemy konstruktywnie udowodnić w ten sposób twierdzenie, że istnieje element neutralny
-monoidu, chociaż nie ma jeszcze żadnego monoidu. To jest możliwe, ponieważ parametrem tego
-twierdzenia jest hipotetyczny monoid i dowodzone zdanie dotyczy tego hipotetycznego termu.
+Podobnie, możemy *konstruktywnie* udowodnić twierdzenie, że *istnieje* element neutralny monoidu,
+chociaż *nie ma jeszcze żadnego monoidu*. To jest możliwe, ponieważ parametrem tego twierdzenia jest
+hipotetyczny monoid i dowodzone zdanie dotyczy właśnie tego hipotetycznego termu.
 
 ```lean
 theorem the_one_exists [Monoid X] :
