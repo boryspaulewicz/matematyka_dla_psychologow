@@ -561,7 +561,7 @@ wydaje mi się wartościowy i interesujący, a jego repozytorium jest
 
 Znowu Tomkowi Smoleniowi, za zgłoszenie awarii polegającej na nadmiernej kumulacji nie objaśnionych
 dokładnie nowości pod koniec rozdziału o takosamości produktów. Dodałem tam w związku z tym
-ostrzeżenie i podjąłem próbę (szczerego) pocieszenia.
+ostrzeżenie i próbę pocieszenia.
 
 Znowu Szymonowi Stryplingowi, za błyskawiczne przeczytanie po powrocie z wakacji wszystkich nowych
 rozdziałów i bardzo cenną uwagę na temat trudności wynikających ze zbyt częstego akcentowania
