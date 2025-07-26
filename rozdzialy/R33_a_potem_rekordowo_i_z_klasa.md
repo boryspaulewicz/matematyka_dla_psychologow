@@ -123,7 +123,7 @@ def para : Nat × Nat := ⟨2, 1⟩
 -- To wygląda tak, jakbyśmy *wymieniali z nazwy część struktury* pary, ...
 #eval para.fst
 
--- ... to tak nie wygląda, ...
+-- ... to wygląda tak, jakbyśmy stosowali do tej pary pewne działanie, ...
 #eval Prod.fst para
 
 -- ... przy czym oba fragmenty kodu różnią się tylko *notacją*.
@@ -166,16 +166,17 @@ w dwóch, blisko związanych znaczeniach, jako oznaczającego interfejs złożon
 oznaczającego "rolowość" (bo czemu nie?). No i jest jeszcze funkcjonalność wyrażalna w języku
 kategoryjnym, która z jednej strony polega na mówieniu językiem, którego "jądrem" jest algebra
 funkcji, bo ten język powstał przez wyabstrachowanie działania składania funkcji
-teoriomnogościowych, a z drugiej pozwala "uchwycić" funkcjonalność "w" strukturze (strzałek) ze
-względu na (matematyczną) funkcję (!) składania składalnych strzałek. Uff.
+teoriomnogościowych, a z drugiej na mówieniu językiem pozwalającym "uchwycić" funkcjonalność "w"
+strukturze (strzałek) ze względu na (matematyczną) funkcję (!) składania składalnych
+strzałek. Uff. Prawie na pewno coś tu sknociłem, ale jeszcze tu wrócę.
 
 Bawiąc się terminologią, punktami widzenia i znaczeniami próbuję Ci (nomen omen) unaocznić między
 innymi to, że wieloperpsektywiczność i wieloznaczność to fundamentalne i potężne, ale też trudne w
-obsłudze, czasem wręcz przyprawiające o [zawrót
+obsłudze, a czasem wręcz przyprawiające o [zawrót
 głowy](https://youtu.be/PGNiXGX2nLU?si=iRBLIQjw40NBPFBl) narzędzia myślenia. Dlatego tak bardzo
 chcemy poznać różne postaci polimorfizmu (pun intended) i chcemy wiedzieć, jak dokładnie działają. I
-dzięki temu może nawet wykombinować, przyglądając się jasno opisanym przykładom, jak jeszcze mogłyby
-działać.
+dzięki temu może nawet wykombinować, przyglądając się szczegółowo omówionym przykładom, jak jeszcze
+mogłyby działać.
 
 W tym celu na początek (*teraz* jest początek?! \{ale o co chodzi? przecież początek jest
 *zawsze*\}) przypomnę naszą małą hierarchię algebr abstrakcyjnych, którą zakodowaliśmy korzystając z
