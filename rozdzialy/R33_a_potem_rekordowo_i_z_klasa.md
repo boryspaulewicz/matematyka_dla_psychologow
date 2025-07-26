@@ -612,10 +612,10 @@ class HMul (α : Type u) (β : Type v) (γ : outParam (Type w)) where
   hMul : α → β → γ
 ```
 
-Specjalne oznaczenie parametru oznaczającego typ *wynik* jako `outParam` mówi Leanowi, żeby szukając
-pasującego znaczenia (to jest instancji) słowa `hMul` (to jest pola klasy `HMul`) uwzględniał
-również wynikający z kontekstu użycia typ rezultatu. Czasami okazuje się, że uwzględnienie tej
-informacji jest konieczne do znalezienia znaczenia.
+Specjalne oznaczenie parametru oznaczającego typ *wyniku* jako `outParam` mówi Leanowi, żeby
+szukając pasującego znaczenia (to jest instancji) słowa `hMul` (to jest pola klasy `HMul`)
+uwzględniał również wynikający z kontekstu użycia typ rezultatu. Czasami okazuje się, że
+uwzględnienie tej informacji jest konieczne do znalezienia znaczenia.
 
 W pliku Prelude.lean zdefiniowana jest również następująca instancja tej klasy, ...
 
