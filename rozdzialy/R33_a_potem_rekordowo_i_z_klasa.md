@@ -1,6 +1,18 @@
 <!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
+Będzie o implementacji mechanizmu kontroli wieloznaczności w Leanie za pomocą klas typów. To jest
+moim zdaniem znacznie ciekawszy temat niż może się wydawać na podstawie tego krótkiego
+podsumowania. Mogę nawet powiedzieć, że to jest jeden z moich ulubionych tematów i ulubionych
+rozdziałów, gdzie ulubione oznacza w pewnym stopniu lepsze lub gorsze niż jakieś inne coś ulubione,
+inaczej mówiąc ulubione znaczy tu porównywalne z jakimś ulubionym pod względem stopnia bycia
+ulubionym. Po takim wyjaśnieniu mogą nasunąć się pytanie, co według mnie znaczą słowa "jasne" i
+"informatywne". Należy się wtedy skonsultować z lekarzem lub farmaceutą.
+
+Poza tym poznajemy takie "trudne słowa" jak *homomorfizm* czy *imponderabilia*. Jeżeli *to* Cię nie
+zachęciło do lektury, to chyba [to nie jestem ja, tylko to jesteś
+Ty](https://en.wikipedia.org/wiki/It%27s_not_you,_it%27s_me).
+
 # ... a potem rekordowo i z klasą
 
 Cytuję za Wikipedią (2025 07 25):
