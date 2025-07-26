@@ -428,12 +428,12 @@ obsługującym *wieloznaczność*, jest *proces syntetyzowania* instancji, któr
 lub tworzeniu z odpowiednio powiązanych instancji takiej instancji (być może syntetycznej, to jest
 skonstruowanej przez Leana), która pasuje do kontekstu.
 
-A na czym innym miałby ten proces polegać? Użyteczna wieloznaczność polega przecież dokładnie na
-tym, że można *się domyślić* (przeszukiwanie i ewentualna synteza) znaczenia (instancji) pewnego
-sposobu mówienia (interfejs językowy), który ma więcej niż jedno znaczenie. Na przykład, gdy mówimy,
-że zepsuł nam się zamek i nie możemy wejść do domu, od razu wiadomo, że prawie na pewno chodzi o
-zamek w drzwiach, a nie o zamek w spodniach. Zwracam przy okazji uwagę na wrażenie, które,
-przynajmniej we mnie, wywołuje:
+A na czym innym miałby ten proces polegać? Użyteczna wieloznaczność to przecież dokładnie
+*domyślanie się* (przeszukiwanie i ewentualna synteza) znaczenia (instancji) pewnego sposobu
+mówienia (interfejs językowy), który ma więcej niż jedno znaczenie. Na przykład, gdy mówimy, że
+zepsuł nam się zamek i nie możemy wejść do domu, od razu wiadomo, że prawie na pewno chodzi o zamek
+w drzwiach, a nie o zamek w spodniach. Zwracam przy okazji uwagę na wrażenie, które, przynajmniej we
+mnie, wywołuje:
 
 *zamek w drzwiach lub zamek w spodniach* 
 
