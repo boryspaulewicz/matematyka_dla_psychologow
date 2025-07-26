@@ -383,7 +383,7 @@ Klasa?
 
 Zacznijmy od przeczytania kodu po ludzku, na razie pomijając definicję klasy `Semigroup`.
 
-*Niech `X` i `Y` będą półgrupami. Funkcja `f` posyłająca `X` w `Y` jest homomorifizmem jeśli dla
+*Niech `X` i `Y` będą półgrupami. Funkcja `f`, posyłająca `X` w `Y`, jest homomorifizmem jeśli dla
 każdego `a` i `b` należących do `X`, `f(a * b) = f(a) * f(b).`*
 
 Ściśle kontrolowana wieloznaczność pojawia się już na samym początku, ponieważ (lokalne) zmienne `X`
