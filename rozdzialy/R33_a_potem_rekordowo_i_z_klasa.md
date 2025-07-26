@@ -449,9 +449,73 @@ coś, co może być) *w spodniach*.
 
 Użycie metajęzykowe wygrywa, bo jest spójne z naszą wiedzą, ale myśląc o tym wyrażeniu nie mogę (czy
 może nie może*my*?) mentalnie całkiem wyhamować użycia niemetajęzykowego i czasem mi nieznacznie
-migoce.
+migoce. 
 
-TODO Tu będzie o klasie Sklad
+A wznosząc się jeszcze na poziom meta względem tej mety, czy domyślasz się, dlaczego w ogóle
+zacząłem w tym kontekście myśleć o przykładach dotyczących posługiwania się na codzień językiem
+naturalnym? Bo jak natrafiam na pomysł, który, tak jak implementacja polimorfizmu ad-hoc w Leanie
+albo na przykład aksjomatyzacja pojęcia przyczynowości Pearla, wydaje mi się sprytny i mi się
+podoba, próbuję znaleźć *jak najprostszy sposób wpadania* na *tego rodzaju* pomysły. Mówiąc ogólnie,
+proces myślenia to moim zdaniem zawsze, przynajmniej do pewnego stopnia, metarefleksja i dążenie do
+algorytmizacji. I nic w tym nie pomaga tak, jak *nauka języków*.
+
+Wracamy na główną. W najprostszych sytuacjach polimorfizm ad-hoc działa w Leanie tak:
+
+```lean
+-- To nasz (wirtualny) interfejs (pewnego rodzaju) składania, który może być zaimplementowany w
+-- różny sposób dla różnych typów.
+class Zloz (α : Type u) where
+  zloz (a b : α) : α
+
+-- Składowa funkcja `zloz` (zauważyłaś od razu występującą tu wieloznaczność słowa "składowa"? {bo
+-- mi to trochę zajęło}), która ma działać dla każdego typu `α`, tak jak *każde* pole tej klasy,
+-- "domaga się" (w nawiasach *kwadratowych*) implementacji klasy `Zloz α`. Zapisany w nawiasach
+-- kwadratowych parametr, tutaj `self : Zloz α` jest *niejawny* i traktowany przez Leana w specjalny
+-- sposób.
+#check Zloz.zloz -- Zloz.zloz.{u} {α : Type u} [self : Zloz α] (a b : α) : α
+
+-- Instancje nie muszą mieć nazw.
+instance : Zloz Nat where
+  zloz a b := a + b
+-- Lean dodaje ten (tutaj akurat anonimowy) term do specjalnej listy instancji/termów rekordowych,
+-- implementujących interfejs/klasę `Zloz`.
+
+instance : Zloz String where
+  zloz a b := a.append b
+
+-- Nie chcemy poprzedzać nazwy `zloz` nazwą przestrzeni nazw `Zloz`, w której jest zdefiniowana (to
+-- działa tak samo dla zwykłych rekordów i innych typów *danych*, pamiętasz?), więc otwieramy tą
+-- przestrzeń nazw, przez co jej zawartość wysypuje się na (tutaj globalny) wierzch.
+open Zloz
+
+-- Ponieważ składowa/funkcja `zloz` domaga się (`[ ... ]`) instancji klasy `Zloz`, która może
+-- obsłużyć typ jej argumentów (tutaj `Nat`), Lean widząc taki kod szuka pasującej instancji,
+-- zaczynając od tych zdefiniowanych ostatnio w znaczeniu w najbliższym *miejscu* w kodzie (a nie
+-- ostatnio w znaczeniu najbliżej w czasie) szukając wstecz. Jeżeli znajdzie pasującą instancję
+-- implementującą interfejs klasy `Zloz`, to ją stosuje. W tym wypadku znajduje instancję, która
+-- implementuje interfejs klasy `Zloz` dla typu `Nat`, czyli tylko jedyną składową `zloz`, jako
+-- dodawanie liczb naturalnych.
+#eval zloz 2 3     -- 5
+
+-- W tym przypadku Lean znajduje implementację składania dla typu `String`.
+#eval zloz "2" "2" -- "22"
+
+-- Możemy definiować kolejne instancje dla *tego samego* typu, a mówiąc ogólnie dla tego samego
+-- *wzorca* charakteryzującego *kontekst użycia* (możemy w tym miejscu zaszaleć, ale o tym innym
+-- razem), ...
+instance : Zloz Nat where
+  zloz a b := a * b
+
+-- ... i takie nowe implementacje będą obowiązywały *od miejsca ich zdefiniowania*: Gdy kursor jest
+-- na komendzie `#eval` poniżej, widzimy wynik `6`, który jest rezultatem zastosownia implementacji
+-- `Zloz.zloz` jako mnożenia, gdy natomiast kursor jest na przedostatniej komendzie `#eval`, widzimy
+-- nadal wynik `5`, który jest rezultatem dodawania.
+#eval zloz 2 3     -- 6
+```
+
+TODO o używaniu do rozumowania klas wirtualnych
+
+TODO Przerobić całość niżej:
 
 To jest na przykład definicja klasy `Mul`, którą można znaleźć w pliku Prelude.lean:
 
@@ -514,45 +578,6 @@ aplikowaną wzrostkowo funkcję/pole `HMul.hMul`. To nie jest zwykłe pole, bo t
 rekord; to jest pole "wirtualne", które jest częścią specyfikacji wirtualnego interfejsu, gdzie
 wirtualność polega na tym, że *ten sam* interfejs może mieć *wiele implementacji*, obsługujących
 różne pary typów.
-
-Korzystając z tego mechanizmu możemy zrobić na przykład coś takiego:
-
-```lean
--- To nasz (wirtualny) interfejs sklejania, który może być zaimplementowany w różny sposób dla
--- różnych typów.
-class Sklej (α : Type u) where
-  sklej (a b : α) : α
-
--- Składowa funkcja `sklej`, która ma działać dla każdego typu `α`, tak jak *każde* pole tej klasy,
--- "domaga się" (w nawiasach *kwadratowych*) istnienia implementacji klasy `Sklej α`. Zapisany w
--- nawiasach kwadratowych parametr `self : Sklej α` jest *niejawny* i traktowany przez Leana w
--- specjalny sposób.
-#check Sklej.sklej -- Sklej.sklej.{u} {α : Type u} [self : Sklej α] (a b : α) : α
-
--- Instancje nie muszą być nazw. Zdefiniowaną w ten sposób instancję Lean dodaje do swojej
--- specjalnej listy rekordów implementujących klasę `Sklej`.
-instance : Sklej Nat where
-  sklej a b := a + b
-
-instance : Sklej String where
-  sklej a b := a.append b
-
--- Nie chcemy tu poprzedzać nazwy `sklej` nazwą przestrzeni nazw, w której jest zdefiniowana, więc
--- *otwieramy* tą przestrzeń nazw.
-open Sklej
-
--- Ponieważ składowa/funkcja `sklej` domaga się instancji klasy `Sklej`, która może obsłużyć typ jej
--- argumentów (tutaj `Nat`), Lean widząc taki kod szuka w swoim rejestrze instancji tej klasy
--- odpowiedniego kandydata, zaczynając od tych zdefiniowanych ostatnio, czyli tych najbardziej
--- *aktualnych*. Jeżeli znajdzie pasującą instancję, która implementuje interfejs klasy `Sklej`, to
--- ją stosuje. W tym wypadku znajduje instancję, która implementuje składową klasy `Sklej`,
--- wyspecjalizowanej na typie `Nat`, jako dodawanie liczb naturalnych.
-#eval sklej 2 2     -- 4
-
--- A tym wypadku znajduje implementację sklejania dla typu `String` i tą właśnie implementację
--- stosuje.
-#eval sklej "2" "2" -- "22"
-```
 
 ### Przypisy
 
