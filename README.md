@@ -65,10 +65,10 @@ A więc choć uniwersalną prawdą jest, że "im więcej piszesz, tym więcej g�
 może dzięki bliższemu kontaktowi z tą niezwykłą dyscypliną studenci psychologii i psychologowie
 akademiccy mogliby nauczyć się pisać mniej głupot i czytać z większym zrozumieniem pełną głupot
 literaturę naukową? Albo po to, żeby używać na przykład wnioskowania statystycznego czy
-przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
+przyczynowego wiedząc **dlaczego** używa się go w taki a nie inny sposób, czyli postępując jak na
 naukowca przystało, zamiast bezmyślnie i często popełniając szkolne błędy robić coś, bo "tak się
 robi", całkowicie opierając się na domniemanym autorytecie zajętego zdobywaniem grantów i
-przepychaniem publikacji akademickiego stada. Ale moim zdaniem przede wszystkim po to, żeby
+przepychaniem publikacji akademickiego stada. Moim zaś zdaniem przede wszystkim po to, żeby
 doświadczać głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i mocy
 wynikających z opanowywania nowych sposobów myślenia, i piękna.
 
