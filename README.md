@@ -17,7 +17,7 @@ i mówię trochę o głębszych problemach związanych z wieloznacznościami, kt
 często operować w tej książce. Nawet o zamkach coś tam opowiadam.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
-*zwłaszcza krytycznych*.
+*zwłaszcza* tych krytycznych.
 
 **Historia zmian** jest [tu](Historia_zmian.md), a **spis treści** jest [tam](#spis_tresci).
 
