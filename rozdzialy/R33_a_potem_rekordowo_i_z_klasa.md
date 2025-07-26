@@ -499,9 +499,9 @@ open Zloz
 -- Ponieważ składowa/funkcja `zloz` domaga się (`[ ... ]`) instancji klasy `Zloz`, która może
 -- obsłużyć typ jej argumentów (tutaj `Nat`), Lean widząc taki kod szuka pasującej instancji,
 -- zaczynając od tych zdefiniowanych ostatnio w znaczeniu w najbliższym *miejscu* w kodzie (a nie
--- ostatnio w znaczeniu najbliżej w czasie) szukając wstecz. Jeżeli znajdzie pasującą instancję
+-- ostatnio w znaczeniu najbliżej w czasie), szukając wstecz. Jeżeli znajdzie pasującą instancję
 -- implementującą interfejs klasy `Zloz`, to ją stosuje. W tym wypadku znajduje instancję, która
--- implementuje interfejs klasy `Zloz` dla typu `Nat`, czyli tylko jedyną składową `zloz`, jako
+-- implementuje interfejs klasy `Zloz` dla typu `Nat`, czyli tylko jedną składową `zloz`, jako
 -- dodawanie liczb naturalnych.
 #eval zloz 2 3     -- 5
 
@@ -509,7 +509,7 @@ open Zloz
 #eval zloz "2" "2" -- "22"
 
 -- Możemy definiować kolejne instancje dla *tego samego* typu, a mówiąc ogólnie dla tego samego
--- *wzorca* charakteryzującego *kontekst użycia* (możemy w tym miejscu zaszaleć, ale o tym innym
+-- *wzorca* charakteryzującego *kontekst użycia* (możemy z tym wzorcem zaszaleć, ale o tym innym
 -- razem), ...
 instance : Zloz Nat where
   zloz a b := a * b
@@ -523,7 +523,7 @@ instance : Zloz Nat where
 
 ## Tekst służy do myślenia i działania, myślenie jest działaniem, działanie jest myśleniem, więc działanie służy do pisania i czytania
 
-To jest szczególny przypadek *wieloznaczności hipotetycznej*:
+Można powiedzieć, że to jest szczególny przypadek *wieloznaczności hipotetycznej*:
 
 ```lean 
 namespace na_nowo
@@ -536,7 +536,7 @@ class Monoid (X : Type u) extends Semigroup X, One X where
   mul_one : ∀ x : X, x * 1 = x
 ```
 
-Dziedziczenie z klasy `Mul` daje interfejs w postaci hipotetycznego działania binarne o nazwie
+Dziedziczenie z klasy `Mul` daje interfejs w postaci hipotetycznego działania binarnego o nazwie
 `mul`, które można zapisywać wzrostkowo jako `*`. W tym momencie (pliku) to działanie jest czysto
 hipotetyczne, ponieważ w historii tego świata nie pojawiła się jeszcze żadna instancja klas
 `Semigroup` i `Monoid`. Przedtem nazywałem to działanie `op`, ale jak wiesz, brzmienie nazwy nie ma
