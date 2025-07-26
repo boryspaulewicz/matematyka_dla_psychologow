@@ -71,7 +71,7 @@ arbitralne typy *nie dotyczy sposobu działania kodu*. Mówiąc dokładniej, dek
 `x` jako `α × β` służy tu *jedynie* jako *składniowe zabezpieczenie przed błędami*, to jest do
 *ograniczenia dopuszczalnych argumentów* do termów typów produktowych. Natomiast sam kod działa w
 sposób *jednorodny* dla termów każdego akceptowanego typu. A więc to jest z jednej strony funkcja
-polimorficzna, bo przynajmniej jeden typ jest parametrem, a z drugiej strony trudno powiedzieć,
+polimorficzna, bo przynajmniej jeden typ jest parametrem, ale z drugiej strony trudno powiedzieć,
 żebyśmy tu "używali" czegokolwiek "na kilka *różnych sposobów*", że znowu zacytuję artykuł
 Wikipedii.
 
@@ -102,7 +102,7 @@ wieloznaczności w postaci typów *zależnych*, takich jak typ uogólnionej iden
 ... w których typ (tutaj `α`) może być zarówno (tutaj niejawnym) parametrem *funkcji* jak i
 parametrem *specyfikacji typu* (tutaj ostatniego argumentu i rezultatu aplikacji
 identyczności). Wychodzi więc na to, że "zależnotypowość" to coś w rodzaju polimorficznej
-polimorficzności. Ale z taką bardziej jadowitą i płodną wieloznacznością nawet polimorficzny
+polimorficzności. Ale z pełnowartościową, jadowitą i płodną wieloznacznością nawet polimorficzny
 polimorfizm zależnotypowości nie ma za wiele wspólnego.
 
 Z tego rodzaju polimorfizmu korzystaliśmy już wielokrotnie i nie trzeba było dotąd szukać innych
