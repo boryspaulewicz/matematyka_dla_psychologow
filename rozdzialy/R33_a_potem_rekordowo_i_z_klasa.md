@@ -294,7 +294,7 @@ wymyśliłem przed chwilą i jeszcze nie wiem, czy będę go stosował)
 
 Nie przypomina Ci to trochę "nieinteraktywnego przeplatania się oznaczania, produktowania i
 odwracania par" (ten sposób mówienia też wymyśliłem, dlatego wypada mi zawrzeć całość w cudzysłowie,
-gdy wprowadzam go w nowym rozdziale), któremu przyglądliśmy się w jednym z poprzednich rozdziałów?
+gdy wprowadzam go w nowym rozdziale), któremu przyglądaliśmy się w jednym z poprzednich rozdziałów?
 
 ```
 ⟨a, b⟩ ↦ ⟨f(a), g(b)⟩ ↦ ⟨g(b), f(a)⟩ =: X
