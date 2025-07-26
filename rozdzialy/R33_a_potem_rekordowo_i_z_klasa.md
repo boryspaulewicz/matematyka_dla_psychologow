@@ -325,7 +325,7 @@ związane, ale będące jednak inną operacją dodawanie liczb całkowitych.
 ¬ (∀ m n ∈ ℕ, (m + n)² = m² + n²)
 ```
 
-... i podkreślić zasadniczą różnicę między dwoma rozważanymi zgodnymi przeplotami: W pierwszym
+... i podkreślić zasadniczą różnicę między dwoma rozważanymi *zgodnymi* przeplotami: W pierwszym
 przypadku wyrażamy *warunek*, o którym *zakładamy*, że spełnia go bliżej nieokreślona funkcja `f`; w
 drugim przypadku *dowodzimy*, pokazując w jaki sposób działają na dowolnych parach różne złożenia
 pewnych funkcji, że przeplot jest zgodny.
@@ -342,7 +342,7 @@ próbować zaspokoić to pragnienie korzystając z takiej definicji ...
 -- Strasznie długie to słowo.
 def Sg := Semigroup
 
--- To jest parametryczna definicja wymagania bycia homomorfizmem półgrup w postaci zdania.
+-- To jest parametryczna definicja bycia homomorfizmem półgrup (a więc predykat).
 def is_hom_sg (S : Sg α) (R : Sg β) (f : α → β) :=
   ∀ a b : α, f (S.op a b) = R.op (f a) (f b)
 ```
