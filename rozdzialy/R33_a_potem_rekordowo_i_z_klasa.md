@@ -454,11 +454,11 @@ migoce.
 
 A wznosząc się jeszcze na poziom meta względem tej mety, czy domyślasz się, dlaczego w ogóle
 zacząłem w tym kontekście myśleć o przykładach dotyczących posługiwania się na codzień językiem
-naturalnym? Bo jak natrafiam na pomysł, który, tak jak implementacja polimorfizmu ad-hoc w Leanie
-albo na przykład aksjomatyzacja pojęcia przyczynowości Pearla, wydaje mi się sprytny i mi się
-podoba, próbuję znaleźć *jak najprostszy sposób wpadania* na *tego rodzaju* pomysły. Mówiąc ogólnie,
-proces myślenia to moim zdaniem zawsze, przynajmniej do pewnego stopnia, metarefleksja i dążenie do
-algorytmizacji. I nic w tym nie pomaga tak, jak *nauka języków*.
+naturalnym? Czasem, gdy natrafiam na czyiś pomysł, który, tak jak implementacja polimorfizmu ad-hoc
+w Leanie, albo dajmy na to taka aksjomatyzacja pojęcia przyczynowości Pearla (sic!), wydaje mi się
+sprytny i mi się podoba, próbuję znaleźć możliwie prosty *sposób wpadania* na *tego rodzaju*
+pomysły. Mówiąc ogólnie, myślenie moim zdaniem zawsze polega do pewnego stopnia na *meta*refleksji i
+na dążeniu do algorytmizacji. I nic w tym nie pomaga tak, jak *nauka języków*.
 
 Wracamy na główną. W najprostszych sytuacjach polimorfizm ad-hoc działa w Leanie tak:
 
