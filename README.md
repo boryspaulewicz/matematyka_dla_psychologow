@@ -358,7 +358,7 @@ deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 *Idąc jakąś drogą piszemy jakieś listy*
 
 [R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)  
-*Co to ma znaczyć?!*
+*A co to ma znaczyć?*
 
 <hr>
 
