@@ -465,7 +465,7 @@ naturalnym? Czasem, gdy natrafiam na czyiś pomysł, który, tak jak implementac
 w Leanie, albo dajmy na to taka aksjomatyzacja pojęcia przyczynowości Pearla (sic!), wydaje mi się
 sprytny i mi się podoba, próbuję znaleźć możliwie prosty *sposób wpadania* na *tego rodzaju*
 pomysły. Mówiąc ogólnie, myślenie moim zdaniem zawsze polega do pewnego stopnia na *meta*refleksji i
-na dążeniu do algorytmizacji. I nic w tym nie pomaga tak, jak *nauka języków*.
+na *dążeniu do algorytmizacji*. I nic w tym nie pomaga tak, jak *nauka języków*.
 
 Wracamy na główną. W najprostszych sytuacjach polimorfizm ad-hoc działa w Leanie tak:
 
