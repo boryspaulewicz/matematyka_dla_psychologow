@@ -68,7 +68,7 @@ literaturę naukową? Albo po to, żeby używać na przykład wnioskowania staty
 przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
 naukowca przystało, zamiast bezmyślnie i często popełniając szkolne błędy robić coś, bo "tak się
 robi", całkowicie opierając się na domniemanym autorytecie zajętego zdobywaniem grantów i
-przepychaniem publikacji akademickiego stada. A moim zdaniem przede wszystkim po to, żeby
+przepychaniem publikacji akademickiego stada. Ale moim zdaniem przede wszystkim po to, żeby
 doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i
 mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
 
