@@ -630,9 +630,13 @@ samego typu, której rezultat jest również tego typu, ma traktować taką apli
 pod względem poprawności składniowej albo logicznej, co w teorii typów jest tym samym, Lean szuka
 więc pasującej do kontekstu użycia instancji klasy `Mul`.
 
-Osateczny rezultat tego wszystkiego jest taki, że symbol `*` ma w pewnym sensie *jedno* znaczenie,
-ale tym znaczeniem nie jest teoriotypowy term, tylko abstrakcyjny interfejs, którego znaczenie
-rozumiane jako implementacja językowa zależy od kontekstu użycia.
+Osateczny rezultat jest taki, że symbol `*` ma w pewnym sensie *jedno* znaczenie, ale tym znaczeniem
+nie jest teoriotypowy term, tylko pole `hMul` *abstrakcyjnego interfejsu* `HMul`. Takim interfejsom,
+które nazywamy klasami, można *dodawać różne znaczenia*, a nie tylko *nadawać jedno znaczenie*, jak
+ma to miejsce w przypadku zwykłych definicji. Znaczeniami są pewne implementacje językowe, które
+nazywamy instancjami i których wybór lub konstrukcja, następujące *tylko* wtedy, gdy danego rodzaju
+znaczenie musi "działać obliczeniowo" w ramach ewaluacji, jest automatyczny i zdeterminowany przez
+kontekst użycia interfejsu.
 
 ### Przypisy
 
