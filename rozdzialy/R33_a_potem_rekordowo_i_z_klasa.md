@@ -130,7 +130,7 @@ def para : Nat × Nat := ⟨2, 1⟩
 
 To zjawisko można nazwać wieloznacznością w tym znaczeniu, że *różne* sposoby *mówienia* czy
 *pisania* mają tutaj *to samo znaczenie*; nie w tym znaczeniu, że *ten sam zapis* ma *różne
-znaczenia*. Poza tym mechanizm "redukcji" jest w tym przypadku *metajęzykowy*; to nie jest
+znaczenia*. Poza tym mechanizm "redukcji" jest w tym przypadku *metajęzykowy* - to nie jest
 funkcjonalność wbudowana w język teorii typów, tylko dostępne w Leanie udogodnienie dotyczące
 notacji. Jest to więc inny rodzaj wieloznaczności niż ten, który pojawia się na przykład w tym
 akapicie i dotyczy akurat ... "wieloznaczności"[^1].
