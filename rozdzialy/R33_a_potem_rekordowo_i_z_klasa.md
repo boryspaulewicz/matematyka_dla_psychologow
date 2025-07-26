@@ -375,7 +375,184 @@ end z_klas--ą
 
 ## Co tu zaszło?
 
-CDN
+Zacznijmy od przeczytania kodu po ludzku, na razie pomijając definicję klasy `Semigroup`.
+
+*Niech `X` i `Y` będą półgrupami. Funkcja `f` posyłająca `X` w `Y` jest homomorifizmem jeśli dla
+każdego `a` i `b` należących do `X`, `f(a * b) = f(a) * f(b).`*
+
+Ściśle kontrolowana wieloznaczność pojawia się już na samym początku, ponieważ (lokalne) zmienne `X`
+i `Y` traktowawe są zarówno jako nazwy *półgrup*, które składają się ze zbioru/typu i pewnej
+operacji, jak i jako nazwy *zbioru/typu elementów/termów* tych półgrup. Gdy nie korzystaliśmy z
+mechanizmu klas, musieliśmy napisać, że `f` to funkcja posyłająca termy typu `α` w termy typu `β`,
+gdzie półgrupami były nie te typy, tylko *rekordy* wyspecjalizowane na typach `α` i `β`. Słowo
+"jeśli" jest tutaj użyte, jak to mają matematycy w zwyczaju (który nie bardzo lubię), w znaczeniu
+*wtedy i tylko wtedy*, bo to jest *definicja* pojęcia homomorfizmu. Wreszcie, korzystamy z
+wieloznaczności symbolu `*`, na którą bez korzystania z klas typów Lean nie pozwala, ponieważ w
+ciałach funkcji zdefiniowanych w Leanie nie można zrobić czegoś takiego, ...
+
+```lean
+def f (a b : α) : α :=
+  match α with
+  -- ... to znaczy, nie można napisać kodu, który działa różnie dla różnych typów:
+  | Nat => a + b
+  | String => a.append b
+  | _ => a
+  
+-- I nie chodzi o wzorzec `_` w ostatniej linii, bo ta specyfikacja typu funkcji jest poprawna, ...
+def f' (h : (α = Nat) ∨ (α = String)) (a b : α) : α :=
+  match α with
+  -- ... błędy są sygnalizowane dopiero tutaj:
+  | Nat => a + b
+  | String => a.append b
+
+-- ... a nie na poziomie specyfikacji typu funkcji `f'`, ponieważ w Leanie możemy mówić o równości
+-- typów:
+example : Nat = Nat := rfl
+  
+```
+
+Typy służą tylko do sprawdzania poprawności syntaktycznej. Klasy i ich instancje pozwalają obejść to
+ograniczenie, ponieważ implementują polimorfizm *ad-hoc*, który pozwala (cytuję za
+[Wikipedią](https://pl.wikipedia.org/wiki/Polimorfizm_(informatyka)#Polimorfizm_ad-hoc), 2025 07 27)
+...
+
+> ... dostarczyć kilku implementacji odpowiednich dla różnych typów, ale połączyć je w jeden
+> interfejs, następnie używać tego interfejsu, a wybór najbardziej odpowiedniej implementacji
+> pozostawić systemowi (kompilatorowi, systemowi czasu wykonania). Najczęściej chodzi tu o wybór
+> algorytmu odpowiedniego do typów danych.
+
+Klasy są znanymi Ci już typami rekordowymi, ale traktowanymi przez Lean w specjalny sposób, a
+instancje klas to traktowane w specjalny sposób termy typów rekordowych. Klasy są wirtualnymi
+interfejsami, a instancje są implementacjami tych interfejsów, czym akurat nie różnią się od typów
+rekordowych i termów typów rekordowych. Tym, co sprawia, że klasy i instancje są mechanizmem
+obsługującym *wieloznaczność*, jest proces *syntetyzowania* instancji, który jest procesem
+znajdywania lub tworzenia z kilku znalezionych instancji takiej instancji, która pasuje do
+kontekstu. 
+
+Bo na czym innym miałby ten proces polegać? W końcu użyteczna wieloznaczność polega dokładnie na
+tym, że można *się* domyślić, a więc wyszukać lub skonstruować na podstawie wiedzy, znaczenia
+pewnego sposobu mówienia, który ma więcej niż jedno znaczenie. Na przykład, gdy mówimy, że zepsuł
+nam się zamek i nie możemy wejść do domu, od razu wiadomo, że prawie na pewno chodzi o zamek w
+drzwiach, a nie o zamek w spodniach. Zwracam przy okazji uwagę na wrażenie, które, przynajmniej we
+mnie, wywołuje ...
+
+*zamek w drzwiach lub zamek w spodniach* 
+
+Czytając to mam wrażenie, jakby mi migotały dwa sposoby użycia słowa; jeden to użycie słowa "zamek"
+jako nazwy czegoś *pozajęzykowego*, ...
+
+*zamek* (który jest) *w drzwiach lub w spodniach*
+
+... drugi to użycie *metajęzykowe*:
+
+(słowo) *zamek* (rozumiane jako coś, co może być) *w drzwiach i* (słowo) *zamek* (rozumiane jako
+coś, co może być) *w spodniach*. 
+
+Użycie metajęzykowe wygrywa, bo jest spójne z naszą wiedzą, ale myśląc o tym wyrażeniu nie mogę
+mentalnie całkiem wyhamować użycia niemetajęzykowego i czasem mi delikatnie miga.
+
+TODO Tu będzie o klasie Sklad
+
+To jest na przykład definicja klasy `Mul`, którą można znaleźć w pliku Prelude.lean:
+
+```lean
+class Mul (α : Type u) where
+  mul : α → α → α
+```
+
+Mamy tu (specjalnie traktowany, bo to klasa) rekord, który zawiera tylko jedno pole o nazwie `mul`,
+którego wartością musi być działanie binarne na termach (dowolnego) typu `α`. Klasa parametryczna
+`Semigroup` dziedziczy interfejs klasy `Mul` wyspecjalizowanej na tym samym parametrze, co znaczy,
+że jest (między innymi) rekordem o polach `mul` i `assoc`. A więc do tego momentu to równie dobrze
+mogłyby być zwykłe rekordy. Coś nowego pojawia się w linii, ...
+
+```lean
+--- ..., którą możemy odczytać tak: *Gdy będą potrzebne*, skocz mi po rekordy implementujące
+--- interfejs klas `Semigroup X` i `Semigroup Y`.
+variable [Semigroup X] [Semigroup Y]
+```
+
+Nigdzie nie zdefiniowaliśmy *instancji* (bo tak się nazywają) tych dwóch klas, ale to *nie ma
+znaczenia*, bo twierdzenia są funkcjami *nieredukowalnymi*, bo nie ma potrzeby ewaluować ich
+aplikacji (chodzi o zasadę proof irrelevance, pamiętasz?), wobec czego nie może wystąpić sytuacja, w
+której aplikacja pola/działania `mul` byłaby ewaluowana. Inaczej mówiąc, to jest kawałek teorii
+matematycznej bez żadnych "konkretów", takich jak jabłka Kasi albo Jacka.
+
+W pliku Notation.lean znajdujemy takie oto fragmenty dotyczące symbolu `*` (to tylko ciekawostka,
+sam tego do końca nie rozumiem, bo nie muszę i na razie raczej nie chcę tego dobrze rozumieć):
+
+```lean
+@[inherit_doc] infixl:70 " * "   => HMul.hMul
+
+-- ...
+
+macro_rules | `($x * $y)   => `(binop% HMul.hMul $x $y)
+
+-- ...
+
+recommended_spelling "mul" for "*" in [HMul.hMul, «term_*_»]
+```
+
+Tymi fragmentami kodu nie będziemy się interesować, bo dotyczą kwestii związanych z notacją, które
+stają się ważne dopiero wtedy, gdy chcemy zrobić coś bardziej skomplikowanego niż zwykłe
+przeciążanie symboli oznaczających działania. No ale przecież tutaj pojawia się klasa `HMul`, a
+*nie* `Mul`. O co więc chodzi?
+
+W plik Prelude.lean znajdziemy też to:
+
+```lean
+instance instHMul [Mul α] : HMul α α α where
+  hMul a b := Mul.mul a b
+```
+
+To jest *instancja klasy `Mul`*, czyli specjalnie traktowany *term* specjalnie traktowanego typu
+rekordowego (to jest klasy) `HMul`. Gdy Lean widzi, że stosujemy gdzieś wzrostkowo symbol `*` do
+termów typów `α` i `β`, to oczekuje, że będzie istniała, przynajmniej *hipotetycznie*, to jest
+przynajmniej jako zadeklarowany w specjalny sposób parametr, instancja klasy `HMul` specjalizującej
+się w typach `α` i `β`, bo zgodnie z `infixl:70 " * " => HMul.hMul`, symbol `*` oznacza tylko
+aplikowaną wzrostkowo funkcję/pole `HMul.hMul`. To nie jest zwykłe pole, bo to nie jest zwykły
+rekord; to jest pole "wirtualne", które jest częścią specyfikacji wirtualnego interfejsu, gdzie
+wirtualność polega na tym, że *ten sam* interfejs może mieć *wiele implementacji*, obsługujących
+różne pary typów.
+
+Korzystając z tego mechanizmu możemy zrobić na przykład coś takiego:
+
+```lean
+-- To nasz (wirtualny) interfejs sklejania, który może być zaimplementowany w różny sposób dla
+-- różnych typów.
+class Sklej (α : Type u) where
+  sklej (a b : α) : α
+
+-- Składowa funkcja `sklej`, która ma działać dla każdego typu `α`, tak jak *każde* pole tej klasy,
+-- "domaga się" (w nawiasach *kwadratowych*) istnienia implementacji klasy `Sklej α`. Zapisany w
+-- nawiasach kwadratowych parametr `self : Sklej α` jest *niejawny* i traktowany przez Leana w
+-- specjalny sposób.
+#check Sklej.sklej -- Sklej.sklej.{u} {α : Type u} [self : Sklej α] (a b : α) : α
+
+-- Instancje nie muszą być nazw. Zdefiniowaną w ten sposób instancję Lean dodaje do swojej
+-- specjalnej listy rekordów implementujących klasę `Sklej`.
+instance : Sklej Nat where
+  sklej a b := a + b
+
+instance : Sklej String where
+  sklej a b := a.append b
+
+-- Nie chcemy tu poprzedzać nazwy `sklej` nazwą przestrzeni nazw, w której jest zdefiniowana, więc
+-- *otwieramy* tą przestrzeń nazw.
+open Sklej
+
+-- Ponieważ składowa/funkcja `sklej` domaga się instancji klasy `Sklej`, która może obsłużyć typ jej
+-- argumentów (tutaj `Nat`), Lean widząc taki kod szuka w swoim rejestrze instancji tej klasy
+-- odpowiedniego kandydata, zaczynając od tych zdefiniowanych ostatnio, czyli tych najbardziej
+-- *aktualnych*. Jeżeli znajdzie pasującą instancję, która implementuje interfejs klasy `Sklej`, to
+-- ją stosuje. W tym wypadku znajduje instancję, która implementuje składową klasy `Sklej`,
+-- wyspecjalizowanej na typie `Nat`, jako dodawanie liczb naturalnych.
+#eval sklej 2 2     -- 4
+
+-- A tym wypadku znajduje implementację sklejania dla typu `String` i tą właśnie implementację
+-- stosuje.
+#eval sklej "2" "2" -- "22"
+```
 
 ### Przypisy
 
