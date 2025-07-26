@@ -308,7 +308,7 @@ W obydwu przypadkach rozkład na procesy (albo funkcje, przekształcenia, morfiz
 odwzorowania, czy strzałki) składowe pozwala zobaczyć coś w rodzaju *zgodnego przeplatania się*
 różnego rodzaju procesów, prawda? No i trudno to zobaczyć bez wystarczająco daleko idącej
 formalizacji. No więc operowanie tego rodzaju zjawiskami staje się szybko wyraźnie bardziej
-uciążliwe i dezorientujące gdy nie korzystamy z przeciążenia oznaczeń operacji, takiego jak
+uciążliwe i dezorientujące gdy nie korzystamy z przeciążania oznaczeń operacji, takiego jak
 zastosowane przeciążenie symbolu `+`. Co więcej, bez tego rodzaju wieloznaczności byłoby nam
 trudniej zauważyć to zgodne przeplatanie się, gdy to zjawisko polega na równości wyniku składania w
 różnych kolejnościach *analogicznych*, to jest w jaki sposób podobnych lub blisko związanych, ale
@@ -318,9 +318,9 @@ związane, ale będące jednak inną operacją dodawanie liczb całkowitych.
 Żeby wszystko (?) było jasne, powinienem chyba jeszcze podać przykład *negatywny* ...
 
 ```
-⟨m, n⟩ ↦  m + n   ↦ (m + n)²
+⟨m, n⟩ ↦  m + n   ↦ (m  +  n)² = m² + 2 * m * n + n²
 
-⟨m, n⟩ ↦ ⟨m², n²⟩ ↦ m² + n²
+⟨m, n⟩ ↦ ⟨m², n²⟩ ↦  m² +  n²
 
 ¬ (∀ m n ∈ ℕ, (m + n)² = m² + n²)
 ```
