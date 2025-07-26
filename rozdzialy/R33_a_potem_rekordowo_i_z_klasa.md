@@ -386,9 +386,9 @@ operacji, jak i jako nazwy *zbioru/typu elementów/termów* tych półgrup. Gdy 
 mechanizmu klas, musieliśmy napisać, że `f` to funkcja posyłająca termy typu `α` w termy typu `β`,
 gdzie półgrupami były nie te typy, tylko *rekordy* wyspecjalizowane na typach `α` i `β`. Słowo
 "jeśli" jest tutaj użyte, jak to mają matematycy w zwyczaju (który nie bardzo lubię), w znaczeniu
-*wtedy i tylko wtedy*, bo to jest *definicja* pojęcia homomorfizmu. Wreszcie, korzystamy z
-wieloznaczności symbolu `*`, na którą bez korzystania z klas typów Lean nie pozwala, ponieważ w
-ciałach funkcji zdefiniowanych w Leanie nie można zrobić czegoś takiego, ...
+*wtedy i tylko wtedy*, bo to jest *definicja* pojęcia homomorfizmu. Wreszcie, korzystamy z wygodnej
+i użytecznej wieloznaczności symbolu `*`, na którą bez użycia klas typów Lean nie pozwala, ponieważ
+w ciałach funkcji zdefiniowanych w Leanie nie można zrobić czegoś takiego, ...
 
 ```lean
 def f (a b : α) : α :=
@@ -398,17 +398,16 @@ def f (a b : α) : α :=
   | String => a.append b
   | _ => a
   
--- I nie chodzi o wzorzec `_` w ostatniej linii, bo ta specyfikacja typu funkcji jest poprawna, ...
+-- I nie chodzi o wzorzec `_` w ostatniej linii, bo ...
 def f' (h : (α = Nat) ∨ (α = String)) (a b : α) : α :=
   match α with
-  -- ... błędy są sygnalizowane dopiero tutaj:
+  -- ... błędy są sygnalizowane dopiero tutaj, ...
   | Nat => a + b
   | String => a.append b
 
--- ... a nie na poziomie specyfikacji typu funkcji `f'`, ponieważ w Leanie możemy mówić o równości
+-- ... a nie na poziomie specyfikacji typu funkcji `f'`, ponieważ w Leanie *możemy* mówić o równości
 -- typów:
 example : Nat = Nat := rfl
-  
 ```
 
 Typy służą tylko do sprawdzania poprawności syntaktycznej. Klasy i ich instancje pozwalają obejść to
