@@ -14,7 +14,7 @@ dotyczącego kontrolowania wieloznaczności za pomocą polimorfizmu ad-hoc, któ
 i teoretycznie uzasadnioną implementację za pomocą elastycznego procesu syntezy implementacji
 wirtualnych interfejsów. Wracam też do rozpoczętego wcześniej, tylko niejawnie, wątku homomorfizmów,
 i mówię trochę o głębszych problemach związanych z wieloznacznościami, którymi jestem zmuszony
-często operować w tej książce. Nawet o zamkach też coś tam opowiadam.
+często operować w tej książce. Nawet o zamkach coś tam opowiadam.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
