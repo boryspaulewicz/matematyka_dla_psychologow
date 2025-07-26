@@ -630,10 +630,10 @@ instance instHMul [Mul α] : HMul α α α where
 ```
 
 ... która "mówi" Leanowi, że jeśli trafi na przypadek aplikacji `hMul` do dwóch argumentów tego
-samego typu, której rezultat jest również tego typu, ma traktować taką aplikację jako aplikację pola
-`mul` klasy `Mul`. W momencie, w którym taka aplikacja *ma być ewaluowana*, a nie tylko sprawdzana
-pod względem poprawności składniowej albo logicznej, co w teorii typów jest tym samym, Lean szuka
-więc pasującej do kontekstu użycia instancji klasy `Mul`.
+samego typu, której rezultat jest również tego typu (aaa ...), ma traktować taką aplikację jako
+aplikację pola `mul` klasy `Mul`. W momencie, w którym taka aplikacja *ma być ewaluowana*, a nie
+tylko sprawdzana pod względem poprawności składniowej albo logicznej, co w teorii typów jest tym
+samym, Lean szuka więc pasującej do kontekstu użycia instancji klasy `Mul`.
 
 Osateczny rezultat jest taki, że symbol `*` ma w pewnym sensie *jedno* znaczenie, ale tym znaczeniem
 nie jest teoriotypowy term, tylko pole `hMul` *abstrakcyjnego interfejsu* `HMul`. Takim interfejsom,
