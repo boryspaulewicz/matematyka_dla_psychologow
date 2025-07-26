@@ -58,15 +58,16 @@ sposobów o czym tylko się chce** *(a czasem nie chce)*.
 
 <hr>
 
-Może więc dzięki bliższemu kontaktowi z tą niezwykłą dyscypliną studenci psychologii i psychologowie
+A więc choć uniwersalną prawdą jest, że "im więcej piszesz, tym więcej głupstw napiszesz"[^5], to
+może dzięki bliższemu kontaktowi z tą niezwykłą dyscypliną studenci psychologii i psychologowie
 akademiccy mogliby nauczyć się pisać mniej głupot i czytać z większym zrozumieniem pełną głupot
 literaturę naukową? Albo po to, żeby używać na przykład wnioskowania statystycznego czy
 przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyli postępując jak na
 naukowca przystało, zamiast bezmyślnie i często popełniając szkolne błędy robić coś, bo "tak się
 robi", całkowicie opierając się na domniemanym autorytecie zajętego zdobywaniem grantów i
-przepychaniem publikacji akademickiego stada. Wreszcie po to, żeby doświadczać dzięki temu głębokich
-wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i mocy wynikających z opanowywania
-nowych sposobów myślenia, i piękna.
+przepychaniem publikacji akademickiego stada. A moim zdaniem przede wszystkim po to, żeby
+doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i
+mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
 
 **Dlaczego studenci psychologii albo psychologowie akademiccy mieliby zaczynać naukę podstaw
 matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, że to jest w ogóle
@@ -355,7 +356,7 @@ deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 
 Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
-[R33 ⬝⬝⬝ a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)
+[R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
@@ -573,3 +574,5 @@ lewą stronę (`rw[← ...]`), nie wyjaśniłem, jak to działa. Teraz już wyja
     "siebie", a więc procesem *iteracyjnego wykształcenia (nomen omen \{się\})* w *dialogu* z
     poprzednimi i przyszłymi wirtualnymi wersjami ("siebie"). Ale *wyraźnie* i *jasno*, czyli
     formalnie, powiemy to najprawdopodobniej dopiero w drugiej części.
+
+[^5]: Czy ktoś mi pomoże znaleźć miejsce, w którym coś w tym stylu napisał Gombrowicz?
