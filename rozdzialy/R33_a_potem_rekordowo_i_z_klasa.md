@@ -374,6 +374,8 @@ def is_hom_sg_nice (f : X → Y) := ∀ a b : X, f (a * b) = (f a) * (f b)
 end z_klas--ą
 ```
 
+Klasa?
+
 ## Co tu zaszło?
 
 Zacznijmy od przeczytania kodu po ludzku, na razie pomijając definicję klasy `Semigroup`.
@@ -514,71 +516,123 @@ instance : Zloz Nat where
 #eval zloz 2 3     -- 6
 ```
 
-TODO o używaniu do rozumowania klas wirtualnych
+## Tekst służy do myślenia i działania, myślenie jest działaniem, działanie jest myśleniem, więc działanie służy do pisania i czytania
 
-TODO Przerobić całość niżej:
+To jest szczególny przypadek *wieloznaczności hipotetycznej*:
 
-To jest na przykład definicja klasy `Mul`, którą można znaleźć w pliku Prelude.lean:
+```lean 
+namespace na_nowo
 
-```lean
-class Mul (α : Type u) where
-  mul : α → α → α
+class Semigroup (X : Type u) extends Mul X where
+  assoc : ∀ a b c : X, (a * b) * c = a * (b * c)
+
+class Monoid (X : Type u) extends Semigroup X, One X where
+  one_mul : ∀ x : X, 1 * x = x
+  mul_one : ∀ x : X, x * 1 = x
 ```
 
-Mamy tu (specjalnie traktowany, bo to klasa) rekord, który zawiera tylko jedno pole o nazwie `mul`,
-którego wartością musi być działanie binarne na termach (dowolnego) typu `α`. Klasa parametryczna
-`Semigroup` dziedziczy interfejs klasy `Mul` wyspecjalizowanej na tym samym parametrze, co znaczy,
-że jest (między innymi) rekordem o polach `mul` i `assoc`. A więc do tego momentu to równie dobrze
-mogłyby być zwykłe rekordy. Coś nowego pojawia się w linii, ...
+Dziedziczenie z klasy `Mul` daje interfejs w postaci hipotetycznego działania binarne o nazwie
+`mul`, które można zapisywać wzrostkowo jako `*`. W tym momencie (pliku) to działanie jest czysto
+hipotetyczne, ponieważ w historii tego świata nie pojawiła się jeszcze żadna instancja klas
+`Semigroup` i `Monoid`. Przedtem nazywałem to działanie `op`, ale jak wiesz, brzmienie nazwy nie ma
+znaczenia.
+
+Dziedziczenie z klasy `One` daje interfejs w postaci hipotetycznego elementu wyróżnionego o nazwie
+`one`, który możemy oznaczać za pomoccą symbolu `1`.
+
+Ponieważ działanie nazywa się teraz `mul`, zmieniłem odpowiednio nazwy własności bycia jednostką na
+`one_mul` i `mul_one`.
 
 ```lean
---- ..., którą możemy odczytać tak: *Gdy będą potrzebne*, skocz mi po rekordy implementujące
---- interfejs klas `Semigroup X` i `Semigroup Y`.
-variable [Semigroup X] [Semigroup Y]
+theorem one_u_neat [Monoid X] (x : X) :
+
+  (∀ v : X, x * v = v ∧ v * x = v) → x = 1 :=
+
+  by
+  intro h1
+  have h2 := h1 1
+  have h3 := h1 x
+  have h4 := Eq.symm (Monoid.one_mul x)
+  calc 
+    x = 1 * x := h4
+    _ = 1     := h2.right
 ```
 
-Nigdzie nie zdefiniowaliśmy *instancji* (bo tak się nazywają) tych dwóch klas, ale to *nie ma
-znaczenia*, bo twierdzenia są funkcjami *nieredukowalnymi*, bo nie ma potrzeby ewaluować ich
-aplikacji (chodzi o zasadę proof irrelevance, pamiętasz?), wobec czego nie może wystąpić sytuacja, w
-której aplikacja pola/działania `mul` byłaby ewaluowana. Inaczej mówiąc, to jest kawałek teorii
-matematycznej bez żadnych "konkretów", takich jak jabłka Kasi albo Jacka.
+Chociaż nie istnieją jeszcze żadne monoidy, możemy tworzyć *konstruktywne* dowody twierdzeń, które
+ich dotyczą. Konstruktywność dowodu polega na interpretacji pojęcia prawdziwości zdania jako
+istnienia dowodu tego zdania, a nie na istnieniu termów zamieszkujących typy, o których mówią coś
+dowodzone konstruktywnie zdania.
 
-W pliku Notation.lean znajdujemy takie oto fragmenty dotyczące symbolu `*` (to tylko ciekawostka,
-sam tego do końca nie rozumiem, bo nie muszę i na razie raczej nie chcę tego dobrze rozumieć):
+Dowód twierdzenia `one_u_neat` sformatowałem w ten nowy sposób, bo wydał mi się bardziej elegancki i
+czytelny. Skonstruowałem go tak a nie inaczej, żeby ułatwić czytanie dowodu ze zrozumieniem poprzez
+interakcję z Leanem. Na przykład, domyślenie się, jakim zdaniem jest aplikacja `h1 1` nie jest
+szczególnie trudne, ale można skorzystać z kontekstu, żeby to zdanie mieć cały czas przed oczami i
+poczuć dzięki temu kojącą prostotę tego kroku dowodu.
+
+Odwrócenie równania za pomocą `Eq.symm` też nie jest skomplikowanym przekształceniem, ale trzeba
+wiedzieć, że potrzebne równanie nosi nazwę `Monoid.one_mul`. Tworzenie hipotezy pomocniczej `h4`
+pozwala łatwo rozwiązać ten problem pisząc tylko `Monoid.`, naciskając Tab i szukając
+(hipotetycznego) dowodu równania na liście kontynuacji.
+
+Hipotez pomocniczych `h2`-`h4` nie stworzyłem na początku, tylko później, na podstawie tego, czego w
+jakimś momencie, gdy byłem "niżej" w konstrukcji dowodu, domagał się Lean.
+
+Podobnie, możemy konstruktywnie udowodnić w ten sposób twierdzenie, że istnieje element neutralny
+monoidu, chociaż nie ma jeszcze żadnego monoidu. To jest możliwe, ponieważ parametrem tego
+twierdzenia jest hipotetyczny monoid i dowodzone zdanie dotyczy tego hipotetycznego termu.
 
 ```lean
-@[inherit_doc] infixl:70 " * "   => HMul.hMul
+theorem the_one_exists [Monoid X] :
 
--- ...
+  ∃ x : X, ∀ v : X, x * v = v ∧ v * x = v :=
+  
+  by
+  apply Exists.intro
+  intro v
+  apply And.intro
+  rename_i M
+  apply M.one_mul
+  rename_i M
+  exact M.mul_one v
 
-macro_rules | `($x * $y)   => `(binop% HMul.hMul $x $y)
-
--- ...
-
-recommended_spelling "mul" for "*" in [HMul.hMul, «term_*_»]
+end na_nowo
 ```
 
-Tymi fragmentami kodu nie będziemy się interesować, bo dotyczą kwestii związanych z notacją, które
-stają się ważne dopiero wtedy, gdy chcemy zrobić coś bardziej skomplikowanego niż zwykłe
-przeciążanie symboli oznaczających działania. No ale przecież tutaj pojawia się klasa `HMul`, a
-*nie* `Mul`. O co więc chodzi?
+## No już niech Ci będzie. Ale jak działa `Mul`?!
 
-W plik Prelude.lean znajdziemy też to:
+Na zniechętę do samodzielnej eksploracji znakomitych książek na temat programowania i dowodzenia w
+Leanie dostępnych online, spróbuję objaśnić, jak dokładnie działa przeciążenie gwiazdki w obcym mi
+[stylu powściągliwym](https://youtu.be/qwj52Wc_y4k?si=uRE8U3Lc5cJmSDlD):
+
+Klasa `HMul` to interfejs operacji na dowolnych dwóch, niekoniecznie takich samych typach, która
+może zwracać rezultat jeszcze innego typu:
+
+```lean
+class HMul (α : Type u) (β : Type v) (γ : outParam (Type w)) where
+  hMul : α → β → γ
+```
+
+Specjalne oznaczenie parametru oznaczającego typ *wynik* jako `outParam` mówi Leanowi, żeby szukając
+pasującego znaczenia (to jest instancji) słowa `hMul` (to jest pola klasy `HMul`) uwzględniał
+również wynikający z kontekstu użycia typ rezultatu. Czasami okazuje się, że uwzględnienie tej
+informacji jest konieczne do znalezienia znaczenia.
+
+W pliku Prelude.lean zdefiniowana jest również następująca instancja tej klasy, ...
 
 ```lean
 instance instHMul [Mul α] : HMul α α α where
   hMul a b := Mul.mul a b
 ```
 
-To jest *instancja klasy `Mul`*, czyli specjalnie traktowany *term* specjalnie traktowanego typu
-rekordowego (to jest klasy) `HMul`. Gdy Lean widzi, że stosujemy gdzieś wzrostkowo symbol `*` do
-termów typów `α` i `β`, to oczekuje, że będzie istniała, przynajmniej *hipotetycznie*, to jest
-przynajmniej jako zadeklarowany w specjalny sposób parametr, instancja klasy `HMul` specjalizującej
-się w typach `α` i `β`, bo zgodnie z `infixl:70 " * " => HMul.hMul`, symbol `*` oznacza tylko
-aplikowaną wzrostkowo funkcję/pole `HMul.hMul`. To nie jest zwykłe pole, bo to nie jest zwykły
-rekord; to jest pole "wirtualne", które jest częścią specyfikacji wirtualnego interfejsu, gdzie
-wirtualność polega na tym, że *ten sam* interfejs może mieć *wiele implementacji*, obsługujących
-różne pary typów.
+... która "mówi" Leanowi, że jeśli trafi na przypadek aplikacji `hMul` do dwóch argumentów tego
+samego typu, której rezultat jest również tego typu, ma traktować taką aplikację jako aplikację pola
+`mul` klasy `Mul`. W momencie, w którym taka aplikacja *ma być ewaluowana*, a nie tylko sprawdzana
+pod względem poprawności składniowej albo logicznej, co w teorii typów jest tym samym, Lean szuka
+więc pasującej do kontekstu użycia instancji klasy `Mul`.
+
+Osateczny rezultat tego wszystkiego jest taki, że symbol `*` ma w pewnym sensie *jedno* znaczenie,
+ale tym znaczeniem nie jest teoriotypowy term, tylko abstrakcyjny interfejs, którego znaczenie
+rozumiane jako implementacja językowa zależy od kontekstu użycia.
 
 ### Przypisy
 
