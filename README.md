@@ -2,7 +2,7 @@
 się powiedzieć jasno, można zapisać w języku <a
 href="https://en.wikipedia.org/wiki/Type_theory">teorii typów</a>.<br/> A wszystko, co zostało
 zapisane w języku teorii typów, można sprawdzić za pomocą algorytmu i zredukować do unikalnej
-najprostszej możliwej postaci.</em></div>
+najprostszej postaci.</em></div>
 
 <br/>
 <br/>
