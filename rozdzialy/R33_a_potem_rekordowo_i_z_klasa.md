@@ -603,7 +603,7 @@ theorem the_one_exists [Monoid X] :
 end na_nowo
 ```
 
-## No już niech Ci będzie. Ale jak działa `Mul`?!
+## No niech Ci będzie. Ale jak działa `Mul`?!
 
 Na zniechętę do samodzielnej eksploracji znakomitych książek na temat programowania i dowodzenia w
 Leanie dostępnych online, spróbuję objaśnić, jak dokładnie działa przeciążenie gwiazdki w obcym mi
