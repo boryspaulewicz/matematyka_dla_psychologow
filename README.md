@@ -69,8 +69,8 @@ przyczynowego *wiedząc dlaczego* używa się go w taki a nie inny sposób, czyl
 naukowca przystało, zamiast bezmyślnie i często popełniając szkolne błędy robić coś, bo "tak się
 robi", całkowicie opierając się na domniemanym autorytecie zajętego zdobywaniem grantów i
 przepychaniem publikacji akademickiego stada. Ale moim zdaniem przede wszystkim po to, żeby
-doświadczać dzięki temu głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i
-mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
+doświadczać głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i mocy
+wynikających z opanowywania nowych sposobów myślenia, i piękna.
 
 **Dlaczego studenci psychologii albo psychologowie akademiccy mieliby zaczynać naukę podstaw
 matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, że to jest w ogóle
