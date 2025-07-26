@@ -127,8 +127,9 @@ niedobór może być przyczyną poddania się w wysiłkach zrozumienia o co chod
 wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i - jak już wspomniałem -
 często się powtarzam, a zadań jest mało, to wydaje mi się, że ten tekst powinien stawiać pewien opór
 i zachęcać tak do sporządzania notatek. Poza tym wtrącenia mają czasem skłaniać czytelników do
-myślenia o tych samych sprawach w różny sposób, co jest zresztą jednym z centralnych tematów tej
-książki. A że lubię, to tym bardziej nie zamierzam się w tym zbytnio ograniczać.
+szybkiego przełączania się między różnymi sposobami myślenia o tych samych sprawach, co jest zresztą
+jednym z centralnych tematów tej książki. A że lubię, to tym bardziej nie zamierzam się w tym
+zbytnio ograniczać.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
