@@ -438,8 +438,8 @@ mnie, wywołuje:
 
 *zamek w drzwiach lub zamek w spodniach* 
 
-Jakby nam (?) migotały dwa sposoby użycia słowa, prawda? Jeden to użycie słowa "zamek" jako nazwy
-czegoś *pozajęzykowego*, ...
+Jakby nam (?) migotały dwa sposoby użycia tego samego słowa, prawda? Jeden sposób to użycie słowa
+"zamek" jako nazwy czegoś *pozajęzykowego*, ...
 
 *zamek* (który jest) *w drzwiach lub w spodniach*
 
