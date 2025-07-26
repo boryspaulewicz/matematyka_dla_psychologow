@@ -1,3 +1,11 @@
+2025.07.26 Skończyłem pisać wstępną wersję [rozdziału
+33](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md),
+dotyczącego kontrolowania wieloznaczności za pomocą polimorfizmu ad-hoc, który ma w Leanie elegancką
+i teoretycznie uzasadnioną implementację za pomocą elastycznego procesu syntezy implementacji
+wirtualnych interfejsów. Wracam też do rozpoczętego wcześniej, tylko niejawnie, wątku homomorfizmów,
+i mówię trochę o głębszych problemach związanych z wieloznacznościami, którymi jestem zmuszony
+często operować w tej książce. Nawet o zamkach też coś tam opowiadam.
+
 2025.07.24 Skończyłem pisać wstępną wersję [rozdziału o
 listach](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md). Można się z niego dowiedzieć trochę o
 listach, ale przede wszystkim próbowałem się w nim zastanowić nad rozmaitymi rolami wszelkiego

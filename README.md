@@ -8,10 +8,13 @@ najprostszej możliwej postaci.</em></div>
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.24 Skończyłem pisać wstępną wersję [rozdziału o
-listach](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md). Można się z niego dowiedzieć trochę o
-listach, ale przede wszystkim próbowałem się w nim zastanowić nad rozmaitymi rolami wszelkiego
-rodzaju list w myśleniu i w życiu.
+**Aktualności**: 2025.07.26 Skończyłem pisać wstępną wersję [rozdziału
+33](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md),
+dotyczącego kontrolowania wieloznaczności za pomocą polimorfizmu ad-hoc, który ma w Leanie elegancką
+i teoretycznie uzasadnioną implementację za pomocą elastycznego procesu syntezy implementacji
+wirtualnych interfejsów. Wracam też do rozpoczętego wcześniej, tylko niejawnie, wątku homomorfizmów,
+i mówię trochę o głębszych problemach związanych z wieloznacznościami, którymi jestem zmuszony
+często operować w tej książce. Nawet o zamkach też coś tam opowiadam.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych *krytycznych*.
@@ -354,9 +357,9 @@ deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 [R32 \["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"\]](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md)  
 *Idąc jakąś drogą piszemy jakieś listy*
 
-Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
-
 [R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)
+
+Uwaga, plac budowy! Informacje zwrotne jak zawsze mile widziane:
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
