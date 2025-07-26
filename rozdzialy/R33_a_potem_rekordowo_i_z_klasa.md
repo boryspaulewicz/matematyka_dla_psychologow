@@ -180,7 +180,7 @@ mogłyby działać.
 
 W tym celu na początek (*teraz* jest początek?! \{ale o co chodzi? przecież początek jest
 *zawsze*\}) przypomnę naszą małą hierarchię algebr abstrakcyjnych, którą zakodowaliśmy korzystając z
-mechanizmu dziedziczenia struktur:
+dziedziczenia struktur/rekordów:
 
 ```lean
 structure Semigroup (α : Type u) where
@@ -197,8 +197,8 @@ structure Monoid (α : Type u) extends Semigroup α where
   unit_add : ∀ a : α, op a u = a
 ```
 
-Gdybyśmy mieli ochotę, zamiast pisać w notacji przedrostkowej `(op (op a b) c)`, pisać w notacji
-wzrostkowej na przykład `((a op b) op c)`, moglibyśmy spróbować to zrobić tak:
+Gdybyśmy mieli ochotę, zamiast pisać w notacji przedrostkowej `(op (op a b) c)` pisać w notacji
+wzrostkowej `((a op b) op c)`, moglibyśmy spróbować to zrobić tak:
 
 ```lean
 variable (S : Semigroup α)
@@ -225,7 +225,7 @@ variable (a b c : α)
 -- czegoś używane, symbole `a`, `b` i `c` będą niejawnymi parametrami typu `α`, który też będzie
 -- niejawnym parametrem.
 
--- Lean nie sygnalizuje błędu.
+-- Lean nie sygnalizuje błędu, a więc możemy pisać wzrostkowo.
 #check (a op b) op c
 
 -- Nadal możemy tak pisać, ale kto by tak teraz chciał?
@@ -244,7 +244,7 @@ konsekwentnym i skutecznym myśleniu z dowolnych punktów widzenia na dowolny te
 będziemy przyglądać się temu, *jak mówią matematycy*. I znowu wystarczy nam rzut oka na krótkie
 fragmenty, które pojawiają się często na początku pierwszych rozdziałów, takie jak ten:
 
-*Niech `f : ℕ → ℤ` będzie inkluzją liczb naturalnych w zbiorze liczb całkowitych `f(n) = n`. Wtedy
+*Niech `f : ℕ → ℤ` będzie inkluzją liczb naturalnych w zbiór liczb całkowitych `f(n) = n`. Wtedy
 `f(m + n) = f(m) + f(n)`,*
 
 Zaczniemy od prerekwizytów. Napotykamy tutaj (ponownie?) słowo "inkluzja" i domyślamy się, że to
