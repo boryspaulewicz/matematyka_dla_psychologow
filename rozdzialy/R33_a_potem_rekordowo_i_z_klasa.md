@@ -371,7 +371,8 @@ class Semigroup (X : Type u) extends Mul X where
 
 variable [Semigroup X] [Semigroup Y]
 
-def is_hom_sg_nice (f : X → Y) := ∀ a b : X, f (a * b) = (f a) * (f b)
+def is_hom_sg_nice (f : X → Y) := 
+    ∀ a b : X, f (a * b) = (f a) * (f b)
 
 end z_klas--ą
 ```
