@@ -357,7 +357,7 @@ deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
 [R32 \["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"\]](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md)  
 *Idąc jakąś drogą piszemy jakieś listy*
 
-[R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)
+[R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)  
 *Co to ma znaczyć?!*
 
 <hr>
