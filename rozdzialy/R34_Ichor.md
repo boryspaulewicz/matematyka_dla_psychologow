@@ -101,8 +101,8 @@ traktowanymi jako *punkty* w pewnej *abstrakcyjnej strukturze*, wystarczająco d
 codzienne potrzeby praktyczne określonymi lokalizacjami w przestrzeni fizycznej.
 
 Robimy coś takiego nieustannie myśląc o czymkolwiek, a mimo to całe pokolenia próbujących zrozumieć
-na czym to polega, skądinąc bardzo inteligentnych ludzi mogą się konsekwentnie gubić próbując
-znaleźć odpowiedź na pytanie co tutaj jest czego czym i jak to wszystko razem działa.
+na czym to polega, skądinąd relatywnie bystrych ludzi mogą się konsekwentnie gubić próbując znaleźć
+odpowiedź na pytanie co tutaj jest czego czym i jak to wszystko razem działa.
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
