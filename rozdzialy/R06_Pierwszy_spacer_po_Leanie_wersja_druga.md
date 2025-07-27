@@ -29,7 +29,7 @@ nierzadko strukturalnie dosyć prostych i jednocześnie "dziurawych" - uzasadnie
 artykułach naukowych. Często sama *próba* przeprowadzenia takiej formalizacji pozwoli Ci wskazać,
 gdzie *dokładnie* są ewentualne *błędy logiczne* lub *kluczowe niejasności*. Celowo niedokończony i
 mam nadzieję, że interesujący przykład tego rodzaju zabawy znajdziesz [w jednym z następnych
-rozdziałów](./Duzy_predykaty_Bog.md).
+rozdziałów](./R12_Duzy_kwantyfikator.md).
 
 <hr>
 

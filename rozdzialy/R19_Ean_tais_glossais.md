@@ -195,7 +195,7 @@ czegokolwiek*.
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz teraz ten
 fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz
 tylko szczegóły są nowe. A właściwie przecież już
-[wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
+[wtedy](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87),
 niemal na samym początku, nawet szczegóły były w zasadzie takie same. Jedyne, co teraz się zmienia,
 to punkt widzenia na coś doskonale nam obojgu znanego.
 

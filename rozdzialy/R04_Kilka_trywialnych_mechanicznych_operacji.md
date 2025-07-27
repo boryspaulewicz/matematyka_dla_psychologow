@@ -200,4 +200,5 @@ ten sam w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa 
 pewnych reguł - i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu tych
 *reguł*, ponieważ miałaś okazję doświadczyć pewnych sposobów, w jaki można te reguły *stosować*.
 
-Będziemy odtąd robić podobne rzeczy, ale zwykle [nie na kartce](Spacerek_po_Leanie_1.md).
+Będziemy odtąd robić podobne rzeczy, ale zwykle [nie na
+kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
