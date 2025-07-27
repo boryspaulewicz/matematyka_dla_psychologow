@@ -81,7 +81,7 @@ drugiego. Pomijamy też szczegóły dotyczące tego, jakie (na przykład, teoret
 się albo kicanie) to mogą być sposoby. Zamiast tego, o ile chodzi na przykład o jakieś miasto,
 korzystamy przede wszystkim, na ile jesteśmy w stanie, z *abstrakcyjnej siatki* ulic. Tą potrafimy
 *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w
-mowie i w głowie - *zachowując ten systematyczny związek*.
+mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
 To taki nasz codzienny, nadający sens każdemu aktowi myślenia, nonszalancki homomorfizm.
 
