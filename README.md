@@ -101,8 +101,8 @@ długo wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*
 gdyby zdarzało mi się sprawiać niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do
 mnie w ten sposób i o takich sprawach, gdy byłem studentem. Może odpowiadałaby mi wtedy bardziej
 forma męska, ale forma żeńska też by mi nie przeszkadzała i zdaje się, że nie przeszkadza
-czytelnikom. A poza tym piszę również w pewnym sensie też do *przyszłej* psychologii, która również
-jest Kobietą.
+czytelnikom. A poza tym piszę również w pewnym sensie też do *przyszłej* psychologii, która jest
+Kobietą.
 
 **O (czasem nad)używaniu pisma pochyłego**: Może porównaj, jak Ci się czyta te dwa fragmenty (które
 napisałem w
@@ -121,7 +121,7 @@ uwagę?
 *wiele* razy. I nie zamierzam nikogo za to przepraszać. Jeżeli [powtarzanie jest matką
 wiedzy](https://pl.wiktionary.org/wiki/repetitio_est_mater_studiorum) (i rozumienia), to moim
 zdaniem powtarzanie *się* jest jej (i jego) ojcem. Dla kogoś, komu nie są już potrzebne, takie
-wymuszone powtórki będą pewnie co najwyżej trochę irytujące; dla kogoś, kto ich potrzebuje, ich
+wymuszone powtórki będą pewnie najwyżej czasami drażniące; dla kogoś, kto ich potrzebuje, ich
 niedobór może być przyczyną poddania się w wysiłkach zrozumienia o co chodzi.
 
 **O (licznych \{i nierzadko zagnieżdżonych\}) wtrąceniach**: Oficjalny powód jest taki, że ponieważ
@@ -129,8 +129,10 @@ wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i -
 często się powtarzam, a zadań jest mało, to wydaje mi się, że ten tekst powinien stawiać pewien opór
 i zachęcać tak do robienia własnych notatek. Poza tym wtrącenia mają czasem skłaniać czytelników do
 szybkiego przełączania się między różnymi sposobami myślenia o tych samych sprawach, co jest zresztą
-jednym z centralnych tematów tej książki. A że lubię, to tym bardziej nie zamierzam się w tym
-zbytnio ograniczać.
+jednym z centralnych tematów tej książki. Nie chodzi mi wtedy o to, żeby zatrzymać się i dłużej
+zastanowić nad tym, co się pojawia w nawiasach, chociaż to się również może czasem przydać, tylko o
+to, żeby blisko ze sobą związane perpspektywy zabrzmiały jak ulotny akord i zaczęły się łatwiej
+kojarzyć. A że lubię się tak wtrącać, to tym bardziej nie zamierzam się w tym zbytnio ograniczać.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
@@ -176,18 +178,18 @@ względnie naturalny sposób, bo do pewnego stopnia *czytelny dla niespecjalist�
 treści o charakterze matematycznym i jest jednocześnie pełnowartościowym ([funkcyjnym i
 czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)) językiem programowania. W dodatku
 to nie jest jakiś tam kolejny taki język, tylko taki, którego składnia kształtowała się stopniowo
-jako rezultat badań wybitnych matematyków i filozofów dotyczących podstaw matematyki. Ale teoria
-typów także dlatego, że być może najciekawszym i najważniejszym zastosowaniem matematyki w
-psychologii *nie* jest moim zdaniem wcale testowanie hipotez statystycznych ani wnioskowanie
-przyczynowe. Według mnie *nie* jest nim również formalizacja wyrażonych w języku naturalnym teorii
-lub modeli psychologicznych w postaci matematycznych modeli rozmaitych zjawisk. Być może
-najważniejszym zastosowaniem matematyki we współczesnej psychologii jest w mojej ocenie
-*formalizacja rozumowań*, które psychologowie wyrażają często nieczytelnie i niejasno w swoich
-publikacjach. A teoria typów wyposażona w [typy
+jako rezultat badań dotyczących podstaw matematyki, prowadzonych przez wybitnych matematyków i
+filozofów przeszłości. Ale teoria typów także dlatego, że być może najciekawszym i najważniejszym
+zastosowaniem matematyki w psychologii *nie* jest moim zdaniem wcale testowanie hipotez
+statystycznych ani wnioskowanie przyczynowe. Według mnie *nie* jest nim również formalizacja
+wyrażonych w języku naturalnym teorii lub modeli psychologicznych w postaci matematycznych modeli
+rozmaitych zjawisk. Być może najważniejszym zastosowaniem matematyki we współczesnej psychologii
+jest w mojej ocenie *formalizacja rozumowań*, które psychologowie wyrażają często nieczytelnie i
+niejasno w swoich publikacjach. A teoria typów wyposażona w [typy
 zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się czymś najbliższym, co
 obecnie mamy, do realizacji wizji[^2], którą [Bertrand
 Russell](https://pl.wikipedia.org/wiki/Bertrand_Russell) przedstawił w wykładzie zatytułowanym
-*Logika jako istota filozofii* w 1914 roku w Londynie, który w wersji przetłumaczonej na język
+*Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji przetłumaczonej na język
 polski można znaleźć
 [tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
 Wreszcie akurat Lean dlatego, że ma mniej od Coq'a "przegadaną" składnię, rozwija się ostatnio dość
@@ -220,18 +222,19 @@ zwrotnym pochodzącym od jej czytelników, zachodzi proces uczenia *się* - cho�
 jednoznacznie czego[^4] - i proces odkrywania, czy raczej *ustalania się*, może *chwilowo
 dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
-W dodatku na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład
-tylko tego zdania. Byłoby wskazane, gdyby ten proces zaczął być regulowany w większym niż to ma na
-razie miejsce stopniu na podstawie informacji zwrotnych "z zewnątrz", bo zachowania ludzi powstają
-zwykle w ramach społecznych interakcji i nabierają dzięki takim interakcjom (również nieunikalnego)
-sensu. Na przykład, *to konkretne zdanie* powstało jako rezultat interakcji wielu bardzo sobie
-bliskich, bo mających wiele wspólnych cech, ale jednak *różnych* osób, bo *różnych wersji tej samej
-osoby*, z których każda istniała tylko *wirtualnie* i tylko *przez chwilę*, a wniosła coś do
-końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), to zaś, co w
-ten sposób powstało lub uległo przekształceniu, przekazując dalej. Nad "zewnętrznymi" źródłami
-takich informacji mam jednak małą kontrolę, a szkoda, bo przecież, z (pewnej, którą poznasz później)
-definicji, im więcej punktów widzenia bierze udział w tym procesie i im bardziej te punkty widzenia
-są różne, tym większa jest szansa na zbliżenie się do czegoś dobrego.
+Na pewnym poziomie abstrakcji nie ma różnicy między napisaniem całej książki a na przykład tego
+zdania. Na *odpowiednim* poziomie abstrakcji jasno widać strukturalne podobieństwa. Byłoby wskazane,
+gdyby ten proces zaczął być regulowany w większym niż to ma na razie miejsce stopniu na podstawie
+informacji zwrotnych "z zewnątrz", bo zachowania ludzi powstają zwykle w ramach społecznych
+interakcji i nabierają dzięki takim interakcjom (również nieunikalnego) sensu. Na przykład, *to
+konkretne zdanie* powstało jako rezultat interakcji wielu bardzo sobie bliskich, bo mających wiele
+wspólnych cech, ale jednak *różnych* osób, bo *różnych wersji tej samej osoby*, z których każda
+istniała tylko *wirtualnie* i tylko *przez chwilę*, a wniosła coś do końcowego rezultatu rozwijając
+albo kwestionując to, co zrobiły te poprzednie (wersje), to zaś, co w ten sposób powstało lub uległo
+przekształceniu, przekazując dalej. Nad "zewnętrznymi" źródłami takich informacji mam jednak małą
+kontrolę, a szkoda, bo przecież, z (pewnej, którą poznasz później) definicji, im więcej punktów
+widzenia bierze udział w tym procesie i im bardziej te punkty widzenia są różne, tym większa jest
+szansa na zbliżenie się do czegoś dobrego.
 
 Trudno mi powiedziec, czy te ostatnie uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tutaj w wersji
