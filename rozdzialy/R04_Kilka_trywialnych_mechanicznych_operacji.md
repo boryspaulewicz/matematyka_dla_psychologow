@@ -1,6 +1,6 @@
 ## O czym teraz będzie
 
-sW tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole
+W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole
 podstawowej, ale być może nie zastanawiałaś się jak dotąd dłużej, o co w nim właściwie
 chodzi. Będziemy się przyglądać z bliska wybranym, ważnym i często wykonywanym w matematyce
 czynnościom, polegającym tak naprawdę na dosyć prostych mechanicznych operacjach.
