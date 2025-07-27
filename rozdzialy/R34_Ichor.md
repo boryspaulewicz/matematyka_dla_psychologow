@@ -49,21 +49,23 @@ Widzisz podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad tr
 wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo dokładnie na tym
 polega wskazywanie komuś drogi.
 
-Albo wyobraź sobie, że musisz ulokować należących do różnych wydziałów pracowników różnych szczebli
-w kilku wielopiętrowych budynkach. Wypadałoby pewnie przypisać (własność) wydziały do budynków, albo
-odwrotnie, co na jedno wychodzi, jeśli budynków jest tyle, ile jest wydziałów (izomorfizm) i może
-pracownicy wyższych szczebli, którzy mają przecież jakiś rodzaj władzy nad pracownikami niższych
-szczebli, powinni pracować na wyższych piętrach.
+Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować należących do różnych wydziałów
+pracowników różnych szczebli w kilku wielopiętrowych budynkach całkiem nowej filii, która właśnie
+powstaje w
+[Radomiu](https://sites.stat.columbia.edu/gelman/stuff_for_blog/spelling.pdf)[^1]. Wypadałoby pewnie
+przypisać (własność) wydziały do budynków, albo odwrotnie, co na jedno wychodzi, jeśli budynków jest
+tyle, ile jest wydziałów (izomorfizm). I może pracownicy wyższych szczebli, którzy mają przecież
+jakiś rodzaj władzy nad pracownikami niższych szczebli, powinni pracować na wyższych piętrach.
 
 Formalna struktura tego ostatniego przykładu rysuje się niemal sama, prawda? Ale poprzednie są
-zdecydowanie mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
+znacznie mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję) razem.
 
 Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie fragmentów
-tego tekstu na porządek następujących odtąd działań. Może najpierw spróbujmy
+tego rozdziału na porządek następujących odtąd działań. Może najpierw spróbujmy
 [wygrzebać](https://literatura.wywrota.pl/wiersz-klasyka/24806-staff-leopold-rzesa.html) z bajora
 tej mętnej parapoetyckiej prozy jakieś pożywne glony, oddzielając, jako chwilowo nieinteresujący,
-język zwrotów grzecznościowych (*niech Pan*), zamieniając nazwy własne na *abstrakcyjne oznaczenia*,
+język zwrotów grzecznościowych (*niech Pan*), zamieniając nazwy własne na abstrakcyjne *oznaczenia*,
 takie jak `m` (jak *m*iejsce na *m*apie), korzystając z faktu, że w takich sytuacjach zwykle
 najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co najwyżej domniemane -
 redundancje (*w lewo* zamiast *niech Pan skręci w lewo*) i w ogóle ignorując różne subtelności
@@ -85,12 +87,14 @@ mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
 To taki nasz codzienny, nadający sens każdemu aktowi myślenia, nonszalancki homomorfizm.
 
-Warto może już na tym etapie zwrócić uwagę, że nie ma czegoś takiego, jak reprezentacja, która
-niczego nie reprezentuje choćby *potencjalnie*. Dla wszelkiego rodzaju bycia reprezentacją czy
+I nie chodzi tu o reprezentatywność w znaczeniu
+[statystycznym](https://statmodeling.stat.columbia.edu/2023/05/22/what-exactly-is-a-representative-sample/#comment-2217140). Warto
+może już na tym etapie zwrócić uwagę, że nie ma czegoś takiego, jak *reprezentacja, która niczego
+nie reprezentuje* choćby *potencjalnie*. Dla wszelkiego rodzaju bycia reprezentacją czy
 reprezentowania *jako takego* (a nie na przykład rozpartywanego ze względu na jakiś rodzaj
 skuteczności reprezentowania, taki jak dajmy na to koszty metaboliczne, gdy to jest reprezentowanie
-zrealizowane biologicznie) nie ma znaczenia, jak *zaimplementowane* albo *zrealizowane fizycznie*
-jest to reprezentowanie, dopóki w pewien sposób *działa*, to jest dopóki *my używamy*, albo *jakiś
+zrealizowane biologicznie), nie ma znaczenia, jak *zaimplementowane* albo *zrealizowane fizycznie*
+jest to reprezentowanie, dopóki w pewien sposób *działa*. To jest dopóki *my używamy*, albo *jakiś
 Ktoś* używa czegoś, dosłownie czegokolwiek, *do reprezentowania* czegoś w pewien sposób. Ze względu
 na *pewnego rodzaju pytania*, implementacja nie ma tu znaczenia, ponieważ pojęcia reprezentacji i
 reprezentowania są pojęciami *funkcjonalnymi*.
@@ -101,9 +105,13 @@ traktowanymi jako *punkty* w pewnej *abstrakcyjnej strukturze*, wystarczająco d
 codzienne potrzeby praktyczne określonymi lokalizacjami w przestrzeni fizycznej.
 
 Robimy coś takiego nieustannie myśląc o czymkolwiek, a mimo to całe pokolenia próbujących zrozumieć
-na czym to polega, skądinąd relatywnie bystrych ludzi mogą się konsekwentnie gubić próbując znaleźć
-odpowiedź na pytanie co tutaj jest czego czym i jak to wszystko razem działa.
+na czym to polega, skądinąd relatywnie inteligentnych ludzi, mogą się konsekwentnie gubić próbując
+znaleźć odpowiedź na pytanie, co tutaj jest czego czym i jak to wszystko razem działa.
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
 CDN
+
+### Przypisy
+
+[^1]: s. 1
