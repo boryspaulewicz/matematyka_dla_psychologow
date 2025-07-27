@@ -226,21 +226,21 @@ polegał wtedy na *nanoszeniu dziur na rolce papieru*, zawiniętej bodaj wokół
 miarowym tempie bębna. Pisząc w odpowiedzi, o ile pamiętam dość szybkiej, Saul zaproponował, że
 *zleci digitalizację swojej sekretarce*. Zawstydzony odpisałem zaraz, że nie trzeba.
 
-Coś innego, co też na zawsze zmieniło moje życie, a co jest związane z tym, o czym przed chwilą
-mówiłem, przytrafiło mi się w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego
-przedmiotu, Pani Płucienniczak, którą bardzo dobrze wspominam (jednak moją ulubioną nauczycielką na
-zawsze pozostanie Pani Wójcik, która uczyła mnie matematyki), tłumaczyła coś właśnie na tablicy i
-kiedy zrozumiałem (ale czy na pewno?), o czym mówiła, zrozumiałem też jednocześnie coś ważniejszego
-od fizyki: *Wszystko, co da się zrozumieć, ja też mogę zrozumieć, o ile tylko będę miał dość
-informacji i czasu*. Uważam, że jeżeli sięgnęłaś po tą ksiażkę, to Ty też możesz zrozumieć
-*wszystko*, co da się zrozumieć. Jak to ujął Silvanus Thompson w swoim popularnym i dostępnym za
-darmo [podręczniku do rachunku różniczkowo-całkowego](https://calculusmadeeasy.org/), *What one fool
-can do, another can*. Thompson podaje, że to jest *Ancient Simian Proverb*, ale to żart (sprawdź, co
+Coś innego, co też zmieniło moje życie, a co jest związane z tym, o czym przed chwilą mówiłem,
+przytrafiło mi się w szkole podstawowej na lekcji fizyki. Moja nauczycielka z tego przedmiotu, Pani
+Płucienniczak, którą bardzo dobrze wspominam (jednak moją ulubioną nauczycielką na zawsze pozostanie
+Pani Wójcik, która uczyła mnie matematyki), tłumaczyła coś właśnie na tablicy i kiedy zrozumiałem
+(ale czy na pewno?), o czym mówiła, zrozumiałem też jednocześnie coś ważniejszego od fizyki:
+*Wszystko, co da się zrozumieć, ja też mogę zrozumieć, o ile tylko będę miał dość informacji i
+czasu*. Uważam, że jeżeli sięgnęłaś po tą ksiażkę, to Ty też możesz zrozumieć *wszystko*, co da się
+zrozumieć. Jak to ujął Silvanus Thompson w swoim popularnym i dostępnym za darmo
+[podręczniku](https://calculusmadeeasy.org/) do rachunku różniczkowo-całkowego, *what one fool can
+do, another can*. Thompson podaje, że to jest *Ancient Simian Proverb*, ale to żart (sprawdź, co
 znaczy "Simian", jeśli chcesz się dowiedzieć więcej).
 
 Zawsze byłem chudy[^3], dobry z matematyki i dobry z programowania, bo taki się
 [urodziłem](https://en.wikipedia.org/wiki/Three_Identical_Strangers). Z pewnością nie byłem jednak
-nigdy ani tym bardziej nie jestem żadnym geniuszem. Po prostu w szkole podstawowej nie potrafiłem
+nigdy, ani tym bardziej nie jestem, żadnym geniuszem. Po prostu w szkole podstawowej nie potrafiłem
 nie myśleć często o matematyce. Mój wspaniały przyjaciel z licealnej szkolnej ławki, wybitny
 teoretyk prawa i filozof [Wojtek
 Załuski](https://pl.wikipedia.org/wiki/Wojciech_Za%C5%82uski_(prawnik)), jest zdaje mi się
@@ -258,34 +258,39 @@ liceum; uratowała mnie wtedy olimpiada z filozofii. Na studia z psychologii jes
 niektórzy z Was z pewnością przerastają mnie wrodzoną mocą procesora, a poza tym nie jestem już
 młody.
 
-No to skąd się tu w ogóle wziąłem? Uczyłem się długo i systematycznie różnych trudnych rzeczy, a
+No to skąd się tu w ogóle wziąłem? *Uczyłem się* długo i systematycznie różnych trudnych rzeczy, a
 robiłem to, ponieważ znalazłem na siebie sposób. Pracuję na uczelni między innymi dzięki temu, że
 najpierw z popularnej książki Tony'ego Buzana [*Rusz
 głową*](https://lubimyczytac.pl/ksiazka/3822524/rusz-glowa), a potem jeszcze na pierwszym albo
-drugim roku psychologii z podręcznika Johna Andersona, z którego nadal czasem korzystam na
-zajęciach, dowiedziałem się, jak się skuteczniej uczyć, a ze znakomitej [książki
-Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie tłumaczenie "nie
-jest optymalne") dowiedziałem się z kolei, w jaki sposób sobie radzić z ekstremalną wręcz
+drugim roku psychologii z podręcznika Johna Andersona, z którego nadal korzystam na zajęciach,
+dowiedziałem się, jak się skuteczniej uczyć, a ze znakomitej [książki
+Rachlina](https://www.hup.harvard.edu/books/9780674013575) (ale uprzedzam, polskie tłumaczenie nie
+jest "optymalne") dowiedziałem się z kolei, w jaki sposób sobie radzić z ekstremalną wręcz
 prokrastynacją. Dlatego, żeby zachęcić Cię do dalszej lektury i odwdzięczyć się w jakiś sposób tym
 autorom, w następnym rozdziale opowiem Ci krótko, w jaki sposób się uczyłem i czasami wciąż to
 robię, a także jak udało mi się robić to zarazem regularnie i przez dłuższy czas.
 
 Skoro już o takich sprawach mówię, to muszę podkreślić, że nie zostałbym pracownikiem uczelni, gdyby
-nie wsparcie, życzliwość i wyrozumiałość - moich przyjaciół, niezrównanego Michała Wierzchonia, od
-którego dopiero niedawno (bo jestem aż taki głupi) zacząłem się uczyć, że praca dopiero wtedy może
-być naprawdę satysfakcjonująca, kiedy polega na *współ*pracy, i uczciwej, skromnej, mądrej (i
-dowcipnej!)[^2] Marty Siedleckiej, która od dawna dostarcza mi sensownych zajęć - a także Kasi
-Popiołek, która była dla mnie wymarzoną wprost szefową przez te 10 lat, kiedy pracowałem na SWPSie w
-Katowicach. A doktoratu, napisanego najpierw pod kierunkiem bardzo dla mnie ważnego dr
-hab. Krzysztofa Krzyżewskiego, a później prof. Edwarda Nęcki, któremu, podobnie jak temu Pierwszemu,
+nie wsparcie, życzliwość i wyrozumiałość - moich przyjaciół, niezrównanego [Michała
+Wierzchonia](https://pl.wikipedia.org/wiki/Micha%C5%82_Wierzcho%C5%84), od którego dopiero niedawno
+(bo jestem aż taki głupi) zacząłem się uczyć, że praca dopiero wtedy może być naprawdę
+satysfakcjonująca, kiedy polega na *współ*pracy, i uczciwej, skromnej, mądrej (i dowcipnej!)[^2]
+[Marty Siedleckiej](https://scholar.google.com/citations?user=hhIjHrsAAAAJ&hl=pl), która od dawna
+dostarcza mi sensownych zajęć - a także [Kasi
+Popiołek](https://pl.wikipedia.org/wiki/Katarzyna_Popio%C5%82ek), która była dla mnie wymarzoną
+wprost szefową przez te 10 lat, kiedy pracowałem na SWPSie w Katowicach. A doktoratu, napisanego
+najpierw pod kierunkiem bardzo dla mnie ważnego dr hab. [Krzysztofa
+Krzyżewskiego](https://ludzie.nauka.gov.pl/ln/profiles/s4giDUGb2LI), a później prof. [Edwarda
+Nęcki](https://pl.wikipedia.org/wiki/Edward_N%C4%99cka), któremu, podobnie jak temu Pierwszemu,
 zawdzięczam swobodę zajmowania się w owym czasie czym tylko chciałem, być może wcale bym nie
-skończył, gdyby nie liczne rozmowy z dodającym mi stale odwagi Tomkiem Grzegorkiem, moim
-najważniejszym przyjacielem, któremu akurat zawdzięczam znacznie więcej niż to, gdzie dziś pracuję.
+skończył, gdyby nie liczne rozmowy z dodającym mi stale odwagi [Tomkiem
+Grzegorkiem](https://scholar.google.pl/citations?user=qlJ8fVkAAAAJ&hl=pl), moim najważniejszym
+przyjacielem, któremu akurat zawdzięczam znacznie więcej niż to, gdzie dziś pracuję.
 
 Z kolei [Adasiowi Chuderskiemu](https://kognitywistyka.uj.edu.pl/pl_PL/adam-chuderski), który teraz,
 gdy piszę te słowa, jest szefem krakowskiej kognitywistyki, zawdzięczam przygodę z
-[Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która zmieniła na
-zawsze mój sposób myślenia o programowaniu. Podszedł kiedyś do mnie, gdy będąc jeszcze na studiach
+[Lispem](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090), która na zawsze
+zmieniła mój sposób myślenia o programowaniu. Podszedł kiedyś do mnie, gdy będąc jeszcze na studiach
 magisterskich pisałem w C++ procedurę do eksperymetu. Zapytał, w jakim języku piszę, na co
 odpowiedziałem, że w C++. On wtedy powiedział, żartując, że gdyby jego koledzy dowiedzieli się, że
 pisze w C++, to by go wyśmiali. No to zapytałem, niezrażony, w czym On pisze, na co odpowiedział, że
