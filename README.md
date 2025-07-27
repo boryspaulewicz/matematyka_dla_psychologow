@@ -83,14 +83,15 @@ innymi teoria dopasowania między różnymi sposobami opisu, albo uniwersalne na
 i elastycznego operowania różnymi punktami widzenia na to samo.
 
 **O korzystaniu ze sztucznej "inteligencji"**: Nie używam, bo nie lubię, a nie lubię, bo taki na
-przykład ChatGPT to, o ile wiem, monstrualna, żarłoczna papuga, która bezmyślnie powtarza to, co
+przykład ChatGPT to, o ile wiem, monstrualna, żarłoczna papuga, która bezmyślnie powtarza co
 usłyszała, na masową skalę łamiąc przy okazji prawa autorskie i ktora dodaje "od siebie" tylko mniej
 lub bardziej przypadkową zmienność. Poza tym może i przydaje się to monstrum na przykład do
-tworzenia, zwykle gładkiej, ale też jednocześnie płaskiej i generycznej prozy, albo innych tego typu
-rzeczy, ale w tym, w czym to się sprawdza, *sam* chciałbym być coraz lepszy. Dlatego pomysł, żeby
-używać tego rodzaju narzędzi dajmy na to do "tłumaczenia" sensu jakiegoś trudnego tekstu, który
-zamiast tego można by traktować jako okazję do rozwijania - niezwykle cennej i wymagającej długiego
-treningu - umiejętności czytania ze zrozumieniem, uważam za *dystopijny*.
+tworzenia, zwykle gładkiej i poprawnej, ale też jednocześnie płaskiej i generycznej prozy, albo do
+innych tego typu rzeczy, ale w tym, w czym to się sprawdza, *sam* chciałbym być coraz
+lepszy. Dlatego pomysł, żeby używać tego rodzaju narzędzi dajmy na to do "tłumaczenia" sensu
+jakiegoś trudnego tekstu, który zamiast tego można by potraktować jako okazję do rozwijania -
+niezwykle cennej i wymagającej długiego treningu - umiejętności czytania ze zrozumieniem, uważam za
+*dystopijny*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
