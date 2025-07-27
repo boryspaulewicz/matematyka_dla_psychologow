@@ -170,7 +170,7 @@ pisania pracy magisterskiej, a niektórymi nawet wcześniej.
 
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
-rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software)) (albo
+rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software)) (lub
 [Rocq](https://rocq-prover.org/))?** Teoria typów dlatego, że pozwala sformalizować w pełni i we
 względnie naturalny sposób, bo do pewnego stopnia *czytelny dla niespecjalistów*, niemal dowolne
 treści o charakterze matematycznym i jest jednocześnie pełnowartościowym ([funkcyjnym i
