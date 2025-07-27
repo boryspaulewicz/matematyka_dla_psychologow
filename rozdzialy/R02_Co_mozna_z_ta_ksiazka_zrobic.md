@@ -12,7 +12,7 @@ wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutn
 
 Dlatego na zajęciach często wprowadzam krótkie przerwy co około pół godziny i dlatego staram się
 pisać rozdziały tak, żeby *najwyżej* tyle czasu wymagało ich przeczytanie, zakładając względnie
-aktywną postawę w trakcie lektury wcześniejszych rozdziałów. Sam zresztą potrzebuję takich krótkich
+aktywną postawę w trakcie lektury rozdziałów wcześniejszych. Sam zresztą potrzebuję takich krótkich
 przerw w trakcie prowadzenia zajęć, bo dzięki temu często zauważam, że zapomniałem powiedzieć coś
 ważnego, albo że mogę coś powiedzieć lepiej.
 
@@ -20,8 +20,8 @@ Po około 25-30 minutach dobrze na mnie działa krótka przerwa. Najlepiej, gdy 
 nie robienia niczego wciągającego ani poznawczo (na przykład, czytanie odpada, podobnie jak
 interesujące rozmowy) ani motywacyjnie (nie ma mowy o wchodzeniu na YouTube'a). Potem znowu jestem w
 stanie skutecznie pracować przez 30 minut, ale następna przerwa musi być już dłuższa, zwykle co
-najmniej 20 minutowa. Realistycznie oceniając, jeżeli danego dnia nie mam wielu zajęć, mogę liczyć
-najwyżej na około 4 godziny nieprzerwanej pracy umysłowej.
+najmniej 20 minutowa. Realistycznie oceniając, jeżeli danego dnia nie mam wielu innych zajęć, mogę
+liczyć najwyżej na około 4 godziny nieprzerwanej pracy umysłowej.
 
 Bardzo niewiele by z tej pracy wynikało, gdybym nie *powtarzał* tego, co przeczytałem i z czego
 zrobiłem notatki. O ile mi wiadomo, nie ma przekonujących dowodów na przewagę metody powtarzania z
@@ -29,29 +29,29 @@ coraz większym odroczeniem nad innymi rozkładami powtórek, o ile tylko odstę
 dość *długie*. Tak się jednak składa, że lubię metodę rosnących odroczeń. Gdy mi naprawdę zależy,
 żeby się czegoś nauczyć, pierwszą powtórkę robię tego samego dnia (+0d), potem następnego (+1d),
 potem po dwóch dniach od ostatniej (+2d), potem po czterech (+4d), po ośmiu (+8d), i tak dalej. W
-ten sposób już po *szóstej* powtórce mam w zasadzie stale łatwy dostęp do większości powtarzanych
-treści co najmniej przez następny miesiąc.
+ten sposób już po *szóstej* powtórce mam w zasadzie *stale łatwy dostęp* do większości powtarzanych
+treści co najmniej przez następny *miesiąc*.
 
 Stosowanie określonego rozkładu powtórek wymaga oczywiście planowania, ale może największą
-przeszkodą jest to, że te powtórki mogą się wydawać *niepotrzebne*. Przecież jeszcze tego samego
+przeszkodą jest to, że takie powtórki mogą się wydawać *niepotrzebne*. Przecież jeszcze tego samego
 dnia, w którym zrobiliśmy notatki i nie zaniedbaliśmy przy tym przerw, będziemy pamiętać większość
 treści dosyć dobrze. Pierwsza powtórka tego dnia może się więc wydawać zbędna i w pewnym sensie o to
 właśnie chodzi: Taka powtórka wydaje się zbędna, bo jest *łatwa*. Gdyby jednak poczekać trochę
 dłużej, nawet tylko do dnia następnego, już by tak łatwa nie była, bo utrata dostępu do informacji w
 pamięci postępuje początkowo dość gwałtownie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w
 miarę *łatwej* powtórki, zapis pamięciowy utrwala się na tyle, że można poczekać znacznie dłużej do
-następnej *łatwej* powtórki, która jeszcze bardziej utrwala zapis, i w ten sposób każda kolejna
+następnej *łatwej* powtórki, która jeszcze bardziej utrwala zapis i w ten sposób każda kolejna
 powtórka daje coraz lepszy skutek.
 
 Dzieje się wtedy, mam wrażenie, jeszcze coś innego. Treść zdaje się subiektywnie *kurczyć*, jakby
 liczne powiązane ze sobą reprezentacje pamięciowe zaczynały w coraz większym stopniu tworzyć jedną,
 zwartą, hierarchiczną strukturę, ułatwiającą szybkie odnajdywanie tego, co jest w danej sytuacji
-najważniejsze. A mówiąc o tym zjawisku z perspektywy stanowiska meta-teoretycznego, które wprowadzę
-w drugiej części książki, ale z którego mogę już teraz skorzystać, bo nawet bez wcześniejszego
+najważniejsze. A mówiąc o tym zjawisku z perspektywy stanowiska metateoretycznego, które wprowadzę w
+drugiej części książki, ale z którego mogę już teraz skorzystać, bo nawet bez wcześniejszego
 tłumaczenia, o co w nim dokładnie chodzi, da się go jak sądzę używać nie ryzykując, że będzie się
-niezrozumianym, można powiedzieć tak: Na skutek takiego powtarzania treść się subiektywnie kurczy,
-*co znaczy, że coraz szybciej udaje się zwykle odnaleźć informacje, które są w danej sytuacji
-najważniejsze*.
+niezrozumianym, można by powiedzieć tak: Na skutek takiego powtarzania treść się subiektywnie
+kurczy, *co znaczy, że coraz szybciej udaje się zwykle odnaleźć informacje, które są w danej
+sytuacji najważniejsze*.
 
 Gdy odstępy są dłuższe niż tydzień, nie ma jak sądzę większego znaczenia, jeżeli powtórka nastąpi z
 kilkudniowym opóźnieniem. Raz wytrwałem do momentu, w którym powtarzałem coś po *roku* od ostatniej
@@ -91,8 +91,8 @@ pomysłów. Te przychodzą nam do głowy czasem same, a czasami na skutek zmagan
 problemem czy uczenia się czegoś. Psychologowie zajmujący się twórczością twierdzą - i moje
 doświadczenia wskazują, że mają w tym rację - że pomysły, których się w żaden sposób nie "wyjęło z
 głowy", czy to mówiąc o nich na głos, czy to zapisując, mają tendencję do zalegania, a przez to
-zdają się zajmować "umysłową przestrzeń", w której, gdyby w niej było trochę więcej miejsca, mogłoby
-się pojawić coś innego. 
+zdają się zajmować umysłową przestrzeń, w której, gdyby w niej było trochę więcej miejsca, mogłoby
+się pojawić coś innego.
 
 To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest też taki, że gdy coś zapisujemy, to
 coś staje się od nas odrębne i nabiera pewnej autonomii. Zapisany pomysł, wątpliwość albo obserwacja
@@ -106,10 +106,10 @@ Powtarzam nie zaglądając początkowo do notatek, ani tym bardziej do książek
 rozpoznawanie, jak wspomniałem, nie ma sensu. Zamiast tego, na głos, w myślach, lub pisząc na kartce
 próbuję (hipotetycznemu) komuś *opowiedzieć* to, co mam powtórzyć. W ten sposób natychmiast
 zauważam, czego albo dobrze nie pamiętam, albo czego nie rozumiem w stopniu, który by mi to pozwalał
-w miarę jasno wytłumaczyć. Zaraz potem oczywiście sięgam do notatek lub źródłowych materiałów i
-upewniam się, ile treści i jak dobrze udało mi się w ten sposób powtórzyć. Można by pomyśleć, że to
-nie powtórki, tylko trening używania nabywanej wiedzy, ale przecież nic innego nie jest celem
-sensownego powtarzania.
+w miarę jasno wytłumaczyć. Potem sięgam do notatek lub źródłowych materiałów i upewniam się, ile
+treści i jak dobrze udało mi się w ten sposób powtórzyć. Można by pomyśleć, że to nie powtórki,
+tylko trening używania nabywanej wiedzy, ale przecież nic innego nie jest celem sensownego
+powtarzania.
 
 Jeszcze jedno, chociaż może Tobie to nie będzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
 charakteru, najpewniej niewiele bym w życiu osiągnął, gdyby nie prosty trik, który wymyśliłem
@@ -136,7 +136,7 @@ elementami matematyki i różnymi innymi sprawami, które akurat wtedy mnie inte
 wiele, czasem dość kosztownych zainteresowań). A ponieważ moja głowa była tymi sprawami wypełniona
 stale, to też często o nich mówiłem, nie zawsze zwracając uwagę, czy rozmówca był tym
 zainteresowany. Wydaje mi się, a właściwie jestem prawie pewien, że dla mojej ówczesnej partnetki to
-było spore wyzwanie. Później już nigdy w nic się tak nie zanurzyłem i staram się stosować do rady
+było niemałe wyzwanie. Później już nigdy w nic się tak nie zanurzyłem i staram się stosować do rady
 Rachlina, który pisze, cytując [Valéry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry), że
 *trzeba być lekkim jak ptak, ale nie jak piórko*. Zresztą monitoring ma i tą zaskakującą cechę, że
 mimo tego, że zwykle ewidentnie działa, to jednak z jakiegoś tajemniczego powodu nawet Ci, którzy na
@@ -150,7 +150,7 @@ charakter tej pracy, to jest, mówiąc delikatnie, dość słaba wymówka. Za to
 *publikować*, co mi akurat wychodzi przeciętnie, bo rzadko mi się zdaje, że mam coś nowego i
 wartościowego do opowiedzenia. Właściwie raz na dobrych kilka lat mi się tak zdaje, a niemałej
 części publikacji, których jestem współautorem, po prostu się wstydzę. Jeżeli więc chodzi Ci po
-głowie (w Polsce często marnie opłacana, ale za to wakacje są długie) tak zwana kariera akademicka i
+głowie (w Polsce często marnie opłacana, ale wakacje są długie) tak zwana kariera akademicka i
 studia doktorskie (które kiedyś pozostawiały znacznie więcej czasu na rozwijanie się w kierunku
 zgodnym z *własnymi* zainteresowaniami), to moim zdaniem możesz wielu z nas szybko prześcignąć
 właśnie dzięki temu. A jak do tego dodasz jeszcze mniej lub bardziej regularne ćwiczenia z *czytania
@@ -161,14 +161,14 @@ Twoja postawa wobec tego, co można znaleźć w publikacjach recenzowanych, stan
 Na koniec zasugeruję Ci coś, o czym sam muszę sobie nadal stale przypominać: Jeżeli chcesz coś
 zrobić, ale nie możesz się do tego zabrać, zrób *jakikolwiek pierwszy krok*. Na przykład, jeżeli
 chcesz zacząć się uczyć z jakiejś książki, otwórz tą książkę, albo tylko połóż ją w widocznym
-miejscu, może nawet zrób to wtedy, kiedy wcale nie zamierzasz jeszcze zacząć. A jeżeli trudno Ci się
+miejscu. Może nawet zrób to wtedy, kiedy wcale nie zamierzasz jeszcze zacząć. A jeżeli trudno Ci się
 zmusić i do tego, spróbuj zrobić pierwszy krok *w kierunku zrobienia pierwszego kroku*, na przykład
-tylko wspomnij komuś, co "chciałabyś chcieć" zrobić[^1]. Na mnie to czasami działa. To nie da
+tylko wspomnij komuś, co "chciałabyś chcieć" zrobić[^1]. Na mnie to chyba czasami działa. To nie da
 *gwarancji* sukcesu, bo *nic* nie może jej dać, ale może zwiększy Twoje szanse[^2].
 
 ### Przypisy
 
-[^1]: [Rekurencją](https://pl.wikipedia.org/wiki/Rekurencja) albo inaczej rekursją zajmiemy się w
+[^1]: [Rekurencją](https://pl.wikipedia.org/wiki/Rekurencja), inaczej rekursją, zajmiemy się w
     jednym z późniejszych rozdziałów.
 
 [^2]: Może wtedy zadziałać coś, co za Rachlinem nazwałbym chętnie wstępnym zaangażowaniem, gdyby ten
