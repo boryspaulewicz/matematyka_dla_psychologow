@@ -59,14 +59,15 @@ Formalna struktura tego ostatniego przykładu rysuje się niemal sama, prawda? A
 zdecydowanie mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję) razem.
 
-Zaczniemy od pierwszego, mapując w ten sposób porządek tekstu na porządek działań. Może najpierw
-spróbujmy [wygrzebać](https://literatura.wywrota.pl/wiersz-klasyka/24806-staff-leopold-rzesa.html) z
-bajora tej mętnej parapoetyckiej prozy jakieś pożywne glony, oddzielając, jako chwilowo
-nieinteresujący, język zwrotów grzecznościowych (*niech Pan*), zamieniając nazwy własne na
-*abstrakcyjne oznaczenia*, takie jak `m` (jak *m*iejsce na *m*apie), korzystając z faktu, że w
-takich sytuacjach zwykle najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co
-najwyżej domniemane - redundancje (*w lewo* zamiast *niech Pan skręci w lewo*) i w ogóle ignorując
-różne subtelności dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
+Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie fragmentów
+tego tekstu na porządek następujących odtąd działań. Może najpierw spróbujmy
+[wygrzebać](https://literatura.wywrota.pl/wiersz-klasyka/24806-staff-leopold-rzesa.html) z bajora
+tej mętnej parapoetyckiej prozy jakieś pożywne glony, oddzielając, jako chwilowo nieinteresujący,
+język zwrotów grzecznościowych (*niech Pan*), zamieniając nazwy własne na *abstrakcyjne oznaczenia*,
+takie jak `m` (jak *m*iejsce na *m*apie), korzystając z faktu, że w takich sytuacjach zwykle
+najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co najwyżej domniemane -
+redundancje (*w lewo* zamiast *niech Pan skręci w lewo*) i w ogóle ignorując różne subtelności
+dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 
 1. ... tym co dla nas w tym momencie najważniejsze, to jest na *skutecznym przekazywaniu instrukcji
    jak gdzieś dojść* ...
