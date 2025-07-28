@@ -72,7 +72,7 @@ najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co najwy
 redundancje (*w lewo* zamiast *niech Pan skręci w lewo*) i w ogóle ignorując różne subtelności
 dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 
-1. ... tym co dla nas w tym momencie najważniejsze, to jest na skutecznym przekazywaniu *instrukcji
+1. ... tym co dla nas w tym momencie najważniejsze, to jest na skutecznym przekazywaniu *instrukcji,
    jak gdzieś dojść* ...
 
 2. ... i na jakiejkolwiek wstępnej, to jest roboczej, *uproszczonej* i wydającej się być
@@ -81,12 +81,12 @@ dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na ile różnych
 sposobów można przejść na przykład konkretną ulicą z jednego konkretnego punktu orientacyjnego do
 drugiego. Pomijamy też szczegóły dotyczące tego, jakie (na przykład, teoretycznie możliwe czołganie
-się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza gdy chodzi o jakieś miasto,
+się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza, gdy chodzi o jakieś miasto,
 korzystamy przede wszystkim, na ile jesteśmy w stanie, z *abstrakcyjnej siatki* ulic. Tą potrafimy
 *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w
 mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
-To nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny, uogólniony homomorfizm.
+To nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny i uogólniony homomorfizm.
 
 I nie chodzi tu o reprezentatywność w znaczeniu
 [statystycznym](https://statmodeling.stat.columbia.edu/2023/05/22/what-exactly-is-a-representative-sample/#comment-2217140). Warto
