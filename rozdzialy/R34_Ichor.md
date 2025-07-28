@@ -427,7 +427,7 @@ wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś
 przyjaznej modularności*? I czemu tak szybko zaczynamy je *zrozumieć*? A zwłaszcza:
 
 *Czemu tak łatwo jest nam mentalnie wycinać ich fragmenty i w ich miejsce wstawiać inne i czemu tak
-dobrze sobie radzimy z domyślaniem się, jak całość będzie potem\  f u n k c j o n o w a ł a*?
+dobrze sobie radzimy z domyślaniem się, jak całość będzie potem  f u n k c j o n o w a ł a*?
 
 Naprowadzałem Cię na trop odpowiedzi, której oczekuję, w różny sposób od wielu rozdziałów i tyle
 razy już to powtarzałem. A i tak nie masz najmniejszych szans jej znaleźć.
