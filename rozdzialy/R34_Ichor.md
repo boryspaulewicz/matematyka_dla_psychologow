@@ -2,9 +2,15 @@
 
 # Ἰχώρ
 
+<br>
+
 The most remarkable thing about plants is that they are green.
 
 *Science and the Garden: The Scientific Basis of Horticultural Practice, s. 1*
+
+<br>
+
+<br>
 
 ## Gdyby to dać tu i wtedy zrobić tak
 
@@ -350,13 +356,76 @@ David, ziomuś, weź się zlituj, to jest pomieszanie typów. Po czymś takim mo
 [facepalm](https://en.wikipedia.org/wiki/Facepalm) i [game
 over](https://en.wikipedia.org/wiki/Game_over).
 
-## Z drugiej jednak strony, mogło być (znacznie) gorzej
-
-TODO Co o Berlynie piszą w NOSie.
-
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
-CDN
+Podam Ci jeszcze kilka przykładów, omówię je szczegółowo i zobaczysz, że i tak *tego* nie
+zobaczysz. Nie przejmuj się tymi szczegółami, tylko spróbuj *poczuć*, a przede wszystkim właśnie
+*zobaczyć* ich wspólną [*postać*](https://pl.wikipedia.org/wiki/Psychologia_postaci). Nie masz
+najmniejszych szans!
+
+Z podręcznika "Psychologia poznawcza" Nęcki, Orzechowskiego, Szymury i Wicharego dowiadujemy się, że
+jednym z ważnych rodzajów "architektur umysłu", cokolwiek by to miało znaczyć ("architektura
+*poznawcza*" jest terminem technicznym w psychologii poznawczej, ale ten termin oznacza [coś
+innego](https://en.wikipedia.org/wiki/Cognitive_architecture)) , są nadal odgrywające w psychologii
+nie tylko poznawczej ważną rolę tak zwane *modele blokowe*. Stosunkowo prostym przykładem tego
+rodzaju modelu jest [model selekcji uwagowej
+Broadbenta](https://en.wikipedia.org/wiki/Broadbent%27s_filter_model_of_attention).
+
+Nazwa "blokowe" pochodzi stąd, że te modele można przedstawić w postaci połączonych reprezentującymi
+przepływ informacji strzałkami pudełek, oznaczonych nazwami funkcji albo procesów
+poznawczych. Autorzy z sobie tylko znanych powodów twierdzą, że te modele są reprezentacjami
+procesów *szeregowych* i *oddolnych*. Nie wiadomo, czemu są szeregowe, skoro w przypadku prawie
+wszystkich tego rodzaju modeli mamy do czynienia z *równoległymi* ścieżkami przepływu
+informacji. Nie wiadomo też, czemu są oddolne, skoro, również w przypadku modeli przedstawianych tam
+na rycinach jako przykłady, pojawiają się strzałki *skierowane w różne strony*. Ot, ciekawostka.
+
+Modelom blokowym autorzy przeciwstawiają modele *koneksjonistyczne*, takie jak [*sztuczne sieci
+neuronowe*](https://pl.wikipedia.org/wiki/Sie%C4%87_neuronowa). Mimo bogactwa tego rodzaju modeli,
+autorzy z sobie tylko znanych powodów utrzymują, że takie sieci mają trzy lub cztery warstwy,
+wejściową, pośredniczącą, wyjściową i ewentualnie warstwę kontekstową, a informacja płynie w nich w
+jedną stronę, od wejścia do wyjścia. Nietrudno ustalić, że chodzi tu o pewien określony *typ* takich
+modeli, to jest o sieć jednokierunkową z warstwą ukrytą, którą *uczy się* za pomocą propagacji
+wstecznej błędu zgodnie z [regułą delty](https://en.wikipedia.org/wiki/Delta_rule), odkrytą przez
+autorów nadal bardzo wpływowego i zarazem cudownie prostego [modelu
+warunkowania](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model), Rescorlę i Wagnera. Taką
+sieć przedstawia się zwykle na rysunkach jako kolumny punktów połączonych strzałkami z punktami
+należącymi do następnej kolumny (czyli warstwy).
+
+Nie wiadomo, dlaczego zdaniem autorów takie modele nie są *oddolne*, skoro informacja płynie w nich
+w *jedną* stronę, ani w jakim znaczeniu są zdolne do "samokontroli i samoorganizacji", skoro takie
+akurat sieci nie uczą się w żadnym sensie same, tylko *uczy się je* za pomocą odrębnego,
+zewnętrznego procesu. Nie wiadomo też, w jakim znaczeniu te akurat sieci uczą się (już to zostawmy)
+na podstawie *nagród* i *kar*, skoro uczenie za pomocą propagacji wstecznej błędu polega na
+dostarczaniu na wejściu jakiś bodźców, porównywaniu wyjścia z oczekiwaną odpowiedzią i takiej
+zmianie parametrów sieci, która powoduje zbliżenie się, w stopniu zależnym między innymi od fazy
+uczenia, obserwowanej odpowiedzi sieci do tej oczekiwanej (i tak bardzo, bardzo wiele razy, dla
+wielu różnych przykładów bodźców oznaczonych oczekiwanymi odpowiedziami). Wielkość i kierunek błędu
+to jedno, a nagroda lub kara to coś całkiem innego. 
+
+Ach, te złośliwe terminy techniczne! A gdy przyszła (?) Ci ochota spędzić naprawdę ekscytujący
+wieczór, może najlepiej gdy za oknem pada, spróbuj ustalić, ile *poprawnych* stwierdzeń można tam
+znaleźć we fragmencie dotyczącym reguły Bayesa.
+
+Albo weźmy taki automat Świętego Mikołaja, TODO
+
+Albo wróćmy do przykładu z opisywaniem drogi na Wawel. Czemu to się wydaje takie naturalne i czemu
+to jest tak bardzo podobne do tylu innych rodzajów czynności albo procesów, które można by ogólnie
+nazwać drogami, takich jak dowodzenie, wielokrotne dodawanie, wnioskowanie o tym, że coś jest w
+jakimś sensie "mniejsze", albo "słabsze", albo jakoś inaczej poniżej czegoś na podstawie zachodzenia
+takiej relacji między innymi parami jakiś elementów?
+
+Co sprawia, że wszystkie te reprezentacje, zwłaszcza wtedy, gdy są przedstawione w postaci
+*diagramów*, wydają się takie naturalne i znajome? Poza tym, że cechuje je coś w rodzaju
+*modularności* i *jednorodności*. Czemu możemy je tak szybko wstępnie *zrozumieć*. W szczególności,
+czemu *tak łatwo jest nam mentalnie wycinać ich fragmenty i w ich miejsce wstawiać inne i czemu tak
+dobrze sobie radzimy z domyślaniem się, jak całość będzie potem działała*?
+
+Naprowadzałem Cię na trop odpowiedzi w różny sposób od wielu rozdziałów i tyle razy już to
+powtarzałem. A i tak nie masz najmniejszych szans jej znaleźć.
+
+Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
+
+Odpowiedź jest tu (TODO link). Ale najpierw spróbuj ją proszę znaleźć sama.
 
 ### Przypisy
 
