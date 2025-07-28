@@ -65,7 +65,7 @@ Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowan
 więc niejawnie oznaczonych) fragmentów tego rozdziału na porządek następujących odtąd działań. Może
 najpierw spróbujmy
 [wygrzebać](https://literatura.wywrota.pl/wiersz-klasyka/24806-staff-leopold-rzesa.html) z bajora
-tej mętnej parapoetyckiej prozy jakieś pożywne glony, oddzielając, jako chwilowo nieinteresujący,
+tej mętnej, parapoetyckiej prozy jakieś pożywne glony, oddzielając, jako chwilowo nieinteresujący,
 język zwrotów grzecznościowych (*niech Pan*), zamieniając nazwy własne na abstrakcyjne *oznaczenia*,
 takie jak `m` (jak *m*iejsce na *m*apie), korzystając z faktu, że w takich sytuacjach zwykle
 najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co najwyżej domniemane -
