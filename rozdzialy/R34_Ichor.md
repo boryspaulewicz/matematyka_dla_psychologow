@@ -268,13 +268,13 @@ odwrotność to jednoargumentowa operacja (albo działanie) tworzenia liczby prz
 **Sugestia**: Po skopiowaniu poprzedniego fragmentu kodu, zawierającego charakterystykę hierarchii
 rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić, przez zdefiniowanie
 instancji, że liczby całkowite są nie tylko grupą, ale również grupą *abelową*, inaczej
-[*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). Wszystko, co musisz w tym celu
-zrobić, to skopiować kod definiujący instancję klasy `Group Int`, zastąpić typ `Group Int` przez typ
-`Abelian_group Int` i dodać definicję jedynego pola, którym klasa grup abelowych różni się od klasy
-grup ogólnych, z której dziedziczy, to jest definicję pola `comm` (od angielskiego słowa
-*commutative*). Wystarczy Ci do tego dowód przemienności dodawania liczb całkowitych, dostępny od
-razu w Leanie i zdefiniowany w pliku Prelude.lean. Nazwę tego dowodu znajdziesz na przykład pisząc
-`#check Int.add_`, naciskając klawisz Tab i zgadując, jak musi się nazywać.
+[*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). W tym celu musisz tylko skopiować
+kod definiujący instancję klasy `Group Int`, zastąpić typ `Group Int` przez typ `Abelian_group Int`
+i dodać definicję jedynego pola, którym klasa grup abelowych różni się od klasy grup ogólnych, z
+której dziedziczy, to jest definicję pola `comm` (od angielskiego słowa *commutative*). Wystarczy Ci
+do tego dowód przemienności dodawania liczb całkowitych, dostępny od razu w Leanie i zdefiniowany w
+pliku Prelude.lean. Nazwę tego dowodu znajdziesz na przykład pisząc `#check Int.add_`, naciskając
+klawisz Tab i zgadując, jak musi się nazywać.
 
 Ten kod jest skonstruowany w stylu, który obowiązuje w rozwijanej przez zróżnicowane grono
 użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-community/mathlib4). To przede
