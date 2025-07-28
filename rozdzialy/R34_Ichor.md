@@ -325,10 +325,10 @@ przykłady *procesów odwracalnych*, a które oczywiście odwracalne *nie* są.
 
 Bo *odwracalność istnieje tylko w świecie abstrakcji*. Jeżeli, posługując się wyobraźnią, zmienimy
 stan czegoś na jakiś, a potem przywrócimy temu czemuś stan wyjściowy, to dokonamy przekształcenia
-będącego złożeniem operacji równego pod względem działania przekształceniu identycznościowemu, ale
-*tylko* w znaczeniu *logicznym*, a nie *psycho*logicznym. Każda bez wyjątku myśl pozostawia
-nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym procesem zmieniającym nas na
-zawsze między innymi z powodu stale zachodzących procesów uczenia się.
+będącego złożeniem tych dwóch operacji i równego pod względem działania przekształceniu
+identycznościowemu, ale *tylko* w znaczeniu *logicznym*, a nie *psychologicznym*. Każda bez wyjątku
+myśl pozostawia nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym procesem,
+zmieniającym nas na już zawsze między innymi z powodu stale zachodzących procesów uczenia się.
 
 Berlyne, byku, co Ty gadasz?!
 
