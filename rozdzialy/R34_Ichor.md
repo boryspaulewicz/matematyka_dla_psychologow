@@ -326,8 +326,8 @@ Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się 
 Zaprawdę mętne to i tajemnicze, ale i dla nas ciekawe, a poza tym to ewidentnie skrót myślowy,
 staramy się więc pochopnie nie oceniać. Potem jest przykład przejścia 100 m na północ, a następnie
 100 m na południe i nie ma wątpliwości, że to są *w pewnym sensie* wzajemne odwrotności. Ale dalej
-jest coraz więcej przykładów procesów *biologicznych* i *psychologicznych*, które autor podaje jako
-przykłady *procesów odwracalnych*, a które oczywiście odwracalne *nie* są.
+jest coraz więcej przykładów *procesów*biologicznych* i *procesów psychologicznych*, które autor
+podaje jako przykłady *działań odwracalnych*, a które oczywiście odwracalne *nie* są.
 
 Bo *odwracalność istnieje tylko w świecie abstrakcji*. Jeżeli, posługując się wyobraźnią, zmienimy
 stan czegoś na jakiś, a potem przywrócimy temu czemuś stan wyjściowy, to dokonamy przekształcenia
