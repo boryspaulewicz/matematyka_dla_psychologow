@@ -153,8 +153,7 @@ właściwym. Znalezienie właściwego pytania jest więc *odpowiedzią* na pytan
 jakieś kryterium bycia właściwym. Każda odpowiedź rodzi nowe pytania, ale też każde pytanie jest na
 coś, przynajmniej w pewnym sensie, odpowiedzią. Skoro postawienie właściwego pytania jest takie
 ekstra, to wypadałoby zacząć szukać *sposobu znajdywania właściwych pytań*. I to poszukiwanie przez
-podjadanie ogona własnego myślenia i mowy byłoby w pewnym sensie tym samym, co *pytanie
-najwłaściwsze*.
+podjadanie ogona własnej mowy byłoby w pewnym sensie tym samym, co *pytanie najwłaściwsze*.
 
 A raczej *jest*, bo niby co innego my tutaj od dłuższego już czasu robimy?
 
