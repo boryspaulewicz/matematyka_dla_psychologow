@@ -135,8 +135,8 @@ Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałó
 "klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i inne podobne.
 
 Zanim zaczniemy czytać "Z przedmowy", trafiamy na kilka cytatów, które bardzo lubię, ale to sobie
-kiedyś może sama znajdziesz, jak będziesz miała czas i ochotę. W "Z przedmowie" Berlyne zaś pisze,
-że celem tej książki jest ...
+kiedyś może sama znajdziesz, jak będziesz miała czas i ochotę. W przedmowie Berlyne zaś pisze, że
+celem tej książki jest ...
 
 > ... wprowadzenie języka teoretycznego - tj. systemu pojęć - który może ułatwić ujawnienie
 > podobieństw i różnic między procesami myślowymi a innymi formami zachowania.
