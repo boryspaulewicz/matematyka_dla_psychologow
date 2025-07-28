@@ -129,8 +129,8 @@ abstrakcyjną, ale to drobiazg, zresztą może wtedy ten sposób mówienia był 
 powinno już brzmieć dla Ciebie znajomo.
 
 Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
-żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczny", "integracyjny", "równoważność",
-"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjne", i tak dalej.
+żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczna", "integracyjna", "równoważność",
+"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i tak dalej.
 
 Zanim zaczniemy czytać "Z przedmowy", widzimy kilka cytatów, które bardzo lubię, ale to sobie kiedyś
 może sama znajdziesz, jak będziesz miała czas i ochotę. W przedmowie Berlyne pisze, że celem tej
