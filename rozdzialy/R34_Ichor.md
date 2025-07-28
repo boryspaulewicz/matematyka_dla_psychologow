@@ -368,8 +368,7 @@ over](https://en.wikipedia.org/wiki/Game_over).
 
 Podam Ci jeszcze kilka przykładów, omówię je szczegółowo i zobaczysz, że i tak *tego* nie
 zobaczysz. Nie przejmuj się tymi szczegółami, tylko spróbuj *poczuć*, a przede wszystkim właśnie
-*zobaczyć* ich wspólną [*postać*](https://pl.wikipedia.org/wiki/Psychologia_postaci). Nie masz
-najmniejszych szans!
+*zobaczyć* ich wspólną [*postać*](https://pl.wikipedia.org/wiki/Psychologia_postaci).
 
 Z podręcznika "Psychologia poznawcza" Nęcki, Orzechowskiego, Szymury i Wicharego dowiadujemy się, że
 jednym z ważnych rodzajów "architektur umysłu", cokolwiek by to miało znaczyć ("architektura
