@@ -223,9 +223,49 @@ notację `\inv ↦ ⁻¹` (czytaj: pisząc w Leanie tak uzyskasz to).
 
 Dodawanie liczb całkowitych jest grupą, ale liczb naturalnych już nie, bo spośród wszystkich liczb
 naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie jest działaniem
-łącznym, wyposażonym w jednostkę jak również odwracalnym na przykład na zbiorze `ℚ\{0}` (tak zwykle
-zapisujemy działanie \{binarne\} pozbywania się podzbiorów), to jest na zbiorze liczb wymiernych bez
-zera, bo zero nie ma odwrotności *ze względu na mnożenie*.
+łącznym, wyposażonym w jednostkę jak również odwracalnym na przykład na zbiorze `ℚ\{0}` (zwykle tak
+\{`X\Y`\} zapisujemy działanie \{binarne\} pozbywania się podzbiorów), to jest na zbiorze liczb
+wymiernych bez zera, bo zero nie ma odwrotności *ze względu na mnożenie*.
+
+Możemy wykazać, że dodawanie liczb całkowitych daje grupę tworząc term typu rekordowego `Group`, bo
+każda klasa jest również typem rekordowym, a każda instancja jest termem typu rekordowego:
+
+```lean
+instance : Group Int where
+  mul     := Int.add
+  assoc   := Int.add_assoc
+  one     := 0
+  one_mul := Int.zero_add
+  mul_one := Int.add_zero
+  inv     := (fun x => -x)
+  inv_mul_cancel := Int.add_left_neg
+```
+
+Tworząc tą instancję korzystałem z definicji zawartych w pliku Prelude.lean i z faktu, że symbole
+takie jak `0` są w Leanie w taki sposób przeciążone, że gdy można wywnioskować, że muszą być
+`Int`-ami a nie `Nat`-ami, są interpretowane jako `Int`-y. 
+
+Lean nie zgłasza błędu, a więc (w stylu "rekordowym") udowodniliśmy twierdzenie, że liczby całkowite
+są grupą ze względu na dodawanie. Mówiąc dokładniej, dodawanie liczb całkowitych jest grupą ze
+względu na interpretację: grupowa jedynka to zero, grupowe mnożenie to dodawanie, a grupowa
+odwrotność to jednoargumentowa operacja (albo działanie) tworzenia liczby przeciwnej `x ↦ -x`.
+
+**Sugestia**: Po skopiowaniu wszystkich fragmentów kodu, które pojawiły się dotąd w tym rozdziale,
+spróbuj może udowodnić poprzez tworzenie odpowiedniej instancji, że liczby całkowite są nie tylko
+grupą, ale są również grupą *abelową*, inaczej
+[*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). Jedyne, co musisz w tym celu zrobić,
+to skopiować kod definiujący instancję klasy `Group Int`, zastąpić `Group Int` przez `Abelian_group
+Int` i dodać definicję jedynego pola, którym klasa grup abelowych różni się od klasy grup, z której
+dziedziczy, to jest pola `comm` (od ang. *commutative*). Do tego celu wystarczy Ci dowód
+przemienności dodawania liczb całkowitych dostępny od razu w Leanie i zdefiniowany w pliku
+Prelude.lean. Jego nazwę znajdziesz pisząc na przykład `#check Int.add_`, naciskając Tab-a i
+zgadując, jak ten dowód musi się nazywać.
+
+Nie mogłem się oprzeć pokusie poruszenia wątku klasy grup abelowych i wymyślenia dotyczącego tej
+klasy zadania, bo przecież zaczęliśmy przygodę z matematyką właśnie od przemienności, tyle, że
+dodawania liczb naturalnych, które to działanie akurat, jak wiesz, nie ma struktury grupy. Nie
+mówiąc już o tym, jakie znaczenie odgrywa w tej przygodzie "przemienność" rozumiana jako zamiana
+miejscami (na przykład rozgrywająca się mentalnie między nami) i jako (samo)przekształcalność.
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
