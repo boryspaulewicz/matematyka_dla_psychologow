@@ -108,10 +108,11 @@ Robimy coś takiego nieustannie myśląc o czymkolwiek, a mimo to całe pokoleni
 na czym to polega, skądinąd relatywnie inteligentnych ludzi, mogą się konsekwentnie gubić próbując
 znaleźć odpowiedź na pytanie, co tutaj jest czego czym i jak to wszystko razem działa.
 
-## Nie jest dobrze trailer
+## Nie jest dobrze (ale może być jeszcze wspaniale) trailer
 
-Mam na półce wydaną w roku 69 "Strukturę i kierunek myślenia" Berlyne'a i gdy czasem na tą książkę
-patrzę, to myślę sobie, że to niezły przykład. Z opisu na obwolucie dowiadujemy się, że:
+Mam na półce wydaną w roku 69 "Strukturę i kierunek myślenia"
+[Berlyne'a](https://en.wikipedia.org/wiki/Daniel_Berlyne) i gdy czasem na tą książkę patrzę, to
+myślę sobie, że to niezły przykład. Z opisu na obwolucie dowiadujemy się, że:
 
 > D. E. Berlyne, profesor psychologii na uniwersytecie w Toronto, autor wielu prac z zakresu
 > zachowania poznawczego i jego motywów, w niniejszej książce zajmuje się myśleniem ukierunkowanym -
@@ -130,7 +131,7 @@ powinno już brzmieć dla Ciebie znajomo.
 
 Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
 żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczna", "integracyjna", "równoważność",
-"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i tak dalej.
+"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i im podobne.
 
 Zanim zaczniemy czytać "Z przedmowy", widzimy kilka cytatów, które bardzo lubię, ale to sobie kiedyś
 może sama znajdziesz, jak będziesz miała czas i ochotę. W przedmowie Berlyne zaś pisze, że celem tej
@@ -157,15 +158,40 @@ podjadanie ogona własnej mowy byłoby w pewnym sensie tym samym, co *pytanie na
 
 A raczej *jest*, bo niby co innego my tutaj od dłuższego już czasu robimy?
 
-Bardzo lubię styl tego autora, dobór zarówno tematów jak i perspektyw, postawę wobec czytelników i w
-ogóle sporo mi się w tej książce i w Berlynie podoba. Gdybyśmy jednak chcieli ocenić jakość jego
-centralnych propozycji teoretycznych, zaglądając od razu do pierwszego rozdziału, którego
-podrozdziały mają tytuły sugerujące, że może właśnie tam zaczynają wyrastać rododendrony konkretów,
-bo w tych tytułach jest mowa o grafach, grupach i hierarchiach, to prędko zaczęłoby się robić
-dziwnie.
+Bardzo lubię też styl tego autora, dobór zarówno tematów jak i perspektyw, postawę wobec czytelników
+i w ogóle sporo mi się w tej książce i w Berlynie podoba. Coś mi mówi, że bardzo polubiłbym również
+Piageta[^2](https://pl.wikipedia.org/wiki/Jean_Piaget#/media/Plik:Jean_Piaget_in_Ann_Arbor.png), do
+którego Berlyne często nawiązuje, gdybym go w końcu zaczął uważnie czytać, i
+[cybernetyków](https://en.wikipedia.org/wiki/Cybernetics), z pomysłów których Berlyne też korzysta,
+i behawiorystów i neobehawiorystów, no ale czasu nie mamy za wiele, a można zamiast tego zająć się
+sprawami znacznie większej wagi, takimi jak choćby sposoby myślenia o oznaczaniu
+(zobaczysz). 
+
+Gdybyśmy jednak chcieli ocenić jakość centralnych propozycji teoretycznych zawartych w tej książce,
+zaglądając od razu do pierwszego rozdziału, którego podrozdziały mają tytuły sugerujące, że może
+właśnie tam zaczynają wyrastać rododendrony konkretów, bo w tych tytułach jest mowa o grafach,
+grupach i hierarchiach, to prędko zaczęłoby się robić dziwnie.
 
 O hierarchiach będziemy mówić (znowu, ale wtedy bardziej formalnie) niebawem, więc teraz wyjaśnię Ci
-tylko, czym są *grupy*:
+tylko, czym są *grupy*. A przy okazji, jeśli pozwolisz, spróbuję Ci możliwie bezboleśnie wgrać kilka
+innych interfejsów.
+
+```lean
+def Magma := Mul
+
+class Semigroup (α : Type u) extends Magma α where
+  assoc : ∀ a b c : α, a * b * c = a * (b * c)
+
+class Monoid (α : Type u) extends Semigroup α, One α where
+  one_mul : ∀ a : α, 1 * a = a
+  mul_one : ∀ a : α, a * 1 = a
+
+class Group (α : Type u) extends Monoid α, Inv α where
+  inv_mul_cancel : ∀ a : α, a⁻¹ * a = 1
+
+class Abelian_group (α : Type u) extends Group α where
+  comm : ∀ a b : α, a * b = b * a
+```
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
@@ -174,3 +200,5 @@ CDN
 ### Przypisy
 
 [^1]: s. 1
+
+[^2]: I co Ty na [to](https://www.jstor.org/stable/26767537)?
