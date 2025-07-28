@@ -340,6 +340,8 @@ myśl pozostawia przecież nieusuwalny i niemały ślad, bo każda myśl jest z�
 procesem, zmieniającym nas już na zawsze między innymi z powodu stale zachodzących procesów uczenia
 się.
 
+<br>
+
 Berlyne, byku, co Ty gadasz?!
 
 Chłopie, nie pij tej wody!!
