@@ -43,12 +43,12 @@ tej następnej części.
 Mówiąc ogólnie, w przypadku utknięcia sugeruję chwilowo *pozbyć się ambicji i czytać bez wstydu*,
 albo zrobić sobie *przerwę* i spróbować później, albo *wrócić* do wcześniejszych wyjaśnień. Moim
 zdaniem najważniejsze w tym wszystkim jest *unikanie frustracji*. Zawsze możesz też zadać mi pytanie
-mailem (boryslaw.paulewicz@uj.edu.pl). Na pewno się ucieszę i jeśli tylko nie odłożę odpowiedzi z
+mailem (borys.paulewicz@gmail.com). Na pewno się ucieszę i jeśli tylko nie odłożę odpowiedzi z
 powodu braku czasu, przez co później o niej zapomnę (co mi się niestety zdaża), to spróbuję
-pomóc. Gdybym nie odpowiedział w ciągu kilku dni, to nie obrażę się, gdy napiszesz znowu.
+pomóc. Gdybym nie odpowiedział w ciągu kilku dni, to nie obrażę się, jeśli napiszesz znowu.
 
 Zależy mi na tym, żeby zwłaszcza te pierwsze rozdziały były dopasowane do możliwości większości
-studentów a nawet uczniów liceum, dlatego będę bardzo wdzięczny za informacje o pojawiających się
+studentów a nawet uczniów liceum, dlatego będę wdzięczny za informacje o pojawiających się
 trudnościach. Przydadzą mi się między innymi uwagi w rodzaju "ten fragment był dla mnie wyraźnie
 trudniejszy niż poprzedni", albo "to zdanie było tak długie, że musiałam je przeczytać kilka razy",
 albo "ten fragment jest moim zdaniem niepotrzebny", albo "wolałabym, żeby to było wytłumaczone
@@ -56,11 +56,11 @@ bardziej szczegółowo", albo "czytając ten fragment zastanawiałam się kilka 
 
 Tylko proszę, jeśli napiszesz, nie zwracaj się do mnie per Panie Doktorze. Wiem, że studenci tak
 robią z dobrej woli i że pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w
-dyscyplinach takich jak psychologia, takie tytuły są po pierwsze śmieszne, a po drugie mogą
-utrudniać przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Dlatego między innymi piszę
-tą książkę niemal na żywo. Dzięki temu możesz się sama przekonać, jak pisząc ją sam się pewnych
-rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu próbuję też tą
-książkę pisać tak, jakbym z Tobą *rozmawiał*, bo moim zdaniem to *powinna* być rozmowa.
+dyscyplinach takich jak psychologia, takie tytuły są po pierwsze śmieszne, a poza tym mogą utrudniać
+przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Dlatego między innymi piszę tą książkę
+niemal na żywo. Dzięki temu możesz się sama przekonać, jak pisząc ją sam się pewnych rzeczy uczę i
+jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu próbuję też tą książkę pisać
+tak, jakbym z Tobą *rozmawiał*, bo według mnie to *powinna* być rozmowa.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
@@ -76,11 +76,11 @@ Błędy będą się pojawiać, ponieważ jesteś (zgaduję)
 powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie jakaś
 literówka. Czasami samo miejsce, w którym pojawi się czerwona falka, powie Ci, co należy zmienić,
 ale nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po
-prawej, i spróbuj ustalić w czym problem.
+prawej i spróbuj ustalić w czym problem.
 
-Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że warto, żebyś przed czytaniem
-szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak spróbuję najpierw
-czegoś innego, ale w pewnym sensie bardzo zbliżonego.
+Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że czasem warto, żebyś przed
+czytaniem szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak spróbuję
+najpierw czegoś innego, ale w pewnym sensie bardzo zbliżonego.
 
 **Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest *zaprojektowanie
 nowego języka*, który pozwalałby w jednoznaczny, zwięzły i czytelny sposób zapisywać różne
@@ -88,7 +88,7 @@ definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu informacji, któr
 jakie operacje z użyciem definiowanych stałych mają sens, a jakie nie mają. Byłoby też wskazane,
 żeby nie używać do tego symbolu równości (*=*), bo ten odgrywa a matematyce bardzo ważną rolę i
 mógłby się jeszcze później przydać do całkiem innych celów, to jest do oznaczania "zwykłej" relacji
-równości, a nie *decyzji*, że jakieś wyrażenie ma być wartością jakiejś stałej.
+równości, a nie *decyzji*, że jakieś wyrażenie *ma być* wartością jakiejś stałej.
 
 Przydałoby się więc jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
 takie kojarzy się ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
@@ -115,8 +115,8 @@ przykład "stała `dziesiec : Nat` jest ..." to będzie inny sposób, żeby powi
 o typie `Nat` jest ..." - albo *zdania*, na przykład "Jeżeli `dziesiec : Nat` ..."  to będzie inny
 sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu przypadkach właściwa
 interpretacja będzie wynikała z kontekstu. Fragmenty tekstu takie jak "stała `dziesiec : Nat` jest
-...", które są zapisane jednocześnie w dwóch językach - naturalnym ("stała ... jest") i formalnym
-(`dziesiec : Nat`) - będę wprowadzał między innymi po to, żebyś mogła zauważyć, jak naturalna może
+...", które są zapisane jednocześnie w dwóch językach, naturalnym ("stała ... jest") i formalnym
+(`dziesiec : Nat`), będę wprowadzał między innymi po to, żebyś mogła zauważyć, jak naturalna może
 być formalizacja w języku teorii typów.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`, tak, żeby oznaczała
@@ -136,7 +136,8 @@ W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych.
 stałą o typie *tekstowym* (`String`), nazywanym przez informatyków typem *napisów*, *stałych
 łańcuchowych* lub [*literałów
 łańcuchowych*](https://pl.wikipedia.org/wiki/Litera%C5%82_%C5%82a%C5%84cuchowy) (to tylko różne
-nazwy na to samo). Zwróć uwagę, że wartości zmiennych tekstowych muszą być otoczone cudzysłowami.
+nazwy na to samo). Zwróć proszę uwagę, że wartości zmiennych tekstowych muszą być otoczone
+cudzysłowami.
 
 **Polecenie**: Skopiuj do Leana lub przepisz z pamięci:
 
@@ -188,11 +189,12 @@ tych rzeczy, zawsze będziesz mogła sobie to szybko przypomnieć zaglądając d
 **Wbrew pozorom przydatne ćwiczenie**: Jeśli masz ochotę, stwórz własną zmienną tekstową, o jakiej
 chcesz wartości. Nawet, jeżeli wydaje Ci się to zbyt proste, może warto to na tym etapie jednak
 zrobić, bo dzięki temu Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu
-będziesz lepiej "czuć". To jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej
-więcej na temat, nawet gdy wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy
-informacje i wpływa na to, co później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne
-treści i jak na nie reagujemy. A jeżeli taka czynność wydaje się tak łatwa, że aż zbędna, to być
-może nawet lepiej.
+będziesz lepiej "czuć". 
+
+To jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej więcej na temat, nawet
+gdy wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje i wpływa na to, co
+później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie reagujemy. A
+jeżeli taka czynność wydaje się tak łatwa, że aż zbędna, to może nawet lepiej.
 
 ## Funkcje w Leanie
 
@@ -214,7 +216,7 @@ A "funkcje matematyczne" są często rozumiane jako "obiekty", które każdemu e
 *niekoniecznie innego* zbioru, nazywanego jej *przeciwdziedziną*. Na przykład, ("matematyczna")
 funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do zbioru liczb
 rzeczywistych (... jak również jej przeciwdziedziną) *każdej* liczbie *x* należącej do tego zbioru
-przyporządkowuje *dokładnie jedną* wartość daną przez wyrażenie *x \* x*.
+przyporządkowuje *dokładnie jedną* wartość, daną przez wyrażenie *x \* x*.
 
 Ponieważ w języku, o którym teraz mówimy, to mają być jednak funkcje rozumiane jako *programy* (albo
 [algorytmy](https://pl.wikipedia.org/wiki/Algorytm)), chciałabyś też pewnie, żeby sposób ich
@@ -286,11 +288,11 @@ literówki za pomocą klawisza Tab, napisz Leanowi *z pamięci*:
 ```
 
 **Definicja aplikacji**: Samo *zestawienie* obok siebie funkcji i jakiegokolwiek wyrażenia, bez
-obliczania wyniku, również takie *błędne* zestawienie, nazywamy *aplikacją*. Wyraźne odróżnienie
-aplikacji od ewaluacji może się wydawać zbędne, ale okaże się potrzebne między innymi podczas
-dowodzenia twierdzeń, kiedy to normą stanie się konstruowanie aplikacji, których *nie będziemy
-chcieli* ewaluować. Na przykład, `dodaj2 dziesiec` jest aplikacją, w dodatku poprawną, bo `dodaj2`
-wymaga jako argumentu dowolnego termu typu `Nat`, a stała `dziesiec` jest właśnie takim termem.
+obliczania wyniku, również takie *błędne* zestawienie, nazywamy *aplikacją*. Na przykład, `dodaj2
+dziesiec` jest aplikacją, w dodatku poprawną, bo `dodaj2` wymaga jako argumentu dowolnego termu typu
+`Nat`, a stała `dziesiec` jest właśnie takim termem. Wyraźne odróżnienie aplikacji od ewaluacji może
+się wydawać zbędne, ale okaże się potrzebne między innymi podczas dowodzenia twierdzeń, kiedy to
+normą stanie się konstruowanie aplikacji, których *nie będziemy chcieli* ewaluować.
 
 Zdefiniujemy teraz funkcję, która będzie dodawała *dwie* dowolne liczby naturalne. Zrobimy to w
 sposób, który pozwoli Ci zobaczyć, że takie funkcje w Leanie są tak naprawdę
@@ -329,10 +331,10 @@ kodu, to tylko ilustracja.
 -- Żeby zapis był jednoznaczny, poniżej otoczyłem tą funkcję nawiasami.
 (fun (moj_parametr : Nat) => moj_parametr + 2) 2
 
--- Lean odrzuca część przed symbolem `=>`, zostawiając tylko *ciało* funkcji:
+-- Lean odrzuca część przed symbolem `=>`, zostawiając tylko *ciało* funkcji ...
 moj_parametr + 2
--- i *jednocześnie podstawia* zredukowaną wersję argumentu pod parametr funkcji w ciele funkcji, czyli w tym 
--- wypadku podstawia `2` pod zmienną `moj_parametr`:
+-- ... i *jednocześnie podstawia* zredukowaną wersję argumentu pod parametr funkcji w ciele funkcji,
+-- czyli w tym wypadku podstawia `2` pod zmienną `moj_parametr`:
 2 + 2
 ```
 
@@ -347,10 +349,10 @@ aplikowane. Funkcje jako takie nie mają argumentów, bo argumenty są tylko (od
 *aplikacji* (jakiś) funkcji, a nie częściami funkcji. 
 
 W praktyce często używamy terminów parametr i argument wymiennie, przy czym częściej pojawia się
-termin argument (np. "ta funkcja ma argument liczbowy" zamiast "ta funkcja ma parametr liczbowy"),
-ponieważ zwykle można łatwo wywnioskować z kontekstu, czy chodzi o parametr-jako-własność-funkcji,
-czy o argument-jako-własność-aplikacji (na przykład, gdy mówimy "ta funkcja ma argument liczbowy",
-ewidentnie chodzi tak naprawdę o parametr).
+termin argument (na przykład, "ta funkcja ma argument liczbowy" zamiast "ta funkcja ma parametr
+liczbowy"), ponieważ zwykle można łatwo wywnioskować z kontekstu, czy chodzi o
+parametr-jako-własność-funkcji, czy o argument-jako-własność-aplikacji (na przykład, gdy mówimy "ta
+funkcja ma argument liczbowy", ewidentnie chodzi o parametr).
 
 ```lean
 -- `+` to także funkcja, tylko taka, której aplikację możemy zapisać w *notacji infiksowej*, inaczej
