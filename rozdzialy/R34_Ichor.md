@@ -283,11 +283,11 @@ przeglądając swobodnie dokumentację. Na przykład, z
 dotyczącej klasy `Group`, która powinna być w tym momencie dla Ciebie częściowo zrozumiała, możesz
 się dowiedzieć, że ta klasa dziedziczy z klasy `DivInvMonoid`, definiującej interfejs monoidu
 wyposażonego w działanie odwrotne, które można - bo ma to pewien głębszy sens - nazywać dzieleniem,
-dlatego w nazwie pojawia się skrót `DivInv`. Sposób, w jaki ten interfejs został zaprojektowany
+dlatego w nazwie pojawia się skrót `DivInv`. Sposób, w jaki ten interfejs został zaprojektowany,
 wynika stąd, że zawsze, gdy mamy dla każdego elementu elementy ze względu na dane działanie
 odwrotne, możemy zdefiniować działanie odwrotne względem danego, czyli możemy zdefiniować takie
-jakby uogólnione dzielenie zdefiniowane jako odwrotność uogólnionego mnożenia. Poniżej długiej listy
-pól odziedziczonych po innych klasach i zapisanych kolorem niebieskim widać tam, zapisane w kolorze
+jakby uogólnione dzielenie jako odwrotność uogólnionego mnożenia. Poniżej długiej listy pól
+odziedziczonych po innych klasach i zapisanych kolorem niebieskim widać tam, zapisane w kolorze
 czarnym, jedyne pole, które ta klasa dodaje i które pojawiło się też u nas, to jest pole
 `inv_mul_cancel`.
 
