@@ -258,7 +258,7 @@ instance : Group Int where
 
 Tworząc tą instancję korzystałem z definicji zawartych w pliku Prelude.lean i z faktu, że symbole
 takie jak `0` są w Leanie w taki sposób przeciążone, że gdy można wywnioskować, że muszą być
-`Int`-ami a nie `Nat`-ami, są interpretowane jako `Int`-y. 
+`Int`-ami, a nie `Nat`-ami, są interpretowane jako `Int`-y. 
 
 Lean nie zgłasza błędu, a więc (w stylu "rekordowym") udowodniliśmy twierdzenie, że liczby całkowite
 są grupą ze względu na dodawanie. Mówiąc dokładniej, dodawanie liczb całkowitych jest grupą ze
