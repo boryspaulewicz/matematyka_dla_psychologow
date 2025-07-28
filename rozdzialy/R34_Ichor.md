@@ -266,8 +266,8 @@ względu na interpretację: grupowa jedynka to zero, grupowe mnożenie to dodawa
 odwrotność to jednoargumentowa operacja (albo działanie) tworzenia liczby przeciwnej `x ↦ -x`.
 
 **Sugestia**: Po skopiowaniu poprzedniego fragmentu kodu, zawierającego charakterystykę hierarchii
-rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić, poprzez stworzenie
-odpowiedniej instancji, że liczby całkowite są nie tylko grupą, ale również grupą *abelową*, inaczej
+rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić, przez zdefiniowanie
+instancji, że liczby całkowite są nie tylko grupą, ale również grupą *abelową*, inaczej
 [*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). Wszystko, co musisz w tym celu
 zrobić, to skopiować kod definiujący instancję klasy `Group Int`, zastąpić typ `Group Int` przez typ
 `Abelian_group Int` i dodać definicję jedynego pola, którym klasa grup abelowych różni się od klasy
