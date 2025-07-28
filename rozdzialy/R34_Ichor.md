@@ -223,9 +223,9 @@ notację `\inv ↦ ⁻¹` (czytaj: pisząc w Leanie tak uzyskasz to).
 
 Dodawanie liczb całkowitych jest grupą, ale liczb naturalnych już nie, bo spośród wszystkich liczb
 naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie jest działaniem
-łącznym, odwracalnym i wyposażonym w jednostkę na przykład na zbiorze `ℚ\{0}` (tak zwykle zapisujemy
-działanie \{binarne\} pozbywania się podzbiorów), to jest na zbiorze liczb wymiernych bez zera, bo
-zero nie ma odwrotności *ze względu na mnożenie*.
+łącznym, wyposażonym w jednostkę jak również odwracalnym na przykład na zbiorze `ℚ\{0}` (tak zwykle
+zapisujemy działanie \{binarne\} pozbywania się podzbiorów), to jest na zbiorze liczb wymiernych bez
+zera, bo zero nie ma odwrotności *ze względu na mnożenie*.
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
