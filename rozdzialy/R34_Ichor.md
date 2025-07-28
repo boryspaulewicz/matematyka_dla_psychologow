@@ -310,7 +310,7 @@ Po omówieniu w rozdziale 8 analogii między składaniem działań grupy i pewn�
 występującą w procesie uczenia się i polegającą na powstawaniu u zwierząt zachowań nawykowych jako
 *jednostek*, czy może raczej (funkcjonalnych) *atomów* zachowaniowych, które z czasem zaczynają w
 odpowiednich sytuacjach zastępować określone *sekwencje* reakcji czy zachowań, Berlyne przechodzi do
-kwestii *odwracalności*. Nie tylko działań *matematycznych*, ale również *zachowań* i *reakcji
+kwestii *odwracalności*. Nie tylko *działań matematycznych*, ale również *zachowań* i *reakcji
 zwierząt*.
 
 Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się okazuje, ...
