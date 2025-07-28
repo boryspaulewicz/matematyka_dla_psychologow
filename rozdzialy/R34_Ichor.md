@@ -57,8 +57,12 @@ tyle, ile jest wydziałów (izomorfizm, a dokładnie bijekcja). I może pracowni
 którzy mają przecież jakiś rodzaj władzy nad pracownikami niższych szczebli, powinni pracować na
 wyższych piętrach.
 
-Formalna struktura ostatniego przykładu rysuje się niemal sama, prawda? Ale poprzednie są mniej
-oczywiste. Będziemy te struktury roz-poznawać w [pluralis
+Formalna struktura ostatniego przykładu rysuje się niemal sama, prawda? Pracownicy jako punkty,
+połączone w dół strzałkami, jeśli należą do tego samego wydziału, zgodnie z hierarchią szczebli. A
+więc częściowy porządek i zarazem cienka kategoria, którą można reprezentować przez graf złożony z
+tylu rosnących w dół drzew, ile jest budynków, gdzie każda strzałka to relacja bezpośredniego
+zwierzchnictwa. Taki graf byłby wtedy generatorem tej kategorii i tego porządku. Ale poprzednie
+przykłady są mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję) razem.
 
 Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie wybranych (a
