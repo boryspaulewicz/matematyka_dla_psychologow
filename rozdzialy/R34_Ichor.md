@@ -58,7 +58,7 @@ rosną gdzie chcą.
 
 Widzisz jakieś podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad trasą, którą
 faktycznie wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo tym
-dokładnie (w pewnym sensie) *jest* wskazywanie komuś drogi *jako zachowanie*.
+dokładnie (lecz tylko w pewnym sensie) *jest* wskazywanie komuś drogi *jako zachowanie*.
 
 Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować pracowników różnych wydziałów i
 szczebli w kilku wielopiętrowych budynkach nowej filii, która właśnie powstaje w
