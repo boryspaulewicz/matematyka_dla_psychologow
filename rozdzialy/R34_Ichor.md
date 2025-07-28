@@ -174,7 +174,7 @@ właśnie tam zaczynają wyrastać rododendrony konkretów, bo w tych tytułach 
 grupach i hierarchiach, to prędko zaczęłoby się robić
 [dziwnie](https://dictionary.cambridge.org/dictionary/english/awkward).
 
-### Co *dokładnie* autor *miał* na myśli, ...
+### Co *dokładnie* autor *miał* (na myśli[^3]), ...
 
 O hierarchiach będziemy mówić (znowu, ale wtedy już bardziej formalnie) niebawem, więc teraz
 wyjaśnię Ci tylko, czym są *grupy*. A przy okazji, jeśli pozwolisz, spróbuję Ci możliwie bezboleśnie
@@ -352,3 +352,5 @@ CDN
 [^1]: s. 1
 
 [^2]: I co Ty na [to](https://www.jstor.org/stable/26767537)?
+
+[^3]: Czyli, mówiąc technicznie, w kontekście.
