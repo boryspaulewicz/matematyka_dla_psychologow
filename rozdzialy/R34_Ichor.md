@@ -41,7 +41,8 @@ Smoleńsk, z której Pan wyjdzie. Wie Pan, o co mi chodzi? Tak na skos.*
 ten nasz skos, wyrywa nam z czterech rąk reklamówkę, w której na szczęście była tylko jakaś
 zawartość, po czym ucieka
 
-\{a szpaki, jak to mają w zwyczaju o tej porze roku, plują pestkami na Plantach\})
+<div align="right">\{a szpaki, jak to mają w zwyczaju o tej porze roku, plują pestkami na
+Plantach\})</div>
 
 Co tu właściwie *zaszło*?
 
