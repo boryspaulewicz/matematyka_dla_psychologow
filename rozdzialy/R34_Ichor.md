@@ -332,8 +332,9 @@ Berlyne, byku, co Ty gadasz?!
 
 Chłopie, nie pij tej wody!!
 
-David, ziomuś, weź się zlituj, to jest pomieszanie typów. Po czymś takim może być już tylko facepalm
-i game over.
+David, ziomuś, weź się zlituj, to jest pomieszanie typów. Po czymś takim może być już tylko
+[facepalm](https://en.wikipedia.org/wiki/Facepalm) i [game
+over](https://en.wikipedia.org/wiki/Game_over).
 
 ## Z drugiej jednak strony, mogło być (znacznie) gorzej
 
