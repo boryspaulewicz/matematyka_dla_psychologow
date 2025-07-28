@@ -82,9 +82,9 @@ Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotycząc
 sposobów można przejść na przykład konkretną ulicą z jednego konkretnego punktu orientacyjnego do
 drugiego. Pomijamy też szczegóły dotyczące tego, jakie (na przykład, teoretycznie możliwe czołganie
 się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza, gdy chodzi o jakieś miasto,
-korzystamy przede wszystkim, na ile jesteśmy w stanie, z *abstrakcyjnej siatki* ulic. Tą potrafimy
-*stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w
-mowie i w głowie - *zachowując* ten *systematyczny związek*.
+korzystamy przede wszystkim z *abstrakcyjnej siatki* ulic. Tą potrafimy *stabilnie nanosić* na
+rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w mowie i w głowie -
+*zachowując* ten *systematyczny związek*.
 
 To nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny i uogólniony homomorfizm.
 
