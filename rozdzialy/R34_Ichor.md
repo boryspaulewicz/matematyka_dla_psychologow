@@ -127,7 +127,7 @@ I dalej to idzie między innymi tak:
 > nie wymagający od czytelnika specjalnego przygotowania matematycznego.
 
 Wolałbym może "językiem grafów", ale sam stosuję obie konwencje, no i tam chodzi o algebrę
-abstrakcyjną, ale to drobiazg, zresztą może wtedy ten sposób mówienia był powszechny. W każdym razie
+abstrakcyjną, ale to drobiazg, zresztą może ten sposób mówienia był wtedy powszechny. W każdym razie
 to wszystko powinno już brzmieć dla Ciebie znajomo.
 
 Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
