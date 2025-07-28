@@ -250,16 +250,16 @@ są grupą ze względu na dodawanie. Mówiąc dokładniej, dodawanie liczb całk
 względu na interpretację: grupowa jedynka to zero, grupowe mnożenie to dodawanie, a grupowa
 odwrotność to jednoargumentowa operacja (albo działanie) tworzenia liczby przeciwnej `x ↦ -x`.
 
-**Sugestia**: Po skopiowaniu wszystkich fragmentów kodu, które pojawiły się dotąd w tym rozdziale,
-spróbuj może udowodnić poprzez tworzenie odpowiedniej instancji, że liczby całkowite są nie tylko
-grupą, ale są również grupą *abelową*, inaczej
+**Sugestia**: Po skopiowaniu poprzedniego fragmentu kodu, zawierającego charakterystykę hierarchii
+rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić poprzez tworzenie
+odpowiedniej instancji, że liczby całkowite są nie tylko grupą, ale również grupą *abelową*, inaczej
 [*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). Jedyne, co musisz w tym celu zrobić,
 to skopiować kod definiujący instancję klasy `Group Int`, zastąpić `Group Int` przez `Abelian_group
 Int` i dodać definicję jedynego pola, którym klasa grup abelowych różni się od klasy grup, z której
 dziedziczy, to jest pola `comm` (od ang. *commutative*). Do tego celu wystarczy Ci dowód
 przemienności dodawania liczb całkowitych dostępny od razu w Leanie i zdefiniowany w pliku
-Prelude.lean. Jego nazwę znajdziesz pisząc na przykład `#check Int.add_`, naciskając Tab-a i
-zgadując, jak ten dowód musi się nazywać.
+Prelude.lean. Nazwę tego dowodu znajdziesz pisząc na przykład `#check Int.add_`, naciskając Tab-a i
+zgadując, jak musi się nazywać.
 
 Nie mogłem się oprzeć pokusie poruszenia wątku klasy grup abelowych i wymyślenia dotyczącego tej
 klasy zadania, bo przecież zaczęliśmy przygodę z matematyką właśnie od przemienności, tyle, że
