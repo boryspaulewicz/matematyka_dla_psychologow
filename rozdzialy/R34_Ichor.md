@@ -51,7 +51,7 @@ faktycznie wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jak
 dokładnie (w pewnym sensie) *jest* wskazywanie komuś drogi (jako zachowanie).
 
 Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować pracowników różnych wydziałów i
-szczebli w kilku wielopiętrowych budynkach całkiem nowej filii, która właśnie powstaje w
+szczebli w kilku wielopiętrowych budynkach nowej filii, która właśnie powstaje w
 [Radomiu](https://sites.stat.columbia.edu/gelman/stuff_for_blog/spelling.pdf)[^1]. Wypadałoby pewnie
 przypisać (własność) wydziały do budynków, albo odwrotnie, co na jedno wychodzi, jeśli budynków jest
 tyle, ile jest wydziałów (izomorfizm). I może pracownicy wyższych szczebli, którzy mają przecież
