@@ -434,7 +434,7 @@ razy już to powtarzałem. A i tak nie masz najmniejszych szans jej znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
-Odpowiedź jest tu (TODO link). Ale najpierw spróbuj ją proszę znaleźć *sama*.
+Odpowiedź jest tu (TODO link). Ale najpierw spróbuj ją proszę znaleźć "sama".
 
 ### Przypisy
 
