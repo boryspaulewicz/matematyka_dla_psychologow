@@ -264,10 +264,10 @@ odpowiedniej instancji, że liczby całkowite są nie tylko grupą, ale równie�
 [*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). Wszystko, co musisz w tym celu
 zrobić, to skopiować kod definiujący instancję klasy `Group Int`, zastąpić typ `Group Int` przez typ
 `Abelian_group Int` i dodać definicję jedynego pola, którym klasa grup abelowych różni się od klasy
-grup ogólnych, z której dziedziczy, to jest definicję pola `comm` (od ang. *commutative*). Wystarczy
-Ci do tego dowód przemienności dodawania liczb całkowitych, dostępny od razu w Leanie i zdefiniowany
-w pliku Prelude.lean. Nazwę tego dowodu znajdziesz pisząc na przykład `#check Int.add_`, naciskając
-Tab-a i zgadując, jak musi się nazywać.
+grup ogólnych, z której dziedziczy, to jest definicję pola `comm` (od angielskiego słowa
+*commutative*). Wystarczy Ci do tego dowód przemienności dodawania liczb całkowitych, dostępny od
+razu w Leanie i zdefiniowany w pliku Prelude.lean. Nazwę tego dowodu znajdziesz na przykład pisząc
+`#check Int.add_`, naciskając klawisz Tab i zgadując, jak musi się nazywać.
 
 Ten kod jest skonstruowany w stylu, który obowiązuje w rozwijanej przez zróżnicowane grono
 użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-community/mathlib4). To przede
