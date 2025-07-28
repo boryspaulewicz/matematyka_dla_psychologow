@@ -259,7 +259,7 @@ względu na interpretację: grupowa jedynka to zero, grupowe mnożenie to dodawa
 odwrotność to jednoargumentowa operacja (albo działanie) tworzenia liczby przeciwnej `x ↦ -x`.
 
 **Sugestia**: Po skopiowaniu poprzedniego fragmentu kodu, zawierającego charakterystykę hierarchii
-rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić poprzez tworzenie
+rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić, poprzez stworzenie
 odpowiedniej instancji, że liczby całkowite są nie tylko grupą, ale również grupą *abelową*, inaczej
 [*przemienną*](https://pl.wikipedia.org/wiki/Grupa_przemienna). Jedyne, co musisz w tym celu zrobić,
 to skopiować kod definiujący instancję klasy `Group Int`, zastąpić `Group Int` przez `Abelian_group
