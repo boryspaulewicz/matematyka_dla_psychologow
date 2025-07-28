@@ -73,7 +73,9 @@ połączone w dół strzałkami, jeśli należą do tego samego wydziału, zgodn
 więc częściowy porządek i zarazem cienka kategoria, którą można reprezentować przez graf złożony z
 tylu rosnących w dół drzew, ile jest budynków, gdzie każda strzałka to relacja bezpośredniego
 zwierzchnictwa. Taki graf byłby wtedy generatorem tej kategorii i tego porządku. Ale poprzednie
-przykłady są mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
+przykłady są mniej oczywiste. 
+
+Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję) razem.
 
 Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie wybranych (a
