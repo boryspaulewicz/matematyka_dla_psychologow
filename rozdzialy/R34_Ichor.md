@@ -332,9 +332,13 @@ podaje jako przykłady *działań odwracalnych*, a które oczywiście odwracalne
 Bo *odwracalność istnieje tylko w świecie abstrakcji*. Jeżeli, posługując się wyobraźnią, zmienimy
 stan czegoś na jakiś, a potem przywrócimy temu czemuś stan wyjściowy, to dokonamy przekształcenia
 będącego złożeniem tych dwóch operacji i równego pod względem działania przekształceniu
-identycznościowemu, ale *tylko* w znaczeniu *logicznym*, a nie *psychologicznym*. Każda bez wyjątku
-myśl pozostawia nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym procesem,
-zmieniającym nas już na zawsze między innymi z powodu stale zachodzących procesów uczenia się.
+identycznościowemu, ale *tylko* w znaczeniu *logicznym*, a nie *psychologicznym*. Już sam fakt, że z
+perspektywy logicznej to jest *jedno* przekształcenie, które może być *reprezentowane* na różne
+sposoby, w tym jako złożenie, a z perpsektywy psychologicznej albo biologicznej albo fizycznej to są
+(co najmniej!) *dwa* przekształcenia, pokazuje, że coś tu do czegoś nie pasuje. Każda bez wyjątku
+myśl pozostawia przecież nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym
+procesem, zmieniającym nas już na zawsze między innymi z powodu stale zachodzących procesów uczenia
+się.
 
 Berlyne, byku, co Ty gadasz?!
 
