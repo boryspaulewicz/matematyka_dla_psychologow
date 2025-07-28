@@ -165,7 +165,7 @@ bo w tych tytułach jest mowa o grafach, grupach i hierarchiach, to prędko zacz
 dziwnie.
 
 O hierarchiach będziemy mówić (znowu, ale wtedy bardziej formalnie) niebawem, więc teraz wyjaśnię Ci
-tylko, czym dokładnie są *grupy*:
+tylko, czym są *grupy*:
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
