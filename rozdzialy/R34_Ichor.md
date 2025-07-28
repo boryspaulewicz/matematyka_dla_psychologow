@@ -72,10 +72,10 @@ najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co najwy
 redundancje (*w lewo* zamiast *niech Pan skręci w lewo*) i w ogóle ignorując różne subtelności
 dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 
-1. ... tym co dla nas w tym momencie najważniejsze, to jest na skutecznym przekazywaniu *instrukcji,
-   jak gdzieś dojść* ...
+1. ... tym, co dla nas w tym momencie najważniejsze, to jest na skutecznym przekazywaniu
+   *instrukcji, jak gdzieś dojść* ...
 
-2. ... i na jakiejkolwiek wstępnej, to jest roboczej, *uproszczonej* i wydającej się być
+2. ... i na jakiejkolwiek wstępnej, albo roboczej, *uproszczonej* i wydającej się być
    *reprezentatywną* wersji tej sytuacji czy tego procesu.
 
 Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na ile różnych
