@@ -172,6 +172,8 @@ zaglądając od razu do pierwszego rozdziału, którego podrozdziały mają tytu
 właśnie tam zaczynają wyrastać rododendrony konkretów, bo w tych tytułach jest mowa o grafach,
 grupach i hierarchiach, to prędko zaczęłoby się robić dziwnie.
 
+### Co *dokładnie* autor miał na myśli
+
 O hierarchiach będziemy mówić (znowu, ale wtedy bardziej formalnie) niebawem, więc teraz wyjaśnię Ci
 tylko, czym są *grupy*. A przy okazji, jeśli pozwolisz, spróbuję Ci możliwie bezboleśnie wgrać kilka
 innych interfejsów.
@@ -192,6 +194,38 @@ class Group (α : Type u) extends Monoid α, Inv α where
 class Abelian_group (α : Type u) extends Group α where
   comm : ∀ a b : α, a * b = b * a
 ```
+
+*Magma* to algebra abstrakcyjna składająca się z dowolnego zbioru i dowolnego określonego na tym
+zbiorze działania binarnego. Czyli po prostu dowolne działanie binarne. Czyli dowolna funkcja o
+postaci `X × X → X`. Albo dowolna funkcja dwuargumentowa zdefiniowana za pomocą curryingu, której
+oba parametry i rezultat są tego samego typu - jeżeli akurat znajdujemy się w świecie typów a nie
+zbiorów - lub są tym samym zbiorem, ale wtedy wypadałoby może mówić o *obu dziedzinach i
+przeciwdziedzinie* zamiast o parametrach i rezultacie. Dlaczego i po co mamy tyle różnych określeń
+na to samo? Otóż *dlatego*, że te określenia to *części różnych (pod)języków*, a każdy z tych jęzków
+*jest* innym *sposobem myślenia*. A myślenie, zgodzisz się chyba, jest zdecydowanie *po coś*;
+czasami zdaje mi się nawet, że myślenie jest tym, co jest w nas najbardziej po coś.
+
+Ponieważ `Mul` to dokładnie jakieś działanie binarne, w dodatku wyposażone w przyjemną wzrostkową
+notację gwiazdkową, to nie kombinujemy, tylko traktujemy stałą `Magma` jako inną nazwę dla tego
+jakiegoś działania. Magmami są, dla jakich tylko chcesz liczb, dodawanie, mnożenie, dzielenie (bo to
+działanie nie musi być łączne, bo w ogóle nic od niego a priori nie wymagamy), sklejanie list lub
+tekstów, i tak dalej. Ale na przykład dostawianie elementu na czoło listy już nie, bo to jest akurat
+operacja na elementach różnego rodzaju.
+
+Półgrupy już znasz i to też są (w tym momencie mam nadzieję również według Ciebie ...)
+... oczywiście magmy. A grupy to monoidy, które mają, zależnie od punktu widzenia, jedną dodatkową
+własność albo dwie dodatkowe własności. Może przyjmijmy na początek ten drugi punkt widzenia, bo
+pozwala wyraźnie rozróżnić detale. No więc grupa to monoid, który ma jedną dodatkową operację albo
+(tak też czasami mówimy) działanie *jedno*argumentowe, które tutaj (niejawnie, bo na skutek
+zastosowania dziedziczenia) nazywamy `inv`, bo tak nazywa się jedyne pole klasy `Inv` o typie `α →
+α`. Dziedziczenie po tej klasie daje nam powszechnie stosowaną dla wszelkiego rodzaju odwrotności
+notację `\inv ↦ ⁻¹` (czytaj: pisząc w Leanie tak uzyskasz to).
+
+Dodawanie liczb całkowitych jest grupą, ale liczb naturalnych już nie, bo spośród wszystkich liczb
+naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie jest działaniem
+łącznym, odwracalnym i wyposażonym w jednostkę na przykład na zbiorze `ℚ\{0}` (tak zwykle zapisujemy
+działanie \{binarne\} pozbywania się podzbiorów), to jest na zbiorze liczb wymiernych bez zera, bo
+zero nie ma odwrotności *ze względu na mnożenie*.
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
