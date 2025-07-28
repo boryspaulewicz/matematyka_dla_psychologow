@@ -299,10 +299,9 @@ pojawiło się też u nas, to jest pole `inv_mul_cancel`.
 
 Nie mogłem się oprzeć pokusie naszkicowania interfejsu grup abelowych i wymyślenia dotyczącego tej
 klasy zadania, bo przecież zaczęliśmy przygodę z matematyką właśnie od przemienności, tyle, że
-dodawania liczb naturalnych, które to działanie akurat, jak wiesz, nie ma struktury grupy. Nie
-mówiąc już o tym, jakie znaczenie odgrywa w tej naszej przygodzie "przemienność" rozumiana jako
-zamiana miejscami (na przykład rozgrywająca się mentalnie między nami) i jako
-(samo)przekształcalność.
+dodawania liczb naturalnych, które to działanie, jak wiesz, struktury grupy akurat nie ma. Nie
+mówiąc już o tym, jakie znaczenie odgrywa w naszej przygodzie "przemienność" rozumiana jako zamiana
+miejscami (na przykład rozgrywająca się mentalnie między nami) i jako (samo)przekształcalność.
 
 ## ... a o czym *próbował* coś stwierdzić
 
