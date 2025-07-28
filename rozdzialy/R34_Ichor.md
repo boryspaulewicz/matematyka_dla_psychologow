@@ -329,7 +329,7 @@ stan czegoś na jakiś, a potem przywrócimy temu czemuś stan wyjściowy, to do
 będącego złożeniem tych dwóch operacji i równego pod względem działania przekształceniu
 identycznościowemu, ale *tylko* w znaczeniu *logicznym*, a nie *psychologicznym*. Każda bez wyjątku
 myśl pozostawia nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym procesem,
-zmieniającym nas na już zawsze między innymi z powodu stale zachodzących procesów uczenia się.
+zmieniającym nas już na zawsze między innymi z powodu stale zachodzących procesów uczenia się.
 
 Berlyne, byku, co Ty gadasz?!
 
