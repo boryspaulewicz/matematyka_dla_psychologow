@@ -152,10 +152,11 @@ dalej idzie to tak:
 Tak! A z drugiej strony nie. Skąd wiemy, że pytanie jest właściwe? Żeby można było stwierdzić, że
 pytanie jest właściwe, w jakimkolwiek sensie, musi istnieć jakieś kryterium bycia
 właściwym. Znalezienie właściwego pytania jest więc *odpowiedzią* na pytanie, jakie pytanie spełnia
-jakieś kryterium bycia właściwym. Każda odpowiedź rodzi nowe pytania, ale też każde pytanie jest na
-coś, przynajmniej w pewnym sensie, odpowiedzią. Skoro postawienie właściwego pytania jest takie
-ekstra, to wypadałoby zacząć szukać *sposobu znajdywania właściwych pytań*. I to poszukiwanie przez
-podjadanie ogona własnej mowy byłoby w pewnym sensie tym samym, co *pytanie najwłaściwsze*.
+jakieś kryterium bycia właściwym (pytaniem). Każda odpowiedź rodzi nowe pytania, ale też każde
+pytanie jest na coś, przynajmniej w pewnym sensie, odpowiedzią. Skoro więc postawienie właściwego
+pytania ma być takie ekstra, to wypadałoby zacząć szukać *sposobu znajdywania właściwych pytań*. I
+to poszukiwanie przez podjadanie ogona własnej mowy byłoby w pewnym sensie tym samym, co *pytanie
+najwłaściwsze*.
 
 A raczej *jest*, bo niby co innego my tutaj od dłuższego już czasu robimy?
 
