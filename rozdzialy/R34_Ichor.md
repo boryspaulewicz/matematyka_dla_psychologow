@@ -281,8 +281,7 @@ użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-communit
 wszystkim bogata kolekcja różnorodnych klas i instancji, tworzących powiązane w rozmaity sposób
 hierarchie abstrakcji, pokrywające się do pewnego stopnia z tym, jak zwykle przedstawiane są różne
 ważne i często stosowane teorie matematyczne. Gdy używamy Leana w przeglądarce, ta biblioteka jest
-ładowana automatycznie, natomiast w Leanie uruchamianym z własnego dysku trzeba ją dodatkowo
-zainstalować.
+ładowana automatycznie, natomiast w Leanie uruchamianym z dysku trzeba ją dodatkowo zainstalować.
 
 Nawet jeśli nie zamierzasz instalować tej biblioteki, możesz czasem probówać się z nią oswajać
 przeglądając niezobowiązująco dokumentację. Na przykład, z
