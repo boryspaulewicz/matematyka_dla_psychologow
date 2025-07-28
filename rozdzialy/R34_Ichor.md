@@ -82,10 +82,10 @@ dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 2. ... i na jakiejkolwiek niezobowiązującej, *uproszczonej* i wydającej się być *reprezentatywną*
    wersji tej sytuacji czy tego procesu.
 
-Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na ile różnych
+Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na *ile* różnych
 sposobów można przejść na przykład konkretną ulicą z jednego konkretnego punktu orientacyjnego do
-drugiego. Pomijamy też szczegóły dotyczące tego, jakie (na przykład, teoretycznie możliwe czołganie
-się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza, gdy chodzi o jakieś miasto,
+drugiego. Pomijamy też szczegóły dotyczące tego, *jakie* (na przykład, teoretycznie możliwe
+czołganie się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza, gdy chodzi o miasto,
 korzystamy przede wszystkim z *abstrakcyjnej siatki* ulic. Tą potrafimy *stabilnie nanosić* na
 rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w mowie i w głowie -
 *zachowując* ten *systematyczny związek*.
