@@ -312,7 +312,7 @@ odpowiednich sytuacjach zastępować określone *sekwencje* reakcji czy zachowa�
 kwestii *odwracalności*. Nie tylko działań *matematycznych*, ale również *zachowań* i *reakcji
 zwierząt*.
 
-Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się dowiadujemy, ...
+Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się okazuje, ...
 
 > ... wielokrotnie podkreślał, [że odwracalność] jest prawdziwym kamieniem probierczym racjonalnego
 > myślenia i inteligencji.
