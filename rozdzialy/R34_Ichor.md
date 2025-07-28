@@ -300,7 +300,7 @@ zamiana miejscami (na przykład rozgrywająca się mentalnie między nami) i jak
 ## ... a o czym *próbował* coś stwierdzić
 
 Berlyne ewidentnie wyjątkowo sprawnie, jak na żyjącego w tamtych (nie mówiąc już o naszych) czasach
-psychologa, operuje grupami, grafami i innymi blisko związamymi strukturami, jednak to wszystko mają
+psychologa, operuje grupami, grafami i innymi blisko związanymi strukturami. Jednak to wszystko mają
 być tylko *środki* do celu, jakim jest, co prawda częściowo oparte na wynikach badań, ale jednak
 przede wszystkim teoretyczne (co, według mnie, znaczy mniej więcej to samo, co naukowe) badanie
 pojęcia *myślenia*.
