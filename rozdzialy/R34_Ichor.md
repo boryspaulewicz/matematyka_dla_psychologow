@@ -277,8 +277,8 @@ ważne i często stosowane teorie matematyczne. Gdy używamy Leana w przeglądar
 ładowana automatycznie, natomiast w Leanie uruchamianym z własnego dysku trzeba ją dodatkowo
 zainstalować.
 
-Nawet, jeżeli nie zamierzasz instalować tej biblioteki, możesz probówać się czasem oswajać z tą
-ogromną matematyczną biblioteką przeglądając swobodnie jej dokumentację. Na przykład, z
+Nawet, jeżeli nie zamierzasz instalować tej biblioteki, możesz probówać się czasem z nią oswajać
+przeglądając swobodnie dokumentację. Na przykład, z
 [dokumentacji](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Group)
 dotyczącej klasy `Group`, która powinna być w tym momencie dla Ciebie miejscami zrozumiała, możesz
 się dowiedzieć, że ta klasa dziedziczy z klasy `DivInvMonoid`, definiującej interfejs monoidu
