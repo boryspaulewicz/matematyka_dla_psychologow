@@ -172,7 +172,7 @@ zaglądając od razu do pierwszego rozdziału, którego podrozdziały mają tytu
 właśnie tam zaczynają wyrastać rododendrony konkretów, bo w tych tytułach jest mowa o grafach,
 grupach i hierarchiach, to prędko zaczęłoby się robić dziwnie.
 
-### Co *dokładnie* autor miał na myśli
+### Co *dokładnie* autor miał na myśli, ...
 
 O hierarchiach będziemy mówić (znowu, ale wtedy bardziej formalnie) niebawem, więc teraz wyjaśnię Ci
 tylko, czym są *grupy*. A przy okazji, jeśli pozwolisz, spróbuję Ci możliwie bezboleśnie wgrać kilka
@@ -266,11 +266,77 @@ przemienności dodawania liczb całkowitych dostępny od razu w Leanie i zdefini
 Prelude.lean. Nazwę tego dowodu znajdziesz pisząc na przykład `#check Int.add_`, naciskając Tab-a i
 zgadując, jak musi się nazywać.
 
-Nie mogłem się oprzeć pokusie poruszenia wątku klasy grup abelowych i wymyślenia dotyczącego tej
+Ten kod jest skonstruowany w stylu, który obowiązuje w rozwijanej przez zróżnicowane grono
+użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-community/mathlib4). Mathlib
+to przede wszystkim bogada kolekcja różnorodnych klas i instancji, tworzących powiązane w rozmaity
+sposób hierarchie abstrakcji, pokrywające się do pewnego stopnia z tym, jak zwykle przedstawiane są
+różne ważne i często stosowane teorie matematyczne. Gdy używamy Leana w przeglądarce, ta biblioteka
+jest ładowana automatycznie, natomiast w Leanie uruchamianym z własnego dysku trzeba ją dodatkowo
+zainstalować. 
+
+Nawet, jeżeli nie zamierzasz instalować tej biblioteki, możesz probówać się czasem oswajać z tą
+ogromną matematyczną biblioteką przeglądając swobodnie jej dokumentację. Na przykład, z
+[dokumentacji](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Group)
+dotyczącej klasy `Group`, która powinna być w tym momencie dla Ciebie miejscami zrozumiała, możesz
+się dowiedzieć, że ta klasa dziedziczy z klasy `DivInvMonoid`, definiującej interfejs monoidu
+wyposażonego w działanie odwrotne, które można, bo to ma pewien głębszy sens, nazywać dzieleniem,
+dlatego w nazwie pojawia się skrót `DivInv`. Sposób, w jaki ten interfejs został zaprojektowany
+wynika stąd, że zawsze, gdy mamy dla każdego elementu elementy ze względu na dane działanie
+odwrotne, możemy zdefiniować działanie odwrotne względem danego, czyli możemy zdefiniować takie
+jakby uogólnione dzielenie zdefiniowane jako odwrotność uogólnionego mnożenia. Poniżej długiej listy
+pól odziedziczonych po innych klasach i zapisanych kolorem niebieskim widać tam, zapisane w kolorze
+czarnym, jedyne pole, które ta klasa dodaje i które pojawiło się też u nas, to jest pole
+`inv_mul_cancel`.
+
+Nie mogłem się oprzeć pokusie naszkicowania interfejsu grup abelowych i wymyślenia dotyczącego tej
 klasy zadania, bo przecież zaczęliśmy przygodę z matematyką właśnie od przemienności, tyle, że
 dodawania liczb naturalnych, które to działanie akurat, jak wiesz, nie ma struktury grupy. Nie
-mówiąc już o tym, jakie znaczenie odgrywa w tej przygodzie "przemienność" rozumiana jako zamiana
-miejscami (na przykład rozgrywająca się mentalnie między nami) i jako (samo)przekształcalność.
+mówiąc już o tym, jakie znaczenie odgrywa w tej naszej przygodzie "przemienność" rozumiana jako
+zamiana miejscami (na przykład rozgrywająca się mentalnie między nami) i jako
+(samo)przekształcalność.
+
+## ... a o czym próbował coś powiedzieć
+
+Berlyne ewidentnie sprawnie operuje grupami, grafami i innymi blisko związamymi strukturami, jednak
+to wszystko mają być tylko *środki* do celu, jakim jest, co prawda częściowo oparte na wynikach
+badań, ale jednak przede wszystkim teoretyczne (co, według mnie, znaczy mniej więcej to samo, co
+naukowe) badanie pojęcia *myślenia*.
+
+Po omówieniu, w rozdziale 8, analogii między składaniem działań grupy i pewną postacią
+automatyzacji, występującej w procesie uczenia się, polegającą na powstawaniu u zwierząt zachowań
+nawykowych jako *jednostek* czy może raczej (funkcjonalnych) *atomów* zachowaniowych, które z czasem
+zaczynają w odpowiednich sytuacjach zastępować określone *sekwencje* reakcji czy zachowań, Berlyne
+przechodzi do kwestii *odwracalności*. Nie tylko odwracalności działań *matematycznych*, ale również
+zachowań* i *reakcji zwierząt*.
+
+Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się dowiadujemy, ...
+
+> ... wielokrotnie podkreślał, [że odwracalność] jest prawdziwym kamieniem probierczym racjonalnego
+> myślenia i inteligencji.
+
+Zaprawdę mętne to i tajemnicze, ale i dla nas ciekawe, a poza tym to ewidentnie skrót myślowy,
+staramy się więc pochopnie nie oceniać. Potem jest przykład przejścia 100 m na północ, a następnie
+100 m na południe i nie ma wątpliwości, że to są *w pewnym sensie* wzajemne odwrotności. Ale dalej
+jest coraz więcej przykładów procesów *biologicznych* i *psychologicznych*, które autor podaje jako
+przykłady *procesów odwracalnych*, a które oczywiście odwracalne *nie* są.
+
+Bo *odwracalność istnieje tylko w świecie abstrakcji*. Jeżeli, posługując się wyobraźnią, zmienimy
+stan czegoś na jakiś, a potem przywrócimy temu czemuś stan wyjściowy, to dokonamy przekształcenia
+będącego złożeniem operacji równych pod względem działania przekształceniu identycznościowemu, ale
+*tylko* w znaczeniu *logicznym*, a nie *psycho*logicznym. Każda bez wyjątku myśl pozostawia
+nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym procesem zmieniającym nas na
+zawsze między innymi z powodu stale zachodzących procesów uczenia się.
+
+Berlyne, byku, co Ty gadasz?!
+
+Chłopie, nie pij tej wody!!
+
+David, ziomuś, weź się zlituj, to jest pomieszanie typów. Po czymś takim może być już tylko facepalm
+i game over.
+
+## Z drugiej jednak strony, mogło być (znacznie) gorzej
+
+TODO Co o Berlynie piszą w NOSie.
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
