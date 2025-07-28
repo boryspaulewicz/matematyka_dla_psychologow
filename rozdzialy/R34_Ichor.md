@@ -133,7 +133,7 @@ I dalej to idzie między innymi tak:
 
 Wolałbym może "językiem grafów", ale sam stosuję obie konwencje, no i tam chodzi o algebrę
 abstrakcyjną, ale to drobiazg, zresztą może ten sposób mówienia był wtedy powszechny. W każdym razie
-to wszystko powinno już brzmieć dla Ciebie znajomo.
+to wszystko powinno brzmieć dla Ciebie znajomo.
 
 Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
 żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczna", "integracyjna", "równoważność",
