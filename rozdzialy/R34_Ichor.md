@@ -230,7 +230,7 @@ również, że *działają jak elementy odwrotne*.
 
 Dodawanie liczb całkowitych jest grupą, ale liczb naturalnych już nie, bo spośród wszystkich liczb
 naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie jest działaniem
-łącznym, wyposażonym w jednostkę jak również odwracalnym na przykład na zbiorze `ℚ\{0}` (zwykle tak
+łącznym, wyposażonym w jednostkę, jak również odwracalnym na przykład na zbiorze `ℚ\{0}` (zwykle tak
 \{`X\Y`\} zapisujemy działanie \{binarne\} pozbywania się podzbiorów), to jest na zbiorze liczb
 wymiernych bez zera, bo zero nie ma odwrotności *ze względu na mnożenie*.
 
