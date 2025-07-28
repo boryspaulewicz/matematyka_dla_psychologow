@@ -423,12 +423,11 @@ jakimś sensie "mniejsze", albo "słabsze", albo jakoś inaczej jest poniżej cz
 zachodzenia takiej relacji między innymi parami elementów?
 
 Co sprawia, że wszystkie te reprezentacje, zwłaszcza, kiedy są przedstawione w postaci *diagramów*,
-wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju (uogólnionej)
-*modularności* i (funkcjonalnej) *jednorodności*? I czemu tak szybko zaczynamy je *zrozumieć*? A
-zwłaszcza:
+wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju *uogólnionej i
+przyjaznej modularności*? I czemu tak szybko zaczynamy je *zrozumieć*? A zwłaszcza:
 
 *Czemu tak łatwo jest nam mentalnie wycinać ich fragmenty i w ich miejsce wstawiać inne i czemu tak
-dobrze sobie radzimy z domyślaniem się, jak całość będzie potem działała*?
+dobrze sobie radzimy z domyślaniem się, jak całość będzie potem\  f u n k c j o n o w a ł a*?
 
 Naprowadzałem Cię na trop odpowiedzi, której oczekuję, w różny sposób od wielu rozdziałów i tyle
 razy już to powtarzałem. A i tak nie masz najmniejszych szans jej znaleźć.
