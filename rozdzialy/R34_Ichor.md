@@ -85,7 +85,7 @@ korzystamy przede wszystkim, na ile jesteśmy w stanie, z *abstrakcyjnej siatki*
 *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w
 mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
-Nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny uogólniony homomorfizm.
+Nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny, uogólniony homomorfizm.
 
 I nie chodzi tu o reprezentatywność w znaczeniu
 [statystycznym](https://statmodeling.stat.columbia.edu/2023/05/22/what-exactly-is-a-representative-sample/#comment-2217140). Warto
