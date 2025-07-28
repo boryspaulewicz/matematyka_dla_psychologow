@@ -270,12 +270,12 @@ w pliku Prelude.lean. Nazwę tego dowodu znajdziesz pisząc na przykład `#check
 Tab-a i zgadując, jak musi się nazywać.
 
 Ten kod jest skonstruowany w stylu, który obowiązuje w rozwijanej przez zróżnicowane grono
-użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-community/mathlib4). Mathlib
-to przede wszystkim bogada kolekcja różnorodnych klas i instancji, tworzących powiązane w rozmaity
-sposób hierarchie abstrakcji, pokrywające się do pewnego stopnia z tym, jak zwykle przedstawiane są
-różne ważne i często stosowane teorie matematyczne. Gdy używamy Leana w przeglądarce, ta biblioteka
-jest ładowana automatycznie, natomiast w Leanie uruchamianym z własnego dysku trzeba ją dodatkowo
-zainstalować. 
+użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-community/mathlib4). To przede
+wszystkim bogata kolekcja różnorodnych klas i instancji, tworzących powiązane w rozmaity sposób
+hierarchie abstrakcji, pokrywające się do pewnego stopnia z tym, jak zwykle przedstawiane są różne
+ważne i często stosowane teorie matematyczne. Gdy używamy Leana w przeglądarce, ta biblioteka jest
+ładowana automatycznie, natomiast w Leanie uruchamianym z własnego dysku trzeba ją dodatkowo
+zainstalować.
 
 Nawet, jeżeli nie zamierzasz instalować tej biblioteki, możesz probówać się czasem oswajać z tą
 ogromną matematyczną biblioteką przeglądając swobodnie jej dokumentację. Na przykład, z
