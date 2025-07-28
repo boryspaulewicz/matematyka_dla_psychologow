@@ -318,7 +318,7 @@ Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się 
 > ... wielokrotnie podkreślał, [że odwracalność] jest prawdziwym kamieniem probierczym racjonalnego
 > myślenia i inteligencji.
 
-Zaprawdę mętne to i tajemnicze, ale i dla nas ciekawe, a poza tym to ewidentnie skrót myślowy;
+Zaprawdę mętne to i tajemnicze, ale i dla nas ciekawe, a poza tym to ewidentnie skrót myślowy,
 staramy się więc pochopnie nie oceniać. Potem jest przykład przejścia 100 m na północ, a następnie
 100 m na południe i nie ma wątpliwości, że to są *w pewnym sensie* wzajemne odwrotności. Ale dalej
 jest coraz więcej przykładów procesów *biologicznych* i *psychologicznych*, które autor podaje jako
