@@ -46,8 +46,8 @@ może podgryzać własny ogon i jakoś daje radę. Możesz iść w prawo, w lewo
 jest nieskończona, a rododendrony rosną gdzie chcą.
 
 Widzisz podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad trasą, którą faktycznie
-wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo dokładnie na tym
-polega wskazywanie komuś drogi.
+wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo tym dokładnie *jest*
+wskazywanie komuś drogi (jako zachowanie).
 
 Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować należących do różnych wydziałów
 pracowników różnych szczebli w kilku wielopiętrowych budynkach całkiem nowej filii, która właśnie
@@ -85,7 +85,7 @@ korzystamy przede wszystkim, na ile jesteśmy w stanie, z *abstrakcyjnej siatki*
 *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w
 mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
-To taki nasz codzienny, nadający sens każdemu aktowi myślenia, nonszalancki homomorfizm.
+Nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny uogólniony homomorfizm.
 
 I nie chodzi tu o reprezentatywność w znaczeniu
 [statystycznym](https://statmodeling.stat.columbia.edu/2023/05/22/what-exactly-is-a-representative-sample/#comment-2217140). Warto
@@ -107,6 +107,66 @@ codzienne potrzeby praktyczne określonymi lokalizacjami w przestrzeni fizycznej
 Robimy coś takiego nieustannie myśląc o czymkolwiek, a mimo to całe pokolenia próbujących zrozumieć
 na czym to polega, skądinąd relatywnie inteligentnych ludzi, mogą się konsekwentnie gubić próbując
 znaleźć odpowiedź na pytanie, co tutaj jest czego czym i jak to wszystko razem działa.
+
+## Nie jest dobrze trailer
+
+Mam na półce wydaną w roku 69 "Strukturę i kierunek myślenia" Berlyne'a i gdy czasem na tą książkę
+patrzę, to myślę sobie, że to niezły przykład. Z opisu n obwolucie dowiadujemy się, że:
+
+> D. E. Berlyne, profesor psychologii na uniwersytecie w Toronto, autor wielu prac z zakresu
+> zachowania poznawczego i jego motywów, w niniejszej książce zajmuje się myśleniem ukierunkowanym -
+> najwyższą formą zachowania poznawczego.
+
+I dalej to idzie między innymi tak:
+
+> Proces myślenia ukierunkowanego autor przedstawia w postaci łańcuchów wewnętrznych reakcji
+> symbolicznych, zorganizowanych w złożone hierarchie. Przy opisie struktury tych hierarchii
+> posługuje się językiem teorii grafów i algebry transformacji; czyni to jednak w sposób przystępny,
+> nie wymagający od czytelnika specjalnego przygotowania matematycznego.
+
+Wolałbym może "językiem grafów", ale sam stosuję obie konwencje, no i tam chodzi o algebrę
+abstrakcyjną, ale to drobiazg, zresztą może wtedy ten sposób mówienia był powszechny. Wszystko to
+powinno już brzmieć dla Ciebie znajomo.
+
+Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
+żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczny", "integracyjny", "równoważność",
+"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjne", i tak dalej.
+
+Zanim zaczniemy czytać "Z przedmowy", widzimy kilka cytatów, które bardzo lubię, ale to sobie kiedyś
+może sama znajdziesz, jak będziesz miała czas i ochotę. W przedmowie Berlyne pisze, że celem tej
+książki jest ...
+
+> ... wprowadzenie języka teoretycznego - tj. systemu pojęć - który może ułatwić ujawnienie
+> podobieństw i różnic między procesami myślowymi a innymi formami zachowania.
+
+Zgaduję, że jest dla Ciebie w tym momencie całkiem jasne, jak bardzo ten cel jest mi bliski. W
+dodatku nieco dalej to idzie tak:
+
+> Historia nauki sugeruje, że - po pierwsze - tym, co najskuteczniej przyczynia się do postępu
+> wiedzy, nie jest w rzeczywistości odkrycie właściwych odpowiedzi, lecz znalezienie właściwych
+> pytań. Gdy zostaną postawione właściwe pytania, nie trzeba zwykle długo czekać na znalezienie
+> właściwych odpowiedzi.
+
+Tak! A z drugiej strony nie. Skąd wiemy, że pytanie jest właściwe? Żeby można było stwierdzić, że
+pytanie jest właściwe, w jakimkolwiek sensie, musi istnieć jakieś kryterium bycia
+właściwym. Znalezienie właściwego pytania jest więc *odpowiedzią* na pytanie, jakie pytanie spełnia
+jakieś kryterium bycia właściwym. Każda odpowiedź rodzi nowe pytania, ale też każde pytanie jest na
+coś, przynajmniej w pewnym sensie, odpowiedzią. Skoro postawienie właściwego pytania jest takie
+ekstra, to wypadałoby zacząć szukać *sposobu znajdywania właściwych pytań*. I to poszukiwanie przez
+podjadanie ogona własnego myślenia i mowy byłoby w pewnym sensie tym samym, co *pytanie
+najwłaściwsze*.
+
+A raczej *jest*, bo niby co innego my tutaj od dłuższego już czasu robimy?
+
+Bardzo lubię styl tego autora, dobór zarówno tematów jak i perspektyw, postawę wobec czytelników i w
+ogóle sporo mi się w tej książce i w Berlynie podoba. Gdybyśmy jednak chcieli ocenić jakość jego
+centralnych propozycji teoretycznych, zaglądając od razu do pierwszego rozdziału, którego
+podrozdziały mają tytuły sugerujące, że może właśnie tam zaczynają wyrastać rododendrony konkretów,
+bo w tych tytułach jest mowa o grafach, grupach i hierarchiach, to prędko zaczęłoby się robić
+dziwnie.
+
+O hierarchiach będziemy mówić (znowu, ale wtedy bardziej formalnie) niebawem, więc teraz wyjaśnię Ci
+tylko, czym dokładnie są *grupy*:
 
 ## [Paciorkowce](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCaniec) tu i tam
 
