@@ -335,10 +335,10 @@ będącego złożeniem tych dwóch operacji i równego pod względem działania 
 identycznościowemu, ale *tylko* w znaczeniu *logicznym*, a nie *psychologicznym*. Już sam fakt, że z
 perspektywy logicznej to jest *jedno* przekształcenie, które może być *reprezentowane* na różne
 sposoby, w tym jako złożenie, a z perpsektywy psychologicznej, biologicznej, lub fizycznej to są (co
-najmniej!) *dwa* przekształcenia, pokazuje, że coś tu do czegoś nie pasuje. Każda bez wyjątku myśl
-pozostawia przecież nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym
-procesem, zmieniającym nas już na zawsze między innymi z powodu stale zachodzących procesów uczenia
-się.
+najmniej!) *dwa* przekształcenia, pokazuje, że coś tu do czegoś nie pasuje. W szczególności, każda
+bez wyjątku myśl pozostawia przecież nieusuwalny i niemały ślad, bo każda myśl jest złożonym,
+nieodwracalnym procesem, zmieniającym nas już na zawsze między innymi z powodu stale zachodzących
+procesów uczenia się.
 
 <br>
 
