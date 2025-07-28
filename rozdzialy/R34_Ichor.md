@@ -206,11 +206,13 @@ class Abelian_group (α : Type u) extends Group α where
 zbiorze działania binarnego. Czyli po prostu dowolne działanie binarne. Czyli dowolna funkcja o
 postaci `X × X → X`. Albo dowolna funkcja dwuargumentowa zdefiniowana za pomocą curryingu, której
 oba parametry i rezultat są tego samego typu - jeżeli akurat znajdujemy się w świecie typów a nie
-zbiorów - lub są tym samym zbiorem, ale wtedy wypadałoby może mówić o *obu dziedzinach i
-przeciwdziedzinie* zamiast o parametrach i rezultacie. Dlaczego i po co mamy tyle różnych określeń
-na to samo? Otóż *dlatego*, że te określenia to *części różnych (pod)języków*, a każdy z tych jęzków
-*jest* innym *sposobem myślenia*. A myślenie, zgodzisz się chyba, jest zdecydowanie *po coś*;
-czasami zdaje mi się nawet, że myślenie jest tym, co jest w nas najbardziej po coś.
+zbiorów - lub są tym samym zbiorem, ale wtedy wypadałoby może mówić o obu *dziedzinach* i
+*przeciwdziedzinie* zamiast o parametrach i rezultacie. 
+
+Dlaczego i po co mamy tyle różnych określeń na to samo? Otóż *dlatego*, że te określenia to *części
+różnych (pod)języków*, a każdy z tych jęzków *jest* innym *sposobem myślenia*. A myślenie, zgodzisz
+się chyba, jest zdecydowanie *po coś*; czasami zdaje mi się nawet, że myślenie jest tym, co jest w
+nas najbardziej po coś.
 
 Ponieważ `Mul` to dokładnie jakieś działanie binarne, w dodatku wyposażone w przyjemną wzrostkową
 notację gwiazdkową, to nie kombinujemy, tylko traktujemy stałą `Magma` jako inną nazwę dla tego
