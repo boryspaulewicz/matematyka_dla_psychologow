@@ -417,7 +417,8 @@ zachodzenia takiej relacji między innymi parami elementów?
 
 Co sprawia, że wszystkie te reprezentacje, zwłaszcza, kiedy są przedstawione w postaci *diagramów*,
 wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju (uogólnionej)
-*modularności* i (funkcjonalnej) *jednorodności*? Czemu możemy je tak szybko wstępnie *zrozumieć*.
+*modularności* i (funkcjonalnej) *jednorodności*? I czemu tak szybko zaczynamy je *zrozumieć*? A
+zwłaszcza:
 
 *Czemu tak łatwo jest nam mentalnie wycinać ich fragmenty i w ich miejsce wstawiać inne i czemu tak
 dobrze sobie radzimy z domyślaniem się, jak całość będzie potem działała*?
