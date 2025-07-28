@@ -137,7 +137,7 @@ to wszystko powinno brzmieć dla Ciebie znajomo.
 
 Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
 żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczna", "integracyjna", "równoważność",
-"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i inne podobne.
+"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna" i inne podobne.
 
 Zanim zaczniemy czytać "Z przedmowy", trafiamy na kilka cytatów, które bardzo lubię, ale to sobie
 kiedyś może sama znajdziesz, jak będziesz miała czas i ochotę. W przedmowie Berlyne zaś pisze, że
