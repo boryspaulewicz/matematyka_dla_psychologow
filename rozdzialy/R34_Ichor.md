@@ -96,7 +96,7 @@ I nie chodzi tu o reprezentatywność w znaczeniu
 [statystycznym](https://statmodeling.stat.columbia.edu/2023/05/22/what-exactly-is-a-representative-sample/#comment-2217140). Warto
 może już na tym etapie zwrócić uwagę, że nie ma czegoś takiego, jak *reprezentacja, która niczego
 nie reprezentuje* choćby *potencjalnie*. Dla wszelkiego rodzaju bycia reprezentacją czy
-reprezentowania *jako takego* (a nie na przykład rozpartywanego ze względu na jakiś rodzaj
+reprezentowania *jako takiego* (a nie na przykład rozpartywanego ze względu na jakiś rodzaj
 skuteczności reprezentowania, taki jak dajmy na to koszty metaboliczne, gdy to jest reprezentowanie
 zrealizowane biologicznie), nie ma znaczenia, jak *zaimplementowane* albo *zrealizowane fizycznie*
 jest to reprezentowanie, dopóki w pewien sposób *działa*. To jest dopóki *my używamy*, albo *jakiś
