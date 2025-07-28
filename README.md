@@ -1,8 +1,8 @@
 <div align="right"><em>Wszystko, co można zrozumieć, da się powiedzieć jasno.<br/>Wszystko, co da
 się powiedzieć jasno, można zapisać w języku <a
 href="https://en.wikipedia.org/wiki/Type_theory">teorii typów</a>.<br/> A to, co zostało zapisane w
-języku teorii typów, można sprawdzić za pomocą algorytmu i zredukować do najprostszej
-postaci.</em></div>
+języku teorii typów, można sprawdzić i zredukować do najprostszej postaci za pomocą
+algorytmu.</em></div>
 
 <br/>
 <br/>
