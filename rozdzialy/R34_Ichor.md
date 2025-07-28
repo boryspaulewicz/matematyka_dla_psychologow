@@ -182,8 +182,8 @@ grupach i hierarchiach, to prędko zaczęłoby się robić
 ### Co *dokładnie* autor *miał* (na myśli[^3]), ...
 
 O hierarchiach będziemy mówić (znowu, ale wtedy już bardziej formalnie) niebawem, więc teraz
-wyjaśnię Ci tylko, czym są *grupy*. A przy okazji, jeśli pozwolisz, spróbuję Ci możliwie bezboleśnie
-wgrać też kilka innych interfejsów.
+wyjaśnię Ci tylko, czym są *grupy*. A jeśli pozwolisz, to spróbuję Ci możliwie bezboleśnie przy
+okazji wgrać kilka innych interfejsów.
 
 ```lean
 def Magma := Mul
