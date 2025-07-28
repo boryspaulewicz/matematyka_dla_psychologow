@@ -147,7 +147,7 @@ celem tej książki jest ...
 > podobieństw i różnic między procesami myślowymi a innymi formami zachowania.
 
 Zgaduję, że jest dla Ciebie w tym momencie jasne, jak bardzo ten cel jest mi bliski. W dodatku nieco
-dalej idzie to tak:
+dalej pisze tak:
 
 > Historia nauki sugeruje, że - po pierwsze - tym, co najskuteczniej przyczynia się do postępu
 > wiedzy, nie jest w rzeczywistości odkrycie właściwych odpowiedzi, lecz znalezienie właściwych
