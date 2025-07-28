@@ -111,7 +111,7 @@ znaleźć odpowiedź na pytanie, co tutaj jest czego czym i jak to wszystko raze
 ## Nie jest dobrze trailer
 
 Mam na półce wydaną w roku 69 "Strukturę i kierunek myślenia" Berlyne'a i gdy czasem na tą książkę
-patrzę, to myślę sobie, że to niezły przykład. Z opisu n obwolucie dowiadujemy się, że:
+patrzę, to myślę sobie, że to niezły przykład. Z opisu na obwolucie dowiadujemy się, że:
 
 > D. E. Berlyne, profesor psychologii na uniwersytecie w Toronto, autor wielu prac z zakresu
 > zachowania poznawczego i jego motywów, w niniejszej książce zajmuje się myśleniem ukierunkowanym -
