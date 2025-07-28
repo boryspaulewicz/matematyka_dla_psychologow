@@ -282,7 +282,7 @@ przeglądając swobodnie dokumentację. Na przykład, z
 [dokumentacji](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Group)
 dotyczącej klasy `Group`, która powinna być w tym momencie dla Ciebie częściowo zrozumiała, możesz
 się dowiedzieć, że ta klasa dziedziczy z klasy `DivInvMonoid`, definiującej interfejs monoidu
-wyposażonego w działanie odwrotne, które można, bo to ma pewien głębszy sens, nazywać dzieleniem,
+wyposażonego w działanie odwrotne, które można - bo ma to pewien głębszy sens - nazywać dzieleniem,
 dlatego w nazwie pojawia się skrót `DivInv`. Sposób, w jaki ten interfejs został zaprojektowany
 wynika stąd, że zawsze, gdy mamy dla każdego elementu elementy ze względu na dane działanie
 odwrotne, możemy zdefiniować działanie odwrotne względem danego, czyli możemy zdefiniować takie
