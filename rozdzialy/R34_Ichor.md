@@ -242,8 +242,8 @@ naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie j
 wymiernych bez zera, bo zero nie ma odwrotności *ze względu na mnożenie*.
 
 Możemy wykazać, że dodawanie liczb całkowitych daje grupę tworząc term typu rekordowego `Group` i
-możemy określić tak to, co w ten sposób zrobimy, bo każda klasa jest również typem rekordowym, a
-każda instancja jest termem typu rekordowego:
+możemy właśnie tak określać to, co w ten sposób zrobimy, bo każda klasa jest również typem
+rekordowym, a każda instancja jest termem typu rekordowego:
 
 ```lean
 instance : Group Int where
