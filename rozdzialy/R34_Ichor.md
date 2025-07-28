@@ -44,7 +44,11 @@ zawartość, po czym ucieka
 <div align="right">{a szpaki, jak to mają w zwyczaju o tej porze roku, plują pestkami na
 Plantach})</div>
 
+<br>
+
 Co tu właściwie *zaszło*?
+
+<br>
 
 Albo wyobraź sobie, że grasz w grę, w której poruszasz się wężem Uroborem
 ([`🐍`](https://pl.wikipedia.org/wiki/Uroboros)), żywiącym się rododendronami. Nie da się w tą grę
