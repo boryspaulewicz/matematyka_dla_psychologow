@@ -2,9 +2,9 @@
 
 # Ἰχώρ
 
-*The most remarkable thing about plants is that they are green.*
+The most remarkable thing about plants is that they are green.
 
-(Science and the Garden: The Scientific Basis of Horticultural Practice, s. 1)
+*Science and the Garden: The Scientific Basis of Horticultural Practice, s. 1*
 
 ## Gdyby to dać tu i wtedy zrobić tak
 
