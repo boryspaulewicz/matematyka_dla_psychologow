@@ -102,7 +102,7 @@ i reprezentowania są pojęciami *funkcjonalnymi*.
 
 Wyczyszczone w ten sposób z błota nieunikalności celu glony opisu przejścia z jednego punktu do
 drugiego są reprezentacją pewnego rodzaju *czynności*. A mówiąc dokładniej, reprezentują *sekwencje
-przejść* między, traktowanymi jako *punkty* w pewnej *abstrakcyjnej strukturze*, wystarczająco
+przejść* pomiędzy, traktowanymi jako *punkty* w pewnej *abstrakcyjnej strukturze*, wystarczająco
 dobrze jak na nasze codzienne potrzeby praktyczne określonymi lokalizacjami w przestrzeni fizycznej.
 
 Robimy coś takiego nieustannie myśląc o czymkolwiek, a mimo to całe pokolenia próbujących zrozumieć
