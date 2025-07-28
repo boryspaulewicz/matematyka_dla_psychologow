@@ -139,8 +139,8 @@ książki jest ...
 > ... wprowadzenie języka teoretycznego - tj. systemu pojęć - który może ułatwić ujawnienie
 > podobieństw i różnic między procesami myślowymi a innymi formami zachowania.
 
-Zgaduję, że jest dla Ciebie w tym momencie całkiem jasne, jak bardzo ten cel jest mi bliski. W
-dodatku nieco dalej to idzie tak:
+Zgaduję, że jest dla Ciebie w tym momencie jasne, jak bardzo ten cel jest mi bliski. W dodatku nieco
+dalej idzie to tak:
 
 > Historia nauki sugeruje, że - po pierwsze - tym, co najskuteczniej przyczynia się do postępu
 > wiedzy, nie jest w rzeczywistości odkrycie właściwych odpowiedzi, lecz znalezienie właściwych
