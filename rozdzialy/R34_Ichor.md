@@ -1,5 +1,4 @@
 <!-- -*- coding: utf-8 -*- -->
-## O czym teraz będzie
 
 # Ἰχώρ
 
