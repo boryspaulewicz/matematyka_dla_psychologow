@@ -53,7 +53,7 @@ Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować pracowników
 szczebli w kilku wielopiętrowych budynkach nowej filii, która właśnie powstaje w
 [Radomiu](https://sites.stat.columbia.edu/gelman/stuff_for_blog/spelling.pdf)[^1]. Wypadałoby pewnie
 przypisać (własność) wydziały do budynków, albo odwrotnie, co na jedno wychodzi, jeśli budynków jest
-tyle, ile jest wydziałów (izomorfizm, a dokładniej bijekcja). I może pracownicy wyższych szczebli,
+tyle, ile jest wydziałów (izomorfizm, a dokładnie bijekcja). I może pracownicy wyższych szczebli,
 którzy mają przecież jakiś rodzaj władzy nad pracownikami niższych szczebli, powinni pracować na
 wyższych piętrach.
 
