@@ -21,7 +21,7 @@ u Ciebie też?
 Załóżmy dalej, że zaczęłaś najpierw opisywać drogę na Wawel wiodącą przez Piłsudskiego, bo tak jest
 bliżej, ale potem pomyślałaś, że to przecież turysta, a ulica Smoleńsk jest chyba ładniejsza i ta
 urocza piekarnio-kawiarnia [Massolit](https://www.instagram.com/massolitbakery/) też tam, między
-[innymi](https://www.whitemad.pl/dom-egipski-w-krakowie-oryginalny-budynek-ktory-nie-przetrwal-proby-czasu/),
+[innymi](https://www.whitemad.pl/dom-egipski-w-krakowie-oryginalny-budynek-ktory-nie-przetrwal-proby-czasu/)
 (może jeszcze, gdy to czytasz) jest, więc *wyszło* Ci tak:
 
 *Niech Pan skręci tutaj, pierwszą w prawo* (czyli w Piłsudskiego)*, potem do końca, aż Pan dojdzie
