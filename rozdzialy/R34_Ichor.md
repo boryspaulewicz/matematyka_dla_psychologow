@@ -15,7 +15,7 @@ własność, a więc pewną funkcję) miejsce na [Skwerze Praw
 Kobiet](https://maps.app.goo.gl/Dxs9PjZbSY1NboN7A), przy ulicy Retoryka (bo to jest przykład
 retoryczny), mniej więcej w połowie drogi między skrzyżowaniami z ulicami Piłsudskiego i Smoleńsk.
 
-Powiało tu troszeczkę [nieznośnym smrodem
+Powiało tu trochę [nieznośnym smrodem
 polityki](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/b6631904-9718-4677-a4d5-952c9c56df14/pobierz),
 u Ciebie też?
 
@@ -40,29 +40,30 @@ zawartość, po czym ucieka
 
 Co tu właściwie *zaszło*?
 
-Albo wyobraź sobie, że grasz w grę, w której poruszasz się wężem Uroborem żywiącym się
-rododendronami. Nie da się w tą grę przegrać, bo kiedy zbyt długo brakuje zwykłego pokarmu, Urobor
-może podgryzać własny ogon i jakoś daje radę. Możesz iść w prawo, w lewo, w górę i w dół, plansza
-jest nieskończona, a rododendrony rosną gdzie chcą.
+Albo wyobraź sobie, że grasz w grę, w której poruszasz się wężem Uroborem
+([`🐍`](https://pl.wikipedia.org/wiki/Uroboros)) żywiącym się rododendronami. Nie da się w tą grę
+przegrać, bo kiedy zbyt długo brakuje zwykłego pokarmu, Urobor może podgryzać własny ogon i jakoś
+daje radę. Możesz iść w prawo, w lewo, w górę i w dół, plansza jest nieskończona, a rododendrony
+rosną gdzie chcą.
 
-Widzisz podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad trasą, którą faktycznie
-wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo tym dokładnie *jest*
-wskazywanie komuś drogi (jako zachowanie).
+Widzisz jakieś podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad trasą, którą
+faktycznie wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo tym
+dokładnie (w pewnym sensie) *jest* wskazywanie komuś drogi (jako zachowanie).
 
-Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować należących do różnych wydziałów
-pracowników różnych szczebli w kilku wielopiętrowych budynkach całkiem nowej filii, która właśnie
-powstaje w
+Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować pracowników różnych wydziałów i
+szczebli w kilku wielopiętrowych budynkach całkiem nowej filii, która właśnie powstaje w
 [Radomiu](https://sites.stat.columbia.edu/gelman/stuff_for_blog/spelling.pdf)[^1]. Wypadałoby pewnie
 przypisać (własność) wydziały do budynków, albo odwrotnie, co na jedno wychodzi, jeśli budynków jest
 tyle, ile jest wydziałów (izomorfizm). I może pracownicy wyższych szczebli, którzy mają przecież
 jakiś rodzaj władzy nad pracownikami niższych szczebli, powinni pracować na wyższych piętrach.
 
-Formalna struktura tego ostatniego przykładu rysuje się niemal sama, prawda? Ale poprzednie są
-znacznie mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
+Formalna struktura ostatniego przykładu rysuje się niemal sama, prawda? Ale poprzednie są mniej
+oczywiste. Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję) razem.
 
-Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie fragmentów
-tego rozdziału na porządek następujących odtąd działań. Może najpierw spróbujmy
+Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie wybranych (a
+więc niejawnie oznaczonych) fragmentów tego rozdziału na porządek następujących odtąd działań. Może
+najpierw spróbujmy
 [wygrzebać](https://literatura.wywrota.pl/wiersz-klasyka/24806-staff-leopold-rzesa.html) z bajora
 tej mętnej parapoetyckiej prozy jakieś pożywne glony, oddzielając, jako chwilowo nieinteresujący,
 język zwrotów grzecznościowych (*niech Pan*), zamieniając nazwy własne na abstrakcyjne *oznaczenia*,
@@ -71,21 +72,21 @@ najważniejsze są *punkty skrzyżowań*, upraszczając - na tym etapie co najwy
 redundancje (*w lewo* zamiast *niech Pan skręci w lewo*) i w ogóle ignorując różne subtelności
 dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 
-1. ... tym co dla nas w tym momencie najważniejsze, to jest na *skutecznym przekazywaniu instrukcji
+1. ... tym co dla nas w tym momencie najważniejsze, to jest na skutecznym przekazywaniu *instrukcji
    jak gdzieś dojść* ...
 
-2. ... i na jakiejkolwiek *uproszczonej* i wydającej się być *reprezentatywną* wersji tej sytuacji
-   czy tego procesu.
+2. ... i na jakiejkolwiek wstępnej, to jest roboczej, *uproszczonej* i wydającej się być
+   *reprezentatywną* wersji tej sytuacji czy tego procesu.
 
 Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na ile różnych
 sposobów można przejść na przykład konkretną ulicą z jednego konkretnego punktu orientacyjnego do
 drugiego. Pomijamy też szczegóły dotyczące tego, jakie (na przykład, teoretycznie możliwe czołganie
-się albo kicanie) to mogą być sposoby. Zamiast tego, o ile chodzi na przykład o jakieś miasto,
+się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza gdy chodzi o jakieś miasto,
 korzystamy przede wszystkim, na ile jesteśmy w stanie, z *abstrakcyjnej siatki* ulic. Tą potrafimy
 *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w
 mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
-Nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny, uogólniony homomorfizm.
+To nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny, uogólniony homomorfizm.
 
 I nie chodzi tu o reprezentatywność w znaczeniu
 [statystycznym](https://statmodeling.stat.columbia.edu/2023/05/22/what-exactly-is-a-representative-sample/#comment-2217140). Warto
@@ -96,19 +97,19 @@ skuteczności reprezentowania, taki jak dajmy na to koszty metaboliczne, gdy to 
 zrealizowane biologicznie), nie ma znaczenia, jak *zaimplementowane* albo *zrealizowane fizycznie*
 jest to reprezentowanie, dopóki w pewien sposób *działa*. To jest dopóki *my używamy*, albo *jakiś
 Ktoś* używa czegoś, dosłownie czegokolwiek, *do reprezentowania* czegoś w pewien sposób. Ze względu
-na *pewnego rodzaju pytania*, implementacja nie ma tu znaczenia, ponieważ pojęcia reprezentacji i
-reprezentowania są pojęciami *funkcjonalnymi*.
+na *pewnego rodzaju pytania* implementacja nie ma żadnego znaczenia, ponieważ pojęcia reprezentacji
+i reprezentowania są pojęciami *funkcjonalnymi*.
 
-Wyczyszczone w ten sposób z błota nieunikalnej celowości glony opisu przejścia z jednego punktu do
-drugiego są reprezentacją pewnego rodzaju *czynności*, a dokładniej *sekwencji przejść* między
-traktowanymi jako *punkty* w pewnej *abstrakcyjnej strukturze*, wystarczająco dobrze jak na nasze
-codzienne potrzeby praktyczne określonymi lokalizacjami w przestrzeni fizycznej.
+Wyczyszczone w ten sposób z błota nieunikalności celowości glony opisu przejścia z jednego punktu do
+drugiego są reprezentacją pewnego rodzaju *czynności*. A mówiąc dokładniej, reprezentują *sekwencje
+przejść* między, traktowanymi jako *punkty* w pewnej *abstrakcyjnej strukturze*, wystarczająco
+dobrze jak na nasze codzienne potrzeby praktyczne określonymi lokalizacjami w przestrzeni fizycznej.
 
 Robimy coś takiego nieustannie myśląc o czymkolwiek, a mimo to całe pokolenia próbujących zrozumieć
-na czym to polega, skądinąd relatywnie inteligentnych ludzi, mogą się konsekwentnie gubić próbując
-znaleźć odpowiedź na pytanie, co tutaj jest czego czym i jak to wszystko razem działa.
+na czym to polega, skądinąd relatywnie inteligentnych ludzi, mogą się konsekwentnie gubić (?)
+szukając odpowiedzi na pytanie, co tutaj jest czego czym i jak to wszystko razem działa.
 
-## Nie jest dobrze (ale może być jeszcze wspaniale) trailer
+## Nie jest dobrze (ale może być jeszcze wspaniale)
 
 Mam na półce wydaną w roku 69 "Strukturę i kierunek myślenia"
 [Berlyne'a](https://en.wikipedia.org/wiki/Daniel_Berlyne) i gdy czasem na tą książkę patrzę, to
@@ -126,16 +127,16 @@ I dalej to idzie między innymi tak:
 > nie wymagający od czytelnika specjalnego przygotowania matematycznego.
 
 Wolałbym może "językiem grafów", ale sam stosuję obie konwencje, no i tam chodzi o algebrę
-abstrakcyjną, ale to drobiazg, zresztą może wtedy ten sposób mówienia był powszechny. Wszystko to
-powinno już brzmieć dla Ciebie znajomo.
+abstrakcyjną, ale to drobiazg, zresztą może wtedy ten sposób mówienia był powszechny. W każdym razie
+to wszystko powinno już brzmieć dla Ciebie znajomo.
 
 Książka ma 459 stron, licząc ze skorowidzem, i już po strukturze rozdziałów widać, że to nie są
 żarty. Pojawiają się tam takie słowa jak "neoasocjacjonistyczna", "integracyjna", "równoważność",
-"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i im podobne.
+"klasa", "relacja", "system", "hierarchia", "konceptualizacja", "transformacyjna", i inne podobne.
 
-Zanim zaczniemy czytać "Z przedmowy", widzimy kilka cytatów, które bardzo lubię, ale to sobie kiedyś
-może sama znajdziesz, jak będziesz miała czas i ochotę. W przedmowie Berlyne zaś pisze, że celem tej
-książki jest ...
+Zanim zaczniemy czytać "Z przedmowy", trafiamy na kilka cytatów, które bardzo lubię, ale to sobie
+kiedyś może sama znajdziesz, jak będziesz miała czas i ochotę. W "Z przedmowie" Berlyne zaś pisze,
+że celem tej książki jest ...
 
 > ... wprowadzenie języka teoretycznego - tj. systemu pojęć - który może ułatwić ujawnienie
 > podobieństw i różnic między procesami myślowymi a innymi formami zachowania.
@@ -160,19 +161,19 @@ A raczej *jest*, bo niby co innego my tutaj od dłuższego już czasu robimy?
 
 Bardzo lubię też styl tego autora, dobór zarówno tematów jak i perspektyw, postawę wobec czytelników
 i w ogóle sporo mi się w tej książce i w Berlynie podoba. Coś mi mówi, że bardzo polubiłbym również
-Piageta[^2](https://pl.wikipedia.org/wiki/Jean_Piaget#/media/Plik:Jean_Piaget_in_Ann_Arbor.png), do
-którego Berlyne często nawiązuje, gdybym go w końcu zaczął uważnie czytać, i
+[Piageta](https://pl.wikipedia.org/wiki/Jean_Piaget#/media/Plik:Jean_Piaget_in_Ann_Arbor.png)[^2],
+do którego Berlyne często nawiązuje, gdybym go w końcu zaczął uważnie czytać, i
 [cybernetyków](https://en.wikipedia.org/wiki/Cybernetics), z pomysłów których Berlyne też korzysta,
 i behawiorystów i neobehawiorystów, no ale czasu nie mamy za wiele, a można zamiast tego zająć się
-sprawami znacznie większej wagi, takimi jak choćby sposoby myślenia o oznaczaniu
-(zobaczysz). 
+sprawami znacznie większej wagi (jeszcze zobaczysz!).
 
 Gdybyśmy jednak chcieli ocenić jakość centralnych propozycji teoretycznych zawartych w tej książce,
 zaglądając od razu do pierwszego rozdziału, którego podrozdziały mają tytuły sugerujące, że może
 właśnie tam zaczynają wyrastać rododendrony konkretów, bo w tych tytułach jest mowa o grafach,
-grupach i hierarchiach, to prędko zaczęłoby się robić dziwnie.
+grupach i hierarchiach, to prędko zaczęłoby się robić
+[dziwnie](https://dictionary.cambridge.org/dictionary/english/awkward).
 
-### Co *dokładnie* autor miał na myśli, ...
+### Co *dokładnie* autor *miał* na myśli, ...
 
 O hierarchiach będziemy mówić (znowu, ale wtedy bardziej formalnie) niebawem, więc teraz wyjaśnię Ci
 tylko, czym są *grupy*. A przy okazji, jeśli pozwolisz, spróbuję Ci możliwie bezboleśnie wgrać kilka
@@ -295,26 +296,26 @@ mówiąc już o tym, jakie znaczenie odgrywa w tej naszej przygodzie "przemienno
 zamiana miejscami (na przykład rozgrywająca się mentalnie między nami) i jako
 (samo)przekształcalność.
 
-## ... a o czym próbował coś powiedzieć
+## ... a o czym *próbował* coś stwierdzić
 
 Berlyne ewidentnie sprawnie operuje grupami, grafami i innymi blisko związamymi strukturami, jednak
 to wszystko mają być tylko *środki* do celu, jakim jest, co prawda częściowo oparte na wynikach
 badań, ale jednak przede wszystkim teoretyczne (co, według mnie, znaczy mniej więcej to samo, co
 naukowe) badanie pojęcia *myślenia*.
 
-Po omówieniu, w rozdziale 8, analogii między składaniem działań grupy i pewną postacią
-automatyzacji, występującej w procesie uczenia się, polegającą na powstawaniu u zwierząt zachowań
-nawykowych jako *jednostek* czy może raczej (funkcjonalnych) *atomów* zachowaniowych, które z czasem
-zaczynają w odpowiednich sytuacjach zastępować określone *sekwencje* reakcji czy zachowań, Berlyne
-przechodzi do kwestii *odwracalności*. Nie tylko odwracalności działań *matematycznych*, ale również
-zachowań* i *reakcji zwierząt*.
+Po omówieniu w rozdziale 8 analogii między składaniem działań grupy i pewną postacią automatyzacji,
+występującą w procesie uczenia się i polegającą na powstawaniu u zwierząt zachowań nawykowych jako
+*jednostek*, czy może raczej (funkcjonalnych) *atomów* zachowaniowych, które z czasem zaczynają w
+odpowiednich sytuacjach zastępować określone *sekwencje* reakcji czy zachowań, Berlyne przechodzi do
+kwestii *odwracalności*. Nie tylko działań *matematycznych*, ale również zachowań* i *reakcji
+zwierząt*.
 
 Zaczyna się ciekawie i obiecująco od uwagi na temat Piageta, który, jak się dowiadujemy, ...
 
 > ... wielokrotnie podkreślał, [że odwracalność] jest prawdziwym kamieniem probierczym racjonalnego
 > myślenia i inteligencji.
 
-Zaprawdę mętne to i tajemnicze, ale i dla nas ciekawe, a poza tym to ewidentnie skrót myślowy,
+Zaprawdę mętne to i tajemnicze, ale i dla nas ciekawe, a poza tym to ewidentnie skrót myślowy;
 staramy się więc pochopnie nie oceniać. Potem jest przykład przejścia 100 m na północ, a następnie
 100 m na południe i nie ma wątpliwości, że to są *w pewnym sensie* wzajemne odwrotności. Ale dalej
 jest coraz więcej przykładów procesów *biologicznych* i *psychologicznych*, które autor podaje jako
@@ -322,7 +323,7 @@ przykłady *procesów odwracalnych*, a które oczywiście odwracalne *nie* są.
 
 Bo *odwracalność istnieje tylko w świecie abstrakcji*. Jeżeli, posługując się wyobraźnią, zmienimy
 stan czegoś na jakiś, a potem przywrócimy temu czemuś stan wyjściowy, to dokonamy przekształcenia
-będącego złożeniem operacji równych pod względem działania przekształceniu identycznościowemu, ale
+będącego złożeniem operacji równego pod względem działania przekształceniu identycznościowemu, ale
 *tylko* w znaczeniu *logicznym*, a nie *psycho*logicznym. Każda bez wyjątku myśl pozostawia
 nieusuwalny i niemały ślad, bo każda myśl jest złożonym, nieodwracalnym procesem zmieniającym nas na
 zawsze między innymi z powodu stale zachodzących procesów uczenia się.
