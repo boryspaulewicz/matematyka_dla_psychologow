@@ -62,11 +62,11 @@ dokładnie (lecz tylko w pewnym sensie) *jest* wskazywanie komuś drogi *jako za
 
 Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować pracowników różnych wydziałów i
 szczebli w kilku wielopiętrowych budynkach nowej filii, która właśnie powstaje w
-[Radomiu](https://sites.stat.columbia.edu/gelman/stuff_for_blog/spelling.pdf)[^1]. Wypadałoby pewnie
-przypisać (własność) wydziały do budynków, albo odwrotnie, co na jedno wychodzi, jeśli budynków jest
-tyle, ile jest wydziałów (izomorfizm, a dokładnie bijekcja). I może pracownicy wyższych szczebli,
-którzy mają przecież jakiś rodzaj władzy nad pracownikami niższych szczebli, powinni pracować na
-wyższych piętrach.
+[Radomiu](https://sites.stat.columbia.edu/gelman/stuff_for_blog/spelling.pdf)[^1]. Wypadałoby
+(pewnie) przypisać (własność) wydziały do budynków, albo odwrotnie, co na jedno wychodzi, jeśli
+budynków jest tyle, ile jest wydziałów (izomorfizm, a dokładnie bijekcja). I może pracownicy
+wyższych szczebli, którzy mają przecież jakiś rodzaj władzy nad pracownikami niższych szczebli,
+powinni pracować na wyższych piętrach.
 
 Formalna struktura ostatniego przykładu rysuje się niemal sama, prawda? Pracownicy jako punkty,
 połączone w dół strzałkami, jeśli należą do tego samego wydziału, zgodnie z hierarchią szczebli. A
