@@ -365,9 +365,9 @@ procesów uczenia się.
 
 <br>
 
-Berlyne, byku, co Ty gadasz?!
+Berlyne, byku, co Ty gadasz?
 
-Chłopie, nie pij tej wody!!
+Chłopie, nie pij tej wody!
 
 David, ziomuś, weź się zlituj, to jest pomieszanie typów. Po czymś takim może być już tylko
 [facepalm](https://en.wikipedia.org/wiki/Facepalm) i [game
@@ -447,6 +447,9 @@ psychologii dosyć [modne](https://en.wikipedia.org/wiki/Artificial_grammar_lear
 innymi na temat uczenia się regularności w sposób mimowolny albo niezbyt, czy może nawet wcale nie
 uświadomiony. O ile się orientuję, jak to zwykle w psychologii bywa, niewiele, albo zgoła nic
 właściwie po tej "tradycji badawczej" nie zostało.
+
+A poza psychologią mamy jeszcze obwody elektryczne, diagramy przepływu danych, sieci Petriego, sieci
+bayesowskie, grafy przyczynowe i wiele innych tego rodzaju *podobnych języków*.
 
 Albo wróćmy do przykładu z opisywaniem drogi na Wawel. Czemu to się wydaje takie naturalne i czemu
 to jest tak bardzo podobne do tylu innych rodzajów czynności albo procesów, które można by ogólnie
