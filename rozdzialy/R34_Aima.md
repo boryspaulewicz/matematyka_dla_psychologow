@@ -414,7 +414,7 @@ procesu. Nie wiadomo też, w jakim znaczeniu te akurat sieci uczą się (już to
 *nagród* i *kar*, skoro uczenie za pomocą propagacji wstecznej błędu polega na dostarczaniu na
 wejściu jakiś bodźców, porównywaniu wyjścia z oczekiwaną odpowiedzią i takiej zmianie parametrów
 sieci, która powoduje zbliżenie się, w stopniu zależnym między innymi od fazy uczenia, obserwowanej
-odpowiedzi sieci do tej oczekiwanej (i tak bardzo, bardzo wiele razy, dla wielu różnych przykładów
+odpowiedzi sieci do tej oczekiwanej. I tak wiele, bardzo wiele razy, dla wielu różnych przykładów
 bodźców oznaczonych oczekiwanymi odpowiedziami). Wielkość i kierunek błędu to jedno, a nagroda i
 kara to coś innego.
 
