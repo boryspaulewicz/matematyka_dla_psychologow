@@ -500,7 +500,8 @@ Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 *Co mają wspólnego*  
 *rozkłady jazdy metra*  
 *z pudłami zasobów pamięci*  
-*punktującymi wstążki ścieżek*  
+*punktującymi*  
+*wstążki ścieżek*  
 *przepływu danych?*
 
 Co nam zostanie, gdy otrząśniemy się z wpatrzenia w różniące je detale?
