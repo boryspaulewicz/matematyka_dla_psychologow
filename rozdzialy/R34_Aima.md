@@ -509,6 +509,8 @@ Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 *z wpatrzenia*  
 *w różniące je detale?*
 
+<br>
+
 Odpowiedź znajdziesz [tutaj](R34__Aima.md).  
 Najpierw spróbuj ją proszę znaleźć "sama".
 
