@@ -428,7 +428,7 @@ znacznie poważniejszej roli. No więc ten automat, podobnie jak wszystkie inne 
 jednocześnie jakoś *wygląda* i (reprezentuje coś, co) jakoś *działa*. Z wyglądu to on jest grafem:
 Na początku wychodzimy strzałką `h` z kwadratu `1` do okręgu `2`. Z tego okręgu wychodzą dwie
 strzałki, `a` i `o`, do okręgu `3`, a z okręgu `3` wychodzi jedna strzałka `h` z powrotem do okręgu
-`2` i jedna strzałka `!` do (końcowego) kwadratu `4`.
+`2` i jedna strzałka `!` do kwadratu `4`.
 
 **Sugestia**: Może narysujesz?
 
