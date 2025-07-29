@@ -248,10 +248,10 @@ bo tak nazywa się jedyne pole klasy `Inv`, o typie `α → α`. Dziedziczenie p
 powszechnie stosowaną dla wszelkiego rodzaju odwrotności notację `\inv ↦ ⁻¹` (czytaj: pisząc w
 Leanie tak uzyskasz to).
 
-To jest jedna z dwóch dodatkowych własności, której u nas wyraźnie nie widać, bo kryje się w klasie,
-z której dziedziczmy. Druga to *fakt*, który w naszej implementacji nosi nazwę `inv_mul_cancel`,
-polegający na tym, że elementy odwrotne nie tylko można *zapisywać*, jakby były odwrotne, ale że
-*działają* jak elementy odwrotne.
+To jest jedna z dwóch dodatkowych własności, której u nas wyraźnie nie widać, bo kryje się w
+zdefiniowanej w Leanie klasie, z której dziedziczmy. Druga to *fakt*, który w naszej implementacji
+nosi nazwę `inv_mul_cancel`, polegający na tym, że elementy odwrotne nie tylko można *zapisywać*,
+jakby były odwrotne, ale że *działają* jak elementy odwrotne.
 
 Dodawanie liczb całkowitych jest grupą, ale liczb naturalnych już nie, bo spośród wszystkich liczb
 naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie jest działaniem
