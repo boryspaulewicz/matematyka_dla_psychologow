@@ -443,9 +443,9 @@ które powodują przejścia od jednego stanu do drugiego. Punkt `1` jest począt
 Tego rodzaju modele, które nazywamy też, adekwatnie, sztucznymi gramatykami, były kiedyś w
 psychologii dosyć [modne](https://en.wikipedia.org/wiki/Artificial_grammar_learning). Różni
 "wpływowi" i "uznani" badacze próbowali z nich wtedy korzystać aby odkryć jakieś prawdy między
-innymi na temat uczenia się regularności w sposób mimowolny albo niezbyt, czy może nawet wcale
-nieuświadomiony. O ile się orientuję, po tej "tradycji badawczej" też niewiele, albo zgoła nic
-właściwie nie zostało.
+innymi na temat uczenia się regularności w sposób mimowolny albo niezbyt, czy może nawet wcale nie
+uświadomiony. O ile się orientuję, jak to zwykle w psychologii bywa, niewiele, albo zgoła nic
+właściwie po tej "tradycji badawczej" nie zostało.
 
 Albo wróćmy do przykładu z opisywaniem drogi na Wawel. Czemu to się wydaje takie naturalne i czemu
 to jest tak bardzo podobne do tylu innych rodzajów czynności albo procesów, które można by ogólnie
