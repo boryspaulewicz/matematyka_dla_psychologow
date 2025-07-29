@@ -188,7 +188,7 @@ i w ogóle sporo mi się w tej książce i w Berlynie podoba. Coś mi mówi, że
 do którego Berlyne często nawiązuje, gdybym go w końcu zaczął uważnie czytać, i
 [cybernetyków](https://en.wikipedia.org/wiki/Cybernetics), z pomysłów których Berlyne też korzysta,
 i behawiorystów i neobehawiorystów, no ale czasu nie mamy za wiele, a można zamiast tego zająć się
-sprawami znacznie większej wagi (jeszcze zobaczysz!).
+sprawami znacznie większej wagi. Jakimi zobaczysz.
 
 Gdybyśmy jednak chcieli ocenić jakość centralnych propozycji teoretycznych zawartych w tej książce,
 zaglądając od razu do pierwszego rozdziału, którego podrozdziały mają tytuły sugerujące, że może
