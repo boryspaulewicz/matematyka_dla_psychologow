@@ -75,13 +75,13 @@ więc częściowy porządek i zarazem cienka kategoria, którą można reprezent
 tylu rosnących w dół drzew, ile jest budynków, gdzie każda strzałka to relacja bezpośredniego
 zwierzchnictwa. Taki graf byłby wtedy generatorem tej kategorii i tego porządku, bez których to
 struktur nie schwytalibyśmy w siatkę składania strzałek abstrakcyjnej przechodniości relacji
-władzy. Ale poprzednie przykłady są mniej oczywiste.
+władzy.
 
-Będziemy te struktury roz-poznawać w [pluralis
+Ale poprzednie przykłady są mniej oczywiste. Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję)
 razem. Zaczniemy od przykładu pierwszego, mapując w ten sposób porządek następowania po sobie
 wybranych (a więc niejawnie oznaczonych) fragmentów tego rozdziału na porządek następujących odtąd
-działań. 
+działań.
 
 Może najpierw spróbujmy
 [wygrzebać](https://literatura.wywrota.pl/wiersz-klasyka/24806-staff-leopold-rzesa.html) z bajora
