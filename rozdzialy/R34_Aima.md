@@ -386,11 +386,11 @@ rodzaju modelu jest [model selekcji uwagowej
 Broadbenta](https://en.wikipedia.org/wiki/Broadbent%27s_filter_model_of_attention).
 
 Nazwa "blokowe" pochodzi stąd, że można je przedstawić w postaci połączonych strzałkami pudełek,
-gdzie strzałki oznaczają zwykle przepływ informacji, a pudełka są oznaczone nazwami funkcji albo
-procesów poznawczych. Autorzy stwierdzają tam, że modele blokowe są reprezentacjami procesów
-*szeregowych* i *oddolnych*. Nie wiadomo, czemu są szeregowe, skoro w przypadku prawie wszystkich
-tego rodzaju modeli mamy do czynienia ze ścieżkami *równoległymi*. Nie wiadomo też, czemu są
-oddolne, skoro, również w przypadku modeli *przedstawianych tam na rycinach jako przykłady*,
+gdzie strzałki oznaczają zwykle przepływ informacji, a pudełka są oznaczone nazwami funkcji,
+procesów lub struktur poznawczych. Autorzy stwierdzają tam, że modele blokowe są reprezentacjami
+procesów *szeregowych* i *oddolnych*. Nie wiadomo, czemu są szeregowe, skoro w przypadku prawie
+wszystkich tego rodzaju modeli mamy do czynienia ze ścieżkami *równoległymi*. Nie wiadomo też, czemu
+są oddolne, skoro, również w przypadku modeli *przedstawianych tam na rycinach jako przykłady*,
 pojawiają się strzałki *skierowane w różne strony*. Ot, ciekawostka.
 
 Modelom blokowym autorzy przeciwstawiają modele *koneksjonistyczne*, które najwyraźniej lubią, takie
@@ -453,10 +453,15 @@ podstawie zachodzenia takiej relacji między innymi parami elementów?
 
 Co sprawia, że wszystkie te reprezentacje, zwłaszcza, kiedy są przedstawione w postaci *diagramów*,
 wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju *uogólnionej,
-przyjaznej modularności*? I czemu tak szybko zaczynamy je *zrozumieć*? A zwłaszcza:
+przyjaznej [modularności](https://en.wikipedia.org/wiki/Modularity_of_mind)*? I czemu tak szybko
+zaczynamy je *zrozumieć*? A zwłaszcza:
+
+<br>
 
 *Czemu tak łatwo jest nam mentalnie wycinać ich fragmenty i w ich miejsce wstawiać inne i czemu tak
-dobrze sobie radzimy z domyślaniem się, jak całość będzie potem  f u n k c j o n o w a ł a*?
+dobrze radzimy sobie z domyślaniem się, jak całość będzie potem f u n k c j o n o w a ł a*?
+
+<br>
 
 Naprowadzałem Cię na trop odpowiedzi, której oczekuję, w różny sposób od wielu rozdziałów i tyle
 razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
