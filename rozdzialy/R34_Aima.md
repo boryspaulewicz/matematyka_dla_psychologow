@@ -496,7 +496,7 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
 Co mają wspólnego rozkłady jazdy metra z pudłami zasobów pamięci punktującymi wstążki ścieżek
-przepływu danych? Co nam zostanie, gdy pozbędziemy się wszystkich różniących je detali?
+przepływu danych? Co zostanie, gdy pozbędziemy się wszystkich różniących je detali?
 
 Odpowiedź znajdziesz [tutaj](R34__Aima.md). Najpierw spróbuj ją proszę znaleźć "sama".
 
