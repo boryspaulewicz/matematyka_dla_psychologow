@@ -468,6 +468,8 @@ dobrze radzimy sobie z domyślaniem się, jak całość będzie potem f u n k c 
 Naprowadzałem Cię na trop odpowiedzi, której oczekuję, w różny sposób od wielu rozdziałów i tyle
 razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
+<br>
+
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
 Odpowiedź znajdziesz [tutaj](R34__Aima.md). Ale najpierw spróbuj ją proszę znaleźć "sama".
