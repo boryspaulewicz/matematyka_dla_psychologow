@@ -73,8 +73,9 @@ Formalna struktura ostatniego przykładu rysuje się niemal sama, prawda? Pracow
 połączone w dół strzałkami, jeśli należą do tego samego wydziału, zgodnie z hierarchią szczebli. A
 więc częściowy porządek i zarazem cienka kategoria, którą można reprezentować przez graf złożony z
 tylu rosnących w dół drzew, ile jest budynków, gdzie każda strzałka to relacja bezpośredniego
-zwierzchnictwa. Taki graf byłby wtedy generatorem tej kategorii i tego porządku. Ale poprzednie
-przykłady są mniej oczywiste. 
+zwierzchnictwa. Taki graf byłby wtedy generatorem tej kategorii i tego porządku, bez których to
+struktur nie schwytalibyśmy w siatkę składania strzałek abstrakcyjnej przechodniości relacji
+władzy. Ale poprzednie przykłady są mniej oczywiste.
 
 Będziemy te struktury roz-poznawać w [pluralis
 maiestatis](https://pl.wikipedia.org/wiki/Pluralis_maiestatis), bo z wysoka i (mam nadzieję)
