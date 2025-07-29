@@ -407,16 +407,16 @@ warunkowania](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model), Resc
 sieć przedstawia się zwykle na rysunkach jako kolumny punktów połączonych strzałkami z punktami
 należącymi do następnej kolumny (czyli warstwy).
 
-Nie wiadomo, dlaczego zdaniem autorów takie modele nie są oddolne *i* odgórne, skoro informacja
-płynie w nich w *jedną* stronę, ani w jakim znaczeniu są zdolne do "samokontroli" i
-"samoorganizacji", skoro takie akurat sieci nie uczą się w żadnym sensie same, tylko *uczy się je*
-za pomocą odrębnego procesu. Nie wiadomo też, w jakim znaczeniu te akurat sieci uczą się (już to
-zostawmy) na podstawie *nagród* i *kar*, skoro uczenie za pomocą propagacji wstecznej błędu polega
-na dostarczaniu na wejściu jakiś bodźców, porównywaniu wyjścia z oczekiwaną odpowiedzią i takiej
-zmianie parametrów sieci, która powoduje zbliżenie się, w stopniu zależnym między innymi od fazy
-uczenia, obserwowanej odpowiedzi sieci do tej oczekiwanej (i tak bardzo, bardzo wiele razy, dla
-wielu różnych przykładów bodźców oznaczonych oczekiwanymi odpowiedziami). Wielkość i kierunek błędu
-to jedno, a nagroda i kara to coś innego.
+Nie wiadomo, dlaczego zdaniem autorów takie modele są oddolne *i* odgórne, skoro informacja płynie w
+nich w *jedną* stronę, ani w jakim znaczeniu są zdolne do "samokontroli" i "samoorganizacji", skoro
+takie akurat sieci nie uczą się w żadnym sensie same, tylko *uczy się je* za pomocą odrębnego
+procesu. Nie wiadomo też, w jakim znaczeniu te akurat sieci uczą się (już to zostawmy) na podstawie
+*nagród* i *kar*, skoro uczenie za pomocą propagacji wstecznej błędu polega na dostarczaniu na
+wejściu jakiś bodźców, porównywaniu wyjścia z oczekiwaną odpowiedzią i takiej zmianie parametrów
+sieci, która powoduje zbliżenie się, w stopniu zależnym między innymi od fazy uczenia, obserwowanej
+odpowiedzi sieci do tej oczekiwanej (i tak bardzo, bardzo wiele razy, dla wielu różnych przykładów
+bodźców oznaczonych oczekiwanymi odpowiedziami). Wielkość i kierunek błędu to jedno, a nagroda i
+kara to coś innego.
 
 Ach, te złośliwe terminy techniczne! Nawiasem mówiąc, terminologia, której używamy do opisu modeli
 blokowych i koneksjonistycznych też jest *matematyczna*. A gdyby przyszła Ci ochota spędzić naprawdę
