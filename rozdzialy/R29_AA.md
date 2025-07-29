@@ -441,7 +441,7 @@ aspekt formalizmu i poczuć fizyczną autonomię ich implementacji.
 
 <hr>
 
-### [...🐍...]a(https://pl.wikipedia.org/wiki/Uroboros)
+### [...🐍...](https://pl.wikipedia.org/wiki/Uroboros)
 
 Możemy nawet spróbować "zrobić metodę" z *ostatniego* akapitu, tak samo zamieniając coś lub kilka
 rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
