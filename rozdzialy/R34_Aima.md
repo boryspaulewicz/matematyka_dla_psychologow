@@ -121,7 +121,7 @@ skuteczności reprezentowania, taki jak dajmy na to koszty metaboliczne, gdy to 
 zrealizowane biologicznie), nie ma znaczenia, jak *zaimplementowane* albo *zrealizowane fizycznie*
 jest to reprezentowanie, dopóki w pewien sposób *działa*. To jest dopóki *my używamy*, albo *jakiś
 Ktoś* używa czegoś, dosłownie czegokolwiek, *do reprezentowania* czegoś w pewien sposób. Ze względu
-na *pewnego rodzaju pytania* implementacja nie ma żadnego znaczenia, ponieważ pojęcia reprezentacji
+na *pewnego rodzaju* pytania implementacja nie ma żadnego znaczenia, ponieważ pojęcia reprezentacji
 i reprezentowania są pojęciami *funkcjonalnymi*.
 
 Wyczyszczone w ten sposób z błota nieunikalności celu glony opisu przejścia z jednego punktu do
@@ -486,7 +486,7 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
-Odpowiedź znajdziesz [tutaj](R34__Aima.md). Ale najpierw spróbuj ją proszę znaleźć "sama".
+Odpowiedź znajdziesz [tutaj](R34__Aima.md). Najpierw spróbuj ją proszę znaleźć "sama".
 
 ### Przypisy
 
