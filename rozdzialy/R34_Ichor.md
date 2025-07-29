@@ -235,14 +235,15 @@ działanie nie musi być łączne, bo w ogóle nic od niego a priori nie wymagam
 tekstów, i tak dalej. Ale na przykład dostawianie elementu na czoło listy już nie, bo to jest akurat
 operacja na elementach różnego rodzaju.
 
-Półgrupy już znasz i to też są (w tym momencie mam nadzieję również według Ciebie ...)
-... oczywiście magmy. A grupy to monoidy, które mają, zależnie od punktu widzenia, jedną dodatkową
-własność, albo dwie dodatkowe własności. Może przyjmijmy na początek ten drugi punkt widzenia, bo
-pozwala wyraźnie rozróżnić detale. No więc grupa to monoid, który ma jedną dodatkową operację albo
-(tak też czasami mówimy) działanie *jedno*argumentowe, które tutaj (niejawnie, bo na skutek
-zastosowania dziedziczenia) nazywamy `inv`, bo tak nazywa się jedyne pole klasy `Inv`, o typie `α →
-α`. Dziedziczenie po tej klasie daje nam powszechnie stosowaną dla wszelkiego rodzaju odwrotności
-notację `\inv ↦ ⁻¹` (czytaj: pisząc w Leanie tak uzyskasz to).
+Półgrupy już znasz i to też są ... (w tym momencie mam nadzieję również według Ciebie ...)
+oczywiście magmy. Monoidy to półgrupy z jednostkami, a grupy to monoidy, które mają, zależnie od
+punktu widzenia, jedną dodatkową własność, albo dwie dodatkowe własności. Może przyjmijmy na
+początek ten drugi punkt widzenia, bo pozwala wyraźnie rozróżnić detale. No więc grupa to monoid,
+który ma jedną dodatkową operację albo (tak też czasami mówimy \{i myślimy\}) działanie
+jednoargumentowe, które tutaj (niejawnie, bo na skutek zastosowania dziedziczenia) nazywamy `inv`,
+bo tak nazywa się jedyne pole klasy `Inv`, o typie `α → α`. Dziedziczenie po tej klasie daje nam
+powszechnie stosowaną dla wszelkiego rodzaju odwrotności notację `\inv ↦ ⁻¹` (czytaj: pisząc w
+Leanie tak uzyskasz to).
 
 To jest jedna z dwóch dodatkowych własności, której u nas wyraźnie nie widać, bo kryje się w klasie,
 z której dziedziczmy. Druga to *fakt*, który w naszej implementacji nosi nazwę `inv_mul_cancel`,
