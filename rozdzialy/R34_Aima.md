@@ -469,7 +469,7 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
-Odpowiedź jest [tu](R34__Aima.md). Ale najpierw spróbuj ją proszę znaleźć "sama".
+Odpowiedź znajdziesz [tutaj](R34__Aima.md). Ale najpierw spróbuj ją proszę znaleźć "sama".
 
 ### Przypisy
 
