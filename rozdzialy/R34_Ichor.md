@@ -99,10 +99,13 @@ dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
 Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na *ile* różnych
 sposobów można przejść na przykład konkretną ulicą z jednego konkretnego punktu orientacyjnego do
 drugiego. Pomijamy też szczegóły dotyczące tego, *jakie* (na przykład, teoretycznie możliwe
-czołganie się albo kicanie) to mogą być sposoby. Zamiast tego, zwłaszcza, gdy chodzi o miasto,
-korzystamy przede wszystkim z *abstrakcyjnej siatki* ulic. Tą potrafimy *stabilnie nanosić* na
-rzeczywistą powierzchnię miasta i potrafimy nią *operować* - na piśmie, w mowie i w głowie -
-*zachowując* ten *systematyczny związek*.
+czołganie się, pełzanie albo kicanie) to mogą być sposoby.
+
+(przyszła Ci do głowy zasada nieważności struktury dowodu?)
+
+Zamiast tego, zwłaszcza, gdy chodzi o miasto, korzystamy przede wszystkim z *abstrakcyjnej siatki*
+ulic. Tą potrafimy *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią
+*operować* - na piśmie, w mowie i w głowie - *zachowując* ten *systematyczny związek*.
 
 To nasz powszedni, nadający sens każdemu aktowi myślenia, organiczny i uogólniony homomorfizm.
 
@@ -247,8 +250,8 @@ Leanie tak uzyskasz to).
 
 To jest jedna z dwóch dodatkowych własności, której u nas wyraźnie nie widać, bo kryje się w klasie,
 z której dziedziczmy. Druga to *fakt*, który w naszej implementacji nosi nazwę `inv_mul_cancel`,
-polegający na tym, że elementy odwrotne nie tylko można *zapisywać*, jakby były odwrotne, ale
-również, że *działają* jak elementy odwrotne.
+polegający na tym, że elementy odwrotne nie tylko można *zapisywać*, jakby były odwrotne, ale że
+*działają* jak elementy odwrotne.
 
 Dodawanie liczb całkowitych jest grupą, ale liczb naturalnych już nie, bo spośród wszystkich liczb
 naturalnych tylko zero ma element odwrotny ze względu na dodawanie. Mnożenie jest działaniem
