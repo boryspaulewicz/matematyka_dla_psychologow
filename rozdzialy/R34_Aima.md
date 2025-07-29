@@ -504,9 +504,13 @@ Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 *wstążki ścieżek*  
 *przepływu danych?*
 
-Co nam zostanie, gdy otrząśniemy się z wpatrzenia w różniące je detale?
+*Co nam zostanie,*  
+*gdy otrząśniemy się*  
+*z wpatrzenia*  
+*w różniące je detale?*
 
-Odpowiedź znajdziesz [tutaj](R34__Aima.md). Najpierw spróbuj ją proszę znaleźć "sama".
+Odpowiedź znajdziesz [tutaj](R34__Aima.md).  
+Najpierw spróbuj ją proszę znaleźć "sama".
 
 ### Przypisy
 
