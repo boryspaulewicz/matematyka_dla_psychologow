@@ -471,6 +471,7 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 <br>
 
+...  
 Four stops away from  
 Your favorite station  
 I am not a resource  
@@ -478,6 +479,7 @@ I am not a ribbon
 I am not a cardboard box  
 Not to be lived in  
 Not to be critical  
+...
 
 <br>
 
