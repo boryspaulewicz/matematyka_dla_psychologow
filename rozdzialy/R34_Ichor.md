@@ -294,7 +294,7 @@ do tego dowód przemienności dodawania liczb całkowitych, dostępny od razu w 
 pliku Prelude.lean. Nazwę tego dowodu znajdziesz na przykład pisząc `#check Int.add_`, naciskając
 klawisz Tab i zgadując, jak musi się nazywać.
 
-Ten kod jest skonstruowany w stylu, który obowiązuje w rozwijanej przez zróżnicowane grono
+Ten kod jest skonstruowany w stylu, który nawiązuje do rozwijanej przez zróżnicowane grono
 użytkowników Leana bibliotece [mathlib](https://github.com/leanprover-community/mathlib4). To przede
 wszystkim bogata kolekcja różnorodnych klas i instancji, tworzących powiązane w rozmaity sposób
 hierarchie abstrakcji, pokrywające się do pewnego stopnia z tym, jak zwykle przedstawiane są różne
