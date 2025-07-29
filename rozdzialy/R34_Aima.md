@@ -507,7 +507,8 @@ Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 *Co nam zostanie,*  
 *gdy otrząśniemy się*  
 *z wpatrzenia*  
-*w różniące je detale?*
+*w różniące je detale?*  
+...
 
 <br>
 
