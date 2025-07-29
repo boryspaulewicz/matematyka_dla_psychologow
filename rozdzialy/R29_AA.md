@@ -439,9 +439,9 @@ konstrukcji w pełni sformalizowanych. Przykłady teoriotypowe miały natomiast 
 było zrealizować w kodzie, a dzięki temu sprawdzić ostatecznie, czy wszystko działa, zbadać każdy
 aspekt formalizmu i poczuć fizyczną autonomię ich implementacji.
 
-<hr>
-
 ### [...🐍...](https://pl.wikipedia.org/wiki/Uroboros)
+
+<hr>
 
 Możemy nawet spróbować "zrobić metodę" z *ostatniego* akapitu, tak samo zamieniając coś lub kilka
 rzeczy na mniej lub bardziej zrozumiale typowane parametry, a coś innego być może tak lub inaczej
