@@ -278,7 +278,7 @@ Tworząc tą instancję korzystałem z definicji zawartych w pliku Prelude.lean 
 takie jak `0` są w Leanie w taki sposób przeciążone, że gdy można wywnioskować, że muszą być
 `Int`-ami, a nie `Nat`-ami, są interpretowane jako `Int`-y. 
 
-Lean nie zgłasza błędu, a więc (w stylu "rekordowym") udowodniliśmy twierdzenie, że liczby całkowite
+Lean nie zgłasza błędu, a więc (w stylu rekordowym) udowodniliśmy twierdzenie, że liczby całkowite
 są grupą ze względu na dodawanie. Mówiąc dokładniej, dodawanie liczb całkowitych jest grupą ze
 względu na interpretację: grupowa jedynka to zero, grupowe mnożenie to dodawanie, a grupowa
 odwrotność to jednoargumentowa operacja (albo działanie) tworzenia liczby przeciwnej `x ↦ -x`.
