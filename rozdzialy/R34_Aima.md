@@ -436,7 +436,7 @@ strzałką `h` z kwadratu `1` do okręgu `2`. Z tego okręgu wychodzą dwie strz
 okręgu `3`, a z okręgu `3` wychodzi jedna strzałka `h` z powrotem do okręgu `2` i jedna strzałka `!`
 do kwadratu `4`.
 
-**Sugestia**: Może narysujesz?
+**Sugestia**: Narysujesz?
 
 Można tu myśleć o punktach kwadratów i okręgów jako o stanach, a o strzałkach jako o działaniach,
 które powodują przejścia od jednego stanu do drugiego. Punkt `1` jest początkowy, a `4` końcowy. 
