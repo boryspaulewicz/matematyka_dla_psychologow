@@ -1,7 +1,7 @@
 -*- coding: utf-8 -*-
 
 ----------------------------------------------------------------------------------------------------
-WYGŁADZANIE Następny R6,5
+WYGŁADZANIE R05 l362
 
 ----------------------------------------------------------------------------------------------------
 AKTUALNE POPRAWKI 
@@ -29,6 +29,23 @@ zdań i rachunku predykatów.
 
 ----------------------------------------------------------------------------------------------------
 VARIA
+
+example to definicja, tylko że odrzucana po elaboracji.
+
+Thomas Garrity uczył studentów czytania tekstów matematycznych: nie należy czytać po kolei, trzeba
+skakać z miejsca na miejsce. Czytać jak gazetkę w poczekalni u dentysty.
+
+Znaczenie nawyku wybierania własnej drogi na podstawie spostrzeganego poziomu trudności.
+
+Pierwsza książka do X powinna być o tym jak się uczyć X i o wiedzy i umiejętnościach ukrytych.
+
+Przejście od prostych konkretnych problemów do kategorii przestrzeni wektorowych, z metarefleksją.
+
+Opadanie kurzu w przerwach
+
+Wzorzec udanego żartu
+
+O krępującym ograniczeniu niewybredności w przypadku działań, o słowie "działanie".
 
 Doskonale pasujące uwagi Brandoma w trakcie drugiego seminarium
 

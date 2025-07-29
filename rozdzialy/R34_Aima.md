@@ -457,7 +457,7 @@ przyjaznej modularności*? I czemu tak szybko zaczynamy je *zrozumieć*? A zwła
 dobrze sobie radzimy z domyślaniem się, jak całość będzie potem  f u n k c j o n o w a ł a*?
 
 Naprowadzałem Cię na trop odpowiedzi, której oczekuję, w różny sposób od wielu rozdziałów i tyle
-razy już to powtarzałem. A mimo wątpię, że uda Ci się ją znaleźć.
+razy już to powtarzałem. A mimo wątpię, czy uda Ci się ją znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
