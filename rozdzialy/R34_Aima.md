@@ -497,8 +497,11 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
-Co mają wspólnego rozkłady jazdy metra z pudłami zasobów pamięci punktującymi wstążki ścieżek
-przepływu danych? 
+*Co mają wspólnego*  
+*rozkłady jazdy metra*  
+*z pudłami zasobów pamięci*  
+*punktującymi wstążki ścieżek*  
+*przepływu danych?*
 
 Co nam zostanie, gdy otrząśniemy się z wpatrzenia w różniące je detale?
 
