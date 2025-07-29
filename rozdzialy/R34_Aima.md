@@ -452,8 +452,8 @@ innymi na temat uczenia się regularności w sposób mimowolny albo niezbyt, czy
 uświadomiony. O ile się orientuję, jak to zwykle w psychologii bywa, niewiele, albo zgoła nic
 właściwie po tej "tradycji badawczej" nie zostało.
 
-Podobną strukturę mają obwody elektryczne, diagramy przepływu danych, sieci Petriego, sieci
-bayesowskie, grafy przyczynowe i wiele innych tego rodzaju *języków*.
+Podobną strukturę mają schematy układów krwionośnych, obwody elektryczne, sieci Petriego, diagramy
+przepływu danych, sieci bayesowskie, grafy przyczynowe i wiele innych tego rodzaju *języków*.
 
 Albo wróćmy do przykładu z opisywaniem drogi na Wawel. Czemu to się wydaje takie naturalne i czemu
 to jest tak bardzo podobne do tylu innych rodzajów czynności albo procesów, które można by ogólnie
