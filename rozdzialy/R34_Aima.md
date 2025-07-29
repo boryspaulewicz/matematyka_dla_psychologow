@@ -39,7 +39,7 @@ naprzód, pod kątem czterdziestu pięciu* (45, jeśli umiesz tak mówić) *stop
 Smoleńsk, z której Pan wyjdzie. Wie Pan, o co mi chodzi? Tak na skos.*
 
 (pokazujemy ręką, o co nam chodzi, gdy nagle turysta okazuje się być złodziejem, bo kiedy tłumaczymy
-ten skos, wyrywa nam z czterech rąk reklamówkę, w której na szczęście była tylko jakaś zawartość, po
+skos, wyrywa nam z czterech rąk reklamówkę, w której na szczęście była tylko jakaś zawartość, po
 czym ucieka
 
 <div align="right">{a szpaki, jak to mają w zwyczaju o tej porze roku, plują pestkami na
