@@ -6,7 +6,8 @@
 
 The most remarkable thing about plants is that they are green.
 
-*Science and the Garden: The Scientific Basis of Horticultural Practice, s. 1*
+Ingram, D. S., Vince-Prue, D., Gregory, P. J. (red.). (2015). *Science and the garden: the
+scientific basis of horticultural practice* (s. 1). John Wiley & Sons.
 
 <br>
 
