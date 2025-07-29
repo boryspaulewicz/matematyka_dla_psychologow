@@ -1,6 +1,6 @@
 <!-- -*- coding: utf-8 -*- -->
 
-# Ἰχώρ
+# Αίμα
 
 <br>
 
@@ -353,7 +353,7 @@ będącego złożeniem tych dwóch operacji i równego pod względem działania 
 identycznościowemu, ale *tylko* w znaczeniu *logicznym*, a nie *psychologicznym*. Już sam fakt, że z
 perspektywy logicznej to jest *jedno* przekształcenie, które może być *reprezentowane* na różne
 sposoby, w tym jako złożenie, a z perpsektywy psychologicznej, biologicznej, lub fizycznej to są (co
-najmniej!) *dwa* przekształcenia, pokazuje, że coś tu do czegoś nie pasuje. W szczególności, każda
+najmniej!) *dwa* przekształcenia pokazuje, że coś tu do czegoś nie pasuje. W szczególności, każda
 bez wyjątku myśl pozostawia przecież nieusuwalny i niemały ślad, bo każda myśl jest złożonym,
 nieodwracalnym procesem, zmieniającym nas już na zawsze między innymi z powodu stale zachodzących
 procesów uczenia się.
@@ -374,71 +374,94 @@ Podam Ci jeszcze kilka przykładów, omówię je szczegółowo i zobaczysz, że 
 zobaczysz. Nie przejmuj się tymi szczegółami, tylko spróbuj *poczuć*, a przede wszystkim właśnie
 *zobaczyć* ich wspólną [*postać*](https://pl.wikipedia.org/wiki/Psychologia_postaci).
 
-Z podręcznika "Psychologia poznawcza" Nęcki, Orzechowskiego, Szymury i Wicharego dowiadujemy się, że
-jednym z ważnych rodzajów "architektur umysłu", cokolwiek by to miało znaczyć ("architektura
+Z podręcznika ["Psychologia
+poznawcza"](https://lubimyczytac.pl/ksiazka/opinie/4930266/psychologia-poznawcza) dowiadujemy się,
+że jednym z ważnych rodzajów "architektur umysłu", cokolwiek by to miało znaczyć ("architektura
 *poznawcza*" jest terminem technicznym w psychologii poznawczej, ale ten termin oznacza [coś
-innego](https://en.wikipedia.org/wiki/Cognitive_architecture)) , są nadal odgrywające w psychologii
+innego](https://en.wikipedia.org/wiki/Cognitive_architecture)), są nadal odgrywające w psychologii
 nie tylko poznawczej ważną rolę tak zwane *modele blokowe*. Stosunkowo prostym przykładem tego
-rodzaju modelu jest [model selekcji uwagowej
+rodzaju modeli jest [model selekcji uwagowej
 Broadbenta](https://en.wikipedia.org/wiki/Broadbent%27s_filter_model_of_attention).
 
-Nazwa "blokowe" pochodzi stąd, że te modele można przedstawić w postaci połączonych strzałkami
-pudełek, gdzie strzałki oznaczają zwykle przepływ informacji, a pudełka są oznaczone nazwami funkcji
-albo procesów poznawczych. Autorzy z sobie tylko znanych powodów stwierdzają, że te modele są
-reprezentacjami procesów *szeregowych* i *oddolnych*. Nie wiadomo, czemu są szeregowe, skoro w
-przypadku prawie wszystkich tego rodzaju modeli mamy do czynienia ze ścieżkami *równoległymi*. Nie
-wiadomo też, czemu są oddolne, skoro, również w przypadku modeli *przedstawianych tam na rycinach
-jako przykłady*, pojawiają się strzałki *skierowane w różne strony*. Ot, ciekawostka.
+Nazwa "blokowe" pochodzi stąd, że można je przedstawić w postaci połączonych strzałkami pudełek,
+gdzie strzałki oznaczają zwykle przepływ informacji, a pudełka są oznaczone nazwami funkcji albo
+procesów poznawczych. Autorzy stwierdzają tam, że modele blokowe są reprezentacjami procesów
+*szeregowych* i *oddolnych*. Nie wiadomo, czemu są szeregowe, skoro w przypadku prawie wszystkich
+tego rodzaju modeli mamy do czynienia ze ścieżkami *równoległymi*. Nie wiadomo też, czemu są
+oddolne, skoro, również w przypadku modeli *przedstawianych tam na rycinach jako przykłady*,
+pojawiają się strzałki *skierowane w różne strony*. Ot, ciekawostka.
 
 Modelom blokowym autorzy przeciwstawiają modele *koneksjonistyczne*, które najwyraźniej lubią, takie
 jak [*sztuczne sieci neuronowe*](https://pl.wikipedia.org/wiki/Sie%C4%87_neuronowa). Mimo bogactwa
-tego rodzaju modeli, autorzy z sobie tylko znanych powodów utrzymują, że takie sieci mają trzy lub
-cztery warstwy, wejściową, pośredniczącą, wyjściową i ewentualnie warstwę kontekstową, a informacja
-płynie w nich w jedną stronę, od wejścia do wyjścia. Nietrudno ustalić, że chodzi tu o pewien
-określony *typ* takich modeli, to jest o sieć jednokierunkową z warstwą ukrytą, którą *uczy się* za
-pomocą propagacji wstecznej błędu zgodnie z [regułą
-delty](https://en.wikipedia.org/wiki/Delta_rule), odkrytą przez autorów nadal bardzo wpływowego i
-zarazem cudownie prostego [modelu
+tego rodzaju modeli, autorzy utrzymują, że takie sieci mają (zawsze?) trzy lub cztery warstwy,
+wejściową, pośredniczącą, wyjściową i ewentualnie warstwę kontekstową, a informacja płynie w nich w
+jedną stronę, od wejścia do wyjścia. Nietrudno ustalić, że chodzi tu o pewien określony *typ* takich
+modeli, to jest o sieć jednokierunkową z warstwą ukrytą, któr*ą* uczy się za pomocą propagacji
+wstecznej błędu zgodnie z [regułą delty](https://en.wikipedia.org/wiki/Delta_rule), która to reguła
+została odkryta przez autorów nadal bardzo wpływowego i zarazem cudownie prostego [modelu
 warunkowania](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model), Rescorlę i Wagnera. Taką
 sieć przedstawia się zwykle na rysunkach jako kolumny punktów połączonych strzałkami z punktami
 należącymi do następnej kolumny (czyli warstwy).
 
 Nie wiadomo, dlaczego zdaniem autorów takie modele nie są *oddolne*, skoro informacja płynie w nich
 w *jedną* stronę, ani w jakim znaczeniu są zdolne do "samokontroli" i "samoorganizacji", skoro takie
-akurat sieci nie uczą się w żadnym sensie same, tylko *uczy się je* za pomocą odrębnego,
-zewnętrznego procesu. Nie wiadomo też, w jakim znaczeniu te akurat sieci uczą się (już to zostawmy)
-na podstawie *nagród* i *kar*, skoro uczenie za pomocą propagacji wstecznej błędu polega na
-dostarczaniu na wejściu jakiś bodźców, porównywaniu wyjścia z oczekiwaną odpowiedzią i takiej
-zmianie parametrów sieci, która powoduje zbliżenie się, w stopniu zależnym między innymi od fazy
-uczenia, obserwowanej odpowiedzi sieci do tej oczekiwanej (i tak bardzo, bardzo wiele razy, dla
-wielu różnych przykładów bodźców oznaczonych oczekiwanymi odpowiedziami). Wielkość i kierunek błędu
-to jedno, a nagroda i kara to coś innego.
+akurat sieci nie uczą się w żadnym sensie same, tylko *uczy się je* za pomocą odrębnego procesu. Nie
+wiadomo też, w jakim znaczeniu te akurat sieci uczą się (już to zostawmy) na podstawie *nagród* i
+*kar*, skoro uczenie za pomocą propagacji wstecznej błędu polega na dostarczaniu na wejściu jakiś
+bodźców, porównywaniu wyjścia z oczekiwaną odpowiedzią i takiej zmianie parametrów sieci, która
+powoduje zbliżenie się, w stopniu zależnym między innymi od fazy uczenia, obserwowanej odpowiedzi
+sieci do tej oczekiwanej (i tak bardzo, bardzo wiele razy, dla wielu różnych przykładów bodźców
+oznaczonych oczekiwanymi odpowiedziami). Wielkość i kierunek błędu to jedno, a nagroda i kara to coś
+innego.
 
-Ach, te złośliwe terminy techniczne! A gdy przyszła (?) Ci ochota spędzić naprawdę ekscytujący
-wieczór, może najlepiej gdy za oknem pada, spróbuj ustalić, ile *poprawnych* stwierdzeń można tam
-znaleźć we fragmencie dotyczącym reguły Bayesa.
+Ach, te złośliwe terminy techniczne! Nawiasem mówiąc, terminologia, której używamy do opisu modeli
+blokowych i koneksjonistycznych też jest *matematyczna*. A gdyby przyszła Ci ochota spędzić naprawdę
+ekscytujący wieczór, może najlepiej gdy za oknem pada, spróbuj ustalić, ile *poprawnych* stwierdzeń
+można tam znaleźć we fragmencie dotyczącym reguły Bayesa.
 
-Albo weźmy taki automat hohania Świętego Mikołaja TODO
+Albo weźmy taki automat hohającego Świętego Mikołaja, którego lubi używać jako przykładu ten
+[Gandalf Wspaniały](https://www.youtube.com/@BobBrandomPitt). Dowiedziałem się o nim, to znaczy o
+tym Niezwykłym Brodaczu (a przez to o owym automacie) niedawno, przez to, że YouTube mi go polecił i
+coś mi mówi, a raczej mam nadzieję, że [jeszcze się tu pojawi](https://philarchive.org/rec/HLORFL) w
+znacznie poważniejszej roli. No więc ten automat, podobnie jak wszystkie inne omawiane dotąd modele,
+jednocześnie jakoś *wygląda* i (reprezentuje coś, co) jakoś *działa*. Z wyglądu to on jest grafem:
+Na początku wychodzimy strzałką `h` z kwadratu `1` do okręgu `2`. Z tego okręgu wychodzą dwie
+strzałki, `a` i `o`, do okręgu `3`, a z okręgu `3` wychodzi jedna strzałka `h` z powrotem do okręgu
+`2` i jedna strzałka `!` do (końcowego) kwadratu `4`. 
+
+**Sugestia**: Może narysujesz?
+
+Można tu myśleć o punktach kwadratów i okręgów jako o stanach, a o strzałkach jako o działaniach,
+które powodują przejścia od jednego stanu do drugiego. Punkt `1` jest początkowy, a `4` końcowy. 
+
+**Sugestia**: A ścieżkami z tego początku do tego końca są? 
+
+Tego rodzaju modele, które nazywamy też, adekwatnie, sztucznymi gramatykami, były kiedyś w
+psychologii dosyć [modne](https://en.wikipedia.org/wiki/Artificial_grammar_learning). Różni
+"wpływowi" i "uznani" badacze próbowali z nich wtedy korzystać aby odkryć jakieś prawdy między
+innymi na temat uczenia się regularności w sposób mimowolny albo niezbyt, czy może nawet wcale
+nieuświadomiony. O ile się orientuję, po tej "tradycji badawczej" też niewiele, albo zgoła nic
+właściwie nie zostało.
 
 Albo wróćmy do przykładu z opisywaniem drogi na Wawel. Czemu to się wydaje takie naturalne i czemu
 to jest tak bardzo podobne do tylu innych rodzajów czynności albo procesów, które można by ogólnie
-nazwać drogami, takich jak dowodzenie, wielokrotne dodawanie, wnioskowanie o tym, że coś jest w
-jakimś sensie "mniejsze", albo "słabsze", albo jakoś inaczej jest poniżej czegoś, na podstawie
-zachodzenia takiej relacji między innymi parami elementów?
+nazwać drogami, takich jak dowodzenie, wielokrotne dodawanie, programowanie, czy wnioskowanie o tym,
+że coś jest w jakimś sensie "mniejsze" albo "słabsze" - albo jakoś inaczej jest poniżej czegoś - na
+podstawie zachodzenia takiej relacji między innymi parami elementów?
 
 Co sprawia, że wszystkie te reprezentacje, zwłaszcza, kiedy są przedstawione w postaci *diagramów*,
-wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju *uogólnionej i
+wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju *uogólnionej,
 przyjaznej modularności*? I czemu tak szybko zaczynamy je *zrozumieć*? A zwłaszcza:
 
 *Czemu tak łatwo jest nam mentalnie wycinać ich fragmenty i w ich miejsce wstawiać inne i czemu tak
 dobrze sobie radzimy z domyślaniem się, jak całość będzie potem  f u n k c j o n o w a ł a*?
 
 Naprowadzałem Cię na trop odpowiedzi, której oczekuję, w różny sposób od wielu rozdziałów i tyle
-razy już to powtarzałem. A i tak nie masz najmniejszych szans jej znaleźć.
+razy już to powtarzałem. A mimo wątpię, że uda Ci się ją znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
-Odpowiedź jest tu (TODO link). Ale najpierw spróbuj ją proszę znaleźć "sama".
+Odpowiedź jest [tu](R34__Ichor.md). Ale najpierw spróbuj ją proszę znaleźć "sama".
 
 ### Przypisy
 
