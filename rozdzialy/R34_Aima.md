@@ -497,16 +497,16 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
 
+<br>
+
 *Co mają wspólnego*  
 *rozkłady jazdy metra*  
 *z pudłami zasobów pamięci*  
-*punktującymi*  
-*wstążki ścieżek*  
-*przepływu danych?*
+*punktującymi*
+*wstążki ścieżek przepływu danych?*
 
 *Co nam zostanie,*  
-*gdy otrząśniemy się*  
-*z wpatrzenia*  
+*gdy otrząśniemy się z wpatrzenia*  
 *w różniące je detale?*  
 ...
 
