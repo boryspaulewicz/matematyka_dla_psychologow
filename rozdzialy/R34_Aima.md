@@ -51,7 +51,7 @@ Co tu właściwie *zaszło*?
 <br>
 
 Albo wyobraź sobie, że grasz w grę, w której poruszasz się wężem Uroborem
-([`🐍`](https://pl.wikipedia.org/wiki/Uroboros)), żywiącym się rododendronami. Nie da się w tą grę
+([`🐍`](https://pl.wikipedia.org/wiki/Uroboros)) żywiącym się rododendronami. Nie da się w tą grę
 przegrać, bo kiedy zbyt długo brakuje zwykłego pokarmu, Urobor może podgryzać własny ogon i jakoś
 daje radę. Możesz iść w prawo, w lewo, w górę i w dół, plansza jest nieskończona, a rododendrony
 rosną gdzie chcą.
