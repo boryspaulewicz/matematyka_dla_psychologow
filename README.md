@@ -257,7 +257,7 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 *Trochę historii, wszystkie osobiste, a poza tym ważne moim zdaniem rady*
 
 [R2 Co można z tą książką zrobić](./rozdzialy/R02_Co_mozna_z_ta_ksiazka_zrobic.md)  
-*Oparte na wynikach badań i własnych wieloletnich doświadczeniach rady dotyczące uczenia się w
+*Oparte na wynikach badań i własnych wieloletnich doświadczeniach wskazówki dotyczące uczenia się w
 ogóle, uczenia się matematyki, i samokontroli*
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
