@@ -97,7 +97,7 @@ dotyczące między innymi pragmatyki komunikacji, aby skupić się na ...
    *instrukcji, jak gdzieś dojść* ...
 
 2. ... i na jakiejkolwiek niezobowiązującej, *uproszczonej* i wydającej się być *reprezentatywną*
-   wersji tej sytuacji czy tego procesu.
+   wersji tego procesu.
 
 Jest oczywiste, że w takich sytuacjach na ogół pomijamy szczegóły dotyczące tego, na *ile* różnych
 sposobów można przejść na przykład konkretną ulicą z jednego konkretnego punktu orientacyjnego do
