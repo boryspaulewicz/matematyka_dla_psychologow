@@ -395,10 +395,10 @@ Modelom blokowym autorzy przeciwstawiają modele *koneksjonistyczne*, które naj
 jak [*sztuczne sieci neuronowe*](https://pl.wikipedia.org/wiki/Sie%C4%87_neuronowa). Mimo bogactwa
 tego rodzaju modeli, autorzy utrzymują, że takie sieci mają (zawsze?) trzy lub cztery warstwy,
 wejściową, pośredniczącą, wyjściową i ewentualnie warstwę kontekstową, a informacja płynie w nich w
-jedną stronę, od wejścia do wyjścia. Nietrudno ustalić, że chodzi tu o pewien określony *typ* takich
-modeli, to jest o sieć jednokierunkową z warstwą ukrytą, któr*ą* uczy się za pomocą propagacji
+jedną stronę, od wejścia do wyjścia. Nietrudno ustalić, że chodzi tu o pewien określony *typ* sieci
+neuronowych, to jest o sieć jednokierunkową z warstwą ukrytą, któr*ą* uczy się za pomocą propagacji
 wstecznej błędu zgodnie z [regułą delty](https://en.wikipedia.org/wiki/Delta_rule), która to reguła
-została odkryta przez autorów nadal bardzo wpływowego i zarazem cudownie prostego [modelu
+została z kolei odkryta przez autorów nadal bardzo wpływowego i zarazem cudownie prostego [modelu
 warunkowania](https://en.wikipedia.org/wiki/Rescorla%E2%80%93Wagner_model), Rescorlę i Wagnera. Taką
 sieć przedstawia się zwykle na rysunkach jako kolumny punktów połączonych strzałkami z punktami
 należącymi do następnej kolumny (czyli warstwy).
