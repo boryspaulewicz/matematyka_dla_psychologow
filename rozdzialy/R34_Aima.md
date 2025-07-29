@@ -325,7 +325,7 @@ mówiąc już o tym, jakie znaczenie odgrywa w naszej przygodzie "przemienność
 miejscami (na przykład rozgrywająca się mentalnie między nami) i jako (samo)przekształcalność,
 inaczej metaprogramowanie.
 
-## ... a o czym *próbował* coś stwierdzić
+### ... a o czym *próbował* coś stwierdzić
 
 Berlyne ewidentnie wyjątkowo sprawnie, jak na żyjącego w tamtych (nie mówiąc już o naszych) czasach
 psychologa, operuje grupami, grafami i innymi blisko związanymi strukturami. Jednak to wszystko mają
