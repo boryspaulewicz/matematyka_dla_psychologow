@@ -101,7 +101,7 @@ sposobów można przejść na przykład konkretną ulicą z jednego konkretnego 
 drugiego. Pomijamy też szczegóły dotyczące tego, *jakie* (na przykład, teoretycznie możliwe
 czołganie się, pełzanie albo kicanie) to mogą być sposoby.
 
-(przyszła Ci do głowy zasada nieważności struktury dowodu?)
+(przyszła Ci może do głowy zasada nieważności struktury dowodu?)
 
 Zamiast tego, zwłaszcza, gdy chodzi o miasto, korzystamy przede wszystkim z *abstrakcyjnej siatki*
 ulic. Tą potrafimy *stabilnie nanosić* na rzeczywistą powierzchnię miasta i potrafimy nią
