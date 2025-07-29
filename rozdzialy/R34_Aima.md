@@ -428,11 +428,13 @@ Albo weźmy taki automat hohającego Świętego Mikołaja, którego lubi używa�
 [Gandalf Wspaniały](https://www.youtube.com/@BobBrandomPitt). Dowiedziałem się o nim, to znaczy o
 tym Niezwykłym Brodaczu (a przez to o owym automacie) niedawno, bo YouTube mi go polecił i coś mi
 mówi, a raczej mam nadzieję, że [jeszcze się tu pojawi](https://philarchive.org/rec/HLORFL) w
-znacznie poważniejszej roli. No więc ten automat, podobnie jak wszystkie inne omawiane dotąd modele,
-jednocześnie jakoś *wygląda* i (reprezentuje coś, co) jakoś *działa*. Z wyglądu to on jest grafem:
-Na początku wychodzimy strzałką `h` z kwadratu `1` do okręgu `2`. Z tego okręgu wychodzą dwie
-strzałki, `a` i `o`, do okręgu `3`, a z okręgu `3` wychodzi jedna strzałka `h` z powrotem do okręgu
-`2` i jedna strzałka `!` do kwadratu `4`.
+znacznie poważniejszej roli. 
+
+No więc ten automat, podobnie jak wszystkie inne omawiane dotąd modele, jednocześnie jakoś *wygląda*
+i (reprezentuje coś, co) jakoś *działa*. Z wyglądu to on jest grafem: Na początku wychodzimy
+strzałką `h` z kwadratu `1` do okręgu `2`. Z tego okręgu wychodzą dwie strzałki, `a` i `o`, do
+okręgu `3`, a z okręgu `3` wychodzi jedna strzałka `h` z powrotem do okręgu `2` i jedna strzałka `!`
+do kwadratu `4`.
 
 **Sugestia**: Może narysujesz?
 
