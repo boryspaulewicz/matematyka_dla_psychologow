@@ -319,7 +319,8 @@ Nie mogłem się oprzeć pokusie naszkicowania interfejsu grup abelowych i wymy�
 klasy zadania, bo przecież zaczęliśmy przygodę z matematyką właśnie od przemienności, tyle, że
 dodawania liczb naturalnych, które to działanie, jak wiesz, struktury grupy akurat nie ma. Nie
 mówiąc już o tym, jakie znaczenie odgrywa w naszej przygodzie "przemienność" rozumiana jako zamiana
-miejscami (na przykład rozgrywająca się mentalnie między nami) i jako (samo)przekształcalność.
+miejscami (na przykład rozgrywająca się mentalnie między nami) i jako (samo)przekształcalność,
+inaczej metaprogramowanie.
 
 ## ... a o czym *próbował* coś stwierdzić
 
