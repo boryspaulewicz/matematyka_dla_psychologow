@@ -57,9 +57,9 @@ przegrać, bo kiedy zbyt długo brakuje zwykłego pokarmu, Urobor może podgryza
 daje radę. Możesz iść w prawo, w lewo, w górę i w dół, plansza jest nieskończona, a rododendrony
 rosną gdzie chcą.
 
-Widzisz jakieś podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad trasą, którą
-faktycznie wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo tym
-dokładnie (lecz tylko w pewnym sensie) *jest* wskazywanie komuś drogi *jako zachowanie*.
+Widzisz podobieństwo? Nie miałaś co prawda tak daleko idącej kontroli nad trasą, którą faktycznie
+wybierze turysta, ale *myślałaś* o jego przyszłym zachowaniu *jakbyś* miała. Bo tym dokładnie (lecz
+tylko w pewnym sensie) *jest* wskazywanie komuś drogi *jako zachowanie*.
 
 Albo wyobraź sobie, że jesteś Pewną Szefową i musisz ulokować pracowników różnych wydziałów i
 szczebli w kilku wielopiętrowych budynkach nowej filii, która właśnie powstaje w
