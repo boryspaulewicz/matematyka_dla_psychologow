@@ -471,7 +471,8 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 <br>
 
-...  
+*僕のTシャツ*  
+*僕の枕*  
 *Four stops away from*  
 *Your favorite station*  
 *I am not a resource*  
