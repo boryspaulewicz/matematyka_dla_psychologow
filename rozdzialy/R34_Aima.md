@@ -455,7 +455,7 @@ podstawie zachodzenia takiej relacji między innymi parami elementów?
 Co sprawia, że wszystkie te reprezentacje, zwłaszcza, kiedy są przedstawione w postaci *diagramów*,
 wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju *uogólnionej,
 przyjaznej [modularności](https://en.wikipedia.org/wiki/Modularity_of_mind)*? I czemu tak szybko
-zaczynamy je *zrozumieć*? A zwłaszcza:
+zaczynamy je *rozumieć*? A zwłaszcza:
 
 <br>
 
