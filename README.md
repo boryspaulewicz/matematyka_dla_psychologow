@@ -6,13 +6,11 @@ teorii typów, można sprawdzić i zredukować do najprostszej postaci za pomoc�
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.26 Skończyłem pisać wstępną wersję [rozdziału
-33](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md),
-dotyczącego kontrolowania wieloznaczności za pomocą polimorfizmu ad-hoc, który ma w Leanie elegancką
-i teoretycznie uzasadnioną implementację za pomocą elastycznego procesu syntezy implementacji
-wirtualnych interfejsów. Wracam też do rozpoczętego wcześniej, tylko niejawnie, wątku homomorfizmów,
-i mówię trochę o głębszych problemach związanych z wieloznacznościami, którymi jestem zmuszony
-często operować w tej książce. Nawet o zamkach coś tam opowiadam.
+**Aktualności**: 2025.07.29 Wstępna wersja rozdziału 34 jest
+[tu](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R34_Aima.md). Piszę
+w nim trochę o psychologii, w tym również o pewnych ważnych klasach modeli, które od dawna odgrywają
+w psychologii ważną rolę, ale też o różnych codziennych sprawach. Ponieważ najważniejszy wątek tego
+rozdziału wiąże się z pewną niespodzianką, więcej nie będę zdradzał.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 *zwłaszcza* tych krytycznych.

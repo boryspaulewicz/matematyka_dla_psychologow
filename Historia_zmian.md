@@ -1,3 +1,9 @@
+2025.07.29 Wstępna wersja rozdziału 34 jest
+[tu](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R34_Aima.md). Piszę
+w nim trochę o psychologii, w tym również o pewnych ważnych klasach modeli, które od dawna odgrywają
+w psychologii ważną rolę, ale też o różnych codziennych sprawach. Ponieważ najważniejszy wątek tego
+rozdziału wiąże się z pewną niespodzianką, więcej nie będę zdradzał.
+
 2025.07.26 Skończyłem pisać wstępną wersję [rozdziału
 33](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md),
 dotyczącego kontrolowania wieloznaczności za pomocą polimorfizmu ad-hoc, który ma w Leanie elegancką
