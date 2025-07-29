@@ -382,9 +382,9 @@ Z podręcznika ["Psychologia
 poznawcza"](https://lubimyczytac.pl/ksiazka/opinie/4930266/psychologia-poznawcza) dowiadujemy się,
 że jednym z ważnych rodzajów "architektur umysłu", cokolwiek by to miało znaczyć ("architektura
 *poznawcza*" jest terminem technicznym w psychologii poznawczej, ale ten termin oznacza [coś
-innego](https://en.wikipedia.org/wiki/Cognitive_architecture)), są nadal odgrywające w psychologii
-nie tylko poznawczej ważną rolę tak zwane *modele blokowe*. Stosunkowo prostym przykładem tego
-rodzaju modelu jest [model selekcji uwagowej
+innego](https://en.wikipedia.org/wiki/Cognitive_architecture)), są odgrywające w psychologii nie
+tylko poznawczej ważną rolę tak zwane *modele blokowe*. Stosunkowo prostym przykładem tego rodzaju
+modelu jest [model selekcji uwagowej
 Broadbenta](https://en.wikipedia.org/wiki/Broadbent%27s_filter_model_of_attention).
 
 Nazwa "blokowe" pochodzi stąd, że można je przedstawić w postaci połączonych strzałkami pudełek,
