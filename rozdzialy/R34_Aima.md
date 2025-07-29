@@ -485,6 +485,10 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 *I am not a cardboard box*  
 *Not to be lived in*  
 *Not to be critical*  
+
+*First, I should see it all*  
+*Then I'll shrug it off*  
+*Then you'll brush it off*  
 ...
 
 <br>
