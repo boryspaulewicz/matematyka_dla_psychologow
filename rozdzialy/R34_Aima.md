@@ -460,8 +460,8 @@ zaczynamy je *rozumieć*? A zwłaszcza:
 
 <br>
 
-*Czemu tak łatwo jest nam wycinać mentalnie ich fragmenty i w puste miejsca wstawiać nowe i czemu
-tak dobrze radzimy sobie z domyślaniem się, jak całość będzie potem f u n k c j o n o w a ł a*?
+*Czemu tak łatwo jest nam wycinać mentalnie ich fragmenty i w puste miejsca wstawiać inne i czemu
+tak dobrze radzimy sobie z domyślaniem się, jak nowa całość będzie f u n k c j o n o w a ł a*?
 
 <br>
 
