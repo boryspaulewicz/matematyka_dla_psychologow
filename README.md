@@ -382,6 +382,8 @@ psychopacie, z nachalnym utrudnianiem*
 
 Uwaga, plac budowy. Ale informacje zwrotne zawsze mile widziane:
 
+[R35](./rozdzialy/R35.md)
+
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
 <hr>
