@@ -267,7 +267,7 @@ tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych
 *Jakieś gruszki na jakiejś wierzbie*
 
 A czytając ten rozdział zaczniesz się uczyć (*ze mną*, nawet jeśli w tym momecie jestem trochę dalej), w dosyć
-nietypowy sposób i niemal od zera, podstaw matematyki .  
+nietypowy sposób i niemal od zera, podstaw matematyki.  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md)  
 *Dwa dowody przeprowadzone łagodnie i krok po kroku, a wokół pełno metarefleksji*
 
