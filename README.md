@@ -119,15 +119,23 @@ zdaniem powtarzanie *się* jest jej (i jego) ojcem. Dla kogoś, komu nie są ju�
 wymuszone powtórki będą pewnie najwyżej czasami drażniące; dla kogoś, kto ich potrzebuje, ich
 niedobór może być przyczyną poddania się w wysiłkach zrozumienia o co chodzi.
 
-**O (licznych \{i nierzadko zagnieżdżonych\}) wtrąceniach**: Oficjalny powód jest taki, że ponieważ
-wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i - jak już wspomniałem -
-często się powtarzam, a zadań jest mało, to wydaje mi się, że ten tekst powinien stawiać pewien opór
-i zachęcać tak do robienia własnych notatek. Poza tym wtrącenia mają czasem skłaniać czytelników do
-szybkiego przełączania się między różnymi sposobami myślenia o tych samych sprawach, co jest zresztą
-jednym z centralnych tematów tej książki. Nie chodzi mi wtedy o to, żeby zatrzymać się i dłużej
-zastanowić nad tym, co się pojawia w nawiasach, chociaż to się również może czasem przydać, tylko o
-to, żeby blisko ze sobą związane perpspektywy zabrzmiały jak ulotny akord i zaczęły się łatwiej
-kojarzyć. A że lubię się tak wtrącać, to tym bardziej nie zamierzam się w tym zbytnio ograniczać.
+**O (licznych \{w tym również zagnieżdżonych ⟨a nawet dwukrotnie zagnieżdżonych⟩}) nawiasach i o
+zmienności sposobu formatowania tekstu**: Zacznę może od formatowania. Pomijając kwestię celowości
+zabiegów, których na tym etapie wolałbym nie zdradzać, wydaje mi się, że czytanie różnych książek na
+ten sam temat daje pewien skutek, który trudno uzyskać czytając jedną, nawet bardzo dobrą
+książkę. Na pewno wynika to między innymi stąd, że każda kolejność tematów i sposób ich objaśniania
+ma unikalne zalety i wady. Pisząc czuję czasem potrzebę zmiany na przykład tego, jak wymieniam
+elementy składowe czegoś i dopóki nie uzyskam na ten temat infomacji zwrotnych sugerujących, że to
+kiepsko działa, będę podążał za tymi intuicjami. Co do nawiasów, oficjalny powód jest taki, że
+ponieważ wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i - jak już
+wspomniałem - często się powtarzam, a zadań jest (nawet bardzo) mało, to wydaje mi się, że ten tekst
+powinien stawiać pewien opór i zachęcać tak do robienia własnych notatek. Poza tym niektóre
+wtrącenia mają skłaniać czytelników do przełączania się między różnymi sposobami myślenia o tych
+samych sprawach, co jest zresztą jednym z centralnych tematów całej książki. Nie chodzi mi wtedy o
+to, żeby zatrzymać się i dłużej zastanowić nad tym, co się pojawia w nawiasach, chociaż to się
+również może czasem przydać, tylko przede wszystkim o to, żeby blisko ze sobą związane perpspektywy
+zabrzmiały jak ulotny akord i zaczęły się łatwiej kojarzyć. A że lubię się tak wtrącać, to tym
+bardziej nie zamierzam się w tym zbytnio ograniczać.
 
 Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
 
