@@ -376,11 +376,15 @@ psychopacie, z nachalnym utrudnianiem*
 [R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)  
 *A co to ma znaczyć?*
 
+<hr>
+
 [R34 Αίμα](./rozdzialy/R34_Aima.md)
 
 <hr>
 
-Uwaga, plac budowy. Ale informacje zwrotne zawsze mile widziane:
+### Plac budowy
+
+Informacje zwrotne zawsze mile widziane:
 
 [R35](./rozdzialy/R35.md)
 
