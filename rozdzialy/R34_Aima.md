@@ -494,7 +494,7 @@ razy już to powtarzałem. A mimo to wątpię, czy uda Ci się ją znaleźć.
 
 <br>
 
-Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach?
+Czemu tak łatwo jest wymieniać słowa w zwykłych zdaniach:
 
 <br>
 
