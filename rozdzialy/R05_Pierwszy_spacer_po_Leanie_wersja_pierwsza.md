@@ -1,12 +1,3 @@
-<br/>
-
-<div align="right"><em>Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie
-dość głęboko zapuszcza korzenie. Cała ziemia jest jego</em>.<br/>Fryderyk Hebbel</div>
-
-<br/> 
-<br/> 
-<br/>
-
 ## O czym teraz będzie
 
 W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
