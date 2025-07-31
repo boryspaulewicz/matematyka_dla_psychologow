@@ -620,7 +620,7 @@ pary różnych obiektów izomorficznych albo, mówiąc równoważnie, kategorie 
 występują strzałki przeciwrównoległe nie będące identycznościami. Nie mam pojęcia, który sposób
 myślenia jest dla Ciebie w tym momencie najwygodniejszy, ale całkiem możliwe, że *rysunkowy*,
 dlatego zachęcam do prób oswojenia się z tą terminologią (bo to jest niemal w całości tylko gęsta
-\{i zarazem niezwykle użyteczna\} terminologia dotycząca bardzo prostych zjawisk, którą wystarczy w
+\{i zarazem niezwykle użyteczna\} terminologia, dotycząca bardzo prostych zjawisk, którą wystarczy w
 miarę dobrze zapamiętać) za pomocą jakiejś częściowo rysunkowej notatki.
 
 Relacje częściowego porządku to praporządki antysymetryczne (`∀ x y : X, x R y → y R x → x = y`),
@@ -635,24 +635,24 @@ nie ma końca. Porządek liniowy to poset, w którym *porównywalna* jest *każd
 y : X, x R y ∨ y R x`). W ogólnym przypadku zarówno preordery jak i posety mogą się składać z
 *oddzielnych* [drzew](https://pl.wikipedia.org/wiki/Drzewo_(informatyka)) (rozumianych jako pewien
 typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preordery mogą mieć różne
-elementy połączone dwukierunkowo "w poziomie", a posety nie.
+elementy połączone dwukierunkowo w poziomie, a posety nie.
 
 Może jeszcze jeden przykład przed *główną* sugestią. Opiszę go celowo w dużym skrócie, żebyś miała
-okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii ubierania się obiektami są
-*ogólnie* scharakteryzowane zestawy nałożonych na swoją osobę elementów ubioru, takie jak (jakaś)
+okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii *ubierania się* obiektami są
+*ogólnie* scharakteryzowane zestawy nałożonych na własną osobę elementów ubioru, takie jak (jakaś)
 bluzka + (jakieś) spodnie + (jakaś) czapka + jakieś (skarpetki). Strzałkami są *konkretne
 egzemplarze* lub *sekwencje* ubrań, a więc składanie strzałek daje nam strzałki reprezentujące
 *ścieżki* w abstrakcyjnej przestrzeni ubierania się. Struktura tej kategorii odzwierciedla
-ograniczenia tego procesu. Na przykład, (idealizując) nie da się ubrać [najpierw buty, a potem
-skarpetki](https://math.oxford.emory.edu/site/math108/socks_and_shoes/).
+ograniczenia tego procesu. Na przykład, (idealizując) nie da się ubrać [najpierw butów, a potem
+skarpet](https://math.oxford.emory.edu/site/math108/socks_and_shoes/).
 
 W przypadku większości ludzi mieszkających w Polsce, ta kategoria *nie* będzie cienka, bo będzie
-istniała na przykład więcej niż jedna strzałka zakładania konkretnej pary skarpet. Można jednak,
-całkiem sensownie, zignorować różnice między niektórymi albo wszystkimi równoległymi strzałkami,
-uzyskując w ten sposób strzałki reprezentujące ogólne kategorie części ubioru. Takie przekształcenie
-jakiejś struktury (niekoniecznie kategorii), polegające na *zrównaniu* pewnych jej części *z
-zachowaniem struktury* Lawvere lubił nazywać przekształceniem *osobliwym*. Ponieważ to moim zdaniem
-piękne słowo, jak również na jego cześć też tak będziemy czasem mówić.
+istniała na przykład więcej niż jedna strzałka zakładania pary skarpet. Można jednak, całkiem
+sensownie, zignorować różnice między niektórymi albo wszystkimi równoległymi strzałkami, uzyskując w
+ten sposób strzałki reprezentujące ogólne kategorie części ubioru. Takie przekształcenie jakiejś
+struktury (niekoniecznie kategorii), polegające na *zrównaniu* pewnych jej części *z zachowaniem
+struktury ogólnej* Lawvere lubił nazywać przekształceniem *osobliwym*. Ponieważ to moim zdaniem
+piękne słowo, jak również na jego cześć, też tak będziemy czasem mówić.
 
 **Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka? Pisząc to zdanie sam jeszcze nie
 wiem!
