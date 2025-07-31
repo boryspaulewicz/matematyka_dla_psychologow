@@ -380,7 +380,7 @@ rodzaju *mechanizm*. Dlatego biolog bez zająknięcia się powie na przykład, �
 pompowanie krwi i tą własność serca będzie traktował jako kluczową. A jest tego rodzaju własność dla
 biologa kluczowa, bo centralnym pojęciem biologii jest dychotomia i jednocześnie *porządek określony
 na zbiorze dwuelementowym*, a więc strzałka, *od* śmierci *do* życia. To jednocześnie niezły moim
-zdaniem przykład ilustrujący arbitralnoość kierunku strzałki czasu, bo ta strzałka jest skierowana
+zdaniem przykład ilustrujący arbitralność kierunku strzałki czasu, bo ta strzałka jest skierowana
 *ku przeszłości*.
 
 Biolog traktuje życie jako *lepsze* od śmierci, bo inaczej nie postrzegałby na przykład właśnie
