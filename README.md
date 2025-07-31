@@ -53,12 +53,15 @@ dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, o
 rozwiązywanie zadań rachunkowych, tylko o* **konsekwentne i twórcze myślenie na wiele różnych
 sposobów o czym tylko się chce** *(a czasem nie chce)*.
 
+(wtrącam się tu w przerwie od pisania rozdziału trzydziestego piątego, żeby podkreślić, że jak dotąd
+o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele)
+
 <hr>
 
 A więc choć uniwersalną prawdą jest, że "im więcej piszesz, tym więcej głupstw napiszesz"[^5], to
 może dzięki kontaktowi z tą niezwykłą dyscypliną, a właściwie zdyscyplinowaną swobodą myślenia,
 studenci psychologii i psychologowie akademiccy mogliby nauczyć się pisać mniej głupot i czytać z
-większym zrozumieniem pełną głupot literaturę naukową? Albo po to, żeby używać na przykład
+większym zrozumieniem pełną głupot literaturę naukową?  Albo po to, żeby używać na przykład
 wnioskowania statystycznego czy przyczynowego wiedząc **dlaczego** tych narzędzi używa się w taki a
 nie inny sposób, czyli postępując jak na naukowca przystało, zamiast bezmyślnie i często popełniając
 szkolne błędy robić coś, bo "tak się robi", całkowicie opierając się na domniemanym autorytecie
