@@ -458,13 +458,13 @@ się wyobrębni, tak jak teraz wyobrębnia się z niej psychologia, prędko staj
 zwykle ewidentnie filozofii *przestaje potrzebować*?
 
 Zastrzegam jednak, że na ten pomysł wpadłem dzisiaj i niewykluczone, że go przerobię lub
-porzucę. Ponieważ jednak mogę pisać w tej książce o czym tylko chcę i w jaki tylko mam ochotę
+porzucę. Ponieważ jednak mogę pisać w tej książce, o czym tylko chcę i w jaki tylko mam ochotę
 sposób, co sprawiło, że uczę się tak szybko, tak wielu rzeczy i dostarcza mi to tyle radości, a
 czasem nawet wzruszeń, że nie mogę tego porównać z niczym, czego doświadczyłem ucząc się
 czegokolwiek w jakikolwiek sposób wcześniej, a filozofię zacząłem po latach zachowywania chłodnego
-dystansu znowu lubić i cenić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
+dystansu znów lubić i cenić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
 
-Byłby i o tym zapomniał: Sztuczna inteligencja to dział psychologii stosowanej, co już od dawna
+Byłby i o tym zapomniał: Sztuczna inteligencja to *dział psychologii stosowanej*, co już od dawna
 powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że obecnie
 zajmują sią nią ludzie znacznie lepiej przygotowani do uprawiania psychologii teoretycznej, niż
 współcześni psychologowie.
