@@ -54,7 +54,8 @@ rozwiązywanie zadań rachunkowych, tylko o* **konsekwentne i twórcze myślenie
 sposobów o czym tylko się chce** *(a czasem nie chce)*.
 
 (wtrącam się tu w przerwie od pisania rozdziału trzydziestego piątego, żeby podkreślić, że jak dotąd
-o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele)
+o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele, a te nieliczne zadania
+rachunkowe, które się pojawiły, służyły głównie jako ilustracja czegoś innego)
 
 <hr>
 
