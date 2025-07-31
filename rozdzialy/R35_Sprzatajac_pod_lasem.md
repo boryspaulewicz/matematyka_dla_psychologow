@@ -1,7 +1,7 @@
 <!-- -*- coding: utf-8 -*- -->
 
 <br>
-
+x
 Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie
 dość głęboko zapuszcza korzenie. Cała ziemia jest jego.
 
@@ -30,7 +30,7 @@ więcej, ten porządek ma szczególny charakter również z perspektywy *matemat
 ten szczególny pod względem struktury formalnej i znaczenia w codziennym życiu typ porządku jest
 *centralnym pojęciem* psychologii. Chodzi o coś najzwyczajniejszego w świecie zwierząt.
 
-Centralnym porządkiem psychologii jest *poprawność*.
+## Poprawność jest centralnym porządkiem psychologii
 
 Zawsze, gdy możemy mówić o poprawności, mamy do czynienia ze zbiorem dwuelementowym i relacją
 porządku polegającą na tym, że jeden z elementów tego zbioru jest "mniejszy" niż drugi. Gdy zbiór
@@ -669,12 +669,12 @@ Jak widzisz, kategorie są *dosłownie wszędzie*. Moim zdaniem po prost dlatego
 wyraża ukrytą, wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze
 uniwersalne sposoby myślenia.
 
-**Główna sugestia**: Zastanów się może, w jaki sposób mogłabyś *zacząć* próbować konstruować dowód
-tego twierdzenia. Podkreślam, że nie sugeruję, żebyś je udowodniła, chociaż jestem przekonany, że
-zrobiłabyś to bez większego trudu, zakładając, że udałoby Ci się zachować odpowiednie
-*nastawienie*. Chodzi mi raczej o próbę *metarefleksji* na temat własnych sposobów
-myślenia. Korzystam w tym kodzie z przytoczonych wcześniej definicji, więc może trzeba będzie do
-nich wrócić.
+**Może i główna, jednak wciąż tylko sugestia**: Zastanów się może, w jaki sposób mogłabyś *zacząć*
+próbować konstruować dowód tego twierdzenia. Podkreślam, że nie sugeruję, żebyś je udowodniła,
+chociaż jestem przekonany, że zrobiłabyś to bez większego trudu, zakładając, że udałoby Ci się
+zachować odpowiednie *nastawienie*. Chodzi mi raczej o próbę *metarefleksji* na temat własnych
+sposobów myślenia. Korzystam w tym kodzie z przytoczonych wcześniej definicji, więc może trzeba
+będzie do nich wrócić.
 
 Wprowadzam tu uproszczony sposób pisania, odpowiadający często stosowanemu uproszczonemu sposobowi
 mówienia, zgodnie z którym relacja to domyślnie relacja binarna określona na jednym
@@ -728,6 +728,10 @@ założenie? Jeżeli tak, to jakie? Inaczej mówiąc, z jakich własności relac
 konstruując dowód?
 
 <hr>
+
+<br>
+
+<br>
 
 <br>
 
