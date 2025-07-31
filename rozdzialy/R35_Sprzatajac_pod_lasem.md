@@ -454,7 +454,7 @@ jakaś *metoda* \[inaczej *deklarowany* albo *zamierzony* cel ⟪...[^3]⟫]⟩?
 
 Może dlatego filozofia *nie ma metody*? I dlatego, choć nauki mają swój *początek* w filozofii, to
 jednocześnie żadna nauka z filozofii *nie wynika*, a gdy już jakaś dyscyplina naukowa z filozofii
-się wyobdrębni, tak jak teraz wyobrębnia się z niej psychologia, prędko staje się autonomiczna i
+się wyobrębni, tak jak teraz wyobrębnia się z niej psychologia, prędko staje się autonomiczna i
 zwykle ewidentnie filozofii *przestaje potrzebować*?
 
 Zastrzegam jednak, że na ten pomysł wpadłem dzisiaj i niewykluczone, że go przerobię lub
