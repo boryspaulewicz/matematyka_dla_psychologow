@@ -526,7 +526,7 @@ składalnych strzałek. A więc na przykład graf `A → A` generuje kategorię 
 więc na razie tu zostanie i kusi. Podobnie, zgodnie z jednym z grafów omawianych dalej, istnieje
 między innymi (kategoryjna) strzałka `Boss_wydzialowy → Nikt_wazny`, będąca złożeniem dwóch strzałek
 widocznych na tym grafie, a poza tym każdy jest Panią samego siebie ("dosypane" identyczności
-obiektów/węzłów oznaczających stanowiska w firmie).
+obiektów/węzłów, oznaczających stanowiska w firmie).
 
 Poniżej mamy kategorię `Pracownicy`. Na tym diagramie, poprzedzonym czymś w rodzaju "preambuły"
 definiującej typowanie - a więc i tu pomieszałem dwa różne języki, z których jeden właśnie
@@ -616,12 +616,12 @@ są w tym samym porządku albo, równoważnie, w tej samej cienkiej kategorii *n
 terminologii. Relacje (`R ⊆ X × X`) zwrotne (`∀ x : X, x R x`) i przechodnie (`∀ x y z : X, x R y →
 y R z → x R z`), ale *niekoniecznie* antysymetryczne, nazywamy *praporządkami*, a po angielsku
 (spolszczając) *preorderami*. Praporządki to dokładnie cienkie kategorie, w których mogą występować
-pary różnych obiektów izomorficznych, albo mówiąc równoważnie, kategorie cienkie, w których
+pary różnych obiektów izomorficznych albo, mówiąc równoważnie, kategorie cienkie, w których
 występują strzałki przeciwrównoległe nie będące identycznościami. Nie mam pojęcia, który sposób
 myślenia jest dla Ciebie w tym momencie najwygodniejszy, ale całkiem możliwe, że *rysunkowy*,
-dlatego zachęcam do prób oswojenia się z tą terminologią (bo to jest niemal całkowicie tylko gęsta
-terminologia dotycząca bardzo prostych zjawisk, którą wystarczy w miarę dobrze zapamiętać) za pomocą
-jakiejś częściowo rysunkowej notatki.
+dlatego zachęcam do prób oswojenia się z tą terminologią (bo to jest niemal w całości tylko gęsta
+\{i zarazem niezwykle użyteczna\} terminologia dotycząca bardzo prostych zjawisk, którą wystarczy w
+miarę dobrze zapamiętać) za pomocą jakiejś częściowo rysunkowej notatki.
 
 Relacje częściowego porządku to praporządki antysymetryczne (`∀ x y : X, x R y → y R x → x = y`),
 czyli relacje takie jak relacja `≤`, określona na jakimś zbiorze liczb: Jeżeli `x ≤ y` i `y ≤ x`, to
