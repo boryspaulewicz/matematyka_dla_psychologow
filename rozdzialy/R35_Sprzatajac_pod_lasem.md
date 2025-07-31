@@ -411,11 +411,11 @@ pisaniu, rozmawianiu, komunikacji, myśleniu jako przepisywaniu, programowaniu i
 później będę się też przyglądał abstrakcyjnie rozumianemu dialogowi, to spróbuję do tego podejść
 właśnie od tej strony (a raczej stron).
 
-Jak wspominałem w jednym z rozdziałów wprowadzajacych, jednym z najcenniejszych doświadczeń, jakie
-wyniosłem ze studiowania filozofii, było *pisanie konspektów*. Z pewnością widać w tej książce, że
-chętnie korzystam z nabytych w ten sposób, mozolnie i w pocie czoła, nigdy dostatecznie nie
-rozwiniętych umiejętności. Polegało to nieodmiennie na czytaniu tekstów *źródłowych* i na tworzeniu
-możliwie najkrótszej notatki, która miała zawierać coś w rodzaju wydestylowanego, centralnego wątku
+Jak wspominałem w rozdziale drugim, jednym z najcenniejszych doświadczeń, jakie wyniosłem ze
+studiowania filozofii, było *pisanie konspektów*. Z pewnością widać w tej książce, że chętnie
+korzystam z nabytych w ten sposób, mozolnie i w pocie czoła, nigdy dostatecznie nie rozwiniętych
+umiejętności. Polegało to nieodmiennie na czytaniu tekstów *źródłowych* i na tworzeniu możliwie
+najkrótszej notatki, która miała zawierać coś w rodzaju wydestylowanego, centralnego wątku
 argumentacji, a przede wszystkim obiecujących *punktów nacisku*, to jest miejsc, w których można by
 próbować znaleźć jakieś dziury w rozumowaniu albo innego rodzaju wady. I nigdy wcześniej, ani nigdy
 później nie miałem do czynienia z tekstami, w przypadku których to byłoby tak *trudne*. Nawet
