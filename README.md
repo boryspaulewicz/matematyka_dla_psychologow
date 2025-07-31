@@ -6,11 +6,13 @@ teorii typów, można sprawdzić i zredukować do najprostszej postaci za pomoc�
 <br/>
 <br/>
 
-**Aktualności**: 2025.07.29 Wstępna wersja rozdziału 34 jest
-[tu](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R34_Aima.md). Piszę
-w nim trochę o psychologii, w tym również o pewnych ważnych klasach modeli, które od dawna odgrywają
-w psychologii ważną rolę, ale też o różnych codziennych sprawach. Ponieważ najważniejszy wątek tego
-rozdziału wiąże się z pewną niespodzianką, więcej nie będę zdradzał.
+**Aktualności**: 2025.07.31 Wstępna wersja [rozdziału
+35](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R35_Sprzatajac_pod_lasem.md)
+dotyczy: 1. relacji porządku, z perspektywy teoriomnogościowej i kategoryjnej, ale jeszcze bez map
+monotonicznych, 2. istoty psychologii i relacji między psychologią i innymi naukami, 3. i pewnych
+szczególnych cienkich kategorii, to jest pewnych pra- lub częściowych porządków występujących często
+w codziennym życiu. Piszę znowu czasem wierszem (jak w tym zdaniu) i dialo*giem*, napisałem również
+nieco więcej niż zwykle o *sobie*. Coś trzeba robić z tym czasem.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 *zwłaszcza* tych krytycznych.
