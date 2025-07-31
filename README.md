@@ -398,7 +398,7 @@ psychopacie, z nachalnym utrudnianiem*
 
 Informacje zwrotne zawsze mile widziane:
 
-[R35 Sprzątając pod lasem w śnieżny wieczór](./rozdzialy/R35.md)
+[R35 Sprzątając pod lasem w śnieżny wieczór](./rozdzialy/R35_Sprzatajac_pod_lasem.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
