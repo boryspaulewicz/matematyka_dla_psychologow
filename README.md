@@ -133,7 +133,7 @@ powinien stawiać pewien opór i zachęcać tak do robienia własnych notatek. P
 wtrącenia mają skłaniać czytelników do przełączania się między różnymi sposobami myślenia o tych
 samych sprawach, co jest zresztą jednym z centralnych tematów całej książki. Nie chodzi mi wtedy o
 to, żeby zatrzymać się i dłużej zastanowić nad tym, co się pojawia w nawiasach, chociaż to się
-również może czasem przydać, tylko przede wszystkim o to, żeby blisko ze sobą związane perpspektywy
+również może czasem przydać, tylko przede wszystkim o to, żeby blisko ze sobą związane perspektywy
 zabrzmiały jak ulotny akord i zaczęły się łatwiej kojarzyć. A że lubię się tak wtrącać, to tym
 bardziej nie zamierzam się w tym zbytnio ograniczać.
 
@@ -164,7 +164,7 @@ się, że mogliby z niej skorzystać również badacze i teoretycy (chociaż teo
 prawie nieistniejący gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie,
 niemal [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do
 programowania i teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i
-meta-matematyki, później zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersjach
+metamatematyki, później zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersjach
 bayesowskiej i częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka podstawowych
 zagadnień z obszaru szeroko rozumianej metodologii badań. Z kolei w planowanej drugiej części mam
 nadzieję uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia

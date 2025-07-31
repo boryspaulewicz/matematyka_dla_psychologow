@@ -10,7 +10,7 @@ zadań.
 # [AA](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna)
 
 Zaczniemy od nudnawych rozważań na temat dodawania, a w następnych rozdziałach będziemy już
-zanurzeni w meta-psychologii, po (nomen omen) drodze odkrywając coś, co myślę, że może Cię
+zanurzeni w metapsychologii, po (nomen omen) drodze odkrywając coś, co myślę, że może Cię
 zaintrygować.
 
 Jak pamiętasz, pierwszym przykładem czegoś matematycznego w tej książce było twierdzenie o

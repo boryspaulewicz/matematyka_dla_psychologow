@@ -308,7 +308,7 @@ moim zdaniem przyzwyczaić do wielu innych subtelnych matematycznych zjawisk. Za
 korzystając między innymi z monoidów, będziemy się bawić pewnymi ważnymi uproszczonymi modelami
 programowania imperatywnego. Okaże się wtedy, że podobieństwo nazw "monoid" i "monada", nawet jeśli
 jest w dużym stopniu przypadkowe, odpowiada czemuś zarazem ważnemu, również z
-(*meta-*)*psychologicznej* perspektywy, i bardzo trudnemu do zauważenia bez dobrej teorii.
+(*meta*)*psychologicznej* perspektywy, i bardzo trudnemu do zauważenia bez dobrej teorii.
 
 ## Monoid jako rekord
 

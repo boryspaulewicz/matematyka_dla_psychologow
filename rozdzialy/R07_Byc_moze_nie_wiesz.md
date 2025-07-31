@@ -183,7 +183,7 @@ tak bardzo je sobie cenimy. A zachowujący strukturę izomorfizm jest doskonał�
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
 kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie
-meta-matematycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko cierpliwie ćwiczyć
+metamatematycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko cierpliwie ćwiczyć
 przełączanie się między dwoma, dobrze określonymi, ale początkowo z konieczności trochę obcymi
 sposobami patrzenia na *typy*. Być może jedną z głównych trudności pojawiających się podczas
 przyzwyczajania się do tego punktu widzenia jest właśnie to, że matematyka "rozgrywa się" wtedy czy
@@ -218,7 +218,7 @@ odpowiadający mu problem analityczny (liczbowy) i próbować go rozwiązać, al
 zrozumieć, posługując się na przykład operacjami algebraicznymi takimi jak dodawanie czy mnożenie.
 
 Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać matematykę, a później również ogólniej
-rozumiane badania o meta-teoretycznym charakterze, jako programowanie, będzie zarazem sztywny i
+rozumiane badania o metateoretycznym charakterze, jako programowanie, będzie zarazem sztywny i
 wystarczająco ekspresyjny język. Ten, na którym oparty jest Lean, jest właśnie jednym z takich
 języków. A tym, co przede wszystkim sprawia, że jest tak bardzo ekspresyjny, że pozwala zakodować
 formalnie całą matematykę, a więc ostatecznie również wszystko, co tylko da się zmatematyzować,
