@@ -75,8 +75,8 @@ matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, ż
 jest możliwe, bo opanowanie podstaw tych teorii nie wymaga *żadnych* prerekwizytów i jednocześnie
 każda z tych teorii dostarcza podstaw dla całej matematyki. Mówiąc dokładniej, "za", albo "przed",
 albo "pod" teorią kategorii jest już tylko (działająca intuicyjnie) logika, a teoria typów jest
-językiem całkowicie samowystarczalnym, bo logika jest jej częścią. A po drugie dlatego, że w pewnym
-sensie *ludzie myślą w teorii typów i teorii kategorii*. Teoria typów to pewna bardzo ekspresyjna i
+językiem samowystarczalnym, bo logika jest jej częścią. A po drugie dlatego, że w pewnym sensie
+*ludzie myślą w teorii typów i teorii kategorii*. Teoria typów to pewna bardzo ekspresyjna i
 uniwersalnie ważna *logika*, a więc zmechanizowane *rozumowanie*, i *programowanie*, czyli pewien
 *dialog*, chociaż w tym przypadku z komputerem, *w jednym*. Teoria kategorii to z kolei między
 innymi teoria dopasowania między różnymi sposobami opisu, albo uniwersalne narzędzie konsekwentnego
