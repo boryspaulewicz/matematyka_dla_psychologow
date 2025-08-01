@@ -679,7 +679,7 @@ całkiem sensownie, zignorować różnice między niektórymi równoległymi str
 sposób strzałki reprezentujące ogólne części ubioru (ale czy tylko? warto rozważyć *mały*
 przykład). Przekształcenie jakiejś struktury (niekoniecznie kategorii), polegające na *zrównaniu*
 albo "sklejeniu" pewnych jej części *z zachowaniem struktury ogólnej* Lawvere lubił nazywać
-przekształceniem *osobliwym*. Moim zdaniem to jest piękne słowo, więc na cześć Lawvere'a też tak
+przekształceniem *osobliwym*[^6]. Moim zdaniem to jest piękne słowo, więc na cześć Lawvere'a też tak
 będziemy mówić.
 
 **Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka?
@@ -821,3 +821,7 @@ No przecież mówię, że nikt. Kiedy nikt nie przychodzi, to właśnie przychod
 
 [^5]: To jest w pięćdziesiąte urodziny Tomka, który też studiował filozofię, tylko był trzy lata
     wyżej niż ja i chyba nigdy nie przestał jej cenić.
+
+[^6]: Chodzi tu o angielskie słowo *singular*, bo Lawvere nie pisał po polsku. Zarówno to słowo jak
+    i jego polski odpowiednik *osobliwe* oznaczają albo po prostu coś pojedynczego lub wyróżnionego,
+    albo coś wyróżniającego się przez swoją wyjątkowość, szczególnie zaś przez swoją *dziwność*.
