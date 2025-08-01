@@ -113,10 +113,10 @@ czymś mówić. Gdy jest tylko jedno coś i nic więcej nie ma, wtedy wszystko, 
 czymś i nie ma żadnej nietrywialnej struktury; a więc również nie ma o czym mówić, ani nie ma
 Nikogo, kto mógłby o czymś mówić. I wtedy *też* jest tak, jakby nic nie było. Obiekt początkowy i
 obiekt końcowy to *jedno* i to samo pojęcie postrzegane z dwóch *dualnych* perspektyw. Nie każda
-kategoria ma jednak i początek i koniec. Tam, gdzie istnieją jakieś *dwa* obiekty, pojawia się
+kategoria ma jednak początek i koniec. Tam, gdzie istnieją jakieś *dwa* obiekty, pojawia się
 *różnica*. A gdy *jedynymi dwoma* obiektami są obiekty początkowy i końcowy, istnieje dokładnie
-*jedna* strzałka. W matematyce, tak jak w psychologii, wszystko sprowadza się ostatecznie do tej
-jednej, *definiującej kierunek* strzałki.
+*jedna* nietrywialna strzałka. W matematyce, tak jak w psychologii, wszystko sprowadza się
+ostatecznie do tej jednej, *definiującej kierunek* strzałki.
 
 Albo mniej ogólnie: Powód, dla którego pojęcie poprawności należy moim zdaniem traktować jako
 centralne (ale nie jedyne takie) pojęcie psychologii jest, gdy się go już odkryje, zawstydzająco
