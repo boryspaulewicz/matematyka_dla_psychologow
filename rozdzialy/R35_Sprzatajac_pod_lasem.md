@@ -74,10 +74,10 @@ Osobliwość typu `Empty` widać wyraźnie w strukturze ciał dwóch ostatnich d
 funkcja, która wymaga termu typu `Empty`, nie może być nigdy wywołana z definicji, aby spełnić
 warunek poprawności definicji takiej funkcji, wystarczy skorzystać z reguły eliminacji dla tego
 typu. W szczególności, nie musimy nawet konstruować drugiej, wewnętrznej funkcji tworząc term typu
-`Binrel Empty Empty`, czyli typu `Empty → Empty → Prop`, bo ta reguła eliminacji pozwala od razu
-"spełnić oczekiwanie" stworzenia termu dowolnego typu, w tym również typu `Empty → Prop`, za pomocą
-czegoś w rodzaju, w tym wypadku akceptowalnej, *pustej obietnicy*, albo obietnicy *z konieczności*
-bez pokrycia.
+`Binrel Empty Empty`, czyli term typu `Empty → Empty → Prop`, bo ta reguła eliminacji pozwala od
+razu "spełnić oczekiwanie" stworzenia termu *dowolnego* typu, w tym również typu `Empty → Prop`, za
+pomocą czegoś w rodzaju - w tym wypadku akceptowalnej - *pustej obietnicy*, albo obietnicy *z
+konieczności* bez pokrycia.
 
 Poczucie dezorientacji, które może wywołać takie zastosowanie typu `Empty`, `False`, czy naszego
 `Absurd`, wynika dokładnie stąd, że to są tylko - i zarazem *aż* - *czyste narzędzia
