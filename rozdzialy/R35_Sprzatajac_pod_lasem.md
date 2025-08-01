@@ -598,13 +598,14 @@ Monika   → Stefan
 ```
 
 Istnieje naturalne (ale nie w znaczeniu naturalnej transformacji, tylko w znaczeniu potocznym,
-zbliżonym do intuicyjne) mapowanie pracowników na kategorię hierarchii władzy ...
+zbliżonym do intuicyjne) mapowanie pracowników *na tym ostatnim grafie* na kategorię hierarchii
+władzy ...
 
 ```
 Boss → Boss_wydzialowy → Ktos_kto_jest_mily_tylko_wobec_boss_wydzialowy → Nikt_wazny
 ```
 
-... i istnieje też naturalne mapowanie hierarchii władzy na kategorię piętra budynków `3 → 2 →
+... i istnieje też naturalne mapowanie hierarchii władzy na kategorię *ogólnych* pięter `3 → 2 →
 1`. Byłbym zapomniał, że Osoba Szefowska pracuje z domu! Dlatego w tym kontekście interesuje nas
 kategoria taka jak wyżej, ale bez obiektu początkowego (czyli takiego jakby najmniejszego albo,
 przynajmniej potencjalnie, pustego w środku) `Boss`:
