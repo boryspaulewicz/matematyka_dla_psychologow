@@ -635,10 +635,11 @@ zwraca *piętra*. Bo czemu nie?
 Wreszcie, istnieje naturalne mapowanie tej ostatniej kategorii na kategorię jeszcze ogólniejszą, w
 której obiektami są numery pięter, a strzałki oznaczają fakty zachodzenia relacji `≥`, to jest
 kategorię generowaną przez graf `3 → 2 → 1`. No i istnieje jedyne możliwe mapowanie tej ostatniej
-kategorii na kategorię końcową, zawierającą jeden obiekt `Cos`, wyposażony tylko w strzałkę
-identyczności, ale to mapowanie jest trywialne z definicji, bo jest mapowaniem do obiektu końcowego
-(akurat tutaj w kategorii kategorii), a takie strzałki są tym samym, co obiekty kategorii
-(pomyślałaś o tym wcześniej?), o ile oczywiście kategoria ma jakiś koniec (kategoria kategorii ma).
+kategorii, jak i wszystkich innych, na kategorię końcową, zawierającą jeden obiekt `Cos`, wyposażony
+tylko w strzałkę identyczności, ale to mapowanie jest trywialne z definicji, bo jest mapowaniem do
+obiektu końcowego (akurat tutaj w kategorii kategorii), a takie strzałki są tym samym, co obiekty
+kategorii (pomyślałaś o tym wcześniej?), o ile oczywiście kategoria ma jakiś koniec (kategoria
+kategorii ma).
 
 Ważną cechą niektórych z tych porządków, ale nie wszystkich, jest to, że pewne elementy (nie wypada
 mówić tak o ludziach, bo to obraźliwe określenie, ale moje ręce są związane terminologią techniczną)
