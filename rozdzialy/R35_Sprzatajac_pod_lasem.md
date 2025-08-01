@@ -344,12 +344,12 @@ nieznośnym tonem - zdania w rodzaju "Nie istnieje wola nieegoistyczna". Tak, to
 
 Z Fryderyka N. prędko wyrosłem, ale zamiłowanie do filozofii trwało przez całe liceum i dlatego
 najpierw zdałem właśnie na filozofię. Być może częściowo z powodu tego, jakie to coraz gorsze efekty
-dawało w kolejnych latach połączenie mojej prokrastynacji i lekkomyślności z ogromną elastycznością
+w kolejnych latach dawało połączenie mojej prokrastynacji i lekkomyślności z ogromną elastycznością
 terminów zaliczeń, jaką charakteryzowało się wtedy studowianie na tym kierunku na UJ, ale wydaje mi
 się jednak, że przede wszystkim z innych, głębszych powodów, któregoś dnia, czytając w księgarni
-opis na obwolucie jakiejś książki wydanej przez [wydawnictwo
-Aletheia](https://www.aletheia.com.pl/) poczułem nagłą i niespodziewaną pewność, że nie mam już do
-tego serca. I tak trafiłem na psychologię.
+opis na obwolucie jakiejś książki wydanej przez [wydawnictwo Aletheia](https://www.aletheia.com.pl/)
+poczułem nagłą i niespodziewaną pewność, że nie mam już do tego serca. I tak trafiłem na
+psychologię.
 
 Dopiero niedawno zacząłem wracać, rzadko i z pewną nieśmiałością, do tego typu literatury i wygląda
 na to, że w najbliższej przyszłości będę z niej korzystał częściej i bardziej intensywnie. Uprzedzam
