@@ -675,10 +675,10 @@ oddzielnym, nieporównywalnym drzewom, to nie może być liniowy.
 Może jeszcze jeden przykład przed *główną* sugestią. Opiszę go celowo w dużym skrócie, żebyś miała
 okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii *ubierania się* obiektami są
 *ogólnie* scharakteryzowane zestawy nałożonych na własną osobę elementów ubioru, takie jak (jakaś)
-bluzka + (jakieś) spodnie + (jakaś) czapka + jakieś (skarpetki). Ponieważ musimy mamy działanie
-składania, strzałkami są *konkretne egzemplarze* lub *sekwencje* ubrań, a więc składanie można
-rozumieć jako proces konstruowania *ścieżek ubierania się*. Struktura tej kategorii odzwierciedla
-ograniczenia tego procesu. Na przykład, (idealizując) nie da się ubrać [najpierw butów, a potem
+bluzka + (jakieś) spodnie + (jakaś) czapka + jakieś (skarpetki). Ponieważ strzałkami są *konkretne
+egzemplarze* lub *sekwencje* konkretnych ubrań, zarówno strzałki jak i złożenia strzałek odpowiadają
+*ścieżkom ubierania się w konkrety*. Struktura tej kategorii odzwierciedla ograniczenia tego
+procesu. Na przykład, (idealizując) nie da się ubrać [najpierw butów, a potem
 skarpet](https://math.oxford.emory.edu/site/math108/socks_and_shoes/).
 
 W przypadku większości ludzi mieszkających w Polsce, ta kategoria *nie* będzie cienka, bo będzie na
