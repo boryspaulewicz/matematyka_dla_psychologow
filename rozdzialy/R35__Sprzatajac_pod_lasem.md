@@ -303,7 +303,7 @@ Nikt.
 Nikt?
 
 No przecież w takich sytuacjach mówi *się*, że nikt.  
-Bo kiedy nikt nie przychodzi, to właśnie przychodzi Nikt.\})
+Bo kiedy nikt nie przychodzi, to właśnie (pusto) przychodzi Nikt.\})
 
 <br>
 
