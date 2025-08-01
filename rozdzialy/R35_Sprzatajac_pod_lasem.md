@@ -100,11 +100,10 @@ poprawne}`. W dodatku ten głęboki związek między *celowością* i *logiką* 
 
 Zawsze, gdy możemy mówić o reakcjach, odpowiedziach, czynnościach, zachowaniach, albo działaniach
 poprawnych, możemy też mówić o reakcjach, odpowiedziach, czynnościach, zachowaniach, albo
-działaniach błędnych, i vice versa. To są *dokładnie* te same sytuacje, w których możemy też mówić o
+działaniach błędnych i vice versa. To są *dokładnie* te same sytuacje, w których możemy też mówić o
 błędnym lub poprawnym wykonaniu jakiegoś *zadania*. Wykonanie błędne traktujemy wtedy jako w pewnym
 sensie mniejsze albo *gorsze* niż wykonanie poprawne, tak jak fałsz traktujemy jako coś mniejszego
-albo gorszego od prawdy, brzydotę jako coś gorszego od piękna, a zło jako coś gorszego od
-dobra.
+albo gorszego od prawdy, brzydotę jako coś gorszego od piękna, a zło jako coś gorszego od dobra.
 
 Formalnie, wszystkie te struktury są jedną i tą samą strukturą porządku na zbiorze dwuelementowym,
 który to porządek, postrzegany jak kategoria, jest dokładnie *strzałką*.
