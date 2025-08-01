@@ -670,6 +670,8 @@ typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preor
 połączone dwukierunkowo w poziomie, a posety nie. Gdy tak jest, to znaczy, gdy porządek odpowiada
 oddzielnym, nieporównywalnym drzewom, to nie może być liniowy.
 
+### Sprzątanie garderoby
+
 Może jeszcze jeden przykład przed *główną* sugestią. Opiszę go celowo w dużym skrócie, żebyś miała
 okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii *ubierania się* obiektami są
 *ogólnie* scharakteryzowane zestawy nałożonych na własną osobę elementów ubioru, takie jak (jakaś)
