@@ -265,7 +265,7 @@ brzmieć tak, jakbym sam z nimi przesadzał w stopniu maksymalnym (o, porządek!
 
 To są *uzasadnione wnioski*.
 
-Wróćmy już do strzałki.
+Wróćmy do strzałki.
 
 ## ∘ ⟶ ⊙
 
