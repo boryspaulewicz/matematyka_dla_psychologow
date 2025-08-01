@@ -112,9 +112,9 @@ do pewnego stopnia rozumieć *sami siebie*. Gdy tylko wyprowadzimy ostateczne wn
 elementy są arbitralnymi oznaczeniami, które tylko dzięki funkcjom mogą cokolwiek oznaczać.
 
 Dlatego moim zdaniem tradycyjne teoriomnogościowe implementacje pojęć kategoryjnych mają status
-implementacji w głębokim sensie *kanonicznych*. I tak będę je odtąd czasami traktował, to jest jako
-ważne *źródła sensu* jednych z najbardziej abstrakcyjnych i zarazem najbardziej uniwersalnie
-użytecznych pojęć jakimi dysponujemy, to jest kategoryjnych
+implementacji w głębokim sensie *kanonicznych*. I tak będę je odtąd czasami traktował - jako
+szczególnie ważne *źródła sensu* jednych z najbardziej abstrakcyjnych i zarazem najbardziej
+uniwersalnie użytecznych pojęć jakimi dysponujemy, to jest kategoryjnych
 [*granic*](https://en.wikipedia.org/wiki/Limit_(category_theory)), o których opowiem Ci więcej w
 odpowiednim czasie.
 
