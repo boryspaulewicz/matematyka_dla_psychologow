@@ -232,7 +232,7 @@ To są *uzasadnione wnioski*.
 
 Wróćmy już może do strzałki.
 
-## ∘ ⟶ ⊙
+## ⊚ ⟶ ⊙
 
 Pojedyncza strzałka jako kategoria, czyli `I → T`, gdzie `I` to z konieczności obiekt początkowy
 (*initial*), a `T` to z konieczności obiekt końcowy (*terminal*) jest więc, między innymi, a może
