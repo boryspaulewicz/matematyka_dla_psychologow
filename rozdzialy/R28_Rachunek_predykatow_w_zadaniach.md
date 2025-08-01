@@ -13,6 +13,8 @@ to *nie* jest tylko seria zadań; mówię tu o pewnych sprawach, do których bę
  
 Proszę zgłaszać trudności.
 
+<hr>
+
 # Rachunek predykatów w zadaniach
 
 Zanim przejdziemy do zadań, spróbuję (jak zwykle) nakłonić Cię do popatrzenia na nie z perspektywy

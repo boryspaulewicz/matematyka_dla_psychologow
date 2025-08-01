@@ -8,6 +8,8 @@ zawodowi matematycy zdają się zwykle *myśleć* o zbiorach, elementach i funkc
 pozwala łatwiej dostrzec głębokie podobieństwa między teorią mnogości, teorią typów i teorią
 kategorii. Uprzedzam jednak, że ten rozdział ma przez to taki bardziej "filozoficzny" charakter.
 
+<hr>
+
 # Teoria mnogości w za[rysie](https://pl.wikipedia.org/wiki/Ry%C5%9B)
 
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był

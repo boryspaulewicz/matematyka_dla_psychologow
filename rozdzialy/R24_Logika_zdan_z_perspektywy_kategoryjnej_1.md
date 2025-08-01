@@ -6,6 +6,8 @@ się wstępnie z pojęciem wolnej konstrukcji. Dzięki zasadzie dualności
 [ilość](https://sjp.pwn.pl/poradnia/haslo/ilosc-czy-liczba;1856.html) problemów stanie się w pewnym
 sensie mniejsza o połowę. I to wszystko będzie *technicznie* dosyć proste.
 
+<hr>
+
 # p ∧ q ~ p ← ∘ → q ~ X ← ∘ → Y ~ X → ∘ ← Y ~ p → ∘ ← q ~ p ∨ q
 
 Na pewien czas oddaliliśmy się od zdań, spójników logicznych i dowodów. Czy może raczej

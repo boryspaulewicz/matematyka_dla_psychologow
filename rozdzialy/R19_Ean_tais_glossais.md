@@ -2,6 +2,8 @@
 
 Nie chcę psuć niespodzianki.
 
+<hr>
+
 # Nie ma to jak **_Rysowanie_**
 
 W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam powód, żeby

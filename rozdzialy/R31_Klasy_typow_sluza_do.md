@@ -6,6 +6,8 @@ hierarchicznością dziedziczeniu własności, o "alogicznych" odpowiednikach ty
 trochę o psychologach i o psychologii. Poza tym, mam nadzieję, że niespodziewane, będą też dwie
 niespodzianki.
 
+<hr>
+
 # Klasy typów służą do pisania i myślenia po ludzku
 
 Pisząc o monoidach, matematycy pozwalają sobie często na coś takiego:

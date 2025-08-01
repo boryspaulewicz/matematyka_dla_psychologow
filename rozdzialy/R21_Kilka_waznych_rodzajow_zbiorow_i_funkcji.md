@@ -4,6 +4,8 @@ W tym rozdziale poznasz pewne rodzaje zbiorów i funkcji, których jest dosłown
 dlatego niemal nie da się myśleć nie używając tych pojęciowych narzędzi. Nawet jeśli myśląc o tym
 lub owym używamy ich zwykle nieświadomie i nie zawsze konsekwentnie albo z sensem.
 
+<hr>
+
 # Kilka ważnych rodzajów zbiorów i funkcji
 
 Odtąd ograniczymy rozważania do dowolnych zbiorów *skończonych*, to jest takich, które mają

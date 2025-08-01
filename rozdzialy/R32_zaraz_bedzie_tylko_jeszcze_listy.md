@@ -3,6 +3,8 @@
 
 ... pytają [łabędzie](https://youtu.be/6qDq9eGUmMI?si=wyseYEGYCbGXz9if).
 
+<hr>
+
 # ["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"]
 
 W praktyce parametryczny typ indukcyjny `List` działa tak, jak można się spodziewać:

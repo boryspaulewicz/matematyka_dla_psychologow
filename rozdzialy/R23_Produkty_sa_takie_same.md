@@ -21,6 +21,8 @@ Sugeruję więc, żebyś czytając ten rozdział nigdzie się nie spieszyła. By
 jeśli czasem wrócisz do poprzedniego rozdziału i do rysunkowej definicji produktu kategoryjnego. Jak
 zawsze przyda się też anielska (nomen omen) cierpliwość.
 
+<hr>
+
 # X ← '∘ → Y ≅! X ← ∘' → Y
 
 Najpierw krótko i bez sensu.

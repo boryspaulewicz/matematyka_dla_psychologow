@@ -10,6 +10,8 @@ mechaniki prozy matematycznej w kodzie. A zreplikujemy ją w tym rozdziale w spo
 Poza tym zaczyniemy mówić o różnicach między funkcyjnymi i imperatywnymi językami programowania i
 stworzymy coś w rodzaju cienia programu *Hello world*.
 
+<hr>
+
 # Μονοειδές
 
 No więc w książkach dotyczących algebry abstrakcyjnej można znaleźć takie zdania ...

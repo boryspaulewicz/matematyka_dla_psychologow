@@ -13,6 +13,8 @@ Poza tym poznamy takie "trudne słowa" jak *homomorfizm* i *klawikord*. Jeżeli 
 do lektury, to chyba [to nie jestem ja, tylko to jesteś
 Ty](https://en.wikipedia.org/wiki/It%27s_not_you,_it%27s_me).
 
+<hr>
+
 # ... a potem rekordowo i z klasą
 
 Cytuję za Wikipedią (2025 07 25):

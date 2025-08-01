@@ -7,6 +7,8 @@ naturalności. Korzystamy też z kilku okazji do powtórzenia materiału i zaczy
 na temat wszelkiego myślenia. A pod koniec obiecujemy jakieś gruszki na jakiejś wierzbie. I nie ma
 zadań.
 
+<hr>
+
 # [AA](https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna)
 
 Zaczniemy od nudnawych rozważań na temat dodawania, a w następnych rozdziałach będziemy już
