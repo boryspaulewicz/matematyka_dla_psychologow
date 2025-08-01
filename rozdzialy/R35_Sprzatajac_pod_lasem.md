@@ -109,7 +109,7 @@ pewnego *języka*, a język jest naszym *narzędziem*. To dzięki językowi panu
 sobą w takim stopniu, w jakim panujemy i to dzięki językowi możemy się *wzajemnie rozumieć* i możemy
 do pewnego stopnia rozumieć *sami siebie*. Gdy tylko wyprowadzimy ostateczne wnioski z obserwacji,
 że to strzałki są w kategoriach najważniejsze, staje się natychmiast jasne, że teoriomnogościowe
-elementy są tylko oznaczeniami, które dopiero dzięki funkcjom mogą cokolwiek oznaczać.
+elementy są arbitralnymi oznaczeniami, które tylko dzięki funkcjom mogą cokolwiek oznaczać.
 
 Dlatego moim zdaniem tradycyjne teoriomnogościowe implementacje pojęć kategoryjnych mają status
 implementacji w głębokim sensie *kanonicznych*. I tak będę je odtąd czasami traktował, to jest jako
