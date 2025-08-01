@@ -139,8 +139,8 @@ sensie mniejsze albo *gorsze* niż wykonanie poprawne, tak jak fałsz traktujemy
 albo gorszego od prawdy, brzydotę jako coś gorszego od piękna, a zło jako coś gorszego od dobra.
 
 Formalnie, wszystkie te struktury są jedną i tą samą strukturą porządku na zbiorze dwuelementowym,
-który to porządek, postrzegany jak kategoria, jest dokładnie pojedynczą nieidentycznościową, a więc
-już nietrywialną, *strzałką*.
+który to porządek, postrzegany jako kategoria, jest dokładnie pojedynczą nieidentycznościową, a więc
+już *nie*trywialną, *strzałką*.
 
 Gdy nie ma nic, nic nie może się wydarzyć i ani nie ma o czym mówić, ani nie ma Nikogo, kto mógłby o
 czymś mówić. Gdy jest tylko jedno coś i nic więcej nie ma, wtedy wszystko, co jest, jest tym jednym
