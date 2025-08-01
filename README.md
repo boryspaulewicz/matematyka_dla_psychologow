@@ -90,10 +90,11 @@ usłyszała, na masową skalę łamiąc przy okazji prawa autorskie i ktora doda
 lub bardziej przypadkową zmienność. Poza tym może i przydaje się to monstrum na przykład do
 tworzenia, zwykle gładkiej i poprawnej, ale też jednocześnie płaskiej i generycznej prozy, albo do
 innych tego typu rzeczy, ale w tym, w czym to się sprawdza, *sam* chciałbym być coraz
-lepszy. Dlatego pomysł, żeby używać tego rodzaju narzędzi dajmy na to do "tłumaczenia" sensu
-jakiegoś trudnego tekstu, który zamiast tego można by potraktować jako okazję do rozwijania -
-niezwykle cennej i wymagającej długiego treningu - umiejętności czytania ze zrozumieniem, uważam za
-*dystopijny*.
+lepszy. Dlatego pomysł, żeby używać tego rodzaju narzędzi do "wyjaśniania" sensu stawiającego opór
+tekstu, który zamiast tego można by potraktować jako okazję do rozwijania - niezwykle cennej i
+wymagającej nieustannego ćwiczenia - umiejętności czytania ze zrozumieniem, albo żeby używać tego do
+*pisania*, zamiast traktować pisanie jako okazję by *lepiej zrozumieć siebie*, jest moim zdaniem w
+najwyższym stopniu *dystopijny*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
 form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
