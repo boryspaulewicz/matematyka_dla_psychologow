@@ -28,8 +28,8 @@ mniej lub bardziej nasilone.
 Istnieje jednak pewien *typ* relacji porządku, który ma dla psychologii znaczenie szczególne. Co
 więcej, ten porządek ma szczególny charakter również z perspektywy *matematycznej* i
 *filozoficznej*. Z powodów, które za chwilę staną się mam nadzieję jasne, można nawet powiedzieć, że
-ten szczególny pod względem struktury formalnej i znaczenia w codziennym życiu typ porządku jest
-*centralnym pojęciem* psychologii. 
+ten szczególny pod względem struktury formalnej i znaczenia w życiu codziennym typ porządku jest
+*centralnym pojęciem* psychologii.
 
 Chodzi o coś najzwyczajniejszego w świecie zwierząt.
 
