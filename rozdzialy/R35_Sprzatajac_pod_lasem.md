@@ -810,10 +810,10 @@ No przecież mówię, że nikt. Kiedy nikt nie przychodzi, to właśnie przychod
     czego nawet nie próbowało się robić nigdy wcześniej. Ale dzięki terapeutycznemu efektowi
     [ekspozycji](https://pl.wikipedia.org/wiki/Ekspozycja_(psychoterapia)), lęk i wstyd stopniowo
     ustępują miejsca orzeźwiającej twórczej swobodzie, która może się potem śmiało rozpanoszyć. Tą
-    wersję wyzwolenia przez ekspozycję zastosowałem po raz pierwszy dawno temu, gdy na imprezie w
-    nieistniejącej już Carycy, która to impreza odbywała się z powodu zamknięcia szokły flamenco,
-    było to więc doświadczenie pod różnymi względami intensywne, zaproponowałem przyjaciołom i
-    znajomym *konkurs tańca żenującego*. Gorąco polecam.
+    wersję wyzwolenia przez ekspozycję zastosowałem po raz pierwszy dawno, dawno temu, gdy na
+    imprezie w nieistniejącej już Carycy, która to impreza odbyła się z powodu zamknięcia szokły
+    flamenco, było to więc doświadczenie już i tak pod różnymi względami intensywne, zaproponowałem
+    przyjaciołom i znajomym *konkurs tańca żenującego*. Gorąco polecam.
 
 [^4]: A po angielsku i bawiąc się znaczeniami, *Correctness is the order of psychology*.
 
