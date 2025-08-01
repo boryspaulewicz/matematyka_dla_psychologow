@@ -1,3 +1,8 @@
+*Najważniejsza (nomen omen) wskazówka na temat tego, jak czytać tą książkę, jest
+[tutaj](./Wujek_dobra_rada.md).*
+
+<hr>
+
 ## O czym teraz będzie
 
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole

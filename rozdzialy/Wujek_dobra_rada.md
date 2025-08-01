@@ -4,7 +4,7 @@ Je¿eli nie masz tego w zwyczaju, to bardzo Ciê proszê, *spróbuj* chocia¿ **u¿ywa
 *nie* jest normalna ksi±¿ka i to *nie* s± normalne tematy, cokolwiek by to mia³o znaczyæ. Od pewnego
 momentu to bêdzie czasem dzika jazda bez trzymanki.
 
-Wychodzmi mi to ró¿nie, ale staram siê pisaæ tak, ¿eby da³o siê to czytaæ w miarê p³ynnie i ¿eby ten
+Wychodzi mi to ró¿nie, ale staram siê pisaæ tak, ¿eby da³o siê to czytaæ w miarê p³ynnie i ¿eby ten
 proces by³ nie tylko wzglêdnie bezbolesny, ale równie¿ dostarcza³ przynajmniej czasami trochê
 frajdy. W stopniu, w jakim mi siê to udaje, stwarzam jednak w ten sposób *ryzyko*, ¿e *zabrniesz za
 szybko za daleko nie bêd±c na to gotowa i zderzysz siê z jak±¶ budz±c± niepotrzebny lêk ¶cian±*.
