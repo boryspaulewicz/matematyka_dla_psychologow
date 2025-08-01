@@ -685,10 +685,10 @@ W przypadku większości ludzi mieszkających w Polsce, ta kategoria *nie* będz
 przykład (miejmy nadzieję) istniała więcej niż jedna strzałka zakładania pary skarpet. Można jednak,
 całkiem sensownie, zignorować różnice między niektórymi równoległymi strzałkami, uzyskując w ten
 sposób strzałki reprezentujące ogólne części ubioru (ale czy tylko? warto rozważyć *mały*
-przykład). Przekształcenie jakiejś struktury (niekoniecznie kategorii), polegające na *zrównaniu*
-albo "sklejeniu" pewnych jej części *z zachowaniem struktury ogólnej* Lawvere lubił nazywać
-przekształceniem *osobliwym*[^6]. Moim zdaniem to jest piękne słowo, więc na cześć Lawvere'a też tak
-będziemy mówić.
+przykład). Takie przekształcenie jakiejś struktury (niekoniecznie kategorii), polegające na
+*zrównaniu* albo "sklejeniu" pewnych jej części, ale *z zachowaniem struktury ogólnej*, Lawvere
+lubił nazywać przekształceniem *osobliwym*[^6]. Moim zdaniem to jest piękne słowo, więc na cześć
+Lawvere'a też tak będziemy mówić.
 
 **Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka?
 
