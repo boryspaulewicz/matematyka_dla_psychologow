@@ -436,9 +436,9 @@ poczuciem równie silnego oporu materii językowej, choć może dlatego, że wob
 oczekiwania.
 
 Filzofowie mają do tekstów źródłowych stosunek szczególny. Nie da się tego chyba porównać z niczym,
-co ma miejsce we *żadnych* innych dyscyplinach naukowych czy akademickich. Na przykład, dla
-matematyka matematyczny tekst źródłowy ma zwykle znaczenie prawie całkowicie *historyczne*, podobnie
-jak dla dla biologa tekst napisany przez biologa, dla fizyka tekst napisany przez fizyka, albo dla
+co ma miejsce w innych dyscyplinach naukowych czy akademickich. Na przykład, dla matematyka
+matematyczny tekst źródłowy ma zwykle znaczenie prawie całkowicie *historyczne*, podobnie jak dla
+dla biologa tekst napisany przez biologa, dla fizyka tekst napisany przez fizyka, albo dla
 psychologa tekst napisany przez jakiegoś psychologa. Nawet literaturoznawcy, dla których przedmiotem
 badania są teksty źródłowe, traktują je inaczej niż filozofowie traktują teksty filozofów.
 
