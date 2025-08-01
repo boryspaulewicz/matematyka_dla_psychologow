@@ -97,17 +97,17 @@ kategoryści piszą o niej czasem, że to tylko jeden z wielu możliwych język�
 i tylko jedna z nieskończenie wielu możliwych kategorii. Ale teoria mnogości nie jest tylko jakąś
 tam kategorią, ponieważ jej centralne pojęcie, to jest pojęcie funkcji, rozumianej jako samo
 przyporządkowanie arbitralnych wartości abstrakcyjnym elementom, odpowiada *najbardziej elementarnej
-funkcji języka* - funkcji *oznaczania*, inaczej *nazywania*. Teoria mnogości jest więc po prostu
-elementarną teorią samego oznaczania.
+funkcji języka* - funkcji *oznaczania*, inaczej *nazywania*. Teoria mnogości jest więc zarazem
+mechaniczną i elementarną teorią samego oznaczania.
 
-Z tej perspektywy zadziwiające jest to, że chociaż teoria kategorii pozwala wyraźnie zobaczyć, że
-strzałki są ważniejsze niż obiekty, to jednak w każdym znanym mi podręczniku do teorii kategorii
-autorzy nadal piszą o kategoriach tak, jakby akcentowanie strzałek było co najwyżej z pewnych
-względów bardziej użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym, którym Ci
-autorzy się posługują tłumacząc, o co w tym chodzi. Z powodów historycznych i chyba też z głębszych
-powodów psychologicznych matematycy są wciąż moim zdaniem zbyt przywiązani do zwykłych
-*rzeczowników*, a do mówienia o jakichkolwiek strukturach jako o kategoriach w sposób oczywisty
-zwykle znacznie bardziej nadają się *rzeczowniki odczasownikowe*, takie jak "oznaczanie".
+Z tej perspektywy jest wręcz zadziwiające, że chociaż teoria kategorii pozwala wyraźnie zobaczyć, że
+strzałki są daleko ważniejsze niż obiekty, to jednak w każdym znanym mi podręczniku do teorii
+kategorii autorzy nadal piszą o kategoriach tak, jakby akcentowanie strzałek było co najwyżej z
+pewnych względów bardziej użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym,
+którym Ci autorzy się posługują tłumacząc, o co w tym chodzi. Z powodów historycznych i chyba też z
+głębszych powodów psychologicznych matematycy są wciąż moim zdaniem nadmiernie przywiązani do
+*zwykłych rzeczowników*, a do mówienia o jakichkolwiek strukturach jako o kategoriach w sposób
+oczywisty zwykle znacznie bardziej nadają się *rzeczowniki odczasownikowe*, takie jak "oznaczanie".
 
 Struktury, które opisujemy za pomocą zwykłych rzeczowników, takie jak zbiory i należące do nich
 elementy, są *niczym* bez *sposobu, w jaki ich używamy*, bo te struktury są tylko - i aż - częściami
