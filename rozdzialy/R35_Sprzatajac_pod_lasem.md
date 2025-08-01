@@ -506,10 +506,10 @@ czarną popołudniową herbatę pocieszającą.
 Tego rodzaju wieloaspektowa ocenialność skutków różnych działań (a dokładniej prób) to moim zdaniem
 samo serce psychologii. Współczesny psycholog mógłby powiedzieć, że to nie jest naukowe, bo to
 jakieś podejrzane rezultaty *introspekcji*, której współczesna "naukowa" psychologia od dawna już
-nie akceptuje jako metody "naukowej". No tak, ale to przecież w oczywisty sposób *nie* są rezultaty
-introspekcji, tylko *zmyślenia*. Ze względu na ich szczególną rolę nie ma znaczenia, skąd się te
-zmyślenia wzięły. W *żadnym* miejscu nie korzystam z założenia, że któreś z tego rodzaju zmyśleń, a
-dokładniej *ocennych perspektyw*, jest *prawdą*.
+nie akceptuje jako metody naukowej. No tak, ale to przecież w oczywisty sposób *nie* są
+rezultaty introspekcji, tylko *zmyślenia*. Ze względu na ich szczególną rolę nie ma znaczenia, skąd
+się te zmyślenia wzięły. W *żadnym* miejscu nie korzystam z założenia, że któreś z tego rodzaju
+zmyśleń, a dokładniej *ocennych perspektyw*, jest *prawdą*.
 
 *"Ja" jest punktem widzenia.*
 
