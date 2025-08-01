@@ -192,7 +192,7 @@ językami wszystkich nauk, w tym również swoimi własnymi językami.
 
 Jeżeli matematyka jest Królową nauk, to fizyka, która jest dokładnie celowym stosowaniem języków
 matematycznych do kontroli wszelkich zdarzeń, jest ich Królem. Można więc powiedzieć, że ta
-Wspaniała Dwójka (dziewczyn) rodzi najwięcej zastosowań niemal *z definicji*. Nasza Płodna Para ma
+Wspaniała Dwójka (dziewczyn!) rodzi najwięcej zastosowań niemal *z definicji*. Nasza Płodna Para ma
 dokładnie jednego rodzica, Matkę psychologię, która pilnuje, żeby Dzieci się zachowywały. A Ojciec
 albo się ulotnił, albo nigdy go nie było i jako Ten Nieistniejący spełnił swój rodzicielski
 obowiązek pusto.
