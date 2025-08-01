@@ -85,9 +85,9 @@ rozumowania*. Przypominają pod tym względem te bardziej abstrakcyjne rodzaje i
 zera i inne, w takim czy innym znaczeniu puste konstrukcje. Inaczej mówiąc, te typy *są sposobem ich
 użycia*; dlatego są takie "puste w środku".
 
-Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Twoją uwagę na tą być może
-pozornie wynikającą tylko z implementacji obserwację, bo niebawem będziemy z niej wyprowadzać
-nieuchronne i bardzo daleko idące wnioski:
+Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Twoją uwagę na tą - być
+może pozornie wynikającą tylko z implementacji - osobliwą obserwację, bo niebawem będziemy z niej
+wyprowadzać nieuchronne i bardzo daleko idące wnioski:
 
 **Funkcje z pustych struktur początkowych są bezcielesnymi albo czystymi sposobami.**
 
