@@ -1,5 +1,7 @@
-*Najważniejsza (nomen omen) wskazówka na temat tego, jak czytać tą książkę, jest
-[tutaj](./Wujek_dobra_rada.md).*
+<br>
+
+**Moim zdaniem, najważniejsza (nomen omen) wskazówka na temat tego, jak czytać tą książkę, jest
+[tutaj](./Wujek_dobra_rada.md).**
 
 <hr>
 
