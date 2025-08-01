@@ -227,11 +227,12 @@ zbiorze. Zmieniłem też konwencję i zacząłem znowu pisać (prawie) wszystko 
 miałem ochotę i Ciebie też zachęcam do osobistego i swobodnego podejścia do notacji ("powinno się"
 to tylko *czyiś nacisk*).
 
-Zwracam uwagę, że definicja elementu najmniejszego ze względu na jakąś relację (binarną na jednym
-zbiorze) *nie* zakłada, że dana relacja jest w jakimkolwiek znaczeniu relacją porządku. Ta relacja
-może być *dowolna* (o ile tylko jest binarna i na tym samym zbiorze). To moim zdaniem dobry przykład
-wyabstrachowania własności, którą *warto* nazywać w taki może początkowo trudny do zaakceptowania
-sposób, bo ten sposób nazywania ułatwia korzystanie z łatwych do przeoczenia analogii.
+Zwracam też uwagę, że definicja elementu najmniejszego ze względu na jakąś relację (binarną na
+jednym zbiorze) *nie* zakłada, że ta relacja jest w jakimkolwiek znaczeniu relacją porządku. Relacja
+może być *dowolna*, o ile tylko jest binarna i określona na tym samym zbiorze. To moim zdaniem dobry
+przykład wyabstrachowania własności, którą *warto* nazywać w taki może początkowo trudny do
+zaakceptowania sposób, bo ten sposób nazywania ułatwia korzystanie z łatwych do przeoczenia
+analogii.
 
 ```lean
 def rel α := Binrel α α
