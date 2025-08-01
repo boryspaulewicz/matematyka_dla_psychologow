@@ -39,7 +39,8 @@ porządku polegającą na tym, że jeden z elementów tego zbioru jest "mniejszy
 jest *pusty* (a więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego \{*od momentu,
 w którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the empty set*
 zamiast *an empty set*, a po polsku *ten* zbiór pusty), można na nim zdefiniować tylko *jeden*
-porządek, to jest *porządek pusty*, który ma znaczenie *czysto teoretyczne*:
+porządek, ponieważ na zbiorze pustym można zdefiniować tylko jedną relację w ogóle (i tylko jeden
+predykat):
 
 <hr>
 
@@ -53,9 +54,8 @@ def Empty_pred : Pred   Empty       := fun a => a.elim
 def Empty_rel  : Binrel Empty Empty := fun a => a.elim
 ```
 
-Uprościłem zapis, zakładając, że już wiesz, czego Lean się w tym przypadku automatycznie domyśla.
-
-Na początek dodajemy trochę lukru, który ma na celu ujawnienie "intencji kodu". Skoro wszystko można
+Uprościłem zapis, zakładając, że już wiesz, czego Lean się w tym przypadku automatycznie domyśla. Na
+początek dodajemy trochę lukru, który ma na celu ujawnienie "intencji kodu". Skoro wszystko można
 rozumieć na wiele sposobów, to funkcje z arbitralnego typu lub typów do `Prop` też można rozumieć na
 wiele sposobów. Tutaj sygnalizujemy, że naszym celem jest traktowanie tych funkcji jako odpowiednio
 predykatów i relacji binarnych. Dzięki temu widzimy też od razu, że predykaty i relacje, nie tylko
@@ -64,6 +64,9 @@ samym, a nazywamy te dwa rodzaje obiektów inaczej dlatego, że chcemy czasem co
 zaakcentować. Wprowadzając pozornie nieistotne rozróżnienie na predykaty i relacje możemy zawęzić
 uwagę, zarówno swoją jak i odbiorców, do predykatów (i jednocześnie relacji) o określonej arności i
 poddać pewnej kontroli narzucające się skojarzenia.
+
+Zdefiniowana właśnie relacja spełnia wymagania, jakie stawiamy relacjom porządku (o czym później),
+pusto. To zatem *porządek pusty*, który ma znaczenie *czysto teoretyczne*.
 
 Osobliwość typu `Empty` widać wyraźnie w strukturze ciał dwóch ostatnich definicji. Ponieważ
 funkcja, która wymaga termu typu `Empty`, nie może być nigdy wywołana z definicji, aby spełnić
@@ -75,10 +78,10 @@ czegoś w rodzaju, w tym wypadku akceptowalnej, *pustej obietnicy*, albo obietni
 bez pokrycia.
 
 Poczucie dezorientacji, które może wywołać takie zastosowanie typu `Empty`, `False`, czy naszego
-`Absurd`, wynika dokładnie stąd, że to są tylko (i zarazem *aż*) *czyste narzędzia
+`Absurd`, wynika dokładnie stąd, że to są tylko - i zarazem *aż* - *czyste narzędzia
 rozumowania*. Przypominają pod tym względem te bardziej abstrakcyjne rodzaje identyczności, w tym
 zera i inne, w takim czy innym znaczeniu puste konstrukcje. Inaczej mówiąc, te typy *są sposobem ich
-użycia*. Dlatego są takie "puste w środku".
+użycia*; dlatego są takie "puste w środku".
 
 <hr>
 
