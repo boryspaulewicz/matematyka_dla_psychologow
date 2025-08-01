@@ -790,24 +790,26 @@ No przecież mówię, że nikt. Kiedy nikt nie przychodzi, to właśnie przychod
     Eugenia wzięła udział i dowiedziałem się dzięki temu, że chociaż zajmuje się zawodowo teorią
     kategorii, to ucząc się jej i w ogóle studiując matematykę raczej *unikała zadań*. W dodatku w
     tej dyskusji powiedziała w pewnym momencie, że *there is no should* i że *we do not understand
-    anything*. Nic dziwnego, że jestem fanboyem. Tą
-    [dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) "otwarł" zresztą
-    wspaniały [David Spivak](https://en.wikipedia.org/wiki/David_Spivak), którego znakomita książka
-    [Category Theory for the
-    Sciences](https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/) zainspirował
-    mnie do wymyślenia opisanego w poprzednim rozdziale przykładu z monoidem jako grą w węża.
+    anything*. Nic dziwnego, że jestem
+    fanboyem. [Dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) "otwarł"
+    zresztą wspaniały [David Spivak](https://en.wikipedia.org/wiki/David_Spivak), którego znakomita
+    książka [Category Theory for the
+    Sciences](https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/)
+    zainspirowała mnie do wymyślenia opisanego w poprzednim rozdziale przykładu z monoidem jako grą
+    w węża.
 
 [^3]: ... Dosyć wcześnie pisząc tą książkę odkryłem, że tak mniej więcej działa pisanie nawet tylko
     częściowo na żywo. Na początku trudno się pozbyć skrępowania wynikającego ze wstydu i z lęku
     przed oceną, połączonego z niepewnością wynikającą z faktu, że dopiero zaczęło się robić coś,
-    czego nawet nie próbowało się robić nigdy wcześniej. Ale lęk i wstyd w końcu ustępują dzięki
-    terapeutycznemu efektowi [ekspozycji](https://pl.wikipedia.org/wiki/Ekspozycja_(psychoterapia)),
-    a zamiast nich pojawia się orzeźwiająca twórcza swoboda. Tą wersję wyzwolenia przez ekspozycję
-    zastosowałem po raz pierwszy dawno temu, gdy na imprezie w nieistniejącej już Carycy, która to
-    impreza odbywała się z powodu zamknięcia szokły flamenco, było to więc doświadczenie pod wieloma
-    względami intensywne, zaproponowałem przyjaciołom i znajomym *konkurs tańca
-    żenującego*. Polecam.
+    czego nawet nie próbowało się robić nigdy wcześniej. Ale dzięki terapeutycznemu efektowi
+    [ekspozycji](https://pl.wikipedia.org/wiki/Ekspozycja_(psychoterapia)), lęk i wstyd stopniowo
+    ustępują miejsca orzeźwiającej twórczej swobodzie, która może się potem śmiało rozpanoszyć. Tą
+    wersję wyzwolenia przez ekspozycję zastosowałem po raz pierwszy dawno temu, gdy na imprezie w
+    nieistniejącej już Carycy, która to impreza odbywała się z powodu zamknięcia szokły flamenco,
+    było to więc doświadczenie pod różnymi względami intensywne, zaproponowałem przyjaciołom i
+    znajomym *konkurs tańca żenującego*. Gorąco polecam.
 
 [^4]: A po angielsku i bawiąc się znaczeniami, *Correctness is the order of psychology*.
 
-[^5]: To jest w pięćdziesiąte urodziny Tomka.
+[^5]: To jest w pięćdziesiąte urodziny Tomka, który też studiował filozofię, tylko był trzy lata
+    wyżej niż ja i chyba nigdy nie przestał jej cenić.
