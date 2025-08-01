@@ -160,7 +160,7 @@ zwykłych mechanizmach.
 
 Proszę, nie zrozum mnie źle. Nie uważam, że zwierzęta są urządzeniami i niczym więcej. Na pewno nie
 *dla nas*, bo *współczujemy* zwierzętom, a współczujemy im nie dlatego, że postrzegamy je jako byty
-*autonomiczne*, bo to jest warunek oceny *moralnej*. Współczujemy im dlatego, że wszystkie zwierzęta
+*autonomiczne*, bo to jest warunek oceny *moralnej*. Współczujemy im dlatego, że zwierzęta
 *cierpią*. Najbardziej tym, które należą do tego samego gatunku, ale zdecydowanie [nie tylko
 im](https://pl.wikipedia.org/wiki/Karuna). Z roślinami, owadami, grzybami, mikrobami i niektórymi
 formami życia bywa pod tym względem, jak wiadomo, bardzo różnie.
