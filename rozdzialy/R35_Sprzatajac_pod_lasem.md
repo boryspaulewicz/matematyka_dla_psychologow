@@ -712,7 +712,7 @@ zachować odpowiednie *nastawienie*. Chodzi mi raczej o próbę *metarefleksji* 
 sposobów myślenia. Korzystam w tym kodzie z przytoczonych wcześniej definicji, więc może trzeba
 będzie do nich wrócić.
 
-Wprowadzam tu uproszczony sposób pisania, odpowiadający często stosowanemu uproszczonemu sposobowi
+Wprowadzam tu uproszczony sposób pisania, odpowiadający często stosowanemu, uproszczonemu sposobowi
 mówienia, zgodnie z którym relacja to domyślnie relacja binarna określona na jednym
 zbiorze. Zmieniłem też konwencję i zacząłem znowu pisać (prawie) wszystko z małych liter, bo taką
 miałem ochotę i Ciebie też zachęcam do osobistego i swobodnego podejścia do notacji ("powinno się"
