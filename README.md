@@ -268,91 +268,91 @@ przełączać na Leana, ale do czytania na wyrywki sprawdza się wspaniale, wię
 ## Spis treści
 
 [R1 Skąd się ta książka wzięła](./rozdzialy/R01_Skad_sie_ta_ksiazka_wziela.md)  
-*Trochę historii, wszystkie osobiste, a poza tym ważne moim zdaniem rady*
+*Trochę historii, wszystkie osobiste, a poza tym ważne moim zdaniem rady.*
 
 [R2 Co można z tą książką zrobić](./rozdzialy/R02_Co_mozna_z_ta_ksiazka_zrobic.md)  
 *Oparte na wynikach badań i własnych wieloletnich doświadczeniach wskazówki dotyczące uczenia się w
-ogóle, uczenia się matematyki, i samokontroli*
+ogóle, uczenia się matematyki, i samokontroli.*
 
 Ten rozdział napisałem głównie z myślą o *psychologach* i omawiam w nim przede wszystkim to, o czym
 będę pisał w planowanej *drugiej* części. Obawiam się jednak, że dobre zrozumienie, o czym
 tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych. Ale zerknąć zawsze można.  
 [R3 Do czego autor zmierza](./rozdzialy/R03_Do_czego_autor_zmierza.md)  
-*Jakieś gruszki na jakiejś wierzbie*
+*Jakieś gruszki na jakiejś wierzbie.*
 
 A czytając ten rozdział zaczniesz się uczyć (*ze mną*, nawet jeśli w tym momecie jestem trochę dalej), w dosyć
 nietypowy sposób i niemal od zera, podstaw matematyki.  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md)  
-*Dwa dowody przeprowadzone łagodnie i krok po kroku, a wokół pełno metarefleksji*
+*Dwa dowody przeprowadzone łagodnie i krok po kroku, a wokół pełno metarefleksji.*
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md)  
 *Typowanie, podstawowe rodzaje definicji i ich przykładowe ciała, aplikacja, ewaluacja i currying.
-Czyli taka jakby - pełna przesiadek w różnych brzydkich i niemodnych miejscach - podróż do Indii*
+Czyli taka jakby - pełna przesiadek w różnych brzydkich i niemodnych miejscach - podróż do Indii.*
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R06_Pierwszy_spacer_po_Leanie_wersja_druga.md)  
-*Prawie to samo co wcześniej, tylko trochę inaczej (i faktycznie nie całkiem to samo)*
+*Prawie to samo co wcześniej, tylko trochę inaczej (i faktycznie nie całkiem to samo).*
 
 [R6,5 = R00](./rozdzialy/R06_i_pol_rowna_sie_R00.md)  
 *Uuu ...*
 
 [R7 Być może nie wiesz, że już wiesz, czym jest izomorfizm, a niebawem dowiesz się jeszcze, czym
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/R07_Byc_moze_nie_wiesz.md)  
-*Kolejny nostalgiczny (?) powrót do szkoły podstawowej*
+*Kolejny nostalgiczny (?) powrót do szkoły podstawowej.*
 
 [R8 Logika na Leanie, pierwsze kroki](./rozdzialy/R08_Logika_na_Lanie_pierwsze_kroki.md)  
 *Nowy język i nowy sposób myślenia o logice, matematyce w ogóle, która okazuje się być
 programowaniem, programowaniu, które okazuje się być matematyką, i życiu, bo [życie jest
 programowaniem](https://youtu.be/3iYQcNa31Rs?si=JvpDM5pITt-K6t-A), chociaż trudno (mi) powiedzieć,
-czy jest też matematyką*
+czy jest też matematyką.*
 
 [R9 Kilka naiwnych obserwacji na temat języków formalnych](./rozdzialy/R09_Kilka_naiwnych_obserwacji.md)  
-*Autor udziela sam sobie wywiadu na temat własnych zainteresowań*
+*Autor udziela sam sobie wywiadu na temat własnych zainteresowań.*
 
 [R10 Implikacja w praktyce dowodzenia](./rozdzialy/R10_Implikacja_w_praktyce_dowodzenia.md)  
-*Tytuł brzmi jak zapowiedź samych przyjemności, okazuje się jednak, że jest jeszcze lepiej*
+*Tytuł brzmi jak zapowiedź samych przyjemności, okazuje się jednak, że jest jeszcze lepiej.*
 
 [R11 Modus ponens, obliczenia w dwóch wymiarach i nieważność
 dowodu](./rozdzialy/R11_Modus_ponens.md)  
-*To może nie być przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki*
+*To może nie być przypadek, że najważniejszy spójnik logiczny zapisujemy za pomocą strzałki.*
 
 [R12 Duży kwantyfikator, predykaty, mały fragment *całkowicie* zmyślonego artykułu i dowód na
 istnienie Boga Anzelma z Canterbury](./rozdzialy/R12_Duzy_kwantyfikator.md)  
-*Formalizacja jest zajęciem inherentnie twórczym i sprzyjającym rozmaitym psotom*
+*Formalizacja jest zajęciem inherentnie twórczym i sprzyjającym rozmaitym psotom.*
 
 [R13 Duży kwantyfikator, predykaty i implikacja w
 zadaniach](./rozdzialy/R13_Duzy_kwantyfikator_w_zadaniach.md)  
 *Jak tutaj coś jest "w zadaniach", to znaczy, że będzie dużo pocieszania i może nawet za dużo prób
-pomocy*
+pomocy.*
 
 [R14 Negacja w praktyce dowodzenia](./rozdzialy/R14_Negacja_w_praktyce_dowodzenia.md)  
 *Czy da się o tym pisać lepiej? Na pewno. Ale czy da się o tym pisać lepiej do psychologów? Może
-nawet tym bardziej*
+nawet tym bardziej.*
 
 [R15 Negacja, absurd, fałsz, sprzeczność i eksplozja](./rozdzialy/R15_Negacja_absurd.md)[^1]  
-*Kiedy tragicznie zła literatura łączy się z nieznośną ciężkością niebytu*
+*Kiedy tragicznie zła literatura łączy się z nieznośną ciężkością niebytu.*
 
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)  
-*Nie po raz pierwszy Autor korzysta z okazji, żeby nawijać o sobie*
+*Nie po raz pierwszy Autor korzysta z okazji, żeby nawijać o sobie.*
 
 [R17 p ∧ q ~ p × q](./rozdzialy/R17_Koniunkcja_jako_para.md)  
-*Niewykluczone, że trzeba było tak od razu*
+*Niewykluczone, że trzeba było tak od razu.*
 
 [R18 p ∧ q ~ ∀ r : Prop, (p → q → r) → r](./rozdzialy/R18_Koniunkcja_ze_strzalek.md)  
-*Naobiecywał, że wszystko będzie z jakiś strzałek, a potem co? A potem, niestety, dotrzymał słowa*
+*Naobiecywał, że wszystko będzie z jakiś strzałek, a potem co? A potem, niestety, dotrzymał słowa.*
 
 [R19 Ἐὰν ταῖς γλώσσαις τῶν ἀνθρώπων λαλῶ καὶ τῶν ἀγγέλων](./rozdzialy/R19_Ean_tais_glossais.md)  
-*Łojezu*
+*Łojezu.*
 
 [R20 Teoria mnogości w zarysie](./rozdzialy/R20_Teoria_mnogosci_w_zarysie.md)  
-*Akurat ten rozdział jest tak wciągający, jak pewien inny rozdział*
+*Akurat ten rozdział jest tak wciągający, jak pewien inny rozdział.*
 
 [R21 Kilka ważnych rodzajów zbiorów i funkcji](./rozdzialy/R21_Kilka_waznych_rodzajow_zbiorow_i_funkcji.md)  
 *Swoją drogą, czy słowo "ważne" nie powinno zawsze występować w okolicy jakiegoś fragmentu mówiącego
 ze względu na co to coś, co jest rzekomo ważne, jest rzekomo ważne?*
 
 [R22 X × Y ~ X ← ∘ → Y](./rozdzialy/R22_Wprowadzenie_do_jezyka_teorii_kategorii_1.md)  
-*Z pewnych rzeczy żartować nie wypada (zdaniem osób, które są mi pod tym względem obce)*
+*Z pewnych rzeczy żartować nie wypada (zdaniem osób, które są mi pod tym względem obce).*
 
 [R23 X ← '∘ → Y ≅! X ← ∘' → Y](rozdzialy/R23_Produkty_sa_takie_same.md)  
 *Jeżeli dotarłaś aż tutaj, to masz chyba dużo wolnego czasu ...*
@@ -361,31 +361,31 @@ ze względu na co to coś, co jest rzekomo ważne, jest rzekomo ważne?*
 *... i niezbyt ekscytujące życie towarzyskie, ...*
 
 [R25 p ∨ q ~ p + q](./rozdzialy/R25_Alternatywa_jako_koprodukt.md)  
-*... ale nie oceniam*
+*... ale nie oceniam.*
 
 [R26 ∃](./rozdzialy/R26_Kwantyfikator_egzystencjalny.md)  
 *Nie, to nie jest znak, że musisz iść do
-[okulisty](https://pl.wikipedia.org/wiki/Ubikacja_publiczna_w_Kawakawa)*
+[okulisty](https://pl.wikipedia.org/wiki/Ubikacja_publiczna_w_Kawakawa).*
 
 [R27 Rachunek zdań w zadaniach](./rozdzialy/R27_Rachunek_zdan_w_zadaniach.md)  
-*Kolejny festiwal namolnego pocieszania i żałosnego miękiszoństwa*
+*Kolejny festiwal namolnego pocieszania i żałosnego miękiszoństwa.*
 
 [R28 Rachunek predykatów w zadaniach](./rozdzialy/R28_Rachunek_predykatow_w_zadaniach.md)  
 *I jeszcze jeden. W dodatku to namolne pocieszanie łączy się, jak w jakimś horrorze o jakimś
-psychopacie, z nachalnym utrudnianiem*
+psychopacie, z nachalnym utrudnianiem.*
 
 [R29 AA](./rozdzialy/R29_AA.md)  
 *8/10*
 
 [R30 Μονοειδές](./rozdzialy/R30_Monoeides.md)  
-*Bo pretensjonalnie wyglądających tytułów nigdy zbyt wiele*
+*Bo pretensjonalnie wyglądających tytułów nigdy zbyt wiele.*
 
 [R31 Klasy typów służą do pisania i myślenia po ludzku](./rozdzialy/R31_Klasy_typow_sluza_do.md)  
 *A jeżeli to nie jest pozwalanie sobie na zbyt wiele, to jutro może padać
-[deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo)*
+[deszcz](https://youtu.be/DksSPZTZES0?si=aJn_pxqNlqV9BsLo).*
 
 [R32 \["zaraz", " ", "będzie", " ", "o", " ", "tych", " ", "klasach", " ", "typów", ", ", "tylko", " ", "jeszcze", " ", "powiem", " ", "coś", " ", "o", " ", "listach"\]](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md)  
-*Idąc jakąś drogą piszemy jakieś listy*
+*Idąc jakąś drogą piszemy jakieś listy.*
 
 [R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)  
 *A co to ma znaczyć?*
