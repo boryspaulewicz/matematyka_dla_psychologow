@@ -259,7 +259,7 @@ A czas? Czas płynie przecież w jedną stronę.
 
 W którą?
 
-Każda chwila mija i oddala się coraz dalej w przeszłość.
+Każda chwila mija i oddala się coraz bardziej w przeszłość.
 
 I to jest *jedyny* kierunek, w którym płynie Twoim zdaniem czas?
 
