@@ -661,13 +661,14 @@ czyli relacje takie jak relacja `≤`, określona na jakimś zbiorze liczb: Jeż
 porządkami i odtąd ja również będę tak czasem mówił. Po angielsku (spolszczając) często nazywamy je
 *posetami*.
 
-Ani preorder ani poset nie musi być porządkiem *liniowym*, takim jak naturalny porządek na zbiorze
+Ani preorder, ani poset nie musi być porządkiem *liniowym*, takim jak naturalny porządek na zbiorze
 liczb naturalnych, o których zresztą często myślimy, że układają się w linię, która ma początek, ale
-nie ma końca. Porządek liniowy to poset, w którym *porównywalna* jest *każda* para elementów (`∀ x
-y : X, x R y ∨ y R x`). W ogólnym przypadku zarówno preordery jak i posety mogą się składać z
+nie ma końca. Porządek liniowy to taki poset, w którym *porównywalna* jest *każda* para elementów
+(`∀ x y : X, x R y ∨ y R x`). W ogólnym przypadku zarówno preordery jak i posety mogą się składać z
 *oddzielnych* [drzew](https://pl.wikipedia.org/wiki/Drzewo_(informatyka)) (rozumianych jako pewien
 typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preordery mogą mieć węzły
-połączone dwukierunkowo w poziomie, a posety nie.
+połączone dwukierunkowo w poziomie, a posety nie. Gdy tak jest, to znaczy, gdy porządek odpowiada
+oddzielnym, nieporównywalnym drzewom, to nie może być liniowy.
 
 Może jeszcze jeden przykład przed *główną* sugestią. Opiszę go celowo w dużym skrócie, żebyś miała
 okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii *ubierania się* obiektami są
