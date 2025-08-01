@@ -38,13 +38,13 @@ Chodzi o coś najzwyczajniejszego w świecie zwierząt.
 Zawsze, gdy możemy mówić o poprawności, mamy do czynienia ze zbiorem dwuelementowym i relacją
 porządku polegającą na tym, że jeden z elementów tego zbioru jest "mniejszy" niż drugi.
 
+<hr>
+
 Gdy zbiór jest *pusty* (a więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego
 \{*od momentu, w którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the
 empty set*, zamiast *an empty set*, a po polsku *ten* zbiór pusty), można na nim zdefiniować tylko
 *jeden* porządek, ponieważ na zbiorze pustym można zdefiniować tylko jedną relację w ogóle (a więc
 też tylko jeden predykat):
-
-<hr>
 
 ```lean
 def Pred   α   := α → Prop
