@@ -178,8 +178,7 @@ celowe*, albo - po dokonaniu uogólnienia już równoważnie - *celowy ruch*; ni
 ruchom, a dokładniej pewnym *sekwencjom ruchów*, co sprawia, że te ruchy są dla nas automatycznie
 interesujące, a często wręcz przykuwają naszą uwagę i automatycznie widzimy w nich coś w rodzaju
 autonomii (pamiętasz tamtą mysz?). Ale celowość występuje w sposób oczywisty również w nie uczących
-się narzędziach, urządzeniach, mechanizmach i wszelkich innych artefaktach, takich jak dzieła
-sztuki.
+się narzędziach, urządzeniach, mechanizmach i innych artefaktach, takich jak dzieła sztuki.
 
 W sali, w której spędziłem kilka pierwszych lat szkoły podstawowej, na ścianie wisiał napis
 "Matematyka jest królową nauk". Wtedy nie wiedziałem, co o tym myśleć, ale byłem mały i jeszcze
