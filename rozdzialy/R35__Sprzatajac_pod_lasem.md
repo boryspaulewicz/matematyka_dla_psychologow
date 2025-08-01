@@ -307,4 +307,5 @@ No przecież mówię, że nikt. Kiedy nikt nie przychodzi, to właśnie przychod
 
 [^1]: Chodzi tu o angielskie słowo *singular*, bo Lawvere nie pisał po polsku. Zarówno to słowo jak
     i jego polski odpowiednik *osobliwe* oznaczają albo po prostu coś pojedynczego lub wyróżnionego,
-    albo coś wyróżniającego się przez swoją wyjątkowość, szczególnie zaś przez swoją *dziwność*.
+    albo coś wyróżniającego się przez swoją wyjątkowość, szczególnie zaś przez swoją *dziwność*. Na
+    przykład, ten rozdział jest bez wątpienia osobliwy, nawet jak na tą książkę.
