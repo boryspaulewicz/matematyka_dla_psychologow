@@ -302,7 +302,8 @@ Nikt.
 
 Nikt?
 
-No przecież mówię, że nikt. Kiedy nikt nie przychodzi, to właśnie przychodzi Nikt.\})
+No przecież w takich sytuacjach mówi *się*, że nikt. Kiedy nikt nie przychodzi, to właśnie
+przychodzi Nikt.\})
 
 <br>
 
