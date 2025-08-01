@@ -72,7 +72,7 @@ pusto. To zatem *porządek pusty*, który ma znaczenie *czysto teoretyczne*.
 
 Osobliwość typu `Empty` widać wyraźnie w strukturze ciał dwóch ostatnich definicji. Ponieważ
 funkcja, która wymaga termu typu `Empty`, nie może być nigdy wywołana z definicji, aby spełnić
-warunek poprawności definicji takiej funkcji wystarczy skorzystać z reguły eliminacji dla tego
+warunek poprawności definicji takiej funkcji, wystarczy skorzystać z reguły eliminacji dla tego
 typu. W szczególności, nie musimy nawet konstruować drugiej, wewnętrznej funkcji tworząc term typu
 `Binrel Empty Empty`, czyli typu `Empty → Empty → Prop`, bo ta reguła eliminacji pozwala od razu
 "spełnić oczekiwanie" stworzenia termu dowolnego typu, w tym również typu `Empty → Prop`, za pomocą
