@@ -494,7 +494,7 @@ I teraz mogę już odetchnąć i wrócić do
 ## Porządki to przede wszystkim *hierarchie*
 
 Gdy prosimy osobę partnerską, żeby zrobiła nam herbatę, rozpoczynamy proces, który zakończy się albo
-sukcesem, albo porażką. No ale to nie jest oczywiście takie proste, bo osoba partnerska może nas nie
+sukcesem, albo porażką. No ale to oczywiście nie jest takie proste, bo osoba partnerska może nas nie
 usłyszeć, albo usłyszeć błędnie i zamiast herbaty przynieść nam (jakieś czyjeś) papiery
 rozwodowe. Albo możemy dostać herbatę, ale nie taką, jaką chcieliśmy. Albo w "złym kubku". Albo może
 być tak, że pod względem herbaty i jej otrzymania można powiedzieć, że pełen sukces, ale zaraz po
