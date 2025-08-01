@@ -619,9 +619,9 @@ grafie* reprezentują fakty bycia pokojem bezpośrednio nad innym pokojem w tym 
 wiemy, że mogłabyś policzyć, ile jest tych strzałek, albo narysować tą kategorię w postaci
 generującego ją grafu i oboje wiemy, że nikomu by się nie chciało, więc nie będę nic sugerował.
 
-Istnieje naturalne mapowanie kategorii pokojów (pokoi? no nie, to chyba po rosyjsku) na ogólniejszą
-kategorię budynków, w której obiektami są tylko piętra budynków. Ta kategoria jest generowana przez
-graf:
+Istnieje naturalne mapowanie szczegółowej kategorii pokojów (pokoi? no nie, to chyba po rosyjsku) na
+kategorię pięter budynków, w której obiektami są ... piętra konkretnych budynków. *Ta* kategoria
+jest generowana przez graf:
 
 ```
 Andromeda(3) → Andromeda(2) → Andromeda(1)
