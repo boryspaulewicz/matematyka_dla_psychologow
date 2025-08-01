@@ -317,8 +317,8 @@ No ale te strzałki są arbitralne, a skutki upływu czasu nie są, bo to są pe
 I to rozróżnienie jest bardzo ważne, ale czy widzisz, że wewnątrz tego zdania zmieniłaś temat?
 Swoją drogą, zauważyłaś, że symbole `<` i `>` można postrzegać jako groty strzałek ...
 
-(a ten znowu o tych strzałkach, Dżizas ...) *Fajnie* się gadało, ale właśnie sobie przypomniałam, że
-byłam z kimś umówiona i już widzę, że się spóźnię i muszę lecieć.
+(a ten znowu o tych strzałkach, *Dżizas* ...) *Fajnie* się gadało, ale właśnie sobie przypomniałam,
+że byłam z kimś umówiona i już widzę, że się spóźnię i muszę lecieć.
 
 Ale wpadniesz znowu? Ludwik też lubi słowo "Dżizas", wiesz? 
 
