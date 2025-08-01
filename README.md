@@ -402,7 +402,7 @@ psychopacie, z nachalnym utrudnianiem*
 
 Informacje zwrotne zawsze mile widziane:
 
-[R35](./rozdzialy/R36.md)
+[R36](./rozdzialy/R36.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
