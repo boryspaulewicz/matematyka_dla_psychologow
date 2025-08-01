@@ -19,7 +19,7 @@ zniechêciæ.
 Je¿eli masz czas i ochotê czytaæ przez godzinê, to *po pierwszych 30 minutach* trzeba zrobiæ *co
 najmniej 5 minut przerwy*, na takim jakby ja³owym biegu pod wzglêdem wysi³ku umys³owego. Trzeba
 wtedy *uwa¿aæ z mediami spo³eczno¶ciowymi* i *przebywaj±cymi w pobli¿u, zbyt interesuj±cymi
-lud¼mi*. Jacy¶ nudziarze albo jakie¶ nudziary pewnie mog± nawet pomóc wróciæ do tematu.
+lud¼mi*. Jacy¶ nudziarze lub nudziary pewnie mog± nawet pomóc wróciæ do tematu.
 
 Gdyby zdarzy³o siê tak, ¿e masz czas i ochotê, ¿eby czytaæ *d³u¿ej ni¿ godzinê*, to je¶li czyta³a¶
 oko³o 30 minut, potem by³o mniej ni¿ powiedzmy 15 minut przerwy, potem znowu oko³o 30 minut
