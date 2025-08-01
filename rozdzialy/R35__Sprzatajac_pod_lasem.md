@@ -21,7 +21,7 @@ zmyśleń, a dokładniej *ocennych perspektyw*, jest *prawdą*.
 
 *"Ja" jest punktem widzenia.*
 
-Za wcześnie za daleko? A, to przepraszam.
+Za wcześnie za daleko? Po tym, przez co od początku tego rozdziału przeszliśmy, już chyba nie.
 
 Albo weźmy skądś jakieś [jabłka i pomarańcze](https://en.wikipedia.org/wiki/Apples_and_oranges), ale
 nie jedzmy ich od razu, tylko najpierw się im poprzyglądajmy. Co to za bzdury z tym "nie da się
