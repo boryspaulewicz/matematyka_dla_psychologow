@@ -89,7 +89,7 @@ Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Tw
 może pozornie wynikającą tylko z implementacji - osobliwą obserwację, bo niebawem będziemy z niej
 wyprowadzać nieuchronne i bardzo daleko idące wnioski:
 
-**Funkcje z pustych struktur początkowych są bezcielesnymi albo czystymi sposobami.**
+## Funkcje z pustych struktur początkowych są bezcielesnymi albo czystymi sposobami
 
 A teraz nadal o tym samym, ale wychodząc z innego punktu: Teoria mnogości może się wydawać nawet
 współczesnym matematykom nudna i mnie też do niedawna taka właśnie się często zdawała. Na przykład,
