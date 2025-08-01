@@ -705,7 +705,7 @@ uniwersalne sposoby myślenia.
 
 <hr>
 
-**Może i główna, ale wciąż tylko sugestia**: Zastanów się może, w jaki sposób mogłabyś *zacząć*
+**Może i główna, ale wciąż tylko sugestia**: Zastanów się proszę, w jaki sposób mogłabyś *zacząć*
 próbować konstruować dowód tego twierdzenia. Podkreślam, że nie sugeruję, żebyś je udowodniła,
 chociaż jestem przekonany, że zrobiłabyś to bez większego trudu, zakładając, że udałoby Ci się
 zachować odpowiednie *nastawienie*. Chodzi mi raczej o próbę *metarefleksji* na temat własnych
