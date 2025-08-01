@@ -143,9 +143,9 @@ gra*. Poza wymienionymi aksjomatami będziemy jeszcze potrzebować definicji sym
 
 Zapisz teraz nową wersję definicji tej pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
 wersji źródłowej jest *x*, a *x* wszędzie tam, gdzie w wersji źródłowej jest *y*. Czyli potraktuj tą
-definicję jak przepis, czyli tak jak wcześniej potraktowaliśmy fragment matematycznej prozy
-dotyczącej przemienności dodawania. Uzyskasz w ten sposób dwie wersje zdania będącego treścią
-definicji - oryginalną i tą, która powstała przez podstawianie.
+definicję jak przepis, tak jak pewnego rodzaju przepisem był dla nas wcześniej fragment
+matematycznej prozy dotyczącej przemienności dodawania. Uzyskasz w ten sposób dwie wersje zdania
+będącego treścią definicji - oryginalną i tą, która powstała przez podstawianie.
 
 Skorzystaj z aksjomatu *3* w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu
 wersji definicji są równe i zapisz tą równość.
