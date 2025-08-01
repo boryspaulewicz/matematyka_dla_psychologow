@@ -655,11 +655,11 @@ wygodniejszy, ale możliwe, że *rysunkowy*, dlatego zachęcam do prób oswojeni
 (bo to jest niemal w całości tylko gęsta \{i zarazem niezwykle użyteczna\} terminologia, dotycząca
 bardzo prostych zjawisk, którą wystarczy w miarę dobrze zapamiętać) za pomocą rysunkowej notatki.
 
-Relacje częściowego porządku to praporządki antysymetryczne (`∀ x y : X, x R y → y R x → x = y`),
+Relacje *częściowego* porządku to praporządki antysymetryczne (`∀ x y : X, x R y → y R x → x = y`),
 czyli relacje takie jak relacja `≤`, określona na jakimś zbiorze liczb: Jeżeli `x ≤ y` i `y ≤ x`, to
 `x = y`. Takie relacje są tak ważne, wygodne w użyciu i częste, że nazywamy je też po prostu
-porządkami i odtąd ja również będę tak czasem mówił. Po angielsku (spolszczając) często nazywamy
-takie porządki *posetami*.
+porządkami i odtąd ja również będę tak czasem mówił. Po angielsku (spolszczając) często nazywamy je
+*posetami*.
 
 Ani preorder ani poset nie musi być porządkiem *liniowym*, takim jak naturalny porządek na zbiorze
 liczb naturalnych, o których zresztą często myślimy, że układają się w linię, która ma początek, ale
