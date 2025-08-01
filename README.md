@@ -334,7 +334,7 @@ nawet tym bardziej.*
 
 [R16 Logika, aksjomaty, fakty empiryczne, wybory, postawy i
 wolność](./rozdzialy/R16_Logika_aksjomaty_fakty_wybory.md)  
-*Nie po raz pierwszy Autor korzysta z okazji, żeby nawijać o sobie.*
+*Nie po raz pierwszy autor korzysta z okazji, żeby nawijać o sobie.*
 
 [R17 p ∧ q ~ p × q](./rozdzialy/R17_Koniunkcja_jako_para.md)  
 *Niewykluczone, że trzeba było tak od razu.*
