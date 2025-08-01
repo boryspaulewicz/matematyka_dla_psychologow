@@ -299,8 +299,8 @@ przeszłości nie możemy tego czuć. Skąd wiesz, jak postrzegałabyś kierunek
 sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej *oddalałyby się* w przeszłość? Twoje
 życie trwałoby wtedy krótko, bo działająca w ten sposób pamięć byłaby niemal bezużyteczna, ale może
 czułabyś też, że wraz z gwałtownym umieraniem stajesz się *coraz mniej sobą* i *spadasz w nicość
-śmierci*, jakbyś patrzyła w oddalające się gwałtownie okno studni życia, które coraz bardziej staje
-się tylko punktem ... światła w tunelu. Zresztą czas można *sensownie* uporządkować na nieskończenie
+śmierci*, jakbyś patrzyła w oddalające się szybko okno studni życia, które coraz bardziej staje się
+tylko punktem ... światła w tunelu. Zresztą czas można *sensownie* uporządkować na nieskończenie
 wiele, również nieizomorficznych sposobów. Na przykład, można uporządkować nieskończony zbiór
 punktów czasowych ze względu na stopień zagęszczenia materii we Wszechświecie, albo można obrać
 jakiś punkt zerowy na skali czasu i wtedy czas co prawda nie będzie *płynął* w dwie strony, ale
