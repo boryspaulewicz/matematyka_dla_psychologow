@@ -270,14 +270,15 @@ Wróćmy do strzałki.
 ## ∘ ⟶ ⊙
 
 Pojedyncza strzałka jako kategoria, czyli `I → T`, gdzie `I` to z konieczności obiekt początkowy
-(*initial*), a `T` to z konieczności obiekt końcowy (*terminal*), jest więc, między innymi, a może
-nawet przede wszystkim, Oceną. *Źródło* tej strzałki można rozumieć jako czystą abstrakcję: zbioru
-pustego, typów `False` i `Empty`, i w ogóle wszelkich struktur będących Bezcielesnymi Sposobami. Jej
-*cel* można postrzegać jako Atom albo Element Bez Właściwości, a więc materię jako taką (niezależnie
-od [typu "substancji"](https://plato.stanford.edu/entries/substance/)). A skoro to są obiekty
-początkowy i końcowy dokładnie dlatego, że pierwszy emituje dokładnie jedną strzałkę do wszystkich
-obiektów, a drugi przyjmuje dokładnie jedną strzałkę od wszystkich obiektów, to tym, co *czyni* je w
-tej Elementarnej - choć, jak zobaczymy później, nie będącej końcową - kategorii początkiem i końcem,
+(ang. *initial*), a `T` to z konieczności obiekt końcowy (ang. *terminal*), jest więc, między
+innymi, a może nawet przede wszystkim, Oceną. *Źródło* tej strzałki można rozumieć jako czystą
+abstrakcję: zbioru pustego, typów `False` i `Empty`, i w ogóle wszelkich struktur będących
+Bezcielesnymi Sposobami. Jej *cel* można postrzegać jako Atom albo Element czy też Obiekt Bez
+Właściwości, a więc materię jako taką, niezależnie od [typu
+"substancji"](https://plato.stanford.edu/entries/substance/). A skoro to są obiekty początkowy i
+końcowy dokładnie dlatego, że pierwszy emituje dokładnie jedną strzałkę do wszystkich obiektów, a
+drugi przyjmuje dokładnie jedną strzałkę od wszystkich obiektów, to tym, co *czyni* je w tej
+Elementarnej - choć, jak zobaczymy później, nie będącej końcową - kategorii początkiem i końcem,
 jest Celowość Strzałki o typie:
 
 ```lean
