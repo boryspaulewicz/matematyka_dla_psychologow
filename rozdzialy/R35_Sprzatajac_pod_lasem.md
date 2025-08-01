@@ -614,10 +614,10 @@ przynajmniej potencjalnie, pustego w środku) `Boss`:
 Boss_wydzialowy → Ktos_kto_jest_mily_tylko_wobec_boss_wydzialowy → Nikt_wazny
 ```
 
-Mamy też szczegółową kategorię budynków, której obiektami są pokoje, a strzałki na *generującym ją
-grafie* reprezentują fakty bycia bezpośrednio nad jakimś pokojem w tym samym budynku. Oboje wiemy,
-że mogłabyś policzyć, ile jest tych strzałek, albo narysować tą kategorię w postaci generującego ją
-grafu i oboje wiemy, że nikomu by się nie chciało, więc nie będę nic sugerował.
+Mamy też *szczegółową* kategorię budynków, której obiektami są pokoje, a strzałki na *generującym ją
+grafie* reprezentują fakty bycia pokojem bezpośrednio nad innym pokojem w tym samym budynku. Oboje
+wiemy, że mogłabyś policzyć, ile jest tych strzałek, albo narysować tą kategorię w postaci
+generującego ją grafu i oboje wiemy, że nikomu by się nie chciało, więc nie będę nic sugerował.
 
 Istnieje naturalne mapowanie kategorii pokojów (pokoi? no nie, to chyba po rosyjsku) na ogólniejszą
 kategorię budynków, w której obiektami są tylko piętra budynków. Ta kategoria jest generowana przez
