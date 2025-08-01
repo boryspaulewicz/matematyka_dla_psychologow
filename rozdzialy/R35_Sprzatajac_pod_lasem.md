@@ -721,8 +721,8 @@ to tylko *czyiś nacisk*).
 Zwracam uwagę, że definicja elementu najmniejszego ze względu na jakąś relację (binarną na jednym
 zbiorze) *nie* zakłada, że dana relacja jest w jakimkolwiek znaczeniu relacją porządku. Ta relacja
 może być *dowolna* (o ile tylko jest binarna i na tym samym zbiorze). To moim zdaniem dobry przykład
-wyabstrachowania własności, którą *warto* nazywać w taki początkowo mylący sposób, bo pozwala
-korzystać z trudnych do wykrycia analogii.
+wyabstrachowania własności, którą *warto* nazywać w taki może początkowo trudny do zaakceptowania
+sposób, bo ten sposób nazywania ułatwia korzystanie z łatwych do przeoczenia analogii.
 
 ```lean
 def rel α := Binrel α α
