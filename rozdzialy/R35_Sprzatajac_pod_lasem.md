@@ -112,7 +112,7 @@ Gdy nie ma nic, nic nie może się wydarzyć i ani nie ma o czym mówić, ani ni
 czymś mówić. Gdy jest tylko jedno coś i nic więcej nie ma, wtedy wszystko, co jest, jest tym jednym
 czymś i nie ma żadnej nietrywialnej struktury; a więc również nie ma o czym mówić, ani nie ma
 Nikogo, kto mógłby o czymś mówić. I wtedy *też* jest tak, jakby nic nie było. Obiekt początkowy i
-obiekt końcowy to *jedno* i to samo pojęcie postrzegane z *dwóch* dualnych perspektyw. Nie każda
+obiekt końcowy to *jedno* i to samo pojęcie postrzegane z dwóch *dualnych* perspektyw. Nie każda
 kategoria ma jednak i początek i koniec. Tam, gdzie istnieją jakieś *dwa* obiekty, pojawia się
 *różnica*. A gdy *jedynymi dwoma* obiektami są obiekty początkowy i końcowy, istnieje dokładnie
 *jedna* strzałka. W matematyce, tak jak w psychologii, wszystko sprowadza się ostatecznie do tej
