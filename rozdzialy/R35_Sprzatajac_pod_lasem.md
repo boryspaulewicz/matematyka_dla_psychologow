@@ -135,7 +135,7 @@ technicznym wnioskowania przyczynowego), nie było *interwencji*, której *skutk
 celu. Analogicznie, cel może być *w pewnym sensie* osiągnięty i zadanie może być *w pewnym sensie*
 wykonane nie dlatego, że została podjęta jakaś próba osiągnięcia tego celu i wykonania tego zadania,
 tylko dlatego, że *nie ma nic do zrobienia*, bo cel jest w danej sytuacji *zrealizowany* i zadanie
-jest *nieaktualne*. Albo, mówiąc inaczej, ale *celowo* tak - cel i zadanie są wtedy *spełnione
+jest *nieaktualne*. Albo, mówiąc inaczej, ale *celowo* tak - cel i zadanie mogą być *spełnione
 pusto*.
 
 Zastanawiasz się może, po czym w takim razie poznajemy, że coś jest próbą albo interwencją? To moim
