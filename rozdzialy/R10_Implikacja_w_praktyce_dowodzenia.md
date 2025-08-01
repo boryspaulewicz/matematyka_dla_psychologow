@@ -1,3 +1,13 @@
+<br>
+
+**Minutnik**, tak? 
+
+**M I N U T N I K** 
+
+*Minutnik*!
+
+<hr>
+
 ## O czym teraz będzie
 
 Nie bardzo wiem, co tu napisać. Zadania jak zadania. Z dowodzenia implikacji w trybie interaktywnym

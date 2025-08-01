@@ -1,3 +1,10 @@
+<br>
+
+**Moim zdaniem, najważniejsza wskazówka na temat tego, jak czytać tą książkę, jest
+[tutaj](./Wujek_dobra_rada.md).**
+
+<hr>
+
 ## O czym teraz będzie
 
 Przypominam, że to jest alternatywna wersja *tego samego rozdziału*. Zdecydowałem się napisać dwie
