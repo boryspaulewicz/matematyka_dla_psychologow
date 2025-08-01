@@ -292,10 +292,10 @@ Mają kierunek, ale nie jako własność własną, bo mają go tylko w pewnym se
 kontekstu, bo kierunek jest zawsze *nieunikalny*, a jest taki z konieczności, bo, tak jak ta wyżej
 strzałka, kierunek jest *punktem widzenia*. O czym pomówimy jeszcze kiedy indziej. Nawiasem mówiąc,
 nawet taki Einstein już dawno to załapał, tyle, że *mniej ogólnie*. Można o tym myśleć też i tak:
-Nad każdym naszym ruchem jakby unosi się (jako mnogość punktów widzenia) nieskończenie złożona
-przestrzeń najróżniejszych celów (które zawsze można traktować jako pewne relacje porządku) i w
-każdym momencie każdego ruchu i dla każdego celu istnieje miara stopnia, w jakim aktualne położenie
-i struktura wewnętrzna naszego ciała realizuje albo spełnia ten cel.
+Nad każdym naszym ruchem jakby unosi się (jako mnogość możliwych punktów widzenia) nieskończenie
+złożona przestrzeń najróżniejszych celów (które zawsze można traktować jako pewne relacje porządku)
+i w każdym momencie każdego ruchu i dla każdego celu istnieje miara stopnia, w jakim aktualne
+położenie i struktura wewnętrzna naszego ciała realizuje albo spełnia ten cel.
 
 No nie wiem, może, ale z tym odwracaniem relacji mniejsze niż, to jest tylko taki sposób mówienia, a
 co się stało, to się nie odstanie, a co ma się stać, to się dopiero stanie.
