@@ -85,32 +85,34 @@ rozumowania*. Przypominają pod tym względem te bardziej abstrakcyjne rodzaje i
 zera i inne, w takim czy innym znaczeniu puste konstrukcje. Inaczej mówiąc, te typy *są sposobem ich
 użycia*; dlatego są takie "puste w środku".
 
-Jeszcze raz, tylko inaczej: Teoria mnogości może się wydawać nawet współczesnym matematykom nudna i
-mnie do niedawna taka właśnie się wydawała. Na przykład, kategoryści piszą o niej, że to tylko jeden
-z wielu możliwych języków podstawowych matematyki i tylko jedna z nieskończenie wielu możliwych
-kategorii. Ale teoria mnogości nie jest tylko jakąś tam kategorią, ponieważ jej centralne pojęcie,
-to jest pojęcie funkcji, rozumianej jako samo przyporządkowanie arbitralnych wartości elementom
-jakiegoś zbioru, odpowiada najbardziej *elementarnej* funkcji *języka* - funkcji
-*oznaczania*. Teoria mnogości jest po prostu teorią oznaczania.
+A teraz nadal o tym samym, ale wychodząc z innego punktu: Teoria mnogości może się wydawać nawet
+współczesnym matematykom nudna i mnie też do niedawna taka właśnie się często zdawała. Na przykład,
+kategoryści piszą o niej czasem, że to tylko jeden z wielu możliwych języków podstawowych matematyki
+i tylko jedna z nieskończenie wielu możliwych kategorii. Ale teoria mnogości nie jest tylko jakąś
+tam kategorią, ponieważ jej centralne pojęcie, to jest pojęcie funkcji, rozumianej jako samo
+przyporządkowanie arbitralnych wartości abstrakcyjnym elementom, odpowiada *najbardziej elementarnej
+funkcji języka* - funkcji *oznaczania*, inaczej *nazywania*. Teoria mnogości jest więc po prostu
+elementarną teorią samego oznaczania.
 
-Zadziwiające jest to, że chociaż teoria kategorii uczy nas, że to strzałki kategorii są ważniejsze,
-niż jej obiekty, to jednak w każdym znanym mi podręczniku do teorii kategorii autorzy nadal piszą o
-kategoriach tak, jakby akcentowanie strzałek było co najwyżej pod wieloma względami bardziej
-użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym, którym Ci autorzy się
-posługują tłumacząc, o co w tym chodzi. Z powodów historycznych i chyba też z głębszych powodów
-psychologicznych matematycy są wciąż moim zdaniem zbyt przywiązani do zwykłych *rzeczowników*.
+Z tej perspektywy zadziwiające jest to, że chociaż teoria kategorii pozwala wyraźnie zobaczyć, że
+strzałki są ważniejsze niż obiekty, to jednak w każdym znanym mi podręczniku do teorii kategorii
+autorzy nadal piszą o kategoriach tak, jakby akcentowanie strzałek było co najwyżej z pewnych
+względów bardziej użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym, którym Ci
+autorzy się posługują tłumacząc, o co w tym chodzi. Z powodów historycznych i chyba też z głębszych
+powodów psychologicznych matematycy są wciąż moim zdaniem zbyt przywiązani do zwykłych
+*rzeczowników*, a do mówienia o jakichkolwiek strukturach jako o kategoriach w sposób oczywisty
+zwykle znacznie bardziej nadają się *rzeczowniki odczasownikowe*, takie jak "oznaczanie".
 
-Struktury, które opisujemy za pomocą rzeczowników, takie jak zbiory i należące do nich elementy, są
-*niczym* bez *sposobu, w jaki ich używamy*, bo te struktury są tylko - i aż - częściami pewnego
-*języka*, a język jest naszym najważniejszym, najbardziej uniwersalnym *narzędziem*. To dzięki
-językowi panujemy nad światem i nad sobą w takim stopniu, w jakim panujemy i to dzięki językowi
-możemy się *wzajemnie rozumieć* i możemy do pewnego stopnia rozumieć *sami siebie*. Gdy tylko
-wyprowadzimy ostateczne wnioski z obserwacji, że to strzałki są w kategoriach najważniejsze, staje
-się natychmiast jasne, że teoriomnogościowe elementy są tylko oznaczeniami, które dopiero dzięki
-funkcjom mogą cokolwiek oznaczać.
+Struktury, które opisujemy za pomocą zwykłych rzeczowników, takie jak zbiory i należące do nich
+elementy, są *niczym* bez *sposobu, w jaki ich używamy*, bo te struktury są tylko - i aż - częściami
+pewnego *języka*, a język jest naszym *narzędziem*. To dzięki językowi panujemy nad światem i nad
+sobą w takim stopniu, w jakim panujemy i to dzięki językowi możemy się *wzajemnie rozumieć* i możemy
+do pewnego stopnia rozumieć *sami siebie*. Gdy tylko wyprowadzimy ostateczne wnioski z obserwacji,
+że to strzałki są w kategoriach najważniejsze, staje się natychmiast jasne, że teoriomnogościowe
+elementy są tylko oznaczeniami, które dopiero dzięki funkcjom mogą cokolwiek oznaczać.
 
 Dlatego moim zdaniem tradycyjne teoriomnogościowe implementacje pojęć kategoryjnych mają status
-implementacji w głębokim sensie *kanonicznych*. I tak będę je odtąd czasem traktował, to jest jako
+implementacji w głębokim sensie *kanonicznych*. I tak będę je odtąd czasami traktował, to jest jako
 ważne *źródła sensu* jednych z najbardziej abstrakcyjnych i zarazem najbardziej uniwersalnie
 użytecznych pojęć jakimi dysponujemy, to jest kategoryjnych
 [*granic*](https://en.wikipedia.org/wiki/Limit_(category_theory)), o których opowiem Ci więcej w
@@ -124,7 +126,7 @@ perspektywy kategoryjnej, bo porządek na singletonie rozumiany jako cienka kate
 do pojedynczej identyczności. A więc porządek na singletonie jest tym samym, co *obiekt bez
 właściwości*.
 
-Gdy jednak elementy są *dwa*, możliwych porządków jest więcej. *Dwa* z tych porządków, będące swoimi
+Gdy jednak elementy są *dwa*, możliwych porządków jest więcej. *Dwa* z tych porządków, będące
 izomorfami, można interpretować zarówno jako porządek *wartości logicznych* - `{zdanie fałszywe <
 zdanie prawdziwe}` - jak i jako porządek *poprawności* - `{działanie błędne < działanie
 poprawne}`. W dodatku ten głęboki związek między *celowością* i *logiką* nie jest wcale przypadkowy.
