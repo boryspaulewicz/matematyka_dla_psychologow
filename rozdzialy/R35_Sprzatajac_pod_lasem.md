@@ -235,7 +235,7 @@ Wróćmy już może do strzałki.
 ## ∘ ⟶ ⊙
 
 Pojedyncza strzałka jako kategoria, czyli `I → T`, gdzie `I` to z konieczności obiekt początkowy
-(*initial*), a `T` to z konieczności obiekt końcowy (*terminal*) jest więc, między innymi, a może
+(*initial*), a `T` to z konieczności obiekt końcowy (*terminal*), jest więc, między innymi, a może
 nawet przede wszystkim, Oceną. Źródło tej strzałki można rozumieć jako czystą abstrakcję: zbioru
 pustego, typów `False` i `Empty`, i w ogóle wszelkich struktur będących Bezcielesnymi Sposobami. Jej
 cel można postrzegać jako Atom albo Element Bez Właściwości, a więc materię jako taką. A skoro to są
