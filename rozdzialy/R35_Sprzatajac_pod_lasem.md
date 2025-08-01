@@ -228,7 +228,7 @@ Każda dyscyplina naukowa *jako taka* jest *wytworem* i zarazem *narzędziem lud
 jest rezultatem pewnego rodzaju zachowań i każdy przypadek zastosowania nauk jako taki jest pewnym
 zachowaniem. Wiem, że wspominałem na początku, żeby nie przesadzać z ambicjami, a to wszystko może
 brzmieć tak, jakbym sam z nimi przesadzał w stopniu maksymalnym (o, porządek!). Ale to nie są moje
-*ambicje*.
+[*ambicje*](https://youtu.be/ARcEpefk3Oo?si=MwHF-eLet2lj9SNZ).
 
 To są *uzasadnione wnioski*.
 
