@@ -286,8 +286,8 @@ konstruując dowód?
 
 <br>
 
-(Zauważyłaś, że psychologia stała się właśnie nauką?  
-A dokładniej, nauką nauk? Nieźle, co?
+(Zauważyłaś, że psychologia stała się właśnie nauką? A raczej objawiła się jako taka, po bliższym zbadaniu?  
+W dodatku okazała się być *nauką nauk*! Nieźle, co?
 
 ...
 
