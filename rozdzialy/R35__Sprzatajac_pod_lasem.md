@@ -238,7 +238,7 @@ analogii.
 def rel α := Binrel α α
 
 -- To są wybrane, interesujące nas w tym momencie własności relacji. Postanowiłem nie wprowadzać
--- notacji wzrostkowej (`x R y`), żeby dobitniej podkreślić, że relacja binarna to tylko
+-- notacji wzrostkowej (`x R y`), żeby dobitniej podkreślić tym razem, że relacja binarna to tylko
 -- szczególnego rodzaju funkcja dwuargumentowa.
 
 -- A to bardzo ułatwia pisanie (i czytanie) poniższych definicji:
