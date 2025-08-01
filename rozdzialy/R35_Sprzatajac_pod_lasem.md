@@ -269,14 +269,14 @@ I to jest *jedyny* kierunek, w którym płynie Twoim zdaniem czas?
 
 No tak.
 
-Zacznijmy może od tego, że mówiąc o oddalaniu się korzystamy tu jednocześnie co najmniej z *dwóch*
+Zacznijmy może od tego, że mówiąc o oddalaniu się korzystamy jednocześnie co najmniej z *dwóch*
 bardziej abstrakcyjnych pojęć, poza pojęciem czasu - z pojęcia porządku i z pojęcia
 [*odległości*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_metryczna). Ponadto, aby czas płynął,
 jak mówisz, wstecz, Ty musisz płynąć w czasie do przodu i *to* już jest relacja *logiczna*, a nie na
 przykład *przyczynowa*. Nie wydaje Ci się, że dobrze jest szybko zauważać takie subtelności
 pojęciowe? Wracając zaś do tego, co wydaje mi się główną intencją Twojego pytania (jeżeli Cię źle
 zrozumiałem, to popraw mnie proszę), czemu nie można o tym myśleć jako o *spadaniu* w czasie? Wtedy
-czas płynąłby w górę, a my spadalibyśmy w dół. Pamiętasz dualność relacji `<` i `>`?
+czas płynąłby w górę, a my spadalibyśmy (w nim?) w dół. Pamiętasz dualność relacji `<` i `>`?
 
 ...
 
