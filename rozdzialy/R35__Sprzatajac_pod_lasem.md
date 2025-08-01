@@ -205,7 +205,8 @@ Moglibyśmy zrównać ze sobą wszystkie strzałki względem siebie równoległe
 możliwości przejścia od jednego ogólnego stroju do drugiego. Przypominałaby więc kategorię ... zdań
 i dowiedlności.
 
-**Pomniejsza sugestia**: Czy ta kategoria ma obiekt końcowy? Co jest w niej obiektem początkowym?
+**Pomniejsza sugestia**: Czy ta kategoria ma obiekt końcowy? Uwaga dla rodziców - to pytanie jest
+dozwolone od lat osiemnastu: Co jest w tej kategorii obiektem początkowym?
 
 Jak widzisz, kategorie są *dosłownie wszędzie*. Moim zdaniem po prost dlatego, że teoria kategorii
 wyraża ukrytą, wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze
