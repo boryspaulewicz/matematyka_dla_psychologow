@@ -365,7 +365,7 @@ bardziej żenujące niż dotychczas. Takie jak ten:
 
 Najpierw biologia. Od tylu już lat badania neuropsychologiczne są postrzegane przez wielu jako te
 relatywnie "twarde" i "naukowe", z dwóch oczywistych powodów. Mózg steruje zachowaniem, a biologia
-jest (póki co) daleko bardziej zaawansowaną nauką niż psychologia, ma znacznie więcej doniosłych
+jest (póki co) daleko bardziej zaawansowaną nauką niż psychologia; ma znacznie więcej doniosłych
 zastosowań i przedmiot jej badań często o wiele łatwiej jest obserwować w kontrolowanych warunkach i
 często o wiele ławiej jest dokonywać na nim precyzyjnych interwencji eksperymentalnych. A z drugiej
 strony, nadal nie udało się na przykład znaleźć choćby *jednego* markera biologicznego
