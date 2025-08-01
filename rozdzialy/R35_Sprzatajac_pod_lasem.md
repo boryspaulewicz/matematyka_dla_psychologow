@@ -88,7 +88,7 @@ użycia*; dlatego są takie "puste w środku".
 <hr>
 
 Gdy zbiór jest (jakimkolwiek) *singletonem*, również można na nim zdefiniować tylko jeden porządek,
-który co prawda nie jest wtedy pusty, ale też jest trywialny. Tą trywialność widać między innymi z
+który co prawda nie jest wtedy pusty, ale też jest trywialny. Tą trywialność od razu widać z
 perspektywy kategoryjnej, bo porządek na singletonie rozumiany jako cienka kategoria sprowadza się
 do pojedynczej identyczności. A więc porządek na singletonie jest tym samym, co *obiekt bez
 właściwości*.
