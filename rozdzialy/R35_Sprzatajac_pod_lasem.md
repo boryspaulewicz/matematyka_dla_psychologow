@@ -15,7 +15,8 @@ My, ludzie, postrzegamy świat w kategoriach hierarchii. Coś może być wyżej 
 albo może być większe lub mniejsze, cięższe lub lżejsze, albo, w jakimś sensie, wcześniejsze lub
 późniejsze, słabsze lub silniejsze, bardziej lub mniej: intensywne, śmieszne, absurdalne, bliskie,
 abstrakcyjne, złożone, wie.lo.as.pek.to.we, irytujące, względne, uciążliwe, wstrętne, pociągające,
-piękne, uzasadnione, wątpliwe, oczywiste, tajemnicze, kosmate, mgliste i drętwe.
+piękne, uzasadnione, wątpliwe, oczywiste, tajemnicze, kosmate, zmysłowe, perwersyjne, wciągające lub
+drętwe.
 
 A każda hierarchia to pewna relacja porządku.
 
