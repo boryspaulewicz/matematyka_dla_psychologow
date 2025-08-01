@@ -27,7 +27,9 @@ Istnieje jednak pewien *typ* relacji porządku, który ma dla psychologii znacze
 więcej, ten porządek ma szczególny charakter również z perspektywy *matematycznej* i
 *filozoficznej*. Z powodów, które za chwilę staną się mam nadzieję jasne, można nawet powiedzieć, że
 ten szczególny pod względem struktury formalnej i znaczenia w codziennym życiu typ porządku jest
-*centralnym pojęciem* psychologii. Chodzi o coś najzwyczajniejszego w świecie zwierząt.
+*centralnym pojęciem* psychologii. 
+
+Chodzi o coś najzwyczajniejszego w świecie zwierząt.
 
 ## Poprawność jest centralnym porządkiem psychologii[^4]
 
