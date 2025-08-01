@@ -29,4 +29,4 @@ No wiêc **minutnik**.
 
 **M I N U T N I K**
 
-*minutnik*, ok?
+*Minutnik*, ok?
