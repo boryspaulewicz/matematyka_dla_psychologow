@@ -127,9 +127,10 @@ odpowiednim czasie.
 <hr>
 
 Gdy zbiór jest (jakimkolwiek) *singletonem*, również można na nim zdefiniować tylko jeden porządek,
-który co prawda nie jest wtedy pusty, ale też jest trywialny. Tą trywialność od razu widać z
-perspektywy kategoryjnej, bo porządek na singletonie rozumiany jako cienka kategoria sprowadza się
-do pojedynczej identyczności. A więc porządek na singletonie jest tym samym, co *obiekt bez
+który co prawda nie jest wtedy pusty, ale też jest trywialny. Tej trywialności po prostu nie da się
+nie zobaczyć przyjmując perspektywę kategoryjną, bo porządek na singletonie rozumiany jako cienka
+kategoria sprowadza się do pojedynczego obiektu wyposażonego tylko w pętlę identyczności, a obiekt i
+jego identyczność to jedno i to samo. A więc porządek na singletonie jest tym samym, co *obiekt bez
 właściwości*.
 
 Gdy jednak elementy są *dwa*, możliwych porządków jest więcej. *Dwa* z tych porządków, będące
