@@ -290,9 +290,9 @@ Ale czy zachowania albo ruchy celowe, takie jak wszelkie wybory, nie mają kieru
 
 Mają kierunek, ale nie jako własność własną, bo mają go tylko w pewnym sensie i zależnie od
 kontekstu, bo kierunek jest zawsze *nieunikalny*, a jest taki z konieczności, bo, tak jak ta wyżej
-strzałka, *kierunek jest punktem widzenia*. O czym pomówimy kiedy indziej. Nawiasem mówiąc, nawet
-taki Einstein już dawno to załapał, tyle, że *mniej ogólnie*. Można o tym myśleć też i tak: Nad
-każdym naszym ruchem jakby unosi się (jako mnogość punktów widzenia) nieskończenie złożona
+strzałka, kierunek jest *punktem widzenia*. O czym pomówimy jeszcze kiedy indziej. Nawiasem mówiąc,
+nawet taki Einstein już dawno to załapał, tyle, że *mniej ogólnie*. Można o tym myśleć też i tak:
+Nad każdym naszym ruchem jakby unosi się (jako mnogość punktów widzenia) nieskończenie złożona
 przestrzeń najróżniejszych celów (które zawsze można traktować jako pewne relacje porządku) i w
 każdym momencie każdego ruchu i dla każdego celu istnieje miara stopnia, w jakim aktualne położenie
 i struktura wewnętrzna naszego ciała realizuje albo spełnia ten cel.
