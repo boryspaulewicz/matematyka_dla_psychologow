@@ -595,6 +595,12 @@ przydawać, a do czego nie.
 Tomkowi Smoleniowi, za zwrócenie mi uwagi, że gdy po raz pierwszy pojawiło się użycie taktyki `rw` w
 lewą stronę (`rw[← ...]`), nie wyjaśniłem, jak to działa. Teraz już wyjaśniam (w komentarzu).
 
+Marcie Siedleckiej, dzięki której przekonałem się, że wybiegający w *daleką* przyszłość, hermetyczny
+i gęsty rozdział trzeci *Do czego autor zmierza* może być problematyczny nawet, gdy czyta go osoba
+tak wielorako utalentowana, kompetentna i w ogóle fajna jak osoba Marty Siedleckiej. *W związku z
+tym* dodałem tam jeszcze jedno ostrzeżenie, ale innego rodzaju, a *dzięki temu* wpadłem na pewien
+strukturalno/funkcjonalny pomysł, który niebawem spróbuję wprowadzić.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
