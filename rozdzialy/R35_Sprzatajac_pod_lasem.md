@@ -251,8 +251,11 @@ Skierowanie : Celowości → Materię
 
 Albo: Kierunek (jako taki), który jest możliwy dzięki istnieniu (jako takiej) Różnicy.
 
-Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? Nawet ta strzałka jest
-skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
+Wydaje mi się nawet, że warto przyjąć chociaż na próbę ogólną i *funkcjonalną* definicję Materii
+jako *tego, na co można skierować* (niekoniecznie *czyjąś*) *uwagę*. Ale to dygresja.
+
+Swoją drogą, zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? Nawet ta
+strzałka jest skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
 
 <br>
 
