@@ -127,8 +127,8 @@ do pojedynczej identyczności. A więc porządek na singletonie jest tym samym, 
 właściwości*.
 
 Gdy jednak elementy są *dwa*, możliwych porządków jest więcej. *Dwa* z tych porządków, będące
-izomorfami, można interpretować zarówno jako porządek *wartości logicznych* - `{zdanie fałszywe <
-zdanie prawdziwe}` - jak i jako porządek *poprawności* - `{działanie błędne < działanie
+izomorficzną parą, można interpretować zarówno jako porządek *wartości logicznych* - `{zdanie
+fałszywe < zdanie prawdziwe}` - jak i jako porządek *poprawności* - `{działanie błędne < działanie
 poprawne}`. W dodatku ten głęboki związek między *celowością* i *logiką* nie jest wcale przypadkowy.
 
 Zawsze, gdy możemy mówić o reakcjach, odpowiedziach, czynnościach, zachowaniach, albo działaniach
