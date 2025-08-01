@@ -174,7 +174,7 @@ współczucie. I szacunek.
 
 Ale **zachowanie**, ten centralny przedmiot zainteresowania psychologii, to dokładnie *działanie
 celowe*, albo - po dokonaniu uogólnienia już równoważnie - *celowy ruch*; nic mniej i nic
-*więcej*. Własność wyuczalności przysługuje (w szczególny sposób, o czym później) pewnym celowym
+*więcej*. Własność *wyuczalności* przysługuje (w szczególny sposób, o czym później) pewnym celowym
 ruchom, a dokładniej pewnym *sekwencjom ruchów*, co sprawia, że te ruchy są dla nas automatycznie
 interesujące, a często wręcz przykuwają naszą uwagę i automatycznie widzimy w nich coś w rodzaju
 autonomii (pamiętasz tamtą mysz?). Ale celowość występuje w sposób oczywisty również w nie uczących
