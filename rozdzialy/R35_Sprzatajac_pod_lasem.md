@@ -1,7 +1,6 @@
 <!-- -*- coding: utf-8 -*- -->
 
 <br>
-x
 Jeżeli drzewo marnieje choćby w najgorszej glebie, to tylko dlatego, że nie
 dość głęboko zapuszcza korzenie. Cała ziemia jest jego.
 
@@ -20,7 +19,7 @@ piękne, uzasadnione, wątpliwe, oczywiste, tajemnicze, kosmate, mgliste i dręt
 A każda hierarchia to pewna relacja porządku.
 
 W psychologii często kluczowe znaczenie ma to, czy jakaś reakcja jest pod jakimś względem mniej lub
-bardziej opóźniona, intensywna lub częsta i to też są relacje porządku. Często ważne jest i to, czy
+bardziej spóźniona, intensywna, lub częsta i to też są relacje porządku. Często ważne jest i to, czy
 jakiś stan, taki jak na przykład chwilowa głupota, lub jakaś cecha, taka jak głupota permanentna, są
 mniej lub bardziej nasilone.
 
@@ -30,14 +29,14 @@ więcej, ten porządek ma szczególny charakter również z perspektywy *matemat
 ten szczególny pod względem struktury formalnej i znaczenia w codziennym życiu typ porządku jest
 *centralnym pojęciem* psychologii. Chodzi o coś najzwyczajniejszego w świecie zwierząt.
 
-## Poprawność jest centralnym porządkiem psychologii
+## Poprawność jest centralnym porządkiem psychologii[^4]
 
 Zawsze, gdy możemy mówić o poprawności, mamy do czynienia ze zbiorem dwuelementowym i relacją
 porządku polegającą na tym, że jeden z elementów tego zbioru jest "mniejszy" niż drugi. Gdy zbiór
-jest *pusty* (a więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego, *od momentu,
-w którym udowodnimy tą unikalność*, możemy bez zastrzeżeń mówić po angielsku *the empty set* zamiast
-*an empty set*, a po polsku *ten* zbiór pusty), można na nim zdefiniować tylko *jeden* porządek, to
-jest *porządek pusty*, który ma znaczenie *czysto teoretyczne*:
+jest *pusty* (a więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego \{*od momentu,
+w którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the empty set*
+zamiast *an empty set*, a po polsku *ten* zbiór pusty), można na nim zdefiniować tylko *jeden*
+porządek, to jest *porządek pusty*, który ma znaczenie *czysto teoretyczne*:
 
 <hr>
 
@@ -51,15 +50,14 @@ def Empty_pred : Pred   Empty       := fun a => a.elim
 def Empty_rel  : Binrel Empty Empty := fun a => a.elim
 ```
 
-Uprościłem maksymalnie zapis, zakładając, że już wiesz, czego Lean się w tym przypadku automatycznie
-domyśla.
+Uprościłem zapis, zakładając, że już wiesz, czego Lean się w tym przypadku automatycznie domyśla.
 
 Na początek dodajemy trochę lukru, który ma na celu ujawnienie "intencji kodu". Skoro wszystko można
-rozumieć na wiele sposobów, to funkcje z arbitralnego typu lub typów do typu `Prop` też można
-rozumieć na wiele sposobów. Tutaj sygnalizujemy, że naszym celem jest traktowanie tych funkcji jako
-odpowiednio predykatów i relacji binarnych. Dzięki temu widzimy też od razu, że predykaty i relacje,
-nie tylko binarne - bo przecież naturalne uogólnienie na dowolną arność niemal tutaj widać - są
-właściwie tym samym, a nazywamy te dwa rodzaje obiektów inaczej dlatego, że chcemy czasem coś innego
+rozumieć na wiele sposobów, to funkcje z arbitralnego typu lub typów do `Prop` też można rozumieć na
+wiele sposobów. Tutaj sygnalizujemy, że naszym celem jest traktowanie tych funkcji jako odpowiednio
+predykatów i relacji binarnych. Dzięki temu widzimy też od razu, że predykaty i relacje, nie tylko
+binarne - bo przecież naturalne uogólnienie na dowolną arność niemal tutaj widać - są właściwie tym
+samym, a nazywamy te dwa rodzaje obiektów inaczej dlatego, że chcemy czasem coś innego
 zaakcentować. Wprowadzając pozornie nieistotne rozróżnienie na predykaty i relacje możemy zawęzić
 uwagę, zarówno swoją jak i odbiorców, do predykatów (i jednocześnie relacji) o określonej arności i
 poddać pewnej kontroli narzucające się skojarzenia.
@@ -70,8 +68,8 @@ warunek poprawności definicji takiej funkcji wystarczy skorzystać z reguły el
 typu. W szczególności, nie musimy nawet konstruować drugiej, wewnętrznej funkcji tworząc term typu
 `Binrel Empty Empty`, czyli typu `Empty → Empty → Prop`, bo ta reguła eliminacji pozwala od razu
 "spełnić oczekiwanie" stworzenia termu dowolnego typu, w tym również typu `Empty → Prop`, za pomocą
-czegoś w rodzaju, w tym wypadku akceptowalnej, "pustej obietnicy", albo "obietnicy" *z konieczności*
-"bez pokrycia".
+czegoś w rodzaju, w tym wypadku akceptowalnej, *pustej obietnicy*, albo obietnicy *z konieczności*
+bez pokrycia.
 
 Poczucie dezorientacji, które może wywołać takie zastosowanie typu `Empty`, `False`, czy naszego
 `Absurd`, wynika dokładnie stąd, że to są tylko (i zarazem *aż*) *czyste narzędzia
@@ -98,7 +96,7 @@ działaniach błędnych, i vice versa. To są *dokładnie* te same sytuacje, w k
 błędnym lub poprawnym wykonaniu jakiegoś *zadania*. Wykonanie błędne traktujemy wtedy jako w pewnym
 sensie mniejsze albo *gorsze* niż wykonanie poprawne, tak jak fałsz traktujemy jako coś mniejszego
 albo gorszego od prawdy, brzydotę jako coś gorszego od piękna, a zło jako coś gorszego od
-dobra. 
+dobra.
 
 Formalnie, wszystkie te struktury są jedną i tą samą strukturą porządku na zbiorze dwuelementowym,
 który to porządek, postrzegany jak kategoria, jest dokładnie *strzałką*.
@@ -111,7 +109,7 @@ obiekt końcowy to *jedno* i to samo pojęcie postrzegane z *dwóch* dualnych pe
 kategoria ma jednak i początek i koniec. Tam, gdzie istnieją jakieś *dwa* obiekty, pojawia się
 *różnica*. A gdy *jedynymi dwoma* obiektami są obiekty początkowy i końcowy, istnieje dokładnie
 *jedna* strzałka. W matematyce, tak jak w psychologii, wszystko sprowadza się ostatecznie do tej
-jednej, definiującej *kierunek* strzałki.
+jednej, *definiującej kierunek* strzałki.
 
 Albo mniej ogólnie: Powód, dla którego pojęcie poprawności należy moim zdaniem traktować jako
 centralne (ale nie jedyne takie) pojęcie psychologii jest, gdy się go już odkryje, zawstydzająco
@@ -121,17 +119,17 @@ samo, zamiast o osiągnięciu celu możemy równie dobrze mówić o poprawnym lu
 zadania. Kwestię *stopniowalnego* i *jakościowo zróżnicowanego* osiągania celu i wykonywania zadania
 podejmiemy innym razem.
 
-Trzeba jednak pamiętać, że pojęcia niewykonania zadania i nieosiągnięcia celu mają *dwa* różne
-znaczenia: Cel może być nieosiągnięty i zadanie może być niewykonane dlatego, że celu *nie udało
-się* osiągnąć i zadania *nie udało się* wykonać, albo dlatego, że *nie było próby* osiągnięcia tego
-celu albo wykonania tego zadania. A mówiąc bardziej abstrakcyjnie (i posługując się częściowo
-językiem technicznym wnioskowania przyczynowego), nie było *interwencji*, której *skutki*
-podlegałyby ocenie (właśnie tego pojęcia nie ma w tym języku) pod względem wykonania tego zadania
-lub osiągnięcia tego celu. Analogicznie, cel może być *w pewnym sensie* osiągnięty i zadanie może
-być *w pewnym sensie* wykonane nie dlatego, że została podjęta jakaś próba osiągnięcia tego celu i
-wykonania tego zadania, tylko dlatego, że *nie ma nic do zrobienia*, bo cel jest w danej sytuacji
-*zrealizowany* i zadanie jest *nieaktualne*. Albo, mówiąc inaczej, ale *celowo* tak, cel i zadanie
-są wtedy *spełnione pusto*.
+Trzeba jednak pamiętać, że pojęcia niewykonania zadania i nieosiągnięcia celu mają *dwa* znaczenia:
+Cel może być nieosiągnięty i zadanie może być niewykonane dlatego, że celu *nie udało się* osiągnąć
+i zadania *nie udało się* wykonać, albo dlatego, że *nie było próby* osiągnięcia tego celu albo
+wykonania tego zadania. A mówiąc bardziej abstrakcyjnie (i posługując się częściowo językiem
+technicznym wnioskowania przyczynowego), nie było *interwencji*, której *skutki* podlegałyby ocenie
+(właśnie tego pojęcia nie ma w tym języku) pod względem wykonania tego zadania lub osiągnięcia tego
+celu. Analogicznie, cel może być *w pewnym sensie* osiągnięty i zadanie może być *w pewnym sensie*
+wykonane nie dlatego, że została podjęta jakaś próba osiągnięcia tego celu i wykonania tego zadania,
+tylko dlatego, że *nie ma nic do zrobienia*, bo cel jest w danej sytuacji *zrealizowany* i zadanie
+jest *nieaktualne*. Albo, mówiąc inaczej, ale *celowo* tak - cel i zadanie są wtedy *spełnione
+pusto*.
 
 Zastanawiasz się może, po czym w takim razie poznajemy, że coś jest próbą albo interwencją? To moim
 zdaniem doskonałe pytanie okazuje się zaskakująco głębokie. Dlatego w tym momencie powiem tylko
@@ -153,12 +151,12 @@ urządzeń* i wszelkiego rodzaju *narzędzi* czy *mechanizmów* z drugiej. Wydaw
 plastyczność i której nie widać w typowych urządzeniach, narzędziach, czy wszelkiego rodzaju
 zwykłych mechanizmach.
 
-Proszę, nie zrozum mnie źle. Nie uważam, że zwierzęta po prostu *są* urządzeniami. Na pewno nie *dla
-nas*, bo *współczujemy* zwierzętom, a współczujemy im nie dlatego, że postrzegamy je jako byty
+Proszę, nie zrozum mnie źle. Nie uważam, że zwierzęta są urządzeniami i niczym więcej. Na pewno nie
+*dla nas*, bo *współczujemy* zwierzętom, a współczujemy im nie dlatego, że postrzegamy je jako byty
 *autonomiczne*, bo to jest warunek oceny *moralnej*. Współczujemy im dlatego, że wszystkie zwierzęta
 *cierpią*. Najbardziej tym, które należą do tego samego gatunku, ale zdecydowanie [nie tylko
-im](https://pl.wikipedia.org/wiki/Karuna). Z roślinami, owadami, grzybami, mikrobami i innymi
-formami życia bywa, jak wiadomo, bardzo różnie.
+im](https://pl.wikipedia.org/wiki/Karuna). Z roślinami, owadami, grzybami, mikrobami i niektórymi
+formami życia bywa pod tym względem, jak wiadomo, bardzo różnie.
 
 Natomiast nie bardzo współczujemy urządzeniom. A kiedy czasem do pewnego stopnia współczujemy
 niektórym urządzeniom, zwłaszcza tym, do których jesteśmy w jakiś sposób *przywiązani*, mamy do
@@ -172,9 +170,9 @@ celowe*, albo - po dokonaniu uogólnienia już równoważnie - *celowy ruch*; ni
 *więcej*. Własność wyuczalności przysługuje (w szczególny sposób, o czym później) pewnym celowym
 ruchom, a dokładniej pewnym *sekwencjom ruchów*, co sprawia, że te ruchy są dla nas automatycznie
 interesujące, a często wręcz przykuwają naszą uwagę i automatycznie widzimy w nich coś w rodzaju
-autonomii (pamiętasz tamtą mysz?). Ale celowość występuje w sposób oczywisty również we wszystkich
-nie uczących się narzędziach, urządzeniach, mechanizmach i wszelkich innych artefaktach, w tym
-również w dziełach sztuki.
+autonomii (pamiętasz tamtą mysz?). Ale celowość występuje w sposób oczywisty również w nie uczących
+się narzędziach, urządzeniach, mechanizmach i wszelkich innych artefaktach, takich jak dzieła
+sztuki.
 
 W sali, w której spędziłem kilka pierwszych lat szkoły podstawowej, na ścianie wisiał napis
 "Matematyka jest królową nauk". Wtedy nie wiedziałem, co o tym myśleć, ale byłem mały i jeszcze
@@ -183,15 +181,15 @@ głupszy niż teraz. A teraz myślę o tym tak:
 Matematyka to dokładnie celowe posługiwanie dowolnymi jednoznacznymi regułami językowymi, które
 pozwalają rozstrzygać mechanicznie, jakie sekwencje symboli są poprawne, a jakie nie. Teorie naukowe
 są relatywnie dobrze ustrukturyzowanymi konstrukcjami pojęciowymi, które istnieją tylko dzięki temu,
-że istnieje język. Matematyka jest więc tą szczególną dyscypliną nauki, która zajmuje się w pewien
-sposób językami wszystkich nauk, w tym również swoimi własnymi językami.
+że istnieje język. Matematyka jest tą szczególną dyscypliną nauki, która zajmuje się w pewien sposób
+językami wszystkich nauk, w tym również swoimi własnymi językami.
 
 Jeżeli matematyka jest Królową nauk, to fizyka, która jest dokładnie celowym stosowaniem języków
 matematycznych do kontroli wszelkich zdarzeń, jest ich Królem. Można więc powiedzieć, że ta
-Wspaniała *Dwójka* rodzi najwięcej zastosowań niemal *z definicji*. Nasza Płodna Para ma dokładnie
-jednego rodzica, Matkę psychologię, która pilnuje, żeby Dzieci się zachowywały. A Ojciec albo się
-ulotnił, albo nigdy go nie było i jako Ten Nieistniejący spełnił swój rodzicielski obowiązek
-pusto. 
+Wspaniała Dwójka (dziewczyn) rodzi najwięcej zastosowań niemal *z definicji*. Nasza Płodna Para ma
+dokładnie jednego rodzica, Matkę psychologię, która pilnuje, żeby Dzieci się zachowywały. A Ojciec
+albo się ulotnił, albo nigdy go nie było i jako Ten Nieistniejący spełnił swój rodzicielski
+obowiązek pusto.
 
 <br>
 
@@ -211,8 +209,8 @@ gdzie "ja" *dokładnie* błądzę.
 
 W szczególności, gdzie w jakiejkolwiek innej dyscyplinie nauki znajdziemy jako *centralne* pojęcie
 *działania celowego*? Struktury badane przez matematyków są ostatecznie *arbitralne*. Niearbitralne
-są tylko *powody*, dla których matematycy te struktury badają, w dodatku z definicji, bo badanie
-czegoś jest pewnego rodzaju zachowaniem. A Wszechświat badany przez fizyków jest przecież *obcy*.
+są tylko *powody*, dla których *matematycy* te struktury badają, w dodatku z definicji, bo badanie
+czegoś jest pewnego rodzaju zachowaniem. A Wszechświat badany przez fizyków jest *obcy*.
 
 Albo tak: Jak doskonale ujął to mój najważniejszy przyjaciel, Tomek Grzegorek[^1]:
 
@@ -233,18 +231,18 @@ Wróćmy już może do strzałki.
 Pojedyncza strzałka jako kategoria, czyli `I → T`, gdzie `I` to z konieczności obiekt początkowy
 (*initial*), a `T` to z konieczności obiekt końcowy (*terminal*) jest więc, między innymi, a może
 nawet przede wszystkim, Oceną. Źródło tej strzałki można rozumieć jako czystą abstrakcję: zbioru
-pustego, typów `False` i `Empty`, i w ogóle wszelkich struktur będących bezcielesnymi Sposobami. Jej
-cel można postrzegać jako Atom albo Element, a więc materię jako taką. A skoro to są obiekty
-początkowy i końcowy dokładnie dlatego, że pierwszy emituje dokładnie jedną strzałkę do wszystkich
-obiektów, a drugi przyjmuje dokładnie jedną strzałkę od wszystkich obiektów, to tym, co *czyni* je w
-tej Elementarnej - choć, jak zobaczymy później, nie będącej końcową - kategorii początkiem i końcem,
-jest Celowość Strzałki o typie:
+pustego, typów `False` i `Empty`, i w ogóle wszelkich struktur będących Bezcielesnymi Sposobami. Jej
+cel można postrzegać jako Atom albo Element Bez Właściwości, a więc materię jako taką. A skoro to są
+obiekty początkowy i końcowy dokładnie dlatego, że pierwszy emituje dokładnie jedną strzałkę do
+wszystkich obiektów, a drugi przyjmuje dokładnie jedną strzałkę od wszystkich obiektów, to tym, co
+*czyni* je w tej Elementarnej - choć, jak zobaczymy później, nie będącej końcową - kategorii
+początkiem i końcem, jest Celowość Strzałki o typie:
 
 ```lean
 Skierowanie : Celowości → Materię
 ```
 
-Albo: Kierunek (jako taki), który pojawia się dzięki istnieniu (jako takiej) Różnicy.
+Albo: Kierunek (jako taki), który jest możliwy dzięki istnieniu (jako takiej) Różnicy.
 
 Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? Nawet ta strzałka jest
 skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
@@ -264,17 +262,18 @@ No tak.
 Zacznijmy może od tego, że mówiąc o oddalaniu się korzystamy tu jednocześnie co najmniej z *dwóch*
 bardziej abstrakcyjnych pojęć, poza pojęciem czasu - z pojęcia porządku i z pojęcia
 [*odległości*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_metryczna). Ponadto, aby czas płynął,
-jak mówisz, wstecz, Ty musisz płynąć w czasie do przodu i to już jest relacja *logiczna*, a nie
-*przyczynowa*. Nie wydaje Ci się, że dobrze jest szybko zauważać takie subtelności pojęciowe?  A
-wracając do tego, co wydaje mi się główną intencją Twojego pytania (jeżeli Cię źle zrozumiałem, to
-popraw mnie proszę), czemu nie można o tym myśleć jako o *spadaniu* w czasie? Wtedy czas płynąłby w
-górę, a my spadalibyśmy w dół. Pamiętasz dualność relacji `<` i `>`?
+jak mówisz, wstecz, Ty musisz płynąć w czasie do przodu i to już jest relacja *logiczna*, a nie na
+przykład *przyczynowa*. Nie wydaje Ci się, że dobrze jest szybko zauważać takie subtelności
+pojęciowe? A wracając do tego, co wydaje mi się główną intencją Twojego pytania (jeżeli Cię źle
+zrozumiałem, to popraw mnie proszę), czemu nie można o tym myśleć jako o *spadaniu* w czasie? Wtedy
+czas płynąłby w górę, a my spadalibyśmy w dół. Pamiętasz dualność relacji `<` i `>`?
 
 ...
 
 Ok, nigdzie nam się nie spieszy. Słyszałaś może o liczbach urojonych? `i² = -1` i `(-i)² = ((-1) *
 i)² = (-1)² * i² = 1 * i² = i² = -1`, więc trzeba *wybrać*, które $i$, to jest `i` czy `-i`, jest
-`i`, bo te dwa $i$ nie mogą być tą samą liczbą, nawet jeśli "tylko" urojoną[^2].
+`i`, bo te dwa $i$ są funkcjonalnie równie dobrymi kandydatami, a nie mogą być tą samą liczbą, nawet
+jeśli "tylko" urojoną[^2].
 
 Ale czy zachowania albo ruchy celowe, takie jak wszelkie wybory, nie mają kierunku jako własnej
 (ang. [*intrinsic*](https://en.wiktionary.org/wiki/intrinsic)) własności? 
@@ -295,12 +294,16 @@ Otóż to. Twoje, a raczej, nie oszukujmy się, nasze przywiązanie do postrzega
 czegoś, co ma niearbitralny kierunek, wynika całkowicie z naszej *postawy* wobec *skutków* upływu
 czasu. Generalnie wolimy mieć wybór, a w każdym razie wolimy mieć poczucie, że go mamy, a wobec
 przeszłości nie możemy tego czuć. Skąd wiesz, jak postrzegałabyś kierunek czasu, gdybyś uświadamiała
-sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej *oddalałyby się* w przeszłość? Zresztą
-czas można *sensownie* uporządkować na nieskończenie wiele, również nieizomorficznych sposobów. Na
-przykład, można uporządkować nieskończony zbiór punktów czasowych ze względu na stopień zagęszczenia
-materii we Wszechświecie, albo można obrać jakiś punkt zerowy na skali czasu i wtedy czas co prawda
-nie będzie *płynął* w dwie strony, ale będzie traktowany tak, jakby miał jednocześnie dwa
-*kierunki*. Ten ryży meksykanin Ludwik mówi o tym bardzo, hm, jasno i tłumaczy to [krok po
+sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej *oddalałyby się* w przeszłość? Twoje
+życie trwałoby wtedy krótko, bo działająca w ten sposób pamięć byłaby niemal bezużyteczna, ale może
+czułabyś też, że wraz z gwałtownym umieraniem stajesz się *coraz mniej sobą* i *spadasz w nicość
+śmierci*, jakbyś patrzyła w oddalające się gwałtownie okno studni życia, które coraz bardziej staje
+się tylko punktem ... światła w tunelu. Zresztą czas można *sensownie* uporządkować na nieskończenie
+wiele, również nieizomorficznych sposobów. Na przykład, można uporządkować nieskończony zbiór
+punktów czasowych ze względu na stopień zagęszczenia materii we Wszechświecie, albo można obrać
+jakiś punkt zerowy na skali czasu i wtedy czas co prawda nie będzie *płynął* w dwie strony, ale
+będzie traktowany tak, jakby miał jednocześnie dwa *kierunki*. Ten ryży meksykanin Ludwik mówi o tym
+bardzo, hm, jasno i tłumaczy to [krok po
 kroku](https://www.imdb.com/title/tt6736782/?ref_=ext_shr_lnk).
 
 No ale te strzałki są arbitralne, a skutki upływu czasu nie są, bo to są pewne fakty.
@@ -330,9 +333,8 @@ szóstej albo siódmej klasy zapytałem, czy jest może "Ludzkie, arcyludzkie" i
 usłyszałem odpowiedź, Pani za ladą upewniła się, czy dobrze usłyszała, a gdy po kilku dniach
 przyszedłem znowu, miała dla mnie przygotowany zestaw jakiś gazetek, o których sądziła najwyraźniej,
 że będę nimi zainteresowany. Bardzo to było miłe, ale zarazem na tyle krępujące, że na pewien czas
-przestałem tam przychodzić. Popisywałem się potem na lekcjach religii, wypowiadając prawdopodobnie z
-nieznośnym, wyższościowym tonem zdania w rodzaju "Nie istnieje wola nieegoistyczna". Tak, to były
-piękne czasy.
+przestałem tam przychodzić. Popisywałem się potem na lekcjach religii, wypowiadając - prawdopodobnie
+nieznośnym tonem - zdania w rodzaju "Nie istnieje wola nieegoistyczna". Tak, to były piękne czasy.
 
 Z Fryderyka N. prędko wyrosłem, ale zamiłowanie do filozofii trwało przez całe liceum i dlatego
 najpierw zdałem właśnie na filozofię. Być może częściowo z powodu tego, jakie to coraz gorsze efekty
@@ -340,7 +342,7 @@ dawało w kolejnych latach połączenie mojej prokrastynacji i lekkomyślności 
 terminów zaliczeń, jaką charakteryzowało się wtedy studowianie na tym kierunku na UJ, ale wydaje mi
 się jednak, że przede wszystkim z innych, głębszych powodów, któregoś dnia, czytając w księgarni
 opis na obwolucie jakiejś książki wydanej przez [wydawnictwo
-Aletheia](https://www.aletheia.com.pl/), poczułem nagłą i niespodziewaną pewność, że nie mam już do
+Aletheia](https://www.aletheia.com.pl/) poczułem nagłą i niespodziewaną pewność, że nie mam już do
 tego serca. I tak trafiłem na psychologię.
 
 Dopiero niedawno zacząłem wracać, rzadko i z pewną nieśmiałością, do tego typu literatury i wygląda
@@ -351,21 +353,21 @@ bardziej żenujące niż dotychczas. Takie jak ten:
 ## [Potężna Piątka](https://kungfupanda.fandom.com/wiki/Furious_Five)
 
 Najpierw biologia. Od tylu już lat badania neuropsychologiczne są postrzegane przez wielu jako te
-relatywnie "twarde" i "naukowe", z dwóch oczywistych powodów. To mózg steruje zachowaniem, a
-biologia jest (póki co) daleko bardziej zaawansowaną nauką niż psychologia, ma znacznie więcej
-doniosłych zastosowań i przedmiot jej badań często o wiele łatwiej jest obserwować w kontrolowanych
-warunkach i często o wiele ławiej jest dokonywać na nim precyzyjnych interwencji
-eksperymentalnych. A z drugiej strony, nadal nie udało się na przykład znaleźć choćby *jednego*
-markera biologicznego *jakiegokolwiek* zaburzenia psychicznego.
+relatywnie "twarde" i "naukowe", z dwóch oczywistych powodów. Mózg steruje zachowaniem, a biologia
+jest (póki co) daleko bardziej zaawansowaną nauką niż psychologia, ma znacznie więcej doniosłych
+zastosowań i przedmiot jej badań często o wiele łatwiej jest obserwować w kontrolowanych warunkach i
+często o wiele ławiej jest dokonywać na nim precyzyjnych interwencji eksperymentalnych. A z drugiej
+strony, nadal nie udało się na przykład znaleźć choćby *jednego* markera biologicznego
+*jakiegokolwiek* zaburzenia psychicznego.
 
 Coś tam wiemy na temat neuronalnych mechanizmów *bardzo wczesnych* etapów prercepcji i coś tam też
 wiemy na inne podobne tematy, ale poza tym wpływ neurpsychologii na psychologię jest jak dotąd tak
 nikły, że gdy ta pierwsza pojawia się w podręcznikach dotyczących tej drugiej, prawie zawsze pojawia
 się jak jakiś kwiatek u kożucha - taka (dla niektorych ekscytująca) ciekawostka, którą trudno w
 jakikolwiek sposób znacząco zintegrować z wiedzą na temat *zachowania*. Ciekawostka typu coś tam się
-może świeci w pewnych obszarach bardziej niż w innych, gdy ludzie wykonują jakieś sztuczne, proste
-zadanie w takich a takich warunkach. A pieniądze i w ogóle różne zasoby poszły na tego rodzaju
-badania do tej pory ogromne.
+*może* świeci w pewnych obszarach bardziej niż w innych, gdy ludzie wykonują jakieś sztuczne, proste
+zadanie w takich a takich *dziwacznych* warunkach. A pieniądze i w ogóle różne zasoby poszły na tego
+rodzaju badania do tej pory ogromne.
 
 Dlaczego tak (żałośnie) słabo mimo, że tak (kosmicznie) drogo i - wydawało by się a priori
 niektórym - tak obiecująco? Nie tylko moim zdaniem dlatego, że mózg jest ekstremalnie złożony,
@@ -375,20 +377,20 @@ najwyraźniej *nie wyciągamy z tego wniosków*. Niestety, tego rodzaju bezwład
 nowego.
 
 Nie ulega natomiast wątpliwości, że *biologia* zajmuje się czymś, co do przedmiotu zainteresowań ani
-fizyki, ani chemii *nie* należy, to jest *życiem*, postrzeganym *przede wszystkim* jako pewnego
-rodzaju *mechanizm*. Dlatego biolog bez zająknięcia się powie na przykład, że *funkcją* serca jest
-pompowanie krwi i tą własność serca będzie traktował jako kluczową. A jest tego rodzaju własność dla
-biologa kluczowa, bo centralnym pojęciem biologii jest dychotomia i jednocześnie *porządek określony
-na zbiorze dwuelementowym*, a więc strzałka, *od* śmierci *do* życia. To jednocześnie niezły moim
-zdaniem przykład ilustrujący arbitralność kierunku strzałki czasu, bo ta strzałka jest skierowana
-*ku przeszłości*.
+fizyki, ani nawet chemii *nie* należy, to jest *życiem*, postrzeganym *przede wszystkim* jako
+pewnego rodzaju *mechanizm*. Dlatego biolog bez zająknięcia się powie na przykład, że *funkcją*
+serca jest pompowanie krwi i tą własność serca będzie traktował jako kluczową. A jest tego rodzaju
+własność dla biologa kluczowa, bo centralnym pojęciem biologii jest dychotomia i jednocześnie
+porządek określony na zbiorze dwuelementowym, a więc strzałka, *od* śmierci *do* życia. To
+jednocześnie niezły moim zdaniem przykład ilustrujący arbitralność kierunku strzałki czasu, bo ta
+strzałka jest skierowana *ku przeszłości*.
 
 Biolog traktuje życie jako *lepsze* od śmierci, bo inaczej nie postrzegałby na przykład właśnie
 serca jako czegoś, co *w określony sposób*, to jest pompując krew, *służy przeżywaniu*. Gdyby nie o
-to chodziło, serce byłoby *przede wszystkim* czymś *innego rodzaju*, na przykład czymś, co *zajmuje
+to chodziło, serce byłoby *przede wszystkim* czymś *innego rodzaju*. Na przykład czymś, co *zajmuje
 określone miejsce* w organiźmie, albo co *emituje pewną ilość ciepła* w trakcie pracy, i tak
 dalej. A nie jest; serce jest *tym, co pompuje krew*. I biologia jest więc subdyscypliną
-psychologii, zresztą jak wszystkie inne nauki. Z deskryptywnie trafnej definicji.
+psychologii, jak zresztą wszystkie inne nauki, z deskryptywnie trafnej definicji.
 
 Natomiast filozofia jest wyraźnie *inna* od całej reszty. Z jednej strony uprawianie filozofii
 polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo ostatecznymi, takimi jak pytania o
@@ -399,11 +401,14 @@ Teoria kategorii uczy nas, że jeżeli obiekt pewnego rodzaju, taki jak dajmy na
 kartezjański zbiorów, jest ważny - a filozofia, ta zawodowa i ta amatorka, jest niewątpliwie dla
 wielu z nas, ludzi (czasem nawet bardzo) ważna - to warto przynajmniej próbować znaleźć powód tej
 ważności, przyglądając się, dotyczącym przypuszczalnie ważnych własności tego obiektu, *relacjom
-między tym obiektem a innymi obiektami tego samego rodzaju*. Poszukujemy wtedy perspektywy, z której
-danego rodzaju obiekt jest w jakimś sensie ekstremalny, to jest unikalny, albo najlepszy, albo jest
-wzorcowym albo kanonicznym przypadkiem czegoś ogólniejszego. I tak, iloczyn kartezjański zbiorów
-jest, jak zobaczymy później, obiektem końcowym w kategorii diagramów złożonych z par współźródłowych
-strzałek. Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co w iloczynie
+między tym obiektem a innymi obiektami tego samego rodzaju*. 
+
+Ale nie chodzi tu o *jakiekolwiek* relacje, bo taka wskazówka byłaby bezużyteczna. Poszukujemy wtedy
+perspektywy, z której danego rodzaju obiekt jest w jakimś sensie najlepszym albo ekstremalnym
+przypadkiem czegoś ogólniejszego, czyli jest *przypadkiem granicznym* albo wręcz *samą granicą*. I
+tak, iloczyn kartezjański zbiorów jest, jak zobaczymy później, obiektem końcowym (to pewna granica,
+...) w kategorii diagramów złożonych z par współźródłowych strzałek (... a to są obiekty tego samego
+rodzaju). Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co w iloczynie
 kartezjańskim jest najważniejsze, a więc w pewnym sensie jego "istotę" albo "prawdziwą naturę".
 
 Ponieważ w tej książce nieustannie przyglądam się z różnych stron myśleniu, mówienu, czytaniu,
@@ -420,54 +425,55 @@ argumentacji, a przede wszystkim obiecujących *punktów nacisku*, to jest miejs
 próbować znaleźć jakieś dziury w rozumowaniu albo innego rodzaju wady. I nigdy wcześniej, ani nigdy
 później nie miałem do czynienia z tekstami, w przypadku których to byłoby tak *trudne*. Nawet
 czytanie w liceum i później stosunkowo hermetycznej poezji nie wiązało się dla mnie nigdy z
-poczuciem równie silnego oporu materii językowej, choć może dlatego, że wobec poezji miałem całkiem
-inne oczekiwania.
+poczuciem równie silnego oporu materii językowej, choć może dlatego, że wobec poezji miałem inne
+oczekiwania.
 
-Filzofowie mają do tekstów źródłowych stosunek szczególny. Nie da się tego porównać z niczym, co ma
-miejsce we *żadnych* innych dyscyplinach naukowych czy akademickich. Na przykład, dla matematyka
-matematyczny tekst źródłowy ma zwykle znaczenie prawie całkowicie *historyczne*, podobnie jak dla
-dla biologa tekst napisany przez biologa, dla fizyka tekst napisany przez fizyka, albo dla
+Filzofowie mają do tekstów źródłowych stosunek szczególny. Nie da się tego chyba porównać z niczym,
+co ma miejsce we *żadnych* innych dyscyplinach naukowych czy akademickich. Na przykład, dla
+matematyka matematyczny tekst źródłowy ma zwykle znaczenie prawie całkowicie *historyczne*, podobnie
+jak dla dla biologa tekst napisany przez biologa, dla fizyka tekst napisany przez fizyka, albo dla
 psychologa tekst napisany przez jakiegoś psychologa. Nawet literaturoznawcy, dla których przedmiotem
 badania są teksty źródłowe, traktują je inaczej niż filozofowie traktują teksty filozofów.
 
 Zgaduję, że gdy literaturoznawca pisze tekst naukowy na temat na przykład jakiegoś dzieła
 literackiego, powstający w ten sposób tekst naukowy nie musi być potem, w ogólnym przypadku, czytany
-w oryginale, bo można zawarte tam główne treści przekazać na wiele różnych sposobów niewiele przy
-tym tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między interpretacją tekstu źródłowego
-i tekstem źródłowym, bo teksty filozoficzne, w każdym razie te *ważne*, które są wynikiem
-interpretacji i analizy innych tekstów filozoficznych, *same wymagają filozoficznej interpretacji i
-analizy*. Dlaczego? I po co?
+w oryginale, bo można zawarte tam główne treści przekazać na wiele sposobów niewiele przy tym
+tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między interpretacją tekstu źródłowego i
+tekstem źródłowym, bo teksty filozoficzne, w każdym razie te *ważne*, które są wynikiem
+filozoficznej interpretacji i analizy innych tekstów filozoficznych, *same wymagają filozoficznej
+interpretacji i analizy*. Może to sprawka łobuza Urobora? Dlaczego tak jest? I po co?
 
 Może dlatego, że filozofia polega w niemałym stopniu na *odkrywaniu nowych* i *nieredukowalych
 pojęć*, czy nawet całych *struktur* pojęciowych? A więc na wskazywaniu i badaniu pojęć w pewnym
 sensie *początkowych* albo, w jakiś sposób dualnie, a więc równoważnie, *końcowych*? A mówiąc
 metaforycznie i zmieniając rejestr, żeby zacząć łowić więcej nowych skojarzeń:
 
-*Czy nie jest filozofia poszukiwaniem jasnych konstelacji struktur pojęciowych na nieboskłonie
-naszych nieunikalnych poznawczych celów?*
+*Czy nie jest filozofia poszukiwaniem jasnych konstelacji struktur pojęciowych na gęstym i ciemnym
+nieboskłonie naszych nieunikalnych poznawczych celów?*
 
 *Uff*. Robiąc takie rzeczy trzeba powitać z otwartymi ramionami wyzwalający w dostecznie dużej dawce
 nektar zażenowania (i pozwolić sobie na boleśnie niespójne i pokraczne rezultaty, takie jak zdanie,
 w które się właśnie wtrącam pisząc nawiasem \{a które po tym, jak stanie się "dobrem publicznym",
 spełni ostatecznie swoją wyzwalajacą rolę ⟨zauważyłaś, że w tym pisaniu prawie we wszystkim jest
-jakaś *metoda* \[inaczej *deklarowany* albo *zamierzony* cel ⟪...[^3]⟫]⟩?\}).
+jakaś *metoda* \[inaczej *deklarowany* albo *zamierzony* cel ⟪...[^3]⟫]?⟩\}).
 
 Może dlatego filozofia *nie ma metody*? I dlatego, choć nauki mają swój *początek* w filozofii, to
 jednocześnie żadna nauka z filozofii *nie wynika*, a gdy już jakaś dyscyplina naukowa z filozofii
 się wyobrębni, tak jak teraz wyobrębnia się z niej psychologia, prędko staje się autonomiczna i
-zwykle ewidentnie filozofii *przestaje potrzebować*?
+zwykle (jako dyscyplina, nie jako uprawiający ją ludzie) ewidentnie filozofii *przestaje
+potrzebować*?
 
-Zastrzegam jednak, że na ten pomysł wpadłem dzisiaj i niewykluczone, że go przerobię lub
-porzucę. Ponieważ jednak mogę pisać w tej książce, o czym tylko chcę i w jaki tylko mam ochotę
+Zastrzegam jednak, że na ten pomysł wpadłem dzisiaj[^5] i niewykluczone, że go przerobię lub
+porzucę. Ponieważ jednak mogę pisać w tej książce o czym tylko chcę i w jaki tylko mam ochotę
 sposób, co sprawiło, że uczę się tak szybko, tak wielu rzeczy i dostarcza mi to tyle radości, a
 czasem nawet wzruszeń, że nie mogę tego porównać z niczym, czego doświadczyłem ucząc się
 czegokolwiek w jakikolwiek sposób wcześniej, a filozofię zacząłem po latach zachowywania chłodnego
-dystansu znów lubić i cenić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
+dystansu znów cenić i lubić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
 
-Byłby i o tym zapomniał: Sztuczna inteligencja to *dział psychologii stosowanej*, co już od dawna
-powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że obecnie
-zajmują sią nią ludzie znacznie lepiej przygotowani do uprawiania psychologii teoretycznej, niż
-współcześni psychologowie.
+Byłby i o tym zapomniał: Sztuczna inteligencja to *dział psychologii stosowanej*, co od dawna
+powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że zajmują sią
+nią ludzie znacznie lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc również
+naukowej, niż współcześni psychologowie.
 
 I teraz mogę już odetchnąć i wrócić do
 [rozpracowywania](https://youtu.be/PQLySgRW6y8?si=DkOxgyHo44cJeYlv) porządków.
@@ -477,15 +483,15 @@ I teraz mogę już odetchnąć i wrócić do
 Gdy prosimy osobę partnerską, żeby zrobiła nam herbatę, rozpoczynamy proces, który zakończy się albo
 sukcesem, albo porażką. No ale to nie jest oczywiście takie proste, bo osoba partnerska może nas nie
 usłyszeć, albo usłyszeć błędnie i zamiast herbaty przynieść nam (jakieś czyjeś) papiery
-rozwodowe. Albo możemy dostać herbatę, ale nie taką, jak chcieliśmy. Albo w "złym kubku". Albo może
+rozwodowe. Albo możemy dostać herbatę, ale nie taką, jaką chcieliśmy. Albo w "złym kubku". Albo może
 być tak, że pod względem herbaty i jej otrzymania można powiedzieć, że pełen sukces, ale zaraz po
 otrzymaniu osoba partnerska mówi nam, że musimy poważnie porozmawiać, a potem, że to nie jesteśmy
-my, to jest ona. Wtedy dostajemy niby taką herbatę, jaką chcieliśmy, ale jednocześnie jednak,
-uświadamiamy sobie dopiero po fakcie, funkcjonalnie nie taką, jaką "naprawdę" chcieliśmy, to jest
-czarną popołudniową herbatę pocieszającą. 
+my, to jest ona. Wtedy dostajemy niby taką herbatę, jaką chcieliśmy, ale jednocześnie jednak -
+uświadamiamy sobie dopiero po fakcie - funkcjonalnie nie taką, jaką "naprawdę" chcieliśmy, to jest
+czarną popołudniową herbatę pocieszającą.
 
 Tego rodzaju wieloaspektowa ocenialność skutków różnych działań (a dokładniej prób) to moim zdaniem
-samo serce psychologii. "Zwyczajny" psycholog mógłby zaraz powiedzieć, że to nie jest naukowe, bo to
+samo serce psychologii. Współczesny psycholog mógłby powiedzieć, że to nie jest naukowe, bo to
 jakieś podejrzane rezultaty *introspekcji*, której współczesna "naukowa" psychologia od dawna już
 nie akceptuje jako metody "naukowej". No tak, ale to przecież w oczywisty sposób *nie* są rezultaty
 introspekcji, tylko *zmyślenia*. Ze względu na ich szczególną rolę nie ma znaczenia, skąd się te
@@ -504,18 +510,18 @@ porównywalny, a to też są własności jabłek i pomarańczy odpowiednio. Gdyb
 pomarańcza jako taka były kategoriami, to jedna z nich miałaby ... Ale chyba już wiesz, o co mi
 chodzi.
 
-Wróćmy do pozornie luźno związanej z tematem filii w Radomiu, o której mówiliśmy w poprzednim
+Wróćmy do - pozornie luźno związanej z tematem - filii w Radomiu, o której mówiliśmy w poprzednim
 rozdziale. Załóżmy, że nowe budynki są `2`, a wydziały są `3`, za to liczba pięter (też `3`) zgadza
 się z liczbą poziomów hierarchii władzy. Naturalnie byłoby wtedy mapować injektywnie liniowy
-porządek szczebli na porządek pięter, ale pracownicy jakiś dwóch wydziałów musieliby pracować w tym
-samym budynku, *to* mapowanie byłoby więc *nie*injektywne, za to byłoby (tak jak poprzednie)
+porządek szczebli władzy na porządek pięter, ale pracownicy jakiś dwóch wydziałów musieliby pracować
+w tym samym budynku, *to* mapowanie byłoby więc *nie*injektywne, za to byłoby (tak jak poprzednie)
 surjektywne.
 
 **Powtórka z pojęcia kategorii generowanej przez graf**: Przypominam, że same grafy to jeszcze nie
 kategorie, bo graf jako taki to tylko pewnego rodzaju "statyczny rysunek", który *nie* jest
-wyposażony w *działanie* składania strzałek. Dlatego, gdy odtąd o jakimś grafie będę mówił jako o
+wyposażony w działanie składania strzałek. Dlatego, gdy odtąd o jakimś grafie będę mówił jako o
 kategorii, będzie mi chodziło zawsze o (unikalną, dlatego ten sposób mówienia jest akceptowalny)
-kategorię *generowaną* przez ten graf. 
+kategorię *generowaną* przez ten graf.
 
 Na przykład, *graf* `A → B → C` generuje kategorię, której 1. obiektami są węzły grafu (tutaj `A`,
 `B` i `C`), a 2. strzałkami są 2.1. identyczności odpowiadające dokładnie węzłom grafu,
@@ -528,24 +534,36 @@ między innymi (kategoryjna) strzałka `Boss_wydzialowy → Nikt_wazny`, będąc
 widocznych na tym grafie, a poza tym każdy jest Panią samego siebie ("dosypane" identyczności
 obiektów/węzłów, oznaczających stanowiska w firmie).
 
+Przypominam, że można myśleć o tego rodzaju konstrukcjach na następujące dwa sposoby, z których
+jeden może być mniej stresujący niż drugi: Możemy myśleć o takich konstrukcjach jako o *rezultatach
+procesu* dokładania jakiś rzeczy (tutaj strzałek) spełniających jakieś warunki (tutaj składania
+kategoryjnego). Z jednej strony ten sposób myślenia daje chyba wrażenie konkretności albo dynamiki,
+czy nawet "ożywienia", ale z drugiej może wywołać poczucie, że to wszystko nie mieści nam się w
+głowie, zwłaszcza, gdy te konstrukcje są "duże" lub nieskończone. Drugi sposób polega na myśleniu o
+takich konstrukcjach jako o *listach kryteriów*, które spełnia każda konstrukcja danego rodzaju. Z
+tej perspektywy operujemy *tylko* krótką listą kryteriów, które spełnia kategoria generowana przez
+graf i których spełnienie gwarantuje unikalność takiej kategorii. Dopóki nie zajdzie taka potrzeba,
+nie trzeba próbować wyobrażać sobie szczegółowo takiej kategorii; trzeba tylko albo pamiętać te
+kryteria, albo umieć je znaleźć.
+
 Poniżej mamy kategorię `Pracownicy`. Na tym diagramie, poprzedzonym czymś w rodzaju "preambuły"
-definiującej typowanie - a więc i tu pomieszałem dwa różne języki, z których jeden właśnie
-wymyśliłem - strzałka oznacza bezpośrednie zwierzchnictwo. Żeby było ciekawiej, ten diagram *nie*
-jest grafem generującym kategorię, o którą nam chodzi, tylko (przedstawioną w zarysie) kolekcją
-strzałek, z których taki graf można w narzucający się sposób złożyć. Uzyskany w ten sposób graf
-będzie miał między innymi *ścieżkę* `Dżessika → Monika → Stefan`. Czyli to akurat jest *diagram
-generujący graf generujący kategorię*.
+definiującej typowanie - a więc i tu pomieszałem dwa różne języki, z których jeden (mikrojęzyk
+dziedzinowy) właśnie wymyśliłem - strzałka oznacza bezpośrednie zwierzchnictwo. Żeby było ciekawiej,
+ten diagram *nie* jest grafem generującym kategorię, o którą nam chodzi, tylko (przedstawioną w
+zarysie) kolekcją strzałek, z których taki graf można w narzucający się sposób złożyć. Uzyskany w
+ten sposób graf będzie miał między innymi *ścieżkę* `Dżessika → Monika → Stefan`. Czyli to akurat
+jest *diagram generujący graf generujący kategorię*.
 
 ```
 -- Preambuła
 
 Pracownik, Wydzial : Type
 
-Robert, Danuta, Mieszko, Dżessika, Stefan, Monika, ... : Pracownik
-
 A, B, C : Wydzial
 
 Jest_w_wydziale : Pracownik → Wydzial → Prop
+
+Robert, Danuta, Mieszko, Dżessika, Stefan, Monika, ... : Pracownik
 
 ∀ x ∈ {Robet, Danuta, Mieszko}, Jest_w_wydziale x A
 
@@ -557,11 +575,11 @@ Dżessika → Danuta
 
 Dżessika → Monika
 
-Danuta → Robert
+Danuta   → Robert
 
-Danuta → Mieszko
+Danuta   → Mieszko
 
-Monika → Stefan
+Monika   → Stefan
 
 ...
 ```
@@ -574,7 +592,7 @@ Boss → Boss_wydzialowy → Ktos_kto_jest_mily_tylko_wobec_boss_wydzialowy → 
 ```
 
 ... i istnieje też naturalne mapowanie hierarchii władzy na kategorię piętra budynków `3 → 2 →
-1`. Byłbym zapomniał, że osoba szefowska pracuje z domu! Dlatego w tym kontekście interesuje nas
+1`. Byłbym zapomniał, że Osoba Szefowska pracuje z domu! Dlatego w tym kontekście interesuje nas
 kategoria taka jak wyżej, ale bez obiektu początkowego (czyli takiego jakby najmniejszego albo,
 przynajmniej potencjalnie, pustego w środku) `Boss`:
 
@@ -614,14 +632,13 @@ są w tym samym porządku albo, równoważnie, w tej samej cienkiej kategorii *n
 
 **Mały słownik sprzątacza**: Czuję, że teraz już muszę powiedzieć więcej o samej
 terminologii. Relacje (`R ⊆ X × X`) zwrotne (`∀ x : X, x R x`) i przechodnie (`∀ x y z : X, x R y →
-y R z → x R z`), ale *niekoniecznie* antysymetryczne, nazywamy *praporządkami*, a po angielsku
-(spolszczając) *preorderami*. Praporządki to dokładnie cienkie kategorie, w których mogą występować
-pary różnych obiektów izomorficznych albo, mówiąc równoważnie, kategorie cienkie, w których
-występują strzałki przeciwrównoległe nie będące identycznościami. Nie mam pojęcia, który sposób
-myślenia jest dla Ciebie w tym momencie najwygodniejszy, ale całkiem możliwe, że *rysunkowy*,
-dlatego zachęcam do prób oswojenia się z tą terminologią (bo to jest niemal w całości tylko gęsta
-\{i zarazem niezwykle użyteczna\} terminologia, dotycząca bardzo prostych zjawisk, którą wystarczy w
-miarę dobrze zapamiętać) za pomocą jakiejś częściowo rysunkowej notatki.
+y R z → x R z`) nazywamy *praporządkami*, a po angielsku (spolszczając) *preorderami*. Praporządki
+to dokładnie cienkie kategorie, w których mogą występować pary różnych obiektów izomorficznych albo,
+mówiąc równoważnie, kategorie cienkie, w których mogą występować strzałki przeciwrównoległe nie
+będące identycznościami. Nie mam pojęcia, który sposób myślenia jest dla Ciebie w tym momencie
+wygodniejszy, ale możliwe, że *rysunkowy*, dlatego zachęcam do prób oswojenia się z tą terminologią
+(bo to jest niemal w całości tylko gęsta \{i zarazem niezwykle użyteczna\} terminologia, dotycząca
+bardzo prostych zjawisk, którą wystarczy w miarę dobrze zapamiętać) za pomocą rysunkowej notatki.
 
 Relacje częściowego porządku to praporządki antysymetryczne (`∀ x y : X, x R y → y R x → x = y`),
 czyli relacje takie jak relacja `≤`, określona na jakimś zbiorze liczb: Jeżeli `x ≤ y` i `y ≤ x`, to
@@ -634,42 +651,41 @@ liczb naturalnych, o których zresztą często myślimy, że układają się w l
 nie ma końca. Porządek liniowy to poset, w którym *porównywalna* jest *każda* para elementów (`∀ x
 y : X, x R y ∨ y R x`). W ogólnym przypadku zarówno preordery jak i posety mogą się składać z
 *oddzielnych* [drzew](https://pl.wikipedia.org/wiki/Drzewo_(informatyka)) (rozumianych jako pewien
-typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preordery mogą mieć różne
-elementy połączone dwukierunkowo w poziomie, a posety nie.
+typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preordery mogą mieć węzły
+połączone dwukierunkowo w poziomie, a posety nie.
 
 Może jeszcze jeden przykład przed *główną* sugestią. Opiszę go celowo w dużym skrócie, żebyś miała
 okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii *ubierania się* obiektami są
 *ogólnie* scharakteryzowane zestawy nałożonych na własną osobę elementów ubioru, takie jak (jakaś)
-bluzka + (jakieś) spodnie + (jakaś) czapka + jakieś (skarpetki). Strzałkami są *konkretne
-egzemplarze* lub *sekwencje* ubrań, a więc składanie strzałek daje nam strzałki reprezentujące
-*ścieżki* w abstrakcyjnej przestrzeni ubierania się. Struktura tej kategorii odzwierciedla
+bluzka + (jakieś) spodnie + (jakaś) czapka + jakieś (skarpetki). Ponieważ musimy mamy działanie
+składania, strzałkami są *konkretne egzemplarze* lub *sekwencje* ubrań, a więc składanie można
+rozumieć jako proces konstruowania *ścieżek ubierania się*. Struktura tej kategorii odzwierciedla
 ograniczenia tego procesu. Na przykład, (idealizując) nie da się ubrać [najpierw butów, a potem
 skarpet](https://math.oxford.emory.edu/site/math108/socks_and_shoes/).
 
-W przypadku większości ludzi mieszkających w Polsce, ta kategoria *nie* będzie cienka, bo będzie
-istniała na przykład więcej niż jedna strzałka zakładania pary skarpet. Można jednak, całkiem
-sensownie, zignorować różnice między niektórymi albo wszystkimi równoległymi strzałkami, uzyskując w
-ten sposób strzałki reprezentujące ogólne kategorie części ubioru. Takie przekształcenie jakiejś
-struktury (niekoniecznie kategorii), polegające na *zrównaniu* pewnych jej części *z zachowaniem
-struktury ogólnej* Lawvere lubił nazywać przekształceniem *osobliwym*. Ponieważ to moim zdaniem
-piękne słowo, jak również na jego cześć, też tak będziemy czasem mówić.
+W przypadku większości ludzi mieszkających w Polsce, ta kategoria *nie* będzie cienka, bo będzie na
+przykład (miejmy nadzieję) istniała więcej niż jedna strzałka zakładania pary skarpet. Można jednak,
+całkiem sensownie, zignorować różnice między niektórymi równoległymi strzałkami, uzyskując w ten
+sposób strzałki reprezentujące ogólne części ubioru (ale czy tylko? warto rozważyć *mały*
+przykład). Przekształcenie jakiejś struktury (niekoniecznie kategorii), polegające na *zrównaniu*
+albo "sklejeniu" pewnych jej części *z zachowaniem struktury ogólnej* Lawvere lubił nazywać
+przekształceniem *osobliwym*. Moim zdaniem to jest piękne słowo, więc na cześć Lawvere'a też tak
+będziemy mówić.
 
-**Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka? Pisząc to zdanie sam jeszcze nie
-wiem!
+**Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka?
 
-Moglibyśmy też zrównać ze sobą wszystkie strzałki względem siebie równoległe i uzyskalibyśmy wtedy
-cienką kategorię, która reprezentowałaby same "nagie fakty" istnienia jakiejś możliwości przejścia
-od jednego ogólnego stroju do drugiego. Ta kategoria przypominałaby więc kategorię ... zdań i
-dowiedlności.
+Moglibyśmy zrównać ze sobą wszystkie strzałki względem siebie równoległe i uzyskalibyśmy wtedy
+(różną od poprzedniej?) cienką kategorię, która reprezentowałaby same "nagie fakty" istnienia
+możliwości przejścia od jednego ogólnego stroju do drugiego. Przypominałaby więc kategorię ... zdań
+i dowiedlności.
 
-**Pomniejsza sugestia**: Czy ta kategoria ma obiekt końcowy? Co jest w tej kategorii obiektem
-początkowym?
+**Pomniejsza sugestia**: Czy ta kategoria ma obiekt końcowy? Co jest w niej obiektem początkowym?
 
 Jak widzisz, kategorie są *dosłownie wszędzie*. Moim zdaniem po prost dlatego, że teoria kategorii
 wyraża ukrytą, wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze
 uniwersalne sposoby myślenia.
 
-**Może i główna, jednak wciąż tylko sugestia**: Zastanów się może, w jaki sposób mogłabyś *zacząć*
+**Może i główna, ale wciąż tylko sugestia**: Zastanów się może, w jaki sposób mogłabyś *zacząć*
 próbować konstruować dowód tego twierdzenia. Podkreślam, że nie sugeruję, żebyś je udowodniła,
 chociaż jestem przekonany, że zrobiłabyś to bez większego trudu, zakładając, że udałoby Ci się
 zachować odpowiednie *nastawienie*. Chodzi mi raczej o próbę *metarefleksji* na temat własnych
@@ -679,11 +695,14 @@ będzie do nich wrócić.
 Wprowadzam tu uproszczony sposób pisania, odpowiadający często stosowanemu uproszczonemu sposobowi
 mówienia, zgodnie z którym relacja to domyślnie relacja binarna określona na jednym
 zbiorze. Zmieniłem też konwencję i zacząłem znowu pisać (prawie) wszystko z małych liter, bo taką
-miałem ochotę i Ciebie też zachęcam do osobistego i swobodnego podejścia do notacji.
+miałem ochotę i Ciebie też zachęcam do osobistego i swobodnego podejścia do notacji ("powinno się"
+to tylko *czyiś nacisk*).
 
-Zwracam uwagę, że definicja elementu najmniejszego ze względu na jakąś relację (binarną na tym
-jednym zbiorze) *nie* zakłada, że dana relacja jest w jakimkolwiek sensie relacją porządku. Ta
-relacja może być *dowolna* (o ile tylko jest binarna i na tym samym zbiorze).
+Zwracam uwagę, że definicja elementu najmniejszego ze względu na jakąś relację (binarną na jednym
+zbiorze) *nie* zakłada, że dana relacja jest w jakimkolwiek znaczeniu relacją porządku. Ta relacja
+może być *dowolna* (o ile tylko jest binarna i na tym samym zbiorze). To moim zdaniem dobry przykład
+wyabstrachowania własności, którą *warto* nazywać w taki początkowo mylący sposób, bo pozwala
+korzystać z trudnych do wykrycia analogii.
 
 ```lean
 def rel α := Binrel α α
@@ -702,18 +721,18 @@ def preorder  := refl R ∧ trans R
 def poset     := preorder R ∧ antisymm R
 
 -- Jeżeli przyszło Ci do głowy, że warto byłoby tu zastosować klasy typów, to brawo. Faktycznie
--- byłoby warto, moglibyśmy wtedy na przykład pisać `x ≤ y` i struktura klas pięknie pasowałaby do
+-- byłoby warto; moglibyśmy wtedy na przykład pisać `x ≤ y` i struktura klas pięknie pasowałaby do
 -- wyrażanej przez nią struktury pojęciowej, ale dla naszych skromnych celów ta wersja nam teraz
 -- wystarczy.
 
 -- Element najmniejszy *ze względu na relację `R`* to taki `x`, że dla każdego `y`, `x R y`, a w
--- notacji przedrostkowej (ostatnio stosuję literę "v" na oznaczenie zmiennej, która "się bardziej zmienia"):
+-- notacji przedrostkowej:
 def least x := ∀ v, R x v
 
 -- Ostatnio lubię stosować literę "v" (jak w słowie "variable") na oznaczenie zmiennej, która się
 -- "bardziej zmienia", a "x" na oznaczenie "relatywnie globalnego" parametru.
 
--- Uwaga, relację trzeba podać jako pierwszy jawny argument (typu `α` Lean się sam domyśli).
+-- Uwaga, relację trzeba podać jako pierwszy jawny argument (Lean domyśli się typu `α`).
 #check least -- least.{u_1} {α : Sort u_1} (R : rel α) (x : α) : Prop
 
 -- Na dobry początek warto zauważyć, że to tylko jakaś implikacja ...
@@ -786,3 +805,7 @@ No przecież mówię, że nikt. Kiedy nikt nie przychodzi, to właśnie przychod
     impreza odbywała się z powodu zamknięcia szokły flamenco, było to więc doświadczenie pod wieloma
     względami intensywne, zaproponowałem przyjaciołom i znajomym *konkurs tańca
     żenującego*. Polecam.
+
+[^4]: A po angielsku i bawiąc się znaczeniami, *Correctness is the order of psychology*.
+
+[^5]: To jest w pięćdziesiąte urodziny Tomka.
