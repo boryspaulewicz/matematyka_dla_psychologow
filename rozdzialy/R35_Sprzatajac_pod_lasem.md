@@ -412,10 +412,11 @@ między tym obiektem a innymi obiektami tego samego rodzaju*.
 Ale nie chodzi tu o *jakiekolwiek* relacje, bo taka wskazówka byłaby bezużyteczna. Poszukujemy wtedy
 perspektywy, z której danego rodzaju obiekt jest w jakimś sensie najlepszym albo ekstremalnym
 przypadkiem czegoś ogólniejszego, czyli jest *przypadkiem granicznym* albo wręcz *samą granicą*. I
-tak, iloczyn kartezjański zbiorów jest, jak zobaczymy później, obiektem końcowym (to pewna granica,
-...) w kategorii diagramów złożonych z par współźródłowych strzałek (... a to są obiekty tego samego
-rodzaju). Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co w iloczynie
-kartezjańskim jest najważniejsze, a więc w pewnym sensie jego "istotę" albo "prawdziwą naturę".
+tak, iloczyn kartezjański zbiorów jest, jak zobaczymy później, obiektem końcowym (to właśnie pewna
+granica, ...) w kategorii diagramów złożonych z par współźródłowych strzałek (... a to są obiekty
+tego samego rodzaju). Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co w
+iloczynie kartezjańskim jest najważniejsze, a więc w pewnym sensie jego "istotę" albo "prawdziwą
+naturę".
 
 Ponieważ w tej książce nieustannie przyglądam się z różnych stron myśleniu, mówienu, czytaniu,
 pisaniu, rozmawianiu, komunikacji, myśleniu jako przepisywaniu, programowaniu i metaprogramowaniu, a
