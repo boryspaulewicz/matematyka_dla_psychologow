@@ -304,7 +304,7 @@ Otóż to. Twoje, a raczej, nie oszukujmy się, nasze przywiązanie do postrzega
 czegoś, co ma niearbitralny kierunek, wynika całkowicie z naszej *postawy* wobec *skutków* upływu
 czasu. Generalnie wolimy mieć wybór, a w każdym razie wolimy mieć poczucie, że go mamy, a wobec
 przeszłości nie możemy tego czuć. Skąd wiesz, jak postrzegałabyś kierunek czasu, gdybyś uświadamiała
-sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej *oddalałyby się* w przeszłość? Twoje
+sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej *oddalałyby* się w przeszłość? Twoje
 życie trwałoby wtedy krótko, bo działająca w ten sposób pamięć byłaby niemal bezużyteczna, ale może
 czułabyś też, że wraz z gwałtownym umieraniem stajesz się *coraz mniej sobą* i *spadasz w nicość
 śmierci*, jakbyś patrzyła w oddalające się szybko okno studni życia, które coraz bardziej staje się
