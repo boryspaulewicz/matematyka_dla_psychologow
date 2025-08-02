@@ -422,12 +422,12 @@ piękne czasy.
 
 Z Fryderyka N. na szczęście prędko wyrosłem. Chociaż, gdy teraz myslę o tym zdaniu, którym tak
 chętnie wtedy uraczyłem Bogu ducha winną katechetkę, muszę mu przyznać rację. I jednocześnie muszę
-mu jej odmówić. *Z definicji* nie istnieje wola nieegoistyczna, ale Ego może przyjmować różne
-formy. Dokładniej, może *przyjmować różne wcielenia Się*. Wola może być związana z wąsko i
-krótkowzrocznie pojętym własnym interesem i wtedy stajemy się egoistami *mniejszymi*, albo może być
-związana z interesem Wspólnoty; i wtedy nadal jesteśmy, bo zawsze jesteśmy - lecz tylko w trywialnym
-znaczeniu tego słowa - egoistami, ale stajemy się wtedy egoistami w dobrym znaczeniu *większymi*. I
-to też są, na wskroś i z której by nie patrzeć strony, relacje porządku.
+mu jej odmówić. Tylko z pewnej, trywialnej definicji nie istnieje wola nieegoistyczna, ale Ego może
+przyjmować różne formy. Dokładniej, może *przyjmować wcielenia Się*. Wola może być związana z wąsko
+i krótkowzrocznie pojętym własnym interesem i wtedy stajemy się egoistami *mniejszymi*, albo może
+być związana z interesem Wspólnoty; i wtedy nadal jesteśmy, bo zawsze jesteśmy - lecz tylko w
+trywialnym znaczeniu tego słowa - egoistami, ale stajemy się wtedy egoistami w dobrym znaczeniu
+*większymi*. I to również są, na wskroś i z której by nie patrzeć strony, relacje porządku.
 
 Kiedy jesteśmy *mniejszymi* egoistami, najbardziej krzywdzimy siebie, a raczej nasze ciało, bo
 stajemy się wtedy *samotni*, a samotność jest dla nas być może najgłębszą formą cierpienia. I
