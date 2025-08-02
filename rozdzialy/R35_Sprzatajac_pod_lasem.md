@@ -304,8 +304,7 @@ warto je przyjąć między innymi po to, żeby mieć dzięki temu chociaż *szan
 niedostrzegalnych, potencjalnie głębokich analogii.
 
 Teoria kategorii to abstrakcyjna algebra składania teoriomnogościowych funkcji, a więc - można teraz
-powiedzieć, że *dosłownie* - *algebra elementarnego oznaczania*. Najprostsza nietrywialna kategoria,
-...
+już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywialna kategoria, ...
 
 `I → T`
 
