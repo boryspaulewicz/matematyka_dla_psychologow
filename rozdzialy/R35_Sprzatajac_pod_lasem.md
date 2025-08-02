@@ -242,6 +242,8 @@ dokładnie jednego rodzica, Matkę psychologię, która pilnuje, żeby Dzieci si
 cóż, albo się ulotnił, albo nigdy go nie było i jako Ten Nieistniejący spełnił swój rodzicielski
 obowiązek pusto.
 
+<hr>
+
 <br>
 
 **Sugestia**:
@@ -257,6 +259,8 @@ to powiedz mi, proszę,
 gdzie "ja" *dokładnie* błądzę.
 
 <br>
+
+<hr>
 
 W szczególności, gdzie w jakiejkolwiek innej dyscyplinie nauki znajdziemy jako *centralne* pojęcie
 *działania celowego*? Struktury badane przez matematyków są ostatecznie *arbitralne*. Niearbitralne
@@ -439,161 +443,61 @@ zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartośc
 *nie da się* być ważnym w jedynym sensie, który się naprawdę liczy - poprzez niesienie pomocy. I to
 wszystko też jest, na wskroś i z której by nie patrzeć strony, psychologia.
 
+W tym sensie [karma](https://pl.wikipedia.org/wiki/Karma), to jest *czyn*, *dzieło* albo *działanie*
+nie tyle *wraca*, co zwyczajnie działa. Na przykład, pisząc tą książkę założyłem, że tłumacząc, o co
+chodzi w matematyce i programowaniu będę o wiele bardziej polegał na języku naturalnym, niż robią to
+na ogół nawet Ci bardziej przyjaźni czytelnikom matematycy. To wymagało wprowadzenia zabiegów
+językowych, strukturalnych, a czasem literackich, które mnie samemu pomogły lepiej wiele rzeczy
+zrozumieć i radość ze stosowania ich tylko zwiększyła motywację do pisania. Niedawno postanowiłem
+sprawdzić, jak mi się teraz czyta starych znajomych i w związku z tym sięgnąłem po pięknie i ciepło
+napisane, dostępne za darmo [wprowadzenie do teorii
+kategorii](https://www.logicmatters.net/categories/#gentle) Petera Smitha.
+
+Wydaje mi się, że na tym etapie mogłabyś czytać ten tekst dla samej przyjemności rozpoznawania na
+nowo spraw, które już w większości całkiem nieźle poznałaś, delektując się przy tym wyjątkową
+elegancją i lekkością stylu tego autora. Jednak pewnie pierwszy raz trafiłabyś na wymagającą
+znacznej zmiany tempa ścianę najpóźniej na stronie dziesiątej, bo Smith zakłada tam znajomość
+elementów teorii grup, których dotąd nie wprowadzałem nawet tylko niejawnie. 
+
+Czytając jedno z pojawiających się tam wcześnie zadań zdałem sobie sprawę z innego dobrodziejstwa
+(dla mnie!), wynikającego ze specyficznego podejścia, jakie stosuję w tej książce. Smith, jak to
+zawodowy matematyk, omawia zwykle tak zwane rytunowe dowody w dużym skrócie. Z jednej strony chodzi
+o to, żeby czytelnicy ćwiczyli robienie ich "w głowie" i żeby musieli włożyć w to pewien
+wysiłek. Ale z drugiej strony, nie rozpisując szczegółowo na najmniejsze kroki prostych zadań i
+polegając zamiast tego na lotnej myśli, *uniemożliwiamy* sobie zobaczenie w tych zadaniach czegoś
+nowego, bo *tekst* można dowolnie długo obsrewować, badać i przerabiać, ale *myśli* już
+nie. Automatyzacja ma w tym kontekście ogromne zalety, bo zwiększa poziom wykonania, ale ma też
+jedną *ogromną* wadę - zmniejsza szansę na dostrzeżenie mniej oczywistych analogii. A raz
+zautomatyzowany sposób myślenia trudno potem zrekonstruować.
+
+Zauważyłem też, że nawet ktoś taki jak Smith korzysta z języka naturalnego głównie w celu rozwijania
+ogólnej narracji, a w znacznie mniejszym stopniu w celu naświetlania, również *sobie*, różnych
+aspektów formalnych konstrukcji i działań. Nie tylko czytelnicy na tym tracą, ale traci i sam autor,
+bo nie korzysta wtedy z możliwości stworzenia nowej gęstej i aktywnej sieci skojarzeń, której wpływu
+na dalsze myślnie nie da się z góry przewidzieć.
+
+No więc taka ta karma. Im bardziej wykorzystuje się swoje najbardziej obiecujące talenty i
+kompetencje żeby przydać się w jakiś sensowny sposób innym, tym bardziej te talenty i kompetencje
+rosną i się rozwijają. Bo nic innego nie mają do roboty. I to też jest psychologia.
+
 <hr>
 
-Ale wracając na ziemię i do podjętych już wynurzeń, zamiłowanie do filozofii trwało przez całe
-liceum i dlatego najpierw zdałem właśnie na filozofię. Być może częściowo z powodu tego, jakie to
-coraz gorsze efekty w kolejnych latach dawało połączenie mojej prokrastynacji i lekkomyślności z
-ogromną elastycznością terminów zaliczeń, jaką charakteryzowało się wtedy studowianie na tym
-kierunku na UJ, ale wydaje mi się jednak, że przede wszystkim z innych, głębszych powodów, któregoś
-dnia, czytając w księgarni opis na obwolucie jakiejś książki wydanej przez [wydawnictwo
-Aletheia](https://www.aletheia.com.pl/) poczułem nagłą i niespodziewaną pewność, że nie mam już do
-tego serca. I tak trafiłem na psychologię.
+Zamiłowanie do filozofii trwało przez całe liceum i dlatego najpierw zdałem właśnie na
+filozofię. Być może częściowo z powodu tego, jakie to coraz gorsze efekty w kolejnych latach dawało
+połączenie mojej prokrastynacji i lekkomyślności z ogromną elastycznością terminów zaliczeń, jaką
+charakteryzowało się wtedy studowianie na tym kierunku na UJ, ale wydaje mi się jednak, że przede
+wszystkim z innych, głębszych powodów, któregoś dnia, czytając w księgarni opis na obwolucie jakiejś
+książki wydanej przez [wydawnictwo Aletheia](https://www.aletheia.com.pl/) poczułem nagłą i
+niespodziewaną pewność, że nie mam już do tego serca. I tak trafiłem na psychologię.
 
 Dopiero niedawno zacząłem wracać, rzadko i z pewną nieśmiałością, do tego typu literatury i wygląda
 na to, że w najbliższej przyszłości będę z niej korzystał częściej i bardziej intensywnie. Uprzedzam
 więc, że w kolejnych rozdziałach mogą się z tego powodu pojawiać fragmenty jeszcze dziwniejsze i
-bardziej żenujące niż dotychczas. Takie jak ten:
+bardziej żenujące niż dotychczas. Takie jak ten, od którego zaczyna się następna część tego znacznie
+dłuższego niż wszystkie wcześniejsze rozdziału. 
 
-## [Potężna Piątka](https://kungfupanda.fandom.com/wiki/Furious_Five)
-
-Najpierw biologia. Od tylu już lat badania neuropsychologiczne są postrzegane przez wielu jako te
-relatywnie "twarde" i "naukowe", z dwóch oczywistych powodów. Mózg steruje zachowaniem, a biologia
-jest (póki co) daleko bardziej zaawansowaną nauką niż psychologia; ma znacznie więcej doniosłych
-zastosowań i przedmiot jej badań często o wiele łatwiej jest obserwować w kontrolowanych warunkach i
-często o wiele ławiej jest dokonywać na nim precyzyjnych interwencji eksperymentalnych. A z drugiej
-strony, nadal nie udało się na przykład znaleźć choćby *jednego* markera biologicznego
-*jakiegokolwiek* zaburzenia psychicznego.
-
-Coś tam wiemy na temat neuronalnych mechanizmów *bardzo wczesnych* etapów prercepcji i coś tam też
-wiemy na inne podobne tematy, ale poza tym wpływ neurpsychologii na psychologię jest jak dotąd tak
-nikły, że gdy ta pierwsza pojawia się w podręcznikach dotyczących tej drugiej, prawie zawsze pojawia
-się jak jakiś kwiatek u kożucha - taka (dla niektorych ekscytująca) ciekawostka, którą trudno w
-jakikolwiek sposób znacząco zintegrować z wiedzą na temat *zachowania*. Ciekawostka typu coś tam się
-*może* świeci w pewnych obszarach bardziej niż w innych, gdy ludzie wykonują, najczęściej w
-*dziwacznych* warunkach, sztuczne i sztucznie uproszczone zadania. A finansowe i nie tylko takie,
-głównie *publiczne* zasoby poszły na tego rodzaju badania jak dotąd ogromne. Jeżeli to jest Twoim
-zdaniem *moralnie akceptowalne*, to bardzo chciałbym wiedzieć *w jakim sensie*.
-
-Dlaczego tak (żałośnie) słabo mimo, że tak (kosmicznie) drogo i - najwyraźniej zdaniem wielu - tak
-obiecująco? Nie tylko moim zdaniem dlatego, że mózg jest ekstremalnie złożony, działa w sposób
-idiosynkratyczny, jest niestacjonarny i w ekstremalnym stopniu zależny od przebiegu dotychczasowej
-interakcji zwierzęcia ze środowiskiem. My to wszystko od dawna już *wiemy*, tylko najwyraźniej *nie
-wyciągamy z tego wniosków*. Niestety, tego rodzaju bezwładność w nauce to nic nowego.
-
-Jednocześnie jednak nie ulega wątpliwości, że *biologia* zajmuje się czymś, co do przedmiotu
-zainteresowań ani fizyki, ani nawet chemii *nie* należy, to jest *życiem*, postrzeganym *przede
-wszystkim* jako pewnego rodzaju *mechanizm*. Dlatego biolog bez zająknięcia się powie na przykład,
-że *funkcją* serca jest pompowanie krwi i tą własność serca będzie traktował jako kluczową. A jest
-tego rodzaju własność dla biologa kluczowa, bo centralnym pojęciem biologii jest dychotomia i
-jednocześnie porządek określony na zbiorze dwuelementowym, a więc strzałka, *od* śmierci *do*
-życia. To jednocześnie niezły moim zdaniem przykład ilustrujący arbitralność kierunku strzałki
-czasu, bo ta strzałka jest skierowana *ku przeszłości*.
-
-Biolog traktuje życie jako *lepsze* od śmierci, bo inaczej nie postrzegałby na przykład właśnie
-serca jako czegoś, co *w określony sposób*, to jest pompując krew, *służy przeżywaniu*. Gdyby nie o
-to chodziło, serce byłoby *przede wszystkim* czymś *innego rodzaju*. Na przykład czymś, co *zajmuje
-określone miejsce* w organiźmie, albo co *emituje pewną ilość ciepła*, i tak dalej. A nie jest;
-serce jest *tym, co pompuje krew*.
-
-Biologia jest więc subdyscypliną psychologii, jak wszystkie nauki. W dodatku z prostej,
-deskryptywnie trafnej definicji, bo każda nauka *jako nauka* jest wytworem i narzędziem
-zachowania. Inaczej mówiąc, właściwie rozumiana psychologia jest *punktem stałym samego badania*.
-
-Natomiast filozofia jest wyraźnie *inna* od całej reszty. Tym, co łatwo rzuca się w oczy jest fakt,
-że uprawianie filozofii polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo
-ostatecznymi, takimi jak pytania o naturę i granice *poznania w ogóle*, albo pytania o *byt w ogóle*
-i o *wartości w ogóle*. Dosyć to niesamowite. I jednocześnie charakterystycznie *nieczytelne*, ale
-*nie* w złym znaczeniu.
-
-Teoria kategorii uczy nas, że jeżeli obiekt pewnego rodzaju, taki jak dajmy na to iloczyn
-kartezjański zbiorów, jest ważny - a filozofia, ta zawodowa i ta amatorska, jest niewątpliwie dla
-wielu z nas, ludzi (czasem nawet bardzo) ważna - to warto przynajmniej próbować znaleźć powód tej
-ważności, przyglądając się, dotyczącym przypuszczalnie ważnych własności tego obiektu, *relacjom
-między tym obiektem a innymi obiektami tego samego rodzaju*.
-
-Ale nie chodzi tu o *jakiekolwiek* relacje, bo taka wskazówka byłaby bezużyteczna. Poszukujemy wtedy
-perspektywy, z której danego rodzaju obiekt jest w jakimś sensie najlepszym albo ekstremalnym
-przypadkiem czegoś ogólniejszego, czyli jest *przypadkiem granicznym*, albo wręcz *samą granicą*. I
-tak, iloczyn kartezjański zbiorów jest, jak zobaczymy później, obiektem końcowym (to właśnie pewna
-granica, ...) w kategorii diagramów złożonych z par współźródłowych strzałek (... a to są obiekty
-tego samego rodzaju). Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co w
-iloczynie kartezjańskim jest najważniejsze, a więc - zawsze tylko w pewnym sensie - jego "istotę"
-albo "prawdziwą naturę".
-
-Ponieważ w tej książce nieustannie przyglądam się z różnych stron myśleniu, mówienu, czytaniu,
-pisaniu, rozmawianiu, komunikacji, myśleniu jako przepisywaniu, programowaniu i metaprogramowaniu, a
-później będę się też przyglądał abstrakcyjnie rozumianemu dialogowi, to spróbuję do tego podejść
-właśnie od tej strony (a raczej stron).
-
-Jak wspominałem w rozdziale drugim, jednym z najcenniejszych doświadczeń, jakie wyniosłem ze
-studiowania filozofii, było *pisanie konspektów*. Z pewnością widać w tej książce, że chętnie
-korzystam z nabytych w ten sposób, mozolnie i w pocie czoła, nigdy dostatecznie nie rozwiniętych
-umiejętności. Polegało to nieodmiennie na czytaniu tekstów *źródłowych* i na tworzeniu możliwie
-najkrótszej notatki, która miała zawierać coś w rodzaju wydestylowanego, centralnego wątku
-argumentacji, a przede wszystkim obiecujących *punktów nacisku*, to jest miejsc, w których można by
-próbować znaleźć jakieś dziury w rozumowaniu albo innego rodzaju wady. I nigdy wcześniej, ani nigdy
-później nie miałem do czynienia z tekstami, w przypadku których to byłoby tak *trudne*. Nawet
-czytanie w liceum i później stosunkowo hermetycznej poezji nie wiązało się dla mnie nigdy z
-poczuciem równie silnego oporu materii językowej, choć może dlatego, że wobec poezji miałem inne
-oczekiwania.
-
-Filzofowie mają do tekstów źródłowych stosunek szczególny. Nie da się tego chyba porównać z niczym,
-co ma miejsce w innych dyscyplinach naukowych czy akademickich. Na przykład, dla matematyka
-matematyczny tekst źródłowy ma zwykle znaczenie prawie całkowicie *historyczne*, podobnie jak dla
-dla biologa tekst napisany przez biologa, dla fizyka tekst napisany przez fizyka, albo dla
-psychologa tekst napisany przez jakiegoś psychologa. Nawet literaturoznawcy, dla których przedmiotem
-badania są teksty źródłowe, traktują je inaczej niż filozofowie traktują teksty filozofów.
-
-Zgaduję, bo nie mam o tej dyscyplinie bladego pojęcia, że gdy literaturoznawca pisze tekst naukowy
-na temat na przykład jakiegoś dzieła literackiego, powstający w ten sposób tekst nie musi być potem,
-w ogólnym przypadku, czytany w oryginale, bo można zawarte tam główne treści przekazać na wiele
-sposobów niewiele przy tym tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między
-interpretacją tekstu źródłowego i tekstem źródłowym, bo teksty filozoficzne, w każdym razie te
-*ważne*, które są wynikiem filozoficznej interpretacji i analizy innych tekstów filozoficznych,
-*same wymagają filozoficznej interpretacji i analizy*. Czy nie wygląda Ci to na robotę tego miglanca
-Urobora? Dlaczego tak jest?  I po co?
-
-Może dlatego, że filozofia polega w niemałym stopniu na *odkrywaniu nowych* i *nieredukowalych
-pojęć*, czy nawet całych *struktur* pojęciowych? A więc na wskazywaniu i badaniu pojęć w pewnym
-sensie *początkowych* albo, w jakiś sposób dualnie, a więc równoważnie, *końcowych*? A mówiąc
-metaforycznie i zmieniając rejestr, żeby zacząć łowić więcej nowych skojarzeń:
-
-*Czy nie jest filozofia poszukiwaniem jasnych konstelacji struktur pojęciowych na gęstym i ciemnym
-nieboskłonie naszych nieunikalnych poznawczych celów?*
-
-*Uff*. Robiąc takie rzeczy trzeba powitać z otwartymi ramionami wyzwalający w dostecznie dużej dawce
-nektar zażenowania (i pozwolić sobie na boleśnie niespójne i pokraczne rezultaty, takie jak zdanie,
-w które się właśnie wtrącam pisząc nawiasem \{a które po tym, jak stanie się "dobrem publicznym",
-spełni ostatecznie swoją wyzwalajacą rolę ⟨zauważyłaś, że w tym pisaniu prawie we wszystkim jest
-jakaś *metoda* \[inaczej *deklarowany* albo *zamierzony* cel ⟪...[^3]⟫]?⟩\}).
-
-Może dlatego filozofia *nie ma metody*? I dlatego, choć nauki mają swój *początek* w filozofii, to
-jednocześnie żadna nauka z filozofii *nie wynika*, a gdy już jakaś dyscyplina naukowa z filozofii
-się *wyobrębni*, tak jak teraz wyobrębnia się z niej psychologia, prędko staje się autonomiczna i
-zwykle (jako *dyscyplina*, nie jako uprawiający ją ludzie) ewidentnie filozofii *przestaje
-potrzebować*?
-
-Zastrzegam jednak, że na ten pomysł wpadłem dzisiaj[^5] i niewykluczone, że go przerobię lub
-porzucę. Ponieważ jednak mogę pisać w tej książce o czym tylko chcę i w jaki tylko mam ochotę
-sposób, co sprawiło, że uczę się tak szybko, tak wielu rzeczy i dostarcza mi to tyle radości, a
-czasem nawet wzruszeń, że nie mogę tego porównać z niczym, czego doświadczyłem ucząc się
-czegokolwiek w jakikolwiek sposób wcześniej, a filozofię zacząłem po latach zachowywania chłodnego
-dystansu znów cenić i lubić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
-
-Byłby i o tym zapomniał: Sztuczna inteligencja to *dział psychologii stosowanej*, co od dawna
-powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że zajmują sią
-nią ludzie znacznie lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc również
-naukowej, niż współcześni psychologowie.
-
-<br>
-
-I teraz mogę już odetchnąć i wrócić do
-[rozpracowywania](https://youtu.be/PQLySgRW6y8?si=DkOxgyHo44cJeYlv) porządków. Ale wcześniej muszę
-zapytać, bo ten rozdział jest znacznie dłuższy niż wszystkie poprzednie:
-
-Czy czytając pamiętasz, żeby używać [*minutnika*](./R35__Sprzatajac_pod_lasem.md) i nie czytać bez
-przerw dłużej, niż przez około pół godziny?
+W związku z tą długością, czy pamiętasz, żeby używać *minutnika* i nie czytać bez przerw dłużej, niż
+przez około pół godziny? Jeżeli tak lub nie, to zapraszam [tutaj](./R35__Sprzatajac_pod_lasem.md).
 
 ### Przypisy
 
@@ -609,25 +513,11 @@ przerw dłużej, niż przez około pół godziny?
     kategorii, to ucząc się jej i w ogóle studiując matematykę raczej *unikała zadań*. W dodatku w
     tej dyskusji powiedziała w pewnym momencie, że *there is no should* i że *we do not understand
     anything*. Nic dziwnego, że jestem
-    fanboyem. [Dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) "otwarł"
+    fanboyem. [Dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) otwarł
     zresztą wspaniały [David Spivak](https://en.wikipedia.org/wiki/David_Spivak), którego znakomita
     książka [Category Theory for the
     Sciences](https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/)
     zainspirowała mnie do wymyślenia opisanego w poprzednim rozdziale przykładu z monoidem jako grą
     w węża.
 
-[^3]: ... Dosyć wcześnie pisząc tą książkę odkryłem, że tak mniej więcej działa pisanie nawet tylko
-    częściowo na żywo. Na początku trudno się pozbyć skrępowania wynikającego ze wstydu i z lęku
-    przed oceną, połączonego z niepewnością wynikającą z faktu, że dopiero zaczęło się robić coś,
-    czego nawet nie próbowało się robić nigdy wcześniej. Ale dzięki terapeutycznemu efektowi
-    [ekspozycji](https://pl.wikipedia.org/wiki/Ekspozycja_(psychoterapia)), lęk i wstyd stopniowo
-    ustępują miejsca orzeźwiającej twórczej swobodzie, która może się potem śmiało rozpanoszyć. Tą
-    wersję wyzwolenia przez ekspozycję zastosowałem po raz pierwszy dawno, dawno temu, gdy na
-    imprezie w nieistniejącej już Carycy, która to impreza odbyła się z powodu zamknięcia szokły
-    flamenco, było to więc doświadczenie już i tak pod wieloma względami intensywne, zaproponowałem
-    przyjaciołom i znajomym *konkurs tańca żenującego*. Gorąco polecam.
-
 [^4]: A po angielsku i bawiąc się znaczeniami, *Correctness is the order of psychology*.
-
-[^5]: To jest w pięćdziesiąte urodziny Tomka, który też studiował filozofię, tylko był trzy lata
-    wyżej niż ja i zdaje się, że - mądrala - nigdy nie przestał jej cenić.
