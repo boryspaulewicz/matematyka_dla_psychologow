@@ -51,9 +51,9 @@ def Pred   α   := α → Prop
 
 def Binrel α β := α → β → Prop
 
-def Empty_pred : Pred   Empty       := fun a => a.elim
+def Empty_pred : Pred   Empty       := fun niemozliwosc => niemozliwosc.elim
 
-def Empty_rel  : Binrel Empty Empty := fun a => a.elim
+def Empty_rel  : Binrel Empty Empty := fun niemozliwosc => niemozliwosc.elim
 ```
 
 Uprościłem zapis, zakładając, że już wiesz, czego Lean się w tym przypadku automatycznie domyśla. Na
@@ -79,11 +79,13 @@ razu "spełnić oczekiwanie" stworzenia termu *dowolnego* typu, w tym również 
 pomocą czegoś w rodzaju - w tym wypadku akceptowalnej - *pustej obietnicy*, albo obietnicy *z
 konieczności* bez pokrycia.
 
-Poczucie dezorientacji, które może wywołać takie zastosowanie typu `Empty`, `False`, czy naszego
-`Absurd`, wynika dokładnie stąd, że to są tylko - i zarazem *aż* - *czyste narzędzia
-rozumowania*. Przypominają pod tym względem te bardziej abstrakcyjne rodzaje identyczności, w tym
-zera i inne, w takim czy innym znaczeniu puste konstrukcje. Inaczej mówiąc, te typy *są sposobem ich
-użycia*; dlatego są takie "puste w środku".
+W dwóch ostatnich definicjach tak naprawdę *nie ma ciała*, bo term `niemozliwosc.elim` reprezentuje
+możliwość zastosowania wobec *czysto teoretycznych* funkcji tego rodzaju reguły eliminacji, a nie
+możliwą wartość parametru `niemozliwosc`. Poczucie dezorientacji, które może wywołać takie
+zastosowanie typu `Empty`, `False`, czy naszego `Absurd`, wynika dokładnie stąd, że to są tylko - i
+zarazem *aż* - *czyste narzędzia rozumowania*. Przypominają pod tym względem te bardziej
+abstrakcyjne rodzaje identyczności, w tym zera i inne, w takim czy innym znaczeniu puste
+konstrukcje. Inaczej mówiąc, te typy *są sposobem ich użycia*; dlatego są takie "puste w środku".
 
 Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Twoją uwagę na tą - być
 może pozornie wynikającą tylko z implementacji - osobliwą obserwację, bo niebawem będziemy z niej
