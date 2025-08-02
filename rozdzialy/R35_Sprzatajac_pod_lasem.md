@@ -300,8 +300,8 @@ Albo: Kierunek (jako taki), który jest możliwy dzięki istnieniu (jako takiej)
 Wydaje mi się nawet, że warto przyjąć, chociaż na próbę, ogólną i *funkcjonalną* (sic!) definicję
 Materii, a może lepiej Substancji, jako *tego, na co można skierować* - *niekoniecznie czyjąś* -
 *uwagę*. Jak każde tego rodzaju początkowo dziwne, ale w jakiś sposób akceptowalne uogólnienie,
-warto je przyjąć choćby dlatego, żeby mieć dzięki temu *szansę* zobaczenia, niedostrzegalnych w inny
-sposób, głębokich analogii.
+warto je przyjąć między innymi po to, żeby mieć dzięki temu chociaż *szansę* zobaczenia inaczej
+niedostrzegalnych, potencjalnie głębokich analogii.
 
 Teoria kategorii to abstrakcyjna algebra składania teoriomnogościowych funkcji, a więc - można teraz
 powiedzieć, że *dosłownie* - *algebra elementarnego oznaczania*. Najprostsza nietrywialna kategoria,
