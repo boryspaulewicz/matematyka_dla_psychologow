@@ -195,7 +195,7 @@ całkiem sensownie, zignorować różnice między niektórymi równoległymi str
 sposób strzałki reprezentujące ogólne części ubioru (ale czy tylko? warto rozważyć *mały*
 przykład). Takie przekształcenie jakiejś struktury (niekoniecznie kategorii), polegające na
 *zrównaniu* albo "sklejeniu" pewnych jej części, ale *z zachowaniem struktury ogólnej*, Lawvere
-lubił nazywać przekształceniem *osobliwym*[^1]. Moim zdaniem to jest piękne słowo, więc na cześć
+lubił nazywać przekształceniem *osobliwym*[^1]. Moim zdaniem to jest piękne słowo, a więc na cześć
 Lawvere'a też tak będziemy mówić.
 
 **Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka?
