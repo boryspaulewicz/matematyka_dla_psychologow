@@ -10,7 +10,7 @@ strony, nadal nie udało się na przykład znaleźć choćby *jednego* markera b
 *jakiegokolwiek* zaburzenia psychicznego.
 
 Coś tam wiemy na temat neuronalnych mechanizmów *bardzo wczesnych* etapów prercepcji i coś tam też
-wiemy na inne podobne tematy, ale poza tym wpływ neurpsychologii na psychologię jest jak dotąd tak
+wiemy na inne podobne tematy, ale poza tym wpływ neuropsychologii na psychologię jest jak dotąd tak
 nikły, że gdy ta pierwsza pojawia się w podręcznikach dotyczących tej drugiej, prawie zawsze pojawia
 się jak jakiś kwiatek u kożucha - taka (dla niektorych ekscytująca) ciekawostka, którą trudno w
 jakikolwiek sposób znacząco zintegrować z wiedzą na temat *zachowania*. Ciekawostka typu coś tam się
