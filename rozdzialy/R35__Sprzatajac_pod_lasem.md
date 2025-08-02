@@ -106,8 +106,8 @@ Monika   → Stefan
 ```
 
 Istnieje naturalne (ale nie w znaczeniu naturalnej transformacji, tylko w znaczeniu potocznym,
-zbliżonym do intuicyjne) mapowanie pracowników *na tym ostatnim grafie* na kategorię hierarchii
-władzy ...
+zbliżonym do intuicyjne) mapowanie pracowników na tym ostatnim grafie na kategorię hierarchii władzy
+...
 
 ```
 Boss → Boss_wydzialowy → Ktos_kto_jest_mily_tylko_wobec_boss_wydzialowy → Nikt_wazny
