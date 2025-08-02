@@ -474,11 +474,11 @@ zautomatyzowany sposób myślenia może być trudno potem zrekonstruować.
 Zauważyłem też, że nawet ktoś taki jak Smith korzysta z języka naturalnego głównie w celu rozwijania
 ogólnej narracji, a w znacznie mniejszym stopniu w celu naświetlania, również *sobie*, różnych
 aspektów formalnych konstrukcji i działań. Nie tylko czytelnicy na tym tracą, ale traci i sam autor,
-bo nie korzysta wtedy z możliwości stworzenia nowej gęstej i aktywnej sieci skojarzeń, której wpływu
-na dalsze myślnie nie da się z góry przewidzieć.
+bo nie korzysta wtedy z możliwości stworzenia nowej, gęstej i aktywnej sieci skojarzeń, której
+wpływu na dalsze myślnie nie da się z góry przewidzieć.
 
 No więc taka ta karma. Im bardziej wykorzystuje się swoje najbardziej obiecujące talenty i
-kompetencje żeby przydać się w jakiś sensowny sposób innym, tym bardziej te talenty i kompetencje
+kompetencje, żeby przydać się w jakiś sensowny sposób innym, tym bardziej te talenty i kompetencje
 rosną i się rozwijają. Bo nic innego nie mają do roboty. I to też jest psychologia.
 
 <hr>
