@@ -286,7 +286,7 @@ Lean nie zgłasza błędu, a więc (w stylu rekordowym) udowodniliśmy twierdzen
 są grupą ze względu na dodawanie. Mówiąc dokładniej, dodawanie liczb całkowitych jest grupą ze
 względu na interpretację: grupowa jedynka to zero, grupowe mnożenie to dodawanie, a grupowa
 odwrotność to jednoargumentowa operacja (albo działanie) "tworzenia", a tak naprawdę, co widać
-dzięki pełnej formalizacji jak na dłoni, (aksjomatycznego) *oznaczania* liczby przeciwnej `x ↦ -x`.
+lepiej dzięki pełnej formalizacji, *oznaczania* liczby przeciwnej `x ↦ -x`.
 
 **Sugestia**: Po skopiowaniu poprzedniego fragmentu kodu, zawierającego charakterystykę hierarchii
 rozważanych przez nas tutaj algebr abstrakcyjnych, spróbuj może udowodnić, przez zdefiniowanie
