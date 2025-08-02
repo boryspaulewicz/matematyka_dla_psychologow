@@ -445,8 +445,8 @@ wszystko też jest, na wskroś i z której by nie patrzeć strony, psychologia.
 
 W tym sensie [karma](https://pl.wikipedia.org/wiki/Karma), to jest *czyn*, *dzieło* albo *działanie*
 nie tyle *wraca*, co zwyczajnie działa. Na przykład, pisząc tą książkę założyłem, że tłumacząc, o co
-chodzi w matematyce i programowaniu będę o wiele bardziej polegał na języku naturalnym, niż robią to
-na ogół nawet Ci bardziej przyjaźni czytelnikom matematycy. To wymagało wprowadzenia zabiegów
+chodzi w matematyce i programowaniu, będę o wiele bardziej polegał na języku naturalnym, niż robią
+to na ogół nawet Ci bardziej przyjaźni czytelnikom matematycy. To wymagało wprowadzenia zabiegów
 językowych, strukturalnych, a czasem literackich, które mnie samemu pomogły lepiej wiele rzeczy
 zrozumieć i radość ze stosowania ich tylko zwiększyła motywację do pisania. Niedawno postanowiłem
 sprawdzić, jak mi się teraz czyta starych znajomych i w związku z tym sięgnąłem po pięknie i ciepło
