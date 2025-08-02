@@ -199,9 +199,10 @@ wyraźniej coś, co bardzo długo umykało mojej uwadze. Pouczający może być 
 długo nie udawało mi się tego dostrzec. Byłem mianowicie od dawna przekonany, że istnieje jakaś
 fundamentalna różnica między *zachowaniami zwierząt* z jednej strony, a *sposodem działania
 urządzeń* i wszelkiego rodzaju *narzędzi* czy *mechanizmów* z drugiej. Wydawało mi się na przykład,
-że ta różnica może polegać na *wyuczalności* zachowań, z której wynika ich wyjątkowa adaptacyjna
-plastyczność i której nie widać w typowych urządzeniach, narzędziach, czy wszelkiego rodzaju
-zwykłych mechanizmach.
+że może rację miał Perry i ta różnica polega na *wyuczalności* zachowań, z której wynika ich
+wyjątkowa adaptacyjna plastyczność, polegająca na poszukującym zmierzaniu ruchu mniej więcej w tą
+samą stronę mimo przeszkód, którego nie widać w typowych urządzeniach, narzędziach, czy wszelkiego
+rodzaju zwykłych mechanizmach.
 
 Proszę, nie zrozum mnie źle. Nie uważam, że zwierzęta są urządzeniami i *niczym więcej*. Na pewno
 nie *dla nas*, bo *współczujemy* zwierzętom. Współczujemy im nie dlatego, że postrzegamy je jako
