@@ -84,9 +84,9 @@ możliwość zastosowania wobec *czysto teoretycznych* funkcji tego rodzaju regu
 możliwą wartość parametru `niemozliwosc`. Poczucie dezorientacji, które może wywołać takie
 zastosowanie typu `Empty`, `False`, czy naszego `Absurd`, wynika więc dokładnie stąd, że to są
 tylko - i zarazem *aż* - *czyste narzędzia rozumowania*. Przypominają pod tym względem te bardziej
-abstrakcyjne rodzaje identyczności, w tym zera i inne podobne do zer, w takim lub innym znaczeniu
-puste konstrukcje. Inaczej mówiąc, te typy *są sposobem ich użycia*; dlatego są takie "puste w
-środku".
+abstrakcyjne rodzaje elementów neutralnych i zarazem kategoryjnych identyczności, w tym zera i inne
+podobne do zer, w takim lub innym znaczeniu puste konstrukcje. Inaczej mówiąc, te typy *są samym
+sposobem użycia*; dlatego są takie "puste w środku".
 
 Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Twoją uwagę na tą - być
 może pozornie wynikającą tylko z implementacji - osobliwą obserwację, bo niebawem będziemy z niej
