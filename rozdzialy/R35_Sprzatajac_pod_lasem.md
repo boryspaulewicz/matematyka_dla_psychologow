@@ -100,8 +100,8 @@ kategoryści piszą o niej czasem, że to tylko jeden z wielu możliwych język�
 i tylko jedna z nieskończenie wielu możliwych kategorii. Ale teoria mnogości nie jest tylko jakąś
 tam kategorią, ponieważ jej centralne pojęcie, to jest pojęcie funkcji, rozumianej jako samo
 przyporządkowanie arbitralnych wartości abstrakcyjnym elementom, odpowiada *najbardziej elementarnej
-funkcji języka* - funkcji *oznaczania*, inaczej *nazywania*. Teoria mnogości jest więc zarazem
-mechaniczną i elementarną teorią samego oznaczania.
+funkcji języka*, jaką jest *oznaczanie*. Teoria mnogości jest więc zarazem mechaniczną i elementarną
+teorią samego oznaczania.
 
 Z tej perspektywy jest wręcz zadziwiające, że chociaż teoria kategorii pozwala wyraźnie zobaczyć, że
 strzałki są daleko ważniejsze niż obiekty, to jednak w każdym znanym mi podręczniku do teorii
