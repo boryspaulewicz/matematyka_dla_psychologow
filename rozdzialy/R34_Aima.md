@@ -306,7 +306,7 @@ hierarchie abstrakcji, pokrywające się do pewnego stopnia z tym, jak zwykle pr
 ważne i często stosowane teorie matematyczne. Gdy używamy Leana w przeglądarce, ta biblioteka jest
 ładowana automatycznie, natomiast w Leanie uruchamianym z dysku trzeba ją dodatkowo zainstalować.
 
-Nawet jeśli nie zamierzasz instalować tej biblioteki, możesz czasem probówać się z nią oswajać
+Nawet jeśli nie zamierzasz instalować tej biblioteki, możesz czasem próbować się z nią oswajać
 przeglądając niezobowiązująco dokumentację. Na przykład, z
 [dokumentacji](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Group)
 dotyczącej klasy `Group`, która powinna już być dla Ciebie częściowo zrozumiała, możesz się
