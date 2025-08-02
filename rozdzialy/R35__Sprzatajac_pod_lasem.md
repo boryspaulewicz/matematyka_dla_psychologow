@@ -305,6 +305,8 @@ Nikt?
 No przecież w takich sytuacjach mówi *się*, że nikt.  
 Bo kiedy nikt nie przychodzi, to właśnie (pusto) przychodzi Nikt.\})
 
+<hr>
+
 <br>
 
 Mieliśmy to cały czas przed samym nosem, ale z tak bliska nie da się dobrze niczego
