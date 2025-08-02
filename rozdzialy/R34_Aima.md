@@ -456,9 +456,9 @@ przepływu danych, sieci bayesowskie, grafy przyczynowe i wiele innych tego rodz
 
 Albo wróćmy do przykładu z opisywaniem drogi na Wawel. Czemu to się wydaje takie naturalne i czemu
 to jest tak bardzo podobne do tylu innych rodzajów czynności albo procesów, które można by ogólnie
-nazwać drogami, takich jak dowodzenie, wielokrotne dodawanie, programowanie, czy wnioskowanie o tym,
-że coś jest w jakimś sensie "mniejsze" albo "słabsze" - albo jakoś inaczej jest poniżej czegoś - na
-podstawie zachodzenia takiej relacji między innymi parami elementów?
+nazwać *drogami*, takich jak dowodzenie, wielokrotne dodawanie, programowanie, czy wnioskowanie o
+tym, że coś jest w jakimś sensie "mniejsze" albo "słabsze" - albo jakoś inaczej jest poniżej
+czegoś - na podstawie zachodzenia takiej relacji między innymi parami elementów?
 
 Co sprawia, że wszystkie te reprezentacje, zwłaszcza, kiedy są przedstawione w postaci *diagramów*,
 wydają się takie naturalne i znajome? Dzięki czemu dokładnie cechuje je coś w rodzaju *uogólnionej,
