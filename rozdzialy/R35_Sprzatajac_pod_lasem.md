@@ -331,8 +331,8 @@ tym pogodzić, to powiedz, właściwie *czym innym mogłaby być* **abstrakcyjna
 
 <hr>
 
-Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? Nawet ta strzałka jest
-skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
+Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? W szczególności, ta
+strzałka jest skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
 
 <br>
 
