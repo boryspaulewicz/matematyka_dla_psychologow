@@ -421,8 +421,8 @@ prawdopodobnie nieznośnym tonem - zdania w rodzaju "Nie istnieje wola nieegoist
 piękne czasy.
 
 Z Fryderyka N. na szczęście prędko wyrosłem. Chociaż, gdy teraz myslę o tym zdaniu, którym tak
-chętnie uraczyłem Bogu ducha winną katechetkę, muszę mu przyznać rację. I jednocześnie muszę mu jej
-odmówić. *Z definicji* nie istnieje wola nieegoistyczna, ale Ego może przyjmować różne
+chętnie wtedy uraczyłem Bogu ducha winną katechetkę, muszę mu przyznać rację. I jednocześnie muszę
+mu jej odmówić. *Z definicji* nie istnieje wola nieegoistyczna, ale Ego może przyjmować różne
 formy. Dokładniej, może *przyjmować różne wcielenia Się*. Wola może być związana z wąsko i
 krótkowzrocznie pojętym własnym interesem i wtedy stajemy się egoistami *mniejszymi*, albo może być
 związana z interesem Wspólnoty; i wtedy nadal jesteśmy, bo zawsze jesteśmy - lecz tylko w trywialnym
