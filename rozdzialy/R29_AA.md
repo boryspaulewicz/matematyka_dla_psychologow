@@ -660,11 +660,13 @@ drugiego (powtarzam się tu, żeby było chociaż trochę łatwiej), ...
 
 `⟨x₁, x₂⟩ ↦ ⟨f₁ x₁, f₂ x₂⟩ ↦ ⟨f₂ x₂, f₁ x₁⟩`
 
-... to przykład *naturalnej równoważności*. A to przeplatanie się "produktowania" i "oznaczania",
-które widać wyżej, to, jak dowiesz się później, przykład tak zwanego [*kwadratu
-naturalności*](https://pl.wikipedia.org/wiki/Czarny_kwadrat_na_bia%C5%82ym_tle). Byłoby nam znacznie
-trudniej wejść w ten kwadrat, a może nawet byłoby to niemożliwe, gdybyśmy wcześniej nie zrozumieli,
-że w produktowaniu, jak właściwie we wszystkim, co matematyczne, *najważniejsze są strzałki*.
+... to przykład *naturalnej równoważności*, a dokładniej [*naturalnego
+izomorfizmu*](https://en.wikipedia.org/wiki/Natural_transformation). A to przeplatanie się
+"produktowania" i "oznaczania", które widać wyżej, to, jak dowiesz się później, przykład tak zwanego
+[*kwadratu naturalności*](https://pl.wikipedia.org/wiki/Czarny_kwadrat_na_bia%C5%82ym_tle). Byłoby
+nam znacznie trudniej wejść w ten kwadrat, a może nawet byłoby to niemożliwe, gdybyśmy wcześniej nie
+zrozumieli, że w produktowaniu, jak właściwie we wszystkim, co matematyczne, *najważniejsze są
+strzałki*.
 
 Żeby sformalizować pojęcie naturalnej równoważności będziemy potrzebowali formalnej definicji
 *transformacji naturalnej*, której naturalna *równoważność* jest przypadkiem szczególnym. Już teraz
