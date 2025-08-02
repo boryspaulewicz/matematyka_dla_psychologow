@@ -210,7 +210,7 @@ dozwolone od lat osiemnastu: Co jest w tej kategorii obiektem początkowym?
 
 Jak widzisz, kategorie są dosłownie *wszędzie*. Moim zdaniem dlatego, że teoria kategorii wyraża
 ukrytą, wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze uniwersalne
-sposoby myślenia.
+sposoby myślenia. Ciekawe, co Kant by na to powiedział.
 
 <hr>
 
