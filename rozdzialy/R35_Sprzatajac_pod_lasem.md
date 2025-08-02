@@ -465,7 +465,7 @@ zawodowy matematyk, omawia zwykle tak zwane rytunowe dowody w dużym skrócie. Z
 o to, żeby czytelnicy ćwiczyli robienie ich "w głowie" i żeby musieli włożyć w to pewien
 wysiłek. Ale z drugiej strony, nie rozpisując szczegółowo na najmniejsze kroki prostych zadań i
 polegając zamiast tego na lotnej myśli, *uniemożliwiamy* sobie zobaczenie w tych zadaniach czegoś
-nowego, bo *tekst* można dowolnie długo obsrewować, badać i przerabiać, ale *myśli* już
+nowego, bo *tekst* można dowolnie długo obserwować, badać i przerabiać, ale *myśli* już
 nie. Automatyzacja ma w tym kontekście ogromne zalety, bo zwiększa poziom wykonania, ale ma też
 jedną *ogromną* wadę - zmniejsza szansę na dostrzeżenie mniej oczywistych analogii. A raz
 zautomatyzowany sposób myślenia trudno potem zrekonstruować.
