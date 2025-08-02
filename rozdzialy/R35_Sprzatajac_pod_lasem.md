@@ -82,8 +82,8 @@ konieczności* bez pokrycia.
 W dwóch ostatnich definicjach tak naprawdę *nie ma ciała*, bo term `niemozliwosc.elim` reprezentuje
 możliwość zastosowania wobec *czysto teoretycznych* funkcji tego rodzaju reguły eliminacji, a nie
 możliwą wartość parametru `niemozliwosc`. Poczucie dezorientacji, które może wywołać takie
-zastosowanie typu `Empty`, `False`, czy naszego `Absurd`, wynika dokładnie stąd, że to są tylko - i
-zarazem *aż* - *czyste narzędzia rozumowania*. Przypominają pod tym względem te bardziej
+zastosowanie typu `Empty`, `False`, czy naszego `Absurd`, wynika więc dokładnie stąd, że to są
+tylko - i zarazem *aż* - *czyste narzędzia rozumowania*. Przypominają pod tym względem te bardziej
 abstrakcyjne rodzaje identyczności, w tym zera i inne, w takim czy innym znaczeniu puste
 konstrukcje. Inaczej mówiąc, te typy *są sposobem ich użycia*; dlatego są takie "puste w środku".
 
