@@ -433,11 +433,11 @@ Kiedy jesteśmy *mniejszymi* egoistami, najbardziej krzywdzimy siebie, a raczej 
 stajemy się wtedy *samotni*, a samotność jest dla nas być może najgłębszą formą cierpienia. I
 *wiemy* doskonale, bo żeby to odkryć nie trzeba robić badań naukowych, że właśnie *harmonijne
 współdziałanie* jest tym, co przynosi nam najgłębsze szczęście. Od dziecka pragniemy być *ważni*,
-ale gdy próbujemy zaspokoić to pragnienie goniąc za pozycją społeczną i tytułami, czy za dobrami
-materialnymi, zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartościowe. Bo
-w samotności *nie da się* być ważnym w jedynym sensie, który się naprawdę liczy - będąc dla innych
-*użytecznym* i *niosąc pomoc*.
-
+ale gdy próbujemy zaspokoić to pragnienie goniąc za pozycją społeczną i tytułami czy za dobrami
+materialnymi, to jest starając się głównie, żeby inni nas *zauważali* i żeby się z nami *liczyli*,
+zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartościowe. Bo w samotności
+*nie da się* być ważnym w jedynym sensie, który się naprawdę liczy - poprzez niesienie pomocy. I to
+wszystko też jest, na wskroś i z której by nie patrzeć strony, psychologia.
 
 <hr>
 
