@@ -418,7 +418,7 @@ sam próbuję powiedzieć? A właśnie, gdzie jest w tym wszystkim miejsce dla f
 Już w podstawówce wydawało mi się, że gdy dorosnę, zostanę filozofem. Jak przez mgłę pamiętam
 zdziwienie Pani pracującej wtedy za ladą w księgarni Stankiewicz w Bielsku-Białej, kiedy będąc
 uczniem szóstej albo siódmej klasy zapytałem, czy jest może "Ludzkie, arcyludzkie" i
-"Antychryst". Zanim usłyszałem odpowiedź, Pani za ladą upewniła się, czy dobrze usłyszała, a gdy po
+"Antychryst". Zanim poznałem odpowiedź, Pani za ladą upewniła się, czy dobrze usłyszała, a gdy po
 kilku dniach przyszedłem znowu, miała dla mnie przygotowany zestaw jakiś gazetek, o których sądziła
 najwyraźniej, że będę nimi zainteresowany. Bardzo to było miłe, ale zarazem na tyle krępujące, że na
 pewien czas przestałem tam przychodzić. Popisywałem się potem na lekcjach religii, wypowiadając -
