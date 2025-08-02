@@ -422,20 +422,22 @@ piękne czasy.
 
 Z Fryderyka N. na szczęście prędko wyrosłem. Chociaż, gdy teraz myslę o tym zdaniu, którym tak
 chętnie uraczyłem Bogu ducha winną katechetkę, muszę mu przyznać rację. I jednocześnie muszę mu jej
-odmówić. *Z definicji* nie istnieje wola nieegoistyczna, ale nasza wola, tak jak nasze Ego, może
-przyjmować bardzo różne formy. Ta wola może być związana z wąsko i krótkowzrocznie pojętym własnym
-interesem i wtedy jesteśmy egoistami *małymi*, albo z interesem wspólnoty; i wtedy nadal jesteśmy,
-bo zawsze jesteśmy - lecz tylko w trywialnym znaczeniu tego słowa - egoistami, ale stajemy się wtedy
-egoistami w dobrym znaczeniu *większymi*.
+odmówić. *Z definicji* nie istnieje wola nieegoistyczna, ale Ego może przyjmować różne
+formy. Dokładniej, może *przyjmować różne wcielenia Się*. Wola może być związana z wąsko i
+krótkowzrocznie pojętym własnym interesem i wtedy stajemy się egoistami *mniejszymi*, albo może być
+związana z interesem Wspólnoty; i wtedy nadal jesteśmy, bo zawsze jesteśmy - lecz tylko w trywialnym
+znaczeniu tego słowa - egoistami, ale stajemy się wtedy egoistami w dobrym znaczeniu *większymi*. I
+to też są, na wskroś i z której by nie patrzeć strony, relacje porządku.
 
-Kiedy jesteśmy *małymi* egoistami, najbardziej krzywdzimy *siebie*, bo stajemy się wtedy *samotni*,
-a samotność jest dla nas być może najgłębszą formą cierpienia. I *wiemy* doskonale, bo żeby to
-odkryć nie trzeba robić badań "naukowych", że właśnie *harmonijne współdziałanie* jest tym, co
-przynosi nam najgłębsze szczęście. Od dziecka pragniemy być *ważni*, ale gdy próbujemy zaspokoić to
-pragnienie goniąc za pozycją społeczną i tytułami, czy za dobrami materialnymi, zostając sami
-przekonujemy się szybko, jak bardzo to wszystko jest bezużyteczne. Bo w samotności *nie da się* być
-ważnym w jedynym sensie, który się naprawdę liczy - będąc dla innych *kimś użytecznym* i *niosąc
-pomoc*.
+Kiedy jesteśmy *mniejszymi* egoistami, najbardziej krzywdzimy siebie, a raczej nasze ciało, bo
+stajemy się wtedy *samotni*, a samotność jest dla nas być może najgłębszą formą cierpienia. I
+*wiemy* doskonale, bo żeby to odkryć nie trzeba robić badań "naukowych", że właśnie *harmonijne
+współdziałanie* jest tym, co przynosi nam najgłębsze szczęście. Od dziecka pragniemy być *ważni*,
+ale gdy próbujemy zaspokoić to pragnienie goniąc za pozycją społeczną i tytułami, czy za dobrami
+materialnymi, zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartościowe. Bo
+w samotności *nie da się* być ważnym w jedynym sensie, który się naprawdę liczy - będąc dla innych
+*użytecznym* i *niosąc pomoc*.
+
 
 <hr>
 
