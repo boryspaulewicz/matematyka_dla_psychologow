@@ -49,7 +49,7 @@ Natomiast filozofia jest wyraźnie *inna* od całej reszty. Tym, co łatwo rzuca
 że uprawianie filozofii polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo
 ostatecznymi, takimi jak pytania o naturę i granice *poznania w ogóle*, albo pytania o *byt w ogóle*
 i o *wartości w ogóle*. Dosyć to niesamowite. I jednocześnie charakterystycznie *nieczytelne*, ale
-*nie* w złym znaczeniu.
+*niekoniecznie* w złym znaczeniu.
 
 Teoria kategorii uczy nas, że jeżeli obiekt pewnego rodzaju, taki jak dajmy na to iloczyn
 kartezjański zbiorów, jest ważny - a filozofia, ta zawodowa i ta amatorska, jest niewątpliwie dla
