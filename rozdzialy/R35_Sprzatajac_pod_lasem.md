@@ -431,7 +431,7 @@ trywialnym znaczeniu tego słowa - egoistami, ale stajemy się wtedy egoistami w
 
 Kiedy jesteśmy *mniejszymi* egoistami, najbardziej krzywdzimy siebie, a raczej nasze ciało, bo
 stajemy się wtedy *samotni*, a samotność jest dla nas być może najgłębszą formą cierpienia. I
-*wiemy* doskonale, bo żeby to odkryć nie trzeba robić badań "naukowych", że właśnie *harmonijne
+*wiemy* doskonale, bo żeby to odkryć nie trzeba robić badań naukowych, że właśnie *harmonijne
 współdziałanie* jest tym, co przynosi nam najgłębsze szczęście. Od dziecka pragniemy być *ważni*,
 ale gdy próbujemy zaspokoić to pragnienie goniąc za pozycją społeczną i tytułami, czy za dobrami
 materialnymi, zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartościowe. Bo
