@@ -318,9 +318,9 @@ już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywia
 `∅ → {⬝}`
 
 ... a na tą implementację popatrzymy z kolei jako na funkcję z typu albo zbioru -
-`Empty`/`∅`/`False` - *bez zawartości* do typu albo zbioru odpowiadającego *obiektowi jako takiemu*
-- `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*, okazuje
-  się być *oznaczaniem bez oznaczającego*. 
+`Empty`/`∅`/`False` - *bez zawartości* do typu albo zbioru odpowiadającego *obiektowi jako
+takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*,
+okazuje się być *oznaczaniem bez oznaczającego*.
   
 To więc *uwaga*, ale uwaga *niczyja*, albo *patrzenie jako takie*, albo *subiektywność jako taka*. I
 to jest też *ocena*, w najbardziej podstawowym znaczeniu, bo *subiektywnie ważne może być tylko to,
