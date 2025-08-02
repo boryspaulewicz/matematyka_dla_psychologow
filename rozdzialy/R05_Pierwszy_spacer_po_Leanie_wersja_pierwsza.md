@@ -7,6 +7,12 @@
 
 ## O czym teraz będzie
 
+Ten i następne dwa rozdziały mają charakter w pewnym sensie bazowy, dlatego nie można ich za bardzo
+lekceważyć. Będą się w nich działy rzeczy moim zdaniem ciekawe i czasem, mam nadzieję, zabawne,
+uprzedzam jednak, że znacznie ciekawsze i jednocześnie pojęciowo dziwne rzeczy zaczną się na dobre
+dziać dopiero w rozdziale siódmym. Zaczniemy wtedy na dobre ćwiczyć pewien szczególny sposób
+myślenia, polegający na żonglowaniu różnymi dobrze określonymi punktami widzenia na to samo.
+
 W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
 wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
 *funkcje anonimowe*. Zwrócę Twoją uwagę na *naturalność* i *prostotę składni* tego języka, a także
