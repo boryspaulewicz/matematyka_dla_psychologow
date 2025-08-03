@@ -23,7 +23,7 @@ Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spost
 <hr>
 
 **Ostrzeżenie**: To *nie* jest książka o liczbach, geometrii, czy rozwiązywaniu zadań rachunkowych,
-chociaż oczywiście i liczby i geometria i zadania rachunkowe czasami się w niej pojawiają. To jest
+choć oczywiście i liczby i geometria i zadania rachunkowe czasem się w niej pojawiają. To jest
 książka o tym, jak można próbować lepiej zrozumieć siebie i innych za pomocą konsekwentnego i
 jednocześnie swobodnego dialogu, w tym również uzewnętrznionego dialogu wewnętrznego, polegającego
 na łączeniu, na wiele różnych sposobów, wybranych uniwersalnych, dobrze określonych punktów widzenia
