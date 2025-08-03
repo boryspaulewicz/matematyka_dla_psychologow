@@ -470,10 +470,10 @@ Czytając jedno z pojawiających się tam wcześnie zadań zdałem sobie sprawę
 zawodowy matematyk, omawia zwykle tak zwane rytunowe dowody w dużym skrócie. Z jednej strony chodzi
 o to, żeby czytelnicy ćwiczyli robienie ich "w głowie" i żeby musieli włożyć w to pewien
 wysiłek. Ale z drugiej strony, nie rozpisując szczegółowo na najmniejsze kroki prostych zadań i
-polegając zamiast tego na lotnej myśli, *uniemożliwiamy* sobie zobaczenie w tych zadaniach czegoś
-nowego, bo *tekst* można dowolnie długo obserwować, badać i przerabiać, ale *myśli* już
-nie. Automatyzacja ma w tym kontekście ogromne zalety, bo zwiększa poziom wykonania, ale ma też
-jedną *ogromną* wadę - zmniejsza szansę na dostrzeżenie mniej oczywistych analogii. A raz
+polegając zamiast tego na błyskawicznych ruchach lotnej myśli, *uniemożliwiamy* sobie zobaczenie w
+tych zadaniach czegoś nowego, bo *tekst* można dowolnie długo obserwować, badać i przerabiać, ale
+*myśli* już nie. Automatyzacja ma w tym kontekście ogromne zalety, bo zwiększa poziom wykonania, ale
+ma też jedną *ogromną* wadę - zmniejsza szansę na dostrzeżenie mniej oczywistych analogii. A raz
 zautomatyzowany sposób myślenia może być trudno potem zrekonstruować.
 
 Zauważyłem też, że nawet ktoś taki jak Smith korzysta z języka naturalnego głównie w celu rozwijania
