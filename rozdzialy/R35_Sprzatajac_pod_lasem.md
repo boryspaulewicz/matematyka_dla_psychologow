@@ -322,35 +322,49 @@ już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywia
 takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*,
 okazuje się być *oznaczaniem bez oznaczającego*.
 
+Ta osobliwa strzałka jest *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
+*subiektywnością jako taką*. I jest też *oceną*, w najbardziej podstawowym znaczeniu, bo - zawsze
+tylko subiektywnie - *ważne może być tylko to, na co zwrócona jest uwaga*, ponieważ *nie da się
+chcieć albo nie chcieć tego, czego nie można w jakiś sposób wskazać*.
+  
+Uwierz mi, wiem aż za dobrze, jak dziwnie to wszystko początkowo brzmi, ale jeśli nie możesz się z
+tym zgodzić, to powiedz, *czym innym mogłaby być* abstrakcyjna strzałka?
+
+<hr>
+
 Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów,) wyborów, postaw i
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
 którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu Księżyca.
 
 A pamiętasz, jak w pierwszym rozdziale powiedziałem, że ta książka *nie może* zawierać błędów w
-częściach formalnych zapisanych w języku teorii typów, o ile tylko zostały sprawdzone, a wszystkie
-takie części mogą być przez każdego sprawdzone za pomocą niezawodnego algorytmu, ale ta książka może
-zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, ale zarówno ta warstwa,
-jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i *ilustracje* pewnych
-*interpretacji* czegoś, co niewątpliwie istnieje. Ponieważ każda interpretacja jako taka jest pewnym
-sposobem użycia, w przypadku interpretacji, o ile tylko jest *wewnętrznie spójna*, was sein kann,
-[muss sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). 
+częściach formalnych zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie
+takie części mogą być przez każdego sprawdzone za pomocą niezawodnego algorytmu - ale ta książka
+może zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, ale zarówno ta
+warstwa, jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i *ilustracje* pewnych
+*interpretacji* czegoś, co niewątpliwie istnieje.
 
-Zmiana interpretacji to tylko, i aż, zmiana punktu widzenia, na inny "swój", albo na jakiś
-"cudzy". Żeby naprawdę opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć Się *tracić
-wzrok*.
+Ponieważ każda interpretacja jako taka jest pewnym sposobem użycia, w przypadku interpretacji, o ile
+tylko są *wewnętrznie* spójne, was sein kann, [muss
+sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). Zmiana interpretacji to
+tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby naprawdę opanować
+sztukę zmieniania punktów widzenia, wystarczy nauczyć się w kontrolowany sposób *tracić wzrok*.
 
-Ta osobliwa strzałka jest *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
-*subiektywnością jako taką*. I jest też *oceną*, w najbardziej podstawowym znaczeniu, bo - zawsze
-tylko subiektywnie - *ważne może być tylko to, na co zwrócona jest uwaga*, ponieważ *nie da się
-chcieć albo nie chcieć tego, czego nie można w jakiś sposób* **wskazać**.
-  
-Uwierz mi, wiem aż za dobrze, jak dziwnie to wszystko początkowo brzmi, ale jeśli nie możesz się z
-tym zgodzić, to powiedz, *czym innym mogłaby być* **abstrakcyjna strzałka**?
+Również i w tym celu, w dalszych rozdziałach poznamy funktory, które są strzałkami *między
+kategoriami*, naturalne transformacje, które są strzałkami *między funktorami*, i może też funktory
+sprzężone. Funktorów będziemy używać między innymi do tego, żeby własności kategorii źródłowej,
+takie jak obowiązujące w niej twierdzenia, nanosić na kategorię docelową.
+
+Ponieważ funktory służą do operowania jednocześnie więcej niż jedną kategorią, a kategorie to często
+pewne odrębne, systematyczne sposoby myślenia, a więc też pewne generyczne punkty widzenia albo
+generyczne interpretacje, będzie to polegało czasem na kontrolowanym dopasowywaniu do siebie różnych
+interpretacji. A ponieważ pozwoli nam to ustalać jednoznacznie, czego możemy się dzięki temu
+dowiedzieć zarówno o kategorii źródłowej, jak i docelowej, będziemy wtedy efektywnie odkrywać
+*użyteczność interpretacji interpretacji źródłowej w kategoriach interpretacji docelowej*.
 
 <hr>
 
 Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? W szczególności, ta
-strzałka jest skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
+osobliwa strzałka jest skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
 
 <br>
 
