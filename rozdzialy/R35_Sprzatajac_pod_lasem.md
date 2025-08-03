@@ -326,10 +326,23 @@ Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
 którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu Księżyca.
 
-To jest *uwaga*, ale uwaga *niczyja*, albo *patrzenie jako takie*, albo *subiektywność jako taka*. I
-to jest też *ocena*, w najbardziej podstawowym znaczeniu, bo *subiektywnie ważne może być tylko to,
-na co zwrócona jest uwaga*, ponieważ *nie da się chcieć albo nie chcieć tego, czego nie można w
-jakiś sposób* **wskazać**.
+A pamiętasz, jak w pierwszym rozdziale powiedziałem, że ta książka *nie może* zawierać błędów w
+częściach formalnych zapisanych w języku teorii typów, o ile tylko zostały sprawdzone, a wszystkie
+takie części mogą być przez każdego sprawdzone za pomocą niezawodnego algorytmu, ale ta książka może
+zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, ale zarówno ta warstwa,
+jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i *ilustracje* pewnych
+*interpretacji* czegoś, co niewątpliwie istnieje. Ponieważ każda interpretacja jako taka jest pewnym
+sposobem użycia, w przypadku interpretacji, o ile tylko jest *wewnętrznie spójna*, was sein kann,
+[muss sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). 
+
+Zmiana interpretacji to tylko, i aż, zmiana punktu widzenia, na inny "swój" albo na jakiś
+*cudzy*. Żeby naprawdę opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć Się *tracić
+wzrok*.
+
+Ta osobliwa strzałka jest *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
+*subiektywnością jako taką*. I jest też *oceną*, w najbardziej podstawowym znaczeniu, bo - zawsze
+tylko subiektywnie - *ważne może być tylko to, na co zwrócona jest uwaga*, ponieważ *nie da się
+chcieć albo nie chcieć tego, czego nie można w jakiś sposób* **wskazać**.
   
 Uwierz mi, wiem aż za dobrze, jak dziwnie to wszystko początkowo brzmi, ale jeśli nie możesz się z
 tym pogodzić, to powiedz, właściwie *czym innym mogłaby być* **abstrakcyjna strzałka**?
