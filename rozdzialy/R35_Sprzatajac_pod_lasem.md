@@ -347,7 +347,7 @@ Ponieważ każda interpretacja jako taka jest pewnym sposobem użycia, w przypad
 tylko są *wewnętrznie* spójne, was sein kann, [muss
 sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). Zmiana interpretacji to
 tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby naprawdę opanować
-sztukę zmieniania punktów widzenia, wystarczy nauczyć się w kontrolowany sposób *tracić wzrok*.
+sztukę zmieniania punktów widzenia, wystarczy nauczyć się *tracić wzrok*.
 
 Również i w tym celu, w dalszych rozdziałach poznamy funktory, które są strzałkami *między
 kategoriami*, naturalne transformacje, które są strzałkami *między funktorami*, i może też funktory
