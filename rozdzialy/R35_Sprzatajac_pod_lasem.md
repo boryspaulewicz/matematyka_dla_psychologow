@@ -230,7 +230,7 @@ W sali, w której spędziłem kilka pierwszych lat szkoły podstawowej, na ścia
 "Matematyka jest królową nauk". Wtedy nie wiedziałem, co o tym myśleć, ale byłem mały i jeszcze
 głupszy niż teraz. A teraz myślę o tym tak:
 
-Matematyka to dokładnie celowe posługiwanie dowolnymi jednoznacznymi regułami językowymi, które
+Matematyka to dokładnie celowe posługiwanie się dowolnymi jednoznacznymi regułami językowymi, które
 pozwalają rozstrzygać mechanicznie, jakie sekwencje symboli są poprawne, a jakie nie. Teorie naukowe
 są relatywnie dobrze ustrukturyzowanymi konstrukcjami pojęciowymi, które istnieją tylko dzięki temu,
 że istnieje język. Matematyka jest tą szczególną dyscypliną nauki, która zajmuje się w pewien sposób
