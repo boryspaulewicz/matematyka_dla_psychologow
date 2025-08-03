@@ -74,4 +74,4 @@ nimi zastanawiaj±c.
 Last but not least, robi±c co¶ *ryzykownego* warto zwracaæ czasem uwagê na w³asne *emocje*, bo
 inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
 
-### ... *uwaga na frustracjê*.
+### ... *uwaga na frustracjê!*
