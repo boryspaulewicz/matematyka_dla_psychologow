@@ -11,9 +11,9 @@ Je¿eli nie masz tego w zwyczaju, to bardzo Ciê proszê, *spróbuj* chocia¿ **u¿ywa
 momentu to bêdzie czasem dzika jazda bez trzymanki.
 
 Wychodzi mi to ró¿nie, ale staram siê pisaæ tak, ¿eby da³o siê to czytaæ w miarê p³ynnie i ¿eby ten
-proces by³ nie tylko wzglêdnie bezbolesny, ale równie¿ dostarcza³ równie¿ trochê frajdy. W stopniu,
-w jakim mi siê to udaje, stwarzam jednak w ten sposób *niebezpieczeñstwo*, ¿e *zabrniesz za szybko
-za daleko nie bêd±c na to gotowa i zderzysz siê z jak±¶ budz±c± niepotrzebny lêk ¶cian±*.
+proces by³ nie tylko wzglêdnie bezbolesny, ale dostarcza³ te¿ trochê frajdy. W stopniu, w jakim mi
+siê to udaje, stwarzam jednak w ten sposób *niebezpieczeñstwo*, ¿e *trafisz zbyt szybko za daleko
+nie bêd±c na to gotowa i zderzysz siê z jak±¶ budz±c± niepotrzebny lêk ¶cian±*.
 
 Powa¿nie, oko³o 30 minut to *maksimum*. Niewa¿ne, jak bêdziesz siê czuæ po tych 30 minutach czytania
 i jak bardzo bêdziesz chcia³a czytaæ dalej, poczucie wci±gniêcia w takim momencie jest *zwodnicze*,
