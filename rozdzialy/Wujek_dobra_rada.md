@@ -54,7 +54,7 @@ warto, ale (z definicji) jeszcze lepiej jest podej¶æ do tego lepiej.
 A *to* lepiej oznacza *jakiekolwiek* powtarzanie materia³u. Jeszcze lepiej ni¿ lepiej: powtarzanie
 generatywne i roz³o¿one w czasie. Patrz rozdzia³ drugi.
 
-### ... a o tym, kim jeste¶my, decyduje w du¿ym stopniu to, *co umiemy* (ze sob±) *zrobiæ*. ... 
+### ... a o tym, kim jeste¶my, decyduje w du¿ym stopniu to, *co umiemy* (ze sob±) *zrobiæ*.
 
 ... Z kolei to, co umiemy zrobiæ, zale¿y przede wszystkim od tego, co i jak dobrze uda³o nam siê
 *zapamiêtaæ*. 
@@ -74,6 +74,4 @@ nimi zastanawiaj±c.
 Last but not least, robi±c co¶ *ryzykownego* warto zwracaæ czasem uwagê na w³asne *emocje*, bo
 inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
 
-### ... *I uwaga na frustracjê!*
-
-To tyle; akurat na ten temat nie mam nic wiêcej do powiedzenia.
+### ... *uwaga na frustracjê!*
