@@ -6,6 +6,20 @@ teorii typów, można sprawdzić i zredukować do najprostszej postaci za pomoc�
 <br/>
 <br/>
 
+**Ostrzeżenie (zwłaszcza dla facetów)**: To *nie* jest książka o liczbach, geometrii, czy
+rozwiązywaniu zadań rachunkowych, choć oczywiście i liczby i geometria i zadania rachunkowe czasem
+się w niej pojawiają. Ta książka jest przede wszystkim o tym, jak można próbować lepiej zrozumieć
+siebie i innych za pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym
+również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów,
+pewnych niezwykle uniwersalnie użytecznych, dobrze określonych punktów widzenia na (jakiekolwiek) to
+samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej matematyki.
+
+To jest książka o ludziach i dla ludzi, i jest przede wszystkim o tym, co jest w nas chyba
+najbardziej ludzkie. To jest książka o matematyce rozumianej jako sztuka uważnego i nietendencyjnego
+wsłuchiwania się w siebie (nawzajem).
+
+<hr>
+
 **Aktualności**: 2025.08.02 [Rozdział
 35](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R35_Sprzatajac_pod_lasem.md)
 na tyle mi się rozrósł, że musiałem go podzielić na dwie części. Druga część jest dostępna między
@@ -20,21 +34,6 @@ Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spost
 
 **Historia zmian** jest [tu](Historia_zmian.md), a **spis treści** jest [tam](#spis_tresci).
 
-<hr>
-
-**Ostrzeżenie (zwłaszcza dla facetów)**: To *nie* jest książka o liczbach, geometrii, czy
-rozwiązywaniu zadań rachunkowych, choć oczywiście i liczby i geometria i zadania rachunkowe czasem
-się w niej pojawiają. Ta książka jest przede wszystkim o tym, jak można próbować lepiej zrozumieć
-siebie i innych za pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym
-również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów,
-pewnych niezwykle uniwersalnie użytecznych, dobrze określonych punktów widzenia na (jakiekolwiek) to
-samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej matematyki.
-
-To jest książka o ludziach i dla ludzi, i jest przede wszystkim o tym, co jest w nas chyba
-najbardziej ludzkie. To jest książka o matematyce rozumianej jako sztuka uważnego i nietendencyjnego
-wsłuchiwania się w siebie (nawzajem).
-
-<hr>
 
 ## Przedmowa
 
