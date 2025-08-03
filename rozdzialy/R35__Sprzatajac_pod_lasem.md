@@ -195,12 +195,22 @@ jeden może być mniej stresujący niż drugi: Możemy myśleć o takich konstru
 procesu* dokładania jakiś rzeczy (tutaj strzałek) spełniających jakieś warunki (tutaj składania
 kategoryjnego). Z jednej strony ten sposób myślenia daje chyba wrażenie konkretności albo dynamiki,
 czy nawet "ożywienia", ale z drugiej może wywołać poczucie, że to wszystko nie mieści nam się w
-głowie, zwłaszcza, gdy te konstrukcje są "duże" lub nieskończone. Drugi sposób polega na myśleniu o
-takich konstrukcjach jako o *listach kryteriów*, które spełnia każda konstrukcja danego rodzaju. Z
-tej perspektywy operujemy *tylko* krótką listą kryteriów, które spełnia kategoria generowana przez
-graf i których spełnienie gwarantuje unikalność takiej kategorii. Dopóki nie zajdzie taka potrzeba,
-nie trzeba próbować wyobrażać sobie szczegółowo takiej kategorii; trzeba tylko albo pamiętać te
-kryteria, albo umieć je znaleźć.
+głowie, zwłaszcza, gdy te konstrukcje są "duże" lub nieskończone. 
+
+Drugi sposób polega na myśleniu o takich konstrukcjach jako o *listach kryteriów*, które spełnia
+każda konstrukcja danego rodzaju. Z tej perspektywy operujemy *tylko* krótką listą kryteriów, które
+spełnia kategoria generowana przez graf i których spełnienie gwarantuje unikalność takiej
+kategorii. Dopóki nie zajdzie taka potrzeba, nie trzeba próbować wyobrażać sobie szczegółowo takiej
+kategorii; trzeba tylko albo pamiętać te kryteria, albo umieć je znaleźć.
+
+Ostatecznie i tak zawsze wyobrażamy sobie i badamy (z definicji) tylko struktury mieszczące się w
+naszych (małych) głowach, a więc struktury subiektywnie małe. Od tego jest między innymi matematyka,
+żebyśmy mogli o wielkich i złożonych sprawach skutecznie mówić i myśleć albo zajmując się ich
+małymi, lokalnymi *częściami*, albo znajdując punkty widzenia, które pozwalają zbyt duże i zbyt
+skomplikowane jak na nasze poznawcze możliwości konstrukcje dla pewnych celów skutecznie
+[*zmniejszyć*](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids). Punkty widzenia takie jak na
+przykład krótka definicja nieskończonej kolekcji skończonych i nieskończonych struktur, składająca
+się z punktów, które można policzyć na palcach jednej ręki.
 
 Poniżej mamy kategorię `Pracownicy`. Na tym diagramie, poprzedzonym czymś w rodzaju "preambuły"
 definiującej typowanie - a więc i tu pomieszałem dwa różne języki, z których jeden (mikrojęzyk
