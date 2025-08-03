@@ -31,9 +31,9 @@ Gdyby zdarzy³o siê tak, ¿e masz czas i ochotê, ¿eby czytaæ *d³u¿ej ni¿ godzinê*,
 oko³o 30 minut, potem by³o mniej ni¿ powiedzmy 15 minut przerwy, potem znowu oko³o 30 minut
 czytania, to zrób sobie proszê przerwê trwaj±c± *co najmniej* 20 minut.
 
-No wiêc **minutnik**.
+No wiêc *minutnik*.
 
-**M I N U T N I K**
+*M I N U T N I K*
 
 *Minutnik*, ok?
 
@@ -74,4 +74,6 @@ nimi zastanawiaj±c.
 Last but not least, robi±c co¶ *ryzykownego* warto zwracaæ czasem uwagê na w³asne *emocje*, bo
 inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
 
-### ... *uwaga na frustracjê!*
+### ... *I uwaga na frustracjê!*
+
+To tyle; akurat na ten temat nie mam nic wiêcej do powiedzenia.
