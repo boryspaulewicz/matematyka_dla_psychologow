@@ -322,7 +322,7 @@ już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywia
 takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*,
 okazuje się być *oznaczaniem bez oznaczającego*.
 
-Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów), wyborów, postaw i
+Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów,) wyborów, postaw i
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
 którym mógłbym Ci wskazać (ten) Księżyc? To jest ten palec; i nie ma tu Księżyca.
 
