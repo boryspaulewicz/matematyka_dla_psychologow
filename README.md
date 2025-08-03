@@ -411,7 +411,7 @@ psychopacie, z nachalnym utrudnianiem.*
 *Idąc jakąś drogą piszemy jakieś listy.*
 
 [R33 ... a potem rekordowo i z klasą](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md)  
-*A co to ma znaczyć?*
+*Co to ma znaczyć?*
 
 <hr>
 
