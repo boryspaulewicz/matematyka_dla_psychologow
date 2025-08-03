@@ -336,7 +336,7 @@ sposobem użycia, w przypadku interpretacji, o ile tylko jest *wewnętrznie spó
 [muss sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). 
 
 Zmiana interpretacji to tylko, i aż, zmiana punktu widzenia, na inny "swój" albo na jakiś
-*cudzy*. Żeby naprawdę opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć Się *tracić
+"cudzy". Żeby naprawdę opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć Się *tracić
 wzrok*.
 
 Ta osobliwa strzałka jest *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
