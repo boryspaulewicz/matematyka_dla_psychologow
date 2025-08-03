@@ -77,7 +77,7 @@ rachunkowe, które się pojawiły, służyły głównie jako ilustracja czegoś 
 <hr>
 
 Zawsze, kiedy zmieniamy na coś punkt widzenia, stajemy się w pewnym stopniu kimś innym,
-rozpoczynając w ten spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna się rymować,
+rozpoczynając w ten spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna Się rymować,
 ten dialog staje się co najmniej duetem). Jednak w każdej nietrywialnej rozmowie może łatwo dojść do
 nieporozumienia - między sobą i (nieco inną o)sobą, lub niezrozumienia się dwóch całkiem różnych
 osób. Poważnie, matematyka może w tym wszystkim (bardzo) pomóc.
