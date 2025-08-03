@@ -324,7 +324,7 @@ okazuje się być *oznaczaniem bez oznaczającego*.
 
 Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów,) wyborów, postaw i
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
-którym mógłbym Ci wskazać (ten) Księżyc? To jest ten palec; i nie ma tu Księżyca.
+którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu Księżyca.
 
 To jest *uwaga*, ale uwaga *niczyja*, albo *patrzenie jako takie*, albo *subiektywność jako taka*. I
 to jest też *ocena*, w najbardziej podstawowym znaczeniu, bo *subiektywnie ważne może być tylko to,
