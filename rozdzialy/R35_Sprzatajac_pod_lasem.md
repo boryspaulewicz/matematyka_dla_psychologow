@@ -364,9 +364,9 @@ czas płynąłby w górę, a my spadalibyśmy (ale czy w nim?) w dół. Pamięta
 ...
 
 Ok, nigdzie nam się nie spieszy. Słyszałaś może o liczbach urojonych? `i² = -1` i `(-i)² = ((-1) *
-i)² = (-1)² * i² = 1 * i² = i² = -1`, więc trzeba *wybrać*, które $i$, to jest `i` czy `-i`, jest
-`i`, bo te dwa $i$ są funkcjonalnie równie dobrymi kandydatami, a nie mogą być tą samą liczbą, nawet
-jeśli "tylko" urojoną[^2].
+i)² = (-1)² * i² = 1 * i² = i² = -1`, wydaje się więc, że trzeba *wybrać*, które $i$, to jest `i`
+czy `-i`, jest `i`, bo te dwa $i$ są funkcjonalnie równie dobrymi kandydatami, a nie mogą być tą
+samą liczbą, nawet jeśli "tylko" urojoną[^2].
 
 Ale czy zachowania albo ruchy celowe, takie jak wszelkie wybory, nie mają kierunku jako własnej
 (ang. [*intrinsic*](https://en.wiktionary.org/wiki/intrinsic)) własności? 
