@@ -117,7 +117,7 @@ ufam. Polegam też do pewnego stopnia na wrażeniu, jakie sprawiają na mnie prz
 Jeśli coś wygląda jak aksjomat, chodzi jak aksjomat i kwacze jak aksjomat, to ponieważ bycie
 aksjomatem sprowadza się do pewnej *roli*, to coś *jest* aksjomatem. Dokąd to wszystko zmierza?
 Miało być przecież o matematyce. Na typ etapie ja też jeszcze nie wiem! A właściwie wiem, bo już
-widzę księżyc, tylko nie mam jeszcze [palca](https://en.wikipedia.org/wiki/Cringe), którym mógłbym
+widzę Księżyc, tylko nie mam jeszcze [palca](https://en.wikipedia.org/wiki/Cringe), którym mógłbym
 Ci go wskazać.
 
 *No więc[^1]* być może Tobie też ta hipotetyczna interpretacja rachunku logicznego w kategoriach

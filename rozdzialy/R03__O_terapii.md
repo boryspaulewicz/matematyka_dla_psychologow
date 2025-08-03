@@ -66,7 +66,7 @@ terapeutycznego* i zamiast tego odkrywa garść pozornie luźnych metafor. Nie m
 bo też praktyka psychoterapii jest tak daleko od badań podstawowych i w ogóle psychologii
 akademickiej, że spieranie się o to, która metoda jest bardziej naukowa *w znaczeniu oparta na
 naukowych wyjaśnieniach*, a *nie* w znaczeniu jakoś tam "udowodnionej" *skuteczności*, przypomina
-dyskusje o tym, która drabina pozwala się szybciej wdrapać na księżyc.
+dyskusje o tym, która drabina pozwala się szybciej wdrapać na Księżyc.
 
 Z perspektywy, która nam się tutaj stopniowo zarysuje, tak właśnie *musi być* i tak *powinno* być,
 bo terapia *nie może* polegać na celowej interwencji na poziomie *nieobserwowalnych przyczyn
