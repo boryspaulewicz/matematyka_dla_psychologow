@@ -27,8 +27,8 @@ rozwiązywaniu zadań rachunkowych, choć oczywiście i liczby i geometria i zad
 się w niej pojawiają. Ta książka jest przede wszystkim o tym, jak można próbować lepiej zrozumieć
 siebie i innych za pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym
 również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów,
-pewnych uniwersalnych, dobrze określonych punktów widzenia na (jakiekolwiek) to samo, których
-dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej matematyki.
+pewnych niezwykle uniwersalnie użytecznych, dobrze określonych punktów widzenia na (jakiekolwiek) to
+samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej matematyki.
 
 To jest książka o ludziach i dla ludzi, i jest przede wszystkim o tym, co jest w nas chyba
 najbardziej ludzkie. To jest książka o matematyce rozumianej jako sztuka uważnego i nietendencyjnego
