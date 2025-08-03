@@ -1,6 +1,6 @@
 <br>
 
-**Moim zdaniem, najważniejsza wskazówka na temat tego, jak czytać tą książkę, jest
+**Moim zdaniem, najważniejsze wskazówki na temat tego, jak czytać tą książkę, są
 [tutaj](./Wujek_dobra_rada.md).**
 
 <hr>

@@ -1,6 +1,16 @@
 <br>
 
-**Moim zdaniem, najważniejsza wskazówka na temat tego, jak czytać tą książkę, jest
+U mojej córki (która jest zresztą moim ulubionym dzieckiem, jeśli nie ulubionym człowiekiem) mniej
+więcej od drugiego roku życia można było zauważyć wyraźne opóźnienie w rozwoju mowy. Dlatego od
+wczesnego dzieciństwa chodziła między innymi na dodatkowe zajęcia logopedyczne. W trakcie jednego ze
+spotkań z logopedką, która jej wtedy pomagała, dowiedziałem się, że dorosły człowiek może coś dobrze
+zapamiętać dopiero wtedy, kiedy powtórzy mu się to coś trzy razy.
+
+Nie powiedziałem, że napisałem metateoretyczny doktorat na temat podstaw psychologii i że przez
+ponad dziesięć lat prowadziłem zajęcia między innymi z psychologii poznawczej, bo nie widziałem
+takiej potrzeby. Ale co sobie wtedy pomyślałem, to sobie pomyślałem. A teraz zastosuję się do tej w
+praktyce chyba wcale nie tak rzadko użytecznej rady, przypominając po raz trzeci i ostatni, że
+**najważniejsze moim zdaniem wskazówki na temat tego, jak czytać tą książkę, są
 [tutaj](./Wujek_dobra_rada.md).**
 
 <hr>
