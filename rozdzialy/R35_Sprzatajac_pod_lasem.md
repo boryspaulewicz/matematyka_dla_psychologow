@@ -335,7 +335,7 @@ jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i *ilustra
 sposobem użycia, w przypadku interpretacji, o ile tylko jest *wewnętrznie spójna*, was sein kann,
 [muss sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). 
 
-Zmiana interpretacji to tylko, i aż, zmiana punktu widzenia, na inny "swój" albo na jakiś
+Zmiana interpretacji to tylko, i aż, zmiana punktu widzenia, na inny "swój", albo na jakiś
 "cudzy". Żeby naprawdę opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć Się *tracić
 wzrok*.
 
