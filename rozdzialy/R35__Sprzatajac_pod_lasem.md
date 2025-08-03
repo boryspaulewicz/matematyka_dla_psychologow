@@ -167,12 +167,11 @@ porównywalny, a to też są własności jabłek i pomarańczy odpowiednio. Gdyb
 pomarańcza jako taka były kategoriami, to jedna z nich miałaby ... Ale chyba już wiesz, o co mi
 chodzi.
 
-Wróćmy do - pozornie luźno związanej z tematem - filii w Radomiu, o której mówiliśmy w poprzednim
-rozdziale. Załóżmy, że nowe budynki są `2`, a wydziały są `3`, za to liczba pięter (też `3`) zgadza
-się z liczbą poziomów hierarchii władzy. Naturalnie byłoby wtedy mapować injektywnie liniowy
-porządek szczebli władzy na porządek pięter, ale pracownicy jakiś dwóch wydziałów musieliby pracować
-w tym samym budynku, *to* mapowanie byłoby więc *nie*injektywne, za to byłoby (tak jak poprzednie)
-surjektywne.
+Albo wróćmy do filii w Radomiu, o której mówiliśmy w poprzednim rozdziale. Załóżmy, że nowe budynki
+są `2`, a wydziały są `3`, za to liczba pięter (też `3`) zgadza się z liczbą poziomów hierarchii
+władzy. Naturalnie byłoby wtedy mapować injektywnie liniowy porządek szczebli władzy na porządek
+pięter, ale pracownicy jakiś dwóch wydziałów musieliby pracować w tym samym budynku, *to* mapowanie
+byłoby więc *nie*injektywne, za to byłoby (tak jak poprzednie) surjektywne.
 
 **Powtórka z pojęcia kategorii generowanej przez graf**: Przypominam, że same grafy to jeszcze nie
 kategorie, bo graf jako taki to tylko pewnego rodzaju "statyczny rysunek", który *nie* jest
