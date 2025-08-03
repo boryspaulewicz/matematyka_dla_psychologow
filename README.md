@@ -80,7 +80,7 @@ Zawsze, kiedy zmieniamy na coś punkt widzenia, stajemy się w pewnym stopniu ki
 rozpoczynając w ten spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna się rymować,
 ten dialog staje się co najmniej duetem). Jednak w każdej nietrywialnej rozmowie może łatwo dojść do
 nieporozumienia - między sobą i (nieco inną o)sobą, lub niezrozumienia się dwóch całkiem różnych
-osób. Matematyka może w tym wszystkim (bardzo) pomóc.
+osób. Poważnie, matematyka może w tym wszystkim (bardzo) pomóc.
 
 A mówiąc płycej: Choć uniwersalną prawdą jest, że "im więcej piszesz, tym więcej głupstw
 napiszesz"[^5], to może dzięki kontaktowi z tą niezwykłą dyscypliną, a właściwie zdyscyplinowaną
