@@ -68,8 +68,8 @@ To jest w ogromny stopniu kwestia *pamiêci*, zw³aszcza za¶ pamiêci tak zwanej *t
 Konstrukcjami formalnymi *nie da siê* naprawdê sprawnie operowaæ, zanim te nie stan± siê w pewien
 sposób czê¶ci± nas i nie zaczn± niemal same *w nas dzia³aæ* tak intuicyjnie i lekko, jak intuicyjnie
 i lekko potrafimy siê pos³ugiwaæ w³asn± d³oni±. A do tego nie jest konieczne rozwi±zywanie wielu
-zadañ; mo¿na osi±gn±æ wiele tylko *powtarzaj±c definicje* i *przyk³ady*, i w jaki¶ sposób siê nad
-nimi zastanawiaj±c.
+zadañ; mo¿na osi±gn±æ wiele tylko *powtarzaj±c definicje* i *przyk³ady*, i od czasu do czasu w
+jakikolwiek sposób siê nad nimi zastanawiaj±c.
 
 Last but not least, robi±c co¶ *ryzykownego* warto zwracaæ czasem uwagê na w³asne *emocje*, bo
 inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
