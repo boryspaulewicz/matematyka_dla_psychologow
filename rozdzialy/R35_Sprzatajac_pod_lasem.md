@@ -358,7 +358,7 @@ Ponieważ funktory służą do operowania jednocześnie więcej niż jedną kate
 pewne odrębne, systematyczne sposoby myślenia, a więc też pewne generyczne punkty widzenia albo
 generyczne interpretacje, będzie to polegało czasem na kontrolowanym dopasowywaniu do siebie różnych
 interpretacji. A ponieważ pozwoli nam to ustalać jednoznacznie, czego możemy się dzięki temu
-dowiedzieć zarówno o kategorii źródłowej, jak i docelowej, będziemy wtedy efektywnie odkrywać
+dowiedzieć zarówno o kategorii źródłowej, jak i docelowej, będziemy wtedy de facto odkrywać
 *użyteczność interpretacji interpretacji źródłowej w kategoriach interpretacji docelowej*.
 
 <hr>
