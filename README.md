@@ -30,8 +30,9 @@ również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, 
 pewnych uniwersalnych, dobrze określonych punktów widzenia na (jakiekolwiek) to samo, których
 dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej matematyki.
 
-To jest książka o matematyce rozumianej jako sztuka uważnego i nietendencyjnego wsłuchiwania się w
-siebie (nawzajem).
+To jest książka o ludziach i dla ludzi, i jest przede wszystkim o tym, co jest w nas chyba
+najbardziej ludzkie. To jest książka o matematyce rozumianej jako sztuka uważnego i nietendencyjnego
+wsłuchiwania się w siebie (nawzajem).
 
 <hr>
 
