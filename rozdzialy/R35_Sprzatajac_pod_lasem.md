@@ -345,7 +345,7 @@ tylko subiektywnie - *ważne może być tylko to, na co zwrócona jest uwaga*, p
 chcieć albo nie chcieć tego, czego nie można w jakiś sposób* **wskazać**.
   
 Uwierz mi, wiem aż za dobrze, jak dziwnie to wszystko początkowo brzmi, ale jeśli nie możesz się z
-tym pogodzić, to powiedz, właściwie *czym innym mogłaby być* **abstrakcyjna strzałka**?
+tym zgodzić, to powiedz, *czym innym mogłaby być* **abstrakcyjna strzałka**?
 
 <hr>
 
