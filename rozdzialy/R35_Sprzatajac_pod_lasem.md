@@ -321,14 +321,19 @@ już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywia
 `Empty`/`∅`/`False` - *bez zawartości* do typu albo zbioru odpowiadającego *obiektowi jako
 takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*,
 okazuje się być *oznaczaniem bez oznaczającego*.
-  
-To więc *uwaga*, ale uwaga *niczyja*, albo *patrzenie jako takie*, albo *subiektywność jako taka*. I
+
+Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów), wyborów, postaw i
+wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
+którym mógłbym Ci wskazać (ten) Księżyc? To jest ten palec; i nie ma tu Księżyca.
+
+To jest *uwaga*, ale uwaga *niczyja*, albo *patrzenie jako takie*, albo *subiektywność jako taka*. I
 to jest też *ocena*, w najbardziej podstawowym znaczeniu, bo *subiektywnie ważne może być tylko to,
 na co zwrócona jest uwaga*, ponieważ *nie da się chcieć albo nie chcieć tego, czego nie można w
 jakiś sposób* **wskazać**.
   
 Uwierz mi, wiem aż za dobrze, jak dziwnie to wszystko początkowo brzmi, ale jeśli nie możesz się z
 tym pogodzić, to powiedz, właściwie *czym innym mogłaby być* **abstrakcyjna strzałka**?
+
 
 <hr>
 
