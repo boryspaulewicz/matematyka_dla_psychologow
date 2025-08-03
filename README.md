@@ -74,11 +74,11 @@ trzydziestego piątego, żeby podkreślić, że jak dotąd o liczbach i obiektac
 powiedziałem bardzo niewiele, a te nieliczne zadania rachunkowe, które się pojawiły, służyły głównie
 jako ilustracja czegoś zupełnie innego)
 
-Zawsze, kiedy zmieniamy na coś punkt widzenia, stajemy się w pewnym stopniu kimś innym,
-rozpoczynając w ten spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna Się rymować,
-ten dialog staje się co najmniej duetem). Jednak w każdej nietrywialnej rozmowie może łatwo dojść do
-nieporozumienia - między sobą i (nieco inną o)sobą, lub niezrozumienia się dwóch nieco bardziej
-różnych osób. Poważnie, współczesna matematyka, *zwłaszcza* ta najbardziej abstrakcyjna, może w tym
+Zawsze, kiedy zmieniamy punkt widzenia, stajemy się w pewnym stopniu kimś innym, rozpoczynając w ten
+spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna Się rymować, ten dialog staje się
+co najmniej duetem). Jednak w każdej nietrywialnej rozmowie może łatwo dojść do nieporozumienia -
+między sobą i (nieco inną o)sobą, lub niezrozumienia się dwóch nieco bardziej różnych
+osób. Poważnie, współczesna matematyka, *zwłaszcza* ta najbardziej abstrakcyjna, może w tym
 wszystkim (bardzo) pomóc.
 
 <hr>
