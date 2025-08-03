@@ -1,10 +1,10 @@
 <br>
 
-U mojej córki (która jest zresztą moim ulubionym dzieckiem, jeśli nie ulubionym człowiekiem) mniej
-więcej od drugiego roku życia można było zauważyć wyraźne opóźnienie w rozwoju mowy. Dlatego od
-wczesnego dzieciństwa chodziła między innymi na dodatkowe zajęcia logopedyczne. W trakcie jednego ze
-spotkań z logopedką, która jej wtedy pomagała, dowiedziałem się, że dorosły człowiek może coś dobrze
-zapamiętać dopiero wtedy, kiedy powtórzy mu się to coś trzy razy.
+U mojej córki (która jest zresztą moim ulubionym dzieckiem, a może wręcz ulubionym człowiekiem)
+mniej więcej od drugiego roku życia można było zauważyć wyraźne opóźnienie w rozwoju mowy. Dlatego
+od wczesnego dzieciństwa chodziła między innymi na dodatkowe zajęcia logopedyczne. W trakcie jednego
+ze spotkań z logopedką, która jej wtedy pomagała, dowiedziałem się, że dorosły człowiek może coś
+dobrze zapamiętać dopiero wtedy, kiedy powtórzy mu się to coś trzy razy.
 
 Nie powiedziałem, że napisałem metateoretyczny doktorat na temat podstaw psychologii i że przez
 ponad dziesięć lat prowadziłem zajęcia między innymi z psychologii poznawczej, bo nie widziałem
