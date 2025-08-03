@@ -1,33 +1,32 @@
-2025.08.02 [Rozdział
-35](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R35_Sprzatajac_pod_lasem.md)
-na tyle mi się rozrósł, że musiałem go podzielić na dwie części. Druga część jest dostępna między
-innymi przez link pojawiający się pod koniec części pierwszej. Poza tym uprzedzam, że od czasu
-ogłoszenia oficjalnej wstępnej wersji [rozdziału
-34](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R34_Aima.md)
-wiele razy w nim jeszcze dłubałem. Wszystko wskazuje na to, że wykluwa mi się wyraźnie odrębna część
-książki, zaczynająca się właśnie od R34.
+2025.08.03 Dodałem [osobny fragment](./rozdzialy/Wujek_dobra_rada.md) zawierający najważniejsze moim
+zdaniem rady dotyczące czytania tej książki. Odsyłam teraz do niego na początku niektórych
+rozdziałów wprowadzających.
 
-2025.07.31 Wstępna wersja [rozdziału
-35](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R35_Sprzatajac_pod_lasem.md)
+2025.08.02 [Rozdział 35](./rozdzialy/R35_Sprzatajac_pod_lasem.md) na tyle mi się rozrósł, że
+musiałem go podzielić na dwie części. Druga część jest dostępna między innymi przez link pojawiający
+się pod koniec części pierwszej. Poza tym uprzedzam, że od czasu ogłoszenia oficjalnej wstępnej
+wersji [rozdziału 34](./rozdzialy/R34_Aima.md) wiele razy w nim jeszcze dłubałem. Wszystko wskazuje
+na to, że wykluwa mi się wyraźnie odrębna część książki, zaczynająca się właśnie od R34.
+
+2025.07.31 Wstępna wersja [rozdziału 35](./rozdzialy/R35_Sprzatajac_pod_lasem.md)
 dotyczy: 1. relacji porządku, z perspektywy teoriomnogościowej i kategoryjnej, ale jeszcze bez map
 monotonicznych, 2. istoty psychologii i relacji między psychologią i innymi naukami, 3. i pewnych
 szczególnych cienkich kategorii, to jest pewnych pra- lub częściowych porządków występujących często
 w codziennym życiu. Piszę znowu czasem wierszem (jak w tym zdaniu) i dialo*giem*, napisałem również
 nieco więcej niż zwykle o *sobie*. Coś trzeba robić z tym czasem.
 
-2025.07.29 Wstępna wersja rozdziału 34 jest
-[tu](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R34_Aima.md). Piszę
-w nim trochę o psychologii, w tym również o pewnych ważnych klasach modeli, które od dawna odgrywają
-w psychologii ważną rolę, ale też o różnych codziennych sprawach. Ponieważ najważniejszy wątek tego
-rozdziału wiąże się z pewną niespodzianką, więcej nie będę zdradzał.
+2025.07.29 Wstępna wersja rozdziału 34 jest [tu](./rozdzialy/R34_Aima.md). Piszę w nim trochę o
+psychologii, w tym również o pewnych ważnych klasach modeli, które od dawna odgrywają w psychologii
+ważną rolę, ale też o różnych codziennych sprawach. Ponieważ najważniejszy wątek tego rozdziału
+wiąże się z pewną niespodzianką, więcej nie będę zdradzał.
 
 2025.07.26 Skończyłem pisać wstępną wersję [rozdziału
-33](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md),
-dotyczącego kontrolowania wieloznaczności za pomocą polimorfizmu ad-hoc, który ma w Leanie elegancką
-i teoretycznie uzasadnioną implementację za pomocą elastycznego procesu syntezy implementacji
-wirtualnych interfejsów. Wracam też do rozpoczętego wcześniej, tylko niejawnie, wątku homomorfizmów,
-i mówię trochę o głębszych problemach związanych z wieloznacznościami, którymi jestem zmuszony
-często operować w tej książce. Nawet o zamkach coś tam opowiadam.
+33](./rozdzialy/R33_a_potem_rekordowo_i_z_klasa.md), dotyczącego kontrolowania wieloznaczności za
+pomocą polimorfizmu ad-hoc, który ma w Leanie elegancką i teoretycznie uzasadnioną implementację za
+pomocą elastycznego procesu syntezy implementacji wirtualnych interfejsów. Wracam też do
+rozpoczętego wcześniej, tylko niejawnie, wątku homomorfizmów, i mówię trochę o głębszych problemach
+związanych z wieloznacznościami, którymi jestem zmuszony często operować w tej książce. Nawet o
+zamkach coś tam opowiadam.
 
 2025.07.24 Skończyłem pisać wstępną wersję [rozdziału o
 listach](./rozdzialy/R32_zaraz_bedzie_tylko_jeszcze_listy.md). Można się z niego dowiedzieć trochę o

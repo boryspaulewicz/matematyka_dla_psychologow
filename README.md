@@ -20,14 +20,9 @@ wsłuchiwania się w siebie (nawzajem).
 
 <hr>
 
-**Aktualności**: 2025.08.02 [Rozdział
-35](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R35_Sprzatajac_pod_lasem.md)
-na tyle mi się rozrósł, że musiałem go podzielić na dwie części. Druga część jest dostępna między
-innymi przez link pojawiający się pod koniec części pierwszej. Poza tym uprzedzam, że od czasu
-ogłoszenia oficjalnej wstępnej wersji [rozdziału
-34](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R34_Aima.md)
-wiele razy w nim jeszcze dłubałem. Wszystko wskazuje na to, że wykluwa mi się wyraźnie odrębna część
-książki, zaczynająca się właśnie od R34.
+**Aktualności**: 2025.08.03 Dodałem [osobny fragment](./rozdzialy/Wujek_dobra_rada.md) zawierający
+najważniejsze moim zdaniem rady dotyczące czytania tej książki. Odsyłam teraz do niego na początku
+niektórych rozdziałów wprowadzających.
 
 Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 *zwłaszcza* tych krytycznych.
