@@ -22,13 +22,13 @@ Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spost
 
 <hr>
 
-**Ostrzeżenie**: To *nie* jest książka o liczbach, geometrii, czy rozwiązywaniu zadań rachunkowych,
-choć oczywiście i liczby i geometria i zadania rachunkowe czasem się w niej pojawiają. To jest
-książka o tym, jak można próbować lepiej zrozumieć siebie i innych za pomocą logicznie
-konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym również uzewnętrznionego dialogu
-wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów, wybranych uniwersalnych, dobrze
-określonych punktów widzenia na to samo, jakich dostarczają jedne z najbardziej abstrakcyjnych
-teorii współczesnej matematyki.
+**Ostrzeżenie (zwłaszcza dla facetów)**: To *nie* jest książka o liczbach, geometrii, czy
+rozwiązywaniu zadań rachunkowych, choć oczywiście i liczby i geometria i zadania rachunkowe czasem
+się w niej pojawiają. To jest książka o tym, jak można próbować lepiej zrozumieć siebie i innych za
+pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym również
+uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów,
+wybranych uniwersalnych, dobrze określonych punktów widzenia na to samo, jakich dostarczają jedne z
+najbardziej abstrakcyjnych teorii współczesnej matematyki.
 
 <hr>
 
