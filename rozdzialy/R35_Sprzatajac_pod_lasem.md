@@ -322,7 +322,7 @@ już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywia
 takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*,
 okazuje się być *oznaczaniem bez oznaczającego*.
 
-Ta osobliwa strzałka jest *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
+Ta osobliwa strzałka jest zatem *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
 *subiektywnością jako taką*. I jest też *oceną*, w najbardziej podstawowym znaczeniu, bo - zawsze
 tylko subiektywnie - *ważne może być tylko to, na co zwrócona jest uwaga*, ponieważ *nie da się
 chcieć albo nie chcieć tego, czego nie można w jakiś sposób wskazać*.
@@ -334,12 +334,12 @@ tym zgodzić, to powiedz, *czym innym mogłaby być* abstrakcyjna strzałka?
 
 Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów,) wyborów, postaw i
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
-którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu Księżyca.
+którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu (jeszcze) Księżyca.
 
 A pamiętasz, jak w pierwszym rozdziale powiedziałem, że ta książka *nie może* zawierać błędów w
 częściach formalnych zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie
 takie części mogą być przez każdego sprawdzone za pomocą niezawodnego algorytmu - ale ta książka
-może zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, ale zarówno ta
+może zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, jednak zarówno ta
 warstwa, jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i *ilustracje* pewnych
 *interpretacji* czegoś, co niewątpliwie istnieje.
 
@@ -364,7 +364,7 @@ dowiedzieć zarówno o kategorii źródłowej, jak i docelowej, będziemy wtedy 
 <hr>
 
 Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? W szczególności, ta
-osobliwa strzałka jest skierowana w określoną stronę *tylko* dlatego, że *wybraliśmy* kierunek.
+osobliwa strzałka jest skierowana w określoną stronę *tylko* dlatego, że *my wybraliśmy* kierunek.
 
 <br>
 
