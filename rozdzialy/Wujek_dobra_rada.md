@@ -1,5 +1,11 @@
 ## Wujek dobra rada
 
+<br>
+
+<br>
+
+### Wszystko jest (miêdzy innymi) kwesti± czasu ...
+
 Je¿eli nie masz tego w zwyczaju, to bardzo Ciê proszê, *spróbuj* chocia¿ **u¿ywaæ minutnika**. To
 *nie* jest normalna ksi±¿ka i to *nie* s± normalne tematy, cokolwiek by to mia³o znaczyæ. Od pewnego
 momentu to bêdzie czasem dzika jazda bez trzymanki.
@@ -30,3 +36,39 @@ No wiêc **minutnik**.
 **M I N U T N I K**
 
 *Minutnik*, ok?
+
+### ... i dobrego kontaktu z wcze¶niejszejszymi wersjami siebie, ...
+
+Pamiêtasz mo¿e, co mówi³em w rozdziale drugim na temat generatywnego powtarzania? Mo¿na oczywi¶cie
+czytaæ nie robi±c notatek i nie stosuj±c rozk³adów powtórek, ale czy warto?
+
+Notatki w g³êbki sposób zmieniaj± naturê procesu czytania, bo polegaj± na uzewnêtrznianiu w³asnego
+sposobu my¶lenia. Dziêki temu nie tylko znacznie lepiej rozumiemy to, co czytamy, ale równie¿
+znacznie lepiej mo¿emy zrozumieæ, czym to, o czym czytamy, jest dla nas i mo¿emy przekonaæ siê
+(naocznie!), jak w trakcie lektury zmienia siê nasze rozumienie.
+
+Czy warto wk³adaæ wysi³ek w czytanie ksi±¿ki, która dotyczy czê¶ciowo - nie oszukujmy siê - do¶æ
+trudnych technicznych zagadnieñ, je¿eli potem niewiele z tego (dla nas) zostanie? Moim zdaniem
+warto, ale (z definicji) jeszcze lepiej jest podej¶æ do tego lepiej.
+
+A *to* lepiej oznacza *jakiekolwiek* powtarzanie materia³u. Jeszcze lepiej ni¿ lepiej: powtarzanie
+generatywne i roz³o¿one w czasie. Patrz rozdzia³ drugi.
+
+### ... a o tym, kim jeste¶my, decyduje w du¿ym stopniu to, co umiemy (ze sob±) zrobiæ. ... 
+
+... Z kolei to, co umiemy zrobiæ, zale¿y przede wszystkim od tego, co i jak dobrze uda³o nam siê
+*zapamiêtaæ*. 
+
+Przypuszczam, ¿e komu¶, kto nie przekona³ siê o tym wielokrotnie na w³asnej skórze, mo¿e byæ trudno
+w to uwierzyæ, ale uczenie siê matematyki naprawdê *nie* musi polegaæ tak bardzo na "rozwi±zywaniu"
+zadañ, jak wydaje siê (wielu, ale nie wszystkim) matematykom. Sam jestem tego ¿ywym (nomen omen)
+dowodem.
+
+To jest w ogromny stopniu kwestia *pamiêci*, zw³aszcza za¶ pamiêci tak zwanej *trwa³ej*:
+Konstrukcjami formalnymi *nie da siê* naprawdê sprawnie operowaæ, zanim te nie stan± siê w pewien
+sposób czê¶ci± nas i nie zaczn± niemal same *w nas dzia³aæ* tak intuicyjnie i lekko, jak intuicyjnie
+i lekko potrafimy siê pos³ugiwaæ w³asn± d³oni±.
+
+Last but not least, robi±c co¶ *ryzykownego* warto zwracaæ uwagê na w³asne emocje, dlatego ...
+
+### ... *uwaga na frustracjê*.
