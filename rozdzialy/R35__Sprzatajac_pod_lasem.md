@@ -209,8 +209,9 @@ innymi matematyka, żebyśmy mogli o wielkich i złożonych sprawach skutecznie 
 zajmując się ich małymi, lokalnymi *częściami*, albo znajdując punkty widzenia, które pozwalają zbyt
 duże i zbyt skomplikowane jak na nasze poznawcze możliwości konstrukcje dla pewnych celów skutecznie
 [*zmniejszyć*](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids). Punkty widzenia takie jak na
-przykład krótka definicja nieskończonej kolekcji skończonych i nieskończonych struktur, składająca
-się z punktów, które można policzyć na palcach jednej ręki.
+przykład definicja kategorii generowanej przez graf, która to definicja odpowiada pewnej
+nieskończonej kolekcji skończonych i nieskończonych struktur, a sama składa się z punktów, które
+można policzyć na palcach jednej ręki.
 
 Poniżej mamy kategorię `Pracownicy`. Na tym diagramie, poprzedzonym czymś w rodzaju "preambuły"
 definiującej typowanie - a więc i tu pomieszałem dwa różne języki, z których jeden (mikrojęzyk
