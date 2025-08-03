@@ -190,14 +190,27 @@ się, że mogliby z niej skorzystać również badacze i teoretycy (chociaż teo
 prawie nieistniejący gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie,
 niemal [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once), do
 programowania i teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i
-metamatematyki, później zaś do wnioskowania przyczynowego i wnioskowania statystycznego w wersjach
-bayesowskiej i częstościowej. Korzystając z tych narzędzi zamierzam omówić kilka podstawowych
-zagadnień z obszaru szeroko rozumianej metodologii badań. Z kolei w planowanej drugiej części mam
-nadzieję uzasadnić, objaśnić i zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia
-na psychologię w szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
+metamatematyki. 
+
+Po omówieniu podstaw logiki zdań i wprowadzeniu kilku elementów logiki predykatów zaczynam w coraz
+większym stopniu polegać na teorii kategorii i na kategoryjnym sposobie myślenia o algebrach
+abstrakcyjnych. Korzystając z tych narzędzi pokazuję, posługując się w tym celu przykładami z
+codziennego życia i z psychologii, w jaki sposób można patrzeć z tej abstrakcyjnej perspektywy na
+zachowanie i myślenie, i jednocześnie jak perspektywa psychologiczna może pomóc zrozumieć tą
+abstrakcyjną perspektywę. Równolegle wprowadzam też kolejne brakujące fragmenty logiki predykatów
+wyższego rzędu. Po omówieniu polimorfizmu ad-hoc, w coraz większym stopniu ważnym źródłem przykładów
+zaczyna być psychologia i matematyka w coraz większym stopniu staje się przede wszystkim narzędziem
+służącym do metateoretycznych badań podstaw psychologii.
+
+Planowana druga część tej ksiażki ma z kolei zawierać wprowadzenie do wnioskowania przyczynowego i
+wnioskowania statystycznego w wersjach bayesowskiej i częstościowej. Korzystając z tych narzędzi
+zamierzam w niej omówić kilka podstawowych zagadnień z obszaru szeroko rozumianej metodologii badań,
+a następnie zilustrować przykładami zastosowań pewną propozycją nowego spojrzenia na psychologię w
+szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
 [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej, a niektórymi nawet wcześniej.
+pisania pracy magisterskiej, a niektórymi nawet wcześniej, i do których nawiązuję w wielu miejscach
+w części pierwszej.
 
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
@@ -216,8 +229,8 @@ rozmaitych zjawisk. Być może najważniejszym zastosowaniem matematyki we wspó
 jest w mojej ocenie *formalizacja rozumowań*, które psychologowie wyrażają często nieczytelnie i
 niejasno w swoich publikacjach. A teoria typów wyposażona w [typy
 zależne](https://en.wikipedia.org/wiki/Dependent_type) jest wydaje mi się czymś najbliższym, co
-obecnie mamy, do realizacji wizji[^2], którą [Bertrand
-Russell](https://pl.wikipedia.org/wiki/Bertrand_Russell) przedstawił w wykładzie zatytułowanym
+obecnie mamy, do realizacji wizji[^2], którą
+[Russell](https://pl.wikipedia.org/wiki/Bertrand_Russell) przedstawił w wykładzie zatytułowanym
 *Logika jako istota filozofii* w 1914 roku w Londynie, a który w wersji przetłumaczonej na język
 polski można znaleźć
 [tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
