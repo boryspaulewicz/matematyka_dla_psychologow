@@ -203,11 +203,11 @@ spełnia kategoria generowana przez graf i których spełnienie gwarantuje unika
 kategorii. Dopóki nie zajdzie taka potrzeba, nie trzeba próbować wyobrażać sobie szczegółowo takiej
 kategorii; trzeba tylko albo pamiętać te kryteria, albo umieć je znaleźć.
 
-Ostatecznie i tak zawsze wyobrażamy sobie i badamy (z definicji) tylko struktury mieszczące się w
-naszych (małych) głowach, a więc struktury subiektywnie małe. Od tego jest między innymi matematyka,
-żebyśmy mogli o wielkich i złożonych sprawach skutecznie mówić i myśleć albo zajmując się ich
-małymi, lokalnymi *częściami*, albo znajdując punkty widzenia, które pozwalają zbyt duże i zbyt
-skomplikowane jak na nasze poznawcze możliwości konstrukcje dla pewnych celów skutecznie
+Ostatecznie i tak zawsze wyobrażamy sobie i badamy bezpośrednio (z definicji) tylko struktury
+mieszczące się w naszych (małych) głowach, a więc struktury subiektywnie małe. Od tego jest między
+innymi matematyka, żebyśmy mogli o wielkich i złożonych sprawach skutecznie mówić i myśleć albo
+zajmując się ich małymi, lokalnymi *częściami*, albo znajdując punkty widzenia, które pozwalają zbyt
+duże i zbyt skomplikowane jak na nasze poznawcze możliwości konstrukcje dla pewnych celów skutecznie
 [*zmniejszyć*](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids). Punkty widzenia takie jak na
 przykład krótka definicja nieskończonej kolekcji skończonych i nieskończonych struktur, składająca
 się z punktów, które można policzyć na palcach jednej ręki.
