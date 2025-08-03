@@ -493,7 +493,7 @@ filozofię. Być może częściowo z powodu tego, jakie to coraz gorsze efekty w
 połączenie mojej prokrastynacji i lekkomyślności z ogromną elastycznością terminów zaliczeń, jaką
 charakteryzowało się wtedy studowianie na tym kierunku na UJ, ale wydaje mi się jednak, że przede
 wszystkim z innych, głębszych przyczyn, któregoś dnia, czytając w księgarni opis na obwolucie
-jakiejś książki wydanej przez [wydawnictwo Aletheia](https://www.aletheia.com.pl/) poczułem nagłą i
+jakiejś książki wydanej przez [wydawnictwo Aletheia](https://www.aletheia.com.pl/), poczułem nagłą i
 niespodziewaną pewność, że nie mam już do tego serca. I tak trafiłem na psychologię.
 
 Dopiero niedawno zacząłem wracać, rzadko i z pewną nieśmiałością, do tego typu literatury i wygląda
