@@ -368,8 +368,8 @@ i)² = (-1)² * i² = 1 * i² = i² = -1`, wydaje się więc, że trzeba *wybra�
 czy `-i`, jest `i`, bo te dwa $i$ są funkcjonalnie równie dobrymi kandydatami, a nie mogą być tą
 samą liczbą, nawet jeśli "tylko" urojoną[^2].
 
-Ale czy zachowania albo ruchy celowe, takie jak wszelkie wybory, nie mają kierunku jako własnej
-(ang. [*intrinsic*](https://en.wiktionary.org/wiki/intrinsic)) własności? 
+Ale czy zachowania albo ruchy celowe, tak jak wszelkie wybory, nie mają kierunku jako własnej
+(ang. [*intrinsic*](https://en.wiktionary.org/wiki/intrinsic)) własności?
 
 Mają kierunek, ale nie jako własność własną, bo mają go tylko w pewnym sensie i zależnie od
 kontekstu, bo kierunek jest zawsze *nieunikalny*, a jest taki z konieczności, bo, tak jak ta wyżej
