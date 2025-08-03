@@ -86,14 +86,15 @@ wszystkim (bardzo) pomóc.
 
 A mówiąc płycej: Choć uniwersalną, a więc dotyczącą także i mnie prawdą jest, że "im więcej piszesz,
 tym więcej głupstw napiszesz"[^5], to może dzięki kontaktowi z tą niezwykłą dyscypliną, a właściwie
-zdyscyplinowaną swobodą myślenia, studenci psychologii i psychologowie akademiccy mogliby nauczyć
-czytać z większym zrozumieniem pełną głupot literaturę naukową? Albo po to, żeby używać na przykład
-wnioskowania statystycznego czy przyczynowego wiedząc **dlaczego** tych narzędzi używa się w taki a
-nie inny sposób, czyli postępując jak na naukowca przystało, zamiast bezmyślnie i często popełniając
-szkolne błędy robić coś, bo "tak się robi", całkowicie opierając się na domniemanym autorytecie
-zajętego zdobywaniem grantów i przepychaniem publikacji akademickiego stada. Ale chyba przede
-wszystkim po to, żeby doświadczać głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu,
-kontroli i mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
+zdyscyplinowaną swobodą myślenia, studenci psychologii i psychologowie akademiccy mogliby się
+nauczyć czytać z większym zrozumieniem pełną skrzętnie zamaskowanych lub nieuświadomionych głupot
+literaturę naukową? Albo po to, żeby używać na przykład wnioskowania statystycznego czy
+przyczynowego wiedząc **dlaczego** tych narzędzi używa się w taki a nie inny sposób, czyli
+postępując jak na naukowca przystało, zamiast bezmyślnie i często popełniając szkolne błędy robić
+coś, bo "tak się robi", całkowicie opierając się na domniemanym autorytecie zajętego zdobywaniem
+grantów i przepychaniem publikacji akademickiego stada. Ale chyba przede wszystkim po to, żeby
+doświadczać głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu, kontroli i mocy
+wynikających z opanowywania nowych sposobów myślenia, i piękna.
 
 **Dlaczego studenci psychologii albo psychologowie akademiccy mieliby zaczynać naukę podstaw
 matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, że to jest *możliwe*, a
