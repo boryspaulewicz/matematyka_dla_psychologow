@@ -42,10 +42,10 @@ No wiêc **minutnik**.
 Pamiêtasz mo¿e, co mówi³em w rozdziale drugim na temat generatywnego powtarzania? Mo¿na oczywi¶cie
 czytaæ nie robi±c notatek i nie stosuj±c rozk³adów powtórek, ale czy warto?
 
-Notatki w g³êbki sposób zmieniaj± naturê procesu czytania, bo polegaj± na uzewnêtrznianiu w³asnego
-sposobu my¶lenia. Dziêki temu nie tylko znacznie lepiej rozumiemy to, co czytamy, ale równie¿
-znacznie lepiej mo¿emy zrozumieæ, czym to, o czym czytamy, jest dla nas i mo¿emy przekonaæ siê
-(naocznie!), jak w trakcie lektury zmienia siê nasze rozumienie.
+Notatki w g³êbki sposób zmieniaj± proces czytania, bo polegaj± na uzewnêtrznianiu w³asnego sposobu
+my¶lenia. Dziêki temu nie tylko znacznie lepiej rozumiemy to, co czytamy, ale równie¿ znacznie
+lepiej mo¿emy zrozumieæ, czym to, o czym czytamy, jest dla nas i mo¿emy przekonaæ siê (naocznie!),
+jak w trakcie lektury zmienia siê nasze rozumienie.
 
 Czy warto wk³adaæ wysi³ek w czytanie ksi±¿ki, która dotyczy czê¶ciowo - nie oszukujmy siê - do¶æ
 trudnych technicznych zagadnieñ, je¿eli potem niewiele z tego (dla nas) zostanie? Moim zdaniem
