@@ -9,8 +9,8 @@ teorii typów, można sprawdzić i zredukować do najprostszej postaci za pomoc�
 **Ostrzeżenie (zwłaszcza dla facetów)**: To *nie* jest książka o liczbach, geometrii, czy
 rozwiązywaniu zadań rachunkowych, choć oczywiście i liczby i geometria i zadania rachunkowe czasem
 się w niej pojawiają. Ta książka jest przede wszystkim o tym, jak można próbować lepiej zrozumieć
-siebie i innych za pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym
-również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów,
+siebie i innych za pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu - w tym
+również uzewnętrznionego dialogu wewnętrznego - polegającego na łączeniu, na wiele różnych sposobów,
 pewnych niezwykle uniwersalnie użytecznych, dobrze określonych punktów widzenia na (jakiekolwiek) to
 samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej matematyki.
 
