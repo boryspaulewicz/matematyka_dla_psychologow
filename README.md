@@ -70,17 +70,18 @@ dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, o
 rozwiązywanie zadań rachunkowych, tylko o* **konsekwentne i twórcze myślenie na wiele różnych
 sposobów o czym tylko się chce** *(a czasem nie chce)*.
 
-(wtrącam się tu w przerwie od pisania rozdziału trzydziestego piątego, żeby podkreślić, że jak dotąd
-o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele, a te nieliczne zadania
-rachunkowe, które się pojawiły, służyły głównie jako ilustracja czegoś innego)
-
-<hr>
+(najmocniej przepraszam, ale pozwolę sobie wtrącić Się tu w przerwie od pisania rozdziału
+trzydziestego piątego, żeby podkreślić, że jak dotąd o liczbach i obiektach geometrycznych
+powiedziałem bardzo niewiele, a te nieliczne zadania rachunkowe, które się pojawiły, służyły głównie
+jako ilustracja czegoś zupełnie innego)
 
 Zawsze, kiedy zmieniamy na coś punkt widzenia, stajemy się w pewnym stopniu kimś innym,
 rozpoczynając w ten spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna Się rymować,
 ten dialog staje się co najmniej duetem). Jednak w każdej nietrywialnej rozmowie może łatwo dojść do
 nieporozumienia - między sobą i (nieco inną o)sobą, lub niezrozumienia się dwóch całkiem różnych
 osób. Poważnie, matematyka może w tym wszystkim (bardzo) pomóc.
+
+<hr>
 
 A mówiąc płycej: Choć uniwersalną prawdą jest, że "im więcej piszesz, tym więcej głupstw
 napiszesz"[^5], to może dzięki kontaktowi z tą niezwykłą dyscypliną, a właściwie zdyscyplinowaną
