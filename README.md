@@ -28,7 +28,8 @@ się w niej pojawiają. Ta książka jest *przede wszystkim* o tym, jak można p
 siebie i innych za pomocą logicznie konsekwentnego, ale poza tym całkiem swobodnego dialogu, w tym
 również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu, na wiele różnych sposobów,
 wybranych uniwersalnych, dobrze określonych punktów widzenia na to samo, jakich dostarczają jedne z
-najbardziej abstrakcyjnych teorii współczesnej matematyki.
+najbardziej abstrakcyjnych teorii współczesnej matematyki. To jest książka o matematyce rozumianej
+jako sztuka uważnego i nietendencyjnego wsłuchiwania się w siebie i w siebie nawzajem.
 
 <hr>
 
