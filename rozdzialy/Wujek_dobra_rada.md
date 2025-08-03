@@ -75,3 +75,8 @@ Last but not least, robi±c co¶ *ryzykownego* warto zwracaæ czasem uwagê na w³asn
 inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
 
 ### ... *uwaga na frustracjê!*
+
+To *nie musi* byæ szczególnie frustruj±ce. Trzeba jednak pogodziæ siê przede wszystkim z tym, ¿e w
+przypadku tekstów dotycz±cych z³o¿onych zagadnieñ technicznych czasami konieczna jest *radykalna*
+zmiana tempa czytania. W pewnych momentach adekwatnym rozwi±zaniem mo¿e byæ nawet czytanie *jednej*
+(niekoniecznie nowej!) *strony na dzieñ* (tak, wiem, ¿e ta ksi±¿ka nie ma stron).
