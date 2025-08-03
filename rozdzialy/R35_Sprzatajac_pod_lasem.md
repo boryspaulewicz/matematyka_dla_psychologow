@@ -358,7 +358,8 @@ jak mówisz, wstecz, Ty musisz płynąć w czasie do przodu i *to* już jest rel
 przykład *przyczynowa*. Nie wydaje Ci się, że dobrze jest szybko zauważać takie subtelności
 pojęciowe? Wracając zaś do tego, co wydaje mi się główną intencją Twojego pytania (jeżeli Cię źle
 zrozumiałem, to popraw mnie proszę), czemu nie można o tym myśleć jako o *spadaniu* w czasie? Wtedy
-czas płynąłby w górę, a my spadalibyśmy (w nim?) w dół. Pamiętasz dualność relacji `<` i `>`?
+czas płynąłby w górę, a my spadalibyśmy (ale czy w nim?) w dół. Pamiętasz dualność relacji `<` i
+`>`?
 
 ...
 
