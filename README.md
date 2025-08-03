@@ -60,7 +60,8 @@ mnoga jest przecież konieczna.
 pojawiły się na głównej stronie. Mam lekką dysgrafię, ale to już nie ma większego znaczenia.)
 
 **Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?** Może po
-to, żeby lepiej sobie radzić z abstrakcyjnym i logicznym myśleniem, bo ...
+to, żeby sprawniej i z większą przyjemnością radzić sobie z abstrakcyjnym i logicznym myśleniem, bo
+...
 
 <hr>
 
@@ -83,16 +84,16 @@ wszystkim (bardzo) pomóc.
 
 <hr>
 
-A mówiąc płycej: Choć uniwersalną prawdą jest, że "im więcej piszesz, tym więcej głupstw
-napiszesz"[^5], to może dzięki kontaktowi z tą niezwykłą dyscypliną, a właściwie zdyscyplinowaną
-swobodą myślenia, studenci psychologii i psychologowie akademiccy mogliby nauczyć się pisać mniej
-głupot i czytać z większym zrozumieniem pełną głupot literaturę naukową?  Albo po to, żeby używać na
-przykład wnioskowania statystycznego czy przyczynowego wiedząc **dlaczego** tych narzędzi używa się
-w taki a nie inny sposób, czyli postępując jak na naukowca przystało, zamiast bezmyślnie i często
-popełniając szkolne błędy robić coś, bo "tak się robi", całkowicie opierając się na domniemanym
-autorytecie zajętego zdobywaniem grantów i przepychaniem publikacji akademickiego stada. Ale chyba
-przede wszystkim po to, żeby doświadczać głębokich wglądów, satysfakcji ostatecznego rozwiązania
-problemu, kontroli i mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
+A mówiąc płycej: Choć uniwersalną, a więc dotyczącą także i mnie prawdą jest, że "im więcej piszesz,
+tym więcej głupstw napiszesz"[^5], to może dzięki kontaktowi z tą niezwykłą dyscypliną, a właściwie
+zdyscyplinowaną swobodą myślenia, studenci psychologii i psychologowie akademiccy mogliby nauczyć
+czytać z większym zrozumieniem pełną głupot literaturę naukową? Albo po to, żeby używać na przykład
+wnioskowania statystycznego czy przyczynowego wiedząc **dlaczego** tych narzędzi używa się w taki a
+nie inny sposób, czyli postępując jak na naukowca przystało, zamiast bezmyślnie i często popełniając
+szkolne błędy robić coś, bo "tak się robi", całkowicie opierając się na domniemanym autorytecie
+zajętego zdobywaniem grantów i przepychaniem publikacji akademickiego stada. Ale chyba przede
+wszystkim po to, żeby doświadczać głębokich wglądów, satysfakcji ostatecznego rozwiązania problemu,
+kontroli i mocy wynikających z opanowywania nowych sposobów myślenia, i piękna.
 
 **Dlaczego studenci psychologii albo psychologowie akademiccy mieliby zaczynać naukę podstaw
 matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, że to jest *możliwe*, a
@@ -154,7 +155,7 @@ zabiegów, których na tym etapie wolałbym nie zdradzać, wydaje mi się, że c
 ten sam temat daje pewien skutek, który trudno uzyskać czytając jedną, nawet bardzo dobrą
 książkę. Na pewno wynika to między innymi stąd, że każda kolejność tematów i sposób ich objaśniania
 ma unikalne zalety i wady. Pisząc czuję czasem potrzebę zmiany na przykład tego, jak wymieniam
-elementy składowe czegoś i dopóki nie uzyskam na ten temat infomacji zwrotnych sugerujących, że to
+elementy składowe czegoś i dopóki nie uzyskam na ten temat infomacji zwrotnych wskazujących, że to
 kiepsko działa, będę podążał za tymi intuicjami. Co do nawiasów, oficjalny powód jest taki, że
 ponieważ wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i - jak już
 wspomniałem - często się powtarzam, a zadań jest (nawet bardzo) mało, to wydaje mi się, że ten tekst
