@@ -60,9 +60,9 @@ generatywne i roz³o¿one w czasie. Patrz rozdzia³ drugi.
 *zapamiêtaæ*. 
 
 Przypuszczam, ¿e komu¶, kto nie przekona³ siê o tym wielokrotnie na w³asnej skórze, mo¿e byæ trudno
-w to uwierzyæ, ale uczenie siê matematyki naprawdê *nie* musi polegaæ tak bardzo na "rozwi±zywaniu"
-zadañ, jak wydaje siê (wielu, ale nie wszystkim) matematykom. Sam jestem tego ¿ywym (nomen omen)
-dowodem.
+w to uwierzyæ, ale uczenie siê matematyki - zw³aszcza takiej, jak± siê tutaj zajmujemy - naprawdê
+*nie* musi polegaæ tak bardzo na "rozwi±zywaniu" zadañ, jak wydaje siê (wielu, ale nie wszystkim)
+matematykom. Sam jestem tego ¿ywym (nomen omen) dowodem.
 
 To jest w ogromny stopniu kwestia *pamiêci*, zw³aszcza za¶ pamiêci tak zwanej *trwa³ej*:
 Konstrukcjami formalnymi *nie da siê* naprawdê sprawnie operowaæ, zanim te nie stan± siê w pewien
