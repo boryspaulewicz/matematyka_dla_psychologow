@@ -152,7 +152,9 @@ Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wsz
 jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
 ważnych powodów jest skromność. Z jednej strony nadmierna, lecz z drugiej całkiem uzasadniona,
 biorąc pod uwagę rażące niekompetencje psychologów próbujących uprawiać badania naukowe, takie jak
-powszechny matematyczny półanalfabetyzm.
+powszechny matematyczny półanalfabetyzm. A matematyka uczy nas i tego, że niektóre problemy
+- często niespodziewanie - stają się *łatwiejsze*, kiedy próbujemy je rozwiązać w jakiejś ich, być
+może wywołującej początkowo niepokój, wersji ogólniejszej.
 
 No dobrze, mogę już odetchnąć i wrócić do
 [rozpracowywania](https://youtu.be/PQLySgRW6y8?si=DkOxgyHo44cJeYlv) bardziej "zwyczajnych"
