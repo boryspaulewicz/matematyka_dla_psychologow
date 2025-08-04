@@ -40,9 +40,10 @@ No wiêc *minutnik*.
 ### ... i *dobrego kontaktu* z wcze¶niejszejszymi wersjami siebie, ...
 
 Pamiêtasz mo¿e, co mówi³em w rozdziale drugim na temat generatywnego powtarzania? Mo¿na oczywi¶cie
-czytaæ nie robi±c notatek i nie stosuj±c rozk³adów powtórek, ale czy warto?
+czytaæ nie robi±c notatek i nie stosuj±c rozk³adów powtórek, ale czy warto? Oczywi¶cie, ¿e
+warto. Ale.
 
-Notatki w g³êbki sposób zmieniaj± proces czytania, bo polegaj± na uzewnêtrznianiu w³asnego sposobu
+Notatki w g³êboki sposób zmieniaj± proces czytania, bo polegaj± na uzewnêtrznianiu w³asnego sposobu
 my¶lenia. Dziêki temu nie tylko znacznie lepiej rozumiemy to, co czytamy, ale równie¿ znacznie
 lepiej mo¿emy zrozumieæ, czym to, o czym czytamy, jest dla nas i mo¿emy przekonaæ siê (naocznie!),
 jak w trakcie lektury zmienia siê nasze rozumienie.
@@ -77,6 +78,6 @@ inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
 ### ... *uwaga na frustracjê!*
 
 To *nie musi* byæ szczególnie frustruj±ce. Trzeba jednak pogodziæ siê przede wszystkim z tym, ¿e w
-przypadku tekstów dotycz±cych z³o¿onych zagadnieñ technicznych czasami konieczna jest *radykalna*
-zmiana tempa czytania. W pewnych momentach adekwatnym rozwi±zaniem mo¿e byæ nawet czytanie *jednej*
+przypadku tekstów dotycz±cych z³o¿onych zagadnieñ technicznych konieczna bywa *radykalna* zmiana
+tempa czytania. W pewnych momentach adekwatnym rozwi±zaniem mo¿e byæ nawet czytanie *jednej*
 (niekoniecznie nowej!) *strony na dzieñ* (tak, wiem, ¿e ta ksi±¿ka nie ma stron).
