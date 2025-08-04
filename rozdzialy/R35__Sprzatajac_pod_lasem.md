@@ -142,8 +142,8 @@ Psychologia nie *wyodrębniła się* wcale z filozofii, tylko powstając w niej 
 Śmiało, szukaj sobie w tym wszystkim jakiejś dziury, ja poczekam! Byłbym i o tym zapomniał: Sztuczna
 inteligencja to *dział psychologii stosowanej* (i przedmiot badania psychologii), co od dawna
 powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że zajmują sią
-nią ludzie o niebo lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc również
-naukowej, niż współcześni psychologowie.
+nią ludzie o niebo lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc naukowej,
+niż współcześni psychologowie.
 
 Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wszystko, podkreślam
 jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
