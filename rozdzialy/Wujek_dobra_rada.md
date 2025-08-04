@@ -8,7 +8,9 @@
 
 Je¿eli nie masz tego w zwyczaju, to bardzo Ciê proszê, *spróbuj* chocia¿ **u¿ywaæ minutnika**. To
 *nie* jest normalna ksi±¿ka i to *nie* s± normalne tematy, cokolwiek by to mia³o znaczyæ. Od pewnego
-momentu to bêdzie czasem dzika jazda bez trzymanki.
+momentu to bêdzie czasem dzika jazda bez trzymanki (któr± bêdê siê jednak jak tylko umiem stara³ tak
+zorganizowaæ, ¿eby mo¿liwie czêsto przypomina³a bardziej spacer po barwnie ukwieconej ³±czce w
+nieograniczaj±cej nadmiernie widoczno¶ci lekkiej mgle).
 
 Wychodzi mi to ró¿nie, ale staram siê pisaæ tak, ¿eby da³o siê to czytaæ w miarê p³ynnie i ¿eby ten
 proces by³ nie tylko wzglêdnie bezbolesny, ale dostarcza³ te¿ trochê frajdy. W stopniu, w jakim mi
