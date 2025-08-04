@@ -41,9 +41,9 @@ określone miejsce* w organiźmie, albo co *emituje pewną ilość ciepła*, i t
 serce jest *tym, co pompuje krew*.
 
 Biologia jest więc przedmiotem badań i jednocześnie subdyscypliną psychologii, jak wszystkie
-nauki. W dodatku z prostej, deskryptywnie trafnej definicji, bo każda nauka *jako nauka* jest
-wytworem i narzędziem zachowania. Inaczej mówiąc, właściwie rozumiana psychologia jest *punktem
-stałym samego badania*.
+nauki. W dodatku z prostej, deskryptywnie trafnej definicji, bo każda nauka *jako nauka*, w tym
+również psychologia, jest jednocześnie wytworem i narzędziem zachowania. Inaczej mówiąc, właściwie
+rozumiana psychologia jest *punktem stałym samego badania*.
 
 Natomiast filozofia jest wyraźnie *inna* od całej reszty. Tym, co łatwo rzuca się w oczy jest fakt,
 że uprawianie filozofii polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo
@@ -96,8 +96,8 @@ w ogólnym przypadku, czytany w oryginale, bo można zawarte tam główne treśc
 sposobów niewiele przy tym tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między
 interpretacją tekstu źródłowego i tekstem źródłowym, bo teksty filozoficzne, w każdym razie te
 *ważne*, które są wynikiem filozoficznej interpretacji i analizy innych tekstów filozoficznych,
-*same wymagają filozoficznej interpretacji i analizy*. Czy nie wygląda Ci to na robotę tego miglanca
-Urobora? Dlaczego tak jest?  I po co?
+*same wymagają filozoficznej interpretacji i analizy*. Dlaczego tak jest?  I po co? Czy nie wygląda
+Ci to na robotę tego miglanca Urobora?
 
 Może dlatego, że filozofia polega w niemałym stopniu na *odkrywaniu nowych* i *nieredukowalych
 pojęć*, czy nawet całych *struktur* pojęciowych? A więc na wskazywaniu i badaniu pojęć w pewnym
