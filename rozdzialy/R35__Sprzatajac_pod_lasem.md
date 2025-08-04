@@ -42,8 +42,9 @@ serce jest *tym, co pompuje krew*.
 
 Biologia jest więc przedmiotem badań i jednocześnie subdyscypliną psychologii, jak wszystkie
 nauki. W dodatku z prostej, deskryptywnie trafnej definicji, bo każda nauka *jako nauka*, w tym
-również psychologia, jest jednocześnie wytworem i narzędziem zachowania. Inaczej mówiąc, właściwie
-rozumiana psychologia jest *punktem stałym samego badania*.
+również psychologia, jest jednocześnie wytworem i narzędziem zachowania. Inaczej mówiąc:
+
+Właściwie rozumiana, psychologia jest *punktem stałym samego badania*.
 
 Natomiast filozofia jest wyraźnie *inna* od całej reszty. Tym, co łatwo rzuca się w oczy jest fakt,
 że uprawianie filozofii polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo
