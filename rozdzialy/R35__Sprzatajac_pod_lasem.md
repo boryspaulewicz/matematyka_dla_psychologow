@@ -158,9 +158,8 @@ stają się *łatwiejsze*, kiedy próbujemy je rozwiązać w jakiejś ich, wywo�
 niepokój, wersji ogólniejszej. Skąd by się ta skromność nie brała, ewidentnie prowadzi nas od dawna
 na manowce.
 
-No dobrze, mogę już odetchnąć i wrócić do
-[rozpracowywania](https://youtu.be/PQLySgRW6y8?si=DkOxgyHo44cJeYlv) bardziej "zwyczajnych"
-przykładów relacji porządku.
+No dobrze, mogę już odetchnąć i wrócić do omawiania bardziej "zwyczajnych" przykładów relacji
+porządku.
 
 ## Porządki to przede wszystkim *hierarchie*
 
