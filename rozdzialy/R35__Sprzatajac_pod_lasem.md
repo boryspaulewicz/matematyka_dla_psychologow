@@ -452,18 +452,6 @@ Nikt?
 No przecież w takich sytuacjach mówi *się*, że nikt.  
 Bo kiedy nikt nie przychodzi, to właśnie (pusto) przychodzi Nikt.\})
 
-<hr>
-
-<br>
-
-Mieliśmy to cały czas przed samym nosem, ale z tak bliska nie da się dobrze niczego
-zobaczyć. Patrząc z lotu Nikogo możemy wreszcie strącić przylepiającą się do oczu, prawdziwą, lecz
-wcale nie aż tak ważną różnicę między homomorfizmem takim jak `f(a + b) = f(a) + f(b)`, który jest
-pewną zachowującą strukturę funkcją, a naszym codziennym zachowaniem. Objawia się wtedy, że
-funkcjonalnie zachowanie jest uporczywym odwzorowywaniem, albo zachowywaniem struktury Się. 
-
-To be have.
-
 <br>
 
 ### Przypisy

@@ -344,7 +344,7 @@ warstwa, jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i
 *interpretacji* czegoś, co niewątpliwie istnieje.
 
 Ponieważ każda interpretacja jako taka jest pewnym sposobem użycia, w przypadku interpretacji, o ile
-tylko są *wewnętrznie* spójne, was sein kann, [muss
+tylko są *wewnętrznie* spójne, was sein kann, [muß
 sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). Zmiana interpretacji to
 tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby naprawdę opanować
 sztukę zmieniania punktów widzenia, wystarczy nauczyć się *tracić wzrok*.
