@@ -138,7 +138,8 @@ wyprowadzając tylko nieuchronne wnioski z powszechnie przyjętej definicji zach
 celowego, można powiedzieć, że:
 
 Psychologia nie *wyodrębniła się* wcale z filozofii, tylko powstając w niej zaczęła ją natychmiast
-*wchłaniać*, bo *psychologia jest filozofią, która* (teraz już ostatecznie) *znalazła swoją metodę*.
+*wchłaniać*, bo *psychologia jest filozofią, która* - teraz już ostatecznie - *znalazła swoją
+metodę*.
 
 Śmiało, szukaj sobie w tym wszystkim jakiejś dziury, ja poczekam! Byłbym i o tym zapomniał: Sztuczna
 inteligencja to *dział psychologii stosowanej* (i przedmiot badania psychologii), co od dawna
