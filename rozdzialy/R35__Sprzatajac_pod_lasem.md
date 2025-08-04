@@ -120,7 +120,7 @@ się *wyobrębni*, tak jak teraz wyobrębnia się z niej psychologia, prędko st
 zwykle (jako *dyscyplina*, nie jako uprawiający ją ludzie) ewidentnie filozofii *przestaje
 potrzebować*?
 
-Zastrzegam jednak, że na ten pomysł wpadłem dzisiaj[^5] i niewykluczone, że go przerobię lub
+Zastrzegam jednak, że na ten pomysł wpadłem dopiero dzisiaj[^5] i niewykluczone, że go przerobię lub
 porzucę. Ponieważ jednak mogę pisać w tej książce o czym tylko chcę i w jaki tylko mam ochotę
 sposób, co sprawiło, że uczę się tak szybko, tak wielu rzeczy i dostarcza mi to tyle radości, a
 czasem nawet wzruszeń, że nie mogę tego porównać z niczym, czego doświadczyłem ucząc się
