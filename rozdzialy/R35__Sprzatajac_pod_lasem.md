@@ -126,17 +126,18 @@ czasem nawet wzruszeń, że nie mogę tego porównać z niczym, czego doświadcz
 czegokolwiek w jakikolwiek sposób wcześniej, a filozofię zacząłem po latach zachowywania chłodnego
 dystansu znów cenić i lubić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
 
-A dopiero dzisiaj, szukając po raz enty jakiś dziur logicznych albo innych wad w tym, co tu
-napisałem, zauważyłem głębokie podobieństwo między filozofią i psychologią. W obydwu tych
-dyscyplinach dochodzi z konieczności do czegoś w rodzaju wewnętrznego zwarcia albo samoodniesienia,
-bo przedmiotem badań filozoficznych jest między innymi filozofowanie, a przedmiotem badań
-psychologicznych jest między innymi samo badanie. Tyle, że filozofia nie ma metody, a psychologia
-(teraz jeszcze bardziej) *ma*. I wszelkie dociekania filozoficzne są przecież zachowaniami i każda
-filozofia jest wytworem tego rodzaju ludzkich zachowań. Wobec czego, wyprowadzając tylko nieuchronne
-wnioski z powszechnie przyjętej definicji zachowania jako działania celowego, można powiedzieć, że:
+A dopiero dzisiaj, to jest pięć dni później, szukając po raz enty jakiś dziur logicznych albo innych
+wad w tym, co tu napisałem, zauważyłem głębokie podobieństwo między filozofią i psychologią. W
+obydwu tych dyscyplinach dochodzi z konieczności do czegoś w rodzaju wewnętrznego zwarcia albo
+samoodniesienia, bo przedmiotem badań filozoficznych jest między innymi filozofowanie, a przedmiotem
+badań psychologicznych jest między innymi samo badanie. Tyle, że filozofia *nie ma* metody, a
+psychologia (teraz jeszcze bardziej) *ma*. I wszelkie dociekania filozoficzne są przecież
+zachowaniami i każda filozofia jest wytworem tego rodzaju ludzkich zachowań. Wobec czego,
+wyprowadzając tylko nieuchronne wnioski z powszechnie przyjętej definicji zachowania jako działania
+celowego, można powiedzieć, że:
 
 Psychologia nie *wyodrębniła się* wcale z filozofii, tylko powstając w niej zaczęła ją natychmiast
-*wchłaniać*, bo *psychologia jest filozofią, która znalazła swoją metodę*.
+*wchłaniać*, bo *psychologia jest filozofią, która* (teraz już ostatecznie) *znalazła swoją metodę*.
 
 Śmiało, szukaj sobie w tym wszystkim jakiejś dziury, ja poczekam! Byłby i o tym zapomniał: Sztuczna
 inteligencja to *dział psychologii stosowanej* (i przedmiot badania psychologii), co od dawna
@@ -144,11 +145,11 @@ powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych s
 nią ludzie o niebo lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc również
 naukowej, niż współcześni psychologowie.
 
-Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wszystko, podkreślam raz
-jeszcze, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
-ważnych powodów jest skromność, która jest z jednej strony nadmierna, ale z drugiej uzasadniona,
+Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wszystko, podkreślam
+jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
+ważnych powodów jest skromność. Z jednej strony nadmierna, lecz z drugiej całkiem uzasadniona,
 biorąc pod uwagę rażące niekompetencje psychologów próbujących uprawiać badania naukowe, takie jak
-powszechny matematycznym pół-analfabetyźmie.
+powszechny matematyczny pół-analfabetyźmie.
 
 No dobrze, mogę już odetchnąć i wrócić do
 [rozpracowywania](https://youtu.be/PQLySgRW6y8?si=DkOxgyHo44cJeYlv) bardziej "zwyczajnych"
