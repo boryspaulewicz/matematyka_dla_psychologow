@@ -97,8 +97,9 @@ w ogólnym przypadku, czytany w oryginale, bo można zawarte tam główne treśc
 sposobów niewiele przy tym tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między
 interpretacją tekstu źródłowego i tekstem źródłowym, bo teksty filozoficzne, w każdym razie te
 *ważne*, które są wynikiem filozoficznej interpretacji i analizy innych tekstów filozoficznych,
-*same wymagają filozoficznej interpretacji i analizy*. Dlaczego tak jest?  I po co? Czy nie wygląda
-Ci to na robotę tego miglanca Urobora?
+*same wymagają filozoficznej interpretacji i analizy*.
+
+Czy nie wygląda Ci to na robotę tego miglanca Urobora? Dlaczego tak jest? I po co?
 
 Może dlatego, że filozofia polega w niemałym stopniu na *odkrywaniu nowych* i *nieredukowalych
 pojęć*, czy nawet całych *struktur* pojęciowych? A więc na wskazywaniu i badaniu pojęć w pewnym
