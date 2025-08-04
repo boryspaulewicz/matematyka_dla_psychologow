@@ -109,19 +109,20 @@ kategorii autorzy nadal piszą o kategoriach tak, jakby akcentowanie strzałek b
 pewnych względów bardziej użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym,
 którym Ci autorzy się posługują tłumacząc, o co w tym chodzi. Z powodów historycznych i chyba też z
 głębszych powodów psychologicznych matematycy są wciąż moim zdaniem nadmiernie przywiązani do
-*zwykłych rzeczowników*, a do mówienia o jakichkolwiek strukturach jako o kategoriach w sposób
+*zwykłych rzeczowników*, a do mówienia o pewnych ważnych strukturach jako o kategoriach w sposób
 oczywisty zwykle znacznie bardziej nadają się *rzeczowniki odczasownikowe*, takie jak "oznaczanie".
 
-Struktury, które opisujemy za pomocą zwykłych rzeczowników, takie jak zbiory i należące do nich
-elementy, są *niczym* bez *sposobu, w jaki ich używamy*, bo te struktury są tylko - i aż - częściami
-pewnego *języka*, a język jest naszym *narzędziem*. To dzięki językowi panujemy nad światem i nad
-sobą w takim stopniu, w jakim panujemy i to dzięki językowi możemy się *wzajemnie rozumieć* i możemy
-do pewnego stopnia rozumieć *sami siebie*. Gdy tylko wyprowadzimy ostateczne wnioski z obserwacji,
-że to strzałki są w kategoriach najważniejsze, staje się natychmiast jasne, że teoriomnogościowe
-elementy są arbitralnymi oznaczeniami, które tylko dzięki funkcjom mogą cokolwiek oznaczać.
+Gdy tylko wyprowadzimy ostateczne wnioski z obserwacji, że to strzałki są w kategoriach
+najważniejsze, staje się natychmiast jasne, że teoriomnogościowe elementy są arbitralnymi
+oznaczeniami, które tylko dzięki funkcjom mogą cokolwiek oznaczać. Struktury, które opisujemy za
+pomocą zwykłych rzeczowników, takie jak zbiory i należące do nich elementy, są *niczym* bez
+*sposobu, w jaki ich używamy*, bo te struktury są tylko - i aż - częściami pewnego *języka*, a język
+jest naszym *narzędziem*. To dzięki językowi panujemy nad światem i nad sobą w takim stopniu, w
+jakim panujemy i to dzięki językowi możemy się *wzajemnie rozumieć* i możemy do pewnego stopnia
+rozumieć *sami siebie*.
 
 Dlatego moim zdaniem tradycyjne teoriomnogościowe implementacje pojęć kategoryjnych mają status
-implementacji w głębokim sensie *kanonicznych*. I tak będę je odtąd czasami traktował - jako
+implementacji w głęboko *ludzkim* sensie kanonicznych. I tak będę je odtąd czasami traktował - jako
 szczególnie ważne *źródła sensu* jednych z najbardziej abstrakcyjnych i zarazem najbardziej
 uniwersalnie użytecznych pojęć jakimi dysponujemy, to jest kategoryjnych
 [*granic*](https://en.wikipedia.org/wiki/Limit_(category_theory)), o których opowiem Ci więcej w
