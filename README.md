@@ -197,9 +197,10 @@ większym stopniu polegać na teorii kategorii i na kategoryjnym sposobie myśle
 abstrakcyjnych. Korzystając z tych narzędzi pokazuję, posługując się w tym celu przykładami z
 codziennego życia i z psychologii, w jaki sposób można patrzeć z tej abstrakcyjnej perspektywy na
 zachowanie i myślenie, i jednocześnie jak perspektywa psychologiczna może pomóc zrozumieć tą
-abstrakcyjną perspektywę. Równolegle wprowadzam też kolejne brakujące fragmenty logiki predykatów
-wyższego rzędu. Po omówieniu polimorfizmu ad-hoc, w coraz większym stopniu ważnym źródłem przykładów
-zaczyna być psychologia i matematyka w coraz większym stopniu staje się przede wszystkim narzędziem
+abstrakcyjną perspektywę, a przez to lepiej nad nią zapanować. Równolegle wprowadzam też kolejne
+brakujące fragmenty logiki predykatów wyższego rzędu i objaśniam wybrane zagadnienia dotyczące
+programowania. Po omówieniu polimorfizmu ad-hoc, w coraz większym stopniu ważnym źródłem przykładów
+zaczyna być psychologia, a matematyka w coraz większym stopniu staje się przede wszystkim narzędziem
 służącym do metateoretycznych badań podstaw psychologii.
 
 Planowana druga część tej ksiażki ma z kolei zawierać wprowadzenie do wnioskowania przyczynowego i
@@ -209,8 +210,7 @@ a następnie zilustrować przykładami zastosowań pewną propozycją nowego spo
 szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdziesz
 [tutaj](./rozdzialy/02_Cel.md)). Ta propozycja będzie kontynuacją i rozwinięciem wątków z
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
-pisania pracy magisterskiej, a niektórymi nawet wcześniej, i do których nawiązuję w wielu miejscach
-w części pierwszej.
+pisania pracy magisterskiej, i do których nawiązuję w wielu miejscach w części pierwszej.
 
 **Dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
