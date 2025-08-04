@@ -150,11 +150,13 @@ niż współcześni psychologowie.
 
 Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wszystko, podkreślam
 jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
-ważnych powodów jest skromność. Z jednej strony nadmierna, lecz z drugiej całkiem uzasadniona,
-biorąc pod uwagę rażące niekompetencje psychologów próbujących uprawiać badania naukowe, takie jak
-powszechny matematyczny półanalfabetyzm. A matematyka uczy nas i tego, że niektóre problemy
-- często niespodziewanie - stają się *łatwiejsze*, kiedy próbujemy je rozwiązać w jakiejś ich, być
-może wywołującej początkowo niepokój, wersji ogólniejszej.
+ważnych powodów jest skromność. Z jednej strony nadmierna, z drugiej całkiem uzasadniona, biorąc pod
+uwagę rażące niekompetencje, takie jak matematyczny półanalfabetyzm zdecydowanej większości
+psychologów, próbujących przecież badać coś tak zagadkowego, złożonego i nieuchwytnego jak
+zachowania ludzi. A matematyka uczy nas i tego, że niektóre problemy - często niespodziewanie -
+stają się *łatwiejsze*, kiedy próbujemy je rozwiązać w jakiejś ich, wywołującej może początkowo
+niepokój, wersji ogólniejszej. Skąd by się ta skromność nie brała, ewidentnie prowadzi nas od dawna
+na manowce.
 
 No dobrze, mogę już odetchnąć i wrócić do
 [rozpracowywania](https://youtu.be/PQLySgRW6y8?si=DkOxgyHo44cJeYlv) bardziej "zwyczajnych"
