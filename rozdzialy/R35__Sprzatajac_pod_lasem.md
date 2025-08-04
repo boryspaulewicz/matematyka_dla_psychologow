@@ -132,21 +132,27 @@ A dopiero dzisiaj, to jest pięć dni później, szukając po raz enty jakiś dz
 wad w tym, co tu napisałem, zauważyłem głębokie podobieństwo między filozofią i psychologią. W
 obydwu tych dyscyplinach dochodzi z konieczności do czegoś w rodzaju wewnętrznego zwarcia albo
 samoodniesienia, bo przedmiotem badań filozoficznych jest między innymi filozofowanie, a przedmiotem
-badań psychologicznych jest między innymi samo badanie. Tyle, że filozofia *nie ma* metody, a
-psychologia (teraz jeszcze bardziej) *ma*. I wszelkie dociekania filozoficzne są przecież
-zachowaniami i każda filozofia jest wytworem tego rodzaju ludzkich zachowań. Wobec czego,
-wyprowadzając tylko nieuchronne wnioski z powszechnie przyjętej definicji zachowania jako działania
+badań psychologicznych jest między innymi samo badanie. Tekst filozoficzny jest przedmiotem badania
+filozoficznego i naukowy tekst napisany przez psychologa jest przedmiotem badania psychologii, bo
+jest rezultatem i narzędziem zachowania. Poznanie i jego granice to przedmiot zainteresowania
+zarówno filozofii jak i psychologii, tak samo jak wartości i to, co - z naszej ludzkiej
+perspektywy - istnieje. 
+
+Ta zbieżność zainteresowań wynika stąd, że zarówno filozofów jak i psychologów interesują *pojęcia*,
+a pojęcia jako takie są ostatecznie wytworami i narzędziami zachowania. Jednak filozofia *nie ma*
+metody, a psychologia - teraz jeszcze bardziej - *ma*. I wszelkie dociekania filozoficzne są
+przecież zachowaniami i każda filozofia jest wytworem tego rodzaju ludzkich zachowań. Wobec czego,
+wyprowadzając nieuchronne wnioski z powszechnie przyjętej definicji zachowania jako działania
 celowego, można powiedzieć, że:
 
 Psychologia nie *wyodrębniła się* wcale z filozofii, tylko powstając w niej zaczęła ją natychmiast
-*wchłaniać*, bo *psychologia jest filozofią, która* - teraz już ostatecznie - *znalazła swoją
-metodę*.
+*wchłaniać*, bo *psychologia jest filozofią, która zaczęła znajdywać swoją metodę*.
 
-Śmiało, szukaj sobie w tym wszystkim jakiejś dziury, ja poczekam! Byłbym i o tym zapomniał: Sztuczna
+Śmiało, szukaj sobie w tym wszystkim jakiejś dziury, poczekam. Byłbym i o tym zapomniał: Sztuczna
 inteligencja to *dział psychologii stosowanej* (i przedmiot badania psychologii), co od dawna
-powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że zajmują sią
-nią ludzie o niebo lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc naukowej,
-niż współcześni psychologowie.
+powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że zarówno
+filozofią jak i sztuczną inteligencją zajmują się ludzie na ogół o niebo lepiej przygotowani do
+uprawiania psychologii *teoretycznej*, a więc naukowej, niż współcześni psychologowie.
 
 Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wszystko, podkreślam
 jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
