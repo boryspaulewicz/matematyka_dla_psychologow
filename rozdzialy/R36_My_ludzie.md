@@ -41,9 +41,10 @@ więcej, to jest plastyczność, w której często widać wyraźny kierunek, czy
 wyraźnie dostrzec - w nieoczywistym znaczeniu obserwowalny - mały fragment całej hierarchii
 kierunków ruchu. Ktoś stoi w kolejce, a więc prawie na pewno między innymi coś - w dużym stopniu,
 ale *nie całkiem* zobowiązująco - kupuje. Jednocześnie rozgląda się. I się drapie, co najmniej jedną
-ręką, bo drugą ma w kieszeni, a z twarzy można niemal wyczytać fragmenty, najwyraźniej błyskotliwej
-(?) tego kogoś z jakimś Kimś
-[rozmowy](https://pl.wikipedia.org/wiki/L%E2%80%99esprit_de_l%E2%80%99escalier). 
+ręką, bo drugą ma w kieszeni, gdzie chyba od dłuższego czasu *ma* klucze, a z jego twarzy można
+niemal wyczytać fragmenty (najwyraźniej
+[błyskotliwej]((https://pl.wikipedia.org/wiki/L%E2%80%99esprit_de_l%E2%80%99escalier)) \{?\}) z
+jakimś Kimś rozmowy.
 
 No i to wszystko zawsze było, jest i zawsze będzie tylko częściowo przewidywalne.
 
