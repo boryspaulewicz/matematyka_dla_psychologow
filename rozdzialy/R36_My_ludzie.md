@@ -62,17 +62,17 @@ No i to wszystko zawsze było, jest i zawsze będzie tylko częściowo przewidyw
 
 *z osobną prehistorią,*
 
-*którą możemy tylko obserwować*
+*którą obserwujemy*
 
-*przez zatkaną cukrową watą*
+*przez zatkaną watą*
 
-*naszych naiwnych projekcji*
+*naiwnych projekcji*
 
 *dziurkę od klucza*
 
-*wiecznie skrajnego ubóstwa*
+*wiecznego ubóstwa*
 
-*dostępnych danych indywidualnych.*
+*danych indywidualnych.*
 
 <br>
 
@@ -101,7 +101,7 @@ niestety, wraz z upływem kolejnych lat studiowania, dosyć skutecznie ogłupiaj
 obiecujące osoby studenckie podręczników.
 
 Psychologia nigdy nie cierpiała na niedobór danych. Naszym największym problemem jest od dawna coś
-wręcz *dualnego* - ...
+wręcz *dualnego*, to jest ...
 
 1. ... głęboki i powszechny brak zrozumienia szczególnego charakteru tej wyjątkowej dyscypliny,
 połączony z ...
