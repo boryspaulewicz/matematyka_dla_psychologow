@@ -43,8 +43,8 @@ kierunków ruchu. Ktoś stoi w kolejce, a więc prawie na pewno między innymi c
 ale *nie całkiem* zobowiązująco - kupuje. Jednocześnie rozgląda się. I się drapie, co najmniej jedną
 ręką, bo drugą ma w kieszeni, gdzie chyba od dłuższego czasu *ma* klucze, a z jego twarzy można
 niemal wyczytać fragmenty (najwyraźniej
-[błyskotliwej]((https://pl.wikipedia.org/wiki/L%E2%80%99esprit_de_l%E2%80%99escalier)) \{?\}) z
-jakimś Kimś rozmowy.
+[błyskotliwej](https://pl.wikipedia.org/wiki/L%E2%80%99esprit_de_l%E2%80%99escalier) \{?\}) z jakimś
+Kimś rozmowy.
 
 No i to wszystko zawsze było, jest i zawsze będzie tylko częściowo przewidywalne.
 
