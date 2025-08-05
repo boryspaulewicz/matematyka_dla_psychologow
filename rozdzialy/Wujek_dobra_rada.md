@@ -79,7 +79,18 @@ inaczej mo¿na sobie zrobiæ krzywdê, dlatego ...
 
 ### ... *uwaga na frustracjê!*
 
-To *nie musi* byæ szczególnie frustruj±ce. Trzeba jednak pogodziæ siê przede wszystkim z tym, ¿e w
-przypadku tekstów dotycz±cych z³o¿onych zagadnieñ technicznych konieczna bywa *radykalna* zmiana
-tempa czytania. W pewnych momentach adekwatnym rozwi±zaniem mo¿e byæ nawet czytanie *jednej*
-(niekoniecznie nowej!) *strony na dzieñ* (tak, wiem, ¿e ta ksi±¿ka nie ma stron).
+To *nie musi* byæ szczególnie frustruj±ce. Trzeba jednak pogodziæ siê z tym, ¿e w przypadku tekstów
+dotycz±cych z³o¿onych zagadnieñ technicznych konieczna bywa *radykalna* zmiana tempa czytania. W
+pewnych momentach adekwatnym rozwi±zaniem mo¿e byæ nawet czytanie *jednej* (niekoniecznie nowej!)
+*strony na dzieñ* (tak, wiem, ¿e ta ksi±¿ka nie ma stron).
+
+Mo¿na porównaæ ten proces do jazdy na rowerze. Kiedy robi siê stromo, mo¿na siê albo szybciej
+mêczyæ, ryzykuj±c utratê motywacji, albo zmieniæ przerzutkê na tak±, która powoduje, ¿e jedziemy
+wolniej, ale za to mo¿emy siê uwa¿niej i z wiêksz± przyjemno¶ci± rozgl±daæ po otoczeniu. Byæ mo¿e
+frustracjê z mniejszego tempa zmniejszy wtedy ¶wiadomo¶æ, ¿e chocia¿ poruszamy siê wolniej w
+poziomie, to jednak szybciej nabieramy wysoko¶ci, a to oznacza *postêpy* (w rozumieniu trudnych
+pojêæ).
+
+Kiedy z kolei wracamy po raz kolejny do fragmentu, który wymaga³ wcze¶niej wiêcej cierpliwo¶ci,
+mo¿emy cieszyæ siê z zauwa¿alnego wzrostu p³ynno¶ci jazdy, a czasem nawet mieæ wra¿enie, ¿e w
+niektórych momentach jed±c do góry pêdzimy jakim¶ cudem coraz szybciej w dó³.
