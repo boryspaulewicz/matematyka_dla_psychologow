@@ -435,7 +435,8 @@ psychopacie, z nachalnym utrudnianiem.*
 
 Informacje zwrotne zawsze mile widziane:
 
-[R36](./rozdzialy/R36.md)
+[R36 My, ludzie, postrzegamy świat w kategoriach wykonywalnych sekwencji
+działań](./rozdzialy/R36_My_ludzie.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 

@@ -1,4 +1,4 @@
-My, ludzie, postrzegamy świat w kategoriach wykonywalanych sekwencji działań.
+# My, ludzie, postrzegamy świat w kategoriach [wykonywalanych sekwencji działań](https://youtu.be/k5TfLr52CD8?si=6-HuWZ50gadaHcEN)
 
 Uważam, że najważniejszy eksperyment psychologiczny, który dotąd przeprowadziłem i nie wydaje mi
 się, żebym kiedykolwiek miał to osiągnięcie przebić, przeprowadziłem ze studentami drugiego roku na
