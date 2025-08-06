@@ -97,7 +97,7 @@ wszystkim dzięki przeróżnym formom komunikacji językowej zachowaniu.
 
 Proszę, zgadnij, czego o tego rodzaju ekstremalnie powtarzalnych, częstych i ważnych regularnościach
 dotyczących naszego zachowania można się dowiedzieć ze współczesnych, w mojej ocenie nierzadko
-niestety, wraz z upływem kolejnych lat studiowania, dosyć skutecznie ogłupiających nasze wspaniałe,
+niestety, wraz z upływem kolejnych lat studiowania, skutecznie ogłupiających nasze wspaniałe,
 obiecujące osoby studenckie podręczników.
 
 Psychologia nigdy nie cierpiała na niedobór danych. Naszym największym problemem jest od dawna coś
@@ -127,18 +127,19 @@ niestety *tylko* jakiś,
 
 [*Studenta*](https://pl.wikipedia.org/wiki/Test_t_Studenta).
 
-Nawet wypełnione po brzegi podanymi z pozycji rzekomego autorytetu tym, co zdaniem ich autorów
-powinno "się" podręczniki metodologii badań psychologicznych, będące wywodami na temat tego, jakie
-to wnioski i kiedy są lub nie są - zdaniem autorów tych wprost przeczących w tym sobie dzieł -
-"naukowo" *uzasadnione*, nie zawierają często *jednego* uzasadnienia zawartych w nich powinno "się".
+Albo otwórzmy typowe podręczniki do metodologii badań psychologicznych, wypełnione po brzegi
+podanymi z pozycji rzekomego autorytetu zasadami mówiącymi co "się" powinno, czego "się" nie
+powinno, i jakie to wnioski i kiedy są lub nie są zdaniem autorów "naukowo" *uzasadnione*. Proszę,
+zgadnij, jak często autorzy tych podręczników dobrze lub w ogóle jakoś *uzasadniają własne
+zalecenia*?
 
 Pomijając czasem wręcz ratujące ludzkie życia, ale jednocześnie nieliczne i lokalne sukcesy
 aplikacyjne, których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w
 rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje
 
-*współczesna*
+*Współczesna*
 
-*psychologia,*
+*psychologia*
 
 **obraża**
 
@@ -148,7 +149,7 @@ rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę na
 
 **pierwszego**
 
-**roku.**
+**roku**
 
 <br>
 
@@ -161,3 +162,72 @@ Szanujmy się jak sceptyczni ludzie.
 <hr>
 
 ## Ogólna kategoria jest aksjomatyzacją pojęcia afordancji
+
+Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
+
+Zadanie n-rękiego bandyty to pewna idealizacja i zarazem uogólnienie lubianej przez wielu zabawy,
+polegającej na tym, że siedzimy lub stoimi przed takim sporym pudłem, ciągniemy za wajchę wystającą
+z prawej strony, patrzymy na zmieniające się w trzech okienkach obrazki i rujnujemy sobie i swoim
+ewentualnym bliskim życie. Wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej zabawy
+jest "ekscytująca".
+
+Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
+
+1. ... zbiór dostępnych działań (`d : Dzialanie`), ...
+
+2. ... które można wykonywać teoretycznie w nieskończoność (`iteracja : Nat → Dzialanie`) ...
+
+3. ... i które prowadzą, jako do swoich skutków, do czegokolwiek, co można oceniać (`nagroda :
+   Dzialanie → Rezultat`) ...
+
+4. ... według jakiejś relacji porządku (`[Porzadek Rezultat]`).
+
+Wyobraź sobie, że masz nieskończenie dużo czasu, nie masz żadnych znajomych ani w ogóle nic innego
+do roboty, `n = 3`, a rezultami, jak w kasynie, są wypłaty pieniężne, które mimo swojej szczególnej
+sytuacji nadal cenisz. Zaczęłaś od jednokrotnego sprawdzenia każdego z dostępnych działań:
+
+```lean
+-- Ten parametryczny typ pozwala wygodnie rozumować na temat jakiegoś czegoś, które może być
+-- niedostępne albo niepoznawalne albo bezużyteczne. W Leanie ten typ nazywa się `Option` i ma
+-- konstruktory o nazwach `some ...` i `none`.
+inductive Co? (α : Type u) where
+  | a_nic         : Co? α
+  | a_to (to : α) : Co? α
+
+open Co?
+
+-- 0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3+ ↦ właśnie zaczął mi się urlop
+def odwazny_poczatek (n : Nat) : Co? Nat :=
+    if n < 3 then (a_to n) else a_nic
+```
+
+Przypuszczam, że sposobu działania wyrażeń o konstrukcji `if <warunek> then term1 else term2` nie
+muszę tłumaczyć, poza jedną subtelnością: warunek musi być *rozstrzygalny* (o czym więcej kiedy
+indziej).
+
+Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą sytuację (albo to zadanie)
+tak, jakby nie miała (miało) *stanu*. Mówiąc inaczej, ale równoważnie funkcjonalnie, istnieje tylko
+jeden stan tego (zewnętrznego wobec nas) świata. To znaczy, że wszystko działa zawsze tak samo,
+niezależnie od tego, co wcześniej zrobiliśmy i niezależnie od tego, co się wcześniej wydarzyło. I
+znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się jak (będący
+jego dualnym odpowiednikiem) zbiór pusty. W tym przypadku wynika to stąd, że pojęcie stanu jakiegoś
+świata jest tylko wtedy użyteczne, gdy stany mogą być różne.
+
+No więc wyobraź sobie, że zastosowałaś, trzy razy, strategię eksploracyjną, dzięki której udało Ci
+się uzyskać takie oto (funkcjonalnie) zyski, będące jednocześnie (funkcjonalnie) informacjami na
+temat dynamiki środowiska:
+
+`0 ↦ 665, 1 ↦ 664, 2 ↦ 667`
+
+*W tym wypadku* możemy jednoznacznie stwierdzić, co *powinnaś* zrobić, bo to wynika z definicji, a
+wynika z niej, bo ta jest definicją *zadania*. Jeżeli zależy Ci tylko na pieniądzach (nie oceniam),
+to zgodnie ze wszystkimi dostępnymi danymi, *najlepszym* wyborem jest oczywiście `2` (i tylko `2`),
+albo (jedynym) *racjonalnym* wyborem jest *w tym momencie* `2`. Zwróć proszę uwagę, że *racjonalny*
+znaczy w tym kontekście *dokładnie* to samo, co *najlepszy*.
+
+TODO homomorfizm
+planowania działań.
+
+TODO GIBSON
+
+Postrzeganie świata w kategoriach interfejsu programistycznego.
