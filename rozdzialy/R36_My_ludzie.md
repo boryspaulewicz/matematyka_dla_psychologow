@@ -169,8 +169,8 @@ Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
 Zadanie n-rękiego bandyty to pewna idealizacja i zarazem uogólnienie lubianej przez wielu zabawy,
 polegającej na tym, że siedzimy lub stoimi przed takim sporym pudłem, ciągniemy za wajchę wystającą
 z prawej strony, patrzymy na zmieniające się w trzech okienkach obrazki i rujnujemy sobie i swoim
-ewentualnym bliskim życie. Wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej zabawy
-jest "ekscytująca".
+ewentualnym bliskim życie. Wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej
+urzekającej formy spędzania wolnego czasu jest "ekscytująca".
 
 Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 
@@ -181,7 +181,7 @@ Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 3. ... i które prowadzą, jako do swoich skutków, do czegokolwiek, co można oceniać (`nagroda :
    Dzialanie → Rezultat`) ...
 
-4. ... według jakiejś relacji porządku (`[Porzadek Rezultat]`).
+4. ... według dowolnej relacji porządku (`[Porzadek Rezultat]`).
 
 Wyobraź sobie, że masz nieskończenie dużo czasu, nie masz żadnych znajomych, ani w ogóle nic innego
 do roboty, `n = 3`, a rezultami, jak w kasynie, są wypłaty pieniężne, które mimo tej szczególnej
