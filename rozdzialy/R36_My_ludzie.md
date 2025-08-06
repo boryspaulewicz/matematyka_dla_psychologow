@@ -201,14 +201,14 @@ inductive Co? (α : Type u) where
 
 open Co?
 
--- 0 ↦ 0, 1 ↦ 1, 2 ↦ 2, _ ↦ właśnie zaczął mi się urlop
+-- 0 ↦ 0, 1 ↦ 1, 2 ↦ 2, _ ↦ właśnie zaczął mi się urlop.
 def odwazny_poczatek (n : Nat) : Co? Nat :=
     if n < 3 then (a_to n) else a_nic
 ```
 
 Przypuszczam, że sposobu działania wyrażeń o konstrukcji `if <warunek> then term1 else term2` nie
-muszę tłumaczyć, poza jedną subtelnością: warunek musi być *rozstrzygalny* (o czym więcej kiedy
-indziej).
+muszę tłumaczyć, poza jedną subtelnością: warunek musi być *rozstrzygalny* (przez algorytm \{o czym
+więcej kiedy indziej\}).
 
 Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą sytuację (albo to zadanie)
 tak, jakby nie miała (miało) *stanu*. Mówiąc inaczej, ale równoważnie funkcjonalnie, istnieje tylko
