@@ -185,7 +185,7 @@ Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 3. i które prowadzą, jako do swoich skutków, do czegokolwiek, co można oceniać (`nagroda : Dzialanie
    → Rezultat`) ...
 
-4. według dowolnej relacji porządku (`[Porzadek Rezultat]`).
+4. posługując się dowolną relacją porządku (`[Porzadek Rezultat]`).
 
 Wyobraź sobie, że masz nieskończenie dużo czasu, nie masz żadnych znajomych, ani w ogóle nic innego
 do roboty, `n = 3`, a rezultami, jak w kasynie, są wypłaty pieniężne, które mimo tej szczególnej
