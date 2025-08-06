@@ -146,7 +146,7 @@ wyprowadzając nieuchronne wnioski z powszechnie przyjętej definicji zachowania
 celowego, można powiedzieć, że:
 
 Psychologia nie *wyodrębniła się* wcale z filozofii, tylko powstając w niej zaczęła ją natychmiast
-*wchłaniać*, bo *psychologia jest filozofią, która zaczęła znajdywać swoją metodę*.
+*wchłaniać*, bo *psychologia jest filozofią, która zaczęła odkrywać swoją jedyną metodę*.
 
 **Podkreślam (pismem pogrubionym \{docelowa czytelniczko\}), że to nie do Ciebie**: Śmiało,
 filozofowie, szukajcie sobie w tym wszystkim jakiejś dziury, poczekam. A jeśli któremuś z was
