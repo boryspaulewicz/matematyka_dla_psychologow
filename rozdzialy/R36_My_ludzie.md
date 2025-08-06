@@ -2,8 +2,8 @@
 
 Uważam, że najważniejszy eksperyment psychologiczny, który dotąd przeprowadziłem i nie wydaje mi
 się, żebym kiedykolwiek miał to osiągnięcie przebić, przeprowadziłem ze studentami drugiego roku na
-zajęciach z neuronauki i psychologii poznawczej. Gdy na początku zajęć upewniłem się, że wszyscy
-mnie usłyszą, powiedziałem:
+zajęciach z neuronauki i psychologii poznawczej. Gdy tylko upewniłem się, że wszyscy mnie usłyszą,
+powiedziałem:
 
 *Proszę niech każdy podniesie rękę, chcę Was policzyć*.
 
