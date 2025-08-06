@@ -203,11 +203,15 @@ sama *znajomość dowodu mówi niewiele*, a często może nawet *nic*, o znaczen
 Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego
 pomocą *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego
 *konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
-dać; rolą dowodu *nie* jest ujawnianie znaczenia dowodzonego zdania, tylko rozstrzyganie o jego
+dać. Rolą dowodu *nie* jest ujawnianie znaczenia dowodzonego zdania, tylko rozstrzyganie o jego
 prawdziwości i - zawsze tylko częściowe - ujawnienie znaczenia *założeń dowodu*. Wykonując dwa razy
-ten sam w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z
-pewnych reguł - i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu tych
-*reguł*, ponieważ miałaś okazję doświadczyć pewnych sposobów, w jaki można te reguły *stosować*.
+ten sam w zasadzie dowód poznałaś więc pewien fakt (twierdzenie Bayesa wynika logicznie z pewnych
+reguł) i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu tych *reguł*,
+ponieważ miałaś okazję doświadczyć pewnych sposobów, w jaki można te reguły *stosować*.
+
+Od chwili, w której jakieś zdanie zostało formalnie udowodnione, wiemy na pewno, że jest po prostu
+prawdziwe. Od tego momentu możemy korzystać z jego prawdziwości nie obawiając się, że tak żałośnie,
+że aż *dowiedlnie* marnujemy czas. A o samym dowodzie możemy spokojnie *zapomnieć*.
 
 Będziemy odtąd robić podobne rzeczy, ale zwykle [nie na
 kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
