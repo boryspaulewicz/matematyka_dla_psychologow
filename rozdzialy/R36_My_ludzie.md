@@ -206,12 +206,13 @@ indziej).
 Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą sytuację (albo to zadanie)
 tak, jakby nie miała (miało) *stanu*. Mówiąc inaczej, ale równoważnie funkcjonalnie, istnieje tylko
 jeden stan tego (zewnętrznego wobec nas) świata. To znaczy, że wszystko działa zawsze tak samo,
-niezależnie od tego, co wcześniej zrobiliśmy i niezależnie od tego, co się wcześniej wydarzyło. I
-znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się tak, jak
+niezależnie od tego, co wcześniej zrobiliśmy i niezależnie od tego, co się wcześniej wydarzyło. 
+
+I znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się tak, jak
 będący jego dualnym odpowiednikiem zbiór pusty. W tym przypadku dlatego, że pojęcie stanu jakiegoś
 świata jest tylko wtedy użyteczne, kiedy stany mogą być różne. A mówiąc inaczej, ale w zasadzie to
 samo, *pojęcie* stanu *domaga się*, przynajmniej potencjalnej, tego rodzaju różnorodności, bo
-głównym zastosowaniem tego pojęcia jest rozważanie własności różnych możliwych stanów.
+kanonicznym zastosowaniem tego pojęcia jest rozważanie własności różnych możliwych stanów.
 
 No więc wyobraź sobie, że na początku zastosowałaś `n` razy tego rodzaju strategię eksploracyjną,
 dzięki czemu udało Ci się uzyskać takie oto (funkcjonalnie) zyski, będące jednocześnie
