@@ -105,15 +105,15 @@ obiecujące osoby studenckie podręczników.
 Psychologia nigdy nie cierpiała na niedobór danych. Naszym największym problemem jest od dawna coś
 wręcz *dualnego*, to jest ...
 
-1. ... głęboki i powszechny brak zrozumienia szczególnego charakteru tej wyjątkowej dyscypliny,
+1. głęboki i powszechny brak zrozumienia szczególnego charakteru tej wyjątkowej dyscypliny,
 połączony z ...
 
-2. ... dziecinnie naiwnym naśladowaniem praktyk podpatrzonych u fizyków i biologów, ...
+2. ziecinnie naiwnym naśladowaniem praktyk podpatrzonych u fizyków i biologów, ...
 
-   1. ... a przede wszystkim z niemal ateoretycznym - bo też co to za "teorie naukowe" - czyli
-ślepym, ...
+   1. a przede wszystkim z niemal ateoretycznym - bo też co to za "teorie naukowe" - czyli ślepym,
+...
 
-   2. ... nierzadko groteskowo nieudolnym empiryzmem.
+   2. nierzadko groteskowo nieudolnym empiryzmem.
 
 Współcześni psychologowie przecież nie tylko nie znają, ale wręcz konsekwentnie *unikają* poznania
 tej *odrobiny* matematyki, którą trzeba poznać, żeby *rozumieć*, na co pozwala, a na co nie pozwala
@@ -235,10 +235,16 @@ tym momencie* `2`.
 
 Zwróć proszę uwagę, że *racjonalny* znaczy w tym kontekście *dokładnie* to samo, co
 *najlepszy*. Ponadto *rozstrzygnięcie*, który wybór jest w danym kontekście racjonalny, wymaga
-*pamięci*, która akurat tutaj przyjęła maksymalnie uniwersalną postać *sekwencji reakcji*. Reakcja
-jest tutaj *parą* złożoną z bodźca i działania, ale w ogólnym przypadku będzie *trójką* złożoną z
-*bodźca* (czyli funkcjonalnie \{zwykle ekstremalnie fragmentarycznej\} informacji na temat stanu
-świata), działania i *stanu* (*całego* świata).
+*pamięci*, która akurat tutaj przyjęła maksymalnie uniwersalną postać *sekwencji reakcji*. Akurat w
+tym przykładzie reakcja jest *parą* złożoną z bodźca i działania, ale w ogólnym przypadku będzie
+*trójką* złożoną z ...
+
+1. bodźca, czyli funkcjonalnie (zwykle ekstremalnie fragmentarycznej) *informacji na temat
+aktualnego stanu* (świata), ...
+
+2. działania wykonanego w danej *próbie* i ...
+
+3. stanu *całego* (ale za to tylko rozważanego) *świata*.
 
 TODO konieczne założenia przyczynowe w RELE
 
