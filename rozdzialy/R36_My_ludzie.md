@@ -129,10 +129,9 @@ niestety *tylko* jakiś,
 [*Studenta*](https://pl.wikipedia.org/wiki/Test_t_Studenta).
 
 Albo otwórzmy typowe podręczniki do metodologii badań psychologicznych, wypełnione po brzegi
-podanymi z pozycji rzekomego autorytetu zasadami mówiącymi co "się" powinno, czego "się" nie
+podanymi z pozycji rzekomego autorytetu zasadami, mówiącymi co "się" powinno, czego "się" nie
 powinno, i jakie to wnioski i kiedy są lub nie są zdaniem autorów "naukowo" *uzasadnione*. Proszę,
-zgadnij, jak często autorzy tych podręczników dobrze lub w ogóle jakoś *uzasadniają własne
-zalecenia*?
+zgadnij, jak często ci autorzy dobrze lub w ogóle jakoś *uzasadniają własne zalecenia*?
 
 Pomijając czasem wręcz ratujące ludzkie życia, ale jednocześnie nieliczne i lokalne sukcesy
 aplikacyjne, których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w
@@ -154,9 +153,8 @@ rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę na
 
 Żeby się o tym przekonać, wystarczy ich o to *zapytać*.
 
-My, psychologowie, jako zwierzęta zasługujemy na współczucie.
-
-Szanujmy się jak sceptyczni ludzie.
+My, psychologowie, jak wszystkie inne zwierzęta zasługujemy na współczucie. Ale może szanujmy się
+jak sceptyczni ludzie?
 
 <hr>
 
