@@ -66,7 +66,7 @@ No i to wszystko zawsze było, jest i zawsze będzie tylko częściowo przewidyw
 
 *którą obserwujemy*
 
-*przez zatkaną mglistą watą*
+*poprzez zatkaną mglistą watą*
 
 *naszych naiwnych projekcji*
 
