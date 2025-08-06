@@ -5,7 +5,7 @@ się, żebym kiedykolwiek miał to osiągnięcie przebić, przeprowadziłem ze s
 zajęciach z neuronauki i psychologii poznawczej. Gdy tylko upewniłem się, że wszyscy mnie usłyszą,
 powiedziałem:
 
-*Proszę niech każdy podniesie rękę, chcę Was policzyć*.
+*Podnieście proszę ręce, chcę Was policzyć*.
 
 Zanim wypowiedziałem to zdanie, musiałem je oczywiście *ułożyć*. Nie wiem dokładnie, jak to się
 dzieje, ale może pojawiają się wtedy jakby krótkie przebłyski fragmentów zdania? Potem ewentualnie
