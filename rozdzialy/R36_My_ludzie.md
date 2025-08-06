@@ -356,23 +356,25 @@ mieć i często mają *skutki uboczne*, co znaczy, że *nie* muszą zwracać i c
 samych wartości dla tych samych wejść.
 
 Nasz "agent" rodzi się w tym małym świecie z bazową ogólną "kondycją" (domyślna wartość argumentu
-`wypas` ustawiona na 0). Wewnątrz ciała agenta zdeterminowana jest też, przez instrukcję `zycie =
-12`, długość jego "życia". Domyślna wartość aktualnego stanu wejścia o nazwie `skutek` to `NA`, co w
-języku R jest standardowym oznaczeniem braku danych. Instrukcja resetująca życia jest wykonana tylko
-raz, *wewnątrz* ciała (funkcji) agenta, na samym początku interakcji ze środowiskiem, kiedy wejście
-`skutek` ma właśnie tą wartość, czyli kiedy nasz agent nie zdążył jeszcze nic zrobić, a więc tym
-bardziej "otworzyć oczy" i dlatego nic nie "percypuje". Można więc powiedzieć, że ten agent rodzi
-się z wbudowanym "zegarem biologicznym", który się resetuje zaraz po tym, jak agent wydaje z siebie
-pierwotny krzyk (`A()`).
+`wypas` ustawiona na 0). Wewnątrz ciała agenta zdeterminowana jest również - przez instrukcję `zycie
+= 12` - długość jego "życia". Domyślna wartość aktualnego stanu wejścia o nazwie `skutek` to `NA`,
+co w języku R jest standardowym oznaczeniem braku danych (od ang. *Not Available*). Instrukcja
+resetująca życia jest wykonana tylko raz, *wewnątrz* ciała (funkcji) agenta, na samym początku
+interakcji ze środowiskiem, kiedy wejście `skutek` ma właśnie tą wartość, czyli kiedy nasz agent nie
+zdążył jeszcze nic zrobić, a więc tym bardziej nie zdążył porządnie "otworzyć oczu" i dlatego nic
+nie "percypuje". Można więc powiedzieć, że ten agent rodzi się z wbudowanym "zegarem biologicznym",
+który resetuje się do wartości "fabrycznej" zaraz po tym, jak agent wydaje z siebie pierwotny krzyk
+(`A()`).
 
-Poza tym rodzi się jako tabula rasa, ale tylko *do pewnego stopnia*. Dwukomórkowa pamięć jest co
-prawda początkowo pusta, ale mimo wszystko jest *dwu*komórkowa, a to znaczy, że jej struktura jest
-"od urodzenia" w pewien sposób dopasowana do struktury interfejsu agent-środowisko. Można
-powiedzieć, że już samo czymś w rodzaju wbudowanej wiedzy. Podobnie zresztą jak *cały sposób
-działania*, który jest idealnie dopasowany do dobrze określonego celu i struktury tego środowiska.
-Właściwie jedyna wbudowana w tego agenta "niepewność" to brak "wiedzy" na temat skutków każdego z
-dostępnych ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i dlatego będzie dla nas na
-pouczającym punktem wyjścia w rozważaniach na temat *sensu życia*.
+Mogłoby się wydawać, że ten agent rodzi się jako tabula rasa, ale to nie jest takie proste.
+Dwukomórkowa pamięć jest co prawda początkowo pusta, ale mimo wszystko jest *dwu*komórkowa, a to
+znaczy, że jej struktura jest "od urodzenia" w pewien sposób dopasowana do struktury interfejsu
+agent-środowisko. Można powiedzieć, że już samo to jest czymś w rodzaju wbudowanej wiedzy. Podobnie
+zresztą jak *cały sposób działania*, który jest również doskonale dopasowany do dobrze określonego
+celu i struktury tego środowiska. Właściwie jedyna wbudowana w tego agenta "niepewność" to
+początkowy brak "wiedzy" na temat skutków każdego z dostępnych ruchów. Dlatego ten agent nie musi
+się prawie w ogóle *uczyć* i dlatego będzie dla nas na pouczającym punktem wyjścia w rozważaniach na
+temat *sensu życia*.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
 
