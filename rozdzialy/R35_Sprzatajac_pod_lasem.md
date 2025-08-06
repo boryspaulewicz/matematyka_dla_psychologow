@@ -423,7 +423,7 @@ tylko punktem ... światła w tunelu. Zresztą czas można *sensownie* uporządk
 wiele, również nieizomorficznych sposobów. Na przykład, można uporządkować nieskończony zbiór
 punktów czasowych ze względu na stopień zagęszczenia materii we Wszechświecie, albo można obrać
 jakiś punkt zerowy na skali czasu i wtedy czas co prawda nie będzie *płynął* w dwie strony, ale
-będzie traktowany tak, jakby miał jednocześnie dwa *kierunki*. Ten ryży meksykanin Ludwik mówi o tym
+będzie traktowany tak, jakby miał jednocześnie dwa *kierunki*. Ten rudy meksykanin Ludwik mówi o tym
 bardzo, hm, jasno i tłumaczy to [krok po
 kroku](https://www.imdb.com/title/tt6736782/?ref_=ext_shr_lnk).
 
