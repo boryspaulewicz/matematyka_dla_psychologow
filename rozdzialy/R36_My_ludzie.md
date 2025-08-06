@@ -173,8 +173,8 @@ Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
 Zadanie n-rękiego bandyty to pewna idealizacja i zarazem uogólnienie lubianej przez wielu zabawy,
 polegającej na tym, że siedzimy lub stoimi przed takim sporym pudłem, ciągniemy za wajchę wystającą
 z prawej strony, patrzymy na zmieniające się w trzech okienkach obrazki i rujnujemy sobie i swoim
-ewentualnym bliskim życie. Mimo to wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej
-dualnie urzekającej formy spędzania wolnego czasu jest "ekscytująca".
+ewentualnym bliskim życie. Co ciekawe, wiele osób zdaje się sądzić, że adekwatnym określeniem dla
+tej dualnie urzekającej formy spędzania wolnego czasu jest "ekscytująca".
 
 Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 
@@ -185,7 +185,8 @@ Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 3. i które prowadzą, jako do swoich skutków, do czegokolwiek, co można oceniać (`nagroda : Dzialanie
    → Rezultat`) ...
 
-4. posługując się dowolną relacją porządku (`[Porzadek Rezultat]`).
+4. posługując się dowolną relacją porządku (`[Porzadek Rezultat]`, czyli powołanie się na pasującą
+   instancję klasy `Porzadek`).
 
 Wyobraź sobie, że masz nieskończenie dużo czasu, nie masz żadnych znajomych, ani w ogóle nic innego
 do roboty, `n = 3`, a rezultami, jak w kasynie, są wypłaty pieniężne, które mimo tej szczególnej
@@ -245,6 +246,98 @@ aktualnego stanu* (świata), ...
 2. działania wykonanego w danej *próbie* i ...
 
 3. stanu *całego* (ale za to tylko rozważanego) *świata*.
+
+Żeby było ciekawiej, zmienimy język na taki, który
+[wymaga](https://pl.wikipedia.org/wiki/Odzie%C5%BC_ochronna) założenia rękawic do smaru i oleju,
+okularów ochronnych i maski przeciwpyłowej. Zaczniemy od zdefiniowania prostej *funkcji środowiska*:
+
+```r
+## Ta prosta funkcja jest naszym modelem środowiska, w którym może być lepiej lub gorzej, a to, jak
+## w nim (nam) jest zależy od tego, jakie wykonujemy ruchy. Uprzedzam, że to jest *nowy* język
+## programowania (R), który zarówno pod względem składni jak i sposobu działania bardzo różni się od
+## Leana.
+
+E = function(a){
+    c(665, 664, 667)[a + 1]
+}
+```
+
+Ta prosta funkcja środowiska pobiera tylko indeks ruchu, czyli, mówiąc w uproszczeniu, "decyzję",
+której wartościami mogą być liczby naturalne od 0 do 1. W ciele, które w języku R można oddzielić od
+reszty kodu za pomocą nawiasów klamrowych, widzimy wyrażenie tworzące *wektor* trójelementowy (czyli
+pewnego rodzaju sekwencję), którego wartościami są nagrody odpowiadające każdemu z działań. Na tym
+wektorze wykonywana jest operacja indeksowania, którą oznaczamy w R używając nawiasów
+kwadratowych. Ponieważ w R indeksujemy pozycje w typach sekwencyjnych od 1, a nie od 0, musimy dodać
+1 do wybranego działania.
+
+Jeżeli teraz *zewaluujemy* ten kod, to *zmienna* `E` stanie się *tymczasowo* nazwą tej funkcji. W
+przeciwieństwie do Leana, napisany w skrypcie R-a kod nie zaczyna od razu "działać" w R. Widzimy
+też, że nie ma tu żadnej informacji o typach danych. Jeżeli teraz w *wierszu poleceń* R-a (`> ...`),
+którego w Leanie nie ma, napiszemy `E(1)` i naciśniemy Enter, zobaczymy to:
+
+```r
+> E(1)
+[1] 664
+```
+
+Ten komunikat **czytamy jako**: Wektor jednoelementowy (`[1]`) o zawartości `664`. 
+
+Wyobraźmy sobie teraz, że wiemy z góry tylko tyle, że możemy używać trzech konkretnych ruchów. Żeby
+napisać funkcję, która w jakiś sensowny sposób gra w tą grę, musimy skorzystać z
+*pamięci*. Rozwiążemy ten problem w sposób, który bardziej przypomina styl kodowania w języku
+funkcyjnym niż w języku imperatywnym:
+
+```r
+## Ta prosta funkcja jest naszym modelem środowiska, w którym może być lepiej lub gorzej, a to, jak
+## w nim (nam) jest zależy od tego, jakie wykonujemy ruchy. Uprzedzam, że to jest *nowy* język
+## programowania (R), który zarówno pod względem składni jak i sposobu działania bardzo różni się od
+## Leana.
+
+## Tutaj określamy, gdzie są jakie
+konfitury = c(44, 56.5)
+
+E = function(a){
+    konfitury[a]
+}
+
+## To jest funkcja "podmiotu" albo "agenta".
+A = function(skutek = NA,
+             pamiec = c(NA, NA),
+             wypas = 0,
+             zycia = NA){
+    ## Nie ma informacji na temat skutku, a więc to jest pierwsza próba.
+    if(is.na(skutek)){
+        proba = 1
+        zycia = 12
+    }else{
+        if(zycia == 0){
+            print("Game over")
+            return(wypas)
+        }
+        if(any(is.na(pamiec))){
+            proba = which(is.na(pamiec))[1]
+        }else{
+            proba = which(pamiec == max(pamiec))[1]
+        }
+    }
+    skutek = E(proba)
+    wypas = wypas + skutek
+    pamiec[proba] = skutek
+    zycia = zycia - 1
+    A(skutek, pamiec, wypas, zycia)
+}
+
+A()
+
+## > A()
+## [1] "Game over"
+## [1] 665.5
+
+(665.5 - sum(konfitury)) / max(konfitury)
+
+## > (665.5 - sum(konfitury)) / max(konfitury)
+## [1] 10
+```
 
 TODO konieczne założenia przyczynowe w RELE
 
