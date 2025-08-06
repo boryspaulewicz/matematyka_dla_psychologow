@@ -133,9 +133,9 @@ podanymi z pozycji rzekomego autorytetu zasadami, mówiącymi co "się" powinno,
 powinno, i jakie to wnioski i kiedy są lub nie są zdaniem autorów "naukowo" *uzasadnione*. Proszę,
 zgadnij, jak często ci autorzy dobrze lub w ogóle jakoś *uzasadniają własne zalecenia*?
 
-Pomijając czasem wręcz ratujące ludzkie życia, ale jednocześnie nieliczne i lokalne sukcesy
-aplikacyjne, których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w
-rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje ...
+Pomijając czasem wręcz ratujące życie, ale jednocześnie nieliczne i lokalne sukcesy aplikacyjne,
+których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w rozumieniu natury
+ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje ...
 
 <hr>
 
