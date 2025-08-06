@@ -147,9 +147,7 @@ rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę na
 
 **studentów**
 
-**pierwszego**
-
-**roku**
+**pierwszego roku.**
 
 <hr>
 
