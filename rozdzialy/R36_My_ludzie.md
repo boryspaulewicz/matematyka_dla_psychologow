@@ -139,7 +139,7 @@ rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę na
 
 <hr>
 
-*... Współczesna psychologia*
+*... Współczesna psychologia?*
 
 **obraża**
 
