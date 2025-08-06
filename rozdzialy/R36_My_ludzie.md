@@ -50,7 +50,9 @@ No i to wszystko zawsze było, jest i zawsze będzie tylko częściowo przewidyw
 
 <br>
 
-*Podobnie jak z konieczności*
+**Podobnie**
+
+*jak z konieczności*
 
 *tylko częściowo*
 
@@ -66,7 +68,7 @@ No i to wszystko zawsze było, jest i zawsze będzie tylko częściowo przewidyw
 
 *przez zatkaną watą*
 
-*naiwnych projekcji*
+*naszych naiwnych projekcji*
 
 *dziurkę od klucza*
 
