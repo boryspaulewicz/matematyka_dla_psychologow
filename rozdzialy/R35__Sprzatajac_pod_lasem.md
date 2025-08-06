@@ -148,11 +148,19 @@ celowego, można powiedzieć, że:
 Psychologia nie *wyodrębniła się* wcale z filozofii, tylko powstając w niej zaczęła ją natychmiast
 *wchłaniać*, bo *psychologia jest filozofią, która zaczęła znajdywać swoją metodę*.
 
-Śmiało, szukaj sobie w tym wszystkim jakiejś dziury, poczekam. Byłbym i o tym zapomniał: Sztuczna
-inteligencja to *dział psychologii stosowanej* (i przedmiot badania psychologii), co od dawna
-powinno być dla wszystkich oczywiste. Tak się tylko z powodów historycznych składa, że zarówno
-filozofią jak i sztuczną inteligencją zajmują się ludzie na ogół o niebo lepiej przygotowani do
-uprawiania psychologii *teoretycznej*, a więc naukowej, niż współcześni psychologowie.
+**Podkreślam (pismem pogrubionym \{docelowa czytelniczko\}), że to nie do Ciebie**: Śmiało,
+filozofowie, szukajcie sobie w tym wszystkim jakiejś dziury, poczekam. A jeśli któremuś z was
+przypomniało się w tym kontekście słowo
+["psychologizm"](https://plato.stanford.edu/entries/psychologism/), to proszę zwrócić uwagę, że
+mówimy tutaj o głębokim (i oczywistym) podobieństwie między filozofią i nie tą starą (za to
+śmieszną) psychologią, tylko psychologią rozumianą jako nauka zajmująca się abitralnymi zachowaniami
+*jako takimi*, to jest arbitralnymi działaniami celowymi.
+
+Byłbym i o tym zapomniał: Sztuczna inteligencja to *dział psychologii stosowanej* (i przedmiot
+badania psychologii), co od dawna powinno być dla wszystkich oczywiste. Tak się tylko z powodów
+historycznych składa, że zarówno filozofią jak i sztuczną inteligencją zajmują się ludzie na ogół o
+niebo lepiej przygotowani do uprawiania psychologii *teoretycznej*, a więc naukowej, niż współcześni
+psychologowie.
 
 Dlaczego my, psychologowie, wcale tak o tych sprawach nie myślimy, skoro to wszystko, podkreślam
 jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje mi się, że jednym z
