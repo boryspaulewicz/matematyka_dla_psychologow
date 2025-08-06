@@ -118,11 +118,13 @@ połączony z ...
 Współcześni psychologowie przecież nie tylko nie znają, ale wręcz konsekwentnie *unikają* poznania
 tej *odrobiny* matematyki, którą trzeba poznać, żeby *rozumieć*, na co pozwala, a na co nie pozwala
 
-**Taki**,
+**Taki**
 
 dla większości psychologów
 
-niestety *tylko* jakiś,
+niestety *tylko* 
+
+jakiś
 
 *test*
 
