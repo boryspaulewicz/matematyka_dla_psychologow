@@ -180,9 +180,9 @@ Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 
 4. ... według jakiejś relacji porządku (`[Porzadek Rezultat]`).
 
-Wyobraź sobie, że masz nieskończenie dużo czasu, nie masz żadnych znajomych ani w ogóle nic innego
-do roboty, `n = 3`, a rezultami, jak w kasynie, są wypłaty pieniężne, które mimo swojej szczególnej
-sytuacji nadal cenisz. Zaczęłaś od jednokrotnego sprawdzenia każdego z dostępnych działań:
+Wyobraź sobie, że masz nieskończenie dużo czasu, nie masz żadnych znajomych, ani w ogóle nic innego
+do roboty, `n = 3`, a rezultami, jak w kasynie, są wypłaty pieniężne, które mimo tej szczególnej
+sytuacji nadal sobie cenisz. Zaczęłaś od jednokrotnego sprawdzenia każdego z dostępnych działań:
 
 ```lean
 -- Ten parametryczny typ pozwala wygodnie rozumować na temat jakiegoś czegoś, które może być
