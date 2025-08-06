@@ -273,7 +273,7 @@ kwadratowych. Ponieważ w R indeksujemy pozycje w typach sekwencyjnych od 1, a n
 Jeżeli teraz *zewaluujemy* ten kod, to *zmienna* `E` stanie się *tymczasowo* nazwą tej funkcji. W
 przeciwieństwie do Leana, napisany w skrypcie R-a kod nie zaczyna od razu "działać" w R. Widzimy
 też, że nie ma tu żadnej informacji o typach danych. Jeżeli teraz w *wierszu poleceń* R-a (`> ...`),
-którego w Leanie nie ma, napiszemy `E(1)` i naciśniemy Enter, zobaczymy to:
+którego w Leanie nie ma, napiszemy `E(1)` i naciśniemy Enter, zobaczymy odpowiedź środowiska:
 
 ```r
 > E(1)
@@ -295,90 +295,112 @@ napisać funkcję, która w jakiś sensowny sposób gra w tą grę, *musimy* sko
 funkcyjnym niż w języku imperatywnym:
 
 ```r
-## Tutaj określamy, gdzie są jakie
-konfitury = c(44, 56.5)
+## Tu określamy, gdzie są jakie
+konfitury = c(44, 77)
 
-## Ta prosta funkcja jest naszym chwilowym modelem środowiska, w którym może być lepiej lub gorzej,
-## a to, jak w nim (nam) jest zależy od tego, jakie wykonujemy ruchy. Uprzedzam, że to jest *nowy*
-## język programowania (R), który zarówno pod względem składni jak i sposobu działania bardzo różni
-## się od Leana.
+## Ta prosta funkcja jest naszym roboczym modelem środowiska, w którym może być lepiej lub gorzej, a
+## to, jak w nim w danym momencie jest, zależy od wykonanego w poprzedniej iteracji
+## ruchu. Uprzedzam, że to jest *nowy* język programowania (R), który zarówno pod względem składni
+## jak i sposobu działania bardzo różni się od Leana.
 E = function(a){
     konfitury[a]
 }
 
-## A to jest funkcja "podmiotu" albo "agenta".
-A = function(skutek = NA,
+## A to jest funkcja "podmiotu" albo "agenta". Na początku nie ma sygnału ze środowiska (`sygnal =
+## NA`), pamięć jest pusta, kondycja ma poziom wyjściowy i jesteśmy najmłodszą możliwą wersją
+## siebie.
+A = function(sygnal = NA,
              pamiec = c(NA, NA),
              wypas = 0,
-             zycia = NA){
-    ## Nie ma informacji na temat skutku, a więc to musi być pierwsza próba.
-    if(is.na(skutek)){
+             zycia = 9){
+    ## Etap wyboru następnego ruchu:
+    if(is.na(sygnal)){
+        ## Jeżeli nie ma informacji na temat ostatniego sygnału, to musi to być pierwsza próba, w
+        ## której arbitralnie wybieramy pierwszy ruch.
         ruch = 1
-        zycia = 12
     }else{
+        ## Jeżeli natomiast to nie jest początek interakcji ze środowiskiem ...
         if(zycia == 0){
-            print("Game over")
+            ## ... ale to ostatnie życie, oddajemy wszystko, co nam zostało, ...
+            print("Cześć, i dzięki za ryby")
             return(wypas)
-        }
-        if(any(is.na(pamiec))){
-            ruch = which(is.na(pamiec))[1]
         }else{
-            ruch = which(pamiec == max(pamiec))[1]
+            ## ... a jeżeli to nie jest ostatnie życie, ...
+            if(any(is.na(pamiec))){
+                ## ... to jeżeli nie ma jeszcze zapisu pamięciowego sygnału po którymś ruchu, to
+                ## wybieramy pierwszy ruch, dla którego nie ma takiego zapisu, ...
+                ruch = which(is.na(pamiec))[1]
+            }else{
+                ## ... w przeciwnym razie wybieramy ruch o największym zapamiętanym sygnale:
+                ruch = which(pamiec == max(pamiec))[1]
+            }
         }
     }
-    skutek = E(ruch)
-    wypas = wypas + skutek
-    pamiec[ruch] = skutek
+    ## Etap przetwarzania sygnału:
+    ##
+    ## Odbieramy sygnał ze środowiska ...
+    sygnal = E(ruch)
+    ## .. i oddajemy się konsumpcji:
+    wypas = wypas + sygnal
+    ## Najadłwszy się, zapamiętujemy sygnał jako własność ostatnio wybranego ruchu, ...
+    pamiec[ruch] = sygnal
+    ## a następnie - trochę się od tego wszystkiego starzejąc - ...
     zycia = zycia - 1
-    A(skutek, pamiec, wypas, zycia)
+    ## ... aplikujemy Się do dostępnych danych:
+    A(sygnal, pamiec, wypas, zycia)
 }
 
 A()
 
 ## > A()
-## [1] "Game over"
-## [1] 665.5
+## [1] "Cześć, i dzięki za ryby"
+## [1] 660
 
-(665.5 - sum(konfitury)) / max(konfitury)
+(660 - sum(konfitury)) / max(konfitury)
 
-## > (665.5 - sum(konfitury)) / max(konfitury)
-## [1] 10
+## > (660 - sum(konfitury)) / max(konfitury)
+## [1] 7
 ```
 
 **Przypomnienie o fundamentalnej różnicy między językami funkcyjnymi i imperatywnymi**: W języku R
-symbole takie jak tutaj `E`, `A`, `konfitury`, `skutek`, czy `ruch` nie są *stałymi*, bo w R nie ma
-stałych, tylko zmiennymi, które w dodatku mają *inny* charakter niż zmienne w Leanie. Zmienne w R są
-*nazwami miejsc w pamięci komputera* i *nie* mają ustalonego typu. Dlatego *w każdej chwili* można
-*przypisać* (za pomocą operacji wyglądającej jak równość) na przykład do zmiennej `E` *jakąkolwiek*
-wartość. Ponieważ ciała funkcji napisanych w R mogą korzystać z dowolnych widocznych w tych ciałach
-zmiennych, a wartości zmiennych mogą się zmieniać w trakcie działania programu, funkcje w `R` mogą
-mieć i często mają *skutki uboczne*, co znaczy, że *nie* muszą zwracać i często nie zwracają tych
-samych wartości dla tych samych wejść.
+symbole takie jak tutaj `E`, `A`, `konfitury`, `sygnal`, czy `ruch` nie są *stałymi*, tylko
+zmiennymi, które w dodatku mają *inny* charakter niż zmienne w Leanie. Zmienne w Leanie są nazwami
+wejść (czystych) funkcji, a zmienne w R są *nazwami miejsc w pamięci komputera* i *nie* mają
+ustalonego typu. Dlatego *w każdej chwili* można *przypisać* - za pomocą operacji tylko
+*wyglądającej* jak równość matematyczna - na przykład do zmiennej `E` *jakąkolwiek*
+wartość. Zależnie od kontekstu, ta operacja jest więc albo *nadaniem wartości początkowej*, albo
+*zmianą* wartości zmiennej. Ponieważ ciała funkcji napisanych w R mogą korzystać z dowolnych
+widocznych w tych ciałach zmiennych, a wartości zmiennych w R mogą się zmieniać w trakcie działania
+programu, funkcje w `R` mogą mieć i często mają *skutki uboczne*, co znaczy, że *nie* muszą zwracać
+i często nie zwracają tych samych wartości dla tych samych wejść.
 
-Nasz "agent" rodzi się w tym małym świecie z bazową ogólną "kondycją" (domyślna wartość argumentu
-`wypas` ustawiona na 0). Wewnątrz ciała agenta zdeterminowana jest również - przez instrukcję `zycie
-= 12` - długość jego "życia". Domyślna wartość aktualnego stanu wejścia o nazwie `skutek` to `NA`,
-co w języku R jest standardowym oznaczeniem braku danych (od ang. *Not Available*). Instrukcja
-resetująca życia jest wykonana tylko raz, *wewnątrz* ciała (funkcji) agenta, na samym początku
-interakcji ze środowiskiem, kiedy wejście `skutek` ma właśnie tą wartość, czyli kiedy nasz agent nie
-zdążył jeszcze nic zrobić, a więc tym bardziej nie zdążył porządnie "otworzyć oczu" i dlatego nic
-nie "percypuje". Można więc powiedzieć, że ten agent rodzi się z wbudowanym "zegarem biologicznym",
-który resetuje się do wartości "fabrycznej" zaraz po tym, jak agent wydaje z siebie pierwotny krzyk
-(`A()`).
+Kod napisany w R to jednak *również* matematyka. Możemy dowodzić twierdzeń dotyczących sposobu
+działania kodu napisanego w językach imperatywnych po prostu dlatego, że to są języki formalne i
+napisane w nich programy działają zgodnie z jednoznacznymi, sztywnymi zasadami. Różnica polega na
+tym, że dowodzenie twierdzeń na temat działania programów napisanych w językach imperatywnym może
+wymagać zastosowania jakiejś wersji logiki *przyczynowej*, którą poznamy kiedy indziej.
 
-Mogłoby się wydawać, że ten agent rodzi się jako tabula rasa, ale to nie jest takie proste.
-Dwukomórkowa pamięć jest co prawda początkowo pusta, ale mimo wszystko jest *dwu*komórkowa, a to
-znaczy, że jej struktura jest "od urodzenia" w pewien sposób dopasowana do struktury interfejsu
-agent-środowisko. Można powiedzieć, że już samo to jest czymś w rodzaju wbudowanej wiedzy. Podobnie
-zresztą jak *cały sposób działania*, który jest również doskonale dopasowany do dobrze określonego
-celu i struktury tego środowiska. Właściwie jedyna wbudowana w tego agenta "niepewność" to
-początkowy brak "wiedzy" na temat skutków każdego z dostępnych ruchów. Dlatego ten agent nie musi
-się prawie w ogóle *uczyć* i dlatego będzie dla nas na pouczającym punktem wyjścia w rozważaniach na
-temat *sensu życia*.
+Nasz (domniemany) agent rodzi się w tym małym świecie z bazową "kondycją" (domyślna wartość
+zmiennej/parametru/argumentu `wypas` to 0). Wewnątrz (ciała \{funkcji\}) agenta zdeterminowana jest
+również - jako początkowa wartość jednej ze zmiennych - długość jego "życia". Można więc powiedzieć,
+że ten agent rodzi się z wbudowanym "zegarem biologicznym", który resetuje się do wartości
+"fabrycznej", kiedy agent wydaje z siebie pierwotny krzyk (`A()`). Domyślna, a więc tutaj tylko
+początkowa wartość sygnału ze środowiska to `NA`, co w języku R jest standardowym oznaczeniem braku
+danych (ang. *Not Available*). Czyli ten agent "rodzi się z zamkniętymi oczami".
+
+Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to nie jest takie proste. Jego
+dwukomórkowa pamięć jest co prawda początkowo pusta, jednak ta pamięć jest *dwu*komórkowa, a to
+znaczy, że jej struktura jest "od urodzenia" dopasowana do struktury interfejsu
+agent-środowisko. Można powiedzieć, że już samo to jest czymś w rodzaju wbudowanej (uogólnionej)
+*wiedzy*, podobnie jak jego *sposób działania*, który jest również dopasowany do jednoznacznie
+określonego celu (maksymalizacja skonsumowanej sumy konfitur) i do struktury tego
+środowiska. Właściwie jedyna wbudowana "niepewność" to początkowy brak "wiedzy" na temat sygnałów
+następujących po każdym z dostępnych ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i
+dlatego będzie dla nas pouczającym punktem wyjścia w rozważaniach na temat *sensu życia*.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
 
-
+TODO Ten agent dopasowuje albo uczy się modelu środowiska.
 
 TODO konieczne założenia przyczynowe w RELE
 
