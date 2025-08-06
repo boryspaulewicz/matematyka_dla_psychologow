@@ -248,12 +248,14 @@ aktualnego stanu* (świata), ...
 3. stanu *całego* (ale za to tylko rozważanego) *świata*.
 
 Żeby było ciekawiej, zmienimy język na taki, który
-[wymaga](https://pl.wikipedia.org/wiki/Odzie%C5%BC_ochronna) założenia rękawic do smaru i oleju,
-okularów ochronnych i maski przeciwpyłowej. Zaczniemy od zdefiniowania prostej *funkcji środowiska*:
+[wymaga](https://pl.wikipedia.org/wiki/Odzie%C5%BC_ochronna) założenia co najmniej rękawic do smaru
+i oleju, okularów ochronnych i maski przeciwpyłowej, to jest na używany przez wielu psychologów
+zajmujących się (często niestety nieudolnie) analizą danych język R. A zaczniemy od zdefiniowania w
+nim prostej *funkcji środowiska*:
 
 ```r
-## Ta prosta funkcja jest naszym modelem środowiska, w którym może być lepiej lub gorzej, a to, jak
-## w nim (nam) jest zależy od tego, jakie wykonujemy ruchy. Uprzedzam, że to jest *nowy* język
+## Ta funkcja jest naszym modelem środowiska, w którym może być lepiej lub gorzej, a to, jak w nim
+## (nam) jest zależy od tego, jakie wykonujemy ruchy. Uprzedzam, że to jest *nowy* język
 ## programowania (R), który zarówno pod względem składni jak i sposobu działania bardzo różni się od
 ## Leana.
 
@@ -262,18 +264,22 @@ E = function(a){
 }
 ```
 
-Ta prosta funkcja środowiska pobiera tylko indeks ruchu, czyli, mówiąc w uproszczeniu, "decyzję",
-której wartościami mogą być liczby naturalne od 0 do 1. W ciele, które w języku R można oddzielić od
-reszty kodu za pomocą nawiasów klamrowych, widzimy wyrażenie tworzące *wektor* trójelementowy (czyli
-pewnego rodzaju sekwencję), którego wartościami są nagrody odpowiadające każdemu z działań. Na tym
-wektorze wykonywana jest operacja indeksowania, którą oznaczamy w R używając nawiasów
-kwadratowych. Ponieważ w R indeksujemy pozycje w typach sekwencyjnych od 1, a nie od 0, musimy dodać
-1 do wybranego działania.
+Funkcja środowiska pobiera tylko indeks (albo po prostu numer) ruchu (albo po prostu ruch), czyli w
+pewnym sensie "decyzję", której wartościami mogą być liczby naturalne od 0 do 2. W ciele tej
+funkcji, zdefiniowanym między nawiasami klamrowymi, widzimy wyrażenie (`c(...)`) tworzące *wektor*
+trójelementowy (czyli pewnego rodzaju sekwencję), którego wartościami są nagrody/sygnały
+odpowiadające każdemu z ruchów/działań. Na tym wektorze wykonywana jest operacja indeksowania, którą
+oznaczamy w R używając nawiasów kwadratowych. Ponieważ w R indeksujemy pozycje w typach
+sekwencyjnych od 1, a nie od 0, jak w większości innych języków programowania, do indeksu działania
+musimy dodać 1.
 
-Jeżeli teraz *zewaluujemy* ten kod, to *zmienna* `E` stanie się *tymczasowo* nazwą tej funkcji. W
-przeciwieństwie do Leana, napisany w skrypcie R-a kod nie zaczyna od razu "działać" w R. Widzimy
-też, że nie ma tu żadnej informacji o typach danych. Jeżeli teraz w *wierszu poleceń* R-a (`> ...`),
-którego w Leanie nie ma, napiszemy `E(1)` i naciśniemy Enter, zobaczymy odpowiedź środowiska:
+Jeżeli teraz *zewaluujemy* ten kod, to *zmienna* `E` stanie się nazwą tej funkcji. W przeciwieństwie
+do Leana, napisany w skrypcie R-a kod nie zaczyna więc od razu "działać" w R. Widzimy też, że nie ma
+tu żadnej informacji o typach danych, bo system typów języka R jest ubogi i służy tylko do znacznie
+skromniejszych celów niż formalizacja całej matematyki. 
+
+Jeżeli teraz w *wierszu poleceń* R-a (`> ...`), którego w Leanie nie ma, napiszemy `E(1)` i
+naciśniemy Enter, zobaczymy następującą odpowiedź środowiska:
 
 ```r
 > E(1)
