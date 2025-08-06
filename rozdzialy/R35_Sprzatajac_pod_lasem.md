@@ -502,7 +502,7 @@ polegając zamiast tego na błyskawicznych ruchach lotnej myśli, *uniemożliwia
 tych zadaniach czegoś nowego, bo *tekst* można dowolnie długo obserwować, badać i przerabiać, ale
 *myśli* już nie. Automatyzacja ma w tym kontekście ogromne zalety, bo zwiększa poziom wykonania, ale
 ma też jedną *ogromną* wadę - zmniejsza szansę na dostrzeżenie mniej oczywistych analogii. A raz
-zautomatyzowany sposób myślenia może być trudno potem zrekonstruować.
+zautomatyzowany sposób myślenia może być potem trudno zrekonstruować.
 
 Zauważyłem też, że nawet ktoś taki jak Smith korzysta z języka naturalnego głównie w celu rozwijania
 ogólnej narracji, a w znacznie mniejszym stopniu w celu naświetlania, również *sobie*, różnych
