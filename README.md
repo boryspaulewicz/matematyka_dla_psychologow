@@ -320,7 +320,7 @@ nietypowy sposób i niemal od zera, podstaw matematyki.
 
 [R5 Pierwszy spacer po Leanie, wersja pierwsza](./rozdzialy/R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md)  
 *Typowanie, podstawowe rodzaje definicji i ich przykładowe ciała, aplikacja, ewaluacja i currying.
-Czyli pełna przesiadek w różnych brzydkich i niemodnych miejscach podróż do Indii.*
+Czyli, pełna przesiadek w różnych brzydkich i niemodnych miejscach, podróż do Indii.*
 
 [R6 Pierwszy spacer po Leanie, wersja druga](./rozdzialy/R06_Pierwszy_spacer_po_Leanie_wersja_druga.md)  
 *Prawie to samo co wcześniej, tylko trochę inaczej (i faktycznie nie całkiem to samo).*
