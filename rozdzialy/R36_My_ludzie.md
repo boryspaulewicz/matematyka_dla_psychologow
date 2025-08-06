@@ -224,9 +224,10 @@ dzięki czemu udało Ci się uzyskać takie oto (funkcjonalnie) zyski, będące 
 `0 ↦ 665, 1 ↦ 664, 2 ↦ 667`
 
 *W tym wypadku* możemy autorytatywnie i jednoznacznie stwierdzić, co *w pewnym sensie* powinnaś
-zrobić, bo to wynika z definicji, a wynika z niej, bo to definicja *zadania*. Jeżeli zależy Ci tylko
-na pieniądzach (nie oceniam), to zgodnie ze wszystkimi dostępnymi danymi, *najlepszym* wyborem jest
-oczywiście `2` (i tylko `2`), albo (jedynym) *racjonalnym* wyborem jest *w tym momencie* `2`. 
+zrobić, bo to wynika z definicji, a wynika z niej, bo to jest definicja pewnego *zadania*. Jeżeli
+zależy Ci tylko na pieniądzach (nie oceniam), to zgodnie ze wszystkimi dostępnymi danymi,
+*najlepszym* wyborem jest oczywiście `2` (i tylko `2`), albo (jedynym) *racjonalnym* wyborem jest *w
+tym momencie* `2`.
 
 Zwróć proszę uwagę, że *racjonalny* znaczy w tym kontekście *dokładnie* to samo, co
 *najlepszy*. Ponadto *rozstrzygnięcie*, który wybór jest w danym kontekście racjonalny, wymaga
