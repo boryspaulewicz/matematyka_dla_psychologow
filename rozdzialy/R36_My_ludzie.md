@@ -128,6 +128,8 @@ niestety *tylko* jakiś,
 
 [*Studenta*](https://pl.wikipedia.org/wiki/Test_t_Studenta).
 
+<br>
+
 Albo otwórzmy typowe podręczniki do metodologii badań psychologicznych, wypełnione po brzegi
 podanymi z pozycji rzekomego autorytetu zasadami, mówiącymi co "się" powinno, czego "się" nie
 powinno, i jakie to wnioski i kiedy są lub nie są zdaniem autorów "naukowo" *uzasadnione*. Proszę,
@@ -136,8 +138,6 @@ zgadnij, jak często ci autorzy dobrze lub w ogóle jakoś *uzasadniają własne
 Pomijając czasem wręcz ratujące życie, ale jednocześnie nieliczne i lokalne sukcesy aplikacyjne,
 których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w rozumieniu natury
 ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje ...
-
-<hr>
 
 *... Współczesna psychologia?*
 
@@ -149,7 +149,7 @@ ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje ..
 
 **pierwszego roku.**
 
-<hr>
+<br>
 
 Żeby się o tym przekonać, wystarczy ich o to *zapytać*.
 
