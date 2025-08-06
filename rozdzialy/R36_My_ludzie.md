@@ -118,6 +118,8 @@ połączony z ...
 Współcześni psychologowie przecież nie tylko nie znają, ale wręcz konsekwentnie *unikają* poznania
 tej *odrobiny* matematyki, którą trzeba poznać, żeby *rozumieć*, na co pozwala, a na co nie pozwala
 
+<br>
+
 **Choćby taki**
 
 dla większości psychologów
@@ -142,6 +144,8 @@ zgadnij, jak często ci autorzy dobrze lub w ogóle jakoś *uzasadniają własne
 Pomijając czasem wręcz ratujące życie, ale jednocześnie nieliczne i lokalne sukcesy aplikacyjne,
 których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w rozumieniu natury
 ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje ...
+
+<br>
 
 *... Współczesna psychologia?*
 
