@@ -206,9 +206,9 @@ def odwazny_poczatek (n : Nat) : Co? Nat :=
     if n < 3 then (a_to n) else a_nic
 ```
 
-Przypuszczam, że sposobu działania wyrażeń o konstrukcji `if <warunek> then term1 else term2` nie
-muszę tłumaczyć, poza jedną subtelnością: warunek musi być *rozstrzygalny* (przez algorytm \{o czym
-więcej kiedy indziej\}).
+Przypuszczam, że sposobu działania wyrażeń o konstrukcji `if <warunek> then <term> else <term>` nie
+muszę tłumaczyć, poza jedną subtelnością: term `warunek` musi być *rozstrzygalny* (przez algorytm
+\{o czym więcej kiedy indziej\}).
 
 Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą sytuację (albo to zadanie)
 tak, jakby nie miała (miało) *stanu*. Mówiąc inaczej, ale równoważnie funkcjonalnie, istnieje tylko
