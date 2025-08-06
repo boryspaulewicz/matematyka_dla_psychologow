@@ -12,8 +12,8 @@ dzieje, ale może pojawiają się wtedy jakby krótkie przebłyski fragmentów z
 przebłyski poprawek, jeżeli pierwsza wersja, która przychodzi do głowy, wydaje się (też pewnym
 przebłyskiem) wadliwa? A może wcale tak nie jest? Jestem natomiast pewien, że zawsze, zanim coś
 powiem, mam najpierw *poczucie określonej gotowości*. *Funkcjonalnie*, taka wypowiedź *polega*
-między innymi na - lepszym lub gorszym, ale nigdy nie *idealnym* - *wykonaniu zadania złożenia
-zdania jako sekwencji wyrażeń*.
+między innymi na - lepszym lub gorszym, ale nigdy *idealnym* - *wykonaniu zadania złożenia zdania
+jako sekwencji wyrażeń*.
 
 Właśnie tym, między innymi, jest *złożony ruch*, który się później odbywa i wywołuje słyszalne dla
 innych drgania powietrza. Ale zdecydowanie nie *tylko* tym. Ważna jest przecież jeszcze intonacja,
