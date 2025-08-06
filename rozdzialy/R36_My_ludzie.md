@@ -135,11 +135,11 @@ zalecenia*?
 
 Pomijając czasem wręcz ratujące ludzkie życia, ale jednocześnie nieliczne i lokalne sukcesy
 aplikacyjne, których wypracowanie tylko w niewielkim stopniu było dotąd wynikiem postępów w
-rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje
+rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę naukową" oferuje ...
 
-*Współczesna*
+<hr>
 
-*psychologia*
+*... Współczesna psychologia*
 
 **obraża**
 
@@ -151,7 +151,7 @@ rozumieniu natury ludzkiego zachowania, spora część tego, co jako "wiedzę na
 
 **roku**
 
-<br>
+<hr>
 
 Żeby się o tym przekonać, wystarczy ich o to *zapytać*.
 
