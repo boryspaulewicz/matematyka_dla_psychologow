@@ -194,7 +194,7 @@ sytuacji nadal sobie cenisz. Zaczęłaś od jednokrotnego sprawdzenia każdego z
 ```lean
 -- Ten parametryczny typ pozwala wygodnie rozumować na temat jakiegoś czegoś, które może być
 -- niedostępne albo niepoznawalne albo bezużyteczne. W Leanie ten typ nazywa się `Option` i ma
--- konstruktory o nazwach `some ...` i `none`.
+-- konstruktory o nazwach `none` i `some`, ale poza tym to (funkcjonalnie) to samo.
 inductive Co? (α : Type u) where
   | a_nic         : Co? α
   | a_to (to : α) : Co? α
@@ -244,6 +244,8 @@ TODO konieczne założenia przyczynowe w RELE
 
 TODO homomorfizm
 planowania działań.
+
+TODO Sutton i Barto nie wiedząc o tym odkryli "wielkie TO".
 
 TODO GIBSON
 
