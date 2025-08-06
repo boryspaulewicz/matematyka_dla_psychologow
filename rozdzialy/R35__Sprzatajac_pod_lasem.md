@@ -167,10 +167,10 @@ jeszcze raz, *wynika z samej definicji zachowania*? Nie mam pojęcia, ale zdaje 
 ważnych powodów jest skromność. Z jednej strony nadmierna, z drugiej całkiem uzasadniona, biorąc pod
 uwagę rażące niekompetencje, takie jak matematyczny półanalfabetyzm zdecydowanej większości
 psychologów, próbujących przecież badać coś tak zagadkowego, złożonego i nieuchwytnego jak
-zachowania ludzi. A matematyka uczy nas i tego, że niektóre problemy - często niespodziewanie -
-stają się *łatwiejsze*, kiedy próbujemy je rozwiązać w jakiejś ich, wywołującej może początkowo
-niepokój, wersji ogólniejszej. Skąd by się ta skromność nie brała, ewidentnie prowadzi nas od dawna
-na manowce.
+zachowania ludzi. A przecież matematyka uczy nas i tego, że niektóre problemy - często
+niespodziewanie - stają się *łatwiejsze*, kiedy próbujemy je rozwiązać w jakiejś ich, wywołującej
+może początkowo lęk, wersji ogólniejszej. Skąd by się ta skromność nie brała, ewidentnie prowadzi
+nas od dawna na manowce.
 
 No dobrze, mogę już odetchnąć i wrócić do omawiania bardziej "zwyczajnych" przykładów relacji
 porządku.
