@@ -173,8 +173,8 @@ Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
 Zadanie n-rękiego bandyty to pewna idealizacja i zarazem uogólnienie lubianej przez wielu zabawy,
 polegającej na tym, że siedzimy lub stoimi przed takim sporym pudłem, ciągniemy za wajchę wystającą
 z prawej strony, patrzymy na zmieniające się w trzech okienkach obrazki i rujnujemy sobie i swoim
-ewentualnym bliskim życie. Wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej
-urzekającej formy spędzania wolnego czasu jest "ekscytująca".
+ewentualnym bliskim życie. Mimo to wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej
+dualnie urzekającej formy spędzania wolnego czasu jest "ekscytująca".
 
 Funkcjonalnie, chodzi tu oczywiście o mały (`n : Nat`) ...
 
