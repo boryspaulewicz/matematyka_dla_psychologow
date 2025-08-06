@@ -236,9 +236,12 @@ jest tutaj *parą* złożoną z bodźca i działania, ale w ogólnym przypadku b
 *bodźca* (czyli funkcjonalnie \{zwykle ekstremalnie fragmentarycznej\} informacji na temat stanu
 świata), działania i *stanu* (*całego* świata).
 
+TODO konieczne założenia przyczynowe w RELE
+
 TODO homomorfizm
 planowania działań.
 
 TODO GIBSON
 
-Postrzeganie świata w kategoriach interfejsu programistycznego.
+Postrzeganie świata w kategoriach interfejsu programistycznego. Uogólnione rozumienie programowania
+jako fizycznego rozwiązywania problemów.
