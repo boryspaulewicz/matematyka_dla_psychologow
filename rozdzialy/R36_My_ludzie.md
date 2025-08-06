@@ -209,13 +209,14 @@ Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą s
 tak, jakby nie miała (miało) *stanu*. Mówiąc inaczej, ale równoważnie funkcjonalnie, istnieje tylko
 jeden stan tego (zewnętrznego wobec nas) świata. To znaczy, że wszystko działa zawsze tak samo,
 niezależnie od tego, co wcześniej zrobiliśmy i niezależnie od tego, co się wcześniej wydarzyło. I
-znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się jak (będący
-jego dualnym odpowiednikiem) zbiór pusty. W tym przypadku wynika to stąd, że pojęcie stanu jakiegoś
-świata jest tylko wtedy użyteczne, gdy stany mogą być różne.
+znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się jak - będący
+jego dualnym odpowiednikiem - zbiór pusty. W tym przypadku dlatego, że pojęcie stanu jakiegoś świata
+jest tylko wtedy użyteczne, kiedy stany mogą być różne. Właściwie samo *pojęcie* stanu domaga się
+jakby takiej, przynajmniej potencjalnej, różnorodności.
 
-No więc wyobraź sobie, że zastosowałaś, trzy razy, strategię eksploracyjną, dzięki której udało Ci
-się uzyskać takie oto (funkcjonalnie) zyski, będące jednocześnie (funkcjonalnie) informacjami na
-temat dynamiki środowiska:
+No więc wyobraź sobie, że na początku zastosowałaś `n` razy tego rodzaju strategię eksploracyjną,
+dzięki czemu udało Ci się uzyskać takie oto (funkcjonalnie) zyski, będące jednocześnie
+(funkcjonalnie) jedynymi dostępnymi informacjami na temat dynamiki środowiska:
 
 `0 ↦ 665, 1 ↦ 664, 2 ↦ 667`
 
