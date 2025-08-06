@@ -197,7 +197,7 @@ inductive Co? (α : Type u) where
 
 open Co?
 
--- 0 ↦ 0, 1 ↦ 1, 2 ↦ 2, 3+ ↦ właśnie zaczął mi się urlop
+-- 0 ↦ 0, 1 ↦ 1, 2 ↦ 2, _ ↦ właśnie zaczął mi się urlop
 def odwazny_poczatek (n : Nat) : Co? Nat :=
     if n < 3 then (a_to n) else a_nic
 ```
