@@ -209,10 +209,11 @@ Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą s
 tak, jakby nie miała (miało) *stanu*. Mówiąc inaczej, ale równoważnie funkcjonalnie, istnieje tylko
 jeden stan tego (zewnętrznego wobec nas) świata. To znaczy, że wszystko działa zawsze tak samo,
 niezależnie od tego, co wcześniej zrobiliśmy i niezależnie od tego, co się wcześniej wydarzyło. I
-znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się jak - będący
-jego dualnym odpowiednikiem - zbiór pusty. W tym przypadku dlatego, że pojęcie stanu jakiegoś świata
-jest tylko wtedy użyteczne, kiedy stany mogą być różne. Właściwie samo *pojęcie* stanu domaga się
-jakby takiej, przynajmniej potencjalnej, różnorodności.
+znowu widzimy, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się tak, jak
+będący jego dualnym odpowiednikiem zbiór pusty. W tym przypadku dlatego, że pojęcie stanu jakiegoś
+świata jest tylko wtedy użyteczne, kiedy stany mogą być różne. A mówiąc inaczej, ale w zasadzie to
+samo, *pojęcie* stanu *domaga się*, przynajmniej potencjalnej, tego rodzaju różnorodności, bo
+głównym zastosowaniem tego pojęcia jest rozważanie własności różnych możliwych stanów.
 
 No więc wyobraź sobie, że na początku zastosowałaś `n` razy tego rodzaju strategię eksploracyjną,
 dzięki czemu udało Ci się uzyskać takie oto (funkcjonalnie) zyski, będące jednocześnie
@@ -220,11 +221,17 @@ dzięki czemu udało Ci się uzyskać takie oto (funkcjonalnie) zyski, będące 
 
 `0 ↦ 665, 1 ↦ 664, 2 ↦ 667`
 
-*W tym wypadku* możemy jednoznacznie stwierdzić, co *powinnaś* zrobić, bo to wynika z definicji, a
-wynika z niej, bo ta jest definicją *zadania*. Jeżeli zależy Ci tylko na pieniądzach (nie oceniam),
-to zgodnie ze wszystkimi dostępnymi danymi, *najlepszym* wyborem jest oczywiście `2` (i tylko `2`),
-albo (jedynym) *racjonalnym* wyborem jest *w tym momencie* `2`. Zwróć proszę uwagę, że *racjonalny*
-znaczy w tym kontekście *dokładnie* to samo, co *najlepszy*.
+*W tym wypadku* możemy autorytatywnie i jednoznacznie stwierdzić, co *w pewnym sensie* powinnaś
+zrobić, bo to wynika z definicji, a wynika z niej, bo to definicja *zadania*. Jeżeli zależy Ci tylko
+na pieniądzach (nie oceniam), to zgodnie ze wszystkimi dostępnymi danymi, *najlepszym* wyborem jest
+oczywiście `2` (i tylko `2`), albo (jedynym) *racjonalnym* wyborem jest *w tym momencie* `2`. 
+
+Zwróć proszę uwagę, że *racjonalny* znaczy w tym kontekście *dokładnie* to samo, co
+*najlepszy*. Ponadto *rozstrzygnięcie*, który wybór jest w danym kontekście racjonalny, wymaga
+*pamięci*, która akurat tutaj przyjęła maksymalnie uniwersalną postać *sekwencji reakcji*. Reakcja
+jest tutaj *parą* złożoną z bodźca i działania, ale w ogólnym przypadku będzie *trójką* złożoną z
+*bodźca* (czyli funkcjonalnie \{zwykle ekstremalnie fragmentarycznej\} informacji na temat stanu
+świata), działania i *stanu* (*całego* świata).
 
 TODO homomorfizm
 planowania działań.
