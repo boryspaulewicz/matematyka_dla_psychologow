@@ -126,9 +126,8 @@ napiszemy `E(1)` i naciśniemy Enter, zobaczymy następującą odpowiedź środo
 [1] 664
 ```
 
-Ten komunikat **czytamy jako**: Się robi, szefowo (bo R to również trochę taki interpreter
-pochodzenia wiejskiego, ale w dobrym znaczeniu), oto wektor jednoelementowy (`[1]`) o zawartości
-`664`.
+Ten komunikat **czytamy jako**: Się robi, szefowo (bo R to interpreter pochodzenia wiejskiego, ale w
+dobrym znaczeniu), oto wektor jednoelementowy (`[1]`) o zawartości `664`.
 
 ## Najprościej, jak się da, żeby było najprościej, jak się da
 
