@@ -435,7 +435,7 @@ psychopacie, z nachalnym utrudnianiem.*
 
 Informacje zwrotne zawsze mile widziane:
 
-[R36](./rozdzialy/R36_Sens_zycia.md)
+[R42](./rozdzialy/R36_Sens_zycia.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
