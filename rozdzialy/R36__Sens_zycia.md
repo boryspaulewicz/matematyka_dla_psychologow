@@ -352,10 +352,10 @@ zajść na dwa sposoby).
 *Celowy ruch jest ekstremalnie unikalny nawet w przypadku ekstremalnie prostych zadań.*
 
 Nic dziwnego, że niezwykle rzadko mylimy się co do tego, czy to, co widzimy, słyszymy, lub czujemy
-dotykiem *dokądś zmierza* i często prawie natychmiast dobrze odgadujemy, przynajmniej orientacyjnie,
-- w bardziej "dzikich" warunkach nierzadko ku własnemu przerażeniu, bo organizmy żywe stale
-konkurują o zasoby - *do czego* to coś zmierza. Jest jednak przynajmniej teoretycznie możliwe, że
-często mylimy się co do tego, czy jakieś coś do jakiegoś czegoś *nie* zmierza.
+dotykiem *dokądś zmierza* i często prawie natychmiast dobrze odgadujemy, przynajmniej
+orientacyjnie - w bardziej "dzikich" warunkach nierzadko ku własnemu przerażeniu, bo organizmy żywe
+stale konkurują o zasoby - *do czego* to coś zmierza. Jest jednak przynajmniej teoretycznie możliwe,
+że często mylimy się co do tego, czy jakieś coś do jakiegoś czegoś *nie* zmierza.
 
 Zwracam uwagę, że użyłem określenia "ekstremalnie unikalne", a nie "ekstremalnie rzadkie". W
 warunkach umożliwiających życie, takie procesy mogą stać się bardzo częste, ponieważ organizmy żywe
