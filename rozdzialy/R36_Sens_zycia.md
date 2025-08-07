@@ -132,34 +132,33 @@ dobrym znaczeniu), oto wektor jednoelementowy (`[1]`) o zawartości `664`.
 ## Najprościej, jak się da, żeby było najprościej, jak się da
 
 W rozważanej sytuacji nie jest takie ważne, czy mamy do wyboru trzy różne ruchy, czy dwa, byle tylko
-istniał jakiś wybór. Wobec tego dokonamy uproszczenia i pozbędziemy się jednej z alternatyw, tym
-bardziej, że zbiory dwuelementowe mają dla nas głębsze znaczenie. Nie będziemy się też bawić w
-mapowanie *indeksów* ruchów na *same* ruchy, bo to jest w tym przypadku jedno i to samo.
+był wybór. Wobec tego dokonamy uproszczenia i pozbędziemy się jednej z alternatyw, tym bardziej, że
+zbiory dwuelementowe mają dla nas głębsze, o ile nie zbyt głębokie znaczenie. Nie będziemy się też
+bawić w mapowanie *indeksów* ruchów na *same* ruchy, bo to jest w tym przypadku (funkcjonalnie)
+jedno i to samo.
 
 Wyobraźmy sobie teraz, że wiemy z góry tylko tyle, że możemy używać dwóch różnych ruchów. Żeby
-napisać funkcję, która w jakiś sensowny sposób gra w tą grę, *musimy* skorzystać z
-*pamięci*. Rozwiążemy ten problem w sposób, który bardziej przypomina styl kodowania w języku
-funkcyjnym niż w języku imperatywnym:
+napisać funkcję, która w jakiś sensowny sposób gra w tą grę, *musimy* skorzystać z *pamięci*. Z
+powodów, które staną się jasne niebawem, rozwiążemy ten problem w sposób, który bardziej przypomina
+styl kodowania w języku funkcyjnym niż w języku imperatywnym:
 
 ```r
 ## Tu określamy, gdzie są jakie
 konfitury = c(44, 77)
 
-## Ta prosta funkcja jest naszym roboczym modelem środowiska, w którym może być lepiej lub gorzej, a
-## to, jak w nim w danym momencie jest, zależy od wykonanego w poprzedniej iteracji
-## ruchu. Uprzedzam, że to jest *nowy* język programowania (R), który zarówno pod względem składni
-## jak i sposobu działania bardzo różni się od Leana.
-E = function(a){
-    konfitury[a]
-}
+## Ta prosta funkcja jest naszym roboczym modelem środowiska, w którym to, jak w danym momencie
+## jest, zależy od ruchu, który wystąpił w poprzedniej iteracji.
+E = function(a){ konfitury[a] }
 
 ## A to jest funkcja "podmiotu" albo "agenta". Na początku nie ma sygnału ze środowiska (`sygnal =
-## NA`), pamięć jest pusta, kondycja ma poziom wyjściowy i jesteśmy najmłodszą możliwą wersją
+## NA`), pamięć jest pusta, kondycja ma poziom wyjściowy i agent jest najmłodszą możliwą wersją
 ## siebie.
-A = function(sygnal = NA,
+A = function(sygnal = NA, ## To są domyślne wartości parametrów tej funkcji, ...
              pamiec = c(NA, NA),
              wypas = 0,
              zycia = 9){
+    ## ... a to jej ciało:
+    ##
     ## Etap wyboru następnego ruchu:
     if(is.na(sygnal)){
         ## Jeżeli nie ma informacji na temat ostatniego sygnału, to musi to być pierwsza próba, w
