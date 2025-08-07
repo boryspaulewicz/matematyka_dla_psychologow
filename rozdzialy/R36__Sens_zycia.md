@@ -366,8 +366,8 @@ bardziej złożonym środowisku, nasz czysty agent mógłby zapisywać zaktualiz
 za każdym razem lub tylko czasami w jakiejś *innej* strukturze fizycznej, analogicznie do tego, jak
 wirusy komputerowe infekują nowe pliki. Gdyby tylko ten proces celowy *odwzorował* jednocześnie swój
 sposób działania w jakiejś strukturze fizycznej w taki sposób, że rozpoczęty w ten sposób,
-podtrzymujący celowość proces "używałby" tej nowej struktury fizycznej jako swojej pamięci, to ten
-agent "żyłby" dalej, tyle, że w (być może tylko częściowo) "nowym ciele". 
+podtrzymujący celowy ruch proces "używałby" tej nowej struktury fizycznej jako swojej pamięci, to
+ten agent "żyłby" dalej, tyle, że w (być może tylko częściowo) "nowym ciele".
 
 Byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. A tego rodzaju proces, gdyby
 rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważenia.
