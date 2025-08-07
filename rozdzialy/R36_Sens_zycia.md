@@ -1,3 +1,9 @@
+## Trzy (gorsze) sposoby na psychologię
+
+
+
+## Brudna robota (o imieniu `Cat`)
+
 Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
 
 Zadanie n-rękiego bandyty to wyidealizowana wersja lubianej przez wielu zabawy, polegającej na tym,
@@ -190,22 +196,18 @@ A = function(sygnal = NA, ## To są domyślne wartości parametrów tej funkcji,
     wypas = wypas + sygnal
     ## Najadłwszy się, zapamiętujemy sygnał jako własność ostatnio wybranego ruchu, ...
     pamiec[ruch] = sygnal
-    ## a następnie - trochę się od tego wszystkiego starzejąc - ...
+    ## ... a następnie - trochę się od tego wszystkiego starzejąc - ...
     zycia = zycia - 1
     ## ... aplikujemy Się do dostępnych danych:
     A(sygnal, pamiec, wypas, zycia)
 }
 
-A()
+> A()
+[1] "Cześć, i dzięki za ryby"
+[1] 660
 
-## > A()
-## [1] "Cześć, i dzięki za ryby"
-## [1] 660
-
-(660 - sum(konfitury)) / max(konfitury)
-
-## > (660 - sum(konfitury)) / max(konfitury)
-## [1] 7
+> (660 - sum(konfitury)) / max(konfitury)
+[1] 7
 ```
 
 **Przypomnienie o fundamentalnej różnicy między językami funkcyjnymi i imperatywnymi**: W języku R
@@ -237,17 +239,29 @@ krzyk (`A()`). Domyślna, a więc tutaj tylko początkowa wartość sygnału ze 
 języku R jest standardowym oznaczeniem braku danych (ang. *Not Available*). Czyli ten agent "rodzi
 się z zamkniętymi oczami".
 
-Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to nieprawda. Jego dwukomórkowa pamięć
-jest co prawda początkowo pusta, jednak ta pamięć jest *dwu*komórkowa, a to znaczy, że jej struktura
-jest "od urodzenia" *dopasowana do zadania*. Można powiedzieć, że już samo to jest czymś w rodzaju
-wbudowanej (uogólnionej) *wiedzy*, podobnie jak *sposób działania*, który jest również dopasowany do
-jednoznacznie określonego celu (maksymalizacja skonsumowanej sumy konfitur) i do dynamiki
-środowiska, czyli do zadania. Właściwie jedyna wbudowana "niepewność" to początkowy brak wbudowanej
-w jakikolwiek sposób wiedzy na temat konkretnych wartości sygnałów następujących po każdym z
-dostępnych ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i dlatego będzie dla nas
-pouczającym punktem wyjścia w rozważaniach na temat sensu życia.
+Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to tylko złudzenie, wynikające naiwnego
+rozumienia takich pojęć jak pamięć i wiedza. Pamięć jest tu co prawda początkowo pusta, ale jest
+*dwu*komórkowa, a to znaczy, że jej struktura jest "od urodzenia" *dopasowana do zadania*. Można
+powiedzieć, że już samo to jest czymś w rodzaju wbudowanej (uogólnionej) *wiedzy*, Ponieważ jednak
+wiedza musi być w jakiś sposób zapisana fizycznie, a tym, co czyni własność fizyczną (funkcjonalnie)
+wiedzą jest *możliwość wnioskowania* z tej własności w połączeniu z *wiedzą o tej możliwości*
+(zgadza się, to jest sfunkcjonalna definicja rekurencyjna) - bo nie może być wiedzą coś, o czym nic
+nie wiemy - to jednak ta wbudowana gotowość jest wiedzą tylko w ogólniejszym, czyli słabszym
+sensie. 
+
+Zastanawiasz się, co to za uogólnione pojęcie wiedzy? Otóż *struktura* (ciała \{funkcji\}) agenta
+jest (między innymi) *modelem* (określonych własności) *zadania*!
+
+W szczególności, *sposób działania* tej funkcji jest dopasowany do jednoznacznie określonego celu
+(maksymalizacja skonsumowanej sumy konfitur) i do dynamiki środowiska, czyli właśnie do
+zadania. Właściwie jedyna wbudowana "niepewność" to początkowy brak wbudowanej w jakikolwiek sposób
+(uogólnionej) wiedzy na temat konkretnych wartości sygnałów następujących po każdym z dostępnych
+ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i dlatego będzie dla nas pouczającym
+punktem wyjścia w rozważaniach na temat sensu życia.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
+
+TODO uczenie na podstawie nagród vs nadzorowane
 
 TODO Ten agent dopasowuje albo uczy się modelu środowiska.
 
