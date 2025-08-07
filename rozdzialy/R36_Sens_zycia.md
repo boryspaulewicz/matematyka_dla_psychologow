@@ -47,7 +47,7 @@ tak samo, niezależnie od tego, co się wcześniej wydarzyło.
 
 Widzimy więc znowu, że w pewnych sytuacjach singleton (tutaj możliwych stanów) zachowuje się tak,
 jak będący jego dualnym odpowiednikiem zbiór pusty. W tym przypadku dlatego, że pojęcie stanu
-struktury, świata, sytuacji, czy zadadnia jest tylko wtedy użyteczne, kiedy stany mogą być różne. A
+struktury, świata, sytuacji, czy zadania jest tylko wtedy użyteczne, kiedy stany mogą być różne. A
 mówiąc inaczej, ale w zasadzie to samo, *pojęcie* stanu *domaga się*, przynajmniej potencjalnej,
 tego rodzaju różnorodności, bo kanonicznym zastosowaniem tego pojęcia jest *rozróżnianie* możliwych
 stanów, oparte na rozważaniu ich własności.
