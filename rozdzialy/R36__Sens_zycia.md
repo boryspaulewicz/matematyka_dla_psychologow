@@ -310,9 +310,8 @@ punktem wyjścia w rozważaniach na temat sensu życia.
 
 Jeżeli pozbędziemy się z kodu nachalnych śladów *intencji autora* (czyli w tym wypadku mnie),
 zastępując deksryptywne nazwy zmiennych abstrakcyjnymi symbolami i usuniemy z ciała funkcji co tylko
-się da, uzyskamy *C*zystego *A*gen*t*a (stąd nazwa), który działa tak samo, jak brudna robota, ale
-jest *czystym endomorfizmem*, to jest czystą relacją wejścia wyjścia, która *wywołuje/stosuje
-rekurencyjnie samą siebie jako sposób działania*.
+się da, uzyskamy *C*zystą *A*gen*t*kę (stąd nazwa; poprawną wymowę słychać
+[tu](https://youtu.be/CU1HtU5t2O4?si=wNlIIZQ0NEchQdVA)):
 
 ```r
 f = function(X = c(NA, NA)) ifelse(any(is.na(X)), which(is.na(X)), which(X == max(X)))
@@ -327,25 +326,29 @@ CAt = function(X = NA, Y = c(NA, NA), Z = 0, V = 9)
 CAt()
 ```
 
+Ta agentka działa tak samo, jak omawiana wcześniej brudna robota ...
+
 ```r
 > CAt()
 [1] 642
 ```
 
-Jak sądzisz, *gdzie* jest teraz pamięć tego agenta? W "jego ciele", czy w "środowisku"? I na czym
-*dokładnie* polega różnica między ciałem agenta i jego środowiskiem?
+... ale jest *czystym endomorfizmem*, to jest czystą relacją wejścia wyjścia, która
+*wywołuje/odtwarza/stosuje rekurencyjnie samą siebie jako czysty sposób działania*. Jak sądzisz,
+*gdzie* jest pamięć tej agentki? W "jej ciele", czy w "środowisku"? I na czym *dokładnie* polega
+różnica między ciałem agenta (lub agentki) i jego (lub jej) środowiskiem?
 
 Jeżeli pozbędziemy się, odgrywających ze względu na samą celowość rolę drugorzędną, wymiarów
 kondycji i długości życia, to zostaną nam trzy wejścia - sygnał ze środowiska i dwie komórki
 pamięci - i trzy wyjścia - ruch i dwie komórki pamięci. Żeby zobaczyć w nim coś ważnego, maksymalnie
-uprościmy ten problem i przyjmiemy, że każdy z trzech wymiarów albo zbiorów albo typów może
-przyjmować tylko *dwie* wartości, przy czym na zbiorze możliwych sygnałów zdefiniujemy najprostszy
-nietrywialny porządek, czyli naniesiemy na niego naszą *osobliwą strzałkę*.
+uprościmy też problem i przyjmiemy, że każdy z trzech wymiarów/zbiorów/typów może przyjmować tylko
+*dwie* wartości, przy czym na zbiorze możliwych sygnałów zdefiniujemy najprostszy nietrywialny
+porządek, czyli *arbitralnie naniesiemy* na niego *osobliwą strzałkę*.
 
 Jak łatwo policzyć, wszystkich możliwych funkcji ze zbioru zawierającego `2^2^2 = 16` elementów
 (tyle jest możliwych kombinacji trzech binarnych wejść) do zbioru `16`-elementowego jest `16^16`,
-czyli bardzo, bardzo wiele. Dokładnie *cztery* z tych funkcji odpowiadają tego rodzaju optymalnemu
-agentowi, ponieważ osobliwa strzałka może być skierowana w każdą stronę (dwa sposoby), a
+czyli bardzo, bardzo wiele. Dokładnie *cztery* z tych funkcji odpowiadają tego rodzaju (optymalnemu)
+procesowi celowemu, ponieważ osobliwa strzałka może być skierowana w każdą stronę (dwa sposoby), a
 nietrywialna celowość jest tutaj możliwa tylko wtedy, gdy konsekwencje ruchów są różne (co też może
 zajść na dwa sposoby).
 
@@ -357,20 +360,21 @@ orientacyjnie - w bardziej "dzikich" warunkach nierzadko ku własnemu przerażen
 stale konkurują o zasoby - *do czego* to coś zmierza. Jest jednak przynajmniej teoretycznie możliwe,
 że często mylimy się co do tego, czy jakieś coś do jakiegoś czegoś *nie* zmierza.
 
-Zwracam uwagę, że użyłem określenia "ekstremalnie unikalne", a nie "ekstremalnie rzadkie". W
-warunkach umożliwiających życie, takie procesy mogą stać się bardzo częste, ponieważ organizmy żywe
-to wystarczająco skuteczne przybliżenia idealnych procesów celowych, które się *rozmnażają*. Co
-więcej, takie procesy mogą być teoretycznie znacznie *częstsze*, niż nam się wydaje.
+Zwracam uwagę, że użyłem określenia "ekstremalnie unikalne", mając na myśli fakt, że zbiór procesów
+celowych to ekstremalnie mała część *teoretycznie* możliwych procesów , a nie określenia
+"ekstremalnie rzadkie", które dotyczy *faktycznej relatywnej częstości występowania*. W warunkach
+umożliwiających życie, takie procesy mogą stać się i często stają się nawet bardzo częste, ponieważ
+organizmy żywe to wystarczająco skuteczne przybliżenia idealnych *rozmnażających się* procesów
+celowych. Co więcej, takie procesy mogą być teoretycznie znacznie *częstsze*, niż nam się zdaje.
 
-*Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią to *rola*, jaką
+*Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią, to *rola*, jaką
 to coś pełni w ramach jakiegoś innego procesu. I odwrotnie, nie ma czegoś takiego jak pamięć, która
 nie jest w ogóle używana jako pamięć; coś takiego może być co najwyżej tylko *potencjalnie*
 pamięcią. To samo dotyczy z konieczności *wszystkich* pojęć, których używamy do opisu procesów
 celowych *jako takich*. Na przykad, coś jest albo nie jest *nagrodą* tylko ze względu na to, w jaki
-sposób to coś jest powiązane z czymś innym, co z takich lub innych powodów możemy konsekwentnie
-nazywać *zachowaniem*, *wyborem*, czy *decyzją*. Tego rodzaju funkcje jako role są *albo
-zrealizowane jednocześnie, albo wcale*. Między innymi dlatego nie jest tak łatwo je dobrze
-*zdefiniować*.
+sposób to coś jest powiązane z czymś innym, co możemy konsekwentnie nazywać *zachowaniem*,
+*wyborem*, albo *decyzją*. Tego rodzaju funkcje jako role są *albo zrealizowane jednocześnie, albo
+wcale*. Między innymi dlatego nie jest tak łatwo je dobrze *zdefiniować*.
 
 W nieco bardziej złożonym środowisku, nasz czysto funkcyjny agent mógłby zapisywać zaktualizowany
 stan swojej pamięci za każdym razem lub tylko czasami w jakiejś *nowej* strukturze fizycznej,
