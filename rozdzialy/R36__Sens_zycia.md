@@ -190,20 +190,21 @@ styl kodowania w języku funkcyjnym niż w języku imperatywnym:
 
 ```r
 ## Tu określamy, gdzie są jakie
-konfitury = c(44, 77)
+konfitury = c(42, 75)
 
 ## Ta prosta funkcja jest naszym roboczym modelem środowiska, w którym to, jak w danym momencie
 ## jest, zależy od ruchu, który wystąpił w poprzedniej iteracji.
-E = function(a){ konfitury[a] }
+E = function(a){
+    konfitury[a]
+}
 
 ## A to jest funkcja "podmiotu" albo "agenta". Na początku nie ma sygnału ze środowiska (`sygnal =
 ## NA`), pamięć jest pusta, kondycja ma poziom wyjściowy i agent jest najmłodszą możliwą wersją
 ## siebie.
 A = function(sygnal = NA, ## To są domyślne wartości parametrów tej funkcji, ...
              pamiec = c(NA, NA),
-             wypas = 0,
-             zycia = 9){
-    ## ... a to jej ciało:
+             wypas  = 0,
+             zycia  = 9){ ## ... a to jej ciało:
     ##
     ## Etap wyboru następnego ruchu:
     if(is.na(sygnal)){
@@ -253,7 +254,7 @@ wyborach ten agent wybiera już do samego końca ruch, po którym występuje naj
 ```r
 > A()
 [1] "Cześć, i dzięki za ryby"
-[1] 660
+[1] 642
 ```
 
 **Przypomnienie o fundamentalnej różnicy między językami funkcyjnymi i imperatywnymi**: W języku R
@@ -328,11 +329,11 @@ CAt()
 
 ```r
 > Cat()
-[1] 660
+[1] 642
 ```
 
-Jak sądzisz, *gdzie* jest teraz pamięć albo receptory tego agenta? W "jego ciele", czy w
-"środowisku"? I na czym *dokładnie* polega różnica między ciałem tego agenta i jego środowiskiem?
+Jak sądzisz, *gdzie* jest teraz pamięć tego agenta? W "jego ciele", czy w "środowisku"? I na czym
+*dokładnie* polega różnica między ciałem agenta i jego środowiskiem?
 
 Jeżeli pozbędziemy się, odgrywających ze względu na samą celowość rolę drugorzędną, wymiarów
 kondycji i długości życia, to zostaną nam trzy wejścia - sygnał ze środowiska i dwie komórki
@@ -341,18 +342,20 @@ uprościmy ten problem i przyjmiemy, że każdy z trzech wymiarów albo zbiorów
 przyjmować tylko *dwie* wartości, przy czym na zbiorze możliwych sygnałów zdefiniujemy najprostszy
 nietrywialny porządek, czyli naniesiemy na niego naszą *osobliwą strzałkę*.
 
-Jak łatwo policzyć, wszystkich możliwych funkcji ze zbioru o `2^2^2 = 16` elementowego (tyle jest
-możliwych kombinacji trzech binarnych wejść) do zbioru `16` elementowego jest `16^16`, czyli bardzo,
-bardzo wiele. Dokładnie *cztery* z tych funkcji odpowiadają tego rodzaju optymalnemu agentowi,
-ponieważ osobliwa strzałka może być skierowana w każdą z dwóch stron (dwa sposoby), a nietrywialna
-celowość jest tutaj możliwa tylko wtedy, gdy konsekwencje ruchów są różne (też dwa sposoby).
+Jak łatwo policzyć, wszystkich możliwych funkcji ze zbioru zawierającego `2^2^2 = 16` elementów
+(tyle jest możliwych kombinacji trzech binarnych wejść) do zbioru `16`-elementowego jest `16^16`,
+czyli bardzo, bardzo wiele. Dokładnie *cztery* z tych funkcji odpowiadają tego rodzaju optymalnemu
+agentowi, ponieważ osobliwa strzałka może być skierowana w każdą stronę (dwa sposoby), a
+nietrywialna celowość jest tutaj możliwa tylko wtedy, gdy konsekwencje ruchów są różne (co też może
+zajść na dwa sposoby).
 
 *Celowy ruch jest ekstremalnie unikalny nawet w przypadku ekstremalnie prostych zadań.*
 
 Nic dziwnego, że niezwykle rzadko mylimy się co do tego, czy to, co widzimy, słyszymy, lub czujemy
 dotykiem *dokądś zmierza* i często prawie natychmiast dobrze odgadujemy, przynajmniej orientacyjnie,
-*dokąd* to coś zmierza. Jest jednak przynajmniej teoretycznie możliwe, że często mylimy się co do
-tego, czy coś dokądś *nie* zmierza.
+- w bardziej "dzikich" warunkach nierzadko ku własnemu przerażeniu, bo organizmy żywe stale
+konkurują o zasoby - *do czego* to coś zmierza. Jest jednak przynajmniej teoretycznie możliwe, że
+często mylimy się co do tego, czy jakieś coś do jakiegoś czegoś *nie* zmierza.
 
 Zwracam uwagę, że użyłem określenia "ekstremalnie unikalne", a nie "ekstremalnie rzadkie". W
 warunkach umożliwiających życie, takie procesy mogą stać się bardzo częste, ponieważ organizmy żywe
@@ -360,30 +363,36 @@ to wystarczająco skuteczne przybliżenia idealnych procesów celowych, które s
 więcej, takie procesy mogą być teoretycznie znacznie *częstsze*, niż nam się wydaje.
 
 *Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią to *rola*, jaką
-to coś pełni w ramach jakiegoś innego procesu. Nie ma czegoś takiego jak pamięć, która nie jest w
-ogóle używana jako pamięć, coś takiego może być co najwyżej tylko *potencjalnie* pamięcią. To samo
-dotyczy wszystkich bez wyjątku pojęć, których używamy do opisu procesów celowych *jako takich*. Na
-przykad, coś jest albo nie jest *nagrodą* tylko ze względu na to, w jaki sposób to coś jest
-powiązane z czymś innym, co z takich lub innych powodów możemy nazwać *zachowaniem* albo *wyborem*
-czy *decyzją*. Te funkcje jako role są *albo zrealizowane jednocześnie, albo w ogóle*.
+to coś pełni w ramach jakiegoś innego procesu. I odwrotnie, nie ma czegoś takiego jak pamięć, która
+nie jest w ogóle używana jako pamięć; coś takiego może być co najwyżej tylko *potencjalnie*
+pamięcią. To samo dotyczy z konieczności *wszystkich* pojęć, których używamy do opisu procesów
+celowych *jako takich*. Na przykad, coś jest albo nie jest *nagrodą* tylko ze względu na to, w jaki
+sposób to coś jest powiązane z czymś innym, co z takich lub innych powodów możemy konsekwentnie
+nazywać *zachowaniem*, *wyborem*, czy *decyzją*. Tego rodzaju funkcje jako role są *albo
+zrealizowane jednocześnie, albo wcale*. Między innymi dlatego nie jest tak łatwo je dobrze
+*zdefiniować*.
 
-W nieco bardziej złożonym środowisku, nasz czysty agent mógłby zapisywać zaktualizowany stan swojej
-pamięci za każdym razem lub tylko czasami w jakiejś *innej* strukturze fizycznej, analogicznie do
-sposobu, w jaki wirusy komputerowe infekują nowe pliki. Gdyby tylko ten proces celowy *odwzorował*
-jednocześnie swój sposób działania w jakiejś strukturze fizycznej w taki sposób, że zainicjowany tak
-podtrzymujący celowość ruch "używałby" tej nowej struktury fizycznej jako swojej pamięci, to ten
-"agent" "żyłby" dalej, tyle, że w - być może tylko częściowo - "nowym ciele".
+W nieco bardziej złożonym środowisku, nasz czysto funkcyjny agent mógłby zapisywać zaktualizowany
+stan swojej pamięci za każdym razem lub tylko czasami w jakiejś *nowej* strukturze fizycznej,
+analogicznie do sposobu, w jaki zwykłe wirusy infekują organizmy żywe, albo w jaki wirusy
+komputerowe infekują nowe pliki czy komputery. Gdyby tylko ten proces celowy *odwzorował*
+jednocześnie swój sposób działania w jakiejś strukturze fizycznej w taki sposób, że zainicjowany
+dzięki temu, podtrzymujący celowość ruch "używałby" tej nowej struktury fizycznej jako "swojej
+pamięci", to ten "agent" "żyłby" dalej, tyle, że - być może tylko częściowo - w "nowym ciele".
 
-I byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. A tego rodzaju proces, gdyby
-rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważenia.
+I byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. Tego rodzaju proces, gdyby
+rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważenia, nawet, gdyby rozgrywał
+się w *makroskali* i - dosłownie! - *obejmował sobą* sporą część materii.
 
-Z drugiej strony, coś takiego dzieje się nieustannie, tyle, że stopniowo, ze wszystkimi organizmami
-żywymi, bo organizmy żywe nieustannie *wymieniają materię* ciała z materią otoczenia ciała,
-*zagarniają materię* otoczenia (rosnąc) i nieustannie *Się odwzorowywują*, to jest *kształtują
-cieleśnie dostępną materię na własne podobieństwo*. Przy czym my, ludzie, jesteśmy gatunkiem
-wyjątkowym między innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a
-dokładniej na podobieństwo własnych pragnień, na skalę, do której nie zbliża się żaden inny gatunek
-zwierząt. A wszystko to za każdym razem zaczyna się dosłownie od *programu* (DNA). Życie jest
+Coś podobnego dzieje się zresztą nieustannie, tyle, że stopniowo, ze wszystkimi organizmami żywymi,
+bo organizmy żywe nieustannie *wymieniają materię* ciała z materią otoczenia ciała, *zagarniają
+materię* otoczenia (rosnąc) i nieustannie *Się odwzorowywują*, to jest *kształtują cieleśnie
+dostępną materię na własne podobieństwo*. Przy czym my, ludzie, jesteśmy gatunkiem wyjątkowym między
+innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a dokładniej na
+podobieństwo własnych pragnień, aspiracji, lęków i uprzedzeń na skalę, do której nie zbliża się
+nawet żaden inny gatunek zwierząt. 
+
+A wszystko to za każdym razem zaczyna się dosłownie od *programu*, to jest od DNA. Życie jest
 organicznym, a więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem
 siebie*. Życie jako takie jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
 
