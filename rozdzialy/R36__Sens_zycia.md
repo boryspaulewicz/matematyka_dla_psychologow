@@ -9,7 +9,7 @@ znaczące. No ale (zdawałoby się, że) środowisko to nie fascynujący i tajem
 łatwo obserwowalne, znane nam wszystkim i przez wszystkich niepsychopatów kochane sklepy Żabka,
 jakieś ulice, jakieś przystanki i auta, przechodnie i kierowcy, dużo wody, ziemi i powietrza, trochę
 zieleni i czerwieni. I to by było w zasadzie na tyle, bo - powiedzmy sobie szczerze - "écru
-wpadające w limonkę" to nie kolor tylko stan umysłu, a ryba to praktycznie warzywo.
+wpadające w limonkę" to nie kolor tylko stan chorego umysłu, a ryba to praktycznie warzywo.
 
 ## Trzeci (również śmieszniejszy, ale to jest akurat znacznie bardziej subtelny żart) sposób na psychologię
 
