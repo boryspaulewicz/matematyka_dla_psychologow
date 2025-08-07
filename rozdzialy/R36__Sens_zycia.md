@@ -42,7 +42,7 @@ Czy *słyszę* ironię? Chyba tak, a czemu pytasz?
 
 > TODO CYTAT
 
-## (Pani poznać) brudna robota (o imieniu `Cat`)
+## Brudna robota
 
 Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
 
@@ -310,9 +310,9 @@ punktem wyjścia w rozważaniach na temat sensu życia.
 
 Jeżeli pozbędziemy się z kodu nachalnych śladów *intencji autora* (czyli w tym wypadku mnie),
 zastępując deksryptywne nazwy zmiennych abstrakcyjnymi symbolami i usuniemy z ciała funkcji co tylko
-się da, uzyskamy *C*zystego *A*gen*t*a (stąd nazwa), który działa tak samo, jak brudna robota `Cat`,
-ale jest *czystym endomorfizmem*, to jest czystą relacją wejścia wyjścia, która wywołuje/stosuje
-rekurencyjnie samą siebie.
+się da, uzyskamy *C*zystego *A*gen*t*a (stąd nazwa), który działa tak samo, jak brudna robota, ale
+jest *czystym endomorfizmem*, to jest czystą relacją wejścia wyjścia, która *wywołuje/stosuje
+rekurencyjnie samą siebie jako sposób działania*.
 
 ```r
 f = function(X = c(NA, NA)) ifelse(any(is.na(X)), which(is.na(X)), which(X == max(X)))
@@ -328,7 +328,7 @@ CAt()
 ```
 
 ```r
-> Cat()
+> CAt()
 [1] 642
 ```
 
