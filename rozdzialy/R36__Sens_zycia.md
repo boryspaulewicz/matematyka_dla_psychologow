@@ -380,7 +380,7 @@ innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo
 podobieństwo własnych pragnień, na skalę, do której nie zbliża się żaden inny gatunek zwierząt. A
 wszystko to za każdym razem zaczyna się dosłownie od *programu* (DNA). Życie jest organicznym, a
 więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem siebie*. Życie
-jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
+jako takie jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
 
 TODO uczenie na podstawie nagród vs nadzorowane
 
