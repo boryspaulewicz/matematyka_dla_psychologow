@@ -50,22 +50,22 @@ jak będący jego dualnym odpowiednikiem zbiór pusty. W tym przypadku dlatego, 
 struktury, świata, sytuacji, czy zadania jest tylko wtedy użyteczne, kiedy stany mogą być różne. A
 mówiąc inaczej, ale w zasadzie to samo, *pojęcie* stanu *domaga się*, przynajmniej potencjalnej,
 tego rodzaju różnorodności, bo kanonicznym zastosowaniem tego pojęcia jest *rozróżnianie* możliwych
-stanów, oparte na rozważaniu ich własności.
+stanów (z konieczności oparte na ich własnościach, jak to rozróżnianie).
 
-No więc wyobraź sobie, że na początku zastosowałaś `n` razy tego rodzaju strategię eksploracyjną,
-uzyskując takie oto (funkcjonalnie) zyski, będące jednocześnie (funkcjonalnie) jedynymi dostępnymi
-informacjami na temat dynamiki samego środowiska:
+No więc wyobraź sobie, że na początku *zastosowałaś* `n` razy tego rodzaju *strategię
+eksploracyjną*, uzyskując takie oto (funkcjonalnie) zyski, będące jednocześnie (funkcjonalnie)
+jedynymi dostępnymi informacjami na temat dynamiki środowiska:
 
 `0 ↦ 665, 1 ↦ 664, 2 ↦ 667`
 
-*W tym wypadku* możemy jednoznacznie i autorytatywnie stwierdzić, co *w pewnym sensie* powinnaś
+*W tym wypadku* możemy jednoznacznie i autorytatywnie stwierdzić, co w pewnym sensie *powinnaś*
 zrobić, bo to wynika z definicji, a wynika z niej, bo to jest definicja *zadania*. Stwierdzenie, że
-coś się powinno albo czegoś się nie powinno ma sens tylko przy założeniu określonego celu, a
-ponieważ cel jako taki jest zawsze pewną preferencją czyli oceną, a ocena jako taka jest zawsze
-postawą, funkcjonalnie równoważną pewnej relacji porządku, czyli ostatecznie punktem widzenia,
-założenie na temat celu jest
-[*nieuzasadnialne*](https://pl.wikipedia.org/wiki/Gilotyna_Hume%E2%80%99a) inaczej niż ze względu na
-jakieś ewentualne inne preferencje czyli oceny:
+coś się powinno albo czegoś się nie powinno ma sens *tylko* zakładając jakiś cel, a ponieważ cel
+jako taki jest zawsze pewną preferencją czyli oceną, a ocena jako taka jest zawsze postawą,
+funkcjonalnie równoważną pewnej relacji porządku, czyli ostatecznie punktem widzenia, założenie na
+temat celu jest [*nieuzasadnialne*](https://pl.wikipedia.org/wiki/Gilotyna_Hume%E2%80%99a) inaczej
+niż ze względu na jakieś ewentualne inne preferencje czyli postawy czyli oceny czyli relacje
+porządku:
 
 *Jeżeli* zależy Ci tylko na pieniądzach (nie oceniam), to zgodnie ze wszystkimi dostępnymi danymi,
 *powinnaś* wybrać `2`, ponieważ *najlepszym* wyborem jest `2` i tylko `2`, albo, równoważnie,
