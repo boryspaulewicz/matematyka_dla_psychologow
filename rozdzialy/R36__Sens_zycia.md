@@ -13,7 +13,34 @@ wpadające w limonkę" to nie kolor tylko stan chorego umysłu, a ryba to prakty
 
 ## Trzeci (również śmieszniejszy, ale to jest akurat znacznie bardziej subtelny żart) sposób na psychologię
 
+Jednym z brzemiennych w liczne poważne skutki zdarzeń, które przytrafiło mi się w trakcie dwóch lat
+codziennego systematycznego uczenia się różnych rzeczy, o którym to okresie wspominałem już we
+wprowadzeniu, było odkrycie w czytelni anglojęzycznej Instytutu Psychologii, w którym teraz pracuję,
+książki [*An Introduction to Reinforcement
+Learning*](https://archive.org/details/rlbook2018/mode/2up) Suttona i Barto ([pierwsze
+wydanie](http://incompleteideas.net/book/the-book-1st.html) jest znacznie krótsze, też wspaniałe i
+szybciej wchodzi). Będzie chyba najlepiej, jeśli zanim sam zacznę gadać, najpierw oddam głos tym
+dwóm cudownym autorom i moim zdaniem głębokim, wytrawnym i diabelnie przenikliwym myślicielom
+(cytaty pochodzą z wydania pierwszego):
 
+> This introductory textbook on reinforcement learning is targeted toward engineers and scientists
+> in artificial intelligence, operations research, neural networks, and control systems, and we hope
+> it will also be of interest to psychologists and neuroscientists.
+
+Toście się, chłopaki, przeliczyli; większość współczesnych psychologów zajmuje się uprawianiem nauki
+[performatywnej](https://en.wikipedia.org/wiki/Cargo_cult), która jest dosyć daleko od czytania
+technicznych tekstów czy autentycznego systematycznego uczenia się właściwie czegokolwiek. Ale
+miałem tyle nie gadać. Przepraszam.
+
+Już nic nie mówię.
+
+Normalnie Król Ciszy, zobaczysz.
+
+Serio mówię.
+
+Czy *słyszę* ironię? Chyba tak, a czemu pytasz?
+
+> TODO CYTAT
 
 ## Brudna robota (o imieniu `Cat`)
 
