@@ -175,7 +175,7 @@ napiszemy `E(1)` i naciśniemy Enter, zobaczymy następującą odpowiedź środo
 Ten komunikat **czytamy jako**: Się robi, szefowo (bo R to interpreter pochodzenia wiejskiego, ale w
 dobrym znaczeniu), oto wektor jednoelementowy (`[1]`) o zawartości `664`.
 
-## Najprościej, jak się da, żeby było najprościej, jak się da
+## Najprościej, jak się da, żeby było widać, co się da
 
 W rozważanej sytuacji nie jest takie ważne, czy mamy do wyboru trzy różne ruchy, czy dwa, byle tylko
 był wybór. Wobec tego dokonamy uproszczenia i pozbędziemy się jednej z alternatyw, tym bardziej, że
