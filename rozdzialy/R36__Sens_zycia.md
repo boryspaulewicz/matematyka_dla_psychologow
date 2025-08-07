@@ -351,7 +351,36 @@ celowość jest tutaj możliwa tylko wtedy, gdy konsekwencje ruchów są różne
 
 Nic dziwnego, że niezwykle rzadko mylimy się co do tego, czy to, co widzimy, słyszymy, lub czujemy
 dotykiem *dokądś zmierza* i często prawie natychmiast dobrze odgadujemy, przynajmniej orientacyjnie,
-*dokąd* to coś zmierza.
+*dokąd* to coś zmierza. Jest jednak przynajmniej teoretycznie możliwe, że często mylimy się co do
+tego, czy coś dokądś *nie* zmierza.
+
+Zwracam uwagę, że użyłem określenia "ekstremalnie unikalne", a nie "ekstremalnie rzadkie". W
+warunkach umożliwiających życie, takie procesy stają się bardzo częste, ponieważ organizmy żywe to
+wystarczająco skuteczne przybliżenia idealnych procesów celowych, które się *rozmnażają*. Co więcej,
+takie procesy mogą być znacznie *częstsze*, niż nam się wydaje.
+
+*Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią to *rola*, jaką
+to coś pełni w ramach jakiegoś innego procesu. Nie ma czegoś takiego jak pamięć, która nie jest w
+ogóle używana jako pamięć, coś takiego może być co najwyżej tylko *potencjalnie* pamięcią. W nieco
+bardziej złożonym środowisku, nasz czysty agent mógłby zapisywać zaktualizowany stan swojej pamięci
+za każdym razem lub tylko czasami w jakiejś *innej* strukturze fizycznej, analogicznie do tego, jak
+wirusy komputerowe infekują nowe pliki. Gdyby tylko ten proces celowy *odwzorował* jednocześnie swój
+sposób działania w jakiejś strukturze fizycznej w taki sposób, że rozpoczęty w ten sposób,
+podtrzymujący celowość proces "używałby" tej nowej struktury fizycznej jako swojej pamięci, to ten
+agent "żyłby" dalej, tyle, że w (być może tylko częściowo) "nowym ciele". 
+
+Byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. A tego rodzaju proces, gdyby
+rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważenia.
+
+Z drugiej strony, coś takiego dzieje się nieustannie, tyle, że stopniowo, ze wszystkimi organizmami
+żywymi, bo organizmy żywe nieustannie *wymieniają materię* ciała z materią otoczenia ciała,
+*zagarniają materię* otoczenia (rosnąc) i nieustannie *Się odwzorowywują*, to jest *kształtują
+cieleśnie dostępną materię na własne podobieństwo*. My, ludzie, jesteśmy gatunkiem wyjątkowym między
+innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a dokładniej na
+podobieństwo własnych pragnień, na skalę, do której nie zbliża się żaden inny gatunek zwierząt. A
+wszystko to za każdym razem zaczyna się dosłownie od *programu* (DNA). Życie jest organicznym, a
+więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem siebie*. Życie
+jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
 
 TODO uczenie na podstawie nagród vs nadzorowane
 
