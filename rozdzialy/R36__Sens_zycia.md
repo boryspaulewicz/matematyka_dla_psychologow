@@ -355,9 +355,9 @@ dotykiem *dokądś zmierza* i często prawie natychmiast dobrze odgadujemy, przy
 tego, czy coś dokądś *nie* zmierza.
 
 Zwracam uwagę, że użyłem określenia "ekstremalnie unikalne", a nie "ekstremalnie rzadkie". W
-warunkach umożliwiających życie, takie procesy stają się bardzo częste, ponieważ organizmy żywe to
-wystarczająco skuteczne przybliżenia idealnych procesów celowych, które się *rozmnażają*. Co więcej,
-takie procesy mogą być znacznie *częstsze*, niż nam się wydaje.
+warunkach umożliwiających życie, takie procesy mogą stać się bardzo częste, ponieważ organizmy żywe
+to wystarczająco skuteczne przybliżenia idealnych procesów celowych, które się *rozmnażają*. Co
+więcej, takie procesy mogą być teoretycznie znacznie *częstsze*, niż nam się wydaje.
 
 *Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią to *rola*, jaką
 to coś pełni w ramach jakiegoś innego procesu. Nie ma czegoś takiego jak pamięć, która nie jest w
