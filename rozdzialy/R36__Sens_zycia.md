@@ -361,15 +361,20 @@ takie procesy mogą być znacznie *częstsze*, niż nam się wydaje.
 
 *Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią to *rola*, jaką
 to coś pełni w ramach jakiegoś innego procesu. Nie ma czegoś takiego jak pamięć, która nie jest w
-ogóle używana jako pamięć, coś takiego może być co najwyżej tylko *potencjalnie* pamięcią. W nieco
-bardziej złożonym środowisku, nasz czysty agent mógłby zapisywać zaktualizowany stan swojej pamięci
-za każdym razem lub tylko czasami w jakiejś *innej* strukturze fizycznej, analogicznie do tego, jak
-wirusy komputerowe infekują nowe pliki. Gdyby tylko ten proces celowy *odwzorował* jednocześnie swój
-sposób działania w jakiejś strukturze fizycznej w taki sposób, że rozpoczęty w ten sposób,
-podtrzymujący celowy ruch proces "używałby" tej nowej struktury fizycznej jako swojej pamięci, to
-ten agent "żyłby" dalej, tyle, że w (być może tylko częściowo) "nowym ciele".
+ogóle używana jako pamięć, coś takiego może być co najwyżej tylko *potencjalnie* pamięcią. To samo
+dotyczy wszystkich bez wyjątku pojęć, których używamy do opisu procesów celowych *jako takich*. Na
+przykad, coś jest albo nie jest *nagrodą* tylko ze względu na to, w jaki sposób to coś jest
+powiązane z czymś innym, co z takich lub innych powodów możemy nazwać *zachowaniem* albo *wyborem*
+czy *decyzją*. Te funkcje jako role są *albo zrealizowane jednocześnie, albo w ogóle*.
 
-Byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. A tego rodzaju proces, gdyby
+W nieco bardziej złożonym środowisku, nasz czysty agent mógłby zapisywać zaktualizowany stan swojej
+pamięci za każdym razem lub tylko czasami w jakiejś *innej* strukturze fizycznej, analogicznie do
+sposobu, w jaki wirusy komputerowe infekują nowe pliki. Gdyby tylko ten proces celowy *odwzorował*
+jednocześnie swój sposób działania w jakiejś strukturze fizycznej w taki sposób, że zainicjowany tak
+podtrzymujący celowość ruch "używałby" tej nowej struktury fizycznej jako swojej pamięci, to ten
+"agent" "żyłby" dalej, tyle, że w - być może tylko częściowo - "nowym ciele".
+
+I byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. A tego rodzaju proces, gdyby
 rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważenia.
 
 Z drugiej strony, coś takiego dzieje się nieustannie, tyle, że stopniowo, ze wszystkimi organizmami
