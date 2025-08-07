@@ -307,7 +307,11 @@ punktem wyjścia w rozważaniach na temat sensu życia.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
 
-TODO to i owo
+Jeżeli pozbędziemy się z kodu nachalnych śladów *intencji autora* (czyli w tym wypadku mnie),
+zastępując deksryptywne nazwy zmiennych abstrakcyjnymi symbolami i usuniemy z ciała funkcji co tylko
+się da, uzyskamy *C*zystego *A*gen*t*a (stąd nazwa), który działa tak samo, jak brudna robota `Cat`,
+ale jest *czystym endomorfizmem*, to jest czystą relacją wejścia wyjścia, która wywołuje/stosuje
+rekurencyjnie samą siebie.
 
 ```r
 f = function(X = c(NA, NA)) ifelse(any(is.na(X)), which(is.na(X)), which(X == max(X)))
@@ -326,6 +330,28 @@ CAt()
 > Cat()
 [1] 660
 ```
+
+Jak sądzisz, *gdzie* jest teraz pamięć albo receptory tego agenta? W "jego ciele", czy w
+"środowisku"? I na czym *dokładnie* polega różnica między ciałem tego agenta i jego środowiskiem?
+
+Jeżeli pozbędziemy się, odgrywających ze względu na samą celowość rolę drugorzędną, wymiarów
+kondycji i długości życia, to zostaną nam trzy wejścia - sygnał ze środowiska i dwie komórki
+pamięci - i trzy wyjścia - ruch i dwie komórki pamięci. Żeby zobaczyć w nim coś ważnego, maksymalnie
+uprościmy ten problem i przyjmiemy, że każdy z trzech wymiarów albo zbiorów albo typów może
+przyjmować tylko *dwie* wartości, przy czym na zbiorze możliwych sygnałów zdefiniujemy najprostszy
+nietrywialny porządek, czyli naniesiemy na niego naszą *osobliwą strzałkę*.
+
+Jak łatwo policzyć, wszystkich możliwych funkcji ze zbioru o `2^2^2 = 16` elementowego (tyle jest
+możliwych kombinacji trzech binarnych wejść) do zbioru `16` elementowego jest `16^16`, czyli bardzo,
+bardzo wiele. Dokładnie *cztery* z tych funkcji odpowiadają tego rodzaju optymalnemu agentowi,
+ponieważ osobliwa strzałka może być skierowana w każdą z dwóch stron (dwa sposoby), a nietrywialna
+celowość jest tutaj możliwa tylko wtedy, gdy konsekwencje ruchów są różne (też dwa sposoby).
+
+*Celowy ruch jest ekstremalnie unikalny nawet w przypadku ekstremalnie prostych zadań.*
+
+Nic dziwnego, że niezwykle rzadko mylimy się co do tego, czy to, co widzimy, słyszymy, lub czujemy
+dotykiem *dokądś zmierza* i często prawie natychmiast dobrze odgadujemy, przynajmniej orientacyjnie,
+*dokąd* to coś zmierza.
 
 TODO uczenie na podstawie nagród vs nadzorowane
 
