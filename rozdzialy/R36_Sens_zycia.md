@@ -23,20 +23,21 @@ pojęcia) maszyny Turinga, wyłoniła się z praktyki pisania publikacji naukowy
 i niedługo później stała się dominującym *podejściem* niemal w całej psychologii.
 
 Nieuważnemu obserwatorowi mogłoby się zdawać, że centralnym przedmiotem zanteresowania psychologii
-poznawczej jest nieobserwowalne `M` (jak *M*entalny *M*ediator), w rozłożonej na dwa ogólne czynniki
+poznawczej jest nieobserwowalne `𝑀` (jak *M*entalny *M*ediator), w rozłożonej na dwa ogólne czynniki
 funkcji `S → R`, to jest w funkcji:
 
-`S → M → R`.
+`S → 𝑀 → R`.
 
 Mówiąc - tylko dla pewnych tymczasowych celów dydaktycznych - w naprawdę wulgarnym uproszczeniu,
-behawiorystę interesuje głównie *wpływ bodźców na reakcje*, a psychologa interesuje głównie
-*psychologiczny mechanizm* tego wpływu; bodźce i reakcje są dla takiego psychologa tylko środkami do
-głównego celu, jakim jest poznanie Wielkiego `M`.
+behawiorystę interesuje więc głównie *wpływ bodźców na reakcje*, a psychologa poznawczego interesuje
+głównie *psychologiczny mechanizm* tego wpływu; bodźce i reakcje są dla takiego psychologa tylko
+*środkami* do głównego celu, jakim jest poznanie *Wielkiego `𝑀`*.
 
-Po takim (tylko powiedzianym bardziej oschle) wstępie zadaję studentom zawsze to samo pytanie:
+Po takim (tylko niestety z powodu wrodzonej głupoty powiedzianym bardziej oschle) wstępie zadaję
+studentom zawsze to samo pytanie:
 
-*Czego krytycznie ważnego tu brakuje?*
+*Czego ważnego tu brakuje?*
 
 Od kilku lat, ku mojej wielkiej radości, prawie zawsze przynajmniej jedna osoba studencka udziela
-oczekiwanej przeze mnie odpowiedzi, że mianowicie (moim zdaniem straszliwie i dojmująco) brakuje tu
-[...](./R36__Sens_zycia.md)
+oczekiwanej przeze mnie odpowiedzi, że mianowicie (w mojej ocenie straszliwie i dojmująco) brakuje
+tu [...](./R36__Sens_zycia.md)
