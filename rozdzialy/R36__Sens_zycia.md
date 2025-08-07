@@ -42,7 +42,7 @@ Czy *słyszę* ironię? Chyba tak, a czemu pytasz?
 
 > TODO CYTAT
 
-## (Pani poznać ta) brudna robota (o imieniu `Cat`)
+## (Pani poznać) brudna robota (o imieniu `Cat`)
 
 Wyobraź sobie proszę, że jesteś n-ręką bandytką. Już wyjaśniam.
 
