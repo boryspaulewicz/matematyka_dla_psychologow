@@ -210,39 +210,42 @@ A()
 
 **Przypomnienie o fundamentalnej różnicy między językami funkcyjnymi i imperatywnymi**: W języku R
 symbole takie jak tutaj `E`, `A`, `konfitury`, `sygnal`, czy `ruch` nie są *stałymi*, tylko
-zmiennymi, które w dodatku mają *inny* charakter niż zmienne w Leanie. Zmienne w Leanie są nazwami
-wejść (czystych) funkcji, a zmienne w R są *nazwami miejsc w pamięci komputera* i *nie* mają
-ustalonego typu. Dlatego *w każdej chwili* można *przypisać* - za pomocą operacji tylko
-*wyglądającej* jak równość matematyczna - na przykład do zmiennej `E` *jakąkolwiek*
+zmiennymi, które w dodatku mają *inny* charakter niż zmienne w Leanie. Zmienne w Leanie są *tylko*
+nazwami wejść (czystych) funkcji, a zmienne w R są również *nazwami miejsc w pamięci komputera*, a
+poza tym *nie* mają ustalonego typu. Dlatego *w każdej chwili* można *przypisać* - za pomocą
+operacji tylko *wyglądającej* jak równość matematyczna - na przykład do zmiennej `E` *jakąkolwiek*
 wartość. Zależnie od kontekstu, ta operacja jest więc albo *nadaniem wartości początkowej*, albo
 *zmianą* wartości zmiennej. Ponieważ ciała funkcji napisanych w R mogą korzystać z dowolnych
 widocznych w tych ciałach zmiennych, a wartości zmiennych w R mogą się zmieniać w trakcie działania
-programu, funkcje w `R` mogą mieć i często mają *skutki uboczne*, co znaczy, że *nie* muszą zwracać
-i często nie zwracają tych samych wartości dla tych samych wejść.
+programu, funkcje w R mogą mieć i często mają *skutki uboczne*, co znaczy, że *nie* muszą zwracać i
+często nie zwracają tych samych wartości dla tych samych wejść.
 
-Kod napisany w R to jednak *również* matematyka. Możemy dowodzić twierdzeń dotyczących sposobu
+Kod napisany w R to jednak *również* matematyka. Możemy udowadniać twierdzenia dotyczące sposobu
 działania kodu napisanego w językach imperatywnych po prostu dlatego, że to są języki formalne i
 napisane w nich programy działają zgodnie z jednoznacznymi, sztywnymi zasadami. Różnica polega na
 tym, że dowodzenie twierdzeń na temat działania programów napisanych w językach imperatywnym może
-wymagać zastosowania jakiejś wersji logiki *przyczynowej*, którą poznamy kiedy indziej.
+wymagać uwzględnienia co najmniej modelu komputera kontrolowanego przez program, jeżeli nie
+"świata", a to wymaga zastosowania jakiejś wersji logiki *przyczynowej*, którą poznamy kiedy
+indziej.
 
 Nasz (domniemany) agent rodzi się w tym małym świecie z bazową "kondycją" (domyślna wartość
-zmiennej/parametru/argumentu `wypas` to 0). Wewnątrz (ciała \{funkcji\}) agenta zdeterminowana jest
-również - jako początkowa wartość jednej ze zmiennych - długość jego "życia". Można więc powiedzieć,
-że ten agent rodzi się z wbudowanym "zegarem biologicznym", który resetuje się do wartości
-"fabrycznej", kiedy agent wydaje z siebie pierwotny krzyk (`A()`). Domyślna, a więc tutaj tylko
-początkowa wartość sygnału ze środowiska to `NA`, co w języku R jest standardowym oznaczeniem braku
-danych (ang. *Not Available*). Czyli ten agent "rodzi się z zamkniętymi oczami".
+zmiennej/parametru/argumentu `wypas` to 0). Częściowo wewnątrz (ciała \{funkcji\}) agenta
+zdeterminowana jest również - jako przekształcana w ciele, początkowa wartość jednej ze zmiennych -
+długość jego "życia". Można więc powiedzieć, że ten agent rodzi się z wbudowanym "zegarem
+biologicznym", który resetuje się do wartości "fabrycznej", kiedy agent wydaje z siebie pierwotny
+krzyk (`A()`). Domyślna, a więc tutaj tylko początkowa wartość sygnału ze środowiska to `NA`, co w
+języku R jest standardowym oznaczeniem braku danych (ang. *Not Available*). Czyli ten agent "rodzi
+się z zamkniętymi oczami".
 
-Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to nie jest takie proste. Jego
-dwukomórkowa pamięć jest co prawda początkowo pusta, jednak ta pamięć jest *dwu*komórkowa, a to
-znaczy, że jej struktura jest "od urodzenia" dopasowana do struktury interfejsu
-agent-środowisko. Można powiedzieć, że już samo to jest czymś w rodzaju wbudowanej (uogólnionej)
-*wiedzy*, podobnie jak jego *sposób działania*, który jest również dopasowany do jednoznacznie
-określonego celu (maksymalizacja skonsumowanej sumy konfitur) i do struktury tego
-środowiska. Właściwie jedyna wbudowana "niepewność" to początkowy brak "wiedzy" na temat sygnałów
-następujących po każdym z dostępnych ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i
-dlatego będzie dla nas pouczającym punktem wyjścia w rozważaniach na temat *sensu życia*.
+Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to nieprawda. Jego dwukomórkowa pamięć
+jest co prawda początkowo pusta, jednak ta pamięć jest *dwu*komórkowa, a to znaczy, że jej struktura
+jest "od urodzenia" *dopasowana do zadania*. Można powiedzieć, że już samo to jest czymś w rodzaju
+wbudowanej (uogólnionej) *wiedzy*, podobnie jak *sposób działania*, który jest również dopasowany do
+jednoznacznie określonego celu (maksymalizacja skonsumowanej sumy konfitur) i do dynamiki
+środowiska, czyli do zadania. Właściwie jedyna wbudowana "niepewność" to początkowy brak wbudowanej
+w jakikolwiek sposób wiedzy na temat konkretnych wartości sygnałów następujących po każdym z
+dostępnych ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i dlatego będzie dla nas
+pouczającym punktem wyjścia w rozważaniach na temat sensu życia.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
 
