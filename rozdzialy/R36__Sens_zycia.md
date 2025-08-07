@@ -315,9 +315,9 @@ f = function(X = c(NA, NA)) ifelse(any(is.na(X)), which(is.na(X)), which(X == ma
 g = function(X, Y, Z = NA) if(X == 1){ c(Z, Y[2]) }else{ c(Y[1], Z) }
 
 ## https://youtu.be/CU1HtU5t2O4?si=PX07Vz0YRNXuTDMk
-CAt = function(X = NA, Y = c(NA, NA), Z = 0, V = 9){
+CAt = function(X = NA, Y = c(NA, NA), Z = 0, V = 9)
     if(V > 1){ CAt(E(f(Y)), g(f(Y), Y, E(f(Y))), Z + E(f(Y)), V - 1)
-    }else{ Z + X }}
+    }else{ Z + X }
 
 CAt()
 ```
