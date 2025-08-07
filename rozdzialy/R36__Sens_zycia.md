@@ -380,12 +380,12 @@ rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważeni
 Z drugiej strony, coś takiego dzieje się nieustannie, tyle, że stopniowo, ze wszystkimi organizmami
 żywymi, bo organizmy żywe nieustannie *wymieniają materię* ciała z materią otoczenia ciała,
 *zagarniają materię* otoczenia (rosnąc) i nieustannie *Się odwzorowywują*, to jest *kształtują
-cieleśnie dostępną materię na własne podobieństwo*. My, ludzie, jesteśmy gatunkiem wyjątkowym między
-innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a dokładniej na
-podobieństwo własnych pragnień, na skalę, do której nie zbliża się żaden inny gatunek zwierząt. A
-wszystko to za każdym razem zaczyna się dosłownie od *programu* (DNA). Życie jest organicznym, a
-więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem siebie*. Życie
-jako takie jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
+cieleśnie dostępną materię na własne podobieństwo*. Przy czym my, ludzie, jesteśmy gatunkiem
+wyjątkowym między innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a
+dokładniej na podobieństwo własnych pragnień, na skalę, do której nie zbliża się żaden inny gatunek
+zwierząt. A wszystko to za każdym razem zaczyna się dosłownie od *programu* (DNA). Życie jest
+organicznym, a więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem
+siebie*. Życie jako takie jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
 
 TODO uczenie na podstawie nagród vs nadzorowane
 
