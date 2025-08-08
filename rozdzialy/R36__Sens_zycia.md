@@ -374,7 +374,7 @@ celowych to ekstremalnie mała część *teoretycznie* możliwych procesów , a 
 "ekstremalnie rzadkie", które dotyczy *faktycznej relatywnej częstości występowania*. W warunkach
 umożliwiających życie, takie procesy mogą stać się i często stają się nawet bardzo częste, ponieważ
 organizmy żywe to wystarczająco skuteczne przybliżenia idealnych *rozmnażających się* procesów
-celowych. Co więcej, takie procesy mogą być teoretycznie znacznie *częstsze*, niż nam się zdaje.
+celowych. Co więcej, takie procesy mogą być teoretycznie znacznie częstsze, niż nam się zdaje.
 
 *Jedyne*, co decyduje o tym, czy jakiś fizyczny proces albo struktura jest pamięcią, to *rola*, jaką
 to coś pełni w ramach jakiegoś innego procesu. I odwrotnie, nie ma czegoś takiego jak pamięć, która
@@ -383,31 +383,35 @@ pamięcią. To samo dotyczy z konieczności *wszystkich* pojęć, których używ
 celowych *jako takich*. Na przykad, coś jest albo nie jest *nagrodą* tylko ze względu na to, w jaki
 sposób to coś jest powiązane z czymś innym, co możemy konsekwentnie nazywać *zachowaniem*,
 *wyborem*, albo *decyzją*. Tego rodzaju funkcje jako role są *albo zrealizowane jednocześnie, albo
-wcale*. Między innymi dlatego nie jest tak łatwo je dobrze *zdefiniować*.
+wcale*. Między innymi dlatego nie jest tak łatwo je dobrze ogólnie *scharakteryzować*.
 
-W nieco bardziej złożonym środowisku, nasz czysto funkcyjny agent mógłby zapisywać zaktualizowany
-stan swojej pamięci za każdym razem lub tylko czasami w jakiejś *nowej* strukturze fizycznej,
-analogicznie do sposobu, w jaki zwykłe wirusy infekują organizmy żywe, albo w jaki wirusy
+W nieco bardziej złożonym środowisku, nasza czysto funkcyjna agentka mogłaby zapisywać
+zaktualizowany stan swojej pamięci za każdym razem lub tylko czasami w jakiejś *nowej* strukturze
+fizycznej, analogicznie do sposobu, w jaki zwykłe wirusy infekują organizmy żywe, albo w jaki wirusy
 komputerowe infekują nowe pliki czy komputery. Gdyby tylko ten proces celowy *odwzorował*
-jednocześnie swój sposób działania w jakiejś strukturze fizycznej w taki sposób, że zainicjowany
-dzięki temu, podtrzymujący celowość ruch "używałby" tej nowej struktury fizycznej jako "swojej
-pamięci", to ten "agent" "żyłby" dalej, tyle, że - być może tylko częściowo - w "nowym ciele".
+jednocześnie swój sposób działania w jakiejś strukturze fizycznej tak, że zainicjowany dzięki temu,
+podtrzymujący celowość ruch używałby tej nowej struktury fizycznej jako swojej pamięci, to ta
+agentka trwałaby dalej, tyle, że - być może tylko częściowo - w nowym ciele.
 
 I byłoby wtedy tak, jakby *duch celowości przepływał przez materię*. Tego rodzaju proces, gdyby
 rozgrywał się przed naszymi oczami, mógłby być dla nas trudny do zauważenia, nawet, gdyby rozgrywał
-się w *makroskali* i - dosłownie! - *obejmował sobą* sporą część materii.
+się w percepcyjnie przyjaznym dla nas tempie i w makroskali i - dosłownie - obejmował sobą sporą
+część materii.
 
-Coś podobnego dzieje się zresztą nieustannie, tyle, że stopniowo, ze wszystkimi organizmami żywymi,
-bo organizmy żywe nieustannie *wymieniają materię* ciała z materią otoczenia ciała, *zagarniają
-materię* otoczenia (rosnąc) i nieustannie *Się odwzorowywują*, to jest *kształtują cieleśnie
-dostępną materię na własne podobieństwo*. Przy czym my, ludzie, jesteśmy gatunkiem wyjątkowym między
-innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a dokładniej na
-podobieństwo własnych pragnień, aspiracji, lęków i uprzedzeń na skalę, do której nie zbliża się
-nawet żaden inny gatunek zwierząt. 
+Coś podobnego dzieje się zresztą nieustannie, tyle, że (dla nas) bardzo stopniowo, ze wszystkimi
+organizmami żywymi, bo organizmy żywe nieustannie *wymieniają materię* ciała z materią otoczenia
+ciała, *zagarniają materię* otoczenia rosnąc i nieustannie *Się odwzorowywują*, to jest *kształtują
+cieleśnie dostępną materię na własne podobieństwo*. Przy czym my, ludzie, jesteśmy gatunkiem
+wyjątkowym między innymi pod tym względem, że kształtujemy środowisko na własne podobieństwo, a
+dokładniej na podobieństwo własnych pragnień, aspiracji, lęków i uprzedzeń, czyli ostatecznie celów,
+na skalę, do której nie zbliża się żaden inny gatunek zwierząt.
 
 A wszystko to za każdym razem zaczyna się dosłownie od *programu*, to jest od DNA. Życie jest
 organicznym, a więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem
-siebie*. Życie jako takie jest realizowaną organicznie i w przybliżeniu *logiką funkcjonalności*.
+siebie*. 
+
+Życie jako takie jest *realizowaną organicznie i w przybliżeniu logiką celowego funkcjonowania*.
+
 
 TODO uczenie na podstawie nagród vs nadzorowane
 
