@@ -4,39 +4,37 @@
 Skądś się te bodźce biorą i w czymś się te reakcje rozgrywają i na coś oddziałują, co nie? A *ciało*
 to, za przeproszeniem, pies? 
 
-Właściwie, jak się tak zastanowić, to środowisko nie jest wcale ani szczególnie małe, ania mało
-znaczące. No ale (zdawałoby się, że) środowisko to nie fascynujący i tajemniczy *Umysł*; to tylko
-łatwo obserwowalne, znane nam wszystkim i przez wszystkich niepsychopatów kochane sklepy Żabka,
-jakieś ulice, jakieś przystanki i auta, przechodnie i kierowcy, dużo wody, ziemi i powietrza, trochę
-zieleni i czerwieni. I to by było w zasadzie na tyle, bo - powiedzmy sobie szczerze - "écru
-wpadające w limonkę" to nie kolor tylko stan chorego umysłu, a ryba to praktycznie warzywo.
+Właściwie, jak się zastanowić, środowisko nie jest ani szczególnie małe, ania mało znaczące. No ale
+(zdawałoby się, że) środowisko to nie fascynujący i tajemniczy *Umysł*; to tylko w większości łatwo
+obserwowalne, znane nam wszystkim i przez wszystkich niepsychopatów kochane sklepy Żabka, jakieś
+ulice, przystanki i auta, przechodnie i kierowcy, dużo wody, ziemi i powietrza, zieleni i czerwieni,
+i to by było w zasadzie na tyle, bo - powiedzmy sobie szczerze - "écru wpadające w limonkę" to nie
+kolor, tylko stan chorego umysłu, a ryba to praktycznie warzywo.
 
 ## Trzeci (również śmieszniejszy, ale to jest akurat znacznie bardziej subtelny żart) sposób na psychologię
 
-Jednym z brzemiennych w liczne poważne skutki zdarzeń, które przytrafiło mi się w trakcie dwóch lat
+Jednym z brzemiennych w poważne skutki zdarzeń, które przytrafiło mi się w trakcie dwóch lat
 codziennego systematycznego uczenia się różnych rzeczy, o którym to okresie wspominałem już we
-wprowadzeniu, było odkrycie w czytelni anglojęzycznej Instytutu Psychologii, w którym teraz pracuję,
-książki [*An Introduction to Reinforcement
-Learning*](https://archive.org/details/rlbook2018/mode/2up) Suttona i Barto ([pierwsze
-wydanie](http://incompleteideas.net/book/the-book-1st.html) jest znacznie krótsze, też wspaniałe i
-szybciej wchodzi). Będzie chyba najlepiej, jeśli zanim sam zacznę gadać, najpierw oddam głos tym
-dwóm cudownym autorom i moim zdaniem głębokim, wytrawnym i diabelnie przenikliwym myślicielom
+wprowadzeniu, było odkrycie w czytelni anglojęzycznej Instytutu Psychologii UJ książki [*An
+Introduction to Reinforcement Learning*](https://archive.org/details/rlbook2018/mode/2up) Suttona i
+Barto ([pierwsze wydanie](http://incompleteideas.net/book/the-book-1st.html) jest co prawda mniej
+aktualne, ale też wspaniałe i znacznie krótsze, więc szybciej wchodzi). Będzie chyba najlepiej,
+jeśli zanim sam zacznę o tym gadać, oddam głos tym dwóm cudownym autorom i moim zdaniem (z
+konieczności tylko lokalnie, ale jednak) głębokim, wytrawnym i diabelnie przenikliwym myślicielom
 (cytaty pochodzą z wydania pierwszego):
 
 > This introductory textbook on reinforcement learning is targeted toward engineers and scientists
 > in artificial intelligence, operations research, neural networks, and control systems, and we hope
 > it will also be of interest to psychologists and neuroscientists.
 
-Toście się, chłopaki, przeliczyli; większość współczesnych psychologów zajmuje się uprawianiem nauki
-[performatywnej](https://en.wikipedia.org/wiki/Cargo_cult), która jest dosyć daleko od czytania
-technicznych tekstów czy autentycznego systematycznego uczenia się właściwie czegokolwiek. Ale
-miałem tyle nie gadać. Przepraszam.
+To się chłopaki przeliczyły; większość współczesnych psychologów zajmuje się uprawianiem nauki
+[performatywnej](https://en.wikipedia.org/wiki/Cargo_cult), przez większość czasu pasącej się z dala
+od czytania technicznych tekstów czy autentycznego systematycznego uczenia się właściwie
+czegokolwiek. Ale miałem tyle nie gadać, przepraszam.
 
 Już nic nie mówię.
 
 Normalnie Król Ciszy, zobaczysz.
-
-Serio mówię.
 
 Czy *słyszę* ironię? Chyba tak, a czemu pytasz?
 
@@ -52,7 +50,7 @@ patrzymy na zmieniające się w kilku okienkach obrazki i rujnujemy sobie i swoi
 życie. Co ciekawe, wiele osób zdaje się sądzić, że adekwatnym określeniem dla tej dualnie
 urzekającej formy spędzania wolnego czasu jest słowo "ekscytująca".
 
-Funkcjonalnie, chodzi tu oczywiście o skończony (`n : Nat, n > 1`) ...
+Funkcjonalnie, chodzi tu oczywiście o skończony (`n : Nat`) ...
 
 1. zbiór dostępnych działań (`d : Dzialanie`), ...
 
@@ -64,8 +62,8 @@ Funkcjonalnie, chodzi tu oczywiście o skończony (`n : Nat, n > 1`) ...
    `Porzadek`\}).
 
 Wyobraź sobie, że masz nieskończenie dużo czasu, za to żadnych znajomych ani w ogóle nic innego do
-roboty, `n = 3`, a nagrodami, jak w kasynie, są wypłaty pieniężne, które mimo swojej szczególnej
-sytuacji nadal sobie cenisz. Zaczęłaś od jednokrotnego sprawdzenia każdego z dostępnych działań:
+roboty, `n = 3`, a nagrodami, jak w kasynie, są wypłaty pieniężne, które mimo szczególnej sytuacji
+nadal sobie cenisz. Zaczęłaś od jednokrotnego sprawdzenia każdego z dostępnych działań:
 
 ```lean
 -- Ten parametryczny typ pozwala wygodnie rozumować na temat jakiegoś czegoś, co może być
@@ -84,9 +82,10 @@ def odwazny_poczatek (n : Nat) : Co? Nat :=
 
 Przypuszczam, że sposobu działania wyrażeń `if <warunek> then <term> else <term>` nie muszę
 tłumaczyć, poza jedną subtelnością - żeby Lean coś takiego zaakceptował, term `warunek` musi być
-*rozstrzygalny* (przez algorytm \{o czym więcej kiedy indziej\}).
+*rozstrzygalny*. To znaczy, że Lean musi być w stanie automatycznie znaleźć dowód prawdziwości albo
+fałszywości tego warunku.
 
-Reguła działania jest taka prosta między innymi dlatego, że traktujemy tą sytuację, a dokładniej to
+Reguła działania jest tu taka prosta między innymi dlatego, że traktujemy tą sytuację, a dokładniej
 to zadanie, jakby nie miało *stanu*. Mówiąc inaczej, ale funkcjonalnie równoważnie, istnieje tylko
 jeden stan tego (zewnętrznego wobec nas?) świata. To znaczy, że w tym świecie wszystko działa zawsze
 tak samo, niezależnie od tego, co się wcześniej wydarzyło.
@@ -96,7 +95,7 @@ jak będący jego dualnym odpowiednikiem zbiór pusty. W tym przypadku dlatego, 
 struktury, świata, sytuacji, czy zadania jest tylko wtedy użyteczne, kiedy stany mogą być różne. A
 mówiąc inaczej, ale w zasadzie to samo, *pojęcie* stanu *domaga się*, przynajmniej potencjalnej,
 tego rodzaju różnorodności, bo kanonicznym zastosowaniem tego pojęcia jest *rozróżnianie* możliwych
-stanów (z konieczności oparte na ich własnościach, jak to rozróżnianie).
+stanów (z konieczności oparte na ich własnościach \{jak to rozróżnianie\}).
 
 No więc wyobraź sobie, że na początku *zastosowałaś* `n` razy tego rodzaju *strategię
 eksploracyjną*, uzyskując takie oto (funkcjonalnie) zyski, będące jednocześnie (funkcjonalnie)
@@ -104,45 +103,44 @@ jedynymi dostępnymi informacjami na temat dynamiki środowiska:
 
 `0 ↦ 665, 1 ↦ 664, 2 ↦ 667`
 
-*W tym wypadku* możemy jednoznacznie i autorytatywnie stwierdzić, co w pewnym sensie *powinnaś*
-zrobić, bo to wynika z definicji, a wynika z niej, bo to jest definicja *zadania*. Stwierdzenie, że
-coś się powinno albo czegoś się nie powinno ma sens *tylko* zakładając jakiś cel, a ponieważ cel
-jako taki jest zawsze pewną preferencją czyli oceną, a ocena jako taka jest zawsze postawą,
-funkcjonalnie równoważną pewnej relacji porządku, czyli ostatecznie punktem widzenia, założenie na
-temat celu jest [*nieuzasadnialne*](https://pl.wikipedia.org/wiki/Gilotyna_Hume%E2%80%99a) inaczej
-niż ze względu na jakieś ewentualne inne preferencje czyli postawy czyli oceny czyli relacje
-porządku:
+W tym wypadku możemy jednoznacznie i autorytatywnie stwierdzić, co *powinnaś* zrobić, bo to wynika z
+definicji, a wynika z niej, bo to jest definicja *zadania*. Stwierdzenie, że coś się powinno albo
+czegoś się nie powinno ma sens *tylko* zakładając jakiś cel, normę, lub wartość, czyli ostatecznie
+jakiś cel, a ponieważ cel jako taki jest zawsze pewną preferencją czyli oceną, a ocena jako taka
+jest zawsze postawą, funkcjonalnie równoważną pewnej relacji porządku, czyli ostatecznie punktem
+widzenia, założenie na temat celu jest
+[*nieuzasadnialne*](https://pl.wikipedia.org/wiki/Gilotyna_Hume%E2%80%99a) inaczej niż ze względu na
+jakieś inne cele (czyli pewne preferencje, postawy, oceny i zarazem relacje porządku):
 
 *Jeżeli* zależy Ci tylko na pieniądzach (nie oceniam), to zgodnie ze wszystkimi dostępnymi danymi,
-*powinnaś* wybrać `2`, ponieważ *najlepszym* wyborem jest `2` i tylko `2`, albo, równoważnie,
-jedynym *racjonalnym* wyborem jest `2`.
+*powinnaś* wybrać `2`, ponieważ *najlepszym* albo *racjonalnym* wyborem jest `2` i tylko `2`.
 
 Zwróć proszę uwagę, że w tym kontekście *racjonalny* znaczy *dokładnie* to samo, co *najlepszy*, a
-najlepszy znaczy *dokładanie* to samo, co *największy*. Ponadto *rozstrzygnięcie*, który wybór jest
-w danym momencie racjonalny, wymaga *pamięci*, która akurat tutaj przyjęła maksymalnie uniwersalną
-postać *sekwencji reakcji*. Akurat w tym przykładzie reakcja jest *parą* złożoną z bodźca i
-działania, ale w ogólnym przypadku będzie (funkcjonalnie) *trójką*, złożoną z ...
+najlepszy znaczy *dokładanie* to samo, co *największy* ze względu na relację porządku, która
+odpowiada celowi. Ponadto *rozstrzygnięcie*, który wybór jest w danym momencie racjonalny, wymaga
+*pamięci*, która przyjęła tutaj maksymalnie uniwersalną postać *sekwencji reakcji*. Akurat w tym
+przykładzie reakcja jest *parą* złożoną z bodźca i działania, ale w ogólnym przypadku będzie
+(funkcjonalnie) *trójką*, złożoną z ...
 
 1. bodźca, czyli funkcjonalnie (zwykle ekstremalnie fragmentarycznej) *informacji na temat
 aktualnego stanu* (świata), ...
 
 2. działania wykonanego w danej *próbie* i ...
 
-3. stanu *całego* (ale za to tylko rozważanego) *świata*.
+3. stanu *całego* (ale za to tylko rozważanego, więc może być przynajmniej subiektywnie tyci)
+   *świata*.
 
-Mówimy tu więc o reakcjach z perspektywy wszechwiędzącej obserwatorki.
+Zwracam też uwagę, że mówimy tu o reakcjach z perspektywy wszechwiędzącej obserwatorki.
 
 Żeby było ciekawiej, zmienimy teraz język na taki, który
 [wymaga](https://pl.wikipedia.org/wiki/Odzie%C5%BC_ochronna) założenia co najmniej rękawic do smaru
-i oleju, okularów ochronnych i maski przeciwpyłowej, to jest na używany przez wielu psychologów
-zajmujących się (często niestety nieudolnie) analizą danych język R. Zaczniemy od zdefiniowania w
-nim prostej *funkcji środowiska*:
+i oleju. I okularów ochronnych. A właściwie to maska przeciwpyłowa też by nie zaszkodziła. Chodzi o
+używany przez wielu psychologów zajmujących się (często niestety nieudolnie) analizą danych język
+imperatywny R. Zaczniemy od zdefiniowania w nim prostej *funkcji środowiska*:
 
 ```r
 ## Ta funkcja jest naszym modelem środowiska, w którym może być lepiej lub gorzej, a to, jak w nim
-## (nam) jest zależy od tego, jakie wykonujemy ruchy. Uprzedzam, że to jest *nowy* język
-## programowania (R), który zarówno pod względem składni jak i sposobu działania bardzo różni się od
-## Leana.
+## (nam) jest, zależy od tego, jakie wykonujemy ruchy.
 
 E = function(a){
     c(665, 664, 667)[a + 1]
@@ -158,33 +156,33 @@ wskazywania elementu sekwencji za pomocą liczby naturalnej, którą to operacj�
 nawiasów kwadratowych. Ponieważ w R indeksujemy pozycje w typach sekwencyjnych od 1, a nie od 0, jak
 w większości innych języków programowania, do indeksu działania dodajemy 1.
 
-*Zmienna* `E` *będzie* nazwą tej funkcji od momentu, w którym poddamy ten kod ewaluacji. W
-przeciwieństwie do Leana, napisany w skrypcie R-a kod nie zaczyna więc "od razu działać" w
-R. Widzimy też, że nie ma tu żadnej jawnej informacji o typach danych, bo (ubogi) system typów
-języka R został zaprojektowany do znacznie skromniejszych celów niż formalizacja całej matematyki.
+R to dosyć zwyczajny interpretowany język imperatywny, a nie czysty język funkcyjny, dlatego `E` to
+*zmienna*, która będzie nazwą tej funkcji od momentu, w którym poddamy ten kod ewaluacji. W
+przeciwieństwie do Leana, napisany w skrypcie R-a kod nie zaczyna więc "od razu działać". Widzimy
+też, że nie ma tu żadnej jawnej informacji o typach danych, bo (ubogi) system typów języka R został
+zaprojektowany do znacznie skromniejszych celów niż formalizacja całej matematyki.
 
 Jeżeli teraz w *wierszu poleceń* interpretera języka R (`> ...`), którego w Leanie nie ma, bo
 interakcja z Leanem nie polega na wykonywaniu pętli [REPL](https://pl.wikipedia.org/wiki/REPL),
-napiszemy `E(1)` i naciśniemy Enter, zobaczymy następującą odpowiedź środowiska:
+napiszemy `E(1)` i naciśniemy Enter, zobaczymy następującą *odpowiedź środowiska*:
 
 ```r
 > E(1)
 [1] 664
 ```
 
-Ten komunikat **czytamy jako**: Się robi, szefowo (bo R to interpreter pochodzenia wiejskiego, ale w
-dobrym znaczeniu), oto wektor jednoelementowy (`[1]`) o zawartości `664`.
+Ten komunikat **czytamy jako**: Sie robi, szefowo (bo R to interpreter pochodzenia wiejskiego, ale w
+dobrym znaczeniu), oto wektor jednoelementowy (`[1]`), zawierający liczbę `664`.
 
-## Najprościej, jak się da, żeby było widać, co się da
+## Najprościej, jak się da, żeby zobaczyć, co się da
 
-W rozważanej sytuacji nie jest takie ważne, czy mamy do wyboru trzy różne ruchy, czy dwa, byle tylko
-był wybór. Wobec tego dokonamy uproszczenia i pozbędziemy się jednej z alternatyw, tym bardziej, że
-zbiory dwuelementowe mają dla nas głębsze, o ile nie zbyt głębokie znaczenie. Nie będziemy się też
-bawić w mapowanie *indeksów* ruchów na *same* ruchy, bo to jest w tym przypadku (funkcjonalnie)
-jedno i to samo.
+Ze względu na kwestie, które próbujemy teraz naświetlić, nie jest ważne, czy mamy do wyboru trzy
+ruchy, czy dwa, byle tylko był jakiś wybór. Wobec tego dokonamy uproszczenia i pozbędziemy się
+jednej z alternatyw, tym bardziej, że zbiory dwuelementowe mają dla nas głębsze, o ile nie zbyt
+głębokie znaczenie. Nie będziemy się też bawić w mapowanie *indeksów* ruchów na *same* ruchy, bo to
+jest w tym przypadku (funkcjonalnie) jedno i to samo.
 
-Wyobraźmy sobie teraz, że wiemy z góry tylko tyle, że możemy używać dwóch różnych ruchów. Żeby
-napisać funkcję, która w jakiś sensowny sposób gra w tą grę, *musimy* skorzystać z *pamięci*. Z
+Żeby napisać funkcję, która w jakiś sensowny sposób gra w tą grę, *musimy* skorzystać z *pamięci*. Z
 powodów, które staną się jasne niebawem, rozwiążemy ten problem w sposób, który bardziej przypomina
 styl kodowania w języku funkcyjnym niż w języku imperatywnym:
 
@@ -198,15 +196,15 @@ E = function(a){
     konfitury[a]
 }
 
-## A to jest funkcja "podmiotu" albo "agenta". Na początku nie ma sygnału ze środowiska (`sygnal =
-## NA`), pamięć jest pusta, kondycja ma poziom wyjściowy i agent jest najmłodszą możliwą wersją
+## A to jest funkcja "podmiotu" albo "agentki". Na początku nie ma sygnału ze środowiska (`sygnal =
+## NA`), pamięć jest pusta, kondycja ma poziom wyjściowy i agentka jest najmłodszą możliwą wersją
 ## siebie.
 A = function(sygnal = NA, ## To są domyślne wartości parametrów tej funkcji, ...
              pamiec = c(NA, NA),
              wypas  = 0,
              zycia  = 9){ ## ... a to jej ciało:
     ##
-    ## Etap wyboru następnego ruchu:
+    ## Etap wyboru ruchu:
     if(is.na(sygnal)){
         ## Jeżeli nie ma informacji na temat ostatniego sygnału, to musi to być pierwsza próba, w
         ## której arbitralnie wybieramy pierwszy ruch.
@@ -214,14 +212,14 @@ A = function(sygnal = NA, ## To są domyślne wartości parametrów tej funkcji,
     }else{
         ## Jeżeli natomiast to nie jest początek interakcji ze środowiskiem ...
         if(zycia == 0){
-            ## ... ale to ostatnie życie, oddajemy wszystko, co nam zostało, ...
+            ## ... ale to ostatnie życie, to oddajemy wszystko, co nam zostało, ...
             print("Cześć, i dzięki za ryby")
             return(wypas)
         }else{
             ## ... a jeżeli to nie jest ostatnie życie, ...
             if(any(is.na(pamiec))){
                 ## ... to jeżeli nie ma jeszcze zapisu pamięciowego sygnału po którymś ruchu, to
-                ## wybieramy pierwszy ruch, dla którego nie ma takiego zapisu, ...
+                ## wybieramy pierwszy taki ruch, ...
                 ruch = which(is.na(pamiec))[1]
             }else{
                 ## ... w przeciwnym razie wybieramy ruch o największym zapamiętanym sygnale:
@@ -247,9 +245,9 @@ A()
 ```
 
 Cały ten kod możesz wkleić [tutaj](https://rdrr.io/snippets/), lub do zainstalowanego na swoim
-komputerze interpretera R. Po wykonaniu ewaluacji (inaczej *u-ruchomieniu* kodu) przekonasz się
-wtedy, że - jak można policzyć (ale komu by się chciało) - po pierwszych dwóch eksploracyjnych
-wyborach ten agent wybiera już do samego końca ruch, po którym występuje największy sygnał nagrody:
+komputerze interpretera R. Po wykonaniu ewaluacji (albo po *u-ruchomieniu*) kodu przekonasz się,
+że - jak można policzyć (ale komu by się chciało) - po pierwszych dwóch eksploracyjnych wyborach ten
+agent wybiera już do samego końca ruch, po którym występuje największy sygnał nagrody:
 
 ```r
 > A()
@@ -259,23 +257,28 @@ wyborach ten agent wybiera już do samego końca ruch, po którym występuje naj
 
 **Przypomnienie o fundamentalnej różnicy między językami funkcyjnymi i imperatywnymi**: W języku R
 symbole takie jak tutaj `E`, `A`, `konfitury`, `sygnal`, czy `ruch` nie są *stałymi*, tylko
-zmiennymi, które w dodatku mają *inny* charakter niż zmienne w Leanie. Zmienne w Leanie są *tylko*
-nazwami wejść (czystych) funkcji, a zmienne w R są również *nazwami miejsc w pamięci komputera*, a
-poza tym *nie* mają ustalonego typu. Dlatego *w każdej chwili* można *przypisać* - za pomocą
+zmiennymi, które w dodatku mają *inny* charakter niż zmienne w Leanie. Zmienne w Leanie są *tylko
+nazwami wejść* (czystych) *funkcji*, a zmienne w R są również *nazwami miejsc w pamięci komputera*,
+a poza tym *nie* mają ustalonego typu. Dlatego *w każdej chwili* można *przypisać* - za pomocą
 operacji tylko *wyglądającej* jak równość matematyczna - na przykład do zmiennej `E` *jakąkolwiek*
-wartość. Zależnie od kontekstu, ta operacja jest więc albo *nadaniem wartości początkowej*, albo
-*zmianą* wartości zmiennej. Ponieważ ciała funkcji napisanych w R mogą korzystać z dowolnych
-widocznych w tych ciałach zmiennych, a wartości zmiennych w R mogą się zmieniać w trakcie działania
-programu, funkcje w R mogą mieć i często mają *skutki uboczne*, co znaczy, że *nie* muszą zwracać i
-często nie zwracają tych samych wartości dla tych samych wejść.
+wartość. Zależnie od kontekstu, zastosowanie operacji `=`, którą możemy również oznaczać za pomocą
+symbolu `<-`, jest więc albo *nadaniem wartości początkowej*, albo *zmianą* wartości
+zmiennej. 
+
+Między innymi dlatego, że ciała funkcji napisanych w R mogą korzystać z dowolnych widocznych w tych
+ciałach zmiennych, w tym również ze zmiennych *globalnych*, a wartości zmiennych w R mogą się
+zmieniać w trakcie działania programu, funkcje w R mogą mieć i często mają *skutki uboczne*. To
+znaczy, że nie muszą zwracać i często nie zwracają tych samych wartości dla tych samych
+wejść. Wynika stąd, że funkcje w R zachowują się często bardziej jak procesy *fizyczne* niż jak
+"procesy" *logiczne* (inaczej matematyczne).
 
 Kod napisany w R to jednak *również* matematyka. Możemy udowadniać twierdzenia dotyczące sposobu
 działania kodu napisanego w językach imperatywnych po prostu dlatego, że to są języki formalne i
-napisane w nich programy działają zgodnie z jednoznacznymi, sztywnymi zasadami. Różnica polega na
-tym, że dowodzenie twierdzeń na temat działania programów napisanych w językach imperatywnym może
-wymagać uwzględnienia co najmniej modelu komputera kontrolowanego przez program, jeżeli nie
-"świata", a to wymaga zastosowania jakiejś wersji logiki *przyczynowej*, którą poznamy kiedy
-indziej.
+napisane w nich programy działają zgodnie z jednoznacznymi, sztywnymi zasadami, czyli zgodnie z
+pewną logiką. Różnica polega na tym, że dowodzenie twierdzeń na temat działania programów napisanych
+w językach imperatywnym może wymagać uwzględnienia co najmniej modelu komputera kontrolowanego przez
+program, jeżeli nie "świata", z którym ten komputer wchodzi w interakcję, a to wymaga zastosowania
+logiki *przyczynowej*, którą poznamy kiedy indziej.
 
 Nasz (domniemany) agent rodzi się w tym małym świecie z bazową "kondycją" (domyślna wartość
 zmiennej/parametru/argumentu `wypas` to 0). Częściowo wewnątrz (ciała \{funkcji\}) agenta
