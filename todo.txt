@@ -1,5 +1,7 @@
 -*- coding: utf-8 -*-
 
+R25 Alternatywa w praktyce nie ma sekcji o czym
+
 ----------------------------------------------------------------------------------------------------
 WYGŁADZANIE R05 l362
 
@@ -29,6 +31,8 @@ zdań i rachunku predykatów.
 
 ----------------------------------------------------------------------------------------------------
 VARIA
+
+Dosłownie patrzymy na wszystko jako na kategorie (skutków sekwencji działań).
 
 example to definicja, tylko że odrzucana po elaboracji.
 
