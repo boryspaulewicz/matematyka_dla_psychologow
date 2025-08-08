@@ -340,9 +340,8 @@ Ta agentka działa tak samo, jak agentka omawiana wcześniej ...
 
 ... ale trudno zobaczyć, dlaczego działa tak samo, bo cel nie jest wyrażony w powierzchownej
 strukturze kodu. Na przykład, trzeba się chwilę zastanowić, żeby odkryć, że rolą funkcji `g` jest
-aktualizacja pamięci. Co więcej, agentka `CAt` jest *czystym endomorfizmem*, to jest czystą relacją
-wejścia wyjścia, która *wywołuje/odtwarza/stosuje rekurencyjnie samą siebie jako czysty sposób
-działania*. 
+aktualizacja pamięci. Co więcej, agentka `CAt` jest *czystą relacją wejścia wyjścia, która
+wywołuje/odtwarza/stosuje rekurencyjnie samą siebie jako czysty sposób działania*.
 
 Jak sądzisz, *gdzie* jest pamięć tej agentki? W "jej ciele", czy w "środowisku"? I na czym
 *dokładnie* polega tutaj różnica między ciałem i środowiskiem?
