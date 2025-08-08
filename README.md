@@ -435,7 +435,7 @@ psychopacie, z nachalnym utrudnianiem.*
 
 Informacje zwrotne zawsze mile widziane:
 
-[R 42](./rozdzialy/R_42.md)
+[R 42](./rozdzialy/R_42_1.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
