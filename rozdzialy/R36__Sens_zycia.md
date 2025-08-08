@@ -280,40 +280,42 @@ w językach imperatywnym może wymagać uwzględnienia co najmniej modelu komput
 program, jeżeli nie "świata", z którym ten komputer wchodzi w interakcję, a to wymaga zastosowania
 logiki *przyczynowej*, którą poznamy kiedy indziej.
 
-Nasz (domniemany) agent rodzi się w tym małym świecie z bazową "kondycją" (domyślna wartość
-zmiennej/parametru/argumentu `wypas` to 0). Częściowo wewnątrz (ciała \{funkcji\}) agenta
+Nasza (domniemana) agentka rodzi się w tym małym świecie z bazową "kondycją" (domyślna wartość
+zmiennej/parametru/argumentu `wypas` to 0). Częściowo wewnątrz (ciała \{tej funkcji\}) agentki
 zdeterminowana jest również - jako przekształcana w ciele, początkowa wartość jednej ze zmiennych -
-długość jego "życia". Można więc powiedzieć, że ten agent rodzi się z wbudowanym "zegarem
-biologicznym", który resetuje się do wartości "fabrycznej", kiedy agent wydaje z siebie pierwotny
-krzyk (`A()`). Domyślna, a więc tutaj tylko początkowa wartość sygnału ze środowiska to `NA`, co w
-języku R jest standardowym oznaczeniem braku danych (ang. *Not Available*). Czyli ten agent "rodzi
-się z zamkniętymi oczami".
+długość jej "życia". Można więc powiedzieć, że ta agentka rodzi się z wbudowanym "zegarem
+biologicznym", który resetuje się do wartości "fabrycznej", kiedy wydaje z siebie pierwotny krzyk
+(`A()`). Domyślna, a więc tutaj tylko początkowa wartość sygnału ze środowiska to `NA`, co w języku
+R jest standardowym oznaczeniem braku danych (ang. *Not Available*). Czyli ta agentka "rodzi się z
+zamkniętymi oczami".
 
-Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to tylko złudzenie, wynikające naiwnego
-rozumienia takich pojęć jak pamięć i wiedza. Pamięć jest tu co prawda początkowo pusta, ale jest
-*dwu*komórkowa, a to znaczy, że jej struktura jest "od urodzenia" *dopasowana do zadania*. Można
-powiedzieć, że już samo to jest czymś w rodzaju wbudowanej (uogólnionej) *wiedzy*, Ponieważ jednak
-wiedza musi być w jakiś sposób zapisana fizycznie, a tym, co czyni własność fizyczną (funkcjonalnie)
-wiedzą jest *możliwość wnioskowania* z tej własności w połączeniu z *wiedzą o tej możliwości*
-(zgadza się, to jest sfunkcjonalna definicja rekurencyjna) - bo nie może być wiedzą coś, o czym nic
-nie wiemy - to jednak ta wbudowana gotowość jest wiedzą tylko w ogólniejszym, czyli słabszym
-sensie. 
+Mogłoby się wydawać, że rodzi się też jako tabula rasa, ale to tylko złudzenie, wynikające z
+naiwnego, wąskiego rozumienia takich pojęć jak pamięć i wiedza. Pamięć jest tu co prawda początkowo
+pusta, ale jest *dwu*komórkowa, a to znaczy, że jej struktura jest "od urodzenia" *dopasowana do
+zadania*. Można powiedzieć, że już samo to jest czymś w rodzaju wbudowanej (uogólnionej) *wiedzy*.
+Wiedza musi być w jakiś sposób zapisana fizycznie, a tym, co czyni własność fizyczną (funkcjonalnie)
+wiedzą jest *możliwość wnioskowania* z tej własności w połączeniu z *wiedzą o tej możliwości* (tak,
+to jest *funkcjonalna definicja rekurencyjna*), bo nie może być wiedzą coś, o czym nie wiemy, że to
+wiemy. Ta akurat wbudowana funkcjonalność jest wiedzą, tylko w ogólniejszym sensie, bo chociaż ta
+agentka nie wyprowadza wniosków z tej własności, to *jest* (między innymi) wnioskowaniem z tej
+własności, bo (ze względu na to zadanie) *jest racjonalnym*, a więc też *logicznym sposobem użycia*
+pamięci dwukomórkowej.
 
-Zastanawiasz się, co to za uogólnione pojęcie wiedzy? Otóż *struktura* (ciała \{funkcji\}) agenta
-jest (między innymi) *modelem* (określonych własności) *zadania*!
+Zastanawiasz się nadal, co to za zagadkowo uogólnione pojęcie wiedzy? Otóż *struktura* (ciała
+\{funkcji\}) tej agentki jest (między innymi) pewnym *modelem zadania*!
 
-W szczególności, *sposób działania* tej funkcji jest dopasowany do jednoznacznie określonego celu
-(maksymalizacja skonsumowanej sumy konfitur) i do dynamiki środowiska, czyli właśnie do
-zadania. Właściwie jedyna wbudowana "niepewność" to początkowy brak wbudowanej w jakikolwiek sposób
-(uogólnionej) wiedzy na temat konkretnych wartości sygnałów następujących po każdym z dostępnych
-ruchów. Dlatego ten agent nie musi się prawie w ogóle *uczyć* i dlatego będzie dla nas pouczającym
-punktem wyjścia w rozważaniach na temat sensu życia.
+W szczególności, zarówno *konstrukcja* jak i *sposób działania* tej funkcji są dopasowane do
+jednoznacznie określonego celu (maksymalizacja skonsumowanej sumy konfitur) i do dynamiki
+środowiska, czyli właśnie do zadania. Właściwie jedyna wbudowana "niepewność" to początkowy brak
+wbudowanej w jakikolwiek sposób (uogólnionej) wiedzy na temat konkretnych wartości sygnałów
+następujących po każdym z dostępnych ruchów. Dlatego ta agentka nie musi się prawie w ogóle *uczyć*
+i dlatego będzie dla nas pouczającym punktem wyjścia w rozważaniach na temat sensu życia.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
 
-Jeżeli pozbędziemy się z kodu nachalnych śladów *intencji autora* (czyli w tym wypadku mnie),
-zastępując deksryptywne nazwy zmiennych abstrakcyjnymi symbolami i usuniemy z ciała funkcji co tylko
-się da, uzyskamy *C*zystą *A*gen*t*kę (stąd nazwa; poprawną wymowę słychać
+Jeżeli pozbędziemy się z kodu śladów *intencji autora* (czyli w tym wypadku mnie), zastępując
+deksryptywne nazwy zmiennych abstrakcyjnymi symbolami i usuniemy z ciała funkcji co tylko się da,
+uzyskamy *C*zystą *A*gen*t*kę (stąd nazwa; poprawną wymowę słychać
 [tu](https://youtu.be/CU1HtU5t2O4?si=wNlIIZQ0NEchQdVA)):
 
 ```r
@@ -329,17 +331,21 @@ CAt = function(X = NA, Y = c(NA, NA), Z = 0, V = 9)
 CAt()
 ```
 
-Ta agentka działa tak samo, jak omawiana wcześniej brudna robota ...
+Ta agentka działa tak samo, jak agentka omawiana wcześniej ...
 
 ```r
 > CAt()
 [1] 642
 ```
 
-... ale jest *czystym endomorfizmem*, to jest czystą relacją wejścia wyjścia, która
-*wywołuje/odtwarza/stosuje rekurencyjnie samą siebie jako czysty sposób działania*. Jak sądzisz,
-*gdzie* jest pamięć tej agentki? W "jej ciele", czy w "środowisku"? I na czym *dokładnie* polega
-różnica między ciałem agenta (lub agentki) i jego (lub jej) środowiskiem?
+... ale trudno zobaczyć, dlaczego działa tak samo, bo cel nie jest wyrażony w powierzchownej
+strukturze kodu. Na przykład, trzeba się chwilę zastanowić, żeby odkryć, że rolą funkcji `g` jest
+aktualizacja pamięci. Co więcej, agentka `CAt` jest *czystym endomorfizmem*, to jest czystą relacją
+wejścia wyjścia, która *wywołuje/odtwarza/stosuje rekurencyjnie samą siebie jako czysty sposób
+działania*. 
+
+Jak sądzisz, *gdzie* jest pamięć tej agentki? W "jej ciele", czy w "środowisku"? I na czym
+*dokładnie* polega tutaj różnica między ciałem i środowiskiem?
 
 Jeżeli pozbędziemy się, odgrywających ze względu na samą celowość rolę drugorzędną, wymiarów
 kondycji i długości życia, to zostaną nam trzy wejścia - sygnał ze środowiska i dwie komórki
