@@ -306,10 +306,10 @@ Zastanawiasz się nadal, co to za zagadkowo uogólnione pojęcie wiedzy? Otóż 
 
 W szczególności, zarówno *konstrukcja* jak i *sposób działania* tej funkcji są dopasowane do
 jednoznacznie określonego celu (maksymalizacja skonsumowanej sumy konfitur) i do dynamiki
-środowiska, czyli właśnie do zadania. Właściwie jedyna wbudowana "niepewność" to początkowy brak
-wbudowanej w jakikolwiek sposób (uogólnionej) wiedzy na temat konkretnych wartości sygnałów
-następujących po każdym z dostępnych ruchów. Dlatego ta agentka nie musi się prawie w ogóle *uczyć*
-i dlatego będzie dla nas pouczającym punktem wyjścia w rozważaniach na temat sensu życia.
+środowiska, czyli właśnie do zadania. Właściwie jedyna wbudowana "niepewność" to brak wbudowanej w
+jakikolwiek sposób (uogólnionej) wiedzy na temat konkretnych wartości sygnałów następujących po
+każdym z dostępnych ruchów. Dlatego ta agentka nie musi się prawie w ogóle *uczyć* i dlatego będzie
+dla nas pouczającym punktem odniesienia w rozważaniach na temat sensu życia.
 
 ## Ostateczne rozstrzygnięcie kwestii sensu życia
 
