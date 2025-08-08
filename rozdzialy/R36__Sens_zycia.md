@@ -38,7 +38,7 @@ Normalnie Król Ciszy, zobaczysz.
 
 Czy *słyszę* ironię? Chyba tak, a czemu pytasz?
 
-> TODO CYTAT
+Albo wiesz co, może jednak zacznę od omówienia trzech przykładów.
 
 ## Brudna robota
 
@@ -311,7 +311,7 @@ jakikolwiek sposób (uogólnionej) wiedzy na temat konkretnych wartości sygnał
 każdym z dostępnych ruchów. Dlatego ta agentka nie musi się prawie w ogóle *uczyć* i dlatego będzie
 dla nas pouczającym punktem odniesienia w rozważaniach na temat sensu życia.
 
-## Ostateczne rozstrzygnięcie kwestii sensu życia
+## Zawładnięcie przez wchłonięcie[^1]
 
 Jeżeli pozbędziemy się z kodu śladów *intencji autora* (czyli w tym wypadku mnie), zastępując
 deksryptywne nazwy zmiennych abstrakcyjnymi symbolami i usuniemy z ciała funkcji co tylko się da,
@@ -405,16 +405,118 @@ wyjątkowym między innymi pod tym względem, że kształtujemy środowisko na w
 dokładniej na podobieństwo własnych pragnień, aspiracji, lęków i uprzedzeń, czyli ostatecznie celów,
 na skalę, do której nie zbliża się żaden inny gatunek zwierząt.
 
-A wszystko to za każdym razem zaczyna się dosłownie od *programu*, to jest od DNA. Życie jest
+A wszystko to za każdym razem zaczyna się dosłownie od *programu*, to jest od DNA. Nasze życie jest
 organicznym, a więc tylko przybliżonym, ale jednak *programowaniem świata* i *metaprogramowaniem
-siebie*. 
+Siebie*.
 
-Życie jako takie jest *realizowaną organicznie i w przybliżeniu logiką celowego funkcjonowania*.
+Życie jako takie jest (między innymi) *realizowaną organicznie i w przybliżeniu logiką celowego
+funkcjonowania*.
 
+Mogę już oddać głos autorom.
 
-TODO uczenie na podstawie nagród vs nadzorowane
+## Suttona i Barto koncepcja sensu sensownego życia i być może jeszcze jakiej reszty
 
-TODO Ten agent dopasowuje albo uczy się modelu środowiska.
+> [...] in 1979 we came to realize that perhaps the simplest of the ideas, which had long been taken
+> for granted, had received surprisingly little attention from a computational perspective. This was
+> simply the idea of a learning system that *wants* something, that adapts its behavior in order to
+> maximize a special signal from its environment. This was the idea of a "hedonistic" learning
+> system, or, as we would say now, the idea of reinforcement learning.
+>
+> [...]
+>
+> While reinforcement learning had clearly motivated some of the earliest computational studies of
+> learning, most of these researchers had gone on to other things, such as pattern classification,
+> supervised learning, and adaptive control, or they had abandoned the study of learning
+> altogether. As a result, the special issues involved in learning how to get something from the
+> environment received relatively little attention.  In retrospect, focusing on this idea was the
+> critical step that set this branch of research in motion. Little progress could be made in the
+> computational study of reinforcement learning until it was recognized that such a fundamental idea
+> had not yet been thoroughly explored. (s. xv)
+>
+> [...]
+>
+> The overall problem of learning from interaction to achieve goals is still far from being solved,
+> but our understanding of it has improved significantly. We can now place component ideas, such as
+> temporal-difference learning, dynamic programming, and function approximation, within a coherent
+> perspective with respect to the overall problem.
+>
+> [...]
+>
+> We did not reach for the highest possible level of mathematical abstraction and did not rely on a
+> theorem–proof format. We tried to choose a level of mathematical detail that points the
+> mathematically inclined in the right directions without distracting from the simplicity and
+> potential generality of the underlying ideas. (s. xvi)
+
+Pierwszy rozdział, zatytułowany *Reinforcement Learning*, zaczyna się od podrozdziału zatytułowanego
+*The Problem*.
+
+*The Problem*!
+
+Autorzy przytaczają na początku kilka codziennych obserwacji, które jasno pokazują, że prawie
+wszystkiego, czego się uczymy, uczymy się przez interakcję ze środowiskiem na podstawie zdarzeń
+następujących po wykonaniu różnych działań. To jest, oczywiście, psychologia.
+
+Autorzy podają też samoopis tego, co im się zdaje, że w tej książce robią:
+
+> In this book we explore a computational approach to learning from interaction. Rather than
+> directly theorizing about how people or animals learn, we explore idealized learning situations
+> and evaluate the effectiveness of various learning methods. (s. 3)
+
+To jest, oczywiście, ogólna psychologia teoretyczna, albo po prostu psychologia naukowa. W której
+chodzi między innymi o to:
+
+> Reinforcement learning is learning what to do—how to map situations to actions so as to maximize a
+> numerical reward signal. The learner is not told which actions to take, as in most forms of
+> machine learning, but instead must discover which actions yield the most reward by trying them. In
+> the most interesting and challenging cases, actions may affect not only the immediate reward but
+> also the next situation and, through that, all subsequent rewards. These two
+> characteristics—trial-and-error search and delayed reward—are the two most important
+> distinguishing features of reinforcement learning.
+>
+> Reinforcement learning is defined not by characterizing learning methods, but by characterizing a
+> learning *problem*. Any method that is well suited to solving that problem, we consider to be a
+> reinforcement learning method. (s. 4)
+
+Przypuszczam, że na tym etapie zarówno ogólnopsychologiczny jak i kategoryjny charakter tego
+przedmiotu badań (naukowych, a więc przede wszystkim teoretycznych, czyli przede wszystkim
+matematycznych) jest dla Ciebie oczywisty.
+
+Jeżeli zastanawiasz się, jakie to się ma do moim zdaniem niezwykle szkodliwej, ale bardzo ostatnio
+popularnej papugi należącej do gatunku LLM, następujące uwagi, które Ci autorzy zapisali w roku 98,
+powinny rozwiać przynajmniej niektóre Twoje wątpliwości:
+
+> Reinforcement learning is different from *supervised learning*, the kind of learning studied in
+> most current research in machine learning, statistical pattern recognition, and artificial neural
+> networks. Supervised learning is learning from examples provided by a knowledgable external
+> supervisor. This is an important kind of learning, but alone it is not adequate for learning from
+> interaction. In interactive problems it is often impractical to obtain examples of desired
+> behavior that are both correct and representative of all the situations in which the agent has to
+> act. In uncharted territory—where one would expect learning to be most beneficial—an agent must be
+> able to learn from its own experience. (s. 4)
+
+I to też jest, oczywiście, fundamentalne rozróżnienie *psychologiczne*.
+
+Pierwsze przykłady *rozwiązań problemu* [*uczenia się ze
+wzmocnieniem*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie), inaczej *uczenia
+posiłkowanego*, niestety po polsku nazywanego też czasem moim zdaniem mylnie "uczeniem przez
+wzmacnianie", które potem podają autorzy, to szachista grający na poziomie eksperckim, system
+kontrolujący w czasie rzeczywistym parametry działania rafinerii, gazela wstająca niedługo po
+urodzeniu z kolan, robot, rozstrzygający między innymi na podstawie aktualnego stanu baterii, czy
+powinien odwiedzić kolejny pokój w poszukiwaniu śmieci i robiący sobie śniadanie Phil
+([!](https://en.wikipedia.org/wiki/Somebody_Feed_Phil)).
+
+To wszystko to oczywiście - par excellance - psychologia, w dodatku nie tylko naukowa, bo
+teoretyczna, ale też *automatycznie aplikacyjna*.  
+
+Ale to nie powinno nikogo dziwić, skoro - jak dobitnie pokazuje historia naszej cywilizacji - nie ma
+nic bardziej praktycznego niż dobra teoria. Żeby dodatkowo przekonać się, jak dobra jest ta teoria,
+rozważymy teraz nieco inny problem[:](./R_42__.md)
+
+TODO Ilustrować przykładami i komentować to, co pojawia się w SiB do s. 7
+
+TODO eksploracja-eksploatacja za SiB (s. 4-5)
+
+TODO rozważanie całego problemu celowej interakcji, za SiB (s. 4-5)
 
 TODO konieczne założenia przyczynowe w RELE
 
@@ -427,3 +529,10 @@ TODO GIBSON
 
 Postrzeganie świata w kategoriach interfejsu programistycznego. Uogólnione rozumienie programowania
 jako fizycznego rozwiązywania problemów.
+
+### Przypisy
+
+[^1]: Dawno, dawno temu była też taka strona edukacyjna o nazwie "białe kozaczki", na której można
+    było podziwiać między innymi zdjęcia osób, które często przebywały w białych kozaczkach i które
+    czasami stały oparte o jakieś drogie auta. Pod zdjęciami tego drugiego rodzaju widniał napis
+    "zawładnięcie przez dotknięcie".

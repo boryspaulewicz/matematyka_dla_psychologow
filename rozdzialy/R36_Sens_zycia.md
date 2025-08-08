@@ -1,5 +1,5 @@
 <!-- -*- coding: utf-8 -*- -->
-# Zawładnięcie przez wchłonięcie
+# 42
 
 ## Dwa (śmieszniejsze) sposoby na psychologię
 
@@ -8,14 +8,14 @@ takiego (tylko bardziej "formalnie"):
 
 Dawno, dawno temu pojawił się w psychologii [radykalny
 behawioryzm](https://en.wikipedia.org/wiki/Radical_behaviorism), który jest pewnym, moim zdaniem
-relatywnie niegłupim, sposobem myślenia o zachowaniu (zwierząt). Jednak współczesnym psychologom
+dość niegłupim, sposobem myślenia o zachowaniu (zwierząt). Jednak współczesnym psychologom
 behawioryzm, zwłaszcza ten określany jako radykalny, kojarzy się chyba z czymś takim ...
 
 `S → R`
 
 ... (gdzie `S` to jakiś *bodziec*, a `R` to jakaś *reakcja*), rozumianym jako centralny przedmiot
 zainteresowania psychologii. W szczególności, zgodnie z powszechnym i błędnym postrzeganiem tej
-wyrafinowanej i bogatej tradycji intelektualnej, behawiorystę interesuje głównie, albo nawet tylko
+wyrafinowanej i bogatej tradycji intelektualnej, behawiorystę interesuje głównie, albo nawet tylko,
 wpływ bodźców na reakcje, a zdarzenia czy procesy mentalne traktuje jako coś wręcz nienaukowego.
 
 Nieco mniej dawno temu, zdaniem niektórych wraz z pojawieniem się komputerów albo (abstrakcyjnego
