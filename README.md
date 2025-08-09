@@ -429,13 +429,13 @@ psychopacie, z nachalnym utrudnianiem.*
 
 [R35 Sprzątając pod lasem w śnieżny wieczór](./rozdzialy/R35_Sprzatajac_pod_lasem.md)
 
+[R 42](./rozdzialy/R_42_1.md)
+
 <hr>
 
 ### Plac budowy
 
 Informacje zwrotne zawsze mile widziane:
-
-[R 42](./rozdzialy/R_42_1.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
 
