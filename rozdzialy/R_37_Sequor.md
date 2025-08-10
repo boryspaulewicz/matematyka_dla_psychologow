@@ -1,5 +1,13 @@
 <!-- -*- coding: utf-8 -*- -->
-# My, ludzie, postrzegamy świat w kategoriach możliwych skutków [wykonywalanych sekwencji działań](https://youtu.be/k5TfLr52CD8?si=6-HuWZ50gadaHcEN)
+
+<br>
+
+My, ludzie, postrzegamy świat w kategoriach możliwych następstw [wykonywalanych sekwencji
+działań](https://youtu.be/k5TfLr52CD8?si=6-HuWZ50gadaHcEN).
+
+<br>
+
+# Sequor
 
 Uważam, że najważniejszy eksperyment psychologiczny, który dotąd przeprowadziłem i nie wydaje mi
 się, żebym kiedykolwiek miał to osiągnięcie przebić, przeprowadziłem ze studentami drugiego roku na
