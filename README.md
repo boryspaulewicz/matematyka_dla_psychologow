@@ -429,7 +429,7 @@ psychopacie, z nachalnym utrudnianiem.*
 
 [R35 Sprzątając pod lasem w śnieżny wieczór](./rozdzialy/R35_Sprzatajac_pod_lasem.md)
 
-[R 42](./rozdzialy/R_42_1.md)
+[R 42](./rozdzialy/R_42/R_42_1.md)
 
 <hr>
 
