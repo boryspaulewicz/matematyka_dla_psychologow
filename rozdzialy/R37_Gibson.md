@@ -18,7 +18,7 @@ spóźnienie nie było wcale takie złe.
 
 TODO Dodać akcenty i komentarze
 
-*Introduction*:
+# *Introduction*:
 
 > In this book, environment will refer to the surroundings of those organisms that perceive and
 > behave, that is to say, animals. The environment of plants, organisms that lack sense organs and
@@ -57,7 +57,11 @@ TODO Dodać akcenty i komentarze
 > ment. But this is not to say that it perceives the world of physics and behaves in the space and
 > time of physics. (s. 4)
 
-*The Environment to be Perceived* / *The Animal and the Environment* / *Units of the Environment*:
+# *The Environment to be Perceived*
+
+## *The Animal and the Environment*
+
+### *Units of the Environment*:
 
 > Now, with respect to these units, an essential point of theory must be emphas ized. The smaller
 > units are embedded in the larger units by what I will call nesting. For example, canyons are
