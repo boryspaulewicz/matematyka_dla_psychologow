@@ -18,7 +18,7 @@ spóźnienie nie było wcale takie złe.
 
 TODO Dodać akcenty i komentarze
 
-# *Introduction*:
+## *Introduction*:
 
 > In this book, environment will refer to the surroundings of those organisms that perceive and
 > behave, that is to say, animals. The environment of plants, organisms that lack sense organs and
@@ -57,11 +57,7 @@ TODO Dodać akcenty i komentarze
 > ment. But this is not to say that it perceives the world of physics and behaves in the space and
 > time of physics. (s. 4)
 
-# *The Environment to be Perceived*
-
-## *The Animal and the Environment*
-
-### *Units of the Environment*:
+## *The Environment to be Perceived* / *The Animal and the Environment* / *Units of the Environment*:
 
 > Now, with respect to these units, an essential point of theory must be emphas ized. The smaller
 > units are embedded in the larger units by what I will call nesting. For example, canyons are
@@ -76,8 +72,7 @@ TODO Dodać akcenty i komentarze
 > The acts of animals them selves, like the events of the environ ment they perceive, can be
 > described at various levels, as subordinate and superordinate acts. (s. 8)
 
-*The Environment to be Perceived* / *The Animal and the Environment* / *Permanence and Change of the
-Layout*:
+## *The Environment to be Perceived* / *The Animal and the Environment* / *Permanence and Change of the Layout*:
 
 > An observer can recog nize the same room on different occa sions while perceiving the change of
 > arrangement, or the same child at different ages while noticing her growth. The permanence
@@ -96,21 +91,21 @@ Layout*:
 > meaning in all such pairs of terms. The point to be noted is that for persistence and change, for
 > invariant and variant, each term of the pair is reciprocal to the other. (s. 8-9)
 
-*The Environment to be Perceived* / *The Animal and the Environment* / *Persistence in the Environment*
+## *The Environment to be Perceived* / *The Animal and the Environment* / *Persistence in the Environment*:
 
 > The same would be true if a shaped object disinteg rated, chan ging from solid to granular. The
 > object does not persist, but the matter does. Ecology calls this a nonpersistence, a destruc tion
 > of the object, whereas physics calls it a mere change of state. Both asser tions are correct, but
 > the former is more relevant to the behavior of animals and children. (s. 9)
 
-*The Environment to be Perceived* / *The Animal and the Environment* / *Motion in the Environment*
+## *The Environment to be Perceived* / *The Animal and the Environment* / *Motion in the Environment*:
 
 > So different, in fact, are envir on mental motions from those studied by Isaac Newton that it is
 > best to think of them as changes of struc ture rather than changes of position of elementary
 > bodies, changes of form rather than of point locations, or changes in the layout rather than
 > motions in the usual meaning of the term. (s. 10)
 
-*The Environment to be Perceived* / *The Animal and the Environment* / *Summary*:
+## *The Environment to be Perceived* / *The Animal and the Environment* / *Summary*:
 
 > The envir on ment of animals and men is what they perceive. The environment is not the same as the
 > physical world, if one means by that the world described by physics.
@@ -124,7 +119,7 @@ Layout*:
 > The environment persists in some respects and changes in other respects. The most radical change
 > is going out of existence or coming into existence. (s. 11)
 
-*The Environment to be Perceived* / *Medium, Substances, Surfaces* / *The Properties of the Atmosphere*:
+## *The Environment to be Perceived* / *Medium, Substances, Surfaces* / *The Properties of the Atmosphere*:
 
 > To sum up, the char acter ist ics of an environmental medium are that it affords respir ation or
 > breathing; it permits locomotion; it can be fi lled with illumination so as to permit vision; it
@@ -133,7 +128,7 @@ Layout*:
 > possib ilities or oppor tunities, these *affordances* as I will call them, are invariant. They
 > have been strik ingly constant throughout the whole evolution of animal life. (s. 14-15)
 
-*The Information for Visual Perception* / *The Theory of Affordances*:
+## *The Information for Visual Perception* / *The Theory of Affordances*:
 
 > I have described the environ ment as the surfaces that separ ate substances from the medium in
 > which the animals live. But I have also described what the environ ment affords animals, mention
@@ -166,8 +161,7 @@ Layout*:
 > properties. They have unity relative to the posture and behavior of the animal being considered.
 > So an affordance cannot be measured as we measure in physics. (s. 120)
 
-*The Information for Visual Perception* / *The Theory of Affordances* / *The Niches of the
-Environment*:
+## *The Information for Visual Perception* / *The Theory of Affordances* / *The Niches of the Environment*:
 
 > Ecologists have the concept of a niche. A species of animal is said to utilize or occupy a certain
 > niche in the environment. This is not quite the same as the habitat of the species; a niche refers
@@ -194,8 +188,7 @@ Environment*:
 > or conscious environment. The organ ism depends on its environ ment for its life, but the
 > environment does not depend on the organ ism for its existence. (s. 121)
 
-*The Information for Visual Perception* / *The Theory of Affordances* / *Man's Alteration of the
-Natural Environment*:
+## *The Information for Visual Perception* / *The Theory of Affordances* / *Man's Alteration of the Natural Environment*:
 
 > In the last few thou sand years, as everybody now realizes, the very face of the earth has been
 > modified by man. (s. 121)
@@ -229,8 +222,7 @@ Natural Environment*:
 > to perceive all the vari ables separ ately. It is never necessary to distinguish all the features
 > of an object and, in fact, it would be impossible to do so. Perception is econom ical. (s. 126)
 
-*The Information for Visual Perception* / *The Theory of Affordances* / *To Perceive an Affordance
-is not to Classify an Object*:
+## *The Information for Visual Perception* / *The Theory of Affordances* / *To Perceive an Affordance is not to Classify an Object*:
 
 > The fact that a stone is a missile does not imply that it cannot be other things as well. It can
 > be a paperweight, a bookend, a hammer, or a pendulum bob. It can be piled on another rock to make
@@ -246,7 +238,7 @@ is not to Classify an Object*:
 > things and perceive their uses. You do not have to classify and label things in order to perceive
 > what they afford. (s. 126)
 
-*The Information for Visual Perception* / *The Theory of Affordances* / *Other Persons and Animals*:
+## *The Information for Visual Perception* / *The Theory of Affordances* / *Other Persons and Animals*:
 
 > The richest and most elabor ate afford ances of the environment are provided by other animals and,
 > for us, other people. These are, of course, detached objects with topologically closed surfaces,
@@ -263,7 +255,7 @@ is not to Classify an Object*:
 > behavior, political behavior all depend on the perceiving of what another person or other persons
 > afford, or sometimes on the misperceiving of it. (s. 126-127)
 
-*The Information for Visual Perception* / *The Theory of Affordances* / *Places and Hiding Places*
+## *The Information for Visual Perception* / *The Theory of Affordances* / *Places and Hiding Places*
 
 > The habitat of a given animal contains places. A place is not an object with definite boundaries
 > but a region (Chapter 3). The different places of a habitat may have different affordances. Some
