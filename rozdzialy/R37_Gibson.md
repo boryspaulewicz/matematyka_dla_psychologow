@@ -87,15 +87,16 @@ Lepiej, bo ogólniej i trafiając w sedno: Żaden sąd normatywny nie wynika z s
 > from the way that a set of objects is ambient for a physical object. The term *physical
 > environment* is, therefore, apt to get us mixed up, and it will usually be avoided in this book.
 
-Gibson, chłopie, byłeś tak blisko!
+Gibson, byłeś tak blisko!
 
 > Every animal is, in some degree at least, a perceiver and a behaver. It is sentient and animate,
 > to use old-fashioned terms. It is a perceiver *of* the environment and a behaver *in* the
 > environment. But this is not to say that it perceives the world of physics and behaves in the
 > space and time of physics. (s. 4)
 
-Lepiej, bo ogólniej i trafiając w sedno: Nie ma czegoś takiego jak zachowanie, które nie korzysta z
-jakiegoś źródła informacji przybliżając jakiś cel.
+Lepiej, bo ogólniej i trafiając w sedno: Nie ma czegoś takiego jak zachowanie, które nie jest
+przybliżeniem procesu racjonalnego, który polega na korzystaniu z jakiegoś źródła informacji żeby
+zrealizować jakiś cel.
 
 ## *The Environment to be Perceived* / *The Animal and the Environment* / *Units of the Environment*:
 
