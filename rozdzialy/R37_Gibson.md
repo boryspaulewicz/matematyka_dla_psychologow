@@ -16,25 +16,47 @@ role w rozwiązaniach zadań są z konieczności relatywne do punktu widzenia i 
 I teraz nie wiem, czy źle się stało, że do Gibsona zajrzałem tak późno, czy może jednak to
 spóźnienie nie było wcale takie złe.
 
-TODO Dodać akcenty i komentarze
+TODO komentarze
 
 ## *Introduction*:
 
 > In this book, *environment* will refer to the surroundings of those organisms that perceive and
-> behave, that is to say, animals. The environment of plants, organisms that lack sense organs and
-> muscles, is not relevant in the study of perception and behavior. We shall treat the vegetation of
-> the world as animals do, as if it were lumped together with the inorganic minerals of the world,
-> with the physical, chemical, and geological environment. Plants in general are not animate; they
-> do not move about, they do not behave, they lack a nervous system, and they do not have
-> sensations. In these respects they are like the objects of physics, chemistry, and geology.
+> behave, that is to say, animals. 
+
+Już w roku 1979 można było zauważyć, że adaptują się, uczą, zachowują i działają celowo nie tylko
+zwierzęta, a poza tym nie da się zachowywać nie reagując na jakieś źródło informacji, a więc
+wystarczyłoby *behave* (może jako to, co robią powiedzmy jakieś *physical processes*), ale to i tak
+znacznie lepsze pierwsze zdanie wprowadzenia do książki dotyczącej psychologii niż wiele innych tego
+rodzaju zdań.
+
+> The environment of plants, organisms that lack sense organs and muscles, is not relevant in the
+> study of perception and behavior.
+
+Fajnie, ale dlaczego?
+
+> We shall treat the vegetation of the world as animals do, as if it were lumped together with the
+> inorganic minerals of the world, with the physical, chemical, and geological environment. Plants
+> in general are not animate; they do not move about, they do not behave, they lack a nervous
+> system, and they do not have sensations. In these respects they are like the objects of physics,
+> chemistry, and geology.
+
+Jasne, rośliny nie mają układu nerwowego, ale układ nerwowy nie jest warunkiem koniecznym
+zachowania. A o "wrażeniach" roślin możemy przypuszczać, że nie pewnie nie istnieją jako własności
+subiektywnego doświadczenia, ale jako funkcjonalne wejścia informacyjne - czemu nie?
 
 > Biology begins with the division between the nonliving and the living. But psychology begins with
 > the division between the inanimate and the animate, and this is where we choose to begin.
+
+I znowu pudło, ale imponująco blisko. Biologia zajmuje się życiem, a psychologia zajmuje się
+celowością.
 
 > The environment consists of the *surroundings* of animals. Let us observe that in one sense the
 > surroundings of a single animal are the same as the surroundings of all animals but that in
 > another sense the surroundings of a single animal are different from those of any other
 > animal. (s. 3)
+
+Ponieważ różne zwierzęta obchodzą różne rzeczy, a środowisko jako przedmiot i zarazem strefa
+zachowania to konstelacja powiązanych zadań.
 
 ## *The Environment to be Perceived* / *The Animal and the Environment* / *The Mutuality of Animal and Environment*:
 
@@ -43,20 +65,37 @@ TODO Dodać akcenty i komentarze
 > an environment surrounding it. Equally, although not so obvious, an environment implies an animal
 > (or at least an organism) to be surrounded.
 
-> The mutuality of animal and environment is not implied by physics and the physical sciences. The
-> basic concepts of space, time, matter, and energy do not lead naturally to the
-> organism-environment concept or to the concept of a species and its habitat. Instead, they seem to
-> lead to the idea of an animal as an extremely complex object of the physical world. The animal is
-> thought of as a highly organized *part* of the physical world but still a part and still an
-> object. This way of thinking neglects the fact that the animal-object is surrounded in a special
-> way, that an environment is ambient for a living object in a different way from the way that a set
-> of objects is ambient for a physical object. The term *physical environment* is, therefore, apt to
-> get us mixed up, and it will usually be avoided in this book.
->
+Niezupełnie, bo terminu "środowisko" używamy między innymi również na określenie fizycznego
+otoczenia obiektów fizycznych. Ale ponieważ Gibsonowi chodzi tutaj ewidentnie o środowisko rozumiane
+jako coś w rodzaju sfery adaptacji zwierząt - dlatego mówi później, że *środowisko "implikuje"
+organizm* - możemy popatrzeć na to stwierdzenie życzliwym okiem.
+
+> The mutuality of animal and environment is not implied by physics and the physical sciences.
+
+Zwracam uwagę, jak subtelną rolę odgrywa w tym i poprzednim fragmencie czasownik "to imply", czyli
+*implikować*, *pociągać za sobą*, albo *sugerować*.
+
+> The basic concepts of space, time, matter, and energy do not lead naturally to the
+> organism-environment concept or to the concept of a species and its habitat.
+
+Lepiej, bo ogólniej i trafiając w sedno: Żaden sąd normatywny nie wynika z samych sądów opisowych.
+
+> Instead, they seem to lead to the idea of an animal as an extremely complex object of the physical
+> world. The animal is thought of as a highly organized *part* of the physical world but still a
+> part and still an object. This way of thinking neglects the fact that the animal-object is
+> surrounded in a special way, that an environment is ambient for a living object in a different way
+> from the way that a set of objects is ambient for a physical object. The term *physical
+> environment* is, therefore, apt to get us mixed up, and it will usually be avoided in this book.
+
+Gibson, chłopie, byłeś tak blisko!
+
 > Every animal is, in some degree at least, a perceiver and a behaver. It is sentient and animate,
 > to use old-fashioned terms. It is a perceiver *of* the environment and a behaver *in* the
 > environment. But this is not to say that it perceives the world of physics and behaves in the
 > space and time of physics. (s. 4)
+
+Lepiej, bo ogólniej i trafiając w sedno: Nie ma czegoś takiego jak zachowanie, które nie korzysta z
+jakiegoś źródła informacji przybliżając jakiś cel.
 
 ## *The Environment to be Perceived* / *The Animal and the Environment* / *Units of the Environment*:
 
