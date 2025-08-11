@@ -437,6 +437,8 @@ psychopacie, z nachalnym utrudnianiem.*
 
 Informacje zwrotne zawsze mile widziane:
 
+[R37 Top pięć ćwiczeń ze spóźnionego czytania ze zrozumieniem - numer siedem - Gibson](./rozdzialy/R37_Gibson.md)
+
 [R37 Sequor](./rozdzialy/R_37_Sequor.md)
 
 [R? Teoria mnogości](./rozdzialy/_Teoria_mnogosci.md)
