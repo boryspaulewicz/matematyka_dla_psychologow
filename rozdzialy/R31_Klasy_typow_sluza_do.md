@@ -512,5 +512,5 @@ jesteśmy wobec nich często bezradni? I łatwo dajemy się nabrać na to albo n
 dlatego, że mamy *wrażenie płynności wypowiedzi* i widzimy czasem, *stosowane z pewnością siebie*,
 jakieś *mało nam znane terminy techniczne*. Jeżeli to widzisz, to zastanów się proszę przez chwilę,
 co można zrobić z czytelnikami (albo *czytelnikom*), o których się wie, że studiowali psychologię i
-unikali matematyki, pisząc nabite terminami technicznymi na przykład statystyki czy przyczynowości
-"artykuły naukowe".
+unikali matematyki, pisząc nabite terminami technicznymi dotyczącymi na przykład statystyki czy
+przyczynowości "artykuły naukowe".
