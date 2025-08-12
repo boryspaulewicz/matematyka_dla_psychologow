@@ -337,11 +337,73 @@ Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
 którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu (jeszcze) Księżyca.
 
-A pamiętasz, jak w pierwszym rozdziale powiedziałem, że ta książka *nie może* zawierać błędów w
-częściach formalnych zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie
-takie części mogą być przez każdego sprawdzone za pomocą niezawodnego algorytmu - ale ta książka
-może zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, jednak zarówno ta
-warstwa, jak i sam sposób, w jaki ta książka powstaje, to głównie *opisy* i *ilustracje* pewnych
+<hr>
+
+## O dwóch takich punktach, które - będąc parą uprządkowaną - mogą wskazać czym jest Księżyc
+
+Jak już wspominałem, nigdy nie byłem w żadnym prostym znaczeniu człowiekiem religijnym, ale ta
+osobliwa strzałka, odkąd ku własnemu zaskoczeniu ją w ten opisany wyżej sposób zobaczyłem, stała się
+dla mnie czymś, ponad co ani formalnie, ani nieformalnie (jak to ujął Święty Anzelm) *nic większego
+pomyśleć nie mogę*.
+
+Formalnie, to między innymi para uporządkowana *wartości logicznych*, to jest prawdy i fałszu. No i
+co ja mogę poradzić na to, że tak właśnie mówi Pismo Święte:
+
+*Ἔστω δὲ ὁ λόγος ὑμῶν ναὶ ναί, οὒ οὔ· τὸ δὲ περισσὸν τούτων ἐκ τοῦ πονηροῦ ἐστιν*.
+
+*Niech wasza mowa będzie: Tak, tak; nie, nie. A co nadto jest, od Złego pochodzi*.
+
+A sięgając do tradycji wschodniej, ani nie potrafię, ani nie zamierzam tu udawać, że nie widzę
+oczywistej analogii między inherentną dwoistością, a formalnie podwójną dualnością tej osobliwej
+strzałki i jej wyrażoną, w dodatku za pomocą narzucających się symboli, postacią kanoniczną z jednej
+strony, a z drugiej tym, co w chińskiej kosmologii nosi nazwę 陰陽 i oznacza zarazem dopełniające
+się i przeciwstawne siły, które razem tworzą taki (najmniejszy) dynamiczny układ, że całość jest
+czymś więcej niż (w dodatku również formalnie!) prostą sumą części, i że obie części są konieczne,
+aby ta całość tworzyła jedną zwartą strukturę.
+
+I już ani nie potrafię, ani też nie mam zamiaru tu udawać, że nie widzę oczywistych
+strukturalno-funkcjonalnych analogii między głębiej rozumianą nauką, psycho-terapią i
+zinstytucjonalizowanym dusz-pasterstwem.
+
+Gdy tylko pozbędziemy się narzucającej się, a przez to nieustannie zwodzącej nas tendencji do
+utożsamiania tego, co psychiczne z tym, co świadome, ale nie w funkcjonalnym, a więc z
+przedstawionej tutaj perspektywy nie w psychologicznym, tylko w *substancjalnym* znaczeniu tego, co
+jest przedmiotem subiektywnego fenomenalnego doświadczenia, albo tego, co jest samym takim
+doświadczeniem, to jest - mówiąc bardziej abstrakcyjnie - w znaczeniu *zjawiska materialnego*,
+odkrywamy, że psychologiczne to dokładnie umysłowe jako funkcjonalne czyli celowe i zgodne z
+Logosem, to jest z konsekwentnym, a więc w takim czy innym znaczeniu logicznym, sposobem jakiegoś
+Działania albo podążaniem jakąś Drogą.
+
+Albo, jak to ujął sam Mistrz Eckhart, a przed nim, tylko trochę inaczej, [między
+innymi](https://www.tandfonline.com/doi/full/10.1080/20465726.2023.2268469) Jalāl ad-Dīn Muhammad
+Rumi i 無門慧開:
+
+*Oko, którym widzę Boga, jest tym samym okiem, którym widzi mnie Bóg. Moje oko i oko Boga to jedno i
+to samo oko. Jedno oblicze, jedno poznanie, jedna miłość*.
+
+Aż za dobrze zdaję sobie sprawę z tego, jak to wszystko brzmi. Ale mimo licznych prób znalezienia w
+tym rozumowaniu formalnego czy interpretacyjnego błędu, tego, o czym teraz mówię i do czego - ku
+mojemu zaskoczeniu - doprowadziła mnie matematyka, odkąd zacząłem jej używać do formalizacji
+psychologii, przecież już nie odzobaczę.
+
+Postaram się jednak z takim pół-formalnym mistycyzowaniem zbytnio nie narzucać i również z tych
+pomysłów będę tu sobie czasami żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką
+i najskuteczniej uwalniającą nas z rozmaitych ograniczeń formą sztuki, między sztuką i nauką
+przestałem już dostrzegać jakiekolwiek istotne różnice, a w nauce jako takiej zacząłem już dość
+dawno widzieć tylko i wyłącznie psychologię matematyczną albo może raczej *zmatematyzowaną*, którą
+rozumiem i jednocześnie ciągle nieudolnie próbuję uprawiać - przede wszystkim wobec siebie - jako
+coś w rodzaju naukowego, a więc sformalizowanego duszpasterstwa.
+
+Dodam tylko o tej interesującej moim zdaniem analogii jeszcze to:
+
+<hr>
+
+Jeżeli nie zraziłem Cię juz całkiem do dalszej lektury, to powiedz mi jeszcze, czy pamiętasz, jak w
+pierwszym rozdziale napisałem, że ta książka *nie może* zawierać błędów w częściach formalnych
+zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie takie części mogą być
+przez każdego sprawdzone za pomocą niezawodnego algorytmu - ale ta książka może zawierać błędy w
+warstwie napisanej w języku naturalnym? To prawda, że może, jednak zarówno ta warstwa, jak i sam
+sposób, w jaki ta książka powstaje, to przecież głównie *opisy* i *ilustracje* pewnych
 *interpretacji* czegoś, co niewątpliwie istnieje.
 
 Ponieważ każda interpretacja jako taka jest pewnym sposobem użycia, w przypadku interpretacji, o ile
