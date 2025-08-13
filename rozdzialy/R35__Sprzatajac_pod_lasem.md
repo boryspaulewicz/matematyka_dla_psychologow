@@ -23,7 +23,7 @@ Dlaczego tak (żałośnie) słabo mimo, że tak (kosmicznie) drogo i - najwyraź
 obiecująco? Nie tylko moim zdaniem dlatego, że mózg jest ekstremalnie złożony, działa w sposób
 idiosynkratyczny, jest niestacjonarny i w ekstremalnym stopniu zależny od przebiegu dotychczasowej
 interakcji zwierzęcia ze środowiskiem. My to wszystko od dawna już *wiemy*, tylko najwyraźniej *nie
-wyciągamy z tego wniosków*. Niestety, tego rodzaju bezwładność w nauce to nic nowego.
+wyciągamy z tego wniosków*. Niestety, tego rodzaju bezwładność to w nauce nic nowego.
 
 Jednocześnie jednak nie ulega wątpliwości, że *biologia* zajmuje się czymś, co do przedmiotu
 zainteresowań ani fizyki, ani nawet chemii *nie* należy, to jest *życiem*, postrzeganym *przede
