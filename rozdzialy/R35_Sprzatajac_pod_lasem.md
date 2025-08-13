@@ -339,42 +339,97 @@ którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma 
 
 <hr>
 
-## O dwóch takich punktach, które - będąc parą uprządkowaną - mogą wskazać czym jest Księżyc
+## O dwóch takich punktach, co będąc parą uprządkowaną wskazały naturę Księżyca
 
-Jak już wspominałem, nigdy nie byłem w żadnym prostym znaczeniu człowiekiem religijnym, ale ta
-osobliwa strzałka, odkąd ku własnemu zaskoczeniu ją w ten opisany wyżej sposób zobaczyłem, stała się
-dla mnie czymś, ponad co ani formalnie, ani nieformalnie (jak to ujął Święty Anzelm) *nic większego
-pomyśleć nie mogę*.
+Postaram się z tym pół-formalnym mistycyzowaniem zbytnio nie narzucać i również z takich spraw będę
+żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką i najskuteczniej uwalniającą
+nas z rozmaitych ograniczeń formą sztuki, między sztuką i nauką nie widzę wielkiej różnicy, a w
+nauce jako takiej zacząłem już widzieć tylko i wyłącznie psychologię matematyczną albo
+*zmatematyzowaną*, którą rozumiem i którą nieudolnie próbuję stosować - przede wszystkim *wobec
+siebie* - jako pół-formalne dusz-pasterstwo.
 
-Formalnie, to między innymi para uporządkowana *wartości logicznych*, to jest prawdy i fałszu. No i
-co ja mogę poradzić na to, że tak właśnie mówi Pismo Święte:
+Jak już wspominałem, nigdy nie byłem w żadnym prostym znaczeniu religijny, ale ta osobliwa strzałka,
+odkąd ku własnemu zaskoczeniu ją w ten opisany wyżej sposób zobaczyłem, stała się dla mnie czymś,
+ponad co ani formalnie, ani nieformalnie, parafrazując Świętego Anzelma, *nie mogę pomyśleć nic
+większego*.
+
+Formalnie, co łatwo zauważyć, to między innymi uporządkowana para złożona z *wartości logicznych*,
+to jest z prawdy i fałszu. No i co teraz poradzisz na to, że tak właśnie mówi Pismo Święte?
 
 *Ἔστω δὲ ὁ λόγος ὑμῶν ναὶ ναί, οὒ οὔ· τὸ δὲ περισσὸν τούτων ἐκ τοῦ πονηροῦ ἐστιν*.
 
 *Niech wasza mowa będzie: Tak, tak; nie, nie. A co nadto jest, od Złego pochodzi*.
 
-A sięgając do tradycji wschodniej, ani nie potrafię, ani nie zamierzam tu udawać, że nie widzę
-oczywistej analogii między inherentną dwoistością, a formalnie podwójną dualnością tej osobliwej
-strzałki i jej wyrażoną, w dodatku za pomocą narzucających się symboli, postacią kanoniczną z jednej
-strony, a z drugiej tym, co w chińskiej kosmologii nosi nazwę 陰陽 i oznacza zarazem dopełniające
-się i przeciwstawne siły, które razem tworzą taki (najmniejszy) dynamiczny układ, że całość jest
-czymś więcej niż (w dodatku również formalnie!) prostą sumą części, i że obie części są konieczne,
-aby ta całość tworzyła jedną zwartą strukturę.
+A sięgając do tradycji wschodniej, czy potrafisz *nie* zobaczyć takiej oto oczywistej analogii:
 
-I już ani nie potrafię, ani też nie mam zamiaru tu udawać, że nie widzę oczywistych
-strukturalno-funkcjonalnych analogii między głębiej rozumianą nauką, psycho-terapią i
-zinstytucjonalizowanym dusz-pasterstwem.
+Z jednej strony mamy inherentną dwoistość, a mówiąc językiem technicznym podwójną dualność osobliwej
+strzałki, polegającą na tym, że ta strzałka jest parą obiektów dualnych, będących zresztą
+najprostszymi możliwymi granicami i kogranicami, a jako kategoria jest izomorfem swojej postaci
+dualnej.
+
+i jej wyrażoną, w dodatku za pomocą narzucających się symboli, postacią kanoniczną z jednej
+strony, a z drugiej 
+
+Z drugiej strony mamy to, co w chińskiej kosmologii nosi nazwę 陰陽 i czym kiedyś chętnie
+przystrajali się hipisi i co było, zwłaszcza wśród młodzierzy, popularne w kulturze zachodniej lat
+dziewięćdziesiątych. Chodzi mi o znane Ci z pewnością, dwie tulące się do siebie łezki albo krople,
+zawierające na swoich końcach punkty przeciwnego
+[odcienia](https://www.adobe.com/pl/creativecloud/design/discover/is-black-a-color.html)[^5] i
+będące nawzajem swoimi negatywami. Czy to nie wygląda *dokładnie* jak reprezentacja dwóch
+"dopełniających Się", dualnych postaci arbitralnie skierowanej osobliwej strzałki, w dodatku
+narysowanej w sposób, który wydaje się idealnie oddawać charakter jej postaci kanonicznej jako
+podkategorii Set?
+
+To pojęcie i ten symbol oznacza dopełniające się i przeciwstawne siły, które razem tworzą taki
+(najmniejszy, a zatem graniczny, a więc w pewnym pół-formalnym sensie kategoryjny) dynamiczny układ,
+że całość jest czymś więcej niż (i to też można dosłownie rozumieć formalnie, korzystając z
+kategoryjnego pojęcia sumy) prostą sumą części, i że obie części są konieczne, aby całość tworzyła
+jedną zwartą strukturę.
+
+W wolnym czasie można się Tym bawić również tak:
+
+Żeby uciec od własnego cienia, dogoń go.
+
+Żeby coś blisko zbadać, oddal się jak tylko możesz, przyjmując maksymalnie abstrakcyjny punkt
+widzenia.
+
+Żeby coś wytłumaczyć, pytaj.
+
+Żeby zacząć coś rozumieć, powiedz dokładnie, o co w tym chodzi.
+
+Żeby wygrać, nie rób nawet kroku, tylko czekaj, aż zobaczysz jedyny kierunek.
+
+Żeby osiągnąć maksymalną wolność w zachowaniach motorycznych, zaakceptuj minimalną wolność
+logicznych zachowań mentalnych.
+
+Albo tak: Wybitny polski filozof i teoretyk prawa [Jan
+Woleński](https://pl.wikipedia.org/wiki/Jan_Wole%C5%84ski), który prowadził zajęcia na filozofii,
+gdy ją studiowałem, lubił powtarzać, że w myśleniu trudno, albo może nawet nie da się uniknąć
+przetargu między *jasnością* i *głębią*. No ale to przecież zależy też od wiatru, stopnia zamulenia
+i od obecności rzęsy albo glonów. 
+
+Co by było, gdyby tak czysto hipotetycznie, korzystając z zimnej sztywności formalizmu, wyhamować
+ruch myśli na tyle, żeby tafla umysłu stała się nie tylko gładka i spokojna, ale żeby wręcz zamarzła
+w lustro, przez które można zobaczyć własne, powiększone przez unikalną własność zamarzającej wody
+oblicze?
+
+Posługując się metateoretycznymi narzędziami, których nam dostarcza psychologia naukowa, można się
+tak bawić cały dzień.
+
+Albo: Czy potrafisz nie zobaczyć moim zdaniem ewidentnych strukturalno-funkcjonalnych analogii
+między głębiej rozumianą nauką, psycho-logią, psycho-terapią i zinstytucjonalizowanym
+dusz-pasterstwem?
 
 Gdy tylko pozbędziemy się narzucającej się, a przez to nieustannie zwodzącej nas tendencji do
 utożsamiania tego, co psychiczne z tym, co świadome, ale nie w funkcjonalnym, a więc z
 przedstawionej tutaj perspektywy nie w psychologicznym, tylko w *substancjalnym* znaczeniu tego, co
-jest przedmiotem subiektywnego fenomenalnego doświadczenia, albo tego, co jest samym takim
-doświadczeniem, to jest - mówiąc bardziej abstrakcyjnie - w znaczeniu *zjawiska materialnego*,
-odkrywamy, że psychologiczne to dokładnie umysłowe jako funkcjonalne czyli celowe i zgodne z
-Logosem, to jest z konsekwentnym, a więc w takim czy innym znaczeniu logicznym, sposobem jakiegoś
-Działania albo podążaniem jakąś Drogą.
+jest przedmiotem subiektywnego fenomenalnego doświadczenia (lub w znaczeniu tego, co jest samym
+takim doświadczeniem), to jest - mówiąc bardziej abstrakcyjnie - w znaczeniu *jawienia Się* lub
+*zjawiska materialnego*, odkrywamy, że psychologiczne to dokładnie umysłowe jako funkcjonalne. Czyli
+celowe i - co na jedno wychodzi - zgodne z Logosem, to jest z konsekwentnym, a więc w takim czy
+innym znaczeniu logicznym, sposobem jakiegoś Działania albo podążaniem jakąś Drogą.
 
-Albo, jak to ujął sam Mistrz Eckhart, a przed nim, tylko trochę inaczej, [między
+Albo jeszcze, jak to ujął sam Mistrz Eckhart, a przed nim, tylko trochę inaczej, [między
 innymi](https://www.tandfonline.com/doi/full/10.1080/20465726.2023.2268469) Jalāl ad-Dīn Muhammad
 Rumi i 無門慧開:
 
@@ -382,23 +437,26 @@ Rumi i 無門慧開:
 to samo oko. Jedno oblicze, jedno poznanie, jedna miłość*.
 
 Aż za dobrze zdaję sobie sprawę z tego, jak to wszystko brzmi. Ale mimo licznych prób znalezienia w
-tym rozumowaniu formalnego czy interpretacyjnego błędu, tego, o czym teraz mówię i do czego - ku
+tym rozumowaniu formalnego lub interpretacyjnego błędu, tego, o czym teraz mówię i do czego - ku
 mojemu zaskoczeniu - doprowadziła mnie matematyka, odkąd zacząłem jej używać do formalizacji
-psychologii, przecież już nie odzobaczę.
+psychologii, już nie odzobaczę.
 
-Postaram się jednak z takim pół-formalnym mistycyzowaniem zbytnio nie narzucać i również z tych
-pomysłów będę tu sobie czasami żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką
-i najskuteczniej uwalniającą nas z rozmaitych ograniczeń formą sztuki, między sztuką i nauką
-przestałem już dostrzegać jakiekolwiek istotne różnice, a w nauce jako takiej zacząłem już dość
-dawno widzieć tylko i wyłącznie psychologię matematyczną albo może raczej *zmatematyzowaną*, którą
-rozumiem i jednocześnie ciągle nieudolnie próbuję uprawiać - przede wszystkim wobec siebie - jako
-coś w rodzaju naukowego, a więc sformalizowanego duszpasterstwa.
+Dodam jeszcze tylko to: Jako świeccy duszpasterze, psychologowie nie mają się czego wstydzić przed
+księżmi, bo księża to sami mężczyźni, którzy są z natury bardziej skłonni do agresji i pychy, w
+dodatku żyjący w warunkach dalekich od realiów codziennego życia zwykłych ludzi. Wobec czego nie ma
+się co dziwić, że podobnie, jak to dzieje się niemal na całym świecie, także u nas za wyniosłymi
+murami kościoła, który funkcjonuje do pewnego stopnia jak osobne państwo w państwie, niektórzy z
+tych pożal się Boże duszpasterzy dopuszczają się czasami, bywa, że bezkarnie, nieodwracalnego,
+okrutnego kaleczenia dzieci.
 
-Dodam tylko o tej interesującej moim zdaniem analogii jeszcze to:
+Nie mówiąc już o tym, jak niewiele legitymująca się autorytetem prawa świeckiego i prawa - któregoś
+dnia jakiemuś komuś przez nie wiadomo jakiego kogoś - "objawionego", zinstytucjonalizowana religia
+ma wspólnego z *dialogiem*, który jest samym rdzeniem wszelkich form psychoterapii, działalności
+naukowej, a gdy i to pojęcie trochę uogólnić, wszystkich bez wyjątku form współpracy.
 
 <hr>
 
-Jeżeli nie zraziłem Cię juz całkiem do dalszej lektury, to powiedz mi jeszcze, czy pamiętasz, jak w
+Jeżeli nie zraziłem Cię już całkiem do dalszej lektury, to powiedz mi jeszcze, czy pamiętasz, jak w
 pierwszym rozdziale napisałem, że ta książka *nie może* zawierać błędów w częściach formalnych
 zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie takie części mogą być
 przez każdego sprawdzone za pomocą niezawodnego algorytmu - ale ta książka może zawierać błędy w
@@ -617,3 +675,6 @@ przez około pół godziny? Jeżeli tak lub nie, to zapraszam [tutaj](./R35__Spr
     w węża.
 
 [^4]: A po angielsku i bawiąc się znaczeniami, *Correctness is the order of psychology*.
+
+[^5]: Drugie zdanie na tej stronie to, cytuję, "Z naukowego punktu widzenia kolor jest wyrażeniem
+    światła.", i moim zdaniem to jest słodkie.
