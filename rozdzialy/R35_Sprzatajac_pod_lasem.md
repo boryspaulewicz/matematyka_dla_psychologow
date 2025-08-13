@@ -341,10 +341,10 @@ którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma 
 
 ### O dwóch takich punktach, co będąc parą uprządkowaną wskazały naturę Księżyca
 
-Postaram się z tym pół-formalnym mistycyzowaniem zbytnio nie narzucać i również z takich spraw będę
-żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką i najskuteczniej uwalniającą
-nas z rozmaitych ograniczeń formą sztuki, między sztuką i nauką nie widzę wielkiej różnicy, a w
-nauce jako takiej zacząłem już widzieć tylko i wyłącznie psychologię matematyczną albo
+Postaram się z tym pół-formalnym mistycyzowaniem zbytnio nie narzucać i z tego rodzaju spraw również
+będę tu żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką i najskuteczniej
+uwalniającą nas z rozmaitych ograniczeń formą sztuki, między sztuką i nauką nie widzę wielkiej
+różnicy, a w nauce jako takiej zacząłem już widzieć tylko i wyłącznie psychologię matematyczną albo
 *zmatematyzowaną*, którą rozumiem i którą nieudolnie próbuję stosować - przede wszystkim *wobec
 siebie* - jako pół-formalne dusz-pasterstwo.
 
