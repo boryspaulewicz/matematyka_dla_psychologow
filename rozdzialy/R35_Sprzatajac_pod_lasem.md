@@ -407,8 +407,7 @@ i od obecności rzęsy albo glonów.
 
 Co by było, gdyby tak czysto hipotetycznie, korzystając z zimnej sztywności formalizmu, wyhamować
 ruch myśli na tyle, żeby tafla umysłu stała się nie tylko gładka i spokojna, ale żeby wręcz zamarzła
-w lustro, przez które można zobaczyć własne, powiększone przez unikalną własność zamarzającej wody
-oblicze?
+w lustro, przez które można zobaczyć własne prawdziwe oblicze?
 
 Posługując się metateoretycznymi narzędziami, których nam dostarcza psychologia naukowa, można się
 tak bawić cały dzień.
