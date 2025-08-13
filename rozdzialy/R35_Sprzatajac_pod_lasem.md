@@ -666,8 +666,8 @@ przez około pół godziny? Jeżeli tak lub nie, to zapraszam [tutaj](./R35__Spr
     anything*. Nic dziwnego, że jestem
     fanboyem. [Dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) otwarł
     zresztą wspaniały [David Spivak](https://en.wikipedia.org/wiki/David_Spivak), którego znakomita
-    książka [Category Theory for the
-    Sciences](https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/)
+    książka [*Category Theory for the
+    Sciences*](https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/)
     zainspirowała mnie do wymyślenia opisanego w poprzednim rozdziale przykładu z monoidem jako grą
     w węża.
 
