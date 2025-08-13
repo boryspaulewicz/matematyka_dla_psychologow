@@ -367,9 +367,6 @@ strzałki, polegającą na tym, że ta strzałka jest parą obiektów dualnych, 
 najprostszymi możliwymi granicami i kogranicami, a jako kategoria jest izomorfem swojej postaci
 dualnej.
 
-i jej wyrażoną, w dodatku za pomocą narzucających się symboli, postacią kanoniczną z jednej
-strony, a z drugiej 
-
 Z drugiej strony mamy to, co w chińskiej kosmologii nosi nazwę 陰陽 i czym kiedyś chętnie
 przystrajali się hipisi i co było, zwłaszcza wśród młodzierzy, popularne w kulturze zachodniej lat
 dziewięćdziesiątych. Chodzi mi o znane Ci z pewnością, dwie tulące się do siebie łezki albo krople,
