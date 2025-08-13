@@ -368,9 +368,9 @@ najprostszymi możliwymi granicami i kogranicami, a jako kategoria jest izomorfe
 dualnej.
 
 Z drugiej strony mamy to, co w chińskiej kosmologii nosi nazwę 陰陽 i czym kiedyś chętnie
-przystrajali się hipisi i co było, zwłaszcza wśród młodzierzy, popularne w kulturze zachodniej lat
-dziewięćdziesiątych. Chodzi mi o znane Ci z pewnością, dwie tulące się do siebie łezki albo krople,
-zawierające na swoich końcach punkty przeciwnego
+przystrajali się hipisi, i co było, zwłaszcza wśród młodzierzy, dosyć popularne w kulturze
+zachodniej lat dziewięćdziesiątych. Chodzi mi o znane Ci z pewnością, dwie tulące się do siebie
+łezki albo krople, zawierające na swoich końcach punkty przeciwnego
 [odcienia](https://www.adobe.com/pl/creativecloud/design/discover/is-black-a-color.html)[^5] i
 będące nawzajem swoimi negatywami. Czy to nie wygląda *dokładnie* jak reprezentacja dwóch
 "dopełniających Się", dualnych postaci arbitralnie skierowanej osobliwej strzałki, w dodatku
