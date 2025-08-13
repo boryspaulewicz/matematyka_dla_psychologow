@@ -339,7 +339,7 @@ którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma 
 
 <hr>
 
-## O dwóch takich punktach, co będąc parą uprządkowaną wskazały naturę Księżyca
+### O dwóch takich punktach, co będąc parą uprządkowaną wskazały naturę Księżyca
 
 Postaram się z tym pół-formalnym mistycyzowaniem zbytnio nie narzucać i również z takich spraw będę
 żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką i najskuteczniej uwalniającą
