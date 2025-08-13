@@ -154,7 +154,10 @@ przypomniało się w tym kontekście słowo
 ["psychologizm"](https://plato.stanford.edu/entries/psychologism/), to proszę zwrócić uwagę, że
 mówimy tutaj o głębokim (i oczywistym) podobieństwie między filozofią i nie tą starą (za to
 śmieszną) psychologią, tylko psychologią rozumianą jako nauka zajmująca się abitralnymi zachowaniami
-*jako takimi*, to jest arbitralnymi działaniami celowymi.
+*jako takimi*, to jest arbitralnymi działaniami celowymi. W szczególności, zachowaniem w tym
+znaczeniu jest każdy eksperyment myślowy jako taki, każde (rzekome) "zakwestionowanie wszystkiego"
+jako takie i każdy bez wyjątku (rzekomy) przypadek
+[epoché](https://pl.wikipedia.org/wiki/Epoch%C3%A9), czymkolwiek by to nie było.
 
 Byłbym i o tym zapomniał: Sztuczna inteligencja to *dział psychologii stosowanej* (i przedmiot
 badania psychologii), co od dawna powinno być dla wszystkich oczywiste. Tak się tylko z powodów
