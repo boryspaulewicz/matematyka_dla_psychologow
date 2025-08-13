@@ -445,10 +445,11 @@ murami kościoła, który funkcjonuje do pewnego stopnia jak osobne państwo w p
 tych pożal się Boże duszpasterzy dopuszczają się czasami, bywa, że bezkarnie, nieodwracalnego,
 okrutnego kaleczenia dzieci.
 
-Nie mówiąc już o tym, jak niewiele legitymująca się autorytetem prawa świeckiego i prawa - któregoś
-dnia jakiemuś komuś przez nie wiadomo jakiego kogoś - "objawionego", zinstytucjonalizowana religia
-ma wspólnego z *dialogiem*, który jest samym rdzeniem wszelkich form psychoterapii, działalności
-naukowej, a gdy i to pojęcie trochę uogólnić, wszystkich bez wyjątku form współpracy.
+Nie mówiąc już o tym, jak mało religia zinstytucjonalizowana, legitymująca się "autorytetami" prawa
+świeckiego i prawa - któregoś dnia jakiemuś komuś przez nie wiadomo jakiego kogoś - "objawionego",
+ma wspólnego z *dialogiem*. A przecież autentyczny dialog jest samym rdzeniem wszelkich form
+psychoterapii, działalności naukowej, a gdy go zrozumieć ogólniej, wszystkich bez wyjątku form
+współpracy.
 
 <hr>
 
