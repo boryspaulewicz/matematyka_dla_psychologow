@@ -579,7 +579,7 @@ sam próbuję powiedzieć? A właśnie, gdzie jest w tym wszystkim miejsce dla f
 
 <hr>
 
-Już w podstawówce wydawało mi się, że gdy dorosnę, zostanę filozofem. Jak przez mgłę pamiętam
+Już podstawówce byłem przekonany, że gdy dorosnę, zostanę filozofem. Jak przez mgłę pamiętam
 zdziwienie Pani pracującej wtedy za ladą w księgarni Stankiewicz w Bielsku-Białej, kiedy będąc
 uczniem szóstej albo siódmej klasy zapytałem, czy jest może "Ludzkie, arcyludzkie" i
 "Antychryst". Zanim poznałem odpowiedź, Pani za ladą upewniła się, czy dobrze usłyszała, a gdy po
@@ -589,40 +589,41 @@ pewien czas przestałem tam przychodzić. Popisywałem się potem na lekcjach re
 prawdopodobnie nieznośnym tonem - zdania w rodzaju "Nie istnieje wola nieegoistyczna". Tak, to były
 piękne czasy.
 
-Z Fryderyka N. na szczęście prędko wyrosłem. Chociaż, gdy teraz myslę o tym zdaniu, którym tak
-chętnie wtedy uraczyłem Bogu ducha winną katechetkę, muszę mu przyznać rację. I jednocześnie muszę
+Z Nietzschego na szczęście prędko wyrosłem. Chociaż, gdy teraz myslę o tym zdaniu, którym tak
+chętnie uraczyłem wtedy Bogu ducha winną katechetkę, muszę mu przyznać rację. I jednocześnie muszę
 mu jej odmówić. Tylko z pewnej, trywialnej definicji nie istnieje wola nieegoistyczna, ale Ego może
-przyjmować różne formy. Dokładniej, może *przyjmować wcielenia Się*. Wola może być związana z wąsko
-i krótkowzrocznie pojętym własnym interesem i wtedy stajemy się egoistami *mniejszymi*, albo może
-być związana z interesem Wspólnoty; i wtedy nadal jesteśmy, bo zawsze jesteśmy - lecz tylko w
+przyjmować różne formy. A mówiąc dokładniej, może *przyjmować wcielenia Się*. Wola może być związana
+z wąsko i krótkowzrocznie pojętym własnym interesem i wtedy stajemy się egoistami *mniejszymi*, albo
+może być związana z interesem Wspólnoty; i wtedy nadal jesteśmy, bo zawsze jesteśmy - lecz tylko w
 trywialnym znaczeniu tego słowa - egoistami, ale stajemy się wtedy egoistami w dobrym znaczeniu
-*większymi*. I to również są, na wskroś i z której by nie patrzeć strony, relacje porządku.
+*większymi*. I to też są, na wskroś i z której by nie patrzeć strony, pewne relacje porządku.
 
-Kiedy jesteśmy *mniejszymi* egoistami, najbardziej krzywdzimy siebie, a raczej nasze ciało, bo
+Kiedy jesteśmy *mniejszymi* egoistami, najbardziej krzywdzimy siebie, a raczej nasze ciała, bo
 stajemy się wtedy *samotni*, a samotność jest dla nas być może najgłębszą formą cierpienia. I
 *wiemy* doskonale, bo żeby to odkryć nie trzeba robić badań naukowych, że właśnie *harmonijne
-współdziałanie* jest tym, co przynosi nam najgłębsze szczęście. Od dziecka pragniemy być *ważni*,
-ale gdy próbujemy zaspokoić to pragnienie goniąc za pozycją społeczną i tytułami czy za dobrami
-materialnymi, to jest starając się głównie, żeby inni nas *zauważali* i żeby się z nami *liczyli*,
-zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartościowe. Bo w samotności
-*nie da się* być ważnym w jedynym sensie, który się naprawdę liczy - poprzez niesienie pomocy. I to
-wszystko też jest, na wskroś i z której by nie patrzeć strony, psychologia.
+współdziałanie* jest tym, co zwykle przynosi nam najgłębsze szczęście. Od dziecka pragniemy być
+*ważni*, ale gdy próbujemy zaspokoić to pragnienie goniąc za pozycją społeczną i tytułami lub
+dobrami materialnymi, to jest starając się głównie, żeby inni nas *zauważali* i żeby się z nami
+*liczyli*, zostając sami przekonujemy się szybko, jak bardzo to wszystko jest bezwartościowe. Bo w
+samotności *nie da się* być ważnym w jedynym znaczeniu, które się naprawdę liczy, to jest poprzez
+niesienie pomocy. I to też jest, na wskroś i z której by nie patrzeć strony, przede wszystkim
+psychologia.
 
-W tym sensie [karma](https://pl.wikipedia.org/wiki/Karma), to jest *czyn*, *dzieło* albo *działanie*
-nie tyle *wraca*, co zwyczajnie działa. Na przykład, pisząc tą książkę założyłem, że tłumacząc, o co
-chodzi w matematyce i programowaniu, będę o wiele bardziej polegał na języku naturalnym, niż robią
-to na ogół nawet Ci bardziej przyjaźni czytelnikom matematycy. To wymagało wprowadzenia zabiegów
-językowych, strukturalnych, a czasem literackich, które mnie samemu pomogły lepiej wiele rzeczy
-zrozumieć i radość ze stosowania ich tylko zwiększyła motywację do pisania. Niedawno postanowiłem
-sprawdzić, jak mi się teraz czyta starych znajomych i w związku z tym sięgnąłem po pięknie i ciepło
-napisane, dostępne za darmo [wprowadzenie do teorii
+W tym sensie [*karma*](https://pl.wikipedia.org/wiki/Karma), to jest *czyn*, *dzieło* albo
+*działanie* nie tyle *wraca*, co zwyczajnie *działa*. Na przykład, pisząc tą książkę założyłem, że
+tłumacząc, o co chodzi w matematyce i programowaniu, będę o wiele bardziej polegał na języku
+naturalnym, niż robią to na ogół nawet Ci bardziej przyjaźni czytelnikom matematycy. To wymagało
+wprowadzenia zabiegów językowych, strukturalnych, a czasem literackich, które mnie samemu pomogły
+lepiej wiele rzeczy zrozumieć i radość ze stosowania ich tylko zwiększyła motywację do dalszego
+pisania. Niedawno postanowiłem sprawdzić, jak mi się teraz czyta starych znajomych i w związku z tym
+sięgnąłem po pięknie i ciepło napisane, dostępne za darmo [wprowadzenie do teorii
 kategorii](https://www.logicmatters.net/categories/#gentle) Petera Smitha.
 
 Wydaje mi się, że na tym etapie mogłabyś czytać ten tekst dla samej przyjemności rozpoznawania na
-nowo spraw, które już w większości całkiem nieźle poznałaś, delektując się przy tym wyjątkową
-elegancją i lekkością stylu tego autora. Jednak pewnie pierwszy raz trafiłabyś na wymagającą
-znacznej zmiany tempa ścianę najpóźniej na stronie dziesiątej, bo Smith zakłada tam znajomość
-elementów teorii grup, których dotąd nie wprowadzałem nawet tylko niejawnie. 
+nowo spraw, które już w większości nieźle poznałaś, jednocześnie delektując się wyjątkową elegancją
+i finezyjnością stylu tego autora. Jednak pewnie pierwszy raz trafiłabyś na wymagającą znacznej
+zmiany tempa ścianę najpóźniej na stronie dziesiątej, bo Smith zakłada tam znajomość elementów
+teorii grup, których dotąd nie wprowadzałem nawet tylko niejawnie.
 
 Czytając jedno z pojawiających się tam wcześnie zadań zdałem sobie sprawę z innego dobrodziejstwa
 (dla mnie!), wynikającego ze specyficznego podejścia, jakie stosuję w tej książce. Smith, jak to
