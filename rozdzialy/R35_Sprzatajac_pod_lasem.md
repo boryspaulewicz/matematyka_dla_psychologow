@@ -627,20 +627,20 @@ teorii grup, których dotąd nie wprowadzałem nawet tylko niejawnie.
 
 Czytając jedno z pojawiających się tam wcześnie zadań zdałem sobie sprawę z innego dobrodziejstwa
 (dla mnie!), wynikającego ze specyficznego podejścia, jakie stosuję w tej książce. Smith, jak to
-zawodowy matematyk, omawia zwykle tak zwane rytunowe dowody w dużym skrócie. Z jednej strony chodzi
-o to, żeby czytelnicy ćwiczyli robienie ich "w głowie" i żeby musieli włożyć w to pewien
-wysiłek. Ale z drugiej strony, nie rozpisując szczegółowo na najmniejsze kroki prostych zadań i
-polegając zamiast tego na błyskawicznych ruchach lotnej myśli, *uniemożliwiamy* sobie zobaczenie w
-tych zadaniach czegoś nowego, bo *tekst* można dowolnie długo obserwować, badać i przerabiać, ale
-*myśli* już nie. Automatyzacja ma w tym kontekście ogromne zalety, bo zwiększa poziom wykonania, ale
-ma też jedną *ogromną* wadę - zmniejsza szansę na dostrzeżenie mniej oczywistych analogii. A raz
-zautomatyzowany sposób myślenia może być potem trudno zrekonstruować.
+zawodowy matematyk, omawia zwykle tak dowody uchodzące za rutynowe w dużym skrócie. Z jednej strony
+chodzi o to, żeby czytelnicy zdobyli się na wysiłek wykonywania ich "w głowie". Ale z drugiej
+strony, nie rozpisując szczegółowo na elementarne kroki prostych zadań i zamiast tego polegając na
+błyskawicznych ruchach lotnej myśli *uniemożliwiamy* sobie zobaczenie w tych zadaniach czegoś
+nowego, bo *tekst* można dowolnie długo obserwować, badać i przekształcać, ale *myśli*
+nie. Automatyzacja ma w tym kontekście ważne zalety, bo zwiększa szybkość i poprawność wykonania,
+ale jednocześnie utrudnia dostrzeżenie mniej oczywistych analogii. A raz zautomatyzowany sposób
+myślenia może być potem trudno zrekonstruować.
 
 Zauważyłem też, że nawet ktoś taki jak Smith korzysta z języka naturalnego głównie w celu rozwijania
-ogólnej narracji, a w znacznie mniejszym stopniu w celu naświetlania, również *sobie*, różnych
-aspektów formalnych konstrukcji i działań. Nie tylko czytelnicy na tym tracą, ale traci i sam autor,
-bo nie korzysta wtedy z możliwości stworzenia nowej, gęstej i aktywnej sieci skojarzeń, której
-wpływu na dalsze myślnie nie da się z góry przewidzieć.
+ogólnej narracji, a w mniejszym stopniu w celu naświetlania, również *sobie*, różnych aspektów
+formalnych konstrukcji i działań. Tracą na tym nie tylko czytelnicy, ale i sam autor, bo nie
+korzysta wtedy z możliwości stworzenia nowej, gęstej i aktywnej sieci skojarzeń, której wpływu na
+dalsze myślenie nie da się z góry przewidzieć.
 
 No więc taka ta karma. Im bardziej wykorzystuje się swoje najbardziej obiecujące talenty i
 kompetencje, żeby przydać się w jakiś sensowny sposób innym, tym bardziej te talenty i kompetencje
@@ -649,51 +649,49 @@ rosną i się rozwijają. Bo nic innego nie mają do roboty. I to też jest psyc
 <hr>
 
 Zamiłowanie do filozofii trwało przez całe liceum i dlatego najpierw zdałem właśnie na
-filozofię. Być może częściowo z powodu tego, jakie to coraz gorsze efekty w kolejnych latach dawało
-połączenie mojej prokrastynacji i lekkomyślności z ogromną elastycznością terminów zaliczeń, jaką
-charakteryzowało się wtedy studowianie na tym kierunku na UJ, ale wydaje mi się jednak, że przede
-wszystkim z innych, głębszych przyczyn, któregoś dnia, czytając w księgarni opis na obwolucie
-jakiejś książki wydanej przez [wydawnictwo Aletheia](https://www.aletheia.com.pl/), poczułem nagłą i
-niespodziewaną pewność, że nie mam już do tego serca. I tak trafiłem na psychologię.
+filozofię. Być może częściowo z powodu skutków, do których prowadziło w kolejnych latach połączenie
+mojej wrodzonej prokrastynacji i lekkomyślności z elastycznością terminów zaliczeń, jaką
+charakteryzowało się wtedy studowianie na tym kierunku na UJ, ale przypuszczam, że przede wszystkim
+z innych, głębszych przyczyn, któregoś dnia, czytając w księgarni opis na obwolucie jakiejś książki
+wydanej przez [wydawnictwo Aletheia](https://www.aletheia.com.pl/) poczułem nagłą pewność, że nie
+mam już do tego serca i tak trafiłem na psychologię.
 
 Dopiero niedawno zacząłem wracać, rzadko i z pewną nieśmiałością, do tego typu literatury i wygląda
 na to, że w najbliższej przyszłości będę z niej korzystał częściej i bardziej intensywnie. Uprzedzam
 więc, że w kolejnych rozdziałach mogą się z tego powodu pojawiać fragmenty jeszcze dziwniejsze i
-bardziej żenujące niż dotychczas. Takie jak ten, od którego zaczyna się następna część tego znacznie
-dłuższego niż wszystkie wcześniejsze rozdziału. 
+bardziej żenujące niż dotychczas. Takie jak ten, od którego zaczyna się następna część tego
+rozdziału.
 
-W związku z tą długością, czy pamiętasz, żeby używać *minutnika* i nie czytać bez przerw dłużej, niż
-przez około pół godziny? Jeżeli tak lub nie, to zapraszam [tutaj](./R35__Sprzatajac_pod_lasem.md).
+Ponieważ ten rozdział jest znacznie dłuższy niż wszystkie poprzednie, pozwolę sobie zapytać, czy
+pamiętasz, żeby używać minutnika i unikać czytania bez przerw dłużej niż przez pół godziny?  Jeżeli
+tak lub nie, to zapraszam [tutaj](./R35__Sprzatajac_pod_lasem.md).
 
 ### Przypisy
 
 [^1]: Gdy zadzwoniłem do Tomka, żeby złożyć mu życzenia urodzinowe i powiedziałem, że już po raz
-    drugi cytuję go w tej książce, poprosił, żeby Was wszystkich pozdrowić. No to przekazuję
-    pozdrowienia.
+    drugi cytuję go w tej książce, poprosił, żeby Was pozdrowić. No to przekazuję pozdrowienia.
 
 [^2]: Ten przykład poznałem dzięki wspaniałej książce Eugenii Cheng [*The Joy of
-    Abstraction*](https://eugeniacheng.com/), którą tu już polecałem i która mnie bardzo
+    Abstraction*](https://eugeniacheng.com/), którą już polecałem i która mnie bardzo
     zainspirowała. Zdaje się nawet, że pod niejednym względem mocno wpłynęła na charakter tego, co
-    właśnie czytasz (w tytule jest *Joy*!). Niedawno zobaczyłem na YouTube dyskusję, w której
-    Eugenia wzięła udział i dowiedziałem się dzięki temu, że chociaż zajmuje się zawodowo teorią
-    kategorii, to ucząc się jej i w ogóle studiując matematykę raczej *unikała zadań*. W dodatku w
-    tej dyskusji powiedziała w pewnym momencie, że *there is no should* i że *we do not understand
-    anything*. Nic dziwnego, że jestem
-    fanboyem. [Dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) otwarł
+    właśnie czytasz. Niedawno zobaczyłem na YouTube dyskusję, w której Eugenia wzięła udział i
+    dowiedziałem się dzięki temu, że chociaż zajmuje się zawodowo teorią kategorii, ucząc się jej i
+    w ogóle studiując matematykę raczej *unikała zadań*. W dodatku w tej dyskusji powiedziała w
+    pewnym momencie, że *there is no should* i że *we do not understand anything*; nic dziwnego, że
+    jestem fanboyem. [Dyskusję](https://www.youtube.com/live/jJj3psZsGTk?si=WWD1T3LaiWSpYK8M) otwarł
     zresztą wspaniały [David Spivak](https://en.wikipedia.org/wiki/David_Spivak), którego znakomita
     książka [*Category Theory for the
     Sciences*](https://mitpress.mit.edu/9780262028134/category-theory-for-the-sciences/)
-    zainspirowała mnie do wymyślenia opisanego w poprzednim rozdziale przykładu z monoidem jako grą
-    w węża.
+    zainspirowała mnie do wymyślenia przykładu z monoidem jako grą w węża.
 
-[^4]: A po angielsku i bawiąc się znaczeniami, *Correctness is the order of psychology*.
+[^4]: A po angielsku i bawiąc się znaczeniami - *Correctness is the order of psychology*.
 
 [^5]: Drugie zdanie na tej stronie to, cytuję, "Z naukowego punktu widzenia kolor jest wyrażeniem
-    światła.", i moim zdaniem to jest słodkie.
+    światła" i moim zdaniem to jest słodkie.
 
-[^6]: A więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego \{*od momentu, w
-    którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the empty set*,
-    zamiast *an empty set*, a po polsku *ten* zbiór pusty
+[^6]: A więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny. Dlatego, *od momentu, w którym
+    udowodnimy tą unikalność*, możemy bez zastrzeżeń mówić po angielsku *the empty set* zamiast *an
+    empty set*, a po polsku *ten* zbiór pusty
 
 [^7]: Chociaż, jak zauważył kiedyś mój przyjaciel Szymon Szymczak, historia to (często) polityka
     uprawiana wstecz.
