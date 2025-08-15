@@ -441,16 +441,17 @@ Dodam jeszcze tylko to: Jako świeccy duszpasterze, psychologowie nie mają się
 księżmi, bo księża to sami mężczyźni, którzy są z natury bardziej skłonni do agresji i pychy, w
 dodatku żyjący w warunkach dalekich od realiów codziennego życia zwykłych ludzi. Wobec czego nie ma
 się co dziwić, że podobnie, jak to dzieje się niemal na całym świecie, także u nas za wyniosłymi
-murami kościoła, który funkcjonuje do pewnego stopnia jak osobne państwo w państwie, niektórzy z
-tych pożal się Boże duszpasterzy dopuszczają się czasami, bywa, że bezkarnie, nieodwracalnego,
-okrutnego kaleczenia dzieci.
+murami kościoła, który funkcjonuje do pewnego stopnia jak osobne państwo w państwie,
+[niektórzy](https://mapakoscielnejpedofilii.pl/) z tych pożal się Boże duszpasterzy dopuszczają się
+czasami, bywa, że bezkarnie, nieodwracalnego, okrutnego kaleczenia dzieci.
 
 Nie mówiąc już o tym, że my, psychologowie, staramy się *sprawdzać*, czy i w jaki sposób wymyślane
 przez nas sposoby niesienia pomocy działają. Albo o tym, jak mało religia zinstytucjonalizowana,
 legitymująca się "autorytetami" prawa świeckiego i prawa - któregoś dnia jakiemuś komuś przez nie
-wiadomo jakiego kogoś - "objawionego" ma wspólnego z autentycznym *dialogiem*, który jest samym
-rdzeniem psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wszystkich
-możliwych form *współpracy*.
+wiadomo jakiego kogoś - "objawionego" ma wspólnego z autentycznym
+[*dialogiem*](https://en.wikipedia.org/wiki/Index_Librorum_Prohibitorum), będącym samym rdzeniem
+psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wszystkich możliwych form
+*współpracy*.
 
 <hr>
 
