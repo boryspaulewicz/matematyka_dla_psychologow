@@ -183,21 +183,21 @@ porządku.
 
 Kiedy prosimy osobę partnerską, żeby zrobiła nam herbatę, rozpoczynamy proces, który zakończy się
 albo sukcesem, albo porażką. No ale to oczywiście nie jest takie proste, bo osoba partnerska może
-nas nie usłyszeć, albo usłyszeć błędnie i zamiast herbaty przynieść nam (jakieś czyjeś) papiery
-rozwodowe. Albo możemy dostać herbatę, ale nie taką, jaką chcieliśmy. Albo w "złym kubku". Albo może
-być tak, że pod względem herbaty i jej otrzymania to można powiedzieć, że pełen sukces, ale zaraz po
-otrzymaniu osoba partnerska mówi nam, że musimy poważnie porozmawiać, a potem, że to nie jesteśmy
-my, to jest ona. Wtedy dostajemy niby taką herbatę, jaką chcieliśmy, ale jednocześnie jednak -
-uświadamiamy sobie dopiero po fakcie - funkcjonalnie nie taką, jaką "naprawdę" chcieliśmy, to jest
-czarną popołudniową herbatę pocieszającą.
+nas nie usłyszeć, albo usłyszeć błędnie i zamiast herbaty przynieść nam papiery rozwodowe. Albo
+możemy dostać herbatę, ale nie taką, jaką chcieliśmy. Albo w "złym kubku". Albo może być tak, że pod
+względem herbaty i jej otrzymania to w zasadzie pełen sukces, ale zaraz po otrzymaniu osoba
+partnerska mówi nam, że musimy poważnie porozmawiać, a potem, że to nie jesteśmy my, to jest
+ona. Wtedy dostajemy niby taką herbatę, jaką chcieliśmy, ale jednocześnie jednak - uświadamiamy
+sobie dopiero po fakcie - funkcjonalnie nie taką, jaką *naprawdę* chcieliśmy, to jest czarną
+popołudniową herbatę pocieszającą.
 
-Tego rodzaju wieloaspektowa ocenialność skutków różnych działań (a dokładniej prób) to moim zdaniem
+Tego rodzaju wieloaspektowa ocenialność skutków różnych działań a dokładniej prób to moim zdaniem
 samo serce psychologii. Współczesny psycholog mógłby powiedzieć, że to nie jest naukowe, bo to
-jakieś podejrzane rezultaty *introspekcji*, której współczesna "naukowa" psychologia od dawna już
-nie akceptuje jako metody naukowej. No tak, ale to przecież w oczywisty sposób *nie* są
-rezultaty introspekcji, tylko *zmyślenia*. Ze względu na ich szczególną rolę nie ma znaczenia, skąd
-się te zmyślenia wzięły. W *żadnym* miejscu nie korzystam z założenia, że któreś z tego rodzaju
-zmyśleń, a dokładniej *ocennych perspektyw*, jest *prawdą*.
+jakieś podejrzane rezultaty *introspekcji*, której psychologia "naukowa" od dawna nie traktuje jako
+akceptowalnej metody. No tak, ale to przecież *nie* są rezultaty introspekcji, tylko *zmyślenia*. Ze
+względu na ich szczególną rolę nie ma żadnego znaczenia, skąd się wzięły. W szczególności, w
+*żadnym* miejscu nie korzystam z założenia, że któreś z tego rodzaju zmyśleń, a dokładniej *ocennych
+perspektyw*, jest *prawdziwe*.
 
 *"Ja" jest punktem widzenia.*
 
@@ -205,17 +205,16 @@ Za wcześnie za daleko? Po tym, przez co od początku tego rozdziału przeszliś
 
 Albo weźmy skądś jakieś [jabłka i pomarańcze](https://en.wikipedia.org/wiki/Apples_and_oranges), ale
 nie jedzmy ich od razu, tylko najpierw się im poprzyglądajmy. Co to za bzdury z tym "nie da się
-porównać"? Jeden z tych owoców jest przecież w oczywisty sposób obiektywnie lepszy od drugiego,
-szczególnie, gdy mamy na niego ochotę. Średni okres wegetacji drzew jabłoni i drzew pomarańczy jest
-porównywalny, a to też są własności jabłek i pomarańczy odpowiednio. Gdyby jabłko jako takie i
-pomarańcza jako taka były kategoriami, to jedna z nich miałaby ... Ale chyba już wiesz, o co mi
-chodzi.
+porównać"? Przecież jeden z tych owoców jest obiektywnie lepszy od drugiego, zwłaszcza, gdy mamy na
+niego ochotę. Średni okres wegetacji drzew jabłoni i drzew pomarańczy jest porównywalny, a to też są
+własności jabłek i pomarańczy odpowiednio. Gdyby jabłko jako takie i pomarańcza jako taka były
+kategoriami, to jedna z nich miałaby ... Ale chyba już wiesz, o co mi chodzi.
 
 Albo wróćmy do filii w Radomiu, o której mówiliśmy w poprzednim rozdziale. Załóżmy, że nowe budynki
 są `2`, a wydziały są `3`, za to liczba pięter (też `3`) zgadza się z liczbą poziomów hierarchii
 władzy. Naturalnie byłoby wtedy mapować injektywnie liniowy porządek szczebli władzy na porządek
 pięter, ale pracownicy jakiś dwóch wydziałów musieliby pracować w tym samym budynku, *to* mapowanie
-byłoby więc *nie*injektywne, za to byłoby (tak jak poprzednie) surjektywne.
+nie byłoby więc injektywne, za to byłoby, tak jak poprzednie, surjektywne.
 
 **Powtórka z pojęcia kategorii generowanej przez graf**: Przypominam, że same grafy to jeszcze nie
 kategorie, bo graf jako taki to tylko pewnego rodzaju "statyczny rysunek", który *nie* jest
