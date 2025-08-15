@@ -1,38 +1,40 @@
 <!-- -*- coding: utf-8 -*- -->
 ## [Potężna Piątka](https://kungfupanda.fandom.com/wiki/Furious_Five)
 
-Najpierw biologia. Od tylu już lat badania neuropsychologiczne są postrzegane przez wielu jako te
-relatywnie "twarde" i "naukowe", z dwóch oczywistych powodów. Mózg steruje zachowaniem, a biologia
-jest (póki co) daleko bardziej zaawansowaną nauką niż psychologia; ma znacznie więcej doniosłych
-zastosowań i przedmiot jej badań często o wiele łatwiej jest obserwować w kontrolowanych warunkach i
-często o wiele ławiej jest dokonywać na nim precyzyjnych interwencji eksperymentalnych. A z drugiej
-strony, nadal nie udało się na przykład znaleźć choćby *jednego* markera biologicznego
-*jakiegokolwiek* zaburzenia psychicznego.
+Najpierw biologia. Od tylu już lat badania neuropsychologiczne są postrzegane przez wielu
+psychologów jako te relatywnie "twarde" i "naukowe", z dwóch oczywistych powodów. Można powiedzieć,
+że mózg steruje w pewnym sensie zachowaniem, a biologia jest wciąż daleko bardziej zaawansowaną
+nauką niż psychologia; ma znacznie więcej doniosłych zastosowań i przedmiot jej badań często łatwiej
+daje się obserwować w kontrolowanych warunkach i często ławiej jest dokonywać na nim precyzyjnych
+interwencji eksperymentalnych. Z drugiej jednak strony, nadal nie udało się na przykład znaleźć
+choćby *jednego* markera biologicznego *jakiegokolwiek* zaburzenia psychicznego.
 
 Coś tam wiemy na temat neuronalnych mechanizmów *bardzo wczesnych* etapów prercepcji i coś tam też
 wiemy na inne podobne tematy, ale poza tym wpływ neuropsychologii na psychologię jest jak dotąd tak
-nikły, że gdy ta pierwsza pojawia się w podręcznikach dotyczących tej drugiej, prawie zawsze pojawia
-się jak jakiś kwiatek u kożucha - taka (dla niektorych ekscytująca) ciekawostka, którą trudno w
-jakikolwiek sposób znacząco zintegrować z wiedzą na temat *zachowania*. Ciekawostka typu coś tam się
-*może* świeci w pewnych obszarach bardziej niż w innych, gdy ludzie wykonują, najczęściej w
-*dziwacznych* warunkach, sztuczne i sztucznie uproszczone zadania. A finansowe i nie tylko takie,
-głównie *publiczne* zasoby poszły na tego rodzaju badania jak dotąd ogromne. Jeżeli to jest Twoim
-zdaniem *moralnie akceptowalne*, to bardzo chciałbym wiedzieć *w jakim sensie*.
+nikły, że gdy ta pierwsza pojawia się w podręcznikach dotyczących tej drugiej, prawie zawsze
+występuje w roli kwiatka u kożucha, to jest takiej dla niektorych ekscytującej ciekawostki, którą
+trudno znacząco zintegrować z wiedzą na temat *zachowania*. Ciekawostki typu coś tam się *może*
+świeci w pewnych obszarach bardziej niż w innych, gdy ludzie wykonują, najczęściej w *dziwacznych*
+warunkach, *sztuczne* i *sztucznie uproszczone* zadania. A finansowe i nie tylko takie, głównie
+*publiczne* zasoby poszły na tego rodzaju badania jak dotąd ogromne. No więc jeśli Twoim zdaniem to
+jest zdaniem *moralnie akceptowalne*, to bardzo chciałbym wiedzieć *w jakim sensie*.
 
 Dlaczego tak (żałośnie) słabo mimo, że tak (kosmicznie) drogo i - najwyraźniej zdaniem wielu - tak
 obiecująco? Nie tylko moim zdaniem dlatego, że mózg jest ekstremalnie złożony, działa w sposób
-idiosynkratyczny, jest niestacjonarny i w ekstremalnym stopniu zależny od przebiegu dotychczasowej
-interakcji zwierzęcia ze środowiskiem. My to wszystko od dawna już *wiemy*, tylko najwyraźniej *nie
-wyciągamy z tego wniosków*. Niestety, tego rodzaju bezwładność to w nauce nic nowego.
+idiosynkratyczny, czyli u każdego zwierzęcia (pod trudnymi do przewidzenia względami) inaczej, jest
+niestacjonarny, czyli sposób jego działania ulega (ciągle) rozmaitym zmianom, a to, jak dokładnie
+działa zależy w ogromnym stopniu od przebiegu całej historii interakcji zwierzęcia ze
+środowiskiem. My to wszystko od dawna już *wiemy*, tylko najwyraźniej *nie wyciągamy z tego
+wniosków*. Niestety, tego rodzaju bezwładność to w nauce nic nowego.
 
 Jednocześnie jednak nie ulega wątpliwości, że *biologia* zajmuje się czymś, co do przedmiotu
-zainteresowań ani fizyki, ani nawet chemii *nie* należy, to jest *życiem*, postrzeganym *przede
-wszystkim* jako pewnego rodzaju *mechanizm*. Dlatego biolog bez zająknięcia się powie na przykład,
-że *funkcją* serca jest pompowanie krwi i tą własność serca będzie traktował jako kluczową. A jest
-tego rodzaju własność dla biologa kluczowa, bo centralnym pojęciem biologii jest dychotomia i
-jednocześnie porządek określony na zbiorze dwuelementowym, a więc strzałka, *od* śmierci *do*
-życia. To jednocześnie niezły moim zdaniem przykład ilustrujący arbitralność kierunku strzałki
-czasu, bo ta strzałka jest skierowana *ku przeszłości*.
+zainteresowań ani fizyki ani chemii *nie* należy, to jest *życiem*, postrzeganym *przede wszystkim*
+jako pewnego rodzaju *mechanizm*. Dlatego biolog bez zająknięcia się powie na przykład, że *funkcją*
+serca jest pompowanie krwi i tą własność będzie traktował jako kluczową. A jest tego rodzaju
+własność dla biologa kluczowa, bo centralnym pojęciem biologii jest dychotomia i jednocześnie
+porządek określony na zbiorze dwuelementowym, a więc strzałka, *od* śmierci *do* życia. To
+jednocześnie niezły moim zdaniem przykład ilustrujący arbitralność kierunku strzałki czasu, bo ta
+strzałka jest skierowana *ku przeszłości*.
 
 Biolog traktuje życie jako *lepsze* od śmierci, bo inaczej nie postrzegałby na przykład właśnie
 serca jako czegoś, co *w określony sposób*, to jest pompując krew, *służy przeżywaniu*. Gdyby nie o
@@ -41,31 +43,32 @@ określone miejsce* w organiźmie, albo co *emituje pewną ilość ciepła*, i t
 serce jest *tym, co pompuje krew*.
 
 Biologia jest więc przedmiotem badań i jednocześnie subdyscypliną psychologii, jak wszystkie
-nauki. W dodatku z prostej, deskryptywnie trafnej definicji, bo każda nauka *jako nauka*, w tym
-również psychologia, jest jednocześnie wytworem i narzędziem zachowania. Inaczej mówiąc:
+nauki. W dodatku z prostej, moim zdaniem w oczywisty sposób deskryptywnie trafnej definicji, bo
+każda nauka *jako nauka*, w tym również psychologia, jest jednocześnie wytworem i narzędziem
+zachowania. Inaczej mówiąc:
 
-Właściwie rozumiana, psychologia jest *punktem stałym samego badania*.
+Właściwie rozumiana, psychologia naukowa jest *punktem stałym samego badania*.
 
-Natomiast filozofia jest wyraźnie *inna* od całej reszty. Tym, co łatwo rzuca się w oczy jest fakt,
-że uprawianie filozofii polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo
+Natomiast filozofia wydaje się wyraźnie *inna* od całej reszty. Tym, co łatwo rzuca się w oczy jest
+fakt, że uprawianie filozofii polega na zajmowaniu się tak zwanymi pytaniami podstawowymi albo
 ostatecznymi, takimi jak pytania o naturę i granice *poznania w ogóle*, albo pytania o *byt w ogóle*
-i o *wartości w ogóle*. Dosyć to niesamowite. I jednocześnie charakterystycznie *nieczytelne*, ale
-*niekoniecznie* w złym znaczeniu.
+i o *wartości w ogóle*. Dosyć to niesamowite. I jednocześnie zaskakująco często charakterystycznie
+*nieczytelne*, ale *niekoniecznie* w złym znaczeniu.
 
-Teoria kategorii uczy nas, że jeżeli obiekt pewnego rodzaju, taki jak dajmy na to iloczyn
-kartezjański zbiorów, jest ważny - a filozofia, ta zawodowa i ta amatorska, jest niewątpliwie dla
-wielu z nas, ludzi (czasem nawet bardzo) ważna - to warto przynajmniej próbować znaleźć powód tej
-ważności, przyglądając się, dotyczącym przypuszczalnie ważnych własności tego obiektu, *relacjom
-między tym obiektem a innymi obiektami tego samego rodzaju*.
+Teoria kategorii uczy nas, że jeżeli obiekt pewnego rodzaju, taki jak iloczyn kartezjański zbiorów,
+jest ważny - a filozofia, ta zawodowa i ta amatorska, jest dla wielu z nas, ludzi (czasem nawet
+bardzo) ważna - to warto szukać powodu tego faktu przyglądając się, dotyczącym przypuszczalnie
+ważnych własności tego obiektu, *relacjom między tym obiektem a innymi obiektami tego samego
+rodzaju*.
 
 Ale nie chodzi tu o *jakiekolwiek* relacje, bo taka wskazówka byłaby bezużyteczna. Poszukujemy wtedy
 perspektywy, z której danego rodzaju obiekt jest w jakimś sensie najlepszym albo ekstremalnym
 przypadkiem czegoś ogólniejszego, czyli jest *przypadkiem granicznym*, albo wręcz *samą granicą*. I
-tak, iloczyn kartezjański zbiorów jest, jak zobaczymy później, obiektem końcowym (to właśnie pewna
+tak, iloczyn kartezjański zbiorów jest, jak później zobaczymy, obiektem końcowym (to właśnie pewna
 granica, ...) w kategorii diagramów złożonych z par współźródłowych strzałek (... a to są obiekty
-tego samego rodzaju). Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co w
-iloczynie kartezjańskim jest najważniejsze, a więc - zawsze tylko w pewnym sensie - jego "istotę"
-albo "prawdziwą naturę".
+tego samego rodzaju). Co więcej, właśnie *ta* własność charakteryzuje w pewnym sensie to, co jest w
+iloczynie kartezjańskim najważniejsze, a więc - zawsze tylko w pewnym sensie - jego "istotę" albo
+"prawdziwą naturę".
 
 Ponieważ w tej książce nieustannie przyglądam się z różnych stron myśleniu, mówienu, czytaniu,
 pisaniu, rozmawianiu, komunikacji, myśleniu jako przepisywaniu, programowaniu i metaprogramowaniu, a
@@ -75,26 +78,25 @@ właśnie od tej strony (a raczej stron).
 Jak wspominałem w rozdziale drugim, jednym z najcenniejszych doświadczeń, jakie wyniosłem ze
 studiowania filozofii, było *pisanie konspektów*. Z pewnością widać w tej książce, że chętnie
 korzystam z nabytych w ten sposób, mozolnie i w pocie czoła, nigdy dostatecznie nie rozwiniętych
-umiejętności. Polegało to nieodmiennie na czytaniu tekstów *źródłowych* i na tworzeniu możliwie
-najkrótszej notatki, która miała zawierać coś w rodzaju wydestylowanego, centralnego wątku
-argumentacji, a przede wszystkim obiecujących *punktów nacisku*, to jest miejsc, w których można by
-próbować znaleźć jakieś dziury w rozumowaniu albo innego rodzaju wady. I nigdy wcześniej, ani nigdy
-później nie miałem do czynienia z tekstami, w przypadku których to byłoby tak *trudne*. Nawet
-czytanie w liceum i później stosunkowo hermetycznej poezji nie wiązało się dla mnie nigdy z
-poczuciem równie silnego oporu materii językowej, choć może dlatego, że wobec poezji miałem inne
-oczekiwania.
+umiejętności. Polegało to na czytaniu tekstów *źródłowych* i na tworzeniu możliwie najkrótszej
+notatki, która miała zawierać wydestylowany centralny szkielet argumentacji i miała pomagać w
+identyfikacji obiecujących *punktów nacisku*, to jest miejsc, w których można by próbować znaleźć
+dziury w rozumowaniu albo innego rodzaju wady. I nigdy wcześniej, ani nigdy później nie miałem do
+czynienia z tekstami, w przypadku których to byłoby tak *trudne*. Nawet czytanie w liceum i później
+stosunkowo hermetycznej poezji nie wiązało się dla mnie nigdy z poczuciem równie silnego oporu
+materii językowej, choć może dlatego, że wobec poezji miałem inne oczekiwania.
 
 Filzofowie mają do tekstów źródłowych stosunek szczególny. Nie da się tego chyba porównać z niczym,
 co ma miejsce w innych dyscyplinach naukowych czy akademickich. Na przykład, dla matematyka
 matematyczny tekst źródłowy ma zwykle znaczenie prawie całkowicie *historyczne*, podobnie jak dla
-dla biologa tekst napisany przez biologa, dla fizyka tekst napisany przez fizyka, albo dla
-psychologa tekst napisany przez jakiegoś psychologa. Nawet literaturoznawcy, dla których przedmiotem
-badania są teksty źródłowe, traktują je inaczej niż filozofowie traktują teksty filozofów.
+dla biologa tekst napisany przez biologa, a dla fizyka tekst napisany przez fizyka. Nawet
+literaturoznawcy, dla których przedmiotem badania są teksty źródłowe, traktują je inaczej niż
+filozofowie traktują teksty filozofów.
 
 Zgaduję, bo nie mam o tej dyscyplinie bladego pojęcia, że gdy literaturoznawca pisze tekst naukowy
-na temat na przykład jakiegoś dzieła literackiego, powstający w ten sposób tekst nie musi być potem,
-w ogólnym przypadku, czytany w oryginale, bo można zawarte tam główne treści przekazać na wiele
-sposobów niewiele przy tym tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między
+na temat jakiegoś dzieła literackiego, w ogólnym przypadku, powstający w ten sposób tekst nie musi
+być potem czytany w oryginale, bo zachowując ostrożność można zawarte tam główne treści przekazać na
+wiele sposobów niewiele przy tym tracąc. W przypadku filozofii nie ma tak wyraźnej różnicy między
 interpretacją tekstu źródłowego i tekstem źródłowym, bo teksty filozoficzne, w każdym razie te
 *ważne*, które są wynikiem filozoficznej interpretacji i analizy innych tekstów filozoficznych,
 *same wymagają filozoficznej interpretacji i analizy*.
@@ -102,9 +104,9 @@ interpretacją tekstu źródłowego i tekstem źródłowym, bo teksty filozoficz
 Czy nie wygląda Ci to na robotę tego miglanca Urobora? Dlaczego tak jest? I po co?
 
 Może dlatego, że filozofia polega w niemałym stopniu na *odkrywaniu nowych* i *nieredukowalych
-pojęć*, czy nawet całych *struktur* pojęciowych? A więc na wskazywaniu i badaniu pojęć w pewnym
-sensie *początkowych* albo, w jakiś sposób dualnie, a więc równoważnie, *końcowych*? A mówiąc
-metaforycznie i zmieniając rejestr, żeby zacząć łowić więcej nowych skojarzeń:
+pojęć* albo *struktur* pojęciowych? A więc na wskazywaniu i badaniu pojęć w pewnym sensie
+*początkowych* albo, w jakiś sposób dualnie, a więc równoważnie, *końcowych*? A mówiąc metaforycznie
+i zmieniając rejestr, żeby zacząć łowić więcej nowych skojarzeń:
 
 *Czy nie jest filozofia poszukiwaniem jasnych konstelacji struktur pojęciowych na gęstym i ciemnym
 nieboskłonie naszych nieunikalnych poznawczych celów?*
@@ -115,11 +117,11 @@ w które się właśnie wtrącam pisząc nawiasem \{a które po tym, jak stanie 
 spełni ostatecznie swoją wyzwalajacą rolę ⟨zauważyłaś, że w tym pisaniu prawie we wszystkim jest
 jakaś *metoda* \[inaczej *deklarowany* albo *zamierzony* cel ⟪...[^3]⟫]?⟩\}).
 
-Może dlatego filozofia *nie ma metody*? I dlatego, choć nauki mają swój *początek* w filozofii, to
-jednocześnie żadna nauka z filozofii *nie wynika*, a gdy już jakaś dyscyplina naukowa z filozofii
-się *wyobrębni*, tak jak teraz wyobrębnia się z niej psychologia, prędko staje się autonomiczna i
-zwykle (jako *dyscyplina*, nie jako uprawiający ją ludzie) ewidentnie filozofii *przestaje
-potrzebować*?
+Może dlatego filozofia *nie ma metody*? I dlatego, choć dyscypliny naukowe mają w pewnym sensie swój
+*początek* w filozofii, to jednak żadna z filozofii *nie wynika*, a gdy już jakaś dyscyplina naukowa
+się z filozofii *wyobrębni*, tak jak właśnie wyobrębnia się z niej psychologia, prędko staje się
+autonomiczna i zwykle - jako *dyscyplina*, nie jako uprawiający ją ludzie - ewidentnie filozofii
+*przestaje potrzebować*?
 
 Zastrzegam jednak, że na ten pomysł wpadłem dopiero dzisiaj[^5] i niewykluczone, że go przerobię lub
 porzucę. Ponieważ jednak mogę pisać w tej książce o czym tylko chcę i w jaki tylko mam ochotę
@@ -128,15 +130,15 @@ czasem nawet wzruszeń, że nie mogę tego porównać z niczym, czego doświadcz
 czegokolwiek w jakikolwiek sposób wcześniej, a filozofię zacząłem po latach zachowywania chłodnego
 dystansu znów cenić i lubić, to postanowiłem sprawdzić, co wyniknie z podjęcia i tego tematu.
 
-A dopiero dzisiaj, to jest pięć dni później, szukając po raz enty jakiś dziur logicznych albo innych
-wad w tym, co tu napisałem, zauważyłem głębokie podobieństwo między filozofią i psychologią. W
+A dopiero dzisiaj, to jest pięć dni później, szukając po raz enty dziur logicznych albo innych wad
+we wszystkim, co tu napisałem, zauważyłem głębokie podobieństwo między filozofią i psychologią. W
 obydwu tych dyscyplinach dochodzi z konieczności do czegoś w rodzaju wewnętrznego zwarcia albo
 samoodniesienia, bo przedmiotem badań filozoficznych jest między innymi filozofowanie, a przedmiotem
-badań psychologicznych jest między innymi samo badanie. Tekst filozoficzny jest przedmiotem badania
-filozoficznego i naukowy tekst napisany przez psychologa jest przedmiotem badania psychologii, bo
-jest rezultatem i narzędziem zachowania. Poznanie i jego granice to przedmiot zainteresowania
-zarówno filozofii jak i psychologii, tak samo jak wartości i to, co - z naszej ludzkiej
-perspektywy - istnieje. 
+badań psychologicznych jest między innymi samo badanie, w tym również badanie psychologiczne. Tekst
+filozoficzny jest przedmiotem badania filozoficznego i naukowy tekst napisany przez psychologa jest
+przedmiotem badania psychologii, bo jest rezultatem i narzędziem zachowania. Poznanie i jego granice
+to przedmiot zainteresowania zarówno filozofii jak i psychologii, tak samo jak wartości i to, co - z
+naszej ludzkiej perspektywy - istnieje.
 
 Ta zbieżność zainteresowań wynika stąd, że zarówno filozofów jak i psychologów interesują *pojęcia*,
 a pojęcia jako takie są ostatecznie wytworami i narzędziami zachowania. Jednak filozofia *nie ma*
