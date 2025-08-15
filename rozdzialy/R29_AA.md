@@ -461,8 +461,8 @@ wybrane stałe mniej lub bardziej adekwatnie typowanymi parametrami, a wybrane o
 sformułowania zastępujemy (względnymi) konkretami. Widzisz, co *tutaj* się stało, w *tych* ostatnich
 dwóch akapitach?
 
-*Powtarzamy się*, bo znaleźliśmy *punkt stały* pewnego procesu, czyli połknęliśmy własny ogon (`I(x)
-= x`), jak jakiś [węż](https://pl.wikipedia.org/wiki/W%C4%85%C5%BC_po%C5%BCarniczy)[^2] z drzewa
+*Powtarzamy się*, bo znaleźliśmy *punkt stały* pewnego procesu, czyli połknęliśmy własny ogon (`S(s)
+= s`), jak jakiś [węż](https://pl.wikipedia.org/wiki/W%C4%85%C5%BC_po%C5%BCarniczy)[^2] z drzewa
 poznania wszystkiego, co działa. A to znaczy, że znaleźliśmy (tylko pewną czy może jedyną
 istniejącą?) *nieformalną* (a więc w pewnym sensie najbardziej, bo *trochę za bardzo* elastyczną)
 *metodę metod*. [Aa](https://www.aa.org/)(a)! Ok, może trochę mnie poniosło. Przecież to nic innego
