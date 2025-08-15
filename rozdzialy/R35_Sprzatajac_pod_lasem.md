@@ -152,8 +152,8 @@ błędnym lub poprawnym wykonaniu jakiegoś *zadania*. Wykonanie błędne traktu
 sensie mniejsze albo gorsze niż wykonanie poprawne, tak jak fałsz traktujemy jako coś mniejszego
 albo gorszego od prawdy, brzydotę jako coś gorszego od piękna, a zło jako coś gorszego od dobra.
 
-Formalnie, wszystkie te struktury są jedną strukturą porządku na zbiorze dwuelementowym, który -
-jako kategoria - jest dokładnie pojedynczą nietrywialną strzałką.
+Formalnie, wszystkie te struktury są jedną strukturą porządku na zbiorze dwuelementowym, który jako
+kategoria jest dokładnie pojedynczą nietrywialną strzałką.
 
 Gdy nie ma nic, nic nie może się wydarzyć i ani nie ma o czym mówić, ani nie ma Nikogo, kto mógłby o
 czymś mówić. Gdy jest tylko jedno coś i nic więcej nie ma, wtedy wszystko, co jest, jest tym jednym
@@ -162,9 +162,9 @@ nie ma o czym mówić, ani nie ma Nikogo, kto mógłby o czymś mówić.
 
 Obiekt początkowy i obiekt końcowy to *jedno* pojęcie postrzegane z dwóch *dualnych* perspektyw. Nie
 każda kategoria ma jednak początek i koniec. Wszędzie tam, gdzie istnieją *co najmniej dwa* obiekty,
-pojawia się *różnica*. A gdy *jedynymi dwoma* obiektami są obiekty początkowy i końcowy, istnieje
-dokładnie *jedna* nietrywialna strzałka. W matematyce, tak jak w psychologii, wszystko sprowadza się
-ostatecznie do tej jednej, *definiującej kierunek* strzałki.
+pojawia się *różnica*. A gdy *jedynymi dwoma* obiektami kategorii są obiekty początkowy i końcowy,
+istnieje dokładnie *jedna* nietrywialna strzałka. W matematyce, tak jak w psychologii, wszystko
+sprowadza się ostatecznie do tej jednej, *definiującej kierunek* strzałki.
 
 Albo mniej ogólnie: Powód, dla którego pojęcie poprawności należy moim zdaniem traktować jako
 centralne (ale nie jedyne takie) pojęcie psychologii jest, gdy się go już odkryje, zawstydzająco
@@ -177,10 +177,10 @@ wykonywania zadania podejmiemy później.
 
 Trzeba jednak pamiętać, że pojęcia niewykonania zadania i nieosiągnięcia celu mają *dwa* znaczenia:
 Cel może być nieosiągnięty i zadanie może być niewykonane dlatego, że celu *nie udało się* osiągnąć
-i zadania *nie udało się* wykonać, albo dlatego, że *nie było próby* osiągnięcia tego celu albo
-wykonania tego zadania. A mówiąc bardziej abstrakcyjnie (i posługując się częściowo językiem
-technicznym wnioskowania przyczynowego), nie było *interwencji*, której *skutki* podlegałyby ocenie
-(właśnie tego pojęcia nie ma w tym języku) pod względem wykonania tego zadania lub osiągnięcia tego
+a zadania wykonać, albo dlatego, że *nie było próby* osiągnięcia tego celu albo wykonania tego
+zadania. A mówiąc bardziej abstrakcyjnie i posługując się (częściowo ...) językiem technicznym
+wnioskowania przyczynowego, nie było *interwencji*, której *skutki* podlegałyby ocenie (... właśnie
+tego pojęcia nie ma w tym języku) pod względem wykonania tego zadania lub osiągnięcia tego
 celu. Analogicznie, cel może być *w pewnym sensie* osiągnięty i zadanie może być *w pewnym sensie*
 wykonane nie dlatego, że została podjęta jakaś próba osiągnięcia tego celu i wykonania tego zadania,
 tylko dlatego, że *nie ma nic do zrobienia*, bo cel jest w danej sytuacji *zrealizowany* i zadanie
@@ -191,23 +191,29 @@ Zastanawiasz się może, po czym w takim razie poznajemy, że coś jest próbą 
 zdaniem doskonałe pytanie okazuje się zaskakująco głębokie. Dlatego w tym momencie powiem tylko
 tyle, że w pewnym sensie *po niczym*.
 
-Jeżeli tylko nieznacznie uogólnimy pojęcie *ruchu*, będzie natychmiast jasne, że *każdy* akt
-zachowania jest, między innymi, procesem motorycznym, tylko niektóre z nich, a konkretnie zachowania
-*mentalne*, polegają na ruchu (nie mylić z *poruszaniem się*, które już jest zachowaniem) głównie
-*wewnątrz ciała*. Jeżeli to uogólnienie Ci nie odpowiada, to zwróć proszę uwagę, że żadne zdarzenie
-mentalne nie może zajść bez zmiany fizycznego stanu ciała, a poza tym to uogólnienie nie jest
-wewnętrznie sprzeczne, wobec czego, jak każdy *wybór pojęciowy*, podlega *naszej* (muszę się tu
-powołać na *hipotetyczną wspólną normę*) ocenie *tylko* ze względu na to, do czego się przydaje, ...
+Jeżeli tylko nieznacznie uogólnimy pojęcie *ruchu*, stanie się jasne, że *każdy* akt zachowania
+jest, między innymi, (niekoniecznie "mięśniowym") procesem motorycznym, tylko niektóre z nich, a
+konkretnie zachowania *mentalne*, polegają na ruchu (nie mylić z *poruszaniem się*, które już jest
+zachowaniem) głównie *wewnątrz ciała*. Jeżeli to uogólnienie Ci nie odpowiada, to zwróć proszę
+uwagę, że żadne zdarzenie mentalne nie może zajść bez zmiany fizycznego stanu ciała, ta zmiana
+polega między innymi na zmianie struktury, w tym również kształtu albo położenia komórek lub tkanek,
+a poza tym to uogólnienie nie jest wewnętrznie sprzeczne, wobec czego, jak każdy *wybór pojęciowy*,
+podlega *naszej* (muszę się tu powołać na *hipotetyczną wspólną normę*) ocenie *tylko* ze względu na
+to, do czego się przydaje, ...
 
 ... a *warto* dokonać tego moim zdaniem naturalnego uogólnienia, bo dzięki niemu można zobaczyć
-wyraźniej coś, co bardzo długo umykało mojej uwadze. Pouczający może być też powód, dla którego tak
-długo nie udawało mi się tego dostrzec. Byłem mianowicie od dawna przekonany, że istnieje jakaś
-fundamentalna różnica między *zachowaniami zwierząt* z jednej strony, a *sposodem działania
-urządzeń* i wszelkiego rodzaju *narzędzi* czy *mechanizmów* z drugiej. Wydawało mi się na przykład,
-że może rację miał Perry i ta różnica polega na *wyuczalności* zachowań, z której wynika ich
-wyjątkowa adaptacyjna plastyczność, polegająca na poszukującym zmierzaniu ruchu mniej więcej w tą
-samą stronę mimo przeszkód, którego nie widać w typowych urządzeniach, narzędziach, czy wszelkiego
-rodzaju zwykłych mechanizmach.
+wyraźniej coś, co długo umykało mojej uwadze. Pouczający może być też powód, dla którego jak mi się
+zdaje nie byłem w stanie tego dostrzec. Byłem mianowicie od dawna przekonany, że istnieje jakaś
+fundamentalna różnica między *zachowaniami zwierząt* z jednej strony, a *sposobem działania
+urządzeń* i wszelkiego rodzaju *narzędzi* czy *mechanizmów* z drugiej. Byłem o tym przekonany, bo
+zawsze miałem i nadal mam wrażenie, że zachowanie zwierząt jest w jakiś trudny do określenia sposób
+"niemechaniczne", "ożywione", "intencjonalne" i "autonomiczne". Chyba właśnie z powodu tego wrażenia
+myślałem, że może rację miał Perry i ta różnica polega przede wszystkim, albo wręcz wyłącznie na
+*wyuczalności* zachowań. Sądziłem, że to obiecujący pomysł, bo z wyuczalności wynika wyjątkowa
+*adaptacyjna plastyczność* zachowania, polegająca na czymś, co można by określić jako *poszukujące
+zmierzanie ruchu mniej więcej w tym samym kierunku mimo przeszkód*. Nie widać tego w typowych
+urządzeniach, narzędziach, czy wszelkiego rodzaju zwykłych mechanizmach, bo te *nie uczą się na
+błędach*.
 
 Proszę, nie zrozum mnie źle. Nie uważam, że zwierzęta są urządzeniami i *niczym więcej*. Na pewno
 nie *dla nas*, bo *współczujemy* zwierzętom. Współczujemy im nie dlatego, że postrzegamy je jako
