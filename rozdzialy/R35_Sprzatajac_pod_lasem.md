@@ -18,33 +18,30 @@ abstrakcyjne, złożone, wie.lo.as.pek.to.we, irytujące, względne, uciążliwe
 piękne, uzasadnione, wątpliwe, oczywiste, tajemnicze, kosmate, zmysłowe, perwersyjne, wciągające,
 lub drętwe.
 
-A każda hierarchia to pewna relacja porządku.
+A każda hierarchia jest relacją porządku.
 
-W psychologii często kluczowe znaczenie ma to, czy jakaś reakcja jest pod jakimś względem mniej lub
-bardziej spóźniona, intensywna, lub częsta i to też są relacje porządku. Często ważne jest i to, czy
-jakiś stan, taki jak na przykład chwilowa głupota, lub jakaś cecha, taka jak głupota permanentna, są
-mniej lub bardziej nasilone.
+W psychologii często kluczowe znaczenie ma to, czy jakaś reakcja jest mniej lub bardziej spóźniona,
+intensywna, lub częsta i to też są relacje porządku. Często ważne jest i to, czy jakiś stan, taki
+jak na przykład chwilowa głupota, lub jakaś cecha, taka jak głupota permanentna, jest mniej lub
+bardziej nasilony/a.
 
-Istnieje jednak pewien *typ* relacji porządku, który ma dla psychologii znaczenie szczególne. Co
-więcej, ten porządek ma szczególny charakter również z perspektywy *matematycznej* i
-*filozoficznej*. Z powodów, które za chwilę staną się mam nadzieję jasne, można nawet powiedzieć, że
-ten szczególny pod względem struktury formalnej i znaczenia w życiu codziennym typ porządku jest
-*centralnym pojęciem* psychologii.
+Istnieje pewien *typ* relacji porządku, który ma dla psychologii znaczenie szczególne i ten porządek
+ma szczególny charakter również z perspektywy *matematycznej* i *filozoficznej*. Z powodów, które za
+chwilę staną się jasne, można nawet powiedzieć, że ten szczególny pod względem struktury formalnej i
+znaczenia w życiu codziennym typ porządku jest *centralnym pojęciem psychologii*.
 
 Chodzi o coś najzwyczajniejszego w świecie zwierząt.
 
 ## Poprawność jest centralnym porządkiem psychologii[^4]
 
 Zawsze, gdy możemy mówić o poprawności, mamy do czynienia ze zbiorem dwuelementowym i relacją
-porządku polegającą na tym, że jeden z elementów tego zbioru jest "mniejszy" niż drugi.
+porządku polegającą na tym, że jeden z elementów tego zbioru jest "mały", a drugi "duży", a więc
+"większy" niż "mały".
 
 <hr>
 
-Gdy zbiór jest *pusty* (a więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego
-\{*od momentu, w którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the
-empty set*, zamiast *an empty set*, a po polsku *ten* zbiór pusty), można na nim zdefiniować tylko
-*jeden* porządek, ponieważ na zbiorze pustym można zdefiniować tylko jedną relację w ogóle (a więc
-też tylko jeden predykat):
+Gdy zbiór jest *pusty*[^6], można na nim zdefiniować tylko *jeden* porządek, ponieważ na zbiorze
+pustym można zdefiniować tylko jedną relację:
 
 ```lean
 def Pred   α   := α → Prop
@@ -57,18 +54,19 @@ def Empty_rel  : Binrel Empty Empty := fun niemozliwosc => niemozliwosc.elim
 ```
 
 Uprościłem zapis, zakładając, że już wiesz, czego Lean się w tym przypadku automatycznie domyśla. Na
-początek dodajemy trochę lukru, który ma na celu ujawnienie "intencji kodu". Skoro wszystko można
-rozumieć na wiele sposobów, to funkcje z arbitralnego typu lub typów do `Prop` też można rozumieć na
-wiele sposobów. Tutaj sygnalizujemy, że naszym celem jest traktowanie tych funkcji jako odpowiednio
-predykatów i relacji binarnych. Dzięki temu widzimy też od razu, że predykaty i relacje, nie tylko
-binarne - bo przecież naturalne uogólnienie na dowolną arność niemal tutaj widać - są właściwie tym
-samym, a nazywamy te dwa rodzaje obiektów inaczej dlatego, że chcemy czasem coś innego
-zaakcentować. Wprowadzając pozornie nieistotne rozróżnienie na predykaty i relacje możemy zawęzić
-uwagę, zarówno swoją jak i odbiorców, do predykatów (i jednocześnie relacji) o określonej arności i
-poddać pewnej kontroli narzucające się skojarzenia.
+początek dodajemy trochę lukru, który ma na celu ujawnienie *intencji kodu*: Skoro wszystko można
+rozumieć na wiele sposobów, to funkcje do `Prop` też można rozumieć na wiele sposobów. Tutaj
+sygnalizujemy, że naszym celem jest traktowanie tych funkcji jako odpowiednio predykatów i relacji
+binarnych. Dzięki temu widzimy też, że predykaty i relacje, nie tylko binarne - bo przecież
+naturalne uogólnienie na dowolną arność niemal tutaj widać - są właściwie tym samym, a nazywamy te
+dwa rodzaje obiektów inaczej dlatego, że chcemy czasem coś innego zaakcentować. Wprowadzając
+pozornie nieistotne rozróżnienie na predykaty i relacje możemy zawęzić uwagę, zarówno swoją jak i
+odbiorców, do predykatów (i jednocześnie relacji) o określonej arności i poddać tak pewnej kontroli
+narzucające się skojarzenia.
 
 Zdefiniowana właśnie relacja spełnia wymagania, jakie stawiamy relacjom porządku (o czym później),
-pusto. To zatem *porządek pusty*, który ma znaczenie *czysto teoretyczne*.
+pusto. To zatem *porządek pusty*, o którym można powiedzieć, że podobnie jak liczba zero ma
+znaczenie *czysto teoretyczne*.
 
 Osobliwość typu `Empty` widać wyraźnie w strukturze ciał dwóch ostatnich definicji. Ponieważ
 funkcja, która wymaga termu typu `Empty`, nie może być nigdy wywołana z definicji, aby spełnić
@@ -79,97 +77,103 @@ razu "spełnić oczekiwanie" stworzenia termu *dowolnego* typu, w tym również 
 pomocą czegoś w rodzaju - w tym wypadku akceptowalnej - *pustej obietnicy*, albo obietnicy *z
 konieczności* bez pokrycia.
 
-W dwóch ostatnich definicjach tak naprawdę *nie ma ciała*, bo term `niemozliwosc.elim` reprezentuje
-możliwość zastosowania wobec *czysto teoretycznych* funkcji tego rodzaju reguły eliminacji, a nie
-możliwą wartość parametru `niemozliwosc`. Poczucie dezorientacji, które może wywołać takie
-zastosowanie typu `Empty`, `False`, czy naszego `Absurd`, wynika więc dokładnie stąd, że to są
-tylko - i zarazem *aż* - *czyste narzędzia rozumowania*. Przypominają pod tym względem te bardziej
+W dwóch ostatnich definicjach tak naprawdę *nie ma ciała*. Term `niemozliwosc.elim` jest co prawda
+zapisany wewnątrz *formalnego* ciała tych definicji, ale reprezentuje możliwość zastosowania wobec
+*czysto teoretycznych* funkcji tego rodzaju reguły eliminacji, a nie zastosowanie funkcji `elim` do
+możliwej wartości parametru `niemozliwosc`. Poczucie dezorientacji, które może wywołać takie
+zastosowanie typu `Empty`, `False`, czy naszego `Absurd`, wynika więc stąd, że to są tylko - i
+zarazem *aż* - *czyste narzędzia rozumowania*. Przypominają pod tym względem te bardziej
 abstrakcyjne rodzaje elementów neutralnych i zarazem kategoryjnych identyczności, w tym zera i inne
 podobne do zer, w takim lub innym znaczeniu puste konstrukcje. Inaczej mówiąc, te typy *są samym
 sposobem użycia*; dlatego są takie "puste w środku".
 
-Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Twoją uwagę na tą - być
-może pozornie wynikającą tylko z implementacji - osobliwą obserwację, bo niebawem będziemy z niej
-wyprowadzać nieuchronne i bardzo daleko idące wnioski:
+Pozwolisz, że mimo zaakcentowania jej pismem pochyłym, jeszcze raz zwrócę Twoją uwagę na tą -
+pozornie wynikającą tylko z implementacji - osobliwą obserwację, bo niebawem będziemy z niej
+wyprowadzać daleko idące wnioski:
 
 ## Funkcje z pustych struktur początkowych są bezcielesnymi albo czystymi sposobami
 
 A teraz nadal o tym samym, ale wychodząc z innego punktu: Teoria mnogości może się wydawać nawet
-współczesnym matematykom nudna i mnie też do niedawna taka właśnie się często zdawała. Na przykład,
+współczesnym matematykom nudna i mnie też do niedawna taka właśnie się czasem zdawała. Na przykład,
 kategoryści piszą o niej czasem, że to tylko jeden z wielu możliwych języków podstawowych matematyki
 i tylko jedna z nieskończenie wielu możliwych kategorii. Ale teoria mnogości nie jest tylko jakąś
 tam kategorią, ponieważ jej centralne pojęcie, to jest pojęcie funkcji, rozumianej jako samo
 przyporządkowanie arbitralnych wartości abstrakcyjnym elementom, odpowiada *najbardziej elementarnej
-funkcji języka*, jaką jest *oznaczanie*. Teoria mnogości *nie* jest więc w istocie teorią *zbiorów*,
-tylko maksymalnie ogólną albo podstawową - i mechaniczną, bo to matematyka - teorią oznaczania.
+funkcji języka*, jaką jest *oznaczanie*, patrząc z perspektywy dziedziny funkcji rozumiane albo jako
+*wyróżnianie*, a patrząc z perspektywy kodziedziny jako *kategoryzowanie* albo *klasyfikacja*. Tak
+rozumiana teoria mnogości *nie* jest teorią *zbiorów*, tylko ogólną albo "elementarną" - i
+mechaniczną, bo to matematyka - teorią oznaczania.
 
 Z tej perspektywy jest wręcz zadziwiające, że chociaż teoria kategorii pozwala wyraźnie zobaczyć, że
 strzałki są daleko ważniejsze niż obiekty, to jednak w każdym znanym mi podręczniku do teorii
-kategorii autorzy nadal piszą o kategoriach tak, jakby akcentowanie strzałek było co najwyżej z
-pewnych względów bardziej użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym,
-którym Ci autorzy się posługują tłumacząc, o co w tym chodzi. Z powodów historycznych i chyba też z
-głębszych powodów psychologicznych matematycy są wciąż moim zdaniem nadmiernie przywiązani do
-*zwykłych rzeczowników*, a do mówienia o pewnych ważnych strukturach jako o kategoriach w sposób
-oczywisty zwykle znacznie bardziej nadają się *rzeczowniki odczasownikowe*, takie jak "oznaczanie".
+kategorii autorzy nadal piszą o kategoriach tak, jakby akcentowanie strzałek było tylko z pewnych
+względów bardziej użytecznym punktem widzenia. Widać to szczególnie w języku naturalnym, którego
+używają tłumacząc o co w tym chodzi. Z powodów historycznych i chyba też z głębszych powodów
+psychologicznych matematycy są wciąż moim zdaniem nadmiernie przywiązani do *zwykłych rzeczowników*,
+a do mówienia o pewnych ważnych strukturach jako o kategoriach zwykle bardziej nadają się
+*rzeczowniki odczasownikowe*, takie jak "oznaczanie".
 
 Gdy tylko wyprowadzimy ostateczne wnioski z obserwacji, że to strzałki są w kategoriach
-najważniejsze, staje się natychmiast jasne, że teoriomnogościowe elementy są arbitralnymi
-oznaczeniami, które tylko dzięki funkcjom mogą cokolwiek oznaczać. Struktury, które opisujemy za
-pomocą zwykłych rzeczowników, takie jak zbiory i należące do nich elementy, są *niczym* bez
-*sposobu, w jaki ich używamy*, bo te struktury są tylko - i aż - częściami pewnego *języka*, a język
-jest naszym *narzędziem*. To dzięki językowi panujemy nad światem i nad sobą w takim stopniu, w
-jakim panujemy i to dzięki językowi możemy się *wzajemnie rozumieć* i możemy do pewnego stopnia
-rozumieć *sami siebie*.
+najważniejsze, staje się jasne, że teoriomnogościowe elementy są arbitralnymi oznaczeniami, które
+tylko dzięki funkcjom mogą cokolwiek oznaczać. Struktury, które opisujemy za pomocą zwykłych
+rzeczowników, takie jak zbiory i należące do nich elementy, są *niczym* bez *sposobu, w jaki ich
+używamy*, bo te struktury są tylko - i aż - częściami pewnego *języka*, a język jako taki jest
+naszym *narzędziem*. To dzięki językowi panujemy nad światem i nad sobą (nawzajem) w takim stopniu,
+w jakim panujemy, między innymi dlatego, że to dzięki językowi możemy się *wzajemnie rozumieć* i
+możemy do pewnego stopnia rozumieć *sami siebie*. A każdy język jako taki jest co najmniej pewnym
+sposobem *konsekwentnego wyróżniania i klasyfikowania*.
 
-Dlatego moim zdaniem tradycyjne teoriomnogościowe implementacje pojęć kategoryjnych mają status
+Z powodu wagi tej funkcji (jako roli), moim zdaniem tradycyjne teoriomnogościowe implementacje
+pewnych kategoryjnych konstrukcji, takie jak zbiór pusty jako obiekt początkowy, singleton jako
+obiekt końcowy, czy zbiór par uporządkowanych elementów dwóch zbiorów jako produkt, mają status
 implementacji w głęboko *ludzkim* sensie kanonicznych. I tak będę je odtąd czasami traktował - jako
-szczególnie ważne *źródła sensu* jednych z najbardziej abstrakcyjnych i zarazem najbardziej
-uniwersalnie użytecznych pojęć jakimi dysponujemy, to jest kategoryjnych
+w tym właśnie znaczeniu kanoniczne *źródła sensu* jednych z najbardziej abstrakcyjnych i zarazem
+najbardziej uniwersalnie użytecznych pojęć jakimi dysponujemy, to jest kategoryjnych
 [*granic*](https://en.wikipedia.org/wiki/Limit_(category_theory)), o których opowiem Ci więcej w
 odpowiednim czasie.
 
 <hr>
 
-Gdy zbiór jest (jakimkolwiek) *singletonem*, również można na nim zdefiniować tylko jeden porządek,
-który co prawda nie jest wtedy pusty, ale też jest trywialny. Tej trywialności po prostu nie da się
-nie zobaczyć przyjmując perspektywę kategoryjną, bo porządek na singletonie rozumiany jako cienka
-kategoria sprowadza się do pojedynczego obiektu wyposażonego tylko w pętlę identyczności, a obiekt i
-jego identyczność to jedno i to samo. A więc porządek na singletonie jest tym samym, co *obiekt bez
-właściwości*.
+Kiedy zbiór jest jakimkolwiek *singletonem*, wtedy również można na nim zdefiniować tylko jeden
+porządek, który - z powodu wymagania zwrotności - nie jest pusty, ale też jest trywialny. Tej
+trywialności nie sposób nie zobaczyć z perspektywy kategoryjnej, bo porządek na singletonie jako
+(cienka) kategoria sprowadza się do jednego obiektu i jego identyczności, a to jedno i to samo. A
+więc porządek na singletonie to abstrakcyjny *obiekt bez właściwości*.
 
 Gdy jednak elementy są *dwa*, możliwych porządków jest więcej. *Dwa* z tych porządków, będące
 izomorficzną parą, można interpretować zarówno jako porządek *wartości logicznych* - `{zdanie
 fałszywe < zdanie prawdziwe}` - jak i jako porządek *poprawności* - `{działanie błędne < działanie
-poprawne}`. W dodatku ten głęboki związek między *celowością* i *logiką* nie jest wcale przypadkowy.
+poprawne}`. W dodatku ten głęboki związek między *celowością* i *logiką* nie jest przypadkowy.
 
 Zawsze, gdy możemy mówić o reakcjach, odpowiedziach, czynnościach, zachowaniach, albo działaniach
 poprawnych, możemy też mówić o reakcjach, odpowiedziach, czynnościach, zachowaniach, albo
-działaniach błędnych i vice versa. To są *dokładnie* te same sytuacje, w których możemy też mówić o
+działaniach błędnych i vice versa. To są dokładnie te same sytuacje, w których możemy też mówić o
 błędnym lub poprawnym wykonaniu jakiegoś *zadania*. Wykonanie błędne traktujemy wtedy jako w pewnym
-sensie mniejsze albo *gorsze* niż wykonanie poprawne, tak jak fałsz traktujemy jako coś mniejszego
+sensie mniejsze albo gorsze niż wykonanie poprawne, tak jak fałsz traktujemy jako coś mniejszego
 albo gorszego od prawdy, brzydotę jako coś gorszego od piękna, a zło jako coś gorszego od dobra.
 
-Formalnie, wszystkie te struktury są jedną i tą samą strukturą porządku na zbiorze dwuelementowym,
-który to porządek, postrzegany jako kategoria, jest dokładnie pojedynczą nieidentycznościową, a więc
-już *nie*trywialną, *strzałką*.
+Formalnie, wszystkie te struktury są jedną strukturą porządku na zbiorze dwuelementowym, który -
+jako kategoria - jest dokładnie pojedynczą nietrywialną strzałką.
 
 Gdy nie ma nic, nic nie może się wydarzyć i ani nie ma o czym mówić, ani nie ma Nikogo, kto mógłby o
 czymś mówić. Gdy jest tylko jedno coś i nic więcej nie ma, wtedy wszystko, co jest, jest tym jednym
-czymś i nie ma żadnej nietrywialnej struktury; a więc również nie ma o czym mówić, ani nie ma
-Nikogo, kto mógłby o czymś mówić. I wtedy *też* jest tak, jakby nic nie było. Obiekt początkowy i
-obiekt końcowy to *jedno* i to samo pojęcie postrzegane z dwóch *dualnych* perspektyw. Nie każda
-kategoria ma jednak początek i koniec. Wszędzie tam, gdzie istnieją *co najmniej dwa* obiekty,
+czymś i nie ma żadnej nietrywialnej struktury, i też jest tak, jakby nic nie było, bo wtedy również
+nie ma o czym mówić, ani nie ma Nikogo, kto mógłby o czymś mówić. 
+
+Obiekt początkowy i obiekt końcowy to *jedno* pojęcie postrzegane z dwóch *dualnych* perspektyw. Nie
+każda kategoria ma jednak początek i koniec. Wszędzie tam, gdzie istnieją *co najmniej dwa* obiekty,
 pojawia się *różnica*. A gdy *jedynymi dwoma* obiektami są obiekty początkowy i końcowy, istnieje
 dokładnie *jedna* nietrywialna strzałka. W matematyce, tak jak w psychologii, wszystko sprowadza się
 ostatecznie do tej jednej, *definiującej kierunek* strzałki.
 
 Albo mniej ogólnie: Powód, dla którego pojęcie poprawności należy moim zdaniem traktować jako
 centralne (ale nie jedyne takie) pojęcie psychologii jest, gdy się go już odkryje, zawstydzająco
-prosty. *Zachowanie* (albo *czynność*) to inaczej *działanie celowe*. Pojęcie celu jest zaś ściśle
-związane z pojęciami osiągnięcia i *nie*osiągnięcia celu. A ponieważ cel i zadanie to jedno i to
-samo, zamiast o osiągnięciu celu możemy równie dobrze mówić o poprawnym lub błędnym wykonaniu
-zadania. Kwestię *stopniowalnego* i *jakościowo zróżnicowanego* osiągania celu i wykonywania zadania
-podejmiemy innym razem.
+prosty. *Zachowanie* to inaczej *działanie celowe*, albo po prostu *czynność* lub *działanie*,
+ponieważ wykonywać jakąś czynność albo działać w jakiś sposób można lepiej albo gorzej. Pojęcie celu
+jest zaś ściśle związane z pojęciami osiągnięcia i *nie*osiągnięcia celu. A ponieważ cel i zadanie
+to jedno i to samo, zamiast o osiągnięciu celu możemy równie dobrze mówić o poprawnym lub błędnym
+wykonaniu zadania. Kwestię *stopniowalnego* i *jakościowo zróżnicowanego* osiągania celu i
+wykonywania zadania podejmiemy później.
 
 Trzeba jednak pamiętać, że pojęcia niewykonania zadania i nieosiągnięcia celu mają *dwa* znaczenia:
 Cel może być nieosiągnięty i zadanie może być niewykonane dlatego, że celu *nie udało się* osiągnąć
@@ -450,7 +454,7 @@ przez nas sposoby niesienia pomocy działają. Albo o tym, jak mało religia zin
 legitymująca się "autorytetami" prawa świeckiego i prawa - któregoś dnia jakiemuś komuś przez nie
 wiadomo jakiego kogoś - "objawionego" ma wspólnego z autentycznym
 [*dialogiem*](https://en.wikipedia.org/wiki/Index_Librorum_Prohibitorum), będącym samym rdzeniem
-psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wszystkich możliwych form
+psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wszystkich form
 *współpracy*.
 
 <hr>
@@ -677,3 +681,7 @@ przez około pół godziny? Jeżeli tak lub nie, to zapraszam [tutaj](./R35__Spr
 
 [^5]: Drugie zdanie na tej stronie to, cytuję, "Z naukowego punktu widzenia kolor jest wyrażeniem
     światła.", i moim zdaniem to jest słodkie.
+
+[^6]: A więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego \{*od momentu, w
+    którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the empty set*,
+    zamiast *an empty set*, a po polsku *ten* zbiór pusty
