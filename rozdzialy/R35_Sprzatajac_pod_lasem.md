@@ -222,35 +222,35 @@ widoczny sposób *cierpią*. Najbardziej tym, które należą do tego samego gat
 [nie tylko im](https://pl.wikipedia.org/wiki/Karuna). Z roślinami, owadami, grzybami, mikrobami i
 niektórymi innymi formami życia bywa pod tym względem, jak wiadomo, bardzo różnie.
 
-Natomiast nie bardzo współczujemy urządzeniom. A kiedy czasem do pewnego stopnia współczujemy
-niektórym urządzeniom, zwłaszcza tym, do których jesteśmy w jakiś sposób *przywiązani*, mamy do
-takich reakcji pewien dystans, którego nie mamy w stosunku do własnego współczucia wobec
-zwierząt. Zwierzęta zdecydowanie *nie* są więc (dla nas) po prostu urządzeniami, bo z naszej
-ludzkiej i jednocześnie *wspólnej* (to nie to samo) perspektywy, zwierzęta *zasługują* na
-współczucie. I szacunek.
+Natomiast nie bardzo współczujemy urządzeniom. A kiedy do pewnego stopnia współczujemy niektórym
+urządzeniom, zwłaszcza tym, do których jesteśmy *przywiązani*, mamy do tych reakcji dystans, którego
+nie mamy w stosunku do własnego współczucia wobec zwierząt. Zwierzęta zdecydowanie *nie* są więc
+(dla nas) po prostu urządzeniami, bo z naszej ludzkiej i jednocześnie *wspólnej* (to nie to samo)
+perspektywy, zwierzęta *zasługują* na współczucie. I szacunek.
 
 Ale **zachowanie**, ten centralny przedmiot zainteresowania psychologii, to dokładnie *działanie
-celowe*, albo - po dokonaniu uogólnienia już równoważnie - *celowy ruch*; nic mniej i nic
-*więcej*. Własność *wyuczalności* przysługuje (w szczególny sposób, o czym później) pewnym celowym
-ruchom, a dokładniej pewnym *sekwencjom ruchów*, co sprawia, że te ruchy są dla nas automatycznie
-interesujące, a często wręcz przykuwają naszą uwagę i automatycznie widzimy w nich coś w rodzaju
-autonomii (pamiętasz tamtą mysz?). Ale celowość występuje w sposób oczywisty również w nieuczących
-się narzędziach, urządzeniach, mechanizmach i innych artefaktach, takich jak dzieła sztuki.
+celowe*, albo - po dokonaniu uogólnienia już równoważnie i wyraźnie oddzielając wymiary funkcjonalny
+i implementacyjny - *celowy ruch*; nic mniej i nic *więcej*. Własność *wyuczalności* przysługuje (w
+szczególny sposób, o czym później) pewnym celowym ruchom, a dokładniej pewnym *sekwencjom ruchów*,
+co sprawia, że te ruchy są dla nas automatycznie interesujące, a często wręcz przykuwają naszą uwagę
+i automatycznie widzimy w nich coś w rodzaju autonomii (pamiętasz tamtą mysz?). Ale celowość
+występuje w sposób oczywisty również w nieuczących się narzędziach, urządzeniach, mechanizmach i
+innych artefaktach, takich jak dzieła sztuki, tylko w nieco inny sposób.
 
 W sali, w której spędziłem kilka pierwszych lat szkoły podstawowej, na ścianie wisiał napis
 "Matematyka jest królową nauk". Wtedy nie wiedziałem, co o tym myśleć, ale byłem mały i jeszcze
 głupszy niż teraz. A teraz myślę o tym tak:
 
-Matematyka to dokładnie celowe posługiwanie się dowolnymi jednoznacznymi regułami językowymi, które
-pozwalają rozstrzygać mechanicznie, jakie sekwencje symboli są poprawne, a jakie nie. Teorie naukowe
-są relatywnie dobrze ustrukturyzowanymi konstrukcjami pojęciowymi, które istnieją tylko dzięki temu,
-że istnieje język. Matematyka jest tą szczególną dyscypliną nauki, która zajmuje się w pewien sposób
-językami wszystkich nauk, w tym również swoimi własnymi językami.
+Matematyka to dokładnie celowe posługiwanie się dowolnymi jednoznacznymi regułami językowymi,
+pozwalającymi rozstrzygać mechanicznie, które sekwencje symboli są poprawne, a które nie. Teorie
+naukowe są relatywnie dobrze ustrukturyzowanymi konstrukcjami pojęciowymi, istniejącymi tylko
+dzięki temu, że istnieje język. Matematyka jest tą szczególną dyscypliną nauki, która zajmuje się w
+pewien sposób językami wszystkich nauk, w tym również swoimi własnymi językami.
 
 Jeżeli matematyka jest Królową nauk, to fizyka, która jest dokładnie celowym stosowaniem języków
 matematycznych do kontroli wszelkich zdarzeń, jest ich Królem. Można więc powiedzieć, że ta
-Wspaniała Dwójka (dziewczyn!) rodzi najwięcej zastosowań niemal *z definicji*. Nasza Płodna Para ma
-dokładnie jednego rodzica, Matkę psychologię, która pilnuje, żeby Dzieci się zachowywały. A Ojciec,
+Wspaniała Dwójka (dziewczyn) rodzi najwięcej zastosowań niemal *z definicji*. Nasza Płodna Para ma
+dokładnie jednego rodzica, Matkę psychologię, która pilnuje, żeby dzieci się zachowywały. A Ojciec,
 cóż, albo się ulotnił, albo nigdy go nie było i jako Ten Nieistniejący spełnił swój rodzicielski
 obowiązek pusto.
 
@@ -279,14 +279,14 @@ W szczególności, gdzie w jakiejkolwiek innej dyscyplinie nauki znajdziemy jako
 są tylko *powody*, dla których *matematycy* te struktury badają, w dodatku z definicji, bo badanie
 czegoś jest pewnego rodzaju zachowaniem. A Wszechświat badany przez fizyków jest *obcy*.
 
-Albo tak: Jak doskonale ujął to mój najważniejszy przyjaciel, Tomek Grzegorek[^1]:
+Albo tak: Jak doskonale ujął to mój przyjaciel, Tomek Grzegorek[^1]:
 
 *Psychologia nigdy nie cierpiała na niedobór danych*.
 
-Każda dyscyplina naukowa *jako taka* jest *wytworem* i zarazem *narzędziem ludzi*. Nauka jako taka
+Każda dyscyplina naukowa *jako taka* jest *wytworem* i zarazem *narzędziem ludzi* - nauka jako taka
 jest rezultatem pewnego rodzaju zachowań i każdy przypadek zastosowania nauk jako taki jest pewnym
-zachowaniem. Wiem, że wspominałem na początku, żeby nie przesadzać z ambicjami, a to wszystko może
-brzmieć tak, jakbym sam z nimi przesadzał w stopniu maksymalnym (o, porządek!). Ale to nie są moje
+zachowaniem. Wiem, że wspominałem na początku, żeby nie przesadzać z ambicjami, a to może brzmieć
+tak, jakbym sam z nimi przesadzał w stopniu maksymalnym (o, porządek!). Ale to nie są moje
 [*ambicje*](https://youtu.be/ARcEpefk3Oo?si=MwHF-eLet2lj9SNZ).
 
 To są *uzasadnione wnioski*.
@@ -297,10 +297,10 @@ Wróćmy do strzałki.
 
 Pojedyncza strzałka jako kategoria, czyli `I → T`, gdzie `I` to z konieczności obiekt początkowy
 (ang. *initial*), a `T` to z konieczności obiekt końcowy (ang. *terminal*), jest więc, między
-innymi, a może nawet przede wszystkim, Oceną. *Źródło* tej strzałki można rozumieć jako czystą
-abstrakcję: zbioru pustego, typów `False` i `Empty`, i w ogóle wszelkich struktur będących
-Bezcielesnymi Sposobami. Jej *cel* można postrzegać jako Atom albo Element czy też Obiekt Bez
-Właściwości, a więc materię jako taką, niezależnie od [typu
+innymi, a może nawet przede wszystkim, Oceną, a to dlatego, że ta strzałka jest *abstrakcyjnym
+kierunkiem*. Jej *źródło* można rozumieć jako czystą abstrakcję: zbioru pustego, typów `False` i
+`Empty`, i w ogóle wszelkich struktur będących Bezcielesnymi Sposobami. Jej *cel* można postrzegać
+jako Atom, Element, lub Obiekt Bez Właściwości, a więc materię jako taką, niezależnie od [typu
 "substancji"](https://plato.stanford.edu/entries/substance/). A skoro to są obiekty początkowy i
 końcowy dokładnie dlatego, że pierwszy emituje dokładnie jedną strzałkę do wszystkich obiektów, a
 drugi przyjmuje dokładnie jedną strzałkę od wszystkich obiektów, to tym, co *czyni* je w tej
@@ -314,13 +314,14 @@ Skierowanie : Celowości → Materię
 Albo: Kierunek (jako taki), który jest możliwy dzięki istnieniu (jako takiej) Różnicy.
 
 Wydaje mi się nawet, że warto przyjąć, chociaż na próbę, ogólną i *funkcjonalną* (sic!) definicję
-Materii, a może lepiej Substancji, jako *tego, na co można skierować* - *niekoniecznie czyjąś* -
+Materii, a może lepiej Substancji, jako *tego, na co można skierować* (niekoniecznie czyjąś)
 *uwagę*. Jak każde tego rodzaju początkowo dziwne, ale w jakiś sposób akceptowalne uogólnienie,
 warto je przyjąć między innymi po to, żeby mieć dzięki temu chociaż *szansę* zobaczenia inaczej
-niedostrzegalnych, potencjalnie głębokich analogii.
+niedostrzegalnych, potencjalnie użytecznych analogii.
 
-Teoria kategorii to abstrakcyjna algebra składania teoriomnogościowych funkcji, a więc - można teraz
-już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywialna kategoria, ...
+Teoria kategorii to abstrakcyjna algebra składania teoriomnogościowych funkcji, a więc - możemy
+teraz już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywialna kategoria
+zbudowana z granic, ...
 
 `I → T`
 
@@ -330,22 +331,22 @@ już powiedzieć, że *dosłownie* - *algebra oznaczania*. Najprostsza nietrywia
 
 ... a na tą implementację popatrzymy z kolei jako na funkcję z typu albo zbioru -
 `Empty`/`∅`/`False` - *bez zawartości* do typu albo zbioru odpowiadającego *obiektowi jako
-takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, *substancji jako takiej*,
-okazuje się być *oznaczaniem bez oznaczającego*.
+takiemu* - `Unit`/`{⬝}`/`True` - albo, w przyjętej na próbę interpretacji, do *substancji jako
+takiej*, okazuje się być, też dosłownie, *oznaczaniem bez oznaczającego*.
 
 Ta osobliwa strzałka jest zatem *uwagą*, ale uwagą *niczyją*, albo *patrzeniem jako takim*, albo
 *subiektywnością jako taką*. I jest też *oceną*, w najbardziej podstawowym znaczeniu, bo - zawsze
 tylko subiektywnie - *ważne może być tylko to, na co zwrócona jest uwaga*, ponieważ *nie da się
-chcieć albo nie chcieć tego, czego nie można w jakiś sposób wskazać*.
+chcieć lub nie chcieć tego, czego nie można wyróżnić albo wskazać*.
   
 Uwierz mi, wiem aż za dobrze, jak dziwnie to wszystko początkowo brzmi, ale jeśli nie możesz się z
-tym zgodzić, to powiedz, *czym innym mogłaby być* abstrakcyjna strzałka?
+tym zgodzić, to powiedz, czym innym mogłaby być symboliczna abstrakcyjna strzałka?
 
 <hr>
 
 Pamiętasz, jak w rozdziale szesnastym, dotyczącym (logiki, akjomatów, faktów,) wyborów, postaw i
 wolności, pisząc, że widzę już, dokąd to wszystko zmierza, powiedziałem, że jeszcze nie mam palca,
-którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu (jeszcze) Księżyca.
+którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma tu jeszcze Księżyca.
 
 <hr>
 
@@ -353,42 +354,40 @@ którym mógłbym Ci wskazać (jakiś) Księżyc? To jest ten palec; ale nie ma 
 
 Postaram się z tym pół-formalnym mistycyzowaniem zbytnio nie narzucać i z tego rodzaju spraw również
 będę tu żartował. Tym bardziej, że humor wydaje mi się być najbardziej ludzką i najskuteczniej
-uwalniającą nas z rozmaitych ograniczeń formą sztuki, między sztuką i nauką nie widzę wielkiej
-różnicy, a w nauce jako takiej zacząłem już widzieć tylko i wyłącznie psychologię matematyczną albo
-*zmatematyzowaną*, którą rozumiem i którą nieudolnie próbuję stosować - przede wszystkim *wobec
-siebie* - jako pół-formalne dusz-pasterstwo.
+uwalniającą nas z rozmaitych ograniczeń, codzienną formą sztuki, między sztuką i nauką nie widzę
+wielkiej różnicy, a w nauce jako takiej zacząłem już widzieć tylko i wyłącznie psychologię
+matematyczną albo zmatematyzowaną, którą rozumiem i którą nieudolnie próbuję stosować, przede
+wszystkim wobec siebie, jako coś w rodzaju pół-formalnego dusz-pasterstwa.
 
-Jak już wspominałem, nigdy nie byłem w żadnym prostym znaczeniu religijny, ale ta osobliwa strzałka,
-odkąd ku własnemu zaskoczeniu ją w ten opisany wyżej sposób zobaczyłem, stała się dla mnie czymś,
-ponad co ani formalnie, ani nieformalnie, parafrazując Świętego Anzelma, *nie mogę pomyśleć nic
-większego*.
+Jak już wspominałem, nigdy nie byłem i chyba nigdy nie będę w żadnym prostym sensie religijny czy
+wierzący, ale ta osobliwa strzałka, odkąd ku własnemu zaskoczeniu ją w ten opisany właśnie sposób
+zobaczyłem, stała się dla mnie czymś, ponad co ani formalnie, ani nieformalnie, parafrazując
+Świętego Anzelma, *nie mogę pomyśleć nic większego*.
 
-Formalnie, co łatwo zauważyć, to między innymi uporządkowana para złożona z *wartości logicznych*,
-to jest z prawdy i fałszu. No i co teraz poradzisz na to, że tak właśnie mówi Pismo Święte?
+Jak ustaliliśmy, formalnie to jest między innymi uporządkowana para złożona z wartości logicznych,
+to jest z prawdy i fałszu. No i co w tym kontekście powiesz na to, że tak właśnie mówi Pismo Święte?:
 
 *Ἔστω δὲ ὁ λόγος ὑμῶν ναὶ ναί, οὒ οὔ· τὸ δὲ περισσὸν τούτων ἐκ τοῦ πονηροῦ ἐστιν*.
 
-*Niech wasza mowa będzie: Tak, tak; nie, nie. A co nadto jest, od Złego pochodzi*.
-
-A sięgając do tradycji wschodniej, czy potrafisz *nie* zobaczyć takiej oto oczywistej analogii:
+A sięgając do tradycji wschodniej, czy potrafisz *nie* zobaczyć takiej oto moim zdaniem oczywistej
+analogii?:
 
 Z jednej strony mamy inherentną dwoistość, a mówiąc językiem technicznym podwójną dualność osobliwej
-strzałki, polegającą na tym, że ta strzałka jest parą obiektów dualnych, będących zresztą
-najprostszymi możliwymi granicami i kogranicami, a jako kategoria jest izomorfem swojej postaci
-dualnej.
+strzałki, polegającą na tym, że ta strzałka jest parą obiektów dualnych, będących odpowiednio
+najprostszą możliwą granicą i kogranicą, a jako kategoria jest równa swojej postaci dualnej.
 
-Z drugiej strony mamy to, co w chińskiej kosmologii nosi nazwę 陰陽 i czym kiedyś chętnie
-przystrajali się hipisi, i co było, zwłaszcza wśród młodzierzy, dosyć popularne w kulturze
-zachodniej lat dziewięćdziesiątych. Chodzi mi o znane Ci z pewnością, dwie tulące się do siebie
-łezki albo krople, zawierające na swoich końcach punkty o przeciwnym
+Z drugiej strony mamy to, co w chińskiej kosmologii nosi nazwę 陰陽, czym kiedyś chętnie
+przystrajali się hipisi i co było, zwłaszcza wśród młodzierzy, dosyć popularne w kulturze zachodniej
+lat dziewięćdziesiątych. Chodzi mi o znane Ci z pewnością, dwie tulące się do siebie łezki albo
+krople, zawierające na swoich końcach punkty o przeciwnym
 [odcieniu](https://www.adobe.com/pl/creativecloud/design/discover/is-black-a-color.html)[^5] i
 będące nawzajem swoimi negatywami. Czy to nie wygląda *dokładnie* jak reprezentacja dwóch
-"dopełniających Się", dualnych postaci arbitralnie skierowanej osobliwej strzałki, w dodatku
+*dopełniających Się*, dualnych postaci arbitralnie skierowanej osobliwej strzałki, w dodatku
 narysowanej w sposób, który wydaje się idealnie oddawać charakter jej postaci kanonicznej jako
-podkategorii Set?
+podkategorii kategorii zbiorów?
 
 To pojęcie i ten symbol oznacza dopełniające się i przeciwstawne siły, które razem tworzą taki
-(najmniejszy, a zatem graniczny, a więc w pewnym pół-formalnym sensie kategoryjny) dynamiczny układ,
+(najmniejszy, a zatem graniczny, a więc w pewnym pół-formalnym sensie kategoryjny) układ dynamiczny,
 że całość jest czymś więcej niż (i to też można dosłownie rozumieć formalnie, korzystając z
 kategoryjnego pojęcia sumy) prostą sumą części, i że obie części są konieczne, aby całość tworzyła
 jedną zwartą strukturę.
@@ -397,29 +396,28 @@ W wolnym czasie można się Tym bawić również tak:
 
 Żeby uciec od własnego cienia, dogoń go.
 
-Żeby coś blisko zbadać, oddal się jak tylko możesz, przyjmując maksymalnie abstrakcyjny punkt
-widzenia.
+Żeby blisko zbadać ukrytą istotę czegoś, oddal się od tego najdalej jak możesz, przyjmując
+maksymalnie abstrakcyjny punkt widzenia.
 
 Żeby coś wytłumaczyć, pytaj.
 
-Żeby zacząć coś rozumieć, powiedz dokładnie, o co w tym chodzi.
+Żeby zacząć coś rozumieć, powiedz dokładnie i jasno, o co w tym chodzi.
 
-Żeby wygrać, nie rób nawet kroku, tylko czekaj, aż zobaczysz jedyny kierunek.
+Żeby wygrać, nie rób nawet kroku, tylko czekaj, aż nie szukając go odkryjesz jedyny kierunek.
 
-Żeby osiągnąć maksymalną wolność w zachowaniach motorycznych, zaakceptuj minimalną wolność
-logicznych zachowań mentalnych.
+Żeby osiągnąć maksymalną swobodę poruszania się, zaakceptuj minimalną swobodę logicznego myślenia.
 
 Albo tak: Wybitny polski filozof i teoretyk prawa [Jan
-Woleński](https://pl.wikipedia.org/wiki/Jan_Wole%C5%84ski), który prowadził zajęcia na filozofii,
-gdy ją studiowałem, lubił powtarzać, że w myśleniu trudno, albo może nawet nie da się uniknąć
-przetargu między *jasnością* i *głębią*. No ale to przecież zależy też od wiatru, stopnia zamulenia
-i od obecności rzęsy albo glonów. 
+Woleński](https://pl.wikipedia.org/wiki/Jan_Wole%C5%84ski), który prowadził zajęcia na filozofii w
+czasach, gdy ją studiowałem, lubił powtarzać, że w myśleniu trudno, albo może nawet nie da się
+uniknąć przetargu między *jasnością* i *głębią*. Ale to przecież zależy też od wiatru, stopnia
+zamulenia i od obecności rzęsy albo glonów.
 
-Co by było, gdyby tak czysto hipotetycznie, korzystając z zimnej sztywności formalizmu, wyhamować
-ruch myśli na tyle, żeby tafla umysłu stała się nie tylko gładka i spokojna, ale żeby wręcz zamarzła
-w lustro, przez które można zobaczyć własne prawdziwe oblicze?
+No bo co by było, gdyby tak czysto hipotetycznie, korzystając z zimnej sztywności reguł formalnych,
+wyhamować ruch myśli na tyle, żeby tafla umysłu stała się nie tylko gładka i spokojna, ale żeby
+ostatecznie zamarzła w lustro, przez które można zobaczyć własne prawdziwe oblicze?
 
-Posługując się metateoretycznymi narzędziami, których nam dostarcza psychologia naukowa, można się
+Posługując się metateoretycznymi narzędziami, których namdostarcza psychologia naukowa, można się
 tak bawić cały dzień.
 
 Albo: Czy potrafisz nie zobaczyć moim zdaniem ewidentnych strukturalno-funkcjonalnych analogii
@@ -431,9 +429,11 @@ utożsamiania tego, co psychiczne z tym, co świadome, ale nie w funkcjonalnym, 
 przedstawionej tutaj perspektywy nie w psychologicznym, tylko w *substancjalnym* znaczeniu tego, co
 jest przedmiotem subiektywnego fenomenalnego doświadczenia (lub w znaczeniu tego, co jest samym
 takim doświadczeniem), to jest - mówiąc bardziej abstrakcyjnie - w znaczeniu *jawienia Się* lub
-*zjawiska materialnego*, odkrywamy, że psychologiczne to dokładnie umysłowe jako funkcjonalne. Czyli
-celowe i - co na jedno wychodzi - zgodne z Logosem, to jest z konsekwentnym, a więc w takim czy
-innym znaczeniu logicznym, sposobem jakiegoś Działania albo podążaniem jakąś Drogą.
+*zjawiska materialnego*, odkrywamy, że psychologiczne to dokładnie umysłowe rozumiane jako
+funkcjonalne, to jest w pewien sposób, a przede wszystkim lepiej albo gorzej działające lub pełniące
+jakąś rolę. Czyli *psycho-logiczne* to *celowe* i - co *na jedno wychodzi* - *zgodne z Logosem*, to
+jest z konsekwentnym, a więc w takim czy innym znaczeniu logicznym, sposobem jakiegoś działania albo
+podążaniem jakąś Drogą.
 
 Albo jeszcze, jak to ujął sam Mistrz Eckhart, a przed nim, tylko trochę inaczej, [między
 innymi](https://www.tandfonline.com/doi/full/10.1080/20465726.2023.2268469) Jalāl ad-Dīn Muhammad
@@ -452,13 +452,13 @@ księżmi, bo księża to sami mężczyźni, którzy są z natury bardziej skło
 dodatku żyjący w warunkach dalekich od realiów codziennego życia zwykłych ludzi. Wobec czego nie ma
 się co dziwić, że podobnie, jak to dzieje się niemal na całym świecie, także u nas za wyniosłymi
 murami kościoła, który funkcjonuje do pewnego stopnia jak osobne państwo w państwie,
-[niektórzy](https://mapakoscielnejpedofilii.pl/) z tych pożal się Boże duszpasterzy dopuszczają się
-czasami, bywa, że bezkarnie, nieodwracalnego, okrutnego kaleczenia dzieci.
+[niektórzy](https://mapakoscielnejpedofilii.pl/) z tych duszpasterzy dopuszczają się czasami -
+nierzadko bezkarnie - nieodwracalnego, okrutnego kaleczenia dzieci.
 
 Nie mówiąc już o tym, że my, psychologowie, staramy się *sprawdzać*, czy i w jaki sposób wymyślane
 przez nas sposoby niesienia pomocy działają. Albo o tym, jak mało religia zinstytucjonalizowana,
-legitymująca się "autorytetami" prawa świeckiego i prawa - któregoś dnia jakiemuś komuś przez nie
-wiadomo jakiego kogoś - "objawionego" ma wspólnego z autentycznym
+legitymująca się rzekomymi autorytetami prawa świeckiego i - kiedyś komuś przez kogoś -
+"objawionego", ma wspólnego z autentycznym partnerskim
 [*dialogiem*](https://en.wikipedia.org/wiki/Index_Librorum_Prohibitorum), będącym samym rdzeniem
 psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wszystkich form
 *współpracy*.
@@ -466,18 +466,18 @@ psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wsz
 <hr>
 
 Jeżeli nie zraziłem Cię już całkiem do dalszej lektury, to powiedz mi jeszcze, czy pamiętasz, jak w
-pierwszym rozdziale napisałem, że ta książka *nie może* zawierać błędów w częściach formalnych
-zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie takie części mogą być
-przez każdego sprawdzone za pomocą niezawodnego algorytmu - ale ta książka może zawierać błędy w
-warstwie napisanej w języku naturalnym? To prawda, że może, jednak zarówno ta warstwa, jak i sam
-sposób, w jaki ta książka powstaje, to przecież głównie *opisy* i *ilustracje* pewnych
-*interpretacji* czegoś, co niewątpliwie istnieje.
+pierwszym rozdziale napisałem, że ta książka w zasadzie *nie może* zawierać błędów w częściach
+formalnych zapisanych w języku teorii typów, o ile tylko zostały sprawdzone - a wszystkie takie
+części mogą być przez każdego sprawdzone za pomocą praktycznie niezawodnego algorytmu - ale ta
+książka może zawierać błędy w warstwie napisanej w języku naturalnym? To prawda, że może, jednak
+zarówno ta warstwa, jak i sam sposób, w jaki ta książka powstaje, to przecież głównie *opisy* i
+*ilustracje* pewnych *interpretacji* czegoś, co niewątpliwie istnieje.
 
 Ponieważ każda interpretacja jako taka jest pewnym sposobem użycia, w przypadku interpretacji, o ile
 tylko są *wewnętrznie* spójne, was sein kann, [muß
 sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). Zmiana interpretacji to
-tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby naprawdę opanować
-sztukę zmieniania punktów widzenia, wystarczy nauczyć się *tracić wzrok*.
+tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby zaś naprawdę
+opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć się *tracić wzrok*.
 
 Również i w tym celu, w dalszych rozdziałach poznamy funktory, które są strzałkami *między
 kategoriami*, naturalne transformacje, które są strzałkami *między funktorami*, i może też funktory
@@ -485,13 +485,15 @@ sprzężone. Funktorów będziemy używać między innymi do tego, żeby własno
 takie jak obowiązujące w niej twierdzenia, nanosić na kategorię docelową.
 
 Ponieważ funktory służą do operowania jednocześnie więcej niż jedną kategorią, a kategorie to często
-pewne odrębne, systematyczne sposoby myślenia, a więc też pewne generyczne punkty widzenia albo
-generyczne interpretacje, będzie to polegało czasem na kontrolowanym dopasowywaniu do siebie różnych
-interpretacji. A ponieważ pozwoli nam to ustalać jednoznacznie, czego możemy się dzięki temu
+pewne odrębne, ogólne systematyczne sposoby myślenia, a więc też pewne generyczne punkty widzenia
+albo generyczne interpretacje, będzie to polegało czasem na kontrolowanym dopasowywaniu do siebie
+różnych interpretacji. A ponieważ pozwoli nam to ustalać jednoznacznie, czego możemy się dzięki temu
 dowiedzieć zarówno o kategorii źródłowej, jak i docelowej, będziemy wtedy de facto odkrywać
 *użyteczność interpretacji interpretacji źródłowej w kategoriach interpretacji docelowej*.
 
 <hr>
+
+<br>
 
 Zauważyłaś, że *nic* w świecie nie ma *kierunku* jako *własności własnej*? W szczególności, ta
 osobliwa strzałka jest skierowana w określoną stronę *tylko* dlatego, że *my wybraliśmy* kierunek.
@@ -525,8 +527,8 @@ i)² = (-1)² * i² = 1 * i² = i² = -1`, wydaje się więc, że trzeba *wybra�
 czy `-i`, jest `i`, bo te dwa $i$ są funkcjonalnie równie dobrymi kandydatami, a nie mogą być tą
 samą liczbą, nawet jeśli "tylko" urojoną[^2].
 
-Ale czy zachowania albo ruchy celowe, tak jak wszelkie wybory, nie mają kierunku jako własnej
-(ang. [*intrinsic*](https://en.wiktionary.org/wiki/intrinsic)) własności?
+Ale czy zachowania albo ruchy celowe, tak jak wszelkie wybory, nie mają kierunku jako własności
+własnej (ang. [*intrinsic*](https://en.wiktionary.org/wiki/intrinsic))?
 
 Mają kierunek, ale nie jako własność własną, bo mają go tylko w pewnym sensie i zależnie od
 kontekstu, bo kierunek jest zawsze *nieunikalny*, a jest taki z konieczności, bo, tak jak ta wyżej
@@ -537,23 +539,23 @@ złożona przestrzeń najróżniejszych celów (które zawsze można traktować 
 i w każdym momencie każdego ruchu i dla każdego celu istnieje miara stopnia, w jakim aktualne
 położenie i struktura wewnętrzna naszego ciała realizuje albo spełnia ten cel.
 
-No nie wiem, może, ale z tym odwracaniem relacji mniejsze niż, to jest tylko taki sposób mówienia, a
-co się stało, to się nie odstanie, a co ma się stać, to się dopiero stanie.
+No nie wiem, może, ale z tym odwracaniem relacji mniejsze niż, to tylko powierzchownie odmienny
+sposób mówienia, a co się stało, to się nie odstanie, a co ma się stać, to się dopiero stanie.
 
 Otóż to. Twoje, a raczej, nie oszukujmy się, nasze przywiązanie do postrzegania strzałki czasu jako
-czegoś, co ma niearbitralny kierunek, wynika całkowicie z naszej *postawy* wobec *skutków* upływu
-czasu. Generalnie wolimy mieć wybór, a w każdym razie wolimy mieć poczucie, że go mamy, a wobec
-przeszłości nie możemy tego czuć. Skąd wiesz, jak postrzegałabyś kierunek czasu, gdybyś uświadamiała
-sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej *oddalałyby* się w przeszłość? Twoje
-życie trwałoby wtedy krótko, bo działająca w ten sposób pamięć byłaby niemal bezużyteczna, ale może
-czułabyś też, że wraz z gwałtownym umieraniem stajesz się *coraz mniej sobą* i *spadasz w nicość
-śmierci*, jakbyś patrzyła w oddalające się szybko okno studni życia, które coraz bardziej staje się
-tylko punktem ... światła w tunelu. Zresztą czas można *sensownie* uporządkować na nieskończenie
-wiele, również nieizomorficznych sposobów. Na przykład, można uporządkować nieskończony zbiór
-punktów czasowych ze względu na stopień zagęszczenia materii we Wszechświecie, albo można obrać
-jakiś punkt zerowy na skali czasu i wtedy czas co prawda nie będzie *płynął* w dwie strony, ale
-będzie traktowany tak, jakby miał jednocześnie dwa *kierunki*. Ten rudy meksykanin Ludwik mówi o tym
-bardzo, hm, jasno i tłumaczy to [krok po
+czegoś, co ma niearbitralny kierunek, wynika całkowicie z naszego *sposobu doświadczania* i
+*postawy* wobec *skutków* upływu czasu. Generalnie wolimy mieć wybór, a w każdym razie wolimy mieć
+poczucie, że go mamy, a wobec przeszłości nie możemy tego czuć. Skąd wiesz, jak postrzegałabyś
+kierunek czasu, gdybyś uświadamiała sobie szczegóły przebiegu zdarzeń tym bardziej, im bardziej
+*oddalałyby* się w przeszłość? Twoje życie trwałoby wtedy prawdopodobnie krótko, bo działająca w ten
+sposób pamięć byłaby niemal bezużyteczna, ale może czułabyś też, że wraz z gwałtownym umieraniem
+stajesz się *coraz mniej sobą* i *spada Ci Się w nicość śmierci*, jakbyś patrzyła w oddalające się
+szybko okno studni życia, które coraz bardziej staje się tylko punktem ... światła w tunelu. Zresztą
+czas można *sensownie* uporządkować na nieskończenie wiele, również nieizomorficznych sposobów. Na
+przykład, można uporządkować nieskończony zbiór punktów czasowych ze względu na stopień zagęszczenia
+materii we Wszechświecie, albo można arbitralnie wybrać punkt zerowy i wtedy czas co prawda nie
+będzie *płynął* w dwie strony, ale będzie traktowany tak, jakby miał jednocześnie dwa
+*kierunki*. Ten rudy meksykanin Ludwik mówi o tym bardzo, hm, jasno i tłumaczy to [krok po
 kroku](https://www.imdb.com/title/tt6736782/?ref_=ext_shr_lnk).
 
 No ale te strzałki są arbitralne, a skutki upływu czasu nie są, bo to są pewne fakty.
@@ -691,3 +693,6 @@ przez około pół godziny? Jeżeli tak lub nie, to zapraszam [tutaj](./R35__Spr
 [^6]: A więc wtedy właściwie nie jakiś, bo zbiór pusty jest unikalny; dlatego \{*od momentu, w
     którym udowodnimy tą unikalność*\} możemy bez zastrzeżeń mówić po angielsku *the empty set*,
     zamiast *an empty set*, a po polsku *ten* zbiór pusty
+
+[^7]: Chociaż, jak zauważył kiedyś mój przyjaciel Szymon Szymczak, historia to (często) polityka
+    uprawiana wstecz.
