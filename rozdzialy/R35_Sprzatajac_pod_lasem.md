@@ -482,8 +482,8 @@ zarówno ta warstwa, jak i sam sposób, w jaki ta książka powstaje, to przecie
 Ponieważ każda interpretacja jako taka jest pewnym sposobem użycia, w przypadku interpretacji, o ile
 tylko są *wewnętrznie* spójne, was sein kann, [muß
 sein](https://en.wikipedia.org/wiki/String_Quartet_No._16_(Beethoven)). Zmiana interpretacji to
-tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby zaś naprawdę
-opanować sztukę zmieniania punktów widzenia, wystarczy nauczyć się *tracić wzrok*.
+tylko - i aż - zmiana punktu widzenia, na inny "swój", albo na jakiś "cudzy". Żeby naprawdę opanować
+sztukę zmieniania punktów widzenia, wystarczy nauczyć się *tracić wzrok*.
 
 Również i w tym celu, w dalszych rozdziałach poznamy funktory, które są strzałkami *między
 kategoriami*, naturalne transformacje, które są strzałkami *między funktorami*, i może też funktory
