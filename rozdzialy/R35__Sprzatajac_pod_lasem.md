@@ -377,31 +377,32 @@ nieporównywalnym drzewom, to nie może być liniowy.
 
 Może jeszcze jeden przykład przed *główną* sugestią. Opiszę go celowo w dużym skrócie, żebyś miała
 okazję spróbować go rozpakować i samodzielnie rozwinąć. W kategorii *ubierania się* obiektami są
-*ogólnie* scharakteryzowane zestawy nałożonych na własną osobę elementów ubioru, takie jak (jakaś)
-bluzka + (jakieś) spodnie + (jakaś) czapka + jakieś (skarpetki). Ponieważ strzałkami są *konkretne
-egzemplarze* lub *sekwencje* konkretnych ubrań, zarówno strzałki jak i złożenia strzałek odpowiadają
-*ścieżkom ubierania się w konkrety*. Struktura tej kategorii odzwierciedla ograniczenia tego
-procesu. Na przykład, (idealizując) nie da się ubrać [najpierw butów, a potem
-skarpet](https://math.oxford.emory.edu/site/math108/socks_and_shoes/).
+*ogólnie* scharakteryzowane zestawy nałożonych na własną osobę elementów ubioru, takie jak (jakieś)
+bluzka + spodnie + skarpety + [niewymowne](https://wsjp.pl/haslo/podglad/87854/niewymowne). Ponieważ
+strzałkami są *konkretne egzemplarze* lub *sekwencje* konkretnych ubrań, zarówno strzałki jak i ich
+złożenia złożenia są *ścieżkami ubierania się w konkrety*. Struktura tej kategorii odzwierciedla
+ograniczenia procesu "poprawnego" ubierania się. Na przykład, (idealizując) nie da się lub nie
+wypada nakładać na własną osobę [najpierw buty, a potem
+skarpety](https://math.oxford.emory.edu/site/math108/socks_and_shoes/).
 
-W przypadku większości ludzi mieszkających w Polsce, ta kategoria *nie* będzie cienka, bo będzie na
-przykład (miejmy nadzieję) istniała więcej niż jedna strzałka zakładania pary skarpet. Można jednak,
-całkiem sensownie, zignorować różnice między niektórymi równoległymi strzałkami, uzyskując w ten
-sposób strzałki reprezentujące ogólne części ubioru (ale czy tylko? warto rozważyć *mały*
-przykład). Takie przekształcenie jakiejś struktury (niekoniecznie kategorii), polegające na
-*zrównaniu* albo "sklejeniu" pewnych jej części, ale *z zachowaniem struktury ogólnej*, Lawvere
-lubił nazywać przekształceniem *osobliwym*[^1]. Moim zdaniem to jest piękne słowo, a więc na cześć
-Lawvere'a też tak będziemy mówić.
+W przypadku większości ludzi mieszkających w Polsce ta kategoria *nie* będzie cienka, bo będzie na
+przykład (miejmy nadzieję) istniała więcej niż jedna strzałka/para skarpet. Można jednak, całkiem
+sensownie, zignorować różnice między *niektórymi* parami równoległych strzałek, uzyskując w ten
+sposób strzałki reprezentujące ogólne części ubioru (czy uzyskana w ten sposób kategoria będzie
+miała tylko takie strzałki? \{warto rozważyć *mały* przykład\}). Takie przekształcenie jakiejś
+struktury (niekoniecznie kategorii), polegające na *zrównaniu* albo "sklejeniu" pewnych jej części,
+ale *z zachowaniem struktury ogólnej*, Lawvere lubił nazywać *osobliwym*[^1]. Moim zdaniem to jest
+piękne słowo, a więc na cześć Lawvere'a też tak będziemy mówić.
 
 **Pomniejsza sugestia**: Czy ta ostatnia kategoria będzie cienka?
 
-Moglibyśmy zrównać ze sobą wszystkie strzałki względem siebie równoległe i uzyskalibyśmy wtedy
+Moglibyśmy zrównać ze sobą *wszystkie* strzałki względem siebie równoległe i uzyskalibyśmy wtedy
 (różną od poprzedniej?) cienką kategorię, która reprezentowałaby same "nagie fakty" istnienia
-możliwości przejścia od jednego ogólnego stroju do drugiego. Przypominałaby więc kategorię ... zdań
-i dowiedlności.
+możliwości przejścia w dowolny "poprawny" sposób od jednego ogólnego stroju do
+drugiego. Przypominałaby więc kategorię ... zdań i dowiedlności.
 
 **Pomniejsza sugestia**: Czy ta kategoria ma obiekt końcowy? Uwaga dla rodziców - to pytanie jest
-dozwolone od lat osiemnastu: Co jest w tej kategorii obiektem początkowym?
+dozwolone od lat osiemnastu: Co w tej kategorii jest obiektem początkowym?
 
 Jak widzisz, kategorie są dosłownie *wszędzie*. Moim zdaniem dlatego, że teoria kategorii wyraża
 ukrytą, wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze uniwersalne
