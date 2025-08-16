@@ -412,33 +412,32 @@ uniwersalne sposoby myślenia. Ciekawe, co
 <hr>
 
 **Może i główna, ale wciąż tylko sugestia**: Zastanów się proszę, w jaki sposób mogłabyś *zacząć*
-próbować konstruować dowód tego twierdzenia. Podkreślam, że nie sugeruję, żebyś je udowodniła,
-chociaż jestem przekonany, że zrobiłabyś to bez większego trudu, zakładając, że udałoby Ci się
-zachować odpowiednie *nastawienie*. Chodzi mi raczej o próbę *metarefleksji* na temat własnych
-sposobów myślenia. Korzystam w tym kodzie z przytoczonych wcześniej definicji, więc może trzeba
-będzie do nich wrócić.
+konstruować dowód tego twierdzenia. Podkreślam, że nie chodzi mi o to, żebyś je udowodniła, chociaż
+jestem przekonany, że zrobiłabyś to bez większego trudu, zakładając, że udałoby Ci się zachować
+odpowiednie nastawienie; chcę Cię zachęcić do *metarefleksji* na temat własnych sposobów
+myślenia. 
 
-Wprowadzam tu uproszczony sposób pisania, odpowiadający często stosowanemu, uproszczonemu sposobowi
-mówienia, zgodnie z którym relacja to domyślnie relacja binarna określona na jednym
+Korzystam w tym kodzie z przytoczonych wcześniej definicji, więc może trzeba będzie do nich
+wrócić. Wprowadzam też uproszczony sposób pisania, odpowiadający często stosowanemu, uproszczonemu
+sposobowi mówienia, zgodnie z którym relacja to domyślnie relacja binarna określona na jednym
 zbiorze. Zmieniłem też konwencję i zacząłem znowu pisać (prawie) wszystko z małych liter, bo taką
-miałem ochotę i Ciebie też zachęcam do osobistego i swobodnego podejścia do notacji ("powinno się"
+miałem ochotę i Ciebie też zachęcam do swobodnego i osobistego podejścia do notacji ("powinno się"
 to tylko *czyiś nacisk*).
 
-Zwracam też uwagę, że definicja elementu najmniejszego ze względu na jakąś relację (binarną na
-jednym zbiorze) *nie* zakłada, że ta relacja jest w jakimkolwiek znaczeniu relacją porządku. Relacja
-może być *dowolna*, o ile tylko jest binarna i określona na tym samym zbiorze. To moim zdaniem dobry
-przykład wyabstrachowania własności, którą *warto* nazywać w taki może początkowo trudny do
-zaakceptowania sposób, bo ten sposób nazywania ułatwia korzystanie z łatwych do przeoczenia
-analogii.
+Zwracam jeszcze uwagę, że definicja elementu najmniejszego ze względu na relację (binarną na jednym
+zbiorze) *nie* zakłada, że ta jest relacją porządku. Zgodnie z definicją, relacja może być
+*dowolna*, o ile tylko jest binarna i określona na tym samym zbiorze. To moim zdaniem dobry przykład
+wyabstrachowania własności, którą *warto* nazywać w taki może początkowo trudny do zaakceptowania
+sposób, bo ten sposób nazywania ułatwia korzystanie z potencjalnie łatwych do przeoczenia analogii.
 
 ```lean
 def rel α := Binrel α α
 
 -- To są wybrane, interesujące nas w tym momencie własności relacji. Postanowiłem nie wprowadzać
--- notacji wzrostkowej (`x R y`), żeby dobitniej podkreślić tym razem, że relacja binarna to tylko
--- szczególnego rodzaju funkcja dwuargumentowa.
+-- notacji wzrostkowej (`x R y`), żeby podkreślić, że relacja binarna to tylko szczególnego rodzaju
+-- funkcja dwuargumentowa.
 
--- A to bardzo ułatwia pisanie (i czytanie) poniższych definicji:
+-- A to ułatwia moim zdaniem pisanie i czytanie poniższych definicji:
 variable (R : rel α)
 
 def refl      := ∀ x : α, R x x
@@ -447,22 +446,21 @@ def antisymm  := ∀ {x y : α}, R x y → R y x → x = y
 def preorder  := refl R ∧ trans R
 def poset     := preorder R ∧ antisymm R
 
--- Jeżeli przyszło Ci do głowy, że warto byłoby tu zastosować klasy typów, to brawo. Faktycznie
--- byłoby warto; moglibyśmy wtedy na przykład pisać `x ≤ y` i struktura klas pięknie pasowałaby do
--- wyrażanej przez nią struktury pojęciowej, ale dla naszych skromnych celów ta wersja nam teraz
--- wystarczy.
+-- Jeżeli przyszło Ci do głowy, że warto byłoby tu zastosować klasy typów, to wspaniale. Faktycznie
+-- byłoby warto; moglibyśmy wtedy na przykład pisać `x ≤ y` i struktura klas pasowałaby do wyrażanej
+-- przez nią struktury pojęciowej, ale dla naszych skromnych celów ta wersja nam teraz wystarczy.
 
--- Element najmniejszy *ze względu na relację `R`* to taki `x`, że dla każdego `y`, `x R y`, a w
+-- Term/element najmniejszy *ze względu na relację `R`* to taki `x`, że dla każdego `y`, `x R y`, a w
 -- notacji przedrostkowej:
 def least x := ∀ v, R x v
 
 -- Ostatnio lubię stosować literę "v" (jak w słowie "variable") na oznaczenie zmiennej, która się
--- "bardziej zmienia", a "x" na oznaczenie "relatywnie globalnego" parametru.
+-- "szybciej" albo "bardziej zmienia", a "x" na oznaczenie "relatywnie globalnego" parametru.
 
 -- Uwaga, relację trzeba podać jako pierwszy jawny argument (Lean domyśli się typu `α`).
 #check least -- least.{u_1} {α : Sort u_1} (R : rel α) (x : α) : Prop
 
--- Na dobry początek warto zauważyć, że to tylko jakaś implikacja ...
+-- Na dobry początek warto zauważyć, że to tylko pewna implikacja ...
 theorem least_is_unique (h : poset R) : least R x → least R y → x = y := by 
   -- Zobacz, co się stanie, kiedy napiszesz tu `simp [least]`, a potem `simp [poset] at h`. Możesz
   -- robić takie rzeczy z definicjami stałych, których nazwy pojawiają się w celu lub w kontekście.
@@ -470,8 +468,7 @@ theorem least_is_unique (h : poset R) : least R x → least R y → x = y := by
 ```
 
 Czy dowód tego twierdzenia wymaga założenia, że `R` to poset, czy wystarczy jakieś *słabsze*
-założenie? Jeżeli tak, to jakie? Inaczej mówiąc, z jakich własności relacji faktycznie skorzystałaś
-konstruując dowód?
+założenie? Inaczej mówiąc, z jakich własności relacji faktycznie skorzystałaś konstruując dowód?
 
 <hr>
 
@@ -506,21 +503,21 @@ Bo kiedy nikt nie przychodzi, to właśnie (pusto) przychodzi Nikt.\})
 
 ### Przypisy
 
-[^1]: Chodzi o angielskie słowo *singular*, bo Lawvere nie pisał po polsku. Zarówno to słowo jak i
-    jego polski odpowiednik *osobliwe* oznaczają albo po prostu coś pojedynczego lub wyróżnionego,
-    albo coś wyróżniającego się przez swoją wyjątkowość, szczególnie zaś przez swoją *dziwność*. Na
-    przykład, ten rozdział jest bez wątpienia osobliwy, nawet jak na tą książkę.
+[^1]: Chodzi o angielskie słowo *singular*. Zarówno to słowo jak i jego polski odpowiednik
+    *osobliwe* oznaczają albo po prostu coś pojedynczego lub wyróżnionego, albo coś wyróżniającego
+    się przez swoją wyjątkowość, szczególnie zaś przez swoją *dziwność*. Na przykład, ten rozdział
+    jest bez wątpienia osobliwy, nawet jak na tą książkę.
 
-[^3]: ... Dość szybko pisząc tą książkę odkryłem, że tak mniej więcej działa pisanie nawet tylko
-    częściowo na żywo. Na początku trudno się pozbyć skrępowania wynikającego ze wstydu i z lęku
-    przed oceną, połączonego z niepewnością wynikającą z faktu, że dopiero zaczęło się robić coś,
-    czego nawet nie próbowało się robić nigdy wcześniej. Ale dzięki terapeutycznemu efektowi
+[^3]: ... Dość szybko tworząc tą książkę odkryłem, że tak mniej więcej działa pisanie nawet tylko
+    częściowo na żywo. Na początku trudno się pozbyć skrępowania wynikającego ze wstydu, połączonego
+    z niepewnością wynikającą z faktu, że dopiero zaczęło się robić coś, czego nawet nie próbowało
+    się robić nigdy wcześniej. Ale dzięki terapeutycznemu efektowi
     [ekspozycji](https://pl.wikipedia.org/wiki/Ekspozycja_(psychoterapia)), lęk i wstyd stopniowo
     ustępują miejsca orzeźwiającej twórczej swobodzie, która może się potem śmiało rozpanoszyć. Tą
     wersję wyzwolenia przez ekspozycję zastosowałem po raz pierwszy dawno, dawno temu, gdy na
     imprezie w nieistniejącej już Carycy, która to impreza odbyła się z powodu zamknięcia szokły
-    flamenco, było to więc doświadczenie już i tak pod wieloma względami intensywne, zaproponowałem
-    przyjaciołom i znajomym *konkurs tańca żenującego*. Gorąco polecam.
+    flamenco, było to więc doświadczenie już i tak dość intensywne, zaproponowałem przyjaciołom i
+    znajomym *konkurs tańca żenującego*. Polecam.
 
 [^5]: To jest w pięćdziesiąte urodziny Tomka, który też studiował filozofię, tylko był trzy lata
     wyżej niż ja i zdaje się, że - mądrala - nigdy nie przestał jej cenić.
