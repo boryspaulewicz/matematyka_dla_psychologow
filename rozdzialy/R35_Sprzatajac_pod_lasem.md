@@ -435,7 +435,7 @@ jakąś rolę. Czyli *psycho-logiczne* to *celowe* i - co *na jedno wychodzi* - 
 jest z konsekwentnym, a więc w takim czy innym znaczeniu logicznym, sposobem jakiegoś działania albo
 podążaniem jakąś Drogą.
 
-Albo jeszcze, jak to ujął sam Mistrz Eckhart, ...
+Albo jeszcze, jak to ujął Mistrz Eckhart, ...
 
 *Dà inne ich got sihe, daz ist daz selbe ouge, dà inne mich got siht: min ouge unde gotes ouge daz
 ist ein ouge und ein gesiht und ein bekennen und ein minnen.*
