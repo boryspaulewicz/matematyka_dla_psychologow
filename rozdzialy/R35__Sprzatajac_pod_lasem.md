@@ -217,28 +217,32 @@ pięter, ale pracownicy jakiś dwóch wydziałów musieliby pracować w tym samy
 nie byłoby więc injektywne, za to byłoby, tak jak poprzednie, surjektywne.
 
 **Powtórka z pojęcia kategorii generowanej przez graf**: Przypominam, że same grafy to jeszcze nie
-kategorie, bo graf jako taki to tylko pewnego rodzaju "statyczny rysunek", który *nie* jest
-wyposażony w działanie składania strzałek. Dlatego, gdy odtąd o jakimś grafie będę mówił jako o
-kategorii, będzie mi chodziło zawsze o (unikalną, dlatego ten sposób mówienia jest akceptowalny)
-kategorię *generowaną* przez ten graf.
+kategorie, bo graf jako taki to tylko pewnego rodzaju statyczny rysunek, który *nie* jest wyposażony
+w działanie składania strzałek. Dlatego, kiedy o grafie będę mówił jako o kategorii, będzie chodziło
+zawsze o (unikalną, dlatego ten sposób mówienia jest akceptowalny) kategorię *generowaną* przez ten
+graf.
 
 Na przykład, *graf* `A → B → C` generuje kategorię, której 1. obiektami są węzły grafu (tutaj `A`,
 `B` i `C`), a 2. strzałkami są 2.1. identyczności odpowiadające dokładnie węzłom grafu,
 2.2. strzałki grafu i 2.3. wszystkie złożenia, które trzeba 2.3.1. *dodać* tam, gdzie występują pary
 składalnych strzałek grafu, 2.3.2. i tam, gdzie na skutek tego procesu pojawiły się *nowe* pary
 składalnych strzałek. A więc na przykład graf `A → A` generuje kategorię z jednym obiektem i
-*nieskończoną* liczbą strzałek. Ten przykład może być na tym etapie trudny, ale będzie ważny, niech
-więc na razie tu zostanie i kusi. Podobnie, zgodnie z jednym z grafów omawianych dalej, istnieje
-między innymi (kategoryjna) strzałka `Boss_wydzialowy → Nikt_wazny`, będąca złożeniem dwóch strzałek
-widocznych na tym grafie, a poza tym każdy jest Panią samego siebie ("dosypane" identyczności
-obiektów/węzłów, oznaczających stanowiska w firmie).
+*nieskończoną* liczbą strzałek: Oznaczmy jedyną strzałkę na tym grafie jako `f`. Ponieważ `f` to
+endostrzałka, musimy *dodać* strzałkę `f'`, którą będziemy traktować jako równą złożeniu `f f`, a
+ponieważ `f'` jest (na dwa sposoby) składalna z `f` i z sobą samą, to musimy dodać strzałki
+odpowiadające złożeniom `f f'`, `f' f` i `f' f'`, i tak dalej.
+
+Ten przykład może być na tym etapie trudny, ale później okaże się ważny. Podobnie, zgodnie z jednym
+z grafów omawianych dalej, istnieje między innymi (kategoryjna) strzałka `Boss_wydzialowy →
+Nikt_wazny`, będąca złożeniem dwóch strzałek widocznych na tym grafie, a poza tym każdy jest Panią
+samego siebie ("dosypane" identyczności obiektów/węzłów, oznaczających stanowiska w firmie).
 
 Przypominam, że można myśleć o tego rodzaju konstrukcjach na następujące dwa sposoby, z których
 jeden może być mniej stresujący niż drugi: Możemy myśleć o takich konstrukcjach jako o *rezultatach
 procesu* dokładania jakiś rzeczy (tutaj strzałek) spełniających jakieś warunki (tutaj składania
 kategoryjnego). Z jednej strony ten sposób myślenia daje chyba wrażenie konkretności albo dynamiki,
 czy nawet "ożywienia", ale z drugiej może wywołać poczucie, że to wszystko nie mieści nam się w
-głowie, zwłaszcza, gdy te konstrukcje są "duże" lub nieskończone. 
+głowie, zwłaszcza, gdy konstrukcje są duże lub nieskończone.
 
 Drugi sposób polega na myśleniu o takich konstrukcjach jako o *listach kryteriów*, które spełnia
 każda konstrukcja danego rodzaju. Z tej perspektywy operujemy *tylko* krótką listą kryteriów, które
@@ -249,20 +253,20 @@ kategorii; trzeba tylko albo pamiętać te kryteria, albo umieć je znaleźć.
 Ostatecznie i tak zawsze wyobrażamy sobie i badamy bezpośrednio (z definicji) tylko struktury
 mieszczące się w naszych (małych) głowach, a więc struktury subiektywnie małe. Od tego jest między
 innymi matematyka, żebyśmy mogli o wielkich i złożonych sprawach skutecznie mówić i myśleć albo
-zajmując się ich małymi, lokalnymi *częściami*, albo znajdując punkty widzenia, które pozwalają zbyt
-duże i zbyt skomplikowane jak na nasze poznawcze możliwości konstrukcje dla pewnych celów skutecznie
-[*zmniejszyć*](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids). Punkty widzenia takie jak na
-przykład definicja kategorii generowanej przez graf, która to definicja odpowiada pewnej
-nieskończonej kolekcji skończonych i nieskończonych struktur, a sama składa się z punktów, które
-można policzyć na palcach jednej ręki.
+zajmując się ich małymi, lokalnymi *częściami*, albo dobierając punkty widzenia, które pozwalają
+zbyt duże i zbyt skomplikowane jak na nasze poznawcze możliwości konstrukcje dla pewnych celów
+skutecznie [*zmniejszyć*](https://en.wikipedia.org/wiki/Honey,_I_Shrunk_the_Kids). Punkty widzenia
+takie jak na przykład definicja kategorii generowanej przez graf, która to definicja odpowiada
+pewnej nieskończonej kolekcji skończonych i nieskończonych struktur, a sama składa się z punktów,
+które można policzyć na palcach jednej ręki.
 
 Poniżej mamy kategorię `Pracownicy`. Na tym diagramie, poprzedzonym czymś w rodzaju "preambuły"
-definiującej typowanie - a więc i tu pomieszałem dwa różne języki, z których jeden (mikrojęzyk
-dziedzinowy) właśnie wymyśliłem - strzałka oznacza bezpośrednie zwierzchnictwo. Żeby było ciekawiej,
-ten diagram *nie* jest grafem generującym kategorię, o którą nam chodzi, tylko (przedstawioną w
-zarysie) kolekcją strzałek, z których taki graf można w narzucający się sposób złożyć. Uzyskany w
-ten sposób graf będzie miał między innymi *ścieżkę* `Dżessika → Monika → Stefan`. Czyli to akurat
-jest *diagram generujący graf generujący kategorię*.
+definiującej typowanie - a więc i tu pomieszałem języki, z których jeden (mikrojęzyk dziedzinowy)
+właśnie wymyśliłem - strzałka oznacza bezpośrednie zwierzchnictwo. Żeby było ciekawiej, ten diagram
+*nie* jest grafem generującym kategorię, o którą nam chodzi, tylko (przedstawioną w zarysie)
+*kolekcją strzałek*, z których taki graf można dopiero w narzucający się sposób *złożyć*. Ten graf
+będzie miał między innymi *ścieżkę* `Dżessika → Monika → Stefan`. Czyli to akurat jest dla nas
+*diagram generujący graf generujący kategorię*.
 
 ```
 -- Preambuła
@@ -303,16 +307,16 @@ Boss → Boss_wydzialowy → Ktos_kto_jest_mily_tylko_wobec_boss_wydzialowy → 
 ```
 
 ... i istnieje też naturalne mapowanie hierarchii władzy na kategorię *ogólnych* pięter `3 → 2 →
-1`. Byłbym zapomniał, że Osoba Szefowska pracuje z domu! Dlatego w tym kontekście interesuje nas
-kategoria taka jak wyżej, ale bez obiektu początkowego (czyli takiego jakby najmniejszego albo,
-przynajmniej potencjalnie, pustego w środku) `Boss`:
+1`. Byłbym zapomniał, że szefowa pracuje z domu! Dlatego w tym kontekście interesuje nas kategoria
+taka jak wyżej, ale bez obiektu początkowego (czyli takiego jakby najmniejszego albo, przynajmniej
+potencjalnie, pustego w środku) `Boss`:
 
 ```
 Boss_wydzialowy → Ktos_kto_jest_mily_tylko_wobec_boss_wydzialowy → Nikt_wazny
 ```
 
 Mamy też *szczegółową* kategorię budynków, której obiektami są pokoje, a strzałki na *generującym ją
-grafie* reprezentują fakty bycia pokojem bezpośrednio nad innym pokojem w tym samym budynku. Oboje
+grafie* reprezentują fakty bycia pokojem na piętrze nad innym pokojem w tym samym budynku. Oboje
 wiemy, że mogłabyś policzyć, ile jest tych strzałek, albo narysować tą kategorię w postaci
 generującego ją grafu i oboje wiemy, że nikomu by się nie chciało, więc nie będę nic sugerował.
 
@@ -326,46 +330,48 @@ Andromeda(3) → Andromeda(2) → Andromeda(1)
 Oasis(3) → Oasis(2) → Oasis(1)
 ```
 
-Budynek jest tutaj traktowany jako *funkcja* o nazwie takiej, jak nazwa budynku, która to funkcja
-zwraca *piętra*. Bo czemu nie?
+Rzeczywisty (hipotetyczny) budynek jest tutaj oznaczony za pomocą funkcji o nazwie takiej, jak nazwa
+budynku, która to funkcja zwraca (wartości, które oznaczają) piętra. Bo czemu nie?
 
-Wreszcie, istnieje naturalne mapowanie tej ostatniej kategorii na kategorię jeszcze ogólniejszą, w
+Wreszcie istnieje naturalne mapowanie tej ostatniej kategorii na kategorię jeszcze ogólniejszą, w
 której obiektami są numery pięter, a strzałki oznaczają fakty zachodzenia relacji `≥`, to jest
 kategorię generowaną przez graf `3 → 2 → 1`. No i istnieje jedyne możliwe mapowanie tej ostatniej
 kategorii, jak i wszystkich innych, na kategorię końcową, zawierającą jeden obiekt `Cos`, wyposażony
 tylko w strzałkę identyczności, ale to mapowanie jest trywialne z definicji, bo jest mapowaniem do
-obiektu końcowego (akurat tutaj w kategorii kategorii), a takie strzałki są tym samym, co obiekty
-kategorii (pomyślałaś o tym wcześniej?), o ile oczywiście kategoria ma jakiś koniec (kategoria
-kategorii ma).
+obiektu końcowego (akurat tutaj w kategorii kategorii), a strzałki do obiektu końcowego i obiekty
+źródłowe tych strzałek to w pewnym sensie to samo (pomyślałaś o tym wcześniej?), o ile oczywiście
+dana kategoria ma obiekt końcowy.
 
 Ważną cechą niektórych z tych porządków, ale nie wszystkich, jest to, że pewne elementy (nie wypada
-mówić tak o ludziach, bo to obraźliwe określenie, ale moje ręce są związane terminologią techniczną)
-są w tym samym porządku albo, równoważnie, w tej samej cienkiej kategorii *nieporównywalne*.
+mówić tak o ludziach, bo to obraźliwe określenie, ale moje ręce są związane terminologią
+techniczną), a dokładniej pracownicy różnych wydziałów, są *w ramach tego samego porządku*, albo
+równoważnie w tej samej cienkiej kategorii, *nieporównywalne*. A to znaczy, że mamy do czynienia z
+mniej lub bardziej odrębnymi hierarchiami traktowanymi jako jedna relacja (nieliniowego) porządku.
 
 **Mały słownik sprzątacza**: Czuję, że teraz już muszę powiedzieć więcej o samej
 terminologii. Relacje (`R ⊆ X × X`) zwrotne (`∀ x : X, x R x`) i przechodnie (`∀ x y z : X, x R y →
 y R z → x R z`) nazywamy *praporządkami*, a po angielsku (spolszczając) *preorderami*. Praporządki
-to dokładnie cienkie kategorie, w których mogą występować pary różnych obiektów izomorficznych albo,
-mówiąc równoważnie, kategorie cienkie, w których mogą występować strzałki przeciwrównoległe nie
-będące identycznościami. Nie mam pojęcia, który sposób myślenia jest dla Ciebie w tym momencie
+to dokładnie cienkie kategorie, w których mogą występować pary *różnych* obiektów *izomorficznych*
+albo, mówiąc równoważnie, kategorie cienkie, w których mogą występować strzałki przeciwrównoległe
+nie będące identycznościami. Nie mam pojęcia, który sposób myślenia jest dla Ciebie w tym momencie
 wygodniejszy, ale możliwe, że *rysunkowy*, dlatego zachęcam do prób oswojenia się z tą terminologią
 (bo to jest niemal w całości tylko gęsta \{i zarazem niezwykle użyteczna\} terminologia, dotycząca
-bardzo prostych zjawisk, którą wystarczy w miarę dobrze zapamiętać) za pomocą rysunkowej notatki.
+prostych regularności, którą wystarczy w miarę dobrze zapamiętać) za pomocą rysowania.
 
 Relacje *częściowego* porządku to praporządki antysymetryczne (`∀ x y : X, x R y → y R x → x = y`),
 czyli relacje takie jak relacja `≤`, określona na jakimś zbiorze liczb: Jeżeli `x ≤ y` i `y ≤ x`, to
-`x = y`. Takie relacje są tak ważne, wygodne w użyciu i częste, że nazywamy je też po prostu
-porządkami i odtąd ja również będę tak czasem mówił. Po angielsku (spolszczając) często nazywamy je
-*posetami*.
+`x = y`. Porządki częściowe są tak ważne i wygodne, że często są nazywane po prostu porządkami i
+odtąd czasami my też będziemy tak mówić. Po angielsku (spolszczając) nazywamy je również *posetami*.
 
-Ani preorder, ani poset nie musi być porządkiem *liniowym*, takim jak naturalny porządek na zbiorze
-liczb naturalnych, o których zresztą często myślimy, że układają się w linię, która ma początek, ale
-nie ma końca. Porządek liniowy to taki poset, w którym *porównywalna* jest *każda* para elementów
-(`∀ x y : X, x R y ∨ y R x`). W ogólnym przypadku zarówno preordery jak i posety mogą się składać z
-*oddzielnych* [drzew](https://pl.wikipedia.org/wiki/Drzewo_(informatyka)) (rozumianych jako pewien
-typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preordery mogą mieć węzły
-połączone dwukierunkowo w poziomie, a posety nie. Gdy tak jest, to znaczy, gdy porządek odpowiada
-oddzielnym, nieporównywalnym drzewom, to nie może być liniowy.
+Ani preorder, ani poset nie musi być porządkiem *liniowym*, takim jak naturalne porządki na zbiorach
+liczb naturalnych i liczb rzeczywistych, o których zresztą często myślimy, że układają się w linie,
+która w przypadku liczb naturalnych ma początek, ale nie ma (w przypadku liczb rzeczywistych
+żadnego) końca. Porządek liniowy to taki poset, w którym *porównywalna* jest *każda* para elementów
+(`∀ x y : X, x R y ∨ y R x`). W ogólnym przypadku zarówno preordery jak i posety mogą się więc
+składać z *oddzielnych* [*drzew*](https://pl.wikipedia.org/wiki/Drzewo_(informatyka)) (rozumianych
+jako pewien typ danych), reprezentujących te porządki w oczywisty sposób, przy czym preordery mogą
+mieć węzły połączone dwukierunkowo w poziomie, a posety nie. Gdy porządek odpowiada oddzielnym,
+nieporównywalnym drzewom, to nie może być liniowy.
 
 ### Porządki w garderobie
 
