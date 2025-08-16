@@ -331,7 +331,7 @@ Oasis(3) → Oasis(2) → Oasis(1)
 ```
 
 Rzeczywisty (hipotetyczny) budynek jest tutaj oznaczony za pomocą funkcji o nazwie takiej, jak nazwa
-budynku, która to funkcja zwraca (wartości, które oznaczają) piętra. Bo czemu nie?
+budynku, zwracającej (wartości oznaczające) piętra. Bo czemu nie?
 
 Wreszcie istnieje naturalne mapowanie tej ostatniej kategorii na kategorię jeszcze ogólniejszą, w
 której obiektami są numery pięter, a strzałki oznaczają fakty zachodzenia relacji `≥`, to jest
@@ -404,9 +404,9 @@ drugiego. Przypominałaby więc kategorię ... zdań i dowiedlności.
 **Pomniejsza sugestia**: Czy ta kategoria ma obiekt końcowy? Uwaga dla rodziców - to pytanie jest
 dozwolone od lat osiemnastu: Co w tej kategorii jest obiektem początkowym?
 
-Jak widzisz, kategorie są dosłownie *wszędzie*. Moim zdaniem dlatego, że teoria kategorii wyraża
-ukrytą, wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze uniwersalne
-sposoby myślenia. Ciekawe, co
+Jak widzisz, kategorie są dosłownie *wszędzie*. Moim zdaniem dlatego, że ogólna struktura kategorii
+wyraża ukrytą wspólną strukturę języków matematycznych, a języki matematyczne wyrażają nasze
+uniwersalne sposoby myślenia. Ciekawe, co
 [Kant](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction) by na to powiedział.
 
 <hr>
