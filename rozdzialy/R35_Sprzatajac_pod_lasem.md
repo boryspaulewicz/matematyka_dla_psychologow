@@ -435,12 +435,19 @@ jakąś rolę. Czyli *psycho-logiczne* to *celowe* i - co *na jedno wychodzi* - 
 jest z konsekwentnym, a więc w takim czy innym znaczeniu logicznym, sposobem jakiegoś działania albo
 podążaniem jakąś Drogą.
 
-Albo jeszcze, jak to ujął sam Mistrz Eckhart, a przed nim, tylko trochę inaczej, [między
-innymi](https://www.tandfonline.com/doi/full/10.1080/20465726.2023.2268469) Jalāl ad-Dīn Muhammad
-Rumi i 無門慧開:
+Albo jeszcze, jak to ujął sam Mistrz Eckhart, ...
 
-*Oko, którym widzę Boga, jest tym samym okiem, którym widzi mnie Bóg. Moje oko i oko Boga to jedno i
-to samo oko. Jedno oblicze, jedno poznanie, jedna miłość*.
+*Dà inne ich got sihe, daz ist daz selbe ouge, dà inne mich got siht: min ouge unde gotes ouge daz
+ist ein ouge und ein gesiht und ein bekennen und ein minnen.*
+
+... a przed nim, tylko trochę inaczej, [między
+innymi](https://www.tandfonline.com/doi/full/10.1080/20465726.2023.2268469) جلال‌الدین محمّد رومی ...
+
+*هر چیز که در جستن آنی آنی*
+
+... i 無門慧開 ...
+
+透得過者、非但親見趙州、便可與歷代祖師把手共行、眉毛廝結、同一眼見、同一耳聞。
 
 Aż za dobrze zdaję sobie sprawę z tego, jak to wszystko brzmi. Ale mimo licznych prób znalezienia w
 tym rozumowaniu formalnego lub interpretacyjnego błędu, tego, o czym teraz mówię i do czego - ku
