@@ -464,11 +464,10 @@ nierzadko bezkarnie - nieodwracalnego, okrutnego kaleczenia dzieci.
 
 Nie mówiąc już o tym, że my, psychologowie, staramy się *sprawdzać*, czy i w jaki sposób wymyślane
 przez nas sposoby niesienia pomocy działają. Albo o tym, jak mało religia zinstytucjonalizowana,
-legitymująca się rzekomymi autorytetami prawa świeckiego i - kiedyś komuś przez kogoś -
-"objawionego", ma wspólnego z autentycznym partnerskim
+legitymująca się rzekomymi autorytetami prawa świeckiego i kiedyś komuś przez kogoś "objawionego",
+ma wspólnego z autentycznym partnerskim
 [*dialogiem*](https://en.wikipedia.org/wiki/Index_Librorum_Prohibitorum), będącym samym rdzeniem
-psychoterapii, działalności naukowej, a gdy zrozumieć go nieco ogólniej, wszystkich form
-*współpracy*.
+psychoterapii, działalności naukowej, a gdy zrozumieć go ogólniej, wszystkich form *współpracy*.
 
 <hr>
 
