@@ -84,7 +84,7 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne)
 
 2. $\underbrace{x}$, $\underbrace{x, y}$, i $x \odot y$ są (jakimiś) liczbami.
 
-3. $\underbrace{x, y} = \underbrace{y, x}$.
+3. $\underbrace{x, y}$ = $\underbrace{y, x}$.
 
 4. $x \odot y * \underbrace{y} = \underbrace{x, y}$.
 
