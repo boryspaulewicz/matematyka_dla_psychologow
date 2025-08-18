@@ -73,9 +73,11 @@ gry, która nie musi mieć żadnego sensu. Uwierz mi proszę, bo sprawdzałem to
 tym etapie potrzeba sensu może Ci przeszkadzać. Obiecuję, że sens się sam pojawi, tylko może kiedy
 indziej i raczej stopniowo.
 
-**Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej cztery zdania, które
-będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry*, albo jeszcze lepiej *reguły
-językowe* albo *reguły komunikacyjne*, na które *umawiamy się bez uzasadnienia*:
+**Polecenie**: *To zadanie może być na tym etapie trochę zbyt dezorientujące. Jeżeli tak będzie,
+spróbuj może najpierw zrobić następne zadanie, a później wróć do tego.* Znajdź czystą kartkę papieru
+i coś do pisania. Napisz na niej cztery zdania, które będziemy chwilowo rozumieć jako *aksjomaty*,
+czyli *reguły gry*, albo jeszcze lepiej *reguły językowe* albo *reguły komunikacyjne*, na które
+*umawiamy się bez uzasadnienia*:
 
 1. Istnieją *fldsmdfry*.
 
@@ -89,11 +91,11 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne)
 4. $x \odot y$ $*$ $\underbrace{y}$ = $\underbrace{x, y}$.
 
 Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, $a$ i $b$. Użyj reguły 4 żeby uzyskać *dwa nowe
-równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje $x$ i $b$ wszędzie
-tam, gdzie jest $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe równania będą w
-zasadzie takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i $b$
-zamiast $x$ i $y$) w roli zmiennych. Następnie użyj reguły 3 w jedyny sposób, w jaki się da (ta
-reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich częściach), żeby uzyskać trzecie nowe
+równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 jest $x$ i $b$ wszędzie tam,
+gdzie jest $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe równania będą w zasadzie
+takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i $b$ zamiast $x$
+i $y$) w roli zmiennych. Następnie użyj reguły 3 w jedyny sposób, w jaki się da (ta reguła mówi coś
+o tych dwóch nowych równaniach, a raczej o ich częściach), żeby uzyskać trzecie nowe
 równanie. Zakładając, że $\underbrace{b} \neq 0$, podziel obie strony tego ostatniego równania przez
 $\underbrace{b}$ (zgodnie z przyjętą konwencją to są jakieś liczby, więc możemy je dzielić przez
 liczby niezerowe) i uprość jedyną rzecz, którą możesz.
