@@ -644,6 +644,11 @@ sprawiły Szymonowi większych trudności.
 Tomkowi Smoleniowi, za reakcję, z której wynika, że rozdział 27 działa mniej więcej tak, jak sobie
 tego życzyłem.
 
+Adamowi Demczukowi, za niezwykle szczegółowy i bardzo przydatny feedback. Dzięki Adamowi
+dowiedziałem się, że po wprowadzeniu rozmaitych zmian w pierwszych rozdziałach przestały działać dwa
+linki, Adam pomógł mi też zrozumieć, w jaki sposób pewna ogólna uwaga na temat matematyki mogła być
+myląca.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
