@@ -641,6 +641,9 @@ strukturalno/funkcjonalny pomysł, który niebawem spróbuję wprowadzić.
 Szymonowi Stryplingowi, za najszybszą reakcję na temat rozdziałów 30-31, które najwyraźniej nie
 sprawiły Szymonowi większych trudności.
 
+Tomkowi Smoleniowi, za reakcję, z której wynika, że rozdział 27 działa mniej więcej tak, jak sobie
+tego życzyłem.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
