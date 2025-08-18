@@ -99,7 +99,7 @@ Podkreślam, że wszystkie te wnioski wynikają naturalnie z formalnej teorii pr
 formalnej definicji zadania (i związanego ze szczególnym charakterem tej definicji sposobu myślenia
 o podmiotowości \{i odrobiny wiedzy zastanej, na przykład dotyczącej wpływu genów na zachowanie\}),
 których jeszcze nie wprowadziłem. Możemy już
-[wrócić](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/02_Cel.md#albo-tak)
+[wrócić](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R03__.md#albo-tak)
 do głównego wątku.
 
 ## Przypisy
