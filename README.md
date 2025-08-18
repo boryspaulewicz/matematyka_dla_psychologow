@@ -638,6 +638,9 @@ tak wielorako utalentowana, kompetentna i w ogóle fajna jak osoba Marty Siedlec
 tym* dodałem tam jeszcze jedno ostrzeżenie, ale innego rodzaju, a *dzięki temu* wpadłem na pewien
 strukturalno/funkcjonalny pomysł, który niebawem spróbuję wprowadzić.
 
+Szymonowi Stryplingowi, za najszybszą reakcję na temat rozdziałów 30-31, które najwyraźniej nie
+sprawiły Szymonowi większych trudności.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
