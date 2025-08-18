@@ -86,7 +86,7 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne)
 
 3. $\underbrace{x, y}$ = $\underbrace{y, x}$.
 
-4. $x \odot y * \underbrace{y} = \underbrace{x, y}$.
+4. $x \odot y * \underbrace{y}$ = $\underbrace{x, y}$.
 
 Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, $a$ i $b$. Użyj reguły 4 żeby uzyskać *dwa nowe
 równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje $x$ i $b$ wszędzie
