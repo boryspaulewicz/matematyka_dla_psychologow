@@ -255,7 +255,7 @@ te, z którymi spotkasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_n
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
 większe zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu publicznie
 dostępna historia zachodzących zmian może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
-[zachowaniu](./rozdzialy/02_Cel.md).
+[zachowaniu](./rozdzialy/R03_Do_czego_autor_zmierza.md).
 
 Akt pisania książki jest co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
