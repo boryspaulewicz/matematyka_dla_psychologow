@@ -8,10 +8,10 @@
 ## O czym teraz będzie
 
 Ten i następne dwa rozdziały mają charakter w pewnym sensie bazowy, dlatego nie można ich za bardzo
-lekceważyć. Będą się w nich działy rzeczy moim zdaniem ciekawe i czasem, mam nadzieję, zabawne,
-uprzedzam jednak, że znacznie ciekawsze i jednocześnie pojęciowo dziwne rzeczy zaczną się na dobre
-dziać dopiero w rozdziale siódmym. Zaczniemy wtedy na dobre ćwiczyć pewien szczególny sposób
-myślenia, polegający na żonglowaniu różnymi dobrze określonymi punktami widzenia na to samo.
+lekceważyć. Będą się w nich działy rzeczy moim zdaniem ciekawe, a czasem też, mam nadzieję, zabawne,
+uprzedzam jednak, że ciekawsze i dziwniejsze rzeczy zaczną się na dobre dziać dopiero w rozdziale
+siódmym. Zaczniemy wtedy wreszcie ćwiczyć pewien szczególny sposób myślenia, polegający na
+żonglowaniu różnymi dobrze określonymi punktami widzenia na to samo.
 
 W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
 wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
@@ -21,13 +21,12 @@ dokładnie *ewaluacji aplikacji*. Mam nadzieję, że kilkukrotne i szczegółowe
 proces przebiega, pozwoli Ci lepiej zrozumieć *mechanikę* działania teorii typów, a dzięki temu czuć
 się bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe
 rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między
-innymi dlatego, że będę się do znudzenia powtarzał.
+innymi dlatego, że - jak już nie raz wspominałem - będę się do znudzenia powtarzał.
 
 Ponieważ najtrudniejszymi częściami obydwu rozdziałów są fragmenty dotyczące *curryingu*, to jest
-sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, to żeby
-wprowadzić ten temat w możliwie bezbolesny sposób omówię szczegółowo kilka prostych przykładów
-funkcji i zaproponuję Ci wykonanie niezbyt skomplikowanych i moim zdaniem wskazanych na tym etapie
-zadań.
+sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, omówię
+szczegółowo kilka prostych przykładów funkcji i zaproponuję Ci wykonanie niezbyt skomplikowanych i
+moim zdaniem wskazanych na tym etapie zadań.
 
 Jednym z ważniejszych aspektów uczenia się czegoś nowego jest stopniowe przyzwyczajenie się do
 znaczeń terminów technicznych. Dzięki temu będzie Ci łatwiej zrozumieć, o czym będę mówił. Z
@@ -46,13 +45,16 @@ tej następnej części.
 
 Mówiąc ogólnie, w przypadku utknięcia sugeruję chwilowo *pozbyć się ambicji i czytać bez wstydu*,
 albo zrobić sobie *przerwę* i spróbować później, albo *wrócić* do wcześniejszych wyjaśnień. Moim
-zdaniem najważniejsze w tym wszystkim jest *unikanie frustracji*. Zawsze możesz też zadać mi pytanie
-mailem (borys.paulewicz@gmail.com). Na pewno się ucieszę i jeśli tylko nie odłożę odpowiedzi z
-powodu braku czasu, przez co później o niej zapomnę (co mi się niestety zdaża), to spróbuję
-pomóc. Gdybym nie odpowiedział w ciągu kilku dni, to nie obrażę się, jeśli napiszesz znowu.
+zdaniem najważniejsze w tym wszystkim jest *unikanie frustracji*. A żeby jej unikać, trzeba najpierw
+zacząć *zwracać na nią uwagę* i chyba właśnie to jest w tym najturdniejsze.
+
+Zawsze możesz też zadać mi pytanie mailem (borys.paulewicz@gmail.com). Na pewno się ucieszę i jeśli
+tylko nie odłożę odpowiedzi z powodu braku czasu, przez co później o niej zapomnę, co mi się
+niestety zdaża, to spróbuję pomóc. Gdybym nie odpowiedział w ciągu kilku dni, nie obrażę się, jeśli
+napiszesz znowu.
 
 Zależy mi na tym, żeby zwłaszcza te pierwsze rozdziały były dopasowane do możliwości większości
-studentów a nawet uczniów liceum, dlatego będę wdzięczny za informacje o pojawiających się
+studentów a nawet *uczniów liceum*, dlatego będę bardzo wdzięczny za informacje o pojawiających się
 trudnościach. Przydadzą mi się między innymi uwagi w rodzaju "ten fragment był dla mnie wyraźnie
 trudniejszy niż poprzedni", albo "to zdanie było tak długie, że musiałam je przeczytać kilka razy",
 albo "ten fragment jest moim zdaniem niepotrzebny", albo "wolałabym, żeby to było wytłumaczone
@@ -60,11 +62,11 @@ bardziej szczegółowo", albo "czytając ten fragment zastanawiałam się kilka 
 
 Tylko proszę, jeśli napiszesz, nie zwracaj się do mnie per Panie Doktorze. Wiem, że studenci tak
 robią z dobrej woli i że pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w
-dyscyplinach takich jak psychologia, takie tytuły są po pierwsze śmieszne, a poza tym mogą utrudniać
-przyjęcie krytycznej postawy przez rozmówcę albo czytelnika. Dlatego między innymi piszę tą książkę
-niemal na żywo. Dzięki temu możesz się sama przekonać, jak pisząc ją sam się pewnych rzeczy uczę i
-jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu próbuję też tą książkę pisać
-tak, jakbym z Tobą *rozmawiał*, bo według mnie to *powinna* być rozmowa.
+dyscyplinach takich jak psychologia, takie tytuły są nie tylko śmieszne, ale mogą też utrudniać
+przyjęcie krytycznej postawy wobec tego, co jakiś Doktor albo Profesor opowiada. Dlatego między
+innymi piszę tą książkę niemal na żywo. Dzięki temu możesz się sama przekonać, jak dzięki temu sam
+się pewnych rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu
+próbuję też pisać tak, jakbym z Tobą *rozmawiał*, bo według mnie to *powinna* być rozmowa.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
@@ -75,31 +77,35 @@ dowodzenia*](https://en.wikipedia.org/wiki/Proof_assistant) Lean. Nie przejmuj s
 to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po lewej i
 czasami zaglądać do panelu po prawej.
 
-Błędy będą się pojawiać, ponieważ jesteś (zgaduję)
+Gdybyś miała ochotę, możesz też od razu spróbować zainstalować edytor VS Code, który ma bardzo dobre
+wsparcie dla Leana. Wystarczy go ściągnąć za darmo z [tej](https://code.visualstudio.com/download)
+strony, a po uruchomieniu skorzystać z instrukcji, które znajdziesz
+[tutaj](https://docs.lean-lang.org/lean4/doc/quickstart.html).
+
+Ostrzegam, że błędy będą się pojawiać, ponieważ jesteś (zgaduję)
 [człowiekiem](https://www.youtube.com/watch?v=UVL186zzOXo). Gdy pojawi się błąd, Lean Cię o tym
-powiadomi podkreślając go czerwoną falką. Przypuszczam, że najczęściej to będzie jakaś
-literówka. Czasami samo miejsce, w którym pojawi się czerwona falka, powie Ci, co należy zmienić,
-ale nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po
-prawej i spróbuj ustalić w czym problem.
+powiadomi podkreślając go czerwoną falką. Na początku najczęściej będzie to jakaś literówka. Czasami
+samo miejsce, w którym pojawi się czerwona falka, pozwoli Ci szybko zauważyć, co należy zmienić, ale
+nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po prawej
+i spróbuj ustalić, na czym polega problem.
 
 Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że czasem warto, żebyś przed
 czytaniem szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak spróbuję
-najpierw czegoś innego, ale w pewnym sensie bardzo zbliżonego.
+najpierw czegoś innego, ale w pewnym sensie zbliżonego.
 
 **Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest *zaprojektowanie
-nowego języka*, który pozwalałby w jednoznaczny, zwięzły i czytelny sposób zapisywać różne
-definicje. Wydaje się, że zależałoby Ci wtedy na zapisaniu informacji, która pozwalałaby określić,
-jakie operacje z użyciem definiowanych stałych mają sens, a jakie nie mają. Byłoby też wskazane,
-żeby nie używać do tego symbolu równości (*=*), bo ten odgrywa a matematyce bardzo ważną rolę i
-mógłby się jeszcze później przydać do całkiem innych celów, to jest do oznaczania "zwykłej" relacji
-równości, a nie *decyzji*, że jakieś wyrażenie *ma być* wartością jakiejś stałej.
+nowego języka*, który pozwalałby w jednoznaczny, zwięzły i czytelny sposób zapisywać
+definicje. Zależałoby Ci wtedy pewnie na zapisaniu informacji, która pozwalałaby określić, jakie
+operacje z użyciem definiowanych stałych mają sens, a jakie nie mają. Byłoby też wskazane, żeby nie
+używać do tego symbolu równości (*=*), bo ten odgrywa a matematyce bardzo ważną rolę i mógłby się
+jeszcze przydać do czegoś innego, to jest do oznaczania "zwykłej" relacji równości, a nie *decyzji*,
+że jakieś wyrażenie *ma być* wartością jakiejś stałej, bo tak.
 
 Przydałoby się więc jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
-takie kojarzy się ze słowem *definicja*. Nie byłoby też wcale źle, gdyby zapis informujący o
-operacjach, które można wykonywać z użyciem definiowanej stałej, kojarzył się na przykład z
-naklejeniem na coś etykiety. A najlepiej, żeby symbol oznaczający bycie treścią albo ciałem
-definicji przypominał ten, którego używa się często w tym celu w informatyce. Co byś wtedy
-powiedziała na takie rozwiązanie?
+takie kojarzy się ze słowem *definicja*. Nie byłoby też źle, gdyby zapis informujący o operacjach,
+które można wykonywać z użyciem definiowanej stałej, kojarzył się na przykład z naklejeniem na coś
+etykiety. A najlepiej, żeby symbol oznaczający bycie treścią albo ciałem definicji przypominał ten,
+którego używa się często w tym celu w informatyce. Co byś wtedy powiedziała na takie rozwiązanie?
 
 **Polecenie**: Skopiuj do Leana poniższy fragment kodu. Możesz wkleić go do schowka klikając na dwa
 małe kwadraty widoczne po prawej.
@@ -110,17 +116,17 @@ def dziesiec : Nat := 10
 
 To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=` możemy czytać jako
 *niech będzie* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku
-stałej o *nazwie* `dziesiec`. Każda stała ma jakiś *typ*. Na przykład, stała `dziesięć` ma typ `Nat`
-(`: Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść,
-to liczba, a właściwie *term* `10`.
+stałej o *nazwie* `dziesiec`. Każda zdefiniowana stała ma jakiś *typ*. Na przykład, stała `dziesięć`
+ma typ `Nat` (`: Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość
+albo treść, to liczba, a mówiąc ogólnie *term* `10`.
 
 Będę czasem pisał tak, jakby fragment kodu taki jak `dziesiec : Nat` pełnił rolę *rzeczownika* - na
-przykład "stała `dziesiec : Nat` jest ..." to będzie inny sposób, żeby powiedzieć "stała `dziesiec`
-o typie `Nat` jest ..." - albo *zdania*, na przykład "Jeżeli `dziesiec : Nat` ..."  to będzie inny
-sposób, żeby powiedzieć "Jeżeli stała `dziesiec` ma typ `Nat`...". W obydwu przypadkach właściwa
-interpretacja będzie wynikała z kontekstu. Fragmenty tekstu takie jak "stała `dziesiec : Nat` jest
-...", które są zapisane jednocześnie w dwóch językach, naturalnym ("stała ... jest") i formalnym
-(`dziesiec : Nat`), będę wprowadzał między innymi po to, żebyś mogła zauważyć, jak naturalna może
+przykład, *stała `dziesiec : Nat` jest ...* to będzie inny sposób, żeby powiedzieć *stała `dziesiec`
+o typie `Nat` jest ...* - albo *zdania*, na przykład, *Jeżeli `dziesiec : Nat` ...*  to będzie inny
+sposób, żeby powiedzieć *Jeżeli stała `dziesiec` ma typ `Nat`...*. W obydwu przypadkach właściwa
+interpretacja będzie wynikała z kontekstu. Fragmenty tekstu takie jak *stała `dziesiec : Nat` jest
+...*, zapisane jednocześnie w dwóch językach, to jest naturalnym (*stała ... jest*) i *formalnym*
+(*`dziesiec : Nat`*), będę wprowadzał między innymi po to, żebyś mogła zauważyć, jak naturalna może
 być formalizacja w języku teorii typów.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`, tak, żeby oznaczała
@@ -133,8 +139,7 @@ wywnioskować na czym polega problem z komunikatu o błędzie.
 definicja będzie błędna nie dlatego, że to słowo zawiera błąd ortograficzny. Umieść kursor na słowie
 `tszy` i odczytaj komunikat o błędzie widoczny po prawej. Powinnaś wtedy zobaczyć komunikat `unknown
 identifier 'tszy'`, co oznacza, że Lean nie wie, czym jest `tszy`. Przekonasz się w ten sposób, że
-błędy to tylko okazja, żeby Lean mógł się wykazać i żebyś Ty mogła nauczyć się robić coś trochę
-lepiej.
+błędy to tylko okazja, żeby Lean mógł się wykazać i żebyś mogła nauczyć się robić coś trochę lepiej.
 
 W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
 stałą o typie *tekstowym* (`String`), nazywanym przez informatyków typem *napisów*, *stałych
@@ -149,8 +154,7 @@ cudzysłowami.
 def gwiazda_wieczorna : String := "Rihanna"
 ```
 
-Żeby zobaczyć wartość stałej trzeba użyć komendy `#eval` (to skrót od agielskiego słowa
-*evaluation*):
+Żeby zobaczyć wartość stałej trzeba użyć komendy `#eval` (od agielskiego *evaluation*):
 
 ```lean
 #eval dziesiec
@@ -163,7 +167,7 @@ kursor będzie się wtedy znajdował w linii, która zaczyna się od komendy `#e
 wartość wpisywanej stałej.
 
 Typ każdego poprawnego wyrażenia, w tym każdej zdefiniowanej wcześniej stałej, możemy sprawdzić za
-pomocą komendy `#check`:
+pomocą komendy `#check` (czyli *#sprawdź*):
 
 ```lean
 #check dziesiec

@@ -332,7 +332,7 @@ Czyli, pełna przesiadek w różnych brzydkich i niemodnych miejscach, podróż 
 jest izomorfizm Curry'ego-Howarda](./rozdzialy/R07_Byc_moze_nie_wiesz.md)  
 *Kolejny nostalgiczny (?) powrót do szkoły podstawowej.*
 
-[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/R08_Logika_na_Lanie_pierwsze_kroki.md)  
+[R8 Logika na Leanie, pierwsze kroki](./rozdzialy/R08_Logika_na_Leanie_pierwsze_kroki.md)  
 *Nowy język i nowy sposób myślenia o logice, matematyce w ogóle, która okazuje się być
 programowaniem, programowaniu, które okazuje się być matematyką, i życiu, bo [życie jest
 programowaniem](https://youtu.be/3iYQcNa31Rs?si=JvpDM5pITt-K6t-A), chociaż trudno (mi) powiedzieć,
