@@ -10,7 +10,7 @@ Nie powiedziałem, że napisałem metateoretyczny doktorat na temat podstaw psyc
 ponad dziesięć lat prowadziłem zajęcia między innymi z psychologii poznawczej, bo nie widziałem
 takiej potrzeby. Ale co sobie wtedy pomyślałem, to sobie pomyślałem. A teraz zastosuję się do tej w
 praktyce chyba wcale nie tak rzadko użytecznej rady, przypominając po raz trzeci i ostatni, że
-**najważniejsze moim zdaniem wskazówki na temat tego, jak czytać tą książkę, są
+**najważniejsze moim zdaniem wskazówki na temat tego, w jaki sposób warto czytać tą książkę, są
 [tutaj](./Wujek_dobra_rada.md).**
 
 <hr>
