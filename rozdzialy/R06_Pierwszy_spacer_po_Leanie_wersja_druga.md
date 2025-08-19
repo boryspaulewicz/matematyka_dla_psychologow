@@ -636,16 +636,16 @@ suma (Nat.succ 4) (6 - 2)
 
 suma 5 4
 
--- Ponieważ argumenty są w postaci normalnej (tutaj właściwie udajemy, że są), w tym momencie
--- następuje rozpakowanie definicji stałej `suma`:
+-- Ponieważ argumenty są w *postaci normalnej*, to jest maksymalnie zredukowanej (tutaj właściwie
+-- udajemy, że są), w tym momencie następuje rozpakowanie definicji stałej `suma`:
 n + m
 
 -- A ponieważ `5` ma być podstawione za zmienną `n` (pierwszy parametr) a `4` za zmienną `m` (drugi
--- parametr) to uzyskujemy taką wersję ciała:
+-- parametr), to uzyskujemy taką wersję ciała:
 5 + 4
 
 -- W ten sam sposób przebiega ewaluacja aplikacji funkcji `+` do liczb `5` i `4`. Ewaluacja trwa do
--- momentu, gdy nic więcej nie będzie się dało zredukować do prostszej postaci.
+-- momentu, gdy nic więcej nie będzie się dało, lub nie będzie warto redukować do prostszej postaci.
 ```
 
 Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji najbardziej wewnętrznych albo
@@ -657,7 +657,7 @@ argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami pewnych apl
 
 `argument1 funkcja argument2`, na przykład `1 + 2`
 
-... zamiast w *notacji prefiksowej* (inaczej przedrostkowej) ...
+... zamiast w *notacji prefiksowej* (inaczej przedrostkowej), ...
 
 `funkcja argument1 argument2`, na przykład `suma 1 2`
 
@@ -665,8 +665,8 @@ argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami pewnych apl
 rozumiał taki zapis dla samodzielnie zdefiniowanych funkcji, takich jak na przykład `suma`, ale
 zrobimy to kiedy indziej.
 
-**Nawiasy w aplikacjach wieloargumentowych**: Jesteś w stanie domyślić się, na czym polega,
-wynikający z niejednoznaczności zapisu, błąd w tym fragmencie kodu?
+**Nawiasy w aplikacjach wieloargumentowych**: Jesteś w stanie domyślić się, na czym polega błąd -
+wynikający z niejednoznaczności zapisu - który Lean wykrywa w tym fragmencie kodu?
 
 ```lean
 #eval suma Nat.succ 2 3
@@ -718,12 +718,13 @@ liczbę naturalną.
 **Sugestia**: Po przeczytaniu tego rozdziału i ewentualnym podjęciu prób wykonania niektórych lub
 wszystkich poleceń warto może wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
 sprawach, ale w inny sposób. Wydaje mi się, że dzięki temu dosyć szybko treści omówione w tych dwóch
-rozdziałach staną się dla Ciebie w miarę jasne.
+rozdziałach staną się dla Ciebie w miarę jasne i nie będziesz ich musiała później prawie w ogóle
+powtarzać.
 
 ### Przypisy
 
 [^1]: *Typ funkcyjny* i *typ funkcji* to tylko dwie różne nazwy na to samo. W szczególności, typ
-    funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa typ funkcyjny brzmi po prostu
+    funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa "typ funkcyjny" brzmi po prostu
     lepiej, na przykład: *Funkcje to dokładnie takie termy, których typem jest jakiś typ funkcyjny*
     brzmi chyba lepiej, niż *Funkcje to dokładnie takie termy, których typem jest jakiś typ
     funkcji*.
@@ -733,7 +734,7 @@ rozdziałach staną się dla Ciebie w miarę jasne.
     *nie* polecam, bo zbyt wczesny kontakt z Gombrowiczem niekoniecznie sprzyja socjalizacji. Jeżeli
     więc czytają to jacyś aktualni lub przyszli rodzice, to sugeruję, żeby Gombrowicza dzieciom
     stanowczo zakazać, przynajmniej dopóki nie zaczną wychodzić na miasto. Zamiast tego niech
-    czytają o teorii typów albo teorii kategorii, bo dzięki temu z pewnością szybko staną się
+    czytają o teorii typów lub teorii kategorii, bo dzięki temu z pewnością szybko staną się
     [socjometrycznymi gwiazdami](https://pl.wikipedia.org/wiki/Gwiazda_socjometryczna). Nie ma za
     co.
 
