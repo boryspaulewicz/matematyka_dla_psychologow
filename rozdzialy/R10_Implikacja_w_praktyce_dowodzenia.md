@@ -1,10 +1,6 @@
 <br>
 
-**Minutnik**, tak? 
-
-**M I N U T N I K** 
-
-*Minutnik*!
+Używasz minutnika?
 
 <hr>
 
@@ -33,48 +29,51 @@ wcześniejszych rozdziałów, spróbuj dokończyć poniższe dowody. Warto to zr
 funkcje ręcznie, a raz za pomocą trybu interaktywnego, w dowolnej kolejności. Ponieważ błędy są po
 to, żeby je robić coraz rzadziej robiąc je na początku częściej, nie ma sensu powstrzymywać się od
 eksperymentowania. W trybie interaktywnym możesz przecież próbować dowolnych kombinacji znanych Ci
-już taktyk i po prostu sprawdzać, jak to wpłynie na aktualny stan dowodu.
+już taktyk i po prostu sprawdzać, jak to wpłynie na aktualny stan dowodu. No bo jak inaczej miałabyś
+się tego dobrze i zarazem w miarę bezboleśnie (nie ma w okolicy nikogo, kto mógłby Cię oceniać)
+uczyć?
 
 Moim zdaniem warto czasem rozwiązywanie tego typu prostych zadań powtarzać, z przerwami, do momentu,
-gdy będzie to tak łatwe, że stanie się przez to wyraźnie przyjemne; jak granie na jakimś
-instrumencie utworu, który tak dobrze się opanowało, że staje się to sposobem na satysfakcjonujące
-(hm) odprężenie.
+gdy będzie to tak łatwe, że stanie się przez to wyraźnie przyjemne; jak granie na instrumencie
+utworu, który tak dobrze się opanowało, że staje się to sposobem na satysfakcjonujące (hm)
+odprężenie.
 
-**Szare nazwy zmiennych**: Jeżeli zobaczysz, że niektóre parametry Lean wyświetla na szaro a nie na
-czarno, to będzie znak, że te parametry nie są nigdzie używane. To nie jest komunikat o błędzie,
-tylko ostrzeżenie na temat *stylu*, które możesz spokojnie zignorować[^1]. Żeby Lean przestał
+**Szare nazwy zmiennych**: Jeżeli zobaczysz, że niektóre parametry Lean wyświetla na szaro, a nie na
+czarno, to będzie znak, że te parametry nie są nigdzie używane. To *nie* jest komunikat o *błędzie*,
+tylko *ostrzeżenie* na temat *stylu*, które możesz spokojnie zignorować[^1]. Żeby Lean przestał
 grymasić, możesz usunąć to ostrzeżenie na przykład wpisując zamiast nazwy zbędnego parametru symbol
 podkreślenia `_`. Wtedy Lean będzie wiedział, że Ty wiesz, że nie używasz nigdzie tego parametru.
 
 Stosuję tutaj konwencję nazywania twierdzeń w takim stylu, żeby zasygnalizować, że niektóre z nich
-są do siebie podobne, albo wręcz że są tym samym twierdzeniem, tylko inaczej zapisanym.
-
-Zacząłem tu również konsekwentnie stosować słowo kluczowe `theorem`, które oznacza to samo co `def`,
-ale mówi Leanowi, że danej definicji nie trzeba rozpakowywać. Powód, dla którego tak właśnie na ogół
-definiujemy twierdzenia, podam jednak później.
+są do siebie podobne, albo wręcz że są tym samym twierdzeniem, tylko inaczej zapisanym. Zacząłem tu
+również konsekwentnie stosować słowo kluczowe `theorem`, które oznacza prawie to samo, co `def`, ale
+mówi Leanowi, że danej definicji nie trzeba rozpakowywać, bo aplikacje danej funkcji nie będą nigdy
+ewaluowane. Powód, dla którego Lean w ten sposób traktuje twierdzenia zdefiniowane za pomocą słowa
+kluczowego `theorem` objaśnię jednak szczegółowo później.
 
 ```lean
 -- To tylko rozgrzewka, bo to jest to samo twierdzenie, które udowodniłaś już wcześniej, zmieniła się
 -- tylko nazwa twierdzenia i nazwa jego (jedynego) parametru.
 theorem t1a (p : Prop) : p → p :=
 
--- W trybie nieinteraktywnym trzeba tutaj stworzyć funkcję, która tworzy funkcję. W trybie interaktywnym
--- trzeba dwa razy użyć taktyki `intro`. Przypominam, że taktyka `intro` służy do (λ-)abstrachowania od termów
--- dowolnego typu, nie tylko zdaniowego. Nie wiem, który tryb będzie dla Ciebie na początku łatwiejszy,
--- więc jeśli jeden z nich będzie się wydawał trudny, to spróbuj drugiego.
+-- W trybie nieinteraktywnym trzeba tutaj stworzyć funkcję, która tworzy funkcję. W trybie
+-- interaktywnym trzeba dwa razy użyć taktyki `intro`. Przypominam, że taktyka `intro` służy do
+-- (λ-)abstrachowania od termów dowolnego typu, nie tylko zdaniowego. Nie wiem, który tryb będzie
+-- dla Ciebie na początku łatwiejszy, więc jeśli jeden z nich będzie się wydawał trudny, to spróbuj
+-- drugiego.
 theorem t1b : (p : Prop) → p → p :=
 
--- To zadanie jest najprostsze, ale może właśnie dlatego w trybie nieinteraktywnym może być szczególnie
--- dezorientujące. Tym, co od razu masz do dyspozycji wewnątrz definicji (czyli masz w kontekście) są
--- parametry tego twierdzenia-funkcji. Musisz tylko zapisać term, który ma taki sam typ, jak typ rezultatu,
--- to jest typ `p`. Jeżeli nie wiesz, jak to zrobić, zacznij może od trybu interaktywnego. Do wyboru masz
--- tylko dwie taktyki, bo tylko tyle na razie poznałaś, a więc metodą prób i błędów na pewno szybko
--- znajdziesz poprawne rozwiązanie.
+-- To zadanie jest najprostsze, ale może właśnie dlatego w trybie nieinteraktywnym może być
+-- szczególnie dezorientujące. Tym, co od razu masz do dyspozycji wewnątrz definicji (czyli masz w
+-- kontekście) są parametry tego twierdzenia-funkcji. Musisz tylko zapisać term, który ma taki sam
+-- typ, jak typ rezultatu, to jest typ `p`. Jeżeli nie wiesz, jak to zrobić, zacznij może od trybu
+-- interaktywnego. Do wyboru masz tylko dwie taktyki, bo tylko tyle na razie poznałaś, a więc metodą
+-- prób i błędów na pewno szybko znajdziesz poprawne rozwiązanie.
 theorem t1c (p : Prop) (h : p) : p :=
 
--- Tutaj w trybie nieinteraktywnym pojawi się podświetlenie na szaro, ale już wiesz, że to tylko ostrzeżenie
--- na temat stylu. Przypominam, że wprowadzając zmienne / parametry do kontekstu za pomocą taktyki `intro`
--- musisz uważać, żeby ich nazwy się nie powtarzały.
+-- Tutaj w trybie nieinteraktywnym pojawi się podświetlenie na szaro, ale już wiesz, że to tylko
+-- ostrzeżenie na temat stylu. Przypominam, że wprowadzając zmienne/parametry do kontekstu za pomocą
+-- taktyki `intro` musisz uważać, żeby ich nazwy się nie powtarzały.
 theorem t2 (p q : Prop) : p → q → p :=
 
 theorem t3a (p : Prop) : p → p → p :=
@@ -83,17 +82,17 @@ theorem t3b (p : Prop) (h1 : p) : p → p :=
 
 theorem t3c (p : Prop) (h1 : p) (h2 : p) : p :=
 
--- Jak już wspomniałem, jedna z różnic między `theorem` i `def` jest taka, że definicje funkcji zapisane za 
--- pomocą słowa kluczowego `theorem` nie są później rozpakowywane. W przypadku *konstruowania* dowodu to nie
--- ma znaczenia. To, że twierdzenia nie są rozpakowywane, wpływa między innymi na koszty, z jakimi Lean
--- wykonuje pewne operacje; ponieważ nie musi wtedy nic rozpakowywać, oszczędza zasoby. Poza tym Lean 
--- traktuje wszystkie dowody tego samego twierdzenia albo zdania tak, jakby były *tym samym obiektem*, ale
--- tym nie musisz się teraz przejmować.
+-- Jak wspomniałem, jedna z różnic między `theorem` i `def` jest taka, że definicje funkcji zapisane
+-- za pomocą słowa kluczowego `theorem` nie są później rozpakowywane. W przypadku *konstruowania*
+-- dowodu to nie ma znaczenia. To, że twierdzenia nie są rozpakowywane, wpływa między innymi na
+-- koszty, z jakimi Lean wykonuje pewne operacje; ponieważ nie musi wtedy nic rozpakowywać,
+-- oszczędza zasoby. Poza tym Lean traktuje wszystkie dowody tego samego twierdzenia albo zdania
+-- tak, jakby były *tym samym obiektem*, ale tym nie musisz się teraz przejmować.
 def t4 (p q : Prop) : q → p → p :=
 
--- Jeżeli potrzebujesz wskazówek, znajdziesz je pod koniec jednego z poprzednich rozdziału. Wprowadzamy
--- tutaj aksjomatycznie zdanie (a nie jego dowód) `r`, a następnie, gdy dzięki temu `r` jest już czymś, co Lean
--- "rozumie", wprowadzamy aksjomatycznie dowód tego zdania.
+-- Jeżeli potrzebujesz wskazówek, znajdziesz je pod koniec jednego z poprzednich
+-- rozdziałów. Wprowadzamy tutaj aksjomatycznie zdanie (a nie jego dowód) `r`, a następnie, gdy
+-- dzięki temu `r` jest już czymś, co Lean "rozumie", wprowadzamy aksjomatycznie dowód tego zdania.
 axiom r : Prop
 axiom hr : r
 theorem t5 (p : Prop) : p → r :=
