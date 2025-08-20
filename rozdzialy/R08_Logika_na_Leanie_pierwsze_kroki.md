@@ -359,9 +359,9 @@ dowodzeniu twierdzeń.
 
 ## Pierwsze twierdzenie jako funkcja
 
-**Polecenie**: Dokończ poniższą definicję w trybie interaktywnym tak, jak to robiłaś wcześniej,
-używając taktyk `intro` i `exact`. Jedyna trudność, jaka może się tutaj pojawić, to fakt, że
-pierwszy raz używasz typu `Prop`. W tym przypadku jedyne, co się liczy, to fakt, że to jest pewien
+**Polecenie**: Dokończ definicję w trybie interaktywnym tak, jak to robiłaś wcześniej, używając
+taktyk `intro` i `exact`. Jedyna trudność, jaka może się tutaj pojawić, to fakt, że pierwszy raz
+używasz typu `Prop`. Jednak jedyne, co ma w tym przypadku znaczenie, to fakt, że `Prop` to pewien
 typ (a `zdanie` jest pewnym parametrem funkcji `twierdzenie`):
 
 ```lean
@@ -369,24 +369,50 @@ def twierdzenie (zdanie : Prop) : zdanie → zdanie := by
 ```
 
 **Polecenie**: Dokończ tą samą definicję jeszcze raz, ale tym razem nie używając trybu
-interaktywnego. Trzeba będzie usunąć kod, który przed chwilą napisałaś i trzeba będzie usunać też
-słowo kluczowe `by`; albo możesz napisać tą definicję od nowa, używając innej nazwy dla definiowanej
-stałej. Potraktuj `Prop` jak jakiś typ, taki jak inne i dokończ definicję tak, jakby to była funkcja
-identycznościowa (działająca tylko dla termów typu `Prop`). Przypuszczam, że to będzie dla Ciebie w
+interaktywnego. Trzeba będzie usunąć kod, który przed chwilą napisałaś, i trzeba będzie usunać też
+słowo kluczowe `by`. Albo napisz tą definicję od nowa, ale używając innej nazwy dla definiowanej
+stałej. Potraktuj `Prop` jak jakiś typ, taki jak inne, i dokończ definicję tak, jakby to była
+funkcja identycznościowa (ale działająca tylko dla termów typu `Prop`). Przypuszczam, że to będzie w
 tym momencie łatwe.
 
-Jeżeli udało Ci się wykonać ostatnie polecenie, to właśnie na dwa sposoby *całkowicie formalnie
-udowodniłaś* pewne *twierdzenie matematyczne*! Mówiąc dokładniej, udowodniłaś (parametryczną)
-tautologię *Jeżeli A, to A*, gdzie *A* to jakieś zdanie.
+Jeżeli udało Ci się wykonać ostatnie polecenie, to właśnie na dwa sposoby *formalnie udowodniłaś*
+pewne *twierdzenie matematyczne*! Mówiąc dokładniej, udowodniłaś (w dodatku od razu *parametryczną*)
+tautologię *Jeżeli A, to A*, gdzie *A* to jakieś zdanie. 
+
+Ponieważ każde zdanie jest typem (typu `Prop`), a każdy dowód zdania jako typu jest termem tego
+typu, to ten sam dowód można jednocześnie skonstruować i sprawdzić również tak (ale nie przejmuj
+się, jeśli ta wersja, a w szczególności symbol `∀`, budzi Twój niepokój, bo jeszcze do tego
+wrócimy):
+ 
+```lean
+-- Lean nie zgłasza błędu, a więc ten term ma podany tutaj jawnie typ, czyli ten term jest dowodem
+-- tego zdania, ...
+#check ((fun (A : Prop) => (fun (dowod : A) => dowod) : (∀ A : Prop, A → A)))
+
+-- ... bo typ `∀ A : Prop, A → A` jest termem typu `Prop`, a więc jest pewnym zdaniem:
+#check ∀ A : Prop, A → A -- `∀ (A : Prop), A → A : Prop`
+
+-- Typ (i jednocześnie zdanie) `(∀ A : Prop, A → A)` *czytamy jako*:
+--
+-- Dla każdego zdania `A`, z (prawdziwości) `A` wynika (prawdziwość) `A`.
+--
+-- Co w logice konstruktywnej znaczy:
+--
+-- Dla każdego zdania `A`, z każdego dowodu `A` można zrobić dowód `A`.
+--
+-- Podany wyżej term jest właśnie (konstruktywnym) dowodem, że tak jest, bo ten term jest *funkcją*,
+-- która coś takiego *robi*, a więc będąc poprawną konstrukcją podanego typu pokazuje, że to zawsze
+-- można zrobić.
+```
 
 # Pojęciowy zawrót głowy
 
 Pamiętasz moje uwagi na temat układu kartezjańskiego i innych izomorfizmów? Tego rodzaju izomorfizmy
 mogą się na początku wydawać obce, ale przełączając się przez pewien czas regularnie między punktami
-widzenia, które odpowiadają ich "stronom", możemy zacząć postrzegać pewne rzeczy w nowy
-sposób. Dzięki temu możemy zacząć w całkiem nowy sposób myśleć, a dzięki temu czasem lepiej sobie
-radzić z rozwiązywaniem pewnego rodzaju problemów, bo przecież co dwa punkty widzenia to nie jeden,
-zwłaszcza gdy te dwa punkty widzenia są zarazem *różne* i *idealnie dopasowane*.
+widzenia, które odpowiadają ich stronom, możemy zacząć postrzegać pewne rzeczy w nowy sposób. Dzięki
+temu możemy zacząć w nowy sposób myśleć, a dzięki temu czasem lepiej sobie radzić z rozwiązywaniem
+pewnego rodzaju problemów, bo przecież co dwa punkty widzenia to nie jeden, zwłaszcza gdy te dwa
+punkty widzenia są jednocześnie *różne* i *idealnie dopasowane*.
 
 Żeby "zanurzyć się" w izomorfizmie Curry'ego-Howarda trzeba *stopniowo* opanować sztukę *w miarę*
 konsekwentnego *odróżniania*:
@@ -397,31 +423,33 @@ konsekwentnego *odróżniania*:
 
 3. Ewentualnego *faktu*, że jakieś zdanie (albo jego negacja) *ma dowód*, wreszcie...
 
-4. *Założenia*, że jakieś zdanie ma *jakiś* dowód, od *konkretnego kodu* albo *konstrukcji* dowodu.
+4. *Założenia*, że jakieś zdanie ma *jakiś* dowód, od *kodu* albo *konstrukcji* dowodu.
 
 Na przykład, w dopiero co udowodnionym przez Ciebie twierdzeniu `twierdzenie : (zdanie : Prop) →
 zdanie → zdanie` parametr `zdanie` reprezentuje *jakieś*, czyli bliżej nieokreślone zdanie, a typ
 `zdanie → zdanie` to typ termów typu zdaniowego (bo jeżeli `zdanie` ma typ `Prop`, czyli jest jakimś
-zdaniem, to `zdanie → zdanie` jest również zdaniem). Ciało definicji stałej `twierdzenie` jest
-termem typu `zdanie → zdanie`, a więc jest dowodem tego (parametrycznego) zdania. Ponieważ Lean nie
-zasygnalizował błędu, wiemy, że to jest poprawne (składniowo) zdanie, że skonstruowany kod jest
-poprawnym kodem, który w dodatku jest dowodem tego zdania, i że wobec tego to zdanie jest prawdziwe.
+zdaniem, to `zdanie → zdanie` jest również zdaniem/ma typ `Prop`). Ciało definicji stałej
+`twierdzenie` jest termem typu `zdanie → zdanie`, a więc jest dowodem tego (parametrycznego)
+zdania. Ponieważ Lean nie zasygnalizował błędu, wiemy, że to jest poprawne (składniowo) zdanie, że
+skonstruowany kod jest poprawnym kodem, który w dodatku jest dowodem tego zdania, i że wobec tego to
+zdanie zawsze było, jest i będzie uniwersalnie prawdziwe.
 
 W tym momencie to, że to nie są te same rzeczy, może Ci się wydawać zrozumiałe i może wręcz nie
-warte objaśniania, ale możliwe, że te fundamentalne rozróżnienia będą Ci na początku sprawiały
+warte objaśniania, ale przypuszczam, że te fundamentalne rozróżnienia będą Ci na początku sprawiały
 trudności nawet w stosunkowo prostych sytuacjach. Dlatego przypominam jeszcze raz - oswojenie się z
-tym wszystkim jest przede wszystkim kwestią *czasu* (i przerw!).
+tym wszystkim jest przede wszystkim kwestią *czasu* (i przerw! \{i kontrolowania frustracji,
+zmęczenia i nudy\}).
 
 Oswajanie się z nieznanymi wcześniej fragmentami matematyki może przypominać ... wykształcanie się
 [skrzel](https://pl.wikipedia.org/wiki/Skrzela_(anatomia)). Na początku czujemy, że zanurzamy się w
 nowym, obcym (pojęciowym) środowisku, w którym nie jesteśmy w stanie przebywać zbyt długo i szybko
 się męczymy; to jest więc trochę tak, jakbyśmy się znaleźli pod powierzchnią wody. Jednak z czasem,
-jeżeli tylko będziemy nadal wracać do tego początkowo nowego dla nas środowiska, po przerwach, w
-których możemy normalnie oddychać, odzyskujemy siły i nabywamy jakiś adaptacji, będzie się ono dla
-nas stawało coraz bardziej znajome i przez to coraz bardziej naturalne. Aż w końcu wykształcimy coś
-w rodzaju mentalnego organu, którego wcześniej nie było. W ten sposób możemy uczyć się nowych
-wyspecjalizowanych języków, a wraz z nimi *nowych uniwersalnych sposobów konsekwentnego myślenia*,
-które oferuje współczesna matematyka.
+jeżeli tylko będziemy nadal wracać do tego początkowo nowego dla nas środowiska, po przerwach - w
+których możemy normalnie oddychać, odzyskujemy siły, i nabywamy jakiś adaptacji - będzie się ono dla
+nas stawało coraz bardziej znajome i naturalne. Aż w końcu wykształcimy coś w rodzaju mentalnego
+organu, którego wcześniej nie było. W ten sposób możemy uczyć się nowych wyspecjalizowanych języków,
+a wraz z nimi nowych, mniej lub bardziej uniwersalnych sposobów konsekwentnego myślenia, które
+oferuje współczesna matematyka.
 
 ## Implikacje jako funkcje
 
@@ -438,11 +466,10 @@ implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Nic? Żadnych sk
 czytamy jako *Jeżeli A, to B*. A mówiąc trochę dłużej: Zawsze, gdy mamy jakieś dwa, niekoniecznie
 różne zdania *A* i *B*, możemy napisać *A → B* i to będzie [*formuła
 logiczna*](https://pl.wikipedia.org/wiki/Formu%C5%82a_logiczna), którą interpretujemy jako
-(niekoniecznie prawdziwe, ani tym bardziej udowodnione) zdanie *Jeżeli A, to B*. Mówimy też, że *→*
-to w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle że na zdaniach, które to
-działanie z dwóch *zdań jako takich* (niekoniecznie udowodnionych czy prawdziwych) robi jedno
-(niekoniecznie udowodnione czy prawdziwe) unikalne zdanie złożone, dające się konsekwentnie
-interpretować jako *Jeżeli A, to B*.
+niekoniecznie prawdziwe, ani tym bardziej udowodnione zdanie *Jeżeli A, to B*. Mówimy też, że *→* to
+w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle, że na zdaniach, które z dwóch *zdań
+jako takich* (niekoniecznie udowodnionych czy prawdziwych) robi jedno (niekoniecznie udowodnione czy
+prawdziwe) unikalne zdanie złożone, dające się konsekwentnie interpretować jako *Jeżeli A, to B*.
 
 Może przyda Ci się wyobrazić sobie, że zdanie w logice to coś płaskiego i niemal przezroczystego, a
 jego dowód to jakiś barwny skarb, który prześwituje przez powierzchnię zdania, o ile ten dowód
@@ -456,7 +483,7 @@ Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcyjnym*.
 
 Analogia, a raczej doskonałe dopasowanie jakie występuje między zdaniami i (pewnymi) typami może
 wyglądać jak wieloznaczność i w pewnym sensie nią jest. Jednak to byłaby wieloznaczność
-problematyczna tylko gdybyśmy sprawili, że nie jest całkiem jasne, którą interpretację stosujemy i
+*problematyczna* tylko gdybyśmy sprawili, że nie jest całkiem jasne, którą interpretację stosujemy i
 gdyby *jednocześnie* ta różnica w dopuszczalnych interpretacjach miała znaczenie dla poprawności
 wniosków. Używając układu współrzędnych też korzystałaś z pewnej podwójności interpretacji, a więc
 pewnej wieloznaczności, i wyszło Ci to, jak sądzę, na dobre, prawda?
@@ -476,18 +503,18 @@ poprzednik, a które jako następnik implikacji.
 **Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
 przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
 posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy lepiej zapanować
-nad strukturą rozumowania w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo
+nad strukturą rozumowań w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo
 pogubić. Logika pozwala nam *w kontrolowany sposób ignorować treść*, *bez szkody dla
 poprawności*. To też, to jest pewnego rodzaju "beztreściowość", mamy na myśli mówiąc o "formalności"
 zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co jest ogromną siłą
 matematyki - ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów
 *mechanicznie*, jakbyśmy układali puzzle albo grali w jakąś inną grę.
 
-Coś takiego będziemy właśnie robić, a właściwie już dawno zaczęliśmy to robić. To znaczy, będziemy
+Coś takiego będziemy właśnie robić, a właściwie już dawno zaczęliśmy robić. To znaczy, będziemy
 dalej grać w grę polegającą na konstruowaniu dowodów *całkowicie* formalizując przy tym każdy
-problem. Będziemy więc używać matematyki w sposób *bardziej* formalny niż ma to zwykle miejsce nawet
-w zaawansowanych podręcznikach do matematyki. Matematycy tak zwykle *nie* postępują, bo im się nie
-chce i (zwykle) nie muszą; zamiast tego polegają na domyślności kompetentnego odbiorcy. My nie
+problem. Będziemy więc używać matematyki w sposób *bardziej* formalny, niż ma to zwykle miejsce
+nawet w zaawansowanych podręcznikach do matematyki. Matematycy tak zwykle *nie* postępują, bo im się
+nie chce i (zwykle) nie muszą; zamiast tego polegają na domyślności kompetentnego odbiorcy. My nie
 chcemy się musieć niczego domyślać, bo nie jesteśmy tak kompetentni jak zawodowi
 matematycy. Jesteśmy za to *psychologami*, a więc zarówno sami matematycy, jak i wszystko, co
 zrobili lub zrobią, *należy do przedmiotu naszych badań*!
@@ -515,20 +542,24 @@ najbardziej podstawowych zasad dotyczących tego, jak się tych języków używa
 składniowych*, a to wymaga czasu, tak samo jak czasu wymaga opanowanie gramatyki na przykład języka
 polskiego.
 
+Ale chyba już wystarczająco wiele razy powtórzyłem, co na ten temat myślę, może więc przejdźmy do
+następnego wątku.
+
 ## Pojęcie prawdy w logice konstruktywnej
 
 Na koniec tego rozdziału powiem jeszcze coś na temat dwóch najważniejszych dla nas logik, to jest
 logiki *konstruktywnej* i *klasycznej*. Być może miałaś już do czynienia z elementami logiki zdań i
-słyszałaś już na przykład o koniunkcji albo o implikacji. Jeżeli tak, to może to być teraz do
-pewnego stopnia *przeszkodą*, ponieważ logika zdań jest najczęściej wykładana w wersji tak zwanej
+słyszałaś na przykład o koniunkcji albo o implikacji. Jeżeli tak, to może to być teraz do pewnego
+stopnia *przeszkodą*, ponieważ logika zdań jest najczęściej wykładana w wersji tak zwanej
 *klasycznej*, w której prawdą jest, że:
 
-*Każde zdanie jest albo prawdziwe, albo fałszywe.*<br/>(zdanie prawdziwe w logice klasycznej)
+*Każde zdanie jest albo prawdziwe, albo fałszywe.*  
+(zdanie prawdziwe w logice klasycznej)
 
 Jak również:
 
-*Dla każdego zdania P, jeżeli nieprawda, że nieprawda, że P, to P*. <br/>(inne zdanie prawdziwe w
-logice klasycznej)
+*Dla każdego zdania P, jeżeli nieprawda, że nieprawda, że P, to P*.  
+(inne zdanie prawdziwe w logice klasycznej)
 
 W Leanie domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
 konstruktywnej, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w tym
@@ -537,8 +568,8 @@ ale nie odwrotnie. O ostrożniejszych założeniach lub teoriach i o ogólniejsz
 są *słabsze*, w znaczeniu mniej *zobowiązujące*, albo - czasami - mniej *spekulatywne*. W logice
 konstruktywnej można przyjąć, że:
 
-*Zdanie prawdziwe to to samo, co zdanie udowodnione.*<br/>(dopuszczalna interpretacja prawdy w
-logice konstruktywnej)
+*Zdanie prawdziwe to to samo, co zdanie udowodnione.*  
+(dopuszczalna interpretacja prawdy w logice konstruktywnej)
 
 Co za różnica? Jeżeli postanowimy intepretować słowo "prawdziwe" jako równoznaczne z "udowodnione",
 to *nie możemy* zaakceptować jako prawdziwego zdania *Każde zdanie jest albo prawdziwe, albo
@@ -567,22 +598,25 @@ Jeżeli *A* i *B* to zdania, to:
 *A → B*
 
 W taki sposób zwykle zapisujemy reguły dedukcji. Reguły dedukcji mówią, jakie nowe kroki (zdania)
-możemy wprowadzić do naszego dowodu w jakich warunkach. Ta akurat reguła (reguła *wprowadzenia*
-implikacji) mówi, że jeżeli zakładając *A* (i być może przyjmując wcześniej inne założenia) da się
-wyprowadzić w jakikolwiek sposób (to właśnie oznaczają te zapisane pionowo kropki) *B*, to można
-wprowadzić albo zaakceptować albo uznać za prawdziwe (na mocy wszystkich wcześniejszych założeń i
-wyprowadzonych wniosków) zdanie *A → B*. Mówiąc krótko: Jeżeli z *A* da się wyprowadzić *B*, to
-można zaapceptować zdanie *A → B*. Albo najkrócej: Jeżeli z *A* wynika *B*, to *A → B*.
+możemy wprowadzić do dowodu w jakich warunkach. Ta akurat reguła (reguła *wprowadzenia* implikacji)
+mówi, że jeżeli zakładając *A* (i być może przyjmując wcześniej inne założenia) da się wyprowadzić w
+jakikolwiek sposób (to właśnie oznaczają te zapisane pionowo kropki) *B*, to można wprowadzić albo
+zaakceptować albo uznać za prawdziwe (na mocy wszystkich wcześniejszych założeń i wyprowadzonych
+wniosków) zdanie *A → B*. Mówiąc krótko: Jeżeli w danym kontekście z *A* da się wyprowadzić *B*, to
+można w tym kontekście zaapceptować zdanie *A → B*. Albo najkrócej: Jeżeli z *A* wynika *B*, to *A →
+B*.
 
 W logice konstruktywnej *prawdziwe* znaczy to samo, co *ma (jakiś) dowód*. Dlatego ta reguła
-dedukcji ma w tej logice taką a nie inną *interpretację*: *Jeżeli z dowodu A można zrobić (w danym
-kontekście) dowód B, to ten sposób przekształcania dowodów A w dowody B jest dowodem A → B*.
+dedukcji ma w tej logice taką a nie inną *interpretację*:
+
+*Jeżeli z dowodu A można zrobić (w danym kontekście) dowód B, to ten sposób przekształcania dowodów
+A w dowody B jest dowodem A → B*.
 
 Albo: Dowód *A → B* to każdy sposób uzyskania dowodu *B* z *dowolnego* dowodu *A*.
 
 Czy widzisz, że to jest ciągle ta sama reguła dedukcji, ale wydaje się zmieniać, bo zmieniamy
-sposób, w jaki *my* o niej mówimy, to jest w jaki interpretujemy pojęcie prawdy (albo akceptacji
-zdania w dowodzie)?
+sposób, w jaki *my* o niej mówimy i w jaki jej używamy, to jest w jaki interpretujemy pojęcie prawdy
+(albo akceptacji zdania w dowodzie)?
 
 A przecież: Jeżeli `A` jest zdaniem, czyli termem typu `Prop`, to term typu `A` jest dowodem tego
 zdania.
@@ -593,7 +627,7 @@ Wobec tego ...
 def tautologia (A : Prop) : A → A := fun (h : A) => h
 ```
 
-... jest dowodem tautologii *A → A* (jeżeli *A*, to *A*) dla każdego zdania *A*.
+... jest dowodem tautologii *A → A* (jeżeli *A*, to *A*), dla każdego zdania *A*.
 
 Sam fakt, że da się skonstruować funkcję o typie `(A : Prop) → A → A` oznacza, że wiedząc *tylko
 tyle*, że *A* jest jakimś zdaniem, można z dowolnego dowodu *A* zrobić dowód *A*. Jeżeli *A* to
@@ -601,16 +635,16 @@ zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda?
 
 O ile tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię do
 interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się irytujące, ponieważ to
-wszystko będzie prawie natychmiast oczywiste. Będziesz wtedy nawet wolała się nad tym za bardzo nie
-zastanawiać, podobnie jak ktoś, kto nauczył się w miarę płynnie grać utwór na pianinie woli nie
-myśleć o nazwach kolejno granych akordów czy nut.
+wszystko będzie oczywiste. Będziesz wtedy nawet wolała się nad tym za bardzo nie zastanawiać,
+podobnie jak ktoś, kto nauczył się w miarę płynnie grać utwór na pianinie woli nie myśleć o nazwach
+kolejno granych akordów czy nut.
 
 Jeszcze jedna uwaga na temat często stosowanych, ale rzadko objaśnianych konwencji: Gdy matematycy
-nagle zmieniają notację i wydaje się, że bez wyraźnego powodu na to samo zamiast małych liter
+nagle zmieniają notację i wydaje się, że bez powodu na oznaczenie tego samego zamiast małych liter
 używają dużych, często chcą w ten sposób zasugerować, że mają na myśli również dowolnie *złożone*,
 albo bardziej złożone niż wcześniej, albo w pewnym sensie większe obiekty danego rodzaju. Tutaj
-zacząłem w pewnem momencie oznaczać arbitralne zdania dużymi literami właśnie w tym celu - żeby
-zasygnalizować, że chodzi o zdania dowolnie złożone.
+zacząłem w pewnem momencie oznaczać arbitralne zdania dużymi literami właśnie w tym celu, to jest
+żeby zasygnalizować, że chodzi o zdania atomowe lub dowolnie złożone.
 
 Przypominam na koniec fragment prozy matematycznej, który pojawił się w trzecim rozdziale:
 
@@ -635,18 +669,18 @@ twierdzenia* w taki sam sposób w jaki stosujemy wszystkie inne funkcje:
 -- odpowiedniego typu tworzy dowód szczególnej wersji zdania `n + m = m + n`, gdzie `n` i `m` to parametry.
 #check Nat.add_comm -- Nat.add_comm (n m : Nat) : n + m = m + n
 
--- Widzimy poniżej, że aplikacja `Nad.add_comm 2 3` jest dowodem zdania `2 + 3 = 3 + 2`:
+-- Jak widać, sama aplikacja `Nad.add_comm 2 3` jest dowodem zdania `2 + 3 = 3 + 2`:
 #check Nat.add_comm 2 3 -- Nat.add_comm 2 3 : 2 + 3 = 3 + 2
 ```
 
 Jeżeli masz ochotę, to może zerknij znowu na [tą część rozdziału
-czwartego](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/Pierwszy_spacerek.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87)
-i zobacz, czy zmienił się sposób, w jaki teraz postrzegasz to, o czym tam pisałem.
+czwartego](https://github.com/boryspaulewicz/matematyka_dla_psychologow/blob/main/rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md#ten-tytu%C5%82-jest-tylko-po-to-%C5%BCeby-do-niego-p%C3%B3%C5%BAniej-wr%C3%B3ci%C4%87)
+i zobacz, czy zmienił się sposób, w jaki teraz postrzegasz i rozumiesz to, o czym tam pisałem.
 
 ### Przypisy
 
 [^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
     [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
     Zaporożec wykonywali utwory z płyty [П'ятниця](https://www.youtube.com/watch?v=nnWMrmTWonI),
-    której lubiłem wtedy czasami posłuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką
-    i wtedy usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
+    której lubiłem wtedy słuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką i wtedy
+    usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
