@@ -198,12 +198,12 @@ dawna i od dawna są na Ty, w niektórych sytuacjach zaczynają nagle zwracać s
 per Pani, albo posługują się jakimiś tytułami, i wtedy ktoś, kto zawsze był i zawsze będzie po
 prostu Kamilem, staje się nagle Kamilem - Panem Profesorem.
 
-Myślę sobie, że chociaż istnieją co prawda różne dobre *powody* albo *racje*, żeby zachować tego
-rodzaju powagę, to jednak *faktyczna przyczyna*, dla której tak czasem robimy, może wcale nie być
-dobra. Bo faktyczną przyczyną może być i chyba często jest po prostu wstyd, czy może raczej lęk
-przed potencjalnym wstydem. A taki lęk utrudnia, o ile wręcz nie uniemożliwia, między innymi
-swobodną wymianę poglądów i racjonalną, krytyczną dyskusję, a tym samym utrudnia również autentyczną
-pracę naukową, ponieważ każda tego rodzaju dyskusja jest z konieczności procesem twórczym.
+Myślę sobie, że chociaż istnieją co prawda dobre *powody*, żeby zachować tego rodzaju powagę, to
+jednak *faktyczna przyczyna*, dla której tak czasem robimy, może wcale nie być dobra. Bo faktyczną
+przyczyną może być i chyba często jest wstyd, czy może raczej lęk przed potencjalnym wstydem. A taki
+lęk utrudnia, o ile wręcz nie uniemożliwia, między innymi swobodną wymianę poglądów i racjonalną,
+krytyczną dyskusję, a tym samym również autentyczną pracę naukową, ponieważ każda tego rodzaju
+dyskusja jest z konieczności procesem twórczym.
 
 ### Przypisy
 
