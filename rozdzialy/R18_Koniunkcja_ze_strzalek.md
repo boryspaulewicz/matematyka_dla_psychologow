@@ -1,33 +1,44 @@
 ## O czym teraz będzie
 
-Czytając ten rozdział pamiętaj proszę, że jeżeli to, o czym będę tu mówił, wyda Ci się na razie zbyt
-skomplikowane, to nie masz się czym przejmować. *Implementacja nie ma znaczenia*; ważne jest tylko
-to, jak koniunkcja *działa*. Mówiąc dokładniej, ostatecznie liczy się tylko to, jak możemy *używać*
-koniunkcji w dowodach, co już jak sądzę całkiem dobrze zrozumiałaś czytając rozdział poprzedni.
+Jeżeli to, o czym będę tu mówił, wyda Ci się na razie zbyt skomplikowane, to nie masz się czym
+przejmować, bo będę mówił tylko o pewnej implementacji koniunkcji, a *implementacja nie ma
+znaczenia*; ważne jest tylko to, jak koniunkcja *działa* (albo "funkcjonuje"). Mówiąc dokładniej,
+ostatecznie liczy się to, jak możemy, a jak nie możemy *używać koniunkcji w dowodach*, co już jak
+sądzę nieźle zrozumiałaś czytając poprzedni rozdział.
 
-Wywiązuję się tu z obietnicy, że wszystko w matematyce można zrobić ze strzałek (albo funkcji) i
-jednocześnie przybliżam pewien szczególny sposób myślenia, który stanie się ważny w rozdziale
-następnym. Pod koniec zaglębiam się również w szczegóły implementacji, które pozwalają modyfikować
-składnię Leana, umożliwiając między innymi stosowanie standardowych symboli logicznych zgodnie z
-powszechnie przyjętymi konwencjami, takimi jak na przykład infiksowy (inaczej *wzrostkowy*) zapis
-koniunkcji czy prefiksowy (inaczej *przedrostkowy*) zapis negacji.
+Wywiązuję się tu z obietnicy, że wszystko w matematyce można zrobić ze strzałek albo funkcji, i
+jednocześnie staram się przybliżyć sposób myślenia, który stanie się ważny w rozdziale następnym. A
+pod koniec zaglębiam się w szczegóły implementacji, które pozwalają modyfikować składnię Leana,
+umożliwiając między innymi stosowanie standardowych symboli logicznych zgodnie z powszechnie
+przyjętymi konwencjami, takimi jak infiksowy (inaczej wzrostkowy) zapis koniunkcji.
+
+Ponieważ podejrzewam, że omawiana tu definicja jednocześnie będzie dla Ciebie zrozumiała i będzie
+budziła wątpliwości, czy czegoś ważnego nie rozumiesz, postanowiłem powtarzać się jeszcze częściej
+niż zwykle.
 
 <hr>
 
 # p ∧ q ~ ∀ r : Prop, (p → q → r) → r
 
-Jeżeli `p` i `q` to zdania, to `p ∧ q` jest również zdaniem, które odczytujemy jako `p` i
-`q`. Symbol koniunkcji uzyskasz wpisując `\and`. Podobnie jak implikacja, koniunkcja jest więc
-operatorem dwuargumentowym, który z dowolnych dwóch zdań tworzy pewne zdanie złożone (mówimy też, że
-tworzy pewną złożoną *formułę logiczną*).
+Jeżeli `p` i `q` to zdania, to `p ∧ q` też jest zdaniem, które czytamy jako *`p` i `q`*. Symbol
+koniunkcji uzyskasz wpisując `\and`. Podobnie jak implikacja, koniunkcja jest więc operatorem
+dwuargumentowym, który z dowolnych dwóch zdań tworzy pewne zdanie złożone (inaczej *formułę
+logiczną*).
 
-Implikacja jako typ funkcyjny albo po prostu strzałka jest w naszym języku pojęciem pierwotnym. Jak
-pisałem w jednym z rozdziałów wprowadzających, (prawie) wszystko, czego będziemy potrzebować,
-skonstruujemy właśnie ze strzałek, a w tym wypadku strzałek jako funkcji. Dotyczy to również
-*definicji koniunkcji*. Zaczniemy jednak od *reguł dedukcji* dla koniunkcji, to jest od reguły
-*wprowadzenia* koniunkcji (czyli sposobu uzyskania jej w dowodach) i *dwóch* reguł *eliminacji*
-koniunkcji (czyli sposobu użycia albo "zużycia" koniunkcji w dowodach). Reguła wprowadzenia jest mam
-nadzieję oczywista.
+Implikacja *jako strzałka* jest w teorii typów *pojęciem pierwotnym*, bo nie ma w tym języku
+definicji określającej do jakiej prostszej postaci można rozwinąć arbitralne termy skonstruowane za
+pomocą strzałek. Implikacja jest co prawda *szczególnym przypadkiem* typu strzałkowego, bo jej
+źródłem i celem musi być typ `Prop`, ale to również nie jest żadna *definicja* strzałki. A więc w
+teorii typów strzałki po prostu są, a ich "natura" albo "sens" jest określony tylko przez reguły
+użycia, a nie przez to "z czego są zrobione".
+
+Jak pisałem w jednym z rozdziałów wprowadzających, (prawie) wszystko, czego będziemy potrzebować,
+skonstruujemy właśnie ze strzałek, a ponieważ strzałka jest w naszym języku pojęciem pierwotnym,
+ostatecznie (prawie) wszystko będziemy konstruować ze strzałek *i tylko ze strzałek*. Dotyczy to
+również *definicji koniunkcji*. Zaczniemy jednak od *reguł dedukcji* dla koniunkcji, to jest od
+reguły *wprowadzenia* koniunkcji, czyli sposobu uzyskania jej w dowodach, i *dwóch* reguł
+*eliminacji* koniunkcji, czyli sposobu użycia albo "zużycia" koniunkcji w dowodach. Reguła
+wprowadzenia jest mam nadzieję oczywista.
 
 Jeżeli *A* i *B* to zdania, to:
 
@@ -38,7 +49,7 @@ Jeżeli *A* i *B* to zdania, to:
 to znaczy: gdy mamy dowody tych dwóch zdań), to akceptujemy zdanie *A ∧ B* (to możemy uzyskać dowód
 zdania *A ∧ B*).
 
-A oto dwie reguły eliminacji, które nie wymagają chyba komentarza.
+Reguły eliminacji też nie wymagają chyba komentarza.
 
 Jeżeli *A* i *B* to zdania, to:
 
@@ -48,52 +59,54 @@ Jeżeli *A* i *B* to zdania, to:
 <ins><em>A ∧ B</em></ins>  
 *B*
 
-Jak mogłaby wyglądać definicja koniunkcji w naszej logice skonstruowana tylko za pomocą strzałek i
-funkcji? Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to *sensem* zdania `p ∧ q` są
-*dokładnie te zdania, które wynikają z łącznej prawdziwości zdań `p` i `q`*. Do tego *sensu*,
-rozumianego jako pewnego rodzaju zbiór (albo typ), należałyby więc (zamieszkiwałyby go) przynajmniej
-zdania `p`, `q`, jak również zdanie `p ∧ q`, bo przecież każde zdanie wynika z siebie samego jako
-przesłanki. Zacznę krótko, a potem będę to na różne sposoby (dosłownie) rozwijał i (również
-dosłownie) przybliżał.
+Jak mogłaby wyglądać definicja koniunkcji skonstruowana tylko ze strzałek i funkcji? Żeby to dobrze
+objaśnić, od tego momentu będę się nieznośnie - za to zmieniając trochę treść - powtarzał.
+
+## Per nauseam ad astram
+
+Można powiedzieć, że jeżeli `p` i `q` to dowolne zdania, to *sensem* zdania `p ∧ q` są *te i tylko
+te zdania, które wynikają z łącznej prawdziwości zdań `p` i `q`*. Do tego *sensu*, rozumianego jako
+pewnego rodzaju *zbiór* (albo typ), należałyby więc (zamieszkiwałyby go) przynajmniej zdania `p` i
+`q`, jak również zdanie `p ∧ q`, bo przecież każde zdanie wynika z samego siebie jako przesłanki.
+Zacznę krótko, a potem będę to na różne sposoby (dosłownie) rozwijał i przybliżał.
 
 ```lean
 def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
 ```
 
 Na wypadek, gdyby zaskoczyło Cię, że duży kwantyfikator pojawia się tutaj za symbolem
-definiowania[^2], wyjaśniam, że to jest definicja *typu*, który równie dobrze moglibyśmy zapisać
-tak: `(r : Prop) → (p → q → r) → r` i ten zapis oznaczałby to samo. Wybrałem taką a nie inną wersję
-tylko dlatego, że wydała mi się z wyglądu bardziej "matematyczna".
+definiowania[^2], wyjaśniam, że równie dobrze moglibyśmy napisać `(r : Prop) → (p → q → r) → r`.
+Wybrałem taką wersję, bo wydała mi się nieco bardziej "matematyczna z wyglądu".
 
-**Czytamy to**: Koniunkcja zdań `p` i `q` (`and (p q : Prop)`) jest zdaniem (`: Prop`), którego
-dowód pozwala uzyskać dowód każdego zdania (`∀ r : Prop, ... → r`) które wynika łącznie ze zdań `p`
-i `q` (`(p → q → r) ...`).
+**Czytamy to**: Koniunkcja zdań `p` i `q` (`and (p q : Prop)`) to zdanie (`: Prop`), którego dowód
+pozwala uzyskać dowód każdego zdania (`∀ r : Prop, ... → r`), którego dowód można skonstruować z
+dowodów zdań `p` i `q` (`(p → q → r) ...`).
 
-Albo tak: koniunkcja zdań `p` i `q` to takie zdanie, a więc taki typ, że dowód tego zdania, a więc
-term tego typu, dostarcza dowód dokładnie takich zdań, które wynikają ze zdania `p` i ze zdania `q`.
+Albo tak: Koniunkcja zdań `p` i `q` to takie zdanie, a więc taki typ, że dowód tego zdania, a więc
+term tego typu, dostarcza dowody dokładnie takich zdań, które wynikają ze zdań `p` i `q` (łącznie).
 
 Albo tak: Jeżeli zdanie `p ∧ q` jest zdaniem prawdziwym (czyli ma dowód), to *każde* zdanie `r`,
 które wynika z *łącznej* prawdziwości zdań `p` i `q` też jest zdaniem prawdziwym. I odwrotnie,
 jeżeli *każde* zdanie `r`, które wynika stąd, że `p` jest zdaniem prawdziwym *i jednocześnie* `q`
-jest zdaniem prawdziwym jest również zdaniem prawdziwym, to `p ∧ q` jest zdaniem prawdziwym (bo to
-ostatnie zdanie jest jednym ze zdań `r`, o których mowa).
+jest zdaniem prawdziwym, jest również zdaniem prawdziwym, to `p ∧ q` jest zdaniem prawdziwym (bo to
+ostatnie zdanie jest jednym ze zdań `r`, o których tu mowa).
 
 Zgaduję, że sposób czytania `p → q → r` jako *z łącznej prawdziwości `p` i `q` wynika `r`* może
-budzić Twoje wątpliwości, ale to przecież nic innego jak currying, z którym zetknęłaś się już w
-rozdziale piątym: funkcja, która przekształca termy typu `p` w funkcję, która przekształca termy
-typu `q` w termy typu `r` może być używana tak samo, jak funkcja dwuargumentowa, która z pary
-argumentów, jednego typu `p` i drugiego typu `q`, tworzy rezultat typu `r`.
+nadal budzić Twoje wątpliwości, dlatego przypominam, że to jest przykład curryingu: funkcja, która
+przekształca termy typu `p` w funkcję, która przekształca termy typu `q` w termy typu `r` może być
+używana tak samo, jak "zwykła" funkcja dwuargumentowa, która z pary argumentów, jednego typu `p` i
+drugiego typu `q`, tworzy rezultat typu `r`.
 
 Teraz pozostaje nam tylko wyrazić tą specyfikację w języku naturalnym w kategoriach dowodów i zdań,
 a następnie zakodować ją w języku teorii typów.
 
 Jeżeli `p` i `q` to zdania, to dysponować dowodem `k` koniunkcji `p ∧ q` *znaczy to samo* (a więc
-podamy teraz definicję *typu takiego dowodu*), co dysponować taką funkcją albo programem, która dla
-każdego takiego zdania `r`, że jeżeli *`p` jest prawdziwe i `q` jest prawdziwe* to `r` jest
-prawdziwe, dostarcza dowód `r`. Albo trochę inaczej, korzystając z faktu, że możliwość stworzenia
-pewnego rezultatu (tutaj dowodu `r`) posługując się *dwoma argumentami* (tutaj dowodami zdań `p` i
-`q`) można zapisać jako możliwość stworzenia tego rezultatu z pierwszego argumentu i *funkcji, która
-z drugiego argumentu tworzy ten rezultat* (a więc currying):
+podamy teraz definicję *typu takiego dowodu*), co dysponować taką funkcją, która dla każdego takiego
+zdania `r`, że jeżeli *`p` jest prawdziwe i `q` jest prawdziwe* to `r` jest prawdziwe, dostarcza
+dowód `r`. Albo trochę inaczej, korzystając z faktu, że możliwość stworzenia pewnego rezultatu
+(tutaj dowodu `r`) posługując się *dwoma argumentami* (tutaj dowodami zdań `p` i `q`) można zapisać
+jako możliwość stworzenia tego rezultatu z pierwszego argumentu i *funkcji, która z drugiego
+argumentu tworzy ten rezultat* (a więc currying):
 
 Dysponować dowodem `k` koniunkcji `p ∧ q` ...
 
@@ -125,14 +138,14 @@ kolejny zapisując definicję koniunkcji jako zdania/typu:
 
 ```lean
 -- Każda koniunkcja (`and p q`, gdzie `p : Prop` i `q : Prop`) jest zdaniem (`: Prop`), którego dowód (a więc funkcja) 
--- dla każdego zdania (`r : Prop`) pozwala uzyskać dowód tego zdania (`... → r`) z dowodu, że to zdanie wynika z
+-- dla każdego zdania `r` pozwala uzyskać dowód tego zdania (`... → r`) z dowodu, że to `r` wynika z
 -- łącznej prawdziwości zdań będących członami tej koniunkcji (`(p → q → r)`):
 def and (p q : Prop) : Prop := ∀ r : Prop, (p → q → r) → r
 ```
 
 Teraz pokażę Ci z mechanikę działania tej definicji. Niemal do samego końca nie będę w tym rozdziale
 stosował oficjalnego symbolu koniunkcji, to jest będę pisał `and p q` zamiast `p ∧ q`, żeby nie
-wprowadzać za wcześnie tych elementów języka, które na takie zmiany w notacji pozwalają.
+wprowadzać jeszcze elementów języka, które pozwalają na takie zmiany notacji.
 
 ```lean
 --- Niech `dowod_koniunkcji_ab` będzie dowodem koniunkcji zdań `a` i `b`:
@@ -140,10 +153,10 @@ variable (a b : Prop)
 variable (dowod_koniunkcji_ab : and a b)
 ```
 
-Żeby się przekonać, że nasza definicja koniunkcji działa zgodnie z oczekiwaniami, zdefiniujemy
-najpierw dwie funkcje, które każdy dowód koniunkcji przekształcają odpowiednio w dowód pierwszego i
-drugiego członu tej koniunkcji, czyli implementują obie reguły eliminacji dla koniunkcji. Trzymając
-się obowiązujej w Leanie konwencji nazwiemy je `left` i `right`.
+Żeby się przekonać, że nasza strzałkowa definicja koniunkcji działa zgodnie z oczekiwaniami,
+zdefiniujemy najpierw dwie funkcje, które każdy dowód koniunkcji przekształcają odpowiednio w dowód
+pierwszego i drugiego członu tej koniunkcji, czyli implementują obie reguły eliminacji dla
+koniunkcji. Trzymając się obowiązujej w Leanie konwencji nazwiemy je `left` i `right`.
 
 ```lean
 def left (p q : Prop) (k : and p q) : p :=
@@ -152,13 +165,13 @@ def left (p q : Prop) (k : and p q) : p :=
 -- (ilustracja) Oto jak działa funkcja `left`. Ponieważ `dowod_koniunkcji_ab` ma typ ...
 and a b
 
--- ... to ma też typ (rozpakowujemy stałą `and`) ...
+-- ... to ma też typ (rozpakowujemy stałą `and`), ...
 (fun (p : Prop) => fun (q : Prop) => ∀ r : Prop, (p → q → r) → r) a b
 
--- ... a to jest to samo, co to (odczepiamy ciało i podstawiamy `a`) ...
+-- ... a to jest to samo, co to (odczepiamy ciało i podstawiamy `a`), ...
 (fun (q : Prop) => ∀ r : Prop, (a → q → r) → r) b
 
--- ... a to jest to samo, co to (odczepiamy ciało i podstawiamy `b`) ...
+-- ... a to jest to samo, co to (odczepiamy ciało i podstawiamy `b`):
 ∀ r : Prop, (a → b → r) → r
 
 -- A więc to ...
@@ -167,13 +180,20 @@ dowod_koniunkcji_ab : and a b
 dowod_koniunkcji_ab : ∀ r : Prop, (a → b → r) → r
 ```
 
-Zwracam uwagę, że nie po raz pierwszy spotykamy się tutaj z typem zapisanym w postaci aplikacji
+Zwracam uwagę, że nie po raz pierwszy spotykamy się tutaj z *typem zapisanym za pomocą aplikacji*
 (tutaj `and a b`). Typami (zdaniowymi) są przecież również wszelkie aplikacje predykatów (do termów
-odpowiedniego typu). Również nie po raz pierwszy mamy do czynienia z typem zapisanym jako aplikacja,
-*którą można zredukować* (ewaluując), bo przecież w podobny sposób używaliśmy pełniącej rolę
-cukierniczą (albo "lukracyjną") funkcji `Predykat`, aplikując ją do odpowiednich termów i dzięki
-temu uzyskując odpowiednie typy (a konkretnie zdania będące naszym modelem struktury
-podmiot-orzeczenie) jako rezultaty tych aplikacji. Kontynuując:
+odpowiedniego typu). Nawiasem mówiąc, ponieważ predykat zdefiniowaliśmy ogólnie jako funkcję do typu
+`Prop`, to implikacja, negacja i koniunkcja są predykatami, tyle, że dotyczącymi zdań lub par zdań.
+Na przykład, tak jak predykatem dotyczącym między innymi dni jest wyrażenie *jest piękny*, tak też
+predykatem jest dotyczące zdań wyrażenie *jest nieprawdą*, bo podstawiając w "puste miejsca" tych
+wyrażeń argumenty takie jak *wtorek* i *psychologia jest nauką z prawdziwego zdarzenia* odpowiednio
+uzyskujemy pewne zdania.
+
+Również nie po raz pierwszy mamy do czynienia z typem zapisanym jako aplikacja, *którą można
+zredukować* (ewaluując), bo przecież w podobny sposób używaliśmy pełniącej rolę cukierniczą (albo
+"lukracyjną") funkcji `Predykat`, aplikując ją do odpowiednich termów i dzięki temu uzyskując
+odpowiednie typy (a konkretnie zdania będące naszym modelem struktury podmiot-orzeczenie) jako
+rezultaty tych aplikacji. Kontynuując:
 
 ```lean
 -- Wobec tego to ...
