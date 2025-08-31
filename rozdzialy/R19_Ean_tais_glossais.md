@@ -608,31 +608,32 @@ istniejących światach i zarazem językach.
 ## Równość (Wolność i Braterstwo)
 
 Być może nie rzuciło Ci się w oczy, że do tej pory w ogóle nie *używaliśmy* w Leanie (do dowodzenia
-czegokolwiek) relacji równości. Jak już wiesz, w matematyce ta relacja oznacza *nierozróżnialność z
-danego punktu widzenia/w danym języku*. W *praktyce* to znaczy *tylko* tyle, że obiekty albo termy,
-które są (albo z założenia, albo na mocy jakiegoś dowodu) równe, mogą się nawzajem *zastępować* w
-każdym wyrażeniu danego języka, nie zmieniając ani sensu albo treści, ani - jeżeli to wyrażenie jest
-zdaniem - statusu logicznego tego wyrażenia, to jest jego prawdziwości albo fałszywości. A mówiąc
-możliwie najkrócej:
+czegokolwiek) relacji *równości*. Jak wspominałem, w matematyce ta relacja oznacza
+*nierozróżnialność z danego punktu widzenia/w danym języku*. W *praktyce* to znaczy *tylko* tyle, że
+obiekty albo termy, które są (albo z założenia, albo na mocy jakiegoś dowodu) równe, mogą się
+nawzajem *zastępować* w każdym wyrażeniu danego języka, nie zmieniając ani sensu albo treści, ani -
+jeżeli to wyrażenie jest zdaniem - statusu logicznego tego wyrażenia, to jest jego prawdziwości albo
+fałszywości. A mówiąc możliwie najkrócej:
 
-*To, co równe, jest zastępowalne wszędzie tam, gdzie może się pojawić*.
+*Wyrażenia oznaczające to, co równe, są wzajemnie zastępowalne wszędzie tam, gdzie mogą się
+pojawić*.
 
-Będziesz miała teraz okazję *doświadczyć* tej *jedynej roli* założeń o równości, konstruując proste
-dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich nazwy, skonstruujemy
-*dowód anonimowy*, używając do tego celu słowa kluczowego `example`, które działa podobnie jak
-`theorem`, ale nie służy do definiowania nowych stałych. Będziemy też korzystać z(e wskazania)
-trzech, bliżej nieokreślonych liczb naturalnych, `a`, `b` i `c`, o których założymy, że `a = b` i `b
-= c`, i o których udowodnimy, że `a = c`. W książce do matematyki taki dowód mógłby wyglądać tak ...
+Będziesz miała teraz okazję *doświadczyć* tej *jedynej roli* założeń o równości konstruując proste
+dowody *rachunkowe*. Zamiast znowu definiować twierdzenia i wymyślać dla nich nazwy, tym razem
+skonstruujemy *dowód anonimowy*, używając do tego celu słowa kluczowego `example`. Będziemy
+korzystać z(e wskazania) trzech, bliżej nieokreślonych liczb naturalnych, `a`, `b` i `c`, o których
+założymy, że `a = b` i `b = c`, i o których udowodnimy, korzystając z przechodniości relacji
+równości, że `a = c`. W książce do matematyki taki dowód mógłby wyglądać tak ...
 
 ```math
 \begin{aligned}
     a = b = c
 \end{aligned}
 ```
-... i to byłby w zasadzie pełnowartościowy dowód, ponieważ relacja równości jest
-przechodnia, a więc w tym zwięźle zapisanym "podwójnym" równaniu mamy wszystkie informacje potrzebne
-do tego, żeby *samodzielnie* stwierdzić, że $a = c$. Jakiś bardziej pedantyczny autor mógłby zapisać ten sam dowód
-tak ...
+... i to byłby w zasadzie pełnowartościowy dowód, ponieważ relacja równości jest przechodnia, a więc
+w tym zwięźle zapisanym "podwójnym" równaniu mamy wszystkie informacje potrzebne do tego, żeby
+*samodzielnie* stwierdzić, że $a = c$. Bardziej pedantyczny autor mógłby zapisać ten sam dowód tak
+...
 
 ```math
 \begin{aligned}
@@ -655,38 +656,38 @@ Jeżeli (1) $a = b$ i (2) $b = c$, to:
 ```
 
 ... albo jeszcze inaczej. Ponieważ w Leanie możliwości posługiwania się (tutaj akurat
-pół-formalnymi) *skrótami myślowymi* są ograniczone, musimy napisać trochę więcej:
+pół-formalnymi) *skrótami myślowymi* nie są nieograniczone, musimy napisać trochę więcej:
 
 ```lean
--- Niech `a`, `b` i `c` będą liczbami naturalnymi ...
+-- Niech `a`, `b` i `c` będą liczbami naturalnymi, ...
 variable (a b c : Nat)
 
--- ... o których zakładamy, że (krótkie ale deskryptywne nazwy, takie jak tutaj `hab` i `hac`,
--- pomagają w konstruowaniu dowodów):
+-- ... o których zakładamy, że (krótkie ale nadal deskryptywne nazwy, takie jak tutaj `hab` i `hac`,
+-- pomagają w czytaniu i konstruowaniu dowodów):
 variable (hab : a = b)
 variable (hbc : b = c)
 
 -- Wtedy `a = c`:
 example : a = c :=
-    -- Konstruowanie *dowodu rachunkowego* rozpoczynamy za pomocą słowa kluczowego *calc*
-    -- (ang. *calculational*); ...
+    -- Konstruowanie *dowodu rachunkowego* rozpoczynamy za pomocą słowa kluczowego *calc* (od ang.
+    -- *calculational*). ...
     calc
-        a = b := hab -- ... konstruujemy wtedy dowody dla każdej równości.
+        a = b := hab -- ... Konstruujemy wtedy dowody dla każdej równości.
         _ = c := hbc
 ```
 
-Zwracam uwagę, że *każda linia* dowodu rachunkowego wymaga *osobnego dowodu* (zapisanego po prawej
-od symbolu definiowania `:=`), i że możemy uprościć zapis korzystając z podkreślenia `_` i od
-pewnego momentu podawać jawnie tylko prawe strony równań, tak jak tutaj podajemy tylko `c` w
-ostatnim równaniu. Leanowi to wystarczy, bo gdy tylko "zauważy", że zaczynając od `a` z lewej
-"doszliśmy równaniami" do `c` z prawej, udowadniając każde równanie po drodze, to natychmiast
-"stwierdzi", automatycznie stosując własność przechodniości relacji równości, że udowodniliśmy w ten
-sposób równanie `a = c`, co zakończy dowód. Gdy stosujemy w taki sposób jak wyżej znak `_`, Lean
-"rozumie" więc, że chodzi o prawą stronę poprzedniego równania.
+Zwracam jeszcze raz uwagę, że *każda linia* dowodu rachunkowego wymaga *osobnego dowodu* (zapisanego
+po prawej od symbolu definiowania `:=`), i że możemy uprościć zapis korzystając z podkreślenia `_`,
+od pewnego momentu podając jawnie tylko prawe strony równań, tak jak tutaj podajemy tylko `c` w
+ostatnim równaniu. Leanowi to wystarczy, bo gdy tylko zauważy, że zaczynając od `a` z lewej
+"doszliśmy równaniami" do `c` z prawej, udowadniając każde równanie po drodze, to stwierdzi,
+automatycznie stosując własność przechodniości relacji równości, że udowodniliśmy równanie `a = c`,
+co zakończy dowód. Gdy stosujemy w taki sposób znak `_`, Lean rozumie więc, że chodzi o *prawą*
+stronę *poprzedniego* równania.
 
-**Sugestia**: Dokończ ten dowód rachunkowy, posługując się poprzednim dowodem jako przykładem. Twój
-dowód będzie wyglądał podobnie, ale będzie miał o jedną równość więcej i ta dodatkowa równość będzie
-wymagała zastosowania hipotezy, której nie było w poprzednim dowodzie.
+**Sugestia**: Dokończ ten dowód rachunkowy posługując się poprzednim dowodem jako przykładem. Twój
+dowód będzie wyglądał podobnie, ale będzie miał o jedną równość więcej, i ta dodatkowa równość
+będzie wymagała zastosowania hipotezy, której nie było w poprzednim dowodzie.
 
 ```lean
 variable (a b c d : Nat)
@@ -698,35 +699,33 @@ example : a = d :=
     calc
 ```
 
-Teraz zrobimy jeszcze dowód tego samego zdania i skorzystamy z tych samych założeń, ale użyjemy
+Teraz zrobimy jeszcze dowód tego samego zdania, i skorzystamy z tych samych założeń, ale użyjemy
 *taktyki* `rw`. To skrót od angielskiego `rewrite`, czyli *przepisz*, co dla nas będzie znaczyło
-raczej *zastąp* (albo *wymień*). To dosyć elastyczna taktyka, która pozwala na różnego rodzaju
+raczej *zastąp* albo *wymień*. To dosyć elastyczna taktyka, która pozwala na różnego rodzaju
 operacje polegające na zastępowaniu wyrażeń przez inne równe, czyli wzajemnie zastępowalne
-wyrażenia, ale na razie nie będziemy korzystać z tych bardziej skomplikowanych wariantów.
+wyrażenia, ale na razie nie będziemy korzystać z jej bardziej skomplikowanych wariantów.
 
-Instrukja `rw [nazwa_dowodu_rownosci]`, gdzie `nazwa_dowodu_rownosci` to jakaś globalna stała lub
-zmienna występująca w kontekście, będąca, cóż, nazwą dowodu jakiejś równości, o postaci
-`nazwa_dowodu_rownosci : lewe_wyrazenie = prawe_wyrazenie`, powoduje *zmianę celu*, polegającą na
-tym, że `lewe_wyrazenie` występujące *w celu* jest zastępowane przez `prawe_wyrazenie`. Wobec tego,
-jeżeli jako lokalne założenie, to jest w kontekście, lub jako globalny aksjomat czy twierdzenie
-mamy ...
+Jeżeli `nazwa_dowodu_rownosci : lewe_wyrazenie = prawe_wyrazenie`, to instrukja `rw
+[nazwa_dowodu_rownosci]` powoduje *zmianę celu* polegającą na tym, że `lewe_wyrazenie` występujące
+*w celu* jest zastępowane przez `prawe_wyrazenie`. Wobec tego, jeżeli jako lokalne założenie, to
+jest w kontekście, lub jako globalny aksjomat czy twierdzenie mamy ...
 
 `h : X = Y`
 
 to `rw[h]` czytamy jako:
 
-*Korzystając z `h` zastąp pierwsze wystąpienie `X` w celu przez `Y`*.
+*Na mocy `h` zastąp pierwsze wystąpienie w celu wyrażenia `X` przez wyrażenie `Y`*.
 
 W tym przypadku będziesz mieć do wyboru w kontekście (bo `variable` dodaje zmienne do kontekstu)
 tylko dwie hipotezy o postaci równości, to jest `hab : a = b` i `hbc : b = c`, więc szybko
 znajdziesz rozwiązanie. Po zastosowaniu taktyki `rw` z odpowiednim argumentem w nawiasach
-kwadratowych trzeba będzie jeszcze zastosować taktykę `exact`, oczywiście też z odpowiednim
+kwadratowych trzeba będzie jeszcze zastosować taktykę `exact`, oczywiście również z odpowiednim
 argumentem. Zwróć proszę uwagę, że stosując w ten sposób taktykę `rw` będziesz (znowu!) konstruować
 dowód *od końca*, *przekształcając cel* tak, żeby *zbliżył się do czegoś, co już masz udowodnione
-albo co zakładasz* (tutaj akurat co masz w kontekście).
+albo co zakładasz* (tu akurat do czegoś, co już masz w kontekście).
 
-**Sugestia**: Dokończ ten dowód w trybie interaktywnym na dwa sposoby: 1. Używając najpierw (raz)
-taktyki `rw`, a potem (raz) taktyki `exact` i 2. Używając dwa razy taktyki `rw`.
+**Sugestia**: Dokończ ten dowód w trybie interaktywnym na dwa sposoby, to jest 1. używając najpierw
+(raz) taktyki `rw`, a potem (raz) taktyki `exact`, i 2. używając dwa razy taktyki `rw`.
 
 ```lean
 -- Jeżeli deklaracje tych zmiennych są już u Ciebie wklejone do Leana, to nie kopiuj tego
@@ -739,30 +738,32 @@ example : a = c := by
 ```
 
 Taktykę `rw` można stosować również do przekształcania *założeń* (w kontekście), a także *w drugą
-stronę*, to jest zastępując `prawe_wyrazenie` przez `lewe_wyrazenie`; można też kontrolować, *które*
-występienie lewego lub prawego wyrażenia w celu lub w kontekście ma być zastąpione, gdy wyrażenie do
-zastąpienia występuje więcej niż raz. Ale o tym powiem może więcej kiedy indziej.
+stronę*, to jest zastępując `prawe_wyrazenie` przez `lewe_wyrazenie`. Można też kontrolować, *które*
+występienie lewego lub prawego wyrażenia w celu lub w termie znajdującym się w kontekście ma być
+zastąpione, gdy wyrażenie do zastąpienia występuje tam więcej niż raz. Ale o tym powiem może więcej
+kiedy indziej.
 
-Został nam jeszcze jeden ważny sposób skonstruowania tego samego dowodu. Ten dowód nie będzie
-*wyglądał* tak samo, ale dla Leana wszystkie dowody tego samego zdania są *takie same*, to jest
-wzajemnie zastępowalne, bo w Leanie obowiązuje zasada nieważności (struktury) dowodu, która nazywa
-się po angielsku *proof irrelevance* i o której już wspominałem więcej niż raz, ale przecież
-[repetitio est mater studiorum](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(R)).
+Został nam jeszcze jeden ważny sposób skonstruowania tego samego dowodu. Gdy zastosujemy ten sposób,
+dowód nie będzie *wyglądał* tak samo, ale dla Leana wszystkie dowody tego samego zdania są *takie
+same*, to jest wzajemnie zastępowalne, bo w Leanie obowiązuje zasada nieważności (struktury) dowodu,
+która nazywa się po angielsku *proof irrelevance*, i o której wspominałem już więcej niż raz, ale
+przecież [repetitio est mater studiorum](https://en.wikipedia.org/wiki/List_of_Latin_phrases_(R)) (o
+czym też już wspominałem).
 
-Skorzystamy teraz ze stałej `Eq.trans`, która oznacza dowód *przechodniości* równości (*trans* to
-tutaj skrót od angielskiego słowa *transitivity*, oznaczającego przechodniość), czyli dowód -
-działający dla dowolnych termów `X`, `Y` i `Z` *tego samego typu* - że jeżeli `X = Y`, to jeżeli `Y
-= Z`, to `X = Z`. Od tej zasady zaczęliśmy naukę matematyki w rozdziale czwartym, pamiętasz?
+Skorzystamy ze stałej `Eq.trans`, która oznacza dowód *przechodniości* równości (*trans* to skrót od
+angielskiego *transitivity*, oznaczającego właśnie przechodniość), czyli dowód (dla dowolnych `X`,
+`Y` i `Z` *tego samego typu*), że jeżeli `X = Y`, to jeżeli `Y = Z`, to `X = Z`. Od tej zasady
+zaczęliśmy naukę matematyki w rozdziale czwartym, pamiętasz?
 
 Upraszczając, można powiedzieć, że stała `Eq.trans` ma typ `(h1 : X = Y) → (h2 : Y = Z) → (X = Z)`,
 czyli, że z dowodów zdań `X = Y` i `Y = Z` tworzy dowód zdania `X = Z`. Zauważyłaś, czemu to jest
-uproszczenie? Przecież *brakuje tutaj informacji*, jakiego typu termami są `X`, `Y` i `Z`. W tym
-wypadku nie musimy jednak podawać tego typu jawnie, ponieważ ...
+uproszczenie? Przecież *brakuje informacji*, jakiego typu termami są `X`, `Y` i `Z`. W tym wypadku
+nie musimy jednak podawać tego typu jawnie, ponieważ ...
 
 ```lean
--- ... definicja `Eq.trans` korzysta z parametrów domyślnych albo niejawnych albo implicitnych,
--- które poznajemy po tym, że są otoczone nawiasami klamrowymi. Lean sam wywnioskuje, jakie
--- powinny być wartości takich parametrów (o ile będzie mógł).
+-- ... definicja `Eq.trans` korzysta z parametrów domyślnych inaczej niejawnych albo implicitnych
+-- albo automatycznych, które poznajemy po tym, że są otoczone nawiasami klamrowymi. Lean sam
+-- wywnioskuje, jakie powinny być wartości takich parametrów, o ile będzie w stanie.
 --
 -- Jak widać poniżej, żeby uzyskać dowód, jawnie trzeba podać tylko dwie hipotezy. Uwaga - to *nie*
 -- muszą być hipotezy `a = b` i `b = c`, bo *tutaj* `a`, `b` i `c` to *parametry*. To mogą więc być
@@ -772,14 +773,15 @@ wypadku nie musimy jednak podawać tego typu jawnie, ponieważ ...
 #check Eq.trans -- Eq.trans.{u} {α : Sort u} {a b c : α} (h₁ : a = b) (h₂ : b = c) : a = c
 ```
 
-**Sugestia**: Zakończ ten dowód używając twierdzenia o przechodniości relacji równości.
+**Sugestia**: Dokończ ten dowód używając twierdzenia o przechodniości relacji równości.
 
 ```lean
--- Zakładam tutaj, że masz wklejone do Leana wszystkie (wcześniejsze) deklaracje, które są
--- potrzebne, żeby Lean "wiedział", o czym mówimy.
+-- Zakładam, że masz wklejone do Leana wszystkie wcześniejsze deklaracje, które są
+-- tu potrzebne, żeby Lean "wiedział", o czym mówimy.
 example : a = c :=
     -- W linii poniżej wpisz `Eq.tr`, tylko tyle, a potem wybierz z listy możliwych kontynuacji
-    -- `Eq.trans`. Jako argumenty podaj dwie hipotezy, które powinnaś mieć w kontekście i które
+    -- `Eq.trans`, żeby przypomnieć sobie o tym, że nie musisz pamiętać dokładnie całych nazw
+    -- stałych. Jako argumenty podaj dwie hipotezy, które powinnaś mieć w kontekście, i które
     -- pozwolą Ci zakończyć dowód.
 ```
 
