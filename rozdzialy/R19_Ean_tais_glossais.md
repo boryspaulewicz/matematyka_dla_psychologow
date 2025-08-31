@@ -67,26 +67,28 @@ punkty `A` i `C` są *różne*. Wtedy faktycznie *nie mogłoby* być prawdą, ż
 definicja składalności strzałek wymaga, aby druga strzałka wychodziła z punktu, do którego wchodzi
 pierwsza.
 
-Czy mogłem wyrazić to prościej i jaśniej pisząc *nie wiemy, czy `Skladalne g f`* zamiast *nie jest
-prawdą, że `Skladalne g f`*? No mogłem, ale wtedy nie mielibyśmy okazji, żeby poćwiczyć dostrzeganie
-i rozwinąć zdolność rozumienia tego rodzaju subtelności.
+Czy mogłem wyrazić to prościej i jaśniej pisząc *nie wiemy, czy* `Skladalne g f` zamiast *nie jest
+prawdą, że* `Skladalne g f`? No mogłem, ale wtedy nie mielibyśmy okazji, żeby poćwiczyć dostrzeganie
+tego rodzaju subtelności i żeby lepiej je zrozumieć.
 
 W tym momencie, albo już wcześniej, mogła Ci się pojawić wątpliwość, że przecież punkty `A` i `C`
 *nie nachodzą na siebie na rysunku*, a więc *nie może być tak*, że `A` i `C` są tym samym *punktem*,
-a więc *to różne punkty*. I myśląc tak miałabyś rację, ale tylko z pewnego punktu widzenia.
+a więc *to różne punkty*. I myśląc tak miałabyś rację, ale tylko z pewnego punktu (hm) widzenia.
 
 Rysunek *sugeruje* tutaj, że `A`, `B` i `C` to *różne punkty* i że `f` i `g` to *różne strzałki* i
-to faktycznie *są* różne punkty i różne strzałki *o ile rozumiemy je jako elementy rysunku*, ale to
-będą dla nas również *formalne reprezentacje*, które w ogólnym przypadku będą miały coś *oznaczać*.
-Podobnie, w zdaniu *Jeżeli n i m to liczby naturalne, to n + m = m + n* litery *n* i *m* to *różne
-litery*, ale ponieważ te litery to reprezentacje, to mogą oznaczać *różne* liczby naturalne, ale
-mogą też oznaczać *tą samą* liczbę. Tak samo jak nazwane różnymi symbolami *parametry* tego samego
-typu w zdefiniowanej w Leanie funkcji mogą oznaczać różne termy, ale mogą też oznaczać ten sam term
-danego typu, zależnie od tego, do jakich argumentów będziemy aplikować tą funkcję.
+to faktycznie *są* różne punkty i różne strzałki, *o ile rozumiemy je tylko jako elementy rysunku*,
+ale to nie będą dla nas *tylko* elementy rysunku. Od pewnego momentu to będą również *formalne
+reprezentacje*, które w ogólnym przypadku będą miały coś (nawet jeśli czasem bliżej nieokreślonego)
+*oznaczać*. Podobnie, w zdaniu *Jeżeli n i m to liczby naturalne, to n + m = m + n* litery *n* i *m*
+to *różne litery*, ale ponieważ te litery to reprezentacje, to mogą oznaczać *różne* liczby
+naturalne, ale mogą też oznaczać *tą samą* liczbę. Tak samo jak nazwane różnymi symbolami
+*parametry* tego samego typu w zdefiniowanej w Leanie funkcji mogą oznaczać różne termy, ale mogą
+też oznaczać ten sam term danego typu, zależnie od tego, do jakich argumentów będziemy aplikować tą
+funkcję.
 
-Czy zauważyłaś, że wprowadzamy nowy *język dziedzinowy*, a konkretnie język grafów skierowanych ze
-składalnymi strzałkami, w którym również występują *stałe* i *zmienne*, ale w którym "piszemy
-przestrzennie", albo geometrycznie, albo wręcz "rysunkowo"?
+Czy zauważyłaś, że wprowadzamy nowy *język dziedzinowy*, a konkretnie *język składalnych strzałek*,
+w którym również, jak w języku teorii typów, występują zarówno *stałe* jak i *zmienne*, ale w którym
+"piszemy przestrzennie", albo geometrycznie, albo wręcz "rysunkowo"?
 
 Te punkty i strzałki mogą więc, ale nie muszą *reprezentować różne obiekty* (odpowiedniego typu).
 Punkty `A`, `B` i `C` pełnią więc tu role abstrakcyjnych reprezentacji *części* czegoś, co *spełnia
@@ -95,39 +97,40 @@ albo **rysunkowymi parametrami**. Tak samo rysunkowymi zmiennymi/parametrami są
 strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje* niektórych lub wszystkich tych
 symboli i te staną się przez to (w danym kontekście) *stałymi*.
 
-Te punkty i strzałki są zatem dla nas czymś takim, jak litery *n* i *m* w wyrażeniu *n + m = m + n*,
-zapisanym jako fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. Chociaż
-to, że *litery* były tam różne, zdawało się *sugerować*, że te litery oznaczają różne liczby, to
-wiedziałaś, albo przypomniałaś sobie szybko, że obie te litery mogą oznaczać *dowolne* liczby
-naturalne, mogą więc oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*.
-Gdyby na przykład obie te litery oznaczały liczbę *1*, równanie przyjęłoby postać *1 + 1 = 1 + 1* (i
-nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
+Jeszcze raz: Te punkty i strzałki są zatem dla nas czymś takim, jak litery *n* i *m* w wyrażeniu *n
++ m = m + n*, zapisanym jako fragment prozy matematycznej, z którym zetknęłaś się w rozdziale
+czwartym. Chociaż to, że *litery* były tam różne, zdawało się *sugerować*, że te litery oznaczają
+różne liczby, to wiedziałaś, albo przypomniałaś sobie szybko, że obie te litery mogą oznaczać
+*dowolne* liczby naturalne, a więc mogą również oznaczać *te same* liczby, czyli *jedną* liczbę, na
+przykład *1*. Gdyby na przykład obie te litery oznaczały liczbę *1*, równanie przyjęłoby postać *1 +
+1 = 1 + 1* (i nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
 
 Kiedy czytając rozdział czwarty wyprowadzałaś, zgodnie z moimi instrukcjami, dowód twierdzenia
 Bayesa, nie używaliśmy jeszcze Leana, a więc to *Ty* musiałaś konsekwentnie podstawiać pewne
-wartości (wtedy na przykład symbole *y* i *x* oznaczające zdarzenia) za pewne zmienne (wtedy za
-zmienne *x* i *y* traktowane przez Ciebie *jako części definicji pionowej kreski*), a więc musiałaś
-też oczywiście *rozumieć, co masz zrobić*.
+wartości - wtedy na przykład symbole *x* i *y* oznaczające zdarzenia - za pewne zmienne - wtedy za
+zmienne *x* i *y*, traktowane przez Ciebie *jako części parametrycznej definicji pionowej kreski* -
+a więc musiałaś też oczywiście *rozumieć, o co Cię prosiłem*.
 
-Wiesz, o co mi chodzi? Teraz, kiedy nie polegamy na Leanie i - rysując! - sama *tworzysz kod*, a
-niebawem będziesz też *przekształcać wyrażenia zapisane w tym języku*, to **Ty jesteś funkcją i
-ewaluatorką**. W szczególności, ponieważ pojęcie funkcji jest, hm, funkcjonalne, w tym znaczeniu, że
-*określa, do czego funkcje służą*, zaczęłaś *funkcjonować*, albo już funkcjonujesz jak funkcja,
-która *widzi, że dostała **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone*
-(albo *reprezentowane*) *przez `Punkt` `A`, `B` i `C`, jak również* **jakieś**, *niekoniecznie różne
-obiekty, które dla Ciebie są oznaczone jako `Strzalka` `f` i `g`, o których to obiektach wiesz na
-razie tylko tyle, że `Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są więc dla Ciebie
-"opakowane" i - ponieważ w tym momencie nie wiesz o nich nic więcej - te opakowania są całkiem
+Domyślasz się już, o co mi chodzi? Teraz, kiedy nie polegamy na Leanie i rysując sama *tworzysz
+kod*, a niebawem będziesz też *przekształcać wyrażenia* zapisane w tym rysunkowym języku zgodnie z
+pewnymi *jednoznacznymi regułami*, to **Ty jesteś funkcją i ewaluatorką**. W szczególności, ponieważ
+pojęcie funkcji jest funkcjonalne (sic!) w tym znaczeniu, że *określa, do czego funkcje służą*,
+zaczęłaś przynajmniej do pewnego stopnia funkcjonować jak funkcja, która *widzi, że dostała
+**jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone* (albo *reprezentowane*)
+*przez `Punkt` `A`, `B` i `C`, jak również* **jakieś**, *niekoniecznie różne obiekty, które dla
+Ciebie są oznaczone jako `Strzalka` `f` i `g`, o których to obiektach wiesz na razie tylko tyle, że
+`Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są więc dla Ciebie "opakowane" i - ponieważ w
+tym momencie nie wiesz o nich nic więcej - można powiedzieć, że te opakowania są całkiem
 nieprzezroczyste.*
 
-Mówiąc jeszcze inaczej, na razie nic nie jest "przyczepione" do tych elementów rysunku "od spodu",
-bo nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi symbolami *w Twojej głowie*, a
-tak naprawdę w Twojej *pamięci*.
+Mówiąc jeszcze inaczej: Co prawda na razie nic nie jest "przyczepione" do tych elementów rysunku "od
+spodu", bo nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi symbolami *w Twojej
+głowie*, a tak naprawdę w Twojej *pamięci*, ale *może* być (i będzie).
 
 Punkty `A`, `B` i `C` są więc różne *jako zmienne*, ale mogłabyś dostać w przyszłości dowód, że `A =
 C`, albo po prostu założyć taką hipotezę; wtedy okazałoby się/postanowiłabyś/zgodziłabyś się, że
 zmienna/paczka/wskaźnik z etykietą `A`, pozostając inną zmienną niż `C`, skrywała cały czas "pod"
-jakimś wirtualnym "spodem"/zawierała/wskazywała na *taki sam* (być może również tylko wirtualny,
+jakimś wirtualnym "spodem"/zawierała/wskazywał na *taki sam* (być może również tylko wirtualny,
 czyli będący \{niekoniecznie "uzbrojoną w znaczenie"\} reprezentacją) *obiekt*, co zmienna/paczka z
 etykietą `C`, tylko wcześniej o tym nie wiedziałaś, albo nie dokonałaś takiego wyboru.
 
@@ -139,23 +142,26 @@ posługujemy się "językiem liczbowym", czyli rozważamy coś z liczbowego punk
 samo (a raczej takie samo), ale kiedy posługujemy się "językiem ułamkowym", to nie jest to samo (ani
 tym bardziej takie samo).
 
-Jeszcze raz: Skoro teraz to *Ty* będziesz operowała symbolami - podstawiając, dokonując ewaluacji,
-czy innego rodzaju przekształceń - (funkcjonalnie) to "Ty" będziesz zarazem funkcją i ewaluatorką. A
-z mojej perspektywy będziesz (stopniowo coraz lepiej) pełniła rolę, którą do tej pory pełnił dla nas
-obojga Lean. Jeżeli chodzi o te narysowane na kartce symbole, co prawda dopiero zaczynasz (sama?)
-przekształcać się w funkcję, która będzie je traktowała jak zmienne, ale gdy już zacznie Ci to
-wychodzić, te symbole i ich (być może tymczasowe) znaczenia staną się *"Twoim" kontekstem*, albo
-*kontekstem "Ciebie" jako funkcji*.
+Jeszcze raz: Skoro teraz to *Ty* będziesz operowała symbolami - podstawiając i dokonując ewaluacji
+czy innego rodzaju przekształceń - (funkcjonalnie) to "Ty" będziesz zarazem (raz taką, a raz inną)
+funkcją i ewaluatorką. A z mojej perspektywy będziesz (stopniowo coraz lepiej) pełniła rolę, którą
+do tej pory pełnił dla nas obojga Lean. Jeżeli chodzi o te narysowane na kartce symbole, co prawda
+dopiero zaczynasz (sama?) przekształcać się w funkcję, która będzie je traktowała jak zmienne, ale
+gdy już zacznie Ci to wychodzić, te symbole i ich (być może tymczasowe) znaczenia staną się *"Twoim"
+kontekstem*, albo *kontekstem "Ciebie" jako funkcji*. 
 
-*To całkiem dosłownie, bo fizycznie* (i zarazem *funkcjonalnie*, ale w innym znaczeniu słowa
-"funkcja") *będzie "Twój" kontekst, ponieważ to będzie część* **fragmentu środowiska fizycznego**,
+I wcale nie mówię tego wszystkiego *metaforycznie*. To wszystko jest *dosłownie* prawdą, ponieważ
+posługujemy się tu cały czas *pojęciami funkcjonalnymi*.
+
+*To całkiem dosłownie, bo jednocześnie fizycznie i funkcjonalnie*, ale w innym znaczeniu słowa
+"funkcja", *będzie "Twój" kontekst, ponieważ to będzie część* **fragmentu środowiska fizycznego**,
 *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną
 ścisłą, nieprzepuszczalną barierą, jest jednak dla "Ciebie" szczególnie ważną częścią środowiska, bo
 jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia, czy raczej funkcjonalnie -
 "Tobą". Tą zwykle dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część "swojego" środowiska
 nazywasz* **"własnym" ciałem**. *A tą część "Twojego" ciała, która pełni w danym momencie* **funkcję
-kontekstu** *"Ciebie" jako pewnej* (ogólniejszej czy może raczej "większej") *funkcji nazywasz
-"Twoją"* **pamięcią**.
+kontekstu** *"Ciebie" jako pewnej* (ogólniejszej czy może raczej "większej" albo "bogatszej")
+*funkcji nazywasz "Twoją"* **pamięcią**.
 
 *Tak się też składa, że używasz lokalnego* (dla "Ciebie", bo "Tobie" fizycznie bliskiego) *fragmentu
 środowiska zewnętrznego* (to jest kartki, być może w formacie *A4*), *żeby pomóc "swojej" pamięci
@@ -200,11 +206,10 @@ człowieka w "swój" zegarek* i że to jest *autonomiczny, zasługujący na szac
 dzieje się z "Tobą" od momentu kiedy budzisz się rano do momentu, kiedy zasypiasz. Wykonując każdą
 czynność inicjujesz ten sam proces, tylko że wtedy prowadzisz dialog ze "sobą", to znaczy, "sama" z
 przyszłą "sobą" współ-działasz, programując przyszłe wersje siebie, bo inaczej "Twoje" zachowanie
-nie byłoby tak *elastyczne* i nie działałoby *tak* (to jest *zwykle wystarczająco*) *dobrze*, a
+nie byłoby tak *elastyczne* i nie działałoby *tak* (to jest *zwykle wystarczająco*) *dobrze*. A
 ponieważ świetnie "się" rozumiecie, "Ty" i powstająca za chwilę nowa wersja "Ciebie" komunikujecie
-"się" zwykle - choć nie zawsze - bez słów i ten *sposób działania* "przychodzi Ci" tak naturalnie,
-że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest *konieczny* do *zrobienia
-czegokolwiek*.
+"się" zwykle - choć nie zawsze - bez słów, i ten *sposób działania* "przychodzi Ci" tak naturalnie,
+że może "Ci" być nawet trudno zauważyć albo uwierzyć, że jest *konieczny do zrobienia czegokolwiek*.
 
 Jeżeli tylko próbowałaś zrozumieć to, o czym do "Ciebie" mówiłem, a skoro czytasz teraz ten
 fragment, to mogę założyć, że przynajmniej czasami tak, to działo się wtedy dokładnie to samo, teraz
@@ -213,65 +218,65 @@ tylko szczegóły są nowe. A właściwie przecież już
 niemal na samym początku, nawet szczegóły były w zasadzie takie same. Jedyne, co teraz się zmienia,
 to punkt widzenia na coś doskonale nam obojgu znanego.
 
-Zgaduję, a w każdym razie mam taką nadzieję, że "Twoje" *wrażenie*, na czym to polega, może być tym
-razem w jakiś trudny do określenia sposób inne. Czy nie chodzi przypadkiem między innymi o to, że
-wtedy, udowadniając twierdzenie Bayesa, czułaś się być może nawet dumna, a w każdym razie chociaż
-trochę usatysfakcjonowana, że wszystkie elementy układanki trafiły na właściwe miejsce i "Tobie"
-wyszedł dowód, a teraz miałaś przynajmniej przez chwilę wrażenie, że zostałaś w pewien sposób
+Zgaduję, a w każdym razie mam taką nadzieję, że "Twoje" *wrażenie* na czym to *polega* i o co w tym
+*chodzi* może być tym razem w jakiś trudny do określenia sposób inne. Czy nie jest tak, że wtedy,
+udowadniając twierdzenie Bayesa, czułaś się być może nawet dumna, a w każdym razie chociaż trochę
+usatysfakcjonowana, że wszystkie elementy układanki trafiły na właściwe miejsce, i "Tobie" wyszedł
+dowód, a teraz miałaś przynajmniej przez chwilę wrażenie, że zostałaś w pewien sposób
 *zmanipulowana*? Czy faktycznie jest jakaś różnica? Nazywałem dotąd co prawda te "moje zadania"
-"poleceniami", ale to była z konieczności za każdym razem *prośba*, bo za każdym razem musiałem
-liczyć na "Twoją" dobrą wolę i współpracę. Nie mogłem przecież, ani też wcale nie chciałem, Cię do
-niczego *zmusić*.
+"poleceniami", ale to była z konieczności za każdym razem *prośba*, bo musiałem liczyć na "Twoją"
+dobrą wolę i współpracę. Nie mogłem przecież, ani nie chciałem Cię do niczego *zmuszać*.
 
 Być może trudno "Ci" zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
 "subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
-akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem nagle temat (i jednocześnie wcale nie
+akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem znowu nagle temat (i jednocześnie wcale nie
 zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego tylko może
 się nadawać, musimy nauczyć się patrzeć na to samo na różne sposoby. A to oznacza, że musimy
 pogodzić się z pewnego rodzaju [nieszkodliwym
-relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że istnieją
-zawsze rozmaite alternatywne, wewnętrznie niesprzeczne punkty widzenia na to samo, z których żaden
-nie jest uprzywilejowany, i dopóki korzystamy z tych punktów widzenia czy języków w sposób
-konsekwentny, nie grozi nam przecież ryzyko, że znajdziemy uzasadnienie albo dowód dla *każdego*
-możliwego zdania.
+relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że zawsze
+istnieją różne spójne punkty widzenia na to samo, z których żaden nie jest absolutnie
+uprzywilejowany, i dopóki korzystamy z tych punktów widzenia czy języków w sposób konsekwentny, nie
+grozi nam ryzyko, że znajdziemy uzasadnienie albo dowód dla *każdego* możliwego zdania. 
 
-Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać i którego podstawy
-zaczynasz właśnie poznawać, został stworzony właśnie po to, żeby formalnie, a więc w sposób
-kontrolowany i mechanicznie sprawdzalny, operować rozmaitymi, dobrze określonymi i pasującymi do
-siebie na różne sposoby punktami widzenia. Do tej pory mówiłem wprost o tylko jednym, bardzo ważnym
-rodzaju takiego dopasowania między punktami widzenia, to jest o zachowujących strukturę
+A wszędzie tam, gdzie nie wszystkie *syntaktycznie* poprawne zdania są *akceptowalne*, istnieje
+jakiś *sens*.
+
+Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać, został stworzony
+właśnie po to, żeby formalnie, a więc w sposób kontrolowany i mechanicznie sprawdzalny, operować
+rozmaitymi dobrze określonymi i pasującymi do siebie na różne sposoby punktami widzenia. Do tej pory
+mówiłem wprost o tylko jednym ważnym rodzaju takiego dopasowania, to jest o zachowujących strukturę
 izomorfizmach. Jak już wiesz, izomorfizmy to pewne *ścisłe* albo *doskonałe* analogie, ale przecież
 również *mniej* ścisłe analogie bywają, czasami nawet bardziej, użyteczne.
 
-Ponieważ język teoria kategorii służy przede wszystkim do *mówienia o różnych rodzajach zgodności
+Ponieważ język teoria kategorii służy przede wszystkim do mówienia o *różnych rodzajach zgodności
 między dobrze określonymi punktami widzenia*, a więc o różnych, w tym także słabszych, albo bardziej
-elastycznych niż izomorfizmy, rodzajach dopasowania między (formalnymi) językami albo opisami, można
-powiedzieć, że teoria kategorii to ogólna teoria *analogii między analogiami*. A teoria kategorii
-[*wyższego rzędu*](https://en.wikipedia.org/wiki/Higher_category_theory) to taka teoria analogii
-między analogiami między analogiami ... Genialny polski matematyk [Stefan
-Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział kiedyś, że "dobry matematyk potrafi
-dostrzegać fakty, matematyk wybitny - analogie między faktami, zaś matematyk genialny - analogie
-między analogiami." Nie bez przesady można więc powiedzieć, że język teorii kategorii dostarcza
-*protezę matematycznej genialności*, której w dodatku możemy, oczywiście tylko w pewnych sytuacjach,
-używać stosunkowo *bezmyślnie*, to znaczy mechanicznie.
+elastycznych niż izomorfizmy rodzajach dopasowania między (formalnymi) językami albo opisami, można
+powiedzieć, że teoria kategorii to *ogólna teoria analogii*. A teoria kategorii [*wyższego
+rzędu*](https://en.wikipedia.org/wiki/Higher_category_theory) to *teoria analogii między
+analogiami*.
+
+Genialny polski matematyk [Stefan Banach](https://pl.wikiquote.org/wiki/Stefan_Banach) powiedział
+kiedyś, że "dobry matematyk potrafi dostrzegać fakty, matematyk wybitny - analogie między faktami,
+zaś matematyk genialny - analogie między analogiami." Nie bez przesady można więc powiedzieć, że
+język teorii kategorii dostarcza *protezę matematycznej genialności*, której w dodatku możemy,
+oczywiście tylko w pewnych sytuacjach, używać stosunkowo *bezmyślnie*, to znaczy mechanicznie.
 
 Musimy jednak ponieść wtedy pewną cenę, która polega na tym, że trzeba się czasem pogodzić z powoli
-ustępującymi *trudnościami w jasnym zrozumieniu tego, co się w tym języku mówi*. Tą cenę musimy do
-pewnego stopnia zapłacić być może dlatego, że chociaż teoria kategorii może być rozumiana jako
-*algebra [funkcji matematycznych](https://pl.wikipedia.org/wiki/Funkcja)*, to definicje pojęć, które
-można za jej pomocą wypowiedzieć, polegają często na charakteryzacji określonego rodzaju obiektów w
-kategoriach ich funkcji rozumianych jako *uniwersalne* albo w pewnym abstrakcyjnym sensie *najlepsze
+ustępującymi *trudnościami w jasnym zrozumieniu tego, co się w tym języku mówi*. Tą cenę płacimy być
+może dlatego, że chociaż teoria kategorii może być rozumiana jako *algebra [funkcji
+matematycznych](https://pl.wikipedia.org/wiki/Funkcja)*, to definicje pojęć, które można za jej
+pomocą wypowiedzieć, polegają często na charakteryzacji określonego rodzaju obiektów w kategoriach
+ich funkcji rozumianych jako *uniwersalne*, albo w pewnym abstrakcyjnym sensie *najlepsze
 rozwiązywania pewnego rodzaju problemów czy zadań*. Dlatego między innymi na własny użytek
-pół-żartem nazywam sobie ten język językiem kosmitów albo językiem aniołów. I kiedy mówię o nim, że
-jest jakby językiem aniołów, nie mówię tego wcale ironicznie.
+pół-żartem nazywam tą teorię językiem kosmitów albo aniołów. I nie mówię tego wcale ironicznie.
 
 Nie jestem wierzący w żadnym prostym znaczeniu tego słowa i chyba nigdy nie byłem. Pamiętam nawet
 dość dokładnie dzień i miejsce w którym to się stało, gdy będąc dzieckiem pomyślałem, że Święty
 Mikołaj nie istnieje, a To, o czym ludzie mówią w Kościele, to taki jakby [Święty
-Mikołaj](https://www.coca-colacompany.com/about-us/faq/did-coca-cola-invent-santa) dla
-"dorosłych". To był, przynajmniej subiektywnie, nagły i niespodziewany wgląd i od tego czasu nigdy
-nie miałem nawet *cienia* wątpliwości, że "mam rację". Ale przecież, zwłaszcza w logice, której
-teraz używamy, tak samo jak w [testowaniu hipotez
+Mikołaj](https://www.coca-colacompany.com/about-us/faq/did-coca-cola-invent-santa) dla "dorosłych".
+To był, przynajmniej subiektywnie, nagły i niespodziewany wgląd i od tego czasu nigdy nie miałem
+nawet *cienia* wątpliwości, że "mam rację". Ale przecież, zwłaszcza w logice, której teraz używamy,
+tak samo jak w [testowaniu hipotez
 statystycznych](https://pl.wikipedia.org/wiki/Test_istotno%C5%9Bci), absence of evidence is *not*
 evidence of absence.
 
@@ -279,7 +284,7 @@ Mój najlepszy chyba przyjaciel, który jest wierzący, powiedział mi kiedyś, 
 ma, że wie, a może raczej *czuje*, że *musi być coś więcej*. Ale "ja" *to* też zawsze wiedziałem i
 czułem, co zrozumiałem trochę lepiej dopiero niedawno, mając czterdzieści sześć lat. Tylko może "ja"
 *to samo* czuję inaczej albo nie tak *intensywnie*, tak jak można lepiej albo gorzej wyczuwać na
-przykład smak soli czy herbaty. A to by oznaczało, że w pewnych sprawach mogę mieć ([niczym
+przykład smak soli albo herbaty. A to by oznaczało, że w pewnych sprawach mogę mieć ([niczym
 niezasłużoną](https://ccpress.pl/matryca-jak-dna-programuje-nasze-zycie/3-21-447)) przewagę, ale w
 innych, być może nawet ważniejszych sprawach jestem ([nie z własnej
 winy](https://www.filmweb.pl/film/Bliscy+nieznajomi-2018-801813)) bardziej *ułomny* niż ludzie,
@@ -289,37 +294,39 @@ abstrakcyjnie rozumianej *granicy*, ale już teraz mogę spróbować wyjaśnić,
 chodziło, bo to pojęcie nie jest wcale oderwane od codziennego doświadczenia.
 
 Kiedy na przykład "Ty" stałaś się na pewien czas funkcją na skutek "mojego" za-programowania, żadne
-z nas nie było *tak całkiem* abstrakcyjnym algorytmem. Ani "ja" "Ciebie" tak całkiem nie
-zaprogramowałem, ani "Ty" nie wcieliłaś się w pełni w rolę żadnego programu, ponieważ jesteśmy
-*organizmami biologicznymi*, a dokładniej
-[*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1]. Nasze przekonania i postawy nigdy
-nie są całkiem spójne i każdy z nas popełnia czasem błędy nawet w najprostszych sytuacjach. Nawet
-Lean nie jest tak naprawdę *całkiem* Leanem, bo działa na fizycznym urządzeniu, a *żadne* fizyczne
-urządzenie nie jest, bo *nic* nie jest, *całkowicie niezawodne*.
+z nas nie było *tak całkiem* żadnym *algorytmem*. Ani "ja" "Ciebie" tak całkiem nie zaprogramowałem,
+ani "Ty" nie wcieliłaś się w pełni w rolę programowalnego komputera, ponieważ jesteśmy *organizmami
+biologicznymi*, a dokładniej [*zwierzętami*](https://pl.wikipedia.org/wiki/Zwierz%C4%99ta)[^1].
+Nasze przekonania i postawy nigdy nie są całkiem spójne i każdy z nas nawet w najprostszych
+sytuacjach popełnia czasem błędy. Również *Lean nie jest całkiem sobą*, to jest "idealnym" Leanem,
+bo działa na fizycznym urządzeniu, a *żadne* fizyczne urządzenie nie jest, bo *nic* nie jest,
+*całkowicie niezawodne*.
 
-Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty" i w jaki sposób działa
-Lean i jak działają *wszystkie [artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez
+Ale jednocześnie to, w jaki sposób działam "ja", w jaki sposób działasz "Ty", i w jaki sposób działa
+Lean i w ogóle *wszystkie [artefakty](https://pl.wikipedia.org/wiki/Artefakt) stworzone przez
 wspólnotę ludzi*, łącznie z całą matematyką, jest jakby czymś w rodzaju "wektora", albo ... palca,
 który przybliżając coś, a dokładniej *rozwiązania* pewnych *abstrakcyjnych zadań*, wystarczająco
 dobrze *wskazuje* na pewien *ideał*, a dzięki temu, że na ten ideał wskazuje, sprawia przecież, że
 On, to znaczy Ten Idaeł, albo Zewnętrzny Podmiot albo Agent, jak Go czasami prywatnie nazywam,
-*istnieje jako kierunek wspólnego działania*. W tym sensie można więc powiedzieć, że jest *w nas*
-pewien On. I jednocześnie nie jest.
+*istnieje jako idealny kierunek wspólnego działania*. W tym sensie można więc powiedzieć, że jest w
+Nas pewien Idealny On lub pewna Idealna Ona. I jednocześnie nie jest.
 
 Ma ten Niemalże Do Pomyślenia Podmiot coś z Λόγος-u, a ponieważ jest z konieczności wytworem
-wspólnoty i (będzie w drugiej części) abstrakcyjnym ucieleśniem w języku formalnym uniwersalnego
-pojęcia Oceny, to coś z Ἠθος-u (i [Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też
-możemy chyba w Nim zobaczyć (jeżeli tylko przymrużymy trochę
-[oko](https://www.goodreads.com/quotes/7169-the-eye-through-which-i-see-god-is-the-same)). Może więc
-Anzelm nie był wcale taki głupi, jak mi się zdawało? I może wcale mi się tak wtedy nie zdawało?
+wspólnoty i jednocześnie - jak zobaczymy wyraźnie w drugiej części - abstrakcyjnym ucieleśniem w
+języku formalnym uniwersalnego pojęcia Oceny, to coś z Ἠθος-u (i
+[Πάθος-u](https://en.wikipedia.org/wiki/Modes_of_persuasion)) też możemy chyba w Nim zobaczyć, gdy
+tylko odpowiednio zmrużymy
+[oko](https://www.goodreads.com/quotes/7169-the-eye-through-which-i-see-god-is-the-same). Może więc
+Anzelm wcale nie był taki głupi, jak mi się zdawało? I może wcale mi się tak wtedy nie zdawało?
 
 A skoro jesteśmy zwierzętami, które potrafią wykonywać wiele różnych zadań, ale *żadnego* zadania
 nie potrafią wykonywać w sposób *niezawodny* albo *doskonały*, czy może raczej *czysty*, to
-należałoby właściwie powiedzieć, co *się* stało, tak: "Ja" wpadłem w pewnym momencie na *prawie*
-pomysł, żeby napisać fragment tego rozdziału jako serię instrukcji dotyczących rysowania i
-notatek. Stworzyłem aplikację "siebie" do pewnych argumentów, które zapisałem w "swojej" pamięci i
-poprzez ewaluację - będącą jakby przejściem między dwiema chwilowymi, wirtualnymi wersjami
-"siebie" - tej aplikacji przekształciłem "się"
+należałoby właściwie powiedzieć, co *się* stało, tak:
+
+"Ja" wpadłem w pewnym momencie na *prawie* pomysł, żeby napisać fragment tego rozdziału jako serię
+instrukcji dotyczących rysowania i notatek. Stworzyłem aplikację "siebie" do pewnych argumentów,
+które zapisałem w "swojej" pamięci i poprzez ewaluację - będącą jakby przejściem między dwiema
+chwilowymi, wirtualnymi wersjami "siebie" - tej aplikacji przekształciłem "się"
 ([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)), albo może raczej
 [*wykształciłem*](https://pl.wikipedia.org/wiki/Wykszta%C5%82cenie) w taką wersję "siebie", która
 [*wystarczająco dobrze*](https://en.wikipedia.org/wiki/Satisficing), to znaczy skutecznie wykonała
