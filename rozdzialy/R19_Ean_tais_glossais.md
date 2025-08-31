@@ -323,59 +323,70 @@ A skoro jesteśmy zwierzętami, które potrafią wykonywać wiele różnych zada
 nie potrafią wykonywać w sposób *niezawodny* albo *doskonały*, czy może raczej *czysty*, to
 należałoby właściwie powiedzieć, co *się* stało, tak:
 
-"Ja" wpadłem w pewnym momencie na *prawie* pomysł, żeby napisać fragment tego rozdziału jako serię
-instrukcji dotyczących rysowania i notatek. Stworzyłem aplikację "siebie" do pewnych argumentów,
-które zapisałem w "swojej" pamięci i poprzez ewaluację - będącą jakby przejściem między dwiema
-chwilowymi, wirtualnymi wersjami "siebie" - tej aplikacji przekształciłem "się"
+"Ja" *dostatecznie dobrze* wpadłem w pewnym momencie na pomysł, żeby napisać fragment tego rozdziału
+jako serię instrukcji dotyczących rysowania i notatek. Stworzyłem (też *dostatecznie*, bo to
+*zadziałało* mniej więcej zgodnie z oczekiwaniami) aplikację "siebie" do pewnych argumentów, które
+zapisałem w "swojej" pamięci i poprzez ewaluację tej aplikacji - będącą jakby przejściem między
+dwiema chwilowymi, wirtualnymi wersjami "siebie" - przekształciłem "się"
 ([μεταμορφώσεις](https://en.wikipedia.org/wiki/Metamorphoses)), albo może raczej
 [*wykształciłem*](https://pl.wikipedia.org/wiki/Wykszta%C5%82cenie) w taką wersję "siebie", która
-[*wystarczająco dobrze*](https://en.wikipedia.org/wiki/Satisficing), to znaczy skutecznie wykonała
-zadanie zapisania pierwszego zdania tego rozdziału (pomijam tu pewne pośrednie kroki). I tak *krok
-za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając różne rzeczy, przerywając i
-robiąc coś innego, napisałem tyle, że prawie ale i skutecznie zwróciłem się z prośbą do
-"subskrybentów", żeby spróbowali ten rozdział prawie przetestować. Zanim prawie napisałem *to*
-zdanie, zdążyłem już dostać kilka wiadomości i przerobiłem kilka razy fragmenty tego rozdziału -
-takie, które poprzedzają ten akapit i takie, które następują po nim. Nawiasem mówiąc, dokonując tych
-zmian czasami dosłownie prawie *pisałem do "siebie"*, bo posyłałem zmiany do tego repozytorium z
-komentarzami, prawie mówiącymi przyszłemu "mi" krótko, o co w tych zmianach *chodziło*.
+[*dostatecznie dobrze*](https://en.wikipedia.org/wiki/Satisficing), to znaczy skutecznie wykonała
+zadanie zapisania pierwszego zdania tego rozdziału. Oczywiście pomijam tu liczne pośrednie kroki.
 
-**Chodziło**, *czujesz*? Wszyscy jesteśmy wspaniałymi, działającymi biologicznie, wielorako ze sobą
-splątanymi *prawie programami*, które nieustannie *prawie programują siebie samych i siebie
-nawzajem*, tworząc ciągle następne, nowe *wersje nas*.
+I tak *krok za krokiem*, wracając czasem do wcześniejszych fragmentów, poprawiając różne rzeczy,
+przerywając i robiąc coś innego, napisałem tyle, że prawie, ale też skutecznie zwróciłem się z
+prośbą do "subskrybentów", żeby spróbowali ten rozdział prawie przetestować. Zanim prawie napisałem
+*to* zdanie, zdążyłem już dostać kilka wiadomości i przerobiłem kilka razy fragmenty tego rozdziału
+- takie, które poprzedzają ten akapit i takie, które następują po nim. Nawiasem mówiąc, dokonując
+tych zmian czasami dosłownie prawie *pisałem do "siebie"*, bo posyłałem zmiany do tego repozytorium
+z komentarzami, prawie mówiącymi przyszłemu "mi", o co w tych zmianach *chodziło*.
 
-Można powiedzieć, że to taki wspólny spacer.
+**Chodziło**, *czujesz*?
+
+Jesteśmy wspaniałymi, biologicznie zrealizowanymi i wielorako ze sobą splątanymi prawie programami,
+które nieustannie wystarczająco skutecznie programują samych siebie i siebie nawzajem, wykształcając
+ciągle nowe wersje Nas.
+
+To taki wspólny spacer.
 
 Na przykład "Ty", czytając ten rozdział, zaczęłaś w pewnym momencie [przekształcać "siebie" w
 proces](https://pl.wikipedia.org/wiki/Logo_(j%C4%99zyk_programowania)) wykonujący wystarczająco
-dobrze zadanie rysowania według "moich" instrukcji i robiłaś też ze "sobą" różne inne rzeczy,
+dobrze zadanie rysowania według "moich" instrukcji, i robiłaś też ze "sobą" różne inne rzeczy,
 próbując jakoś "mnie" zrozumieć, za co "Ci" bardzo dziękuję. I to też były tego samego rodzaju
 kroki, polegające na tym, że zapisywałaś jakby w "swojej" *aktywnej pamięci* aplikacje "siebie",
-które to aplikacje były ewaluowane, to jest *ucieleśniałaś* "sobą" wystarczająco dobre przybliżenia
-pewnych funkcji, które coś *robiły*. Pozornie "Twój" rysunek jest więc rezultatem kilku odległych
-fizycznie i fizycznie wyraźnie odrębnych procesów, ale przecież te procesy nie były tak naprawdę
-fizycznie całkiem oddzielone, bo gdyby były, nie mogłabyś "mnie" czytać. Mimo odległości i
-częściowej fizycznej odrębności, ten rysunek jednak powstał i to było możliwe tylko dzięki licznym
-*funkcjonalnie splątanym procesom celowym*, bo przecież *między innymi* "ja" brałem w tym udział i
-"osoby", które odpowiedziały w międzyczasie na moje wezwanie, też brały w tym
-["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)) i to już było dosyć mocno
+które to aplikacje były później ewaluowane, to jest *ucieleśniałaś* "sobą" wystarczająco dobre
+przybliżenia pewnych funkcji, które coś *robiły*. 
+
+Pozornie "Twój" rysunek jest więc rezultatem kilku odległych fizycznie i fizycznie wyraźnie
+odrębnych procesów. Ale przecież te procesy nie były tak naprawdę fizycznie całkiem oddzielone, bo
+gdyby były, nie mogłabyś "mnie" czytać. Mimo odległości i częściowej fizycznej odrębności, ten
+rysunek powstał i to było możliwe tylko dzięki licznym *funkcjonalnie splątanym procesom celowym*,
+bo przecież *między innymi* "ja" brałem w tym udział, i "osoby", które odpowiedziały w międzyczasie
+na moje wezwanie, też brały w tym
+["udział"](https://en.wikipedia.org/wiki/Participation_(philosophy)), i to już było dosyć mocno
 "poplątane", a teraz jeszcze "Ty" "się" w to "sama", ale tak naprawdę *nie* sama,
 [*wplątałaś*](https://en.wikipedia.org/wiki/Entanglement_(film)).
 
-Czy nie masz wrażenia, że coś próbuje się spod tego tekstu wyrwać i Cię opisać? Uspokajam, że
-chociaż faktycznie już próbuje, to jeszcze nie może, bo brakuje nam kilku kluczowych
-składników.
+Czy nie masz wrażenia, że coś próbuje się spod tego tekstu wyrwać i Cię opisać? Albo wręcz
+[*nawiedzić*](https://wolnelektury.pl/katalog/lektura/sklepy-cynamonowe-nawiedzenie.html)?
+Uspokajam, że choć próbuje, to jeszcze nie może, bo do skutecznej przemiany brakuje nam nadal kilku
+kluczowych składników.
 
-Każdy opis świata albo jego części jest z konieczności wybiórczy, dlatego będziemy potrzebować
-pojęcia prawdopodobieństwa. Żeby ten opis był dla nas zrozumiały i bardziej użyteczny, będziemy
-musieli dodać do niego pojęcie interwencji czyli wpływu, a także możliwość mówienia o tym, jak
-*mogłoby* być, ale nie było, a więc pojęcia kontrfaktyczne. Gdy dodamy do tego pojęcie oceny,
-będziemy mogli mówić o "Tobie", o "mnie", i wszystkich innych zwierzętach, a także o wszystkich
-narzędziach i innych artefaktach stworzonych przez istoty inteligentne, to jest o zapierającym dech
-w piersiach właściwym przedmiocie badań psychologii. I będziemy również wtedy próbowali mówić w
-języku formalnym o moralności. A we wszystkich bytach celowych wyraźnie rozpoznamy *fizyczne
-przybliżenia Podmiotu Wszelkich Działań*.
+Każdy opis świata albo jego części jest z konieczności *wybiórczy*, dlatego będziemy potrzebowali
+pojęcia prawdopodobieństwa. Żeby ten opis był dla nas zrozumiały i - przede wszystkim - *użyteczny*,
+dodamy formalny odpowiednik pojęcia interwencji czyli wpływu, w tym również narzędzia służące do
+konsekwentnego mówienia o tym, jak *mogłoby* być, ale nie było, a więc pojęcia kontrfaktyczne. A gdy
+wprowadzimy ogólne pojęcie oceny, będziemy mogli mówić o "Tobie", o "mnie" i wszystkich innych
+zwierzętach, a także o wszystkich narzędziach i innych artefaktach stworzonych przez istoty
+inteligentne, to jest o właściwym przedmiocie badań (właściwie rozumianej) psychologii naukowej.
 
-### Ten wybiegający w przyszłość fragment jest przeznaczony raczej dla "prawie-ekspertów"
+Zaczniemy zresztą od końca, to jest od Oceny. I zaczniemy również wtedy mówić formalnie o
+moralności. A we wszystkich bytach celowych rozpoznamy fizyczne przybliżenia Podmiotu Wszelkich
+Działań.
+
+<hr>
+
+### Ten wybiegający w przyszłość fragment jest skierowany głównie do "ekspertów"
 
 Jeżeli masz ochotę, możesz spróbować popatrzeć teraz "nowym okiem" na zawartość [rozdziału
 trzeciego](02_Cel.md), w którym mówiłem o tym, co będzie w planowanej drugiej części. Wspominam tam
@@ -383,28 +394,28 @@ między innymi o rachunkach prawdopodobieństwa i przyczynowym. Rachunek przyczy
 mówię, to tak zwany [przyczynowy model strukturaly](https://en.wikipedia.org/wiki/Causal_model) (nie
 mylić z bardziej wyspecjalizowanym i niemal bezużytecznym [modelowaniem równań
 strukturalnych](https://en.wikipedia.org/wiki/Structural_equation_modeling)) Pearla (jest jeszcze
-równoważna teorii Pearla teoria [Neymana-Rubina](https://en.wikipedia.org/wiki/Rubin_causal_model),
-ale z niej nie będziemy korzystać, bo moim i nie tylko moim zdaniem nie warto). W teorii Pearla
-założenia na temat relacji przyczynowych są wyrażone jako pewne *funkcje*, w dodatku takie, które
-mają być, przynajmniej potencjalnie, *zrealizowane przez* pewne *procesy fizyczne*. A to oznacza, że
-funkcje strukturalne w teorii Pearla *muszą* być [*funkcjami
-obliczalnymi*](https://pl.wikipedia.org/wiki/Funkcja_obliczalna).
+równoważna teoria [Neymana-Rubina](https://en.wikipedia.org/wiki/Rubin_causal_model), ale z niej nie
+będziemy korzystać, bo moim i nie tylko moim zdaniem nie warto). W teorii Pearla założenia na temat
+relacji przyczynowych są wyrażone za pomocą *funkcji*, w dodatku takich, które mają być,
+przynajmniej potencjalnie, *zrealizowane przez procesy fizyczne*. A to oznacza, że funkcje
+strukturalne w teorii Pearla *muszą* być
+[*obliczalne*](https://pl.wikipedia.org/wiki/Funkcja_obliczalna).
 
 Tak się dobrze dla nas składa, że teoria typów jest *ogólną teorią funkcji obliczalnych*, jednak
-teoria typów jako taka *nie* jest jeszcze równoważna teorii Pearla, ponieważ w teorii typów *nie ma
+teoria typów jako taka *nie* jest jeszcze równoważna teorii Pearla, ponieważ w tym języku *nie ma
 [operacji przypisania](https://pl.wikipedia.org/wiki/Przypisanie)*, to jest operacji, która może
-zmienić wartość takiej zmiennej, która *nie pełni tylko roli zaimka* i zamiast tego jest czymś w
-rodzaju (nazwanego miejsca w) *pamięci*. Posługując się teorią typów będziemy jednak mogli *mówić o*
-operacji przypisania, uzyskując w ten sposób ogólną teorię przyczynowości, która będzie wtedy
-jeszcze co prawda pozbawiona części stochastycznej albo probabilistycznej, ale ta część jest
+szmienić wartość takiej zmiennej, która *nie pełni tylko roli zaimka*, tylko jest czymś w rodzaju
+*nazwanego miejsca w pamięci*.
+
+Posługując się teorią typów będziemy jednak mogli *mówić o* operacji przypisania, uzyskując w ten
+sposób w pełni sformalizowaną, ogólną teorię przyczynowości, która będzie wtedy jeszcze co prawda
+pozbawiona części stochastycznej albo probabilistycznej, ale ta część jest
 ["przyklejona"](https://mitpress.mit.edu/9780262045322/a-logical-theory-of-causality/) do rachunków
-interwencyjnego i kontrfaktycznego ze względów *praktycznych*. Mówię tam zresztą również o
-Zewnętrznym Agencie albo Zewnętrznym Podmiocie (i wielu innych sprawach, do których spróbuję Cię
-stopniowo przygotować).
+interwencyjnego i kontrfaktycznego ze względów *praktycznych*.
 
 <hr>
 
-Wracając do diagramu.
+## Wracając do rysunku
 
 Przydadzą nam się jeszcze słowa `Zrodlo` i `Cel`. Jeżeli `s : Strzalka` (na Twoim rysunku akurat
 `f : Strzalka` i `g : Strzalka`, ale chcę podkreślić, że ta reguła obowiązuje ogólnie), to term
