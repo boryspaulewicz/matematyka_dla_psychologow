@@ -563,8 +563,8 @@ sens dla *każdej* (uporządkowanej) pary liczb, a `Zlozenie` ma jest zdefiniowa
 `Zlozenie` jest działaniem (potencjalnie, bo nie zawsze) *wybrednym*.
 
 Umówiliśmy się więc, że gdy `Skladalne f g`, to istnieje unikalna `Strzalka`, która jest `Zlozenie f
-g`, w tej kolejności. Mamy teraz na diagramie do wyboru dwie strzałki kompatybilne z parą `f` i `g`
-- są nimi strzałki `h` i `i`. Wybieramy `h`, bez powodu, i wobec tego proszę Cię jeszcze, żebyś
+g`, w tej kolejności. Mamy teraz na diagramie do wyboru dwie strzałki kompatybilne z parą `f` i 
+`g` - są nimi strzałki `h` i `i`. Wybieramy `h`, bez powodu, i wobec tego proszę Cię jeszcze, żebyś
 wewnątrz diagramu-trójkąta o bokach `f`, `g` i `h` zapisała symbol `✓`, który po polsku nazywamy
 [*fajką*](https://pl.wikipedia.org/wiki/Fajka_(znak_wyboru)), *ptaszkiem*, *haczykiem* lub
 *parafką*. Na cześć [Rachlina](https://en.wikipedia.org/wiki/Howard_Rachlin) i
