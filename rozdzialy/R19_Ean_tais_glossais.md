@@ -97,8 +97,8 @@ albo **rysunkowymi parametrami**. Tak samo rysunkowymi zmiennymi/parametrami są
 strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje* niektórych lub wszystkich tych
 symboli i te staną się przez to (w danym kontekście) *stałymi*.
 
-Jeszcze raz: Te punkty i strzałki są zatem dla nas czymś takim, jak litery *n* i *m* w wyrażeniu *n
-+ m = m + n*, zapisanym jako fragment prozy matematycznej, z którym zetknęłaś się w rozdziale
+Jeszcze raz: Te punkty i strzałki są zatem dla nas czymś takim, jak litery *n* i *m* w wyrażeniu 
+*n + m = m + n*, zapisanym jako fragment prozy matematycznej, z którym zetknęłaś się w rozdziale
 czwartym. Chociaż to, że *litery* były tam różne, zdawało się *sugerować*, że te litery oznaczają
 różne liczby, to wiedziałaś, albo przypomniałaś sobie szybko, że obie te litery mogą oznaczać
 *dowolne* liczby naturalne, a więc mogą również oznaczać *te same* liczby, czyli *jedną* liczbę, na
