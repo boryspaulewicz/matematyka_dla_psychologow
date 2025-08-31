@@ -4,20 +4,20 @@ Nie chcę psuć niespodzianki.
 
 <hr>
 
-# Nie ma to jak **_Rysowanie_**
+# Nie ma to jak **_rysowanie_**
 
-W tej książce nie ma na razie rysunków i nie wiem jeszcze, czy w ogóle jakieś będą. Mam powód, żeby
-ich unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
-właściwie kilku, a tak naprawdę będziemy potrzebowali kilku *diagramów*.
+Jak dotąd w tej książce nie było rysunków i nie wiem, czy w ogóle jakieś będą. Mam powód, żeby ich
+unikać, ale na razie trudno mi to wyjaśnić. A teraz akurat będziemy potrzebowali rysunku, a
+właściwie kilku, a tak naprawdę będziemy potrzebowali *diagramów*.
 
-**Polecenie**: Przygotuj czystą kartkę papieru i długopis, albo cokolwiek innego do pisania. Może
-najlepiej kartkę formatu *A4*, ale nie warto się przy tym upierać. Jeżeli masz kartkę formatu *A4*,
-to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
+**Polecenie**: Przygotuj czystą kartkę papieru i coś do pisania. Może najlepiej kartkę formatu *A4*,
+ale nie warto się przy tym upierać. Jeżeli masz prostokątną kartkę, to może połóż ją poziomo.
+Zaczniemy w lewym górnym rogu.
 
 1. Zapisz literę *A*, a zaraz *po prawej* od niej mały
    [okrąg](https://pl.wikipedia.org/wiki/Okr%C4%85g) (nie
    [koło](https://pl.wikipedia.org/wiki/Ko%C5%82o)), jakbyś chciała zaznaczyć tylko pewien *punkt*,
-   w którym właściwie nic nie ma, albo którego prawie nie ma, i oznaczyć go literą *A*.
+   w którym nic nie ma, albo którego prawie nie ma.
 
 2. Po prawej od *punktu A*, w odległości równej powiedzmy mniej więcej połowie długości Twojego
    palca wskazującego (naprawdę nie musi być dokładnie), zaznacz drugi podobny okrąg, a *po prawej*
@@ -29,8 +29,8 @@ to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
 
 3. Narysuj strzałkę wychodzącą z punktu *A* i wchodzącą do punktu *B*, czyli taką z grotem
    wskazującym na punkt *B*. Może narysuj ją tak, żeby nie stykała się całkiem z punktami, ale to
-   tylko sugestia. Ja robię to raz tak, a raz inaczej i często się waham, którą wersję
-   wybrać. Zgodnie z instrukcjami ta strzałka powinna być narysowana poziomo.
+   tylko sugestia. Ja robię to raz tak, a raz inaczej, i często się waham, którą wersję wybrać.
+   Zgodnie z instrukcjami ta strzałka powinna być narysowana poziomo.
    
    Odtąd będę mówił krócej, na przykład: Jeżeli na kartce `X : Punkt` i `Y : Punkt` (typowanie można
    czytać jak zdanie, pamiętasz?), to powiem *narysuj strzałkę z* `X` *do* `Y`, a właściwie powiem
@@ -44,107 +44,118 @@ to może połóż ją poziomo. Zaczniemy w lewym górnym rogu.
    `g`.
 
 Masz teraz dwie strzałki, o których, gdy wymienimy je *w określonej kolejności*, możemy powiedzieć,
-że są `Skladalne`, rozumiejąc przez to, że jedna strzałka (tutaj `f`) wchodzi do punktu (tutaj `B`),
-z którego wychodzi druga (tutaj `g`). Jeżeli masz ochotę, możesz myśleć o tych strzałkach między
-innymi jako o abstrakcyjnych oznaczeniach procesów, takich jak teoriotypowe funkcje czyli programy,
-które przekształcają wejście określonego typu w wyjście określonego typu, ale podkreślam, że
-będziemy te strzałki interpretowali bardziej elastycznie.
+że są `Skladalne`. Rozumiemy przez to tylko tyle, że jedna strzałka (tutaj `f`) wchodzi do punktu
+(tutaj `B`), z którego wychodzi druga (tutaj `g`). Jeżeli masz ochotę, możesz myśleć o tych
+strzałkach między innymi jako o abstrakcyjnych oznaczeniach procesów, takich jak teoriotypowe
+funkcje czyli programy, które przekształcają wejście określonego typu w wyjście określonego typu,
+ale uprzedzam, że będziemy je interpretowali bardzo elastycznie.
 
-Fakt, że `f` i `g` są składalne możemy zapisać (na razie pół)formalnie jako zdanie `Skladalne f
-g`. Podkreślam, że *kolejność* strzałek ma znaczenie, bo nie jest prawdą, że `Skladalne g f`. I
-teraz muszę zacząć pisać ostrożniej, a Ty będziesz musiała uzbroić się w cierpliwość, czekając, aż
-to co powiem stanie się w miarę jasne.
+Fakt, że `f` i `g` są składalne możemy zapisać (na razie pół-)formalnie jako zdanie `Skladalne f g`.
+Podkreślam, że *kolejność* strzałek ma znaczenie, bo nie jest prawdą, że `Skladalne g f`. I teraz
+muszę zacząć pisać ostrożniej, a Ty będziesz musiała uzbroić się w cierpliwość, czekając, aż to, co
+powiem, stanie się w miarę jasne.
 
 ## [*Absence of evidence is not evidence of absence*](https://en.wikipedia.org/wiki/Evidence_of_absence)
 
 Napisałem, że *nie jest prawdą, że* `Skladalne g f`, ale *nie* miałem na myśli, że *jest nieprawdą,
-że* `Skladalne g f`. Wbrew pozorom to nie jest to samo, a w każdym razie to niekoniecznie to
-samo. Żeby stwierdzić, że *nieprawda, że* `Skladalne g f`, musimy dysponować *dowodem* `¬(Skladalne
-g f)`. Mówiąc, że *nie jest prawdą, że* `Skladalne g f` miałem na myśli *tylko* tyle, że *nie
-dysponujemy żadnym dowodem, że* `Skladalne g f`, ale z *samego* tego faktu *nie* wynika jeszcze, że
-taki dowód się nie pojawi. Żeby wykluczyć, że `Skladalne g f` musielibyśmy albo udowodnić, albo
-założyć, że punkty `A` i `C` są *różne*. Wtedy faktycznie *nie mogłoby* być prawdą, że `Skladalne g
-f`, ponieważ definicja składalności strzałek wymaga, aby druga strzałka wychodziła z punktu, do
-którego wchodzi pierwsza.
+że* `Skladalne g f`. Wbrew pozorom to nie to samo, a w każdym razie *niekoniecznie* to samo. Żeby
+stwierdzić, że *nieprawda, że* `Skladalne g f`, musimy dysponować *dowodem* `¬(Skladalne g f)`.
+Mówiąc, że *nie jest prawdą, że* `Skladalne g f` miałem na myśli *tylko* tyle, że *nie dysponujemy
+żadnym dowodem, że* `Skladalne g f`, ale z *samego* tego faktu *nie* wynika jeszcze, że taki dowód
+się nie pojawi. Żeby wykluczyć, że `Skladalne g f`, musielibyśmy albo udowodnić, albo założyć, że
+punkty `A` i `C` są *różne*. Wtedy faktycznie *nie mogłoby* być prawdą, że `Skladalne g f`, ponieważ
+definicja składalności strzałek wymaga, aby druga strzałka wychodziła z punktu, do którego wchodzi
+pierwsza.
+
+Czy mogłem wyrazić to prościej i jaśniej pisząc *nie wiemy, czy `Skladalne g f`* zamiast *nie jest
+prawdą, że `Skladalne g f`*? No mogłem, ale wtedy nie mielibyśmy okazji, żeby poćwiczyć dostrzeganie
+i rozwinąć zdolność rozumienia tego rodzaju subtelności.
 
 W tym momencie, albo już wcześniej, mogła Ci się pojawić wątpliwość, że przecież punkty `A` i `C`
 *nie nachodzą na siebie na rysunku*, a więc *nie może być tak*, że `A` i `C` są tym samym *punktem*,
-a więc *to różne punkty*. I myśląc tak miałabyś rację, ale tylko z pewnego punktu widzenia (bo nie
-ma innych racji).
+a więc *to różne punkty*. I myśląc tak miałabyś rację, ale tylko z pewnego punktu widzenia.
 
 Rysunek *sugeruje* tutaj, że `A`, `B` i `C` to *różne punkty* i że `f` i `g` to *różne strzałki* i
-to faktycznie *są* różne punkty i różne strzałki *jako elementy rysunku*, ale *tym razem* to są też
-formalne *reprezentacje*, które w ogólnym przypadku mają coś *oznaczać*. Podobnie, w zdaniu *Jeżeli
-n i m to liczby naturalne, to n + m = m + n* litery *n* i *m* to różne litery, ale te różne litery
-to różne reprezentacje, które mogą oznaczać różne liczby naturalne, ale mogą też oznaczać tą samą
-liczbę. Tak samo jak nazwane różnymi symbolami parametry tego samego typu w zdefiniowanej w Leanie
-funkcji mogą oznaczać różne termy, ale mogą też oznaczać ten sam term danego typu.
+to faktycznie *są* różne punkty i różne strzałki *o ile rozumiemy je jako elementy rysunku*, ale to
+będą dla nas również *formalne reprezentacje*, które w ogólnym przypadku będą miały coś *oznaczać*.
+Podobnie, w zdaniu *Jeżeli n i m to liczby naturalne, to n + m = m + n* litery *n* i *m* to *różne
+litery*, ale ponieważ te litery to reprezentacje, to mogą oznaczać *różne* liczby naturalne, ale
+mogą też oznaczać *tą samą* liczbę. Tak samo jak nazwane różnymi symbolami *parametry* tego samego
+typu w zdefiniowanej w Leanie funkcji mogą oznaczać różne termy, ale mogą też oznaczać ten sam term
+danego typu, zależnie od tego, do jakich argumentów będziemy aplikować tą funkcję.
 
-Te punkty i strzałki mogą więc, ale nie muszą *reprezentować różne obiekty* (odpowiedniego
-typu). Punkty `A`, `B` i `C` pełnią tu role abstrakcyjnych reprezentacji części czegoś, co spełnia
-pewne wymagania (jak się okaże, będą to wymagania kategorii), czyli są **rysunkowymi zmiennymi**
+Czy zauważyłaś, że wprowadzamy nowy *język dziedzinowy*, a konkretnie język grafów skierowanych ze
+składalnymi strzałkami, w którym również występują *stałe* i *zmienne*, ale w którym "piszemy
+przestrzennie", albo geometrycznie, albo wręcz "rysunkowo"?
+
+Te punkty i strzałki mogą więc, ale nie muszą *reprezentować różne obiekty* (odpowiedniego typu).
+Punkty `A`, `B` i `C` pełnią więc tu role abstrakcyjnych reprezentacji *części* czegoś, co *spełnia
+pewne wymagania* (jak się okaże, będą to wymagania kategorii), czyli są **rysunkowymi zmiennymi**
 albo **rysunkowymi parametrami**. Tak samo rysunkowymi zmiennymi/parametrami są również wszystkie
 strzałki; chyba, że z jakiś powodów przyjmiemy określone *definicje* niektórych lub wszystkich tych
-symboli i te staną się przez to *stałymi*.
+symboli i te staną się przez to (w danym kontekście) *stałymi*.
 
-Te punkty i strzałki są zatem tutaj czymś takim, jak litery *n* i *m* w wyrażeniu *n + m = m + n*,
+Te punkty i strzałki są zatem dla nas czymś takim, jak litery *n* i *m* w wyrażeniu *n + m = m + n*,
 zapisanym jako fragment prozy matematycznej, z którym zetknęłaś się w rozdziale czwartym. Chociaż
 to, że *litery* były tam różne, zdawało się *sugerować*, że te litery oznaczają różne liczby, to
 wiedziałaś, albo przypomniałaś sobie szybko, że obie te litery mogą oznaczać *dowolne* liczby
-naturalne, mogą więc oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład
-*1*. Gdyby na przykład obie te litery oznaczały liczbę *1*, równanie przyjęłoby postać *1 + 1 = 1 +
-1* (i nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
+naturalne, mogą więc oznaczać również *te same* liczby, czyli jakąś jedną liczbę, na przykład *1*.
+Gdyby na przykład obie te litery oznaczały liczbę *1*, równanie przyjęłoby postać *1 + 1 = 1 + 1* (i
+nadal byłoby prawdziwe, bo jest prawdziwe dla *każdej* pary liczb).
 
 Kiedy czytając rozdział czwarty wyprowadzałaś, zgodnie z moimi instrukcjami, dowód twierdzenia
 Bayesa, nie używaliśmy jeszcze Leana, a więc to *Ty* musiałaś konsekwentnie podstawiać pewne
-wartości (wtedy symbole *y* i *x* oznaczające zdarzenia) za pewne zmienne (wtedy za zmienne *x* i
-*y* *jako części definicji pionowej kreski*), a więc musiałaś też oczywiście *rozumieć, co masz
-zrobić*.
+wartości (wtedy na przykład symbole *y* i *x* oznaczające zdarzenia) za pewne zmienne (wtedy za
+zmienne *x* i *y* traktowane przez Ciebie *jako części definicji pionowej kreski*), a więc musiałaś
+też oczywiście *rozumieć, co masz zrobić*.
 
-Wiesz, o co mi chodzi? Teraz, gdy na jakiś czas przestaliśmy polegać na Leanie i znowu sama
-*tworzysz kod* (rysując), a niebawem będziesz też sama *przekształcać wyrażenia zapisane w tym
-języku*, to **Ty jesteś funkcją** i jednocześnie to **Ty dokonujesz** (stale) **ewaluacji**. W
-szczególności, ponieważ pojęcie funkcji jest ... funkcjonalne w tym znaczeniu, że *określa, do czego
-funkcje służą*, zaczęłaś *funkcjonować* (sic!), albo już funkcjonujesz jak funkcja, która jakby
-*widzi, że dostała **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone* (albo
-*reprezentowane*) *przez `Punkt` `A`, `B` i `C`, jak również* **jakieś**, *niekoniecznie różne
+Wiesz, o co mi chodzi? Teraz, kiedy nie polegamy na Leanie i - rysując! - sama *tworzysz kod*, a
+niebawem będziesz też *przekształcać wyrażenia zapisane w tym języku*, to **Ty jesteś funkcją i
+ewaluatorką**. W szczególności, ponieważ pojęcie funkcji jest, hm, funkcjonalne, w tym znaczeniu, że
+*określa, do czego funkcje służą*, zaczęłaś *funkcjonować*, albo już funkcjonujesz jak funkcja,
+która *widzi, że dostała **jakieś**, *niekoniecznie różne obiekty, które dla Ciebie są oznaczone*
+(albo *reprezentowane*) *przez `Punkt` `A`, `B` i `C`, jak również* **jakieś**, *niekoniecznie różne
 obiekty, które dla Ciebie są oznaczone jako `Strzalka` `f` i `g`, o których to obiektach wiesz na
 razie tylko tyle, że `Skladalne f g`. Te* (bliżej nieokreślone) *obiekty są więc dla Ciebie
-"opakowane" i - ponieważ w tym momencie nie wiesz o nich nic więcej - nie możesz otworzyć tych
-opakowań.*
+"opakowane" i - ponieważ w tym momencie nie wiesz o nich nic więcej - te opakowania są całkiem
+nieprzezroczyste.*
 
-Na razie nic nie jest "przyczepione" do tych elementów rysunku od spodu i (zgaduję) że nigdy nie
-będzie, ani nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi elementami *w Twojej
-głowie*. Ale może być i będzie, w jednym z następnych rozdziałów.
+Mówiąc jeszcze inaczej, na razie nic nie jest "przyczepione" do tych elementów rysunku "od spodu",
+bo nic nie jest jeszcze *wystarczająco skutecznie związane* z tymi symbolami *w Twojej głowie*, a
+tak naprawdę w Twojej *pamięci*.
 
-Punkty `A`, `B` i `C` są różne *jako zmienne*, ale mogłabyś przecież dostać w przyszłości dowód, że
-`A = C`, albo po prostu założyć taką hipotezę i wtedy okazałoby się/postanowiłabyś/zgodziłabyś się,
-że zmienna/paczka z etykietą `A`, pozostając inną zmienną niż `C`, skrywała cały czas "pod" jakimś
-wirtualnym "spodem" *taki sam* (być może również tylko wirtualny) *obiekt*, co zmienna/paczka z
-etykietą `C`, tylko wcześniej o tym nie wiedziałaś albo nie dokonałaś takiego wyboru.
+Punkty `A`, `B` i `C` są więc różne *jako zmienne*, ale mogłabyś dostać w przyszłości dowód, że `A =
+C`, albo po prostu założyć taką hipotezę; wtedy okazałoby się/postanowiłabyś/zgodziłabyś się, że
+zmienna/paczka/wskaźnik z etykietą `A`, pozostając inną zmienną niż `C`, skrywała cały czas "pod"
+jakimś wirtualnym "spodem"/zawierała/wskazywała na *taki sam* (być może również tylko wirtualny,
+czyli będący \{niekoniecznie "uzbrojoną w znaczenie"\} reprezentacją) *obiekt*, co zmienna/paczka z
+etykietą `C`, tylko wcześniej o tym nie wiedziałaś, albo nie dokonałaś takiego wyboru.
 
-Zwróć proszę uwagę, że napisałem *taki sam*, a nie *ten sam*, a napisałem tak dlatego, żeby
+Zwróć też proszę uwagę, że napisałem *taki sam*, a nie *ten sam*, a napisałem tak dlatego, żeby
 podkreślić, że w matematyce równość *nie* oznacza "absolutnej identyczności" tylko
 **nierozróżnialność w danym języku/z danego punktu widzenia**. Na przykład, *1/2* to *ta sama
-liczba* co *2/4*, ale to jednocześnie jest przecież w całkiem oczywistym sensie *inny ułamek*. Kiedy
-więc posługujemy się "językiem liczbowym", czyli rozważamy coś z liczbowego punktu widzenia, to jest
-to samo (a raczej takie samo), ale kiedy posługujemy się "językiem ułamkowym", to nie jest to samo
-(ani tym bardziej takie samo).
+liczba* co *2/4*, ale to jednocześnie w całkiem oczywistym sensie *inny ułamek*. Kiedy więc
+posługujemy się "językiem liczbowym", czyli rozważamy coś z liczbowego punktu widzenia, to jest to
+samo (a raczej takie samo), ale kiedy posługujemy się "językiem ułamkowym", to nie jest to samo (ani
+tym bardziej takie samo).
 
-A skoro teraz to *Ty* będziesz operowała symbolami, podstawiając i dokonując w pewien sposób
-ewaluacji różnych wyrażeń, to **"Ty" będziesz zarazem funkcją i ewaluatorką**. Jeżeli chodzi o te
-symbole narysowane na kartce, to dopiero zaczynasz się przekształcać w funkcję, która będzie te
-narysowane na kartce symbole traktowała tak, jakby były nazwami zmiennych. *To będzie wtedy*
-**"Twój" kontekst** *albo* **kontekst "Ciebie" jako funkcji**.
+Jeszcze raz: Skoro teraz to *Ty* będziesz operowała symbolami - podstawiając, dokonując ewaluacji,
+czy innego rodzaju przekształceń - (funkcjonalnie) to "Ty" będziesz zarazem funkcją i ewaluatorką. A
+z mojej perspektywy będziesz (stopniowo coraz lepiej) pełniła rolę, którą do tej pory pełnił dla nas
+obojga Lean. Jeżeli chodzi o te narysowane na kartce symbole, co prawda dopiero zaczynasz (sama?)
+przekształcać się w funkcję, która będzie je traktowała jak zmienne, ale gdy już zacznie Ci to
+wychodzić, te symbole i ich (być może tymczasowe) znaczenia staną się *"Twoim" kontekstem*, albo
+*kontekstem "Ciebie" jako funkcji*.
 
 *To całkiem dosłownie, bo fizycznie* (i zarazem *funkcjonalnie*, ale w innym znaczeniu słowa
-"funkcja") *będzie* **"Twój" kontekst**, *ponieważ to będzie część* **fragmentu środowiska
-fizycznego**, *który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty
-świata żadną ścisłą, nieprzepuszczalną barierą, jest jednak dla "Ciebie" szczególnie ważną częścią
-środowiska, bo jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia, czy raczej
-funkcjonalnie - "Tobą". Tą zawsze dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część
-"swojego" środowiska nazywasz* **"własnym" ciałem**. *A część "Twojego" ciała, która* **pełni teraz
-funkcję kontekstu "Ciebie" jako pewnej** (ogólniejszej) **funkcji** *nazywasz "Twoją"* **pamięcią**.
+"funkcja") *będzie "Twój" kontekst, ponieważ to będzie część* **fragmentu środowiska fizycznego**,
+*który, chociaż się nieustannie zmienia i nie jest tak naprawdę oddzielony od reszty świata żadną
+ścisłą, nieprzepuszczalną barierą, jest jednak dla "Ciebie" szczególnie ważną częścią środowiska, bo
+jest zawsze przy "Tobie", albo "jest" - przynajmniej do pewnego stopnia, czy raczej funkcjonalnie -
+"Tobą". Tą zwykle dla "Ciebie" łatwo dostępną i stosunkowo kontrolowalną część "swojego" środowiska
+nazywasz* **"własnym" ciałem**. *A tą część "Twojego" ciała, która pełni w danym momencie* **funkcję
+kontekstu** *"Ciebie" jako pewnej* (ogólniejszej czy może raczej "większej") *funkcji nazywasz
+"Twoją"* **pamięcią**.
 
 *Tak się też składa, że używasz lokalnego* (dla "Ciebie", bo "Tobie" fizycznie bliskiego) *fragmentu
 środowiska zewnętrznego* (to jest kartki, być może w formacie *A4*), *żeby pomóc "swojej" pamięci
@@ -168,10 +179,11 @@ miałem przez cały ten czas taką nadzieję.
 Kiedy na przykład pytasz kogoś o godzinę, to co innego się dzieje? Manifestuje się w zachowaniu
 drugiej osoby magiczna wolna wola i tak się szczęśliwie składa, że - *prawie zawsze* - zwrotnica
 wydarzeń przesuwa się na sprzyjający "Tobie" tor? *Być może*, bo tego się z definicji nie da
-stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o godzinę uruchamiasz w "drugim"
-człowieku pewien proces, o którym w takich sytuacjach z góry wiesz, że prawie na pewno zadziała. A
-wiesz to, ponieważ posługujemy się językiem i mamy silną gatunkową tendencję do współdziałania,
-której dosłownie prawie wszystko zawdzięczamy dosłownie każdego dnia.
+stwierdzić ani wykluczyć. *Na pewno* natomiast wypowiadając pytanie o godzinę *uruchamiasz* w
+"drugim" człowieku pewien proces (albo program), o którym w takich sytuacjach z góry wiesz, że
+prawie na pewno *zadziała w określony sposób*. A wiesz to, ponieważ posługujemy się językiem i mamy
+silną gatunkową tendencję do współdziałania, której dosłownie prawie wszystko zawdzięczamy dosłownie
+każdego dnia.
 
 I pamiętajmy proszę o lustrzanym odbiciu tej zasady, którą tak *celnie*[^3] wyraził [Thích Nhất
 Hạnh](https://pl.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%A5t_H%E1%BA%A1nh) - <span
