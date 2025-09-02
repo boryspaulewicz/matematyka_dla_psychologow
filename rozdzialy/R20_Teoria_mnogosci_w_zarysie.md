@@ -1,21 +1,19 @@
 ## O czym teraz będzie
 
-W tym rozdziale spróbuję Ci przybliżyć pewien sposób myślenia o zbiorach, który może i nie bardzo
-pasuje do najpopularniejszej *aksjomatyzacji* teorii mnogości, ale ma za to inne, ważniejsze dla nas
-zalety. Po pierwsze, ten sposób myślenia o zbiorach, elementach i funkcjach lepiej niż wspomniana
-aksjomatyzacja pasuje do *praktyki* używania tych pojęć w matematyce, a więc też do sposobu, w jaki
-zawodowi matematycy zdają się zwykle *myśleć* o zbiorach, elementach i funkcjach. A po drugie,
-pozwala łatwiej dostrzec głębokie podobieństwa między teorią mnogości, teorią typów i teorią
-kategorii. Uprzedzam jednak, że ten rozdział ma przez to taki bardziej "filozoficzny" charakter.
+W tym rozdziale spróbuję Ci przybliżyć pewien sposób myślenia o zbiorach i funkcjach, który chociaż
+nie bardzo pasuje do najpopularniejszej *aksjomatyzacji* teorii mnogości, to jednak ma inne, dla nas
+ważniejsze zalety: Po pierwsze, lepiej niż wspomniana aksjomatyzacja pasuje do sposobu, w jaki
+matematycy zdają się faktycznie *myśleć* o zbiorach, elementach i funkcjach. A po drugie, pozwala
+łatwiej dostrzec głębokie podobieństwa między teorią mnogości, teorią typów i teorią kategorii.
 
 <hr>
 
 # Teoria mnogości w za[rysie](https://pl.wikipedia.org/wiki/Ry%C5%9B)
 
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był
-język teorii mnogości (czyli zbiorów), a konkretnie język teorii
-[Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla). Nawet, jeżeli to wiesz,
-to i tak na wszelki wypadek przytoczę tutaj odpowiedni
+język teorii mnogości (czyli zbiorów \{i w pewien sposób rozumianych funkcji\}), a konkretnie język
+teorii [Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla). Nawet, jeżeli to
+wiesz, to i tak na wszelki wypadek przytoczę odpowiedni
 [cytat]((https://pl.wikipedia.org/wiki/Teoria_mnogo%C5%9Bci)) z Wikipedii (2024-12-29):
 
 > Po odkryciu paradoksów tzw. naiwnej teorii mnogości udało się sformułować teorię zbiorów jako
@@ -25,70 +23,76 @@ to i tak na wszelki wypadek przytoczę tutaj odpowiedni
 > źródłem modeli różnych teorii formalnych.
 
 Wolałbym chyba "w ten sposób" zamiast "tak" w ostatnim zdaniu, no i zamiast "zredukowania" wolałbym
-na przykład "implementację", chodzi tu przecież o *modele*, ale trudno, jest jak jest. Nie będziemy
-się teraz przyglądać aksjomatom teorii *ZF*, ponieważ sami sobie *zrobimy* - ze strzałek i funkcji -
-pewną wersję teorii mnogości w jednym z późniejszych rozdziałów. Zanim to jednak nastąpi, zacznę
-odtąd intensywnie korzystać z półformalnej wersji tej teorii jako ze źródła ważnych przykładów i
-pretekstu do snucia amatorskich filozoficznych rozważań na temat natury matematyki.
+na przykład "implementację", chodzi tu przecież o *formalizację* i *modele*, ale trudno, jest jak
+jest. 
+
+Nie będziemy się teraz przyglądać aksjomatom teorii *ZF*, ponieważ sami sobie *zrobimy* - ze
+strzałek i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów. Zanim to
+jednak nastąpi, zaczniemy intensywnie korzystać z półformalnej wersji tej teorii jako ze źródła
+ważnych przykładów i pretekstu do snucia rozważań na temat matematyki.
 
 Mogłoby się wydawać, że pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla
 specjalistów zajmujących się zbiorami, natomiast dla reszty świata to raczej nie jest nic
-szczególnie ciekawego, bo zbiór to tylko pewna *kolekcja* (jakiś) elementów. Jednak właśnie dzięki
-temu, że to pojęcie - podobnie zresztą jak pojęcia *typu* i *przypisania* - jest tak (hm)
-elementarne, niemal wszędzie albo do czegoś się przydaje, albo okazuje się wręcz niezbędne; dlatego
+szczególnie ciekawego, bo zbiór to tylko pewna *luźna kolekcja* (jakiś) elementów. Jednak właśnie
+dzięki temu, że to pojęcie - podobnie zresztą jak pojęcia *typu* i *przypisania* - jest tak (hm)
+elementarne, niemal wszędzie do czegoś się przydaje, a często okazuje się wręcz niezbędne; dlatego
 warto mu się przyglądać długo, cierpliwie i z pewnego oddalenia.
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
 `{1, 20, *, X, -3.4}`
 
-Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na przykład tak ...
+Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na przykład tak, ...
 
 `{0, 1, 2, 3, 4, ...}`
 
-... lub tak ...
+... lub tak, ...
 
-`{n ∈ ℕ | Dodatnie n}`
+`{n ∈ ℕ | Przysta n}`
 
-... bo zapisane *dosłownie* nie zmieściłyby się na żadnej stronie. Ostatni przykład **czytamy tak**:
-Zbiór (`{ ...`) złożony z takich liczb naturalnych `n` (`{ n ∈ ℕ ...`), że `Dodatnie n` (`{ n ∈ ℕ |
-Dodatnie n}`).
+... bo gdyby mogły być zapisane *dosłownie*, zbiory nieskończone nie zmieściłyby się na żadnej
+stronie. Ostatni przykład **czytamy tak**: Zbiór (`{ ...`) złożony z takich liczb naturalnych `n`
+(`{ n ∈ ℕ ...`), że `Parzysta n` (`{ n ∈ ℕ | Parzysta n}`).
 
 Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce
-*zwyczajem* - zbiory mogą zawierać (niemal[^3]) dowolne elementy, na przykład takie, które nie
-należą do żadnego dającego się łatwo, a może nawet w ogóle zidentyfikować rodzaju albo typu. A więc
-zbiory to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
+zwyczajem - zbiory mogą zawierać (niemal[^3]) dowolne elementy, na przykład takie, które nie należą
+do żadnego dającego się łatwo, a może nawet w ogóle zidentyfikować rodzaju albo typu. A więc zbiory
+to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
 
-Natomiast *funkcje*, takie jak na przykład funkcja kwadratowa `f(x) = x²`, to (niemal) dowolne
-*przyporządkowania*. Ale uwaga, nie należy mylić abstrakcyjnego pojęcia przyporządkowania *jako
-takiego* z *procesem ustalania* tego przyporządkowania, takim jak na przykład *proces* obliczania
-kwadratu liczby, albo z *formułą* definiującą przyporządkowanie elementom jakiegoś zbioru elementów
-jakiegoś (być może tego samego) zbioru, taką jak `x²`.
+Natomiast *funkcje teoriomnogościowe*, takie jak na przykład funkcja kwadratowa `f(x) = x²`, to
+(niemal) dowolne *przyporządkowania*. Nie należy mylić abstrakcyjnego pojęcia przyporządkowania
+*jako takiego* z *procesem ustalania* tego przyporządkowania, takim jak na przykład *proces*
+obliczania kwadratu liczby (być może za pomocą jakiegoś algorytmu), albo z *formułą* definiującą
+przyporządkowanie elementom jakiegoś zbioru elementów jakiegoś (być może tego samego) zbioru, taką
+jak `x²`. W szczególności, taka formuła *charakteryzuje* pewne przyporządkowanie dzięki temu, że
+umiemy ją odczytać i wiemy, jak obliczać jej wartości dla różnych argumentów, ale formuła nie jest
+*tylko* samym (abstrakcyjnym) przyporządkowaniem, a więc to nie całkiem to samo.
 
 <hr>
 
 ### Oznaczanie jako wspólna rola zbiorów, elementów i funkcji w praktyce matematycznej
 
-Z jednej strony, pojęcie zbioru może się więc wydawać mało interesujące. Z drugiej jednak strony,
-gdy popatrzymy na zbiory w kontekście *innych* rodzajów matematycznych struktur, będziemy mogli
-powiedzieć o zbiorach (i elementach i funkcjach) coś głębszego, a mianowicie, że zbiory (i elementy
-i funkcje) są w pewnym ważnym sensie *strukturami ekstremalnymi*.
+Pojęcie zbioru może się więc wydawać mało interesujące. Gdy jednak popatrzymy na zbiory w kontekście
+*innych* rodzajów matematycznych struktur, będziemy mogli powiedzieć o zbiorach, elementach i
+funkcjach coś głębszego, a mianowicie, że zbiory, elementy i funkcje (jako abstrakcyjne
+przyporządkowania) to w pewnym ważnym sensie *struktury ekstremalne*.
 
-Na przykład, *liczby naturalne* to nie *tylko* pewna *kolekcja* obiektów, bo to jest *specjalna*
-kolekcja, posiadająca skomplikowaną, nietrywialną *strukturę*. I tak, istnieje pewna (naturalna!)
-relacja (liniowego) porządku na liczbach naturalnych, ze względu na tą relację istnieje najmniejsza
-liczba naturalna, dla każdej liczby naturalnej istnieje unikalna następna liczba naturalna, dla
-każdej liczby naturalnej różnej od zera istnieje unikalna poprzednia liczba naturalna, dla każdej
-pary liczb naturalnych istnieje ich unikalna suma, która ma tą własność, że liczba naturalna zero
-(czyli ta najmniejsza) jest elementem neutralnym ze względu na to działanie, i tak dalej.
+Na przykład, nieformalne wyrażenie *liczby naturalne* oznacza nie *tylko* pewną *kolekcję* obiektów,
+bo to jest kolekcja *specjalna*, posiadająca skomplikowaną, nietrywialną *strukturę*. I tak,
+istnieje pewna (naturalna!) relacja (liniowego) porządku na liczbach naturalnych (`1 ≤ 99`, i tak
+dalej), ze względu na tą relację istnieje najmniejsza liczba naturalna (`0`), dla każdej liczby
+naturalnej istnieje unikalna następna liczba naturalna, dla każdej liczby naturalnej różnej od zera
+istnieje unikalna poprzednia liczba naturalna, dla każdej pary liczb naturalnych istnieje ich
+unikalna suma, która ma tą własność, że liczba naturalna zero (czyli ta najmniejsza) jest elementem
+neutralnym ze względu na to działanie, i tak dalej.
 
-A zatem liczby naturalne w "*swej* mnogości" to nie jest *jakaś tam* kolekcja. Jednak *rozpatrywane
+A zatem liczby naturalne w "*swej* mnogości" to nie tylko *jakaś* kolekcja. Jednak *rozpatrywane
 jako kolekcja*, to jest *jako zbiór*, liczby naturalne to tylko *jakieś tam* obiekty, które możemy
-wskazywać czy nazywać i orzekać o nich, czy są równe, czy nie, *i nic więcej*. Być może trudno
+*wskazywać* czy *nazywać* i orzekać o nich, czy są *równe*, czy nie, *i nic więcej*. Być może trudno
 zrozumieć tą perspektywę, bo liczby naturalne tak bardzo kojarzą nam się z ich uporządkowaniem i
 pewnymi operacjami, takimi jak dodawanie czy mnożenie, ale żeby zrozumieć czym *w istocie* są zbiory
-*jako zbiory* musimy tymczasowo oderwać się od tych skojarzeń, albo przynajmniej nauczyć się *mówić*
-tak, jakbyśmy się od takich skojarzeń oderwali.
+*jako takie* musimy tymczasowo oderwać się od tych skojarzeń, albo przynajmniej nauczyć się *mówić*
+tak, jakbyśmy się od takich skojarzeń chociaż na chwilę oderwali.
 
 Gdy mówimy o jakimkolwiek zbiorze *jako zbiorze*, to mówimy *tylko* o pozbawionej jakiejkolwiek
 struktury innej niż struktura tożsamościowa kolekcji elementów. W tym sensie wskazany albo wyrażony
@@ -96,9 +100,17 @@ w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji w Lea
 mają bliżej nieokreślone (a więc też nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja
 aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
 każdemu z nich *przypisać*, dokonując w ten sposób czegoś w rodzaju nieredukowalnej aplikacji do
-czegoś (to jest arbitralnych elementów) pozbawionej ciała, albo takiej jakby "otwartej"
-funkcji. Żeby ułatwić sobie myślenie w ten sposób o zbiorach można też próbować wyobrazić sobie, że
-każdy zbiór jest jak okrąg zawierający luźno rozrzucone, abstrakcyjne *punkty zaczepienia*.
+czegoś (to jest arbitralnych elementów), pozbawionej ciała, albo takiej jakby "otwartej"
+funkcji. 
+
+Można też próbować wyobrazić sobie, że każdy zbiór jest jak okrąg zawierający luźno rozrzucone,
+abstrakcyjne *punkty zaczepienia*. Rola (a więc też istota, bo to są wszystko pojęcia funkcjonalne)
+tych punktów sprowadza się do tego, że możemy zdecydować, że każdy z nich będzie *oznaczał* jakiś
+jeden - bliżej określony albo nie - "obiekt", albo to może wynikać z jakiś innych decyzji tego
+rodzaju. Na przykład, jeżeli przyjmiemy, że zbiór `X` to niepusty podzbiór liczb naturalnych, to
+każdy element zbioru `X` będzie liczbą naturalną, albo równoważnie każdy symbol oznaczający element
+zbioru `X` będzie pewnym "symbolicznym punktem" oznaczającym jakąś konkretną, chociaż niekoniecznie
+bliżej określoną, liczbę naturalną.
 
 Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
@@ -110,11 +122,11 @@ które można powiedzieć, że "widzimy" to ...
 
 1, 20, *, X, -3.4
 
-... i jednocześnie *wyrażamy* to: Odtąd aż do odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza
-albo to, co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę* 1, albo liczbę 20, albo to, co w
-tym kontekście oznacza `*` (to może być na przykład sama ta gwiazka, jako w pewien sposób
-samooznaczający się symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę -3.4, *i nic
-innego*.
+... i jednocześnie *wyrażamy* następującą *konwencję*: Odtąd aż do odwołania `z ∈ Z` będzie
+oznaczało, że `z` oznacza albo to, co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę* 1, albo
+liczbę 20, albo to, co w tym kontekście oznacza `*` (to może być na przykład sama ta gwiazka, jako w
+pewien sposób samooznaczający się symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę
+-3.4, *i nic innego*.
 
 #### Zbiory, ich elementy, i funkcje jako językowe i pojęciowe narzędzia służące do maksymalnie swobodnego i zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek
 
