@@ -70,17 +70,16 @@ umiemy ją odczytać i wiemy, jak obliczać jej wartości dla różnych argument
 
 <hr>
 
-### Oznaczanie jako wspólna rola zbiorów, elementów i funkcji w praktyce matematycznej
+### Zbiory, elementy i funkcje jako uniwersalne narzędzia oznaczania w praktyce matematycznej
 
-Pojęcie zbioru może się więc wydawać mało interesujące. Gdy jednak popatrzymy na zbiory w kontekście
-*innych* rodzajów matematycznych struktur, będziemy mogli powiedzieć o zbiorach, elementach i
-funkcjach coś głębszego, a mianowicie, że zbiory, elementy i funkcje (jako abstrakcyjne
-przyporządkowania) to w pewnym ważnym sensie *struktury ekstremalne*.
+Pojęcie zbioru może się więc wydawać mało interesujące, jednak przyglądając się zbiorom w kontekście
+*innych* rodzajów matematycznych struktur, możemy dostrzec, że zbiory są w pewnym ważnym sensie
+*strukturami ekstremalnymi*.
 
 Na przykład, nieformalne wyrażenie *liczby naturalne* oznacza nie *tylko* pewną *kolekcję* obiektów,
-bo to jest kolekcja *specjalna*, posiadająca skomplikowaną, nietrywialną *strukturę*. I tak,
-istnieje pewna (naturalna!) relacja (liniowego) porządku na liczbach naturalnych (`1 ≤ 99`, i tak
-dalej), ze względu na tą relację istnieje najmniejsza liczba naturalna (`0`), dla każdej liczby
+bo ta kolekcja jest *specjalna* w tym znaczeniu, że ma skomplikowaną, nietrywialną *strukturę*. I
+tak, istnieje pewna (naturalna) relacja (liniowego) porządku na liczbach naturalnych (`1 ≤ 99`, i
+tak dalej), ze względu na tą relację istnieje najmniejsza liczba naturalna (`0`), dla każdej liczby
 naturalnej istnieje unikalna następna liczba naturalna, dla każdej liczby naturalnej różnej od zera
 istnieje unikalna poprzednia liczba naturalna, dla każdej pary liczb naturalnych istnieje ich
 unikalna suma, która ma tą własność, że liczba naturalna zero (czyli ta najmniejsza) jest elementem
@@ -95,42 +94,46 @@ pewnymi operacjami, takimi jak dodawanie czy mnożenie, ale żeby zrozumieć czy
 tak, jakbyśmy się od takich skojarzeń chociaż na chwilę oderwali.
 
 Gdy mówimy o jakimkolwiek zbiorze *jako zbiorze*, to mówimy *tylko* o pozbawionej jakiejkolwiek
-struktury innej niż struktura tożsamościowa kolekcji elementów. W tym sensie wskazany albo wyrażony
-w piśmie zbiór jako taki jest trochę jak *częściowa definicja funkcji w Leanie*, której parametry
-mają bliżej nieokreślone (a więc też nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja
-aksjomatyczna) nic z tymi parametrami nie robi, bo jej parametry służą *tylko* do tego, żeby *coś*
-każdemu z nich *przypisać*, dokonując w ten sposób czegoś w rodzaju nieredukowalnej aplikacji do
-czegoś (to jest arbitralnych elementów), pozbawionej ciała, albo takiej jakby "otwartej"
+struktury innej niż struktura *tożsamościowa* (i "przynależnościowa" - do danego zbioru) kolekcji
+elementów. W tym sensie wskazany albo wyrażony w piśmie zbiór jako taki jest trochę jak *częściowa
+definicja funkcji w Leanie*, której parametry mają jednak bliżej nieokreślone (a więc też
+nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja aksjomatyczna) nic z tymi parametrami
+nie robi, bo jej parametry służą *tylko* do tego, żeby można było *coś* każdemu z nich *przypisać*,
+dokonując w ten sposób czegoś w rodzaju nieredukowalnej aplikacji do czegoś - to jest do
+arbitralnych elementów - tej pozbawionej ciała, albo takiej jakby "otwartej" czy też "pustej"
 funkcji. 
 
 Można też próbować wyobrazić sobie, że każdy zbiór jest jak okrąg zawierający luźno rozrzucone,
 abstrakcyjne *punkty zaczepienia*. Rola (a więc też istota, bo to są wszystko pojęcia funkcjonalne)
 tych punktów sprowadza się do tego, że możemy zdecydować, że każdy z nich będzie *oznaczał* jakiś
-jeden - bliżej określony albo nie - "obiekt", albo to może wynikać z jakiś innych decyzji tego
-rodzaju. Na przykład, jeżeli przyjmiemy, że zbiór `X` to niepusty podzbiór liczb naturalnych, to
-każdy element zbioru `X` będzie liczbą naturalną, albo równoważnie każdy symbol oznaczający element
-zbioru `X` będzie pewnym "symbolicznym punktem" oznaczającym jakąś konkretną, chociaż niekoniecznie
-bliżej określoną, liczbę naturalną.
+jeden - bliżej określony albo nie - "obiekt", albo to oznaczanie może wynikać z jakiś innych decyzji
+tego rodzaju. Na przykład, jeżeli przyjmiemy, że zbiór `X` to niepusty podzbiór liczb naturalnych,
+to każdy element zbioru `X` będzie liczbą naturalną, albo równoważnie każdy symbol oznaczający
+element zbioru `X` będzie pewnym "symbolicznym punktem zaczepienia" oznaczającym jakąś konkretną,
+chociaż niekoniecznie bliżej określoną, liczbę naturalną.
 
-Może spróbuję wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
+Może spróbuję jeszcze raz wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
 
 `Z := {1, 20, *, X, -3.4}`
 
-... "wchodzimy" razem z odbiorcą tego formalnego tekstu (którym możemy być my sami w przyszłości)
-"do środka" pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o nazwie `Z`, przez
-które można powiedzieć, że "widzimy" to ...
+... "wchodzimy" razem z hipotetycznym odbiorcą (którym możemy być my sami w przyszłości) tego
+formalnego tekstu "do środka" pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o
+nazwie `Z`, przez które można powiedzieć, że "widzimy" to, ...
 
 1, 20, *, X, -3.4
 
-... i jednocześnie *wyrażamy* następującą *konwencję*: Odtąd aż do odwołania `z ∈ Z` będzie
-oznaczało, że `z` oznacza albo to, co oznacza w tym kontekście `1`, czyli (pewnie) *liczbę* 1, albo
-liczbę 20, albo to, co w tym kontekście oznacza `*` (to może być na przykład sama ta gwiazka, jako w
-pewien sposób samooznaczający się symbol), albo to, co w tym kontekście oznacza `X`, albo liczbę
--3.4, *i nic innego*.
+... jednocześnie jako symbole i ich znaczenia, i jednocześnie wyrażamy albo przyjmujemy (jeżeli
+jesteśmy współpracującym z autorem tego tekstu odbiorcą) następującą konwencję: Odtąd aż do
+odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza albo to, co oznacza w tym kontekście `1`, czyli
+(pewnie) *liczbę* 1, albo liczbę 20, albo to, co w tym kontekście oznacza `*` (to może być na
+przykład sama ta gwiazka, jako w pewien sposób samooznaczający się symbol), albo to, co w tym
+kontekście oznacza `X`, albo liczbę -3.4, *i nic innego*.
 
-#### Zbiory, ich elementy, i funkcje jako językowe i pojęciowe narzędzia służące do maksymalnie swobodnego i zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek
+#### Zbiory, elementy i funkcje jako językowe i pojęciowe narzędzia służące do maksymalnie swobodnego i zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek
 
 Z zarysowanej (?)  właśnie perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem
+\{i [nie tylko
+moim](https://www.cambridge.org/pl/universitypress/subjects/philosophy/philosophy-general-interest/mathematical-pluralism?format=HB&isbn=9781009500968)\}
 do tego w praktyce sprowadza się "matematyczność" języka) i zarazem *swobodnego
 wskazywania/oznaczania/wyróżniania*, w taki czy inny sposób, w tym również *arbitralnie*, bez
 podania żadnego powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i
@@ -148,11 +151,11 @@ swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mó
 2. ... i o takich obiektach, o których da się konsekwentnie mówić, że są jakimiś źródłami albo
 celami czegoś. 
 
-O tym, że języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną *strukturę*, albo
-"domagają się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej struktury, albo
-"domaga się" struktury w pewnym sensie minimalnej, możemy się przekonać rozważając taki oto przykład
-konsekwentnego mówienia czy myślenia o czymś *jednocześnie* na co najmniej *dwa różne sposoby* (ten
-przykład to oczywiście tylko pewna idealizacja):
+O tym, że języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną *nietrywialną
+strukturę*, albo "domagają się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej
+struktury, albo "domaga się" struktury w pewnym sensie minimalnej, możemy się przekonać rozważając
+taki oto przykład konsekwentnego mówienia czy myślenia o czymś *jednocześnie* na co najmniej *dwa
+różne sposoby* (ten przykład to oczywiście tylko pewna idealizacja):
 
 *Każdy człowiek ma parę rodziców, którzy też są ludźmi*.
 
