@@ -2,18 +2,18 @@
 
 W tym rozdziale spróbuję Ci przybliżyć pewien sposób myślenia o zbiorach i funkcjach, który chociaż
 nie bardzo pasuje do najpopularniejszej *aksjomatyzacji* teorii mnogości, to jednak ma inne, dla nas
-ważniejsze zalety: Po pierwsze, lepiej niż wspomniana aksjomatyzacja pasuje do sposobu, w jaki
-matematycy zdają się faktycznie *myśleć* o zbiorach, elementach i funkcjach. A po drugie, pozwala
-łatwiej dostrzec głębokie podobieństwa między teorią mnogości, teorią typów i teorią kategorii.
+ważniejsze zalety. Nie tylko lepiej pasuje do sposobu, w jaki matematycy zdają się faktycznie
+*myśleć* o zbiorach, elementach i funkcjach, ale pozwala też łatwiej dostrzec głębokie podobieństwa
+między teorią mnogości, teorią typów i teorią kategorii.
 
 <hr>
 
 # Teoria mnogości w za[rysie](https://pl.wikipedia.org/wiki/Ry%C5%9B)
 
 Jak być może wiesz, do niedawna w pewnym sensie najważniejszym podstawowym językiem matematyki był
-język teorii mnogości (czyli zbiorów \{i w pewien sposób rozumianych funkcji\}), a konkretnie język
-teorii [Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla). Nawet, jeżeli to
-wiesz, to i tak na wszelki wypadek przytoczę odpowiedni
+język teorii mnogości, czyli język zbiorów i (w pewien abstrakcyjny sposób rozumianych) funkcji, a
+konkretnie język teorii [Zermelo-Frankla](https://pl.wikipedia.org/wiki/Aksjomaty_Zermela-Fraenkla).
+Nawet, jeżeli to wiesz, to i tak na wszelki wypadek przytoczę odpowiedni
 [cytat]((https://pl.wikipedia.org/wiki/Teoria_mnogo%C5%9Bci)) z Wikipedii (2024-12-29):
 
 > Po odkryciu paradoksów tzw. naiwnej teorii mnogości udało się sformułować teorię zbiorów jako
@@ -24,7 +24,7 @@ wiesz, to i tak na wszelki wypadek przytoczę odpowiedni
 
 Wolałbym chyba "w ten sposób" zamiast "tak" w ostatnim zdaniu, no i zamiast "zredukowania" wolałbym
 na przykład "implementację", chodzi tu przecież o *formalizację* i *modele*, ale trudno, jest jak
-jest. 
+jest.
 
 Nie będziemy się teraz przyglądać aksjomatom teorii *ZF*, ponieważ sami sobie *zrobimy* - ze
 strzałek i funkcji - pewną wersję teorii mnogości w jednym z późniejszych rozdziałów. Zanim to
@@ -34,9 +34,11 @@ ważnych przykładów i pretekstu do snucia rozważań na temat matematyki.
 Mogłoby się wydawać, że pojęcie zbioru *jako takiego* jest interesujące przede wszystkim dla
 specjalistów zajmujących się zbiorami, natomiast dla reszty świata to raczej nie jest nic
 szczególnie ciekawego, bo zbiór to tylko pewna *luźna kolekcja* (jakiś) elementów. Jednak właśnie
-dzięki temu, że to pojęcie - podobnie zresztą jak pojęcia *typu* i *przypisania* - jest tak (hm)
-elementarne, niemal wszędzie do czegoś się przydaje, a często okazuje się wręcz niezbędne; dlatego
-warto mu się przyglądać długo, cierpliwie i z pewnego oddalenia.
+dzięki temu, że to pojęcie, podobnie jak pojęcia *typu* i *przypisania*, jest tak, hm, elementarne,
+niemal wszędzie do czegoś się przydaje, a często okazuje się wręcz niezbędne; dlatego będziemy mu
+się przyglądać długo, cierpliwie i z pewnego oddalenia.
+
+## Zbiory "przypadkowe" i "nieprzypadkowe", skończone i nieskończone
 
 Zbiory *skończone* możemy zapisać *dosłownie*, na przykład tak:
 
@@ -51,124 +53,292 @@ Zbiory *nieskończone* możemy tylko w jakiś sposób *scharakteryzować*, na pr
 `{n ∈ ℕ | Przysta n}`
 
 ... bo gdyby mogły być zapisane *dosłownie*, zbiory nieskończone nie zmieściłyby się na żadnej
-stronie. Ostatni przykład **czytamy tak**: Zbiór (`{ ...`) złożony z takich liczb naturalnych `n`
-(`{ n ∈ ℕ ...`), że `Parzysta n` (`{ n ∈ ℕ | Parzysta n}`).
+stronie. Trzeci przykład **czytamy tak**: Zbiór (`{ ...`) złożony z takich liczb naturalnych `n` (`{
+n ∈ ℕ ...`), że `Parzysta n` (`{ n ∈ ℕ | Parzysta n}`). A drugi przykład wymaga *domyślności*, bo
+wielokropek oznacza w nim *i tak dalej*, ale nigdzie nie jest napisane, *jak* dokładnie ma być - w
+nieskończoność - dalej.
 
-Wymyślając *pierwszy* przykład chciałem od razu zasugerować, że - zgodnie z dominującym w matematyce
-zwyczajem - zbiory mogą zawierać (niemal[^3]) dowolne elementy, na przykład takie, które nie należą
-do żadnego dającego się łatwo, a może nawet w ogóle zidentyfikować rodzaju albo typu. A więc zbiory
-to takie (niemal) *dowolne kolekcje potencjalnie różnorodnych elementów*.
+*Kolejność* w jakiej wymieniamy elementy zbiorów nie ma znaczenia, liczy się tylko to, czy jakiś
+element należy, czy nie należy do jakiegoś zbioru.
 
-Natomiast *funkcje teoriomnogościowe*, takie jak na przykład funkcja kwadratowa `f(x) = x²`, to
-(niemal) dowolne *przyporządkowania*. Nie należy mylić abstrakcyjnego pojęcia przyporządkowania
-*jako takiego* z *procesem ustalania* tego przyporządkowania, takim jak na przykład *proces*
-obliczania kwadratu liczby (być może za pomocą jakiegoś algorytmu), albo z *formułą* definiującą
-przyporządkowanie elementom jakiegoś zbioru elementów jakiegoś (być może tego samego) zbioru, taką
-jak `x²`. W szczególności, taka formuła *charakteryzuje* pewne przyporządkowanie dzięki temu, że
-umiemy ją odczytać i wiemy, jak obliczać jej wartości dla różnych argumentów, ale formuła nie jest
-*tylko* samym (abstrakcyjnym) przyporządkowaniem, a więc to nie całkiem to samo.
+Wymyślając pierwszy przykład chciałem zasugerować, że - zgodnie z dominującym zwyczajem - zbiory
+mogą zawierać (niemal[^3]) dowolne elementy, na przykład takie, które nie należą do żadnego dającego
+się łatwo, a może nawet w ogóle zidentyfikować rodzaju albo typu. A więc zbiory to takie (niemal)
+*dowolne kolekcje potencjalnie różnorodnych elementów*.
 
-<hr>
+Jednak chociaż zbiór może być (niemal) dowolną kolekcją, to w praktyce mówimy o zbiorach w jakiś
+sposób scharakteryzowanych w *innych kontekstach* niż te, w których mówimy o zbiorach bliżej
+nieokreślonych. Na przykład, gdy definiujemy pojęcie podzbioru ...
 
-### Zbiory, elementy i funkcje jako uniwersalne narzędzia oznaczania w praktyce matematycznej
+*Podzbiorem zbioru `X` nazywamy każdy taki zbiór `Z`, że wszystkie elementy należące do `Z` należą
+też do `X`*.
 
-Pojęcie zbioru może się więc wydawać mało interesujące, jednak przyglądając się zbiorom w kontekście
-*innych* rodzajów matematycznych struktur, możemy dostrzec, że zbiory są w pewnym ważnym sensie
-*strukturami ekstremalnymi*.
+... to mówimy coś zarówno o zbiorach "nieprzypadkowych" jak i "przypadkowych", bo mówimy coś o
+zbiorach *w ogóle*, a właściwie o *języku*, którego używamy do mówienia o jakichkolwiek zbiorach.
+Ale gdy używamy teorii mnogości do uprawiania matematyki, prawie zawsze wskazujemy lub
+charakteryzujemy rozmaite zbiory żeby mówić o czymś *innym* niż zbiory, na przykład o liczbach,
+obiektach geometrycznych, zdaniach, odległościach, hierarchiach, prawdopodobieństwach, i tak dalej,
+a wtedy zbiory nie są "przypadkowe".
 
-Na przykład, nieformalne wyrażenie *liczby naturalne* oznacza nie *tylko* pewną *kolekcję* obiektów,
-bo ta kolekcja jest *specjalna* w tym znaczeniu, że ma skomplikowaną, nietrywialną *strukturę*. I
-tak, istnieje pewna (naturalna) relacja (liniowego) porządku na liczbach naturalnych (`1 ≤ 99`, i
-tak dalej), ze względu na tą relację istnieje najmniejsza liczba naturalna (`0`), dla każdej liczby
-naturalnej istnieje unikalna następna liczba naturalna, dla każdej liczby naturalnej różnej od zera
-istnieje unikalna poprzednia liczba naturalna, dla każdej pary liczb naturalnych istnieje ich
-unikalna suma, która ma tą własność, że liczba naturalna zero (czyli ta najmniejsza) jest elementem
-neutralnym ze względu na to działanie, i tak dalej.
+## Abstrakcyjność funkcji teoriomnogościowej
+
+Funkcje teoriomnogościowe, takie jak funkcja kwadratowa `f(x) = x²` *rozumiana jako funkcja
+teoriomnogościowa*, to *same abstrakcyjne przyporządkowania*. Czasem trzeba uważać, żeby nie mylić
+tego abstrakcyjnego pojęcia funkcji jako arbitralnego przyporządkowania z *procesem ustalania*
+przyporządkowania, takim jak *proces* obliczania kwadratu liczby (być może za pomocą jakiegoś
+algorytmu), albo z *formułą* definiującą przyporządkowanie, taką jak `x²`. To może być dla Ciebie w
+tym momencie trudne nie dlatego, że brakuje Ci wiedzy, tylko dlatego, że sporo się już nauczyłaś na
+temat matematyki. Do tej pory zajmowaliśmy się tylko funkcjami *teoriotypowymi*, a te były zawsze
+*algorytmami*, nawet jeśli czasem były bliżej nieokreślone. Czyli nasze dotychczasowe funkcje były
+zawsze jednocześnie przepisami i - z innego punktu widzenia - procesami. Taki proces lub taka
+formuła albo przepis *charakteryzuje* pewne przyporządkowanie dzięki temu, że proces może zostać
+zrealizowany a formułę możemy odczytać i ustalić jej wartości dla dopuszczalnych argumentów, ale ani
+proces ani formuła nie są *tylko* przyporządkowaniami, a więc to nie *całkiem* to samo.
+
+Kiedy widzimy zapis `f(x) = x²` i wiemy, że chodzi akurat o funkcję teoriomnogościową, to mamy go
+rozumieć jako *odtąd `f` to przyporządkowanie elementom zbioru `X` liczb będących ich kwadratami*.
+Czemu nie po prostu coś w rodzaju *dla każdego elementu dziedziny funkcja `f` daje jej kwadrat*? Tak
+też można i warto mówić i myśleć, jeżeli akurat taki "aktywny" punkt widzenia do czegoś ważnego
+pasuje. Ale tym razem chciałem podkreślić "statyczny" albo "bierny" charakter tego abstrakcyjnego
+obiektu jakim jest funkcja teoriomnogościowa, a *daje kwadrat* może się kojarzyć z *procesem
+obliczania*.
+
+## Zbiory, elementy i funkcje jako trzy aspekty arbitralnego oznaczania
+
+Pojęcia zbioru i funkcji mogą się wydawać mało interesujące, jednak przyglądając się im w kontekście
+*innych* rodzajów matematycznych struktur można dostrzec, że zbiory i funkcje są w pewnym
+nietrywialnym i ważnym sensie *strukturami ekstremalnymi*.
+
+Na przykład, nieformalne wyrażenie *liczby naturalne* oznacza nie tylko pewną kolekcję obiektów, bo
+ta kolekcja *jako całość* ma pewną nietrywialną *strukturę*; właśnie ta struktura jest powodem, dla
+którego nazywamy pewne "obiekty" liczbami naturalnymi. I tak, istnieje (naturalna) relacja
+(liniowego) porządku na liczbach naturalnych (`1 ≤ 99`, i tak dalej), ze względu na tą relację
+istnieje najmniejsza liczba naturalna (`0`), dla każdej liczby naturalnej istnieje unikalna następna
+liczba naturalna, dla każdej liczby naturalnej różnej od zera istnieje unikalna poprzednia liczba
+naturalna, dla każdej pary liczb naturalnych istnieje ich unikalna suma, która ma tą własność, że
+liczba naturalna zero (czyli ta najmniejsza) jest elementem neutralnym ze względu na to działanie, i
+tak dalej.
 
 A zatem liczby naturalne w "*swej* mnogości" to nie tylko *jakaś* kolekcja. Jednak *rozpatrywane
-jako kolekcja*, to jest *jako zbiór*, liczby naturalne to tylko *jakieś tam* obiekty, które możemy
-*wskazywać* czy *nazywać* i orzekać o nich, czy są *równe*, czy nie, *i nic więcej*. Być może trudno
-zrozumieć tą perspektywę, bo liczby naturalne tak bardzo kojarzą nam się z ich uporządkowaniem i
-pewnymi operacjami, takimi jak dodawanie czy mnożenie, ale żeby zrozumieć czym *w istocie* są zbiory
-*jako takie* musimy tymczasowo oderwać się od tych skojarzeń, albo przynajmniej nauczyć się *mówić*
-tak, jakbyśmy się od takich skojarzeń chociaż na chwilę oderwali.
+jako zbiór*, liczby naturalne to tylko *jakieś tam* obiekty, które możemy *wskazywać* czy *nazywać*
+i orzekać o tak lub inaczej wskazanych albo scharakteryzowanych parach tych obiektów, czy są
+*równe*, czy nie, *i nic więcej*. Być może trudno zrozumieć tą perspektywę, bo liczby naturalne tak
+bardzo kojarzą nam się z ich uporządkowaniem i takimi operacjami jak dodawanie czy mnożenie, ale
+żeby zrozumieć czym *w istocie* są zbiory *jako takie* musimy tymczasowo oderwać się od tych
+skojarzeń. Tak jak w przypadku wszelkich innych abstrakcji, na początku bardzo pomaga w tym
+opanowanie sztuki *konsekwentnego mówienia* tak, *jakbyśmy* się od takich skojarzeń oderwali.
 
-Gdy mówimy o jakimkolwiek zbiorze *jako zbiorze*, to mówimy *tylko* o pozbawionej jakiejkolwiek
-struktury innej niż struktura *tożsamościowa* (i "przynależnościowa" - do danego zbioru) kolekcji
-elementów. W tym sensie wskazany albo wyrażony w piśmie zbiór jako taki jest trochę jak *częściowa
+Dlatego opanowując język formalny warto czasem zwracać uwagę na to, w jaki sposób łączymy język
+formalny z językiem naturalnym i na to, w jaki sposób łączymy ze sobą różne języki formalne.
+
+Gdy więc mówimy o zbiorze *jako zbiorze*, to mówimy *tylko* o pozbawionej jakiejkolwiek struktury
+innej niż struktura *tożsamościowa* i "przynależnościowa" (do danego zbioru) kolekcji elementów.
+Zanim przyzwyczaisz się trochę do postrzegania różnych teorii matematycznych jako odrębnych języków,
+może pomoże Ci myślenie o tym tak, że abstrakcyjne pojęcia na przykład teoriomnogościowe albo
+teoriotypowe są jak narzędzia, które tworzą *osobną grupę*, albo mają "swoją skrzynkę". Gdy używamy
+ich próbując coś zrozumieć albo rozwiązać jakiś problem zwykle sięgamy też po inne językowe i
+pojęciowe narzędzia i używamy więcej niż jednego języka czy punktu widzenia jednocześnie, chyba
+zresztą właśnie dlatego może być czasem trudno myśleć o tych teoriach jako o odrębnych językach, ale
+z różnych powodów warto zdawać sobie sprawę, że wszystkie pojęcia na przykład teoriomnogościowe
+łączy pewne głębokie podobieństwo albo bliskość, która nie występuje między pojęciami
+teoriomnogościowymi a na przykład teoriotypowymi.
+
+Albo można o tym myśleć tak: Tak lub inaczej scharakteryzowany zbiór jako taki jest jak *częściowa
 definicja funkcji w Leanie*, której parametry mają jednak bliżej nieokreślone (a więc też
-nie-zależne) typy. Ta prawie-funkcja (czyli właściwie funkcja aksjomatyczna) nic z tymi parametrami
-nie robi, bo jej parametry służą *tylko* do tego, żeby można było *coś* każdemu z nich *przypisać*,
-dokonując w ten sposób czegoś w rodzaju nieredukowalnej aplikacji do czegoś - to jest do
-arbitralnych elementów - tej pozbawionej ciała, albo takiej jakby "otwartej" czy też "pustej"
-funkcji. 
+nie-zależne) typy. Ta prawie-funkcja nic nie robi, bo jej parametry służą *tylko* do tego, żeby
+można było *coś* każdemu z nich *przypisać*, dokonując w ten sposób czegoś w rodzaju nieredukowalnej
+i być może półformalnej aplikacji do czegoś - to jest do arbitralnych elementów - tej pozbawionej
+ciała, albo takiej jakby "otwartej" czy też "pustej w środku" funkcji.
 
-Można też próbować wyobrazić sobie, że każdy zbiór jest jak okrąg zawierający luźno rozrzucone,
-abstrakcyjne *punkty zaczepienia*. Rola (a więc też istota, bo to są wszystko pojęcia funkcjonalne)
-tych punktów sprowadza się do tego, że możemy zdecydować, że każdy z nich będzie *oznaczał* jakiś
-jeden - bliżej określony albo nie - "obiekt", albo to oznaczanie może wynikać z jakiś innych decyzji
-tego rodzaju. Na przykład, jeżeli przyjmiemy, że zbiór `X` to niepusty podzbiór liczb naturalnych,
-to każdy element zbioru `X` będzie liczbą naturalną, albo równoważnie każdy symbol oznaczający
-element zbioru `X` będzie pewnym "symbolicznym punktem zaczepienia" oznaczającym jakąś konkretną,
-chociaż niekoniecznie bliżej określoną, liczbę naturalną.
+Można też próbować sobie wyobrazić, że każdy zbiór jest jak okrąg (pamiętając, że kształt nie ma tu
+znaczenia) zawierający luźno rozrzucone, abstrakcyjne *punkty zaczepienia*. Rola - a więc też
+istota, bo to wszystko są pojęcia funkcjonalne - tych punktów sprowadza się do tego, że możemy
+zdecydować, że każdy z nich będzie *oznaczał* jakiś jeden - bliżej określony albo nie - "obiekt",
+albo to oznaczanie może wynikać z jakiś innych decyzji tego rodzaju. Na przykład, jeżeli przyjmiemy,
+że zbiór `X` to niepusty podzbiór liczb naturalnych, to każdy element zbioru `X`, jeżeli jakiś w
+ogóle istnieje (podzbiór może być pusty), będzie czymś, co w pewnym sensie *oznacza*, a w innym
+*jest* liczbą naturalną, albo równoważnie każdy symbol oznaczający element zbioru `X` będzie pewnym
+"symbolicznym punktem zaczepienia", oznaczającym jakąś konkretną, chociaż niekoniecznie bliżej
+określoną, liczbę naturalną.
 
-Może spróbuję jeszcze raz wyjaśnić o co tu chodzi na konkretnym przykładzie: Pisząc coś takiego ...
+Może jeszcze spróbuję to wyjaśnić na konkretnym przykładzie: Pisząc coś takiego ...
 
 `Z := {1, 20, *, X, -3.4}`
 
 ... "wchodzimy" razem z hipotetycznym odbiorcą (którym możemy być my sami w przyszłości) tego
-formalnego tekstu "do środka" pewnej "bezcielesnej" funkcji, albo "zakładamy abstrakcyjne okulary" o
-nazwie `Z`, przez które można powiedzieć, że "widzimy" to, ...
+formalnego tekstu "do środka" pewnej "bezcielesnej" albo "niedookreślonej" funkcji, albo "zakładamy
+abstrakcyjne okulary" o nazwie `Z`, przez które można powiedzieć, że "widzimy" - bo rozpoznajemy i
+rozróżniamy - takie oto obiekty, ...
 
 1, 20, *, X, -3.4
 
-... jednocześnie jako symbole i ich znaczenia, i jednocześnie wyrażamy albo przyjmujemy (jeżeli
-jesteśmy współpracującym z autorem tego tekstu odbiorcą) następującą konwencję: Odtąd aż do
+... jednocześnie jako symbole i ich znaczenia. Ogłaszamy też, albo - jeżeli jesteśmy akurat
+współpracującym z autorem tego tekstu odbiorcą - przyjmujemy następującą konwencję: Odtąd aż do
 odwołania `z ∈ Z` będzie oznaczało, że `z` oznacza albo to, co oznacza w tym kontekście `1`, czyli
 (pewnie) *liczbę* 1, albo liczbę 20, albo to, co w tym kontekście oznacza `*` (to może być na
 przykład sama ta gwiazka, jako w pewien sposób samooznaczający się symbol), albo to, co w tym
 kontekście oznacza `X`, albo liczbę -3.4, *i nic innego*.
 
-#### Zbiory, elementy i funkcje jako językowe i pojęciowe narzędzia służące do maksymalnie swobodnego i zarazem konsekwentnego mówienia i myślenia niemal o czymkolwiek
-
-Z zarysowanej (?)  właśnie perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem
+Z zarysowanej (?) właśnie perspektywy język teorii mnogości służy do *konsekwentnego* (moim zdaniem
 \{i [nie tylko
 moim](https://www.cambridge.org/pl/universitypress/subjects/philosophy/philosophy-general-interest/mathematical-pluralism?format=HB&isbn=9781009500968)\}
-do tego w praktyce sprowadza się "matematyczność" języka) i zarazem *swobodnego
+do tego w praktyce sprowadza się "matematyczność" języka) i *swobodnego
 wskazywania/oznaczania/wyróżniania*, w taki czy inny sposób, w tym również *arbitralnie*, bez
-podania żadnego powodu czy zasady, wyróżnionych czy wybranych elementów, i do konsekwentnego i
-zarazem swobodnego mówienia/myślenia o/badania niemal dowolnych, w tym również arbitralnych,
-*własności* tych elementów.
+podania żadnego powodu czy zasady, wyróżnionych czy wybranych elementów. Służy również do
+konsekwentnego i swobodnego mówienia i myślenia o niemal dowolnych, w tym również arbitralnych
+*własnościach* elementów, dlatego że każda funkcja to między innymi *podział* a więc pewna
+klasyfikacja czy kategoryzacja elementów dziedziny na podzbiory złożone dokładnie z elementów
+posyłanych przez tą funkcję do tego samego elementu.
 
-**Graf skierowany jako struktura teoriomnogościowa**: Dla porównania, język grafów (skierowanych),
-którego zaczęliśmy już używać, służy, a raczej *ma służyć* (bo - tak jak wszystkiego innego - można
-go przecież używać jak tylko się chce, w tym również bez sensu) do konsekwentnego i zarazem
-swobodnego mówienia o dowolnych obiektach, o których da się konsekwentnie mówić, że mają jakieś ...
+Być może najkrócej można to podsumować tak:
 
-1. ... (maksymalnie elastycznie rozumiane) *źródła* i *cele*, czy też *punkty wyjścia* i *punkty
-   dojścia*, ...
+*Teoria mnogości to mechaniczny język służący do oznaczania obiektów lub ich kolekcji.*
 
-2. ... i o takich obiektach, o których da się konsekwentnie mówić, że są jakimiś źródłami albo
-celami czegoś. 
+Dla porównania, rozważymy teraz formalny język dziedzinowy, który *nie* jest tak ekstremalnie
+"ubogi", ponieważ można w nim mówić *tylko* o obiektach *pewnego rodzaju*.
+
+**Graf skierowany jako struktura teoriomnogościowa**: Język grafów (skierowanych), którego
+zaczęliśmy już używać, służy, a raczej *ma służyć* - bo, tak jak wszystkiego innego, można go
+przecież używać jak tylko się chce, w tym również bez sensu - do konsekwentnego i swobodnego
+mówienia o dowolnych obiektach, które można postrzegać jako pewnego rodzaju *strzałki*, to jest o
+których da się konsekwentnie mówić, że mają w *jakimkolwiek* sensie ...
+
+1. ... *źródła* i *cele*, czy też *punkty wyjścia* i *punkty dojścia*, albo *początki* i *końce*,
+   ...
+
+2. ... i o obiektach, o których da się konsekwentnie mówić, że w jakimś sensie są źródłami albo
+celami, albo punktami wyjścia lub dojścia, albo początkami i końcami tych strzałek.
 
 O tym, że języki takie jak język grafów są "mniej swobodne", bo "narzucają" pewną *nietrywialną
 strukturę*, albo "domagają się" jej, podczas gdy język teorii mnogości albo nie "domaga się" żadnej
 struktury, albo "domaga się" struktury w pewnym sensie minimalnej, możemy się przekonać rozważając
-taki oto przykład konsekwentnego mówienia czy myślenia o czymś *jednocześnie* na co najmniej *dwa
-różne sposoby* (ten przykład to oczywiście tylko pewna idealizacja):
+taki oto przykład konsekwentnego mówienia o czymś *jednocześnie* na co najmniej *dwa różne sposoby*:
 
 *Każdy człowiek ma parę rodziców, którzy też są ludźmi*.
 
-W kontekście tego przykładu możemy mówić między innymi o *zbiorze* ludzi `L` i o *strzałkach* (a to
-już *nie* jest pojęcie wbudowane w język teorii mnogości) od każdej (oznaczonej jako element zbioru
-`L`) osoby do (jakiegoś elementu `L` oznaczającego) rodzica tej osoby. Możemy omawiać strukturę
-uzyskanego albo wyróżnionego albo wstępnie wskazanego albo "zarysowanego" albo "rozpoznanego" w ten
-sposób grafu posługując się narzucającym pewną strukturę albo domagającym się jej "językiem
-grafowym". Na przykład, możemy mówić o strzałkach na tym grafie rozpatrując te strzałki *jako
-pod-grafy jednostrzałkowe*. Ale możemy też dla pewnych celów traktować (elementy oznaczające
-dowolnych) ludzi jako obiekty takie jak każde inne. Wtedy odrywamy się w naszych rozważaniach od
-struktury grafowej, to znaczy *nie korzystamy z faktu*, że każdy człowiek ma jakiś rodziców, ani
-tego faktu nie kwestionujemy.
+Rodzice to dwie różne - bo każdy ma matkę i ojca - *własności* każdego człowieka, a więc pojęcia
+matki i ojca możemy zakodować formalnie jako *funkcje* ze zbioru ludzi do zbioru ludzi. Gdybyśmy
+więc chcieli mówić o ludziach i ich rodzicach posługując się przynajmniej częściowo formalnym
+językiem teorii mnogości, moglibyśmy to zrobić na przykład tak:
+
+*Niech `L` będzie zbiorem ludzi, a `m` i `o` niech będą funkcjami na tym zbiorze, które każdemu
+człowiekowi przyporządkowują odpowiednio matkę i ojca*.
+
+Warto zwrócić uwagę, że potraktowanie tych dwóch fragmentów tekstu jako równoznacznych wymaga
+pewnych decyzji interpretacyjnych. Na przykład, w drugim fragmencie nie powiedzieliśmy *wprost*, że
+funkcje `m` i `o` *istnieją*. Stwierdziliśmy tylko, że symbole `m` i `o` mają oznaczać pewnego
+rodzaju obiekty, czyli podaliśmy *typ* tych stałych, ale to, czy oznaczalne w ten sposób obiekty
+istnieją, nie zostało jawnie rostrzygnięte. Czyli podaliśmy tylko typowanie pewnych symboli, ale ani
+nie *skonstruowaliśmy* ich definicji, ani nie powiedzieliśmy wprost (być może aksjomatycznie), że
+to, co te symbole mają oznaczać, istnieje. Jest jednak jasne, że w tego typu sytuacjach zakładamy
+niejawnie, że oznaczane obiekty istnieją, nawet jeśli tylko jako abstrakcyjne procesy czy struktury
+pojęciowe. A skoro tak, to drugi fragment tekstu mówi *to samo* co pierwszy - że każdy człowiek ma
+parę rodziców - tyle, że innymi słowami. I *częściowo* formalnie. 
+
+Czyli właściwie jak?
+
+Częściowa formalność polega tu na ogłoszeniu albo *deklaracji* - w języku *naturalnym* -
+obowiązujących w danym kontekście albo "odtąd" *zasad koordynacji*, czyli jednoczesnego użycia do
+mówienia o powiązanych sprawach, pewnych części języka naturalnego i wybranego języka formalnego
+(tutaj akurat formalnego języka teorii mnogości). Ten fragment tekstu jest półformalny również w tym
+znaczeniu, że deklaracja dotycząca symbolu `L` jest czymś w rodzaju ustanowienia "półformalnej
+funkcji" między obiektami językowymi, to jest jakimikolwiek symbolami, które zgodnie z późniejszymi
+deklaracjami będą oznaczały elementy zbioru `L`, i obiektami *pozajęzykowymi*, to jest *ludźmi*.
+
+Żeby lepiej zrozumieć półformalny charakter tej prawie funkcji warto zadać sobie pytanie, czy chodzi
+o wszystkich ludzi, którzy urodzili się do tej pory, czy tylko o wszystkich ludzi, którzy żyją w tym
+(czyli właściwie którym?) momencie, albo może o wszystkich ludzi, którzy kiedykolwiek żyli lub
+faktycznie będą żyli w przyszłości (ale czy ten zbiór jest dobrze określony?), albo nawet o
+wszystkich *możliwych* ludzi. Zgaduję, że kiedy przeczytałaś po raz pierwszy półformalną deklarację
+typów stałych `L`, `m` i `o`, tego rodzaju wątpliwości mogły Ci przyjść do głowy.
+
+Wiemy, że `L` nie może być zbiorem ludzi, którzy żyją lub żyli w jakimś konkretnym momencie, bo
+wtedy wartości funkcji `m` i `o` nie byłyby określone dla ludzi, którzy mieliby w tym momencie co
+najmniej jednego martwego rodzica, ale poza tym nie wiadomo, która interpretacja jest poprawna. A to
+znaczy, że ten fragment półformalnego tekstu jest wieloznaczny w potencjalnie problematyczny
+sposób. W takich sytuacjach decydujące znaczenie mają deklaracje formalne, ponieważ w ich przypadku
+nie ma swobody użycia. Jeśli nowa deklaracja okaże się niezgodna z przyjętą wcześniej interpretacją
+tekstu, należy poszukać takiej, która jest zgodna z dotychczasowymi deklaracjami. Na przykład, gdyby
+pojawił się fragment z którego wynika, że zbiór ludzi jest nieskończony, należałoby to potraktować
+jako niejawną deklarację, że symbol `L` ma oznaczać nie tylko ludzi, którzy żyli do tej pory, ale
+albo wszystkich ludzi, którzy żyli, żyją, lub będą żyć w przyszłości, albo wszystkich w jakimś
+sensie możliwych ludzi.
+
+Jednocześnie mamy tutaj parę endofunkcji, którą co prawda opisaliśmy (częściowo) za pomocą języka
+teorii mnogości, ale której sam język teorii mnogości nie "rozpoznaje" jako struktury wyróżnionego
+typu. *My* możemy tego rodzaju struktury *zbudować* posługując się językiem teorii mnogości i możemy
+je *rozumieć/traktować jako grafy*, a więc jako coś w pewnym sensie innego niż tylko jakaś tam para
+równoległych funkcji. Bo graf to nie całkiem to samo; to na przykład również pewnego rodzaju
+*rysunek*, albo jakakolwiek inna struktura czy reprezentacja, w której w jakimś sensie (albo dla
+jakiegoś obserwatora) "są strzałki" i "są punkty zaczepienia" strzałek. Tak się składa, że często
+posługujemy się pojęciem pary równoległych funkcji jako wygopdnym w użyciu *formalnym
+odpowiednikiem* pojęcia grafu, ale to tylko jedna z możliwych "kodyfikacji" (zasad użycia)
+*nieformalnego* (chociaż dość abstrakcyjnego) pojęcia grafu.
+
+Mogłoby się wydawać, że jeśli każdy *nieformalny* graf odpowiada unikalnej parze równoległych
+funkcji, a każda para równoległych funkcji odpowiada unikalnemu nieformalnemu grafowi, a więc między
+tymi dwoma rodzajami struktur istnieje coś w rodzaju *pół*formalnego izomorfizmu, to na jedno
+wychodzi. Ale gdy tylko zaczynamy posługiwać się językiem *naturalnym* dotyczącym grafów, a więc
+również *pojęciami grafowymi* i *grafowym sposobem myślenia*, okazuje się, że - zgodnie z omawianą
+strukturą rozumianą jako graf i przyjmując, że funkcja `o` oznacza źródła strzałek - mamy tu "graf
+rodzicielstwa", na którym *każdy człowiek jest strzałką od swojego ojca do swojej matki*.
+
+Ten opis w kategoriach "własności grafowych" sugeruje sposoby myślenia (na przykład taki, że dziecko
+jest rezultatem pewnego rodzaju oddziaływania organizmu ojca na stan organizmu matki), których opis
+teoriomnogościowy raczej nie sugeruje, a nawet może *utrudniać* ich zauważenie. Widzimy więc na tym
+przykładzie, że graf to nie całkiem to samo, co para równoległych funkcji. Można by powiedzieć, że
+skoro jednak między nieformalnymi grafami i parami równoległych funkcji istnieje (prawie)
+izomorfizm, to różnica jest "tylko psychologiczna", ale (tutaj tylko prawie) "formalnie na jedno
+wychodzi". I moim zdaniem to byłoby głupie stwierdzenie, bo psychologiczny charakter czegoś polega
+na tym, czym to coś jest lub może być *dla nas* i jak się wobec tego czegoś zachowujemy lub możemy
+zachować, a takie własności są przecież dla nas
+- trywialnie - najważniejsze, bo *tylko* takie własności są lub mogą być dla nas ważne. I *to* jest
+w mojej ocenie przykład sensownego użycia słowa "tylko".
+
+Widzimy więc dobre powody, żeby zastosować w przypadku omawianego półformalnego fragmentu tekstu
+matematyczną *teorię grafów*, a dzięki temu skorzystać ze skojarzeń, które nasuwa *grafowy sposób
+myślenia*. Zobaczymy też w jednym z późniejszych rozdziałów, że tak jak w teorii mnogości podstawową
+rolę odgrywa "nakładanie się" zbiorów na (czasem nieformalne albo pozajęzykowe) zbiory, czyli takie
+jakby "zbiorowanie" albo "kolekcjonowanie", które polega dokładnie na istnieniu jakiejkolwiek
+funkcji, tak w teorii grafów podstawową rolę odgrywa *nakładanie (się) grafów na grafy*, albo
+"grafowanie" (w dodatku to jest zawsze "grafowanie grafów", tak jak w teorii mnogości "zbiorujemy"
+zawsze jakieś zbiory, albo "oznaczamy" tylko te obiekty, które są już w jakimś sensie
+oznaczeniami). Ale to nakładanie (się) albo *mapowanie* inaczej *odwzorowywanie* grafów *nie*
+sprowadza się do istnienia *arbitralnych* funkcji, tylko polega na rozpoznaniu jednego grafu *jako
+grafu* w strukturze drugiego (być może tego samego) grafu.
+
+Na przykład, graf będący tylko punktem bez żadnych strzałek, a więc taki, który odpowiada parze
+funkcji ze zbioru pustego (bo nie ma strzałek) do jakiegokolwiek zbioru jednoelementowego (bo ma
+tylko jeden punkt, który akurat nie jest ani źródłem ani celem żadnej strzałki), można "sensownie
+rozpoznać" w każdym innym grafie na tyle sposobów, ile jest w tym innym grafie punktów (w teorii
+grafów oficjalnie nazywanych zwykle *węzłami*). Każde takie rozpoznanie jednego grafu w strukturze
+musi być zgodne ze strukturą obydwu grafów. Na przykład, nie można mapować strzałki jednego grafu na
+punk drugiego, ani nie można mapoważ endostrzałki (czyli takiej, która ma to samo źródło i cel) na
+strzałkę, która nie jest endostrzałką, bo to by wymagało posłania jednego punktu w dwa różne punkty.
+
+Mogłoby się wydawać, że *graf jednopunktowy* to w zasadzie to samo, co *zbiór jednoelementowy*, ale
+gdy zapominamy o (tutaj pustym, dlatego może się wydawać mało znaczący) zbiorze pełniącym rolę
+zbioru strzałek i o funkcjach traktowanych jako oznaczenia źródeł i celów, nie zostaje nam nic, co
+pozwalałoby traktować zbiór jednoelementowy jako zbiór zawierający punkt czy węzeł na grafie. Musimy
+wtedy dodatkowo zadeklarować, że będziemy traktować ten zbiór jako zbiór punktów (albo strzałek).
+
+Podobnie graf zawierający tylko jedną strzałkę, która ma różne punkty jako swoje źródło i swój cel,
+można "sensownie rozpoznać" w każdym grafie na tyle sposobów, ile jest w tym "analizowanym" grafie
+strzałek. Możemy wtedy rozpoznawać tą pojedynczą strzałkę również jako dowolną endostrzałkę na
+grafie analizowanym, bo rozróżnialność oznaczeń (tutaj punktów będących źródłem i celem) nie wymusza
+rozróżnialności obiektów oznaczanych. Gdy na grafie analizowanym nie ma żadnej strzałki, to takie
+*mapowanie zachowujące strukturę grafu* nie istnieje.
+
+TODO PRZERÓBKI CD W kontekście tego przykładu możemy mówić między innymi o *zbiorze* ludzi `L` i o
+*strzałkach* (a to już *nie* jest pojęcie *wbudowane* w język teorii mnogości) od każdej (oznaczonej
+jako element zbioru `L`) osoby do (jakiegoś elementu `L` oznaczającego) rodzica tej osoby. Możemy
+omawiać strukturę "zarysowanego" w ten sposób grafu posługując się właśnie "językiem grafowym". 
+
+Na przykład, możemy mówić o strzałkach na tym grafie rozpatrując te strzałki *jako pod-grafy
+jednostrzałkowe*. Ale możemy też dla pewnych celów traktować (elementy oznaczające dowolnych) ludzi
+jako obiekty takie jak każde inne. Wtedy odrywamy się w naszych rozważaniach od struktury grafowej,
+to znaczy *nie korzystamy z faktu*, że każdy człowiek ma jakiś rodziców, ani tego faktu nie
+kwestionujemy.
 
 Co więcej, dzięki jego "minimalnej strukturalności", język teorii mnogości nadaje się do pewnego
 stopnia (bo język teorii kategorii jest w tym w pewnym sensie lepszy, dzięki temu, że jest *mniej*
