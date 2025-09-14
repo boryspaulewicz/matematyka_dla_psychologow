@@ -271,9 +271,9 @@ je *rozumieć/traktować jako grafy*, a więc jako coś w pewnym sensie innego n
 równoległych funkcji. Bo graf to nie całkiem to samo; to na przykład również pewnego rodzaju
 *rysunek*, albo jakakolwiek inna struktura czy reprezentacja, w której w jakimś sensie (albo dla
 jakiegoś obserwatora) "są strzałki" i "są punkty zaczepienia" strzałek. Tak się składa, że często
-posługujemy się pojęciem pary równoległych funkcji jako wygopdnym w użyciu *formalnym
-odpowiednikiem* pojęcia grafu, ale to tylko jedna z możliwych "kodyfikacji" (zasad użycia)
-*nieformalnego* (chociaż dość abstrakcyjnego) pojęcia grafu.
+posługujemy się pojęciem pary równoległych funkcji jako wygodnym w użyciu *formalnym odpowiednikiem*
+pojęcia grafu, ale to tylko jedna z możliwych "kodyfikacji" zasad użycia *nieformalnego* (chociaż
+dość abstrakcyjnego) pojęcia grafu.
 
 Mogłoby się wydawać, że jeśli każdy *nieformalny* graf odpowiada unikalnej parze równoległych
 funkcji, a każda para równoległych funkcji odpowiada unikalnemu nieformalnemu grafowi, a więc między
@@ -283,51 +283,80 @@ również *pojęciami grafowymi* i *grafowym sposobem myślenia*, okazuje się, 
 strukturą rozumianą jako graf i przyjmując, że funkcja `o` oznacza źródła strzałek - mamy tu "graf
 rodzicielstwa", na którym *każdy człowiek jest strzałką od swojego ojca do swojej matki*.
 
-Ten opis w kategoriach "własności grafowych" sugeruje sposoby myślenia (na przykład taki, że dziecko
-jest rezultatem pewnego rodzaju oddziaływania organizmu ojca na stan organizmu matki), których opis
-teoriomnogościowy raczej nie sugeruje, a nawet może *utrudniać* ich zauważenie. Widzimy więc na tym
-przykładzie, że graf to nie całkiem to samo, co para równoległych funkcji. Można by powiedzieć, że
-skoro jednak między nieformalnymi grafami i parami równoległych funkcji istnieje (prawie)
-izomorfizm, to różnica jest "tylko psychologiczna", ale (tutaj tylko prawie) "formalnie na jedno
-wychodzi". I moim zdaniem to byłoby głupie stwierdzenie, bo psychologiczny charakter czegoś polega
-na tym, czym to coś jest lub może być *dla nas* i jak się wobec tego czegoś zachowujemy lub możemy
-zachować, a takie własności są przecież dla nas
-- trywialnie - najważniejsze, bo *tylko* takie własności są lub mogą być dla nas ważne. I *to* jest
-w mojej ocenie przykład sensownego użycia słowa "tylko".
+Ten opis w kategoriach "własności grafowych" sugeruje sposoby myślenia - na przykład taki, że
+dziecko jest rezultatem pewnego rodzaju oddziaływania organizmu ojca na stan organizmu matki -
+których opis teoriomnogościowy raczej nie sugeruje, a nawet może *utrudniać* ich zauważenie. Widzimy
+więc, że graf to nie całkiem to samo co jakaś tam para równoległych funkcji. Można by powiedzieć, że
+skoro jednak między nieformalnymi grafami i parami równoległych funkcji istnieje (prawie, bo jedna
+"strona" jest tu nieformalna) izomorfizm, to różnica jest "tylko psychologiczna", ale (tutaj tylko
+prawie) "formalnie na jedno wychodzi". I moim zdaniem to byłoby błędne stwierdzenie, bo
+psychologiczny charakter czegoś polega na tym, czym to coś jest lub może być *dla nas* i jak się
+wobec tego czegoś zachowujemy lub możemy zachować, a takie własności są przecież dla nas
+- trywialnie - najważniejsze, bo *tylko* takie własności są lub mogą być dla nas ważne. Widzimy więc
+oto powody, żeby zastosować w przypadku omawianego półformalnego fragmentu tekstu matematyczną
+*teorię grafów*, a dzięki temu skorzystać ze *skojarzeń*, które nasuwa *grafowy sposób myślenia*.
 
-Widzimy więc dobre powody, żeby zastosować w przypadku omawianego półformalnego fragmentu tekstu
-matematyczną *teorię grafów*, a dzięki temu skorzystać ze skojarzeń, które nasuwa *grafowy sposób
-myślenia*. Zobaczymy też w jednym z późniejszych rozdziałów, że tak jak w teorii mnogości podstawową
-rolę odgrywa "nakładanie się" zbiorów na (czasem nieformalne albo pozajęzykowe) zbiory, czyli takie
-jakby "zbiorowanie" albo "kolekcjonowanie", które polega dokładnie na istnieniu jakiejkolwiek
-funkcji, tak w teorii grafów podstawową rolę odgrywa *nakładanie (się) grafów na grafy*, albo
-"grafowanie" (w dodatku to jest zawsze "grafowanie grafów", tak jak w teorii mnogości "zbiorujemy"
-zawsze jakieś zbiory, albo "oznaczamy" tylko te obiekty, które są już w jakimś sensie
-oznaczeniami). Ale to nakładanie (się) albo *mapowanie* inaczej *odwzorowywanie* grafów *nie*
+Zobaczymy też w jednym z późniejszych rozdziałów, że tak jak w teorii mnogości podstawową rolę
+odgrywa "nakładanie się" zbiorów na (czasem - tak jak w naszym przykładzie z ludźmi i rodzicami -
+nieformalne albo pozajęzykowe) zbiory, czyli takie jakby "zbiorowanie" albo "kolekcjonowanie", które
+polega dokładnie na istnieniu jakiejkolwiek (czasem półformalnej) funkcji (mapującej elementy zbioru
+jako takie na to, czym w danym kontekście mają być), tak w teorii grafów podstawową rolę odgrywa
+*nakładanie (się) grafów na grafy*, albo takie jakby "grafowanie". W dodatku to jest "grafowanie
+grafów", tak jak w teorii mnogości "zbiorujemy" zawsze jakieś zbiory, albo "oznaczamy" tylko te
+obiekty, które same są już w jakimś sensie (arbitralnymi) oznaczeniami, bo zanim te obiekty
+*formalnie* oznaczymy (za pomocą funkcji), musimy już je "mieć zawarte" w naszym formalnym świecie
+zbiorów i funkcji. Jednak nakładanie (się) albo *mapowanie*, inaczej *odwzorowywanie* grafów *nie*
 sprowadza się do istnienia *arbitralnych* funkcji, tylko polega na rozpoznaniu jednego grafu *jako
 grafu* w strukturze drugiego (być może tego samego) grafu.
 
-Na przykład, graf będący tylko punktem bez żadnych strzałek, a więc taki, który odpowiada parze
-funkcji ze zbioru pustego (bo nie ma strzałek) do jakiegokolwiek zbioru jednoelementowego (bo ma
-tylko jeden punkt, który akurat nie jest ani źródłem ani celem żadnej strzałki), można "sensownie
-rozpoznać" w każdym innym grafie na tyle sposobów, ile jest w tym innym grafie punktów (w teorii
-grafów oficjalnie nazywanych zwykle *węzłami*). Każde takie rozpoznanie jednego grafu w strukturze
-musi być zgodne ze strukturą obydwu grafów. Na przykład, nie można mapować strzałki jednego grafu na
-punk drugiego, ani nie można mapoważ endostrzałki (czyli takiej, która ma to samo źródło i cel) na
-strzałkę, która nie jest endostrzałką, bo to by wymagało posłania jednego punktu w dwa różne punkty.
+Na przykład, graf będący tylko punktem bez strzałek, a więc taki, który zgodnie z przyjętą wcześniej
+definicją odpowiada parze funkcji ze zbioru pustego (bo nie ma strzałek) do jakiegokolwiek zbioru
+jednoelementowego (bo ma tylko jeden punkt, który nie jest źródłem ani celem żadnej strzałki, ale
+wciąż jest *punktem grafu*), można "sensownie rozpoznać" w każdym innym grafie na tyle sposobów, ile
+jest w tym innym grafie punktów, w teorii grafów nazywanych oficjalnie *węzłami*. Każde takie
+"sensowne" albo "strukturalne rozpoznanie" albo "zobaczenie" jednego grafu w strukturze drugiego
+musi być zgodne ze strukturą obydwu grafów (inaczej nie zasługiwałoby na miano sensownego czy
+strukturalnego). Na przykład, nie można nakładać *strzałki* jednego grafu na *punkt* drugiego,
+chyba, że *wcześniej zadeklarujemy*, że ten punkt będziemy traktować jako *arbitralny element*
+służący jako "budulec" grafu konstruowanego "od podstaw", to jest "rozpoznamy" go "ponownie" na
+poziomie albo w języku *arbitralnego oznaczania*, czyli na poziomie zbiorów i funkcji. Tak samo bez
+wcześniejszego "odarcia" grafu oznaczanego z jego struktury, to jest bez wcześniejszej deklaracji,
+że będziemy ją ignorować, nie można "sensownie" albo "strukturalnie mapować" endostrzałki (czyli
+strzałki, która ma to samo źródło i cel) na strzałkę, która nie jest endostrzałką, bo to by wymagało
+nałożenia *jednego* punktu na *dwa*, a to by było niezgodne z podstawowymi intuicjami na temat tego,
+jak działa oznaczanie, mapowanie, czy rozpoznawania jako.
 
-Mogłoby się wydawać, że *graf jednopunktowy* to w zasadzie to samo, co *zbiór jednoelementowy*, ale
-gdy zapominamy o (tutaj pustym, dlatego może się wydawać mało znaczący) zbiorze pełniącym rolę
-zbioru strzałek i o funkcjach traktowanych jako oznaczenia źródeł i celów, nie zostaje nam nic, co
-pozwalałoby traktować zbiór jednoelementowy jako zbiór zawierający punkt czy węzeł na grafie. Musimy
-wtedy dodatkowo zadeklarować, że będziemy traktować ten zbiór jako zbiór punktów (albo strzałek).
+A mówiąc ogólnie, to jest niekoniecznie o "grafowaniu", zachowujące strukturę oznaczanie czy też
+nakładanie, oficjalnie nazywane *mapowaniem* albo *odwzorowywaniem*, musi 1. zachowywać *typ części*
+nakładanej struktury (tutaj punkty mają oznaczać punkty, a strzałki strzałki) i 2. nie może niczego
+"rozrywać" (na przykład, punkty połączone strzałką na grafie nakładanym muszą być nałożone na punkty
+połączone strzałką na grafie oznaczanym, bo jeźeli strzałka `f` jest nałożona na strzałkę `f'`, to
+źródło \{cel\} `f` musi być nałożone na źródło \{cel\} `f'`). Za to można 3. "sensownie sklejać"
+części, podobnie jak w teorii typów można podać więcej niż raz ten sam term jako argument aplikacji
+funkcji, o ile ten term wtedy "zasili" parametry tego samego typu, a funkcja teoriomnogościowa może
+posyłać dwa różne elementy w ten sam element swojej przeciwdziedziny. Na przykład, strzałkę, która
+nie jest endostrzałką, można "sensownie nałożyć" na endostrzałkę zachowując wszystkie "pozytywne"
+(albo "nieróżnościowe") własności strzałki nakładanej. Dopóki konsekwentnie stosujemy te zasady, to
+stwierdzając, że jakaś struktura "jest grafem", wyrażamy fakt, że da się tą strukturę "sensownie
+oznaczyć" czy opisać za pomocą punktów (czyli węzłów) i strzałek "formalnego grafu" tak, jakby te
+punkty i strzałki były parametrami czy zmiennymi, które są "powiązane grafowo", ale poza tym nie
+muszą oznaczać różnych rzeczy.
+
+Mogłoby się wydawać, że *graf jednopunktowy* to to samo, co *zbiór jednoelementowy*, ale gdy
+zapominamy o (tutaj pustym, dlatego może się wydawać mało znaczący) zbiorze pełniącym rolę zbioru
+strzałek i o funkcjach traktowanych jako oznaczenia źródeł i celów, nie zostaje nam nic, co
+pozwalałoby traktować zbiór jednoelementowy jako zbiór zawierający punkt czy węzeł *na
+grafie*. Musimy wtedy *sami zadeklarować*, że będziemy traktować ten zbiór jako zbiór punktów, tym
+samym niejawnie wprowadzając pozostałe części ogólnej struktury grafu, to jest (wtedy pusty) zbiór
+strzałek i (również puste) funkcje źródła i celu.
 
 Podobnie graf zawierający tylko jedną strzałkę, która ma różne punkty jako swoje źródło i swój cel,
 można "sensownie rozpoznać" w każdym grafie na tyle sposobów, ile jest w tym "analizowanym" grafie
 strzałek. Możemy wtedy rozpoznawać tą pojedynczą strzałkę również jako dowolną endostrzałkę na
-grafie analizowanym, bo rozróżnialność oznaczeń (tutaj punktów będących źródłem i celem) nie wymusza
-rozróżnialności obiektów oznaczanych. Gdy na grafie analizowanym nie ma żadnej strzałki, to takie
-*mapowanie zachowujące strukturę grafu* nie istnieje.
+grafie analizowanym, bo rozróżnialność *oznaczeń* (tutaj punktów będących źródłem i celem) nie
+wymusza rozróżnialności obiektów *oznaczanych*. Gdy na grafie analizowanym nie ma żadnej strzałki,
+takie *mapowanie zachowujące strukturę grafu* nie istnieje, bo na grafie oznaczanym nie ma niczego,
+co można by "sensownie oznaczyć" jako strzałkę.
 
 TODO PRZERÓBKI CD W kontekście tego przykładu możemy mówić między innymi o *zbiorze* ludzi `L` i o
 *strzałkach* (a to już *nie* jest pojęcie *wbudowane* w język teorii mnogości) od każdej (oznaczonej
