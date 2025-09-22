@@ -1,8 +1,8 @@
 # Do czego autor zmierza
 
 Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w planowanej *drugiej*
-części. Całkiem możliwe, że **większość tematów, o których tu piszę, może nie być zrozumiała dla
-osób, które nie studiowały przynajmniej przez kilka lat na przykład psychologii**, dlatego takim
+części. Całkiem możliwe, że większość tematów, o których tu piszę, może **nie być zrozumiała dla
+osób, które nie studiowały przynajmniej przez kilka lat na przykład psychologii**. Dlatego takim
 osobom sugeruję, żeby *najwyżej tu zerknąć* i przejść zaraz do [rozdziału
 czwartego](R04_Kilka_trywialnych_mechanicznych_operacji.md), od którego zaczyna się *niemal od
 zera*, przebiegająca *stopniowo i interaktywnie* nauka podstaw matematyki. Co prawda w pierwszej
