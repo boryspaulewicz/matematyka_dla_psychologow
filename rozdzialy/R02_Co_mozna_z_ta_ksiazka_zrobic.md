@@ -10,7 +10,7 @@ informacji zaczyna, że tak powiem, ryć o ziemię. Sprawdzałem to wiele, wiele
 sprawdzać tak dawno, że używałem do tego jeszcze zegarka z [różą
 wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutnikiem.
 
-Dlatego na zajęciach często wprowadzam krótkie przerwy co około pół godziny i dlatego staram się
+Dlatego na zajęciach często wprowadzam krótkie przerwy co około pół godziny, i dlatego staram się
 pisać rozdziały tak, żeby *najwyżej* tyle czasu wymagało ich przeczytanie, zakładając względnie
 aktywną postawę w trakcie lektury rozdziałów wcześniejszych. Sam zresztą potrzebuję takich krótkich
 przerw w trakcie prowadzenia zajęć, bo dzięki temu często zauważam, że zapomniałem powiedzieć coś
@@ -35,23 +35,23 @@ treści co najmniej przez następny *miesiąc*.
 Stosowanie określonego rozkładu powtórek wymaga oczywiście planowania, ale może największą
 przeszkodą jest to, że takie powtórki mogą się wydawać *niepotrzebne*. Przecież jeszcze tego samego
 dnia, w którym zrobiliśmy notatki i nie zaniedbaliśmy przy tym przerw, będziemy pamiętać większość
-treści dosyć dobrze. Pierwsza powtórka tego dnia może się więc wydawać zbędna i w pewnym sensie o to
-właśnie chodzi: Taka powtórka wydaje się zbędna, bo jest *łatwa*. Gdyby jednak poczekać trochę
-dłużej, nawet tylko do dnia następnego, już by tak łatwa nie była, bo utrata dostępu do informacji w
-pamięci postępuje początkowo dość gwałtownie. Po wykonaniu takiej odroczonej, ale nadal jeszcze w
-miarę *łatwej* powtórki, zapis pamięciowy utrwala się na tyle, że można poczekać znacznie dłużej do
-następnej *łatwej* powtórki, która jeszcze bardziej utrwala zapis i w ten sposób każda kolejna
-powtórka daje coraz lepszy skutek.
+treści dosyć dobrze. Ta pierwsza powtórka, zrobiona jeszcze tego samego dnia, może się więc wydawać
+zbędna, i w pewnym sensie o to właśnie chodzi: Taka powtórka wydaje się zbędna, bo jest dosyć
+*łatwa*. Gdyby jednak poczekać trochę dłużej, nawet tylko do dnia następnego, już by tak łatwa nie
+była, bo utrata dostępu do informacji w pamięci postępuje początkowo dość gwałtownie. Po wykonaniu
+takiej odroczonej, ale nadal jeszcze w miarę *łatwej* powtórki zapis pamięciowy utrwala się na tyle,
+że można poczekać znacznie dłużej do następnej *łatwej* powtórki, która jeszcze bardziej utrwala
+zapis, i w ten sposób każda kolejna powtórka daje coraz lepszy skutek.
 
-Dzieje się wtedy, mam wrażenie, jeszcze coś innego. Treść zdaje się subiektywnie *kurczyć*, jakby
-liczne powiązane ze sobą reprezentacje pamięciowe zaczynały w coraz większym stopniu tworzyć jedną,
-zwartą, hierarchiczną strukturę, ułatwiającą szybkie odnajdywanie tego, co jest w danej sytuacji
-najważniejsze. A mówiąc o tym zjawisku z perspektywy stanowiska metateoretycznego, które wprowadzę w
-drugiej części książki, ale z którego mogę już teraz skorzystać, bo nawet bez wcześniejszego
-tłumaczenia, o co w nim dokładnie chodzi, da się go jak sądzę używać nie ryzykując, że będzie się
-niezrozumianym, można by powiedzieć tak: Na skutek takiego powtarzania treść się subiektywnie
-kurczy, *co znaczy, że coraz szybciej udaje się zwykle odnaleźć informacje, które są w danej
-sytuacji najważniejsze*.
+Dzieje się wtedy, mam wrażenie, jeszcze coś innego. Zapamiętywana treść zdaje się subiektywnie
+*kurczyć*, jakby liczne powiązane ze sobą reprezentacje pamięciowe zaczynały w coraz większym
+stopniu tworzyć jedną, zwartą, hierarchiczną strukturę, ułatwiającą szybkie odnajdywanie tego, co
+jest w danej sytuacji najważniejsze. A mówiąc o tym zjawisku z perspektywy stanowiska
+metateoretycznego, które wprowadzę w drugiej części książki, ale z którego mogę już teraz
+skorzystać, bo nawet bez wcześniejszego tłumaczenia, o co w nim dokładnie chodzi, da się go jak
+sądzę używać nie ryzykując, że będzie się niezrozumianym, można by powiedzieć tak: Na skutek takiego
+powtarzania treść się subiektywnie kurczy, *co znaczy, że coraz szybciej udaje się zwykle odnaleźć
+informacje, które są w danej sytuacji najważniejsze*.
 
 Gdy odstępy są dłuższe niż tydzień, nie ma jak sądzę większego znaczenia, jeżeli powtórka nastąpi z
 kilkudniowym opóźnieniem. Raz wytrwałem do momentu, w którym powtarzałem coś po *roku* od ostatniej
@@ -71,8 +71,8 @@ doświadczyć, żeby się przekonać, w jak niezwykły sposób działa. Mając p
 chwili łatwy dostęp do licznych powiązanych i wielokrotnie przemyślanych treści, zaczyna się coraz
 częściej mimowolnie dostrzegać związki między tymi treściami a tym, co się napotyka albo o czym
 nawet tylko przez chwilę się myśli. W ten sposób szybko rośnie poczucie skuteczności. Nieuchronnie
-pojawiają się też twórcze skojarzenia i zrozumienie pogłębia się niejako samo z siebie. Dzięki temu
-utrwalane treści wydają się automatycznie coraz ciekawsze i coraz ciekawsze zaczyna się wydawać
+pojawiają się też twórcze skojarzenia, i zrozumienie pogłębia się niejako samo z siebie. Dzięki temu
+utrwalane treści wydają się automatycznie coraz ciekawsze, i coraz ciekawsze zaczyna się wydawać
 niemal wszystko, co się z tymi treściami prawie namacalnie wiąże. Nie będzie więc chyba przesadą,
 jeżeli powiem, że w moim odczuciu tego rodzaju uczenie się jest całkiem dosłownie procesem głębokiej
 wewnętrznej przemiany.
@@ -95,20 +95,20 @@ zdają się zajmować umysłową przestrzeń, w której, gdyby w niej było troc
 się pojawić coś innego.
 
 To jest jeden dobry powód do zapisywania, ale nie jedyny. Jest też taki, że gdy coś zapisujemy, to
-coś staje się od nas odrębne i nabiera pewnej autonomii. Zapisany pomysł, wątpliwość albo obserwacja
-może zacząć działać jak zanurzone w roztworze soli drobne ciało stałe, taki zalążek przyszłego
-kryształu, wokół którego samoistnie powstają i rosną kolejne pomysły, obserwacje i pytania. Dlatego
-też ostatnio, kiedy dużo piszę i ciągle mam poczucie, że jeszcze dobrze nie zacząłem, prawie zawsze
-mam przy sobie mały notes i długopis. A poza tym teraz, kiedy moja pamięć nie działa już tak dobrze
-jak wcześniej, wiele pomysłów bym zapomniał, gdybym ich gdzieś nie zapisał.
+coś staje się od nas odrębne i nabiera pewnej autonomii. Zapisany pomysł, wątpliwość, albo
+obserwacja może zacząć działać jak zanurzone w roztworze soli drobne ciało stałe, taki zalążek
+przyszłego kryształu, wokół którego samoistnie powstają i rosną kolejne pomysły, obserwacje i
+pytania. Dlatego też ostatnio, kiedy dużo piszę i ciągle mam poczucie, że jeszcze dobrze nie
+zacząłem, prawie zawsze mam przy sobie mały notes i długopis. A poza tym teraz, kiedy moja pamięć
+nie działa tak dobrze jak wcześniej, wiele pomysłów bym zapomniał, gdybym ich gdzieś nie zapisał.
 
 Powtarzam nie zaglądając początkowo do notatek, ani tym bardziej do książek, bo powtarzanie przez
 rozpoznawanie, jak wspomniałem, nie ma sensu. Zamiast tego, na głos, w myślach, lub pisząc na kartce
-próbuję (hipotetycznemu) komuś *opowiedzieć* to, co mam powtórzyć. W ten sposób natychmiast
+próbuję (hipotetycznemu Komuś) *opowiedzieć* to, co mam powtórzyć. W ten sposób natychmiast
 zauważam, czego albo dobrze nie pamiętam, albo czego nie rozumiem w stopniu, który by mi to pozwalał
 w miarę jasno wytłumaczyć. Potem sięgam do notatek lub źródłowych materiałów i upewniam się, ile
-treści i jak dobrze udało mi się w ten sposób powtórzyć. Można by pomyśleć, że to nie powtórki,
-tylko trening używania nabywanej wiedzy, ale przecież nic innego nie jest celem sensownego
+treści i jak dobrze udało mi się w ten sposób powtórzyć. Można by pomyśleć, że to nie zwykłe
+powtórki, tylko trening używania nabywanej wiedzy, ale przecież nic innego nie jest celem sensownego
 powtarzania.
 
 Jeszcze jedno, chociaż może Tobie to nie będzie za bardzo potrzebne. Z powodu wrodzonych wad mojego
@@ -118,12 +118,15 @@ dłużej, robię takie małe kartki-kalendarze, z naniesionymi niechlujnie linia
 jak mi idzie. Jest tam 7 kolumn, każda nazwana jednym dniem tygodnia (ponieważ słowa "poniedziałek"
 i "piątek" zaczynają się od tej samej litery, piątek oznaczam literą π) i jest tyle rzędów, ile
 akurat rzeczy chcę monitorować. Zwykle jest tam rząd o nazwie N (jak Nauka), w którym stawiam kropkę
-za każde 30 minut pracy umysłowej. Nie chodzi w tym o to, żeby się nagradzać, albo żeby czuć się
-winnym, gdy kropek jest mało, tylko żeby *zwiększyć świadomość tego, jak różne codzienne decyzje
-wpływają na to, ile się uczę i kiedy*. Bez tej niezwykle skutecznej i gwałtownie zmieniającej nawyki
-protezy nie miałbym o tym prawie w ogóle pojęcia i mimo szczerych chęci, żeby zdziałać coś
-wartościowego, dryfowałbym gdzieś pewnie gnany wiatrem namiętności. Przez co rozumiem głównie, że
-oglądałbym dużo YouTube'a.
+za każde 30 minut pracy umysłowej.
+
+Nie chodzi w tym o to, żeby się nagradzać, albo żeby czuć się winnym, gdy kropek jest mało, tylko
+żeby *zwiększyć świadomość tego, jak różne codzienne decyzje wpływają na to, ile się uczymy i
+kiedy*. A może chodzi w tym o to, żeby *kontaktować się częściej z tymi wersjami siebie, którym
+zależy na nauce*? Mogę tylko zgadywać, ale wiem na pewno, że bez tej niezwykle skutecznej i
+gwałtownie zmieniającej nawyki protezy nie miałbym o tym, jak często się uczę, prawie w ogóle
+pojęcia, i mimo szczerych chęci, żeby zdziałać coś wartościowego, dryfowałbym gdzieś pewnie gnany
+wiatrem zgubnych namiętności. Przez co rozumiem głównie, że oglądałbym dużo YouTube'a.
 
 W przypadku niektórych rodzajów zachowań, ale na pewno nie wszystkich, taki monitoring może być
 niezwykle skuteczny i nie trzeba długo czekać, żeby się o tym przekonać. Warto jednak pamiętać, żeby
@@ -134,7 +137,7 @@ wszystkie te sposoby notowania i uczenia się, o których przed chwilą pisałem
 wypełniona po brzegi psychologią poznawczą, statystyką, metodologią badań, językami programowania,
 elementami matematyki i różnymi innymi sprawami, które akurat wtedy mnie interesowały (a miałem
 wiele, czasem dość kosztownych zainteresowań). A ponieważ moja głowa była tymi sprawami wypełniona
-stale, to też często o nich mówiłem, nie zawsze zwracając uwagę, czy rozmówca był tym
+*niemal stale*, to często o nich mówiłem, nie zawsze zwracając uwagę, czy rozmówca był tym
 zainteresowany. Wydaje mi się, a właściwie jestem prawie pewien, że dla mojej ówczesnej partnetki to
 było niemałe wyzwanie. Później już nigdy w nic się tak nie zanurzyłem i staram się stosować do rady
 Rachlina, który pisze, cytując [Valéry'ego](https://en.wikipedia.org/wiki/Paul_Val%C3%A9ry), że
@@ -172,11 +175,10 @@ tylko wspomnij komuś, co "chciałabyś chcieć" zrobić[^1]. Na mnie to chyba c
     jednym z późniejszych rozdziałów.
 
 [^2]: Może wtedy zadziałać coś, co za Rachlinem nazwałbym chętnie wstępnym zaangażowaniem, gdyby ten
-    termin nie był już zajęty. Można powiedzieć, że próbując zastosować tą metodę, sami wobec siebie
+    termin nie był już zajęty. Można powiedzieć, że próbując zastosować tą metodę sami wobec siebie
     stosujemy technikę [stopy w drzwiach](https://pl.wikipedia.org/wiki/Technika_stopa_w_drzwiach)
 
-[^3]: To jest link do darmowej wersji ostatniego wydania, ale ja, z różnych powodów, wolę akurat
-    wydanie drugie.
+[^3]: To jest link do darmowej wersji ostatniego wydania, ale z różnych powodów wolę wydanie drugie.
 
 [^4]: Pracownicy naukowi zadziwiająco rzadko też *notują*, kiedy słuchają wystąpień lub uczestniczą
     w dyskusjach naukowych, a przecież żaden mózg nie robi się z wiekiem coraz młodszy.
