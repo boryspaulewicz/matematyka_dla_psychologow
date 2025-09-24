@@ -47,11 +47,11 @@ książka, która ma *służyć nauce*, nie powinna moim zdaniem, choćby tylko 
 żadnej konkretnej osoby, czy nawet do kilku wybitnych autorów, bo wtedy *nie może* dobrze spełniać
 swojej roli. Żaden autor nie ma przecież uprzywilejowanego dostępu do trudności, jakie będą
 napotykać czytelnicy. Dlatego efekt końcowy musi być, i zawsze do pewnego stopnia jest, wynikiem
-*współpracy*. Jeżeli więc interesuje Cię, co mam do powiedzenia i chcesz to zrozumieć, masz szansę
-pomóc sobie i innym do Ciebie podobnym odbiorcom *rozmawiając ze mną*; w ten sposób możesz stać się
-w jakimś stopniu współautorką albo współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie, liczba
-mnoga jest przecież konieczna.  
-(Tylko proszę, nie pisz wtedy o błędach ortograficznych i innych takich drobiazgach, chyba, że
+*współpracy*. Jeżeli więc interesuje Cię, co mam tu do powiedzenia i chcesz to zrozumieć, masz
+szansę pomóc sobie i innym do Ciebie podobnym odbiorcom *rozmawiając ze mną*; w ten sposób możesz
+stać się w jakimś stopniu współautorką albo współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie,
+liczba mnoga jest przecież konieczna.  
+(Tylko proszę, nie pisz wtedy o błędach ortograficznych i innych tego rodzaju drobiazgach, chyba, że
 pojawiły się na głównej stronie. Mam lekką dysgrafię, ale to już nie ma większego znaczenia.)
 
 **Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?** Może po
