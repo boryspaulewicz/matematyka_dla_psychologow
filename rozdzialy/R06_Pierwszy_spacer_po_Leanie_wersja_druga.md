@@ -1,10 +1,9 @@
 <br>
 
-U mojej córki (która jest zresztą moim ulubionym dzieckiem, a może wręcz ulubionym człowiekiem),
-mniej więcej od drugiego roku życia można było zauważyć wyraźne opóźnienie w rozwoju mowy. Dlatego
-od wczesnego dzieciństwa chodziła między innymi na dodatkowe zajęcia logopedyczne. W trakcie jednego
-ze spotkań z logopedką, która jej wtedy pomagała, dowiedziałem się, że dorosły człowiek może coś
-dobrze zapamiętać dopiero wtedy, kiedy powtórzy mu się to coś trzy razy.
+U mojej córki mniej więcej od drugiego roku życia można było zauważyć wyraźne opóźnienie w rozwoju
+mowy. Dlatego od wczesnego dzieciństwa chodziła między innymi na dodatkowe zajęcia logopedyczne. W
+trakcie jednego ze spotkań z logopedką, która jej wtedy pomagała, dowiedziałem się, że dorosły
+człowiek może coś dobrze zapamiętać dopiero wtedy, kiedy powtórzy mu się to coś trzy razy.
 
 Nie powiedziałem, że napisałem metateoretyczny doktorat na temat podstaw psychologii i że przez
 ponad dziesięć lat prowadziłem zajęcia między innymi z psychologii poznawczej, bo nie widziałem
@@ -18,37 +17,40 @@ praktyce chyba wcale nie tak rzadko użytecznej rady, przypominając po raz trze
 ## O czym teraz będzie
 
 Przypominam, że to jest alternatywna wersja *tego samego rozdziału*. Postanowiłem napisać dwie
-wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia kolejne rozdziały, będzie zależało w
-znacznym stopniu od tego, jak dobrze uda mi się wytłumaczyć to, co omawiam tutaj. Dlatego być może
-dobrze będzie, jeśli przynajmniej zerkniesz do poprzedniej wersji po tym, jak przeczytasz tą.
+wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia kolejne rozdziały będzie zależało w
+znacznym stopniu od tego, jak dobrze uda mi się wytłumaczyć to, co omawiam tutaj. Dlatego może choć
+raz zerknij do poprzedniej wersji po tym, jak przeczytasz tą.
 
 Gdy już objaśnię ogólną strukturę i sposób działania funkcji w Leanie, w następnych rozdziałach
-pokażę Ci, że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator* (chodzi o spójnik
-logiczny `∀`, który czytamy *dla każdego*) i niewiele będzie trzeba, żebyś zrozumiała, jak w logice
-konstruktywnej działa *implikacja* (chodzi o symbol `→`, który akurat w logice czytamy *jeżeli,
-to*), bo ta jest w logice konstruktywnej tylko pewnego rodzaju funkcją, a o funkcjach będziesz już
-wtedy wiedzieć sporo. Pozostałe standardowe *spójniki logiczne* (`∧`, `∨` i `∃`), za wyjątkiem
-*negacji* (`¬`), można również zdefiniować za pomocą funkcji/implikacji, a żeby z kolei zdefiniować
-negację, wystarczy użyć czegoś, co w pewnym sensie zachowuje się jak funkcja. Ale z powodów, które
-trudno mi teraz dobrze wytłumaczyć, te ostatnie spójniki wprowadzę znacznie później.
+pokażę Ci, że będziesz już właściwie wiedzieć, czym jest *duży kwantyfikator*, czyli spójnik
+logiczny `∀`, który czytamy jako *dla każdego*. I niewiele będzie trzeba, żebyś zrozumiała, jak w
+logice konstruktywnej działa *implikacja*, którą w logice czytamy jako *jeżeli, to* i oznaczamy
+nieprzypadkowo tym samym symbolem `→`, który w teorii typów oznacza typ funkcji. Ta zbieżność
+oznaczeń wynika stąd, że w logice konstruktywnej implikacja jest pewnego rodzaju funkcją. Pozostałe
+standardowe *spójniki logiczne* (`∧`, `∨` i `∃`), za wyjątkiem *negacji* (`¬`), można również
+zdefiniować za pomocą funkcji/implikacji, a żeby z kolei zdefiniować negację, wystarczy użyć czegoś,
+co w pewnym sensie zachowuje się jak funkcja. Ale z powodów, które trudno mi teraz dobrze
+wytłumaczyć, te ostatnie spójniki wprowadzę znacznie później. Zapowiadam to już teraz, żeby
+sygnalizując w jaki sposób to jest faktycznie droga na skróty i od podstaw zachęcić Cię do dalszej
+nauki matematyki przez opanowanie podstaw teorii typów.
 
 Ponieważ *predykaty* (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz,
 również funkcje, podobnie jak wszelkie relacje, które są zresztą uogólnionymi predykatami, ucząc się
-w ten sposób jednocześnie, zarazem na skróty i od podstaw, matematyki i programowania, stosunkowo
-szybko opanujesz podstawy *logiki predykatów*. W dodatku będzie to logika predykatów "bardzo
-wysokiego" rzędu, bo teoria typów pozwala kwantyfikować po termach dowolnego typu, a system typów
-tej teorii jest wyjątkowo bogaty. To narzędzie pozwoli Ci
+w ten sposób jednocześnie matematyki i programowania stosunkowo szybko opanujesz podstawy *logiki
+predykatów*. W dodatku będzie to logika predykatów "bardzo wysokiego" rzędu, bo teoria typów pozwala
+kwantyfikować po termach dowolnego typu, a system typów tej teorii jest wyjątkowo bogaty. Logika
+predykatów (a później też inne logiki) pozwoli Ci
 [prześlwietlać](https://www.youtube.com/watch?v=0pYyzolIN3I) strukturę nie tylko dowodów
 matematycznych, ale również, przynajmniej do pewnego stopnia, rozumowań zapisanych w języku
 naturalnym.
 
-Między innymi właśnie rachunek predykatów będziesz mogła później stosować do głównego rozumowania w
-swojej pracy semestralnej, pracy magisterskiej, doktoracie, albo artykule, lub do analizy -
-nierzadko strukturalnie dosyć prostych i jednocześnie zwykle zaskakująco (?) "dziurawych" -
-uzasadnień głównych wniosków w artykułach naukowych. Często nawet sama tylko *próba* przeprowadzenia
-takiej formalizacji pozwoli Ci wskazać, gdzie *dokładnie* są ewentualne *błędy logiczne* lub
-*kluczowe niejasności*. Celowo niedokończony i mam nadzieję, że interesujący przykład tego rodzaju
-zabawy znajdziesz [w jednym z następnych rozdziałów](./R12_Duzy_kwantyfikator.md).
+Między innymi właśnie rachunek predykatów będziesz mogła stosować do głównego rozumowania w swojej
+pracy semestralnej, pracy magisterskiej, doktoracie, albo artykule, lub do analizy - nierzadko
+strukturalnie dosyć prostych i jednocześnie po bliższym zbadaniu zaskakująco (?) "dziurawych" i
+"zagadkowych" - uzasadnień głównych wniosków w artykułach naukowych. Często nawet sama tylko *próba*
+przeprowadzenia takiej formalizacji pozwoli Ci wskazać, gdzie *dokładnie* są ewentualne *błędy
+logiczne* lub *kluczowe niejasności*. Celowo niedokończony i mam nadzieję, że interesujący przykład
+tego rodzaju zabawy znajdziesz [w jednym z następnych rozdziałów](./R12_Duzy_kwantyfikator.md).
 
 <hr>
 
