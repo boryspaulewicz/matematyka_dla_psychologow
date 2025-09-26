@@ -7,31 +7,32 @@
 
 ## O czym teraz będzie
 
-Ten i następne dwa rozdziały mają charakter w pewnym sensie bazowy, dlatego nie można ich za bardzo
-lekceważyć. Będą się w nich działy rzeczy moim zdaniem ciekawe, a czasem też, mam nadzieję, zabawne,
-uprzedzam jednak, że ciekawsze i dziwniejsze rzeczy zaczną się na dobre dziać dopiero w rozdziale
-siódmym. Zaczniemy wtedy wreszcie ćwiczyć pewien szczególny sposób myślenia, polegający na
-żonglowaniu różnymi dobrze określonymi punktami widzenia na to samo.
+Ten i następne dwa rozdziały mają charakter bazowy. Będą się w nich działy rzeczy moim zdaniem
+ciekawe, a czasem też, mam nadzieję, zabawne; jednak uprzedzam, że ciekawsze rzeczy zaczną się na
+dobre pojawiać dopiero w rozdziale siódmym. Zaczniemy wtedy ćwiczyć pewien szczególny sposób
+myślenia, polegający na "kontrolowanym żonglowaniu" różnymi dobrze określonymi punktami widzenia na
+to samo.
 
 W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
 wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
 *funkcje anonimowe*. Zwrócę Twoją uwagę na *naturalność* i *prostotę składni* tego języka, a także
-powiem o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku proces *ewaluacji*, a
-dokładnie *ewaluacji aplikacji*. Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten
-proces przebiega, pozwoli Ci lepiej zrozumieć *mechanikę* działania teorii typów, a dzięki temu czuć
-się bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe
-rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między
-innymi dlatego, że - jak już nie raz wspominałem - będę się do znudzenia powtarzał.
+powiem trochę o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku (nieco go
+upraszczając) proces *ewaluacji*, a dokładnie *ewaluacji aplikacji* (funkcji do jakiś
+argumentów). Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, jak ten proces przebiega,
+pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a dzięki temu czuć się bardziej
+pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe rodzaje
+struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między innymi
+dlatego, że będę się do znudzenia powtarzał.
 
 Ponieważ najtrudniejszymi częściami obydwu rozdziałów są fragmenty dotyczące *curryingu*, to jest
-sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, omówię
-szczegółowo kilka prostych przykładów funkcji i zaproponuję Ci wykonanie niezbyt skomplikowanych i
-moim zdaniem wskazanych na tym etapie zadań.
+sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, zanim dotrę do
+tego tematu omówię szczegółowo kilka prostych przykładów funkcji i zaproponuję Ci wykonanie niezbyt
+skomplikowanych i moim zdaniem wskazanych na tym etapie zadań.
 
 Jednym z ważniejszych aspektów uczenia się czegoś nowego jest stopniowe przyzwyczajenie się do
-znaczeń terminów technicznych. Dzięki temu będzie Ci łatwiej zrozumieć, o czym będę mówił. Z
-niektórymi takimi terminami zapoznasz się tak zwaną (przeze mnie od dzisiaj) metodą mimowolnego
-oswojenia, bo nie będę ich od razu objaśniał, tylko pokażę Ci, jak się ich używa.
+znaczeń terminów technicznych. Z niektórymi takimi terminami zapoznasz się tak zwaną (przeze mnie od
+dzisiaj) metodą mimowolnego oswojenia, bo nie będę ich od razu objaśniał, tylko pokażę Ci, jak się
+ich używa.
 
 <hr>
 
@@ -41,32 +42,30 @@ Ponieważ są tak ważne, treści, o których będziesz się uczyła w tym rozdz
 tylko inaczej, w rozdziale następnym. Dzięki temu mam nadzieję ułatwić Ci *aktywne powtarzanie
 materiału*. Gdy więc czytając ten rozdział i wykonując polecenia poczujesz, że utknęłaś, być może
 znajdziesz poprawne rozwiązanie, albo zaczniesz lepiej rozumieć, jak je znaleźć, w trakcie czytania
-tej następnej części.
+drugiej wersji tego rozdziału.
 
 Mówiąc ogólnie, w przypadku utknięcia sugeruję chwilowo *pozbyć się ambicji i czytać bez wstydu*,
-albo zrobić sobie *przerwę* i spróbować później, albo *wrócić* do wcześniejszych wyjaśnień. Moim
-zdaniem najważniejsze w tym wszystkim jest *unikanie frustracji*. A żeby jej unikać, trzeba najpierw
-zacząć *zwracać na nią uwagę* i chyba właśnie to jest w tym najturdniejsze.
-
-Zawsze możesz też zadać mi pytanie mailem (borys.paulewicz@gmail.com). Na pewno się ucieszę i jeśli
-tylko nie odłożę odpowiedzi z powodu braku czasu, przez co później o niej zapomnę, co mi się
+albo zrobić sobie *przerwę*, albo *wrócić do wcześniejszych wyjaśnień*. Moim zdaniem najważniejsze w
+tym wszystkim jest *unikanie frustracji*. A żeby jej unikać, trzeba najpierw zacząć *zwracać na nią
+uwagę*. Zawsze możesz też zadać mi pytanie mailem (borys.paulewicz@gmail.com). Na pewno się ucieszę
+i jeśli tylko nie odłożę odpowiedzi z powodu braku czasu, przez co później o niej zapomnę, co mi się
 niestety zdaża, to spróbuję pomóc. Gdybym nie odpowiedział w ciągu kilku dni, nie obrażę się, jeśli
 napiszesz znowu.
 
 Zależy mi na tym, żeby zwłaszcza te pierwsze rozdziały były dopasowane do możliwości większości
-studentów a nawet *uczniów liceum*, dlatego będę bardzo wdzięczny za informacje o pojawiających się
+studentów a nawet *uczniów liceum*, dlatego będę wdzięczny za informacje o pojawiających się
 trudnościach. Przydadzą mi się między innymi uwagi w rodzaju "ten fragment był dla mnie wyraźnie
 trudniejszy niż poprzedni", albo "to zdanie było tak długie, że musiałam je przeczytać kilka razy",
 albo "ten fragment jest moim zdaniem niepotrzebny", albo "wolałabym, żeby to było wytłumaczone
 bardziej szczegółowo", albo "czytając ten fragment zastanawiałam się kilka razy, czy...".
 
 Tylko proszę, jeśli napiszesz, nie zwracaj się do mnie per Panie Doktorze. Wiem, że studenci tak
-robią z dobrej woli i że pracownicy uczelni czasem tego oczekują, ale moim zdaniem, zwłaszcza w
+robią z dobrej woli i że pracownicy uczelni często tego oczekują, ale moim zdaniem, zwłaszcza w
 dyscyplinach takich jak psychologia, takie tytuły są nie tylko śmieszne, ale mogą też utrudniać
-przyjęcie krytycznej postawy wobec tego, co jakiś Doktor albo Profesor opowiada. Dlatego między
-innymi piszę tą książkę niemal na żywo. Dzięki temu możesz się sama przekonać, jak dzięki temu sam
-się pewnych rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Z tego samego powodu
-próbuję też pisać tak, jakbym z Tobą *rozmawiał*, bo według mnie to *powinna* być rozmowa.
+przyjęcie krytycznej postawy wobec tego, co taki lub inny Doktor czy Profesor opowiada. Dlatego
+między innymi piszę tą książkę niemal na żywo. Dzięki temu możesz się sama przekonać, jak dzięki
+temu sam się pewnych rzeczy uczę i jak całość wyłania się stopniowo niemal z niczego. Z tego samego
+powodu próbuję też pisać tak, jakbym z Tobą *rozmawiał*, bo według mnie to *powinna* być rozmowa.
 
 **Polecenie**: Korzystając z dowolnej przeglądarki wejdź na stronę:
 
@@ -84,9 +83,9 @@ strony, a po uruchomieniu skorzystać z instrukcji, które znajdziesz
 
 Ostrzegam, że błędy będą się pojawiać, ponieważ jesteś (zgaduję)
 [człowiekiem](https://www.youtube.com/watch?v=UVL186zzOXo). Gdy pojawi się błąd, Lean Cię o tym
-powiadomi podkreślając go czerwoną falką. Na początku najczęściej będzie to jakaś literówka. Czasami
+powiadomi podkreślając go czerwoną falką. Na początku najczęściej to będzie *literówka*. Czasami
 samo miejsce, w którym pojawi się czerwona falka, pozwoli Ci szybko zauważyć, co należy zmienić, ale
-nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po prawej
+nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojawi się w panelu po prawej,
 i spróbuj ustalić, na czym polega problem.
 
 Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że czasem warto, żebyś przed
@@ -95,11 +94,11 @@ najpierw czegoś innego, ale w pewnym sensie zbliżonego.
 
 **Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest *zaprojektowanie
 nowego języka*, który pozwalałby w jednoznaczny, zwięzły i czytelny sposób zapisywać
-definicje. Zależałoby Ci wtedy pewnie na zapisaniu informacji, która pozwalałaby określić, jakie
-operacje z użyciem definiowanych stałych mają sens, a jakie nie mają. Byłoby też wskazane, żeby nie
-używać do tego symbolu równości (*=*), bo ten odgrywa a matematyce bardzo ważną rolę i mógłby się
-jeszcze przydać do czegoś innego, to jest do oznaczania "zwykłej" relacji równości, a nie *decyzji*,
-że jakieś wyrażenie *ma być* wartością jakiejś stałej, bo tak.
+definicje. Zależałoby Ci wtedy pewnie na jawnym wyrażeniu informacji, która pozwalałaby określić,
+jakie operacje z użyciem definiowanych stałych mają sens, a jakie nie mają. Byłoby też wskazane,
+żeby do definiowania nie używać symbolu równości (*=*), bo ten odgrywa a matematyce bardzo ważną
+rolę i mógłby się jeszcze przydać do czegoś innego, to jest do oznaczania "zwykłej" relacji
+równości, a nie *decyzji*, że jakieś wyrażenie *ma być* wartością jakiejś stałej, bo tak.
 
 Przydałoby się więc jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
 takie kojarzy się ze słowem *definicja*. Nie byłoby też źle, gdyby zapis informujący o operacjach,
@@ -114,39 +113,42 @@ małe kwadraty widoczne po prawej.
 def dziesiec : Nat := 10
 ```
 
-To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=` możemy czytać jako
-*niech będzie* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku
-stałej o *nazwie* `dziesiec`. Każda zdefiniowana stała ma jakiś *typ*. Na przykład, stała `dziesięć`
-ma typ `Nat` (`: Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość
-albo treść, to liczba, a mówiąc ogólnie *term* `10`.
+To jest *definicja*, co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=` **czytamy jako**
+*niech oznacza* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*, w tym wypadku
+stałej o *nazwie* `dziesiec`. Mówimy, że tym, co jest definiowane, są stałe, po prostu dlatego, że
+definicje są (w danym kontekście) ostateczne. W języku teorii typów każda zdefiniowana stała - tak
+jak w ogóle każde poprawne wyrażenie nazywane w tej teorii *termem* - ma jakiś *typ*. Na przykład,
+stała `dziesięć` ma typ `Nat` (`: Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji,
+czyli jej wartość albo treść, to liczba, a mówiąc ogólnie *term* `10`. A więc w teorii typów
+*definiujemy stałe, które stają się przez to termami, a każdy term ma określony typ*.
 
 Będę czasem pisał tak, jakby fragment kodu taki jak `dziesiec : Nat` pełnił rolę *rzeczownika* - na
 przykład, *stała `dziesiec : Nat` jest ...* to będzie inny sposób, żeby powiedzieć *stała `dziesiec`
-o typie `Nat` jest ...* - albo *zdania*, na przykład, *Jeżeli `dziesiec : Nat` ...*  to będzie inny
-sposób, żeby powiedzieć *Jeżeli stała `dziesiec` ma typ `Nat`...*. W obydwu przypadkach właściwa
-interpretacja będzie wynikała z kontekstu. Fragmenty tekstu takie jak *stała `dziesiec : Nat` jest
-...*, zapisane jednocześnie w dwóch językach, to jest naturalnym (*stała ... jest*) i *formalnym*
-(*`dziesiec : Nat`*), będę wprowadzał między innymi po to, żebyś mogła zauważyć, jak naturalna może
-być formalizacja w języku teorii typów.
+o typie `Nat` jest ...* - albo *zdania*, na przykład, *Jeżeli `dziesiec : Nat`, to ...*  to będzie
+inny sposób, żeby powiedzieć *Jeżeli stała `dziesiec` ma typ `Nat`, to ...*. W obydwu przypadkach
+właściwa interpretacja będzie wynikała z kontekstu. Fragmenty tekstu takie jak *stała `dziesiec :
+Nat` jest ...*, zapisane jednocześnie w dwóch językach, to jest naturalnym (*stała ... jest*) i
+*formalnym* (*`dziesiec : Nat`*), będę wprowadzał między innymi po to, żebyś mogła zauważyć i
+przyzwyczaić się do tego, jak naturalna może być formalizacja w języku teorii typów.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`, tak, żeby oznaczała
 liczbę `3`. Wystarczy skorzystać z `dziesiec` jako przykładu, zamieniając dwa elementy definicji,
-nazwę stałej i jej wartość. Jeżeli zobaczysz fragment podkreślony czerwoną falką, spróbuj
-wywnioskować na czym polega problem z komunikatu o błędzie.
+nazwę stałej i jej wartość, czyli ciało. Jeżeli zobaczysz fragment podkreślony czerwoną falką,
+spróbuj wywnioskować na czym polega problem z komunikatu o błędzie, który zobaczysz w panelu po
+prawej.
 
 **Polecenie**: Zmień swoją poprawną definicję stałej `trzy` na *błędną*, zastępując `3` (a więc
 *ciało* tej definicji, a nie nazwę definiowanej stałej) przez słowo `tszy`, bez cudzysłowów. Ta
 definicja będzie błędna nie dlatego, że to słowo zawiera błąd ortograficzny. Umieść kursor na słowie
 `tszy` i odczytaj komunikat o błędzie widoczny po prawej. Powinnaś wtedy zobaczyć komunikat `unknown
 identifier 'tszy'`, co oznacza, że Lean nie wie, czym jest `tszy`. Przekonasz się w ten sposób, że
-błędy to tylko okazja, żeby Lean mógł się wykazać i żebyś mogła nauczyć się robić coś trochę lepiej.
+błędy to tylko okazja, żeby Lean mógł się wykazać i żebyś mogła nauczyć się robić coś lepiej.
 
-W Leanie można definiować stałe wielu różnych typów, nie tylko liczbowych. Poniższy kod definiuje
-stałą o typie *tekstowym* (`String`), nazywanym przez informatyków typem *napisów*, *stałych
-łańcuchowych* lub [*literałów
+W Leanie można definiować stałe (nieskończenie) wielu różnych typów, nie tylko liczbowych. I tak,
+poniższy kod definiuje stałą o typie *tekstowym* (`String`), nazywanym przez informatyków typem
+*napisów*, *stałych łańcuchowych* lub [*literałów
 łańcuchowych*](https://pl.wikipedia.org/wiki/Litera%C5%82_%C5%82a%C5%84cuchowy) (to tylko różne
-nazwy na to samo). Zwróć proszę uwagę, że wartości zmiennych tekstowych muszą być otoczone
-cudzysłowami.
+nazwy na to samo). Zwróć proszę uwagę, że wartości tekstowe muszą być otoczone cudzysłowami.
 
 **Polecenie**: Skopiuj do Leana lub przepisz z pamięci:
 
@@ -167,30 +169,31 @@ kursor będzie się wtedy znajdował w linii, która zaczyna się od komendy `#e
 wartość wpisywanej stałej.
 
 Typ każdego poprawnego wyrażenia, w tym każdej zdefiniowanej wcześniej stałej, możemy sprawdzić za
-pomocą komendy `#check` (czyli *#sprawdź*):
+pomocą komendy `#check` (czyli *sprawdź*):
 
 ```lean
 #check dziesiec
 ```
 
-Po wpisaniu powyższego kodu zobaczysz po prawej, że stała `dziesiec` ma typ `Nat`, a więc jest
-liczbą naturalną. Możemy również użyć komendy `#check`, żeby sprawdzić, czy jakiś term ma jakiś
-*określony* typ. Na przykład, możemy sprawdzić, czy stała `dziesiec` ma również typ `String`
-sprawdzając poprawność *jawnego* typowania `(dziesiec : String)`:
+Po wpisaniu powyższego kodu nie zobaczysz (w panelu po prawej) *wartości* stałej `dziesiec`, ale
+zobaczysz, że stała `dziesiec` ma typ `Nat`, a więc (to, co ta stała oznacza) jest liczbą
+naturalną. Możemy również użyć komendy `#check`, żeby sprawdzić, czy jakiś term ma *określony* przez
+podane jawnie wyrażenie typ używając w tym celu *jawnego typowania*. Na przykład, w ten sposób
+możemy sprawdzić, czy stała `dziesiec` ma (również) typ `String`:
 
 ```lean
 -- Lean sygnalizuje błąd, ponieważ stała `dziesiec` ma z definicji typ `Nat`, a `Nat` i `String` to
 -- termy (jak również stałe) oznaczające różne typy. W ten sposób możemy sprawdzać, czy jakieś
--- wyrażenie ma określony typ.
+-- wyrażenie ma jakiś określony typ.
 #check (dziesiec : String)
 ```
 
-Teraz już wiesz, jak możesz definiować nowe stałe oznaczające liczby naturalne albo wartości
-tekstowe, jak możesz wyświetlać wartości dowolnych (poprawnych) wyrażeń, których wartości Lean
-potrafi wyświetlić (akurat z liczbami naturalnymi i wartościami tekstowymi radzi sobie bez pomocy),
-i jak możesz poznać typ dowolnego wyrażenia, albo upewnić się, czy jakieś wyrażenie ma typ określony
-przez jakieś inne wyrażenie. A jeżeli zdarzy Ci się zapomnieć, jak się robi którąkolwiek z tych
-rzeczy, zawsze będziesz mogła sobie to szybko przypomnieć zaglądając do tego rozdziału.
+Teraz już wiesz, jak możesz definiować stałe oznaczające liczby naturalne albo wartości tekstowe,
+jak możesz wyświetlać wartości dowolnych (poprawnych) wyrażeń, których wartości Lean potrafi
+wyświetlić (akurat z liczbami naturalnymi i wartościami tekstowymi radzi sobie bez pomocy), i jak
+możesz poznać typ dowolnego wyrażenia, albo upewnić się, czy jakieś wyrażenie ma typ określony przez
+jakieś inne wyrażenie. A jeżeli zdarzy Ci się zapomnieć, jak się robi którąkolwiek z tych rzeczy,
+zawsze będziesz mogła sobie to przypomnieć zaglądając do tego rozdziału.
 
 **Polecenie**: Za pomocą komendy `#check` sprawdź typ którejś ze zdefiniowanych dotąd stałych.
 
@@ -199,46 +202,48 @@ chcesz wartości. Nawet, jeżeli wydaje Ci się to zbyt proste, może warto to n
 zrobić, bo dzięki temu Lean zadomowi się bardziej "w Twoich palcach" i następne fragmenty kodu
 będziesz lepiej "czuć". 
 
-To jest trochę tak, jak z robieniem notatek. Sama czynność notowania mniej więcej na temat, nawet
-gdy wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje i wpływa na to, co
-później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie
-reagujemy. Głęboki wpływ takich pozornie pozbawionych większego znaczenia ćwiczeń na pamięć,
-percepcję i rozumienie wynika moim zdaniem stąd, że cały czas, nawet jeśli tylko częściowo
+To jest trochę tak jak z robieniem notatek. Sama czynność notowania mniej więcej na temat, nawet gdy
+wydaje się, że nic nie wnosi, zmienia sposób, w jaki przetwarzamy informacje i wpływa na to, co
+później pamiętamy, a przez to wpływa na to, jak postrzegamy podobne treści i jak na nie reagujemy. A
+jeżeli taka czynność wydaje się tak łatwa, że aż zbędna, to może nawet lepiej. Głęboki i
+jednocześnie łatwy do przeoczenia wpływ takich pozornie pozbawionych większego znaczenia ćwiczeń na
+pamięć, percepcję i *rozumienie* wynika moim zdaniem stąd, że cały czas, ale tylko częściowo
 świadomie, postrzegamy wszystko w kategoriach możliwych konsekwencji wykonywalnych sekwencji
-działań. A jeżeli taka czynność wydaje się tak łatwa, że aż zbędna, to może nawet lepiej.
+działań.
 
 ## Funkcje w Leanie
 
 Stałe, które do tej pory zdefiniowaliśmy, nie pozwalają nam za wiele *zrobić*. Najważniejszą częścią
-programów komputerowych nie są tego rodzaju stałe, tylko *funkcje*, rozumiane jako przepisy,
-algorytmy, albo efektywne procedury obliczeniowe, które już "coś zrobić" mogą. Żeby stworzyć
-definicje funkcji będziemy jawnie podawać ich typ, inaczej jawnie typować, tak jak wcześniej wprost
-napisaliśmy, że chcemy, aby stała `dziesiec` miała typ `Nat` (`dziesiec : Nat`).
+programów komputerowych nie są tego rodzaju "statyczne" konstrukcje, tylko *funkcje*, rozumiane jako
+przepisy, algorytmy, albo efektywne procedury obliczeniowe, które *w pewnym sensie* już "coś zrobić"
+mogą. Żeby stworzyć definicje funkcji będziemy jawnie podawać ich typ, inaczej jawnie typować, tak
+jak wcześniej wprost napisaliśmy, że chcemy, aby stała `dziesiec` miała typ `Nat` (`dziesiec :
+Nat`).
 
 **Uczenie się przez wcielenie się w rolę**: Wyobraź sobie teraz, że masz zaprojektować również
 składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji*
 rozumianych jako efektywne procedury obliczeniowe albo po prostu programy czy przepisy określające,
-jak można zrobić jeden term jakiegoś typu z jednego lub większej liczby termów niekoniecznie takich
-samych typów.
+jak *jeden* term określonego typu (rezultat działania funkcji) ma być zrobiony z jednego lub
+większej liczby termów określonych, niekoniecznie takich samych typów.
 
-Skoro definicje zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku wypadałoby może użyć
-słowa kluczowego `fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy
-również, żeby przypominały funkcje rozumiane tak, jak się je rozumie w matematyce, bo od pewnego
-momentu będziemy celowo ignorować występujące między nimi różnice.
+Skoro definicje zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku można by użyć słowa
+kluczowego `fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również,
+żeby przypominały funkcje rozumiane tak, jak się je rozumie w "bardziej tradycyjnej" matematyce, bo
+od pewnego momentu będziemy celowo ignorować występujące między nimi różnice.
 
 A "funkcje matematyczne" są często rozumiane jako abstrakcyjne "obiekty", które każdemu elementowi
-pewnego *zbioru*, nazywanego *dziedziną funkcji*, przyporządkowują dokładnie jeden element pewnego
-*niekoniecznie innego* zbioru, nazywanego jej *przeciwdziedziną*. Na przykład, ("matematyczna")
-funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do zbioru liczb
-rzeczywistych (... jak również jej przeciwdziedziną) *każdej* liczbie *x* należącej do tego zbioru
-przyporządkowuje *dokładnie jedną* wartość, daną przez wyrażenie *x \* x*.
+pewnego *zbioru*, nazywanego *dziedziną funkcji*, "abstrakcyjnie przyporządkowują" dokładnie jeden
+element pewnego *niekoniecznie innego* zbioru, nazywanego *przeciwdziedziną funkcji*. Na przykład,
+"matematyczna" funkcja kwadratowa ze zbioru liczb rzeczywistych (będącego jej dziedziną ...) do
+zbioru liczb rzeczywistych (... jak również jej przeciwdziedziną) *każdej* liczbie *x* należącej do
+tego zbioru przyporządkowuje (chociaż "nic nie robi") *dokładnie jedną* wartość, określoną przez
+wyrażenie *x \* x*.
 
 Ponieważ w języku, o którym teraz mówimy, to mają być jednak funkcje rozumiane jako *programy* (albo
 [algorytmy](https://pl.wikipedia.org/wiki/Algorytm)), chciałabyś też pewnie, żeby sposób ich
 zapisywania kojarzył się łatwo z *procesem przekształcania* zamiast z jakimś abstrakcyjnym i
-"bezcielesnym" przyporządkowaniem, i chciałabyś też może, żeby dało się w tym zapisie wyrazić,
-odpowiadający pojęciu dziedziny, wymagany *typ argumentu*. No to co byś wtedy powiedziała na to? (bo
-mi się wydaje, że trudno to zrobić prościej):
+"bezcielesnym" przyporządkowaniem. No to co byś wtedy powiedziała na to? (bo mi się wydaje, że
+trudno to zrobić prościej):
 
 ```lean
 -- (anonimowa) Funkcja kwadratowa ograniczona do liczb naturalnych jako program komputerowy:
@@ -246,17 +251,17 @@ fun (n : Nat) => n * n
 ```
 
 Tylko nie wklejaj tego akurat kodu do Leana, bo zobaczysz błąd. To jest poprawny *opis struktury
-funkcji*, ale to *nie* jest poprawny *samodzielny* fragment kodu (czyli term) w języku Lean. Nie
-wiem, czy się zgodzisz, ale moim zdaniem symbol `=>` bardziej kojarzy się z jakimś (fizycznym, bo
-przecież tylko takie istnieją) procesem niż na przykład `->`, choćby dlatego, że symbol `=>` jest
-bardziej "mięsisty".
+funkcji*, ale to *nie* jest poprawny *samodzielny* fragment kodu (czyli term) w języku Lean, ani tym
+bardziej w języku teorii typów, którego Lean jest wersją wzbogaconą. Nie wiem, czy się zgodzisz, ale
+moim zdaniem symbol `=>` bardziej kojarzy się z jakimś (fizycznym, bo przecież tylko takie istnieją)
+procesem niż na przykład symbol `->`, choćby dlatego, że symbol `=>` jest bardziej "mięsisty".
 
 Pozostaje jeszcze kwestia sposobu zapisywania typów tego rodzaju wyrażeń, a mówiąc dokładniej takich
 *termów złożonych*. Zgodzisz się chyba, że naturalnie byłoby oznaczać je w sposób, który mówi jaki
 jest typ argumentu (odpowiadający dziedzinie abstrakcyjnej funkcji matematycznej) i jaki jest typ
 rezultatu (odpowiadający przeciwdziedzinie abstrakcyjnej funkcji matematycznej), a przy tym kojarzy
 się łatwo z pojęciami przekształcania i przyporządkowywania. To może tak? (tego też nie wklejaj do
-Leana, to tylko ilustracja):
+Leana, bo to też jest tylko ilustracja):
 
 ```lean
 -- Typ funkcji, które w jakiś sposób przekształcają liczby naturalne w liczby naturalne
@@ -264,7 +269,7 @@ Nat → Nat
 ```
 
 Zwracam uwagę, że w opisie *struktury* funkcji występuje gruba strzałka (`=>`), a w opisie *typu*
-funkcji cienka (`→`).
+funkcji występuje cienka strzałka (`→`).
 
 **Polecenie**: Żeby wpisać w Leanie cienką strzałkę napisz `\to` i ulegnij olśnieniu. Gdy już
 ochłoniesz, usuń tą strzałkę, bo sama strzałka nie jest poprawnym fragmentem kodu.
@@ -281,7 +286,7 @@ W ten sposób możemy zdefiniować funkcję, która przyjmuje argument typu `Nat
 zwiększoną o *2*:
 
 ```lean
--- `Nat → Nat` oznacza typ funkcji, które pobierają dowolne argumenty typu `Nat` i zwracają rezultat
+-- `Nat → Nat` oznacza typ funkcji, które pobierają dowolny argument typu `Nat` i zwracają rezultat
 -- typu `Nat`.
 def dodaj2 : Nat → Nat := 
     -- `fun` to słowo kluczowe i jednocześnie skrót od *function*. W Leanie oznacza *funkcję
@@ -297,26 +302,35 @@ def dodaj2' := fun n => n + 2
 ```
 
 **Polecenie**: Funkcję `dodaj2` można zastosować do dowolnej liczby naturalnej, w tym również do
-stałej `dziesiec`, bo ta stała ma taki sam typ jak parametr czyli wejście funkcji `dodaj2`. Żeby to
-zrobić i jednocześnie obliczyć wynik, być może przyspieszając pisanie i jednocześnie zmniejszając
-ryzyko pojawienia się literówki za pomocą klawisza Tab, po wklejeniu lub przepisaniu powyższego kodu
+stałej `dziesiec`, bo ta stała ma taki sam typ jak parametr (czyli "wejście") funkcji `dodaj2`. Żeby
+to zrobić i jednocześnie obliczyć wynik - być może przyspieszając pisanie i zmniejszając ryzyko
+pojawienia się literówki za pomocą klawisza Tab - po wklejeniu lub przepisaniu powyższego kodu
 napisz Leanowi *z pamięci*:
 
 ```lean
 #eval dodaj2 dziesiec
 ```
 
-**Definicja aplikacji**: Samo *zestawienie* obok siebie funkcji i jakiegokolwiek wyrażenia, bez
-obliczania wyniku, również takie *błędne* zestawienie, nazywamy *aplikacją*. Na przykład, `dodaj2
-dziesiec` jest aplikacją, w dodatku poprawną, bo `dodaj2` wymaga jako argumentu dowolnego termu typu
-`Nat`, a stała `dziesiec` jest właśnie takim termem. Wyraźne odróżnienie aplikacji od ewaluacji może
-się wydawać zbędne, ale okaże się potrzebne między innymi podczas dowodzenia twierdzeń, kiedy to
-normą stanie się konstruowanie aplikacji, których *nie będziemy chcieli* ewaluować.
+**Definicja aplikacji**: Samo *zapisanie obok siebie* funkcji i jakiegokolwiek wyrażenia, bez
+obliczania wyniku, również takie *błędne* zestawienie, nazywamy *aplikacją*. Na przykład, zapis
+`dodaj2 dziesiec` jest aplikacją, w dodatku poprawną, bo `dodaj2` wymaga jako argumentu dowolnego
+termu typu `Nat`, a stała `dziesiec` jest właśnie takim termem. 
 
-Zdefiniujemy teraz funkcję, która będzie dodawała *dwie* dowolne liczby naturalne. Zrobimy to w
-sposób, który pozwoli Ci zobaczyć, że takie funkcje w Leanie są tak naprawdę
-*jedno*argumentowe. Ponieważ to będzie **najtrudniejsza** część tego rozdziału, wyjaśnię jak to
-działa na kilka sposobów. 
+Ten zapis *jest i nie jest* liczbą `12`, zależnie od tego, jak na niego spojżeć. Z jednej strony (i
+w pewnym sensie) ten zapis *oznacza* liczbę `12`, i dlatego (w tym sensie) można powiedzieć, że nią
+jest. Z drugiej strony, liczba `12` jest czymś, co *uzyskujemy na skutek ewaluacji* tego zapisu (a
+mówiąc dokładniej na skutek zastosowania funkcji `dodaj2` do termu `2`), a więc coś się musi
+wydarzyć, żeby ta liczba się tu "pojawiła", czyli to nie jest to samo. Jak się być może domyślasz,
+ta różnica ma czasem znaczenie, a czasem nie. Wyraźne odróżnienie *aplikacji*, czyli samego
+*zestawienia* funkcji z jej argumentami, od *ewaluacji*, czyli tak lub inaczej rozumianego
+"obliczenia" wartości wyrażenia, może się wydawać zbędne, ale okaże się potrzebne między innymi
+podczas dowodzenia twierdzeń, kiedy to normą stanie się konstruowanie aplikacji, których *nie
+będziemy chcieli* ewaluować.
+
+Funkcja `dodaj2` jest ewidentnie *jedno*argumentowa. Zdefiniujemy teraz funkcję, która będzie
+dodawała *dwie* dowolne liczby naturalne i zrobimy to w sposób, który pozwoli Ci zobaczyć, że takie
+funkcje w Leanie też są tak naprawdę *jedno*argumentowe. Ponieważ to będzie **najtrudniejsza** część
+tego rozdziału, wyjaśnię jak to działa na kilka sposobów.
 
 **Jak do tego podejść**: *Zalecam teraz uzbroić się w cierpliwość i czytać dalej, nawet jeżeli
 będziesz miała poczucie, że "tego wszystkiego" jest na raz za dużo. "To wszystko" stanie się w miarę
@@ -339,7 +353,7 @@ potem powiem Ci, jak ewaluuje aplikację funkcji `plus` do termów `1` i `2`. Ni
 kodu, to tylko ilustracja.
 
 ```lean
--- Żeby ewaluować aplikację `dodaj2 2`, Lean ewaluuje, czyli redukuje do najprostszej postaci argument
+-- Żeby ewaluować aplikację `dodaj2 2`, Lean ewaluuje, czyli redukuje do najprostszej postaci, argument
 -- aplikacji. Cyfra `2` oznacza tutaj coś bardziej podstawowego, ale o tym powiem innym razem. Na razie
 -- będziemy udawać, że pod cyfrą `2` nie kryje się nic więcej.
 #eval dodaj2 2
@@ -347,21 +361,23 @@ kodu, to tylko ilustracja.
 -- Lean rozpakowuje również definicję stałej funkcyjnej, czyli tutaj stałej `dodaj2`. W rezultacie w miejscu
 -- `dodaj2` pojawia się *funkcja anonimowa*, bo już bez nazwy "dodaj2", to jest:
 -- `fun (moj_parametr : Nat) => moj_parametr + 2`
--- Żeby zapis był jednoznaczny, poniżej otoczyłem tą funkcję nawiasami.
+
+-- Po tym kroku ewaluacji zapis wygląda tak (żeby zapis był jednoznaczny, otoczyłem tą funkcję nawiasami):
 (fun (moj_parametr : Nat) => moj_parametr + 2) 2
 
 -- Lean odrzuca część przed symbolem `=>`, zostawiając tylko *ciało* funkcji ...
 moj_parametr + 2
+
 -- ... i *jednocześnie podstawia* zredukowaną wersję argumentu pod parametr funkcji w ciele funkcji,
 -- czyli w tym wypadku podstawia `2` pod *zmienną* `moj_parametr`:
 2 + 2
 ```
 
 **"Parametr" i "argument" to terminy techniczne oznaczające różne rzeczy**: Czy widzisz, że warto
-tutaj czasami używać innej nazwy - *parametr* - na to, co pojawia się po słowie `fun` (czyli tutaj
-na określenie tego, czy jest `moj_parametr`) i innej - *argument* - na to, co pojawia się jako drugi
+tutaj czasami używać innej nazwy - "parametr" - na to, co pojawia się po słowie `fun` (czyli tutaj
+na określenie tego, czy jest `moj_parametr`) i innej - "argument" - na to, co pojawia się jako drugi
 term w tej aplikacji (czyli na `2`)? Bez nazywania tych dwóch rzeczy za pomocą innych słów byłoby
-czasem trudno o tym mówić w sposób zrozumiały. 
+czasem trudno o tym mówić w sposób zrozumiały.
 
 *Parametry* są *własnościami* (albo częściami) *samych funkcji*, a *argumenty* są *własnościami
 aplikacji funkcji*. Inaczej mówiąc, parametry to *wejścia* funkcji, a argumenty to obiekty albo
@@ -370,11 +386,17 @@ określone (w ich definicjach) parametry i mają je niezależnie od tego, czy s�
 czegokolwiek aplikowane. Funkcje jako takie nie mają więc argumentów, bo argumenty są tylko
 (odpowiednimi) częściami *aplikacji* (jakiś) funkcji, a nie częściami funkcji.
 
-W praktyce często używamy terminów parametr i argument wymiennie, przy czym częściej pojawia się
-termin argument (na przykład, "ta funkcja ma argument liczbowy" zamiast "ta funkcja ma parametr
+*Zmienna* to natomiast oznaczone za pomocą nazwy parametru *miejsce w ciele funkcji*, po prawej od
+symbolu definiowania `:=`. Bo zmienne są czymś, pod co albo za co albo w miejsce czego można coś, to
+jest argument aplikacji funkcji odpowiadający parametrowi (czyli wejściu o tej samej nazwie co ta
+zmienna) *podstawiać*. Zmienne pełnią więc rolę *zaimków*. Ale nie próbuj tego na siłę od razu
+zapamiętać, bo jeszcze do tego nie raz wrócimy.
+
+W praktyce często używamy terminów "parametr" i "argument" wymiennie, przy czym częściej pojawia się
+termin "argument" (na przykład, "ta funkcja ma argument liczbowy" zamiast "ta funkcja ma parametr
 liczbowy"), ponieważ zwykle można łatwo wywnioskować z kontekstu, czy chodzi o
 parametr-jako-własność-funkcji, czy o argument-jako-własność-aplikacji (na przykład, gdy mówimy "ta
-funkcja ma argument liczbowy", ewidentnie chodzi o parametr).
+funkcja ma argument liczbowy" ewidentnie chodzi o parametr).
 
 ```lean
 -- `+` to także funkcja, tylko taka, której aplikację możemy zapisać w *notacji infiksowej*, inaczej
@@ -390,8 +412,8 @@ funkcja ma argument liczbowy", ewidentnie chodzi o parametr).
 
 Przypuszczam, że tego właśnie się mniej więcej spodziewałaś, tylko może sens tej operacji nie jest
 dla Ciebie jeszcze całkiem oczywisty, bo przysłaniają go moje (celowo!) rozwlekłe objaśnienia. Teraz
-pokażę Ci, jak przebiega ewaluacja bardziej skomplikowanej funkcji `plus` do argumentów `1` i
-`2`. Ten kod to również tylko ilustracja:
+pokażę Ci, jak przebiega ewaluacja bardziej skomplikowanej, bo (w pewnym sensie) dwuargumentowej
+funkcji `plus` do argumentów `1` i `2`. Ten kod to również tylko ilustracja:
 
 ```lean
 #eval plus 1 2
@@ -401,7 +423,8 @@ pokażę Ci, jak przebiega ewaluacja bardziej skomplikowanej funkcji `plus` do a
 (fun (pierwsza : Nat) => fun (druga : Nat) => pierwsza + druga) 1 2
 
 -- Drugi krok to odczepienie ciała ...
-(fun (druga : Nat) => pierwsza + druga) 
+(fun (druga : Nat) => pierwsza + druga)
+
 -- ... i jednocześnie podstawienie argumentu `1` pod zmienną `pierwsza`, będącą parametrem
 -- ewaluowanej w tym kroku aplikacji. W ten sposób za każdym razem, gdy funkcja `plus` dostaje
 -- pierwszy argument (typu `Nat`), ta funkcja tworzy nową funkcję albo nową wersję funkcji, którą
@@ -411,16 +434,18 @@ pokażę Ci, jak przebiega ewaluacja bardziej skomplikowanej funkcji `plus` do a
 -- Ponieważ uzyskujemy w ten sposób kolejną aplikację, trzeci krok to również ewaluacja aplikacji, a
 -- więc kolejne odczepienie ciała ...
 1 + druga
+
 -- ... i jednocześnie podstawienie, tym razem argumentu `2` pod zmienną `druga`, będącą parametrem
 -- ewaluowanej w tym kroku aplikacji:
 1 + 2
 
--- Ewaluacja postępuje dalej w ten sam sposób, aż nie zostanie nic, co  można i warto zredukować.
+-- Ewaluacja postępuje dalej w ten sam sposób, aż nie zostanie nic, co można i warto zredukować.
 ```
 
-Napisałem "można i *warto*", ponieważ na przykład symbol `2` można zredukować do czegoś, co się pod
-nim kryje, ale zwykle nie warto, bo wygodniej jest zapisywać liczby naturalne za pomocą cyfr. A
-teraz jeszcze raz to samo, ale tym razem bez komentarzy i bez zapisywania w osobnej linijce
+Napisałem "można i *warto*", ponieważ na przykład symbol `2` *można* w Leanie zredukować do czegoś,
+co się pod nim kryje (następna liczba naturalna po następnej liczbie naturalnej po liczbie
+naturalnej zero), ale zwykle *nie warto*, bo wygodniej jest zapisywać liczby naturalne za pomocą
+cyfr. A teraz jeszcze raz to samo, ale tym razem bez komentarzy i bez zapisywania w osobnej linijce
 odczepianego ciała (to też tylko ilustracja, a nie poprawny kod):
 
 ```lean
@@ -441,11 +466,16 @@ odczepianego ciała (to też tylko ilustracja, a nie poprawny kod):
 ```
 
 Czy widzisz, jak kolejne argumenty, tak jakby "przechodząc" przez odpowiednie wejścia/parametry,
-"wskakują" na właściwe miejsca w ciele funkcji? Teraz mogę już chyba wyjaśnić, że wyrażenie `1 + 2`
-jest zastępowane przez aplikację `Nat.add 1 2`, bo w tym kontekście `+` to tylko inny sposób
-zapisania dostępnej w Leanie funkcji `Nat.add`, która obsługuje dodawanie liczb naturalnych. Pokażę
-Ci jeszcze raz to samo, ale używając notacji, którą chętnie stosują matematycy. Dla uproszczenia
-pominę jednak typy parametrów.
+"wskakują" na właściwe miejsca w ciele funkcji, oznaczone nazwami tych parametrów? Warto choć raz
+spróbować sobie wyobrazić, że między parametrem, takim jak `(pierwsza : Nat)`, a wystąpieniem tej
+samej nazwy (tutaj `pierwsza`) w ciele funkcji istnieje coś w rodzaju niewidocznego przewodu.
+Gdybyśmy mogli zapisywać jakoś takie przewody w kodzie nazwy parametrów i zmiennych byłyby zbędne,
+bo te przewody służyłyby tak samo dobrze do tego samego celu.
+
+Teraz mogę już chyba wyjaśnić, że wyrażenie `1 + 2` jest zastępowane przez aplikację `Nat.add 1 2`,
+bo w tym kontekście `+` to tylko inny sposób zapisania dostępnej w Leanie funkcji `Nat.add`, która
+"obsługuje" dodawanie liczb naturalnych. Pokażę Ci jeszcze raz to samo, ale używając notacji, którą
+chętnie stosują matematycy. Dla uproszczenia pominę jednak typy parametrów.
 
 Funkcje anonimowe, takie jak `fun (moj_parametr : Nat) => moj_parametr + 2`, nazywamy również
 *λ-abstrakcjami*. Lean wie o tej konwencji i pozwala zamiast `fun` napisać `λ`. Jeżeli chcesz
@@ -461,7 +491,8 @@ anonimowej (bo bez nazwy "dodaj2") wersji funkcji `dodaj2` ...
 
 *x + 2*
 
-... i podstawieniu argumentu pod zmienną *x*, będącą parametrem/wejściem aplikowanej λ-abstrakcji:
+... i podstawieniu argumentu pod zmienną *x*, będącą (połączeniem z) parametrem/wejściem aplikowanej
+λ-abstrakcji:
 
 *2 + 2*
 
@@ -473,10 +504,10 @@ Ewaluacja aplikacji anonimowej wersji funkcji `plus` do liczb *1* i *2* ...
 
 *(λ y . x + y)*
 
-... i podstawieniu argumentu pod zmienną *x*, będącą parametrem zewnętrznej λ-abstrakcji. W ten
-sposób z ciała zewnętrznej λ-abstrakcji powstaje wersja funkcji *(λ y . x + y)* wyspecjalizowana w
-ten sposób, że zamiast *x* jest *1*, a cała początkowa aplikacja *(λ x . (λ y . x + y)) 1 2* zostaje
-w tym kroku zredukowana do postaci:
+... i podstawieniu argumentu pod zmienną *x*, będącą (połączeniem z) parametrem zewnętrznej
+λ-abstrakcji. W ten sposób z ciała zewnętrznej λ-abstrakcji powstaje wersja funkcji *(λ y . x + y)*
+wyspecjalizowana w ten sposób, że zamiast *x* jest *1*, a cała początkowa aplikacja *(λ x . (λ y
+. x + y)) 1 2* zostaje w tym kroku zredukowana do postaci:
 
 *(λ y . 1 + y) 2*
 
@@ -528,17 +559,17 @@ właśnie typ stałej `plus` to `Nat → (Nat → Nat)`.
 
 Nawiasy w `Nat → (Nat → Nat)` nie są konieczne, bo w Leanie *strzałka wiąże z prawej*. Gdyby nie
 konwencja, którą stosuje Lean, zapis `Nat → Nat → Nat` byłby problematycznie wieloznaczny, ponieważ
-nie byłoby wiadomo, czy chodzi o `(Nat → Nat) → Nat` czy o `Nat → (Nat → Nat)`, a to *nie to samo*;
-`(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają (jakiekolwiek) *funkcje*
-typu `Nat → Nat` w liczby naturalne, a `Nat → (Nat → Nat)` to typ (jakichkolwiek) funkcji, które
-przekształcają (dowolne) *liczby naturalne* w *funkcje* typu `(Nat → Nat)`.
+nie byłoby wiadomo, czy chodzi o `(Nat → Nat) → Nat` czy o `Nat → (Nat → Nat)`, a to *nie to samo*:
+`(Nat → Nat) → Nat` to typ (jakichkolwiek) funkcji, które przekształcają *funkcje* typu `Nat → Nat`
+w liczby naturalne, a `Nat → (Nat → Nat)` to typ (jakichkolwiek) funkcji, które przekształcają
+*liczby naturalne* w *funkcje* typu `(Nat → Nat)`.
 
-Mówiąc ogólnie, to, że w Leanie strzałka wiąże z prawej, oznacza, że dla dowolnych typów `A`, `B` i
-`C`, zapis `A → B → C` Lean interpretuje jako `A → (B → C)`, a więc `Nat → Nat → Nat` interpretuje
-jako `Nat → (Nat → Nat)`. Zapisałem to wprost, nie polegając na tej konwencji i zamiast tego
-używając nawiasów, żebyś nie musiała się tego od razu domyślać.
+Mówiąc ogólnie, to, że w Leanie strzałka wiąże z prawej oznacza, że dla dowolnych (być może
+złożonych) typów `A`, `B` i `C`, zapis `A → B → C` Lean interpretuje jako `A → (B → C)`, a więc `Nat
+→ Nat → Nat` interpretuje jako `Nat → (Nat → Nat)`. Zapisałem to wprost, nie polegając na tej
+konwencji i zamiast tego używając nawiasów, żebyś nie musiała się tego od razu domyślać.
 
-Lean pozwala na zapis skrótowy między innymi w takim stylu (to tylko *alternatywne sposoby*
+Lean pozwala również na zapis skrótowy między innymi w takim stylu (to tylko *alternatywne sposoby*
 zapisania *tej samej* definicji) ...
 
 ```lean
@@ -572,9 +603,9 @@ def plus (pierwsza : Nat) (druga) := pierwsza + druga
 ```
 
 ... ale w takim już *nie*, bo symbol `+` ma *w pewnym sensie* (wyjaśnię w jakim znacznie później,
-gdy będę mówił o *klasach typów*) wiele definicji (dla różnych typów liczbowych, takich jak liczby
-naturalne, całkowite, wymierne i rzeczywiste) i widoczna poniżej, zbyt skrótowa wersja nie pozwala
-Leanowi wywnioskować, którą definicję wybrać:
+gdy będę mówił o *wieloznaczności* w matematyce i *klasach typów*) wiele definicji (dla różnych
+typów liczbowych, takich jak liczby naturalne, całkowite, wymierne i rzeczywiste), a widoczna
+poniżej definicja nie pozwala automatycznie wywnioskować, którą wersję wybrać:
 
 ```lean
 -- Ta definicja jest zapisana zbyt skrótowo i dlatego *błędna*, bo nie pozwala Leanowi automatycznie
@@ -605,25 +636,26 @@ def plus : Nat → (Nat → Nat) := fun (pierwsza : Nat) => (fun (druga : Nat) =
 -- To tylko różne sposoby zapisania tej samej definicji.
 ```
 
-Czy zaaczynasz już widzieć, że zapisywanie parametrów w nawiasach zaraz po nazwie definiowanej
-funkcji to tylko skrótowy sposób zapisania λ-abstrakcji?
+Czy zaczynasz już widzieć, że zapisywanie parametrów w nawiasach zaraz po nazwie definiowanej
+funkcji a przed symbolem definiowania `:=` to tylko skrótowy sposób zapisania λ-abstrakcji?
 
-**Polecenie**: Stosując wygodny *skrótowy* zapis definicji funkcji, zdefiniuj funkcję `plusplus`,
-pobierającą *trzy* argumenty typu `Nat`, każdy o innej nazwie (muszą mieć inne nazwy), i dodającą je
-do siebie. Sprawdź typ zdefiniowanej w ten sposób stałej `plusplus` za pomocą komendy
-`#check`. Zobaczysz wtedy po prawej jeszcze bardziej skrótowy sposób zapisu parametrów.
+**Polecenie**: Stosując wygodny *skrótowy* zapis, zdefiniuj funkcję `plusplus`, pobierającą *trzy*
+argumenty typu `Nat`, każdy o innej nazwie (muszą mieć inne nazwy), i dodającą je do siebie. Sprawdź
+typ zdefiniowanej w ten sposób stałej `plusplus` za pomocą komendy `#check`. Zobaczysz wtedy po
+prawej jeszcze bardziej skrótowy sposób zapisu parametrów. 
 
-Można tu użyć tego jeszcze bardziej skrótowego zapisu, bo sąsiadujące parametry funkcji `plusplus`
-mają ten sam typ i Lean może wywnioskować, o co chodzi, gdy tak to zapiszemy. Usuń więc definicję,
-którą właśnie napisałaś i napisz ją jeszcze raz, ale tym razem stosując ten nowy, jeszcze bardziej
-skrótowy zapis parametrów. Na koniec ewaluuj aplikację funkcji `plusplus` do dowolnych trzech liczb
-naturalnych.
+Polega on na tym, że nazwy parametrów są zapisane jedna obok drugiej między tą samą parą nawiasów, a
+typ jest zapisany tylko raz, od razu dla wszystkich parametrów. Można tu użyć tego jeszcze bardziej
+skrótowego zapisu, bo *sąsiadujące* parametry funkcji `plusplus` mają *ten sam typ*, dzięki czemu
+Lean może wywnioskować o co chodzi. Usuń więc definicję, którą właśnie napisałaś i napisz ją jeszcze
+raz, ale tym razem stosując ten nowy zapis skrótowy. Na koniec ewaluuj aplikację funkcji `plusplus`
+do dowolnych trzech liczb naturalnych.
 
 ## Częściowe aplikacje
 
-Ponieważ funkcja `plus` to tak naprawdę funkcja, która zwraca (w tym wypadku tworzoną przez siebie)
-funkcję, możemy ją aplikować do *jednego* argumentu, na przykład do termu `3`. Uzyskamy w ten sposób
-nie liczbę naturalną, tylko funkcję jednoargumentową, która do dowolnej liczby naturalnej zawsze
+Ponieważ funkcja `plus` to tak naprawdę funkcja, która zwraca tworzoną przez siebie funkcję, możemy
+aplikować funkcję `plus` do *jednego* argumentu, na przykład do termu `3`. Wartością tej aplikacji
+nie będzie liczba naturalna, tylko *funkcja* (jednoargumentowa), która do dowolnej liczby naturalnej
 dodaje `3` (ilustracja):
 
 ```lean
@@ -636,35 +668,51 @@ plus 3
 -- ... a to redukuje się (a więc też *tym jest*) do tego ...
 (fun (druga : Nat) => 3 + druga)
 
--- ... a więc do (anonimowej) funkcji, która do dowolnej liczby naturalnej zawsze dodaje `3`.
+-- ... a więc do funkcji, która do dowolnej liczby naturalnej dodaje `3`.
 ```
 
-Nie możemy *ewaluować* takiej częściowej aplikacji, bo Lean *nie potrafi* bez naszej pomocy
-*wyświetlić funkcji*, która w ten sposób powstaje. Możemy jednak *zapisać* tą funkcję/rezultat
-częściowej aplikacji jako ciało definicji stałej, na przykład o nazwie `dodaj3`. Ta stała będzie
-miała wtedy typ `Nat → Nat` (już wiesz, dlaczego ta stała będzie miała ten typ, prawda?):
+Ponieważ rezultatem tej częściowej aplikacji jest *funkcja*, to możemy *aplikować tą częściową
+aplikację* do dowolnej liczby naturalnej. W istocie to właśnie robimy, gdy piszemy na przykład `plus
+3 2`, bo to wyrażenie nie oznacza *tak naprawdę* aplikacji funkcji `plus` do dwóch argumentów, tylko
+`(plus 3) 2` (właśnie dlatego w Leanie *aplikacje* wiążą *z prawej*), czyli aplikację do liczby `2`
+(będącego funkcją) rezultatu aplikacji funkcji `plus` do liczby `3`. Tak jak w przypadku każdego
+innego termu, czyli poprawnego wyrażenia teoriotypowego, możemy też *zapisać* tą częściową aplikację
+jako ciało definicji jakiejś stałej, na przykład stałej o nazwie `dodaj3`. Ta stała będzie miała
+wtedy typ `Nat → Nat` (już wiesz, dlaczego ta stała będzie miała ten typ, prawda?):
 
 ```lean
--- Ten kod możesz skopiować, bo jest poprawny, zakładając, że stała `plus` jest zdefiniowana zgodnie
--- z wcześniejszym poleceniem. W ten sposób `dodaj3` staje się *funkcją, która powstaje z aplikacji
--- funkcji `plus` do liczby 3*. Ponieważ funkcja `plus` jest dwuargumentowa, aplikacja `plus 3`
--- "czeka" na drugi argument. Mówiąc dokładniej, ta aplikacja jest (po zredukowaniu) funkcją
--- powstającą przez podstawienie `3` pod zmienną `pierwsza` w "wewnętrznej" funkcji ...
+-- Ponieważ funkcja `plus` jest (jakby) dwuargumentowa, aplikacja `plus 3` "czeka" na drugi argument.
+-- Mówiąc dokładniej, ta aplikacja jest (po zredukowaniu/ewaluacji) funkcją powstającą przez podstawienie
+-- `3` pod zmienną `pierwsza` w "wewnętrznej" funkcji ...
 -- `fun (druga : Nat) => pierwsza + druga` 
 -- ... czyli jest funkcją:
 -- `fun (druga : Nat) => 3 + druga`
 
+-- Ten kod możesz skopiować, bo jest poprawny, zakładając, że stała `plus` jest zdefiniowana zgodnie
+-- z wcześniejszym poleceniem. W ten sposób `dodaj3` staje się *funkcją, która powstaje z aplikacji
+-- funkcji `plus` do liczby 3*:
+def dodaj3 : Nat → Nat := plus 3
+
+-- Równie dobrze, korzystając z przestawialności dwukropka, mogliśmy zapisać tą definicję tak:
+def dodaj3' (n : Nat) := plus 3 n
+
 -- Funkcję `dodaj3` możemy stosować tak samo, jak każdą inną:
-#eval dodaj3 3 -- 6
-#check dodaj3  -- dodaj3 : Nat → Nat
+#eval  dodaj3 3 -- `6`
+#check dodaj3   -- `dodaj3 : Nat → Nat`
 ```
 
+Co ciekawe, samej częściowej aplikacji `plus 3` nie możemy *ewaluować*, bo Lean nie potrafi bez
+naszej pomocy *wyświetlać funkcji*, tak jak wyświetla na przykład (w panelu po prawej) wartości
+liczbowe albo tekstowe.
+
 **Polecenie dla ambitnych**: Jeżeli już na typ etapie czujesz, że możesz sobie z tym poradzić,
-spróbuj zrobić coś podobnego jak to, co zrobiłem z częściową aplikacją funkcji `plus`, ale użyj do
-tego zdefiniowanej wcześniej funkcji `plusplus`. Można to zrobić na wiele sposobów, nie szukaj więc
-jakiegoś *jedynego* dobrego rozwiązania, bo takiego nie ma. Gdyby pojawił się błąd, przeczytaj
-komunikat i sprawdź, czy nie dostarcza Ci wskazówki, dzięki której mogłabyś go usunąć. Jeżeli to
-polecenie okażę się za trudne, nie przejmuj się tym, po pewnym czasie stanie się dziecinnie łatwe.
+spróbuj zrobić coś podobnego do tego, co zrobiłem z częściową aplikacją funkcji `plus`, ale użyj
+zdefiniowanej wcześniej funkcji `plusplus`. Gdyby pojawił się błąd, *przeczytaj komunikat*
+(początkujący chyba często wpadają w lekką panikę widząc komunikaty o błędzie). Jeżeli to polecenie
+okażę się zbyt trudne, zamiast się tym przejmować spróbuj to może *docenić*. Będzie to przecież
+znaczyło, że możesz nauczyć się czegoś na tyle dla Ciebie *nowego*, że aż początkowo trudnego, a gdy
+*nieuchronnie* po pewnym czasie to coś stanie się dla Ciebie łatwe, to z kolei będzie znaczyło, że
+Twoja wiedza i umiejętności znacznie wzrosły.
 
 **Polecenie dla nadmiernie ambitnych**: Zdefiniuj i zastosuj funkcję, która pobiera dwa argumenty:
 
@@ -673,17 +721,18 @@ tego typu, anonimową lub będącą wartością jakiejś stałej.
 
 2. Term typu `Nat`.
 
-Definiowana przez Ciebie funkcja ma w swoim ciele stosować swój pierwszy argument, czyli wartość
-pierwszego parametru, to jest dowolną funkcję odpowiedniego typu, do drugiego parametru, to jest do
-dowolnego termu typu `Nat`. Sprawdź typ zdefiniowanej w ten sposób funkcji i oblicz rezultat
-zastosowania jej do jakiejś zapisanej przez siebie (w nawiasach) funkcji anonimowej, lub jakiejś
-wcześniej przypisanej do stałej (na przykład do `dodaj2`) funkcji typu `Nat → Nat` jako pierwszego
-argumentu, a także jakiejś liczby naturalnej jako drugiego.
+Definiowana przez Ciebie funkcja ma w swoim ciele stosować swój pierwszy argument (rozluźniłem
+reguły użycia terminu "argument", zauważyłaś?), czyli wartość pierwszego parametru, czyli funkcję
+przekształcającą liczby naturalne w liczby naturalne, czyli term typu `Nat → Nat`, do drugiego
+parametru, to jest do (dowolnego) termu typu `Nat`. *Sprawdź typ* zdefiniowanej w ten sposób funkcji
+i *oblicz* rezultat zastosowania jej do jakiejś zapisanej przez siebie (w nawiasach) funkcji
+anonimowej, lub jakiejś wcześniej przypisanej do stałej (na przykład do `dodaj2`) funkcji typu `Nat
+→ Nat` jako pierwszego argumentu, a także jakiejś liczby naturalnej jako drugiego.
 
 W ten sposób skorzystasz z faktu, że Lean pozwala nie tylko na definiowanie funkcji, które tworzą
 funkcje, czyli *programów, które tworzą programy*, ale również na definiowanie funkcji, które
-stosują do czegoś funkcje podane jako ich argumenty, czyli *programów, które przetwarzają albo
-stosują programy*.
+stosują do czegoś funkcje podane jako argumenty, czyli *programów, które przetwarzają albo stosują
+dostarczane na wejściach programy*.
 
 ### Przypisy
 
@@ -692,4 +741,4 @@ stosują programy*.
     jedynym miejscem, w którym poczuł się przez chwilę nieco przytłoczony nadmiarem informacji, było
     właśnie to, dotyczące funkcji `plus`. Gdy jednak Szymon doczytał trochę dalej, wszystko się
     rozjaśniło i reszta poszła mu już, o ile mi wiadomo, jak z płatka. Na Jego cześć dodałem więc to
-    ostrzeżenie (i słowa zachęty).
+    ostrzeżenie i słowa zachęty.
