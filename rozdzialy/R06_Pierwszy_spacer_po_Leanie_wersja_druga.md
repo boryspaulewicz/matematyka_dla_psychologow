@@ -44,12 +44,13 @@ predykatów (a później też inne logiki) pozwoli Ci
 matematycznych, ale również, przynajmniej do pewnego stopnia, rozumowań zapisanych w języku
 naturalnym.
 
-Między innymi właśnie rachunek predykatów będziesz mogła stosować do głównego rozumowania w swojej
-pracy semestralnej, pracy magisterskiej, doktoracie, albo artykule, lub do analizy - nierzadko
-strukturalnie dosyć prostych i jednocześnie po bliższym zbadaniu zaskakująco (?) "dziurawych" i
-"zagadkowych" - uzasadnień głównych wniosków w artykułach naukowych. Często nawet sama tylko *próba*
-przeprowadzenia takiej formalizacji pozwoli Ci wskazać, gdzie *dokładnie* są ewentualne *błędy
-logiczne* lub *kluczowe niejasności*. Celowo niedokończony i mam nadzieję, że interesujący przykład
+Rachunek predykatów będziesz mogła stosować do głównego rozumowania w swojej pracy semestralnej,
+pracy magisterskiej, doktoracie, albo artykule, lub do analizy - nierzadko strukturalnie dosyć
+prostych i jednocześnie po bliższym zbadaniu zaskakująco (?) "dziurawych" i "zagadkowych", albo
+wręcz "tajemniczych" - uzasadnień głównych wniosków w artykułach naukowych. Często nawet sama tylko
+*próba* przeprowadzenia takiej formalizacji pozwoli Ci wskazać, gdzie *dokładnie* są ewentualne
+*błędy logiczne* lub *kluczowe niejasności*, istnieją też wady rozumowania, których nie da się
+uchwycić za pomocą logiki formalnej. Celowo niedokończony i mam nadzieję, że interesujący przykład
 tego rodzaju zabawy znajdziesz [w jednym z następnych rozdziałów](./R12_Duzy_kwantyfikator.md).
 
 <hr>
@@ -58,23 +59,23 @@ tego rodzaju zabawy znajdziesz [w jednym z następnych rozdziałów](./R12_Duzy_
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach, nie wymagają instalacji Leana,
 ale jeżeli dotarłaś do tego momentu, to możliwe, że brałaś to już pod uwagę. Warto go zainstalować,
-na przykład w połączeniu z darmowym edytorem [VS Code](https://code.visualstudio.com/). Mam
-nadzieję, że proste instrukcje jak to zrobić znajdziesz
+na przykład w połączeniu ze znakomitym darmowym edytorem [VS
+Code](https://code.visualstudio.com/). Instrukcje jak to zrobić znajdziesz
 [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
 
 **Polecenie**: Jeżeli nie używasz edytora *VS Code*, a w pierwszych rozdziałach zakładam, że
 niekoniecznie, to skopiuj na początek do lewego okna sesji Leana w przeglądarce taki fragment kodu:
 
 ```lean
--- Tekst zaczynający się od -- to komentarz. Komentarze są przez Leana ignorowane. Dzięki temu
--- możemy napisać na przykład to:
+-- Tekst zaczynający się od znaków `--` to komentarz. Komentarze są przez Leana ignorowane. Dzięki
+-- temu możemy napisać na przykład to:
 --
 -- Lean jest głupi
 --
 -- i nic się nie stanie.
 
 -- Ta fascynująca funkcja pobiera jeden argument typu `Nat`, czyli liczbę naturalną, i nic z nią nie
--- robi, tylko ją zwraca (każda funkcja musi coś zwracać gdy tylko coś dostanie):
+-- robi, tylko ją zwraca (każda funkcja musi coś zwracać *gdy coś dostanie*):
 def nic_nie_robie (n : Nat) : Nat := n
 ```
 
@@ -86,22 +87,22 @@ def nic_nie_robie (n : Nat) : Nat := n
 
 - która ma (tutaj jeden) parametr `n` typu `Nat` (`(n : Nat)`) ...
 
-- i zwraca (tak czytamy symbol `:`, który nazywam głównym dwukropkiem, pojawiający się po
-  specyfikacji ostatniego parametru funkcji) term typu `Nat`.
+- i zwraca (tak czytamy pojawiający się po specyfikacji ostatniego parametru funkcji symbol `:`,
+  który nazywam wtedy *głównym dwukropkiem*) term typu `Nat`.
 
 - *Ciałem* tej funkcji jest (`:=`) samotna zmienna `n`. 
 
 Czy nie wydaje Ci się, że składnia Leana jest prosta i intuicyjna? Nawet, jeżeli tego jeszcze nie
-widzisz, wklej poniżej zapisanej właśnie definicji następny fragment kodu i umieść kursor na
+czujesz, wklej poniżej zapisanej właśnie definicji następny fragment kodu i umieść kursor na
 komendzie `#eval`. Zobaczysz wtedy po prawej rezultat *ewaluacji* aplikacji funkcji `nic_nie_robie`
-do termu `1`. Rezultatem tej ewaluacji też będzie `1`, bo funkcja `nic_nie_robie` zwraca argument
+do termu `1`. Rezultatem tej ewaluacji też będzie `1`, bo funkcja `nic_nie_robie` zwraca argumenty
 bez zmian.
 
 ```lean
 #eval nic_nie_robie 1
 ```
 
-Teraz będziemy na dwa sposoby *sprawdzać typ termu* `nic_nie_robie`. W tym celu wklej lub przepisz z
+Teraz będziemy na dwa sposoby *sprawdzać typ* termu `nic_nie_robie`. W tym celu wklej lub przepisz z
 pamięci to:
 
 ```lean
@@ -110,24 +111,109 @@ pamięci to:
 #check nic_nie_robie
 ```
 
-Jak widać, powierzchownie te dwa sposoby różnią się tylko obecnością prefiksu `@`. Gdy umieścisz
-kursor nad *pierwszym* wystąpieniem słowa `#check`, zobaczysz po prawej typ termu `nic_nie_robie`
-zapisany w taki oto sposób:
+Jak widać, w zapisie te dwa sposoby różnią się tylko obecnością znaku `@`. Gdy umieścisz kursor nad
+*pierwszym* wystąpieniem słowa `#check`, zobaczysz po prawej typ termu `nic_nie_robie` zapisany w
+taki oto sposób:
 
 `nic_nie_robie : Nat → Nat`
 
-`Nat` to typ oznaczający liczby naturalne. Myślę, że zaczęłaś się już oswajać z tym, że w Leanie
-wyrażenie o postaci `M : N`, gdzie `M` i `N` to jakieś wyrażenia, czytamy jako `M` *ma typ* `N`. Gdy
-`M` to *zmienna*, na przykład `x`, takie wyrażenie nazywamy *deklaracją* (typu tej zmiennej), na
-przykład, `x : N`, gdzie `N` to jakieś wyrażenie oznaczające typ, jest deklaracją, że `x` ma typ
-`N`. A zawsze, gdy po stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, masz do
-czynienia z *typem funkcyjnym*[^1]. Na przykład, `nic_nie_robie` jest termem typu funkcyjnego, czyli
-funkcją, bo ma w typie strzałkę. Komunikat, który widzisz po prawej, gdy sprawdzasz typ tej stałej,
-to jest ...
+gdzie `Nat` to typ oznaczający liczby naturalne. Myślę, że zaczęłaś się już oswajać z tym, że term o
+postaci `M : N`, gdzie `M` i `N` to jakieś termy, czytamy jako `M` *ma typ* `N`. Gdy `M` *ma być*
+później używane jako *zmienna*, takie wyrażenie nazywamy *deklaracją* (nazwy i typu zmiennej). A
+więc ...
+
+```lean
+x : N
+```
+
+... gdzie `N` to term oznaczający typ, **czytamy jako**:
+
+*Deklaruję, że nazwa `x` będzie odtąd używana jako zmienna o typie `N`*. Jeszcze raz: takie
+wyrażenia czytamy w ten sposób, gdy dana nazwa *ma być traktowana jako zmienna*, a o tym, czy `x` ma
+być traktowana jako zmienna czy stała decyduje to, gdzie term o postaci `x : N` się pojawia. Jeśli
+pojawia się zaraz po słowie kluczowym `def`, to mamy do czynienia z *definicją* (wartości/treści)
+*stałej* `x`, a nie z *deklaracją*, że `x` ma być traktowana jako *zmienna*. 
+
+Definicję funkcji `nic_nie_robie` ...
+
+```lean
+def nic_nie_robie : Nat → Nat := fun (n : Nat) => n
+```
+
+... możemy teraz objaśnić tak: Program/kod to *sekwencja reguł* albo *zasad*, które są *wyrazem
+życzeń* albo *oczekiwań* wobec kogoś/czegoś (na przykład Leana), kto/co ma te reguły *stosować*,
+dlatego kod możemy czytać jako szczególnego rodzaju tekst, który mówi, *jak coś ma działać*. Zgodnie
+z powyższym fragmentem kodu, symbol `nic_nie_robie` *ma być* traktowany jako *stała*, bo pojawia się
+po słowie kluczowym `def`. Ta stała ma oznaczać pewną konkretną, to jest *jawnie skonstruowaną* (bo
+to jest \{zwykła, a nie aksjomatyczna\} definicja) funkcję, która przyjmuje liczby naturalne i
+zwraca liczby naturalne. Ta funkcja ma działać w taki sposób, że:
+
+*Jeśli to, co może dostać jako argument, nazwiemy `n`, to ta funkcja ma zwracać `n`*.
+
+<hr>
+
+**Parametry i zmienne to dwa aspekty tego samego językowego zjawiska działającego jak układ
+przewodów albo połączeń**: Widzimy, że symbol `n` pełni tu *podwójną* rolę *czegoś oznaczającego
+wejście* i zarazem *oznaczenia miejsca w kodzie*. A to, którą `n` pełni rolę, zależy od tego, *gdzie
+występuje*. Symbol `n` występujący w ciele funkcji oznacza nie *samo wejście*, tylko *cokolwiek, co
+może się pojawić na wejściu*. I właśnie na tym, że to może być *cokolwiek* (określonego typu),
+polega "zmiennościowość" nazwy `n`.
+
+Mówiąc krótko: *Specyfikacja parametru funkcji* jest *szczególnego rodzaju* (bo nadaje jej status
+nazwy \{jedynego\} wejścia funkcji) *deklaracją zmiennej obowiązującą w ciele funkcji*.
+
+A mówiąc obrazowo, bo w kategoriach *połączeń*: Podwójna rola `n` jako parametru/zmiennej albo
+zaimka/miejsca w kodzie polega na tym, że *wystąpienia* nazwy `n` w definicji funkcji są albo
+jedynym "początkiem" (gdy `n` pojawia  się w miejscu specyfikacji parametru, czyli jako nazwa
+wejścia funkcji), albo jakimś "końcem wirtualnego przewodu", bo takie wystąpienia służą dokładnie do
+oznaczania *połączeń wejścia funkcji z miejscami w jej ciele*. Dlatego o parametrach i zmiennych
+można myśleć jako o dwóch aspektach jednej i tej samej "rzeczy", to jest pewnego rodzaju "układu
+językowych przewodów" albo "połączeń", które przypominają odwrócone drzewa, bo końce połączeń będące
+wystąpieniami tej samej zmiennej mają ten sam początek.
+
+Na przykład, w definicji funkcji `podwajam` można zobaczyć wirtualne drzewo przewodów, które ma
+jeden korzeń/wejście/parametr i dwa węzły/liście/miejsca użycia zmiennej:
+
+```lean
+-- Podany na wejściu argument "spływa do" lub "zasila" tutaj dwa różne miejsca w ciele.
+-- *Pierwsze wystąpienie* `n` jest *deklaracją* o treści: W ciele tej funkcji `n` ma oznaczać wartość
+-- podaną na wejściu.
+def podwajam (n : Nat) :=
+    -- Te          *dwa różne wystąpienia tego samego symbolu* `n`
+    -- pełnią rolę *miejsc                dla takich samych zmiennych wartości*.
+    n + n
+
+-- W ten sposób wszystkie trzy wystąpienia symbolu `n` *działają jak drzewo połączeń*.
+```
+
+Być może najprościej można to wszystko powiedzieć tak: *Parametr* to *nazwane wejście*, a
+*występienie zmiennej* to *miejsce połączone z wejściem o tej samej nazwie*.
+
+Ostatni raz: parametry i zmienne to tylko *oznaczenia części układu wewnętrznych połączeń*.
+
+Ten sposób mówienia i myślenia o parametrach i zmiennych "dotyka" ich "istoty" w tym znaczeniu, że
+określa dokładnie to, w jaki sposób *używamy* parametrów i zmiennych, a w przypadku tego rodzaju
+pojęć *tylko* to jest ważne, bo to są pojęcia *funkcjonalne* w znaczeniu *dotyczące roli w
+realizacji określonych celów*. I dlatego też ten sposób mówienia i myślenia jest taki *obrazowy* i
+*dynamiczny*, bo chodzi w nim o *zmierzanie do* (pewnych celów), to jest o pewnego rodzaju
+(ukierunkowany) *ruch* i *przekształcanie*. Akurat tutaj "ostatecznym" celem jest obliczenie
+wartości aplikacji funkcji do odpowiednich argumentów.
+
+Widzimy z tej perspektywy, że funkcja `nic_nie_robie` ma najprostsze możliwe ciało, bo każda funkcja
+musi mieć jedno wejście i jedno wyjście, więc musi mieć co najmniej jeden "wewnętrzny przewód", a
+funkcja `nic_nie_robie` ma tylko jeden "wewnętrzny przewód". Poza tym nie ma w jej ciele nic więcej,
+bo ta funkcja nie robi nic więcej ponad to, co musi robić każda możliwa funkcja.
+
+<hr>
+
+A zawsze, gdy po stronie typu, czyli po prawej od symbolu `:`, widzisz strzałkę, masz do czynienia z
+*typem funkcyjnym* inaczej *typem funkcji*[^1]. Na przykład, `nic_nie_robie` jest termem typu
+funkcyjnego, czyli funkcją, bo ma w typie strzałkę. Komunikat, który widzisz po prawej, gdy
+sprawdzasz typ tej stałej, to jest ...
 
 `nic_nie_robie : Nat → Nat`
 
-... możesz więc odczytać tak:
+... możesz więc krótko odczytać też tak:
 
 *`nic_nie_robie` jest jakąś funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę naturalną*
 (albo nieco bardziej pedantycznie: *stała `nic_nie_robie` oznacza jakąś funkcję, która ...*).
@@ -727,9 +813,9 @@ powtarzać.
 
 [^1]: *Typ funkcyjny* i *typ funkcji* to tylko dwie różne nazwy na to samo. W szczególności, typ
     funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa "typ funkcyjny" brzmi po prostu
-    lepiej, na przykład: *Funkcje to dokładnie takie termy, których typem jest jakiś typ funkcyjny*
-    brzmi chyba lepiej, niż *Funkcje to dokładnie takie termy, których typem jest jakiś typ
-    funkcji*.
+    lepiej, na przykład: "Funkcje to dokładnie takie termy, których typem jest jakiś typ funkcyjny"
+    brzmi chyba lepiej lub mniej dezorientująco, niż "Funkcje to dokładnie takie termy, których
+    typem jest jakiś typ funkcji".
 
 [^2]: ... który być może pojawi się tu jeszcze w drugiej części, bo do pewnych rzeczy pasuje jak
     ulał, i którego większość książek przeczytałem jeszcze w późnej podstawówce, czego akurat nikomu
