@@ -5,7 +5,7 @@ mowy. Dlatego od wczesnego dzieciństwa chodziła między innymi na dodatkowe za
 trakcie jednego ze spotkań z logopedką, która jej wtedy pomagała, dowiedziałem się, że dorosły
 człowiek może coś dobrze zapamiętać dopiero wtedy, kiedy powtórzy mu się to coś trzy razy.
 
-Nie powiedziałem, że napisałem metateoretyczny doktorat na temat podstaw psychologii i że przez
+Nie powiedziałem, że napisałem metateoretyczny doktorat na temat podstaw psychologii, ani że przez
 ponad dziesięć lat prowadziłem zajęcia między innymi z psychologii poznawczej, bo nie widziałem
 takiej potrzeby. Ale co sobie wtedy pomyślałem, to sobie pomyślałem. A teraz zastosuję się do tej w
 praktyce chyba wcale nie tak rzadko użytecznej rady, przypominając po raz trzeci i ostatni, że
@@ -17,7 +17,7 @@ praktyce chyba wcale nie tak rzadko użytecznej rady, przypominając po raz trze
 ## O czym teraz będzie
 
 Przypominam, że to jest alternatywna wersja *tego samego rozdziału*. Postanowiłem napisać dwie
-wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia kolejne rozdziały będzie zależało w
+wersje, ponieważ to, jak łatwe będą dla Ciebie do zrozumienia kolejne rozdziały, będzie zależało w
 znacznym stopniu od tego, jak dobrze uda mi się wytłumaczyć to, co omawiam tutaj. Dlatego może choć
 raz zerknij do poprzedniej wersji po tym, jak przeczytasz tą.
 
@@ -34,24 +34,25 @@ wytłumaczyć, te ostatnie spójniki wprowadzę znacznie później. Zapowiadam t
 sygnalizując w jaki sposób to jest faktycznie droga na skróty i od podstaw zachęcić Cię do dalszej
 nauki matematyki przez opanowanie podstaw teorii typów.
 
-Ponieważ *predykaty* (takie jak *jest dziwne* w zdaniu *Życie jest dziwne*) to, jak się przekonasz,
+Ponieważ *predykaty* (takie jak *jest dziwne* w zdaniu "Życie jest dziwne") to, jak się przekonasz,
 również funkcje, podobnie jak wszelkie relacje, które są zresztą uogólnionymi predykatami, ucząc się
 w ten sposób jednocześnie matematyki i programowania stosunkowo szybko opanujesz podstawy *logiki
 predykatów*. W dodatku będzie to logika predykatów "bardzo wysokiego" rzędu, bo teoria typów pozwala
 kwantyfikować po termach dowolnego typu, a system typów tej teorii jest wyjątkowo bogaty. Logika
 predykatów (a później też inne logiki) pozwoli Ci
 [prześlwietlać](https://www.youtube.com/watch?v=0pYyzolIN3I) strukturę nie tylko dowodów
-matematycznych, ale również, przynajmniej do pewnego stopnia, rozumowań zapisanych w języku
-naturalnym.
+matematycznych, ale również rozumowań zapisanych w języku naturalnym.
 
 Rachunek predykatów będziesz mogła stosować do głównego rozumowania w swojej pracy semestralnej,
 pracy magisterskiej, doktoracie, albo artykule, lub do analizy - nierzadko strukturalnie dosyć
 prostych i jednocześnie po bliższym zbadaniu zaskakująco (?) "dziurawych" i "zagadkowych", albo
 wręcz "tajemniczych" - uzasadnień głównych wniosków w artykułach naukowych. Często nawet sama tylko
 *próba* przeprowadzenia takiej formalizacji pozwoli Ci wskazać, gdzie *dokładnie* są ewentualne
-*błędy logiczne* lub *kluczowe niejasności*, istnieją też wady rozumowania, których nie da się
-uchwycić za pomocą logiki formalnej. Celowo niedokończony i mam nadzieję, że interesujący przykład
-tego rodzaju zabawy znajdziesz [w jednym z następnych rozdziałów](./R12_Duzy_kwantyfikator.md).
+*błędy logiczne* lub *kluczowe niejasności*. Nie zawsze będziemy je nazywać błędami *logicznymi*, bo
+czasem będą to wady, których *nie da się* uchwycić za pomocą *logiki* i trzeba będzie użyć do nich
+ogólniejszej, ale wciąż matematycznej [teorii *rozumowania*](https://philarchive.org/rec/HLORFL).
+Celowo niedokończony i mam nadzieję, że interesujący przykład tego rodzaju zabawy znajdziesz [w
+jednym z następnych rozdziałów](./R12_Duzy_kwantyfikator.md).
 
 <hr>
 
@@ -59,9 +60,8 @@ tego rodzaju zabawy znajdziesz [w jednym z następnych rozdziałów](./R12_Duzy_
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach, nie wymagają instalacji Leana,
 ale jeżeli dotarłaś do tego momentu, to możliwe, że brałaś to już pod uwagę. Warto go zainstalować,
-na przykład w połączeniu ze znakomitym darmowym edytorem [VS
-Code](https://code.visualstudio.com/). Instrukcje jak to zrobić znajdziesz
-[tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
+na przykład w połączeniu ze znakomitym darmowym edytorem [VS Code](https://code.visualstudio.com/).
+Instrukcje znajdziesz [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
 
 **Polecenie**: Jeżeli nie używasz edytora *VS Code*, a w pierwszych rozdziałach zakładam, że
 niekoniecznie, to skopiuj na początek do lewego okna sesji Leana w przeglądarce taki fragment kodu:
@@ -75,7 +75,7 @@ niekoniecznie, to skopiuj na początek do lewego okna sesji Leana w przeglądarc
 -- i nic się nie stanie.
 
 -- Ta fascynująca funkcja pobiera jeden argument typu `Nat`, czyli liczbę naturalną, i nic z nią nie
--- robi, tylko ją zwraca (każda funkcja musi coś zwracać *gdy coś dostanie*):
+-- robi, tylko ją zwraca (każda funkcja musi coś zwracać {gdy coś dostanie}):
 def nic_nie_robie (n : Nat) : Nat := n
 ```
 
