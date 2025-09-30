@@ -1,3 +1,8 @@
+**Tematy do powtarzania**: Wyrażenie, term, typ, typowalność, funkcja, parametr, zmienna, argument,
+aplikacja, wystąpienie zmiennej jako miejsce w kodzie funkcji połączone z parametrem/wejściem o tej
+samej nazwie, currying, ewaluacja/redukcja, typ zależny, uogólniona identyczność, definicja, stała,
+ciało definicji a ciało funkcji.
+
 <br>
 
 U mojej córki mniej więcej od drugiego roku życia można było zauważyć wyraźne opóźnienie w rozwoju
@@ -111,9 +116,9 @@ pamięci to:
 #check nic_nie_robie
 ```
 
-Jak widać, w zapisie te dwa sposoby różnią się tylko obecnością znaku `@`. Gdy umieścisz kursor nad
-*pierwszym* wystąpieniem słowa `#check`, zobaczysz po prawej typ termu `nic_nie_robie` zapisany w
-taki oto sposób:
+Jak widać, w zapisie te dwa sposoby różnią się tylko obecnością znaku `@`, który mówi Leanowi, jak
+ma wyświetlać typ. Gdy umieścisz kursor nad *pierwszym* wystąpieniem słowa `#check`, zobaczysz po
+prawej typ termu `nic_nie_robie` zapisany tak:
 
 `nic_nie_robie : Nat → Nat`
 
@@ -126,11 +131,11 @@ więc ...
 x : N
 ```
 
-... gdzie `N` to term oznaczający typ, **czytamy jako**:
+... gdzie `N` to jakiś term oznaczający typ, **czytamy jako**:
 
 *Deklaruję, że nazwa `x` będzie odtąd używana jako zmienna o typie `N`*. Jeszcze raz: takie
-wyrażenia czytamy w ten sposób, gdy dana nazwa *ma być traktowana jako zmienna*, a o tym, czy `x` ma
-być traktowana jako zmienna czy stała decyduje to, gdzie term o postaci `x : N` się pojawia. Jeśli
+wyrażenia czytamy w ten sposób, gdy dana nazwa *ma być traktowana jako zmienna*. A o tym, czy `x` ma
+być traktowana jako zmienna czy stała decyduje to, *gdzie* term o postaci `x : N` występuje. Jeśli
 pojawia się zaraz po słowie kluczowym `def`, to mamy do czynienia z *definicją* (wartości/treści)
 *stałej* `x`, a nie z *deklaracją*, że `x` ma być traktowana jako *zmienna*. 
 
@@ -141,12 +146,12 @@ def nic_nie_robie : Nat → Nat := fun (n : Nat) => n
 ```
 
 ... możemy teraz objaśnić tak: Program/kod to *sekwencja reguł* albo *zasad*, które są *wyrazem
-życzeń* albo *oczekiwań* wobec kogoś/czegoś (na przykład Leana), kto/co ma te reguły *stosować*,
-dlatego kod możemy czytać jako szczególnego rodzaju tekst, który mówi, *jak coś ma działać*. Zgodnie
-z powyższym fragmentem kodu, symbol `nic_nie_robie` *ma być* traktowany jako *stała*, bo pojawia się
-po słowie kluczowym `def`. Ta stała ma oznaczać pewną konkretną, to jest *jawnie skonstruowaną* (bo
-to jest \{zwykła, a nie aksjomatyczna\} definicja) funkcję, która przyjmuje liczby naturalne i
-zwraca liczby naturalne. Ta funkcja ma działać w taki sposób, że:
+życzeń* albo *oczekiwań* wobec kogoś/czegoś (na przykład Leana), kto/co ma te reguły *stosować*.
+Dlatego kod możemy czytać jako szczególnego rodzaju tekst, który mówi, *jak coś ma działać*. Zgodnie
+z powyższym fragmentem kodu, symbol (o nazwie) `nic_nie_robie` *ma być* traktowany jako *stała*, bo
+pojawia się po słowie kluczowym `def`. Ta stała ma oznaczać pewną konkretną, to jest *jawnie
+skonstruowaną* (bo to jest zwykła, a nie aksjomatyczna definicja) funkcję, która przyjmuje liczby
+naturalne i zwraca liczby naturalne. Ta funkcja ma działać w taki sposób, że:
 
 *Jeśli to, co może dostać jako argument, nazwiemy `n`, to ta funkcja ma zwracać `n`*.
 
@@ -157,7 +162,7 @@ przewodów albo połączeń**: Widzimy, że symbol `n` pełni tu *podwójną* ro
 wejście* i zarazem *oznaczenia miejsca w kodzie*. A to, którą `n` pełni rolę, zależy od tego, *gdzie
 występuje*. Symbol `n` występujący w ciele funkcji oznacza nie *samo wejście*, tylko *cokolwiek, co
 może się pojawić na wejściu*. I właśnie na tym, że to może być *cokolwiek* (określonego typu),
-polega "zmiennościowość" nazwy `n`.
+polega "zmiennościowość" użytej w ten sposób nazwy `n`.
 
 Mówiąc krótko: *Specyfikacja parametru funkcji* jest *szczególnego rodzaju* (bo nadaje jej status
 nazwy \{jedynego\} wejścia funkcji) *deklaracją zmiennej obowiązującą w ciele funkcji*.
@@ -169,10 +174,10 @@ wejścia funkcji), albo jakimś "końcem wirtualnego przewodu", bo takie wystąp
 oznaczania *połączeń wejścia funkcji z miejscami w jej ciele*. Dlatego o parametrach i zmiennych
 można myśleć jako o dwóch aspektach jednej i tej samej "rzeczy", to jest pewnego rodzaju "układu
 językowych przewodów" albo "połączeń", które przypominają odwrócone drzewa, bo końce połączeń będące
-wystąpieniami tej samej zmiennej mają ten sam początek.
+wystąpieniami tej samej zmiennej mają ten sam początek/to samo wejście (parametr).
 
 Na przykład, w definicji funkcji `podwajam` można zobaczyć wirtualne drzewo przewodów, które ma
-jeden korzeń/wejście/parametr i dwa węzły/liście/miejsca użycia zmiennej:
+jeden korzeń/wejście/parametr i dwa węzły/liście/miejsca wystąpienia zmiennej:
 
 ```lean
 -- Podany na wejściu argument "spływa do" lub "zasila" tutaj dwa różne miejsca w ciele.
@@ -180,29 +185,30 @@ jeden korzeń/wejście/parametr i dwa węzły/liście/miejsca użycia zmiennej:
 -- podaną na wejściu.
 def podwajam (n : Nat) :=
     -- Te          *dwa różne wystąpienia tego samego symbolu* `n`
-    -- pełnią rolę *miejsc                dla takich samych zmiennych wartości*.
+    -- pełnią rolę *miejsc                dla takich samych (zmiennych) wartości*.
     n + n
 
--- W ten sposób wszystkie trzy wystąpienia symbolu `n` *działają jak drzewo połączeń*.
+-- W ten sposób wszystkie trzy wystąpienia symbolu `n` *działają jak drzewo połączeń z jednym
+-- korzeniem*.
 ```
 
 Być może najprościej można to wszystko powiedzieć tak: *Parametr* to *nazwane wejście*, a
 *występienie zmiennej* to *miejsce połączone z wejściem o tej samej nazwie*.
 
-Ostatni raz: parametry i zmienne to tylko *oznaczenia części układu wewnętrznych połączeń*.
+Ostatni raz: Parametry i zmienne to tylko *oznaczenia początków i końców wewnętrznych połączeń*.
 
 Ten sposób mówienia i myślenia o parametrach i zmiennych "dotyka" ich "istoty" w tym znaczeniu, że
 określa dokładnie to, w jaki sposób *używamy* parametrów i zmiennych, a w przypadku tego rodzaju
 pojęć *tylko* to jest ważne, bo to są pojęcia *funkcjonalne* w znaczeniu *dotyczące roli w
 realizacji określonych celów*. I dlatego też ten sposób mówienia i myślenia jest taki *obrazowy* i
 *dynamiczny*, bo chodzi w nim o *zmierzanie do* (pewnych celów), to jest o pewnego rodzaju
-(ukierunkowany) *ruch* i *przekształcanie*. Akurat tutaj "ostatecznym" celem jest obliczenie
-wartości aplikacji funkcji do odpowiednich argumentów.
+(ukierunkowany) *ruch* i o *przekształcanie* czegoś (w coś). Akurat tutaj (lokalnie) "ostatecznym"
+celem jest obliczenie wartości aplikacji funkcji do (odpowiednich) argumentów.
 
-Widzimy z tej perspektywy, że funkcja `nic_nie_robie` ma najprostsze możliwe ciało, bo każda funkcja
-musi mieć jedno wejście i jedno wyjście, więc musi mieć co najmniej jeden "wewnętrzny przewód", a
-funkcja `nic_nie_robie` ma tylko jeden "wewnętrzny przewód". Poza tym nie ma w jej ciele nic więcej,
-bo ta funkcja nie robi nic więcej ponad to, co musi robić każda możliwa funkcja.
+Widzimy z tej perspektywy, że funkcja `nic_nie_robie` ma *najprostsze możliwe ciało*, bo każda
+funkcja musi mieć jedno wejście i jedno wyjście, więc musi mieć co najmniej jeden "wewnętrzny
+przewód", a funkcja `nic_nie_robie` ma tylko jeden "wewnętrzny przewód" i poza tym nie ma w jej
+ciele nic więcej, bo ta funkcja nie robi nic ponad to, co musi robić każda możliwa funkcja.
 
 <hr>
 
@@ -237,12 +243,13 @@ Leana jeszcze to ...
 `nic_nie_robie 1 : Nat`
 
 Tym razem sprawdzamy typ termu *złożonego* `nic_nie_robie 1`. Po lewej od `:` widzimy *dwa* termy
-*proste* albo *atomowe*, które zapisane w tej kolejności tworzą term złożony, będący w tym przypadku
-*aplikacją* (aplikacja jest zawsze zestawieniem {być może złożonego} termu oznaczającego jakąś
-funkcję i jakiegoś innego {być może złożonego} termu), a mówiąc dokładniej aplikacją (termu o typie)
-funkcji `nic_nie_robie` do (termu) `1`. Pierwszy i jedyny parametr `n` funkcji `nic_nie_robie` ma
-typ `Nat` i term `1` ma typ `Nat`, a zatem `1` jest termem typu, którego ta funkcja wymaga. Dlatego
-aplikacja funkcji `nic_nie_robie` do termu `1` jest poprawna, inaczej *typowalna*.
+*proste* albo *atomowe*, które zapisane w tej kolejności tworzą *jeden* term *złożony*, będący w tym
+przypadku *aplikacją* (aplikacja jest zawsze zestawieniem {być może złożonego} termu oznaczającego
+jakąś funkcję i jakiegoś innego {być może złożonego} termu), a mówiąc dokładniej aplikacją (termu o
+typie) funkcji `nic_nie_robie` do (termu) `1`. Pierwszy i jedyny parametr `n` funkcji
+`nic_nie_robie` ma typ `Nat` i term `1` ma typ `Nat`, a zatem `1` jest termem typu, którego ta
+funkcja wymaga. Dlatego aplikacja funkcji `nic_nie_robie` do termu `1` jest poprawna, inaczej
+*typowalna*.
 
 **Definicja aplikacji**: Samo *zestawienie*, to jest *zapisanie obok siebie* funkcji i jakiegoś
 termu nazywamy *aplikacją funkcji do tego termu*, albo krótko *aplikacją*.
@@ -253,7 +260,7 @@ jest takie, których nie da się typować. Niektórzy mówią w takich sytuacjac
 słowo "term" dla wyrażeń typowalnych czyli poprawnych. Wyrażenia skonstruowane z elementów języka
 teorii typów, których typu nie da się jednoznacznie określić, można uznać za "bezsensowne".
 
-Jeżeli obawiasz się, że napiszesz wyrażenia bezsensowne, to spokajam, że prawie na pewno napiszesz
+Jeżeli obawiasz się, że napiszesz wyrażenia bezsensowne, to uspokajam, że prawie na pewno napiszesz
 wiele bezsensownych fragmentów kodu. Im więcej piszesz, tym więcej bzdur napiszesz, jak zauważył
 zdaje się ten przenikliwy obserwator ludzkiej natury Gombrowicz[^2]. To jest może zła wiadomość,
 chociaż nie jestem tego pewien. Na pewno dobra wiadomość jest taka, że Lean Ci wtedy o tym powie.
@@ -267,28 +274,41 @@ zdarzyć, że użyję słowa "term" na określenie przynajmniej potencjalnie bł
 
 To, że aplikacja `nic_nie_robie 1` ma typ `Nat` też jest już dla Ciebie mam nadzieję oczywiste. W
 końcu `nic_nie_robie` jest funkcją, która z dowolnej liczby naturalnej robi jakąś liczbę naturalną.
-Reguła typowania, która pozwala rozstrzygnąć, że to jest term, mówi, że jeśli `M : A → B` (tutaj
-`nic_nie_robie : Nat → Nat`) i `N : A` (tutaj `1 : Nat`), to `M N : B` (`nic_nie_robie 1 : Nat`),
-czyli, że taka sekwencja termów jest typowalna, a więc jest termem. Podobnie *1 + 2* jest
-jednocześnie 1. złożonym wyrażeniem, 2. termem, 3. aplikacją funkcji `+` do dwóch argumentów, jak
-również 4. liczbą naturalną, bo to wyrażenie oznacza (to jest daje po zredukowaniu) liczbę
-naturalną; wszędzie, gdzie może się pojawić *dowolna* liczba naturalna, *1 + 2* również może się
-pojawić.
+Ogólna reguła typowania, która pozwala rozstrzygnąć, że to jest term, mówi, że:
+
+*Jeżli `M` i `N` to jakieś termy, a `A` i `B` to jakieś typy, to*  
+(tutaj `M` to `nic_nie_robie`, `N` to `1`, a `A` i `B` to `Nat`)
+
+*jeżeli `M : A → B`*  
+(tutaj `nic_nie_robie : Nat → Nat`)
+
+*i `N : A`*,  
+(tutaj `1 : Nat`),
+
+*to `M N : B`.*  
+(`nic_nie_robie 1 : Nat`)
+
+Ta reguła mówi, że sekwencja dwóch termów o takiej strukturze typów jest typowalna, a więc jest
+termem (złożonym), i ma typ `B`. Podobnie *1 + 2* jest jednocześnie 1. złożonym wyrażeniem, 2.
+termem, 3. aplikacją funkcji `+` do dwóch argumentów, jak również 4. liczbą naturalną, bo to
+wyrażenie oznacza (to jest daje po zredukowaniu) liczbę naturalną; wszędzie, gdzie może się pojawić
+*dowolna* liczba naturalna, *1 + 2* również może się pojawić.
 
 Funkcja `nic_nie_robie` to *identyczność*, inaczej funkcja identycznościowa. Ta funkcja może się
 wydawać niepotrzebna, ale tak jak liczba zero, czasami okazuje się niezbędna. Na przykład wtedy, gdy
-funkcja identycznościowa jest *rozwiązaniem* jakiegoś *problemu*.
+identyczność jest *rozwiązaniem* jakiegoś *problemu*.
 
 **Potencjalnie dezorientująca dygresja**: Wiele problemów w matematyce można wyrazić jako zbiór
 relacji między jakimiś funkcjami, z których co najmniej jedna funkcja jest nieznana i trzeba ją
 znaleźć. Dokładnie tak, jak problem dotyczący liczb może polegać na tym, że mamy na przykład jakiś
 układ równań z jedną lub wieloma niewiadomymi reprezentowanymi przez zmienne (np. `x + y = 1` i `y =
-1`) i chcemy znaleźć wszystkie liczby spełniające te równania (tutaj tylko `x = 1`). Dany jest wtedy
+1`) i chcemy znaleźć wszystkie liczby spełniające te równania (tutaj tylko `x = 0`). Dany jest wtedy
 zbiór relacji między *liczbami*, a nie funkcjami, ale sytuacja jest poza tym podobna, bo w obydwu
-przypadkach szukamy *obiektów* spełniających określone wymagania. Okazuje się wtedy czasami, że
-przynajmniej jedna niewiadoma może przyjąć wartość zero i wtedy zero bardzo się przydaje. Gdy
-problem polega na szukaniu *funkcji* spełniających określone wymagania, może się okazać, że jednym z
-rozwiązań jest funkcja, która nic nie robi. Między innymi dlatego takie funkcje są czasem niezbędne.
+przypadkach szukamy pewnego rodzaju obiektów spełniających wymagania określone za pomocą pewnych
+relacji. Okazuje się wtedy czasami, że przynajmniej jedna niewiadoma może przyjąć wartość zero, i
+wtedy zero bardzo się przydaje. Gdy problem polega na szukaniu *funkcji* spełniających określone
+wymagania, może się okazać, że jednym z rozwiązań jest funkcja, która nic nie robi. Między innymi
+dlatego takie funkcje są czasem niezbędne.
 
 ## Potęga typów zależnych
 
@@ -832,7 +852,7 @@ powtarzać.
 **Tematy do powtarzania**: Wyrażenie, term, typ, typowalność, funkcja, parametr, zmienna, argument,
 aplikacja, wystąpienie zmiennej jako miejsce w kodzie funkcji połączone z parametrem/wejściem o tej
 samej nazwie, currying, ewaluacja/redukcja, typ zależny, uogólniona identyczność, definicja, stała,
-ciało definicji.
+ciało definicji a ciało funkcji.
 
 ### Przypisy
 
