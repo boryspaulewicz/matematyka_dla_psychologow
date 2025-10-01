@@ -30,9 +30,9 @@ zrobić *co najmniej 5 minut przerwy*, na takim jałowym biegu pod względem wys
 wtedy *uważać z mediami społecznościowymi* i *przebywającymi w pobliżu interesującymi
 ludźmi*. Nudziarze pewnie mogą nawet pomóc wrócić do tematu.
 
-Gdybyś miała akurat masz czas i ochotę czytać *dłużej niż godzinę*, to jeśli czytałaś około 30
-minut, potem było mniej niż powiedzmy 15 minut przerwy, potem znowu około 30 minut czytania, to może
-lepiej zrób sobie przerwę trwającą *co najmniej* 20 minut.
+Gdybyś natomiast postanowiła czytać *dłużej niż godzinę*, to jeśli czytałaś około 30 minut, potem
+było mniej niż powiedzmy 15 minut przerwy, potem znowu około 30 minut czytania, to może lepiej zrób
+sobie przerwę trwającą *co najmniej* 20 minut.
 
 No więc *minutnik*.
 
