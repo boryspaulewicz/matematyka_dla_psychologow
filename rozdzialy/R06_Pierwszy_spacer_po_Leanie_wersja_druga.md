@@ -657,10 +657,10 @@ i nie decyduje o tym, czym *są* liczby naturalne (albo co jest liczbą naturaln
 `1` odpowiada w Leanie *nieredukowalnej aplikacji* funkcji następnika `Nat.succ` do stałej
 `Nat.zero`, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd nazwa "następnik") *liczba
 naturalna po liczbie zero*. Podkreślam, że ta aplikacja jest również *nieredukowalna*, co znaczy, że
-gdy pojawi się w trakcie ewaluacji jako rezultat, ewaluacja na niej się zakończy. Innymi słowy, ta
-aplikacja istnieje tylko po to, żeby można było ją *zapisać*, podać jako argument, albo zwrócić jako
-rezultat, bo *sama aplikacja* `Nat.succ Nat.zero` (a nie jakaś jej wartość, której po prostu nie ma)
-*jest dla Leana liczbą `1`*.
+gdy pojawi się w trakcie ewaluacji jako rezultat, ta część ewaluacji na niej się zakończy. Innymi
+słowy, ta aplikacja istnieje tylko po to, żeby można było ją *zapisać*, podać jako argument, albo
+zwrócić jako rezultat, bo *sama aplikacja* `Nat.succ Nat.zero` (a nie jakaś jej wartość, której po
+prostu nie ma) *jest dla Leana liczbą `1`*.
 
 Czy widzisz podobieństwo między tym sposobem definiowania liczb naturalnych a wspomnianymi wcześniej
 sposobami polegającymi na zapisywaniu ich jako skończonych ciągów (w tym również ciągu pustego)
