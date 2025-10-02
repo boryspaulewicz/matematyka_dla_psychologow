@@ -642,31 +642,46 @@ poszukać informacji na temat aksjomatów Peano. Ja wyjaśnię teraz tylko tyle:
 
 ## Liczby naturalne w Leanie
 
-Liczba `0` jest przez Leana interpretowana jako nieredukowalna stała `Nat.zero`. Podkreślam, że
-`Nat.zero` to w Leanie *tylko pewien napis*, nic więcej. Zwykle zapisujemy tą liczbę jako `0`, ale
-zapis za pomocą cyfr arabskich istnieje tylko dla naszej *wygody* i nie decyduje o tym, czym są
-liczby naturalne. Liczba naturalna `1` odpowiada w Leanie *samej aplikacji* funkcji następnika
-`Nat.succ` do stałej `Nat.zero`, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd nazwa
-"następnik") *liczba naturalna po liczbie zero*. Ta aplikacja jest również *nieredukowalna*, co
-znaczy, że gdy pojawi się w trakcie ewaluacji jako rezultat, ewaluacja na niej się zakończy. Innymi
-słowy, ta aplikacja istnieje tylko po to, żeby można było ją *zapisać*, podać jako argument, albo
-zwrócić jako rezultat, bo *sama aplikacja* `Nat.succ Nat.zero` (a nie jakaś jej wartość, której po
-prostu nie ma) *jest dla Leana liczbą `1`*.
+Zgodnie z aksjomatami Peano, liczby naturalne w Leanie to dokładnie obiekty powstające z czegoś, co
+możemy nazywać *zerem*, a do czego możemy dowolnie wiele razy zastosować operację dającą *następną
+liczbę naturalną*. Można by to zapisać na przykład tak: `0, n0, nn0, nnn0, ...`, gdzie `0` możemy
+traktować jako zero, aplkację `n0` jako `1`, `nn0` jako `2`, i tak dalej. Równie dobrze moglibyśmy
+jako liczby naturalne traktować też dowolne skończone ciągi gwiazdek, to jest `*`, `**`, `***`, i
+tak dalej, ale wtedy musielibyśmy pamiętać, że pojedyncza gwiazdka ma działać jak zero, co byłoby
+dość nieintuicyjne.
+
+No więc symbol `0` jest przez Leana interpretowany jako zapisana w inny sposób, *nieredukowalna*
+stała `Nat.zero`. Podkreślam, że `Nat.zero` to w Leanie *tylko pewien napis*, nic więcej. Zwykle
+zapisujemy tą liczbę jako `0`, ale zapis za pomocą cyfr arabskich istnieje tylko dla naszej *wygody*
+i nie decyduje o tym, czym *są* liczby naturalne (albo co jest liczbą naturalną). Liczba naturalna
+`1` odpowiada w Leanie *nieredukowalnej aplikacji* funkcji następnika `Nat.succ` do stałej
+`Nat.zero`, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd nazwa "następnik") *liczba
+naturalna po liczbie zero*. Podkreślam, że ta aplikacja jest również *nieredukowalna*, co znaczy, że
+gdy pojawi się w trakcie ewaluacji jako rezultat, ewaluacja na niej się zakończy. Innymi słowy, ta
+aplikacja istnieje tylko po to, żeby można było ją *zapisać*, podać jako argument, albo zwrócić jako
+rezultat, bo *sama aplikacja* `Nat.succ Nat.zero` (a nie jakaś jej wartość, której po prostu nie ma)
+*jest dla Leana liczbą `1`*.
+
+Czy widzisz podobieństwo między tym sposobem definiowania liczb naturalnych a wspomnianymi wcześniej
+sposobami polegającymi na zapisywaniu ich jako skończonych ciągów (w tym również ciągu pustego)
+złożonych z symbolu `n` i zaczynających się od symbolu `0`? To jest (funkcjonalnie) ten sam
+*sposób*, tylko nieco inaczej *zrealizowany*.
 
 Zastanawiasz się może, o co w tym chodzi? Spróbuję to wyjaśnić tak: Gdyby przedstawiciele obcej
 cywilizacji wymyślili "obiekty abstrakcyjne", których *używaliby* tak samo, jak my używamy liczb
 naturalnych, ale zapisywaliby i nazywali je inaczej, powiedzielibyśmy, że to są te same "obiekty
-abstrakcyjne", albo, że mają "ten sam sens", tylko są inaczej nazywane, prawda? Jesteśmy co prawda
-przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale sposób, w jaki coś zapisujemy, nie decyduje o
-*znaczeniu*; o tym *całkowicie* decyduje sposób *użycia*.
+abstrakcyjne", albo, że mają "ten sam *sens*", tylko są inaczej *nazywane*, albo inaczej
+*wyglądają*, prawda? Jesteśmy co prawda przyzwyczajeni do zapisu za pomocą cyfr arabskich, ale
+sposób, w jaki coś zapisujemy, nie decyduje o *znaczeniu*; o tym decyduje sposób *użycia*.
 
 Nieredukowalna stała `Nat.zero` i nieredukowalne aplikacje takie jak `Nat.succ Nat.zero` całkiem
-dosłownie *są* więc liczbami naturalnymi, tak samo jak `0` i `1` *są* liczbami naturalnymi. Wbrew
-pozorom, ten fakt nie ma *nic* wspólnego z zapisem; możemy tak powiedzieć, ponieważ wszystkie
-*operacje*, jakie możemy *wykonywać* na liczbach naturalnych, możemy *wykonywać* na tych
-wyrażeniach, uzyskując przy tym wyniki zgodne z interpretacją: `0` to (to samo co) `Nat.zero`, `1`
-to `Nat.succ Nat.zero`, `2` to `Nat.suc (Nat.succ Nat.zero)`, i tak dalej. Zapis nie ma tu
-znaczenia, poza tym, że może być mniej lub bardziej *wygodny* do pewnych zastosowań.
+dosłownie *są* więc liczbami naturalnymi, tak samo jak `0` i `1` *są* liczbami naturalnymi,
+dokładnie dlatego, że *możemy ich używać* jako liczb naturalnych. Wbrew pozorom, ten fakt nie ma
+*nic* wspólnego z zapisem. Możemy traktować termy takie jak `Nat.zero` i `Nat.succ Nat.zero` jako
+liczby naturalne, ponieważ wszystkie *operacje*, jakie możemy *wykonywać* na liczbach naturalnych,
+możemy *wykonywać* na tych termach, uzyskując wyniki zgodne z interpretacją: `0` to (to samo co)
+`Nat.zero`, `1` to `Nat.succ Nat.zero`, `2` to `Nat.suc (Nat.succ Nat.zero)`, i tak dalej. Zapis nie
+ma tu znaczenia, poza tym, że może być mniej lub bardziej *wygodny* do pewnych zastosowań.
 
 Już ostatni raz: Sam *nieredukowalny fragment kodu* albo *zapis* aplikacji `Nat.succ Nat.zero`
 *jest* liczbą `1`. Nie wiem, czy to Cię zaskakuje, ale sądzę, że może zaskakiwać. Kiedy się o tym
@@ -677,33 +692,34 @@ obliczyć. Wydaje się przecież, że skoro `Nat.succ Nat.zero` *jest aplikają*
 to powinno być coś "pod spodem" `Nat.succ Nat.zero`, i tym czymś powinna być albo para złożona z
 funkcji i liczby, albo jakaś liczba *1* jako taka, czy może "sama w sobie".
 
-To, że *nic* pod spodem nie ma, to dobra wiadomość, bo oznacza, że *nie ma tu żadnych tajemnic*,
-poza tymi licznymi i fascynującymi tajemnicami, które kryją się *ponad* tymi zapisami w *nas*, to
-jest w twórcach i użytkownikach tych wyrażeń, a które są przedmiotem badań *psychologii*, a nie
-matematyki. W "czystej" matematyce mamy tylko *struktury złożone z symboli i dopuszczalne sposoby
-ich konstruowania i przekształcania*. To taka rozległa pustka, a w niej nic świętego[^3]. Można
-powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy tylko pominiemy jej
-*interpretację*, którą zresztą możemy zmieniać na dowolną inną, byle spójną. A właściwie na
-niespójną też możemy, tylko wtedy może być trudno powiedzieć po co. 
+To, że *nic* pod spodem nie ma, to dobra wiadomość, bo oznacza, że *nie ma tu tajemnic*, poza tymi
+licznymi i fascynującymi tajemnicami, które kryją się *ponad* zapisami w *nas*, to jest w twórcach i
+użytkownikach tych termów, wyrażeń i języków, a które to tajemnice są przedmiotem badań
+*psychologii*, a nie matematyki. W "czystej" matematyce mamy tylko *struktury złożone z symboli i
+dopuszczalne sposoby ich konstruowania i przekształcania*. To taka rozległa pustka, a w niej nic
+świętego[^3]. Można powiedzieć, że tym właśnie jest *matematyka formalna*, niczym więcej, gdy tylko
+pominiemy jej *interpretację*, którą zresztą możemy zmieniać na dowolną inną, byle spójną. A
+właściwie na niespójną też możemy, ale wtedy może być trudno powiedzieć po co.
 
 Te uwagi dotyczą jednak tylko *matematyki zastanej*, ponieważ, jak
 [wiemy](https://pl.wikipedia.org/wiki/Problem_nierozstrzygalny), *tworzenie* nowej matematyki, w tym
-również *poszukiwanie* dowodów, ma w ogólnym przypadku z konieczności charakter
-*niealgorytmizowalny*. A więc - *dowiedlnie* - tworzenie nowej matematyki i odkrywanie dowodów
-twierdzeń zawsze będzie procesem do pewnego stopnia *inherentnie* twórczym. Co zresztą *z definicji*
-czyni również i ten proces przedmiotem badania psychologii.
+*poszukiwanie* nie znanych wcześniej dowodów, ma w ogólnym przypadku z konieczności charakter
+*niealgorytmizowalny*. A więc - *dowiedlnie* - tworzenie nowej matematyki zawsze będzie procesem do
+pewnego stopnia *inherentnie* twórczym. Co zresztą *z definicji* czyni również i ten proces
+przedmiotem badania psychologii.
 
 <hr>
 
 **Zasięg nazw**: Gdybyś teraz w kolejnej linii wkleiła do Leana kod `#eval n`, to zobaczyłabyś
 komuikat o błędzie, ponieważ `n` i `m` to w tym momencie *tylko* parametry funkcji `suma`, a więc
-tylko jej oznaczone arbitralnie *wejścia*, które są *widoczne tylko z wnętrza ciała* funkcji `suma`
-(które to ciało składa się akurat tylko z wyrażenia `n + m`).
+tylko jej oznaczone arbitralnie *wejścia*, które jako takie są *widoczne tylko z wnętrza ciała*
+funkcji `suma` (które to ciało składa się akurat z wyrażenia `n + m`).
 
 **Polecenie**: Napisz w nowej linii `#eval n`. Zobaczysz wtedy, że symbol `n` będzie podkreślony
 czerwoną falką. Usuń ten błędny kod. W ten sposób Lean sygnalizuje, że nie wie, o czym mówisz, a nie
 wie, bo symbol `n` jest widoczny tylko wewnątrz ciała funkcji `suma`. Tak właśnie, między innymi,
-działa [*zasięg nazw*](https://pl.wikipedia.org/wiki/Zasi%C4%99g_(programowanie)).
+działa [*zasięg nazw*](https://pl.wikipedia.org/wiki/Zasi%C4%99g_(programowanie)), czyli *zakres
+widoczności* określonych definicji lub "ról" nazw w kodzie.
 
 **Metafora funkcji jako maszyny albo mechanizmu**: Warto chociaż raz spróbować sobie wyobrazić, że
 ciało funkcji to pewien mechanizm albo mały robot, który ma nad sobą otwory, przez które może
@@ -717,9 +733,10 @@ Jeżeli to jest robot pracujący wewnątrz funkcji `suma`, to gdy dostanie dwie 
 będą tylko dwa opakowane obiekty, o których będzie wiedział tyle, że mają typ `Nat` i będzie też
 wiedział, który jest pierwszy albo lewy, a który drugi albo prawy, bo na opakowaniach będzie widział
 nazwy `n` i `m`. Nie będzie nawet wiedział, czy dwa różnie oznaczone obiekty tego samego typu są
-*różne*, i tutaj metafora nieprzezroczystych opakowań niestety się sypie (za to metafora połączeń
-albo przewodów nadal jest akceptowalna). W przypadku funkcji `suma`, wszystko, co ten robot (nomen
-omen) robi, to aplikacja funkcji `+` do tych dwóch, bliżej nieokreślonych obiektów.
+*różne*, i tutaj metafora nieprzezroczystych opakowań niestety się sypie (za to metafora wirtualnych
+połączeń albo przewodów nadal jest akceptowalna). W przypadku funkcji `suma`, wszystko, co ten robot
+(nomen omen) robi, to delegowanie dalszego przetwarzania argumentów do niezależnie zdefiniowanej
+funkcji o nazwie `+`.
 
 Albo, nieco bardziej abstrakcyjnie, możemy myśleć o funkcji takiej jak `suma` jako o "pudełku",
 które ma dwa wejścia, jedno oznaczone literą `n`, a drugie literą `m`, i które ma jedno wyjście, a w
@@ -728,24 +745,25 @@ wewnętrzny mechanizm jest "przyklejony" do wejść lub połączony z nimi, to s
 *nazwy* wejść nie mają znaczenia i istnieją tylko dla wygody *czytelników kodu*, czyli naszej.
 
 Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście, a w Leanie tak naprawdę
-również tylko jedno wejście) *mają* znaczenie. Można sobie wyobrazić, że typy wejść i typ wyjścia to
-kształty otworów funkcji jako pudełka. Nie możemy podawać na wejściu funkcji `suma` czegokolwiek -
-to muszą być wyrażenia typu liczba (tutaj akurat wymagamy liczb naturalnych) i tak też mówi nasza
-definicja. Można więc powiedzieć, że funkcje w teorii typów są zawsze w jakiś sposób
-*wyspecjalizowane*: Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko
-wymusimy ewaluację, na wyjściu pojawi się liczba naturalna i już samo to ograniczenie jest
-specjalizacją. I dlatego można też powiedzieć, że funkcje *charakteryzują możliwe relacje między
-typami, polegające na pewnego rodzaju* (to jest *funkcyjnych*) *przekształceniach*.
+również tylko jedno wejście) *mają* znaczenie, ale tylko na etapie *konstruowania* kodu, kiedy
+decydują o tym, które wyrażenia są termami, czyli są poprawne, czyli typowalne. Można sobie
+wyobrazić, że typy wejść i typ wyjścia to kształty otworów funkcji jako pudełka. Nie możemy podawać
+na wejściu (konstruować aplikacji) funkcji `suma` (do) czegokolwiek - muszą to być termy typu `Nat`.
+Można więc powiedzieć, że funkcje w teorii typów są zawsze w jakiś sposób *wyspecjalizowane*: Jeżeli
+podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko wymusimy ewaluację, na wyjściu
+pojawi się liczba naturalna, i już samo to ograniczenie jest pewną specjalizacją.
 
 Metafora funkcji jako mechanizmu w pudełku ma jeszcze inne ograniczenia. Jak już wiesz, wyliczenie
 rezultatu aplikacji funkcji polega tak naprawdę na ewaluacji argumentów, następnie na podstawieniu
-ich zredukowanych postaci pod odpowiednie zmienne w ciele funkcji, i na ewaluacji (czyli redukcji)
-ciała funkcji, aż do ostatecznego, to jest nieredukowalnego skutku. Można więc powiedzieć, że
-mechanizm obliczający działa w Leanie *na zewnątrz definicji* funkcji, bo ta definicja jest tylko
-*przepisem* mówiącym, co ma być zrobione z argumentami w ramach ewaluacji aplikacji. To zatem taki
-"uniwersalny ewaluator", albo "uniwersalny reduktor", który używa definicji stałych, które napotyka,
-rozpakowuje je i redukuje napotkane aplikacje, traktując aplikacje i definicje funkcji jak przepisy
-określające, co ma robić.
+ich zredukowanych postaci pod odpowiednie zmienne (w odpowiednie miejsca) w ciele funkcji, i na
+ewaluacji (czyli redukcji) uzyskanej w ten sposób wersji ciała funkcji, aż do ostatecznego, to jest
+nieredukowalnego skutku. Można więc powiedzieć, że mechanizm obliczający działa w Leanie *na
+zewnątrz definicji* funkcji, bo ta definicja nie jest tak naprawdę mechanizmem, tylko *przepisem*
+mówiącym, co ma być zrobione z argumentami w ramach ewaluacji aplikacji. Mechanizmem jest więc tutaj
+pewien "uniwersalny ewaluator" albo "reduktor", który używa dostarczonych mu definicji stałych i
+redukuje napotykane aplikacje, traktując aplikacje i definicje jak przepisy określające, co ma
+robić. I to jest w dodatku mechanizm "na korbkę", którą kręcimy *my*, ostateczni autorzy i
+użytkownicy wszystkich tych przepisów.
 
 A oto bardziej skomplikowany przykład ewaluacji aplikacji. Myślę, że domyślasz się już trochę,
 dlaczego ten (wiem, że dziwny) fragment kodu jest poprawny i jak działa:
@@ -768,16 +786,15 @@ suma 5 4
 -- udajemy, że są), w tym momencie następuje rozpakowanie definicji stałej `suma`:
 n + m
 
--- A ponieważ `5` ma być podstawione za zmienną `n` (pierwszy parametr) a `4` za zmienną `m` (drugi
+-- A ponieważ `5` ma być podstawione za zmienną `n` (pierwszy parametr), a `4` za zmienną `m` (drugi
 -- parametr), to uzyskujemy taką wersję ciała:
 5 + 4
 
 -- W ten sam sposób przebiega ewaluacja aplikacji funkcji `+` do liczb `5` i `4`. Ewaluacja trwa do
--- momentu, gdy nic więcej nie będzie się dało, albo nie będzie warto, redukować do prostszej
--- postaci.
+-- momentu, gdy nic więcej nie będzie się dało lub nie będzie warto, redukować do prostszej postaci.
 ```
 
-Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji najbardziej wewnętrznych albo
+Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji najbardziej *wewnętrznych* albo
 zagnieżdżonych części argumentów: `(Nat.succ 3)` i `(2 + Nat.zero)`. Rezultatami tych ewaluacji są,
 stosując zapis cyfrowy, liczby `4` (`1 + 3`) i `2` (`2 + 0`). To jednak nie koniec ewaluacji
 argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami pewnych aplikacji (funkcji
@@ -794,8 +811,8 @@ argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami pewnych apl
 rozumiał taki zapis dla samodzielnie zdefiniowanych funkcji, takich jak na przykład `suma`, ale
 zrobimy to kiedy indziej.
 
-**Nawiasy w aplikacjach wieloargumentowych**: Jesteś w stanie domyślić się, na czym polega błąd
-wynikający z niejednoznaczności zapisu, który Lean wykrywa w tym fragmencie kodu?
+**Nawiasy w aplikacjach wieloargumentowych**: Jesteś w stanie domyślić się, na czym polega
+wynikający z niejednoznaczności zapisu błąd, który Lean wykrywa w tym fragmencie kodu?
 
 ```lean
 #eval suma Nat.succ 2 3
@@ -815,7 +832,7 @@ Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest t
 dwuargumentowa i *do pewnego stopnia* tak się *zachowuje*, a więc *jest* dwuargumentowa, ale jest
 funkcją dwuargumentową "z dodatkową funkcjonalnością", polegającą na możliwości częściowej
 aplikacji, w ramach której można używać tej funkcji jako funkcji *jedno*argumentowej. Mówiąc wprost,
-("funkcjonalnie" albo "zastosowaniowo") `suma` jest jednocześnie funkcją dwuargumentową i funkcją
+("funkcjonalnie" albo "zastosowaniowo") `suma` jest *jednocześnie* funkcją dwuargumentową i funkcją
 jednoargumentową, która zwraca funkcję jednoargumentową (która dodaje jedyny parametr tej pierwszej
 funkcji do swojego jedynego parametru).
 
@@ -832,7 +849,7 @@ suma 10 : Nat → Nat
 
 Ten przykład może Ci się wydawać znajomy. Faktycznie, niedawno przyglądaliśmy się już tego rodzaju
 częściowej aplikacji, ale wtedy używaliśmy dwuargumentowej funkcji `identycznosc`, aplikując ją
-tylko do jednego termu, to jest typu `Nat`.
+tylko do jednego termu `Nat`.
 
 **Czytamy to**: Aplikacja funkcji `suma` do termu `10` ma typ `Nat → Nat`. Typ `Nat → Nat` mówi nam,
 że cała ta częściowa aplikacja (`suma 10`) jest pełnowartościową (bo poprawną, to znaczy typowalną)
@@ -848,10 +865,10 @@ dowolną liczbę naturalną w funkcję, która z kolei przekształca dowolną li
 naturalną.
 
 **Sugestia**: Po przeczytaniu tego rozdziału i ewentualnym podjęciu prób wykonania niektórych lub
-wszystkich poleceń warto może wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
+wszystkich poleceń warto chociaż raz wrócić do rozdziału poprzedniego, w którym pisałem o podobnych
 sprawach, ale w inny sposób. Wydaje mi się, że dzięki temu dosyć szybko treści omówione w tych dwóch
 rozdziałach staną się dla Ciebie w miarę jasne i nie będziesz ich musiała później prawie w ogóle
-powtarzać.
+powtarzać, bo będziemy tego wszystkiego ciągle do czegoś używać.
 
 **Tematy do powtarzania**: Wyrażenie, term, typ, typowalność, funkcja, parametr, zmienna, argument,
 aplikacja, wystąpienie zmiennej jako miejsce w kodzie funkcji połączone z parametrem/wejściem o tej
@@ -861,18 +878,17 @@ ciało definicji a ciało funkcji.
 ### Przypisy
 
 [^1]: *Typ funkcyjny* i *typ funkcji* to tylko dwie różne nazwy na to samo. W szczególności, typ
-    funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa "typ funkcyjny" brzmi po prostu
-    lepiej, na przykład: "Funkcje to dokładnie takie termy, których typem jest jakiś typ funkcyjny"
-    brzmi chyba lepiej lub mniej dezorientująco, niż "Funkcje to dokładnie takie termy, których
-    typem jest jakiś typ funkcji".
+    funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa "typ funkcyjny" brzmi lepiej,
+    na przykład: "Funkcje to dokładnie takie termy, które mają typ funkcyjny" brzmi chyba lepiej lub
+    mniej dezorientująco, niż "Funkcje to dokładnie takie termy, których typem jest jakiś typ
+    funkcji".
 
 [^2]: ... który być może pojawi się tu jeszcze w drugiej części, bo do pewnych rzeczy pasuje jak
     ulał, i którego większość książek przeczytałem jeszcze w późnej podstawówce, czego akurat nikomu
     *nie* polecam, bo zbyt wczesny kontakt z Gombrowiczem niekoniecznie sprzyja socjalizacji. Jeżeli
     więc czytają to jacyś aktualni lub przyszli rodzice, to sugeruję, żeby Gombrowicza dzieciom
     stanowczo zakazać, przynajmniej dopóki nie zaczną wychodzić na miasto. Zamiast tego niech
-    czytają o teorii typów lub teorii kategorii, bo dzięki temu z pewnością szybko staną się
-    [socjometrycznymi gwiazdami](https://pl.wikipedia.org/wiki/Gwiazda_socjometryczna). Nie ma za
-    co.
+    czytają o teorii typów lub teorii kategorii, bo dzięki temu szybko zostaną [socjometrycznymi
+    gwiazdami](https://pl.wikipedia.org/wiki/Gwiazda_socjometryczna). Nie ma za co.
 
 [^3]: གང་ལ་སྟོང་པ་ཉིད་སྲིད་པ། ། དེ་ལ་དོན་རྣམས་ཐམས་ཅད་སྲིད། ། གང་ལ་སྟོང་ཉིད་མི་སྲིད་པ། ། དེ་ལ་ཅི་ཡང་མི་སྲིད་དོ། །
