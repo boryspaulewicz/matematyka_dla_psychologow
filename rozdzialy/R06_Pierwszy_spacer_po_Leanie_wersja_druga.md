@@ -645,10 +645,10 @@ poszukać informacji na temat aksjomatów Peano. Ja wyjaśnię teraz tylko tyle:
 Zgodnie z aksjomatami Peano, liczby naturalne w Leanie to dokładnie obiekty powstające z czegoś, co
 możemy nazywać *zerem*, a do czego możemy dowolnie wiele razy zastosować operację dającą *następną
 liczbę naturalną*. Można by to zapisać na przykład tak: `0, n0, nn0, nnn0, ...`, gdzie `0` możemy
-traktować jako zero, aplkację `n0` jako `1`, `nn0` jako `2`, i tak dalej. Równie dobrze moglibyśmy
-jako liczby naturalne traktować też dowolne skończone ciągi gwiazdek, to jest `*`, `**`, `***`, i
-tak dalej, ale wtedy musielibyśmy pamiętać, że pojedyncza gwiazdka ma działać jak zero, co byłoby
-dość nieintuicyjne.
+traktować jako zero, `n0` jako `1`, `nn0` jako `2`, i tak dalej. Równie dobrze moglibyśmy jako
+liczby naturalne traktować też na przykład dowolne skończone ciągi gwiazdek, to jest `*`, `**`,
+`***`, i tak dalej, ale wtedy musielibyśmy pamiętać, że pojedyncza gwiazdka ma działać jak zero, co
+byłoby chyba nieintuicyjne.
 
 No więc symbol `0` jest przez Leana interpretowany jako zapisana w inny sposób, *nieredukowalna*
 stała `Nat.zero`. Podkreślam, że `Nat.zero` to w Leanie *tylko pewien napis*, nic więcej. Zwykle
