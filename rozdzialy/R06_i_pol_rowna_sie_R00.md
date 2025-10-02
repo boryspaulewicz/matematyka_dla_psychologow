@@ -4,11 +4,15 @@ Ten rozdział ma tylko zwrócić Twoją uwagę na głębsze znaczenie tego, z cz
 
 <hr>
 
-Najważniejsze, co robi Lean, a ogólnie co dzieje się z termami w teorii typów, to *ewaluacja*
-(inaczej redukcja) aplikacji i *sprawdzanie poprawności*, a dokładniej *typowalności* kodu. Oba te
-procesy są realizowane przez pewne *algorytmy*. To znaczy, że *każdy* fragment kodu może być w
-skończonym czasie sprawdzony pod względem poprawności i *każdy* poprawny fragment kodu może być w
-skończonym czasie zredukowany do - w pewnym technicznym znaczeniu - najprostszej postaci.
+Być może najważniejsze, co robimy używając Leana, to jawne wyrażanie (w kodzie) takich lub innych
+pomysłów na taki lub śmaki temat, i ostateczne sprawdzanie, czy te pomysły w tej wersji - w takim
+lub innym dobrze określonym znaczeniu - działają. Najważniejsze, co robi wtedy Lean, a ogólnie co
+dzieje się z termami w teorii typów, to *ewaluacja* (inaczej redukcja) aplikacji i *sprawdzanie
+poprawności*, a dokładniej *typowalności* kodu.
+
+Oba te procesy są realizowane w Leanie przez *algorytmy*. To znaczy, że *każdy* fragment kodu może
+być w skończonym czasie sprawdzony pod względem poprawności i *każdy* poprawny fragment kodu może
+być w skończonym czasie zredukowany do w pewnym technicznym znaczeniu najprostszej postaci.
 
 Żeby zrozumieć, jak ewaluacja działa w każdym możliwym przypadku, wystarczy moim zdaniem zrozumieć,
 jak działa w przypadku uogólnionej identyczności; wszystkie inne przykłady będą tylko wariacjami na
@@ -94,7 +98,7 @@ Na tej podstawie można zbudować *całą* matematykę zastaną i za pomocą teg
 stosunkowo *naturalny* i *czytelny* sposób matematyczne teorie.
 
 Moim zdaniem wszystko, co można zrozumieć, da się powiedzieć jasno i *pokażę* Ci, że jeśli coś da
-się powiedzieć jasno, to zwykle, a może nawet zawsze można sformalizować (inaczej zmatematyzować)
+się powiedzieć jasno, to zwykle, a może nawet zawsze można to sformalizować (inaczej zmatematyzować)
 zapisując to w języku teorii typów. A wszystko, co zostało zapisane w języku teorii typów, można
 sprawdzić i zredukować do najprostszej możliwej i unikalnej takiej postaci za pomocą algorytmu.
 
