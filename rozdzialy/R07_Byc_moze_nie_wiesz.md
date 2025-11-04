@@ -26,13 +26,13 @@ Descartes](https://pl.wikipedia.org/wiki/Ren%C3%A9_Descartes). Pomysł Kartezjus
 rewolucją, ponieważ pozwala *wiernie przetłumaczyć problemy jednego rodzaju*, w tym wypadku
 geometryczne, *na odpowiadające im problemy innego rodzaju*, w tym wypadku liczbowe czy
 analityczne. To jest wierne tłumacznie w tym znaczeniu, że nie tracimy wtedy ani nie zniekształcamy
-żadnych własności problemu geometrycznego.
+żadnych ważnych własności problemu geometrycznego.
 
-Tego rodzaju sposoby *wiernego tłumaczenia w obie strony* nazywamy w matematyce (zachowującymi
-strukturę) *izomorfizmami*. Słowo "izomorfizm" jest połączeniem dwóch starogreckich słów, *ἴσος*
-czyli taki sam, i *μορφή* czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język;
-ma piękny alfabet, kilka różnych rodzajów akcentów i liczbę podwójną. Ponieważ byłem wtedy
-nieznośnym snobem, uczyłem się go[^1] przez rok w liceum, stąd wiem.
+Takie sposoby *wiernego tłumaczenia w obie strony* nazywamy w matematyce (zachowującymi strukturę)
+*izomorfizmami*. Słowo "izomorfizm" jest połączeniem dwóch starogreckich słów, *ἴσος* czyli taki
+sam, i *μορφή* czyli kształt lub forma. Nawiasem mówiąc, starogrecki to wspaniały język; ma piękny
+alfabet, kilka różnych rodzajów akcentów i liczbę podwójną. Ponieważ byłem wtedy nieznośnym snobem,
+uczyłem się go[^1] przez rok w liceum, stąd wiem.
 
 Układu współrzędnych kartezjańskich używamy w taki oto sposób: Punktem wyjścia jest *abstrakcyjnie
 rozumiana płaszczyzna*. Nie zdziwiłbym się, gdybyś na hasło "płaszczyzna" pomyślała, nawet jeśli nie
@@ -42,9 +42,9 @@ przyzwyczaiłaś się do izomorfizmu opartego na układzie współrzędnych kart
 więc, żebyś teraz wyobraziła sobie płaszczyznę "całkiem nieliczbową", jeśli można tak powiedzieć.
 Taką płaszczyznę, którą mogłoby sobie wyobrazić dziecko, które jeszcze nie poznało pojęcia liczby.
 
-Jak wiesz, nie chodzi tu o żadną konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju idealnie
-płaskiej powierzchni bez granic; o płaszczyznę, którą można sobie tylko wyobrazić i opisać, ale
-która nie może istnieć jako obiekt fizyczny. Taką, o której zdają się chętnie myśleć matematycy i
+Nie chodzi mi o konkretną płaszczyznę *fizyczną*, tylko o coś w rodzaju idealnie płaskiej
+powierzchni bez granic; o płaszczyznę, którą można sobie tylko wyobrazić i opisać, ale która nie
+może istnieć jako obiekt fizyczny. Taką, o której zdają się chętnie myśleć matematycy i
 filozofowie. Bez dodatkowych założeń, a właściwie *wyborów pojęciowych*, ta płaszczyzna jako taka
 *nie* ma charakteru liczbowego, tylko czysto geometryczny, albo czysto przestrzenny, jak wolisz.
 Podobnie na przykład jakiś konkretny okrąg na tej płaszczyźnie *jako taki*, który moglibyśmy sobie
@@ -53,7 +53,7 @@ liczbowego.
 
 [Geometria euklidesowa](https://pl.wikipedia.org/wiki/Geometria_euklidesowa), o której też już być
 może słyszałaś, jest pierwszym w historii przykładem aksjomatycznej teorii tego typu struktur. Być
-może jednak nie wiedziałaś dotąd, że liczby nie odgrywają w tej teorii *żadnej* roli. W
+może jednak nie wiedziałaś dotąd, że liczby nie odgrywają w tej teorii ważnej roli. W
 [*Elementach*](http://aleph0.clarku.edu/~djoyce/java/elements/toc.html) Euklidesa znajdziemy tylko
 *rysunkowe reprezentacje* wyidealizowanych obiektów geometrycznych i wyrażone w języku naturalnym
 definicje i aksjomaty, które te obiekty mają spełniać, a także rozumowania polegające na
@@ -69,78 +69,88 @@ a które tak samo długie.
 
 Pewne problemy geometryczne dają się w taki czysto geometryczny sposób analizować względnie
 wygodnie, ale zdecydowanie nie wszystkie. Jeżeli teraz zdecydujemy, że na naszej wyidealizowanej
-płaszczyznie znajdują się (bo my je tam mentalnie wstawiliśmy) dwie linie przecinające się pod kątem
-prostym *i* naniesiemy na jedną z nich, ale nie w miejscu przecięcia, jakiś punkt a może kreskę,
-którą oznaczymy (sobie "w głowie") liczbą *1*, to dzięki tym *decyzjom* (a nie *założeniom*)
-uzyskamy *układ współrzędnych kartezjańskich*.
+płaszczyznie znajdują się (bo my je tam wstawiliśmy) dwie linie przecinające się pod kątem prostym
+*i* naniesiemy na jedną z nich, ale nie w miejscu przecięcia, jakiś punkt czy kreskę, którą
+oznaczymy (bo tak) liczbą *1*, to dzięki tym *decyzjom* (a nie *założeniom*) uzyskamy *układ
+współrzędnych kartezjańskich*.
 
 Wystarczy nam ten jeden, definiujący jednostkę odległości punkt, i od razu będziemy mieli
-jednoznacznie wyznaczoną, bo wynikającą z niego w naturalny sposób podziałkę na obydwu osiach.
+jednoznacznie wyznaczoną - bo wynikającą z niego w naturalny sposób - podziałkę na obydwu osiach.
 Dzięki połączeniu tych elementów, to jest dwóch przecinających się osi i wynikającej z wybranej
-jednostki odległości podziałki na obu, nasz (całkowicie zmyślony) układ współrzędnych działa jak
-doskonały tłumacz. Ten tłumacz każdemu punktowi na każdej z osi (ale uwaga, nie mówimy jeszcze o
-punktach w dowolnym miejscu na *płaszczyźnie*) przyporządkowuje unikalną liczbę rzeczywistą, i
-odwrotnie, każdej liczbie rzeczywistej przyporządkowuje na każdej z osi unikalny punkt.
+jednostki odległości podziałki na obu, nasz (całkowicie zmyślony) układ współrzędnych działa (a
+właściwie *może być przez nas używany*) jak doskonały tłumacz. Ten tłumacz każdemu punktowi na
+każdej z osi (ale uwaga, nie mówimy jeszcze o punktach w dowolnym miejscu na *płaszczyźnie*)
+przyporządkowuje unikalną liczbę rzeczywistą, i odwrotnie, każdej liczbie rzeczywistej
+przyporządkowuje na każdej z osi unikalny punkt.
 
 W ten sposób uzyskujemy metodę wiernego tłumaczenia w obie strony między pewnymi obiektami czysto
 geometrycznymi, to jest punktami *na* każdej z osi traktowanej z osobna i *pojedynczymi* liczbami
-rzeczywistymi, a każda z tych *dwóch* metod (mamy przecież *dwie* osie) to pewien izomorfizm.
-Uzyskujemy od razu też coś więcej: każdemu punktowi *na płaszczyźnie*, a więc niekoniecznie na
-którejś z dwóch osi, który sam z siebie nie ma jeszcze charakteru liczbowego, odpowiada odtąd
-unikalna *uporządkowana para* liczb; to właśnie współrzędne kartezjańskie tego punktu. Ten drugi
-rodzaj tłumaczenia polega na zastosowaniu obydwu metod tłumaczenia opartych na każdej z osi
-*równolegle* (albo *jednocześnie) i w sposób *skoordynowany*.
+rzeczywistymi, a każda z tych *dwóch* metod (bo mamy *dwie* osie) to osobny izomorfizm.  Uzyskujemy
+od razu też coś więcej: każdemu punktowi *na płaszczyźnie*, a więc niekoniecznie na którejś z dwóch
+osi, który sam z siebie nie ma jeszcze charakteru liczbowego, odpowiada odtąd unikalna
+*uporządkowana para* liczb; to właśnie współrzędne kartezjańskie tego punktu. Ten drugi rodzaj
+tłumaczenia polega na zastosowaniu obydwu metod tłumaczenia opartych na każdej z osi *równolegle*
+(albo *jednocześnie*) i w sposób *skoordynowany*.
 
-Każda z tych odpowiedniości działa w obie strony, a więc również każdej parze uporządkowanej liczb
+Każda z tych odpowiedniości działa w obie strony, a więc również każdej uporządkowanej parze liczb
 rzeczywistych odpowiada unikalny punkt na płaszczyźnie. A ponieważ każdy *obiekt geometryczny* na
-płaszczyźnie możemy rozumieć jako pewien *zbiór punktów*, to każdy taki obiekt odpowiada odtąd
+płaszczyźnie możemy rozumieć jako pewien *zbiór punktów* (na przykład, odcinek na płaszczyźnie można
+rozumieć jako dokładnie te punkty, które "leżą" na tym odcinku, albo "tworzą" go, albo "z których
+się składa", albo które nim "są", zależnie od punktu widzenia), to każdy taki obiekt odpowiada odtąd
 pewnemu zbiorowi uporządkowanych par liczb.
 
 Nawiasem mówiąc, to muszą być pary *uporządkowane*, bo gdyby kolejność liczb w parze nie miała
-znaczenia, to nie byłoby wiadomo, czy "punkt (1, 2)" oznacza taki punkt na płaszczyźnie, któremu
-odpowiada "cień" oznaczony jako 1 na pierwszej osi i jako 2 na drugiej, czy jako 1 na drugiej osi i
-jako 2 na pierwszej. A zatem, jawnie lub niejawnie, na przykład posługując się jakąś powszechnie
-przyjętą konwencją, musimy wybrać, którą z osi będziemy traktować jako pierwszą. I to musi być *nasz
-wybór*. To *ktoś z nas* musi *wybrać*, która oś jest pierwsza albo "pozioma", bo żadna "własność
-własna" ich od siebie nie odróżnia; gdyby obrócić ten układ współrzędnych względem osi symetrii
-przecinającej go po skosie, uzyskany układ byłby nieodróżnialny od wyjściowego.
+znaczenia, to nie byłoby wiadomo, czy wyrażenie "punkt (1, 2)" oznacza taki punkt na płaszczyźnie,
+któremu odpowiada "cień" oznaczony jako 1 na *pierwszej* osi i jako 2 na *drugiej*, czy jako 1 na
+drugiej osi i jako 2 na pierwszej. A zatem, jawnie lub niejawnie, na przykład posługując się
+powszechnie przyjętą konwencją, musimy wybrać, którą z osi będziemy traktować jako pierwszą. I to
+właśnie *ktoś z nas* musi *wybrać* (a nie *założyć*), która oś jest pierwsza albo "pozioma", bo
+żadna "własność własna" ich od siebie nie odróżnia; gdyby obrócić ten układ współrzędnych względem
+osi symetrii przecinającej go po skosie, uzyskany układ byłby nieodróżnialny od wyjściowego, chociaż
+osie zamieniłyby się miejscami.
 
 Dzięki układowi kartezjańskiemu problemy o charakterze *czysto geometrycznym* (na płaszczyźnie)
 możemy wiernie przetłumaczyć na problemy *liczbowe*, a z kolei dzięki temu często (choć nie zawsze)
 jest nam łatwiej je rozwiązać lub zrozumieć. Co więcej, pewne problemy liczbowe, które mogłyby się
-nam wcale początkowo nie kojarzyć z geometrią, mogą się okazać wiernie przetłumaczalne na problemy
-geometryczne, i może się również okazać, że w tej wersji są dla nas łatwiejsze albo bardziej
-zrozumiałe. A czasami dzieje się i tak, że *odkrywamy* albo *znajdujemy* pewne obiekty geometryczne,
-które najpewniej nie przyszłyby nam do głowy, gdybyśmy nie dotarli do nich pośrednio, najpierw
-rozważając problemy o charakterze liczbowym, bo te obiekty są tak dziwne lub trudne do wyobrażenia.
+nam wcale nie kojarzyć z geometrią, mogą się okazać wiernie przetłumaczalne na problemy
+geometryczne, a w tej wersji mogą być dla nas łatwiejsze albo bardziej zrozumiałe. A czasami dzieje
+się i tak, że *odkrywamy* albo *znajdujemy* pewne obiekty geometryczne, które najpewniej nie
+przyszłyby nam do głowy, gdybyśmy nie dotarli do nich pośrednio, najpierw rozważając problemy o
+charakterze liczbowym, bo te obiekty geometryczne są tak dziwne lub trudne do
+wyobrażenia. Praktyczny rezultat jest taki, że *uzyskujemy nowe skuteczne sposoby myślenia o dwóch
+rodzajach zagadnień* i *metodę kontrolowanego przełączania się między tymi sposobami*.
 
 W [artykule](https://czasopisma.uwm.edu.pl/index.php/pp/article/view/9731/7171) na temat
 przyczynowości, który napisałem głównie z myślą o odbiorcach próbujących uprawiać psychologię
-naukową, i o którym wspomniałem we wstępie, również skorzystałem z pewnego izomorfizmu, w dodatku
+naukową i o którym wspomniałem już we wstępie, również skorzystałem z pewnego izomorfizmu, w dodatku
 takiego, którego jedną stroną są programy komputerowe. Dzięki temu mogłem zilustrować abstrakcyjne
 zagadnienia i pojęcia matematycznej teorii wnioskowania przyczynowego za pomocą prostych symulacji,
-mając przy tym pewność, że da się tak *wiernie*, to jest bez zniekształceń, *zrealizować* modele
-przyczynowe jako programy komputerowe. Mam wrażenie, że takie podejście pozwala lepiej poczuć
-realność modeli przyczynowych, a na pewno pozwala uczyć się ich właściwości poprzez interakcję na
-przykład z językiem [R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu
-psychologów może być znacznie mniej stresujące od rozwiązywania problemów rachunkowych.
+mając przy tym pewność, że da się tak *wiernie zrealizować* modele przyczynowe jako programy
+komputerowe. Ten akurat zachowujący strukturę (albo "formalny sens") izomorfizm dostarcza
+jednocześnie nowy (programistyczny) sposób myślenia o modelach przyczynowych i nowy
+(przyczynowoteoretyczny) sposób myślenia o (imperatywnych) programach. Mam wrażenie, że takie
+podejście pozwala lepiej poczuć realność modeli przyczynowych, a na pewno pozwala uczyć się o ich
+poprzez interakcję na przykład z językiem
+[R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu psychologów może być mniej
+stresujące od rozwiązywania zadań rachunkowych.
 
 Zwróć proszę uwagę, że chociaż prawie na pewno na początku to było dla Ciebie dosyć trudne, bo to
-jest chyba dla wszystkich początkowo trudne, a już na pewno było takie początkowo dla mnie, to
-jednak oswojenie się z izomorfizmem między na przykład kształtami trójkątów z jednej strony i
-liczbowymi wielkościami ich wewnętrznych katów i długościami ich boków z drugiej stało się dla
-Ciebie w końcu naturalne. Założę się nawet, że czasami, a może i przez większość czasu, nie zdawałaś
-sobie sprawy z tego, że kąty i długości odcinków po prostu *są* dla Ciebie *między innymi* liczbami
-*dzięki temu*, że jawnie albo w tle zawsze wtedy był obecny układ kartezjański.
+jest chyba dla wszystkich początkowo trudne, to jednak oswojenie się z izomorfizmem między na
+przykład kształtami trójkątów z jednej strony i liczbowymi wielkościami ich wewnętrznych katów i
+długościami ich boków z drugiej stało się dla Ciebie w końcu naturalne. Założę się nawet, że
+czasami, a może i przez większość czasu, nie zdawałaś sobie sprawy z tego, że kąty i długości
+odcinków po prostu *są* dla Ciebie *między innymi* liczbami *dzięki temu*, że jawnie albo w tle był
+wtedy obecny układ kartezjański.
 
-Przypuszczam, że podobnie jak ja, nie jesteś w stanie sobie dobrze wyobrazić jak to było nie myśleć
-o obiektach geometrycznych w taki sposób. A przecież był kiedyś taki czas, kiedy ten sposób był Ci
+Przypuszczam, że podobnie jak mi, jest Ci trudno przypomnieć sobie jak to było nie myśleć o
+obiektach geometrycznych w taki sposób. A przecież ten sposób myślenia był dla Ciebie na początku
 całkiem obcy i wszystkie kształty były *tylko* kształtami. W pewnym momencie, stopniowo i z pewnym
 wysiłkiem, zaczęłaś się uczyć, jak można systematycznie przypisywać na przykład kątom i odcinkom
 liczby. Wtedy jeszcze te dwa punkty widzenia, czysto geometryczny i powiedzmy kartezjański, były dla
 Ciebie odrębne, ale znałaś już oba. A że musiałaś się często między nimi przełączać, robiłaś to
-długo i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się w jeden. I
-teraz muszę przez kilka akapitów próbować Ci - i jednocześnie sobie! - ułatwić ich chwilowe ponowne
+długo i oba tak dobrze do siebie pasowały, to z czasem dwa punkty widzenia złączyły się w jeden,
+trochę tak, jak widząc jabłko trudno całkiem zignorować wiedzę o tym, jak smakuje i pachnie. I teraz
+muszę przez kilka akapitów próbować Ci - i jednocześnie sobie! - ułatwić ich choćby chwilowe ponowne
 oddzielenie.
 
 Czy to nie ciekawe, jak taki z pozoru niewinny izomorfizm potrafi radykalnie zmienić nasz sposób
@@ -150,79 +160,79 @@ korzystania* z tej swobody, byłyby nieosiągalne, gdyby nie było *wystarczają
 odpowiedniości* między dwoma, *dobrze określonymi rodzajami abstrakcyjnych struktur*. Żeby to
 wszystko tak dobrze działało, te dwa rodzaje struktur muszą też odpowiadać różnym *sposobom opisu* i
 *myślenia*, czyli (przynajmniej do pewnego stopnia) odrębnym *językom*, z których jeden pozwala w
-tym wypadku *zapisywać* wyrażenia, a drugi wymaga, aby je *rysować*.
+tym wypadku *zapisywać* wyrażenia za pomocą sekwencji cyfr, liter, i innych symboli, a drugi wymaga,
+aby je *wizualizować*, na przykład rysując.
 
-To może jeszcze wyobraź sobie teraz, że układ współrzędnych gdzieś znika i ta płaszczyzna łamie się
-i zamyka wokół Ciebie w sześcian jasnego pokoju. A na podłodze pojawia się, powiedzmy, mysz. Biegnie
-w Twoją stronę i zarazem nie całkiem w Twoją stronę, tak jakby chciała szybko dotrzeć do czegoś, co
-znajduje się za Tobą i jednocześnie bała się do Ciebie zbliżyć. To wszystko jesteś w stanie niemal
-natychmiast zobaczyć tylko na podstawie kilkusekundowego ruchu ciała myszy, prawda? I masz wtedy
-*niemal całkowitą pewność*, że ta mysz to właśnie *robi*, to jest że *do czegoś dąży*. Nie
-rozmawialiście wcześniej (o ile Ci wiadomo) i nie wiesz, skąd się wzięła, na pewno też nie masz
-żadnej wiedzy na temat złożonych procesów biologicznych sterujących jej ruchami, a jednak wiesz,
-prawie na pewno, że ta mysz *stara się gdzieś szybko dotrzeć, omijając Cię, ponieważ stoisz jej na
-drodze*. Skąd to wszystko wiesz? I jak bardzo, a szczególnie *w jaki sposób* mogłabyś się Twoim
+To może wyobraź sobie jeszcze, że układ współrzędnych gdzieś znika i płaszczyzna łamie się i zamyka
+wokół Ciebie w sześcian jasnego pokoju. A na podłodze pojawia się, powiedzmy, mysz. Biegnie w Twoją
+stronę i zarazem nie całkiem w Twoją stronę, jakby chciała szybko dotrzeć do czegoś, co znajduje się
+za Tobą i jednocześnie bała się do Ciebie zbliżyć. To wszystko jesteś w stanie niemal natychmiast
+zobaczyć tylko na podstawie kilkusekundowego ruchu ciała myszy, prawda? I masz wtedy *niemal
+całkowitą pewność*, że ta mysz to właśnie *robi*, czyli że *do czegoś dąży*. Nie rozmawialiście
+wcześniej (o ile Ci wiadomo) i nie wiesz, skąd się wzięła, nie masz też *żadnego* wglądu w niezwykle
+złożone procesy biologiczne sterujące jej ruchami, a jednak wiesz, prawie na pewno, że ta mysz
+*stara się gdzieś szybko dotrzeć, omijając Cię, ponieważ stoisz jej na drodze*. Mówiąc ogólnie,
+złożony *fizyczny* ruch myszy ma dla Ciebie pewien wyraźny i niemal natychmiast zrozumiały
+*sens*. Skąd to wszystko wiesz? I jak bardzo, a szczególnie *w jaki sposób* mogłabyś się Twoim
 zdaniem w takiej sytuacji mylić?
 
 Przed chwilą namawiałem Cię, żebyś spróbowała oddzielić dwa sposoby postrzegania obiektów
 geometrycznych, czysto przestrzenny i czysto liczbowy, i postarała się myśleć do pewnego stopnia
-posługując się tylko jednym z nich. A czy byłabyś w stanie zobaczyć ruch myszy powstrzymując się od
-patrzenia na niego w kategoriach celu, możliwych sposobów osiągania go i przeszkód w jego
-osiągnięciu? Bez tego nawykowego *interpretowania* ruchów myszy jako skutków informacji docierającej
-do jej zmysłów i tego, do czego ta mysz dąży? Czy jesteś w stanie popatrzeć na taką poruszającą się
-w bardzo regularny, niemal natychmiast intuicyjnie zrozumiały dla Ciebie sposób mysz, tak jak
-patrzysz na przykład na rozpuszczającą się w gorącej wodzie esencję herbaty? A jak myślisz, co mogło
-by Ci ułatwić patrzenie w ten początkowo nienaturalny sposób na proces rozmowy, albo na przykład na
-rozgrywający się dłużej akt pisania ksiażki?
+posługując się tylko jednym z nich. A czy byłabyś w stanie zobaczyć fizyczny ruch myszy
+powstrzymując się od patrzenia na niego w kategoriach celu, możliwych sposobów osiągania go i
+przeszkód w jego osiągnięciu? Bez nawykowego *interpretowania* ruchów myszy jako mniej lub bardziej
+*racjonalnych skutków informacji* (docierającej do jej zmysłów) i tego, do czego ta mysz dąży? Czy
+jesteś w stanie popatrzeć na taką poruszającą się w bardzo regularny, niemal natychmiast intuicyjnie
+zrozumiały dla Ciebie sposób mysz tak jak patrzysz na przykład na rozpuszczającą się w gorącej
+wodzie esencję herbaty? A jak myślisz, co mogło by Ci ułatwić patrzenie w ten początkowo
+nienaturalny sposób na proces rozmowy, albo na przykład na rozgrywający się dłużej akt pisania
+ksiażki?
 
 To może wyobraź sobie jeszcze, że Twoja interakcja z myszą biegnącą po podłodze została nagrana
 przez kamerę, o której istnieniu wcześniej nie wiedziałaś. Odkryłaś później to nagranie, a razem z
 nim wiele innych takich nagrań, pochodzących z takiego samego pokoju jak ten, w którym niedawno
 byłaś. I odkryłaś też wtedy coś jeszcze - na wszystkich tych nagraniach, za wyjątkiem tego, na
 którym widać Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się w taki sam
-sposób.
-
-Ale może wróćmy już do przerwanego wątku, bo na ten ostatni jest trochę za wcześnie.
+sposób. Ale może wróćmy już do przerwanego wątku, bo na ten ostatni jest trochę za wcześnie.
 
 Izomorfizm, który *zachowuje strukturę* obydwu przestrzeni (takie obiekty jak zbiór liczb
-rzeczywistych matematycy również nazywają {abstrakcyjnymi} przestrzeniami, chyba po prostu dlatego,
-że ludzie wolą myśleć w kategoriach przestrzennych niż na przykład algebraicznych), czyli jest,
-mówiąc kolokwialnie, wiernym (i *zachowujym sens*) tłumaczeniem w obie strony, to zatem potężne
-narzędzie *rozwiązywania* i *rozumienia* rozmaitych problemów. Swoją siłę izomorfizm zawdzięcza
-między innymi temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze
+rzeczywistych matematycy również nazywają \{abstrakcyjnymi\} przestrzeniami, chyba po prostu
+dlatego, że ludzie wolą myśleć w kategoriach przestrzennych niż na przykład algebraicznych), czyli
+jest, mówiąc kolokwialnie, wiernym (i *zachowującym* \{formalny\} *sens*) tłumaczeniem w obie
+strony, to zatem potężne narzędzie *rozwiązywania* i *rozumienia* problemów. Swoją siłę izomorfizm
+zawdzięcza między innymi temu, że pozwala nam przekroczyć pewne ograniczenia o charakterze
 *psychologicznym*. Dla *nas*, ludzi, to, czy dany problem będzie łatwy czy trudny do rozwiązania
 albo zrozumienia często w *ogromnym* stopniu zależy od przyjętego *punktu widzenia*, który jest
-zwykle *sposobem opisu*, albo nawet całym mniej lub bardziej odrębnym *językiem*. Dlatego między
-innymi tak chętnie korzystamy z analogii i metafor, i tak bardzo je sobie cenimy. A zachowujący
-strukturę izomorfizm jest *doskonałą* i jednocześnie *pełną analogią*.
+zwykle ściśle związany z pewnym *sposobem opisu*, albo wręcz mniej lub bardziej odrębnym czy
+samowystarczalnym *językiem*. Dlatego między innymi tak chętnie korzystamy z analogii i metafor i
+tak bardzo je sobie cenimy. A każdy zachowujący strukturę izomorfizm jest doskonałą analogią.
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
-kartezjański, tylko na wyższym poziomie ogólności, czy może raczej na poziomie w pewnym sensie
-metamatematycznym, bo pozwala na niemal jednoczesne posługiwanie się myśleniem matematycznym i
-programistycznym. Żeby zacząć przygodę z tym izomorfizmem, trzeba tylko cierpliwie ćwiczyć
-przełączanie się między dwoma, dobrze określonymi, ale początkowo z konieczności trochę obcymi
-sposobami patrzenia na *typy*.
+kartezjański, tylko na poziomie *metamatematycznym*, bo pozwala na wymienne posługiwanie się
+myśleniem/językiem matematycznym i *programistycznym*. Żeby zacząć przygodę z tym izomorfizmem,
+trzeba tylko cierpliwie ćwiczyć przełączanie się między dwoma, dobrze określonymi, ale początkowo z
+konieczności trochę obcymi sposobami patrzenia na *typy*.
 
-Być może jedną z głównych trudności pojawiających się podczas przyzwyczajania się do tego punktu
-widzenia jest właśnie to, że matematyka "rozgrywa się" wtedy czy może "istnieje" głównie na poziomie
-typów. Co ciekawe, pozornie paradoksalnie, to bywa nawet trudniejsze dla doświadczonych
-*informatyków*, dlatego, że w typowych językach programowania systemy typów odgrywają całkiem inną,
-dosyć przyziemną rolę. Za to gdy zdążysz się już trochę oswoić z tym "nietypowym myśleniem o
-typach", Twoja zdolność rozumienia treści matematycznych albo "matematyzacji" problemów czy pojęć,
-które same z siebie nie mają jeszcze w oczywisty sposób matematycznego charakteru, zacznie się moim
-zdaniem rozwijać znacznie szybciej, niż gdybyś próbowała rozwijać ją w bardziej tradycyjny sposób.
+Być może jedną z głównych trudności pojawiających się podczas przyzwyczajania się do tego
+(podwójnego) punktu widzenia jest właśnie to, że matematyka, w każdym razie ta *teoretyczna*,
+"rozgrywa się" wtedy czy może "istnieje" głównie na poziomie typów. Co ciekawe, to bywa nawet
+trudniejsze dla doświadczonych *informatyków*, ponieważ w typowych (hm) językach programowania
+systemy typów odgrywają bardziej przyziemną rolę. Za to gdy zdążysz się już trochę oswoić z tym
+"nietypowym myśleniem o typach", Twoja zdolność rozumienia treści matematycznych albo
+"matematyzacji" problemów czy pojęć zacznie się moim zdaniem rozwijać znacznie szybciej, niż gdybyś
+próbowała rozwijać ją w bardziej tradycyjny sposób.
 
-Próbując zrozumieć, o czym jest mowa w następnym rozdziale, uruchomisz proces zasadniczo taki sam
-jak ten, dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem wydawały Ci
-się proste, ale które bez wcześniejszego przyzwyczajenia się do patrzenia na nie jako na problemy
-liczbowe byłyby tak trudne, że być może nawet nierozwiązywalne. To znaczy, całe ogromne (i
-jednocześnie bardzo "podstawowe") obszary matematyki staną się dla Ciebie znacznie łatwiejsze w
-obsłudze. W dodatku uczenie się matematyki *metodą prób i błędów*, to jest w ramach mniej lub
-bardziej swobodnej *eksploracji*, będzie miało większy sens, ponieważ wszystko, czego byś nie
-spróbowała, będzie automatycznie sprawdzone pod względem poprawności przez praktycznie niezawodny
-program. A że nie będzie obok żadnego nauczyciela, to też nikt Cię nie będzie *oceniał*. Pojawi się
-dzięki temu możliwość używania matematyki, w granicach wyznaczonych tylko przez aktualny poziom
-Twojego zrozumienia i wiedzy, w sposób w pewnym sensie maksymalnie *twórczy*.
+Zaczynając rozumieć to, o czym będziemy mówili w następnym rozdziale, uruchomisz proces zasadniczo
+taki sam jak ten, dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem
+wydawały Ci się proste, ale które bez wcześniejszego przyzwyczajenia się do patrzenia na nie jako na
+problemy liczbowe byłyby tak trudne, że być może nawet nierozwiązywalne. To znaczy, całe ogromne (i
+jednocześnie bardzo "podstawowe") obszary matematyki stopniowo staną się dla Ciebie znacznie
+łatwiejsze w obsłudze. W dodatku uczenie się matematyki *metodą prób i błędów*, to jest w ramach
+mniej lub bardziej swobodnej *eksploracji*, będzie miało większy sens, ponieważ wszystko, czego byś
+nie spróbowała, będzie automatycznie sprawdzone pod względem poprawności przez praktycznie
+niezawodny program. A że nie będzie obok żadnego nauczyciela, to też nikt Cię nie będzie
+*oceniał*. Pojawi się dzięki temu możliwość używania matematyki, w granicach wyznaczonych tylko
+przez aktualny poziom Twojego zrozumienia i wiedzy, w sposób w pewnym sensie maksymalnie *twórczy*.
 
 Curry i Howard odkryli zachowujący strukturę izomorfizm, a dokładniej odpowiedniość bliską
 izomorfizmowi, między systemami logiki formalnej, takimi jak logika konstruktywna, nazywana również
@@ -242,12 +252,12 @@ odpowiadający mu problem analityczny (liczbowy) i próbować go rozwiązać, al
 zrozumieć, posługując się na przykład operacjami algebraicznymi takimi jak dodawanie czy mnożenie.
 
 Jedyną rzeczą, której będziemy potrzebować, żeby uprawiać matematykę, a później również ogólniej
-rozumiane badania o metateoretycznym charakterze jako programowanie (a jak się okaże później,
+rozumiane badania o metateoretycznym charakterze, jako programowanie (a jak się później okaże,
 również *meta*programowanie), będzie zarazem sztywny i wystarczająco ekspresyjny język. Ten, na
 którym oparty jest Lean, jest właśnie jednym z takich języków. A tym, co przede wszystkim sprawia,
 że jest tak ekspresyjny, że pozwala całkowicie sformalizować całą matematykę, a więc też wszystko,
-co tylko da się *zmatematyzować*, czyli w pewnym sensie wszystko, co można powiedzieć jasno, a
-dzięki temu jasno zrozumieć, są *typy zależne*.
+co tylko da się *zmatematyzować*, czyli też w pewnym sensie wszystko, co można powiedzieć jasno, a
+więc też *jasno zrozumieć*, są *typy zależne*.
 
 ### Przypisy
 
