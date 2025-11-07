@@ -10,17 +10,17 @@
 Skorzystamy z tego, co już wiesz, żeby przejść możliwie płynnie ze "zwykłego" programowania do
 dowodzenia twierdzeń (jako programowania!). Poprzednie rozdziały napisałem tłumacząc kilka razy na
 różne sposoby poruszane tam kwestie i omawiając krok po kroku proces ewaluacji, ponieważ próbowałem
-do pewnego stopnia *wyręczyć Cię* w roli kogoś, kto uczy się przyswajanych treści *aktywnie*. Odtąd
-jednak będę to robił rzadziej, ponieważ nadal wyręczając Cię w tej roli utrudniłbym Ci zmianę
-postawy na taką, która moim zdaniem nie tylko później Ci się przyda, ale która mogłaby Ci też
-dostarczyć sporo satysfakcji. Ale bez obaw, będę się nadal starał, żeby ten proces przebiegał
-(względnie) bezboleśnie.
+do pewnego stopnia wyręczyć Cię w roli kogoś, kto uczy się przyswajanych treści *aktywnie*. Odtąd
+jednak będę to robił rzadziej, bo nadal wyręczając Cię w tej roli utrudniłbym Ci zmianę postawy na
+taką, która moim zdaniem nie tylko później Ci się przyda, ale która mogłaby Ci też dostarczyć sporo
+satysfakcji. Ale bez obaw, będę się nadal nieustannie starał, żeby ten proces przebiegał (względnie)
+bezboleśnie.
 
 <hr>
 
 # Konstruowanie termów w trybie interaktywnym
 
-Przypominam znaną Ci już funkcję `identycznosc` (ilustracja):
+Przypominam znaną Ci już uogólnioną `identycznosc` (ilustracja):
 
 ```lean
 def identycznosc (typ : Type) (argument : typ) := argument
@@ -28,7 +28,7 @@ def identycznosc (typ : Type) (argument : typ) := argument
 
 Ta funkcja jest prostym programem komputerowym, który dla dowolnego typu i argumentu o tym typie
 zwraca ten argument. Jak wiesz, widoczny wyżej, wygodny sposób zapisywania parametrów tak naprawdę
-skrywa dwie λ-abstrakcje:
+skrywa *dwie* λ-abstrakcje:
 
 ```lean
 --- To ...
@@ -44,8 +44,8 @@ def identycznosc'' : (typ : Type) → typ → typ :=
     fun (typ : Type) =>
         fun (argument : typ) => argument
 
--- To są wszystko te same funkcje, albo to jest jedna i ta sama funkcja (jako funkcja), albo te funkcje
--- są wszystkie takie same. W szczególności, te trzy funkcje mają ten sam typ ...
+-- To są takie same funkcje, albo to jest jedna i ta sama funkcja (jako funkcja). W szczególności,
+-- te trzy funkcje mają ten sam typ ...
 #check @identycznosc   -- identycznosc   : (typ : Type) → typ → typ
 #check @identycznosc'  -- identycznosc'  : (typ : Type) → typ → typ
 #check @identycznosc'' -- identycznosc'' : (typ : Type) → typ → typ
@@ -55,33 +55,32 @@ def identycznosc'' : (typ : Type) → typ → typ :=
 #eval identycznosc'  Nat 1 -- 1
 #eval identycznosc'' Nat 1 -- 1
 
--- Możemy nawet formalnie udowodnić, że to jest jedna i ta sama funkcja, ale do tego celu musimy
+-- Możemy też formalnie udowodnić, że to jest jedna i ta sama funkcja, ale do tego celu musimy
 -- wykorzystać elementy języka Lean, które wprowadzę znacznie później, dlatego to na razie tylko
 -- ilustracja. Zwracam przy okazji uwagę, że również w pełni sformalizowane dowody mogą być krótkie
 -- i proste.
 example : identycznosc  = identycznosc'  := by rfl
 example : identycznosc' = identycznosc'' := by rfl
--- Ponieważ Lean nie zgłasza błędu, wiemy, że obydwa dowody są poprawne, a ponieważ relacja równości
+-- Ponieważ Lean nie zgłasza błędu, wiemy, że te dowody są poprawne, a ponieważ relacja równości
 -- jest przechodnia (jeżeli A = B i B = C to A = C), to identycznosc = identycznosc''.
 ```
 
 Do tej pory tworzyliśmy definicje pisząc wprost odpowiedni kod w języku teorii typów, albo "w
 kodzie". Teraz będziemy tworzyć definicje termów *o z góry określonych typach* w trybie
-*interaktywnym*. Żeby skorzystać z tego sposobu najpierw *określamy typ* konstruowanego termu, a
-następnie w miejscu, w którym mamy skonstruować ten term, czyli poprawne wyrażenie danego typu,
-wpisujemy słowo kluczowe `by` (czyli *za pomocą* albo *na sposób*). Słowo kluczowe `by` nie należy
-już do języka teorii typów, tylko do dostępnego w Leanie rozszerzenia tego języka, służącego do
-konstruowania termów za pomocą tak zwanych *taktyk*. Taktyki to metody służące przede wszystkim (ale
-nie tylko) do konstruowania termów będących *dowodami*, a więc do konstruowania termów typów
-zdaniowych (o czym za chwilę).
+*interaktywnym*. W tym celu najpierw *określamy typ* konstruowanego termu, a następnie w miejscu, w
+którym mamy skonstruować ten term, czyli poprawne wyrażenie określonego wcześniej typu, wpisujemy
+słowo kluczowe `by` (czyli *za pomocą* albo *na sposób*). Słowo kluczowe `by` nie należy do języka
+teorii typów, tylko do dostępnego w Leanie rozszerzenia tego języka, służącego do konstruowania
+termów za pomocą tak zwanych *taktyk*. Taktyki to metody służące przede wszystkim (ale nie tylko) do
+konstruowania termów będących *dowodami*, a więc do konstruowania termów typów zdaniowych (o czym za
+chwilę).
 
 Wrócimy teraz do prostszej identyczności, która działa tylko dla liczb naturalnych, i poznamy dwie
-ważne taktyki - `intro` i `exact`. Okaże się, że te taktyki służą do czegoś, co umiesz już robić bez
-ich pomocy.
+ważne taktyki - `intro` i `exact`. Okaże się, że te taktyki służą do czegoś, co umiesz już wyrazić w
+kodzie bez nich.
 
-Taktyka `intro` tworzy (w tle) sam *początek* (albo "nagłówek", albo *sygnaturę*) λ-abstrakcji,
-czyli samą część `fun (<jakis_parametr> : <jakis_typ>) =>`. Jeżeli skopiujesz poniższy fragment kodu
-...
+Taktyka `intro` tworzy (w tle) sam *początek* λ-abstrakcji, to jest samą część `fun
+(<jakis_parametr> : <jakis_typ>) =>`. Jeżeli skopiujesz poniższy fragment kodu ...
 
 ```lean
 def nic_nie_robie : Nat → Nat := by
@@ -102,49 +101,51 @@ tylko sygnał, że masz coś do zrobienia.
 
 **Czytamy to**: Pozostał jeden cel do zrealizowania (`1 goal`). Tym celem jest (`⊢`) stworzenie
 (jakiegokolwiek) termu typu `Nat → Nat`. Powyżej symbolu derywacji (albo wnioskowania, albo
-konstrukcji, albo "wyprowadzania") `⊢`, a poniżej komunikatu `1 goal` widać aktualny *kontekst* (w
+konstrukcji, albo wyprowadzania) `⊢`, a poniżej komunikatu `1 goal` widać aktualny *kontekst* (w
 teorii typów to słowo jest terminem technicznym), w którym w tym momencie jeszcze nic nie ma,
 dlatego widzisz tylko te dwie linie.
 
 Jak wiesz, funkcja anonimowa `fun (n : Nat) => n` jest termem typu `Nat → Nat`, ponieważ jest
-(trywialną, bo identycznościową) funkcją posyłającą liczby naturalne w (w tym wypadku te same)
-liczby naturalne. Wpisując teraz poniżej komentarza `intro n` i nasikając klawisz Enter sprawisz, że
-kontekst zmieni się z pustego na taki, w którym masz do dyspozycji jakąś (czyli arbitralną albo
-bliżej nieokreśloną) liczbę naturalną o nazwie `n`, czyli `n : Nat`. To daje taki sam efekt jak
-dołożenie parametru `(n : Nat)` do definiowanej funkcji - gdy definiowana funkcja ma taki parametr,
-*wewnątrz jej ciała* widać `n : Nat` właśnie jako element kontekstu, to jest jako jedną z dostępnych
+(trywialną, bo identycznościową) funkcją posyłającą liczby naturalne w liczby naturalne. Wpisując
+teraz poniżej komentarza instrukcję `intro n` i naciskając klawisz Enter sprawisz, że kontekst
+zmieni się z pustego na taki, w którym masz do dyspozycji jakąś (czyli arbitralną albo bliżej
+nieokreśloną) liczbę naturalną o nazwie `n`, czyli `n : Nat`. To daje taki sam efekt jak dołożenie
+parametru `(n : Nat)` do definiowanej funkcji - gdy definiowana funkcja ma taki parametr, *wewnątrz
+jej ciała* widać `n : Nat` właśnie jako element kontekstu, to jest jako jedną z dostępnych
 *lokalnie*, bo *tylko* w ciele funkcji, deklaracji zmiennych. Można też powiedzieć (i myśleć), że
 kontekst to wszystkie widoczne w danym miejscu w kodzie (typowane) "wejścia wirtualnych przewodów".
 
-Zastosowanie taktyki `intro` z argumentem `n` jest więc tutaj tym samym, co rozpoczęcie tworzenia
-kodu funkcji anonimowej `fun (n : Nat) => ...`. Rezultat zastosowania w ten sposób taktyki `intro`
-można również opisać tak: Niech `n` będzie termem typu `Nat`, albo krócej - niech `n : Nat`. Albo
-tak: Wprowadzam (`intro` to skrót od *introduction*) do kontekstu `n` typu `Nat`, bo taki (to jest
-`Nat`) jest "typ początkowy" w typie-celu `Nat → Nat`. Właśnie dlatego, że przed zastosowaniem
-`intro` cel to `Nat → Nat`, wystarczy, że powiemy taktyce `intro`, żeby wprowadziła do kontekstu
-zmienną `n`, bez podawania typu, bo to w tym momencie musi być zmienna o typie `Nat`.
+Zastosowanie taktyki `intro` z argumentem `n` jest więc tym samym, co rozpoczęcie tworzenia kodu
+funkcji anonimowej `fun (n : Nat) => ...`. Rezultat zastosowania w ten sposób taktyki `intro` można
+również opisać tak: Niech `n` będzie termem typu `Nat`, albo krócej - niech `n : Nat`. Albo tak:
+Wprowadzam (`intro` to skrót od *introduction*) do kontekstu `n` typu `Nat`, bo taki (to jest `Nat`)
+jest "typ początkowy" w typie-celu `Nat → Nat` (to już nie jest część sposobu czytania tej
+instrukcji, tylko powód jej użycia). Właśnie dlatego, że przed zastosowaniem `intro` cel to `Nat →
+Nat`, wystarczy, że powiemy taktyce `intro`, żeby wprowadziła do kontekstu zmienną `n`. Nie musimy
+wtedy podawać jej typu, bo skoro taktyka `intro` "odrywa" źrodło typu strzałkowego będącego celem,
+to Lean może się domyślić, że `n` musi być zmienną o typie `Nat`.
 
-Ponieważ (niesamodzielna, bo samo `fun (n : Nat) =>` to jeszcze nie jest poprawny term, ale nic nie
-szkodzi, zaraz to zmienimy) część termu, który miałaś skonstruować, już powstała, cel uległ
+Ponieważ (niesamodzielna, bo samo `fun (n : Nat) =>` to jeszcze nie poprawny term, ale nic nie
+szkodzi, zaraz to zmienimy) część termu, który miałaś skonstruować, już powstała, to cel uległ
 zmianie. W panelu po prawej widać teraz, że (nowym) celem jest skonstruowanie prostszego termu typu
 `Nat`, a nie jak wcześniej `Nat → Nat`. Jak już wiesz, ta zmiana celu nastąpiła, ponieważ stosując
 taktykę `intro` tak jakby oderwałaś początkową część typu `Nat → Nat` i wprowadziłaś ją do
 kontekstu, czyli nadałaś jej status (określenia typu) parametru konstruowanej funkcji. Albo
 stworzyłaś "wejście wirtualnego przewodu" (typu `Nat`) i pozostało Ci już tylko skonstruowanie termu
-mającego typ wyjścia.
+mającego typ wyjścia, czyli termu typu `Nat`.
 
 W tym momencie możesz skorzystać z taktyki `exact`, która służy do *konstrukcji* termu o docelowym
 typie *wprost*, poprzez podanie termu, który ma ten typ. Żeby użyć tej taktyki, jako jej argument
 musisz podać - wszystko jedno, czy prosty, czy złożony - term, który ma *typ będący celem*. W tym
 momencie dysponujesz właśnie takim termem, jest nim przecież term `n : Nat`, który masz w
-kontekście. Albo masz już taki "wirtualny przewód". Nie jest to żaden *konkretny* term typu `Nat`
-taki jak na przykład `333`, tylko (lokalny) *sposób konstrukcji* termu tego typu (z podanego na
-wejściu w ramach ewaluacji aplikacji tej funkcji argumentu). Wystarczy więc napisać w następnej
-linii poniżej `intro n` komendę `exact n` i nacisnąć Enter.
+kontekście. A mówiąc inaczej, masz już taki "wirtualny przewód". Nie jest to żaden *konkretny* term
+typu `Nat`, taki jak na przykład `333`, tylko (lokalny) *sposób konstrukcji* termu tego typu (z
+dowolnego argumentu aplikacji tej funkcji). Wystarczy więc napisać w następnej linii poniżej `intro
+n` instrukcję `exact n` i nacisnąć Enter.
 
 Nie ma już żadnych celów do zrealizowania, co można rozpoznać po tym, że gdy kursor znajduje się za
 komendą `exact n`, w panelu po prawej widać stan `No goals`. A więc proces interaktywnej konstrukcji
-termu o z góry podanym typie (tutaj akurat `Nat → Nat`) zakończył się sukcesem.
+termu o z góry podanym typie (tutaj `Nat → Nat`) zakończył się sukcesem.
 
 To wszystko może się w tym momencie wydawać niepotrzebnie skomplikowane, skoro równie dobrze można
 było napisać ...
@@ -156,23 +157,23 @@ def nic_nie_robie (n : Nat) := n
 ... ale później interaktywne konstruowanie termów okaże się bardzo pomocne. Można powiedzieć, że
 tryb interaktywny to wygodny sposób odciążenia Twojej [*pamięci
 operacyjnej*](https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_operacyjna), ponieważ Lean dostarcza Ci
-wtedy, *w trakcie* konstrukcji termu (tutaj w trakcie konstrukcji funkcji albo programu, a później w
-trakcie konstrukcji dowodu), jednoznaczne informacje na temat tego, co jeszcze zostało do
-skonstruowania i czym w danym momencie dysponujesz. W przypadku definiowania prostych funkcji,
-takich jak `nic_nie_robie`, to się może wydawać rozpraszające i zbędne, ale w przypadku
-konstruowania termów bardziej złożonych, szczególnie zaś bardziej złożonych *dowodów*, taka pomoc
-bardzo się przydaje, a poza tym sprawia, że uprawianie matematyki - również teoretycznej - jeszcze
-bardziej przypomina *grę*, którą zresztą w pewnym sensie jest.
+wtedy, *w trakcie procesu konstruowania* termu jednoznaczne informacje na temat tego, co jeszcze
+zostało do skonstruowania i czym w danym momencie dysponujesz. W przypadku definiowania prostych
+funkcji, takich jak `nic_nie_robie`, to jest zbędne, ale w przypadku konstruowania termów bardziej
+złożonych, szczególnie zaś bardziej złożonych *dowodów*, taka pomoc bardzo się przydaje, a poza tym
+sprawia, że uprawianie matematyki - również teoretycznej - jeszcze bardziej przypomina *grę*, którą
+zresztą w pewnym sensie jest.
 
 **Polecenie**: Spróbuj stworzyć w trybie interaktywnym definicję *uogólnionej* identyczności
 uzupełniając poniższy kod. Zwróć uwagę, że ponieważ ta definicja ma dwa parametry - `(typ : Type)` i
 `(argument : typ)` - i oba są zapisane *przed* głównym drukropkiem, to oba są od razu widoczne w
 kontekście, to jest powyżej symbolu derywacji `⊢`, jako coś, co ("wirtualnie", bo to tylko wejścia,
-które "czekają" na odpowiednie argumenty) masz i czego nie musisz nazywać i wprowadzać do kontekstu
-za pomocą taktyki `intro`. Twoim celem jest w tym momencie stworzenie jakiegokolwiek termu typu
+które "czekają" na odpowiednie argumenty) masz, a więc czego nie musisz nazywać i wprowadzać do
+kontekstu za pomocą `intro`. W tym momencie Twoim celem jest stworzenie jakiegokolwiek termu typu
 `typ`, a ponieważ w tym akurat miejscu w kodzie masz już taki ("wirtualny") term, wystarczy
 zastosować taktykę `exact` z odpowiednim argumentem i nacisnąć Enter. Wtedy zobaczysz, że nie ma już
-więcej celów, a zatem proces interaktywnej konstrukcji definicji tej funkcji został zakończony.
+celów, co będzie znaczyło, że proces interaktywnej konstrukcji definicji tej funkcji został
+zakończony.
 
 ```lean
 def identycznosc (typ : Type) (argument : typ) : typ := by
@@ -180,10 +181,9 @@ def identycznosc (typ : Type) (argument : typ) : typ := by
 ```
 
 Teraz skonstruujemy taką samą, bo tak samo działającą (a więc też *tą samą*, bo o tożsamości funkcji
-decyduje jej sposób działania) funkcję, ale przestawimy główny dwukropek o jedno miejsce w
-lewo. Czyli tylko inaczej ją zapiszemy. Tym razem trzeba będzie stworzyć *jedną* λ-abstrakcję
-używając taktyki `intro` z odpowiednim argumentem, a następnie zrealizować jedyny cel, który będzie
-wtedy do zrealizowania.
+decyduje jej sposób działania) funkcję, ale przestawimy główny dwukropek o jedno miejsce w lewo.
+Czyli tylko inaczej ją zapiszemy. Tym razem trzeba będzie za pomocą `intro` z odpowiednim argumentem
+stworzyć *jedną* λ-abstrakcję i zrealizować jeden cel.
 
 **Polecenie**: Opierając się na wcześniejszych wyjaśnieniach na temat roli parametrów zapisanych
 przed głównym dwukropkiem (wyręczają Cię w konstruowaniu λ-abstrakcji, pamiętasz?), dokończ w trybie
@@ -194,27 +194,35 @@ interaktywnym następującą definicję ...
 def identycznosc' (typ : Type) : (argument : typ) → typ := by
 ```
 
-Argument taktyki `intro`, czyli nazwa parametru konstruowanej λ-abstrakcji, mógł Ci się wydawać
-zbędny, skoro ta nazwa (`argument`) jest już jawnie podana w specyfikacji typu konstruowanego termu
-jako `(argument : typ)` *po* głównym dwukropku. Niestety, samo wpisanie taktyki `intro`, bez podania
-nazwy (jako *jej* argumentu), w tym przypadku nie wystarczy. Możesz jednak wybrać *inną* niż
-`argument` nazwę dla parametru konstruowanej funkcji, na przykład jakąś krótszą, ponieważ nazwy
-parametrów nie mają znaczenia, a nie mają, bo parametry pełnią tylko rolę zaimków (albo "wirtualnych
-wejść" \{a *zmienne* to lokalne wystąpienia tych samych nazw pełniące rolę podłączonych do tych
-wejść "portów"\}).
+Gdy wykonywałaś to polecenie argument taktyki `intro`, czyli nazwa parametru konstruowanej
+λ-abstrakcji, mógł Ci się wydawać zbędny, skoro ta nazwa (`argument`) jest już jawnie podana w
+specyfikacji typu konstruowanego termu jako `(argument : typ)` *po* głównym dwukropku. Niestety,
+samo wpisanie taktyki `intro`, bez podania nazwy (jako *jej* argumentu), w tym przypadku nie
+wystarczy. Możesz jednak wybrać *inną* niż `argument` nazwę dla parametru konstruowanej funkcji, na
+przykład jakąś krótszą, ponieważ *nazwy parametrów nie mają znaczenia*, a nie mają, bo parametry
+pełnią tylko rolę zaimków (albo "wirtualnych wejść" \{a *zmienne* to lokalne wystąpienia tych samych
+nazw pełniące rolę podłączonych do tych wejść "portów"\}).
 
-Jeśli masz ochotę, usuń kod kończący definicję i zastosuj najpierw taktykę `intro` z innym
-argumentem, po czym zastosuj taktykę `exact` z jedynym argumentem, który - biorąc pod uwagę, co
-będziesz mieć wtedy w kontekście - zakończy konstrukcję definicji. Przekonasz się w ten sposób, że
-nie musisz używać dla parametru tej samej nazwy, która występuje w specyfikacji typu (inaczej w
-sygnaturze funkcji). A nie musisz, ponieważ nazwa parametru jest własnością *samej λ-abstrakcji*.
+Jeśli masz ochotę, usuń kod kończący definicję i zastosuj najpierw taktykę `intro` z inną nazwą, po
+czym zastosuj taktykę `exact` z jedynym argumentem, który - biorąc pod uwagę, co będziesz mieć wtedy
+w kontekście - zakończy konstrukcję definicji. Przekonasz się w ten sposób, że nie musisz używać dla
+parametru tej samej nazwy, która występuje w specyfikacji typu (inaczej w sygnaturze funkcji). A nie
+musisz, ponieważ nazwa parametru jest własnością *samej λ-abstrakcji*. Dlatego to również jest
+poprawna definicja:
+
+```lean
+def identycznosc (typ : Type) : (argument : typ) → typ :=
+  fun (nazwa_jak_kazda_inna_tylko_troche_dluga : typ) =>
+    nazwa_jak_kazda_inna_tylko_troche_dluga
+```
+
 
 **Polecenie**: Dokończ poniższą definicję w trybie interaktywnym używając kombinacji taktyk `intro`
 i `exact`. Przede wszystkim **nie bój się eksperymentować**. Każdej próbie będą przecież
 towarzyszyły informacje zwrotne w panelu po prawej, z których zawsze możesz korzystać jako ze
 wskazówek na temat tego, co powodują wprowadzane fragmenty kodu. Zwracaj uwagę na aktualny cel i
 pamiętaj, że `intro` z odpowiednim argumentem jakby "odrywa i wrzuca na górę" początkową część celu,
-gdy cel ma typ funkcyjny (strzałkowy).
+gdy cel ma typ funkcyjny (czyli strzałkowy).
 
 ```lean
 def identycznosc'' : (typ : Type) → (argument : typ) → typ := by
@@ -224,11 +232,10 @@ def identycznosc'' : (typ : Type) → (argument : typ) → typ := by
 **Polecenie**: Dokończ definicję używając trybu interaktywnego. Zwróć uwagę, że Twoim celem jest tym
 razem skontruowanie termu typu `Nat`, a nie termu typu funkcyjnego, nie masz więc tworzyć od podstaw
 λ-abstrakcji. Być może jedyna trudność, jaka może się pojawić w tym zadaniu, to przywiązanie do
-określonego sposobu stosowania taktyki `exact`. Argumentem tej taktyki, tak jak zresztą każdej innej
-(taktyki to też programy i jednocześnie funkcje, ale to nie są programy *funkcyjne*, czyli "czysto
-matematyczne", tylko *imperatywne*, to jest takie, które wpływają na stan czegoś "na zewnątrz", w
-tym wypadku na stan dowodu), nie musi być pojedyncza stała, to może być również dowolny term
-*złożony*.
+określonego sposobu stosowania taktyki `exact`. Argumentem tej taktyki, tak jak zresztą każdej
+innej, nie musi być pojedyncza stała, to może być również dowolny term *złożony*. Nawiasem mówiąc,
+taktyki to też programy/funkcje, ale nie *funkcyjne*, czyli "czysto matematyczne", tylko
+*imperatywne*, bo *wpływają na stan czegoś "na zewnątrz"* (stan dowodu).
 
 ```lean
 -- Używając taktyki `exact` dokończ definicję w trybie interaktywnym tak, żeby funkcja `dodaj2`
@@ -236,9 +243,8 @@ tym wypadku na stan dowodu), nie musi być pojedyncza stała, to może być rów
 def dodaj2 (n : Nat) : Nat := by
 ```
 
-**Polecenie**: A teraz dokończ definicję tej samej funkcji, ale nie korzystając z udogodnienia
-wynikającego z tego, że podanie parametru przed głównym dwukropkiem wyręcza Cię w konstruowaniu
-λ-abstrakcji:
+**Polecenie**: A teraz dokończ definicję tej samej funkcji, ale nie korzystając z tego, że podanie
+parametru przed głównym dwukropkiem wyręcza Cię w konstruowaniu λ-abstrakcji:
 
 ```lean
 -- Dokończ definicję w trybie interaktywnym. Trzeba będzie zastosować taktykę `exact` do termu złożonego.
@@ -260,17 +266,18 @@ def suma' (n : Nat) : Nat → Nat := by
 
 ```lean
 -- Dokończ definicję w trybie interaktywnym. Możesz zastosować dwukrotnie taktykę `intro`, albo możesz użyć
--- jej tylko raz, podając *dwie* nazwy dla parametrów konstruowanej λ-abstrakcji.
+-- jej tylko *raz*, podając od razu *dwie* nazwy dla parametrów konstruowanej λ-abstrakcji.
 def suma'' : Nat → Nat → Nat := by
 ```
 
 ## Hierarchia typów w Leanie
 
 Co prawda [można](https://doi.org/10.1017/CBO9781139567725) się bez tego obejść, ale tak się składa,
-że w wersji teorii typów, której używamy w Leanie, *każdy typ*, na przykład typy `Nat` i `Type`,
-*jest również termem*, ale *typu ogólniejszego*, inaczej *wyższego*. Na przykład, typ `Type` ma typ
-`Type 1`, a więc `Type` jest nie tylko typem, ale również termem wyższego od niego typu `Type 1`, i
-tak samo `Type 1` jest typem, ale również termem, który ma typ `Type 2`, i tak w nieskończoność[^1]:
+że w wersji teorii typów, której używamy w Leanie i innych podobnych asystentach dowodzenia *każdy
+typ*, na przykład typy `Nat` i `Type`, *jest również termem*, ale *typu ogólniejszego*, inaczej
+*wyższego o jeden stopień*. Na przykład, typ `Type` ma typ `Type 1`, a więc `Type` jest nie tylko
+typem, ale również termem wyższego od niego typu `Type 1`, i tak samo `Type 1` jest typem, ale
+również termem, który ma typ `Type 2`, i tak w nieskończoność[^1]:
 
 ```lean
 -- `2` to tylko "zwykły" term, to jest taki, który nie jest typem. Czasami myślę o takich termach, że 
@@ -279,9 +286,9 @@ tak samo `Type 1` jest typem, ale również termem, który ma typ `Type 2`, i ta
 
 -- `Nat` to typ i jednocześnie term ogólniejszego typu, który nazywa się `Type`. Chciałoby się zapisać:
 -- `2 : Nat : Type`
--- ale Lean nie pozwala na taką notację. `Type` to tak naprawdę `Type 0`, ale ponieważ typ `Type 0` bardzo
--- często się pojawia, Lean pozwala zapisywać go w taki skrótowy sposób i tak też go wyświetla.
-#check Nat -- `Nat : Type`, a tak naprawdę `Nat : Type 0`
+-- ale Lean nie pozwala na taką notację. `Type` to tak naprawdę `Type 0`, ale ponieważ typ `Type 0` pojawia
+-- się bardzo często, Lean pozwala zapisywać go w taki skrótowy sposób i tak też go wyświetla.
+#check Nat -- `Nat : Type`, a "tak naprawdę" `Nat : Type 0`
 
 -- `Type` (czyli `Type 0`) to typ i jednocześnie term ogólniejszego albo wyższego typu `Type 1`:
 #check Type     -- `Type   : Type 1`
@@ -306,6 +313,9 @@ Jedyne, co potrzebujesz w tym momencie wiedzieć o typach wyższego rzędu, to �
 -- A czy `2` ma typ `String`?
 #check (2 : String) -- pojawia się czerwona falka, a więc `2` nie ma typu `String`.
 -- Lean podkreśla `2` na czerwono i podaje długi i trudny do zrozumienia komunikat o błędzie.
+
+-- Relacja bycia-termem-typu *nie* jest przechodnia:
+#check (Type 1 : Type 3) -- to typowanie jest błędne
 ```
 
 Typy wyższych rzędów są potrzebne *tylko* z pewnych nudnawych powodów technicznych i rzadko, o ile w
@@ -318,27 +328,27 @@ bardziej ostrożny, gdy używa brzytwy, bo jak ich goli, to... Może lepiej pomi
 
 Lean ma również wbudowany typ `Prop`, który będzie odtąd dla nas ważny. To jest typ wyższego rzędu,
 podobnie jak na przykład `Type 1`, co znaczy, że *termy* typu `Prop` same *są typami*, ale typ
-`Prop` zachowuje się inaczej niż typy `Type n` (gdzie `n` to dowolna liczba naturalna). Napjpierw
-pokażę Ci, że typ `Prop` jest jakby odnogą albo odgałęzieniem hierarchii typów Leana:
+`Prop` zachowuje się inaczej niż wszystkie typy `Type n` (gdzie `n` to dowolna liczba naturalna).
+Napjpierw pokażę Ci, że typ `Prop` jest odgałęzieniem hierarchii typów Leana:
 
 ```lean
 #check Prop -- `Prop : Type`
 
 -- Komenda `variable` służy do deklarowania, że mamy ("skądś") *jakiś* (a więc bliżej nieokreślony) term 
--- danego typu. Można to czytać tak: *Gdybyśmy* mieli jakiś term `cos_pod_typem_Prop` typu `Prop` ...
+-- danego typu. Można to czytać tak: *Gdybyśmy* mieli jakiś term `cos_pod_typem_Prop` typu `Prop`. Ale ja
+-- wolę o tym myśleć jako o *tworzeniu "wirtualnego przewodu" albo "wirtualnego wejścia"*.
 variable (cos_pod_typem_Prop : Prop)
 
--- `cos_pod_typem_Prop` jest jednocześnie termem (typu `Prop`) i typem, dlatego możemy zapisać również
--- taką deklarację:
+-- `cos_pod_typem_Prop` jest (w tym *kontekście* {na mocy deklaracji `variable`}) zarazem termem
+-- (typu `Prop`) i typem, dlatego możemy zapisać również taką deklarację:
 variable (jakis_term : cos_pod_typem_Prop)
 
--- Typ `Nat` jest również termem typu `Type` ...
+-- Typ `Nat` jest termem typu `Type` tak samo jak typ `Prop` ...
 #check Nat -- `Nat : Type`
--- ... ale zachowuje się inaczej, bo termy tego typu ...
+-- ... ale zachowuje się inaczej, bo termy typu `Nat` ...
 #check 2   -- `2 : Nat`
--- ... nie są typami: Lean sygnalizuje poniżej błąd, ponieważ `2` nie jest typem, to tylko term. Nie istnieją
--- termy typu `2`. Widzimy więc, że chociaż `Prop : Type` i `Nat : Type`, to `Prop` i `Nat` "zachowują się"
--- inaczej.
+-- ... nie są typami: Lean sygnalizuje niżej błąd, ponieważ `2` nie jest typem, to *tylko* term. Widzimy więc,
+-- że chociaż `Prop : Type` i `Nat : Type`, to `Prop` i `Nat` "działają" inaczej.
 variable (cos_pod_2 : 2)
 
 -- Tutaj również pojawia się błąd, bo term typu, który sam ma typ `Prop`, nie jest już typem ("mieszka na dnie").
@@ -349,49 +359,51 @@ variable (nizszy_term : jakis_term)
 
 ### Komenda `variable`
 
-O komendzie `variable` można myśleć i tak, że służy do tworzenia "luźnych przewodów" (albo
-"automatycznych parametrów"). To pozwala na pisanie (czasem znacznie) krótszego i (czasem znacznie)
-bardziej czytelnego kodu. Na przykład, pisząc `variable (n : Nat)` mówimy Leanowi, że jeśli odtąd
-pojawi się nazwa `n` i między instrukcją `variable (n : Nat)` a tym wystąpieniem nazwy `n` nie
-będzie innego fragmentu kodu, który określałby, co ma w tym miejscu oznaczać `n`, to `n` będzie
-parametrem typu `Nat`. Dlatego:
+O komendzie `variable` można myśleć, że służy do tworzenia "luźnych przewodów" (albo "automatycznych
+parametrów"). To pozwala na pisanie (czasem znacznie) krótszego i (czasem znacznie) bardziej
+czytelnego kodu. Na przykład, pisząc `variable (n : Nat)` mówimy Leanowi, że jeśli odtąd pojawi się
+nazwa `n` i między tą deklaracją `variable (n : Nat)` a tym wystąpieniem nazwy `n` nie będzie innego
+fragmentu kodu, który określałby, co ma w tym miejscu oznaczać `n`, to `n` będzie parametrem typu
+`Nat`. Dlatego:
 
 ```lean
 variable (n : Nat)
 
--- Idąc w górę od tego miejsca w kodzie pierwsza informacja, czym może być `n` mówi, że parametrem
+-- Idąc w górę od tego miejsca w kodzie pierwsza informacja, czym może być `n`, mówi, że parametrem
 -- (bo zmienną, ang. variable), dlatego `dodaj3` musi być funkcją o parametrze typu `Nat`.
 def dodaj3 := n + 3
-
--- Stała `dodaj3` musi oznaczać funkcję, bo w ciele definicji tej stałej występuje zmienna:
 #check dodaj3 -- `dodaj3 (n : Nat) : Nat`
+-- Stała `dodaj3` musi oznaczać funkcję, bo w ciele definicji tej stałej występuje zmienna, dlatego
+-- Lean domyślił się o co chodziło w zapisanej wyżej zwięzłej definicji.
 
--- Ta definicja jest z pewnością krótsza, niż ...
-def dodaj3' (n : Nat) := n + 3
--- ... chociaż w tym wypadku nie jest jasne, czy jest też bardziej czytelna. Przetwarzając wystąpienie
--- nazwy `n` w `n + 3` w tej drugiej definicji Lean odnajduje informację o znaczeniu/roli `n` w jawnej
--- specyfikacji typu stałej `dodaj3'`, a więc w przypadku tej definicji instrukcja `variable (n  : Nat)`
--- nie jest uwzględniana.
+-- To jest błąd, bo funkcja dodawania nie akceptuje wartości tekstowych, ...
+def dodaj4 (n : String) := n + 4
+variable (n : String)
+-- ... ale mimo deklaracji, że `n` ma być zmienną typu `String`, poniższa definicja jest poprawna, bo
+-- idąc od wyrażenia `n + 5` w górę (a właściwie na początku w lewo) Lean znajduje informację, że `n`
+-- jest zmienną typu `Nat` i przez to nie uwzględnia już wcześniejszej deklaracji.
+def dodaj5 (n : Nat) := n + 5
+
+-- Definicja `dodaj3` jest z pewnością krótsza, niż definicja `dodaj4`, chociaż w tym wypadku nie jest jasne,
+-- czy jest też bardziej czytelna.
 ```
 
-Instrukcję `variable (n : Nat)` *czytamy jako*: Jeżeli odtąd użyję do czegoś nazwy `n` i w
-międzyczasie nie napiszę nic, co określałoby rolę tej nazwy, to będzie mi chodziło o to, że `n` ma
-być zmienną, a więc również parametrem otaczającej funkcji. Jak widać, komenda `variable` mówi
-Leanowi, jak ma traktować nazwę podaną jako jej argument, jeżeli nie znajdzie na ten temat innych
-informacji idąc "w górę" lub "na zewnątrz" od wystąpienia tej nazwy.
+Instrukcję `variable (n : Nat)` **czytamy** więc **jako**: Jeżeli odtąd użyję do czegoś nazwy `n` i
+w międzyczasie nie napiszę nic nowego, co określałoby rolę tej nazwy, to będzie mi chodziło o to, że
+`n` ma być zmienną, a więc również parametrem otaczającej funkcji.
 
 <hr>
 
-A więc "zaraz pod" typem `Type` (a tak naprawdę `Type 0`) mamy typ `Nat` i wiele innych, ale "zaraz
-pod" typem `Nat` mamy już tylko termy, które *nie* są typami. Chociaż typ `Prop` też jest
-bezpośrednio pod *tym samym* typem (`Type`) co `Nat`, to jednak "ma pod sobą" również *typy*.
-Oficjalnie mówimy też, że typ `Prop` *zamieszkują* typy (i odpowiednio typu `Nat` *nie* zamieszkują
-typy).
+Jak się właśnie przekonałaś, "zaraz pod" typem `Type` (czyli `Type 0`) mamy typ `Nat` i wiele
+innych, ale "zaraz pod" typem `Nat` mamy już tylko termy, które *nie* są typami. Chociaż typ `Prop`
+też jest bezpośrednio pod *tym samym* typem (`Type`) co `Nat`, to jednak "ma pod sobą" *typy* (czyli
+termy będące typami). Oficjalnie mówimy też, że typ `Prop` *zamieszkują* typy (a typu `Nat` *nie*
+zamieszkują typy).
 
-Nazwa typu `Prop` jest skrótem od angielskiego słowa *Proposition*, oznaczającego *zdanie*,
+Nazwa typu `Prop` jest skrótem od angielskiego słowa *Proposition* oznaczającego *zdanie*,
 *stwierdzenie*, albo *sąd*. Typ `Prop` będzie dla nas ważny, ponieważ tak jak dowolne pary liczb
 rzeczywistych można dzięki układowi współrzędnych konsekwentnie interpretować jako punkty na
-płaszczyźnie, tak dzięki odpowiedniości Curry'ego-Howarda (będące typami) *termy typu `Prop`* można
+płaszczyźnie, tak dzięki odpowiedniości Curry'ego-Howarda (będące typami) termy typu `Prop` można
 konsekwentnie interpretować jako formalne lub abstrakcyjne zdania:
 
 *Termy typu `Prop` to typy, które można konsekwentnie interpretować jako zdania*.
@@ -402,19 +414,21 @@ zdaniowymi*, a typ `Prop` będę nazywał czasem *typem zdań*. Będziesz się r
 przyzwyczała do tego, że:
 
 *Termy danego typu zdaniowego można konsekwentnie interpretować jako dowody tego typu zdaniowego,
-czyli tego zdania*.
+czyli jako dowody tego zdania*.
 
 Można powiedzieć, że *w języku teorii typów teorie zapisujemy w typach* (w tym również, jak później
 zobaczymy, w samodzielnie zdefiniowanych *typach danych*). Dowody, które są termami (typów
-zdaniowych) są tylko po to, żeby upewnić się, co z czego wynika. Być może będzie Ci najłatwiej
-przyzwyczaić się do tego stopniowo, wielokrotnie grając w grę polegającą na dowodzeniu twierdzeń.
+zdaniowych), będą nam służyły tylko do tego, żeby upewnić się, jakie zdania w języku konstruowanych
+teorii albo teorii wbudowanej w Leana faktycznie wynikają z aksjomatów. Być może będzie Ci
+najłatwiej przyzwyczaić się do tego stopniowo, wielokrotnie grając w grę polegającą na dowodzeniu
+twierdzeń.
 
 ## Pierwsze twierdzenie jako funkcja
 
-**Polecenie**: Dokończ definicję w trybie interaktywnym tak, jak to robiłaś wcześniej, używając
-taktyk `intro` i `exact`. Jedyna trudność, jaka może się tutaj pojawić, to fakt, że pierwszy raz
-używasz typu `Prop`. Jednak w tym przypadku liczy się tylko to, że `Prop` to pewien typ (a `zdanie`
-jest pewnym parametrem funkcji `twierdzenie`).
+**Polecenie**: Dokończ definicję w trybie interaktywnym używając tak jak wcześniej taktyk `intro` i
+`exact`. Jedyna trudność, jaka może się tutaj pojawić, to fakt, że pierwszy raz używasz typu `Prop`.
+Jednak w tym przypadku liczy się tylko to, że `Prop` to pewien typ (a `zdanie` jest pewnym
+parametrem funkcji `twierdzenie`).
 
 ```lean
 def twierdzenie (zdanie : Prop) : zdanie → zdanie := by
@@ -425,26 +439,25 @@ interaktywnego. Trzeba będzie usunąć kod, który przed chwilą napisałaś, i
 słowo kluczowe `by`. Albo napisz tą definicję od nowa, ale używając innej nazwy dla definiowanej
 stałej. Potraktuj `Prop` jakby to był typ jak każdy inny, i dokończ definicję tak, jakby to była
 funkcja identycznościowa (ale działająca tylko dla termów typu `Prop`). Bo to jest funkcja
-identycznościowa (dla termów typu `Prop`). I to jest też *dowód pewnego twierdzenia*. Przypuszczam,
-że *wykonanie* tego zadania będzie dla Ciebie w tym momencie łatwe, nawet jeśli *zrozumienie podanej
-interpretacji* będzie (jeszcze) niemożliwe.
+identycznościowa (dla typu `Prop`). I to jest też *dowód pewnego twierdzenia*. Przypuszczam, że
+*wykonanie* tego zadania będzie dla Ciebie w tym momencie łatwe, nawet jeśli *zrozumienie podanej
+interpretacji*, czy może raczej *pogodzenie się z nią*, będzie (jeszcze) niemożliwe.
 
-Jeżeli udało Ci się wykonać ostatnie polecenie, to właśnie na dwa sposoby *formalnie udowodniłaś*
-pewne *twierdzenie matematyczne*! Mówiąc dokładniej, udowodniłaś (w dodatku od razu *parametryczną*)
-tautologię *Jeżeli A, to A*, gdzie *A* to jakieś zdanie (czyli dla każdego zdania *A* - to jest ta
-parametryczność).
+Jeżeli udało Ci się wykonać ostatnie polecenie, to właśnie na dwa sposoby *całkowicie formalnie
+udowodniłaś twierdzenie matematyczne*! Mówiąc dokładniej, udowodniłaś (w dodatku od razu
+*parametryczną*) tautologię *Jeżeli A, to A*, gdzie *A* to jakieś zdanie (czyli dla każdego zdania
+*A* - to jest ta parametryczność).
 
-Ponieważ każde zdanie jest typem (typu `Prop`), a każdy dowód zdania jako typu jest termem tego
-typu, to ten sam dowód można jednocześnie skonstruować i sprawdzić również tak (ale nie przejmuj
-się, jeśli ta wersja, a w szczególności symbol `∀`, budzi Twój niepokój, bo jeszcze do tego
-wrócimy):
+Ponieważ każde zdanie jest typem (typu `Prop`), a każdy term typu zdaniowego jest dowodem tego
+zdania, to ten sam dowód można jednocześnie skonstruować i sprawdzić również tak (ale nie przejmuj
+się, jeżeli na przykład symbol `∀` budzi Twój niepokój, bo jeszcze do tego wrócimy):
  
 ```lean
 -- Lean nie zgłasza błędu, a więc term `(fun (A : Prop) => (fun (dowod : A) => dowod)` ma podany tutaj 
 -- jawnie typ `∀ A : Prop, A → A`, czyli ten term jest dowodem tego zdania, ...
 #check ((fun (A : Prop) => (fun (dowod : A) => dowod) : (∀ A : Prop, A → A)))
 
--- ... bo też typ `∀ A : Prop, A → A` jest termem typu `Prop`, a więc jest pewnym zdaniem:
+-- ... bo też typ `∀ A : Prop, A → A` jest termem typu `Prop`, a więc zdaniem:
 #check ∀ A : Prop, A → A -- `∀ (A : Prop), A → A : Prop`
 
 -- Typ (i jednocześnie zdanie) `(∀ A : Prop, A → A)` *czytamy jako*:
@@ -456,8 +469,8 @@ wrócimy):
 -- Dla każdego zdania `A`, z każdego dowodu `A` można zrobić dowód `A`.
 --
 -- Podany wyżej term jest właśnie (konstruktywnym) dowodem, że tak jest, bo ten term jest *funkcją*,
--- która coś takiego *robi*, a więc będąc poprawną konstrukcją podanego typu pokazuje, że to można
--- zrobić.
+-- która coś takiego *robi*, to jest będąc poprawną konstrukcją podanego typu "pokazuje swoim istnieniem",
+-- że to można zrobić.
 ```
 
 # Pojęciowy zawrót głowy
@@ -465,10 +478,10 @@ wrócimy):
 Pamiętasz moje uwagi na temat układu kartezjańskiego i innych izomorfizmów? Tego rodzaju izomorfizmy
 mogą się na początku wydawać obce, ale przełączając się przez pewien czas regularnie między punktami
 widzenia, które odpowiadają ich stronom, możemy zacząć postrzegać pewne rzeczy w nowy sposób, a
-później mogą się nawet pojawić trudności w oddzieleniu tych punktów widzenia. Dzięki temu możemy
-zacząć w nowy sposób myśleć, a dzięki temu czasem lepiej sobie radzić z rozwiązywaniem pewnego
-rodzaju problemów, bo przecież co dwa punkty widzenia to nie jeden, zwłaszcza gdy te dwa punkty
-widzenia są jednocześnie *różne* i *dobrze dopasowane*.
+później mogą się nawet pojawić trudności w oddzieleniu odpowiadających tym stronom punktów widzenia.
+Dzięki temu możemy zacząć w nowy sposób myśleć, a z kolei dzięki temu czasem lepiej sobie radzić z
+rozwiązywaniem pewnego rodzaju problemów, bo przecież co dwa punkty widzenia to nie jeden, zwłaszcza
+gdy te punkty widzenia przywołują inne skojarzenia i są dobrze dopasowane.
 
 Żeby "zanurzyć się" w izomorfizmie Curry'ego-Howarda trzeba *stopniowo* opanować sztukę *w miarę*
 konsekwentnego *odróżniania*:
@@ -479,12 +492,13 @@ konsekwentnego *odróżniania*:
 
 3. Ewentualnego *faktu*, że jakieś zdanie (albo jego negacja) *ma dowód*, wreszcie...
 
-4. *Założenia*, że jakieś zdanie ma *jakiś* dowód, od *kodu* albo *konstrukcji* dowodu.
+4. *Założenia*, że jakieś zdanie ma *jakiś* dowód, od *konkretnego kodu* albo *konstrukcji* dowodu.
 
 *Zdanie* może być *prawdziwe* lub *fałszywe*. Jeżeli jest prawdziwe, to może, ale nie musi *istnieć
 dowód* tej prawdziwości. Jeżeli istnieje, to możemy, ale nie musimy go *znać* (albo mieć). A więc
-posiadanie lub znajomość dowodu jakiegoś zdania to taki jakby najmocniejszy rodzaj prawdziwości, a
-samo założenie, że jakieś zdanie jest prawdziwe, to taki jakby najsłabszy rodzaj prawdziwości.
+posiadanie lub znajomość dowodu jakiegoś zdania to jakby najmocniejszy rodzaj prawdziwości, sam fakt
+istnienia dowodu to jakby słabszy rodzaj prawdziwości, a samo założenie, że jakieś zdanie jest
+prawdziwe, to jakby najsłabszy rodzaj prawdziwości.
 
 W szczególności, w dopiero co udowodnionym przez Ciebie twierdzeniu `twierdzenie : (zdanie : Prop) →
 zdanie → zdanie` parametr `zdanie` reprezentuje *jakieś*, czyli bliżej nieokreślone zdanie, a typ
@@ -492,11 +506,11 @@ zdanie → zdanie` parametr `zdanie` reprezentuje *jakieś*, czyli bliżej nieok
 zdaniem, to `zdanie → zdanie` jest również zdaniem/ma typ `Prop`). Ciało definicji stałej
 `twierdzenie` jest termem typu `zdanie → zdanie`, a więc jest dowodem tego (parametrycznego)
 zdania. Ponieważ Lean nie zasygnalizował błędu, wiemy, że 1. to jest poprawne (składniowo) zdanie,
-2. że skonstruowany kod jest poprawnym kodem, który w dodatku 3. jest dowodem tego zdania, bo jest
+2. skonstruowany kod jest poprawnym kodem, który w dodatku 3. jest dowodem tego zdania, bo jest
 termem tego typu zdaniowego, i że wobec tego to zdanie jest prawdziwe (w takim jakby najmocniejszym
-tego słowa znaczeniu).
+tego słowa znaczeniu.
 
-W tym momencie to, że to nie są te same rzeczy, może Ci się wydawać zrozumiałe i może wręcz nie
+W tym momencie to, że to nie są te same rzeczy, może Ci się wydawać zrozumiałe a może nawet nie
 warte objaśniania, ale przypuszczam, że te fundamentalne rozróżnienia będą Ci na początku sprawiały
 trudności nawet w stosunkowo prostych sytuacjach. Dlatego przypominam jeszcze raz - oswojenie się z
 tym wszystkim jest przede wszystkim kwestią *czasu* (i przerw! \{i kontrolowania frustracji,
@@ -504,24 +518,26 @@ zmęczenia i nudy\}).
 
 Oswajanie się z nieznanymi wcześniej fragmentami matematyki może przypominać ... wykształcanie się
 [skrzel](https://pl.wikipedia.org/wiki/Skrzela_(anatomia)). Na początku czujemy, że zanurzamy się w
-nowym, obcym (pojęciowym) środowisku, w którym nie jesteśmy w stanie przebywać zbyt długo i szybko
-się męczymy; to jest więc trochę tak, jakbyśmy się znaleźli pod powierzchnią wody - co prawda nie
-umieramy od razu, ale nie jesteśmy też w stanie tak długo wytrzymać. Jednak z czasem, jeżeli tylko
-będziemy nadal wracać do tego początkowo nowego dla nas środowiska, po przerwach - w których możemy
-normalnie oddychać, odzyskujemy siły i nabywamy jakiś adaptacji - będzie się ono dla nas stawało
-coraz bardziej znajome i naturalne. Aż w końcu wykształcimy coś w rodzaju mentalnego organu, którego
-wcześniej nie było, a dzięki któremu jesteśmy w stanie coraz dłużej oddychać w nieprzyjaznej
-atmosferze ekstremalnej, wieloaspektowej i wielorako splątanej abstrakcji. W ten sposób uczymy się
-nowych wyspecjalizowanych języków, a wraz z nimi nowych, mniej lub bardziej uniwersalnych sposobów
-konsekwentnego myślenia, które oferuje współczesna matematyka.
+nowym, obcym (pojęciowym) środowisku, w którym nie jesteśmy w stanie przebywać zbyt długo i w którym
+szybko się męczymy. To jest więc trochę tak, jakbyśmy się znaleźli pod powierzchnią wody. Wtedy nie
+umieramy co prawda od razu, ale nie jesteśmy też w stanie tak długo wytrzymać. Jednak z czasem,
+jeżeli tylko będziemy nadal wracać do tego początkowo nowego dla nas środowiska, po przerwach - w
+których możemy normalnie oddychać, odzyskujemy siły i nabywamy jakiś adaptacji - będzie się ono dla
+nas stawało coraz bardziej znajome i naturalne. Aż w końcu wykształcimy coś w rodzaju mentalnego
+organu, którego wcześniej nie było, a dzięki któremu będziemy w stanie coraz dłużej oddychać w
+nieprzyjaznej atmosferze ekstremalnej, wieloaspektowej i wielorako splątanej abstrakcji. W ten
+sposób uczymy się nowych wyspecjalizowanych języków, a wraz z nimi nowych, uniwersalnych sposobów
+swobodnego i konsekwentnego myślenia niemal o czymkolwiek, które oferuje współczesna matematyka.
+
+To wyjątkowo długi rozdział, a to miejsce jest blisko jego środka, dlatego przypominam o przerwach!
 
 ## Implikacje jako funkcje
 
-Implikacja jest być może najważniejszym spójnikiem w logice. Mówiąc luźno, implikacjami nazywamy
-zdania o postaci *Jeżeli A, to B*, gdzie *A* i *B* to *dowolne* zdania, proste lub złożone (i tylko
-same zdania, a nie ich prawdziwość czy fałszywość, albo fakt bycia dowiedzionym, albo ich
-dowody). Implikacje zapisujemy formalnie za pomocą strzałki skierowanej w prawo: *→* (w literaturze
-często spotykamy też symbol *⇒*). Wygląda znajomo?
+Implikacja jest najważniejszym spójnikiem w logice. Mówiąc luźno, implikacjami nazywamy zdania o
+postaci *Jeżeli A, to B*, gdzie *A* i *B* to *dowolne* zdania, proste lub złożone (i tylko same
+zdania, a nie ich prawdziwość czy fałszywość, albo fakt bycia dowiedzionym, albo ich dowody).
+Implikacje zapisujemy formalnie za pomocą strzałki skierowanej w prawo: *→* (w literaturze często
+spotykamy też między innymi symbol *⇒*). Wygląda znajomo?
 
 Jeżeli *A* i *B* to zdania - i tylko wtedy - to formalnie, czyli w "oficjalnym" języku matematyki,
 implikację *Jeżeli A, to B* zapisujemy zwykle jako *A → B*. Nic? Żadnych skojarzeń?
@@ -533,27 +549,29 @@ czytamy jako *Jeżeli A, to B*. A mówiąc trochę dłużej: Zawsze, gdy mamy ja
 różne zdania *A* i *B*, możemy napisać *A → B* i to będzie [*formuła
 logiczna*](https://pl.wikipedia.org/wiki/Formu%C5%82a_logiczna), którą interpretujemy jako
 niekoniecznie prawdziwe, ani tym bardziej udowodnione zdanie *Jeżeli A, to B*. Mówimy też, że *→* to
-w logice pewna *dwuargumentowa operacja* albo *działanie*, tyle, że na zdaniach, które z dwóch *zdań
-jako takich* (niekoniecznie udowodnionych czy prawdziwych) "robi" jedno (niekoniecznie udowodnione
-czy prawdziwe) unikalne zdanie złożone, dające się konsekwentnie interpretować jako *Jeżeli A, to
-B*.
+pewna *dwuargumentowa operacja* albo *działanie*, tyle, że na zdaniach, które z dwóch *zdań jako
+takich* (niekoniecznie udowodnionych czy prawdziwych) *A* i *B* "robi" jedno (niekoniecznie
+udowodnione czy prawdziwe) unikalne zdanie złożone, dające się konsekwentnie interpretować jako
+*Jeżeli A, to B*.
 
-Ze słowem "robi" (albo "tworzy") użytym w ten sposób jest pewien problem. Na mocy przyjętych
-konwencji, jeżeli *A* to (coś, co oznacza) zdanie i *B* to (coś, co oznacza) zdanie, to *wyrażenie
-powstające przez zestawienie* A *i* B *a między nimi symbolu* → *jest zdaniem*. To wyrażenie oznacza
-zdanie, które jest implikacją, której poprzednikiem jest zdanie (oznaczone jako) *A*, a następnikiem
-jest zdanie (oznaczone jako) *B*. A więc strzałka jest oznaczeniem operacji tworzenia implikacji,
-ale ta operacja nic nie robi, bo istnieje tylko jako pewne abstrakcyjne przyporządkowanie pewnych
-zdań (o postaci implikacji) uporządkowanym parom dowolnych zdań. Ta operacja jest zatem tylko
-funkcją w znaczeniu matematycznym, a nie na przykład teoriotypowym. Dlatego słowo "operacja" też
-jest tu trochę problematyczne.
+Ze słowem "robi" (albo "tworzy", albo "daje") użytym w ten sposób jest pewien problem. Na mocy
+przyjętych konwencji, jeżeli *A* to (coś, co oznacza) zdanie i *B* to (coś, co oznacza) zdanie, to
+*wyrażenie powstające przez zapisanie* A, *potem symbolu* →, *a na końcu* B *jest* parametrycznym
+*zdaniem*. To wyrażenie oznacza jakieś zdanie będące implikacją, której poprzednikiem jest zdanie
+(oznaczone jako) *A*, a następnikiem jest zdanie (oznaczone jako) *B*. A więc strzałka jest w pewnym
+sensie oznaczeniem *operacji* tworzenia implikacji, ale *ta operacja nic nie robi*, bo istnieje
+tylko jako pewne *abstrakcyjne przyporządkowanie* pewnych zdań (o postaci implikacji) dowolnym
+uporządkowanym parom zdań. Ta operacja jest zatem tylko funkcją w znaczeniu matematycznym, a nie na
+przykład teoriotypowym. Dlatego słowo "operacja" też jest tu problematyczne.
 
-Właściwie "operacyjność" czy "działaniowość" zachodzi tu na dwa sposoby. Po pierwsze, rozważane
-przez nas implikacje zwykle skądś się biorą, na przykład, ta tutaj parametryczna implikacja została
-stworzona przeze mnie. A po drugie, fakt, że zapis tej sekwencji symboli jest implikacją polega na
+Właściwie "operacyjność" czy "działaniowość" zachodzi tu na dokładnie dwa sposoby. Po pierwsze,
+rozważane przez nas implikacje zwykle skądś się biorą, na przykład, ta tutaj parametryczna
+implikacja została stworzona przeze mnie, jest więc rezultatem albo skutkiem pewnego procesu, w
+którym brałem udział. A po drugie, fakt, że zapis tej sekwencji symboli jest implikacją polega na
 tym, że my, czytelnicy tego tekstu zachowujemy się w pewien sposób wobec tego zapisu, to jest
-traktujemy go jako implikację. To nie polega na tym, że symbol *→* oznacza jakiś działający
-niezależnie od nas mechanizm, który może przetwarzać w jakiś sposób zdania.
+traktujemy go jako implikację, i to też jest pewien proces i sposób działania. Operacyjność czy
+działaniowość nie polega tu jednak na tym, że symbol *→* oznacza jakiś działający niezależnie od nas
+mechanizm, który może przetwarzać zdania i produkuje zdania.
 
 <hr>
 
