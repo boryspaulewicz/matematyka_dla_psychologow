@@ -586,24 +586,21 @@ Jeżeli `A` i `B` to *typy*, to `A → B` jest *typem funkcyjnym*.
 Jeżeli *A* i *B* to *zdania*, to *A → B* jest *implikacją*.
 
 Ponieważ zdania to w teorii typów tylko specjalne typy, drugie zdanie jest szczególnym przypadkiem
-pierwszego.
-
-Analogia, a raczej doskonałe dopasowanie jakie występuje między zdaniami i (pewnymi) typami może
-wyglądać jak wieloznaczność i w pewnym sensie nią jest. Jednak wieloznaczności występują w języku
-naturalnym powszechnie i jakoś sobie z nimi radzimy. To byłaby wieloznaczność *problematyczna*,
-gdybyśmy sprawili, że nie wiadomo, *którą* interpretację stosujemy i gdyby *jednocześnie* ta różnica
-w dopuszczalnych interpretacjach miała znaczenie dla *poprawności wniosków*. Używając układu
-współrzędnych też korzystałaś z podwójnej interpretacji, a więc z pewnego rodzaju wieloznaczności
-(na przykład, słowo "punkt" możesz rozumieć jako nazwę na punkt na płaszczyźnie albo uporządkowaną
-parę liczb) i wyszło Ci to na dobre, prawda?
+pierwszego. Analogia, a raczej doskonałe dopasowanie jakie występuje między zdaniami i (pewnymi)
+typami może wyglądać jak wieloznaczność i w pewnym sensie nią jest. Jednak wieloznaczności występują
+w języku naturalnym powszechnie i jakoś sobie z nimi radzimy. To byłaby wieloznaczność
+*problematyczna*, gdybyśmy sprawili, że nie wiadomo, *którą* interpretację stosujemy i gdyby
+*jednocześnie* ta różnica w dopuszczalnych interpretacjach miała znaczenie dla *poprawności
+wniosków*. Używając układu współrzędnych też korzystałaś z podwójnej interpretacji, a więc z pewnego
+rodzaju wieloznaczności (na przykład, słowo "punkt" możesz rozumieć jako nazwę oznaczającą dowolny
+punkt na płaszczyźnie albo uporządkowaną parę liczb) i wyszło Ci to na dobre, prawda?
 
 <hr>
 
-### Terminologia ugólna: "unikalność"
+### Co mają na myśli matematycy kiedy mówią, że coś jest unikalne
 
 W matematyce słowo "unikalne" nie znaczy "jedyne" ani "wyjątkowe", tylko "dokładnie jedno danego
-rodzaju". Wszędzie, gdzie pojawia się to słowo, można je zastąpić właśnie przez "dokładnie jedno
-danego rodzaju".
+rodzaju". Wszędzie, gdzie pojawia się to słowo, można je zastąpić właśnie przez ten zwrot.
 
 I tak, w przypadku implikacji otrzymujemy unikalne zdanie powstające w taki a nie inny sposób z
 każdej określonej pary zdań: Jeżeli *A* i *B* to zdania, to *A → B* jest unikalną implikacją
@@ -614,64 +611,69 @@ która z dwóch dowolnych, niekoniecznie różnych liczb, na przykład *2* i *2*
 w tym wypadku *4*. Ten wynik jest w przyjętym znaczeniu unikalny, chociaż dodawanie nieskończenie
 wielu innych par liczb (na przykład całkowitych) daje taki sam rezultat. 
 
-Mówimy też, że zdania w postaci implikacji są *funkcją* uporządkowanych par zdań. Uporządkowanych,
-bo ma znaczenie, które zdanie traktujemy jako poprzednik, a które jako następnik
-implikacji. Powiedzieć w matematyce, że coś jest unikalne i że coś jest jakąś funkcją czegoś to
-jedno i to samo, ponieważ słowo "funkcja" oznacza w matematyce przyporządkowanie dokładnie jednego
-czegoś do każdego czegoś należącego do jakiegoś zbioru. Na przykład, implikacje to wartości pewnej
-funkcji (jako abstrakcyjnego przyporządkowania) określonej na zbiorze uporządkowanych par zdań.
+Mówimy też, że zdania o postaci implikacji są *funkcją* uporządkowanych par zdań. Uporządkowanych,
+bo ma znaczenie, które zdanie traktujemy jako poprzednik, a które jako następnik implikacji.
+Powiedzieć w matematyce, że coś jest unikalne i że coś jest jakąś funkcją czegoś to jedno i to samo,
+ponieważ słowo "funkcja" oznacza w matematyce przyporządkowanie dokładnie jednego czegoś do każdego
+czegoś należącego do jakiegoś zbioru. A implikacje to wartości pewnej funkcji (jako abstrakcyjnego
+przyporządkowania) określonej na zbiorze uporządkowanych par zdań.
 
 <hr>
 
-**Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania. Tym razem jednak chociaż
-przez chwilę robiłem to celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że
-posługujemy się prostymi symbolami na oznaczenie dowolnie złożonych zdań, możemy lepiej zapanować
-nad strukturą rozumowań w sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo
-pogubić. Logika pozwala nam *w kontrolowany sposób ignorować treść*, *bez szkody dla
-poprawności*. To też, to jest pewnego rodzaju "beztreściowość", mamy na myśli mówiąc o "formalności"
-zapisu matematycznego. Wreszcie, formalny zapis ułatwia robienie czegoś, co jest ogromną siłą
-matematyki - ułatwia a właściwie umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów
-*mechanicznie*, jakbyśmy układali puzzle albo grali w jakąś inną grę. Wydaje mi się wręcz, że mówiąc
-o matematyce można by zastąpić słowo "formalne" słowem "mechaniczne" bez utraty treści.
+**Zalety maksymalnej formalności**: Wiem, że często piszę długie zdania, tym razem jednak robiłem to
+celowo. Chciałem w ten sposób zilustrować coś ważnego: Dzięki temu, że posługujemy się prostymi
+symbolami na oznaczenie dowolnie złożonych zdań, możemy lepiej zapanować nad strukturą rozumowań w
+sytuacjach, w których bez takiego skrótowego zapisu moglibyśmy się łatwo pogubić. Logika pozwala nam
+*w kontrolowany sposób ignorować treść*, *bez szkody dla poprawności*. To też, to jest pewnego
+rodzaju "beztreściowość", mamy na myśli mówiąc o "formalności" zapisu matematycznego. Wreszcie,
+formalny zapis ułatwia robienie czegoś, co jest ogromną siłą matematyki; ułatwia a właściwie
+umożliwia rozwiązywanie zarówno prostych jak i złożonych problemów *mechanicznie*, jakbyśmy układali
+puzzle albo grali w grę. Wydaje mi się wręcz, że mówiąc o matematyce można by zastąpić słowo
+"formalne" słowem "mechaniczne" bez utraty treści.
 
-Coś takiego będziemy właśnie robić, a właściwie już dawno zaczęliśmy robić. To znaczy, będziemy
-dalej grać w grę polegającą na konstruowaniu dowodów *całkowicie* formalizując przy tym każdy
-problem. Będziemy więc używać matematyki w sposób *bardziej* formalny, a więc również bardziej
-*niezawodny*, niż ma to zwykle miejsce nawet w zaawansowanych podręcznikach do
-matematyki. Matematycy raczej tak *nie* postępują, bo im się nie chce i (zwykle) nie muszą; zamiast
-tego polegają na domyślności kompetentnego odbiorcy i przekonaniu, że pisząc skrótowo i
-pół-formalnie nie popełniają błędów (co oczywiście *nie może* zawsze być prawdą).
+Coś takiego będziemy właśnie robić, a właściwie już zaczęliśmy robić. To znaczy, będziemy dalej grać
+w grę polegającą na konstruowaniu dowodów *całkowicie* formalizując każdy problem. Będziemy więc
+używać matematyki w sposób *bardziej* formalny, a więc również bardziej *niezawodny*, niż ma to
+zwykle miejsce nawet w zaawansowanych podręcznikach do matematyki. Matematycy raczej tak nie
+postępują, bo im się nie chce i (zwykle) nie muszą; zamiast tego polegają na domyślności
+kompetentnego odbiorcy i przekonaniu, że pisząc skrótowo i półformalnie nie popełniają błędów (co
+oczywiście nie może być zawsze prawdą).
 
-My nie chcemy się musieć niczego domyślać, bo nie jesteśmy tak kompetentni jak zawodowi
-matematycy. A poza tym, jako psychologowie wiemy, że nawet najwybitniejszym ekspertom, gdy robią
-coś, w czym są ekspertami, nie można całkiem ufać. Poza tym stąd, że jesteśmy psychologami, wynika,
-że zarówno sami matematycy, jak i wszystko, co zrobili, zrobią, lub co mogliby, albo nie mogliby
-zrobić *należy do przedmiotu naszych badań*.
+My nie chcemy się musieć niczego domyślać, bo nie jesteśmy tak kompetentni jak zawodowi matematycy.
+A poza tym, jako psychologowie wiemy (co dla nikogo to nie powinno być tajemnicą), że nawet
+najwybitniejszym ekspertom, gdy robią coś, w czym są ekspertami, nie można całkiem ufać. Poza tym
+stąd, że jesteśmy psychologami, wynika, że zarówno sami matematycy, jak i wszystko, co zrobili,
+zrobią, lub co mogliby zrobić *należy do przedmiotu naszych badań*. Bo dla nas, ludzi, po prostu nie
+ma czegoś takiego jak matematyka, której nie możemy w żaden sposób używać ani o której nie jesteśmy
+w stanie myśleć, a (celowe) używanie i myślenie to zjawiska swoiście psychologiczne.
 
 Pełna formalizacja wymaga dodatkowego wysiłku, ale dzięki niej będzie nam często *łatwiej*. Przede
 wszystkim zaś wszystko, co napiszemy, będzie *sprawdzone przez algorytm, który zawsze da nam
-odpowiedź, czy to, co napisaliśmy, jest poprawne*. Będziemy więc w pewnym sensie "zawsze bezpieczni"
-w swoich matematycznych eksperymentach.
+odpowiedź, czy to, co napisaliśmy, jest poprawne*. Będziemy więc w pewnym sensie "zawsze
+bezpieczni", nawet najbardziej swobodnych matematycznych eksploracjach.
 
 Koszt, który musimy ponieść, żeby to osiągnąć, to częściowe oswojenie się z co prawda mniej złożonym
 niż język polski, ale obcym, sztucznym i *nieludzko* sztywnym językiem, jakim jest formalny język (a
-raczej *języki*) matematyki. Tak samo jak to ma miejsce w przypadku nauki każdego nowego języka,
+raczej *języki*) matematyki. Poza tą ekstremalną sztywnością, nieludzki charakter języków matematyki
+polega też na tym, że używamy ich często jakby nie miało znaczenia, *o czym w nich mówimy*, to jest
+jako struktur składniowych. Tak samo jak to ma miejsce w przypadku nauki każdego nowego języka,
 trzeba się (tylko!) uzbroić w cierpliwość (jeszcze chyba wspomnę o tej cierpliwości później).
 
 Jest jak sądzę wiele prawdy w stwierdzeniu, którego autorem jest genialny polski matematyk [Jerzy
 von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), że często (co nie znaczy, że zawsze)
 matematykę się nie tyle *rozumie*, ile raczej się do niej stopniowo *przyzwyczaja*. Dodam do tego od
 siebie, że gdy się już trochę do niej przyzwyczai (co wymaga przede wszystkim *czasu*), to
-zadziwiająco często okazuje się, że jej pojęcia, twierdzenia i teorie wyrażają coś, co rozumiało się
-nieźle już wcześniej, tylko nie umiało się o tym dostatecznie konsekwetnie albo spójnie mówić, a
-więc również dostatecznie jasno i skutecznie myśleć.
+zadziwiająco często okazuje się, że jej pojęcia, twierdzenia i teorie wyrażają coś, co rozumieliśmy
+nieźle już wcześniej, tylko nie umieliśmy o tym dostatecznie konsekwetnie albo spójnie mówić, a więc
+również dostatecznie jasno i skutecznie myśleć.
 
 Bo matematyka jest między innymi właśnie obcym i sztucznym językiem, a właściwie stale rosnącą
 kolekcją wyspecjalizowanych i sztucznych języków, i żeby zrozumieć to, o czym i w jaki sposób w tych
-obcych i sztucznych językach można mówić i myśleć, trzeba *przyzwyczaić się* do najbardziej
+obcych i sztucznych językach możemy mówić i myśleć, trzeba *przyzwyczaić się* do najbardziej
 podstawowych zasad dotyczących tego, jak się ich używa, to jest do *reguł składniowych*. A to wymaga
-sporo czasu, tak samo jak sporo czasu wymaga opanowanie gramatyki na przykład języka polskiego. Ale
-chyba już wystarczająco wiele razy powtórzyłem, co na ten temat myślę, może więc przejdźmy do
+sporo czasu, tak samo jak sporo czasu wymaga opanowanie gramatyki na przykład języka polskiego.
+
+Chyba wystarczająco wiele razy powtórzyłem, co na ten temat myślę, może więc przejdźmy już do
 następnego wątku.
 
 ## Pojęcie prawdy w logice konstruktywnej
@@ -690,10 +692,11 @@ Jak również:
 *Dla każdego zdania P, jeżeli nieprawda, że nieprawda, że P, to P*.  
 (inne zdanie prawdziwe w logice klasycznej)
 
-Zwracam uwagę, że te zdania są *parametryczne* i mówiąc coś o *wszystkich możliwych* (poprawnych
-składniowo) zdaniach. W pierwszej chwili może się wydawać, że oba są w oczywisty sposób prawdziwe,
-ale po chwili zastanowienia zaczną Ci pewnie przychodzić do głowy problematyczne przykłady. Choćby
-taki: czy faktycznie albo jest prawdą, że "ludzie są dobrzy", albo "nieprawda, że ludzie są dobrzy"?
+Zwracam uwagę, że te zdania są *parametryczne*, bo mówią coś o *wszystkich możliwych* (poprawnych
+składniowo) zdaniach. W pierwszej chwili może się wydawać, że oba te zdania są w oczywisty sposób
+prawdziwe, ale po chwili zastanowienia zaczną Ci pewnie przychodzić do głowy problematyczne
+przykłady, takie jak ten: Czy faktycznie albo jest prawdą, że "ludzie są dobrzy", albo "nieprawda,
+że ludzie są dobrzy"?
 
 W Leanie domyślnie (można to łatwo zmienić, ale nie będziemy tego teraz robić) używamy logiki
 konstruktywnej, inaczej *intuicjonistycznej*, a nie klasycznej. Ta logika jest "ostrożniejsza" w tym
@@ -703,10 +706,10 @@ są *słabsze*, w znaczeniu mniej *zobowiązujące*, albo - czasami - mniej
 [*spekulatywne*](https://pl.wiktionary.org/wiki/spekulatywny). W logice konstruktywnej można
 przyjąć, że:
 
-*Zdanie prawdziwe to to samo, co zdanie, które ma dowód.*  
+*Zdanie prawdziwe to to samo, co zdanie, które ma dowód.*
 (dopuszczalna interpretacja prawdy w logice konstruktywnej)
 
-"Które ma dowód" a nie "udowodnione", bo to ostatnie słowo (które tu było długo zamiast "ma dowód")
+"Które ma dowód", a nie "udowodnione", bo to ostatnie słowo (które tu było długo zamiast "ma dowód")
 przynajmniej sugeruje, że chodzi o fakt wskazania przez kogoś dowodu. A na czym, w ogólnym
 przypadku, polega różnica między "prawdziwe" i "posiadające dowód"? Jeżeli postanowimy intepretować
 słowo "prawdziwe" jako równoznaczne z "udowodnione" (już wiedząc, że nie całkiem nam o to chodzi,
@@ -746,9 +749,14 @@ jako wniosek, a więc wtedy jako zdanie udowodnione) pojawiło się zdanie *A*, 
 Albo tak: Ta akurat reguła (reguła *wprowadzenia* implikacji) mówi, że jeżeli zakładając *A* (i być
 może przyjmując wcześniej inne założenia) da się wyprowadzić w jakikolwiek sposób (to właśnie
 oznaczają te zapisane pionowo kropki) *B*, to można wprowadzić albo zaakceptować albo uznać za
-prawdziwe (na mocy wszystkich wcześniejszych założeń i wyprowadzonych wniosków) zdanie *A →
-B*. Mówiąc krótko: Jeżeli w danym kontekście z *A* da się wyprowadzić *B*, to można w tym kontekście
+prawdziwe (na mocy wszystkich wcześniejszych założeń i wyprowadzonych wniosków) zdanie *A → B*.
+Mówiąc krótko: Jeżeli w danym kontekście z *A* da się wyprowadzić *B*, to można w tym kontekście
 zaapceptować zdanie *A → B*. Mówiąc najkrócej: Jeżeli z *A* wynika *B*, to *A → B*.
+
+Ale trzeba uważać w tym kontekście na słowo "wynika", bo ta reguła dedukcji *nie* wymaga, żeby dowód
+*B* przy założeniu *A* korzystał w jakikolwiek sposób z *A*. Na przykład, jeżeli *A* i *B* to
+zdania, to można udowodnić zdanie *A → (B → B)*, bo *B → B* jest zdaniem prawdziwym, a więc możemy
+to zdanie udowodnić przy założeniu *A*.
 
 Ponieważ w logice konstruktywnej "prawdziwe" znaczy to samo, co "ma (jakiś) dowód", ta reguła
 dedukcji ma w tej konstruktywnej następującą *interpretację*:
@@ -760,7 +768,7 @@ Albo krócej: Dowód *A → B* to sposób uzyskania dowodu *B* z dowolnego dowod
 
 Czy widzisz, że to jest ciągle ta sama reguła dedukcji, ale wydaje się zmieniać, bo zmieniamy
 sposób, w jaki *my* o niej mówimy i w jaki jej używamy, to jest w jaki interpretujemy pojęcie prawdy
-(albo akceptacji zdania w dowodzie)?
+(albo znaczenie naszego aktu wprowadzania/akceptacji zdania w dowodzie)?
 
 Jeżeli `A` jest zdaniem, czyli typem i zarazem termem typu `Prop`, to term typu `A` jest dowodem
 (prawdziwości) zdania `A`. Wobec tego ...
@@ -778,43 +786,45 @@ zdanie, to *Jeżeli* A *, to* A. Nic prostszego, prawda?
 
 O ile tylko będziesz cierpliwa, to przyjdzie taki moment, w którym moje próby przyzwyczajenia Cię do
 interpretacji typów jako zdań i termów tych typów jako ich dowodów staną się irytujące, ponieważ to
-wszystko będzie dla Ciebie dosyć oczywiste i naturalne. Będziesz wtedy nawet wolała się nad tym za
-bardzo *nie* zastanawiać, podobnie jak ktoś, kto nauczył się w miarę płynnie grać utwór na pianinie
-woli nie myśleć o nazwach kolejno granych akordów czy nut.
+wszystko stanie się dla Ciebie naturalne. Będziesz wtedy nawet wolała się nad tym za bardzo *nie*
+zastanawiać, podobnie jak ktoś, kto nauczył się w miarę płynnie grać jakiś utwór na pianinie woli
+nie myśleć o nazwach kolejno granych akordów czy nut.
 
 Jeszcze jedna uwaga na temat często stosowanych, ale rzadko objaśnianych konwencji: Gdy matematycy
 nagle zmieniają notację i wydaje się, że bez powodu na oznaczenie tego samego zamiast małych liter
 używają dużych, często chcą w ten sposób zasugerować, że mają na myśli również dowolnie *złożone*,
-albo bardziej złożone niż wcześniej, albo w pewnym sensie większe obiekty danego rodzaju. Tutaj
-zacząłem w pewnem momencie oznaczać zdania dużymi literami właśnie w tym celu, to jest żeby
-zaznaczyć, że chodzi o wszystkie możliwe zdania, a więc nie tylko atomowe, ale również dowolnie
-złożone.
+albo bardziej złożone niż wcześniej, albo w pewnym sensie większe obiekty danego rodzaju. Albo chcą
+tylko zwrócić uwagę czytelników na bogactwo możliwych wartości oznaczanych dużymi literami
+zmiennych. Tutaj zacząłem w pewnem momencie oznaczać zdania dużymi literami właśnie żeby zaznaczyć,
+że chodzi o wszystkie możliwe zdania, a więc nie tylko atomowe, ale również dowolnie złożone.
 
-Przypominam na koniec fragment prozy matematycznej, który pojawił się w trzecim rozdziale:
+Przypominam na koniec fragment matematycznej prozy, który pojawił się w czwartym rozdziale:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
 Czy widzisz, że *dokładnie to samo* możemy zapisać w dosyć *naturalny, zwięzły i czytelny* sposób w
-(częściowo już) naszym języku jako (ilustracja) ...
+(częściowo już *naszym*) języku jako (ilustracja) ...
 
 ```lean
 def przemiennosc_dodawania (n : Nat) (m : Nat) : n + m = m + n := ...
 ```
 
 ... gdzie `n + m = m + n` to *zdanie parametryczne* a wielokropek oznacza brakujący dowód? W Leanie
-to zdefiniowane już twierdzenie jest dostępne jako wartość stałej `Nat.add_comm`, gdzie *comm* to
-skrót od angielskiego *commutativity*, oznaczającego przemienność (tutaj akurat operacji dodawania).
+to twierdzenie jest dostępne jako wartość stałej `Nat.add_comm`, gdzie *comm* to skrót od
+angielskiego *commutativity*, oznaczającego przemienność (tutaj akurat operacji dodawania).
 
 Ponieważ matematyka to dla nas programowanie, a twierdzenia to dla nas funkcje, możemy *stosować
-twierdzenia w taki sam sposób w jaki stosujemy wszystkie inne funkcje jako programy*:
+twierdzenia w taki sam sposób w jaki stosujemy wszystkie inne funkcje*:
 
 ```lean
 -- `Nad.add_comm` to twierdzenie i jednocześnie funkcja dwuargumentowa, która z podanych argumentów 
 -- odpowiedniego typu tworzy dowód szczególnej wersji zdania `n + m = m + n`, gdzie `n` i `m` to parametry.
-#check Nat.add_comm -- Nat.add_comm (n m : Nat) : n + m = m + n
+#check Nat.add_comm     -- Nat.add_comm (n m : Nat) : n + m = m + n
 
--- Jak widać, sama aplikacja `Nad.add_comm 2 3` jest dowodem zdania `2 + 3 = 3 + 2`:
+-- Już *sama aplikacja* `Nad.add_comm 2 3` *jest dowodem* zdania `2 + 3 = 3 + 2`:
 #check Nat.add_comm 2 3 -- Nat.add_comm 2 3 : 2 + 3 = 3 + 2
+-- Jak widać, *nie trzeba ewaluować* tej aplikacji żeby ustalić, że jest dowodem tego zdania, wystarczy
+-- sprawdzić jej typ. O czym powiem więcej kiedy indziej.
 ```
 
 Jeżeli masz ochotę, to może zerknij znowu na [tą część rozdziału
@@ -826,5 +836,5 @@ i zobacz, czy zmienił się sposób, w jaki teraz postrzegasz i rozumiesz to, o 
 [^1]: Dawno, dawno temu byłem w Krakowie na koncercie zespołu
     [5’nizza](https://pl.wikipedia.org/wiki/5%E2%80%99nizza), na którym Serhij Babkin i Andriej
     Zaporożec wykonywali utwory z płyty [П'ятниця](https://www.youtube.com/watch?v=nnWMrmTWonI),
-    której lubiłem wtedy słuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką i wtedy
-    usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
+    której lubiłem wtedy czasami posłuchać. W pewnym momencie któryś z wykonawców sięgnął po butelką
+    i wtedy usłyszałem z sali krzyk "Nie pij tej wody!". Uważam, że to było bardzo śmieszne.
