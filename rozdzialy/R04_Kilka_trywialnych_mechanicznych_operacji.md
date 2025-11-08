@@ -182,13 +182,13 @@ często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później 
 inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim wstępem. Gdy zapowiadałem potem uczestnikom, że
-będą go sami go dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną panikę widziałem
+będą go sami dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną panikę widziałem
 zresztą w oczach pracowników naukowych, którzy byli obecni na moim otwarciu przewodu, kiedy na
 slajdach pojawił się symbol [*sumy indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana)
 (*∑*). W tym roku po raz pierwszy spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na
 pierwszych albo drugich zajęciach, i postarałem się nakłonić wszystkich, żeby skupili się tylko na
 prostych formalnych przekształceniach, takich jak stosowanie zasady przechodniości relacji równości.
-Różnica w *wykonaniu*, chociaż niekoniecznie w *zrozumieniu*, była oczywista.
+Różnica w *wykonaniu*, nawet jeśli niekoniecznie w *zrozumieniu*, była oczywista.
 
 **Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na kartce trzy zdania, które
 będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze
@@ -214,60 +214,71 @@ Poza wymienionymi aksjomatami będziemy jeszcze potrzebować *definicji* symbolu
 
 Zapisz teraz nową wersję definicji tej pionowej kreski, ale wpisując *y* wszędzie tam, gdzie w
 wersji źródłowej jest *x*, a *x* wszędzie tam, gdzie w wersji źródłowej jest *y*. Czyli potraktuj tą
-definicję jak przepis, tak jak pewnego rodzaju przepisem był dla nas wcześniej fragment
-matematycznej prozy dotyczącej przemienności dodawania. Uzyskasz w ten sposób dwie wersje zdania
-będącego treścią definicji - oryginalną i tą, która powstała przez podstawianie.
+definicję jak przepis, tak jak pewnego rodzaju przepisem był dla nas wcześniej fragment prozy
+matematycznej dotyczący przemienności dodawania. Uzyskasz w ten sposób dwie wersje zdania będącego
+treścią definicji - oryginalną i tą, która powstała przez podstawianie.
 
 Skorzystaj z aksjomatu *3* w jedyny sposób, w jaki możesz, żeby ustalić, że lewe strony obydwu
-wersji definicji są równe (na mocy przechodniości równości). Zapisz tą równość.
+wersji definicji są równe (na mocy przechodniości relacji równości). Zapisz tą równość.
 
 Podziel obie strony przez *p(y)*, zakładając oczywiście, że ta wartość jest różna od zera (wynik
 dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założyła, mam na myśli, żebyś
 "miała tego świadomość". Uprość jedyną stronę równania, którą da się w tym momencie uprościć.
 
-Jeżeli wykonałaś wszystkie te *trywialne*, *mechaniczne* operacje zgodnie z instrukcjami, to udało
+Jeżeli wykonałaś poprawnie wszystkie te *trywialne*, *mechaniczne* operacje, polegające tylko na
+podstawianiu pewnych wyrażeń w miejsce innych wyrażeń zgodnie z kilkoma prostymi regułami, to udało
 Ci się udowodnić nieznacznie uproszczoną wersję twierdzenie Bayesa. W dodatku zrobiłaś to już po raz
-drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko cechami *powierzchownymi*,
-w tym wypadku nazwami stałych. Moim studentom, kiedy udowadniają w ten (drugi) sposób to twierdzenie
-po raz pierwszy w życiu, nie zajmuje to więcej niż 15 minut.
+drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko nazwami stałych, a to są
+cechy *nieistotne*. Moim studentom, kiedy udowadniają w ten (drugi) sposób to twierdzenie po raz
+pierwszy w życiu, nie zajmuje to więcej niż 15 minut.
 
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
-między innymi, to znaczy o duży stopień ogólności, chodzi w tego rodzaju twierdzeniach?
+między innymi, to znaczy o duży stopień ogólności, a mówiąc dokładniej właśnie o *parametryczność*
+pozwalającą korzystać z nich w wielu różnych sytuacjach przez podstawianie chodzi w tego rodzaju
+twierdzeniach?
 
 <hr>
 
-**Dygresja na temat różnicy między aksjomatem i (zwykłą) definicją**: Kilka razy posłużyłem się w
+**Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami**: Kilka razy posłużyłem się w
 tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę jeszcze do nich wracał, ale na
 wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w matematyce*. Jeżeli jeszcze nie
 "czujesz", o czym tu mówię, nie przejmuj się tym, bo nie bez powodu nazwałem ten fragment
 "dygresją".
 
-Wszystkie aksjomaty są (specyficznymi) definicjami, a wszystkie definicje są (czyimiś) decyzjami. W
-matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że aksjomat jest *decyzją*,
-że *jakiś nowy symbol oznacza coś jakiegoś typu, bo tak*, a definicja jest *decyzją*, że *jakiś nowy
-symbol oznacza to samo, co jakieś dające się już poprawnie skonstruować wyrażenie, oznaczające coś
-jakiegoś typu*.
+*Zwykłe definicje są wyborami językowymi określającymi alternatywne, zwykle krótsze i ułatwiające
+czytanie ze zrozumieniem sposoby zapisywania tego samego. Aksjomaty też są definicjami, a więc
+pewnymi językowymi wyborami a nie założeniami, ale określającymi sposoby zapisywania niczego*.
 
-Na przykład, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną, czyli że *istnieje coś,
-co oznacza symbol "0", i to coś jest liczbą naturalną, bo tak*. Fragment "bo tak" można rozumieć
-między innymi jako "mówmy odtąd w ten sposób", to jest jako *arbitralną regułę komunikacyjną*. Inny
-*aksjomat* Peano mówi, że istnieje (tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z
-niczego innego) operacja *następnika*, która z każdej liczby naturalnej "robi" (nie wiadomo jak)
-jakąś liczbę naturalną.
+Ciekawe, prawda? W matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że
+aksjomat jest *decyzją*, że *jakiś nowy symbol oznacza coś jakiegoś typu, bo tak*, a definicja jest
+*decyzją*, że *jakiś nowy symbol oznacza to samo, co jakieś dające się już poprawnie skonstruować
+wyrażenie, oznaczające coś jakiegoś typu*. Ponieważ to decyzje, nie ma sensu pytanie, czy zwykłe
+definicje albo aksjomaty są prawdziwe albo fałszywe, natomiast zawsze można zapytać, czy te decyzje
+albo wybory są korzystne lub udane ze względu na określone cele.
 
-Z kolei *definicja* symbolu "1" mówi, że "1" oznacza to samo, co dające się *skonstruować* na mocy
-wcześniejszych aksjomatów wyrażenie "następnik 0". W końcu *0* jest na mocy aksjomatu liczbą
-naturalną, a *następnik* jest na mocy aksjomatu funkcją, którą możemy stosować do dowolnych liczb
-naturalnych, w tym również do *0*. A więc wyrażenie "następnik 0" oznacza konkretną liczbę
-naturalną, którą da się uzyskać stosując konkretną, chociaż w żaden sposób nie skonstruowaną funkcję
-*następnik* do również konkretnej, ale nie skonstruowanej liczby *0*, i którą to liczbę (na mocy
-definicji) możemy zapisać za pomocą symbolu "1".
+Na przykład, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
+*stwierdzenie*, że istnieje coś, co znaczy symbol "0" i to coś jest liczbą naturalną, bo tak. Ale
+nie trzeba. Niezależnie od tego, czy przyjmiemy, że liczba zero w takim lub innym znaczeniu
+istnieje, teoria liczb naturalnych będzie działała tak samo dobrze jako narzędzie rozwiązywania
+typowych problemów, do jakich ją stosujemy. Fragment "bo tak" można rozumieć jako "będziemy odtąd w
+ten sposób pisać", to jest jako *arbitralną regułę komunikacyjną*. Inny *aksjomat* Peano mówi, że
+istnieje (tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego innego) operacja
+*następnika*, która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy nijak) jakąś
+(unikalną) liczbę naturalną.
+
+Z kolei już zwykła, bo nie aksjomatyczna *definicja* symbolu "1" mówi, że "1" oznacza to samo, co
+dające się *skonstruować* na mocy wcześniejszych aksjomatów wyrażenie "następnik 0". W końcu *0*
+jest na mocy aksjomatu liczbą naturalną, a *następnik* jest na mocy aksjomatu funkcją, którą możemy
+stosować do dowolnych liczb naturalnych, w tym również do *0*. A więc wyrażenie "następnik 0"
+oznacza konkretną liczbę naturalną, którą da się uzyskać stosując konkretną, chociaż w żaden sposób
+nie skonstruowaną funkcję *następnik* do również konkretnej, ale nie skonstruowanej liczby *0*, i
+którą to liczbę (na mocy definicji) możemy zapisać za pomocą symbolu "1".
 
 Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
 do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
 alternatywne sposoby zapisu*, służące zwykle do tego, żeby można było coś napisać krócej lub
-bardziej czytelnie.
+bardziej zrozumiale.
 
 <hr>
 
@@ -285,40 +296,42 @@ elementarnych*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_zdarze%C5%84_eleme
 zdarzeniach zdefiniowanych
 [ogólniej](https://pl.wikipedia.org/wiki/Przestrze%C5%84_probabilistyczna). Jednak jako narzędzie
 stworzone dla pewnych celów dydaktycznych i w rękach kogoś, kto zna i ma na uwadze te ograniczenia,
-taka uproszczona wersja jest moim zdaniem znacznie lepsza, niż nic. Wystarcza na przykład do
+taka uproszczona wersja jest moim zdaniem znacznie lepsza niż nic. Wystarcza na przykład do
 zilustrowania wielu ciekawych zastosowań twierdzenia Bayesa w psychologii, albo do snucia ogólnych
 rozważań na temat oceny hipotez empirycznych.
 
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej, agresywnie bezsensownej
 wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
-zaczęło do mnie lepiej docierać, co z tego wynika. Gdy poprosiłem doktorantów o skonstruowanie,
-według wskazówek zapisanych w skrypcie w języku Lean, dowodów kilku prostych tautologii, większość,
-o ile nie wszyscy, wykonali to zadanie z łatwością. Gdy zapytałem potem o wrażenia - o ile dobrze
-pamiętam po chwili wahania - zgłosiła się Sofiia Honcharova, i zdobyła się na odwagę, żeby
-powiedzieć, że chociaż wykonała zadanie dość szybko, to *nie wiedziała, co się stało*.
+zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu, z którego
+niedługo potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie, według wskazówek
+zapisanych w skrypcie w języku Lean, dowodów kilku prostych tautologii, większość, o ile nie
+wszyscy, wykonali to zadanie z łatwością. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po
+chwili wahania - zgłosiła się Sofiia Honcharova, i zdobyła się na odwagę, żeby powiedzieć, że
+chociaż wykonała zadanie dość szybko, to *nie wiedziała, co się stało*.
 
 Ta odpowiedź nie dawała mi później spokoju, dlatego poprosiłem Sofiię, żeby spróbowała powiedzieć
-więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to trafiła w
-sedno. *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według wskazówek*, tak samo
-jak *weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są czynności
-mechaniczne, to znaczy, że można zarówno *skonstruować* (ale nie *znaleźć*) dowód jak i *sprawdzić*
-go *nie rozumiejąc sensu dowodzonego twierdzenia*. Wynika stąd, że sama *znajomość dowodu mówi
-niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
+coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to trafiła w sedno.
+*Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według wskazówek*, tak samo jak
+*weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są czynności mechaniczne,
+to znaczy, że można zarówno *skonstruować* dowód *według instrukcji* (ale nie *znaleźć*) jak i
+*sprawdzić* go *nie rozumiejąc sensu dowodzonego twierdzenia*. Wynika stąd, że sama *znajomość
+dowodu mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
 
 Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego
-pomocą *innych* zdań lub rozwiązując jakieś problemy, poznając w ten sposób jego
-*konsekwencje*. Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci
-dać. Rolą dowodu *nie* jest *ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego
-prawdziwości*, jak również - zawsze tylko częściowe - *ujawnienie znaczenia założeń
-dowodu*. Wykonując dwa razy ten sam w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie
-Bayesa wynika logicznie z pewnych reguł - i *w pewnym sensie* dowiedziałaś się czegoś na temat
-znaczenia czy sensu *tych reguł*, ponieważ miałaś okazję doświadczyć niektórych sposobów, w jaki
-można je *zastosować*, czyli poznałaś niektóre ich *konsenwencje*.
+pomocą *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*.
+Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać. Rolą dowodu
+*nie* jest *ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego prawdziwości*, jak
+również - zawsze tylko częściowe - *ujawnienie znaczenia założeń dowodu*. Wykonując dwa razy ten sam
+w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł
+- i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu *tych reguł*, ponieważ
+miałaś okazję doświadczyć niektórych sposobów, w jaki można je *zastosować*, czyli poznałaś niektóre
+ich *konsenwencje*.
 
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
-było, jest i zawsze już będzie prawdziwe. Od tego momentu o samym dowodzie, to jest o jego
-konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako ze
-wskazówki podczas poszukiwania innego dowodu.
+było, jest, i zawsze już będzie prawdziwe, choć tylko w tym znaczeniu, że jest nieuchronną
+konsekwencją przyjętych na początku wyborów językowych. Od tego momentu o samym dowodzie, to jest o
+jego konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako
+ze wskazówki podczas poszukiwania innego dowodu.
 
 Będziemy odtąd robić podobne rzeczy, ale [nie na
 kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
