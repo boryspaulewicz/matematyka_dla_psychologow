@@ -124,7 +124,9 @@ Za to podmioty (również hipotetyczne), istnieją (jeśli hipotetyczne, to aksj
 od tego, czy używają przepisów.
 
 Czy w takim razie matematyka i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ) nie są
-przypadkiem *subdyscyplinami psychologii*? Taka zagadka.
+przypadkiem *subdyscyplinami psychologii*?  
+
+Taka zagadka.
 
 <hr>
 
