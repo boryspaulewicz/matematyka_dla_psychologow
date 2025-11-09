@@ -39,9 +39,8 @@ Poza tym, że to muszą być *wyrażenia odpowiedniego typu*, to jest (na mocy j
 powszechnie przyjętych konwencji) wyrażenia *oznaczające liczby naturalne*, trzeba też pamiętać,
 żeby *podstawianie* było *konsekwentne*. To znaczy, w miejscu każdego wystąpienia *n* musi być
 podstawione to samo coś, co oznacza liczbę naturalną, i w miejscu każdego wystąpienia *m* musi być
-podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to dwie różne litery, to nie
-musimy pod nie podstawiać dwóch *różnych* "rzeczy" (albo "matematycznych obiektów"). I tak, zgodnie
-z przytoczonym fragmentem:
+podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to różne litery, to nie musimy
+pod nie podstawiać różnych wyrażeń. I tak, zgodnie z przytoczonym fragmentem:
 
 *2 + 3 = 3 + 2*
 (na mocy powszechnej konwencji, że *2* i *3* to liczby naturalne)
@@ -49,16 +48,16 @@ z przytoczonym fragmentem:
 A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 
 *a + b = b + a*  
-(na mocy wspomnianej deklaracji)
+(na mocy deklaracji)
 
 *a + 10 = 10 + a*  
-(jawna deklaracja dotycząca *a* i powszechna konwencja dotycząca *10*)
+(deklaracja dotycząca *a* i powszechna konwencja dotycząca *10*)
 
 *b + b = b + b*  
 (nie trzeba podstawiać różnych rzeczy)
 
 *(2 + 3 + a) + b = b + (2 + 3 + a)*  
-(możemy podstawiać też *złożone* wyrażenia odpowiedniego typu)
+(możemy podstawiać *złożone* wyrażenia odpowiedniego typu)
 
 Ostatnia równość jest wynikiem zastosowania twierdzenia o przemienności dodawania (przez poprawne
 podstawianie), ponieważ *2 + 3 + a* oznacza w tym kontekście (oto cały \{lokalny\} kontekst:
@@ -115,14 +114,14 @@ sposobem używania czegoś, musi istnieć, przynajmniej hipotetycznie, *coś, co
 Można więc powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
 pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem (hipotetycznego)
 użytkownika. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli czegoś,
-dosłownie czegokolwiek, możemy używać jako przepisu, to to coś po prostu jest dla nas przepisem. A
-jeśli coś jest przepisem, to znaczy, że można tego czegoś używać jako przepisu.
+dosłownie czegokolwiek, możemy używać jak przepisu, to to coś po prostu jest dla nas przepisem. A
+jeśli coś jest przepisem, to znaczy, że ktoś może tego czegoś używać jako przepisu.
 
-Przepis jako taki i sposób używania go to zatem *jedno i to samo oglądane z dwóch stron*,
-obiektowej/materialnej i funkcjonalnej/użytkowej. Nie ma przepisów (ani sposobów ich używania) bez
-przynajmniej potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu. Za to
-podmioty (również hipotetyczne), istnieją (jeśli hipotetyczne, to aksjomatycznie) niezależnie od
-tego, czy używają przepisów.
+Przepis jako taki i sposób używania go to zatem *jedno i to samo pojęcie oglądane z dwóch stron*,
+obiektowej/materialnej i funkcjonalnej/użytkowej. Nie ma przepisów (będących sposobami ich używania)
+bez przynajmniej potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu.
+Za to podmioty (również hipotetyczne), istnieją (jeśli hipotetyczne, to aksjomatycznie) niezależnie
+od tego, czy używają przepisów.
 
 Czy w takim razie matematyka i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ) nie są
 przypadkiem *subdyscyplinami psychologii*?
