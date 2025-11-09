@@ -1,6 +1,6 @@
 <br>
 
-**Moim zdaniem, najważniejsze wskazówki na temat tego, w jaki sposób warto czytać tą książkę, są
+**Moim zdaniem najważniejsze wskazówki na temat tego, w jaki sposób warto czytać tą książkę, są
 [tutaj](./Wujek_dobra_rada.md).**
 
 <hr>
@@ -10,7 +10,8 @@
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole
 podstawowej, ale być może nie zastanawiałaś się jak dotąd dłużej, o co w nim właściwie chodzi.
 Będziemy przyglądać się z bliska wybranym, ważnym i często wykonywanym w matematyce czynnościom, a
-właściwie tylko *jednej* prostej mechanicznej czynności polegającej na *podstawianiu*.
+właściwie tylko *jednej* prostej mechanicznej czynności polegającej na *podstawianiu*
+(*wymienianiu*) jednych wyrażeń w miejsce innych (na inne wyrażenia).
 
 <hr>
 
@@ -18,17 +19,18 @@ właściwie tylko *jednej* prostej mechanicznej czynności polegającej na *pods
 
 Przypuszczam, że już dawno stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B = C*, to *A = C*,
 niezależnie od tego, co podstawisz pod *A*, *B* i *C* (\{podwójnym\} nawiasem mówiąc, tą zasadę
-nazywamy *przechodniością* \{relacji równości\}). Na pewno znajomy wyda Ci się również taki oto
-fragment matematycznej prozy (mówiący o *przemienności* dodawania):
+nazywamy *przechodniością* \{relacji równości\}). Na pewno znajomy wyda Ci się również ten fragment
+matematycznej prozy (mówiący o *przemienności* dodawania):
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m*:
+I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m* (czyli wymieniając
+te symbole na inne wyrażenia):
 
 1. Konkretną *liczbę* naturalną, na przykład liczbę *7*.
 
 2. *Zmienną*, na przykład zmienną *a*, o której wcześniej *zdecydowałaś* (albo zdecydował autor
-   przetwarzanego przez Ciebie matematycznego tekstu), że oznacza *jakąś* liczbę naturalną.
+   czytanego przez Ciebie matematycznego tekstu), że oznacza *jakąś* liczbę naturalną.
 
 3. Całe *złożone wyrażenie*, będące formułą albo przepisem, o którym wiesz, że po obliczeniu dałoby
    liczbę naturalną, takie jak *10 - 1*.
@@ -41,7 +43,7 @@ podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to dwie r
 musimy pod nie podstawiać dwóch *różnych* "rzeczy" (albo "matematycznych obiektów"). I tak, zgodnie
 z przytoczonym fragmentem:
 
-*2 + 3 = 3 + 2*  
+*2 + 3 = 3 + 2*
 (na mocy powszechnej konwencji, że *2* i *3* to liczby naturalne)
 
 A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
@@ -58,76 +60,79 @@ A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 *(2 + 3 + a) + b = b + (2 + 3 + a)*  
 (możemy podstawiać też *złożone* wyrażenia odpowiedniego typu)
 
-Ostatnia równość jest wynikiem zastosowania twierdzenia o przemienności dodawania przez poprawne
-podstawianie, ponieważ *2 + 3 + a* oznacza w tym kontekście (oto cały \{lokalny\} kontekst: umawiamy
-się, że *a* i *b* to jakieś liczby naturalne) liczbę naturalną, i tak dalej.
+Ostatnia równość jest wynikiem zastosowania twierdzenia o przemienności dodawania (przez poprawne
+podstawianie), ponieważ *2 + 3 + a* oznacza w tym kontekście (oto cały \{lokalny\} kontekst:
+umawiamy się, że *a* i *b* to jakieś liczby naturalne) liczbę naturalną, i tak dalej.
 
 Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez większego trudu jeszcze w
 szkole podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas
-głównie dlatego, że sama jest pewną regułą podstawiania, bo jest regułą mówiącą o *zastępowalności*
-(w każdym kontekście) - lewej strony przez prawą i vice versa. Cały czas chodzi więc o jedną i tą
-samą prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego
-podstawiania.
+głównie dlatego, że sama jest pewną regułą podstawiania, bo mówi o *zastępowalności* (w każdym
+kontekście) - lewej strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą samą
+prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania
+(jeżeli zgodzimy się zastępowanie uzasadnione przez równość nazywać również podstawianiem).
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
 Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest jak *przepis*,
 który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań* na temat liczb
-naturalnych. Rozważany przepis (twierdzenie) zawdzięcza swoją "nieskończoną produktywność"
-*parametryczności*, to jest temu, że jest wyrażony za pomocą *parametrów* albo *zmiennych* (*m* i
-*n*), to jest specjalnie oznaczonych miejsc, w które możemy coś podstawiać. Możemy też na niego
-popatrzeć jak na coś w rodzaju *maszyny* albo *mechanizmu*, który (jak to mechanizm) *działa*, nawet
-jeśli tylko dzięki temu, że to *my go używamy* w określony sposób, to jest konsekwentnie
-podstawiając w miejsca wystąpień zmiennych wyrażenia odpowiedniego typu (tutaj akurat liczbowego).
-Ten mechanizm składa się co najmniej z *trzech* części:
+naturalnych. Swoją "nieskończoną produktywność" zawdzięcza *parametryczności*, to jest temu, że jest
+zrobiony z *parametrów* albo *zmiennych* (*m* i *n*), czyli specjalnie oznaczonych miejsc, w które
+możemy coś podstawiać. Możemy też na niego popatrzeć jak na coś w rodzaju *maszyny* albo
+*mechanizmu*, który (jak to mechanizm) *działa*, chociaż tylko dzięki temu, że to *my go używamy* w
+określony sposób, to jest konsekwentnie podstawiając w miejsca wystąpień zmiennych wyrażenia
+odpowiedniego typu (tutaj akurat liczbowego). Ten mechanizm składa się co najmniej z *trzech*
+części:
 
-1. Zapisanego w jakiś sposób matematycznego, to jest "bezmyślnie" albo *mechanicznie* stosowalnego
-   *przepisu*.
+1. Zapisanego w jakiś sposób matematycznego *przepisu*.
 
 2. Z *nas* samych (sic!).
 
 3. I z tego, jak tego przepisu *używamy*.
 
-W tej części książki to jest nasz punkt wyjścia i, jak się przekonasz, w pewnym momencie ta
-dziecinnie prosta zabawa symbolami będzie również naszym punktem dojścia.
+W tej części książki to jest nasz punkt wyjścia i, jak się przekonasz, w pewnym momencie ta prosta
+zabawa symbolami będzie również naszym punktem dojścia.
 
 <hr>
 
-**Wybiegająca w przyszłość "filozoficzna" dygresja na temat związku między matematyką i
-psychologią**: Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było
-przynajmniej *hipotetycznego kogoś*, kto może go *zastosować*, i to my, ludzie, jesteśmy albo
-autorami takich przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy
-(takie jak zapis *Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są*
-przepisami). Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby
-działania*. Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy",
-nie ma *dla nas* i nigdy nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać*, bo -
-*tak jak ją rozumiemy* - matematyka *jako taka* jest *naszym narzędziem* (konsekwentnego i
-swobodnego myślenia na dowolny temat).
+## Zagadka "filozoficzna"
+
+Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
+hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
+przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak zapis
+*Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są* przepisami).
+Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby działania*. Nawet jeśli
+przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", nie ma *dla nas* i nigdy
+nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać*, bo - *tak jak ją rozumiemy* -
+matematyka *jako taka* jest *naszym narzędziem*.
 
 Co więcej, tylko jeden z trzech wymienionych właśnie elementów jest "definicyjnie autonomiczny". Mam
 na myśli fakt, że ja i Ty istniejemy jako ja i Ty odpowiednio niezależnie od tego, czy używamy tego
-rodzaju przepisów, czy nie. Ale żeby przepis faktycznie był przepisem, musi istnieć *ktoś*, kto może
-go jako przepisu używać, i tak samo żeby sposób używania tego przepisu był tym, czym jest, to jest
-pewnym sposobem używania czegoś (tutaj przepisu), musi istnieć *coś, co może być tak używane* (tutaj
-przepis) i (choćby tylko hipotetyczny) *ktoś, kto może tak tego czegoś używać*.
+rodzaju przepisów, czy nie. Ale żeby przepis był przepisem, musi istnieć ktoś, kto może go jako
+przepisu używać, i tak samo żeby sposób używania tego przepisu był tym, czym jest, to jest pewnym
+sposobem używania czegoś, musi istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane*
+(tutaj przepis) i (choćby tylko hipotetyczny) *ktoś, kto może ten sposób stosować*.
 
 Można więc powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
 pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem (hipotetycznego)
-użytkownika. W dodatku te dwa pojęcia nie tylko nie są niezależne, ale właściwie są dwiema stronami
-tego samego medalu. Bo jeżeli czegoś, dosłownie czegokolwiek, możemy używać jako przepisu, to to coś
-jest przepisem. I jeżeli coś jest przepisem, to znaczy, że można tego czegoś używać jako przepisu.
+użytkownika. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli czegoś,
+dosłownie czegokolwiek, możemy używać jako przepisu, to to coś po prostu jest dla nas przepisem. A
+jeśli coś jest przepisem, to znaczy, że można tego czegoś używać jako przepisu.
 
-Przepis jako taki i sposób używania przepisu to jedno i to samo. Nie ma przepisów (ani sposobów ich
-używania) bez przynajmniej potencjalnie używającego przepisów jako przepisów przynajmniej
-hipotetycznego podmiotu. Za to podmiot istnieje niezależnie od tego, czy używa jakiegoś przepisu.
-Czy w takim razie matematyka nie jest przypadkiem *subdyscypliną psychologii*?
+Przepis jako taki i sposób używania go to zatem *jedno i to samo oglądane z dwóch stron*,
+obiektowej/materialnej i funkcjonalnej/użytkowej. Nie ma przepisów (ani sposobów ich używania) bez
+przynajmniej potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu. Za to
+podmioty (również hipotetyczne), istnieją (jeśli hipotetyczne, to aksjomatycznie) niezależnie od
+tego, czy używają przepisów.
+
+Czy w takim razie matematyka i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ) nie są
+przypadkiem *subdyscyplinami psychologii*?
 
 <hr>
 
-Spróbuj chwilowo potraktować takie formalne reguły jak te, które podałem wyżej, jakby były regułami
-*gry*, która *nie musi mieć żadnego sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to już
-wielokrotnie - na tym etapie potrzeba sensu może Ci przeszkadzać. Obiecuję, że sens się sam pojawi,
-tylko może kiedy indziej i raczej stopniowo.
+Spróbuj chwilowo potraktować formalne reguły takie jak te, które podałem przed tym ostatnim nieco
+dygresyjnym i wybiegającym w przyszłość fragmentem jakby były regułami *gry*, która *nie musi mieć
+sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to już wielokrotnie - na tym etapie potrzeba sensu
+może Ci przeszkadzać. Obiecuję, że sens się pojawi, tylko może kiedy indziej i raczej stopniowo.
 
 **Polecenie**: *To zadanie może być w tym momencie zbyt trudne. Jeśli tak będzie, spróbuj najpierw
 wykonać następne zadanie, a później wróć do tego*.  
@@ -147,39 +152,41 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne)
 
 4. $x \odot y$ $*$ $\underbrace{y}$ = $\underbrace{x, y}$.
 
-Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, $a$ i $b$. Użyj reguły 4, żeby uzyskać *dwa nowe
-równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje zmienna $x$ i $b$
-wszędzie tam, gdzie występuje $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe równania
-będą takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i $b$ zamiast
-$x$ i $y$), nadal w roli zmiennych (bo przyjmujemy, że *a* i *b* to *jakieś* fmldsmdfry). Następnie,
-korzystając z przechodniości relacji równości użyj reguły 3 w jedyny sposób, w jaki się da (ta
-reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich *stronach*), żeby uzyskać trzecie
+Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, nazwijmy je $a$ i $b$. Użyj reguły 4, żeby uzyskać
+*dwa nowe równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje zmienna
+$x$ i $b$ wszędzie tam, gdzie występuje $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe
+równania będą takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i
+$b$ zamiast $x$ i $y$), nadal w roli zmiennych, bo przyjmujemy, że *a* i *b* to *jakieś*, czyli
+bliżej nieokreślone fmldsmdfry.
+
+Następnie korzystając z przechodniości relacji równości użyj reguły 3 w jedyny sposób, w jaki się da
+(ta reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich *stronach*), żeby uzyskać trzecie
 nowe równanie. Zakładając, że $\underbrace{b} \neq 0$, podziel obie strony tego ostatniego równania
 przez $\underbrace{b}$ (zgodnie z przyjętą konwencją te strony to \{jakieś\} liczby, a więc możemy
 je dzielić przez liczby niezerowe) i uprość jedyną rzecz, którą możesz.
 
-Jeżeli masz wątpliwości, czy dobrze wykonałaś to zadanie, albo ta egzotyczna (i bezsensowna!)
-notacja budzi Twój niepokój, nie przejmuj się tym, za chwilę wszystko powinno się wyjaśnić. Jeżeli
-natomiast wydaje Ci się, że wykonałaś zadanie poprawnie, ale czujesz frustrację związaną w jakiś
-sposób z brakiem poczucia sensu, to znakomicie, bo właśnie taki efekt miałem nadzieję uzyskać.
-Jeżeli tak się stało, to może dzięki temu będziesz lepiej rozpoznawać w przyszłości pewną ważną i
-nieoczywistą przeszkodę w nauce matematyki.
+Jeżeli masz wątpliwości, czy dobrze wykonałaś to zadanie, albo ta egzotyczna i bezsensowna notacja
+budzi Twój niepokój, nie przejmuj się tym, niebawem wszystko powinno się wyjaśnić. Jeżeli natomiast
+wydaje Ci się, że wykonałaś zadanie poprawnie, ale czujesz frustrację wynikającą z braku poczucia
+sensu, to znakomicie, bo właśnie taki efekt miałem nadzieję uzyskać. Jeżeli tak się stało, to może
+dzięki temu będziesz lepiej rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce
+matematyki.
 
 Naprawdę uważam, że w nauce matematyki przydaje się zdolność do *tymczasowego* stłumienia potrzeby
 sensu. Chodzi w tym przede wszystkim o to, żeby na początku nie próbować uczyć się zbyt wielu rzeczy
 jednocześnie, a w przypadku teorii matematycznych trzeba opanować notację i terminologię, sztywne i
 abstrakcyjne reguły (aksjomaty, twierdzenia i zwykłe definicje), a także sposoby, w jaki można te
-reguły stosować w różnych sytuacjach, w tym również do rozwiązywania problemów niematematycznych.
-Wygląda na to, że aby zrozumieć, dlaczego te teorie są tak a nie inaczej skonstruowane, trzeba
-najpierw dobrze poznać podstawy tych teorii. Być może dałoby się je przedstawiać objaśniając
-najpierw celowość każdego wprowadzanego elementu w sposób zrozumiały dla początkujących, ale jak
-dotąd nie spotkałem się z żadnym przykładem zastosowania takiego podejścia.
+reguły stosować w różnych sytuacjach, w tym również do rozwiązywania problemów *nie*matematycznych.
+Wygląda na to, że aby *zrozumieć dlaczego* te teorie są tak a nie inaczej skonstruowane, trzeba
+czasem *najpierw* dobrze *poznać ich podstawy*, a nie odwrotnie. Być może dałoby się je przedstawiać
+objaśniając najpierw celowość *każdego* wprowadzanego elementu w sposób zrozumiały dla
+początkujących, ale jak dotąd nie spotkałem się z żadnym przykładem zastosowania takiego podejścia.
 
 Od kilku lat prowadzę dla doktorantów zajęcia dotyczące wnioskowania przyczynowego i bayesowskiego.
-Bez przesady mogę powiedzieć, że zapisują się na nie wspaniali studenci. Tacy, którzy wydają mi się
-często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później zaczynam im mówić o
-[twierdzeniu Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to
-inaczej.
+Nie będzie ani trochę przesadą jeśli powiem, że zapisują się na nie wspaniali studenci. Tacy, którzy
+wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później zaczynam
+im mówić o [twierdzeniu Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna
+robię to inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim wstępem. Gdy zapowiadałem potem uczestnikom, że
 będą go sami dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną panikę widziałem
@@ -206,7 +213,8 @@ reguł nie będziemy korzystać jawnie, więc jeśli chcesz, możesz się skupi�
 
 Być może przyszła Ci do głowy narzucająca się interpretacja symboli *zdarzenie* i *p*. Jeżeli tak,
 to spróbuj ją proszę zignorować, na ile tylko jesteś w stanie. Jeszcze raz podkreślam, że na tym
-etapie to jest *tylko gra*.
+etapie to jest [*tylko
+gra*](https://www.guinnessworldrecords.com/world-records/largest-jigsaw-puzzle-most-pieces).
 
 Poza wymienionymi aksjomatami będziemy jeszcze potrzebować *definicji* symbolu *|*:
 
@@ -228,52 +236,67 @@ dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założył
 Jeżeli wykonałaś poprawnie wszystkie te *trywialne*, *mechaniczne* operacje, polegające tylko na
 podstawianiu pewnych wyrażeń w miejsce innych wyrażeń zgodnie z kilkoma prostymi regułami, to udało
 Ci się udowodnić nieznacznie uproszczoną wersję twierdzenie Bayesa. W dodatku zrobiłaś to już po raz
-drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko nazwami stałych, a to są
-cechy *nieistotne*. Moim studentom, kiedy udowadniają w ten (drugi) sposób to twierdzenie po raz
-pierwszy w życiu, nie zajmuje to więcej niż 15 minut.
+drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko nazwami stałych, a takie
+różnice są w matematyce *nieistotne* (choć mają znaczenie praktyczne). Moim studentom, kiedy
+udowadniają w ten (drugi) sposób to twierdzenie po raz pierwszy w życiu, nie zajmuje to więcej niż
+15 minut.
 
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
-między innymi, to znaczy o duży stopień ogólności, a mówiąc dokładniej właśnie o *parametryczność*
-pozwalającą korzystać z nich w wielu różnych sytuacjach przez podstawianie chodzi w tego rodzaju
-twierdzeniach?
+między innymi, to znaczy o *parametryczność* pozwalającą korzystać z nich w wielu różnych sytuacjach
+przez niemal bezmyślne podstawianie, chodzi w tego rodzaju twierdzeniach?
 
 <hr>
 
 **Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami**: Kilka razy posłużyłem się w
 tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę jeszcze do nich wracał, ale na
 wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w matematyce*. Jeżeli jeszcze nie
-"czujesz", o czym tu mówię, nie przejmuj się tym, bo nie bez powodu nazwałem ten fragment
-"dygresją".
+*poczujesz*, o czym tu będę teraz mówił, nie przejmuj się tym, bo nie bez powodu nazwałem ten
+fragment "dygresją".
 
 *Zwykłe definicje są wyborami językowymi określającymi alternatywne, zwykle krótsze i ułatwiające
 czytanie ze zrozumieniem sposoby zapisywania tego samego. Aksjomaty też są definicjami, a więc
-pewnymi językowymi wyborami a nie założeniami, ale określającymi sposoby zapisywania niczego*.
+pewnymi językowymi wyborami, ale określającymi dopuszczalne sposoby zapisywania niczego*.
 
 Ciekawe, prawda? W matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że
-aksjomat jest *decyzją*, że *jakiś nowy symbol oznacza coś jakiegoś typu, bo tak*, a definicja jest
-*decyzją*, że *jakiś nowy symbol oznacza to samo, co jakieś dające się już poprawnie skonstruować
-wyrażenie, oznaczające coś jakiegoś typu*. Ponieważ to decyzje, nie ma sensu pytanie, czy zwykłe
-definicje albo aksjomaty są prawdziwe albo fałszywe, natomiast zawsze można zapytać, czy te decyzje
-albo wybory są korzystne lub udane ze względu na określone cele.
+aksjomat jest *decyzją*, że *jakiś nowy symbol lub całe wyrażenie oznacza coś jakiegoś typu, bo
+tak*, a definicja jest *decyzją*, że *jakiś nowy symbol lub wyrażenie oznacza to samo, co jakieś
+dające się już poprawnie skonstruować wyrażenie, oznaczające coś jakiegoś typu*.'
 
-Na przykład, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
-*stwierdzenie*, że istnieje coś, co znaczy symbol "0" i to coś jest liczbą naturalną, bo tak. Ale
-nie trzeba. Niezależnie od tego, czy przyjmiemy, że liczba zero w takim lub innym znaczeniu
-istnieje, teoria liczb naturalnych będzie działała tak samo dobrze jako narzędzie rozwiązywania
-typowych problemów, do jakich ją stosujemy. Fragment "bo tak" można rozumieć jako "będziemy odtąd w
-ten sposób pisać", to jest jako *arbitralną regułę komunikacyjną*. Inny *aksjomat* Peano mówi, że
-istnieje (tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego innego) operacja
-*następnika*, która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy nijak) jakąś
-(unikalną) liczbę naturalną.
+Ponieważ to decyzje, nie ma sensu pytanie, czy aksjomaty albo zwykłe definicje są prawdziwe czy
+fałszywe, natomiast zawsze można zapytać, czy te decyzje są *korzystne* ze względu na określone
+cele. W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego aksjomatu, być może do
+czegoś niematematycznego, jest poprawne *ze względu na określony cel*, i tylko w tym znaczeniu
+możemy mówić o *spełnieniu* aksjomatów. Pytamy wtedy, czy jakiś aksjomat jest prawdziwy *o czymś*, a
+nie czy sam aksjomat jest prawdziwy.
+
+Reguła 3 to (dla nas, bo można ją wyprowadzić z bardziej elementarnych zasad) aksjomat, czyli
+*definicja*, ale *nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
+określająca poprawny sposób użycia *przecinka*, gdy ten oddziela argumenty aplikacji funkcji *p*.
+Aksjomatyczność tej definicji polega tu na tym, że stosując ją nie pozbywamy się symbolu, którego
+ona dotyczy.
+
+Reguła 4 to *zwykła* definicja określająca poprawny sposób użycia *pionowej kreski*, bo określa
+dopuszczalny sposób *rozwinięcia* wyrażeń zawierających pionową kreskę do takich, w których pionowa
+kreska nie występuje.
+
+Podobnie, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
+*stwierdzenie* (a więc zdanie), że istnieje coś, co znaczy symbol "0" i to coś jest liczbą
+naturalną, bo tak. Ale nie trzeba. Niezależnie od tego, czy przyjmiemy, że liczba zero w takim lub
+innym znaczeniu istnieje, teoria liczb naturalnych będzie działała tak samo dobrze jako narzędzie
+rozwiązywania typowych problemów do jakich ją stosujemy. Fragment "bo tak" można rozumieć jako
+"będziemy odtąd w ten sposób pisać", to jest jako *arbitralną regułę komunikacyjną*. Inny *aksjomat*
+Peano mówi, że istnieje (tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego
+innego) operacja *następnika*, która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy
+nijak) jakąś (unikalną) liczbę naturalną.
 
 Z kolei już zwykła, bo nie aksjomatyczna *definicja* symbolu "1" mówi, że "1" oznacza to samo, co
 dające się *skonstruować* na mocy wcześniejszych aksjomatów wyrażenie "następnik 0". W końcu *0*
 jest na mocy aksjomatu liczbą naturalną, a *następnik* jest na mocy aksjomatu funkcją, którą możemy
 stosować do dowolnych liczb naturalnych, w tym również do *0*. A więc wyrażenie "następnik 0"
-oznacza konkretną liczbę naturalną, którą da się uzyskać stosując konkretną, chociaż w żaden sposób
-nie skonstruowaną funkcję *następnik* do również konkretnej, ale nie skonstruowanej liczby *0*, i
-którą to liczbę (na mocy definicji) możemy zapisać za pomocą symbolu "1".
+oznacza liczbę naturalną, którą da się uzyskać stosując w żaden sposób nie skonstruowaną funkcję
+*następnik* do również nie skonstruowanej liczby *0*, i którą to liczbę (na mocy definicji) możemy
+zapisać za pomocą symbolu "1".
 
 Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
 do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
@@ -286,8 +309,8 @@ Wersja twierdzenia Bayesa, którą właśnie udowodniłaś, jest uproszczona. Pr
 być mniejsze niż *0* ani większe niż *1*, a nasze prawdopodobieństwa to dowolne liczby, nie wiadomo
 nawet jakie, czy na przykład rzeczywiste, czy wymierne. Tak się jednak składa, że nie
 potrzebowaliśmy korzystać z tych własności prawdopodobieństwa, nasze reguły nie były więc wcale
-*niezgodne* z rachunkiem prawdopodobieństwa, tylko *słabsze* (w znaczeniu "mniej zobowiązujące", nie
-w znaczeniu "gorsze" czy "bardziej wątpliwe").
+*niezgodne* z rachunkiem prawdopodobieństwa, tylko *słabsze*, w znaczeniu "mniej zobowiązujące", nie
+w znaczeniu "gorsze" czy "bardziej wątpliwe".
 
 Wypadałoby niby poza tym wprowadzić pojęcie [*zmiennnej
 losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniśmy może
@@ -296,42 +319,42 @@ elementarnych*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_zdarze%C5%84_eleme
 zdarzeniach zdefiniowanych
 [ogólniej](https://pl.wikipedia.org/wiki/Przestrze%C5%84_probabilistyczna). Jednak jako narzędzie
 stworzone dla pewnych celów dydaktycznych i w rękach kogoś, kto zna i ma na uwadze te ograniczenia,
-taka uproszczona wersja jest moim zdaniem znacznie lepsza niż nic. Wystarcza na przykład do
-zilustrowania wielu ciekawych zastosowań twierdzenia Bayesa w psychologii, albo do snucia ogólnych
-rozważań na temat oceny hipotez empirycznych.
+taka uproszczona wersja jest w mojej ocenie lepsza niż nic. Wystarcza na przykład do zilustrowania
+wielu ciekawych zastosowań twierdzenia Bayesa w psychologii, albo do snucia ogólnych rozważań na
+temat oceny hipotez empirycznych.
 
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej, agresywnie bezsensownej
 wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
-zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu, z którego
-niedługo potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie, według wskazówek
-zapisanych w skrypcie w języku Lean, dowodów kilku prostych tautologii, większość, o ile nie
-wszyscy, wykonali to zadanie z łatwością. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po
-chwili wahania - zgłosiła się Sofiia Honcharova, i zdobyła się na odwagę, żeby powiedzieć, że
-chociaż wykonała zadanie dość szybko, to *nie wiedziała, co się stało*.
+zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu z którego
+niedługo potem powstał ten rozdział poprosiłem doktorantów o skonstruowanie, według wskazówek
+zapisanych w skrypcie w języku Lean, dowodów kilku prostych twierdzeń, większość, o ile nie wszyscy,
+wykonali to zadanie z łatwością. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili
+wahania - zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby powiedzieć, że chociaż
+wykonała zadanie dość szybko, to *nie wiedziała, co się stało*.
 
 Ta odpowiedź nie dawała mi później spokoju, dlatego poprosiłem Sofiię, żeby spróbowała powiedzieć
 coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to trafiła w sedno.
 *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według wskazówek*, tak samo jak
-*weryfikacja* poprawności dowodu, to czynności *mechaniczne*. A skoro to są czynności mechaniczne,
+*sprawdzenie* poprawności dowodu, to czynności *mechaniczne*. A skoro to są czynności mechaniczne,
 to znaczy, że można zarówno *skonstruować* dowód *według instrukcji* (ale nie *znaleźć*) jak i
-*sprawdzić* go *nie rozumiejąc sensu dowodzonego twierdzenia*. Wynika stąd, że sama *znajomość
-dowodu mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
+*sprawdzić nie rozumiejąc sensu dowodzonego twierdzenia*. Wynika stąd, że sama *znajomość dowodu
+mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
 
-Żeby zrozumieć, co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego
-pomocą *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*.
-Dlatego zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać. Rolą dowodu
-*nie* jest *ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego prawdziwości*, jak
-również - zawsze tylko częściowe - *ujawnienie znaczenia założeń dowodu*. Wykonując dwa razy ten sam
-w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł
+Żeby zrozumieć co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego pomocą
+*innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*. Dlatego
+zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać. Rolą dowodu *nie* jest
+*ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego prawdziwości*, jak również -
+zawsze tylko częściowe - *ujawnienie znaczenia założeń dowodu*. Wykonując dwa razy ten sam w
+zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł
 - i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu *tych reguł*, ponieważ
 miałaś okazję doświadczyć niektórych sposobów, w jaki można je *zastosować*, czyli poznałaś niektóre
 ich *konsenwencje*.
 
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
 było, jest, i zawsze już będzie prawdziwe, choć tylko w tym znaczeniu, że jest nieuchronną
-konsekwencją przyjętych na początku wyborów językowych. Od tego momentu o samym dowodzie, to jest o
-jego konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako
-ze wskazówki podczas poszukiwania innego dowodu.
+konsekwencją przyjętych wyborów językowych. Od tego momentu o samym dowodzie, to jest o jego
+konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako ze
+wskazówki podczas poszukiwania innego dowodu.
 
-Będziemy odtąd robić podobne rzeczy, ale [nie na
+Będziemy odtąd robić podobne rzeczy, ale [nie zawsze na
 kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
