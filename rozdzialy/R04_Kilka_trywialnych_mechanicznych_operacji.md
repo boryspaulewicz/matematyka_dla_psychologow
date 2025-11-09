@@ -266,47 +266,52 @@ sposoby zapisywania niczego.*
 Ciekawe, prawda? W matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że
 aksjomat jest *decyzją*, że *jakiś nowy symbol lub całe wyrażenie oznacza coś jakiegoś typu, bo
 tak*, a definicja jest *decyzją*, że *jakiś nowy symbol lub wyrażenie oznacza to samo, co jakieś
-dające się już poprawnie skonstruować wyrażenie, oznaczające coś jakiegoś typu*.'
+dające się już poprawnie skonstruować wyrażenie, oznaczające coś jakiegoś typu*.
 
-Ponieważ to decyzje, nie ma sensu pytanie, czy aksjomaty albo zwykłe definicje są prawdziwe czy
-fałszywe, natomiast zawsze można zapytać, czy te decyzje są *korzystne* ze względu na określone
-cele. W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego aksjomatu, być może do
-czegoś niematematycznego, jest poprawne *ze względu na określony cel*, i tylko w tym znaczeniu
-możemy mówić o *spełnieniu* aksjomatów. Pytamy wtedy, czy jakiś aksjomat jest prawdziwy *o czymś*, a
-nie czy sam aksjomat jest prawdziwy.
+Ponieważ to są decyzje (albo wybory), nie ma sensu pytanie, czy aksjomaty albo zwykłe definicje są
+prawdziwe czy fałszywe, natomiast zawsze można zapytać, czy te decyzje są *korzystne* lub *trafne*
+ze względu na określone cele. W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego
+aksjomatu, być może do czegoś niematematycznego, jest poprawne. Pytamy wtedy, czy jakiś aksjomat
+jest prawdziwy *o czymś*, a nie czy sam aksjomat jest prawdziwy. Założeniem, które może być
+prawdziwe lub fałszywe, jest wtedy stwierdzenie, że coś jest ze względu na przyjęte cele poprawnie
+*opisywalne przez aksjomat*.
 
 Reguła 3 to (dla nas, bo można ją wyprowadzić z bardziej elementarnych zasad) aksjomat, czyli
-*definicja*, ale *nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
+*definicja nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
 określająca poprawny sposób użycia *przecinka*, gdy ten oddziela argumenty aplikacji funkcji *p*.
-Aksjomatyczność tej definicji polega tu na tym, że stosując ją nie pozbywamy się symbolu, którego
-ona dotyczy.
+Aksjomatyczność tej definicji polega tu między innymi na tym, że stosując ją nie pozbywamy się
+symbolu, którego ta definicja dotyczy.
 
 Reguła 4 to *zwykła* definicja określająca poprawny sposób użycia *pionowej kreski*, bo określa
 dopuszczalny sposób *rozwinięcia* wyrażeń zawierających pionową kreskę do takich, w których pionowa
-kreska nie występuje.
+kreska *nie* występuje.
 
 Podobnie, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
 *stwierdzenie* (a więc zdanie), że istnieje coś, co znaczy symbol "0" i to coś jest liczbą
-naturalną, bo tak. Ale nie trzeba. Niezależnie od tego, czy przyjmiemy, że liczba zero w takim lub
-innym znaczeniu istnieje, teoria liczb naturalnych będzie działała tak samo dobrze jako narzędzie
-rozwiązywania typowych problemów do jakich ją stosujemy. Fragment "bo tak" można rozumieć jako
-"będziemy odtąd w ten sposób pisać", to jest jako *arbitralną regułę komunikacyjną*. Inny *aksjomat*
-Peano mówi, że istnieje (tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego
-innego) operacja *następnika*, która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy
-nijak) jakąś (unikalną) liczbę naturalną.
+naturalną, bo tak (to jest ta aksjomatyczność). Ale nie trzeba. Niezależnie od tego, czy przyjmiemy,
+że liczba zero w takim lub innym znaczeniu istnieje, czy że przyjmując aksjomat, że *0* jest liczbą
+naturalną, umawiamy się tylko na pewien użyteczny sposób mówienia, teoria liczb naturalnych będzie
+działała tak samo dobrze jako narzędzie rozwiązywania typowych problemów do jakich ją stosujemy.
+Fragment "bo tak" można więc rozumieć jako znaczący coś w rodzaju "będziemy odtąd w ten sposób
+pisać", to jest jako *arbitralną regułę komunikacyjną* (zawsze przecież piszemy *do kogoś*, nawet
+jeśli tym kimś jesteśmy my sami \{w przyszłości\}). Inny *aksjomat* Peano mówi z kolei, że istnieje
+(tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego innego) operacja *następnika*,
+która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy nijak) jakąś (unikalną) liczbę
+naturalną.
 
 Z kolei już zwykła, bo nie aksjomatyczna *definicja* symbolu "1" mówi, że "1" oznacza to samo, co
 dające się *skonstruować* na mocy wcześniejszych aksjomatów wyrażenie "następnik 0". W końcu *0*
 jest na mocy aksjomatu liczbą naturalną, a *następnik* jest na mocy aksjomatu funkcją, którą możemy
 stosować do dowolnych liczb naturalnych, w tym również do *0*. A więc wyrażenie "następnik 0"
 oznacza liczbę naturalną, którą da się uzyskać stosując w żaden sposób nie skonstruowaną funkcję
-*następnik* do również nie skonstruowanej liczby *0*, i którą to liczbę (na mocy definicji) możemy
-zapisać za pomocą symbolu "1".
+*następnik* do również nie skonstruowanej liczby *0*, i właśnie tą liczbę (na mocy tej definicji)
+możemy zapisać krótko za pomocą symbolu "1".
 
 Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
 do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
 alternatywne sposoby zapisu*, służące zwykle do tego, żeby można było coś napisać krócej lub
-bardziej zrozumiale.
+bardziej zrozumiale, albo żeby pewne mechaniczne przekształcenia z użyciem tych wyrażeń łatwiej się
+automatyzowały.
 
 <hr>
 
