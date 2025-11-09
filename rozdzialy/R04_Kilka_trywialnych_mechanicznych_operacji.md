@@ -335,8 +335,8 @@ temat oceny hipotez empirycznych.
 
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej, agresywnie bezsensownej
 wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
-zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu z którego
-niedługo potem powstał ten rozdział poprosiłem doktorantów o skonstruowanie, według wskazówek
+zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu, z którego
+niedługo potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie, według wskazówek
 zapisanych w skrypcie w języku Lean, dowodów kilku prostych twierdzeń, większość, o ile nie wszyscy,
 wykonali to zadanie z łatwością. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili
 wahania - zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby powiedzieć, że chociaż
@@ -346,19 +346,19 @@ Ta odpowiedź nie dawała mi później spokoju, dlatego poprosiłem Sofiię, że
 coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to trafiła w sedno.
 *Znalezienie* dowodu jest *sztuką*, ale skonstruowanie dowodu *według wskazówek*, tak samo jak
 *sprawdzenie* poprawności dowodu, to czynności *mechaniczne*. A skoro to są czynności mechaniczne,
-to znaczy, że można zarówno *skonstruować* dowód *według instrukcji* (ale nie *znaleźć*) jak i
-*sprawdzić nie rozumiejąc sensu dowodzonego twierdzenia*. Wynika stąd, że sama *znajomość dowodu
-mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
+to znaczy, że można zarówno *skonstruować* dowód *według instrukcji* (ale nie *znaleźć*), jak i
+*sprawdzić* go, *nie rozumiejąc sensu dowiedzionego twierdzenia*. Wynika stąd, że sama *znajomość
+dowodu mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
 
 Żeby zrozumieć co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego pomocą
 *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*. Dlatego
 zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać. Rolą dowodu *nie* jest
 *ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego prawdziwości*, jak również -
 zawsze tylko częściowe - *ujawnienie znaczenia założeń dowodu*. Wykonując dwa razy ten sam w
-zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł
-- i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu *tych reguł*, ponieważ
-miałaś okazję doświadczyć niektórych sposobów, w jaki można je *zastosować*, czyli poznałaś niektóre
-ich *konsenwencje*.
+zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł -
+i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu *tych reguł*, ponieważ
+miałaś okazję doświadczyć niektórych sposobów, w jakie można je *zastosować*, czyli poznałaś
+niektóre ich *konsenwencje*.
 
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
 było, jest, i zawsze już będzie prawdziwe, choć tylko w tym znaczeniu, że jest nieuchronną
