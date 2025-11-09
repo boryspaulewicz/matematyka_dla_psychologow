@@ -93,7 +93,7 @@ zabawa symbolami będzie również naszym punktem dojścia.
 
 <hr>
 
-## Zagadka "filozoficzna"
+### Zagadka "filozoficzna"
 
 Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
 hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
@@ -124,12 +124,12 @@ Za to podmioty (również hipotetyczne), istnieją (jeśli hipotetyczne, to aksj
 od tego, czy używają przepisów.
 
 Czy w takim razie matematyka i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ) nie są
-przypadkiem *subdyscyplinami psychologii*?
+przypadkiem *subdyscyplinami psychologii*? Taka zagadka.
 
 <hr>
 
 Spróbuj chwilowo potraktować formalne reguły takie jak te, które podałem przed tym ostatnim nieco
-dygresyjnym i wybiegającym w przyszłość fragmentem jakby były regułami *gry*, która *nie musi mieć
+dygresyjnym i wybiegającym w przyszłość fragmentem, jakby były regułami *gry*, która *nie musi mieć
 sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to już wielokrotnie - na tym etapie potrzeba sensu
 może Ci przeszkadzać. Obiecuję, że sens się pojawi, tylko może kiedy indziej i raczej stopniowo.
 
@@ -138,7 +138,8 @@ wykonać następne zadanie, a później wróć do tego*.
 
 Znajdź czystą kartkę papieru i coś do pisania. Napisz na kartce cztery zdania, które będziemy
 chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze lepiej
-*reguły językowe* albo *komunikacyjne*, na które *umawiamy się bez uzasadnienia*:
+*reguły językowe* albo *komunikacyjne*, na które (wyobrażam sobie, że) *umawiamy się bez
+uzasadnienia*:
 
 1. Istnieją *fldsmdfry*.
 
@@ -151,7 +152,7 @@ Jeżeli $x$ i $y$ to jakieś (niekoniecznie różne)
 
 4. $x \odot y$ $*$ $\underbrace{y}$ = $\underbrace{x, y}$.
 
-Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry, nazwijmy je $a$ i $b$. Użyj reguły 4, żeby uzyskać
+Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry; nazwijmy je $a$ i $b$. Użyj reguły 4, żeby uzyskać
 *dwa nowe równania*, najpierw podstawiając $a$ *wszędzie* tam, gdzie w regule 4 występuje zmienna
 $x$ i $b$ wszędzie tam, gdzie występuje $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe
 równania będą takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i
@@ -179,7 +180,8 @@ reguły stosować w różnych sytuacjach, w tym również do rozwiązywania prob
 Wygląda na to, że aby *zrozumieć dlaczego* te teorie są tak a nie inaczej skonstruowane, trzeba
 czasem *najpierw* dobrze *poznać ich podstawy*, a nie odwrotnie. Być może dałoby się je przedstawiać
 objaśniając najpierw celowość *każdego* wprowadzanego elementu w sposób zrozumiały dla
-początkujących, ale jak dotąd nie spotkałem się z żadnym przykładem zastosowania takiego podejścia.
+początkujących, ale jak dotąd nie spotkałem się z żadnym przykładem udanego zastosowania takiego
+podejścia.
 
 Od kilku lat prowadzę dla doktorantów zajęcia dotyczące wnioskowania przyczynowego i bayesowskiego.
 Nie będzie ani trochę przesadą jeśli powiem, że zapisują się na nie wspaniali studenci. Tacy, którzy
@@ -198,7 +200,8 @@ Różnica w *wykonaniu*, nawet jeśli niekoniecznie w *zrozumieniu*, była oczyw
 
 **Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na kartce trzy zdania, które
 będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze
-lepiej *reguły językowe* albo *komunikacyjne*, na które *umawiamy się bez uzasadnienia*:
+lepiej *reguły językowe* albo *komunikacyjne*, na które (wyobrażam sobie, że) *umawiamy się bez
+uzasadnienia*:
 
 1. Istnieją tak zwane *zdarzenia*.
 
@@ -212,8 +215,8 @@ reguł nie będziemy korzystać jawnie, więc jeśli chcesz, możesz się skupi�
 
 Być może przyszła Ci do głowy narzucająca się interpretacja symboli *zdarzenie* i *p*. Jeżeli tak,
 to spróbuj ją proszę zignorować, na ile tylko jesteś w stanie. Jeszcze raz podkreślam, że na tym
-etapie to jest [*tylko
-gra*](https://www.guinnessworldrecords.com/world-records/largest-jigsaw-puzzle-most-pieces).
+etapie to jest tylko
+[*gra*](https://www.guinnessworldrecords.com/world-records/largest-jigsaw-puzzle-most-pieces).
 
 Poza wymienionymi aksjomatami będziemy jeszcze potrzebować *definicji* symbolu *|*:
 
@@ -247,15 +250,18 @@ przez niemal bezmyślne podstawianie, chodzi w tego rodzaju twierdzeniach?
 
 <hr>
 
-**Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami**: Kilka razy posłużyłem się w
-tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę jeszcze do nich wracał, ale na
-wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w matematyce*. Jeżeli jeszcze nie
-*poczujesz*, o czym tu będę teraz mówił, nie przejmuj się tym, bo nie bez powodu nazwałem ten
-fragment "dygresją".
+### Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami
 
-*Zwykłe definicje są wyborami językowymi określającymi alternatywne, zwykle krótsze i ułatwiające
-czytanie ze zrozumieniem sposoby zapisywania tego samego. Aksjomaty też są definicjami, a więc
-pewnymi językowymi wyborami, ale określającymi dopuszczalne sposoby zapisywania niczego*.
+Kilka razy posłużyłem się w tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę
+jeszcze do nich wracał, ale na wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w
+matematyce*. Jeżeli jeszcze nie *poczujesz*, o czym tu będę teraz mówił, nie przejmuj się tym, bo
+nie bez powodu nazwałem ten fragment dygresją.
+
+*Zwykłe definicje są wyborami językowymi określającymi alternatywne, często krótsze i ułatwiające
+czytanie ze zrozumieniem sposoby zapisywania tego samego.*
+
+*Aksjomaty też są definicjami, a więc pewnymi językowymi wyborami, ale określającymi dopuszczalne
+sposoby zapisywania niczego.*
 
 Ciekawe, prawda? W matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że
 aksjomat jest *decyzją*, że *jakiś nowy symbol lub całe wyrażenie oznacza coś jakiegoś typu, bo
