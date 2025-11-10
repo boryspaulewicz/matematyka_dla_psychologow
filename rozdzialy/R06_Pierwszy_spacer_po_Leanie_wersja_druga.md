@@ -36,8 +36,8 @@ standardowe *spójniki logiczne* (`∧`, `∨` i `∃`), za wyjątkiem *negacji*
 zdefiniować za pomocą funkcji/implikacji, a żeby z kolei zdefiniować negację, wystarczy użyć czegoś,
 co w pewnym sensie zachowuje się jak funkcja. Ale z powodów, które trudno mi teraz dobrze
 wytłumaczyć, te ostatnie spójniki wprowadzę znacznie później. Zapowiadam to już teraz, żeby
-sygnalizując w jaki sposób to jest faktycznie droga na skróty i od podstaw zachęcić Cię do dalszej
-nauki matematyki przez opanowanie podstaw teorii typów.
+sygnalizując w jaki sposób to jest faktycznie droga na skróty i od podstaw do opanowania matematyki,
+zachęcić Cię do dalszej nauki podstaw teorii typów i jednocześnie podstaw programowania.
 
 Ponieważ *predykaty* (takie jak *jest dziwne* w zdaniu "Życie jest dziwne") to, jak się przekonasz,
 również funkcje, podobnie jak wszelkie relacje, które są zresztą uogólnionymi predykatami, ucząc się
@@ -45,19 +45,19 @@ w ten sposób jednocześnie matematyki i programowania stosunkowo szybko opanuje
 predykatów*. W dodatku będzie to logika predykatów "bardzo wysokiego" rzędu, bo teoria typów pozwala
 kwantyfikować po termach dowolnego typu, a system typów tej teorii jest wyjątkowo bogaty. Logika
 predykatów (a później też inne logiki) pozwoli Ci
-[prześlwietlać](https://www.youtube.com/watch?v=0pYyzolIN3I) strukturę nie tylko dowodów
+[prześlwietlać](https://youtu.be/H-0RHqDWcJE?si=NxyzeR93BUr5WkTy&t=111) strukturę nie tylko dowodów
 matematycznych, ale również rozumowań zapisanych w języku naturalnym.
 
 Rachunek predykatów będziesz mogła stosować do głównego rozumowania w swojej pracy semestralnej,
-pracy magisterskiej, doktoracie, albo artykule, lub do analizy - nierzadko strukturalnie dosyć
-prostych i jednocześnie po bliższym zbadaniu zaskakująco (?) "dziurawych" i "zagadkowych", albo
-wręcz "tajemniczych" - uzasadnień głównych wniosków w artykułach naukowych. Często nawet sama tylko
-*próba* przeprowadzenia takiej formalizacji pozwoli Ci wskazać, gdzie *dokładnie* są ewentualne
-*błędy logiczne* lub *kluczowe niejasności*. Nie zawsze będziemy je nazywać błędami *logicznymi*, bo
-czasem będą to wady, których *nie da się* uchwycić za pomocą *logiki* i trzeba będzie użyć do nich
-ogólniejszej, ale wciąż matematycznej [teorii *rozumowania*](https://philarchive.org/rec/HLORFL).
-Celowo niedokończony i mam nadzieję, że interesujący przykład tego rodzaju zabawy znajdziesz [w
-jednym z następnych rozdziałów](./R12_Duzy_kwantyfikator.md).
+pracy magisterskiej, doktoracie, albo artykule, lub do analizy - nierzadko po bliższym zbadaniu
+zaskakująco (?) dziurawych i zagadkowych, a czasem wręcz tajemniczych - uzasadnień głównych wniosków
+w artykułach naukowych. Często nawet sama tylko *próba* przeprowadzenia takiej formalizacji pozwoli
+Ci wskazać, gdzie *dokładnie* są ewentualne *błędy logiczne* lub *kluczowe niejasności*. Nie zawsze
+będziemy je nazywać błędami *logicznymi*, bo czasem będą to wady, których *nie da się* uchwycić za
+pomocą *logiki* i trzeba będzie użyć do nich ogólniejszej, ale wciąż matematycznej [teorii
+*rozumowania*](https://philarchive.org/rec/HLORFL). Celowo niedokończony i mam nadzieję, że
+interesujący przykład tego rodzaju zabawy znajdziesz [w jednym z następnych
+rozdziałów](./R12_Duzy_kwantyfikator.md).
 
 <hr>
 
