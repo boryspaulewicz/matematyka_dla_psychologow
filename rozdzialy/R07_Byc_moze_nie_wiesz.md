@@ -129,18 +129,18 @@ mając przy tym pewność, że da się tak *wiernie zrealizować* modele przyczy
 komputerowe. Ten akurat zachowujący strukturę (albo "formalny sens") izomorfizm dostarcza
 jednocześnie nowy (programistyczny) sposób myślenia o modelach przyczynowych i nowy
 (przyczynowoteoretyczny) sposób myślenia o (imperatywnych) programach. Mam wrażenie, że takie
-podejście pozwala lepiej poczuć realność modeli przyczynowych, a na pewno pozwala uczyć się o ich
+podejście pozwala lepiej poczuć realność modeli przyczynowych, a na pewno pozwala uczyć się o nich
 poprzez interakcję na przykład z językiem
 [R](https://en.wikipedia.org/wiki/R_(programming_language)), co dla wielu psychologów może być mniej
 stresujące od rozwiązywania zadań rachunkowych.
 
 Zwróć proszę uwagę, że chociaż prawie na pewno na początku to było dla Ciebie dosyć trudne, bo to
-jest chyba dla wszystkich początkowo trudne, to jednak oswojenie się z izomorfizmem między na
-przykład kształtami trójkątów z jednej strony i liczbowymi wielkościami ich wewnętrznych katów i
-długościami ich boków z drugiej stało się dla Ciebie w końcu naturalne. Założę się nawet, że
-czasami, a może i przez większość czasu, nie zdawałaś sobie sprawy z tego, że kąty i długości
-odcinków po prostu *są* dla Ciebie *między innymi* liczbami *dzięki temu*, że jawnie albo w tle był
-wtedy obecny układ kartezjański.
+jest chyba dla wszystkich początkowo trudne, to jednak stopniowe oswojenie się z izomorfizmem między
+na przykład kształtami trójkątów z jednej strony i liczbowymi wielkościami ich wewnętrznych katów i
+długościami ich boków z drugiej sprawiło, że to idealne dopasowanie stało się dla Ciebie w końcu
+naturalne. Założę się nawet, że czasami, a może i przez większość czasu, nie zdawałaś sobie sprawy z
+tego, że kąty i długości odcinków po prostu *są* dla Ciebie *między innymi* liczbami *dzięki temu*,
+że jawnie albo w tle (jako możliwy wybór) był wtedy obecny układ kartezjański.
 
 Przypuszczam, że podobnie jak mi, jest Ci trudno przypomnieć sobie jak to było nie myśleć o
 obiektach geometrycznych w taki sposób. A przecież ten sposób myślenia był dla Ciebie na początku
@@ -181,7 +181,7 @@ geometrycznych, czysto przestrzenny i czysto liczbowy, i postarała się myśle�
 posługując się tylko jednym z nich. A czy byłabyś w stanie zobaczyć fizyczny ruch myszy
 powstrzymując się od patrzenia na niego w kategoriach celu, możliwych sposobów osiągania go i
 przeszkód w jego osiągnięciu? Bez nawykowego *interpretowania* ruchów myszy jako mniej lub bardziej
-*racjonalnych skutków informacji* (docierającej do jej zmysłów) i tego, do czego ta mysz dąży? Czy
+*racjonalnych skutków informacji* docierającej do jej zmysłów i tego, do czego ta mysz dąży? Czy
 jesteś w stanie popatrzeć na taką poruszającą się w bardzo regularny, niemal natychmiast intuicyjnie
 zrozumiały dla Ciebie sposób mysz tak jak patrzysz na przykład na rozpuszczającą się w gorącej
 wodzie esencję herbaty? A jak myślisz, co mogło by Ci ułatwić patrzenie w ten początkowo
@@ -192,8 +192,8 @@ To może wyobraź sobie jeszcze, że Twoja interakcja z myszą biegnącą po pod
 przez kamerę, o której istnieniu wcześniej nie wiedziałaś. Odkryłaś później to nagranie, a razem z
 nim wiele innych takich nagrań, pochodzących z takiego samego pokoju jak ten, w którym niedawno
 byłaś. I odkryłaś też wtedy coś jeszcze - na wszystkich tych nagraniach, za wyjątkiem tego, na
-którym widać Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się w taki sam
-sposób. Ale może wróćmy już do przerwanego wątku, bo na ten ostatni jest trochę za wcześnie.
+którym widać Ciebie, widać taką samą, właściwie identyczną mysz, poruszającą się w taki sam sposób.
+Ale może wróćmy już do przerwanego wątku, bo na ten jest trochę za wcześnie.
 
 Izomorfizm, który *zachowuje strukturę* obydwu przestrzeni (takie obiekty jak zbiór liczb
 rzeczywistych matematycy również nazywają \{abstrakcyjnymi\} przestrzeniami, chyba po prostu
@@ -209,7 +209,7 @@ tak bardzo je sobie cenimy. A każdy zachowujący strukturę izomorfizm jest dos
 
 Izomorfizm Curry'ego-Howarda pozwala osiągnąć coś podobnego do tego, co umożliwia układ
 kartezjański, tylko na poziomie *metamatematycznym*, bo pozwala na wymienne posługiwanie się
-myśleniem/językiem matematycznym i *programistycznym*. Żeby zacząć przygodę z tym izomorfizmem,
+myśleniem/językiem *matematycznym* i *programistycznym*. Żeby zacząć przygodę z tym izomorfizmem,
 trzeba tylko cierpliwie ćwiczyć przełączanie się między dwoma, dobrze określonymi, ale początkowo z
 konieczności trochę obcymi sposobami patrzenia na *typy*.
 
@@ -218,9 +218,9 @@ Być może jedną z głównych trudności pojawiających się podczas przyzwycza
 "rozgrywa się" wtedy czy może "istnieje" głównie na poziomie typów. Co ciekawe, to bywa nawet
 trudniejsze dla doświadczonych *informatyków*, ponieważ w typowych (hm) językach programowania
 systemy typów odgrywają bardziej przyziemną rolę. Za to gdy zdążysz się już trochę oswoić z tym
-"nietypowym myśleniem o typach", Twoja zdolność rozumienia treści matematycznych albo
-"matematyzacji" problemów czy pojęć zacznie się moim zdaniem rozwijać znacznie szybciej, niż gdybyś
-próbowała rozwijać ją w bardziej tradycyjny sposób.
+"nietypowym myśleniem o typach", Twoja zdolność rozumienia treści matematycznych i matematyzacji
+problemów czy pojęć zacznie się moim zdaniem rozwijać znacznie szybciej, niż gdybyś próbowała
+rozwijać ją w bardziej tradycyjny sposób.
 
 Zaczynając rozumieć to, o czym będziemy mówili w następnym rozdziale, uruchomisz proces zasadniczo
 taki sam jak ten, dzięki któremu byłaś w stanie rozwiązywać problemy geometryczne, które czasem
