@@ -65,8 +65,9 @@ rozdziałów](./R12_Duzy_kwantyfikator.md).
 
 Polecenia i zadania, które pojawiają się w pierwszych rozdziałach, nie wymagają instalacji Leana,
 ale jeżeli dotarłaś do tego momentu, to możliwe, że brałaś to już pod uwagę. Warto go zainstalować,
-na przykład w połączeniu ze znakomitym darmowym edytorem [VS Code](https://code.visualstudio.com/).
-Instrukcje znajdziesz [tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
+na przykład w połączeniu ze znakomitym darmowym edytorem [Visual Studio
+Code](https://code.visualstudio.com/). Instrukcje znajdziesz
+[tutaj](https://lean-lang.org/lean4/doc/quickstart.html).
 
 **Polecenie**: Jeżeli nie używasz edytora *VS Code*, a w pierwszych rozdziałach zakładam, że
 niekoniecznie, to skopiuj na początek do lewego okna sesji Leana w przeglądarce taki fragment kodu:
@@ -133,7 +134,7 @@ x : N
 
 ... gdzie `N` to jakiś term oznaczający typ, **czytamy jako**:
 
-*Deklaruję, że nazwa `x` będzie odtąd używana jako zmienna o typie `N`*. Jeszcze raz: takie
+*Deklaruję, że nazwa `x` będzie odtąd używana jako zmienna o typie `N`*. Jeszcze raz: Takie
 wyrażenia czytamy w ten sposób, gdy dana nazwa *ma być traktowana jako zmienna*. A o tym, czy `x` ma
 być traktowana jako zmienna czy stała decyduje to, *gdzie* term o postaci `x : N` występuje. Jeśli
 pojawia się zaraz po słowie kluczowym `def`, to mamy do czynienia z *definicją* (wartości/treści)
@@ -149,20 +150,21 @@ def nic_nie_robie : Nat → Nat := fun (n : Nat) => n
 życzeń* albo *oczekiwań* wobec kogoś/czegoś (na przykład Leana), kto/co ma te reguły *stosować*.
 Dlatego kod możemy czytać jako szczególnego rodzaju tekst, który mówi, *jak coś ma działać*. Zgodnie
 z powyższym fragmentem kodu, symbol (o nazwie) `nic_nie_robie` *ma być* traktowany jako *stała*, bo
-pojawia się po słowie kluczowym `def`. Ta stała ma oznaczać pewną konkretną, to jest *jawnie
-skonstruowaną* (bo to jest zwykła, a nie aksjomatyczna definicja) funkcję, która przyjmuje liczby
+pojawia się po słowie kluczowym `def`. Ta stała ma oznaczać pewną konkretną, to jest (jawnie)
+*skonstruowaną* (bo to jest zwykła, a nie aksjomatyczna definicja) funkcję, która przyjmuje liczby
 naturalne i zwraca liczby naturalne. Ta funkcja ma działać w taki sposób, że:
 
 *Jeśli to, co może dostać jako argument, nazwiemy `n`, to ta funkcja ma zwracać `n`*.
 
 <hr>
 
-**Parametry i zmienne to dwa aspekty tego samego językowego zjawiska działającego jak układ
-przewodów albo połączeń**: Widzimy, że symbol `n` pełni tu *podwójną* rolę *czegoś oznaczającego
-wejście* i zarazem *oznaczenia miejsca w kodzie*. A to, którą `n` pełni rolę, zależy od tego, *gdzie
-występuje*. Symbol `n` występujący w ciele funkcji oznacza nie *samo wejście*, tylko *cokolwiek, co
-może się pojawić na wejściu*. I właśnie na tym, że to może być *cokolwiek* (określonego typu),
-polega "zmiennościowość" użytej w ten sposób nazwy `n`.
+### Parametry i zmienne to dwa aspekty tego samego językowego zjawiska działającego jak układ przewodów albo połączeń
+
+Widzimy, że symbol `n` pełni tu *podwójną* rolę *czegoś oznaczającego wejście* i zarazem *oznaczenia
+miejsca w kodzie*. A to, którą `n` pełni rolę, zależy od tego, *gdzie występuje*. Symbol `n`
+występujący *w ciele* funkcji oznacza nie *samo wejście*, tylko *cokolwiek, co może się pojawić na
+wejściu*. I właśnie na tym, że to może być *cokolwiek* (określonego typu), polega "zmiennościowość"
+użytej w ten sposób nazwy `n`.
 
 Mówiąc krótko: *Specyfikacja parametru funkcji* jest *szczególnego rodzaju* (bo nadaje jej status
 nazwy \{jedynego\} wejścia funkcji) *deklaracją zmiennej obowiązującą w ciele funkcji*.
@@ -177,7 +179,7 @@ językowych przewodów" albo "połączeń", które przypominają odwrócone drze
 wystąpieniami tej samej zmiennej mają ten sam początek/to samo wejście (parametr).
 
 Na przykład, w definicji funkcji `podwajam` można zobaczyć wirtualne drzewo przewodów, które ma
-jeden korzeń/wejście/parametr i dwa węzły/liście/miejsca wystąpienia zmiennej:
+jeden korzeń/wejście/parametr i dwa węzły/liście/porty/miejsca wystąpienia zmiennej:
 
 ```lean
 -- Podany na wejściu argument "spływa do" lub "zasila" tutaj dwa różne miejsca w ciele.
@@ -188,8 +190,7 @@ def podwajam (n : Nat) :=
     -- pełnią rolę *miejsc                dla takich samych (zmiennych) wartości*.
     n + n
 
--- W ten sposób wszystkie trzy wystąpienia symbolu `n` *działają jak drzewo połączeń z jednym
--- korzeniem*.
+-- W ten sposób te trzy wystąpienia symbolu `n` *działają jak drzewo połączeń z jednym korzeniem*.
 ```
 
 Być może najprościej można to wszystko powiedzieć tak: *Parametr* to *nazwane wejście*, a
@@ -202,13 +203,13 @@ określa dokładnie to, w jaki sposób *używamy* parametrów i zmiennych, a w p
 pojęć *tylko* to jest ważne, bo to są pojęcia *funkcjonalne* w znaczeniu *dotyczące roli w
 realizacji określonych celów*. I dlatego też ten sposób mówienia i myślenia jest taki *obrazowy* i
 *dynamiczny*, bo chodzi w nim o *zmierzanie do* (pewnych celów), to jest o pewnego rodzaju
-(ukierunkowany) *ruch* i o *przekształcanie* czegoś (w coś). Akurat tutaj (lokalnie) "ostatecznym"
-celem jest obliczenie wartości aplikacji funkcji do (odpowiednich) argumentów.
+(ukierunkowany) *ruch* i o *celowe przekształcanie* czegoś (w coś). Akurat tu (lokalnie)
+"ostatecznym" celem jest obliczenie wartości aplikacji funkcji do (odpowiednich) argumentów.
 
 Widzimy z tej perspektywy, że funkcja `nic_nie_robie` ma *najprostsze możliwe ciało*, bo każda
-funkcja musi mieć jedno wejście i jedno wyjście, więc musi mieć co najmniej jeden "wewnętrzny
+funkcja musi mieć jedno wejście i jedno wyjście, dlatego musi mieć co najmniej jeden "wewnętrzny
 przewód", a funkcja `nic_nie_robie` ma tylko jeden "wewnętrzny przewód" i poza tym nie ma w jej
-ciele nic więcej, bo ta funkcja nie robi nic ponad to, co musi robić każda możliwa funkcja.
+ciele nic więcej.
 
 <hr>
 
@@ -252,9 +253,10 @@ funkcja wymaga. Dlatego aplikacja funkcji `nic_nie_robie` do termu `1` jest popr
 *typowalna*.
 
 **Definicja aplikacji**: Samo *zestawienie*, to jest *zapisanie obok siebie* funkcji i jakiegoś
-termu nazywamy *aplikacją funkcji do tego termu*, albo krótko *aplikacją*.
+termu wymaganego przez tą funkcję typu nazywamy *aplikacją tej funkcji do tego termu*, albo krótko
+*aplikacją*.
 
-W Leanie wszystkie termy, w tym również złożone, *muszą* mieć typ i ten typ musi być *unikalny*,
+W Leanie wszystkie termy, w tym również złożone, *muszą* mieć typ i ten typ jest zawsze *unikalny*,
 czyli *dokładnie jeden*. Ale nie każdy term *ma* typ, ponieważ można skonstruować termy *błędne*, to
 jest takie, których nie da się typować. Niektórzy mówią w takich sytuacjach *wyrażenie* i rezerwują
 słowo "term" dla wyrażeń typowalnych czyli poprawnych. Wyrażenia skonstruowane z elementów języka
@@ -333,8 +335,8 @@ dostanie jako drugi argument, zwraca ten argument:
 #eval identycznosc Nat 1 -- `1`
 ```
 
-Żeby zilustrować uniwersalność tej identyczności zastosujemy ją jeszcze do (pewnego
-termu)[https://pl.wikipedia.org/wiki/42_(liczba)] typu `String`:
+Żeby zilustrować uniwersalność tej identyczności zastosujemy ją jeszcze do [pewnego
+termu](https://pl.wikipedia.org/wiki/42_(liczba)) typu `String`:
 
 ```lean
 #eval identycznosc String "czterdzieści dwa" -- `"czterdzieści dwa"`
