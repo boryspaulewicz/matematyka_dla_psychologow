@@ -336,7 +336,8 @@ dostanie jako drugi argument, zwraca ten argument:
 ```
 
 Żeby zilustrować uniwersalność tej identyczności zastosujemy ją jeszcze do [pewnego
-termu](https://pl.wikipedia.org/wiki/42_(liczba)) typu `String`:
+termu](https://pl.wikipedia.org/wiki/Wielkie_pytanie_o_%C5%BCycie,_wszech%C5%9Bwiat_i_ca%C5%82%C4%85_reszt%C4%99)
+typu `String`:
 
 ```lean
 #eval identycznosc String "czterdzieści dwa" -- `"czterdzieści dwa"`
@@ -347,42 +348,43 @@ poczujesz, że trudno Ci to zrozumieć, być może najlepszą strategią będzie
 wrócić po przerwie do poprzednich fragmentów i *poczekać*, aż wszystko będzie się [powoli stawało
 coraz bardziej
 jasne](https://people.math.harvard.edu/~knill/teaching/math22b2019/handouts/lecture15.pdf). I przede
-wszystkim unikaj proszę *frustracji*, bo frustracja nie sprzyja wytrwałości, a liczymy głównie na
-*powolne* zmiany zachodzące w tak zwanej pamięci *trwałej*.
+wszystkim unikaj proszę *nadmiernej frustracji*, bo frustracja nie sprzyja wytrwałości, a liczymy tu
+głównie na *powolne* zmiany zachodzące w pamięci *trwałej*.
 
 <hr>
 
-**O analogii między wielokrotnym czytaniem o matematyce i słuchaniem muzyki**: Rozumienie matematyki
-to naprawdę w niemałym stopniu kwestia *przyzwyczajenia*, a przede wszystkim *pamięci* (trwałej).
-Jeśli zdarzy Ci się czytać te same fragmenty ponownie, może spróbuj czasami czytać je celowo
-*niespiesznie*. Polecam szczególnie spróbować to zrobić z jakąś dobrze napisaną książką. Czytanie
-powoli fragmentów, *które już się nieźle zrozumiało*, to szczególne doświadczenie, podobne moim
-zdaniem do wielokrotnego słuchania tego samego utworu muzycznego. W przypadku muzyki *popularnej*
-takie wielokrotne słuchanie może być i często bywa przyjemne, ale ponieważ muzyka popularna ma
-prostą strukturę, zwykle niewiele się wtedy zmienia.
+### O analogii między wielokrotnym czytaniem o matematyce i słuchaniem muzyki
+
+Rozumienie matematyki to naprawdę w niemałym stopniu kwestia *przyzwyczajenia*, a przede wszystkim
+*pamięci trwałej*. Jeśli zdarzy Ci się czytać te same fragmenty ponownie, może spróbuj czasami
+czytać je celowo *niespiesznie*. Polecam szczególnie spróbować to zrobić z jakąś dobrze napisaną
+książką. Czytanie powoli fragmentów, *które już się nieźle zrozumiało*, to szczególne doświadczenie,
+podobne moim zdaniem do wielokrotnego słuchania tego samego utworu muzycznego. W przypadku muzyki
+*popularnej* takie wielokrotne słuchanie może być i często bywa przyjemne, ale ponieważ muzyka
+popularna ma prostą strukturę, zwykle niewiele się wtedy zmienia.
 
 Z muzyką tak zwaną "poważną", "klasyczną", albo "ambitną" jest inaczej. Ponieważ struktura tego
 rodzaju muzyki jest bardziej złożona niż struktura muzyki popularnej, utwory często początkowo
 brzmią jak takie bezduszne, płaskie, nudnawe i męczące ciamkanie, plumkanie, lub wycie; dopiero po
-wielokrotnym, być może znacznie rozłożonym w czasie kontakcie, gdy struktura takich utworów zdąży
-się dobrze utrwalić w pamięci, można zacząć słyszeć i czuć zawarty w nich "muzyczny sens".
+wielokrotnym, być może znacznie rozłożonym w czasie kontakcie, gdy struktura takiego utworu zdąży
+się dobrze utrwalić w pamięci, można zacząć słyszeć i czuć zawarty w nim "muzyczny sens".
 
 Jeżeli lubisz muzykę, a zakładam, że prawdopodobnie tak, to pewnie zdążyłaś już zauważyć, że te
 utwory, które od razu wpadają nam w ucho, często szybko stają się nudne, a te, które zaczynamy lubić
 dopiero po pewnym czasie, zwykle podobają nam się dłużej i bardziej je sobie cenimy. To, że muzyka
-"poważna", podobnie jak matematyka, jest często *początkowo* nieprzystępna, to cena, jaką płacimy za
+"poważna", podobnie jak matematyka, jest często *początkowo* nieprzystępna, to cena jaką płacimy za
 *złożoność*. Zyskujemy za to potencjalnie głębszą i bardziej trwałą satysfakcję. Jeżeli chcesz się
 przekonać, jak to może działać w przypadku muzyki, możesz na przykład spróbować posłuchać
 niezobowiązująco (to znaczy, nie starając się usłyszeć "o co chodzi", tylko zdając się na działanie
 czasu i pamięci), powiedzmy jeden raz każdego dnia, nie dłużej niż przez około dwa tygodnie, na
-przykład [tego](https://music.youtube.com/playlist?list=OLAK5uy_n9W5GrHqSOorLnpUmah4lZCLoX2DT0Suw),
-początkowo dosyć nieprzystępnego utworu. Niewykluczone, że po kilku dniach przyda się wtedy nieco
-dłuższa przerwa, żeby efekt zmęczenia słuchaniem codziennie tego samego ustąpił. Może przytrafi Ci
-się wtedy wgląd, dzięki któremu stanie się dla Ciebie oczywiste, dlaczego cykl, którego ten utwór
-jest częścią, Schoenberg nazwał [suitą](https://pl.wikipedia.org/wiki/Suita). A gdy to nastąpi,
-słuchanie tej subtelnie złożonej muzyki stanie się moim zdaniem doświadczeniem podobnym do
-niespiesznego czytania po raz kolejny dobrze napisanego tekstu dotyczącego złożonych zagadnień
-technicznych, który zdążyło się już nieźle zrozumieć.
+przykład [tego](https://music.youtube.com/watch?v=IJaCB_c-8oQ&si=V_Hcuckpyp8pjlwj), początkowo dosyć
+nieprzystępnego utworu. Niewykluczone, że po kilku dniach przyda się wtedy nieco dłuższa przerwa,
+żeby efekt zmęczenia słuchaniem codziennie tego samego ustąpił. Może przytrafi Ci się wtedy wgląd,
+dzięki któremu stanie się dla Ciebie oczywiste, dlaczego cykl, którego ten utwór jest częścią,
+Schoenberg nazwał [suitą](https://pl.wikipedia.org/wiki/Suita). A gdy to nastąpi, słuchanie tej
+subtelnie złożonej muzyki stanie się moim zdaniem doświadczeniem podobnym do niespiesznego czytania
+po raz kolejny dobrze napisanego tekstu dotyczącego złożonych zagadnień technicznych, który zdążyło
+się już nieźle zrozumieć.
 
 Postanowiłem o tym napisać, bo jadąc niedawno autobusem, bez specjalnego powodu rzuciłem okiem na
 pierwsze rozdziały znakomitej książki *Topoi: The Categorical Analysis of Logic* [Roberta
@@ -478,7 +480,9 @@ Poza samym *oderwaniem* typów odpowiadających dwóm podanym argumentom następ
 W ramach (a może na skutek?) aplikacji, argument `Nat` staje się *wartością parametru* `typ`. To
 samo słowo `typ` występuje jednak później w *specyfikacji typu* stałej `identycznosc`. A skoro to
 późniejsze wystąpienie słowa `typ` jest częścią definicji tej samej funkcji, to słowo `typ`
-występuje tam w roli *zmiennej*. Gdy definicję uogólnionej identyczności zapiszemy tak, ...
+występuje tam w roli *zmiennej*. Inaczej mówiąc, te dwa wystąpienia słowa `typ` są również dwoma
+końcami wirtualnego przewodu, ale nowego rodzaju, bo ten przewód znajduje się w całości *w typie*.
+Gdy definicję uogólnionej identyczności zapiszemy tak, ...
 
 ```lean
 def identycznosc : (typ : Type) → typ → typ :=
@@ -499,12 +503,19 @@ występującymi zarówno w specyfikacji *typu* definiowanej stałej jak i w *cie
 *Sam typ* funkcji `identycznosc` (nie funkcji {będącej rezultatem aplikacji} `identycznosc Nat`), to
 jest `(typ : Type) → (a : typ) → typ`, jest więc *czymś w rodzaju funkcji* (jeszcze raz: sam typ
 jest tutaj czymś w rodzaju funkcji), której parametr nosi nazwę `typ`. To *nie* jest funkcja w tym
-znaczeniu, że *typu* nie możemy w Leanie do niczego aplikować, ale *na etapie aplikacji termu tego
-typu* ten typ działa tak, jakby był funkcją i jakby ta funkcja była do czegoś aplikowana. A więc to
-jest *coś w rodzaju* ewaluacji zachodzącej automatycznie w ramach aplikacji termów, które mają typ
-zależny. Nie przejmuj się, jeżeli mimo moich zapewnień, że to naturalny proces, wydaje Ci się to
-zbyt trudne; z czasem się do tego przyzwyczaisz, a nawet pewnie zapomnisz, czemu początkowo to Ci
-się zdawało trudne.
+znaczeniu, że *typu* nie możemy w Leanie do niczego aplikować, no i ten term (będący typem zależnym)
+nie ma typu funkcyjnego ...
+
+```lean
+-- Ten zależny typ jest termem typu `Type 1`, a nie typu funkcyjnego:
+#check (typ : Type) → (a : typ) → typ -- (typ : Type) → (a : typ) → typ : Type 1
+```
+
+... ale *na etapie aplikacji termu tego typu* ten typ działa tak, jakby był funkcją i jakby ta
+funkcja była do czegoś aplikowana. A więc to jest *coś w rodzaju* ewaluacji zachodzącej
+automatycznie *w ramach aplikacji* termów, które mają typ zależny. Nie przejmuj się, jeżeli mimo
+moich zapewnień, że to naturalny proces, wydaje Ci się to zbyt trudne; z czasem się do tego
+przyzwyczaisz, a nawet pewnie zapomnisz, czemu początkowo to Ci się zdawało trudne.
 
 ## Funkcje
 
@@ -521,16 +532,16 @@ matematyki, programowania, formalizowania treści wyrażonych w języku naturaln
 dowodów matematycznych, jednocześnie konwekwentnego, elastycznego i wieloaspektowego abstrakcyjnego
 myślenia, a później - dzięki tym wszystkim prerekwizytom w niemal porywającym tempie -
 matematycznych podstaw współczesnej metodologii badań, to jest wnioskowania statystycznego,
-testowania hipotez, wnioskowania przyczynowego, teorii pomiaru, a wszystko to w interakcji z
+testowania hipotez, wnioskowania przyczynowego i teorii pomiaru, a wszystko to w interakcji z
 programem, który w tym pomaga, takim jak Lean. Postaram się, żeby ta nauka była dla Ciebie możliwie
 łatwa, przyjemna i pożyteczna, a gdyby w którymś momencie mi się to nie udało, będę wdzięczny, jeśli
-mi o tym powiesz, bo bez tego rodzaju informacji trudno będzie mi to zrobić lepiej.
+mi o tym powiesz, bo bez informacji zwrotnych trudno będzie mi to zrobić lepiej.
 
 Żeby skorzystać z tego sposobu na matematykę i metodologię badań, a jak się okaże w rozdziałach od
-29 w górę, w niemałym stopnia również na całą psychologię, trzeba się *powoli przyzwyczajać* do
-*nowych sposobów myślenia*, do których służą rozmaite *sztuczne języki*, czyli języki *formalne*.
-Jeden z tych sposobów, do którego między innymi znakomicie nadaje się język teorii typów, polega na
-patrzeniu na funkcje, programy, a niebawem również na implikacje, jako na jedno i to samo.
+29 w górę, w niemałym stopnia również na *całą psychologię*, trzeba się *powoli przyzwyczajać* do
+*nowych sposobów myślenia*, do których służą rozmaite *sztuczne języki formalne*. Jeden z tych
+sposobów, do którego między innymi znakomicie nadaje się język teorii typów, polega na patrzeniu na
+funkcje, programy, a niebawem również na implikacje, jako na jedno i to samo.
 
 **Polecenie**: Przyjżyj się temu fragmentowi kodu, a następnie spróbuj go odczytać "po ludzku" i
 przepisać z pamięci. Jeżeli na tym etapie przepisanie z pamięci jest zbyt trudne, to albo go po
@@ -610,13 +621,13 @@ ewentualnym argumencie. Podsumowując, można (i moim zdaniem warto) powiedzieć
 *Nazwy parametrów pełnią rolę zaimków, a nazwy stałych pełnią rolę nazw własnych*.
 
 **Polecenie**: Spróbuj przepisać definicję stałej `dodaj2` z pamięci, żeby struktura takich
-definicji zaczęła Ci się lepiej utrwalać, i żebyś mogła ją szybciej mentalnie przetwarzać. Jeżeli Ci
+definicji zaczęła Ci się lepiej utrwalać i żebyś mogła ją szybciej mentalnie przetwarzać. Jeżeli Ci
 się to nie uda, popatrz znowu na tą definicję, przełącz się na okno, w którym działa serwer Leana,
-tak, żeby nie było jej widać, i spróbuj ponownie. I tak do skutku, uważając oczywiście na
-frustrację, nudę i zmęczenie. To Ci prawdopodobnie pomoże w przyswajaniu dalszych treści. Gdy już Ci
-się uda, sprawdź typ stałej `dodaj2`, raz poprzedzając ją symbolem `@`, a raz nie. Sprawdź też typ
-aplikacji tej stałej do wybranej liczby naturalnej. A na koniec ewaluuj tą aplikację. Za każdym
-razem popatrz na rezultat w panelu po prawej, upewniając się w ten sposób, czy wszystko się zgadza.
+tak, żeby nie było jej widać i spróbuj ponownie. I tak do skutku, uważając oczywiście na frustrację,
+nudę i zmęczenie. To Ci prawdopodobnie pomoże w przyswajaniu dalszych treści. Gdy już Ci się uda,
+sprawdź typ stałej `dodaj2`, raz poprzedzając ją symbolem `@`, a raz nie. Sprawdź też typ aplikacji
+tej stałej do wybranej liczby naturalnej. A na koniec ewaluuj tą aplikację. Za każdym razem popatrz
+na rezultat w panelu po prawej, upewniając się w ten sposób, czy wszystko się zgadza.
 
 **Ewaluacja aplikacji krok po kroku**: Mówiąc w pewnym uproszczeniu, gdy umieścisz kursor nad
 komendą `#eval` w instrukcji `#eval dodaj2 2`, wtedy Lean:
@@ -624,8 +635,8 @@ komendą `#eval` w instrukcji `#eval dodaj2 2`, wtedy Lean:
 1. Ewaluuje, czyli redukuje do najprostszej postaci, argument tej aplikacji. Tutaj jest tylko jeden
 argument, `2`, który może być zredukowany, a właściwie zastąpiony przez coś innego za pomocą nieco
 innego procesu niż redukcja, ale o tym, co "kryje się" pod liczbą `2` powiem za chwilę, a o tym
-innym procesie, który polega na *kontrolowanej wieloznaczności* odpowiadającej temu, co w praktyce
-często robią matematycy, powiem więcej znacznie później.
+innym procesie, który polega na *kontrolowaniu wieloznaczności* w sposób podobny do tego, co w
+praktyce często robią matematycy, powiem więcej znacznie później.
 
 2. Podstawia rezultat tej redukcji pod zmienną `a` w ciele funkcji, bo `a` jest (tutaj jedynym)
 parametrem funkcji `dodaj2`. W ten sposób powstaje `2 + 2` (posługując się dalej znaną Ci notacją
@@ -655,14 +666,14 @@ byłoby chyba nieintuicyjne.
 No więc symbol `0` jest przez Leana interpretowany jako zapisana w inny sposób, *nieredukowalna*
 stała `Nat.zero`. Podkreślam, że `Nat.zero` to w Leanie *tylko pewien napis*, nic więcej. Zwykle
 zapisujemy tą liczbę jako `0`, ale zapis za pomocą cyfr arabskich istnieje tylko dla naszej *wygody*
-i nie decyduje o tym, czym *są* liczby naturalne (albo co jest liczbą naturalną). Liczba naturalna
-`1` odpowiada w Leanie *nieredukowalnej aplikacji* funkcji następnika `Nat.succ` do stałej
-`Nat.zero`, to jest `Nat.succ Nat.zero`. **Czytamy to**: *Następna* (stąd nazwa "następnik") *liczba
-naturalna po liczbie zero*. Podkreślam, że ta aplikacja jest również *nieredukowalna*, co znaczy, że
-gdy pojawi się w trakcie ewaluacji jako rezultat, ta część ewaluacji na niej się zakończy. Innymi
-słowy, ta aplikacja istnieje tylko po to, żeby można było ją *zapisać*, podać jako argument, albo
-zwrócić jako rezultat, bo *sama aplikacja* `Nat.succ Nat.zero` (a nie jakaś jej wartość, której po
-prostu nie ma) *jest dla Leana liczbą `1`*.
+i nie decyduje o tym, czym *są* liczby naturalne. Liczba naturalna `1` odpowiada w Leanie
+*nieredukowalnej aplikacji* funkcji następnika `Nat.succ` do stałej `Nat.zero`, to jest `Nat.succ
+Nat.zero`. **Czytamy to**: *Następna* (stąd nazwa "następnik") *liczba naturalna po liczbie zero*.
+Podkreślam, że ta aplikacja jest również *nieredukowalna*, co znaczy, że gdy pojawi się w trakcie
+ewaluacji jako rezultat, ta część ewaluacji na niej się zakończy. Innymi słowy, ta aplikacja
+istnieje tylko po to, żeby można było ją *zapisać*, podać jako argument, albo zwrócić jako rezultat,
+bo *sama aplikacja* `Nat.succ Nat.zero` (a nie jakaś jej wartość, której po prostu nie ma) *jest dla
+Leana liczbą `1`*.
 
 Czy widzisz podobieństwo między tym sposobem definiowania liczb naturalnych a wspomnianymi wcześniej
 sposobami polegającymi na zapisywaniu ich jako skończonych ciągów (w tym również ciągu pustego)
@@ -678,7 +689,7 @@ sposób, w jaki coś zapisujemy, nie decyduje o *znaczeniu*; o tym decyduje spos
 
 Nieredukowalna stała `Nat.zero` i nieredukowalne aplikacje takie jak `Nat.succ Nat.zero` całkiem
 dosłownie *są* więc liczbami naturalnymi, tak samo jak `0` i `1` *są* liczbami naturalnymi,
-dokładnie dlatego, że *możemy ich używać* jako liczb naturalnych. Wbrew pozorom, ten fakt nie ma
+dokładnie dlatego, że *możemy ich używać jako liczb naturalnych*. Wbrew pozorom, ten fakt nie ma
 *nic* wspólnego z zapisem. Możemy traktować termy takie jak `Nat.zero` i `Nat.succ Nat.zero` jako
 liczby naturalne, ponieważ wszystkie *operacje*, jakie możemy *wykonywać* na liczbach naturalnych,
 możemy *wykonywać* na tych termach, uzyskując wyniki zgodne z interpretacją: `0` to (to samo co)
@@ -695,7 +706,7 @@ to powinno być coś "pod spodem" `Nat.succ Nat.zero`, i tym czymś powinna być
 funkcji i liczby, albo jakaś liczba *1* jako taka, czy może "sama w sobie".
 
 To, że *nic* pod spodem nie ma, to dobra wiadomość, bo oznacza, że *nie ma tu tajemnic*, poza tymi
-licznymi i fascynującymi tajemnicami, które kryją się *ponad* zapisami w *nas*, to jest w twórcach i
+licznymi i fascynującymi tajemnicami, które kryją się *ponad* napisami w *nas*, to jest w twórcach i
 użytkownikach tych termów, wyrażeń i języków, a które to tajemnice są przedmiotem badań
 *psychologii*, a nie matematyki. W "czystej" matematyce mamy tylko *struktury złożone z symboli i
 dopuszczalne sposoby ich konstruowania i przekształcania*. To taka rozległa pustka, a w niej nic
@@ -735,10 +746,9 @@ Jeżeli to jest robot pracujący wewnątrz funkcji `suma`, to gdy dostanie dwie 
 będą tylko dwa opakowane obiekty, o których będzie wiedział tyle, że mają typ `Nat` i będzie też
 wiedział, który jest pierwszy albo lewy, a który drugi albo prawy, bo na opakowaniach będzie widział
 nazwy `n` i `m`. Nie będzie nawet wiedział, czy dwa różnie oznaczone obiekty tego samego typu są
-*różne*, i tutaj metafora nieprzezroczystych opakowań niestety się sypie (za to metafora wirtualnych
-połączeń albo przewodów nadal jest akceptowalna). W przypadku funkcji `suma`, wszystko, co ten robot
-(nomen omen) robi, to delegowanie dalszego przetwarzania argumentów do niezależnie zdefiniowanej
-funkcji o nazwie `+`.
+*różne*, i tutaj metafora nieprzezroczystych opakowań trochę nam się sypie. W przypadku funkcji
+`suma`, wszystko, co ten robot (nomen omen) robi, to delegowanie dalszego przetwarzania argumentów
+do niezależnie zdefiniowanej funkcji o nazwie `+`.
 
 Albo, nieco bardziej abstrakcyjnie, możemy myśleć o funkcji takiej jak `suma` jako o "pudełku",
 które ma dwa wejścia, jedno oznaczone literą `n`, a drugie literą `m`, i które ma jedno wyjście, a w
@@ -747,15 +757,16 @@ wewnętrzny mechanizm jest "przyklejony" do wejść lub połączony z nimi, to s
 *nazwy* wejść nie mają znaczenia i istnieją tylko dla wygody *czytelników kodu*, czyli naszej.
 
 Za to *typy* wejść i *typ* wyjścia (funkcje mają zawsze tylko jedno wyjście, a w Leanie tak naprawdę
-również tylko jedno wejście) *mają* znaczenie, ale tylko na etapie *konstruowania* kodu, kiedy
-decydują o tym, które wyrażenia są termami, czyli są poprawne, czyli typowalne. Można sobie
-wyobrazić, że typy wejść i typ wyjścia to kształty otworów funkcji jako pudełka. Nie możemy podawać
-na wejściu (konstruować aplikacji) funkcji `suma` (do) czegokolwiek - muszą to być termy typu `Nat`.
-Można więc powiedzieć, że funkcje w teorii typów są zawsze w jakiś sposób *wyspecjalizowane*: Jeżeli
-podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko wymusimy ewaluację, na wyjściu
-pojawi się liczba naturalna, i już samo to ograniczenie jest pewną specjalizacją.
+również tylko jedno wejście) *mają* znaczenie, ale tylko na etapie *konstruowania* lub *sprawdzania
+kodu*, kiedy decydują o tym, które wyrażenia są termami, czyli są poprawne, czyli typowalne. Można
+sobie wyobrażać, że typy wejść i typ wyjścia to kształty otworów funkcji jako pudełka. Nie możemy
+podawać na wejściu (konstruować aplikacji) funkcji `suma` (do) czegokolwiek - muszą to być termy
+typu `Nat`. Można więc powiedzieć, że funkcje w teorii typów są zawsze w jakiś sposób
+*wyspecjalizowane*: Jeżeli podamy na wejściu dwa wyrażenia typu liczba naturalna, to gdy tylko
+wymusimy ewaluację, na wyjściu pojawi się liczba naturalna, i już samo to ograniczenie jest pewną
+specjalizacją.
 
-Metafora funkcji jako mechanizmu w pudełku ma jeszcze inne ograniczenia. Jak już wiesz, wyliczenie
+Metafora funkcji jako mechanizmu w pudełku ma jeszcze inne ograniczenia. Jak już wiesz, obliczenie
 rezultatu aplikacji funkcji polega tak naprawdę na ewaluacji argumentów, następnie na podstawieniu
 ich zredukowanych postaci pod odpowiednie zmienne (w odpowiednie miejsca) w ciele funkcji, i na
 ewaluacji (czyli redukcji) uzyskanej w ten sposób wersji ciała funkcji, aż do ostatecznego, to jest
@@ -764,7 +775,7 @@ zewnątrz definicji* funkcji, bo ta definicja nie jest tak naprawdę mechanizmem
 mówiącym, co ma być zrobione z argumentami w ramach ewaluacji aplikacji. Mechanizmem jest więc tutaj
 pewien "uniwersalny ewaluator" albo "reduktor", który używa dostarczonych mu definicji stałych i
 redukuje napotykane aplikacje, traktując aplikacje i definicje jak przepisy określające, co ma
-robić. I to jest w dodatku mechanizm "na korbkę", którą kręcimy *my*, ostateczni autorzy i
+robić. I to jest w dodatku mechanizm "na korbkę", którą cały czas kręcimy *my*, autorzy i
 użytkownicy wszystkich tych przepisów.
 
 A oto bardziej skomplikowany przykład ewaluacji aplikacji. Myślę, że domyślasz się już trochę,
