@@ -776,7 +776,7 @@ mówiącym, co ma być zrobione z argumentami w ramach ewaluacji aplikacji. Mech
 pewien "uniwersalny ewaluator" albo "reduktor", który używa dostarczonych mu definicji stałych i
 redukuje napotykane aplikacje, traktując aplikacje i definicje jak przepisy określające, co ma
 robić. I to jest w dodatku mechanizm "na korbkę", którą cały czas kręcimy *my*, autorzy i
-użytkownicy wszystkich tych przepisów.
+użytkownicy tych przepisów.
 
 A oto bardziej skomplikowany przykład ewaluacji aplikacji. Myślę, że domyślasz się już trochę,
 dlaczego ten (wiem, że dziwny) fragment kodu jest poprawny i jak działa:
@@ -804,15 +804,24 @@ n + m
 5 + 4
 
 -- W ten sam sposób przebiega ewaluacja aplikacji funkcji `+` do liczb `5` i `4`. Ewaluacja trwa do
--- momentu, gdy nic więcej nie będzie się dało lub nie będzie warto, redukować do prostszej postaci.
+-- momentu, gdy nic więcej nie będzie się dało lub nie będzie warto redukować do prostszej postaci.
 ```
 
 Ewaluacja całego tego wyrażenia zaczyna się od ewaluacji najbardziej *wewnętrznych* albo
 zagnieżdżonych części argumentów: `(Nat.succ 3)` i `(2 + Nat.zero)`. Rezultatami tych ewaluacji są,
-stosując zapis cyfrowy, liczby `4` (`1 + 3`) i `2` (`2 + 0`). To jednak nie koniec ewaluacji
-argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami pewnych aplikacji (funkcji
-`Nat.succ` i funkcji `-`). Przypominam, że w tym kontekście `+` i `-` też oznaczają pewne
-(dwuargumentowe) funkcje, tylko zapisane w *notacji infiksowej* (inaczej wzrostkowej) ...
+stosując zapis cyfrowy, liczby `4` (`1 + 3`) i `2` (`2 + 0`). A mówiąc dokładniej, term `(Nat.succ
+3)` wymaga *elaboracji* polegającej na rozstrzygnięciu, co znaczy wieloznaczny symbol `3` (to może
+być liczba naturalna, całkowita, rzeczywista, albo zespolona). Na tym etapie możesz myśleć o
+elaboracji jako o bardziej wszechstronnym rodzaju ewaluacji, pozwalającym między innymi na
+posługiwanie się kontrolowaną wieloznacznością. Ponieważ symbol `3` występuje tu w roli argumentu
+aplikacji funkcji `Nat.succ`, musi oznaczać liczbę naturalną *3*, czyli `Nat.succ (Nat.succ
+(Nat.succ Nat.zero))`, a więc rezultatem elaboracji termu `(Nat.succ 3)` jest liczba naturalna
+`Nat.succ (Nat.succ (Nat.succ (Nat.succ Nat.zero)))`, którą Lean wyświetla jako cyfrę `4`.
+
+To jednak nie koniec ewaluacji argumentów, bo `(Nat.succ 3)` i `(2 + Nat.zero)` są tu argumentami
+pewnych aplikacji (funkcji `Nat.succ` i funkcji `-`). Przypominam, że w tym kontekście `+` i `-` też
+oznaczają pewne (dwuargumentowe) funkcje, tylko zapisane w *notacji infiksowej* (inaczej
+wzrostkowej) ...
 
 `argument1 funkcja argument2`, na przykład `1 + 2`
 
@@ -828,33 +837,35 @@ zrobimy to kiedy indziej.
 wynikający z niejednoznaczności zapisu błąd, który Lean wykrywa w tym fragmencie kodu?
 
 ```lean
+-- Ten fragment kodu jest błędny ...
 #eval suma Nat.succ 2 3
 ```
 
 Funkcja `suma` wymaga argumentów typu `Nat`. Pierwszy argument aplikacji jest tu jednak *funkcją*
 `Nat.succ`, a nie *liczbą naturalną*. Żeby ten kod był poprawny, trzeba otoczyć fragment `Nat.succ
-2` nawiasami; wtedy pierwszy argument `(Nat.succ 2)` będzie miał typ `Nat`:
+2` nawiasami; wtedy pierwszym argumentem będzie term złożony `(Nat.succ 2)`, czyli liczba naturalna
+*3*, która ma typ `Nat`:
 
 ```lean
-#eval suma (Nat.succ 2) 3
+-- ... a ten jest poprawny:
+#eval suma (Nat.succ 2) 3 -- 6
 ```
 
 ## Curry(ing)
 
 **W Leanie nie ma funkcji "prawdziwie" dwuargumentowych**: Funkcja `suma` *wygląda* jak funkcja
-dwuargumentowa i *do pewnego stopnia* tak się *zachowuje*, a więc *jest* dwuargumentowa, ale jest
-funkcją dwuargumentową "z dodatkową funkcjonalnością", polegającą na możliwości częściowej
-aplikacji, w ramach której można używać tej funkcji jako funkcji *jedno*argumentowej. Mówiąc wprost,
-("funkcjonalnie" albo "zastosowaniowo") `suma` jest *jednocześnie* funkcją dwuargumentową i funkcją
-jednoargumentową, która zwraca funkcję jednoargumentową (która dodaje jedyny parametr tej pierwszej
-funkcji do swojego jedynego parametru).
+dwuargumentowa i tak też się *zachowuje*, a więc *jest* funkcją dwuargumentową, ale ma też
+"dodatkową funkcjonalność" polegającą na możliwości częściowej aplikacji, w ramach której można
+używać funkcji `suma` jako funkcji *jedno*argumentowej. Mówiąc wprost, ("funkcjonalnie") `suma` jest
+*jednocześnie* funkcją dwuargumentową i funkcją jednoargumentową, która zwraca funkcję
+jednoargumentową (która dodaje jedyny parametr tej pierwszej funkcji do swojego jedynego parametru).
 
 Taki sposób definiowania funkcji więcej niż jednoargumentowych nazywa się *curryingiem*, od nazwiska
 pewnego wybitnego [matematyka](https://en.wikipedia.org/wiki/Haskell_Curry), który pojawi się tu
 jeszcze w znacznie poważniejszej roli.
 
 **Polecenie**: Napisz kod pozwalający sprawdzić typ aplikacji funkcji `suma` do *jednego* argumentu
-`10`. W prawym panelu zobaczysz wtedy komunikat:
+`10`. W prawym panelu zobaczysz wtedy komunikat (ilustracja):
 
 ```lean
 suma 10 : Nat → Nat
@@ -890,11 +901,11 @@ ciało definicji a ciało funkcji.
 
 ### Przypisy
 
-[^1]: *Typ funkcyjny* i *typ funkcji* to tylko dwie różne nazwy na to samo. W szczególności, typ
-    funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami nazwa "typ funkcyjny" brzmi lepiej,
-    na przykład: "Funkcje to dokładnie takie termy, które mają typ funkcyjny" brzmi chyba lepiej lub
-    mniej dezorientująco, niż "Funkcje to dokładnie takie termy, których typem jest jakiś typ
-    funkcji".
+[^1]: *Typ funkcyjny* i *typ funkcji* to tylko dwa różne określenia na to samo. W szczególności, typ
+    funkcyjny nie jest funkcją, tylko typem (funkcji). Czasami określenie "typ funkcyjny" brzmi
+    lepiej, na przykład: "Funkcje to dokładnie takie termy, które mają typ funkcyjny" brzmi chyba
+    lepiej lub mniej dezorientująco, niż "Funkcje to dokładnie takie termy, których typem jest jakiś
+    typ funkcji".
 
 [^2]: ... który być może pojawi się tu jeszcze w drugiej części, bo do pewnych rzeczy pasuje jak
     ulał, i którego większość książek przeczytałem jeszcze w późnej podstawówce, czego akurat nikomu
