@@ -363,10 +363,11 @@ miałaś okazję doświadczyć niektórych sposobów, w jakie można je *zastoso
 niektóre ich *konsenwencje*.
 
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
-było, jest, i zawsze już będzie prawdziwe, choć tylko w tym znaczeniu, że jest nieuchronną
+było, jest i zawsze już będzie prawdziwe, choć tylko w tym znaczeniu, że jest nieuchronną
 konsekwencją przyjętych wyborów językowych. Od tego momentu o samym dowodzie, to jest o jego
 konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako ze
-wskazówki podczas poszukiwania innego dowodu.
+wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, że dowód danego zdania
+*istnieje*.
 
 Będziemy odtąd robić podobne rzeczy, ale [nie zawsze na
 kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
