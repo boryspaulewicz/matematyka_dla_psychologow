@@ -338,11 +338,11 @@ temat oceny hipotez empirycznych.
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej, agresywnie bezsensownej
 wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
 zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu, z którego
-niedługo potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie, według wskazówek
-zapisanych w skrypcie w języku Lean, dowodów kilku prostych twierdzeń, większość, o ile nie wszyscy,
-wykonali to zadanie z łatwością. Gdy zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili
-wahania - zgłosiła się Sofiia Honcharova i zdobyła się na odwagę, żeby powiedzieć, że chociaż
-wykonała zadanie dość szybko, to *nie wiedziała, co się stało*.
+niedługo potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie w języku Lean dowodów
+kilku prostych twierdzeń, większość, o ile nie wszyscy, wykonali to zadanie z łatwością. Gdy
+zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się Sofiia
+Honcharova i zdobyła się na odwagę, żeby powiedzieć, że chociaż wykonała zadanie dość szybko, to
+*nie wiedziała, co się stało*.
 
 Ta odpowiedź nie dawała mi później spokoju, dlatego poprosiłem Sofiię, żeby spróbowała powiedzieć
 coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to trafiła w sedno.
