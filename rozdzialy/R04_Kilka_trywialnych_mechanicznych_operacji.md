@@ -239,7 +239,7 @@ dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założył
 
 Jeżeli wykonałaś poprawnie wszystkie te *trywialne*, *mechaniczne* operacje, polegające tylko na
 podstawianiu pewnych wyrażeń w miejsce innych wyrażeń zgodnie z kilkoma prostymi regułami, to udało
-Ci się udowodnić nieznacznie uproszczoną wersję twierdzenie Bayesa. W dodatku zrobiłaś to już po raz
+Ci się udowodnić nieznacznie uproszczoną wersję twierdzenia Bayesa. W dodatku zrobiłaś to już po raz
 drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko nazwami stałych, a takie
 różnice są w matematyce *nieistotne* (choć mają znaczenie praktyczne). Moim studentom, kiedy
 udowadniają w ten (drugi) sposób to twierdzenie po raz pierwszy w życiu, nie zajmuje to więcej niż
@@ -256,8 +256,8 @@ przez niemal bezmyślne podstawianie, chodzi w tego rodzaju twierdzeniach?
 
 Kilka razy posłużyłem się w tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę
 jeszcze do nich wracał, ale na wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w
-matematyce*. Jeżeli jeszcze nie *poczujesz*, o czym tu będę teraz mówił, nie przejmuj się tym, bo
-nie bez powodu nazwałem ten fragment dygresją.
+matematyce*. Jeżeli jeszcze nie *poczujesz*, o czym tu będę mówił, nie przejmuj się tym, bo nie bez
+powodu nazwałem ten fragment dygresją.
 
 *Zwykłe definicje są wyborami językowymi określającymi alternatywne, często krótsze i ułatwiające
 czytanie ze zrozumieniem sposoby zapisywania tego samego.*
