@@ -275,8 +275,8 @@ prawdziwe czy fałszywe, natomiast zawsze można zapytać, czy te decyzje są *k
 ze względu na określone cele. W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego
 aksjomatu, być może do czegoś niematematycznego, jest poprawne. Pytamy wtedy, czy jakiś aksjomat
 jest prawdziwy *o czymś*, a nie czy sam aksjomat jest prawdziwy. Założeniem, które może być
-prawdziwe lub fałszywe, jest wtedy stwierdzenie, że coś jest ze względu na przyjęte cele poprawnie
-*opisywalne przez aksjomat*.
+prawdziwe lub fałszywe, jest wtedy stwierdzenie, że coś jest ze względu na przyjęte cele
+wystarczająco dobrze *opisywalne przez aksjomaty*.
 
 Reguła 3 to (dla nas, bo można ją wyprowadzić z bardziej elementarnych zasad) aksjomat, czyli
 *definicja nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
