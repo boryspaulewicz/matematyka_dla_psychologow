@@ -101,7 +101,8 @@ językiem samowystarczalnym, bo logika jest jej częścią. A po drugie dlatego,
 uniwersalnie ważna *logika*, a więc zmechanizowane *rozumowanie*, i *programowanie*, czyli pewien
 *dialog*, chociaż w tym przypadku z komputerem, *w jednym*. Teoria kategorii to z kolei między
 innymi teoria dopasowania między różnymi sposobami opisu, albo uniwersalne narzędzie konsekwentnego
-i elastycznego operowania różnymi punktami widzenia na to samo.
+i elastycznego operowania różnymi punktami widzenia na to samo. Albo uniwersalna teoria modularnego
+działania (zależy jak na nią popatrzeć).
 
 **O korzystaniu ze sztucznej "inteligencji"**: Nie używam, bo nie lubię, a nie lubię, bo taki na
 przykład ChatGPT to, o ile wiem, monstrualna, żarłoczna papuga, która bezmyślnie powtarza co
