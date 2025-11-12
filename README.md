@@ -121,10 +121,11 @@ form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało ucią
 czytelności, dlatego zdecydowałem, że skoro zdecydowana większość studentów psychologii to
 studentki, a nie studenci, będę się zwracał do Czytelniczki. Miałem jednak w związku z tym długo
 wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Dlatego na wypadek, gdyby
-zdarzało mi się sprawiać niewłaściwe wrażenie, wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w
-ten sposób i o takich sprawach, gdy byłem studentem. Może odpowiadałaby mi wtedy bardziej forma
-męska, ale forma żeńska też by mi nie przeszkadzała i zdaje się, że nie przeszkadza czytelnikom. A
-poza tym piszę też w pewnym sensie do *przyszłej psychologii*, która jest przecież Kobietą.
+zdarzało mi się sprawiać [niewłaściwe wrażenie](https://pl.wikipedia.org/wiki/Mansplaining),
+wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w ten sposób i o takich sprawach, gdy byłem
+studentem. Może odpowiadałaby mi wtedy bardziej forma męska, ale forma żeńska też by mi nie
+przeszkadzała i zdaje się, że nie przeszkadza czytelnikom. A poza tym piszę też w pewnym sensie do
+*przyszłej psychologii*, która jest przecież Kobietą.
 
 **O (czasem nad)używaniu pisma pochyłego**: Może porównaj, jak Ci się czyta te dwa fragmenty (które
 napisałem w
