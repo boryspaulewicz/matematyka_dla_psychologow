@@ -35,9 +35,9 @@ te symbole na inne wyrażenia):
 3. Całe *złożone wyrażenie*, będące formułą albo przepisem, o którym wiesz, że po obliczeniu dałoby
    liczbę naturalną, takie jak *10 - 1*.
 
-Poza tym, że to muszą być *wyrażenia odpowiedniego typu*, to jest (na mocy jawnych deklaracji i
-powszechnie przyjętych konwencji) wyrażenia *oznaczające liczby naturalne*, trzeba też pamiętać,
-żeby *podstawianie* było *konsekwentne*. To znaczy, w miejscu każdego wystąpienia *n* musi być
+Poza tym, że to muszą być *wyrażenia odpowiedniego typu*, to jest wyrażenia *oznaczające* (na mocy
+jawnych deklaracji i powszechnie przyjętych konwencji) *liczby naturalne*, trzeba też pamiętać, żeby
+*podstawianie* było *konsekwentne*. To znaczy, w miejscu każdego wystąpienia *n* musi być
 podstawione to samo coś, co oznacza liczbę naturalną, i w miejscu każdego wystąpienia *m* musi być
 podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to różne litery, to nie musimy
 pod nie podstawiać różnych wyrażeń. I tak, zgodnie z przytoczonym fragmentem:
@@ -67,8 +67,18 @@ Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez więks
 szkole podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas
 głównie dlatego, że sama jest pewną regułą podstawiania, bo mówi o *zastępowalności* (w każdym
 kontekście) - lewej strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą samą
-prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania
-(jeżeli zgodzimy się zastępowanie uzasadnione przez równość nazywać również podstawianiem).
+prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania.
+
+Różnica między podstawianiem pod zmienne i wymienianiem równych wyrażeń jest taka, że zmienne są
+jakby stworzone do tego, żeby je czymś zastąpić, to jest nadać im jakąś wartość, i tymi wartościami
+mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu, natomiast równości
+pozwalają nam wymieniać ze sobą wyrażenia tego samego typu, o ile wymieniane wyrażenie *pasuje do
+wzorca składniowego* po jednej ze stron równości. Na przykład, zasada przemienności dodawania liczb
+naturalnych pozwala wymieniać ze sobą dowolne wyrażenia, które mają składniową strukturę sumy dwóch
+wyrażeń oznaczających liczby naturalne. A więc w przypadku podstawiania pod zmienne wyrażenie do
+zastąpienia poznajemy po nazwie i wcześniejszej deklaracji, z której wynika, że to zmienna, a w
+przypadku wymieniania równych wyrażeń takie miejsce poznajemy po tym, że *wygląda jak* jedna ze
+stron równości.
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
