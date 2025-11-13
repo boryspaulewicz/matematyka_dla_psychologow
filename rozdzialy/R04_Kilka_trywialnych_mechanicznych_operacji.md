@@ -37,12 +37,12 @@ te symbole na inne wyrażenia):
 
 Poza tym, że to muszą być *wyrażenia odpowiedniego typu*, to jest wyrażenia *oznaczające* (na mocy
 jawnych deklaracji i powszechnie przyjętych konwencji) *liczby naturalne*, trzeba też pamiętać, żeby
-*podstawianie* było *konsekwentne*. To znaczy, w miejscu każdego wystąpienia *n* musi być
-podstawione to samo coś, co oznacza liczbę naturalną, i w miejscu każdego wystąpienia *m* musi być
+*podstawianie* było *konsekwentne*. To znaczy, w miejscu *każdego* wystąpienia *n* musi być
+podstawione *to samo* coś, co oznacza liczbę naturalną, i w miejscu każdego wystąpienia *m* musi być
 podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to różne litery, to nie musimy
 pod nie podstawiać różnych wyrażeń. I tak, zgodnie z przytoczonym fragmentem:
 
-*2 + 3 = 3 + 2*
+*2 + 3 = 3 + 2*  
 (na mocy powszechnej konwencji, że *2* i *3* to liczby naturalne)
 
 A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
@@ -174,8 +174,9 @@ bliżej nieokreślone fmldsmdfry.
 Następnie korzystając z przechodniości relacji równości użyj reguły 3 w jedyny sposób, w jaki się da
 (ta reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich *stronach*), żeby uzyskać trzecie
 nowe równanie. Zakładając, że $\underbrace{b} \neq 0$, podziel obie strony tego ostatniego równania
-przez $\underbrace{b}$ (zgodnie z przyjętą konwencją te strony to \{jakieś\} liczby, a więc możemy
-je dzielić przez liczby niezerowe) i uprość jedyną rzecz, którą możesz.
+przez $\underbrace{b}$ (zgodnie z przyjętą konwencją zarówno $\underbrace{b}$ jak i te strony to
+\{jakieś\} liczby, a więc możemy je dzielić przez $\underbrace{b}$, o ile to nie jest zero) i uprość
+jedyną rzecz, którą możesz.
 
 Jeżeli masz wątpliwości, czy dobrze wykonałaś to zadanie, albo ta egzotyczna i bezsensowna notacja
 budzi Twój niepokój, nie przejmuj się tym, niebawem wszystko powinno się wyjaśnić. Jeżeli natomiast
