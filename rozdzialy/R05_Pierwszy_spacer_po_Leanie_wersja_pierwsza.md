@@ -7,13 +7,13 @@
 
 ## O czym teraz będzie
 
-Ten i następne dwa rozdziały mają charakter bazowy. A ten i następny rozdział są tak naprawdę jednym
-rozdziałem rozpisanym na wiele różnorodnych powtórek. Będą się w nich działy rzeczy moim zdaniem
-ciekawe, jednak uprzedzam, że ciekawsze rzeczy zaczną się na dobre pojawiać dopiero w rozdziale
-siódmym. Zaczniemy wtedy ćwiczyć pewien szczególny sposób myślenia, polegający na "kontrolowanym
-żonglowaniu" różnymi dobrze określonymi punktami widzenia na to samo.
+Ten rozdział i następny są tak naprawdę jednym rozdziałem, rozpisanym na wiele różnorodnych
+powtórek. Będą się w nich działy rzeczy moim zdaniem ciekawe, jednak uprzedzam, że ciekawsze rzeczy
+zaczną się na dobre pojawiać dopiero w rozdziale siódmym. Zaczniemy wtedy ćwiczyć pewien szczególny
+sposób myślenia, polegający na "kontrolowanym żonglowaniu" różnymi dobrze określonymi punktami
+widzenia na to samo.
 
-W tym i następnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
+W tym podwójnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
 wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
 *funkcje anonimowe*. Zwrócę Twoją uwagę na *naturalność* i *prostotę składni* tego języka, a także
 powiem trochę o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku (nieco go
