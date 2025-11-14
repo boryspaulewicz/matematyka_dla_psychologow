@@ -715,7 +715,7 @@ def dodaj3 : Nat → Nat := plus 3
 -- rezultatu), mogliśmy zapisać tą definicję tak:
 def dodaj3' (n : Nat) := plus 3 n
 
--- Funkcję `dodaj3` możemy stosować tak samo, jak każdą inną:
+-- Funkcję `dodaj3` możemy stosować tak jak każdą inną:
 #eval  dodaj3 3 -- `6`
 #check dodaj3   -- `dodaj3 : Nat → Nat`
 ```
