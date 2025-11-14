@@ -380,7 +380,7 @@ moj_parametr + 2
 2 + 2
 ```
 
-### "Parametr" i "argument" to terminy techniczne oznaczające bardzo blisko związane, ale różne rzeczy
+### "Parametr" i "argument" to terminy techniczne oznaczające blisko związane, ale różne rzeczy
 
 Czy widzisz, że warto przynajmniej czasami używać innej nazwy - "parametr" - na to, co pojawia się
 po słowie `fun` (czyli tutaj na określenie tego, czym jest nazwa `moj_parametr`), i innej -
