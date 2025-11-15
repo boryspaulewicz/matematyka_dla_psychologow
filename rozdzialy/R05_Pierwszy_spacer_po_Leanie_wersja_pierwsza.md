@@ -535,7 +535,7 @@ znowu odczepiamy ciało ...
 
 ... i jednocześnie (mówiąc krótko i nieco inaczej) zastępujemy zmienną *y* przez argument *2*:
 
-*2 + 2*
+*1 + 2*
 
 Jeszcze raz to samo, ale tym razem bez komentarzy:
 

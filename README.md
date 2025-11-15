@@ -655,6 +655,9 @@ Tomkowi Smoleniowi, który zauważył, że we wspaniałomyślnie określonym prz
 rozdziale 28 pisałem w pewnym miejscu o *dodatnich* liczbach naturalnych (sic!) zamiast o
 *parzystych*. Brawo ja.
 
+Mikołajowi Iwaniukowi, za wykrycie błędu w rozdziale 5. We fragmencie dotyczącym ewaluacji aplikacji
+zapisanych w stylu *(λ x . [...])* zamiast liczby *1* pojawiła się tam liczba *2*.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
