@@ -140,8 +140,8 @@ wprowadzić odpowiedni *aksjomat*, czyli arbitralną konwencję językową:
 axiom Napoj : Type
 ```
 
-Odtąd możemy w naszym formalnym języku *istnieją* (jakieś) napoje, w tym i *tylko* w tym znaczeniu,
-że *możemy o nich mówić*. 
+Odtąd w naszym formalnym języku *istnieją* (jakieś) napoje, w tym i *tylko* w tym znaczeniu, że
+*możemy o nich mówić*. 
 
 Jak teraz zapisać formalnie własność *była pyszna*? Jeżeli, ze względu na cel tej zabawy ignorując
 czas przeszły, zrobimy tak, ...
@@ -168,11 +168,11 @@ ekspresyjności nam wystarczy.
 
 Zastanawiasz się może, dlaczego za wyjątkiem ostatniego termu to były same aksjomaty? Żeby term
 `Pyszna kawa` był zarazem poprawny i był zdaniem, czyli termem typu `Prop`, `Pyszna` musi być termem
-o typie `A → Prop` dla pewnego typu `A` i term `kawa` musi być mieć typ `A`. No ale przecież w
-języku teorii typów nie mamy z czego zrobić kawy, a więc nie pozostaje nam nic innego jak przyjać
+o typie `A → Prop` dla pewnego typu `A` i term `kawa` musi mieć typ `A`. No ale przecież w języku
+teorii typów nie mamy z czego zrobić kawy, a więc nie pozostaje nam nic innego jak przyjać
 *konwencję*, zgodnie którą słowo `kawa` jest poprawnym wyrażeniem naszego języka. A to znaczy, że
-`kawa` musi mieć jakiś typ, co do którego też musimy się umówić, że "istnieje". Moglibyśmy przyjąć
-po prostu, że `kawa : Type`, i wtedy `kawa` byłaby *typem*, co można zaakceptować, są przecież różne
+`kawa` musi mieć typ, co do którego też musimy się *umówić*, że "istnieje". Moglibyśmy przyjąć po
+prostu, że `kawa : Type`, i wtedy `kawa` byłaby *typem*, co można zaakceptować, są przecież różne
 kawy i są nawet różne rodzaje kaw. Jednak symbol `Pyszna` byłby wtedy predykatem dotyczącym
 *dowolnych* typów (typu `Type 1`), co byłoby niezgodne z tym, jak używamy tego pojęcia posługując
 się językiem naturalnym.
@@ -215,19 +215,24 @@ axiom Pyszna : Predykat Napoj
 ```
 
 Rozwiązania takie jak to, które zastosowałem, żeby w bardziej widoczny sposób oznaczyć w kodzie
-własność bycia predykatem, a właściwie *ujawnić intencję autora* (czyli w tym wypadku mnie),
-nazywamy w programowaniu [*lukrem
+własność bycia predykatem, a właściwie *ujawnić w sposobie pisania intencję autora* (czyli w tym
+wypadku mnie), nazywamy w programowaniu [*lukrem
 składniowym*](https://pl.wikipedia.org/wiki/Lukier_sk%C5%82adniowy) (albo *lukrem syntaktycznym*,
 albo *cukrem składniowym*). Dobrym przykładem tego rodzaju funkcjonalności jest znana Ci możliwość
 zapisywania dodawania w notacji wzrostkowej (dla Leana `1 + 2` to tylko alternatywna forma zapisu
-`Nat.add 1 2`). Lukier składniowy nie jest może *niezbędny*, ale gdy stosujemy go z wyczuciem, może
-bardzo poprawić czytelność kodu, a dzięki temu ułatwić jego czytanie, pisanie i poprawianie, a więc
-również *komunikację, myślenie i rozwiązywanie problemów za pomocą kodu*.
+`Nat.add 1 2`).
+
+Lukier składniowy może i nie jest *niezbędny*, ale gdy stosujemy go z wyczuciem, może bardzo
+poprawić czytelność kodu, a dzięki temu ułatwić nie tylko jego czytanie, ale również pisanie i
+poprawianie, a więc też komunikację, myślenie i rozwiązywanie problemów za pomocą kodu. Gdy
+modyfikacja kodu następuje po dostarczeniu go jako produktu do odbiorcy, nazywamy to *pielęgnacją*
+albo [*konserwacją*](https://pl.wikipedia.org/wiki/Konserwacja_oprogramowania), tak jakby
+oprogramowanie było żywe. I w jakimś sensie jest, dzięki nam.
 
 **Definicja predykatu**: *Predykatem* jest każda *funkcja z jakiegoś typu do typu zdań*. Mówimy
 wtedy, że predykat `P : A → Prop`, gdzie `A` to jakiś typ, *dotyczy* termów typu `A`, a gdy dla
 jakiegoś termu `x : A` zdanie `P x` jest prawdziwe, czyli w naszej interpretacji gdy istnieje
-term/dowód `h : P x`, to mówimy, że (term) `x` *spełnia* predykat `P`.
+term/dowód `h : P x`, mówimy, że (term) `x` *spełnia* predykat `P`.
 
 ## Pierwsza próba formalizacji dowodu na istnienie Boga Anzelma z Cantenbury
 
