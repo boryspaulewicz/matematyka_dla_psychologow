@@ -32,7 +32,7 @@ zwłaszcza tych krytycznych.
 
 ## Przedmowa
 
-First things first, [podziękowania!]](#podziekowania). I pamiętajcie, co powiedziała [Julia
+First things first, [podziękowania!](#podziekowania). I pamiętajcie, co powiedziała [Julia
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
 feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life),
 a mówiąc bardziej rozwlekle:
