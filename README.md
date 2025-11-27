@@ -24,15 +24,15 @@ wsłuchiwania się w siebie (nawzajem).
 najważniejsze moim zdaniem rady dotyczące czytania tej książki. Odsyłam teraz do niego na początku
 niektórych rozdziałów wprowadzających.
 
-Zapraszam do testowania, *zgłaszania trudności* i w ogóle jakichkolwiek spostrzeżeń lub uwag,
-*zwłaszcza* tych krytycznych.
+Zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag,
+zwłaszcza tych krytycznych.
 
 **Historia zmian** jest [tu](Historia_zmian.md), a **spis treści** jest [tam](#spis_tresci).
 
 
 ## Przedmowa
 
-First things first, podziękowania są [tutaj](#podziekowania). I pamiętajcie, co powiedziała [Julia
+First things first, [podziękowania!]](#podziekowania). I pamiętajcie, co powiedziała [Julia
 Rohrer](https://juliarohrer.com/) - [feedback is love, love is
 feedback](https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/#feedback-is-life),
 a mówiąc bardziej rozwlekle:
@@ -55,20 +55,18 @@ liczba mnoga jest przecież konieczna.
 pojawiły się na głównej stronie. Mam lekką dysgrafię, ale to już nie ma większego znaczenia.)
 
 **Po co studenci psychologii albo psychologowie akademiccy mieliby się uczyć matematyki?** Może po
-to, żeby sprawniej i z większą przyjemnością radzić sobie z abstrakcyjnym i logicznym myśleniem, bo
-...
+to, żeby sprawniej i z większą przyjemnością radzić sobie z abstrakcyjnym myśleniem, bo ...
 
 <hr>
 
 ... **matematyka to żywa, w przeciwieństwie do psychologii stale gwałtownie rozwijająca się
 dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, obiekty geometryczne i
-rozwiązywanie zadań rachunkowych, tylko o* **mechanicznie sprawdzalne, zarazem konsekwentne i
-twórcze myślenie na wiele sposobów o czym tylko się chce** *(a czasem nie chce)*.
+rozwiązywanie zadań rachunkowych, tylko o* **mechanicznie sprawdzalne, konsekwentne i twórcze
+myślenie na wiele sposobów o czym tylko się chce** *(a czasem nie chce)*.
 
-(najmocniej przepraszam, ale pozwolę sobie wtrącić Się tu w przerwie od pisania rozdziału
-trzydziestego piątego, żeby podkreślić, że jak dotąd o liczbach i obiektach geometrycznych
-powiedziałem bardzo niewiele, a te nieliczne zadania rachunkowe, które się pojawiły, służyły głównie
-jako ilustracja czegoś zupełnie innego)
+(najmocniej przepraszam, ale wtrącam się tu w przerwie od pisania rozdziału trzydziestego piątego,
+żeby podkreślić, że jak dotąd o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele, a
+te nieliczne zadania rachunkowe, które się pojawiły, służyły głównie jako ilustracja czegoś innego)
 
 Zawsze, kiedy zmieniamy punkt widzenia, stajemy się w pewnym stopniu kimś innym, rozpoczynając w ten
 spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna Się rymować, ten dialog staje się
@@ -102,17 +100,18 @@ uniwersalnie ważna *logika*, a więc zmechanizowane *rozumowanie*, i *programow
 *dialog*, chociaż w tym przypadku z komputerem, *w jednym*. Teoria kategorii to z kolei między
 innymi teoria dopasowania między różnymi sposobami opisu, albo uniwersalne narzędzie konsekwentnego
 i elastycznego operowania różnymi punktami widzenia na to samo. Albo uniwersalna teoria modularnego
-działania (zależy jak na nią popatrzeć).
+działania (w końcu na tą \{między innymi\} teorię wieloaspektowości też można popatrzeć
+wieloaspektowo).
 
 **O korzystaniu ze sztucznej "inteligencji"**: Nie używam, bo nie lubię, a nie lubię, bo taki na
 przykład ChatGPT to, o ile wiem, monstrualna, żarłoczna papuga, która bezmyślnie powtarza co
-usłyszała, na masową skalę łamiąc przy okazji prawa autorskie i ktora dodaje "od siebie" tylko mniej
-lub bardziej przypadkową zmienność. Poza tym może i przydaje się to monstrum na przykład do
+usłyszała, na masową skalę łamiąc przy okazji prawa autorskie, i która dodaje "od siebie" tylko
+mniej lub bardziej przypadkową zmienność. Poza tym może i przydaje się to monstrum na przykład do
 tworzenia, zwykle gładkiej i poprawnej, ale też jednocześnie płaskiej i generycznej prozy, albo do
-innych tego typu rzeczy, ale w tym, w czym to się sprawdza, *sam* chciałbym być coraz
-lepszy. Dlatego pomysł, żeby używać tego rodzaju narzędzi do "wyjaśniania" sensu stawiającego opór
-tekstu, który zamiast tego można by potraktować jako okazję do rozwijania - niezwykle cennej i
-wymagającej nieustannego ćwiczenia - umiejętności czytania ze zrozumieniem, albo żeby używać tego do
+innych tego typu rzeczy, ale w tym, w czym to się sprawdza, *sam* chciałbym być coraz lepszy.
+Dlatego pomysł, żeby używać tego rodzaju narzędzi do "wyjaśniania" sensu stawiającego opór tekstu,
+który zamiast tego można by potraktować jako okazję do rozwijania - niezwykle cennej i wymagającej
+nieustannego ćwiczenia - umiejętności *czytania ze zrozumieniem*, albo żeby używać tego do
 *pisania*, zamiast traktować pisanie jako okazję by *lepiej zrozumieć siebie*, jest moim zdaniem w
 najwyższym stopniu *dystopijny*.
 
@@ -137,25 +136,23 @@ stylu celowo nieludzkim!):
 
 Jak myślisz, czy bez oznaczonej w ten sposób *intonacji*, bo to, a nie uzyskanie protekcjonalnego
 tonu, jest wtedy moim celem, byłoby Ci łatwiej, czy trudniej, czy tak samo łatwo odgadnąć, na które
-ze słów składających się na to zdanie warto moim zdaniem w danym kontekście zwrócić szczególną
-uwagę?
+ze słów składających się na to zdanie warto moim zdaniem zwrócić szczególną uwagę?
 
 **O powtarzaniu się**: Nie da się ukryć, powtarzam się w tej książce, a niektóre rzeczy powtarzam
 *wiele* razy. I nie zamierzam nikogo za to przepraszać. Jeżeli [powtarzanie jest matką
 wiedzy](https://pl.wiktionary.org/wiki/repetitio_est_mater_studiorum) (i rozumienia), to moim
 zdaniem powtarzanie *się* jest jej (i jego) ojcem. Dla kogoś, komu nie są już potrzebne, takie
-wymuszone powtórki będą pewnie najwyżej czasami drażniące; dla kogoś, kto ich potrzebuje, ich
-niedobór może być przyczyną poddania się w wysiłkach zrozumienia o co chodzi.
+wymuszone powtórki będą pewnie co najwyżej źródłem sporadycznej irytacji; dla kogoś, kto ich
+potrzebuje, ich niedobór może być przyczyną poddania się w wysiłkach zrozumienia o co chodzi.
 
 **O (licznych \{w tym również zagnieżdżonych ⟨a nawet dwukrotnie zagnieżdżonych⟩}) nawiasach i o
 zmienności sposobu formatowania tekstu**: Zacznę może od formatowania. Pomijając kwestię celowości
 zabiegów, których na tym etapie wolałbym nie zdradzać, wydaje mi się, że czytanie różnych książek na
-ten sam temat daje pewien skutek, który trudno uzyskać czytając jedną, nawet bardzo dobrą
-książkę. Na pewno wynika to między innymi stąd, że każda kolejność tematów i sposób ich objaśniania
-ma unikalne zalety i wady. Pisząc czuję czasem potrzebę zmiany na przykład tego, jak wymieniam
-elementy składowe czegoś i dopóki nie uzyskam na ten temat infomacji zwrotnych wskazujących, że to
-kiepsko działa, będę podążał za tymi intuicjami. Co do nawiasów, oficjalny powód jest taki, że
-ponieważ wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i - jak już
+ten sam temat daje pewien skutek, który trudno uzyskać czytając jedną, nawet bardzo dobrą książkę.
+Na pewno wynika to między innymi stąd, że każda kolejność tematów i sposób ich objaśniania ma
+unikalne zalety i wady. Pisząc czuję czasem potrzebę zmiany na przykład tego, jak wymieniam elementy
+składowe czegoś i mam wrażenie, że to może podobnie działać. Co do nawiasów, oficjalny powód jest
+taki, że ponieważ wszystko staram się tłumaczyć wolno, nie omijając przy tym szczegółów i - jak już
 wspomniałem - często się powtarzam, a zadań jest (nawet bardzo) mało, to wydaje mi się, że ten tekst
 powinien stawiać pewien opór i zachęcać tak do robienia własnych notatek. Poza tym niektóre
 wtrącenia mają skłaniać czytelników do przełączania się między różnymi sposobami myślenia o tych
@@ -244,8 +241,8 @@ liczbach naturalnych.
 
 **Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających w przyszłość i wymagających pewnego
 przygotowania części rozdziału trzeciego**, mają charakter ogólnowprowadzający i chociaż nie
-zawierają ani fragmentów kodu, ani zadań (*których w tej książce jest mało i które często można
-omijać bez większej szkody dla zrozumienia treści*), polecam je przynajmniej przejrzeć. Można tam
+zawierają ani fragmentów kodu, ani zadań (których w tej książce jest mało, i które często można
+omijać bez większej szkody dla zrozumienia treści), polecam je przynajmniej przejrzeć. Można tam
 znaleźć nie tylko oparte na wynikach badań i moich doświadczeniach *wskazówki praktyczne* dotyczące
 tego, jak warto podchodzić do nauki jakichkolwiek treści, ale też uwagi dotyczące *nastawienia*,
 które może zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę dla
