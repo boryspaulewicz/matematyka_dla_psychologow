@@ -114,8 +114,8 @@ przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", n
 nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać*, bo - *tak jak ją rozumiemy* -
 matematyka *jako taka* jest *naszym narzędziem*.
 
-Co więcej, tylko jeden z trzech wymienionych właśnie elementów jest "definicyjnie autonomiczny". Mam
-na myśli fakt, że ja i Ty istniejemy jako ja i Ty odpowiednio niezależnie od tego, czy używamy tego
+Co więcej, tylko jeden z trzech wymienionych elementów jest "definicyjnie autonomiczny". Mam na
+myśli fakt, że ja i Ty istniejemy jako ja i Ty odpowiednio niezależnie od tego, czy używamy tego
 rodzaju przepisów, czy nie. Ale żeby przepis był przepisem, musi istnieć ktoś, kto może go jako
 przepisu używać, i tak samo żeby sposób używania tego przepisu był tym, czym jest, to jest pewnym
 sposobem używania czegoś, musi istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane*
@@ -291,34 +291,34 @@ wystarczająco dobrze *opisywalne przez aksjomaty*.
 
 Reguła 3 to (dla nas, bo można ją wyprowadzić z bardziej elementarnych zasad) aksjomat, czyli
 *definicja nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
-określająca poprawny sposób użycia *przecinka*, gdy ten oddziela argumenty aplikacji funkcji *p*.
-Aksjomatyczność tej definicji polega tu między innymi na tym, że stosując ją nie pozbywamy się
-symbolu, którego ta definicja dotyczy.
+wyrażająca konwencję dotyczącą poprawnego użycia *przecinka*, gdy ten oddziela argumenty aplikacji
+funkcji *p*. Aksjomatyczność tej definicji polega tu między innymi na tym, że stosując ją nie
+pozbywamy się symbolu, którego ta definicja dotyczy.
 
 Reguła 4 to *zwykła* definicja określająca poprawny sposób użycia *pionowej kreski*, bo określa
 dopuszczalny sposób *rozwinięcia* wyrażeń zawierających pionową kreskę do takich, w których pionowa
 kreska *nie* występuje.
 
 Podobnie, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
-*stwierdzenie* (a więc zdanie), że istnieje coś, co znaczy symbol "0" i to coś jest liczbą
+*stwierdzenie* (a więc zdanie), że istnieje coś, co znaczy symbol "0", i to coś jest liczbą
 naturalną, bo tak (to jest ta aksjomatyczność). Ale nie trzeba. Niezależnie od tego, czy przyjmiemy,
 że liczba zero w takim lub innym znaczeniu istnieje, czy że przyjmując aksjomat, że *0* jest liczbą
 naturalną, umawiamy się tylko na pewien użyteczny sposób mówienia, teoria liczb naturalnych będzie
-działała tak samo dobrze jako narzędzie rozwiązywania typowych problemów do jakich ją stosujemy.
+działała tak samo dobrze jako narzędzie rozwiązywania typowych problemów do jakich jej używamy.
 Fragment "bo tak" można więc rozumieć jako znaczący coś w rodzaju "będziemy odtąd w ten sposób
-pisać", to jest jako *arbitralną regułę komunikacyjną* (zawsze przecież piszemy *do kogoś*, nawet
-jeśli tym kimś jesteśmy my sami \{w przyszłości\}). Inny *aksjomat* Peano mówi z kolei, że istnieje
+pisać", to jest jako *arbitralną regułę komunikacyjną*; zawsze przecież piszemy *do kogoś*, nawet
+jeśli tym kimś jesteśmy my sami (w przyszłości). Inny *aksjomat* Peano mówi z kolei, że istnieje
 (tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego innego) operacja *następnika*,
 która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy nijak) jakąś (unikalną) liczbę
 naturalną.
 
 Z kolei już zwykła, bo nie aksjomatyczna *definicja* symbolu "1" mówi, że "1" oznacza to samo, co
-dające się *skonstruować* na mocy wcześniejszych aksjomatów wyrażenie "następnik 0". W końcu *0*
-jest na mocy aksjomatu liczbą naturalną, a *następnik* jest na mocy aksjomatu funkcją, którą możemy
-stosować do dowolnych liczb naturalnych, w tym również do *0*. A więc wyrażenie "następnik 0"
-oznacza liczbę naturalną, którą da się uzyskać stosując w żaden sposób nie skonstruowaną funkcję
-*następnik* do również nie skonstruowanej liczby *0*, i właśnie tą liczbę (na mocy tej definicji)
-możemy zapisać krótko za pomocą symbolu "1".
+dające się *skonstruować* na mocy wcześniejszych aksjomatów (czyli zgodnie z przyjętymi regułami
+językowymi) wyrażenie "następnik 0". W końcu *0* jest na mocy aksjomatu liczbą naturalną, a
+*następnik* jest na mocy aksjomatu funkcją, którą możemy stosować do dowolnych liczb naturalnych, w
+tym również do *0*. A więc wyrażenie "następnik 0" oznacza liczbę naturalną, którą da się uzyskać
+stosując w żaden sposób nie skonstruowaną funkcję *następnik* do również nie skonstruowanej liczby
+*0*, i właśnie tą liczbę (na mocy tej definicji) możemy zapisać krótko za pomocą symbolu "1".
 
 Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
 do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
