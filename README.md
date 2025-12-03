@@ -655,6 +655,11 @@ rozdziale 28 pisałem w pewnym miejscu o *dodatnich* liczbach naturalnych (sic!)
 Mikołajowi Iwaniukowi, za wykrycie błędu w rozdziale 5. We fragmencie dotyczącym ewaluacji aplikacji
 zapisanych w stylu *(λ x . [...])* zamiast liczby *1* pojawiła się tam liczba *2*.
 
+Annie Pyrdzie, za szczegółowe i bardzo cenne uwagi dotyczące rozdziałów od 4 do 8. Anna kompetentnie
+i rzeczowo opowiedziała mi o swoich wrażeniach, w tym również o tym, kiedy było trudniej, kiedy
+łatwiej, i dlaczego. Pod wpływem tych uwag zacząłem się nawet zastanawiać nad wprowadzeniem na próbę
+głębszych zmian struktury tekstu.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
