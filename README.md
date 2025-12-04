@@ -660,6 +660,8 @@ i rzeczowo opowiedziała mi o swoich wrażeniach, w tym również o tym, kiedy b
 łatwiej, i dlaczego. Pod wpływem tych uwag zacząłem się nawet zastanawiać nad wprowadzeniem na próbę
 głębszych zmian struktury tekstu.
 
+Jagodzie Andrzejewskiej, za pomoc w napisaniu bardziej klarownej wersji pewnego fragmentu rozdziału 19.
+
 [Informacja chce być wolna.](https://en.wikipedia.org/wiki/Information_wants_to_be_free)
 
 <hr>
