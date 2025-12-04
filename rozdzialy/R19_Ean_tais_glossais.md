@@ -228,18 +228,15 @@ dowód, a teraz miałaś przynajmniej przez chwilę wrażenie, że zostałaś w 
 dobrą wolę i współpracę. Nie mogłem przecież, ani nie chciałem Cię do niczego *zmuszać*.
 
 Być może trudno "Ci" zaakceptować to, że równość w matematyce to "tylko" pewien rodzaj jakby
-"subiektywnej", bo relatywnej do języka albo do punktu widzenia nierozróżnialności, ale to jest
-akurat ogromna *zaleta*. Tak, wiem; celowo zmieniłem znowu nagle temat (i jednocześnie wcale nie
-zmieniłem). Żeby coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego tylko może
-się nadawać, musimy nauczyć się patrzeć na to samo na różne sposoby. A to oznacza, że musimy
-pogodzić się z pewnego rodzaju [nieszkodliwym
-relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny). Dopóki pamiętamy, że zawsze
-istnieją różne spójne punkty widzenia na to samo, z których żaden nie jest absolutnie
-uprzywilejowany, i dopóki korzystamy z tych punktów widzenia czy języków w sposób konsekwentny, nie
-grozi nam ryzyko, że znajdziemy uzasadnienie albo dowód dla *każdego* możliwego zdania. 
-
-A wszędzie tam, gdzie nie wszystkie *syntaktycznie* poprawne zdania są *akceptowalne*, istnieje
-jakiś *sens*.
+"subiektywnej" - bo zależnej od języka czy punktu widzenia - nierozróżnialności, ale to jest akurat
+*zaleta*. Tak, wiem; celowo zmieniłem znowu nagle temat (i jednocześnie wcale nie zmieniłem). Żeby
+coś dobrze zrozumieć i móc tego czegoś używać do wszystkiego, do czego tylko może się nadawać,
+musimy nauczyć się patrzeć na to samo na różne sposoby. A to oznacza, że musimy pogodzić się z
+pewnego rodzaju [nieszkodliwym relatywizmem](https://pl.wikipedia.org/wiki/Realizm_wewn%C4%99trzny).
+Dopóki pamiętamy, że zawsze istnieją różne spójne punkty widzenia na to samo, z których żaden nie
+jest absolutnie uprzywilejowany, i dopóki korzystamy z tych punktów widzenia czy języków w sposób
+konsekwentny, nie grozi nam ryzyko, że znajdziemy uzasadnienie albo dowód dla *każdego* możliwego
+zdania.
 
 Jak się później przekonasz, język teorii kategorii, który zacząłem tu wprowadzać, został stworzony
 właśnie po to, żeby formalnie, a więc w sposób kontrolowany i mechanicznie sprawdzalny, operować
