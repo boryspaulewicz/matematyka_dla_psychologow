@@ -18,40 +18,35 @@ właściwie tylko *jednej* prostej mechanicznej czynności polegającej na *pods
 # Kilka trywialnych mechanicznych operacji
 
 Przypuszczam, że już dawno stało się dla Ciebie oczywiste, że jeżeli *A = B* i *B = C*, to *A = C*,
-niezależnie od tego, co podstawisz pod *A*, *B* i *C* (\{podwójnym\} nawiasem mówiąc, tą zasadę
-nazywamy *przechodniością* \{relacji równości\}). Na pewno znajomy wyda Ci się również ten fragment
-matematycznej prozy (mówiący o *przemienności* dodawania):
+niezależnie od tego, co podstawisz pod *A*, *B* i *C*. Na pewno znajomy wyda Ci się również ten
+fragment matematycznej prozy:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m* (czyli wymieniając
-te symbole na inne wyrażenia):
+I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m* (czyli po prostu
+zamieniając te symbole na inne wyrażenia):
 
 1. Konkretną *liczbę* naturalną, na przykład liczbę *7*.
 
-2. *Zmienną*, na przykład zmienną *a*, o której wcześniej *zdecydowałaś* (albo zdecydował autor
-   czytanego przez Ciebie matematycznego tekstu), że oznacza *jakąś* liczbę naturalną.
+2. *Zmienną*, na przykład zmienną *a*, o której wcześniej zdecydowałaś, że oznacza *jakąś* liczbę
+   naturalną.
 
 3. Całe *złożone wyrażenie*, będące formułą albo przepisem, o którym wiesz, że po obliczeniu dałoby
    liczbę naturalną, takie jak *10 - 1*.
 
-Poza tym, że to muszą być *wyrażenia odpowiedniego typu*, to jest wyrażenia *oznaczające* (na mocy
-jawnych deklaracji i powszechnie przyjętych konwencji) *liczby naturalne*, trzeba też pamiętać, żeby
-*podstawianie* było *konsekwentne*. To znaczy, w miejscu *każdego* wystąpienia *n* musi być
-podstawione *to samo* coś, co oznacza liczbę naturalną, i w miejscu każdego wystąpienia *m* musi być
-podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to różne litery, to nie musimy
-pod nie podstawiać różnych wyrażeń. I tak, zgodnie z przytoczonym fragmentem:
+Poza tym, że to muszą być *wyrażenia odpowiedniego typu*, to jest wyrażenia *oznaczające liczby
+naturalne*, trzeba też pamiętać, żeby *podstawianie* było *konsekwentne*. To znaczy, w miejscu
+*każdego* wystąpienia *n* musi być podstawione *to samo*, i w miejscu każdego wystąpienia *m* musi
+być podstawione to samo. Wreszcie trzeba wiedzieć, że chociaż "n" i "m" to różne litery, to nie
+musimy pod nie podstawiać różnych wyrażeń. I tak, zgodnie z przytoczonym fragmentem:
 
 *2 + 3 = 3 + 2*  
-(na mocy powszechnej konwencji, że *2* i *3* to liczby naturalne)
 
 A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 
-*a + b = b + a*  
-(na mocy deklaracji)
+*a + b = b + a*
 
 *a + 10 = 10 + a*  
-(deklaracja dotycząca *a* i powszechna konwencja dotycząca *10*)
 
 *b + b = b + b*  
 (nie trzeba podstawiać różnych rzeczy)
@@ -59,34 +54,37 @@ A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 *(2 + 3 + a) + b = b + (2 + 3 + a)*  
 (możemy podstawiać *złożone* wyrażenia odpowiedniego typu)
 
-Ostatnia równość jest wynikiem zastosowania twierdzenia o przemienności dodawania (przez poprawne
-podstawianie), ponieważ *2 + 3 + a* oznacza w tym kontekście (oto cały \{lokalny\} kontekst:
-umawiamy się, że *a* i *b* to jakieś liczby naturalne) liczbę naturalną, i tak dalej.
+Ostatnia równość jest wynikiem zastosowania twierdzenia o przemienności dodawania, ponieważ *2 + 3 +
+a* oznacza w tym kontekście (oto cały kontekst: umawiamy się, że *a* i *b* to jakieś liczby
+naturalne) liczbę naturalną, i tak dalej.
 
 Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez większego trudu jeszcze w
 szkole podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas
-głównie dlatego, że sama jest pewną regułą podstawiania, bo mówi o *zastępowalności* (w każdym
-kontekście) - lewej strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą samą
-prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania.
+często właśnie dlatego, że sama jest czymś w rodzaju reguły podstawiania, bo mówi o
+*zastępowalności* lewej strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą
+samą prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania
+czy zastępowania jednych wyrażeń innymi.
 
 Różnica między podstawianiem pod zmienne i wymienianiem równych wyrażeń jest taka, że zmienne są
 jakby stworzone do tego, żeby je czymś zastąpić, to jest nadać im jakąś wartość, i tymi wartościami
-mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu, natomiast równości
-pozwalają nam wymieniać ze sobą wyrażenia tego samego typu, o ile wymieniane wyrażenie *pasuje do
-wzorca składniowego* po jednej ze stron równości. Na przykład, zasada przemienności dodawania liczb
-naturalnych pozwala wymieniać ze sobą dowolne wyrażenia, które mają składniową strukturę sumy dwóch
-wyrażeń oznaczających liczby naturalne. A więc w przypadku podstawiania pod zmienne wyrażenie do
-zastąpienia poznajemy po nazwie i wcześniejszej deklaracji, z której wynika, że to zmienna, a w
-przypadku wymieniania równych wyrażeń takie miejsce poznajemy po tym, że *wygląda jak* jedna ze
-stron równości.
+mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Dlatego właśnie nazywamy
+je zmiennymi. Natomiast równości pozwalają nam wymieniać ze sobą wyrażenia tego samego typu, o ile
+wymieniane wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości.
+
+Na przykład, zasada przemienności dodawania liczb naturalnych pozwala wymieniać ze sobą dowolne
+wyrażenia, które mają składniową strukturę sumy dwóch wyrażeń oznaczających liczby naturalne. A więc
+w przypadku podstawiania pod zmienne wyrażenie do zastąpienia poznajemy po nazwie i wcześniejszej
+deklaracji, z której wynika, że to zmienna, a w przypadku wymieniania równych wyrażeń takie miejsce
+poznajemy po tym, że *wygląda jak* jedna ze stron równości.
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
-Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest jak *przepis*,
-który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań* na temat liczb
-naturalnych. Swoją "nieskończoną produktywność" zawdzięcza *parametryczności*, to jest temu, że jest
-zrobiony z *parametrów* albo *zmiennych* (*m* i *n*), czyli specjalnie oznaczonych miejsc, w które
-możemy coś podstawiać. Możemy też na niego popatrzeć jak na coś w rodzaju *maszyny* albo
+Powiem Ci teraz o czymś, co może wyda Ci się w pierwszej chwili banalne, ale moim zdaniem wcale
+takie nie jest. Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest
+jak *przepis*, który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań* na temat
+liczb naturalnych. Swoją "nieskończoną produktywność" zawdzięcza *parametryczności*, to jest temu,
+że jest zrobiony z *parametrów* albo *zmiennych* (*m* i *n*), czyli specjalnie oznaczonych miejsc, w
+które możemy coś podstawiać. Możemy też na niego popatrzeć jak na coś w rodzaju *maszyny* albo
 *mechanizmu*, który (jak to mechanizm) *działa*, chociaż tylko dzięki temu, że to *my go używamy* w
 określony sposób, to jest konsekwentnie podstawiając w miejsca wystąpień zmiennych wyrażenia
 odpowiedniego typu (tutaj akurat liczbowego). Ten mechanizm składa się co najmniej z *trzech*
@@ -105,36 +103,54 @@ zabawa symbolami będzie również naszym punktem dojścia.
 
 ### Zagadka "filozoficzna"
 
-Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
-hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
-przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak zapis
-*Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są* przepisami).
-Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby działania*. Nawet jeśli
-przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", nie ma *dla nas* i nigdy
-nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać*, bo - *tak jak ją rozumiemy* -
-matematyka *jako taka* jest *naszym narzędziem*.
+*Ten fragment możesz spokojnie potraktować jako ciekawostkę, bo to, o czym tu mówię nieprędko stanie
+się dla nas ważne. Wspominam o tym już teraz, bo mam nadzieję, że w ten sposób uda mi się zwiększyć
+zainteresowanie u osób zajmujących się psychologią.*
 
-Co więcej, tylko jeden z trzech wymienionych elementów jest "definicyjnie autonomiczny". Mam na
-myśli fakt, że ja i Ty istniejemy jako ja i Ty odpowiednio niezależnie od tego, czy używamy tego
+Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było
+przynajmniej hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami
+takich przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak
+zapis *Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są*
+przepisami). Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby
+działania*. Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy",
+nie ma *dla nas* i nigdy nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać*, bo -
+*tak jak ją rozumiemy* - matematyka *jako taka* jest *naszym narzędziem*.
+
+Co więcej, w pewnym sensie tylko jeden z trzech wymienionych elementów jest "autonomiczny". Mam na
+myśli to, że ja i Ty istniejemy jako ja i Ty odpowiednio niezależnie od tego, czy używamy tego
 rodzaju przepisów, czy nie. Ale żeby przepis był przepisem, musi istnieć ktoś, kto może go jako
 przepisu używać, i tak samo żeby sposób używania tego przepisu był tym, czym jest, to jest pewnym
 sposobem używania czegoś, musi istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane*
 (tutaj przepis) i (choćby tylko hipotetyczny) *ktoś, kto może ten sposób stosować*.
 
 Można więc powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
-pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem (hipotetycznego)
-użytkownika. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli czegoś,
-dosłownie czegokolwiek, możemy używać jak przepisu, to to coś po prostu jest dla nas przepisem. A
-jeśli coś jest przepisem, to znaczy, że ktoś może tego czegoś używać jako przepisu.
+pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem użytkownika (nawet jeśli
+tylko hipotetycznego). W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli
+czegoś, dosłownie czegokolwiek, możemy używać jak przepisu, to to coś po prostu jest dla nas
+przepisem. A jeśli coś jest przepisem, to znaczy, że ktoś może tego czegoś używać jako przepisu.
 
-Przepis jako taki i sposób używania go to zatem *jedno i to samo pojęcie oglądane z dwóch stron*,
-obiektowej/materialnej i funkcjonalnej/użytkowej. Nie ma przepisów (będących sposobami ich używania)
-bez przynajmniej potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu.
-Za to podmioty (również hipotetyczne), istnieją (jeśli hipotetyczne, to aksjomatycznie) niezależnie
-od tego, czy używają przepisów.
+Przepis jako taki i sposób używania go to zatem *jedno i to samo oglądane z dwóch stron*, które
+można by nazwać obiektową albo materialną i funkcjonalną albo użytkową. Nie ma przepisów (będących
+sposobami ich używania) bez przynajmniej potencjalnie używającego ich jako przepisów przynajmniej
+hipotetycznego podmiotu. Za to podmioty (również te hipotetyczne), istnieją niezależnie od tego, czy
+używają przepisów.
 
-Czy w takim razie matematyka i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ) nie są
-przypadkiem *subdyscyplinami psychologii*?  
+Czy w takim razie matematyka (i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ)) nie
+są przypadkiem *subdyscyplinami psychologii*?  
+
+Ktoś, kto zetknął się wcześniej z filozofią, mógłby powiedzieć, że "to przecież psychologizm", mając
+na myśli, że to jakieś pomylenie pojęć. W końcu to, jak faktycznie ludzie używają liczb to jedno, a
+to, jakie prawa rządzą liczbami i czym liczby są, to co innego. Aksjomaty, definicje i twierdzenia
+matematyczne mówią nam jak *powinniśmy* używać między innymi "języka liczbowego", a nie jak go
+faktycznie używamy.
+
+No dobrze, ale przecież zawsze, gdy faktycznie - nieuchronnie popełniając czasem błędy - myślimy o
+liczbach, nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to
+znaczy właśnie myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. Ktoś, kto
+używałby słów dotyczących liczb w sposób całkowicie niezwiązany z tymi idealnymi wzorcami, *nie
+zachowywałby się w sposób polegający na mówieniu o liczbach*. A poza tym niby w jaki sposób tworzymy
+wszelką matematykę, jeśli nie poprzez wykrywanie pewnych idealnych wzorców czy regularności w
+naszych własnych (najczęściej werbalnych) zachowaniach?
 
 Taka zagadka.
 
@@ -142,8 +158,8 @@ Taka zagadka.
 
 Spróbuj chwilowo potraktować formalne reguły takie jak te, które podałem przed tym ostatnim nieco
 dygresyjnym i wybiegającym w przyszłość fragmentem, jakby były regułami *gry*, która *nie musi mieć
-sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to już wielokrotnie - na tym etapie potrzeba sensu
-może Ci przeszkadzać. Obiecuję, że sens się pojawi, tylko może kiedy indziej i raczej stopniowo.
+sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to wielokrotnie - na tym etapie potrzeba sensu
+może Ci *przeszkadzać*. Obiecuję, że sens się pojawi, tylko może kiedy indziej i raczej stopniowo.
 
 **Polecenie**: *To zadanie może być w tym momencie zbyt trudne. Jeśli tak będzie, spróbuj najpierw
 wykonać następne zadanie, a później wróć do tego*.  
@@ -258,75 +274,8 @@ udowadniają w ten (drugi) sposób to twierdzenie po raz pierwszy w życiu, nie 
 
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
-między innymi, to znaczy o *parametryczność* pozwalającą korzystać z nich w wielu różnych sytuacjach
-przez niemal bezmyślne podstawianie, chodzi w tego rodzaju twierdzeniach?
-
-<hr>
-
-### Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami
-
-Kilka razy posłużyłem się w tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę
-jeszcze do nich wracał, ale na wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w
-matematyce*. Jeżeli jeszcze nie *poczujesz*, o czym tu będę mówił, nie przejmuj się tym, bo nie bez
-powodu nazwałem ten fragment dygresją.
-
-*Zwykłe definicje są wyborami językowymi określającymi alternatywne, często krótsze i ułatwiające
-czytanie ze zrozumieniem sposoby zapisywania tego samego.*
-
-*Aksjomaty też są definicjami, a więc pewnymi językowymi wyborami, ale określającymi dopuszczalne
-sposoby zapisywania niczego.*
-
-Ciekawe, prawda? W matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że
-aksjomat jest *decyzją*, że *jakiś nowy symbol lub całe wyrażenie oznacza coś jakiegoś typu, bo
-tak*, a definicja jest *decyzją*, że *jakiś nowy symbol lub wyrażenie oznacza to samo, co jakieś
-dające się już poprawnie skonstruować wyrażenie, oznaczające coś jakiegoś typu*.
-
-Ponieważ to są decyzje (albo wybory), nie ma sensu pytanie, czy aksjomaty albo zwykłe definicje są
-prawdziwe czy fałszywe, natomiast zawsze można zapytać, czy te decyzje są *korzystne* lub *trafne*
-ze względu na określone cele. W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego
-aksjomatu, być może do czegoś niematematycznego, jest poprawne. Pytamy wtedy, czy jakiś aksjomat
-jest prawdziwy *o czymś*, a nie czy sam aksjomat jest prawdziwy. Założeniem, które może być
-prawdziwe lub fałszywe, jest wtedy stwierdzenie, że coś jest ze względu na przyjęte cele
-wystarczająco dobrze *opisywalne przez aksjomaty*.
-
-Reguła 3 to (dla nas, bo można ją wyprowadzić z bardziej elementarnych zasad) aksjomat, czyli
-*definicja nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
-wyrażająca konwencję dotyczącą poprawnego użycia *przecinka*, gdy ten oddziela argumenty aplikacji
-funkcji *p*. Aksjomatyczność tej definicji polega tu między innymi na tym, że stosując ją nie
-pozbywamy się symbolu, którego ta definicja dotyczy.
-
-Reguła 4 to *zwykła* definicja określająca poprawny sposób użycia *pionowej kreski*, bo określa
-dopuszczalny sposób *rozwinięcia* wyrażeń zawierających pionową kreskę do takich, w których pionowa
-kreska *nie* występuje.
-
-Podobnie, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
-*stwierdzenie* (a więc zdanie), że istnieje coś, co znaczy symbol "0", i to coś jest liczbą
-naturalną, bo tak (to jest ta aksjomatyczność). Ale nie trzeba. Niezależnie od tego, czy przyjmiemy,
-że liczba zero w takim lub innym znaczeniu istnieje, czy że przyjmując aksjomat, że *0* jest liczbą
-naturalną, umawiamy się tylko na pewien użyteczny sposób mówienia, teoria liczb naturalnych będzie
-działała tak samo dobrze jako narzędzie rozwiązywania typowych problemów do jakich jej używamy.
-Fragment "bo tak" można więc rozumieć jako znaczący coś w rodzaju "będziemy odtąd w ten sposób
-pisać", to jest jako *arbitralną regułę komunikacyjną*; zawsze przecież piszemy *do kogoś*, nawet
-jeśli tym kimś jesteśmy my sami (w przyszłości). Inny *aksjomat* Peano mówi z kolei, że istnieje
-(tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego innego) operacja *następnika*,
-która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy nijak) jakąś (unikalną) liczbę
-naturalną.
-
-Z kolei już zwykła, bo nie aksjomatyczna *definicja* symbolu "1" mówi, że "1" oznacza to samo, co
-dające się *skonstruować* na mocy wcześniejszych aksjomatów (czyli zgodnie z przyjętymi regułami
-językowymi) wyrażenie "następnik 0". W końcu *0* jest na mocy aksjomatu liczbą naturalną, a
-*następnik* jest na mocy aksjomatu funkcją, którą możemy stosować do dowolnych liczb naturalnych, w
-tym również do *0*. A więc wyrażenie "następnik 0" oznacza liczbę naturalną, którą da się uzyskać
-stosując w żaden sposób nie skonstruowaną funkcję *następnik* do również nie skonstruowanej liczby
-*0*, i właśnie tą liczbę (na mocy tej definicji) możemy zapisać krótko za pomocą symbolu "1".
-
-Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
-do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
-alternatywne sposoby zapisu*, służące zwykle do tego, żeby można było coś napisać krócej lub
-bardziej zrozumiale, albo żeby pewne mechaniczne przekształcenia z użyciem tych wyrażeń łatwiej się
-automatyzowały.
-
-<hr>
+między innymi, to znaczy o *parametryczność*, która pozwala korzystać z nich w wielu różnych
+sytuacjach przez niemal bezmyślne podstawianie, chodzi w tego rodzaju twierdzeniach?
 
 Wersja twierdzenia Bayesa, którą właśnie udowodniłaś, jest uproszczona. Prawdopodobieństwa nie mogą
 być mniejsze niż *0* ani większe niż *1*, a nasze prawdopodobieństwa to dowolne liczby, nie wiadomo
@@ -382,3 +331,79 @@ wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, �
 
 Będziemy odtąd robić podobne rzeczy, ale [nie zawsze na
 kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
+
+<hr>
+
+### Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami
+
+*Ten fragment to również ciekawostka, która długo nie będzie dla nas ważna.*
+
+Kilka razy posłużyłem się w tym rozdziale terminami technicznymi "aksjomat" i "definicja". Będę
+jeszcze do nich wracał, ale na wszelki wypadek wyjaśnię już teraz, jak tych terminów używamy *w
+matematyce*:
+
+*Zwykłe definicje są wyborami językowymi określającymi alternatywne, często krótsze i ułatwiające
+czytanie ze zrozumieniem sposoby zapisywania tego samego. Aksjomaty też są definicjami, a więc
+pewnymi językowymi wyborami, ale określającymi dopuszczalne sposoby zapisywania niczego.*
+
+Niezbyt ciekawe? A to, że *wybór jako taki* można postrzegać jako rodzaj *zachowania*?
+
+W matematyce różnica między aksjomatem i definicją polega *tylko* na tym, że aksjomat jest
+*decyzją*, że *jakiś nowy symbol lub całe wyrażenie oznacza coś jakiegoś typu, bo tak*, a definicja
+jest *decyzją*, że *jakiś nowy symbol lub wyrażenie oznacza to samo, co jakieś dające się już
+poprawnie skonstruować wyrażenie, oznaczające coś jakiegoś typu*.
+
+Ponieważ to są decyzje (albo wybory), nie ma sensu pytanie, czy aksjomaty albo zwykłe definicje są
+prawdziwe czy fałszywe, natomiast zawsze możemy zapytać, czy te decyzje lub wybory są *korzystne*
+czy *trafne* ze względu na określone cele. A *celowość* zdaje mi się być jednym z centralnych pojęć
+psychologii i sztucznej inteligencji, ale już na przykład matematyki, chemii, czy fizyki nie. To
+pojęcie ma w psychologii tak duże znaczenie, ponieważ zdecydowana większość zjawisk, o ile nie
+wszystkie, które nazywamy zachowaniami, to procesy celowe. 
+
+W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego aksjomatu, być może do czegoś
+niematematycznego, jest poprawne. Pytamy wtedy, czy jakiś aksjomat jest prawdziwy *o czymś*, a nie
+czy sam aksjomat jest prawdziwy. Założeniem, które może być prawdziwe lub fałszywe, jest wtedy
+stwierdzenie, że coś jest ze względu na przyjęte cele wystarczająco dobrze *opisywalne przez
+aksjomaty*.
+
+Reguła 3 to (dla nas, bo można ją wyprowadzić z bardziej elementarnych zasad) aksjomat, czyli
+*definicja nierozkładalna*. To jest definicja w postaci zdania (będącego akurat równaniem),
+wyrażająca konwencję dotyczącą poprawnego użycia *przecinka*, gdy ten oddziela argumenty aplikacji
+funkcji *p*. Aksjomatyczność tej definicji polega tu między innymi na tym, że stosując ją nie
+pozbywamy się symbolu, którego ta definicja dotyczy.
+
+Reguła 4 to *zwykła* definicja określająca poprawny sposób użycia *pionowej kreski*, bo określa
+dopuszczalny sposób *rozwinięcia* wyrażeń zawierających pionową kreskę do takich, w których pionowa
+kreska *nie* występuje.
+
+Podobnie, jeden z *aksjomatów* Peano mówi, że *0* jest liczbą naturalną. Można to rozumieć jako
+*stwierdzenie* (a więc zdanie), że istnieje coś, co znaczy symbol "0", i to coś jest liczbą
+naturalną, bo tak (to jest ta aksjomatyczność). Ale nie trzeba. Niezależnie od tego, czy przyjmiemy,
+że liczba zero w takim lub innym znaczeniu istnieje, czy że przyjmując aksjomat, że *0* jest liczbą
+naturalną, umawiamy się tylko na pewien użyteczny sposób mówienia, teoria liczb naturalnych będzie
+działała tak samo dobrze jako narzędzie rozwiązywania typowych problemów do jakich jej używamy.
+Fragment "bo tak" można więc rozumieć jako znaczący coś w rodzaju "będziemy odtąd w ten sposób
+pisać", to jest jako *arbitralną regułę komunikacyjną*; zawsze przecież piszemy *do kogoś*, nawet
+jeśli tym kimś jesteśmy my sami (w przyszłości). Inny *aksjomat* Peano mówi z kolei, że istnieje
+(tak samo tajemnicza jak liczba *0*, bo nie *skonstruowana* z niczego innego) operacja *następnika*,
+która z każdej liczby naturalnej "robi" (nie wiadomo jak, to znaczy nijak) jakąś (unikalną) liczbę
+naturalną.
+
+No a skoro aksjomaty polegają (czasem? zawsze?) na tym, że "robimy coś z niczego", to jak to
+wszystko działa? Moim skromnym zdaniem tylko *dzięki nam*.
+
+Z kolei już zwykła, bo nie aksjomatyczna *definicja* symbolu "1" mówi, że "1" oznacza to samo, co
+dające się *skonstruować* na mocy wcześniejszych aksjomatów (czyli zgodnie z przyjętymi regułami
+językowymi) wyrażenie "następnik 0". W końcu *0* jest na mocy aksjomatu liczbą naturalną, a
+*następnik* jest na mocy aksjomatu funkcją, którą możemy stosować do dowolnych liczb naturalnych, w
+tym również do *0*. A więc wyrażenie "następnik 0" oznacza liczbę naturalną, którą da się uzyskać
+stosując w żaden sposób nie skonstruowaną funkcję *następnik* do również nie skonstruowanej liczby
+*0*, i właśnie tą liczbę (na mocy tej definicji) możemy zapisać krótko za pomocą symbolu "1".
+
+Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
+do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
+alternatywne sposoby zapisu*, służące zwykle do tego, żeby można było coś napisać krócej lub
+bardziej zrozumiale, albo żeby pewne mechaniczne przekształcenia z użyciem tych wyrażeń łatwiej się
+automatyzowały.
+
+<hr>
