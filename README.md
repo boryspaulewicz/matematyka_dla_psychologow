@@ -123,8 +123,8 @@ wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Dlate
 zdarzało mi się sprawiać [niewłaściwe wrażenie](https://pl.wikipedia.org/wiki/Mansplaining),
 wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w ten sposób i o takich sprawach, gdy byłem
 studentem. Może odpowiadałaby mi wtedy bardziej forma męska, ale forma żeńska też by mi nie
-przeszkadzała i zdaje się, że nie przeszkadza czytelnikom. A poza tym piszę też w pewnym sensie do
-*przyszłej psychologii*, która jest przecież Kobietą.
+przeszkadzała i zdaje się, że nie przeszkadza czytelni(cz)kom. A poza tym piszę też w pewnym sensie
+do *przyszłej psychologii*, która jest przecież Kobietą.
 
 **O (czasem nad)używaniu pisma pochyłego**: Może porównaj, jak Ci się czyta te dwa fragmenty (które
 napisałem w
