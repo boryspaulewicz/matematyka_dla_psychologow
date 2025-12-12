@@ -101,8 +101,8 @@ W związku z tym oto moja sugestia: Kiedy poczujesz, że robi się wyraźnie tru
 żeby wszystko zdążyło się trochę "uleżeć", i pogódź się z tym, że dobre opanowanie tego rodzaju
 materiału może wymagać wracania do przeczytanych już fragmentów. O ile nie zabraknie wytrwałości,
 może w końcu stanie się to, co dzieje się, kiedy przez dłuższy czas dokądś idziemy, niekoniecznie
-dążąc stale do jednego celu, a powietrze jest bardzo wilgotne. Nie ma wtedy wyraźnego momentu, w
-którym zachodzi jakościowa zmiana, odkrywamy jednak w końcu, że choć nie padał deszcz, jesteśmy
+dążąc stale do jednego celu, a powietrze jest bardzo wilgotne. Trudno wtedy wskazać moment, gdy
+zachodzi jakościowa zmiana, odkrywamy jednak w końcu, że choć nie padał deszcz, jesteśmy
 przemoczeni[^1].
 
 Gdy pojawi się frustracja, a *na pewno* czasem się pojawi, poczekaj, albo wróć do tego, co wydaje Ci
