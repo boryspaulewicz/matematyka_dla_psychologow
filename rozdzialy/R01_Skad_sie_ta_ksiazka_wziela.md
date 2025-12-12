@@ -68,7 +68,7 @@ matematyki, a poza tym z programowaniem można się oswajać w interakcji z dost
 zwrotnych komputerem. Wtedy obecność nauczyciela nie jest tak bardzo potrzebna. Ta książka ma między
 innymi pomóc w oswajaniu się z matematyką, czyli głównie z **konsekwentnym, abstrakcyjnym myśleniem
 i rozwiązywaniem problemów teoretycznych, opartym na kontrolowanym przełączaniu się między różnymi
-punktami widzenia i na wyrażaniu nowych punktów widzenia w postaci języków formalnych** przede
+punktami widzenia i na wyrażaniu nowych punktów widzenia w postaci języków formalnych**, przede
 wszystkim właśnie zainteresowanym samodzielnym poszerzaniem wiedzy studentom psychologii i
 pracownikom akademickim zajmującym się badaniami psychologicznymi, którzy są gotowi w tym celu
 podjąć próbę poznania od podstaw głęboko uzasadnionego, oszczędnego składniowo, pięknego i wyjątkowo
