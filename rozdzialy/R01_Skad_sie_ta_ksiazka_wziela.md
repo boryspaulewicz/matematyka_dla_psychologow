@@ -93,7 +93,7 @@ wątpliwości, wystarczy wkleić kod do Leana i przekonać się w ten sposób, c
 Muszę Cię też ostrzec, że jeżeli dotrzesz do końca rozdziału szóstego i uda Ci się zrobić poprawnie
 zadania, których do tego momentu będzie zresztą niewiele, możliwe, że poczujesz coś w rodzaju
 zagubienia. Będziemy się zajmować bardzo abstrakcyjnymi sprawami, dlatego takie poczucie jest na
-początku niemal nie do uniknięcia. Ja też się tak czułem, kiedy zaczynałem się uczyć teorii typów i
+początku niemal nie do uniknięcia. Ja też się tak czułem, kiedy zaczynałem czytać o teorii typów i
 teorii kategorii. To poczucie może się stopniowo zmieniać w coraz głębsze zrozumienie, ale to wymaga
 **cierpliwości i unikania frustracji** (albo upierania się przy tym, żeby nauka była **przyjemna**).
 
