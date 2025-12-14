@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 # p ∨ q ~ p + q
 
 Pierwsza wersja tego rozdziału zaczynała się od rozważań o charakterze ogólnym, ale postanowiłem to

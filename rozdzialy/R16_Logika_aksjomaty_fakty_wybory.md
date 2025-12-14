@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Wątki, które poruszam w tym rozdziale, pojawiły się wcześniej w jednej z poprzednich wersji

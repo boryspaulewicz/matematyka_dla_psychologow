@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 # Skąd się ta książka wzięła
 
 Ta książka była najpierw krótkim skryptem dla studentów. Planując ćwiczenia do kursu neuronauka i

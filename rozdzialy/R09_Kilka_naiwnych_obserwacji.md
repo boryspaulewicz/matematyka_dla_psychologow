@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## Kilka naiwnych obserwacji na temat języków formalnych
 
 Pozwolę sobie teraz na dłuższą dygresję, która może moim zdaniem pomóc. 

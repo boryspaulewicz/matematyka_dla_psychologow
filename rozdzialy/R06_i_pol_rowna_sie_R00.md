@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Ten rozdział ma tylko zwrócić Twoją uwagę na głębsze znaczenie tego, z czym się właśnie zetknęłaś.

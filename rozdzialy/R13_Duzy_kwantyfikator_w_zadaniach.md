@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Skoro znowu proponuję Ci zadania, to może przypomnę, że moim zdaniem zadania "robi się" tylko wtedy,

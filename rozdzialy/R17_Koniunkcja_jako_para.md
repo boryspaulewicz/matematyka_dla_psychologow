@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Wszystko w tym rozdziale można zrozumieć korzystając tylko z informacji podanych w rozdziałach

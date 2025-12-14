@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 A to kolejny rozdział, w którym nie ma zadań. Muszę powiedzieć, że jestem z niego nawet

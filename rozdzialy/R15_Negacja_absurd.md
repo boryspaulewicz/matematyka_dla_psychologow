@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Ten rozdział zawiera teoretyczne rozważania na temat negacji i sprzeczności. Jeżeli poradziłaś sobie

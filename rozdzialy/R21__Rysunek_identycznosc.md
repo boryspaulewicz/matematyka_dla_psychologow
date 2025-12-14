@@ -1,11 +1,12 @@
-Mo¿esz narysowaæ t± identyczno¶æ na dwa sposoby. Jeden polega na tym, ¿e przy ka¿dym elemencie
-zbioru `X` rysujemy endostrza³kê, czyli tak± strza³kê-pêtelkê z tego elementu do niego samego. To
-jest *pe³noprawny* sposób (tutaj akurat rysunkowego) *zdefinowania* funkcji, bo dziêki tym strza³kom
-*wiadomo dok³adnie, jaka to funkcja*, a przecie¿ tylko o to chodzi w definicjach wyra¿onych w jêzyku
-naturalnym albo jakimkolwiek innym, w tym równie¿ rysunkowym. Drugi sposób polega na narysowaniu
-obok (albo poni¿ej lub powy¿ej albo z lewej, to akurat nie ma znaczenia) *kopii* `X` i narysowaniu
-strza³ek z ka¿dego elementu `X` do tego samego elementu w kopii `X`.
+<!-- -*- coding: utf-8 -*- -->
+MoÅ¼esz narysowaÄ‡ tÄ… identycznoÅ›Ä‡ na dwa sposoby. Jeden polega na tym, Å¼e przy kaÅ¼dym elemencie
+zbioru `X` rysujemy endostrzaÅ‚kÄ™, czyli takÄ… strzaÅ‚kÄ™-pÄ™telkÄ™ z tego elementu do niego samego. To
+jest *peÅ‚noprawny* sposÃ³b (tutaj akurat rysunkowego) *zdefinowania* funkcji, bo dziÄ™ki tym strzaÅ‚kom
+*wiadomo dokÅ‚adnie, jaka to funkcja*, a przecieÅ¼ tylko o to chodzi w definicjach wyraÅ¼onych w jÄ™zyku
+naturalnym albo jakimkolwiek innym, w tym rÃ³wnieÅ¼ rysunkowym. Drugi sposÃ³b polega na narysowaniu
+obok (albo poniÅ¼ej lub powyÅ¼ej albo z lewej, to akurat nie ma znaczenia) *kopii* `X` i narysowaniu
+strzaÅ‚ek z kaÅ¼dego elementu `X` do tego samego elementu w kopii `X`.
 
-Mam wra¿enie, ¿e zestawienie obu tych sposobów razem pozwala dostrzec, ¿e (rozumiane jako narzêdzia
-swobodnego oznaczania) zbiory s± jak funkcje, a funkcje (które s± oznaczeniami w oczywisty sposób)
-s± jak zbiory.
+Mam wraÅ¼enie, Å¼e zestawienie obu tych sposobÃ³w razem pozwala dostrzec, Å¼e (rozumiane jako narzÄ™dzia
+swobodnego oznaczania) zbiory sÄ… jak funkcje, a funkcje (ktÃ³re sÄ… oznaczeniami w oczywisty sposÃ³b)
+sÄ… jak zbiory.

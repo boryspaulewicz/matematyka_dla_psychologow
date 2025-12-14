@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 W tym rozdziale pokażę Ci *dowód*, że *struktura wewnętrzna* iloczynu kartezjańskiego zbiorów *nie

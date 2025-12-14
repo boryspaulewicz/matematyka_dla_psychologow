@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Niebawem będziemy się przyglądać dowodowi na istnienie Boga Anzelma z Canterbury. Żeby zrobić z nim
@@ -243,15 +244,20 @@ kategoryzacji (będącej nieformalnym typowaniem) zwykle szybko odkrywamy, że w
 przykład niemal wszystko, co autorzy artykułu empirycznego napisali we wprowadzeniu i dyskusji
 wyników, możemy spokojnie *zignorować*, bo zdecydowana większość zdań, które znajdziemy w typowych
 artykułach empirycznych, albo nie odgrywa *żadnej* roli w uzasadnieniu głównych wniosków, albo
-odgrywa rolę *trywialną*. Taka wstępna selekcja ułatwia więc skupienie się na tym, co ważne i jest
-pewną formą *obrony przed perswazją* ze strony autorów.
+odgrywa rolę *trywialną*.
+
+Nie ma w tym nic dziwnego, bo znaczące odkrycia w nauce są *rzadkie*, aktywnych "naukowców" jest
+bardzo wielu, a żeby utrzymać pracę Ci wszyscy "naukowcy" muszą stale publikować. Dlatego publikacje
+recenzowane muszą być w zdecydowanej większości pełne (zebranych za publiczne pieniądze) śmieci
+przedstawianych jakby to były jakieś skarby. Wstępna selekcja i nieformalne typowanie fragmentów
+tekstu ułatwia skupienie się na tym, co ważne, i jest formą *obrony przed perswazją*.
 
 Zwracam uwagę, że użyłem słowa ["ukryte"](https://en.wikipedia.org/wiki/Cach%C3%A9_(film)), a nie na
 przykład "wyrażone", albo "zawarte". To dlatego, że tekst zapisany w języku naturalnym zwykle w
 znacznie większym stopniu niż teksty zapisane formalnie wymaga *interpretacji*, która z kolei wymaga
 korzystania z wiedzy i hipotez na temat autorów i kontekstu, w którym powstał dany tekst. To
-delikatny, wymagający wyczucia proces, który z zasady nie może dać gwarancji, że dotrzemy w
-skończonym czasie do formalizacji w jakimś nietrywialnym sensie najlepszej albo jedynej właściwej.
+delikatny, wymagający wyczucia proces, który z zasady nie może dać gwarancji, że w skończonym czasie
+wypracujemy formalizację w nietrywialnym znaczeniu dobrą.
 
 Spośród wielu form, jakie mogą przybierać [argumenty](https://pl.wikipedia.org/wiki/Argumentacja)
 albo środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka), najbardziej, poza samym
@@ -259,7 +265,10 @@ albo środki [retoryczne](https://pl.wikipedia.org/wiki/Retoryka), najbardziej, 
 jednak jeszcze raz uwagę, że [argumentacja wyrażona w języku naturalnym może przybierać bardzo różne
 formy](https://www.universitas.com.pl/pl/ksiazki/2359-sposoby-uzycia-argumentow.html) i często jej
 sens nie daje się łatwo czy w oczywisty sposób uchwycić za pomocą formalnego języka logiki, którym
-się tutaj posługujemy.
+się tutaj posługujemy. W szczególności, zwykle kluczową rolę będą w takiej argumentacji odgrywały
+*racje* (ang. [reasons](https://en.wikipedia.org/wiki/Reason_(argument)[^3])) *za* i *przeciw*
+pewnym sądom lub postawom, które - z mniej lub bardziej tajemniczych powodów - akceptujemy z powodu
+ich *treści*, a nie z powodu *formalnej*, to jest czysto logicznej struktury.
 
 W tym wyrwanym z kontekstu (a tak naprawdę przeze mnie wymyślonym) zdaniu, które - posługując się
 wprowadzonym właśnie, ubogim słownikiem dotyczącym struktury argumentów - możemy nazwać zarówno
@@ -280,8 +289,8 @@ Jeżeli teraz następne zdanie w tej hipotetycznej dyskusji wyników to ...
 
 > To może oznaczać, że introwersja zwiększa skuteczność selekcji uwagowej.
 
-... to możemy je zaklasyfikować jako *wniosek*, który ma (rzekomo) *wynikać* z poprzedniego zdania
-jako jednej z *przesłanek* (liczba mnoga).
+... to możemy je zaklasyfikować jako *wniosek*, który ma (rzekomo) *wynikać* (niekoniecznie
+formalnie!) z poprzedniego zdania jako jednej z *przesłanek* (liczba mnoga).
 
 Mamy tu do czynienia z częstym w artykułach
 ["naukowych"](https://pl.wikipedia.org/wiki/Kulty_cargo) pisanych przez
@@ -323,7 +332,7 @@ byłoby szans na publikację w tak zwanym czasopiśmie wysokopunktowanym.
 
 To, że na przykład interpretacja przyczynowa *nie może* być w tym wypadku uzasadniona, możemy
 ustalić natychmiast, nie czytając reszty tego hipotetycznego artykułu, ponieważ niemal niezależnie
-od przyjętych definicji stałych *efekt Stroopa* i *ekstrawersja*, z góry wiadomo, że z powodów
+od przyjętych definicji terminów *efekt Stroopa* i *ekstrawersja*, z góry wiadomo, że z powodów
 technicznych i etycznych ekstrawersja nie była w tym badaniu pod bezpośrednim wpływem zewnętrznej
 interwencji. A wobec tego istnieje wiele, być może bliżej nieokreślonych, za to z pewnością nie
 występujących w danych, odgrywających potencjalnie niepomijalną rolę [*wspólnych
@@ -345,9 +354,11 @@ jest trafna, mówi nam już wiele. Jeżeli faktycznie rzekomy dowód Anzelma na 
 wydaje się, że możemy w tym momencie zakończyć badanie, ponieważ uzasadnienie tezy o istnieniu
 desygnatu odgrywającej tutaj rolę terminu technicznego stałej `Bóg` w oparciu o samą definicję tej
 stałej pozwala "uzasadnić" wniosek o istnieniu każdego możliwego "bytu", na przykład jednorożców
-albo wróżek, z tego prostego powodu, że definicje pojęć czy stałych są *wyborami*. Z drugiej jednak
-strony, w zacytowanym zdaniu nie pojawia się słowo "definicja", tylko słowo "pojęcie", a to przecież
-nie to samo. Odkładamy tą wątpliwość na później i czytamy dalej.
+albo wróżek, z tego prostego powodu, że definicje pojęć czy stałych są *wyborami*.
+
+Z drugiej jednak strony, w zacytowanym zdaniu nie pojawia się słowo "definicja", tylko słowo
+"pojęcie". W tym pojęciu coś ma się *zawierać*, w dodatku *z konieczności*, co nie to musi być tym
+samym co bycie elementem rozwinięcia definicji. Odkładamy tą wątpliwość na później i czytamy dalej.
 
 > Przed przeprowadzeniem dowodu we własnym zakresie Anzelm zaleca specyficzne przygotowanie
 > duchowe. Należy odrzucić niepokoje i odłożyć na później swoje codzienne troski. Następnie „wejść
@@ -541,3 +552,6 @@ wprowadzać język teorii kategorii.
     istnienia* (tutaj *realny* i *w umyśle*) aż się proszą, żeby poszperać w [*logikach
     modalnych*](https://pl.wikipedia.org/wiki/Logika_modalna). Dla uproszczenia zdecydowałem się
     jednak mówić w tym rozdziale o predykatach, bo to pojęcie już znasz.
+
+[^3]: Warto zauważyć, że w tym długim na kilka stron artykule Wikipedii dotyczącym hasła "reason"
+    nie pojawia się słowo "logic".

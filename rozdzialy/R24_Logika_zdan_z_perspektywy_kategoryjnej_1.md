@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 A tutej[^3] przekonamy się - nagle, choć nie od razu - że zdania wraz z relacją dowiedlności są

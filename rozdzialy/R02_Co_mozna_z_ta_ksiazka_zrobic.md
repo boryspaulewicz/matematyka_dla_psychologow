@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 # Co można z tą książką zrobić
 
 Wiem, że zrobisz z tą książką, co zechcesz, ale i tak Ci coś zasugeruję. Na podstawie lektur i

@@ -1,8 +1,9 @@
+<!-- -*- coding: utf-8 -*- -->
 <br>
 
 <br>
 
-Najbardziej niezwyk³± cech± kategorii jest brak nawiasów.
+Najbardziej niezwykÅ‚Ä… cechÄ… kategorii jest brak nawiasÃ³w.
 
 <br>
 

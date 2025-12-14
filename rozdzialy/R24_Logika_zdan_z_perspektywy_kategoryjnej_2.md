@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 Wtedy dla każdych trzech kolejno składalnych strzałek `a'`, `b'` i `c'`, złożenie `(c' b') a'`
 będzie odpowiadało złożeniu `a (b c)`, które jest z założenia (że `ℂ` to kategoria) równe złożeniu
 `(a b) c`, a złożenie `(a b) c` będzie odpowiadało złożeniu `c' (b' a')` w `ℂ'`, a więc `(c' b') a'

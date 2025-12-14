@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 <br>
 
 **Moim zdaniem najważniejsze wskazówki na temat tego, w jaki sposób warto czytać tą książkę, są

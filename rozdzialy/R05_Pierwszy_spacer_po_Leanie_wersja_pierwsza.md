@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 <br>
 
 **Moim zdaniem najważniejsze wskazówki na temat tego, w jaki sposób warto czytać tą książkę, są
@@ -13,17 +14,16 @@ zaczną się na dobre pojawiać dopiero w rozdziale siódmym. Zaczniemy wtedy ć
 sposób myślenia, polegający na "kontrolowanym żonglowaniu" różnymi dobrze określonymi punktami
 widzenia na to samo.
 
-W tym podwójnym rozdziale pokażę Ci - w nieco innej kolejności, akcentując trochę inne rzeczy i
-wprowadzając czasami inne tematy - w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
+W tym podwójnym rozdziale pokażę Ci w jaki sposób w Leanie *definiujemy stałe* i konstruujemy
 *funkcje anonimowe*. Zwrócę Twoją uwagę na *naturalność* i *prostotę składni* tego języka, a także
 powiem trochę o roli, jaką w w Leanie odgrywają *typy*. Wreszcie omówię krok po kroku (nieco go
 upraszczając) proces *ewaluacji*, a dokładnie *ewaluacji aplikacji* (funkcji do jakiś argumentów).
 
 Mam nadzieję, że kilkukrotne i szczegółowe omówienie tego, w jaki sposób przebiega ewaluacja
-aplikacji, pozwoli Ci lepiej zrozumieć mechanikę działania teorii typów, a dzięki temu czuć się
-bardziej pewnie, gdy będziemy później na niej polegać udowadniając twierdzenia i definiując nowe
-rodzaje struktur. To wszystko będziesz mogła zrozumieć jak sądzę bez większych trudności między
-innymi dlatego, że będę się *do znudzenia powtarzał*.
+aplikacji, pozwoli Ci czuć się bardziej pewnie, gdy będziemy później polegać na mechanice działania
+teorii typów udowadniając twierdzenia i definiując nowe rodzaje struktur. To wszystko będziesz mogła
+zrozumieć jak sądzę bez większych trudności między innymi dlatego, że będę się *do znudzenia
+powtarzał*. Co nie znaczy, że zrozumienie przyjdzie szybko.
 
 Ponieważ najtrudniejszymi częściami obydwu rozdziałów są fragmenty dotyczące *curryingu*, to jest
 sposobu, w jaki funkcje *jednoargumentowe* mogą udawać funkcje *wieloargumentowe*, zanim dotrę do
@@ -76,8 +76,8 @@ https://live.lean-lang.org
 Rozpoczniesz w ten sposób interaktywną sesję z [*asystentem
 dowodzenia*](https://en.wikipedia.org/wiki/Proof_assistant) Lean. Nie przejmuj się, jeżeli widzisz
 to okno po raz pierwszy i wydaje Ci się obce, bo to minie. Będziesz pisać w panelu po lewej i
-czasami zaglądać do panelu po prawej. Gdybyś miała ochotę, możesz też od razu spróbować zainstalować
-darmowy edytor Visual Studio Code, który ma bardzo dobre wsparcie dla Leana. Wystarczy go ściągnąć z
+czasami zaglądać do panelu po prawej. Gdybyś miała ochotę, możesz też spróbować zainstalować darmowy
+edytor Visual Studio Code, który ma dobre wsparcie dla Leana. Wystarczy go ściągnąć z
 [tej](https://code.visualstudio.com/download) strony, a po uruchomieniu skorzystać z instrukcji,
 które znajdziesz [tutaj](https://docs.lean-lang.org/lean4/doc/quickstart.html).
 
@@ -89,12 +89,12 @@ nie zawsze. W razie wątpliwości przeczytaj komunikat o błędzie, który pojaw
 i spróbuj domyślić się, o co Leanowi może chodzić.
 
 Zgodnie z tym, co wcześniej napisałem o potrzebie sensu, uważam, że czasem warto, żebyś przed
-przeczytaniem szczegółowych wyjaśnień spróbowała wykonać od razu kilka zadań. Tym razem jednak
-spróbuję najpierw czegoś innego, ale w pewnym sensie chyba zbliżonego.
+przeczytaniem szczegółowych wyjaśnień spróbowała wykonać kilka zadań. Tym razem jednak spróbuję
+najpierw czegoś innego, ale w pewnym sensie chyba zbliżonego.
 
 **Uczenie się poprzez wcielenie się w rolę**: Wyobraź sobie, że Twoim zadaniem jest *zaprojektowanie
 sztucznego języka*, który pozwalałby w jednoznaczny, zwięzły i czytelny sposób zapisywać
-*definicje*. Zależałoby Ci wtedy pewnie na jawnym wyrażeniu tego jakie operacje z użyciem
+*definicje*. Zależałoby Ci wtedy pewnie na jawnym wyrażeniu tego, jakie operacje z użyciem
 definiowanych stałych mają sens, a jakie nie mają. Byłoby też wskazane, żeby do definiowania nie
 używać symbolu równości (*=*), bo ten odgrywa w matematyce bardzo ważną rolę i mógłby się jeszcze
 przydać do czegoś innego, to jest do oznaczania relacji równości, a nie *decyzji*, że jakieś
@@ -103,8 +103,7 @@ wyrażenie *ma być* wartością jakiejś stałej, bo tak.
 Przydałoby się więc jakieś krótkie i łatwe do zapamiętania *słowo kluczowe*, na przykład `def`, bo
 to kojarzy się ze słowem *definicja*. Nie byłoby też źle, gdyby zapis informujący o operacjach,
 które można wykonywać z użyciem definiowanej stałej, kojarzył się na przykład z naklejeniem na coś
-etykiety. A najlepiej, żeby symbol oznaczający bycie treścią albo ciałem definicji przypominał ten,
-którego używa się często w tym celu w informatyce. Co byś wtedy powiedziała na takie rozwiązanie?
+etykiety. Co byś wtedy powiedziała na takie rozwiązanie?
 
 **Polecenie**: Skopiuj do Leana poniższy fragment kodu. Możesz wkleić go do schowka klikając na dwa
 małe kwadraty widoczne po prawej.
@@ -113,23 +112,16 @@ małe kwadraty widoczne po prawej.
 def dziesiec : Nat := 10
 ```
 
-To jest *definicja* (w języku Lean), co poznajemy po słowie `def` i po symbolu `:=`. Symbol `:=`
-**czytamy jako** *niech oznacza* (*już na zawsze*). Każda definicja jest definicją jakiejś *stałej*,
-w tym wypadku stałej o *nazwie* `dziesiec`. Mówimy, że tym, co jest definiowane, są stałe, po prostu
-dlatego, że definicje są (w danym kontekście) ostateczne. W języku teorii typów każda zdefiniowana
-stała - tak jak w ogóle każde poprawne wyrażenie nazywane w tej teorii *termem* - ma jakiś *typ*. Na
-przykład, zdefiniowana wyżej stała `dziesiec` ma typ `Nat` (`: Nat`), to jest ma typ *liczba
-naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść, to liczba, a mówiąc ogólnie *term*
-`10`.
+To jest *definicja* (w języku Lean), co poznajemy po słowie `def` i po symbolu `:=`. Ten fragment
+kodu można **czytać jako**: *Odtąd stała `dziesiec` o typie `Nat` (`dziesiec : Nat` ...) będzie
+oznaczała (`:=`) `10`*. 
 
-Będę czasem pisał tak, jakby fragment kodu taki jak `dziesiec : Nat` pełnił rolę *rzeczownika* - na
-przykład, *stała `dziesiec : Nat` jest ...* to będzie inny sposób, żeby powiedzieć *stała `dziesiec`
-o typie `Nat` jest ...* - albo *zdania*, na przykład, *Jeżeli `dziesiec : Nat`, to ...*  to będzie
-inny sposób, żeby powiedzieć *Jeżeli stała `dziesiec` ma typ `Nat`, to ...*. W obydwu przypadkach
-właściwa interpretacja będzie wynikała z kontekstu. Fragmenty tekstu takie jak *stała `dziesiec :
-Nat` jest ...*, zapisane jednocześnie w dwóch językach, to jest naturalnym (*stała ... jest*) i
-*formalnym* (*`dziesiec : Nat`*), będę wprowadzał między innymi po to, żebyś mogła zauważyć i
-przyzwyczaić się do tego, jak naturalna może być formalizacja w języku teorii typów.
+Każda definicja jest definicją jakiejś *stałej*, w tym wypadku stałej o *nazwie* `dziesiec`. Mówimy,
+że tym, co jest definiowane, są stałe, bo definicje są (w danym kontekście) ostateczne. W języku
+teorii typów każda zdefiniowana stała - tak jak w ogóle każde poprawne wyrażenie nazywane w tej
+teorii *termem* - ma jakiś *typ*. Na przykład, zdefiniowana wyżej stała `dziesiec` ma typ `Nat` (`:
+Nat`), to jest ma typ *liczba naturalna*. *Ciało* tej definicji, czyli jej wartość albo treść, to
+liczba, a mówiąc ogólnie *term* `10`.
 
 **Polecenie**: Napisz w Leanie analogiczną definicję stałej o nazwie `trzy`, tak, żeby oznaczała
 liczbę `3`. Wystarczy skorzystać z `dziesiec` jako przykładu, zamieniając dwa elementy definicji,
@@ -142,7 +134,7 @@ po prawej.
 definicja będzie błędna nie dlatego, że to słowo zawiera błąd ortograficzny. Umieść kursor na słowie
 `tszy` i odczytaj komunikat o błędzie widoczny po prawej. Powinnaś wtedy zobaczyć komunikat `unknown
 identifier 'tszy'`, co oznacza, że Lean nie wie, czym jest `tszy`. Przekonasz się w ten sposób, że
-błędy to tylko okazja, żeby Lean mógł się wykazać i żebyś mogła nauczyć się robić coś lepiej (albo
+błędy to tylko okazja, żeby Lean mógł się wykazać, i żebyś mogła nauczyć się robić coś lepiej (albo
 gorzej).
 
 W Leanie można definiować stałe (nieskończenie) wielu różnych typów, nie tylko liczbowych. I tak,
@@ -185,15 +177,15 @@ typu) typ `String`:
 
 ```lean
 -- Lean sygnalizuje błąd, ponieważ stała `dziesiec` ma z definicji typ `Nat`, a `Nat` i `String` to
--- termy (jak również stałe) oznaczające różne typy (w teorii typów każdy term ma *unikalny* typ).
+-- termy (jak również stałe) oznaczające różne typy (w teorii typów każdy term ma *jeden* typ).
 -- W ten sposób można sprawdzać, czy jakieś wyrażenie ma określony typ.
 #check (dziesiec : String)
 ```
 
 Teraz już wiesz, jak możesz definiować stałe oznaczające liczby naturalne albo wartości tekstowe,
-jak możesz wyświetlać wartości takich (poprawnych) wyrażeń, których wartości Lean potrafi wyświetlić
-(akurat z liczbami naturalnymi i wartościami tekstowymi radzi sobie bez pomocy), i jak możesz poznać
-typ dowolnego wyrażenia, albo upewnić się, czy jakieś wyrażenie ma typ określony przez jakieś inne
+wyświetlać wartości (poprawnych) wyrażeń, których wartości Lean potrafi wyświetlić (akurat z
+liczbami naturalnymi i wartościami tekstowymi radzi sobie bez pomocy), i jak możesz poznać typ
+dowolnego wyrażenia, albo upewnić się, czy jakieś wyrażenie ma typ określony przez jakieś inne
 wyrażenie. A jeżeli zdarzy Ci się zapomnieć, jak się robi którąkolwiek z tych rzeczy, zawsze
 będziesz mogła sobie to przypomnieć zaglądając do tego rozdziału.
 
@@ -211,7 +203,7 @@ jeżeli taka czynność wydaje się tak łatwa, że aż zbędna, to może nawet 
 jednocześnie łatwy do przeoczenia wpływ takich pozornie pozbawionych większego znaczenia ćwiczeń na
 pamięć, percepcję i *rozumienie* wynika moim zdaniem stąd, że cały czas, nawet jeżeli tylko
 częściowo świadomie, postrzegamy wszystko przede wszystkim w kategoriach możliwych konsekwencji
-wykonywalnych sekwencji działań.
+wykonywalnych sekwencji działań. O czym powiem więcej kiedy indziej.
 
 ## Funkcje w Leanie
 
@@ -226,7 +218,7 @@ jak wcześniej wprost napisaliśmy, że chcemy, aby stała `dziesiec` miała typ
 składnię, która pozwalałaby jednoznacznie, zwięźle i czytelnie zapisywać *strukturę funkcji*
 rozumianych jako efektywne procedury obliczeniowe albo po prostu programy czy przepisy określające,
 jak *jeden* term określonego typu (rezultat działania funkcji) ma być zrobiony z jednego lub
-większej liczby niekoniecznie różnych termów niekoniecznie takich samych, ale określonych typów.
+większej liczby (niekoniecznie różnych) termów (niekoniecznie takich samych, ale określonych typów).
 
 Skoro definicje zapisujemy za pomocą słowa kluczowego `def`, to w tym wypadku można by użyć słowa
 kluczowego `fun`. Funkcje rozumiane jako programy mają być, cóż, jak programy, ale chcemy również,

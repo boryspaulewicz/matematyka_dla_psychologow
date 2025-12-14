@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 # Do czego autor zmierza
 
 Z tego rozdziału dowiesz się przede wszytkim o tym, o czym będę pisał w planowanej *drugiej*

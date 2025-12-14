@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 Zacznijmy od mise en place. Musimy pamiętać, że symbol `x` jest w tym kontekście dwuznaczny. Z
 jednej strony oznacza pewien *element* "wewnątrz" zbioru `X`, a z drugiej pewną *funkcję* z
 singletona `{∅}` do tego zbioru. Wobec tego zdanie `x(∅) = x` będzie *poprawne* tylko wtedy, gdy

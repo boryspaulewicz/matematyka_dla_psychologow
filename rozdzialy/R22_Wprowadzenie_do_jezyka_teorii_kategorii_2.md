@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 Zacznijmy może jeszcze raz od początku. Skoro `f` i `g` to dwie składane funkcje, to wyrażenie `g ∘
 f` również oznacza pewną funkcję, a skoro funkcja `g ∘ f` jest składalna z funkcją `h` (wiesz
 dlaczego, prawda? chodzi o dziedziny i przeciwdziedziny), to `h ∘ (g ∘ f)` też oznacza pewną

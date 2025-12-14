@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 # O terapii
 
 Muszę jednak zaznaczyć, że to będą całkiem amatorskie uwagi, ponieważ tak jak o metodologii badań i

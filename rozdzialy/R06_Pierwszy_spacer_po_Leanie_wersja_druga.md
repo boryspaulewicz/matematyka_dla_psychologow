@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 **Tematy do powtarzania**: Wyrażenie, term, typ, typowalność, funkcja, parametr, zmienna, argument,
 aplikacja, wystąpienie zmiennej jako miejsce w kodzie funkcji połączone z parametrem/wejściem o tej
 samej nazwie, currying, ewaluacja/redukcja, typ zależny, uogólniona identyczność, definicja, stała,

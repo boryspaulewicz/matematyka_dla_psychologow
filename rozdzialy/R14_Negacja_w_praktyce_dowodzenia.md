@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Zamiast zaproponować Ci kilka zadań wymagających operowania negacją, postanowiłem znowu nakłonić Cię

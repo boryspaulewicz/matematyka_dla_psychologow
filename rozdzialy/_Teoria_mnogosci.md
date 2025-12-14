@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 To nie jest rozdział, tylko moje robocze notatki.
 
 Tak *zrobimy* teorię mnogości.

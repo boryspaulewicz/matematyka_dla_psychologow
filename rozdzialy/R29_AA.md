@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 W tym rozdziale po raz kolejny nawiązujemy kontakt z algebrą abstrakcyjną, jednak zamiast mówić na

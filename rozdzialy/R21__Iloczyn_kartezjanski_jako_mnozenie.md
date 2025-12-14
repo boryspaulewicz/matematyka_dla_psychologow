@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 [Mocą zbioru](https://pl.wikipedia.org/wiki/Moc_zbioru) albo liczbą kardynalną zbioru nazywamy jego
 "wielkość", która, *jeżeli ten zbiór jest skończony*, jest *liczbą jego elementów*. Moc zbioru `X`
 zapisujemy zwykle jako `|X|`.

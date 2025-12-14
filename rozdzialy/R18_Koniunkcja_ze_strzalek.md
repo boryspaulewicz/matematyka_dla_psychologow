@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 Jeżeli to, o czym będę tu mówił, wyda Ci się na razie zbyt skomplikowane, to nie masz się czym

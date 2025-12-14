@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 Jeżeli `X : FinSet` i `Y : FinSet`, to dodawanie liczb naturalnych możemy zastąpić/zaimplementować
 jako sumą rozłączną zbiorów ...
 

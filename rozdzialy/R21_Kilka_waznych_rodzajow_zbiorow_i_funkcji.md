@@ -1,3 +1,4 @@
+<!-- -*- coding: utf-8 -*- -->
 ## O czym teraz będzie
 
 W tym rozdziale poznasz pewne rodzaje zbiorów i funkcji, których jest dosłownie wszędzie pełno i
