@@ -559,11 +559,11 @@ inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 
 Gdyby tylko psychologowie poznawczy i nie tylko oni mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Że na przykład pojęcie
-[*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane tylko niewielkiej
-garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, za to znaczenie
-pierwszorzędne ma fakt, że komputery zostały stworzone na podobieństwo ludzi pod tym względem, że są
-*programowalne*. Można powiedzieć wręcz, że to jest centralna teza, z której wyrasta, którą wyraża,
-i którą ilustruje na różne sposoby ta książka:
+[*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane zresztą tylko
+niewielkiej garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, za to
+znaczenie pierwszorzędne ma fakt, że komputery zostały stworzone na podobieństwo ludzi pod tym
+względem, że są *programowalne*. Można powiedzieć wręcz, że to jest centralna teza, z której
+wyrasta, którą wyraża, i którą ilustruje na różne sposoby ta książka:
 
 *Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
 samych i siebie nawzajem*.
