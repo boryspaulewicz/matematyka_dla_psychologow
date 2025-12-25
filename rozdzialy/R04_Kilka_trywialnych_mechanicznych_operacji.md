@@ -376,27 +376,28 @@ Reguła 1. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
 
 Reguła 2. Jeżeli *x* i *y* to zdarzenia, to *p(x|y) \* p(y) = p(x, y)*.
 
-Jak widzisz, trochę się teraz powtarzamy (początkowy fragment jest taki sam), a robimy to, żeby
-wyraźniej zobaczyć, że obie reguły są czymś w rodzaju *samowystarczalnych* (pomiajając rolę osoby
-czytającej je \{ze zrozumieniem\}) *narzędzi językowych*.
+Jak widzisz, trochę się teraz powtarzamy, bo początkowy fragment obydwu reguł jest taki sam, a
+robimy to, żeby wyraźniej zobaczyć, że obie reguły są czymś w rodzaju *samowystarczalnych*
+(pomiajając rolę osoby czytającej je \{ze zrozumieniem\}) *narzędzi językowych*.
 
 Reguły, zasady, wzorce, zjawiska, procesy, czy prawa - jak zwał, tak zwał - mają *konsekwencje* albo
 *skutki*. Słowa "skutek" używamy zwykle na określenie *fizycznych* konsekwencji jakiegoś zdarzenia
 czy procesu, a słowa "konsekwencja" używamy często, choć nie zawsze, na określenie - logicznych, to
-jest nieuchronnych - *wniosków*. Wnioski się same z siebie raczej nie pojawiają (na skutek samego
-pojawienia się prowadzących do nich założeń czy konwencji). Żeby wniosek *został wyprowadzony* z
-jakiś reguł, trzeba te reguły *zastosować*, i jakiekolwiek *stosowanie reguł* musi być z
-konieczności (między innymi) procesem *fizycznym*. A więc logiczne czy pojęciowe czy językowe czy
-formalne - jak zwał, tak zwał - konsekwencje reguł to również pewnego rodzaju *skutki*, tyle, że to
-są fizyczne skutki *działania zgodnego z tymi regułami*.
+jest nieuchronnych - *wniosków*. Wnioski się jednak same z siebie raczej nie pojawiają (na skutek
+samego pojawienia się prowadzących do nich założeń czy konwencji). Żeby wniosek *został
+wyprowadzony* z jakiś reguł, trzeba te reguły *zastosować*, i jakiekolwiek *stosowanie reguł* musi
+być z konieczności (między innymi) procesem *fizycznym*. A więc logiczne czy pojęciowe czy językowe
+czy formalne - jak zwał, tak zwał - konsekwencje reguł to również pewnego rodzaju *skutki*, tyle, że
+to są fizyczne skutki *działania zgodnego z tymi regułami*.
 
 Korzystając z dwóch zapisanych wyżej reguł skonstruujemy teraz nowe stosunkowo samowystarczalne
 narzędzie językowe, które będzie regułą (albo zasadą, wzorcem, procesem, czy twierdzeniem - jak
 zwał, tak zwał) będącą ich (nieuchronną) konsekwencją. To będzie nieuchronna konsekwencja w tym
 znaczeniu, że *nie da się, poprawnie stosując zasady języka polskiego, stosować obydwie reguły i
 odrzucić tą nową regułę*. Inaczej mówiąc, *nie istnieje zachowanie* polegające na akceptacji dwóch
-pierwszych reguł i odrzuceniu tej nowej, trzeciej; za to istnieje zachowanie polegające na
-akceptacji wszystkich trzech.
+pierwszych reguł i odrzuceniu tej nowej, trzeciej. Za to istnieje, o czym przekonasz się za chwilę
+doświadczalnie, albo co udowodnię Ci zaraz fizycznie, zachowanie polegające na akceptacji wszystkich
+trzech. 
 
 Reguła 3. Niech *a* i *b* będą zdarzeniami.  
 (to jest początek konstrukcji tego nowego językowego narzędzia, które nazywamy tu regułą 3)
