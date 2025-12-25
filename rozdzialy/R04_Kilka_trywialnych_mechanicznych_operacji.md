@@ -11,8 +11,9 @@
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole
 podstawowej, ale być może nie zastanawiałaś się jak dotąd dłużej, o co w nim właściwie chodzi.
 Będziemy przyglądać się z bliska wybranym, ważnym i często wykonywanym w matematyce czynnościom, a
-właściwie tylko *jednej* prostej mechanicznej czynności polegającej na *podstawianiu*
-(*wymienianiu*) jednych wyrażeń w miejsce innych (na inne wyrażenia).
+właściwie tylko *jednej* prostej mechanicznej czynności, polegającej na *podstawianiu*
+(*wymienianiu*) jednych wyrażeń w miejsce innych (na inne wyrażenia) w sposób określony przez *jawne
+i jednoznaczne reguły językowe*.
 
 <hr>
 
@@ -56,40 +57,44 @@ A jeżeli *a* i *b* to jakieś liczby naturalne, to również:
 (możemy podstawiać *złożone* wyrażenia odpowiedniego typu)
 
 Ostatnia równość jest wynikiem zastosowania twierdzenia o przemienności dodawania, ponieważ *2 + 3 +
-a* oznacza w tym kontekście (oto cały kontekst: umawiamy się, że *a* i *b* to jakieś liczby
+a* oznacza w tym *kontekście* (oto cały kontekst: umawiamy się, że *a* i *b* to jakieś liczby
 naturalne) liczbę naturalną, i tak dalej.
 
-Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez większego trudu jeszcze w
-szkole podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas
-często właśnie dlatego, że sama jest czymś w rodzaju reguły podstawiania, bo mówi o
-*zastępowalności* lewej strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą
-samą prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania
-czy zastępowania jednych wyrażeń innymi.
+Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez większego trudu w szkole
+podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas często
+właśnie dlatego, że sama jest czymś w rodzaju reguły podstawiania, bo mówi o *zastępowalności* lewej
+strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą samą prostą czynność
+mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania czy zastępowania
+jednych wyrażeń innymi.
 
 Różnica między podstawianiem pod zmienne i wymienianiem równych wyrażeń jest taka, że zmienne są
-jakby stworzone do tego, żeby je czymś zastąpić, to jest nadać im jakąś wartość, i tymi wartościami
-mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Dlatego właśnie nazywamy
-je zmiennymi. Natomiast równości pozwalają nam wymieniać ze sobą wyrażenia tego samego typu, o ile
-wymieniane wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości.
+jakby stworzone do tego (i tylko do tego), żeby je czymś zastąpić, to jest nadać im jakąś wartość, i
+tymi wartościami mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Dlatego
+właśnie nazywamy je zmiennymi. Natomiast równości pozwalają nam wymieniać ze sobą wyrażenia tego
+samego typu, o ile wymieniane wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości.
+Na przykład, zasada przemienności dodawania liczb naturalnych pozwala zamieniać miejscami wyrażenia
+oznaczające liczby naturalne, o ile te wyrażenia są sumowane.
 
-Na przykład, zasada przemienności dodawania liczb naturalnych pozwala wymieniać ze sobą dowolne
-wyrażenia, które mają składniową strukturę sumy dwóch wyrażeń oznaczających liczby naturalne. A więc
-w przypadku podstawiania pod zmienne wyrażenie do zastąpienia poznajemy po nazwie i wcześniejszej
-deklaracji, z której wynika, że to zmienna, a w przypadku wymieniania równych wyrażeń takie miejsce
-poznajemy po tym, że *wygląda jak* jedna ze stron równości.
+A więc w przypadku *podstawiania pod zmienne* wyrażenie do zastąpienia poznajemy po *nazwie i
+wcześniejszej deklaracji*, z której wynika, że to zmienna, a w przypadku *wymieniania równych
+wyrażeń* takie miejsce poznajemy po tym, że *wygląda jak* jedna ze stron równości.
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
 Powiem Ci teraz o czymś, co może wyda Ci się w pierwszej chwili banalne, ale moim zdaniem wcale
-takie nie jest. Możemy popatrzeć na to wszystko również tak: Ten fragment matematycznej prozy jest
-jak *przepis*, który *stosując* da się wyprodukować *nieskończenie wiele prawdziwych zdań* na temat
-liczb naturalnych. Swoją "nieskończoną produktywność" zawdzięcza *parametryczności*, to jest temu,
-że jest zrobiony z *parametrów* albo *zmiennych* (*m* i *n*), czyli specjalnie oznaczonych miejsc, w
-które możemy coś podstawiać. Możemy też na niego popatrzeć jak na coś w rodzaju *maszyny* albo
-*mechanizmu*, który (jak to mechanizm) *działa*, chociaż tylko dzięki temu, że to *my go używamy* w
-określony sposób, to jest konsekwentnie podstawiając w miejsca wystąpień zmiennych wyrażenia
-odpowiedniego typu (tutaj akurat liczbowego). Ten mechanizm składa się co najmniej z *trzech*
-części:
+takie nie jest, bo ta obserwacja wskazuje na głęboki związek między matematyką i *psychologią*. Otóż
+możemy popatrzeć na to wszystko również tak:
+
+Przytoczony fragment matematycznej prozy jest jak *przepis*, który *stosując* da się wyprodukować
+*nieskończenie wiele prawdziwych zdań* na temat liczb naturalnych. Swoją "nieskończoną
+produktywność" zawdzięcza *parametryczności*, to jest temu, że jest zrobiony z *parametrów* albo
+*zmiennych* (*m* i *n*), czyli specjalnie oznaczonych miejsc, w które możemy coś podstawiać. Możemy
+też na niego popatrzeć jak na coś w rodzaju *maszyny* albo *mechanizmu*, który (jak to mechanizm)
+*działa*, chociaż tylko dzięki temu, że to albo *my go używamy* w określony sposób, albo - co moim
+zdaniem na jedno wychodzi - ten przepis przetwarza urządzenie, które działa zgodnie z tym, jak my
+ten przepis-mechanizm rozumiemy, to jest konsekwentnie podstawiając w miejsca wystąpień zmiennych
+wyrażenia odpowiedniego typu (tutaj akurat liczbowego). Ten mechanizm składa się więc tak naprawdę z
+*trzech* części:
 
 1. Zapisanego w jakiś sposób matematycznego *przepisu*.
 
@@ -104,54 +109,67 @@ zabawa symbolami będzie również naszym punktem dojścia.
 
 ### Zagadka "filozoficzna"
 
-*Ten fragment możesz spokojnie potraktować jako ciekawostkę, bo to, o czym tu mówię nieprędko stanie
-się dla nas ważne. Wspominam o tym już teraz, bo mam nadzieję, że w ten sposób uda mi się zwiększyć
-zainteresowanie u osób zajmujących się psychologią.*
+*Ten fragment możesz spokojnie potraktować jako ciekawostkę, bo to, o czym tutaj mówię, nieprędko
+stanie się dla nas ważne. Wspominam o tym już teraz, bo mam nadzieję, że w ten sposób uda mi się
+zwiększyć zainteresowanie u osób zajmujących się psychologią.*
 
-Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było
-przynajmniej hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami
-takich przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak
-zapis *Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są*
-przepisami). Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby
-działania*. Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy",
-nie ma *dla nas* i nigdy nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać*, bo -
-*tak jak ją rozumiemy* - matematyka *jako taka* jest *naszym narzędziem*.
+Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
+hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
+przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak zapis
+*Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są* przepisami).
+Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby działania*. Nawet jeśli
+przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", nie ma *dla nas* i nigdy
+nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać do rozumowania*, ponieważ
+ostatecznie matematyka jako taka jest *naszym narzędziem*.
 
-Co więcej, w pewnym sensie tylko jeden z trzech wymienionych elementów jest "autonomiczny". Mam na
-myśli to, że ja i Ty istniejemy jako ja i Ty odpowiednio niezależnie od tego, czy używamy tego
-rodzaju przepisów, czy nie. Ale żeby przepis był przepisem, musi istnieć ktoś, kto może go jako
-przepisu używać, i tak samo żeby sposób używania tego przepisu był tym, czym jest, to jest pewnym
-sposobem używania czegoś, musi istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane*
-(tutaj przepis) i (choćby tylko hipotetyczny) *ktoś, kto może ten sposób stosować*.
+Żeby przepis był przepisem, musi istnieć ktoś, kto może go jako przepisu używać, i tak samo żeby
+sposób używania tego przepisu był tym, czym jest, to jest pewnym sposobem używania czegoś, musi
+istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane* (tutaj przepis) i (choćby tylko
+hipotetyczny) *ktoś, kto może ten sposób stosować*.
 
 Można więc powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
-pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem użytkownika (nawet jeśli
-tylko hipotetycznego). W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli
-czegoś, dosłownie czegokolwiek, możemy używać jak przepisu, to to coś po prostu jest dla nas
-przepisem. A jeśli coś jest przepisem, to znaczy, że ktoś może tego czegoś używać jako przepisu.
+pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem użytkownika, nawet jeśli
+tylko hipotetycznego. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli
+czegoś, dosłownie czegokolwiek, możemy *używać jak przepisu*, to to coś po prostu *jest* dla nas
+przepisem. A jeśli coś jest przepisem, to znaczy, że można tego czegoś używać jako przepisu.
 
-Przepis jako taki i sposób używania go to zatem *jedno i to samo oglądane z dwóch stron*, które
-można by nazwać obiektową albo materialną i funkcjonalną albo użytkową. Nie ma przepisów (będących
-sposobami ich używania) bez przynajmniej potencjalnie używającego ich jako przepisów przynajmniej
-hipotetycznego podmiotu. Za to podmioty (również te hipotetyczne), istnieją niezależnie od tego, czy
-używają przepisów.
+Przepis jako taki i sposób używania go to zatem *to samo pojęcie oglądane z dwóch stron*, które
+można by nazwać obiektową albo materialną (i to jest *fizyczny zapis* ...) i funkcjonalną albo
+użytkową (... a to jest jego *sens*). Nie ma przepisów (będących sposobami ich używania) bez
+przynajmniej potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu. Za to
+podmioty (również te hipotetyczne), istnieją niezależnie od tego, czy używają przepisów.
 
 Czy w takim razie matematyka (i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ)) nie
 są przypadkiem *subdyscyplinami psychologii*?  
 
 Ktoś, kto zetknął się wcześniej z filozofią, mógłby powiedzieć, że "to przecież psychologizm", mając
-na myśli, że to jakieś pomylenie pojęć. W końcu to, jak faktycznie ludzie używają liczb to jedno, a
-to, jakie prawa rządzą liczbami i czym liczby są, to co innego. Aksjomaty, definicje i twierdzenia
-matematyczne mówią nam jak *powinniśmy* używać między innymi "języka liczbowego", a nie jak go
-faktycznie używamy.
+na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzie używają liczb (bardzo
+różnie i często popełniając błędy) to jedno, a to, jakie prawa rządzą liczbami i czym liczby są, to
+co innego. Aksjomaty, definicje i twierdzenia matematyczne mówią nam jak *powinniśmy* używać między
+innymi "języka liczbowego", a nie jak go faktycznie używamy.
 
-No dobrze, ale przecież zawsze, gdy faktycznie - nieuchronnie popełniając czasem błędy - myślimy o
-liczbach, nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to
-znaczy właśnie myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. Ktoś, kto
-używałby słów dotyczących liczb w sposób całkowicie niezwiązany z tymi idealnymi wzorcami, *nie
-zachowywałby się w sposób polegający na mówieniu o liczbach*. A poza tym niby w jaki sposób tworzymy
-wszelką matematykę, jeśli nie poprzez wykrywanie pewnych idealnych wzorców czy regularności w
-naszych własnych (najczęściej werbalnych) zachowaniach?
+No dobrze, ale zawsze, gdy faktycznie - nieuchronnie popełniając czasem błędy - myślimy o liczbach,
+nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to znaczy właśnie
+myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. To, że popełniamy przy tym
+czasem błędy, nie zmienia faktu, że to są właśnie ... *błędy*. Faktyczna myśl albo wypowiedź na
+temat liczb w ogóle *może* być błędna tylko dlatego, że jest *nierozerwalnie związana z pewnym
+ideałem logicznej poprawności*, który taka faktyczna myśl albo wypowiedź lepiej lub gorzej
+*fizycznie przybliża*. Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie* lub
+*nieoptymalnie* tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami,
+przynajmniej jako *teoretyczna możliwość*, poprawny albo w pewnym sensie optymalny sposób kupowania
+chleba czy wiązania sznurowadeł.
+
+I to jest cecha wszystkich bez wyjątku *działań celowych* po prostu dlatego, że każde działanie
+celowe - również nieskuteczne, błędne czy nieoptymalne działanie celowe - *jest określone przez
+cel*. No a działania celowe, rozumiane jako *zachowania*, szczególnie zaś to, w jaki sposób, kiedy,
+i do jakiego stopnia są (nie)poprawne, (nie)skuteczne, albo (nie)optymalne, to *centralny przedmiot
+zainteresowania psychologii*.
+
+Ktoś, kto używałby słów dotyczących liczb w sposób całkowicie niezwiązany z tymi idealnymi wzorcami,
+albo "oficjalnymi" matematycznymi regułami, *nie zachowywałby się w sposób polegający na mówieniu o
+liczbach*, a więc *nie mówiłby o liczbach*, tylko *wydawał pewne dźwięki*. A poza tym niby w jaki
+sposób tworzymy wszelką matematykę, jeśli nie poprzez wykrywanie rozmaitych idealnych wzorców czy
+regularności w naszych własnych, najczęściej werbalnych zachowaniach?
 
 Taka zagadka.
 
@@ -192,20 +210,20 @@ Następnie korzystając z przechodniości relacji równości użyj reguły 3 w j
 (ta reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich *stronach*), żeby uzyskać trzecie
 nowe równanie. Zakładając, że $\underbrace{b} \neq 0$, podziel obie strony tego ostatniego równania
 przez $\underbrace{b}$ (zgodnie z przyjętą konwencją zarówno $\underbrace{b}$ jak i te strony to
-\{jakieś\} liczby, a więc możemy je dzielić przez $\underbrace{b}$, o ile to nie jest zero) i uprość
-jedyną rzecz, którą możesz.
+\{jakieś\} liczby, a więc możemy je dzielić przez $\underbrace{b}$, o ile to nie jest zero), i
+uprość jedyną rzecz, którą możesz.
 
 Jeżeli masz wątpliwości, czy dobrze wykonałaś to zadanie, albo ta egzotyczna i bezsensowna notacja
-budzi Twój niepokój, nie przejmuj się tym, niebawem wszystko powinno się wyjaśnić. Jeżeli natomiast
-wydaje Ci się, że wykonałaś zadanie poprawnie, ale czujesz frustrację wynikającą z braku poczucia
-sensu, to znakomicie, bo właśnie taki efekt miałem nadzieję uzyskać. Jeżeli tak się stało, to może
-dzięki temu będziesz lepiej rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę w nauce
-matematyki.
+budzi Twój niepokój, nie przejmuj się tym, bo niebawem wszystko powinno się wyjaśnić. Jeżeli
+natomiast wydaje Ci się, że wykonałaś zadanie poprawnie, ale czujesz frustrację wynikającą z braku
+poczucia sensu, to znakomicie, bo właśnie taki efekt miałem nadzieję uzyskać. Jeżeli tak się stało,
+to może dzięki temu będziesz lepiej rozpoznawać w przyszłości pewną ważną i nieoczywistą przeszkodę
+w nauce matematyki.
 
 Naprawdę uważam, że w nauce matematyki przydaje się zdolność do *tymczasowego* stłumienia potrzeby
 sensu. Chodzi w tym przede wszystkim o to, żeby na początku nie próbować uczyć się zbyt wielu rzeczy
 jednocześnie, a w przypadku teorii matematycznych trzeba opanować notację i terminologię, sztywne i
-abstrakcyjne reguły (aksjomaty, twierdzenia i zwykłe definicje), a także sposoby, w jaki można te
+abstrakcyjne reguły (twierdzenia, aksjomaty i zwykłe definicje), a także sposoby, w jaki można te
 reguły stosować w różnych sytuacjach, w tym również do rozwiązywania problemów *nie*matematycznych.
 Wygląda na to, że aby *zrozumieć dlaczego* te teorie są tak a nie inaczej skonstruowane, trzeba
 czasem *najpierw* dobrze *poznać ich podstawy*, a nie odwrotnie. Być może dałoby się je przedstawiać
@@ -268,10 +286,10 @@ dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założył
 Jeżeli wykonałaś poprawnie wszystkie te *trywialne*, *mechaniczne* operacje, polegające tylko na
 podstawianiu pewnych wyrażeń w miejsce innych wyrażeń zgodnie z kilkoma prostymi regułami, to udało
 Ci się udowodnić nieznacznie uproszczoną wersję twierdzenia Bayesa. W dodatku zrobiłaś to już po raz
-drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko nazwami stałych, a takie
-różnice są w matematyce *nieistotne* (choć mają znaczenie praktyczne). Moim studentom, kiedy
-udowadniają w ten (drugi) sposób to twierdzenie po raz pierwszy w życiu, nie zajmuje to więcej niż
-15 minut.
+drugi, bo ten dowód i poprzedni *jako formalne dowody* różniły się tylko nazwami stałych, czyli
+sposobem zapisu, a takie różnice są w matematyce *nieistotne* (choć mają znaczenie praktyczne). Moim
+studentom, kiedy udowadniają w ten (drugi) sposób to twierdzenie po raz pierwszy w życiu, nie
+zajmuje to więcej niż 15 minut.
 
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
@@ -297,13 +315,13 @@ wielu ciekawych zastosowań twierdzenia Bayesa w psychologii, albo do snucia og�
 temat oceny hipotez empirycznych.
 
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej, agresywnie bezsensownej
-wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale dopiero ostatnio
-zaczęło do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu, z którego
-niedługo potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie w języku Lean dowodów
-kilku prostych twierdzeń, większość, o ile nie wszyscy, wykonali to zadanie z łatwością. Gdy
-zapytałem potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się Sofiia
-Honcharova i zdobyła się na odwagę, żeby powiedzieć, że chociaż wykonała zadanie dość szybko, to
-*nie wiedziała, co się stało*.
+wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale bardzo późno zaczęło
+do mnie lepiej docierać, co z tego wynika. Gdy tworząc pierwszą wersję skryptu, z którego niedługo
+potem powstał ten rozdział, poprosiłem doktorantów o skonstruowanie w języku Lean dowodów kilku
+prostych twierdzeń, większość, o ile nie wszyscy, wykonali to zadanie z łatwością. Gdy zapytałem
+potem o wrażenia - o ile dobrze pamiętam po chwili wahania - zgłosiła się Sofiia Honcharova i
+zdobyła się na odwagę, żeby powiedzieć, że chociaż wykonała zadanie dość szybko, to *nie wiedziała,
+co się stało*.
 
 Ta odpowiedź nie dawała mi później spokoju, dlatego poprosiłem Sofiię, żeby spróbowała powiedzieć
 coś więcej. I wtedy wyjaśniła, że "czuła się jak małpa". Moim zdaniem mówiąc to trafiła w sedno.
@@ -324,14 +342,221 @@ miałaś okazję doświadczyć niektórych sposobów, w jakie można je *zastoso
 niektóre ich *konsenwencje*.
 
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
-było, jest i zawsze już będzie prawdziwe, choć tylko w tym znaczeniu, że jest *nieuchronną
-konsekwencją przyjętych wyborów językowych*. Od tego momentu o samym dowodzie, to jest o jego
-konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako ze
-wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, że dowód danego zdania
-*istnieje*.
+było, jest i zawsze już będzie prawdziwe, chociaż *tylko* w tym znaczeniu, że jest *nieuchronną
+konsekwencją przyjętych wcześniej reguł językowych*. Od tego momentu o samym dowodzie, to jest o
+jego konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako
+ze wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, że dowód danego
+zdania *istnieje*.
 
-Będziemy odtąd robić podobne rzeczy, ale [nie zawsze na
-kartce](R05_Pierwszy_spacer_po_Leanie_wersja_pierwsza.md).
+## Jeszcze bardziej pedantycznie
+
+Przeprowadzimy ten sam dowód jeszcze raz, ale nieco inaczej. Byłoby wspaniale, gdybyś nie czytała
+tego fragmentu zanim nie przeprowadzisz dowodu według poprzednich wskazówek, z dwóch powodów. Po
+pierwsze, chciałbym, żebyś mogła możliwie najwyraźniej poczuć różnicę między przeprowadzeniem tego
+samego dowodu w sposób (jak wcześniej) mniej lub (jak teraz) bardziej *jawny*. A po drugie,
+chciałbym, żebyś poczuła, że robiąc coś po raz kolejny po krótkiej przerwie możesz doświadczyć
+(przyjemnego?) wzrostu płynności działania i zacząć postrzegać te same czynności i ich rezultaty
+jakby trochę bardziej "z góry", to znaczy z *meta*poziomu.
+
+Zamiast o aksjomatach, definicjach, czy twierdzeniach będziemy teraz mówić ogólnie o jakichkolwiek
+*regułach*, żeby w ten sposób podkreślić fakt, że w praktyce dowodzenia, a mówiąc ogólniej w
+praktyce tworzenia i korzystania z matematyki teoretycznej, podobnie zresztą jak *we wszelkiego
+rodzaju rozumowaniach*, aksjomaty, definicje i twierdzenia pełnią jedną i tą samą ogólną rolę, tylko
+w nieco inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia lub przekształcania wyrażeń*.
+
+Będziemy się powtarzać, żeby nie trzeba było ciągle albo pamiętać, albo szukać informacji mówiących
+o tym, jakie są *warunki stosowalności* tych reguł, tylko żeby to było można zawsze łatwo *zobaczyć
+w samym tekście*. Dzięki temu będziemy mogli stosować te reguły jeszcze bardziej *bezmyślnie*, co
+nas odciąży poznawczo i zmniejszy ryzyko błędu niemal do zera. Ale jest też głębszy powód - w ten
+sposób będziemy mogli *zobaczyć jako jawnie zapisane w tekście coś, co wcześniej niejawnie działało
+w nas*, a mówiąc dokładniej co *staraliśmy się przybliżać*.
+
+Reguła 1. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
+
+Reguła 2. Jeżeli *x* i *y* to zdarzenia, to *p(x|y) \* p(y) = p(x, y)*.
+
+Jak widzisz, trochę się teraz powtarzamy (początkowy fragment jest taki sam), a robimy to, żeby
+wyraźniej zobaczyć, że obie reguły są czymś w rodzaju *samowystarczalnych* (pomiajając rolę osoby
+czytającej je \{ze zrozumieniem\}) *narzędzi językowych*.
+
+Reguły, zasady, wzorce, zjawiska, procesy, czy prawa - jak zwał, tak zwał - mają *konsekwencje* albo
+*skutki*. Słowa "skutek" używamy zwykle na określenie *fizycznych* konsekwencji jakiegoś zdarzenia
+czy procesu, a słowa "konsekwencja" używamy często, choć nie zawsze, na określenie - logicznych, to
+jest nieuchronnych - *wniosków*. Wnioski się same z siebie raczej nie pojawiają (na skutek samego
+pojawienia się prowadzących do nich założeń czy konwencji). Żeby wniosek *został wyprowadzony* z
+jakiś reguł, trzeba te reguły *zastosować*, i jakiekolwiek *stosowanie reguł* musi być z
+konieczności (między innymi) procesem *fizycznym*. A więc logiczne czy pojęciowe czy językowe czy
+formalne - jak zwał, tak zwał - konsekwencje reguł to również pewnego rodzaju *skutki*, tyle, że to
+są fizyczne skutki *działania zgodnego z tymi regułami*.
+
+Korzystając z dwóch zapisanych wyżej reguł skonstruujemy teraz nowe stosunkowo samowystarczalne
+narzędzie językowe, które będzie regułą (albo zasadą, wzorcem, procesem, czy twierdzeniem - jak
+zwał, tak zwał) będącą ich (nieuchronną) konsekwencją. To będzie nieuchronna konsekwencja w tym
+znaczeniu, że *nie da się, poprawnie stosując zasady języka polskiego, stosować obydwie reguły i
+odrzucić tą nową regułę*. Inaczej mówiąc, *nie istnieje zachowanie* polegające na akceptacji dwóch
+pierwszych reguł i odrzuceniu tej nowej, trzeciej; za to istnieje zachowanie polegające na
+akceptacji wszystkich trzech.
+
+Reguła 3. Niech *a* i *b* będą zdarzeniami.  
+(to jest początek konstrukcji tego nowego językowego narzędzia, które nazywamy tu regułą 3)
+
+Ponieważ przyjmujemy tutaj, to znaczy w tym miejscu konstruowanej włąśnie nowej, spójnej albo
+konsekwentnej wypowiedzi, że *a* i *b* to zdarzenia, to do obydwu symboli możemy zastosować reguły 1
+i 2.
+
+Korzystając z reguły 1 przez podstawianie *a* za *x* i *b* za *y* możemy uzyskać konsekwencję, czyli
+skutek działania polegającego na poprawnym zastosowaniu tej reguły, w postaci wyrażenia (będącego
+akurat dla nas zdaniem) *p(a, b) = p(b, a)*.  
+
+Korzystając w taki sam sposób z reguły 2 możemy uzyskać, jako dwa skutki poprawnego zastosowania tej
+reguły przez nas, zdania *p(a|b) \* p(b) = p(a, b)* i *p(b|a) \* p(a) = p(b, a)*.
+
+Żeby coś z tym dalej zrobić, możemy skorzystać ze znanej nam obojgu reguły dotyczącej symbolu *=*,
+którą matematycy nazywają zasadą przechodniości relacji równości:
+
+Jeżeli *A = B* i *B = C*, to *A = C*.
+
+Ale wcześniej musimy skorzystać z reguły, która mówi, że relacja równości jest zwrotna:
+
+Jeżeli *A = B*, to *B = A*.
+
+aby ze zdania *p(b|a) \* p(a) = p(b, a)* uzyskać zdanie:
+
+*p(b, a) = p(b|a) \* p(a)*
+
+Uzyskaliśmy w ten sposób, jako konsekwencje, a dokładniej jako fizyczne skutki wspólnej akceptacji
+pewnych wcześniejszych reguł i wynikająego stąd naszego wspólnego stosowania się do nich,
+następujące wyrażenia (będące zdaniami):
+
+*p(a|b) \* p(b) = p(a, b)*
+
+*p(a, b) = p(b, a)*
+
+*p(b, a) = p(b|a) \* p(a)*
+
+Podstawiając *p(a|b) \* p(b)* za *A*, *p(a, b)* za *B*, i *p(b, a)* za *C* w regule mówiącej o
+przechodniości równości uzyskujemy wyrażenie:
+
+*p(a|b) \* p(b) = p(b, a)*
+
+Wreszcie, stosując po raz kolejny tą samą regułę, uzyskujemy zdanie:
+
+*p(a|b) \* p(b) = p(b|a) \* p(a)*
+
+I tutaj tym razem się zatrzymamy. Co tu się właściwie dzieje?
+
+Pisząc to wszystko zakładałem, że oboje jesteśmy (wystarczająco) kompetentnymi użytkownikami języka
+polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się tak samo jak ja, a nawet gdybyśmy
+pewnych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
+
+Dotyczy to również zdań o postaci *jeżeli ... to ...*. Taka *warunkowa struktura* jest *ogólnym
+wzorcem* wszystkich możliwych *reguł językowych*. Każda taka reguła ma jakieś, być może niejawne,
+warunki stosowalności czy obowiązywania, które można wymienić poprzedzając je słowem "jeżeli". A po
+słowie "to" mamy - być może parametryczny, jak w regułach 1 i 2 - rezultat zastosowania, to jest
+rezultat naszego wspólnego działania według tej reguły.
+
+Mogę przewidzieć, że zgodzisz się z pewnymi zapisanymi przeze mnie wnioskami, i to będzie
+jednocześnie psychologiczna, logiczna i fizyczna konsekwencja przeczytania ze zrozumieniem pewnych
+wcześniejszych fragmentów. O ile oczywiście wcześniej zaakceptowałaś (przynajmniej warunkowo)
+zaproponowane przeze mnie reguły. Mogę to przewidzieć, ponieważ jedynym sposobem, w jaki mogłabyś
+się z tymi wnioskami *nie* zgodzić, byłoby albo niezrozumienie, albo przynajmniej częściowe
+odrzucenie tego, co wcześniej napisałem. W końcu *mieć wspólny język* i *mówić we wspólnym języku*
+znaczy to samo, co *stosować się do pewnych wspólnych reguł* (dotyczących posługiwania się
+wyrażeniami w tym języku).
+
+Niektóre reguły, takie jak te, które nazywamy przechodniością i zwrotnością relacji równości, można
+stosować do niemal dowolnych (poprawnych) wyrażeń, a inne wymagają wyrażeń bardziej dookreślonego
+typu, na przykład typu *zdarzenie*. Żeby łatwiej było zauważyć w tekście reguły, które będziemy
+stosować w taki mechaniczny, to jest *całkowicie regularny* sposób, moglibyśmy przyjąć na przykład
+konwencję, zgodnie z którą napierw zapisujemy w nawiasach warunki stosowalności, potem rysujemy
+strzałkę *→*, a na końcu zapisujemy strukturę (a właściwie typ, o czym powiem więcej później)
+wyrażenia, które dana reguła pozwala nam razem uzyskać, to jest które oboje będziemy uznawać za
+konsekwencję wystąpienia czegoś, co pasuje do wzorca zapisanego w nawiasach przed strzałką:
+
+*R1 : (x to zdarzenie, y to zdarzenie) → p(x, y) = p(y, x)*.
+
+*R2 : (x to zdarzenie, y to zdarzenie) → p(x|y) \* p(x) = p(x, y)*.
+
+Stosowanie reguł moglibyśmy wtedy zapisywać tak:
+
+Niech *a* i *b* to *zdarzenia*. Wtedy R1(*a*, *b*) daje (rezultat typu) *p(a, b) = p(b, a)*.
+
+Albo już całkiem formalnie, oznaczając kontekst za pomocą nawiasów kwadratowych, a typowanie (o czym
+więcej później) za pomocą dwukropka:
+
+*[a : zdarzenie, b : zdarzenie]*
+
+*R1(a, b) : p(a, b)*
+
+*R2(a, b) : p(a|b) \* p(b)*
+
+*R2(b, a) : p(b|a) \* p(a)*
+
+I tak dalej. No więc będziemy robić podobne rzeczy, ale nie zawsze na kartce.
+
+Czy widzisz, że wprowadzając tego rodzaju jednoznaczne i sztywne konwencje językowe zaczynamy
+dosłownie tworzyć nowy, *wspólny język programowania samych siebie i siebie nawzajem*? W dodatku
+tworzymy w ten sposób język, którego użyteczność wcale nie ogranicza się do liczb czy innych
+abstrakcyjnych obiektów, które mogą nam się kojarzyć z tym, co oficjalnie nazywamy matematyką; tego
+rodzaju język może służyć do *rozumowania na dowolny temat*, a także do *programowania czegokolwiek,
+co tylko jest programowalne*.
+
+Ponieważ ten język jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
+wnioskowania*, ale również zapisywać *programy działania* - skonstruowane dla siebie, dla innych,
+lub po to, żeby wykonały je urządzenia - bo (jak się przekonasz w następnych rozdziałach) jest
+jednocześnie jednym z języków podstawowych całej matematyki i pełnowartościowym (funkcyjnym i
+czystym) językiem programowania, to poznając go i posługując się nim będziemy w stanie coraz lepiej
+widzieć, w jaki sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest
+pewnego rodzaju - w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
+takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego
+stopnia*, logiczne albo racjonalne, a mówiąc ogólnie ... konsekwentne.
+
+No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką i psychologią? Na czym
+niby polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie samych i siebie
+nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się *dostatecznie
+konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również do reguł *logicznych*? Taka dajmy
+na to terapia poznawczo-behawioralna polega przecież przede wszystkim na *wspólnym rozwiązywaniu
+problemów przez twórcze rozumowanie*. A czytanie tego tekstu? Albo robienie sobie rano kawy?
+
+Wystarczy odrobina introspekcji, żeby się zorientować, że to jest zawsze, z konieczności, *sekwencja
+działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu zadań**
+*składających się na* na przykład zrobienie sobie rano kawy. Jak każde bez wyjątku zachowanie.
+*Zadań* takich takich jak *wystarczająco skuteczne* - po wcześniejszym *zaprogramowaniu się, żeby
+wykonać to zadanie* - wstanie z łóżka, być może *wystarczająco skuteczne* ubranie się, dotarcie do
+ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka programowania, to
+jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo stworzyliśmy i którymi
+jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych sytuacjach kluczowe są *cele*,
+możliwe *sposoby ich przybliżania*, a także *warunki konieczne i wystarczające* ich osiągnięcia.
+Wszystko to ma charakter zarazem matematyczny i programistyczny. I zarówno matematyka jak i
+programowanie powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju sprawami lepiej *radzić* i
+żebyśmy mogli je lepiej *rozumieć*.
+
+Czy nie jest tak, że dosłownie *wszystko*, czym zajmują się matematycy i informatycy, należy
+automatycznie do przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś,
+czym zajmują się ludzie*? W dodatku w drugą stronę to nie działa, bo chociaż matematycy i
+informatycy robią to co robią dlatego, że starają się realizować pewne cele, które możemy określić
+ogólnie jako *badanie logicznych albo fizycznych konsekwencji reguł*, to jednak działanie celowe
+jako takie *nie* jest centralnym przedmiotem zainteresowania matematyki czy informatyki. Mówiąc
+inaczej, ani matematycy *jako matematycy* ani informatycy *jako informatycy* nie badają ani własnego
+zachowania, ani w ogóle jakiekogolwiek zachowania *jako zachowania*. Działanie celowe nie jest też
+przedmiotem zainteresowania fizyki czy chemii.
+
+Działanie celowe, to znaczy *działanie podlegające ocenie pod względem poprawności albo
+skuteczności*, czyli po prostu *zachowanie*, a w przypadku *podmiotów* takich jak ludzie i inne
+zwierzęta również *zachowywanie Się*, jest za to centralnym przedmiotem zainteresowania
+*psychologii* i [*sztucznej inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
+Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
+tego, że psychologia dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w
+sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych
+dostępnych narzędzi rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z
+tych rzeczy, które robią ludzie.
+
+Według mnie wynika stąd logicznie, że psychologowie *mogą* je opanować i ostatecznie *muszą* je
+opanować, jeżeli nie chcą się dalej wygłupiać udając nieudolnie *prawdziwych* naukowców. Dlatego
+*moim celem* jest *udowodnienie*, zarówno sobie jak i Tobie, za pomocą *programu*, którym jest ta
+książka, że to może być czasami dość *przyjemne* a nawet może budzić *zachwyt*, i że opanowanie
+podstaw używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi poznawania i kontroli
+wymaga ostatecznie tylko *czasu*.
 
 <hr>
 
