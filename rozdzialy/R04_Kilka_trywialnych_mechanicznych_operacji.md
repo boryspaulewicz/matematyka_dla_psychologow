@@ -561,7 +561,7 @@ centralnym przedmiotem zainteresowania *psychologii* i [*sztucznej
 inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 
 Zapytasz może, co ze sztuką? Albo duchowością? Chcesz wiedzieć, co moim zdaniem sztuka i duchowość
-mają wspólnego z programowaniem, matematyką, i celowością? No to zacznijmy od sztuki, najpierw
+mają wspólnego z programowaniem, matematyką i celowością? No to zacznijmy od sztuki, najpierw
 próbując przybliżyć jakąś jej użyteczną definicję. Wystarczy nam znośne przybliżenie, bo dla celów
 tych rozważań żadna ostateczna czy uniwersalna definicja sztuki nie będzie nam potrzebna.
 
@@ -574,7 +574,7 @@ nas *ważne* i *znaczące*, choć zwykle *trudno powiedzieć co lub jak znacząc
 
 Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *się powtarzają*? Moim zdaniem
 dlatego, że po prostu muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
-tajemnicze, i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu prób i błędów*. To
+tajemnicze i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu prób i błędów*. To
 zatem też proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
 *powiedzieć* czego. No a o duchowości jeszcze sobie pogadamy.
 
