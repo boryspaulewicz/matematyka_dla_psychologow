@@ -516,13 +516,15 @@ pewnego rodzaju - w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każd
 takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego
 stopnia*, logiczne albo racjonalne, a mówiąc ogólnie ... konsekwentne.
 
-No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką i psychologią? Na czym
-niby polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie samych i siebie
-nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się *dostatecznie
-konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również do reguł *logicznych*? Taka dajmy
-na to terapia poznawczo-behawioralna polega przecież przede wszystkim na *wspólnym rozwiązywaniu
-problemów dotyczących zachowania przez twórcze rozumowanie*. A czytanie tego tekstu? Albo robienie
-sobie rano kawy?
+No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką (i informatyką) a
+psychologią? Na czym niby polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie
+samych i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się
+*dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również do reguł
+*logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież przede wszystkim na
+*wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie*. A czytanie tego
+tekstu? Albo robienie sobie rano kawy? 
+
+*Co jest w tych wszystkich działaniach najważniejsze?*
 
 Wystarczy odrobina introspekcji, żeby się zorientować, że to jest zawsze, z konieczności, *sekwencja
 działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu zadań
