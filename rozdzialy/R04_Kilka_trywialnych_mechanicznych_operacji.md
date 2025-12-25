@@ -514,7 +514,7 @@ czystym) językiem programowania, to poznając go i posługując się nim będzi
 widzieć, w jaki sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest
 pewnego rodzaju - w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
 takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego
-stopnia*, logiczne albo racjonalne, a mówiąc ogólnie ... konsekwentne.
+stopnia*, logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*.
 
 No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką (i informatyką) a
 psychologią? Na czym niby polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie
