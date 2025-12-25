@@ -549,13 +549,14 @@ przedmiotem zainteresowania fizyki czy chemii.
 
 Działanie celowe, to znaczy *działanie podlegające ocenie pod względem poprawności albo
 skuteczności*, czyli po prostu *zachowanie*, a w przypadku *podmiotów* takich jak ludzie i inne
-zwierzęta również *zachowywanie Się* (tak tak), jest za to centralnym przedmiotem zainteresowania
-*psychologii* i [*sztucznej inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
-Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
-tego, że psychologia dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w
-sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych
-dostępnych narzędzi rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z
-tych rzeczy, które robią ludzie.
+zwierzęta, a także niektóre systemy sztuczne, również *zachowywanie Się* (tak tak), jest za to
+centralnym przedmiotem zainteresowania *psychologii* i [*sztucznej
+inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie). Niestety, zdecydowana
+większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo tego, że psychologia
+dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w sposób zdystansowany
+i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych dostępnych narzędzi
+rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z tych rzeczy, które
+robią ludzie.
 
 Według mnie wynika stąd logicznie i fizycznie, że psychologowie *mogą* je opanować, i wynika też
 stąd moralnie, że ostatecznie *muszą* je opanować, to jest jeżeli nie chcą się dalej wygłupiać
