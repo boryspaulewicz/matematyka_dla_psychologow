@@ -427,8 +427,8 @@ aby ze zdania *p(b|a) \* p(a) = p(b, a)* uzyskać zdanie:
 *p(b, a) = p(b|a) \* p(a)*
 
 Uzyskaliśmy w ten sposób, jako konsekwencje, a dokładniej jako fizyczne skutki wspólnej akceptacji
-pewnych wcześniejszych reguł i wynikająego stąd naszego wspólnego stosowania się do nich,
-następujące wyrażenia (będące zdaniami):
+pewnych wcześniejszych reguł i wynikającego stąd naszego wspólnego *zastosowania Się* (tak tak) do
+nich, następujące wyrażenia (będące zdaniami):
 
 *p(a|b) \* p(b) = p(a, b)*
 
