@@ -481,7 +481,8 @@ konsekwencję wystąpienia czegoś, co pasuje do wzorca zapisanego w nawiasach p
 
 Stosowanie reguł moglibyśmy wtedy zapisywać tak:
 
-Niech *a* i *b* to *zdarzenia*. Wtedy R1(*a*, *b*) daje (rezultat typu) *p(a, b) = p(b, a)*.
+Niech *a* i *b* to *zdarzenia*. Wtedy *R1(a, b)*, czyli zastosowanie reguły *R1* do argumentów *a* i
+*b*, daje rezultat (typu) *p(a, b) = p(b, a)*.
 
 Albo już całkiem formalnie, oznaczając kontekst za pomocą nawiasów kwadratowych, a typowanie (o czym
 więcej później) za pomocą dwukropka:
