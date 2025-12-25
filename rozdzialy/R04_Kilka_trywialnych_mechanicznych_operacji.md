@@ -526,10 +526,10 @@ tekstu? Albo robienie sobie rano kawy?
 
 *Co jest w tych wszystkich działaniach najważniejsze?*
 
-Wystarczy odrobina introspekcji, żeby się zorientować, że to jest zawsze, z konieczności, *sekwencja
-działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu zadań
-składających się na** (wykonywanie zadań), na przykład na zrobienie sobie rano kawy. Jak każde bez
-wyjątku zachowanie. *Zadań* takich takich jak *wystarczająco skuteczne* - po wcześniejszym
+Wystarczy odrobina *introspekcji*, żeby się zorientować, że to jest zawsze, z konieczności,
+*sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu
+zadań składających się na** (wykonywanie zadań), na przykład na zrobienie sobie rano kawy. Jak każde
+bez wyjątku zachowanie. *Zadań* takich takich jak *wystarczająco skuteczne* - po wcześniejszym
 *zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może *wystarczająco skuteczne* ubranie
 się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka
 programowania, to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo
