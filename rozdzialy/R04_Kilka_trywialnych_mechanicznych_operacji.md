@@ -502,13 +502,13 @@ I tak dalej. No więc będziemy robić podobne rzeczy, ale nie zawsze na kartce.
 Czy widzisz, że wprowadzając tego rodzaju jednoznaczne i sztywne konwencje językowe zaczynamy
 dosłownie tworzyć nowy, *wspólny język programowania samych siebie i siebie nawzajem*? W dodatku
 tworzymy w ten sposób język, którego użyteczność wcale nie ogranicza się do liczb czy innych
-abstrakcyjnych obiektów, które mogą nam się kojarzyć z tym, co oficjalnie nazywamy matematyką; tego
+obiektów abstrakcyjnych, które mogą nam się kojarzyć z tym, co oficjalnie nazywamy matematyką; tego
 rodzaju język może służyć do *rozumowania na dowolny temat*, a także do *programowania czegokolwiek,
-co tylko jest programowalne*.
+co jest programowalne*.
 
-Ponieważ ten język jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
+Ponieważ jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
 wnioskowania*, ale również zapisywać *programy działania* - skonstruowane dla siebie, dla innych,
-lub po to, żeby wykonały je urządzenia - bo (jak się przekonasz w następnych rozdziałach) jest
+lub po to, żeby wykonywały je urządzenia - bo (jak się przekonasz w następnych rozdziałach) jest
 jednocześnie jednym z języków podstawowych całej matematyki i pełnowartościowym (funkcyjnym i
 czystym) językiem programowania, to poznając go i posługując się nim będziemy w stanie coraz lepiej
 widzieć, w jaki sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest
@@ -517,11 +517,12 @@ takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeni
 stopnia*, logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*.
 
 No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką (i informatyką) a
-psychologią? Na czym niby polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie
-samych i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się
-*dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również do reguł
-*logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież przede wszystkim na
-*wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie i dialog*.
+psychologią? Na czym polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie samych
+i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się, w trakcie
+spotkania i poza nim, *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również
+do reguł *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież przede
+wszystkim na *wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie i
+dialog*.
 
 Nawet gdy terapeutka podejmuje temat na przykład reakcji emocjonalnych, które czasami trudno jest
 postrzegać jako działania celowe, robi to przede wszystkim przyglądając się ich *adekwatności* i
