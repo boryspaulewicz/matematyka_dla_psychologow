@@ -134,10 +134,11 @@ czegoś, dosłownie czegokolwiek, możemy *używać jak przepisu*, to to coś po
 przepisem. A jeśli coś jest przepisem, to znaczy, że można tego czegoś używać jako przepisu.
 
 Przepis jako taki i sposób używania go to zatem *to samo pojęcie oglądane z dwóch stron*, które
-można by nazwać obiektową albo materialną (i to jest *fizyczny zapis* ...) i funkcjonalną albo
-użytkową (... a to jest jego *sens*). Nie ma przepisów (będących sposobami ich używania) bez
-przynajmniej potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu. Za to
-podmioty (również te hipotetyczne), istnieją niezależnie od tego, czy używają przepisów.
+można by nazwać obiektową albo materialną (to *fizyczny zapis*, ...) i funkcjonalną albo użytkową
+(... a to jest jego *sens*). Nie ma przepisów (będących sposobami ich używania) bez przynajmniej
+potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu. Za to podmioty
+(również te hipotetyczne), istnieją (jeśli hipotetycznie, to aksjomatycznie) niezależnie od tego,
+czy używają przepisów.
 
 Czy w takim razie matematyka (i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ)) nie
 są przypadkiem *subdyscyplinami psychologii*?  
@@ -151,13 +152,13 @@ innymi "języka liczbowego", a nie jak go faktycznie używamy.
 No dobrze, ale zawsze, gdy faktycznie - nieuchronnie popełniając czasem błędy - myślimy o liczbach,
 nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to znaczy właśnie
 myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. To, że popełniamy przy tym
-czasem błędy, nie zmienia faktu, że to są właśnie ... *błędy*. Faktyczna myśl albo wypowiedź na
-temat liczb w ogóle *może* być błędna tylko dlatego, że jest *nierozerwalnie związana z pewnym
-ideałem logicznej poprawności*, który taka faktyczna myśl albo wypowiedź lepiej lub gorzej
-*fizycznie przybliża*. Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie* lub
-*nieoptymalnie* tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami,
-przynajmniej jako *teoretyczna możliwość*, poprawny albo w pewnym sensie optymalny sposób kupowania
-chleba czy wiązania sznurowadeł.
+czasem błędy, nie zmienia faktu, że to są właśnie *błędy*. Faktyczna myśl albo wypowiedź na temat
+liczb w ogóle *może* być błędna tylko dlatego, że jest *nierozerwalnie związana z pewnym ideałem
+logicznej poprawności*, który taka faktyczna myśl albo wypowiedź lepiej lub gorzej *fizycznie
+przybliża*. Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie* lub *nieoptymalnie*
+tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami, przynajmniej jako
+*teoretyczna możliwość*, poprawny albo w pewnym sensie optymalny sposób kupowania chleba czy
+wiązania sznurowadeł.
 
 I to jest cecha wszystkich bez wyjątku *działań celowych* po prostu dlatego, że każde działanie
 celowe - również nieskuteczne, błędne czy nieoptymalne działanie celowe - *jest określone przez
@@ -493,6 +494,8 @@ więcej później) za pomocą dwukropka:
 *R2(b, a) : p(b|a) \* p(a)*
 
 I tak dalej. No więc będziemy robić podobne rzeczy, ale nie zawsze na kartce.
+
+## Dlaczego i po co
 
 Czy widzisz, że wprowadzając tego rodzaju jednoznaczne i sztywne konwencje językowe zaczynamy
 dosłownie tworzyć nowy, *wspólny język programowania samych siebie i siebie nawzajem*? W dodatku
