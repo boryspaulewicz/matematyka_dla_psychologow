@@ -558,10 +558,11 @@ tych rzeczy, które robią ludzie.
 
 Według mnie wynika stąd logicznie i fizycznie, że psychologowie *mogą* je opanować, i wynika też
 stąd moralnie, że ostatecznie *muszą* je opanować, to jest jeżeli nie chcą się dalej wygłupiać
-udając nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* jest *udowodnienie*, zarówno sobie
-jak i Tobie, za pomocą *programu*, którym jest ta książka, że to może być czasami dość *przyjemne* a
-nawet może budzić *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej
-uniwersalnych narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
+udając nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest
+*fizyczne udowodnienie*, zarówno sobie jak i Tobie, za pomocą *programu*, którym jest ta książka, że
+to może być czasami dość *przyjemne*, a nawet może budzić *zachwyt*, i że opanowanie podstaw
+używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi służących do poznawania i
+kontroli wymaga ostatecznie tylko *czasu*.
 
 <hr>
 
