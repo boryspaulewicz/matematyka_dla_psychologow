@@ -543,12 +543,12 @@ informatycy robią to co robią dlatego, że starają się realizować pewne cel
 ogólnie jako *badanie logicznych albo fizycznych konsekwencji reguł*, to jednak działanie celowe
 jako takie *nie* jest centralnym przedmiotem zainteresowania matematyki czy informatyki. Mówiąc
 inaczej, ani matematycy *jako matematycy* ani informatycy *jako informatycy* nie badają ani własnego
-zachowania, ani w ogóle jakiekogolwiek zachowania *jako zachowania*. Działanie celowe nie jest też
+zachowania, ani w ogóle jakiegokolwiek zachowania *jako zachowania*. Działanie celowe nie jest też
 przedmiotem zainteresowania fizyki czy chemii.
 
 Działanie celowe, to znaczy *działanie podlegające ocenie pod względem poprawności albo
 skuteczności*, czyli po prostu *zachowanie*, a w przypadku *podmiotów* takich jak ludzie i inne
-zwierzęta również *zachowywanie Się*, jest za to centralnym przedmiotem zainteresowania
+zwierzęta również *zachowywanie Się* (tak tak), jest za to centralnym przedmiotem zainteresowania
 *psychologii* i [*sztucznej inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że psychologia dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w
@@ -556,12 +556,12 @@ sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzys
 dostępnych narzędzi rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z
 tych rzeczy, które robią ludzie.
 
-Według mnie wynika stąd logicznie, że psychologowie *mogą* je opanować i ostatecznie *muszą* je
-opanować, jeżeli nie chcą się dalej wygłupiać udając nieudolnie *prawdziwych* naukowców. Dlatego
-*moim celem* jest *udowodnienie*, zarówno sobie jak i Tobie, za pomocą *programu*, którym jest ta
-książka, że to może być czasami dość *przyjemne* a nawet może budzić *zachwyt*, i że opanowanie
-podstaw używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi poznawania i kontroli
-wymaga ostatecznie tylko *czasu*.
+Według mnie wynika stąd logicznie i fizycznie, że psychologowie *mogą* je opanować, i wynika też
+stąd moralnie, że ostatecznie *muszą* je opanować, to jest jeżeli nie chcą się dalej wygłupiać
+udając nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* jest *udowodnienie*, zarówno sobie
+jak i Tobie, za pomocą *programu*, którym jest ta książka, że to może być czasami dość *przyjemne* a
+nawet może budzić *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej
+uniwersalnych narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
 
 <hr>
 
