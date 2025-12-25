@@ -577,10 +577,11 @@ tych rzeczy, które robią ludzie.
 Według mnie wynika stąd *logicznie* i *fizycznie*, że psychologowie *mogą* je opanować, i wynika też
 stąd *moralnie*, że ostatecznie *powinni* je opanować, jeżeli nie chcą się dalej wygłupiać udając
 nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
-udowodnienie*, zarówno sobie jak i Tobie, za pomocą *programu*, którym jest ta książka, że to może
-być czasami dość *przyjemne*, a nawet, że może budzić *zachwyt*, i że opanowanie podstaw używania
-tych naszych najlepszych i najbardziej uniwersalnych narzędzi służących do poznawania i kontroli
-wymaga ostatecznie tylko *czasu*.
+udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
+[*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
+poprawianie tej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić *zachwyt*,
+i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi
+służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
 
 <hr>
 
