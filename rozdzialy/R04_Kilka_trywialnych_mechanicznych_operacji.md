@@ -583,6 +583,10 @@ poprawianie tej książki, że to może być czasami dość *przyjemne*, a nawet
 i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi
 służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
 
+<br>
+
+<br>
+
 <hr>
 
 ### Dygresja na temat różnicy między aksjomatami i zwykłymi definicjami
