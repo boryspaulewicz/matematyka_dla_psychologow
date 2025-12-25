@@ -535,15 +535,15 @@ terapeutycznym po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie so
 Wystarczy odrobina *introspekcji*, żeby się zorientować, że to jest zawsze, z konieczności,
 *sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu
 zadań składających się na** (wykonywanie zadań), na przykład na zrobienie sobie rano kawy. Jak każde
-bez wyjątku zachowanie. *Zadań* takich takich jak *wystarczająco skuteczne* - po wcześniejszym
-*zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może *wystarczająco skuteczne* ubranie
-się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka
-programowania, to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo
-stworzyliśmy i którymi jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych sytuacjach
-kluczowe są *cele*, możliwe *sposoby ich przybliżania*, a także *warunki konieczne i wystarczające*
-do ich osiągnięcia. Wszystko to ma charakter zarazem matematyczny i programistyczny. I zarówno
-matematyka jak i programowanie powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju sprawami
-lepiej *radzić* i żebyśmy mogli je lepiej *rozumieć*.
+bez wyjątku zachowanie. *Zadań* takich jak *wystarczająco skuteczne* - po wcześniejszym
+*zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może wystarczająco skuteczne ubranie
+się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka,
+to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo stworzyliśmy i
+którymi jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych sytuacjach kluczowe są
+*cele*, możliwe *sposoby ich przybliżania*, a także *warunki konieczne i wystarczające* do ich
+osiągnięcia. A wszystko to ma charakter matematyczny i programistyczny. I zarówno matematyka jak i
+programowanie powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju sprawami lepiej *radzić* i
+żebyśmy mogli je lepiej *rozumieć*.
 
 Czy nie jest tak, że dosłownie *wszystko*, czym zajmują się matematycy i informatycy, należy
 automatycznie do przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś,
@@ -569,11 +569,12 @@ tych rozważań żadna ostateczna czy uniwersalna definicja sztuki nie będzie n
 Zgodzisz się chyba, że sztuką nazywamy zwykle takie rzeczy, które są wyjątkowe co najmniej w tym
 znaczeniu, że są *trudne*; dlatego mamy na myśli to, co mamy, mówiąc "to nie żadna sztuka...". I
 *tajemnicze*, bo sztuka to nie technika ani technologia. Dlatego kiedy wiemy, w jaki dokładnie
-sposób ktoś uzyskał zamierzony efekt, jesteśmy przynajmniej do pewnego stopnia tą wiedzą
-*rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to coś musi być również dla
-nas *ważne* i *znaczące*, choć zwykle *trudno powiedzieć co lub jak znaczące*.
+sposób ktoś, kogo uważaliśmy wcześniej za artystę uzyskał zamierzony efekt, jesteśmy przynajmniej do
+pewnego stopnia tą wiedzą *rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to
+coś musi być również dla nas *ważne* i *znaczące*, choć zwykle *trudno powiedzieć co lub jak
+znaczące*.
 
-Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *się powtarzają*? Moim zdaniem
+Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *Się powtarzają*? Moim zdaniem
 dlatego, że po prostu muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
 tajemnicze i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu prób i błędów*. To
 zatem też proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
@@ -581,13 +582,13 @@ zatem też proces celowy, polegający na długotrwałym uczeniu się, choć - *z
 
 Gdyby tylko psychologowie poznawczy i nie tylko oni mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
-[*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane zresztą tylko
-niewielkiej garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, ponieważ
-*wystarczy, żeby adaptacja była wystarczająca*, a do tego nie trzeba żadnych *algorytmów*, za to
-znaczenie pierwszorzędne ma fakt, że komputery zostały *stworzone na podobieństwo ludzi* pod tym
-kluczowym dla całej psychologii względem, że są *dowolnie programowalne*. Można powiedzieć wręcz, że
-to jest centralna teza, z której wyrasta, którą wyraża, i którą ilustruje na różne sposoby ta
-książka:
+[*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane tylko niewielkiej
+garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, ponieważ *wystarczy,
+żeby adaptacja była wystarczająca*, a do tego nie trzeba żadnych *algorytmów* ani rozwiązań
+*optymalnych*, za to znaczenie pierwszorzędne ma fakt, że komputery zostały *stworzone na
+podobieństwo ludzi* pod tym kluczowym dla całej psychologii względem, że są *dowolnie
+programowalne*. Można powiedzieć wręcz, że to jest centralna teza, z której wyrasta, którą wyraża, i
+którą ilustruje na różne sposoby ta książka:
 
 *Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
 samych i siebie nawzajem*.
@@ -598,14 +599,14 @@ sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzys
 dostępnych narzędzi rozumowania (na dowolny temat). A przecież używanie tych narzędzi jest jedną z
 tych rzeczy, które robią ludzie.
 
-Według mnie wynika stąd *logicznie* i *fizycznie*, że psychologowie *mogą* te narzędzia opanować, i
-wynika też stąd *moralnie*, że ostatecznie *powinni* je opanować, jeżeli nie chcą się dalej
-wygłupiać udając nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie
-*obowiązkiem* jest *fizyczne udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
+Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *mogą* te narzędzia opanować,
+i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając nieudolnie
+*prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
+udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
-poprawianie tej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić *zachwyt*,
-i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi
-służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
+poprawianie tej osobliwej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić
+*zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
+narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
 
 <br>
 
