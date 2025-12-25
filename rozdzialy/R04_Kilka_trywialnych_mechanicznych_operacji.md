@@ -521,10 +521,13 @@ psychologią? Na czym niby polega na przykład terapia, jeżeli nie na wzajemnym
 samych i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się
 *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również do reguł
 *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież przede wszystkim na
-*wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie*. Nawet gdy
-terapeutka podejmuje temat na przykład reakcji emocjonalnych, które często trudno postrzegać jako
-działania celowe, robi to przede wszystkim przyglądając się ich *adekwatności* i *adaptacyjności*. A
-czytanie tego tekstu? Albo robienie sobie rano kawy? 
+*wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie i dialog*.
+
+Nawet gdy terapeutka podejmuje temat na przykład reakcji emocjonalnych, które czasami trudno jest
+postrzegać jako działania celowe, robi to przede wszystkim przyglądając się ich *adekwatności* i
+*adaptacyjności*. *Empatia* w terapii jest ważnym, ale mimo wszystko tylko *źródłem danych*
+dotyczących zachowania; empatia bez zdolności rozumowania na temat zachowania byłaby w procesie
+terapeutycznym po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie sobie rano kawy?
 
 *Co jest w tych wszystkich zjawiskach* **jako takich** *najważniejsze?*
 
@@ -557,13 +560,33 @@ zwierzęta, a także niektóre systemy sztuczne, również *zachowywanie Się* (
 centralnym przedmiotem zainteresowania *psychologii* i [*sztucznej
 inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 
+Zapytasz może, co ze sztuką? Albo duchowością? Chcesz wiedzieć, co moim zdaniem sztuka i duchowość
+mają wspólnego z programowaniem, matematyką, i celowością? No to zacznijmy od sztuki, najpierw
+próbując przybliżyć jakąś jej użyteczną definicję. Wystarczy nam znośne przybliżenie, bo dla celów
+tych rozważań żadna ostateczna czy uniwersalna definicja sztuki nie będzie nam potrzebna.
+
+Zgodzisz się chyba, że sztuką nazywamy zwykle takie rzeczy, które są wyjątkowe co najmniej w tym
+znaczeniu, że są *trudne*; dlatego mamy na myśli to, co mamy, mówiąc "to nie żadna sztuka...". I
+*tajemnicze*, bo sztuka to nie technika ani technologia. Dlatego kiedy wiemy, w jaki dokładnie
+sposób ktoś uzyskał zamierzony efekt, jesteśmy przynajmniej do pewnego stopnia tą wiedzą
+*rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to coś musi być również dla
+nas *ważne* i *znaczące*, choć zwykle *trudno powiedzieć co lub jak znaczące*.
+
+Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *się powtarzają*? Moim zdaniem
+dlatego, że po prostu muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
+tajemnicze, i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu prób i błędów*. To
+zatem też proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
+*powiedzieć* czego. No a o duchowości jeszcze sobie pogadamy.
+
 Gdyby tylko psychologowie poznawczy i nie tylko oni mówiąc, że "umysł jest jak komputer", wiedzieli
-trochę lepiej, co to sformułowanie *może* znaczyć. Że na przykład pojęcie
+trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
 [*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane zresztą tylko
-niewielkiej garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, za to
+niewielkiej garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, ponieważ
+*wystarczy, żeby adaptacja była wystarczająca*, a do tego nie trzeba żadnych *algorytmów*, za to
 znaczenie pierwszorzędne ma fakt, że komputery zostały *stworzone na podobieństwo ludzi* pod tym
-kluczowym dla całej psychologii względem, że są *programowalne*. Można powiedzieć wręcz, że to jest
-centralna teza, z której wyrasta, którą wyraża, i którą ilustruje na różne sposoby ta książka:
+kluczowym dla całej psychologii względem, że są *dowolnie programowalne*. Można powiedzieć wręcz, że
+to jest centralna teza, z której wyrasta, którą wyraża, i którą ilustruje na różne sposoby ta
+książka:
 
 *Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
 samych i siebie nawzajem*.
@@ -571,13 +594,13 @@ samych i siebie nawzajem*.
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że psychologia dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w
 sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych
-dostępnych narzędzi rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z
+dostępnych narzędzi rozumowania (na dowolny temat). A przecież używanie tych narzędzi jest jedną z
 tych rzeczy, które robią ludzie.
 
-Według mnie wynika stąd *logicznie* i *fizycznie*, że psychologowie *mogą* je opanować, i wynika też
-stąd *moralnie*, że ostatecznie *powinni* je opanować, jeżeli nie chcą się dalej wygłupiać udając
-nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
-udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
+Według mnie wynika stąd *logicznie* i *fizycznie*, że psychologowie *mogą* te narzędzia opanować, i
+wynika też stąd *moralnie*, że ostatecznie *powinni* je opanować, jeżeli nie chcą się dalej
+wygłupiać udając nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie
+*obowiązkiem* jest *fizyczne udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
 poprawianie tej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić *zachwyt*,
 i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi
