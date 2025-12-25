@@ -521,10 +521,12 @@ psychologią? Na czym niby polega na przykład terapia, jeżeli nie na wzajemnym
 samych i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się
 *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również do reguł
 *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież przede wszystkim na
-*wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie*. A czytanie tego
-tekstu? Albo robienie sobie rano kawy? 
+*wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie*. Nawet gdy
+terapeutka podejmuje temat na przykład reakcji emocjonalnych, które często trudno postrzegać jako
+działania celowe, robi to przede wszystkim przyglądając się ich *adekwatności* i *adaptacyjności*. A
+czytanie tego tekstu? Albo robienie sobie rano kawy? 
 
-*Co jest w tych wszystkich działaniach najważniejsze?*
+*Co jest w tych wszystkich zjawiskach* **jako takich** *najważniejsze?*
 
 Wystarczy odrobina *introspekcji*, żeby się zorientować, że to jest zawsze, z konieczności,
 *sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu
@@ -553,20 +555,32 @@ Działanie celowe, to znaczy *działanie podlegające ocenie pod względem popra
 skuteczności*, czyli po prostu *zachowanie*, a w przypadku *podmiotów* takich jak ludzie i inne
 zwierzęta, a także niektóre systemy sztuczne, również *zachowywanie Się* (tak tak), jest za to
 centralnym przedmiotem zainteresowania *psychologii* i [*sztucznej
-inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie). Niestety, zdecydowana
-większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo tego, że psychologia
-dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w sposób zdystansowany
-i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych dostępnych narzędzi
-rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z tych rzeczy, które
-robią ludzie.
+inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 
-Według mnie wynika stąd logicznie i fizycznie, że psychologowie *mogą* je opanować, i wynika też
-stąd moralnie, że ostatecznie *muszą* je opanować, to jest jeżeli nie chcą się dalej wygłupiać
-udając nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest
-*fizyczne udowodnienie*, zarówno sobie jak i Tobie, za pomocą *programu*, którym jest ta książka, że
-to może być czasami dość *przyjemne*, a nawet może budzić *zachwyt*, i że opanowanie podstaw
-używania tych naszych najlepszych i najbardziej uniwersalnych narzędzi służących do poznawania i
-kontroli wymaga ostatecznie tylko *czasu*.
+Gdyby tylko psychologowie poznawczy i nie tylko oni mówiąc, że "umysł jest jak komputer", wiedzieli
+trochę lepiej, co to sformułowanie *może* znaczyć. Że na przykład pojęcie
+[*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane tylko niewielkiej
+garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, za to znaczenie
+pierwszorzędne ma fakt, że komputery zostały stworzone na podobieństwo ludzi pod tym względem, że są
+*programowalne*. Można powiedzieć wręcz, że to jest centralna teza, z której wyrasta, którą wyraża,
+i którą ilustruje na różne sposoby ta książka:
+
+*Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
+samych i siebie nawzajem*.
+
+Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
+tego, że psychologia dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w
+sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych
+dostępnych narzędzi rozumowania na dowolny temat. A przecież używanie tych narzędzi jest jedną z
+tych rzeczy, które robią ludzie.
+
+Według mnie wynika stąd *logicznie* i *fizycznie*, że psychologowie *mogą* je opanować, i wynika też
+stąd *moralnie*, że ostatecznie *powinni* je opanować, jeżeli nie chcą się dalej wygłupiać udając
+nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
+udowodnienie*, zarówno sobie jak i Tobie, za pomocą *programu*, którym jest ta książka, że to może
+być czasami dość *przyjemne*, a nawet, że może budzić *zachwyt*, i że opanowanie podstaw używania
+tych naszych najlepszych i najbardziej uniwersalnych narzędzi służących do poznawania i kontroli
+wymaga ostatecznie tylko *czasu*.
 
 <hr>
 
