@@ -606,7 +606,7 @@ udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
 poprawianie tej osobliwej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
-narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko *czasu*.
+narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko **czasu**.
 
 <br>
 
