@@ -453,7 +453,7 @@ I tutaj tym razem się zatrzymamy. Co tu się właściwie dzieje?
 
 Pisząc to wszystko zakładałem, że oboje jesteśmy (wystarczająco) kompetentnymi użytkownikami języka
 polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się (praktycznie) tak samo jak ja, a
-nawet gdybyśmy pewnych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
+nawet gdybyśmy niektórych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
 
 Dotyczy to między innymi zdań o postaci *jeżeli ... to ...*. Taka *warunkowa struktura* jest
 *ogólnym wzorcem* wszystkich możliwych *reguł językowych*. Każda taka reguła ma jakieś, być może
