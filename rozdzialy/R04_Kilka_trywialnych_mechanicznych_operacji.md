@@ -528,7 +528,7 @@ widzieć, w jaki sposób każde *rozumowanie* jest pewnego rodzaju *działaniem 
 pewnego rodzaju - w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
 takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego
 stopnia*, logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie
-byłoby tego rodzaju zachowaniem*.
+byłoby zachowaniem danego rodzaju*.
 
 No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką (i informatyką) a
 psychologią? Na czym polega na przykład *terapia*, jeżeli nie na wzajemnym programowaniu siebie
@@ -587,7 +587,7 @@ znaczeniu, że są *trudne*; dlatego mamy na myśli to, co mamy, mówiąc "to ni
 sposób ktoś, kogo uważaliśmy wcześniej za artystę, uzyskał zamierzony efekt, jesteśmy przynajmniej
 do pewnego stopnia tą wiedzą *rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S,
 to coś musi być również dla nas *ważne* i *znaczące*, choć zwykle (a może w przypadku Sztuki wręcz
-zawsze?) *trudno powiedzieć co lub jak znaczące*.
+zawsze?) *trudno powiedzieć, co lub jak znaczące*.
 
 Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *Się powtarzają*? Moim zdaniem
 dlatego, że muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
@@ -617,13 +617,14 @@ programowania; brakuje w niej tylko *jednego* składnika.
 
 Żeby jakiś proces był procesem robienia sobie kawy, musi być, nawet jeżeli tylko przez chwilę i
 tylko do pewnego stopnia, *wystarczająco skutecznym wykonaniem pewnego zadania w normalnych
-warunkach*. W dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy w
-przybliżeniu racjonalnej perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sobie kawy
-tym, czym jest*. Każde zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i biologicznym,
-ale zachowanie *jako takie* jest przede wszystkim - błędnym, tylko częściowo spójnym i nie całkiem
-lub nie zawsze konwekwentnym, ale wciąż *przede wszystkim* - działaniem celowym, a zatem również
-logicznym, matematycznym i programistycznym. Bo jest *wystarczająco skutecznym lub przybliżonym
-wykonywaniem pewnego zadania lub zadań polegającym na stosowaniu Się do określonych reguł*. 
+warunkach*. W dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy
+racjonalnej perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sobie kawy tym, czym
+jest*. Każde zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i biologicznym, ale
+zachowanie *jako takie* jest przede wszystkim - nierzadko błędnym, tylko częściowo spójnym, i nie
+całkiem albo nie zawsze konwekwentnym, ale wciąż *przede wszystkim* - działaniem celowym, a zatem
+również logicznym, matematycznym i programistycznym. Bo jest *wystarczająco skutecznym lub
+przybliżonym wykonywaniem pewnego zadania lub zadań polegającym na stosowaniu Się do określonych
+reguł*. 
 
 Gdyby tylko psychologowie poznawczy i nie tylko oni, mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
@@ -659,7 +660,7 @@ poprawianie tej osobliwej książki, że to może być czasami dość *przyjemne
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
 narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko **czasu**.
 
-Jak już na pewno zauważyłaś, czasami mnie przy tym ponosi.
+Czasami mnie przy tym ponosi.
 
 <br>
 
