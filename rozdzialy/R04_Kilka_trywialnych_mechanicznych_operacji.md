@@ -595,17 +595,48 @@ tajemnicze i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu 
 zatem proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
 *powiedzieć* czego. No a o duchowości jeszcze sobie pogadamy.
 
+No więc akt czy proces robienia sobie rano kawy ma oczywiście aspekt fizyczny, chemiczny i
+biologiczny. Gdy jednak opisujemy robienie sobie kawy z tych perspektyw, *natychmiast tracimy z
+oczu*
+- a raczej z opisu - *charakter tego procesu*. Dotyczy to również opisu wszelkich procesów
+*neuronalnych*, które się wtedy rozgrywają, ponieważ bycie procesem celowym jest własnością, która
+nie istnieje bez jakiejś, być może zewnętrznej - i wtedy istnieje tylko (i aż) z perspektywy
+zewnętrznego obserwatora - *oceny*, takiej jak ocena pod względem poprawności, logiczności,
+racjonalności, skuteczności, czy optymalności. Ale to nie jest tylko *warunek konieczny*, bo również
+*wystarczy*, że opiszemy jakieś zjawisko czy proces fizyczny w sposób ocenny, żeby natychmiast
+pojawiła się celowość, niezależnie od tego, czy to zjawisko będzie miało charakter biologiczny, czy
+nie, albo czy będzie działało dzięki procesom neuronalnym.
+
+I to, że ten sam proces możemy opisać z tych różnych perspektyw jest *matematyzowalne* - szczególnie
+dobrze nadaje się do tego teoria kategorii - po prostu dlatego, że możemy o tych sprawach mówić i
+myśleć jasno i konsekwentnie. A to, że kluczową rolę odgrywa w tym wszystkim ocena można wyrazić
+wprost formalnie za pomocą pojęcia relacji porządku. Wreszcie to, że to jest zarazem proces fizyczny
+i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym przypadku tylko
+*fizycznie przybliżana*, w zasadzie niemal już zostało sformalizowane, bo to jest *prawie*
+współczesna matematyczna teoria przyczynowości, która jest jednocześnie pewnego rodzaju teorią
+programowania; brakuje w niej tylko *jednego* składnika.
+
+Żeby jakiś proces był procesem robienia sobie kawy, musi być, nawet jeżeli tylko przez chwilę i
+tylko do pewnego stopnia, *wystarczająco skutecznym wykonaniem pewnego zadania w normalnych
+warunkach*. W dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy w
+przybliżeniu racjonalnej perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sobie kawy
+tym, czym jest*. Każde zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i biologicznym,
+ale zachowanie *jako takie* jest przede wszystkim - błędnym, tylko częściowo spójnym i nie całkiem
+lub nie zawsze konwekwentnym, ale wciąż *przede wszystkim* - działaniem celowym, a zatem również
+logicznym, matematycznym i programistycznym. Bo jest *wystarczająco skutecznym lub przybliżonym
+wykonywaniem pewnego zadania lub zadań polegającym na stosowaniu Się do określonych reguł*. 
+
 Gdyby tylko psychologowie poznawczy i nie tylko oni, mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
 [*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane tylko niewielkiej
 garstce psychologów (bo to jest termin techniczny matematyki), choć ważne, ma dla psychologii
 znaczenie *drugorzędne*, ponieważ *wystarczy, żeby adaptacja była wystarczająca*, a do tego nie
-trzeba żadnych *algorytmów* ani rozwiązań *optymalnych*, za to znaczenie pierwszorzędne ma fakt, że
+trzeba *algorytmów* ani rozwiązań *optymalnych*, za to znaczenie pierwszorzędne ma fakt, że
 komputery zostały *stworzone na podobieństwo ludzi* pod tym kluczowym dla całej psychologii
 względem, że są *wystarczająco skutecznie niemal dowolnie programowalne*.
 
-Można powiedzieć, że to jest *centralna teza*, z której wyrasta, którą wyraża, i którą ilustruje na
-różne sposoby ta książka:
+Można wręcz powiedzieć, że to jest *centralna teza*, z której wyrasta, którą wyraża, i którą
+ilustruje na różne sposoby ta książka:
 
 <hr>
 
@@ -616,19 +647,21 @@ samych i siebie nawzajem**.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
-w sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z naszych
-najlepszych narzędzi rozumowania (na dowolny temat). W dodatku psychologowie mają (więcej niż) *dwa*
-dobre powody, żeby się z nimi zapoznać, bo używanie tych narzędzi jest jedną z tych rzeczy, które
-robią ludzie. 
+w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
+- prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na dowolny
+temat). W dodatku psychologowie mają (więcej niż) *dwa* dobre powody, żeby się z nimi zapoznać, bo
+używanie tych narzędzi jest jedną z tych rzeczy, które robią ludzie. 
 
-Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *mogą* te narzędzia opanować,
-i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając nieudolnie
-*prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
+Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *faktycznie mogą* te narzędzia
+opanować, i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając
+nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
 udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
 poprawianie tej osobliwej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
 narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko **czasu**.
+
+Jak już na pewno zauważyłaś, czasami mnie przy tym ponosi.
 
 <br>
 
