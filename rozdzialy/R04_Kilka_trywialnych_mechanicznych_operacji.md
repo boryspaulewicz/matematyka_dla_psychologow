@@ -607,8 +607,8 @@ względem, że są *wystarczająco skutecznie niemal dowolnie programowalne*.
 Można powiedzieć, że to jest centralna teza, z której wyrasta, którą wyraża, i którą ilustruje na
 różne sposoby ta książka:
 
-*Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
-samych i siebie nawzajem*.
+**Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
+samych i siebie nawzajem**.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
