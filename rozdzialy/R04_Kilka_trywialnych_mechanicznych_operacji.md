@@ -353,24 +353,24 @@ zdania *istnieje*.
 
 Przeprowadzimy ten sam dowód jeszcze raz, ale nieco inaczej. Byłoby wspaniale, gdybyś nie czytała
 tego fragmentu zanim nie przeprowadzisz dowodu według poprzednich wskazówek, z dwóch powodów. Po
-pierwsze, chciałbym, żebyś mogła możliwie najwyraźniej poczuć różnicę między przeprowadzeniem tego
+pierwsze, chciałbym, żebyś mogła dzięki temu lepiej poczuć różnicę między przeprowadzeniem tego
 samego dowodu w sposób (jak wcześniej) mniej lub (jak teraz) bardziej *jawny*. A po drugie,
 chciałbym, żebyś poczuła, że robiąc coś po raz kolejny po krótkiej przerwie możesz doświadczyć
-(przyjemnego?) wzrostu płynności działania i zacząć postrzegać te same czynności i ich rezultaty
-jakby trochę bardziej "z góry", to znaczy z *meta*poziomu.
+(przyjemnego?) wzrostu płynności działania i z większą łatwością postrzegać te same czynności i ich
+rezultaty z *meta*poziomu.
 
-Zamiast o aksjomatach, definicjach, czy twierdzeniach będziemy teraz mówić ogólnie o jakichkolwiek
-*regułach*, żeby w ten sposób podkreślić fakt, że w praktyce dowodzenia, a mówiąc ogólniej w
-praktyce tworzenia i korzystania z matematyki teoretycznej, podobnie zresztą jak *we wszelkiego
-rodzaju rozumowaniach*, aksjomaty, definicje i twierdzenia pełnią jedną i tą samą ogólną rolę, tylko
-w nieco inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia lub przekształcania wyrażeń*.
+Zamiast o aksjomatach, definicjach, czy twierdzeniach będziemy nadal mówić ogólnie o jakichkolwiek
+*regułach*, żeby w ten sposób podkreślić, że w praktyce dowodzenia, a mówiąc ogólniej w praktyce
+tworzenia i korzystania z matematyki teoretycznej, podobnie zresztą jak *we wszelkiego rodzaju
+rozumowaniach*, aksjomaty, definicje i twierdzenia pełnią jedną i tą samą ogólną rolę, tylko w nieco
+inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia wyrażeń*.
 
 Będziemy się powtarzać, żeby nie trzeba było ciągle albo pamiętać, albo szukać informacji mówiących
 o tym, jakie są *warunki stosowalności* tych reguł, tylko żeby to było można zawsze łatwo *zobaczyć
-w samym tekście*. Dzięki temu będziemy mogli stosować te reguły jeszcze bardziej *bezmyślnie*, co
-nas odciąży poznawczo i zmniejszy ryzyko błędu niemal do zera. Ale jest też głębszy powód - w ten
-sposób będziemy mogli *zobaczyć jako jawnie zapisane w tekście coś, co wcześniej niejawnie działało
-w nas*, a mówiąc dokładniej co *staraliśmy się przybliżać*.
+w tekście*. Dzięki temu będziemy mogli stosować te reguły jeszcze bardziej *bezmyślnie*, co nas
+odciąży poznawczo i zmniejszy ryzyko błędu niemal do zera. Ale jest też głębszy powód - w ten sposób
+będziemy mogli *zobaczyć jako jawnie zapisane w tekście coś, co wcześniej niejawnie działało w nas*,
+a mówiąc dokładniej co *pamiętaliśmy lub wyobrażaliśmy sobie i staraliśmy się przybliżać*.
 
 Reguła 1. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
 
@@ -388,47 +388,51 @@ samego pojawienia się prowadzących do nich założeń czy konwencji). Żeby wn
 wyprowadzony* z jakiś reguł, trzeba te reguły *zastosować*, i jakiekolwiek *stosowanie reguł* musi
 być z konieczności (między innymi) procesem *fizycznym*. A więc logiczne czy pojęciowe czy językowe
 czy formalne - jak zwał, tak zwał - konsekwencje reguł to również pewnego rodzaju *skutki*, tyle, że
-to są fizyczne skutki *działania zgodnego z tymi regułami*.
+to są fizyczne skutki *działania zgodnego z tymi regułami*. Będziemy korzystać z tej wieloznaczności
+słowa "konsekwencja", żeby zobaczyć pewne głębokie podobieństwa.
 
-Korzystając z dwóch zapisanych wyżej reguł skonstruujemy teraz nowe stosunkowo samowystarczalne
+Korzystając z dwóch zapisanych wyżej reguł skonstruujemy teraz nowe, stosunkowo samowystarczalne
 narzędzie językowe, które będzie regułą (albo zasadą, wzorcem, procesem, czy twierdzeniem - jak
 zwał, tak zwał) będącą ich (nieuchronną) konsekwencją. To będzie nieuchronna konsekwencja w tym
 znaczeniu, że *nie da się, poprawnie stosując zasady języka polskiego, stosować obydwie reguły i
 odrzucić tą nową regułę*. Inaczej mówiąc, *nie istnieje zachowanie* polegające na akceptacji dwóch
-pierwszych reguł i odrzuceniu tej nowej, trzeciej. Za to istnieje, o czym przekonasz się za chwilę
-doświadczalnie, albo co udowodnię Ci zaraz fizycznie, zachowanie polegające na akceptacji wszystkich
-trzech. 
+pierwszych reguł i odrzuceniu tej nowej, trzeciej. Można oczywiście *zadeklarować*, że zaakceptowało
+się pierwsze dwie reguły i odrzuciło tą trzecią, ale takie deklaracje byłyby *puste* i nie
+składałyby się na *faktyczny* akt jednoczesnej akceptacji dwóch pierwszych reguł i odrzucenia
+trzeciej.
+
+Za to istnieje, o czym przekonasz się za chwilę doświadczalnie, albo co udowodnię Ci zaraz
+fizycznie, zachowanie polegające na akceptacji wszystkich trzech.
 
 Reguła 3. Niech *a* i *b* będą zdarzeniami.  
 (to jest początek konstrukcji tego nowego językowego narzędzia, które nazywamy tu regułą 3)
 
-Ponieważ przyjmujemy tutaj, to znaczy w tym miejscu konstruowanej włąśnie nowej, spójnej albo
-konsekwentnej wypowiedzi, że *a* i *b* to zdarzenia, to do obydwu symboli możemy zastosować reguły 1
-i 2.
+Ponieważ przyjmujemy tutaj, to znaczy w tym miejscu konstruowanej właśnie nowej (konsekwentnej)
+wypowiedzi, że *a* i *b* to zdarzenia, to do obydwu symboli możemy zastosować reguły 1 i 2.
 
 Korzystając z reguły 1 przez podstawianie *a* za *x* i *b* za *y* możemy uzyskać konsekwencję, czyli
-skutek działania polegającego na poprawnym zastosowaniu tej reguły, w postaci wyrażenia (będącego
-akurat dla nas zdaniem) *p(a, b) = p(b, a)*.  
+zarazem logiczny wniosek i skutek działania polegającego na poprawnym zastosowaniu tej reguły, w
+postaci wyrażenia (będącego akurat dla nas zdaniem) *p(a, b) = p(b, a)*.  
 
-Korzystając w taki sam sposób z reguły 2 możemy uzyskać, jako dwa skutki poprawnego zastosowania tej
-reguły przez nas, zdania *p(a|b) \* p(b) = p(a, b)* i *p(b|a) \* p(a) = p(b, a)*.
+Korzystając w taki sam sposób z reguły 2 możemy uzyskać, jako dwa wnioski czyli skutki poprawnego
+zastosowania tej reguły przez nas, zdania *p(a|b) \* p(b) = p(a, b)* i *p(b|a) \* p(a) = p(b, a)*.
 
 Żeby coś z tym dalej zrobić, możemy skorzystać ze znanej nam obojgu reguły dotyczącej symbolu *=*,
-którą matematycy nazywają zasadą przechodniości relacji równości:
+którą matematycy nazywają zasadą przechodniości relacji równości (PR):
 
-Jeżeli *A = B* i *B = C*, to *A = C*.
+PR. Jeżeli *A = B* i *B = C*, to *A = C*.
 
-Ale wcześniej musimy skorzystać z reguły, która mówi, że relacja równości jest zwrotna:
+Ale wcześniej musimy skorzystać z reguły, która mówi, że relacja równości jest zwrotna (ZR):
 
-Jeżeli *A = B*, to *B = A*.
+ZR. Jeżeli *A = B*, to *B = A*.
 
 aby ze zdania *p(b|a) \* p(a) = p(b, a)* uzyskać zdanie:
 
 *p(b, a) = p(b|a) \* p(a)*
 
-Uzyskaliśmy w ten sposób, jako konsekwencje, a dokładniej jako fizyczne skutki wspólnej akceptacji
-pewnych wcześniejszych reguł i wynikającego stąd naszego wspólnego *zastosowania Się* (tak tak) do
-nich, następujące wyrażenia (będące zdaniami):
+Uzyskaliśmy w ten sposób, jako konsekwencje, a dokładniej jako fizyczne skutki naszej wspólnej
+akceptacji pewnych wcześniejszych reguł i wynikającego stąd naszego wspólnego *zastosowania Się*
+(tak tak) do nich, następujące wyrażenia (będące zdaniami):
 
 *p(a|b) \* p(b) = p(a, b)*
 
@@ -436,8 +440,8 @@ nich, następujące wyrażenia (będące zdaniami):
 
 *p(b, a) = p(b|a) \* p(a)*
 
-Podstawiając *p(a|b) \* p(b)* za *A*, *p(a, b)* za *B*, i *p(b, a)* za *C* w regule mówiącej o
-przechodniości równości uzyskujemy wyrażenie:
+Podstawiając *p(a|b) \* p(b)* za *A*, *p(a, b)* za *B*, i *p(b, a)* za *C* w PR, to jest w regule
+mówiącej o przechodniości równości uzyskujemy wyrażenie:
 
 *p(a|b) \* p(b) = p(b, a)*
 
@@ -448,14 +452,14 @@ Wreszcie, stosując po raz kolejny tą samą regułę, uzyskujemy zdanie:
 I tutaj tym razem się zatrzymamy. Co tu się właściwie dzieje?
 
 Pisząc to wszystko zakładałem, że oboje jesteśmy (wystarczająco) kompetentnymi użytkownikami języka
-polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się tak samo jak ja, a nawet gdybyśmy
-pewnych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
+polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się (praktycznie) tak samo jak ja, a
+nawet gdybyśmy pewnych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
 
-Dotyczy to również zdań o postaci *jeżeli ... to ...*. Taka *warunkowa struktura* jest *ogólnym
-wzorcem* wszystkich możliwych *reguł językowych*. Każda taka reguła ma jakieś, być może niejawne,
-warunki stosowalności czy obowiązywania, które można wymienić poprzedzając je słowem "jeżeli". A po
-słowie "to" mamy - być może parametryczny, jak w regułach 1 i 2 - rezultat zastosowania, to jest
-rezultat naszego wspólnego działania według tej reguły.
+Dotyczy to między innymi zdań o postaci *jeżeli ... to ...*. Taka *warunkowa struktura* jest
+*ogólnym wzorcem* wszystkich możliwych *reguł językowych*. Każda taka reguła ma jakieś, być może
+niejawne, warunki stosowalności czy obowiązywania, które można wymienić poprzedzając je słowem
+"jeżeli". A po słowie "to" mamy - być może parametryczny, jak w regułach 1 i 2 - rezultat
+zastosowania, to jest wniosek i zarazem rezultat naszego wspólnego działania według tej reguły.
 
 Mogę przewidzieć, że zgodzisz się z pewnymi zapisanymi przeze mnie wnioskami, i to będzie
 jednocześnie psychologiczna, logiczna i fizyczna konsekwencja przeczytania ze zrozumieniem pewnych
@@ -468,12 +472,13 @@ wyrażeniami w tym języku).
 
 Niektóre reguły, takie jak te, które nazywamy przechodniością i zwrotnością relacji równości, można
 stosować do niemal dowolnych (poprawnych) wyrażeń, a inne wymagają wyrażeń bardziej dookreślonego
-typu, na przykład typu *zdarzenie*. Żeby łatwiej było zauważyć w tekście reguły, które będziemy
-stosować w taki mechaniczny, to jest *całkowicie regularny* sposób, moglibyśmy przyjąć na przykład
-konwencję, zgodnie z którą napierw zapisujemy w nawiasach warunki stosowalności, potem rysujemy
-strzałkę *→*, a na końcu zapisujemy strukturę (a właściwie typ, o czym powiem więcej później)
-wyrażenia, które dana reguła pozwala nam razem uzyskać, to jest które oboje będziemy uznawać za
-konsekwencję wystąpienia czegoś, co pasuje do wzorca zapisanego w nawiasach przed strzałką:
+typu, na przykład nasze reguły dotyczące symbolu *p* wymagają wyrażeń typu *zdarzenie*. Żeby łatwiej
+było zauważyć w tekście reguły, które będziemy stosować w taki mechaniczny, to jest *całkowicie
+regularny* sposób, moglibyśmy przyjąć na przykład konwencję, zgodnie z którą napierw zapisujemy w
+nawiasach warunki stosowalności, potem rysujemy strzałkę *→*, a na końcu zapisujemy strukturę (a
+właściwie typ, o czym powiem więcej później) wyrażenia, które dana reguła pozwala nam razem uzyskać,
+to jest które oboje będziemy uznawać za konsekwencję wystąpienia czegoś, co pasuje do wzorca
+zapisanego w nawiasach przed strzałką:
 
 *R1 : (x to zdarzenie, y to zdarzenie) → p(x, y) = p(y, x)*.
 
@@ -485,7 +490,7 @@ Niech *a* i *b* to *zdarzenia*. Wtedy *R1(a, b)*, czyli zastosowanie reguły *R1
 *b*, daje rezultat (typu) *p(a, b) = p(b, a)*.
 
 Albo już całkiem formalnie, oznaczając kontekst za pomocą nawiasów kwadratowych, a typowanie (o czym
-więcej później) za pomocą dwukropka:
+więcej później) za pomocą dwukropka, na przykład tak:
 
 *[a : zdarzenie, b : zdarzenie]*
 
@@ -500,13 +505,20 @@ I tak dalej. No więc będziemy robić podobne rzeczy, ale nie zawsze na kartce.
 ## Dlaczego i po co
 
 Czy widzisz, że wprowadzając tego rodzaju jednoznaczne i sztywne konwencje językowe zaczynamy
-dosłownie tworzyć nowy, *wspólny język programowania samych siebie i siebie nawzajem*? W dodatku
-tworzymy w ten sposób język, którego użyteczność wcale nie ogranicza się do liczb czy innych
-obiektów abstrakcyjnych, które mogą nam się kojarzyć z tym, co oficjalnie nazywamy matematyką; tego
-rodzaju język może służyć do *rozumowania na dowolny temat*, a także do *programowania czegokolwiek,
-co jest programowalne*.
+tworzyć *wspólny język programowania samych siebie i siebie nawzajem*? W dodatku jego użyteczność
+nie ogranicza się do liczb czy innych obiektów abstrakcyjnych, które mogą nam się kojarzyć z tym, co
+oficjalnie nazywamy matematyką; tego rodzaju język może służyć do *rozumowania na dowolny temat*, a
+także do *programowania czegokolwiek, co jest programowalne*. Wydaje mi się, że muszę to natychmiast
+powtórzyć, bo trudno w pierwszej chwili docenić wagę tego stwierdzenia. Tego rodzaju język pozwala
+na: 
 
-Ponieważ jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
+*rozumowanie na dowolny temat*
+
+i
+
+*programowanie czegokolwiek, co jest programowalne*
+
+Ponieważ ten język jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
 wnioskowania*, ale również zapisywać *programy działania* - skonstruowane dla siebie, dla innych,
 lub po to, żeby wykonywały je urządzenia - bo (jak się przekonasz w następnych rozdziałach) jest
 jednocześnie jednym z języków podstawowych całej matematyki i pełnowartościowym (funkcyjnym i
@@ -514,46 +526,48 @@ czystym) językiem programowania, to poznając go i posługując się nim będzi
 widzieć, w jaki sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest
 pewnego rodzaju - w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
 takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego
-stopnia*, logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*.
+stopnia*, logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie
+byłoby tego rodzaju zachowaniem*.
 
 No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką (i informatyką) a
-psychologią? Na czym polega na przykład terapia, jeżeli nie na wzajemnym programowaniu siebie samych
-i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się, w trakcie
-spotkania i poza nim, *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym również
-do reguł *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież przede
-wszystkim na *wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze rozumowanie i
-dialog*.
+psychologią? Na czym polega na przykład *terapia*, jeżeli nie na wzajemnym programowaniu siebie
+samych i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się, w
+trakcie spotkania i poza nim, *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym
+również do reguł *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież
+przede wszystkim na *wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze
+rozumowanie i dialog*.
 
 Nawet gdy terapeutka podejmuje temat na przykład reakcji emocjonalnych, które czasami trudno jest
-postrzegać jako działania celowe, robi to przede wszystkim przyglądając się ich *adekwatności* i
-*adaptacyjności*. *Empatia* w terapii jest ważnym, ale mimo wszystko tylko *źródłem danych*
-dotyczących zachowania; empatia bez zdolności rozumowania na temat zachowania byłaby w procesie
-terapeutycznym po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie sobie rano kawy?
+postrzegać jako działania celowe (dlatego nazywamy je *reakcjami*), robi to przede wszystkim
+przyglądając się ich *adekwatności* i *adaptacyjności*, a także próbując dociec, z czego te reakcje
+*wynikają*. *Empatia* w terapii jest ważnym, ale mimo wszystko tylko *źródłem danych* dotyczących
+zachowania; empatia bez zdolności rozumowania na temat zachowania byłaby w procesie terapeutycznym
+po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie sobie rano kawy?
 
 *Co jest w tych wszystkich zjawiskach* **jako takich** *najważniejsze?*
 
 Wystarczy odrobina *introspekcji*, żeby się zorientować, że to jest zawsze, z konieczności,
 *sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu
-zadań składających się na** (wykonywanie zadań), na przykład na zrobienie sobie rano kawy. Jak każde
+zadań składających się na** (wykonywanie zadań); na przykład na zrobienie sobie rano kawy. Jak każde
 bez wyjątku zachowanie. *Zadań* takich jak *wystarczająco skuteczne* - po wcześniejszym
-*zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może wystarczająco skuteczne ubranie
-się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka,
-to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo stworzyliśmy i
-którymi jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych sytuacjach kluczowe są
-*cele*, możliwe *sposoby ich przybliżania*, a także *warunki konieczne i wystarczające* do ich
-osiągnięcia. A wszystko to ma charakter matematyczny i programistyczny. I zarówno matematyka jak i
-programowanie powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju sprawami lepiej *radzić* i
-żebyśmy mogli je lepiej *rozumieć*.
+(wystarczająco skutecznym) *zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może
+wystarczająco skuteczne ubranie się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo
+ubogiego w tym wypadku języka, to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu,
+które celowo stworzyliśmy i którymi jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych
+sytuacjach kluczowe są *cele*, możliwe *sposoby ich przybliżania*, a także *warunki konieczne i
+wystarczające* do ich osiągnięcia. A wszystko to ma charakter matematyczny i programistyczny. I
+zarówno matematyka jak i programowanie powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju
+sprawami lepiej *radzić* i żebyśmy mogli je lepiej *rozumieć*.
 
-Czy nie jest tak, że dosłownie *wszystko*, czym zajmują się matematycy i informatycy, należy
-automatycznie do przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś,
-czym zajmują się ludzie*? W dodatku w drugą stronę to nie działa, bo chociaż matematycy i
-informatycy robią to co robią dlatego, że starają się realizować pewne cele, które możemy określić
-ogólnie jako *badanie logicznych albo fizycznych konsekwencji reguł*, to jednak działanie celowe
-jako takie *nie* jest centralnym przedmiotem zainteresowania matematyki czy informatyki. Mówiąc
-inaczej, ani matematycy *jako matematycy* ani informatycy *jako informatycy* nie badają ani własnego
-zachowania, ani w ogóle jakiegokolwiek zachowania *jako zachowania*. Działanie celowe nie jest też
-przedmiotem zainteresowania fizyki czy chemii.
+Czy nie jest tak, że *wszystko*, czym zajmują się matematycy i informatycy, należy automatycznie do
+przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś, czym zajmują się
+ludzie*? W dodatku w drugą stronę to nie działa, bo chociaż matematycy i informatycy robią to co
+robią dlatego, że starają się realizować pewne cele, które możemy określić ogólnie jako *badanie
+logicznych albo fizycznych konsekwencji reguł*, to jednak działanie celowe jako takie *nie* jest
+centralnym przedmiotem zainteresowania matematyki czy informatyki. Mówiąc inaczej, ani matematycy
+*jako matematycy* ani informatycy *jako informatycy* nie badają ani własnego zachowania, ani w ogóle
+jakiegokolwiek zachowania *jako zachowania*. Działanie celowe nie jest też przedmiotem
+zainteresowania fizyki czy chemii.
 
 Działanie celowe, to znaczy *działanie podlegające ocenie pod względem poprawności albo
 skuteczności*, czyli po prostu *zachowanie*, a w przypadku *podmiotów* takich jak ludzie i inne
@@ -564,40 +578,43 @@ inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 Zapytasz może, co ze sztuką? Albo duchowością? Chcesz wiedzieć, co moim zdaniem sztuka i duchowość
 mają wspólnego z programowaniem, matematyką i celowością? No to zacznijmy od sztuki, najpierw
 próbując przybliżyć jakąś jej użyteczną definicję. Wystarczy nam znośne przybliżenie, bo dla celów
-tych rozważań żadna ostateczna czy uniwersalna definicja sztuki nie będzie nam potrzebna.
+tych rozważań żadna ostateczna czy uniwersalna definicja nie będzie nam do niczego potrzebna.
 
 Zgodzisz się chyba, że sztuką nazywamy zwykle takie rzeczy, które są wyjątkowe co najmniej w tym
 znaczeniu, że są *trudne*; dlatego mamy na myśli to, co mamy, mówiąc "to nie żadna sztuka...". I
 *tajemnicze*, bo sztuka to nie technika ani technologia. Dlatego kiedy wiemy, w jaki dokładnie
-sposób ktoś, kogo uważaliśmy wcześniej za artystę uzyskał zamierzony efekt, jesteśmy przynajmniej do
-pewnego stopnia tą wiedzą *rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to
-coś musi być również dla nas *ważne* i *znaczące*, choć zwykle *trudno powiedzieć co lub jak
-znaczące*.
+sposób ktoś, kogo uważaliśmy wcześniej za artystę, uzyskał zamierzony efekt, jesteśmy przynajmniej
+do pewnego stopnia tą wiedzą *rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S,
+to coś musi być również dla nas *ważne* i *znaczące*, choć zwykle (a może w przypadku Sztuki wręcz
+zawsze?) *trudno powiedzieć co lub jak znaczące*.
 
 Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *Się powtarzają*? Moim zdaniem
-dlatego, że po prostu muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
+dlatego, że muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
 tajemnicze i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu prób i błędów*. To
-zatem też proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
+zatem proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
 *powiedzieć* czego. No a o duchowości jeszcze sobie pogadamy.
 
-Gdyby tylko psychologowie poznawczy i nie tylko oni mówiąc, że "umysł jest jak komputer", wiedzieli
+Gdyby tylko psychologowie poznawczy i nie tylko oni, mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
 [*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane tylko niewielkiej
-garstce psychologów, choć ważne, ma dla psychologii znaczenie *drugorzędne*, ponieważ *wystarczy,
-żeby adaptacja była wystarczająca*, a do tego nie trzeba żadnych *algorytmów* ani rozwiązań
-*optymalnych*, za to znaczenie pierwszorzędne ma fakt, że komputery zostały *stworzone na
-podobieństwo ludzi* pod tym kluczowym dla całej psychologii względem, że są *dowolnie
-programowalne*. Można powiedzieć wręcz, że to jest centralna teza, z której wyrasta, którą wyraża, i
-którą ilustruje na różne sposoby ta książka:
+garstce psychologów (bo to jest termin techniczny matematyki), choć ważne, ma dla psychologii
+znaczenie *drugorzędne*, ponieważ *wystarczy, żeby adaptacja była wystarczająca*, a do tego nie
+trzeba żadnych *algorytmów* ani rozwiązań *optymalnych*, za to znaczenie pierwszorzędne ma fakt, że
+komputery zostały *stworzone na podobieństwo ludzi* pod tym kluczowym dla całej psychologii
+względem, że są *wystarczająco skutecznie niemal dowolnie programowalne*.
+
+Można powiedzieć, że to jest centralna teza, z której wyrasta, którą wyraża, i którą ilustruje na
+różne sposoby ta książka:
 
 *Zachowywanie Się zwierząt jest wystarczająco skutecznym programowaniem przyszłych wersji siebie
 samych i siebie nawzajem*.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
-tego, że psychologia dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania w
-sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z najlepszych
-dostępnych narzędzi rozumowania (na dowolny temat). A przecież używanie tych narzędzi jest jedną z
-tych rzeczy, które robią ludzie.
+tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
+w sposób zdystansowany i abstrakcyjny zjawisk, prawie w ogóle nie potrafi korzystać z naszych
+najlepszych narzędzi rozumowania (na dowolny temat). W dodatku psychologowie mają *dwa* dobre
+powody, żeby się z nimi zapoznać, bo przecież używanie tych narzędzi jest jedną z tych rzeczy, które
+robią ludzie. 
 
 Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *mogą* te narzędzia opanować,
 i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając nieudolnie
