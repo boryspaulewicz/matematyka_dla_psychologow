@@ -509,8 +509,9 @@ tworzyć *wspólny język programowania samych siebie i siebie nawzajem*? W doda
 nie ogranicza się do liczb czy innych obiektów abstrakcyjnych, które mogą nam się kojarzyć z tym, co
 oficjalnie nazywamy matematyką; tego rodzaju język może służyć do *rozumowania na dowolny temat*, a
 także do *programowania czegokolwiek, co jest programowalne*. Wydaje mi się, że muszę to natychmiast
-powtórzyć, bo trudno w pierwszej chwili docenić wagę tego stwierdzenia. Tego rodzaju język pozwala
-na: 
+powtórzyć, bo trudno w pierwszej chwili docenić wagę tego stwierdzenia.
+
+Tego rodzaju język pozwala na: 
 
 **rozumowanie na dowolny temat**
 
