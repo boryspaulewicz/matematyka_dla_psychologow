@@ -512,11 +512,11 @@ także do *programowania czegokolwiek, co jest programowalne*. Wydaje mi się, �
 powtórzyć, bo trudno w pierwszej chwili docenić wagę tego stwierdzenia. Tego rodzaju język pozwala
 na: 
 
-*rozumowanie na dowolny temat*
+**rozumowanie na dowolny temat**
 
 i
 
-*programowanie czegokolwiek, co jest programowalne*
+**programowanie czegokolwiek, co jest programowalne**.
 
 Ponieważ ten język jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
 wnioskowania*, ale również zapisywać *programy działania* - skonstruowane dla siebie, dla innych,
