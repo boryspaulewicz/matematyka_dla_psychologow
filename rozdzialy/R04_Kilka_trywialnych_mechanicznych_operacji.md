@@ -549,16 +549,16 @@ po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie sobie rano kawy?
 
 Wystarczy odrobina *introspekcji*, żeby się zorientować, że to jest zawsze, z konieczności,
 *sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu
-zadań składających się na** (wykonywanie zadań); na przykład na zrobienie sobie rano kawy. Jak każde
-bez wyjątku zachowanie. *Zadań* takich jak *wystarczająco skuteczne* - po wcześniejszym
-(wystarczająco skutecznym) *zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może
-wystarczająco skuteczne ubranie się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo
-ubogiego w tym wypadku języka, to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu,
-które celowo stworzyliśmy i którymi jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych
-sytuacjach kluczowe są *cele*, możliwe *sposoby ich przybliżania*, a także *warunki konieczne i
-wystarczające* do ich osiągnięcia. A wszystko to ma charakter matematyczny i programistyczny. I
-zarówno matematyka jak i programowanie powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju
-sprawami lepiej *radzić* i żebyśmy mogli je lepiej *rozumieć*.
+zadań składających się na** (wykonywanie zadań); na przykład na zrobienie sobie rano kawy. *Zadań*
+takich jak *wystarczająco skuteczne* - po wcześniejszym (wystarczająco skutecznym) *zaprogramowaniu
+się, żeby to zrobić* - wstanie z łóżka, być może wystarczająco skuteczne ubranie się, dotarcie do
+ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka, to jest
+*interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo stworzyliśmy i którymi
+jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych sytuacjach kluczowe są *cele*,
+możliwe *sposoby ich przybliżania*, a także *warunki konieczne i wystarczające* do ich osiągnięcia.
+A wszystko to ma charakter matematyczny i programistyczny. I zarówno matematyka jak i programowanie
+powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju sprawami lepiej *radzić* i żebyśmy mogli
+je lepiej *rozumieć*.
 
 Czy nie jest tak, że *wszystko*, czym zajmują się matematycy i informatycy, należy automatycznie do
 przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś, czym zajmują się
