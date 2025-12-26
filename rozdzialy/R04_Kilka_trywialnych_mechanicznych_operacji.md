@@ -698,7 +698,7 @@ prawdziwe czy fałszywe, natomiast zawsze możemy zapytać, czy te decyzje lub w
 czy *trafne* ze względu na określone cele. A *celowość* zdaje mi się być jednym z centralnych pojęć
 psychologii i sztucznej inteligencji, ale już na przykład matematyki, chemii, czy fizyki nie. To
 pojęcie ma w psychologii tak duże znaczenie, ponieważ zdecydowana większość zjawisk, o ile nie
-wszystkie, które nazywamy zachowaniami, to procesy celowe. 
+wszystkie, które nazywamy zachowaniami, to procesy celowe. Ale chyba już o tym wspominałem.
 
 W szczególności, możemy sensownie zapytać, czy *zastosowanie* danego aksjomatu, być może do czegoś
 niematematycznego, jest poprawne. Pytamy wtedy, czy jakiś aksjomat jest prawdziwy *o czymś*, a nie
