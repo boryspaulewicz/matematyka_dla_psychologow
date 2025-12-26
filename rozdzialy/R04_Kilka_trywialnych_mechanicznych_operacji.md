@@ -660,7 +660,7 @@ poprawianie tej osobliwej książki, że to może być czasami dość *przyjemne
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
 narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko **czasu**.
 
-Czasami mnie przy tym ponosi.
+Sama rozumiesz, że czasem mnie przy tym ponosi, prawda?
 
 <br>
 
