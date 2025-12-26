@@ -656,11 +656,17 @@ opanować, i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się
 nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
 udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
-poprawianie tej osobliwej książki, że to może być czasami dość *przyjemne*, a nawet, że może budzić
+poprawianie tej osobliwej książki, że to może być w miarę *bezbolesne*, a nawet, że może budzić
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
 narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko **czasu**.
 
-Sama rozumiesz, że czasem mnie przy tym ponosi, prawda?
+<br>
+
+Tak się też składa, że często mam na to ochotę.
+
+<br>
+
+Pewnie rozumiesz więc, że trochę mnie przy tym ponosi, prawda?
 
 <br>
 
