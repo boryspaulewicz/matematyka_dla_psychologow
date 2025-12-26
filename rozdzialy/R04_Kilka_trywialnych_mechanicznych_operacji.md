@@ -701,7 +701,6 @@ stosując w żaden sposób nie skonstruowaną funkcję *następnik* do również
 Inaczej mówiąc, w matematyce aksjomaty to dokładnie *wybrane przez kogoś definicje, których nie ma
 do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybrane przez kogoś
 alternatywne sposoby zapisu*, służące zwykle do tego, żeby można było coś napisać krócej lub
-bardziej zrozumiale, albo żeby pewne mechaniczne przekształcenia z użyciem tych wyrażeń łatwiej się
-automatyzowały.
+bardziej zrozumiale, albo żeby pewne mechaniczne przekształcenia łatwiej się automatyzowały.
 
 <hr>
