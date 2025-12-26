@@ -597,8 +597,7 @@ zatem proces celowy, polegający na długotrwałym uczeniu się, choć - *z defi
 
 No więc akt czy proces robienia sobie rano kawy ma oczywiście aspekt fizyczny, chemiczny i
 biologiczny. Gdy jednak opisujemy robienie sobie kawy z tych perspektyw, *natychmiast tracimy z
-oczu*
-- a raczej z opisu - *charakter tego procesu*. Dotyczy to również opisu wszelkich procesów
+oczu* - a raczej z opisu - *charakter tego procesu*. Dotyczy to również opisu wszelkich procesów
 *neuronalnych*, które się wtedy rozgrywają, ponieważ bycie procesem celowym jest własnością, która
 nie istnieje bez jakiejś, być może zewnętrznej - i wtedy istnieje tylko (i aż) z perspektywy
 zewnętrznego obserwatora - *oceny*, takiej jak ocena pod względem poprawności, logiczności,
