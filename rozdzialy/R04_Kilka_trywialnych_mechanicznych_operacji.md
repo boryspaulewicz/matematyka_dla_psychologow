@@ -422,11 +422,12 @@ którą matematycy nazywają zasadą przechodniości relacji równości (PR):
 
 PR. Jeżeli *A = B* i *B = C*, to *A = C*.
 
-Ale wcześniej musimy skorzystać z reguły, która mówi, że relacja równości jest zwrotna (ZR):
+Ale żeby zastosować PR, wcześniej musimy skorzystać z reguły, która mówi, że relacja równości jest
+zwrotna (ZR), ...
 
 ZR. Jeżeli *A = B*, to *B = A*.
 
-aby ze zdania *p(b|a) \* p(a) = p(b, a)* uzyskać zdanie:
+... aby ze zdania *p(b|a) \* p(a) = p(b, a)* uzyskać zdanie:
 
 *p(b, a) = p(b|a) \* p(a)*
 
@@ -440,8 +441,8 @@ akceptacji pewnych wcześniejszych reguł i wynikającego stąd naszego wspólne
 
 *p(b, a) = p(b|a) \* p(a)*
 
-Podstawiając *p(a|b) \* p(b)* za *A*, *p(a, b)* za *B*, i *p(b, a)* za *C* w PR, to jest w regule
-mówiącej o przechodniości równości uzyskujemy wyrażenie:
+Podstawiając *p(a|b) \* p(b)* za *A*, *p(a, b)* za *B*, i *p(b, a)* za *C* w PR uzyskujemy
+wyrażenie:
 
 *p(a|b) \* p(b) = p(b, a)*
 
@@ -449,7 +450,7 @@ Wreszcie, stosując po raz kolejny tą samą regułę, uzyskujemy zdanie:
 
 *p(a|b) \* p(b) = p(b|a) \* p(a)*
 
-I tutaj tym razem się zatrzymamy. Co tu się właściwie dzieje?
+I na tym etapie się zatrzymamy, żeby zapytać - *co tu się właściwie dzieje?*
 
 Pisząc to wszystko zakładałem, że oboje jesteśmy (wystarczająco) kompetentnymi użytkownikami języka
 polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się (praktycznie) tak samo jak ja, a
@@ -459,16 +460,23 @@ Dotyczy to między innymi zdań o postaci *jeżeli ... to ...*. Taka *warunkowa 
 *ogólnym wzorcem* wszystkich możliwych *reguł językowych*. Każda taka reguła ma jakieś, być może
 niejawne, warunki stosowalności czy obowiązywania, które można wymienić poprzedzając je słowem
 "jeżeli". A po słowie "to" mamy - być może parametryczny, jak w regułach 1 i 2 - rezultat
-zastosowania, to jest wniosek i zarazem rezultat naszego wspólnego działania według tej reguły.
+zastosowania, to jest wniosek i zarazem potencjalny rezultat naszego wspólnego działania według tej
+reguły.
 
-Mogę przewidzieć, że zgodzisz się z pewnymi zapisanymi przeze mnie wnioskami, i to będzie
-jednocześnie psychologiczna, logiczna i fizyczna konsekwencja przeczytania ze zrozumieniem pewnych
-wcześniejszych fragmentów. O ile oczywiście wcześniej zaakceptowałaś (przynajmniej warunkowo)
-zaproponowane przeze mnie reguły. Mogę to przewidzieć, ponieważ jedynym sposobem, w jaki mogłabyś
-się z tymi wnioskami *nie* zgodzić, byłoby albo niezrozumienie, albo przynajmniej częściowe
-odrzucenie tego, co wcześniej napisałem. W końcu *mieć wspólny język* i *mówić we wspólnym języku*
-znaczy to samo, co *stosować się do pewnych wspólnych reguł* (dotyczących posługiwania się
-wyrażeniami w tym języku).
+Zwróć proszę uwagę, bo to też ma ścisły związek z matematyką i programowaniem, że ten rezultat jest
+tylko *potencjalnym* skutkiem naszego *regularnego* (i *celowego*) *działania*, bo mimo tego, źe
+(*nieuchronnie*) *ograniczają* nas rozmaite reguły, oboje *mamy wybór*.
+
+No więc oboje mamy - niekoniecznie wolny! - wybór, a jednak pisząc to wszystko mogłem być niemal
+pewien, że zgodzisz się z niektórymi zapisanymi przeze mnie wnioskami. Bo to są jednocześnie
+psychologiczne, logiczne i fizyczne konsekwencje przeczytania ze zrozumieniem niektórych fragmentów.
+O ile oczywiście wcześniej zaakceptowałaś, przynajmniej warunkowo, zaproponowane reguły.
+
+Mogłem to przewidzieć, ponieważ *jedynym możliwym* sposobem, w jaki mogłabyś się z tymi wnioskami
+*faktycznie nie zgodzić*, a nie tylko *udawać lub twierdzić, że się nie zgadzasz*, byłoby albo
+*niezrozumienie*, albo przynajmniej częściowe *odrzucenie* tego, co wcześniej napisałem. W końcu
+*mieć wspólny język* czy *mówić we wspólnym języku* znaczy to samo, co *stosować się do pewnych
+wspólnych reguł* (dotyczących posługiwania się wyrażeniami w tym języku).
 
 Niektóre reguły, takie jak te, które nazywamy przechodniością i zwrotnością relacji równości, można
 stosować do niemal dowolnych (poprawnych) wyrażeń, a inne wymagają wyrażeń bardziej dookreślonego
@@ -500,7 +508,7 @@ więcej później) za pomocą dwukropka, na przykład tak:
 
 *R2(b, a) : p(b|a) \* p(a)*
 
-I tak dalej. No więc będziemy robić podobne rzeczy, ale nie zawsze na kartce.
+I tak dalej. No więc niebawem będziemy robić podobne rzeczy, ale nie zawsze na kartce.
 
 ## Dlaczego i po co
 
@@ -519,46 +527,51 @@ i
 
 **programowanie czegokolwiek, co jest programowalne**.
 
-Ponieważ ten język jest na tyle ekspresyjny, że nie tylko pozwala posługiwać się dowolnymi *regułami
-wnioskowania*, ale również zapisywać *programy działania* - skonstruowane dla siebie, dla innych,
-lub po to, żeby wykonywały je urządzenia - bo (jak się przekonasz w następnych rozdziałach) jest
-jednocześnie jednym z języków podstawowych całej matematyki i pełnowartościowym (funkcyjnym i
-czystym) językiem programowania, to poznając go i posługując się nim będziemy w stanie coraz lepiej
-widzieć, w jaki sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest
-pewnego rodzaju - w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
-takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego
-stopnia*, logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie
-byłoby zachowaniem danego rodzaju*.
+Ten język jest na tyle ekspresyjny, że za jego pomocą możemy nie tylko posługiwać się dowolnymi
+*regułami wnioskowania*, ale możemy również zapisywać *programy działania*, czyli po prostu
+*wykonywalne plany*, skonstruowane dla siebie, dla innych, lub po to, żeby wykonywały je urządzenia.
+Jak się przekonasz w następnych rozdziałach, jest jednocześnie jednym z języków podstawowych całej
+matematyki i pełnowartościowym (między innymi funkcyjnym i czystym) językiem programowania. I
+właśnie dzięki temu poznając go i posługując się nim będziemy w stanie coraz lepiej widzieć, w jaki
+sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest pewnego rodzaju - w
+pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako takie jest z
+konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego stopnia*,
+logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie byłoby
+zachowaniem danego rodzaju*.
 
-No to na koniec zapytam jeszcze raz - jaka jest relacja między matematyką (i informatyką) a
-psychologią? Na czym polega na przykład *terapia*, jeżeli nie na wzajemnym programowaniu siebie
-samych i siebie nawzajem, które *nie mogłoby* działać, gdyby obie strony nie stosowały się, w
+No to zapytam jeszcze raz - *jaka jest relacja między matematyką (i informatyką) a psychologią*? Na
+czym właściwie polega *każda rozmowa*, albo na przykład *terapia*, jeżeli nie na wzajemnym
+programowaniu siebie samych i siebie nawzajem, za pomocą *naturalnych języków werbalnych i
+niewerbalnych*, które to programowanie *nie mogłoby* działać, gdyby obie strony nie stosowały się, w
 trakcie spotkania i poza nim, *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym
 również do reguł *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież
 przede wszystkim na *wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze
 rozumowanie i dialog*.
 
-Nawet gdy terapeutka podejmuje temat na przykład reakcji emocjonalnych, które czasami trudno jest
+Nawet gdy terapeutka podejmuje temat powiedzmy *reakcji emocjonalnych*, które czasami trudno jest
 postrzegać jako działania celowe (dlatego nazywamy je *reakcjami*), robi to przede wszystkim
 przyglądając się ich *adekwatności* i *adaptacyjności*, a także próbując dociec, z czego te reakcje
-*wynikają*. *Empatia* w terapii jest ważnym, ale mimo wszystko tylko *źródłem danych* dotyczących
-zachowania; empatia bez zdolności rozumowania na temat zachowania byłaby w procesie terapeutycznym
-po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie sobie rano kawy?
+*wynikają*. I wtedy chodzi o to, jaki te reakcje mają *sens*, szczególnie zaś o to, że mają
+charakter *ocenny*. *Empatia* w terapii jest ważnym, ale mimo wszystko tylko *źródłem danych
+dotyczących zachowania*; empatia bez zdolności rozumowania na temat zachowania byłaby w procesie
+terapeutycznym po prostu bezużyteczna. A czytanie tego tekstu? Albo robienie sobie rano kawy?
 
 *Co jest w tych wszystkich zjawiskach* **jako takich** *najważniejsze?*
 
-Wystarczy odrobina *introspekcji*, żeby się zorientować, że to jest zawsze, z konieczności,
-*sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu
-zadań składających się na** (wykonywanie zadań); na przykład na zrobienie sobie rano kawy. *Zadań*
-takich jak *wystarczająco skuteczne* - po wcześniejszym (wystarczająco skutecznym) *zaprogramowaniu
-się, żeby to zrobić* - wstanie z łóżka, być może wystarczająco skuteczne ubranie się, dotarcie do
-ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka, to jest
-*interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo stworzyliśmy i którymi
-jesteśmy na codzień otoczeni, i tak dalej. I we wszystkich tych sytuacjach kluczowe są *cele*,
-możliwe *sposoby ich przybliżania*, a także *warunki konieczne i wystarczające* do ich osiągnięcia.
-A wszystko to ma charakter matematyczny i programistyczny. I zarówno matematyka jak i programowanie
-powstały właśnie po to, żebyśmy mogli sobie z tego rodzaju sprawami lepiej *radzić* i żebyśmy mogli
-je lepiej *rozumieć*.
+Wystarczy odrobina *introspekcji* (tak tak), żeby się zorientować, że to jest zawsze, z
+konieczności, *sekwencja działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na
+**wykonywaniu zadań składających się na** (wykonywanie zadań); na przykład na zrobienie sobie rano
+kawy. *Zadań* takich jak *wystarczająco skuteczne* - po wcześniejszym (wystarczająco skutecznym)
+*zaprogramowaniu się, żeby to zrobić* - wstanie z łóżka, być może wystarczająco skuteczne ubranie
+się, dotarcie do ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka,
+to jest *interfejsu użytkownika*, zresztą jednego z bardzo wielu, które celowo stworzyliśmy i
+którymi jesteśmy na codzień otoczeni, i tak dalej.
+
+We wszystkich tych *działaniach* kluczowe są *cele*, możliwe *sposoby ich przybliżania*, a także
+*warunki konieczne i wystarczające* do ich osiągnięcia. I wszystko to ma charakter matematyczny i
+programistyczny. I zarówno matematyka jak i programowanie powstały właśnie po to, żebyśmy mogli
+wyraźniej *widzieć, na czym to polega*, żebyśmy mogli dzięki temu lepiej to *rozumieć*, a
+ostatecznie żebyśmy mogli sobie z tego rodzaju sprawami lepiej *radzić*.
 
 Czy nie jest tak, że *wszystko*, czym zajmują się matematycy i informatycy, należy automatycznie do
 przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś, czym zajmują się
@@ -595,36 +608,37 @@ tajemnicze i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu 
 zatem proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
 *powiedzieć* czego. No a o duchowości jeszcze sobie pogadamy.
 
-No więc akt czy proces robienia sobie rano kawy ma oczywiście aspekt fizyczny, chemiczny i
-biologiczny. Gdy jednak opisujemy robienie sobie kawy z tych perspektyw, *natychmiast tracimy z
-oczu* - a raczej z opisu - *charakter tego procesu*. Dotyczy to również opisu wszelkich procesów
-*neuronalnych*, które się wtedy rozgrywają, ponieważ bycie procesem celowym jest własnością, która
-nie istnieje bez jakiejś, być może zewnętrznej - i wtedy istnieje tylko (i aż) z perspektywy
-zewnętrznego obserwatora - *oceny*, takiej jak ocena pod względem poprawności, logiczności,
-racjonalności, skuteczności, czy optymalności. Ale to nie jest tylko *warunek konieczny*, bo również
-*wystarczy*, że opiszemy jakieś zjawisko czy proces fizyczny w sposób ocenny, żeby natychmiast
-pojawiła się celowość, niezależnie od tego, czy to zjawisko będzie miało charakter biologiczny, czy
-nie, albo czy będzie działało dzięki procesom neuronalnym.
+No więc akt czy proces czy czynność - jak zwał, tak zwał - robienia sobie rano kawy ma oczywiście
+aspekt fizyczny, chemiczny i biologiczny. Gdy jednak opisujemy robienie sobie kawy z tych
+perspektyw, *natychmiast tracimy z oczu* - a raczej z opisu - *charakter tego procesu*. Dotyczy to
+również opisu wszelkich procesów *neuronalnych*, które się wtedy rozgrywają, ponieważ bycie procesem
+celowym jest własnością, która nie istnieje bez jakiejś, być może zewnętrznej - i wtedy istnieje
+tylko (i aż) z perspektywy zewnętrznego obserwatora - *oceny*, takiej jak ocena pod względem
+poprawności, logiczności, racjonalności, skuteczności, adekwatności, czy optymalności. Ale ta
+abstrakcyjnie rozumiana *ocenialność* to nie tylko *warunek konieczny*, bo również *wystarczy*, że
+opiszemy jakieś zjawisko czy proces fizyczny w sposób ocenny, żeby natychmiast pojawiła się - w
+jakiejś niełatwej do zlokalizowania pojęciowej okolicy - celowość; niezależnie od tego, czy to
+zjawisko będzie miało charakter biologiczny, czy nie, albo czy będzie działało dzięki procesom
+neuronalnym.
 
-I to, że ten sam proces możemy opisać z tych różnych perspektyw jest *matematyzowalne* - szczególnie
-dobrze nadaje się do tego teoria kategorii - po prostu dlatego, że możemy o tych sprawach mówić i
-myśleć jasno i konsekwentnie. A to, że kluczową rolę odgrywa w tym wszystkim ocena można wyrazić
-wprost formalnie za pomocą pojęcia relacji porządku. Wreszcie to, że to jest zarazem proces fizyczny
-i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym przypadku tylko
-*fizycznie przybliżana*, w zasadzie niemal już zostało sformalizowane, bo to jest *prawie*
-współczesna matematyczna teoria przyczynowości, która jest jednocześnie pewnego rodzaju teorią
-programowania; brakuje w niej tylko *jednego* składnika.
+I nawet już samo to, że ten sam proces możemy opisać z różnych perspektyw jest *matematyzowalne* -
+szczególnie dobrze nadaje się do tego teoria kategorii - po prostu dlatego, że możemy o tych
+sprawach mówić i myśleć jasno i konsekwentnie. A to, że kluczową rolę odgrywa w tym wszystkim ocena
+można wyrazić wprost formalnie za pomocą pojęcia relacji porządku. Wreszcie to, że to jest zarazem
+proces fizyczny i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym
+przypadku tylko *fizycznie przybliżana*, w zasadzie niemal już zostało sformalizowane, bo to jest
+*prawie* współczesna matematyczna teoria przyczynowości, która jest jednocześnie pewnego rodzaju
+teorią programowania; brakuje w niej tylko *jednego* składnika.
 
-Żeby jakiś proces był procesem robienia sobie kawy, musi być, nawet jeżeli tylko przez chwilę i
-tylko do pewnego stopnia, *wystarczająco skutecznym wykonaniem pewnego zadania w normalnych
-warunkach*. W dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy
-racjonalnej perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sobie kawy tym, czym
-jest*. Każde zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i biologicznym, ale
-zachowanie *jako takie* jest przede wszystkim - nierzadko błędnym, tylko częściowo spójnym, i nie
-całkiem albo nie zawsze konwekwentnym, ale wciąż *przede wszystkim* - działaniem celowym, a zatem
-również logicznym, matematycznym i programistycznym. Bo jest *wystarczająco skutecznym lub
-przybliżonym wykonywaniem pewnego zadania lub zadań polegającym na stosowaniu Się do określonych
-reguł*. 
+Żeby jakiś proces był robieniem sobie kawy, musi być, nawet jeżeli tylko przez chwilę i tylko do
+pewnego stopnia, *wystarczająco skutecznym wykonaniem pewnego zadania w normalnych warunkach*. W
+dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy racjonalnej
+perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sobie kawy tym, czym jest*. Każde
+zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i biologicznym, ale zachowanie *jako
+takie* jest przede wszystkim - nierzadko błędnym, tylko częściowo spójnym, i nie całkiem albo nie
+zawsze konwekwentnym, ale wciąż *przede wszystkim* - działaniem celowym, a zatem również logicznym,
+matematycznym i programistycznym. Bo jest *wystarczająco skutecznym lub przybliżonym wykonywaniem
+pewnego zadania lub zadań polegającym na stosowaniu Się do określonych reguł*. 
 
 Gdyby tylko psychologowie poznawczy i nie tylko oni, mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
@@ -647,8 +661,9 @@ samych i siebie nawzajem**.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
-w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy* - prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na dowolny
-temat). W dodatku psychologowie mają (więcej niż) *dwa* dobre powody, żeby się z nimi zapoznać, bo
+w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
+- prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
+temat!). W dodatku psychologowie mają (więcej niż) *dwa* dobre powody, żeby się z nimi zapoznać, bo
 używanie tych narzędzi jest jedną z tych rzeczy, które robią ludzie. 
 
 Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *faktycznie mogą* te narzędzia
@@ -658,15 +673,15 @@ udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
 poprawianie tej osobliwej książki, że to może być w miarę *bezbolesne*, a nawet, że może budzić
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
-narzędzi służących do poznawania i kontroli wymaga ostatecznie tylko **czasu**.
+narzędzi służących do poznawania, rozumienia i kontroli wymaga ostatecznie tylko **czasu**.
 
 <br>
 
-Tak się też składa, że często mam na to ochotę.
+Tak się też składa, że mam na to ochotę.
 
 <br>
 
-Pewnie rozumiesz więc, że trochę mnie przy tym ponosi, prawda?
+Rozumiesz więc, że trochę mnie przy tym ponosi, prawda?
 
 <br>
 
