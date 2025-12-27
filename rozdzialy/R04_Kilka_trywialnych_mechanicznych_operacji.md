@@ -661,8 +661,7 @@ samych i siebie nawzajem**.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
-w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
-- prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
+w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy* - prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
 temat!). W dodatku psychologowie mają (więcej niż) *dwa* dobre powody, żeby się z nimi zapoznać, bo
 używanie tych narzędzi jest jedną z tych rzeczy, które robią ludzie. 
 
