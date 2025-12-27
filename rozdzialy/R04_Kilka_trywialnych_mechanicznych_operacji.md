@@ -378,7 +378,7 @@ Reguła 2. Jeżeli *x* i *y* to zdarzenia, to *p(x|y) \* p(y) = p(x, y)*.
 
 Jak widzisz, trochę się teraz powtarzamy, bo początkowy fragment obydwu reguł jest taki sam, a
 robimy to, żeby wyraźniej zobaczyć, że obie reguły są czymś w rodzaju *samowystarczalnych*
-(pomiajając rolę osoby czytającej je \{ze zrozumieniem\}) *narzędzi językowych*.
+(pomijając rolę osoby czytającej je \{ze zrozumieniem\}) *narzędzi językowych*.
 
 Reguły, zasady, wzorce, zjawiska, procesy, czy prawa - jak zwał, tak zwał - mają *konsekwencje* albo
 *skutki*. Słowa "skutek" używamy zwykle na określenie *fizycznych* konsekwencji jakiegoś zdarzenia
