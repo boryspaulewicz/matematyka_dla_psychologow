@@ -141,7 +141,7 @@ potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmi
 czy używają przepisów.
 
 Czy w takim razie matematyka (i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ)) nie
-są przypadkiem *subdyscyplinami psychologii*?  
+jest przypadkiem - szczególnie ważną - *subdyscypliną psychologii*?  
 
 Ktoś, kto zetknął się wcześniej z filozofią, mógłby powiedzieć, że "to przecież psychologizm", mając
 na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzie używają liczb (bardzo
@@ -624,8 +624,9 @@ neuronalnym.
 I nawet już samo to, że ten sam proces możemy opisać z różnych perspektyw jest *matematyzowalne* -
 szczególnie dobrze nadaje się do tego teoria kategorii - po prostu dlatego, że możemy o tych
 sprawach mówić i myśleć jasno i konsekwentnie. A to, że kluczową rolę odgrywa w tym wszystkim ocena
-można wyrazić wprost formalnie za pomocą pojęcia relacji porządku. Wreszcie to, że to jest zarazem
-proces fizyczny i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym
+można wyrazić formalnie i wprost za pomocą [relacji
+porządku](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9Bciowy_porz%C4%85dek). Wreszcie to, że to jest
+zarazem proces fizyczny i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym
 przypadku tylko *fizycznie przybliżana*, w zasadzie niemal już zostało sformalizowane, bo to jest
 *prawie* współczesna matematyczna teoria przyczynowości, która jest jednocześnie pewnego rodzaju
 teorią programowania; brakuje w niej tylko *jednego* składnika.
