@@ -110,8 +110,8 @@ zabawa symbolami będzie również naszym punktem dojścia.
 ### Zagadka "filozoficzna"
 
 *Ten fragment możesz spokojnie potraktować jako ciekawostkę, bo to, o czym tutaj mówię, nieprędko
-stanie się dla nas ważne. Wspominam o tym już teraz, bo mam nadzieję, że w ten sposób uda mi się
-zwiększyć zainteresowanie u osób zajmujących się psychologią.*
+stanie się dla nas ważne. Wspominam o tym już teraz, bo mam nadzieję wzbudzić w ten sposób
+zainteresowanie u osób zajmujących się psychologią.*
 
 Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
 hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
@@ -146,19 +146,26 @@ jest przypadkiem - szczególnie ważną - *subdyscypliną psychologii*?
 Ktoś, kto zetknął się wcześniej z filozofią, mógłby powiedzieć, że "to przecież psychologizm", mając
 na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzie używają liczb (bardzo
 różnie i często popełniając błędy) to jedno, a to, jakie prawa rządzą liczbami i czym liczby są, to
-co innego. Aksjomaty, definicje i twierdzenia matematyczne mówią nam jak *powinniśmy* używać między
+co innego. Aksjomaty, definicje i twierdzenia matematyczne mówią jak *powinniśmy* używać między
 innymi "języka liczbowego", a nie jak go faktycznie używamy.
 
 No dobrze, ale zawsze, gdy faktycznie - nieuchronnie popełniając czasem błędy - myślimy o liczbach,
 nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to znaczy właśnie
-myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. To, że popełniamy przy tym
-czasem błędy, nie zmienia faktu, że to są właśnie *błędy*. Faktyczna myśl albo wypowiedź na temat
-liczb w ogóle *może* być błędna tylko dlatego, że jest *nierozerwalnie związana z pewnym ideałem
-logicznej poprawności*, który taka faktyczna myśl albo wypowiedź lepiej lub gorzej *fizycznie
-przybliża*. Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie* lub *nieoptymalnie*
-tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami, przynajmniej jako
-*teoretyczna możliwość*, poprawny albo w pewnym sensie optymalny sposób kupowania chleba czy
-wiązania sznurowadeł.
+myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. Mówiąc ogólnie, każde
+zachowanie jest nierozerwalnie związane z jakimś mniej lub bardziej określonym standardem
+poprawności albo skuteczności albo adekwatności albo czegoś w tym rodzaju.
+
+To, że mówiąc lub myśląc o liczbach popełniamy czasem błędy, nie zmienia faktu, że to są właśnie
+*błędy*. Każdy błąd *jako błąd*, zanim zapiszemy go na przykład jako - dla nas zrozumiałe, bo
+*pamiętamy, co znaczy* - zero na teście, jest czymś w rodzaju "wektora" w tym znaczeniu, że ma
+wielkość, początek (ideał wykonania poprawnego albo optymalnego) i koniec (faktyczna próba
+wykonania). Faktyczna myśl albo wypowiedź na temat liczb w ogóle *może* być błędna tylko dlatego, że
+jest *nierozerwalnie związana z pewnym wzorcem logicznej poprawności*, który taka faktyczna myśl
+albo wypowiedź lepiej lub gorzej *fizycznie przybliża*. Podobnie kupić chleb albo zawiązać
+sznurowadła można *nieskutecznie* lub *nieoptymalnie* tylko dlatego, że istnieje nierozerwalnie
+związany pojęciowo z tymi zachowaniami, przynajmniej jako *teoretyczna możliwość*, (być może
+parametryczny) poprawny albo w jakimś sensie optymalny sposób kupowania chleba czy wiązania
+sznurowadeł.
 
 I to jest cecha wszystkich bez wyjątku *działań celowych* po prostu dlatego, że każde działanie
 celowe - również nieskuteczne, błędne czy nieoptymalne działanie celowe - *jest określone przez
