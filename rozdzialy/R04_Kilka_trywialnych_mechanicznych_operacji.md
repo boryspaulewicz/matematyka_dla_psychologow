@@ -640,13 +640,15 @@ teorią programowania; brakuje w niej tylko *jednego* składnika.
 
 Żeby jakiś proces był robieniem sobie kawy, musi być, nawet jeżeli tylko przez chwilę i tylko do
 pewnego stopnia, *wystarczająco skutecznym wykonaniem pewnego zadania w normalnych warunkach*. W
-dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy racjonalnej
-perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sobie kawy tym, czym jest*. Każde
-zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i biologicznym, ale zachowanie *jako
-takie* jest przede wszystkim - nierzadko błędnym, tylko częściowo spójnym, i nie całkiem albo nie
-zawsze konwekwentnym, ale wciąż *przede wszystkim* - działaniem celowym, a zatem również logicznym,
-matematycznym i programistycznym. Bo jest *wystarczająco skutecznym lub przybliżonym wykonywaniem
-pewnego zadania lub zadań polegającym na stosowaniu Się do określonych reguł*. 
+dodatku gdy opisujemy ten proces właśnie z tej zadaniowej, czy celowościowej, czy racjonalnej, czy
+wręcz logicznej perspektywy - w [najgłębszym znaczeniu tego
+słowa](https://pl.wikipedia.org/wiki/Logos_(filozofia)) - mówimy *dokładnie* o tym, *co czyni proces
+robienia sobie kawy tym, czym jest*. Każde zachowanie jest co prawda zjawiskiem fizycznym,
+chemicznym i biologicznym, w tym również neuronalnym, ale zachowanie *jako takie* jest przede
+wszystkim - nierzadko błędnym, tylko częściowo spójnym, i nie całkiem albo nie zawsze konwekwentnym,
+ale wciąż *przede wszystkim* - działaniem celowym, a zatem również logicznym, matematycznym i
+programistycznym. Bo jest *wystarczająco skutecznym lub przybliżonym wykonywaniem pewnego zadania
+lub zadań polegającym na stosowaniu Się do określonych reguł*. 
 
 Gdyby tylko psychologowie poznawczy i nie tylko oni, mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
