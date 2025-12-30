@@ -703,7 +703,7 @@ Tak się też [składa](https://plato.stanford.edu/entries/compositionality/), �
 
 <br>
 
-Rozumiesz więc, że trochę mnie przy tym ponosi, prawda?
+Rozumiesz więc, że trochę mnie przy tym [ponosi](https://www.etymonline.com/word/inspiration), prawda?
 
 <br>
 
