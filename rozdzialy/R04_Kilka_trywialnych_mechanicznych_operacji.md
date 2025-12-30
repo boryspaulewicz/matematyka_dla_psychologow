@@ -659,8 +659,8 @@ trzeba *algorytmów* ani rozwiązań *optymalnych*, za to znaczenie pierwszorzę
 komputery zostały *stworzone na podobieństwo ludzi* pod tym kluczowym dla całej psychologii
 względem, że są *wystarczająco skutecznie niemal dowolnie programowalne*.
 
-Można wręcz powiedzieć, że to jest *centralna teza*, z której wyrasta, którą wyraża, i którą
-ilustruje na różne sposoby ta książka:
+Można powiedzieć, że to jest *centralna teza*, z której wyrasta, którą wyraża, i którą ilustruje na
+różne sposoby ta książka:
 
 <hr>
 
