@@ -699,7 +699,7 @@ narzędzi służących do poznawania, rozumienia i kontroli wymaga ostatecznie t
 <br>
 
 Tak się też [składa](https://plato.stanford.edu/entries/compositionality/), że mam na to
-[ochotę](https://youtu.be/ARcEpefk3Oo?si=7oKAbdDc-daB_2q0).
+[ochotę](https://youtu.be/ENrs91FkuFk?si=4GVwRif2kwEAQWeY).
 
 <br>
 
