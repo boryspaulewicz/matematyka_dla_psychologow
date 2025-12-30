@@ -671,9 +671,13 @@ samych i siebie nawzajem**.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
-w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy* - prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
-temat!). W dodatku psychologowie mają (więcej niż) *dwa* dobre powody, żeby się z nimi zapoznać, bo
-używanie tych narzędzi jest jedną z tych rzeczy, które robią ludzie. 
+w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
+- prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
+temat!). W dodatku psychologowie mają więcej niż dwa dobre powody, żeby się z nimi zapoznać, bo
+używanie tych narzędzi jest nie tylko jedną z tych rzeczy, które *robią ludzie*, ale też na nich,
+między innymi, *opiera się nasza* [*cywilizacja*](https://en.wikipedia.org/wiki/Civilization), w tym
+także sposoby *działania*, za pomocą których kontrolujemy nasze codzienne środowisko i *regulujemy*
+społeczne interakcje.
 
 Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *faktycznie mogą* te narzędzia
 opanować, i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając
