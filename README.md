@@ -21,9 +21,11 @@ wsłuchiwania się w siebie (nawzajem).
 
 <hr>
 
-**Aktualności**: 2025.08.03 Dodałem [osobny fragment](./rozdzialy/Wujek_dobra_rada.md) zawierający
-najważniejsze moim zdaniem rady dotyczące czytania tej książki. Odsyłam teraz do niego na początku
-niektórych rozdziałów wprowadzających.
+**Aktualności**: 2025.12.30 Dodałem sporo nowych fragmentów do [rozdziału
+4](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md), ponieważ zadałem ten rozdział,
+razem z kilkoma następnymi, jako lekturę obowiązkową do zajęć, i przekonałem się dzięki temu, że dla
+niemałej części naszych wyjątkowo zdolnych studentów nie jest wcale jasne, dlaczego i po co mieliby
+się czegoś takiego uczyć.
 
 Zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych krytycznych.
