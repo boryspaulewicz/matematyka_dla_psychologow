@@ -679,10 +679,18 @@ między innymi, *opiera się nasza* [*cywilizacja*](https://en.wikipedia.org/wik
 także sposoby *działania*, za pomocą których kontrolujemy nasze codzienne środowisko i *regulujemy*
 społeczne interakcje.
 
+Żeby zdać sobie z tego sprawę, wystarczy zauważyć jak wiele w tej osobistej przestrzeni, którą
+nazywamy własnym domem, i w tej mniej osobistej, którą nazywamy miejscem zamieszkania, można znaleźć
+w pewnym sensie kanonicznych kształtów, takich jak kąty proste, okręgi i elipsy, czy inne proste
+symetrie. Albo w jak ogromnym stopniu nasza codzienna komunikacja, w tym również komunikacja *ze
+sobą* będąca między innymi myśleniem, polega na prostych społecznych konwencjach.
+
 Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *faktycznie mogą* te narzędzia
 opanować, i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając
-nieudolnie *prawdziwych* naukowców. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest *fizyczne
-udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
+nieudolnie *prawdziwych* naukowców i naśladując - *prawie w ogóle nie znając odgrywającej w nich
+kluczową rolę matematyki* - nauki empiryczne takie jak fizyka, chemia, czy biologia, których
+przedmiotem są zjawiska *innego rodzaju*. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest
+*fizyczne udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
 poprawianie tej osobliwej książki, że to może być w miarę *bezbolesne*, a nawet, że może budzić
 *zachwyt*, i że opanowanie podstaw używania tych naszych najlepszych i najbardziej uniwersalnych
@@ -690,7 +698,8 @@ narzędzi służących do poznawania, rozumienia i kontroli wymaga ostatecznie t
 
 <br>
 
-Tak się też składa, że mam na to ochotę.
+Tak się też [składa](https://plato.stanford.edu/entries/compositionality/), że mam na to
+[ochotę](https://youtu.be/ARcEpefk3Oo?si=7oKAbdDc-daB_2q0).
 
 <br>
 
