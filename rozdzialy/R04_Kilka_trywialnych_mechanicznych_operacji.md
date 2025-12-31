@@ -699,8 +699,8 @@ sumuję = funkcja (){
 
 To jest [*rekurencyjna*](https://pl.wikipedia.org/wiki/Rekurencja) funkcja (bezargumentowa, co
 poznajemy po pustych nawiasach występujących po słowie "funkcja"), która w ostatnim kroku
-[*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, *samą siebie*, przez co *trwa w
-swoim sposobie działania*. 
+[*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, [*samą
+siebie*](https://pl.wikipedia.org/wiki/Uroboros), przez co *trwa w swoim sposobie działania*. 
 
 *Tak samo jak my, dopóki żyjemy*.
 
