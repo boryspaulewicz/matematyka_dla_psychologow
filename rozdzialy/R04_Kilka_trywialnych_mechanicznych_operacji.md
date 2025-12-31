@@ -731,14 +731,14 @@ większości publikacji. Albo zobaczyć jakie *elementarne* i *ważne błędy lo
 znaleźć już w samych tytułach i abstraktach pisanych przez psychologów publikacji recenzowanych.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
-tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
-w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
-- prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
-temat). W dodatku psychologowie mają więcej niż dwa dobre powody, żeby się z nimi zapoznać, bo
-używanie tych narzędzi jest nie tylko jedną z tych rzeczy, które *robią ludzie*, ale też na nich,
-między innymi, *opiera się nasza* [*cywilizacja*](https://en.wikipedia.org/wiki/Civilization), w tym
-także sposoby działania, za pomocą których *kontrolujemy* (a nie tylko *wpływamy na*) nasze
-codzienne środowisko i *regulujemy* społeczne interakcje.
+tego, że ta dyscyplina dotyczy niezwykle złożonych i trudnych do postrzegania w sposób zdystansowany
+i abstrakcyjny zjawisk - bo chodzi w niej o to, *czym jesteśmy* - prawie w ogóle nie potrafi
+korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny* temat). W dodatku psychologowie
+mają więcej niż dwa dobre powody, żeby się z nimi zapoznać, bo używanie tych narzędzi jest nie tylko
+jedną z tych rzeczy, które *robią ludzie*, ale też na nich, między innymi, *opiera się nasza*
+[*cywilizacja*](https://en.wikipedia.org/wiki/Civilization), w tym także sposoby działania, za
+pomocą których *kontrolujemy* (a nie tylko *wpływamy na*) nasze codzienne środowisko i *regulujemy*
+społeczne interakcje.
 
 Żeby zdać sobie z tego sprawę, wystarczy zauważyć jak wiele w tej osobistej przestrzeni, którą
 nazywamy własnym domem, i w tej mniej osobistej, którą nazywamy miejscem zamieszkania, można znaleźć
