@@ -669,6 +669,31 @@ samych i siebie nawzajem**.
 
 <hr>
 
+*Dwa* z *trzech* wymienionych aspektów zachowania, to jest aspekt *fizycznej interakcji* ze światem,
+w tym również ze "światem wewnętrznym" *własnego ciała*, i aspekt - wystarczająco dobrze
+przybliżonej - *logicznej spójności* albo *konsekwentności* tej interakcji odpowiadają dokładnie
+dwóm podstawowym paradygmatom programowania, to jest [*programowaniu
+imperatywnemu*](https://pl.wikipedia.org/wiki/Programowanie_imperatywne), którego nazwa pochodzi od
+nazwy trybu rozkazującego w języku naturalnym, i [*programowaniu
+funkcyjnemu*](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne), którego nazwa pochodzi od
+pojęcia funkcji, z którego to pojęcia w pewnym sensie [wyrasta cała matematyka
+teoretyczna](https://youtu.be/zHU1xH6Ogs4?si=6bWm4E0TJgOhdF9p&t=43). Programowanie funkcyjne to
+[*dokładnie*](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) czysta matematyka,
+albo matematyka teoretyczna, a programowanie imperatywne to skomputeryzowana matematyka stosowana.
+Te dwa paradygmaty składają się na *wyidealizowany model logicznej interakcji ze światem fizycznym*.
+Z tej perspektywy matematyka i programowanie (imperatywne) mogą być rozumiane jako dwie
+subdyscypliny psychologii, o ile tą ostatnią będziemy rozumieć jako naukę, której centralnym
+przedmiotem jest (jakiekolwiek) działanie celowe. 
+
+To dwie *sub*dyscypliny w tym znaczeniu, że dotyczą tylko dwóch spośród *trzech* fundamentalnych
+aspektów działania celowego, to jest aspektu logicznego i przyczynowo-fizycznego. Brakuje w nich
+tylko (i aż) celowości. To jednak oczywiście *nie* są dwie subdyscypliny w tym znaczeniu, że zajmują
+się nimi psychologowie, ponieważ współcześni psychologowie na ogół nie mają za bardzo pojęcia ani o
+matematyce, ani o programowaniu. Żeby się o tym przekonać wystarczy zapytać kilku współczesnych
+badaczy o definicję regresji liniowej, którą psychologowie stosują w zdecydowanej większości
+publikacji. Albo zobaczyć jakie *elementarne* błędy logiczne można *często* znaleźć już w samych
+tytułach i abstraktach publikacji recenzowanych pisanych przez psychologów.
+
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
 w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
@@ -676,19 +701,20 @@ w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi
 temat!). W dodatku psychologowie mają więcej niż dwa dobre powody, żeby się z nimi zapoznać, bo
 używanie tych narzędzi jest nie tylko jedną z tych rzeczy, które *robią ludzie*, ale też na nich,
 między innymi, *opiera się nasza* [*cywilizacja*](https://en.wikipedia.org/wiki/Civilization), w tym
-także sposoby *działania*, za pomocą których kontrolujemy nasze codzienne środowisko i *regulujemy*
-społeczne interakcje.
+także sposoby działania, za pomocą których *kontrolujemy* (a nie tylko *wpływamy na*) nasze
+codzienne środowisko i *regulujemy* społeczne interakcje.
 
 Żeby zdać sobie z tego sprawę, wystarczy zauważyć jak wiele w tej osobistej przestrzeni, którą
 nazywamy własnym domem, i w tej mniej osobistej, którą nazywamy miejscem zamieszkania, można znaleźć
 w pewnym sensie kanonicznych kształtów, takich jak kąty proste, okręgi i elipsy, czy inne proste
 symetrie. Albo w jak ogromnym stopniu nasza codzienna komunikacja, w tym również komunikacja *ze
-sobą* będąca między innymi myśleniem, polega na prostych społecznych konwencjach.
+sobą* będąca między innymi myśleniem, opiera się na prostych [społecznych
+konwencjach](https://pl.wikipedia.org/wiki/Lew_Wygotski).
 
 Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *faktycznie mogą* te narzędzia
 opanować, i wynika też stąd *moralnie*, że *powinni*, jeżeli nie chcą się dalej wygłupiać udając
 nieudolnie *prawdziwych* naukowców i naśladując - *prawie w ogóle nie znając odgrywającej w nich
-kluczową rolę matematyki* - nauki empiryczne takie jak fizyka, chemia, czy biologia, których
+kluczową rolę matematyki* - takie nauki empiryczne jak fizyka, chemia, czy biologia, których
 przedmiotem są zjawiska *innego rodzaju*. Dlatego *moim celem* i jednocześnie *obowiązkiem* jest
 *fizyczne udowodnienie*, zarówno sobie jak i Tobie, za pomocą *półformalnego*
 [*metaprogramowania*](https://pl.wikipedia.org/wiki/Metaprogramowanie), którym jest pisanie i
