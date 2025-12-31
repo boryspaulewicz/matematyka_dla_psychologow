@@ -683,22 +683,58 @@ albo matematyka teoretyczna, a programowanie imperatywne to skomputeryzowana mat
 Te dwa paradygmaty składają się na *wyidealizowany model logicznej interakcji ze światem fizycznym*.
 Z tej perspektywy matematyka i programowanie (imperatywne) mogą być rozumiane jako dwie
 subdyscypliny psychologii, o ile tą ostatnią będziemy rozumieć jako naukę, której centralnym
-przedmiotem jest (jakiekolwiek) działanie celowe. 
+przedmiotem jest (jakiekolwiek) działanie celowe.
 
-To dwie *sub*dyscypliny w tym znaczeniu, że dotyczą tylko dwóch spośród *trzech* fundamentalnych
-aspektów działania celowego, to jest aspektu logicznego i przyczynowo-fizycznego. Brakuje w nich
-tylko (i aż) celowości. To jednak oczywiście *nie* są dwie subdyscypliny w tym znaczeniu, że zajmują
-się nimi psychologowie, ponieważ współcześni psychologowie na ogół nie mają za bardzo pojęcia ani o
-matematyce, ani o programowaniu. Żeby się o tym przekonać wystarczy zapytać kilku współczesnych
-badaczy o definicję regresji liniowej, którą psychologowie stosują w zdecydowanej większości
-publikacji. Albo zobaczyć jakie *elementarne* błędy logiczne można *często* znaleźć już w samych
-tytułach i abstraktach publikacji recenzowanych pisanych przez psychologów.
+Rozważmy na przykład taki oto program, napisany w zmyślonym języku:
+
+```
+sumuję = funkcja (){
+   powiedz!("Podaj mi dwie liczby");
+   pierwsza = słuchaj_aż_usłyszysz_liczbę!();
+   druga = słuchaj_aż_usłyszysz_liczbę!();
+   powiedz!(zrób_tekst("Wynik to ", pierwsza + druga));
+   sumuję();
+}
+```
+
+To jest [*rekurencyjna*](https://pl.wikipedia.org/wiki/Rekurencja) funkcja (bezargumentowa, co
+poznajemy po pustych nawiasach występujących po słowie "funkcja"), która w ostatnim kroku
+[*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, *samą siebie*, przez co *trwa w
+swoim sposobie działania*. 
+
+*Tak samo jak my, dopóki żyjemy*.
+
+W *ciele* tej funkcji widzimy fragmenty *logiczne* albo *formalne*, takie jak *wyrażenie*
+`zrób_tekst("Wynik to ", pierwsza + druga)`, których rezultat, powstający w procesie *ewaluacji*,
+jest jednoznacznie określony przez pewne *reguły*. Widzimy też *instrukcje*, skierowane *do siebie*,
+które poznajemy po symbolu `!`. Rezultatami *ewaluacji wyrażeń* są *wnioski*. Rezultatami
+*wykonywania instrukcji* są *fizyczne interakcje ze światem*.
+
+W przypadku *instrukcji* rezultat jest co najwyżej mniej lub bardziej *prawdopodobny i ograniczony
+przez czas*. Tego rodzaju rezultatu nie da się *ustalić* posługując się samą logiką (przyjętych
+reguł). W końcu kiedy mówimy do kogoś "Podaj mi dwie liczby", ta osoba może *później* podać tylko
+jedną, albo powiedzieć coś innego, albo może sobie pójść, albo może nie być w pobliżu żadnej osoby.
+Gdy postanawiamy coś powiedzieć, nasze ciało może skutecznie zrealizować tą decyzję, albo nie.
+Wreszcie, gdy tego rodzaju program działa na fizycznym urządzeniu, to ponieważ żadne urządzenie nie
+jest niezawodne po prostu dlatego, że jest *urządzeniem fizycznym*, ten program *może* w każdej
+chwili przestać działać. To jednak nie zmienia faktu, że program `sumuję` *jako taki* składa się
+zarówno z częsci *fizyczno-przyczynowych*, czy może raczej "interwencyjnych", jak i *logicznych*.
+
+Matematyka i programowanie to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
+spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego i
+fizyczno-przyczynowego. Brakuje w nich tylko (i aż) celowości. To jednak oczywiście *nie* są dwie
+subdyscypliny w tym znaczeniu, że zajmują się nimi psychologowie, ponieważ współcześni
+psychologowie, w tym również Ci, którzy uważają się za naukowców, na ogół nie mają za bardzo pojęcia
+ani o matematyce, ani o programowaniu. Żeby się o tym przekonać wystarczy zapytać kilku
+współczesnych psychologów o definicję regresji liniowej, którą psychologowie stosują w zdecydowanej
+większości publikacji. Albo zobaczyć jakie *elementarne* i *ważne błędy logiczne* można *często*
+znaleźć już w samych tytułach i abstraktach pisanych przez psychologów publikacji recenzowanych.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle złożonych i być może wręcz najtrudniejszych do postrzegania
 w sposób zdystansowany i abstrakcyjny zjawisk - bo chodzi w niej między innymi o to, *czym jesteśmy*
 - prawie w ogóle nie potrafi korzystać z naszych najlepszych narzędzi rozumowania (na *dowolny*
-temat!). W dodatku psychologowie mają więcej niż dwa dobre powody, żeby się z nimi zapoznać, bo
+temat). W dodatku psychologowie mają więcej niż dwa dobre powody, żeby się z nimi zapoznać, bo
 używanie tych narzędzi jest nie tylko jedną z tych rzeczy, które *robią ludzie*, ale też na nich,
 między innymi, *opiera się nasza* [*cywilizacja*](https://en.wikipedia.org/wiki/Civilization), w tym
 także sposoby działania, za pomocą których *kontrolujemy* (a nie tylko *wpływamy na*) nasze
