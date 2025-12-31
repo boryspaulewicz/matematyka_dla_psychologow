@@ -12,10 +12,12 @@ sprawdzać tak dawno, że używałem do tego jeszcze zegarka z [różą
 wiatrów](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCa_wiatr%C3%B3w) jako minutnikiem.
 
 Dlatego na zajęciach często wprowadzam krótkie przerwy co około pół godziny, i dlatego staram się
-pisać rozdziały tak, żeby *najwyżej* tyle czasu wymagało ich przeczytanie, zakładając względnie
-aktywną postawę w trakcie lektury rozdziałów wcześniejszych. Sam zresztą potrzebuję takich krótkich
-przerw w trakcie prowadzenia zajęć, bo dzięki temu często zauważam, że zapomniałem powiedzieć coś
-ważnego, albo że mogę coś powiedzieć lepiej.
+pisać większość rozdziałów tak, żeby *najwyżej* tyle czasu wymagało ich przeczytanie, zakładając
+względnie aktywną postawę w trakcie lektury rozdziałów wcześniejszych. Wyjątkiem jest między innymi
+rozdział czwarty, który rozrósł się znacznie na skutek informacji zwrotnych, jakie otrzymałem od
+moich (zdziwionych lekturą) studentów. Sam zresztą potrzebuję takich krótkich przerw w trakcie
+prowadzenia zajęć, bo dzięki temu często zauważam, że zapomniałem powiedzieć coś ważnego, albo że
+mogę coś powiedzieć lepiej.
 
 Po około 25-30 minutach dobrze na mnie działa krótka przerwa. Najlepiej, gdy to jest około 5 minut
 nie robienia niczego wciągającego ani poznawczo (na przykład, czytanie odpada, podobnie jak
