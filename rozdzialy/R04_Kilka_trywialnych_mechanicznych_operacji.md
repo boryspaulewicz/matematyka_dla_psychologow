@@ -704,7 +704,16 @@ siebie*](https://pl.wikipedia.org/wiki/Uroboros), przez co *trwa w swoim sposobi
 
 *Tak samo jak my, dopóki żyjemy*.
 
-W *ciele* tej funkcji widzimy fragmenty *logiczne* albo *formalne*, takie jak *wyrażenie*
+Rzeczywisty podmiot to jakakolwiek działająca fizycznie funkcja, która wywołuje i programuje samą
+siebie w sposób (który można opisać jako) celowy. To co w psychologii nazywamy selektywnością uwagi
+odpowiada skończonej liczbie i typowaniu (o czym niebawem) wejść. Pamięć to korzystanie z
+wcześniejszych wartości wejść. Rozumowanie to stosowanie reguł (językowych). Planowanie to tworzenie
+programu działania dla samej siebie. Programowanie (Się) można więc traktować jako uogólnienie pojęć
+zapamiętywania, uczenia (Się) i planowania. Automatyzacja odpowiada
+[kompilacji](https://pl.wikipedia.org/wiki/Kompilator) albo
+[interpretacji](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
+
+W *ciele* funkcji `sumuję` widzimy fragmenty *logiczne* albo *formalne*, takie jak *wyrażenie*
 `zrób_tekst("Wynik to ", pierwsza + druga)`, których rezultat, powstający w procesie *ewaluacji*,
 jest jednoznacznie określony przez pewne *reguły*. Widzimy też *instrukcje*, skierowane *do siebie*,
 które poznajemy po symbolu `!`. Rezultatami *ewaluacji wyrażeń* są *wnioski*. Rezultatami
@@ -712,7 +721,7 @@ które poznajemy po symbolu `!`. Rezultatami *ewaluacji wyrażeń* są *wnioski*
 
 W przypadku *instrukcji* rezultat jest co najwyżej mniej lub bardziej *prawdopodobny i ograniczony
 przez czas*. Tego rodzaju rezultatu nie da się *ustalić* posługując się samą logiką (przyjętych
-reguł). W końcu kiedy mówimy do kogoś "Podaj mi dwie liczby", ta osoba może *później* podać tylko
+reguł). W końcu kiedy mówimy do kogoś "Podaj mi dwie liczby", ta osoba może (później) podać tylko
 jedną, albo powiedzieć coś innego, albo może sobie pójść, albo może nie być w pobliżu żadnej osoby.
 Gdy postanawiamy coś powiedzieć, nasze ciało może skutecznie zrealizować tą decyzję, albo nie.
 Wreszcie, gdy tego rodzaju program działa na fizycznym urządzeniu, to ponieważ żadne urządzenie nie
