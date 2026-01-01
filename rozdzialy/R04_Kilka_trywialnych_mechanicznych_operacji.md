@@ -704,12 +704,12 @@ siebie*](https://pl.wikipedia.org/wiki/Uroboros), przez co *trwa w swoim sposobi
 
 *Tak samo jak my, dopóki żyjemy*.
 
-Rzeczywisty podmiot to jakakolwiek działająca fizycznie funkcja, która wywołuje i programuje samą
-siebie w sposób (który można opisać jako) celowy. To co w psychologii nazywamy selektywnością uwagi
-odpowiada skończonej liczbie i typowaniu (o czym niebawem) wejść. Pamięć to korzystanie z
-wcześniejszych wartości wejść. Rozumowanie to stosowanie reguł (językowych). Planowanie to tworzenie
-programu działania dla samej siebie. Programowanie (Się) można więc traktować jako uogólnienie pojęć
-zapamiętywania, uczenia (Się) i planowania. Automatyzacja odpowiada
+*Rzeczywisty podmiot* to *działająca fizycznie funkcja, która wywołuje i programuje samą siebie w
+sposób* (który można opisać jako) *celowy*. To co w psychologii nazywamy *selektywnością uwagi*
+odpowiada *skończonej liczbie i typowaniu* (o czym niebawem) *wejść* tego rodzaju funkcji. Pamięć to
+*wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie reguł (językowych)*.
+*Planowanie* to *tworzenie programu działania dla samej siebie*. Programowanie (Się) można więc
+traktować jako uogólnienie pojęć zapamiętywania, uczenia (Się) i planowania. Automatyzacja odpowiada
 [kompilacji](https://pl.wikipedia.org/wiki/Kompilator) albo
 [interpretacji](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
 
@@ -730,11 +730,15 @@ chwili przestać działać.
 
 To jednak nie zmienia faktu, że program `sumuję` *jako taki* składa się zarówno z częsci
 *fizyczno-przyczynowych*, które można by również nazwać *interwencyjnymi*, o ile pozwolimy sobie
-myśleć o obserwacji jako szczególnym rodzaju działania, jak i *logicznych*. Różnicę można objaśnić
-między innymi tak: Słuchać kogoś albo mówić coś do kogoś można zarazem poprawnie i nieskutecznie, bo
-wynik tych działań zależy nie tylko od sposobu, w jaki zostały wykonane, za to nie da się poprawnie
-i nieskutecznie złożyć ze słów zdania, bo (abstrakcyjne) pojęcie składania zdania jest czysto
-funkcjonalne.
+myśleć o obserwacji jako szczególnym rodzaju fizycznej interakcji ze światem, jak i *logicznych*.
+Różnicę można objaśnić między innymi tak: Słuchać kogoś albo mówić coś do kogoś można *zarazem
+poprawnie i nieskutecznie*, bo wynik tego rodzaju działania zależy nie *tylko* od sposobu, w jaki
+zostało wykonane, za to *nie da się* poprawnie i nieskutecznie złożyć z sekwencji słów zdania, bo
+(abstrakcyjne) pojęcie składania zdania jest "czysto funkcjonalne". Z tej perspektywy działania
+polegające na *konstrukcji* czegoś *zgodnie z regułami* (na przykład, zdania zgodnie z regułami
+językowymi) nie różnią się od działań polegających na dedukcyjnym wyprowadzaniu wniosków. W
+przypadku takich "działań regularnych" poprawność i skuteczność to jedno i to samo. Zachowując Się
+wykonujemy oba rodzaje działań, w dodatku celowo.
 
 Matematyka i programowanie to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego i
