@@ -717,8 +717,15 @@ jedną, albo powiedzieć coś innego, albo może sobie pójść, albo może nie 
 Gdy postanawiamy coś powiedzieć, nasze ciało może skutecznie zrealizować tą decyzję, albo nie.
 Wreszcie, gdy tego rodzaju program działa na fizycznym urządzeniu, to ponieważ żadne urządzenie nie
 jest niezawodne po prostu dlatego, że jest *urządzeniem fizycznym*, ten program *może* w każdej
-chwili przestać działać. To jednak nie zmienia faktu, że program `sumuję` *jako taki* składa się
-zarówno z częsci *fizyczno-przyczynowych*, czy może raczej "interwencyjnych", jak i *logicznych*.
+chwili przestać działać.
+
+To jednak nie zmienia faktu, że program `sumuję` *jako taki* składa się zarówno z częsci
+*fizyczno-przyczynowych*, które można by również nazwać *interwencyjnymi*, o ile pozwolimy sobie
+myśleć o obserwacji jako szczególnym rodzaju działania, jak i *logicznych*. Różnicę można objaśnić
+między innymi tak: Słuchać kogoś albo mówić coś do kogoś można zarazem poprawnie i nieskutecznie, bo
+wynik tych działań zależy nie tylko od sposobu, w jaki zostały wykonane, za to nie da się poprawnie
+i nieskutecznie złożyć ze słów zdania, bo (abstrakcyjne) pojęcie składania zdania jest czysto
+funkcjonalne.
 
 Matematyka i programowanie to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego i
