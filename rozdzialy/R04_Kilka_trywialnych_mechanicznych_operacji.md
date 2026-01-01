@@ -116,18 +116,18 @@ zainteresowanie u osób zajmujących się psychologią.*
 Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
 hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
 przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak zapis
-*Jeżeli A = B i B = C, to A = C.*) możemy traktować jak przepisy (dzięki czemu *są* przepisami).
-Najgłębszą podstawą całej matematyki są zatem *nasze cele, postawy i sposoby działania*. Nawet jeśli
-przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", nie ma *dla nas* i nigdy
-nie będzie innej matematyki niż ta, której *jesteśmy w stanie używać do rozumowania*, ponieważ
-ostatecznie matematyka jako taka jest *naszym narzędziem*.
+*Jeżeli A = B i B = C, to A = C*) możemy traktować jak przepisy (dzięki czemu *są* przepisami). Czy
+wobec tego najgłębszą podstawą całej matematyki nie są *nasze cele, postawy i sposoby działania*?
+Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", nie ma *dla
+nas i nigdy nie będzie* innej matematyki niż ta, której *jesteśmy w stanie używać do rozumowania*,
+ponieważ ostatecznie matematyka jako taka jest *naszym narzędziem*.
 
 Żeby przepis był przepisem, musi istnieć ktoś, kto może go jako przepisu używać, i tak samo żeby
 sposób używania tego przepisu był tym, czym jest, to jest pewnym sposobem używania czegoś, musi
 istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane* (tutaj przepis) i (choćby tylko
 hipotetyczny) *ktoś, kto może ten sposób stosować*.
 
-Można więc powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
+Można powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
 pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem użytkownika, nawet jeśli
 tylko hipotetycznego. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli
 czegoś, dosłownie czegokolwiek, możemy *używać jak przepisu*, to to coś po prostu *jest* dla nas
@@ -135,25 +135,26 @@ przepisem. A jeśli coś jest przepisem, to znaczy, że można tego czegoś uży
 
 Przepis jako taki i sposób używania go to zatem *to samo pojęcie oglądane z dwóch stron*, które
 można by nazwać obiektową albo materialną (to *fizyczny zapis*, ...) i funkcjonalną albo użytkową
-(... a to jest jego *sens*). Nie ma przepisów (będących sposobami ich używania) bez przynajmniej
-potencjalnie używającego ich jako przepisów przynajmniej hipotetycznego podmiotu. Za to podmioty
+(... a to jego *sens*). Nie ma przepisów (będących sposobami ich używania) bez przynajmniej
+potencjalnie używającego ich jako przepisów, przynajmniej hipotetycznego podmiotu. Za to podmioty
 (również te hipotetyczne), istnieją (jeśli hipotetycznie, to aksjomatycznie) niezależnie od tego,
-czy używają przepisów.
+czy używają jakiegoś konkretnego przepisu.
 
 Czy w takim razie matematyka (i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ)) nie
 jest przypadkiem - szczególnie ważną - *subdyscypliną psychologii*?  
 
 Ktoś, kto zetknął się wcześniej z filozofią, mógłby powiedzieć, że "to przecież psychologizm", mając
-na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzie używają liczb (bardzo
-różnie i często popełniając błędy) to jedno, a to, jakie prawa rządzą liczbami i czym liczby są, to
-co innego. Aksjomaty, definicje i twierdzenia matematyczne mówią jak *powinniśmy* używać między
-innymi "języka liczbowego", a nie jak go faktycznie używamy.
+na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzie używają liczb - bardzo
+różnie i często popełniając błędy - to jedno, a to, jakie prawa rządzą liczbami i czym liczby są, to
+co innego. Taki filozofujący ktoś mógłby też dodać, że aksjomaty, definicje i twierdzenia
+matematyczne mówią jak *powinniśmy* używać między innymi "języka liczbowego", a nie jak go
+faktycznie używamy.
 
-No dobrze, ale zawsze, gdy faktycznie - nieuchronnie popełniając czasem błędy - myślimy o liczbach,
-nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to znaczy właśnie
-myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*. Mówiąc ogólnie, każde
-zachowanie jest nierozerwalnie związane z jakimś mniej lub bardziej określonym standardem
-poprawności albo skuteczności albo adekwatności albo czegoś w tym rodzaju.
+No dobrze, ale zawsze, gdy *faktycznie* - nieuchronnie popełniając czasem błędy - myślimy (lub
+mówimy) o liczbach, nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy
+jest, to znaczy właśnie myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*.
+Mówiąc ogólnie, każde zachowanie jest nierozerwalnie związane z jakimś mniej lub bardziej określonym
+standardem poprawności albo skuteczności albo adekwatności albo czegoś w tym rodzaju.
 
 To, że mówiąc lub myśląc o liczbach popełniamy czasem błędy, nie zmienia faktu, że to są właśnie
 *błędy*. Każdy błąd *jako błąd*, zanim zapiszemy go na przykład jako - dla nas zrozumiałe, bo
@@ -175,9 +176,10 @@ zainteresowania psychologii*.
 
 Ktoś, kto używałby słów dotyczących liczb w sposób całkowicie niezwiązany z tymi idealnymi wzorcami,
 albo "oficjalnymi" matematycznymi regułami, *nie zachowywałby się w sposób polegający na mówieniu o
-liczbach*, a więc *nie mówiłby o liczbach*, tylko *wydawał pewne dźwięki*. A poza tym niby w jaki
-sposób tworzymy wszelką matematykę, jeśli nie poprzez wykrywanie rozmaitych idealnych wzorców czy
-regularności w naszych własnych, najczęściej werbalnych zachowaniach?
+liczbach*, a więc *nie mówiłby o liczbach*, tylko *wydawał pewne dźwięki*, być może o innym
+znaczeniu. A poza tym niby w jaki sposób *tworzymy* wszelką matematykę, jeśli nie poprzez
+*odkrywanie* (zauważyłaś, co tu zrobiłem?) idealnych wzorców czy regularności w naszych własnych,
+najczęściej werbalnych zachowaniach?
 
 Taka zagadka.
 
