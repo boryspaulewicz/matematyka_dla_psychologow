@@ -744,7 +744,22 @@ językowymi) nie różnią się od działań polegających na dedukcyjnym wyprow
 przypadku takich "działań regularnych" poprawność i skuteczność to jedno i to samo. Zachowując Się
 wykonujemy oba rodzaje działań, w dodatku celowo.
 
-Matematyka i programowanie to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
+Ten sposób mówienia i myślenia pozwala też wyjaśnić, dlaczego psychologom jest tak blisko do (nie
+tylko neuro-) *biologii*. Biologia zajmuje się co prawda pewnymi obiektami fizycznymi (i
+chemicznymi), ale tylko takimi, które *żyją*. Każda definicja życia, taka jak na przykład
+[ta](https://pl.wikipedia.org/wiki/%C5%BBycie), ma z konieczności charakter funkcjonalny, ponieważ
+(prze)życie to *rozwiązywanie pewnego rodzaju zadania lub zadań*, takich jak reprodukcja czy
+utrzymywanie homeostazy. Dlatego ważną częścią biologii (i medycyny) jest
+[*fizjologia*](https://pl.wikipedia.org/wiki/Fizjologia), która jest nauką nie o dowolnych
+fizycznych strukturach i procesach, tylko o pewnych
+[*mechanizmach*](https://sjp.pwn.pl/sjp/mechanizm;2567284.html), czyli o strukturach i procesach
+postrzeganych jako służące pewnym celom. W dodatku struktura i sposób działania organizmów żywych
+jest wstępnie *zakodowana*, czyli po prostu zaprogramowana, przez DNA. I to są trzy dobre powody,
+żeby postrzegać biologię jako subdyscyplinę - odpowiednio uogólnionej - informatyki (sic!), a więc
+też subdyscyplinę psychologii, rozumianej jako nauka o zachowaniu (a nie tylko o zachowywaniu Się)
+rozumianym jako (jakiekolwiek) działanie celowe.
+
+Matematyka i informatyka to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego (albo
 "konsekwentnego", albo "regularnego") i fizyczno-przyczynowego (albo interwencyjnego). Brakuje w
 nich tylko (i aż) celowości. To jednak oczywiście *nie* są dwie subdyscypliny w tym znaczeniu, że
