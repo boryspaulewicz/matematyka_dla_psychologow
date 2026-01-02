@@ -748,8 +748,8 @@ Ten sposób mówienia i myślenia pozwala też wyjaśnić, dlaczego psychologom 
 tylko neuro-) *biologii*. Biologia zajmuje się co prawda pewnymi obiektami fizycznymi (i
 chemicznymi), ale tylko takimi, które *żyją*. Każda definicja życia, taka jak na przykład
 [ta](https://pl.wikipedia.org/wiki/%C5%BBycie), ma z konieczności charakter funkcjonalny, ponieważ
-(prze)życie to *rozwiązywanie pewnego rodzaju zadania lub zadań*, takich jak reprodukcja czy
-utrzymywanie homeostazy. Dlatego ważną częścią biologii (i medycyny) jest
+życie to *rozwiązywanie pewnego rodzaju zadania lub zadań*, takich jak reprodukcja czy utrzymywanie
+homeostazy. Dlatego ważną częścią biologii (i medycyny) jest
 [*fizjologia*](https://pl.wikipedia.org/wiki/Fizjologia), która jest nauką nie o dowolnych
 fizycznych strukturach i procesach, tylko o pewnych
 [*mechanizmach*](https://sjp.pwn.pl/sjp/mechanizm;2567284.html), czyli o strukturach i procesach
