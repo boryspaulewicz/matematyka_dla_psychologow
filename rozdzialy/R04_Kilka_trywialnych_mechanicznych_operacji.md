@@ -753,11 +753,11 @@ homeostazy. Dlatego ważną częścią biologii (i medycyny) jest
 [*fizjologia*](https://pl.wikipedia.org/wiki/Fizjologia), która jest nauką nie o dowolnych
 fizycznych strukturach i procesach, tylko o pewnych
 [*mechanizmach*](https://sjp.pwn.pl/sjp/mechanizm;2567284.html), czyli o strukturach i procesach
-postrzeganych jako służące pewnym celom. W dodatku struktura i sposób działania organizmów żywych
-jest wstępnie *zakodowana*, czyli po prostu zaprogramowana, przez DNA. I to są trzy dobre powody,
-żeby postrzegać biologię jako subdyscyplinę - odpowiednio uogólnionej - informatyki (sic!), a więc
-też subdyscyplinę psychologii, rozumianej jako nauka o zachowaniu (a nie tylko o zachowywaniu Się)
-rozumianym jako (jakiekolwiek) działanie celowe.
+postrzeganych (przez nas) jako służące pewnym celom. W dodatku struktura i sposób działania
+organizmów żywych jest wstępnie *zakodowana*, czyli po prostu zaprogramowana, przez DNA. I to są
+trzy dobre powody, żeby postrzegać biologię jako subdyscyplinę - odpowiednio uogólnionej -
+informatyki (sic!), a więc też subdyscyplinę psychologii, rozumianej jako nauka o zachowaniu (a nie
+tylko o zachowywaniu Się) rozumianym jako (jakiekolwiek) działanie celowe.
 
 Matematyka i informatyka to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego (albo
