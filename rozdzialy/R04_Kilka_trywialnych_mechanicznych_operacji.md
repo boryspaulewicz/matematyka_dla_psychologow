@@ -858,7 +858,8 @@ A wiesz dlaczego warto odkrywać takie ogólne definicje? Między innymi dlatego
 celu, poprawności, percepcji i rekacji motorycznej można z kolei zdefiniować na tyle abstrakcyjnie,
 żeby dało się *odkrywać psychologiczny charakter zjawisk*, które wcześniej się takie nie wydawały.
 To znaczy odkrywać, że do opisu czy wyjaśniania tych zjawisk *można stosować konsekwentnie
-psychologiczne pojęcia funkcjonalne*, takie jak pojęcie percepcji, pamięci, czy uwagi.
+psychologiczne pojęcia funkcjonalne*, takie jak pojęcia percepcji, pamięci, uwagi, osobowości, albo
+motywacji.
 
 Czy to nie jest ciekawe?
 
