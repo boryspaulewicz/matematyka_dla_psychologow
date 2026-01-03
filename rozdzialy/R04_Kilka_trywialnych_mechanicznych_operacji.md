@@ -881,7 +881,7 @@ percepcja, czy rozumowanie, pojęcie świadomości fenomenalnej, tak jak pojęci
 siły, czy masy, *nie jest funkcjonalne*.
 
 Pamięć, tak jak uwaga selektywna, planowanie, percepcja, rozumowanie, itd, *jest* pewną funkcją,
-rozumianą jako *rola w wykonaniu pewnego rodzaju zadań*; świadomość fenomenalna *być może ma*
+rozumianą jako *zdolność do wykonywania pewnego rodzaju zadań*; świadomość fenomenalna *być może ma*
 (jakąś) funkcję. Dlatego jak dotąd nie dowiedzieliśmy się *niczego* na temat świadomości
 fenomenalnej na podstawie wyników badań psychologicznych. Ponieważ *nie da się* badać świadomości
 fenomenalnej metodami *behawioralnymi*.
