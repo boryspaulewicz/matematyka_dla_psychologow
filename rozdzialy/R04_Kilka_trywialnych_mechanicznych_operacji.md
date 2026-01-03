@@ -639,8 +639,8 @@ neuronalnym.
 I nawet już samo to, że ten sam proces możemy opisać z różnych perspektyw, jest *matematyzowalne* -
 szczególnie dobrze nadaje się do tego teoria kategorii - po prostu dlatego, że możemy o tym mówić i
 myśleć jasno i konsekwentnie. A to, że kluczową rolę odgrywa w tym wszystkim ocena można wyrazić
-formalnie i wprost za pomocą [relacji
-porządku](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9Bciowy_porz%C4%85dek). Wreszcie to, że to jest
+formalnie i wprost za pomocą [*relacji
+porządku*](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9Bciowy_porz%C4%85dek). Wreszcie to, że to jest
 zarazem proces fizyczny i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym
 przypadku tylko *fizycznie przybliżana*, w zasadzie niemal już zostało sformalizowane, bo to jest
 *prawie* współczesna matematyczna teoria przyczynowości, która jest jednocześnie pewnego rodzaju
