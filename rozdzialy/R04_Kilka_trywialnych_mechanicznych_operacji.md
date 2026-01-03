@@ -827,13 +827,12 @@ Każde słowo w tym wniosku ma znaczenie; to byłby
 że *masz pamięć*.
 
 Bo to byłby *dowód*, że mogę Cię *zaprogramować* tak, żebyś *pozwoliła mi korzystać w sposób do
-pewnego stopnia dowolny z Twojej pamięci*. To byłby *dowód* - mimo, że nie byłby (całkiem)
-*formalny* - że *masz pamięć*, ponieważ *nie da się* wykonać *tego rodzaju* zadania *nieprzypadkowo
-powyżej poziomu przypadku* (tak tak) nie mając *zdolności do pamiętania*.
-
-Ten dowód nie wymaga *żadnych* założeń na temat *implementacji*. W szczególności, wniosek o
-posiadaniu pamięci wynika tu nieuchronnie, to znaczy logicznie, z założeń i danych, niezależnie od
-tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje. Czy to nie jest ciekawe?
+pewnego stopnia dowolny, z Twojej pamięci*. To byłby *dowód* - mimo, że nie byłby *całkiem* formalny
+- że *masz pamięć*, ponieważ *nie da się* wykonać *tego rodzaju* zadania *nieprzypadkowo powyżej
+poziomu przypadku* (tak tak) nie mając *zdolności do pamiętania*. I to byłby jednocześnie dowód, że
+jesteś zdolna do *postrzegania* tych bodźców, *to znaczy*, że jesteś *zdolna do reagowania na
+określone zdarzenia w sposób celowy i selektywny według instrukcji*. A więc też dowód, że *rozumiesz
+te instrukcje*.
 
 Taką samą strukturę mają prawie wszystkie badania *eksperymentalne* przeprowadzane przez psychologów
 nie tylko poznawczych: podajemy instrukcję do jakiegoś zadania, czymś tam manipulujemy i obserwujemy
@@ -846,9 +845,23 @@ Czy widzisz, że w tym rozumowaniu kluczową rolę odgrywają pojęcia *celowoś
 później to zmienimy) *dedukcja*? Już sama możliwość skonstruowania tego rodzaju rozumowania pokazuje
 jak ścisły i głęboki jest związek między psychologią naukową a matematyką i informatyką.
 
+Co ważne, tych aspektów Twojego funkcjonowania *nie da się udowodnić niezależnie*. Inaczej mówiąc,
+istnieje pewna *minimalna struktura* tego rodzaju *eksperymentu psychologicznego*. W *każdym* takim
+eksperymencie kluczową rolę *musi* odgrywać *jakieś* zadanie, percepcja, motoryka i - niekoniecznie
+werbalny - język. I wszystkie te aspekty da się zdefiniować na tyle abstrakcyjnie, żeby można było
+odkrywać psychologiczny charakter zjawisk, które wcześniej się takie nie wydawały, to znaczy
+odkrywać, że do opisu tych zjawisk *można stosować konsekwentnie psychologiczne pojęcia
+funkcjonalne*, takie jak pojęcie percepcji, pamięci, czy uwagi.
+
+W dodatku ten dowód nie wymaga *żadnych* założeń na temat *implementacji*. W szczególności, wniosek
+o posiadaniu pamięci i innych zdolności czy funkcji wynika tu nieuchronnie, to znaczy logicznie, z
+założeń i danych, niezależnie od tego, czy podmiot badany ma mózg, a nawet od tego, czy żyje.
+
+Czy to nie jest ciekawe?
+
 A czy widzisz, że ten sam manewr możemy zastosować do wielu innych pojęć psychologii nie tylko
 poznawczej? Ten *meta*teoretyczny wniosek na temat całej psychologii wynika stąd, że tak jak pojęcie
-pamięci, wiele z centralnych pojęć psychologii to *pojęcia funkcjonalne*. Ale nie wszystkie. Albo
+pamięci, wiele z centralnych pojęć psychologii to pojęcia funkcjonalne. Ale nie wszystkie. Albo
 inaczej - nie wszystkie pojęcia, które na pierwszy rzut oka *wydają się* być pojęciami swoiście
 psychologicznymi, są pojęciami funkcjonalnymi.
 
@@ -856,16 +869,19 @@ W szczególności, *nie istnieje zadaniowy dowód posiadania [świadomości
 fenomenalnej](https://pl.wikipedia.org/wiki/Trudny_problem_%C5%9Bwiadomo%C5%9Bci)*. Nie powiesz mi
 chyba, że *to* nie jest ciekawe. Z perspektywy zewnętrznego obserwatora można uzyskać czasem
 jednoznaczny - mimo, że empiryczny - dowód, że jakiś podmiot ma na przykład pamięć, albo uwagę
-selektywną, albo ma zdolność planowania, albo potrafi posługiwać się językiem, itd, ale *nie da się
-jednoznacznie odróżnić podmiotów naprawdę świadomych od takich, które tylko zachowują się tak, jakby
-były świadome*. Ponieważ w odróżnieniu od takich niewątpliwie centralnych dla psychologii pojęć jak
-pamięć, uwaga, percepcja, czy rozumowanie, pojęcie świadomości fenomenalnej *nie jest funkcjonalne*.
+selektywną, albo ma zdolność planowania, albo potrafi posługiwać się językiem, itd. Dlatego, że
+*zachowywać się tak, jakby się miało* na przykład *pamięć znaczy to samo, co mieć pamięć*. Ale *nie
+da się jednoznacznie odróżnić podmiotów naprawdę świadomych od takich, które tylko zachowują się
+tak, jakby były świadome*, a akurat w przypadku świadomości fenomenalnej to *nie* jest to samo.
+Ponieważ w odróżnieniu od takich niewątpliwie centralnych dla psychologii pojęć jak pamięć, uwaga,
+percepcja, czy rozumowanie, pojęcie świadomości fenomenalnej, tak jak pojęcia barwy, prędkości,
+siły, czy masy, *nie jest funkcjonalne*.
 
 Pamięć, tak jak uwaga selektywna, planowanie, percepcja, rozumowanie, itd, *jest* pewną funkcją,
 rozumianą jako *rola w wykonaniu pewnego rodzaju zadań*; świadomość fenomenalna *być może ma*
 (jakąś) funkcję. Dlatego jak dotąd nie dowiedzieliśmy się *niczego* na temat świadomości
-fenomenalnej na podstawie wyników badań psychologicznych. Ponieważ *nie da się badać świadomości
-fenomenalnej metodami behawioralnymi*.
+fenomenalnej na podstawie wyników badań psychologicznych. Ponieważ *nie da się* badać świadomości
+fenomenalnej metodami *behawioralnymi*.
 
 Jeżeli te metateoretyczne *obserwacje* (tak tak) na temat psychologii nie są dla Ciebie
 wystarczająco ciekawe, to co byś powiedziała, gdyby miało się okazać, że posługując się językiem
