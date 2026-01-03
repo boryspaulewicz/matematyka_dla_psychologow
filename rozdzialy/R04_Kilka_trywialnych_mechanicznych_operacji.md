@@ -854,10 +854,10 @@ co z warunkami *wystarczającymi*? Otóż ten dowód nie wymaga *żadnych* zało
 psychologicznych wynika tu nieuchronnie, to znaczy logicznie, z założeń i danych, niezależnie od
 tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje.
 
-A wiesz dlaczego warto odkrywać takie ogólne definicje? Dlatego, że pojęcia zadania, celu,
-poprawności, percepcji i rekacji motorycznej można z kolei zdefiniować na tyle abstrakcyjnie, żeby
-dało się *odkrywać psychologiczny charakter zjawisk*, które wcześniej się takie nie wydawały, to
-znaczy odkrywać, że do opisu czy wyjaśniania tych zjawisk *można stosować konsekwentnie
+A wiesz dlaczego warto odkrywać takie ogólne definicje? Między innymi dlatego, że pojęcia zadania,
+celu, poprawności, percepcji i rekacji motorycznej można z kolei zdefiniować na tyle abstrakcyjnie,
+żeby dało się *odkrywać psychologiczny charakter zjawisk*, które wcześniej się takie nie wydawały.
+To znaczy odkrywać, że do opisu czy wyjaśniania tych zjawisk *można stosować konsekwentnie
 psychologiczne pojęcia funkcjonalne*, takie jak pojęcie percepcji, pamięci, czy uwagi.
 
 Czy to nie jest ciekawe?
