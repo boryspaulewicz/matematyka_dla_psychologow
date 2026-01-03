@@ -811,12 +811,12 @@ Rozumiesz więc, że trochę mnie przy tym [ponosi](https://www.etymonline.com/w
 
 ## Co Ty na to?
 
-Dajmy się więc na chwilę ponieść. Wyobraź sobie, że poprosiłem Cię, żebyś w każdej próbie
-wymyślonego przeze mnie zadania na prezentowane na ekranie bodźce reagowała za pomocą klawiszy. Co
-ważne, ta reguła reagowania była arbitralna, a może nawet losowana przed każdym blokiem prób. To
-znaczy, nie mogłaś znać tej reguły zanim jej nie podałem. Jeżeli wtedy Twój poziom wykonania byłby
-wyższy niż odpowiadający "zgadywaniu", czyli jeżeli poprawność byłaby powyżej poziomu przypadku, to
-byłby empiryczny dowód, że masz pamięć.
+Dajmy się więc na chwilę ponieść. Ale najpierw wyobraź sobie, że poprosiłem Cię, żebyś w każdej
+*próbie* wymyślonego przeze mnie *zadania* na prezentowane na ekranie bodźce reagowała w określony
+sposób za pomocą klawiszy. Co ważne, ta *reguła reagowania* była *arbitralna*, a może nawet losowana
+przed każdym blokiem prób. To znaczy, nie mogłaś znać tej reguły zanim jej nie podałem. Jeżeli wtedy
+Twój *poziom wykonania* byłby wyższy niż odpowiadający "zgadywaniu", czyli jeżeli poprawność byłaby
+powyżej poziomu przypadku, to byłby *empiryczny dowód, że masz pamięć*.
 
 Każde słowo w tym wniosku ma znaczenie; to byłby
 
@@ -826,36 +826,39 @@ Każde słowo w tym wniosku ma znaczenie; to byłby
 
 że *masz pamięć*.
 
-Bo to byłby *dowód*, że mogę Cię *zaprogramować* tak, żebyś *pozwoliła mi korzystać w sposób do
-pewnego stopnia dowolny, z Twojej pamięci*. To byłby *dowód* - mimo, że nie byłby *całkiem* formalny
-- że *masz pamięć*, ponieważ *nie da się* wykonać *tego rodzaju* zadania *nieprzypadkowo powyżej
-poziomu przypadku* (tak tak) nie mając *zdolności do pamiętania*. I to byłby jednocześnie dowód, że
-jesteś zdolna do *postrzegania* tych bodźców, *to znaczy*, że jesteś *zdolna do reagowania na
-określone zdarzenia w sposób celowy i selektywny według instrukcji*. A więc też dowód, że *rozumiesz
-te instrukcje*.
+Ponieważ to byłby *dowód*, że mogę Cię *zaprogramować* tak, żebyś *pozwoliła mi korzystać w sposób
+do pewnego stopnia dowolny z Twojej pamięci*. To byłby *dowód* - mimo, że nie byłby *całkiem*
+formalny - że *masz pamięć*, ponieważ *nie da się* wykonać *tego rodzaju* zadania *nieprzypadkowo
+powyżej poziomu przypadku* (tak tak) nie mając *zdolności do pamiętania*. I to byłby jednocześnie
+dowód, że jesteś zdolna do *postrzegania* tych bodźców, *to znaczy*, że jesteś *zdolna do reagowania
+na określone zdarzenia w sposób celowy i selektywny według instrukcji*. A więc też dowód, że
+*rozumiesz te instrukcje*.
 
-Taką samą strukturę mają prawie wszystkie badania *eksperymentalne* przeprowadzane przez psychologów
-nie tylko poznawczych: podajemy instrukcję do jakiegoś zadania, czymś tam manipulujemy i obserwujemy
-poziom wykonania. Czyli *używamy osoby badanej jak programowalnego urządzenia* (w granicach
-wyznaczonych przez przyjęte przez naszą społeczność zasady etyczne prowadzenia badań). A pojęcie
-pamięci jest jednym z najważniejszych pojęć psychologii poznawczej.
+Taką samą ogólną strukturę mają prawie wszystkie badania *eksperymentalne* przeprowadzane przez
+psychologów nie tylko poznawczych: podajemy instrukcję do jakiegoś zadania, czymś tam manipulujemy i
+obserwujemy poziom wykonania. Czyli *używamy osoby badanej jak programowalnego urządzenia* (w
+granicach wyznaczonych przez pewne zasady etyczne). A pojęcia pamięci, percepcji, czy rozumienia są
+jednymi z najważniejszych pojęć psychologii nie tylko poznawczej.
 
 Czy widzisz, że w tym rozumowaniu kluczową rolę odgrywają pojęcia *celowości*, *zadania*,
 *poprawności* i *programowalności*? Czy widzisz, że to faktycznie jest (na razie nieformalna, ale
 później to zmienimy) *dedukcja*? Już sama możliwość skonstruowania tego rodzaju rozumowania pokazuje
-jak ścisły i głęboki jest związek między psychologią naukową a matematyką i informatyką.
+jak ścisły i głęboki jest związek między psychologią naukową a matematyką i programowaniem.
 
 Co ważne, tych aspektów Twojego funkcjonowania *nie da się udowodnić niezależnie*. Inaczej mówiąc,
 istnieje pewna *minimalna struktura* tego rodzaju *eksperymentu psychologicznego*. W *każdym* takim
 eksperymencie kluczową rolę *musi* odgrywać *jakieś* zadanie, percepcja, motoryka i - niekoniecznie
-werbalny - język. I wszystkie te aspekty da się zdefiniować na tyle abstrakcyjnie, żeby można było
-odkrywać psychologiczny charakter zjawisk, które wcześniej się takie nie wydawały, to znaczy
-odkrywać, że do opisu tych zjawisk *można stosować konsekwentnie psychologiczne pojęcia
-funkcjonalne*, takie jak pojęcie percepcji, pamięci, czy uwagi.
+werbalny - język. To są więc warunki *konieczne* bycia tego rodzaju eksperymentem psychologicznym. A
+co z warunkami *wystarczającymi*? Otóż ten dowód nie wymaga *żadnych* założeń na temat
+*implementacji*. W szczególności, wniosek o posiadaniu pamięci i innych zdolności czy funkcji
+psychologicznych wynika tu nieuchronnie, to znaczy logicznie, z założeń i danych, niezależnie od
+tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje.
 
-W dodatku ten dowód nie wymaga *żadnych* założeń na temat *implementacji*. W szczególności, wniosek
-o posiadaniu pamięci i innych zdolności czy funkcji wynika tu nieuchronnie, to znaczy logicznie, z
-założeń i danych, niezależnie od tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje.
+A wiesz dlaczego warto odkrywać takie ogólne definicje? Dlatego, że pojęcia zadania, celu,
+poprawności, percepcji i rekacji motorycznej można z kolei zdefiniować na tyle abstrakcyjnie, żeby
+dało się *odkrywać psychologiczny charakter zjawisk*, które wcześniej się takie nie wydawały, to
+znaczy odkrywać, że do opisu czy wyjaśniania tych zjawisk *można stosować konsekwentnie
+psychologiczne pojęcia funkcjonalne*, takie jak pojęcie percepcji, pamięci, czy uwagi.
 
 Czy to nie jest ciekawe?
 
