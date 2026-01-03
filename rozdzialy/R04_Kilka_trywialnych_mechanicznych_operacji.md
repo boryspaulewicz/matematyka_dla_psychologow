@@ -719,8 +719,8 @@ odpowiada *skończonej liczbie i typowaniu* (o czym niebawem) *wejść* tego rod
 *wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie reguł (językowych)*.
 *Planowanie* to *tworzenie programu działania dla samej siebie*. Programowanie (Się) można więc
 traktować jako uogólnienie pojęć zapamiętywania, uczenia (Się) i planowania. Automatyzacja odpowiada
-[kompilacji](https://pl.wikipedia.org/wiki/Kompilator) albo
-[interpretacji](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
+[*kompilacji*](https://pl.wikipedia.org/wiki/Kompilator) albo
+[*interpretacji*](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
 
 W *ciele* funkcji `sumuję` widzimy fragmenty *logiczne* albo *formalne*, takie jak *wyrażenie*
 `zrób_tekst("Wynik to ", pierwsza + druga)`, których rezultat, powstający w procesie *ewaluacji*,
