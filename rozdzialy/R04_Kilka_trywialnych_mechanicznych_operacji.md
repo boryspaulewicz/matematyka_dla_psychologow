@@ -15,6 +15,11 @@ właściwie tylko *jednej* prostej mechanicznej czynności, polegającej na *pod
 (*wymienianiu*) jednych wyrażeń w miejsce innych (na inne wyrażenia) w sposób określony przez *jawne
 i jednoznaczne reguły językowe*.
 
+Uprzedzam, że ten rozdział rozrósł się na skutek informacji zwrotnych, które otrzymałem od
+studentów, na tyle, że **aktywne przeczytanie go zajmie Ci za pierwszym razem prawdopodobnie co
+najmniej godzinę**. Na pocieszenie dodam, że fragmenty dotyczące (meta)teoretycznych popdstaw
+psychologii, które z tego powodu dopisałem, można traktować jako *zapowiedź*.
+
 <hr>
 
 # Kilka trywialnych mechanicznych operacji
