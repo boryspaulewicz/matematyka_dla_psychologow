@@ -855,7 +855,7 @@ funkcjonalne*, takie jak pojęcie percepcji, pamięci, czy uwagi.
 
 W dodatku ten dowód nie wymaga *żadnych* założeń na temat *implementacji*. W szczególności, wniosek
 o posiadaniu pamięci i innych zdolności czy funkcji wynika tu nieuchronnie, to znaczy logicznie, z
-założeń i danych, niezależnie od tego, czy podmiot badany ma mózg, a nawet od tego, czy żyje.
+założeń i danych, niezależnie od tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje.
 
 Czy to nie jest ciekawe?
 
