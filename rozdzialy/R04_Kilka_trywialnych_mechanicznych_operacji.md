@@ -809,7 +809,71 @@ Rozumiesz więc, że trochę mnie przy tym [ponosi](https://www.etymonline.com/w
 
 <br>
 
-<br>
+## Co Ty na to?
+
+Dajmy się więc na chwilę ponieść. Wyobraź sobie, że poprosiłem Cię, żebyś w każdej próbie
+wymyślonego przeze mnie zadania na prezentowane na ekranie bodźce reagowała za pomocą klawiszy. Co
+ważne, ta reguła reagowania była arbitralna, a może nawet losowana przed każdym blokiem prób. To
+znaczy, nie mogłaś znać tej reguły zanim jej nie podałem. Jeżeli wtedy Twój poziom wykonania byłby
+wyższy niż odpowiadający "zgadywaniu", czyli jeżeli poprawność byłaby powyżej poziomu przypadku, to
+byłby empiryczny dowód, że masz pamięć.
+
+Każde słowo w tym wniosku ma znaczenie; to byłby
+
+*empiryczny*
+
+*dowód*
+
+że *masz pamięć*.
+
+Bo to byłby *dowód*, że mogę Cię *zaprogramować* tak, żebyś *pozwoliła mi korzystać w sposób do
+pewnego stopnia dowolny z Twojej pamięci*. To byłby *dowód* - mimo, że nie byłby (całkiem)
+*formalny* - że *masz pamięć*, ponieważ *nie da się* wykonać *tego rodzaju* zadania *nieprzypadkowo
+powyżej poziomu przypadku* (tak tak) nie mając *zdolności do pamiętania*.
+
+Ten dowód nie wymaga *żadnych* założeń na temat *implementacji*. W szczególności, wniosek o
+posiadaniu pamięci wynika tu nieuchronnie, to znaczy logicznie, z założeń i danych, niezależnie od
+tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje. Czy to nie jest ciekawe?
+
+Taką samą strukturę mają prawie wszystkie badania *eksperymentalne* przeprowadzane przez psychologów
+nie tylko poznawczych: podajemy instrukcję do jakiegoś zadania, czymś tam manipulujemy i obserwujemy
+poziom wykonania. Czyli *używamy osoby badanej jak programowalnego urządzenia* (w granicach
+wyznaczonych przez przyjęte przez naszą społeczność zasady etyczne prowadzenia badań). A pojęcie
+pamięci jest jednym z najważniejszych pojęć psychologii poznawczej.
+
+Czy widzisz, że w tym rozumowaniu kluczową rolę odgrywają pojęcia *celowości*, *zadania*,
+*poprawności* i *programowalności*? Czy widzisz, że to faktycznie jest (na razie nieformalna, ale
+później to zmienimy) *dedukcja*? Już sama możliwość skonstruowania tego rodzaju rozumowania pokazuje
+jak ścisły i głęboki jest związek między psychologią naukową a matematyką i informatyką.
+
+A czy widzisz, że ten sam manewr możemy zastosować do wielu innych pojęć psychologii nie tylko
+poznawczej? Ten *meta*teoretyczny wniosek na temat całej psychologii wynika stąd, że tak jak pojęcie
+pamięci, wiele z centralnych pojęć psychologii to *pojęcia funkcjonalne*. Ale nie wszystkie. Albo
+inaczej - nie wszystkie pojęcia, które na pierwszy rzut oka *wydają się* być pojęciami swoiście
+psychologicznymi, są pojęciami funkcjonalnymi.
+
+W szczególności, *nie istnieje zadaniowy dowód posiadania [świadomości
+fenomenalnej](https://pl.wikipedia.org/wiki/Trudny_problem_%C5%9Bwiadomo%C5%9Bci)*. Nie powiesz mi
+chyba, że *to* nie jest ciekawe. Z perspektywy zewnętrznego obserwatora można uzyskać czasem
+jednoznaczny - mimo, że empiryczny - dowód, że jakiś podmiot ma na przykład pamięć, albo uwagę
+selektywną, albo ma zdolność planowania, albo potrafi posługiwać się językiem, itd, ale *nie da się
+jednoznacznie odróżnić podmiotów naprawdę świadomych od takich, które tylko zachowują się tak, jakby
+były świadome*. Ponieważ w odróżnieniu od takich niewątpliwie centralnych dla psychologii pojęć jak
+pamięć, uwaga, percepcja, czy rozumowanie, pojęcie świadomości fenomenalnej *nie jest funkcjonalne*.
+
+Pamięć, tak jak uwaga selektywna, planowanie, percepcja, rozumowanie, itd, *jest* pewną funkcją,
+rozumianą jako *rola w wykonaniu pewnego rodzaju zadań*; świadomość fenomenalna *być może ma*
+(jakąś) funkcję. Dlatego jak dotąd nie dowiedzieliśmy się *niczego* na temat świadomości
+fenomenalnej na podstawie wyników badań psychologicznych. Ponieważ *nie da się badać świadomości
+fenomenalnej metodami behawioralnymi*.
+
+Jeżeli te metateoretyczne *obserwacje* (tak tak) na temat psychologii nie są dla Ciebie
+wystarczająco ciekawe, to co byś powiedziała, gdyby miało się okazać, że posługując się językiem
+funkcjonalnym można powiedzieć coś nowego na temat *duchowości*? W szczególności, o duchowości
+można, przynajmniej moim zdaniem, mówić w sposób użyteczny tak, żeby to nie wymagało wprowadzania
+pojęcia fenomenalnej świadomości. W tym celu trzeba jednak poznać trochę prostej, ale za to
+[ekstremalnie abstrakcyjnej](https://en.wikipedia.org/wiki/Abstract_nonsense) i jednocześnie
+ekstremalnie bliskiej naszemu codziennemu doświadczeniu matematyki.
 
 <hr>
 
