@@ -530,12 +530,12 @@ I tak dalej. No więc niebawem będziemy robić podobne rzeczy, ale nie zawsze n
 
 ## Dlaczego i po co
 
-Czy widzisz, że wprowadzając tego rodzaju jednoznaczne i sztywne konwencje tworzymy *wspólny język
+Czy widzisz, że wprowadzając tego rodzaju jednoznaczne reguły językowe tworzymy *wspólny język
 programowania samych siebie i siebie nawzajem*? W dodatku jego użyteczność nie ogranicza się do
 liczb czy innych obiektów abstrakcyjnych, które mogą nam się kojarzyć z tym, co potocznie nazywamy
 matematyką; tego rodzaju język może służyć do *rozumowania na dowolny temat* i *programowania
 czegokolwiek, co jest programowalne*. Wydaje mi się, że muszę to natychmiast powtórzyć (dodając
-ważne uzupełnie), bo trudno w pierwszej chwili docenić wagę tego stwierdzenia.
+ważne uzupełnie), bo w pierwszej chwili trudno docenić wagę tego stwierdzenia.
 
 Tego rodzaju język umożliwia:
 
@@ -548,38 +548,38 @@ i
 Ten język jest na tyle ekspresyjny, że za jego pomocą możemy nie tylko posługiwać się dowolnymi
 *regułami wnioskowania*, ale możemy też zapisywać *programy działania*, czyli *wykonywalne plany*,
 skonstruowane dla siebie, dla innych, lub po to, żeby wykonywały je urządzenia. Jak się przekonasz w
-następnych rozdziałach, jest jednocześnie jednym z języków podstawowych całej matematyki i
-pełnowartościowym (między innymi funkcyjnym i czystym) językiem programowania. I właśnie dzięki temu
-poznając go i posługując się nim będziemy w stanie coraz lepiej widzieć, w jaki sposób każde
+następnych rozdziałach, jest jednocześnie jednym z dostępnych języków podstawowych całej matematyki
+i pełnowartościowym (między innymi funkcyjnym i czystym) językiem programowania. I właśnie dzięki
+temu, poznając go i posługując się nim będziemy w stanie coraz lepiej widzieć, w jaki sposób każde
 *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest pewnego rodzaju - w pewnym sensie
 idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako takie jest z konieczności w pewien
 sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego stopnia*, logiczne albo racjonalne, a
 mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie byłoby zachowaniem danego rodzaju*.
 
-No to zapytam jeszcze raz - *jaka jest relacja między matematyką (i informatyką) a psychologią*? Na
+No to zapytam jeszcze raz - *jaka jest relacja między matematyką i programowaniem a psychologią*? Na
 czym właściwie polega *każda rozmowa*, albo na przykład *terapia*, jeżeli nie na wzajemnym
 programowaniu siebie samych i siebie nawzajem, za pomocą *naturalnych języków werbalnych i
 niewerbalnych*, które to programowanie *nie mogłoby* działać, gdyby obie strony nie stosowały się, w
 trakcie spotkania i poza nim, *dostatecznie konsekwentnie* do pewnych *reguł komunikacyjnych*, w tym
 również do reguł *logicznych*? Taka dajmy na to terapia poznawczo-behawioralna polega przecież
-przede wszystkim na *wspólnym rozwiązywaniu problemów dotyczących zachowania przez wspólne twórcze
+przede wszystkim na *wspólnym rozwiązywaniu problemów dotyczących zachowania przez twórcze
 rozumowanie*, czyli przez pewnego rodzaju *wewnętrzny i zewnętrzny dialog*.
 
 Nawet gdy terapeutka podejmuje temat powiedzmy *reakcji emocjonalnych*, które czasami trudno jest
 postrzegać jako działania celowe (dlatego nazywamy je *reakcjami*), robi to przede wszystkim
 przyglądając się ich *adekwatności* i *adaptacyjności*, a także próbując dociec, z czego te reakcje
 *wynikają*. I wtedy chodzi o to, jaki te reakcje mają *sens*, szczególnie zaś o to, że reakcje
-emocjonalne mają charakter *ocenny*. *Empatia* w terapii jest ważnym, ale mimo wszystko tylko
-*źródłem danych dotyczących zachowania*; empatia bez zdolności rozumowania na temat zachowania
+emocjonalne *pełnią* (między innymi) *rolę ocen*. *Empatia* w terapii jest ważnym, ale mimo wszystko
+tylko *źródłem danych dotyczących zachowania*; empatia bez zdolności rozumowania na temat zachowania
 byłaby w procesie terapeutycznym po prostu bezużyteczna.
 
 A czytanie tego tekstu? Albo robienie sobie rano kawy?
 
 *Co jest w tych wszystkich zjawiskach* **jako takich** *najważniejsze?*
 
-Wystarczy odrobina *introspekcji* (tak tak), żeby się zorientować, że to jest zawsze *sekwencja
-działań* polegających na *wykonywaniu, lepiej lub gorzej*, ale wciąż na **wykonywaniu zadań
-składających się na** (wykonywanie zadań); na przykład na zrobienie sobie rano kawy. *Zadań* takich
+Wystarczy odrobina *introspekcji* (tak tak), żeby się zorientować, że to jest zawsze **sekwencja
+działań polegających na wykonywaniu** - lepiej lub gorzej, ale wciąż na wykonywaniu - **zadań
+składających się na wykonywanie zadań**; na przykład na zrobienie sobie rano kawy. *Zadań* takich
 jak *wystarczająco skuteczne* - po wcześniejszym (wystarczająco skutecznym) *zaprogramowaniu się,
 żeby to zrobić* - wstanie z łóżka, być może wystarczająco skuteczne ubranie się, dotarcie do
 ekspresu, zaprogramowanie ekspresu za pomocą bardzo ubogiego w tym wypadku języka, to jest
@@ -596,7 +596,7 @@ Czy nie jest tak, że *wszystko*, czym zajmują się matematycy i informatycy, n
 przedmiotu zainteresowania psychologii naukowej po prostu dlatego, że to jest *coś, czym zajmują się
 ludzie*? W dodatku w drugą stronę to nie działa, bo chociaż matematycy i informatycy robią to co
 robią dlatego, że starają się realizować pewne cele, które możemy określić ogólnie jako *badanie
-logicznych albo fizycznych konsekwencji reguł*, to jednak działanie celowe jako takie *nie* jest
+logicznych i fizycznych konsekwencji reguł*, to jednak działanie celowe jako takie *nie* jest
 centralnym przedmiotem zainteresowania matematyki czy informatyki. Mówiąc inaczej, ani matematycy
 *jako matematycy* ani informatycy *jako informatycy* nie badają ani własnego zachowania, ani w ogóle
 jakiegokolwiek zachowania *jako zachowania*. Działanie celowe nie jest też przedmiotem
@@ -610,21 +610,26 @@ inteligencji*](https://pl.wikipedia.org/wiki/Uczenie_przez_wzmacnianie).
 
 Zapytasz może, co ze sztuką? Albo duchowością? Chcesz wiedzieć, co moim zdaniem sztuka i duchowość
 mają wspólnego z programowaniem, matematyką i celowością? No to zacznijmy od sztuki, najpierw
-próbując przybliżyć jakąś jej użyteczną definicję. Wystarczy nam znośne przybliżenie, bo dla celów
-tych rozważań żadna ostateczna czy uniwersalna definicja nie będzie potrzebna.
+próbując przybliżyć jakąś jej użyteczną definicję. Wystarczy znośne przybliżenie, bo dla celów tych
+rozważań żadna ostateczna czy uniwersalna definicja nie będzie potrzebna.
 
 Zgodzisz się chyba, że sztuką nazywamy zwykle takie rzeczy, które są wyjątkowe co najmniej w tym
 znaczeniu, że są *trudne*; dlatego mamy na myśli to, co mamy, mówiąc "to nie żadna sztuka...". I
 *tajemnicze*, bo sztuka to nie technika ani technologia. Dlatego kiedy wiemy, w jaki dokładnie
 sposób ktoś, kogo uważaliśmy wcześniej za artystę, uzyskał zamierzony efekt, jesteśmy przynajmniej
-do pewnego stopnia tą wiedzą *rozczarowani*. Żebyśmy byli skłonni nazywać coś Sztuką przez duże S,
-to coś musi być również dla nas *ważne* i *znaczące*, choć zwykle (a może w przypadku Sztuki wręcz
-zawsze?) *trudno powiedzieć, co lub jak znaczące*.
+do pewnego stopnia tą wiedzą *rozczarowani*. 
+
+Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to coś musi być również dla nas *ważne* i
+*znaczące*, choć zwykle (a może w przypadku Sztuki wręcz zawsze?) *trudno powiedzieć, co lub jak
+znaczące*. Ponieważ w przypadku trudno powiedzieć, o co właściwie chodzi, i nie da się w zasadzie
+*przekazać* wartości sztuki *objaśniając ją*, podobnie jak nie da się za pomocą słów przekazać smaku
+czekolady, ważną rolę w sztuce odgrywają *konkretne artefakty* i *zdarzenia*, to jest (oryginalne)
+*dzieła* sztuki.
 
 Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *Się powtarzają*? Moim zdaniem
 dlatego, że muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
 tajemnicze i znaczące wymaga nie tylko sporego talentu, ale też *bardzo wielu prób i błędów*. To
-zatem proces celowy, polegający na długotrwałym uczeniu się, choć - *z definicji* - trudno
+zatem *proces celowy*, polegający na długotrwałym *uczeniu Się*, choć *z definicji* trudno
 *powiedzieć* czego. No a o duchowości jeszcze sobie pogadamy.
 
 No więc akt czy proces czy czynność - jak zwał, tak zwał - robienia sobie rano kawy ma oczywiście
@@ -632,7 +637,7 @@ aspekt fizyczny, chemiczny i biologiczny. Gdy jednak opisujemy robienie sobie ka
 perspektyw, *natychmiast tracimy z oczu* - a raczej z opisu - *charakter tego procesu*. Dotyczy to
 również opisu wszelkich procesów *neuronalnych*, które się wtedy rozgrywają, ponieważ bycie procesem
 celowym jest własnością, która nie istnieje bez jakiejś, być może zewnętrznej - i wtedy istnieje
-tylko (i aż) z perspektywy zewnętrznego obserwatora - *oceny*, takiej jak ocena pod względem
+tylko (i aż) z perspektywy zewnętrznego obserwatora - *oceny*; takiej jak ocena pod względem
 poprawności, logiczności, racjonalności, skuteczności, adekwatności, czy optymalności. Ale ta
 abstrakcyjnie rozumiana *ocenialność* to nie tylko *warunek konieczny*, bo również *wystarczy*, że
 opiszemy jakieś zjawisko czy proces fizyczny w sposób ocenny, żeby natychmiast pojawiła się - w
@@ -645,11 +650,11 @@ szczególnie dobrze nadaje się do tego teoria kategorii - po prostu dlatego, ż
 myśleć jasno i konsekwentnie. A to, że kluczową rolę odgrywa w tym wszystkim ocena można wyrazić
 formalnie i wprost za pomocą [*relacji
 porządku*](https://pl.wikipedia.org/wiki/Cz%C4%99%C5%9Bciowy_porz%C4%85dek). Wreszcie to, że to jest
-zarazem proces fizyczny i racjonalny, albo wręcz "sensowny", ale ta racjonalność może być w ogólnym
-przypadku tylko *fizycznie przybliżana*, w zasadzie niemal już zostało sformalizowane, bo to jest
-*prawie* współczesna matematyczna teoria przyczynowości, która jest jednocześnie pewnego rodzaju
-teorią programowania. Brakuje w niej tylko *jednego* składnika, bez którego przyczynowość jest
-*ślepa*.
+zarazem *proces fizyczny* i *racjonalny*, albo "sensowny", ale ta racjonalność, logiczność, czy
+sensowność może być w ogólnym przypadku tylko *fizycznie przybliżana*, w zasadzie niemal już zostało
+sformalizowane, bo to jest *prawie* współczesna matematyczna teoria przyczynowości, która jest
+jednocześnie pewnego rodzaju teorią programowania. Brakuje w niej tylko *jednego* składnika, bez
+którego przyczynowość jest *ślepa*.
 
 Żeby jakiś proces był robieniem sobie kawy, musi być, nawet jeżeli tylko przez chwilę i tylko do
 pewnego stopnia, *wystarczająco skutecznym wykonaniem pewnego zadania w normalnych warunkach*. W
@@ -659,14 +664,14 @@ logicznej perspektywy, mówimy *dokładnie* o tym, *co czyni proces robienia sob
 jest*. Każde zachowanie jest co prawda zjawiskiem fizycznym, chemicznym i (w przypadku zwierząt)
 biologicznym, w tym również neuronalnym, ale zachowanie *jako takie* jest przede wszystkim -
 nierzadko błędnym, tylko częściowo spójnym, i nie całkiem albo nie zawsze konwekwentnym, ale wciąż
-*przede wszystkim* - działaniem celowym, a zatem również logicznym, matematycznym i
+*przede wszystkim* - działaniem celowym, a zatem *co najmniej* logicznym, matematycznym i
 programistycznym. Bo jest *wystarczająco skutecznym lub przybliżonym wykonywaniem pewnego zadania
 lub zadań polegającym na stosowaniu Się do określonych reguł*. 
 
 Gdyby tylko psychologowie poznawczy i nie tylko oni, mówiąc, że "umysł jest jak komputer", wiedzieli
 trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na przykład pojęcie
 [*obliczalności*](https://pl.wikipedia.org/wiki/Teoria_obliczalno%C5%9Bci), znane tylko niewielkiej
-garstce psychologów (bo to jest termin techniczny matematyki), choć ważne, ma dla psychologii
+garstce psychologów - bo to jest termin techniczny matematyki - choć ważne, ma dla psychologii
 znaczenie *drugorzędne*, ponieważ *wystarczy, żeby adaptacja była wystarczająca*, a do tego nie
 trzeba *algorytmów* ani rozwiązań *optymalnych*, za to znaczenie pierwszorzędne ma fakt, że
 komputery zostały *stworzone na podobieństwo ludzi* pod tym kluczowym dla całej psychologii
@@ -689,8 +694,9 @@ podstawowym paradygmatom programowania, to jest [*programowaniu
 imperatywnemu*](https://pl.wikipedia.org/wiki/Programowanie_imperatywne), którego nazwa pochodzi od
 nazwy trybu rozkazującego w języku naturalnym, i [*programowaniu
 funkcyjnemu*](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne), którego nazwa pochodzi od
-pojęcia funkcji, z którego to pojęcia w pewnym sensie [wyrasta cała matematyka
-teoretyczna](https://youtu.be/zHU1xH6Ogs4?si=6bWm4E0TJgOhdF9p&t=43). Programowanie funkcyjne to
+pojęcia funkcji matematycznej, z którego to pojęcia w pewnym sensie [wyrasta cała matematyka
+teoretyczna](https://youtu.be/zHU1xH6Ogs4?si=6bWm4E0TJgOhdF9p&t=43). Programowanie funkcyjne to w
+pewnym technicznym znaczeniu
 [*dokładnie*](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) czysta matematyka,
 albo matematyka teoretyczna, a programowanie imperatywne to skomputeryzowana matematyka stosowana.
 Te dwa paradygmaty składają się na *wyidealizowany model logicznej interakcji ze światem fizycznym*.
@@ -711,8 +717,8 @@ sumuję = funkcja (){
 ```
 
 To jest [*rekurencyjna*](https://pl.wikipedia.org/wiki/Rekurencja) funkcja (bezargumentowa, co
-poznajemy po pustych nawiasach występujących po słowie "funkcja"), która w ostatnim kroku
-[*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, [*samą
+poznajemy po pustych nawiasach występujących po słowie "funkcja"). Ta funkcja jest rekurencyjna, bo
+w ostatnim kroku [*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, [*samą
 siebie*](https://pl.wikipedia.org/wiki/Uroboros), przez co *trwa w swoim sposobie działania*. 
 
 *Tak samo jak my, dopóki żyjemy*.
@@ -720,10 +726,11 @@ siebie*](https://pl.wikipedia.org/wiki/Uroboros), przez co *trwa w swoim sposobi
 *Rzeczywisty podmiot* to *działająca fizycznie funkcja, która wywołuje i programuje samą siebie w
 sposób* (który można opisać jako) *celowy*. To co w psychologii nazywamy *selektywnością uwagi*
 odpowiada *skończonej liczbie i typowaniu* (o czym niebawem) *wejść* tego rodzaju funkcji. Pamięć to
-*wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie reguł (językowych)*.
-*Planowanie* to *tworzenie programu działania dla samej siebie*. Programowanie (Się) można więc
-traktować jako uogólnienie pojęć zapamiętywania, uczenia (Się) i planowania. Automatyzacja odpowiada
-[*kompilacji*](https://pl.wikipedia.org/wiki/Kompilator) albo
+coś, co pozwala na *wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie
+reguł (językowych) do rozwiązywania problemów*. *Planowanie* to *tworzenie programu działania dla
+samej siebie*. Programowanie (Się) można więc traktować jako uogólnienie pojęć zapamiętywania,
+uczenia (Się) i planowania. Automatyzacja odpowiada technicznym pojęciom
+[*kompilacji*](https://pl.wikipedia.org/wiki/Kompilator) i
 [*interpretacji*](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
 
 W *ciele* funkcji `sumuję` widzimy fragmenty *logiczne* albo *formalne*, takie jak *wyrażenie*
@@ -733,17 +740,17 @@ które poznajemy po symbolu `!`. Rezultatami *ewaluacji wyrażeń* są *wnioski*
 *wykonywania instrukcji* są *fizyczne interakcje ze światem*.
 
 W przypadku *instrukcji* rezultat jest co najwyżej mniej lub bardziej *prawdopodobny i ograniczony
-przez czas*. Tego rodzaju rezultatu nie da się *ustalić* posługując się samą logiką (przyjętych
-reguł). W końcu kiedy mówimy do kogoś "Podaj mi dwie liczby", ta osoba może (później) podać tylko
-jedną, albo powiedzieć coś innego, albo może sobie pójść, albo może nie być w pobliżu żadnej osoby.
-Gdy postanawiamy coś powiedzieć, nasze ciało może skutecznie zrealizować tą decyzję, albo nie.
-Wreszcie, gdy tego rodzaju program działa na fizycznym urządzeniu, to ponieważ żadne urządzenie nie
-jest niezawodne po prostu dlatego, że jest *urządzeniem fizycznym*, ten program *może* w każdej
-chwili przestać działać.
+przez czas*. Tego rodzaju rezultatu nie da się *dokładnie przewidzieć* posługując się samą logiką
+(przyjętych reguł). W końcu kiedy mówimy do kogoś "Podaj mi dwie liczby", ta osoba może (później)
+podać tylko jedną, albo powiedzieć coś innego, albo może sobie pójść, albo może nie być w pobliżu
+żadnej osoby. Gdy postanawiamy coś powiedzieć, nasze ciało może skutecznie zrealizować tą decyzję,
+albo nie. Wreszcie, gdy tego rodzaju program działa na fizycznym urządzeniu, to ponieważ żadne
+urządzenie nie jest niezawodne po prostu dlatego, że jest *urządzeniem fizycznym*, w każdej chwili
+program *może* przestać działać.
 
 To jednak nie zmienia faktu, że program `sumuję` *jako taki* składa się zarówno z częsci
 *fizyczno-przyczynowych*, które można by również nazwać *interwencyjnymi*, o ile pozwolimy sobie
-myśleć o obserwacji jako szczególnym rodzaju fizycznej interakcji ze światem, jak i *logicznych*.
+myśleć o obserwacji jako szczególnym rodzaju fizycznej *inter-akcji ze światem*, jak i *logicznych*.
 Różnicę można objaśnić między innymi tak: Słuchać kogoś albo mówić coś do kogoś można *zarazem
 poprawnie i nieskutecznie*, bo wynik tego rodzaju działania zależy nie *tylko* od sposobu, w jaki
 zostało wykonane, za to *nie da się* poprawnie i nieskutecznie złożyć z sekwencji słów zdania, bo
@@ -757,8 +764,8 @@ Ten sposób mówienia i myślenia pozwala też wyjaśnić, dlaczego psychologom 
 tylko neuro-) *biologii*. Biologia zajmuje się co prawda pewnymi obiektami fizycznymi (i
 chemicznymi), ale tylko takimi, które *żyją*. Każda definicja życia, taka jak na przykład
 [ta](https://pl.wikipedia.org/wiki/%C5%BBycie), ma z konieczności charakter funkcjonalny, ponieważ
-życie to *rozwiązywanie pewnego rodzaju zadania lub zadań*, takich jak reprodukcja czy utrzymywanie
-homeostazy. Dlatego ważną częścią biologii (i medycyny) jest
+życie to *fizyczne realizowanie pewnych celów*, takich jak reprodukcja czy utrzymywanie homeostazy.
+Dlatego ważną częścią biologii (i medycyny) jest
 [*fizjologia*](https://pl.wikipedia.org/wiki/Fizjologia), która jest nauką nie o dowolnych
 fizycznych strukturach i procesach, tylko o pewnych
 [*mechanizmach*](https://sjp.pwn.pl/sjp/mechanizm;2567284.html), czyli o strukturach i procesach
@@ -766,34 +773,34 @@ postrzeganych (przez nas) jako służące pewnym celom. W dodatku struktura i sp
 organizmów żywych jest wstępnie *zakodowana*, czyli po prostu zaprogramowana, przez DNA. I to są
 trzy dobre powody, żeby postrzegać biologię jako subdyscyplinę - odpowiednio uogólnionej -
 informatyki (sic!), a więc też subdyscyplinę psychologii, rozumianej jako nauka o zachowaniu (a nie
-tylko o zachowywaniu Się) rozumianym jako (jakiekolwiek) działanie celowe.
+tylko o zachowywaniu Się), rozumianym jako (jakiekolwiek) działanie celowe.
 
 Matematyka i informatyka to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego (albo
 "konsekwentnego", albo "regularnego") i fizyczno-przyczynowego (albo interwencyjnego). Brakuje w
-nich tylko (i aż) celowości. To jednak oczywiście *nie* są dwie subdyscypliny w tym znaczeniu, że
+nich tylko - i aż - celowości. To jednak oczywiście *nie* są dwie subdyscypliny w tym znaczeniu, że
 zajmują się nimi psychologowie, ponieważ współcześni psychologowie, w tym również Ci, którzy uważają
 się za naukowców, na ogół nie mają za bardzo pojęcia ani o matematyce, ani o programowaniu. Żeby się
-o tym przekonać, wystarczy zapytać kilku współczesnych psychologów o definicję regresji liniowej,
-którą psychologowie stosują w zdecydowanej większości publikacji. Albo zobaczyć jakie *elementarne*
-i *ważne błędy logiczne* można *często* znaleźć już w samych tytułach i abstraktach pisanych przez
-psychologów wysokopunktowanych publikacji recenzowanych.
+o tym przekonać, wystarczy zapytać wystarczająco wielu współczesnych psychologów o definicję
+regresji liniowej, którą psychologowie stosują w zdecydowanej większości publikacji. Albo zobaczyć
+jakie *elementarne* i *ważne błędy logiczne* można *często* znaleźć już w samych tytułach i
+abstraktach pisanych przez psychologów wysokopunktowanych publikacji recenzowanych.
 
 Niestety, zdecydowana większość współczesnych badaczy próbujących uprawiać psychologię naukową, mimo
 tego, że ta dyscyplina dotyczy niezwykle trudnych do postrzegania w sposób zdystansowany i
 abstrakcyjny zjawisk - bo chodzi w niej o to, *czym jesteśmy* - prawie w ogóle nie potrafi korzystać
 z naszych najlepszych narzędzi rozumowania (na *dowolny* temat). W dodatku psychologowie mają więcej
-niż dwa dobre powody, żeby się z nimi zapoznać, bo używanie tych narzędzi jest nie tylko jedną z
-tych rzeczy, które *robią ludzie*, ale też na nich, między innymi, *opiera się nasza*
+dobrych powodów, żeby się z nimi zapoznać, bo używanie tych narzędzi jest nie tylko jedną z tych
+rzeczy, które *robią ludzie*, ale też na nich, między innymi, *opiera się nasza*
 [*cywilizacja*](https://en.wikipedia.org/wiki/Civilization), w tym także sposoby działania, za
 pomocą których *kontrolujemy* (a nie tylko *wpływamy na*) nasze codzienne środowisko i *regulujemy*
 społeczne interakcje.
 
 Żeby zdać sobie z tego sprawę, wystarczy zauważyć, jak wiele w tej osobistej przestrzeni, którą
 nazywamy własnym domem, i w tej mniej osobistej, którą nazywamy miejscem zamieszkania, można znaleźć
-w pewnym sensie kanonicznych kształtów, takich jak kąty proste, okręgi i elipsy, czy inne proste
-symetrie. Albo w jak ogromnym stopniu nasza codzienna komunikacja, w tym również komunikacja *ze
-sobą*, będąca między innymi myśleniem, opiera się na prostych [społecznych
+w pewnym sensie kanonicznych kształtów, takich jak kąty proste, okręgi i elipsy, względnie gładkie
+płaszczyzny, czy inne proste symetrie. Albo w jak ogromnym stopniu nasza codzienna komunikacja, w
+tym również komunikacja *ze sobą*, będąca między innymi myśleniem, opiera się na [społecznych
 konwencjach](https://pl.wikipedia.org/wiki/Lew_Wygotski).
 
 Według mnie wynika stąd *logicznie* (i *fizycznie*), że psychologowie *faktycznie mogą* te narzędzia
@@ -841,7 +848,7 @@ formalny - że *masz pamięć*, ponieważ *nie da się* wykonać *tego rodzaju* 
 powyżej poziomu przypadku* (tak tak) nie mając *zdolności do pamiętania*. I to byłby jednocześnie
 dowód, że jesteś zdolna do *postrzegania* tych bodźców, *to znaczy*, że jesteś *zdolna do reagowania
 na określone zdarzenia w sposób celowy i selektywny według instrukcji*. A więc też dowód, że
-*rozumiesz te instrukcje*.
+(wystarczająco dobrze) *rozumiesz te instrukcje*.
 
 Taką samą ogólną strukturę mają prawie wszystkie badania *eksperymentalne* przeprowadzane przez
 psychologów nie tylko poznawczych: podajemy instrukcję do jakiegoś zadania, czymś tam manipulujemy i
@@ -861,14 +868,14 @@ werbalny - język. To są więc warunki *konieczne* bycia tego rodzaju eksperyme
 co z warunkami *wystarczającymi*? Otóż ten dowód nie wymaga *żadnych* założeń na temat
 *implementacji*. W szczególności, wniosek o posiadaniu pamięci i innych zdolności czy funkcji
 psychologicznych wynika tu nieuchronnie, to znaczy logicznie, z założeń i danych, niezależnie od
-tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje.
+tego, czy badany podmiot ma mózg, a nawet od tego, czy żyje, albo czy jest świadomy.
 
-A wiesz dlaczego warto odkrywać takie ogólne definicje? Między innymi dlatego, że pojęcia zadania,
-celu, poprawności, percepcji i reakcji motorycznej można z kolei zdefiniować na tyle abstrakcyjnie,
-żeby dało się *odkrywać psychologiczny charakter zjawisk*, które wcześniej się takie nie wydawały.
-To znaczy odkrywać, że do opisu czy wyjaśniania tych zjawisk *można stosować konsekwentnie
-psychologiczne pojęcia funkcjonalne*, takie jak pojęcia percepcji, pamięci, uwagi, osobowości, albo
-motywacji.
+A wiesz dlaczego warto odkrywać takie abstrakcyjne definicje? Między innymi dlatego, że pojęcia
+zadania, celu, poprawności, percepcji i reakcji motorycznej można z kolei zdefiniować na tyle
+abstrakcyjnie, żeby dało się *odkrywać psychologiczny charakter zjawisk*, które wcześniej się takie
+nie wydawały. To znaczy odkrywać, że do opisu czy wyjaśniania tych zjawisk *można i warto stosować
+konsekwentnie psychologiczne pojęcia funkcjonalne*, takie jak pojęcia percepcji, pamięci, uwagi,
+osobowości, albo motywacji.
 
 Czy to nie jest ciekawe?
 
