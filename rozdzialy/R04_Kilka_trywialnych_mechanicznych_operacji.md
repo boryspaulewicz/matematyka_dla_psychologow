@@ -200,12 +200,11 @@ sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to wielokrotnie - na tym e
 może Ci *przeszkadzać*. Obiecuję, że sens się pojawi, tylko może kiedy indziej i raczej stopniowo.
 
 **Polecenie**: *To zadanie może być w tym momencie zbyt trudne. Jeśli tak będzie, spróbuj najpierw
-wykonać następne zadanie, a później wróć do tego*.  
+wykonać następne zadanie, a później ewentualnie wróć do tego*.  
 
-Znajdź czystą kartkę papieru i coś do pisania. Napisz na kartce cztery zdania, które będziemy
-chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze lepiej
-*reguły językowe* albo *komunikacyjne*, na które (wyobrażam sobie, że) *umawiamy się bez
-uzasadnienia*:
+Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej cztery zdania, które będziemy chwilowo
+rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze lepiej *reguły
+językowe* albo *komunikacyjne*, na które (wyobrażam sobie, że) *umawiamy się bez uzasadnienia*:
 
 1. Istnieją *fldsmdfry*.
 
@@ -223,7 +222,7 @@ Wyobraź sobie teraz, że dałem Ci dwa fldsmdfry; nazwijmy je $a$ i $b$. Użyj 
 $x$ i $b$ wszędzie tam, gdzie występuje $y$, a potem odwrotnie, $a$ za $y$ i $b$ za $x$. Te dwa nowe
 równania będą takie same jak równanie w regule 4, ale będą w nich występowały inne symbole ($a$ i
 $b$ zamiast $x$ i $y$), nadal w roli zmiennych, bo przyjmujemy, że *a* i *b* to *jakieś*, czyli
-bliżej nieokreślone fmldsmdfry.
+bliżej nieokreślone, fmldsmdfry.
 
 Następnie korzystając z przechodniości relacji równości użyj reguły 3 w jedyny sposób, w jaki się da
 (ta reguła mówi coś o tych dwóch nowych równaniach, a raczej o ich *stronach*), żeby uzyskać trzecie
@@ -251,16 +250,16 @@ początkujących, ale jak dotąd nie spotkałem się z żadnym przykładem udane
 podejścia.
 
 Od kilku lat prowadzę dla doktorantów zajęcia dotyczące wnioskowania przyczynowego i bayesowskiego.
-Nie będzie ani trochę przesadą jeśli powiem, że zapisują się na nie wspaniali studenci. Tacy, którzy
-wydają mi się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później zaczynam
-im mówić o [twierdzeniu Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna
-robię to inaczej.
+Nie będzie przesadą jeśli powiem, że zapisują się na nie wspaniali studenci. Tacy, którzy wydają mi
+się często autentycznie zainteresowani poszerzaniem wiedzy. Prędzej czy później zaczynam im mówić o
+[twierdzeniu Bayesa](https://pl.wikipedia.org/wiki/Twierdzenie_Bayesa), ale od niedawna robię to
+inaczej.
 
 Przedtem poprzedzałem wyprowadzenie dowodu krótkim wstępem. Gdy zapowiadałem potem uczestnikom, że
 będą go sami dowodzić, zauważałem u niektórych objawy lekkiej paniki. Podobną panikę widziałem
 zresztą w oczach pracowników naukowych, którzy byli obecni na moim otwarciu przewodu, kiedy na
 slajdach pojawił się symbol [*sumy indeksowanej*](https://pl.wikipedia.org/wiki/Rodzina_indeksowana)
-(*∑*). W tym roku po raz pierwszy spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na
+(*∑*). W roku 2023 po raz pierwszy spróbowałem wprowadzić twierdzenie Bayesa bez wstępu, na
 pierwszych albo drugich zajęciach, i postarałem się nakłonić wszystkich, żeby skupili się tylko na
 prostych formalnych przekształceniach, takich jak stosowanie zasady przechodniości relacji równości.
 Różnica w *wykonaniu*, nawet jeśli niekoniecznie w *zrozumieniu*, była oczywista.
@@ -313,14 +312,14 @@ zajmuje to więcej niż 15 minut.
 Zwróć przy okazji uwagę, że udowodniłaś to twierdzenie ani nie przytaczając, ani nie odnosząc się do
 żadnych konkretnych *zdarzeń*, ani nie obliczając żadnych wartości funkcji *p*. Czy widzisz, że o to
 między innymi, to znaczy o *parametryczność*, która pozwala korzystać z nich w wielu różnych
-sytuacjach przez niemal bezmyślne podstawianie, chodzi w tego rodzaju twierdzeniach?
+sytuacjach (przez niemal bezmyślne podstawianie), chodzi w tego rodzaju twierdzeniach?
 
 Wersja twierdzenia Bayesa, którą właśnie udowodniłaś, jest uproszczona. Prawdopodobieństwa nie mogą
 być mniejsze niż *0* ani większe niż *1*, a nasze prawdopodobieństwa to dowolne liczby, nie wiadomo
 nawet jakie, czy na przykład rzeczywiste, czy wymierne. Tak się jednak składa, że nie
 potrzebowaliśmy korzystać z tych własności prawdopodobieństwa, nasze reguły nie były więc wcale
-*niezgodne* z rachunkiem prawdopodobieństwa, tylko *słabsze*, w znaczeniu "mniej zobowiązujące", nie
-w znaczeniu "gorsze" czy "bardziej wątpliwe".
+*niezgodne* z rachunkiem prawdopodobieństwa, tylko *słabsze*, w znaczeniu "mniej zobowiązujące" albo
+ogólniejsze, nie w znaczeniu "gorsze" czy "bardziej wątpliwe".
 
 Wypadałoby niby poza tym wprowadzić pojęcie [*zmiennnej
 losowej*](https://pl.wikipedia.org/wiki/Zmienna_losowa), a zamiast o *zdarzeniach* powinniśmy może
@@ -329,9 +328,9 @@ elementarnych*](https://pl.wikipedia.org/wiki/Przestrze%C5%84_zdarze%C5%84_eleme
 zdarzeniach zdefiniowanych
 [ogólniej](https://pl.wikipedia.org/wiki/Przestrze%C5%84_probabilistyczna). Jednak jako narzędzie
 stworzone dla pewnych celów dydaktycznych i w rękach kogoś, kto zna i ma na uwadze te ograniczenia,
-taka uproszczona wersja jest w mojej ocenie lepsza niż nic. Wystarcza na przykład do zilustrowania
-wielu ciekawych zastosowań twierdzenia Bayesa w psychologii, albo do snucia ogólnych rozważań na
-temat oceny hipotez empirycznych.
+taka uproszczona wersja jest w mojej ocenie lepsza niż nic. Nadaje się na przykład do objaśniania
+wielu ważnych i ciekawych zastosowań twierdzenia Bayesa w psychologii, albo do snucia metanaukowych
+rozważań na temat oceny hipotez empirycznych.
 
 Mam nadzieję, że skonstruowanie tego dowodu, a zwłaszcza jego pierwszej, agresywnie bezsensownej
 wersji, pozwoliło Ci doświadczyć czegoś, co sam niby wiedziałem od dawna, ale bardzo późno zaczęło
@@ -354,28 +353,28 @@ dowodu mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego z
 *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*. Dlatego
 zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać. Rolą dowodu *nie* jest
 *ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego prawdziwości*, jak również -
-zawsze tylko częściowe - *ujawnienie znaczenia założeń dowodu*. Wykonując dwa razy ten sam w
-zasadzie dowód poznałaś więc pewien fakt - że twierdzenie Bayesa wynika logicznie z pewnych reguł -
-i *w pewnym sensie* dowiedziałaś się czegoś na temat znaczenia czy sensu *tych reguł*, ponieważ
-miałaś okazję doświadczyć niektórych sposobów, w jakie można je *zastosować*, czyli poznałaś
-niektóre ich *konsenwencje*.
+zawsze tylko częściowe - *ujawnienie znaczenia założeń i definicji*, które są w tym dowodzie
+*używane*. Wykonując dwa razy ten sam w zasadzie dowód poznałaś więc pewien fakt - że twierdzenie
+Bayesa wynika logicznie z pewnych reguł - i *w pewnym sensie* dowiedziałaś się czegoś na temat
+znaczenia czy sensu *tych reguł*, ponieważ miałaś okazję doświadczyć niektórych sposobów, w jakie
+można je *zastosować*, czyli poznałaś niektóre ich *konsenwencje*.
 
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
 było, jest i zawsze już będzie prawdziwe, chociaż *tylko* w tym znaczeniu, że jest *nieuchronną
-konsekwencją przyjętych wcześniej reguł językowych*. Od tego momentu o samym dowodzie, to jest o
-jego konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako
-ze wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, że dowód danego
-zdania *istnieje*.
+konsekwencją określonych reguł językowych*. Od tego momentu o samym dowodzie, to jest o jego
+konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako ze
+wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, że dowód danego zdania
+*istnieje*.
 
 ## Jeszcze bardziej pedantycznie
 
-Przeprowadzimy ten sam dowód jeszcze raz, ale nieco inaczej. Byłoby wspaniale, gdybyś nie czytała
-tego fragmentu zanim nie przeprowadzisz dowodu według poprzednich wskazówek, z dwóch powodów. Po
-pierwsze, chciałbym, żebyś mogła dzięki temu lepiej poczuć różnicę między przeprowadzeniem tego
-samego dowodu w sposób (jak wcześniej) mniej lub (jak teraz) bardziej *jawny*. A po drugie,
-chciałbym, żebyś poczuła, że robiąc coś po raz kolejny po krótkiej przerwie możesz doświadczyć
-(przyjemnego?) wzrostu płynności działania i z większą łatwością postrzegać te same czynności i ich
-rezultaty z *meta*poziomu.
+Przeprowadzimy teraz ten sam dowód jeszcze raz, ale nieco inaczej. Byłoby wspaniale, gdybyś nie
+czytała tego fragmentu zanim nie przeprowadzisz dowodu według poprzednich wskazówek, z dwóch
+powodów. Po pierwsze, chciałbym, żebyś mogła dzięki temu lepiej poczuć różnicę między
+przeprowadzeniem tego samego dowodu w sposób (jak wcześniej) mniej lub (jak teraz) bardziej *jawny*.
+A po drugie, chciałbym, żebyś poczuła, że robiąc coś po raz kolejny po krótkiej przerwie możesz
+doświadczyć (przyjemnego?) wzrostu płynności działania i z większą łatwością postrzegać te same
+czynności i ich rezultaty z *meta*poziomu.
 
 Zamiast o aksjomatach, definicjach, czy twierdzeniach będziemy nadal mówić ogólnie o jakichkolwiek
 *regułach*, żeby w ten sposób podkreślić, że w praktyce dowodzenia, a mówiąc ogólniej w praktyce
