@@ -30,8 +30,8 @@ fragment matematycznej prozy:
 
 > Jeżeli *n* i *m* to liczby naturalne, to *n + m = m + n*.
 
-I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m* (czyli po prostu
-zamieniając te symbole na inne wyrażenia):
+I wiesz, że możesz *używać* takiego stwierdzenia *podstawiając* pod *n* lub *m* (czyli zamieniając
+te symbole na inne wyrażenia):
 
 1. Konkretną *liczbę* naturalną, na przykład liczbę *7*.
 
@@ -69,20 +69,24 @@ Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez więks
 podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas często
 właśnie dlatego, że sama jest czymś w rodzaju reguły podstawiania, bo mówi o *zastępowalności* lewej
 strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą samą prostą czynność
-mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania czy zastępowania
-jednych wyrażeń innymi.
+mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania czy zastępowania.
 
-Różnica między podstawianiem pod zmienne i wymienianiem równych wyrażeń jest taka, że zmienne są
+Różnica między *podstawianiem pod zmienne* i *wymienianiem równych wyrażeń* jest taka, że zmienne są
 jakby stworzone do tego (i tylko do tego), żeby je czymś zastąpić, to jest nadać im jakąś wartość, i
-tymi wartościami mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Dlatego
-właśnie nazywamy je zmiennymi. Natomiast równości pozwalają nam wymieniać ze sobą wyrażenia tego
-samego typu, o ile wymieniane wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości.
-Na przykład, zasada przemienności dodawania liczb naturalnych pozwala zamieniać miejscami wyrażenia
-oznaczające liczby naturalne, o ile te wyrażenia są sumowane.
+tymi wartościami mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Zmienne
+są więc *oznaczonymi miejscami w tekście, które są po to, żeby w nie coś wstawić*; dlatego nazywamy
+je zmiennymi. Natomiast równości pozwalają nam wymieniać ze sobą *wyrażenia* tego samego typu, o ile
+wymieniane wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości. Na przykład,
+zasada przemienności dodawania liczb naturalnych pozwala zamieniać *zapis zastosowania dodawania*,
+który *pasuje do wzorca n + m*, na taki, który *po dopasowaniu do tego wzorca można zapisać jako m +
+n*.
 
-A więc w przypadku *podstawiania pod zmienne* wyrażenie do zastąpienia poznajemy po *nazwie i
-wcześniejszej deklaracji*, z której wynika, że to zmienna, a w przypadku *wymieniania równych
-wyrażeń* takie miejsce poznajemy po tym, że *wygląda jak* jedna ze stron równości.
+A więc w przypadku *podstawiania pod zmienne* wyrażenie do "wypełnienia" poznajemy po *nazwie i
+wcześniejszej deklaracji*, że to zmienna, a w przypadku *wymieniania równych wyrażeń* takie miejsce
+poznajemy po tym, że *wygląda jak* jedna ze stron równości. Może się wydawać, że tej drugiej
+operacji nie da się wykonać całkiem bezmyślnie, ale w pewnym sensie pierwszej też się nie da, gdy
+samemu się ją stosuje, jednak obie te operacje są *mechaniczne* w tym znaczeniu, że są *wykonywalne
+przez algorytm*.
 
 ## Ten tytuł jest tylko po to, żeby do niego później wrócić
 
@@ -93,15 +97,15 @@ możemy popatrzeć na to wszystko również tak:
 Przytoczony fragment matematycznej prozy jest jak *przepis*, który *stosując* da się wyprodukować
 *nieskończenie wiele prawdziwych zdań* na temat liczb naturalnych. Swoją "nieskończoną
 produktywność" zawdzięcza *parametryczności*, to jest temu, że jest zrobiony z *parametrów* albo
-*zmiennych* (*m* i *n*), czyli specjalnie oznaczonych miejsc, w które możemy coś podstawiać. Możemy
-też na niego popatrzeć jak na coś w rodzaju *maszyny* albo *mechanizmu*, który (jak to mechanizm)
-*działa*, chociaż tylko dzięki temu, że to albo *my go używamy* w określony sposób, albo - co moim
-zdaniem na jedno wychodzi - ten przepis przetwarza urządzenie, które działa zgodnie z tym, jak my
-ten przepis-mechanizm rozumiemy, to jest konsekwentnie podstawiając w miejsca wystąpień zmiennych
-wyrażenia odpowiedniego typu (tutaj akurat liczbowego). Ten mechanizm składa się więc tak naprawdę z
-*trzech* części:
+inaczej *zmiennych* (*m* i *n*), czyli specjalnie oznaczonych *miejsc*, w które możemy coś
+podstawiać. Możemy też na niego popatrzeć jak na coś w rodzaju *maszyny* albo *mechanizmu*, który
+(jak to mechanizm) *działa*, chociaż tylko dzięki temu, że to albo *my go używamy* w określony
+sposób, albo - co moim zdaniem na jedno wychodzi - ten przepis przetwarza urządzenie, które działa
+zgodnie z tym, jak my ten przepis-mechanizm rozumiemy, to jest konsekwentnie podstawiając w miejsca
+oznaczone jako zmienne wyrażenia odpowiedniego typu (tutaj akurat liczbowego). Ten mechanizm składa
+się więc tak naprawdę z *trzech* części:
 
-1. Zapisanego w jakiś sposób matematycznego *przepisu*.
+1. Zapisanego w jakiś sposób (fizycznie) *przepisu*.
 
 2. Z *nas* samych (sic!).
 
@@ -116,42 +120,42 @@ zabawa symbolami będzie również naszym punktem dojścia.
 
 *Ten fragment możesz spokojnie potraktować jako ciekawostkę, bo to, o czym tutaj mówię, nieprędko
 stanie się dla nas ważne. Wspominam o tym już teraz, bo mam nadzieję wzbudzić w ten sposób
-zainteresowanie u osób zajmujących się psychologią.*
+zainteresowanie matematyką teoretyczną u obecnych i przyszłych psychologów.*
 
-Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było przynajmniej
-hipotetycznego *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
-przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak zapis
-*Jeżeli A = B i B = C, to A = C*) możemy traktować jak przepisy (dzięki czemu *są* przepisami). Czy
-wobec tego najgłębszą podstawą całej matematyki nie są *nasze cele, postawy i sposoby działania*?
-Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż "tworzymy", nie ma *dla
-nas i nigdy nie będzie* innej matematyki niż ta, której *jesteśmy w stanie używać do rozumowania*,
-ponieważ ostatecznie matematyka jako taka jest *naszym narzędziem*.
+Zwróć proszę uwagę, że żaden "obiekt symboliczny" nie byłby przepisem, gdyby nie było - przynajmniej
+hipotetycznego - *kogoś*, kto może go *zastosować*. To my, ludzie, jesteśmy albo autorami takich
+przepisów, albo odkrywcami lub autorami konwencji, zgodnie z którymi pewne rzeczy (takie jak
+fizyczny zapis *Jeżeli A = B i B = C, to A = C*) możemy traktować jak przepisy (dzięki czemu *są*
+przepisami). Czy wobec tego najgłębszą podstawą całej matematyki nie są *nasze cele, postawy i
+sposoby działania*? Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż
+"tworzymy", nie ma *dla nas* i nigdy nie będzie innej matematyki niż ta, której *jesteśmy w stanie
+używać do rozumowania*, ponieważ ostatecznie matematyka jako taka jest *naszym narzędziem*.
 
 Żeby przepis był przepisem, musi istnieć ktoś, kto może go jako przepisu używać, i tak samo żeby
 sposób używania tego przepisu był tym, czym jest, to jest pewnym sposobem używania czegoś, musi
 istnieć, przynajmniej hipotetycznie, *coś, co może być tak używane* (tutaj przepis) i (choćby tylko
 hipotetyczny) *ktoś, kto może ten sposób stosować*.
 
-Można powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i używania go, w
-pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem użytkownika, nawet jeśli
-tylko hipotetycznego. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli
-czegoś, dosłownie czegokolwiek, możemy *używać jak przepisu*, to to coś po prostu *jest* dla nas
+Można powiedzieć, że *dwa* spośród tych trzech pojęć, to jest pojęcia przepisu i sposobu używania
+go, w pewnym sensie "zawierają w sobie" wszystkie trzy pojęcia, razem z pojęciem użytkownika, nawet
+jeśli tylko hipotetycznego. W dodatku te dwa pojęcia są dwiema stronami tego samego medalu. Bo jeśli
+czegoś, dosłownie *czegokolwiek*, możemy *używać jak przepisu*, to to coś po prostu *jest* dla nas
 przepisem. A jeśli coś jest przepisem, to znaczy, że można tego czegoś używać jako przepisu.
 
 Przepis jako taki i sposób używania go to zatem *to samo pojęcie oglądane z dwóch stron*, które
 można by nazwać obiektową albo materialną (to *fizyczny zapis*, ...) i funkcjonalną albo użytkową
 (... a to jego *sens*). Nie ma przepisów (będących sposobami ich używania) bez przynajmniej
-potencjalnie używającego ich jako przepisów, przynajmniej hipotetycznego podmiotu. Za to podmioty
-(również te hipotetyczne), istnieją (jeśli hipotetycznie, to aksjomatycznie) niezależnie od tego,
-czy używają jakiegoś konkretnego przepisu.
+potencjalnie używającego ich jako przepisów, przynajmniej hipotetycznego *podmiotu*.
 
 Czy w takim razie matematyka (i [gotowanie](https://youtu.be/O8OrsCw0OC0?si=5vJf16PoaT2-J0SZ)) nie
-jest przypadkiem - szczególnie ważną - *subdyscypliną psychologii*?  
+jest przypadkiem - szczególnie ważną - *subdyscypliną psychologii*? I czy nie może być tak, że jedna
+dyscyplina naukowa jest *w pewnym sensie* subdyscypliną drugiej, a ta druga jest w *innym* sensie
+subdyscypliną tej pierwszej?
 
 Ktoś, kto zetknął się wcześniej z filozofią, mógłby powiedzieć, że "to przecież psychologizm", mając
 na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzie używają liczb - bardzo
-różnie i często popełniając błędy - to jedno, a to, jakie prawa rządzą liczbami i czym liczby są, to
-co innego. Taki filozofujący ktoś mógłby też dodać, że aksjomaty, definicje i twierdzenia
+różnie i często popełniając błędy - to jedno, a to, jakie prawa rządzą liczbami i czym liczby *są*,
+to co innego. Taki filozofujący ktoś mógłby też dodać, że aksjomaty, definicje i twierdzenia
 matematyczne mówią jak *powinniśmy* używać między innymi "języka liczbowego", a nie jak go
 faktycznie używamy.
 
@@ -159,19 +163,19 @@ No dobrze, ale zawsze, gdy *faktycznie* - nieuchronnie popełniając czasem bł�
 mówimy) o liczbach, nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy
 jest, to znaczy właśnie myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*.
 Mówiąc ogólnie, każde zachowanie jest nierozerwalnie związane z jakimś mniej lub bardziej określonym
-standardem poprawności albo skuteczności albo adekwatności albo czegoś w tym rodzaju.
+standardem poprawności albo skuteczności albo adekwatności albo spójności albo czegoś w tym rodzaju.
 
 To, że mówiąc lub myśląc o liczbach popełniamy czasem błędy, nie zmienia faktu, że to są właśnie
-*błędy*. Każdy błąd *jako błąd*, zanim zapiszemy go na przykład jako - dla nas zrozumiałe, bo
-*pamiętamy, co znaczy* - zero na teście, jest czymś w rodzaju "wektora" w tym znaczeniu, że ma
+**błędy**. Każdy błąd *jako błąd*, zanim zapiszemy go na przykład jako - dla nas później zrozumiałe,
+bo *pamiętamy, co znaczy* - zero na teście, jest czymś w rodzaju "wektora" w tym znaczeniu, że ma
 wielkość, początek (ideał wykonania poprawnego albo optymalnego) i koniec (faktyczna próba
 wykonania). Faktyczna myśl albo wypowiedź na temat liczb w ogóle *może* być błędna tylko dlatego, że
-jest *nierozerwalnie związana z pewnym wzorcem logicznej poprawności*, który taka faktyczna myśl
-albo wypowiedź lepiej lub gorzej *fizycznie przybliża*. Podobnie kupić chleb albo zawiązać
-sznurowadła można *nieskutecznie* lub *nieoptymalnie* tylko dlatego, że istnieje nierozerwalnie
-związany pojęciowo z tymi zachowaniami, przynajmniej jako *teoretyczna możliwość*, (być może
-parametryczny) poprawny albo w jakimś sensie optymalny sposób kupowania chleba czy wiązania
-sznurowadeł.
+*będąc myślą o liczbach* jest *nierozerwalnie związana z pewnym wzorcem logicznej poprawności*,
+który taka faktyczna myśl albo wypowiedź lepiej lub gorzej *fizycznie przybliża* czy *realizuje*.
+Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie*, *nieoptymalnie*, lub
+*niekonsekwentnie* tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami,
+przynajmniej jako *teoretyczna możliwość*, (być może parametryczny) poprawny i spójny, a może nawet
+w jakimś sensie optymalny sposób kupowania chleba czy wiązania sznurowadeł.
 
 I to jest cecha wszystkich bez wyjątku *działań celowych* po prostu dlatego, że każde działanie
 celowe - również nieskuteczne, błędne czy nieoptymalne działanie celowe - *jest określone przez
