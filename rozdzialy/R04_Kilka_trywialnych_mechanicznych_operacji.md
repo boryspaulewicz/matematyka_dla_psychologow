@@ -368,26 +368,27 @@ wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, �
 
 ## Jeszcze bardziej pedantycznie
 
-Przeprowadzimy teraz ten sam dowód jeszcze raz, ale nieco inaczej. Byłoby wspaniale, gdybyś nie
-czytała tego fragmentu zanim nie przeprowadzisz dowodu według poprzednich wskazówek, z dwóch
-powodów. Po pierwsze, chciałbym, żebyś mogła dzięki temu lepiej poczuć różnicę między
-przeprowadzeniem tego samego dowodu w sposób (jak wcześniej) mniej lub (jak teraz) bardziej *jawny*.
-A po drugie, chciałbym, żebyś poczuła, że robiąc coś po raz kolejny po krótkiej przerwie możesz
-doświadczyć (przyjemnego?) wzrostu płynności działania i z większą łatwością postrzegać te same
-czynności i ich rezultaty z *meta*poziomu.
+Przeprowadzimy teraz ten sam dowód jeszcze raz, ale inaczej. Byłoby wspaniale, gdybyś nie czytała
+tego fragmentu zanim nie przeprowadzisz dowodu według poprzednich wskazówek, z dwóch powodów. Po
+pierwsze, chciałbym, żebyś mogła dzięki temu lepiej poczuć różnicę między przeprowadzeniem tego
+samego dowodu w sposób (jak wcześniej) mniej lub (jak teraz) bardziej *jawny*. A po drugie,
+chciałbym, żebyś poczuła, że robiąc coś po raz kolejny po krótkiej przerwie możesz doświadczyć
+(przyjemnego?) wzrostu płynności działania i z większą łatwością postrzegać te same czynności i ich
+rezultaty z *meta*poziomu.
 
 Zamiast o aksjomatach, definicjach, czy twierdzeniach będziemy nadal mówić ogólnie o jakichkolwiek
-*regułach*, żeby w ten sposób podkreślić, że w praktyce dowodzenia, a mówiąc ogólniej w praktyce
+**regułach**, żeby w ten sposób podkreślić, że w praktyce dowodzenia, a mówiąc ogólniej w praktyce
 tworzenia i korzystania z matematyki teoretycznej, podobnie zresztą jak *we wszelkiego rodzaju
 rozumowaniach*, aksjomaty, definicje i twierdzenia pełnią jedną i tą samą ogólną rolę, tylko w nieco
-inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia wyrażeń*.
+inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia wyrażeń* (czasami, choć nie zawsze, z
+innych wyrażeń).
 
 Będziemy się powtarzać, żeby nie trzeba było ciągle albo pamiętać, albo szukać informacji mówiących
 o tym, jakie są *warunki stosowalności* tych reguł, tylko żeby to było można zawsze łatwo *zobaczyć
 w tekście*. Dzięki temu będziemy mogli stosować te reguły jeszcze bardziej *bezmyślnie*, co nas
 odciąży poznawczo i zmniejszy ryzyko błędu niemal do zera. Ale jest też głębszy powód - w ten sposób
 będziemy mogli *zobaczyć jako jawnie zapisane w tekście coś, co wcześniej niejawnie działało w nas*,
-a mówiąc dokładniej co *pamiętaliśmy lub wyobrażaliśmy sobie i staraliśmy się przybliżać*.
+a mówiąc dokładniej co *pamiętaliśmy lub wyobrażaliśmy sobie i co staraliśmy się przybliżać*.
 
 Reguła 1. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
 
@@ -405,7 +406,7 @@ samego pojawienia się prowadzących do nich założeń czy konwencji). Żeby wn
 wyprowadzony* z jakiś reguł, trzeba te reguły *zastosować*, i jakiekolwiek *stosowanie reguł* musi
 być z konieczności (między innymi) procesem *fizycznym*. A więc logiczne czy pojęciowe czy językowe
 czy formalne - jak zwał, tak zwał - konsekwencje reguł to również pewnego rodzaju *skutki*, tyle, że
-to są fizyczne skutki *działania zgodnego z tymi regułami*. Będziemy korzystać z tej wieloznaczności
+to są *fizyczne skutki działania zgodnego z tymi regułami*. Będziemy korzystać z tej wieloznaczności
 słowa "konsekwencja", żeby zobaczyć pewne głębokie podobieństwa.
 
 Korzystając z dwóch zapisanych wyżej reguł skonstruujemy teraz nowe, stosunkowo samowystarczalne
@@ -428,7 +429,7 @@ Ponieważ przyjmujemy tutaj, to znaczy w tym miejscu konstruowanej właśnie now
 wypowiedzi, że *a* i *b* to zdarzenia, to do obydwu symboli możemy zastosować reguły 1 i 2.
 
 Korzystając z reguły 1 przez podstawianie *a* za *x* i *b* za *y* możemy uzyskać konsekwencję, czyli
-zarazem logiczny wniosek i skutek działania polegającego na poprawnym zastosowaniu tej reguły, w
+zarazem *logiczny wniosek* i *skutek działania* polegającego na poprawnym zastosowaniu tej reguły, w
 postaci wyrażenia (będącego akurat dla nas zdaniem) *p(a, b) = p(b, a)*.  
 
 Korzystając w taki sam sposób z reguły 2 możemy uzyskać, jako dwa wnioski czyli skutki poprawnego
@@ -448,9 +449,9 @@ ZR. Jeżeli *A = B*, to *B = A*.
 
 *p(b, a) = p(b|a) \* p(a)*
 
-Uzyskaliśmy w ten sposób, jako konsekwencje, a dokładniej jako fizyczne skutki naszej wspólnej
-akceptacji pewnych wcześniejszych reguł i wynikającego stąd naszego wspólnego *zastosowania Się*
-(tak tak) do nich, następujące wyrażenia (będące zdaniami):
+Uzyskujemy w ten sposób, jako konsekwencje, a dokładniej jako fizyczne skutki naszej wspólnej
+akceptacji pewnych wcześniejszych reguł i *fizycznie wynikającego* stąd naszego wspólnego
+*zastosowania Się* (tak tak) do nich, następujące wyrażenia (będące zdaniami):
 
 *p(a|b) \* p(b) = p(a, b)*
 
@@ -474,11 +475,10 @@ polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się (praktycz
 nawet gdybyśmy niektórych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
 
 Dotyczy to między innymi zdań o postaci *jeżeli ... to ...*. Taka *warunkowa struktura* jest
-*ogólnym wzorcem* wszystkich możliwych *reguł językowych*. Każda taka reguła ma jakieś, być może
-niejawne, warunki stosowalności czy obowiązywania, które można wymienić poprzedzając je słowem
-"jeżeli". A po słowie "to" mamy - być może parametryczny, jak w regułach 1 i 2 - rezultat
-zastosowania, to jest wniosek i zarazem potencjalny rezultat naszego wspólnego działania według tej
-reguły.
+*ogólnym wzorcem* wszystkich *reguł językowych*. Każda taka reguła ma jakieś, być może niejawne,
+warunki stosowalności czy obowiązywania, które można wymienić poprzedzając je słowem "jeżeli". A po
+słowie "to" mamy - być może parametryczny, jak w regułach 1 i 2 - rezultat zastosowania, to jest
+wniosek i zarazem potencjalny rezultat naszego wspólnego działania według tej reguły.
 
 Zwróć proszę uwagę, bo to też ma ścisły związek z matematyką i programowaniem, że ten rezultat jest
 tylko *potencjalnym* skutkiem naszego *regularnego* (i *celowego*) *działania*, bo mimo tego, źe
@@ -502,8 +502,9 @@ było zauważyć w tekście reguły, które będziemy stosować w taki mechanicz
 regularny* sposób, moglibyśmy przyjąć na przykład konwencję, zgodnie z którą napierw zapisujemy w
 nawiasach warunki stosowalności, potem rysujemy strzałkę *→*, a na końcu zapisujemy strukturę (a
 właściwie typ, o czym powiem więcej później) wyrażenia, które dana reguła pozwala nam razem uzyskać,
-to jest które oboje będziemy uznawać za konsekwencję wystąpienia czegoś, co pasuje do wzorca
-zapisanego w nawiasach przed strzałką:
+to jest które oboje będziemy uznawać za *dopuszczalną i zarazem nieuchronną* - co nie znaczy, że
+*wystąpi*, bo *możemy nie zechcieć jej wyprowadzać*! - konsekwencję wystąpienia czegoś, co pasuje do
+wzorca zapisanego w nawiasach przed strzałką:
 
 *R1 : (x to zdarzenie, y to zdarzenie) → p(x, y) = p(y, x)*.
 
