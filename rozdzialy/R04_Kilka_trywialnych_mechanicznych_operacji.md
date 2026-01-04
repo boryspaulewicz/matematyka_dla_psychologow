@@ -716,20 +716,21 @@ sumuję = funkcja (){
 }
 ```
 
-To jest [*rekurencyjna*](https://pl.wikipedia.org/wiki/Rekurencja) funkcja (bezargumentowa, co
-poznajemy po pustych nawiasach występujących po słowie "funkcja"). Ta funkcja jest rekurencyjna, bo
-w ostatnim kroku [*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, [*samą
+To jest akurat funkcja bezargumentowa, co poznajemy po pustych nawiasach po słowie "funkcja". A mimo
+to gdy działa reaguje na pewne wejścia. Ta funkcja jest też
+[*rekurencyjna*](https://pl.wikipedia.org/wiki/Rekurencja), bo w ostatnim kroku
+[*wywołuje*](https://www.etymonline.com/word/summon), czyli stosuje, [*samą
 siebie*](https://pl.wikipedia.org/wiki/Uroboros), przez co *trwa w swoim sposobie działania*. 
 
 *Tak samo jak my, dopóki żyjemy*.
 
 *Rzeczywisty podmiot* to *działająca fizycznie funkcja, która wywołuje i programuje samą siebie w
 sposób* (który można opisać jako) *celowy*. To co w psychologii nazywamy *selektywnością uwagi*
-odpowiada *skończonej liczbie i typowaniu* (o czym niebawem) *wejść* tego rodzaju funkcji. Pamięć to
-coś, co pozwala na *wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie
-reguł (językowych) do rozwiązywania problemów*. *Planowanie* to *tworzenie programu działania dla
-samej siebie*. Programowanie (Się) można więc traktować jako uogólnienie pojęć zapamiętywania,
-uczenia (Się) i planowania. Automatyzacja odpowiada technicznym pojęciom
+odpowiada *skończonej liczbie i typowaniu* (o czym niebawem) *wejść*. Pamięć to coś, co pozwala na
+*wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie reguł (językowych) do
+rozwiązywania problemów*. *Planowanie* to *tworzenie programu działania dla samej siebie*.
+Programowanie Się można więc traktować jako uogólnienie pojęć zapamiętywania, uczenia Się i
+planowania. To co w psychologii nazywamy automatyzacją odpowiada technicznym pojęciom
 [*kompilacji*](https://pl.wikipedia.org/wiki/Kompilator) i
 [*interpretacji*](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
 
