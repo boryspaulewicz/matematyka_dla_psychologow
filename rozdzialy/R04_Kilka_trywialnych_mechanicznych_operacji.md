@@ -631,10 +631,10 @@ do pewnego stopnia tą wiedzą *rozczarowani*.
 
 Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to coś musi być również dla nas *ważne* i
 *znaczące*, choć zwykle (a może w przypadku Sztuki wręcz zawsze?) *trudno powiedzieć, co lub jak
-znaczące*. Ponieważ w przypadku trudno powiedzieć, o co właściwie chodzi, i nie da się w zasadzie
-*przekazać* wartości sztuki *objaśniając ją*, podobnie jak nie da się za pomocą słów przekazać smaku
-czekolady, ważną rolę w sztuce odgrywają *konkretne artefakty* i *zdarzenia*, to jest (oryginalne)
-*dzieła* sztuki.
+znaczące*. Ponieważ w przypadku *S*ztuki trudno powiedzieć, o co właściwie chodzi, i nie da się w
+zasadzie *przekazać* Jej wartości *objaśniając ją*, podobnie jak nie da się za pomocą słów przekazać
+smaku czekolady, ważną rolę w Sztuce odgrywają *konkretne artefakty* i *zdarzenia*, to jest
+(oryginalne) *Dzieła*.
 
 Czy zauważyłaś jednak, jak bardzo nawet najwybitniejsi artyści *Się powtarzają*? Moim zdaniem
 dlatego, że muszą, bo - *z definicji* - zrobienie czegoś, co jest zarazem trudne, rzadkie,
