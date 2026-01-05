@@ -15,9 +15,16 @@ właściwie tylko *jednej* prostej mechanicznej czynności, polegającej na *pod
 (*wymienianiu*) jednych wyrażeń w miejsce innych (na inne wyrażenia) w sposób określony przez *jawne
 i jednoznaczne reguły językowe*.
 
+Przekonasz się, że z jednej perspektywy matematyka jest *zawsze* (dziecinnie) *prosta*, a z innej
+jest *inherentnie trudna*. Proste (a przez to przyjemne), bo mechanizowalne albo algorytmizowalne
+jest to, jak (zastana) matematyka *działa*; trudne (a przez to ekscytujące), bo (w ogólnym przypadku
+[dowiedlnie](https://pl.wikipedia.org/wiki/Twierdzenia_G%C3%B6dla)) niealgorytmizowalne jest
+*odkrywanie* nowej matematyki, to znaczy konstruowanie użytecznych teorii matematycznych i
+dowodzenie twierdzeń, a także znajdywanie matematycznych rozwiązań problemów.
+
 Uprzedzam, że ten rozdział rozrósł się na skutek informacji zwrotnych, które otrzymałem od
 studentów, na tyle, że **aktywne przeczytanie go zajmie Ci za pierwszym razem prawdopodobnie co
-najmniej godzinę**. Na pocieszenie dodam, że fragmenty dotyczące (meta)teoretycznych popdstaw
+najmniej godzinę**. Na pocieszenie dodam, że fragmenty dotyczące (meta)teoretycznych podstaw
 psychologii, które z tego powodu dopisałem, można traktować jako *zapowiedź*.
 
 <hr>
@@ -199,7 +206,8 @@ dygresyjnym i wybiegającym w przyszłość fragmentem, jakby były regułami *g
 sensu*. Uwierz mi proszę na próbę, bo sprawdzałem to wielokrotnie - na tym etapie potrzeba sensu
 może Ci *przeszkadzać*. Obiecuję, że sens się pojawi, tylko może kiedy indziej i raczej stopniowo.
 
-**Polecenie**: *To zadanie może być w tym momencie zbyt trudne. Jeśli tak będzie, spróbuj najpierw
+**Celem tego zadania jest oswojenie Cię z wykonywaniem operacji formalnych bez zwracania uwagi na
+ich sens**: *To zadanie może być w tym momencie zbyt trudne. Jeśli tak będzie, spróbuj najpierw
 wykonać następne zadanie, a później ewentualnie wróć do tego*.  
 
 Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej cztery zdania, które będziemy chwilowo
@@ -264,10 +272,11 @@ pierwszych albo drugich zajęciach, i postarałem się nakłonić wszystkich, ż
 prostych formalnych przekształceniach, takich jak stosowanie zasady przechodniości relacji równości.
 Różnica w *wykonaniu*, nawet jeśli niekoniecznie w *zrozumieniu*, była oczywista.
 
-**Polecenie**: Znajdź czystą kartkę papieru i coś do pisania. Napisz na kartce trzy zdania, które
-będziemy chwilowo rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze
-lepiej *reguły językowe* albo *komunikacyjne*, na które (wyobrażam sobie, że) *umawiamy się bez
-uzasadnienia*:
+**Celem tego zadania jest powtórne ćwiczenie tego, czego wymagało poprzednie zadanie, ale w
+kontekście, w którym trudniej zignorować znaczenie symboli**: Znajdź czystą kartkę papieru i coś do
+pisania. Napisz na kartce trzy zdania, które będziemy chwilowo rozumieć jako *aksjomaty*, czyli
+*reguły gry* (a nie *założenia*), albo jeszcze lepiej *reguły językowe* albo *komunikacyjne*, na
+które (wyobrażam sobie, że) *umawiamy się bez uzasadnienia*:
 
 1. Istnieją tak zwane *zdarzenia*.
 
