@@ -18,9 +18,10 @@ i jednoznaczne reguły językowe*.
 Przekonasz się, że z jednej perspektywy matematyka jest *zawsze* (dziecinnie) *prosta*, a z innej
 jest *inherentnie trudna*. Proste (a przez to przyjemne), bo mechanizowalne albo algorytmizowalne
 jest to, jak (zastana) matematyka *działa*; trudne (a przez to ekscytujące), bo (w ogólnym przypadku
-[dowiedlnie](https://pl.wikipedia.org/wiki/Twierdzenia_G%C3%B6dla)) niealgorytmizowalne jest
-*odkrywanie* nowej matematyki, to znaczy konstruowanie użytecznych teorii matematycznych i
-dowodzenie twierdzeń, a także znajdywanie matematycznych rozwiązań problemów.
+[dowiedlnie](https://pl.wikipedia.org/wiki/Twierdzenia_G%C3%B6dla)) niealgorytmizowalne, a więc z
+konieczności do pewnego stopnia nieprzewidywalne i twórcze jest *odkrywanie* nowej matematyki, to
+znaczy konstruowanie użytecznych teorii matematycznych i dowodzenie twierdzeń, a także znajdywanie
+matematycznych rozwiązań problemów.
 
 Uprzedzam, że ten rozdział rozrósł się na skutek informacji zwrotnych, które otrzymałem od
 studentów, na tyle, że **aktywne przeczytanie go zajmie Ci za pierwszym razem prawdopodobnie co
