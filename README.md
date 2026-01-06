@@ -315,8 +315,7 @@ tutaj piszę, może wymagać pewnych kompetencji filozoficznych i matematycznych
 [R3 Do czego autor zmierza](./rozdzialy/R03_Do_czego_autor_zmierza.md)  
 *Jakieś gruszki na jakiejś wierzbie.*
 
-A czytając ten rozdział zaczniesz się uczyć (*ze mną*, nawet jeśli w tym momecie jestem trochę dalej), w dosyć
-nietypowy sposób i niemal od zera, podstaw matematyki.  
+A czytając ten rozdział zaczniesz się uczyć (*ze mną*, nawet jeśli w tym momecie jestem trochę dalej), w dosyć nietypowy sposób i niemal od zera, podstaw matematyki (i psychologii).  
 [R4 Kilka trywialnych mechanicznych operacji](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md)  
 *Dwa dowody przeprowadzone łagodnie i krok po kroku, a wokół pełno metarefleksji.*
 
