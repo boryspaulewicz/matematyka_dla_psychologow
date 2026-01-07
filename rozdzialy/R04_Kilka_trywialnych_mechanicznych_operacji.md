@@ -555,19 +555,17 @@ i
 
 **programowanie czegokolwiek, co jest programowalne**.
 
-Ten język jest na tyle ekspresyjny, że za jego pomocą możemy posługiwać się
-dowolnymi *regułami wnioskowania i konstrukcji*, a także możemy zapisywać
-*programy działania*, czyli *wykonywalne plany*, skonstruowane dla siebie, dla
-innych, lub po to, żeby wykonywały je urządzenia. Jak się przekonasz w
-następnych rozdziałach, jest jednocześnie jednym z dostępnych języków
-podstawowych całej matematyki i pełnowartościowym (między innymi funkcyjnym i
-czystym) językiem programowania. I właśnie dzięki temu, poznając go i posługując
-się nim będziemy w stanie coraz lepiej widzieć, w jaki sposób każde
-*rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest pewnego rodzaju
-- w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
-takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu*
-albo *do pewnego stopnia*, logiczne albo racjonalne, a mówiąc ogólnie
-*wystarczająco konsekwentne*. Inaczej *nie byłoby zachowaniem danego rodzaju*.
+Ten język jest na tyle ekspresyjny, że za jego pomocą możemy posługiwać się dowolnymi *regułami
+wnioskowania i konstrukcji*, a także możemy zapisywać *programy działania*, czyli *wykonywalne
+plany*, skonstruowane dla siebie, dla innych, lub po to, żeby wykonywały je urządzenia. Jak się
+przekonasz w następnych rozdziałach, jest jednocześnie jednym z dostępnych języków podstawowych
+całej matematyki i pełnowartościowym (między innymi funkcyjnym i czystym) językiem programowania. I
+właśnie dzięki temu, poznając go i posługując się nim będziemy w stanie coraz lepiej widzieć, w jaki
+sposób każde *rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest pewnego rodzaju - w
+pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako takie jest z
+konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego stopnia*,
+logiczne albo racjonalne, a mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie byłoby
+zachowaniem danego rodzaju*.
 
 No to zapytam jeszcze raz - *jaka jest relacja między matematyką i programowaniem a psychologią*? Na
 czym właściwie polega *każda rozmowa*, albo na przykład *terapia*, jeżeli nie na wzajemnym
