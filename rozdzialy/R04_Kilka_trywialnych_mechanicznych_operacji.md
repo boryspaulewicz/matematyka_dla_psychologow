@@ -995,4 +995,9 @@ do czego rozwinąć* (albo "rozpakować"), a *zwykłe* definicje to tylko *wybra
 alternatywne sposoby zapisu*, służące zwykle do tego, żeby można było coś napisać krócej lub
 bardziej zrozumiale, albo żeby pewne mechaniczne przekształcenia łatwiej się automatyzowały.
 
+A mówiąc jeszcze inaczej, aksjomaty to *wzorce językowe*, a zwykłe definicje to arbitralne reguły
+*przekształcania* wyrażeń. W szczególności, wszystko, co może być opisane w taki sposób, żeby
+pasowało do wzorca aksjomatów Peano, *działa jak* liczby naturalne w tym znaczeniu, że *może być*
+(przez Kogoś) *używane jak* liczby naturalne. A więc każde takie coś to (również) liczby naturalne.
+
 <hr>
