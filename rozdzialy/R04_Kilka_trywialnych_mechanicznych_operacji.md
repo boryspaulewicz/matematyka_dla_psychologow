@@ -555,16 +555,19 @@ i
 
 **programowanie czegokolwiek, co jest programowalne**.
 
-Ten język jest na tyle ekspresyjny, że za jego pomocą możemy nie tylko posługiwać się dowolnymi
-*regułami wnioskowania*, ale możemy też zapisywać *programy działania*, czyli *wykonywalne plany*,
-skonstruowane dla siebie, dla innych, lub po to, żeby wykonywały je urządzenia. Jak się przekonasz w
-następnych rozdziałach, jest jednocześnie jednym z dostępnych języków podstawowych całej matematyki
-i pełnowartościowym (między innymi funkcyjnym i czystym) językiem programowania. I właśnie dzięki
-temu, poznając go i posługując się nim będziemy w stanie coraz lepiej widzieć, w jaki sposób każde
-*rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest pewnego rodzaju - w pewnym sensie
-idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako takie jest z konieczności w pewien
-sposób, nawet jeżeli tylko *w przybliżeniu* albo *do pewnego stopnia*, logiczne albo racjonalne, a
-mówiąc ogólnie *wystarczająco konsekwentne*. Inaczej *nie byłoby zachowaniem danego rodzaju*.
+Ten język jest na tyle ekspresyjny, że za jego pomocą możemy posługiwać się
+dowolnymi *regułami wnioskowania i konstrukcji*, a także możemy zapisywać
+*programy działania*, czyli *wykonywalne plany*, skonstruowane dla siebie, dla
+innych, lub po to, żeby wykonywały je urządzenia. Jak się przekonasz w
+następnych rozdziałach, jest jednocześnie jednym z dostępnych języków
+podstawowych całej matematyki i pełnowartościowym (między innymi funkcyjnym i
+czystym) językiem programowania. I właśnie dzięki temu, poznając go i posługując
+się nim będziemy w stanie coraz lepiej widzieć, w jaki sposób każde
+*rozumowanie* jest pewnego rodzaju *działaniem celowym*, to jest pewnego rodzaju
+- w pewnym sensie idealnym albo wzorcowym - zachowaniem, a każde zachowanie jako
+takie jest z konieczności w pewien sposób, nawet jeżeli tylko *w przybliżeniu*
+albo *do pewnego stopnia*, logiczne albo racjonalne, a mówiąc ogólnie
+*wystarczająco konsekwentne*. Inaczej *nie byłoby zachowaniem danego rodzaju*.
 
 No to zapytam jeszcze raz - *jaka jest relacja między matematyką i programowaniem a psychologią*? Na
 czym właściwie polega *każda rozmowa*, albo na przykład *terapia*, jeżeli nie na wzajemnym
@@ -684,8 +687,7 @@ trochę lepiej, co to sformułowanie *może* znaczyć. Gdyby wiedzieli, że na p
 garstce psychologów - bo to jest termin techniczny matematyki - choć ważne, ma dla psychologii
 znaczenie *drugorzędne*, ponieważ *wystarczy, żeby adaptacja była wystarczająca*, a do tego nie
 trzeba *algorytmów* ani rozwiązań *optymalnych*, za to znaczenie pierwszorzędne ma fakt, że
-komputery zostały *stworzone na podobieństwo ludzi* pod tym kluczowym dla całej psychologii
-względem, że są *wystarczająco skutecznie niemal dowolnie programowalne*.
+komputery zostały *stworzone na podobieństwo ludzi i innych zwierząt* pod tym kluczowym dla całej psychologii względem, że są *programowalne*.
 
 Można powiedzieć, że to jest *centralna teza*, z której wyrasta, którą wyraża, i którą ilustruje na
 różne sposoby ta książka:
@@ -785,6 +787,11 @@ organizmów żywych jest wstępnie *zakodowana*, czyli po prostu zaprogramowana,
 trzy dobre powody, żeby postrzegać biologię jako subdyscyplinę - odpowiednio uogólnionej -
 informatyki (sic!), a więc też subdyscyplinę psychologii, rozumianej jako nauka o zachowaniu (a nie
 tylko o zachowywaniu Się), rozumianym jako (jakiekolwiek) działanie celowe.
+
+Całkiem dosłownie *wszystko co robimy*, w tym również to o czym i w jaki spośób
+myślimy,  jest przede wszystkim wynikiem *programowania społecznego*, które z
+kolei jest ostatecznie rezultatem działania zapisanego w każdej komórce *kodu*
+genetycznego. 
 
 Matematyka i informatyka to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego (albo
