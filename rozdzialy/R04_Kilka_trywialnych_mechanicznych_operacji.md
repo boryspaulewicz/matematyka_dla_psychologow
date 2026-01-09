@@ -390,8 +390,7 @@ Zamiast o aksjomatach, definicjach, czy twierdzeniach będziemy nadal mówić og
 **regułach**, żeby w ten sposób podkreślić, że w praktyce dowodzenia, a mówiąc ogólniej w praktyce
 tworzenia i korzystania z matematyki teoretycznej, podobnie zresztą jak *we wszelkiego rodzaju
 rozumowaniach*, aksjomaty, definicje i twierdzenia pełnią jedną i tą samą ogólną rolę, tylko w nieco
-inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia wyrażeń* (czasami, choć nie zawsze, z
-innych wyrażeń).
+inny sposób, to jest *wyrażają reguły dopuszczalnego tworzenia wyrażeń* (zwykle z innych wyrażeń).
 
 Będziemy się powtarzać, żeby nie trzeba było ciągle albo pamiętać, albo szukać informacji mówiących
 o tym, jakie są *warunki stosowalności* tych reguł, tylko żeby to było można zawsze łatwo *zobaczyć
@@ -513,7 +512,7 @@ regularny* sposób, moglibyśmy przyjąć na przykład konwencję, zgodnie z kt�
 nawiasach warunki stosowalności, potem rysujemy strzałkę *→*, a na końcu zapisujemy strukturę (a
 właściwie typ, o czym powiem więcej później) wyrażenia, które dana reguła pozwala nam razem uzyskać,
 to jest które oboje będziemy uznawać za *dopuszczalną i zarazem nieuchronną* - co nie znaczy, że
-*wystąpi*, bo *możemy nie zechcieć jej wyprowadzać*! - konsekwencję wystąpienia czegoś, co pasuje do
+*wystąpi*, bo *możemy nie zechcieć jej wyprowadzać* - konsekwencję wystąpienia czegoś, co pasuje do
 wzorca zapisanego w nawiasach przed strzałką:
 
 *R1 : (x to zdarzenie, y to zdarzenie) → p(x, y) = p(y, x)*.
