@@ -82,12 +82,12 @@ mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiani
 Różnica między *podstawianiem pod zmienne* i *wymienianiem równych wyrażeń* jest taka, że zmienne są
 jakby stworzone do tego (i tylko do tego), żeby je czymś zastąpić, to jest nadać im jakąś wartość, i
 tymi wartościami mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Zmienne
-są więc *oznaczonymi miejscami w tekście, które są po to, żeby w nie coś wstawić*; dlatego nazywamy
-je zmiennymi. Natomiast równości pozwalają nam wymieniać ze sobą *wyrażenia* tego samego typu, o ile
-wymieniane wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości. Na przykład,
-zasada przemienności dodawania liczb naturalnych pozwala zamieniać *zapis zastosowania dodawania*,
-który *pasuje do wzorca n + m*, na taki, który *po dopasowaniu do tego wzorca można zapisać jako m +
-n*.
+są więc *miejscami w tekście, które zostały tak oznaczone po to, żeby było wiadomo, że można
+wstawiać w te miejsca inne fragmenty tekstu*; dlatego nazywamy je zmiennymi. Natomiast równości
+pozwalają nam wymieniać ze sobą *wyrażenia* tego samego typu, o ile wymieniane wyrażenie *pasuje do
+wzorca składniowego* po jednej ze stron równości. Na przykład, zasada przemienności dodawania liczb
+naturalnych pozwala zamieniać *zapis zastosowania dodawania*, który *pasuje do wzorca n + m*, na
+taki, który *po dopasowaniu do tego wzorca można zapisać jako m + n*.
 
 A więc w przypadku *podstawiania pod zmienne* wyrażenie do "wypełnienia" poznajemy po *nazwie i
 wcześniejszej deklaracji*, że to zmienna, a w przypadku *wymieniania równych wyrażeń* takie miejsce
