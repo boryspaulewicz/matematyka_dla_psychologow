@@ -166,10 +166,10 @@ znaczeniu, że styl jest jednocześnie elegancki i lekki, a ton wydaje mi się c
 Niektórzy wybitni matematycy potrafią tak pisać. A że temat bywa abstrakcyjny, złożony i pełen
 głębokich niespodzianek, rezultatem może być porażające połączenie treści z formą. Taki efekt można
 osiągnąć chyba tylko wtedy, kiedy autorzy, pisząc o złożonych zagadnieniach, mają rzeczywiście coś
-do powiedzenia, i nie tylko dobrze rozumieją to, co chcą powiedzieć, ale także to, jakie trudności
-mogą wystąpić u odbiorcy. No więc to jest, moim zdaniem, właśnie taka książka. W dodatku poza dobrą
-znajomością angielskiego autorzy nie zakładają w niej żadnej wcześniejszej wiedzy. Mimo to uczenie
-się z niej o teorii typów nie było dla mnie ani trochę łatwe.
+do powiedzenia, i nie tylko dobrze rozumieją to, co chcą powiedzieć, ale również to, jakie trudności
+mogą się pojawić u odbiorcy. No więc to jest, moim zdaniem, właśnie taka książka. W dodatku poza
+dobrą znajomością angielskiego autorzy nie zakładają w niej żadnej wcześniejszej wiedzy. Mimo to
+uczenie się z niej o teorii typów nie było dla mnie ani trochę łatwe.
 
 Przez dłuższy czas zaczynałem prawie każdy dzień od 30 minutowej jednostki (tak to sobie nazywam),
 polegającej nierzadko na czytaniu *po raz kolejny* tego samego *krótkiego* fragmentu, albo na
