@@ -176,9 +176,9 @@ standardem poprawności albo skuteczności albo adekwatności albo spójności a
 To, że mówiąc lub myśląc o liczbach popełniamy czasem błędy, nie zmienia faktu, że to są właśnie
 **błędy**. Każdy błąd *jako błąd*, zanim zapiszemy go na przykład jako - dla nas później zrozumiałe,
 bo *pamiętamy, co znaczy* - zero na teście, jest czymś w rodzaju "wektora" w tym znaczeniu, że ma
-wielkość, początek (ideał wykonania poprawnego albo optymalnego) i koniec (faktyczna próba
-wykonania). Faktyczna myśl albo wypowiedź na temat liczb w ogóle *może* być błędna tylko dlatego, że
-*będąc myślą o liczbach* jest *nierozerwalnie związana z pewnym wzorcem logicznej poprawności*,
+wielkość, początek (faktyczna próba wykonania) i koniec (ideał wykonania poprawnego albo
+optymalnego). Faktyczna myśl albo wypowiedź na temat liczb w ogóle *może* być błędna tylko dlatego,
+że *będąc myślą o liczbach* jest *nierozerwalnie związana z pewnym wzorcem logicznej poprawności*,
 który taka faktyczna myśl albo wypowiedź lepiej lub gorzej *fizycznie przybliża* czy *realizuje*.
 Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie*, *nieoptymalnie*, lub
 *niekonsekwentnie* tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami,
