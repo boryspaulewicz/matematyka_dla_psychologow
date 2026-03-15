@@ -11,22 +11,22 @@
 W tym rozdziale doświadczysz pewnego sposobu zajmowania się matematyką, który poznałaś już w szkole
 podstawowej, ale być może nie zastanawiałaś się jak dotąd dłużej, o co w nim właściwie chodzi.
 Będziemy przyglądać się z bliska wybranym, ważnym i często wykonywanym w matematyce czynnościom, a
-właściwie tylko *jednej* prostej mechanicznej czynności, polegającej na *podstawianiu*
+właściwie tylko *jednej* prostej *mechanicznej* czynności, polegającej na *podstawianiu*
 (*wymienianiu*) jednych wyrażeń w miejsce innych (na inne wyrażenia) w sposób określony przez *jawne
 i jednoznaczne reguły językowe*.
 
-Przekonasz się, że z jednej perspektywy matematyka jest *zawsze* (dziecinnie) *prosta*, a z innej
-jest *inherentnie trudna*. Proste (a przez to przyjemne), bo mechanizowalne albo algorytmizowalne
-jest to, jak (zastana) matematyka *działa*; trudne (a przez to ekscytujące), bo (w ogólnym przypadku
-[dowiedlnie](https://pl.wikipedia.org/wiki/Twierdzenia_G%C3%B6dla)) niealgorytmizowalne, a więc z
-konieczności do pewnego stopnia nieprzewidywalne i twórcze jest *odkrywanie* nowej matematyki, to
-znaczy konstruowanie użytecznych teorii matematycznych i dowodzenie twierdzeń, a także znajdywanie
-matematycznych rozwiązań problemów.
+Przekonasz się, że z jednej perspektywy matematyka jest *zawsze* (niemal dosłownie dziecinnie)
+*prosta*, a z innej jest *inherentnie trudna*. Proste (a przez to przyjemne), bo mechanizowalne albo
+algorytmizowalne jest to, jak (zastana) matematyka *działa*; trudne (a przez to ekscytujące), bo (w
+ogólnym przypadku [dowiedlnie](https://pl.wikipedia.org/wiki/Twierdzenia_G%C3%B6dla))
+niealgorytmizowalne, a więc z konieczności do pewnego stopnia nieprzewidywalne i twórcze, jest
+*odkrywanie* nowej matematyki, to znaczy konstruowanie użytecznych teorii matematycznych i
+dowodzenie twierdzeń, a także znajdywanie matematycznych rozwiązań problemów niematematycznych.
 
 Uprzedzam, że ten rozdział rozrósł się na skutek informacji zwrotnych, które otrzymałem od
 studentów, na tyle, że **aktywne przeczytanie go zajmie Ci za pierwszym razem prawdopodobnie co
 najmniej godzinę**. Na pocieszenie dodam, że fragmenty dotyczące (meta)teoretycznych podstaw
-psychologii, które z tego powodu dopisałem, można traktować jako *zapowiedź*.
+psychologii, które z tego powodu dopisałem, można traktować jako zapowiedź albo ciekawostkę.
 
 <hr>
 
@@ -75,21 +75,22 @@ naturalne) liczbę naturalną, i tak dalej.
 
 Myślę, że zgodzisz się, że takie operacje wiele dzieci opanowuje bez większego trudu w szkole
 podstawowej. W dodatku każda równość, którą możemy w ten sposób uzyskać, interesuje nas często
-właśnie dlatego, że sama jest czymś w rodzaju reguły podstawiania, bo mówi o *zastępowalności* lewej
-strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą samą prostą czynność
-mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania czy zastępowania.
+właśnie dlatego, że sama jest czymś w rodzaju reguły podstawiania, bo mówi o *wzajemnej
+zastępowalności* - lewej strony przez prawą i prawej przez lewą. Cały czas chodzi więc o jedną i tą
+samą prostą czynność mechanicznego, to jest w zasadzie bezmyślnego, ogólnie rozumianego podstawiania
+czy zastępowania.
 
-Różnica między *podstawianiem pod zmienne* i *wymienianiem równych wyrażeń* jest taka, że zmienne są
-jakby stworzone do tego (i tylko do tego), żeby je czymś zastąpić, to jest nadać im jakąś wartość, i
-tymi wartościami mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego typu. Zmienne
-są więc *miejscami w tekście, które zostały tak oznaczone po to, żeby było wiadomo, że można
-wstawiać w te miejsca inne fragmenty tekstu*; dlatego nazywamy je zmiennymi. Natomiast równości
-pozwalają nam wymieniać ze sobą *wyrażenia* tego samego typu, o ile wymieniane wyrażenie *pasuje do
-wzorca składniowego* po jednej ze stron równości. Na przykład, zasada przemienności dodawania liczb
-naturalnych pozwala zamieniać *zapis zastosowania dodawania*, który *pasuje do wzorca n + m*, na
-taki, który *po dopasowaniu do tego wzorca można zapisać jako m + n*.
+Różnica między *podstawianiem wyrażeń pod zmienne* i *wymienianiem równych wyrażeń* jest taka, że
+zmienne *stworzone* do tego (i tylko do tego), żeby je czymś zastąpić, to jest nadać im jakąś
+wartość, i tymi wartościami mogą być (obiekty oznaczone przez) *dowolne* wyrażenia odpowiedniego
+typu. Zmienne są więc *miejscami w tekście, które zostały tak oznaczone po to, żeby było wiadomo, że
+można wstawiać w te miejsca inne fragmenty tekstu*; dokładnie dlatego nazywamy je "zmiennymi".
+Natomiast równości pozwalają nam wymieniać ze sobą *wyrażenia* tego samego typu, o ile wymieniane
+wyrażenie *pasuje do wzorca składniowego* po jednej ze stron równości. Na przykład, zasada
+przemienności dodawania liczb naturalnych pozwala zamieniać *zapis zastosowania dodawania*, który
+*pasuje do wzorca n + m*, na taki, który *po dopasowaniu do tego wzorca można zapisać jako m + n*.
 
-A więc w przypadku *podstawiania pod zmienne* wyrażenie do "wypełnienia" poznajemy po *nazwie i
+A więc w przypadku *podstawiania pod zmienne*, wyrażenie do "wypełnienia" poznajemy po *nazwie i
 wcześniejszej deklaracji*, że to zmienna, a w przypadku *wymieniania równych wyrażeń* takie miejsce
 poznajemy po tym, że *wygląda jak* jedna ze stron równości. Może się wydawać, że tej drugiej
 operacji nie da się wykonać całkiem bezmyślnie, ale w pewnym sensie pierwszej też się nie da, gdy
