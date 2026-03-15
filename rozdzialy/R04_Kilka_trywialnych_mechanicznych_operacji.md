@@ -138,7 +138,7 @@ fizyczny zapis *Jeżeli A = B i B = C, to A = C*) możemy traktować jak przepis
 przepisami). Czy wobec tego najgłębszą podstawą całej matematyki nie są *nasze cele, postawy i
 sposoby działania*? Nawet jeśli przyjmiemy, że matematyka jest czymś, co raczej "odkrywamy" niż
 "tworzymy", nie ma *dla nas* i nigdy nie będzie innej matematyki niż ta, której *jesteśmy w stanie
-używać do rozumowania*, ponieważ ostatecznie matematyka jako taka jest *naszym narzędziem*.
+używać do rozumowania*, ponieważ ostatecznie matematyka *jako taka* jest *naszym narzędziem*.
 
 Żeby przepis był przepisem, musi istnieć ktoś, kto może go jako przepisu używać, i tak samo żeby
 sposób używania tego przepisu był tym, czym jest, to jest pewnym sposobem używania czegoś, musi
@@ -166,13 +166,14 @@ na myśli, że to jakieś pomylenie pojęć. W końcu to, jak *faktycznie* ludzi
 różnie i często popełniając błędy - to jedno, a to, jakie prawa rządzą liczbami i czym liczby *są*,
 to co innego. Taki filozofujący ktoś mógłby też dodać, że aksjomaty, definicje i twierdzenia
 matematyczne mówią jak *powinniśmy* używać między innymi "języka liczbowego", a nie jak go
-faktycznie używamy.
+*faktycznie* używamy.
 
-No dobrze, ale zawsze, gdy *faktycznie* - nieuchronnie popełniając czasem błędy - myślimy (lub
-mówimy) o liczbach, nasze myślenie, będące zresztą pewnego rodzaju *zachowaniem*, jest tym, czy
-jest, to znaczy właśnie myśleniem o liczbach, *o ile przybliża pewne idealne wzorce czy reguły*.
-Mówiąc ogólnie, każde zachowanie jest nierozerwalnie związane z jakimś mniej lub bardziej określonym
-standardem poprawności albo skuteczności albo adekwatności albo spójności albo czegoś w tym rodzaju.
+No dobrze, ale zawsze, gdy *faktycznie* - nieuchronnie popełniając czasem błędy, bo jesteśmy tylko
+ludźmi i składamy się głównie z wody - myślimy (lub mówimy) o liczbach, nasze myślenie, będące
+zresztą pewnego rodzaju *zachowaniem*, jest tym, czy jest, to znaczy właśnie myśleniem o liczbach,
+*o ile przybliża pewne idealne wzorce czy reguły*. Mówiąc ogólnie, *każde zachowanie* jest
+*nierozerwalnie* związane z jakimś mniej lub bardziej określonym standardem poprawności albo
+skuteczności albo adekwatności albo spójności albo czegoś w tym rodzaju.
 
 To, że mówiąc lub myśląc o liczbach popełniamy czasem błędy, nie zmienia faktu, że to są właśnie
 **błędy**. Każdy błąd *jako błąd*, zanim zapiszemy go na przykład jako - dla nas później zrozumiałe,
@@ -180,11 +181,11 @@ bo *pamiętamy, co znaczy* - zero na teście, jest czymś w rodzaju "wektora" w 
 wielkość, początek (faktyczna próba wykonania) i koniec (ideał wykonania poprawnego albo
 optymalnego). Faktyczna myśl albo wypowiedź na temat liczb w ogóle *może* być błędna tylko dlatego,
 że *będąc myślą o liczbach* jest *nierozerwalnie związana z pewnym wzorcem logicznej poprawności*,
-który taka faktyczna myśl albo wypowiedź lepiej lub gorzej *fizycznie przybliża* czy *realizuje*.
-Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie*, *nieoptymalnie*, lub
-*niekonsekwentnie* tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi zachowaniami,
-przynajmniej jako *teoretyczna możliwość*, (być może parametryczny) poprawny i spójny, a może nawet
-w jakimś sensie optymalny sposób kupowania chleba czy wiązania sznurowadeł.
+który taka faktyczna myśl albo wypowiedź lepiej lub gorzej *fizycznie przybliża* czy *realizuje* czy
+*spełnia*. Podobnie kupić chleb albo zawiązać sznurowadła można *nieskutecznie*, *nieoptymalnie*,
+lub *niekonsekwentnie* tylko dlatego, że istnieje nierozerwalnie związany pojęciowo z tymi
+zachowaniami, przynajmniej jako *teoretyczna możliwość*, (być może parametryczny) poprawny i spójny,
+a może nawet w jakimś sensie optymalny sposób kupowania chleba czy wiązania sznurowadeł.
 
 I to jest cecha wszystkich bez wyjątku *działań celowych* po prostu dlatego, że każde działanie
 celowe - również nieskuteczne, błędne czy nieoptymalne działanie celowe - *jest określone przez
