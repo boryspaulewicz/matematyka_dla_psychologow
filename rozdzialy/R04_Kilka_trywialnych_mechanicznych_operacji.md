@@ -211,7 +211,16 @@ może Ci *przeszkadzać*. Obiecuję, że sens się pojawi, tylko może kiedy ind
 
 **Celem tego zadania jest oswojenie Cię z wykonywaniem operacji formalnych bez zwracania uwagi na
 ich sens**: *To zadanie może być w tym momencie zbyt trudne. Jeśli tak będzie, spróbuj najpierw
-wykonać następne zadanie, a później ewentualnie wróć do tego*.  
+wykonać następne zadanie, a później ewentualnie wróć do tego*. 
+
+<hr>
+
+I pamiętaj proszę, że nie można skutecznie postanowić skończyć żadnego zadania, skutecznie można
+jedynie *postanowić zacząć*. Można to zrobić skutecznie, bo takie postanowienie jest już pierwszym -
+i najważniejszym - krokiem na drodze do znalezienia rozwiązania; reszta zależy od nas tylko
+częściowo. Każdy rzeczywisty umysł jest zawsze umysłem początkującego.
+
+<hr>
 
 Znajdź czystą kartkę papieru i coś do pisania. Napisz na niej cztery zdania, które będziemy chwilowo
 rozumieć jako *aksjomaty*, czyli *reguły gry* (a nie *założenia*), albo jeszcze lepiej *reguły
