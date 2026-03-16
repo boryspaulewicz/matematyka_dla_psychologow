@@ -320,7 +320,7 @@ wersji definicji są równe (na mocy przechodniości relacji równości). Zapisz
 
 Podziel obie strony przez *p(y)*, zakładając oczywiście, że ta wartość jest różna od zera (wynik
 dzielenia przez zero jest niezdefiniowany). Prosząc Cię, żebyś to założyła, mam na myśli, żebyś
-"miała tego świadomość". Uprość jedyną stronę równania, którą da się w tym momencie uprościć.
+*miała tego świadomość*. Uprość jedyną stronę równania, którą da się w tym momencie uprościć.
 
 Jeżeli wykonałaś poprawnie wszystkie te *trywialne*, *mechaniczne* operacje, polegające tylko na
 podstawianiu pewnych wyrażeń w miejsce innych wyrażeń zgodnie z kilkoma prostymi regułami, to udało
@@ -370,7 +370,7 @@ to znaczy, że można zarówno *skonstruować* dowód *według instrukcji* (ale 
 *sprawdzić* go, *nie rozumiejąc sensu dowiedzionego twierdzenia*. Wynika stąd, że sama *znajomość
 dowodu mówi niewiele*, a często może nawet *nic*, o znaczeniu dowiedzionego zdania.
 
-Żeby zrozumieć co *znaczy* dane zdanie, trzeba go przede wszystkim *używać*, dowodząc za jego pomocą
+Żeby zrozumieć co *znaczy* dane zdanie, trzeba go po prostu *używać*, dowodząc za jego pomocą
 *innych* zdań lub rozwiązując jakieś problemy i poznając w ten sposób jego *konsekwencje*. Dlatego
 zależy mi, żebyś nie oczekiwała od dowodów tego, czego nie będą mogły Ci dać. Rolą dowodu *nie* jest
 *ujawnianie sensu dowodzonego zdania*, tylko *rozstrzyganie o jego prawdziwości*, jak również -
@@ -383,9 +383,9 @@ można je *zastosować*, czyli poznałaś niektóre ich *konsenwencje*.
 Od chwili, w której jakieś matematyczne zdanie zostało formalnie udowodnione, wiemy na pewno, że
 było, jest i zawsze już będzie prawdziwe, chociaż *tylko* w tym znaczeniu, że jest *nieuchronną
 konsekwencją określonych reguł językowych*. Od tego momentu o samym dowodzie, to jest o jego
-konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy z niego skorzystać jako ze
-wskazówki podczas poszukiwania innego dowodu. Liczy się przede wszystkim to, że dowód danego zdania
-*istnieje*.
+konkretnej strukturze, możemy spokojnie *zapomnieć*, chyba, że chcemy skorzystać z tej struktury
+jako ze wskazówki podczas poszukiwania innego dowodu. Liczy się przede sam fakt, że dowód danego
+zdania *istnieje*.
 
 ## Jeszcze bardziej pedantycznie
 
@@ -408,7 +408,8 @@ o tym, jakie są *warunki stosowalności* tych reguł, tylko żeby to było moż
 w tekście*. Dzięki temu będziemy mogli stosować te reguły jeszcze bardziej *bezmyślnie*, co nas
 odciąży poznawczo i zmniejszy ryzyko błędu niemal do zera. Ale jest też głębszy powód - w ten sposób
 będziemy mogli *zobaczyć jako jawnie zapisane w tekście coś, co wcześniej niejawnie działało w nas*,
-a mówiąc dokładniej co *pamiętaliśmy lub wyobrażaliśmy sobie i co staraliśmy się przybliżać*.
+a mówiąc dokładniej co *pamiętaliśmy lub wyobrażaliśmy sobie i co staraliśmy się przybliżać swoim
+zachowaniem*.
 
 Reguła 1. Jeżeli *x* i *y* to zdarzenia, to *p(x, y) = p(y, x)*.
 
@@ -440,7 +441,7 @@ składałyby się na *faktyczny* akt jednoczesnej akceptacji dwóch pierwszych r
 trzeciej.
 
 Za to istnieje, o czym przekonasz się za chwilę doświadczalnie, albo co udowodnię Ci zaraz
-fizycznie, zachowanie polegające na akceptacji wszystkich trzech.
+fizycznie, zachowanie polegające na akceptacji wszystkich trzech reguł.
 
 Reguła 3. Niech *a* i *b* będą zdarzeniami.  
 (to jest początek konstrukcji tego nowego językowego narzędzia, które nazywamy tu regułą 3)
@@ -491,7 +492,7 @@ Wreszcie, stosując po raz kolejny tą samą regułę, uzyskujemy zdanie:
 I na tym etapie się zatrzymamy, żeby zapytać - *co tu się właściwie dzieje?*
 
 Pisząc to wszystko zakładałem, że oboje jesteśmy (wystarczająco) kompetentnymi użytkownikami języka
-polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się (praktycznie) tak samo jak ja, a
+polskiego. Dlatego pewnymi słowami czy wyrażeniami posługujesz się *praktycznie* tak samo jak ja, a
 nawet gdybyśmy niektórych słów używali inaczej, moglibyśmy się zawsze *dogadać*.
 
 Dotyczy to między innymi zdań o postaci *jeżeli ... to ...*. Taka *warunkowa struktura* jest
@@ -638,7 +639,7 @@ Zgodzisz się chyba, że sztuką nazywamy zwykle takie rzeczy, które są wyjąt
 znaczeniu, że są *trudne*; dlatego mamy na myśli to, co mamy, mówiąc "to nie żadna sztuka...". I
 *tajemnicze*, bo sztuka to nie technika ani technologia. Dlatego kiedy wiemy, w jaki dokładnie
 sposób ktoś, kogo uważaliśmy wcześniej za artystę, uzyskał zamierzony efekt, jesteśmy przynajmniej
-do pewnego stopnia tą wiedzą *rozczarowani*. 
+do pewnego stopnia tą wiedzą *rozczarowani*.
 
 Żebyśmy byli skłonni nazywać coś Sztuką przez duże S, to coś musi być również dla nas *ważne* i
 *znaczące*, choć zwykle (a może w przypadku Sztuki wręcz zawsze?) *trudno powiedzieć, co lub jak
@@ -722,7 +723,7 @@ albo matematyka teoretyczna, a programowanie imperatywne to skomputeryzowana mat
 Te dwa paradygmaty składają się na *wyidealizowany model logicznej interakcji ze światem fizycznym*.
 Z tej perspektywy matematyka i programowanie (imperatywne) mogą być rozumiane jako dwie
 subdyscypliny psychologii, o ile tą ostatnią będziemy rozumieć jako naukę, której centralnym
-przedmiotem jest (jakiekolwiek) działanie celowe.
+przedmiotem badań jest (jakiekolwiek) działanie celowe.
 
 Rozważmy na przykład taki oto program, napisany w zmyślonym języku:
 
@@ -749,9 +750,9 @@ sposób* (który można opisać jako) *celowy*. To co w psychologii nazywamy *se
 odpowiada *skończonej liczbie i typowaniu* (o czym niebawem) *wejść*. Pamięć to coś, co pozwala na
 *wnioskowanie z wcześniejszych wartości wejść*. *Rozumowanie* to *stosowanie reguł (językowych) do
 rozwiązywania problemów*. *Planowanie* to *tworzenie programu działania dla samej siebie*.
-Programowanie Się można więc traktować jako uogólnienie pojęć zapamiętywania, uczenia Się i
-planowania. To co w psychologii nazywamy automatyzacją odpowiada technicznym pojęciom
-[*kompilacji*](https://pl.wikipedia.org/wiki/Kompilator) i
+Programowanie Się można więc traktować jako uogólnienie pojęć zapamiętywania, uczenia Się,
+wyprowadzania wniosków, i planowania. To co w psychologii nazywamy automatyzacją odpowiada
+technicznym pojęciom [*kompilacji*](https://pl.wikipedia.org/wiki/Kompilator) i
 [*interpretacji*](https://pl.wikipedia.org/wiki/Interpreter_(program_komputerowy)) kodu.
 
 W *ciele* funkcji `sumuję` widzimy fragmenty *logiczne* albo *formalne*, takie jak *wyrażenie*
@@ -790,16 +791,15 @@ Dlatego ważną częścią biologii (i medycyny) jest
 [*fizjologia*](https://pl.wikipedia.org/wiki/Fizjologia), która jest nauką nie o dowolnych
 fizycznych strukturach i procesach, tylko o pewnych
 [*mechanizmach*](https://sjp.pwn.pl/sjp/mechanizm;2567284.html), czyli o strukturach i procesach
-postrzeganych (przez nas) jako służące pewnym celom. W dodatku struktura i sposób działania
+*postrzeganych przez nas* jako służące pewnym celom. W dodatku struktura i sposób działania
 organizmów żywych jest wstępnie *zakodowana*, czyli po prostu zaprogramowana, przez DNA. I to są
 trzy dobre powody, żeby postrzegać biologię jako subdyscyplinę - odpowiednio uogólnionej -
 informatyki (sic!), a więc też subdyscyplinę psychologii, rozumianej jako nauka o zachowaniu (a nie
 tylko o zachowywaniu Się), rozumianym jako (jakiekolwiek) działanie celowe.
 
-Całkiem dosłownie *wszystko co robimy*, w tym również to o czym i w jaki spośób
-myślimy,  jest przede wszystkim wynikiem *programowania społecznego*, które z
-kolei jest ostatecznie rezultatem działania zapisanego w każdej komórce *kodu*
-genetycznego. 
+Całkiem dosłownie *wszystko co robimy*, w tym również to o czym i w jaki spośób myślimy,  jest
+przede wszystkim wynikiem *programowania społecznego*, które z kolei jest ostatecznie rezultatem
+działania zapisanego w każdej komórce *kodu* genetycznego. 
 
 Matematyka i informatyka to dwie subdyscypliny psychologii w tym znaczeniu, że dotyczą tylko dwóch
 spośród *trzech* fundamentalnych aspektów działania celowego, to jest aspektu logicznego (albo
