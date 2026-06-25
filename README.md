@@ -88,12 +88,21 @@ postępując jak na naukowca przystało, zamiast bezmyślnie i często popełnia
 coś, "bo tak się robi", opierając się w ten sposób na domniemanym autorytecie zajętego głównie
 pozyskiwaniem publicznych pieniędzy i przepychaniem publikacji akademickiego stada. 
 
-<br>
+<hr>
 
-*Postawa naukowa to przecież dokładnie **przeciwieństwo** postawy ujawniającej się w pozornym
-uzasadnieniu "bo tak się robi"!*
+Postawa *naukowa* to między innymi postawa *sceptyczna*, to jest taka, która domaga się
+*uzasadnienia*. Między innymi, bo to również *otwartość* na *wszelkie* nowe pomysły i *dociekliwość*
+w poszukiwaniu ważnych prawd. A postawa sceptyczna to dokładnie *przeciwieństwo* postawy
+ujawniającej się w pozornym uzasadnieniu "bo tak się robi", które w rozmaitych, czasami
+zakamuflowanych wersjach tak często niestety pada z ust nieudolnie udających naukowców psychologów
+akademickich. Zachęcam Was, drodzy studenci psychologii, żebyście przy każdej okazji, kiedy macie
+choćby tylko cień wątpliwości, zadawali osobom prowadzącym zajęcia, również te dotyczące statystyki
+i metodologii badań, pytanie o to *dlaczego* te osoby twierdzą lub sugerują to, co twierdzą lub
+sugerują. A gdy jako odpowiedź usłyszycie coś w rodzaju "bo tak się robi", albo "to zbyt
+skomplikowane, żeby można to było wyjaśnić na zajęciach", mówcie wprost, że taka odpowiedź ma coś
+wspólnego z postawą naukową tylko w tym znaczeniu, że jest jej przeciwieństwem!
 
-<br>
+<hr>
 
 Ale chyba przede wszystkim po to, żeby doświadczać głębokich wglądów, satysfakcji ostatecznego
 rozwiązania problemu, kontroli i mocy wynikających z opanowywania nowych sposobów myślenia, i
