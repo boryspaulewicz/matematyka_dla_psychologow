@@ -1,20 +1,17 @@
 <!-- -*- coding: utf-8 -*- -->
-<div align="right"><em>Wszystko, co można zrozumieć, da się powiedzieć jasno.<br/>Wszystko, co da
-się powiedzieć jasno, można zapisać w języku teorii typów.<br/> A to, co zostało zapisane w języku
-teorii typów, można sprawdzić i zredukować do najprostszej postaci za pomocą algorytmu.</em></div>
+<div align="right"><em>Wszystko, co można zrozumieć, da się powiedzieć jasno.<br/>Wszystko, co da się powiedzieć jasno, można zapisać w języku teorii typów.<br/> A to, co zostało w ten sposób zapisane, można sprawdzić i zredukować do najprostszej postaci za pomocą algorytmu.</em></div>
 
 <br/>
 <br/>
 <br/>
 
-**Ostrzeżenie**: To *nie* jest książka o liczbach, geometrii, czy rozwiązywaniu zadań rachunkowych,
-choć oczywiście i liczby i geometria i zadania rachunkowe czasem się w niej pojawiają. Ta książka
-jest przede wszystkim o tym, jak można próbować lepiej zrozumieć siebie i innych za pomocą
-konsekwentnego, ale poza tym swobodnego dialogu, w tym również uzewnętrznionego dialogu
-wewnętrznego, polegającego na łączeniu na różne sposoby pewnych uniwersalnie użytecznych, dobrze
-określonych punktów widzenia na (jakiekolwiek) to samo, których dostarczają jedne z najbardziej
-abstrakcyjnych teorii współczesnej matematyki. To książka o matematyce rozumianej jako sztuka
-uważnego i nietendencyjnego wsłuchiwania się w siebie (nawzajem).
+To *nie* jest książka o liczbach, geometrii, czy rozwiązywaniu zadań rachunkowych, choć oczywiście i
+liczby i geometria i zadania rachunkowe czasem się w niej pojawiają. Ta książka jest przede
+wszystkim o tym, jak można próbować lepiej *zrozumieć siebie i innych* za pomocą *konsekwentnego* i
+*swobodnego dialogu*, w tym również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu
+na różne sposoby pewnych uniwersalnie użytecznych, dobrze określonych *punktów widzenia* na
+(jakiekolwiek) to samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej
+matematyki. To książka o matematyce jako sztuce uważnego wsłuchiwania się w siebie (nawzajem).
 
 <hr>
 
@@ -22,8 +19,8 @@ uważnego i nietendencyjnego wsłuchiwania się w siebie (nawzajem).
 4](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md), ponieważ zadałem ten rozdział,
 razem z kilkoma następnymi, jako lekturę obowiązkową do zajęć, i przekonałem się dzięki temu, że dla
 niemałej części naszych wyjątkowo zdolnych studentów nie jest wcale jasne, dlaczego i po co mieliby
-się czegoś takiego uczyć. Te nowe fragmenty są przede wszystkim odpowiedziami na pytania dlaczego i
-po co.
+się czegoś takiego uczyć. Dlatego wstawiłem te nowe fragmenty, to znaczy właśnie po to, żeby
+udzielić odpowiedzi na pytania dlaczego i po co.
 
 Zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych krytycznych.
@@ -43,15 +40,15 @@ sobie sprawę z tego, co odbiorczyni lub odbiorca wie i co dzięki temu może na
 łatwością zrozumieć. Dlatego mam nadzieję, że widząc w historii zmian wszystkie moje błędy i
 niezgrabne sformułowania i widząc, że staram się te wady usuwać, sprowokuję Cię do tego, żebyśmy tą
 książkę napisali *razem*. Bo to nie jest "moja" książka, zresztą żadna książka nie jest tak naprawdę
-"czyjaś", ani ona nie jest dla mnie, a w każdym razie nie przede wszystkim dla mnie. Zwłaszcza
-książka, która ma *służyć nauce*, nie powinna moim zdaniem, choćby tylko pozornie, "należeć" do
-żadnej konkretnej osoby, czy nawet do kilku wybitnych autorów, bo wtedy *nie może* dobrze spełniać
-swojej roli. Żaden autor nie ma przecież uprzywilejowanego dostępu do trudności, jakie będą
-napotykać czytelnicy. Dlatego efekt końcowy musi być, i zawsze do pewnego stopnia jest, wynikiem
-*współpracy*. Jeżeli więc interesuje Cię, co mam tu do powiedzenia i chcesz to zrozumieć, masz
-szansę pomóc sobie i innym do Ciebie podobnym odbiorcom *rozmawiając ze mną*; w ten sposób możesz
-stać się w jakimś stopniu współautorką albo współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie,
-liczba mnoga jest przecież konieczna.  
+"czyjaś", ani ona nie jest dla mnie, a w każdym razie nie przede wszystkim dla mnie. Książka, która
+ma *służyć nauce*, nie powinna moim zdaniem, choćby tylko pozornie, "należeć" do żadnej konkretnej
+osoby, czy nawet do kilku autorów, bo wtedy *nie może* dobrze spełniać swojej roli. Żaden autor nie
+ma przecież uprzywilejowanego dostępu do trudności, jakie będą napotykać czytelnicy. Dlatego efekt
+końcowy musi być, i zresztą zawsze do pewnego stopnia jest, wynikiem *współpracy*. Jeżeli więc
+interesuje Cię, co mam tu do powiedzenia i chcesz to zrozumieć, masz szansę pomóc sobie i innym do
+Ciebie podobnym odbiorcom *rozmawiając ze mną*; w ten sposób możesz stać się w jakimś stopniu
+współautorką albo współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie, liczba mnoga jest
+przecież konieczna.  
 (Tylko proszę, nie pisz wtedy o błędach ortograficznych i innych tego rodzaju drobiazgach, chyba, że
 pojawiły się na głównej stronie. Mam lekką dysgrafię, ale to już nie ma większego znaczenia.)
 
