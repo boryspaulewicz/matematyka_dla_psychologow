@@ -60,7 +60,7 @@ to, żeby sprawniej i z większą przyjemnością radzić sobie z abstrakcyjnym 
 ... **matematyka to żywa, w przeciwieństwie do psychologii stale gwałtownie rozwijająca się
 dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, obiekty geometryczne i
 rozwiązywanie zadań rachunkowych, tylko o* **mechanicznie sprawdzalne, konsekwentne i twórcze
-myślenie na wiele sposobów o czym tylko się chce** *(a czasem nie chce)*.
+myślenie o czymkolwiek na wiele różnych sposobów**.
 
 (najmocniej przepraszam, ale wtrącam się tu w przerwie od pisania rozdziału trzydziestego piątego,
 żeby podkreślić, że jak dotąd o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele, a
