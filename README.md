@@ -7,11 +7,12 @@
 
 To *nie* jest książka o liczbach, geometrii, czy rozwiązywaniu zadań rachunkowych, choć oczywiście i
 liczby i geometria i zadania rachunkowe czasem się w niej pojawiają. Ta książka jest przede
-wszystkim o tym, jak można próbować lepiej *zrozumieć siebie i innych* za pomocą *konsekwentnego* i
-*swobodnego dialogu*, w tym również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu
+wszystkim o tym, jak można próbować lepiej *zrozumieć siebie i innych* za pomocą *konsekwentnego i
+swobodnego dialogu*, w tym również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu
 na różne sposoby pewnych uniwersalnie użytecznych, dobrze określonych *punktów widzenia* na
 (jakiekolwiek) to samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej
-matematyki. To książka o matematyce jako sztuce uważnego wsłuchiwania się w siebie (nawzajem).
+matematyki. To książka o matematyce jako *sztuce uważnego i sceptycznego wsłuchiwania się w siebie*
+(nawzajem).
 
 <hr>
 
@@ -19,8 +20,7 @@ matematyki. To książka o matematyce jako sztuce uważnego wsłuchiwania się w
 4](./rozdzialy/R04_Kilka_trywialnych_mechanicznych_operacji.md), ponieważ zadałem ten rozdział,
 razem z kilkoma następnymi, jako lekturę obowiązkową do zajęć, i przekonałem się dzięki temu, że dla
 niemałej części naszych wyjątkowo zdolnych studentów nie jest wcale jasne, dlaczego i po co mieliby
-się czegoś takiego uczyć. Dlatego wstawiłem te nowe fragmenty, to znaczy właśnie po to, żeby
-udzielić odpowiedzi na pytania dlaczego i po co.
+się czegoś takiego uczyć. Te nowe fragmenty to właśnie odpowiedzi na pytania dlaczego i po co.
 
 Zapraszam do testowania, zgłaszania trudności i w ogóle jakichkolwiek spostrzeżeń lub uwag,
 zwłaszcza tych krytycznych.
@@ -44,11 +44,10 @@ książkę napisali *razem*. Bo to nie jest "moja" książka, zresztą żadna ks
 ma *służyć nauce*, nie powinna moim zdaniem, choćby tylko pozornie, "należeć" do żadnej konkretnej
 osoby, czy nawet do kilku autorów, bo wtedy *nie może* dobrze spełniać swojej roli. Żaden autor nie
 ma przecież uprzywilejowanego dostępu do trudności, jakie będą napotykać czytelnicy. Dlatego efekt
-końcowy musi być, i zresztą zawsze do pewnego stopnia jest, wynikiem *współpracy*. Jeżeli więc
-interesuje Cię, co mam tu do powiedzenia i chcesz to zrozumieć, masz szansę pomóc sobie i innym do
-Ciebie podobnym odbiorcom *rozmawiając ze mną*; w ten sposób możesz stać się w jakimś stopniu
-współautorką albo współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie, liczba mnoga jest
-przecież konieczna.  
+końcowy musi być - i zawsze do pewnego stopnia jest - wynikiem *współpracy*. Jeżeli więc interesuje
+Cię, co mam tu do powiedzenia i chcesz to zrozumieć, masz szansę pomóc sobie i innym do Ciebie
+podobnym odbiorcom *rozmawiając ze mną*; w ten sposób możesz stać się w jakimś stopniu współautorką
+albo współautorem. W stwierdzeniu, że "dzieła" tworzą ludzie, liczba mnoga jest przecież konieczna.  
 (Tylko proszę, nie pisz wtedy o błędach ortograficznych i innych tego rodzaju drobiazgach, chyba, że
 pojawiły się na głównej stronie. Mam lekką dysgrafię, ale to już nie ma większego znaczenia.)
 
@@ -60,18 +59,14 @@ to, żeby sprawniej i z większą przyjemnością radzić sobie z abstrakcyjnym 
 ... **matematyka to żywa, w przeciwieństwie do psychologii stale gwałtownie rozwijająca się
 dyscyplina**, *w której nie chodzi tylko, a nawet przede wszystkim, o liczby, obiekty geometryczne i
 rozwiązywanie zadań rachunkowych, tylko o* **mechanicznie sprawdzalne, konsekwentne i twórcze
-myślenie o czymkolwiek na wiele różnych sposobów**.
-
-(najmocniej przepraszam, ale wtrącam się tu w przerwie od pisania rozdziału trzydziestego piątego,
-żeby podkreślić, że jak dotąd o liczbach i obiektach geometrycznych powiedziałem bardzo niewiele, a
-te nieliczne zadania rachunkowe, które się pojawiły, służyły głównie jako ilustracja czegoś innego)
+rozumowanie o czymkolwiek i na wiele sposobów**.
 
 Zawsze, kiedy zmieniamy punkt widzenia, stajemy się w pewnym stopniu kimś innym, rozpoczynając w ten
 spo*sób* wewnętrzny dialog co najmniej dwóch o*sób* (a gdy zaczyna Się rymować, ten dialog staje się
 co najmniej duetem). Jednak w każdej nietrywialnej rozmowie może łatwo dojść do nieporozumienia -
-między sobą i (nieco inną o)sobą, lub niezrozumienia się dwóch nieco bardziej różnych
-osób. Poważnie, współczesna matematyka, *zwłaszcza* ta najbardziej abstrakcyjna, może w tym
-wszystkim (bardzo) pomóc.
+między sobą i (nieco inną, choćby dlatego, że późniejszą o)sobą, lub niezrozumienia się nieco
+bardziej odrębnych osób. Okazuje się, że współczesna matematyka, *zwłaszcza* ta najbardziej
+abstrakcyjna, może w tym pomóc.
 
 <hr>
 
@@ -87,17 +82,18 @@ pozyskiwaniem publicznych pieniędzy i przepychaniem publikacji akademickiego st
 
 <hr>
 
-Postawa *naukowa* to między innymi postawa *sceptyczna*, to jest taka, która domaga się
-*uzasadnienia*. Między innymi, bo to również *otwartość* na *wszelkie* nowe pomysły i *dociekliwość*
-w poszukiwaniu ważnych prawd. A postawa sceptyczna to dokładnie *przeciwieństwo* postawy
-ujawniającej się w pozornym uzasadnieniu "bo tak się robi", które w rozmaitych, czasami
-zakamuflowanych wersjach tak często niestety pada z ust nieudolnie udających naukowców psychologów
-akademickich. Zachęcam Was, drodzy studenci psychologii, żebyście przy każdej okazji, kiedy macie
-choćby tylko cień wątpliwości, zadawali osobom prowadzącym zajęcia, również te dotyczące statystyki
-i metodologii badań, pytanie o to *dlaczego* te osoby twierdzą lub sugerują to, co twierdzą lub
-sugerują. A gdy jako odpowiedź usłyszycie coś w rodzaju "bo tak się robi", albo "to zbyt
-skomplikowane, żeby można to było wyjaśnić na zajęciach", mówcie wprost, że taka odpowiedź ma coś
-wspólnego z postawą naukową tylko w tym znaczeniu, że jest jej przeciwieństwem!
+To może jeszcze jedna dygresja? Postawa *naukowa* to między innymi postawa *sceptyczna*, to jest
+taka, która *domaga się uzasadnienia*. Między innymi, bo postawa naukowa to również *otwartość* na
+nowe pomysły i *dociekliwość* w poszukiwaniu ważnych prawd. A postawa sceptyczna to dokładnie
+*przeciwieństwo* postawy ujawniającej się w pozornym uzasadnieniu "bo tak się robi", które w
+rozmaitych, czasami zakamuflowanych wersjach tak często niestety pada z ust nieudolnie imitujących
+naukowców psychologów akademickich. Zachęcam Was, drodzy studenci psychologii, żebyście przy każdej
+okazji, kiedy macie choćby tylko cień wątpliwości, zadawali osobom prowadzącym zajęcia, również te
+dotyczące statystyki i metodologii badań, pytanie o to *dlaczego* te osoby twierdzą lub sugerują to,
+co twierdzą lub sugerują. A gdy jako odpowiedź usłyszycie coś w rodzaju "bo tak się robi", albo "to
+zbyt skomplikowane, żeby można to było wyjaśnić na zajęciach", przypominajcie proszę tym *pracującym
+za publiczne pieniędze* osobom, że taka odpowiedź ma coś wspólnego z postawą naukową tylko w tym
+znaczeniu, że jest jej *przeciwieństwem*!
 
 <hr>
 
