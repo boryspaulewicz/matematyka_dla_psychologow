@@ -1,9 +1,7 @@
 <!-- -*- coding: utf-8 -*- -->
 <div align="right"><em>Wszystko, co można zrozumieć, da się powiedzieć jasno.<br/>Wszystko, co da się powiedzieć jasno, można zapisać w języku teorii typów.<br/> A to, co zostało w ten sposób zapisane, można sprawdzić i zredukować do najprostszej postaci za pomocą algorytmu.</em></div>
 
-<br/>
-<br/>
-<br/>
+<style>body {text-align: justify}</style> <br/> <br/> <br/>
 
 To *nie* jest książka o liczbach, geometrii, czy rozwiązywaniu zadań rachunkowych, choć oczywiście i
 liczby i geometria i zadania rachunkowe czasem się w niej pojawiają. Ta książka jest przede
