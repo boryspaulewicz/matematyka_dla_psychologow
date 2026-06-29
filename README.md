@@ -106,41 +106,41 @@ matematyki akurat od teorii typów i teorii kategorii?** Po pierwsze dlatego, ż
 jest możliwe, bo opanowanie podstaw tych teorii nie wymaga *żadnych* prerekwizytów i jednocześnie
 każda z tych teorii dostarcza podstaw dla całej matematyki. Mówiąc dokładniej, "za", albo "przed",
 albo "pod" teorią kategorii jest już tylko (działająca intuicyjnie) logika, a teoria typów jest
-językiem samowystarczalnym, bo logika jest jej częścią. A po drugie dlatego, że w pewnym sensie
+językiem samowystarczalnym, bo logika jest jej częścią. Po drugie dlatego, że w pewnym sensie
 *ludzie myślą w teorii typów i teorii kategorii*. Teoria typów to pewna bardzo ekspresyjna i
 uniwersalnie ważna *logika*, a więc zmechanizowane *rozumowanie*, i *programowanie*, czyli pewien
 *dialog*, chociaż w tym przypadku z komputerem, *w jednym*. Teoria kategorii to z kolei między
 innymi teoria dopasowania między różnymi sposobami opisu, albo uniwersalne narzędzie konsekwentnego
 i elastycznego operowania różnymi punktami widzenia na to samo. Albo uniwersalna teoria modularnego
 działania (w końcu na tą \{między innymi\} teorię wieloaspektowości też można popatrzeć
-wieloaspektowo).
+wieloaspektowo). Wreszcie po trzecie dlatego, że teorii typów można się uczyć tak jak każdego innego
+języka programowania, bo to nie tylko jeden z dostępnych języków podstawowych matematyki, ale
+również pełnowartościowy język programowania.
 
 **O korzystaniu ze sztucznej "inteligencji"**: Nie używam, bo nie lubię, a nie lubię, bo taki na
 przykład ChatGPT to, o ile wiem, monstrualna, żarłoczna papuga, która bezmyślnie powtarza co
 usłyszała, na masową skalę łamiąc przy okazji prawa autorskie, i która dodaje "od siebie" tylko
 mniej lub bardziej przypadkową zmienność. Poza tym może i przydaje się to monstrum na przykład do
-tworzenia, zwykle gładkiej i poprawnej, ale też jednocześnie płaskiej i generycznej prozy, albo do
-innych tego typu rzeczy, ale w tym, w czym to się sprawdza, *sam* chciałbym być coraz lepszy.
-Dlatego pomysł, żeby używać tego rodzaju narzędzi do "wyjaśniania" sensu stawiającego opór tekstu,
-który zamiast tego można by potraktować jako okazję do rozwijania - niezwykle cennej i wymagającej
+tworzenia, zwykle gładkiej i poprawnej, ale jednocześnie płaskiej i generycznej prozy, albo do
+innych tego typu rzeczy, ale w tym, w czym to się sprawdza, sam chciałbym być coraz lepszy. Dlatego
+pomysł, żeby używać tego rodzaju narzędzi do "wyjaśniania" sensu stawiającego opór tekstu, który
+zamiast tego można by potraktować jako okazję do rozwijania - niezwykle cennej i wymagającej
 nieustannego ćwiczenia - umiejętności *czytania ze zrozumieniem*, albo żeby używać tego do
 *pisania*, zamiast traktować pisanie jako okazję by *lepiej zrozumieć siebie*, jest moim zdaniem w
 najwyższym stopniu *dystopijny*.
 
 **O formie żeńskiej**: Jak można się dowiedzieć z rozdziału pierwszego, na początku pisałem używając
-form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe i nie sprzyjało
-czytelności, dlatego zdecydowałem, że skoro zdecydowana większość studentów psychologii to
-studentki, a nie studenci, będę się zwracał do Czytelniczki. Miałem jednak w związku z tym długo
-wątpliwości, bo pojawia się z tego powodu problem odpowiedniego *tonu*. Dlatego na wypadek, gdyby
-zdarzało mi się sprawiać [niewłaściwe wrażenie](https://pl.wikipedia.org/wiki/Mansplaining),
+form mieszanych w rodzaju mógłbyś/mogłabyś, ale to się szybko stało uciążliwe, dlatego zdecydowałem,
+że skoro zdecydowana większość studentów psychologii to studentki, a nie studenci, będę się zwracał
+do Czytelniczki. Miałem jednak w związku z tym długo wątpliwości dotyczące tonu. Dlatego na wypadek,
+gdyby zdarzało mi się sprawiać [niewłaściwe wrażenie](https://pl.wikipedia.org/wiki/Mansplaining),
 wyjaśniam: Sam chciałbym, żeby ktoś pisał do mnie w ten sposób i o takich sprawach, gdy byłem
 studentem. Może odpowiadałaby mi wtedy bardziej forma męska, ale forma żeńska też by mi nie
 przeszkadzała i zdaje się, że nie przeszkadza czytelni(cz)kom. A poza tym piszę też w pewnym sensie
-do *przyszłej psychologii*, która jest przecież Kobietą.
+do przyszłej psychologii, która jest przecież Kobietą.
 
 **O (czasem nad)używaniu pisma pochyłego**: Może porównaj, jak Ci się czyta te dwa fragmenty (które
-napisałem w
-stylu celowo nieludzkim!):  
+napisałem w stylu celowo nieludzkim i które nie oddają charakteru tego tekstu!):  
 
 ... ponadto każdy kategoryjny produkt odpowiada unikalnemu izomorfizmowi między następującymi dwoma obiektami ...  
 
@@ -148,7 +148,7 @@ stylu celowo nieludzkim!):
 
 Jak myślisz, czy bez oznaczonej w ten sposób *intonacji*, bo to, a nie uzyskanie protekcjonalnego
 tonu, jest wtedy moim celem, byłoby Ci łatwiej, czy trudniej, czy tak samo łatwo odgadnąć, na które
-ze słów składających się na to zdanie warto moim zdaniem zwrócić szczególną uwagę?
+ze słów składających się na to zdanie warto zwrócić szczególną uwagę?
 
 **O powtarzaniu się**: Nie da się ukryć, powtarzam się w tej książce, a niektóre rzeczy powtarzam
 *wiele* razy. I nie zamierzam nikogo za to przepraszać. Jeżeli [powtarzanie jest matką
@@ -168,7 +168,8 @@ nawiasach, chociaż to się również może czasem przydać, tylko przede wszyst
 sobą związane perspektywy zabrzmiały jak ulotny akord i zaczęły się łatwiej kojarzyć. A że lubię się
 tak wtrącać, to tym bardziej nie zamierzam się w tym zbytnio ograniczać.
 
-Znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do pisania:
+A tak przy okazji, znalazłem niedawno tweeta, który idealnie oddaje moje obecne podejście do
+pisania:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">my father always told me: “if you want to
 go for a run, go for a run, don’t look for company. sooner or later, on your fifth run or your
@@ -181,15 +182,14 @@ I ten cytat, jak podają niektórzy pochodzący od Feynmana, również tu pasuje
 
 > If you want to master something, teach it.
 
-Jeżeli więc chcesz się ze mną dokądś przejść, przebiec, dowlec, albo doczłapać i przy okazji
-dostawać wiadomości a aktualizacjach, a czasem może dodać coś od siebie, **wyślij mi
-wiadomość**. Dopiszę Cię wtedy do listy adresatów i kto wie, może dzięki temu czegoś się razem
-nauczymy.
+Jeżeli więc chcesz się ze mną dokądś przejść, przebiec, dowlec, albo doczłapać i dostawać wiadomości
+a aktualizacjach, a czasami może dodać coś od siebie, **wyślij mi wiadomość**. Dopiszę Cię wtedy do
+listy adresatów i kto wie, może dzięki temu czegoś się nauczymy.
 
 **Poza znajomością języka polskiego i umiejętnością korzystania z przeglądarki ta książka nie wymaga
 specjalnego przygotowania**, a dokładniej, rozdziały *pierwszy*, *drugi* i *od czwartego w górę*
 powinny być zrozumiałe dla *licealistów*. Informacje zwrotne, które otrzymałem do tej pory,
-sugerują, że jak dotąd faktycznie tak jest, a jeśli przestanie tak być, to spróbuję sprawić, żeby
+sugerują, że jak dotąd faktycznie tak jest, a jeśli przestanie tak być, to spróbuję sprawić, by tak
 znowu było. Co prawda piszę tą książkę przede wszystkim dla studentów psychologii, ale wydaje mi
 się, że mogliby z niej skorzystać również badacze i teoretycy (chociaż teoretycy to w psychologii
 prawie nieistniejący gatunek) zajmujący się psychologią naukową. To między innymi wprowadzenie,
@@ -197,13 +197,13 @@ niemal [równolegle](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_
 programowania i teorii typów, a tą drogą - zarazem na skróty i od podstaw - do matematyki i
 metamatematyki. 
 
-Po omówieniu podstaw logiki zdań i wprowadzeniu kilku elementów logiki predykatów zaczynam w coraz
+Po omówieniu podstaw logiki zdań i wprowadzeniu elementów logiki predykatów zaczynam w coraz
 większym stopniu polegać na teorii kategorii i na kategoryjnym sposobie myślenia o algebrach
 abstrakcyjnych. Korzystając z tych narzędzi pokazuję, posługując się w tym celu przykładami z
 codziennego życia i z psychologii, w jaki sposób można patrzeć z tej abstrakcyjnej perspektywy na
 zachowanie i myślenie, i jednocześnie jak perspektywa psychologiczna może pomóc zrozumieć tą
 abstrakcyjną perspektywę, a przez to lepiej nad nią zapanować. Równolegle wprowadzam też kolejne
-brakujące fragmenty logiki predykatów wyższego rzędu i objaśniam wybrane zagadnienia dotyczące
+brakujące elementy logiki predykatów wyższego rzędu i objaśniam wybrane zagadnienia dotyczące
 programowania. Po omówieniu polimorfizmu ad-hoc, w coraz większym stopniu ważnym źródłem przykładów
 zaczyna być psychologia, a matematyka w coraz większym stopniu staje się przede wszystkim narzędziem
 służącym do metateoretycznych badań podstaw psychologii.
@@ -217,10 +217,10 @@ szczególności i nauki empiryczne w ogólności (więcej na ten temat znajdzies
 [doktoratu](./rozdzialy/praca_doktorska.pdf), którymi zacząłem się zajmować jeszcze na etapie
 pisania pracy magisterskiej, i do których nawiązuję w wielu miejscach w części pierwszej.
 
-**Dlaczego teoria typów i dlaczego akurat
+**Trochę więcej o tym dlaczego teoria typów i dlaczego akurat
 [Lean](https://en.wikipedia.org/wiki/Lean_(proof_assistant)), a nie na przykład znacznie dłużej
 rozwijany [Coq](https://en.wikipedia.org/wiki/Coq_(software)) (lub
-[Rocq](https://rocq-prover.org/))?** Teoria typów dlatego, że pozwala sformalizować w pełni i we
+[Rocq](https://rocq-prover.org/))**: Teoria typów dlatego, że pozwala sformalizować w pełni i we
 względnie naturalny sposób, bo do pewnego stopnia *czytelny dla niespecjalistów*, niemal dowolne
 treści o charakterze matematycznym i jest jednocześnie pełnowartościowym ([funkcyjnym i
 czystym](https://pl.wikipedia.org/wiki/Programowanie_funkcyjne)) językiem programowania. W dodatku
@@ -241,9 +241,9 @@ polski można znaleźć
 [tutaj](https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/6bef0ebd-7ba5-407b-a167-d8bd49697ee6/pobierz).
 Wreszcie akurat Lean dlatego, że ma mniej od Coq'a "przegadaną" składnię, rozwija się ostatnio dość
 gwałtownie, a w dodatku sprawdził się już znakomicie jako narzędzie
-[dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024). [Tu](https://adam.math.hhu.de/#/g/leanprover-community/nng4)
-na przykład można znaleźć zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o
-liczbach naturalnych.
+[dydaktyczne](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024).
+[Tu](https://adam.math.hhu.de/#/g/leanprover-community/nng4) na przykład można znaleźć
+zaimplementowaną w Leanie *grę*, polegającą na dowodzeniu twierdzeń o liczbach naturalnych.
 
 **Pierwsze trzy rozdziały**, za wyjątkiem **wybiegających w przyszłość i wymagających pewnego
 przygotowania części rozdziału trzeciego**, mają charakter ogólnowprowadzający i chociaż nie
@@ -253,19 +253,17 @@ znaleźć nie tylko oparte na wynikach badań i moich doświadczeniach *wskazów
 tego, jak warto podchodzić do nauki jakichkolwiek treści, ale też uwagi dotyczące *nastawienia*,
 które może zwiększyć szanse na sukces w zmaganiach z tymi dość nietypowymi jak na książkę dla
 psychologów tematami. Staram się je objaśnić najlepiej jak umiem, ale nie umiem tego robić lepiej,
-niż umiem (to niekoniecznie [tautologia](https://pl.wikipedia.org/wiki/Tautologia_(logika)), za to
-te, z którymi spotkasz się w [rozdziale ósmym](./rozdzialy/Logika_na_Leanie_nowa_wersja.md) i
-[dziesiątym](./rozdzialy/Implikacja_w_zadaniach.md) są nimi z pewnością).
+niż umiem.
 
 **Piszę tą (tę[^3]) książkę w taki a nie inny sposób**, to jest posyłając czasem mniejsze a czasami
 większe zmiany i poprawki do publicznie dostępnego repozytorium GitHuba, bo dzięki temu publicznie
 dostępna historia zachodzących zmian może być ilustracją sposobu, w jaki zacząłem ostatnio myśleć o
-[zachowaniu](./rozdzialy/R03_Do_czego_autor_zmierza.md).
+[zachowaniu i *zachowywaniu Się*]](./rozdzialy/R03_Do_czego_autor_zmierza.md).
 
 Akt pisania książki jest co prawda długim, ale jednak w pewnym sensie pojedynczym aktem zachowania,
 choćby dlatego, że można orientacyjnie wskazać początek i koniec tego procesu. Jest w dodatku aktem
-*w ramach którego*, dzięki stałej autorefleksji (a może lepiej: *autor-*re*fleksji*) i informacjom
-zwrotnym pochodzącym od jej czytelników, zachodzi proces uczenia *się* - choć nie da się powiedzieć
+*w ramach którego*, dzięki stałej autorefleksji (a może *autor-*re*fleksji*?) i informacjom zwrotnym
+pochodzącym od jej czytelników, zachodzi proces uczenia *się* - choć nie da się powiedzieć
 jednoznacznie czego[^4] - i proces odkrywania, czy raczej *ustalania się*, może *chwilowo
 dominującego*, ale nadal z konieczności *nieunikalnego celu*.
 
@@ -276,12 +274,9 @@ informacji zwrotnych "z zewnątrz", bo zachowania ludzi powstają zwykle w ramac
 interakcji i nabierają dzięki takim interakcjom (również nieunikalnego) sensu. Na przykład, *to
 konkretne zdanie* powstało jako rezultat interakcji wielu bardzo sobie bliskich, bo mających wiele
 wspólnych cech, ale jednak *różnych* osób, bo *różnych wersji tej samej osoby*, z których każda
-istniała tylko *wirtualnie* i tylko *przez chwilę*, a wniosła coś do końcowego rezultatu rozwijając
-albo kwestionując to, co zrobiły te poprzednie (wersje), to zaś, co w ten sposób powstało lub uległo
-przekształceniu, przekazując dalej. Nad "zewnętrznymi" źródłami takich informacji mam jednak małą
-kontrolę, a szkoda, bo przecież, z (pewnej, którą poznasz później) definicji, im więcej punktów
-widzenia bierze udział w tym procesie i im bardziej te punkty widzenia są różne, tym większa jest
-szansa na zbliżenie się do czegoś dobrego.
+istniała tylko *wirtualnie*, bo niedoskonale i fragmentarycznie i tylko przez chwilę. Każda wniosła
+coś do końcowego rezultatu rozwijając albo kwestionując to, co zrobiły te poprzednie (wersje), to
+zaś, co powstało lub uległo w tym procesie przekształceniu, przekazała dalej.
 
 Trudno mi powiedziec, czy te ostatnie uwagi brzmią dla Ciebie "głęboko" lub "filozoficznie", bo nie
 jestem Tobą, ale niezależnie od tego, czy tak brzmią, czy nie, na zachętę pozostawię tutaj w wersji
