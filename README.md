@@ -9,8 +9,10 @@ wszystkim o tym, jak można próbować lepiej *zrozumieć siebie i innych* za po
 swobodnego dialogu*, w tym również uzewnętrznionego dialogu wewnętrznego, polegającego na łączeniu
 na różne sposoby pewnych uniwersalnie użytecznych, dobrze określonych *punktów widzenia* na
 (jakiekolwiek) to samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej
-matematyki. To książka o matematyce jako *sztuce uważnego i sceptycznego wsłuchiwania się w siebie*
-(nawzajem).
+matematyki. W dodatku pomimo czasami ekstremalnego poziomu abstrakcji, matematyka, którą będziemy
+się zajmować, jest technicznie *prostsza* niż niektóre treści matematyczne, z którymi można się
+zapoznać w liceum. To książka o matematyce jako *sztuce uważnego i sceptycznego wsłuchiwania się w
+siebie* (nawzajem).
 
 <hr>
 
