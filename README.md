@@ -10,8 +10,8 @@ swobodnego dialogu*, w tym również uzewnętrznionego dialogu wewnętrznego, po
 na różne sposoby pewnych uniwersalnie użytecznych, dobrze określonych *punktów widzenia* na
 (jakiekolwiek) to samo, których dostarczają jedne z najbardziej abstrakcyjnych teorii współczesnej
 matematyki. W dodatku pomimo czasami ekstremalnego poziomu abstrakcji, matematyka, którą będziemy
-się zajmować, jest technicznie *prostsza* niż niektóre treści matematyczne, z którymi można się
-zapoznać w liceum. To książka o matematyce jako *sztuce uważnego i sceptycznego wsłuchiwania się w
+się tu zajmować, jest technicznie *prostsza* niż niektóre treści matematyczne, z którymi można się
+zapoznać w liceum. To książka o matematyce jako *sztuce życzliwego i sceptycznego wsłuchiwania się w
 siebie* (nawzajem).
 
 <hr>
